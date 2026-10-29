@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Erste Schritte -->
 # Erste Schritte in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Willkommen zum ultimativen Erlebnis im Weltraumkrieg. Als Pilot in SpaceCorps k�
 Um zu überleben und voranzukommen, musst du zwei Währungen verwalten und deine Ehre im Blick behalten. Die Materialien, aus denen du baust, stehen auf der Seite [Ressourcen](/wiki/06-Items/Resources.md), jeweils mit ihrer Herkunft und ihrem Zweck:
 - **Credits**: Die wichtigste Standardwährung. Jedes Alien, das du besiegst, und jede abgeschlossene Mission zahlt sie aus, und die Credit-Farm deines [Skylab](/wiki/03-Mechanics/Skylab.md) produziert sie. Damit kaufst du Grundausrüstung, Schiffe und Standardausstattung.
 - **Thulium**: Das seltene radioaktive Erz und die wertvolle Währung. Jedes Alien, das du besiegst, und jede abgeschlossene Mission zahlt es aus, und die Thulium-Farm deines Skylab produziert es. Damit kaufst du Elitewaffen, Triebwerke, Hybridschilde und starke Booster-Pakete, rüstest Module in der Montage auf, wechselst den Konzern (5.000), boostest das Forschungszentrum (5.000) und bezahlst jeden Sprung einer Jump CPU (500).
-- **Ehre**: Ein Punktestand, kein Geld: das Maß für deine Loyalität und dein Ansehen. Die Ehre bestimmt nicht deinen [Rang](/wiki/03-Mechanics/Ranks.md), der sich aus deinen PvE-Punkten und, bei den sechs besten Rängen, aus den Plätzen deines Konzerns ergibt, und Angriffe auf befreundete Piloten deiner eigenen Fraktion kosten dich viel Ehre: Einen Piloten deines eigenen Konzerns zu zerstören, also das Schiff eines Spielers oder einen seiner [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md), kostet 100 Ehre. Dasselbe gilt, wenn du einen in den 15 Sekunden triffst, bevor etwas anderes ihn zerstört: Einen Konzernkameraden für ein Alien sturmreif zu schießen kostet so viel wie der Abschuss selbst. Der Abschuss eines Konzernkameraden ist kein PvP-Abschuss und bringt keine PvP-Punkte. Ein Konzernwechsel nimmt dir die Hälfte deiner Ehre, abgerundet; eine Ehre von 0 oder weniger bleibt, wie sie ist ([Den Konzern wechseln](#changing-your-company)).
+- **Ehre**: Ein Punktestand, kein Geld: das Maß für deine Loyalität und dein Ansehen. Die Ehre bestimmt nicht deinen [Rang](/wiki/03-Mechanics/Ranks.md), der sich aus deinen PvE-Punkten der Saison und, bei den sechs besten Rängen, aus den Plätzen deines Konzerns ergibt, und Angriffe auf befreundete Piloten deiner eigenen Fraktion kosten dich viel Ehre: Einen Piloten deines eigenen Konzerns zu zerstören, also das Schiff eines Spielers oder einen seiner [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md), kostet 100 Ehre. Dasselbe gilt, wenn du einen in den 15 Sekunden triffst, bevor etwas anderes ihn zerstört: Einen Konzernkameraden für ein Alien sturmreif zu schießen kostet so viel wie der Abschuss selbst. Der Abschuss eines Konzernkameraden ist kein PvP-Abschuss und bringt keine PvP-Punkte. Ein Konzernwechsel nimmt dir die Hälfte deiner Ehre, abgerundet; eine Ehre von 0 oder weniger bleibt, wie sie ist ([Den Konzern wechseln](#changing-your-company)).
 
 Auf der Station stehen deine Credits, dein Thulium und deine Ehre auf jeder Seite oben rechts, neben deinem Sektor und der Schaltfläche **Starten**. Ist das Fenster für einen langen Betrag zu schmal, wird er gekürzt (987,7 Mio.); zeige darauf, um die ganze Zahl zu lesen.
 
@@ -30,6 +30,8 @@ Klicke auf den Namen eines Piloten in der Ruhmeshalle (**Community › Rangliste
 - **Spielzeit.** Wie lange das Spiel des Piloten mit dem Server verbunden war, in Stunden und Minuten („128 Std. 15 Min.“, „45 Min.“), im Flug oder auf der Station. Auch Zeit, in der du nur dastehst, zählt mit. Gezählt wird seit 0.4.12; bei einem Piloten, der davor gespielt hat, ist es also die Zeit seit diesem Update.
 
 Beides ist öffentlich, wie Level und Rang: Jeder angemeldete Pilot kann es in einem Profil lesen. Der Wipe der Saison setzt beides nicht zurück.
+
+Über dein Profil hinaus hält **Community › Erfolge** deine Karriereziele mit ihren Belohnungen und Titeln fest: siehe [Erfolge](/wiki/03-Mechanics/Achievements.md).
 
 ## Den Konzern wechseln {#changing-your-company}
 

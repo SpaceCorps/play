@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Per iniziare -->
 # Per iniziare in SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Ti diamo il benvenuto nell’esperienza definitiva di guerra spaziale. Come pilo
 Per sopravvivere e prosperare devi gestire due valute e tenere d’occhio il tuo onore. I materiali con cui costruisci sono nella pagina [Risorse](/wiki/06-Items/Resources.md), con dove trovare ciascuno e a cosa serve:
 - **Crediti**: la valuta standard principale, pagata da ogni alieno che abbatti e dalle missioni completate, e prodotta dalla Fattoria crediti del tuo [Skylab](/wiki/03-Mechanics/Skylab.md). Servono per comprare equipaggiamento base, navi ed equipaggiamento standard.
 - **Thulium**: il raro minerale radioattivo e valuta di grande valore, pagata da ogni alieno che abbatti e dalle missioni completate, e prodotta dalla Fattoria Thulium del tuo Skylab. Serve per acquistare armi d’élite, motori, scudi ibridi e potenti pacchetti di booster, per potenziare i moduli in Assemblaggio, per cambiare corporazione (5.000), per dare un boost al Centro ricerche (5.000) e per ogni salto di una Jump CPU (500).
-- **Onore**: un punteggio, non denaro: la misura della tua lealtà e della tua reputazione. L’onore non determina il tuo [grado](/wiki/03-Mechanics/Ranks.md), che deriva dai tuoi punti PvE e, per i sei gradi migliori, dai posti della tua corporazione, e attaccare i piloti alleati della tua stessa fazione penalizza pesantemente il tuo onore: distruggere un pilota della tua corporazione, cioè la nave di un giocatore o uno dei suoi [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), costa 100 onore. Lo stesso vale se ne colpisci uno nei 15 secondi prima che qualcos’altro lo distrugga: indebolire un pilota della tua corporazione perché un alieno lo finisca costa quanto l’abbattimento. Abbattere un pilota della tua corporazione non è un abbattimento PvP e non dà punti PvP. Cambiare corporazione ti toglie metà del tuo onore, arrotondata per difetto; un onore pari o inferiore a 0 resta com’è ([Cambiare corporazione](#changing-your-company)).
+- **Onore**: un punteggio, non denaro: la misura della tua lealtà e della tua reputazione. L’onore non determina il tuo [grado](/wiki/03-Mechanics/Ranks.md), che deriva dai tuoi punti PvE della stagione e, per i sei gradi migliori, dai posti della tua corporazione, e attaccare i piloti alleati della tua stessa fazione penalizza pesantemente il tuo onore: distruggere un pilota della tua corporazione, cioè la nave di un giocatore o uno dei suoi [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md), costa 100 onore. Lo stesso vale se ne colpisci uno nei 15 secondi prima che qualcos’altro lo distrugga: indebolire un pilota della tua corporazione perché un alieno lo finisca costa quanto l’abbattimento. Abbattere un pilota della tua corporazione non è un abbattimento PvP e non dà punti PvP. Cambiare corporazione ti toglie metà del tuo onore, arrotondata per difetto; un onore pari o inferiore a 0 resta com’è ([Cambiare corporazione](#changing-your-company)).
 
 Alla stazione, i tuoi Crediti, il tuo Thulium e il tuo Onore si trovano in alto a destra in ogni pagina, accanto al tuo settore e al pulsante **Decolla**. Se la finestra è troppo stretta per una cifra lunga, questa viene abbreviata (987,7M); punta il cursore su di essa per leggere il numero intero.
 
@@ -30,6 +30,8 @@ Clicca sul nome di un pilota nell’Albo d’oro (**Comunità › Classifiche**)
 - **Tempo di gioco.** Per quanto tempo il gioco del pilota è stato collegato al server, in ore e minuti (“128 h 15 min”, “45 min”), in volo o alla stazione. Conta anche il tempo passato fermo. Il conteggio è iniziato con la 0.4.12, quindi per un pilota che giocava prima è il tempo trascorso da quell’aggiornamento.
 
 Entrambi sono pubblici, come livello e grado: qualsiasi pilota connesso può leggerli in un profilo. Il reset della stagione non li azzera.
+
+Oltre al tuo profilo, **Comunità › Obiettivi** tiene le mete della tua carriera, con ricompense e titoli: vedi [Obiettivi](/wiki/03-Mechanics/Achievements.md).
 
 ## Cambiare corporazione {#changing-your-company}
 

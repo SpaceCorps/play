@@ -26,7 +26,7 @@ The inventory lists your items in the same order as the Shop, whatever order you
 
 ## Marketable items
 
-Items you earned (drops, mission rewards, and what the Assembly and the Forge make) carry a small **Marketable** tag on their tile, and the item card reads "Marketable", or "Marketable (3 of 5)" for a stack of which only some units can be sold. The **Marketable only** chip beside the category chips shows only those items. A **gavel** beside the trash of a tagged item opens the sell sheet of the [Auction](/wiki/03-Mechanics/Auction.md) (it is not shown in flight: selling is a page of the station). What you bought, won or were given has no tag and can't be sold again.
+Items you earned (drops, mission rewards, and what the Assembly and the Forge make) carry a small **Marketable** tag on their tile, and the item card reads "Marketable", or "Marketable (3 of 5)" for a stack of which only some units can be sold. The **Marketable only** chip beside the category chips shows only those items. A **gavel** beside the trash of a tagged item opens the sell sheet of the [Auction](/wiki/03-Mechanics/Auction.md) (it is not shown in flight: selling is a page of the station). What you bought, won or were given has no tag and can't be sold again, and neither has anything a [container](/wiki/06-Items/Containers.md) gives.
 
 ## Select several items
 

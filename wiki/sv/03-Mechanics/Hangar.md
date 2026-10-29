@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ Sidan **Builds** i Biblioteket kan importera det som är monterat på ett av din
 Skeppet du byter till har **det skrov och de sköldar det hade** när du senast flög det, precis som om du hade flugit ut med det. Ringen reparerar inte, så att byta skepp läker dig aldrig: skeppet du lämnar behåller sin skada och kommer tillbaka med den. Ett vrakat skepp går inte att flyga förrän du har reparerat det, vilket är gratis och ger det högst 10 000 skrov och ingen sköld, som en återkomst.
 
 Det som är ditt förblir ditt: din ammunition, dina raketer och deras omladdning, dina förmågors återhämtning, dina boosters, din XP och dina Slave Drones. Det som hörde till skeppet upphör: en pågående Shield Surge eller Afterburner, reparationer, din målfixering, ditt anfall och kursen du flög. Utrustning sitter kvar på det skepp den är monterad på.
+
+## Wipen och dina skepp {#the-wipe-and-your-ships}
+
+Wipen behåller **varje skepp du äger**, med helt skrov och tomma sköldar. Vilket skepp som behåller det som sitter på det avgör [transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+Det ena skepp du låser i förrådet behåller sin utrustning och blir efter wipen ditt aktiva skepp; om inget är låst behåller ditt aktiva skepp sin utrustning. Ett låst skepp märks med ett lås i Hangaren och kan inte utrustas, utrustas av, byggas om eller flygas före wipen. Från säsongens dag 26 säger varje skeppskort om skeppet behåller sin utrustning vid wipen eller töms.
 
 ## Förfrågningar från andra verktyg {#requests-from-other-tools}
 

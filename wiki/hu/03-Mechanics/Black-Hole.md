@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-A Veszélyes szektor 4 (`DS-4`, a PvP-zóna központja) pontos közepén egy feketelyuk lebeg a sötétben. Minden világban ugyanolyan (Alpha, Beta és Gamma), a szezon minden napján, a Békeprotokoll idején is. Elnyel mindent, ami túl közel kerül, és egyetlen dolgot ad vissza cserébe: [Dark Mattert](#dark-matter), a beléje lőtt N.I.K.E. rakétáért. A teljes utat a kutatástól a plate-ig a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) írja le.
+A Veszélyes szektor 4 (`DS-4`, a PvP-zóna központja) pontos közepén egy feketelyuk lebeg a sötétben. Minden világban ugyanolyan (Alpha, Beta és Gamma), a szezon minden napján, a Békeprotokoll idején is. Elnyel mindent, ami túl közel kerül, és egyetlen dolgot ad vissza cserébe: [Dark Mattert](#dark-matter), a beléje lőtt N.I.K.E. rakétáért. A teljes utat a kutatástól a plate-ig a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) írja le. Minden szezon [univerzum-wipe-ja](/wiki/03-Mechanics/Wipe-Timeline.md) előtti utolsó 72 órában az 1,8-szeresére nő ([A wipe előtt nő](#growing-before-the-wipe)); ezen az oldalon minden más a normál méretére vonatkozik.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ A távolságok a szektor középpontjától értendők, térképi egységben. A 
 | **A nincs visszaút pontja** | kb. 1 000–2 600 | Ott van, ahol a vonzás egyenlő a hajód sebességével. Ezen belül még teljes tolóerővel is behúz a lyuk. A sebességedtől függ. |
 | **Eseményhorizont** | 300 | Minden hajó, amely eléri, azonnal megsemmisül, bármilyen hajótest és pajzs van rajta. |
 
-A Veszélyes szektor 4 portáljai és a köztük futó útvonalak mind jóval a sugárzáson kívül haladnak, így átutazás közben sosem találkozol vele véletlenül. A szezon 11. napjától ugyanebben a szektorban a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) is áll, a bal felső sarkában, messze a lyuktól; az ottani idegenek sosem lépnek be a lyuk gyűrűibe.
+A Veszélyes szektor 4 portáljai és a köztük futó útvonalak mind jóval a sugárzáson kívül haladnak, így átutazás közben sosem találkozol vele véletlenül. A szezon 11. napjától ugyanebben a szektorban a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) is áll, a bal felső sarkában, messze a lyuktól; az ottani idegenek sosem lépnek be a lyuk gyűrűibe. A szezon utolsó napjai kivételek: lásd [A wipe előtt nő](#growing-before-the-wipe).
+
+## A wipe előtt nő {#growing-before-the-wipe}
+
+A feketelyuk nem egész szezonban ugyanakkora. Az [univerzum-wipe](/wiki/03-Mechanics/Wipe-Timeline.md) előtti utolsó **72 órában** növekedni kezd, másodpercenként egy kicsit, a wipe előtti **24. órától** pedig a wipe-ig az **1,8-szerese** a méretének. Ez minden hosszára érvényes: az eseményhorizont, a vonzás és a sugárzás 1,8-szer olyan messze van a középponttól, és a gyűrű is, amely körül a szerver terel téged. A kép, a térképeken a gyűrűk és a hangok vele nőnek.
+
+| | Normál | 48 órával előtte (1,4-szeres) | 24 órától előtte (1,8-szeres) |
+| :--- | ---: | ---: | ---: |
+| **Eseményhorizont** | 300 | 420 | 540 |
+| **Vonzás** | 3 000 | 4 200 | 5 400 |
+| **Sugárzás** | 4 000 | 5 600 | 7 200 |
+| **Terelőgyűrű** | 4 200 | 5 880 | 7 560 |
+
+Ami nem változik, az az, hogy milyen kemény a hely a befelé vezető út ugyanazon hányadánál: egy hajó, amely 3 600 egységre van a középponttól, 1,8-szeres lyuk mellett azt érzi, amit egy hajó 2 000 egységre egy normál napon (másodpercenként 96 egységnyi vonzást és az életerejének másodpercenként 2 %-át). A megnőtt lyuk nem erősebb, hanem szélesebb, és egy hajónak 1,8-szer annyi idő átkelni rajta. Minden hajó „nincs visszaút” pontja 1,8-szer olyan messze van. Az oldalon minden távolság a normál méretre vonatkozik: szorozd meg a lyuk méretével, hogy a megnőtt lyukat olvasd le.
+
+- **Hogyan látod.** Az utolsó 72 órában a Dashboard tetején egy kártya, a repülési nézetben pedig egy felirat a feketelyuk fölött visszaszámol a wipe-ig („Univerzum-wipe 1n 05:12:33 múlva”), és megmondja, hányszorosa a lyuk a méretének; az utolsó öt percben a wipe saját visszaszámlálója veszi át. A kistérkép buboréka a lyuk mostani méretének gyűrűit nevezi meg.
+- **Mikor.** A méret csak a szezon órájától függ, ezért minden világban ugyanaz. Amíg egy admin egy napon tartja a szezont, semmi nincs ütemezve, és a lyuk a normál méretén marad; ha a szezon napját átállítják, a lyuk azonnal követi; a következő szezon normál lyukkal indul.
+- **A portálok.** A `DS-4` sarkaiban lévő két portál, a középponttól 17 000 egységre, és a felső portál, a középponttól 8 000 egységre, még a megnőtt sugárzáson (7 200) és terelőgyűrűn (7 560) is kívül marad. A felső portáltól egy sarokportálig vezető útvonal a középponthoz 5 472 egységre kerül, és a wipe előtt nagyjából 50 órától sugárzásban van; a két sarokportál közötti (legközelebbi pontján 8 000 egység) szabad marad.
+- **A szektor többi része.** Az idegenek soha nem vadásznak, kóborolnak vagy jelennek meg a terelőgyűrűn belül, ezért maguk előtt hajtja őket, és semmi sem kerül le benne; 1,8-szeres méretnél a szektor nagyjából egyharmadát fedi le. Aki a megnőtt sugárzásban, a vonzáson kívül lép ki a játékból, a térkép legközelebbi szabad helyén tér vissza, a gyűrűn kívül. Az idegen, akit az eseményhorizont vagy a sugárzás elér, megsemmisül, mint egy hajó. Az a mozgásparancs, amely átvágna a gyűrűn, megkerüli azt; a gyűrűn belül végződő parancsot a hajó úgy repüli, ahogy kiadták.
 
 ## Sugárzás {#radiation}
 

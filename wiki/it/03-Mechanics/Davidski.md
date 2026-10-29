@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f8afbadaba141b0c -->
+<!-- wiki-i18n source: c0e478368e420e01 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -50,7 +50,7 @@ La cassa contiene da 40 a 60 Ship Fragment, da 10 a 20 Power Core e da 3.000 a 6
 
 ## Comprare da lui {#buying-from-him}
 
-Le sue scorte sono nell’elenco del **Mercato** dell’asta, tra le inserzioni dei piloti: una riga per ciascuno degli 84 tipi che l’asta elenca, in crediti e in Thulium (168 righe), con il prezzo di un lotto, con il suo nome in oro, un distintivo **NPC** e un segno di infinito per la quantità e il tempo rimasto. La ricerca, le categorie e i filtri di incantamento e di valuta del Mercato restringono le sue righe come qualsiasi inserzione (i suoi oggetti sono Standard), e i suoi ordinamenti le mettono dove dice il loro numero: per prezzo accanto ai prezzi dei piloti, dopo le inserzioni dei piloti sotto **In scadenza** e **Più recenti**. Scegline una per vedere i dettagli e **Compra: …**; l’acquisto va a lui, non a un pilota. I prezzi:
+Le sue scorte sono nell’elenco del **Mercato** dell’asta, dopo le inserzioni dei piloti: una riga per ciascuno degli 84 tipi che l’asta elenca, in crediti e in Thulium (168 righe), con il prezzo di un lotto, con il suo nome in oro, un distintivo **NPC** e un segno di infinito per la quantità e il tempo rimasto. La ricerca, le categorie e i filtri di incantamento e di valuta del Mercato restringono le sue righe come qualsiasi inserzione (i suoi oggetti sono Standard), e ogni ordinamento dell’elenco le mette dopo l’ultima inserzione di un pilota (per prezzo vanno, tra loro, dalla più economica alla più cara). Scegline una per vedere i dettagli e **Compra: …**; l’acquisto va a lui, non a un pilota. I prezzi:
 
 - **100 volte il prezzo del Negozio in crediti e 40 volte in Thulium** per gli oggetti che il Negozio vende; un prezzo del Negozio in una valuta vale nell’altra a 200 crediti per Thulium. Un Repair Drone I (5.000 crediti al Negozio) costa 500.000 crediti o 1.000 Thulium, un Quantum Laser I 800.000 crediti o 1.600 Thulium, i razzi da 50.000 a 100.000 crediti l’uno. I due prezzi non valgono uguale: a 200 crediti per Thulium, 1.000 Thulium sarebbero solo 200.000 crediti.
 - **L’equipaggiamento che il Negozio non vende è la sua ultima spiaggia: 200 volte il valore di riferimento in crediti e 80 volte in Thulium**, almeno 50 volte quanto costa la via più economica per ottenerlo (crearlo da te, o il prezzo di un altro pilota). Un Quantum Laser III costa 84.966.000 crediti o 169.932 Thulium, un Helios Beam 682.192.400 crediti o 1.364.388 Thulium e un Hull Plating III 1.271.074.400 crediti o 2.542.152 Thulium. Queste righe portano un piccolo distintivo **Ultima spiaggia**, come le risorse rare qui sotto.

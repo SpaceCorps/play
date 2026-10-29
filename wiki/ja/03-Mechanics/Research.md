@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -29,6 +29,8 @@
 - **コアレベル 10 未満**では研究できないので、アセンブリで新しいものはまだ製作できません。ステーションミッションがコアを上げる手助けをしてくれます。
 
 <!-- research-centre:end -->
+
+**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究を、その技術の研究時間が24時間以内なら即座に完了させます（151の技術のうち135）。研究にかかった費用は開始時に支払い済みで返ってきません。まだ燃やしていない科学ポイントはタンクに残り、キューの次の技術はすぐに始まります。
 
 **レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを4枚と Ancient Control Unit を1個要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 - **封印された裏口** は、購入・製造・取引のどこでも、すべてのロケットの所持上限を引き上げます。
 - **掘削機採掘** は、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)の箱から受け取る量を、Thulium も鉱石も増やします。
 - **場の理論** は、被弾のうちシールドが受け止める割合を引き上げます。シールドのない艦船には効果がありません。
-- **眠れる知識** は、研究がセンターで完了するたびに、レベルごとに一度ワイプポイントを支払います。前のレベルに加えて、ほかの技術を一定の割合で研究済みであることが必要です（パイロットファミリーの技術は数に入り、五つの眠れる知識は入りません）。入手方法は問いません。表には各割合と、それが何件にあたるかが載っています。
+- **眠れる知識** は、研究がセンターで完了するたびにレベルごとにワイプポイントを支払い、ワイプのたびにもう一度支払います（[ワイプポイントの獲得](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。前のレベルに加えて、ほかの技術を一定の割合で研究済みであることが必要です（パイロットファミリーの技術は数に入り、五つの眠れる知識は入りません）。入手方法は問いません。表には各割合と、それが何件にあたるかが載っています。
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

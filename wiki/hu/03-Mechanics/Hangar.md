@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ A Könyvtár **Buildek** oldala be tudja importálni, ami az egyik hajódon fel 
 A hajónak, amelyre váltasz, **ugyanaz a hajóteste és ugyanazok a pajzsai** vannak, **mint amikor** utoljára repültél vele, pontosan úgy, mintha elindítottad volna. A gyűrű nem javít, így a hajócsere sosem gyógyít: a hajó, amelyet elhagysz, megtartja a sérülését, és azzal tér vissza. Egy megsemmisült hajóval nem repülhetsz, amíg újra nem éleszted; ez ingyen van, és az újraéledéshez hasonlóan legfeljebb 10 000 hajótesttel és pajzs nélkül hozza vissza.
 
 Ami a tiéd, a tiéd marad: a lőszered, a rakétáid és az időzítőjük, a képességeid töltődései, a boosterid, az XP-d és a Slave Drone-jaid. Ami a hajóhoz tartozott, véget ér: egy futó Shield Surge vagy Afterburner, a javítások, a célzásod, a támadásod és az irány, amelyen repültél. A felszerelések azon a hajón maradnak, amelyre fel vannak szerelve.
+
+## A wipe és a hajóid {#the-wipe-and-your-ships}
+
+A wipe **minden hajódat** megtartja, teljes hajótesttel és üres pajzzsal. Hogy melyik hajó tartja meg a rászerelt felszerelést, azt a [tranzittároló](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) dönti el.
+
+Az az egy hajó, amelyet a tárolóban zárolsz, megtartja a felszerelését, és a wipe után az aktív hajód lesz; ha egy sincs zárolva, az aktív hajód tartja meg a felszerelését. A zárolt hajót a Hangár lakattal jelöli, és a wipe-ig nem lehet felszerelni, leszerelni, átalakítani vagy repülni vele. A szezon 26. napjától minden hajókártya megmondja, hogy a hajó megtartja-e a felszerelését a wipe-nál, vagy lecsupaszítják.
 
 ## Más eszközökből érkező kérések {#requests-from-other-tools}
 

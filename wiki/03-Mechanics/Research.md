@@ -28,6 +28,8 @@ This page has the whole technology tree with the time each technology takes, the
 
 <!-- research-centre:end -->
 
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (135 of the 151 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
+
 **The laser amps and the last tier.** The Damage, Crit and Penetration Amps of tiers II to IV are researched crafts like the rest. Pilots who held or had queued amps when the amp families came received the technology of each of those amps and of the tiers below them. Thirteen technologies need a technology of another tree, the Dark Matter Plate's of the Resources tree, because the last tier of every upgrade chain asks for four plates and an Ancient Control Unit: the tier IV Damage, Crit and Penetration Amps, the tier IV Absorption and Capacity Shield Cells, the tier IV Impulse and Momentum Thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. A pilot who researched one of them earlier keeps it, and needs the plate's technology to craft its plates. The tree below draws no arrow for it, but the table lists it and the card in the game names it ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
 In the **Research** view of your Skylab a technology tells you more than a box of the trees below. Point at one and a card opens with the research time and the science it burns and, under them, what the item **is and does**: its kind and its tier in its family (for example the third of the four Impulse Thrusters), its description, its numbers as the Hangar and the Shop show them (the damage, crit chance and range of a laser, the capacity, recharge and absorbance of a shield, the speed boost and multiplier of a thruster, the damage, blast and range of a rocket, what a drone formation gives and what it costs you), a small table of the tiers of its family, and what Assembly then asks to craft it: the time, the Credits and Thulium and the materials. So you can see what a tier gives before you research it. Click a technology to pick it: the card beside the tree shows the same in full, under the **Start research** button. While a research runs, **Queue** takes the place of the Start button: a queued technology shows its order number on the tree, and a queue card under the research that runs lists them all, each with a cross to take it out. If the next one cannot start (the Dark Matter it needs is not in the Centre, or the tank is empty), the queue waits and says why, until you fix it and press **Start queue**.
@@ -317,8 +319,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -350,7 +352,7 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 - **Sealed Backdoor** raises the carry limit of every rocket, wherever you buy, make or trade it.
 - **Excavator Mining** raises what you take from every box of a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md), Thulium and ore alike.
 - **Field Theory** raises the share of every hit that your shields take. A ship with no shield gets nothing.
-- **Dormant Knowledge** pays Wipe Points, once for each level, when its research finishes in the Centre. Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
+- **Dormant Knowledge** pays Wipe Points for each level when its research finishes in the Centre, and again after every wipe ([Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
-Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une échelle militaire de 8 paliers de 3 degrés chacun, 24 grades au total. Votre grade vient de vos **points PvE** : les points que vous gagnez grâce à votre niveau, à votre expérience et aux aliens que vous détruisez. Chaque grade exige un **minimum** de points PvE, et les six meilleurs grades ont en plus un nombre fixe de **places** dans chaque corporation. En vol, le jeu n’affiche qu’un petit **symbole** devant le nom d’un pilote, pour que vous distinguiez d’un coup d’œil les meilleurs pilotes d’une corporation d’une jeune recrue, et un pilote de tout le serveur porte une **couronne** dorée au-dessus de son symbole. Les mots se trouvent sur la page Corporation et dans l’info-bulle d’un symbole.
+Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une échelle militaire de 8 paliers de 3 degrés chacun, 24 grades au total. Votre grade vient de vos **points PvE** : les points que vous gagnez depuis la dernière réinitialisation grâce aux niveaux pris, à votre expérience et aux aliens que vous détruisez. Chaque grade exige un **minimum** de points PvE, et les six meilleurs grades ont en plus un nombre fixe de **places** dans chaque corporation. En vol, le jeu n’affiche qu’un petit **symbole** devant le nom d’un pilote, pour que vous distinguiez d’un coup d’œil les meilleurs pilotes d’une corporation d’une jeune recrue, et un pilote de tout le serveur porte une **couronne** dorée au-dessus de son symbole. Les mots se trouvent sur la page Corporation et dans l’info-bulle d’un symbole.
 
 **En une minute**
 
@@ -13,7 +13,7 @@ Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une é
 - Seuls les pilotes qui ont des points PvE et ont volé durant les 30 derniers jours figurent dans une liste. Tous les autres sont Pilote junior jusqu’à leur prochain vol, et n’ont pas de place.
 - Une **couronne** dorée au-dessus du symbole désigne le pilote qui a le plus de points PvE de tout le serveur : toutes les corporations, les trois mondes.
 - Votre grade bouge. Jusqu’à Colonel sénior, il ne dépend que de vos points, donc il ne fait que monter. Les six meilleurs grades bougent aussi avec les autres pilotes de votre corporation : ils peuvent baisser quand d’autres prennent les places au-dessus de vous. Une baisse n’est jamais annoncée ; un nouveau meilleur grade, si.
-- La réinitialisation ne change les points de personne : les listes ne repartent donc pas de zéro.
+- À la réinitialisation, les points repartent de zéro : les listes repartent donc aussi et chaque saison est une nouvelle ascension. Votre grade de la saison passe dans votre historique et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Cela commence avec la première réinitialisation des nouvelles règles : d’ici là, vos points sont ceux de toute votre carrière.)
 - Le symbole devant un nom est le grade : une forme pour le palier, de une à trois marques pour le degré.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Ouvrez **Économie › Corporation**. Sa section **Classement de la corporation*
 
 ## Grades et réinitialisation {#ranks-and-the-wipe}
 
-Une réinitialisation ne change les points de personne. Elle conserve votre niveau, votre expérience et vos statistiques d’éliminations ([Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), et vos points PvE en sont calculés : le classement de votre corporation est donc dans le même ordre après la réinitialisation, et les grades et la couronne aussi. Votre grade n’est toutefois plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
+À la réinitialisation, vos points PvE repartent de zéro : le classement de votre corporation repart donc aussi et chaque saison est une nouvelle ascension. Seul compte ce que vous gagnez après une réinitialisation : les niveaux pris, l’expérience et les éliminations d’aliens de la nouvelle saison ([Points neufs](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Votre niveau, votre expérience et vos statistiques d’éliminations restent dans vos totaux. **L’honneur ne détermine pas votre grade.** Le grade que vous déteniez à l’instant de la réinitialisation passe dans l’historique de vos saisons, avec votre place dans le classement, et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Votre grade n’est pas non plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
+
+La première réinitialisation des nouvelles règles est la première à faire repartir les points : d’ici là, ils sont ceux de toute votre carrière, et cette réinitialisation clôt une saison avec les grades que le classement montre alors.
 
 ## Combien de temps cela prend {#how-long-it-takes}
 
 Ce sont des **estimations** tirées d’un modèle de la vitesse à laquelle un pilote chasse, pas des mesures. Un pilote qui chasse environ deux heures par jour, soit 58 heures par saison, a environ 21 200 points PvE au bout d’une saison : Colonel. En heures de chasse, le minimum de Pilote arrive dans la première heure, celui de Sergent en 4, celui de Capitaine en 18, celui de Commandant en 38, celui de Colonel en 55, celui de Général junior en 67, celui de Général en 73, celui de Général sénior en 78, celui de Amiral junior en 101, celui de Amiral en 113 et celui de Amiral sénior en 124.
 
-Un pilote actif typique atteint donc les grades à places pendant sa deuxième saison. Obtenir une place dépend des autres pilotes de sa corporation, qui chassent aussi : les places d’un grade ne comptent que lorsque plus de pilotes en atteignent le minimum qu’il n’a de places. D’ici là, le grade ne dépend que de vos points.
+Un pilote actif typique termine donc une saison comme Colonel, et les grades à places, de Général junior à Amiral sénior, demandent de 67 à 124 heures de chasse en une saison : environ 2 à 4 heures par jour. Obtenir une place dépend des autres pilotes de sa corporation, qui chassent aussi : les places d’un grade ne comptent que lorsque plus de pilotes en atteignent le minimum qu’il n’a de places. D’ici là, le grade ne dépend que de vos points.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Kom igång -->
 # Kom igång i SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Välkommen till den ultimata rymdkrigsupplevelsen. Som pilot i SpaceCorps repres
 För att överleva och klara dig måste du hushålla med två valutor och hålla koll på din heder. Materialen du bygger med finns på sidan [Resurser](/wiki/06-Items/Resources.md), med var du hittar var och en och vad den används till:
 - **Krediter**: Den vanliga huvudvalutan, som varje utomjording du besegrar och varje slutfört uppdrag betalar ut, och som Kreditfarmen i din [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar. Används för att köpa grundutrustning, skepp och standardutrustning.
 - **Thulium**: Den sällsynta radioaktiva malmen och högvärdesvalutan, som varje utomjording du besegrar och varje slutfört uppdrag betalar ut, och som Thuliumfarmen i din Skylab tillverkar. Används för att köpa elitvapen, motorer, hybridsköldar och kraftfulla boosterpaket, för att uppgradera moduler i Monteringen, för att byta koncern (5 000), för att boosta Forskningscentrumet (5 000) och för varje hopp med en Jump CPU (500).
-- **Heder**: Ett poängvärde, inte pengar: ett mått på din lojalitet och ställning i fraktionen. Heder avgör inte din [grad](/wiki/03-Mechanics/Ranks.md), som kommer från dina PvE-poäng och, för de sex bästa graderna, från din koncerns platser, och att angripa piloter i din egen fraktion straffar din hedersrating hårt: att förstöra en pilot i din egen koncern, en spelares skepp eller en av dess [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), kostar 100 heder. Det gör även att träffa en under de 15 sekunderna innan något annat förstör den: att mjuka upp en koncernkamrat åt en utomjording som ska göra slut på den kostar lika mycket som själva nedskjutningen. Att skjuta ner en koncernkamrat räknas inte som en PvP-nedskjutning och ger inga PvP-poäng. Att byta koncern tar hälften av din heder, avrundat nedåt; en heder på 0 eller lägre ligger kvar som den är ([Byta koncern](#changing-your-company)).
+- **Heder**: Ett poängvärde, inte pengar: ett mått på din lojalitet och ställning i fraktionen. Heder avgör inte din [grad](/wiki/03-Mechanics/Ranks.md), som kommer från dina PvE-poäng för säsongen och, för de sex bästa graderna, från din koncerns platser, och att angripa piloter i din egen fraktion straffar din hedersrating hårt: att förstöra en pilot i din egen koncern, en spelares skepp eller en av dess [koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md), kostar 100 heder. Det gör även att träffa en under de 15 sekunderna innan något annat förstör den: att mjuka upp en koncernkamrat åt en utomjording som ska göra slut på den kostar lika mycket som själva nedskjutningen. Att skjuta ner en koncernkamrat räknas inte som en PvP-nedskjutning och ger inga PvP-poäng. Att byta koncern tar hälften av din heder, avrundat nedåt; en heder på 0 eller lägre ligger kvar som den är ([Byta koncern](#changing-your-company)).
 
 På stationen står dina krediter, ditt Thulium och din heder uppe till höger på varje sida, bredvid din sektor och knappen **Flyg ut**. Är fönstret för smalt för ett långt belopp förkortas det (987,7M); peka på det för att läsa hela talet.
 
@@ -30,6 +30,8 @@ Klicka på en pilots namn i Hedersgalleriet (**Gemenskap › Ranking**), på sid
 - **Speltid.** Hur länge pilotens spel har varit anslutet till servern, i timmar och minuter (”128 h 15 min”, ”45 min”), under flygning eller på stationen. Tid då du står still räknas också. Räkningen började med 0.4.12, så för en pilot som spelade före det är det tiden sedan uppdateringen.
 
 Båda är offentliga, som nivå och grad: varje inloggad pilot kan läsa dem på en profil. Säsongens wipe nollställer ingen av dem.
+
+Utöver din profil håller **Gemenskap › Prestationer** reda på dina karriärmål, med belöningar och titlar: se [Prestationer](/wiki/03-Mechanics/Achievements.md).
 
 ## Byta koncern {#changing-your-company}
 

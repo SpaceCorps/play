@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -28,7 +28,7 @@ A leltár a tárgyaidat ugyanabban a sorrendben listázza, mint a Bolt, függetl
 
 ## Eladható tárgyak {#marketable-items}
 
-A megszerzett tárgyak (zsákmány, küldetésjutalmak, és amit a Gyártás és a Kovácsműhely előállít) csempéjén kis **Eladható** címke látszik, a tárgykártya pedig azt írja: „Eladható”, vagy egy olyan köteg esetén, amelynek csak egy része adható el, „Eladható (3 / 5)”. A kategóriachipek melletti **Csak eladható** chip csak ezeket a tárgyakat mutatja. A címkézett tárgy szemetese mellett megjelenő **kalapács** megnyitja az [Aukció](/wiki/03-Mechanics/Auction.md) eladólapját (repülés közben nem látszik: az eladás az állomás egyik oldala). Amit vásároltál, nyertél vagy ajándékba kaptál, nem kap címkét, és nem adható el újra.
+A megszerzett tárgyak (zsákmány, küldetésjutalmak, és amit a Gyártás és a Kovácsműhely előállít) csempéjén kis **Eladható** címke látszik, a tárgykártya pedig azt írja: „Eladható”, vagy egy olyan köteg esetén, amelynek csak egy része adható el, „Eladható (3 / 5)”. A kategóriachipek melletti **Csak eladható** chip csak ezeket a tárgyakat mutatja. A címkézett tárgy szemetese mellett megjelenő **kalapács** megnyitja az [Aukció](/wiki/03-Mechanics/Auction.md) eladólapját (repülés közben nem látszik: az eladás az állomás egyik oldala). Amit vásároltál, nyertél vagy ajándékba kaptál, nem kap címkét, és nem adható el újra, és ugyanez igaz mindenre, amit egy [konténer](/wiki/06-Items/Containers.md) ad.
 
 ## Több tárgy kijelölése {#select-several-items}
 

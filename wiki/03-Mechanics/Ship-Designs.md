@@ -69,7 +69,7 @@ Together they ask 490 Dark Matter on top of the 749 that every other technology 
 - **Lasers can lose their slot.** A design with fewer laser slots (BUCKY, RECON, DUMA, ATARAXIS) sends the lasers of the slots that go back to your inventory, with their amps and their Forge rolls. A slot that is new arrives empty.
 - **Full hull and shields** when it is done. Until then the ship is locked: it cannot be made active, fitted or converted again.
 - **There is no way back.** To get another design, or the plain ship again, craft the ship again in Assembly. You own one ship of each kind, so a Paragon and a THUNDER can be yours at once, and two THUNDERs cannot.
-- **The wipe** keeps a design like any other ship you own.
+- **The wipe** keeps a design like any other ship you own. A conversion still under way is cancelled and refunded, like every craft in your Production Queue: the ship stays as it was.
 
 ## Looks and size
 

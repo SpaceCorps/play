@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -26,7 +26,7 @@ Ein **P.E.T.** (Personal Escort Technology) ist ein kleiner Begleiter, der neben
 
 ## Die P.E.T. Station {#the-station}
 
-Die Station ist ein **Extra**. Drei Gegenstände, **P.E.T. Station I, II und III**, werden im [Forschungszentrum](/wiki/03-Mechanics/Research.md) erforscht (3 Stunden, 10 Stunden und 1 Tag, kein Dark Matter) und nacheinander in der Montage hergestellt. Du **rüstest** eine in einem Extra-Slot aus, wie eine [Cloaking CPU](/wiki/06-Items/Extras.md), und sie schafft Platz für **2, 3 und 5** angedockte P.E.T.s. Was jede kostet, steht im [Gegenstandsbaum](/wiki/06-Items/Extras.md#item-tree) der Extras. Die Station bleibt über den Wipe, ebenso ihre Forschung.
+Die Station ist ein **Extra**. Drei Gegenstände, **P.E.T. Station I, II und III**, werden im [Forschungszentrum](/wiki/03-Mechanics/Research.md) erforscht (3 Stunden, 10 Stunden und 1 Tag, kein Dark Matter) und nacheinander in der Montage hergestellt: die Station I aus Teilen, die **Station II als Upgrade einer Station I** und die **Station III als Upgrade einer Station II**. Ein Upgrade verbraucht die Station darunter, die lose in deinem Inventar liegen muss (nicht an einem Schiff ausgerüstet und nicht im [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)), und verlangt zusätzlich den Rest ihres Preises; alle drei Herstellungen zusammen kosten also einmal den Wert einer Station III. Du **rüstest** eine in einem Extra-Slot aus, wie eine [Cloaking CPU](/wiki/06-Items/Extras.md), und sie schafft Platz für **2, 3 und 5** angedockte P.E.T.s. Was jede kostet, steht im [Gegenstandsbaum](/wiki/06-Items/Extras.md#item-tree) der Extras. Die Station bleibt über den Wipe, ebenso ihre Forschung.
 
 - **Nur das Schiff, das mit ihr fliegt.** Deine P.E.T.s zählen auf dem Schiff, das du fliegst, wenn in der Konfiguration, in der du fliegst, eine Station ausgerüstet ist. Eine Station in deinem Inventar, in der anderen Konfiguration oder auf einem anderen Schiff bewirkt nichts; wechselst du Konfiguration oder Schiff, folgen die P.E.T.s sofort.
 - **AN und AUS.** Schalte die Station mit dem Slot **PET** der Aktionsleiste (zieh sie dafür aus der Extras-Auswahl dorthin). **AN**: Die ersten 2, 3 oder 5 deiner angedockten P.E.T.s geben ihre Boosts, sammeln Erfahrung und arbeiten. **AUS**: nichts davon, und keine Drohne wird gezeichnet. Der Slot zeigt **AN** oder **AUS**. Der Schalter gehört dir und bleibt über Starts und Logins erhalten; eine Station, die du nie umgeschaltet hast, ist AN. Zwischen zwei Drücken liegt eine Sekunde.

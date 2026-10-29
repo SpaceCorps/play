@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f8afbadaba141b0c -->
+<!-- wiki-i18n source: c0e478368e420e01 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -50,7 +50,7 @@ La caisse contient 40 à 60 Ship Fragments, 10 à 20 Power Cores et 3 000 à 6�
 
 ## Lui acheter {#buying-from-him}
 
-Son stock est dans la liste du **Marché** des enchères, parmi les annonces des pilotes : une ligne pour chacune des 84 sortes que listent les enchères, en crédits et en Thulium (168 lignes), au prix d’un lot, avec son nom en doré, un badge **PNJ** et un signe infini pour la quantité et le temps restant. La recherche, les catégories et les filtres d’enchantement et de monnaie du Marché réduisent ses lignes comme n’importe quelle annonce (ses objets sont Standard), et ses tris les placent là où leur nombre le dit : par prix à côté des prix des pilotes, après les annonces des pilotes sous **Fin proche** et **Plus récentes**. Choisissez-en une pour voir les détails et **Acheter pour …** ; l’achat va chez lui, pas chez un pilote. Les prix :
+Son stock est dans la liste du **Marché** des enchères, après les annonces des pilotes : une ligne pour chacune des 84 sortes que listent les enchères, en crédits et en Thulium (168 lignes), au prix d’un lot, avec son nom en doré, un badge **PNJ** et un signe infini pour la quantité et le temps restant. La recherche, les catégories et les filtres d’enchantement et de monnaie du Marché réduisent ses lignes comme n’importe quelle annonce (ses objets sont Standard), et chaque tri de la liste les place après la dernière annonce d’un pilote (par prix, elles vont entre elles de la moins chère à la plus chère). Choisissez-en une pour voir les détails et **Acheter pour …** ; l’achat va chez lui, pas chez un pilote. Les prix :
 
 - **100 fois le prix de la boutique en crédits et 40 fois en Thulium** pour les objets que la boutique vend ; un prix de la boutique dans une monnaie compte dans l’autre à 200 crédits le Thulium. Un Repair Drone I (5 000 crédits en boutique) coûte 500 000 crédits ou 1 000 Thulium, un Quantum Laser I 800 000 crédits ou 1 600 Thulium, les roquettes de 50 000 à 100 000 crédits pièce. Les deux prix ne valent pas la même chose : à 200 crédits le Thulium, 1 000 Thulium ne feraient que 200 000 crédits.
 - **L’équipement que la boutique ne vend pas est son dernier recours : 200 fois la valeur de référence en crédits et 80 fois en Thulium**, au moins 50 fois ce que coûte la voie la moins chère pour l’obtenir (le fabriquer soi-même, ou le prix d’un autre pilote). Un Quantum Laser III coûte 84 966 000 crédits ou 169 932 Thulium, un Helios Beam 682 192 400 crédits ou 1 364 388 Thulium et un Hull Plating III 1 271 074 400 crédits ou 2 542 152 Thulium. Ces lignes portent un petit badge **Dernier recours**, tout comme les ressources rares ci-dessous.

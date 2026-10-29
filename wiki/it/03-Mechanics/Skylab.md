@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 - **Fattoria crediti**: produce crediti nel tempo: **2.250 all’ora al livello 1, 225.000 al livello 20** (livello 5: 11.250; livello 10: 33.750; livello 15: 76.500). Costruirla non costa nulla.
 - **Fattoria Thulium**: produce Thulium nel tempo: **40 all’ora al livello 1, 1.280 al livello 20** (livello 5: 144; livello 10: 360; livello 15: 760). Costruirla costa 5.000 crediti e 500 Thulium.
 - Entrambe richiedono energia, e ciascuna conserva 72 ore della sua produzione finché non la raccogli.
+- Una [Philosopher’s Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) fa produrre il doppio a entrambe le fattorie per 10 ore, e un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) assunto come **Foreman** fa lo stesso per ogni produttore per 1 ora. Il surplus va nella tramoggia, quindi raccogli prima che si riempia.
 
 ## La filiera {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Quattro moduli trasformano il tempo passato lontano dalla tastiera nelle piastre
 - **Limite**: un giorno di produzione del suo collettore al livello 1, fino a quattro giorni al livello 20. La tramoggia di un collettore contiene tre giorni, quindi dal livello 13 la riserva contiene almeno una tramoggia piena.
 - **Oltre il limite**: se una riserva contiene più del suo limite (il pagamento dell’aggiornamento 0.4.10 può averla lasciata così), non viene tolto nulla, ma Raccogli non aggiunge altro di quel minerale finché non ne hai usato un po’.
 - Il minerale entra raccogliendolo da un collettore, o dal tuo inventario tramite la [Baia del minerale](#ore-bay), ed esce solo verso la Fucina e il Centro ricerche. Non torna mai nel tuo inventario.
-- **Il minerale immagazzinato resta** dopo il reset della stagione.
+- **Il minerale immagazzinato resta** dopo il reset della stagione, e non occupa posto nel [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Energia**: 10 al livello 1, con un aumento del 10% per livello. Non si può spegnere.
 
 ### Fucina {#forgery}
@@ -226,6 +227,7 @@ La Baia del minerale sposta nel Magazzino risorse il minerale che porti con te. 
 - **In una sola direzione**: dal tuo inventario al Magazzino risorse, mai indietro. Si sposta solo il minerale sfuso del tuo inventario, mai quello del Deposito di trasporto.
 - **Come**: la tua **nave deve essere atterrata**. Un trasferimento è istantaneo: nella scheda della Baia del minerale scegli il minerale, digita una quantità o premi Max, poi premi **Sposta**. La scheda mostra quanto porti con te e quanto contiene la banca rispetto alla sua capacità.
 - **Quota**: il livello stabilisce quanto minerale sposta all’ora, **30 al livello 1, 960 al livello 20**, e ne tiene fino a un giorno (720 al livello 1, 23.040 al livello 20). Una Baia nuova parte con un giorno pieno, e un potenziamento conserva ciò che era accumulato. Un trasferimento è limitato dal minerale che porti, dal posto che resta nel Magazzino risorse e dalla quota, e la scheda dice quale. Un giorno di quota vale circa tre volte quanto il Magazzino risorse contiene di un minerale allo stesso livello: di solito è quindi il posto a fermare un trasferimento, e la quota conta solo se fai passare il minerale dal magazzino più volte nello stesso giorno.
+- **Hauler**: un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) assunto come **Hauler** toglie la quota per 1 ora. La Baia sposta allora quanto permettono il tuo carico e lo spazio nel Magazzino risorse, e la quota che aveva accumulato resta com’era.
 - **Energia**: 15 al livello 1, con un aumento del 10% per livello (92 al livello 20). Si può spegnere. In un blackout, mentre è spenta e mentre viene potenziata, non sposta nulla.
 - **Costruzione**: 5.000 crediti, 250 Thulium e 10 Ship Fragment (dal tuo inventario, con la nave atterrata), solo sul Nucleo 2. I suoi potenziamenti costano quanto quelli del Magazzino risorse e durano altrettanto (vedi le tabelle qui sotto).
 - **Non è una via per avere più minerale**: sposta minerale che hai già. Un ciclo dell’escavatore è limitato alla fonte, e la capacità del Magazzino risorse limita la banca.
@@ -526,6 +528,7 @@ I piloti del tuo clan vedono dove sono gli Skylab degli altri: la colonna **Skyl
 - **Costruzione**: ogni modulo si costruisce a sé. Un modulo è al livello 1 nel momento in cui viene costruito, e potenziarlo ne aumenta la produzione (o l’energia prodotta) e la capienza, ma anche il consumo di energia.
 - **Durata e costo**: i potenziamenti costano crediti e Thulium e richiedono tempo, e ogni modulo ha il suo prezzo e il suo tempo per ogni livello (passa sopra **Potenzia** per vedere il successivo; i totali sono più sotto). Il prezzo si paga all’avvio del potenziamento. Il costo non dipende dalla durata. I moduli Motori, Difesa e Radar richiedono anche Dark Matter Plate e la tecnologia del livello (vedi [Il secondo ponte e il Nucleo 3](#the-second-bridge-and-core-3)).
 - **Timer**: un potenziamento segue l’orologio del server, quindi si completa mentre sei via, anche giorni dopo se serve. Avvialo, disconnettiti, torna: il modulo è al nuovo livello quando apri la pagina Skylab.
+- **Accelerare un potenziamento**: un [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) completa subito un potenziamento in corso, e un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) assunto come **Engineer** fa procedere i potenziamenti a velocità doppia per 1 ora. Nessuno dei due rimborsa o addebita nulla: il prezzo è stato pagato all’avvio del potenziamento.
 - **Tempi di potenziamento**: i primi livelli sono rapidi e gli ultimi durano fino a 37 ore, quelli del Nucleo fino a 6 giorni (vedi le tabelle più sotto). Ogni modulo ha il suo timer, quindi puoi potenziarne più d’uno insieme.
 - **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione: continua a produrre un quarto della sua energia (vedi sotto).
 - **Solare produce solo il 25% della sua energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (24 ore per l’ultimo livello), produce un quarto dell’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Una stazione completa usa circa il 90% di ciò che Solare produce al proprio livello, quindi un quarto di quella energia regge solo una stazione da cinque a sei livelli sotto Solare. Altrimenti ogni fattoria e ogni collettore si fermano per tutto il potenziamento, ciò che hai immagazzinato resta e si può raccogliere, e la Fucina non avvia nuovi lotti. Un modulo in potenziamento o spento non usa energia, quindi potenziare le fattorie insieme a Solare non costa niente in più, e spegnere dei moduli lascia spazio agli altri; la Fattoria Thulium è di gran lunga la più energivora.
@@ -686,7 +689,7 @@ Ogni fattoria e collettore ha una tramoggia per circa 72 ore della sua produzion
 
 Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse mantiene il suo minerale e il Centro ricerche mantiene le sue tecnologie, il suo serbatoio di scienza, la Dark Matter che contiene e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md). La Stampante di munizioni e la Fabbrica di razzi mantengono i loro livelli, ciò che sono impostate a produrre e ciò che contengono, e la Baia del minerale mantiene il suo livello e la sua quota. Anche i quattro moduli della Spedizione mantengono i loro livelli, con le loro tecnologie, e così il caricatore e l’interruttore dell’alimentazione. Il minerale nel tuo inventario si azzera come ogni oggetto: spostalo prima nel Magazzino risorse.
 
-Una **spedizione** viene saldata fino al reset: un viaggio in corso è finito, la Baia dei trofei paga i suoi crediti, il suo Thulium, la sua esperienza e il suo onore e viene svuotata (il suo bottino è eliminato come ogni oggetto libero), e lo Skylab inizia la nuova stagione a casa, nel porto della tua corporazione, con una nuova mappa dell’universo, le 19 celle iniziali note e la coda del radar vuota. I motori e i laser montati nei moduli Motori e Difesa sono oggetti liberi come gli altri: toglili e mettili nel Deposito di trasporto per tenerli.
+Una **spedizione** viene saldata fino al reset: un viaggio in corso è finito, la Baia dei trofei paga i suoi crediti, il suo Thulium, la sua esperienza e il suo onore e viene svuotata (il suo bottino è eliminato come ogni oggetto libero; i crediti e il Thulium arrivano al tuo portafoglio prima che vengano applicati i [tetti](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), e lo Skylab inizia la nuova stagione a casa, nel porto della tua corporazione, con una nuova mappa dell’universo, le 19 celle iniziali note e la coda del radar vuota. I motori e i laser montati nei moduli Motori e Difesa sono oggetti liberi come gli altri: toglili e mettili nel Deposito di trasporto per tenerli.
 
 ## Pianificare il tuo Skylab {#planning-your-skylab}
 

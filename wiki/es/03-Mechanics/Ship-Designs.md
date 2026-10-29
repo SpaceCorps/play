@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a91659443751cfdb -->
+<!-- wiki-i18n source: 13ea8d311ddbcead -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
@@ -71,7 +71,7 @@ Juntas piden 490 Dark Matter, además de los 749 que piden todas las demás tecn
 - **Los láseres pueden perder su ranura.** Un diseño con menos ranuras de láser (BUCKY, RECON, DUMA, ATARAXIS) devuelve a tu inventario los láseres de las ranuras que desaparecen, con sus amps y sus tiradas de la Forja. Una ranura nueva llega vacía.
 - **Casco y escudos llenos** al terminar. Hasta entonces la nave está bloqueada: no se puede activar, equipar ni convertir de nuevo.
 - **No hay vuelta atrás.** Para otro diseño, o para volver a la nave normal, fabricas la nave otra vez en Ensamblaje. Posees una nave de cada clase, así que una Paragon y un THUNDER pueden ser tuyos a la vez, y dos THUNDER no.
-- **El reinicio** conserva un diseño como cualquier otra nave que tengas.
+- **El reinicio** conserva un diseño como cualquier otra nave que tengas. Una conversión que aún está en marcha se cancela y se reembolsa, como toda fabricación de tu cola de producción: la nave sigue como estaba.
 
 ## Aspecto y tamaño {#looks-and-size}
 

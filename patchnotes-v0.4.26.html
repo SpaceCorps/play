@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.26 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.26: Rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.26.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.26.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.26 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.26: Rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.26.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.26 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.26",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.26.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.26.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.26.html",
+      "name": "SpaceCorps 2027 0.4.26 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.26: Rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-29"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.26.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.26" aria-labelledby="v0.4.26-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.26-title">0.4.26 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-10-29" data-date>29 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.26">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.26 rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T. Stations and a rebuilt Transport Cache (one locked ship with all its gear, three bays of 10 and 100 tons of cargo, up from 50 tons), takes the Credits above 5,000,000,000 and the Thulium above 10,000,000 at a wipe whose countdown begins at least 14 days after the caps are announced, and pays Wipe Points, Premium days, Credits, Thulium, loot containers and a title by your rank. It adds 40 achievements with titles, five loot containers that are earned and never sold, a daily rewards calendar, six special items and statistics for each wipe. Beta now asks level 7 and Gamma level 10, the black hole grows before the wipe, the Galaxy Gates spin for Thulium only, a P.E.T. Station is upgraded from the one below it, and Davidski's Auction lots stand last.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>The Universe Wipe is rebuilt.</strong> It keeps <strong>every ship</strong>, your <strong>drones, drone formations, P.E.T.s and P.E.T. Stations</strong> and your <strong>Transport Cache</strong>: <strong>one ship locked in it that keeps all its gear</strong>, three bays of 10 slots (lasers, shield cores, engines) and 100 t of cargo (50 t in 0.4.25). Up to <strong>1,000 of each combat rocket</strong> and <strong>1,000,000 of each laser ammo type</strong> carry over by themselves. <strong>Every other item is removed. Clans end.</strong> <strong>Credits above 5,000,000,000 and Thulium above 10,000,000 are lost</strong> at a wipe whose countdown begins at least <strong>14 days after the caps are announced</strong>.</li><li><strong>The wipe pays by your rank:</strong> 5 to 400 Wipe Points, 1 to 7 Premium days, 105,000 to 6,300,000 Credits and 225 to 13,500 Thulium, loot containers and a season title; the top ranks also get a look. A <strong>Season Report</strong> opens after the wipe, a <strong>Wipe preview</strong> shows beforehand what it will do to you, and the Dashboard counts down in the last 72 hours. At the next wipe your ranking points start from zero.</li><li><strong>Five loot containers:</strong> Specimen Vault, Foundry Crucible, Chroma Archive, Survey Canister and Reagent Rack. They are <strong>earned, never sold and bound to your account;</strong> the <strong>odds are printed</strong> on the Containers page and the wiki, and every opening is recorded with its seed. They come from administrators, from your rank at the wipe, from the daily rewards calendar and from achievements.</li><li><strong>40 achievements and 32 titles</strong> under Community › Achievements: from 50,000 to 5,000,000 Credits each, once per account. You wear one title beside your name.</li><li><strong>Daily rewards:</strong> a calendar of 29 tiles for each season, a Collect button, 6 hours of grace, no streak. Four chests at 7, 14, 21 and 28 days collected, and a Season prize at 10 and 20 days.</li><li><strong>Six special items</strong> (Magic Hammer, Schematics, Philosopher's Stone, Tinkerer's Badge, Forger's Seal, Workforce Contract). <strong>Administrators issue them; nothing else gives them out yet.</strong></li><li><strong>Statistics for each wipe:</strong> the Stats page shows <strong>This wipe</strong>, <strong>Total</strong> and <strong>Past wipes</strong>, and the Hall of Fame can be read wipe by wipe.</li><li><strong>Smaller:</strong> <strong>Beta needs level 7 and Gamma level 10;</strong> the <strong>black hole grows up to 1.8 times</strong> in the last 72 hours before the wipe; the Galaxy Gates <strong>spin for Thulium only</strong>, with a sound; <strong>P.E.T. Station II is made from a Station I and III from a II;</strong> <strong>Davidski's lots come after every pilot's lot</strong> in the Auction; new sounds for the new screens; the wiki is updated in 13 languages.</li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Update the game.</strong> A 0.4.18 to 0.4.25 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.23), else the whole package; an older game downloads the whole package.</li><li><strong>Before the next wipe:</strong> build the Chrono-Gate (100 parts) so the Transport Cache opens; <strong>lock the ship you want to keep geared</strong> (the lock is final; once a ship is locked only its gear is kept, not your active ship's, unless that is the locked ship) or leave none locked and your active ship keeps its gear; fill the bays and the cargo; take the engines and lasers out of your Skylab's modules and put them in the Cache; <strong>collect your finished crafts</strong> (an uncollected craft is refunded, not made); leaders pay out the Fleet Treasury; look at your Credits and Thulium against the caps; open the Wipe preview; choose your next world under Galaxy Gates.</li><li><strong>At the server's first start</strong> you receive the achievements you have already earned, with their titles but without Credits or containers, and the titles of the first Universe Wipe (a Season 1 title for the pilots who lived through it, and titles for rank, best of a company and the crown). Some goals had no history to read (swarm kills, Wardens, asteroids, Skylab trips, the Motherlode): they count from the update.</li><li><strong>The update itself pays, moves and removes no Credits, Thulium or items.</strong> Your ranking points stay your whole career's until the next wipe.</li><li><strong>Beta and Gamma:</strong> the new levels decide who can choose them at Setup and as a Destination. Nobody is moved out of the world he flies in.</li><li><strong>A 0.4.25 game keeps working but has none of the new screens</strong> (Containers, Achievements, Daily rewards, special items, Statistics for each wipe, the Cache's ship lock, the Wipe preview and the Season Report), so update before the wipe. It still shows the Gates' scan for Credits; the server refuses it: <em>Spinning for credits is closed. Spin for Thulium.</em> A 0.4.26 game on an older server hides the pages that server does not have.</li><li><strong>New texts in other languages have had no native review.</strong></li></ul>
+        <h3>The Universe Wipe</h3>
+        <ul><li><strong>When:</strong> unchanged. A season ends on day 30. As day 30 begins the chat and a red banner count down 5 minutes (a warning sound at 5:00, at 1:00 and in the last ten seconds), and then the wipe takes every pilot who has a world off the maps. <strong>The date of the next wipe is announced by the administrators.</strong> The caps apply to a wipe whose countdown begins at least 14 days after the caps were announced, as the news post that named the rules said.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Yours</th><th scope="col">After the wipe</th></tr></thead><tbody><tr><th scope="row"><strong>Every ship</strong></th><td><strong>Kept,</strong> whole again: full hull, empty shields, its skin. Exactly one is active</td></tr><tr><th scope="row">The gear of your <strong>Cache ship</strong> (both configurations, with the amps, cells and thrusters in it). With no ship locked, the gear of your <strong>active ship</strong></th><td>Kept</td></tr><tr><th scope="row">Your <strong>drones</strong>, <strong>drone formations</strong>, <strong>P.E.T.s</strong> and <strong>P.E.T. Stations</strong>, wherever they are</th><td>Kept</td></tr><tr><th scope="row">Your <strong>Transport Cache:</strong> 3 bays of 10 (they weigh nothing) and 100 t of cargo</th><td>Kept</td></tr><tr><th scope="row"><strong>Ammo and combat rockets</strong></th><td>Up to <strong>1,000 of each of the 12 combat rockets</strong> and <strong>1,000,000 of each laser ammo type</strong> are kept without using the Cache. The N.I.K.E., the N.U.K.E., the EMP Charge and everything above those limits are kept only inside the Cache</td></tr><tr><th scope="row"><strong>Every other item:</strong> loose gear, the gear on your other ships, resources, boosters, CPUs, plates</th><td><strong>Removed.</strong> The engines and lasers fitted in your Skylab's Engine and Defense Modules are loose items too</td></tr><tr><th scope="row"><strong>Credits and Thulium</strong></th><td>Kept <strong>up to 5,000,000,000 Credits and 10,000,000 Thulium;</strong> above that is lost at a capped wipe. Rewards are paid after the caps</td></tr><tr><th scope="row">XP, honor, level, quests, Wipe Points, permanent buffs, technologies, looks (skins, auras, exhausts)</th><td>Unchanged</td></tr><tr><th scope="row">Skylab (modules, ore, research)</th><td>Unchanged. A Skylab expedition under way is settled and the Trophies Bay is paid out and emptied</td></tr><tr><th scope="row">Your <strong>rank and ranking points</strong></th><td>The rank goes into your season history and pays. From the next wipe the points start again from zero, and only experience, levels and kills you earn after it count; honor does not set your rank</td></tr><tr><th scope="row">The <strong>Wipe Point sources</strong> (alien kills, missions, Dormant Knowledge) and the alien kills of the wipe</th><td>Start again: up to 1,090 Wipe Points can be earned again</td></tr><tr><th scope="row">Your <strong>clan</strong></th><td><strong>Ends,</strong> with its Fleet Treasury, posts, log, treaties, points and boosts. What a clan paid you stays</td></tr><tr><th scope="row"><strong>Assembly crafts</strong></th><td>Every craft is cancelled and refunded: Credits and Thulium to your wallet before the caps, the materials as loose items. A finished craft you did not collect is refunded too, and what it would have made is never made. Jobs in the P.E.T. Cradle go on</td></tr><tr><th scope="row"><strong>Auction</strong></th><td>Listings come back as loose items and go with the rest; bids in lots are refunded; buy orders return the price they hold. This money comes home before the caps</td></tr><tr><th scope="row"><strong>Unopened containers, special items, titles, achievements</strong></th><td>Kept: they live in tables of their own</td></tr><tr><th scope="row">Chrono-Gate parts, the Cache, your destination</th><td>Reset: 0 parts, the Cache empty (what it held is in your inventory, loose), the destination cleared. You land at your company's home in the world you chose under Galaxy Gates (else you choose at Setup)</td></tr></tbody></table></div>
+        <ul><li><strong>The Transport Cache</strong> opens when the Chrono-Gate is complete: 100 parts, which you find with the Energy Materializer on the Galaxy Gates page. <strong>You may lock one ship in it.</strong> A locked ship keeps everything fitted to it, but it cannot be launched, fitted, unfitted, converted or plated until the wipe, and only an administrator can undo the lock. You need another ship you can launch; if you lock your active ship, the best of your others becomes the active one and the game says which. After the wipe the locked ship is your active ship. Skins, drones and P.E.T.s are not locked. The Hangar marks the locked ship, and from season day 26 every ship card says whether the ship keeps its gear. The bays take loose lasers, shield cores and engines (10 of each) with the amps, cells and thrusters in them; the cargo is weighed item by item (a laser 2,500 kg, a booster 500 kg, a plate 5 kg, a combat rocket 1 kg, a N.I.K.E. or N.U.K.E. 250 kg).</li><li><strong>What it pays:</strong> the rank you hold at the instant of the wipe pays Wipe Points (5 to 400), Premium days (none up to Senior Lieutenant, then 1 to 7, stacked on a Premium you have), Credits (105,000 for a Pilot to 6,300,000 for a Senior Admiral) and Thulium (225 to 13,500), then containers by tier (a Pilot 1 Specimen Vault; an Admiral 8 Specimen Vaults, 4 Reagent Racks, 3 Foundry Crucibles, 3 Survey Canisters and 5 Chroma Archives) and a season title. The pilot with the most PvE points on the server gets 100 Wipe Points and 7 Premium days on top. Junior General or better gets a Laurel aura and Junior Admiral or better a Prism exhaust; the pilot with the crown gets the Crown aura and the Sovereign exhaust. You are paid if you had a world, at least 150 PvE points and at least 3 hours played in this wipe. The full table is on the wiki page Seasons and Rewards.</li><li><strong>The caps</strong> cut only the wallet you hold at the wipe; nothing is taken during a season. The Dashboard, the Season page and the Gates page show a line about them from the day the caps are announced; it turns red when you are over a cap and the caps are in force for the next wipe. The rules were posted in the news before this version.</li><li><strong>The Season Report</strong> opens at the station the first time you are there after the wipe (if you were offline it waits): your rank and place, your numbers of the wipe, what was kept, what was lost (and what a cap took) and what you were paid, line by line. The <strong>Wipe preview</strong> is the plan the server itself runs; open it from the banner, from the Dashboard and the Season page from season day 24, or as soon as the caps are announced. Season page › Progression keeps a row for each wipe you flew.</li><li><strong>Rehearsed, not run on live data:</strong> the redesigned wipe was run on a development server with 200 synthetic pilots (193 with a world): 193 wiped, 0 failed; with the caps announced 13 days before nothing was capped, with 14 days 19 pilots were; the wipe's own transaction took about 2 seconds and the work after it about 4 (up to 11 under load); an error injected at any of nine points before the commit rolled the database back whole, and so did a process killed inside the transaction (tried at three points). <strong>That run was on an earlier build of 0.4.26, not on the release build:</strong> the server changed after it (the calendar, the titles and achievements, the guard for a second run). Two of those fixes (a second run for a season already wiped changes nothing; a failing calendar step is counted in the report and cannot fail the wipe) were proved by tests, the first also by a 40-pilot run; the wipe was not run again with 200 pilots.</li></ul>
+        <h3>Containers</h3>
+        <ul><li><strong>Where:</strong> Economy › Containers, after the Auction. You open a container docked. A reel shows the draw (Space or Esc skips it; Settings has <em>Skip container animations</em>). <em>Open all</em> opens up to 10 at once without the reel. <strong>History</strong> keeps your openings with the seed and the table hash; <code>scripts/containers-verify.py</code> in the game's source checks one.</li><li><strong>The five:</strong> the <strong>Specimen Vault</strong> (a little of everything: Credits, Thulium, ammunition, rockets, gear, plates, Dark Matter, boosters and colours), the <strong>Foundry Crucible</strong> (ammunition, rockets, lasers, gear and 5 ships), the <strong>Chroma Archive</strong> (looks only), the <strong>Survey Canister</strong> (Skylab ore, plates, Dark Matter, Cluster Chunks, Thulium) and the <strong>Reagent Rack</strong> (boosters, EMP Charges, Energetic Walls, ammunition).</li><li><strong>Rules:</strong> nothing can be bought, traded, given away or listed on the Auction, and Premium changes no chance. Every container has a guarantee: a prize of grade Rare or better within 10 openings (Specimen Vault, Reagent Rack) or 8 (Foundry Crucible, Survey Canister), Epic or better within 12 (Chroma Archive). The ships are 0.320 % together in the Foundry Crucible (Nomad 0.100 %, Paragon 0.100 %, Storm 0.050 %, Ironclad 0.050 %, Wraith 0.020 %); <strong>a ship you own never drops.</strong> A look you own is not drawn while its grade has one you lack; when you own them all it pays Thulium (25, 100, 400, 1,200 or 4,000 by grade).</li><li><strong>Where they come from:</strong> administrators; your rank at the wipe; the calendar's chests (a Specimen Vault each); and achievements (an Epic one pays a Specimen Vault, a Legendary one a Specimen Vault and a Chroma Archive).</li><li><strong>The wipe:</strong> unopened containers are kept. The Specimen Vault, Foundry Crucible, Survey Canister and Reagent Rack <strong>close from season day 30</strong> (a banner from day 28) because what they hold would be lost; the Chroma Archive stays open. Items from a container are ordinary items for the wipe, but they are never Marketable: they cannot be listed on the Auction.</li></ul>
+        <h3>Daily rewards</h3>
+        <ul><li><strong>Where:</strong> the <em>Daily rewards</em> card on the Dashboard and Season &amp; Profile › Calendar. One tile for each UTC day (29 a season: day 30 is the wipe's countdown); the day turns over at 00:00 UTC for everybody. You press <strong>Collect</strong>; nothing is collected for you. A tile stays open 6 hours after its day ends, then it is missed and costs you that day's gift and nothing else.</li><li><strong>Chests</strong> come with your 7th, 14th, 21st and 28th collected day, whichever days those are. Each holds a Specimen Vault (the 21st and 28th add a booster hour, the 28th also Thulium). If the game cannot hand out the container, the chest pays a bundle of Credits, Thulium and a booster instead.</li><li><strong>The Season prize</strong> opens in the last three days (27 to 29): a souvenir look at 10 days collected and the research of a ship design at 20.</li><li><strong>The gifts</strong> are small: ammo, rockets, materials, plates, boosters, Credits and Thulium; every season has a different calendar and you can see all of it from day 1. A tile that would hold a special item pays 100,000 Credits for now. Premium, a clan and your level change nothing.</li><li><strong>When it starts:</strong> a calendar opens with the season. If this version goes live in the middle of one, the first calendar has only the days left, with the chests and the prize steps scaled to it; with fewer than 10 days left there is none until the next wipe.</li></ul>
+        <h3>Achievements and titles</h3>
+        <ul><li><strong>Where:</strong> Community › Achievements. 40 goals in 8 groups and 5 tiers; 3 are hidden until you unlock them. You are paid the moment you reach one: Common (10 of them) 50,000 Credits, Uncommon (7) 150,000, Rare (11) 500,000, Epic (7) 2,000,000, Legendary (5) 5,000,000, 46,050,000 in all, once in your life. Epic and Legendary also pay containers (above). A wipe never takes one back.</li><li><strong>Titles:</strong> 32 of the 40 give one. Titles also come from the end of a season (your rank, the best pilot of each company, the pilot with the most PvE points). You own many and <strong>wear one</strong>, chosen on your pilot profile; it shows on the profile, in the Rankings, in the Group window and when you point at a name in the chat.</li></ul>
+        <h3>Special items</h3>
+        <ul><li><strong>What they are:</strong> one-use items, kept as a count on your account (not items; the wipe leaves them): the <strong>Magic Hammer</strong> finishes a Skylab upgrade (you can hold 5, one grant in 60 days), <strong>Schematics</strong> finish the research that is running if it takes 24 hours or less (hold 20), the <strong>Philosopher's Stone</strong> doubles your Credit Farm and Thulium Farm for 10 hours (hold 10), the <strong>Tinkerer's Badge</strong> raises a piece of equipment one Forge tier (hold 10), the <strong>Forger's Seal</strong> skips up to 30 minutes of the Production Queue (hold 99) and the <strong>Workforce Contract</strong> hires a Foreman, an Engineer or a Hauler in the Skylab for 1 hour (hold 99).</li><li><strong>Where:</strong> the Special items section of the Hangar; each use asks first and cannot be undone. <strong>For now an administrator issues every one.</strong> They cannot be bought, sold, listed or given to another pilot.</li></ul>
+        <h3>Statistics</h3>
+        <ul><li><strong>This wipe, Total, Past wipes:</strong> Overview, Ranking and Sector Intel on the Stats page have this switch. <em>This wipe</em> is your figures now less your figures at the start of the wipe; <em>Total</em> is never reset; every tile also shows the other number. <em>Past wipes</em> lists the wipes that have ended and shows what you did in one, with your place and rank. The Hall of Fame has a <em>Wipe</em> menu (Now, or a wipe that has ended).</li><li><strong>Counted from:</strong> statistics for each wipe began with this version. For the wipe running when it goes live, the page counts from the first wipe's record where there is one, else from the day of the update, and says <em>counted from</em>.</li></ul>
+        <h3>Smaller changes</h3>
+        <ul><li><strong>Worlds:</strong> Beta needs pilot level 7 and Gamma level 10; Alpha has no limit.</li><li><strong>The black hole:</strong> from 72 hours before the wipe it grows, and from 24 hours before until the wipe it is 1.8 times its size: event horizon 300 to 540 units, pull 3,000 to 5,400, radiation 4,000 to 7,200, the ring the server steers you round 4,200 to 7,560. A countdown card (<em>Universe Wipe in 2d 13:05:12</em>) tops the Dashboard in those 72 hours and the same words hang over the black hole in flight.</li><li><strong>Galaxy Gates:</strong> one spin, for Thulium (5 Thulium, a 10 % chance of a gate part, multipliers 1, 5, 10 and 100); the spin for Credits is closed. Every spin plays a sound.</li><li><strong>P.E.T. Stations:</strong> Station I from parts, <strong>Station II by upgrading a Station I, Station III by upgrading a II.</strong> The upgrade uses up the Station below (loose in your inventory, not fitted or in the Cache) and asks the rest of its price: Station II 300,000 Credits and 4,000 Thulium (400,000 and 6,000 before), Station III 1,100,000 and 12,000 (1,500,000 and 18,000 before), with fewer materials. A Station you have is unaffected.</li><li><strong>Auction:</strong> Davidski's rows (the NPC lots) stand after the last pilot's listing in every sort, and inside each group your sort applies.</li><li><strong>Sounds:</strong> new sounds for the achievements, titles, the Season Report, the Gates' spin, the Cache, the calendar, the containers and the special items.</li><li><strong>Stats overlay:</strong> it now shows UPS, the map updates your game received per second (the number that was called TPS), and TPS, the ticks per second the server reports (a dash from an older server).</li><li><strong>Connection log:</strong> the game's log file now says when a connection went silent, for how long, and whether what was held back arrived all at once or was dropped, so a lag report can be read. Nothing is sent anywhere, and the new words are numbers only: no address, name or account data.</li></ul>
+        <h3>For administrators and the server</h3>
+        <ul><li><strong>At the first start: 40 schema lines and 6 data steps (the sixth, <code>logbook-started-v1</code>, runs when the Logbook is first switched on; at the first start with the Logbook off five run)</strong> (<code>backup_risks v0.4.25 HEAD</code> prints these). They are additive and made in place. <strong>A Sliplane volume backup before the deploy is advised.</strong></li></ul>
+        <pre><code>data step achievements-v1
+data step dk-claimed-v1
+data step logbook-started-v1
+data step seasons-v1
+data step stats-v1
+data step titles-seasons-v1
+schema ALTER TABLE PILOTSEASONS ADD COLUMN SEASONNO
+schema ALTER TABLE PLAYERS ADD COLUMN PVELIFETIMEPOINTS
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN CACHESHIPID
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN CACHESHIPLOCKEDAT
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN DKCLAIMEDJSON
+schema ALTER TABLE STEAMUNLINKS ADD COLUMN IDMARK
+schema CREATE INDEX IF NOT EXISTS CONTAINEROPENINGSKIND
+schema CREATE INDEX IF NOT EXISTS CONTAINEROPENINGSPILOT
+schema CREATE INDEX IF NOT EXISTS IX_CALENDARCLAIMS_DAY
+schema CREATE INDEX IF NOT EXISTS IX_PLAYERACHIEVEMENTS_ID
+schema CREATE INDEX IF NOT EXISTS IX_SEASONREWARDS_PENDING
+schema CREATE INDEX IF NOT EXISTS IX_SPECIALLOG_PLAYER
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTCASESOWED
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTPROGRESS
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTREVOKED
+schema CREATE TABLE IF NOT EXISTS CALENDARCLAIMS
+schema CREATE TABLE IF NOT EXISTS CALENDARPLANS
+schema CREATE TABLE IF NOT EXISTS CONTAINERGRANTS
+schema CREATE TABLE IF NOT EXISTS CONTAINEROPENINGS
+schema CREATE TABLE IF NOT EXISTS CONTAINERPITY
+schema CREATE TABLE IF NOT EXISTS CONTAINERSWITCHES
+schema CREATE TABLE IF NOT EXISTS PILOTWIPESTATS
+schema CREATE TABLE IF NOT EXISTS PLAYERACHIEVEMENTS
+schema CREATE TABLE IF NOT EXISTS PLAYERCONTAINERS
+schema CREATE TABLE IF NOT EXISTS PLAYERSPECIALS
+schema CREATE TABLE IF NOT EXISTS PLAYERTITLEEQUIPPED
+schema CREATE TABLE IF NOT EXISTS PLAYERTITLES
+schema CREATE TABLE IF NOT EXISTS SEASONBOARDS
+schema CREATE TABLE IF NOT EXISTS SEASONREWARDS
+schema CREATE TABLE IF NOT EXISTS SEASONS
+schema CREATE TABLE IF NOT EXISTS SKYLABBOOSTS
+schema CREATE TABLE IF NOT EXISTS SPECIALLOG
+schema CREATE TABLE IF NOT EXISTS STEAMLINKS
+schema CREATE TABLE IF NOT EXISTS STEAMUNLINKS
+schema CREATE TABLE IF NOT EXISTS TITLEGRANTRUNS
+schema CREATE TABLE IF NOT EXISTS WIPERETRY
+schema CREATE TABLE IF NOT EXISTS WIPESETTINGS
+schema CREATE UNIQUE INDEX IF NOT EXISTS CONTAINERGRANTSKEY
+schema CREATE UNIQUE INDEX IF NOT EXISTS CONTAINEROPENINGSKEY
+schema CREATE UNIQUE INDEX IF NOT EXISTS UX_SPECIALLOG_GRANT</code></pre>
+        <ul><li><strong>Data files:</strong> <code>Wipe.json</code>, <code>Containers.json</code>, <code>Achievements.json</code>, <code>Titles.json</code>, <code>LoginCalendar.json</code>, <code>SpecialItems.json</code>, <code>Logbook.json</code> and <code>Worlds.json</code> are new; <code>BlackHole.json</code> (<code>wipeGrowth.maxScale</code> 1.8) and <code>Cosmetics.json</code> changed; <code>Data/Seeds/recipes.json</code> changed (the P.E.T. Station II and III recipes).</li><li><strong>On at release:</strong> the achievements, titles, containers, calendar and special items engines (the quick stops are the environment variables <code>ACHIEVEMENTS_ENABLED</code>, <code>TITLES_ENABLED</code>, <code>CONTAINERS_ENABLED</code>, <code>CALENDAR_ENABLED</code>, <code>SPECIAL_ITEMS_ENABLED</code>, all unset); the container grant sources <code>admin</code>, <code>migration</code>, <code>rank</code>, <code>calendar</code> and <code>achievement</code>; <code>Wipe.json</code> with <code>capsEnabled</code> true, <code>shadowMode</code> false and <code>freshFromSeason</code> 3.</li><li><strong>Off at release, by design:</strong> the special items' grant sources other than <code>admin</code>; the container source <code>event</code>; <code>acquisition.enabled</code> in <code>Cosmetics.json</code>; the new Logbook (until <code>LOGBOOK_URL</code> and <code>LOGBOOK_TOKEN</code> are set on the game service); the Steam account link (until the owner sets <code>STEAM_WEB_API_KEY</code> on the game service).</li><li><strong>The caps need one admin action</strong> after the deploy: <code>POST /api/admin/wipe/caps {"announce":true,"at":"&lt;the announce time&gt;"}</code> (<code>at</code> is the moment the 14 days of notice count from; the route refuses a time later than now). A deploy caps nothing. The answer carries <code>activeFrom</code> (<code>at</code> plus 14 days), and <code>GET /api/admin/wipe/preview</code> says <code>caps.state</code> <code>active</code> for a countdown on or after that moment.</li><li><strong>Read the log at the first start:</strong> each data step once, the <code>Containers:</code> line with the sources <code>rank</code>, <code>calendar</code> and <code>achievement</code> among those on, <code>Ranking points: fresh from season 3</code>, no <code>ERROR</code>. If the season number is not 2, <code>POST /api/admin/seasons/set-number</code> first.</li><li><strong>Connection lines in the server log (log lines only):</strong> the connect line now says the address family (<code>v4</code>, <code>v6</code> or <code>unknown</code>) and where it was read from (<code>via=header</code> or <code>via=peer</code>); the disconnect line carries the connection's numbers (messages and bytes each way, the longest wait for the game's next message, how it ended); a wait over 2.5 seconds is also a line of its own, at most one per connection per 10 seconds. Never an address, a host name or a hash of one. <strong>After the deploy check that the live lines say <code>via=header</code></strong>: with <code>via=peer</code> the family is the proxy's and means nothing. The network echo's answer also carries a seventh number, the game loop's ticks per second, for the stats overlay (older games ignore it). How to read the lines: docs/DEPLOY.md, "The connection's own lines (0.4.26)".</li><li><strong>Rolling back to 0.4.25:</strong> the code alone is safe for the new tables; it is not safe after the first redesigned wipe has run (a 0.4.25 server would put lifetime points over the fresh ones). The pre-wipe copy is the way back.</li><li><strong>Privacy:</strong> new things are kept about a pilot (containers and their openings, special items, calendar claims, achievements and titles, the statistics of each wipe, the wipe record and the results of every wipe, and, once the Steam link is on, the Steam ID that is linked). The text for the privacy page is in <code>docs/privacy-addendum.md</code> and <code>docs/privacy-addendum-0426-containers.md</code>; the owner puts it up before the deploy.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.25.html" rel="prev">← 0.4.25</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

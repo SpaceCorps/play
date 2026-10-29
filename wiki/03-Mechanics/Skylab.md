@@ -134,6 +134,7 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 - **Credit Farm**: makes Credits over time: **2,250 an hour at level 1, 225,000 at level 20** (level 5: 11,250; level 10: 33,750; level 15: 76,500). It costs nothing to build.
 - **Thulium Farm**: makes Thulium over time: **40 an hour at level 1, 1,280 at level 20** (level 5: 144; level 10: 360; level 15: 760). Building it costs 5,000 Credits and 500 Thulium.
 - Both need power, and each holds 72 hours of what it makes until you collect it.
+- A [Philosopher's Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) makes both farms produce twice as much for 10 hours, and a [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) hired as the **Foreman** does the same for every producer for 1 hour. The extra goes into the hopper, so collect before it fills.
 
 ## The supply chain
 
@@ -157,7 +158,7 @@ Four modules turn time spent away from the keyboard into the plates for your bes
 - **Cap**: one day of its collector's output at level 1, growing to four days at level 20. A collector's hopper holds three days, so from level 13 on the bank holds at least a full hopper.
 - **Above the cap**: if a bank holds more than its cap (the payout of the 0.4.10 update could leave one so), nothing is taken away, but Collect adds no more of that ore until you have used some of it.
 - Ore goes in by collecting from a collector, or from your inventory through the [Ore Bay](#ore-bay), and out only into the Forgery and the Research Centre. It never comes back to your inventory.
-- **The banked ore stays** through the season wipe.
+- **The banked ore stays** through the season wipe, and it takes no room in the [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Power**: 10 at level 1, growing by 10% a level. It cannot be switched off.
 
 ### Forgery
@@ -224,6 +225,7 @@ The Ore Bay moves the ore you carry into the Resource Storage. A [giant excavato
 - **One way**: from your inventory into the Resource Storage, never back out. Only the loose ore in your inventory moves, never what is in the Transport Cache.
 - **How**: your **ship must be landed**. A transfer is instant: on the Ore Bay's sheet choose the ore, type an amount or press Max, and press **Move**. The sheet shows what you carry and what the bank holds against its capacity.
 - **Allowance**: the level sets how much ore it moves an hour, **30 at level 1, 960 at level 20**, and it keeps up to a day of it (720 at level 1, 23,040 at level 20). A new Ore Bay starts with a full day, and an upgrade keeps what was stored. A transfer is cut at the ore you carry, at the room the Resource Storage has left and at the allowance, and says which. A day of the allowance is about three times what the Resource Storage holds of one ore at the same level, so it is mostly the room that stops a transfer; the allowance matters only if you cycle ore through the storage again and again within a day.
+- **Hauler**: a [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) hired as the **Hauler** lifts the allowance for 1 hour. The Bay then moves as much as your cargo and the room in the Resource Storage allow, and the allowance it had stored is left as it was.
 - **Power**: 15 at level 1, growing by 10% a level (92 at level 20). It can be switched off. In a blackout, while it is switched off and while it upgrades it moves nothing.
 - **Building**: 5,000 Credits, 250 Thulium and 10 Ship Fragments (from your inventory, with your ship landed), on Core 2 only. Its upgrades cost what the Resource Storage's do and take as long (see the tables below).
 - **Not a way to more ore**: it moves ore you already hold. A run of the excavator is capped at its source, and the Resource Storage's own capacity bounds the bank.
@@ -524,6 +526,7 @@ The pilots of your clan see where each other's Skylabs are: the **Skylab** colum
 - **Construction**: each module is built on its own. A module is at level 1 the moment it is built, and upgrading it raises its output (or its power made) and its storage, and also what it costs in power.
 - **Time and cost**: upgrades cost Credits and Thulium and take time, and every module has its own price and time for each level (hover **Upgrade** to see the next one; the totals are below). The price is paid when you start the upgrade. The cost does not depend on the time. The Engine, Defense and Radar Modules also take Dark Matter Plates and need the technology of the level (see [The second bridge and Core 3](#the-second-bridge-and-core-3)).
 - **Timers**: an upgrade runs on the server's clock, so it finishes while you are away, days later if it has to. Start it, log off, come back: the module is at its new level when you open the Skylab page.
+- **Rushing an upgrade**: a [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) finishes one running upgrade at once, and a [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) hired as the **Engineer** makes upgrades run at double speed for 1 hour. Neither refunds or charges anything: the price was paid when the upgrade started.
 - **Upgrade times**: the first levels are quick and the last ones take up to 37 hours, the Core's up to 6 days (see the tables below). Every module has its own timer, so you can upgrade several at once.
 - **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception: it keeps making a quarter of its power (see below).
 - **Solar makes only 25% of its power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (24 hours for the last level) it makes a quarter of the power of its **current** level; the new level's power takes over the moment the upgrade ends. A full station uses about 90% of what Solar makes at its own level, so a quarter of it carries a station only five to six levels below Solar. Otherwise every farm and collector stops for the whole upgrade, whatever you have stored stays and can be collected, and the Forgery starts no new batch. A module that is upgrading or switched off uses no power, so lifting the farms together with Solar costs nothing extra, and switching modules off makes room for the others; the Thulium Farm uses the most power by far.
@@ -684,7 +687,7 @@ Every farm and collector has a hopper for about 72 hours of what it makes. You c
 
 The Skylab is never wiped: modules keep their levels, the Resource Storage keeps its ore and the Research Centre keeps its technologies, its tank of science, the Dark Matter it holds and a research under way. The plates in your inventory are items like any other, so they follow the [wipe rules](/wiki/03-Mechanics/Wipe-Timeline.md). The Ammo Printer and the Rocket Factory keep their levels, what they are set to make and what they hold, and the Ore Bay keeps its level and its allowance. The four modules of the Expedition keep their levels too, with their technologies, and so do the magazine and the switch of the feed. The ore in your inventory is wiped like any item: move it into the Resource Storage first.
 
-An **expedition** is settled up to the wipe: a trip under way is over, the Trophies Bay pays out its Credits, Thulium, experience and honor and is emptied (its loot is deleted like any loose item), and the Skylab starts the new season at home, in your company's port, with a new universe map, the 19 starting cells known and the Radar's line empty. The engines and lasers fitted in the Engine and Defense Modules are loose items like the others: take them out and put them in the Transport Cache to keep them.
+An **expedition** is settled up to the wipe: a trip under way is over, the Trophies Bay pays out its Credits, Thulium, experience and honor and is emptied (its loot is deleted like any loose item; the Credits and Thulium reach your wallet before the [caps](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) are applied), and the Skylab starts the new season at home, in your company's port, with a new universe map, the 19 starting cells known and the Radar's line empty. The engines and lasers fitted in the Engine and Defense Modules are loose items like the others: take them out and put them in the Transport Cache to keep them.
 
 ## Planning your Skylab
 

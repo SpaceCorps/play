@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ Az energia a Skylab éltető ereje. A Napelem modul termeli azt az energiát, am
 - **Kreditfarm**: idővel kreditet termel: **az 1. szinten óránként 2 250-at, a 20. szinten 225 000-et** (5. szint: 11 250; 10. szint: 33 750; 15. szint: 76 500). Megépítése nem kerül semmibe.
 - **Thuliumfarm**: idővel Thuliumot termel: **az 1. szinten óránként 40-et, a 20. szinten 1 280-at** (5. szint: 144; 10. szint: 360; 15. szint: 760). Megépítése 5 000 kreditbe és 500 Thuliumba kerül.
 - Mindkettőnek energia kell, és mindkettő 72 órányi termelését tárolja, amíg be nem gyűjtöd.
+- Egy [Philosopher's Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) 10 órára megduplázza mindkét farm termelését, egy **Foremanként** felfogadott [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) pedig ugyanezt teszi minden termelővel 1 órára. A többlet a tárolóba kerül, ezért gyűjts be, mielőtt megtelik.
 
 ## Az ellátási lánc {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Négy modul alakítja a billentyűzettől távol töltött időt a legjobb léze
 - **Korlát**: az 1. szinten a gyűjtőjének egynapi termelése, a 20. szinten legfeljebb négynapi. Egy gyűjtő tárolója három napot bír, ezért a 13. szinttől a raktár legalább egy teli tárolót elbír.
 - **A korlát fölött**: ha egy raktárban több van, mint a korlátja (a 0.4.10-es frissítés kifizetése ilyen helyzetet hagyhatott), semmit nem vesznek el, de a Begyűjtés nem tesz hozzá több ilyen ércet, amíg el nem használtál belőle valamennyit.
 - Érc a gyűjtőből való begyűjtéssel vagy a készletedből az [Ércrakodón](#ore-bay) át kerül be, és csak a Kovácsműhelybe és a Kutatóközpontba kerülhet ki. Sosem kerül vissza a készletedbe.
-- **A raktárban lévő érc megmarad** a szezon wipe-ja után is.
+- **A raktárban lévő érc megmarad** a szezon wipe-ja után is, és nem foglal helyet a [tranzittárolóban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Energia**: 10 az 1. szinten, szintenként 10%-kal növekedve. Nem kapcsolható ki.
 
 ### Kovácsműhely {#forgery}
@@ -226,6 +227,7 @@ Az Ércrakodó a nálad lévő ércet az Erőforrás-raktárba rakja át. Az [ó
 - **Egy irányba**: a készletedből az Erőforrás-raktárba, soha vissza. Csak a készletedben lévő laza érc kerül át, soha nem az, ami a Tranzittárolóban van.
 - **Hogyan**: a **hajódnak le kell szállnia**. Az átrakás azonnali: az Ércrakodó lapján válaszd ki az ércet, írj be egy mennyiséget vagy nyomd meg a Max gombot, majd az **Átrakás** gombot. A lap mutatja, mennyit hordasz, és mennyi van a raktárban a kapacitásához képest.
 - **Keret**: a szint határozza meg, óránként mennyi ércet rak át, **1. szinten 30-at, a 20. szinten 960-at**, és ebből legfeljebb egy napnyit tart készenlétben (1. szinten 720-at, a 20. szinten 23 040-et). Az új Ércrakodó teli nappal indul, a fejlesztés megtartja, ami el volt tárolva. Az átrakást korlátozza a nálad lévő érc, a hely, amely az Erőforrás-raktárban még maradt, és a keret, és a lap megmondja, melyik. A keret egy napja nagyjából háromszorosa annak, amennyit az Erőforrás-raktár ugyanazon a szinten egy ércből tárol, ezért az átrakást többnyire a hely korlátozza; a keret csak akkor számít, ha az ércet egy napon belül újra meg újra átjuttatod a raktáron.
+- **Hauler**: egy **Haulerként** felfogadott [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) 1 órára feloldja a keretet. Az Ércrakodó ekkor annyit rak át, amennyit a rakományod és az Erőforrás-raktár szabad helye enged, a tárolt keret pedig úgy marad, ahogy volt.
 - **Energia**: 15 az 1. szinten, szintenként 10%-kal növekedve (a 20. szinten 92). Kikapcsolható. Energiahiányban, amíg ki van kapcsolva, és amíg fejlesztik, nem rak át semmit.
 - **Építés**: 5 000 kredit, 250 Thulium és 10 Ship Fragments (a készletedből, leszállt hajóval), csak a 2. Magon. A fejlesztései annyiba kerülnek, mint az Erőforrás-raktáréi, és ugyanannyi ideig tartanak (lásd az alábbi táblázatokat).
 - **Nem út több ércért**: olyan ércet rak át, amid már van. Az óriás kotrógép egy menete a forrásnál korlátozott, a bankot pedig az Erőforrás-raktár kapacitása korlátozza.
@@ -526,6 +528,7 @@ A klánod pilótái látják, hol vannak egymás Skylabjai: a tagok listájának
 - **Építés**: minden modul külön épül meg. Egy modul az építése pillanatában 1. szintű, és a fejlesztése növeli a termelését (vagy a termelt energiáját) és a raktárát, és azt is, mennyi energiát használ.
 - **Idő és költség**: a fejlesztések kreditbe és Thuliumba kerülnek, és időbe telnek, és minden modulnak minden szinthez saját ára és ideje van (vidd az egeret a **Fejlesztés** fölé a következő megtekintéséhez; az összegek lejjebb vannak). Az árat a fejlesztés indításakor fizeted. A költség nem függ az időtől. A Hajtóműmodul, a Védelmi modul és a Radarmodul ezenkívül Dark Matter Plates lemezeket és a szint technológiáját kéri (lásd: [A második híd és a 3. Mag](#the-second-bridge-and-core-3)).
 - **Időzítők**: a fejlesztés a szerver óráján fut, ezért akkor is befejeződik, amikor távol vagy, ha kell, napokkal később. Indítsd el, jelentkezz ki, gyere vissza: a modul az új szintjén van, amikor megnyitod a Skylab oldalt.
+- **Fejlesztés gyorsítása**: egy [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) azonnal befejez egy futó fejlesztést, egy **Engineerként** felfogadott [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) pedig 1 órára kétszeres sebességre állítja a fejlesztéseket. Egyik sem térít vissza és nem számláz semmit: az árat a fejlesztés indításakor kifizetted.
 - **Fejlesztési idők**: az első szintek gyorsak, az utolsók akár 37 órát is igénybe vesznek, a Magé akár 6 napot (lásd az alábbi táblázatokat). Minden modulnak saját időzítője van, így többet is fejleszthetsz egyszerre.
 - **Termelési szünet**: amíg egy modult fejlesztenek, offline: nem termel, és nem használ energiát. A Napelem kivétel: az energiája negyedét tovább termeli (lásd lent).
 - **A Napelem fejlesztés közben csak az energiája 25%-át termeli**: a Napelem termeli a Skylab összes energiáját, és fejlesztés közben (az utolsó szintnél 24 óra) a **jelenlegi** szintje energiájának egynegyedét termeli; az új szint energiája attól a pillanattól veszi át, hogy a fejlesztés véget ér. Egy teljes állomás nagyjából annak a 90%-át használja, amit a Napelem a saját szintjén termel, ennek az egynegyede tehát csak egy olyan állomást bír el, amely öt-hat szinttel a Napelem alatt van. Különben minden farm és gyűjtő leáll a teljes fejlesztés idejére, amit tárolsz, megmarad és begyűjthető, a Kovácsműhely pedig nem indít új adagot. Az a modul, amelyet fejlesztenek vagy kikapcsoltak, nem használ energiát, ezért a farmok fejlesztése a Napelemmel együtt nem kerül semmibe, a modulok kikapcsolása pedig helyet csinál a többinek; a Thuliumfarm használ messze a legtöbb energiát.
@@ -686,7 +689,7 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 
 A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár megtartja az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a benne lévő Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik. A Lőszernyomtató és a Rakétagyár megtartja a szintjét, azt, hogy mit kell gyártania, és azt, amit tart, az Ércrakodó pedig a szintjét és a keretét. Az Expedíció négy modulja is megtartja a szintjét, a technológiáival együtt, és így a tár és a táplálás kapcsolója is. A készletedben lévő érc a többi tárgyhoz hasonlóan elvész: előtte rakd át az Erőforrás-raktárba.
 
-Az **expedíció** a wipe-ig el van számolva: a folyamatban lévő út véget ér, a Trófeaterem kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül (a zsákmánya törlődik, mint bármely szabad tárgy), a Skylab pedig az új szezont otthon kezdi, a vállalatod kikötőjében, új univerzumtérképpel, a 19 kezdő cellával ismertként és a radar sorával üresen. A Hajtóműmodulba és a Védelmi modulba beszerelt hajtóművek és lézerek szabad tárgyak, mint a többi: vedd ki őket, és tedd a tranzittárolóba, hogy megtartsd.
+Az **expedíció** a wipe-ig el van számolva: a folyamatban lévő út véget ér, a Trófeaterem kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül (a zsákmánya törlődik, mint bármely szabad tárgy; a kredit és a Thulium azelőtt kerül a tárcádra, hogy a [felső határokat](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) alkalmaznák), a Skylab pedig az új szezont otthon kezdi, a vállalatod kikötőjében, új univerzumtérképpel, a 19 kezdő cellával ismertként és a radar sorával üresen. A Hajtóműmodulba és a Védelmi modulba beszerelt hajtóművek és lézerek szabad tárgyak, mint a többi: vedd ki őket, és tedd a tranzittárolóba, hogy megtartsd.
 
 ## A Skylabod megtervezése {#planning-your-skylab}
 

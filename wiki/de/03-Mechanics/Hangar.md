@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ Die Seite **Builds** der Bibliothek kann importieren, was auf einem deiner Schif
 Das Schiff, zu dem du wechselst, hat **die Hülle und die Schilde, die es hatte**, als du es zuletzt geflogen bist, genau so, als hättest du es gestartet. Der Ring repariert nicht, also heilt ein Schiffswechsel dich nie: Das Schiff, das du verlässt, behält seinen Schaden und kommt damit zurück. Ein zerstörtes Schiff lässt sich erst fliegen, wenn du es wiederherstellst; das ist kostenlos und bringt es wie ein Respawn mit höchstens 10.000 Hülle und ohne Schild zurück.
 
 Was dir gehört, bleibt dir: deine Munition, deine Raketen und ihr Timer, die Abklingzeiten deiner Fähigkeiten, deine Booster, deine EP und deine Slave Drones. Was zum Schiff gehörte, endet: ein laufender Shield Surge oder Afterburner, Reparaturen, deine Zielerfassung, dein Angriff und der Kurs, den du geflogen bist. Ausrüstung bleibt auf dem Schiff, auf dem sie ausgerüstet ist.
+
+## Der Wipe und deine Schiffe {#the-wipe-and-your-ships}
+
+Der Wipe behält **jedes Schiff, das du besitzt**, mit voller Hülle und leeren Schilden. Welches Schiff behält, was daran ausgerüstet ist, entscheidet der [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+Das eine Schiff, das du im Cache sperrst, behält seine Ausrüstung und wird nach dem Wipe dein aktives Schiff; ist keines gesperrt, behält dein aktives Schiff seine Ausrüstung. Ein gesperrtes Schiff ist im Hangar mit einem Schloss markiert und lässt sich bis zum Wipe nicht ausrüsten, entrüsten, umbauen oder fliegen. Ab Saisontag 26 sagt jede Schiffskarte, ob das Schiff beim Wipe seine Ausrüstung behält oder abgerüstet wird.
 
 ## Anfragen von anderen Tools {#requests-from-other-tools}
 

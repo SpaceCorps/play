@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -26,7 +26,7 @@ Un **P.E.T.** (Personal Escort Technology) est un petit compagnon qui vole à c�
 
 ## La P.E.T. Station {#the-station}
 
-La Station est un **Extra**. Trois objets, **P.E.T. Station I, II et III**, se recherchent au [centre de recherche](/wiki/03-Mechanics/Research.md) (3 heures, 10 heures et 1 jour, sans Dark Matter) et se fabriquent dans l’Assemblage l’un après l’autre. Vous en **équipez** une dans un emplacement extra, comme un [Cloaking CPU](/wiki/06-Items/Extras.md), et elle donne de la place à **2, 3 et 5** P.E.T.s arrimés. Ce que coûte chacune est dans l’[arbre des objets](/wiki/06-Items/Extras.md#item-tree) des Extras. La Station reste à travers la réinitialisation, sa recherche aussi.
+La Station est un **Extra**. Trois objets, **P.E.T. Station I, II et III**, se recherchent au [centre de recherche](/wiki/03-Mechanics/Research.md) (3 heures, 10 heures et 1 jour, sans Dark Matter) et se fabriquent dans l’Assemblage l’un après l’autre : la Station I à partir de pièces, la **Station II en améliorant une Station I** et la **Station III en améliorant une Station II**. Une amélioration consomme la Station du niveau inférieur, qui doit être libre dans votre inventaire (ni équipée sur un vaisseau ni dans le [Cache de transport](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)), et demande en plus le reste de son prix : les trois fabrications ensemble coûtent donc la valeur d’une Station III, une seule fois. Vous en **équipez** une dans un emplacement extra, comme un [Cloaking CPU](/wiki/06-Items/Extras.md), et elle donne de la place à **2, 3 et 5** P.E.T.s arrimés. Ce que coûte chacune est dans l’[arbre des objets](/wiki/06-Items/Extras.md#item-tree) des Extras. La Station reste à travers la réinitialisation, sa recherche aussi.
 
 - **Seulement le vaisseau qui vole avec elle.** Vos P.E.T.s comptent sur le vaisseau que vous pilotez quand une Station est équipée dans la configuration que vous pilotez. Une Station dans votre inventaire, dans l’autre configuration ou sur un autre vaisseau ne fait rien ; changez de configuration ou de vaisseau et les P.E.T.s suivent tout de suite.
 - **ON et OFF.** Commutez la Station avec l’emplacement **PET** de la barre rapide (faites-l’y glisser depuis le sélecteur d’extras). **ON** : les 2, 3 ou 5 premiers de vos P.E.T.s arrimés apportent leurs boosts, gagnent de l’expérience et travaillent. **OFF** : rien de tout cela, et aucun drone n’est dessiné. L’emplacement affiche **ON** ou **OFF**. Le commutateur est à vous et reste d’un décollage et d’une connexion à l’autre ; une Station que vous n’avez jamais commutée est sur ON. Il y a une seconde entre deux appuis.

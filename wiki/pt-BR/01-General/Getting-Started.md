@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Primeiros passos -->
 # Primeiros passos no SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Boas-vindas à experiência definitiva de guerra espacial. Como piloto do SpaceC
 Para sobreviver e prosperar, você precisa administrar duas moedas e ficar de olho na sua honra. Os materiais com que você constrói estão na página [Recursos](/wiki/06-Items/Resources.md), com onde conseguir cada um e para que serve:
 - **Créditos**: A moeda padrão principal, paga por todo alienígena que você derrota e pelas missões concluídas, e produzida pela Mina de créditos do seu [Skylab](/wiki/03-Mechanics/Skylab.md). Serve para comprar equipamento básico, naves e equipamento padrão.
 - **Thulium**: O minério radioativo raro e moeda de alto valor, paga por todo alienígena que você derrota e pelas missões concluídas, e produzida pela Mina de Thulium do seu Skylab. Serve para comprar armamento de elite, motores, escudos híbridos e pacotes de boosters poderosos, para melhorar módulos na Montagem, para trocar de corporação (5.000), para dar um impulso ao Centro de Pesquisa (5.000) e a cada salto de uma Jump CPU (500).
-- **Honra**: Uma pontuação, não dinheiro: uma medida da sua lealdade e do seu prestígio na corporação. A honra não define a sua [patente](/wiki/03-Mechanics/Ranks.md), que vem dos seus pontos PvE e, nas seis melhores patentes, das vagas da sua corporação, e atacar pilotos aliados da sua própria corporação penaliza muito a sua honra: destruir um piloto da sua própria corporação, seja a nave de um jogador ou um dos [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) dela, custa 100 de honra. Atingir um deles nos 15 segundos antes de outra coisa destruí-lo custa o mesmo: enfraquecer um colega de corporação para um alienígena terminar sai tão caro quanto o abate. Matar um colega de corporação não é um abate PvP e não rende pontos PvP. Trocar de corporação tira metade da sua honra, arredondada para baixo; uma honra de 0 ou menos fica como está ([Trocar de corporação](#changing-your-company)).
+- **Honra**: Uma pontuação, não dinheiro: uma medida da sua lealdade e do seu prestígio na corporação. A honra não define a sua [patente](/wiki/03-Mechanics/Ranks.md), que vem dos seus pontos PvE da temporada e, nas seis melhores patentes, das vagas da sua corporação, e atacar pilotos aliados da sua própria corporação penaliza muito a sua honra: destruir um piloto da sua própria corporação, seja a nave de um jogador ou um dos [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) dela, custa 100 de honra. Atingir um deles nos 15 segundos antes de outra coisa destruí-lo custa o mesmo: enfraquecer um colega de corporação para um alienígena terminar sai tão caro quanto o abate. Matar um colega de corporação não é um abate PvP e não rende pontos PvP. Trocar de corporação tira metade da sua honra, arredondada para baixo; uma honra de 0 ou menos fica como está ([Trocar de corporação](#changing-your-company)).
 
 Na estação, seus Créditos, seu Thulium e sua Honra ficam no canto superior direito de cada página, ao lado do seu setor e do botão **Decolar**. Quando a janela é estreita demais para um valor longo, ele aparece abreviado (987,7M); passe o mouse sobre ele para ler o número inteiro.
 
@@ -30,6 +30,8 @@ Clique no nome de um piloto no Hall da Fama (**Comunidade › Rankings**), na p�
 - **Tempo de jogo.** Por quanto tempo o jogo do piloto ficou conectado ao servidor, em horas e minutos (“128 h 15 min”, “45 min”), em voo ou na estação. O tempo parado também conta. A contagem começou com a 0.4.12; para um piloto que jogava antes, é o tempo desde essa atualização.
 
 Os dois são públicos, como o nível e a patente: qualquer piloto conectado pode lê-los em um perfil. O reset da temporada não zera nenhum dos dois.
+
+Além do seu perfil, **Comunidade › Conquistas** guarda as metas da sua carreira, com recompensas e títulos: veja [Conquistas](/wiki/03-Mechanics/Achievements.md).
 
 ## Trocar de corporação {#changing-your-company}
 

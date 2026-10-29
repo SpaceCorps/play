@@ -5,7 +5,7 @@
 A **look** is what your ship wears. It has four parts: a **skin** (the paint of the hull), an **aura** (a soft glow round the ship), an **exhaust** (the colour and the shape of the trail behind its engines) and the **livery** of your drones. A look is only for show: it adds no damage, no hull and no speed, takes no slot and changes nothing a shot can hit.
 
 > [!NOTE]
-> **Nothing can be bought or earned yet.** For now an admin issues every look. The Hangar marks the ones you do not have as "Can't be obtained yet", and when you are given one a toast tells you and a soft chime plays.
+> **Looks can not be bought.** The wipe gives the season looks of the top ranks ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)); other looks can be found in the [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive), a container, and an admin issues the rest. When an admin gives you a look a toast tells you and a soft chime plays; a look you win in the container is shown on its result card.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../img/wiki-img/shots/looks-section.jpg)
@@ -23,6 +23,8 @@ A **look** is what your ship wears. It has four parts: a **skin** (the paint of 
 A skin is a paint scheme made from the ship's own hull: its panel lines, numbers and stripes stay and only the colours change. It is for one **ship model**, and the same skin is worn by every ship of that model you own and by every [design](/wiki/03-Mechanics/Ship-Designs.md) made from it; a conversion keeps the look. The Protos has no skin yet, the Kitefin, Ostirion and Nomad have one collection, and the four ships you craft in Assembly have all ten.
 
 Skins belong to your **account**, not to a ship, and they stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md); your ships wear what they wore.
+
+The [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive) can give every collection except Bloody R.E.D, and it gives a whole collection at once: all the skins of it that you do not have.
 
 | Collection | Ships | Rarity | What it looks like |
 | :--- | :--- | :--- | :--- |
@@ -95,6 +97,13 @@ An aura stays inside the ring that marks a lock-on and is drawn under everything
 - **Taking a look off.** The **Plain** tile of the Skin tab puts the ship's plain paint back, and **None** takes the aura off.
 - **More than one ship.** The switch at the foot of the sheet, **Also apply to my other ships of this model** for a skin and **Also apply to my other ships** for an aura or an exhaust, makes one click wear the look on all of them.
 - **Where you can change it.** Where you can change your gear: docked, or in a safe zone with the protection on, as in [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md#when-it-is-open).
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+A look you do not hold shows **Can’t be obtained yet**, even if a container can give it: the Hangar does not name the container.
+
+<!-- containers-wardrobe:end -->
 
 ## Rarity
 

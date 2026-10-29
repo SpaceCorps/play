@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 
 <!-- wiki-search: black hole; karadelik -->
 
-Tehlike Sektörü 4’ün (`DS-4`, PvP bölgesinin merkezi) tam ortasında, karanlıkta bir kara delik asılı durur. Her dünyada (Alpha, Beta ve Gamma) ve sezonun her gününde, Barış Protokolü dahil, aynıdır. Fazla yaklaşan her şeyi yutar ve yalnızca tek bir şey geri verir: içine ateşlenen bir N.I.K.E. roketi karşılığında [Dark Matter](#dark-matter). Araştırmadan plakaya kadar tüm yol için bkz. [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md).
+Tehlike Sektörü 4’ün (`DS-4`, PvP bölgesinin merkezi) tam ortasında, karanlıkta bir kara delik asılı durur. Her dünyada (Alpha, Beta ve Gamma) ve sezonun her gününde, Barış Protokolü dahil, aynıdır. Fazla yaklaşan her şeyi yutar ve yalnızca tek bir şey geri verir: içine ateşlenen bir N.I.K.E. roketi karşılığında [Dark Matter](#dark-matter). Araştırmadan plakaya kadar tüm yol için bkz. [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md). Her sezonun [evren sıfırlamasından](/wiki/03-Mechanics/Wipe-Timeline.md) önceki son 72 saatte boyutunun 1,8 katına büyür ([Sıfırlamadan önce büyür](#growing-before-the-wipe)); bu sayfadaki diğer her şey normal boyutu içindir.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Mesafeler sektörün merkezinden, harita birimi cinsinden ölçülür. Sektör 3
 | **Dönüşü olmayan nokta** | yaklaşık 1.000 ile 2.600 arası | Çekimin geminin hızına eşit olduğu yer. Bunun içinde, tam güçte bile, içeri çekilirsin. Hızına bağlıdır. |
 | **Olay ufku** | 300 | Ona ulaşan her gemi, gövdesi ve kalkanı ne olursa olsun, anında yok edilir. |
 
-Tehlike Sektörü 4’ün portalları ve aralarındaki yollar radyasyonun çok dışından geçer, bu yüzden yolda giderken ona yanlışlıkla denk gelmezsin. Sezonun 11. gününden itibaren aynı sektörde, sol üst köşede, delikten uzakta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de bulunur; oradaki uzaylılar deliğin halkalarına asla girmez.
+Tehlike Sektörü 4’ün portalları ve aralarındaki yollar radyasyonun çok dışından geçer, bu yüzden yolda giderken ona yanlışlıkla denk gelmezsin. Sezonun 11. gününden itibaren aynı sektörde, sol üst köşede, delikten uzakta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de bulunur; oradaki uzaylılar deliğin halkalarına asla girmez. Bir sezonun son günleri istisnadır: bkz. [Sıfırlamadan önce büyür](#growing-before-the-wipe).
+
+## Sıfırlamadan önce büyür {#growing-before-the-wipe}
+
+Kara delik sezon boyunca aynı boyutta değildir. [Evren sıfırlamasından](/wiki/03-Mechanics/Wipe-Timeline.md) önceki son **72 saatte** her saniye biraz biraz büyümeye başlar, sıfırlamadan **24 saat** önceden sıfırlamaya kadar da boyutunun **1,8 katıdır**. Bu, her uzunluğu için geçerlidir: olay ufku, çekim ve radyasyon merkezden 1,8 kat uzaktadır, sunucunun seni etrafından dolandırdığı halka da öyle. Görüntü, haritalardaki halkalar ve sesler onunla birlikte büyür.
+
+| | Normal | 48 saat önce (1,4 kat) | 24 saat önceden itibaren (1,8 kat) |
+| :--- | ---: | ---: | ---: |
+| **Olay ufku** | 300 | 420 | 540 |
+| **Çekim** | 3.000 | 4.200 | 5.400 |
+| **Radyasyon** | 4.000 | 5.600 | 7.200 |
+| **Yönlendirme halkası** | 4.200 | 5.880 | 7.560 |
+
+Değişmeyen şey, içeri giden yolun aynı payındaki sertliktir: delik 1,8 katındayken merkezden 3.600 birim uzaktaki bir gemi, normal bir günde merkezden 2.000 birim uzaktaki bir geminin hissettiğini hisseder (saniyede 96 birim çekim ve saniyede HP’sinin %2’si). Büyümüş delik daha güçlü değil, daha geniştir; bir geminin onu geçmesi 1,8 kat uzun sürer. Her geminin dönüşü olmayan noktası 1,8 kat daha uzaktadır. Bu sayfadaki tüm mesafeler normal boyuta aittir: büyümüş deliği okumak için onları deliğin boyutuyla çarp.
+
+- **Nasıl görürsün.** Son 72 saat boyunca Dashboard’un en üstünde bir kart, uçuş görünümünde de kara deliğin üstünde bir etiket sıfırlamaya kadar geri sayar (“Evren sıfırlamasına 1g 05:12:33 kaldı”) ve deliğin şu anda boyutunun kaç katı olduğunu söyler; son beş dakikada sıfırlamanın kendi geri sayımı devralır. Mini haritanın ipucu, deliğin şu anki boyutundaki halkaları adlandırır.
+- **Ne zaman.** Boyut yalnızca sezonun saatine bağlıdır, bu yüzden her dünyada aynıdır. Bir yönetici sezonu bir günde tuttuğu sürece hiçbir şey planlanmaz ve delik normal boyutunda kalır; sezon günü kaydırılırsa delik hemen onu izler; sonraki sezon normal bir delikle başlar.
+- **Portallar.** `DS-4`’ün köşelerindeki iki portal, merkezden 17.000 birim uzakta, ve üstteki portal, merkezden 8.000 birim uzakta, büyümüş radyasyonun (7.200) ve yönlendirme halkasının (7.560) bile dışında kalır. Üstteki portaldan bir köşe portalına giden rota merkeze 5.472 birime kadar yaklaşır ve sıfırlamadan yaklaşık 50 saat önceden itibaren radyasyonun içindedir; iki köşe portalı arasındaki rota (en yakın noktada 8.000 birim) boş kalır.
+- **Sektörün geri kalanı.** Uzaylılar yönlendirme halkasının içinde asla avlanmaz, dolaşmaz ya da belirmez; bu yüzden halkanın önünde sürülürler ve içine hiçbir şey bırakılmaz; 1,8 katında halka sektörün yaklaşık üçte birini kaplar. Oyundan büyümüş radyasyonun içinde, çekimin dışında çıkan bir pilot, haritanın halkanın dışındaki en yakın boş yerinde geri döner. Olay ufkunun ya da radyasyonun ulaştığı bir uzaylı, bir gemi gibi yok edilir. Halkayı kesecek bir hareket emri halkanın çevresinden dolaştırılır; halkanın içinde biten bir emir verildiği gibi uçulur.
 
 ## Radyasyon {#radiation}
 

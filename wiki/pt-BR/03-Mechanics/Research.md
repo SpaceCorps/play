@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -29,6 +29,8 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 - **Abaixo do nível 10 do Núcleo** você não pode pesquisar, então ainda não pode criar nada novo na Montagem. As missões da estação guiam você na subida do Núcleo.
 
 <!-- research-centre:end -->
+
+**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) conclui na hora a pesquisa em andamento, se a tecnologia dela leva 24 horas ou menos para ser pesquisada (135 das 151 tecnologias). O que a pesquisa custou foi pago no início e não volta, a ciência que ela ainda não queimou fica no seu tanque e a próxima tecnologia da sua fila começa na hora.
 
 **Os amplificadores de laser e o último nível.** Os Damage, Crit e Penetration Amps dos níveis II a IV são pesquisados como todo o resto que se cria. Os pilotos que tinham ou haviam enfileirado amps quando as linhas de amps chegaram receberam a tecnologia de cada um deles e a dos níveis abaixo. Treze tecnologias exigem uma tecnologia de outra árvore, a da Dark Matter Plate, da árvore Recursos, porque o último nível de cada cadeia de melhoria pede quatro plates e uma Ancient Control Unit: os Damage, Crit e Penetration Amps do nível IV, as Absorption e Capacity Shield Cells do nível IV, os Impulse e Momentum Thrusters do nível IV, o Heavy Shield Core, o Engine III, o Adaptive Core III, o Helios Beam, o Extra Slots CPU III e o Base CPU II. Quem pesquisou uma delas antes a mantém, e precisa da tecnologia da plate para fazer as plates dela. A árvore abaixo não traça seta para ela, mas a tabela a lista e o cartão no jogo a nomeia ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 - **Porta dos fundos selada** aumenta o limite de carga de todos os foguetes, onde quer que você os compre, fabrique ou troque.
 - **Mineração com escavadeira** aumenta o que você leva de cada caixa de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium quanto de minério.
 - **Teoria de campos** aumenta a parte de cada tiro que seus escudos absorvem. Uma nave sem escudo não ganha nada.
-- **Conhecimento adormecido** paga pontos de reset, uma vez por nível, quando a pesquisa termina no Centro. Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco de Conhecimento adormecido não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
+- **Conhecimento adormecido** paga pontos de reset por nível quando a pesquisa termina no Centro, e de novo depois de cada reset ([Como ganhar pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco de Conhecimento adormecido não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

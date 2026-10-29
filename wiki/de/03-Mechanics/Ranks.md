@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
-Jeder Pilot hat einen **Rang**, vom Junior-Pilot bis zum Senior-Admiral. Es ist eine militärische Leiter aus 8 Stufen mit je 3 Graden, insgesamt 24 Ränge. Dein Rang ergibt sich aus deinen **PvE-Punkten**: den Punkten, die du für dein Level, deine Erfahrung und die Aliens bekommst, die du zerstörst. Jeder Rang verlangt ein **Minimum** an PvE-Punkten, und die sechs besten Ränge haben außerdem eine feste Zahl von **Plätzen** in jedem Konzern. Im Flug zeigt das Spiel nur ein kleines **Symbol** vor dem Namen eines Piloten, sodass du die besten Piloten eines Konzerns auf einen Blick von einem frischen unterscheiden kannst, und ein Pilot des ganzen Servers trägt eine goldene **Krone** über seinem Symbol. Die Wörter stehen auf der Konzernseite und im Hover-Tooltip eines Symbols.
+Jeder Pilot hat einen **Rang**, vom Junior-Pilot bis zum Senior-Admiral. Es ist eine militärische Leiter aus 8 Stufen mit je 3 Graden, insgesamt 24 Ränge. Dein Rang ergibt sich aus deinen **PvE-Punkten**: den Punkten, die du seit dem letzten Wipe für gewonnene Level, deine Erfahrung und die Aliens bekommst, die du zerstörst. Jeder Rang verlangt ein **Minimum** an PvE-Punkten, und die sechs besten Ränge haben außerdem eine feste Zahl von **Plätzen** in jedem Konzern. Im Flug zeigt das Spiel nur ein kleines **Symbol** vor dem Namen eines Piloten, sodass du die besten Piloten eines Konzerns auf einen Blick von einem frischen unterscheiden kannst, und ein Pilot des ganzen Servers trägt eine goldene **Krone** über seinem Symbol. Die Wörter stehen auf der Konzernseite und im Hover-Tooltip eines Symbols.
 
 **In einer Minute**
 
@@ -13,7 +13,7 @@ Jeder Pilot hat einen **Rang**, vom Junior-Pilot bis zum Senior-Admiral. Es ist 
 - Nur Piloten mit PvE-Punkten, die in den letzten 30 Tagen geflogen sind, stehen in einer Liste. Alle anderen gelten als Junior-Pilot, bis sie wieder fliegen, und haben keinen Platz.
 - Eine **goldene Krone** über dem Symbol kennzeichnet den Piloten mit den meisten PvE-Punkten des ganzen Servers: alle Konzerne, alle drei Welten.
 - Dein Rang bewegt sich. Bis einschließlich Senior-Oberst hängt er nur von deinen Punkten ab und steigt deshalb nur. Die sechs besten Ränge bewegen sich außerdem mit den anderen Piloten deines Konzerns: Sie können sinken, wenn andere die Plätze über dir einnehmen. Ein Abstieg wird nie gemeldet; ein neuer bester Rang schon.
-- Der Wipe ändert niemandes Punkte, die Listen fangen also nicht von vorn an.
+- Beim Wipe fangen die Punkte wieder bei null an, die Listen beginnen also von vorn und jede Saison ist ein neuer Aufstieg. Dein Rang der Saison kommt in deinen Verlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Das beginnt mit dem ersten Wipe der neuen Regeln: Bis dahin sind deine Punkte die deiner ganzen Laufbahn.)
 - Das Symbol vor einem Namen ist der Rang: eine Form für die Stufe, ein bis drei Markierungen für den Grad.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und
 
 ## Ränge und der Wipe {#ranks-and-the-wipe}
 
-Ein Wipe ändert niemandes Punkte. Er behält dein Level, deine Erfahrung und deine Abschussstatistik ([Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), und deine PvE-Punkte werden daraus berechnet, also hat die Rangliste deines Konzerns nach dem Wipe dieselbe Reihenfolge, und die Ränge und die Krone bleiben es auch. Dein Rang gilt aber nicht mehr fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
+Beim Wipe fangen deine PvE-Punkte wieder bei null an, die Rangliste deines Konzerns beginnt also von vorn und jede Saison ist ein neuer Aufstieg. Es zählt nur, was du nach einem Wipe verdienst: die Level, die du gewinnst, die Erfahrung und die Alien-Abschüsse der neuen Saison ([Frische Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Dein Level, deine Erfahrung und deine Abschussstatistik bleiben in deinen Gesamtzahlen. **Die Ehre bestimmt deinen Rang nicht.** Der Rang, den du im Augenblick des Wipes hieltest, kommt mit deinem Platz in der Rangliste in deinen Saisonverlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Dein Rang gilt auch nicht fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
+
+Der erste Wipe der neuen Regeln ist der erste, der die Punkte wieder bei null beginnen lässt: Bis dahin sind sie die deiner ganzen Laufbahn, und dieser Wipe schließt eine Saison mit den Rängen ab, die die Rangliste dann zeigt.
 
 ## Wie lange es dauert {#how-long-it-takes}
 
 Das sind **Schätzungen** aus einem Modell, wie schnell ein Pilot jagt, keine Messungen. Ein Pilot, der etwa zwei Stunden am Tag jagt, 58 Stunden in einer Saison, hat nach einer Saison etwa 21.200 PvE-Punkte: Oberst. In Jagdstunden kommt das Minimum von Pilot innerhalb der ersten Stunde, das von Sergeant nach 4, das von Hauptmann nach 18, das von Major nach 38, das von Oberst nach 55, das von Junior-General nach 67, das von General nach 73, das von Senior-General nach 78, das von Junior-Admiral nach 101, das von Admiral nach 113 und das von Senior-Admiral nach 124.
 
-Ein typischer aktiver Pilot erreicht die Ränge mit Plätzen also in seiner zweiten Saison. Ob er einen Platz bekommt, hängt von den anderen Piloten seines Konzerns ab, die auch jagen: Die Plätze eines Rangs zählen erst, wenn mehr Piloten sein Minimum erreichen, als er Plätze hat. Bis dahin sind es allein deine Punkte.
+Ein typischer aktiver Pilot beendet eine Saison also als Oberst, und die Ränge mit Plätzen, ab Junior-General, verlangen 67 bis 124 Stunden Jagd in einer Saison: etwa 2 bis 4 Stunden am Tag. Ob er einen Platz bekommt, hängt von den anderen Piloten seines Konzerns ab, die auch jagen: Die Plätze eines Rangs zählen erst, wenn mehr Piloten sein Minimum erreichen, als er Plätze hat. Bis dahin sind es allein deine Punkte.

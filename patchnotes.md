@@ -16,124 +16,163 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
-## 0.4.25 · 2026-10-22
+## 0.4.26 · 2026-10-29
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.25)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.26)
 
-SpaceCorps 2027 0.4.25 is the release the first Universe Wipe runs under: the wipe keeps every ship you own and takes your items, except the gear on your active ship, your drones, formations, P.E.T. Stations and your Transport Cache. It adds Auction buy orders and a News card, lets chat take Cyrillic and other scripts, doubles the Thulium Geode's Thulium, ends the daily mining limit, makes Davidski hit twice as hard and pay 1.5 times, and lets the Mole work every rock and the Cradle work in flight.
+SpaceCorps 2027 0.4.26 rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T. Stations and a rebuilt Transport Cache (one locked ship with all its gear, three bays of 10 and 100 tons of cargo, up from 50 tons), takes the Credits above 5,000,000,000 and the Thulium above 10,000,000 at a wipe whose countdown begins at least 14 days after the caps are announced, and pays Wipe Points, Premium days, Credits, Thulium, loot containers and a title by your rank. It adds 40 achievements with titles, five loot containers that are earned and never sold, a daily rewards calendar, six special items and statistics for each wipe. Beta now asks level 7 and Gamma level 10, the black hole grows before the wipe, the Galaxy Gates spin for Thulium only, a P.E.T. Station is upgraded from the one below it, and Davidski's Auction lots stand last.
 
 ### What's new
 
 **Highlights**
-- **The first Universe Wipe keeps all your ships.** It also keeps the gear fitted to your **active ship**, your **drones**, **drone formations**, **P.E.T. Stations** and your **Transport Cache**. **Every other item is removed,** the gear on your other ships and the engines and lasers fitted in your Skylab too. **Clans end.** **Credits, Thulium, XP, honor, level, ranks, Skylab, technologies, skins, P.E.T.s, Wipe Points and permanent buffs stay;** nothing is capped.
-- **Buy orders on the Auction:** say what you want and what you pay for a lot, for 7, 14 or 21 days; the price is held until a seller (level 5 or more, with a Standard item he earned) fills the order or you cancel. The seller pays the 5 % tax. Three new sounds.
-- **A News card on the Dashboard** shows the newest three posts of the SpaceCorps team; the game server fetches them every 15 minutes, the game never contacts GitHub.
-- **Mining and aliens:** the **Thulium Geode pays 36 to 84 Thulium** (it paid 18 to 42); **the daily mining limit is gone**; **Davidski** is out of every ranking, hits twice as hard and pays 1.5 times (Alpha: 1,590,000 Credits, 4,275 Thulium); the **x-2 maps hold 30 Seekers and 15 Phantasms** (they held 20 and 10).
-- **The Mole works every rock a rocket can hurt,** the Motherlode too; Moles of different pilots can share a rock, and the card shows its real damage. **The P.E.T. Cradle works in flight.** Dock and Undock still need a parked ship.
-- **Chat takes Cyrillic, Japanese, Korean and Chinese** text and the numero sign. Links stay refused, in Russian words too. The sidebar's Messages row is hidden.
-- **Interface:** **drones on the pilot sheet**, **Ctrl+F search in the Assembly**, the **Forge** names a piece's ship and has a Ship filter, **short numbers** (1.2M, 1.5B), a **volume button** on the start and sign-in screens, a **full Trophies Bay** told by a toast, a pill and a sound, and a clan timer that reads `--:--`, not 00:00, when the clock is unknown.
-- **Smaller:** the wiki is updated in 13 languages; the admin action **Set season day** moves the season day without freezing the clocks.
+- **The Universe Wipe is rebuilt.** It keeps **every ship**, your **drones, drone formations, P.E.T.s and P.E.T. Stations** and your **Transport Cache**: **one ship locked in it that keeps all its gear**, three bays of 10 slots (lasers, shield cores, engines) and 100 t of cargo (50 t in 0.4.25). Up to **1,000 of each combat rocket** and **1,000,000 of each laser ammo type** carry over by themselves. **Every other item is removed. Clans end.** **Credits above 5,000,000,000 and Thulium above 10,000,000 are lost** at a wipe whose countdown begins at least **14 days after the caps are announced**.
+- **The wipe pays by your rank:** 5 to 400 Wipe Points, 1 to 7 Premium days, 105,000 to 6,300,000 Credits and 225 to 13,500 Thulium, loot containers and a season title; the top ranks also get a look. A **Season Report** opens after the wipe, a **Wipe preview** shows beforehand what it will do to you, and the Dashboard counts down in the last 72 hours. At the next wipe your ranking points start from zero.
+- **Five loot containers:** Specimen Vault, Foundry Crucible, Chroma Archive, Survey Canister and Reagent Rack. They are **earned, never sold and bound to your account;** the **odds are printed** on the Containers page and the wiki, and every opening is recorded with its seed. They come from administrators, from your rank at the wipe, from the daily rewards calendar and from achievements.
+- **40 achievements and 32 titles** under Community › Achievements: from 50,000 to 5,000,000 Credits each, once per account. You wear one title beside your name.
+- **Daily rewards:** a calendar of 29 tiles for each season, a Collect button, 6 hours of grace, no streak. Four chests at 7, 14, 21 and 28 days collected, and a Season prize at 10 and 20 days.
+- **Six special items** (Magic Hammer, Schematics, Philosopher's Stone, Tinkerer's Badge, Forger's Seal, Workforce Contract). **Administrators issue them; nothing else gives them out yet.**
+- **Statistics for each wipe:** the Stats page shows **This wipe**, **Total** and **Past wipes**, and the Hall of Fame can be read wipe by wipe.
+- **Smaller:** **Beta needs level 7 and Gamma level 10;** the **black hole grows up to 1.8 times** in the last 72 hours before the wipe; the Galaxy Gates **spin for Thulium only**, with a sound; **P.E.T. Station II is made from a Station I and III from a II;** **Davidski's lots come after every pilot's lot** in the Auction; new sounds for the new screens; the wiki is updated in 13 languages.
 
 **If you already play: what changes for you**
-- **Update the game.** A 0.4.17 to 0.4.24 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.22), else the whole package; an older game downloads the whole package.
-- **Before the wipe:** put what you want to keep in the **Transport Cache** (50 t; it opens with the Chrono-Gate's 100 parts), make the ship you want geared your active ship, and leaders pay out the Fleet Treasury. Take the engines and lasers out of your Skylab's modules and put them in the Cache too: they are loose items. Open Auction listings come back as loose items and go with the rest; buy orders return their price whole.
-- **Your PvE ranking points fall by 37 for each Davidski kill** you made, once, at the first start of the server (he is out of the ranking systems). Level, XP and PvP points stay; a company rank can drop a step.
-- **The update itself pays, moves and removes no Credits, Thulium or items.**
-- **A 0.4.24 game keeps working but has none of the new screens** (buy orders, News, drone cards, the Cradle in flight, the Bay-full notice); it can type Cyrillic, and an emoji costs it 2 lines. A 0.4.25 game on an older server hides buy orders and News.
+- **Update the game.** A 0.4.18 to 0.4.25 game installs a patch when the job made one for it (a Linux AppImage game from 0.4.23), else the whole package; an older game downloads the whole package.
+- **Before the next wipe:** build the Chrono-Gate (100 parts) so the Transport Cache opens; **lock the ship you want to keep geared** (the lock is final; once a ship is locked only its gear is kept, not your active ship's, unless that is the locked ship) or leave none locked and your active ship keeps its gear; fill the bays and the cargo; take the engines and lasers out of your Skylab's modules and put them in the Cache; **collect your finished crafts** (an uncollected craft is refunded, not made); leaders pay out the Fleet Treasury; look at your Credits and Thulium against the caps; open the Wipe preview; choose your next world under Galaxy Gates.
+- **At the server's first start** you receive the achievements you have already earned, with their titles but without Credits or containers, and the titles of the first Universe Wipe (a Season 1 title for the pilots who lived through it, and titles for rank, best of a company and the crown). Some goals had no history to read (swarm kills, Wardens, asteroids, Skylab trips, the Motherlode): they count from the update.
+- **The update itself pays, moves and removes no Credits, Thulium or items.** Your ranking points stay your whole career's until the next wipe.
+- **Beta and Gamma:** the new levels decide who can choose them at Setup and as a Destination. Nobody is moved out of the world he flies in.
+- **A 0.4.25 game keeps working but has none of the new screens** (Containers, Achievements, Daily rewards, special items, Statistics for each wipe, the Cache's ship lock, the Wipe preview and the Season Report), so update before the wipe. It still shows the Gates' scan for Credits; the server refuses it: *Spinning for credits is closed. Spin for Thulium.* A 0.4.26 game on an older server hides the pages that server does not have.
 - **New texts in other languages have had no native review.**
 
-**The first Universe Wipe**
-- **When:** a season ends on day 30. As day 30 begins the System chat says *Universe Wipe in 5 minutes* and counts down (at 240, 180, 120, 60 and 30 seconds and in the last 10); 300 seconds later the wipe takes every pilot who has a world off the maps. A pilot without a world is left as he was. **The first wipe is expected on 24 or 25 October 2026:** its countdown begins when the season's day 30 does, somewhere between about 07:41 UTC on Saturday the 24th and 07:41 UTC on Sunday the 25th, and the wipe is five minutes later (09:46 CEST on the 24th at the earliest, 08:46 CET on the 25th at the latest). That hour is worked out from one line of the live server's log, not read from its clock; it is read and announced once this version is live. If the live season is still held on the day override, no wipe is scheduled until an administrator changes that. The first wipe of the game runs under the rules below, which are those of this version.
+**The Universe Wipe**
+- **When:** unchanged. A season ends on day 30. As day 30 begins the chat and a red banner count down 5 minutes (a warning sound at 5:00, at 1:00 and in the last ten seconds), and then the wipe takes every pilot who has a world off the maps. **The date of the next wipe is announced by the administrators.** The caps apply to a wipe whose countdown begins at least 14 days after the caps were announced, as the news post that named the rules said.
 
 | Yours | After the wipe |
 |---|---|
-| **Every ship** | **Kept,** whole again: full hull (its plates counted), empty shields, its skin and any conversion under way. Exactly one is active |
-| The gear fitted to your **active ship** in configurations 1 and 2, with what is fitted into it | Kept |
-| Your **drones** (level and experience), **drone formations** and **P.E.T. Stations**, wherever they are | Kept |
-| Your **Transport Cache** (up to 50 t) | Kept |
-| **Every other item:** loose gear, the gear on your other ships, resources, ammo, rockets, boosters, CPUs, plates | **Removed** |
-| Credits, Thulium, XP, honor, level, ranking points and rank, Premium, quests, Wipe Points, permanent buffs | **Unchanged:** nothing is capped in this wipe |
-| Skylab (modules, ore, research), technologies, P.E.T.s, skins | Unchanged. A Skylab expedition under way is settled and the Trophies Bay is paid out and emptied (its loot is removed like any loose item). **The engines and lasers fitted in the Engine and Defense Modules are loose items and are removed:** take them out and put them in the Cache |
+| **Every ship** | **Kept,** whole again: full hull, empty shields, its skin. Exactly one is active |
+| The gear of your **Cache ship** (both configurations, with the amps, cells and thrusters in it). With no ship locked, the gear of your **active ship** | Kept |
+| Your **drones**, **drone formations**, **P.E.T.s** and **P.E.T. Stations**, wherever they are | Kept |
+| Your **Transport Cache:** 3 bays of 10 (they weigh nothing) and 100 t of cargo | Kept |
+| **Ammo and combat rockets** | Up to **1,000 of each of the 12 combat rockets** and **1,000,000 of each laser ammo type** are kept without using the Cache. The N.I.K.E., the N.U.K.E., the EMP Charge and everything above those limits are kept only inside the Cache |
+| **Every other item:** loose gear, the gear on your other ships, resources, boosters, CPUs, plates | **Removed.** The engines and lasers fitted in your Skylab's Engine and Defense Modules are loose items too |
+| **Credits and Thulium** | Kept **up to 5,000,000,000 Credits and 10,000,000 Thulium;** above that is lost at a capped wipe. Rewards are paid after the caps |
+| XP, honor, level, quests, Wipe Points, permanent buffs, technologies, looks (skins, auras, exhausts) | Unchanged |
+| Skylab (modules, ore, research) | Unchanged. A Skylab expedition under way is settled and the Trophies Bay is paid out and emptied |
+| Your **rank and ranking points** | The rank goes into your season history and pays. From the next wipe the points start again from zero, and only experience, levels and kills you earn after it count; honor does not set your rank |
+| The **Wipe Point sources** (alien kills, missions, Dormant Knowledge) and the alien kills of the wipe | Start again: up to 1,090 Wipe Points can be earned again |
 | Your **clan** | **Ends,** with its Fleet Treasury, posts, log, treaties, points and boosts. What a clan paid you stays |
-| **Auction** | Listings come back as loose items and go with the rest; bids in lots are refunded; buy orders return the price they hold whole (the deposit is gone) |
-| Chrono-Gate parts, the Cache, your destination | Reset: 0 parts, the Cache empty and unlocked (what it held is in your inventory, loose), the destination cleared. You land at your company's home in the world you chose under Galaxy Gates (else you choose at Setup) |
+| **Assembly crafts** | Every craft is cancelled and refunded: Credits and Thulium to your wallet before the caps, the materials as loose items. A finished craft you did not collect is refunded too, and what it would have made is never made. Jobs in the P.E.T. Cradle go on |
+| **Auction** | Listings come back as loose items and go with the rest; bids in lots are refunded; buy orders return the price they hold. This money comes home before the caps |
+| **Unopened containers, special items, titles, achievements** | Kept: they live in tables of their own |
+| Chrono-Gate parts, the Cache, your destination | Reset: 0 parts, the Cache empty (what it held is in your inventory, loose), the destination cleared. You land at your company's home in the world you chose under Galaxy Gates (else you choose at Setup) |
 
-- **What is new about it:** before this version the wipe deleted every ship but the active one. Now each ship you own comes through; only the **items** are removed, and only the active ship keeps what is fitted to it. To keep the gear of another ship, put it in the Cache, or make that ship the active one before the wipe.
-- **The server writes down the wipe:** for each pilot, his rank, his place on his company's ladder, whether he wore the crown, his PvE and PvP points, his totals (level, experience, honor, Credits, Thulium, kills, deaths, shots, play time), his wallet before and after, the ships he kept and the items and units removed. No screen shows it yet. It is kept as long as the account and removed when you delete it.
-- **The Auction is closed from day 30,** but you can still cancel your own listings and orders.
-- **Rehearsed, not run:** the wipe was run twice on a synthetic database of 200 pilots (193 with a world): 0 failures, 994 ships before and 994 after, 3,937 item rows kept and 6,548 removed, and a second wipe a fixed point. It took 1.3 seconds on an idle Mac and 4.4 seconds on a busy one. The live game's data was not available, so it has not been run on that.
+- **The Transport Cache** opens when the Chrono-Gate is complete: 100 parts, which you find with the Energy Materializer on the Galaxy Gates page. **You may lock one ship in it.** A locked ship keeps everything fitted to it, but it cannot be launched, fitted, unfitted, converted or plated until the wipe, and only an administrator can undo the lock. You need another ship you can launch; if you lock your active ship, the best of your others becomes the active one and the game says which. After the wipe the locked ship is your active ship. Skins, drones and P.E.T.s are not locked. The Hangar marks the locked ship, and from season day 26 every ship card says whether the ship keeps its gear. The bays take loose lasers, shield cores and engines (10 of each) with the amps, cells and thrusters in them; the cargo is weighed item by item (a laser 2,500 kg, a booster 500 kg, a plate 5 kg, a combat rocket 1 kg, a N.I.K.E. or N.U.K.E. 250 kg).
+- **What it pays:** the rank you hold at the instant of the wipe pays Wipe Points (5 to 400), Premium days (none up to Senior Lieutenant, then 1 to 7, stacked on a Premium you have), Credits (105,000 for a Pilot to 6,300,000 for a Senior Admiral) and Thulium (225 to 13,500), then containers by tier (a Pilot 1 Specimen Vault; an Admiral 8 Specimen Vaults, 4 Reagent Racks, 3 Foundry Crucibles, 3 Survey Canisters and 5 Chroma Archives) and a season title. The pilot with the most PvE points on the server gets 100 Wipe Points and 7 Premium days on top. Junior General or better gets a Laurel aura and Junior Admiral or better a Prism exhaust; the pilot with the crown gets the Crown aura and the Sovereign exhaust. You are paid if you had a world, at least 150 PvE points and at least 3 hours played in this wipe. The full table is on the wiki page Seasons and Rewards.
+- **The caps** cut only the wallet you hold at the wipe; nothing is taken during a season. The Dashboard, the Season page and the Gates page show a line about them from the day the caps are announced; it turns red when you are over a cap and the caps are in force for the next wipe. The rules were posted in the news before this version.
+- **The Season Report** opens at the station the first time you are there after the wipe (if you were offline it waits): your rank and place, your numbers of the wipe, what was kept, what was lost (and what a cap took) and what you were paid, line by line. The **Wipe preview** is the plan the server itself runs; open it from the banner, from the Dashboard and the Season page from season day 24, or as soon as the caps are announced. Season page › Progression keeps a row for each wipe you flew.
+- **Rehearsed, not run on live data:** the redesigned wipe was run on a development server with 200 synthetic pilots (193 with a world): 193 wiped, 0 failed; with the caps announced 13 days before nothing was capped, with 14 days 19 pilots were; the wipe's own transaction took about 2 seconds and the work after it about 4 (up to 11 under load); an error injected at any of nine points before the commit rolled the database back whole, and so did a process killed inside the transaction (tried at three points). **That run was on an earlier build of 0.4.26, not on the release build:** the server changed after it (the calendar, the titles and achievements, the guard for a second run). Two of those fixes (a second run for a season already wiped changes nothing; a failing calendar step is counted in the report and cannot fail the wipe) were proved by tests, the first also by a 40-pilot run; the wipe was not run again with 200 pilots.
 
-**Buy orders on the Auction**
-- **Where:** the Auction bar has a fifth section, **Buy orders**, with two views: **Wanted** (everyone's open orders, with search, category chips, a currency, a sort and the chip **I can fill**) and **My orders**. Place one with **New buy order**: the kind, the lots, Credits or Thulium, the price of one lot and 7, 14 or 21 days. There is no highest price; the least price is the kind's.
-- **What it costs:** the **whole price is held** (the page counts it as *In orders*) and the **deposit** of a listing is burned. Your first ten postings of a UTC day, listings and orders together, pay no deposit. Orders have slots by level, counted apart from listings: 20 at level 5, 40 at level 6, 70 at level 7 and 100 from level 8. The server holds at most 25,000 open orders.
-- **Standard items only:** an order asks for a kind in its plain form, not forged and with no rolled buffs. A seller of level 5 or more fills it with Marketable (earned, not bought) Standard items that are not fitted, cached or holding modules, a few lots at a time (a sale of unique pieces takes up to 25). He receives the price less the 5 % tax; the buyer's items are not Marketable. Nothing matches an order with a listing by itself.
-- **It ends** when it is filled, when you cancel (the held price of the lots left comes back whole, the deposit does not), when it runs out, at the wipe, when you delete the account, or when an administrator cancels it.
-- **The sell sheet** of an item shows the best open order for it and **Sell to it**. Fills, expiries and returns come as a toast, a burst of fills as one growing toast.
-- **Three new sounds:** an order placed, an order filled (to the buyer) and a sale to an order.
+**Containers**
+- **Where:** Economy › Containers, after the Auction. You open a container docked. A reel shows the draw (Space or Esc skips it; Settings has *Skip container animations*). *Open all* opens up to 10 at once without the reel. **History** keeps your openings with the seed and the table hash; `scripts/containers-verify.py` in the game's source checks one.
+- **The five:** the **Specimen Vault** (a little of everything: Credits, Thulium, ammunition, rockets, gear, plates, Dark Matter, boosters and colours), the **Foundry Crucible** (ammunition, rockets, lasers, gear and 5 ships), the **Chroma Archive** (looks only), the **Survey Canister** (Skylab ore, plates, Dark Matter, Cluster Chunks, Thulium) and the **Reagent Rack** (boosters, EMP Charges, Energetic Walls, ammunition).
+- **Rules:** nothing can be bought, traded, given away or listed on the Auction, and Premium changes no chance. Every container has a guarantee: a prize of grade Rare or better within 10 openings (Specimen Vault, Reagent Rack) or 8 (Foundry Crucible, Survey Canister), Epic or better within 12 (Chroma Archive). The ships are 0.320 % together in the Foundry Crucible (Nomad 0.100 %, Paragon 0.100 %, Storm 0.050 %, Ironclad 0.050 %, Wraith 0.020 %); **a ship you own never drops.** A look you own is not drawn while its grade has one you lack; when you own them all it pays Thulium (25, 100, 400, 1,200 or 4,000 by grade).
+- **Where they come from:** administrators; your rank at the wipe; the calendar's chests (a Specimen Vault each); and achievements (an Epic one pays a Specimen Vault, a Legendary one a Specimen Vault and a Chroma Archive).
+- **The wipe:** unopened containers are kept. The Specimen Vault, Foundry Crucible, Survey Canister and Reagent Rack **close from season day 30** (a banner from day 28) because what they hold would be lost; the Chroma Archive stays open. Items from a container are ordinary items for the wipe, but they are never Marketable: they cannot be listed on the Auction.
 
-**The News card**
-- **Where:** the last card of the Dashboard's left column, under the boosters: the newest three posts, each with a thumbnail, a title, the date and a line of text, a *New* pill and **Mark all read**. A click opens the whole post with all its pictures; Newer, Older and the arrow keys go through the last 20. What you have read follows your account to your other computers.
-- **Where it comes from:** the server reads a public repository (`SpaceCorps/news`, folder `posts`) every 15 minutes and keeps the newest 20 posts in memory; the game only calls its own server. A post has a title of up to 120 characters, a body of up to 4,000, three pictures of at most 2 MiB and 1,600 pixels, and a small Markdown (paragraphs, headings, lists, bold, italic, links to https addresses). HTML and pictures by address are dropped. A link shows where it goes and opens your browser; in the Steam build links are plain text.
-- **If there is no news** (the repository is empty, or a server without the service) the card shows its empty text or, on a server of an older version, does not appear.
+**Daily rewards**
+- **Where:** the *Daily rewards* card on the Dashboard and Season & Profile › Calendar. One tile for each UTC day (29 a season: day 30 is the wipe's countdown); the day turns over at 00:00 UTC for everybody. You press **Collect**; nothing is collected for you. A tile stays open 6 hours after its day ends, then it is missed and costs you that day's gift and nothing else.
+- **Chests** come with your 7th, 14th, 21st and 28th collected day, whichever days those are. Each holds a Specimen Vault (the 21st and 28th add a booster hour, the 28th also Thulium). If the game cannot hand out the container, the chest pays a bundle of Credits, Thulium and a booster instead.
+- **The Season prize** opens in the last three days (27 to 29): a souvenir look at 10 days collected and the research of a ship design at 20.
+- **The gifts** are small: ammo, rockets, materials, plates, boosters, Credits and Thulium; every season has a different calendar and you can see all of it from day 1. A tile that would hold a special item pays 100,000 Credits for now. Premium, a clan and your level change nothing.
+- **When it starts:** a calendar opens with the season. If this version goes live in the middle of one, the first calendar has only the days left, with the chests and the prize steps scaled to it; with fewer than 10 days left there is none until the next wipe.
 
-**Mining and aliens**
-- **The Thulium Geode** (grows on T-3, G-3 and T-4) pays **36 to 84 Thulium** a rock in Alpha, twice what it paid (18 to 42); Beta pays twice and Gamma three times that, as for every asteroid. Its Credits (42,450 to 70,800), ore and rare finds are as they were. No other kind changed. The models read a solo miner's Thulium an hour in Alpha on T-3, G-3 and T-4 at 875, 960 and 1,701 before and 1,175, 1,433 and 1,944 now.
-- **The daily mining limit is gone,** in Alpha, Beta and Gamma: every chunk is paid whole, "Daily mining limit reached" is never sent, the asteroid Help card reads *Daily limit: None* and the Target window and the wiki say there is none. The Mole is held by no limit either. **It is a switch, shipped off:** the caps (Thulium 3,000, 4,500 and 6,000 and Credits 13, 18 and 21 million a pilot a day in Alpha, Beta and Gamma) stay in the file, and an administrator can turn a world's limit back on without a release. The models' reading of what the limit held back: a solo miner's 6 hours up to 2.4 times the Credits and 3.2 times the Thulium of the limit; a Mole that works all 24 hours 4.4 to 9.6 times the Credits and 2.7 to 13.1 times the Thulium. Nothing of this is measured yet.
-- **Davidski** is out of every ranking: no row in the Hall of Fame, no place on a profile, and his kills add no ranking point (the experience still counts). **He hits twice as hard:** his volley is 4,104 a second in Alpha, 6,156 in Beta and 8,208 in Gamma; his hull, shield, speed and range did not move. **He pays 1.5 times:** Alpha 1,590,000 Credits, 4,275 Thulium, 255,000 XP and 1,110 honor, Beta twice and Gamma three times that. The limits stand: 2 paid kills a pilot and 8 a world a day. The model's fight: in Alpha the smallest group that kills him goes from 3 to 4 late-offense pilots and the smallest that loses no ship from 5 to 9.
-- **The x-2 maps** (M-2, T-2 and G-2, in every world) hold **30 Seekers and 15 Phantasms,** where they held 20 and 10. On the scratch server a pilot on an x-2 map is sent 12.2 KB/s before and 14.4 after (+2.2 KB/s, +18 %), and the server's tick costs 4.4 to 14.3 microseconds more per extra alien.
+**Achievements and titles**
+- **Where:** Community › Achievements. 40 goals in 8 groups and 5 tiers; 3 are hidden until you unlock them. You are paid the moment you reach one: Common (10 of them) 50,000 Credits, Uncommon (7) 150,000, Rare (11) 500,000, Epic (7) 2,000,000, Legendary (5) 5,000,000, 46,050,000 in all, once in your life. Epic and Legendary also pay containers (above). A wipe never takes one back.
+- **Titles:** 32 of the 40 give one. Titles also come from the end of a season (your rank, the best pilot of each company, the pilot with the most PvE points). You own many and **wear one**, chosen on your pilot profile; it shows on the profile, in the Rankings, in the Group window and when you point at a name in the chat.
 
-**The Mole and the P.E.T. Cradle**
-- **The Mole works every asteroid a rocket could hurt** in your world and reach: the Motherlode, rocks another pilot has already damaged, and the four wrecks you can mine (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser). The wrecks drifting in the background are scenery and cannot be hit. Moles of different pilots can work the same rock; the break is paid by damage dealt, as with rockets, and a share under 5 % pays nothing. A Mole keeps the rock it began until it breaks.
-- **Its card shows the real damage:** *Hits 2,125 to 4,800 every 3 s* for a top Mole in Alpha, the least and the most one pulse takes off a rock of tier 1 to 5; hover for the five tiers. The model reads a top Mole at 100 to 118 % of the rocks an hour that a miner with the best rockets breaks.
-- **The Cradle works in flight.** With the Hangar open over the game, **New assembly, Collect, Collect all, Cancel, Crossbreed** and **Let go** work anywhere, with no need to land. A Cluster Chunk picked up while mining can go into the Cradle in the same flight, and a job started in flight survives a jump or a death. **Dock and Undock** still need a parked ship; the greyed buttons say why on hover, and the green "Hangar is open" banner no longer stands over the P.E.T. view.
+**Special items**
+- **What they are:** one-use items, kept as a count on your account (not items; the wipe leaves them): the **Magic Hammer** finishes a Skylab upgrade (you can hold 5, one grant in 60 days), **Schematics** finish the research that is running if it takes 24 hours or less (hold 20), the **Philosopher's Stone** doubles your Credit Farm and Thulium Farm for 10 hours (hold 10), the **Tinkerer's Badge** raises a piece of equipment one Forge tier (hold 10), the **Forger's Seal** skips up to 30 minutes of the Production Queue (hold 99) and the **Workforce Contract** hires a Foreman, an Engineer or a Hauler in the Skylab for 1 hour (hold 99).
+- **Where:** the Special items section of the Hangar; each use asks first and cannot be undone. **For now an administrator issues every one.** They cannot be bought, sold, listed or given to another pilot.
 
-**Chat takes more scripts**
-- **What is allowed:** Latin, Cyrillic (Russian, Ukrainian...), Japanese, Korean and Chinese text, and the numero sign. Emoji, symbols and other scripts (Greek, Arabic, Hebrew, Thai) are still refused and the box drops them, with a hint of its own in 13 languages. The 200-character limit, the pause for sending too fast, the spam and repeat rules and the no-links rule are as they were.
-- **Links in Russian words are refused too:** "discord tochka gg" written in Cyrillic, a dot word in brackets, the Russian names of the usual sites (Discord, YouTube, Twitch, TikTok, Instagram and others) and the domains .ru, .rf, .rus, .ukr and .org. A word that is also an everyday word (gg, net) counts only after a spoken dot or a known host, so "tochka sbora" stays chat.
-- **The Messages row** of the sidebar is hidden for now. Private messages work as before, and their unread numbers still show on the chat bar and the Chat button.
+**Statistics**
+- **This wipe, Total, Past wipes:** Overview, Ranking and Sector Intel on the Stats page have this switch. *This wipe* is your figures now less your figures at the start of the wipe; *Total* is never reset; every tile also shows the other number. *Past wipes* lists the wipes that have ended and shows what you did in one, with your place and rank. The Hall of Fame has a *Wipe* menu (Now, or a wipe that has ended).
+- **Counted from:** statistics for each wipe began with this version. For the wipe running when it goes live, the page counts from the first wipe's record where there is one, else from the day of the update, and says *counted from*.
 
-**The interface**
-- **Drones on the pilot sheet** (Rankings, Stats, the clan list, your own): one card per drone, up to 8, with its picture by level (the gold gunship for a Master Drone), *Lv n* and a box for each slot with the item it carries or an empty box. Hover for its name, level, laser damage bonus and what it carries; the count in the header is the number of drones (5 / 8). A drone being upgraded is dimmed with empty boxes. A pilot with no drones has no group.
-- **The Assembly search:** Ctrl+F (Cmd+F on a Mac) focuses a box in the header; it filters the open tab. Crafting matches recipes by what they make and what they need; the Forge matches equipment by name, type and tier. Several words match in any order, a pill counts the matches, Esc clears it.
-- **The Forge says where a piece is:** "On Kitefin, configuration 2" (a Hull Plating: "both configurations"; a fitted piece takes its host's ship and says "Fitted into Quantum Laser II"), on the card, in the panel and in the Merge. A **Ship drop-down** beside the type filter shows only the pieces on one of your ships (it appears from two ships). A piece fitted in a Skylab module is named by that module ("Fitted in your Skylab's Engine Module") instead of "In the Transport Cache".
-- **Why a thruster holds fewer buffs:** the Forge's quote carries the stats too low to carry a buff, and a caption under *Buff slots* names it. An Impulse Thruster's speed multiplier is under the floor, so it holds one buff, a Momentum Thruster two; the tier ladder no longer says "up to 4 buffs" for them.
-- **Short numbers:** from 1,000 a count reads 1k, 1.2k, 999k, 1M, 1.2M, 1B, 1.5B, **cut, not rounded** (1,260,000 reads 1.2M, 999,999 reads 999k), on the hotbar (a slot shows its whole count up to 99,999), in the ammo and rocket pop-ups and on inventory tiles. **Money and charts are rounded, not cut, and start at 10,000:** when the toolbar is short of room, its pills for Credits, Thulium and honor read 987.7M or 1.5B where they read 1,500M (the hover has the whole number); chart axes, the Builds table and the admin metrics use the same function.
-- **A volume button** (a speaker, left of the language button) on the start and sign-in screens opens the master volume and a mute. Your pick is remembered, wins over the volume saved on your account when you sign in, and is saved to it.
-- **A full Trophies Bay is told:** a toast with a quiet sound of its own at the first look of a session and when it fills while you play, an amber *Bay full* pill on the Skylab station bar and a notice on the Skylab page with the Open the Universe button, until you collect. The server pushes nothing for the Skylab, so the game finds out at its next look: every 15 seconds with the Universe window open and every 3 minutes while a Skylab hunts.
-- **The clan timer:** when the server cannot say when the clan day ends, the countdown on the Operations tab reads `--:--` where it read 00:00 and refused every Warden with "Less than 30 minutes of the day are left". The server's rule is unchanged: no Warden from 23:30 UTC, the last 30 minutes of the clan day.
+**Smaller changes**
+- **Worlds:** Beta needs pilot level 7 and Gamma level 10; Alpha has no limit.
+- **The black hole:** from 72 hours before the wipe it grows, and from 24 hours before until the wipe it is 1.8 times its size: event horizon 300 to 540 units, pull 3,000 to 5,400, radiation 4,000 to 7,200, the ring the server steers you round 4,200 to 7,560. A countdown card (*Universe Wipe in 2d 13:05:12*) tops the Dashboard in those 72 hours and the same words hang over the black hole in flight.
+- **Galaxy Gates:** one spin, for Thulium (5 Thulium, a 10 % chance of a gate part, multipliers 1, 5, 10 and 100); the spin for Credits is closed. Every spin plays a sound.
+- **P.E.T. Stations:** Station I from parts, **Station II by upgrading a Station I, Station III by upgrading a II.** The upgrade uses up the Station below (loose in your inventory, not fitted or in the Cache) and asks the rest of its price: Station II 300,000 Credits and 4,000 Thulium (400,000 and 6,000 before), Station III 1,100,000 and 12,000 (1,500,000 and 18,000 before), with fewer materials. A Station you have is unaffected.
+- **Auction:** Davidski's rows (the NPC lots) stand after the last pilot's listing in every sort, and inside each group your sort applies.
+- **Sounds:** new sounds for the achievements, titles, the Season Report, the Gates' spin, the Cache, the calendar, the containers and the special items.
+- **Stats overlay:** it now shows UPS, the map updates your game received per second (the number that was called TPS), and TPS, the ticks per second the server reports (a dash from an older server).
+- **Connection log:** the game's log file now says when a connection went silent, for how long, and whether what was held back arrived all at once or was dropped, so a lag report can be read. Nothing is sent anywhere, and the new words are numbers only: no address, name or account data.
 
 **For administrators and the server**
-- **At the first start: 13 schema lines, no data step.** `backup_risks v0.4.24 HEAD` prints these (the job prints the same as warnings); they are additive and made in place, and a 0.4.24 server ignores them. **A Sliplane volume backup before the deploy is advised** (money is held in a table the old code ignores).
+- **At the first start: 40 schema lines and 6 data steps (the sixth, `logbook-started-v1`, runs when the Logbook is first switched on; at the first start with the Logbook off five run)** (`backup_risks v0.4.25 HEAD` prints these). They are additive and made in place. **A Sliplane volume backup before the deploy is advised.**
 
 ```
-schema ALTER TABLE MARKETTRADES ADD COLUMN ORDERID
-schema ALTER TABLE WIPETIMELINESTATES ADD COLUMN CLOCKSTART
-schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_BOOK
-schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_BUYER
-schema CREATE INDEX IF NOT EXISTS IX_MARKETORDERS_EXPIRY
-schema CREATE INDEX IF NOT EXISTS IX_PILOTSEASONS_SEASON
-schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_EQUIPPEDSHIPID
-schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_PARENTITEMID
-schema CREATE INDEX IF NOT EXISTS IX_PLAYERITEMS_PLAYERID
-schema CREATE TABLE IF NOT EXISTS ASTEROIDBELTDIAL
-schema CREATE TABLE IF NOT EXISTS MARKETORDERS
-schema CREATE TABLE IF NOT EXISTS PILOTSEASONS
-schema CREATE TABLE IF NOT EXISTS WIPERUNS
+data step achievements-v1
+data step dk-claimed-v1
+data step logbook-started-v1
+data step seasons-v1
+data step stats-v1
+data step titles-seasons-v1
+schema ALTER TABLE PILOTSEASONS ADD COLUMN SEASONNO
+schema ALTER TABLE PLAYERS ADD COLUMN PVELIFETIMEPOINTS
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN CACHESHIPID
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN CACHESHIPLOCKEDAT
+schema ALTER TABLE PLAYERWIPESTATES ADD COLUMN DKCLAIMEDJSON
+schema ALTER TABLE STEAMUNLINKS ADD COLUMN IDMARK
+schema CREATE INDEX IF NOT EXISTS CONTAINEROPENINGSKIND
+schema CREATE INDEX IF NOT EXISTS CONTAINEROPENINGSPILOT
+schema CREATE INDEX IF NOT EXISTS IX_CALENDARCLAIMS_DAY
+schema CREATE INDEX IF NOT EXISTS IX_PLAYERACHIEVEMENTS_ID
+schema CREATE INDEX IF NOT EXISTS IX_SEASONREWARDS_PENDING
+schema CREATE INDEX IF NOT EXISTS IX_SPECIALLOG_PLAYER
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTCASESOWED
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTPROGRESS
+schema CREATE TABLE IF NOT EXISTS ACHIEVEMENTREVOKED
+schema CREATE TABLE IF NOT EXISTS CALENDARCLAIMS
+schema CREATE TABLE IF NOT EXISTS CALENDARPLANS
+schema CREATE TABLE IF NOT EXISTS CONTAINERGRANTS
+schema CREATE TABLE IF NOT EXISTS CONTAINEROPENINGS
+schema CREATE TABLE IF NOT EXISTS CONTAINERPITY
+schema CREATE TABLE IF NOT EXISTS CONTAINERSWITCHES
+schema CREATE TABLE IF NOT EXISTS PILOTWIPESTATS
+schema CREATE TABLE IF NOT EXISTS PLAYERACHIEVEMENTS
+schema CREATE TABLE IF NOT EXISTS PLAYERCONTAINERS
+schema CREATE TABLE IF NOT EXISTS PLAYERSPECIALS
+schema CREATE TABLE IF NOT EXISTS PLAYERTITLEEQUIPPED
+schema CREATE TABLE IF NOT EXISTS PLAYERTITLES
+schema CREATE TABLE IF NOT EXISTS SEASONBOARDS
+schema CREATE TABLE IF NOT EXISTS SEASONREWARDS
+schema CREATE TABLE IF NOT EXISTS SEASONS
+schema CREATE TABLE IF NOT EXISTS SKYLABBOOSTS
+schema CREATE TABLE IF NOT EXISTS SPECIALLOG
+schema CREATE TABLE IF NOT EXISTS STEAMLINKS
+schema CREATE TABLE IF NOT EXISTS STEAMUNLINKS
+schema CREATE TABLE IF NOT EXISTS TITLEGRANTRUNS
+schema CREATE TABLE IF NOT EXISTS WIPERETRY
+schema CREATE TABLE IF NOT EXISTS WIPESETTINGS
+schema CREATE UNIQUE INDEX IF NOT EXISTS CONTAINERGRANTSKEY
+schema CREATE UNIQUE INDEX IF NOT EXISTS CONTAINEROPENINGSKEY
+schema CREATE UNIQUE INDEX IF NOT EXISTS UX_SPECIALLOG_GRANT
 ```
 
-- **Also at every start:** the PvE ranking recount takes the 37 points of each Davidski kill off a pilot's stored points (once; a second start finds nothing; it works every pilot's points out again from his kills, as at every start before, so a pilot whose experience grew since his last kill can also gain a few), and the seed sync sets the x-2 maps' spawn counts to 30 and 15.
-- **Seven data files changed:** `Asteroids.json` (the Geode's Thulium and `belts.enabled` false), `Chat.json` (alphabet `scripts`), `Davidski.json` (`damageFactor` 2 and the pay), `Market.json` (`limits.globalOpenOrders` and `orders.enabled`), `Pets.json` (the Mole: Motherlode on, `startRule` any), `ranking-config.json` (Davidski 0 points) and `map-spawns.json`. No price, tier or research moved.
-- **New:** 12 routes (`/api/market/orders` with `mine`, `cancel` and `fill`; `/api/news` and `/api/news/img/...`; admin `news/status` and `news/refresh`, `market/orders` with `cancel` and `hold`, and `timeline/season-day`), 9 optional environment variables (`MARKET_ORDERS_ENABLED`, `CHAT_ALPHABET`, `NEWS_ENABLED`, `NEWS_REPO`, `NEWS_BRANCH`, `NEWS_DIR`, `NEWS_POLL_SECS`, and `NEWS_API_URL` and `NEWS_RAW_URL` for tests), one dependency of the server (`sha1`, already in the lock), the client feature `market-orders`, and counters `market_order_*` and `news_*`. The `Dockerfile` and the release job's scripts are unchanged.
-- **Set season day N** (Admin, Controls tab) is how a season is held or moved now, instead of the day override that freezes every clock: today becomes day N and the clocks run on from there, so the clan reset, the Warden rule, the Auction and the wipe follow the real clock. It shows a review sheet first (the new day, when day 30 begins, where the wipe's countdown starts, the clan day, the Wardens that will be withdrawn) and refuses day 30. `GET /api/admin/timeline` gains `seasonStart`, `clockStart`, `wipeCountdownAt` and the clan clock's `clanDay`, `clanSecondsLeft`, `clanClock` and `clanClockReason`. **Deploying changes no live season:** a season held on the override keeps its frozen day, with no wipe scheduled, until Set season day or Reset is pressed.
-- **At the countdown** the server writes `/data/spacecorps-prewipe.db` beside the periodic snapshot (one file, replaced by the next wipe) and logs `Pre-wipe snapshot: <path>, <bytes> bytes (<ms> ms)`; a failure is a warning and the wipe goes on. Three new indexes on `PlayerItems` keep the wipe quick on a big table (a pilot with 35,006 loose rows: 11 seconds before, 0.1 after).
-- **Switches without a release:** `MARKET_ORDERS_ENABLED=false` (refunds every open order at the next start and removes the order routes), `NEWS_ENABLED=false`, `CHAT_ALPHABET=latin` and the live admin dial `POST /api/admin/asteroids/gate {"world", "beltsEnabled"}`, which turns a world's mining limit back on and survives a restart.
-- **Rolling back to 0.4.24:** a 0.4.24 server refuses the new `Market.json`, `Asteroids.json` and `Davidski.json` (they carry fields it denies), so the image and its files go back together. With open buy orders, set `MARKET_ORDERS_ENABLED=false` and let a 0.4.25 server start once (it refunds them), or restore the volume backup. A wipe that went through is not undone by a rollback; the way back from a bad wipe is the pre-wipe copy.
-- **Privacy:** two new things are kept about a pilot, both removed with the account: his buy orders and the wipe record above. The text for the privacy page is in `docs/privacy-addendum.md`.
+- **Data files:** `Wipe.json`, `Containers.json`, `Achievements.json`, `Titles.json`, `LoginCalendar.json`, `SpecialItems.json`, `Logbook.json` and `Worlds.json` are new; `BlackHole.json` (`wipeGrowth.maxScale` 1.8) and `Cosmetics.json` changed; `Data/Seeds/recipes.json` changed (the P.E.T. Station II and III recipes).
+- **On at release:** the achievements, titles, containers, calendar and special items engines (the quick stops are the environment variables `ACHIEVEMENTS_ENABLED`, `TITLES_ENABLED`, `CONTAINERS_ENABLED`, `CALENDAR_ENABLED`, `SPECIAL_ITEMS_ENABLED`, all unset); the container grant sources `admin`, `migration`, `rank`, `calendar` and `achievement`; `Wipe.json` with `capsEnabled` true, `shadowMode` false and `freshFromSeason` 3.
+- **Off at release, by design:** the special items' grant sources other than `admin`; the container source `event`; `acquisition.enabled` in `Cosmetics.json`; the new Logbook (until `LOGBOOK_URL` and `LOGBOOK_TOKEN` are set on the game service); the Steam account link (until the owner sets `STEAM_WEB_API_KEY` on the game service).
+- **The caps need one admin action** after the deploy: `POST /api/admin/wipe/caps {"announce":true,"at":"<the announce time>"}` (`at` is the moment the 14 days of notice count from; the route refuses a time later than now). A deploy caps nothing. The answer carries `activeFrom` (`at` plus 14 days), and `GET /api/admin/wipe/preview` says `caps.state` `active` for a countdown on or after that moment.
+- **Read the log at the first start:** each data step once, the `Containers:` line with the sources `rank`, `calendar` and `achievement` among those on, `Ranking points: fresh from season 3`, no `ERROR`. If the season number is not 2, `POST /api/admin/seasons/set-number` first.
+- **Connection lines in the server log (log lines only):** the connect line now says the address family (`v4`, `v6` or `unknown`) and where it was read from (`via=header` or `via=peer`); the disconnect line carries the connection's numbers (messages and bytes each way, the longest wait for the game's next message, how it ended); a wait over 2.5 seconds is also a line of its own, at most one per connection per 10 seconds. Never an address, a host name or a hash of one. **After the deploy check that the live lines say `via=header`**: with `via=peer` the family is the proxy's and means nothing. The network echo's answer also carries a seventh number, the game loop's ticks per second, for the stats overlay (older games ignore it). How to read the lines: docs/DEPLOY.md, "The connection's own lines (0.4.26)".
+- **Rolling back to 0.4.25:** the code alone is safe for the new tables; it is not safe after the first redesigned wipe has run (a 0.4.25 server would put lifetime points over the fresh ones). The pre-wipe copy is the way back.
+- **Privacy:** new things are kept about a pilot (containers and their openings, special items, calendar claims, achievements and titles, the statistics of each wipe, the wipe record and the results of every wipe, and, once the Steam link is on, the Steam ID that is linked). The text for the privacy page is in `docs/privacy-addendum.md` and `docs/privacy-addendum-0426-containers.md`; the owner puts it up before the deploy.
 
 ## All releases
 
 Each line links the full notes of that release as Markdown (patchnotes/v<version>.md); its HTML page is patchnotes-v<version>.html.
 
+- [0.4.26](https://spacecorps.github.io/play/patchnotes/v0.4.26.md) · 2026-10-29 · Rebuilds the Universe Wipe and adds what it pays out: the next wipe keeps every ship, your drones, formations, P.E.T.s and P.E.T.
 - [0.4.25](https://spacecorps.github.io/play/patchnotes/v0.4.25.md) · 2026-10-22 · The release the first Universe Wipe runs under: the wipe keeps every ship you own and takes your items…
 - [0.4.24](https://spacecorps.github.io/play/patchnotes/v0.4.24.md) · 2026-10-19 · Sets four drone formations to the numbers players asked for (Shrike, Centurion, Gemini and Stiletto)…
 - [0.4.23](https://spacecorps.github.io/play/patchnotes/v0.4.23.md) · 2026-10-18 · Redraws the station as floating islands, adds 19 Pilot technologies and the Auto-Rocket CPU…

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -26,7 +26,7 @@ Um **P.E.T.** (Personal Escort Technology) é um pequeno companheiro que voa ao 
 
 ## A P.E.T. Station {#the-station}
 
-A Station é um **Extra**. Três itens, **P.E.T. Station I, II e III**, são pesquisados no [centro de pesquisa](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas e 1 dia, sem Dark Matter) e fabricados na Montagem um depois do outro. Você **equipa** uma em um slot de extras, como uma [Cloaking CPU](/wiki/06-Items/Extras.md), e ela dá lugar a **2, 3 e 5** P.E.T.s acoplados. Quanto custa cada uma está na [árvore de itens](/wiki/06-Items/Extras.md#item-tree) dos Extras. A Station fica através do reset, e a pesquisa dela também.
+A Station é um **Extra**. Três itens, **P.E.T. Station I, II e III**, são pesquisados no [centro de pesquisa](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas e 1 dia, sem Dark Matter) e fabricados na Montagem um depois do outro: a Station I com peças, a **Station II melhorando uma Station I** e a **Station III melhorando uma Station II**. Uma melhoria consome a Station de baixo, que precisa estar solta no seu inventário (nem equipada em uma nave nem no [Cache de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)), e pede também o restante do preço, de modo que as três fabricações juntas custam o valor de uma Station III, uma única vez. Você **equipa** uma em um slot de extras, como uma [Cloaking CPU](/wiki/06-Items/Extras.md), e ela dá lugar a **2, 3 e 5** P.E.T.s acoplados. Quanto custa cada uma está na [árvore de itens](/wiki/06-Items/Extras.md#item-tree) dos Extras. A Station fica através do reset, e a pesquisa dela também.
 
 - **Só a nave que voa com ela.** Seus P.E.T.s contam na nave que você pilota, se houver uma Station equipada na configuração que você pilota. Uma Station no seu inventário, na outra configuração ou em outra nave não faz nada; se você trocar de configuração ou de nave, os P.E.T.s acompanham na hora.
 - **ON e OFF.** Alterne a Station com o slot **PET** da barra de atalhos (arraste-a até lá a partir do seletor de extras). **ON**: os primeiros 2, 3 ou 5 dos seus P.E.T.s acoplados dão os bônus, ganham experiência e trabalham. **OFF**: nada disso, e nenhum drone é desenhado. O slot mostra **ON** ou **OFF**. O interruptor é seu e se mantém entre decolagens e logins; uma Station que você nunca alternou está em ON. Entre dois cliques passa um segundo.

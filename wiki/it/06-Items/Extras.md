@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: Extra -->
 # Extra {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ Premi lo slot WAL e una **parete di plasma** si erge **sul tuo cursore**, di tra
 - **Abbattimenti.** Una nave che la parete distrugge muore per radiazione, e l’abbattimento va all’ultimo pilota nemico che l’ha colpita nei 15 secondi precedenti, se ce n’è stato uno. Chi ha alzato la parete non riceve credito per ciò che non ha sparato lui stesso. Un alieno che la parete distrugge non paga nulla: né ricompensa né bottino.
 - **Gli alieni non la aggirano.** La attraversano e bruciano, oppure restano sul loro lato e sparano alla parete.
 - **Cosa vedi.** Una striscia di luce bianco-azzurra con trattini luminosi che la percorrono e un palo di luce a ogni estremità, che lampeggia dove cade un colpo e sfarfalla quando è quasi esaurita. Una parete di livello 2 brilla invece di giallo, con un nucleo più spesso e luminoso e un bagliore più forte, ma la sua striscia è larga 10 unità come quella di livello 1. Una sottile barra della vita accanto si accorcia e passa all’ambra e poi al rosso; il tuo slot mostra la vita residua della tua parete come arco e l’attesa come ombra. Una parete appena alzata si accende con un lampo, una abbattuta crolla in scintille e una il cui tempo è scaduto svanisce. Sul tuo slot un numero conta anche le pareti del suo livello che ti restano.
-- **Come ottenerla e portarla.** L’Energetic Wall I si vende nel Negozio a **250 Thulium** la parete, e ne porti fino a **20** in una pila (conta anche ciò che hai messo in vendita all’[Asta](/wiki/03-Mechanics/Auction.md)). L’Energetic Wall II si crea in Assemblaggio, **una parete per lavorazione**, per **600 Thulium**, 5 Ship Fragment e un Power Core, quando il Centro ricerche l’ha ricercata (6 ore a velocità normale: [Ricerca](/wiki/03-Mechanics/Research.md)); ne porti fino a **10**. Come i razzi, le pareti che porti si perdono con la stagione se non le metti nel Deposito di trasporto, e quelle nel Deposito non si possono usare. Un’Energetic Wall II che hai creato si può vendere all’Asta; un’Energetic Wall I, che vende il Negozio, mai.
+- **Come ottenerla e portarla.** L’Energetic Wall I si vende nel Negozio a **250 Thulium** la parete, e ne porti fino a **20** in una pila (conta anche ciò che hai messo in vendita all’[Asta](/wiki/03-Mechanics/Auction.md)). L’Energetic Wall II si crea in Assemblaggio, **una parete per lavorazione**, per **600 Thulium**, 5 Ship Fragment e un Power Core, quando il Centro ricerche l’ha ricercata (6 ore a velocità normale: [Ricerca](/wiki/03-Mechanics/Research.md)); ne porti fino a **10**. A differenza dei dodici razzi, di cui 1.000 per tipo passano da soli, le pareti che porti si perdono con la stagione se non le metti nel Deposito di trasporto, e quelle nel Deposito non si possono usare. Un’Energetic Wall II che hai creato si può vendere all’Asta; un’Energetic Wall I, che vende il Negozio, mai.
 
 ## CPU del Centro ricerche {#research-cpus}
 

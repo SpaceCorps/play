@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 574007c029169684 -->
+<!-- wiki-i18n source: 53565b70c10d22d1 -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾与防御 {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 **Heavy Shield Core** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Basic Shield Core 制成，另需 4,000 Thulium、30 个 Cataclysite、12 块 Reinforced Hull Plate、2 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。它沿用被消耗核心的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把 Basic Shield Core 从你的舰船上取下（并把其中的电池取出）：已装备或装有电池的核心不会被消耗。
 
-**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 50%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **80%**，这是一艘舰船开箱即有的最高值。有三项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）、锻造炉的吸收率加成，以及飞行员研究 Field Theory（+2、+3 或 +5 点）。目前的重置点数来源（达到各自上限时共 1,105 点，重置后保留；还计划增加更多来源）可以买下这 100 级中的 44 级（+4.4 点），配上完全锻造的永恒套装，约为 **95%**，加上 Field Theory III 约为 **99%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
+**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 50%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **80%**，这是一艘舰船开箱即有的最高值。有三项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）、锻造炉的吸收率加成，以及飞行员研究 Field Theory（+2、+3 或 +5 点）。重置点数的来源（每次重置最多 1,090 点，并在每次重置时重新开始）在第一次重置里就可以买下这 100 级中的 43 级（+4.3 点），配上完全锻造的永恒套装，约为 **95%**，加上 Field Theory III 约为 **99%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
 
 ---
 

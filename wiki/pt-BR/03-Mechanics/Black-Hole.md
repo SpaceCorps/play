@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Buraco negro -->
 # O buraco negro {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-No exato centro do Setor de perigo 4 (`DS-4`, o centro da zona PvP), um buraco negro paira na escuridão. Ele é o mesmo em todos os mundos (Alpha, Beta e Gamma), em todos os dias da temporada, inclusive durante o Protocolo de Paz. Ele leva o que chega perto demais e devolve uma única coisa: [Dark Matter](#dark-matter), por um foguete N.I.K.E. disparado nele. O caminho inteiro, da pesquisa à plate, está em [Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+No exato centro do Setor de perigo 4 (`DS-4`, o centro da zona PvP), um buraco negro paira na escuridão. Ele é o mesmo em todos os mundos (Alpha, Beta e Gamma), em todos os dias da temporada, inclusive durante o Protocolo de Paz. Ele leva o que chega perto demais e devolve uma única coisa: [Dark Matter](#dark-matter), por um foguete N.I.K.E. disparado nele. O caminho inteiro, da pesquisa à plate, está em [Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). Nas últimas 72 horas antes do [reset do universo](/wiki/03-Mechanics/Wipe-Timeline.md) de cada temporada, ele cresce até 1,8 vez o seu tamanho ([Crescimento antes do reset](#growing-before-the-wipe)); todo o resto desta página vale para o seu tamanho normal.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ As distâncias são contadas a partir do centro do setor, em unidades do mapa. O
 | **Ponto sem retorno** | cerca de 1.000 a 2.600 | Onde a atração se iguala à velocidade da sua nave. Dentro dele, mesmo a toda potência, você é puxado para dentro. Depende da sua velocidade. |
 | **Horizonte de eventos** | 300 | Qualquer nave que o alcance é destruída na hora, seja qual for o casco e o escudo. |
 
-Os portais do Setor de perigo 4 e as rotas entre eles passam bem longe da radiação, então você nunca a encontra por acidente no caminho. A partir do dia 11 da temporada o mesmo setor abriga também o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), no canto superior esquerdo, longe do buraco; os alienígenas de lá nunca entram nos anéis do buraco.
+Os portais do Setor de perigo 4 e as rotas entre eles passam bem longe da radiação, então você nunca a encontra por acidente no caminho. A partir do dia 11 da temporada o mesmo setor abriga também o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), no canto superior esquerdo, longe do buraco; os alienígenas de lá nunca entram nos anéis do buraco. Os últimos dias de uma temporada são a exceção: veja [Crescimento antes do reset](#growing-before-the-wipe).
+
+## Crescimento antes do reset {#growing-before-the-wipe}
+
+O buraco negro não tem o mesmo tamanho durante toda a temporada. Nas últimas **72 horas** antes do [reset do universo](/wiki/03-Mechanics/Wipe-Timeline.md) ele começa a crescer, um pouco a cada segundo, e de **24 horas** antes do reset até ele acontecer tem **1,8 vez** o seu tamanho. Isso vale para cada comprimento dele: o horizonte de eventos, a atração e a radiação ficam 1,8 vez mais longe do centro, e o anel pelo qual o servidor guia você também. A imagem, os anéis nos mapas e os sons crescem junto.
+
+| | Normal | 48 horas antes (1,4 vezes) | A partir de 24 horas antes (1,8 vezes) |
+| :--- | ---: | ---: | ---: |
+| **Horizonte de eventos** | 300 | 420 | 540 |
+| **Atração** | 3.000 | 4.200 | 5.400 |
+| **Radiação** | 4.000 | 5.600 | 7.200 |
+| **Anel de guiagem** | 4.200 | 5.880 | 7.560 |
+
+O que não muda é a dureza na mesma fração do caminho para dentro: uma nave a 3.600 unidades do centro, com o buraco em 1,8 vez, sente o que uma nave a 2.000 unidades sente num dia normal (uma atração de 96 unidades por segundo e 2 % dos seus HP por segundo). O buraco crescido não é mais forte, é mais largo, e uma nave leva 1,8 vez mais tempo para atravessá-lo. O ponto sem retorno de cada nave fica 1,8 vez mais longe. Todas as distâncias desta página são do tamanho normal: multiplique-as pelo tamanho do buraco para ler o buraco crescido.
+
+- **Como você vê.** Nas últimas 72 horas, o Dashboard tem um cartão no alto, e a vista de voo uma etiqueta sobre o buraco negro, que contam regressivamente até o reset («Reset do universo em 1d 05:12:33») e dizem quantas vezes o seu tamanho o buraco tem agora; nos últimos cinco minutos, a contagem regressiva do próprio reset assume. A dica do minimapa nomeia os anéis do tamanho que o buraco tem agora.
+- **Quando.** O tamanho depende só do relógio da temporada, então é o mesmo em todos os mundos. Enquanto um administrador mantém a temporada em um dia, nada está agendado e o buraco fica no tamanho normal; se o dia da temporada é movido, o buraco o acompanha na hora; a próxima temporada começa com um buraco normal.
+- **Os portais.** Os dois portais nos cantos de `DS-4`, a 17.000 unidades do centro, e o portal de cima, a 8.000 unidades do centro, ficam fora até da radiação crescida (7.200) e do anel de guiagem crescido (7.560). A rota do portal de cima a um portal de canto passa a 5.472 unidades do centro e fica dentro da radiação a partir de cerca de 50 horas antes do reset; a que liga os dois portais de canto (8.000 unidades no ponto mais próximo) continua livre.
+- **O resto do setor.** Os alienígenas nunca caçam, vagueiam nem aparecem dentro do anel de guiagem, então são empurrados para a frente dele, e nada é deixado dentro dele; com 1,8 vez o tamanho, ele cobre cerca de um terço do setor. Um piloto que sai do jogo dentro da radiação crescida, fora da atração, volta no lugar livre mais próximo do mapa, fora do anel. Um alienígena que o horizonte ou a radiação alcança é destruído, como uma nave. Uma ordem de movimento que cruzaria o anel é guiada ao redor dele; uma ordem que termina dentro do anel é cumprida como foi dada.
 
 ## Radiação {#radiation}
 

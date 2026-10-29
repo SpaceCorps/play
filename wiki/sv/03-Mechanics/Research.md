@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -29,6 +29,8 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 - **Under kärnnivå 10** kan du inte forska, så du kan inte tillverka något nytt i Monteringen än. Station-uppdragen leder dig uppför Kärnan.
 
 <!-- research-centre:end -->
+
+**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) slutför den pågående forskningen direkt, om dess teknik tar 24 timmar eller mindre att forska fram (135 av de 151 teknikerna). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen den ännu inte brunnit stannar kvar i din tank, och nästa teknik i din kö startar direkt.
 
 **Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver fyra plattor och en Ancient Control Unit: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 - **Förseglad bakdörr** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
 - **Grävmaskinsbrytning** höjer vad du tar ur varje låda från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), både Thulium och malm.
 - **Fältteori** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
-- **Slumrande kunskap** ger wipepoäng, en gång per nivå, när forskningen blir klar i centrumet. Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem nivåerna av Slumrande kunskap gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
+- **Slumrande kunskap** ger wipepoäng för varje nivå när forskningen blir klar i centrumet, och igen efter varje wipe ([Tjäna wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem nivåerna av Slumrande kunskap gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

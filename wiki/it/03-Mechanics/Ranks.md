@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Gradi -->
 # Gradi {#ranks}
 
-Ogni pilota ha un **grado**, da Pilota junior a Ammiraglio senior. È una scala militare di 8 livelli da 3 gradazioni ciascuno, 24 gradi in tutto. Il tuo grado deriva dai tuoi **punti PvE**: i punti che guadagni con il tuo livello, la tua esperienza e gli alieni che distruggi. Ogni grado richiede un **minimo** di punti PvE, e i sei gradi migliori hanno anche un numero fisso di **posti** in ogni corporazione. In volo il gioco mostra solo un piccolo **simbolo** davanti al nome di un pilota, così distingui a colpo d’occhio i migliori piloti di una corporazione da una recluta, e un pilota di tutto il server porta una **corona** dorata sopra il suo simbolo. Le parole si trovano nella pagina Corporazione e nel suggerimento di un simbolo.
+Ogni pilota ha un **grado**, da Pilota junior a Ammiraglio senior. È una scala militare di 8 livelli da 3 gradazioni ciascuno, 24 gradi in tutto. Il tuo grado deriva dai tuoi **punti PvE**: i punti che guadagni dall’ultimo reset con i livelli che sali, la tua esperienza e gli alieni che distruggi. Ogni grado richiede un **minimo** di punti PvE, e i sei gradi migliori hanno anche un numero fisso di **posti** in ogni corporazione. In volo il gioco mostra solo un piccolo **simbolo** davanti al nome di un pilota, così distingui a colpo d’occhio i migliori piloti di una corporazione da una recluta, e un pilota di tutto il server porta una **corona** dorata sopra il suo simbolo. Le parole si trovano nella pagina Corporazione e nel suggerimento di un simbolo.
 
 **In un minuto**
 
@@ -13,7 +13,7 @@ Ogni pilota ha un **grado**, da Pilota junior a Ammiraglio senior. È una scala 
 - Solo i piloti con punti PvE che hanno volato negli ultimi 30 giorni sono in una lista. Tutti gli altri sono Pilota junior finché non volano di nuovo, e non hanno un posto.
 - Una **corona** dorata sopra il simbolo segnala il pilota con più punti PvE di tutto il server: tutte le corporazioni, i tre mondi.
 - Il tuo grado si muove. Fino a Colonnello senior dipende solo dai tuoi punti, quindi può solo salire. I sei gradi migliori si muovono anche con gli altri piloti della tua corporazione: possono scendere quando altri prendono i posti sopra di te. Una discesa non viene mai annunciata; un nuovo grado migliore sì.
-- Il reset non cambia i punti di nessuno, quindi le liste non ricominciano da capo.
+- Al reset i punti ricominciano da zero, quindi le liste ricominciano da capo e ogni stagione è una nuova scalata. Il tuo grado della stagione entra nella tua cronologia e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Questo comincia con il primo reset delle nuove regole: fino ad allora i tuoi punti sono quelli di tutta la tua carriera.)
 - Il simbolo davanti a un nome è il grado: una forma per il livello, da una a tre marche per la gradazione.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Apri **Economia › Corporazione**. La sua sezione **Classifica della corporazio
 
 ## Gradi e reset {#ranks-and-the-wipe}
 
-Un reset non cambia i punti di nessuno. Conserva il tuo livello, la tua esperienza e le tue statistiche degli abbattimenti ([Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), e i tuoi punti PvE si calcolano da questi, quindi la classifica della tua corporazione è nello stesso ordine dopo il reset, e lo sono anche i gradi e la corona. Il tuo grado però non è più per sempre: i sei gradi migliori si muovono con gli altri piloti della tua corporazione, e un pilota che resta assente 30 giorni lascia la classifica finché non vola di nuovo.
+Al reset i tuoi punti PvE ricominciano da zero, quindi la classifica della tua corporazione ricomincia da capo e ogni stagione è una nuova scalata. Conta solo ciò che guadagni dopo un reset: i livelli che sali, l’esperienza e gli abbattimenti di alieni della nuova stagione ([Punti freschi](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Il tuo livello, la tua esperienza e le tue statistiche degli abbattimenti restano nei tuoi totali. **L’onore non determina il tuo grado.** Il grado che avevi nell’istante del reset entra nella cronologia delle tue stagioni, con la tua posizione in classifica, e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Il tuo grado non è nemmeno per sempre: i sei gradi migliori si muovono con gli altri piloti della tua corporazione, e un pilota che resta lontano 30 giorni esce dalla classifica finché non vola di nuovo.
+
+Il primo reset delle nuove regole è il primo a far ricominciare i punti: fino ad allora sono quelli di tutta la tua carriera, e quel reset chiude una stagione con i gradi che la classifica mostra allora.
 
 ## Quanto ci vuole {#how-long-it-takes}
 
 Sono **stime** da un modello di quanto in fretta caccia un pilota, non misure. Un pilota che caccia circa due ore al giorno, 58 ore in una stagione, ha circa 21.200 punti PvE dopo una stagione: Colonnello. In ore di caccia, il minimo di Pilota arriva entro la prima ora, quello di Sergente in 4, quello di Capitano in 18, quello di Maggiore in 38, quello di Colonnello in 55, quello di Generale junior in 67, quello di Generale in 73, quello di Generale senior in 78, quello di Ammiraglio junior in 101, quello di Ammiraglio in 113 e quello di Ammiraglio senior in 124.
 
-Quindi un pilota attivo tipico raggiunge i gradi con posti nella sua seconda stagione. Se ottiene un posto dipende dagli altri piloti della sua corporazione, che cacciano anch’essi: i posti di un grado contano solo quando più piloti ne raggiungono il minimo di quanti posti ha. Fino ad allora il grado dipende semplicemente dai tuoi punti.
+Quindi un pilota attivo tipico chiude una stagione come Colonnello, e i gradi con posti, da Generale junior in su, richiedono da 67 a 124 ore di caccia in una stagione: circa 2–4 ore al giorno. Se ottiene un posto dipende dagli altri piloti della sua corporazione, che cacciano anch’essi: i posti di un grado contano solo quando più piloti ne raggiungono il minimo di quanti posti ha. Fino ad allora il grado dipende semplicemente dai tuoi punti.

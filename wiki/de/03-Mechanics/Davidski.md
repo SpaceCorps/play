@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f8afbadaba141b0c -->
+<!-- wiki-i18n source: c0e478368e420e01 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -50,7 +50,7 @@ Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis
 
 ## Bei ihm kaufen {#buying-from-him}
 
-Sein Vorrat steht in der **Markt**-Liste der Auktion, zwischen den Angeboten der Piloten: eine Zeile für jede der 84 Sorten, die die Auktion führt, in Credits und in Thulium (168 Zeilen), mit dem Preis für ein Los, mit seinem Namen in Gold, einem **NPC**-Abzeichen und einem Unendlichkeitszeichen für die Menge und die Restzeit. Suche, Kategorien und die Filter nach Verzauberung und Währung des Marktes grenzen seine Zeilen ein wie jedes Angebot (seine Gegenstände sind Standard), und seine Sortierungen stellen sie dorthin, wo ihre Zahl sie hinstellt: nach Preis neben die Preise der Piloten, unter **Endet bald** und **Neueste** hinter die Angebote der Piloten. Wähle eine für die Details und **Kaufen für …**; der Kauf geht an ihn, nicht an einen Piloten. Die Preise:
+Sein Vorrat steht in der **Markt**-Liste der Auktion, nach den Angeboten der Piloten: eine Zeile für jede der 84 Sorten, die die Auktion führt, in Credits und in Thulium (168 Zeilen), mit dem Preis für ein Los, mit seinem Namen in Gold, einem **NPC**-Abzeichen und einem Unendlichkeitszeichen für die Menge und die Restzeit. Suche, Kategorien und die Filter nach Verzauberung und Währung des Marktes grenzen seine Zeilen ein wie jedes Angebot (seine Gegenstände sind Standard), und jede Sortierung der Liste stellt sie hinter das letzte Angebot eines Piloten (nach Preis laufen sie untereinander vom billigsten zum teuersten). Wähle eine für die Details und **Kaufen für …**; der Kauf geht an ihn, nicht an einen Piloten. Die Preise:
 
 - **Das 100-Fache des Shop-Preises in Credits und das 40-Fache in Thulium** bei den Gegenständen, die der Shop verkauft; ein Shop-Preis in der einen Währung zählt in der anderen zu 200 Credits pro Thulium. Ein Repair Drone I (5.000 Credits im Shop) kostet 500.000 Credits oder 1.000 Thulium, ein Quantum Laser I 800.000 Credits oder 1.600 Thulium, die Raketen 50.000 bis 100.000 Credits pro Stück. Die beiden Preise sind nicht gleich viel wert: Bei 200 Credits pro Thulium wären 1.000 Thulium nur 200.000 Credits.
 - **Ausrüstung, die der Shop nicht verkauft, ist sein letzter Ausweg: das 200-Fache des Referenzwerts in Credits und das 80-Fache in Thulium**, mindestens das 50-Fache dessen, was der günstigste andere Weg kostet, sie zu bekommen (selbst herstellen oder der Preis eines anderen Piloten). Ein Quantum Laser III kostet 84.966.000 Credits oder 169.932 Thulium, ein Helios Beam 682.192.400 Credits oder 1.364.388 Thulium und ein Hull Plating III 1.271.074.400 Credits oder 2.542.152 Thulium. Diese Zeilen tragen ein kleines Abzeichen **Letzter Ausweg**, ebenso die seltenen Ressourcen unten.

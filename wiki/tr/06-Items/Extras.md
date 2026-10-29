@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ WAL yuvasına bas; **imlecinin olduğu yerde**, geminden ona uzanan hattı dik k
 - **Öldürmeler.** Duvarın yok ettiği bir gemi radyasyondan ölür ve öldürme, varsa, ona 15 saniye içinde vuran son düşman pilota yazılır. Duvarı kurana, kendisinin ateş etmediği hiçbir şey yazılmaz. Duvarın yok ettiği bir uzaylı hiçbir şey ödemez: ne ödül ne ganimet.
 - **Uzaylılar etrafından dolanmaz.** İçinden uçup yanarlar ya da kendi tarafında durup duvara ateş ederler.
 - **Ne görürsün.** Boyunca parlak çizgilerin aktığı, iki ucunda birer ışık direği olan mavi-beyaz bir ışık şeridi; atış isabet ettiği yerde parlar, tükenmeye yakınken titrer. 2. seviye bir duvar bunun yerine sarı parlar; çekirdeği daha kalın ve parlak, ışıltısı daha güçlüdür, ama şeridi 1. seviye duvarınki kadar, yani 10 birim genişliğindedir. Yanındaki ince bir can çubuğu kısalır, kehribar rengine sonra kırmızıya döner; yuvan duvarın kalan canını yay olarak, beklemeyi gölge olarak, o seviyeden kalan duvar sayısını da bir sayı olarak gösterir. Kurulan bir duvar parlayarak belirir, vurulup yıkılan bir duvar kıvılcımlar içinde çöker, süresi dolan ise solar.
-- **Nasıl edinilir ve taşınır.** Energetic Wall I, Mağaza’da duvar başına **250 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın ([Açık Artırma](/wiki/03-Mechanics/Auction.md)’da listelediklerin de sayılır). Energetic Wall II, Araştırma Merkezi onu araştırdıktan sonra (normal hızda 6 saat: [Araştırma](/wiki/03-Mechanics/Research.md)) Montaj’da, **üretim başına bir duvar** olarak, **600 Thulium**, 5 Ship Fragment ve bir Power Core ile üretilir; en fazla **10** tane taşırsın. Roketler gibi, taşıdığın duvarlar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki duvarlar kullanılamaz. Yaptığın bir Energetic Wall II Açık Artırma’da satılabilir; Mağaza’nın sattığı Energetic Wall I asla.
+- **Nasıl edinilir ve taşınır.** Energetic Wall I, Mağaza’da duvar başına **250 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın ([Açık Artırma](/wiki/03-Mechanics/Auction.md)’da listelediklerin de sayılır). Energetic Wall II, Araştırma Merkezi onu araştırdıktan sonra (normal hızda 6 saat: [Araştırma](/wiki/03-Mechanics/Research.md)) Montaj’da, **üretim başına bir duvar** olarak, **600 Thulium**, 5 Ship Fragment ve bir Power Core ile üretilir; en fazla **10** tane taşırsın. Kendiliğinden aktarılan on iki roketin (her birinden 1.000) aksine, taşıdığın duvarlar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki duvarlar kullanılamaz. Yaptığın bir Energetic Wall II Açık Artırma’da satılabilir; Mağaza’nın sattığı Energetic Wall I asla.
 
 ## Araştırma Merkezi CPU’ları {#research-cpus}
 

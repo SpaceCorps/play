@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
-Minden pilótának van egy **rangja**, a Junior pilóta rangtól a Senior admirális rangig. Ez egy katonai létra 8 fokozattal, fokozatonként 3 szinttel, összesen 24 rang. A rangod a **PvE-pontjaidból** jön: azokból a pontokból, amelyeket a szintedért, a tapasztalatodért és az elpusztított idegenekért kapsz. Minden rang **minimális** PvE-pontot kér, és a hat legjobb rangnak ráadásul rögzített számú **helye** van minden vállalatban. Repülés közben a játék csak egy kis **jelet** mutat a pilóta neve előtt, hogy első pillantásra megkülönböztesd egy vállalat legjobb pilótáit az újoncoktól, és az egész szerver egyetlen pilótája arany **koronát** visel a jele fölött. A szavak a Vállalat oldalon és a jel súgójában vannak.
+Minden pilótának van egy **rangja**, a Junior pilóta rangtól a Senior admirális rangig. Ez egy katonai létra 8 fokozattal, fokozatonként 3 szinttel, összesen 24 rang. A rangod a **PvE-pontjaidból** jön: azokból a pontokból, amelyeket az utolsó wipe óta a nyert szintekért, a tapasztalatodért és az elpusztított idegenekért kapsz. Minden rang **minimális** PvE-pontot kér, és a hat legjobb rangnak ráadásul rögzített számú **helye** van minden vállalatban. Repülés közben a játék csak egy kis **jelet** mutat a pilóta neve előtt, hogy első pillantásra megkülönböztesd egy vállalat legjobb pilótáit az újoncoktól, és az egész szerver egyetlen pilótája arany **koronát** visel a jele fölött. A szavak a Vállalat oldalon és a jel súgójában vannak.
 
 **Egy percben**
 
@@ -13,7 +13,7 @@ Minden pilótának van egy **rangja**, a Junior pilóta rangtól a Senior admir�
 - Csak azok a PvE-ponttal rendelkező pilóták szerepelnek egy listán, akik az elmúlt 30 napban repültek. Mindenki más Junior pilóta, amíg újra nem repül, és nincs helye.
 - A jel fölötti arany **korona** az egész szerver legtöbb PvE-pontjával rendelkező pilótát jelöli: minden vállalat, mindhárom világ.
 - A rangod mozog. A Senior ezredes rangig csak a pontjaidtól függ, ezért csak emelkedhet. A hat legjobb rang a vállalatod többi pilótájával együtt is mozog: csökkenhetnek, ha mások foglalják el a helyeket feletted. A csökkenést sosem jelentik be; az új legjobb rangot igen.
-- A wipe senki pontjait nem változtatja meg, így a listák nem indulnak elölről.
+- A wipe-nál a pontok újra nulláról indulnak, így a listák elölről kezdődnek, és minden szezon új mászás. A szezonbeli rangod bekerül az előzményeidbe, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Ez az új szabályok első wipe-jával kezdődik: addig a pontjaid a teljes pályafutásodét mutatják.)
 - A név előtti jel a rang: egy alak a fokozatnak, egy–három jelzés a szintnek.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Nyisd meg a **Gazdaság › Vállalat** oldalt. A **Vállalati ranglista** szaka
 
 ## Rangok és a wipe {#ranks-and-the-wipe}
 
-A wipe senki pontjait nem változtatja meg. Megtartja a szintedet, a tapasztalatodat és a kilövési statisztikáidat ([Wipe-idővonal](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), a PvE-pontjaidat pedig ezekből számolják, így a vállalatod ranglistája a wipe után ugyanabban a sorrendben van, és a rangok meg a korona is ugyanazok. A rangod azonban már nem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és aki 30 napig távol marad, elhagyja a ranglistát, amíg újra nem repül.
+A wipe-nál a PvE-pontjaid újra nulláról indulnak, így a vállalatod ranglistája elölről kezdődik, és minden szezon új mászás. Csak az számít, amit egy wipe után szerzel: a nyert szintek, a tapasztalat és az új szezon idegenkilövései ([Friss pontok](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). A szinted, a tapasztalatod és a kilövési statisztikád az összesítésedben marad. **A becsület nem határozza meg a rangodat.** Az a rang, amelyet a wipe pillanatában viseltél, a ranglistán elfoglalt helyezéseddel együtt bekerül a szezonjaid előzményei közé, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A rangod egyébként sem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és az a pilóta, aki 30 napig távol marad, kikerül a ranglistáról, amíg újra nem repül.
+
+Az új szabályok első wipe-ja az első, amely újra elindítja a pontokat: addig a teljes pályafutásodét mutatják, és az a wipe olyan rangokkal zár le egy szezont, amilyet a ranglista akkor mutat.
 
 ## Mennyi ideig tart {#how-long-it-takes}
 
 Ezek **becslések** egy modellből arról, milyen gyorsan vadászik egy pilóta, nem mérések. Az a pilóta, aki napi két órát vadászik, szezononként 58 órát, egy szezon után nagyjából 21 200 PvE-pontot gyűjt: Ezredes. Vadászóórákban a minimumok: Pilóta az első órán belül, Őrmester 4 óra, Százados 18, Őrnagy 38, Ezredes 55, Junior tábornok 67, Tábornok 73, Senior tábornok 78, Junior admirális 101, Admirális 113, Senior admirális 124.
 
-Egy tipikus aktív pilóta tehát a második szezonjában éri el a helyekkel rendelkező rangokat. Hogy kap-e helyet, azon múlik, mit tesznek a vállalatának többi pilótái, akik szintén vadásznak: egy rang helyei csak akkor számítanak, ha többen érik el a minimumát, mint ahány helye van. Addig a rang egyszerűen a pontjaidé.
+Egy tipikus aktív pilóta tehát Ezredesként fejez be egy szezont, a helyekkel rendelkező rangok pedig, a Junior tábornoktól felfelé, 67–124 óra vadászatot kérnek egyetlen szezonban: napi körülbelül 2–4 órát. Hogy kap-e helyet, azon múlik, mit tesznek a vállalatának többi pilótái, akik szintén vadásznak: egy rang helyei csak akkor számítanak, ha többen érik el a minimumát, mint ahány helye van. Addig a rang egyszerűen a pontjaidé.

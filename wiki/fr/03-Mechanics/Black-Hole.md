@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Trou noir -->
 # Le trou noir {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-Au centre exact du Secteur dangereux 4 (`DS-4`, le cœur de la zone PvP), un trou noir est suspendu dans l’obscurité. Il est le même dans chaque monde (Alpha, Beta et Gamma), chaque jour de la saison, Protocole de paix compris. Il prend tout ce qui s’approche trop près, et ne rend qu’une chose : de la [Dark Matter](#dark-matter), contre une roquette N.I.K.E. tirée dedans. Le chemin complet, de la recherche à la plate, est dans [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+Au centre exact du Secteur dangereux 4 (`DS-4`, le cœur de la zone PvP), un trou noir est suspendu dans l’obscurité. Il est le même dans chaque monde (Alpha, Beta et Gamma), chaque jour de la saison, Protocole de paix compris. Il prend tout ce qui s’approche trop près, et ne rend qu’une chose : de la [Dark Matter](#dark-matter), contre une roquette N.I.K.E. tirée dedans. Le chemin complet, de la recherche à la plate, est dans [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). Dans les 72 dernières heures avant la [réinitialisation de l’univers](/wiki/03-Mechanics/Wipe-Timeline.md) de chaque saison, il grandit jusqu’à 1,8 fois sa taille ([Il grandit avant la réinitialisation](#growing-before-the-wipe)) ; tout le reste de cette page décrit sa taille normale.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Les distances se mesurent depuis le centre du secteur, en unités de carte. Le s
 | **Point de non-retour** | environ 1 000 à 2 600 | Là où l’attraction égale la vitesse de votre vaisseau. En deçà, même à pleine puissance, vous êtes aspiré. Il dépend de votre vitesse. |
 | **Horizon des événements** | 300 | Tout vaisseau qui l’atteint est détruit sur-le-champ, quels que soient sa coque et son bouclier. |
 
-Les portails du Secteur dangereux 4 et les couloirs qui les relient passent tous bien à l’écart de la radiation : vous ne la croisez donc jamais par accident en traversant le secteur. Dès le jour 11 de la saison, le même secteur contient aussi le [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), dans son coin supérieur gauche, loin du trou ; les aliens de là-bas n’entrent jamais dans les anneaux du trou.
+Les portails du Secteur dangereux 4 et les couloirs qui les relient passent tous bien à l’écart de la radiation : vous ne la croisez donc jamais par accident en traversant le secteur. Dès le jour 11 de la saison, le même secteur contient aussi le [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), dans son coin supérieur gauche, loin du trou ; les aliens de là-bas n’entrent jamais dans les anneaux du trou. Les derniers jours d’une saison font exception : voir [Il grandit avant la réinitialisation](#growing-before-the-wipe).
+
+## Il grandit avant la réinitialisation {#growing-before-the-wipe}
+
+Le trou noir n’a pas la même taille pendant toute la saison. Dans les **72 dernières heures** avant la [réinitialisation de l’univers](/wiki/03-Mechanics/Wipe-Timeline.md), il se met à grandir, un peu à chaque seconde, et de **24 heures** avant la réinitialisation jusqu’à celle-ci il fait **1,8 fois** sa taille. Cela vaut pour toutes ses longueurs : l’horizon des événements, l’attraction et la radiation sont 1,8 fois plus loin du centre, tout comme l’anneau autour duquel le serveur vous guide. L’image, les anneaux sur les cartes et les sons grandissent avec lui.
+
+| | Normal | 48 heures avant (1,4 fois) | À partir de 24 heures avant (1,8 fois) |
+| :--- | ---: | ---: | ---: |
+| **Horizon des événements** | 300 | 420 | 540 |
+| **Attraction** | 3 000 | 4 200 | 5 400 |
+| **Radiation** | 4 000 | 5 600 | 7 200 |
+| **Anneau de guidage** | 4 200 | 5 880 | 7 560 |
+
+Ce qui ne change pas, c’est la dureté à la même fraction du chemin vers l’intérieur : un vaisseau à 3 600 unités du centre, avec le trou à 1,8 fois, subit ce que subit un vaisseau à 2 000 unités un jour normal (une attraction de 96 unités par seconde et 2 % de ses PV par seconde). Le trou agrandi n’est pas plus fort, il est plus large, et un vaisseau met 1,8 fois plus de temps à le traverser. Le point de non-retour de chaque vaisseau est 1,8 fois plus loin. Toutes les distances de cette page sont celles de la taille normale : multipliez-les par la taille du trou pour lire le trou agrandi.
+
+- **Comment le voir.** Pendant les 72 dernières heures, le Dashboard a une carte en haut et la vue de vol une étiquette au-dessus du trou noir, qui comptent à rebours jusqu’à la réinitialisation (« Réinitialisation de l’univers dans 1 j 05:12:33 ») et disent combien de fois sa taille le trou fait maintenant ; dans les cinq dernières minutes, le compte à rebours propre à la réinitialisation prend le relais. L’infobulle de la minicarte nomme les anneaux de la taille actuelle du trou.
+- **Quand.** La taille ne dépend que de l’horloge de la saison, elle est donc la même dans chaque monde. Tant qu’un administrateur maintient la saison sur un jour, rien n’est programmé et le trou garde sa taille normale ; si le jour de la saison est déplacé, le trou suit aussitôt ; la saison suivante commence avec un trou normal.
+- **Les portails.** Les deux portails des coins de `DS-4`, à 17 000 unités du centre, et le portail du haut, à 8 000 unités du centre, restent hors même de la radiation agrandie (7 200) et de l’anneau de guidage agrandi (7 560). La route du portail du haut à un portail de coin passe à 5 472 unités du centre et est dans la radiation à partir d’environ 50 heures avant la réinitialisation ; celle entre les deux portails de coin (8 000 unités à son point le plus proche) reste dégagée.
+- **Le reste du secteur.** Les aliens ne chassent, ne rôdent et n’apparaissent jamais dans l’anneau de guidage : ils en sont donc chassés devant lui, et rien n’y est déposé ; à 1,8 fois sa taille, il couvre environ un tiers du secteur. Un pilote qui quitte le jeu dans la radiation agrandie, hors de l’attraction, revient à l’endroit libre le plus proche de la carte, hors de l’anneau. Un alien que l’horizon ou la radiation atteint est détruit, comme un vaisseau. Un ordre de déplacement qui traverserait l’anneau est guidé autour de lui ; un ordre qui se termine dans l’anneau est exécuté tel quel.
 
 ## Radiation
 

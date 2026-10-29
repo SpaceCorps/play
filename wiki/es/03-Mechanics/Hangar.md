@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # El hangar en vuelo {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ La página **Builds** de la Biblioteca puede importar lo que está equipado en u
 La nave a la que cambias tiene **el casco y los escudos que tenía** la última vez que la pilotaste, exactamente como si la hubieras lanzado. El anillo no repara, así que cambiar de nave nunca te cura: la nave que dejas conserva el daño que tiene y vuelve con él. Una nave destruida no se puede pilotar hasta que la repares, lo cual es gratis y la devuelve con un máximo de 10.000 de casco y sin escudo, como una reaparición.
 
 Lo que es tuyo sigue siendo tuyo: tu munición, tus cohetes y su temporizador, las recargas de tus habilidades, tus potenciadores, tu XP y tus Slave Drones. Lo que pertenecía a la nave termina: un Shield Surge o un Afterburner en marcha, las reparaciones, tu fijación de objetivo, tu ataque y el rumbo que seguías. Lo instalado se queda en la nave en la que está instalado.
+
+## El reinicio y tus naves {#the-wipe-and-your-ships}
+
+El reinicio conserva **todas las naves que tienes**, con el casco entero y los escudos vacíos. Qué nave conserva lo que lleva montado lo decide el [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+La única nave que bloqueas en el Alijo conserva su equipo y, tras el reinicio, pasa a ser tu nave activa; si no hay ninguna bloqueada, tu nave activa conserva su equipo. Una nave bloqueada se marca con un candado en el Hangar y no se puede equipar, desequipar, convertir ni volar hasta el reinicio. Desde el día 26 de la temporada, cada tarjeta de nave dice si la nave conserva su equipo en el reinicio o se queda sin él.
 
 ## Peticiones desde otras herramientas {#requests-from-other-tools}
 

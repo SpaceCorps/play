@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -26,7 +26,7 @@
 
 ## P.E.T. Station {#the-station}
 
-Station은 **부가 장비**입니다. **P.E.T. Station I, II, III** 세 아이템을 [연구 센터](/wiki/03-Mechanics/Research.md)에서 연구하고(3시간, 10시간, 1일, Dark Matter 불필요) 어셈블리에서 차례로 제작합니다. [Cloaking CPU](/wiki/06-Items/Extras.md)처럼 부가 장비 슬롯에 **장착**하면, 도킹할 수 있는 P.E.T.는 **2, 3, 5**마리가 됩니다. 각각의 비용은 Extras의 [아이템 트리](/wiki/06-Items/Extras.md#item-tree)에 있습니다. Station은 초기화를 넘어 남으며 그 연구도 남습니다.
+Station은 **부가 장비**입니다. **P.E.T. Station I, II, III** 세 아이템을 [연구 센터](/wiki/03-Mechanics/Research.md)에서 연구하고(3시간, 10시간, 1일, Dark Matter 불필요) 어셈블리에서 차례로 제작합니다. Station I은 부품으로 만들고, **Station II는 Station I을 업그레이드해서**, **Station III는 Station II를 업그레이드해서** 만듭니다. 업그레이드는 아래 단계의 Station을 소모하며, 그 Station은 인벤토리에 장착되지 않은 채로 있어야 하고(함선에 장착했거나 [수송 보관함](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)에 있으면 쓸 수 없습니다), 가격의 나머지도 추가로 듭니다. 그래서 세 번의 제작을 모두 합치면 Station III의 가치 한 번 분입니다. [Cloaking CPU](/wiki/06-Items/Extras.md)처럼 부가 장비 슬롯에 **장착**하면, 도킹할 수 있는 P.E.T.는 **2, 3, 5**마리가 됩니다. 각각의 비용은 Extras의 [아이템 트리](/wiki/06-Items/Extras.md#item-tree)에 있습니다. Station은 초기화를 넘어 남으며 그 연구도 남습니다.
 
 - **그것과 함께 나는 함선만.** P.E.T.는 지금 조종하는 구성에 Station이 장착된 함선에서 셉니다. 인벤토리에 있는 Station, 다른 구성이나 다른 함선에 있는 Station은 아무것도 하지 않습니다. 구성이나 함선을 바꾸면 P.E.T.가 곧바로 따라옵니다.
 - **ON과 OFF.** Station은 퀵슬롯의 **PET** 슬롯으로 전환합니다(부가 장비 선택창에서 끌어다 놓습니다). **ON**: 도킹한 P.E.T. 중 처음 2, 3, 5마리가 부스트를 주고, 경험치를 얻고, 일합니다. **OFF**: 그중 아무것도 없고 드론도 그려지지 않습니다. 슬롯에는 **ON** 또는 **OFF**가 표시됩니다. 전환은 당신의 것이며 출격과 로그인을 넘어 유지되고, 한 번도 전환하지 않은 Station은 ON입니다. 두 번 누르는 사이에는 1초가 있습니다.

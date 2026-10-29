@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ A página **Builds** da Biblioteca pode importar o que está equipado em uma das
 A nave para a qual você troca fica com **o casco e os escudos que tinha** na última vez que você voou com ela, exatamente como se você tivesse decolado com ela. O anel não repara, então trocar de nave nunca cura você: a nave que você deixa mantém os danos que tem e volta com eles. Não dá para voar com uma nave destruída até você recuperá-la, o que é de graça e a devolve com no máximo 10.000 de casco e sem escudo, como um reaparecimento.
 
 O que é seu continua sendo seu: a munição, os foguetes e a recarga deles, os tempos de recarga das habilidades, os boosters, o XP e os Slave Drones. O que pertencia à nave termina: um Shield Surge ou um Afterburner em andamento, os reparos, a trava no alvo, o ataque em curso e o rumo que você seguia. O equipamento encaixado continua na nave em que está encaixado.
+
+## O reset e as suas naves {#the-wipe-and-your-ships}
+
+O reset mantém **todas as naves que você tem**, com o casco cheio e os escudos vazios. Qual nave mantém o que está montado nela quem decide é o [Cache de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+A única nave que você trava no Cache mantém o equipamento e, depois do reset, vira a sua nave ativa; sem nenhuma travada, a sua nave ativa mantém o equipamento. Uma nave travada é marcada com um cadeado no Hangar e não pode ser equipada, desequipada, convertida nem voada até o reset. A partir do dia 26 da temporada, cada cartão de nave diz se a nave mantém o equipamento no reset ou fica sem ele.
 
 ## Pedidos vindos de outras ferramentas {#requests-from-other-tools}
 

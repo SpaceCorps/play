@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 574007c029169684 -->
+<!-- wiki-i18n source: 53565b70c10d22d1 -->
 <!-- wiki-i18n title: 실드 -->
 # 실드와 방어 {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 **Heavy Shield Core**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Basic Shield Core를 재료로, 4,000 Thulium, Cataclysite 30개, Reinforced Hull Plate 12개, Power Core 2개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 소모한 코어의 인챈트 등급과 보너스를 그대로 이어받습니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 Basic Shield Core를 떼어 내세요(그 안의 셀도 꺼내야 합니다). 장착되어 있거나 셀이 들어 있는 코어는 소모되지 않습니다.
 
-**흡수율**은 공격 한 번마다 실드가 받는 몫이며, 나머지는 선체가 받습니다. 실드 단독으로는 **45~50%**이고, 나머지는 실드 셀이 더합니다. 가장 좋은 실드에 가장 좋은 셀을 조합하면(Heavy Shield Core에 Absorption Shield Cell IV 3개) **80%**로, 함선이 기본으로 가질 수 있는 최대치입니다. 여기에 영구 보너스 세 가지가 더해집니다. 시즌 상점의 Shield Absorbance Boost(레벨당 +0.1포인트, 100레벨, 레벨마다 초기화 포인트 25), 대장간의 흡수율 보너스, 그리고 파일럿 연구 Field Theory(+2, +3, +5포인트)입니다. 현재 초기화 포인트를 얻을 수 있는 경로(상한까지 모두 채우면 총 1,105이며 초기화 후에도 유지되고, 경로는 앞으로 더 추가될 예정입니다)로는 그 100레벨 중 44레벨(+4.4포인트)을 살 수 있고, 완전히 단련한 영원한 등급 세트와 합치면 약 **95%**가 되고, Field Theory III까지 더하면 약 **99%**가 됩니다. 다만 이 능력치는 100%로 제한되지 않습니다. 공격자의 *실드 관통*만큼 빠지므로, 100%를 넘는 부분은 관통에 대한 여유입니다. [실드 시스템](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)을 참고하세요.
+**흡수율**은 공격 한 번마다 실드가 받는 몫이며, 나머지는 선체가 받습니다. 실드 단독으로는 **45~50%**이고, 나머지는 실드 셀이 더합니다. 가장 좋은 실드에 가장 좋은 셀을 조합하면(Heavy Shield Core에 Absorption Shield Cell IV 3개) **80%**로, 함선이 기본으로 가질 수 있는 최대치입니다. 여기에 영구 보너스 세 가지가 더해집니다. 시즌 상점의 Shield Absorbance Boost(레벨당 +0.1포인트, 100레벨, 레벨마다 초기화 포인트 25), 대장간의 흡수율 보너스, 그리고 파일럿 연구 Field Theory(+2, +3, +5포인트)입니다. 초기화 포인트를 얻을 수 있는 경로(한 번의 초기화에서 최대 1,090이며 초기화마다 다시 시작합니다)로는 첫 초기화에서 그 100레벨 중 43레벨(+4.3포인트)을 살 수 있고, 완전히 단련한 영원한 등급 세트와 합치면 약 **95%**가 되고, Field Theory III까지 더하면 약 **99%**가 됩니다. 다만 이 능력치는 100%로 제한되지 않습니다. 공격자의 *실드 관통*만큼 빠지므로, 100%를 넘는 부분은 관통에 대한 여유입니다. [실드 시스템](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)을 참고하세요.
 
 ---
 

@@ -37,6 +37,12 @@ The ship you switch to has **the hull and shields it had** when you last flew it
 
 What is yours stays yours: your ammo, your rockets and their timer, your ability cooldowns, your boosters, your XP and your Slave Drones. What belonged to the ship ends: a running Shield Surge or Afterburner, repairs, your target lock, your attack and the course you were flying. Fittings stay on the ship they are fitted to.
 
+## The wipe and your ships
+
+The wipe keeps **every ship you own**, with a full hull and empty shields. Which ship keeps what is fitted to it is decided by the [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+The one ship you lock in the Cache keeps its gear and, after the wipe, becomes your active ship; with none locked, your active ship keeps its gear. A locked ship is marked with a lock in the Hangar and can't be fitted, unfitted, converted or flown until the wipe. From season day 26 every ship card says whether the ship keeps its gear at the wipe or is stripped.
+
 ## Requests From Other Tools
 
 The Hangar changes only from a safe zone on the server too: fitting, unfitting, deleting an item, reviving a ship or setting the active ship while you fly answers "You can only change your ship in a safe zone." The configuration swap is the exception, and works anywhere (once every 5 seconds).

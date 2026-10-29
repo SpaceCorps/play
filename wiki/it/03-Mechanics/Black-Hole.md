@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-Esattamente al centro del Settore pericoloso 4 (`DS-4`, il cuore della zona PvP), un buco nero incombe nel buio. È lo stesso in ogni mondo (Alpha, Beta e Gamma), in ogni giorno della stagione, Protocollo di pace compreso. Prende ciò che si avvicina troppo e restituisce una sola cosa: [Dark Matter](#dark-matter), in cambio di un razzo N.I.K.E. lanciato al suo interno. Il percorso completo, dalla ricerca alla plate, è in [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md).
+Esattamente al centro del Settore pericoloso 4 (`DS-4`, il cuore della zona PvP), un buco nero incombe nel buio. È lo stesso in ogni mondo (Alpha, Beta e Gamma), in ogni giorno della stagione, Protocollo di pace compreso. Prende ciò che si avvicina troppo e restituisce una sola cosa: [Dark Matter](#dark-matter), in cambio di un razzo N.I.K.E. lanciato al suo interno. Il percorso completo, dalla ricerca alla plate, è in [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md). Nelle ultime 72 ore prima del [reset dell’universo](/wiki/03-Mechanics/Wipe-Timeline.md) di ogni stagione cresce fino a 1,8 volte la sua dimensione ([Crescita prima del reset](#growing-before-the-wipe)); tutto il resto di questa pagina vale per la sua dimensione normale.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Le distanze si misurano dal centro del settore, in unità di mappa. Il settore m
 | **Punto di non ritorno** | da circa 1.000 a 2.600 | Dove l’attrazione eguaglia la velocità della tua nave. Al suo interno, anche a piena potenza, vieni risucchiato. Dipende dalla tua velocità. |
 | **Orizzonte degli eventi** | 300 | Qualsiasi nave lo raggiunga viene distrutta all’istante, qualunque siano il suo scafo e il suo scudo. |
 
-I portali del Settore pericoloso 4 e le rotte tra di essi passano tutti ben al di fuori delle radiazioni, quindi non le incontri mai per caso mentre attraversi il settore. Dal giorno 11 della stagione lo stesso settore contiene anche il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), nell’angolo in alto a sinistra, lontano dal buco; gli alieni di lì non entrano mai negli anelli del buco.
+I portali del Settore pericoloso 4 e le rotte tra di essi passano tutti ben al di fuori delle radiazioni, quindi non le incontri mai per caso mentre attraversi il settore. Dal giorno 11 della stagione lo stesso settore contiene anche il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), nell’angolo in alto a sinistra, lontano dal buco; gli alieni di lì non entrano mai negli anelli del buco. Gli ultimi giorni di una stagione fanno eccezione: vedi [Crescita prima del reset](#growing-before-the-wipe).
+
+## Crescita prima del reset {#growing-before-the-wipe}
+
+Il buco nero non ha la stessa dimensione per tutta la stagione. Nelle ultime **72 ore** prima del [reset dell’universo](/wiki/03-Mechanics/Wipe-Timeline.md) inizia a crescere, un poco a ogni secondo, e da **24 ore** prima del reset fino al reset è grande **1,8 volte** la sua dimensione. Vale per ogni sua lunghezza: l’orizzonte degli eventi, l’attrazione e le radiazioni sono 1,8 volte più lontani dal centro, e lo stesso vale per l’anello attorno al quale il server ti guida. L’immagine, gli anelli sulle mappe e i suoni crescono con lui.
+
+| | Normale | 48 ore prima (1,4 volte) | Da 24 ore prima (1,8 volte) |
+| :--- | ---: | ---: | ---: |
+| **Orizzonte degli eventi** | 300 | 420 | 540 |
+| **Attrazione** | 3.000 | 4.200 | 5.400 |
+| **Radiazioni** | 4.000 | 5.600 | 7.200 |
+| **Anello di guida** | 4.200 | 5.880 | 7.560 |
+
+Ciò che non cambia è quanto è dura la zona alla stessa frazione del percorso verso l’interno: una nave a 3.600 unità dal centro, con il buco a 1,8 volte, sente ciò che sente una nave a 2.000 unità in un giorno normale (un’attrazione di 96 unità al secondo e il 2 % dei suoi HP al secondo). Il buco cresciuto non è più forte, è più largo, e una nave impiega 1,8 volte più tempo ad attraversarlo. Il punto di non ritorno di ogni nave è 1,8 volte più lontano. Tutte le distanze di questa pagina sono per la dimensione normale: moltiplicale per la dimensione del buco per leggere il buco cresciuto.
+
+- **Come lo vedi.** Per le ultime 72 ore la Dashboard ha una scheda in alto, e la vista di volo un’etichetta sopra il buco nero, che contano alla rovescia fino al reset («Reset dell’universo tra 1g 05:12:33») e dicono quante volte la sua dimensione è ora il buco; negli ultimi cinque minuti subentra il conto alla rovescia proprio del reset. Il suggerimento della minimappa nomina gli anelli della dimensione che il buco ha ora.
+- **Quando.** La dimensione dipende solo dall’orologio della stagione, quindi è la stessa in ogni mondo. Finché un amministratore tiene la stagione su un giorno, nulla è programmato e il buco resta alla sua dimensione normale; se il giorno della stagione viene spostato, il buco lo segue subito; la stagione successiva inizia con un buco normale.
+- **I portali.** I due portali negli angoli di `DS-4`, a 17.000 unità dal centro, e il portale in alto, a 8.000 unità dal centro, restano fuori anche dalle radiazioni cresciute (7.200) e dall’anello di guida cresciuto (7.560). La rotta dal portale in alto a un portale d’angolo passa a 5.472 unità dal centro ed è dentro le radiazioni da circa 50 ore prima del reset; quella tra i due portali d’angolo (8.000 unità nel suo punto più vicino) resta libera.
+- **Il resto del settore.** Gli alieni non danno mai la caccia, non vagano e non compaiono dentro l’anello di guida, quindi vengono spinti via davanti a lui, e nulla viene lasciato al suo interno; a 1,8 volte copre circa un terzo del settore. Un pilota che lascia il gioco dentro le radiazioni cresciute, fuori dall’attrazione, torna nel punto libero più vicino della mappa, fuori dall’anello. Un alieno raggiunto dall’orizzonte o dalle radiazioni viene distrutto, come una nave. Un ordine di movimento che attraverserebbe l’anello viene guidato attorno ad esso; un ordine che finisce dentro l’anello viene eseguito così com’è.
 
 ## Radiazioni {#radiation}
 

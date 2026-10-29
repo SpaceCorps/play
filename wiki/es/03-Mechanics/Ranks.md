@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
-Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es una escala militar de 8 categorías con 3 grados cada una, 24 rangos en total. Tu rango sale de tus **puntos PvE**: los puntos que ganas por tu nivel, tu experiencia y los alienígenas que destruyes. Cada rango exige un **mínimo** de puntos PvE, y los seis mejores rangos tienen además un número fijo de **plazas** en cada corporación. En vuelo el juego muestra solo un pequeño **símbolo** delante del nombre de un piloto, para que distingas de un vistazo a los mejores pilotos de una corporación de un recién llegado, y un piloto de todo el servidor lleva una **corona** dorada sobre su símbolo. Las palabras están en la página Corporación y al pasar el puntero sobre un símbolo.
+Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es una escala militar de 8 categorías con 3 grados cada una, 24 rangos en total. Tu rango sale de tus **puntos PvE**: los puntos que ganas desde el último reinicio por los niveles que subes, tu experiencia y los alienígenas que destruyes. Cada rango exige un **mínimo** de puntos PvE, y los seis mejores rangos tienen además un número fijo de **plazas** en cada corporación. En vuelo el juego muestra solo un pequeño **símbolo** delante del nombre de un piloto, para que distingas de un vistazo a los mejores pilotos de una corporación de un recién llegado, y un piloto de todo el servidor lleva una **corona** dorada sobre su símbolo. Las palabras están en la página Corporación y al pasar el puntero sobre un símbolo.
 
 **En un minuto**
 
@@ -13,7 +13,7 @@ Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es
 - Solo están en una lista los pilotos con puntos PvE que han volado en los últimos 30 días. Todos los demás son Piloto júnior hasta que vuelvan a volar, y no ocupan ninguna plaza.
 - Una **corona** dorada sobre el símbolo marca al piloto con más puntos PvE de todo el servidor: todas las corporaciones, los tres mundos.
 - Tu rango se mueve. Hasta Coronel sénior depende solo de tus puntos, así que solo sube. Los seis mejores rangos también se mueven con los demás pilotos de tu corporación: pueden bajar cuando otros ocupan las plazas por encima de ti. Una bajada nunca se anuncia; un nuevo mejor rango, sí.
-- El reinicio no cambia los puntos de nadie, así que las listas no empiezan de cero.
+- En el reinicio los puntos vuelven a empezar de cero, así que las listas empiezan de nuevo y cada temporada es una nueva escalada. Tu rango de la temporada pasa a tu historial y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Esto empieza con el primer reinicio de las nuevas reglas: hasta entonces, tus puntos son los de toda tu trayectoria.)
 - El símbolo delante de un nombre es el rango: una forma para la categoría y de una a tres marcas para el grado.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Abre **Economía › Corporación**. Su sección **Clasificación de la corporac
 
 ## Rangos y reinicio {#ranks-and-the-wipe}
 
-Un reinicio no cambia los puntos de nadie. Conserva tu nivel, tu experiencia y tus estadísticas de derribos ([Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), y tus puntos PvE se calculan a partir de ellos, así que la clasificación de tu corporación queda en el mismo orden tras el reinicio, y también los rangos y la corona. Tu rango ya no es para siempre, sin embargo: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
+En el reinicio tus puntos PvE vuelven a empezar de cero, así que la clasificación de tu corporación empieza de nuevo y cada temporada es una nueva escalada. Solo cuenta lo que ganas después de un reinicio: los niveles que subes, la experiencia y los derribos de alienígenas de la nueva temporada ([Puntos nuevos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Tu nivel, tu experiencia y tus estadísticas de derribos se quedan en tus totales. **El honor no determina tu rango.** El rango que tenías en el instante del reinicio pasa al historial de tus temporadas, con tu puesto en la clasificación, y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Tu rango tampoco es para siempre: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
+
+El primer reinicio de las nuevas reglas es el primero que vuelve a empezar los puntos: hasta entonces son los de toda tu trayectoria, y ese reinicio cierra una temporada con los rangos que muestre entonces la clasificación.
 
 ## Cuánto se tarda {#how-long-it-takes}
 
 Son **estimaciones** de un modelo de lo rápido que caza un piloto, no mediciones. Un piloto que caza unas dos horas al día, 58 horas en una temporada, tiene unos 21.200 puntos PvE tras una temporada: Coronel. En horas de caza, el mínimo de Piloto llega en la primera hora, el de Sargento en 4, el de Capitán en 18, el de Mayor en 38, el de Coronel en 55, el de General júnior en 67, el de General en 73, el de General sénior en 78, el de Almirante júnior en 101, el de Almirante en 113 y el de Almirante sénior en 124.
 
-Así que un piloto activo típico llega a los rangos con plazas en su segunda temporada. Que consiga una plaza depende de los demás pilotos de su corporación, que también cazan: las plazas de un rango solo importan cuando más pilotos alcanzan su mínimo que plazas tiene. Hasta entonces el rango depende solo de tus puntos.
+Así que un piloto activo típico termina una temporada como Coronel, y los rangos con plazas, de General júnior en adelante, piden de 67 a 124 horas de caza en una temporada: unas 2 a 4 horas al día. Que consiga una plaza depende de los demás pilotos de su corporación, que también cazan: las plazas de un rango solo importan cuando más pilotos alcanzan su mínimo que plazas tiene. Hasta entonces el rango depende solo de tus puntos.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -7,7 +7,7 @@
 Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a pintura do casco), uma **aura** (um brilho suave em volta da nave), um **rastro** (a cor e a forma do rastro atrás dos motores) e a **pintura** dos seus drones. Um visual é só para enfeitar: não dá dano, casco nem velocidade, não ocupa slot e não muda nada do que um tiro pode acertar.
 
 > [!NOTE]
-> **Ainda não dá para comprar nem ganhar nada.** Por enquanto um administrador emite cada visual. O hangar marca os que você não tem como “Ainda não pode ser obtido”, e quando você ganha um, um aviso conta e toca um sino suave.
+> **Os visuais não podem ser comprados.** O reset concede os visuais de temporada das patentes mais altas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Alguns visuais podem ser encontrados no [Arquivo Cromático (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), um contêiner; os outros, um administrador emite. Quando um administrador dá um visual a você, um aviso conta e toca um sino suave; um visual que você ganha no contêiner aparece no cartão de resultado dele.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a 
 Uma skin é um esquema de pintura feito a partir do próprio casco da nave: as linhas dos painéis, os números e as listras ficam, só as cores mudam. Ela é para um **modelo de nave**, e a mesma skin é usada por todas as suas naves desse modelo e por todo [design](/wiki/03-Mechanics/Ship-Designs.md) feito a partir dele; uma conversão mantém o visual. A Protos ainda não tem skin, a Kitefin, a Ostirion e a Nomad têm uma coleção, e as quatro naves que você fabrica na Montagem têm as dez.
 
 As skins pertencem à sua **conta**, não a uma nave, e ficam através do [reset](/wiki/03-Mechanics/Wipe-Timeline.md); as suas naves usam o que usavam.
+
+O [Arquivo Cromático](/wiki/06-Items/Containers.md#chroma-archive) pode dar qualquer coleção exceto a Bloody R.E.D, e dá uma coleção inteira de uma vez: todas as skins dela que você ainda não tem.
 
 | Coleção | Naves | Raridade | Como é |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ Uma aura fica dentro do anel que marca uma trava e é desenhada por baixo de tod
 - **Tirar um visual.** O bloco **Liso** da aba Skin devolve à nave a pintura lisa, e **Nenhuma** tira a aura.
 - **Mais de uma nave.** O interruptor no pé da folha, **Aplicar também às minhas outras naves deste modelo** para uma skin e **Aplicar também às minhas outras naves** para uma aura ou um rastro, faz um clique pôr o visual em todas.
 - **Onde você pode mudá-lo.** Onde você pode mudar o seu equipamento: atracado, ou em uma zona segura com a proteção ativa, como em [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Um visual que você não tem mostra **Ainda não pode ser obtido**, mesmo que um contêiner possa dá-lo: o hangar não nomeia o contêiner.
+
+<!-- containers-wardrobe:end -->
 
 ## Raridade {#rarity}
 

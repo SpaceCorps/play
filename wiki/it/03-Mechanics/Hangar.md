@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ La pagina **Build** della Biblioteca può importare ciò che è montato su una d
 La nave a cui passi ha **lo scafo e gli scudi che aveva** l’ultima volta che l’hai pilotata, esattamente come se l’avessi fatta decollare. L’anello non ripara, quindi cambiare nave non ti cura mai: la nave che lasci conserva i danni che ha, e torna con essi. Una nave distrutta non può volare finché non la ripristini; è gratis e la riporta con al massimo 10.000 di scafo e senza scudo, come un respawn.
 
 Ciò che è tuo resta tuo: le tue munizioni, i tuoi razzi e il loro timer, le ricariche delle tue abilità, i tuoi booster, i tuoi XP e i tuoi Slave Drone. Ciò che apparteneva alla nave finisce: uno Shield Surge o un Afterburner in corso, le riparazioni, il tuo aggancio del bersaglio, il tuo attacco e la rotta che stavi seguendo. Gli equipaggiamenti restano sulla nave su cui sono montati.
+
+## Il reset e le tue navi {#the-wipe-and-your-ships}
+
+Il reset conserva **ogni nave che possiedi**, con lo scafo integro e gli scudi vuoti. Quale nave conserva ciò che vi è montato lo decide il [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
+
+L’unica nave che blocchi nel Deposito conserva il suo equipaggiamento e, dopo il reset, diventa la tua nave attiva; se non ne hai bloccata nessuna, la tua nave attiva conserva il suo equipaggiamento. Una nave bloccata è segnata con un lucchetto nell’Hangar e non si può equipaggiare, svuotare, convertire né pilotare fino al reset. Dal giorno 26 della stagione ogni scheda nave dice se la nave conserva l’equipaggiamento al reset o ne viene spogliata.
 
 ## Richieste da altri strumenti {#requests-from-other-tools}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -29,6 +29,8 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 - **Por debajo del Núcleo de nivel 10** no puedes investigar, así que todavía no puedes fabricar nada nuevo en Ensamblaje. Las misiones de la estación te guían para subir el Núcleo.
 
 <!-- research-centre:end -->
+
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termina al instante la investigación que está en marcha, si su tecnología tarda 24 horas o menos en investigarse (135 de las 151 tecnologías). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que aún no ha quemado se queda en tu depósito y la siguiente tecnología de tu cola empieza al instante.
 
 **Los amplificadores láser y el último nivel.** Los Damage, Crit y Penetration Amps de los niveles II a IV se investigan como el resto de fabricaciones. Los pilotos que tenían o habían puesto en cola amps al llegar las líneas de amps recibieron la tecnología de cada uno de ellos y la de los niveles inferiores. Trece tecnologías necesitan una tecnología de otro árbol, la de la Dark Matter Plate, del árbol Recursos, porque el último nivel de cada cadena de mejora pide cuatro plates y una Ancient Control Unit: los Damage, Crit y Penetration Amps del nivel IV, las Absorption y Capacity Shield Cells del nivel IV, los Impulse y Momentum Thrusters del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. Un piloto que investigó una de ellas antes la conserva, y necesita la tecnología de la plate para fabricar sus plates. El árbol de abajo no dibuja ninguna flecha para ella, pero la tabla la lista y la tarjeta del juego la nombra ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ La familia Piloto de la vista de investigación tiene tecnologías que no son un
 - **Puerta trasera sellada** sube el límite de carga de todos los cohetes, los compres, los fabriques o los intercambies donde sea.
 - **Minería con excavadora** sube lo que sacas de cada caja de una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md), tanto de Thulium como de mineral.
 - **Teoría de campos** sube la parte de cada impacto que absorben tus escudos. Una nave sin escudo no recibe nada.
-- **Conocimiento latente** paga puntos de reinicio, una vez por nivel, cuando su investigación termina en el Centro. Además del nivel anterior, pide una parte de las demás tecnologías investigadas (cuentan las del Piloto, no las cinco de Conocimiento latente), las hayas conseguido como las hayas conseguido; la tabla muestra cada parte y cuántas tecnologías son.
+- **Conocimiento latente** paga puntos de reinicio por cada nivel cuando su investigación termina en el Centro, y otra vez después de cada reinicio ([Cómo ganar puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Además del nivel anterior, pide una parte de las demás tecnologías investigadas (cuentan las del Piloto, no las cinco de Conocimiento latente), las hayas conseguido como las hayas conseguido; la tabla muestra cada parte y cuántas tecnologías son.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

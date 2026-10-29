@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -29,6 +29,8 @@
 - **코어 레벨 10 미만**에서는 연구할 수 없으므로 어셈블리에서 새로운 것을 아직 만들 수 없습니다. 정거장 미션이 코어를 올리도록 안내해 줍니다.
 
 <!-- research-centre:end -->
+
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 151개 중 135개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 - **봉인된 뒷문**은 어디서 사고, 만들고, 거래하든 모든 로켓의 소지 한도를 늘려 줍니다.
 - **굴착기 채굴**은 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)의 상자마다 얻는 양을 늘려 줍니다. Thulium도 광석도 마찬가지입니다.
 - **장 이론**은 피격 시 실드가 흡수하는 비율을 늘려 줍니다. 실드가 없는 함선은 효과가 없습니다.
-- **잠든 지식**은 연구가 센터에서 끝날 때 레벨마다 한 번씩 초기화 포인트를 지급합니다. 이전 레벨 외에, 다른 기술을 일정 비율 연구해 두어야 합니다(파일럿 계열의 기술은 포함되고 다섯 개의 잠든 지식은 포함되지 않으며, 얻은 방법은 상관없습니다). 표에는 각 비율과 그것이 몇 개의 기술인지가 나옵니다.
+- **잠든 지식**은 연구가 센터에서 끝날 때 레벨마다 초기화 포인트를 지급하고, 초기화 뒤에도 다시 지급합니다([초기화 포인트 획득](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). 이전 레벨 외에, 다른 기술을 일정 비율 연구해 두어야 합니다(파일럿 계열의 기술은 포함되고 다섯 개의 잠든 지식은 포함되지 않으며, 얻은 방법은 상관없습니다). 표에는 각 비율과 그것이 몇 개의 기술인지가 나옵니다.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

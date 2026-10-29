@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ Drücke den Slot WAL, und eine **Plasmawand** steht **an deinem Mauszeiger**, qu
 - **Abschüsse.** Ein Schiff, das die Wand zerstört, stirbt an Strahlung, und der Abschuss geht an den letzten feindlichen Piloten, der es innerhalb von 15 Sekunden getroffen hat, falls es einen gab. Wer die Wand aufgestellt hat, bekommt nichts gutgeschrieben, was er nicht selbst geschossen hat. Ein Alien, das die Wand zerstört, zahlt nichts: keine Belohnung, keine Beute.
 - **Aliens umfliegen sie nicht.** Sie fliegen hindurch und verbrennen, oder sie bleiben auf ihrer Seite stehen und schießen auf die Wand.
 - **Was du siehst.** Ein Streifen blauweißen Lichts mit hellen Strichen, die an ihm entlanglaufen, und einem Lichtpfosten an jedem Ende; er blitzt auf, wo ein Schuss einschlägt, und flackert, wenn er fast aufgebraucht ist. Eine Wand der Stufe 2 leuchtet stattdessen gelb, mit einem dickeren, helleren Kern und einem stärkeren Leuchten, ihr Streifen ist aber genauso 10 Einheiten breit wie bei einer Wand der Stufe 1. Eine dünne Lebensleiste daneben wird kürzer und färbt sich bernsteinfarben, dann rot; dein Slot zeigt die verbleibende Lebensdauer deiner Wand als Bogen und die Wartezeit als Schatten. Eine aufgestellte Wand flammt auf, eine abgeschossene bricht in Funken zusammen, und eine, deren Zeit ablief, verblasst. Auf deinem Slot steht außerdem die Zahl der Wände seiner Stufe, die dir bleiben.
-- **Wie du sie bekommst und trägst.** Die Energetic Wall I gibt es im Shop für **250 Thulium** je Wand, und du trägst bis zu **20** davon in einem Stapel (was du in der [Auktion](/wiki/03-Mechanics/Auction.md) eingestellt hast, zählt mit). Die Energetic Wall II stellt die Montage her, **eine Wand je Herstellung**, für **600 Thulium**, 5 Ship Fragments und eine Power Core, sobald das Forschungszentrum sie erforscht hat (6 Stunden bei normaler Geschwindigkeit: [Forschung](/wiki/03-Mechanics/Research.md)); davon trägst du bis zu **10**. Wie Raketen gehen die Wände, die du trägst, mit der Saison verloren, wenn du sie nicht in den Transport-Cache legst; Wände im Transport-Cache lassen sich nicht benutzen. Eine selbst hergestellte Energetic Wall II kannst du in der Auktion verkaufen, eine Energetic Wall I, die der Shop verkauft, nie.
+- **Wie du sie bekommst und trägst.** Die Energetic Wall I gibt es im Shop für **250 Thulium** je Wand, und du trägst bis zu **20** davon in einem Stapel (was du in der [Auktion](/wiki/03-Mechanics/Auction.md) eingestellt hast, zählt mit). Die Energetic Wall II stellt die Montage her, **eine Wand je Herstellung**, für **600 Thulium**, 5 Ship Fragments und eine Power Core, sobald das Forschungszentrum sie erforscht hat (6 Stunden bei normaler Geschwindigkeit: [Forschung](/wiki/03-Mechanics/Research.md)); davon trägst du bis zu **10**. Anders als bei den zwölf Raketen, von denen je 1.000 von selbst übernommen werden, gehen die Wände, die du trägst, mit der Saison verloren, wenn du sie nicht in den Transport-Cache legst; Wände im Transport-Cache lassen sich nicht benutzen. Eine selbst hergestellte Energetic Wall II kannst du in der Auktion verkaufen, eine Energetic Wall I, die der Shop verkauft, nie.
 
 ## CPUs des Forschungszentrums {#research-cpus}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Cosmetici -->
 # Cosmetici {#cosmetics}
 
@@ -7,7 +7,7 @@
 Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la vernice dello scafo), un’**aura** (un morbido bagliore attorno alla nave), una **scia** (il colore e la forma della scia dietro i motori) e la **livrea** dei tuoi droni. Un look è solo per bellezza: non dà danno, scafo né velocità, non occupa uno slot e non cambia nulla di ciò che un colpo può raggiungere.
 
 > [!NOTE]
-> **Per ora non si può comprare né guadagnare nulla.** Per ora un admin rilascia ogni look. L’Hangar segna quelli che non hai con «Non ancora ottenibile», e quando te ne viene dato uno te lo dice un avviso e suona un morbido tocco.
+> **I look non si possono comprare.** Il reset assegna i look di stagione dei gradi più alti ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Alcuni look si trovano nell’[Archivio cromatico (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), un contenitore; gli altri li rilascia un admin. Quando un admin ti dà un look te lo dice un avviso e suona un morbido tocco; un look che vinci nel contenitore compare sulla sua scheda del risultato.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la 
 Una skin è uno schema di vernice fatto a partire dallo scafo stesso della nave: le sue linee dei pannelli, i numeri e le strisce restano, cambiano solo i colori. È per un **modello di nave**, e la stessa skin la indossano tutte le tue navi di quel modello e ogni [design](/wiki/03-Mechanics/Ship-Designs.md) ricavato da esso; una conversione mantiene il look. Il Protos non ha ancora una skin, il Kitefin, l’Ostirion e il Nomad hanno una collezione, e le quattro navi che costruisci all’Assemblaggio le hanno tutte e dieci.
 
 Le skin appartengono al tuo **account**, non a una nave, e restano attraverso il [reset](/wiki/03-Mechanics/Wipe-Timeline.md); le tue navi indossano ciò che indossavano.
+
+L’[Archivio cromatico](/wiki/06-Items/Containers.md#chroma-archive) può dare qualsiasi collezione tranne Bloody R.E.D, e dà un’intera collezione in una volta: tutte le sue skin che non hai ancora.
 
 | Collezione | Navi | Rarità | Com’è |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ Un’aura resta dentro l’anello che segna un aggancio e viene disegnata sotto 
 - **Togliere un look.** La tessera **Di serie** della scheda Skin rimette alla nave la sua vernice di serie, e **Nessuna** toglie l’aura.
 - **Più di una nave.** L’interruttore in fondo al foglio, **Applica anche alle mie altre navi di questo modello** per una skin e **Applica anche alle mie altre navi** per un’aura o una scia, fa sì che un clic metta il look su tutte.
 - **Dove puoi cambiarlo.** Dove puoi cambiare il tuo equipaggiamento: attraccato, o in una zona sicura con la protezione attiva, come in [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Un look che non hai mostra **Non ancora ottenibile**, anche se un contenitore può darlo: l’Hangar non nomina il contenitore.
+
+<!-- containers-wardrobe:end -->
 
 ## Rarità {#rarity}
 

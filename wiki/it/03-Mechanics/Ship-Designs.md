@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a91659443751cfdb -->
+<!-- wiki-i18n source: 13ea8d311ddbcead -->
 <!-- wiki-i18n title: Design delle navi -->
 # Design delle navi {#ship-designs}
 
@@ -71,7 +71,7 @@ Insieme chiedono 490 Dark Matter, oltre ai 749 che chiedono tutte le altre tecno
 - **I laser possono perdere il loro slot.** Un design con meno slot laser (BUCKY, RECON, DUMA, ATARAXIS) rimanda nel tuo inventario i laser degli slot che spariscono, con i loro amp e i loro tiri della Forgia. Uno slot nuovo arriva vuoto.
 - **Scafo e scudi pieni** a lavoro finito. Fino ad allora la nave è bloccata: non si può rendere attiva, equipaggiare né convertire di nuovo.
 - **Non si torna indietro.** Per un altro design, o per riavere la nave semplice, costruisci di nuovo la nave nell’Assemblaggio. Possiedi una nave per tipo, quindi una Paragon e un THUNDER possono essere tuoi insieme, due THUNDER no.
-- **Il reset** conserva un design come ogni altra nave che possiedi.
+- **Il reset** conserva un design come ogni altra nave che possiedi. Una conversione ancora in corso viene annullata e rimborsata, come ogni produzione della tua coda di produzione: la nave resta com’era.
 
 ## Aspetto e dimensioni {#looks-and-size}
 

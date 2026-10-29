@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -26,7 +26,7 @@ Un **P.E.T.** (Personal Escort Technology) es un pequeño compañero que vuela j
 
 ## La P.E.T. Station {#the-station}
 
-La Station es un **Extra**. Tres objetos, **P.E.T. Station I, II y III**, se investigan en el [centro de investigación](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas y 1 día, sin Dark Matter) y se fabrican en el Ensamblaje uno tras otro. **Equipas** una en una ranura de extras, como una [Cloaking CPU](/wiki/06-Items/Extras.md), y da sitio a **2, 3 y 5** P.E.T.s acoplados. Lo que cuesta cada uno está en el [árbol de objetos](/wiki/06-Items/Extras.md#item-tree) de los Extras. La Station se queda tras el reinicio, igual que su investigación.
+La Station es un **Extra**. Tres objetos, **P.E.T. Station I, II y III**, se investigan en el [centro de investigación](/wiki/03-Mechanics/Research.md) (3 horas, 10 horas y 1 día, sin Dark Matter) y se fabrican en el Ensamblaje uno tras otro: la Station I con piezas, la **Station II mejorando una Station I** y la **Station III mejorando una Station II**. Una mejora consume la Station de abajo, que debe estar suelta en tu inventario (ni equipada en una nave ni en el [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)), y pide además el resto de su precio, así que las tres fabricaciones juntas cuestan lo que vale una Station III, una sola vez. **Equipas** una en una ranura de extras, como una [Cloaking CPU](/wiki/06-Items/Extras.md), y da sitio a **2, 3 y 5** P.E.T.s acoplados. Lo que cuesta cada uno está en el [árbol de objetos](/wiki/06-Items/Extras.md#item-tree) de los Extras. La Station se queda tras el reinicio, igual que su investigación.
 
 - **Solo la nave que vuela con ella.** Tus P.E.T.s cuentan en la nave que pilotas si tiene una Station equipada en la configuración que pilotas. Una Station en tu inventario, en la otra configuración o en otra nave no hace nada; si cambias de configuración o de nave, los P.E.T.s te siguen al instante.
 - **ON y OFF.** Cambia la Station con la ranura **PET** de la barra rápida (arrástrala hasta allí desde el selector de extras). **ON**: los primeros 2, 3 o 5 de tus P.E.T.s acoplados suman sus bonificaciones, ganan experiencia y trabajan. **OFF**: nada de eso, y no se dibuja ningún dron. La ranura dice **ON** u **OFF**. El interruptor es tuyo y se conserva entre despegues e inicios de sesión; una Station que nunca has cambiado está en ON. Entre dos pulsaciones pasa un segundo.

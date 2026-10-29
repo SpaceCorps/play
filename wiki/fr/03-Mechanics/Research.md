@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -29,6 +29,8 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 - **En dessous du niveau 10 du Noyau,** vous ne pouvez pas faire de recherche, donc rien de nouveau à l’Assemblage pour l’instant. Les missions Station vous font monter le Noyau.
 
 <!-- research-centre:end -->
+
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termine sur-le-champ la recherche en cours, si sa technologie demande 24 heures ou moins de recherche (135 des 151 technologies). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science qu’elle n’a pas encore brûlée reste dans votre réservoir, et la technologie suivante de votre file démarre aussitôt.
 
 **Les amplis laser et le dernier palier.** Les Damage, Crit et Penetration Amps des paliers II à IV se recherchent comme tout ce qui se fabrique. Les pilotes qui possédaient ou avaient en file des amplis à l’arrivée des gammes d’amplis ont reçu la technologie de chacun d’eux et celle des paliers en dessous. Treize technologies demandent une technologie d’un autre arbre, celle de la Dark Matter Plate, de l’arbre Ressources, parce que le dernier palier de chaque chaîne d’amélioration demande quatre plates et une Ancient Control Unit : les Damage, Crit et Penetration Amps du palier IV, les Absorption et Capacity Shield Cells du palier IV, les Impulse et Momentum Thrusters du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II. Un pilote qui a déjà recherché l’une d’elles la garde, mais il lui faut la technologie de la plate pour fabriquer ses plates. L’arbre ci-dessous ne trace aucune flèche pour elle, mais le tableau la liste et la carte en jeu la nomme ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 - **Porte dérobée scellée** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
 - **Extraction par excavatrice** augmente ce que vous prenez dans chaque caisse d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium comme minerai.
 - **Théorie des champs** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
-- **Savoir dormant** verse des points de réinitialisation, une fois par niveau, quand sa recherche se termine dans le Centre. En plus du niveau précédent, il demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq niveaux de Savoir dormant non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
+- **Savoir dormant** verse des points de réinitialisation pour chaque niveau quand sa recherche se termine dans le Centre, et de nouveau après chaque réinitialisation ([Gagner des points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). En plus du niveau précédent, il demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq niveaux de Savoir dormant non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

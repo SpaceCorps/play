@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -7,7 +7,7 @@
 Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrovets lackering), en **aura** (ett mjukt sken runt skeppet), ett **avgasspår** (färgen och formen på spåret bakom motorerna) och dina drönares **lackering**. Ett utseende är bara till för syns skull: det ger ingen skada, inget skrov och ingen fart, tar ingen plats och ändrar ingenting som ett skott kan träffa.
 
 > [!NOTE]
-> **Ingenting kan köpas eller förtjänas ännu.** Tills vidare delar en admin ut varje utseende. Hangaren markerar dem du inte har med ”Går inte att få ännu”, och när du får ett säger ett meddelande det och en mjuk klang ljuder.
+> **Utseenden kan inte köpas.** Wipen ger säsongsutseendena till de högsta graderna ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Vissa utseenden finns i [Kromaarkivet (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), en container; resten delar en admin ut. När en admin ger dig ett utseende säger ett meddelande det och en mjuk klang ljuder; ett utseende du vinner i containern visas på dess resultatkort.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrov
 En skin är ett färgschema gjort av skeppets eget skrov: panellinjer, nummer och ränder blir kvar och bara färgerna ändras. Den är till för en **skeppsmodell**, och samma skin bärs av alla dina skepp av den modellen och av varje [design](/wiki/03-Mechanics/Ship-Designs.md) som gjorts av den; en ombyggnad behåller utseendet. Protos har ännu ingen skin, Kitefin, Ostirion och Nomad har en kollektion, och de fyra skepp du tillverkar i Monteringen har alla tio.
 
 Skins hör till ditt **konto**, inte till ett skepp, och de finns kvar över [wipen](/wiki/03-Mechanics/Wipe-Timeline.md); dina skepp bär det de bar.
+
+[Kromaarkivet](/wiki/06-Items/Containers.md#chroma-archive) kan ge varje kollektion utom Bloody R.E.D, och det ger en hel kollektion på en gång: alla dess skins som du inte har.
 
 | Kollektion | Skepp | Sällsynthet | Hur den ser ut |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ En aura stannar inom ringen som markerar en målfixering och ritas under allt an
 - **Ta av ett utseende.** Rutan **Vanlig** på fliken Skin ger skeppet tillbaka dess vanliga lackering, och **Ingen** tar av auran.
 - **Mer än ett skepp.** Reglaget längst ned på bladet, **Använd även på mina andra skepp av den här modellen** för en skin och **Använd även på mina andra skepp** för en aura eller ett avgasspår, gör att ett klick lägger utseendet på alla.
 - **Var du kan ändra det.** Där du kan ändra din utrustning: dockad, eller i en säker zon med skyddet på, som i [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Ett utseende du inte har visar **Går inte att få ännu**, även om en container kan ge det: hangaren nämner inte containern.
+
+<!-- containers-wardrobe:end -->
 
 ## Sällsynthet {#rarity}
 

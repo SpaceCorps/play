@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선�
 - **격파.** 벽이 파괴한 함선은 방사선으로 죽으며, 격파는 15초 안에 그 함선을 마지막으로 맞힌 적 파일럿에게 돌아갑니다(있다면). 벽을 세운 사람은 자기가 쏘지 않은 것에 대해서는 아무것도 얻지 못합니다. 벽이 파괴한 외계인은 아무것도 주지 않습니다. 보상도 전리품도 없습니다.
 - **외계인은 벽을 돌아가지 않습니다.** 벽을 뚫고 지나가며 타거나, 자기 쪽에 서서 벽을 쏩니다.
 - **보이는 모습.** 청백색 빛의 띠에 밝은 줄이 따라 흐르고 양쪽 끝에 빛의 기둥이 섭니다. 사격이 맞은 곳에서 번쩍이고 거의 다 닳으면 깜박입니다. 레벨 2 벽은 대신 노랗게 빛나며 중심이 더 굵고 밝고 광채도 더 강하지만, 띠의 너비는 레벨 1 벽과 같은 10 유닛입니다. 옆의 가는 체력 막대는 짧아지며 호박색, 이어서 빨간색으로 바뀝니다. 슬롯은 벽의 남은 수명을 호로, 대기 시간을 그림자로 보여 줍니다. 세운 벽은 번쩍이며 켜지고, 격파된 벽은 불꽃이 되어 무너지며, 시간이 다 된 벽은 서서히 사라집니다. 슬롯의 숫자는 해당 등급의 남은 벽 수이기도 합니다.
-- **얻는 방법과 가지고 다니는 방법.** Energetic Wall I은 상점에서 벽 하나에 **250 Thulium**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다([경매장](/wiki/03-Mechanics/Auction.md)에 올려 둔 것도 셉니다). Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 **제작 한 번에 벽 하나**를 **600 Thulium**, Ship Fragment 5개, Power Core 1개로 만들며 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)), 최대 **10**개까지 가질 수 있습니다. 로켓처럼 가지고 있는 벽은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 벽은 쓸 수 없습니다. 직접 만든 Energetic Wall II는 경매장에서 팔 수 있지만, 상점에서 파는 Energetic Wall I은 팔 수 없습니다.
+- **얻는 방법과 가지고 다니는 방법.** Energetic Wall I은 상점에서 벽 하나에 **250 Thulium**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다([경매장](/wiki/03-Mechanics/Auction.md)에 올려 둔 것도 셉니다). Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 **제작 한 번에 벽 하나**를 **600 Thulium**, Ship Fragment 5개, Power Core 1개로 만들며 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)), 최대 **10**개까지 가질 수 있습니다. 종류별로 1,000개가 자동으로 이월되는 12종의 로켓과 달리, 가지고 있는 벽은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 벽은 쓸 수 없습니다. 직접 만든 Energetic Wall II는 경매장에서 팔 수 있지만, 상점에서 파는 Energetic Wall I은 팔 수 없습니다.
 
 ## 연구 센터의 CPU {#research-cpus}
 

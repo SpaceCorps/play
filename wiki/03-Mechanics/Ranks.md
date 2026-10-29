@@ -1,6 +1,6 @@
 # Ranks
 
-Every pilot has a **rank**, from Junior Pilot to Senior Admiral. It is a military ladder of 8 tiers with 3 grades each, 24 ranks in all. Your rank comes from your **PvE points**: the points you earn from your level, your experience and the aliens you destroy. Every rank asks for a **minimum** of PvE points, and the six best ranks also have a fixed number of **places** in each company. In flight the game shows only a small **symbol** before a pilot's name, so you can tell the best pilots of a company from a fresh one at a glance, and one pilot of the whole server wears a gold **crown** over his symbol. The words are on the Company page and in the hover tip of a symbol.
+Every pilot has a **rank**, from Junior Pilot to Senior Admiral. It is a military ladder of 8 tiers with 3 grades each, 24 ranks in all. Your rank comes from your **PvE points**: the points you earn from the levels you gain, your experience and the aliens you destroy since the last wipe. Every rank asks for a **minimum** of PvE points, and the six best ranks also have a fixed number of **places** in each company. In flight the game shows only a small **symbol** before a pilot's name, so you can tell the best pilots of a company from a fresh one at a glance, and one pilot of the whole server wears a gold **crown** over his symbol. The words are on the Company page and in the hover tip of a symbol.
 
 **In one minute**
 
@@ -11,7 +11,7 @@ Every pilot has a **rank**, from Junior Pilot to Senior Admiral. It is a militar
 - Only pilots with PvE points who flew in the last 30 days are on a list. Everybody else is a Junior Pilot until they fly again, and holds no place.
 - A **gold crown** over the symbol marks the pilot with the most PvE points of the whole server: every company, all three worlds.
 - Your rank moves. Up to Senior Colonel it depends on your points alone, so it only rises. The six best ranks also move with the other pilots of your company: they can fall when others take the places above you. A fall is never announced; a new best rank is.
-- The wipe does not change anybody's points, so the lists do not start over.
+- At the wipe the points start again from zero, so the lists start over and every season is a new climb. Your rank of the season goes into your history and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (This begins with the first wipe of the new rules: until then your points are your whole career's.)
 - The symbol before a name is the rank: a shape for the tier, one to three marks for the grade.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -193,10 +193,12 @@ Open **Economy › Company**. Its **Company ranking** section shows, from the to
 
 ## Ranks and the wipe
 
-A wipe changes nobody's points. It keeps your level, experience and kill statistics ([Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), and your PvE points are worked out from them, so the ladder of your company is in the same order after the wipe, and so are the ranks and the crown. Your rank is not for life, though: the six best ranks move with the other pilots of your company, and a pilot who stays away for 30 days leaves the ladder until he flies again.
+At the wipe your PvE points start again from zero, so the ladder of your company starts over and every season is a new climb. Only what you earn after a wipe counts: the levels you gain, the experience and the alien kills of the new season ([Fresh points](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Your level, experience and kill statistics stay in your totals. **Honor does not set your rank.** The rank you held at the instant of the wipe goes into your season history, with your place on the ladder, and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Your rank is not for life, either: the six best ranks move with the other pilots of your company, and a pilot who stays away for 30 days leaves the ladder until he flies again.
+
+The first wipe of the new rules is the first to start the points again: until then they are your whole career's, and that wipe closes a season with the ranks the ladder shows then.
 
 ## How long it takes
 
 These are **estimates** from a model of how fast a pilot hunts, not measurements. A pilot who hunts about two hours a day, 58 hours in a season, has about 21,200 PvE points after one season: a Colonel. In hours of hunting, a Pilot's minimum comes inside the first hour, a Sergeant's in 4, a Captain's in 18, a Major's in 38, a Colonel's in 55, a Junior General's in 67, a General's in 73, a Senior General's in 78, a Junior Admiral's in 101, an Admiral's in 113 and the Senior Admiral's in 124.
 
-So a typical active pilot reaches the ranks with places in his second season. Whether he gets a place is up to the other pilots of his company, who hunt too: the places of a rank matter only once more pilots reach its minimum than it has places. Until then the rank is simply your points'.
+So a typical active pilot ends a season as a Colonel, and the ranks with places, from Junior General up, ask for 67 to 124 hours of hunting in one season: about 2 to 4 hours a day. Whether he gets a place is up to the other pilots of his company, who hunt too: the places of a rank matter only once more pilots reach its minimum than it has places. Until then the rank is simply your points'.

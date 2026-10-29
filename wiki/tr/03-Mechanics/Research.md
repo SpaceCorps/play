@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -29,6 +29,8 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 - **Çekirdek 10. seviyenin altında** araştırma yapamazsın, bu yüzden Montaj’da henüz yeni bir şey üretemezsin. İstasyon görevleri seni Çekirdeği adım adım yükseltmeye yönlendirir.
 
 <!-- research-centre:end -->
+
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (151 teknolojiden 135’i). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 - **Mühürlü Arka Kapı** her roketin taşıma sınırını yükseltir; nerede alırsan, üretirsen ya da takas edersen et.
 - **Ekskavatör Madenciliği**, bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığından aldığını artırır, Thulium’u da cevheri de.
 - **Alan Teorisi**, her isabetin kalkanlarının emdiği payını artırır. Kalkanı olmayan gemi hiçbir şey kazanmaz.
-- **Uyuyan Bilgi**, araştırması Merkez’de bittiğinde, her seviye için bir kez sıfırlama puanı öder. Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, Uyuyan Bilgi’nin beş seviyesi sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
+- **Uyuyan Bilgi**, araştırması Merkez’de bittiğinde her seviye için sıfırlama puanı öder ve her sıfırlamadan sonra bir kez daha ([Sıfırlama puanı kazanmak](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, Uyuyan Bilgi’nin beş seviyesi sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

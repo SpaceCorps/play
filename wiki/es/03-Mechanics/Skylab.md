@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ La energía es el alma del Skylab. El módulo Solar produce la energía que usan
 - **Granja de créditos**: produce créditos con el tiempo: **2.250 por hora en el nivel 1, 225.000 en el nivel 20** (nivel 5: 11.250; nivel 10: 33.750; nivel 15: 76.500). Construirla no cuesta nada.
 - **Granja de Thulium**: produce Thulium con el tiempo: **40 por hora en el nivel 1, 1.280 en el nivel 20** (nivel 5: 144; nivel 10: 360; nivel 15: 760). Construirla cuesta 5.000 créditos y 500 Thulium.
 - Ambas necesitan energía, y cada una almacena 72 horas de lo que produce hasta que lo recoges.
+- Una [Philosopher's Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) hace que las dos granjas produzcan el doble durante 10 horas, y un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Foreman** hace lo mismo con cada productor durante 1 hora. Lo extra va a la tolva, así que recoge antes de que se llene.
 
 ## La cadena de suministro {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Cuatro módulos convierten el tiempo que pasas lejos del teclado en las placas p
 - **Límite**: un día de la producción de su colector en el nivel 1, hasta cuatro días en el nivel 20. La tolva de un colector guarda tres días, así que desde el nivel 13 la reserva guarda al menos una tolva llena.
 - **Por encima del límite**: si una reserva guarda más que su límite (el pago de la actualización 0.4.10 pudo dejarla así), no se quita nada, pero Recoger no añade más de ese mineral hasta que hayas gastado algo.
 - El mineral entra al recoger de un colector o, desde tu inventario, por la [Bahía de mineral](#ore-bay), y sale solo hacia la Forja y el Centro de investigación. Nunca vuelve a tu inventario.
-- **El mineral guardado se conserva** tras el reinicio de la temporada.
+- **El mineral guardado se conserva** tras el reinicio de la temporada, y no ocupa sitio en el [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Energía**: 10 en el nivel 1, con un aumento del 10 % por nivel. No se puede apagar.
 
 ### Forja {#forgery}
@@ -226,6 +227,7 @@ La Bahía de mineral pasa al Almacén de recursos el mineral que llevas contigo.
 - **En un solo sentido**: de tu inventario al Almacén de recursos, nunca de vuelta. Solo se mueve el mineral suelto de tu inventario, nunca el del Alijo de Transporte.
 - **Cómo**: tu **nave debe estar aterrizada**. Una transferencia es instantánea: en la hoja de la Bahía de mineral elige el mineral, escribe una cantidad o pulsa Máx. y pulsa **Mover**. La hoja muestra lo que llevas y lo que guarda el banco frente a su capacidad.
 - **Cupo**: el nivel fija cuánto mineral mueve por hora, **30 en el nivel 1, 960 en el nivel 20**, y guarda hasta un día de ello (720 en el nivel 1, 23.040 en el nivel 20). Una Bahía nueva empieza con un día entero, y una mejora conserva lo almacenado. Una transferencia se corta en el mineral que llevas, en el espacio que le queda al Almacén de recursos y en el cupo, y la hoja dice cuál. Un día de cupo equivale a unas tres veces lo que el Almacén de recursos guarda de un mineral en el mismo nivel, así que casi siempre es el espacio lo que detiene una transferencia; el cupo solo cuenta si haces pasar mineral por el almacén una y otra vez en un mismo día.
+- **Hauler**: un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Hauler** levanta el cupo durante 1 hora. La Bahía mueve entonces todo lo que permitan tu carga y el sitio del Almacén de recursos, y el cupo que tenía guardado queda como estaba.
 - **Energía**: 15 en el nivel 1, con un aumento del 10 % por nivel (92 en el nivel 20). Se puede apagar. Con un déficit de energía, mientras está apagada y mientras se mejora, no mueve nada.
 - **Construcción**: 5.000 créditos, 250 de Thulium y 10 Ship Fragments (de tu inventario, con la nave aterrizada), solo en el Núcleo 2. Sus mejoras cuestan lo que las del Almacén de recursos y tardan lo mismo (consulta las tablas de más abajo).
 - **No es un camino a más mineral**: mueve mineral que ya tienes. Una tanda de la excavadora se limita en su origen, y la capacidad del Almacén de recursos limita el banco.
@@ -526,6 +528,7 @@ Los pilotos de tu clan ven dónde están los Skylabs de los demás: la columna *
 - **Construcción**: cada módulo se construye por separado. Un módulo está en el nivel 1 en el momento en que se construye, y mejorarlo aumenta su producción (o la energía que produce) y su almacenamiento, y también lo que consume de energía.
 - **Tiempo y coste**: las mejoras cuestan créditos y Thulium y tardan, y cada módulo tiene su propio precio y su propio tiempo para cada nivel (pasa el cursor sobre **Mejorar** para ver el siguiente; los totales están más abajo). El precio se paga al empezar la mejora. El coste no depende del tiempo. Los módulos de motores, de defensa y de radar piden además Dark Matter Plates y la tecnología del nivel (consulta [El segundo puente y el Núcleo 3](#the-second-bridge-and-core-3)).
 - **Temporizadores**: una mejora funciona con el reloj del servidor, así que termina mientras estás fuera, días después si hace falta. Empiézala, desconéctate, vuelve: el módulo está en su nuevo nivel cuando abres la página del Skylab.
+- **Acelerar una mejora**: un [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) termina al instante una mejora en marcha, y un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Engineer** hace que las mejoras avancen al doble de velocidad durante 1 hora. Ninguno devuelve ni cobra nada: el precio se pagó al empezar la mejora.
 - **Tiempos de mejora**: los primeros niveles son rápidos y los últimos llevan hasta 37 horas, los del Núcleo hasta 6 días (consulta las tablas de más abajo). Cada módulo tiene su propio temporizador, así que puedes mejorar varios a la vez.
 - **Pausa de producción**: mientras se mejora un módulo, está desconectado: no produce nada y no consume energía. Solar es la excepción: sigue produciendo una cuarta parte de su energía (consulta más abajo).
 - **Solar produce solo el 25 % de su energía mientras se mejora**: Solar produce toda la energía del Skylab y, mientras se mejora (24 horas para el último nivel), produce una cuarta parte de la energía de su nivel **actual**; la del nivel nuevo toma el relevo en cuanto termina la mejora. Una estación completa consume alrededor del 90 % de lo que Solar produce en su propio nivel, así que una cuarta parte de eso solo sostiene una estación que esté cinco o seis niveles por debajo de Solar. Si no, todas las granjas y colectores se detienen durante toda la mejora, lo que tengas almacenado se conserva y se puede recoger, y la Forja no empieza ningún lote nuevo. Un módulo que se está mejorando o que está apagado no consume energía, así que subir las granjas a la vez que Solar no cuesta nada extra, y apagar módulos deja sitio a los demás; la Granja de Thulium es, con diferencia, la que más energía consume.
@@ -686,7 +689,7 @@ Cada granja y cada colector tiene una tolva para unas 72 horas de lo que produce
 
 El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter que contiene y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md). La Impresora de munición y la Fábrica de cohetes conservan sus niveles, lo que tienen configurado fabricar y lo que guardan, y la Bahía de mineral conserva su nivel y su cupo. Los cuatro módulos de la Expedición conservan también sus niveles, con sus tecnologías, y lo mismo el cargador y el interruptor de la alimentación. El mineral de tu inventario se reinicia como cualquier objeto: pásalo antes al Almacén de recursos.
 
-Una **expedición** se liquida hasta el reinicio: un viaje en curso termina, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto), y el Skylab empieza la nueva temporada en casa, en el puerto de tu corporación, con un mapa del universo nuevo, las 19 celdas iniciales conocidas y la cola del radar vacía. Los motores y láseres montados en los módulos de motores y de defensa son objetos sueltos como los demás: sácalos y guárdalos en el Alijo de Transporte para conservarlos.
+Una **expedición** se liquida hasta el reinicio: un viaje en curso termina, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto; los créditos y el Thulium llegan a tu cartera antes de que se apliquen los [topes](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), y el Skylab empieza la nueva temporada en casa, en el puerto de tu corporación, con un mapa del universo nuevo, las 19 celdas iniciales conocidas y la cola del radar vacía. Los motores y láseres montados en los módulos de motores y de defensa son objetos sueltos como los demás: sácalos y guárdalos en el Alijo de Transporte para conservarlos.
 
 ## Planifica tu Skylab {#planning-your-skylab}
 

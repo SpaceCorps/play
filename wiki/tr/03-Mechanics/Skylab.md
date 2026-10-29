@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ Güç, Skylab’ın can damarıdır. Güneş Paneli modülü, diğer her modül�
 - **Kredi Çiftliği**: zamanla kredi üretir: **1. seviyede saatte 2.250, 20. seviyede 225.000** (5. seviye: 11.250; 10. seviye: 33.750; 15. seviye: 76.500). İnşa etmek bedavadır.
 - **Thulium Çiftliği**: zamanla Thulium üretir: **1. seviyede saatte 40, 20. seviyede 1.280** (5. seviye: 144; 10. seviye: 360; 15. seviye: 760). İnşa etmek 5.000 kredi ve 500 Thulium tutar.
 - İkisi de güç ister ve her biri, sen toplayana kadar ürettiğinin 72 saatlik kısmını tutar.
+- Bir [Philosopher’s Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) iki çiftliğin üretimini 10 saat boyunca iki katına çıkarır; **Foreman** olarak tutulan bir [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) ise aynısını her üretici için 1 saat boyunca yapar. Fazlalık haznelere gider, o yüzden dolmadan topla.
 
 ## Tedarik zinciri {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Dört modül, klavyeden uzakta geçirdiğin zamanı en iyi lazerlerinin plakalar
 - **Üst sınır**: 1. seviyede toplayıcısının bir günlük üretimi, 20. seviyede dört güne kadar büyür. Bir toplayıcının haznesi üç günlük tutar; bu yüzden 13. seviyeden itibaren depo en az dolu bir hazne kadar alır.
 - **Sınırın üstü**: bir depo üst sınırından fazlasını tutuyorsa (0.4.10 güncellemesinin ödemesi böyle bir durum bırakabilirdi) hiçbir şey alınmaz; ama sen o cevherden biraz kullanana kadar Topla ona daha fazla ekleme yapmaz.
 - Cevher içeri bir toplayıcıdan toplayarak ya da envanterinden [Cevher Bölmesi](#ore-bay) aracılığıyla girer; dışarı yalnızca Dökümhane’ye ve Araştırma Merkezi’ne çıkar. Envanterine asla geri dönmez.
-- **Depodaki cevher sezon sıfırlamasından sonra da kalır.**
+- **Depodaki cevher sezon sıfırlamasından sonra da kalır** ve [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nda yer kaplamaz.
 - **Güç**: 1. seviyede 10, seviye başına %10 artar. Kapatılamaz.
 
 ### Dökümhane {#forgery}
@@ -226,6 +227,7 @@ Cevher Bölmesi taşıdığın cevheri Kaynak Deposu’na aktarır. [Dev ekskava
 - **Tek yön**: envanterinden Kaynak Deposu’na, asla geri çıkmaz. Yalnızca envanterinde boşta duran cevher taşınır, Nakliye Deposu’ndakiler asla.
 - **Nasıl**: **geminin park halinde olması** gerekir. Aktarım anlıktır: Cevher Bölmesi’nin sayfasında cevheri seç, bir miktar yaz ya da Maks. düğmesine bas, sonra **Taşı** düğmesine bas. Sayfa neyi taşıdığını ve deponun kapasitesine göre ne tuttuğunu gösterir.
 - **Kota**: seviye, saatte ne kadar cevher taşıyacağını belirler, **1. seviyede 30, 20. seviyede 960**; bir günlük miktarına kadarını saklar (1. seviyede 720, 20. seviyede 23.040). Yeni bir Cevher Bölmesi tam bir günlük kotayla başlar ve yükseltme depolananı korur. Bir aktarım, taşıdığın cevhere, Kaynak Deposu’nda kalan yere ve kotaya göre kesilir ve hangisi olduğunu söyler. Bir günlük kota, aynı seviyede Kaynak Deposu’nun bir cevherden tuttuğunun yaklaşık üç katıdır; bu yüzden bir aktarımı çoğunlukla yer yetersizliği durdurur; kota yalnızca cevheri bir gün içinde depoya defalarca aktarırsan önem taşır.
+- **Hauler**: **Hauler** olarak tutulan bir [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) kotayı 1 saat boyunca kaldırır. Bölme o sürede kargonun ve Kaynak Deposu’ndaki yerin izin verdiği kadar taşır; biriktirdiği kota olduğu gibi kalır.
 - **Güç**: 1. seviyede 15, seviye başına %10 artar (20. seviyede 92). Kapatılabilir. Güç kesintisinde, kapalıyken ve yükseltilirken hiçbir şey taşımaz.
 - **İnşa**: 5.000 kredi, 250 Thulium ve 10 Ship Fragment (envanterinden, geminin park halindeyken), yalnızca Çekirdek 2’de. Yükseltmeleri Kaynak Deposu’nunkiyle aynı fiyatta ve aynı sürededir (bkz. aşağıdaki tablolar).
 - **Daha fazla cevhere giden bir yol değil**: zaten elinde olan cevheri taşır. Ekskavatörün bir çalışması kaynağında sınırlıdır ve deponun kendi kapasitesi de depoyu sınırlar.
@@ -526,6 +528,7 @@ Klanındaki pilotlar birbirlerinin Skylab’larının nerede olduğunu görür: 
 - **İnşa**: her modül tek tek inşa edilir. Bir modül inşa edildiği anda 1. seviyededir; yükseltmek üretimini (ya da ürettiği gücü) ve deposunu, bir de güç maliyetini artırır.
 - **Süre ve maliyet**: yükseltmeler kredi ve Thulium tutar ve zaman alır; her modülün her seviye için kendi fiyatı ve süresi vardır (sonrakini görmek için **Yükselt** düğmesinin üzerine gel; toplamlar aşağıdadır). Fiyat, yükseltmeyi başlattığında ödenir. Maliyet süreye bağlı değildir. Motor, Savunma ve Radar Modülleri ayrıca Dark Matter Plate ister ve seviyenin teknolojisini gerektirir (bkz. [İkinci köprü ve Çekirdek 3](#the-second-bridge-and-core-3)).
 - **Sayaçlar**: bir yükseltme sunucunun saatiyle işler; bu yüzden sen yokken biter, gerekirse günler sonra. Başlat, çıkış yap, geri gel: Skylab sayfasını açtığında modül yeni seviyesindedir.
+- **Yükseltmeyi hızlandırma**: bir [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) süren bir yükseltmeyi hemen bitirir, **Engineer** olarak tutulan bir [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) ise yükseltmeleri 1 saat boyunca iki kat hızlı ilerletir. İkisi de bir şey geri vermez ya da tahsil etmez: bedel, yükseltme başlarken ödenmişti.
 - **Yükseltme süreleri**: ilk seviyeler hızlıdır, sonuncular 37 saate kadar sürer, Çekirdeğinki 6 güne kadar (bkz. aşağıdaki tablolar). Her modülün kendi sayacı vardır, bu yüzden birkaçını aynı anda yükseltebilirsin.
 - **Üretim duraklaması**: bir modül yükseltilirken çevrimdışıdır: hiçbir şey üretmez ve güç kullanmaz. Güneş Paneli istisnadır: gücünün dörtte birini üretmeye devam eder (aşağıya bak).
 - **Güneş Paneli yükseltilirken gücünün yalnızca %25 kadarını üretir**: Skylab’ın tüm gücünü Güneş Paneli üretir ve yükseltilirken (son seviye için 24 saat) **mevcut** seviyesindeki gücün dörtte birini üretir; yeni seviyenin gücü yükseltmenin bittiği anda devralır. Dolu bir istasyon, Güneş Paneli’nin kendi seviyesinde ürettiğinin yaklaşık %90’ını kullanır; bu yüzden onun dörtte biri yalnızca Güneş Paneli’nden beş ila altı seviye düşük bir istasyonu taşır. Aksi halde her çiftlik ve toplayıcı tüm yükseltme boyunca durur, depoladıkların kalır ve toplanabilir, Dökümhane de yeni parti başlatmaz. Yükseltilen veya kapalı bir modül güç kullanmaz; bu yüzden çiftlikleri Güneş Paneli ile birlikte yükseltmek fazladan bir şeye mal olmaz ve modülleri kapatmak diğerlerine yer açar; Thulium Çiftliği açık arayla en çok gücü kullanır.
@@ -686,7 +689,7 @@ Her çiftlik ve toplayıcının ürettiğinin yaklaşık 72 saati için bir hazn
 
 Skylab asla sıfırlanmaz: modüller seviyelerini korur, Kaynak Deposu cevherini korur ve Araştırma Merkezi teknolojilerini, bilim deposunu, tuttuğu Dark Matter miktarını ve süren bir araştırmayı korur. Envanterindeki plakalar diğer her eşya gibidir, bu yüzden [sıfırlama kurallarına](/wiki/03-Mechanics/Wipe-Timeline.md) tabidir. Cephane Yazıcısı ve Roket Fabrikası seviyelerini, neyi üretmeye ayarlı olduklarını ve tuttuklarını korur; Cevher Bölmesi seviyesini ve kotasını korur. Sefer’in dört modülü de teknolojileriyle birlikte seviyelerini korur; şarjör ve besleme anahtarı da öyle. Envanterindeki cevher her eşya gibi sıfırlanır: önce onu Kaynak Deposu’na taşı.
 
-Bir **sefer** sıfırlama anında kapatılır ve hesabı görülür: süren bir sefer biter, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır (ganimeti, diğer her boşta eşya gibi silinir) ve Skylab yeni sezona evde, şirketinin limanında, yeni bir evren haritasıyla, bilinen 19 başlangıç hücresiyle ve boş Radar kuyruğuyla başlar. Motor ve Savunma Modüllerine takılı motorlar ve lazerler diğerleri gibi boşta eşyalardır: korumak için onları çıkar ve Nakliye Deposu’na koy.
+Bir **sefer** sıfırlama anında kapatılır ve hesabı görülür: süren bir sefer biter, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır (ganimeti, diğer her boşta eşya gibi silinir; kredi ve Thulium, [üst sınırlar](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) uygulanmadan önce cüzdanına girer) ve Skylab yeni sezona evde, şirketinin limanında, yeni bir evren haritasıyla, bilinen 19 başlangıç hücresiyle ve boş Radar kuyruğuyla başlar. Motor ve Savunma Modüllerine takılı motorlar ve lazerler diğerleri gibi boşta eşyalardır: korumak için onları çıkar ve Nakliye Deposu’na koy.
 
 ## Skylab’ını planlama {#planning-your-skylab}
 

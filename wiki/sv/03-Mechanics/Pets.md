@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -26,7 +26,7 @@ En **P.E.T.** (Personal Escort Technology) är en liten följeslagare som flyger
 
 ## P.E.T. Station {#the-station}
 
-Stationen är en **extra**. Tre föremål, **P.E.T. Station I, II och III**, forskas fram i [forskningscentret](/wiki/03-Mechanics/Research.md) (3 timmar, 10 timmar och 1 dag, ingen Dark Matter) och tillverkas i Monteringen efter varandra. Du **monterar** en i en extraplats, som en [Cloaking CPU](/wiki/06-Items/Extras.md), och den ger plats för **2, 3 och 5** dockade P.E.T.s. Vad var och en kostar finns i [föremålsträdet](/wiki/06-Items/Extras.md#item-tree) hos Extrautrustning. Stationen finns kvar över wipen, och dess forskning också.
+Stationen är en **extra**. Tre föremål, **P.E.T. Station I, II och III**, forskas fram i [forskningscentret](/wiki/03-Mechanics/Research.md) (3 timmar, 10 timmar och 1 dag, ingen Dark Matter) och tillverkas i Monteringen efter varandra: Station I av delar, **Station II genom att uppgradera en Station I** och **Station III genom att uppgradera en Station II**. En uppgradering förbrukar stationen under, som måste ligga löst i ditt inventarie (inte monterad på ett skepp och inte i [Transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)), och kräver dessutom resten av priset, så de tre tillverkningarna tillsammans kostar vad en Station III är värd, en enda gång. Du **monterar** en i en extraplats, som en [Cloaking CPU](/wiki/06-Items/Extras.md), och den ger plats för **2, 3 och 5** dockade P.E.T.s. Vad var och en kostar finns i [föremålsträdet](/wiki/06-Items/Extras.md#item-tree) hos Extrautrustning. Stationen finns kvar över wipen, och dess forskning också.
 
 - **Bara skeppet som flyger med den.** Dina P.E.T.s räknas på skeppet du flyger om en Station är monterad i konfigurationen du flyger. En Station i ditt inventarie, i den andra konfigurationen eller på ett annat skepp gör ingenting; byter du konfiguration eller skepp följer P.E.T.s med direkt.
 - **PÅ och AV.** Slå om Stationen med platsen **PET** i snabbfältet (dra den dit från extraväljaren). **PÅ**: de första 2, 3 eller 5 av dina dockade P.E.T.s ger sina boosts, samlar erfarenhet och arbetar. **AV**: inget av det, och ingen drönare ritas. Platsen visar **PÅ** eller **AV**. Strömbrytaren är din och finns kvar över starter och inloggningar; en Station du aldrig har slagit om är PÅ. Det går en sekund mellan två tryck.

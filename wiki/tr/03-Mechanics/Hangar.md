@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # Uçuşta Hangar {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ Kütüphane’nin **Build’ler** sayfası, gemilerinden birinde takılı olanla
 Geçtiğin gemi, onunla en son uçtuğunda sahip olduğu **gövde ve kalkanla** gelir; tıpkı onunla yeni uçuşa çıkmışsın gibi. Halka onarım yapmaz, bu yüzden gemi değiştirmek seni asla iyileştirmez: bıraktığın gemi aldığı hasarı korur ve geri döndüğünde hasarıyla gelir. Yok edilmiş bir gemiyle, canlandırana kadar uçulamaz; canlandırma ücretsizdir ve gemiyi en fazla 10.000 gövde ve kalkansız olarak, yeniden doğmada olduğu gibi geri getirir.
 
 Senin olan senin kalır: cephanen, roketlerin ve zamanlayıcıları, yeteneklerinin bekleme süreleri, boosterların, deneyim puanın ve Slave Drone eşyaların. Gemiye ait olanlar sona erer: çalışan bir Shield Surge ya da Afterburner, onarımlar, hedefe kilitlenmen, saldırın ve izlediğin rota. Takılı eşyalar, takıldıkları gemide kalır.
+
+## Sıfırlama ve gemilerin {#the-wipe-and-your-ships}
+
+Sıfırlama **sahip olduğun her gemiyi** gövdesi dolu ve kalkanı boş olarak korur. Hangi geminin üzerindekini koruduğuna [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) karar verir.
+
+Depoda kilitlediğin tek gemi teçhizatını korur ve sıfırlamadan sonra aktif geminin olur; hiçbiri kilitli değilse aktif geminin teçhizatını korur. Kilitli bir gemi Hangar’da bir kilitle işaretlenir ve sıfırlamaya kadar donatılamaz, söküp alınamaz, dönüştürülemez ya da uçurulamaz. Sezonun 26. gününden itibaren her gemi kartı, geminin sıfırlamada teçhizatını koruyup korumadığını ya da boşaltılıp boşaltılmadığını söyler.
 
 ## Diğer araçlardan gelen istekler {#requests-from-other-tools}
 

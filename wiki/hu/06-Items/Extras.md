@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merő
 - **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
 - **Az idegenek nem kerülik meg.** Átrepülnek rajta és égnek, vagy a saját oldalukon állva lőnek a falra.
 - **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul. A helyeden egy szám a szintjének megmaradt falait is számolja.
-- **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **250 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A rakétákhoz hasonlóan a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
+- **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **250 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A tizenkét rakétával ellentétben, amelyekből típusonként 1 000 magától átkerül, a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
 
 ## A Kutatóközpont CPU-i {#research-cpus}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario y equipamiento {#inventory-equipment}
 
@@ -28,7 +28,7 @@ El inventario enumera tus objetos en el mismo orden que la tienda, sea cual sea 
 
 ## Objetos comercializables {#marketable-items}
 
-Los objetos que has ganado (botín, recompensas de misiones y lo que fabrican el Ensamblaje y la Forja) llevan una pequeña etiqueta **Comercializable** en su casilla, y la tarjeta del objeto dice «Comercializable» o, en una pila de la que solo se pueden vender algunas unidades, «Comercializable (3 de 5)». El chip **Solo comercializable**, junto a los chips de categoría, muestra solo esos objetos. Un **martillo** junto a la papelera de un objeto con etiqueta abre la hoja de venta de la [Subasta](/wiki/03-Mechanics/Auction.md) (en vuelo no se muestra: vender es una página de la estación). Lo que has comprado, ganado o te han regalado no lleva etiqueta y no se puede volver a vender.
+Los objetos que has ganado (botín, recompensas de misiones y lo que fabrican el Ensamblaje y la Forja) llevan una pequeña etiqueta **Comercializable** en su casilla, y la tarjeta del objeto dice «Comercializable» o, en una pila de la que solo se pueden vender algunas unidades, «Comercializable (3 de 5)». El chip **Solo comercializable**, junto a los chips de categoría, muestra solo esos objetos. Un **martillo** junto a la papelera de un objeto con etiqueta abre la hoja de venta de la [Subasta](/wiki/03-Mechanics/Auction.md) (en vuelo no se muestra: vender es una página de la estación). Lo que has comprado, ganado o te han regalado no lleva etiqueta y no se puede volver a vender, y lo mismo vale para todo lo que da un [contenedor](/wiki/06-Items/Containers.md).
 
 ## Seleccionar varios objetos {#select-several-items}
 

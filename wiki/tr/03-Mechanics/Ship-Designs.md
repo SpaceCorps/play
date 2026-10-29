@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a91659443751cfdb -->
+<!-- wiki-i18n source: 13ea8d311ddbcead -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
@@ -71,7 +71,7 @@ Birlikte, diğer tüm teknolojilerin istediği 749’e ek olarak 490 Dark Matter
 - **Lazerler yuvasını kaybedebilir.** Daha az lazer yuvası olan bir tasarım (BUCKY, RECON, DUMA, ATARAXIS), yuvası ortadan kalkan lazerleri amfileri ve Demirhane bonuslarıyla birlikte envanterine geri gönderir. Yeni bir yuva boş gelir.
 - **Bittiğinde gövde ve kalkan tamdır.** O zamana kadar gemi kilitlidir: aktif yapılamaz, donatılamaz ve yeniden dönüştürülemez.
 - **Geri dönüş yok.** Başka bir tasarımı ya da özgün gemiyi yeniden elde etmek için gemiyi Montaj’da yeniden üret. Her türden yalnızca bir gemin olabilir; yani bir Paragon ile bir THUNDER aynı anda senin olabilir, iki THUNDER olamaz.
-- **Sıfırlamada** bir tasarım, sahip olduğun her gemi gibi korunur.
+- **Sıfırlamada** bir tasarım, sahip olduğun her gemi gibi korunur. Hâlâ süren bir dönüşüm, üretim kuyruğundaki her üretim gibi iptal edilir ve iade edilir: gemi eskisi gibi kalır.
 
 ## Görünüm ve boyut {#looks-and-size}
 

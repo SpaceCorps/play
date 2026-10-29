@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -26,7 +26,7 @@ Bir **P.E.T.** (Personal Escort Technology), geminin yanında uçan ve ona bonus
 
 ## P.E.T. Station {#the-station}
 
-P.E.T. Station bir **ekstra eşyadır**. Üç eşya, **P.E.T. Station I, II ve III**, [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nde araştırılır (3 saat, 10 saat ve 1 gün, Dark Matter gerekmez) ve Montaj’da art arda üretilir. Birini, bir [Cloaking CPU](/wiki/06-Items/Extras.md) takar gibi, bir ekstra yuvaya **takarsın** ve **2, 3 ve 5** yanaştırılmış P.E.T. için yer verir. Her birinin maliyeti Ekstralar sayfasının [eşya ağacında](/wiki/06-Items/Extras.md#item-tree) yazılıdır. P.E.T. Station sıfırlamadan sonra da kalır, araştırması da.
+P.E.T. Station bir **ekstra eşyadır**. Üç eşya, **P.E.T. Station I, II ve III**, [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nde araştırılır (3 saat, 10 saat ve 1 gün, Dark Matter gerekmez) ve Montaj’da art arda üretilir: Station I parçalardan, **Station II bir Station I’i yükselterek**, **Station III ise bir Station II’yi yükselterek**. Yükseltme, bir alttaki Station’ı harcar; o Station envanterinde boşta durmalıdır (bir gemiye takılı olmamalı ve [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nda da bulunmamalı) ve ayrıca fiyatının geri kalanını ister; böylece üç üretim birlikte bir Station III’ün değerine, yalnızca bir kez mal olur. Birini, bir [Cloaking CPU](/wiki/06-Items/Extras.md) takar gibi, bir ekstra yuvaya **takarsın** ve **2, 3 ve 5** yanaştırılmış P.E.T. için yer verir. Her birinin maliyeti Ekstralar sayfasının [eşya ağacında](/wiki/06-Items/Extras.md#item-tree) yazılıdır. P.E.T. Station sıfırlamadan sonra da kalır, araştırması da.
 
 - **Yalnızca onunla uçan gemi.** P.E.T.’lerin yalnızca uçtuğun gemide ve yalnızca uçtuğun konfigürasyonda bir Station takılıysa sayılır. Envanterindeki, diğer konfigürasyondaki ya da başka bir gemideki bir Station hiçbir şey yapmaz; konfigürasyon ya da gemi değiştirirsen P.E.T.’ler hemen peşinden gelir.
 - **AÇIK ve KAPALI.** Anahtar kısayol çubuğundaki **PET** yuvasıdır (onu Ekstralar seçicisinden oraya sürükle). **AÇIK**: yanaştırılmış P.E.T.’lerinin ilk 2, 3 ya da 5 tanesi bonuslarını ekler, deneyim kazanır ve çalışır. **KAPALI**: bunların hiçbiri olmaz ve hiçbir dron çizilmez. Yuva **AÇIK** ya da **KAPALI** yazar. Anahtar senindir ve kalkışlarda ve girişlerde korunur; hiç değiştirmediğin bir Station açık sayılır. İki basış arasında bir saniye vardır.

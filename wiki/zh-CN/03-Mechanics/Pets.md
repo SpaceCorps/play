@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -26,7 +26,7 @@
 
 ## P.E.T. Station {#the-station}
 
-Station 是一种**附加装置**。**P.E.T. Station I、II 和 III** 三件物品在[研究中心](/wiki/03-Mechanics/Research.md)研究（3 小时、10 小时和 1 天，不需要 Dark Matter），并在装配站依次制造。你像装备 [Cloaking CPU](/wiki/06-Items/Extras.md) 一样把其中一件**装备**到附加槽位中，它就为 **2、3 和 5** 只已对接的 P.E.T. 提供位置。每一件的花费见 Extras 的[物品树](/wiki/06-Items/Extras.md#item-tree)。Station 会留过重置，它的研究也一样。
+Station 是一种**附加装置**。**P.E.T. Station I、II 和 III** 三件物品在[研究中心](/wiki/03-Mechanics/Research.md)研究（3 小时、10 小时和 1 天，不需要 Dark Matter），并在装配站依次制造：Station I 用零件制造，**Station II 由一件 Station I 升级而来**，**Station III 由一件 Station II 升级而来**。升级会用掉下一级的 Station，它必须是散放在你物品栏里的（不能装备在飞船上，也不能放在[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)里），此外还要付价格的其余部分，所以三次制造加起来只相当于一个 Station III 的价值。你像装备 [Cloaking CPU](/wiki/06-Items/Extras.md) 一样把其中一件**装备**到附加槽位中，它就为 **2、3 和 5** 只已对接的 P.E.T. 提供位置。每一件的花费见 Extras 的[物品树](/wiki/06-Items/Extras.md#item-tree)。Station 会留过重置，它的研究也一样。
 
 - **只有与它一同飞行的飞船。** 你的 P.E.T. 只在你驾驶的飞船上计入，前提是你正在使用的配置里装备了 Station。物品栏里的、另一套配置里的或另一艘飞船上的 Station 什么也不做；换配置或换飞船，P.E.T. 立刻跟上。
 - **开启与关闭。** 用快捷栏的 **PET** 槽位切换 Station（从“附加装置”选择器把它拖到那里）。**开启**：你已对接的 P.E.T. 中的前 2、3 或 5 只提供加成、获得经验并工作。**关闭**：这些都没有，也不会画出无人机。槽位显示**开**或**关**。这个开关归你所有，会保留在多次出击和登录之间；你从未切换过的 Station 是开启的。两次按下之间相隔一秒。

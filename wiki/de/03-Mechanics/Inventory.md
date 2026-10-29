@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
@@ -28,7 +28,7 @@ Das Inventar listet deine Gegenstände in derselben Reihenfolge wie der Shop auf
 
 ## Handelbare Gegenstände {#marketable-items}
 
-Gegenstände, die du verdient hast (Beute, Missionsbelohnungen und alles, was die Montage und die Schmiede herstellen), tragen auf ihrer Kachel ein kleines Etikett **Handelbar**, und die Gegenstandskarte zeigt „Handelbar“ oder, bei einem Stapel, von dem nur ein Teil verkauft werden kann, „Handelbar (3 von 5)“. Der Chip **Nur Handelbares** neben den Kategorie-Chips zeigt nur diese Gegenstände. Ein **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der [Auktion](/wiki/03-Mechanics/Auction.md) (im Flug wird er nicht angezeigt: Verkaufen ist eine Seite der Station). Was du gekauft, gewonnen oder geschenkt bekommen hast, trägt kein Etikett und kann nicht wieder verkauft werden.
+Gegenstände, die du verdient hast (Beute, Missionsbelohnungen und alles, was die Montage und die Schmiede herstellen), tragen auf ihrer Kachel ein kleines Etikett **Handelbar**, und die Gegenstandskarte zeigt „Handelbar“ oder, bei einem Stapel, von dem nur ein Teil verkauft werden kann, „Handelbar (3 von 5)“. Der Chip **Nur Handelbares** neben den Kategorie-Chips zeigt nur diese Gegenstände. Ein **Auktionshammer** neben dem Mülleimer eines markierten Gegenstands öffnet das Verkaufsblatt der [Auktion](/wiki/03-Mechanics/Auction.md) (im Flug wird er nicht angezeigt: Verkaufen ist eine Seite der Station). Was du gekauft, gewonnen oder geschenkt bekommen hast, trägt kein Etikett und kann nicht wieder verkauft werden, und das gilt auch für alles, was ein [Container](/wiki/06-Items/Containers.md) ergibt.
 
 ## Mehrere Gegenstände auswählen {#select-several-items}
 

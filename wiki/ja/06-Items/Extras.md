@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: エクストラ -->
 # エクストラ {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ WAL スロットを押すと、**カーソルの位置**に、艦からカーソ
 - **撃破。** 壁に破壊された艦は放射線で死亡し、撃破は15秒以内に最後に命中させた敵パイロットのものになります（いれば）。壁を立てた本人は、自分で撃っていないものについては何も得られません。壁に破壊されたエイリアンは何も払い出しません。報酬も戦利品もありません。
 - **エイリアンは迂回しない。** 壁を通り抜けて燃えるか、自分の側に立ったまま壁を撃ちます。
 - **見た目。** 青白い光の帯に、明るい筋が走り、両端に光の柱が立ちます。弾が当たると光り、ほぼ尽きるとちらつきます。レベル2の壁は代わりに黄色く光り、芯が太く明るくなり、輝きも強くなりますが、帯の幅はレベル1の壁と同じ10ユニットです。そばの細い体力バーは短くなり、琥珀色、次に赤に変わります。スロットでは壁の残り寿命が弧、待ち時間が影で表示されます。立てた壁は光ってせり上がり、撃破された壁は火花になって崩れ、時間切れの壁は薄れて消えます。スロットの数字は、そのレベルの残りの壁の数も表します。
-- **入手と持ち運び。** Energetic Wall I はショップで1枚 **250 Thulium** で、1つのスタックに最大 **20** まで持てます（[オークション](/wiki/03-Mechanics/Auction.md)に出品中の分も数えます）。Energetic Wall II は、研究センターで研究したあと、アセンブリで**1回の製作につき1枚**、**600 Thulium**、Ship Fragment 5個、Power Core 1個から作ります（通常速度で6時間：[研究](/wiki/03-Mechanics/Research.md)）。最大 **10** まで持てます。ロケットと同じく、持っている壁はシーズン終了で失われますが、トランスポートキャッシュに入れておけば残ります。キャッシュの中の壁は使えません。自分で作った Energetic Wall II はオークションで売れますが、ショップで売っている Energetic Wall I は売れません。
+- **入手と持ち運び。** Energetic Wall I はショップで1枚 **250 Thulium** で、1つのスタックに最大 **20** まで持てます（[オークション](/wiki/03-Mechanics/Auction.md)に出品中の分も数えます）。Energetic Wall II は、研究センターで研究したあと、アセンブリで**1回の製作につき1枚**、**600 Thulium**、Ship Fragment 5個、Power Core 1個から作ります（通常速度で6時間：[研究](/wiki/03-Mechanics/Research.md)）。最大 **10** まで持てます。1種類につき1,000発が自動的に持ち越される12種のロケットと違い、持っている壁はシーズン終了で失われますが、トランスポートキャッシュに入れておけば残ります。キャッシュの中の壁は使えません。自分で作った Energetic Wall II はオークションで売れますが、ショップで売っている Energetic Wall I は売れません。
 
 ## 研究センターの CPU {#research-cpus}
 

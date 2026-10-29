@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: 外观装饰 -->
 # 外观装饰 {#cosmetics}
 
@@ -7,7 +7,7 @@
 **外观**就是你的飞船穿在身上的东西。它有四个部分：**皮肤**（船体的涂装）、**光环**（飞船周围的柔和光晕）、**尾焰**（引擎后面拖出的轨迹的颜色和形状）和你的无人机的**涂装**。外观只是装饰：它不增加伤害、船体或速度，不占用槽位，也不改变弹药能命中的任何东西。
 
 > [!NOTE]
-> **目前还不能购买或赚取任何外观。** 眼下每一种外观都由管理员发放。机库会把你没有的外观标为“暂时无法获得”，当你收到一件时，会有提示，并响起一声轻柔的提示音。
+> **外观无法购买。** 重置会向最高的几个军衔发放赛季外观（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)）。 部分外观可以在容器“[色彩档案库 (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)”中找到，其余由管理员发放。管理员给你外观时，会有提示，并响起一声轻柔的提示音；你在容器中得到的外观会显示在结果卡片上。
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@
 皮肤是用舰船自己的船体做出的涂装方案：面板线条、编号和条纹都保留，只有颜色改变。它适用于一种**舰船型号**，该型号的所有舰船和由它制作的每一种[设计](/wiki/03-Mechanics/Ship-Designs.md)都穿同一款皮肤；改装后外观保持不变。Protos 目前没有皮肤，Kitefin、Ostirion 和 Nomad 有一个系列，你在装配站制造的四艘舰船则拥有全部十个。
 
 皮肤属于你的**账号**，而不是某一艘舰船，并且能留过[重置](/wiki/03-Mechanics/Wipe-Timeline.md)；你的舰船会继续穿着它们原来穿的东西。
+
+[色彩档案库](/wiki/06-Items/Containers.md#chroma-archive)可以给出除 Bloody R.E.D 之外的所有系列，并且一次给出整个系列：你尚未拥有的该系列所有皮肤。
 
 | 系列 | 舰船 | 稀有度 | 样子 |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@
 - **脱下外观。** 皮肤标签页的**默认**图块让飞船恢复默认涂装，**无**则取下光环。
 - **不止一艘舰船。** 页面底部的开关，皮肤为**同时应用于我的其他同型号飞船**，光环或尾焰为**同时应用于我的其他飞船**，开启后一次点击就会把外观穿到所有这些飞船上。
 - **在哪里可以更改。** 在你可以更换装备的地方：停靠中，或在保护生效的安全区内，与[飞行中的机库](/wiki/03-Mechanics/Hangar.md#when-it-is-open)相同。
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+你没有的外观，即使有容器能给出，也显示**暂时无法获得**：机库不会指明是哪个容器。
+
+<!-- containers-wardrobe:end -->
 
 ## 稀有度 {#rarity}
 

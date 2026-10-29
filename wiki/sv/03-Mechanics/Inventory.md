@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventarie -->
 # Inventarie och utrustning {#inventory-equipment}
 
@@ -28,7 +28,7 @@ Inventariet listar dina föremål i samma ordning som butiken, oavsett i vilken 
 
 ## Säljbara föremål {#marketable-items}
 
-Föremål du har förtjänat (byte, uppdragsbelöningar och det som Monteringen och Smedjan tillverkar) har en liten **Säljbart**-etikett på rutan, och föremålskortet säger ”Säljbart” eller, för en hög där bara en del kan säljas, ”Säljbart (3 av 5)”. Knappen **Endast säljbart** vid kategoriknapparna visar bara de föremålen. En **klubba** bredvid papperskorgen på ett märkt föremål öppnar säljbladet i [Auktionen](/wiki/03-Mechanics/Auction.md) (den visas inte i flykt: att sälja är en sida på stationen). Det du har köpt, vunnit eller fått i present har ingen etikett och kan inte säljas igen.
+Föremål du har förtjänat (byte, uppdragsbelöningar och det som Monteringen och Smedjan tillverkar) har en liten **Säljbart**-etikett på rutan, och föremålskortet säger ”Säljbart” eller, för en hög där bara en del kan säljas, ”Säljbart (3 av 5)”. Knappen **Endast säljbart** vid kategoriknapparna visar bara de föremålen. En **klubba** bredvid papperskorgen på ett märkt föremål öppnar säljbladet i [Auktionen](/wiki/03-Mechanics/Auction.md) (den visas inte i flykt: att sälja är en sida på stationen). Det du har köpt, vunnit eller fått i present har ingen etikett och kan inte säljas igen, och det gäller även allt som en [container](/wiki/06-Items/Containers.md) ger.
 
 ## Markera flera föremål {#select-several-items}
 

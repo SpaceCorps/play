@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -29,6 +29,8 @@
 - **Ниже 10-го уровня ядра** исследовать нельзя, так что в Сборочном цехе пока ничего нового не создать. Миссии станции помогут поднять ядро.
 
 <!-- research-centre:end -->
+
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (135 из 151 технологии). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
 
 **Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует четыре пластины и одну Ancient Control Unit: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 - **Запечатанный чёрный ход** повышает лимит ракет в трюме для каждого вида, где бы вы их ни покупали, ни создавали и ни обменивали.
 - **Добыча экскаватором** увеличивает то, что вы берёте из каждого ящика [гигантского экскаватора](/wiki/03-Mechanics/Giant-Excavator.md), и Thulium, и руды.
 - **Теория поля** увеличивает долю каждого попадания, которую поглощают ваши щиты. Кораблю без щита это ничего не даёт.
-- **Дремлющее знание** выплачивает очки вайпа один раз за каждый уровень, когда его исследование завершается в Центре. Помимо предыдущего уровня, оно требует доли остальных изученных технологий (технологии семейства Пилот считаются, пять уровней «Дремлющего знания» — нет), как бы вы их ни получили; в таблице указана каждая доля и сколько это технологий.
+- **Дремлющее знание** выплачивает очки вайпа за каждый уровень, когда его исследование завершается в Центре, и снова после каждого вайпа ([Как заработать очки вайпа](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Помимо предыдущего уровня, оно требует доли остальных изученных технологий (технологии семейства Пилот считаются, пять уровней «Дремлющего знания» — нет), как бы вы их ни получили; в таблице указана каждая доля и сколько это технологий.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

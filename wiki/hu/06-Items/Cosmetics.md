@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Kozmetika -->
 # Kozmetika {#cosmetics}
 
@@ -7,7 +7,7 @@
 A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs festése), egy **aura** (puha fény a hajó körül), egy **kipufogó** (a hajtóművek mögötti csóva színe és alakja) és a drónjaid **festése**. A kinézet csak látvány: nem ad sebzést, páncélt vagy sebességet, nem foglal helyet, és semmin nem változtat, amit egy lövés eltalálhat.
 
 > [!NOTE]
-> **Még semmit nem lehet venni vagy szerezni.** Egyelőre egy admin ad ki minden kinézetet. A hangár „Még nem szerezhető meg” felirattal jelöli azokat, amelyek nincsenek meg neked, és amikor kapsz egyet, egy üzenet szól róla, és egy halk csengés hallatszik.
+> **A kinézeteket nem lehet megvenni.** A wipe a legmagasabb rangok szezonális kinézeteit adja ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Néhány kinézet a [Króma-archívum (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive) nevű konténerben található, a többit egy admin adja ki. Amikor egy admin ad neked egy kinézetet, egy üzenet szól róla, és egy halk csengés hallatszik; amit a konténerben nyersz, azt az eredménykártya mutatja.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs
 A skin a hajó saját törzséből készült festési séma: a panelvonalak, a számok és a csíkok megmaradnak, csak a színek változnak. Egy **hajótípusra** szól, és ugyanazt a skint viseli minden ilyen típusú hajód és minden belőle készült [dizájn](/wiki/03-Mechanics/Ship-Designs.md); az átalakítás megtartja a kinézetet. A Protosnak még nincs skinje, a Kitefinnek, az Ostirionnak és a Nomadnak egy kollekciója van, a négy hajónak, amelyet a Gyártásban építesz, mind a tíz.
 
 A skinek a **fiókodhoz** tartoznak, nem egy hajóhoz, és átvészelik a [wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md); a hajóid azt viselik, amit viseltek.
+
+A [Króma-archívum](/wiki/06-Items/Containers.md#chroma-archive) bármelyik gyűjteményt adhatja a Bloody R.E.D kivételével, és egy egész gyűjteményt ad egyszerre: annak minden skinjét, amely még nincs meg neked.
 
 | Kollekció | Hajók | Ritkaság | Hogy néz ki |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ Az aura a célbavételt jelző gyűrűn belül marad, és minden másnál alulra
 - **Kinézet levétele.** A Skin fül **Alap** csempéje visszaadja a hajó sima festését, a **Nincs** pedig leveszi az aurát.
 - **Több hajó.** A lap alján a kapcsoló, a skinnél az **Alkalmazás a többi ilyen típusú hajómra is**, az auránál vagy a kipufogónál az **Alkalmazás a többi hajómra is**, egyetlen kattintással mindegyikre felteszi a kinézetet.
 - **Hol változtathatod.** Ahol a felszerelésedet is: dokkolva, vagy biztonságos zónában bekapcsolt védelemmel, mint a [Hangár](/wiki/03-Mechanics/Hangar.md#when-it-is-open) cikkben.
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Az a kinézet, amely nincs meg neked, ezt a feliratot mutatja akkor is, ha egy konténer adhatja: **Még nem szerezhető meg**. A hangár nem nevezi meg a konténert.
+
+<!-- containers-wardrobe:end -->
 
 ## Ritkaság {#rarity}
 

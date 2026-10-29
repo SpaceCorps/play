@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -26,7 +26,7 @@
 
 ## P.E.T. Station {#the-station}
 
-Station は**エクストラ**です。**P.E.T. Station I、II、III** の3つのアイテムを[研究センター](/wiki/03-Mechanics/Research.md)で研究し（3時間、10時間、1日、Dark Matter は不要）、アセンブリで順に製作します。[Cloaking CPU](/wiki/06-Items/Extras.md) と同じようにエクストラ枠に**装備**すると、ドッキングできる P.E.T. の枠は**2体、3体、5体**になります。それぞれの費用は Extras の[アイテムツリー](/wiki/06-Items/Extras.md#item-tree)にあります。Station はワイプを越えて残り、研究も残ります。
+Station は**エクストラ**です。**P.E.T. Station I、II、III** の3つのアイテムを[研究センター](/wiki/03-Mechanics/Research.md)で研究し（3時間、10時間、1日、Dark Matter は不要）、アセンブリで順に製作します。Station I は素材から作り、**Station II は Station I のアップグレード**、**Station III は Station II のアップグレード**で作ります。アップグレードは下位の Station を使い切ります。その Station はインベントリにばらで入っている必要があり（船に装備中のものや[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)の中のものは使えません）、さらに価格の残りの分も必要です。そのため3つを順に作る費用は、Station III の価値1つ分です。[Cloaking CPU](/wiki/06-Items/Extras.md) と同じようにエクストラ枠に**装備**すると、ドッキングできる P.E.T. の枠は**2体、3体、5体**になります。それぞれの費用は Extras の[アイテムツリー](/wiki/06-Items/Extras.md#item-tree)にあります。Station はワイプを越えて残り、研究も残ります。
 
 - **それと一緒に飛ぶ艦だけ。** P.E.T. が数えられるのは、あなたが操縦している構成に Station が装備されている艦です。インベントリにある Station、もう一方の構成や別の艦にある Station は何もしません。構成や艦を切り替えると、P.E.T. はすぐについてきます。
 - **ON と OFF。** Station はホットバーの **PET** スロットで切り替えます（Extras のピッカーからドラッグして置きます）。**ON**：ドッキング中の P.E.T. のうち最初の2体、3体、5体がブーストを与え、経験値を得て、働きます。**OFF**：そのどれもなく、ドローンも描かれません。スロットには **ON** か **OFF** が表示されます。切り替えはあなたのもので、出撃やログインをまたいで残り、一度も切り替えていない Station は ON です。2回の押下の間には1秒あります。

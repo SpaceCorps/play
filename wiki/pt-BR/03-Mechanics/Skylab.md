@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 - **Mina de créditos**: produz créditos ao longo do tempo: **2.250 por hora no nível 1, 225.000 no nível 20** (nível 5: 11.250; nível 10: 33.750; nível 15: 76.500). Construí-la não custa nada.
 - **Mina de Thulium**: produz Thulium ao longo do tempo: **40 por hora no nível 1, 1.280 no nível 20** (nível 5: 144; nível 10: 360; nível 15: 760). Construí-la custa 5.000 créditos e 500 Thulium.
 - Ambas precisam de energia, e cada uma guarda 72 horas do que produz até você coletar.
+- Uma [Philosopher's Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) faz as duas minas produzirem o dobro por 10 horas, e um [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Foreman** faz o mesmo com todos os produtores por 1 hora. O extra vai para o armazenamento, então colete antes que ele encha.
 
 ## A cadeia de suprimentos {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Quatro módulos transformam o tempo longe do teclado nas placas para os seus mel
 - **Limite**: um dia da produção do coletor dele no nível 1, até quatro dias no nível 20. O armazenamento de um coletor guarda três dias, então, a partir do nível 13, o depósito comporta pelo menos um armazenamento cheio.
 - **Acima do limite**: se um depósito tem mais do que o seu limite (o pagamento da atualização 0.4.10 pode tê-lo deixado assim), nada é tirado, mas Coletar não acrescenta mais desse minério até você ter gastado um pouco.
 - O minério entra coletando de um coletor ou, do seu inventário, pela [Baía de minério](#ore-bay), e só sai para a Forja e o Centro de Pesquisa. Ele nunca volta ao seu inventário.
-- **O minério guardado permanece** no reset da temporada.
+- **O minério guardado permanece** no reset da temporada e não ocupa espaço no [Cache de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Energia**: 10 no nível 1, crescendo 10% por nível. Ele não pode ser desligado.
 
 ### Forja {#forgery}
@@ -226,6 +227,7 @@ A Baía de minério move para o Depósito de recursos o minério que você carre
 - **Em um só sentido**: do seu inventário para o Depósito de recursos, nunca de volta. Só o minério solto no seu inventário é movido, nunca o do Cache de Transporte.
 - **Como**: a sua **nave precisa estar pousada**. A transferência é instantânea: na folha da Baía de minério escolha o minério, digite uma quantidade ou aperte Máx. e aperte **Mover**. A folha mostra o que você carrega e o que o banco guarda frente à sua capacidade.
 - **Cota**: o nível define quanto minério ela move por hora, **30 no nível 1, 960 no nível 20**, e ela guarda até um dia disso (720 no nível 1, 23.040 no nível 20). Uma Baía nova começa com um dia cheio, e uma melhoria mantém o que estava guardado. Uma transferência é cortada no minério que você carrega, no espaço que sobra no Depósito de recursos e na cota, e a folha diz qual. Um dia de cota equivale a cerca de três vezes o que o Depósito de recursos comporta de um minério no mesmo nível; por isso, na maioria das vezes é o espaço que interrompe uma transferência, e a cota só importa se você passar minério pelo depósito várias vezes no mesmo dia.
+- **Hauler**: um [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Hauler** levanta a cota por 1 hora. A Baía passa a mover tudo o que a sua carga e o espaço do Depósito de recursos permitirem, e a cota que ela tinha guardada fica como estava.
 - **Energia**: 15 no nível 1, crescendo 10% por nível (92 no nível 20). Pode ser desligada. Num déficit de energia, enquanto está desligada e enquanto é melhorada, ela não move nada.
 - **Construção**: 5.000 créditos, 250 Thulium e 10 Ship Fragments (do seu inventário, com a nave pousada), só no Núcleo 2. As melhorias custam o que as do Depósito de recursos custam e levam o mesmo tempo (veja as tabelas abaixo).
 - **Não é um caminho para mais minério**: ela move minério que você já tem. Uma rodada da escavadeira é limitada na origem, e a capacidade do Depósito de recursos limita o banco.
@@ -526,6 +528,7 @@ Os pilotos do seu clã veem onde estão os Skylabs uns dos outros: a coluna **Sk
 - **Construção**: cada módulo é construído por conta própria. Um módulo está no nível 1 no instante em que é construído, e melhorá-lo aumenta a produção dele (ou a energia que ele produz) e o armazenamento, e também o que ele custa em energia.
 - **Tempo e custo**: as melhorias custam créditos e Thulium e levam tempo, e cada módulo tem o próprio preço e o próprio tempo para cada nível (passe o mouse sobre **Melhorar** para ver o próximo; os totais estão abaixo). O preço é pago quando você inicia a melhoria. O custo não depende do tempo. Os módulos de motores, de defesa e de radar também exigem Dark Matter Plates e a tecnologia do nível (veja [A segunda ponte e o Núcleo 3](#the-second-bridge-and-core-3)).
 - **Temporizadores**: uma melhoria corre no relógio do servidor, então termina enquanto você está fora, dias depois se for preciso. Comece-a, desconecte, volte: o módulo está no novo nível quando você abre a página do Skylab.
+- **Acelerar uma melhoria**: um [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) conclui na hora uma melhoria em andamento, e um [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Engineer** faz as melhorias andarem em velocidade dobrada por 1 hora. Nenhum dos dois reembolsa nem cobra nada: o preço foi pago quando a melhoria começou.
 - **Tempos de melhoria**: os primeiros níveis são rápidos e os últimos levam até 37 horas, os do Núcleo até 6 dias (veja as tabelas abaixo). Cada módulo tem o seu próprio timer, então você pode melhorar vários ao mesmo tempo.
 - **Pausa na produção**: enquanto um módulo está sendo melhorado, ele fica offline: não produz nada e não usa energia. A Usina solar é a exceção: ela continua produzindo um quarto da sua energia (veja abaixo).
 - **A Usina solar produz só 25% da sua energia enquanto é melhorada**: a Usina solar produz toda a energia do Skylab e, enquanto é melhorada (24 horas no último nível), produz um quarto da energia do nível **atual**; a do novo nível assume no momento em que a melhoria termina. Uma estação completa usa cerca de 90% do que a Usina solar produz no próprio nível, então um quarto disso sustenta uma estação só de cinco a seis níveis abaixo da Usina solar. Caso contrário, toda mina e todo coletor param durante toda a melhoria, o que você guardou continua lá e pode ser coletado, e a Forja não inicia nenhum lote novo. Um módulo em melhoria ou desligado não usa energia, então melhorar as minas junto com a Usina solar não custa nada a mais, e desligar módulos abre espaço para os outros; a Mina de Thulium é, de longe, a que mais consome.
@@ -686,7 +689,7 @@ Cada mina e cada coletor tem um armazenamento para cerca de 72 horas do que prod
 
 O Skylab nunca sofre reset: os módulos mantêm os níveis, o Depósito de recursos mantém o minério e o Centro de Pesquisa mantém as tecnologias, o tanque de ciência, o Dark Matter que contém e uma pesquisa em andamento. As placas do seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md). A Impressora de munição e a Fábrica de foguetes mantêm os níveis, o que estão configuradas para produzir e o que guardam, e a Baía de minério mantém o nível e a cota. Os quatro módulos da Expedição mantêm os níveis também, com as tecnologias, e o mesmo vale para o carregador e a chave da alimentação. O minério do seu inventário sofre reset como qualquer item: mova-o antes para o Depósito de recursos.
 
-Uma **expedição** é acertada até o reset: uma viagem em andamento termina, a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada (o espólio dela é apagado como qualquer item solto), e o Skylab começa a nova temporada em casa, no porto da sua corporação, com um novo mapa do universo, as 19 células iniciais conhecidas e a fila do radar vazia. Os motores e lasers montados nos módulos de motores e de defesa são itens soltos como os outros: retire-os e guarde-os no Cache de Transporte para mantê-los.
+Uma **expedição** é acertada até o reset: uma viagem em andamento termina, a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada (o espólio dela é apagado como qualquer item solto; os créditos e o Thulium chegam à sua carteira antes de os [tetos](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) serem aplicados), e o Skylab começa a nova temporada em casa, no porto da sua corporação, com um novo mapa do universo, as 19 células iniciais conhecidas e a fila do radar vazia. Os motores e lasers montados nos módulos de motores e de defesa são itens soltos como os outros: retire-os e guarde-os no Cache de Transporte para mantê-los.
 
 ## Planejando o seu Skylab {#planning-your-skylab}
 

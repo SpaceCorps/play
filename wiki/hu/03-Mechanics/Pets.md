@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9fd7a945b0296221 -->
+<!-- wiki-i18n source: 02e93765d5216168 -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 
@@ -26,7 +26,7 @@ A **P.E.T.** (Personal Escort Technology) egy kis kísérő, amely a hajód mell
 
 ## A P.E.T. Station {#the-station}
 
-A Station egy **Extra**. Három tárgy, a **P.E.T. Station I, II és III**, a [kutatóközpontban](/wiki/03-Mechanics/Research.md) kutatható ki (3 óra, 10 óra és 1 nap, Dark Matter nélkül), és a Gyártásban készül egymás után. Egy extrafoglalatba **szerelsz fel** egyet, ahogy egy [Cloaking CPU-t](/wiki/06-Items/Extras.md), és **2, 3 és 5** dokkolt P.E.T.-nek ad helyet. Hogy mennyibe kerül egy-egy, azt az Extrák [tárgyfája](/wiki/06-Items/Extras.md#item-tree) mutatja. A Station átvészeli a wipe-ot, és a kutatása is.
+A Station egy **Extra**. Három tárgy, a **P.E.T. Station I, II és III**, a [kutatóközpontban](/wiki/03-Mechanics/Research.md) kutatható ki (3 óra, 10 óra és 1 nap, Dark Matter nélkül), és a Gyártásban készül egymás után: a Station I alkatrészekből, a **Station II egy Station I fejlesztésével**, a **Station III pedig egy Station II fejlesztésével**. A fejlesztés elhasználja az alatta lévő Stationt, amelynek szabadon kell lennie a leltáradban (nem lehet hajóra felszerelve, és nem lehet a [Tranzittárolóban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) sem), és ezen felül az ára maradékát is kéri, így a három gyártás együtt pontosan egy Station III értékébe kerül. Egy extrafoglalatba **szerelsz fel** egyet, ahogy egy [Cloaking CPU-t](/wiki/06-Items/Extras.md), és **2, 3 és 5** dokkolt P.E.T.-nek ad helyet. Hogy mennyibe kerül egy-egy, azt az Extrák [tárgyfája](/wiki/06-Items/Extras.md#item-tree) mutatja. A Station átvészeli a wipe-ot, és a kutatása is.
 
 - **Csak a hajó, amely vele repül.** A P.E.T.-eid azon a hajón számítanak, amellyel repülsz, ha abban a konfigurációban, amellyel repülsz, van felszerelt Station. A leltáradban, a másik konfigurációban vagy egy másik hajón lévő Station nem csinál semmit; ha konfigurációt vagy hajót váltasz, a P.E.T.-ek azonnal követnek.
 - **BE és KI.** A Stationt a gyorssáv **PET** foglalatával kapcsolhatod át (húzd oda az Extrák választójából). **BE**: a dokkolt P.E.T.-eid első 2, 3 vagy 5 darabja adja a bónuszait, tapasztalatot szerez és dolgozik. **KI**: semmi ebből, és nem rajzolódik drón. A foglalat **BE** vagy **KI** feliratot mutat. A kapcsoló a tiéd, és megmarad indulásokon és bejelentkezéseken át; a Station, amelyet még nem kapcsoltál át, BE van. Két lenyomás között egy másodperc telik el.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 968a75aa2c9015c4 -->
+<!-- wiki-i18n source: a950f08cdd974585 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -38,6 +38,12 @@ La page **Builds** de la Bibliothèque peut importer ce qui est équipé sur l�
 Le vaisseau vers lequel vous passez a **la coque et les boucliers qu’il avait** la dernière fois que vous l’avez piloté, exactement comme si vous l’aviez lancé. L’anneau ne répare pas : changer de vaisseau ne vous soigne donc jamais. Le vaisseau que vous quittez garde ses dégâts et revient avec eux. Un vaisseau détruit ne peut pas être piloté tant que vous ne l’avez pas réparé, ce qui est gratuit et le ramène avec 10 000 de coque au plus et sans bouclier, comme une réapparition.
 
 Ce qui est à vous reste à vous : vos munitions, vos roquettes et leur minuteur, les temps de recharge de vos compétences, vos boosters, votre XP et vos Slave Drones. Ce qui appartenait au vaisseau prend fin : un Shield Surge ou un Afterburner en cours, les réparations, votre verrouillage de cible, votre attaque et la route que vous suiviez. Les équipements restent sur le vaisseau qui les porte.
+
+## La réinitialisation et vos vaisseaux {#the-wipe-and-your-ships}
+
+La réinitialisation garde **tous les vaisseaux que vous possédez**, avec la coque entière et les boucliers vides. Quel vaisseau garde ce qui y est monté, c’est la [cache de transport](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) qui le décide.
+
+Le vaisseau que vous verrouillez dans la cache garde son équipement et, après la réinitialisation, devient votre vaisseau actif ; si aucun n’est verrouillé, votre vaisseau actif garde son équipement. Un vaisseau verrouillé est marqué d’un cadenas dans le Hangar et ne peut être ni équipé, ni déséquipé, ni converti, ni piloté jusqu’à la réinitialisation. À partir du jour 26 de la saison, chaque carte de vaisseau indique s’il garde son équipement à la réinitialisation ou s’il en est dépouillé.
 
 ## Requêtes provenant d’autres outils {#requests-from-other-tools}
 

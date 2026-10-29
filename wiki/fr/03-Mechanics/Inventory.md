@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventaire -->
 # Inventaire et équipement {#inventory-equipment}
 
@@ -28,7 +28,7 @@ L’inventaire liste vos objets dans le même ordre que la boutique, quel que so
 
 ## Objets vendables {#marketable-items}
 
-Les objets que vous avez gagnés (butin, récompenses de missions et ce que fabriquent l’Assemblage et la Forge) portent une petite étiquette **Vendable** sur leur case, et la fiche de l’objet indique « Vendable » ou, pour une pile dont seule une partie peut être vendue, « Vendable (3 sur 5) ». La pastille **Vendable uniquement**, à côté des pastilles de catégorie, ne montre que ces objets. Un **marteau** à côté de la corbeille d’un objet étiqueté ouvre la fiche de vente des [Enchères](/wiki/03-Mechanics/Auction.md) (il n’est pas affiché en vol : vendre se fait sur une page de la station). Ce que vous avez acheté, gagné ou reçu en cadeau n’a pas d’étiquette et ne peut pas être revendu.
+Les objets que vous avez gagnés (butin, récompenses de missions et ce que fabriquent l’Assemblage et la Forge) portent une petite étiquette **Vendable** sur leur case, et la fiche de l’objet indique « Vendable » ou, pour une pile dont seule une partie peut être vendue, « Vendable (3 sur 5) ». La pastille **Vendable uniquement**, à côté des pastilles de catégorie, ne montre que ces objets. Un **marteau** à côté de la corbeille d’un objet étiqueté ouvre la fiche de vente des [Enchères](/wiki/03-Mechanics/Auction.md) (il n’est pas affiché en vol : vendre se fait sur une page de la station). Ce que vous avez acheté, gagné ou reçu en cadeau n’a pas d’étiquette et ne peut pas être revendu, et il en va de même pour tout ce que donne un [conteneur](/wiki/06-Items/Containers.md).
 
 ## Sélectionner plusieurs objets {#select-several-items}
 

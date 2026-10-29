@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Első lépések -->
 # Első lépések a SpaceCorpsban {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@
 A túléléshez és a boldoguláshoz két fizetőeszközt kell kezelned, és szemmel kell tartanod a becsületedet. Azok az anyagok, amelyekből építkezel, a [Nyersanyagok](/wiki/06-Items/Resources.md) oldalon találhatók, azzal együtt, hogy hol szerezheted meg őket, és mire valók:
 - **Kredit**: Az elsődleges, mindennapi fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a saját [Skylabod](/wiki/03-Mechanics/Skylab.md) Kreditfarmja pedig termeli. Alapfelszerelés, hajók és normál felszerelés vásárlására használod.
 - **Thulium**: A ritka radioaktív érc és nagy értékű fizetőeszköz: minden legyőzött idegen és minden teljesített küldetés fizeti, a Skylabod Thuliumfarmja pedig termeli. Elit fegyverzet, hajtóművek, hibridpajzsok és erős boostercsomagok vásárlására, a modulok fejlesztésére a Gyártásban, a vállalatváltásra (5 000), a Kutatóközpont felgyorsítására (5 000) és a Jump CPU minden ugrására (500) használod.
-- **Becsület**: Pontszám, nem pénz: a hűséged és a megbecsültséged mércéje. A becsület nem határozza meg a [rangodat](/wiki/03-Mechanics/Ranks.md), az a PvE-pontjaidból, a hat legjobb rangnál pedig a vállalatod helyeiből adódik. A saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat. A vállalatváltás elveszi a becsületed felét, lefelé kerekítve; a 0 vagy annál kisebb becsület változatlan marad ([Vállalatváltás](#changing-your-company)).
+- **Becsület**: Pontszám, nem pénz: a hűséged és a megbecsültséged mércéje. A becsület nem határozza meg a [rangodat](/wiki/03-Mechanics/Ranks.md), az a szezon PvE-pontjaidból, a hat legjobb rangnál pedig a vállalatod helyeiből adódik. A saját frakciód baráti pilótáinak megtámadása súlyosan rontja a becsületedet: a saját vállalatod egy pilótájának – egy játékos hajójának vagy a vállalat egyik [vállalati pilótájának](/wiki/03-Mechanics/Company-Pilots.md) – megsemmisítése 100 becsületbe kerül. Ugyanennyibe kerül az is, ha eltalálsz egyet abban a 15 másodpercben, mielőtt valami más megsemmisíti: ha egy vállalattársat megviselsz, hogy egy idegen fejezze be, az ugyanannyiba kerül, mint a kilövés. Egy vállalattárs kilövése nem PvP-kilövés, és nem ad PvP-pontokat. A vállalatváltás elveszi a becsületed felét, lefelé kerekítve; a 0 vagy annál kisebb becsület változatlan marad ([Vállalatváltás](#changing-your-company)).
 
 Az állomáson a Krediteid, a Thuliumod és a Becsületed minden oldal jobb felső sarkában látható, a szektorod és az **Indulás** gomb mellett. Ha az ablak túl keskeny egy hosszú összeghez, az rövidítve jelenik meg (987,7M); mutass rá, hogy elolvashasd a teljes számot.
 
@@ -30,6 +30,8 @@ Kattints egy pilóta nevére a Dicsőségcsarnokban (**Közösség › Rangsor**
 - **Játékidő.** Mennyi ideig volt a pilóta játéka a szerverhez kapcsolódva, órában és percben („128 ó 15 p”, „45 p”), repülés közben vagy az állomáson. A tétlenül töltött idő is számít. A számlálás a 0.4.12-vel kezdődött, így a korábban játszó pilótánál a frissítés óta eltelt idő látszik.
 
 Mindkettő nyilvános, mint a szint és a rang: bármelyik bejelentkezett pilóta elolvashatja egy profilon. A szezon wipe-ja egyiket sem nullázza.
+
+A profilodon túl a **Közösség › Eredmények** őrzi a pályafutásod céljait, jutalmaikkal és címeikkel együtt: lásd az [Eredmények](/wiki/03-Mechanics/Achievements.md) oldalt.
 
 ## Vállalatváltás {#changing-your-company}
 

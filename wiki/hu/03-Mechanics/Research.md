@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -29,6 +29,8 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 - **A Mag 10. szintje alatt** nem kutathatsz, így a Gyártásban még semmi újat nem készíthetsz el. Az állomásküldetések végigvezetnek a Mag szintjein.
 
 <!-- research-centre:end -->
+
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 151 technológiából 135). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 - A **Lezárt hátsó ajtó** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
 - A **Kotrógépes bányászat** megnöveli, amit egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden ládájából kapsz, Thuliumból és ércből egyaránt.
 - A **Térelmélet** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
-- A **Szunnyadó tudás** szintenként egyszer wipe-pontot fizet, amikor a kutatása befejeződik a Központban. Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, a Szunnyadó tudás öt szintje nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
+- A **Szunnyadó tudás** szintenként wipe-pontot fizet, amikor a kutatása befejeződik a Központban, és minden wipe után újra ([Wipe-pontok szerzése](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, a Szunnyadó tudás öt szintje nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

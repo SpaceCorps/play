@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-Mitt i Farosektor 4 (`DS-4`, mitten av PvP-zonen) hänger ett svart hål i mörkret. Det är likadant i alla världar (Alpha, Beta och Gamma), varje dag under säsongen, Fredsprotokollet inräknat. Det tar det som kommer för nära, och det ger tillbaka en enda sak: [Dark Matter](#dark-matter), för en N.I.K.E.-raket som avfyras in i det. Hela vägen, från forskningen till plattan, finns i [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+Mitt i Farosektor 4 (`DS-4`, mitten av PvP-zonen) hänger ett svart hål i mörkret. Det är likadant i alla världar (Alpha, Beta och Gamma), varje dag under säsongen, Fredsprotokollet inräknat. Det tar det som kommer för nära, och det ger tillbaka en enda sak: [Dark Matter](#dark-matter), för en N.I.K.E.-raket som avfyras in i det. Hela vägen, från forskningen till plattan, finns i [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). Under de sista 72 timmarna före varje säsongs [universumåterställning](/wiki/03-Mechanics/Wipe-Timeline.md) växer det till 1,8 gånger sin storlek ([Tillväxt före återställningen](#growing-before-the-wipe)); allt annat på den här sidan gäller dess normala storlek.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Avstånden räknas från sektorns mitt, i kartenheter. Sektorn är 32 000 gång
 | **Punkt utan återvändo** | ungefär 1 000 till 2 600 | Där dragningen är lika stark som ditt skepps fart. Innanför den dras du in, även med full kraft. Den beror på din fart. |
 | **Händelsehorisont** | 300 | Varje skepp som når den förstörs på stört, oavsett skrov och sköld. |
 
-Farosektor 4:s portaler och lederna mellan dem ligger alla långt utanför strålningen, så du råkar aldrig in i den på vägen igenom. Från säsongsdag 11 rymmer samma sektor också [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), i sitt övre vänstra hörn, långt från hålet; utomjordingarna där kommer aldrig in i hålets ringar.
+Farosektor 4:s portaler och lederna mellan dem ligger alla långt utanför strålningen, så du råkar aldrig in i den på vägen igenom. Från säsongsdag 11 rymmer samma sektor också [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), i sitt övre vänstra hörn, långt från hålet; utomjordingarna där kommer aldrig in i hålets ringar. Säsongens sista dagar är undantaget: se [Tillväxt före återställningen](#growing-before-the-wipe).
+
+## Tillväxt före återställningen {#growing-before-the-wipe}
+
+Det svarta hålet är inte lika stort hela säsongen. Under de sista **72 timmarna** före [universumåterställningen](/wiki/03-Mechanics/Wipe-Timeline.md) börjar det växa, lite för varje sekund, och från **24 timmar** före återställningen tills den sker är det **1,8 gånger** så stort. Det gäller varje längd hos det: händelsehorisonten, dragningen och strålningen ligger 1,8 gånger så långt från mitten, och det gör ringen som servern styr dig runt också. Bilden, ringarna på kartorna och ljuden växer med det.
+
+| | Normalt | 48 timmar före (1,4 gånger) | Från 24 timmar före (1,8 gånger) |
+| :--- | ---: | ---: | ---: |
+| **Händelsehorisont** | 300 | 420 | 540 |
+| **Dragning** | 3 000 | 4 200 | 5 400 |
+| **Strålning** | 4 000 | 5 600 | 7 200 |
+| **Styrring** | 4 200 | 5 880 | 7 560 |
+
+Det som inte ändras är hur hårt det är på samma andel av vägen in: ett skepp 3 600 enheter från mitten, med hålet på 1,8 gånger, känner det som ett skepp 2 000 enheter ut känner en vanlig dag (en dragning på 96 enheter i sekunden och 2 % av sin HP i sekunden). Det växta hålet är inte starkare, det är bredare, och ett skepp behöver 1,8 gånger så lång tid för att ta sig igenom det. Varje skepps punkt utan återvändo ligger 1,8 gånger så långt ut. Alla avstånd på den här sidan gäller normal storlek: multiplicera dem med hålets storlek för att läsa det växta hålet.
+
+- **Så ser du det.** Under de sista 72 timmarna har Dashboard ett kort överst, och flygvyn en etikett över det svarta hålet, som räknar ner till återställningen (”Universumet återställs om 1d 05:12:33”) och säger hur många gånger sin storlek hålet har just nu; under de sista fem minuterna tar återställningens egen nedräkning över. Minikartans verktygstips nämner ringarna i den storlek hålet har nu.
+- **När.** Storleken beror bara på säsongens klocka, så den är densamma i alla världar. Så länge en admin håller säsongen på en dag är inget schemalagt och hålet förblir i normal storlek; flyttas säsongsdagen följer hålet med direkt; nästa säsong börjar med ett normalt hål.
+- **Portalerna.** De två portalerna i hörnen av `DS-4`, 17 000 enheter från mitten, och portalen överst, 8 000 enheter från mitten, ligger utanför även den växta strålningen (7 200) och styrringen (7 560). Leden från portalen överst till en hörnportal kommer inom 5 472 enheter från mitten och ligger i strålningen från ungefär 50 timmar före återställningen; den mellan de två hörnportalerna (8 000 enheter vid sin närmaste punkt) förblir fri.
+- **Resten av sektorn.** Aliens jagar, strövar och dyker aldrig upp innanför styrringen, så de drivs ut framför den, och ingenting läggs ner innanför den; vid 1,8 gånger täcker den ungefär en tredjedel av sektorn. En pilot som lämnar spelet i den växta strålningen, utanför dragningen, kommer tillbaka på kartans närmaste lediga plats, utanför ringen. En alien som horisonten eller strålningen når förstörs, som ett skepp. En flyttorder som skulle korsa ringen styrs runt den; en order som slutar inne i ringen flygs som den gavs.
 
 ## Strålning {#radiation}
 

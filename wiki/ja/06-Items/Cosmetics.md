@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: コスメティック -->
 # コスメティック {#cosmetics}
 
@@ -7,7 +7,7 @@
 **外観**とは、あなたの艦が身にまとうものです。4つの部分があります。**スキン**（船体の塗装）、**オーラ**（艦のまわりのやわらかな輝き）、**排気**（エンジンの後ろに伸びる航跡の色と形）、そしてドローンの**塗装**です。外観は見た目だけのものです。ダメージも船体も速度も増えず、スロットも使わず、弾が当たるものは何も変わりません。
 
 > [!NOTE]
-> **まだ何も購入も入手もできません。** 今のところ、すべての外観は管理者が発行します。持っていない外観はハンガーで「まだ入手できません」と表示され、受け取ったときは通知が出て、やわらかなチャイムが鳴ります。
+> **外観は購入できません。** ワイプは上位の階級にシーズンの外観を付与します（[シーズンと報酬](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)）。 一部の外観はコンテナの[クロマ・アーカイブ (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)で入手でき、そのほかは管理者が発行します。管理者から外観を受け取ったときは通知が出て、やわらかなチャイムが鳴ります。コンテナで手に入れた外観は、結果カードに表示されます。
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@
 スキンは艦自身の船体から作られた塗装パターンです。パネルの線、番号、ストライプはそのままで、色だけが変わります。1つの**艦モデル**用で、同じスキンをそのモデルの自分の艦すべてと、そこから作ったすべての[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が着けます。改造しても外観は保たれます。Protos にはまだスキンがなく、Kitefin、Ostirion、Nomad にはコレクションが1つあり、アセンブリで作る4隻には10個すべてがあります。
 
 スキンは艦ではなく**アカウント**に属し、[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md)を越えて残ります。あなたの艦は着けていたものをそのまま着けています。
+
+[クロマ・アーカイブ](/wiki/06-Items/Containers.md#chroma-archive)では、Bloody R.E.D を除くすべてのコレクションが出る可能性があります。コレクションは丸ごと1つの報酬として出て、持っていないスキンがすべて手に入ります。
 
 | コレクション | 艦 | レアリティ | 見た目 |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@
 - **外観を外す。** スキンタブの**標準**のタイルで艦は元の塗装に戻り、**なし**でオーラが外れます。
 - **複数の艦に。** シート下部のスイッチ、スキンなら**同じモデルの他の艦にも適用**、オーラや排気なら**他の艦にも適用**にすると、1回のクリックですべての艦に外観を着けます。
 - **変更できる場所。** 装備を変更できる場所です。ドッキング中、または保護が有効なセーフゾーン内で、[飛行中のハンガー](/wiki/03-Mechanics/Hangar.md#when-it-is-open)と同じです。
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+持っていない外観は、コンテナで入手できるものでも**まだ入手できません**と表示されます。ハンガーはコンテナの名前を示しません。
+
+<!-- containers-wardrobe:end -->
 
 ## レアリティ {#rarity}
 

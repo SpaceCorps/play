@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: 코스메틱 -->
 # 코스메틱 {#cosmetics}
 
@@ -7,7 +7,7 @@
 **외형**은 함선이 입고 있는 것입니다. 네 부분이 있습니다. **스킨**(선체의 도색), **오라**(함선 둘레의 부드러운 빛), **배기**(엔진 뒤로 이어지는 궤적의 색과 모양), 그리고 드론의 **도색**입니다. 외형은 보여 주기용일 뿐입니다. 피해도, 선체도, 속도도 더하지 않고, 슬롯을 차지하지 않으며, 탄이 맞히는 것에는 아무것도 바꾸지 않습니다.
 
 > [!NOTE]
-> **아직은 아무것도 구매하거나 얻을 수 없습니다.** 지금은 관리자가 모든 외형을 발급합니다. 격납고는 갖고 있지 않은 외형을 “아직 얻을 수 없습니다”라고 표시하며, 외형을 받으면 알림이 뜨고 부드러운 차임이 울립니다.
+> **외형은 구매할 수 없습니다.** 초기화는 상위 계급에 시즌 외형을 지급합니다([시즌과 보상](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). 일부 외형은 컨테이너인 [크로마 기록보관소 (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)에서 얻을 수 있고, 나머지는 관리자가 발급합니다. 관리자가 외형을 주면 알림이 뜨고 부드러운 차임이 울리며, 컨테이너에서 얻은 외형은 결과 카드에 표시됩니다.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@
 스킨은 함선 자체의 선체로 만든 도색 구성입니다. 패널 선, 번호, 줄무늬는 그대로 남고 색만 바뀝니다. **함선 모델** 하나를 위한 것으로, 그 모델의 내 함선 전부와 거기서 만든 모든 [디자인](/wiki/03-Mechanics/Ship-Designs.md)이 같은 스킨을 입으며, 개조해도 외형은 유지됩니다. Protos에는 아직 스킨이 없고, Kitefin, Ostirion, Nomad에는 컬렉션이 하나 있으며, 어셈블리에서 제작하는 네 함선에는 열 가지가 모두 있습니다.
 
 스킨은 함선이 아니라 **계정**에 속하며 [초기화](/wiki/03-Mechanics/Wipe-Timeline.md) 후에도 남습니다. 내 함선들은 입고 있던 것을 그대로 입고 있습니다.
+
+[크로마 기록보관소](/wiki/06-Items/Containers.md#chroma-archive)는 Bloody R.E.D를 제외한 모든 컬렉션을 줄 수 있으며, 컬렉션은 한 번에 통째로 줍니다. 아직 없는 그 컬렉션의 스킨이 모두 들어옵니다.
 
 | 컬렉션 | 함선 | 희귀도 | 모습 |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@
 - **외형 벗기.** 스킨 탭의 **기본** 타일은 함선을 기본 도색으로 되돌리고, **없음**은 오라를 벗깁니다.
 - **함선이 여러 척일 때.** 시트 아래의 스위치, 스킨이면 **같은 모델의 다른 함선에도 적용**, 오라나 배기면 **다른 함선에도 적용**을 켜면 한 번의 클릭으로 모든 함선에 외형이 입혀집니다.
 - **바꿀 수 있는 곳.** 장비를 바꿀 수 있는 곳입니다. 도킹 중이거나 보호가 켜진 안전 지대에서, [비행 중 격납고](/wiki/03-Mechanics/Hangar.md#when-it-is-open)와 같습니다.
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+갖고 있지 않은 외형은 컨테이너에서 얻을 수 있어도 **아직 얻을 수 없습니다**라고 표시됩니다. 격납고는 컨테이너 이름을 알려 주지 않습니다.
+
+<!-- containers-wardrobe:end -->
 
 ## 희귀도 {#rarity}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Premiers pas -->
 # Premiers pas dans SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Bienvenue dans l’expérience ultime de la guerre spatiale. En tant que pilote 
 Pour survivre et prospérer, vous devez gérer deux monnaies et garder un œil sur votre honneur. Les matériaux qui vous servent à construire figurent sur la page [Ressources](/wiki/06-Items/Resources.md), avec l’endroit où obtenir chacun et son utilité :
 - **Crédits** : la monnaie standard principale, versée par chaque alien que vous battez et par les missions terminées, et produite par la Ferme à crédits de votre [Skylab](/wiki/03-Mechanics/Skylab.md). Elle sert à acheter l’équipement de base, les vaisseaux et l’équipement standard.
 - **Thulium** : le minerai radioactif rare et la monnaie de grande valeur, versé par chaque alien que vous battez et par les missions terminées, et produit par la Ferme à Thulium de votre Skylab. Il sert à acheter des armes d’élite, des moteurs, des boucliers hybrides et de puissants packs de boosters, à améliorer des modules à l’Assemblage, à changer de corporation (5 000), à booster le Centre de recherche (5 000) et à chaque saut d’un Jump CPU (500).
-- **Honneur** : un score, et non de l’argent, qui mesure votre loyauté et votre réputation. L’honneur ne détermine pas votre [grade](/wiki/03-Mechanics/Ranks.md), qui découle de vos points PvE et, pour les six meilleurs grades, des places de votre corporation, et attaquer des pilotes alliés de votre propre faction pénalise lourdement votre honneur : détruire un pilote de votre propre corporation, qu’il s’agisse du vaisseau d’un joueur ou de l’un de ses [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), coûte 100 points d’honneur. Il en va de même si vous le touchez dans les 15 secondes avant que quelque chose d’autre ne le détruise : affaiblir un pilote de votre corporation pour qu’un alien l’achève coûte autant que l’élimination. Éliminer un pilote de votre corporation n’est pas une élimination PvP et ne rapporte aucun point PvP. Changer de corporation vous prend la moitié de votre honneur, arrondie vers le bas ; un honneur de 0 ou moins reste tel quel ([Changer de corporation](#changing-your-company)).
+- **Honneur** : un score, et non de l’argent, qui mesure votre loyauté et votre réputation. L’honneur ne détermine pas votre [grade](/wiki/03-Mechanics/Ranks.md), qui découle de vos points PvE de la saison et, pour les six meilleurs grades, des places de votre corporation, et attaquer des pilotes alliés de votre propre faction pénalise lourdement votre honneur : détruire un pilote de votre propre corporation, qu’il s’agisse du vaisseau d’un joueur ou de l’un de ses [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md), coûte 100 points d’honneur. Il en va de même si vous le touchez dans les 15 secondes avant que quelque chose d’autre ne le détruise : affaiblir un pilote de votre corporation pour qu’un alien l’achève coûte autant que l’élimination. Éliminer un pilote de votre corporation n’est pas une élimination PvP et ne rapporte aucun point PvP. Changer de corporation vous prend la moitié de votre honneur, arrondie vers le bas ; un honneur de 0 ou moins reste tel quel ([Changer de corporation](#changing-your-company)).
 
 À la station, vos Crédits, votre Thulium et votre Honneur se trouvent en haut à droite de chaque page, à côté de votre secteur et du bouton **Décoller**. Quand la fenêtre est trop étroite pour un montant long, il est abrégé (987,7 M) ; pointez-le pour lire le nombre entier.
 
@@ -30,6 +30,8 @@ Cliquez sur le nom d’un pilote dans le Panthéon (**Communauté › Classement
 - **Temps de jeu.** Combien de temps le jeu du pilote a été connecté au serveur, en heures et minutes ( « 128 h 15 min » ,  « 45 min » ), en vol ou à la station. Le temps passé à ne rien faire compte aussi. Le décompte a commencé avec la 0.4.12 : pour un pilote qui jouait avant, c’est donc le temps écoulé depuis cette mise à jour.
 
 Les deux sont publics, comme le niveau et le grade : tout pilote connecté peut les lire dans un profil. La réinitialisation de la saison ne les remet pas à zéro.
+
+Au-delà de votre profil, **Communauté › Succès** garde les objectifs de votre carrière, avec leurs récompenses et leurs titres : voir [Succès](/wiki/03-Mechanics/Achievements.md).
 
 ## Changer de corporation {#changing-your-company}
 

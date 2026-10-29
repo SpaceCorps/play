@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fca6f67d57774324 -->
+<!-- wiki-i18n source: 938d06a6843abb63 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -136,6 +136,7 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 - **Kreditfarm**: producerar krediter över tid: **2 250 i timmen på nivå 1, 225 000 på nivå 20** (nivå 5: 11 250; nivå 10: 33 750; nivå 15: 76 500). Den kostar ingenting att bygga.
 - **Thuliumfarm**: producerar Thulium över tid: **40 i timmen på nivå 1, 1 280 på nivå 20** (nivå 5: 144; nivå 10: 360; nivå 15: 760). Att bygga den kostar 5 000 krediter och 500 Thulium.
 - Båda kräver energi, och var och en lagrar 72 timmars produktion tills du hämtar den.
+- En [Philosopher's Stone](/wiki/06-Items/Special-Items.md#philosophers-stone) får båda farmarna att producera dubbelt så mycket i 10 timmar, och ett [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) anlitat som **Foreman** gör detsamma för varje producent i 1 timme. Tillskottet hamnar i lagret, så hämta innan det blir fullt.
 
 ## Försörjningskedjan {#the-supply-chain}
 
@@ -159,7 +160,7 @@ Fyra moduler gör tid borta från tangentbordet till plåtar för dina bästa la
 - **Tak**: en dags produktion från dess samlare på nivå 1, upp till fyra dagar på nivå 20. En samlares lager rymmer tre dagar, så från nivå 13 rymmer Resurslagret minst ett fullt lager.
 - **Över taket**: om Resurslagret rymmer mer av en malm än dess tak (utbetalningen vid uppdateringen 0.4.10 kan ha lämnat det så), tas ingenting bort, men Hämta lägger inte till mer av den malmen förrän du har använt en del.
 - Malm kommer in genom att hämta från en samlare, eller från ditt inventarie genom [Malmviken](#ore-bay), och ut bara till Smedjan och Forskningscentrumet. Den kommer aldrig tillbaka till ditt inventarie.
-- **Den inlagrade malmen finns kvar** genom säsongens wipe.
+- **Den inlagrade malmen finns kvar** genom säsongens wipe och tar ingen plats i [transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Energi**: 10 på nivå 1, och det ökar med 10 % per nivå. Det går inte att stänga av.
 
 ### Smedja {#forgery}
@@ -226,6 +227,7 @@ Malmviken flyttar den malm du bär på till Resurslagret. En [jättegrävmaskin]
 - **Åt ett håll**: från ditt inventarie till Resurslagret, aldrig tillbaka. Bara den lösa malmen i ditt inventarie flyttas, aldrig den som ligger i Transportförrådet.
 - **Hur**: ditt **skepp måste vara landat**. En överföring sker direkt: välj malmen på Malmvikens blad, skriv en mängd eller tryck på Max och tryck sedan på **Flytta**. Bladet visar vad du bär på och vad banken håller mot sin kapacitet.
 - **Kvot**: nivån bestämmer hur mycket malm den flyttar i timmen, **30 på nivå 1, 960 på nivå 20**, och den sparar upp till ett dygn av det (720 på nivå 1, 23 040 på nivå 20). En ny Malmvik börjar med ett helt dygn, och en uppgradering behåller det som var sparat. En överföring begränsas av malmen du bär, av platsen som finns kvar i Resurslagret och av kvoten, och bladet säger vilket. Ett dygns kvot är ungefär tre gånger så mycket som Resurslagret rymmer av en malmsort på samma nivå, så det är oftast platsen som stoppar en överföring; kvoten spelar bara roll om du skickar malm genom lagret om och om igen under samma dygn.
+- **Hauler**: ett [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) anlitat som **Hauler** lyfter kvoten i 1 timme. Viken flyttar då så mycket som din last och platsen i Resurslagret tillåter, och kvoten den hade sparad förblir som den var.
 - **Energi**: 15 på nivå 1, och det ökar med 10 % per nivå (92 på nivå 20). Den kan slås av. Vid ett energiunderskott, medan den är avslagen och medan den uppgraderas flyttar den ingenting.
 - **Bygge**: 5 000 krediter, 250 Thulium och 10 Ship Fragments (från ditt inventarie, med skeppet landat), bara på Kärna 2. Uppgraderingarna kostar det Resurslagrets kostar och tar lika lång tid (se tabellerna nedan).
 - **Inget sätt att få mer malm**: den flyttar malm du redan har. En körning av grävmaskinen är begränsad vid källan, och Resurslagrets kapacitet begränsar banken.
@@ -526,6 +528,7 @@ Piloterna i din klan ser var varandras Skylab är: kolumnen **Skylab** i medlems
 - **Konstruktion**: varje modul byggs för sig. En modul är på nivå 1 i samma stund som den byggs, och att uppgradera den höjer dess produktion (eller dess energiproduktion) och dess lager, och även vad den kostar i energi.
 - **Tid och kostnad**: uppgraderingar kostar krediter och Thulium och tar tid, och varje modul har ett eget pris och en egen tid för varje nivå (peka på **Uppgradera** för att se nästa; summorna står nedan). Priset betalas när du startar uppgraderingen. Kostnaden beror inte på tiden. Motor-, Försvars- och Radarmodulen tar också Dark Matter Plates och kräver nivåns teknologi (se [Den andra bron och Kärna 3](#the-second-bridge-and-core-3)).
 - **Timers**: en uppgradering går på serverns klocka, så den blir klar medan du är borta, dagar senare om den måste. Starta den, logga ut, kom tillbaka: modulen är på sin nya nivå när du öppnar Skylab-sidan.
+- **Snabba på en uppgradering**: en [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) slutför en pågående uppgradering direkt, och ett [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) anlitat som **Engineer** får uppgraderingar att gå dubbelt så snabbt i 1 timme. Ingetdera återbetalar eller debiterar något: priset betalades när uppgraderingen startade.
 - **Uppgraderingstider**: de första nivåerna går snabbt och de sista tar upp till 37 timmar, kärnans upp till 6 dygn (se tabellerna nedan). Varje modul har sin egen timer, så du kan uppgradera flera samtidigt.
 - **Produktionspaus**: medan en modul uppgraderas är den offline: den producerar ingenting och använder ingen energi. Solkraft är undantaget: den fortsätter producera en fjärdedel av sin energi (se nedan).
 - **Solkraft producerar bara 25 % av sin energi medan den uppgraderas**: Solkraft producerar all energi i Skylab, och medan den uppgraderas (24 timmar för den sista nivån) producerar den en fjärdedel av energin för sin **nuvarande** nivå; den nya nivåns energi tar över i samma ögonblick som uppgraderingen är klar. En full station förbrukar ungefär 90 % av vad Solkraft producerar på sin egen nivå, så en fjärdedel av det bär bara en station som ligger fem till sex nivåer under Solkraft. Annars stannar varje farm och samlare under hela uppgraderingen, det du har lagrat finns kvar och kan hämtas, och Smedjan startar ingen ny sats. En modul som uppgraderas eller är avstängd använder ingen energi, så att höja farmerna tillsammans med Solkraft kostar inget extra, och att stänga av moduler ger plats åt de andra; Thuliumfarmen förbrukar överlägset mest energi.
@@ -686,7 +689,7 @@ Varje farm och samlare har ett lager för ungefär 72 timmars produktion. Du hä
 
 Skylab påverkas aldrig av wipen: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin vetenskapstank, den Dark Matter som sitter i det och en pågående forskning. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md). Ammunitionsskrivaren och Raketfabriken behåller sina nivåer, det de är inställda på att tillverka och det de håller, och Malmviken behåller sin nivå och sin kvot. Expeditionens fyra moduler behåller också sina nivåer, med sina teknologier, och det gör magasinet och matningens strömbrytare också. Malmen i ditt inventarie nollställs som vilket föremål som helst: flytta den till Resurslagret först.
 
-En **expedition** avräknas fram till wipen: en resa som pågår är över, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål), och Skylab börjar den nya säsongen hemma, i din koncerns hamn, med en ny universumkarta, de 19 startcellerna kända och radarns kö tom. Motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen är lösa föremål som de andra: ta ut dem och lägg dem i transportförrådet för att behålla dem.
+En **expedition** avräknas fram till wipen: en resa som pågår är över, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål; krediterna och Thuliumet kommer till din plånbok innan [taken](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) tillämpas), och Skylab börjar den nya säsongen hemma, i din koncerns hamn, med en ny universumkarta, de 19 startcellerna kända och radarns kö tom. Motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen är lösa föremål som de andra: ta ut dem och lägg dem i transportförrådet för att behålla dem.
 
 ## Planera din Skylab {#planning-your-skylab}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a195d763558df440 -->
+<!-- wiki-i18n source: b95a3ae97834417e -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -27,6 +27,7 @@ Välj ett föremål så visar panelen dess nivå, vilken nivå det skulle nå, v
 - **Ett steg kan misslyckas.** Föremålet förblir precis som det var, krediterna är borta, och hälften av materialen och hälften av Thuliumet kommer tillbaka (avrundat nedåt; av två Dark Matter Plates, en). Panelen visar chansen och det här innan du trycker.
 - **Vid lyckat resultat** slumpas varje bonus som föremålet har på nytt inom den nya nivåns intervall och det bättre värdet behålls. Ett föremål utan någon bonus får alltid sin första; varje annan plats som den nya nivån öppnar fylls med **50 % chans, var och en med eget slag**, med en ny bonus på ett annat värde hos föremålet, och en plats som missar kan fyllas vid en senare nivåhöjning (se [Bonusar per nivå](#buffs-by-tier)). Resultatet visas ovanför panelen; föremålet förblir valt, så dess nästa steg syns redan på skärmen.
 - En nivåhöjning sker direkt.
+- **Ett Tinkerer's Badge** (ett [specialföremål](/wiki/06-Items/Special-Items.md#tinkerers-badge)) höjer en del en nivå utan slump, utan krediter, utan Thulium och utan material. Delen måste redan vara Befläckad eller bättre: det första steget lyckas alltid och behöver inget.
 
 ### Dark Matter Plates
 
@@ -47,7 +48,7 @@ Ett föremål kan inte rymma fler bonusar än det har värden: en sköldkärna h
 
 **En nivå rymmer högst så många bonusar.** En nivåhöjning ger alltid ett föremål dess första bonus; varje annan plats som den nya nivån öppnar, och som föremålet har ett värde för, fylls med **50 % chans, var och en med eget slag**, och en plats som missar försöks igen vid nästa nivåhöjning. En Gudomlig sköldkärna har alltså två bonusar hälften av gångerna och en den andra hälften; en Evig har alla fyra ungefär var tredje gång (3,1 i genomsnitt), en laser med tre värden har alla tre två gånger av tre, och en motor har nästan alltid båda. Panelen säger ”upp till” för nästa nivå och visar hur ofta en ny plats fylls. Föremål med bara ett värde och varje steg till Befläckad påverkas inte, och utrustning som gjordes före den här regeln behåller sina bonusar. En **sammanslagning** fyller en plats som en nivåhöjning missade: den behåller den bästa bonusen för varje värde hos två exemplar, upp till nivåns gräns. På grund av chansen bär en del absorptionsbonusen som beskrivs nedan bara delvis (en Evig sköldkärna 78 % av gångerna, en Evig sköldcell 88 %): siffrorna där gäller delar som bär den.
 
-En **skölds absorptionsbonus** (och en sköldcells absorptionsökning) multiplicerar värdet, så den är värd punkter av [absorption](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) i proportion till det: +5 % på en Heavy Shield Cores 50 % är +2,5 punkter, och +15 % på varje del i den bästa uppsättningen (en Heavy Shield Core och tre Absorption Shield Cell IV, 80 % sammanlagt) är +12 punkter. En Evig uppsättning ger mellan +7 och +12 punkter, ungefär 10 i snitt; med säsongsbutikens Shield Absorbance Boost (+10 punkter vid sin gräns; spelets samlade wipepoäng räcker till 44 av dess 100 nivåer, +4,4 punkter) tar det ett skepp till 95 %, och förbi 100 % bara med bonusens gräns eller med Pilot-forskningen Field Theory (upp till +5 punkter), vilket värdet tillåter: en angripares sköldgenomträngning dras av från det. En Gudomlig uppsättning ger mellan 3 och 6 punkter.
+En **skölds absorptionsbonus** (och en sköldcells absorptionsökning) multiplicerar värdet, så den är värd punkter av [absorption](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) i proportion till det: +5 % på en Heavy Shield Cores 50 % är +2,5 punkter, och +15 % på varje del i den bästa uppsättningen (en Heavy Shield Core och tre Absorption Shield Cell IV, 80 % sammanlagt) är +12 punkter. En Evig uppsättning ger mellan +7 och +12 punkter, ungefär 10 i snitt; med säsongsbutikens Shield Absorbance Boost (+10 punkter vid sin gräns; en wipes wipepoäng räcker till 43 av dess 100 nivåer, +4,3 punkter) tar det ett skepp till 95 %, och förbi 100 % bara med bonusens gräns eller med Pilot-forskningen Field Theory (upp till +5 punkter), vilket värdet tillåter: en angripares sköldgenomträngning dras av från det. En Gudomlig uppsättning ger mellan 3 och 6 punkter.
 
 Motorer, styrraketer, adaptiva kärnor och Repair Drones påverkas mycket lite av en procentbonus (en Engine II ger 4 i fart, så +12 % är en halv punkt): smid dem om du vill ha nivån, inte för värdena.
 

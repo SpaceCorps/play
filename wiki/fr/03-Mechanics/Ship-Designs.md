@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a91659443751cfdb -->
+<!-- wiki-i18n source: 13ea8d311ddbcead -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -71,7 +71,7 @@ Ensemble, elles demandent 490 Dark Matter, en plus des 749 que demandent toutes 
 - **Des lasers peuvent perdre leur emplacement.** Un design avec moins d’emplacements de laser (BUCKY, RECON, DUMA, ATARAXIS) renvoie dans votre inventaire les lasers des emplacements qui disparaissent, avec leurs amplis et leurs tirages de la Forge. Un nouvel emplacement arrive vide.
 - **Coque et boucliers pleins** à la fin. Jusque-là, le vaisseau est verrouillé : on ne peut ni l’activer, ni l’équiper, ni le transformer de nouveau.
 - **Il n’y a pas de retour en arrière.** Pour un autre design, ou pour retrouver le vaisseau de base, vous fabriquez de nouveau le vaisseau dans l’Assemblage. Vous possédez un vaisseau de chaque type : un Paragon et un THUNDER peuvent être à vous en même temps, mais pas deux THUNDER.
-- **La réinitialisation** garde un design comme tout autre vaisseau que vous possédez.
+- **La réinitialisation** garde un design comme tout autre vaisseau que vous possédez. Une conversion encore en cours est annulée et remboursée, comme toute fabrication de votre file de production : le vaisseau reste tel qu’il était.
 
 ## Aspect et taille {#looks-and-size}
 

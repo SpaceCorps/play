@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -7,7 +7,7 @@
 Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin** (la pintura del casco), un **aura** (un resplandor suave alrededor de la nave), una **estela** (el color y la forma del rastro tras sus motores) y la **pintura** de tus drones. Un aspecto es solo de adorno: no da daño, ni casco, ni velocidad, no ocupa ranura y no cambia nada de lo que un disparo puede alcanzar.
 
 > [!NOTE]
-> **Todavía no se puede comprar ni ganar nada.** Por ahora un administrador concede cada aspecto. El hangar marca los que no tienes como «Aún no se puede conseguir», y cuando te dan uno te lo dice un aviso y suena un tintineo suave.
+> **Los aspectos no se pueden comprar.** El reinicio entrega los aspectos de temporada de los rangos más altos ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Algunos aspectos se encuentran en el [Archivo cromático (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), un contenedor; los demás los concede un administrador. Cuando un administrador te da un aspecto, te lo dice un aviso y suena un tintineo suave; un aspecto que ganas en el contenedor aparece en su tarjeta de resultado.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin**
 Una skin es un esquema de pintura hecho a partir del propio casco de la nave: sus líneas de panel, números y rayas se quedan y solo cambian los colores. Es para un **modelo de nave**, y la misma skin la llevan todas tus naves de ese modelo y todo [diseño](/wiki/03-Mechanics/Ship-Designs.md) hecho a partir de él; una conversión conserva el aspecto. El Protos aún no tiene skin, el Kitefin, el Ostirion y el Nomad tienen una colección, y las cuatro naves que fabricas en Ensamblaje tienen las diez.
 
 Las skins pertenecen a tu **cuenta**, no a una nave, y se quedan tras el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); tus naves llevan lo que llevaban.
+
+El [Archivo cromático](/wiki/06-Items/Containers.md#chroma-archive) puede dar cualquier colección salvo Bloody R.E.D, y da la colección entera de una vez: todas sus skins que aún no tienes.
 
 | Colección | Naves | Rareza | Cómo es |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ Un aura se queda dentro del anillo que marca una fijación y se dibuja debajo de
 - **Quitarse un aspecto.** La casilla **Liso** de la pestaña Skin devuelve a la nave su pintura lisa, y **Ninguna** quita el aura.
 - **Más de una nave.** El interruptor al pie de la hoja, **Aplicar también a mis otras naves de este modelo** para una skin y **Aplicar también a mis otras naves** para un aura o una estela, hace que un clic ponga el aspecto en todas.
 - **Dónde puedes cambiarlo.** Donde puedes cambiar tu equipo: atracado, o en una zona segura con la protección activa, como en [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Un aspecto que no tienes muestra **Aún no se puede conseguir**, aunque un contenedor pueda dártelo: el hangar no nombra el contenedor.
+
+<!-- containers-wardrobe:end -->
 
 ## Rareza {#rarity}
 

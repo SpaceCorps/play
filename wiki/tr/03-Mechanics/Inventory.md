@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Envanter -->
 # Envanter ve ekipman {#inventory-equipment}
 
@@ -28,7 +28,7 @@ Envanter, eşyalarını Mağaza’yla aynı sırayla listeler; onları hangi sı
 
 ## Satılabilir eşyalar {#marketable-items}
 
-Kazandığın eşyalar (düşenler, görev ödülleri ve Montaj ile Demirhane’nin ürettikleri) kutucuğunda küçük bir **Satılabilir** etiketi taşır; eşya kartında da “Satılabilir” yazar, yalnızca bazı adetleri satılabilen bir yığında ise “Satılabilir (5 adetten 3 tanesi)”. Kategori düğmelerinin yanındaki **Yalnız satılabilir** düğmesi yalnızca bu eşyaları gösterir. Etiketli bir eşyanın çöp kutusunun yanındaki **tokmak**, [Açık Artırma](/wiki/03-Mechanics/Auction.md) sayfasının satış penceresini açar (uçuşta görünmez: satış istasyonun bir sayfasıdır). Satın aldığın, lotta kazandığın ya da sana hediye edilen eşyaların etiketi yoktur ve tekrar satılamaz.
+Kazandığın eşyalar (düşenler, görev ödülleri ve Montaj ile Demirhane’nin ürettikleri) kutucuğunda küçük bir **Satılabilir** etiketi taşır; eşya kartında da “Satılabilir” yazar, yalnızca bazı adetleri satılabilen bir yığında ise “Satılabilir (5 adetten 3 tanesi)”. Kategori düğmelerinin yanındaki **Yalnız satılabilir** düğmesi yalnızca bu eşyaları gösterir. Etiketli bir eşyanın çöp kutusunun yanındaki **tokmak**, [Açık Artırma](/wiki/03-Mechanics/Auction.md) sayfasının satış penceresini açar (uçuşta görünmez: satış istasyonun bir sayfasıdır). Satın aldığın, lotta kazandığın ya da sana hediye edilen eşyaların etiketi yoktur ve tekrar satılamaz; [konteyner](/wiki/06-Items/Containers.md) ödülleri için de aynısı geçerlidir.
 
 ## Birden çok eşya seçme {#select-several-items}
 

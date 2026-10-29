@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventario -->
 # Inventario ed equipaggiamento {#inventory-equipment}
 
@@ -28,7 +28,7 @@ L’inventario elenca i tuoi oggetti nello stesso ordine del Negozio, qualunque 
 
 ## Oggetti vendibili {#marketable-items}
 
-Gli oggetti che hai guadagnato (bottino, ricompense delle missioni e ciò che fanno l’Assemblaggio e la Forgia) portano un piccolo contrassegno **Vendibile** sulla casella, e la scheda dell’oggetto dice «Vendibile» oppure, per una pila di cui si può vendere solo una parte, «Vendibile (3 / 5)». Il filtro **Solo vendibile** accanto ai filtri di categoria mostra solo questi oggetti. Un **martelletto** accanto al cestino di un oggetto contrassegnato apre la scheda di vendita dell’[Asta](/wiki/03-Mechanics/Auction.md) (in volo non compare: vendere è una pagina della stazione). Ciò che hai comprato, vinto o ricevuto in regalo non ha contrassegno e non si può rivendere.
+Gli oggetti che hai guadagnato (bottino, ricompense delle missioni e ciò che fanno l’Assemblaggio e la Forgia) portano un piccolo contrassegno **Vendibile** sulla casella, e la scheda dell’oggetto dice «Vendibile» oppure, per una pila di cui si può vendere solo una parte, «Vendibile (3 / 5)». Il filtro **Solo vendibile** accanto ai filtri di categoria mostra solo questi oggetti. Un **martelletto** accanto al cestino di un oggetto contrassegnato apre la scheda di vendita dell’[Asta](/wiki/03-Mechanics/Auction.md) (in volo non compare: vendere è una pagina della stazione). Ciò che hai comprato, vinto o ricevuto in regalo non ha contrassegno e non si può rivendere, e lo stesso vale per tutto ciò che dà un [contenitore](/wiki/06-Items/Containers.md).
 
 ## Selezionare più oggetti {#select-several-items}
 

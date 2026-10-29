@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-Genau in der Mitte von Gefahrensektor 4 (`DS-4`, dem Zentrum der PvP-Zone) hängt ein Schwarzes Loch im Dunkel. Es ist in jeder Welt (Alpha, Beta und Gamma) dasselbe, an jedem Tag der Saison, auch während des Friedensprotokolls. Es nimmt sich, was ihm zu nahe kommt, und gibt nur eines zurück: [Dark Matter](#dark-matter), für eine N.I.K.E.-Rakete, die hineingeschossen wird. Den ganzen Weg, von der Forschung bis zur Plate, beschreibt [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+Genau in der Mitte von Gefahrensektor 4 (`DS-4`, dem Zentrum der PvP-Zone) hängt ein Schwarzes Loch im Dunkel. Es ist in jeder Welt (Alpha, Beta und Gamma) dasselbe, an jedem Tag der Saison, auch während des Friedensprotokolls. Es nimmt sich, was ihm zu nahe kommt, und gibt nur eines zurück: [Dark Matter](#dark-matter), für eine N.I.K.E.-Rakete, die hineingeschossen wird. Den ganzen Weg, von der Forschung bis zur Plate, beschreibt [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). In den letzten 72 Stunden vor dem [Universums-Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) jeder Saison wächst es auf das 1,8-Fache seiner Größe ([Vor dem Wipe wächst es](#growing-before-the-wipe)); alles andere auf dieser Seite gilt für seine normale Größe.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Die Entfernungen gelten ab der Mitte des Sektors, in Karteneinheiten. Der Sektor
 | **Punkt ohne Wiederkehr** | etwa 1.000 bis 2.600 | Dort, wo der Sog dem Tempo deines Schiffs entspricht. Innerhalb davon wirst du selbst mit voller Kraft hineingezogen. Er hängt von deinem Tempo ab. |
 | **Ereignishorizont** | 300 | Jedes Schiff, das ihn erreicht, wird sofort zerstört, egal wie stark Hülle und Schild sind. |
 
-Die Portale von Gefahrensektor 4 und die Bahnen zwischen ihnen verlaufen alle weit außerhalb der Strahlung, sodass du ihr auf der Durchreise nie zufällig begegnest. Ab Saisontag 11 liegt im selben Sektor außerdem der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in seiner oberen linken Ecke, weit vom Loch entfernt; die Aliens dort kommen nie in die Ringe des Lochs.
+Die Portale von Gefahrensektor 4 und die Bahnen zwischen ihnen verlaufen alle weit außerhalb der Strahlung, sodass du ihr auf der Durchreise nie zufällig begegnest. Ab Saisontag 11 liegt im selben Sektor außerdem der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in seiner oberen linken Ecke, weit vom Loch entfernt; die Aliens dort kommen nie in die Ringe des Lochs. Die letzten Tage einer Saison sind die Ausnahme: siehe [Vor dem Wipe wächst es](#growing-before-the-wipe).
+
+## Vor dem Wipe wächst es {#growing-before-the-wipe}
+
+Das Schwarze Loch ist nicht die ganze Saison über gleich groß. In den letzten **72 Stunden** vor dem [Universums-Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) beginnt es zu wachsen, jede Sekunde ein kleines Stück, und ab **24 Stunden** vor dem Wipe bis zu ihm ist es **1,8-mal** so groß. Das gilt für jede seiner Längen: Ereignishorizont, Sog und Strahlung liegen 1,8-mal so weit von der Mitte entfernt, ebenso der Ring, um den dich der Server herumlenkt. Das Bild, die Ringe auf den Karten und die Geräusche wachsen mit.
+
+| | Normal | 48 Stunden davor (1,4-fach) | Ab 24 Stunden davor (1,8-fach) |
+| :--- | ---: | ---: | ---: |
+| **Ereignishorizont** | 300 | 420 | 540 |
+| **Sog** | 3.000 | 4.200 | 5.400 |
+| **Strahlung** | 4.000 | 5.600 | 7.200 |
+| **Lenkring** | 4.200 | 5.880 | 7.560 |
+
+Was sich nicht ändert, ist die Härte am gleichen Anteil des Wegs nach innen: Ein Schiff, das bei 1,8-fachem Loch 3.600 Einheiten von der Mitte entfernt ist, spürt, was ein Schiff 2.000 Einheiten von der Mitte an einem normalen Tag spürt (einen Sog von 96 Einheiten pro Sekunde und 2 % seiner HP pro Sekunde). Das vergrößerte Loch ist nicht stärker, sondern breiter, und ein Schiff braucht 1,8-mal so lange, es zu durchqueren. Der Punkt ohne Wiederkehr jedes Schiffs liegt 1,8-mal so weit draußen. Alle Entfernungen auf dieser Seite gelten für die normale Größe: Multipliziere sie mit der Größe des Lochs, um das vergrößerte Loch zu lesen.
+
+- **So siehst du es.** In den letzten 72 Stunden zeigen das Dashboard oben eine Karte und die Flugansicht ein Etikett über dem Schwarzen Loch, die bis zum Wipe herunterzählen („Universums-Wipe in 1d 05:12:33“) und sagen, wievielmal so groß das Loch gerade ist; in den letzten fünf Minuten übernimmt der eigene Countdown des Wipes. Der Tooltip der Minikarte nennt die Ringe in der Größe, die das Loch jetzt hat.
+- **Wann.** Die Größe hängt nur von der Uhr der Saison ab, ist also in jeder Welt gleich. Solange ein Admin die Saison auf einem Tag hält, ist nichts geplant und das Loch bleibt in seiner normalen Größe; wird der Saisontag verschoben, folgt das Loch sofort; die nächste Saison beginnt mit einem normalen Loch.
+- **Die Portale.** Die zwei Portale in den Ecken von `DS-4`, 17.000 Einheiten von der Mitte, und das Portal oben, 8.000 Einheiten von der Mitte, bleiben auch außerhalb der vergrößerten Strahlung (7.200) und des vergrößerten Lenkrings (7.560). Der Weg vom oberen Portal zu einem Eckportal kommt der Mitte bis auf 5.472 Einheiten nahe und liegt ab etwa 50 Stunden vor dem Wipe in der Strahlung; der zwischen den beiden Eckportalen (an seiner engsten Stelle 8.000 Einheiten) bleibt frei.
+- **Der Rest des Sektors.** Aliens jagen, streifen und erscheinen nie innerhalb des Lenkrings, sie werden also vor ihm hergetrieben, und nichts wird in ihm abgelegt; bei 1,8-facher Größe deckt er etwa ein Drittel des Sektors ab. Wer das Spiel in der vergrößerten Strahlung außerhalb des Sogs verlässt, kommt am nächsten freien Ort der Karte zurück, außerhalb des Rings. Ein Alien, das der Horizont oder die Strahlung erreicht, wird wie ein Schiff zerstört. Ein Bewegungsbefehl, der durch den Ring führen würde, wird um ihn herumgelenkt; ein Befehl, der im Ring endet, wird so geflogen, wie er gegeben wurde.
 
 ## Strahlung {#radiation}
 

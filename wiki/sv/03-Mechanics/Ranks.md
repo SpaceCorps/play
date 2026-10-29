@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
-Varje pilot har en **grad**, från Junior pilot till Senior amiral. Det är en militär stege i 8 nivåer med 3 steg vardera, 24 grader totalt. Din grad kommer av dina **PvE-poäng**: poängen du får för din nivå, din erfarenhet och de utomjordingar du förgör. Varje grad kräver ett **minimum** av PvE-poäng, och de sex bästa graderna har dessutom ett fast antal **platser** i varje koncern. Under flygning visar spelet bara en liten **symbol** framför en pilots namn, så att du på en blick skiljer en koncerns bästa piloter från en nykomling, och en pilot på hela servern bär en gyllene **krona** över sin symbol. Orden finns på Koncernsidan och i en symbols verktygstips.
+Varje pilot har en **grad**, från Junior pilot till Senior amiral. Det är en militär stege i 8 nivåer med 3 steg vardera, 24 grader totalt. Din grad kommer av dina **PvE-poäng**: poängen du får sedan den senaste wipen för de nivåer du går upp, din erfarenhet och de utomjordingar du förgör. Varje grad kräver ett **minimum** av PvE-poäng, och de sex bästa graderna har dessutom ett fast antal **platser** i varje koncern. Under flygning visar spelet bara en liten **symbol** framför en pilots namn, så att du på en blick skiljer en koncerns bästa piloter från en nykomling, och en pilot på hela servern bär en gyllene **krona** över sin symbol. Orden finns på Koncernsidan och i en symbols verktygstips.
 
 **På en minut**
 
@@ -13,7 +13,7 @@ Varje pilot har en **grad**, från Junior pilot till Senior amiral. Det är en m
 - Bara piloter med PvE-poäng som har flugit de senaste 30 dagarna finns på en lista. Alla andra är Junior pilot tills de flyger igen, och har ingen plats.
 - En gyllene **krona** över symbolen märker piloten med flest PvE-poäng på hela servern: alla koncerner, alla tre världarna.
 - Din grad rör sig. Upp till Senior överste beror den bara på dina poäng, så den kan bara stiga. De sex bästa graderna rör sig också med de andra piloterna i din koncern: de kan sjunka när andra tar platserna ovanför dig. Ett fall meddelas aldrig; en ny bästa grad gör det.
-- Wipen ändrar ingens poäng, så listorna börjar inte om.
+- Vid wipen börjar poängen om från noll, så listorna börjar om och varje säsong är en ny klättring. Din grad för säsongen hamnar i din historik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Det börjar med de nya reglernas första wipe: fram till dess är dina poäng dina poäng för hela karriären.)
 - Symbolen framför ett namn är graden: en form för nivån, ett till tre märken för steget.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Under flygning ser du **bara symbolen**, aldrig orden. Den står framför pilote
 
 ## Grader och wipe {#ranks-and-the-wipe}
 
-En wipe ändrar ingens poäng. Den behåller din nivå, din erfarenhet och din nedskjutningsstatistik ([Wipe-tidslinje](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), och dina PvE-poäng räknas fram ur dem, så din koncerns lista har samma ordning efter wipen, och det har graderna och kronan också. Din grad är ändå inte för livet: de sex bästa graderna rör sig med de andra piloterna i din koncern, och en pilot som är borta i 30 dagar lämnar listan tills han eller hon flyger igen.
+Vid wipen börjar dina PvE-poäng om från noll, så din koncerns lista börjar om och varje säsong är en ny klättring. Det som räknas är bara det du tjänar efter en wipe: de nivåer du går upp, erfarenheten och nedskjutningarna av utomjordingar i den nya säsongen ([Färska poäng](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Din nivå, din erfarenhet och din nedskjutningsstatistik ligger kvar i dina totalsiffror. **Heder avgör inte din grad.** Graden du hade i wipens ögonblick hamnar, med din plats på listan, i din säsongshistorik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Din grad gäller inte heller för alltid: de sex bästa graderna rör sig med de andra piloterna i din koncern, och en pilot som är borta i 30 dagar lämnar listan tills han eller hon flyger igen.
+
+De nya reglernas första wipe är den första som får poängen att börja om: fram till dess är de dina poäng för hela karriären, och den wipen stänger en säsong med de grader som listan då visar.
 
 ## Hur lång tid det tar {#how-long-it-takes}
 
 Det här är **uppskattningar** från en modell av hur snabbt en pilot jagar, inte mätningar. En pilot som jagar ungefär två timmar om dagen, 58 timmar under en säsong, har ungefär 21 200 PvE-poäng efter en säsong: Överste. Räknat i jakttimmar kommer minimum för Pilot inom den första timmen, för Sergeant efter 4, för Kapten efter 18, för Major efter 38, för Överste efter 55, för Junior general efter 67, för General efter 73, för Senior general efter 78, för Junior amiral efter 101, för Amiral efter 113 och för Senior amiral efter 124.
 
-En typisk aktiv pilot når alltså graderna med platser under sin andra säsong. Om han eller hon får en plats beror på de andra piloterna i koncernen, som också jagar: en grads platser spelar bara roll när fler piloter når dess minimum än den har platser. Fram till dess avgör bara dina poäng.
+En typisk aktiv pilot avslutar alltså en säsong som Överste, och graderna med platser, från Junior general och uppåt, kräver 67 till 124 timmars jakt under en säsong: ungefär 2 till 4 timmar om dagen. Om han eller hon får en plats beror på de andra piloterna i koncernen, som också jagar: en grads platser spelar bara roll när fler piloter når dess minimum än den har platser. Fram till dess avgör bara dina poäng.

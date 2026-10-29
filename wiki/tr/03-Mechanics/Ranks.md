@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Rütbeler -->
 # Rütbeler {#ranks}
 
-Her pilotun Genç Pilot ile Kıdemli Amiral arasında bir **rütbesi** vardır. Bu, her biri 3 dereceli 8 kademeden oluşan askerî bir rütbe sistemidir; toplam 24 rütbe. Rütben **PvE puanından** gelir: seviyenden, deneyiminden ve yok ettiğin uzaylılardan kazandığın puanlar. Her rütbe belli bir **en düşük puan** ister; en iyi altı rütbenin ayrıca her şirkette sabit sayıda **kontenjanı** vardır. Uçuşta oyun bir pilotun adının önünde yalnızca küçük bir **simge** gösterir; böylece bir şirketin en iyi pilotlarını yeni başlayandan bir bakışta ayırt edebilirsin. Tüm sunucuda tek bir pilot da simgesinin üzerinde altın bir **taç** taşır. Rütbenin adı Şirket sayfasında ve bir simgenin ipucunda yazar.
+Her pilotun Genç Pilot ile Kıdemli Amiral arasında bir **rütbesi** vardır. Bu, her biri 3 dereceli 8 kademeden oluşan askerî bir rütbe sistemidir; toplam 24 rütbe. Rütben **PvE puanından** gelir: son sıfırlamadan beri yükselttiğin seviyelerden, deneyiminden ve yok ettiğin uzaylılardan kazandığın puanlar. Her rütbe belli bir **en düşük puan** ister; en iyi altı rütbenin ayrıca her şirkette sabit sayıda **kontenjanı** vardır. Uçuşta oyun bir pilotun adının önünde yalnızca küçük bir **simge** gösterir; böylece bir şirketin en iyi pilotlarını yeni başlayandan bir bakışta ayırt edebilirsin. Tüm sunucuda tek bir pilot da simgesinin üzerinde altın bir **taç** taşır. Rütbenin adı Şirket sayfasında ve bir simgenin ipucunda yazar.
 
 **Bir dakikada**
 
@@ -13,7 +13,7 @@ Her pilotun Genç Pilot ile Kıdemli Amiral arasında bir **rütbesi** vardır. 
 - Bir listede yalnızca PvE puanı olan ve son 30 günde uçmuş pilotlar bulunur. Diğer herkes yeniden uçana kadar Genç Pilot rütbesinde sayılır ve hiçbir kontenjan tutmaz.
 - Simgenin üzerindeki **altın taç**, tüm sunucuda en çok PvE puanı olan pilotu işaretler: her şirket, üç dünyanın hepsi.
 - Rütben değişir. Kıdemli Albay rütbesine kadar yalnızca puanına bağlıdır; bu yüzden asla düşmez, yalnızca yükselir. En iyi altı rütbe şirketindeki diğer pilotlarla da değişir: başkaları senin üstündeki kontenjanları alırsa düşebilirsin. Düşüş asla duyurulmaz; yeni bir en iyi rütbe duyurulur.
-- Sıfırlama kimsenin puanını değiştirmez, bu yüzden listeler baştan başlamaz.
+- Sıfırlamada puanlar sıfırdan yeniden başlar, bu yüzden listeler baştan başlar ve her sezon yeni bir tırmanıştır. Sezon rütben geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Bu, yeni kuralların ilk sıfırlamasıyla başlar: o zamana kadar puanların tüm kariyerinin puanlarıdır.)
 - Bir adın önündeki simge rütbedir: kademe için bir şekil, derece için bir ila üç işaret.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Uçuşta **yalnızca simgeyi** görürsün, sözcükleri asla. Simge pilotun ad�
 
 ## Rütbeler ve sıfırlama {#ranks-and-the-wipe}
 
-Bir sıfırlama kimsenin puanını değiştirmez. Seviyeni, deneyimini ve öldürme istatistiklerini korur ([Sıfırlama zaman çizelgesi](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)); PvE puanların da bunlardan hesaplandığı için şirketinin listesi sıfırlamadan sonra aynı sıradadır, rütbeler ve taç da öyle. Yine de rütben ömür boyu değildir: en iyi altı rütbe şirketindeki diğer pilotlara göre değişir ve 30 gün uzak kalan pilot yeniden uçana kadar listeden çıkar.
+Sıfırlamada PvE puanların sıfırdan yeniden başlar, bu yüzden şirketinin listesi baştan başlar ve her sezon yeni bir tırmanıştır. Yalnızca bir sıfırlamadan sonra kazandıkların sayılır: yeni sezonda yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri ([Taze puanlar](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Seviyen, deneyimin ve öldürme istatistiklerin toplam sayılarında kalır. **Onur rütbeni belirlemez.** Sıfırlama anında taşıdığın rütbe, listedeki yerinle birlikte sezon geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Rütben ömür boyu da değildir: en iyi altı rütbe, şirketindeki diğer pilotlarla birlikte hareket eder ve 30 gün uzak kalan bir pilot, yeniden uçana kadar listeden çıkar.
+
+Yeni kuralların ilk sıfırlaması, puanları yeniden başlatan ilk sıfırlamadır: o zamana kadar bunlar tüm kariyerinin puanlarıdır ve o sıfırlama, listenin o an gösterdiği rütbelerle bir sezonu kapatır.
 
 ## Ne kadar sürer {#how-long-it-takes}
 
 Bunlar ölçüm değil, bir pilotun ne kadar hızlı avlandığına dair bir modelden çıkan **tahminlerdir**. Günde yaklaşık iki saat, yani bir sezonda 58 saat avlanan bir pilotun bir sezon sonunda yaklaşık 21.200 PvE puanı olur: Albay. Av saati olarak: Pilot için ilk saat içinde, Çavuş için 4 saatte, Yüzbaşı için 18, Binbaşı için 38, Albay için 55, Genç General için 67, General için 73, Kıdemli General için 78, Genç Amiral için 101, Amiral için 113 ve Kıdemli Amiral için 124 saatte en düşük puana ulaşılır.
 
-Yani tipik bir aktif pilot, kontenjanlı rütbelere ikinci sezonunda ulaşır. Bir kontenjan alıp almayacağı, onlar da avlanan şirketindeki diğer pilotlara bağlıdır: bir rütbenin kontenjanları, ancak en düşük puanına kontenjanından fazla pilot ulaştığında önem kazanır. O zamana kadar rütben yalnızca puanlarına bağlıdır.
+Yani tipik bir aktif pilot bir sezonu Albay olarak bitirir; kontenjanlı rütbeler, yani Genç General’den itibaren, bir sezonda 67 ile 124 saat avlanmayı ister: günde yaklaşık 2 ile 4 saat. Bir kontenjan alıp almayacağı, onlar da avlanan şirketindeki diğer pilotlara bağlıdır: bir rütbenin kontenjanları, ancak en düşük puanına kontenjanından fazla pilot ulaştığında önem kazanır. O zamana kadar rütben yalnızca puanlarına bağlıdır.

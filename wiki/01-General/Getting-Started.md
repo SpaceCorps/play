@@ -16,7 +16,7 @@ Welcome to the ultimate space warfare experience. As a pilot in SpaceCorps, you 
 To survive and thrive, you must manage two currencies and keep an eye on your Honor. The materials you build with are on the [Resources](/wiki/06-Items/Resources.md) page, with where to get each one and what it is for:
 - **Credits**: The primary standard currency, paid by every alien you defeat and by finished missions, and made by the Credit Farm of your [Skylab](/wiki/03-Mechanics/Skylab.md). Used to buy basic gear, ships, and standard equipment.
 - **Thulium**: The rare radioactive ore and high-value currency, paid by every alien you defeat and by finished missions, and made by the Thulium Farm of your Skylab. Used to purchase elite weaponry, engines, hybrid shields, and powerful booster packs, to upgrade modules in the Assembly, to change company (5,000), to boost the Research Centre (5,000) and for every jump of a Jump CPU (500).
-- **Honor**: A score, not money: a measure of your loyalty and standing. Honor does not set your [rank](/wiki/03-Mechanics/Ranks.md), which comes from your PvE points and, for the six best ranks, from the places your company has, and attacking friendly pilots from your own faction will heavily penalize your Honor rating: destroying a pilot of your own company, a player's ship or one of its [Company Pilots](/wiki/03-Mechanics/Company-Pilots.md), costs 100 Honor. So does hitting one in the 15 seconds before something else destroys it: softening up a company mate for an alien to finish costs as much as the kill. Killing a company mate is no PvP kill and earns no PvP points. Changing company takes half of your Honor, rounded down; an Honor of 0 or less stays as it is ([Changing Your Company](#changing-your-company)).
+- **Honor**: A score, not money: a measure of your loyalty and standing. Honor does not set your [rank](/wiki/03-Mechanics/Ranks.md), which comes from your PvE points of the season and, for the six best ranks, from the places your company has, and attacking friendly pilots from your own faction will heavily penalize your Honor rating: destroying a pilot of your own company, a player's ship or one of its [Company Pilots](/wiki/03-Mechanics/Company-Pilots.md), costs 100 Honor. So does hitting one in the 15 seconds before something else destroys it: softening up a company mate for an alien to finish costs as much as the kill. Killing a company mate is no PvP kill and earns no PvP points. Changing company takes half of your Honor, rounded down; an Honor of 0 or less stays as it is ([Changing Your Company](#changing-your-company)).
 
 In the station your Credits, Thulium and Honor sit in the top right corner of every page, beside your sector and the **Launch** button. When the window is too narrow for a long amount it is shortened (987.7M); point at it to read the whole number.
 
@@ -28,6 +28,8 @@ Click a pilot's name in the Hall of Fame (**Community › Rankings**), on the **
 - **Time played.** How long the pilot's game has been connected to the server, in hours and minutes ("128 h 15 min", "45 min"), in flight or at the station. Time spent standing still counts too. Counting began with 0.4.12, so for a pilot who played before it, it is the time since that update.
 
 Both are public, like level and rank: any signed-in pilot can read them on a profile. The season's wipe does not reset them.
+
+Beyond your profile, **Community › Achievements** keeps your career goals, with their rewards and titles: see [Achievements](/wiki/03-Mechanics/Achievements.md).
 
 ## Changing Your Company
 

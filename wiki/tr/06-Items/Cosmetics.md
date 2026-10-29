@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2df8d024d1874b4 -->
+<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
 <!-- wiki-i18n title: Kozmetikler -->
 # Kozmetikler {#cosmetics}
 
@@ -7,7 +7,7 @@
 Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **skin** (gövdenin boyası), bir **aura** (geminin çevresinde yumuşak bir parıltı), bir **egzoz** (motorlarının arkasındaki izin rengi ve biçimi) ve dronlarının **kaplaması**. Görünüm yalnızca gösteriş içindir: hasar, gövde ya da hız eklemez, yuva kaplamaz ve bir merminin isabet edebileceği hiçbir şeyi değiştirmez.
 
 > [!NOTE]
-> **Henüz hiçbir şey satın alınamaz ya da kazanılamaz.** Şimdilik her görünümü bir yönetici verir. Sahip olmadıkların hangarda “Henüz edinilemez” olarak işaretlenir; birini sana verdiklerinde bir bildirim haber verir ve yumuşak bir zil sesi çalar.
+> **Görünümler satın alınamaz.** Sıfırlama en yüksek rütbelere sezon görünümlerini verir ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Bazı görünümler bir konteyner olan [Kroma Arşivi (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)’nde bulunur, diğerlerini bir yönetici verir. Bir yönetici sana bir görünüm verdiğinde bir bildirim haber verir ve yumuşak bir zil sesi çalar; konteynerde kazandığın görünüm sonuç kartında gösterilir.
 
 ![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
@@ -25,6 +25,8 @@ Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **ski
 Skin, geminin kendi gövdesinden yapılmış bir boya düzenidir: panel çizgileri, numaralar ve şeritler kalır, yalnızca renkler değişir. Tek bir **gemi modeli** içindir; aynı skini o modelden sahip olduğun her gemi ve ondan yapılmış her [tasarım](/wiki/03-Mechanics/Ship-Designs.md) giyer; dönüştürme görünümü korur. Protos gemisinin henüz skini yok; Kitefin, Ostirion ve Nomad gemilerinin bir koleksiyonu var, Montaj’da ürettiğin dört geminin ise on koleksiyonun tamamı var.
 
 Skinler bir gemiye değil, **hesabına** aittir ve [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) boyunca kalır; gemilerin giydiklerini giymeye devam eder.
+
+[Kroma Arşivi](/wiki/06-Items/Containers.md#chroma-archive) Bloody R.E.D dışındaki her koleksiyonu verebilir ve bir koleksiyonu tek seferde bütünüyle verir: sende olmayan tüm skinleri.
 
 | Koleksiyon | Gemiler | Nadirlik | Nasıl görünür |
 | :--- | :--- | :--- | :--- |
@@ -97,6 +99,13 @@ Aura, kilitlenmeyi işaretleyen çemberin içinde kalır ve bir geminin çevresi
 - **Görünümü çıkarmak.** Skin sekmesindeki **Sade** kutucuğu geminin sade boyasını geri koyar, **Yok** ise aurayı çıkarır.
 - **Birden fazla gemi.** Panelin altındaki anahtar, skin için **Bu modeldeki diğer gemilerime de uygula**, aura veya egzoz için **Diğer tüm gemilerime de uygula**, tek bir tıklamayla görünümü hepsine giydirir.
 - **Nerede değiştirebilirsin.** Ekipmanını değiştirebildiğin yerde: kenetliyken ya da koruması açık bir güvenli bölgede, [Uçuşta Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open) sayfasındaki gibi.
+
+<!-- containers-wardrobe:begin -->
+<!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
+
+Sahip olmadığın bir görünümde, bir konteyner onu verebilse bile **Henüz edinilemez** yazar: hangar konteynerin adını söylemez.
+
+<!-- containers-wardrobe:end -->
 
 ## Nadirlik {#rarity}
 

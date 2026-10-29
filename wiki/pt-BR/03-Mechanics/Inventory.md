@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da8af0d25d34a2c4 -->
+<!-- wiki-i18n source: 2614a979fa3ece0b -->
 <!-- wiki-i18n title: Inventário -->
 # Inventário e equipamento {#inventory-equipment}
 
@@ -28,7 +28,7 @@ O inventário lista seus itens na mesma ordem da Loja, seja qual for a ordem em 
 
 ## Itens vendáveis {#marketable-items}
 
-Os itens que você ganhou (drops, recompensas de missões e o que a Montagem e a Forja fazem) levam uma pequena etiqueta **Vendável** no bloco, e o cartão do item diz “Vendável” ou, numa pilha da qual só parte pode ser vendida, “Vendável (3 de 5)”. O chip **Somente vendável**, ao lado dos chips de categoria, mostra só esses itens. Um **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do [Leilão](/wiki/03-Mechanics/Auction.md) (ele não aparece em voo: vender é uma página da estação). O que você comprou, ganhou em lote ou recebeu de presente não tem etiqueta e não pode ser vendido de novo.
+Os itens que você ganhou (drops, recompensas de missões e o que a Montagem e a Forja fazem) levam uma pequena etiqueta **Vendável** no bloco, e o cartão do item diz “Vendável” ou, numa pilha da qual só parte pode ser vendida, “Vendável (3 de 5)”. O chip **Somente vendável**, ao lado dos chips de categoria, mostra só esses itens. Um **martelo** ao lado da lixeira de um item com etiqueta abre a folha de venda do [Leilão](/wiki/03-Mechanics/Auction.md) (ele não aparece em voo: vender é uma página da estação). O que você comprou, ganhou em lote ou recebeu de presente não tem etiqueta e não pode ser vendido de novo, e o mesmo vale para tudo o que um [contêiner](/wiki/06-Items/Containers.md) dá.
 
 ## Selecionar vários itens {#select-several-items}
 

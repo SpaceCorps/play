@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -29,6 +29,8 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 - **Unter Kern-Level 10** kannst du nicht forschen und in der Montage noch nichts Neues herstellen. Die Station-Missionen führen dich den Kern hinauf.
 
 <!-- research-centre:end -->
+
+**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) schließt die Forschung, die gerade läuft, sofort ab, wenn ihre Technologie höchstens 24 Stunden zum Erforschen braucht (135 der 151 Technologien). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die sie noch nicht verbrannt hat, bleibt in deinem Tank, und die nächste Technologie deiner Warteschlange startet sofort.
 
 **Die Laserverstärker und die letzte Stufe.** Die Damage, Crit und Penetration Amps der Stufen II bis IV werden wie alles andere erforscht. Piloten, die beim Erscheinen der Amp-Linien Amps besaßen oder in Auftrag hatten, erhielten die Technologie jedes dieser Amps und der Stufen darunter. Dreizehn Technologien brauchen eine Technologie eines anderen Baums, die der Dark Matter Plate aus dem Baum Ressourcen, weil die letzte Stufe jeder Aufwertungskette vier Plates und eine Ancient Control Unit verlangt: die Damage, Crit und Penetration Amps der Stufe IV, die Absorption und Capacity Shield Cells der Stufe IV, die Impulse und Momentum Thrusters der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Wer eine davon früher erforscht hat, behält sie und braucht die Technologie der Plate, um ihre Plates herzustellen. Der Baum unten zeichnet dafür keinen Pfeil, aber die Tabelle führt sie auf, und die Karte im Spiel nennt sie ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 - **Versiegelte Hintertür** erhöht das Tragelimit jeder Rakete, wo auch immer du sie kaufst, baust oder tauschst.
 - **Baggerabbau** erhöht, was du aus jeder Kiste eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) nimmst, Thulium wie Erz.
 - **Feldtheorie** erhöht den Anteil jedes Treffers, den deine Schilde aufnehmen. Ein Schiff ohne Schild bekommt nichts.
-- **Schlummerndes Wissen** zahlt Wipe-Punkte, einmal pro Stufe, wenn seine Forschung im Zentrum fertig wird. Außer der vorherigen Stufe braucht es einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Stufen von „Schlummerndes Wissen“ nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
+- **Schlummerndes Wissen** zahlt Wipe-Punkte für jede Stufe, wenn seine Forschung im Zentrum fertig wird, und nach jedem Wipe noch einmal ([Wipe-Punkte verdienen](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Außer der vorherigen Stufe braucht es einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Stufen von „Schlummerndes Wissen“ nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

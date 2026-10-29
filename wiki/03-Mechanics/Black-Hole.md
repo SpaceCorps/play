@@ -1,6 +1,6 @@
 # The Black Hole
 
-In the exact middle of Danger Sector 4 (`DS-4`, the centre of the PvP zone), a black hole hangs in the dark. It is the same in every world (Alpha, Beta and Gamma), on every day of the season, the Peace Protocol included. It takes what comes too close, and it gives back one thing: [Dark Matter](#dark-matter), for a N.I.K.E. rocket fired into it. For the whole path, from the research to the plate, see [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+In the exact middle of Danger Sector 4 (`DS-4`, the centre of the PvP zone), a black hole hangs in the dark. It is the same in every world (Alpha, Beta and Gamma), on every day of the season, the Peace Protocol included. It takes what comes too close, and it gives back one thing: [Dark Matter](#dark-matter), for a N.I.K.E. rocket fired into it. For the whole path, from the research to the plate, see [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). In the last 72 hours before each season's [Universe Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) it grows to 1.8 times its size ([Growing Before the Wipe](#growing-before-the-wipe)); everything else on this page is its normal size.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -16,7 +16,25 @@ Distances are from the centre of the sector, in map units. The sector is 32,000 
 | **Point of no return** | about 1,000 to 2,600 | Where the pull equals your ship's speed. Inside it, even at full power, you are drawn in. It depends on your speed. |
 | **Event horizon** | 300 | Any ship that reaches it is destroyed at once, whatever its hull and shield. |
 
-The portals of Danger Sector 4 and the lanes between them all pass well outside the radiation, so you never meet it by accident on the way through. From season day 11 the same sector also holds the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in its top-left corner, far from the hole; the aliens there never come into the hole's rings.
+The portals of Danger Sector 4 and the lanes between them all pass well outside the radiation, so you never meet it by accident on the way through (but for the last days of a season, see [Growing Before the Wipe](#growing-before-the-wipe)). From season day 11 the same sector also holds the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in its top-left corner, far from the hole; the aliens there never come into the hole's rings.
+
+## Growing Before the Wipe
+
+The black hole is not the same size all season. In the last **72 hours** before the [Universe Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) it starts to grow, a little every second, and from **24 hours** before the wipe until it happens it is **1.8 times** its size. That means every length of it: the event horizon, the pull and the radiation are 1.8 times as far from the centre, and so is the ring the server steers you round. The picture, the rings on the maps and the sounds grow with it.
+
+| | Normal | 48 hours before (1.4 times) | From 24 hours before (1.8 times) |
+| :--- | ---: | ---: | ---: |
+| **Event horizon** | 300 | 420 | 540 |
+| **Pull** | 3,000 | 4,200 | 5,400 |
+| **Radiation** | 4,000 | 5,600 | 7,200 |
+| **Steering ring** | 4,200 | 5,880 | 7,560 |
+
+What does not change is how hard it is at the same share of the way in: a ship 3,600 units from the centre, with the hole at 1.8 times, feels what a ship 2,000 units out feels on a normal day (a pull of 96 units a second and 2 % of its HP a second). The grown hole is not stronger, it is wider, and a ship needs 1.8 times as long to cross it. The point of no return of every ship lies 1.8 times as far out. All the distances on this page are the normal size: multiply them by the hole's size to read the grown hole.
+
+- **How you see it.** For the last 72 hours the Dashboard has a card at the top, and the flight view a label over the black hole, that count down to the wipe ("Universe Wipe in 1d 05:12:33") and say how many times its size the hole is now; in the last five minutes the wipe's own countdown takes over. The minimap's tooltip names the rings of the size the hole has now.
+- **When.** The size depends only on the season's clock, so it is the same in every world. While an admin holds the season on a day nothing is scheduled and the hole stays at its normal size; when the season day is moved, the hole follows at once; the next season starts with a normal hole.
+- **The portals.** The two portals in the corners of `DS-4`, 17,000 units from the centre, and the portal at the top, 8,000 units from the centre, stay outside even the grown radiation (7,200) and steering ring (7,560). The lane from the top portal to a corner portal comes within 5,472 units of the centre and is inside the radiation from about 50 hours before the wipe; the one between the two corner portals (8,000 units at its nearest) stays clear.
+- **The rest of the sector.** Aliens never hunt, roam or appear inside the steering ring, so they are driven out ahead of it, and nothing is laid down inside it; at 1.8 times it covers about a third of the sector. A pilot who leaves the game inside the grown radiation, outside the pull, comes back on the nearest free place of the map, outside the ring. An alien that the horizon or the radiation reaches is destroyed, like a ship. A move order that would cross the ring is steered round it; an order that ends inside the ring is flown as given.
 
 ## Radiation
 
@@ -96,7 +114,7 @@ The fall from the point of no return starts slowly: a ship a few units inside it
 
 A ship that reaches 300 units from the centre is destroyed. A ship whose hull runs out under the radiation on the way is destroyed by the radiation instead. Either way:
 
-- It is an ordinary destruction: you choose where to come back (see [Dying and Coming Back](/wiki/01-General/Getting-Started.md)), with at most 10,000 hull and an empty shield (see that page), and it costs what a destruction always costs. "On the spot" never puts you back inside the ring: it moves you to the nearest point outside it (4,500 units from the centre) and tells you.
+- It is an ordinary destruction: you choose where to come back (see [Dying and Coming Back](/wiki/01-General/Getting-Started.md)), with at most 10,000 hull and an empty shield (see that page), and it costs what a destruction always costs. "On the spot" never puts you back inside the ring: it moves you to the nearest point outside it (4,500 units from the centre at the normal size) and tells you.
 - **No wreck, no crate, no loot**, and no honor lost.
 - Your destruction is credited like a PvP kill to the **last enemy pilot who hit your ship in the 15 seconds before it died**: a pilot of another company (where and when PvP is allowed), however small the hit. It is a kill in their statistics and PvP ranking points by your ship type, nothing else. A single shot is enough, and if nobody of another company hit you in those 15 seconds, nobody gets anything.
 - Company mates who hit your ship in those 15 seconds still lose the friendly-fire honor, whatever destroyed it.
@@ -120,7 +138,7 @@ Settings help where the hole is heavy or hard on the eyes: **Reduce Motion** sto
 
 ## Staying Out
 
-- The server steers you: a move order that would take your ship across the ring of radiation (4,200 units from the centre, a little wider than the radiation itself) is flown **around** it, along its edge, instead. Orders that end inside the ring are flown as given; going in is your choice. Routes across the sector cost up to a fifth longer, the lanes between the portals nothing.
+- The server steers you: a move order that would take your ship across the ring of radiation (4,200 units from the centre at the normal size, a little wider than the radiation itself) is flown **around** it, along its edge, instead. Orders that end inside the ring are flown as given; going in is your choice. Routes across the sector cost up to a fifth longer, the lanes between the portals nothing.
 - The chat's **System** tab warns you as you cross the edge of the radiation, the edge of the pull and your own point of no return, and again when you are clear. These lines are not in **Global** or **Local**.
 - If you leave the game in the radiation, outside the pull, you come back on the ring's outer edge, holding position, with the hull you had. If you leave it **inside the pull** (3,000 units), you come back exactly where you left it, with the hull you had, and the fall goes on: logging out is no way out of the black hole.
 - An older version of the game does not show the black hole. It still gets the warnings and the steering, and it can still fly into the ring by ordering it.

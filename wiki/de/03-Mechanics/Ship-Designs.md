@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a91659443751cfdb -->
+<!-- wiki-i18n source: 13ea8d311ddbcead -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -71,7 +71,7 @@ Zusammen verlangen sie 490 Dark Matter zusätzlich zu den 749, die alle anderen 
 - **Laser können ihren Slot verlieren.** Ein Design mit weniger Laser-Slots (BUCKY, RECON, DUMA, ATARAXIS) schickt die Laser der wegfallenden Slots samt ihren Verstärkern und ihren Schmiedewürfen zurück in dein Inventar. Ein neuer Slot kommt leer.
 - **Volle Hülle und volle Schilde**, wenn er fertig ist. Bis dahin ist das Schiff gesperrt: Es lässt sich nicht aktiv setzen, nicht ausrüsten und nicht noch einmal umbauen.
 - **Es gibt keinen Weg zurück.** Für ein anderes Design oder wieder das normale Schiff baust du das Schiff in der Montage noch einmal. Du besitzt ein Schiff jeder Art, also können dir eine Paragon und ein THUNDER gleichzeitig gehören, aber nicht zwei THUNDER.
-- **Der Wipe** behält ein Design wie jedes andere Schiff, das dir gehört.
+- **Der Wipe** behält ein Design wie jedes andere Schiff, das dir gehört. Ein Umbau, der noch läuft, wird abgebrochen und zurückerstattet wie jede Herstellung in deiner Produktionswarteschlange: Das Schiff bleibt, wie es war.
 
 ## Aussehen und Größe {#looks-and-size}
 

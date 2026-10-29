@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: ac003a9cc851adcb -->
+<!-- wiki-i18n source: 3bcad21ba05a2824 -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
-Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma escada militar de 8 categorias com 3 graus cada, 24 patentes no total. A sua patente vem dos seus **pontos PvE**: os pontos que você ganha pelo seu nível, pela sua experiência e pelos alienígenas que destrói. Cada patente exige um **mínimo** de pontos PvE, e as seis melhores patentes também têm um número fixo de **vagas** em cada corporação. Em voo, o jogo mostra só um pequeno **símbolo** antes do nome de um piloto, para você distinguir de relance os melhores pilotos de uma corporação de um novato, e um piloto de todo o servidor usa uma **coroa** dourada sobre o símbolo. As palavras estão na página Corporação e na dica de um símbolo.
+Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma escada militar de 8 categorias com 3 graus cada, 24 patentes no total. A sua patente vem dos seus **pontos PvE**: os pontos que você ganha desde o último reset pelos níveis que sobe, pela sua experiência e pelos alienígenas que destrói. Cada patente exige um **mínimo** de pontos PvE, e as seis melhores patentes também têm um número fixo de **vagas** em cada corporação. Em voo, o jogo mostra só um pequeno **símbolo** antes do nome de um piloto, para você distinguir de relance os melhores pilotos de uma corporação de um novato, e um piloto de todo o servidor usa uma **coroa** dourada sobre o símbolo. As palavras estão na página Corporação e na dica de um símbolo.
 
 **Em um minuto**
 
@@ -13,7 +13,7 @@ Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma e
 - Só estão em uma lista os pilotos com pontos PvE que voaram nos últimos 30 dias. Todos os outros são Piloto júnior até voltarem a voar, e não ocupam vaga.
 - Uma **coroa** dourada sobre o símbolo marca o piloto com mais pontos PvE de todo o servidor: todas as corporações, os três mundos.
 - A sua patente se move. Até Coronel sênior, ela depende só dos seus pontos, então só sobe. As seis melhores patentes também se movem com os outros pilotos da sua corporação: podem cair quando outros ocupam as vagas acima de você. Uma queda nunca é anunciada; uma nova melhor patente é.
-- O reset não muda os pontos de ninguém, então as listas não recomeçam do zero.
+- No reset os pontos recomeçam do zero, então as listas recomeçam e cada temporada é uma nova subida. A sua patente da temporada vai para o seu histórico e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Isso começa com o primeiro reset das novas regras: até lá, os seus pontos são os da sua carreira inteira.)
 - O símbolo antes de um nome é a patente: uma forma para a categoria, de uma a três marcas para o grau.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -195,10 +195,12 @@ Abra **Economia › Corporação**. A seção **Ranking da corporação** mostra
 
 ## Patentes e o reset {#ranks-and-the-wipe}
 
-Um reset não muda os pontos de ninguém. Ele mantém o seu nível, a sua experiência e as suas estatísticas de abates ([Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)), e os seus pontos PvE são calculados a partir deles, então o ranking da sua corporação fica na mesma ordem depois do reset, e as patentes e a coroa também. A sua patente já não é para a vida toda, porém: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias fora sai do ranking até voltar a voar.
+No reset os seus pontos PvE recomeçam do zero, então o ranking da sua corporação recomeça e cada temporada é uma nova subida. Só conta o que você ganha depois de um reset: os níveis que sobe, a experiência e os abates de alienígenas da nova temporada ([Pontos novos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). O seu nível, a sua experiência e as suas estatísticas de abates ficam nos seus totais. **A honra não define a sua patente.** A patente que você tinha no instante do reset vai para o histórico das suas temporadas, com a sua posição no ranking, e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A sua patente também não é para a vida toda: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias ausente sai do ranking até voar de novo.
+
+O primeiro reset das novas regras é o primeiro a recomeçar os pontos: até lá, eles são os da sua carreira inteira, e esse reset encerra uma temporada com as patentes que o ranking mostrar então.
 
 ## Quanto tempo leva {#how-long-it-takes}
 
 Estas são **estimativas** de um modelo de quão rápido um piloto caça, não medições. Um piloto que caça cerca de duas horas por dia, 58 horas em uma temporada, tem cerca de 21.200 pontos PvE depois de uma temporada: Coronel. Em horas de caça, o mínimo de Piloto chega dentro da primeira hora, o de Sargento em 4, o de Capitão em 18, o de Major em 38, o de Coronel em 55, o de General júnior em 67, o de General em 73, o de General sênior em 78, o de Almirante júnior em 101, o de Almirante em 113 e o de Almirante sênior em 124.
 
-Assim, um piloto ativo típico alcança as patentes com vagas na sua segunda temporada. Conseguir uma vaga depende dos outros pilotos da sua corporação, que também caçam: as vagas de uma patente só pesam quando mais pilotos alcançam o mínimo dela do que ela tem de vagas. Até lá, a patente é simplesmente a dos seus pontos.
+Assim, um piloto ativo típico termina uma temporada como Coronel, e as patentes com vagas, de General júnior para cima, pedem de 67 a 124 horas de caça numa temporada: cerca de 2 a 4 horas por dia. Conseguir uma vaga depende dos outros pilotos da sua corporação, que também caçam: as vagas de uma patente só pesam quando mais pilotos alcançam o mínimo dela do que ela tem de vagas. Até lá, a patente é simplesmente a dos seus pontos.

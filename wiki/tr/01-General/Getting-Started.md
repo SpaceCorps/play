@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Başlarken -->
 # SpaceCorps’a başlarken {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ En üst düzey uzay savaşı deneyimine hoş geldin. SpaceCorps’ta bir pilot o
 Hayatta kalmak ve gelişmek için iki para birimini yönetmeli ve onuruna göz kulak olmalısın. Üretimde kullandığın malzemeler, her birinin nereden edinileceği ve ne işe yaradığıyla birlikte [Kaynaklar](/wiki/06-Items/Resources.md) sayfasındadır:
 - **Kredi**: Ana standart para birimi; yendiğin her uzaylı ve tamamlanan görevler öder, [Skylab’ının](/wiki/03-Mechanics/Skylab.md) Kredi Çiftliği üretir. Temel donanım, gemi ve standart ekipman satın almak için kullanılır.
 - **Thulium**: Nadir, radyoaktif cevher ve yüksek değerli para birimi; yendiğin her uzaylı ve tamamlanan görevler öder, Skylab’ının Thulium Çiftliği üretir. Elit silahlar, motorlar, hibrit kalkanlar ve güçlü booster paketleri satın almak, Montaj’da modülleri yükseltmek, şirket değiştirmek (5.000), Araştırma Merkezi’ni hızlandırmak (5.000) ve bir Jump CPU ile yapılan her sıçrama için (500) kullanılır.
-- **Onur**: Para değil, bir puan: sadakatinin ve itibarının ölçüsü. Onur [rütbeni](/wiki/03-Mechanics/Ranks.md) belirlemez; rütben PvE puanından ve en iyi altı rütbe için şirketinin kontenjanlarından gelir. Kendi şirketinden dost pilotlara saldırmak onur puanını ağır biçimde düşürür: kendi şirketinden bir pilotu (bir oyuncunun gemisini ya da [Şirket pilotlarından](/wiki/03-Mechanics/Company-Pilots.md) birini) yok etmek 100 onura mal olur. Başka bir şey onu yok etmeden önceki 15 saniyede ona vurmak da aynı bedeli taşır: bir şirket arkadaşını bir uzaylı bitirsin diye yıpratmak, öldürmenin kendisi kadar pahalıya mal olur. Bir şirket arkadaşını öldürmek PvP öldürmesi sayılmaz ve PvP puanı kazandırmaz. Şirket değiştirmek onurunun yarısını alır, aşağı yuvarlanır; 0 ya da daha düşük bir onur olduğu gibi kalır ([Şirket değiştirme](#changing-your-company)).
+- **Onur**: Para değil, bir puan: sadakatinin ve itibarının ölçüsü. Onur [rütbeni](/wiki/03-Mechanics/Ranks.md) belirlemez; rütben sezonluk PvE puanından ve en iyi altı rütbe için şirketinin kontenjanlarından gelir. Kendi şirketinden dost pilotlara saldırmak onur puanını ağır biçimde düşürür: kendi şirketinden bir pilotu (bir oyuncunun gemisini ya da [Şirket pilotlarından](/wiki/03-Mechanics/Company-Pilots.md) birini) yok etmek 100 onura mal olur. Başka bir şey onu yok etmeden önceki 15 saniyede ona vurmak da aynı bedeli taşır: bir şirket arkadaşını bir uzaylı bitirsin diye yıpratmak, öldürmenin kendisi kadar pahalıya mal olur. Bir şirket arkadaşını öldürmek PvP öldürmesi sayılmaz ve PvP puanı kazandırmaz. Şirket değiştirmek onurunun yarısını alır, aşağı yuvarlanır; 0 ya da daha düşük bir onur olduğu gibi kalır ([Şirket değiştirme](#changing-your-company)).
 
 İstasyonda kredin, Thulium’un ve onurun her sayfanın sağ üst köşesinde, sektörünün ve **Uçuşa çık** düğmesinin yanında durur. Pencere uzun bir miktar için fazla dar olduğunda miktar kısaltılır (987,7Mn); tamamını okumak için üzerine gel.
 
@@ -30,6 +30,8 @@ Hayatta kalmak ve gelişmek için iki para birimini yönetmeli ve onuruna göz k
 - **Oynama süresi.** Pilotun oyununun sunucuya ne kadar süredir bağlı olduğu, saat ve dakika olarak (“128 sa 15 dk”, “45 dk”), uçuşta ya da istasyonda. Hareketsiz geçirilen süre de sayılır. Sayım 0.4.12 ile başladı; bu yüzden ondan önce oynamış bir pilot için süre, o güncellemeden bu yana geçen süredir.
 
 İkisi de seviye ve rütbe gibi herkese açıktır: giriş yapmış her pilot bunları bir profilde okuyabilir. Sezonun sıfırlaması bunlara dokunmaz.
+
+Profilinin ötesinde, **Topluluk › Başarımlar** kariyer hedeflerini ödülleri ve unvanlarıyla birlikte tutar: bkz. [Başarımlar](/wiki/03-Mechanics/Achievements.md).
 
 ## Şirket değiştirme {#changing-your-company}
 

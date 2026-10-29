@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 4098dc3490a3a550 -->
+<!-- wiki-i18n source: e483b8e10231ca94 -->
 <!-- wiki-i18n title: Agujero negro -->
 # El agujero negro {#the-black-hole}
 
 <!-- wiki-search: black hole -->
 
-En el centro exacto del sector de peligro 4 (`DS-4`, el centro de la zona PvP), un agujero negro cuelga en la oscuridad. Es el mismo en todos los mundos (Alpha, Beta y Gamma), todos los días de la temporada, incluido el Protocolo de paz. Se lleva lo que se acerca demasiado y devuelve una sola cosa: [Dark Matter](#dark-matter), por un cohete N.I.K.E. disparado contra él. El camino entero, de la investigación a la plate, está en [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
+En el centro exacto del sector de peligro 4 (`DS-4`, el centro de la zona PvP), un agujero negro cuelga en la oscuridad. Es el mismo en todos los mundos (Alpha, Beta y Gamma), todos los días de la temporada, incluido el Protocolo de paz. Se lleva lo que se acerca demasiado y devuelve una sola cosa: [Dark Matter](#dark-matter), por un cohete N.I.K.E. disparado contra él. El camino entero, de la investigación a la plate, está en [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md). En las últimas 72 horas antes del [reinicio del universo](/wiki/03-Mechanics/Wipe-Timeline.md) de cada temporada crece hasta 1,8 veces su tamaño ([Crecimiento antes del reinicio](#growing-before-the-wipe)); todo lo demás de esta página es su tamaño normal.
 
 ![A Wraith approaches the black hole from 3,500 units: the radiation and pull rings lie around it like a gravity well](../../img/wiki-img/shots/black-hole-approach.jpg)
 ![Looking down on the black hole from 1,300 units: the shadow, the photon ring and the spiral of the accretion disk, with the starfield bent around it](../../img/wiki-img/shots/black-hole-closeup.jpg)
@@ -20,7 +20,25 @@ Las distancias se miden desde el centro del sector, en unidades del mapa. El sec
 | **Punto de no retorno** | de unos 1.000 a 2.600 | Donde la atracción iguala la velocidad de tu nave. Dentro de él, ni a toda potencia puedes evitar que te arrastre. Depende de tu velocidad. |
 | **Horizonte de sucesos** | 300 | Toda nave que lo alcanza es destruida al instante, sean cuales sean su casco y su escudo. |
 
-Los portales del sector de peligro 4 y las rutas entre ellos pasan todos muy por fuera de la radiación, así que nunca te la encuentras por accidente al cruzar. Desde el día 11 de la temporada el mismo sector contiene además el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), en su esquina superior izquierda, lejos del agujero; los alienígenas de allí nunca entran en los anillos del agujero.
+Los portales del sector de peligro 4 y las rutas entre ellos pasan todos muy por fuera de la radiación, así que nunca te la encuentras por accidente al cruzar. Desde el día 11 de la temporada el mismo sector contiene además el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), en su esquina superior izquierda, lejos del agujero; los alienígenas de allí nunca entran en los anillos del agujero. Los últimos días de una temporada son la excepción: consulta [Crecimiento antes del reinicio](#growing-before-the-wipe).
+
+## Crecimiento antes del reinicio {#growing-before-the-wipe}
+
+El agujero negro no tiene el mismo tamaño toda la temporada. En las últimas **72 horas** antes del [reinicio del universo](/wiki/03-Mechanics/Wipe-Timeline.md) empieza a crecer, un poco cada segundo, y desde **24 horas** antes del reinicio hasta que ocurre mide **1,8 veces** su tamaño. Eso vale para todas sus longitudes: el horizonte de sucesos, la atracción y la radiación quedan 1,8 veces más lejos del centro, y también el anillo alrededor del cual te guía el servidor. La imagen, los anillos de los mapas y los sonidos crecen con él.
+
+| | Normal | 48 horas antes (1,4 veces) | Desde 24 horas antes (1,8 veces) |
+| :--- | ---: | ---: | ---: |
+| **Horizonte de sucesos** | 300 | 420 | 540 |
+| **Atracción** | 3.000 | 4.200 | 5.400 |
+| **Radiación** | 4.000 | 5.600 | 7.200 |
+| **Anillo de guiado** | 4.200 | 5.880 | 7.560 |
+
+Lo que no cambia es lo dura que es la zona a la misma fracción del camino hacia dentro: una nave a 3.600 unidades del centro, con el agujero a 1,8 veces, siente lo que siente una nave a 2.000 unidades en un día normal (una atracción de 96 unidades por segundo y el 2 % de sus HP por segundo). El agujero crecido no es más fuerte, es más ancho, y una nave tarda 1,8 veces más en cruzarlo. El punto de no retorno de cada nave queda 1,8 veces más lejos. Todas las distancias de esta página son del tamaño normal: multiplícalas por el tamaño del agujero para leer el agujero crecido.
+
+- **Cómo se ve.** En las últimas 72 horas el Dashboard tiene arriba una tarjeta, y la vista de vuelo una etiqueta sobre el agujero negro, que cuentan hacia atrás hasta el reinicio («Reinicio del universo en 1d 05:12:33») y dicen cuántas veces su tamaño mide ahora el agujero; en los últimos cinco minutos toma el relevo la cuenta atrás propia del reinicio. La descripción emergente del minimapa nombra los anillos con el tamaño que tiene ahora el agujero.
+- **Cuándo.** El tamaño depende solo del reloj de la temporada, así que es el mismo en todos los mundos. Mientras un administrador mantiene la temporada en un día, no hay nada programado y el agujero conserva su tamaño normal; si se cambia el día de la temporada, el agujero lo sigue al instante; la temporada siguiente empieza con un agujero normal.
+- **Los portales.** Los dos portales de las esquinas de `DS-4`, a 17.000 unidades del centro, y el portal de arriba, a 8.000 unidades del centro, quedan fuera incluso de la radiación crecida (7.200) y del anillo de guiado crecido (7.560). La ruta del portal de arriba a un portal de esquina pasa a 5.472 unidades del centro y está dentro de la radiación desde unas 50 horas antes del reinicio; la que va entre los dos portales de esquina (8.000 unidades en su punto más cercano) sigue libre.
+- **El resto del sector.** Los alienígenas nunca cazan, merodean ni aparecen dentro del anillo de guiado, así que los empuja por delante, y nada se deja caer dentro de él; con 1,8 veces su tamaño cubre alrededor de un tercio del sector. Un piloto que sale de la partida dentro de la radiación crecida, fuera de la atracción, vuelve en el lugar libre más cercano del mapa, fuera del anillo. Un alienígena al que alcanzan el horizonte o la radiación es destruido, como una nave. Una orden de movimiento que cruzaría el anillo se guía alrededor de él; una orden que termina dentro del anillo se vuela tal como se dio.
 
 ## Radiación {#radiation}
 

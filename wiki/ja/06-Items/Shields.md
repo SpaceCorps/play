@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 574007c029169684 -->
+<!-- wiki-i18n source: 53565b70c10d22d1 -->
 <!-- wiki-i18n title: シールド -->
 # シールドと防御 {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 **Heavy Shield Core** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Basic Shield Core から作ります。4,000 Thulium、Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。消費したコアのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に Basic Shield Core を艦から外してください（中のセルも取り出します）。装備されたままのコアや、セルが入ったままのコアは消費されません。
 
-**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～50%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**80%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+2、+3、+5ポイント）です。現時点のワイプポイントの入手元は、上限まで集めて合計1,105ポイント（ワイプをまたいで持ち越されます。入手元は今後増える予定です）で、100レベルのうち44レベル（+4.4ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**95%**、Field Theory III を加えると約**99%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
+**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～50%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**80%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+2、+3、+5ポイント）です。ワイプポイントの入手元は、1回のワイプで最大1,090ポイント（ワイプのたびにやり直しになります）で、最初のワイプで100レベルのうち43レベル（+4.3ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**95%**、Field Theory III を加えると約**99%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
 
 ---
 

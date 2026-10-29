@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bf21d6bfa3ac17e9 -->
+<!-- wiki-i18n source: b5ea1a2768714e5b -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkan mekaniği {#shield-mechanics}
 
@@ -60,10 +60,10 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 #### %100’e ulaşmak ve aşmak {#reaching-and-passing-100-}
 
 - **Bonussuz**: en fazla %80 (yukarıda).
-- **Shield Absorbance Boost**: sıfırlama puanıyla satın alınan kalıcı bir Sezon Mağazası güçlendirmesi, **seviye başına +0,1 puan, en fazla +10 puan** (100 seviye, her biri 25 WP). Geminin soğurmasına sabit puan ekler, kalkanı olan her gemide aynıdır: %80, 4 seviyeyle (100 WP) %80,4 olur; Light Shield Core için %45 olan soğurma 12 seviyeyle (300 WP) %46,2 olur. Kalkan takılı olmayan bir gemi %0’da kalır. 100 seviye 2.500 WP tutar, birkaç sıfırlamalık bir hedeftir: bugünkü sıfırlama puanı kaynakları (öldürme kilometre taşları, görevler ve beş Dormant Knowledge araştırması) üst sınırlarında toplam 1.105 WP öder, sıfırlamalar boyunca taşınır ve bu 44 seviye, +4,4 puan alır. Daha fazla sıfırlama puanı kaynağı planlanıyor. Bkz. [Sezon ve sıfırlama puanları](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Shield Absorbance Boost**: sıfırlama puanıyla satın alınan kalıcı bir Sezon Mağazası güçlendirmesi, **seviye başına +0,1 puan, en fazla +10 puan** (100 seviye, her biri 25 WP). Geminin soğurmasına sabit puan ekler, kalkanı olan her gemide aynıdır: %80, 4 seviyeyle (100 WP) %80,4 olur; Light Shield Core için %45 olan soğurma 12 seviyeyle (300 WP) %46,2 olur. Kalkan takılı olmayan bir gemi %0’da kalır. 100 seviye 2.500 WP tutar, birkaç sıfırlamalık bir hedeftir: sıfırlama puanı kaynakları (öldürme kilometre taşları, görevler ve beş Dormant Knowledge araştırması) bir sıfırlamada en fazla 1.090 WP öder ve her sıfırlamada yeniden başlar, rütben sıfırlamada 5 ile 400 arası ekler ve 1.090 WP 43 seviye, +4,3 puan alır. Bkz. [Sezon ve sıfırlama puanları](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Demirhane**: kalkanlar ve kalkan hücreleri, özelliği çarpan bir **Soğurma** bonusu alabilir: %50’lik bir kalkanda +%5, +2,5 puandır. Tam dövülmüş Ebedi bir en iyi set (bir çekirdek ve üç hücre, her bonus en üst değerde, +%15) 12 puana kadar ekler, ortalama yaklaşık 10 (bkz. [Demirhane](/wiki/06-Items/Forge.md)).
 - **Field Theory**: Pilot araştırması Field Theory I, II ve III ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) bütün gemilerinin soğurmasına, her seviye bir öncekinin üstüne eklenmeden, toplamda **+2, +3 ve +5 puan** ekler; bedeli kredi, Thulium ve Dark Matter’dır. Sezon Mağazası güçlendirmesi gibi kalkanı olan her gemide sabit puandır ve sıfırlamadan sonra da kalır.
-- **Birlikte**: bonussuz %80, +4,4 puan güçlendirme (bugünkü 1.105 sıfırlama puanının tamamı), en fazla +12 puan Demirhane bonusu ve Field Theory III’ten +5 puan bugün en fazla **%101,4** eder; güçlendirmenin 100 seviyesinin hepsiyle (+10 puan, 2.500 WP) %107 olurdu. Ne güçlendirme, ne Demirhane, ne de Field Theory tek başına %100’e ulaşır; oraya varmak üçünü de ister, birkaç sıfırlamalık bir hedeftir ve daha fazla sıfırlama puanı kaynağı planlanıyor.
+- **Birlikte**: bonussuz %80, +4,3 puan güçlendirme (bir sıfırlamanın 1.090 sıfırlama puanı), en fazla +12 puan Demirhane bonusu ve Field Theory III’ten +5 puan bir sıfırlamadan sonra en fazla **%101,3** eder; güçlendirmenin 100 seviyesinin hepsiyle (+10 puan, 2.500 WP) %107 olurdu. Ne güçlendirme, ne Demirhane, ne de Field Theory tek başına %100’e ulaşır; oraya varmak üçünü de ister, birkaç sıfırlamalık bir hedeftir.
 
 ### Kalkan güçlendirmeleri: kapasite, soğurma, dolum {#shield-boosts-capacity-absorbance-recharge}
 

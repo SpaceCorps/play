@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 29ae34b1821388da -->
+<!-- wiki-i18n source: 34a2374428c61ba0 -->
 <!-- wiki-i18n title: Primeros pasos -->
 # Primeros pasos en SpaceCorps {#getting-started-in-spacecorps}
 
@@ -18,7 +18,7 @@ Te damos la bienvenida a la experiencia definitiva de guerra espacial. Como pilo
 Para sobrevivir y prosperar, tienes que gestionar dos monedas y no perder de vista tu honor. Los materiales con los que construyes están en la página [Recursos](/wiki/06-Items/Resources.md), con dónde conseguir cada uno y para qué sirve:
 - **Créditos**: La moneda estándar principal. Te la paga cada alienígena que derrotas y cada misión que terminas, y la produce la Granja de créditos de tu [Skylab](/wiki/03-Mechanics/Skylab.md). Sirve para comprar equipo básico, naves y equipamiento estándar.
 - **Thulium**: El raro mineral radiactivo y moneda de alto valor. Te lo paga cada alienígena que derrotas y cada misión que terminas, y lo produce la Granja de Thulium de tu Skylab. Sirve para comprar armamento de élite, motores, escudos híbridos y potentes paquetes de potenciadores, para mejorar módulos en Ensamblaje, para cambiar de corporación (5.000), para dar un impulso al Centro de investigación (5.000) y por cada salto de una Jump CPU (500).
-- **Honor**: Una puntuación, no dinero: mide tu lealtad y tu reputación. El honor no determina tu [rango](/wiki/03-Mechanics/Ranks.md), que sale de tus puntos PvE y, en los seis mejores rangos, de las plazas que tiene tu corporación, y atacar a pilotos aliados de tu propia facción castiga duramente tu honor: destruir a un piloto de tu propia corporación, ya sea la nave de un jugador o uno de sus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), cuesta 100 de honor. Lo mismo cuesta alcanzarlo en los 15 segundos antes de que otra cosa lo destruya: debilitar a un compañero de corporación para que lo remate un alienígena cuesta tanto como derribarlo. Matar a un compañero de corporación no cuenta como derribo PvP y no da puntos PvP. Cambiar de corporación te quita la mitad de tu honor, redondeada hacia abajo; un honor de 0 o menos se queda como está ([Cambiar de corporación](#changing-your-company)).
+- **Honor**: Una puntuación, no dinero: mide tu lealtad y tu reputación. El honor no determina tu [rango](/wiki/03-Mechanics/Ranks.md), que sale de tus puntos PvE de la temporada y, en los seis mejores rangos, de las plazas que tiene tu corporación, y atacar a pilotos aliados de tu propia facción castiga duramente tu honor: destruir a un piloto de tu propia corporación, ya sea la nave de un jugador o uno de sus [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md), cuesta 100 de honor. Lo mismo cuesta alcanzarlo en los 15 segundos antes de que otra cosa lo destruya: debilitar a un compañero de corporación para que lo remate un alienígena cuesta tanto como derribarlo. Matar a un compañero de corporación no cuenta como derribo PvP y no da puntos PvP. Cambiar de corporación te quita la mitad de tu honor, redondeada hacia abajo; un honor de 0 o menos se queda como está ([Cambiar de corporación](#changing-your-company)).
 
 En la estación, tus Créditos, tu Thulium y tu Honor están arriba a la derecha de cada página, junto a tu sector y al botón **Despegar**. Si la ventana es demasiado estrecha para una cifra larga, se abrevia (987,7M); apunta con el cursor para leer el número completo.
 
@@ -30,6 +30,8 @@ Haz clic en el nombre de un piloto en el Salón de la Fama (**Comunidad › Clas
 - **Tiempo de juego.** Cuánto tiempo ha estado el juego del piloto conectado al servidor, en horas y minutos («128 h 15 min», «45 min»), en vuelo o en la estación. El tiempo que pasas quieto también cuenta. El recuento empezó con 0.4.12, así que para un piloto que jugó antes es el tiempo desde esa actualización.
 
 Ambos son públicos, como el nivel y el rango: cualquier piloto con sesión iniciada puede leerlos en un perfil. El reinicio de la temporada no los restablece.
+
+Además de tu perfil, **Comunidad › Logros** guarda las metas de tu carrera, con sus recompensas y títulos: mira [Logros](/wiki/03-Mechanics/Achievements.md).
 
 ## Cambiar de corporación {#changing-your-company}
 

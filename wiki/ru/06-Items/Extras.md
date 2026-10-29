@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 705e5e6b80d24ab7 -->
+<!-- wiki-i18n source: 94c08c10784360fd -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
@@ -42,19 +42,19 @@ Repair Drone II | extra, common | buy 15000 Credits | /wiki/06-Items/Extras.md#r
 Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#repair-drones
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 20 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#jump-cpu
 
-P.E.T. Station I -> P.E.T. Station II -> P.E.T. Station III
+P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
@@ -97,7 +97,7 @@ S, M и L работают одинаково: большие наборы ли�
 - **Убийства.** Корабль, уничтоженный стеной, погибает от излучения, и убийство засчитывается последнему вражескому пилоту, который попал по нему за 15 секунд, если такой был. Тот, кто поставил стену, не получает ничего за то, что не отстрелял сам. Пришелец, уничтоженный стеной, ничего не приносит: ни награды, ни добычи.
 - **Пришельцы её не обходят.** Они пролетают сквозь неё и горят либо стоят со своей стороны и стреляют по стене.
 - **Что вы видите.** Полоса бело-голубого света с яркими штрихами, бегущими вдоль неё, и столбом света на каждом конце; она вспыхивает там, где попал выстрел, и мерцает, когда почти исчерпана. Стена 2-го уровня светится жёлтым, с более толстой и яркой сердцевиной и более сильным свечением, но её полоса шириной те же 10 единиц, что и у стены 1-го уровня. Рядом тонкая полоска жизни укорачивается и становится янтарной, а затем красной; ваш слот показывает оставшуюся жизнь стены дугой, а ожидание тенью. Поставленная стена вспыхивает, сбитая рассыпается искрами, а та, у которой вышло время, угасает. Число на слоте показывает и сколько стен его уровня у вас осталось.
-- **Как получить и носить.** Energetic Wall I продаётся в магазине по **250 Thulium** за стену, и вы носите до **20** в одной стопке (то, что вы выставили на [Аукционе](/wiki/03-Mechanics/Auction.md), тоже считается). Energetic Wall II делают в Сборочном цехе, **по одной стене за изготовление**, за **600 Thulium**, 5 Ship Fragment и 1 Power Core, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)); её вы носите до **10**. Как и ракеты, стены, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а стены в тайнике использовать нельзя. Energetic Wall II, сделанную вами, можно продать на Аукционе; Energetic Wall I, которую продаёт магазин, — никогда.
+- **Как получить и носить.** Energetic Wall I продаётся в магазине по **250 Thulium** за стену, и вы носите до **20** в одной стопке (то, что вы выставили на [Аукционе](/wiki/03-Mechanics/Auction.md), тоже считается). Energetic Wall II делают в Сборочном цехе, **по одной стене за изготовление**, за **600 Thulium**, 5 Ship Fragment и 1 Power Core, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)); её вы носите до **10**. В отличие от двенадцати ракет, из которых по 1 000 каждого вида переносятся сами, стены, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а стены в тайнике использовать нельзя. Energetic Wall II, сделанную вами, можно продать на Аукционе; Energetic Wall I, которую продаёт магазин, — никогда.
 
 ## CPU Исследовательского центра {#research-cpus}
 

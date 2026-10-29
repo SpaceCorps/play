@@ -1,11 +1,11 @@
-<!-- wiki-i18n source: 7e6fcc29e20b237c -->
+<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
-拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。飞行中它以窗口的形式打开：左上角工具栏中的**拍卖行**按钮（拍卖槌）会把同一个页面显示在游戏之上，窗口的位置和大小会被记住。它的用法和在空间站里一样，只是弹药、火箭和 EMP Charge 在飞行中由飞船计数，所以要从空间站挂出（出售窗口会把它们显示为锁定，并写明原因）；购买和竞价在哪里都可以。它分为五个部分。**市场**是其他飞行员在卖的东西，在他们的挂单之间还有会飞的商人的存货：拍卖行列出的每一种东西，价格都是商店的许多倍，显示为带有他金色名字、**NPC** 徽章和无穷符号的行；商店不出售的东西贵到向他购买只是最后手段，制造所用的稀有资源还要再贵一千倍（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**求购单**是飞行员想买的东西，你也在这里发布自己的求购单（[求购单](#buy-orders)）。**拍品**是游戏自己的出售，每小时三个。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
+拍卖行是飞行员之间的市场，也是游戏自己每小时开出的拍品，都在空间站菜单的同一个页面里。飞行中它以窗口的形式打开：左上角工具栏中的**拍卖行**按钮（拍卖槌）会把同一个页面显示在游戏之上，窗口的位置和大小会被记住。它的用法和在空间站里一样，只是弹药、火箭和 EMP Charge 在飞行中由飞船计数，所以要从空间站挂出（出售窗口会把它们显示为锁定，并写明原因）；购买和竞价在哪里都可以。它分为五个部分。**市场**是其他飞行员在卖的东西，在他们所有的挂单之后是会飞的商人的存货：拍卖行列出的每一种东西，价格都是商店的许多倍，显示为带有他金色名字、**NPC** 徽章和无穷符号的行；商店不出售的东西贵到向他购买只是最后手段，制造所用的稀有资源还要再贵一千倍（[Davidski](/wiki/03-Mechanics/Davidski.md)）。**求购单**是飞行员想买的东西，你也在这里发布自己的求购单（[求购单](#buy-orders)）。**拍品**是游戏自己的出售，每小时三个。**我的挂单**是你自己在卖的东西。**记录**是你的出售、购买、你赢得的拍品，以及你的交易表现。
 
 ![The hourly Lots: the ammo, rockets and EMP Charges the Auction puts up every hour, for Credits](../../img/wiki-img/shots/auction-lots.jpg)
-![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock stands among the pilots' listings as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
+![A listing picked in the Auction: the lots to buy, the price and what it leaves of your daily limit; Davidski's stock is in the list as rows marked NPC](../../img/wiki-img/shots/auction-market.jpg)
 ![My listings: the open ones with their time left, and what was sold or cancelled recently](../../img/wiki-img/shots/auction-mine.jpg)
 ![The sell sheet: the item, the lot size, the currency, the price with its Minimum, Quick and Fair chips, the time and the fees](../../img/wiki-img/shots/auction-sell.jpg)
 ![The Auction in flight: its page opens in a window over the game, from the gavel button of the toolbar](../../img/wiki-img/shots/auction-window.jpg)
@@ -139,7 +139,7 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 **市场**显示其他飞行员在卖的东西。可以用**分类标签**缩小列表（每种物品类型一个，标出其中的挂单数量），再按名称搜索，按附魔和货币筛选，按价格、最先结束或最新排序。选一个挂单，可以看到它是什么、谁在卖、还剩多久，以及它的价格与上一次成交价、当前最低价和商店价格相比如何。一叠按整数组购买。大额购买会再让你确认一次。卖家立刻收到款项（扣除税）；你不用付押金，也不用付税。你买到的东西**不可交易**：页面会在**购买**按钮旁写上“你得到的：不可交易”，因为只有你赚来的东西才能出售。你不能买自己的挂单。你正在看的挂单如果被别人买走，会提示“该上架物品已不存在。”
 
-**Davidski 的行**排在飞行员的挂单之间。他出售的每一种东西都有一行信用点和一行 Thulium，带有他金色的名字、**NPC** 徽章，数量和剩余时间处是无穷符号：他的存货永不枯竭，他也从不关门。搜索、分类标签以及附魔和货币筛选会像对待任何挂单一样缩小他的行（他的物品是标准品质，所以选其他附魔时不会显示）；按价格时，它们排在数字所在的位置，紧挨着飞行员的价格，在**即将结束**和**最新**下则排在飞行员的挂单之后。选一行，**购买**就会交给他，而不是飞行员（[Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)）：他的价格是商店的许多倍，每日购买限额不计入他，没有卖家可付款，得到的东西不可交易。价格提示、记录和统计里都没有他，这些只属于飞行员。
+**Davidski 的行**排在飞行员的挂单之后。他出售的每一种东西都有一行信用点和一行 Thulium，带有他金色的名字、**NPC** 徽章，数量和剩余时间处是无穷符号：他的存货永不枯竭，他也从不关门。搜索、分类标签以及附魔和货币筛选会像对待任何挂单一样缩小他的行（他的物品是标准品质，所以选其他附魔时不会显示）；无论选哪种排序（**价格最低**、**即将结束**或**最新**），它们都排在最后一个飞行员挂单之后，不管有多便宜，两组各自的内部则按你选的排序。列表是一页一页加载的，所以要等飞行员挂单的最后一页加载完，它们才会出现：一直点**显示更多**，直到它消失。选一行，**购买**就会交给他，而不是飞行员（[Davidski](/wiki/03-Mechanics/Davidski.md#buying-from-him)）：他的价格是商店的许多倍，每日购买限额不计入他，没有卖家可付款，得到的东西不可交易。价格提示、记录和统计里都没有他，这些只属于飞行员。
 
 ## 求购单 {#buy-orders}
 
@@ -276,7 +276,7 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 拍卖行跟随赛季（见[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md)）。最后两天没有费用。从第 30 天起，也就是重置的五分钟倒计时开始时，它关闭：不能挂单、购买、求购或出价，当时结束的拍品会被取消并退还出价，你仍然可以取消自己的挂单。挂单不会持续到赛季结束之后。
 
-重置时，**每个开放的挂单都会回到卖家手中**，成为散件，然后重置会像删除其他散件一样把它们删除（只有你放进[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)的东西会留下）：所以想留下的东西，要么卖掉，要么取消后放进储藏库。仍在开放的拍品会被取消，出价会退还。你开放的求购单也会结束：它们仍冻结的价款会全额退回你的钱包，押金则损失。信用点和 Thulium 不会被重置。
+重置时，**每个开放的挂单都会回到卖家手中**，成为散件，然后重置会像删除其他散件一样把它们删除（只有你放进[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)的东西会留下）：所以想留下的东西，要么卖掉，要么取消后放进储藏库。仍在开放的拍品会被取消，出价会退还。你开放的求购单也会结束：它们仍冻结的价款会全额退回你的钱包，押金则损失。信用点和 Thulium 同样不会被重置，直到[上限](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)：从拍品出价和求购单退回你钱包的钱，会在应用上限之前计入。
 
 ## 拍卖行不能给你的 {#what-the-auction-does-not-give-you}
 

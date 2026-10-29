@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 06a677028504364c -->
+<!-- wiki-i18n source: 492ba57b6e46a186 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -29,6 +29,8 @@
 - **核心低于 10 级时**无法研究，所以在装配站里还不能制造任何新东西。空间站任务会带你把核心升上去。
 
 <!-- research-centre:end -->
+
+**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（151 项科技中的 135 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -319,8 +321,8 @@ Hull Plating II => Hull Plating III
 
 ```tree research
 P.E.T. Station I | extra, common | craft 100000 Credits, 2000 Thulium, 300 s | research 10800 s, 10800 science | 25 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station II | extra, uncommon | craft 400000 Credits, 6000 Thulium, 600 s | research 36000 s, 36000 science | 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 8 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
-P.E.T. Station III | extra, rare | craft 1500000 Credits, 18000 Thulium, 900 s | research 86400 s, 86400 science | 120 Ship Fragment, 12 Reinforced Hull Plate, 8 Power Core, 2 Ancient Control Unit, 12 Velkonite Reinforced Plate, 4 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s | research 86400 s, 86400 science | 1 P.E.T. Station II, 60 Ship Fragment, 6 Reinforced Hull Plate, 4 Power Core, 2 Ancient Control Unit, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
 
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
@@ -352,7 +354,7 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 - **密封后门** 提高每种火箭的携带上限，无论你在哪里购买、制造或交易。
 - **挖掘机采矿** 提高你从[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)每个箱子里拿到的数量，Thulium 和矿石都一样。
 - **场论** 提高你的护盾对每次命中所吸收的比例。没有护盾的船得不到任何加成。
-- **沉睡的知识** 在研究于研究中心完成时，每一级支付一次重置点数。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，“沉睡的知识”这五项不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
+- **沉睡的知识** 在研究于研究中心完成时，每一级都会支付重置点数，每次重置之后还会再支付一次（[赚取重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，“沉睡的知识”这五项不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
 
 <!-- research-pilot:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
