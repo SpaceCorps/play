@@ -44,7 +44,7 @@ Danno di un colpo, in ogni mondo:
 - Un razzo viene lanciato a 90% della portata che lo stesso razzo ha in mano a un pilota, perché arrivi; una torretta laser spara una volta al secondo, e il suo danno viene tirato nell’intervallo indicato.
 - Un N.I.K.E. ha una penetrazione dello scudo pari a 35%, che viene tolta dall’assorbimento di uno scudo.
 - Il razzo della torretta, N.I.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 1.125 unità al secondo, 8.100 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
-- Un N.U.K.E. esplode su un raggio di 900 unità, con più forza al centro.
+- Un N.U.K.E. esplode su un raggio di 1.350 unità, con più forza al centro.
 - Il razzo della torretta, N.U.K.E., vola più veloce (25%) e più lontano (2×) del tuo: 375 unità al secondo, 2.400 unità in tutto, perciò una nave che gli sfugge viene inseguita a lungo.
 
 <!-- swamp-guns:end -->

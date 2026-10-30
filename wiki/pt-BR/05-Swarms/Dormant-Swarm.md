@@ -16,6 +16,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 - **Seguidores**: 2 × Dormant Pulse, voando com o líder
 - **Os seguidores ficam a**: até 700 unidades do líder
 - **Líder destruído**: Dormant Pulse assume a liderança
+- **Líder destruído**: Os seguidores vão embora 30 s depois que o líder é destruído, estejam atacando ou não
 - **Deslocamento**: Fica 8 a 15 min num mapa, depois voa até o portão de outro setor de perigo. Nunca usa os portões que saem dos setores de perigo e nunca entra no anel do buraco negro
 - **Volta**: 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório
 - **A partir do dia 11 da temporada**: Aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4` em vez de num setor de perigo aleatório, volta 30 min depois que o enxame inteiro é destruído, e cada nave paga ×2 (créditos, Thulium, XP e honra; o espólio continua o mesmo)

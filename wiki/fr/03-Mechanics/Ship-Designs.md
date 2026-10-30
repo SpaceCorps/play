@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 13ea8d311ddbcead -->
+<!-- wiki-i18n source: 9a99707f7425b7d0 -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -40,8 +40,8 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Storm NOTSUM** | 100 000 | 15 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100 000 | 15 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100 000 | 15 | 250 | 45 | 15 | 3 |
-| **Ironclad DUMA** | 100 000 | 9 | 50 | 450 | 15 | 5 |
-| **Ironclad TITANIC** | 100 000 | 24 | 50 | 450 | 15 | 5 |
+| **Ironclad DUMA** | 100 000 | 9 | 50 | 100 | 15 | 5 |
+| **Ironclad TITANIC** | 100 000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100 000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100 000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |

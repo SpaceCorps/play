@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e1c4a1ea5c2ee4f9 -->
+<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
 <!-- wiki-i18n title: 企業パイロット -->
 # 企業パイロット {#company-pilots}
 

@@ -56,7 +56,7 @@ A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works f
 - **How much it breaks.** A Mole at the top (a Legendary of level 20) breaks at least as many asteroids an hour as a pilot who fires the best rocket, Rivet III, at them, and the lower grades and levels fewer ([the table](/wiki/03-Mechanics/Pets.md#how-strong)). It uses no ammo and no rockets. Your lasers, rockets, amps, boosters, formation and P.E.T. Damage do not change a pulse, and armour slows a pulse as it slows a rocket.
 - **Which asteroids.** The nearest one in reach that no other asteroid or Energetic Wall covers. Every asteroid a rocket could hurt is one: the Motherlode and the wrecks (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser) too, also an asteroid that other pilots have hurt, and the chunks then go by damage as ever. The wrecks you see drifting in the background are only scenery, not asteroids. It does not work in a safe zone, in a cloak, while you jump or while your ship is destroyed.
 - **No limit of its own.** A Mole works every hour you fly, whether you touch the keys or not (an idle ship is a target), and no daily limit stops it, neither its own nor the world's. What stays is what bounds everybody: the asteroids within its reach and how fast they grow back. Its chunks pay in full, as yours do.
-- **Only one works.** Of the Moles in your Station only the strongest works; the others only boost.
+- **Every Mole works.** Since 0.4.27 every Mole in your Station works, each on an asteroid of its own (your Moles never share one), so more Moles break more asteroids, as long as there are enough within reach. Each has its drone and its beam.
 
 ## The rules
 

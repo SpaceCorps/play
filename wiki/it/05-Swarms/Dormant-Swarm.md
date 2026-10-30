@@ -16,6 +16,7 @@ Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un grup
 - **Seguaci**: 2 × Dormant Pulse, che volano con il capo
 - **I seguaci restano vicini**: al massimo 700 unità dal capo
 - **Capo distrutto**: Dormant Pulse prende il comando
+- **Capo distrutto**: I seguaci se ne vanno 30 s dopo la distruzione del capo, anche se stanno attaccando
 - **Spostamenti**: Resta da 8 a 15 min su una mappa, poi vola alla porta di un altro settore pericoloso. Non prende mai le porte che escono dai settori pericolosi e non entra mai nell’anello del buco nero
 - **Ritorna**: 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale
 - **Dal giorno 11 della stagione**: Compare nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) di `DS-4` invece che in un settore pericoloso casuale, ritorna dopo 30 min dalla distruzione dell’intero sciame, e ogni nave paga ×2 (crediti, Thulium, XP e onore; il bottino resta lo stesso)

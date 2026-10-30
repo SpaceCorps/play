@@ -197,9 +197,9 @@ The Core's upgrade into **level 10** builds a **bridge** and a second Core. The 
 
 The Ammo Printer prints laser ammo from nothing, one kind at a time: no ore and no Credits, only power. It has levels 1 to 20.
 
-- **Output**: **x2** (Advanced Plasma) **100 an hour at level 1, 2,000 at level 20** (100 more every level); **x3** (Ultra Core) half of that, 50 to 1,000; **x4** (Experimental Fusion Core) a quarter, 25 to 500.
+- **Output**: **x2** (Advanced Plasma) **200 an hour at level 1, 4,000 at level 20** (200 more every level); **x3** (Ultra Core) half of that, 100 to 2,000; **x4** (Experimental Fusion Core) a quarter, 50 to 1,000. Twice what it made before 0.4.27.
 - **Mode**: you pick x2, x3 or x4 on its card or sheet. A switch keeps the hours already stored and reads them at the new mode's rate from then on.
-- **Store**: one day, 24 hours of production at the level and kind in use (2,400 x2 at level 1, 48,000 at level 20). Offline time counts, and a full store just stops.
+- **Store**: one day, 24 hours of production at the level and kind in use (4,800 x2 at level 1, 96,000 at level 20). Offline time counts, and a full store just stops.
 - **Collect**: moves the whole units into your inventory while your **ship is landed**. Ammo has no carry limit, and a part of a unit stays and counts on.
 - **Power**: 40 at level 1, growing by 20% a level. In a blackout it stops like the farms and collectors, and what it holds stays and can be collected.
 - **Building**: 20,000 Credits, 500 Thulium and 10 Ship Fragments (from your inventory, with your ship landed), on Core 2 only. Its upgrades cost from 21,000 Credits and 140 Thulium to 5,600,000 Credits and 11,000 Thulium and take as long as the Forgery's, 5 minutes to 24 hours and 5 d 13 h in all (see the tables below).
@@ -210,8 +210,8 @@ The Ammo Printer prints laser ammo from nothing, one kind at a time: no ore and 
 The Rocket Factory builds Shop rockets from nothing, one kind at a time. It has levels 1 to 20.
 
 - **What it makes**: any one of the twelve Shop rockets, as you pick it: Lancet, Rivet, Scatter or Ember, tiers I, II and III. The N.U.K.E. and the N.I.K.E. are never made.
-- **Output**: tier III **0.5 an hour at level 1, 10 at level 20** (0.5 more every level), tier II 1.25 times that and tier I twice that. Only whole rockets count: a part of one stays and counts on.
-- **Store**: one day, 24 hours of production at the level and rocket in use (240 tier III at level 20). Offline time counts, a full store just stops, and a switch of rocket keeps the hours already stored.
+- **Output**: tier III **1 an hour at level 1, 20 at level 20** (1 more every level), tier II 1.25 times that and tier I twice that. Twice what it made before 0.4.27. Only whole rockets count: a part of one stays and counts on.
+- **Store**: one day, 24 hours of production at the level and rocket in use (480 tier III at level 20). Offline time counts, a full store just stops, and a switch of rocket keeps the hours already stored.
 - **Collect**: moves the rockets into your inventory while your **ship is landed**, as many as you can carry: at most 5,000 of a tier I rocket, 2,000 of a tier II and 500 of a tier III, the Shop's own limit. What does not fit stays in the Factory.
 - **Power**: 24 at level 1, growing by 15% a level. In a blackout it stops like the Printer.
 - **Building**: 20,000 Credits, 500 Thulium and 15 Ship Fragments (from your inventory, with your ship landed), on Core 2 only. Its upgrades cost a quarter of the Printer's, from 5,300 Credits and 35 Thulium to 1,400,000 Credits and 2,800 Thulium, and take as long: 5 d 13 h in all.
@@ -331,14 +331,14 @@ In all the three levels take 3,250,000 Credits, 13,000 Thulium, 4 plates and 1 d
 The Trophies Bay keeps what your Skylab's kills bring until you collect it. It has levels 1 to 20, and it needs no technology.
 
 - **What it holds**: Credits, Thulium, experience, honor and the loot of the kills.
-- **Capacity** is counted in **bounty points**: a kill adds the bounty of its alien, Credits divided by 200 plus Thulium, whatever it drops (Alpha's figures in every world). It holds 650 points at level 1 and 45,000 at level 20.
-- **Full**: a full Bay makes the Skylab **hold fire**: nothing is killed, paid or counted and no ammunition is spent until you collect (the hull still mends). A message, a toast, an amber **Bay full** pill on the station's bar, a notice on the Skylab page and the tip of the sidebar's Skylab row say so.
+- **Capacity** is counted in **loot items**: only the loot takes room. Credits, Thulium, experience and honor take none, however much of them the kills bring (since 0.4.27; before, a kill's bounty filled the Bay). It holds 650 items at level 1 and 45,000 at level 20. A Seeker brings about one item a kill, so a Bay fills about ten times more slowly than it did.
+- **Full**: a full Bay makes the Skylab **hold fire**: nothing is killed, paid or counted and no ammunition is spent until you collect (the hull still mends). A message, a toast, an amber **Bay full** pill on the station's bar, a notice on the Skylab page and the tip of the sidebar's Skylab row say so, at the moment it fills, also while the Skylab is under way.
 - **Collect** in the Universe window, with your ship landed: Credits and Thulium go to your account, experience and honor to your pilot and the loot to your inventory. Two collects at once pay once.
 - **Loot** is rolled for each kill from the alien's drops, never Dark Matter, Ancient Control Units, N.I.K.E.s or N.U.K.E.s. It is **not Marketable**: it can't be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Power**: 20 at level 1, growing by 10% a level. It can be switched off, but not while the Skylab is under way.
 - **Building**: 100,000 Credits, 400 Thulium and 10 Ship Fragments, on Core 3 only. Its upgrades cost from 117,500 Credits and 470 Thulium (15 minutes) to 2,325,000 Credits and 9,300 Thulium (1 d 13 h): 14,722,500 Credits and 58,890 Thulium in all, and 6 d 8 h.
 
-| Level | Capacity (points) | Credits | Thulium | Time |
+| Level | Capacity (items) | Credits | Thulium | Time |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (the build) | 650 | 100,000 | 400 | – |
 | 2 | 810 | 117,500 | 470 | 15 min |
@@ -347,15 +347,15 @@ The Trophies Bay keeps what your Skylab's kills bring until you collect it. It h
 | 15 | 15,000 | 1,025,000 | 4,100 | 9 h 14 min |
 | 20 | 45,000 | 2,325,000 | 9,300 | 1 d 13 h |
 
-How long a Bay takes to fill when the Skylab earns the whole kill budget of its Defense level (a smaller Bay fills faster, a smaller budget slower):
+How long a Bay takes to fill when the Skylab earns the whole kill budget of its Defense level in a cell of that difficulty, with the loot those aliens bring (a smaller Bay fills faster, a smaller budget slower):
 
 | Defense level | Bay level 1 | Bay level 5 | Bay level 10 | Bay level 15 | Bay level 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 h 1 min | 14 h 49 min | 1 d 20 h | 5 d 19 h | 17 d 9 h |
-| 2 | 2 h 13 min | 5 h 28 min | 16 h 23 min | 2 d 3 h | 6 d 10 h |
-| 3 | 1 h 22 min | 3 h 22 min | 10 h 5 min | 1 d 8 h | 3 d 22 h |
-| 4 | 1 h 11 min | 2 h 55 min | 8 h 46 min | 1 d 3 h | 3 d 10 h |
-| 5 | 1 h 2 min | 2 h 32 min | 7 h 37 min | 23 h 49 min | 2 d 23 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
 
 ## Weight and speed
 

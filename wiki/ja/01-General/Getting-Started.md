@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 34a2374428c61ba0 -->
+<!-- wiki-i18n source: 4b07bb58b17de680 -->
 <!-- wiki-i18n title: はじめに -->
 # SpaceCorps をはじめよう {#getting-started-in-spacecorps}
 

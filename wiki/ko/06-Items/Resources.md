@@ -34,8 +34,8 @@
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 영웅 | 미션, Skylab 단조소 | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. 요람 |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 영웅 | 블랙홀(삼켜진 N.I.K.E.) | Dark Matter Plate, 연구 센터 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 신화 | 어셈블리 | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 대장간 |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 영웅 | 소행성 | P.E.T. 요람 |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | 신화 | 소행성 | P.E.T. 요람 |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 영웅 | 소행성, 스페셜 미션 | P.E.T. 요람 |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | 신화 | 소행성, 스페셜 미션 | P.E.T. 요람 |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | 전설 | 소행성 | P.E.T. 요람 |
 
 ## 재료 {#materials}
@@ -672,6 +672,7 @@
 **얻는 방법**
 
 - **소행성**: 부서질 때 가장 많은 피해를 준 파티의 광석 덩어리에 하나가 통째로 남을 수 있습니다. 부서질 때의 확률은 바위의 티어별로 티어 2: 0.4%, 티어 3: 0.8%, 티어 4: 1%, 티어 5: 1.2%이고, Motherlode는 25%입니다. 행운은 이를 바꾸지 않습니다.
+- **미션**: 둥지 파괴자(레벨 3 스페셜) 1.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**
@@ -687,6 +688,7 @@
 **얻는 방법**
 
 - **소행성**: 부서질 때 가장 많은 피해를 준 파티의 광석 덩어리에 하나가 통째로 남을 수 있습니다. 부서질 때의 확률은 바위의 티어별로 티어 3: 0.15%, 티어 4: 0.25%, 티어 5: 0.3%이고, Motherlode는 8%입니다. 행운은 이를 바꾸지 않습니다.
+- **미션**: 강철의 파도(레벨 5 스페셜) 1.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
 **쓰이는 곳**

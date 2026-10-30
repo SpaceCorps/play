@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 50aa8bb9bc3f2a03 -->
+<!-- wiki-i18n source: f7a78278d44e3602 -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3381797752395f5b -->
+<!-- wiki-i18n source: b0a1bdc37188d8da -->
 <!-- wiki-i18n title: 巨大掘削機 -->
 # 巨大掘削機 {#giant-excavator}
 

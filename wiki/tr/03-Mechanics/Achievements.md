@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 217807e932feb07f -->
+<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 

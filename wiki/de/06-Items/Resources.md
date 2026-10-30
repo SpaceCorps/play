@@ -34,8 +34,8 @@ Jeder Ertrag auf dieser Seite gilt **pro Abschuss, im Durchschnitt**: die Chance
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Episch | Missionen, Skylab-Schmiede | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T.-Wiege |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Episch | das Schwarze Loch (eine verschluckte N.I.K.E.) | Dark Matter Plate, Forschungszentrum |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mythisch | Montage | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Schmiede |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Episch | Asteroiden | P.E.T.-Wiege |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythisch | Asteroiden | P.E.T.-Wiege |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Episch | Asteroiden, Spezialmissionen | P.E.T.-Wiege |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythisch | Asteroiden, Spezialmissionen | P.E.T.-Wiege |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendär | Asteroiden | P.E.T.-Wiege |
 
 ## Materialien {#materials}
@@ -672,6 +672,7 @@ Ein misslungener Schmiedeschritt gibt 50 % seiner Materialien zurück, abgerund
 **So bekommst du es**
 
 - **Asteroiden**: Ein Bruch kann einen unzerteilt im Erzbrocken der Gruppe hinterlassen, die den meisten Schaden gemacht hat. Die Chance eines Bruchs beträgt je nach Stufe des Felsens Stufe 2: 0,4 %, Stufe 3: 0,8 %, Stufe 4: 1 %, Stufe 5: 1,2 % und 25 % für den Motherlode. Glück ändert sie nicht.
+- **Missionen**: Schwarmbrecher (Spezialmission von Level 3) 1.
 - **Sonst**: nicht im Shop erhältlich.
 
 **Wofür es gebraucht wird**
@@ -687,6 +688,7 @@ Ein misslungener Schmiedeschritt gibt 50 % seiner Materialien zurück, abgerund
 **So bekommst du es**
 
 - **Asteroiden**: Ein Bruch kann einen unzerteilt im Erzbrocken der Gruppe hinterlassen, die den meisten Schaden gemacht hat. Die Chance eines Bruchs beträgt je nach Stufe des Felsens Stufe 3: 0,15 %, Stufe 4: 0,25 %, Stufe 5: 0,3 % und 8 % für den Motherlode. Glück ändert sie nicht.
+- **Missionen**: Eiserne Flut (Spezialmission von Level 5) 1.
 - **Sonst**: nicht im Shop erhältlich.
 
 **Wofür es gebraucht wird**

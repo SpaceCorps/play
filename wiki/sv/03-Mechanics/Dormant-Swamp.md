@@ -44,7 +44,7 @@ Skada per skott, i varje värld:
 - En raket avfyras från 90 % av den räckvidd som samma raket har i en pilots händer, så att den når fram; ett lasertorn skjuter en gång i sekunden, och dess skada slumpas inom det visade intervallet.
 - En N.I.K.E. har 35 % sköldgenomträngning, som dras av från en sköldabsorption.
 - Tornets N.I.K.E. flyger 25 % snabbare och 2× så långt som din: 1 125 enheter i sekunden, 8 100 enheter totalt, så ett skepp som flyr från den förföljs långt.
-- En N.U.K.E. exploderar över en radie på 900 enheter, hårdast i mitten.
+- En N.U.K.E. exploderar över en radie på 1 350 enheter, hårdast i mitten.
 - Tornets N.U.K.E. flyger 25 % snabbare och 2× så långt som din: 375 enheter i sekunden, 2 400 enheter totalt, så ett skepp som flyr från den förföljs långt.
 
 <!-- swamp-guns:end -->

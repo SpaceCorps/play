@@ -16,6 +16,7 @@ El enjambre Dormant es una **Dormant Force** con sus **Dormant Pulses**: un grup
 - **Seguidores**: 2 × Dormant Pulse, que vuelan con el líder
 - **Los seguidores se mantienen**: a no más de 700 unidades del líder
 - **Líder destruido**: Dormant Pulse toma el mando
+- **Líder destruido**: Los seguidores se van 30 s después de que destruyan al líder, estén atacando o no
 - **Desplazamiento**: Permanece 8 a 15 min en un mapa y luego vuela a la puerta de otro sector de peligro. Nunca toma las puertas que salen de los sectores de peligro y nunca entra en el anillo del agujero negro
 - **Vuelve**: 1 h después de que destruyan a todo el enjambre, en un sector de peligro al azar
 - **Desde el día 11 de la temporada**: Aparece en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4` en lugar de en un sector de peligro al azar, vuelve 30 min después de que destruyan a todo el enjambre, y cada nave paga ×2 (créditos, Thulium, XP y honor; el botín sigue igual)

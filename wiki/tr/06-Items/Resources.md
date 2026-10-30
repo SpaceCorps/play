@@ -34,8 +34,8 @@ Bu sayfadaki her getiri **öldürme başına ortalamadır**: her ganimetin düş
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Destansı | görevler, Skylab Dökümhanesi | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. Beşiği |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Destansı | kara delik (yutulan bir N.I.K.E.) | Dark Matter Plate, Araştırma Merkezi |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitik | Montaj | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Demirhane |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Destansı | asteroitler | P.E.T. Beşiği |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitik | asteroitler | P.E.T. Beşiği |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Destansı | asteroitler, özel görevler | P.E.T. Beşiği |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitik | asteroitler, özel görevler | P.E.T. Beşiği |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Efsanevi | asteroitler | P.E.T. Beşiği |
 
 ## Malzemeler {#materials}
@@ -672,6 +672,7 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 **Nasıl elde edilir**
 
 - **Asteroitler**: bir kırılma, en çok hasar veren pilotun ya da grubun cevher parçasında bir tanesini bütün olarak bırakabilir. Kırılma şansı, kayanın kademesine göre 2. kademe: %0,4, 3. kademe: %0,8, 4. kademe: %1, 5. kademe: %1,2, Motherlode için %25. Şans bunu değiştirmez.
+- **Görevler**: Kovan Kırıcı (3. seviye özel görevi) 1.
 - **Bunun dışında**: Mağaza’da satılmaz.
 
 **Ne işe yarar**
@@ -687,6 +688,7 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 **Nasıl elde edilir**
 
 - **Asteroitler**: bir kırılma, en çok hasar veren pilotun ya da grubun cevher parçasında bir tanesini bütün olarak bırakabilir. Kırılma şansı, kayanın kademesine göre 3. kademe: %0,15, 4. kademe: %0,25, 5. kademe: %0,3, Motherlode için %8. Şans bunu değiştirmez.
+- **Görevler**: Demir Dalga (5. seviye özel görevi) 1.
 - **Bunun dışında**: Mağaza’da satılmaz.
 
 **Ne işe yarar**

@@ -34,8 +34,8 @@
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Эпический | миссии, Кузница Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Колыбель P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Эпический | чёрная дыра (проглоченная N.I.K.E.) | Dark Matter Plate, Исследовательский центр |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Мифический | Сборочный цех | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Кузница |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Эпический | астероиды | Колыбель P.E.T. |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Мифический | астероиды | Колыбель P.E.T. |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Эпический | астероиды, особые миссии | Колыбель P.E.T. |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Мифический | астероиды, особые миссии | Колыбель P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Легендарный | астероиды | Колыбель P.E.T. |
 
 ## Материалы {#materials}
@@ -672,6 +672,7 @@
 **Как получить**
 
 - **Астероиды**: при разрушении может остаться один целый в куске руды группы, нанёсшей больше всего урона. Шанс при разрушении по ступени камня — ступень 2: 0,4%, ступень 3: 0,8%, ступень 4: 1%, ступень 5: 1,2%, а для Motherlode — 25%. Удача его не меняет.
+- **Миссии**: Разрушитель роя (особая миссия уровня 3) 1.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**
@@ -687,6 +688,7 @@
 **Как получить**
 
 - **Астероиды**: при разрушении может остаться один целый в куске руды группы, нанёсшей больше всего урона. Шанс при разрушении по ступени камня — ступень 3: 0,15%, ступень 4: 0,25%, ступень 5: 0,3%, а для Motherlode — 8%. Удача его не меняет.
+- **Миссии**: Железный прилив (особая миссия уровня 5) 1.
 - **Помимо этого**: в магазине не продаётся.
 
 **Для чего нужен**

@@ -44,7 +44,7 @@ Bir atışın hasarı, her dünyada:
 - Bir roket, aynı roketin bir pilotun elindeki menzilinin %90 kadarından ateşlenir ki hedefe ulaşsın; bir lazer tareti saniyede bir ateş eder ve hasarı gösterilen aralıkta belirlenir.
 - Bir N.I.K.E., kalkan soğurmasından düşülen %35 kalkan delme oranına sahiptir.
 - Taretin N.I.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 1.125 birim, toplam 8.100 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
-- Bir N.U.K.E., 900 birimlik bir yarıçapta patlar; en şiddetlisi ortada.
+- Bir N.U.K.E., 1.350 birimlik bir yarıçapta patlar; en şiddetlisi ortada.
 - Taretin N.U.K.E. roketi seninkinden %25 daha hızlı ve 2× daha uzağa uçar: saniyede 375 birim, toplam 2.400 birim; bu yüzden ondan kaçan bir gemi uzun bir mesafe boyunca takip edilir.
 
 <!-- swamp-guns:end -->

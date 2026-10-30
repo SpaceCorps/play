@@ -56,7 +56,7 @@ If the fuel runs out before the limit, the excavator goes back to **Ready** with
 
 ## What it mines
 
-A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box holds the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is. What you take out of a box can differ, though: each level of the Pilot research Excavator Mining ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) raises the Thulium and the ore you pick up by 20%, 30% or 40% in all, rounded down.
+A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box holds the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is. The size of the boxes is set by whoever starts the run: each level of the Pilot research Excavator Mining ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) of the pilot who presses **Start mining** makes every box of that run hold 20%, 30% or 40% in all more, Thulium and ore alike, for the whole run, whoever fuels it, switches the resource or picks the boxes up. The amounts below are without it; it comes on top of the most a resource can lay in a run.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

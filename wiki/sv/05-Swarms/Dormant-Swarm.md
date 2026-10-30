@@ -16,6 +16,7 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 - **Följeslagare**: 2 × Dormant Pulse, som flyger med ledaren
 - **Följeslagarna håller sig inom**: högst 700 enheter från ledaren
 - **När ledaren förstörs**: Dormant Pulse tar över som ledare
+- **När ledaren förstörs**: Följeslagarna försvinner 30 s efter att ledaren förstörts, även om de just attackerar
 - **Förflyttning**: Stannar 8 till 15 min på en karta och flyger sedan till porten till en annan farosektor. Den tar aldrig portarna ut ur farosektorerna och flyger aldrig in i det svarta hålets ring
 - **Kommer tillbaka**: 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor
 - **Från säsongsdag 11**: Den dyker upp vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4` i stället för i en slumpmässig farosektor, kommer tillbaka 30 min efter att hela svärmen förstörts, och varje skepp betalar ×2 (krediter, Thulium, XP och heder; bytet förblir detsamma)

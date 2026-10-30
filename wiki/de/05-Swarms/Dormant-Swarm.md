@@ -16,6 +16,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 - **Begleiter**: 2 × Dormant Pulse, die mit dem Anführer fliegen
 - **Begleiter bleiben nahe**: höchstens 700 Einheiten vom Anführer entfernt
 - **Anführer zerstört**: Dormant Pulse übernimmt die Führung
+- **Anführer zerstört**: Die Begleiter verschwinden 30 s nach der Zerstörung des Anführers, auch wenn sie gerade angreifen
 - **Reise**: Bleibt 8 bis 15 min auf einer Karte und fliegt dann zum Tor eines anderen Gefahrensektors. Er nimmt nie ein Tor aus den Gefahrensektoren hinaus und fliegt nie in den Ring des Schwarzen Lochs
 - **Kehrt zurück**: 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor
 - **Ab Saisontag 11**: Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4` statt in einem zufälligen Gefahrensektor, kehrt 30 min nach der Zerstörung des ganzen Schwarms zurück, und jedes Schiff zahlt ×2 (Credits, Thulium, EP und Ehre; die Beute bleibt gleich)

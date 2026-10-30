@@ -116,7 +116,7 @@ A hidden achievement that is still locked is a closed card with no goal and no b
 A **title** is a short line of text beside a pilot's name. 32 of the 40 achievements give one, yours for good when you unlock the achievement. Titles also come from the end of a season (your rank, the best pilot of each company and the pilot with the most PvE points) and from the game's team, such as the **Pioneer** title for every account that existed on the day the game launched on Steam.
 
 - You own many titles and **wear one** at a time. You choose it on your **pilot profile**, and you can take it off again.
-- Your title shows on your **profile**, in the **Rankings**, in the **Group** window and when you point at your name in the **chat**. It does not show over your ship on the map.
+- Your title shows on your **profile**, in the **Rankings**, in the **Group** window and when you point at your name in the **chat**. Since 0.4.27 it also shows on the map: a small, dim line in the title's rarity colour **above the name of every pilot's ship**, yours included. A long title is cut with an ellipsis. In a crowd (more than eight pilots on the screen) only your friends, your target and the ship you selected keep theirs, so the screen stays readable. It does not show in the Target window or on the minimap.
 - Titles survive the wipe.
 
 ## Steam

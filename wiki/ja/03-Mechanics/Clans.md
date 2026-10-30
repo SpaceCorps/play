@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 260a3cdddaba608b -->
+<!-- wiki-i18n source: d0de4fcf89f7b58e -->
 <!-- wiki-i18n title: クラン -->
 # クラン {#clans}
 

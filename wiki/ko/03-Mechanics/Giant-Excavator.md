@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3381797752395f5b -->
+<!-- wiki-i18n source: b0a1bdc37188d8da -->
 <!-- wiki-i18n title: 거대 굴착기 -->
 # 거대 굴착기 {#giant-excavator}
 

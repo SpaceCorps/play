@@ -34,8 +34,8 @@
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 史诗 | 任务, Skylab 锻造厂 | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. 摇篮 |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 史诗 | 黑洞（被吞噬的 N.I.K.E.） | Dark Matter Plate, 研究中心 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 神话 | 装配站 | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 锻造炉 |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 史诗 | 小行星 | P.E.T. 摇篮 |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | 神话 | 小行星 | P.E.T. 摇篮 |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 史诗 | 小行星, 特别任务 | P.E.T. 摇篮 |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | 神话 | 小行星, 特别任务 | P.E.T. 摇篮 |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | 传说 | 小行星 | P.E.T. 摇篮 |
 
 ## 材料 {#materials}
@@ -672,6 +672,7 @@
 **获取方式**
 
 - **小行星**：击碎时可能整块留下一个，放进造成最多伤害的队伍的矿石块里。击碎时的概率按岩石等级分别是 等级 2：0.4%, 等级 3：0.8%, 等级 4：1%, 等级 5：1.2%，Motherlode 是 25%。幸运不会改变它。
+- **任务**：破巢者（3 级特别任务）1。
 - **另外**：商店不出售。
 
 **用途**
@@ -687,6 +688,7 @@
 **获取方式**
 
 - **小行星**：击碎时可能整块留下一个，放进造成最多伤害的队伍的矿石块里。击碎时的概率按岩石等级分别是 等级 3：0.15%, 等级 4：0.25%, 等级 5：0.3%，Motherlode 是 8%。幸运不会改变它。
+- **任务**：钢铁狂潮（5 级特别任务）1。
 - **另外**：商店不出售。
 
 **用途**

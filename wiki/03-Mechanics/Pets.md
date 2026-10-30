@@ -19,7 +19,7 @@ A **P.E.T.** (Personal Escort Technology) is a small companion that flies beside
 - **Hatch.** In the Hangar's **P.E.T.** view the Cradle takes one chunk and one Orvium Reinforced Plate for each P.E.T. and has four places in its queue. The chunk's grade decides how many boosts the P.E.T. has: **1, 2 or 3**.
 - **Dock and fly.** Dock the P.E.T.s you want while your ship is landed. With a Station fitted and ON they add their boosts and gain experience as you hunt, mine and fly, up to level 20.
 - **ON and OFF.** The **PET** slot of the hotbar switches the Station, in flight, and the change counts at once: OFF, your P.E.T.s give no boosts, earn no experience and do not work; ON, they are back. A Station you have not switched is ON.
-- **Put two to work.** A docked **Retriever** takes the boxes lying around your ship and a docked **Mole** breaks the nearest asteroid for you, whenever you fly outside a safe zone, idle or not, with no limit for a day of it: [the working types](#the-working-types). An idle ship is a target.
+- **Put two to work.** A docked **Retriever** takes the boxes lying around your ship and every docked **Mole** breaks the nearest asteroid for you, each its own, whenever you fly outside a safe zone, idle or not, with no limit for a day of it: [the working types](#the-working-types). An idle ship is a target.
 - **They are yours.** P.E.T.s are bound to you: no trade, no Auction. They stay through the wipe.
 
 ## The P.E.T. Station {#the-station}
@@ -81,7 +81,7 @@ A P.E.T. has up to level **20**. Every level adds **0.2 points** to each of its 
 | Damage | 1% | 5% | 25% |
 | Luck | 0.5 points | 1.7 points | 8.5 points |
 
-- **Damage, HP and Shield** add to your boosters and your clan's boosts, they do not multiply them: the numbers in the Hangar, the Ship window and your pilot page count them, and the **Boosters** window has a **P.E.T.** card. Shield is shield capacity (the maximum shield points).
+- **Damage, HP and Shield** add to your boosters and your clan's boosts, they do not multiply them: the numbers in the Hangar, the Ship window and your pilot page count them, and the **Boosters** window counts them in the totals of the categories they raise (a line **P.E.T. Damage Boost** under Damage, and so on) and has a **P.E.T.** card for the pets docked and the Station's state. Shield is shield capacity (the maximum shield points).
 - **Credits and Thulium** add to what a kill pays you, your share of a boss and of a group's kill, and what a mission pays when you claim it, as your [clan's boosts](/wiki/03-Mechanics/Clans.md) do. They never add to a rock's cash, the Skylab's farms, a bonus code or the Auction.
 - **Luck** raises the chance of every loot line of an alien or a swarm ship, and of a Warden's private boxes, as the [Loot Luck Booster](/wiki/06-Items/Boosters.md) does. Nothing else.
 - **No Station ON, no boost.** Only the docked P.E.T.s that count give a boost: those within the room of the Station fitted on your ship, and only while it is ON. A P.E.T. you took off or never docked adds nothing and earns nothing, and neither does any with the Station OFF or not fitted.
@@ -98,12 +98,12 @@ Level 1 asks 810 experience, level 20 asks 40,000 in all. At an hour and a half 
 
 ## The working types
 
-Eight of the ten types only boost. The **Retriever** and the **Mole** boost too, and each also works for you while you fly: the Retriever takes the cargo boxes lying around your ship, the Mole breaks the asteroid nearest to it. They work while your ship flies outside a safe zone, **whether or not you touch the keys**, and **a day of work has no limit**: what bounds a Mole is what bounds you, the asteroids within reach and how fast they grow back ([The Mole P.E.T.](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). An idle ship is a target: any pilot who may attack it where it stands can, and a working pet does not protect it.
+Eight of the ten types only boost. The **Retriever** and the **Mole** boost too, and each also works for you while you fly: the Retriever takes the cargo boxes lying around your ship, each Mole breaks the asteroid nearest to it. They work while your ship flies outside a safe zone, **whether or not you touch the keys**, and **a day of work has no limit**: what bounds a Mole is what bounds you, the asteroids within reach and how fast they grow back ([The Mole P.E.T.](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). An idle ship is a target: any pilot who may attack it where it stands can, and a working pet does not protect it.
 
 ### When they work
 
 - **Docked, with the Station ON.** Only a docked P.E.T. that counts works: switch the Station OFF and the Mole's beam and the Retriever's pickup stop at once, ON and they go on. Its strength is read when you launch: a level gained in flight counts from your next launch.
-- **Only the best of each.** One Mole works, the strongest (on a tie the one in the lower place), and one Retriever, the one with the longest reach. Your other Moles and Retrievers only boost, so a Station full of Moles breaks no more than one.
+- **Every Mole works, one Retriever.** Since 0.4.27 every docked Mole works, each on an asteroid of its own (two Moles of yours never work the same one), each with its own drone and beam, so a Station with three Moles breaks about three times as many asteroids as one Mole, as long as there are enough asteroids in reach. One Retriever works, the one with the longest reach; your other Retrievers only boost.
 - **Flying, outside a safe zone.** They stop while a [safe zone](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protects your ship, and while it is destroyed, under [spawn protection](/wiki/01-General/Getting-Started.md#dying-and-coming-back), cloaked or jumping, and go on when none of these holds. A pilot who is logged off has no ship in space, so nothing works for him.
 - **Idle or not.** There is no rule about being at the keys: a Mole works the same while you hunt, while you look at a window and while you are away from the screen.
 - **What they never do.** A Retriever takes no box you could not take yourself, so never another pilot's protected boxes. A Mole never works an asteroid in a safe zone: asteroids stand at least 1,500 units from a safe ring.
@@ -118,7 +118,7 @@ A docked Retriever takes the nearest cargo box within its **reach**, one box at 
 
 ### The Mole
 
-A docked Mole works the nearest asteroid it may work within **600 units** of your ship (about five and a half ship lengths) and gives it **one pulse every 3 seconds**, the time your rockets recharge in. It keeps the asteroid until it breaks, then looks for the next. Its drone flies out to the asteroid and a thin beam joins them.
+A docked Mole works the nearest asteroid it may work within **600 units** of your ship (about five and a half ship lengths) and gives it **one pulse every 3 seconds**, the time your rockets recharge in. It keeps the asteroid until it breaks, then looks for the next. Its drone flies out to the asteroid and a thin beam joins them. **Each docked Mole does this on its own** (0.4.27): with three Moles you see three drones at three asteroids, and they never pick the same one.
 
 - **What a pulse is.** A share of what the best rocket, [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets), would take off that very asteroid, so armour slows a Mole as it slows a rocket (the Ironhide, the Plateback, the Anvil and the Ancient Husk). Nothing you fit changes it: not your lasers, rockets, amps, boosters, formation or the Damage of your P.E.T.s. A Mole uses no ammo and no rockets.
 - **How strong.** By grade and level ([the tables below](#how-strong)). A **Legendary Mole of level 20** breaks **at least as many asteroids an hour as a pilot who fires the best rocket at them**, while it has asteroids to work: from 100% to 118% of his on each of the sixteen sectors that have asteroids, in all three worlds. The weakest Mole you can hatch, a Mythical of level 0, breaks about a tenth. In Alpha a top Mole breaks a Pebble in 12 seconds, a Star Crystal in under 2 minutes and the Motherlode, the biggest asteroid, in 5.8 minutes; the weakest takes 2.1 minutes, 19.8 minutes and about an hour.

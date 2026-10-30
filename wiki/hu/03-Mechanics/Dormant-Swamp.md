@@ -44,7 +44,7 @@ Egy lövés sebzése, minden világban:
 - A rakétát annak a hatótávnak a 90% részénél lövik ki, amellyel ugyanez a rakéta a pilóták kezében rendelkezik, hogy odaérjen; a lézertorony másodpercenként egyszer tüzel, a sebzése a megadott tartományban dobódik.
 - Egy N.I.K.E. pajzsáthatolása 35%, amelyet levonnak a pajzs elnyeléséből.
 - A lövegtorony N.I.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 1 125 egységet, összesen 8 100 egységet tesz meg, így a menekülő hajót hosszan üldözi.
-- Egy N.U.K.E. 900 egység sugarú körben robban, középen a legerősebben.
+- Egy N.U.K.E. 1 350 egység sugarú körben robban, középen a legerősebben.
 - A lövegtorony N.U.K.E. rakétája gyorsabb a tiédnél (25%), és messzebbre repül (2×): másodpercenként 375 egységet, összesen 2 400 egységet tesz meg, így a menekülő hajót hosszan üldözi.
 
 <!-- swamp-guns:end -->

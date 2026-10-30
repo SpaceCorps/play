@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: 퀘스트 -->
 # 퀘스트 {#quests}
 
@@ -328,7 +328,7 @@
 | 긴 감시 | 정찰 | x-3에서 8,000 / 1,800 지점으로 비행 → x-3에서 10분 머무르기 → x-3에서 Phantasm 3기 파괴 | – | 2,300 | 18,500 | 60 | 23 | – |
 | 떠도는 탐사선 | 전투 | x-3에서 Phantasm 6기 파괴 → x-3의 11,800 / 3,300 지점에서 Probe을(를) Mission Control로 가져오기 (선체 손실 최대 3,000 포인트) | – | 4,000 | 32,000 | 100 | 40 | – |
 | 감시 초소 | 작전 | x-3에서 Phantasm 4기 파괴 → x-3에서 6분 연속 머무르기 → x-3에서 Phantasm 4기 파괴 | – | 2,700 | 21,500 | 70 | 27 | – |
-| **둥지 파괴자** (스페셜) | 작전 | Boss Seeker 3기 파괴; Seeker Slave 12기 파괴; x-3에서 Phantasm 6기 파괴 (시즌 4일째부터) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **둥지 파괴자** (스페셜) | 작전 | Boss Seeker 3기 파괴; Seeker Slave 12기 파괴; x-3에서 Phantasm 6기 파괴 (시즌 4일째부터) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### 레벨 4: 중노동 {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@
 | 야간 근무 | 정찰 | x-3에서 15분 머무르기 (선체 손실 최대 40,000 포인트); x-3에서 Phantasm 4기 파괴 | – | 5,000 | 20,000 | 150 | 38 | – |
 | 실드 파괴자 | 전투 | x-3에서 Bulwark 5기 파괴 | – | 15,500 | 62,000 | 465 | 116 | – |
 | 망치와 모루 | 작전 | x-3에서 Phantasm 6기 파괴 → x-3에서 Bulwark 4기 파괴 → x-4에서 6분 연속 머무르기 | – | 10,500 | 42,000 | 315 | 79 | – |
-| **강철의 파도** (스페셜) | 작전 | x-3에서 Bulwark 5기 파괴 → x-3에서 Phantasm 15기 파괴 → x-4에서 6,000유닛 순찰 | 35분 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5시간 |
+| **강철의 파도** (스페셜) | 작전 | x-3에서 Bulwark 5기 파괴 → x-3에서 Phantasm 15기 파괴 → x-4에서 6,000유닛 순찰 | 35분 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5시간 |
 
 ### 레벨 6: 경계 {#level-6-the-border}
 

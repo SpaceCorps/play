@@ -34,8 +34,8 @@ Ogni resa in questa pagina è **per abbattimento, in media**: la probabilità di
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epico | missioni, Fucina dello Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Culla dei P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epico | il buco nero (un N.I.K.E. inghiottito) | Dark Matter Plate, Centro ricerche |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitico | Assemblaggio | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forgia |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epico | asteroidi | Culla dei P.E.T. |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitico | asteroidi | Culla dei P.E.T. |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epico | asteroidi, missioni Speciali | Culla dei P.E.T. |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitico | asteroidi, missioni Speciali | Culla dei P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Leggendario | asteroidi | Culla dei P.E.T. |
 
 ## Materiali {#materials}
@@ -672,6 +672,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 **Dove si ottiene**
 
 - **Asteroidi**: una rottura può lasciarne uno intero nel blocco di minerale del gruppo che ha inflitto più danni. La probabilità di una rottura, per livello della roccia, è livello 2: 0,4%, livello 3: 0,8%, livello 4: 1%, livello 5: 1,2%, e 25% per la Motherlode. La fortuna non la cambia.
+- **Missioni**: Spaccaalveare (Speciale del livello 3) 1.
 - **Altrimenti**: non si vende nel Negozio.
 
 **A cosa serve**
@@ -687,6 +688,7 @@ Un passo della Forgia che fallisce restituisce 50% dei suoi materiali, arrotonda
 **Dove si ottiene**
 
 - **Asteroidi**: una rottura può lasciarne uno intero nel blocco di minerale del gruppo che ha inflitto più danni. La probabilità di una rottura, per livello della roccia, è livello 3: 0,15%, livello 4: 0,25%, livello 5: 0,3%, e 8% per la Motherlode. La fortuna non la cambia.
+- **Missioni**: Marea di ferro (Speciale del livello 5) 1.
 - **Altrimenti**: non si vende nel Negozio.
 
 **A cosa serve**

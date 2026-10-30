@@ -34,8 +34,8 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Episk | uppdrag, Skylabs smedjemodul | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T.-vaggan |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Episk | det svarta hålet (en uppslukad N.I.K.E.) | Dark Matter Plate, Forskningscentrum |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mytisk | Monteringen | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Smedjan |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Episk | asteroider | P.E.T.-vaggan |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mytisk | asteroider | P.E.T.-vaggan |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Episk | asteroider, Special-uppdrag | P.E.T.-vaggan |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mytisk | asteroider, Special-uppdrag | P.E.T.-vaggan |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendarisk | asteroider | P.E.T.-vaggan |
 
 ## Material {#materials}
@@ -672,6 +672,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 **Så får du det**
 
 - **Asteroider**: ett sönderfall kan lämna en hel i malmbiten åt den grupp som gjorde mest skada. Chansen för ett sönderfall, efter klippans nivå, är nivå 2: 0,4 %, nivå 3: 0,8 %, nivå 4: 1 %, nivå 5: 1,2 %, och 25 % för Motherlode. Tur ändrar den inte.
+- **Uppdrag**: Kupekrossaren (Special på nivå 3) 1.
 - **I övrigt**: säljs inte i butiken.
 
 **Vad det används till**
@@ -687,6 +688,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 **Så får du det**
 
 - **Asteroider**: ett sönderfall kan lämna en hel i malmbiten åt den grupp som gjorde mest skada. Chansen för ett sönderfall, efter klippans nivå, är nivå 3: 0,15 %, nivå 4: 0,25 %, nivå 5: 0,3 %, och 8 % för Motherlode. Tur ändrar den inte.
+- **Uppdrag**: Järnfloden (Special på nivå 5) 1.
 - **I övrigt**: säljs inte i butiken.
 
 **Vad det används till**

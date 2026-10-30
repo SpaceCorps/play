@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -328,7 +328,7 @@ Ett uppdragsföremål står som ”kan tappa det: 15 % per nedskjutning, säker
 | Lång vakt | Spaning | Flyg till punkten 8 000 / 1 800 i x-3 → Stanna 10 min i x-3 → Förstör Phantasm ×3 i x-3 | – | 2 300 | 18 500 | 60 | 23 | – |
 | Drivande sond | Strid | Förstör Phantasm ×6 i x-3 → Ta Probe från punkten 11 800 / 3 300 i x-3 till Mission Control (skrovförlust högst 3 000 poäng) | – | 4 000 | 32 000 | 100 | 40 | – |
 | Bevakning | Operationer | Förstör Phantasm ×4 i x-3 → Stanna 6 min i sträck i x-3 → Förstör Phantasm ×4 i x-3 | – | 2 700 | 21 500 | 70 | 27 | – |
-| **Kupekrossaren** (Special) | Operationer | Förstör Boss Seeker ×3; Förstör Seeker Slave ×12; Förstör Phantasm ×6 i x-3 (från säsongsdag 4) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Kupekrossaren** (Special) | Operationer | Förstör Boss Seeker ×3; Förstör Seeker Slave ×12; Förstör Phantasm ×6 i x-3 (från säsongsdag 4) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### Nivå 4: Tungt arbete {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ Ett uppdragsföremål står som ”kan tappa det: 15 % per nedskjutning, säker
 | Nattskift | Spaning | Stanna 15 min i x-3 (skrovförlust högst 40 000 poäng); Förstör Phantasm ×4 i x-3 | – | 5 000 | 20 000 | 150 | 38 | – |
 | Sköldkrossare | Strid | Förstör Bulwark ×5 i x-3 | – | 15 500 | 62 000 | 465 | 116 | – |
 | Hammare och städ | Operationer | Förstör Phantasm ×6 i x-3 → Förstör Bulwark ×4 i x-3 → Stanna 6 min i sträck i x-4 | – | 10 500 | 42 000 | 315 | 79 | – |
-| **Järnfloden** (Special) | Operationer | Förstör Bulwark ×5 i x-3 → Förstör Phantasm ×15 i x-3 → Patrullera 6 000 enheter i x-4 | 35 min | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Järnfloden** (Special) | Operationer | Förstör Bulwark ×5 i x-3 → Förstör Phantasm ×15 i x-3 → Patrullera 6 000 enheter i x-4 | 35 min | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 h |
 
 ### Nivå 6: Gränsen {#level-6-the-border}
 

@@ -34,8 +34,8 @@
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | エピック | ミッション, Skylab の鍛造所 | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. ゆりかご |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | エピック | ブラックホール（飲み込まれた N.I.K.E.） | Dark Matter Plate, 研究センター |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | ミシカル | アセンブリ | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 鍛冶場 |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | エピック | 小惑星 | P.E.T. ゆりかご |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | ミシカル | 小惑星 | P.E.T. ゆりかご |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | エピック | 小惑星, スペシャルミッション | P.E.T. ゆりかご |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | ミシカル | 小惑星, スペシャルミッション | P.E.T. ゆりかご |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | レジェンダリー | 小惑星 | P.E.T. ゆりかご |
 
 ## 素材 {#materials}
@@ -672,6 +672,7 @@
 **入手方法**
 
 - **小惑星**：破壊すると、最もダメージを与えたパーティの鉱石チャンクの中に1つ丸ごと残ることがあります。破壊時の確率は、岩のティアごとに ティア2：0.4%, ティア3：0.8%, ティア4：1%, ティア5：1.2%、Motherlode は 25% です。運では変わりません。
+- **ミッション**：巣穴破り（レベル 3 のスペシャル）×1。
 - **それ以外**：ショップでは販売していません。
 
 **用途**
@@ -687,6 +688,7 @@
 **入手方法**
 
 - **小惑星**：破壊すると、最もダメージを与えたパーティの鉱石チャンクの中に1つ丸ごと残ることがあります。破壊時の確率は、岩のティアごとに ティア3：0.15%, ティア4：0.25%, ティア5：0.3%、Motherlode は 8% です。運では変わりません。
+- **ミッション**：鋼鉄の潮流（レベル 5 のスペシャル）×1。
 - **それ以外**：ショップでは販売していません。
 
 **用途**

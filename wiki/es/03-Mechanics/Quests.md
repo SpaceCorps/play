@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -328,7 +328,7 @@ Un objeto de misión se lee «puede soltarlo: 15 % por baja, seguro en la baja 
 | Guardia larga | Reconocimiento | Vuela al punto 8.000 / 1.800 en x-3 → Permanece 10 min en x-3 → Destruye Phantasm ×3 en x-3 | – | 2.300 | 18.500 | 60 | 23 | – |
 | Sonda a la deriva | Combate | Destruye Phantasm ×6 en x-3 → Lleva Probe desde el punto 11.800 / 3.300 de x-3 a Mission Control (pérdida de casco de 3.000 puntos como máximo) | – | 4.000 | 32.000 | 100 | 40 | – |
 | Vigilancia | Operaciones | Destruye Phantasm ×4 en x-3 → Permanece 6 min seguidos en x-3 → Destruye Phantasm ×4 en x-3 | – | 2.700 | 21.500 | 70 | 27 | – |
-| **Rompecolmenas** (Especial) | Operaciones | Destruye Boss Seeker ×3; Destruye Seeker Slave ×12; Destruye Phantasm ×6 en x-3 (desde el día 4 de la temporada) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Rompecolmenas** (Especial) | Operaciones | Destruye Boss Seeker ×3; Destruye Seeker Slave ×12; Destruye Phantasm ×6 en x-3 (desde el día 4 de la temporada) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### Nivel 4: Trabajo pesado {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ Un objeto de misión se lee «puede soltarlo: 15 % por baja, seguro en la baja 
 | Turno de noche | Reconocimiento | Permanece 15 min en x-3 (pérdida de casco de 40.000 puntos como máximo); Destruye Phantasm ×4 en x-3 | – | 5.000 | 20.000 | 150 | 38 | – |
 | Rompeescudos | Combate | Destruye Bulwark ×5 en x-3 | – | 15.500 | 62.000 | 465 | 116 | – |
 | Martillo y yunque | Operaciones | Destruye Phantasm ×6 en x-3 → Destruye Bulwark ×4 en x-3 → Permanece 6 min seguidos en x-4 | – | 10.500 | 42.000 | 315 | 79 | – |
-| **Marea de hierro** (Especial) | Operaciones | Destruye Bulwark ×5 en x-3 → Destruye Phantasm ×15 en x-3 → Patrulla 6.000 unidades en x-4 | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Marea de hierro** (Especial) | Operaciones | Destruye Bulwark ×5 en x-3 → Destruye Phantasm ×15 en x-3 → Patrulla 6.000 unidades en x-4 | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 h |
 
 ### Nivel 6: La frontera {#level-6-the-border}
 

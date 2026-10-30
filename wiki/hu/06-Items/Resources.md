@@ -34,8 +34,8 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epikus | küldetések, Skylab-kovácsműhely | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T.-bölcső |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epikus | a feketelyuk (egy elnyelt N.I.K.E.) | Dark Matter Plate, Kutatóközpont |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitikus | Gyártás | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Kovácsműhely |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epikus | aszteroidák | P.E.T.-bölcső |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitikus | aszteroidák | P.E.T.-bölcső |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epikus | aszteroidák, Különleges küldetések | P.E.T.-bölcső |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitikus | aszteroidák, Különleges küldetések | P.E.T.-bölcső |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendás | aszteroidák | P.E.T.-bölcső |
 
 ## Nyersanyagok {#materials}
@@ -672,6 +672,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 **Így szerezheted meg**
 
 - **Aszteroidák**: egy széttörés egyet egészben hagyhat a legtöbb sebzést okozó csoport ércdarabjában. A széttörés esélye a szikla szintje szerint 2. szint: 0,4%, 3. szint: 0,8%, 4. szint: 1%, 5. szint: 1,2%, a Motherlode-nál 25%. A szerencse nem változtat rajta.
+- **Küldetések**: Rajtörő (3. szint, Különleges) 1.
 - **Egyébként**: a Boltban nem kapható.
 
 **Mire jó**
@@ -687,6 +688,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 **Így szerezheted meg**
 
 - **Aszteroidák**: egy széttörés egyet egészben hagyhat a legtöbb sebzést okozó csoport ércdarabjában. A széttörés esélye a szikla szintje szerint 3. szint: 0,15%, 4. szint: 0,25%, 5. szint: 0,3%, a Motherlode-nál 8%. A szerencse nem változtat rajta.
+- **Küldetések**: Vasáradat (5. szint, Különleges) 1.
 - **Egyébként**: a Boltban nem kapható.
 
 **Mire jó**

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -328,7 +328,7 @@ Ein Missionsgegenstand steht als „kann es fallen lassen: 15 % pro Abschuss, s
 | Lange Wache | Aufklärung | In x-3: Fliege zum Punkt 8.000 / 1.800 → In x-3: Bleibe 10 min → In x-3: Phantasm ×3 zerstören | – | 2.300 | 18.500 | 60 | 23 | – |
 | Treibende Sonde | Kampf | In x-3: Phantasm ×6 zerstören → Bringe Probe vom Punkt 11.800 / 3.300 in x-3 zu Mission Control (höchstens 3.000 Hüllenpunkte Verlust) | – | 4.000 | 32.000 | 100 | 40 | – |
 | Überwachung | Operationen | In x-3: Phantasm ×4 zerstören → In x-3: Bleibe 6 min am Stück → In x-3: Phantasm ×4 zerstören | – | 2.700 | 21.500 | 70 | 27 | – |
-| **Schwarmbrecher** (Spezial) | Operationen | Boss Seeker ×3 zerstören; Seeker Slave ×12 zerstören; In x-3: Phantasm ×6 zerstören (ab Saisontag 4) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Schwarmbrecher** (Spezial) | Operationen | Boss Seeker ×3 zerstören; Seeker Slave ×12 zerstören; In x-3: Phantasm ×6 zerstören (ab Saisontag 4) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### Level 4: Schwere Arbeit {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ Ein Missionsgegenstand steht als „kann es fallen lassen: 15 % pro Abschuss, s
 | Nachtschicht | Aufklärung | In x-3: Bleibe 15 min (höchstens 40.000 Hüllenpunkte Verlust); In x-3: Phantasm ×4 zerstören | – | 5.000 | 20.000 | 150 | 38 | – |
 | Schildbrecher | Kampf | In x-3: Bulwark ×5 zerstören | – | 15.500 | 62.000 | 465 | 116 | – |
 | Hammer und Amboss | Operationen | In x-3: Phantasm ×6 zerstören → In x-3: Bulwark ×4 zerstören → In x-4: Bleibe 6 min am Stück | – | 10.500 | 42.000 | 315 | 79 | – |
-| **Eiserne Flut** (Spezial) | Operationen | In x-3: Bulwark ×5 zerstören → In x-3: Phantasm ×15 zerstören → In x-4: 6.000 Einheiten patrouillieren | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Eiserne Flut** (Spezial) | Operationen | In x-3: Bulwark ×5 zerstören → In x-3: Phantasm ×15 zerstören → In x-4: 6.000 Einheiten patrouillieren | 35 min | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 h |
 
 ### Level 6: Die Grenze {#level-6-the-border}
 

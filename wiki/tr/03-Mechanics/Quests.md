@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Görevler -->
 # Görevler {#quests}
 
@@ -328,7 +328,7 @@ Bir görev eşyası “düşürebilir: her öldürmede %15 şansla, 10. öldürm
 | Uzun Nöbet | Keşif | 8.000 / 1.800 noktasına uç (x-3) → 10 dk kal (x-3) → Phantasm yok et ×3 (x-3) | – | 2.300 | 18.500 | 60 | 23 | – |
 | Sürüklenen Sonda | Savaş | Phantasm yok et ×6 (x-3) → Probe eşyasını x-3 sektöründeki 11.800 / 3.300 noktasından Mission Control penceresine getir (gövde kaybı en fazla 3.000 puan) | – | 4.000 | 32.000 | 100 | 40 | – |
 | Gözcülük | Operasyon | Phantasm yok et ×4 (x-3) → 6 dk kesintisiz kal (x-3) → Phantasm yok et ×4 (x-3) | – | 2.700 | 21.500 | 70 | 27 | – |
-| **Kovan Kırıcı** (Özel) | Operasyon | Boss Seeker yok et ×3; Seeker Slave yok et ×12; Phantasm yok et ×6 (x-3) (sezonun 4. gününden itibaren) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Kovan Kırıcı** (Özel) | Operasyon | Boss Seeker yok et ×3; Seeker Slave yok et ×12; Phantasm yok et ×6 (x-3) (sezonun 4. gününden itibaren) | – | 6.800 | 54.500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### 4. seviye: Ağır İş {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ Bir görev eşyası “düşürebilir: her öldürmede %15 şansla, 10. öldürm
 | Gece Vardiyası | Keşif | 15 dk kal (x-3) (gövde kaybı en fazla 40.000 puan); Phantasm yok et ×4 (x-3) | – | 5.000 | 20.000 | 150 | 38 | – |
 | Kalkan Kırıcılar | Savaş | Bulwark yok et ×5 (x-3) | – | 15.500 | 62.000 | 465 | 116 | – |
 | Çekiç ve Örs | Operasyon | Phantasm yok et ×6 (x-3) → Bulwark yok et ×4 (x-3) → 6 dk kesintisiz kal (x-4) | – | 10.500 | 42.000 | 315 | 79 | – |
-| **Demir Dalga** (Özel) | Operasyon | Bulwark yok et ×5 (x-3) → Phantasm yok et ×15 (x-3) → 6.000 birim devriye gez (x-4) | 35 dk | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 sa |
+| **Demir Dalga** (Özel) | Operasyon | Bulwark yok et ×5 (x-3) → Phantasm yok et ×15 (x-3) → 6.000 birim devriye gez (x-4) | 35 dk | 27.000 | 108.000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 sa |
 
 ### 6. seviye: Sınır {#level-6-the-border}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 35213e745899897b -->
+<!-- wiki-i18n source: 4087fdb06ed005f2 -->
 <!-- wiki-i18n title: 부스터 -->
 # 부스터 {#boosters}
 

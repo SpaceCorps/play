@@ -16,6 +16,7 @@ L’essaim Dormant est une **Dormant Force** avec ses **Dormant Pulses** : un g
 - **Suivants** : 2 × Dormant Pulse, qui volent avec le meneur
 - **Les suivants restent** : à 700 unités au plus du meneur
 - **Meneur détruit** : Dormant Pulse prend la tête
+- **Meneur détruit** : Les suivants partent 30 s après la destruction du meneur, qu’ils attaquent ou non
 - **Déplacements** : Reste 8 à 15 min sur une carte, puis vole vers le portail d’un autre secteur dangereux. Il ne prend jamais les portails qui sortent des secteurs dangereux et n’entre jamais dans l’anneau du trou noir
 - **Revient** : 1 h après la destruction de tout l’essaim, dans un secteur dangereux tiré au hasard
 - **Dès le jour 11 de la saison** : Il apparaît au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de `DS-4` au lieu d’un secteur dangereux tiré au hasard, revient 30 min après la destruction de tout l’essaim, et chaque vaisseau paie ×2 (crédits, Thulium, XP et honneur ; le butin reste le même)

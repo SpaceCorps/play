@@ -14,6 +14,7 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 - **Followers**: 2 × Dormant Pulse, flying with the leader
 - **Followers stay within**: 700 units of the leader
 - **Leader destroyed**: A Dormant Pulse takes over as leader
+- **Leader destroyed**: The followers leave 30 s after the leader is destroyed, attacking or not
 - **Travels**: Stays 8 to 15 min on a map, then flies to the gate of another Danger Sector. It never takes the gates out of the Danger Sectors and never enters the black hole's ring
 - **Comes back**: 1 h after the whole swarm is destroyed, in a random Danger Sector
 - **From season day 11**: It appears at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4` instead of a random Danger Sector, comes back 30 min after the whole swarm is destroyed, and every ship pays ×2 (Credits, Thulium, XP and Honor; the drop stays the same)

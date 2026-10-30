@@ -16,6 +16,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 - **Kísérők**: 2 × Dormant Pulse, a vezérrel együtt repülnek
 - **A kísérők közel maradnak**: legfeljebb 700 egységre a vezértől
 - **A vezér megsemmisül**: A vezetést Dormant Pulse veszi át
+- **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 30 mp múlva eltűnnek, akkor is, ha éppen támadnak
 - **Útvonal**: 8–15 perc ideig marad egy térképen, aztán egy másik veszélyes szektor kapujához repül. Soha nem vesz igénybe veszélyes szektorokból kivezető kaput, és soha nem lép be a fekete lyuk gyűrűjébe
 - **Visszatér**: 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban
 - **A szezon 11. napjától**: A `DS-4` [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-jánál jelenik meg egy véletlenszerű veszélyes szektor helyett, 30 perc azután tér vissza, hogy az egész raj megsemmisült, és minden hajó ×2-szeresét fizeti (kredit, Thulium, XP és becsület; a zsákmány ugyanaz marad)

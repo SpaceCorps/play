@@ -34,8 +34,8 @@ Todo rendimento desta página é **por abate, em média**: a chance de cada drop
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Épico | missões, Forja do Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Berço de P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Épico | o buraco negro (um N.I.K.E. engolido) | Dark Matter Plate, Centro de Pesquisa |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mítico | Montagem | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forja |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Épico | asteroides | Berço de P.E.T. |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mítico | asteroides | Berço de P.E.T. |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Épico | asteroides, missões Especiais | Berço de P.E.T. |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mítico | asteroides, missões Especiais | Berço de P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Lendário | asteroides | Berço de P.E.T. |
 
 ## Materiais {#materials}
@@ -672,6 +672,7 @@ Uma etapa da Forja que falha devolve 50% dos seus materiais, arredondado para ba
 **Como obter**
 
 - **Asteroides**: uma quebra pode deixar um inteiro no bloco de minério do grupo que causou mais dano. A chance de uma quebra, por nível da rocha, é nível 2: 0,4%, nível 3: 0,8%, nível 4: 1%, nível 5: 1,2%, e 25% para a Motherlode. A sorte não a muda.
+- **Missões**: Quebra-colmeia (Especial do nível 3) 1.
 - **Fora isso**: não é vendido na Loja.
 
 **Para que serve**
@@ -687,6 +688,7 @@ Uma etapa da Forja que falha devolve 50% dos seus materiais, arredondado para ba
 **Como obter**
 
 - **Asteroides**: uma quebra pode deixar um inteiro no bloco de minério do grupo que causou mais dano. A chance de uma quebra, por nível da rocha, é nível 3: 0,15%, nível 4: 0,25%, nível 5: 0,3%, e 8% para a Motherlode. A sorte não a muda.
+- **Missões**: Maré de ferro (Especial do nível 5) 1.
 - **Fora isso**: não é vendido na Loja.
 
 **Para que serve**

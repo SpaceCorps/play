@@ -350,7 +350,7 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 - **In series.** Every level needs the level before it, and a higher level replaces the lower one: the table shows the total each level gives, not what it adds.
 - **Efficient Snacks** (Kabob, Pelmeni, Burger) add hull to every ship you own, in both configurations.
 - **Sealed Backdoor** raises the carry limit of every rocket, wherever you buy, make or trade it.
-- **Excavator Mining** raises what you take from every box of a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md), Thulium and ore alike.
+- **Excavator Mining** makes a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) that you start lay more in every box, Thulium and ore alike. It is the research of the pilot who starts the run that counts, and everyone who picks the boxes up gets the larger amount.
 - **Field Theory** raises the share of every hit that your shields take. A ship with no shield gets nothing.
 - **Dormant Knowledge** pays Wipe Points for each level when its research finishes in the Centre, and again after every wipe ([Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
 

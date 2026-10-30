@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.4.27 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.4.27: Puts two repair ships at every company base, lets every docked Mole mine, shows a pilot&#x27;s title above their name on the map, counts the clan&#x27;s and the P.E.T.s&#x27; boosts in the Boosters totals…">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.4.27.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.4.27.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.4.27 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.4.27: Puts two repair ships at every company base, lets every docked Mole mine, shows a pilot&#x27;s title above their name on the map, counts the clan&#x27;s and the P.E.T.s&#x27; boosts in the Boosters totals…">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.4.27.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.4.27 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.4.27",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.4.27.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.4.27.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.4.27.html",
+      "name": "SpaceCorps 2027 0.4.27 Patch Notes",
+      "description": "SpaceCorps 2027 0.4.27: Puts two repair ships at every company base, lets every docked Mole mine, shows a pilot's title above their name on the map, counts the clan's and the P.E.T.s' boosts in the Boosters totals…",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-10-30"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.4.27.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.4.27" aria-labelledby="v0.4.27-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.4.27-title">0.4.27 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-10-30" data-date>30 October 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.4.27">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.4.27 puts two repair ships at every company base, lets every docked Mole mine, shows a pilot's title above their name on the map, counts the clan's and the P.E.T.s' boosts in the Boosters totals, and makes the Trophies Bay count loot only. Rockets blast 50 % wider (the N.U.K.E. over 1,350 units), the Ammo Printer and the Rocket Factory make twice as much, the Ironclad costs 100 Reinforced Hull Plates, not 450, Excavator Mining enlarges the boxes of the run its owner starts, and two quests drop a P.E.T. chunk.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>Two repair ships at every company base.</strong> They hover just outside the safe ring of Mission Control and <strong>heal every pilot of the base's company within 2,000 units by 250 hull a second each</strong> (a pilot in reach of both gets 500), also in combat. <strong>They are real ships: enemy pilots and aggressive aliens can shoot them down,</strong> and each is back on its post 120 seconds later. A ring on the map shows the reach; the Target window says "Repair ship".</li><li><strong>Every docked Mole mines,</strong> up to five, each on a rock of its own with its own beam and drone. More Moles now mean more mining income.</li><li><strong>Titles over names.</strong> The title a pilot wears stands in small, dim type in its rarity colour above their name on the map, yours too. In a crowd (more than eight plates) the titles of strangers are hidden and only names show.</li><li><strong>Boosters count the clan and the P.E.T.s.</strong> The Boosters window and the Dashboard card now list the clan's and the docked P.E.T.s' boosts as lines of the category they raise (Damage, Shield, Credits, Luck ...), so <strong>a category's total is what your ship gets.</strong></li><li><strong>Rockets blast 50 % wider</strong> (damage unchanged): Ember 255 / 345 / 450, Scatter 315 / 435 / 600 and the <strong>N.U.K.E. over 1,350 units</strong> (900 before). The Dormant Swamp's turret fires the same N.U.K.E.</li><li><strong>The Trophies Bay counts loot only.</strong> A kill's Credits, Thulium, experience and honor take no room in the Bay any more; the "Bay full" notice shows the moment it fills, also while the Skylab is under way. <strong>The Bay therefore fills far more slowly</strong> (Bay 1 at Defense level 3 in about 15 hours, Bay 20 in about 44 days).</li><li><strong>Skylab:</strong> the <strong>Ammo Printer and the Rocket Factory make twice as much</strong> at every level. The Universe window no longer says "Planning the trip..." while the Skylab is flying: it shows where it is heading and when it arrives.</li><li><strong>Smaller:</strong> the <strong>Ironclad</strong> (both designs) costs <strong>100 Reinforced Hull Plates</strong>, not 450; <strong>Excavator Mining</strong> enlarges every box of a run for whoever picks the boxes up, by the research of the pilot who started the run; <strong>Hive Breaker</strong> and <strong>Iron Tide</strong> also drop a <strong>P.E.T. chunk</strong> (a Regular and a Mythical Cluster Chunk, on the first claim only); new pilots start with the <strong>REP button</strong> in hotbar slot 2; the <strong>Production Queue's time left no longer flickers.</strong></li></ul>
+        <h3>If you already play: what changes for you</h3>
+        <ul><li><strong>Update the game.</strong> A recent game installs a patch when the job made one for it, else the whole package; an older game downloads the whole package.</li><li><strong>The update itself pays, moves and removes no Credits, Thulium or items.</strong> Nothing you own changes, except the Ironclad's price for the next one you build.</li><li><strong>The server uses the new numbers at once,</strong> for every version of the game: the wider blasts, the repair ships, the Moles, the Bay's rule, the Skylab output. <strong>A 0.4.26 game keeps working but shows the old screens:</strong> the clan's and the pets' boosts on cards of their own, no title above names, the Bay card with its old labels, one beam for your Moles, and the repair ships as company pilots. It also draws a <strong>Scatter III blast like a N.U.K.E.</strong> (flash and shock ring), because its size test is 600 units and Scatter III now reaches exactly that.</li><li><strong>Moles:</strong> if you dock several, all of them work now. Your mining income grows with them; the Station's rooms (2, 3 and 5) still decide how many you can dock.</li><li><strong>Excavator Mining:</strong> the research counts for <strong>the pilot who starts the run,</strong> and the boxes of that run are larger for everyone who picks them up. A pilot who picks up boxes from someone else's run no longer gets a bonus from their own Excavator Mining.</li><li><strong>A Bay that was full under the old rule may have room now:</strong> one test Bay that held 650 bounty points, full under the old rule, reads 60 of 650 loot units. A trip under way carries on under the new rule from its next look; nothing is lost.</li><li><strong>The Dormant Swarm:</strong> the leftover Pulses leave 30 seconds after the Force dies, and the swarm returns on schedule. The Force's "destroyed" line comes with the despawn, up to 30 seconds after the kill line.</li><li><strong>New texts in other languages have had no native review.</strong></li></ul>
+        <h3>Company base repair ships</h3>
+        <ul><li><strong>Where:</strong> two at each company base (<code>x-1</code>) in Alpha, Beta and Gamma, 9 bases in all, on posts 1,904 units from Mission Control, outside the safe ring of 1,600. They are company pilots to the game: the rules for PvP, honor, safe zones and kill lines apply, and <strong>killing one is a kill of a company pilot.</strong></li><li><strong>What they do:</strong> the aura heals every pilot of the base's company, and the company's own squad pilots, within 2,000 units by 250 hull a second each, never above the maximum. A rival company gets nothing.</li><li><strong>How hard they are to kill:</strong> a hull of 200,000 and a shield of 100,000. Aggressive aliens go for them like for a pilot.</li><li><strong>All the numbers are in one file,</strong> <code>server/Resources/BaseRepair.json</code>; a wrong file stops the server's start.</li></ul>
+        <h3>Moles</h3>
+        <ul><li><strong>One beam each:</strong> the server names each Mole by its place among your docked P.E.T.s, and the game keeps a beam and a drone for each place. A game before 0.4.27 reads only the strongest Mole.</li><li><strong>Rocks:</strong> a pilot's Moles never share a rock. <code>traits.mining.workers</code> (now 5) is the lever that limits how many work.</li></ul>
+        <h3>Titles over ships</h3>
+        <ul><li><strong>How the game knows:</strong> the map's compact snapshot carries no title. The game asks the server for the pilots in view that it does not know, at most once a second and 50 at a time (<code>GET /api/titles/of?ids=</code>), and keeps the answers for a few minutes. Past 120 asks a minute from one pilot the server answers <em>try again later</em> and the game shows nothing meanwhile.</li><li><strong>Cut:</strong> a title is cut at 24 characters.</li></ul>
+        <h3>The Trophies Bay and the Skylab</h3>
+        <ul><li><strong>The rule:</strong> a kill puts in the Bay the loot units its mix brings on average; Credits, Thulium, experience and honor are paid by the budget as before and take no room. <strong>The capacities are the same numbers as before, now in loot units,</strong> and a kill's loot is far smaller than its bounty, so the Bay lasts about ten times longer. <strong>Income an hour is unchanged;</strong> what changes is how long a Skylab can stay out before it holds fire.</li><li><strong>Old rows:</strong> nothing is migrated. The Bay's load is read off its items; a row written before 0.4.27 says bounty points in its <code>Load</code>, which is read past.</li><li><strong>Fill times</strong> (a Skylab firing at its own tier's budget):</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Defense level</th><th scope="col">Bay 1</th><th scope="col">Bay 5</th><th scope="col">Bay 10</th><th scope="col">Bay 15</th><th scope="col">Bay 20</th></tr></thead><tbody><tr><th scope="row">1</th><td>2 d 9 h</td><td>5 d 20 h</td><td>17 d 13 h</td><td>54 d 20 h</td><td>164 d 11 h</td></tr><tr><th scope="row">3</th><td>15 h 13 min</td><td>1 d 13 h</td><td>4 d 16 h</td><td>14 d 15 h</td><td>43 d 22 h</td></tr><tr><th scope="row">5</th><td>12 h 13 min</td><td>1 d 6 h</td><td>3 d 18 h</td><td>11 d 18 h</td><td>35 d 6 h</td></tr></tbody></table></div>
+        <ul><li><strong>The printers:</strong> the Ammo Printer and the Rocket Factory make twice as much at every level (storage stays 24 hours). A Skylab on an expedition fires at the rate its printer supplies, so it can fire for longer.</li></ul>
+        <h3>Rockets</h3>
+        <div class="note-table"><table><thead><tr><th scope="col">Rocket</th><th scope="col">Blast radius, 0.4.26</th><th scope="col">0.4.27</th></tr></thead><tbody><tr><th scope="row">Ember I / II / III</th><td>170 / 230 / 300</td><td><strong>255 / 345 / 450</strong></td></tr><tr><th scope="row">Scatter I / II / III</th><td>210 / 290 / 400</td><td><strong>315 / 435 / 600</strong></td></tr><tr><th scope="row">N.U.K.E.</th><td>900</td><td><strong>1,350</strong></td></tr></tbody></table></div>
+        <ul><li><strong>Damage, speed, lock and price are unchanged.</strong> A wider blast hits more ships, hardest at the centre as ever; the area rockets still do not pierce shields. The N.U.K.E.'s ring on the map runs out to 1,350.</li></ul>
+        <h3>Smaller changes</h3>
+        <ul><li><strong>Excavator Mining</strong> is a Pilot research of the Research Centre: it now enlarges every box of a run its owner starts (the share rides above the per-run cap and is saved with the run), so a run started by a pilot with the research pays the pickers more.</li><li><strong>The REP button</strong> is the starter Repair Drone in primary slot 2 (next to x1 in slot 1) for <strong>new accounts only;</strong> pilots who exist keep their hotbars.</li><li><strong>Wiki:</strong> the generated parts of the wiki are updated in 13 languages. Pages about Achievements, Asteroid Mining, Clans, Pets, Boosters, Company Pilots, Skylab, Getting Started, Giant Excavator, Quests, Research, Ship Designs, Extras and Rockets were rewritten in English; their translations are older until they are translated again.</li></ul>
+        <h3>For administrators and the server</h3>
+        <ul><li><strong>Release order:</strong> the release job stages the downloads as a draft GitHub release (nobody can see it) and the Windows build on Steam's private branch before the server deploys, then publishes the draft as soon as <code>/health</code> reports the new version, so the server and the downloads go live together. <code>AUTORELEASE_STAGE=0</code> gives the old order. (<code>docs/DEVELOPMENT.md</code>, "Releases".)</li><li><strong>Achievements payout:</strong> the veterans' achievements unlocked by the 0.4.26 backfill carried no reward. <code>POST /api/admin/achievements/backfill-pay {pay: bool}</code> pays them once, only the rows the backfill wrote; with <code>pay: false</code> it only counts. It is run by an administrator after a dry run, not by the release.</li><li><strong>Admin quest tools:</strong> an administrator can read a pilot's quest state and count a quest as done. The pilot then claims the reward in the game as usual.</li><li><strong>Containers in bonus codes:</strong> a bonus code can give containers (1 to 1,000 of each) with the rest of its reward; they are given in the same step as the claim and show in the claim's answer. A code whose container the server no longer has cannot be claimed and gives nothing.</li><li><strong>Containers and skins in the admin tools:</strong> the Resources tab has a card to give a container, a skin, a colour, an effect or a collection to a pilot, and the pilot's Inventory sheet has the same as a second Add row.</li><li><strong>The release job</strong> builds without build paths in the binaries, uses a real Python on Windows and looks the macOS build up from GitHub's runner.</li><li><strong>Tests:</strong> the server has new tests for the repair ships (14), the title lookup, the Moles, the Bay, the payout and the Excavator; the game has new tests for the plates, the clock and the beams.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.4.26.html" rel="prev">← 0.4.26</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

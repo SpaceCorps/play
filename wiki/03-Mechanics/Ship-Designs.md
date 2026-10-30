@@ -38,8 +38,8 @@ The last three columns are what the converted ship has: its own hull and base sp
 | **Storm NOTSUM** | 100,000 | 15 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100,000 | 15 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100,000 | 15 | 250 | 45 | 15 | 3 |
-| **Ironclad DUMA** | 100,000 | 9 | 50 | 450 | 15 | 5 |
-| **Ironclad TITANIC** | 100,000 | 24 | 50 | 450 | 15 | 5 |
+| **Ironclad DUMA** | 100,000 | 9 | 50 | 100 | 15 | 5 |
+| **Ironclad TITANIC** | 100,000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100,000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100,000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100,000 | 35 | 375 | 65 | 20 | 3 |

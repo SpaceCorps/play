@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: クエスト -->
 # クエスト {#quests}
 
@@ -328,7 +328,7 @@
 | 長い見張り | 偵察 | ポイント 8,000 / 1,800 へ飛ぶ（x-3） → 10分滞在する（x-3） → Phantasm を3機撃破（x-3） | – | 2,300 | 18,500 | 60 | 23 | – |
 | 漂流プローブ | 戦闘 | Phantasm を6機撃破（x-3） → x-3 のポイント 11,800 / 3,300 から Probe を Mission Control へ届ける（船体の損失は最大3,000ポイントまで） | – | 4,000 | 32,000 | 100 | 40 | – |
 | 監視 | 作戦 | Phantasm を4機撃破（x-3） → 6分間、続けて滞在する（x-3） → Phantasm を4機撃破（x-3） | – | 2,700 | 21,500 | 70 | 27 | – |
-| **巣穴破り**（スペシャル） | 作戦 | Boss Seeker を3機撃破; Seeker Slave を12機撃破; Phantasm を6機撃破（x-3）（シーズン4日目から） | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **巣穴破り**（スペシャル） | 作戦 | Boss Seeker を3機撃破; Seeker Slave を12機撃破; Phantasm を6機撃破（x-3）（シーズン4日目から） | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### レベル 4：重労働 {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@
 | 夜勤 | 偵察 | 15分滞在する（x-3）（船体の損失は最大40,000ポイントまで）; Phantasm を4機撃破（x-3） | – | 5,000 | 20,000 | 150 | 38 | – |
 | シールドブレイカー | 戦闘 | Bulwark を5機撃破（x-3） | – | 15,500 | 62,000 | 465 | 116 | – |
 | 鉄槌と金床 | 作戦 | Phantasm を6機撃破（x-3） → Bulwark を4機撃破（x-3） → 6分間、続けて滞在する（x-4） | – | 10,500 | 42,000 | 315 | 79 | – |
-| **鋼鉄の潮流**（スペシャル） | 作戦 | Bulwark を5機撃破（x-3） → Phantasm を15機撃破（x-3） → 6,000ユニット巡回（x-4） | 35分 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster、5時間 |
+| **鋼鉄の潮流**（スペシャル） | 作戦 | Bulwark を5機撃破（x-3） → Phantasm を15機撃破（x-3） → 6,000ユニット巡回（x-4） | 35分 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster、5時間 |
 
 ### レベル 6：境界 {#level-6-the-border}
 

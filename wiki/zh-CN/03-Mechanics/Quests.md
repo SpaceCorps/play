@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: 任务 -->
 # 任务 {#quests}
 
@@ -328,7 +328,7 @@
 | 长时值守 | 侦察 | x-3：飞往坐标点 8,000 / 1,800 → x-3：停留 10 分钟 → x-3：摧毁 3 架 Phantasm | – | 2,300 | 18,500 | 60 | 23 | – |
 | 漂流探测器 | 战斗 | x-3：摧毁 6 架 Phantasm → 把 Probe 从 x-3 的坐标点 11,800 / 3,300 送到 Mission Control（船体损失最多 3,000 点） | – | 4,000 | 32,000 | 100 | 40 | – |
 | 监视哨 | 行动 | x-3：摧毁 4 架 Phantasm → x-3：连续停留 6 分钟 → x-3：摧毁 4 架 Phantasm | – | 2,700 | 21,500 | 70 | 27 | – |
-| **破巢者**（特别任务） | 行动 | 摧毁 3 架 Boss Seeker; 摧毁 12 架 Seeker Slave; x-3：摧毁 6 架 Phantasm（从赛季第 4 天起） | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **破巢者**（特别任务） | 行动 | 摧毁 3 架 Boss Seeker; 摧毁 12 架 Seeker Slave; x-3：摧毁 6 架 Phantasm（从赛季第 4 天起） | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### 4 级：艰苦作业 {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@
 | 夜班 | 侦察 | x-3：停留 15 分钟（船体损失最多 40,000 点）; x-3：摧毁 4 架 Phantasm | – | 5,000 | 20,000 | 150 | 38 | – |
 | 破盾者 | 战斗 | x-3：摧毁 5 架 Bulwark | – | 15,500 | 62,000 | 465 | 116 | – |
 | 锤与砧 | 行动 | x-3：摧毁 6 架 Phantasm → x-3：摧毁 4 架 Bulwark → x-4：连续停留 6 分钟 | – | 10,500 | 42,000 | 315 | 79 | – |
-| **钢铁狂潮**（特别任务） | 行动 | x-3：摧毁 5 架 Bulwark → x-3：摧毁 15 架 Phantasm → x-4：巡逻 6,000 单位 | 35 分钟 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster，5 小时 |
+| **钢铁狂潮**（特别任务） | 行动 | x-3：摧毁 5 架 Bulwark → x-3：摧毁 15 架 Phantasm → x-4：巡逻 6,000 单位 | 35 分钟 | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster，5 小时 |
 
 ### 6 级：边境 {#level-6-the-border}
 

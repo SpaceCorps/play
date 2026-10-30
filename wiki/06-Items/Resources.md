@@ -32,8 +32,8 @@ Every yield in this page is **per kill, on average**: the chance of each drop ti
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epic | missions, Skylab Forgery | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, P.E.T. Cradle |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epic | the black hole (a swallowed N.I.K.E.) | Dark Matter Plate, Research Centre |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mythical | Assembly | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forge |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epic | asteroids | P.E.T. Cradle |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythical | asteroids | P.E.T. Cradle |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epic | asteroids, mission Specials | P.E.T. Cradle |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythical | asteroids, mission Specials | P.E.T. Cradle |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendary | asteroids | P.E.T. Cradle |
 
 ## Materials
@@ -670,6 +670,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 **How to get it**
 
 - **Asteroids**: a break can leave one whole in the ore chunk of the party that dealt the most damage. The chance of a break, by the rock's tier, is tier 2: 0.4%, tier 3: 0.8%, tier 4: 1%, tier 5: 1.2%, and 25% for the Motherlode. Luck does not change it.
+- **Missions**: Hive Breaker (level 3 Special) 1.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**
@@ -685,6 +686,7 @@ A Forge step that fails gives 50% of its materials back, rounded down.
 **How to get it**
 
 - **Asteroids**: a break can leave one whole in the ore chunk of the party that dealt the most damage. The chance of a break, by the rock's tier, is tier 3: 0.15%, tier 4: 0.25%, tier 5: 0.3%, and 8% for the Motherlode. Luck does not change it.
+- **Missions**: Iron Tide (level 5 Special) 1.
 - **Otherwise**: not sold in the Shop.
 
 **What it is for**

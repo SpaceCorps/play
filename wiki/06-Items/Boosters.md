@@ -35,7 +35,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Boosters use an additive scaling system:
 1. **Bonus Percentages Stack Additively**: If you buy two different boosters that both grant +10% Laser Damage, you will receive a total bonus of **+20% Laser Damage**.
 2. **Durations Stack Multiplicatively**: Purchasing the _same_ booster multiple times extends its active duration. Timers for _different_ boosters run in parallel.
-3. **Timer View**: Active boosters are displayed on the HUD under the Booster window, showing total grouped active bonuses and the next expiration event.
+3. **Timer View**: Active boosters are displayed on the HUD under the Booster window, showing total grouped active bonuses and the next expiration event. A category's total counts everything that raises it: the boosters, your Season Store buffs, your clan's boosts and your docked [P.E.T.s](/wiki/03-Mechanics/Pets.md) each have a line in the category, so the total is what your ship really gets. The Dashboard's Boosters card shows the same totals.
 4. **The numbers count them**: the Hangar's damage, shields, shield recharge, absorbance, speed and hull, and your Pilot page, include your running boosters, your Season Store buffs, your clan's boosts and your docked [P.E.T.s](/wiki/03-Mechanics/Pets.md), and a small *with boosters* tag on the Combat stats card says so. Penetration, critical chance and range are not changed by boosters.
 
 ---

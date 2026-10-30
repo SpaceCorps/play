@@ -44,7 +44,7 @@ Dano de um tiro, em cada mundo:
 - Um foguete é disparado a 90% do alcance que o mesmo foguete tem nas mãos de um piloto, para que chegue; uma torre laser atira uma vez por segundo, e o dano dela é sorteado na faixa mostrada.
 - Um N.I.K.E. tem 35% de penetração de escudo, descontada da absorção de um escudo.
 - O N.I.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 1.125 unidades por segundo, 8.100 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
-- Um N.U.K.E. explode num raio de 900 unidades, mais forte no centro.
+- Um N.U.K.E. explode num raio de 1.350 unidades, mais forte no centro.
 - O N.U.K.E. da torre voa 25% mais rápido e 2× mais longe que o seu: 375 unidades por segundo, 2.400 unidades no total, então uma nave que foge dele é perseguida por muito tempo.
 
 <!-- swamp-guns:end -->

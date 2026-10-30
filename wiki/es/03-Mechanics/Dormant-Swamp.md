@@ -44,7 +44,7 @@ Daño de un disparo, en cada mundo:
 - Un cohete se dispara desde el 90 % del alcance que tiene el mismo cohete en manos de un piloto, para que llegue; una torreta láser dispara una vez por segundo, y su daño se sortea dentro del rango indicado.
 - Un N.I.K.E. tiene 35 % de penetración de escudo, que se resta de la absorción de un escudo.
 - El N.I.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 1.125 unidades por segundo, 8.100 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
-- Un N.U.K.E. estalla en un radio de 900 unidades, con más fuerza en el centro.
+- Un N.U.K.E. estalla en un radio de 1.350 unidades, con más fuerza en el centro.
 - El N.U.K.E. de la torreta vuela un 25 % más rápido y 2× más lejos que el tuyo: 375 unidades por segundo, 2.400 unidades en total, así que una nave que huye de él es perseguida durante un buen trecho.
 
 <!-- swamp-guns:end -->

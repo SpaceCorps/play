@@ -139,7 +139,7 @@ Eight missions from the real list, from the first hour to the Challenge line. Th
 - **Hold the Gate** (level 2, 15 minutes, no death). Four steps open at once: reach the point 12,500 / 2,500 in `x-2`, stay 4 minutes in one stretch there, and destroy 8 Seekers and 3 Phantasm. The kills count whenever you make them while the mission runs. Die, and everything starts again, but the clock does not.
 - **Nest Raid** (level 3). Destroy 7 Phantasm in `x-3`, fly to the nest at 7,500 / 7,600, then destroy Phantasm until the third one drops the Nest Core: it is scripted, the third kill always carries it. Bring it home with a hull loss of at most 3,000 points and without losing your ship. Pays 4,500 XP and 36,000 credits.
 - **Heavy Courier** (level 4, 40 minutes). Destroy 10 Phantasm in `x-3`, reach the points 13,400 / 5,000 and 13,600 / 1,900, then take the Manifest from a Bulwark (25% a kill, sure at the 5th) and carry it to Mission Control with a hull loss of at most 17,000 points and no death. Pays 10,500 XP, 52,000 credits and 315 Thulium.
-- **Hive Breaker** (level 3 Special, from season day 4). Destroy 3 Boss Seekers and 12 Seeker Slaves, in any sector, and 6 Phantasm in `x-3`, in any order. Pays 6,800 XP, 54,500 credits, 170 Thulium, a Quantum Laser II, 10 Ship Fragments and 200 Ultra Core.
+- **Hive Breaker** (level 3 Special, from season day 4). Destroy 3 Boss Seekers and 12 Seeker Slaves, in any sector, and 6 Phantasm in `x-3`, in any order. Pays 6,800 XP, 54,500 credits, 170 Thulium, a Quantum Laser II, 10 Ship Fragments, 200 Ultra Core and a Regular Cluster Chunk (the raw material of a [P.E.T.](/wiki/03-Mechanics/Pets.md))—once, the first time you claim it.
 - **Grand Tour** (level 8, 25 minutes, no death). Fly to 8,000 / 4,500 in `x-4`, then to 6,000 / 4,500 in the centre, destroy 2 Goombahs in a rival company's `x-4` and fly to its heart at 8,000 / 4,500. The [ring gates](/wiki/01-General/Spacemap%20Travel.md#jump-links) and the centre both lead there. Pays 66,000 XP, 165,000 credits and 1,320 Thulium.
 - **Untouched** (Challenge). Destroy 25 Phantasm in `x-3` in a row while losing no more than 39,000 hull points. Go over the limit and the count goes back to 0. Pays, at base, 220,000 XP, 855,000 credits, 6,405 Thulium, 2,370 honor, an Ancient Control Unit and 5 hours of Shield Wall Booster II.
 
@@ -326,7 +326,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Long Watch | Recon | Fly to the point 8,000 / 1,800 in x-3 → Stay 10 min in x-3 → Destroy 3 Phantasm in x-3 | – | 2,300 | 18,500 | 60 | 23 | – |
 | Drifting Probe | Combat | Destroy 6 Phantasm in x-3 → Bring the Probe from the point 11,800 / 3,300 in x-3 to Mission Control (hull loss at most 3,000 points) | – | 4,000 | 32,000 | 100 | 40 | – |
 | Overwatch | Ops | Destroy 4 Phantasm in x-3 → Stay 6 min in one stretch in x-3 → Destroy 4 Phantasm in x-3 | – | 2,700 | 21,500 | 70 | 27 | – |
-| **Hive Breaker** (Special) | Ops | Destroy 3 Boss Seekers; Destroy 12 Seeker Slaves; Destroy 6 Phantasm in x-3 (from season day 4) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Hive Breaker** (Special) | Ops | Destroy 3 Boss Seekers; Destroy 12 Seeker Slaves; Destroy 6 Phantasm in x-3 (from season day 4) | – | 6,800 | 54,500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### Level 4: Heavy Work
 
@@ -362,7 +362,7 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Night Shift | Recon | Stay 15 min in x-3 (hull loss at most 40,000 points); Destroy 4 Phantasm in x-3 | – | 5,000 | 20,000 | 150 | 38 | – |
 | Shield Breakers | Combat | Destroy 5 Bulwarks in x-3 | – | 15,500 | 62,000 | 465 | 116 | – |
 | Hammer and Anvil | Ops | Destroy 6 Phantasm in x-3 → Destroy 4 Bulwarks in x-3 → Stay 6 min in one stretch in x-4 | – | 10,500 | 42,000 | 315 | 79 | – |
-| **Iron Tide** (Special) | Ops | Destroy 5 Bulwarks in x-3 → Destroy 15 Phantasm in x-3 → Patrol 6,000 units in x-4 | 35 min | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Iron Tide** (Special) | Ops | Destroy 5 Bulwarks in x-3 → Destroy 15 Phantasm in x-3 → Patrol 6,000 units in x-4 | 35 min | 27,000 | 108,000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 h |
 
 ### Level 6: The Border
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 492ba57b6e46a186 -->
+<!-- wiki-i18n source: 20209f353955718c -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 

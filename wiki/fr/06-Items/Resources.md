@@ -34,8 +34,8 @@ Tous les rendements de cette page sont **par élimination, en moyenne** : la pr
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Épique | missions, Fonderie du Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Berceau des P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Épique | le trou noir (une N.I.K.E. engloutie) | Dark Matter Plate, Centre de recherche |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mythique | Assemblage | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forge |
-| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Épique | astéroïdes | Berceau des P.E.T. |
-| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythique | astéroïdes | Berceau des P.E.T. |
+| [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Épique | astéroïdes, missions spéciales | Berceau des P.E.T. |
+| [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mythique | astéroïdes, missions spéciales | Berceau des P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Légendaire | astéroïdes | Berceau des P.E.T. |
 
 ## Matériaux {#materials}
@@ -672,6 +672,7 @@ Une étape de Forge qui échoue rend 50 % de ses matériaux, arrondis à l’en
 **Comment l’obtenir**
 
 - **Astéroïdes** : une rupture peut en laisser un entier dans le morceau de minerai du groupe qui a fait le plus de dégâts. La chance d’une rupture, selon le palier du rocher, est palier 2 : 0,4 %, palier 3 : 0,8 %, palier 4 : 1 %, palier 5 : 1,2 %, et 25 % pour la Motherlode. La chance de butin n’y change rien.
+- **Missions** : Brise-ruche (Spéciale du niveau 3) 1.
 - **Sinon** : pas en vente à la boutique.
 
 **Utilité**
@@ -687,6 +688,7 @@ Une étape de Forge qui échoue rend 50 % de ses matériaux, arrondis à l’en
 **Comment l’obtenir**
 
 - **Astéroïdes** : une rupture peut en laisser un entier dans le morceau de minerai du groupe qui a fait le plus de dégâts. La chance d’une rupture, selon le palier du rocher, est palier 3 : 0,15 %, palier 4 : 0,25 %, palier 5 : 0,3 %, et 8 % pour la Motherlode. La chance de butin n’y change rien.
+- **Missions** : Marée de fer (Spéciale du niveau 5) 1.
 - **Sinon** : pas en vente à la boutique.
 
 **Utilité**

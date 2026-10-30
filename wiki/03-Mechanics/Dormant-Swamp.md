@@ -42,7 +42,7 @@ Damage of a shot, in each world:
 - A rocket is fired from 90% of the reach the same rocket has in a pilot's hands, so that it arrives; a laser turret fires once a second, and its damage is rolled in the range shown.
 - A N.I.K.E. has 35% shield penetration, taken off a shield's absorbance.
 - The turret's N.I.K.E. flies 25% faster and 2× as far as yours: 1,125 units a second, 8,100 units in all, so a ship that runs from it is followed a long way.
-- A N.U.K.E. bursts over a radius of 900 units, hardest in the middle.
+- A N.U.K.E. bursts over a radius of 1,350 units, hardest in the middle.
 - The turret's N.U.K.E. flies 25% faster and 2× as far as yours: 375 units a second, 2,400 units in all, so a ship that runs from it is followed a long way.
 
 <!-- swamp-guns:end -->

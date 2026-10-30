@@ -16,6 +16,7 @@ Dormant sürüsü, bir **Dormant Force** ve onun **Dormant Pulse** gemileridir: 
 - **Takipçiler**: 2 × Dormant Pulse, lider ile birlikte uçar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 700 birim
 - **Lider yok edilince**: Bir Dormant Pulse liderliği devralır
+- **Lider yok edilince**: Takipçiler, saldırıyor olsalar bile, lider yok edildikten 30 sn sonra ayrılır
 - **Seyahat**: Bir haritada 8–15 dk kalır, sonra başka bir Tehlike Sektörü geçidine uçar. Tehlike Sektörleri dışındaki geçitleri asla kullanmaz ve kara deliğin halkasına asla girmez
 - **Geri gelir**: Tüm sürü yok edildikten 1 sa sonra, rastgele bir Tehlike Sektörü’nde
 - **Sezonun 11. gününden itibaren**: Rastgele bir Tehlike Sektörü yerine [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde (`DS-4`) belirir, tüm sürü yok edildikten 30 dk sonra geri gelir ve her gemi ×2 öder (kredi, Thulium, XP ve onur; ganimet aynı kalır)

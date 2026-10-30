@@ -35,6 +35,16 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
 - Attacking any company pilot follows the PvP rules of your [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma): none in Alpha's `x-1` to `x-3`, nor in Beta's `x-1`.
 - **Wrecks**: a destroyed company pilot leaves no [cargo](/wiki/03-Mechanics/Cargo.md) crate and no parts, whoever or whatever destroys it: shooting company pilots down is no way to farm materials.
 
+## Repair Ships at the Base
+
+Every company base (`M-1`, `T-1` and `G-1`, in each world) has **2 repair ships** of its company standing guard just outside the station's safe zone, named with the company's tag, e.g. **[M] Mender** and **[M] Salve**.
+
+- **Healing aura**: each repair ship repairs the hull of every pilot of its company within **2,000** of it by **250 hitpoints per second**, also in the middle of a fight, never above the ship's maximum hull. Where both reach you (around the station itself) that is 500 per second. Your company's own company pilots are repaired too; another company's pilots never are.
+- **You see it**: a faint ring on the map shows how far each one reaches: green around your own company's repair ships, grey around another company's. The Target window names it a repair ship.
+- **They never fire.** They hold their post and mend their own hull from 10 seconds after the last hit.
+- **They can be destroyed**: aggressive aliens go after them, and other companies' pilots can shoot them down where your [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) allows PvP at the base (only Gamma's `x-1`), after the Peace Protocol. Each has 200,000 hitpoints and 100,000 shield points. Destroying your own company's repair ship costs **100 Honor**, as for any of its company pilots, and none of them pays anything or leaves a crate.
+- **Back in 2 minutes**: a destroyed repair ship returns to its post 120 seconds later, whole.
+
 ## Combat Notes
 
 A ship locked on and firing turns to face its target, whichever way it is flying: company pilots circle their target with their guns on it, and aliens turn toward whoever they shoot.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Quêtes -->
 # Quêtes {#quests}
 
@@ -328,7 +328,7 @@ Un objet de mission se lit « peut le lâcher : 15 % par destruction, à coup
 | Longue veille | Reconnaissance | Rejoignez le point 8 000 / 1 800 en x-3 → Restez 10 min en x-3 → Détruire Phantasm ×3 en x-3 | – | 2 300 | 18 500 | 60 | 23 | – |
 | Sonde à la dérive | Combat | Détruire Phantasm ×6 en x-3 → Rapportez Probe du point 11 800 / 3 300 en x-3 à Mission Control (perte de coque de 3 000 points au plus) | – | 4 000 | 32 000 | 100 | 40 | – |
 | Surveillance | Opérations | Détruire Phantasm ×4 en x-3 → Restez 6 min d’affilée en x-3 → Détruire Phantasm ×4 en x-3 | – | 2 700 | 21 500 | 70 | 27 | – |
-| **Brise-ruche** (Spéciale) | Opérations | Détruire Boss Seeker ×3; Détruire Seeker Slave ×12; Détruire Phantasm ×6 en x-3 (à partir du jour 4 de la saison) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Brise-ruche** (Spéciale) | Opérations | Détruire Boss Seeker ×3; Détruire Seeker Slave ×12; Détruire Phantasm ×6 en x-3 (à partir du jour 4 de la saison) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### Niveau 4 : Travail de force {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ Un objet de mission se lit « peut le lâcher : 15 % par destruction, à coup
 | Quart de nuit | Reconnaissance | Restez 15 min en x-3 (perte de coque de 40 000 points au plus); Détruire Phantasm ×4 en x-3 | – | 5 000 | 20 000 | 150 | 38 | – |
 | Brise-boucliers | Combat | Détruire Bulwark ×5 en x-3 | – | 15 500 | 62 000 | 465 | 116 | – |
 | Le marteau et l’enclume | Opérations | Détruire Phantasm ×6 en x-3 → Détruire Bulwark ×4 en x-3 → Restez 6 min d’affilée en x-4 | – | 10 500 | 42 000 | 315 | 79 | – |
-| **Marée de fer** (Spéciale) | Opérations | Détruire Bulwark ×5 en x-3 → Détruire Phantasm ×15 en x-3 → Patrouiller sur 6 000 unités en x-4 | 35 min | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 h |
+| **Marée de fer** (Spéciale) | Opérations | Détruire Bulwark ×5 en x-3 → Détruire Phantasm ×15 en x-3 → Patrouiller sur 6 000 unités en x-4 | 35 min | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 h |
 
 ### Niveau 6 : La frontière {#level-6-the-border}
 

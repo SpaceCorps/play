@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 02e93765d5216168 -->
+<!-- wiki-i18n source: 40b3614430227bf5 -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 

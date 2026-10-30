@@ -44,7 +44,7 @@ Schaden eines Schusses, in jeder Welt:
 - Eine Rakete wird ab 90 % der Reichweite abgefeuert, die dieselbe Rakete in der Hand eines Piloten hat, damit sie ankommt; ein Laserturm feuert einmal pro Sekunde, und sein Schaden wird im gezeigten Bereich ausgewürfelt.
 - Eine N.I.K.E. hat 35 % Schilddurchdringung, die von der Absorption eines Schilds abgezogen wird.
 - Die N.I.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 1.125 Einheiten pro Sekunde, 8.100 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
-- Eine N.U.K.E. detoniert in einem Radius von 900 Einheiten, in der Mitte am härtesten.
+- Eine N.U.K.E. detoniert in einem Radius von 1.350 Einheiten, in der Mitte am härtesten.
 - Die N.U.K.E. des Turms fliegt 25 % schneller und 2× so weit wie deine: 375 Einheiten pro Sekunde, 2.400 Einheiten insgesamt, sodass ein Schiff, das vor ihr flieht, weit verfolgt wird.
 
 <!-- swamp-guns:end -->

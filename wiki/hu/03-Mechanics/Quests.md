@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2ec356f14ef5095c -->
+<!-- wiki-i18n source: 8f72df2d6d623eef -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -328,7 +328,7 @@ A küldetéstárgy így szerepel: „elejtheti: pusztításonként 15%, a 10. pu
 | Hosszú őrség | Felderítés | Repülj a 8 000 / 1 800 pontra (x-3) → Maradj 10 percig (x-3) → Phantasm megsemmisítése ×3 (x-3) | – | 2 300 | 18 500 | 60 | 23 | – |
 | Sodródó szonda | Harc | Phantasm megsemmisítése ×6 (x-3) → Told haza a Küldetésirányításhoz: Probe (a(z) x-3 szektor 11 800 / 3 300 pontjától) (legfeljebb 3 000 hajótestpont veszteség) | – | 4 000 | 32 000 | 100 | 40 | – |
 | Felügyelet | Műveletek | Phantasm megsemmisítése ×4 (x-3) → Maradj 6 percig megszakítás nélkül (x-3) → Phantasm megsemmisítése ×4 (x-3) | – | 2 700 | 21 500 | 70 | 27 | – |
-| **Rajtörő** (Különleges) | Műveletek | Boss Seeker megsemmisítése ×3; Seeker Slave megsemmisítése ×12; Phantasm megsemmisítése ×6 (x-3) (a szezon 4. napjától) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200 |
+| **Rajtörő** (Különleges) | Műveletek | Boss Seeker megsemmisítése ×3; Seeker Slave megsemmisítése ×12; Phantasm megsemmisítése ×6 (x-3) (a szezon 4. napjától) | – | 6 800 | 54 500 | 170 | 68 | Quantum Laser II ×1, Ship Fragment ×10, Ultra Core ×200, Regular Cluster Chunk ×1 |
 
 ### 4. szint: Nehéz munka {#level-4-heavy-work}
 
@@ -364,7 +364,7 @@ A küldetéstárgy így szerepel: „elejtheti: pusztításonként 15%, a 10. pu
 | Éjszakai műszak | Felderítés | Maradj 15 percig (x-3) (legfeljebb 40 000 hajótestpont veszteség); Phantasm megsemmisítése ×4 (x-3) | – | 5 000 | 20 000 | 150 | 38 | – |
 | Pajzstörők | Harc | Bulwark megsemmisítése ×5 (x-3) | – | 15 500 | 62 000 | 465 | 116 | – |
 | Pöröly és üllő | Műveletek | Phantasm megsemmisítése ×6 (x-3) → Bulwark megsemmisítése ×4 (x-3) → Maradj 6 percig megszakítás nélkül (x-4) | – | 10 500 | 42 000 | 315 | 79 | – |
-| **Vasáradat** (Különleges) | Műveletek | Bulwark megsemmisítése ×5 (x-3) → Phantasm megsemmisítése ×15 (x-3) → Járőrözés: 6 000 egység (x-4) | 35 perc | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Experience Booster, 5 óra |
+| **Vasáradat** (Különleges) | Műveletek | Bulwark megsemmisítése ×5 (x-3) → Phantasm megsemmisítése ×15 (x-3) → Járőrözés: 6 000 egység (x-4) | 35 perc | 27 000 | 108 000 | 810 | 202 | Starfire-III ×1, Adaptive Core II ×1, Power Core ×1, Reinforced Hull Plate ×3, Ship Fragment ×15, Mythical Cluster Chunk ×1, Experience Booster, 5 óra |
 
 ### 6. szint: A határ {#level-6-the-border}
 
