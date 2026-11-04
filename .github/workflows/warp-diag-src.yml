@@ -1,0 +1,91 @@
+name: WARP start crash, built from source
+
+# NOT RUN YET. The check of the proposed fix (docs/design/warp-start-crash.md in SpaceCorps/SpaceCorps2027):
+# builds the game from a branch of the private SpaceCorps/SpaceCorps2027 on the runner and starts it 8 times in each
+# variant on the software renderer. The source is cloned with the read-only SOURCE_TOKEN, as arm-build.yml does;
+# the build log stays on the runner and only error locations, exit codes, stack frames and the game's own start-up
+# lines are printed (this repository is public, its logs are public). No binary is uploaded.
+#
+#   gh workflow run warp-diag-src.yml -R SpaceCorps/play --ref warp-crash-diag -f ref=claude/keen-grothendieck-d474a8
+#
+# Expected: fix-default 8 of 8; warp-compute-on (the old behaviour) crashes as the released 0.5.0 does; cpu-draw-only
+# says whether the CPU draw path alone is enough or the compute switch is needed too.
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "Branch, commit or tag of SpaceCorps/SpaceCorps2027 to build"
+        required: true
+        default: claude/keen-grothendieck-d474a8
+      os:
+        description: "runner label"
+        required: true
+        default: windows-latest
+  push:
+    branches: [warp-crash-diag]
+    paths: [".github/workflows/warp-diag-src.yml"]
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  src:
+    # A push only registers this workflow (the job is skipped); it runs on a hand-started dispatch.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ${{ inputs.os }}
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Source (private, read-only token)
+        shell: bash
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          REF: ${{ inputs.ref }}
+          GIT_TERMINAL_PROMPT: "0"
+        run: |
+          test -n "$SOURCE_TOKEN" || { echo "the secret SOURCE_TOKEN is not set"; exit 1; }
+          git config --global url."https://x-access-token:${SOURCE_TOKEN}@github.com/SpaceCorps/".insteadOf "https://github.com/SpaceCorps/"
+          git clone --quiet https://github.com/SpaceCorps/SpaceCorps2027.git "$RUNNER_TEMP/src"
+          git -C "$RUNNER_TEMP/src" checkout --quiet "$REF"
+          echo "source at $(git -C "$RUNNER_TEMP/src" rev-parse --short=7 HEAD)"
+      - name: Build (cargo build --release, with a PDB)
+        shell: bash
+        working-directory: ${{ runner.temp }}/src
+        env:
+          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
+          CARGO_PROFILE_RELEASE_DEBUG: line-tables-only
+          CARGO_PROFILE_RELEASE_STRIP: none
+          SPACECORPS_CI_BUILD: "1"
+        run: |
+          set +e
+          date -u +%H:%M:%S
+          cargo build --release --locked -p spacecorps2027 > "$RUNNER_TEMP/build.log" 2>&1
+          rc=$?
+          date -u +%H:%M:%S
+          # The log is private (compiler messages quote the source): only the message and place of each error.
+          grep -aE '^error|^ +--> |LNK[0-9]+' "$RUNNER_TEMP/build.log" | cut -c1-200 | head -40
+          if [ "$rc" -ne 0 ]; then echo "the build failed (exit $rc)"; exit "$rc"; fi
+          ls -l target/release/spacecorps2027.exe target/release/spacecorps2027.pdb
+      - name: "Variants: 8 starts each (the first line says which adapter the game found)"
+        run: |
+          $exe = "$env:RUNNER_TEMP\src\target\release\spacecorps2027.exe"
+          $h = 'SPACE3D_HEADLESS=1280x720'
+          ./.github/warp-diag/src-variants.ps1 -Exe $exe -List @(
+            "fix-default|$h",
+            "fix-windowed|",
+            "warp-compute-on|$h;SPACECORPS_WARP_COMPUTE=1",
+            "cpu-draw-only|$h;SPACECORPS_WARP_COMPUTE=1;SPACECORPS_DRAW_PATH=cpu"
+          )
+      - name: "Under cdb with symbols, old behaviour: where the main thread is when the crash comes"
+        continue-on-error: true
+        run: |
+          $exe = "$env:RUNNER_TEMP\src\target\release\spacecorps2027.exe"
+          $env:SPACE3D_HEADLESS = '1280x720'
+          $env:SPACECORPS_WARP_COMPUTE = '1'
+          $env:_NT_SYMBOL_PATH = "$env:RUNNER_TEMP\src\target\release;srv*C:\sym*https://msdl.microsoft.com/download/symbols"
+          ./.github/warp-diag/cdb-run.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\cdb1" -Script "$PWD\.github\warp-diag\crash-src.cdb"
