@@ -1,0 +1,20 @@
+.sympath+ srv*C:\sym*https://msdl.microsoft.com/download/symbols
+sxd av
+sxd sov
+sxd c0000409
+sxd c0000374
+sxd ibp
+g
+.echo ===== STOPPED =====
+.lastevent
+.exr -1
+.echo ===== FAULTING INSTRUCTION =====
+r rip
+.echo ===== FAULTING THREAD =====
+kcn 14
+.echo ===== MAIN THREAD =====
+~0 s
+kcn 60
+.echo ===== OTHER THREADS =====
+~* kcn 20
+q

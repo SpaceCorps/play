@@ -20,6 +20,7 @@ if ($env:WARPDIAG_SHOWWARP) {
   # which d3d10warp.dll did this start load (the system's or an app-local one)?
   $end = [Diagnostics.Stopwatch]::StartNew()
   while (-not $p.HasExited -and $end.Elapsed.TotalSeconds -lt 20) {
+    $p.Refresh()
     $m = try { $p.Modules | Where-Object { $_.ModuleName -like 'd3d10warp*' } } catch { $null }
     if ($m) { "${Label}: loaded $($m.FileName) $($m.FileVersionInfo.FileVersion)"; break }
     Start-Sleep -Milliseconds 150
@@ -27,7 +28,7 @@ if ($env:WARPDIAG_SHOWWARP) {
 }
 if (-not $p.WaitForExit($TimeoutSecs * 1000)) { $p.Kill(); "${Label}: TIMEOUT after $TimeoutSecs s"; }
 $p.WaitForExit()
-$code = [uint32]($p.ExitCode -band 0xFFFFFFFF)
+$code = [BitConverter]::ToUInt32([BitConverter]::GetBytes([int]$p.ExitCode), 0)
 $txt = (Get-Content "$Work\out.txt","$Work\err.txt" -ErrorAction SilentlyContinue) -join "`n" -replace "\x1b\[[0-9;]*m",''
 $last = ($txt -split "`n" | Where-Object { $_ -match '^20\d\d-' } | Select-Object -Last 1)
 if ($last -and $last.Length -gt 130) { $last = $last.Substring(0,130) }
