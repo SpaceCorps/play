@@ -31,14 +31,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { name: system-warp,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 16 }
-          - { name: warp-1.0.22,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 16, warp: latest }
-          - { name: warp-1.0.21,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.21" }
-          - { name: warp-1.0.20,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.20" }
-          - { name: warp-1.0.18,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.18" }
-          - { name: warp-1.0.15,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.15" }
-          - { name: warp-1.0.12,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.12" }
-          - { name: warp-1.0.8,   vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.8" }
+          - { name: warp-1.0.13,   vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 12, warp: "1.0.13" }
+          - { name: warp-1.0.14,   vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 12, warp: "1.0.14" }
+          - { name: warp-1.0.14.2, vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 12, warp: "1.0.14.2" }
+          - { name: warp-1.0.15,   vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 12, warp: "1.0.15" }
     steps:
       - uses: actions/checkout@v4
       - name: The released x64 package
