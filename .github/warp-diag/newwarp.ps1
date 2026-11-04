@@ -1,10 +1,9 @@
 # The newest Microsoft.Direct3D.WARP NuGet package: put its x64 d3d10warp.dll next to the game's exe.
-param([Parameter(Mandatory)][string]$ExeDir)
+param([Parameter(Mandatory)][string]$ExeDir, [string]$Version = 'latest')
 $ErrorActionPreference = 'Stop'
 $idx = Invoke-RestMethod 'https://api.nuget.org/v3-flatcontainer/microsoft.direct3d.warp/index.json'
 "versions: $($idx.versions -join ' ')"
-$ver = ($idx.versions | Where-Object { $_ -notmatch '-' } | Select-Object -Last 1)
-if (-not $ver) { $ver = $idx.versions | Select-Object -Last 1 }
+$ver = if ($Version -eq 'latest') { $idx.versions | Where-Object { $_ -notmatch '-' } | Select-Object -Last 1 } else { $Version }
 $zip = "$env:RUNNER_TEMP\warp.zip"
 Invoke-WebRequest "https://api.nuget.org/v3-flatcontainer/microsoft.direct3d.warp/$ver/microsoft.direct3d.warp.$ver.nupkg" -OutFile $zip
 Expand-Archive $zip "$env:RUNNER_TEMP\warp" -Force

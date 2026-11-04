@@ -15,10 +15,6 @@ on:
         description: "runner label"
         required: true
         default: windows-latest
-      ref:
-        description: "branch of SpaceCorps/SpaceCorps2027 to build (the src job)"
-        required: false
-        default: claude/keen-grothendieck-d474a8
 
 permissions:
   contents: read
@@ -35,79 +31,21 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { name: quality-low,   vars: "SPACE3D_HEADLESS=1280x720;SPACECORPS_QUALITY=low" }
-          - { name: downlevel,     vars: "SPACE3D_HEADLESS=1280x720;SPACECORPS_DOWNLEVEL=webgl2" }
-          - { name: particles-cpu, vars: "SPACE3D_HEADLESS=1280x720;SPACECORPS_PARTICLE_BACKEND=cpu" }
-          - { name: post-off,      vars: "SPACE3D_HEADLESS=1280x720;SPACECORPS_POST=off" }
-          - { name: one-cpu,       vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_AFFINITY=1" }
-          - { name: two-cpus,      vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_AFFINITY=3" }
-          - { name: new-warp,      vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", newwarp: true }
+          - { name: system-warp,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 16 }
+          - { name: warp-1.0.22,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 16, warp: latest }
+          - { name: warp-1.0.21,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.21" }
+          - { name: warp-1.0.20,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.20" }
+          - { name: warp-1.0.18,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.18" }
+          - { name: warp-1.0.15,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.15" }
+          - { name: warp-1.0.12,  vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.12" }
+          - { name: warp-1.0.8,   vars: "SPACE3D_HEADLESS=1280x720;WARPDIAG_SHOWWARP=1", count: 8, warp: "1.0.8" }
     steps:
       - uses: actions/checkout@v4
       - name: The released x64 package
         run: ./.github/warp-diag/fetch-x64.ps1 -Dest "$env:RUNNER_TEMP\pkg"
-      - name: The newest WARP, app-local
-        if: matrix.newwarp
-        run: ./.github/warp-diag/newwarp.ps1 -ExeDir "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027"
-      - name: "Start it 8 times: ${{ matrix.name }}"
-        run: ./.github/warp-diag/variant.ps1 -Exe "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe" -Name "${{ matrix.name }}" -Vars "${{ matrix.vars }}"
+      - name: "WARP from NuGet, app-local: ${{ matrix.warp }}"
+        if: matrix.warp
+        run: ./.github/warp-diag/newwarp.ps1 -ExeDir "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027" -Version "${{ matrix.warp }}"
+      - name: "Start it ${{ matrix.count }} times: ${{ matrix.name }}"
+        run: ./.github/warp-diag/variant.ps1 -Exe "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe" -Name "${{ matrix.name }}" -Vars "${{ matrix.vars }}" -Count ${{ matrix.count }}
 
-  src:
-    # The game built from source on the runner (PDB symbols), run under cdb and in variants. Nothing is uploaded:
-    # the source is private (cloned with the read-only SOURCE_TOKEN, as arm-build.yml does), so only the
-    # stack frames, exit codes and the game's own start-up lines are printed.
-    if: github.event_name == 'workflow_dispatch'
-    runs-on: ${{ inputs.os }}
-    timeout-minutes: 120
-    steps:
-      - uses: actions/checkout@v4
-      - name: Source (private, read-only token)
-        shell: bash
-        env:
-          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
-          REF: ${{ inputs.ref }}
-          GIT_TERMINAL_PROMPT: "0"
-        run: |
-          test -n "$SOURCE_TOKEN" || { echo "the secret SOURCE_TOKEN is not set"; exit 1; }
-          git config --global url."https://x-access-token:${SOURCE_TOKEN}@github.com/SpaceCorps/".insteadOf "https://github.com/SpaceCorps/"
-          git clone --quiet https://github.com/SpaceCorps/SpaceCorps2027.git "$RUNNER_TEMP/src"
-          git -C "$RUNNER_TEMP/src" checkout --quiet "$REF"
-          echo "source at $(git -C "$RUNNER_TEMP/src" rev-parse --short=7 HEAD)"
-      - name: Build (cargo build --release, msvc, with a PDB)
-        shell: bash
-        working-directory: ${{ runner.temp }}/src
-        env:
-          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
-          CARGO_PROFILE_RELEASE_DEBUG: line-tables-only
-          CARGO_PROFILE_RELEASE_STRIP: none
-          SPACECORPS_CI_BUILD: "1"
-        run: |
-          set +e
-          date -u +%H:%M:%S
-          cargo build --release --locked -p spacecorps2027 > "$RUNNER_TEMP/build.log" 2>&1
-          rc=$?
-          date -u +%H:%M:%S
-          # The log is private (compiler messages quote the source): only the message and place of each error.
-          grep -aE '^error|^ +--> |LNK[0-9]+' "$RUNNER_TEMP/build.log" | cut -c1-200 | head -40
-          if [ "$rc" -ne 0 ]; then echo "the build failed (exit $rc)"; exit "$rc"; fi
-          ls -l target/release/spacecorps2027.exe target/release/spacecorps2027.pdb
-      - name: "Under cdb (with symbols): the crash's stack"
-        continue-on-error: true
-        run: |
-          $exe = "$env:RUNNER_TEMP\src\target\release\spacecorps2027.exe"
-          $env:SPACE3D_HEADLESS = '1280x720'
-          $env:_NT_SYMBOL_PATH = "$env:RUNNER_TEMP\src\target\release;srv*C:\sym*https://msdl.microsoft.com/download/symbols"
-          ./.github/warp-diag/cdb-run.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\cdb1" -Script "$PWD\.github\warp-diag\crash-src.cdb"
-      - name: "Variants: 8 starts each"
-        run: |
-          $exe = "$env:RUNNER_TEMP\src\target\release\spacecorps2027.exe"
-          $h = 'SPACE3D_HEADLESS=1280x720'
-          ./.github/warp-diag/src-variants.ps1 -Exe $exe -List @(
-            "base|$h",
-            "draw-cpu|$h;SPACECORPS_DRAW_PATH=cpu",
-            "draw-indirect|$h;SPACECORPS_DRAW_PATH=indirect",
-            "draw-multi|$h;SPACECORPS_DRAW_PATH=multi",
-            "draw-cpu+downlevel|$h;SPACECORPS_DRAW_PATH=cpu;SPACECORPS_DOWNLEVEL=webgl2",
-            "downlevel|$h;SPACECORPS_DOWNLEVEL=webgl2",
-            "draw-cpu+particles-cpu+post-off|$h;SPACECORPS_DRAW_PATH=cpu;SPACECORPS_PARTICLE_BACKEND=cpu;SPACECORPS_POST=off"
-          )
