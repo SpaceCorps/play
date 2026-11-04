@@ -1,0 +1,53 @@
+name: WARP start crash diagnosis
+
+# Why does the SpaceCorps 2027 Windows client segfault before its first frame on the software renderer
+# (Microsoft Basic Render Driver)? Uses only the PUBLIC released 0.5.0 x64 zip (sha-checked), no secret:
+# logs and artifacts of this public repository are public, so only error locations, exit codes and
+# stack frames are printed. Nothing is released or published by it.
+
+on:
+  push:
+    branches: [warp-crash-diag]
+    paths: [".github/workflows/warp-diag.yml", ".github/warp-diag/**"]
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "probe | dump | variants"
+        required: true
+        default: probe
+      os:
+        description: "runner label"
+        required: true
+        default: windows-latest
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ${{ github.event_name == 'push' && 'windows-latest' || inputs.os }}
+    timeout-minutes: 40
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+      - name: The machine
+        run: ./.github/warp-diag/probe.ps1
+      - name: The released x64 package
+        run: ./.github/warp-diag/fetch-x64.ps1 -Dest "$env:RUNNER_TEMP\pkg"
+      - name: "Start it once with WER LocalDumps on, then ask the event log"
+        run: |
+          $exe = "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe"
+          $dumps = "$env:RUNNER_TEMP\dumps"; New-Item -ItemType Directory -Force $dumps | Out-Null
+          $k = 'HKLM:\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\spacecorps2027.exe'
+          New-Item -Force $k | Out-Null
+          New-ItemProperty $k -Name DumpFolder -Value $dumps -PropertyType ExpandString -Force | Out-Null
+          New-ItemProperty $k -Name DumpType -Value 2 -PropertyType DWord -Force | Out-Null
+          $since = Get-Date
+          foreach ($i in 1..3) { ./.github/warp-diag/run-once.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\w$i" -Label "start $i" | Select-Object -SkipLast 1 }
+          "--- dumps in $dumps"; Get-ChildItem $dumps | ForEach-Object { "{0} {1:N0} bytes" -f $_.Name, $_.Length }
+          "--- Application log since the first start"
+          Get-WinEvent -FilterHashtable @{ LogName = 'Application'; StartTime = $since } -ErrorAction SilentlyContinue |
+            Where-Object { $_.ProviderName -match 'Application Error|Windows Error Reporting|\.NET' } |
+            ForEach-Object { "[$($_.TimeCreated.ToString('HH:mm:ss'))] $($_.ProviderName) $($_.Id): $(($_.Message -split "`n" | Select-Object -First 12) -join ' | ')" }
