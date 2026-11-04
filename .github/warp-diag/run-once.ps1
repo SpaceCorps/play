@@ -15,6 +15,16 @@ $env:SPACE3D_AUDIO = 'off'; $env:SPACE3D_EXIT_AFTER_SECS = '12'; $env:SPACECORPS
 $env:SPACECORPS_SHOT_EVERY = '5'; $env:SPACECORPS_SHOTS = "$Work\shots"
 $sw = [Diagnostics.Stopwatch]::StartNew()
 $p = Start-Process -FilePath $Exe -PassThru -RedirectStandardOutput "$Work\out.txt" -RedirectStandardError "$Work\err.txt" -WorkingDirectory (Split-Path $Exe)
+if ($env:WARPDIAG_AFFINITY) { try { $p.ProcessorAffinity = [IntPtr][int]$env:WARPDIAG_AFFINITY } catch { "affinity: $($_.Exception.Message)" } }
+if ($env:WARPDIAG_SHOWWARP) {
+  # which d3d10warp.dll did this start load (the system's or an app-local one)?
+  $end = [Diagnostics.Stopwatch]::StartNew()
+  while (-not $p.HasExited -and $end.Elapsed.TotalSeconds -lt 20) {
+    $m = try { $p.Modules | Where-Object { $_.ModuleName -like 'd3d10warp*' } } catch { $null }
+    if ($m) { "${Label}: loaded $($m.FileName) $($m.FileVersionInfo.FileVersion)"; break }
+    Start-Sleep -Milliseconds 150
+  }
+}
 if (-not $p.WaitForExit($TimeoutSecs * 1000)) { $p.Kill(); "${Label}: TIMEOUT after $TimeoutSecs s"; }
 $p.WaitForExit()
 $code = [uint32]($p.ExitCode -band 0xFFFFFFFF)
