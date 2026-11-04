@@ -333,8 +333,14 @@ jobs:
           if-no-files-found: ignore
 
   windows-x64-emulated:
+    # The released x86_64 build on the Arm runner (emulated) and, as the control, on an ordinary x64 runner: the same
+    # software renderer (Microsoft Basic Render Driver / WARP), no GPU.
     if: github.event_name == 'workflow_dispatch' && (inputs.jobs == 'x64' || inputs.jobs == 'all')
-    runs-on: windows-11-arm
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-11-arm, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 30
     defaults:
       run:
@@ -351,7 +357,7 @@ jobs:
           unzip -q SpaceCorps2027-windows-x86_64.zip -d x64
           file "x64/SpaceCorps 2027/spacecorps2027.exe" | cut -c1-160
 
-      - name: Start it headless (x64 code, emulated by Windows on Arm)
+      - name: Start it headless (x64 code; emulated by Windows on Arm on the Arm runner)
         run: |
           set +e
           mkdir -p "$RUNNER_TEMP/shots" "$RUNNER_TEMP/home"
@@ -372,7 +378,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: arm-windows-x64-emulated-screenshots
+          name: arm-windows-x64-${{ matrix.os }}-screenshots
           path: ${{ runner.temp }}/shots/*.png
           retention-days: 3
           if-no-files-found: ignore
