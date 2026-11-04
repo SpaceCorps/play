@@ -15,7 +15,7 @@ $env:SPACE3D_AUDIO = 'off'; $env:SPACE3D_EXIT_AFTER_SECS = '12'; $env:SPACECORPS
 $env:SPACECORPS_SHOT_EVERY = '5'; $env:SPACECORPS_SHOTS = "$Work\shots"
 $sw = [Diagnostics.Stopwatch]::StartNew()
 $p = Start-Process -FilePath $Exe -PassThru -RedirectStandardOutput "$Work\out.txt" -RedirectStandardError "$Work\err.txt" -WorkingDirectory (Split-Path $Exe)
-if (-not $p.WaitForExit($TimeoutSecs * 1000)) { $p.Kill(); "$Label: TIMEOUT after $TimeoutSecs s"; }
+if (-not $p.WaitForExit($TimeoutSecs * 1000)) { $p.Kill(); "${Label}: TIMEOUT after $TimeoutSecs s"; }
 $p.WaitForExit()
 $code = [uint32]($p.ExitCode -band 0xFFFFFFFF)
 $txt = (Get-Content "$Work\out.txt","$Work\err.txt" -ErrorAction SilentlyContinue) -join "`n" -replace "\x1b\[[0-9;]*m",''

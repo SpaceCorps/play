@@ -1,0 +1,25 @@
+.sympath srv*C:\sym*https://msdl.microsoft.com/download/symbols
+.symopt+ 0x80000000
+sxd av
+sxd sov
+sxd c0000409
+sxd c0000374
+sxd ibp
+g
+.echo ===== STOPPED =====
+.lastevent
+.exr -1
+.echo ===== EXCEPTION CONTEXT: the faulting instruction =====
+.ecxr
+r
+u @rip-0x10 L8
+.echo ===== STACK OF THE FAULTING THREAD (faulting context) =====
+kcn 60
+.echo ===== STACK AS THE DEBUGGER SEES IT =====
+.cxr
+kcn 40
+.echo ===== MODULES =====
+lm
+.echo ===== OTHER THREADS =====
+~* kcn 14
+q

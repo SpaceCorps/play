@@ -11,10 +11,6 @@ on:
     paths: [".github/workflows/warp-diag.yml", ".github/warp-diag/**"]
   workflow_dispatch:
     inputs:
-      step:
-        description: "probe | dump | variants"
-        required: true
-        default: probe
       os:
         description: "runner label"
         required: true
@@ -23,31 +19,51 @@ on:
 permissions:
   contents: read
 
+defaults:
+  run:
+    shell: pwsh
+
 jobs:
-  diag:
+  cdb:
     runs-on: ${{ github.event_name == 'push' && 'windows-latest' || inputs.os }}
-    timeout-minutes: 40
-    defaults:
-      run:
-        shell: pwsh
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: The machine
-        run: ./.github/warp-diag/probe.ps1
       - name: The released x64 package
         run: ./.github/warp-diag/fetch-x64.ps1 -Dest "$env:RUNNER_TEMP\pkg"
-      - name: "Start it once with WER LocalDumps on, then ask the event log"
+      - name: "Start it once, plain: exit code and the Application log"
+        continue-on-error: true
         run: |
           $exe = "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe"
-          $dumps = "$env:RUNNER_TEMP\dumps"; New-Item -ItemType Directory -Force $dumps | Out-Null
-          $k = 'HKLM:\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps\spacecorps2027.exe'
-          New-Item -Force $k | Out-Null
-          New-ItemProperty $k -Name DumpFolder -Value $dumps -PropertyType ExpandString -Force | Out-Null
-          New-ItemProperty $k -Name DumpType -Value 2 -PropertyType DWord -Force | Out-Null
+          $env:SPACE3D_HEADLESS = '1280x720'
           $since = Get-Date
-          foreach ($i in 1..3) { ./.github/warp-diag/run-once.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\w$i" -Label "start $i" | Select-Object -SkipLast 1 }
-          "--- dumps in $dumps"; Get-ChildItem $dumps | ForEach-Object { "{0} {1:N0} bytes" -f $_.Name, $_.Length }
+          Start-Service WerSvc -ErrorAction SilentlyContinue
+          foreach ($i in 1..3) { ./.github/warp-diag/run-once.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\w$i" -Label "plain $i" | Select-Object -SkipLast 1 }
           "--- Application log since the first start"
           Get-WinEvent -FilterHashtable @{ LogName = 'Application'; StartTime = $since } -ErrorAction SilentlyContinue |
-            Where-Object { $_.ProviderName -match 'Application Error|Windows Error Reporting|\.NET' } |
-            ForEach-Object { "[$($_.TimeCreated.ToString('HH:mm:ss'))] $($_.ProviderName) $($_.Id): $(($_.Message -split "`n" | Select-Object -First 12) -join ' | ')" }
+            ForEach-Object { "[$($_.TimeCreated.ToString('HH:mm:ss'))] $($_.ProviderName) $($_.Id): $(($_.Message -split "`n" | Select-Object -First 14) -join ' | ')" }
+      - name: "Start it under cdb: the second-chance exception"
+        run: |
+          $exe = "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe"
+          $env:SPACE3D_HEADLESS = '1280x720'
+          ./.github/warp-diag/cdb-run.ps1 -Exe $exe -Work "$env:RUNNER_TEMP\cdb1"
+
+  variants:
+    runs-on: ${{ github.event_name == 'push' && 'windows-latest' || inputs.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { name: base,       vars: "SPACE3D_HEADLESS=1280x720" }
+          - { name: small,      vars: "SPACE3D_HEADLESS=640x360" }
+          - { name: windowed,   vars: "" }
+          - { name: fxc,        vars: "SPACE3D_HEADLESS=1280x720;WGPU_DX12_COMPILER=fxc" }
+          - { name: vulkan,     vars: "SPACE3D_HEADLESS=1280x720;WGPU_BACKEND=vulkan" }
+          - { name: gl,         vars: "SPACE3D_HEADLESS=1280x720;WGPU_BACKEND=gl" }
+    steps:
+      - uses: actions/checkout@v4
+      - name: The released x64 package
+        run: ./.github/warp-diag/fetch-x64.ps1 -Dest "$env:RUNNER_TEMP\pkg"
+      - name: "Start it 8 times: ${{ matrix.name }}"
+        run: ./.github/warp-diag/variant.ps1 -Exe "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe" -Name "${{ matrix.name }}" -Vars "${{ matrix.vars }}"
