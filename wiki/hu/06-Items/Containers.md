@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Konténerek -->
 # Konténerek {#containers}
 
@@ -333,12 +333,12 @@ A Króma-archívum először a fokozatot húzza, majd az adott fokozat egy olyan
 | :--- | :--- | ---: |
 | Gyakori | 240 × Velkonite (a Skylabba) | 7,000% |
 | Gyakori | 160 × Orvium (a Skylabba) | 7,000% |
-| Gyakori | 1 300 × Reinforced Hull Plate | 5,000% |
-| Gyakori | 9 000 × Ship Fragment | 6,000% |
+| Gyakori | 100 × Reinforced Hull Plate | 5,000% |
+| Gyakori | 1 000 × Ship Fragment | 6,000% |
 | Gyakori | **Kovácsolókristályok**: 4 000 × Cataclysite + 3 000 × Quorvium | 5,000% |
-| Gyakori | 450 × Power Core | 5,000% |
+| Gyakori | 20 × Power Core | 5,000% |
 | Gyakori | 450 Thulium | 5,000% |
-| Gyakori | 4 × Regular Cluster Chunk | 5,000% |
+| Gyakori | 2 × Regular Cluster Chunk | 5,000% |
 | Szokatlan | 780 × Velkonite (a Skylabba) | 5,000% |
 | Szokatlan | 510 × Orvium (a Skylabba) | 5,000% |
 | Szokatlan | 19 × Velkonite Reinforced Plate | 4,000% |
@@ -571,16 +571,17 @@ A játék Konténerek oldala a saját esélyeidet a közzétettek mellett mutatj
 
 ## A tábla verziója {#version-of-the-table}
 
-Az oldalon minden esély a játék szerverének táblája. Ha egy esély változik, a tábla új verziót és új hasht kap, és minden nyitás rögzíti annak a táblának a hashét, amelyből húztak.
+Az oldalon minden esély a játék szerverének táblája. Ha egy esély vagy egy mennyiség változik, a tábla új verziót és új hasht kap, és minden nyitás rögzíti annak a táblának a hashét, amelyből húztak.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **A tábla verziója**: 1
-- **A tábla hashe (az első 12 karakter)**: `23aa20f1a5ad`
+- **A tábla verziója**: 2
+- **A tábla hashe (az első 12 karakter)**: `9f345692845a`
 
 Mi változott:
 
+- 2. verzió: Felmérő tartály: a négy gyakori készlet kisebb lett. Reinforced Hull Plate 1 300 helyett 100, Ship Fragment 9 000 helyett 1 000, Power Core 450 helyett 20, Regular Cluster Chunk 4 helyett 2. Egyetlen jutalom és egyetlen fokozat esélye sem változott.
 - 1. verzió: Az első közzétett tábla.
 
 <!-- containers-version:end -->

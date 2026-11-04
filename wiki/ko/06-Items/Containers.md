@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: 컨테이너 -->
 # 컨테이너 {#containers}
 
@@ -333,12 +333,12 @@
 | :--- | :--- | ---: |
 | 일반 | 240 × Velkonite (Skylab으로) | 7.000% |
 | 일반 | 160 × Orvium (Skylab으로) | 7.000% |
-| 일반 | 1,300 × Reinforced Hull Plate | 5.000% |
-| 일반 | 9,000 × Ship Fragment | 6.000% |
+| 일반 | 100 × Reinforced Hull Plate | 5.000% |
+| 일반 | 1,000 × Ship Fragment | 6.000% |
 | 일반 | **단조 크리스털**: 4,000 × Cataclysite + 3,000 × Quorvium | 5.000% |
-| 일반 | 450 × Power Core | 5.000% |
+| 일반 | 20 × Power Core | 5.000% |
 | 일반 | 450 Thulium | 5.000% |
-| 일반 | 4 × Regular Cluster Chunk | 5.000% |
+| 일반 | 2 × Regular Cluster Chunk | 5.000% |
 | 고급 | 780 × Velkonite (Skylab으로) | 5.000% |
 | 고급 | 510 × Orvium (Skylab으로) | 5.000% |
 | 고급 | 19 × Velkonite Reinforced Plate | 4.000% |
@@ -571,16 +571,17 @@ and better are in play.
 
 ## 표의 버전 {#version-of-the-table}
 
-이 페이지의 모든 확률은 게임 서버의 표입니다. 확률이 바뀌면 표는 새 버전과 새 해시를 받고, 모든 개봉은 추첨에 쓴 표의 해시를 기록합니다.
+이 페이지의 모든 확률은 게임 서버의 표입니다. 확률이나 수량이 바뀌면 표는 새 버전과 새 해시를 받고, 모든 개봉은 추첨에 쓴 표의 해시를 기록합니다.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **표 버전**: 1
-- **표 해시 (앞 12자)**: `23aa20f1a5ad`
+- **표 버전**: 2
+- **표 해시 (앞 12자)**: `9f345692845a`
 
 바뀐 내용:
 
+- 버전 2: 탐사 캐니스터: 일반 등급 묶음 네 개가 작아졌습니다. Reinforced Hull Plate 1,300개에서 100개, Ship Fragment 9,000개에서 1,000개, Power Core 450개에서 20개, Regular Cluster Chunk 4개에서 2개. 어떤 보상이나 등급의 확률도 바뀌지 않았습니다.
 - 버전 1: 처음 공개된 표.
 
 <!-- containers-version:end -->

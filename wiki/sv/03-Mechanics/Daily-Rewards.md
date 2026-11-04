@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Dagliga belöningar -->
 # Dagliga belöningar {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; daglig belöning; dagliga belöningar; daglig inloggning; kalender; adventskalender; kista; säsongsbelöning; säsongsminne; ritning; svit -->
 
-Varje säsong har en **kalender med dagliga belöningar**: en liten present för varje dag i säsongen. Tryck på **Hämta** vid stationen, så är dagens present din. Ju fler dagar du hämtar, desto mer får du: fyra **kistor** kommer vid 7, 14, 21 och 28 hämtade dagar, och under säsongens sista tre dagar kan du ta **säsongsbelöningen**. En missad dag kostar dig den dagens present och inget mer. Du hittar kalendern på **Översikt** (kortet **Dagliga belöningar**) och under **Säsong och profil › Kalender**.
+Varje säsong har en **kalender med dagliga belöningar**: en present för varje dag i säsongen, alltid ammunition eller raketer. Tryck på **Hämta** vid stationen, så är dagens present din. Ju fler dagar du hämtar, desto mer får du: fyra **kistor** kommer vid 7, 14, 21 och 28 hämtade dagar, och under säsongens sista tre dagar kan du ta **säsongsbelöningen**. En missad dag kostar dig den dagens present och inget mer. Du hittar kalendern på **Översikt** (kortet **Dagliga belöningar**) och under **Säsong och profil › Kalender**.
 
 ## På en minut {#in-one-minute}
 
@@ -15,7 +15,7 @@ Varje säsong har en **kalender med dagliga belöningar**: en liten present för
 - **4 kistor**, vid 7, 14, 21 och 28 hämtade dagar.
 - **En säsongsbelöning** under säsongens sista tre dagar: ett minnesutseende vid 10 hämtade dagar och en ritning till en skeppsdesign vid 20.
 - **En ny kalender vid varje wipe.** Du ser varje present i säsongen från dag 1.
-- **Litet med flit.** Alla 29 dagarna tillsammans är värda ungefär några timmars jakt, utspridda över en säsong.
+- **Ammunition och raketer.** Varje daglig present är en av de två starkaste sorternas laserammunition eller en episk raket ([Presenterna](#the-gifts)). Kistorna och säsongsbelöningen är separata.
 
 ## Dagen {#the-day}
 
@@ -33,7 +33,7 @@ Kortet och fliken säger båda när nästa belöning öppnas **i din egen tidszo
 
 - **Dag 1 är kort.** Säsongen börjar med wipen, mitt i en UTC-dag, så ruta 1 är öppen från då till slutet av den dagen, plus respiten.
 - **Dag 29 är lång.** Den sista rutan förblir öppen tills wipens nedräkning startar, och det kan vara mer än 24 timmar efter att den öppnades. När nedräkningen har startat går inget att hämta förrän den nya säsongen börjar.
-- **Administratörer kan flytta säsongsdagen.** Kalendern följer med: dagar som hoppas över räknas som missade för alla, och en ruta som du redan har hämtat förblir hämtad.
+- **Administratörer kan flytta säsongsdagen.** Kalendern följer med. Flyttas den framåt räknas dagar som hoppas över som missade för alla, och en ruta som du redan har hämtat förblir hämtad. Flyttas den bakåt spelas dagarna om: de rutor för dagarna från den nya dagen och framåt som du hade hämtat kan hämtas igen, var och en när klockan når sin dag, och var och en betalar ut sin present en gång till. Det du har fått tas inte tillbaka, och rutorna före den nya dagen, dina kistor och din säsongsbelöning förblir som de är (en kista du redan har fått kommer inte en andra gång).
 
 ## Rutorna {#the-tiles}
 
@@ -85,22 +85,19 @@ Säsongsbelöningen har två steg. Du hämtar dem under säsongens **sista tre d
 
 ## Presenterna {#the-gifts}
 
-Dagens present är liten. Det är en av dessa:
+Dagens present är **ammunition eller raketer** och inget annat. Den är ett av sex föremål:
 
-- **Ammunition och raketer**, i måttliga staplar.
-- **Material, plåtar och förbrukningsvaror**, bland dem Forge kits (materialen till ett steg i Smedjan).
-- **Boosters** på några timmar. En booster-present lägger sina timmar till dina [boosters](/wiki/06-Items/Boosters.md#active-boosters).
-- **Krediter och Thulium**, i små mängder.
-- **Några få specialföremål** (Workforce Contract, Forger's Seal): aldrig fler än 4 rutor i en säsong.
+- **Ultra Core** (×3,0) och **Experimental Fusion Core** (×4,0), de två starkaste sorterna [laserammunition](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** och **Scatter III**, de episka [raketerna](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
-Den här sidan nämner ingen present från någon säsong, eftersom kalendern är olika vid varje wipe. Fliken Kalender visar den här säsongens presenter. En present är en present: föremål från kalendern har ingen **Säljbar**-märkning ([Säljbara föremål](/wiki/03-Mechanics/Inventory.md#marketable-items)) och kan inte läggas ut på [Auktionen](/wiki/03-Mechanics/Auction.md).
+Stapelns storlek varierar från dag till dag, och kalendern är olika vid varje wipe. Fliken Kalender visar den här säsongens presenter. Kistorna och säsongsbelöningen är inte dagliga presenter och förblir som de är. En present är en present: föremål från kalendern har ingen **Säljbar**-märkning ([Säljbara föremål](/wiki/03-Mechanics/Inventory.md#marketable-items)) och kan inte läggas ut på [Auktionen](/wiki/03-Mechanics/Auction.md).
 
 ## Wipen {#the-wipe}
 
 En ny säsong är en ny kalender. Vid [wipen](/wiki/03-Mechanics/Wipe-Timeline.md) stängs den gamla och den nya öppnas med sina egna 29 presenter, och ditt antal börjar om på 0. Wipen tar inget av det du har hämtat, utom det den tar från alla föremål:
 
-- **Raderas:** presenter som är föremål (ammunition, raketer, material, plåtar, förbrukningsvaror) raderas av wipen om de inte ligger i ditt [Transportförråd](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). Kalendern märker en sådan present med en anteckning.
-- **Behålls:** boosters, krediter, Thulium, specialföremål, utseenden, tekniker (en ritning) och containrar.
+- **Behålls:** kalenderns ammunition och raketer följer med wipen av sig själva, upp till en gräns för varje sort ([Ammunition och raketer](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Boosters, krediter, Thulium, utseenden, tekniker (en ritning) och containrar behålls också.
+- **Raderas:** alla andra föremål du har, som de Dark Matter Plate som ersätter en ritning du redan kan, raderas av wipen om de inte ligger i ditt [Transportförråd](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **De sista fyra dagarna (26 till 29) ger bara presenter som behålls**, så en present från sista veckan går aldrig förlorad i wipen.
 
 ## Sena spelare och sena kalendrar {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ En ny säsong är en ny kalender. Vid [wipen](/wiki/03-Mechanics/Wipe-Timeline.m
 - **Ändrar Premium något?** Nej. Premium ger inga extra rutor och inga bättre presenter, och kalendern ger inga Premium-dagar.
 - **Behöver jag en klan?** Nej. Kalendern använder samma dag som klanernas dagliga linje, men den är bara din.
 - **Finns det en nivågräns?** Nej. Varje pilot kan hämta, från nivå 1.
-- **Vad händer vid wipen?** Du får en ny kalender och börjar om på 0 dagar. Presenter som är föremål raderas om de inte ligger i Transportförrådet; resten behålls ([Wipen](#the-wipe)).
+- **Vad händer vid wipen?** Du får en ny kalender och börjar om på 0 dagar. Kalenderns ammunition och raketer följer med wipen, upp till dess gränser; alla andra föremål raderas om de inte ligger i Transportförrådet, och resten behålls ([Wipen](#the-wipe)).
 
 ## Bra att veta {#good-to-know}
 

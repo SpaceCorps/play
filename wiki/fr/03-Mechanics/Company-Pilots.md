@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
+<!-- wiki-i18n source: 2d81c36bc4357d49 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
@@ -21,8 +21,8 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 
 - **Patrouillent** en boucle entre la station du secteur, ses portails et quelques points intermédiaires.
 - **Chassent** les aliens qu’ils peuvent battre (Seekers et Phantasms ; ils laissent les Bulwarks, les Goombahs et les Crystalys tranquilles) tant que des pilotes volent dans le secteur. Un alien qu’un pilote d’une autre corporation est en train de combattre appartient à ce pilote : l’escadrille n’y touche pas.
-- **Ignorent les [essaims](/wiki/05-Swarms/Swarms.md)** : un vaisseau d’essaim ne les concerne pas. Ils ne le chassent pas, ne se joignent pas à un combat contre lui et ne viennent jamais vous aider dans un tel combat.
 - **Aident** : quand un pilote de leur corporation situé à moins de 1 500 unités d’eux est attaqué par un alien, ou ouvre le feu sur un alien qu’ils pourraient battre, ils rejoignent ce combat. Ils restent à l’écart d’un combat qu’un coéquipier a engagé avec un alien qu’ils ne pourraient pas vaincre (un Goombah sur lequel un pilote a tiré, ou un Bulwark) ; un alien agressif qui s’en prend à un coéquipier est repoussé, quel qu’il soit. Un alien qu’ils achèvent rapporte au pilote qui détient sa revendication (le premier à l’avoir touché, voir [Combat](/wiki/03-Mechanics/Combat.md)) ; si personne n’en détient une, il compte pour le pilote de leur corporation le plus proche qui tire dessus (verrouillé, à portée, avec une salve dans les 2,5 dernières secondes). Dans les deux cas, les récompenses reviennent à ce pilote, et la caisse de [cargaison](/wiki/03-Mechanics/Cargo.md) lui est réservée comme s’il avait fait l’élimination. Les pilotes de corporation ne revendiquent jamais un alien et ne gagnent ni ne récupèrent jamais rien eux-mêmes : un alien qu’ils combattent seuls ne laisse aucune caisse. Verrouiller de loin, ou seulement être visé, ne rapporte rien.
+- **Ignorent les [essaims](/wiki/05-Swarms/Swarms.md)** : un vaisseau d’essaim ne les concerne pas. Ils ne le chassent pas, ne se joignent pas à un combat contre lui et ne viennent jamais vous aider dans un tel combat.
 - **Ripostent** quand des aliens leur tirent dessus, et quand des pilotes d’autres corporations le font, une fois le PvP ouvert et là où leur [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) autorise le PvP : pas en `x-1` à `x-3` dans Alpha, ni en `x-1` dans Beta.
 - **Se réparent** avec leur drone dès que leur coque est entamée : 1,5 % par seconde, à partir de 10 secondes après le dernier coup reçu.
 - **Se replient** à 30 % de coque vers la zone sûre la plus proche et s’y réparent jusqu’à 90 %.
@@ -36,6 +36,16 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 - **Les pilotes d’une autre corporation** ne rapportent rien quand ils sont détruits (ni crédits, ni honneur, ni points de classement), et ne peuvent pas être attaqués pendant le Protocole de paix (les trois premiers jours de la saison).
 - Attaquer un pilote de corporation, quel qu’il soit, suit les règles de PvP de votre [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) : aucun PvP en `x-1` à `x-3` dans Alpha, ni en `x-1` dans Beta.
 - **Épaves** : un pilote de corporation détruit ne laisse ni caisse de [cargaison](/wiki/03-Mechanics/Cargo.md) ni pièces, quoi ou qui que ce soit qui le détruise : abattre des pilotes de corporation n’est pas un moyen de farmer des matériaux.
+
+## Vaisseaux de réparation à la base {#repair-ships-at-the-base}
+
+Chaque base de corporation (`M-1`, `T-1` et `G-1`, dans chaque monde) a **2 vaisseaux de réparation** de sa corporation qui montent la garde juste à l’extérieur de la zone sûre de la station, nommés avec le tag de la corporation, par ex. **[M] Mender** et **[M] Salve**.
+
+- **Aura de soin** : chaque vaisseau de réparation répare la coque de chaque pilote de sa corporation situé à moins de **2 000** unités de lui, de **250 points de vie par seconde**, y compris en plein combat, sans jamais dépasser la coque maximale du vaisseau. Là où les deux vous atteignent (autour de la station même), cela fait 500 par seconde. Les pilotes de corporation de votre propre corporation sont réparés eux aussi ; ceux d’une autre corporation ne le sont jamais.
+- **Vous le voyez** : un anneau discret sur la carte montre jusqu’où chacun porte, vert autour des vaisseaux de réparation de votre propre corporation, gris autour de ceux d’une autre corporation. La fenêtre Cible le désigne comme un vaisseau de réparation.
+- **Ils ne tirent jamais.** Ils tiennent leur poste et réparent leur propre coque à partir de 10 secondes après le dernier coup reçu.
+- **Ils peuvent être détruits** : les aliens agressifs s’en prennent à eux, et les pilotes d’autres corporations peuvent les abattre là où votre [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) autorise le PvP à la base (seulement en `x-1` dans Gamma), après le Protocole de paix. Chacun a 200 000 points de vie et 100 000 points de bouclier. Détruire le vaisseau de réparation de votre propre corporation coûte **100 points d’honneur**, comme pour n’importe lequel de ses pilotes de corporation, et aucun d’eux ne rapporte quoi que ce soit ni ne laisse de caisse.
+- **De retour en 2 minutes** : un vaisseau de réparation détruit revient à son poste 120 secondes plus tard, intact.
 
 ## Notes de combat {#combat-notes}
 

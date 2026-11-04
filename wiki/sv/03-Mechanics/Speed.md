@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -41,7 +41,7 @@ Dessutom multipliceras motorns hastighet med platsens effektivitet (kärnplats: 
 
 Den totala fartbonusen i procent är summan av alla fartbonusar från utrustade motorer (och hybrider) minus avdragen från utrustade sköldar:
 
-- **Motorernas fartbonus**: Motorer ger positiva fartprocent (t.ex. ger Engine III `+5%`).
+- **Motorernas fartbonus**: Motorer ger positiva fartprocent (t.ex. ger Engine III `+4%`).
 - **Sköldarnas fartavdrag**: Tunga sköldar tynger ner ditt skepp och ger negativa fartprocent (t.ex. ger Heavy Shield Core `-5%` fart).
 - **Skalning efter plats**: De här procentbonusarna och avdragen skalas också med effektiviteten hos platsen där föremålet sitter. En sköld på en av dina drönare bromsar dig lika mycket som en sköld på en kärnplats.
 - **Aldrig under noll**: hur många sköldar du än bär går din hastighet inte under 0.

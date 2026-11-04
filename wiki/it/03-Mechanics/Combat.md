@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Infine si applicano i moltiplicatori globali (come i booster attivi, per esempio
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata può moltiplicare ancora il risultato: per esempio Auger +21% di danno laser, Gyre −11% e, contro gli alieni, Culler +12% (un fattore a parte, non compreso nella percentuale dei booster).
 - Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
+- Le **Dark Matter Ammo** (0.5.0) cambiano la raffica stessa: la Dark Matter Ammo I estrae il suo moltiplicatore (da x1,5 a x5) a ogni raffica, e la Dark Matter Ammo II colpisce a x6 solo una volta ogni 1,5 secondi e ti restituisce un quarto del danno subito dallo scudo del bersaglio. Le **Antimatter Battery** perforano il 20% dell’assorbimento del bersaglio. Vedi [Munizioni Antimatter e Dark Matter](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Razzi {#3b-rockets}
 
@@ -115,7 +116,7 @@ Quando la tua nave viene colpita da un nemico o da un NPC, il danno viene elabor
 ### 1. Assorbimento dello scudo {#1-shield-absorption}
 
 Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbimento medio** della tua nave: la media dell’assorbimento dei tuoi scudi, ciascuno con quello delle sue celle scudo, più lo Shield Absorbance Boost dell’Emporio (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)). **Non ha un tetto del 100%**: ciò che gli scudi prendono di un colpo è il tuo assorbimento **meno la penetrazione dello scudo dell’attaccante**, tra 0% e 100%.
-- L’**assorbimento** (ad es. 80% per il miglior scudo con le migliori celle, 56% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 45% agli scudi di una nave all’80%, e il resto (il 55% in questo caso) colpisce direttamente i punti scafo.
+- L’**assorbimento** (ad es. 85% per il miglior scudo con le migliori celle, 58% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 50% agli scudi di una nave all’85%, e il resto (il 50% in questo caso) colpisce direttamente i punti scafo.
 - La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +3% a +12% per slot) e una formazione di droni si sommano, e niente limita il totale.
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.

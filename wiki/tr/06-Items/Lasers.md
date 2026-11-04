@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Lazerler -->
 # Lazerler ve cephane {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -144,11 +151,18 @@ Lazer salvolarının hasarını katlayan, harcanan bataryalar:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Sıradan | 1,0x | – | 5 kredi |
 | **Advanced Plasma** | Nadir | 2,0x | – | 0,5 Thulium |
-| **Ultra Core** | Nadir | 3,0x | %5 | 1,0 Thulium |
-| **Experimental Fusion Core** | Destansı | 4,0x | %10 | 2,2 Thulium |
-| **Siphon Battery** | Nadir | 1,0x, yalnızca kalkan | – | 0,25 Thulium |
+| **Ultra Core** | Nadir | 3,0x | %5 | 1,0 Thulium veya üret |
+| **Experimental Fusion Core** | Destansı | 4,0x | %10 | Yalnızca üretilebilir (artık satılmıyor) |
+| **Siphon Battery** | Nadir | 1,0x, yalnızca kalkan | – | 50 kredi |
+| **Siphon Battery II** | Nadir | 0,5x, yalnızca kalkan, iki katı çalar | – | Yalnızca üretilebilir |
+| **Antimatter Battery I** | Nadir | 2,0x | %20 | Yalnızca üretilebilir |
+| **Antimatter Battery II** | Destansı | 3,0x | %20 | Yalnızca üretilebilir |
+| **Dark Matter Ammo I** | Nadir | 1,5x ile 5x arası, her salvoda yeniden belirlenir (ortalama 3,25x) | – | Yalnızca üretilebilir |
+| **Dark Matter Ammo II** | Destansı | 6,0x, 1,5 saniyede bir salvo, hedefin kalkanını emer | – | Yalnızca üretilebilir |
 
-**Kalkan delme**, salvolarının her vuruşu için hedefinin soğurmasından düşülür: kalkanlar, hedefin soğurması eksi delme kadarını alır (bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)). Penetration Amp eşyaların ve bir dron formasyonu cephanenin delmesine eklenir, toplamın tamamı [bu sayfanın aşağısında](#shield-penetration-of-a-laser-hit) yer alır. %80 soğurmalı bir gemiye karşı (en iyi hücrelerle en iyi kalkan) x4 cephanenin %10’u, kalkanlara vuruşun %70’ini, gövdeye %30’unu bırakır. En çok, gövdesi kalkanına göre küçük olan gemilere karşı önem taşır; %80 soğurmalı çok büyük bir gemi ise ikisinde de aynı süre dayanır. Uzaylıların söz edilecek bir soğurma değeri yoktur (kalkanları bir vuruşun %80’ini alır) ve delme bundan da düşülür.
+**Yeni cephane nereden geliyor.** 0.5.0’dan beri Experimental Fusion Core artık satılmıyor: onu Skylab’ın Araştırma Merkezi’nde **Military Grade Ammo II**’yi araştırdıktan sonra, [Montaj](/wiki/06-Items/Overview.md#the-production-queue)’ta 1.000’er adet üretirsin. Ultra Core hâlâ satın alınabilir ve üretilebilir de (**Military Grade Ammo I**, 30 dakikalık araştırma). Beş yeni cephane yalnızca üretimle elde edilir; her biri **Laser Ammo** ailesinden bir teknolojinin arkasındadır ve her biri bir alttaki cephaneden yapılır: **Siphon Battery II** (Siphon Battery’den), **Antimatter Battery I** (Siphon Battery II’den) ve **II** (Antimatter Battery I’den ve biraz [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)’dan), **Dark Matter Ammo I** (ham maddelerden ve bir Dark Matter’dan) ve **II** (Dark Matter Ammo I’den ve Dark Matter’dan). Bir üretim 1.000 adettir, 5 ile 15 dakika sürer ve bir adet yaklaşık değeri kadar tutar. [Cephane Yazıcısı](/wiki/03-Mechanics/Skylab.md) araştırdıktan sonra Ultra Core’u ve Experimental Fusion Core’u da üretir.
+
+**Kalkan delme**, salvolarının her vuruşu için hedefinin soğurmasından düşülür: kalkanlar, hedefin soğurması eksi delme kadarını alır (bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)). Penetration Amp eşyaların ve bir dron formasyonu cephanenin delmesine eklenir, toplamın tamamı [bu sayfanın aşağısında](#shield-penetration-of-a-laser-hit) yer alır. %85 soğurmalı bir gemiye karşı (en iyi hücrelerle en iyi kalkan) x4 cephanenin %10’u, kalkanlara vuruşun %75’ini, gövdeye %25’unu bırakır; %20’lik Antimatter cephane ise kalkanlara %65’ını, gövdeye %35’ını bırakır. En çok, gövdesi kalkanına göre küçük olan gemilere karşı önem taşır; %85 soğurmalı çok büyük bir gemi ise ikisinde de aynı süre dayanır. Uzaylıların söz edilecek bir soğurma değeri yoktur (kalkanları bir vuruşun %80’ini alır) ve delme bundan da düşülür.
 
 ### Siphon Battery
 
@@ -161,15 +175,27 @@ Siphon Battery, gövde kırmak yerine kalkan çalmak için bir cephanedir. **Hed
 - **Kritik vuruşlar** sayılır: kritik bir salvo 1,5 kat fazla boşaltır ve sayısı kritik vuruş olarak çizilir. Paketleri daha büyük ve daha parlaktır, hedefin kalkanı daha güçlü parlar.
 - [Şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md) standart x1 cephane atar.
 
+**Siphon Battery II** aynı şekilde çalışır, yalnızca sayılar ters çevrilmiştir: hedefin kalkanından bir Siphon Battery’nin (x0,5) **yarısı** kadarını boşaltır ve boşalttığının **iki katını** sana verir (2,0’lık bir çalma); böylece kalkanın, bir Siphon Battery salvosunun verdiği kadar kazanırken hedef bunun yarısı kadarını kaybeder. Bir üretimdir (**Siphon Battery II** araştırması, 1.000 Siphon Battery’den) ve ilki gibi gövdeye asla dokunmaz.
+
+---
+
+## Antimatter ve Dark Matter cephanesi {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I ve II** kalkanları deler: ikisi de **%20** delme sağlar, Penetration Amp’lerinin ve formasyonunun üstüne, x2 ve x3 hasarla. Kalkanı gövdesine kıyasla büyük bir gemiye karşı gövdeyi Experimental Fusion Core’dan daha çabuk açarlar; diğer her şeye karşı x4 hâlâ daha sert vuruştur. Bu bir tercihtir, bir basamak daha yukarısı değil.
+
+**Dark Matter Ammo I** çarpanını **her salvoda** yeniden belirler, **x1,5 ile x5** arasında bir yerde (ortalama x3,25). Gemideki lazer sayısı ne olursa olsun bütün gemi tek bir zarı paylaşır; yani bir salvo hepsi için birden şanslı ya da şanssızdır. Her cephane gibi saniyede bir ateşler.
+
+**Dark Matter Ammo II** **x6** ile vurur, ama yalnızca **1,5 saniyede bir salvo** atar (saniye başına hasar bir x4’ünkiyle aynıdır) ve **kalkan emer**: hedefin kalkanının gerçekten aldığı hasarın %25’ini, azami değerine kadar kazanırsın. Vuruş diğerleri gibi isabet eder (kalkanlar payını alır, gövde kalanını) ve kalkanı kalmamış bir hedef sana hiçbir şey vermez. Kalkan kazanmak hasar almak sayılmaz; bu yüzden kendi kalkan yenilenmeni geciktirmez.
+
 ---
 
 ## Bir lazer vuruşunun kalkan delmesi {#shield-penetration-of-a-laser-hit}
 
-Her lazer vuruşu, hedefinin soğurmasından puan düşürür; toplanan en fazla üç kaynak vardır: **cephanen** (Ultra Core %5, Experimental Fusion Core %10), **Penetration Amp** eşyaların ve bir **dron formasyonu** (Gemini +%15; [Dron formasyonları](/wiki/03-Mechanics/Formations.md)). **Toplamı hiçbir şey sınırlamaz** (doğrudan bir roket kendi delmesini ve formasyonunkini aynı şekilde ekler: [Roketler](/wiki/06-Items/Rockets.md)). Kalkanlar, hedefin soğurmasından vuruşun delmesi düşüldükten sonra kalanı alır, gerisini gövde alır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Her lazer vuruşu, hedefinin soğurmasından puan düşürür; toplanan en fazla üç kaynak vardır: **cephanen** (Ultra Core %5, Experimental Fusion Core %10, Antimatter Battery %20), **Penetration Amp** eşyaların ve bir **dron formasyonu** (Gemini +%15; [Dron formasyonları](/wiki/03-Mechanics/Formations.md)). **Toplamı hiçbir şey sınırlamaz** (doğrudan bir roket kendi delmesini ve formasyonunkini aynı şekilde ekler: [Roketler](/wiki/06-Items/Rockets.md)). Kalkanlar, hedefin soğurmasından vuruşun delmesi düşüldükten sonra kalanı alır, gerisini gövde alır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Amfilerin, lazerlerinin ortalaması olarak sayılır.** Bir salvo tek bir vuruştur; bu yüzden oyun her lazerin amfilerinin delmesini toplar (dronlarındaki lazerler de sayılır) ve lazerlerin üzerinden, her biri hasarıyla ağırlıklandırılarak ortalamasını alır, kritik şansta olduğu gibi. Her lazerde üç Penetration Amp IV %36 eder; on iki lazerden birindeki bir Penetration Amp IV %1 eder. Bir Wraith gemisinin 12 lazeri ve 36 amfi yuvası vardır ve %36’ya ulaşmak için 36’sının da dolu olması gerekir.
 - **Hangar bunu gösterir.** Hangardaki savaş özelliklerinde her gemide bir **Kalkan delme** kutucuğu vardır; kutucuk, açık olan konfigürasyonun lazer amfilerinin değerini taşır (Penetration Amp yoksa %0,0); cephane ve formasyon buna dahil değildir. Uçuştaki **Gemi penceresinde** alt satırın sonunda bir **Kalkan delme** göstergesi vardır (yer açmak için Konfig. ve Hız göstergeleri yalnızca bir simge ve bir sayı gösterir): bir lazer vuruşunun toplamını gösterir: amfilerin, kuşandığın formasyon ve ateşlediğin cephane, sen değiştirdikçe toplanır; ipucu üç parçayı listeler.
-- **En iyi lazer %61 eder.** Bir Experimental Fusion Core (%10), bir Gemini (%15) ve her lazerde üç Penetration Amp IV (%36) %61 eder.
+- **En iyi lazer x4 ile %61, Antimatter ile %71 eder.** Bir Experimental Fusion Core (%10), bir Gemini (%15) ve her lazerde üç Penetration Amp IV (%36) %61 eder; yerine bir Antimatter Battery (%20) koyarsan %71 eder, x4 yerine x3 hasarla.
 - **Bir Penetration Amp IV üzerindeki Demirhane bonusu sayılır.** Bir Penetration Amp, diğer amfiler gibi dövülebilir ve tek bonusu delmeyi çarpar: Ebedi bir bonus (+%9 ile +%15), bir Penetration Amp IV eşyasını yuva başına 12 yerine 13,1 ile 13,8 puan yapar. En iyi donanım düzeninde üç Ebedi bonus toplamda %66,4 eder ve her puanı sayılır.
 
 | Lazer salvosu | Cephane | Amfiler (3 yuva) | Formasyon | Toplam |
@@ -188,19 +214,19 @@ Bunun hedefin kalkanlarına etkisi: her hücre, bir vuruşun **kalkanların ald�
 | Savunan (soğurma) | Amfi yok | Yalnızca Fusion Core (%10) | Fusion Core + Gemini (%25) | Fusion Core + 3 Penetration Amp IV (%46) | En iyi lazer (%61) |
 |---|---|---|---|---|---|
 | Light Shield Core, hücresiz (%45) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, hücresiz (%50) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, hücresiz (%55) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (%55) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (%65) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Hiçbir bonus olmadan en iyi kalkan (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%96,4) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%102) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (%70) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Hiçbir bonus olmadan en iyi kalkan (%85) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve 44 Sezon Mağazası seviyesi (%102,2) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| En iyi kalkan, Ebedi Demirhane bonusları (en yüksek değer) ve sınırındaki Sezon Mağazası (%107,8) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Herhangi bir uzaylı (%80) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-En iyi lazer, hücresiz bir kalkan çekirdeğini ve en iyi hücresiyle takılı bir Light Shield Core kalkanını boşaltır (vuruşun tamamını gövde alır); üç Capacity hücreli bir Heavy Shield Core her vuruşun %4’ünü tutar, en iyi kalkan %19’unu (bonuslarla %35). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%70) bir Lancet III ya da Rivet III boşaltır.
+En iyi lazer, hücresiz bir kalkan çekirdeğini ve en iyi hücresiyle takılı bir Light Shield Core kalkanını boşaltır (vuruşun tamamını gövde alır); üç Capacity hücreli bir Heavy Shield Core her vuruşun %9’ünü tutar, en iyi kalkan %24’unu (bonuslarla %41). Tek başına bir roket bir kalkanı asla boşaltmaz (en fazla %35), ama Stiletto ile (%70) bir Lancet III ya da Rivet III boşaltır.
 
 ### Bir Penetration Amp bir yuvaya değer mi? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp soğurmaya karşı koyar ve soğurma ne kadar yüksekse o kadar işe yarar: yaklaşık %95 soğurmalı (Sezon Mağazası, Demirhane ve Rampart donanım düzenleri) küçük gövdeli bir gemiye karşı Penetration donanımı, en iyi sade donanımdan yaklaşık 1,8 kat hızlı öldürür; hiçbir bonus olmadan en iyi kalkana (%80) karşı ise üç Penetration Amp ile öldürme süresi, aynı kademeden üç Crit Amp ile olandan yaklaşık %11 kısadır. Uzaylılara karşı neredeyse hiçbir şey kazandırmaz.**
+**Penetration Amp soğurmaya karşı koyar ve soğurma ne kadar yüksekse o kadar işe yarar: yaklaşık %101 soğurmalı (Sezon Mağazası, Demirhane ve Rampart donanım düzenleri) küçük gövdeli bir gemiye karşı Penetration donanımı, en iyi sade donanımdan yaklaşık 2,6 kat hızlı öldürür; hiçbir bonus olmadan en iyi kalkana (%85) karşı ise üç Penetration Amp ile öldürme süresi, aynı kademeden üç Crit Amp ile olandan yaklaşık %19 kısadır. Uzaylılara karşı neredeyse hiçbir şey kazandırmaz.**
 
 - **Hasar eklemez.** Bir Helios Beam üzerinde üç Penetration Amp IV salvo başına 187 hasar eder (x1 cephane, hasar aralığının ve kritiklerin ortalaması), üç Damage Amp IV 356, üç Crit Amp IV 369 eder: yaklaşık yarısı. Geri kazandırdığı şey kalkanın payıdır, bu yüzden yalnızca gövdenin kalkanına göre küçük ve soğurmanın yüksek olduğu yerde karşılığını verir; büyük gövdesi zaten dayanan bir Wraith ya da Ironclad gemisine karşı sade bir Damage ya da Crit seti yaklaşık aynı hızdadır (bir lazerdeki bir Penetration Amp en fazla %5 kazandırır).
 - **Uzaylılar.** Kalkanları bir vuruşun %80’ini alır, senin delmen düşülür; bu yüzden onlarda da işe yarar, ama aynı kademeden bir Damage ya da Crit Amp onları aynı hızda ya da daha hızlı öldürür; formasyonla savaşılan bir Phantasm ya da Goombah hariç: orada bir lazerdeki bir Penetration Amp %5’e kadar kazandırır.

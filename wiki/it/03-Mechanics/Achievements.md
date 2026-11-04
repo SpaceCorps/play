@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
@@ -69,7 +69,7 @@ I 37 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 151 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 158 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 
@@ -118,7 +118,7 @@ Un obiettivo nascosto ancora bloccato è una scheda chiusa, senza meta e senza b
 Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 40 obiettivi ne danno uno, tuo per sempre quando sblocchi l’obiettivo. I titoli arrivano anche dalla fine di una stagione (il tuo grado, il miglior pilota di ogni corporazione e il pilota con più punti PvE) e dal team del gioco, come il titolo **Pioneer** per ogni account che esisteva il giorno del lancio del gioco su Steam.
 
 - Hai molti titoli e ne **porti uno** alla volta. Lo scegli sul tuo **profilo da pilota** e puoi toglierlo di nuovo.
-- Il tuo titolo compare sul tuo **profilo**, nelle **Classifiche**, nella finestra del **Gruppo** e quando passi il puntatore sul tuo nome nella **chat**. Non compare sopra la tua nave sulla mappa.
+- Il tuo titolo compare sul tuo **profilo**, nelle **Classifiche**, nella finestra del **Gruppo** e quando passi il puntatore sul tuo nome nella **chat**. Dalla 0.4.27 compare anche sulla mappa: una piccola riga attenuata, nel colore di rarità del titolo, **sopra il nome della nave di ogni pilota**, la tua compresa. Un titolo lungo viene tagliato con i puntini di sospensione. Nella folla (più di otto piloti sullo schermo) solo i tuoi amici, il tuo bersaglio e la nave che hai selezionato mantengono il proprio, così lo schermo resta leggibile. Non compare nella finestra bersaglio né sulla minimappa.
 - I titoli sopravvivono al reset.
 
 ## Steam

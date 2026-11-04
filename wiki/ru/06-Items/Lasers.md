@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Лазеры -->
 # Лазеры и боеприпасы {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Helios Beam с тремя Amp ступени IV — это 4 модуля пос
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Обычный | 1,0x | – | 5 кредитов |
 | **Advanced Plasma** | Редкий | 2,0x | – | 0,5 Thulium |
-| **Ultra Core** | Редкий | 3,0x | 5% | 1,0 Thulium |
-| **Experimental Fusion Core** | Эпический | 4,0x | 10% | 2,2 Thulium |
-| **Siphon Battery** | Редкий | 1,0x, только по щитам | – | 0,25 Thulium |
+| **Ultra Core** | Редкий | 3,0x | 5% | 1,0 Thulium или крафт |
+| **Experimental Fusion Core** | Эпический | 4,0x | 10% | Только крафт (больше не продаётся) |
+| **Siphon Battery** | Редкий | 1,0x, только по щитам | – | 50 кредитов |
+| **Siphon Battery II** | Редкий | 0,5x, только по щитам, забирает вдвое больше | – | Только крафт |
+| **Antimatter Battery I** | Редкий | 2,0x | 20% | Только крафт |
+| **Antimatter Battery II** | Эпический | 3,0x | 20% | Только крафт |
+| **Dark Matter Ammo I** | Редкий | от 1,5x до 5x, определяется заново каждым залпом (в среднем 3,25x) | – | Только крафт |
+| **Dark Matter Ammo II** | Эпический | 6,0x, залп раз в 1,5 с, высасывает щит цели | – | Только крафт |
 
-**Пробитие щита** вычитается из поглощения вашей цели при каждом попадании ваших залпов: щиты принимают поглощение цели за вычетом пробития (см. [Механика щитов](/wiki/03-Mechanics/Shields.md#shield-penetration)). Ваши Penetration Amp и построение дронов прибавляются к пробитию боеприпасов, а вся сумма описана [ниже на этой странице](#shield-penetration-of-a-laser-hit). Против корабля с 80% (лучший щит с лучшими ячейками) 10% у боеприпасов x4 оставляют щитам 70% попадания, а корпусу — 30%. Больше всего это важно против кораблей, у которых корпус мал по сравнению со щитом; очень большой корабль с 80% держится одинаково в обоих случаях. У пришельцев нет заметной характеристики поглощения (их щиты принимают 80% попадания), и пробитие вычитается и из неё.
+**Откуда берутся новые боеприпасы.** С версии 0.5.0 Experimental Fusion Core больше не продаётся: вы делаете его сами, по 1 000 штук за раз, в [Сборочном цехе](/wiki/06-Items/Overview.md#the-production-queue), изучив **Military Grade Ammo II** в Исследовательском центре Skylab. Ultra Core по-прежнему можно купить, а также изготовить (**Military Grade Ammo I**, 30 минут исследования). Пять новых боеприпасов — только крафт: каждый стоит за технологией семейства **Laser Ammo** и делается из боеприпаса ступенью ниже: **Siphon Battery II** (из Siphon Battery), **Antimatter Battery I** (из Siphon Battery II) и **II** (из Antimatter Battery I и немного [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (из сырья и одного Dark Matter) и **II** (из Dark Matter Ammo I и Dark Matter). Один крафт — 1 000 штук, от 5 до 15 минут, и каждая штука обходится примерно в свою цену. [Принтер боеприпасов](/wiki/03-Mechanics/Skylab.md) делает также Ultra Core и Experimental Fusion Core, как только вы их изучите.
+
+**Пробитие щита** вычитается из поглощения вашей цели при каждом попадании ваших залпов: щиты принимают поглощение цели за вычетом пробития (см. [Механика щитов](/wiki/03-Mechanics/Shields.md#shield-penetration)). Ваши Penetration Amp и построение дронов прибавляются к пробитию боеприпасов, а вся сумма описана [ниже на этой странице](#shield-penetration-of-a-laser-hit). Против корабля с 85% (лучший щит с лучшими ячейками) 10% у боеприпасов x4 оставляют щитам 75% попадания, а корпусу — 25%, а 20% у боеприпасов Antimatter оставляют щитам 65%, а корпусу — 35%. Больше всего это важно против кораблей, у которых корпус мал по сравнению со щитом; очень большой корабль с 85% держится одинаково в обоих случаях. У пришельцев нет заметной характеристики поглощения (их щиты принимают 80% попадания), и пробитие вычитается и из неё.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Siphon Battery — боеприпас для кражи щитов вместо 
 - **Критические попадания** учитываются: критический залп вытягивает в 1,5 раза больше, а его число рисуется как критическое попадание. Пакеты крупнее и ярче, а щит цели вспыхивает сильнее.
 - [Пилоты корпораций](/wiki/03-Mechanics/Company-Pilots.md) стреляют стандартными боеприпасами x1.
 
+**Siphon Battery II** работает так же, но с перевёрнутыми числами: она вытягивает из щита цели **вдвое меньше**, чем Siphon Battery (x0,5), а вам отдаёт **вдвое больше** вытянутого (кража 2,0), так что ваш щит получает ровно столько же, сколько от залпа Siphon Battery, а цель теряет вдвое меньше. Она делается крафтом (исследование **Siphon Battery II**, из 1 000 Siphon Battery) и, как и первая, никогда не задевает корпус.
+
+---
+
+## Боеприпасы Antimatter и Dark Matter {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I и II** пробивают щиты: по **20%** пробития каждая, поверх ваших усилителей и построения, при уроне x2 и x3. Против корабля, у которого щит велик по сравнению с корпусом, они вскрывают корпус раньше, чем Experimental Fusion Core; против всех остальных x4 по-прежнему бьёт сильнее. Это выбор, а не очередная ступень.
+
+**Dark Matter Ammo I** определяет множитель **заново для каждого залпа**, где-то от **x1,5 до x5** (в среднем x3,25). Весь корабль делит один бросок, сколько бы у него ни было лазеров, так что залп бывает удачным или неудачным сразу для всех. Она стреляет каждую секунду, как и любые боеприпасы.
+
+**Dark Matter Ammo II** бьёт на **x6**, но лишь **один залп раз в 1,5 секунды** (тот же урон в секунду, что и у x4), и **высасывает щит**: вы получаете 25% урона, который щит цели действительно принял, не больше вашего максимума. Попадание ложится как обычное (щиты берут свою долю, корпус — остальное), а цель без щита ничего вам не даёт. Получить щит — не значит получить урон, поэтому это не задерживает регенерацию вашего собственного щита.
+
 ---
 
 ## Пробитие щита при попадании лазера {#shield-penetration-of-a-laser-hit}
 
-Каждое попадание лазера вычитает очки из поглощения вашей цели из трёх источников, которые складываются: ваши **боеприпасы** (Ultra Core 5%, Experimental Fusion Core 10%), ваши **Penetration Amp** и **построение дронов** (Gemini +15%; [Построения дронов](/wiki/03-Mechanics/Formations.md)). **Ничто не ограничивает сумму** (прямая ракета так же прибавляет к своему пробитию пробитие построения: [Ракеты](/wiki/06-Items/Rockets.md)). Щиты затем принимают поглощение цели за вычетом пробития попадания, а корпус — остальное ([Механика щитов](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Каждое попадание лазера вычитает очки из поглощения вашей цели из трёх источников, которые складываются: ваши **боеприпасы** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), ваши **Penetration Amp** и **построение дронов** (Gemini +15%; [Построения дронов](/wiki/03-Mechanics/Formations.md)). **Ничто не ограничивает сумму** (прямая ракета так же прибавляет к своему пробитию пробитие построения: [Ракеты](/wiki/06-Items/Rockets.md)). Щиты затем принимают поглощение цели за вычетом пробития попадания, а корпус — остальное ([Механика щитов](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Ваши усилители считаются как среднее по вашим лазерам.** Залп — это одно попадание, поэтому игра складывает пробитие усилителей каждого лазера (лазеры в ваших дронах тоже считаются) и берёт среднее по вашим лазерам, где вес каждого — его урон, как и для шанса крита. Три Penetration Amp IV в каждом лазере дают 36%; один Penetration Amp IV в одном лазере из двенадцати — 1%. У Wraith 12 лазеров и 36 слотов усилителей, и нужно заполнить все 36, чтобы получить 36%.
 - **Ангар это показывает.** Среди боевых характеристик Ангара на каждом корабле есть плитка **Пробитие** со значением лазерных усилителей показанной конфигурации (0,0% без Penetration Amp); боеприпасы и построение в неё не входят. В окне **Корабль** в полёте в конце нижней строки есть чип **Пробитие** (чипы конфигурации и скорости, чтобы освободить место, показывают только значок и число): он показывает сумму попадания лазера — ваши усилители, надетое построение и боеприпасы, которыми вы стреляете, сложенные, как только вы что-то меняете, — а его подсказка перечисляет три части.
-- **Лучший лазер даёт 61%.** Experimental Fusion Core (10%), Gemini (15%) и три Penetration Amp IV в каждом лазере (36%) дают 61%.
+- **Лучший лазер даёт 61% с x4 и 71% с Antimatter.** Experimental Fusion Core (10%), Gemini (15%) и три Penetration Amp IV в каждом лазере (36%) дают 61%; Antimatter Battery (20%) на его месте дают 71%, при уроне x3 вместо x4.
 - **Бонус Кузницы на Penetration Amp IV учитывается.** Penetration Amp можно ковать, как и другие усилители, и его единственный бонус умножает пробитие: «Вечный» бонус (от +9% до +15%) делает Penetration Amp IV 13,1–13,8 пункта вместо 12. В лучшей сборке три «Вечных» дают 66,4%, и каждый пункт учитывается.
 
 | Лазерный залп | Боеприпасы | Усилители (3 слота) | Построение | Итого |
@@ -189,19 +215,19 @@ Siphon Battery — боеприпас для кражи щитов вместо 
 | Защитник (поглощение) | Без усилителей | Один Fusion Core (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | Лучший лазер (61%) |
 |---|---|---|---|---|---|
 | Light Shield Core, без ячейки (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, без ячейки (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, без ячейки (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Лучший щит из коробки (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| Лучший щит, «Вечная» Кузница (лучший бросок) и 44 уровня магазина сезона (96,4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| Лучший щит, «Вечная» Кузница (лучший бросок) и магазин сезона на пределе (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70%) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Лучший щит из коробки (85%) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| Лучший щит, «Вечная» Кузница (лучший бросок) и 44 уровня магазина сезона (102,2%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Лучший щит, «Вечная» Кузница (лучший бросок) и магазин сезона на пределе (107,8%) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Любой пришелец (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Лучший лазер опустошает ядро щита без ячейки и Light Shield Core с его лучшей ячейкой (корпус принимает всё попадание); Heavy Shield Core с тремя ячейками Capacity сохраняет 4% каждого попадания, а лучший щит — 19% (35% с бонусами). Ракета сама по себе никогда не опустошает щит (максимум 35%), а Lancet III или Rivet III со Stiletto (70%) — опустошает.
+Лучший лазер опустошает ядро щита без ячейки и Light Shield Core с его лучшей ячейкой (корпус принимает всё попадание); Heavy Shield Core с тремя ячейками Capacity сохраняет 9% каждого попадания, а лучший щит — 24% (41% с бонусами). Ракета сама по себе никогда не опустошает щит (максимум 35%), а Lancet III или Rivet III со Stiletto (70%) — опустошает.
 
 ### Когда Penetration Amp стоит слота? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp противостоит поглощению, и чем оно выше, тем больше пользы: против корабля с малым корпусом при поглощении около 95% (сборки с магазином сезона, Кузницей и Rampart) набор Penetration убивает примерно в 1,8 раза быстрее лучшего обычного набора, а против лучшего щита из коробки (80%) трио Penetration Amp тратит примерно на 11% меньше времени, чем трио Crit Amp той же ступени. Против пришельцев он почти ничего не даёт.**
+**Penetration Amp противостоит поглощению, и чем оно выше, тем больше пользы: против корабля с малым корпусом при поглощении около 101% (сборки с магазином сезона, Кузницей и Rampart) набор Penetration убивает примерно в 2,6 раза быстрее лучшего обычного набора, а против лучшего щита из коробки (85%) трио Penetration Amp тратит примерно на 19% меньше времени, чем трио Crit Amp той же ступени. Против пришельцев он почти ничего не даёт.**
 
 - **Урона он не даёт.** На Helios Beam три Penetration Amp IV дают 187 урона за залп (боеприпасы x1, среднее по разбросу и критам), где три Damage Amp IV дают 356, а три Crit Amp IV — 369: примерно вдвое меньше. Он возвращает долю щита, поэтому окупается только там, где корпус мал по сравнению со щитом, а поглощение высоко; против Wraith или Ironclad, чей большой корпус держится и так, простой набор Damage или Crit примерно так же быстр (один Penetration Amp в лазере даёт не больше 5%).
 - **Пришельцы.** Их щиты принимают 80% попадания за вычетом вашего пробития, так что он действует и на них, но Damage Amp или Crit Amp той же ступени убивает их так же быстро или быстрее, кроме Phantasm или Goombah в бою с построением дронов, где один Penetration Amp в лазере даёт до 5%.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1239db4521af97e8 -->
+<!-- wiki-i18n source: 0a06d961490fa12b -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -11,7 +11,7 @@ På kärnnivå 15 växer Skylab en gång till och lär sig flyga: en **andra bro
 > [!NOTE]
 > **Vad som ändrades i 0.4.10.** Varje modul i Skylab har nu sin egen tabell med produktion, priser och tider, nivå för nivå. Du behöll dina nivåer: ingenting debiterades och ingenting återbetalades för skillnaden. Det som dina farmer och samlare hade i sina lager när uppdateringen kom betalades ut **en enda gång, till det gamla priset**: krediter och Thulium gick till ditt konto, malmen till ditt Resurslager, och lagren började om från tomt.
 >
-> Två regler är nya. **Solkraft producerar bara 25 % av sin energi medan den uppgraderas**, så på de flesta stationer stannar alla farmer och samlare tills uppgraderingen är klar (se [Solkraftsmodulen](#solar-module) och [Planera en Solkraft-uppgradering](#timing-a-solar-upgrade)). **Resurslagret har ett eget tak för varje malm**: en dags produktion från samlaren på nivå 1, fyra dagar på nivå 20.
+> En regel är ny. **Resurslagret har ett eget tak för varje malm**: en dags produktion från samlaren på nivå 1, fyra dagar på nivå 20.
 
 > [!NOTE]
 > **Vad som ändrades i 0.4.15.** Kärnans steg från nivå 9 till nivå 10 kostar nu **2 000 Thulium** mer, och när det är klart dyker en **bro** och en andra kärna, **Kärna 2**, upp med sex nya modulplatser. Solkraft flyttar till Kärna 2. Två nya moduler kopplas in där: **Ammunitionsskrivaren** och **Raketfabriken**. Solkraft ger dessutom mer energi från nivå 7, så att en full station fortfarande är täckt. Inget du har byggt går förlorat: en kärna som redan är på nivå 10 eller högre har bron direkt och betalar ingenting.
@@ -39,7 +39,7 @@ På kärnnivå 15 växer Skylab en gång till och lär sig flyga: en **andra bro
 - **Kärnan** ger takten: ingen modul går över den, och dess egen uppgradering tar ungefär 16 och en halv dag.
 - På **kärnnivå 10** bygger en **bro** **Kärna 2** med sex fler modulplatser, och **Ammunitionsskrivaren**, **Raketfabriken** och **Malmviken** kopplas in där. Steget till nivå 10 kostar 2 000 Thulium mer.
 - På **kärnnivå 15** bygger en andra bro **Kärna 3**, och **Motormodulen**, **Försvarsmodulen**, **Radarmodulen** och **Trofélagret** tar dess platser: med dem flyger Skylab över universumkartan och jagar på egen hand. Steget till nivå 15 kostar 4 000 Thulium extra. [Se Expeditioner](#expeditions).
-- **Solkraft producerar bara 25 % av sin energi medan den uppgraderas**, så dina farmer och samlare stannar tills den är klar. [Planera det](#timing-a-solar-upgrade).
+- **Solkraft fortsätter producera all sin energi medan den uppgraderas**, så dina farmer och samlare fortsätter gå genom varje Solkraft-uppgradering. [Mer om det](#timing-a-solar-upgrade).
 
 ## Översikt {#overview}
 
@@ -128,7 +128,7 @@ Energi är Skylabs livsnerv. Solkraftsmodulen producerar den energi som alla and
 - **Betydelse**: om din energiförbrukning är högre än din energiproduktion stängs dina farmer och samlare av.
 - **Producerad energi**: en Solkraftsmodul på nivå N producerar tillräckligt för **varje annan modul på nivå N**, och ungefär en tiondel till: 255 på nivå 1, 965 på nivå 7, 18 575 på nivå 20. Solkraft på nivå 7 driver en hel station på nivå 7 (se Energihantering för varje nivå).
 - **Pris**: att bygga Solkraft kostar **500 krediter och 50 Thulium**. Dess uppgraderingar kostar lika mycket och tar lika lång tid som Smedjans: från 8 000 krediter och 25 Thulium för nivå 2 (5 minuter) till 9 000 000 krediter och 10 000 Thulium för nivå 20 (24 timmar).
-- **Uppgradering**: medan Solkraft uppgraderas producerar den bara **25 %** av energin för sin nuvarande nivå, och den nya nivåns energi från det att uppgraderingen är klar. En station som förbrukar mer än så stannar: varje farm och samlare slutar producera, och Smedjan startar ingen ny sats förrän uppgraderingen är klar. För nästan varje station är det så: den går igenom uppgraderingen bara om alla andra moduler ligger minst fem nivåer under Solkraft (sex nivåer från Solkraft nivå 10). Planera en Solkraft-uppgradering som ett blackout för dina farmer (se Bygga och uppgradera).
+- **Uppgradering**: medan Solkraft uppgraderas fortsätter den producera **all** energi för sin nuvarande nivå, och den nya nivåns energi från det att uppgraderingen är klar. En Solkraft-uppgradering stoppar alltså aldrig dina farmer och samlare och ger aldrig stationen något underskott, och Smedjan startar nya satser som vanligt, även under den sista nivåns 24 timmar (se Bygga och uppgradera).
 - **Plats**: Solkraft står i stationens andra ände: på Kärna 2 från kärnnivå 10 och på Kärna 3 från nivå 15 (se [Bron och Kärna 2](#the-bridge-and-core-2) och [Den andra bron och Kärna 3](#the-second-bridge-and-core-3)).
 
 ### Kreditfarm och Thuliumfarm {#credit-farm-and-thulium-farm}
@@ -199,9 +199,9 @@ Kärnans uppgradering till **nivå 10** bygger en **bro** och en andra kärna. B
 
 Ammunitionsskrivaren skriver ut laserammunition ur ingenting, en sort i taget: ingen malm och inga krediter, bara energi. Den har nivå 1 till 20.
 
-- **Produktion**: **x2** (Advanced Plasma) **100 i timmen på nivå 1, 2 000 på nivå 20** (100 mer för varje nivå); **x3** (Ultra Core) hälften av det, 50 till 1 000; **x4** (Experimental Fusion Core) en fjärdedel, 25 till 500.
+- **Produktion**: **x2** (Advanced Plasma) **200 i timmen på nivå 1, 4 000 på nivå 20** (200 mer för varje nivå); **x3** (Ultra Core) hälften av det, 100 till 2 000; **x4** (Experimental Fusion Core) en fjärdedel, 50 till 1 000. Dubbelt så mycket som den gjorde före 0.4.27. Sedan 0.5.0 kräver **lägena x3 och x4 forskningen** av sin ammunition, **Military Grade Ammo I och II** (familjen Laser Ammo i forskningscentrumet): tills du har forskat fram en av dem visas dess läge som låst och går inte att välja, och en skrivare som stod på det förut gör x2 under tiden (ingenting går förlorat, och valet kommer tillbaka när forskningen är klar). Läget x2 och Raketfabriken är öppna för alla.
 - **Läge**: du väljer x2, x3 eller x4 på dess kort eller i dess fönster. Ett byte behåller de timmar som redan är lagrade och räknar dem sedan med det nya lägets takt.
-- **Lager**: ett dygn, 24 timmars produktion på den nivå och i den sort som används (2 400 x2 på nivå 1, 48 000 på nivå 20). Tid offline räknas, och ett fullt lager stannar helt enkelt.
+- **Lager**: ett dygn, 24 timmars produktion på den nivå och i den sort som används (4 800 x2 på nivå 1, 96 000 på nivå 20). Tid offline räknas, och ett fullt lager stannar helt enkelt.
 - **Hämta**: flyttar de hela enheterna till ditt inventarie medan ditt **skepp är landat**. Ammunition har ingen bärgräns, och en bråkdel av en enhet blir kvar och räknas vidare.
 - **Energi**: 40 på nivå 1, och det ökar med 20 % per nivå. Vid ett energiunderskott stannar den som farmerna och samlarna, och det den håller finns kvar och kan hämtas.
 - **Bygge**: 20 000 krediter, 500 Thulium och 10 Ship Fragments (från ditt inventarie, med skeppet landat), bara på Kärna 2. Dess uppgraderingar kostar från 21 000 krediter och 140 Thulium till 5 600 000 krediter och 11 000 Thulium och tar lika lång tid som Smedjans, från 5 minuter till 24 timmar och 5 d 13 h sammanlagt (se tabellerna nedan).
@@ -212,8 +212,8 @@ Ammunitionsskrivaren skriver ut laserammunition ur ingenting, en sort i taget: i
 Raketfabriken bygger butikens raketer ur ingenting, en sort i taget. Den har nivå 1 till 20.
 
 - **Vad den gör**: en enda av butikens tolv raketer, den du väljer: Lancet, Rivet, Scatter eller Ember, nivå I, II och III. N.U.K.E. och N.I.K.E. byggs aldrig.
-- **Produktion**: raketer av nivå III **0,5 i timmen på nivå 1, 10 på nivå 20** (0,5 mer för varje nivå), nivå II 1,25 gånger det och nivå I dubbelt så mycket. Bara hela raketer räknas: en bråkdel av en blir kvar och räknas vidare.
-- **Lager**: ett dygn, 24 timmars produktion på den nivå och med den raket som används (240 raketer av nivå III på nivå 20). Tid offline räknas, ett fullt lager stannar helt enkelt, och ett byte av raket behåller de timmar som redan är lagrade.
+- **Produktion**: raketer av nivå III **1 i timmen på nivå 1, 20 på nivå 20** (1 mer för varje nivå), nivå II 1,25 gånger det och nivå I dubbelt så mycket. Dubbelt så mycket som den gjorde före 0.4.27. Bara hela raketer räknas: en bråkdel av en blir kvar och räknas vidare.
+- **Lager**: ett dygn, 24 timmars produktion på den nivå och med den raket som används (480 raketer av nivå III på nivå 20). Tid offline räknas, ett fullt lager stannar helt enkelt, och ett byte av raket behåller de timmar som redan är lagrade.
 - **Hämta**: flyttar raketerna till ditt inventarie medan ditt **skepp är landat**, så många du kan bära: högst 5 000 av nivå I, 2 000 av nivå II och 500 av nivå III, butikens egen gräns. Det som inte ryms blir kvar i fabriken.
 - **Energi**: 24 på nivå 1, och det ökar med 15 % per nivå. Vid ett energiunderskott stannar den som skrivaren.
 - **Bygge**: 20 000 krediter, 500 Thulium och 15 Ship Fragments (från ditt inventarie, med skeppet landat), bara på Kärna 2. Dess uppgraderingar kostar en fjärdedel av skrivarens, från 5 300 krediter och 35 Thulium till 1 400 000 krediter och 2 800 Thulium, och tar lika lång tid: 5 d 13 h sammanlagt.
@@ -333,14 +333,14 @@ Alla tre nivåerna kostar sammanlagt 3 250 000 krediter, 13 000 Thulium, 4 pl
 Trofélagret förvarar det ditt Skylabs nedgjorda fiender ger tills du hämtar det. Det har nivå 1 till 20 och kräver ingen teknologi.
 
 - **Vad det rymmer**: krediter, Thulium, erfarenhet, heder och bytet från de nedgjorda.
-- **Kapaciteten** räknas i **prispengapoäng**: en nedgörning lägger till utomjordingens prispeng, krediter delat med 200 plus Thulium, vad den än tappar (Alphas siffror i varje värld). Det rymmer 650 poäng på nivå 1 och 45 000 på nivå 20.
-- **Fullt**: ett fullt lager får Skylab att **sluta skjuta**: inget skjuts ned, betalas eller räknas och ingen ammunition går åt förrän du hämtar (skrovet återhämtar sig ändå). Ett meddelande, en kort pop-up, en bärnstensfärgad etikett **Lagret fullt** i stationens fält, en notis på Skylab-sidan och tipset på sidofältets Skylab-rad säger det.
+- **Kapaciteten** räknas i **föremål ur bytet**: bara bytet tar plats. Krediter, Thulium, erfarenhet och heder tar ingen, hur mycket av dem nedgörningarna än ger (sedan 0.4.27; förut fyllde en nedgörnings prispeng lagret). Det rymmer 650 föremål på nivå 1 och 45 000 på nivå 20. En Seeker ger ungefär ett föremål per nedgörning, så ett lager fylls ungefär tio gånger långsammare än förut.
+- **Fullt**: ett fullt lager får Skylab att **sluta skjuta**: inget skjuts ned, betalas eller räknas och ingen ammunition går åt förrän du hämtar (skrovet återhämtar sig ändå). Ett meddelande, en kort pop-up, en bärnstensfärgad etikett **Lagret fullt** i stationens fält, en notis på Skylab-sidan och tipset på sidofältets Skylab-rad säger det, i samma ögonblick som det fylls, även medan Skylab är på väg.
 - **Hämta** i fönstret Universum, med skeppet landat: krediter och Thulium går till ditt konto, erfarenhet och heder till din pilot och bytet till ditt inventarie. Två hämtningar samtidigt betalar en gång.
 - **Bytet** lottas för varje nedgörning ur det utomjordingen tappar, aldrig Dark Matter, Ancient Control Units, N.I.K.E. eller N.U.K.E. Det är **inte säljbart**: det kan inte säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energi**: 20 på nivå 1, och det ökar med 10 % per nivå. Det går att stänga av, men inte medan Skylab är på väg.
 - **Bygge**: 100 000 krediter, 400 Thulium och 10 Ship Fragments, bara på Kärna 3. Dess uppgraderingar kostar från 117 500 krediter och 470 Thulium (15 minuter) till 2 325 000 krediter och 9 300 Thulium (1 d 13 h): 14 722 500 krediter och 58 890 Thulium sammanlagt, och 6 d 8 h.
 
-| Nivå | Kapacitet (poäng) | Krediter | Thulium | Tid |
+| Nivå | Kapacitet (föremål) | Krediter | Thulium | Tid |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (bygget) | 650 | 100 000 | 400 | – |
 | 2 | 810 | 117 500 | 470 | 15 min |
@@ -349,15 +349,15 @@ Trofélagret förvarar det ditt Skylabs nedgjorda fiender ger tills du hämtar d
 | 15 | 15 000 | 1 025 000 | 4 100 | 9 h 14 min |
 | 20 | 45 000 | 2 325 000 | 9 300 | 1 d 13 h |
 
-Hur lång tid ett lager tar att fylla när Skylab tjänar hela nedgörningsbudgeten för sin försvarsnivå (ett mindre lager fylls snabbare, en mindre budget långsammare):
+Hur lång tid ett lager tar att fylla när Skylab tjänar hela nedgörningsbudgeten för sin försvarsnivå i en cell av den svårighetsgraden, med det byte de utomjordingarna ger (ett mindre lager fylls snabbare, en mindre budget långsammare):
 
 | Försvarsnivå | Lager nivå 1 | Lager nivå 5 | Lager nivå 10 | Lager nivå 15 | Lager nivå 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 h 1 min | 14 h 49 min | 1 d 20 h | 5 d 19 h | 17 d 9 h |
-| 2 | 2 h 13 min | 5 h 28 min | 16 h 23 min | 2 d 3 h | 6 d 10 h |
-| 3 | 1 h 22 min | 3 h 22 min | 10 h 5 min | 1 d 8 h | 3 d 22 h |
-| 4 | 1 h 11 min | 2 h 55 min | 8 h 46 min | 1 d 3 h | 3 d 10 h |
-| 5 | 1 h 2 min | 2 h 32 min | 7 h 37 min | 23 h 49 min | 2 d 23 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
 
 ## Vikt och fart {#weight-and-speed}
 
@@ -386,7 +386,7 @@ Varje modul väger något, i **massenheter (MU)**, och en tyngre station flyger 
 Högsta nivå är 20, utom för Forskningscentrumet (10), Motor- och Försvarsmodulen (5) och Radarmodulen (3). Hela stationen väger 2 353 MU på kärnnivå 15 och 2 734 MU på nivå 20.
 
 - **Dragkraften** är skeppens motorräkning, utan grundfart: en motor ger sin grundfart plus sina thrusters fasta fart, gånger deras multiplikatorer; motorerna rangordnas bäst först, de fyra första räknas till 100 % och den femte till 85 % (modulen rymmer högst fem); och de fyra bästa fartbonusarna läggs på ovanpå. En station utan motor har ingen dragkraft.
-- **Farten** är 60 gånger dragkraften delat med stationens vikt, i enheter per sekund, och ett hopp mellan två grannceller är 15 000 enheter. Under energin visar Skylab-sidan raden ”Vikt 2 353 MU, fart 7,8 enheter/s, ett hopp 32 min”.
+- **Farten** är 60 gånger dragkraften delat med stationens vikt, i enheter per sekund, och ett hopp mellan två grannceller är 15 000 enheter. Under energin visar Skylab-sidan raden ”Vikt 2 353 MU, fart 7,5 enheter/s, ett hopp 33 min”.
 - **Bestäms vid start**: en resas fart räknas ut när den startar, ur vikten och dragkraften i det ögonblicket. En uppgradering som slutar på vägen, eller en motor du byter medan Skylab är stationerat, räknas för nästa resa.
 
 Vad motorerna gör för en station med varje modul på nivå 15 (Motormodulen på den nivå som rymmer motorerna):
@@ -394,10 +394,10 @@ Vad motorerna gör för en station med varje modul på nivå 15 (Motormodulen p�
 | Monterade motorer | Vikt (MU) | Dragkraft | Fart (enheter per sekund) | Ett hopp | Över kartan (14 hopp) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Motormodul nivå 1) | 2 289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, var och en med 2 Impulse Thruster II (nivå 3) | 2 321 | 73,6 | 1,90 | 2 h 11 min | 1 d 7 h |
-| 5 Engine III, var och en med 3 Impulse Thruster IV (nivå 5) | 2 353 | 305,5 | 7,79 | 32 min | 7 h 29 min |
+| 3 Engine II, var och en med 2 Impulse Thruster II (nivå 3) | 2 321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
+| 5 Engine III, var och en med 3 Impulse Thruster IV (nivå 5) | 2 353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
 
-På kärnnivå 20 väger stationen 16 % mer, och de bästa motorerna tar 37 minuter per hopp och 8 h 42 min över kartan.
+På kärnnivå 20 väger stationen 16 % mer, och de bästa motorerna tar 39 minuter per hopp och 9 h över kartan.
 
 ## Expeditioner {#expeditions}
 
@@ -529,9 +529,10 @@ Piloterna i din klan ser var varandras Skylab är: kolumnen **Skylab** i medlems
 - **Tid och kostnad**: uppgraderingar kostar krediter och Thulium och tar tid, och varje modul har ett eget pris och en egen tid för varje nivå (peka på **Uppgradera** för att se nästa; summorna står nedan). Priset betalas när du startar uppgraderingen. Kostnaden beror inte på tiden. Motor-, Försvars- och Radarmodulen tar också Dark Matter Plates och kräver nivåns teknologi (se [Den andra bron och Kärna 3](#the-second-bridge-and-core-3)).
 - **Timers**: en uppgradering går på serverns klocka, så den blir klar medan du är borta, dagar senare om den måste. Starta den, logga ut, kom tillbaka: modulen är på sin nya nivå när du öppnar Skylab-sidan.
 - **Snabba på en uppgradering**: en [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) slutför en pågående uppgradering direkt, och ett [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) anlitat som **Engineer** får uppgraderingar att gå dubbelt så snabbt i 1 timme. Ingetdera återbetalar eller debiterar något: priset betalades när uppgraderingen startade.
+- **Avbryta en uppgradering**: en pågående uppgradering kan avbrytas, och du får **allt** tillbaka: krediterna, Thulium och Dark Matter Plates som den kostade, exakt som du betalade dem när den startade, även om priserna har ändrats sedan dess. Bara tiden går förlorad. Modulen blir som den var: samma nivå, samma strömbrytare, och det den hade lagrat finns kvar (medan den stod stilla producerade den ingenting). En uppgradering som redan är klar kan inte avbrytas; spelet säger det och tar ingenting.
 - **Uppgraderingstider**: de första nivåerna går snabbt och de sista tar upp till 37 timmar, kärnans upp till 6 dygn (se tabellerna nedan). Varje modul har sin egen timer, så du kan uppgradera flera samtidigt.
-- **Produktionspaus**: medan en modul uppgraderas är den offline: den producerar ingenting och använder ingen energi. Solkraft är undantaget: den fortsätter producera en fjärdedel av sin energi (se nedan).
-- **Solkraft producerar bara 25 % av sin energi medan den uppgraderas**: Solkraft producerar all energi i Skylab, och medan den uppgraderas (24 timmar för den sista nivån) producerar den en fjärdedel av energin för sin **nuvarande** nivå; den nya nivåns energi tar över i samma ögonblick som uppgraderingen är klar. En full station förbrukar ungefär 90 % av vad Solkraft producerar på sin egen nivå, så en fjärdedel av det bär bara en station som ligger fem till sex nivåer under Solkraft. Annars stannar varje farm och samlare under hela uppgraderingen, det du har lagrat finns kvar och kan hämtas, och Smedjan startar ingen ny sats. En modul som uppgraderas eller är avstängd använder ingen energi, så att höja farmerna tillsammans med Solkraft kostar inget extra, och att stänga av moduler ger plats åt de andra; Thuliumfarmen förbrukar överlägset mest energi.
+- **Produktionspaus**: medan en modul uppgraderas är den offline: den producerar ingenting och använder ingen energi. Solkraft är undantaget: den fortsätter producera all energi för sin nuvarande nivå (se nedan).
+- **Solkraft behåller all sin energi medan den uppgraderas**: Solkraft producerar all energi i Skylab, och medan den uppgraderas (24 timmar för den sista nivån) fortsätter den producera all energi för sin **nuvarande** nivå; den nya nivåns energi tar över i samma ögonblick som uppgraderingen är klar. Farmerna och samlarna fortsätter alltså producera, Smedjan startar nya satser som vanligt och ingenting går förlorat under hela uppgraderingen. En modul som uppgraderas eller är avstängd använder ingen energi, så att höja farmerna tillsammans med Solkraft kostar inget extra, och att stänga av moduler ger plats åt de andra; Thuliumfarmen förbrukar överlägset mest energi.
 
 ### Vad det kostar {#what-it-costs}
 
@@ -638,7 +639,7 @@ Din Skylab har en begränsad energibudget.
 - **Solkraft hänger med**: en Solkraft-modul på nivå N ger energi åt **alla andra moduler på nivå N** (kärnan, båda farmerna, Resurslagret, båda samlarna och Smedjan, och från nivå 10 Forskningscentrumet och Malmviken) och ungefär en tiondel till, så en station vars moduler alla står på nivå 7 behöver Solkraft 7 och har den täckt. Solkraft en nivå lägre räcker inte för en full station (sista kolumnen), så Solkraft måste fortsätta följa med de andra uppåt. Kärnan drar lite, så den får gå före: Solkraft 5 och uppåt täcker en full station på sin nivå med kärnan på vilken nivå som helst. Tabellen nedan räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10, och Motor-, Försvars- och Radarmodulen och Trofélagret från nivå 11 (de byggs från kärnnivå 15 och räknas fyra nivåer tidigare, eftersom kärnan kan ligga före Solkraft), var och en högst på sin egen högsta nivå.
 - **Aktivt läge**: du kan slå på och av farmerna, samlarna och Smedjan för att hantera energin. Kärnan, Solkraft, Resurslagret och Forskningscentrumet går alltid. Ammunitionsskrivaren, Raketfabriken och Malmviken går också att slå på och av, och det gör expeditionens fyra moduler också (inte medan en resa pågår).
 - **Energiunderskott**: om energiförbrukningen är högre än produktionen slutar alla farmer och samlare att producera tills balansen är tillbaka. Det de redan håller finns kvar, och du kan fortfarande hämta det. Smedjan startar ingen ny sats och Forskningscentrumet ingen ny forskning (en forskning som redan pågår fortsätter). Ammunitionsskrivaren, Raketfabriken och Malmviken stannar som farmerna och samlarna. Försvarsmodulen bekämpar ingenting, radarns skanningar står stilla och ingen resa kan starta (en resa som pågår fortsätter).
-- **Solkraft-uppgradering**: medan Solkraft uppgraderas producerar den bara en fjärdedel av sin energi, så om dina andra moduler inte ligger långt under hamnar stationen i underskott och farmerna och samlarna stannar tills uppgraderingen är klar (se [Solkraftsmodulen](#solar-module)).
+- **Solkraft-uppgradering**: medan Solkraft uppgraderas fortsätter den producera all energi för sin nuvarande nivå, så en Solkraft-uppgradering ger aldrig stationen något underskott (se [Solkraftsmodulen](#solar-module)).
 
 Solkrafts energi på varje nivå, mot vad de andra modulerna drar på samma nivå (varje modul på den nivån, kärnan inräknad, och Forskningscentrumet och Malmviken från nivå 10, och expeditionens fyra moduler från nivå 11):
 
@@ -708,30 +709,29 @@ En Skylab tar veckor att växa, så lite planering lönar sig. Siffrorna är tab
 
 ### Planera en Solkraft-uppgradering {#timing-a-solar-upgrade}
 
-Medan Solkraft uppgraderas ger den en fjärdedel av sin energi, och en station drar nästan alltid mer än så. Farmerna och samlarna står då stilla under hela uppgraderingen: det de håller finns kvar, men det de skulle ha gjort går förlorat. Tabellen ger för varje Solkraft-steg dess tid, den största station som ännu klarar det (varje modul på samma nivå, kärnan och försörjningskedjan inräknade; en mindre station klarar lite mer) och vad en Kreditfarm och en Thuliumfarm på den nivån skulle ha gjort under den tiden. Till exempel tar Solkraft från nivå 10 till 11 4 timmar, och farmer på nivå 10 skulle ha gjort 135 000 krediter och 1 440 Thulium under den. Tabellen räknar också Ammunitionsskrivaren från nivå 7, Raketfabriken och Malmviken från nivå 10 och expeditionens fyra moduler från nivå 15.
+Medan Solkraft uppgraderas fortsätter den ge all energi för sin nuvarande nivå, så ingenting på din station stannar: farmerna, samlarna, Smedjan och allt annat går hela uppgraderingen igenom, vad du än har byggt. Du behöver bara vänta. Tabellen ger för varje Solkraft-steg dess tid och vad en Kreditfarm och en Thuliumfarm på den nivån producerar under den tiden, och de fortsätter producera hela tiden. Till exempel tar Solkraft från nivå 10 till 11 4 timmar, och farmer på nivå 10 producerar 135 000 krediter och 1 440 Thulium under den.
 
-| Solkraft-uppgradering | Tid | Station som fortsätter gå, upp till nivå | Kreditfarmen producerar under tiden | Thuliumfarmen producerar under tiden |
-| :--- | ---: | ---: | ---: | ---: |
-| 1 till 2 | 5 min | ingen | 188 | 3 |
-| 2 till 3 | 15 min | ingen | 1 125 | 16 |
-| 3 till 4 | 30 min | ingen | 3 375 | 44 |
-| 4 till 5 | 45 min | ingen | 6 750 | 84 |
-| 5 till 6 | 1 h | ingen | 11 250 | 144 |
-| 6 till 7 | 1 h 15 min | ingen | 19 688 | 230 |
-| 7 till 8 | 1 h 30 min | 1 | 30 375 | 336 |
-| 8 till 9 | 2 h | 2 | 49 500 | 528 |
-| 9 till 10 | 3 h | 3 | 87 750 | 912 |
-| 10 till 11 | 4 h | 5 | 135 000 | 1 440 |
-| 11 till 12 | 5 h | 6 | 202 500 | 2 200 |
-| 12 till 13 | 6 h | 7 | 297 000 | 3 120 |
-| 13 till 14 | 8 h | 7 | 468 000 | 4 800 |
-| 14 till 15 | 10 h | 8 | 675 000 | 6 800 |
-| 15 till 16 | 12 h | 9 | 918 000 | 9 120 |
-| 16 till 17 | 16 h | 10 | 1 440 000 | 14 080 |
-| 17 till 18 | 18 h | 11 | 1 944 000 | 18 000 |
-| 18 till 19 | 20 h | 12 | 2 610 000 | 22 400 |
-| 19 till 20 | 1 d | 13 | 3 780 000 | 28 800 |
+| Solkraft-uppgradering | Tid | Kreditfarmen producerar under tiden | Thuliumfarmen producerar under tiden |
+| :--- | ---: | ---: | ---: |
+| 1 till 2 | 5 min | 188 | 3 |
+| 2 till 3 | 15 min | 1 125 | 16 |
+| 3 till 4 | 30 min | 3 375 | 44 |
+| 4 till 5 | 45 min | 6 750 | 84 |
+| 5 till 6 | 1 h | 11 250 | 144 |
+| 6 till 7 | 1 h 15 min | 19 688 | 230 |
+| 7 till 8 | 1 h 30 min | 30 375 | 336 |
+| 8 till 9 | 2 h | 49 500 | 528 |
+| 9 till 10 | 3 h | 87 750 | 912 |
+| 10 till 11 | 4 h | 135 000 | 1 440 |
+| 11 till 12 | 5 h | 202 500 | 2 200 |
+| 12 till 13 | 6 h | 297 000 | 3 120 |
+| 13 till 14 | 8 h | 468 000 | 4 800 |
+| 14 till 15 | 10 h | 675 000 | 6 800 |
+| 15 till 16 | 12 h | 918 000 | 9 120 |
+| 16 till 17 | 16 h | 1 440 000 | 14 080 |
+| 17 till 18 | 18 h | 1 944 000 | 18 000 |
+| 18 till 19 | 20 h | 2 610 000 | 22 400 |
+| 19 till 20 | 1 d | 3 780 000 | 28 800 |
 
-- **Uppgradera farmerna tillsammans med Solkraft.** En modul som uppgraderas producerar ingenting och använder ingen energi ändå, så den tid en farm tillbringar i uppgradering under pausen kostar inget extra.
-- **Håll de andra modulerna låga om du inte har råd med en paus.** En station går bara igenom en Solkraft-uppgradering om alla dess andra moduler ligger minst fem nivåer under Solkraft (sex från Solkraft nivå 10), och en full station behöver lite mer, som tabellen visar.
+- **Starta en Solkraft-uppgradering när du vill.** Den kostar din station ingenting medan den pågår: ingen paus, inget blackout, inga stannade farmer. Det är bara den nya nivåns energi som måste vänta på att timern går ut, så håll Solkraft på samma nivå som dina andra moduler.
 - **Stäng av det du kan klara dig utan.** En avstängd modul använder ingen energi, så att stänga av Thuliumfarmen, den som förbrukar mest (80 på nivå 1, och 30 % mer för varje nivå), ger plats åt de andra.

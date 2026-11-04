@@ -331,12 +331,12 @@ The Chroma Archive draws the grade first, and then one look of that grade that y
 | :--- | :--- | ---: |
 | Common | 240 × Velkonite (to the Skylab) | 7.000% |
 | Common | 160 × Orvium (to the Skylab) | 7.000% |
-| Common | 1,300 × Reinforced Hull Plate | 5.000% |
-| Common | 9,000 × Ship Fragment | 6.000% |
+| Common | 100 × Reinforced Hull Plate | 5.000% |
+| Common | 1,000 × Ship Fragment | 6.000% |
 | Common | **Forge crystals**: 4,000 × Cataclysite + 3,000 × Quorvium | 5.000% |
-| Common | 450 × Power Core | 5.000% |
+| Common | 20 × Power Core | 5.000% |
 | Common | 450 Thulium | 5.000% |
-| Common | 4 × Regular Cluster Chunk | 5.000% |
+| Common | 2 × Regular Cluster Chunk | 5.000% |
 | Uncommon | 780 × Velkonite (to the Skylab) | 5.000% |
 | Uncommon | 510 × Orvium (to the Skylab) | 5.000% |
 | Uncommon | 19 × Velkonite Reinforced Plate | 4.000% |
@@ -569,16 +569,17 @@ The Containers page of the game shows your own chances next to the published one
 
 ## Version of the table
 
-Every chance on this page is the table of the game's server. When a chance changes, the table gets a new version and a new hash, and every opening records the hash of the table it was drawn from.
+Every chance on this page is the table of the game's server. When a chance or an amount changes, the table gets a new version and a new hash, and every opening records the hash of the table it was drawn from.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Table version**: 1
-- **Table hash (first 12 characters)**: `23aa20f1a5ad`
+- **Table version**: 2
+- **Table hash (first 12 characters)**: `9f345692845a`
 
 What changed:
 
+- Version 2: Survey Canister: the four Common stacks are smaller. Reinforced Hull Plate 1,300 to 100, Ship Fragment 9,000 to 1,000, Power Core 450 to 20, Regular Cluster Chunk 4 to 2. No chance of any prize or grade changed.
 - Version 1: The first published table.
 
 <!-- containers-version:end -->

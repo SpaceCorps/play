@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Propulsión -->
 # Propulsión y velocidad {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Motores {#engines}
 
-Los motores son la fuente principal de empuje de tu nave. Un motor en una **ranura de habilidad** te da en cambio el **Afterburner** de la columna Efecto especial, una ráfaga de velocidad durante diez segundos (más con más motores), y no aporta empuje propio (consulta [Habilidades](/wiki/03-Mechanics/Abilities.md)).
+Los motores son la fuente principal de empuje de tu nave. Un motor en una **ranura de habilidad** te da en cambio el **Afterburner** de la columna Efecto especial, una ráfaga de velocidad durante quince segundos (más con más motores), y no aporta empuje propio (consulta [Habilidades](/wiki/03-Mechanics/Abilities.md)).
 
 | Nombre | Rareza | Velocidad base | Bono de velocidad % | Bono de escudo % | Ranuras | Efecto especial | Costo |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Deficiente | +2 | +2 % | -2 % | 1 | Afterburner I | 20.000 créditos |
-| **Engine II** | Común | +4 | +4 % | -8 % | 2 | Afterburner II | Solo fabricable |
-| **Engine III** | Raro | +6 | +5 % | -15 % | 3 | Afterburner III | Solo fabricable |
+| **Engine II** | Común | +4 | +3 % | -8 % | 2 | Afterburner II | Solo fabricable |
+| **Engine III** | Raro | +6 | +4 % | -15 % | 3 | Afterburner III | Solo fabricable |
 
 El **Engine II** se fabrica en [Ensamblaje](/wiki/06-Items/Overview.md#upgrading-modules) a partir de un Engine I, con 2.000 Thulium, 60 Ship Fragments, 1 Power Core y 4 Velkonite Reinforced Plates. El **Engine III** se fabrica allí a partir de un Engine II, con 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit y 4 Dark Matter Plates ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada uno conserva el grado de encantamiento y las bonificaciones del motor que consume ([Mejoras de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Quita primero de tu nave el motor que vas a consumir (y saca de él sus propulsores): un motor que está instalado o que lleva propulsores no se consume.
 
@@ -90,4 +90,4 @@ El nivel I de cada familia se vende por 20.000 créditos. Los niveles II a IV se
 
 ### Cómo dejar atrás a los alienígenas {#outrunning-aliens}
 
-Los alienígenas vuelan a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) y 230 (Crystalys). Una Ostirion con un Engine II y dos propulsores vuela a 221,4 con Impulse Thruster I: todavía por debajo del Crystalys, así que hace falta un propulsor fabricado en Ensamblaje para dejarlo atrás (230,8 con Impulse Thruster II, 240,3 con III, 243,3 con IV). Los Momentum Thruster vuelan igual o algo más bajo en esa nave (221,4 con un Momentum Thruster I; después 230,5, 238,4 y 240,7 con II a IV): el nivel I de las dos familias queda por debajo de un Crystalys, y todo nivel fabricado en Ensamblaje, por encima, el nivel II por solo 0,8 y 0,5.
+Los alienígenas vuelan a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) y 230 (Crystalys). Una Ostirion con un Engine II y dos propulsores vuela a 219,3 con Impulse Thruster I y a 228,6 con II: ambos todavía por debajo del Crystalys, así que hace falta un propulsor de nivel III para dejarlo atrás (238,0 con Impulse Thruster III, 241,0 con IV). Los Momentum Thruster vuelan igual o algo más bajo en esa nave (219,3 con un Momentum Thruster I; después 228,3, 236,1 y 238,4 con II a IV): los niveles I y II de las dos familias quedan por debajo de un Crystalys, y los niveles III y IV, por encima.

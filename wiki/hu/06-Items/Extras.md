@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -15,7 +15,7 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 
 A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)). A két **Energetic Wall** sem extra már: a 0.4.22 óta ők is fogyóeszközök, kötegben viszed őket, és egyetlen foglalatba sem kerülnek (lásd [Energetic Wall](#energetic-wall)).
 
-Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafoglalatába: egy **Base CPU I**-et (10 használat, teleport a vállalatod bázisára) és egy **Repair Drone I**-et. Húzd őket a gyorssáv Extrák menüjéből egy helyre, hogy használhasd őket. A kezdőcsomagot csak az új pilóták kapják meg: aki a 0.4.10 előtt csatlakozott, annak nincs.
+Az új pilóták **kezdőcsomagja** már két extrát tesz a Protos két extrafoglalatába: egy **Base CPU I**-et (10 használat, teleport a vállalatod bázisára) és egy **Repair Drone I**-et. A Repair Drone I **REP** gombja már ott van a gyorssávodon, a 2. helyen (`2` billentyű), a lőszered mellett az 1. helyen; a Base CPU I-et te húzod az Extrák menüjéből egy helyre. A kezdőcsomagot csak az új pilóták kapják meg: aki a 0.4.10 előtt csatlakozott, annak nincs, és aki a 0.4.27 előtt regisztrált, annál marad a gyorssáv, ami neki van.
 
 Nyolc további CPU nem kapható: a Gyártás akkor készíti el őket, ha a Skylab Kutatóközpontja már kikutatta őket (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). Ezek az Extra Slots CPU I, II és III, a Jump CPU, a Base CPU I és II, az Auto-Repair CPU, valamint az Auto-Rocket CPU, és [az utolsó szakasz](#research-cpus) elmondja, mit tud mindegyik. A Cloaking CPU-hoz hasonlóan a Jump CPU és a Base CPU-k is a csendes pillanatokra valók: egyik sem indul el egy lövésed vagy egy kapott találat után 10 másodpercen belül. A két warp CPU, a Jump CPU és a Base CPU-k szintén meg vannak tagadva, amíg küldetéstárgyat viszel („Küldetéstárggyal a fedélzeten nem használhatsz warp CPU-t.”): lásd: [Küldetéstárgyak](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone-ok {#repair-drones}
 
-Kapcsolj be egy Repair Drone-t (REP), és az javítja a hajótestet, amíg tele nem lesz. Csak akkor indul el, ha 10 másodperce nem ért találat, és minden találat kikapcsolja. Ha többet is felszereltél, a legjobb működik. Egy [Auto-Repair CPU](#auto-repair-cpu) újra bekapcsolja helyetted. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak. Amíg javít, kis javítódrónok repülnek ki a hajóból, körbeszállják, és sugárral érik a hajótestet: egy a Repair Drone I, kettő a II, három a III vagy IV esetén, és a közelben lévő pilóták látják őket; amikor a javítás véget ér, újra dokkolnak.
+Kapcsolj be egy Repair Drone-t (REP), és az javítja a hajótestet, amíg tele nem lesz. Csak akkor indul el, ha 10 másodperce nem ért találat, és minden találat kikapcsolja. Ha többet is felszereltél, a legjobb működik. Egy [Auto-Repair CPU](#auto-repair-cpu) újra bekapcsolja helyetted. A javítási ütemek a [Harc](/wiki/03-Mechanics/Combat.md) oldalon vannak. Amíg javít, kis javítódrónok repülnek ki a hajóból, körbeszállják, és sugárral érik a hajótestet: egy a Repair Drone I, kettő a II, három a III vagy IV esetén, és a közelben lévő pilóták látják őket; amikor a javítás véget ér, újra dokkolnak. Ha a REP gombbal kapcsolod be, egy halk javítóimpulzus is megszólal, az Emergency Repair impulzusánál kissé mélyebb és halkabb, és amíg javít, nagyjából másodpercenként egy kis zöld szám lebeg a saját hajód fölött az imént gyógyított hajótestponttal (+N), akkor is, ha egy Auto-Repair CPU kapcsolta be.
 
 ## Cloaking CPU
 

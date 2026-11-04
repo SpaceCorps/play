@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: 推进 -->
 # 推进与速度 {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## 引擎 {#engines}
 
-引擎是你舰船推力的主要来源。装在**技能槽位**中的引擎则会给你“特殊效果”列中的 **Afterburner**，它能在十秒内提供一阵爆发的速度（引擎越多持续越久），且自身不提供任何推力（见[技能](/wiki/03-Mechanics/Abilities.md)）。
+引擎是你舰船推力的主要来源。装在**技能槽位**中的引擎则会给你“特殊效果”列中的 **Afterburner**，它能在十五秒内提供一阵爆发的速度（引擎越多持续越久），且自身不提供任何推力（见[技能](/wiki/03-Mechanics/Abilities.md)）。
 
 | 名称 | 稀有度 | 基础速度 | 速度加成 % | 护盾加成 % | 槽位 | 特殊效果 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | 劣质 | +2 | +2% | -2% | 1 | Afterburner I | 20,000 信用点 |
-| **Engine II** | 普通 | +4 | +4% | -8% | 2 | Afterburner II | 仅可制造 |
-| **Engine III** | 稀有 | +6 | +5% | -15% | 3 | Afterburner III | 仅可制造 |
+| **Engine II** | 普通 | +4 | +3% | -8% | 2 | Afterburner II | 仅可制造 |
+| **Engine III** | 稀有 | +6 | +4% | -15% | 3 | Afterburner III | 仅可制造 |
 
 **Engine II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Engine I 制成，另需 2,000 Thulium、60 个 Ship Fragment、1 个 Power Core 和 4 块 Velkonite Reinforced Plate。**Engine III** 在装配站中由一个 Engine II 制成，另需 4,000 Thulium、110 个 Ship Fragment、5 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗引擎的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的引擎从你的舰船上取下（并把其中的推进器取出）：已装备或带有推进器的引擎不会被消耗。
 
@@ -90,4 +90,4 @@ Impulse 提供更多固定速度，Momentum 的倍率更大，所以哪个更快
 
 ### 甩开外星人 {#outrunning-aliens}
 
-外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion，装 Impulse Thruster I 时速度为 221.4：仍然低于 Crystalys，所以要用装配站制成的推进器才能甩开它（Impulse Thruster II 为 230.8，III 为 240.3，IV 为 243.3）。Momentum Thruster 在这艘舰船上速度相同或稍低（Momentum Thruster I 为 221.4，II 至 IV 为 230.5、238.4、240.7）：两个系列的 I 阶都低于 Crystalys，在装配站制成的各阶则都高于它，其中 II 阶只高出 0.8 和 0.5。
+外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion，装 Impulse Thruster I 时速度为 219.3，装 II 时为 228.6：两者仍然低于 Crystalys，所以要用 III 阶推进器才能甩开它（Impulse Thruster III 为 238.0，IV 为 241.0）。Momentum Thruster 在这艘舰船上速度相同或稍低（Momentum Thruster I 为 219.3，II 至 IV 为 228.3、236.1、238.4）：两个系列的 I 阶和 II 阶都低于 Crystalys，III 阶和 IV 阶则高于它。

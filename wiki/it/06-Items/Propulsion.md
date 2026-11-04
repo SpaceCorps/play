@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Propulsione -->
 # Propulsione e velocità {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Motori {#engines}
 
-I motori sono la fonte principale di spinta della tua nave. Un motore in uno **slot abilità** ti dà invece l’**Afterburner** indicato nella colonna Effetto speciale, uno scatto di velocità di dieci secondi (più lungo con più motori), e non aggiunge spinta propria (vedi [Abilità](/wiki/03-Mechanics/Abilities.md)).
+I motori sono la fonte principale di spinta della tua nave. Un motore in uno **slot abilità** ti dà invece l’**Afterburner** indicato nella colonna Effetto speciale, uno scatto di velocità di quindici secondi (più lungo con più motori), e non aggiunge spinta propria (vedi [Abilità](/wiki/03-Mechanics/Abilities.md)).
 
 | Nome | Rarità | Velocità base | Bonus velocità % | Bonus scudo % | Slot | Effetto speciale | Costo |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Scadente | +2 | +2% | -2% | 1 | Afterburner I | 20.000 crediti |
-| **Engine II** | Comune | +4 | +4% | -8% | 2 | Afterburner II | Solo da creare |
-| **Engine III** | Raro | +6 | +5% | -15% | 3 | Afterburner III | Solo da creare |
+| **Engine II** | Comune | +4 | +3% | -8% | 2 | Afterburner II | Solo da creare |
+| **Engine III** | Raro | +6 | +4% | -15% | 3 | Afterburner III | Solo da creare |
 
 L’**Engine II** si crea in [Assemblaggio](/wiki/06-Items/Overview.md#upgrading-modules) da un Engine I, con 2.000 Thulium, 60 Ship Fragment, 1 Power Core e 4 Velkonite Reinforced Plate. L’**Engine III** si crea lì da un Engine II, con 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit e 4 Dark Matter Plate ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Ciascuno mantiene il grado di incantamento e i bonus del motore che consuma ([Potenziamenti dei moduli](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Togli prima dalla tua nave il motore da consumare (e togli da esso i suoi propulsori): un motore montato sulla nave o che contiene propulsori non viene consumato.
 
@@ -90,4 +90,4 @@ Il tier I di ogni famiglia si compra a 20.000 crediti. I tier da II a IV si crea
 
 ### Seminare gli alieni {#outrunning-aliens}
 
-Gli alieni volano a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Una nave Ostirion con un Engine II e due propulsori vola a 221,4 con gli Impulse Thruster I: ancora sotto il Crystalys, quindi serve un propulsore creato in Assemblaggio per superarlo in velocità (230,8 con gli Impulse Thruster II, 240,3 con i III, 243,3 con i IV). I Momentum Thruster su questa nave volano alla stessa velocità o un po’ più in basso (221,4 con i Momentum Thruster I; poi 230,5, 238,4 e 240,7 con i II, i III e i IV): il tier I di entrambe le famiglie resta sotto un Crystalys, ogni tier creato in Assemblaggio sta sopra, il tier II di soli 0,8 e 0,5.
+Gli alieni volano a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Una nave Ostirion con un Engine II e due propulsori vola a 219,3 con gli Impulse Thruster I e a 228,6 con i II: entrambi ancora sotto il Crystalys, quindi serve un propulsore di tier III per superarlo in velocità (238,0 con gli Impulse Thruster III, 241,0 con i IV). I Momentum Thruster su questa nave volano alla stessa velocità o un po’ più in basso (219,3 con i Momentum Thruster I; poi 228,3, 236,1 e 238,4 con i II, i III e i IV): i tier I e II di entrambe le famiglie restano sotto un Crystalys, i tier III e IV stanno sopra.

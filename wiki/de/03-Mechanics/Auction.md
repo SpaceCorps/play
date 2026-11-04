@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -16,7 +16,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Du brauchst **Level 5**, um die Auktion zu nutzen: zum Einstellen, Kaufen und Bieten.
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
 - Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 1 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
-- 84 Sorten lassen sich einstellen, und 83 davon können auch in Thulium bepreist werden.
+- 89 Sorten lassen sich einstellen, und 88 davon können auch in Thulium bepreist werden.
 - Ein Angebot läuft 168 / 336 / 504 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 0,25 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 0,4 %.
@@ -32,7 +32,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 
 ## Handelbare Gegenstände {#marketable-items}
 
-Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, bei [Davidski](/wiki/03-Mechanics/Davidski.md) gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es. Auch die Munition und die Raketen, die der Munitionsdrucker und die Raketenfabrik des Skylab herstellen, sind nicht handelbar.
+Verkaufen kannst du nur Gegenstände, die du **verdient** hast. Alles, was du verdienst, trägt im [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) ein kleines Etikett, **Handelbar**: was du im All aufsammelst (Beute von Aliens, Schwärmen, Wardens und dem Schwarzen Loch: [Frachtkisten](/wiki/03-Mechanics/Cargo.md)), was eine Mission auszahlt ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) und alles, was die Montage und die Schmiede herstellen. Was du im Shop **gekauft**, in einem Los gewonnen, auf dem Markt gekauft, bei [Davidski](/wiki/03-Mechanics/Davidski.md) gekauft, über einen Bonuscode, ein Einladungspaket oder das Starterpaket bekommen oder als Erstattung zurückerhalten hast, ist nicht handelbar und kann nie wieder verkauft werden, damit nichts nur zum Weiterverkauf gekauft wird. Auch die Platten aus der Schmiede des Skylab sind nicht handelbar; die Reinforced Plates, die eine Mission auszahlt, sind es. Auch die Munition und die Raketen, die der Munitionsdrucker und die Raketenfabrik des Skylab herstellen, sind nicht handelbar. Auch die Gegenstände, die die Wiederholung einer Mission zahlt, sind nicht handelbar.
 
 Das Etikett ist eine Anzahl von Einheiten, kein Schalter: Ein Munitionsstapel kann gekaufte und verdiente Schuss enthalten, und die Karte zeigt „Handelbar (3 von 5)“. Wenn du einen Teil eines Stapels verbrauchst (Schießen, Herstellen), gehen zuerst die einfachen Einheiten weg, sodass die handelbaren am längsten halten. Beim Zusammenführen zweier Stücke in der [Schmiede](/wiki/06-Items/Forge.md#merge) bleibt das Etikett nur, wenn beide Stücke es hatten, und die Vorschau sagt das; ein fehlgeschlagener Schritt der Schmiede gibt seine Materialien als einfache Einheiten zurück.
 
@@ -54,7 +54,7 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 | **Adaptive Cores** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Schildzellen** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Schubdüsen** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Ultra Core (in Posten zu 10), Experimental Fusion Core | 5 |
+| **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Siphon Battery II (in Posten zu 10), Antimatter Battery I (in Posten zu 10), Ultra Core (in Posten zu 10), Dark Matter Ammo I (in Posten zu 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Raketen** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Verbrauchsgüter** | EMP Charge, Energetic Wall II | 2 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

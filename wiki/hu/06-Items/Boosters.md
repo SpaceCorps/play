@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Boosterek -->
 # Boosterek {#boosters}
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 A boosterek additív skálázási rendszert használnak:
 1. **A bónuszszázalékok összeadódnak**: ha két különböző boostert veszel, amelyek mindegyike +10% lézersebzést ad, összesen **+20% lézersebzést** kapsz.
 2. **Az időtartamok szorzódva halmozódnak**: ha _ugyanazt_ a boostert többször megveszed, meghosszabbodik az aktív ideje. A _különböző_ boosterek időzítői párhuzamosan futnak.
-3. **Időzítőnézet**: az aktív boosterek a HUD Boosterek ablakában jelennek meg, az összesített, csoportosított aktív bónuszokkal és a következő lejárattal.
+3. **Időzítőnézet**: az aktív boosterek a HUD Boosterek ablakában jelennek meg, az összesített, csoportosított aktív bónuszokkal és a következő lejárattal. Egy kategória összege mindent beleszámít, ami emeli: a boosterek, a szezonbolti buffjaid, a klánod boostjai és a dokkolt [P.E.T.-eid](/wiki/03-Mechanics/Pets.md) mind külön sort kapnak a kategóriában, így az összeg az, amit a hajód valóban kap. Az Irányítópult Boosterek kártyája ugyanezeket az összegeket mutatja.
 4. **A számok beleszámítják őket**: a Hangár sebzése, pajzsa, pajzs-újratöltődése, elnyelése, sebessége és hajótestje, valamint a pilótaoldalad tartalmazza a futó boostereidet, a szezonbolti buffjaidat, a klánod boostjait és a dokkolt [P.E.T.-eidet](/wiki/03-Mechanics/Pets.md); egy kis *boosterekkel* címke a harci statisztikák kártyáján jelzi ezt. Az áthatolást, a kritikus esélyt és a hatótávot a boosterek nem változtatják.
 
 ---

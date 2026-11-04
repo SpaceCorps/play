@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -7,12 +7,12 @@
 **Spezialgegenstände** sind sechs Gegenstände zum einmaligen Gebrauch, die dir Zeit sparen: im [Skylab](/wiki/03-Mechanics/Skylab.md), im Forschungszentrum der [Forschung](/wiki/03-Mechanics/Research.md), in der [Schmiede](/wiki/06-Items/Forge.md) und in der Produktionswarteschlange der [Montage](/wiki/06-Items/Overview.md#the-production-queue). Du setzt einen bei etwas ein, das du schon hast, er erledigt seine Aufgabe einmal, und dann ist er weg. Es sind keine Gegenstände im üblichen Sinn: Dein Konto führt für jede Sorte einen **Zähler**, daher werden sie nicht getragen, nicht fallen gelassen und nicht durch einen Wipe gelöscht, und keiner von ihnen lässt sich handeln.
 
 > [!NOTE]
-> **Noch gibt sie niemand aus.** Vorerst vergibt ein Admin jeden Spezialgegenstand. Sie lassen sich nicht kaufen, nicht verkaufen, nicht in der [Auktion](/wiki/03-Mechanics/Auction.md) einstellen und nicht an andere Piloten weitergeben, und ein Magic Hammer ist extrem selten.
+> **Verdienen kann man sie noch nicht.** Vorerst kommen sie nur von einem Admin: direkt an dich vergeben oder in einem Bonuscode, den du einlöst. Sie lassen sich nicht kaufen, nicht verkaufen, nicht in der [Auktion](/wiki/03-Mechanics/Auction.md) einstellen und nicht an andere Piloten weitergeben, und ein Magic Hammer ist extrem selten.
 
 ## In einer Minute {#in-one-minute}
 
 - **Sechs Sorten.** Der Magic Hammer, Schematics, der Philosopher's Stone, das Tinkerer's Badge, das Forger's Seal und der Workforce Contract. Jede ist weiter unten mit ihren Zahlen beschrieben.
-- **Wo.** Der Bereich **Spezialgegenstände** im Hangar zeigt, was du besitzt, und hat für jede Sorte einen Knopf **Verwenden**. Die Seite, auf der der Gegenstand wirkt, zeigt ebenfalls einen Knopf, sobald du einen besitzt: das Modul eines Ausbaus im Skylab, die laufende Forschung, das Aufwerten-Fenster der Schmiede und die Produktionswarteschlange.
+- **Wo.** Das Inventar im Hangar zeigt für jede Sorte, die du besitzt, eine Kachel unter den Verbrauchsgütern, mit der Anzahl. Halte den Mauszeiger über eine Kachel, um zu lesen, was der Gegenstand tut, und klicke darauf, um ihn zu verwenden (beim Workforce Contract wählst du zuerst den Arbeiter). Der Magic Hammer und das Tinkerer's Badge wirken auf etwas, das du auswählst, daher tut ein Klick nichts und ihre Kachel sagt, wo du sie einsetzt: im Skylab und in der Schmiede. Die Seite, auf der der Gegenstand wirkt, zeigt ebenfalls einen Knopf, sobald du einen besitzt: das Modul eines Ausbaus im Skylab, die laufende Forschung, das Aufwerten-Fenster der Schmiede und die Produktionswarteschlange.
 - **Er fragt zuerst.** Jede Verwendung öffnet ein Fenster, das genau sagt, was geschehen wird und was dabei verbraucht wird. Die Verwendung ist endgültig: Sie lässt sich nicht rückgängig machen. Wird eine Verwendung abgelehnt, wird nichts verbraucht.
 - **Sie bleiben.** Deine Spezialgegenstände und der laufende Philosopher's Stone oder Vertrag bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinaus erhalten.
 - **Überall.** Du kannst sie im Flug verwenden: Keiner von ihnen verlangt, dass dein Schiff gelandet ist.
@@ -44,7 +44,7 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 ### Schematics
 
-Schließt **die Forschung ab, die gerade läuft**, wenn die Technologie **höchstens 24 Stunden** zum Erforschen braucht. 135 der 151 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) kommen infrage. Die 16, die 48 oder 72 Stunden dauern, nicht: der Wraith, drei Drohnenformationen, Hull Plating III, die Stufen 4 und 5 des Triebwerks- und des Verteidigungsmoduls und sieben Piloten-Technologien.
+Schließt **die Forschung ab, die gerade läuft**, wenn die Technologie **höchstens 24 Stunden** zum Erforschen braucht. 142 der 158 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) kommen infrage. Die 16, die 48 oder 72 Stunden dauern, nicht: der Wraith, drei Drohnenformationen, Hull Plating III, die Stufen 4 und 5 des Triebwerks- und des Verteidigungsmoduls und sieben Piloten-Technologien.
 
 - **Nach der Forschungszeit, nicht nach der Restzeit.** Eine 48-Stunden-Technologie mit noch einer Stunde Rest wird trotzdem abgelehnt: Schematics sehen darauf, wie lange die Technologie insgesamt dauert.
 - **Der Preis bleibt bezahlt.** Das Dark Matter, die Credits und das Thulium wurden beim Start der Forschung abgezogen und werden nicht zurückgegeben. Die Wissenschaft, die die Forschung noch nicht verbrannt hat, bleibt in deinem Tank.
@@ -95,7 +95,7 @@ Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-
 
 ## Regeln für alle sechs {#rules-for-all-six}
 
-- **Ein Zähler, kein Gegenstand.** Der Bereich Spezialgegenstände im Hangar ist der einzige Ort, der sie auflistet. Sie haben kein Gewicht, keinen Hotbar-Platz und keinen Platz in der Fracht oder im Transport-Cache; sie fallen nie, wenn dein Schiff zerstört wird.
+- **Ein Zähler, kein Gegenstand.** Das Inventar im Hangar ist der einzige Ort, der sie auflistet, als Kacheln unter den Verbrauchsgütern; von einer Sorte, die du nicht besitzt, gibt es keine Kachel. Eine Kachel ist kein Gegenstand, daher lässt sie sich nicht ziehen, auswählen, löschen oder verkaufen. Sie haben kein Gewicht, keinen Hotbar-Platz und keinen Platz in der Fracht oder im Transport-Cache; sie fallen nie, wenn dein Schiff zerstört wird.
 - **Über den Wipe hinaus.** Deine Spezialgegenstände und ein laufender Philosopher's Stone oder Vertrag bleiben erhalten, wie das Skylab, die Forschung und dein Look.
 - **Nie gehandelt.** Nicht in der [Auktion](/wiki/03-Mechanics/Auction.md), nicht an einen anderen Piloten, nicht gegen Credits.
 - **Nur der Hammer kann dein Tempo verschieben**, und er ist auf einen in 60 Tagen begrenzt. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, eine Forschung von höchstens 24 Stunden.

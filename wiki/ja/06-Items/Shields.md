@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: シールド -->
 # シールドと防御 {#shields-defense}
 
@@ -41,12 +41,12 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | 名前 | レアリティ | シールド容量 | リチャージ速度 | 吸収率 | シールド% | 速度% | シールドセルスロット | 特殊効果 | コスト |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | 粗悪 | 10,000 | 333/秒 | 45% | +5% | -1% | 1 | Shield Surge I | 20,000クレジット |
-| **Basic Shield Core** | コモン | 15,000 | 500/秒 | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
-| **Heavy Shield Core** | レア | 25,000 | 833/秒 | 50% | +20% | -5% | 3 | Shield Surge III | 製作専用 |
+| **Basic Shield Core** | コモン | 15,000 | 500/秒 | 50% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
+| **Heavy Shield Core** | レア | 25,000 | 833/秒 | 55% | +20% | -5% | 3 | Shield Surge III | 製作専用 |
 
 **Heavy Shield Core** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Basic Shield Core から作ります。4,000 Thulium、Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。消費したコアのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に Basic Shield Core を艦から外してください（中のセルも取り出します）。装備されたままのコアや、セルが入ったままのコアは消費されません。
 
-**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～50%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**80%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+2、+3、+5ポイント）です。ワイプポイントの入手元は、1回のワイプで最大1,090ポイント（ワイプのたびにやり直しになります）で、最初のワイプで100レベルのうち43レベル（+4.3ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**95%**、Field Theory III を加えると約**99%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
+**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～55%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**85%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+4、+7、+10ポイント）です。ワイプポイントの入手元は、1回のワイプで最大1,105ポイント（ワイプのたびにやり直しになります）で、最初のワイプで100レベルのうち44レベル（+4.4ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**100%**、Field Theory III を加えると約**110%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
 
 ---
 
@@ -56,9 +56,9 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 | 名前 | レアリティ | シールドボーナス% | 速度ボーナス% | スロット | 特殊効果 | コスト |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | 粗悪 | +4% | +2.4% | 1 | — | 100,000クレジット |
-| **Adaptive Core II** | コモン | +6.4% | +3.2% | 2 | — | 製作専用 |
-| **Adaptive Core III** | レア | +8% | +4% | 3 | — | 製作専用 |
+| **Adaptive Core I** | 粗悪 | +4% | +1.2% | 1 | — | 100,000クレジット |
+| **Adaptive Core II** | コモン | +6.4% | +1.6% | 2 | — | 製作専用 |
+| **Adaptive Core III** | レア | +8% | +2% | 3 | — | 製作専用 |
 
 **Adaptive Core II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Adaptive Core I から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚が必要です。**Adaptive Core III** は、同じくアセンブリで Adaptive Core II から作ります。4,000 Thulium、Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したコアのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するコアを艦から外してください（中のスラスターとセルも取り出します）。装備されたままのコアや、モジュールが入ったままのコアは消費されません。
 

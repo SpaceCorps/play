@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | 普通 | 1.0x | – | 5 信用点 |
 | **Advanced Plasma** | 稀有 | 2.0x | – | 0.5 Thulium |
-| **Ultra Core** | 稀有 | 3.0x | 5% | 1.0 Thulium |
-| **Experimental Fusion Core** | 史诗 | 4.0x | 10% | 2.2 Thulium |
-| **Siphon Battery** | 稀有 | 1.0x，仅作用于护盾 | – | 0.25 Thulium |
+| **Ultra Core** | 稀有 | 3.0x | 5% | 1.0 Thulium，或自行制造 |
+| **Experimental Fusion Core** | 史诗 | 4.0x | 10% | 仅可制造（不再出售） |
+| **Siphon Battery** | 稀有 | 1.0x，仅作用于护盾 | – | 50 信用点 |
+| **Siphon Battery II** | 稀有 | 0.5x，仅作用于护盾，吸取量为两倍 | – | 仅可制造 |
+| **Antimatter Battery I** | 稀有 | 2.0x | 20% | 仅可制造 |
+| **Antimatter Battery II** | 史诗 | 3.0x | 20% | 仅可制造 |
+| **Dark Matter Ammo I** | 稀有 | 1.5x 到 5x，每次齐射重新抽取（平均 3.25x） | – | 仅可制造 |
+| **Dark Matter Ammo II** | 史诗 | 6.0x，每 1.5 秒一次齐射，吸取目标的护盾 | – | 仅可制造 |
 
-**护盾穿透**会在你齐射的每一次命中中，从目标的吸收率里扣除：护盾承受的是目标的吸收率减去穿透后的份额（见[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。你的 Penetration Amp 和无人机编队会加到弹药的穿透上，完整的总和在[本页下方](#shield-penetration-of-a-laser-hit)。对付吸收率为 80% 的舰船（最强的护盾配最强的电池），x4 弹药的 10% 会让护盾只承受 70% 的伤害，船体承受 30%。它对付船体相对护盾较小的舰船时最有价值；而一艘吸收率 80% 的超大型舰船，无论有没有穿透，撑住的程度都没有区别。外星人没有值得一提的吸收率属性（它们的护盾承受一次命中的 80%），穿透同样会从中扣除。
+**新弹药从哪里来。** 自 0.5.0 起，Experimental Fusion Core 不再出售：你需要在 Skylab 的研究中心研究 **Military Grade Ammo II** 之后，在[装配站](/wiki/06-Items/Overview.md#the-production-queue)自行制造，每次 1,000 个。Ultra Core 仍然可以购买，也可以制造（**Military Grade Ammo I**，研究 30 分钟）。五种新弹药只能制造，每一种都位于 **Laser Ammo** 系列的一项科技之后，并且都由下一级的弹药制成：**Siphon Battery II**（由 Siphon Battery 制成）、**Antimatter Battery I**（由 Siphon Battery II 制成）和 **II**（由 Antimatter Battery I 和少量 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) 制成）、**Dark Matter Ammo I**（由原材料和一个 Dark Matter 制成）和 **II**（由 Dark Matter Ammo I 和 Dark Matter 制成）。一次制造是 1,000 个，耗时 5 到 15 分钟，每个的成本大致等于它的价值。[弹药打印机](/wiki/03-Mechanics/Skylab.md)在你研究之后，也能制造 Ultra Core 和 Experimental Fusion Core。
+
+**护盾穿透**会在你齐射的每一次命中中，从目标的吸收率里扣除：护盾承受的是目标的吸收率减去穿透后的份额（见[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。你的 Penetration Amp 和无人机编队会加到弹药的穿透上，完整的总和在[本页下方](#shield-penetration-of-a-laser-hit)。对付吸收率为 85% 的舰船（最强的护盾配最强的电池），x4 弹药的 10% 会让护盾只承受 75% 的伤害，船体承受 25%，而 Antimatter 弹药的 20% 会让护盾承受 65%，船体承受 35%。它对付船体相对护盾较小的舰船时最有价值；而一艘吸收率 85% 的超大型舰船，无论有没有穿透，撑住的程度都没有区别。外星人没有值得一提的吸收率属性（它们的护盾承受一次命中的 80%），穿透同样会从中扣除。
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 - **暴击**同样有效：暴击的齐射吸取量是 1.5 倍，其数字会以暴击的样式显示。它的能量包更大更亮，目标的护盾闪光也更强烈。
 - [企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)使用标准 x1 弹药开火。
 
+**Siphon Battery II** 的原理相同，只是数字倒过来：它从目标护盾中吸取的量只有 Siphon Battery（x0.5）的**一半**，却会给你所吸取量的**两倍**（吸取系数 2.0），所以你的护盾恰好增加 Siphon Battery 一次齐射所给的量，而目标只损失一半。它需要制造（研究 **Siphon Battery II**，由 1,000 个 Siphon Battery 制成），并且和第一种一样，绝不会碰到船体。
+
+---
+
+## Antimatter 与 Dark Matter 弹药 {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I 和 II** 能穿透护盾：各自提供 **20%** 穿透，叠加在你的增幅器和编队之上，伤害为 x2 和 x3。面对护盾相对船体较大的舰船，它们比 Experimental Fusion Core 更早打开船体；面对其他一切，x4 仍然是更重的一击。它们是一种选择，而不是更高的一级。
+
+**Dark Matter Ammo I** 的倍率**每次齐射都重新抽取**，落在 **x1.5 到 x5** 之间的某处（平均 x3.25）。整艘舰船共用一次抽取，无论有多少把激光，所以一次齐射对所有激光来说同时走运或不走运。它和所有弹药一样每秒开火一次。
+
+**Dark Matter Ammo II** 以 **x6** 命中，但**每 1.5 秒才齐射一次**（每秒伤害与 x4 相同），并且会**吸取护盾**：你获得目标护盾实际承受伤害的 25%，最高不超过你的上限。命中和其他命中一样结算（护盾承受自己的份额，船体承受其余部分），没有护盾的目标什么也不会给你。获得护盾不算受到伤害，所以不会推迟你自己护盾的恢复。
+
 ---
 
 ## 激光命中的护盾穿透 {#shield-penetration-of-a-laser-hit}
 
-每一次激光命中都会从目标的吸收率中扣除点数，来源最多三个，彼此相加：你的**弹药**（Ultra Core 5%，Experimental Fusion Core 10%）、你的 **Penetration Amp**，以及**无人机编队**（Gemini +15%；[无人机编队](/wiki/03-Mechanics/Formations.md)）。**总和没有上限**（直接火箭也以同样的方式把自己的穿透和编队的穿透相加：[火箭](/wiki/06-Items/Rockets.md)）。然后护盾承受目标吸收率减去该次命中穿透后的份额，船体承受其余部分（[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
+每一次激光命中都会从目标的吸收率中扣除点数，来源最多三个，彼此相加：你的**弹药**（Ultra Core 5%，Experimental Fusion Core 10%，Antimatter Battery 20%）、你的 **Penetration Amp**，以及**无人机编队**（Gemini +15%；[无人机编队](/wiki/03-Mechanics/Formations.md)）。**总和没有上限**（直接火箭也以同样的方式把自己的穿透和编队的穿透相加：[火箭](/wiki/06-Items/Rockets.md)）。然后护盾承受目标吸收率减去该次命中穿透后的份额，船体承受其余部分（[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
 - **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把激光上三个 Penetration Amp IV 是 36%；十二把激光里只有一把装一个 Penetration Amp IV 是 1%。Wraith 有 12 把激光和 36 个增幅槽位，要凑到 36% 必须把 36 个槽位全部装满。
 - **机库会显示它。** 机库的战斗属性中，每艘飞船都有一个显示所示配置的激光增幅器数值的**穿透**图块（没有 Penetration Amp 时为 0.0%）；弹药和编队不计入其中。飞行中的**舰船**窗口在下方一行的末尾有一个**穿透**标签（为腾出位置，配置和速度标签只显示一个图标和一个数字），显示激光命中的总穿透：你的增幅器、所穿戴的编队和所用的弹药相加，一换就更新，它的悬停提示会列出这三部分。
-- **最强的激光是 61%。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（36%）加起来是 61%。
+- **最强的激光用 x4 是 61%，用 Antimatter 是 71%。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（36%）加起来是 61%；换成一块 Antimatter Battery（20%）则是 71%，伤害为 x3 而不是 x4。
 - **Penetration Amp IV 上的锻造加成会计入。** Penetration Amp 和其他增幅器一样可以锻造，它唯一的一条加成会成倍提高穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 达到 13.1 至 13.8 点，而不是 12 点。在最强的配置里，三个永恒级的加起来是 66.4%，每一点都会计入。
 
 | 激光齐射 | 弹药 | 增幅器（3 个槽位） | 编队 | 合计 |
@@ -189,19 +215,19 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 | 防守方（吸收率） | 无增幅器 | 仅 Fusion Core（10%） | Fusion Core + Gemini（25%） | Fusion Core + 3 个 Penetration Amp IV（46%） | 最强的激光（61%） |
 |---|---|---|---|---|---|
 | Light Shield Core，无电池（45%） | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core，无电池（50%） | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core，无电池（55%） | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 个 Capacity Shield Cell IV（65%） | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| 出厂最好的护盾（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| 最好的护盾，永恒锻造（最高掷值）加 44 级赛季商店（96.4%） | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| 最好的护盾，永恒锻造（最高掷值）加赛季商店上限（102%） | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 个 Capacity Shield Cell IV（70%） | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| 出厂最好的护盾（85%） | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| 最好的护盾，永恒锻造（最高掷值）加 44 级赛季商店（102.2%） | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| 最好的护盾，永恒锻造（最高掷值）加赛季商店上限（107.8%） | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | 任何外星人（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-最强的激光会打空没有电池的护盾核心，以及配了最好电池的 Light Shield Core（船体承受整次命中）；带三个 Capacity 电池的 Heavy Shield Core 会保留每次命中的 4%，最好的护盾保留其中的 19%（有加成时是 35%）。单独的火箭永远打不空护盾（最高 35%），但 Lancet III 或 Rivet III 配上 Stiletto（70%）就能打空。
+最强的激光会打空没有电池的护盾核心，以及配了最好电池的 Light Shield Core（船体承受整次命中）；带三个 Capacity 电池的 Heavy Shield Core 会保留每次命中的 9%，最好的护盾保留其中的 24%（有加成时是 41%）。单独的火箭永远打不空护盾（最高 35%），但 Lancet III 或 Rivet III 配上 Stiletto（70%）就能打空。
 
 ### 什么时候值得为 Penetration Amp 腾一个槽位？ {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 95%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 1.8 倍；面对出厂最好的护盾（80%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 11% 的时间。面对外星人几乎没有收益。**
+**Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 101%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 2.6 倍；面对出厂最好的护盾（85%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 19% 的时间。面对外星人几乎没有收益。**
 
 - **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 187 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 356，三个 Crit Amp IV 是 369：大约一半。它夺回的是护盾的份额，所以只有在船体相对护盾较小、吸收率较高的时候才划算；面对船体庞大、本来就扛得住的 Wraith 或 Ironclad，普通的 Damage 或 Crit 组合速度差不多（一把激光里的一个 Penetration Amp 最多只多出 5%）。
 - **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，所以它对外星人也有效，但同阶的 Damage Amp 或 Crit Amp 杀得一样快或更快；例外是配合编队作战的 Phantasm 或 Goombah，此时一把激光里的一个 Penetration Amp 最多多出 5%。

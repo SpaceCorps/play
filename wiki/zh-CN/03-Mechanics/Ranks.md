@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: 军衔 -->
 # 军衔 {#ranks}
 
@@ -125,6 +125,13 @@
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-前五行是普通外星人，接下来六行是三个虫群的飞船，再接下来三行是 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的外星人（从赛季第 11 天起）。最后是战队守卫（战队守卫战的头领）和它们的随从 Brood Drone、Siege Escort 和 Wrath Guard：I、II、III 是守卫的强度，积分按这个顺序列出。
+前五行是普通外星人，接下来十二行是六个虫群的飞船，再接下来三行是 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的外星人（从赛季第 11 天起）。最后是战队守卫（战队守卫战的头领）和它们的随从 Brood Drone、Siege Escort 和 Wrath Guard：I、II、III 是守卫的强度，积分按这个顺序列出。
 
 例如，一名 4 级飞行员有 12,500 经验，击毁过 300 只 Seeker、80 架 Phantasm 和 10 艘 Bulwark，就有 400 + 12 + 300 + 160 + 40 = **912** 积分。这让他成为中士：最低要求是 800，下一个军衔高级中士要求 1,000。到高级上校为止，只有积分算数。
 

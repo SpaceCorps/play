@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Contenitori -->
 # Contenitori {#containers}
 
@@ -333,12 +333,12 @@ L’Archivio cromatico estrae prima la categoria e poi un look di quella categor
 | :--- | :--- | ---: |
 | Comune | 240 × Velkonite (nello Skylab) | 7,000% |
 | Comune | 160 × Orvium (nello Skylab) | 7,000% |
-| Comune | 1.300 × Reinforced Hull Plate | 5,000% |
-| Comune | 9.000 × Ship Fragment | 6,000% |
+| Comune | 100 × Reinforced Hull Plate | 5,000% |
+| Comune | 1.000 × Ship Fragment | 6,000% |
 | Comune | **Cristalli di forgia**: 4.000 × Cataclysite + 3.000 × Quorvium | 5,000% |
-| Comune | 450 × Power Core | 5,000% |
+| Comune | 20 × Power Core | 5,000% |
 | Comune | 450 Thulium | 5,000% |
-| Comune | 4 × Regular Cluster Chunk | 5,000% |
+| Comune | 2 × Regular Cluster Chunk | 5,000% |
 | Non comune | 780 × Velkonite (nello Skylab) | 5,000% |
 | Non comune | 510 × Orvium (nello Skylab) | 5,000% |
 | Non comune | 19 × Velkonite Reinforced Plate | 4,000% |
@@ -571,16 +571,17 @@ La pagina Contenitori del gioco mostra le tue probabilità accanto a quelle pubb
 
 ## Versione della tabella {#version-of-the-table}
 
-Ogni probabilità di questa pagina è la tabella del server del gioco. Quando una probabilità cambia, la tabella riceve una nuova versione e un nuovo hash, e ogni apertura registra l’hash della tabella da cui è stata estratta.
+Ogni probabilità di questa pagina è la tabella del server del gioco. Quando una probabilità o una quantità cambia, la tabella riceve una nuova versione e un nuovo hash, e ogni apertura registra l’hash della tabella da cui è stata estratta.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Versione della tabella**: 1
-- **Hash della tabella (primi 12 caratteri)**: `23aa20f1a5ad`
+- **Versione della tabella**: 2
+- **Hash della tabella (primi 12 caratteri)**: `9f345692845a`
 
 Cosa è cambiato:
 
+- Versione 2: Cilindro di rilevamento: le quattro scorte comuni sono più piccole. Reinforced Hull Plate da 1.300 a 100, Ship Fragment da 9.000 a 1.000, Power Core da 450 a 20, Regular Cluster Chunk da 4 a 2. Non è cambiata la probabilità di alcun premio né di alcuna categoria.
 - Versione 1: La prima tabella pubblicata.
 
 <!-- containers-version:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Stagioni e ricompense -->
 # Stagioni e ricompense {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Ogni reset chiude la tua stagione. Il server registra il grado che hai raggiunto
 
 Il grado che hai nell’istante del reset ti paga:
 
-* **Punti reset**: da 5 a 400, in base al grado, in aggiunta a quelli che pagano le fonti dei punti reset (fino a 1.090 punti reset per reset: [Guadagnare punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Punti reset**: da 5 a 400, in base al grado, in aggiunta a quelli che pagano le fonti dei punti reset (fino a 1.105 punti reset per reset: [Guadagnare punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Giorni di Premium**: da 1 a 7, da Capitano junior in su. Si sommano a un Premium che hai già.
 * **Crediti e Thulium**: un fondo di partenza che cresce con il grado, da 105.000 crediti e 225 Thulium per un Pilota a 6.300.000 crediti e 13.500 Thulium per un Ammiraglio senior. È piccolo accanto ai [tetti](#the-caps-and-your-rewards): un modo per iniziare bene la nuova stagione, non un vantaggio.
 

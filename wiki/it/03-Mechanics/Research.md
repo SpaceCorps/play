@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Ricerca -->
 # Ricerca {#research}
 
@@ -30,7 +30,7 @@ Questa pagina riunisce l’intero albero delle tecnologie con il tempo di ciascu
 
 <!-- research-centre:end -->
 
-**Schematics.** Uno [Schematics](/wiki/06-Items/Special-Items.md#schematics) completa subito la ricerca in corso, se la sua tecnologia richiede 24 ore o meno per essere ricercata (135 delle 151 tecnologie). Ciò che la ricerca è costata è stato pagato all’inizio e non viene restituito, la scienza che non ha ancora bruciato resta nel tuo serbatoio e la tecnologia successiva della tua coda parte subito.
+**Schematics.** Uno [Schematics](/wiki/06-Items/Special-Items.md#schematics) completa subito la ricerca in corso, se la sua tecnologia richiede 24 ore o meno per essere ricercata (142 delle 158 tecnologie). Ciò che la ricerca è costata è stato pagato all’inizio e non viene restituito, la scienza che non ha ancora bruciato resta nel tuo serbatoio e la tecnologia successiva della tua coda parte subito.
 
 **Gli amplificatori laser e l’ultimo tier.** I Damage, Crit e Penetration Amp dei tier da II a IV si ricercano come ogni altra creazione. I piloti che possedevano o avevano in coda degli amp all’arrivo delle linee di amp hanno ricevuto la tecnologia di ciascuno di essi e quella dei tier sotto. Tredici tecnologie richiedono una tecnologia di un altro albero, quella della Dark Matter Plate, dell’albero Risorse, perché l’ultimo tier di ogni catena di potenziamento richiede quattro plate e una Ancient Control Unit: i Damage, Crit e Penetration Amp del tier IV, le Absorption e Capacity Shield Cell del tier IV, gli Impulse e Momentum Thruster del tier IV, l’Heavy Shield Core, l’Engine III, l’Adaptive Core III, l’Helios Beam, l’Extra Slots CPU III e il Base CPU II. Un pilota che ne ha ricercata una prima la conserva, ma per creare le sue plate gli serve la tecnologia della plate. L’albero qui sotto non traccia alcuna freccia per essa, ma la tabella la elenca e la scheda nel gioco la nomina ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Che cosa fa un boost al tempo di una ricerca, con il boost attivo dal suo inizio
 | Tempo di ricerca | Con il boost | Boost per tutta la ricerca | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5.000 |
+| 1 h | 30 min | 1 | 5.000 |
 | 3 h | 1 h 30 min | 1 | 5.000 |
+| 4 h | 2 h | 1 | 5.000 |
 | 6 h | 3 h | 1 | 5.000 |
+| 8 h | 4 h | 1 | 5.000 |
 | 10 h | 5 h | 1 | 5.000 |
 | 1 g | 12 h | 1 | 5.000 |
 | 2 g | 1 g | 1 | 5.000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Munizioni laser {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ La famiglia Pilota della vista Ricerca contiene tecnologie che non sono fabbrica
 - **In serie.** Ogni livello richiede il precedente, e un livello più alto sostituisce quello più basso: la tabella mostra il totale che dà ogni livello, non quanto aggiunge.
 - **Spuntini efficienti** (Kebab, Pelmeni, Burger) aggiungono scafo a ogni tua nave, in entrambe le configurazioni.
 - **Retroporta sigillata** alza il limite di trasporto di ogni razzo, ovunque tu lo compri, lo crei o lo scambi.
-- **Estrazione con escavatore** alza ciò che prendi da ogni cassa di un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium e minerale insieme.
+- **Estrazione con escavatore** fa sì che un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) che avvii deponga di più in ogni cassa, Thulium e minerale insieme. Conta la ricerca del pilota che avvia la sessione, e chiunque raccolga le casse ottiene la quantità maggiore. Il pannello di controllo dell’escavatore mostra di chi è la sessione e quale quota porta.
 - **Teoria dei campi** alza la parte di ogni colpo che i tuoi scudi assorbono. Una nave senza scudo non riceve nulla.
 - **Conoscenza dormiente** paga punti reset per ogni livello quando la sua ricerca finisce nel Centro, e di nuovo dopo ogni reset ([Guadagnare punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Oltre al livello precedente, richiede una parte delle altre tecnologie ricercate (contano quelle della famiglia Pilota, non le cinque di Conoscenza dormiente), in qualunque modo tu le abbia ottenute; la tabella mostra ogni parte e quante tecnologie sono.
 
@@ -372,9 +391,9 @@ La famiglia Pilota della vista Ricerca contiene tecnologie che non sono fabbrica
 | Estrazione con escavatore I | +20% resa dell’escavatore | – | 1 g | 10 | 500.000 | 5.000 |
 | Estrazione con escavatore II | +30% resa dell’escavatore | Estrazione con escavatore I | 2 g | 20 | 1.500.000 | 15.000 |
 | Estrazione con escavatore III | +40% resa dell’escavatore | Estrazione con escavatore II | 3 g | 30 | 4.000.000 | 40.000 |
-| Teoria dei campi I | +2% assorbimento dello scudo | – | 1 g | 20 | 500.000 | 5.000 |
-| Teoria dei campi II | +3% assorbimento dello scudo | Teoria dei campi I | 2 g | 40 | 1.500.000 | 15.000 |
-| Teoria dei campi III | +5% assorbimento dello scudo | Teoria dei campi II | 3 g | 60 | 5.000.000 | 50.000 |
+| Teoria dei campi I | +4% assorbimento dello scudo | – | 1 g | 20 | 500.000 | 5.000 |
+| Teoria dei campi II | +7% assorbimento dello scudo | Teoria dei campi I | 2 g | 40 | 1.500.000 | 15.000 |
+| Teoria dei campi III | +10% assorbimento dello scudo | Teoria dei campi II | 3 g | 60 | 5.000.000 | 50.000 |
 | Conoscenza dormiente I | +50 punti reset | 20% delle altre tecnologie (30 su 146) | 1 h | – | – | – |
 | Conoscenza dormiente II | +50 punti reset | Conoscenza dormiente I; 40% delle altre tecnologie (59 su 146) | 1 h | – | – | – |
 | Conoscenza dormiente III | +50 punti reset | Conoscenza dormiente II; 60% delle altre tecnologie (88 su 146) | 1 h | – | – | – |
@@ -460,18 +479,25 @@ La famiglia Pilota della vista Ricerca contiene tecnologie che non sono fabbrica
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 g | 86.400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 min | 1.800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 h | 14.400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 h | 3.600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 h | 10.800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28.800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3.600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21.600 | – |
 
 Le classi, per tempo di ricerca:
 
 | Classe | Tempo di ricerca | Tecnologie | Una dopo l’altra | Scienza | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 10 | 5 h | 18.000 | 0 |
-| B | da 3 h a 6 h | 20 | 2 g 21 h | 248.400 | 0 |
-| C | 10 h | 17 | 7 g 2 h | 612.000 | 95 |
+| A | da 30 min a 1 h | 13 | 7 h 30 min | 27.000 | 0 |
+| B | da 3 h a 6 h | 23 | 3 g 10 h | 295.200 | 0 |
+| C | da 8 h a 10 h | 18 | 7 g 10 h | 640.800 | 95 |
 | D | da 1 g a 2 g | 23 | 28 g | 2.419.200 | 319 |
-| Tutte |  | 70 | 38 g 4 h | 3.297.600 | 414 |
+| Tutte |  | 77 | 39 g 3 h 30 min | 3.382.200 | 414 |
 
-Ricercato una tecnologia dopo l’altra, l’intero albero richiede 38 g 4 h. Con il boost sempre attivo richiede 19 g 2 h, cioè 20 boost e 100.000 Thulium; la scienza è la stessa.
+Ricercato una tecnologia dopo l’altra, l’intero albero richiede 39 g 3 h 30 min. Con il boost sempre attivo richiede 19 g 13 h 45 min, cioè 20 boost e 100.000 Thulium; la scienza è la stessa.
 
 <!-- research-technologies:end -->
 

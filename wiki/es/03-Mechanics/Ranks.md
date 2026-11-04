@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
@@ -125,6 +125,13 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Las cinco primeras filas son los alienígenas normales, las seis siguientes las naves de los tres enjambres y las tres siguientes los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (desde el día 11 de la temporada). Al final van los guardianes del clan, los líderes de un combate contra un guardián, y sus tripulaciones, los Brood Drones, Siege Escorts y Wrath Guards: I, II y III son la fuerza del guardián, y los puntos van en ese orden.
+Las cinco primeras filas son los alienígenas normales, las doce siguientes las naves de los seis enjambres y las tres siguientes los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (desde el día 11 de la temporada). Al final van los guardianes del clan, los líderes de un combate contra un guardián, y sus tripulaciones, los Brood Drones, Siege Escorts y Wrath Guards: I, II y III son la fuerza del guardián, y los puntos van en ese orden.
 
 Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia que ha destruido 300 Seekers, 80 Phantasm y 10 Bulwarks tiene 400 + 12 + 300 + 160 + 40 = **912** puntos. Eso lo hace Sargento: el mínimo es 800, y el siguiente rango, Sargento sénior, pide 1.000. Hasta Coronel sénior solo cuentan los puntos.
 

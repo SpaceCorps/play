@@ -6,7 +6,7 @@ Every wipe closes your season. The server writes down the rank you reached, your
 
 The rank you hold at the instant of the wipe pays you:
 
-* **Wipe Points**: 5 to 400, by rank, on top of what the sources of Wipe Points pay (up to 1,090 Wipe Points a wipe: [Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Wipe Points**: 5 to 400, by rank, on top of what the sources of Wipe Points pay (up to 1,105 Wipe Points a wipe: [Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Premium days**: 1 to 7, from Junior Captain up. They stack on a Premium you already have.
 * **Credits and Thulium**: a restart fund that grows with the rank, from 105,000 credits and 225 Thulium for a Pilot to 6,300,000 credits and 13,500 Thulium for a Senior Admiral. It is small beside the [caps](#the-caps-and-your-rewards): a way to start the new season well, not a lead.
 

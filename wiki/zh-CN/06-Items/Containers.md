@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: 容器 -->
 # 容器 {#containers}
 
@@ -333,12 +333,12 @@
 | :--- | :--- | ---: |
 | 普通 | 240 × Velkonite（进入 Skylab） | 7.000% |
 | 普通 | 160 × Orvium（进入 Skylab） | 7.000% |
-| 普通 | 1,300 × Reinforced Hull Plate | 5.000% |
-| 普通 | 9,000 × Ship Fragment | 6.000% |
+| 普通 | 100 × Reinforced Hull Plate | 5.000% |
+| 普通 | 1,000 × Ship Fragment | 6.000% |
 | 普通 | **锻造晶体**: 4,000 × Cataclysite + 3,000 × Quorvium | 5.000% |
-| 普通 | 450 × Power Core | 5.000% |
+| 普通 | 20 × Power Core | 5.000% |
 | 普通 | 450 Thulium | 5.000% |
-| 普通 | 4 × Regular Cluster Chunk | 5.000% |
+| 普通 | 2 × Regular Cluster Chunk | 5.000% |
 | 优秀 | 780 × Velkonite（进入 Skylab） | 5.000% |
 | 优秀 | 510 × Orvium（进入 Skylab） | 5.000% |
 | 优秀 | 19 × Velkonite Reinforced Plate | 4.000% |
@@ -571,16 +571,17 @@ and better are in play.
 
 ## 表的版本 {#version-of-the-table}
 
-本页的每个概率都来自游戏服务器上的表。当某个概率改变时，表会获得新的版本和新的哈希，并且每次开启都会记录它所抽取的表的哈希。
+本页的每个概率都来自游戏服务器上的表。当某个概率或数量改变时，表会获得新的版本和新的哈希，并且每次开启都会记录它所抽取的表的哈希。
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **表的版本**：1
-- **表的哈希（前 12 个字符）**：`23aa20f1a5ad`
+- **表的版本**：2
+- **表的哈希（前 12 个字符）**：`9f345692845a`
 
 更改内容：
 
+- 版本 2：勘测罐：四个普通奖励的数量变少了。Reinforced Hull Plate 从 1,300 个减到 100 个，Ship Fragment 从 9,000 个减到 1,000 个，Power Core 从 450 个减到 20 个，Regular Cluster Chunk 从 4 个减到 2 个。任何奖励和等级的几率都没有改变。
 - 版本 1：首次公布的表。
 
 <!-- containers-version:end -->

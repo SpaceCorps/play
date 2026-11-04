@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: 추진 장치 -->
 # 추진 장치와 속도 {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## 엔진 {#engines}
 
-엔진은 함선의 주된 추력원입니다. **능력 슬롯**에 넣은 엔진은 대신 특수 효과 열의 **Afterburner**를 제공합니다. Afterburner는 10초 동안 속도를 크게 높이며(엔진이 많을수록 더 오래 지속), 엔진 자체의 추력은 더해 주지 않습니다([능력](/wiki/03-Mechanics/Abilities.md) 참고).
+엔진은 함선의 주된 추력원입니다. **능력 슬롯**에 넣은 엔진은 대신 특수 효과 열의 **Afterburner**를 제공합니다. Afterburner는 15초 동안 속도를 크게 높이며(엔진이 많을수록 더 오래 지속), 엔진 자체의 추력은 더해 주지 않습니다([능력](/wiki/03-Mechanics/Abilities.md) 참고).
 
 | 이름 | 희귀도 | 기본 속도 | 속도 보너스 % | 실드 보너스 % | 슬롯 | 특수 효과 | 비용 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | 하급 | +2 | +2% | -2% | 1 | Afterburner I | 20,000 크레딧 |
-| **Engine II** | 일반 | +4 | +4% | -8% | 2 | Afterburner II | 제작 전용 |
-| **Engine III** | 희귀 | +6 | +5% | -15% | 3 | Afterburner III | 제작 전용 |
+| **Engine II** | 일반 | +4 | +3% | -8% | 2 | Afterburner II | 제작 전용 |
+| **Engine III** | 희귀 | +6 | +4% | -15% | 3 | Afterburner III | 제작 전용 |
 
 **Engine II**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I을 재료로, 2,000 Thulium, Ship Fragment 60개, Power Core 1개, Velkonite Reinforced Plate 4개를 들여 만듭니다. **Engine III**는 같은 곳에서 Engine II를 재료로, 4,000 Thulium, Ship Fragment 110개, Power Core 5개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 둘 다 소모한 엔진의 인챈트 등급과 보너스를 그대로 이어받습니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 소모할 엔진을 떼어 내세요(그 안의 추진기도 꺼내야 합니다). 장착되어 있거나 추진기가 들어 있는 엔진은 소모되지 않습니다.
 
@@ -90,4 +90,4 @@ Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하�
 
 ### 외계인 따돌리기 {#outrunning-aliens}
 
-외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion은 Impulse Thruster I로 221.4의 속도로 비행합니다. 아직 Crystalys보다 느리므로, 따돌리려면 어셈블리에서 만든 추진기가 필요합니다(Impulse Thruster II 230.8, III 240.3, IV 243.3). Momentum Thruster는 이 함선에서 같거나 조금 더 느립니다(Momentum Thruster I은 221.4, II~IV는 230.5, 238.4, 240.7). 두 계열 모두 티어 I은 Crystalys보다 느리고, 어셈블리에서 만든 티어는 모두 더 빠릅니다(티어 II는 0.8과 0.5만큼만).
+외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion은 Impulse Thruster I로 219.3, II로 228.6의 속도로 비행합니다. 둘 다 아직 Crystalys보다 느리므로, 따돌리려면 티어 III 추진기가 필요합니다(Impulse Thruster III 238.0, IV 241.0). Momentum Thruster는 이 함선에서 같거나 조금 더 느립니다(Momentum Thruster I은 219.3, II~IV는 228.3, 236.1, 238.4). 두 계열 모두 티어 I과 II는 Crystalys보다 느리고, 티어 III과 IV는 더 빠릅니다.

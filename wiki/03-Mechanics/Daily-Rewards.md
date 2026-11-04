@@ -2,7 +2,7 @@
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak -->
 
-Every season has a **Daily Rewards calendar**: one small gift for each day of the season. At the station, press **Collect** and the day's gift is yours. The more days you collect, the more you get: four **chests** arrive at 7, 14, 21 and 28 collected days, and in the last three days of the season you can take the **Season prize**. A day you miss costs you that day's gift and nothing else. You find the calendar on the **Dashboard** (the **Daily rewards** card) and under **Season & Profile › Calendar**.
+Every season has a **Daily Rewards calendar**: one gift for each day of the season, always ammo or rockets. At the station, press **Collect** and the day's gift is yours. The more days you collect, the more you get: four **chests** arrive at 7, 14, 21 and 28 collected days, and in the last three days of the season you can take the **Season prize**. A day you miss costs you that day's gift and nothing else. You find the calendar on the **Dashboard** (the **Daily rewards** card) and under **Season & Profile › Calendar**.
 
 ## In One Minute
 
@@ -13,7 +13,7 @@ Every season has a **Daily Rewards calendar**: one small gift for each day of th
 - **4 chests**, at 7, 14, 21 and 28 days collected.
 - **A Season prize** in the last three days of the season: a souvenir look at 10 days collected and a ship design blueprint at 20.
 - **A new calendar every wipe.** You can see every gift of the season from day 1.
-- **Small on purpose.** All 29 days together are worth about as much as a few hours of hunting, spread over a season.
+- **Ammo and rockets.** Every daily gift is one of the two strongest laser ammo kinds or an Epic rocket ([The Gifts](#the-gifts)). The chests and the Season prize are separate.
 
 ## The Day
 
@@ -31,7 +31,7 @@ The card and the tab both say when the next reward opens **in your own time zone
 
 - **Day 1 is short.** The season begins at the Wipe, in the middle of a UTC day, so tile 1 is open from then until the end of that day, plus the grace.
 - **Day 29 is long.** The last tile stays open until the Wipe's countdown starts, which can be more than 24 hours after it opened. Once the countdown has started, nothing can be collected until the new season begins.
-- **Administrators can move the season day.** The calendar follows it: days that are skipped count as missed for everybody, and a tile you have collected stays collected.
+- **Administrators can move the season day.** The calendar follows it. Moved forward, the days that are skipped count as missed for everybody, and a tile you have collected stays collected. Moved back, the days are played again: the tiles of the days from the new day on that you had collected can be collected again, each when the clock reaches its day, and each pays its gift once more. What you were given is not taken back, and the tiles before the new day, your chests and your Season prize stay as they are (a chest you already received does not come a second time).
 
 ## The Tiles
 
@@ -83,22 +83,19 @@ The Season prize has two steps. You collect them in the **last three days** of t
 
 ## The Gifts
 
-A day's gift is small. It is one of these:
+A day's gift is **ammo or rockets** and nothing else. It is one of six items:
 
-- **Ammo and rockets**, in modest stacks.
-- **Materials, plates and consumables**, among them Forge kits (the materials of one Forge step).
-- **Boosters** of a few hours. A booster gift adds its hours to your [boosters](/wiki/06-Items/Boosters.md#active-boosters).
-- **Credits and Thulium**, in small amounts.
-- **A few special items** (Workforce Contract, Forger's Seal): never more than 4 tiles of a season.
+- **Ultra Core** (3.0x) and **Experimental Fusion Core** (4.0x), the two strongest kinds of [laser ammo](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** and **Scatter III**, the Epic [rockets](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
-This page names no gift of any season, because the calendar is different every wipe. The Calendar tab shows this season's gifts. A gift is a gift: items from the calendar carry no **Marketable** tag ([Marketable items](/wiki/03-Mechanics/Inventory.md#marketable-items)) and can't be listed on the [Auction](/wiki/03-Mechanics/Auction.md).
+The size of the stack changes from day to day, and the calendar is different every wipe. The Calendar tab shows this season's gifts. The chests and the Season prize are not daily gifts and stay as they are. A gift is a gift: items from the calendar carry no **Marketable** tag ([Marketable items](/wiki/03-Mechanics/Inventory.md#marketable-items)) and can't be listed on the [Auction](/wiki/03-Mechanics/Auction.md).
 
 ## The Wipe
 
 A new season is a new calendar. At the [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) the old one closes and the new one opens with its own 29 gifts, and your count starts again at 0. The wipe takes nothing you collected except what it takes from every item:
 
-- **Deleted:** gifts that are items (ammo, rockets, materials, plates, consumables) are deleted by the wipe unless they are in your [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). The Calendar marks such a gift with a note.
-- **Kept:** boosters, Credits, Thulium, special items, looks, technologies (a blueprint) and containers.
+- **Kept:** the ammo and rockets of the calendar are carried over by the wipe by themselves, up to a limit for each kind ([Ammo and rockets](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Also kept: boosters, Credits, Thulium, looks, technologies (a blueprint) and containers.
+- **Deleted:** any other item you hold, such as the Dark Matter Plates that stand in for a blueprint you already know, is deleted by the wipe unless it is in your [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **The last four days (26 to 29) give only gifts that are kept**, so a gift of the last week is never lost to the wipe.
 
 ## Late Joiners and Late Calendars
@@ -117,7 +114,7 @@ A new season is a new calendar. At the [Wipe](/wiki/03-Mechanics/Wipe-Timeline.m
 - **Does Premium change it?** No. Premium gives no extra tiles and no better gifts, and the calendar gives no Premium days.
 - **Do I need a clan?** No. The calendar uses the same day as the clans' daily line, but it belongs to you alone.
 - **Is there a level limit?** No. Every pilot can collect, from level 1.
-- **What happens at the wipe?** You get a new calendar and start again at 0 days. Gifts that are items are deleted unless they are in the Transport Cache; the rest is kept ([The Wipe](#the-wipe)).
+- **What happens at the wipe?** You get a new calendar and start again at 0 days. The ammo and rockets of the calendar are carried over by the wipe, up to its limits; any other item is deleted unless it is in the Transport Cache, and the rest is kept ([The Wipe](#the-wipe)).
 
 ## Good to Know
 

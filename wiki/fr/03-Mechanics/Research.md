@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -30,7 +30,7 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termine sur-le-champ la recherche en cours, si sa technologie demande 24 heures ou moins de recherche (135 des 151 technologies). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science qu’elle n’a pas encore brûlée reste dans votre réservoir, et la technologie suivante de votre file démarre aussitôt.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termine sur-le-champ la recherche en cours, si sa technologie demande 24 heures ou moins de recherche (142 des 158 technologies). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science qu’elle n’a pas encore brûlée reste dans votre réservoir, et la technologie suivante de votre file démarre aussitôt.
 
 **Les amplis laser et le dernier palier.** Les Damage, Crit et Penetration Amps des paliers II à IV se recherchent comme tout ce qui se fabrique. Les pilotes qui possédaient ou avaient en file des amplis à l’arrivée des gammes d’amplis ont reçu la technologie de chacun d’eux et celle des paliers en dessous. Treize technologies demandent une technologie d’un autre arbre, celle de la Dark Matter Plate, de l’arbre Ressources, parce que le dernier palier de chaque chaîne d’amélioration demande quatre plates et une Ancient Control Unit : les Damage, Crit et Penetration Amps du palier IV, les Absorption et Capacity Shield Cells du palier IV, les Impulse et Momentum Thrusters du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II. Un pilote qui a déjà recherché l’une d’elles la garde, mais il lui faut la technologie de la plate pour fabriquer ses plates. L’arbre ci-dessous ne trace aucune flèche pour elle, mais le tableau la liste et la carte en jeu la nomme ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Ce qu’un boost fait à la durée d’une recherche, avec le boost dès son dé
 | Durée de recherche | Avec le boost | Boosts pour toute la recherche | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5 000 |
+| 1 h | 30 min | 1 | 5 000 |
 | 3 h | 1 h 30 min | 1 | 5 000 |
+| 4 h | 2 h | 1 | 5 000 |
 | 6 h | 3 h | 1 | 5 000 |
+| 8 h | 4 h | 1 | 5 000 |
 | 10 h | 5 h | 1 | 5 000 |
 | 1 j | 12 h | 1 | 5 000 |
 | 2 j | 1 j | 1 | 5 000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Munitions laser {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 - **En série.** Chaque niveau demande le précédent, et un niveau supérieur remplace l’inférieur : le tableau montre le total que donne chaque niveau, pas ce qu’il ajoute.
 - **Collations efficaces** (Kebab, Pelmeni, Burger) ajoutent des points de coque à chacun de vos vaisseaux, dans les deux configurations.
 - **Porte dérobée scellée** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
-- **Extraction par excavatrice** augmente ce que vous prenez dans chaque caisse d’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md), Thulium comme minerai.
+- **Extraction par excavatrice** fait qu’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) que vous lancez dépose plus dans chaque caisse, Thulium comme minerai. C’est la recherche du pilote qui lance l’exploitation qui compte, et quiconque ramasse les caisses reçoit la quantité plus grande. Le panneau de commande de l’excavatrice montre de qui est l’exploitation et quelle part elle porte.
 - **Théorie des champs** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
 - **Savoir dormant** verse des points de réinitialisation pour chaque niveau quand sa recherche se termine dans le Centre, et de nouveau après chaque réinitialisation ([Gagner des points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). En plus du niveau précédent, il demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq niveaux de Savoir dormant non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
 
@@ -372,9 +391,9 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 | Extraction par excavatrice I | +20 % de rendement des excavatrices | – | 1 j | 10 | 500 000 | 5 000 |
 | Extraction par excavatrice II | +30 % de rendement des excavatrices | Extraction par excavatrice I | 2 j | 20 | 1 500 000 | 15 000 |
 | Extraction par excavatrice III | +40 % de rendement des excavatrices | Extraction par excavatrice II | 3 j | 30 | 4 000 000 | 40 000 |
-| Théorie des champs I | +2 % d’absorption des boucliers | – | 1 j | 20 | 500 000 | 5 000 |
-| Théorie des champs II | +3 % d’absorption des boucliers | Théorie des champs I | 2 j | 40 | 1 500 000 | 15 000 |
-| Théorie des champs III | +5 % d’absorption des boucliers | Théorie des champs II | 3 j | 60 | 5 000 000 | 50 000 |
+| Théorie des champs I | +4 % d’absorption des boucliers | – | 1 j | 20 | 500 000 | 5 000 |
+| Théorie des champs II | +7 % d’absorption des boucliers | Théorie des champs I | 2 j | 40 | 1 500 000 | 15 000 |
+| Théorie des champs III | +10 % d’absorption des boucliers | Théorie des champs II | 3 j | 60 | 5 000 000 | 50 000 |
 | Savoir dormant I | +50 points de réinitialisation | 20 % des autres technologies (30 sur 146) | 1 h | – | – | – |
 | Savoir dormant II | +50 points de réinitialisation | Savoir dormant I; 40 % des autres technologies (59 sur 146) | 1 h | – | – | – |
 | Savoir dormant III | +50 points de réinitialisation | Savoir dormant II; 60 % des autres technologies (88 sur 146) | 1 h | – | – | – |
@@ -460,18 +479,25 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 j | 86 400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36 000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 min | 1 800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 h | 14 400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 h | 3 600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 h | 10 800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28 800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3 600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21 600 | – |
 
 Les classes, par durée de recherche :
 
 | Classe | Durée de recherche | Technologies | L’une après l’autre | Science | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 10 | 5 h | 18 000 | 0 |
-| B | 3 h à 6 h | 20 | 2 j 21 h | 248 400 | 0 |
-| C | 10 h | 17 | 7 j 2 h | 612 000 | 95 |
+| A | 30 min à 1 h | 13 | 7 h 30 min | 27 000 | 0 |
+| B | 3 h à 6 h | 23 | 3 j 10 h | 295 200 | 0 |
+| C | 8 h à 10 h | 18 | 7 j 10 h | 640 800 | 95 |
 | D | 1 j à 2 j | 23 | 28 j | 2 419 200 | 319 |
-| Toutes |  | 70 | 38 j 4 h | 3 297 600 | 414 |
+| Toutes |  | 77 | 39 j 3 h 30 min | 3 382 200 | 414 |
 
-Recherché une technologie après l’autre, l’arbre entier prend 38 j 4 h. Avec le boost actif en permanence, il prend 19 j 2 h, soit 20 boosts et 100 000 Thulium ; la science est la même.
+Recherché une technologie après l’autre, l’arbre entier prend 39 j 3 h 30 min. Avec le boost actif en permanence, il prend 19 j 13 h 45 min, soit 20 boosts et 100 000 Thulium ; la science est la même.
 
 <!-- research-technologies:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Potenciadores -->
 # Potenciadores {#boosters}
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Los potenciadores usan un sistema de escalado aditivo:
 1. **Los porcentajes de bono se suman**: si compras dos potenciadores distintos que dan +10 % de daño láser, recibirás un bono total de **+20 % de daño láser**.
 2. **Las duraciones se acumulan de forma multiplicativa**: comprar varias veces el _mismo_ potenciador prolonga su duración activa. Los temporizadores de potenciadores _distintos_ corren en paralelo.
-3. **Vista de temporizadores**: los potenciadores activos aparecen en el HUD, en la ventana Potenciadores, con el total de los bonos activos agrupados y el próximo vencimiento.
+3. **Vista de temporizadores**: los potenciadores activos aparecen en el HUD, en la ventana Potenciadores, con el total de los bonos activos agrupados y el próximo vencimiento. El total de una categoría cuenta todo lo que la aumenta: los potenciadores, tus mejoras de la tienda de temporada, los refuerzos de tu clan y tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados tienen cada uno una línea en la categoría, así que el total es lo que tu nave recibe de verdad. La tarjeta Potenciadores del Panel muestra los mismos totales.
 4. **Los números los cuentan**: el daño, los escudos, la recarga del escudo, la absorción, la velocidad y el casco del Hangar, y tu página de piloto, incluyen tus potenciadores en marcha, tus mejoras de la tienda de temporada, los refuerzos de tu clan y tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados; una pequeña etiqueta *con potenciadores* en la tarjeta de estadísticas de combate lo indica. La penetración, la probabilidad de crítico y el alcance no cambian con los potenciadores.
 
 ---

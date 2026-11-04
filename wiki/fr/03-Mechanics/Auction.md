@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Enchères -->
 # Enchères {#auction}
 
@@ -16,7 +16,7 @@ Les Enchères sont le marché des pilotes et, en même temps, les lots de chaque
 - Il faut être au **niveau 5** pour utiliser les enchères : pour mettre en vente, acheter et enchérir.
 - Une annonce est mise à prix par lot, en crédits entiers ou en Thulium entier (pas les deux), et jamais sous le prix minimum de l’objet. Il n’y a **pas de prix maximum**.
 - Un prix en Thulium vaut au moins le prix minimum en crédits divisé par 1 000, arrondi à l’entier supérieur, et seulement pour les objets dont le prix minimum atteint 1 Thulium ou plus. C’est tout ce que fait le taux : **1 Thulium = 1 000 crédits est une règle pour le prix minimum, pas un taux de change.** Rien n’est échangé, aucune valeur n’est affichée, et les crédits et le Thulium ne sont jamais additionnés.
-- 84 objets peuvent être mis en vente, et 83 d’entre eux peuvent aussi être mis à prix en Thulium.
+- 89 objets peuvent être mis en vente, et 88 d’entre eux peuvent aussi être mis à prix en Thulium.
 - Une annonce dure 168 / 336 / 504 heures, au choix : les durées sont les mêmes à tous les niveaux.
 - Le **dépôt** est de 0,25 % du prix pour chaque période de 24 heures de l’annonce, au minimum 50 crédits ou 1 Thulium. Vous le payez à la mise en vente ; il n’est jamais remboursé, même si vous annulez l’annonce.
 - À partir du niveau 10, le dépôt est de 0,4 %.
@@ -32,7 +32,7 @@ Les Enchères sont le marché des pilotes et, en même temps, les lots de chaque
 
 ## Objets vendables {#marketable-items}
 
-Seuls les objets que vous avez **gagnés** peuvent être vendus. Tout ce que vous gagnez porte dans le [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) une petite étiquette, **Vendable** : ce que vous ramassez dans l’espace (butin des aliens, des essaims, des Wardens et du trou noir : [Cargaison](/wiki/03-Mechanics/Cargo.md)), ce que paie une mission ([Quêtes](/wiki/03-Mechanics/Quests.md#rewards)) et tout ce que fabriquent l’Assemblage et la Forge. Ce que vous avez **acheté** en Boutique, gagné dans un lot, acheté sur le Marché, acheté à [Davidski](/wiki/03-Mechanics/Davidski.md), reçu avec un code bonus, un pack d’invitation ou le kit de départ, ou récupéré en remboursement n’est pas vendable et ne peut jamais être revendu, pour que rien ne soit acheté juste pour être revendu. Les plaques que fabrique la Fonderie du Skylab ne sont pas vendables non plus ; les Reinforced Plates qu’une mission paie le sont. Les munitions et les roquettes que fabriquent l’Imprimante à munitions et l’Usine à roquettes du Skylab ne sont pas vendables non plus.
+Seuls les objets que vous avez **gagnés** peuvent être vendus. Tout ce que vous gagnez porte dans le [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) une petite étiquette, **Vendable** : ce que vous ramassez dans l’espace (butin des aliens, des essaims, des Wardens et du trou noir : [Cargaison](/wiki/03-Mechanics/Cargo.md)), ce que paie une mission ([Quêtes](/wiki/03-Mechanics/Quests.md#rewards)) et tout ce que fabriquent l’Assemblage et la Forge. Ce que vous avez **acheté** en Boutique, gagné dans un lot, acheté sur le Marché, acheté à [Davidski](/wiki/03-Mechanics/Davidski.md), reçu avec un code bonus, un pack d’invitation ou le kit de départ, ou récupéré en remboursement n’est pas vendable et ne peut jamais être revendu, pour que rien ne soit acheté juste pour être revendu. Les plaques que fabrique la Fonderie du Skylab ne sont pas vendables non plus ; les Reinforced Plates qu’une mission paie le sont. Les munitions et les roquettes que fabriquent l’Imprimante à munitions et l’Usine à roquettes du Skylab ne sont pas vendables non plus. Les objets que paie la Répétition d’une mission ne sont pas vendables non plus.
 
 L’étiquette est un nombre d’unités, pas un interrupteur : une pile de munitions peut contenir des coups achetés et gagnés, et la fiche indique « Vendable (3 sur 5) ». Quand vous utilisez une partie d’une pile (tir, fabrication), les unités ordinaires partent d’abord, si bien que les vendables durent le plus longtemps. Fusionner deux pièces dans la [Forge](/wiki/06-Items/Forge.md#merge) ne garde l’étiquette que si les deux pièces l’avaient, et l’aperçu le dit ; une étape de la Forge qui échoue rend ses matériaux sous forme d’unités ordinaires.
 
@@ -54,7 +54,7 @@ Quand les Enchères sont arrivées (0.4.12), l’équipement que vous déteniez 
 | **Adaptive Cores** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Cellules de bouclier** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Propulseurs** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Munitions laser** | Standard Battery (par lots de 100), Siphon Battery (par lots de 10), Advanced Plasma (par lots de 10), Ultra Core (par lots de 10), Experimental Fusion Core | 5 |
+| **Munitions laser** | Standard Battery (par lots de 100), Siphon Battery (par lots de 10), Advanced Plasma (par lots de 10), Siphon Battery II (par lots de 10), Antimatter Battery I (par lots de 10), Ultra Core (par lots de 10), Dark Matter Ammo I (par lots de 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Roquettes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consommables** | EMP Charge, Energetic Wall II | 2 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

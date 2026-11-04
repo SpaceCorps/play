@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Açık Artırma -->
 # Açık Artırma {#auction}
 
@@ -16,7 +16,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Pazarı kullanmak (ilan vermek, satın almak ve teklif vermek) için **5. seviye** gerekir.
 - Bir ilan lot başına fiyatlanır, tam sayı kredi ya da tam sayı Thulium cinsinden (ikisi birden değil) ve asla türün en düşük fiyatının altında olamaz. **En yüksek fiyat yoktur**.
 - Thulium cinsinden bir fiyat, kredi cinsinden en düşük fiyatın 1.000 değerine bölünüp yukarı yuvarlanmış hâlinden az olamaz; bu yalnızca en düşük fiyatı 1 Thulium ya da daha fazla eden türler için geçerlidir. Oranın yaptığı tek şey budur: **1 Thulium = 1.000 kredi, en düşük fiyat için bir kuraldır, döviz kuru değildir.** Hiçbir şey takas edilmez, hiçbir değer gösterilmez ve kredi ile Thulium asla toplanmaz.
-- 84 tür ilana konabilir ve bunlardan 83 tanesi Thulium cinsinden de fiyatlanabilir.
+- 89 tür ilana konabilir ve bunlardan 88 tanesi Thulium cinsinden de fiyatlanabilir.
 - Bir ilan, seçtiğin gibi 168 / 336 / 504 saat sürer: seçenekler her seviyede aynıdır.
 - **İlan ücreti**, ilanın sürdüğü her 24 saat için fiyatın %0,25 kadarıdır, en az 50 kredi ya da 1 Thulium. Bunu ilan verirken ödersin; asla iade edilmez, iptal etsen bile.
 - Seviye 10 ve üzerinde ilan ücreti %0,4 olur.
@@ -32,7 +32,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 
 ## Satılabilir eşyalar {#marketable-items}
 
-Yalnızca **kazandığın** eşyalar satılabilir. Kazandığın her şey küçük bir etiket taşır, **Satılabilir**; [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) içinde görürsün: uzayda topladıkların (uzaylı, sürü, Warden ve kara delik ganimetleri: [Kargo Kutuları](/wiki/03-Mechanics/Cargo.md)), bir görevin ödediği ([Görevler](/wiki/03-Mechanics/Quests.md#rewards)) ve Montaj ile Demirhane’nin ürettiği her şey. Mağaza’dan **satın aldığın**, bir lotta kazandığın, pazardan satın aldığın, [Davidski](/wiki/03-Mechanics/Davidski.md)’den aldığın, bir bonus kodundan, bir davet paketinden ya da başlangıç kitinden gelen ya da iade olarak geri aldığın şey satılabilir değildir ve bir daha asla satılamaz; böylece hiçbir şey yalnızca yeniden satmak için alınmaz. Skylab Dökümhanesi’nin ürettiği plakalar da satılabilir değildir; bir görevin ödediği Reinforced Plate eşyaları ise satılabilirdir. Skylab’daki Cephane Yazıcısı ile Roket Fabrikası’nın ürettiği cephane ve roketler de satılabilir değildir.
+Yalnızca **kazandığın** eşyalar satılabilir. Kazandığın her şey küçük bir etiket taşır, **Satılabilir**; [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) içinde görürsün: uzayda topladıkların (uzaylı, sürü, Warden ve kara delik ganimetleri: [Kargo Kutuları](/wiki/03-Mechanics/Cargo.md)), bir görevin ödediği ([Görevler](/wiki/03-Mechanics/Quests.md#rewards)) ve Montaj ile Demirhane’nin ürettiği her şey. Mağaza’dan **satın aldığın**, bir lotta kazandığın, pazardan satın aldığın, [Davidski](/wiki/03-Mechanics/Davidski.md)’den aldığın, bir bonus kodundan, bir davet paketinden ya da başlangıç kitinden gelen ya da iade olarak geri aldığın şey satılabilir değildir ve bir daha asla satılamaz; böylece hiçbir şey yalnızca yeniden satmak için alınmaz. Skylab Dökümhanesi’nin ürettiği plakalar da satılabilir değildir; bir görevin ödediği Reinforced Plate eşyaları ise satılabilirdir. Skylab’daki Cephane Yazıcısı ile Roket Fabrikası’nın ürettiği cephane ve roketler de satılabilir değildir. Bir görevin Tekrarının ödediği eşyalar da satılabilir değildir.
 
 Etiket bir anahtar değil, bir birim sayısıdır: bir cephane yığını satın alınmış ve kazanılmış mermiler içerebilir ve kart “Satılabilir (5 adetten 3 tanesi)” der. Bir yığının bir kısmını kullandığında (ateş etmek, üretmek) etiketsiz birimler önce gider, böylece satılabilir olanlar en uzun kalır. İki parçayı [Demirhane](/wiki/06-Items/Forge.md#merge)’de birleştirmek etiketi yalnızca iki parça da taşıyorsa korur ve birleştirme önizlemesi bunu söyler; başarısız olan bir Demirhane adımı malzemelerini etiketsiz birimler olarak geri verir.
 
@@ -54,7 +54,7 @@ Açık Artırma geldiğinde (0.4.12), Mağaza’nın satmadığı ve elinde zate
 | **Uyarlanabilir Çekirdekler** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Kalkan Hücreleri** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **İticiler** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Lazer Cephanesi** | Standard Battery (lot başına 100 adet), Siphon Battery (lot başına 10 adet), Advanced Plasma (lot başına 10 adet), Ultra Core (lot başına 10 adet), Experimental Fusion Core | 5 |
+| **Lazer Cephanesi** | Standard Battery (lot başına 100 adet), Siphon Battery (lot başına 10 adet), Advanced Plasma (lot başına 10 adet), Siphon Battery II (lot başına 10 adet), Antimatter Battery I (lot başına 10 adet), Ultra Core (lot başına 10 adet), Dark Matter Ammo I (lot başına 10 adet), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Roketler** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Sarf Malzemeleri** | EMP Charge, Energetic Wall II | 2 |
 | **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

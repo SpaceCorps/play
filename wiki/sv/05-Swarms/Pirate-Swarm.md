@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a99637f071798ec -->
+<!-- wiki-i18n source: 4abd6e42693b5459 -->
 <!-- wiki-i18n title: Pirate-svärm -->
 # Pirate-svärm {#pirate-swarm}
 
@@ -32,12 +32,12 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 - **Skjut på bossen, inte på Scouts.** Scouts läker bossen, men läkningen är liten jämfört med dess skrov, och en ny Scout kommer så ofta som listan *I korthet* säger: en grupp som skjuter Scouts först kommer aldrig före dem, och bara en mycket stor grupp kan röja dem och behöver ändå längre tid på bossen än en grupp som lät dem vara. Scouts kostar dig tid, de avgör inte striden.
 - **Led bort Scouts.** En Scout läker bara så länge den är inom bossens räckhåll, så en Scout som följer dig utanför det läker ingenting, och en Ostirion är snabbare än en Scout.
 - **Fortsätt röra dig.** Bossens raket är rak och ostyrd: ett skepp som håller sig i rörelse undviker den, ett som står still blir träffat.
-- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 förlorar på `x-3` även medan träffarna fördelas, och på `x-2` också; fyra fäller den på ungefär fyra minuter i Alpha. Med ammunition x4 räcker tre också på `x-3` (ungefär två och en halv minut). Fem fäller den på ungefär tre minuter när träffarna fördelas och på ungefär fem när en pilot tar all eld, och förlorar då fyra skepp: en grupp där en pilot tar all eld behöver fem. I Beta krävs sex piloter och i Gamma åtta, med fördelade träffar (bossen är större där och dess Scouts läker mer). En Ostirion ensam klarar det inte, och en Paragon ensam gör det inte heller: två Paragon gör det. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
+- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 förlorar på `x-3` även medan träffarna fördelas, och på `x-2` också; fyra fäller den på ungefär fyra minuter i Alpha. Med ammunition x4 räcker tre också på `x-3` (ungefär två och en halv minut). Fem fäller den på ungefär tre minuter när träffarna fördelas och på ungefär fem när en pilot tar all eld, och förlorar då fyra skepp: en grupp där en pilot tar all eld behöver fem. I Beta krävs sex piloter och i Gamma åtta, med fördelade träffar (bossen är större där och dess Scouts läker mer). I Alpha, på `x-3` med ammunition x2, klarar en Ostirion ensam det inte, och en Paragon ensam klarar det med knapp nöd (bara några procent av skrovet finns kvar): två Paragon klarar det med god marginal. I Beta och Gamma, på `x-3`, förstörs en Paragon ensam, både med ammunition x2 och med x4. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, i samma sektor.
 
 ## Belöningar och byte {#rewards-and-drops}
 
-Pirate Boss betalar efter den strid den är: en minuts strid mot den betalar mer än en minuts strid mot en Goombah. Betalningen delas efter skada mellan piloterna som stred mot den ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Dess låda är för piloten som gjorde mest skada och kan innehålla en **Reinforced Hull Plate**, raketer och ammunition. Dess låda är värd ungefär två femtedelar av vad själva nedskjutningen betalar. Scouts betalar lite och tappar ingenting.
+Pirate Boss betalar efter den strid den är: en minuts strid mot den betalar mer än en minuts strid mot en Goombah. Betalningen delas efter skada mellan piloterna som stred mot den ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Dess låda är för piloten som gjorde mest skada och kan innehålla en **Reinforced Hull Plate**, raketer och ammunition. Dess låda är värd lite mindre än hälften av vad själva nedskjutningen betalar. Scouts betalar lite och tappar ingenting.
 
 ## Värdena {#the-numbers}
 
@@ -71,7 +71,7 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50 % | 1 |
 | En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 5–10 |
-| En av Advanced Plasma och Siphon Battery, slumpmässigt vald | 100 % | 1 000–2 000 |
+| En av Advanced Plasma, Siphon Battery och Siphon Battery II, slumpmässigt vald | 100 % | 1 000–2 000 |
 
 ### Pirate Scout
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Napi jutalmak -->
 # Napi jutalmak {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; napi jutalom; napi jutalmak; napi belépés; naptár; adventi naptár; láda; szezonjutalom; szezonemlék; tervrajz; sorozat -->
 
-Minden szezonnak van egy **napi jutalmak naptára**: egy kis ajándék a szezon minden napjára. Az állomáson nyomd meg az **Átvétel** gombot, és a nap ajándéka a tiéd. Minél több napot veszel át, annál többet kapsz: négy **láda** érkezik 7, 14, 21 és 28 átvett napnál, a szezon utolsó három napján pedig elvihetsz egy **szezonjutalmat**. Egy kihagyott nap csak az aznapi ajándékba kerül, másba nem. A naptárat az **Irányítópulton** találod (a **Napi jutalmak** kártya), illetve a **Szezon és profil › Naptár** alatt.
+Minden szezonnak van egy **napi jutalmak naptára**: egy ajándék a szezon minden napjára, mindig lőszer vagy rakéta. Az állomáson nyomd meg az **Átvétel** gombot, és a nap ajándéka a tiéd. Minél több napot veszel át, annál többet kapsz: négy **láda** érkezik 7, 14, 21 és 28 átvett napnál, a szezon utolsó három napján pedig elvihetsz egy **szezonjutalmat**. Egy kihagyott nap csak az aznapi ajándékba kerül, másba nem. A naptárat az **Irányítópulton** találod (a **Napi jutalmak** kártya), illetve a **Szezon és profil › Naptár** alatt.
 
 ## Egy percben {#in-one-minute}
 
@@ -15,7 +15,7 @@ Minden szezonnak van egy **napi jutalmak naptára**: egy kis ajándék a szezon 
 - **4 láda**, 7, 14, 21 és 28 átvett napnál.
 - **Egy szezonjutalom** a szezon utolsó három napján: egy emlék-kinézet 10 átvett napnál és egy hajódizájn tervrajza 20-nál.
 - **Minden wipe új naptárat hoz.** A szezon minden ajándékát látod az 1. naptól.
-- **Szándékosan kicsi.** A 29 nap együtt nagyjából pár óra vadászat értékét adja, egy szezonra elosztva.
+- **Lőszer és rakéták.** Minden napi ajándék a két legerősebb lézerlőszer egyike vagy egy epikus rakéta ([Az ajándékok](#the-gifts)). A ládák és a szezonjutalom külön állnak.
 
 ## A nap {#the-day}
 
@@ -33,7 +33,7 @@ A kártya és a fül is megmondja, mikor nyílik a következő jutalom **a sajá
 
 - **Az 1. nap rövid.** A szezon a wipe-pal kezdődik, egy UTC-nap közepén, így az 1. mező attól fogva az adott nap végéig nyitva van, plusz a türelmi idő.
 - **A 29. nap hosszú.** Az utolsó mező addig marad nyitva, amíg a wipe visszaszámlálása el nem indul, és ez több mint 24 órával a megnyílása után is lehet. A visszaszámlálás indulásától az új szezon kezdetéig semmit sem lehet átvenni.
-- **Az adminisztrátorok áthelyezhetik a szezon napját.** A naptár követi: a kihagyott napok mindenkinek elmulasztottnak számítanak, az általad már átvett mező pedig átvett marad.
+- **Az adminisztrátorok áthelyezhetik a szezon napját.** A naptár követi. Ha előre teszik, a kihagyott napok mindenkinek elmulasztottnak számítanak, az általad már átvett mező pedig átvett marad. Ha visszahelyezik, a napokat újra lejátsszák: az új naptól kezdődő napok azon mezőit, amelyeket már átvettél, újra átveheted, mindegyiket akkor, amikor az óra eléri a napját, és mindegyik még egyszer kifizeti az ajándékát. Amit már megkaptál, azt nem veszik vissza, az új nap előtti mezők, a ládáid és a szezonjutalmad pedig úgy maradnak, ahogy vannak (egy már megkapott láda nem érkezik meg második alkalommal).
 
 ## A mezők {#the-tiles}
 
@@ -85,22 +85,19 @@ A szezonjutalomnak két lépcsője van. Ezeket a szezon **utolsó három napján
 
 ## Az ajándékok {#the-gifts}
 
-Egy nap ajándéka kicsi. Ezek egyike:
+Egy nap ajándéka **lőszer vagy rakéta**, semmi más. Hat tárgy valamelyike:
 
-- **Lőszer és rakéták**, szerény halmokban.
-- **Anyagok, lemezek és fogyóeszközök**, köztük Forge kitek (a Kovácsműhely egy lépésének anyagai).
-- **Boosterek** pár órára. Egy booster-ajándék a saját óráit adja hozzá a [boostereidhez](/wiki/06-Items/Boosters.md#active-boosters).
-- **Kreditek és Thulium**, kis mennyiségben.
-- **Néhány különleges tárgy** (Workforce Contract, Forger's Seal): egy szezonban sosem több mint 4 mezőn.
+- **Ultra Core** (x3,0) és **Experimental Fusion Core** (x4,0), a két legerősebb [lézerlőszer](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** és **Scatter III**, az epikus [rakéták](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
-Ez az oldal egyetlen szezon egyetlen ajándékát sem nevezi meg, mert a naptár minden wipe-nál más. A Naptár fül ennek a szezonnak az ajándékait mutatja. Az ajándék ajándék: a naptárból származó tárgyakon nincs **Eladható** címke ([Eladható tárgyak](/wiki/03-Mechanics/Inventory.md#marketable-items)), és nem tehetők fel az [Aukcióra](/wiki/03-Mechanics/Auction.md).
+A köteg mérete napról napra változik, és a naptár minden wipe-nál más. A Naptár fül ennek a szezonnak az ajándékait mutatja. A ládák és a szezonjutalom nem napi ajándékok, és úgy maradnak, ahogy vannak. Az ajándék ajándék: a naptárból származó tárgyakon nincs **Eladható** címke ([Eladható tárgyak](/wiki/03-Mechanics/Inventory.md#marketable-items)), és nem tehetők fel az [Aukcióra](/wiki/03-Mechanics/Auction.md).
 
 ## A wipe {#the-wipe}
 
 Egy új szezon új naptár. A [wipe](/wiki/03-Mechanics/Wipe-Timeline.md)-nál a régi bezár, az új pedig megnyílik a maga 29 ajándékával, és a számlálód újra 0-ról indul. A wipe semmit sem visz el abból, amit átvettél, kivéve azt, amit minden tárgytól elvisz:
 
-- **Törlődik:** az ajándékok, amelyek tárgyak (lőszer, rakéták, anyagok, lemezek, fogyóeszközök), törlődnek a wipe-nál, ha nincsenek a [Tranzittárolódban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). A Naptár egy megjegyzéssel jelöli az ilyen ajándékot.
-- **Megmarad:** boosterek, kreditek, Thulium, különleges tárgyak, kinézetek, technológiák (egy tervrajz) és konténerek.
+- **Megmarad:** a naptár lőszerét és rakétáit a wipe magától átviszi, fajtánként egy határig ([Lőszer és rakéták](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Szintén megmarad: boosterek, kreditek, Thulium, kinézetek, technológiák (egy tervrajz) és konténerek.
+- **Törlődik:** minden más tárgy, ami nálad van, például a Dark Matter Plate-ek, amelyek egy már ismert tervrajz helyett járnak, törlődik a wipe-nál, ha nincs a [Tranzittárolódban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Az utolsó négy nap (26–29) csak megmaradó ajándékot ad**, így az utolsó hét ajándékát a wipe sosem viszi el.
 
 ## Későn érkezők és késői naptárak {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Egy új szezon új naptár. A [wipe](/wiki/03-Mechanics/Wipe-Timeline.md)-nál a
 - **Változtat valamit a Prémium?** Nem. A Prémium nem ad extra mezőket és jobb ajándékokat, és a naptár nem ad Prémium napokat.
 - **Kell hozzá klán?** Nem. A naptár ugyanazt a napot használja, mint a klánok napi vonala, de csak a tiéd.
 - **Van szintkorlát?** Nem. Minden pilóta átvehet, az 1. szinttől.
-- **Mi történik a wipe-nál?** Új naptárat kapsz, és újra 0 naptól kezded. Az ajándékok, amelyek tárgyak, törlődnek, ha nincsenek a Tranzittárolóban; a többi megmarad ([A wipe](#the-wipe)).
+- **Mi történik a wipe-nál?** Új naptárat kapsz, és újra 0 naptól kezded. A naptár lőszerét és rakétáit a wipe a határokig átviszi; bármely más tárgy törlődik, ha nincs a Tranzittárolóban, a többi pedig megmarad ([A wipe](#the-wipe)).
 
 ## Jó tudni {#good-to-know}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Звания -->
 # Звания {#ranks}
 
@@ -125,6 +125,13 @@
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Первые пять строк — обычные пришельцы, следующие шесть — корабли трёх роёв, следующие три — пришельцы [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (с 11-го дня сезона). В конце идут Стражи кланов, предводители боя со Стражем, и их экипажи — Brood Drone, Siege Escort и Wrath Guard: I, II и III — это сила Стража, и очки перечислены в этом порядке.
+Первые пять строк — обычные пришельцы, следующие двенадцать — корабли шести роёв, следующие три — пришельцы [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (с 11-го дня сезона). В конце идут Стражи кланов, предводители боя со Стражем, и их экипажи — Brood Drone, Siege Escort и Wrath Guard: I, II и III — это сила Стража, и очки перечислены в этом порядке.
 
 Например, у пилота 4-го уровня с 12 500 опыта, уничтожившего 300 Seeker, 80 Phantasm и 10 Bulwark, 400 + 12 + 300 + 160 + 40 = **912** очков. Это «Сержант»: минимум — 800, а следующее звание, «Старший сержант», требует 1 000. До звания «Старший полковник» важны только очки.
 

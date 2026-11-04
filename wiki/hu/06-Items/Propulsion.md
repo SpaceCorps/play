@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Hajtás -->
 # Hajtás és sebesség {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Hajtóművek {#engines}
 
-A hajtóművek a hajód fő tolóerő-forrásai. A **képességfoglalatba** tett hajtómű ehelyett a Különleges hatás oszlopban szereplő **Afterburner** képességet adja, tíz másodpercnyi sebességlöketet (több hajtóművel hosszabbat), és saját tolóerőt nem ad hozzá (lásd: [Képességek](/wiki/03-Mechanics/Abilities.md)).
+A hajtóművek a hajód fő tolóerő-forrásai. A **képességfoglalatba** tett hajtómű ehelyett a Különleges hatás oszlopban szereplő **Afterburner** képességet adja, tizenöt másodpercnyi sebességlöketet (több hajtóművel hosszabbat), és saját tolóerőt nem ad hozzá (lásd: [Képességek](/wiki/03-Mechanics/Abilities.md)).
 
 | Név | Ritkaság | Alapsebesség | Sebességbónusz % | Pajzsbónusz % | Foglalatok | Különleges hatás | Ár |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Silány | +2 | +2% | -2% | 1 | Afterburner I | 20 000 kredit |
-| **Engine II** | Gyakori | +4 | +4% | -8% | 2 | Afterburner II | Csak gyártható |
-| **Engine III** | Ritka | +6 | +5% | -15% | 3 | Afterburner III | Csak gyártható |
+| **Engine II** | Gyakori | +4 | +3% | -8% | 2 | Afterburner II | Csak gyártható |
+| **Engine III** | Ritka | +6 | +4% | -15% | 3 | Afterburner III | Csak gyártható |
 
 Az **Engine II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Engine I-ből, 2 000 Thuliummal, 60 Ship Fragmenttel, 1 Power Core-ral és 4 Velkonite Reinforced Plate-tel. Az **Engine III** ott készül egy Engine II-ből, 4 000 Thuliummal, 110 Ship Fragmenttel, 5 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Mindkettő megtartja az elhasznált hajtómű bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a hajóról az elhasználandó hajtóművet (és a fúvókáit is vedd ki belőle): az a hajtómű, amely fel van szerelve, vagy fúvókákat hordoz, nem használódik el.
 
@@ -90,4 +90,4 @@ Az egyes családok I. szintjét 20 000 kreditért árulják. A II–IV. szintet
 
 ### Az idegenek lehagyása {#outrunning-aliens}
 
-Az idegenek sebessége 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) és 230 (Crystalys). Egy Engine II-vel és két fúvókával felszerelt Ostirion 221,4-gyel repül Impulse Thruster I-gyel: ez még a Crystalys alatt van, ezért egy a Gyártásban készült fúvóka kell hozzá, hogy lehagyd (230,8 Impulse Thruster II-vel, 240,3 III-mal, 243,3 IV-gyel). A Momentum fúvókák ezen a hajón ugyanolyan gyorsan vagy kicsit alacsonyabban repülnek (221,4 egy Momentum Thruster I-gyel, aztán 230,5, 238,4 és 240,7 a II.–IV.-gyel): mindkét család I. szintje a Crystalys alatt marad, a Gyártásban készült szintek mind fölé kerülnek, a II. szint csak 0,8-cal, illetve 0,5-tel.
+Az idegenek sebessége 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) és 230 (Crystalys). Egy Engine II-vel és két fúvókával felszerelt Ostirion 219,3-mal repül Impulse Thruster I-gyel és 228,6-tal II-vel: mindkettő még a Crystalys alatt van, ezért egy III. szintű fúvóka kell hozzá, hogy lehagyd (238,0 Impulse Thruster III-mal, 241,0 IV-gyel). A Momentum fúvókák ezen a hajón ugyanolyan gyorsan vagy kicsit alacsonyabban repülnek (219,3 egy Momentum Thruster I-gyel, aztán 228,3, 236,1 és 238,4 a II.–IV.-gyel): mindkét család I. és II. szintje a Crystalys alatt marad, a III. és IV. szint fölé kerül.

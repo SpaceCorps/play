@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Containrar -->
 # Containrar {#containers}
 
@@ -333,12 +333,12 @@ Kromaarkivet drar först klassen och sedan ett utseende i den klassen som du int
 | :--- | :--- | ---: |
 | Vanlig | 240 × Velkonite (till Skylab) | 7,000 % |
 | Vanlig | 160 × Orvium (till Skylab) | 7,000 % |
-| Vanlig | 1 300 × Reinforced Hull Plate | 5,000 % |
-| Vanlig | 9 000 × Ship Fragment | 6,000 % |
+| Vanlig | 100 × Reinforced Hull Plate | 5,000 % |
+| Vanlig | 1 000 × Ship Fragment | 6,000 % |
 | Vanlig | **Smideskristaller**: 4 000 × Cataclysite + 3 000 × Quorvium | 5,000 % |
-| Vanlig | 450 × Power Core | 5,000 % |
+| Vanlig | 20 × Power Core | 5,000 % |
 | Vanlig | 450 Thulium | 5,000 % |
-| Vanlig | 4 × Regular Cluster Chunk | 5,000 % |
+| Vanlig | 2 × Regular Cluster Chunk | 5,000 % |
 | Ovanlig | 780 × Velkonite (till Skylab) | 5,000 % |
 | Ovanlig | 510 × Orvium (till Skylab) | 5,000 % |
 | Ovanlig | 19 × Velkonite Reinforced Plate | 4,000 % |
@@ -571,16 +571,17 @@ Spelets Containrar-sida visar dina egna chanser bredvid de publicerade när de s
 
 ## Tabellens version {#version-of-the-table}
 
-Varje chans på den här sidan är tabellen på spelets server. När en chans ändras får tabellen en ny version och en ny hash, och varje öppning registrerar hashen för den tabell den drogs ur.
+Varje chans på den här sidan är tabellen på spelets server. När en chans eller en mängd ändras får tabellen en ny version och en ny hash, och varje öppning registrerar hashen för den tabell den drogs ur.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Tabellens version**: 1
-- **Tabellens hash (de första 12 tecknen)**: `23aa20f1a5ad`
+- **Tabellens version**: 2
+- **Tabellens hash (de första 12 tecknen)**: `9f345692845a`
 
 Vad som ändrats:
 
+- Version 2: Provtagningsburk: de fyra vanliga högarna är mindre. Reinforced Hull Plate från 1 300 till 100, Ship Fragment från 9 000 till 1 000, Power Core från 450 till 20, Regular Cluster Chunk från 4 till 2. Ingen belönings- eller klasschans har ändrats.
 - Version 1: Den första publicerade tabellen.
 
 <!-- containers-version:end -->

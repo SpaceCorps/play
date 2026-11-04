@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Escudos -->
 # Escudos e defesa {#shields-defense}
 
@@ -41,12 +41,12 @@ Equipe núcleos de escudo para gerar barreiras defensivas ativas, nos slots de g
 | Nome | Raridade | Capacidade | Taxa de recarga | Absorção | Escudo % | Veloc. % | Slots de célula | Efeito especial | Custo |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Inferior | 10.000 | 333/s | 45% | +5% | -1% | 1 | Shield Surge I | 20.000 créditos |
-| **Basic Shield Core** | Comum | 15.000 | 500/s | 48% | +10% | -3% | 2 | Shield Surge II | 2.000 Thulium |
-| **Heavy Shield Core** | Raro | 25.000 | 833/s | 50% | +20% | -5% | 3 | Shield Surge III | Só por criação |
+| **Basic Shield Core** | Comum | 15.000 | 500/s | 50% | +10% | -3% | 2 | Shield Surge II | 2.000 Thulium |
+| **Heavy Shield Core** | Raro | 25.000 | 833/s | 55% | +20% | -5% | 3 | Shield Surge III | Só por criação |
 
 O **Heavy Shield Core** é feito na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Basic Shield Core, com 4.000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit e 4 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Ele mantém o grau de encantamento e os bônus do núcleo que consome ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retire primeiro o Basic Shield Core da sua nave (e as células de dentro dele): um núcleo que está encaixado ou que guarda células não é consumido.
 
-A **absorção** é a parte de cada impacto que seus escudos recebem; o casco recebe o resto. Um escudo sozinho tem de **45 a 50%**, e as células dele somam o resto: o melhor escudo com as melhores células (um Heavy Shield Core com três Absorption Shield Cell IV) chega a **80%**, o máximo que uma nave tem de série. Três bônus permanentes se somam a isso: o Shield Absorbance Boost da Loja de PR (+0,1 ponto por nível, 100 níveis, 25 pontos de reset cada), os bônus de absorção da Forja e a pesquisa de Piloto Field Theory (+2, +3 ou +5 pontos). As fontes de pontos de reset (até 1.090 por reset, que recomeçam a cada reset) compram 43 desses 100 níveis (+4,3 pontos) no primeiro reset, o que, com um conjunto Eterno totalmente forjado, dá cerca de **95%**, e cerca de **99%** com o Field Theory III. Mesmo assim, o atributo não tem teto em 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que uma nave tem acima de 100% é a margem dela contra a penetração. Veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+A **absorção** é a parte de cada impacto que seus escudos recebem; o casco recebe o resto. Um escudo sozinho tem de **45 a 55%**, e as células dele somam o resto: o melhor escudo com as melhores células (um Heavy Shield Core com três Absorption Shield Cell IV) chega a **85%**, o máximo que uma nave tem de série. Três bônus permanentes se somam a isso: o Shield Absorbance Boost da Loja de PR (+0,1 ponto por nível, 100 níveis, 25 pontos de reset cada), os bônus de absorção da Forja e a pesquisa de Piloto Field Theory (+4, +7 ou +10 pontos). As fontes de pontos de reset (até 1.105 por reset, que recomeçam a cada reset) compram 44 desses 100 níveis (+4,4 pontos) no primeiro reset, o que, com um conjunto Eterno totalmente forjado, dá cerca de **100%**, e cerca de **110%** com o Field Theory III. Mesmo assim, o atributo não tem teto em 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que uma nave tem acima de 100% é a margem dela contra a penetração. Veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Os núcleos adaptativos funcionam como geradores híbridos, combinando capacidad
 
 | Nome | Raridade | Bônus de escudo % | Bônus de velocidade % | Slots | Efeito especial | Custo |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Inferior | +4% | +2,4% | 1 | — | 100.000 créditos |
-| **Adaptive Core II** | Comum | +6,4% | +3,2% | 2 | — | Só por criação |
-| **Adaptive Core III** | Raro | +8% | +4% | 3 | — | Só por criação |
+| **Adaptive Core I** | Inferior | +4% | +1,2% | 1 | — | 100.000 créditos |
+| **Adaptive Core II** | Comum | +6,4% | +1,6% | 2 | — | Só por criação |
+| **Adaptive Core III** | Raro | +8% | +2% | 3 | — | Só por criação |
 
 O **Adaptive Core II** é feito na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Adaptive Core I, com 2.000 Thulium, 60 Ship Fragments, 1 Power Core e 4 Velkonite Reinforced Plates. O **Adaptive Core III** é feito lá a partir de um Adaptive Core II, com 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit e 4 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada um mantém o grau de encantamento e os bônus do núcleo que consome ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retire primeiro da sua nave o núcleo que será consumido (e os propulsores e as células de dentro dele): um núcleo que está encaixado ou que guarda módulos não é consumido.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -15,7 +15,7 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på
 
 Cloaking CPU säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis. **EMP Charge** är inte längre extrautrustning: sedan 0.4.21 är den en förbrukningsvara som bärs i en hög, som en raket, och inte sätts i någon plats, så den tar ingen av dina extraplatser (se [Raketer](/wiki/06-Items/Rockets.md#emp-charge)). De två **Energetic Wall** är inte heller extrautrustning längre: sedan 0.4.22 är de förbrukningsvaror också, bärs i en hög och sätts inte i någon plats (se [Energetic Wall](#energetic-wall)).
 
-En ny pilots **startpaket** monterar redan två extrautrustningar på Protos två extraplatser: en **Base CPU I** (10 användningar, en teleport till din koncerns bas) och en **Repair Drone I**. Dra dem från väljaren Extra i snabbfältet till en plats för att använda dem. Bara nya piloter får paketet: den som tog värvning före 0.4.10 har det inte.
+En ny pilots **startpaket** monterar redan två extrautrustningar på Protos två extraplatser: en **Base CPU I** (10 användningar, en teleport till din koncerns bas) och en **Repair Drone I**. **REP**-knappen för Repair Drone I ligger redan i ditt snabbfält, på plats 2 (tangent `2`), bredvid din ammunition på plats 1; Base CPU I drar du själv från väljaren Extra till en plats. Bara nya piloter får paketet: den som tog värvning före 0.4.10 har det inte, och den som registrerade sig före 0.4.27 behåller det snabbfält som finns.
 
 Åtta CPU:er till säljs inte: Monteringen tillverkar dem när Skylabs forskningscentrum har forskat fram dem (se [Forskning](/wiki/03-Mechanics/Research.md)). De är Extra Slots CPU I, II och III, Jump CPU, Base CPU I och II, Auto-Repair CPU samt Auto-Rocket CPU, och [det sista avsnittet](#research-cpus) säger vad var och en gör. Liksom Cloaking CPU är Jump CPU och Base CPU till för ett lugnt ögonblick: ingen av de tre startar inom 10 sekunder efter ett skott du skjuter eller en träff du får. De två warp-CPU:erna, Jump CPU och Base CPU, nekas också medan du bär på ett uppdragsföremål (”Du kan inte använda en warp-CPU medan du bär på ett uppdragsföremål.”): se [Uppdragsföremål](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Slå på en Repair Drone (REP) så reparerar den skrovet tills det är fullt. Den startar först efter 10 sekunder utan träff, och varje träff stänger av den. Är flera monterade arbetar den bästa. En [Auto-Repair CPU](#auto-repair-cpu) slår på den igen åt dig. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md). Medan den lagar flyger små reparationsdrönare ut ur skeppet, cirklar runt det och riktar strålar mot skrovet, en för en Repair Drone I, två för en II, tre för en III eller IV, och piloter i närheten ser dem; de dockar igen när reparationen upphör.
+Slå på en Repair Drone (REP) så reparerar den skrovet tills det är fullt. Den startar först efter 10 sekunder utan träff, och varje träff stänger av den. Är flera monterade arbetar den bästa. En [Auto-Repair CPU](#auto-repair-cpu) slår på den igen åt dig. Takterna finns i [Strid](/wiki/03-Mechanics/Combat.md). Medan den lagar flyger små reparationsdrönare ut ur skeppet, cirklar runt det och riktar strålar mot skrovet, en för en Repair Drone I, två för en II, tre för en III eller IV, och piloter i närheten ser dem; de dockar igen när reparationen upphör. Trycker du på REP för att slå på den hörs dessutom en mjuk reparationspuls, något lägre och svagare än den hos en Emergency Repair, och medan den lagar svävar en liten grön siffra ungefär en gång i sekunden över ditt eget skepp med det skrov den just läkt (+N), även när en Auto-Repair CPU slog på den.
 
 ## Cloaking CPU
 

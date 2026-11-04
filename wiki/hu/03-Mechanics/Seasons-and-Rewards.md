@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Szezonok és jutalmak -->
 # Szezonok és jutalmak {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Minden wipe lezárja a szezonodat. A szerver feljegyzi az elért rangodat, a vá
 
 A rang, amelyet a wipe pillanatában viselsz, ezt fizeti:
 
-* **Wipe-pont**: rangtól függően 5-től 400-ig, a wipe-pontok forrásai által fizetetteken felül (wipe-onként legfeljebb 1 090 wipe-pont: [Wipe-pontok szerzése](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Wipe-pont**: rangtól függően 5-től 400-ig, a wipe-pontok forrásai által fizetetteken felül (wipe-onként legfeljebb 1 105 wipe-pont: [Wipe-pontok szerzése](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Prémium napok**: 1-től 7-ig, a Junior százados rangtól felfelé. Ráadódnak a már meglévő prémiumodra.
 * **Kredit és Thulium**: a ranggal növekvő indulótőke, a Pilóta 105 000 kreditjétől és 225 Thuliumától a Senior admirális 6 300 000 kreditjéig és 13 500 Thuliumáig. Kicsi a [felső határok](#the-caps-and-your-rewards) mellett: az új szezon jó kezdéséhez való, nem előny.
 

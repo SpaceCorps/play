@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -15,7 +15,7 @@ Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (zwei auf Protos, K
 
 Die Cloaking CPUs gibt es nur im Shop. Sie lassen sich nicht zusammenführen, und nichts verschenkt sie. Die **EMP Charge** ist kein Extra mehr: Seit 0.4.21 ist sie ein Verbrauchsgut, das wie eine Rakete als Stapel getragen wird und in keinem Slot sitzt, sie belegt also keinen deiner Extra-Slots (siehe [Raketen](/wiki/06-Items/Rockets.md#emp-charge)). Die beiden **Energetic Walls** sind ebenfalls keine Extras mehr: Seit 0.4.22 sind auch sie Verbrauchsgüter, werden als Stapel getragen und sitzen in keinem Slot (siehe [Energetic Wall](#energetic-wall)).
 
-Das **Startpaket** eines neuen Piloten legt schon zwei Extras in die beiden Extra-Slots der Protos: eine **Base CPU I** (10 Nutzungen, ein Teleport zur Basis deines Konzerns) und eine **Repair Drone I**. Ziehe sie aus der Extras-Auswahl der Aktionsleiste auf einen Slot, um sie zu benutzen. Nur neue Piloten bekommen das Paket: Wer sich vor 0.4.10 angemeldet hat, hat es nicht.
+Das **Startpaket** eines neuen Piloten legt schon zwei Extras in die beiden Extra-Slots der Protos: eine **Base CPU I** (10 Nutzungen, ein Teleport zur Basis deines Konzerns) und eine **Repair Drone I**. Der **REP**-Button für die Repair Drone I liegt schon auf deiner Aktionsleiste, in Slot 2 (Taste `2`), neben deiner Munition in Slot 1; die Base CPU I ziehst du selbst aus der Extras-Auswahl auf einen Slot. Nur neue Piloten bekommen das Paket: Wer sich vor 0.4.10 angemeldet hat, hat es nicht, und wer sich vor 0.4.27 angemeldet hat, behält seine Aktionsleiste, wie sie ist.
 
 Acht weitere CPUs werden nicht verkauft: Die Montage stellt sie her, sobald das Forschungszentrum des Skylab sie erforscht hat (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Es sind die Extra Slots CPU I, II und III, die Jump CPU, die Base CPU I und II, die Auto-Repair CPU und die Auto-Rocket CPU, und [der letzte Abschnitt](#research-cpus) sagt, was jede tut. Wie die Cloaking CPU sind die Jump CPU und die Base CPUs etwas für einen ruhigen Moment: Keine der drei startet innerhalb von 10 Sekunden nach einem Schuss, den du abgibst, oder einem Treffer, den du einsteckst. Die beiden Warp-CPUs, die Jump CPU und die Base CPUs, werden außerdem verweigert, solange du einen Missionsgegenstand trägst („Mit einem Missionsgegenstand an Bord kannst du keine Warp-CPU benutzen.“): siehe [Missionsgegenstände](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Schalte eine Repair Drone ein (REP), und sie repariert die Hülle, bis sie voll ist. Sie startet erst nach 10 Sekunden ohne Treffer, und jeder Treffer schaltet sie wieder aus. Sind mehrere ausgerüstet, arbeitet die beste. Eine [Auto-Repair CPU](#auto-repair-cpu) schaltet sie dir wieder ein. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md). Während sie repariert, fliegen kleine Reparaturdrohnen aus dem Schiff, kreisen um es und bestrahlen die Hülle, eine für eine Repair Drone I, zwei für eine II, drei für eine III oder IV, und die Piloten in deiner Nähe sehen sie; wenn die Reparatur endet, docken sie wieder an.
+Schalte eine Repair Drone ein (REP), und sie repariert die Hülle, bis sie voll ist. Sie startet erst nach 10 Sekunden ohne Treffer, und jeder Treffer schaltet sie wieder aus. Sind mehrere ausgerüstet, arbeitet die beste. Eine [Auto-Repair CPU](#auto-repair-cpu) schaltet sie dir wieder ein. Die Raten stehen unter [Kampf](/wiki/03-Mechanics/Combat.md). Während sie repariert, fliegen kleine Reparaturdrohnen aus dem Schiff, kreisen um es und bestrahlen die Hülle, eine für eine Repair Drone I, zwei für eine II, drei für eine III oder IV, und die Piloten in deiner Nähe sehen sie; wenn die Reparatur endet, docken sie wieder an. Drückst du REP, um die Repair Drone einzuschalten, erklingt außerdem ein sanfter Reparaturimpuls, etwas tiefer und leiser als der der Emergency Repair, und solange sie repariert, schwebt etwa einmal pro Sekunde eine kleine grüne Zahl mit der gerade geheilten Hülle (+N) über deinem eigenen Schiff, auch wenn eine Auto-Repair CPU sie eingeschaltet hat.
 
 ## Cloaking CPU
 

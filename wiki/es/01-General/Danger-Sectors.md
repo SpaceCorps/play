@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Sectores de peligro -->
 # Sectores de peligro {#danger-sectors}
 
@@ -52,7 +52,7 @@ Cada mundo tiene su propia copia de todo, y un púlsar y su excavadora están en
 
 - **Radiación.** Una excavadora que se ha sobrecalentado o ha sido destruida, y su púlsar, queman toda nave que se quede dentro de sus círculos ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). El juego te avisa antes, y los círculos se dibujan en el suelo durante el vuelo y en el minimapa.
 - **Los cañones del pantano.** Las torretas del pantano disparan a una nave que puedan ver mucho antes de que ella vea nada que valga el viaje ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Un rumbo que marcas con un clic se desvía alrededor de los cañones y de la radiación, como alrededor del agujero negro, y un aviso te advierte si el lugar donde haces clic queda dentro.
-- **Si te destruyen allí,** la opción de volver **en el sitio** te coloca en el punto más cercano fuera de la radiación y fuera de la zona del pantano, como con el agujero negro ([Primeros pasos](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Si te destruyen allí,** no puedes volver **en el sitio**: en un sector de peligro la pantalla de muerte ofrece solo tu **base** y el **portal más cercano**, y «En el sitio» aparece atenuada. Pedirla se rechaza y no cuesta nada ([Primeros pasos](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Un grupo y una salida.** Las excavadoras atraen a los Voids y a los rivales por igual. Ve con un [grupo](/wiki/03-Mechanics/Groups.md), sabe cuál es la puerta más cercana y recuerda que en los sectores de peligro no puedes saltar mientras te atacan ([Saltar bajo fuego](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **El resto es PvP como siempre.** Nada de esto es un lugar seguro: valen las reglas normales de tu mundo, rivales incluidos.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Sezonlar ve ödüller -->
 # Sezonlar ve ödüller {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Her sıfırlama sezonunu kapatır. Sunucu ulaştığın rütbeyi, şirketinin li
 
 Sıfırlama anında taşıdığın rütbe sana şunları öder:
 
-* **Sıfırlama puanı**: rütbeye göre 5 ile 400 arası; sıfırlama puanı kaynaklarının ödediklerine ek olarak (sıfırlama başına en fazla 1.090 sıfırlama puanı: [Sıfırlama puanı kazanmak](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Sıfırlama puanı**: rütbeye göre 5 ile 400 arası; sıfırlama puanı kaynaklarının ödediklerine ek olarak (sıfırlama başına en fazla 1.105 sıfırlama puanı: [Sıfırlama puanı kazanmak](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Premium günleri**: Genç Yüzbaşı’dan itibaren 1 ile 7 arası. Zaten sahip olduğun bir Premium’a eklenir.
 * **Kredi ve Thulium**: rütbeyle büyüyen bir yeniden başlama fonu; bir Pilot için 105.000 kredi ve 225 Thulium’dan bir Kıdemli Amiral için 6.300.000 kredi ve 13.500 Thulium’a kadar. [Üst sınırların](#the-caps-and-your-rewards) yanında küçüktür: yeni sezona iyi başlamanın bir yolu, bir avantaj değil.
 

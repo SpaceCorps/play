@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -16,7 +16,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 84 föremål kan läggas ut, och 83 av dem kan även prissättas i Thulium.
+- 89 föremål kan läggas ut, och 88 av dem kan även prissättas i Thulium.
 - En annons löper 168 / 336 / 504 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 0,25 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 0,4 %.
@@ -32,7 +32,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 
 ## Säljbara föremål {#marketable-items}
 
-Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, köpt av [Davidski](/wiki/03-Mechanics/Davidski.md), fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det. Ammunitionen och raketerna som Ammunitionsskrivaren och Raketfabriken i Skylab tillverkar är inte heller säljbara.
+Bara föremål du har **förtjänat** kan säljas. Allt du förtjänar får i [Hangaren](/wiki/03-Mechanics/Inventory.md#marketable-items) en liten etikett, **Säljbart**: det du plockar upp i rymden (byte från utomjordingar, svärmar, Wardens och det svarta hålet: [Last](/wiki/03-Mechanics/Cargo.md)), det ett uppdrag betalar ut ([Uppdrag](/wiki/03-Mechanics/Quests.md#rewards)) och allt som Monteringen och Smedjan tillverkar. Det du har **köpt** i Butiken, vunnit i en lott, köpt på Marknaden, köpt av [Davidski](/wiki/03-Mechanics/Davidski.md), fått med en bonuskod, ett inbjudningspaket eller startpaketet, eller fått tillbaka som återbetalning är inte säljbart och kan aldrig säljas igen, så att inget köps bara för att säljas vidare. Plattorna som Smedjan i Skylab tillverkar är inte heller säljbara; de Reinforced Plates som ett uppdrag betalar ut är det. Ammunitionen och raketerna som Ammunitionsskrivaren och Raketfabriken i Skylab tillverkar är inte heller säljbara. Föremålen som en Upprepning av ett uppdrag betalar ut är inte heller säljbara.
 
 Etiketten är ett antal enheter, inte en strömbrytare: en ammunitionshög kan innehålla både köpta och förtjänade skott, och kortet säger ”Säljbart (3 av 5)”. När du använder en del av en hög (skjuter, tillverkar) går de vanliga enheterna först, så att de säljbara räcker längst. När du slår ihop två delar i [Smedjan](/wiki/06-Items/Forge.md#merge) finns etiketten kvar bara om båda delarna hade den, och förhandsvisningen säger det; ett steg i Smedjan som misslyckas ger tillbaka sitt material som vanliga enheter.
 
@@ -54,7 +54,7 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Adaptive Cores** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Sköldceller** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Styrraketer** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Ultra Core (i partier om 10), Experimental Fusion Core | 5 |
+| **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Siphon Battery II (i partier om 10), Antimatter Battery I (i partier om 10), Ultra Core (i partier om 10), Dark Matter Ammo I (i partier om 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Förbrukningsvaror** | EMP Charge, Energetic Wall II | 2 |
 | **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

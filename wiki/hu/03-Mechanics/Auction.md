@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -16,7 +16,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - Az aukció használatához **5. szint** kell: hirdetéshez, vásárláshoz és licitáláshoz.
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
 - A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 1 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
-- 84 tárgy hirdethető meg, és 83 közülük Thuliumban is árazható.
+- 89 tárgy hirdethető meg, és 88 közülük Thuliumban is árazható.
 - Egy hirdetés 168 / 336 / 504 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 0,25%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 0,4%.
@@ -32,7 +32,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 
 ## Eladható tárgyak {#marketable-items}
 
-Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, [Davidskitől](/wiki/03-Mechanics/Davidski.md) megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen. A Skylab Lőszernyomtatójának és Rakétagyárának lőszerei és rakétái sem eladhatók.
+Csak olyan tárgyat adhatsz el, amelyet **megszereztél**. Minden, amit megszerzel, kis címkét kap a [Hangárban](/wiki/03-Mechanics/Inventory.md#marketable-items), **Eladható**: amit az űrben felveszel (idegenek, rajok, Wardenek és a feketelyuk zsákmánya: [Rakomány](/wiki/03-Mechanics/Cargo.md)), amit egy küldetés kifizet ([Küldetések](/wiki/03-Mechanics/Quests.md#rewards)), és minden, amit a Gyártás és a Kovácsműhely előállít. Amit a Boltban **megvettél**, egy tételben megnyertél, a Piacon megvettél, [Davidskitől](/wiki/03-Mechanics/Davidski.md) megvettél, bónuszkóddal, meghívócsomaggal vagy a kezdőcsomaggal kaptál, vagy visszatérítésként kaptál vissza, az nem eladható, és soha nem adható el újra, így semmit nem vesznek csak azért, hogy továbbadják. A Skylab Kovácsműhelyének lemezei sem eladhatók; a Reinforced Plate-ek, amelyeket egy küldetés fizet ki, igen. A Skylab Lőszernyomtatójának és Rakétagyárának lőszerei és rakétái sem eladhatók. Egy küldetés Ismétlésének tárgyai szintén nem eladhatók.
 
 A címke egységek száma, nem kapcsoló: egy lőszerköteg tartalmazhat vásároltat és megszerzettet, a kártya pedig azt írja: „Eladható (3 / 5)”. Ha a köteg egy részét felhasználod (lövés, gyártás), először a közönséges egységek fogynak, így az eladhatók tartanak a legtovább. Két darab összevonásakor a [Kovácsműhelyben](/wiki/06-Items/Forge.md#merge) a címke csak akkor marad meg, ha mindkét darabnak megvolt, és az előnézet ezt jelzi; egy meghiúsult kovácsműhelyi lépés a nyersanyagait közönséges egységként adja vissza.
 
@@ -54,7 +54,7 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 | **Adaptive Core-ok** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Pajzscellák** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Fúvókák** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Experimental Fusion Core | 5 |
+| **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Siphon Battery II (10 darabos csomagokban), Antimatter Battery I (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Dark Matter Ammo I (10 darabos csomagokban), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Rakéták** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Fogyóeszközök** | EMP Charge, Energetic Wall II | 2 |
 | **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

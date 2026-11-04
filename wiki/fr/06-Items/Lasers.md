@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Des batteries consommables qui multiplient les dégâts de vos salves laser :
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Commun | 1,0x | – | 5 crédits |
 | **Advanced Plasma** | Rare | 2,0x | – | 0,5 Thulium |
-| **Ultra Core** | Rare | 3,0x | 5 % | 1,0 Thulium |
-| **Experimental Fusion Core** | Épique | 4,0x | 10 % | 2,2 Thulium |
-| **Siphon Battery** | Rare | 1,0x, boucliers uniquement | – | 0,25 Thulium |
+| **Ultra Core** | Rare | 3,0x | 5 % | 1,0 Thulium, ou à fabriquer |
+| **Experimental Fusion Core** | Épique | 4,0x | 10 % | À fabriquer uniquement (n’est plus vendu) |
+| **Siphon Battery** | Rare | 1,0x, boucliers uniquement | – | 50 crédits |
+| **Siphon Battery II** | Rare | 0,5x, boucliers uniquement, vole le double | – | À fabriquer uniquement |
+| **Antimatter Battery I** | Rare | 2,0x | 20 % | À fabriquer uniquement |
+| **Antimatter Battery II** | Épique | 3,0x | 20 % | À fabriquer uniquement |
+| **Dark Matter Ammo I** | Rare | de 1,5x à 5x, tiré à chaque salve (3,25x en moyenne) | – | À fabriquer uniquement |
+| **Dark Matter Ammo II** | Épique | 6,0x, une salve toutes les 1,5 s, ponctionne le bouclier de la cible | – | À fabriquer uniquement |
 
-La **pénétration de bouclier** est retranchée de l’absorption de votre cible à chaque tir de vos salves : les boucliers encaissent l’absorption de la cible moins la pénétration (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)). Vos Penetration Amps et une formation de drones s’ajoutent à celle des munitions, et la somme entière est [plus bas sur cette page](#shield-penetration-of-a-laser-hit). Face à un vaisseau à 80 % (le meilleur bouclier avec les meilleures cellules), les 10 % des munitions x4 laissent aux boucliers 70 % du tir et à la coque 30 %. Cela compte surtout face à des vaisseaux dont la coque est petite à côté du bouclier ; un très grand vaisseau à 80 % résiste pareil dans les deux cas. Les aliens n’ont pas de stat d’absorption à proprement parler (leurs boucliers encaissent 80 % d’un tir), et la pénétration s’en retranche aussi.
+**D’où viennent les nouvelles munitions.** Depuis la 0.5.0, l’Experimental Fusion Core n’est plus vendu : vous le fabriquez, par lots de 1 000, à l’[Assemblage](/wiki/06-Items/Overview.md#the-production-queue), une fois **Military Grade Ammo II** recherchée au Centre de recherche du Skylab. L’Ultra Core peut toujours s’acheter et se fabriquer aussi (**Military Grade Ammo I**, 30 minutes de recherche). Cinq nouvelles munitions ne se fabriquent que sur recette, chacune derrière une technologie de la famille **Laser Ammo** et chacune faite à partir de la munition qui la précède : **Siphon Battery II** (à partir de Siphon Battery), **Antimatter Battery I** (à partir de Siphon Battery II) et **II** (à partir d’Antimatter Battery I et d’un peu de [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (à partir de matières premières et d’un Dark Matter) et **II** (à partir de Dark Matter Ammo I et de Dark Matter). Une fabrication, c’est 1 000 unités, de 5 à 15 minutes, et une unité coûte à peu près ce qu’elle vaut. L’[Imprimante à munitions](/wiki/03-Mechanics/Skylab.md) fabrique aussi l’Ultra Core et l’Experimental Fusion Core, une fois que vous les avez recherchés.
+
+La **pénétration de bouclier** est retranchée de l’absorption de votre cible à chaque tir de vos salves : les boucliers encaissent l’absorption de la cible moins la pénétration (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)). Vos Penetration Amps et une formation de drones s’ajoutent à celle des munitions, et la somme entière est [plus bas sur cette page](#shield-penetration-of-a-laser-hit). Face à un vaisseau à 85 % (le meilleur bouclier avec les meilleures cellules), les 10 % des munitions x4 laissent aux boucliers 75 % du tir et à la coque 25 %, et les 20 % des munitions Antimatter leur laissent 65 % du tir et à la coque 35 %. Cela compte surtout face à des vaisseaux dont la coque est petite à côté du bouclier ; un très grand vaisseau à 85 % résiste pareil dans les deux cas. Les aliens n’ont pas de stat d’absorption à proprement parler (leurs boucliers encaissent 80 % d’un tir), et la pénétration s’en retranche aussi.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ La Siphon Battery est une munition qui sert à voler des boucliers plutôt qu’
 - Les **coups critiques** comptent : une salve critique draine 1,5 fois plus, et son nombre s’affiche comme un coup critique. Ses paquets sont plus gros et plus brillants, et le bouclier de la cible s’illumine plus fort.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) tirent des munitions standard x1.
 
+La **Siphon Battery II** fonctionne de la même façon, avec les chiffres inversés : elle ne draine que **la moitié** du bouclier de la cible qu’une Siphon Battery (x0,5) et vous rend **le double** de ce qu’elle a drainé (un vol de 2,0), de sorte que votre bouclier gagne exactement ce que donne la salve d’une Siphon Battery pendant que la cible en perd deux fois moins. Elle se fabrique (recherche **Siphon Battery II**, à partir de 1 000 Siphon Battery) et, comme la première, ne touche jamais la coque.
+
+---
+
+## Munitions Antimatter et Dark Matter {#antimatter-and-dark-matter-ammo}
+
+Les **Antimatter Battery I et II** percent les boucliers : **20 %** de pénétration chacune, en plus de vos amps et de votre formation, à x2 et x3 de dégâts. Face à un vaisseau dont le bouclier est grand à côté de la coque, elles ouvrent la coque plus tôt que l’Experimental Fusion Core ; face à tout le reste, le x4 frappe toujours plus fort. C’est un choix, pas un échelon de plus.
+
+La **Dark Matter Ammo I** tire son multiplicateur **à chaque salve**, quelque part entre **x1,5 et x5** (x3,25 en moyenne). Tout le vaisseau partage un seul tirage, quel que soit son nombre de lasers : une salve est donc chanceuse ou malchanceuse pour tous à la fois. Elle tire chaque seconde, comme toute munition.
+
+La **Dark Matter Ammo II** frappe à **x6**, mais seulement **une salve toutes les 1,5 secondes** (les mêmes dégâts par seconde qu’un x4), et elle **ponctionne le bouclier** : vous gagnez 25 % des dégâts que le bouclier de la cible a vraiment encaissés, jusqu’à votre maximum. Le tir touche comme les autres (les boucliers prennent leur part et la coque le reste), et une cible sans bouclier ne vous donne rien. Gagner du bouclier n’est pas subir des dégâts : cela ne retarde pas la régénération de votre propre bouclier.
+
 ---
 
 ## Pénétration de bouclier d’un tir laser {#shield-penetration-of-a-laser-hit}
 
-Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %), vos **Penetration Amps** et une **formation de drones** (Gemini +15 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), vos **Penetration Amps** et une **formation de drones** (Gemini +15 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 36 % ; un Penetration Amp IV dans un laser sur douze fait 1 %. Un Wraith a 12 lasers et 36 emplacements d’ampli, et il faut remplir les 36 pour atteindre 36 %.
 - **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre des amplis laser de la configuration affichée (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. La fenêtre **Vaisseau** en vol a une pastille **Pénétration** au bout de sa ligne du bas (les pastilles de configuration et de vitesse n’affichent qu’une icône et un chiffre pour lui faire de la place) : elle affiche le total d’un tir laser, vos amplis, la formation portée et les munitions tirées, additionnés dès que vous changez quelque chose, et son info-bulle liste les trois parts.
-- **Le meilleur laser fait 61 %.** Un Experimental Fusion Core (10 %), un Gemini (15 %) et trois Penetration Amp IV dans chaque laser (36 %) font 61 %.
+- **Le meilleur laser fait 61 % avec du x4, 71 % avec de l’Antimatter.** Un Experimental Fusion Core (10 %), un Gemini (15 %) et trois Penetration Amp IV dans chaque laser (36 %) font 61 % ; une Antimatter Battery (20 %) à sa place fait 71 %, à x3 de dégâts au lieu de x4.
 - **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 13,1 à 13,8 points au lieu de 12. Dans la meilleure configuration, trois amplis Éternels font 66,4 %, et chaque point compte.
 
 | Salve laser | Munitions | Amplis (3 emplacements) | Formation | Total |
@@ -189,19 +215,19 @@ Ce que cela fait aux boucliers de la cible : chaque case est la part d’un tir
 | Défenseur (absorption) | Sans amplis | Fusion Core seul (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Le meilleur laser (61 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, sans cellule (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, sans cellule (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, sans cellule (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Le meilleur bouclier de série (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 44 niveaux de la Boutique de saison (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Le meilleur bouclier de série (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et 44 niveaux de la Boutique de saison (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Le meilleur bouclier, Forge Éternelle (meilleur tirage) et la Boutique de saison à sa limite (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | N’importe quel alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Le meilleur laser vide un noyau de bouclier sans cellule et un Light Shield Core avec sa meilleure cellule (la coque encaisse tout le tir) ; un Heavy Shield Core avec trois cellules Capacity garde 4 % de chaque tir, et le meilleur bouclier en garde 19 % (35 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (70 %) y arrive.
+Le meilleur laser vide un noyau de bouclier sans cellule et un Light Shield Core avec sa meilleure cellule (la coque encaisse tout le tir) ; un Heavy Shield Core avec trois cellules Capacity garde 9 % de chaque tir, et le meilleur bouclier en garde 24 % (41 % avec les bonus). Une roquette seule ne vide jamais un bouclier (35 % au plus), mais une Lancet III ou une Rivet III avec un Stiletto (70 %) y arrive.
 
 ### Quand un Penetration Amp vaut-il un emplacement ? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contre l’absorption, et plus elle est haute, plus il compte : face à un vaisseau à petite coque vers 95 % (configurations Boutique de saison, Forge et Rampart), un jeu de Penetration tue environ 1,8 fois plus vite que le meilleur jeu simple, et face au meilleur bouclier de série (80 %), un trio de Penetration Amps met environ 11 % de temps en moins qu’un trio de Crit Amps du même palier. Face aux aliens, il ne gagne presque rien.**
+**Un Penetration Amp contre l’absorption, et plus elle est haute, plus il compte : face à un vaisseau à petite coque vers 101 % (configurations Boutique de saison, Forge et Rampart), un jeu de Penetration tue environ 2,6 fois plus vite que le meilleur jeu simple, et face au meilleur bouclier de série (85 %), un trio de Penetration Amps met environ 19 % de temps en moins qu’un trio de Crit Amps du même palier. Face aux aliens, il ne gagne presque rien.**
 
 - **Il ne donne aucun dégât.** Sur un Helios Beam, trois Penetration Amp IV font 187 dégâts par salve (munitions x1, la moyenne du tirage et des critiques), là où trois Damage Amp IV en font 356 et trois Crit Amp IV 369 : environ la moitié. Ce qu’il rachète, c’est la part du bouclier ; il ne vaut donc que là où la coque est petite à côté du bouclier et l’absorption élevée ; face à un Wraith ou un Ironclad, dont la grande coque tient de toute façon, un jeu simple de Damage ou de Crit est à peu près aussi rapide (un Penetration Amp dans un laser gagne 5 % au plus).
 - **Aliens.** Leurs boucliers encaissent 80 % d’un tir moins votre pénétration, donc il agit aussi sur eux, mais un Damage Amp ou un Crit Amp du palier les tue aussi vite ou plus vite, sauf un Phantasm ou un Goombah combattu avec une formation, où un Penetration Amp dans un laser gagne jusqu’à 5 %.

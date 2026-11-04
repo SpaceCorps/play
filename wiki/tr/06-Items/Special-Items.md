@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -7,12 +7,12 @@
 **Özel eşyalar**, [Skylab](/wiki/03-Mechanics/Skylab.md)’da, [Araştırma](/wiki/03-Mechanics/Research.md) sayfasındaki Araştırma Merkezi’nde, [Demirhane](/wiki/06-Items/Forge.md)’de ve [Montaj](/wiki/06-Items/Overview.md#the-production-queue)’ın Üretim kuyruğunda sana zaman kazandıran, tek kullanımlık altı eşyadır. Birini zaten sahip olduğun bir şeyin üzerinde kullanırsın, işini bir kez yapar ve yok olur. Sıradan anlamda eşya değillerdir: hesabın her tür için bir **sayaç** tutar; bu yüzden taşınmazlar, düşmezler, sıfırlamayla silinmezler ve hiçbiri takas edilemez.
 
 > [!NOTE]
-> **Henüz kimse dağıtmıyor.** Şimdilik her özel eşyayı bir yönetici verir. Satın alınamazlar, satılamazlar, [Açık Artırma](/wiki/03-Mechanics/Auction.md)’ya konamazlar ve başka bir pilota verilemezler; Magic Hammer ise son derece nadirdir.
+> **Henüz kazanılamıyorlar.** Şimdilik yalnızca bir yöneticiden gelirler: sana doğrudan verilirler ya da kullandığın bir bonus kodunun içinde gelirler. Satın alınamazlar, satılamazlar, [Açık Artırma](/wiki/03-Mechanics/Auction.md)’ya konamazlar ve başka bir pilota verilemezler; Magic Hammer ise son derece nadirdir.
 
 ## Bir dakikada {#in-one-minute}
 
 - **Altı tür.** Magic Hammer, Schematics, Philosopher’s Stone, Tinkerer’s Badge, Forger’s Seal ve Workforce Contract. Her biri aşağıda sayılarıyla anlatılıyor.
-- **Nerede.** Hangar’daki **Özel eşyalar** bölümü sahip olduklarını gösterir ve her biri için bir **Kullan** düğmesi vardır. Eşyanın etki ettiği sayfa da, birine sahipsen bir düğme gösterir: Skylab’da yükseltilen modül, süren araştırma, Demirhane’nin kademe yükseltme paneli ve Üretim kuyruğu.
+- **Nerede.** Hangar’daki envanter, sahip olduğun her tür için sarf malzemeleri arasında bir kutucuk gösterir ve kaç tane olduğunu yazar. Eşyanın ne yaptığını okumak için kutucuğun üzerine gel, kullanmak için tıkla (Workforce Contract’ta önce işçiyi seçersin). Magic Hammer ve Tinkerer’s Badge senin seçtiğin bir şeye etki eder, bu yüzden tıklamak bir şey yapmaz ve kutucukları nerede kullanılacağını söyler: Skylab’da ve Demirhane’de. Eşyanın etki ettiği sayfa da, birine sahipsen bir düğme gösterir: Skylab’da yükseltilen modül, süren araştırma, Demirhane’nin kademe yükseltme paneli ve Üretim kuyruğu.
 - **Önce sorar.** Her kullanım, tam olarak ne olacağını ve neyi harcadığını söyleyen bir sayfa açar. Kullanım kesindir: geri alınamaz. Bir kullanım reddedilirse hiçbir şey harcanmaz.
 - **Kalırlar.** Özel eşyaların ve süren Philosopher’s Stone ya da sözleşme, [sıfırlamadan](/wiki/03-Mechanics/Wipe-Timeline.md) sonra da kalır.
 - **Her yerde.** Uçarken de kullanabilirsin: hiçbiri geminin park halinde olmasını gerektirmez.
@@ -44,7 +44,7 @@ Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise
 
 ### Schematics
 
-**Şu an süren araştırmayı**, o teknoloji araştırılması **en fazla 24 saat** sürüyorsa bitirir. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 151 teknolojisinden 135’i uygundur. 48 ya da 72 saat süren 16’sı değildir: Wraith, üç dron formasyonu, Hull Plating III, Motor Modülü ile Savunma Modülü’nün 4. ve 5. seviyeleri ve yedi Pilot teknolojisi.
+**Şu an süren araştırmayı**, o teknoloji araştırılması **en fazla 24 saat** sürüyorsa bitirir. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 158 teknolojisinden 142’i uygundur. 48 ya da 72 saat süren 16’sı değildir: Wraith, üç dron formasyonu, Hull Plating III, Motor Modülü ile Savunma Modülü’nün 4. ve 5. seviyeleri ve yedi Pilot teknolojisi.
 
 - **Kalan süre değil, araştırma süresi sayılır.** Bir saati kalmış 48 saatlik bir teknoloji de reddedilir: Schematics teknolojinin toplamda ne kadar sürdüğüne bakar.
 - **Bedel ödenmiş kalır.** Dark Matter, kredi ve Thulium araştırma başlarken alınmıştı ve geri verilmez. Araştırmanın henüz yakmadığı bilim puanı tankında kalır.
@@ -95,7 +95,7 @@ Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab
 
 ## Altısı için kurallar {#rules-for-all-six}
 
-- **Eşya değil, sayaç.** Hangar’daki Özel eşyalar bölümü onları listeleyen tek yerdir. Ağırlıkları, kısayol çubuğunda yerleri, kargoda ya da Nakliye Deposu’nda yerleri yoktur; geminin yok edildiğinde asla düşmezler.
+- **Eşya değil, sayaç.** Hangar’daki envanter onları sarf malzemeleri arasında kutucuklar olarak listeleyen tek yerdir; hiç sahip olmadığın bir türün kutucuğu yoktur. Kutucuk bir eşya değildir, bu yüzden sürüklenemez, seçilemez, silinemez ya da satılamaz. Ağırlıkları, kısayol çubuğunda yerleri, kargoda ya da Nakliye Deposu’nda yerleri yoktur; gemin yok edildiğinde asla düşmezler.
 - **Sıfırlamadan sonra da.** Özel eşyaların ve süren bir Philosopher’s Stone ya da sözleşme, Skylab, araştırma ve görünümlerin gibi korunur.
 - **Asla takas edilmez.** [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da, başka bir pilota, krediyle de olmaz.
 - **Temponu yalnızca Hammer değiştirebilir** ve 60 günde bir taneyle sınırlıdır. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, en fazla 24 saatlik bir araştırma.

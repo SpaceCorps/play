@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Óriás kotrógép -->
 # Óriás kotrógép {#giant-excavator}
 
@@ -29,14 +29,14 @@ A szezon első napjától egy **pulzár** ragyog a `DS-1`, a `DS-2` és a `DS-3`
 ## Hogyan zajlik egy menet {#how-a-run-goes}
 
 1. **Keress egyet.** A szezon 11. napjától a három pulzáros veszélyes szektor mindegyikében van egy kotrógép, minden világban. Egy felirat, a **Kotrógép**, lebeg fölötte, ha a közelben vagy, a Csillagrendszer-térkép pedig minden olyan veszélyes szektort megjelöl, amelyben van egy: a jelölés színe a kotrógép állapota, a súgószövege pedig a következő változásig hátralévő időt mutatja.
-2. **Nyisd meg a vezérlőpultot.** Kattints a feliratra. Az **Óriás kotrógép** ablak addig működik, amíg a hajód a kotrógép vezérlőpultjának hatótávolságán belül van (a *Dióhéjban* lista megadja). Álcázott hajó is használhatja, és a használata nem szünteti meg az álcát.
+2. **Nyisd meg a vezérlőpultot.** Kattints a feliratra. Az **Óriás kotrógép** ablak addig működik, amíg a hajód a kotrógép vezérlőpultjának hatótávolságán belül van (a *Dióhéjban* lista megadja). Álcázott hajó nem használhatja: az ablak gombjai le vannak tiltva, és minden műveletet elutasít, amíg az álca meg nem szűnik.
 3. **Tankold fel.** A **Dark Matter hozzáadása** egy Dark Mattert tesz a rakományodból a tartályba. Ezt bárki megteheti. A tartály sosem fogad be többet, mint amennyit a kotrógép el tud égetni a túlmelegedés előtt, így nem megy kárba üzemanyag.
 4. **Válaszd ki, mit bányásszon** a listából, majd nyomd meg a **Bányászat indítása** gombot. Legalább egy Dark Matter kell hozzá a tartályban, és egy erőforrás. Az indításig és futás közben is bárki megváltoztathatja a választást (lásd lent: *Az erőforrás váltása*). Az indításról a világ minden pilótája értesül, a nevedet, a szektort és az erőforrást megnevezve.
 5. **Tartsd meg.** Amíg bányászik, néhány másodpercenként egy láda hullik a kotrógép körül, az indítás után nem sokkal pedig megérkeznek az első Slumbering Voidok. Védd a kotrógépet, és szedd fel a ládákat. Fényáram folyik a pulzártól a kotrógép fúrójáig, és megerősödik a csillag ütemére, 4 másodpercenként egyszer; a túlmelegedés előtti utolsó percben vibrál és szaggatottá válik, a gép pihenésekor pedig megszűnik.
 6. **Figyeld a hőt.** A Hő sáv telik, amíg a kotrógép bányászik, és sosem ürül, amíg vár. A határán a kotrógép túlmelegszik. Menj el előtte: a játék kétszer figyelmezteti a térképet.
 7. **Pihen.** Túlmelegedve vagy megsemmisülve a kotrógép és a pulzárja sugároz, amíg a pihenő le nem telik; utána újra kész, nullára állt hővel és teli hajótesttel.
 
-Az ablak megmutatja még a szektort, a tartályt (minden Dark Matterhez egy cella, az égő részlegesen kirajzolva), hogy mennyi Dark Mattert hordasz, a kotrógép hajótestét, hogy az egyes erőforrások mennyit adnak percenként a világodban, és amíg bányászik, az éppen bányászott erőforrást, hogy az egyes erőforrások mennyit raktak le a kotrógép utolsó lehűlése óta, a következő hullámig hátralévő időt és az élő Voidokat. Ha valamit elutasít, az okát pirosban olvasod: túl messze vagy a vezérlőpulttól, nincs Dark Mattered, a tartály tele van, még nincs üzemanyag vagy kiválasztott erőforrás, a kotrógép már fut, egy váltás túl hamar jött az előző után, vagy a kotrógép forró.
+Az ablak megmutatja még a szektort, a tartályt (minden Dark Matterhez egy cella, az égő részlegesen kirajzolva), hogy mennyi Dark Mattert hordasz, a kotrógép hajótestét, hogy az egyes erőforrások mennyit adnak percenként a világodban, és amíg bányászik, az éppen bányászott erőforrást, hogy az egyes erőforrások mennyit raktak le a kotrógép utolsó lehűlése óta, a következő hullámig hátralévő időt és az élő Voidokat. Ha valamit elutasít, az okát pirosban olvasod: túl messze vagy a vezérlőpulttól, nincs Dark Mattered, a tartály tele van, még nincs üzemanyag vagy kiválasztott erőforrás, a kotrógép már fut, egy váltás túl hamar jött az előző után, a kotrógép forró, vagy a hajód álcázva van.
 
 ### Az erőforrás váltása {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Ha az üzemanyag a határ előtt elfogy, a kotrógép **Kész** állapotba tér 
 
 ## Mit bányászik {#what-it-mines}
 
-Egy teli tartály nagyjából annyit ad, amennyit öt pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Az erőforrást az indítás előtt választod, és válthatsz, amíg a kotrógép fut. Egy láda mindenkinek ugyanannyit tartalmaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát. Az viszont eltérhet, mennyit veszel ki egy ládából: a Pilóta-kutatás Excavator Mining ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) minden szintje összesen 20%-kal, 30%-kal vagy 40%-kal növeli a felvett Thuliumot és ércet, lefelé kerekítve.
+Egy teli tartály nagyjából annyit ad, amennyit öt pilóta keresne fél óra legjobb Thulium-farmolással. A Beta és a Gamma többet ad, ahogy minden kilövésért többet is fizetnek. Az erőforrást az indítás előtt választod, és válthatsz, amíg a kotrógép fut. Egy láda mindenkinek ugyanannyit tartalmaz, a Thulium-láda pedig készpénz, amelyet a felvétel fizet ki, mint az aszteroidák Thuliumát. A ládák méretét az határozza meg, aki elindítja a futást: a Pilóta-kutatás Excavator Mining ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) minden szintje annak a pilótának, aki megnyomja a **Bányászat indítása** gombot, összesen 20%-kal, 30%-kal vagy 40%-kal többet tesz a futás minden ládájába, Thuliumból és ércből egyaránt, a teljes futás alatt, bárki tankol, vált erőforrást vagy szedi fel a ládákat. A vezérlőpult megmutatja, kié a futás és milyen részesedést visznek a ládái, és megmondja annak a pilótának, akinek megvan az Excavator Mining, hogy az az általa indított futásoknál számít. Az alábbi mennyiségek nélküle értendők; ez a legtöbbre jön rá, amit egy erőforrás egy futásban lerakhat.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ A kotrógépnek **nincs külön gyűrűje**: a világod szokásos szabályai ér
 Ezek rendszersorok (a chat **Rendszer** lapján és a Játéknaplóban jelennek meg, nem a **Globális** vagy a **Helyi** lapon). Az első három az egész világhoz megy; az utolsó a kotrógép szektorának pilótáihoz.
 
 - Azon a napon, amikor a 2. esemény elkezdődik: a veszélyes szektorok megváltoztak.
-- Egy pilóta **elindít** egy kotrógépet, a szektort, az erőforrást és az üzemanyag perceit megnevezve.
+- Egy pilóta **elindít** egy kotrógépet, a szektort, az erőforrást és az üzemanyag perceit megnevezve, valamint az Excavator Mining részesedését, ha az illető pilótának van.
 - A kotrógép **túlmelegszik** vagy **megsemmisül**.
 - Elfogy az üzemanyag; a kotrógép mindjárt túlmelegszik (kétszer jelzik); a Voidok **hulláma** közeledik, a számával és a térkép azon oldalával, ahonnan jön; nem maradt pilóta, ezért a Voidok megtámadják a kotrógépet.
 

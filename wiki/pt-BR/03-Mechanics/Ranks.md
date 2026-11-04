@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
@@ -125,6 +125,13 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-As cinco primeiras linhas são os alienígenas comuns, as seis seguintes as naves dos três enxames e as três seguintes os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (a partir do dia 11 da temporada). No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
+As cinco primeiras linhas são os alienígenas comuns, as doze seguintes as naves dos seis enxames e as três seguintes os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (a partir do dia 11 da temporada). No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
 
 Por exemplo, um piloto de nível 4 com 12.500 de experiência que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 300 + 160 + 40 = **912** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
 

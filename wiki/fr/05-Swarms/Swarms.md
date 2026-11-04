@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
-Un **essaim** est un groupe d’aliens qui parcourt une partie de la galaxie sous la conduite d’un **meneur** : un boss, bien plus fort que n’importe quel alien autour de lui, avec des **suivants** qui le protègent et, dans deux des essaims, le soignent. Il y en a trois, et chacun a son propre article :
+Un **essaim** est un groupe d’aliens qui parcourt une partie de la galaxie sous la conduite d’un **meneur** : un boss, bien plus fort que n’importe quel alien autour de lui, avec des **suivants** qui le protègent et, dans la plupart des essaims, le soignent. Il y en a sept, et chacun a son propre article :
 
 - [Essaim Seeker](/wiki/05-Swarms/Seeker-Swarm.md) : le Boss Seeker et ses Seeker Slaves, le plus petit essaim, dans les secteurs où volent les nouveaux pilotes.
 - [Essaim Pirate](/wiki/05-Swarms/Pirate-Swarm.md) : le Pirate Boss et ses Pirate Scouts, un long combat pour un groupe.
 - [Essaim Dormant](/wiki/05-Swarms/Dormant-Swarm.md) : la Dormant Force et ses Dormant Pulses, l’essaim le plus fort, au butin le plus riche.
+- [Essaim Phantasm](/wiki/05-Swarms/Phantasm-Swarm.md) : le Boss Phantasm et ses Phantasm Guards, un énorme Phantasm pour un groupe de pilotes de niveau intermédiaire, dans les secteurs extérieurs des corporations.
+- [Essaim Goombah](/wiki/05-Swarms/Goombah-Swarm.md) : le Boss Goombah et ses Goombah Guards, un énorme Goombah pour un groupe des pilotes les plus forts, dans les mêmes secteurs.
+- [Essaim Crystalys](/wiki/05-Swarms/Crystalys-Swarm.md) : le Boss Crystalys et ses Crystalys Guards, l’alien le plus coriace en plus grand, dans trois des secteurs dangereux.
+- [Essaim Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) : le Tesseract, un énorme vaisseau-mère qui lâche des Facets tant qu’il est touché, pour un très grand groupe, dans le secteur dangereux `DS-4`.
 
 Leurs vaisseaux sont des **aliens d’espèces à part** : ils ont leurs propres noms et leurs propres compteurs d’éliminations, et aucun ne compte comme un Seeker, un Phantasm ou un autre alien. Un vaisseau d’essaim a la forme du vaisseau sur lequel il est construit, avec une teinte à lui et son nom au-dessus ; le Boss Seeker est un Seeker bien plus grand.
 
 Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son propre Gardien pour la dernière étape de sa ligne du jour, et seul ce clan peut le blesser : aucun pilote n’en croise un qui rôde dans un secteur, et les tableaux ci-dessous ne les listent pas. Un Gardien est payé selon les dégâts, comme le meneur d’un essaim, mais son butin n’est pas une caisse pour celui qui a infligé le plus de dégâts : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) à lui. Voir [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## Les trois essaims {#the-three-swarms}
+## Les essaims {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son pr
 | [**Essaim Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Les secteurs `x-2` et `x-3` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Pirate Boss** | Jusqu’à 5 × Pirate Scout, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
 | [**Essaim Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`, `DS-4`, qu’il parcourt de l’un à l’autre | Un dans chaque monde | **Dormant Force** | 2 × Dormant Pulse, qui volent avec le meneur | 1 h après la destruction de tout l’essaim, dans un secteur dangereux tiré au hasard. Dès le jour 11 de la saison : 30 min, au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et chaque vaisseau paie ×2 |
 | [**Essaim Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Les secteurs `x-1` et `x-2` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Seeker** | Jusqu’à 4 × Seeker Slave, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
+| [**Essaim Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Les secteurs `x-3` et `x-4` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Phantasm** | Jusqu’à 4 × Phantasm Guard, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
+| [**Essaim Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Les secteurs `x-3` et `x-4` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Goombah** | Jusqu’à 4 × Goombah Guard, un nouveau toutes les 10 s | 5 min après la destruction du meneur, dans le même secteur |
+| [**Essaim Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Les secteurs dangereux `DS-1`, `DS-2`, `DS-3` | Un dans chacun de ces secteurs, 3 dans chaque monde | **Boss Crystalys** | Jusqu’à 3 × Crystalys Guard, un nouveau toutes les 10 s | 30 min après la destruction du meneur, dans le même secteur |
+| [**Essaim Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Le secteur dangereux `DS-4` | Un dans chaque monde | **Tesseract** | Jusqu’à 50 × Facet, 10 de plus toutes les 5 s tant que le meneur est touché | 30 min après la destruction du meneur, dans le même secteur |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ Le monde met un essaim à l’échelle comme il le fait pour tout alien ([Mondes
 
 ## Ce que les pilotes apprennent {#what-the-pilots-are-told}
 
-Les essaims Seeker et Pirate préviennent les pilotes de leur propre secteur quand un boss apparaît et quand il est détruit. L’essaim Dormant prévient son monde entier, et il est marqué sur les cartes des secteurs dangereux et sur la carte de la galaxie, pour que les pilotes puissent le trouver. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. L’élimination d’un boss a aussi une ligne dans le fil des éliminations, qui nomme le pilote à qui elle est créditée. La liste *D’un coup d’œil* de chaque article dit qui est prévenu.
+Les essaims Seeker, Pirate, Phantasm, Goombah, Crystalys et Tesseract avertissent les pilotes de leur propre secteur quand un boss apparaît et quand il est détruit. L’essaim Dormant prévient son monde entier, et il est marqué sur les cartes des secteurs dangereux et sur la carte de la galaxie, pour que les pilotes puissent le trouver. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. L’élimination d’un boss a aussi une ligne dans le fil des éliminations, qui nomme le pilote à qui elle est créditée. La liste *D’un coup d’œil* de chaque article dit qui est prévenu.
 
 ## Combattre un essaim {#fighting-a-swarm}
 
-- **Les meneurs ne commencent jamais un combat.** Un meneur erre jusqu’à ce qu’un pilote le touche, puis il riposte, et les vaisseaux de son essaim proches de lui se joignent au combat contre le premier pilote qui l’a touché (la distance est donnée dans les règles ci-dessus). Les Pirate Scouts font exception : ils attaquent tout pilote qui s’approche. Un meneur ne répare jamais sa coque de lui-même, donc les dégâts que vous lui avez infligés restent sur lui, sauf si ses suivants le soignent ; son bouclier se recharge comme celui de tout alien.
+- **Les meneurs ne commencent jamais un combat.** Un meneur erre jusqu’à ce qu’un pilote le touche, puis il riposte, et les vaisseaux de son essaim proches de lui se joignent au combat contre le premier pilote qui l’a touché (la distance est donnée dans les règles ci-dessus). Les Pirate Scouts font exception : ils attaquent tout pilote qui s’approche. Un meneur ne répare jamais sa coque de lui-même, donc les dégâts que vous lui avez infligés restent sur lui, sauf si ses suivants le soignent ; son bouclier se recharge comme celui de tout alien. Seul le Tesseract fait exception : il n’a pas d’arme, répare de lui-même sa coque et son bouclier dès que personne ne l’a blessé pendant quelques secondes, et ses Facets traquent le pilote qui a infligé le plus de dégâts, non le premier qui l’a touché.
 - **Les vaisseaux d’essaim ne combattent que les pilotes.** Ils ne tirent pas sur les aliens et les aliens ne tirent pas sur eux, et les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) les ignorent : ils ne chassent pas un vaisseau d’essaim et ne viennent pas vous aider contre l’un d’eux.
 - **Roquettes.** Le Pirate Boss, la Dormant Force et les Pulses tirent des roquettes **droites**, des [roquettes Rivet](/wiki/06-Items/Rockets.md), sur le pilote qui les a attaqués. Un vaisseau qui reste en mouvement les esquive, un vaisseau immobile est touché.
-- **L’ampleur des combats.** L’essaim Seeker est fait pour deux pilotes, l’essaim Pirate pour un petit groupe, l’essaim Dormant pour un grand groupe des vaisseaux les plus forts ; les mondes plus élevés demandent plus de pilotes, comme pour tout alien.
+- **L’ampleur des combats.** L’essaim Seeker est fait pour deux pilotes, les essaims Pirate et Phantasm pour un petit groupe, l’essaim Goombah pour un groupe des vaisseaux les plus forts, les essaims Crystalys et Dormant pour un grand groupe d’entre eux, l’essaim Tesseract pour un très grand groupe ; les mondes plus élevés demandent plus de pilotes, comme pour tout alien.
 
 ## Quoi emporter {#what-to-bring}
 
@@ -80,8 +88,8 @@ Un alien ordinaire paie le pilote qui l’a touché en premier ([Combat](/wiki/0
 
 - **Le gain est réparti selon les dégâts.** Tout pilote qui a infligé au moins la part indiquée dans les règles ci-dessus est payé, en proportion des dégâts infligés : les crédits, le Thulium, l’XP et l’honneur de l’élimination sont répartis entre eux. Un pilote sous cette part ne reçoit rien.
 - **La caisse de cargaison va au pilote qui a infligé le plus de dégâts.** Elle est à lui (et à son clan) pendant 30 secondes, comme pour tout alien, puis n’importe qui peut la prendre ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Chaque vaisseau Dormant a son propre décompte de dégâts et sa propre caisse.
-- **Les suivants paient comme d’habitude** : les Pirate Scouts et les Seeker Slaves paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
-- **Le gain d’un boss est fait pour battre les aliens qui l’entourent.** Une minute de combat contre un Pirate Boss paie plus qu’une minute de combat contre un Goombah, et l’essaim Dormant paie plus encore ; le Boss Seeker paie exactement dix Seekers.
+- **Les suivants paient comme d’habitude** : les Pirate Scouts, les Seeker Slaves et les Guards des essaims Phantasm, Goombah et Crystalys paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
+- **Le gain d’un boss est fait pour battre les aliens qui l’entourent.** Une minute de combat contre un Pirate Boss, un Boss Phantasm ou un Boss Goombah paie plus qu’une minute de combat contre un Goombah, et une minute contre l’essaim Dormant ou un Boss Crystalys paie plus qu’une minute contre un Crystalys ; le Boss Seeker paie exactement dix Seekers.
 - **Les aliens du Dormant Swamp** (le Slumbering Void, l’Inert Mass et l’Unwakened) sont payés comme un boss, selon les dégâts, et ajoutent des points PvE à votre classement ; leurs chiffres sont dans [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Chaque élimination est comptée sous le nom propre du vaisseau dans vos statistiques d’éliminations et ajoute des points PvE à votre classement :
@@ -97,6 +105,14 @@ Chaque élimination est comptée sous le nom propre du vaisseau dans vos statist
 | **Dormant Pulse** | Essaim Dormant | 11 |
 | **Boss Seeker** | Essaim Seeker | 5 |
 | **Seeker Slave** | Essaim Seeker | 1 |
+| **Boss Phantasm** | Essaim Phantasm | 8 |
+| **Phantasm Guard** | Essaim Phantasm | 1 |
+| **Boss Goombah** | Essaim Goombah | 14 |
+| **Goombah Guard** | Essaim Goombah | 3 |
+| **Boss Crystalys** | Essaim Crystalys | 21 |
+| **Crystalys Guard** | Essaim Crystalys | 6 |
+| **Tesseract** | Essaim Tesseract | 42 |
+| **Facet** | Essaim Tesseract | 0 |
 
 <!-- swarms-points:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Velocidad -->
 # Cálculo de la velocidad {#speed-calculation}
 
@@ -41,7 +41,7 @@ Además, la velocidad del motor se multiplica por la eficiencia de su ranura (pr
 
 El porcentaje total de bono de velocidad es la suma de todos los bonos de velocidad de los motores equipados (y de los híbridos) menos las penalizaciones de los escudos equipados:
 
-- **Bono de velocidad de los motores**: los motores suman porcentajes de velocidad positivos (p. ej., Engine III suma `+5%`).
+- **Bono de velocidad de los motores**: los motores suman porcentajes de velocidad positivos (p. ej., Engine III suma `+4%`).
 - **Penalización de velocidad de los escudos**: los escudos pesados lastran tu nave y suman porcentajes de velocidad negativos (p. ej., Heavy Shield Core suma `-5%` de velocidad).
 - **Escalado por ranura**: estos bonos y penalizaciones porcentuales también se escalan según la eficiencia de la ranura donde está equipado el objeto. Un escudo en uno de tus drones te ralentiza igual que uno en una ranura principal.
 - **Nunca por debajo de cero**: por muchos escudos que lleves, tu velocidad no baja de 0.

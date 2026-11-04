@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1239db4521af97e8 -->
+<!-- wiki-i18n source: 0a06d961490fa12b -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -11,7 +11,7 @@ No nível 15 do Núcleo, o Skylab cresce mais uma vez e aprende a voar: uma **se
 > [!NOTE]
 > **O que mudou na 0.4.10.** Cada módulo do Skylab agora tem a sua própria tabela de produção, preços e tempos, nível por nível. Você manteve os seus níveis: nada foi cobrado e nada foi devolvido pela diferença. O que as suas minas e os seus coletores guardavam nos armazenamentos quando a atualização chegou foi pago **uma única vez, pela taxa antiga**: os créditos e o Thulium foram para a sua conta, o minério para o seu Depósito de recursos, e os armazenamentos recomeçaram vazios.
 >
-> Duas regras são novas. **A Usina solar produz só 25% da sua energia enquanto é melhorada**, então na maioria das estações todas as minas e todos os coletores param até a melhoria terminar (veja [Módulo Usina solar](#solar-module) e [Planejando uma melhoria da Usina solar](#timing-a-solar-upgrade)). **O Depósito de recursos tem um limite próprio para cada minério**: um dia da produção do coletor no nível 1, quatro dias no nível 20.
+> Uma regra é nova. **O Depósito de recursos tem um limite próprio para cada minério**: um dia da produção do coletor no nível 1, quatro dias no nível 20.
 
 > [!NOTE]
 > **O que mudou na 0.4.15.** O passo do Núcleo do nível 9 para o nível 10 agora custa **2.000 Thulium** a mais, e quando termina surgem uma **ponte** e um segundo Núcleo, o **Núcleo 2**, com seis novos slots de módulo. A Usina solar se muda para o Núcleo 2. Dois módulos novos se encaixam nele: a **Impressora de munição** e a **Fábrica de foguetes**. Além disso, a Usina solar produz mais energia a partir do nível 7, para que uma estação completa continue coberta. Nada do que você construiu se perde: um Núcleo que já está no nível 10 ou mais tem a ponte na hora e não paga nada.
@@ -39,7 +39,7 @@ No nível 15 do Núcleo, o Skylab cresce mais uma vez e aprende a voar: uma **se
 - O **Núcleo** dita o ritmo: nenhum módulo passa dele, e a subida dele sozinha leva cerca de 16 dias e meio.
 - No **nível 10 do Núcleo**, uma **ponte** constrói o **Núcleo 2**, com seis slots a mais para módulos, e a **Impressora de munição**, a **Fábrica de foguetes** e a **Baía de minério** se encaixam nele. O passo para o nível 10 custa 2.000 Thulium a mais.
 - No **nível 15 do Núcleo**, uma segunda ponte constrói o **Núcleo 3**, e o **Módulo de motores**, o **Módulo de defesa**, o **Módulo de radar** e a **Baía de troféus** ocupam os slots dele: com eles o Skylab voa pelo mapa do universo e caça por conta própria. O passo para o nível 15 custa 4.000 Thulium a mais. [Veja Expedições](#expeditions).
-- **A Usina solar produz só 25% da sua energia enquanto é melhorada**, então as suas minas e os seus coletores param até ela terminar. [Planeje isso](#timing-a-solar-upgrade).
+- **A Usina solar continua produzindo toda a sua energia enquanto é melhorada**, então as suas minas e os seus coletores continuam funcionando durante qualquer melhoria da Usina solar. [Detalhes](#timing-a-solar-upgrade).
 
 ## Visão geral {#overview}
 
@@ -128,7 +128,7 @@ A energia é o sangue do Skylab. O módulo Usina solar produz a energia que todo
 - **Importância**: se o seu consumo de energia for maior que a energia produzida, as suas minas e os seus coletores param de produzir.
 - **Energia produzida**: um módulo Usina solar no nível N produz o bastante para **todos os outros módulos no nível N**, e cerca de um décimo a mais: 255 no nível 1, 965 no nível 7, 18.575 no nível 20. Uma Usina solar de nível 7 alimenta uma estação inteira no nível 7 (veja Gerenciamento de energia para todos os níveis).
 - **Preço**: construir a Usina solar custa **500 créditos e 50 Thulium**. As melhorias dela custam o mesmo e levam o mesmo tempo que as da Forja: de 8.000 créditos e 25 Thulium para o nível 2 (5 minutos) a 9.000.000 de créditos e 10.000 Thulium para o nível 20 (24 horas).
-- **Melhoria**: enquanto é melhorada, a Usina solar produz só **25%** da energia do seu nível atual, e a do novo nível a partir do momento em que a melhoria termina. Uma estação que usa mais do que isso para: toda mina e todo coletor deixam de produzir, e a Forja não inicia nenhum lote novo até a melhoria terminar. Para quase toda estação é assim: ela só continua funcionando durante a melhoria se todos os outros módulos estiverem pelo menos cinco níveis abaixo da Usina solar (seis níveis a partir do nível 10 da Usina solar). Planeje a melhoria da Usina solar como um apagão das suas minas (veja Construção e melhoria).
+- **Melhoria**: enquanto é melhorada, a Usina solar continua produzindo **toda** a energia do seu nível atual, e a do novo nível a partir do momento em que a melhoria termina. Assim, uma melhoria da Usina solar nunca para as suas minas e os seus coletores nem deixa a estação em déficit, e a Forja continua iniciando lotes, mesmo nas 24 horas do último nível (veja Construção e melhoria).
 - **Lugar**: a Usina solar fica na outra ponta da estação: no Núcleo 2 a partir do nível 10 do Núcleo e no Núcleo 3 a partir do nível 15 (veja [A ponte e o Núcleo 2](#the-bridge-and-core-2) e [A segunda ponte e o Núcleo 3](#the-second-bridge-and-core-3)).
 
 ### Mina de créditos e Mina de Thulium {#credit-farm-and-thulium-farm}
@@ -199,9 +199,9 @@ A melhoria do Núcleo para o **nível 10** constrói uma **ponte** e um segundo 
 
 A Impressora de munição imprime munição de laser do nada, de um tipo por vez: sem minério e sem créditos, só energia. Ela tem os níveis 1 a 20.
 
-- **Produção**: **x2** (Advanced Plasma) **100 por hora no nível 1, 2.000 no nível 20** (100 a mais a cada nível); **x3** (Ultra Core) metade disso, de 50 a 1.000; **x4** (Experimental Fusion Core) um quarto, de 25 a 500.
+- **Produção**: **x2** (Advanced Plasma) **200 por hora no nível 1, 4.000 no nível 20** (200 a mais a cada nível); **x3** (Ultra Core) metade disso, de 100 a 2.000; **x4** (Experimental Fusion Core) um quarto, de 50 a 1.000. O dobro do que produzia antes da 0.4.27. Desde a 0.5.0, os **modos x3 e x4 exigem a pesquisa** da munição deles, **Military Grade Ammo I e II** (a família Laser Ammo do Centro de Pesquisa): enquanto você não tiver pesquisado uma, o modo aparece bloqueado e não pode ser escolhido, e uma Impressora que estava nele antes produz x2 nesse meio-tempo (nada se perde, e a escolha volta quando a pesquisa termina). O modo x2 e a Fábrica de foguetes estão abertos a todos.
 - **Modo**: você escolhe x2, x3 ou x4 no cartão ou na ficha dela. Uma troca mantém as horas já armazenadas e passa a contá-las na taxa do novo modo.
-- **Armazenamento**: um dia, 24 horas de produção no nível e no tipo em uso (2.400 de x2 no nível 1, 48.000 no nível 20). O tempo offline conta, e um armazenamento cheio simplesmente para.
+- **Armazenamento**: um dia, 24 horas de produção no nível e no tipo em uso (4.800 de x2 no nível 1, 96.000 no nível 20). O tempo offline conta, e um armazenamento cheio simplesmente para.
 - **Coletar**: move as unidades inteiras para o seu inventário enquanto a sua **nave está pousada**. A munição não tem limite de carga, e a fração de uma unidade fica e continua contando.
 - **Energia**: 40 no nível 1, crescendo 20% por nível. Num déficit de energia ela para como as minas e os coletores, e o que ela guarda fica e pode ser coletado.
 - **Construção**: 20.000 créditos, 500 Thulium e 10 Ship Fragments (do seu inventário, com a nave pousada), só no Núcleo 2. As melhorias dela custam de 21.000 créditos e 140 Thulium a 5.600.000 créditos e 11.000 Thulium e levam o mesmo tempo que as da Forja, de 5 minutos a 24 horas e 5 d 13 h no total (veja as tabelas mais abaixo).
@@ -212,8 +212,8 @@ A Impressora de munição imprime munição de laser do nada, de um tipo por vez
 A Fábrica de foguetes fabrica foguetes da loja do nada, de um tipo por vez. Ela tem os níveis 1 a 20.
 
 - **O que ela faz**: um só dos doze foguetes da loja, o que você escolher: Lancet, Rivet, Scatter ou Ember, raridades I, II e III. O N.U.K.E. e o N.I.K.E. nunca são fabricados.
-- **Produção**: a raridade III faz **0,5 por hora no nível 1 e 10 no nível 20** (0,5 a mais a cada nível), a raridade II faz 1,25 vezes isso e a raridade I o dobro. Só contam foguetes inteiros: a fração de um fica e continua contando.
-- **Armazenamento**: um dia, 24 horas de produção no nível e com o foguete em uso (240 de raridade III no nível 20). O tempo offline conta, um armazenamento cheio simplesmente para, e uma troca de foguete mantém as horas já armazenadas.
+- **Produção**: a raridade III faz **1 por hora no nível 1 e 20 no nível 20** (1 a mais a cada nível), a raridade II faz 1,25 vezes isso e a raridade I o dobro. O dobro do que produzia antes da 0.4.27. Só contam foguetes inteiros: a fração de um fica e continua contando.
+- **Armazenamento**: um dia, 24 horas de produção no nível e com o foguete em uso (480 de raridade III no nível 20). O tempo offline conta, um armazenamento cheio simplesmente para, e uma troca de foguete mantém as horas já armazenadas.
 - **Coletar**: move os foguetes para o seu inventário enquanto a sua **nave está pousada**, quantos você puder carregar: no máximo 5.000 de raridade I, 2.000 de raridade II e 500 de raridade III, o limite da própria loja. O que não couber fica na fábrica.
 - **Energia**: 24 no nível 1, crescendo 15% por nível. Num déficit de energia ela para como a impressora.
 - **Construção**: 20.000 créditos, 500 Thulium e 15 Ship Fragments (do seu inventário, com a nave pousada), só no Núcleo 2. As melhorias dela custam um quarto das da impressora, de 5.300 créditos e 35 Thulium a 1.400.000 créditos e 2.800 Thulium, e levam o mesmo tempo: 5 d 13 h no total.
@@ -333,14 +333,14 @@ No total, os três níveis custam 3.250.000 créditos, 13.000 Thulium, 4 placas 
 A Baía de troféus guarda o que os abates do seu Skylab rendem até você coletar. Tem os níveis 1 a 20 e não exige tecnologia.
 
 - **O que guarda**: créditos, Thulium, experiência, honra e o espólio dos abates.
-- **A capacidade** é contada em **pontos de recompensa**: um abate soma a recompensa do alienígena, créditos divididos por 200 mais Thulium, seja o que for que ele solte (os valores de Alpha em todos os mundos). Ela guarda 650 pontos no nível 1 e 45.000 no nível 20.
-- **Cheia**: uma baía cheia faz o Skylab **parar de atirar**: nada é abatido, pago nem contado e nenhuma munição é gasta até você coletar (o casco continua se regenerando). Uma mensagem, um aviso rápido, uma etiqueta âmbar **Baía cheia** na barra da estação, um aviso na página do Skylab e a dica da linha do Skylab na barra lateral avisam.
+- **A capacidade** é contada em **itens de espólio**: só o espólio ocupa espaço. Créditos, Thulium, experiência e honra não ocupam nenhum, por mais que os abates tragam deles (desde a 0.4.27; antes, a recompensa de um abate enchia a baía). Ela guarda 650 itens no nível 1 e 45.000 no nível 20. Um Seeker rende cerca de um item por abate, então uma baía enche cerca de dez vezes mais devagar do que enchia.
+- **Cheia**: uma baía cheia faz o Skylab **parar de atirar**: nada é abatido, pago nem contado e nenhuma munição é gasta até você coletar (o casco continua se regenerando). Uma mensagem, um aviso rápido, uma etiqueta âmbar **Baía cheia** na barra da estação, um aviso na página do Skylab e a dica da linha do Skylab na barra lateral avisam, no momento em que ela enche, também enquanto o Skylab está em viagem.
 - **Coletar** na janela Universo, com a nave pousada: créditos e Thulium vão para a sua conta, experiência e honra para o seu piloto e o espólio para o seu inventário. Duas coletas ao mesmo tempo pagam uma vez só.
 - **O espólio** é sorteado a cada abate a partir do que o alienígena solta, nunca Dark Matter, Ancient Control Units, N.I.K.E.s ou N.U.K.E.s. Ele é **não vendável**: não pode ser vendido no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energia**: 20 no nível 1, crescendo 10% por nível. Pode ser desligada, mas não enquanto o Skylab está em viagem.
 - **Construção**: 100.000 créditos, 400 Thulium e 10 Ship Fragments, só no Núcleo 3. As melhorias dela custam de 117.500 créditos e 470 Thulium (15 minutos) a 2.325.000 créditos e 9.300 Thulium (1 d 13 h): 14.722.500 créditos e 58.890 Thulium no total, e 6 d 8 h.
 
-| Nível | Capacidade (pontos) | Créditos | Thulium | Tempo |
+| Nível | Capacidade (itens) | Créditos | Thulium | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (a construção) | 650 | 100.000 | 400 | – |
 | 2 | 810 | 117.500 | 470 | 15 min |
@@ -349,15 +349,15 @@ A Baía de troféus guarda o que os abates do seu Skylab rendem até você colet
 | 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
 | 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
-Quanto tempo uma baía leva para encher quando o Skylab ganha todo o orçamento de abates do seu nível de defesa (uma baía menor enche mais rápido, um orçamento menor mais devagar):
+Quanto tempo uma baía leva para encher quando o Skylab ganha todo o orçamento de abates do seu nível de defesa numa célula dessa dificuldade, com o espólio que esses alienígenas rendem (uma baía menor enche mais rápido, um orçamento menor mais devagar):
 
 | Nível de defesa | Baía nível 1 | Baía nível 5 | Baía nível 10 | Baía nível 15 | Baía nível 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 h 1 min | 14 h 49 min | 1 d 20 h | 5 d 19 h | 17 d 9 h |
-| 2 | 2 h 13 min | 5 h 28 min | 16 h 23 min | 2 d 3 h | 6 d 10 h |
-| 3 | 1 h 22 min | 3 h 22 min | 10 h 5 min | 1 d 8 h | 3 d 22 h |
-| 4 | 1 h 11 min | 2 h 55 min | 8 h 46 min | 1 d 3 h | 3 d 10 h |
-| 5 | 1 h 2 min | 2 h 32 min | 7 h 37 min | 23 h 49 min | 2 d 23 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
 
 ## Peso e velocidade {#weight-and-speed}
 
@@ -386,7 +386,7 @@ Todo módulo pesa alguma coisa, em **unidades de massa (MU)**, e uma estação m
 O nível máximo é 20, exceto para o Centro de Pesquisa (10), os módulos de motores e de defesa (5) e o módulo de radar (3). A estação inteira pesa 2.353 MU no nível 15 do Núcleo e 2.734 MU no nível 20.
 
 - **O empuxo** é a aritmética de motores das naves, sem velocidade base: um motor soma a velocidade base dele mais a velocidade fixa dos propulsores, vezes os multiplicadores deles; os motores são ordenados do melhor ao pior, os quatro primeiros contam 100% e o quinto 85% (o módulo comporta cinco, no máximo); e os quatro melhores bônus de velocidade são somados por cima. Uma estação sem motor não tem empuxo.
-- **A velocidade** é 60 vezes o empuxo dividido pelo peso da estação, em unidades por segundo, e um salto entre duas células vizinhas é de 15.000 unidades. Abaixo da energia, a página do Skylab mostra a linha “Peso 2.353 MU, velocidade 7,8 unidades/s, um salto 32 min”.
+- **A velocidade** é 60 vezes o empuxo dividido pelo peso da estação, em unidades por segundo, e um salto entre duas células vizinhas é de 15.000 unidades. Abaixo da energia, a página do Skylab mostra a linha “Peso 2.353 MU, velocidade 7,5 unidades/s, um salto 33 min”.
 - **Fixada na saída**: a velocidade de uma viagem é calculada na saída, a partir do peso e do empuxo daquele momento. Uma melhoria que termina no caminho, ou um motor que você troca enquanto o Skylab está estacionado, vale para a próxima viagem.
 
 O que os motores fazem por uma estação com todos os módulos no nível 15 (o Módulo de motores no nível que comporta os motores):
@@ -394,10 +394,10 @@ O que os motores fazem por uma estação com todos os módulos no nível 15 (o M
 | Motores montados | Peso (MU) | Empuxo | Velocidade (unidades por segundo) | Um salto | Atravessar o mapa (14 saltos) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Módulo de motores nível 1) | 2.289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, cada um com 2 Impulse Thruster II (nível 3) | 2.321 | 73,6 | 1,90 | 2 h 11 min | 1 d 7 h |
-| 5 Engine III, cada um com 3 Impulse Thruster IV (nível 5) | 2.353 | 305,5 | 7,79 | 32 min | 7 h 29 min |
+| 3 Engine II, cada um com 2 Impulse Thruster II (nível 3) | 2.321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
+| 5 Engine III, cada um com 3 Impulse Thruster IV (nível 5) | 2.353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
 
-No nível 20 do Núcleo a estação pesa 16% a mais, e os melhores motores levam 37 minutos por salto e 8 h 42 min para atravessar o mapa.
+No nível 20 do Núcleo a estação pesa 16% a mais, e os melhores motores levam 39 minutos por salto e 9 h para atravessar o mapa.
 
 ## Expedições {#expeditions}
 
@@ -529,9 +529,10 @@ Os pilotos do seu clã veem onde estão os Skylabs uns dos outros: a coluna **Sk
 - **Tempo e custo**: as melhorias custam créditos e Thulium e levam tempo, e cada módulo tem o próprio preço e o próprio tempo para cada nível (passe o mouse sobre **Melhorar** para ver o próximo; os totais estão abaixo). O preço é pago quando você inicia a melhoria. O custo não depende do tempo. Os módulos de motores, de defesa e de radar também exigem Dark Matter Plates e a tecnologia do nível (veja [A segunda ponte e o Núcleo 3](#the-second-bridge-and-core-3)).
 - **Temporizadores**: uma melhoria corre no relógio do servidor, então termina enquanto você está fora, dias depois se for preciso. Comece-a, desconecte, volte: o módulo está no novo nível quando você abre a página do Skylab.
 - **Acelerar uma melhoria**: um [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) conclui na hora uma melhoria em andamento, e um [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) contratado como **Engineer** faz as melhorias andarem em velocidade dobrada por 1 hora. Nenhum dos dois reembolsa nem cobra nada: o preço foi pago quando a melhoria começou.
+- **Cancelar uma melhoria**: uma melhoria em andamento pode ser cancelada, e você recebe **tudo** de volta: os créditos, o Thulium e as Dark Matter Plates que ela custou, exatamente como você pagou ao iniciar, mesmo que os preços tenham mudado desde então. Só o tempo se perde. O módulo volta a ser como era: o mesmo nível, o mesmo interruptor, e o que ele tinha armazenado é mantido (parado, ele não produziu nada). Uma melhoria que já terminou não pode ser cancelada; o jogo avisa e não leva nada.
 - **Tempos de melhoria**: os primeiros níveis são rápidos e os últimos levam até 37 horas, os do Núcleo até 6 dias (veja as tabelas abaixo). Cada módulo tem o seu próprio timer, então você pode melhorar vários ao mesmo tempo.
-- **Pausa na produção**: enquanto um módulo está sendo melhorado, ele fica offline: não produz nada e não usa energia. A Usina solar é a exceção: ela continua produzindo um quarto da sua energia (veja abaixo).
-- **A Usina solar produz só 25% da sua energia enquanto é melhorada**: a Usina solar produz toda a energia do Skylab e, enquanto é melhorada (24 horas no último nível), produz um quarto da energia do nível **atual**; a do novo nível assume no momento em que a melhoria termina. Uma estação completa usa cerca de 90% do que a Usina solar produz no próprio nível, então um quarto disso sustenta uma estação só de cinco a seis níveis abaixo da Usina solar. Caso contrário, toda mina e todo coletor param durante toda a melhoria, o que você guardou continua lá e pode ser coletado, e a Forja não inicia nenhum lote novo. Um módulo em melhoria ou desligado não usa energia, então melhorar as minas junto com a Usina solar não custa nada a mais, e desligar módulos abre espaço para os outros; a Mina de Thulium é, de longe, a que mais consome.
+- **Pausa na produção**: enquanto um módulo está sendo melhorado, ele fica offline: não produz nada e não usa energia. A Usina solar é a exceção: ela continua produzindo toda a energia do seu nível atual (veja abaixo).
+- **A Usina solar mantém toda a sua energia enquanto é melhorada**: a Usina solar produz toda a energia do Skylab e, enquanto é melhorada (24 horas no último nível), continua produzindo toda a energia do nível **atual**; a do novo nível assume no momento em que a melhoria termina. Assim, as minas e os coletores continuam produzindo, a Forja continua iniciando lotes e nada se perde durante toda a melhoria. Um módulo em melhoria ou desligado não usa energia, então melhorar as minas junto com a Usina solar não custa nada a mais, e desligar módulos abre espaço para os outros; a Mina de Thulium é, de longe, a que mais consome.
 
 ### Quanto custa {#what-it-costs}
 
@@ -638,7 +639,7 @@ O seu Skylab tem um orçamento de energia limitado.
 - **A Usina solar acompanha**: uma Usina solar de nível N produz a energia de **todos os outros módulos no nível N** (o Núcleo, as duas minas, o Depósito de recursos, os dois coletores e a Forja, e a partir do nível 10 o Centro de Pesquisa e a Baía de minério) e cerca de um décimo a mais, então uma estação cujos módulos estão todos no nível 7 precisa de Usina solar 7 e está coberta. Uma Usina solar um nível abaixo não basta para uma estação completa (a última coluna), então a Usina solar precisa continuar subindo com o resto. O Núcleo consome pouco, então pode ir na frente: Usina solar 5 ou mais cobre uma estação completa no nível dela com o Núcleo em qualquer nível. A tabela abaixo também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10, e os módulos de motores, de defesa e de radar e a Baía de troféus a partir do nível 11 (são construídos a partir do nível 15 do Núcleo e contam quatro níveis antes, porque o Núcleo pode estar à frente da Usina solar), cada um no máximo no seu próprio nível máximo.
 - **Estado ativo**: você pode ligar e desligar as minas, os coletores e a Forja para gerenciar a energia. O Núcleo, a Usina solar, o Depósito de recursos e o Centro de Pesquisa sempre funcionam. A Impressora de munição, a Fábrica de foguetes e a Baía de minério também podem ser ligadas e desligadas, e os quatro módulos da Expedição também (não enquanto uma viagem está em andamento).
 - **Déficit de energia**: se o consumo de energia superar a produção, todas as minas e coletores param de produzir até o equilíbrio voltar. O que já guardam fica, e você ainda pode coletar. A Forja não começa nenhum lote novo e o Centro de Pesquisa nenhuma pesquisa nova (uma pesquisa já em andamento continua). A Impressora de munição, a Fábrica de foguetes e a Baía de minério param como as minas e os coletores. O Módulo de defesa não combate nada, os escaneamentos do radar ficam parados e nenhuma viagem pode começar (uma viagem em andamento continua).
-- **Melhoria da Usina solar**: enquanto é melhorada, a Usina solar produz só um quarto da sua energia, então, se os seus outros módulos não estiverem bem abaixo, a estação entra em déficit e as minas e os coletores param até a melhoria terminar (veja [Módulo Usina solar](#solar-module)).
+- **Melhoria da Usina solar**: enquanto é melhorada, a Usina solar continua produzindo toda a energia do seu nível atual, então uma melhoria da Usina solar nunca deixa a estação em déficit (veja [Módulo Usina solar](#solar-module)).
 
 A energia da Usina solar em cada nível, em relação ao que os outros módulos consomem no mesmo nível (todos os módulos naquele nível, o Núcleo incluído, e o Centro de Pesquisa e a Baía de minério a partir do nível 10, e os quatro módulos da Expedição a partir do nível 11):
 
@@ -708,30 +709,29 @@ O Skylab leva semanas para crescer, então um pouco de planejamento compensa. Os
 
 ### Planejando uma melhoria da Usina solar {#timing-a-solar-upgrade}
 
-Enquanto a Usina solar é melhorada, ela produz um quarto da própria energia, e uma estação quase sempre consome mais que isso. As minas e os coletores então param durante toda a melhoria: o que guardam fica, mas o que teriam produzido se perde. A tabela dá, para cada passo da Usina solar, o tempo dele, a maior estação que ainda passa por ele (todos os módulos no mesmo nível, o Núcleo e a cadeia de suprimentos incluídos; uma estação menor aguenta um pouco mais) e o que uma Mina de créditos e uma Mina de Thulium desse nível teriam produzido nesse tempo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 teriam produzido nelas 135.000 créditos e 1.440 Thulium. A tabela também conta a Impressora de munição a partir do nível 7, a Fábrica de foguetes e a Baía de minério a partir do nível 10 e os quatro módulos da Expedição a partir do nível 15.
+Enquanto a Usina solar é melhorada, ela continua produzindo toda a energia do nível atual, então nada na sua estação para: as minas, os coletores, a Forja e o resto funcionam durante toda a melhoria, seja o que for que você tenha construído. Você só espera. A tabela dá, para cada passo da Usina solar, o tempo dele e o que uma Mina de créditos e uma Mina de Thulium desse nível produzem nesse tempo, e que continuam produzindo o tempo todo. Por exemplo, a Usina solar do nível 10 ao 11 leva 4 horas, e minas de nível 10 produzem nelas 135.000 créditos e 1.440 Thulium.
 
-| Melhoria da Usina solar | Tempo | Estação que continua funcionando, até o nível | A Mina de créditos produz nesse tempo | A Mina de Thulium produz nesse tempo |
-| :--- | ---: | ---: | ---: | ---: |
-| 1 a 2 | 5 min | nenhuma | 188 | 3 |
-| 2 a 3 | 15 min | nenhuma | 1.125 | 16 |
-| 3 a 4 | 30 min | nenhuma | 3.375 | 44 |
-| 4 a 5 | 45 min | nenhuma | 6.750 | 84 |
-| 5 a 6 | 1 h | nenhuma | 11.250 | 144 |
-| 6 a 7 | 1 h 15 min | nenhuma | 19.688 | 230 |
-| 7 a 8 | 1 h 30 min | 1 | 30.375 | 336 |
-| 8 a 9 | 2 h | 2 | 49.500 | 528 |
-| 9 a 10 | 3 h | 3 | 87.750 | 912 |
-| 10 a 11 | 4 h | 5 | 135.000 | 1.440 |
-| 11 a 12 | 5 h | 6 | 202.500 | 2.200 |
-| 12 a 13 | 6 h | 7 | 297.000 | 3.120 |
-| 13 a 14 | 8 h | 7 | 468.000 | 4.800 |
-| 14 a 15 | 10 h | 8 | 675.000 | 6.800 |
-| 15 a 16 | 12 h | 9 | 918.000 | 9.120 |
-| 16 a 17 | 16 h | 10 | 1.440.000 | 14.080 |
-| 17 a 18 | 18 h | 11 | 1.944.000 | 18.000 |
-| 18 a 19 | 20 h | 12 | 2.610.000 | 22.400 |
-| 19 a 20 | 1 d | 13 | 3.780.000 | 28.800 |
+| Melhoria da Usina solar | Tempo | A Mina de créditos produz nesse tempo | A Mina de Thulium produz nesse tempo |
+| :--- | ---: | ---: | ---: |
+| 1 a 2 | 5 min | 188 | 3 |
+| 2 a 3 | 15 min | 1.125 | 16 |
+| 3 a 4 | 30 min | 3.375 | 44 |
+| 4 a 5 | 45 min | 6.750 | 84 |
+| 5 a 6 | 1 h | 11.250 | 144 |
+| 6 a 7 | 1 h 15 min | 19.688 | 230 |
+| 7 a 8 | 1 h 30 min | 30.375 | 336 |
+| 8 a 9 | 2 h | 49.500 | 528 |
+| 9 a 10 | 3 h | 87.750 | 912 |
+| 10 a 11 | 4 h | 135.000 | 1.440 |
+| 11 a 12 | 5 h | 202.500 | 2.200 |
+| 12 a 13 | 6 h | 297.000 | 3.120 |
+| 13 a 14 | 8 h | 468.000 | 4.800 |
+| 14 a 15 | 10 h | 675.000 | 6.800 |
+| 15 a 16 | 12 h | 918.000 | 9.120 |
+| 16 a 17 | 16 h | 1.440.000 | 14.080 |
+| 17 a 18 | 18 h | 1.944.000 | 18.000 |
+| 18 a 19 | 20 h | 2.610.000 | 22.400 |
+| 19 a 20 | 1 d | 3.780.000 | 28.800 |
 
-- **Melhore as minas junto com a Usina solar.** Um módulo em melhoria não produz nada e não usa energia de qualquer jeito, então o tempo que uma mina passa em melhoria durante a pausa não custa nada a mais.
-- **Mantenha os outros módulos baixos se você não pode pagar uma pausa.** Uma estação só continua funcionando durante a melhoria da Usina solar se todos os outros módulos dela estiverem pelo menos cinco níveis abaixo da Usina solar (seis a partir do nível 10 da Usina solar), e uma estação completa precisa de um pouco mais, como a tabela mostra.
+- **Comece uma melhoria da Usina solar quando quiser.** Ela não custa nada à sua estação enquanto dura: nenhuma pausa, nenhum apagão, nenhuma mina parada. Só a energia do novo nível precisa esperar o fim do cronômetro, então mantenha a Usina solar no nível dos seus outros módulos.
 - **Desligue o que você puder dispensar.** Um módulo desligado não usa energia, então desligar a Mina de Thulium, a que mais consome (80 no nível 1, e 30% a mais a cada nível), abre espaço para os outros.

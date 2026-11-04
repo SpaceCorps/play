@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Dev ekskavatör -->
 # Dev ekskavatör {#giant-excavator}
 
@@ -29,14 +29,14 @@
 ## Bir çalışma nasıl geçer {#how-a-run-goes}
 
 1. **Birini bul.** Sezonun 11. gününden itibaren, pulsarı olan üç Tehlike Sektörü’nün her birinde, her dünyada, bir ekskavatör vardır. Yakınındayken üzerinde **Ekskavatör** etiketi asılı durur ve Yıldız Sistemi haritası ekskavatörü olan her Tehlike Sektörü’nü işaretler: işaretin rengi ekskavatörün durumudur ve ipucu bir sonraki değişikliğe kalan süreyi söyler.
-2. **Paneli aç.** Etikete tıkla. **Dev ekskavatör** paneli, gemin ekskavatöre panelin menzili içinde olduğu sürece çalışır (menzil *Bir bakışta* listesinde yazar). Gizlenmiş bir gemi kullanabilir ve kullanmak gizlenmeyi bitirmez.
+2. **Paneli aç.** Etikete tıkla. **Dev ekskavatör** paneli, gemin ekskavatöre panelin menzili içinde olduğu sürece çalışır (menzil *Bir bakışta* listesinde yazar). Gizlenmiş bir gemi kullanamaz: pencerenin düğmeleri kapalıdır ve gizlenme bitene kadar her işlem reddedilir.
 3. **Yakıt koy.** **Dark Matter ekle** kargondan depoya bir Dark Matter koyar. Herkes yapabilir. Depo, ekskavatörün aşırı ısınmadan önce yakabileceğinden fazlasını almaz; bu yüzden hiç yakıt boşa gitmez.
 4. **Neyin kazılacağını** listeden seç, sonra **Kazıyı başlat** düğmesine bas. Depoda en az bir Dark Matter ve bir kaynak gerekir. Herkes seçimi başlangıca kadar ve çalışırken de değiştirebilir (aşağıdaki *Kaynağı değiştirmek* bölümüne bak). Başlangıç dünyadaki her pilota duyurulur; seni, sektörü ve kaynağı adıyla söyler.
 5. **Ekskavatörü tut.** Kazarken ekskavatörün çevresine birkaç saniyede bir kutu bırakılır ve ilk Slumbering Void uzaylıları başlangıçtan kısa süre sonra gelir. Pulsardan ekskavatörün matkabına bir ışık akışı akar; yıldızın atışıyla, 4 saniyede bir yükselir, aşırı ısınmadan önceki son dakikada titreyip dağılır ve makine dinlendiğinde durur. Ekskavatörü savun ve kutuları topla.
 6. **Isıyı izle.** Isı çubuğu ekskavatör kazarken dolar ve beklerken asla boşalmaz. Sınırında ekskavatör aşırı ısınır. Öncesinde ayrıl: oyun haritayı iki kez uyarır.
 7. **Dinlenir.** Aşırı ısınmış ya da yok edilmiş ekskavatör ile pulsarı, dinlenme bitene kadar radyasyonla kaplanır; sonra ısısı sıfırlanmış ve gövdesi dolu olarak yeniden hazırdır.
 
-Panel ayrıca sektörü, depoyu (her Dark Matter için bir hücre; yanmakta olan kısmen dolu çizilir), kaç Dark Matter taşıdığını, ekskavatörün gövdesini, her kaynağın senin dünyanda dakikada ne bıraktığını ve kazarken şu an kazılan kaynağı, ekskavatör en son soğuduğundan beri her kaynağın ne bıraktığını, sonraki dalgaya kalan süreyi ve hayattaki Void sayısını gösterir. Bir şey reddedildiğinde nedenini kırmızıyla okursun: panele çok uzaksın, Dark Matter’ın yok, depo dolu, henüz yakıt yok ya da kaynak seçilmedi, ekskavatör zaten çalışıyor, bir geçiş sonuncudan çok kısa süre sonra yapıldı ya da ekskavatör sıcak.
+Panel ayrıca sektörü, depoyu (her Dark Matter için bir hücre; yanmakta olan kısmen dolu çizilir), kaç Dark Matter taşıdığını, ekskavatörün gövdesini, her kaynağın senin dünyanda dakikada ne bıraktığını ve kazarken şu an kazılan kaynağı, ekskavatör en son soğuduğundan beri her kaynağın ne bıraktığını, sonraki dalgaya kalan süreyi ve hayattaki Void sayısını gösterir. Bir şey reddedildiğinde nedenini kırmızıyla okursun: panele çok uzaksın, Dark Matter’ın yok, depo dolu, henüz yakıt yok ya da kaynak seçilmedi, ekskavatör zaten çalışıyor, bir geçiş sonuncudan çok kısa süre sonra yapıldı, ekskavatör sıcak ya da geminin gizlenmiş durumda.
 
 ### Kaynağı değiştirmek {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Yakıt sınıra ulaşılmadan biterse ekskavatör ısısı korunarak **Hazır** 
 
 ## Ne kazar {#what-it-mines}
 
-Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutunun içindekiler herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir. Ama bir kutudan aldığın değişebilir: Pilot araştırması Excavator Mining’in ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her seviyesi, topladığın Thulium’u ve cevheri toplamda %20, %30 ya da %40 artırır, aşağı yuvarlanarak.
+Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutunun içindekiler herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir. Kutuların büyüklüğünü çalışmayı başlatan belirler: **Kazıyı başlat** düğmesine basan pilotun Pilot araştırması Excavator Mining’in ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her seviyesi, o çalışmanın her kutusunun toplamda %20, %30 ya da %40 daha fazla içermesini sağlar; Thulium’da da cevherde de, tüm çalışma boyunca, yakıtı kim koyarsa, kaynağı kim değiştirirse ya da kutuları kim toplarsa toplasın. Kontrol paneli çalışmanın kimin olduğunu ve kutularının hangi payı taşıdığını gösterir, Excavator Mining’e sahip bir pilota da bunun kendi başlattığı çalışmalarda geçerli olduğunu söyler. Aşağıdaki miktarlar bunsuz değerlerdir; bir kaynağın bir çalışmada bırakabileceği en yüksek miktarın üstüne eklenir.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ Ekskavatörün **özel bir halkası yok**: dünyanın olağan kuralları geçerl
 Bunlar Sistem satırlarıdır (sohbetin **Sistem** sekmesinde ve Oyun Günlüğü’nde görünür; **Genel** ya da **Yerel** sekmesinde görünmez). İlk üçü tüm dünyaya gider; sonuncusu ekskavatörün sektöründeki pilotlara.
 
 - Etkinlik 2’nin başladığı gün: Tehlike Sektörleri değişti.
-- Bir pilot bir ekskavatörü **başlatır**; sektörü, kaynağı ve yakıtın dakikasını söyler.
+- Bir pilot bir ekskavatörü **başlatır**; sektörü, kaynağı ve yakıtın dakikasını söyler, pilotun Excavator Mining payı varsa onu da söyler.
 - Ekskavatör **aşırı ısınır** ya da **yok edilir**.
 - Bir pilot kazı yapan bir çalışmanın kaynağını **değiştirir**, yeni kaynağı söyleyerek. Yakıt biter; ekskavatör aşırı ısınmak üzeredir (iki kez); bir Void **dalgası** geliyor, sayısıyla ve haritanın hangi tarafından geldiğiyle; hiçbir pilot kalmadı, bu yüzden Void uzaylıları ekskavatöre saldırıyor.
 

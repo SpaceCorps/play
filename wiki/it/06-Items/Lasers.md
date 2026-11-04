@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Batterie consumabili che moltiplicano il danno delle tue raffiche laser:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Comune | 1,0x | – | 5 crediti |
 | **Advanced Plasma** | Raro | 2,0x | – | 0,5 Thulium |
-| **Ultra Core** | Raro | 3,0x | 5% | 1,0 Thulium |
-| **Experimental Fusion Core** | Epico | 4,0x | 10% | 2,2 Thulium |
-| **Siphon Battery** | Raro | 1,0x, solo scudi | – | 0,25 Thulium |
+| **Ultra Core** | Raro | 3,0x | 5% | 1,0 Thulium, oppure da creare |
+| **Experimental Fusion Core** | Epico | 4,0x | 10% | Solo da creare (non più in vendita) |
+| **Siphon Battery** | Raro | 1,0x, solo scudi | – | 50 crediti |
+| **Siphon Battery II** | Raro | 0,5x, solo scudi, ruba il doppio | – | Solo da creare |
+| **Antimatter Battery I** | Raro | 2,0x | 20% | Solo da creare |
+| **Antimatter Battery II** | Epico | 3,0x | 20% | Solo da creare |
+| **Dark Matter Ammo I** | Raro | da 1,5x a 5x, estratto a ogni raffica (3,25x in media) | – | Solo da creare |
+| **Dark Matter Ammo II** | Epico | 6,0x, una raffica ogni 1,5 s, risucchia lo scudo del bersaglio | – | Solo da creare |
 
-La **penetrazione dello scudo** viene tolta all’assorbimento del bersaglio per ogni colpo delle tue raffiche: gli scudi prendono l’assorbimento del bersaglio meno la penetrazione (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)). I tuoi Penetration Amp e una formazione di droni si sommano a quella delle munizioni, e la somma intera è [più sotto in questa pagina](#shield-penetration-of-a-laser-hit). Contro una nave all’80% (il miglior scudo con le migliori celle) il 10% delle munizioni x4 lascia agli scudi il 70% del colpo e allo scafo il 30%. Conta di più contro le navi il cui scafo è piccolo rispetto allo scudo; una nave molto grande all’80% regge allo stesso modo in entrambi i casi. Gli alieni non hanno una vera statistica di assorbimento (i loro scudi prendono l’80% di un colpo), e la penetrazione si toglie anche da quello.
+**Da dove arrivano le nuove munizioni.** Dalla 0.5.0 l’Experimental Fusion Core non è più in vendita: lo crei tu, 1.000 alla volta, nell’[Assemblaggio](/wiki/06-Items/Overview.md#the-production-queue), dopo aver ricercato **Military Grade Ammo II** nel Centro ricerche dello Skylab. L’Ultra Core si può ancora comprare e si può anche creare (**Military Grade Ammo I**, 30 minuti di ricerca). Cinque nuove munizioni si ottengono solo creandole, ciascuna dietro una tecnologia della famiglia **Laser Ammo** e ciascuna fatta con la munizione che la precede: **Siphon Battery II** (da Siphon Battery), **Antimatter Battery I** (da Siphon Battery II) e **II** (da Antimatter Battery I e un po’ di [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (da materie prime e un Dark Matter) e **II** (da Dark Matter Ammo I e Dark Matter). Una creazione sono 1.000 unità, da 5 a 15 minuti, e un’unità costa all’incirca quanto vale. La [Stampante di munizioni](/wiki/03-Mechanics/Skylab.md) produce anche l’Ultra Core e l’Experimental Fusion Core, una volta ricercati.
+
+La **penetrazione dello scudo** viene tolta all’assorbimento del bersaglio per ogni colpo delle tue raffiche: gli scudi prendono l’assorbimento del bersaglio meno la penetrazione (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)). I tuoi Penetration Amp e una formazione di droni si sommano a quella delle munizioni, e la somma intera è [più sotto in questa pagina](#shield-penetration-of-a-laser-hit). Contro una nave all’85% (il miglior scudo con le migliori celle) il 10% delle munizioni x4 lascia agli scudi il 75% del colpo e allo scafo il 25%, e il 20% delle munizioni Antimatter ne lascia loro il 65% e allo scafo il 35%. Conta di più contro le navi il cui scafo è piccolo rispetto allo scudo; una nave molto grande all’85% regge allo stesso modo in entrambi i casi. Gli alieni non hanno una vera statistica di assorbimento (i loro scudi prendono l’80% di un colpo), e la penetrazione si toglie anche da quello.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ La Siphon Battery è una munizione per rubare scudi invece di spaccare scafi. In
 - **I colpi critici** contano: una raffica critica drena 1,5 volte tanto e il suo numero viene mostrato come colpo critico. I suoi pacchetti sono più grandi e luminosi, e lo scudo del bersaglio si accende più forte.
 - I [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) sparano munizioni standard x1.
 
+La **Siphon Battery II** funziona allo stesso modo, con i numeri capovolti: sottrae allo scudo del bersaglio **la metà** di una Siphon Battery (x0,5) e ti accredita **il doppio** di quanto ha sottratto (un furto di 2,0), così il tuo scudo guadagna esattamente quanto dà la raffica di una Siphon Battery mentre il bersaglio ne perde la metà. Si crea (ricerca **Siphon Battery II**, da 1.000 Siphon Battery) e, come la prima, non tocca mai lo scafo.
+
+---
+
+## Munizioni Antimatter e Dark Matter {#antimatter-and-dark-matter-ammo}
+
+Le **Antimatter Battery I e II** perforano gli scudi: **20%** di penetrazione ciascuna, in aggiunta ai tuoi amp e alla tua formazione, con danno x2 e x3. Contro una nave il cui scudo è grande rispetto allo scafo, aprono lo scafo prima dell’Experimental Fusion Core; contro tutto il resto, l’x4 resta il colpo più duro. Sono una scelta, non un gradino in più.
+
+La **Dark Matter Ammo I** estrae il suo moltiplicatore **a ogni raffica**, da qualche parte tra **x1,5 e x5** (x3,25 in media). Tutta la nave condivide un solo tiro, a prescindere dal numero di laser, quindi una raffica è fortunata o sfortunata per tutti insieme. Spara ogni secondo come ogni munizione.
+
+La **Dark Matter Ammo II** colpisce a **x6**, ma solo **una raffica ogni 1,5 secondi** (lo stesso danno al secondo di un x4), e **risucchia lo scudo**: guadagni il 25% del danno che lo scudo del bersaglio ha davvero subito, fino al tuo massimo. Il colpo arriva come tutti gli altri (gli scudi prendono la loro parte e lo scafo il resto) e un bersaglio senza più scudo non ti dà nulla. Guadagnare scudo non è subire danno, quindi non ritarda la rigenerazione del tuo scudo.
+
 ---
 
 ## Penetrazione dello scudo di un colpo laser {#shield-penetration-of-a-laser-hit}
 
-Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +15%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). **Niente limita il totale** (un razzo diretto somma allo stesso modo la propria penetrazione e quella della formazione: [Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +15%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). **Niente limita il totale** (un razzo diretto somma allo stesso modo la propria penetrazione e quella della formazione: [Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser fanno 36%; un Penetration Amp IV in un laser su dodici fa 1%. Un Wraith ha 12 laser e 36 slot amp, e vanno riempiti tutti e 36 per arrivare al 36%.
 - **L’Hangar lo mostra.** Le statistiche di combattimento dell’Hangar hanno un riquadro **Penetrazione** su ogni nave, con il valore degli amp laser della configurazione mostrata (0,0% senza Penetration Amp); munizioni e formazione non ne fanno parte. La finestra **Nave** in volo ha un chip **Penetrazione** in fondo alla riga in basso (i chip della configurazione e della velocità mostrano solo un’icona e un numero per fargli posto): mostra il totale di un colpo laser, i tuoi amp, la formazione che indossi e le munizioni che spari, sommati non appena cambi qualcosa, e il suo suggerimento elenca le tre parti.
-- **Il miglior laser fa il 61%.** Un Experimental Fusion Core (10%), un Gemini (15%) e tre Penetration Amp IV in ogni laser (36%) fanno 61%.
+- **Il miglior laser fa il 61% con l’x4, il 71% con l’Antimatter.** Un Experimental Fusion Core (10%), un Gemini (15%) e tre Penetration Amp IV in ogni laser (36%) fanno 61%; una Antimatter Battery (20%) al suo posto fa 71%, con danno x3 invece di x4.
 - **Un bonus della Forgia su un Penetration Amp IV conta.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 13,1–13,8 punti invece di 12. Nella configurazione migliore, tre Eterni fanno 66,4%, e ogni punto conta.
 
 | Raffica laser | Munizioni | Amp (3 slot) | Formazione | Totale |
@@ -189,19 +215,19 @@ Cosa fa questo agli scudi del bersaglio: ogni cella è la quota di un colpo che 
 | Difensore (assorbimento) | Senza amp | Fusion Core da solo (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | Il miglior laser (61%) |
 |---|---|---|---|---|---|
 | Light Shield Core, senza celle (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, senza celle (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, senza celle (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Il miglior scudo di serie (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| Il miglior scudo, Forgia Eterna (miglior tiro) e 44 livelli dell’Emporio (96,4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| Il miglior scudo, Forgia Eterna (miglior tiro) e l’Emporio al suo limite (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70%) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Il miglior scudo di serie (85%) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| Il miglior scudo, Forgia Eterna (miglior tiro) e 44 livelli dell’Emporio (102,2%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Il miglior scudo, Forgia Eterna (miglior tiro) e l’Emporio al suo limite (107,8%) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Qualsiasi alieno (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Il miglior laser svuota un nucleo scudo senza cella e un Light Shield Core con la sua cella migliore (lo scafo prende tutto il colpo); un Heavy Shield Core con tre celle Capacity conserva il 4% di ogni colpo, e il miglior scudo ne conserva il 19% (il 35% con i bonus). Un razzo da solo non svuota mai uno scudo (al massimo il 35%), ma un Lancet III o un Rivet III con uno Stiletto (il 70%) sì.
+Il miglior laser svuota un nucleo scudo senza cella e un Light Shield Core con la sua cella migliore (lo scafo prende tutto il colpo); un Heavy Shield Core con tre celle Capacity conserva il 9% di ogni colpo, e il miglior scudo ne conserva il 24% (il 41% con i bonus). Un razzo da solo non svuota mai uno scudo (al massimo il 35%), ma un Lancet III o un Rivet III con uno Stiletto (il 70%) sì.
 
 ### Quando vale uno slot un Penetration Amp? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contrasta l’assorbimento, e più è alto, più conta: contro una nave con scafo piccolo a circa il 95% (configurazioni con Emporio, Forgia e Rampart) un assetto di Penetration uccide circa 1,8 volte più in fretta del miglior assetto semplice, e contro il miglior scudo di serie (80%) un trio di Penetration Amp impiega circa l’11% di tempo in meno di un trio di Crit Amp dello stesso tier. Contro gli alieni guadagna quasi nulla.**
+**Un Penetration Amp contrasta l’assorbimento, e più è alto, più conta: contro una nave con scafo piccolo a circa il 101% (configurazioni con Emporio, Forgia e Rampart) un assetto di Penetration uccide circa 2,6 volte più in fretta del miglior assetto semplice, e contro il miglior scudo di serie (85%) un trio di Penetration Amp impiega circa l’19% di tempo in meno di un trio di Crit Amp dello stesso tier. Contro gli alieni guadagna quasi nulla.**
 
 - **Non dà danno.** Su un Helios Beam, tre Penetration Amp IV fanno 187 di danno a raffica (munizioni x1, la media del tiro e dei critici), dove tre Damage Amp IV ne fanno 356 e tre Crit Amp IV 369: circa la metà. Ciò che riguadagna è la quota dello scudo, quindi conviene solo dove lo scafo è piccolo rispetto allo scudo e l’assorbimento è alto; contro un Wraith o un Ironclad, il cui grande scafo regge comunque, un set semplice di Damage o Crit è veloce più o meno uguale (un Penetration Amp in un laser guadagna al massimo il 5%).
 - **Alieni.** I loro scudi prendono l’80% di un colpo meno la tua penetrazione, quindi funziona anche su di loro, ma un Damage Amp o un Crit Amp del tier li uccide altrettanto in fretta o più in fretta, salvo un Phantasm o un Goombah combattuto con una formazione, dove un Penetration Amp in un laser guadagna fino al 5%.

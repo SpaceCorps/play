@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1239db4521af97e8 -->
+<!-- wiki-i18n source: 0a06d961490fa12b -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -11,7 +11,7 @@ Auf Kern-Level 15 wächst es noch einmal und lernt zu fliegen: Eine **zweite Br�
 > [!NOTE]
 > **Was sich in 0.4.10 geändert hat.** Jedes Skylab-Modul hat jetzt seine eigene Tabelle mit Produktion, Preisen und Zeiten, Level für Level. Du hast deine Level behalten: Es wurde nichts berechnet und nichts für den Unterschied erstattet. Was deine Farmen und Kollektoren beim Eintreffen des Updates in ihren Speichern hatten, wurde **einmalig zum alten Satz** ausgezahlt: Credits und Thulium gingen auf dein Konto, das Erz ins Ressourcenlager, und die Speicher fingen wieder bei null an.
 >
-> Zwei Regeln sind neu. **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**, daher stehen bei den meisten Stationen alle Farmen und Kollektoren still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module) und [Einen Solar-Ausbau planen](#timing-a-solar-upgrade)). **Das Ressourcenlager hat für jedes Erz eine eigene Obergrenze**: einen Tag der Förderung des Kollektors auf Level 1, vier Tage auf Level 20.
+> Eine Regel ist neu. **Das Ressourcenlager hat für jedes Erz eine eigene Obergrenze**: einen Tag der Förderung des Kollektors auf Level 1, vier Tage auf Level 20.
 
 > [!NOTE]
 > **Was sich in 0.4.15 geändert hat.** Der Schritt des Kerns von Level 9 auf Level 10 kostet jetzt **2.000 Thulium** mehr, und wenn er fertig ist, entstehen eine **Brücke** und ein zweiter Kern, **Kern 2**, mit sechs neuen Modul-Slots. Solar zieht auf Kern 2 um. Zwei neue Module docken dort an: der **Munitionsdrucker** und die **Raketenfabrik**. Solar erzeugt außerdem ab Level 7 mehr Energie, damit eine volle Station weiterhin gedeckt ist. Nichts, was du gebaut hast, geht verloren: Ein Kern, der schon auf Level 10 oder höher ist, hat die Brücke sofort und zahlt nichts.
@@ -39,7 +39,7 @@ Auf Kern-Level 15 wächst es noch einmal und lernt zu fliegen: Eine **zweite Br�
 - Der **Kern** gibt den Takt vor: Kein Modul geht über ihn hinaus, und sein eigener Ausbau dauert etwa 16,5 Tage.
 - Auf **Kern-Level 10** baut eine **Brücke** den **Kern 2** mit sechs weiteren Modul-Slots, und der **Munitionsdrucker**, die **Raketenfabrik** und die **Erzbucht** docken dort an. Der Schritt auf Level 10 kostet 2.000 Thulium mehr.
 - Auf **Kern-Level 15** baut eine zweite Brücke den **Kern 3**, und das **Triebwerksmodul**, das **Verteidigungsmodul**, das **Radarmodul** und die **Trophäenhalle** nehmen seine Slots ein: Damit fliegt das Skylab über die Universumkarte und jagt von selbst. Der Schritt auf Level 15 kostet 4.000 Thulium mehr. [Siehe Expeditionen](#expeditions).
-- **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**, deine Farmen und Kollektoren stehen also still, bis er fertig ist. [Plane es](#timing-a-solar-upgrade).
+- **Solar erzeugt während des Ausbaus weiter seine ganze Energie**, deine Farmen und Kollektoren laufen also durch jeden Solar-Ausbau weiter. [Mehr dazu](#timing-a-solar-upgrade).
 
 ## Überblick {#overview}
 
@@ -128,7 +128,7 @@ Energie ist das Lebenselixier des Skylab. Das Solarmodul erzeugt die Energie, di
 - **Bedeutung**: Ist dein Energieverbrauch höher als deine Energieerzeugung, schalten deine Farmen und Kollektoren ab.
 - **Erzeugte Energie**: Ein Solarmodul auf Level N erzeugt genug für **jedes andere Modul auf Level N** und etwa ein Zehntel mehr: 255 auf Level 1, 965 auf Level 7, 18.575 auf Level 20. Solar auf Level 7 versorgt eine ganze Station auf Level 7 (siehe Energieverwaltung für jedes Level).
 - **Preis**: Der Bau von Solar kostet **500 Credits und 50 Thulium**. Sein Ausbau kostet dasselbe und dauert genauso lang wie der der Schmiede: von 8.000 Credits und 25 Thulium für Level 2 (5 Minuten) bis 9.000.000 Credits und 10.000 Thulium für Level 20 (24 Stunden).
-- **Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur **25 %** der Energie seines aktuellen Levels, und ab dem Ende des Ausbaus die des neuen Levels. Eine Station, die mehr verbraucht, schaltet ab: Jede Farm und jeder Kollektor hört auf zu produzieren, und die Schmiede startet keine neue Charge, bis der Ausbau fertig ist. Bei fast jeder Station ist das der Fall: Sie läuft nur dann durch den Ausbau, wenn alle anderen Module mindestens fünf Level unter Solar liegen (sechs Level ab Solar-Level 10). Plane einen Solar-Ausbau wie einen Blackout deiner Farmen (siehe Bauen und Ausbauen).
+- **Ausbau**: Solange Solar ausgebaut wird, erzeugt es weiter **die ganze** Energie seines aktuellen Levels, und ab dem Ende des Ausbaus die des neuen Levels. Ein Solar-Ausbau hält also nie deine Farmen und Kollektoren an und bringt die Station nie ins Defizit, und die Schmiede startet weiter neue Chargen, selbst während der 24 Stunden des letzten Levels (siehe Bauen und Ausbauen).
 - **Platz**: Solar steht am fernen Ende der Station: auf Kern 2 ab Kern-Level 10 und auf Kern 3 ab Level 15 (siehe [Die Brücke und Kern 2](#the-bridge-and-core-2) und [Die zweite Brücke und Kern 3](#the-second-bridge-and-core-3)).
 
 ### Credit-Farm und Thulium-Farm {#credit-farm-and-thulium-farm}
@@ -199,9 +199,9 @@ Der Ausbau des Kerns auf **Level 10** baut eine **Brücke** und einen zweiten Ke
 
 Der Munitionsdrucker druckt Lasermunition aus dem Nichts, immer eine Sorte: kein Erz und keine Credits, nur Energie. Er hat die Level 1 bis 20.
 
-- **Ausstoß**: **x2** (Advanced Plasma) **100 pro Stunde auf Level 1, 2.000 auf Level 20** (mit jedem Level 100 mehr); **x3** (Ultra Core) die Hälfte davon, 50 bis 1.000; **x4** (Experimental Fusion Core) ein Viertel, 25 bis 500.
+- **Ausstoß**: **x2** (Advanced Plasma) **200 pro Stunde auf Level 1, 4.000 auf Level 20** (mit jedem Level 200 mehr); **x3** (Ultra Core) die Hälfte davon, 100 bis 2.000; **x4** (Experimental Fusion Core) ein Viertel, 50 bis 1.000. Doppelt so viel, wie er vor 0.4.27 herstellte. Seit 0.5.0 brauchen der **x3- und der x4-Modus die Forschung** ihrer Munition, **Military Grade Ammo I und II** (die Familie Laser Ammo des Forschungszentrums): Solange du keine davon erforscht hast, ist der Modus gesperrt und lässt sich nicht wählen, und ein Drucker, der vorher darauf stand, stellt in der Zwischenzeit x2 her (nichts geht verloren, und die Wahl kommt zurück, sobald die Forschung fertig ist). Der x2-Modus und die Raketenfabrik stehen allen offen.
 - **Modus**: Du wählst x2, x3 oder x4 auf seiner Karte oder im Fenster. Ein Wechsel behält die bereits gespeicherten Stunden und rechnet sie danach mit der Rate des neuen Modus.
-- **Speicher**: ein Tag, 24 Stunden Produktion auf dem Level und in der Sorte, die gerade läuft (2.400 x2 auf Level 1, 48.000 auf Level 20). Offline-Zeit zählt, und ein voller Speicher hält einfach an.
+- **Speicher**: ein Tag, 24 Stunden Produktion auf dem Level und in der Sorte, die gerade läuft (4.800 x2 auf Level 1, 96.000 auf Level 20). Offline-Zeit zählt, und ein voller Speicher hält einfach an.
 - **Abholen**: bringt die ganzen Einheiten in dein Inventar, solange dein **Schiff gelandet ist**. Munition hat kein Tragelimit, und ein Bruchteil einer Einheit bleibt und zählt weiter.
 - **Energie**: 40 auf Level 1, mit jedem Level 20 % mehr. Bei einem Energiedefizit hält er an wie die Farmen und Kollektoren, und was er hält, bleibt und lässt sich abholen.
 - **Bau**: 20.000 Credits, 500 Thulium und 10 Ship Fragments (aus deinem Inventar, bei gelandetem Schiff), nur auf Kern 2. Seine Ausbauten kosten von 21.000 Credits und 140 Thulium bis 5.600.000 Credits und 11.000 Thulium und dauern so lange wie die der Schmiede, 5 Minuten bis 24 Stunden und insgesamt 5 d 13 h (siehe die Tabellen unten).
@@ -212,8 +212,8 @@ Der Munitionsdrucker druckt Lasermunition aus dem Nichts, immer eine Sorte: kein
 Die Raketenfabrik baut Shop-Raketen aus dem Nichts, immer eine Sorte. Sie hat die Level 1 bis 20.
 
 - **Was sie herstellt**: genau eine der zwölf Shop-Raketen, die du wählst: Lancet, Rivet, Scatter oder Ember, Stufe I, II und III. Die N.U.K.E. und die N.I.K.E. entstehen nie.
-- **Ausstoß**: Stufe III **0,5 pro Stunde auf Level 1, 10 auf Level 20** (mit jedem Level 0,5 mehr), Stufe II das 1,25-Fache davon und Stufe I das Doppelte. Es zählen nur ganze Raketen: Ein Bruchteil bleibt und zählt weiter.
-- **Speicher**: ein Tag, 24 Stunden Produktion auf dem Level und mit der Rakete, die gerade läuft (240 Stufe III auf Level 20). Offline-Zeit zählt, ein voller Speicher hält einfach an, und ein Wechsel der Rakete behält die bereits gespeicherten Stunden.
+- **Ausstoß**: Stufe III **1 pro Stunde auf Level 1, 20 auf Level 20** (mit jedem Level 1 mehr), Stufe II das 1,25-Fache davon und Stufe I das Doppelte. Doppelt so viel, wie sie vor 0.4.27 herstellte. Es zählen nur ganze Raketen: Ein Bruchteil bleibt und zählt weiter.
+- **Speicher**: ein Tag, 24 Stunden Produktion auf dem Level und mit der Rakete, die gerade läuft (480 Stufe III auf Level 20). Offline-Zeit zählt, ein voller Speicher hält einfach an, und ein Wechsel der Rakete behält die bereits gespeicherten Stunden.
 - **Abholen**: bringt die Raketen in dein Inventar, solange dein **Schiff gelandet ist**, so viele, wie du tragen kannst: höchstens 5.000 Raketen der Stufe I, 2.000 der Stufe II und 500 der Stufe III, das Limit des Shops. Was nicht passt, bleibt in der Fabrik.
 - **Energie**: 24 auf Level 1, mit jedem Level 15 % mehr. Bei einem Energiedefizit hält sie an wie der Drucker.
 - **Bau**: 20.000 Credits, 500 Thulium und 15 Ship Fragments (aus deinem Inventar, bei gelandetem Schiff), nur auf Kern 2. Ihre Ausbauten kosten ein Viertel von denen des Druckers, von 5.300 Credits und 35 Thulium bis 1.400.000 Credits und 2.800 Thulium, und dauern genauso lange: insgesamt 5 d 13 h.
@@ -333,14 +333,14 @@ Alle drei Level zusammen kosten 3.250.000 Credits, 13.000 Thulium, 4 Plates und 
 Die Trophäenhalle verwahrt, was die Abschüsse deines Skylab einbringen, bis du es abholst. Sie hat die Level 1 bis 20 und braucht keine Technologie.
 
 - **Was sie fasst**: Credits, Thulium, Erfahrung, Ehre und die Beute der Abschüsse.
-- **Die Kapazität** wird in **Kopfgeldpunkten** gezählt: Ein Abschuss fügt das Kopfgeld seines Aliens hinzu, Credits geteilt durch 200 plus Thulium, was auch immer er fallen lässt (die Werte von Alpha in jeder Welt). Sie fasst 650 Punkte auf Level 1 und 45.000 auf Level 20.
-- **Voll**: Eine volle Halle lässt das Skylab das **Feuer einstellen**: Nichts wird abgeschossen, bezahlt oder gezählt, und keine Munition wird verbraucht, bis du abholst (die Hülle regeneriert weiter). Eine Meldung, eine kurze Einblendung, eine bernsteinfarbene Markierung **Halle voll** in der Leiste der Station, ein Hinweis auf der Skylab-Seite und der Hinweis der Skylab-Zeile in der Seitenleiste sagen es.
+- **Die Kapazität** wird in **Beutegegenständen** gezählt: Nur die Beute braucht Platz. Credits, Thulium, Erfahrung und Ehre brauchen keinen, wie viel davon die Abschüsse auch bringen (seit 0.4.27; vorher füllte das Kopfgeld eines Abschusses die Halle). Sie fasst 650 Gegenstände auf Level 1 und 45.000 auf Level 20. Ein Seeker bringt etwa einen Gegenstand pro Abschuss, daher füllt sich eine Halle etwa zehnmal langsamer als vorher.
+- **Voll**: Eine volle Halle lässt das Skylab das **Feuer einstellen**: Nichts wird abgeschossen, bezahlt oder gezählt, und keine Munition wird verbraucht, bis du abholst (die Hülle regeneriert weiter). Eine Meldung, eine kurze Einblendung, eine bernsteinfarbene Markierung **Halle voll** in der Leiste der Station, ein Hinweis auf der Skylab-Seite und der Hinweis der Skylab-Zeile in der Seitenleiste sagen es, in dem Moment, in dem sie sich füllt, auch während das Skylab unterwegs ist.
 - **Abholen** im Universum-Fenster, bei gelandetem Schiff: Credits und Thulium gehen auf dein Konto, Erfahrung und Ehre zu deinem Piloten und die Beute in dein Inventar. Zweimal gleichzeitig abgeholt wird einmal bezahlt.
 - **Beute** wird für jeden Abschuss aus den Drops des Aliens ausgewürfelt, nie Dark Matter, Ancient Control Units, N.I.K.E.s oder N.U.K.E.s. Sie ist **nicht handelbar**: Sie kann nicht in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkauft werden.
 - **Energie**: 20 auf Level 1, mit jedem Level 10 % mehr. Sie lässt sich ausschalten, aber nicht, solange das Skylab unterwegs ist.
 - **Bau**: 100.000 Credits, 400 Thulium und 10 Ship Fragments, nur auf Kern 3. Ihre Ausbauten kosten von 117.500 Credits und 470 Thulium (15 Minuten) bis 2.325.000 Credits und 9.300 Thulium (1 d 13 h): insgesamt 14.722.500 Credits und 58.890 Thulium und 6 d 8 h.
 
-| Level | Kapazität (Punkte) | Credits | Thulium | Zeit |
+| Level | Kapazität (Gegenstände) | Credits | Thulium | Zeit |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (der Bau) | 650 | 100.000 | 400 | – |
 | 2 | 810 | 117.500 | 470 | 15 min |
@@ -349,15 +349,15 @@ Die Trophäenhalle verwahrt, was die Abschüsse deines Skylab einbringen, bis du
 | 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
 | 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
-Wie lange eine Halle braucht, um sich zu füllen, wenn das Skylab das ganze Abschussbudget seines Verteidigungslevels verdient (eine kleinere Halle füllt sich schneller, ein kleineres Budget langsamer):
+Wie lange eine Halle braucht, um sich zu füllen, wenn das Skylab das ganze Abschussbudget seines Verteidigungslevels in einer Zelle dieser Schwierigkeit verdient, mit der Beute, die diese Aliens bringen (eine kleinere Halle füllt sich schneller, ein kleineres Budget langsamer):
 
 | Verteidigungslevel | Halle Level 1 | Halle Level 5 | Halle Level 10 | Halle Level 15 | Halle Level 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 h 1 min | 14 h 49 min | 1 d 20 h | 5 d 19 h | 17 d 9 h |
-| 2 | 2 h 13 min | 5 h 28 min | 16 h 23 min | 2 d 3 h | 6 d 10 h |
-| 3 | 1 h 22 min | 3 h 22 min | 10 h 5 min | 1 d 8 h | 3 d 22 h |
-| 4 | 1 h 11 min | 2 h 55 min | 8 h 46 min | 1 d 3 h | 3 d 10 h |
-| 5 | 1 h 2 min | 2 h 32 min | 7 h 37 min | 23 h 49 min | 2 d 23 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
 
 ## Gewicht und Geschwindigkeit {#weight-and-speed}
 
@@ -386,7 +386,7 @@ Jedes Modul wiegt etwas, in **Masseneinheiten (MU)**, und eine schwerere Station
 Das höchste Level ist 20, außer beim Forschungszentrum (10), beim Triebwerks- und beim Verteidigungsmodul (5) und beim Radarmodul (3). Die ganze Station wiegt 2.353 MU auf Kern-Level 15 und 2.734 MU auf Level 20.
 
 - **Der Schub** ist die Triebwerksrechnung der Schiffe, ohne Grundgeschwindigkeit: Ein Triebwerk liefert seine Grundgeschwindigkeit plus die feste Geschwindigkeit seiner Schubdüsen, mal deren Multiplikatoren; die Triebwerke werden nach Güte geordnet, die ersten vier zählen zu 100 % und das fünfte zu 85 % (das Modul fasst höchstens fünf); dazu kommen die vier besten Geschwindigkeitsboni. Eine Station ohne Triebwerk hat keinen Schub.
-- **Die Geschwindigkeit** ist das 60-Fache des Schubs geteilt durch das Gewicht der Station, in Einheiten pro Sekunde, und ein Sprung zwischen zwei benachbarten Zellen sind 15.000 Einheiten. Unter der Energie zeigt die Skylab-Seite die Zeile „Gewicht 2.353 MU, Geschwindigkeit 7,8 Einheiten/s, ein Sprung 32 min“.
+- **Die Geschwindigkeit** ist das 60-Fache des Schubs geteilt durch das Gewicht der Station, in Einheiten pro Sekunde, und ein Sprung zwischen zwei benachbarten Zellen sind 15.000 Einheiten. Unter der Energie zeigt die Skylab-Seite die Zeile „Gewicht 2.353 MU, Geschwindigkeit 7,5 Einheiten/s, ein Sprung 33 min“.
 - **Beim Start festgelegt**: Die Geschwindigkeit einer Reise wird beim Start aus dem Gewicht und dem Schub dieses Moments berechnet. Ein Ausbau, der unterwegs endet, oder ein Triebwerk, das du wechselst, während das Skylab stationiert ist, zählt erst für die nächste Reise.
 
 Was Triebwerke für eine Station bewirken, in der jedes Modul auf Level 15 ist (das Triebwerksmodul auf dem Level, das die Triebwerke fasst):
@@ -394,10 +394,10 @@ Was Triebwerke für eine Station bewirken, in der jedes Modul auf Level 15 ist (
 | Eingebaute Triebwerke | Gewicht (MU) | Schub | Geschwindigkeit (Einheiten pro Sekunde) | Ein Sprung | Quer über die Karte (14 Sprünge) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Triebwerksmodul Level 1) | 2.289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, jeweils mit 2 Impulse Thruster II (Level 3) | 2.321 | 73,6 | 1,90 | 2 h 11 min | 1 d 7 h |
-| 5 Engine III, jeweils mit 3 Impulse Thruster IV (Level 5) | 2.353 | 305,5 | 7,79 | 32 min | 7 h 29 min |
+| 3 Engine II, jeweils mit 2 Impulse Thruster II (Level 3) | 2.321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
+| 5 Engine III, jeweils mit 3 Impulse Thruster IV (Level 5) | 2.353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
 
-Auf Kern-Level 20 wiegt die Station 16 % mehr, und die besten Triebwerke brauchen 37 Minuten für einen Sprung und 8 h 42 min quer über die Karte.
+Auf Kern-Level 20 wiegt die Station 16 % mehr, und die besten Triebwerke brauchen 39 Minuten für einen Sprung und 9 h quer über die Karte.
 
 ## Expeditionen {#expeditions}
 
@@ -529,9 +529,10 @@ Die Piloten deines Clans sehen, wo die Skylabs der anderen sind: Die Spalte **Sk
 - **Dauer und Kosten**: Ausbauten kosten Credits und Thulium und brauchen Zeit, und jedes Modul hat für jedes Level seinen eigenen Preis und seine eigene Zeit (zeige auf **Ausbauen**, um das nächste zu sehen; die Summen stehen unten). Der Preis wird beim Start des Ausbaus bezahlt. Die Kosten hängen nicht von der Dauer ab. Das Triebwerks-, das Verteidigungs- und das Radarmodul verlangen außerdem Dark Matter Plates und die Technologie des Levels (siehe [Die zweite Brücke und Kern 3](#the-second-bridge-and-core-3)).
 - **Timer**: Ein Ausbau läuft nach der Uhr des Servers, er wird also fertig, während du weg bist, notfalls Tage später. Starte ihn, logge dich aus, komm zurück: Das Modul hat sein neues Level, wenn du die Skylab-Seite öffnest.
 - **Einen Ausbau beschleunigen**: Ein [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) schließt einen laufenden Ausbau sofort ab, und ein als **Engineer** angeheuerter [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) lässt Ausbauten 1 Stunde lang mit doppelter Geschwindigkeit laufen. Beide erstatten und berechnen nichts: Der Preis wurde beim Start des Ausbaus bezahlt.
+- **Einen Ausbau abbrechen**: Ein laufender Ausbau lässt sich abbrechen, und du bekommst **alles zurück**: die Credits, das Thulium und die Dark Matter Plates, die er gekostet hat, genau so, wie du sie beim Start bezahlt hast, auch wenn sich die Preise inzwischen geändert haben. Verloren geht nur die Zeit. Das Modul ist danach wieder so wie vorher: dasselbe Level, derselbe Schalter, und was es gelagert hatte, bleibt erhalten (solange es stillstand, hat es nichts produziert). Ein Ausbau, der schon abgeschlossen ist, lässt sich nicht mehr abbrechen; das Spiel sagt es dir und nimmt nichts.
 - **Ausbauzeiten**: Die ersten Level gehen schnell, die letzten dauern bis zu 37 Stunden, die des Kerns bis zu 6 Tage (siehe die Tabellen unten). Jedes Modul hat seinen eigenen Timer, du kannst also mehrere gleichzeitig ausbauen.
-- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie. Solar ist die Ausnahme: Es erzeugt weiter ein Viertel seiner Energie (siehe unten).
-- **Solar erzeugt während des Ausbaus nur 25 % seiner Energie**: Solar erzeugt die gesamte Energie des Skylab, und während seines Ausbaus (24 Stunden für das letzte Level) erzeugt es ein Viertel der Energie seines **aktuellen** Levels; die Energie des neuen Levels übernimmt in dem Moment, in dem der Ausbau endet. Eine volle Station verbraucht etwa 90 % dessen, was Solar auf seinem eigenen Level erzeugt, ein Viertel davon trägt also nur eine Station, die fünf bis sechs Level unter Solar liegt. Sonst stehen alle Farmen und Kollektoren für den ganzen Ausbau still, was du gelagert hast, bleibt und lässt sich abholen, und die Schmiede startet keine neue Charge. Ein Modul, das ausgebaut oder ausgeschaltet wird, verbraucht keine Energie, daher kostet es nichts extra, die Farmen zusammen mit Solar auszubauen, und das Ausschalten von Modulen schafft Platz für die anderen; die Thulium-Farm verbraucht mit Abstand die meiste Energie.
+- **Produktionspause**: Während ein Modul ausgebaut wird, ist es offline: Es produziert nichts und verbraucht keine Energie. Solar ist die Ausnahme: Es erzeugt weiter die ganze Energie seines aktuellen Levels (siehe unten).
+- **Solar behält seine ganze Energie während des Ausbaus**: Solar erzeugt die gesamte Energie des Skylab, und während seines Ausbaus (24 Stunden für das letzte Level) erzeugt es weiter die ganze Energie seines **aktuellen** Levels; die Energie des neuen Levels übernimmt in dem Moment, in dem der Ausbau endet. Die Farmen und Kollektoren produzieren also weiter, die Schmiede startet weiter neue Chargen, und für den ganzen Ausbau geht nichts verloren. Ein Modul, das ausgebaut oder ausgeschaltet wird, verbraucht keine Energie, daher kostet es nichts extra, die Farmen zusammen mit Solar auszubauen, und das Ausschalten von Modulen schafft Platz für die anderen; die Thulium-Farm verbraucht mit Abstand die meiste Energie.
 
 ### Was es kostet {#what-it-costs}
 
@@ -638,7 +639,7 @@ Dein Skylab hat ein begrenztes Energiebudget.
 - **Solar hält Schritt**: Ein Solarmodul auf Level N erzeugt die Energie **aller anderen Module auf Level N** (Kern, beide Farmen, Ressourcenlager, beide Kollektoren und Schmiede, ab Level 10 auch das Forschungszentrum und die Erzbucht) und etwa ein Zehntel mehr, eine Station, deren Module alle auf Level 7 stehen, braucht also Solar 7 und ist damit gedeckt. Solar ein Level niedriger reicht für eine volle Station nicht (die letzte Spalte), Solar muss dem Rest also weiter nach oben folgen. Der Kern verbraucht wenig, er darf also vorauslaufen: Solar 5 und höher deckt eine volle Station auf ihrem Level, mit dem Kern auf jedem Level. Die Tabelle unten zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 sowie das Triebwerks-, das Verteidigungs- und das Radarmodul und die Trophäenhalle ab Level 11 (sie werden ab Kernlevel 15 gebaut und zählen vier Level früher, weil der Kern Solar vorauslaufen kann), jedes höchstens auf seinem eigenen höchsten Level.
 - **Aktiver Zustand**: Du kannst die Farmen, die Kollektoren und die Schmiede ein- und ausschalten, um die Energie zu verwalten. Kern, Solar, das Ressourcenlager und das Forschungszentrum laufen immer. Auch der Munitionsdrucker, die Raketenfabrik und die Erzbucht lassen sich ein- und ausschalten, ebenso die vier Module der Expedition (nicht, solange eine Reise läuft).
 - **Energiedefizit**: Ist der Energieverbrauch höher als die Erzeugung, hören alle Farmen und Kollektoren auf zu produzieren, bis die Bilanz wieder stimmt. Was sie schon gelagert haben, bleibt, und du kannst es weiterhin abholen. Die Schmiede startet keine neue Charge, und das Forschungszentrum startet keine neue Forschung (eine laufende Forschung geht weiter). Der Munitionsdrucker, die Raketenfabrik und die Erzbucht halten an wie die Farmen und Kollektoren. Das Verteidigungsmodul bekämpft nichts, die Scans des Radars stehen still, und keine Reise kann starten (eine Reise, die unterwegs ist, geht weiter).
-- **Solar-Ausbau**: Solange Solar ausgebaut wird, erzeugt es nur ein Viertel seiner Energie. Liegen deine anderen Module nicht weit darunter, steht die Station also im Defizit, und die Farmen und Kollektoren stehen still, bis der Ausbau fertig ist (siehe [Solarmodul](#solar-module)).
+- **Solar-Ausbau**: Solange Solar ausgebaut wird, erzeugt es weiter die ganze Energie seines aktuellen Levels, ein Solar-Ausbau bringt die Station also nie ins Defizit (siehe [Solarmodul](#solar-module)).
 
 Die Energie von Solar auf jedem Level, gegenüber dem, was die anderen Module auf demselben Level verbrauchen (jedes Modul auf diesem Level, der Kern eingeschlossen, und das Forschungszentrum und die Erzbucht ab Level 10 sowie die vier Module der Expedition ab Level 11):
 
@@ -708,30 +709,29 @@ Ein Skylab wächst wochenlang, ein wenig Planung zahlt sich also aus. Die Zahlen
 
 ### Einen Solar-Ausbau planen {#timing-a-solar-upgrade}
 
-Solange Solar ausgebaut wird, erzeugt es ein Viertel seiner Energie, und eine Station verbraucht fast immer mehr als das. Die Farmen und Kollektoren stehen dann für den ganzen Ausbau still: Was sie halten, bleibt, aber was sie gemacht hätten, ist verloren. Die Tabelle gibt für jeden Solar-Schritt seine Zeit, die größte Station, die noch durch ihn hindurch läuft (jedes Modul auf demselben Level, der Kern und die Versorgungskette eingeschlossen; eine kleinere Station verträgt etwas mehr), und was eine Credit-Farm und eine Thulium-Farm dieses Levels in dieser Zeit gemacht hätten. Zum Beispiel dauert Solar von Level 10 auf 11 4 Stunden, und Farmen auf Level 10 hätten darin 135.000 Credits und 1.440 Thulium gemacht. Die Tabelle zählt auch den Munitionsdrucker ab Level 7, die Raketenfabrik und die Erzbucht ab Level 10 und die vier Module der Expedition ab Level 15.
+Solange Solar ausgebaut wird, erzeugt es weiter die ganze Energie seines aktuellen Levels, in deiner Station steht also nichts still: Farmen, Kollektoren, Schmiede und alles Übrige laufen durch den ganzen Ausbau weiter, was auch immer gebaut ist. Du wartest nur. Die Tabelle gibt für jeden Solar-Schritt seine Zeit und was eine Credit-Farm und eine Thulium-Farm dieses Levels in dieser Zeit machen, und zwar die ganze Zeit über weiter. Zum Beispiel dauert Solar von Level 10 auf 11 4 Stunden, und Farmen auf Level 10 machen darin 135.000 Credits und 1.440 Thulium.
 
-| Solar-Ausbau | Zeit | Station, die weiterläuft, bis Level | Credit-Farm erzeugt in der Zeit | Thulium-Farm erzeugt in der Zeit |
-| :--- | ---: | ---: | ---: | ---: |
-| 1 auf 2 | 5 min | keine | 188 | 3 |
-| 2 auf 3 | 15 min | keine | 1.125 | 16 |
-| 3 auf 4 | 30 min | keine | 3.375 | 44 |
-| 4 auf 5 | 45 min | keine | 6.750 | 84 |
-| 5 auf 6 | 1 h | keine | 11.250 | 144 |
-| 6 auf 7 | 1 h 15 min | keine | 19.688 | 230 |
-| 7 auf 8 | 1 h 30 min | 1 | 30.375 | 336 |
-| 8 auf 9 | 2 h | 2 | 49.500 | 528 |
-| 9 auf 10 | 3 h | 3 | 87.750 | 912 |
-| 10 auf 11 | 4 h | 5 | 135.000 | 1.440 |
-| 11 auf 12 | 5 h | 6 | 202.500 | 2.200 |
-| 12 auf 13 | 6 h | 7 | 297.000 | 3.120 |
-| 13 auf 14 | 8 h | 7 | 468.000 | 4.800 |
-| 14 auf 15 | 10 h | 8 | 675.000 | 6.800 |
-| 15 auf 16 | 12 h | 9 | 918.000 | 9.120 |
-| 16 auf 17 | 16 h | 10 | 1.440.000 | 14.080 |
-| 17 auf 18 | 18 h | 11 | 1.944.000 | 18.000 |
-| 18 auf 19 | 20 h | 12 | 2.610.000 | 22.400 |
-| 19 auf 20 | 1 d | 13 | 3.780.000 | 28.800 |
+| Solar-Ausbau | Zeit | Credit-Farm erzeugt in der Zeit | Thulium-Farm erzeugt in der Zeit |
+| :--- | ---: | ---: | ---: |
+| 1 auf 2 | 5 min | 188 | 3 |
+| 2 auf 3 | 15 min | 1.125 | 16 |
+| 3 auf 4 | 30 min | 3.375 | 44 |
+| 4 auf 5 | 45 min | 6.750 | 84 |
+| 5 auf 6 | 1 h | 11.250 | 144 |
+| 6 auf 7 | 1 h 15 min | 19.688 | 230 |
+| 7 auf 8 | 1 h 30 min | 30.375 | 336 |
+| 8 auf 9 | 2 h | 49.500 | 528 |
+| 9 auf 10 | 3 h | 87.750 | 912 |
+| 10 auf 11 | 4 h | 135.000 | 1.440 |
+| 11 auf 12 | 5 h | 202.500 | 2.200 |
+| 12 auf 13 | 6 h | 297.000 | 3.120 |
+| 13 auf 14 | 8 h | 468.000 | 4.800 |
+| 14 auf 15 | 10 h | 675.000 | 6.800 |
+| 15 auf 16 | 12 h | 918.000 | 9.120 |
+| 16 auf 17 | 16 h | 1.440.000 | 14.080 |
+| 17 auf 18 | 18 h | 1.944.000 | 18.000 |
+| 18 auf 19 | 20 h | 2.610.000 | 22.400 |
+| 19 auf 20 | 1 d | 3.780.000 | 28.800 |
 
-- **Baue die Farmen zusammen mit Solar aus.** Ein Modul im Ausbau erzeugt ohnehin nichts und verbraucht keine Energie, daher kostet die Zeit, die eine Farm während der Pause mit ihrem Ausbau verbringt, nichts extra.
-- **Halte die anderen Module niedrig, wenn du dir keine Pause leisten kannst.** Eine Station läuft nur dann durch einen Solar-Ausbau, wenn alle ihre anderen Module mindestens fünf Level unter Solar liegen (sechs ab Solar-Level 10), und eine volle Station braucht etwas mehr, wie die Tabelle zeigt.
+- **Starte einen Solar-Ausbau, wann du willst.** Er kostet deine Station nichts, solange er läuft: keine Pause, kein Blackout, keine stehenden Farmen. Nur die Energie des neuen Levels muss auf das Ende der Zeit warten, halte Solar also auf dem Level deiner anderen Module.
 - **Schalte aus, worauf du verzichten kannst.** Ein ausgeschaltetes Modul verbraucht keine Energie, daher schafft das Ausschalten der Thulium-Farm, die am meisten verbraucht (80 auf Level 1, mit jedem Level 30 % mehr), Platz für die anderen.

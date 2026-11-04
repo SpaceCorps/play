@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究を、その技術の研究時間が24時間以内なら即座に完了させます（151の技術のうち135）。研究にかかった費用は開始時に支払い済みで返ってきません。まだ燃やしていない科学ポイントはタンクに残り、キューの次の技術はすぐに始まります。
+**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究を、その技術の研究時間が24時間以内なら即座に完了させます（158の技術のうち142）。研究にかかった費用は開始時に支払い済みで返ってきません。まだ燃やしていない科学ポイントはタンクに残り、キューの次の技術はすぐに始まります。
 
 **レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを4枚と Ancient Control Unit を1個要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -95,8 +95,11 @@ Skylab の**研究**表示では、技術が下のツリーのボックスより
 | 研究時間 | ブースト時 | 全体に必要なブースト数 | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30分 | 15分 | 1 | 5,000 |
+| 1時間 | 30分 | 1 | 5,000 |
 | 3時間 | 1時間30分 | 1 | 5,000 |
+| 4時間 | 2時間 | 1 | 5,000 |
 | 6時間 | 3時間 | 1 | 5,000 |
+| 8時間 | 4時間 | 1 | 5,000 |
 | 10時間 | 5時間 | 1 | 5,000 |
 | 1日 | 12時間 | 1 | 5,000 |
 | 2日 | 1日 | 1 | 5,000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### レーザー弾薬 {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 - **順番に。** 各レベルは前のレベルが必要で、上のレベルは下のレベルを置き換えます。表には各レベルが与える合計が載っており、加算分ではありません。
 - **効率的なスナック**（ケバブ、ペリメニ、バーガー）は、所持するすべての艦船に、両方の構成で船体を加えます。
 - **封印された裏口** は、購入・製造・取引のどこでも、すべてのロケットの所持上限を引き上げます。
-- **掘削機採掘** は、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)の箱から受け取る量を、Thulium も鉱石も増やします。
+- **掘削機採掘** は、あなたが起動した[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)が、すべての箱に Thulium も鉱石も多く入れるようにします。効くのは運転を開始したパイロットの研究で、箱を拾った人はみな大きいほうの量を受け取ります。掘削機の制御パネルには、誰の運転か、どれだけの上乗せがあるかが表示されます。
 - **場の理論** は、被弾のうちシールドが受け止める割合を引き上げます。シールドのない艦船には効果がありません。
 - **眠れる知識** は、研究がセンターで完了するたびにレベルごとにワイプポイントを支払い、ワイプのたびにもう一度支払います（[ワイプポイントの獲得](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。前のレベルに加えて、ほかの技術を一定の割合で研究済みであることが必要です（パイロットファミリーの技術は数に入り、五つの眠れる知識は入りません）。入手方法は問いません。表には各割合と、それが何件にあたるかが載っています。
 
@@ -372,9 +391,9 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | 掘削機採掘 I | 掘削機の産出 +20% | – | 1日 | 10 | 500,000 | 5,000 |
 | 掘削機採掘 II | 掘削機の産出 +30% | 掘削機採掘 I | 2日 | 20 | 1,500,000 | 15,000 |
 | 掘削機採掘 III | 掘削機の産出 +40% | 掘削機採掘 II | 3日 | 30 | 4,000,000 | 40,000 |
-| 場の理論 I | シールド吸収 +2% | – | 1日 | 20 | 500,000 | 5,000 |
-| 場の理論 II | シールド吸収 +3% | 場の理論 I | 2日 | 40 | 1,500,000 | 15,000 |
-| 場の理論 III | シールド吸収 +5% | 場の理論 II | 3日 | 60 | 5,000,000 | 50,000 |
+| 場の理論 I | シールド吸収 +4% | – | 1日 | 20 | 500,000 | 5,000 |
+| 場の理論 II | シールド吸収 +7% | 場の理論 I | 2日 | 40 | 1,500,000 | 15,000 |
+| 場の理論 III | シールド吸収 +10% | 場の理論 II | 3日 | 60 | 5,000,000 | 50,000 |
 | 眠れる知識 I | ワイプポイント +50 | ほかの技術の 20%（30 / 146 件） | 1時間 | – | – | – |
 | 眠れる知識 II | ワイプポイント +50 | 眠れる知識 I; ほかの技術の 40%（59 / 146 件） | 1時間 | – | – | – |
 | 眠れる知識 III | ワイプポイント +50 | 眠れる知識 II; ほかの技術の 60%（88 / 146 件） | 1時間 | – | – | – |
@@ -460,18 +479,25 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10時間 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1日 | 86,400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10時間 | 36,000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30分 | 1,800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4時間 | 14,400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1時間 | 3,600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3時間 | 10,800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8時間 | 28,800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1時間 | 3,600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6時間 | 21,600 | – |
 
 研究時間によるクラス：
 
 | クラス | 研究時間 | 技術数 | 順に研究した合計 | 科学 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30分 | 10 | 5時間 | 18,000 | 0 |
-| B | 3時間～6時間 | 20 | 2日21時間 | 248,400 | 0 |
-| C | 10時間 | 17 | 7日2時間 | 612,000 | 95 |
+| A | 30分～1時間 | 13 | 7時間30分 | 27,000 | 0 |
+| B | 3時間～6時間 | 23 | 3日10時間 | 295,200 | 0 |
+| C | 8時間～10時間 | 18 | 7日10時間 | 640,800 | 95 |
 | D | 1日～2日 | 23 | 28日 | 2,419,200 | 319 |
-| 合計 |  | 70 | 38日4時間 | 3,297,600 | 414 |
+| 合計 |  | 77 | 39日3時間30分 | 3,382,200 | 414 |
 
-1つずつ順に研究すると、ツリー全体で 38日4時間 かかります。ブーストを常にかけると 19日2時間 で、ブースト 20 個と 100,000 Thulium になります。科学は同じです。
+1つずつ順に研究すると、ツリー全体で 39日3時間30分 かかります。ブーストを常にかけると 19日13時間45分 で、ブースト 20 個と 100,000 Thulium になります。科学は同じです。
 
 <!-- research-technologies:end -->
 

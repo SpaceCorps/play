@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -16,8 +16,8 @@ Einen Clan zu gründen oder ihm beizutreten, erlaubt es dir, Ressourcen zu bünd
 - Der Anführer und die Stellvertreter geben die Punkte für drei [Boni](#clan-points-and-boosts) mit je zehn Stufen aus: **Schaden** (bis +5 %), **Thulium** (bis +10 %) und **Credits** (bis +10 %).
 - Ein Clan, der jede Linie schafft, hat am **Tag 12** jede Stufe gekauft. Punkte, Stufen und der Clan selbst enden mit dem Wipe.
 - Du brauchst mindestens **drei Mitglieder**, die ihren Teil geleistet haben, und **eine große Besatzung** für den Kampf gegen den Wächter: Seit 0.4.13 hat ein Wächter fünfmal so viel Hülle, Schild und Laserschaden wie vorher, deshalb verlieren die Besatzungen, die früher gewannen (etwa sieben Piloten), jetzt ([wie groß die Besatzung sein muss](#how-big-a-crew)). Eine zu kleine Besatzung verliert den Kampf: Der Clan behält dann die **70 Punkte** der vier Missionen, aber die Linie ist nicht abgeschlossen und zahlt keine [Belohnung für dich](#the-reward-for-you).
-- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)). Seit 0.4.16 ist die Bezahlung dreimal so hoch, und solange ein Wächter steht, **kommt jede Minute eine Welle der Aliens der Karte** (beim Wrath Warden III alle 40 Sekunden), und in jeder Welle **ein Crystalys**, sobald der Wächter unter halber Hülle ist, auf die Piloten gerichtet, die den Wächter getroffen haben ([Wellen](#waves-of-aliens)).
-- Dein Schiff zeigt die Boni, die es hat, im **Booster-Fenster** auf einer eigenen Karte ([wo du sie siehst](#the-three-boosts)).
+- Ein Wächter zahlt einen großen Topf, der nach Schaden geteilt wird, und **jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine private Kiste** mit seinem Anteil an der Beute, die nur er sieht und nur er einsammeln kann ([Bezahlung und Beute](#warden-pay-and-loot)). Seit 0.4.16 ist die Bezahlung dreimal so hoch, und solange ein Wächter steht, **kommt jede Minute eine Welle aus Phantasm, Bulwarks und (ab dem Warden II) Goombahs** (beim Wrath Warden III alle 40 Sekunden), und in jeder Welle **ein Crystalys**, sobald der Wächter unter halber Hülle ist, auf die Piloten gerichtet, die den Wächter getroffen haben ([Wellen](#waves-of-aliens)).
+- Dein Schiff zeigt die Boni, die es hat, im **Booster-Fenster** als Zeilen der Kategorien, die sie erhöhen ([wo du sie siehst](#the-three-boosts)).
 - Linie und Boni brauchen ein Spiel ab Version 0.4.10, die Karte im Booster-Fenster ab 0.4.12, die Clan-Seite, die Beiträge, das Online-Fenster, der Tagesbonus, die Friedensbitten, das Protokoll und die Clans pro Welt ab 0.4.16.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Seit 0.4.22 **geht jeder Wächter auf den Piloten los, der ihn getroffen hat**, 
 
 ### Wellen von Aliens {#waves-of-aliens}
 
-Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf** ist (die 90 Sekunden Aufwärmen haben keine Wellen, damit sich die Besatzung sammeln kann), kommt **alle 60 Sekunden** eine **Welle** gewöhnlicher Aliens der Karte, auf der er steht, solange der Wächter steht. Die Tabelle zeigt die Wellen von acht der neun Wächter; die [Wellen des Wrath Warden III](#wrath-iii-waves) sind schwerer. Unter halber Hülle enthalten die Wellen eines Wächters auch [einen Crystalys](#crystalys-waves).
+Seit 0.4.16 steht ein Wächter nicht allein. Ab dem Moment, in dem er **scharf** ist (die 90 Sekunden Aufwärmen haben keine Wellen, damit sich die Besatzung sammeln kann), kommt **alle 60 Sekunden** eine **Welle** gewöhnlicher Aliens, solange der Wächter steht. Seit 0.5.0 ist eine Welle eine **Mischung**: etwa die Hälfte [Phantasm](/wiki/04-Aliens/Phantasm.md), ein Viertel [Bulwarks](/wiki/04-Aliens/Bulwark.md) und ein Viertel [Goombahs](/wiki/04-Aliens/Goombah.md), auf jeder Karte, nur dass ein Warden I keinen Goombah ruft (der erste Punkt unten); eine Welle war früher eine einzige Art von Alien: Phantasm auf x-2 und x-3, Bulwarks auf x-4. Eine Welle zählt so viele Aliens wie zuvor. Die Tabelle zeigt die Wellen der Wächter II und III außer dem Wrath Warden III, dessen [Wellen](#wrath-iii-waves) schwerer sind. Unter halber Hülle enthalten die Wellen eines Wächters auch [einen Crystalys](#crystalys-waves).
 
 | Karte | Eine Welle | Höchstens gleichzeitig am Leben |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, und bis zu 3 Crystalys |
-| x-3 | 10 Phantasm | 30, und bis zu 3 Crystalys |
-| x-4 | 10 Bulwarks | 30, und bis zu 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark und 1 Goombah | 15, und bis zu 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwarks und 2 Goombahs | 30, und bis zu 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwarks und 2 Goombahs | 30, und bis zu 3 Crystalys |
 
+- **Ein Warden I ruft keinen Goombah.** Der Wächter eines Rekruten-Clans (Durchschnittslevel unter 4) schickt nur Phantasm und Bulwarks, drei Phantasm auf einen Bulwark, in Wellen derselben Größe: **4 Phantasm und 1 Bulwark auf x-2, 8 Phantasm und 2 Bulwarks auf x-3 und x-4**. Eine ganze Welle zahlt in Alpha auf x-2 17.000 Credits und auf x-3 und x-4 34.000, mit ihrem Crystalys 92.000 und 109.000; die höchste Zahl gleichzeitig lebender Aliens ist die der Tabelle.
 - **Höchstens drei Wellen sind am Leben.** Eine Welle lebt, solange eines ihrer Aliens lebt. Eine Welle, die fällig ist, wenn drei leben, wird übersprungen und nicht aufgehoben; die nächste ist eine Minute später fällig.
-- **Es sind die eigenen Aliens der Karte**, die Art, die Piloten angreift, gemacht wie die der Karte: Eine stärkere Welt gibt ihnen mehr Hülle, Schild und Schaden ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Sie erscheinen 500 bis 1.200 Einheiten vom Wächter entfernt, rund um ihn verteilt.
-- **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle aus 5 Phantasm zahlt in Alpha 15.000 Credits, eine Welle aus 10 Bulwarks 50.000, unter 2 % dessen, was der schwächste Wächter zahlt.
-- **Sie hören mit dem Wächter auf.** Wird er zerstört oder zieht er sich zurück, kommen keine mehr; die Aliens, die schon draußen sind, bleiben und sind die gewöhnlichen Aliens der Karte. Ein Neustart des Servers beendet sie mit dem Wächter.
-- **Der Clan erfährt es.** Jede Welle wird im Reiter System des Chats und im Spielprotokoll angekündigt: „Brood Warden I ruft auf M-3 Verstärkung: 10 Phantasm.“
-- **Sie kommen gezielt (0.4.20).** Die Aliens einer Welle kommen mit dem Wissen an, gegen wen der Wächter kämpft: Sie gehen vom ersten Moment an auf die Piloten los, die ihn getroffen haben, den ersten zuerst, und bleiben an ihnen, solange der Wächter getroffen wird. Ein Wächter, gegen den niemand kämpft, schickt Aliens, die umherstreifen und jeden anziehen, der in die Nähe kommt, wie zuvor.
+- **Es sind gewöhnliche Aliens**, gemacht wie die der Karte: Eine stärkere Welt gibt ihnen mehr Hülle, Schild und Schaden ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), unabhängig von der eigenen Stärke des Wächters. Die Bulwarks und Goombahs kommen auf jede Karte, auch in einen x-2-Sektor, in dem sonst keiner lebt. Sie erscheinen 500 bis 1.200 Einheiten vom Wächter entfernt, rund um ihn verteilt.
+- **Sie gehören nicht zum Kampf um den Wächter.** Sie heilen nichts, und sie zu beschießen erhöht deinen Anteil am Schaden am Wächter nicht. Jeder Pilot der Karte kann sie töten. Jedes zahlt die gewöhnliche Bezahlung seines Aliens in deiner Welt und bringt PvE-Punkte: Eine ganze Welle der Tabelle zahlt in Alpha auf x-2 (5 Aliens) 29.000 Credits und auf x-3 und x-4 (10 Aliens) 60.000, eine Welle eines Warden I 17.000 und 34.000, unter 2 % dessen, was ihr eigener Wächter zahlt.
+- **Sie hören mit dem Wächter auf.** Wird er zerstört oder zieht er sich zurück, kommen keine mehr; die Aliens, die schon draußen sind, bleiben und sind die gewöhnlichen Aliens der Karte (eine Art, die der Sektor von sich aus nicht hat, etwa die Bulwarks und Goombahs eines x-2-Sektors, verlässt ihn fünf Minuten nach dem Wächter, sofern Piloten nicht noch gegen sie kämpfen). Ein Neustart des Servers beendet sie mit dem Wächter.
+- **Der Clan erfährt es.** Jede Welle wird im Reiter System des Chats und im Spielprotokoll angekündigt, mit einer Zeile für jede Art von Alien darin: „Brood Warden II ruft auf M-3 Verstärkung: 5 Phantasm.“, „Brood Warden II ruft auf M-3 Verstärkung: 3 Bulwark.“ und „Brood Warden II ruft auf M-3 Verstärkung: 2 Goombah.“ (ein Warden I meldet zwei Zeilen, da er keinen Goombah hat)
+- **Sie kommen gezielt (0.4.20).** Die Aliens einer Welle kommen mit dem Wissen an, gegen wen der Wächter kämpft: Sie gehen vom ersten Moment an auf die Piloten los, die ihn getroffen haben, den ersten zuerst, und bleiben an ihnen, solange der Wächter getroffen wird. Ein Wächter, gegen den niemand kämpft, schickt Aliens, die umherstreifen: Die Phantasm und die Bulwarks ziehen jeden an, der in die Nähe kommt, wie zuvor, und ein Goombah, der nie einen Kampf beginnt, streift umher, bis jemand auf ihn schießt.
 
 #### Der Crystalys jedes Wächters {#crystalys-waves}
 
 Seit 0.4.22 tut **jeder Wächter**, was der Wrath Warden III seit 0.4.20 tut: Unter halber Hülle (der Linie, an der ein Wrath Warden rast) **hat jede Welle, die er schickt, zusätzlich einen Crystalys**, zur Größe der Welle dazu. Das gilt für den Brood, den Siege und den Wrath Warden, in allen drei Stärken. Über halber Hülle kommt die Welle ohne ihn, und ein Wächter, der wieder über die Hälfte repariert ist, schickt die nächste Welle wieder ohne ihn.
 
 - **Der Crystalys** ist das schwerste gewöhnliche Alien des Spiels: 256.000 Hülle, 160.000 Schild, 10.000 Schaden pro Salve aus 900 Einheiten, Geschwindigkeit 230 (in einer stärkeren Welt mehr Hülle, Schild und Schaden). Er zahlt, was jeder Crystalys zahlt: **75.000 Credits, 200 Thulium, 12.000 XP und 52 Ehre in Alpha** (in Beta das Doppelte, in Gamma das Dreifache), und lässt seine gewöhnliche Beute fallen. Er gehört zu seiner Welle: Eine Welle lebt, solange ihr Crystalys lebt, ein stehen gebliebener Crystalys hält also eine der Wellen am Leben (höchstens drei, beim Wrath Warden III vier), und eine Welle, die fällig ist, wenn die meisten leben, wird übersprungen.
-- **Sie werden in zwei Zeilen angekündigt**: „Wrath Warden III ruft auf M-3 Verstärkung: 15 Phantasm.“ und „Wrath Warden III ruft auf M-3 Verstärkung: 1 Crystalys.“
-- **Was sie zahlen.** Eine ganze Welle aus 10 Bulwarks zahlt in Alpha 50.000 Credits, mit ihrem Crystalys 125.000: unter 5 % der 2.700.000, die der schwächste Wächter zahlt.
-- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit den Wellen und ihrem Crystalys diese kleinsten Besatzungen mit x2-Munition, in der Ausrüstung der eigenen Stufe des Wächters, in Alpha. Ein Clan der Stufe 3 fasst 50 Mitglieder, ein Clan der Stufe 5 100. Wie die Tabelle dort sind sie berechnet und nicht gemessen, und der beste Fall; in Gamma, wo die Aliens der Wellen doppelt so stark sind, sind sie noch größer.
+- **Er wird in einer eigenen Zeile angekündigt**, nach den Zeilen der Mischung: „Wrath Warden III ruft auf M-3 Verstärkung: 7 Phantasm.“, „…: 4 Bulwark.“, „…: 4 Goombah.“ und „Wrath Warden III ruft auf M-3 Verstärkung: 1 Crystalys.“
+- **Was sie zahlen.** Eine ganze Welle aus 10 Aliens zahlt in Alpha 34.000 Credits für einen Warden I und 60.000 für einen Warden II, mit ihrem Crystalys 109.000 und 135.000: etwa 4 % der 2.700.000, die ein Warden I zahlt, und unter 4 % der 3.600.000, die ein Warden II zahlt, weniger bei einem Warden III.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit den Wellen und ihrem Crystalys diese kleinsten Besatzungen mit x2-Munition, in der Ausrüstung der eigenen Stufe des Wächters, in Alpha. Ein Clan der Stufe 3 fasst 50 Mitglieder, ein Clan der Stufe 5 100. Seit 0.5.0 machen die Bulwarks und Goombahs der Mischung die Wellen schwerer, aber ein Warden I ruft keinen Goombah, sodass ein Clan der Stufe 3 für jeden Wächter auf jeder Karte genug Piloten fasst. Wie die Tabelle dort sind sie berechnet und nicht gemessen, und der beste Fall; in Gamma, wo die Aliens der Wellen doppelt so stark sind, sind sie noch größer, und auf x-3 und x-4 fehlen einem Clan der Stufe 3 für manche Wächter Piloten.
 
 | Wächter | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### Die Wellen des Wrath Warden III {#wrath-iii-waves}
 
-Seit 0.4.20 bringt der **Wrath Warden III** mehr und öfter: eine Welle alle **40 Sekunden**, drei Viertel der Zahl dieses Aliens, die die Karte hält, und bis zu **vier Wellen** am Leben. Wie jeder Wächter fügt er einer Welle unter halber Hülle [einen Crystalys](#crystalys-waves) hinzu.
+Seit 0.4.20 bringt der **Wrath Warden III** mehr und öfter: eine Welle alle **40 Sekunden** aus 8 bis 15 Aliens in derselben Mischung aus Phantasm, Bulwarks und Goombahs, und bis zu **vier Wellen** am Leben. Wie jeder Wächter fügt er einer Welle unter halber Hülle [einen Crystalys](#crystalys-waves) hinzu.
 
 | Karte | Eine Welle | Höchstens gleichzeitig am Leben |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, und bis zu 4 Crystalys |
-| x-3 | 15 Phantasm | 60, und bis zu 4 Crystalys |
-| x-4 | 15 Bulwarks | 60, und bis zu 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwarks und 2 Goombahs | 32, und bis zu 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwarks und 4 Goombahs | 60, und bis zu 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwarks und 4 Goombahs | 60, und bis zu 4 Crystalys |
 
 - **Höchstens vier Wellen sind am Leben.** Eine Welle, die fällig ist, wenn vier leben, wird übersprungen, wie bei den anderen Wächtern.
-- **Was sie zahlen.** Eine ganze Welle aus 15 Bulwarks zahlt in Alpha 75.000 Credits, mit ihrem Crystalys 150.000: etwa 2 % der 7.200.000, die der Wächter selbst zahlt.
-- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **32 Piloten auf x-2, 32 auf x-3 und 39 auf x-4** mit x2-Munition (26 ohne Wellen) und 39, 41 und 50 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, 50 auf x-4 in Gamma sind also alles, was er schicken kann. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
+- **Was sie zahlen.** Eine ganze Welle aus 15 Aliens zahlt in Alpha 101.000 Credits, mit ihrem Crystalys 176.000: etwa 2 % der 7.200.000, die der Wächter selbst zahlt.
+- **Was sie von der Besatzung verlangen.** Die Berechnung unter [wie groß die Besatzung sein muss](#how-big-a-crew) ergibt mit diesen Wellen und dem Crystalys **36 Piloten auf x-2, 40 auf x-3 und 40 auf x-4** mit x2-Munition (26 ohne Wellen) und 46, 52 und 52 in Gamma, wo die Aliens der Wellen doppelt so stark sind. Ein Clan der Stufe 3 fasst 50 Mitglieder, auf x-3 und x-4 in Gamma kann er also nicht genug schicken; ein Clan der Stufe 5 fasst 100. Wie die Tabelle dort ist es berechnet und nicht gemessen, und der beste Fall.
 
 ### Wie groß die Besatzung sein muss {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ Die Tabelle zeigt den besten Fall; im Spiel bring so viele mit, wie du kannst.
 | :--- | :--- | :--- |
 | 5 Piloten | verlieren gegen jeden Wächter; der Wächter behält 88 bis 96 % seiner Hülle und seines Schilds | verlieren |
 | 10 Piloten | verlieren gegen jeden Wächter; der Wächter behält 55 bis 86 % seiner Hülle und seines Schilds | verlieren |
-| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 7,2 bis 7,3 Minuten, und verlieren 6 Schiffe, und gegen den Brood Warden III, in 3,9 Minuten, und verlieren 9 Schiffe | verlieren |
-| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 5,2 Minuten und verlieren 3 bis 11 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 10,4 bis 10,5 Minuten, und verlieren 9 Schiffe, und gegen den Brood Warden III, in 5,2 Minuten, und verlieren 13 Schiffe |
+| 20 Piloten | gewinnen nur gegen die Siege Warden I und II, in 7,2 bis 7,3 Minuten, und verlieren 6 Schiffe, und gegen den Brood Warden III, in 3,7 Minuten, und verlieren 8 Schiffe | verlieren |
+| 30 Piloten | gewinnen gegen jeden Wächter in 2,0 bis 5,2 Minuten und verlieren 3 bis 11 Schiffe | gewinnen nur gegen die Siege Warden I und II, in 10,4 bis 10,5 Minuten, und verlieren 9 Schiffe, und gegen den Brood Warden III, in 5,1 Minuten, und verlieren 11 Schiffe |
 
-In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **17 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **10 bis 18** Schiffe; mit x1-Munition hat sie **26 bis 39** Piloten und verliert 12 bis 27. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 55 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
+In der Berechnung hat die kleinste Besatzung, die mit x2-Munition gewinnt, **17 bis 26 Piloten** (die wenigsten gegen die Siege Warden I und II) und verliert dabei **10 bis 17** Schiffe; mit x1-Munition hat sie **26 bis 39** Piloten und verliert 12 bis 25. Die Laser eines Wächters treffen in Stärke I mit Hunderten pro Salve (240 bis 645) und in Stärke III mit Tausenden (9.225 bis 15.450), und seine Helfer kommen dazu: Das Schiff, gegen das er kämpft, fällt in 18 bis 55 Sekunden, dann wendet er sich dem nächsten zu, und so verliert selbst eine Besatzung, die gewinnt, viele Schiffe.
 
 Die Tabelle gilt für eine Besatzung in der Ausrüstung der eigenen Stufe des Wächters. Schwächere Schiffe schneiden schlechter ab. Der Wächter **deines** Clans passt immer zu **deiner** Stufe, die die fünf besten Piloten des Clans bestimmen, bring sie also mit.
 
@@ -452,7 +453,7 @@ Clanpunkte gehören dem Clan. Jeder Schritt, den der Clan abschließt, erhöht s
 | **Flotten-Thulium** | 10 | +1 % | +10 % | Thulium aus Abschüssen und Missionsbelohnungen |
 | **Flotten-Credits** | 10 | +1 % | +10 % | Credits aus Abschüssen und Missionsbelohnungen |
 
-**Wo du sie siehst.** Im Flug zeigt das **Booster-Fenster** die Boni, die dein Schiff hat, auf einer eigenen Karte **Flottenboni** unter den zeitlich begrenzten Boostern: das Tag deines Clans, dann eine Zeile pro Bonus mit seinem Wert und seiner Stufe (Stufe 3/10). Sie haben keinen Timer, denn ein Clanbonus gilt, solange du im Clan bist. Fahr mit der Maus über eine Zeile, um zu sehen, worauf sie wirkt. Ein Clan, der noch nichts gekauft hat, zeigt „Deine Flotte hat noch keine Boni“, und ein Pilot ohne Clan sieht keine Karte. Die Booster-Karte des **Dashboards** und das Profil eines Piloten listen sie ebenfalls. Die Karte zeigt, was dein Schiff anwendet, so wie der Server es dem Spiel mitteilt, eine Stufe, die die Offiziere gerade gekauft haben, erscheint also sofort. Ein Spiel vor 0.4.12 wendet die Boni an und zeigt keine Karte.
+**Wo du sie siehst.** Im Flug zählt das **Booster-Fenster** die Boni, die dein Schiff hat, mit den Boostern zusammen: **Flotten-Schaden** ist eine Zeile der Kategorie **Schaden**, **Flotten-Thulium** eine von **Thulium**, **Flotten-Credits** eine von **Credits**, und jede steht in der Summe der Kategorie, die Summe ist also das, was dein Schiff bekommt. Öffne eine Kategorie, um die Zeile zu sehen: ihren Wert und ihre Stufe (Stufe 3/10), dort, wo ein Booster seinen Timer zeigt, denn ein Clanbonus hat keinen Timer und gilt, solange du im Clan bist. Fahr mit der Maus über die Zeile, um zu sehen, worauf sie wirkt. Ein Clan, der noch nichts gekauft hat, zeigt eine Karte **Flottenboni** mit „Deine Flotte hat noch keine Boni“, und ein Pilot ohne Clan sieht keine Karte. Die Booster-Karte des **Dashboards** zeigt unter den laufenden Boostern dieselben Summen, und das Profil eines Piloten listet sie ebenfalls. Die Zahlen zeigen, was dein Schiff anwendet, so wie der Server es dem Spiel mitteilt; eine Stufe, die die Offiziere gerade gekauft haben, erscheint also sofort. Ein Spiel vor 0.4.12 wendet die Boni an und zeigt nichts davon; vor 0.4.27 standen die Boni auf einer eigenen Karte und wurden nicht in die Summen gerechnet.
 
 ### Preise {#boost-prices}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 40b3614430227bf5 -->
+<!-- wiki-i18n source: f5852ee08aded325 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -21,7 +21,7 @@ Um **P.E.T.** (Personal Escort Technology) é um pequeno companheiro que voa ao 
 - **Choque.** Na visão **P.E.T.** do hangar, o Berço leva um chunk e uma Orvium Reinforced Plate para cada P.E.T. e tem quatro lugares na fila. O grau do chunk decide quantos bônus o P.E.T. tem: **1, 2 ou 3**.
 - **Acople e voe.** Acople os P.E.T.s que quiser enquanto a sua nave está pousada. Com uma Station equipada e em ON, eles dão os bônus e ganham experiência enquanto você caça, minera e voa, até o nível 20.
 - **ON e OFF.** O slot **PET** da barra de atalhos alterna a Station, também em voo, e a mudança vale na hora: em OFF, seus P.E.T.s não dão bônus, não ganham experiência e não trabalham; em ON, eles voltam. Uma Station que você nunca alternou está em ON.
-- **Ponha dois para trabalhar.** Um **Retriever** acoplado pega as caixas que estão ao redor da sua nave e um **Mole** acoplado quebra por você o asteroide mais próximo, sempre que você voa fora de uma zona segura, esteja ativo ou não, sem limite para um dia disso: [os tipos que trabalham](#the-working-types). Uma nave parada é um alvo.
+- **Ponha dois para trabalhar.** Um **Retriever** acoplado pega as caixas que estão ao redor da sua nave e cada **Mole** acoplado quebra por você o asteroide mais próximo (todos podem trabalhar no mesmo), sempre que você voa fora de uma zona segura, esteja ativo ou não, sem limite para um dia disso: [os tipos que trabalham](#the-working-types). Uma nave parada é um alvo.
 - **São seus.** Os P.E.T.s são ligados a você: sem troca, sem Leilão. Ficam através do reset.
 
 ## A P.E.T. Station {#the-station}
@@ -83,7 +83,7 @@ Um P.E.T. vai até o nível **20**. Cada nível soma **0,2 ponto** a cada um dos
 | Dano | 1% | 5% | 25% |
 | Sorte | 0,5 ponto | 1,7 ponto | 8,5 pontos |
 
-- **Dano, pontos de vida e escudo** se somam aos seus boosters e aos reforços do seu clã, não os multiplicam: os números do Hangar, da janela da nave e da sua página de piloto os contam, e a janela **Boosters** tem um card **P.E.T.** O escudo é a capacidade do escudo (os pontos de escudo máximos).
+- **Dano, pontos de vida e escudo** se somam aos seus boosters e aos reforços do seu clã, não os multiplicam: os números do Hangar, da janela da nave e da sua página de piloto os contam, e a janela **Boosters** os conta nos totais das categorias que eles elevam (uma linha **Bônus de dano P.E.T.** sob Dano, e assim por diante) e tem um card **P.E.T.** com os P.E.T.s acoplados e o estado da Station. O escudo é a capacidade do escudo (os pontos de escudo máximos).
 - **Créditos e Thulium** aumentam o que um abate paga a você, a sua parte de um chefe e do abate de um grupo e o que uma missão paga quando você a resgata, como os [reforços do seu clã](/wiki/03-Mechanics/Clans.md). Nunca aumentam o dinheiro de uma rocha, as fazendas do Skylab, um código de bônus nem o Leilão.
 - **A Sorte** aumenta a chance de cada linha de saque de um alienígena ou de uma nave de enxame, e das caixas privadas de um Guardião, como o [Loot Luck Booster](/wiki/06-Items/Boosters.md). Nada além disso.
 - **Sem Station em ON, sem bônus.** Só dão bônus os P.E.T.s acoplados que contam: os que cabem no lugar da Station equipada na sua nave, e só enquanto ela está em ON. Um P.E.T. que você tirou ou nunca acoplou não dá nada e não ganha nada, e o mesmo vale para todos com a Station em OFF ou sem Station equipada.
@@ -100,12 +100,12 @@ O nível 1 pede 810 de experiência, o nível 20 pede 40.000 no total. Com uma h
 
 ## Os tipos que trabalham {#the-working-types}
 
-Oito dos dez tipos só dão bônus. O **Retriever** e o **Mole** também dão, e cada um ainda trabalha para você enquanto você voa: o Retriever pega as caixas de carga que estão ao redor da sua nave, o Mole quebra o asteroide mais próximo dela. Eles trabalham enquanto a sua nave voa fora de uma zona segura, **você mexa nas teclas ou não**, e **um dia de trabalho não tem limite**: o que limita um Mole é o que limita você, os asteroides ao alcance dele e a rapidez com que voltam a crescer ([O P.E.T. Mole](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Uma nave parada é um alvo: qualquer piloto que possa atacá-la onde está pode fazê-lo, e um P.E.T. trabalhando não a protege.
+Oito dos dez tipos só dão bônus. O **Retriever** e o **Mole** também dão, e cada um ainda trabalha para você enquanto você voa: o Retriever pega as caixas de carga que estão ao redor da sua nave, cada Mole quebra o asteroide mais próximo dela. Eles trabalham enquanto a sua nave voa fora de uma zona segura, **você mexa nas teclas ou não**, e **um dia de trabalho não tem limite**: o que limita um Mole é o que limita você, os asteroides ao alcance dele e a rapidez com que voltam a crescer ([O P.E.T. Mole](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Uma nave parada é um alvo: qualquer piloto que possa atacá-la onde está pode fazê-lo, e um P.E.T. trabalhando não a protege.
 
 ### Quando eles trabalham {#when-they-work}
 
 - **Acoplado, com a Station em ON.** Só trabalha um P.E.T. acoplado que conta: ponha a Station em OFF e o feixe do Mole e a coleta do Retriever param na hora; em ON, continuam. A força dele é lida na decolagem: um nível ganho em voo conta a partir da sua próxima decolagem.
-- **Só o melhor de cada um.** Trabalha um Mole, o mais forte (em caso de empate, o do lugar mais baixo), e um Retriever, o de maior alcance. Seus outros Moles e Retrievers só dão bônus, então uma Station cheia de Moles não quebra mais que um.
+- **Todos os Moles trabalham, um Retriever.** Desde a 0.4.27 cada Mole acoplado trabalha, cada um com seu próprio drone e seu próprio feixe, e desde a 0.5.0 os seus Moles podem trabalhar no mesmo asteroide: cada um pega o mais próximo, então com um único asteroide ao alcance todos trabalham nele, e quando ele quebra eles passam juntos para o próximo. Uma Station com três Moles quebra até cerca de três vezes mais asteroides que um Mole enquanto houver asteroides suficientes ao alcance; os pulsos que chegam depois do que quebra um asteroide se perdem, então Moles que atingem todos de uma vez um asteroide pequeno valem um pouco menos. Trabalha um Retriever, o de maior alcance; seus outros Retrievers só dão bônus.
 - **Em voo, fora de uma zona segura.** Eles param enquanto uma [zona segura](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) protege a sua nave, e enquanto ela está destruída, sob a [proteção de reaparecimento](/wiki/01-General/Getting-Started.md#dying-and-coming-back), camuflada ou saltando, e continuam quando nada disso vale. Um piloto desconectado não tem nave no espaço, então nada trabalha para ele.
 - **Ativo ou não.** Não há regra sobre estar nas teclas: um Mole trabalha igual enquanto você caça, enquanto você olha uma janela e enquanto você está longe da tela.
 - **O que eles nunca fazem.** Um Retriever não pega nenhuma caixa que você não poderia pegar, então nunca as caixas protegidas de outro piloto. Um Mole nunca trabalha um asteroide numa zona segura: os asteroides ficam a pelo menos 1.500 unidades de um anel seguro.
@@ -120,7 +120,7 @@ Um Retriever acoplado pega a caixa de carga mais próxima dentro do seu **alcanc
 
 ### O Mole {#the-mole}
 
-Um Mole acoplado trabalha o asteroide mais próximo que ele pode trabalhar dentro de **600 unidades** da sua nave (cerca de cinco comprimentos de nave e meio) e lhe dá **um pulso a cada 3 segundos**, o tempo em que os seus foguetes recarregam. Ele fica com o asteroide até quebrar, depois procura o próximo. O drone dele sai voando até o asteroide e um feixe fino liga os dois.
+Um Mole acoplado trabalha o asteroide mais próximo que ele pode trabalhar dentro de **600 unidades** da sua nave (cerca de cinco comprimentos de nave e meio) e lhe dá **um pulso a cada 3 segundos**, o tempo em que os seus foguetes recarregam. Ele fica com o asteroide até quebrar, depois procura o próximo. O drone dele sai voando até o asteroide e um feixe fino liga os dois. **Cada Mole acoplado faz isso por conta própria** (0.4.27), e desde a 0.5.0 eles podem escolher o mesmo asteroide: com três Moles você vê três drones, e quando um asteroide é o mais próximo para todos, os feixes deles chegam lado a lado nele.
 
 - **O que é um pulso.** Uma parte do que o melhor foguete, [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets), tiraria daquele asteroide, de modo que a armadura atrasa um Mole como atrasa um foguete (o Ironhide, o Plateback, o Anvil e o Ancient Husk). Nada do que você equipa o muda: nem seus lasers, foguetes, amplificadores, boosters, formação, nem o Dano dos seus P.E.T.s. Um Mole não usa munição nem foguetes.
 - **Que força.** Pelo grau e pelo nível ([as tabelas abaixo](#how-strong)). Um **Mole Legendary de nível 20** quebra **pelo menos tantos asteroides por hora quanto um piloto que atira neles o melhor foguete**, enquanto tem asteroides para trabalhar: de 100% a 118% dos dele em cada um dos dezesseis setores com asteroides, nos três mundos. O Mole mais fraco que você pode chocar, um Mythical de nível 0, quebra cerca de um décimo. Em Alpha, um Mole no topo quebra um Pebble em 12 segundos, um Star Crystal em menos de 2 minutos e a Motherlode, o maior asteroide, em 5,8 minutos; o mais fraco leva 2,1 minutos, 19,8 minutos e cerca de uma hora.

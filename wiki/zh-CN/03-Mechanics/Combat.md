@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: 战斗 -->
 # 战斗机制 {#combat-mechanics}
 
@@ -33,6 +33,7 @@
 - 公式：`FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - 正在使用的[无人机编队](/wiki/03-Mechanics/Formations.md)可能会再乘一次：例如 Auger 激光伤害 +21%，Gyre −11%，对外星人则是 Culler +12%（是单独的系数，不属于增益的百分比）。
 - **Siphon Battery** 弹药的倍率是 x1，但作用对象不同：它的伤害只从目标的护盾中扣除（无论吸收率多少，都绝不会伤及船体），并转入你自己的护盾，最高不超过你的护盾上限。见[激光与弹药](/wiki/06-Items/Lasers.md)。
+- **Dark Matter Ammo**（0.5.0）改变了齐射本身：Dark Matter Ammo I 的倍率（x1.5 到 x5）每次齐射重新抽取，Dark Matter Ammo II 以 x6 命中，但每 1.5 秒才一次，并把目标护盾所承受伤害的四分之一还给你。**Antimatter Battery** 弹药穿透目标吸收率的 20%。参见[Antimatter 与 Dark Matter 弹药](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo)。
 
 ### 3b. 火箭 {#3b-rockets}
 
@@ -115,7 +116,7 @@ Seeker 和 Goombah 从不主动挑起战斗。它们会转向击中自己的飞�
 ### 1. 护盾吸收 {#1-shield-absorption}
 
 来袭伤害会按你舰船的**平均吸收率**，在护盾和生命值之间分配：平均吸收率是各护盾的吸收率（各自连同其护盾电池的吸收率）的平均值，再加上赛季商店的 Shield Absorbance Boost（见[护盾机制](/wiki/03-Mechanics/Shields.md)）。它**没有 100% 的上限**：护盾承受一次攻击的份额，等于你的吸收率**减去攻击方的护盾穿透**，结果限制在 0% 到 100% 之间。
-- 每次攻击的**吸收率**份额（例如，最好的护盾配最好的电池为 80%，一个 Basic Shield Core 加两个 Absorption Shield Cell I 为 56%）由护盾承受，再减去该次攻击的穿透：Lancet III 的 35% 会让 80% 吸收率的舰船的护盾只承受 45%，其余部分（这里是 55%）直接打在 HP 上。
+- 每次攻击的**吸收率**份额（例如，最好的护盾配最好的电池为 85%，一个 Basic Shield Core 加两个 Absorption Shield Cell I 为 58%）由护盾承受，再减去该次攻击的穿透：Lancet III 的 35% 会让 85% 吸收率的舰船的护盾只承受 50%，其余部分（这里是 50%）直接打在 HP 上。
 - **护盾穿透**来自单体火箭（10% 至 35%）以及 x3 和 x4 激光弹药（5% 和 10%）；外星人没有穿透。吸收率超过 100% 的舰船（比如 112%），能让护盾整次承受穿透不超过超出部分（这里是 12%）的攻击。射手激光上的 Penetration Amp（每个槽位 +3% 至 +12%）和无人机编队也会加进来，总和没有上限。
 - 护盾值不足以承担其份额时，差额会转给 HP；如果护盾完全耗尽，剩余的全部伤害的 **100%** 都会打在 HP 上。
 - 外星人没有吸收率属性：它们的护盾承受每次攻击的 80%（再减去该次攻击的穿透），船体承受其余部分。

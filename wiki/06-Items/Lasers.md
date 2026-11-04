@@ -30,16 +30,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -142,11 +149,18 @@ Consumable batteries that multiply the damage of your laser volleys:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Common | 1.0x | – | 5 Credits |
 | **Advanced Plasma** | Rare | 2.0x | – | 0.5 Thulium |
-| **Ultra Core** | Rare | 3.0x | 5% | 1.0 Thulium |
-| **Experimental Fusion Core** | Epic | 4.0x | 10% | 2.2 Thulium |
-| **Siphon Battery** | Rare | 1.0x, shields only | – | 0.25 Thulium |
+| **Ultra Core** | Rare | 3.0x | 5% | 1.0 Thulium, or craft it |
+| **Experimental Fusion Core** | Epic | 4.0x | 10% | Craftable only (no longer sold) |
+| **Siphon Battery** | Rare | 1.0x, shields only | – | 50 Credits |
+| **Siphon Battery II** | Rare | 0.5x, shields only, steals twice as much | – | Craftable only |
+| **Antimatter Battery I** | Rare | 2.0x | 20% | Craftable only |
+| **Antimatter Battery II** | Epic | 3.0x | 20% | Craftable only |
+| **Dark Matter Ammo I** | Rare | 1.5x to 5x, drawn for every volley (3.25x on average) | – | Craftable only |
+| **Dark Matter Ammo II** | Epic | 6.0x, a volley every 1.5 s, leeches the target's shield | – | Craftable only |
 
-**Shield penetration** is taken off your target's absorbance for every hit of your volleys: the shields take the target's absorbance less the penetration (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)). Your Penetration Amps and a drone formation add to the ammo's, and the whole sum is on [this page below](#shield-penetration-of-a-laser-hit). Against a ship at 80% (the best shield with the best cells) the x4 ammo's 10% leaves the shields 70% of the hit and the hull 30%. It matters most against ships whose hull is small next to their shield; a very large ship at 80% holds up the same either way. Aliens have no absorbance stat to speak of (their shields take 80% of a hit), and the penetration comes off that too.
+**Where the new ammo comes from.** Since 0.5.0 the Experimental Fusion Core is no longer sold: you make it, 1,000 at a time, in the [Assembly](/wiki/06-Items/Overview.md#the-production-queue), after you research **Military Grade Ammo II** in the Skylab's Research Centre. The Ultra Core can still be bought, and can be crafted too (**Military Grade Ammo I**, 30 minutes of research). Five new ammo are crafts only, each behind a technology of the **Laser Ammo** family and each made from the ammo below it: **Siphon Battery II** (from Siphon Battery), **Antimatter Battery I** (from Siphon Battery II) and **II** (from Antimatter Battery I and a little [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (from raw materials and one Dark Matter) and **II** (from Dark Matter Ammo I and Dark Matter). A craft is 1,000 units, 5 to 15 minutes, and a unit costs about what it is worth. The [Ammo Printer](/wiki/03-Mechanics/Skylab.md) makes the Ultra Core and the Experimental Fusion Core too, once you have researched them.
+
+**Shield penetration** is taken off your target's absorbance for every hit of your volleys: the shields take the target's absorbance less the penetration (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)). Your Penetration Amps and a drone formation add to the ammo's, and the whole sum is on [this page below](#shield-penetration-of-a-laser-hit). Against a ship at 85% (the best shield with the best cells) the x4 ammo's 10% leaves the shields 75% of the hit and the hull 25%, and the Antimatter ammo's 20% leaves them 65% and 35%. It matters most against ships whose hull is small next to their shield; a very large ship at 85% holds up the same either way. Aliens have no absorbance stat to speak of (their shields take 80% of a hit), and the penetration comes off that too.
 
 ### Siphon Battery
 
@@ -159,15 +173,27 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 - **Critical hits** count: a critical volley drains 1.5 times as much, and its number is drawn as a critical hit. Its packets are bigger and brighter, and the target's shield flares harder.
 - [Company pilots](/wiki/03-Mechanics/Company-Pilots.md) fire standard x1 ammo.
 
+**Siphon Battery II** works the same way with the numbers turned over: it drains **half** as much from the target's shield as a Siphon Battery (x0.5) and gives you **twice** what it drained (a steal of 2.0), so your shield gains exactly what a Siphon Battery's volley gives you while the target loses half as much. It is a craft (research **Siphon Battery II**, from 1,000 Siphon Battery), and like the first one it never touches the hull.
+
+---
+
+## Antimatter and Dark Matter ammo
+
+**Antimatter Battery I and II** pierce shields: **20%** of penetration each, on top of your amps and your formation, at x2 and x3 damage. Against a ship whose shield is big next to its hull they open the hull sooner than the Experimental Fusion Core does; against everything else the x4 is still the harder hit. They are a choice, not a step up.
+
+**Dark Matter Ammo I** rolls its multiplier **for every volley**, anywhere from **x1.5 to x5** (x3.25 on average). The whole ship shares one roll, whatever its number of lasers, so a volley is a lucky or an unlucky one for all of them. It fires every second like any ammo.
+
+**Dark Matter Ammo II** hits for **x6**, but only **one volley every 1.5 seconds** (the same damage a second as an x4), and it **leeches shield**: you gain 25% of the damage the target's shield really took, up to your maximum. The hit lands like any other (the shields take their share and the hull the rest) and a target with nothing left in its shield gives you nothing. Gaining shield is no damage taken, so it doesn't delay your own shield regeneration.
+
 ---
 
 ## Shield Penetration of a Laser Hit
 
-Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%), your **Penetration Amps** and a **drone formation** (Gemini +15%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), your **Penetration Amps** and a **drone formation** (Gemini +15%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 36%; one Penetration Amp IV in one laser of twelve makes 1%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 36%.
 - **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of the laser amps of the configuration it shows (0.0% without a Penetration Amp); ammo and formation are not in it. The **Ship window** in flight has a **Penetration** chip at the end of its bottom row (the Config and Speed chips show only an icon and a number to make room): it shows the total of a laser hit, your amps, the formation you wear and the ammo you fire, added up as you change them, and its tip lists the three parts.
-- **The best laser makes 61%.** An Experimental Fusion Core (10%), a Gemini (15%) and three Penetration Amp IV in every laser (36%) make 61%.
+- **The best laser makes 61% on x4, 71% on Antimatter.** An Experimental Fusion Core (10%), a Gemini (15%) and three Penetration Amp IV in every laser (36%) make 61%; an Antimatter Battery (20%) in its place makes 71%, at x3 damage instead of x4.
 - **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points instead of 12. In the best build, three Eternal ones add up to 66.4%, and every point of it counts.
 
 | Laser volley | Ammo | Amps (3 slots) | Formation | Total |
@@ -186,19 +212,19 @@ What that does to the target's shields: each cell is the share of one hit that *
 | Defender (absorbance) | No amps | Fusion Core alone (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | The best laser (61%) |
 |---|---|---|---|---|---|
 | Light Shield Core, no cell (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, no cell (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, no cell (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| The best shield out of the box (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| The best shield, Eternal Forge (top roll) and 44 Season Store levels (96.4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| The best shield, Eternal Forge (top roll) and the Season Store at its limit (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70%) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| The best shield out of the box (85%) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| The best shield, Eternal Forge (top roll) and 44 Season Store levels (102.2%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| The best shield, Eternal Forge (top roll) and the Season Store at its limit (107.8%) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Any alien (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-The best laser empties a shield core with no cell and a Light Shield Core with its best cell (the hull takes the whole hit); a Heavy Shield Core with three Capacity cells keeps 4% of every hit, and the best shield keeps 19% of it (35% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (70%) does.
+The best laser empties a shield core with no cell and a Light Shield Core with its best cell (the hull takes the whole hit); a Heavy Shield Core with three Capacity cells keeps 9% of every hit, and the best shield keeps 24% of it (41% with the buffs). A rocket on its own never empties a shield (35% at most), but a Lancet III or a Rivet III with a Stiletto (70%) does.
 
 ### When is a Penetration Amp worth a slot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**A Penetration Amp counters absorbance, and the higher it is, the more: against a small-hulled ship at about 95% (Season Store, Forge and Rampart builds) a Penetration loadout kills about 1.8 times faster than the best plain one, and against the best shield out of the box (80%) a trio of Penetration Amps takes about 11% less time than a trio of Crit Amps of the same tier. Against aliens it gains almost nothing.**
+**A Penetration Amp counters absorbance, and the higher it is, the more: against a small-hulled ship at about 101% (Season Store, Forge and Rampart builds) a Penetration loadout kills about 2.6 times faster than the best plain one, and against the best shield out of the box (85%) a trio of Penetration Amps takes about 19% less time than a trio of Crit Amps of the same tier. Against aliens it gains almost nothing.**
 
 - **It gives no damage.** On a Helios Beam, three Penetration Amp IV make 187 damage a volley (x1 ammo, the mean of the roll and the crits), where three Damage Amp IV make 356 and three Crit Amp IV 369: about half. What it buys back is the shield's share, so it pays only where the hull is small next to the shield and the absorbance is high; against a Wraith or an Ironclad, whose big hull holds anyway, a plain Damage or Crit set is about as fast (one Penetration Amp in a laser gains 5% at most).
 - **Aliens.** Their shields take 80% of a hit less your penetration, so it works on them too, but a Damage or Crit Amp of the tier kills them as fast or faster, except a Phantasm or a Goombah fought with a formation, where one Penetration Amp in a laser gains up to 5%.

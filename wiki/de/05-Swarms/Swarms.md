@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
-Ein **Schwarm** ist eine Gruppe von Aliens, die unter einem **Anführer** durch einen Teil der Galaxie streift: einem Boss, weit stärker als jedes Alien um ihn herum, mit **Begleitern**, die ihn bewachen und ihn in zwei der Schwärme heilen. Es gibt drei, und jeder hat einen eigenen Artikel:
+Ein **Schwarm** ist eine Gruppe von Aliens, die unter einem **Anführer** durch einen Teil der Galaxie streift: einem Boss, weit stärker als jedes Alien um ihn herum, mit **Begleitern**, die ihn bewachen und ihn in den meisten Schwärmen heilen. Es gibt sieben, und jeder hat einen eigenen Artikel:
 
 - [Seeker-Schwarm](/wiki/05-Swarms/Seeker-Swarm.md): der Boss Seeker und seine Seeker Slaves, der kleinste Schwarm, in den Sektoren, in denen neue Piloten fliegen.
 - [Pirate-Schwarm](/wiki/05-Swarms/Pirate-Swarm.md): der Pirate Boss und seine Pirate Scouts, ein langer Kampf für eine Gruppe.
 - [Dormant-Schwarm](/wiki/05-Swarms/Dormant-Swarm.md): die Dormant Force und ihre Dormant Pulses, der stärkste Schwarm, mit der reichsten Beute.
+- [Phantasm-Schwarm](/wiki/05-Swarms/Phantasm-Swarm.md): der Boss Phantasm und seine Phantasm Guards, ein riesiger Phantasm für eine Gruppe von Piloten mittlerer Stufe, in den äußeren Sektoren der Konzerne.
+- [Goombah-Schwarm](/wiki/05-Swarms/Goombah-Swarm.md): der Boss Goombah und seine Goombah Guards, ein riesiger Goombah für eine Gruppe der stärksten Piloten, in denselben Sektoren.
+- [Crystalys-Schwarm](/wiki/05-Swarms/Crystalys-Swarm.md): der Boss Crystalys und seine Crystalys Guards, das zäheste Alien noch größer, in drei der Gefahrensektoren.
+- [Tesseract-Schwarm](/wiki/05-Swarms/Tesseract-Swarm.md): der Tesseract, ein riesiges Mutterschiff, das Facets aussendet, solange es getroffen wird, für eine sehr große Gruppe, im Gefahrensektor `DS-4`.
 
 Ihre Schiffe sind **Aliens eigener Arten**: Sie haben eigene Namen und eigene Abschusszähler, und keines von ihnen zählt als Seeker, Phantasm oder irgendein anderes Alien. Ein Schwarmschiff hat die Gestalt des Schiffs, auf dem es aufbaut, in einer eigenen Färbung und mit seinem Namen darüber; der Boss Seeker ist ein viel größerer Seeker.
 
 Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen eigenen Wächter für den letzten Schritt seiner Tageslinie, und nur dieser Clan kann ihn verletzen: Kein Pilot trifft einen auf Streifzug durch einen Sektor, und die Tabellen unten führen sie nicht auf. Ein Wächter wird wie ein Schwarm-Boss nach Schaden bezahlt, aber seine Beute ist nicht eine Kiste für den, der den meisten Schaden verursacht hat: Jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine eigene [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes). Siehe [Clans](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## Die drei Schwärme {#the-three-swarms}
+## Die Schwärme {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen e
 | [**Pirate-Schwarm**](/wiki/05-Swarms/Pirate-Swarm.md) | Die Sektoren `x-2` und `x-3` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Pirate Boss** | Bis zu 5 × Pirate Scout, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
 | [**Dormant-Schwarm**](/wiki/05-Swarms/Dormant-Swarm.md) | Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`, `DS-4`, von einem zum anderen fliegend | Einer in jeder Welt | **Dormant Force** | 2 × Dormant Pulse, die mit dem Anführer fliegen | 1 h nach der Zerstörung des ganzen Schwarms, in einem zufälligen Gefahrensektor. Ab Saisontag 11: 30 min, im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und jedes Schiff zahlt ×2 |
 | [**Seeker-Schwarm**](/wiki/05-Swarms/Seeker-Swarm.md) | Die Sektoren `x-1` und `x-2` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Seeker** | Bis zu 4 × Seeker Slave, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
+| [**Phantasm-Schwarm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Die Sektoren `x-3` und `x-4` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Phantasm** | Bis zu 4 × Phantasm Guard, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
+| [**Goombah-Schwarm**](/wiki/05-Swarms/Goombah-Swarm.md) | Die Sektoren `x-3` und `x-4` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Goombah** | Bis zu 4 × Goombah Guard, alle 10 s ein neuer | 5 min nach der Zerstörung des Anführers, im selben Sektor |
+| [**Crystalys-Schwarm**](/wiki/05-Swarms/Crystalys-Swarm.md) | Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3` | Einer in jedem dieser Sektoren, 3 in jeder Welt | **Boss Crystalys** | Bis zu 3 × Crystalys Guard, alle 10 s ein neuer | 30 min nach der Zerstörung des Anführers, im selben Sektor |
+| [**Tesseract-Schwarm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Der Gefahrensektor `DS-4` | Einer in jeder Welt | **Tesseract** | Bis zu 50 × Facet, alle 5 s 10 weitere, solange der Anführer getroffen wird | 30 min nach der Zerstörung des Anführers, im selben Sektor |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ Die Welt skaliert einen Schwarm wie jedes Alien ([Welten](/wiki/03-Mechanics/Wip
 
 ## Was die Piloten erfahren {#what-the-pilots-are-told}
 
-Der Seeker- und der Pirate-Schwarm melden den Piloten ihres Sektors, wenn ein Boss auftaucht und wenn er zerstört wird. Der Dormant-Schwarm meldet es seiner ganzen Welt, und er ist auf den Karten der Gefahrensektoren und auf der Galaxiekarte markiert, damit Piloten ihn finden können. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Abschuss eines Bosses bekommt außerdem eine Zeile im Kill-Feed, die den Piloten nennt, dem er gutgeschrieben wird. Die Liste *Auf einen Blick* jedes Artikels sagt, wer informiert wird.
+Der Seeker-, der Pirate-, der Phantasm-, der Goombah-, der Crystalys- und der Tesseract-Schwarm melden den Piloten ihres Sektors, wenn ein Boss auftaucht und wenn er zerstört wird. Der Dormant-Schwarm meldet es seiner ganzen Welt, und er ist auf den Karten der Gefahrensektoren und auf der Galaxiekarte markiert, damit Piloten ihn finden können. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Abschuss eines Bosses bekommt außerdem eine Zeile im Kill-Feed, die den Piloten nennt, dem er gutgeschrieben wird. Die Liste *Auf einen Blick* jedes Artikels sagt, wer informiert wird.
 
 ## Einen Schwarm bekämpfen {#fighting-a-swarm}
 
-- **Die Anführer beginnen nie einen Kampf.** Ein Anführer streift umher, bis ein Pilot ihn trifft, wehrt sich dann, und die Schiffe seines Schwarms in seiner Nähe greifen mit ein, und zwar gegen den ersten Piloten, der ihn getroffen hat (die Entfernung steht in den Regeln oben). Die Pirate Scouts sind die Ausnahme: Sie greifen jeden Piloten an, der ihnen nahe kommt. Ein Anführer repariert seine Hülle nie von selbst, der Schaden, den du angerichtet hast, bleibt also auf ihm, es sei denn, seine Begleiter heilen ihn; sein Schild lädt sich wie bei jedem Alien wieder auf.
+- **Die Anführer beginnen nie einen Kampf.** Ein Anführer streift umher, bis ein Pilot ihn trifft, wehrt sich dann, und die Schiffe seines Schwarms in seiner Nähe greifen mit ein, und zwar gegen den ersten Piloten, der ihn getroffen hat (die Entfernung steht in den Regeln oben). Die Pirate Scouts sind die Ausnahme: Sie greifen jeden Piloten an, der ihnen nahe kommt. Ein Anführer repariert seine Hülle nie von selbst, der Schaden, den du angerichtet hast, bleibt also auf ihm, es sei denn, seine Begleiter heilen ihn; sein Schild lädt sich wie bei jedem Alien wieder auf. Nur der Tesseract ist anders: Er hat keine Waffe, heilt Hülle und Schild von selbst, sobald ihn einige Sekunden lang niemand verletzt hat, und seine Facets jagen den Piloten mit dem meisten Schaden statt dessen, der ihn zuerst getroffen hat.
 - **Schwarmschiffe bekämpfen nur Piloten.** Sie schießen nicht auf Aliens, und Aliens schießen nicht auf sie, und [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) ignorieren sie: Sie jagen kein Schwarmschiff und kommen dir auch nicht gegen eines zu Hilfe.
 - **Raketen.** Der Pirate Boss sowie die Dormant Force und die Pulses feuern **gerade** Raketen, [Rivet-Raketen](/wiki/06-Items/Rockets.md), auf den Piloten, der sie angegriffen hat. Ein Schiff, das in Bewegung bleibt, weicht ihnen aus, eines, das stillsteht, wird getroffen.
-- **Die Größe der Kämpfe.** Der Seeker-Schwarm ist etwas für zwei Piloten, der Pirate-Schwarm für eine kleine Gruppe, der Dormant-Schwarm für eine große Gruppe der stärksten Schiffe; die größeren Welten brauchen mehr Piloten, wie bei jedem Alien.
+- **Die Größe der Kämpfe.** Der Seeker-Schwarm ist etwas für zwei Piloten, der Pirate- und der Phantasm-Schwarm für eine kleine Gruppe, der Goombah-Schwarm für eine Gruppe der stärksten Schiffe, der Crystalys- und der Dormant-Schwarm für eine große Gruppe von ihnen, der Tesseract-Schwarm für eine sehr große; die größeren Welten brauchen mehr Piloten, wie bei jedem Alien.
 
 ## Was du mitbringen solltest {#what-to-bring}
 
@@ -80,8 +88,8 @@ Ein gewöhnliches Alien zahlt an den Piloten, der es zuerst getroffen hat ([Kamp
 
 - **Die Bezahlung wird nach Schaden aufgeteilt.** Jeder Pilot, der mindestens den Anteil aus den Regeln oben angerichtet hat, wird bezahlt, im Verhältnis zu seinem Schaden: Credits, Thulium, EP und Ehre des Abschusses werden unter ihnen aufgeteilt. Ein Pilot unter dem Anteil bekommt nichts.
 - **Die Frachtkiste geht an den Piloten mit dem meisten Schaden.** Sie gehört 30 Sekunden lang diesem Piloten (und seinem Clan), wie bei jedem Alien, danach kann sie jeder nehmen ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Jedes Dormant-Schiff hat seine eigene Schadenszählung und seine eigene Kiste.
-- **Begleiter zahlen wie üblich**: Die Pirate Scouts und die Seeker Slaves zahlen an den Piloten, der sie zuerst getroffen hat, und ihre Bezahlung ist klein gegen die eines Bosses.
-- **Die Bezahlung eines Bosses soll die Aliens um ihn herum übertreffen.** Eine Minute Kampf gegen einen Pirate Boss zahlt mehr als eine Minute Kampf gegen einen Goombah, und der Dormant-Schwarm zahlt noch mehr; der Boss Seeker zahlt genau zehn Seeker.
+- **Begleiter zahlen wie üblich**: Die Pirate Scouts, die Seeker Slaves und die Guards des Phantasm-, des Goombah- und des Crystalys-Schwarms zahlen an den Piloten, der sie zuerst getroffen hat, und ihre Bezahlung ist klein gegen die eines Bosses.
+- **Die Bezahlung eines Bosses soll die Aliens um ihn herum übertreffen.** Eine Minute Kampf gegen einen Pirate Boss, einen Boss Phantasm oder einen Boss Goombah zahlt mehr als eine Minute Kampf gegen einen Goombah, und eine Minute Kampf gegen den Dormant-Schwarm oder einen Boss Crystalys zahlt mehr als eine Minute Kampf gegen einen Crystalys; der Boss Seeker zahlt genau zehn Seeker.
 - **Die Aliens des Dormant Swamp** (der Slumbering Void, die Inert Mass und der Unwakened) werden wie ein Boss bezahlt, nach dem Schaden, und bringen PvE-Punkte für deinen Rang; ihre Zahlen stehen in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatistik gezählt und bringt PvE-Punkte für deine Rangliste:
@@ -97,6 +105,14 @@ Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatis
 | **Dormant Pulse** | Dormant-Schwarm | 11 |
 | **Boss Seeker** | Seeker-Schwarm | 5 |
 | **Seeker Slave** | Seeker-Schwarm | 1 |
+| **Boss Phantasm** | Phantasm-Schwarm | 8 |
+| **Phantasm Guard** | Phantasm-Schwarm | 1 |
+| **Boss Goombah** | Goombah-Schwarm | 14 |
+| **Goombah Guard** | Goombah-Schwarm | 3 |
+| **Boss Crystalys** | Crystalys-Schwarm | 21 |
+| **Crystalys Guard** | Crystalys-Schwarm | 6 |
+| **Tesseract** | Tesseract-Schwarm | 42 |
+| **Facet** | Tesseract-Schwarm | 0 |
 
 <!-- swarms-points:end -->
 

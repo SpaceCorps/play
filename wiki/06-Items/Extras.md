@@ -62,7 +62,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. An [Auto-Repair CPU](#auto-repair-cpu) switches it on again for you. The rates are in [Combat](/wiki/03-Mechanics/Combat.md). While it mends, little repair drones fly out of the ship, circle it and beam the hull, one for a Repair Drone I, two for a II, three for a III or IV, and the pilots near you see them; they dock again when the repair stops.
+Switch a Repair Drone on (REP) and it mends the hull until it is full. It starts only after 10 seconds without a hit, and any hit switches it off. With several fitted, the best one works. An [Auto-Repair CPU](#auto-repair-cpu) switches it on again for you. The rates are in [Combat](/wiki/03-Mechanics/Combat.md). While it mends, little repair drones fly out of the ship, circle it and beam the hull, one for a Repair Drone I, two for a II, three for a III or IV, and the pilots near you see them; they dock again when the repair stops. Pressing REP to switch the drone on also plays a soft repair pulse, the Emergency Repair's a little lower and quieter, and while the drone mends, a small green number floats over your own ship about once a second with the hull it just gave (+N), also when an Auto-Repair CPU switched it on.
 
 ## Cloaking CPU
 

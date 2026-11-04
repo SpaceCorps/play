@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Escavatore gigante -->
 # Escavatore gigante {#giant-excavator}
 
@@ -29,14 +29,14 @@ Dal primo giorno della stagione un **pulsar** brilla in ciascuno dei settori per
 ## Come va un ciclo {#how-a-run-goes}
 
 1. **Trovane uno.** Dal giorno 11 della stagione ciascuno dei tre settori pericolosi con un pulsar ha un escavatore, in ogni mondo. Un’etichetta, **Escavatore**, gli sta sopra quando sei vicino, e la mappa del Sistema stellare segna ogni settore pericoloso che ne ha uno: il colore del segno è lo stato del suo escavatore, e il suo suggerimento indica il tempo al prossimo cambio.
-2. **Apri il pannello.** Clicca l’etichetta. La finestra **Escavatore gigante** funziona finché la tua nave è nel raggio del pannello dell’escavatore (l’elenco *In breve* lo indica). Una nave occultata può usarlo, e usarlo non pone fine all’occultamento.
+2. **Apri il pannello.** Clicca l’etichetta. La finestra **Escavatore gigante** funziona finché la tua nave è nel raggio del pannello dell’escavatore (l’elenco *In breve* lo indica). Una nave occultata non può usarlo: i pulsanti della finestra sono bloccati e ogni azione viene rifiutata finché l’occultamento non finisce.
 3. **Rifornisci.** **Aggiungi Dark Matter** mette una Dark Matter dal tuo carico nel serbatoio. Può farlo chiunque. Il serbatoio non ne accetta mai più di quante l’escavatore possa bruciarne prima di surriscaldarsi, così non si spreca carburante.
 4. **Scegli cosa estrarre** dall’elenco, poi premi **Avvia l’estrazione**. Serve almeno una Dark Matter nel serbatoio e una risorsa. Chiunque può cambiare la scelta fino all’avvio e anche mentre è in funzione (vedi *Cambiare la risorsa* più sotto). L’avvio viene annunciato a ogni pilota del mondo, con il tuo nome, il settore e la risorsa.
 5. **Difendilo.** Mentre estrae, ogni pochi secondi cade una cassa intorno all’escavatore, e poco dopo l’avvio arrivano i primi Slumbering Void. Difendi l’escavatore e prendi le casse. Un flusso di luce scorre dal pulsar alla trivella dell’escavatore e si intensifica al ritmo della stella, una volta ogni 4 secondi; nell’ultimo minuto prima del surriscaldamento sfarfalla e si spezza, e quando la macchina riposa si ferma.
 6. **Controlla il calore.** La barra del Calore si riempie mentre l’escavatore estrae e non si svuota mai mentre aspetta. Al limite l’escavatore si surriscalda. Vai via prima: il gioco avvisa la mappa due volte.
 7. **Riposa.** Surriscaldato o distrutto, l’escavatore e il suo pulsar sono irradiati finché il riposo non finisce; poi è di nuovo pronto, con il calore azzerato e lo scafo pieno.
 
-La finestra mostra anche il settore, il serbatoio (una cella per ogni Dark Matter, quella che brucia disegnata a metà), quanta Dark Matter trasporti, lo scafo dell’escavatore, quanto deposita ogni risorsa al minuto nel tuo mondo e, mentre estrae, la risorsa che si estrae adesso, quanto ha deposto ogni risorsa dall’ultimo raffreddamento dell’escavatore, il tempo alla prossima ondata e i Void vivi. Quando qualcosa viene rifiutato, leggi il motivo in rosso: sei troppo lontano dal pannello, non hai Dark Matter, il serbatoio è pieno, non c’è ancora carburante o una risorsa scelta, l’escavatore è già in funzione, un cambio è arrivato troppo presto dopo l’ultimo, oppure l’escavatore è caldo.
+La finestra mostra anche il settore, il serbatoio (una cella per ogni Dark Matter, quella che brucia disegnata a metà), quanta Dark Matter trasporti, lo scafo dell’escavatore, quanto deposita ogni risorsa al minuto nel tuo mondo e, mentre estrae, la risorsa che si estrae adesso, quanto ha deposto ogni risorsa dall’ultimo raffreddamento dell’escavatore, il tempo alla prossima ondata e i Void vivi. Quando qualcosa viene rifiutato, leggi il motivo in rosso: sei troppo lontano dal pannello, non hai Dark Matter, il serbatoio è pieno, non c’è ancora carburante o una risorsa scelta, l’escavatore è già in funzione, un cambio è arrivato troppo presto dopo l’ultimo, l’escavatore è caldo oppure la tua nave è occultata.
 
 ### Cambiare la risorsa {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Se il carburante finisce prima del limite, l’escavatore torna **Pronto** con i
 
 ## Cosa estrae {#what-it-mines}
 
-Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli la risorsa prima dell’avvio e puoi cambiarla mentre l’escavatore è in funzione. Una cassa contiene lo stesso per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi. Ciò che prendi da una cassa, invece, può cambiare: ogni livello della ricerca Pilota Excavator Mining ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta il Thulium e il minerale che raccogli del 20%, 30% o 40% in tutto, arrotondato per difetto.
+Un serbatoio pieno deposita circa quanto guadagnerebbero cinque piloti in mezz’ora del miglior farming di Thulium. Beta e Gamma depositano di più, come pagano di più per ogni abbattimento. Scegli la risorsa prima dell’avvio e puoi cambiarla mentre l’escavatore è in funzione. Una cassa contiene lo stesso per tutti, e una cassa di Thulium è denaro contante che viene pagato alla raccolta, come il Thulium degli asteroidi. La dimensione delle casse la decide chi avvia la sessione: ogni livello della ricerca Pilota Excavator Mining ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) del pilota che preme **Avvia l’estrazione** fa contenere a ogni cassa di quella sessione il 20%, 30% o 40% in più in tutto, Thulium e minerale insieme, per tutta la sessione, chiunque rifornisca, cambi la risorsa o raccolga le casse. Il pannello di controllo mostra di chi è la sessione e quale quota portano le sue casse, e dice a un pilota che ha Excavator Mining che vale per le sessioni che avvia lui stesso. Le quantità qui sotto sono senza di essa; si aggiunge al massimo che una risorsa può deporre in una sessione.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ L’escavatore non ha **nessun anello speciale**: valgono le regole normali del 
 Sono righe di Sistema (compaiono nella scheda **Sistema** della chat e nel Registro di gioco, e non in **Globale** né in **Locale**). Le prime tre vanno al mondo intero; l’ultima ai piloti del settore dell’escavatore.
 
 - Il giorno in cui inizia l’evento 2: i settori pericolosi sono cambiati.
-- Un pilota **avvia** un escavatore, con il settore, la risorsa e i minuti di carburante.
+- Un pilota **avvia** un escavatore, con il settore, la risorsa e i minuti di carburante, e la quota di Excavator Mining di quel pilota se ne ha una.
 - L’escavatore **si surriscalda**, oppure viene **distrutto**.
 - Il carburante finisce; l’escavatore sta per surriscaldarsi (due avvisi); sta arrivando una **ondata** di Void, con il suo numero e il lato della mappa da cui viene; non resta nessun pilota, quindi i Void attaccano l’escavatore.
 

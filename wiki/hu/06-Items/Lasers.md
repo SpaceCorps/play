@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Elhasználódó elemek, amelyek megsokszorozzák a lézersortüzeid sebzését:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Gyakori | x1,0 | – | 5 kredit |
 | **Advanced Plasma** | Ritka | x2,0 | – | 0,5 Thulium |
-| **Ultra Core** | Ritka | x3,0 | 5% | 1,0 Thulium |
-| **Experimental Fusion Core** | Epikus | x4,0 | 10% | 2,2 Thulium |
-| **Siphon Battery** | Ritka | x1,0, csak pajzsra | – | 0,25 Thulium |
+| **Ultra Core** | Ritka | x3,0 | 5% | 1,0 Thulium, vagy gyártható |
+| **Experimental Fusion Core** | Epikus | x4,0 | 10% | Csak gyártható (már nem kapható) |
+| **Siphon Battery** | Ritka | x1,0, csak pajzsra | – | 50 kredit |
+| **Siphon Battery II** | Ritka | x0,5, csak pajzsra, kétszer annyit lop | – | Csak gyártható |
+| **Antimatter Battery I** | Ritka | x2,0 | 20% | Csak gyártható |
+| **Antimatter Battery II** | Epikus | x3,0 | 20% | Csak gyártható |
+| **Dark Matter Ammo I** | Ritka | x1,5-től x5-ig, minden sortűznél újra sorsolva (átlagosan x3,25) | – | Csak gyártható |
+| **Dark Matter Ammo II** | Epikus | x6,0, 1,5 másodpercenként egy sortűz, elszívja a célpont pajzsát | – | Csak gyártható |
 
-A **pajzsáthatolást** a sortüzeid minden találatánál levonják a célpont elnyeléséből: a pajzsok a célpont elnyelésének és az áthatolásnak a különbségét fogják fel (lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)). A Penetration Amp-jeid és egy drónformáció hozzáadódnak a lőszeréhez, és a teljes összeg [lejjebb ezen az oldalon](#shield-penetration-of-a-laser-hit) olvasható. Egy 80%-os hajóval szemben (a legjobb pajzs a legjobb cellákkal) az x4 lőszer 10%-os áthatolása mellett a pajzsok a találat 70%-át fogják fel, a hajótest 30%-át kapja. A legtöbbet azoknál a hajóknál számít, amelyeknek kicsi a hajótestük a pajzsukhoz képest; egy nagyon nagy, 80%-os hajó így is, úgy is ugyanannyit bír ki. Az idegeneknek nincs említésre méltó elnyelés-értékük (a pajzsuk a találat 80%-át fogja fel), és az áthatolás ebből is levonódik.
+**Honnan jön az új lőszer.** A 0.5.0 óta az Experimental Fusion Core már nem kapható: te gyártod, ezresével, a [Gyártásban](/wiki/06-Items/Overview.md#the-production-queue), miután a Skylab Kutatóközpontjában kikutattad a **Military Grade Ammo II**-t. Az Ultra Core továbbra is megvehető, és gyártható is (**Military Grade Ammo I**, 30 perc kutatás). Öt új lőszer csak gyártható, mindegyik a **Laser Ammo** család egy technológiája mögött áll, és mindegyik az alatta lévő lőszerből készül: **Siphon Battery II** (Siphon Battery-ből), **Antimatter Battery I** (Siphon Battery II-ből) és **II** (Antimatter Battery I-ből és egy kevés [Dark Matterből](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (nyersanyagokból és egy Dark Matterből) és **II** (Dark Matter Ammo I-ből és Dark Matterből). Egy gyártás 1 000 darab, 5–15 perc, és egy darab nagyjából annyiba kerül, amennyit ér. A [Lőszernyomtató](/wiki/03-Mechanics/Skylab.md) az Ultra Core-t és az Experimental Fusion Core-t is gyártja, ha már kikutattad őket.
+
+A **pajzsáthatolást** a sortüzeid minden találatánál levonják a célpont elnyeléséből: a pajzsok a célpont elnyelésének és az áthatolásnak a különbségét fogják fel (lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)). A Penetration Amp-jeid és egy drónformáció hozzáadódnak a lőszeréhez, és a teljes összeg [lejjebb ezen az oldalon](#shield-penetration-of-a-laser-hit) olvasható. Egy 85%-os hajóval szemben (a legjobb pajzs a legjobb cellákkal) az x4 lőszer 10%-os áthatolása mellett a pajzsok a találat 75%-át fogják fel, a hajótest 25%-át kapja, az Antimatter lőszer 20%-os áthatolásánál pedig 65% jut a pajzsoknak és 35% a hajótestnek. A legtöbbet azoknál a hajóknál számít, amelyeknek kicsi a hajótestük a pajzsukhoz képest; egy nagyon nagy, 85%-os hajó így is, úgy is ugyanannyit bír ki. Az idegeneknek nincs említésre méltó elnyelés-értékük (a pajzsuk a találat 80%-át fogja fel), és az áthatolás ebből is levonódik.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ A Siphon Battery pajzslopásra való lőszer, a hajótestek összetörése helye
 - A **kritikus találatok** számítanak: egy kritikus sortűz másfélszer annyit szív le, és a száma kritikus találatként jelenik meg. A csomagjai nagyobbak és fényesebbek, a célpont pajzsa pedig erősebben felvillan.
 - A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) szabványos x1 lőszerrel tüzelnek.
 
+A **Siphon Battery II** ugyanígy működik, megfordított számokkal: a Siphon Battery-nél (x0,5) **feleannyit** szív el a célpont pajzsából, és **kétszer annyit** ír jóvá neked, mint amennyit elszívott (2,0-s lopás), így a pajzsod pontosan annyit nyer, amennyit egy Siphon Battery sortüze ad, miközben a célpont feleannyit veszít. Gyártással készül (**Siphon Battery II** kutatás, 1 000 Siphon Battery-ből), és az elsőhöz hasonlóan sosem éri a hajótestet.
+
+---
+
+## Antimatter és Dark Matter lőszer {#antimatter-and-dark-matter-ammo}
+
+Az **Antimatter Battery I és II** áthatolja a pajzsokat: mindegyik **20%** áthatolást ad, az erősítőidén és a formációdén felül, x2 és x3 sebzésnél. Egy olyan hajóval szemben, amelynek pajzsa nagy a hajótestéhez képest, hamarabb nyitják fel a hajótestet, mint az Experimental Fusion Core; minden mással szemben az x4 továbbra is keményebb találat. Ez választás, nem egy újabb lépcsőfok.
+
+A **Dark Matter Ammo I** a szorzóját **minden sortűznél** újra sorsolja, valahol **x1,5 és x5** között (átlagosan x3,25). Az egész hajó egyetlen sorsolást oszt meg, akárhány lézere van, így egy sortűz mindegyiknek egyszerre szerencsés vagy szerencsétlen. Mint minden lőszer, másodpercenként tüzel.
+
+A **Dark Matter Ammo II** **x6**-tal csap le, de csak **1,5 másodpercenként egy sortűzzel** (ugyanannyi sebzés másodpercenként, mint egy x4-nél), és **elszívja a pajzsot**: megkapod annak a sebzésnek a 25%-át, amelyet a célpont pajzsa valójában elszenvedett, a maximumodig. A találat úgy csapódik be, mint bármelyik más (a pajzsok viszik a részüket, a hajótest a maradékot), és a pajzs nélküli célpont semmit sem ad. A pajzs nyerése nem elszenvedett sebzés, ezért nem késlelteti a saját pajzsod regenerálódását.
+
 ---
 
 ## Egy lézertalálat pajzsáthatolása {#shield-penetration-of-a-laser-hit}
 
-Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +15%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +15%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden lézerben 36%; egy Penetration Amp IV tizenkét lézerből egyben 1%. Egy Wraithnek 12 lézere és 36 erősítőfoglalata van, és mind a 36-ot meg kell tölteni a 36%-hoz.
 - **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe a mutatott konfiguráció lézererősítőinek értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. A repülés közbeni **Hajó** ablak alsó sorának végén van egy **Áthatolás** chip (a konfiguráció és a sebesség chipje helyet csinálva csak egy ikont és egy számot mutat): egy lézertalálat összegét mutatja, az erősítőidet, a viselt formációt és a kilőtt lőszert, összeadva, amint bármit váltasz, a súgója pedig felsorolja a három részt.
-- **A legjobb lézer 61%-ot ad.** Egy Experimental Fusion Core (10%), egy Gemini (15%) és három Penetration Amp IV minden lézerben (36%) együtt 61%.
+- **A legjobb lézer x4-gyel 61%-ot, Antimatterrel 71%-ot ad.** Egy Experimental Fusion Core (10%), egy Gemini (15%) és három Penetration Amp IV minden lézerben (36%) együtt 61%; ha az Experimental Fusion Core helyén egy Antimatter Battery (20%) áll, az 71%, x4 helyett x3 sebzéssel.
 - **Egy kovácsműhelyes buff egy Penetration Amp IV-en számít.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 12-ról 13,1–13,8 pontra viszi. A legjobb felállásban három Örök együtt 66,4%, és minden pontja számít.
 
 | Lézersortűz | Lőszer | Erősítők (3 foglalat) | Formáció | Összesen |
@@ -189,19 +215,19 @@ Mit tesz ez a célpont pajzsaival: minden cella a találatnak az a része, amely
 | Védekező (elnyelés) | Erősítők nélkül | Fusion Core egyedül (10%) | Fusion Core + Gemini (25%) | Fusion Core + 3 Penetration Amp IV (46%) | A legjobb lézer (61%) |
 |---|---|---|---|---|---|
 | Light Shield Core, cella nélkül (45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, cella nélkül (50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, cella nélkül (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| A gyárilag legjobb pajzs (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és 44 szezonbolti szint (96,4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és a Szezonbolt a határán (102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70%) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| A gyárilag legjobb pajzs (85%) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és 44 szezonbolti szint (102,2%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| A legjobb pajzs, Örök kovácsolás (legjobb dobás) és a Szezonbolt a határán (107,8%) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Bármelyik idegen (80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-A legjobb lézer kiüríti a cella nélküli pajzsmagot és egy Light Shield Core-t a legjobb cellájával (a hajótest kapja az egész találatot); egy Heavy Shield Core három Capacity cellával megtartja a találat 4%-át, a legjobb pajzs pedig 19%-át (35%-át a buffokkal). Egy rakéta önmagában sosem ürít ki pajzsot (legfeljebb 35%), de egy Lancet III vagy Rivet III Stiletto mellett (70%) igen.
+A legjobb lézer kiüríti a cella nélküli pajzsmagot és egy Light Shield Core-t a legjobb cellájával (a hajótest kapja az egész találatot); egy Heavy Shield Core három Capacity cellával megtartja a találat 9%-át, a legjobb pajzs pedig 24%-át (41%-át a buffokkal). Egy rakéta önmagában sosem ürít ki pajzsot (legfeljebb 35%), de egy Lancet III vagy Rivet III Stiletto mellett (70%) igen.
 
 ### Mikor ér meg egy Penetration Amp egy foglalatot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**A Penetration Amp az elnyelést ellensúlyozza, és minél magasabb az, annál többet ér: egy kis hajótestű hajó ellen nagyjából 95%-nál (Szezonbolt-, Kovácsműhely- és Rampart-felállások) egy Penetration-készlet nagyjából 1,8-szor gyorsabban öl, mint a legjobb sima készlet, a gyárilag legjobb pajzs (80%) ellen pedig három Penetration Amp nagyjából 11%-kal kevesebb időt vesz igénybe, mint három azonos szintű Crit Amp. Idegenek ellen alig nyer valamit.**
+**A Penetration Amp az elnyelést ellensúlyozza, és minél magasabb az, annál többet ér: egy kis hajótestű hajó ellen nagyjából 101%-nál (Szezonbolt-, Kovácsműhely- és Rampart-felállások) egy Penetration-készlet nagyjából 2,6-szor gyorsabban öl, mint a legjobb sima készlet, a gyárilag legjobb pajzs (85%) ellen pedig három Penetration Amp nagyjából 19%-kal kevesebb időt vesz igénybe, mint három azonos szintű Crit Amp. Idegenek ellen alig nyer valamit.**
 
 - **Nem ad sebzést.** Egy Helios Beamen három Penetration Amp IV 187 sebzést ad sortűzenként (x1 lőszerrel, a dobás és a kritikusok átlaga), ahol három Damage Amp IV 356-ot, három Crit Amp IV 369-et: nagyjából a felét. Amit visszahoz, az a pajzs része, ezért csak ott éri meg, ahol a hajótest kicsi a pajzshoz képest és magas az elnyelés; egy Wraith vagy Ironclad ellen, amelyek nagy hajótestje így is kitart, egy egyszerű Damage vagy Crit készlet nagyjából ugyanolyan gyors (egy Penetration Amp egy lézerben legfeljebb 5%-ot nyer).
 - **Idegenek.** A pajzsuk a találat 80%-át fogja fel, levonva az áthatolásodat, tehát rajtuk is működik, de a szintjének megfelelő Damage vagy Crit Amp ugyanolyan gyorsan vagy gyorsabban öli őket, kivéve egy formációval harcolt Phantasmot vagy Goombah-t, ahol egy Penetration Amp egy lézerben legfeljebb 5%-ot nyer.

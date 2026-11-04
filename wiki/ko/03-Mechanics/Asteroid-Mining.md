@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7a78278d44e3602 -->
+<!-- wiki-i18n source: 88f92b2c05ff7193 -->
 <!-- wiki-i18n title: 소행성 채굴 -->
 # 소행성 채굴 {#asteroid-mining}
 
@@ -58,7 +58,7 @@
 - **얼마나 부수는가.** 정점의 Mole(레벨 20 전설)은 가장 좋은 로켓 Rivet III로 겨누는 파일럿과 최소한 같은 수의 소행성을 한 시간에 부수고, 낮은 등급과 레벨은 그보다 적게 부숩니다([표](/wiki/03-Mechanics/Pets.md#how-strong)). 탄약도 로켓도 쓰지 않습니다. 레이저, 로켓, 앰프, 부스터, 편대, P.E.T.의 피해량은 펄스를 바꾸지 않으며, 장갑은 로켓을 늦추듯 펄스를 늦춥니다.
 - **어떤 소행성.** 닿는 거리 안에서 가장 가깝고, 다른 소행성이나 Energetic Wall이 가리지 않는 것입니다. 로켓으로 피해를 줄 수 있는 소행성은 모두 해당합니다. Motherlode도, 잔해(Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser)도, 다른 파일럿들이 피해를 준 소행성도 포함되며, 이때 청크는 언제나처럼 준 피해에 따라 나뉩니다. 배경에 떠다니는 잔해는 장식일 뿐 소행성이 아닙니다. 안전 지대 안, 은폐 중, 점프 중, 함선이 파괴된 동안에는 일하지 않습니다.
 - **자체 한도 없음.** Mole은 비행하는 시간마다 키를 만지든 말든 일하며(가만히 있는 함선은 표적입니다), 일일 한도에 걸려 멈추는 일은 없습니다. 자체 한도도, 월드의 한도도 없습니다. 남는 것은 모두에게 똑같이 적용되는 제약, 곧 닿는 범위 안의 소행성과 그것이 다시 자라는 속도입니다. Mole이 부순 조각도 당신의 조각처럼 전액 지급됩니다.
-- **일하는 것은 하나뿐.** Station에 있는 Mole 중 일하는 것은 가장 강한 하나뿐이고, 나머지는 부스트만 줍니다.
+- **모든 Mole이 일합니다.** 0.4.27부터 Station에 있는 모든 Mole이 각자의 드론과 빔으로 일하므로, 닿는 범위에 충분히 있는 한 Mole이 많을수록 더 많은 소행성을 부숩니다. 0.5.0부터는 당신의 Mole들이 같은 소행성에서 일할 수 있습니다. 각자 가장 가까운 소행성을 고르므로, 닿는 범위에 소행성이 하나뿐이면 Mole 다섯이 모두 그것에 달라붙어 더 빨리 부숩니다. 소행성을 부순 펄스 뒤에 도착하는 펄스는 사라지므로, 작은 소행성은 선체 수치가 말하는 것보다 Mole의 일을 조금 더 듭니다.
 
 ## 규칙 {#the-rules}
 
@@ -208,7 +208,7 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 
 | 종류 | 선체 | 크기 | 티어 | 특성 | 돈 조각 | 대응 로켓 | 크레딧 | Thulium | 획득물 | 출현 위치 |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 중형 | 3 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66,000 | 중형 | 3 | 폭발 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 42,450–70,800 | 72–168 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100,000 | 대형 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 14발 | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130,000 | 대형 | 4 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 18발 | 101,400–169,050 | 50% 확률로 36–87개 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150,000 | 대형 | 5 | 폭발 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 약 21발 | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: 赛季与奖励 -->
 # 赛季与奖励 {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@
 
 你在重置那一刻的军衔会发放：
 
-* **重置点数**：按军衔 5 到 400，另加重置点数来源发放的那部分（每次重置最多 1,090 重置点数：[赚取重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。
+* **重置点数**：按军衔 5 到 400，另加重置点数来源发放的那部分（每次重置最多 1,105 重置点数：[赚取重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。
 * **高级会员天数**：1 到 7 天，从初级上尉起。会叠加到你已有的高级会员上。
 * **信用点和 Thulium**：随军衔增长的重启资金，从飞行员的 105,000 信用点和 225 Thulium，到高级海军上将的 6,300,000 信用点和 13,500 Thulium。和[上限](#the-caps-and-your-rewards)比起来它很小：是帮你开好新赛季的头，不是领先优势。
 

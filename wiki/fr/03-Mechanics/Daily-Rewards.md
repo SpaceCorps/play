@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Récompenses quotidiennes -->
 # Récompenses quotidiennes {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; récompense quotidienne; connexion quotidienne; calendrier; coffre; récompense de saison; plan; série -->
 
-Chaque saison a un **calendrier de récompenses quotidiennes** : un petit cadeau pour chaque jour de la saison. À la station, appuyez sur **Récupérer** et le cadeau du jour est à vous. Plus vous récupérez de jours, plus vous recevez : quatre **coffres** arrivent à 7, 14, 21 et 28 jours récupérés, et pendant les trois derniers jours de la saison vous pouvez prendre la **récompense de saison**. Un jour manqué vous coûte le cadeau de ce jour et rien d’autre. Le calendrier se trouve dans le **Tableau de bord** (la carte **Récompenses quotidiennes**) et sous **Saison et profil › Calendrier**.
+Chaque saison a un **calendrier de récompenses quotidiennes** : un cadeau pour chaque jour de la saison, toujours des munitions ou des roquettes. À la station, appuyez sur **Récupérer** et le cadeau du jour est à vous. Plus vous récupérez de jours, plus vous recevez : quatre **coffres** arrivent à 7, 14, 21 et 28 jours récupérés, et pendant les trois derniers jours de la saison vous pouvez prendre la **récompense de saison**. Un jour manqué vous coûte le cadeau de ce jour et rien d’autre. Le calendrier se trouve dans le **Tableau de bord** (la carte **Récompenses quotidiennes**) et sous **Saison et profil › Calendrier**.
 
 ## En une minute {#in-one-minute}
 
@@ -15,7 +15,7 @@ Chaque saison a un **calendrier de récompenses quotidiennes** : un petit cadea
 - **4 coffres**, à 7, 14, 21 et 28 jours récupérés.
 - **Une récompense de saison** pendant les trois derniers jours de la saison : un look souvenir à 10 jours récupérés et un plan de design de vaisseau à 20.
 - **Un nouveau calendrier à chaque réinitialisation.** Vous voyez chaque cadeau de la saison dès le jour 1.
-- **Petit exprès.** Les 29 jours ensemble valent à peu près quelques heures de chasse, étalées sur une saison.
+- **Munitions et roquettes.** Chaque cadeau quotidien est l’une des deux munitions laser les plus puissantes ou une roquette épique ([Les cadeaux](#the-gifts)). Les coffres et la récompense de saison sont à part.
 
 ## Le jour {#the-day}
 
@@ -33,7 +33,7 @@ La carte et l’onglet indiquent tous deux quand s’ouvre la prochaine récompe
 
 - **Le jour 1 est court.** La saison commence à la réinitialisation, au milieu d’un jour UTC, donc la case 1 est ouverte depuis ce moment jusqu’à la fin de ce jour, plus le délai de grâce.
 - **Le jour 29 est long.** La dernière case reste ouverte jusqu’au début du compte à rebours de la réinitialisation, ce qui peut faire plus de 24 heures après son ouverture. Une fois le compte à rebours lancé, plus rien ne peut être récupéré avant le début de la nouvelle saison.
-- **Les administrateurs peuvent déplacer le jour de saison.** Le calendrier suit : les jours sautés comptent comme manqués pour tout le monde, et une case que vous avez déjà récupérée reste récupérée.
+- **Les administrateurs peuvent déplacer le jour de saison.** Le calendrier suit. Si le jour avance, les jours sautés comptent comme manqués pour tout le monde, et une case que vous avez déjà récupérée reste récupérée. S’il recule, les jours sont rejoués : les cases des jours à partir du nouveau jour que vous aviez récupérées peuvent l’être de nouveau, chacune quand l’horloge atteint son jour, et chacune verse de nouveau son cadeau. Ce que vous avez reçu n’est pas repris, et les cases avant le nouveau jour, vos coffres et votre récompense de saison restent tels quels (un coffre déjà reçu ne revient pas une seconde fois).
 
 ## Les cases {#the-tiles}
 
@@ -85,22 +85,19 @@ La récompense de saison a deux paliers. Vous les récupérez pendant les **troi
 
 ## Les cadeaux {#the-gifts}
 
-Le cadeau d’un jour est petit. C’est l’un de ceux-ci :
+Le cadeau d’un jour est fait de **munitions ou de roquettes**, et de rien d’autre. C’est l’un de ces six objets :
 
-- **Munitions et roquettes**, en piles modestes.
-- **Matériaux, plaques et consommables**, dont des Forge kits (les matériaux d’une étape de la Forge).
-- **Boosters** de quelques heures. Un cadeau de booster ajoute ses heures à vos [boosters](/wiki/06-Items/Boosters.md#active-boosters).
-- **Crédits et Thulium**, en petites quantités.
-- **Quelques objets spéciaux** (Workforce Contract, Forger’s Seal) : jamais plus de 4 cases d’une saison.
+- **Ultra Core** (3,0x) et **Experimental Fusion Core** (4,0x), les deux types de [munitions laser](/wiki/06-Items/Lasers.md#laser-ammunition) les plus puissants.
+- **Lancet III**, **Rivet III**, **Ember III** et **Scatter III**, les [roquettes](/wiki/06-Items/Rockets.md#the-twelve-rockets) épiques.
 
-Cette page ne nomme aucun cadeau d’aucune saison, parce que le calendrier est différent à chaque réinitialisation. L’onglet Calendrier montre les cadeaux de cette saison. Un cadeau est un cadeau : les objets du calendrier ne portent pas l’étiquette **Vendable** ([Objets vendables](/wiki/03-Mechanics/Inventory.md#marketable-items)) et ne peuvent pas être mis en vente aux [Enchères](/wiki/03-Mechanics/Auction.md).
+La taille de la pile change d’un jour à l’autre, et le calendrier est différent à chaque réinitialisation. L’onglet Calendrier montre les cadeaux de cette saison. Les coffres et la récompense de saison ne sont pas des cadeaux quotidiens et restent tels quels. Un cadeau est un cadeau : les objets du calendrier ne portent pas l’étiquette **Vendable** ([Objets vendables](/wiki/03-Mechanics/Inventory.md#marketable-items)) et ne peuvent pas être mis en vente aux [Enchères](/wiki/03-Mechanics/Auction.md).
 
 ## La réinitialisation {#the-wipe}
 
 Une nouvelle saison, c’est un nouveau calendrier. À la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md), l’ancien se ferme et le nouveau s’ouvre avec ses propres 29 cadeaux, et votre décompte repart à 0. La réinitialisation ne prend rien de ce que vous avez récupéré, sauf ce qu’elle prend à tous les objets :
 
-- **Supprimés :** les cadeaux qui sont des objets (munitions, roquettes, matériaux, plaques, consommables) sont supprimés par la réinitialisation s’ils ne sont pas dans votre [Cache de transport](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). Le Calendrier marque un tel cadeau d’une note.
-- **Conservés :** boosters, crédits, Thulium, objets spéciaux, looks, technologies (un plan) et conteneurs.
+- **Conservés :** les munitions et les roquettes du calendrier sont reportées d’elles-mêmes par la réinitialisation, jusqu’à une limite pour chaque type ([Munitions et roquettes](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Sont aussi conservés : boosters, crédits, Thulium, looks, technologies (un plan) et conteneurs.
+- **Supprimés :** tout autre objet que vous possédez, comme les Dark Matter Plates qui remplacent un plan que vous connaissez déjà, est supprimé par la réinitialisation s’il n’est pas dans votre [Cache de transport](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Les quatre derniers jours (26 à 29) ne donnent que des cadeaux conservés**, si bien qu’un cadeau de la dernière semaine n’est jamais perdu à cause de la réinitialisation.
 
 ## Arrivées tardives et calendriers tardifs {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Une nouvelle saison, c’est un nouveau calendrier. À la [réinitialisation](/w
 - **Premium change-t-il quelque chose ?** Non. Premium ne donne ni cases en plus ni meilleurs cadeaux, et le calendrier ne donne pas de jours Premium.
 - **Ai-je besoin d’un clan ?** Non. Le calendrier utilise le même jour que la ligne quotidienne des clans, mais il est à vous seul.
 - **Y a-t-il une limite de niveau ?** Non. Tout pilote peut récupérer, dès le niveau 1.
-- **Que se passe-t-il à la réinitialisation ?** Vous recevez un nouveau calendrier et repartez à 0 jour. Les cadeaux qui sont des objets sont supprimés s’ils ne sont pas dans le Cache de transport ; le reste est conservé ([La réinitialisation](#the-wipe)).
+- **Que se passe-t-il à la réinitialisation ?** Vous recevez un nouveau calendrier et repartez à 0 jour. Les munitions et les roquettes du calendrier sont reportées, dans leurs limites ; tout autre objet est supprimé s’il n’est pas dans le Cache de transport, et le reste est conservé ([La réinitialisation](#the-wipe)).
 
 ## Bon à savoir {#good-to-know}
 

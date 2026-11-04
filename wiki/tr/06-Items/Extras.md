@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -15,7 +15,7 @@ Ekstralar, geminin **ekstra yuvalarındaki** aletlerdir (başladığın ya da sa
 
 Cloaking CPU paketleri yalnızca Mağaza’da satılır. Birleştirilemezler ve hiçbir şey onları ödül olarak vermez. **EMP Charge** artık bir ekstra değildir: 0.4.21 sürümünden beri bir sarf malzemesidir; roket gibi bir yığın olarak taşınır ve hiçbir yuvaya takılmaz, bu yüzden ekstra yuvalarından hiçbirini kaplamaz (bkz. [Roketler](/wiki/06-Items/Rockets.md#emp-charge)). İki **Energetic Wall** da artık ekstra değildir: 0.4.22 sürümünden beri onlar da sarf malzemesidir; bir yığın olarak taşınır ve hiçbir yuvaya takılmaz (bkz. [Energetic Wall](#energetic-wall)).
 
-Yeni bir pilotun **başlangıç paketi**, Protos gemisinin iki ekstra yuvasına iki ekstrayı hazır takılı getirir: bir **Base CPU I** (10 kullanım, şirketinin üssüne ışınlanma) ve bir **Repair Drone I**. Onları kullanmak için kısayol çubuğunun Ekstralar bölümünden bir yuvaya sürükle. Paketi yalnızca yeni pilotlar alır: 0.4.10 öncesinde katılmış bir pilotta yoktur.
+Yeni bir pilotun **başlangıç paketi**, Protos gemisinin iki ekstra yuvasına iki ekstrayı hazır takılı getirir: bir **Base CPU I** (10 kullanım, şirketinin üssüne ışınlanma) ve bir **Repair Drone I**. Repair Drone I için **REP** düğmesi kısayol çubuğunda zaten hazırdır, 2. yuvada (`2` tuşu), 1. yuvadaki cephanenin yanında; Base CPU I için ise onu kısayol çubuğunun Ekstralar bölümünden kendin bir yuvaya sürüklemen gerekir. Paketi yalnızca yeni pilotlar alır: 0.4.10 öncesinde katılmış bir pilotta yoktur, 0.4.27 öncesinde kayıt olmuş bir pilot da elindeki kısayol çubuğunu korur.
 
 Sekiz CPU daha satılmaz: Skylab’ın Araştırma Merkezi bunları araştırdıktan sonra Montaj üretir (bkz. [Araştırma](/wiki/03-Mechanics/Research.md)). Bunlar: Extra Slots CPU I, II ve III, Jump CPU, Base CPU I ve II, Auto-Repair CPU ile Auto-Rocket CPU; [son bölüm](#research-cpus) her birinin ne yaptığını anlatır. Cloaking CPU gibi, Jump CPU ve Base CPU da sakin bir an içindir: üçü de attığın bir atıştan ya da aldığın bir vuruştan sonraki 10 saniye içinde başlamaz. İki warp CPU, yani Jump CPU ve Base CPU, bir görev eşyası taşırken de reddedilir (“Görev eşyası taşırken warp CPU kullanamazsın.”): bkz. [Görev eşyaları](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone {#repair-drones}
 
-REP yuvasına bas: Repair Drone gövdeyi dolana kadar onarır. Yalnızca 10 saniye boyunca vuruş almazsan başlar ve her vuruş onu kapatır. Birkaçı takılıysa en iyisi çalışır. Bir [Auto-Repair CPU](#auto-repair-cpu) onu senin için yeniden açar. Onarım hızları [Savaş](/wiki/03-Mechanics/Combat.md) sayfasında. Onarırken gemiden küçük onarım dronları çıkar, geminin etrafında döner ve gövdeye ışın tutar: Repair Drone I için bir, II için iki, III veya IV için üç; yakınındaki pilotlar onları görür. Onarım durunca gemiye geri kenetlenirler.
+REP yuvasına bas: Repair Drone gövdeyi dolana kadar onarır. Yalnızca 10 saniye boyunca vuruş almazsan başlar ve her vuruş onu kapatır. Birkaçı takılıysa en iyisi çalışır. Bir [Auto-Repair CPU](#auto-repair-cpu) onu senin için yeniden açar. Onarım hızları [Savaş](/wiki/03-Mechanics/Combat.md) sayfasında. Onarırken gemiden küçük onarım dronları çıkar, geminin etrafında döner ve gövdeye ışın tutar: Repair Drone I için bir, II için iki, III veya IV için üç; yakınındaki pilotlar onları görür. Onarım durunca gemiye geri kenetlenirler. REP ile açtığında yumuşak bir onarım darbesi de çalar; Emergency Repair darbesinden biraz daha kalın ve daha kısıktır. Onarırken de yaklaşık saniyede bir, az önce iyileştirdiği gövde puanını gösteren küçük yeşil bir sayı (+N) kendi geminin üzerinde yükselir; bir Auto-Repair CPU açmış olsa bile.
 
 ## Cloaking CPU
 

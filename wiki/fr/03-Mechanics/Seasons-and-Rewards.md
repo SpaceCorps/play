@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Saisons et récompenses -->
 # Saisons et récompenses {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Chaque réinitialisation clôt votre saison. Le serveur consigne le grade que vo
 
 Le grade que vous détenez à l’instant de la réinitialisation vous rapporte :
 
-* **Des points de réinitialisation** : de 5 à 400, selon le grade, en plus de ce que paient les sources de points de réinitialisation (jusqu’à 1 090 points de réinitialisation par réinitialisation : [Gagner des points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Des points de réinitialisation** : de 5 à 400, selon le grade, en plus de ce que paient les sources de points de réinitialisation (jusqu’à 1 105 points de réinitialisation par réinitialisation : [Gagner des points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Des jours de Premium** : de 1 à 7, à partir de Capitaine junior. Ils s’ajoutent à un Premium que vous avez déjà.
 * **Des crédits et du Thulium** : un fonds de départ qui grandit avec le grade, de 105 000 crédits et 225 Thulium pour un Pilote à 6 300 000 crédits et 13 500 Thulium pour un Amiral sénior. Il est petit à côté des [plafonds](#the-caps-and-your-rewards) : une façon de bien commencer la nouvelle saison, pas un avantage.
 

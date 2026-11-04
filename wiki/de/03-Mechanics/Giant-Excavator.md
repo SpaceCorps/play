@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Riesenbagger -->
 # Riesenbagger {#giant-excavator}
 
@@ -29,14 +29,14 @@ Ab dem ersten Tag der Saison leuchtet in den Gefahrensektoren `DS-1`, `DS-2` und
 ## So läuft ein Durchlauf {#how-a-run-goes}
 
 1. **Finde einen.** Ab Saisontag 11 hat jeder der drei Gefahrensektoren mit einem Pulsar einen Bagger, in jeder Welt. Ein Schriftzug, **Bagger**, schwebt über ihm, wenn du in der Nähe bist, und die Sternensystem-Karte markiert jeden Gefahrensektor, der einen hat: Die Farbe der Markierung ist der Zustand seines Baggers, ihr Tooltip nennt die Zeit bis zur nächsten Änderung.
-2. **Öffne das Bedienfeld.** Klicke auf den Schriftzug. Das Fenster **Riesenbagger** funktioniert, solange dein Schiff in Reichweite des Bedienfelds ist (die Liste *Auf einen Blick* nennt sie). Auch ein getarntes Schiff kann es benutzen, und das Benutzen beendet die Tarnung nicht.
+2. **Öffne das Bedienfeld.** Klicke auf den Schriftzug. Das Fenster **Riesenbagger** funktioniert, solange dein Schiff in Reichweite des Bedienfelds ist (die Liste *Auf einen Blick* nennt sie). Ein getarntes Schiff kann es nicht benutzen: Die Schaltflächen des Fensters sind gesperrt, und jede Aktion wird abgelehnt, bis die Tarnung endet.
 3. **Betanke ihn.** **Dark Matter hinzufügen** legt ein Dark Matter aus deiner Fracht in den Tank. Das kann jeder. Der Tank nimmt nie mehr auf, als der Bagger noch verbrennen kann, bevor er überhitzt, sodass kein Treibstoff verschwendet wird.
 4. **Wähle, was abgebaut wird,** aus der Liste und drücke dann **Abbau starten**. Dafür braucht es mindestens ein Dark Matter im Tank und eine Ressource. Jeder kann die Wahl bis zum Start ändern und auch, während er läuft (siehe *Die Ressource wechseln* unten). Der Start wird jedem Piloten der Welt gemeldet, mit deinem Namen, dem Sektor und der Ressource.
 5. **Halte ihn.** Solange er abbaut, fällt alle paar Sekunden eine Kiste rund um den Bagger, und kurz nach dem Start treffen die ersten Slumbering Voids ein. Verteidige den Bagger und nimm die Kisten. Ein Lichtstrom fließt vom Pulsar in den Bohrer des Baggers und schwillt im Takt des Sterns an, alle 4 Sekunden einmal; in der letzten Minute vor der Überhitzung flackert er und reißt ab, und wenn die Maschine ruht, hört er auf.
 6. **Behalte die Hitze im Blick.** Die Hitzeleiste füllt sich, solange der Bagger abbaut, und leert sich nie, solange er wartet. An ihrer Grenze überhitzt der Bagger. Geh vorher: Das Spiel warnt die Karte zweimal.
 7. **Er ruht.** Überhitzt oder zerstört, sind der Bagger und sein Pulsar verstrahlt, bis die Ruhezeit vorbei ist; dann ist er wieder bereit, mit leerer Hitze und voller Hülle.
 
-Das Fenster zeigt außerdem den Sektor, den Tank (eine Zelle für jedes Dark Matter, die brennende teilweise gefüllt), wie viel Dark Matter du trägst, die Hülle des Baggers, was jede Ressource in deiner Welt pro Minute liefert und, solange er abbaut, die Ressource, die gerade abgebaut wird, was jede Ressource seit der letzten Abkühlung des Baggers gelegt hat, die Zeit bis zur nächsten Welle und die lebenden Voids. Wird etwas abgelehnt, liest du den Grund in Rot: Du bist zu weit vom Bedienfeld entfernt, du hast kein Dark Matter, der Tank ist voll, es gibt noch keinen Treibstoff oder keine gewählte Ressource, der Bagger läuft schon, ein Wechsel kam zu kurz nach dem letzten, oder der Bagger ist heiß.
+Das Fenster zeigt außerdem den Sektor, den Tank (eine Zelle für jedes Dark Matter, die brennende teilweise gefüllt), wie viel Dark Matter du trägst, die Hülle des Baggers, was jede Ressource in deiner Welt pro Minute liefert und, solange er abbaut, die Ressource, die gerade abgebaut wird, was jede Ressource seit der letzten Abkühlung des Baggers gelegt hat, die Zeit bis zur nächsten Welle und die lebenden Voids. Wird etwas abgelehnt, liest du den Grund in Rot: Du bist zu weit vom Bedienfeld entfernt, du hast kein Dark Matter, der Tank ist voll, es gibt noch keinen Treibstoff oder keine gewählte Ressource, der Bagger läuft schon, ein Wechsel kam zu kurz nach dem letzten, der Bagger ist heiß oder dein Schiff ist getarnt.
 
 ### Die Ressource wechseln {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Geht der Treibstoff vor der Grenze aus, kehrt der Bagger mit behaltener Hitze zu
 
 ## Was er abbaut {#what-it-mines}
 
-Ein voller Tank liefert ungefähr so viel, wie fünf Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst die Ressource vor dem Start und kannst sie wechseln, während der Bagger läuft. Eine Kiste enthält für alle gleich viel, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden. Was du aus einer Kiste nimmst, kann dagegen abweichen: Jede Stufe der Pilot-Forschung Excavator Mining ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) erhöht das Thulium und das Erz, das du aufnimmst, insgesamt um 20 %, 30 % oder 40 %, abgerundet.
+Ein voller Tank liefert ungefähr so viel, wie fünf Piloten in einer halben Stunde bestem Thulium-Farmen verdienen würden. Beta und Gamma liefern mehr, so wie sie für jeden Abschuss mehr zahlen. Du wählst die Ressource vor dem Start und kannst sie wechseln, während der Bagger läuft. Eine Kiste enthält für alle gleich viel, und eine Thulium-Kiste ist Bargeld, das beim Aufnehmen ausgezahlt wird, wie das Thulium der Asteroiden. Die Größe der Kisten bestimmt, wer den Lauf startet: Jede Stufe der Pilot-Forschung Excavator Mining ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) des Piloten, der **Abbau starten** drückt, lässt jede Kiste dieses Laufs insgesamt 20 %, 30 % oder 40 % mehr enthalten, Thulium wie Erz, für den ganzen Lauf, egal wer tankt, die Ressource wechselt oder die Kisten aufnimmt. Das Bedienfeld zeigt, wessen Lauf es ist und welchen Anteil seine Kisten tragen, und sagt einem Piloten mit Excavator Mining, dass es bei den Läufen zählt, die er selbst startet. Die Mengen weiter unten gelten ohne ihn; er kommt zu dem Höchstwert hinzu, den eine Ressource in einem Lauf legen kann.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ Der Bagger hat **keinen besonderen Ring**: Es gelten die normalen Regeln deiner 
 Das sind Systemzeilen (sie erscheinen im Tab **System** des Chats und im Spielprotokoll, nicht in **Global** oder **Lokal**). Die ersten drei gehen an die ganze Welt; die letzte an die Piloten im Sektor des Baggers.
 
 - An dem Tag, an dem Event 2 beginnt: Die Gefahrensektoren haben sich verändert.
-- Ein Pilot **startet** einen Bagger, mit Sektor, Ressource und den Minuten an Treibstoff.
+- Ein Pilot **startet** einen Bagger, mit Sektor, Ressource und den Minuten an Treibstoff sowie, wenn er Excavator Mining hat, mit dessen Anteil.
 - Der Bagger **überhitzt** oder wird **zerstört**.
 - Der Treibstoff geht aus; der Bagger überhitzt gleich (zweimal gemeldet); eine **Welle** von Voids kommt, mit ihrer Nummer und der Seite der Karte, von der sie kommt; kein Pilot ist mehr da, also greifen die Voids den Bagger an.
 

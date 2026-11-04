@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Sebesség -->
 # Sebességszámítás {#speed-calculation}
 
@@ -41,7 +41,7 @@ Ezenfelül a hajtómű sebességét megszorozza a foglalatának hatékonysága (
 
 Az összes sebességbónusz-százalék a felszerelt hajtóművek (és hibridek) sebességbónuszainak összege, mínusz a felszerelt pajzsok büntetései:
 
-- **Hajtómű sebességbónusza**: a hajtóművek pozitív sebességszázalékot adnak (pl. az Engine III bónusza `+5%`).
+- **Hajtómű sebességbónusza**: a hajtóművek pozitív sebességszázalékot adnak (pl. az Engine III bónusza `+4%`).
 - **Pajzsok sebességbüntetése**: a nehéz pajzsok lehúzzák a hajódat, ezért negatív sebességszázalékot adnak (pl. a Heavy Shield Core `-5%` sebességet jelent).
 - **Skálázás a foglalat szerint**: ezeket a százalékos bónuszokat és büntetéseket is a foglalat hatékonysága skálázza, amelybe a tárgy be van szerelve. A drónjaid egyikén lévő pajzs úgy lassít, mint a magfoglalatban lévő.
 - **Soha nem megy nulla alá**: bármennyi pajzsot viszel, a sebességed nem csökken 0 alá.

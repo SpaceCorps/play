@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Gradi -->
 # Gradi {#ranks}
 
@@ -125,6 +125,13 @@ Un alieno più duro vale di più: un abbattimento dà punti in base a quanti dan
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@ Un alieno più duro vale di più: un abbattimento dà punti in base a quanti dan
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Le prime cinque righe sono gli alieni normali, le sei successive le navi dei tre sciami e le tre successive gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dal giorno 11 della stagione). In fondo ci sono i Custodi del clan, i capi di uno scontro con un Custode, e i loro equipaggi, i Brood Drone, i Siege Escort e i Wrath Guard: I, II e III sono la forza del Custode, e i punti sono indicati in quest’ordine.
+Le prime cinque righe sono gli alieni normali, le dodici successive le navi dei sei sciami e le tre successive gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dal giorno 11 della stagione). In fondo ci sono i Custodi del clan, i capi di uno scontro con un Custode, e i loro equipaggi, i Brood Drone, i Siege Escort e i Wrath Guard: I, II e III sono la forza del Custode, e i punti sono indicati in quest’ordine.
 
 Per esempio, un pilota di livello 4 con 12.500 di esperienza che ha distrutto 300 Seeker, 80 Phantasm e 10 Bulwark ha 400 + 12 + 300 + 160 + 40 = **912** punti. Questo lo rende Sergente: il minimo è 800, e il grado successivo, Sergente senior, ne chiede 1.000. Fino a Colonnello senior contano solo i punti.
 

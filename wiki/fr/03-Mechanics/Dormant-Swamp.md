@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Dégâts d’un tir, dans chaque monde :
 - **Une occultation vous fait entrer.** Aucune tourelle ne voit jamais un vaisseau occulté, ni un vaisseau dans la fenêtre d’un EMP, à aucune distance. Une explosion visant un vaisseau visible qui éclate près d’un vaisseau occulté le blesse quand même et met fin à son occultation.
 - **Elles ne tirent que sur les pilotes,** jamais sur les aliens, les pilotes de corporation ni l’essaim, et la protection d’un vaisseau qui vient de revenir d’une destruction tient aussi contre elles.
 - **L’anneau d’avertissement.** Un vaisseau qui franchit l’anneau en dehors de la zone reçoit une ligne Système : les tourelles tirent sur tout vaisseau qu’elles voient, et quelque chose dort au milieu. Il n’est prévenu de nouveau que lorsqu’il a quitté l’anneau et y est revenu.
-- **En sortir.** Si vous êtes détruit là-bas et revenez sur place, ou si vous vous connectez dans la zone, vous êtes mis dehors. Un cap que vous cliquez est infléchi autour de la zone, et une alerte vous prévient quand l’endroit cliqué s’y trouve.
+- **En sortir.** Si vous êtes détruit là-bas, vous ne pouvez pas revenir sur place (un secteur dangereux ne propose que la base et le portail le plus proche), et si vous vous connectez dans la zone, vous êtes mis dehors. Un cap que vous cliquez est infléchi autour de la zone, et une alerte vous prévient quand l’endroit cliqué s’y trouve.
 
 ## Les aliens {#the-aliens}
 
 Trois aliens de la civilisation perdue vivent ici, chacun avec ses propres chiffres. Ils sont payés comme le boss d’un essaim : **selon les dégâts infligés**, à chaque pilote qui en a fait au moins la part indiquée dans [Essaims](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), et la caisse va au pilote qui a infligé le plus de dégâts. Leurs éliminations s’ajoutent à vos points PvE de grade comme celles d’un vaisseau d’essaim, en proportion de leur gain ([Grades](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Le bouclier de chacun absorbe 80 % de chaque coup tant qu’il tient ([Boucliers](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** Le chasseur élancé, l’alien le plus rapide du jeu (aussi rapide qu’un Storm avec Afterburner III). Certains patrouillent toujours aux abords du marais, et d’autres arrivent par vagues aux excavatrices. Il est agressif, traque le pilote le plus proche qu’il peut voir et ne voit jamais un vaisseau occulté.
+- **Slumbering Void.** Le chasseur élancé, l’alien le plus rapide du jeu (plus rapide qu’un Storm avec Afterburner III). Certains patrouillent toujours aux abords du marais, et d’autres arrivent par vagues aux excavatrices. Il est agressif, traque le pilote le plus proche qu’il peut voir et ne voit jamais un vaisseau occulté.
 - **Inert Mass.** Une carcasse morte aux fissures violettes, de la taille d’une petite station. Elles restent à une distance fixe du milieu du marais et ne le quittent pas pour l’instant. Elle tire des **Dormant Lances** : des roquettes guidées à très longue portée qui suivent un vaisseau jusqu’à ce qu’il s’occulte, ouvre une fenêtre d’EMP, entre dans un anneau sûr, saute ou meure. Elle est plus rapide que n’importe quel vaisseau, donc seules ces ruptures aident. Un astéroïde sur la trajectoire d’une Dormant Lance l’arrête, et la Lance l’endommage de son propre dégât (personne n’est payé pour cela) ; un rocher ne protège donc d’une Inert Mass que pour quelques coups.
 - **L’Unwakened.** Un monolithe qui dort au milieu du marais, la plus grande chose de toutes les cartes, si lent qu’il n’attrape jamais un vaisseau. Il ne tire rien, mais tout vaisseau dans son aura brûle, **occulté ou non**. Il est **immunisé** : les tirs et les roquettes touchent et ne font rien, la fenêtre de cible montre des barres pleines et le mot Immunisé. Un événement ultérieur permettra de le combattre ; ses récompenses ci-dessous sont écrites et ne peuvent pas encore être gagnées.
 

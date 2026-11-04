@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Zuletzt werden globale Multiplikatoren (etwa aktive Booster, zum Beispiel die +1
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) kann das Ergebnis noch einmal multiplizieren: zum Beispiel Auger +21 % Laserschaden, Gyre −11 % und gegen Aliens Culler +12 % (ein eigener Faktor, nicht Teil des Booster-Prozentsatzes).
 - Die Munition **Siphon Battery** hat den Multiplikator x1, aber ein anderes Ziel: Ihr Schaden geht allein vom Schild des Ziels ab (nie von der Hülle, egal wie hoch die Absorption) und fließt in deinen eigenen Schild, bis zu deinem Maximum. Siehe [Laser & Munition](/wiki/06-Items/Lasers.md).
+- **Dark Matter Ammo** (0.5.0) verändert die Salve selbst: Dark Matter Ammo I zieht ihren Faktor (x1,5 bis x5) bei jeder Salve neu, und Dark Matter Ammo II trifft mit x6 nur alle 1,5 Sekunden und schreibt dir ein Viertel des Schadens gut, den der Schild deines Ziels genommen hat. Die **Antimatter Battery** durchdringt 20 % der Absorption des Ziels. Siehe [Antimatter- und Dark-Matter-Munition](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Raketen {#3b-rockets}
 
@@ -115,7 +116,7 @@ Wird dein Schiff von einem Feind oder NPC getroffen, wird der Schaden so verarbe
 ### 1. Schildabsorption {#1-shield-absorption}
 
 Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schiffs auf Schilde und Trefferpunkte aufgeteilt: dem Durchschnitt der Absorption deiner Schilde, jeweils mit der ihrer Schildzellen, plus dem Schildabsorptions-Boost aus dem Saison-Shop (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md)). Sie ist **nicht auf 100 % begrenzt**: Was die Schilde von einem Treffer nehmen, ist deine Absorption **abzüglich der Schilddurchdringung des Angreifers**, zwischen 0 % und 100 %.
-- **Absorption** (z. B. 80 % für den besten Schild mit den besten Zellen, 56 % für einen Basic Shield Core mit zwei Absorption Shield Cell I) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Lancet III lassen 45 % auf den Schilden eines Schiffs mit 80 %, und der Rest (dort 55 %) trifft direkt die HP.
+- **Absorption** (z. B. 85 % für den besten Schild mit den besten Zellen, 58 % für einen Basic Shield Core mit zwei Absorption Shield Cell I) jedes Treffers wird von den Schilden genommen, abzüglich der Durchdringung des Treffers: Die 35 % einer Lancet III lassen 50 % auf den Schilden eines Schiffs mit 85 %, und der Rest (dort 50 %) trifft direkt die HP.
 - **Schilddurchdringung** kommt von direkten Raketen (10 bis 35 %) und der Lasermunition x3 und x4 (5 % und 10 %); Aliens haben keine. Ein Schiff über 100 % (etwa 112 %) hält einen ganzen Treffer gegen eine Durchdringung bis zur Differenz aus (dort 12 %). Die Penetration Amps der Laser des Schützen (+3 % bis +12 % pro Slot) und eine Drohnenformation kommen dazu, und nichts begrenzt die Summe.
 - Ein Schild, der für seinen Anteil zu niedrig ist, gibt die Differenz an die HP weiter; sind die Schilde ganz erschöpft, trifft **100 %** des gesamten restlichen Schadens die HP.
 - Aliens haben keinen Absorptionswert: Ihre Schilde nehmen 80 % jedes Treffers (abzüglich der Durchdringung des Treffers), ihre Hülle den Rest.

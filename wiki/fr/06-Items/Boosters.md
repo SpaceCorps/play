@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Les boosters reposent sur un système de cumul additif :
 1. **Les pourcentages de bonus s’additionnent** : si vous achetez deux boosters différents qui donnent chacun +10 % de dégâts laser, vous obtenez un bonus total de **+20 % de dégâts laser**.
 2. **Les durées se cumulent de façon multiplicative** : acheter plusieurs fois le _même_ booster prolonge sa durée active. Les minuteries de boosters _différents_ tournent en parallèle.
-3. **Vue des minuteries** : les boosters actifs s’affichent dans le HUD, dans la fenêtre Boosters, avec le total des bonus actifs regroupés et la prochaine expiration.
+3. **Vue des minuteries** : les boosters actifs s’affichent dans le HUD, dans la fenêtre Boosters, avec le total des bonus actifs regroupés et la prochaine expiration. Le total d’une catégorie compte tout ce qui l’augmente : les boosters, vos bonus de la boutique de saison, les boosts de votre clan et vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés ont chacun une ligne dans la catégorie, si bien que le total est ce que reçoit réellement votre vaisseau. La carte Boosters du Tableau de bord affiche les mêmes totaux.
 4. **Les chiffres les comptent** : les dégâts, les boucliers, la recharge du bouclier, l’absorption, la vitesse et la coque du Hangar, ainsi que votre page de pilote, incluent vos boosters actifs, vos bonus de la boutique de saison, les boosts de votre clan et vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés ; une petite étiquette *avec boosters* sur la carte des stats de combat l’indique. La pénétration, le taux de critique et la portée ne changent pas avec les boosters.
 
 ---

@@ -6,37 +6,37 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.4.27"
-date: "2026-10-30"
+version: "0.5.0"
+date: "2026-11-04"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 166011042
-    sha256: "86fa6864662f113eaafe99acb8499da5140c60af5ecbba35d774b99ecc6b222d"
+    size: 168819854
+    sha256: "d097289643038c33cff77d735fb6d66713bf9fd3b47e047c83eb1a955947fbdc"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 159578924
-    sha256: "012899fc216fd4976254013e5a4dc8f91f7141a71d06026297d2725bb12485b5"
+    size: 162295526
+    sha256: "8703c04786c22dcbf865284e9463fa8ca7f7b639f44c329feb46d08502443b7d"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 154036728
-    sha256: "b320756844d35bb85c1f68a3cc499d1a6954722a2d9184777ca4bf6cd58969d6"
+    size: 156678648
+    sha256: "d6e04aff4cacf348f66d147a628aaa2a8e2e1a92220f977101e2286953ee4b00"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 160457030
-    sha256: "3e8e733212aca61307a4d55ffd29f5fba16867ae66048f908be7af1a4b9fee39"
+    size: 163169523
+    sha256: "b1ab9ebc7e2c75c81f02836c30a190269b72223824eef5aec51e0f9959761c99"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
 # /release:front
 ---
@@ -55,14 +55,14 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.4.27)
+## Downloads (Version 0.5.0)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (166.0 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `86fa6864662f113eaafe99acb8499da5140c60af5ecbba35d774b99ecc6b222d` |
-| **Windows** | x86_64 | `.zip` (159.6 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `012899fc216fd4976254013e5a4dc8f91f7141a71d06026297d2725bb12485b5` |
-| **Linux** | x86_64 | `.AppImage` (154.0 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `b320756844d35bb85c1f68a3cc499d1a6954722a2d9184777ca4bf6cd58969d6` |
-| **Linux** | x86_64 | `.tar.gz` (160.5 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `3e8e733212aca61307a4d55ffd29f5fba16867ae66048f908be7af1a4b9fee39` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (168.8 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `d097289643038c33cff77d735fb6d66713bf9fd3b47e047c83eb1a955947fbdc` |
+| **Windows** | x86_64 | `.zip` (162.3 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `8703c04786c22dcbf865284e9463fa8ca7f7b639f44c329feb46d08502443b7d` |
+| **Linux** | x86_64 | `.AppImage` (156.7 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `d6e04aff4cacf348f66d147a628aaa2a8e2e1a92220f977101e2286953ee4b00` |
+| **Linux** | x86_64 | `.tar.gz` (163.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `b1ab9ebc7e2c75c81f02836c30a190269b72223824eef5aec51e0f9959761c99` |
 <!-- /release:downloads -->
 
 ---
@@ -72,84 +72,159 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.4.27 · 2026-10-30
+### 0.5.0 · 2026-11-04
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.4.27)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.0)
 
-SpaceCorps 2027 0.4.27 puts two repair ships at every company base, lets every docked Mole mine, shows a pilot's title above their name on the map, counts the clan's and the P.E.T.s' boosts in the Boosters totals, and makes the Trophies Bay count loot only. Rockets blast 50 % wider (the N.U.K.E. over 1,350 units), the Ammo Printer and the Rocket Factory make twice as much, the Ironclad costs 100 Reinforced Hull Plates, not 450, Excavator Mining enlarges the boxes of the run its owner starts, and two quests drop a P.E.T. chunk.
+SpaceCorps 2027 0.5.0 is the PvE update: clans open Gates, mazes with a Warlord at their end, three boss swarms and the Tesseract mothership roam the sectors, and laser ammo gets a research tree. Every alien fires its own shots, a wipe reopens your missions for their full pay, and shield cores, Engines, Field Theory and the Afterburner are retuned.
 
 #### What's new
 
 **Highlights**
-- **Two repair ships at every company base.** They hover just outside the safe ring of Mission Control and **heal every pilot of the base's company within 2,000 units by 250 hull a second each** (a pilot in reach of both gets 500), also in combat. **They are real ships: enemy pilots and aggressive aliens can shoot them down,** and each is back on its post 120 seconds later. A ring on the map shows the reach; the Target window says "Repair ship".
-- **Every docked Mole mines,** up to five, each on a rock of its own with its own beam and drone. More Moles now mean more mining income.
-- **Titles over names.** The title a pilot wears stands in small, dim type in its rarity colour above their name on the map, yours too. In a crowd (more than eight plates) the titles of strangers are hidden and only names show.
-- **Boosters count the clan and the P.E.T.s.** The Boosters window and the Dashboard card now list the clan's and the docked P.E.T.s' boosts as lines of the category they raise (Damage, Shield, Credits, Luck ...), so **a category's total is what your ship gets.**
-- **Rockets blast 50 % wider** (damage unchanged): Ember 255 / 345 / 450, Scatter 315 / 435 / 600 and the **N.U.K.E. over 1,350 units** (900 before). The Dormant Swamp's turret fires the same N.U.K.E.
-- **The Trophies Bay counts loot only.** A kill's Credits, Thulium, experience and honor take no room in the Bay any more; the "Bay full" notice shows the moment it fills, also while the Skylab is under way. **The Bay therefore fills far more slowly** (Bay 1 at Defense level 3 in about 15 hours, Bay 20 in about 44 days).
-- **Skylab:** the **Ammo Printer and the Rocket Factory make twice as much** at every level. The Universe window no longer says "Planning the trip..." while the Skylab is flying: it shows where it is heading and when it arrives.
-- **Smaller:** the **Ironclad** (both designs) costs **100 Reinforced Hull Plates**, not 450; **Excavator Mining** enlarges every box of a run for whoever picks the boxes up, by the research of the pilot who started the run; **Hive Breaker** and **Iron Tide** also drop a **P.E.T. chunk** (a Regular and a Mythical Cluster Chunk, on the first claim only); new pilots start with the **REP button** in hotbar slot 2; the **Production Queue's time left no longer flickers.**
+- **Clan Gates.** From season day 4 a co-leader or the leader opens a Gate from the clan bank (**500,000 to 2,000,000 Credits**); **4 to 10 clan members** cross a maze, hold **4 loot zones** and bring down the **Warlord**. Stage 3 pays each pilot **100,000 Honor, 17,500,000 Credits, 15,000 Thulium and 15,000 x4 ammo**, once a day and **10 paid clears a week** at most. It is the **Gates** tab of the clan window, and it needs the new game.
+- **The Tesseract.** A mothership in Danger Sector 4 with **1,600,000 hull and 1,200,000 shield** in Alpha. It mends **125,000 a second** when left alone and calls **up to 50 Facets** while it is hit. A fight for a very large group.
+- **Three boss swarms.** A Boss Phantasm and a Boss Goombah on `x-3` and `x-4`, a Boss Crystalys in `DS-1` to `DS-3`, each with guards that heal it.
+- **Laser ammo research.** **Military Grade Ammo I and II** open the crafting of x3 and x4, and **the x4 is no longer sold**. New: **Siphon Battery II**, **Antimatter Battery I and II** (they pierce **20 %**) and **Dark Matter Ammo I and II** (**x1.5 to x5** a volley; **x6** with a shield leech). The Pirate Boss drops Siphon Battery II.
+- **Every alien has its own shot** and its own sound: blobs, spores, shards, slugs, ion orbs and slag, with **32 new sounds**. Your lasers are unchanged.
+- **After a wipe your missions come back.** Every mission you completed, the 50 Challenge missions too, opens for one **Repeat** a season that pays **in full**.
+- **Balance.** Field Theory **+4 / +7 / +10**, Basic and Heavy Shield Core **50 / 55 %**, Engine II and III **3 / 4 %**, Adaptive Cores at half, the Afterburner **+20 / 30 / 40 % for 15 s**.
+- **Skylab.** Solar keeps **100 %** of its power while it upgrades, and a running upgrade can be **cancelled for a full refund**.
+- **Smaller:** no respawn on the spot in a Danger Sector; a cloaked ship cannot use the giant excavator; the Thulium Geode pays **72 to 168** Thulium; Moles can share an asteroid; special items are tiles of the Hangar inventory; the daily gifts are x3 and x4 ammo and tier III rockets, and the calendar is worth **50 %** more.
 
 **If you already play: what changes for you**
-- **Update the game.** A recent game installs a patch when the job made one for it, else the whole package; an older game downloads the whole package.
-- **The update itself pays, moves and removes no Credits, Thulium or items.** Nothing you own changes, except the Ironclad's price for the next one you build.
-- **The server uses the new numbers at once,** for every version of the game: the wider blasts, the repair ships, the Moles, the Bay's rule, the Skylab output. **A 0.4.26 game keeps working but shows the old screens:** the clan's and the pets' boosts on cards of their own, no title above names, the Bay card with its old labels, one beam for your Moles, and the repair ships as company pilots. It also draws a **Scatter III blast like a N.U.K.E.** (flash and shock ring), because its size test is 600 units and Scatter III now reaches exactly that.
-- **Moles:** if you dock several, all of them work now. Your mining income grows with them; the Station's rooms (2, 3 and 5) still decide how many you can dock.
-- **Excavator Mining:** the research counts for **the pilot who starts the run,** and the boxes of that run are larger for everyone who picks them up. A pilot who picks up boxes from someone else's run no longer gets a bonus from their own Excavator Mining.
-- **A Bay that was full under the old rule may have room now:** one test Bay that held 650 bounty points, full under the old rule, reads 60 of 650 loot units. A trip under way carries on under the new rule from its next look; nothing is lost.
-- **The Dormant Swarm:** the leftover Pulses leave 30 seconds after the Force dies, and the swarm returns on schedule. The Force's "destroyed" line comes with the despawn, up to 30 seconds after the kill line.
-- **New texts in other languages have had no native review.**
+- **Update the game.** The server and the new game go live together. The update itself pays, moves and removes no Credits, Thulium or items; what you own takes the new values at once.
+- **A 0.4.27 game keeps working** but cannot open or enter a Gate, cannot pick the new ammo, still shows laser lines for aliens and shows old screens in places.
+- **x4 ammo:** the Experimental Fusion Core you hold stays yours. To make more, research Military Grade Ammo I and II; a Skylab Ammo Printer set to x3 or x4 makes x2 until you have them.
+- **Repeats** open at the first wipe after the update, not before.
+- **A Solar upgrade under way** no longer leaves your farms dark. **Daily rewards:** the season that is running keeps its calendar.
 
-**Company base repair ships**
-- **Where:** two at each company base (`x-1`) in Alpha, Beta and Gamma, 9 bases in all, on posts 1,904 units from Mission Control, outside the safe ring of 1,600. They are company pilots to the game: the rules for PvP, honor, safe zones and kill lines apply, and **killing one is a kill of a company pilot.**
-- **What they do:** the aura heals every pilot of the base's company, and the company's own squad pilots, within 2,000 units by 250 hull a second each, never above the maximum. A rival company gets nothing.
-- **How hard they are to kill:** a hull of 200,000 and a shield of 100,000. Aggressive aliens go for them like for a pilot.
-- **All the numbers are in one file,** `server/Resources/BaseRepair.json`; a wrong file stops the server's start.
+**Clan Gates**
+- **How a run goes.** On the **Gates** tab a co-leader or the leader picks a stage and presses **Summon**; the price comes out of the clan bank. Clan members press **Enter** while they fly, in a group with at least **4** members of the clan, and the pilot who opened the gate or an officer presses **Start**. A gate nobody starts within **10 minutes** closes and its price goes back to the bank.
+- **The limits.** A clan opens at most **3 gates a day** (UTC), one at a time, and a stage only after it has cleared the stage before it that season. A world holds at most **6** open gates, one for each map; when all are in use a clan tries again a few minutes later. You enter with a ship in flight, out of combat, at the stage's pilot level (**6 / 7 / 8**). Inside a gate nobody can attack anyone, the Jump CPU and the Base CPU do not work and you cannot change world; **Leave** takes you out. A pilot who left or was destroyed can fly back in **3 times, 20 seconds apart**.
+- **The maze.** One of **8 layouts** on one of 6 maps (Gate Delta, Epsilon, Zeta, Eta, Theta and Iota); walls stop ships and shots, and the minimap draws only the rooms you have explored. Four kinds of alien sleep in the rooms and wake in packs: Gate Goombah, Gate Pirate, Gate Crystalys and Gate Crystalys Twin, **195** in all for a party of 5, at most 10 alive for each pilot and 70 in all. Stage 2 has **1.5 times** the hull and shield of stage 1 and **1.25 times** the damage, stage 3 **2.5 times** and **1.5 times**. The number of aliens is the same at every stage, so stages 2 and 3 take longer.
+- **Loot zones.** Each maze has **4**. Stand in one for 2 seconds and a wave of 10 Gate Goombahs and a Gate Crystalys comes for it; keep a pilot inside for **30 seconds** (the hold stops while 3 or more aliens stand in the ring) and the group has 45 seconds to vote for one of three cards. A card is Thulium (2,000 / 3,000 / 5,000), Velkonite or Orvium Reinforced Plates or ore, Ultra Core, Experimental Fusion Core, Dark Matter or a Dark Matter Plate, and now and then (1 % of the cards) a piece of gear for one pilot of the party: Engine III, Heavy Shield Core, Adaptive Core III or Starfire-III. Cards are paid with the Warlord's pay.
+- **The Warlord.** A Crystalys three times the size, with **10,000,000 hull and 8,000,000 shield** at stage 1 for a party of 5 (15 and 12 million at stage 2, 25 and 20 million at stage 3), tougher with every pilot in the party. It uses one ability at a time, at random, each with a cooldown of 2 minutes: **Lifesteal aura**, **Meteor drop**, **Focus on healers**, **Rocket barrage** (an EMP Charge or a cloak shakes the rockets off) and **Shield absorption**.
+- **Time.** A gate fails and pays nothing after **80 / 110 / 150 minutes** from its start, or when nobody has been inside for 3 minutes. After the Warlord falls the gate stays open for 2 more minutes. Open gates end when the server restarts, and their price goes back to the clan bank.
 
-**Moles**
-- **One beam each:** the server names each Mole by its place among your docked P.E.T.s, and the game keeps a beam and a drone for each place. A game before 0.4.27 reads only the strongest Mole.
-- **Rocks:** a pilot's Moles never share a rock. `traits.mining.workers` (now 5) is the lever that limits how many work.
+| Stage | Honor | Experience | Credits | Thulium | x4 ammo | Clan bank, first clear |
+|---|---|---|---|---|---|---|
+| 1 | 25,000 | 600,000 | 5,000,000 | 4,000 | 4,000 | 10,000,000 |
+| 2 | 50,000 | 1,500,000 | 10,000,000 | 9,000 | 9,000 | 20,000,000 |
+| 3 | 100,000 | 2,400,000 | 17,500,000 | 15,000 | 15,000 | 30,000,000 |
 
-**Titles over ships**
-- **How the game knows:** the map's compact snapshot carries no title. The game asks the server for the pilots in view that it does not know, at most once a second and 50 at a time (`GET /api/titles/of?ids=`), and keeps the answers for a few minutes. Past 120 asks a minute from one pilot the server answers *try again later* and the game shows nothing meanwhile.
-- **Cut:** a title is cut at 24 characters.
+- **Who is paid.** The aliens pay nothing; the Warlord's fall pays. A stage pays a pilot **once per UTC day**, and a pilot is paid for at most **10 stage clears a week** (Monday to Sunday, UTC). Entry is never refused for that: the clear is played and pays nothing, and the result screen says why. A paid clear writes a line in your Logbook.
+- **What it takes.** Be inside at least 2 minutes and have a share in the fight: deal 2 % of the Warlord's hull and shield, or destroy 10 of the gate's aliens, or heal other pilots for 50,000 during the Warlord fight.
+- **The same in every world.** There is no world multiplier inside a gate. The experience counts for your PvE ranking points, 1 point for every 1,000 (600 / 1,500 / 2,400 for a stage).
+- **The clan bank** gets its Credits the first time the clan clears a stage in a season, if the clan is at least 3 days old and at least 3 pilots of that clear were paid.
+- **What a day and a week can bring a pilot:** every stage once in a day pays 175,000 Honor, 4,500,000 experience, 32,500,000 Credits, 28,000 Thulium and 28,000 x4 ammo; the best week (seven stage 3 and three stage 2 clears) pays 850,000 Honor, 21,300,000 experience, 152,500,000 Credits, 132,000 Thulium and 132,000 x4 ammo.
 
-**The Trophies Bay and the Skylab**
-- **The rule:** a kill puts in the Bay the loot units its mix brings on average; Credits, Thulium, experience and honor are paid by the budget as before and take no room. **The capacities are the same numbers as before, now in loot units,** and a kill's loot is far smaller than its bounty, so the Bay lasts about ten times longer. **Income an hour is unchanged;** what changes is how long a Skylab can stay out before it holds fire.
-- **Old rows:** nothing is migrated. The Bay's load is read off its items; a row written before 0.4.27 says bounty points in its `Load`, which is read past.
-- **Fill times** (a Skylab firing at its own tier's budget):
+**The Tesseract and the boss swarms**
+- **Where and when.** From season day 4 until the wipe. The Phantasm and Goombah swarms live on `x-3` and `x-4` of every company (6 of each in a world), the Crystalys swarm in `DS-1`, `DS-2` and `DS-3` and the Tesseract in `DS-4`. The Danger Sectors are PvP, so a fight there can draw rivals.
 
-| Defense level | Bay 1 | Bay 5 | Bay 10 | Bay 15 | Bay 20 |
+| Swarm | Leader, hull / shield in Alpha | Followers | Back after the leader falls |
+|---|---|---|---|
+| Phantasm | Boss Phantasm 40,000 / 64,000 | up to 4 Phantasm Guards, a new one every 10 s, each mends 30 hull a second | 2 min |
+| Goombah | Boss Goombah 128,000 / 192,000 | up to 4 Goombah Guards, a new one every 10 s, each mends 110 hull a second | 5 min |
+| Crystalys | Boss Crystalys 448,000 / 280,000 | up to 3 Crystalys Guards, a new one every 10 s, each mends 250 hull a second | 30 min |
+| Tesseract | Tesseract 1,600,000 / 1,200,000 | up to 50 Facets, 10 more every 5 s while it is hit | 30 min |
+
+- **What they pay in Alpha** (Beta twice, Gamma three times; the hull, shield and damage are 1.5 and 2 times):
+
+| Leader | Credits | Thulium | Experience | Honor | PvE points |
 |---|---|---|---|---|---|
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| Boss Phantasm | 39,000 | 195 | 7,800 | 62 | 8 |
+| Boss Goombah | 120,000 | 600 | 24,000 | 192 | 14 |
+| Boss Crystalys | 393,750 | 1,050 | 63,000 | 273 | 21 |
+| Tesseract | 900,000 | 2,400 | 144,000 | 624 | 42 |
 
-- **The printers:** the Ammo Printer and the Rocket Factory make twice as much at every level (storage stays 24 hours). A Skylab on an expedition fires at the rate its printer supplies, so it can fire for longer.
+- **How the pay goes.** The leaders never start a fight: they roam until a pilot hits them, then fight back together with the ships near them. The pay is split by damage among the pilots who did their share, and the box is for the pilot who dealt the most. A Guard is worth 1, 3 or 6 PvE points (Phantasm, Goombah, Crystalys). The Crystalys box holds Ultra Core and Experimental Fusion Core; the Tesseract box plates, Power Cores, Ancient Control Units and now and then Dark Matter.
+- **The Tesseract's fight.** It fires nothing and never chases anyone; its defence is its mend and its Facets. Never leave it alone: after 5 seconds without damage it mends its hull and then its shield at 125,000 a second in Alpha (187,500 in Beta, 250,000 in Gamma). Every Facet has **20,000 hull and 16,000 shield** and hits for **556** a volley in Alpha at speed 450, and all of them hunt the pilot with the most damage on the Tesseract, who is changed only when another pilot has clearly overtaken him. A Facet pays nothing and drops nothing. The Facets leave 20 seconds after the last hit and 1 minute after the Tesseract falls.
+- **Who they are for.** The Phantasm swarm for a group of mid-level pilots, the Goombah swarm for a group of the strongest ships, the Crystalys swarm for a large group, the Tesseract for a very large one.
 
-**Rockets**
+**Laser ammo**
 
-| Rocket | Blast radius, 0.4.26 | 0.4.27 |
+| Ammo | Damage | Research | Made from |
+|---|---|---|---|
+| Ultra Core | x3, pierces 5 % | Military Grade Ammo I, 30 min | still sold for 1 Thulium; can be crafted, 1,000 at a time |
+| Experimental Fusion Core | x4, pierces 10 % | Military Grade Ammo II, 4 h | craft only, from raw materials |
+| Siphon Battery | x1 on the shield only, you take what it drains | none | now sold for **50 Credits** (0.25 Thulium before) |
+| Siphon Battery II | x0.5 on the shield only, you take **twice** what it drains | 1 h | 1,000 Siphon Battery, 250 Thulium |
+| Antimatter Battery I | x2, pierces 20 % | 3 h | 1,000 Siphon Battery II, 100 Thulium |
+| Antimatter Battery II | x3, pierces 20 % | 8 h | 1,000 Antimatter Battery I, 3 Dark Matter, 4,740 Credits, 75 Thulium |
+| Dark Matter Ammo I | x1.5 to x5 for every volley, x3.25 on average | 1 h | 2,000 Ship Fragment, 2,000 Cataclysite, 1 Dark Matter, 4,913 Credits, 800 Thulium |
+| Dark Matter Ammo II | x6, one volley every 1.5 s, gives you 25 % of the damage the target's shield took | 6 h | 1,000 Dark Matter Ammo I, 4 Dark Matter, 200 Thulium |
+
+- **Crafts** make 1,000 units in 5 to 15 minutes in the Assembly. The Ultra Core and the Experimental Fusion Core are made from raw materials (the Experimental Fusion Core costs 1,000 Cataclysite, 1,000 Ship Fragment, 100 Power Cores, 1,000 Quorvium, 8 Velkonite Reinforced Plates and 1 Orvium Reinforced Plate, 9,138 Credits and 1,050 Thulium), never from the ammo below it.
+- **The Skylab Ammo Printer** makes the Ultra Core and the Experimental Fusion Core once you have researched them; its x2 mode and the Rocket Factory are open to all.
+- **A choice, not a step up.** Antimatter opens the hull sooner against ships with a big shield next to a small hull; the x4 hits harder against everything else. One roll of Dark Matter Ammo I serves the whole ship's volley. Dark Matter Ammo II hits for the same damage a second as the x4.
+- The five new ammo can be sold on the Auction like the others (89 kinds can be listed now). The Archivist achievement asks for all **158** technologies, the seven Laser Ammo ones among them; a pilot who has the achievement keeps it.
+
+**Repeating missions after a wipe**
+- **Which.** The 88 level missions (the 8 Specials among them), the 8 Asteroids missions and all 50 Challenge missions, as far as you have completed them. Station missions cannot be repeated.
+- **When.** After a wipe every completed mission is open for **one Repeat per mission and season**; Mission Control marks it "Repeat: full rewards". A mission you completed or repeated since the last wipe stays closed until the next. It plays like the mission: the same steps, time limit and conditions, one of your 5 slots (one of the 3 places of the Challenge line for a Challenge).
+- **What it pays.** Everything the mission pays: experience, honor, Credits, Thulium, items and booster time, with your world's bonus, your boosters, Premium experience and your clan's boosts. At base, before the world and the boosts, the 88 level missions and 8 Asteroids missions pay **6,869,000 Credits and 52,585 Thulium** together and the 50 Challenge missions **428,325,000 Credits and 2,847,085 Thulium**: **435,194,000 Credits and 2,899,670 Thulium** for a pilot who repeats them all. The items of a Repeat cannot be sold on the Auction.
+- **Wipe Points.** A Repeat of a level mission counts like a first completion, once per mission and season, up to the 100th mission: the missions' Wipe Points now reach **105**, and a pilot who has all 88 gains 15 more by repeating them. The sources of Wipe Points pay up to 1,105 a wipe (1,090 before). Repeats of Asteroids and Challenge missions do not count.
+- **What it does not do.** A Repeat counts for no achievement or title, the Stats page or the Logbook, and unlocks nothing. If you fail it or abandon it, the mission is open for a Repeat again. A finished Repeat that is not claimed when the wipe comes stays claimable and pays in full; one still running is dropped.
+
+**Aliens' shots and sounds**
+- **Six shapes.** Seekers, Phantasms and Davidski fire glowing plasma blobs, Goombahs sticky lime spores, Crystalys tumbling crystal shards, Pirates red slugs with a trail of smoke, the Dormant, the Slumbering Voids, the Facets and the aliens of the lost civilisation violet ion orbs, and Bulwarks and the Clan Wardens heavy lumps of bronze-rimmed steel. A boss's shot is **1.6 times** bigger and **1.4 times** brighter. An alien the game does not know fires plasma.
+- **32 new sounds.** A shot sound and an impact sound for every family, in several variants, and a heavier pair for the bosses, in place of the alien warble.
+- **As instant as a laser.** The damage number appears with the shot as before. Your lasers, the lasers of company pilots, the Dormant Swamp's turrets and every rocket are as they were.
+
+**Balance**
+
+| | 0.4.27 | 0.5.0 |
 |---|---|---|
-| Ember I / II / III | 170 / 230 / 300 | **255 / 345 / 450** |
-| Scatter I / II / III | 210 / 290 / 400 | **315 / 435 / 600** |
-| N.U.K.E. | 900 | **1,350** |
+| Field Theory I / II / III (the total at that level) | +2 / +3 / +5 points of shield absorption | **+4 / +7 / +10** |
+| Basic / Heavy Shield Core absorbance (Light stays 45 %) | 48 / 50 % | **50 / 55 %** |
+| Engine II / III speed bonus (Engine I stays 2 %) | 4 / 5 % | **3 / 4 %** |
+| Adaptive Core I / II / III speed bonus | 2.4 / 3.2 / 4 % | **1.2 / 1.6 / 2 %** |
+| Afterburner I / II / III | +30 / 45 / 60 % for 10 s | **+20 / 30 / 40 % for 15 s** |
 
-- **Damage, speed, lock and price are unchanged.** A wider blast hits more ships, hardest at the centre as ever; the area rockets still do not pierce shields. The N.U.K.E.'s ring on the map runs out to 1,350.
+- **Shields.** The best shield out of the box (a Heavy Shield Core with three Absorption Shield Cell IV) is now **85 %** (80 %). Absorbance is not capped at 100 %, so the most a pilot can reach rises with it.
+- **Speed.** Everything with an Engine or an Adaptive Core is slower: the fastest Wraith build goes from about 850 to about 786, the fastest Ironclad build from about 820 to about 751. Several engines make the Afterburner last longer: 15 s, 22.5 s with two and 30 s with three; the cooldowns are the same. The Skylab's engines are a little slower too (a station with five fully fitted Engine IIIs needs 33 minutes for a hop, it needed 32).
+- **What follows.** Davidski's gear gives him 86.3 % absorbance (80.5 %) and speed 89 (96). The Slumbering Void is now faster than a Storm on Afterburner III. Nothing can leave the black hole from within about **440** units (about 390 before), and a ship has to press the Afterburner earlier to be saved from its pull; the black hole itself did not change. A lone level 8 Paragon now just beats the Pirate Boss on `x-3` in Alpha with x2 ammo (calculated: 4 % of its hull left at the lowest) and two win safely; in Beta and Gamma a lone Paragon is destroyed.
+
+**Skylab**
+- **Solar at 100 %.** While Solar upgrades it keeps making all the power of its current level, and the new level's power takes over when the upgrade ends. A Solar upgrade never stops your farms and collectors, never leaves the station in deficit and never keeps the Forgery from starting a batch. A Solar upgrade under way when the server updates no longer leaves your farms dark: they work again from the server's start, and the dark time is not paid back. The briefings of the Station missions say so.
+- **Cancel an upgrade.** The card of a running upgrade has a **Cancel upgrade** button. After you confirm, you get back **everything the start took**: the Credits, the Thulium and the Dark Matter Plates, as you paid them even if prices have changed. Only the time is lost. The module goes back as it was, with the same level and switch and what it had stored. An upgrade that has already finished cannot be cancelled. One that is under way when the server updates can be cancelled too, and is refunded at the price of its level.
+- **Ammo Printer.** The x3 and x4 modes need Military Grade Ammo I and II (see Laser ammo).
+- **Survey Canister.** Its four Common stacks are smaller: Reinforced Hull Plates **100** (1,300), Ship Fragments **1,000** (9,000), Power Cores **20** (450) and Regular Cluster Chunks **2** (4). No chance of any prize changed.
+
+**Clan Wardens**
+- **A mix in every wave.** A wave used to be one kind of alien. Now it is a mix of Phantasm, Bulwarks and Goombahs on every map, as many aliens as before. The Wardens II and III, the Wrath Warden III apart, call 3 Phantasm, 1 Bulwark and 1 Goombah on `x-2` and 5, 3 and 2 on `x-3` and `x-4`; the Wrath Warden III 4, 2 and 2 on `x-2` and 7, 4 and 4 on `x-3` and `x-4`.
+- **The Recruit Wardens call no Goombah.** The three Wardens I call 4 Phantasm and 1 Bulwark on `x-2` and 8 Phantasm and 2 Bulwarks on `x-3` and `x-4`.
+- **Crews (calculated, Alpha, x2 ammo).** The smallest crew that wins against the Brood, Siege and Wrath Warden I goes on `x-4` from 69, 56 and 62 pilots to **47, 43 and 48**, so those maps get easier, and on `x-2` and `x-3` it asks 1 to 3 more pilots than before. The Wardens II and III ask up to 8 more pilots on `x-2` and `x-3`. In Gamma `x-3`, where the aliens of a wave are twice as strong, the Siege Warden I now asks **56** pilots (44 before) and the Wrath Warden I **62** (49), more than the 50 members of a level 3 clan.
+- **Pay and notices.** A wave pays more: 29,000 / 60,000 / 60,000 Credits in Alpha for a Warden II (15,000 / 30,000 / 50,000 before), 17,000 / 34,000 / 34,000 for a Warden I. The clan is told one line for each kind in a wave. Bulwarks and Goombahs on `x-2` and Phantasm on `x-4`, which those maps do not have of their own, leave 5 minutes after the Warden unless pilots are still fighting them.
+
+**Danger Sectors and the giant excavator**
+- **No respawn on the spot in a Danger Sector.** If you are destroyed in `DS-1` to `DS-4`, in any world, the death screen offers your **base** and the **nearest portal**, and "On the spot" is greyed out with the reason. A request for it is refused and costs nothing.
+- **A cloaked ship cannot use the giant excavator.** The sheet's buttons are shut and every action is refused until the cloak ends. A cloaked ship may still pick up its boxes.
+- **Whose run it is.** The excavator's sheet and its start message show who started the run and the Excavator Mining share its boxes carry. A pilot who owns Excavator Mining is told that it counts on the runs he starts himself. A research that finishes while you fly counts at your next Start.
+
+**Daily rewards**
+- **Ammo and rockets only.** A daily gift is one of six: Ultra Core, Experimental Fusion Core, Lancet III, Rivet III, Ember III or Scatter III. A full calendar is worth about 50 % more than before. The chests at 7, 14, 21 and 28 days and the Season prize are not daily gifts and stay as they are. The wipe carries ammo and rockets over, up to 1,000 of each rocket and 1,000,000 of each ammo type.
+- **When.** The season that is running keeps its calendar; the calendars drawn from now on hold the new gifts.
 
 **Smaller changes**
-- **Excavator Mining** is a Pilot research of the Research Centre: it now enlarges every box of a run its owner starts (the share rides above the per-run cap and is saved with the run), so a run started by a pilot with the research pays the pickers more.
-- **The REP button** is the starter Repair Drone in primary slot 2 (next to x1 in slot 1) for **new accounts only;** pilots who exist keep their hotbars.
-- **Wiki:** the generated parts of the wiki are updated in 13 languages. Pages about Achievements, Asteroid Mining, Clans, Pets, Boosters, Company Pilots, Skylab, Getting Started, Giant Excavator, Quests, Research, Ship Designs, Extras and Rockets were rewritten in English; their translations are older until they are translated again.
+- **Thulium Geode:** **72 to 168** Thulium (36 to 84 before); its Credits are the same.
+- **Moles:** the Moles of one pilot take the nearest asteroid each, so five Moles with one asteroid in reach all work it and break it sooner; their beams lie side by side. Pulses that arrive after the one that breaks an asteroid are lost.
+- **Repair slots:** switching on the Repair Drone of an extra slot (REP) plays a soft repair pulse and floats the hull it heals each second over your ship, as the Emergency Repair does. The Auto-Repair CPU and the repair ships at the company bases are unchanged.
+- **Hangar page:** the Containers button is gone from the inventory (the Containers page stays), each special item you hold is a tile among the consumables, and the grey hint line under the grid is gone.
+- **Bonus codes** can give special items beside their other rewards.
+- **Away mode is off.** A window you have left (alt-tabbed or minimised) is sent the full stream, as the open one is, so the world is not old when you come back.
+- **Pirate Boss:** its box holds 1,000 to 2,000 of Advanced Plasma, Siphon Battery or Siphon Battery II (one of the three, picked at random), and is worth a little under half of what the kill pays.
+- **Wiki:** new pages for the Gates and for the Phantasm, Goombah, Crystalys and Tesseract swarms, and the pages the changes above touch follow them, in 13 languages.
+
+**A 0.4.27 game on the 0.5.0 server**
+- It keeps working and loses no pay, but it cannot open or enter a Gate (it is told to update) and it shows old screens in places: aliens fire laser lines, the Tesseract looks like a big Crystalys and the Facets like Seekers, the beams of all but one of the Moles at a shared asteroid go quiet, the ammo picker is a fixed list of the five old ammo (the new ones are plain items it cannot pick), the death panel of a Danger Sector says "The place where you died is not known" next to the greyed "On the spot", the excavator's start message reads in English, and an open Repeat is not shown.
 
 **For administrators and the server**
-- **Release order:** the release job stages the downloads as a draft GitHub release (nobody can see it) and the Windows build on Steam's private branch before the server deploys, then publishes the draft as soon as `/health` reports the new version, so the server and the downloads go live together. `AUTORELEASE_STAGE=0` gives the old order. (`docs/DEVELOPMENT.md`, "Releases".)
-- **Achievements payout:** the veterans' achievements unlocked by the 0.4.26 backfill carried no reward. `POST /api/admin/achievements/backfill-pay {pay: bool}` pays them once, only the rows the backfill wrote; with `pay: false` it only counts. It is run by an administrator after a dry run, not by the release.
-- **Admin quest tools:** an administrator can read a pilot's quest state and count a quest as done. The pilot then claims the reward in the game as usual.
-- **Containers in bonus codes:** a bonus code can give containers (1 to 1,000 of each) with the rest of its reward; they are given in the same step as the claim and show in the claim's answer. A code whose container the server no longer has cannot be claimed and gives nothing.
-- **Containers and skins in the admin tools:** the Resources tab has a card to give a container, a skin, a colour, an effect or a collection to a pilot, and the pilot's Inventory sheet has the same as a second Add row.
-- **The release job** builds without build paths in the binaries, uses a real Python on Windows and looks the macOS build up from GitHub's runner.
-- **Tests:** the server has new tests for the repair ships (14), the title lookup, the Moles, the Bay, the payout and the Excavator; the game has new tests for the plates, the clock and the beams.
+- **Dungeons tab:** the admin page has a tab (English) for the Gates: a kill switch, every open run with its pilots, and an eject, a teleport, an end and a force-clear, each with a confirmation and an audit record. A pilot can be taken out of a gate whatever its state, logged on or off.
+- **Set season day, backwards:** a set-back now pays the clans' daily bonus again for the replayed days (from the clans' banks; nothing is taken back) and reopens the login calendar's collected day tiles of those days, which pay their gift again. A forward set, the same day twice and a Reset change nothing.
+- **Login calendar drafts:** a draft that was made from the old gifts and not approved is drawn again from the new ones by the server. An approved draft keeps its gifts until an administrator re-rolls it.
+- **Steam link:** when Valve does not accept a ticket, the server's log says why in Valve's own words (every long run of letters and digits hidden).
+- **Away mode** stays off unless an operator switches it on.
 <!-- /patchnotes:latest -->
 
 ---
@@ -162,18 +237,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 86fa6864662f113eaafe99acb8499da5140c60af5ecbba35d774b99ecc6b222d
+# Expected: d097289643038c33cff77d735fb6d66713bf9fd3b47e047c83eb1a955947fbdc
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 012899fc216fd4976254013e5a4dc8f91f7141a71d06026297d2725bb12485b5
+# Expected: 8703c04786c22dcbf865284e9463fa8ca7f7b639f44c329feb46d08502443b7d
 ```
 
 ### Linux
 ```bash
-echo "b320756844d35bb85c1f68a3cc499d1a6954722a2d9184777ca4bf6cd58969d6  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "d6e04aff4cacf348f66d147a628aaa2a8e2e1a92220f977101e2286953ee4b00  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

@@ -14,7 +14,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - You need **level 5** to use the Auction: to list, to buy and to bid.
 - A listing is priced per lot, in whole Credits or whole Thulium (not both), and never under the kind's least price. There is **no highest price**.
 - A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 1 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
-- 84 kinds can be listed, and 83 of them can also be priced in Thulium.
+- 89 kinds can be listed, and 88 of them can also be priced in Thulium.
 - A listing runs for 168 / 336 / 504 hours, as you choose: the choice is the same at every level.
 - The **deposit** is 0.25% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
 - From level 10 the deposit is 0.4%.
@@ -30,7 +30,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 
 ## Marketable items
 
-Only items you **earned** can be sold. Everything you earn carries a small tag, **Marketable**, in the [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items): what you pick up in space (alien, swarm, Warden and black hole drops: [Cargo Boxes](/wiki/03-Mechanics/Cargo.md)), what a mission pays ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) and everything the Assembly and the Forge make. What you **bought** in the Shop, won in a lot, bought on the Market, bought from [Davidski](/wiki/03-Mechanics/Davidski.md), got from a bonus code, an invite pack or the starter kit, or got back as a refund is not Marketable and can never be sold again, so nothing is bought only to be resold. The plates the Skylab's Forgery makes are not Marketable either; the Reinforced Plates a mission pays are. The ammo and the rockets that the Skylab's Ammo Printer and Rocket Factory make are not Marketable either.
+Only items you **earned** can be sold. Everything you earn carries a small tag, **Marketable**, in the [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items): what you pick up in space (alien, swarm, Warden and black hole drops: [Cargo Boxes](/wiki/03-Mechanics/Cargo.md)), what a mission pays ([Quests](/wiki/03-Mechanics/Quests.md#rewards)) and everything the Assembly and the Forge make. What you **bought** in the Shop, won in a lot, bought on the Market, bought from [Davidski](/wiki/03-Mechanics/Davidski.md), got from a bonus code, an invite pack or the starter kit, or got back as a refund is not Marketable and can never be sold again, so nothing is bought only to be resold. The plates the Skylab's Forgery makes are not Marketable either; the Reinforced Plates a mission pays are. The ammo and the rockets that the Skylab's Ammo Printer and Rocket Factory make are not Marketable either. The items a Repeat of a mission pays are not Marketable either.
 
 The tag is a number of units, not a switch: a stack of ammo can hold bought and earned rounds, and the card says "Marketable (3 of 5)". When you use part of a stack (firing, crafting) the plain units go first, so the Marketable ones last longest. Merging two pieces in the [Forge](/wiki/06-Items/Forge.md#merge) keeps the tag only when both pieces had it, and the merge preview says so; a Forge step that fails gives its materials back as plain units.
 
@@ -52,7 +52,7 @@ When the Auction came (0.4.12) the gear you already held that the Shop does not 
 | **Adaptive Cores** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Shield cells** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Thrusters** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Laser ammo** | Standard Battery (in lots of 100), Siphon Battery (in lots of 10), Advanced Plasma (in lots of 10), Ultra Core (in lots of 10), Experimental Fusion Core | 5 |
+| **Laser ammo** | Standard Battery (in lots of 100), Siphon Battery (in lots of 10), Advanced Plasma (in lots of 10), Siphon Battery II (in lots of 10), Antimatter Battery I (in lots of 10), Ultra Core (in lots of 10), Dark Matter Ammo I (in lots of 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Rockets** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consumables** | EMP Charge, Energetic Wall II | 2 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

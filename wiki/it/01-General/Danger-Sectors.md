@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Settori pericolosi -->
 # Settori pericolosi {#danger-sectors}
 
@@ -52,7 +52,7 @@ Ogni mondo ha una copia tutta sua di ogni cosa, e un pulsar e il suo escavatore 
 
 - **Radiazioni.** Un escavatore che si è surriscaldato o è stato distrutto, e il suo pulsar, bruciano ogni nave che resta dentro i loro cerchi ([Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Il gioco ti avvisa prima, e i cerchi vengono disegnati a terra in volo e sulla minimappa.
 - **I cannoni della palude.** Le torrette della palude sparano a una nave che possono vedere ben prima che questa veda qualcosa che valga il viaggio ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Una rotta che clicchi viene piegata intorno ai cannoni e alle radiazioni, come intorno al buco nero, e un avviso ti segnala quando il punto cliccato cade all’interno.
-- **Se vieni distrutto lì,** la scelta di tornare **sul posto** ti mette nel punto più vicino fuori dalle radiazioni e fuori dalla zona della palude, come per il buco nero ([Per iniziare](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Se vieni distrutto lì,** non puoi tornare **sul posto**: in un settore pericoloso la schermata di distruzione offre solo la tua **base** e il **portale più vicino**, e «Sul posto» è in grigio. Chiederlo viene rifiutato e non costa nulla ([Per iniziare](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Un gruppo e una via di fuga.** Gli escavatori attirano i Void e i rivali allo stesso modo. Porta un [gruppo](/wiki/03-Mechanics/Groups.md), sappi qual è il portale più vicino e ricorda che nei settori pericolosi non puoi saltare via mentre vieni attaccato ([Saltare sotto attacco](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **Il resto è PvP come sempre.** Niente qui è un posto sicuro: valgono le regole normali del tuo mondo, rivali compresi.
 

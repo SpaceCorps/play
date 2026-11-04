@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -7,12 +7,12 @@
 Les **objets spéciaux** sont six objets à usage unique qui vous font gagner du temps dans le [Skylab](/wiki/03-Mechanics/Skylab.md), le Centre de recherche de la [Recherche](/wiki/03-Mechanics/Research.md), la [Forge](/wiki/06-Items/Forge.md) et la file de production de l’[Assemblage](/wiki/06-Items/Overview.md#the-production-queue). Vous en utilisez un sur quelque chose que vous avez déjà, il fait son travail une fois, puis il disparaît. Ce ne sont pas des objets au sens habituel : votre compte tient un **compteur** pour chaque sorte, donc ils ne se portent pas, ne se lâchent pas et ne sont pas effacés par une réinitialisation, et aucun ne peut être échangé.
 
 > [!NOTE]
-> **Personne n’en distribue encore.** Pour l’instant, un administrateur émet chaque objet spécial. Ils ne s’achètent pas, ne se vendent pas, ne se mettent pas en vente aux [Enchères](/wiki/03-Mechanics/Auction.md) et ne se donnent pas à un autre pilote, et un Magic Hammer est extrêmement rare.
+> **On ne peut pas encore les gagner.** Pour l’instant, ils ne viennent que d’un administrateur : remis directement, ou dans un code bonus que vous utilisez. Ils ne s’achètent pas, ne se vendent pas, ne se mettent pas en vente aux [Enchères](/wiki/03-Mechanics/Auction.md) et ne se donnent pas à un autre pilote, et un Magic Hammer est extrêmement rare.
 
 ## En une minute {#in-one-minute}
 
 - **Six sortes.** Le Magic Hammer, Schematics, la Philosopher’s Stone, le Tinkerer’s Badge, le Forger’s Seal et le Workforce Contract. Chacun est décrit plus bas avec ses chiffres.
-- **Où.** La section **Objets spéciaux** du Hangar montre ce que vous possédez et offre un bouton **Utiliser** pour chacun. La page sur laquelle l’objet agit montre aussi un bouton quand vous en possédez un : le module d’une amélioration dans le Skylab, la recherche en cours, le panneau de montée de rang de la Forge et la file de production.
+- **Où.** L’inventaire du Hangar montre une case pour chaque sorte que vous possédez, parmi les consommables, avec la quantité. Survolez une case pour lire ce que fait l’objet, et cliquez dessus pour l’utiliser (pour le Workforce Contract, vous choisissez d’abord l’ouvrier). Le Magic Hammer et le Tinkerer’s Badge agissent sur quelque chose que vous choisissez : un clic ne fait donc rien, et leur case dit où les utiliser, dans le Skylab et dans la Forge. La page sur laquelle l’objet agit montre aussi un bouton quand vous en possédez un : le module d’une amélioration dans le Skylab, la recherche en cours, le panneau de montée de rang de la Forge et la file de production.
 - **Il demande d’abord.** Chaque utilisation ouvre une fiche qui dit exactement ce qui va se passer et ce qu’elle consomme. L’utilisation est définitive : elle ne peut pas être annulée. Si une utilisation est refusée, rien n’est dépensé.
 - **Ils restent.** Vos objets spéciaux, et la Philosopher’s Stone ou le contrat en cours, restent après la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Partout.** Vous pouvez les utiliser en vol : aucun n’exige que votre vaisseau soit amarré.
@@ -44,7 +44,7 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 ### Schematics
 
-Termine **la recherche en cours**, si la technologie demande **24 heures ou moins** de recherche. 135 des 151 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) y sont admises. Les 16 qui demandent 48 ou 72 heures ne le sont pas : le Wraith, trois formations de drones, Hull Plating III, les niveaux 4 et 5 du Module Moteurs et du Module Défense et sept technologies de Pilote.
+Termine **la recherche en cours**, si la technologie demande **24 heures ou moins** de recherche. 142 des 158 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) y sont admises. Les 16 qui demandent 48 ou 72 heures ne le sont pas : le Wraith, trois formations de drones, Hull Plating III, les niveaux 4 et 5 du Module Moteurs et du Module Défense et sept technologies de Pilote.
 
 - **Selon la durée de recherche, pas le temps restant.** Une technologie de 48 heures à laquelle il reste une heure est quand même refusée : Schematics regarde combien de temps la technologie demande en tout.
 - **Le prix reste payé.** La Dark Matter, les crédits et le Thulium ont été prélevés au début de la recherche et ne sont pas rendus. La science que la recherche n’a pas encore brûlée reste dans votre réservoir.
@@ -95,7 +95,7 @@ Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-
 
 ## Règles pour les six {#rules-for-all-six}
 
-- **Un compteur, pas un objet.** La section Objets spéciaux du Hangar est le seul endroit qui les liste. Ils n’ont ni poids, ni emplacement de barre rapide, ni place dans la cargaison ou le cache de transport ; ils ne tombent jamais quand votre vaisseau est détruit.
+- **Un compteur, pas un objet.** L’inventaire du Hangar est le seul endroit qui les liste, sous forme de cases parmi les consommables ; une sorte dont vous ne possédez aucun exemplaire n’a pas de case. Une case n’est pas un objet : on ne peut ni la glisser, ni la sélectionner, ni la supprimer, ni la vendre. Ils n’ont ni poids, ni emplacement de barre rapide, ni place dans la cargaison ou le cache de transport ; ils ne tombent jamais quand votre vaisseau est détruit.
 - **À travers la réinitialisation.** Vos objets spéciaux et une Philosopher’s Stone ou un contrat en cours sont conservés, comme le Skylab, la recherche et votre look.
 - **Jamais échangés.** Ni aux [Enchères](/wiki/03-Mechanics/Auction.md), ni à un autre pilote, ni contre des crédits.
 - **Seul le Hammer peut changer votre rythme**, et il est limité à un tous les 60 jours. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, une recherche de 24 heures au plus.

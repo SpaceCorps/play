@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
@@ -15,7 +15,7 @@
 
 Cloaking CPU 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。**EMP Charge** 不再是附加装置：从 0.4.21 起它是消耗品，像火箭一样以堆叠方式携带，不装在任何槽位里，所以不占用你的附加槽位（见[火箭](/wiki/06-Items/Rockets.md#emp-charge)）。两道 **Energetic Wall** 也不再是附加装置：从 0.4.22 起它们同样是消耗品，以堆叠方式携带，不装在任何槽位里（见 [Energetic Wall](#energetic-wall)）。
 
-新飞行员的**新手套装**已经在 Protos 的两个附加槽位里装好了两件附加装置：一个 **Base CPU I**（可用 10 次，传送到你所属企业的基地）和一个 **Repair Drone I**。想使用它们，请从快捷栏的“附加装置”选择器把它们拖到一个槽位上。只有新飞行员才会拿到这套装备：在 0.4.10 之前开始游戏的飞行员没有它。
+新飞行员的**新手套装**已经在 Protos 的两个附加槽位里装好了两件附加装置：一个 **Base CPU I**（可用 10 次，传送到你所属企业的基地）和一个 **Repair Drone I**。Repair Drone I 的 **REP** 按钮已经在你的快捷栏上，位于 2 号槽位（按键 `2`），紧挨着 1 号槽位的弹药；Base CPU I 则需要你自己从快捷栏的“附加装置”选择器把它拖到一个槽位上。只有新飞行员才会拿到这套装备：在 0.4.10 之前开始游戏的飞行员没有它，在 0.4.27 之前注册的飞行员则保留他们现有的快捷栏。
 
 另有八种 CPU 不出售：在 Skylab 的研究中心研究完成后，装配站就能制造它们（见[研究](/wiki/03-Mechanics/Research.md)）。它们是 Extra Slots CPU I、II、III，Jump CPU，Base CPU I、II、Auto-Repair CPU，以及 Auto-Rocket CPU；各自的作用见[最后一节](#research-cpus)。和 Cloaking CPU 一样，Jump CPU 和 Base CPU 也是留给平静时刻用的：在你开火或被击中后的 10 秒内，这三者都无法启动。两种传送 CPU，也就是 Jump CPU 和 Base CPU，在你携带任务物品时同样无法使用（“携带任务物品时无法使用传送 CPU。”）：见[任务物品](/wiki/03-Mechanics/Quests.md#quest-items)。
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone {#repair-drones}
 
-启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。[Auto-Repair CPU](#auto-repair-cpu) 会替你再次启用它。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。修复期间，小型维修无人机会从舰船飞出，环绕舰船并向船体照射光束：Repair Drone I 一台，II 两台，III 或 IV 三台，附近的飞行员也能看到；修复停止后，它们会重新对接。
+启用 Repair Drone（REP）后，它会修复船体直到修满。只有在 10 秒内没有被击中之后才会开始，任何一次被击中都会将其关闭。装备了多台时，只有最好的那一台生效。[Auto-Repair CPU](#auto-repair-cpu) 会替你再次启用它。修复速率见[战斗](/wiki/03-Mechanics/Combat.md)。修复期间，小型维修无人机会从舰船飞出，环绕舰船并向船体照射光束：Repair Drone I 一台，II 两台，III 或 IV 三台，附近的飞行员也能看到；修复停止后，它们会重新对接。按 REP 启动它时，还会响起一声柔和的修复脉冲，比 Emergency Repair 的脉冲略低沉、略轻；它修复期间，大约每秒会有一个绿色小数字浮在你自己的舰船上方，显示刚刚修复的船体量（+N），即使是 Auto-Repair CPU 启动的也一样。
 
 ## Cloaking CPU
 

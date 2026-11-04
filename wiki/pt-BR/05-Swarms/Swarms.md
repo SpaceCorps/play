@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
-Um **enxame** é um grupo de alienígenas que percorre uma parte da galáxia sob um **líder**: um chefe muito mais forte do que qualquer alienígena ao seu redor, com **seguidores** que o protegem e, em dois dos enxames, o curam. São três, e cada um tem um artigo próprio:
+Um **enxame** é um grupo de alienígenas que percorre uma parte da galáxia sob um **líder**: um chefe muito mais forte do que qualquer alienígena ao seu redor, com **seguidores** que o protegem e, na maioria dos enxames, o curam. São sete, e cada um tem um artigo próprio:
 
 - [Enxame Seeker](/wiki/05-Swarms/Seeker-Swarm.md): o Boss Seeker e seus Seeker Slaves, o menor enxame, nos setores onde os pilotos novos voam.
 - [Enxame Pirate](/wiki/05-Swarms/Pirate-Swarm.md): o Pirate Boss e seus Pirate Scouts, uma luta longa para um grupo.
 - [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md): a Dormant Force e suas Dormant Pulses, o enxame mais forte, com o saque mais rico.
+- [Enxame Phantasm](/wiki/05-Swarms/Phantasm-Swarm.md): o Boss Phantasm e seus Phantasm Guards, um Phantasm enorme para um grupo de pilotos de nível médio, nos setores externos das corporações.
+- [Enxame Goombah](/wiki/05-Swarms/Goombah-Swarm.md): o Boss Goombah e seus Goombah Guards, um Goombah enorme para um grupo dos pilotos mais fortes, nos mesmos setores.
+- [Enxame Crystalys](/wiki/05-Swarms/Crystalys-Swarm.md): o Boss Crystalys e seus Crystalys Guards, o alienígena mais resistente, maior, em três dos setores de perigo.
+- [Enxame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md): o Tesseract, uma nave-mãe enorme que solta Facets enquanto é atingido, para um grupo muito grande, no setor de perigo `DS-4`.
 
 As naves deles são **alienígenas de tipos próprios**: têm nomes próprios e contagens de abates próprias, e nenhuma conta como um Seeker, um Phantasm ou qualquer outro alienígena. Uma nave de enxame tem a forma da nave em que se baseia, com uma tonalidade própria e o nome por cima; o Boss Seeker é um Seeker bem maior.
 
 Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu próprio Guardião para a última etapa da sua linha diária, e só esse clã pode feri-lo: nenhum piloto encontra um deles vagando por um setor, e as tabelas abaixo não os listam. Um Guardião é pago por dano, como o chefe de um enxame, mas o saque dele não é uma caixa para quem causou mais dano: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) só dele. Veja [Clãs](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## Os três enxames {#the-three-swarms}
+## Os enxames {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu pró
 | [**Enxame Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Os setores `x-2` e `x-3` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Pirate Boss** | Até 5 × Pirate Scout, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
 | [**Enxame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Os setores de perigo `DS-1`, `DS-2`, `DS-3`, `DS-4`, voando de um para outro | Um em cada mundo | **Dormant Force** | 2 × Dormant Pulse, voando com o líder | 1 h depois que o enxame inteiro é destruído, num setor de perigo aleatório. A partir do dia 11 da temporada: 30 min, no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e cada nave paga ×2 |
 | [**Enxame Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Os setores `x-1` e `x-2` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Seeker** | Até 4 × Seeker Slave, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
+| [**Enxame Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Os setores `x-3` e `x-4` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Phantasm** | Até 4 × Phantasm Guard, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
+| [**Enxame Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Os setores `x-3` e `x-4` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Goombah** | Até 4 × Goombah Guard, um novo a cada 10 s | 5 min depois que o líder é destruído, no mesmo setor |
+| [**Enxame Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Os setores de perigo `DS-1`, `DS-2`, `DS-3` | Um em cada um desses setores, 3 em cada mundo | **Boss Crystalys** | Até 3 × Crystalys Guard, um novo a cada 10 s | 30 min depois que o líder é destruído, no mesmo setor |
+| [**Enxame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | O setor de perigo `DS-4` | Um em cada mundo | **Tesseract** | Até 50 × Facet, mais 10 a cada 5 s enquanto o líder é atingido | 30 min depois que o líder é destruído, no mesmo setor |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ O mundo escala um enxame como escala todo alienígena ([Mundos](/wiki/03-Mechani
 
 ## O que os pilotos ficam sabendo {#what-the-pilots-are-told}
 
-Os enxames Seeker e Pirate avisam os pilotos do seu próprio setor quando um chefe aparece e quando é destruído. O enxame Dormant avisa o mundo inteiro e é marcado nos mapas dos setores de perigo e no mapa da galáxia, para que os pilotos possam encontrá-lo. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O abate de um chefe também ganha uma linha no registro de baixas, que nomeia o piloto a quem ele é creditado. A lista *Resumo rápido* de cada artigo diz quem é avisado.
+Os enxames Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avisam os pilotos do seu próprio setor quando um chefe aparece e quando é destruído. O enxame Dormant avisa o mundo inteiro e é marcado nos mapas dos setores de perigo e no mapa da galáxia, para que os pilotos possam encontrá-lo. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O abate de um chefe também ganha uma linha no registro de baixas, que nomeia o piloto a quem ele é creditado. A lista *Resumo rápido* de cada artigo diz quem é avisado.
 
 ## Lutando contra um enxame {#fighting-a-swarm}
 
-- **Os líderes nunca começam uma luta.** Um líder vagueia até um piloto acertá-lo, então revida, e as naves do seu enxame perto dele entram na luta contra o primeiro piloto que o acertou (a distância está nas regras acima). Os Pirate Scouts são a exceção: atacam qualquer piloto que se aproxime. Um líder nunca conserta o próprio casco, então o dano que você causou fica nele, a menos que seus seguidores o curem; o escudo recarrega como o de qualquer alienígena.
+- **Os líderes nunca começam uma luta.** Um líder vagueia até um piloto acertá-lo, então revida, e as naves do seu enxame perto dele entram na luta contra o primeiro piloto que o acertou (a distância está nas regras acima). Os Pirate Scouts são a exceção: atacam qualquer piloto que se aproxime. Um líder nunca conserta o próprio casco, então o dano que você causou fica nele, a menos que seus seguidores o curem; o escudo recarrega como o de qualquer alienígena. Só o Tesseract é diferente: não tem arma, conserta sozinho o casco e o escudo assim que ninguém o fere por alguns segundos, e os Facets dele caçam o piloto que mais causou dano, não o primeiro que o acertou.
 - **Naves de enxame só lutam contra pilotos.** Elas não atiram em alienígenas e os alienígenas não atiram nelas, e os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) as ignoram: não caçam uma nave de enxame nem vêm em seu auxílio contra uma.
 - **Foguetes.** O Pirate Boss, a Dormant Force e as Pulses disparam foguetes **retos**, os [foguetes Rivet](/wiki/06-Items/Rockets.md), no piloto que os atacou. Uma nave que não para de se mover os esquiva; uma parada é atingida.
-- **O tamanho das lutas.** O enxame Seeker é para dois pilotos, o Pirate para um grupo pequeno e o Dormant para um grupo grande das naves mais fortes; os mundos mais altos pedem mais pilotos, como com qualquer alienígena.
+- **O tamanho das lutas.** O enxame Seeker é para dois pilotos, os enxames Pirate e Phantasm para um grupo pequeno, o Goombah para um grupo das naves mais fortes, o Crystalys e o Dormant para um grupo grande delas, o Tesseract para um grupo muito grande; os mundos mais altos pedem mais pilotos, como com qualquer alienígena.
 
 ## O que levar {#what-to-bring}
 
@@ -80,8 +88,8 @@ Um alienígena comum paga o piloto que o acertou primeiro ([Combate](/wiki/03-Me
 
 - **O pagamento é dividido pelo dano.** Todo piloto que causou pelo menos a parte indicada nas regras acima é pago, em proporção ao dano causado: os créditos, o Thulium, a XP e a honra do abate são divididos entre eles. Um piloto abaixo dessa parte não recebe nada.
 - **A caixa de carga vai para o piloto que mais causou dano.** Ela é desse piloto (e do clã dele) por 30 segundos, como com qualquer alienígena, e depois qualquer um pode pegá-la ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tem a sua própria contagem de dano e a sua própria caixa.
-- **Os seguidores pagam como de costume**: os Pirate Scouts e os Seeker Slaves pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
-- **O pagamento de um chefe é feito para superar os alienígenas ao redor.** Um minuto de luta contra um Pirate Boss paga mais do que um minuto de luta contra um Goombah, e o enxame Dormant paga ainda mais; o Boss Seeker paga exatamente dez Seekers.
+- **Os seguidores pagam como de costume**: os Pirate Scouts, os Seeker Slaves e os Guards dos enxames Phantasm, Goombah e Crystalys pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
+- **O pagamento de um chefe é feito para superar os alienígenas ao redor.** Um minuto de luta contra um Pirate Boss, um Boss Phantasm ou um Boss Goombah paga mais do que um minuto de luta contra um Goombah, e um minuto contra o enxame Dormant ou um Boss Crystalys paga mais do que um minuto contra um Crystalys; o Boss Seeker paga exatamente dez Seekers.
 - **Os alienígenas do Dormant Swamp** (o Slumbering Void, a Inert Mass e o Unwakened) são pagos como um chefe, pelo dano, e somam pontos PvE ao seu ranking; os números deles estão em [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Todo abate é contado com o nome próprio da nave nas suas estatísticas de abates e soma pontos PvE ao seu ranking:
@@ -97,6 +105,14 @@ Todo abate é contado com o nome próprio da nave nas suas estatísticas de abat
 | **Dormant Pulse** | Enxame Dormant | 11 |
 | **Boss Seeker** | Enxame Seeker | 5 |
 | **Seeker Slave** | Enxame Seeker | 1 |
+| **Boss Phantasm** | Enxame Phantasm | 8 |
+| **Phantasm Guard** | Enxame Phantasm | 1 |
+| **Boss Goombah** | Enxame Goombah | 14 |
+| **Goombah Guard** | Enxame Goombah | 3 |
+| **Boss Crystalys** | Enxame Crystalys | 21 |
+| **Crystalys Guard** | Enxame Crystalys | 6 |
+| **Tesseract** | Enxame Tesseract | 42 |
+| **Facet** | Enxame Tesseract | 0 |
 
 <!-- swarms-points:end -->
 

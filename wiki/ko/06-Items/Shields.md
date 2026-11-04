@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: 실드 -->
 # 실드와 방어 {#shields-defense}
 
@@ -41,12 +41,12 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | 이름 | 희귀도 | 용량 | 재충전 속도 | 흡수율 | 실드 % | 속도 % | 실드 셀 슬롯 | 특수 효과 | 비용 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | 하급 | 10,000 | 333/초 | 45% | +5% | -1% | 1 | Shield Surge I | 20,000 크레딧 |
-| **Basic Shield Core** | 일반 | 15,000 | 500/초 | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
-| **Heavy Shield Core** | 희귀 | 25,000 | 833/초 | 50% | +20% | -5% | 3 | Shield Surge III | 제작 전용 |
+| **Basic Shield Core** | 일반 | 15,000 | 500/초 | 50% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
+| **Heavy Shield Core** | 희귀 | 25,000 | 833/초 | 55% | +20% | -5% | 3 | Shield Surge III | 제작 전용 |
 
 **Heavy Shield Core**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Basic Shield Core를 재료로, 4,000 Thulium, Cataclysite 30개, Reinforced Hull Plate 12개, Power Core 2개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 소모한 코어의 인챈트 등급과 보너스를 그대로 이어받습니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 Basic Shield Core를 떼어 내세요(그 안의 셀도 꺼내야 합니다). 장착되어 있거나 셀이 들어 있는 코어는 소모되지 않습니다.
 
-**흡수율**은 공격 한 번마다 실드가 받는 몫이며, 나머지는 선체가 받습니다. 실드 단독으로는 **45~50%**이고, 나머지는 실드 셀이 더합니다. 가장 좋은 실드에 가장 좋은 셀을 조합하면(Heavy Shield Core에 Absorption Shield Cell IV 3개) **80%**로, 함선이 기본으로 가질 수 있는 최대치입니다. 여기에 영구 보너스 세 가지가 더해집니다. 시즌 상점의 Shield Absorbance Boost(레벨당 +0.1포인트, 100레벨, 레벨마다 초기화 포인트 25), 대장간의 흡수율 보너스, 그리고 파일럿 연구 Field Theory(+2, +3, +5포인트)입니다. 초기화 포인트를 얻을 수 있는 경로(한 번의 초기화에서 최대 1,090이며 초기화마다 다시 시작합니다)로는 첫 초기화에서 그 100레벨 중 43레벨(+4.3포인트)을 살 수 있고, 완전히 단련한 영원한 등급 세트와 합치면 약 **95%**가 되고, Field Theory III까지 더하면 약 **99%**가 됩니다. 다만 이 능력치는 100%로 제한되지 않습니다. 공격자의 *실드 관통*만큼 빠지므로, 100%를 넘는 부분은 관통에 대한 여유입니다. [실드 시스템](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)을 참고하세요.
+**흡수율**은 공격 한 번마다 실드가 받는 몫이며, 나머지는 선체가 받습니다. 실드 단독으로는 **45~55%**이고, 나머지는 실드 셀이 더합니다. 가장 좋은 실드에 가장 좋은 셀을 조합하면(Heavy Shield Core에 Absorption Shield Cell IV 3개) **85%**로, 함선이 기본으로 가질 수 있는 최대치입니다. 여기에 영구 보너스 세 가지가 더해집니다. 시즌 상점의 Shield Absorbance Boost(레벨당 +0.1포인트, 100레벨, 레벨마다 초기화 포인트 25), 대장간의 흡수율 보너스, 그리고 파일럿 연구 Field Theory(+4, +7, +10포인트)입니다. 초기화 포인트를 얻을 수 있는 경로(한 번의 초기화에서 최대 1,105이며 초기화마다 다시 시작합니다)로는 첫 초기화에서 그 100레벨 중 44레벨(+4.4포인트)을 살 수 있고, 완전히 단련한 영원한 등급 세트와 합치면 약 **100%**가 되고, Field Theory III까지 더하면 약 **110%**가 됩니다. 다만 이 능력치는 100%로 제한되지 않습니다. 공격자의 *실드 관통*만큼 빠지므로, 100%를 넘는 부분은 관통에 대한 여유입니다. [실드 시스템](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)을 참고하세요.
 
 ---
 
@@ -56,9 +56,9 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 | 이름 | 희귀도 | 실드 보너스 % | 속도 보너스 % | 슬롯 | 특수 효과 | 비용 |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | 하급 | +4% | +2.4% | 1 | — | 100,000 크레딧 |
-| **Adaptive Core II** | 일반 | +6.4% | +3.2% | 2 | — | 제작 전용 |
-| **Adaptive Core III** | 희귀 | +8% | +4% | 3 | — | 제작 전용 |
+| **Adaptive Core I** | 하급 | +4% | +1.2% | 1 | — | 100,000 크레딧 |
+| **Adaptive Core II** | 일반 | +6.4% | +1.6% | 2 | — | 제작 전용 |
+| **Adaptive Core III** | 희귀 | +8% | +2% | 3 | — | 제작 전용 |
 
 **Adaptive Core II**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Adaptive Core I을 재료로, 2,000 Thulium, Ship Fragment 60개, Power Core 1개, Velkonite Reinforced Plate 4개를 들여 만듭니다. **Adaptive Core III**는 같은 곳에서 Adaptive Core II를 재료로, 4,000 Thulium, Ship Fragment 110개, Power Core 5개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 둘 다 소모한 코어의 인챈트 등급과 보너스를 그대로 이어받습니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 소모할 코어를 떼어 내세요(그 안의 추진기와 셀도 꺼내야 합니다). 장착되어 있거나 모듈이 들어 있는 코어는 소모되지 않습니다.
 

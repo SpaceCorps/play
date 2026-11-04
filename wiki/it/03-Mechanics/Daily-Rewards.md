@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Ricompense giornaliere -->
 # Ricompense giornaliere {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; ricompensa giornaliera; ricompense giornaliere; accesso giornaliero; calendario; forziere; premio stagionale; ricordo; progetto; serie -->
 
-Ogni stagione ha un **calendario delle ricompense giornaliere**: un piccolo regalo per ogni giorno della stagione. Alla stazione, premi **Riscuoti** e il regalo del giorno è tuo. Più giorni riscuoti, più ricevi: quattro **forzieri** arrivano a 7, 14, 21 e 28 giorni riscossi e, negli ultimi tre giorni della stagione, puoi prendere il **premio stagionale**. Un giorno perso ti costa il regalo di quel giorno e nient’altro. Trovi il calendario nella **Dashboard** (la scheda **Ricompense giornaliere**) e sotto **Stagione e profilo › Calendario**.
+Ogni stagione ha un **calendario delle ricompense giornaliere**: un regalo per ogni giorno della stagione, sempre di munizioni o razzi. Alla stazione, premi **Riscuoti** e il regalo del giorno è tuo. Più giorni riscuoti, più ricevi: quattro **forzieri** arrivano a 7, 14, 21 e 28 giorni riscossi e, negli ultimi tre giorni della stagione, puoi prendere il **premio stagionale**. Un giorno perso ti costa il regalo di quel giorno e nient’altro. Trovi il calendario nella **Dashboard** (la scheda **Ricompense giornaliere**) e sotto **Stagione e profilo › Calendario**.
 
 ## In un minuto {#in-one-minute}
 
@@ -15,7 +15,7 @@ Ogni stagione ha un **calendario delle ricompense giornaliere**: un piccolo rega
 - **4 forzieri**, a 7, 14, 21 e 28 giorni riscossi.
 - **Un premio stagionale** negli ultimi tre giorni della stagione: un look ricordo a 10 giorni riscossi e il progetto di un design di nave a 20.
 - **Un calendario nuovo a ogni reset.** Vedi ogni regalo della stagione dal giorno 1.
-- **Piccolo di proposito.** I 29 giorni insieme valgono più o meno qualche ora di caccia, distribuita su una stagione.
+- **Munizioni e razzi.** Ogni regalo giornaliero è una delle due munizioni laser più potenti oppure un razzo epico ([I regali](#the-gifts)). I forzieri e il premio stagionale restano a parte.
 
 ## Il giorno {#the-day}
 
@@ -33,7 +33,7 @@ La scheda e la linguetta dicono entrambe quando si apre la prossima ricompensa *
 
 - **Il giorno 1 è breve.** La stagione inizia con il reset, a metà di un giorno UTC, quindi il riquadro 1 è aperto da quel momento fino alla fine di quel giorno, più la tolleranza.
 - **Il giorno 29 è lungo.** L’ultimo riquadro resta aperto finché non parte il conto alla rovescia del reset, e possono passare più di 24 ore dalla sua apertura. Una volta partito il conto alla rovescia, non si può riscuotere nulla finché non inizia la nuova stagione.
-- **Gli amministratori possono spostare il giorno di stagione.** Il calendario lo segue: i giorni saltati contano come persi per tutti, e un riquadro che hai già riscosso resta riscosso.
+- **Gli amministratori possono spostare il giorno di stagione.** Il calendario lo segue. Se lo spostano in avanti, i giorni saltati contano come persi per tutti, e un riquadro che hai già riscosso resta riscosso. Se lo spostano indietro, i giorni vengono giocati di nuovo: i riquadri dei giorni dal nuovo giorno in poi che avevi riscosso si possono riscuotere di nuovo, ciascuno quando l’orologio arriva al suo giorno, e ciascuno paga di nuovo il suo regalo. Ciò che hai ricevuto non viene ripreso, e i riquadri prima del nuovo giorno, i tuoi forzieri e il tuo premio stagionale restano come sono (un forziere già ricevuto non arriva una seconda volta).
 
 ## I riquadri {#the-tiles}
 
@@ -85,22 +85,19 @@ Il premio stagionale ha due passi. Li riscuoti negli **ultimi tre giorni** della
 
 ## I regali {#the-gifts}
 
-Il regalo di un giorno è piccolo. È uno di questi:
+Il regalo di un giorno è fatto di **munizioni o razzi** e di nient’altro. È uno di sei oggetti:
 
-- **Munizioni e razzi**, in pile modeste.
-- **Materiali, piastre e consumabili**, tra cui i Forge kit (i materiali di un passo della Forgia).
-- **Booster** di qualche ora. Un regalo di booster aggiunge le sue ore ai tuoi [booster](/wiki/06-Items/Boosters.md#active-boosters).
-- **Crediti e Thulium**, in piccole quantità.
-- **Pochi oggetti speciali** (Workforce Contract, Forger’s Seal): mai più di 4 riquadri di una stagione.
+- **Ultra Core** (3,0x) e **Experimental Fusion Core** (4,0x), i due tipi più potenti di [munizioni laser](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** e **Scatter III**, i [razzi](/wiki/06-Items/Rockets.md#the-twelve-rockets) epici.
 
-Questa pagina non nomina nessun regalo di nessuna stagione, perché il calendario è diverso a ogni reset. La linguetta Calendario mostra i regali di questa stagione. Un regalo è un regalo: gli oggetti del calendario non portano l’etichetta **Vendibile** ([Oggetti vendibili](/wiki/03-Mechanics/Inventory.md#marketable-items)) e non si possono mettere in vendita all’[Asta](/wiki/03-Mechanics/Auction.md).
+La dimensione della pila cambia da un giorno all’altro, e il calendario è diverso a ogni reset. La linguetta Calendario mostra i regali di questa stagione. I forzieri e il premio stagionale non sono regali giornalieri e restano come sono. Un regalo è un regalo: gli oggetti del calendario non portano l’etichetta **Vendibile** ([Oggetti vendibili](/wiki/03-Mechanics/Inventory.md#marketable-items)) e non si possono mettere in vendita all’[Asta](/wiki/03-Mechanics/Auction.md).
 
 ## Il reset {#the-wipe}
 
 Una stagione nuova è un calendario nuovo. Al [reset](/wiki/03-Mechanics/Wipe-Timeline.md) il vecchio si chiude e il nuovo si apre con i suoi 29 regali, e il tuo conteggio riparte da 0. Il reset non porta via nulla di ciò che hai riscosso, tranne ciò che toglie a ogni oggetto:
 
-- **Cancellati:** i regali che sono oggetti (munizioni, razzi, materiali, piastre, consumabili) vengono cancellati dal reset se non sono nel tuo [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). Il Calendario segna un regalo così con una nota.
-- **Conservati:** booster, crediti, Thulium, oggetti speciali, look, tecnologie (un progetto) e contenitori.
+- **Conservati:** le munizioni e i razzi del calendario passano il reset da soli, fino a un limite per ogni tipo ([Munizioni e razzi](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Si conservano anche booster, crediti, Thulium, look, tecnologie (un progetto) e contenitori.
+- **Cancellati:** ogni altro oggetto che possiedi, come le Dark Matter Plate che sostituiscono un progetto che conosci già, viene cancellato dal reset se non è nel tuo [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Gli ultimi quattro giorni (da 26 a 29) danno solo regali che si conservano**, così un regalo dell’ultima settimana non si perde mai a causa del reset.
 
 ## Chi arriva tardi e calendari tardivi {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Una stagione nuova è un calendario nuovo. Al [reset](/wiki/03-Mechanics/Wipe-Ti
 - **Premium cambia qualcosa?** No. Premium non dà riquadri in più né regali migliori, e il calendario non dà giorni Premium.
 - **Mi serve un clan?** No. Il calendario usa lo stesso giorno della linea giornaliera dei clan, ma è solo tuo.
 - **C’è un limite di livello?** No. Ogni pilota può riscuotere, dal livello 1.
-- **Cosa succede al reset?** Ricevi un calendario nuovo e riparti da 0 giorni. I regali che sono oggetti vengono cancellati se non sono nel Deposito di trasporto; il resto si conserva ([Il reset](#the-wipe)).
+- **Cosa succede al reset?** Ricevi un calendario nuovo e riparti da 0 giorni. Le munizioni e i razzi del calendario passano il reset, entro i suoi limiti; ogni altro oggetto viene cancellato se non è nel Deposito di trasporto, e il resto si conserva ([Il reset](#the-wipe)).
 
 ## Da sapere {#good-to-know}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (151 teknolojiden 135’i). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (158 teknolojiden 142’i). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Bir hızlandırmanın, başından itibaren hızlandırılmış bir araştırman�
 | Araştırma süresi | Hızlandırmayla | Tamamı için hızlandırma | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 dk | 15 dk | 1 | 5.000 |
+| 1 sa | 30 dk | 1 | 5.000 |
 | 3 sa | 1 sa 30 dk | 1 | 5.000 |
+| 4 sa | 2 sa | 1 | 5.000 |
 | 6 sa | 3 sa | 1 | 5.000 |
+| 8 sa | 4 sa | 1 | 5.000 |
 | 10 sa | 5 sa | 1 | 5.000 |
 | 1 g | 12 sa | 1 | 5.000 |
 | 2 g | 1 g | 1 | 5.000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Lazer Cephanesi {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 - **Sırayla.** Her seviye bir öncekini ister ve yüksek seviye düşük seviyenin yerini alır: tablo, her seviyenin verdiği toplamı gösterir, eklediğini değil.
 - **Verimli Atıştırmalıklar** (Kebap, Pelmeni, Burger) sahip olduğun her gemiye, iki konfigürasyonda da gövde ekler.
 - **Mühürlü Arka Kapı** her roketin taşıma sınırını yükseltir; nerede alırsan, üretirsen ya da takas edersen et.
-- **Ekskavatör Madenciliği**, bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığından aldığını artırır, Thulium’u da cevheri de.
+- **Ekskavatör Madenciliği**, başlattığın bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) her sandığa daha fazla koymasını sağlar, Thulium’u da cevheri de. Çalışmayı başlatan pilotun araştırması sayılır ve sandıkları toplayan herkes artan miktarı alır. Ekskavatörün kontrol paneli çalışmanın kimin olduğunu ve hangi payı taşıdığını gösterir.
 - **Alan Teorisi**, her isabetin kalkanlarının emdiği payını artırır. Kalkanı olmayan gemi hiçbir şey kazanmaz.
 - **Uyuyan Bilgi**, araştırması Merkez’de bittiğinde her seviye için sıfırlama puanı öder ve her sıfırlamadan sonra bir kez daha ([Sıfırlama puanı kazanmak](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Bir önceki seviyenin yanında, diğer teknolojilerin bir kısmının araştırılmış olmasını ister (Pilot’unkiler sayılır, Uyuyan Bilgi’nin beş seviyesi sayılmaz); onları nasıl edindiğin fark etmez. Tablo her payı ve kaç teknoloji ettiğini gösterir.
 
@@ -372,9 +391,9 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | Ekskavatör Madenciliği I | Ekskavatör verimi +%20 | – | 1 g | 10 | 500.000 | 5.000 |
 | Ekskavatör Madenciliği II | Ekskavatör verimi +%30 | Ekskavatör Madenciliği I | 2 g | 20 | 1.500.000 | 15.000 |
 | Ekskavatör Madenciliği III | Ekskavatör verimi +%40 | Ekskavatör Madenciliği II | 3 g | 30 | 4.000.000 | 40.000 |
-| Alan Teorisi I | Kalkan emilimi +%2 | – | 1 g | 20 | 500.000 | 5.000 |
-| Alan Teorisi II | Kalkan emilimi +%3 | Alan Teorisi I | 2 g | 40 | 1.500.000 | 15.000 |
-| Alan Teorisi III | Kalkan emilimi +%5 | Alan Teorisi II | 3 g | 60 | 5.000.000 | 50.000 |
+| Alan Teorisi I | Kalkan emilimi +%4 | – | 1 g | 20 | 500.000 | 5.000 |
+| Alan Teorisi II | Kalkan emilimi +%7 | Alan Teorisi I | 2 g | 40 | 1.500.000 | 15.000 |
+| Alan Teorisi III | Kalkan emilimi +%10 | Alan Teorisi II | 3 g | 60 | 5.000.000 | 50.000 |
 | Uyuyan Bilgi I | +50 sıfırlama puanı | Diğer teknolojilerin %20 kadarı (30 / 146) | 1 sa | – | – | – |
 | Uyuyan Bilgi II | +50 sıfırlama puanı | Uyuyan Bilgi I; Diğer teknolojilerin %40 kadarı (59 / 146) | 1 sa | – | – | – |
 | Uyuyan Bilgi III | +50 sıfırlama puanı | Uyuyan Bilgi II; Diğer teknolojilerin %60 kadarı (88 / 146) | 1 sa | – | – | – |
@@ -460,18 +479,25 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 sa | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 g | 86.400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 sa | 36.000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 dk | 1.800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 sa | 14.400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 sa | 3.600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 sa | 10.800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 sa | 28.800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 sa | 3.600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 sa | 21.600 | – |
 
 Sınıflar, araştırma süresine göre:
 
 | Sınıf | Araştırma süresi | Teknolojiler | Art arda | Bilim puanı | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 dk | 10 | 5 sa | 18.000 | 0 |
-| B | 3 sa – 6 sa | 20 | 2 g 21 sa | 248.400 | 0 |
-| C | 10 sa | 17 | 7 g 2 sa | 612.000 | 95 |
+| A | 30 dk – 1 sa | 13 | 7 sa 30 dk | 27.000 | 0 |
+| B | 3 sa – 6 sa | 23 | 3 g 10 sa | 295.200 | 0 |
+| C | 8 sa – 10 sa | 18 | 7 g 10 sa | 640.800 | 95 |
 | D | 1 g – 2 g | 23 | 28 g | 2.419.200 | 319 |
-| Tümü |  | 70 | 38 g 4 sa | 3.297.600 | 414 |
+| Tümü |  | 77 | 39 g 3 sa 30 dk | 3.382.200 | 414 |
 
-Art arda araştırılırsa tüm ağaç 38 g 4 sa sürer. Hızlandırma her zaman açıkken 19 g 2 sa sürer, bu da 20 hızlandırma ve 100.000 Thulium eder; bilim puanı aynıdır.
+Art arda araştırılırsa tüm ağaç 39 g 3 sa 30 dk sürer. Hızlandırma her zaman açıkken 19 g 13 sa 45 dk sürer, bu da 20 hızlandırma ve 100.000 Thulium eder; bilim puanı aynıdır.
 
 <!-- research-technologies:end -->
 

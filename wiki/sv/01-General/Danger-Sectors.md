@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Farosektorer -->
 # Farosektorer {#danger-sectors}
 
@@ -52,7 +52,7 @@ Varje värld har sin egen kopia av allt, och en pulsar och dess grävmaskin stå
 
 - **Strålning.** En grävmaskin som har överhettats eller förstörts, och dess pulsar, bränner varje skepp som stannar inom deras cirklar ([Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Spelet varnar dig i förväg, och cirklarna ritas på marken under flygning och på minikartan.
 - **Träskets kanoner.** Träskets torn skjuter på ett skepp de kan se långt innan det kan se något som är värt resan ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). En kurs du klickar böjs runt kanonerna och strålningen, som runt det svarta hålet, och ett meddelande varnar när platsen du klickar på ligger innanför.
-- **Om du förstörs där** placerar valet att återvända **på platsen** dig vid närmaste punkt utanför strålningen och utanför träskets zon, som vid det svarta hålet ([Kom igång](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Om du förstörs där** kan du inte återvända **på platsen**: i en farosektor erbjuder dödsskärmen bara din **bas** och **närmaste portal**, och ”På platsen” visas nedtonat. Ber du om det ändå nekas det och det kostar ingenting ([Kom igång](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **En grupp och en utväg.** Grävmaskinerna drar till sig Voids och rivaler lika mycket. Ta med en [grupp](/wiki/03-Mechanics/Groups.md), vet vilken port som är närmast och kom ihåg att du i farosektorerna inte kan hoppa härifrån medan du attackeras ([Hopp under beskjutning](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **Resten är PvP som vanligt.** Inget här är en säker plats: din världs vanliga regler gäller, rivaler inräknade.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Dano de um tiro, em cada mundo:
 - **Camuflagem deixa você entrar.** Nenhuma torre vê jamais uma nave camuflada, nem uma dentro da janela de um EMP, a nenhuma distância. Uma explosão mirada numa nave visível que estoura perto de uma camuflada ainda a fere e encerra a camuflagem dela.
 - **Elas atiram só em pilotos,** nunca em alienígenas, pilotos de corporação ou no enxame, e a proteção de uma nave que acabou de voltar de uma destruição vale também contra elas.
 - **O anel de aviso.** Uma nave que cruza o anel fora da zona recebe uma linha do Sistema: as torres atiram em toda nave que veem, e algo dorme no meio. Ela só é avisada de novo depois de sair do anel e voltar.
-- **Sair.** Se você for destruído lá e voltar no local, ou entrar no jogo dentro da zona, é colocado fora. Um rumo que você clica é desviado em volta da zona, e um aviso alerta quando o lugar clicado fica dentro.
+- **Sair.** Se você for destruído lá, não pode voltar no local (um setor de perigo oferece apenas a base e o portal mais próximo), e se entrar no jogo dentro da zona, é colocado fora. Um rumo que você clica é desviado em volta da zona, e um aviso alerta quando o lugar clicado fica dentro.
 
 ## Os alienígenas {#the-aliens}
 
 Três alienígenas da civilização perdida vivem aqui, cada um com seus próprios números. Eles pagam como o chefe de um enxame: **pelo dano causado**, a todo piloto que fez pelo menos a parcela indicada em [Enxames](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e a caixa vai para o piloto que causou mais dano. Os abates deles somam aos seus pontos PvE de patente como os de uma nave de enxame, em proporção ao pagamento ([Patentes](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). O escudo de cada um absorve 80% de cada acerto enquanto durar ([Escudos](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** O caçador esguio, o alienígena mais rápido do jogo (tão rápido quanto uma Storm com Afterburner III). Alguns patrulham sempre os arredores do pântano, e outros vêm em ondas às escavadeiras. É agressivo, caça o piloto mais próximo que consegue ver e nunca vê uma nave camuflada.
+- **Slumbering Void.** O caçador esguio, o alienígena mais rápido do jogo (mais rápido que uma Storm com Afterburner III). Alguns patrulham sempre os arredores do pântano, e outros vêm em ondas às escavadeiras. É agressivo, caça o piloto mais próximo que consegue ver e nunca vê uma nave camuflada.
 - **Inert Mass.** Um casco morto com rachaduras violeta, do tamanho de uma pequena estação. Elas ficam a uma distância fixa do meio do pântano e por enquanto não o deixam. Dispara **Dormant Lances**: foguetes guiados de alcance enorme que seguem uma nave até ela se camuflar, abrir uma janela de EMP, entrar num anel seguro, saltar ou morrer. É mais rápida que qualquer nave, então só essas interrupções ajudam. Um asteroide no caminho de uma Dormant Lance a detém, e a Lance danifica esse asteroide com o próprio dano (ninguém é pago por isso); uma rocha protege de uma Inert Mass, portanto, só por alguns acertos.
 - **O Unwakened.** Um monólito que dorme no meio do pântano, a maior coisa de qualquer mapa, tão lento que nunca alcança uma nave. Não dispara nada, mas toda nave dentro da sua aura queima, **camuflada ou não**. Ele é **imune**: tiros e foguetes acertam e não fazem nada, a janela de alvo mostra as barras cheias e a palavra Imune. Um evento futuro permitirá combatê-lo; as recompensas dele abaixo estão escritas e ainda não podem ser ganhas.
 

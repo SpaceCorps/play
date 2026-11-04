@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Por último, se aplican los multiplicadores globales (como los potenciadores act
 - Fórmula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta puede multiplicar el resultado una vez más: por ejemplo Auger +21 % de daño láser, Gyre −11 % y, contra alienígenas, Culler +12 % (un factor aparte, no parte del porcentaje de potenciadores).
 - La munición **Siphon Battery** tiene el multiplicador x1, pero otro destino: su daño sale solo del escudo del objetivo (nunca del casco, sea cual sea la absorción) y pasa a tu propio escudo, hasta tu máximo. Consulta [Láseres y munición](/wiki/06-Items/Lasers.md).
+- **Dark Matter Ammo** (0.5.0) cambia la propia andanada: Dark Matter Ammo I sortea su multiplicador (de x1,5 a x5) en cada andanada, y Dark Matter Ammo II pega x6 solo cada 1,5 segundos y te devuelve una cuarta parte del daño que ha recibido el escudo de tu objetivo. La **Antimatter Battery** penetra el 20 % de la absorción del objetivo. Consulta [Munición Antimatter y Dark Matter](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Cohetes {#3b-rockets}
 
@@ -115,7 +116,7 @@ Cuando un enemigo o un NPC impacta tu nave, el daño se procesa así:
 ### 1. Absorción del escudo {#1-shield-absorption}
 
 El daño entrante se reparte entre los escudos y los puntos de vida según la **absorción media** de tu nave: la media de la absorción de tus escudos, cada uno con la de sus células de escudo, más la mejora Shield Absorbance Boost de la Tienda de temporada (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md)). **No tiene un tope del 100 %**: lo que los escudos se llevan de un impacto es tu absorción **menos la penetración de escudo del atacante**, entre el 0 % y el 100 %.
-- Los escudos reciben la **absorción** de cada impacto (p. ej., 80 % con el mejor escudo y las mejores células, 56 % con un Basic Shield Core con dos Absorption Shield Cell I), menos la penetración del impacto: el 35 % de un Lancet III deja un 45 % en los escudos de una nave con 80 %, y el resto (allí, el 55 %) va directo a los HP.
+- Los escudos reciben la **absorción** de cada impacto (p. ej., 85 % con el mejor escudo y las mejores células, 58 % con un Basic Shield Core con dos Absorption Shield Cell I), menos la penetración del impacto: el 35 % de un Lancet III deja un 50 % en los escudos de una nave con 85 %, y el resto (allí, el 50 %) va directo a los HP.
 - La **penetración de escudo** viene de los cohetes directos (del 10 al 35 %) y de la munición láser x3 y x4 (5 % y 10 %); los alienígenas no tienen. Una nave por encima del 100 % (digamos, 112 %) aguanta en los escudos un impacto entero contra una penetración de hasta la diferencia (allí, 12 %). Los Penetration Amps de los láseres del atacante (de +3 % a +12 % por ranura) y una formación de drones se suman a ella, y nada limita el total.
 - Un escudo demasiado bajo para su parte pasa la diferencia a los HP; si los escudos están totalmente agotados, el **100 %** de todo el daño restante va a los HP.
 - Los alienígenas no tienen estadística de absorción: sus escudos reciben el 80 % de cada impacto (menos la penetración del impacto) y su casco, el resto.

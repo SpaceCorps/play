@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkanlar ve savunma {#shields-defense}
 
@@ -41,12 +41,12 @@ Aktif savunma bariyerleri oluşturmak için kalkan çekirdeklerini geminin jener
 | Ad | Nadirlik | Kapasite | Dolum hızı | Soğurma | Kalkan % | Hız % | Hücre yuvaları | Özel etki | Maliyet |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Kalitesiz | 10.000 | 333/sn | %45 | +%5 | -%1 | 1 | Shield Surge I | 20.000 kredi |
-| **Basic Shield Core** | Sıradan | 15.000 | 500/sn | %48 | +%10 | -%3 | 2 | Shield Surge II | 2.000 Thulium |
-| **Heavy Shield Core** | Nadir | 25.000 | 833/sn | %50 | +%20 | -%5 | 3 | Shield Surge III | Yalnızca üretilebilir |
+| **Basic Shield Core** | Sıradan | 15.000 | 500/sn | %50 | +%10 | -%3 | 2 | Shield Surge II | 2.000 Thulium |
+| **Heavy Shield Core** | Nadir | 25.000 | 833/sn | %55 | +%20 | -%5 | 3 | Shield Surge III | Yalnızca üretilebilir |
 
 **Heavy Shield Core**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Basic Shield Core eşyasından üretilir: 4.000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plate, 2 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Harcadığı çekirdeğin büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce Basic Shield Core eşyasını gemiden çıkar (hücrelerini de içinden al): takılı olan ya da hücre barındıran bir çekirdek harcanmaz.
 
-**Soğurma**, kalkanlarının her vuruştan üstlendiği paydır; gerisini gövde alır. Tek başına bir kalkan **%45 ile %50 arasındadır**, gerisini hücreleri ekler: en iyi kalkan ile en iyi hücreler (üç Absorption Shield Cell IV taşıyan bir Heavy Shield Core) **%80** yapar; bu, bir geminin hiçbir ek güçlendirme olmadan sahip olabileceği en yüksek değerdir. Buna üç kalıcı güçlendirme eklenir: Sezon Mağazasındaki Shield Absorbance Boost güçlendirmesi (seviye başına +0,1 puan, 100 seviye, her biri 25 sıfırlama puanı), Demirhane’nin soğurma bonusları ve Pilot araştırması Field Theory (+2, +3 ya da +5 puan). Sıfırlama puanı kaynakları (sıfırlama başına en fazla 1.090, her sıfırlamada yeniden başlar) ilk sıfırlamada bu 100 seviyeden 43’ünü (+4,3 puan) satın alır; bu, tamamen dövülmüş Ebedi bir setle yaklaşık **%95**, Field Theory III ile yaklaşık **%99** eder. Yine de değer %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür; yani bir geminin %100’ün üzerindeki kısmı, delmeye karşı güvenlik payıdır. Bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+**Soğurma**, kalkanlarının her vuruştan üstlendiği paydır; gerisini gövde alır. Tek başına bir kalkan **%45 ile %55 arasındadır**, gerisini hücreleri ekler: en iyi kalkan ile en iyi hücreler (üç Absorption Shield Cell IV taşıyan bir Heavy Shield Core) **%85** yapar; bu, bir geminin hiçbir ek güçlendirme olmadan sahip olabileceği en yüksek değerdir. Buna üç kalıcı güçlendirme eklenir: Sezon Mağazasındaki Shield Absorbance Boost güçlendirmesi (seviye başına +0,1 puan, 100 seviye, her biri 25 sıfırlama puanı), Demirhane’nin soğurma bonusları ve Pilot araştırması Field Theory (+4, +7 ya da +10 puan). Sıfırlama puanı kaynakları (sıfırlama başına en fazla 1.105, her sıfırlamada yeniden başlar) ilk sıfırlamada bu 100 seviyeden 44’ünü (+4,4 puan) satın alır; bu, tamamen dövülmüş Ebedi bir setle yaklaşık **%100**, Field Theory III ile yaklaşık **%110** eder. Yine de değer %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür; yani bir geminin %100’ün üzerindeki kısmı, delmeye karşı güvenlik payıdır. Bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Uyarlanabilir çekirdekler, kalkan ve hız yeteneklerini birleştiren hibrit jen
 
 | Ad | Nadirlik | Kalkan bonusu % | Hız bonusu % | Yuvalar | Özel etki | Maliyet |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Kalitesiz | +%4 | +%2,4 | 1 | — | 100.000 kredi |
-| **Adaptive Core II** | Sıradan | +%6,4 | +%3,2 | 2 | — | Yalnızca üretilebilir |
-| **Adaptive Core III** | Nadir | +%8 | +%4 | 3 | — | Yalnızca üretilebilir |
+| **Adaptive Core I** | Kalitesiz | +%4 | +%1,2 | 1 | — | 100.000 kredi |
+| **Adaptive Core II** | Sıradan | +%6,4 | +%1,6 | 2 | — | Yalnızca üretilebilir |
+| **Adaptive Core III** | Nadir | +%8 | +%2 | 3 | — | Yalnızca üretilebilir |
 
 **Adaptive Core II**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Adaptive Core I eşyasından üretilir: 2.000 Thulium, 60 Ship Fragment, 1 Power Core ve 4 Velkonite Reinforced Plate gerekir. **Adaptive Core III** orada bir Adaptive Core II eşyasından üretilir: 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Her biri harcadığı çekirdeğin büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce harcayacağın çekirdeği gemiden çıkar (iticilerini ve hücrelerini de içinden al): takılı olan ya da modül barındıran bir çekirdek harcanmaz.
 

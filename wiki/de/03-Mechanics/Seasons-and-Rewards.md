@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Saisons und Belohnungen -->
 # Saisons und Belohnungen {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Jeder Wipe schließt deine Saison ab. Der Server schreibt den Rang auf, den du e
 
 Der Rang, den du im Augenblick des Wipes hältst, zahlt dir:
 
-* **Wipe-Punkte**: 5 bis 400, nach Rang, zusätzlich zu dem, was die Quellen der Wipe-Punkte zahlen (bis zu 1.090 Wipe-Punkte pro Wipe: [Wipe-Punkte verdienen](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Wipe-Punkte**: 5 bis 400, nach Rang, zusätzlich zu dem, was die Quellen der Wipe-Punkte zahlen (bis zu 1.105 Wipe-Punkte pro Wipe: [Wipe-Punkte verdienen](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Premium-Tage**: 1 bis 7, ab Junior-Hauptmann. Sie werden auf ein Premium aufgeschlagen, das du schon hast.
 * **Credits und Thulium**: ein Neustartfonds, der mit dem Rang wächst, von 105.000 Credits und 225 Thulium für einen Pilot bis zu 6.300.000 Credits und 13.500 Thulium für einen Senior-Admiral. Er ist klein neben den [Obergrenzen](#the-caps-and-your-rewards): ein guter Start in die neue Saison, kein Vorsprung.
 

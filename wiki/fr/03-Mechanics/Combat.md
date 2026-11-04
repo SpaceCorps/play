@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Enfin, les multiplicateurs globaux (comme les boosters actifs, par exemple les +
 - Formule : `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée peut encore multiplier le résultat : par exemple Auger +21 % de dégâts laser, Gyre −11 % et, contre les aliens, Culler +12 % (un facteur à part, qui ne fait pas partie du pourcentage des boosters).
 - Les munitions **Siphon Battery** ont le multiplicateur x1 mais une autre cible : leurs dégâts sont pris sur le seul bouclier de la cible (jamais sur la coque, quelle que soit l’absorption) et vont dans votre propre bouclier, jusqu’à votre maximum. Voir [Lasers et munitions](/wiki/06-Items/Lasers.md).
+- Les **Dark Matter Ammo** (0.5.0) changent la salve elle-même : la Dark Matter Ammo I tire son multiplicateur (x1,5 à x5) à chaque salve, et la Dark Matter Ammo II frappe à x6 une seule fois toutes les 1,5 secondes et vous rend un quart des dégâts qu’a encaissés le bouclier de votre cible. L’**Antimatter Battery** perce 20 % de l’absorption de la cible. Voir [Munitions Antimatter et Dark Matter](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Roquettes {#3b-rockets}
 
@@ -115,7 +116,7 @@ Quand votre vaisseau est touché par un ennemi ou un PNJ, les dégâts sont trai
 ### 1. Absorption du bouclier {#1-shield-absorption}
 
 Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**absorption moyenne** de votre vaisseau : la moyenne de l’absorption de vos boucliers, chacun avec celle de ses cellules de bouclier, plus le Shield Absorbance Boost de la Boutique de saison (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md)). Elle n’est **pas plafonnée à 100 %** : la part d’un tir que prennent les boucliers est votre absorption **moins la pénétration de bouclier de l’attaquant**, entre 0 % et 100 %.
-- L’**absorption** (par ex. 80 % pour le meilleur bouclier avec les meilleures cellules, 56 % pour un Basic Shield Core avec deux Absorption Shield Cell I) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Lancet III laissent 45 % sur les boucliers d’un vaisseau à 80 %, et le reste (ici 55 %) frappe directement les PV.
+- L’**absorption** (par ex. 85 % pour le meilleur bouclier avec les meilleures cellules, 58 % pour un Basic Shield Core avec deux Absorption Shield Cell I) de chaque tir est prise par les boucliers, moins la pénétration du tir : les 35 % d’une Lancet III laissent 50 % sur les boucliers d’un vaisseau à 85 %, et le reste (ici 50 %) frappe directement les PV.
 - La **pénétration de bouclier** vient des roquettes directes (10 à 35 %) et des munitions laser x3 et x4 (5 % et 10 %) ; les aliens n’en ont pas. Un vaisseau au-delà de 100 % (disons 112 %) garde un tir entier sur ses boucliers face à une pénétration allant jusqu’à la différence (ici 12 %). Les Penetration Amps des lasers du tireur (+3 % à +12 % par emplacement) et une formation de drones s’y ajoutent, et rien ne plafonne le total.
 - Un bouclier trop faible pour sa part reporte la différence sur les PV ; si les boucliers sont entièrement vides, **100 %** des dégâts restants frappent les PV.
 - Les aliens n’ont pas de statistique d’absorption : leurs boucliers prennent 80 % de chaque tir (moins la pénétration du tir), leur coque le reste.

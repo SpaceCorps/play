@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: コンテナ -->
 # コンテナ {#containers}
 
@@ -333,12 +333,12 @@
 | :--- | :--- | ---: |
 | コモン | 240 × Velkonite（Skylab へ） | 7.000% |
 | コモン | 160 × Orvium（Skylab へ） | 7.000% |
-| コモン | 1,300 × Reinforced Hull Plate | 5.000% |
-| コモン | 9,000 × Ship Fragment | 6.000% |
+| コモン | 100 × Reinforced Hull Plate | 5.000% |
+| コモン | 1,000 × Ship Fragment | 6.000% |
 | コモン | **鍛造クリスタル**: 4,000 × Cataclysite + 3,000 × Quorvium | 5.000% |
-| コモン | 450 × Power Core | 5.000% |
+| コモン | 20 × Power Core | 5.000% |
 | コモン | 450 Thulium | 5.000% |
-| コモン | 4 × Regular Cluster Chunk | 5.000% |
+| コモン | 2 × Regular Cluster Chunk | 5.000% |
 | アンコモン | 780 × Velkonite（Skylab へ） | 5.000% |
 | アンコモン | 510 × Orvium（Skylab へ） | 5.000% |
 | アンコモン | 19 × Velkonite Reinforced Plate | 4.000% |
@@ -571,16 +571,17 @@ and better are in play.
 
 ## テーブルのバージョン {#version-of-the-table}
 
-このページのすべての確率は、ゲームのサーバーのテーブルのものです。確率が変わると、テーブルは新しいバージョンと新しいハッシュになり、開封のたびに、抽選したテーブルのハッシュが記録されます。
+このページのすべての確率は、ゲームのサーバーのテーブルのものです。確率や数量が変わると、テーブルは新しいバージョンと新しいハッシュになり、開封のたびに、抽選したテーブルのハッシュが記録されます。
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **テーブルのバージョン**: 1
-- **テーブルのハッシュ（先頭12文字）**: `23aa20f1a5ad`
+- **テーブルのバージョン**: 2
+- **テーブルのハッシュ（先頭12文字）**: `9f345692845a`
 
 変更点:
 
+- バージョン 2: 調査キャニスター: コモンの4つの山が小さくなりました。Reinforced Hull Plate は1,300個から100個、Ship Fragment は9,000個から1,000個、Power Core は450個から20個、Regular Cluster Chunk は4個から2個。どの報酬も、どの等級も、確率は変わっていません。
 - バージョン 1: 最初に公開されたテーブル。
 
 <!-- containers-version:end -->

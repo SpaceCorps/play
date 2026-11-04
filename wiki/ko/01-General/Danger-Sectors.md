@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: 위험 섹터 -->
 # 위험 섹터 {#danger-sectors}
 
@@ -52,7 +52,7 @@
 
 - **방사선.** 과열되었거나 파괴된 굴착기와 그 펄서는 원 안에 머무는 모든 함선을 태웁니다([거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). 게임이 미리 경고하고, 원은 비행 중에는 바닥에, 그리고 미니맵에 그려집니다.
 - **늪의 포대.** 늪의 포탑은 함선이 갈 만한 가치가 있는 무언가를 보기 훨씬 전에 보이는 함선을 쏩니다([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). 클릭한 항로는 블랙홀 때와 마찬가지로 포대와 방사선을 피해 휘어지며, 클릭한 곳이 안쪽이면 토스트로 경고합니다.
-- **그곳에서 파괴되었다면,** 부활 선택지 **그 자리에서**는 블랙홀 때와 마찬가지로 방사선 밖이자 늪의 구역 밖에서 가장 가까운 지점에 놓아 줍니다([시작하기](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **그곳에서 파괴되었다면,** 그 자리에서 돌아올 수 없습니다. 위험 섹터에서는 파괴 화면에 **기지**와 **가장 가까운 포털**만 나오고 ‘그 자리에서’는 회색으로 표시됩니다. 그래도 요청하면 거부되며 아무것도 소모하지 않습니다([시작하기](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **그룹과 탈출로.** 굴착기는 Void와 라이벌을 똑같이 끌어들입니다. [그룹](/wiki/03-Mechanics/Groups.md)으로 가고, 가장 가까운 게이트를 알아 두고, 위험 섹터에서는 공격받는 동안 점프로 빠져나갈 수 없다는 점을 기억하세요([공격받는 중의 점프](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **나머지는 늘 그렇듯 PvP입니다.** 여기에 안전한 곳은 없습니다. 라이벌을 포함해 내 월드의 일반 규칙이 적용됩니다.
 

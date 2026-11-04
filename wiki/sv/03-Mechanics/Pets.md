@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 40b3614430227bf5 -->
+<!-- wiki-i18n source: f5852ee08aded325 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -21,7 +21,7 @@ En **P.E.T.** (Personal Escort Technology) är en liten följeslagare som flyger
 - **Kläck.** I hangarens vy **P.E.T.** tar Vaggan en chunk och en Orvium Reinforced Plate för varje P.E.T. och har fyra platser i kön. Chunkens grad avgör hur många boosts P.E.T.n har: **1, 2 eller 3**.
 - **Docka och flyg.** Docka de P.E.T.s du vill ha medan ditt skepp är landat. Med en monterad Station som är PÅ ger de sina boosts och samlar erfarenhet medan du jagar, bryter och flyger, upp till nivå 20.
 - **PÅ och AV.** Platsen **PET** i snabbfältet slår om Stationen, även under flygning, och ändringen gäller direkt: AV, och dina P.E.T.s ger inga boosts, samlar ingen erfarenhet och arbetar inte; PÅ, och de är tillbaka. En Station du aldrig har slagit om är PÅ.
-- **Sätt två i arbete.** En dockad **Retriever** plockar upp lådorna som ligger runt ditt skepp och en dockad **Mole** spränger närmaste asteroid åt dig, så länge du flyger utanför en säker zon, aktiv eller inte, utan gräns för en dags arbete: [de arbetande typerna](#the-working-types). Ett overksamt skepp är ett mål.
+- **Sätt två i arbete.** En dockad **Retriever** plockar upp lådorna som ligger runt ditt skepp och varje dockad **Mole** spränger närmaste asteroid åt dig (alla kan arbeta med samma), så länge du flyger utanför en säker zon, aktiv eller inte, utan gräns för en dags arbete: [de arbetande typerna](#the-working-types). Ett overksamt skepp är ett mål.
 - **De är dina.** P.E.T.s är bundna till dig: ingen handel, ingen Auktion. De finns kvar över wipen.
 
 ## P.E.T. Station {#the-station}
@@ -83,7 +83,7 @@ En P.E.T. går upp till nivå **20**. Varje nivå lägger till **0,2 punkter** t
 | Skada | 1 % | 5 % | 25 % |
 | Tur | 0,5 poäng | 1,7 poäng | 8,5 poäng |
 
-- **Skada, träffpoäng och sköld** läggs till dina boosters och din klans boosts, de multiplicerar dem inte: siffrorna i Hangaren, i skeppsfönstret och på din pilotsida räknar med dem, och fönstret **Boosters** har ett **P.E.T.**-kort. Sköld är sköldkapaciteten (de maximala sköldpoängen).
+- **Skada, träffpoäng och sköld** läggs till dina boosters och din klans boosts, de multiplicerar dem inte: siffrorna i Hangaren, i skeppsfönstret och på din pilotsida räknar med dem, och fönstret **Boosters** räknar in dem i summorna för de kategorier de höjer (en rad **P.E.T.-skadeförstärkning** under Skada, och så vidare) och har ett **P.E.T.**-kort för dockade P.E.T. och Stationens tillstånd. Sköld är sköldkapaciteten (de maximala sköldpoängen).
 - **Krediter och Thulium** höjer vad en nedskjutning betalar dig, din del av en boss och av en grupps nedskjutning och vad ett uppdrag betalar när du hämtar ut det, som din [klans boosts](/wiki/03-Mechanics/Clans.md). De höjer aldrig en klippas kontanter, Skylabs gårdar, en bonuskod eller Auktionen.
 - **Tur** höjer chansen för varje bytesrad hos en utomjording eller ett svärmskepp och för en Wardens privata lådor, som [Loot Luck Booster](/wiki/06-Items/Boosters.md). Inget annat.
 - **Ingen Station PÅ, ingen boost.** Bara de dockade P.E.T.s som räknas ger en boost: de som ryms på platserna i Stationen som är monterad på ditt skepp, och bara så länge den är PÅ. En P.E.T. du tagit av eller aldrig dockat ger ingenting och samlar ingenting, och inte heller någon när Stationen är AV eller inte monterad.
@@ -100,12 +100,12 @@ Nivå 1 kräver 810 erfarenhet, nivå 20 kräver 40 000 totalt. Med en och en h
 
 ## De arbetande typerna {#the-working-types}
 
-Åtta av de tio typerna ger bara boosts. **Retriever** och **Mole** ger också boosts, och var och en arbetar dessutom åt dig medan du flyger: Retriever plockar upp lastlådorna som ligger runt ditt skepp, Mole spränger den asteroid som ligger närmast det. De arbetar så länge ditt skepp flyger utanför en säker zon, **oavsett om du rör tangenterna eller inte**, och **en dags arbete har ingen gräns**: det som begränsar en Mole är det som begränsar dig, asteroiderna inom dess räckvidd och hur fort de växer tillbaka ([Mole-P.E.T.n](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Ett overksamt skepp är ett mål: varje pilot som får attackera det där det står kan göra det, och en P.E.T. i arbete skyddar det inte.
+Åtta av de tio typerna ger bara boosts. **Retriever** och **Mole** ger också boosts, och var och en arbetar dessutom åt dig medan du flyger: Retriever plockar upp lastlådorna som ligger runt ditt skepp, varje Mole spränger den asteroid som ligger närmast det. De arbetar så länge ditt skepp flyger utanför en säker zon, **oavsett om du rör tangenterna eller inte**, och **en dags arbete har ingen gräns**: det som begränsar en Mole är det som begränsar dig, asteroiderna inom dess räckvidd och hur fort de växer tillbaka ([Mole-P.E.T.n](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Ett overksamt skepp är ett mål: varje pilot som får attackera det där det står kan göra det, och en P.E.T. i arbete skyddar det inte.
 
 ### När de arbetar {#when-they-work}
 
 - **Dockad, med Stationen PÅ.** Bara en dockad P.E.T. som räknas arbetar: slå Stationen AV och Moles stråle och Retrievers upplockning slutar direkt, PÅ och de fortsätter. Dess styrka läses vid starten: en nivå som uppnås under flygning räknas från din nästa start.
-- **Bara den bästa av varje.** En Mole arbetar, den starkaste (vid lika den på lägre plats), och en Retriever, den med längst räckvidd. Dina övriga Moles och Retrievers ger bara boosts, så en Station full av Moles spränger inte mer än en.
+- **Alla Moles arbetar, en Retriever.** Sedan 0.4.27 arbetar varje dockad Mole, var och en med egen drönare och egen stråle, och sedan 0.5.0 får dina Moles arbeta med samma asteroid: var och en tar den närmaste, så med bara en asteroid inom räckvidd arbetar alla med den, och när den brister går de vidare till nästa tillsammans. En Station med tre Moles spränger upp till ungefär tre gånger så många asteroider som en Mole så länge det finns tillräckligt många asteroider inom räckvidd; pulserna som kommer efter den som spränger en asteroid går förlorade, så Moles som alla träffar en liten asteroid på en gång är värda lite mindre. En Retriever arbetar, den med längst räckvidd; dina övriga Retrievers ger bara boosts.
 - **I flygning, utanför en säker zon.** De stannar så länge en [säker zon](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) skyddar ditt skepp, och medan det är förstört, under [skydd efter återkomst](/wiki/01-General/Getting-Started.md#dying-and-coming-back), kamouflerat eller hoppande, och fortsätter när inget av detta gäller. En pilot som är utloggad har inget skepp i rymden, så ingenting arbetar åt honom.
 - **Overksam eller inte.** Det finns ingen regel om att sitta vid tangenterna: en Mole arbetar likadant medan du jagar, medan du tittar på ett fönster och medan du är borta från skärmen.
 - **Vad de aldrig gör.** En Retriever tar ingen låda som du inte själv kunde ta, alltså aldrig en annan pilots skyddade lådor. En Mole arbetar aldrig med en asteroid i en säker zon: asteroider står minst 1 500 enheter från en säker ring.
@@ -120,7 +120,7 @@ En dockad Retriever tar närmaste lastlåda inom sin **räckvidd**, en låda i t
 
 ### Mole {#the-mole}
 
-En dockad Mole arbetar med närmaste asteroid den får arbeta med inom **600 enheter** från ditt skepp (ungefär fem och en halv skeppslängd) och ger den **en puls var tredje sekund**, den tid dina raketer laddar om på. Den håller sig till asteroiden tills den brister, och letar sedan efter nästa. Dess drönare flyger ut till asteroiden och en tunn stråle binder samman dem.
+En dockad Mole arbetar med närmaste asteroid den får arbeta med inom **600 enheter** från ditt skepp (ungefär fem och en halv skeppslängd) och ger den **en puls var tredje sekund**, den tid dina raketer laddar om på. Den håller sig till asteroiden tills den brister, och letar sedan efter nästa. Dess drönare flyger ut till asteroiden och en tunn stråle binder samman dem. **Varje dockad Mole gör detta på egen hand** (0.4.27), och sedan 0.5.0 får de välja samma asteroid: med tre Moles ser du tre drönare, och när en asteroid är närmast för alla landar deras strålar sida vid sida på den.
 
 - **Vad en puls är.** En del av vad den bästa raketen, [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets), skulle ta av just den asteroiden, så pansar bromsar en Mole som det bromsar en raket (Ironhide, Plateback, Anvil och Ancient Husk). Inget du utrustar ändrar den: inte dina lasrar, raketer, förstärkare, boosters, formation eller dina P.E.T.s Skada. En Mole använder varken ammunition eller raketer.
 - **Hur stark.** Efter grad och nivå ([tabellerna nedan](#how-strong)). En **Legendary Mole på nivå 20** spränger **minst lika många asteroider i timmen som en pilot som skjuter den bästa raketen på dem**, så länge den har asteroider att arbeta med: från 100 % till 118 % av hans på var och en av de sexton sektorerna med asteroider, i alla tre världarna. Den svagaste Mole du kan kläcka, en Mythical på nivå 0, spränger ungefär en tiondel. I Alpha spränger en Mole på toppen en Pebble på 12 sekunder, en Star Crystal på under 2 minuter och Motherlode, den största asteroiden, på 5,8 minuter; den svagaste behöver 2,1 minuter, 19,8 minuter och ungefär en timme.

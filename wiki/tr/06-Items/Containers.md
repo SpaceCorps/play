@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Konteynerler -->
 # Konteynerler {#containers}
 
@@ -333,12 +333,12 @@ Kroma Arşivi önce sınıfı, sonra o sınıftan sende henüz olmayan bir gör�
 | :--- | :--- | ---: |
 | Sıradan | 240 × Velkonite (Skylab’a) | %7,000 |
 | Sıradan | 160 × Orvium (Skylab’a) | %7,000 |
-| Sıradan | 1.300 × Reinforced Hull Plate | %5,000 |
-| Sıradan | 9.000 × Ship Fragment | %6,000 |
+| Sıradan | 100 × Reinforced Hull Plate | %5,000 |
+| Sıradan | 1.000 × Ship Fragment | %6,000 |
 | Sıradan | **Demirci kristalleri**: 4.000 × Cataclysite + 3.000 × Quorvium | %5,000 |
-| Sıradan | 450 × Power Core | %5,000 |
+| Sıradan | 20 × Power Core | %5,000 |
 | Sıradan | 450 Thulium | %5,000 |
-| Sıradan | 4 × Regular Cluster Chunk | %5,000 |
+| Sıradan | 2 × Regular Cluster Chunk | %5,000 |
 | Seyrek | 780 × Velkonite (Skylab’a) | %5,000 |
 | Seyrek | 510 × Orvium (Skylab’a) | %5,000 |
 | Seyrek | 19 × Velkonite Reinforced Plate | %4,000 |
@@ -571,16 +571,17 @@ Oyunun Konteynerler sayfası, farklı olduklarında kendi şanslarını yayımla
 
 ## Tablonun sürümü {#version-of-the-table}
 
-Bu sayfadaki her şans, oyunun sunucusunun tablosudur. Bir şans değiştiğinde tablo yeni bir sürüm ve yeni bir özet alır; her açılış, çekildiği tablonun özetini kaydeder.
+Bu sayfadaki her şans, oyunun sunucusunun tablosudur. Bir şans veya miktar değiştiğinde tablo yeni bir sürüm ve yeni bir özet alır; her açılış, çekildiği tablonun özetini kaydeder.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Tablonun sürümü**: 1
-- **Tablonun özeti (ilk 12 karakter)**: `23aa20f1a5ad`
+- **Tablonun sürümü**: 2
+- **Tablonun özeti (ilk 12 karakter)**: `9f345692845a`
 
 Ne değişti:
 
+- Sürüm 2: Keşif Silindiri: dört Sıradan yığın küçüldü. Reinforced Hull Plate 1.300 adetten 100 adede, Ship Fragment 9.000 adetten 1.000 adede, Power Core 450 adetten 20 adede, Regular Cluster Chunk 4 adetten 2 adede. Hiçbir ödülün ve hiçbir sınıfın şansı değişmedi.
 - Sürüm 1: Yayımlanan ilk tablo.
 
 <!-- containers-version:end -->

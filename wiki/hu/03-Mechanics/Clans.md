@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -16,8 +16,8 @@ Klán alapítása vagy belépés egy klánba lehetővé teszi, hogy összevond a
 - A Vezér és az Alvezérek a pontokat három [bónuszra](#clan-points-and-boosts) költik, mindegyik tíz szintes: **Sebzés** (legfeljebb +5%), **Thulium** (legfeljebb +10%) és **Kredit** (legfeljebb +10%).
 - Az a klán, amely minden vonalat teljesít, a **12. napon** megvett minden szintet. A pontok, a szintek és maga a klán a wipe-pal véget érnek.
 - Legalább **három tag** kell, aki megtette a részét, és **nagy legénység** az őrző elleni harchoz: a 0.4.13 óta az őrzőnek ötször akkora a törzse, a pajzsa és a lézersebzése, mint volt, ezért azok a legénységek, amelyek korábban nyertek, nagyjából hét pilóta, most veszítenek ([mekkora legénység kell](#how-big-a-crew)). Egy túl kicsi legénység elveszíti a harcot: a klán ilyenkor megtartja a négy küldetés **70 pontját**, de a vonal nem készül el, és nem fizeti ki [a te jutalmadat](#the-reward-for-you).
-- Az őrző nagy kasszát fizet, sebzés szerint elosztva, és **minden pilóta, aki a sebzés legalább 5%-át okozta, saját privát ládát kap** a zsákmányból járó részével, amelyet csak ő lát, és csak ő vehet fel ([fizetés és zsákmány](#warden-pay-and-loot)). A 0.4.16 óta a fizetség háromszoros, és amíg egy őrző áll, **percenként érkezik egy hullám a térkép idegeneiből** (a Wrath Warden III-nál 40 másodpercenként), és minden hullámban van egy **Crystalys**, ha az őrző törzséből fél alatt van, azokra a pilótákra irányítva, akik eltalálták az őrzőt ([hullámok](#waves-of-aliens)).
-- A hajód a meglévő bónuszokat a **Boosterek** ablakban mutatja, egy külön kártyán ([hol látod őket](#the-three-boosts)).
+- Az őrző nagy kasszát fizet, sebzés szerint elosztva, és **minden pilóta, aki a sebzés legalább 5%-át okozta, saját privát ládát kap** a zsákmányból járó részével, amelyet csak ő lát, és csak ő vehet fel ([fizetés és zsákmány](#warden-pay-and-loot)). A 0.4.16 óta a fizetség háromszoros, és amíg egy őrző áll, **percenként érkezik egy hullám Phantasm, Bulwark és (a Warden II-től kezdve) Goombah idegenekből** (a Wrath Warden III-nál 40 másodpercenként), és minden hullámban van egy **Crystalys**, ha az őrző törzséből fél alatt van, azokra a pilótákra irányítva, akik eltalálták az őrzőt ([hullámok](#waves-of-aliens)).
+- A hajód a meglévő bónuszokat a **Boosterek** ablakban mutatja, az általuk növelt kategóriák soraiként ([hol látod őket](#the-three-boosts)).
 - A vonalhoz és a bónuszokhoz 0.4.10-es vagy újabb verziójú játék kell, a Boosterek ablak kártyájához 0.4.12-es vagy újabb, a klánoldalhoz, a bejegyzésekhez, az online ablakhoz, a napi bónuszhoz, a békekérésekhez, a naplóhoz és a világonkénti klánokhoz 0.4.16-os vagy újabb.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ A 0.4.22 óta **minden őrző arra a pilótára megy, aki eltalálta**, ahogy a 
 
 ### Idegenhullámok {#waves-of-aliens}
 
-A 0.4.16 óta az őrző nem áll egyedül. Attól a pillanattól kezdve, hogy **élesedett** (a 90 másodperces bemelegítés alatt nincs hullám, hogy a legénység összegyűlhessen), **60 másodpercenként** érkezik egy **hullám** hétköznapi idegenekből azon a térképen, amelyen áll, amíg az őrző áll. A táblázat a kilenc őrzőből nyolc hullámait mutatja; a [Wrath Warden III hullámai](#wrath-iii-waves) nehezebbek. Fél törzs alatt egy őrző hullámaiban [egy Crystalys](#crystalys-waves) is van.
+A 0.4.16 óta az őrző nem áll egyedül. Attól a pillanattól kezdve, hogy **élesedett** (a 90 másodperces bemelegítés alatt nincs hullám, hogy a legénység összegyűlhessen), **60 másodpercenként** érkezik egy **hullám** hétköznapi idegenekből, amíg az őrző áll. A 0.5.0 óta a hullám **keverék**: nagyjából a fele [Phantasm](/wiki/04-Aliens/Phantasm.md), negyede [Bulwark](/wiki/04-Aliens/Bulwark.md), negyede [Goombah](/wiki/04-Aliens/Goombah.md), minden térképen, csak hogy a Warden I nem hív Goombah-ot (az első pont lent); a hullám korábban egyetlen fajta idegen volt: Phantasm az x-2 és x-3 térképen, Bulwark az x-4 térképen. Egy hullám annyi idegenből áll, mint korábban. A táblázat a Warden II és Warden III őrzők hullámait mutatja, a Wrath Warden III kivételével, amelynek [hullámai](#wrath-iii-waves) nehezebbek. Fél törzs alatt egy őrző hullámaiban [egy Crystalys](#crystalys-waves) is van.
 
 | Térkép | Egy hullám | Egyszerre legfeljebb él |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, és legfeljebb 3 Crystalys |
-| x-3 | 10 Phantasm | 30, és legfeljebb 3 Crystalys |
-| x-4 | 10 Bulwark | 30, és legfeljebb 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark és 1 Goombah | 15, és legfeljebb 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwark és 2 Goombah | 30, és legfeljebb 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwark és 2 Goombah | 30, és legfeljebb 3 Crystalys |
 
+- **A Warden I nem hív Goombah-ot.** Egy Újonc fokozatú klán (átlagszint 4 alatt) őrzője csak Phantasmot és Bulwarkot küld, három Phantasmot egy Bulwarkra, ugyanakkora hullámokban: **4 Phantasm és 1 Bulwark az x-2 térképen, 8 Phantasm és 2 Bulwark az x-3 és x-4 térképen**. Egy egész hullám az Alphában az x-2 térképen 17 000 kreditet fizet, az x-3 és x-4 térképen 34 000-et, és ha a Crystalys is benne van, 92 000-et, illetve 109 000-et; az egyszerre élők legnagyobb száma a táblázaté.
 - **Legfeljebb három hullám él.** Egy hullám addig él, amíg egy idegene él. Az a hullám, amelyik akkor esedékes, amikor három él, kimarad, nem tartogatják későbbre; a következő egy perccel később esedékes.
-- **A térkép saját idegenei**, abból a fajtából, amely megtámadja a pilótákat, úgy elkészítve, ahogy a térkép elkészíti őket: az erősebb világ több törzset, pajzsot és sebzést ad nekik ([Világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Az őrzőtől 500–1 200 egységre érkeznek, körülötte szétszórva.
-- **Nem részei az őrzőért folyó harcnak.** Nem gyógyítanak semmit, és ha rájuk lősz, az nem ad hozzá semmit az őrzőnek okozott sebzésből járó részedhez. A térkép bármelyik pilótája megölheti őket. Mindegyik a saját idegenének szokásos fizetségét adja a te világodban, és PvE-pontot ad: egy egész 5 Phantasmból álló hullám 15 000 kreditet fizet az Alphában, a 10 Bulwarkból álló 50 000-et, ami kevesebb, mint 2%-a annak, amit a leggyengébb őrző fizet.
-- **Az őrzővel együtt megszűnnek.** Ha elpusztul vagy visszavonul, nem jön több; a már kint lévő idegenek maradnak, és a térkép hétköznapi idegenei. A szerver újraindítása az őrzővel együtt megszünteti őket.
-- **A klán értesül.** Minden hullámot bejelent a chat Rendszer füle és a Játéknapló: „Brood Warden I erősítést hív itt: M-3. Érkezik: 10 Phantasm.”
-- **Célzottan érkeznek (0.4.20).** A hullám idegenei úgy érkeznek, hogy tudják, kivel harcol az őrző: arra a pilótára mennek, aki eltalálta, az elsőre először, a megjelenés pillanatától, és rajtuk maradnak, amíg az őrzőt találják. Az az őrző, akivel senki sem harcol, olyan idegeneket küld, amelyek kóborolnak, és magukhoz vonzzák, aki a közelükbe ér, mint korábban.
+- **Hétköznapi idegenek**, úgy elkészítve, ahogy a térkép elkészíti őket: az erősebb világ több törzset, pajzsot és sebzést ad nekik ([Világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), az őrző saját erejétől függetlenül. A Bulwarkok és a Goombahok minden térképre érkeznek, egy x-2 szektorba is, ahol egyébként egy sem él. Az őrzőtől 500–1 200 egységre érkeznek, körülötte szétszórva.
+- **Nem részei az őrzőért folyó harcnak.** Nem gyógyítanak semmit, és ha rájuk lősz, az nem ad hozzá semmit az őrzőnek okozott sebzésből járó részedhez. A térkép bármelyik pilótája megölheti őket. Mindegyik a saját idegenének szokásos fizetségét adja a te világodban, és PvE-pontot ad: egy egész hullám a táblázatból 29 000 kreditet fizet az Alphában az x-2 térképen (5 idegen), és 60 000-et az x-3 és x-4 térképen (10 idegen), egy Warden I hulláma 17 000-et, illetve 34 000-et, ami kevesebb, mint 2%-a annak, amit a saját őrzője fizet.
+- **Az őrzővel együtt megszűnnek.** Ha elpusztul vagy visszavonul, nem jön több; a már kint lévő idegenek maradnak, és a térkép hétköznapi idegenei (az olyan fajta, amely a szektorban magától nem él – például az x-2 szektor Bulwark és Goombah idegenei –, öt perccel az őrző után eltűnik, hacsak a pilóták még harcolnak vele). A szerver újraindítása az őrzővel együtt megszünteti őket.
+- **A klán értesül.** Minden hullámot bejelent a chat Rendszer füle és a Játéknapló, a benne lévő idegenek minden fajtájához egy sorral: „Brood Warden II erősítést hív itt: M-3. Érkezik: 5 Phantasm.”, „Brood Warden II erősítést hív itt: M-3. Érkezik: 3 Bulwark.” és „Brood Warden II erősítést hív itt: M-3. Érkezik: 2 Goombah.” (a Warden I két sort közöl, mert nem hív Goombah-ot)
+- **Célzottan érkeznek (0.4.20).** A hullám idegenei úgy érkeznek, hogy tudják, kivel harcol az őrző: arra a pilótára mennek, aki eltalálta, az elsőre először, a megjelenés pillanatától, és rajtuk maradnak, amíg az őrzőt találják. Az az őrző, akivel senki sem harcol, olyan idegeneket küld, amelyek kóborolnak: a Phantasm és a Bulwark magához vonzza, aki a közelükbe ér, mint korábban, a Goombah pedig, amely sosem kezd harcot, addig kóborol, amíg valaki rá nem lő.
 
 #### Minden őrző Crystalysa {#crystalys-waves}
 
 A 0.4.22 óta **minden őrző** azt teszi, amit a Wrath Warden III a 0.4.20 óta: fél törzs alatt (ennél a vonalnál dühödik meg a Wrath Warden) **minden hullámában van még egy Crystalys is**, a hullám méretén felül. Ez egyformán érvényes a Brood, a Siege és a Wrath Wardenre, mindhárom erősségben. Fél törzs felett a hullám nélküle érkezik, és az az őrző, amelyet fél fölé javítottak, a következő hullámot megint nélküle küldi.
 
 - **A Crystalys** a játék legnehezebb közönséges idegene: 256 000 törzs, 160 000 pajzs, 10 000 sebzés lövésenként 900 egységről, sebesség 230 (erősebb világban több törzs, pajzs és sebzés). Annyit fizet, amennyit bármelyik Crystalys: **75 000 kredit, 200 Thulium, 12 000 XP és 52 becsület Alphában** (Betában a duplája, Gammában a háromszorosa), és a szokásos zsákmányát ejti. A hullámához tartozik: a hullám addig él, amíg a Crystalysa él, így egy életben maradt Crystalys életben tartja az egyik hullámot (legfeljebb hármat, a Wrath Warden III-nál négyet), és az a hullám, amely akkor jár le, amikor a legtöbb él, kimarad.
-- **Két sorban jelentik be őket**: „Wrath Warden III erősítést hív itt: M-3. Érkezik: 15 Phantasm.” és „Wrath Warden III erősítést hív itt: M-3. Érkezik: 1 Crystalys.”
-- **Mennyit fizetnek.** Egy egész, 10 Bulwarkból álló hullám 50 000 kreditet fizet Alphában, ha pedig a Crystalys is benne van, 125 000-et: kevesebb, mint 5%-át a 2 700 000-nek, amit a leggyengébb őrző fizet.
-- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha a hullámok és a Crystalys is benne vannak, x2 lőszerrel ezeket a legkisebb legénységeket adja az őrző saját szintjének felszerelésében, Alphában. Egy 3. szintű klán 50 tagot fogad be, egy 5. szintű 100-at. Mint az ottani táblázat, ezek is számítottak és nem mértek, és a legjobb eset; Gammában, ahol a hullámok idegenei kétszer erősebbek, még nagyobbak.
+- **Külön sorban jelentik be**, a keverék sorai után: „Wrath Warden III erősítést hív itt: M-3. Érkezik: 7 Phantasm.”, „…: 4 Bulwark.”, „…: 4 Goombah.” és „Wrath Warden III erősítést hív itt: M-3. Érkezik: 1 Crystalys.”
+- **Mennyit fizetnek.** Egy egész, 10 idegenből álló hullám Alphában egy Warden I esetén 34 000 kreditet, egy Warden II esetén 60 000-et fizet, ha pedig a Crystalys is benne van, 109 000-et, illetve 135 000-et: nagyjából 4%-át annak a 2 700 000-nek, amit egy Warden I fizet, és kevesebb mint 4%-át annak a 3 600 000-nek, amit egy Warden II fizet; egy Warden III esetén kevesebbet.
+- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha a hullámok és a Crystalys is benne vannak, x2 lőszerrel ezeket a legkisebb legénységeket adja az őrző saját szintjének felszerelésében, Alphában. Egy 3. szintű klán 50 tagot fogad be, egy 5. szintű 100-at. A 0.5.0 óta a keverék Bulwark és Goombah idegenei nehezebbé teszik a hullámokat, de a Warden I nem hív Goombah-ot, így egy 3. szintű klán minden térképen elegendő pilótát fogad be minden őrzőhöz. Mint az ottani táblázat, ezek is számítottak és nem mértek, és a legjobb eset; Gammában, ahol a hullámok idegenei kétszer erősebbek, még nagyobbak, az x-3 és x-4 térképen pedig egy 3. szintű klánnak néhány őrzőhöz hiányzik pilótája.
 
 | Őrző | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### A Wrath Warden III hullámai {#wrath-iii-waves}
 
-A 0.4.20 óta a **Wrath Warden III** többet hoz, és gyakrabban: **40 másodpercenként** egy hullámot, abból az idegenből a térkép számának háromnegyedét, és egyszerre legfeljebb **négy hullám** él. Mint minden őrző, fél törzs alatt [egy Crystalyst](#crystalys-waves) tesz a hullámhoz.
+A 0.4.20 óta a **Wrath Warden III** többet hoz, és gyakrabban: **40 másodpercenként** egy hullámot, 8–15 idegenből, ugyanabban a Phantasm, Bulwark és Goombah keverékben, és egyszerre legfeljebb **négy hullám** él. Mint minden őrző, fél törzs alatt [egy Crystalyst](#crystalys-waves) tesz a hullámhoz.
 
 | Térkép | Egy hullám | Egyszerre legfeljebb él |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, és legfeljebb 4 Crystalys |
-| x-3 | 15 Phantasm | 60, és legfeljebb 4 Crystalys |
-| x-4 | 15 Bulwark | 60, és legfeljebb 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwark és 2 Goombah | 32, és legfeljebb 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwark és 4 Goombah | 60, és legfeljebb 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwark és 4 Goombah | 60, és legfeljebb 4 Crystalys |
 
 - **Legfeljebb négy hullám él.** Az a hullám, amely akkor jár le, amikor négy él, kimarad, mint a többi őrzőnél.
-- **Mennyit fizetnek.** Egy egész, 15 Bulwarkból álló hullám 75 000 kreditet fizet Alphában, ha pedig a Crystalys is benne van, 150 000-et: nagyjából a 7 200 000 2%-át, amit maga az őrző fizet.
-- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha ezek a hullámok és a Crystalys is benne vannak, x2 lőszerrel **32 pilótát ad az x-2 térképen, 32-t az x-3 térképen és 39-et az x-4 térképen** (hullámok nélkül 26), Gammában pedig, ahol a hullámok idegenei kétszer erősebbek, 39-et, 41-et és 50-et. Egy 3. szintű klán 50 tagot fogad be, így az x-4 térképen Gammában az 50 mindaz, amit küldhet. Mint az ottani táblázat, ez is számított és nem mért, és a legjobb eset.
+- **Mennyit fizetnek.** Egy egész, 15 idegenből álló hullám 101 000 kreditet fizet Alphában, ha pedig a Crystalys is benne van, 176 000-et: nagyjából a 7 200 000 2%-át, amit maga az őrző fizet.
+- **Mit kívánnak a legénységtől.** A [mekkora legénység kell](#how-big-a-crew) számítása, ha ezek a hullámok és a Crystalys is benne vannak, x2 lőszerrel **36 pilótát ad az x-2 térképen, 40-et az x-3 térképen és 40-et az x-4 térképen** (hullámok nélkül 26), Gammában pedig, ahol a hullámok idegenei kétszer erősebbek, 46-ot, 52-t és 52-t. Egy 3. szintű klán 50 tagot fogad be, így az x-3 és x-4 térképen Gammában nem küldhet elég pilótát; egy 5. szintű klán 100 tagot fogad be. Mint az ottani táblázat, ez is számított és nem mért, és a legjobb eset.
 
 ### Mekkora legénység kell {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ A táblázat a legjobb eset; játék közben vidd, akit csak tudsz.
 | :--- | :--- | :--- |
 | 5 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 88–96% megmarad | veszítenek |
 | 10 pilóta | minden őrző ellen veszítenek; az őrzőnek törzséből és pajzsából 55–86% megmarad | veszítenek |
-| 20 pilóta | csak a Siege Warden I és II ellen nyernek, 7,2–7,3 perc alatt, 6 hajót elvesztve, és a Brood Warden III ellen, 3,9 perc alatt, 9 hajót elvesztve | veszítenek |
-| 30 pilóta | minden őrző ellen nyernek 2,0–5,2 perc alatt, 3–11 hajót elvesztve | csak a Siege Warden I és II ellen nyernek, 10,4–10,5 perc alatt, 9 hajót elvesztve, és a Brood Warden III ellen, 5,2 perc alatt, 13 hajót elvesztve |
+| 20 pilóta | csak a Siege Warden I és II ellen nyernek, 7,2–7,3 perc alatt, 6 hajót elvesztve, és a Brood Warden III ellen, 3,7 perc alatt, 8 hajót elvesztve | veszítenek |
+| 30 pilóta | minden őrző ellen nyernek 2,0–5,2 perc alatt, 3–11 hajót elvesztve | csak a Siege Warden I és II ellen nyernek, 10,4–10,5 perc alatt, 9 hajót elvesztve, és a Brood Warden III ellen, 5,1 perc alatt, 11 hajót elvesztve |
 
-A számításban a legkisebb legénység, amely x2 lőszerrel nyer, **17–26 pilótából** áll (a legkevesebből a Siege Warden I és II ellen), és közben **10–18** hajót veszít; x1 lőszerrel **26–39** pilótából áll, és 12–27 hajót veszít. Az őrző lézerei az I erősségnél százas nagyságrendet ütnek sorozatonként (240–645), a III erősségnél ezreset (9 225–15 450), és a segítői ehhez hozzáadódnak: a hajó, amellyel harcol, 18–55 másodperc alatt elesik, aztán a következőre fordul, így még egy nyerő legénység is sok hajót veszít.
+A számításban a legkisebb legénység, amely x2 lőszerrel nyer, **17–26 pilótából** áll (a legkevesebből a Siege Warden I és II ellen), és közben **10–17** hajót veszít; x1 lőszerrel **26–39** pilótából áll, és 12–25 hajót veszít. Az őrző lézerei az I erősségnél százas nagyságrendet ütnek sorozatonként (240–645), a III erősségnél ezreset (9 225–15 450), és a segítői ehhez hozzáadódnak: a hajó, amellyel harcol, 18–55 másodperc alatt elesik, aztán a következőre fordul, így még egy nyerő legénység is sok hajót veszít.
 
 A táblázat egy olyan legénységre vonatkozik, amely az őrző saját fokozatának felszerelésében van. A gyengébb hajók rosszabbul szerepelnek. A **te** klánod őrzője mindig a **te** fokozatodhoz igazodik, amelyet a klán öt legjobb pilótája határoz meg, ezért vidd őket.
 
@@ -452,7 +453,7 @@ A klánpontok a klánéi. Minden lépés, amelyet a klán befejez, növeli az eg
 | **Flotta Thulium** | 10 | +1% | +10% | Thulium lelövésekből és küldetésjutalmakból |
 | **Flotta kredit** | 10 | +1% | +10% | Kredit lelövésekből és küldetésjutalmakból |
 
-**Hol látod őket.** Repülés közben a **Boosterek** ablak egy külön **Flottabónuszok** kártyán listázza a hajód bónuszait az időzített boosterek alatt: a klánod címkéje, majd bónuszonként egy sor az értékével és a szintjével (Szint 3/10). Nincs időzítőjük, mert a klánbónusz addig tart, amíg a klánban vagy. Vidd az egeret egy sor fölé, hogy lásd, mire hat. Az a klán, amely még nem vett semmit, ezt mutatja: „A flottádnak még nincs bónusza”, a klán nélküli pilóta pedig nem lát kártyát. Az **Irányítópult** Boosterek kártyája és egy pilóta profilja is listázza őket. A kártya azt mutatja, amit a hajód alkalmaz, ahogy a szerver közli a játékkal, így egy szint, amelyet a tisztek épp most vettek, azonnal megjelenik. A 0.4.12-nél régebbi játék alkalmazza a bónuszokat, de nem mutat kártyát.
+**Hol látod őket.** Repülés közben a **Boosterek** ablak a hajód bónuszait a boosterekkel együtt számolja: a **Flotta sebzés** a **Sebzés** kategória egy sora, a **Flotta Thulium** a **Thulium** kategóriáé, a **Flotta kredit** a **Kreditek** kategóriáé, és mindegyik beleszámít a kategória összegébe, így az összeg az, amit a hajód kap. Nyiss meg egy kategóriát, hogy lásd a sort: a bónuszát és, ahol egy booster az időzítőjét mutatja, a szintjét (Szint 3/10), mert a klánbónusznak nincs időzítője, és addig tart, amíg a klánban vagy. Vidd az egeret a sor fölé, hogy lásd, mire hat. Az a klán, amely még nem vett semmit, egy **Flottabónuszok** kártyát mutat ezzel: „A flottádnak még nincs bónusza”, a klán nélküli pilóta pedig nem lát kártyát. Az **Irányítópult** Boosterek kártyája ugyanezeket az összegeket mutatja a futó boosterek alatt, és egy pilóta profilja is listázza őket. A számok azt mutatják, amit a hajód alkalmaz, ahogy a szerver közli a játékkal, így egy szint, amelyet a tisztek épp most vettek, azonnal megjelenik. A 0.4.12-nél régebbi játék alkalmazza a bónuszokat, de ebből semmit sem mutat; a 0.4.27 előtt a bónuszok külön kártyán álltak, és kimaradtak az összegekből.
 
 ### Árak {#boost-prices}
 

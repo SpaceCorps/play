@@ -37,13 +37,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Engines
 
-Engines are the primary source of thrust for your ship. An engine in an **ability slot** instead gives you the **Afterburner** in the Special Effect column, a burst of speed for ten seconds (longer with more engines), and adds no thrust of its own (see [Abilities](/wiki/03-Mechanics/Abilities.md)).
+Engines are the primary source of thrust for your ship. An engine in an **ability slot** instead gives you the **Afterburner** in the Special Effect column, a burst of speed for fifteen seconds (longer with more engines), and adds no thrust of its own (see [Abilities](/wiki/03-Mechanics/Abilities.md)).
 
 | Name | Rarity | Base Speed | Speed Bonus % | Shield Bonus % | Slots | Special Effect | Cost |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Shoddy | +2 | +2% | -2% | 1 | Afterburner I | 20,000 Credits |
-| **Engine II** | Common | +4 | +4% | -8% | 2 | Afterburner II | Craftable Only |
-| **Engine III** | Rare | +6 | +5% | -15% | 3 | Afterburner III | Craftable Only |
+| **Engine II** | Common | +4 | +3% | -8% | 2 | Afterburner II | Craftable Only |
+| **Engine III** | Rare | +6 | +4% | -15% | 3 | Afterburner III | Craftable Only |
 
 The **Engine II** is made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Engine I, with 2,000 Thulium, 60 Ship Fragments, 1 Power Core and 4 Velkonite Reinforced Plates. The **Engine III** is made there from an Engine II, with 4,000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit and 4 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Each keeps the enchant tier and the buffs of the engine it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Take the engine you use up off your ship (and its thrusters out of it) first: an engine that is fitted or holds thrusters is not used up.
 
@@ -88,4 +88,4 @@ Tier I of each family is sold for 20,000 Credits. Tiers II to IV are made in [As
 
 ### Outrunning aliens
 
-The aliens fly at 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) and 230 (Crystalys). An Ostirion with one Engine II and two thrusters flies at 221.4 with Impulse Thruster I: still under the Crystalys, so it takes a thruster made in Assembly to outrun it (230.8 with Impulse Thruster II, 240.3 with III, 243.3 with IV). The Momentum Thrusters fly the same or a little lower on that ship (221.4 with a Momentum Thruster I, then 230.5, 238.4 and 240.7 with II to IV): tier I of either family is under a Crystalys, and every tier made in Assembly is over it, tier II by only 0.8 and 0.5.
+The aliens fly at 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) and 230 (Crystalys). An Ostirion with one Engine II and two thrusters flies at 219.3 with Impulse Thruster I and 228.6 with II: both still under the Crystalys, so it takes a tier III thruster to outrun it (238.0 with Impulse Thruster III, 241.0 with IV). The Momentum Thrusters fly the same or a little lower on that ship (219.3 with a Momentum Thruster I, then 228.3, 236.1 and 238.4 with II to IV): tiers I and II of either family are under a Crystalys, and tiers III and IV are over it.

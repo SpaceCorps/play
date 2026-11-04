@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Logros -->
 # Logros {#achievements}
 
@@ -69,7 +69,7 @@ Los 37 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Constructor de estaciones | Construye 5 módulos distintos del Skylab. | Común |
 | Equipo completo | Construye los 16 módulos del Skylab. | Épico |
 | Erudito | Investiga 50 tecnologías. | Poco común |
-| Archivista | Investiga las 151 tecnologías. | Legendario |
+| Archivista | Investiga las 158 tecnologías. | Legendario |
 
 ### Flota {#group-fleet}
 
@@ -118,7 +118,7 @@ Un logro oculto que sigue bloqueado es una tarjeta cerrada, sin meta y sin barra
 Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de los 40 logros dan uno, tuyo para siempre cuando desbloqueas el logro. Los títulos también llegan al final de una temporada (tu rango, el mejor piloto de cada corporación y el piloto con más puntos PvE) y del equipo del juego, como el título **Pioneer** para todas las cuentas que existían el día del lanzamiento del juego en Steam.
 
 - Tienes muchos títulos y **llevas uno** a la vez. Lo eliges en tu **perfil de piloto** y puedes quitártelo de nuevo.
-- Tu título aparece en tu **perfil**, en las **Clasificaciones**, en la ventana de **Grupo** y cuando pasas el cursor por tu nombre en el **chat**. No aparece sobre tu nave en el mapa.
+- Tu título aparece en tu **perfil**, en las **Clasificaciones**, en la ventana de **Grupo** y cuando pasas el cursor por tu nombre en el **chat**. Desde la 0.4.27 también aparece en el mapa: una línea pequeña y tenue, del color de la rareza del título, **sobre el nombre de la nave de cada piloto**, la tuya incluida. Un título largo se corta con puntos suspensivos. En una multitud (más de ocho pilotos en la pantalla) solo tus amigos, tu objetivo y la nave que has seleccionado conservan el suyo, para que la pantalla siga siendo legible. No aparece en la ventana Objetivo ni en el minimapa.
 - Los títulos sobreviven al reinicio.
 
 ## Steam

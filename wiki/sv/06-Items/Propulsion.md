@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Framdrivning -->
 # Framdrivning och fart {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Motorer {#engines}
 
-Motorer är skeppets främsta källa till framdrivning. En motor i en **förmågeplats** ger i stället förmågan **Afterburner** i kolumnen Specialeffekt, en fartstöt i tio sekunder (längre med fler motorer), och ger ingen egen framdrivning (se [Förmågor](/wiki/03-Mechanics/Abilities.md)).
+Motorer är skeppets främsta källa till framdrivning. En motor i en **förmågeplats** ger i stället förmågan **Afterburner** i kolumnen Specialeffekt, en fartstöt i femton sekunder (längre med fler motorer), och ger ingen egen framdrivning (se [Förmågor](/wiki/03-Mechanics/Abilities.md)).
 
 | Namn | Sällsynthet | Grundhastighet | Fartbonus % | Sköldbonus % | Platser | Specialeffekt | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Skral | +2 | +2 % | −2 % | 1 | Afterburner I | 20 000 krediter |
-| **Engine II** | Vanlig | +4 | +4 % | −8 % | 2 | Afterburner II | Kan bara tillverkas |
-| **Engine III** | Sällsynt | +6 | +5 % | −15 % | 3 | Afterburner III | Kan bara tillverkas |
+| **Engine II** | Vanlig | +4 | +3 % | −8 % | 2 | Afterburner II | Kan bara tillverkas |
+| **Engine III** | Sällsynt | +6 | +4 % | −15 % | 3 | Afterburner III | Kan bara tillverkas |
 
 **Engine II** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Engine I, med 2 000 Thulium, 60 Ship Fragments, 1 Power Core och 4 Velkonite Reinforced Plates. **Engine III** tillverkas där av en Engine II, med 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Var och en behåller förtrollningsnivån och bonusarna hos den motor den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av motorn som ska förbrukas från ditt skepp (och ta ut dess styrraketer ur den): en motor som sitter på ett skepp eller bär styrraketer förbrukas inte.
 
@@ -90,4 +90,4 @@ Nivå I i varje familj säljs för 20 000 krediter. Nivå II till IV tillverkas
 
 ### Köra ifrån utomjordingar {#outrunning-aliens}
 
-Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion med en Engine II och två styrraketer når fart 221,4 med Impulse Thruster I: fortfarande under Crystalys, så det krävs en styrraket tillverkad i Monteringen för att köra ifrån den (230,8 med Impulse Thruster II, 240,3 med III, 243,3 med IV). Momentum Thruster flyger lika snabbt eller lite lägre på det skeppet (221,4 med en Momentum Thruster I; sedan 230,5, 238,4 och 240,7 med II till IV): nivå I i båda familjerna ligger under en Crystalys, och varje nivå som tillverkas i Monteringen ligger över, nivå II med bara 0,8 och 0,5.
+Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion med en Engine II och två styrraketer når fart 219,3 med Impulse Thruster I och 228,6 med II: båda fortfarande under Crystalys, så det krävs en styrraket av nivå III för att köra ifrån den (238,0 med Impulse Thruster III, 241,0 med IV). Momentum Thruster flyger lika snabbt eller lite lägre på det skeppet (219,3 med en Momentum Thruster I; sedan 228,3, 236,1 och 238,4 med II till IV): nivå I och II i båda familjerna ligger under en Crystalys, och nivå III och IV ligger över.

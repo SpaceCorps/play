@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Tahrik -->
 # Tahrik ve hız {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Motorlar {#engines}
 
-Motorlar geminin ana itki kaynağıdır. Bir **yetenek yuvasındaki** motor ise bunun yerine sana özel etki sütunundaki **Afterburner** yeteneğini verir: on saniyelik bir hız patlaması (daha fazla motorla daha uzun) ve kendi başına itki eklemez (bkz. [Yetenekler](/wiki/03-Mechanics/Abilities.md)).
+Motorlar geminin ana itki kaynağıdır. Bir **yetenek yuvasındaki** motor ise bunun yerine sana özel etki sütunundaki **Afterburner** yeteneğini verir: on beş saniyelik bir hız patlaması (daha fazla motorla daha uzun) ve kendi başına itki eklemez (bkz. [Yetenekler](/wiki/03-Mechanics/Abilities.md)).
 
 | Ad | Nadirlik | Temel hız | Hız bonusu % | Kalkan bonusu % | Yuvalar | Özel etki | Maliyet |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Kalitesiz | +2 | +%2 | -%2 | 1 | Afterburner I | 20.000 kredi |
-| **Engine II** | Sıradan | +4 | +%4 | -%8 | 2 | Afterburner II | Yalnızca üretilebilir |
-| **Engine III** | Nadir | +6 | +%5 | -%15 | 3 | Afterburner III | Yalnızca üretilebilir |
+| **Engine II** | Sıradan | +4 | +%3 | -%8 | 2 | Afterburner II | Yalnızca üretilebilir |
+| **Engine III** | Nadir | +6 | +%4 | -%15 | 3 | Afterburner III | Yalnızca üretilebilir |
 
 **Engine II**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Engine I eşyasından üretilir: 2.000 Thulium, 60 Ship Fragment, 1 Power Core ve 4 Velkonite Reinforced Plate gerekir. **Engine III** orada bir Engine II eşyasından üretilir: 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Her biri harcadığı motorun büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce harcayacağın motoru gemiden çıkar (iticilerini de içinden al): takılı olan ya da itici barındıran bir motor harcanmaz.
 
@@ -90,4 +90,4 @@ Her ailenin I. kademesi 20.000 krediye satılır. II. ila IV. kademeler [Montaj�
 
 ### Uzaylıları geride bırakmak {#outrunning-aliens}
 
-Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi, Impulse Thruster I ile 221,4 hızla uçar: hâlâ Crystalys hızının altındadır, bu yüzden onu geride bırakmak için Montaj’da üretilmiş bir itici gerekir (Impulse Thruster II ile 230,8, III ile 240,3, IV ile 243,3). Momentum ailesi o gemide aynı ya da biraz daha düşük hızla uçar (Momentum Thruster I ile 221,4; II ila IV ile sırasıyla 230,5, 238,4 ve 240,7): iki ailenin de I. kademesi Crystalys hızının altında, Montaj’da üretilen her kademe ise üstündedir; II. kademe yalnızca 0,8 ve 0,5 farkla.
+Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi, Impulse Thruster I ile 219,3, II ile 228,6 hızla uçar: ikisi de hâlâ Crystalys hızının altındadır, bu yüzden onu geride bırakmak için III. kademe bir itici gerekir (Impulse Thruster III ile 238,0, IV ile 241,0). Momentum ailesi o gemide aynı ya da biraz daha düşük hızla uçar (Momentum Thruster I ile 219,3; II ila IV ile sırasıyla 228,3, 236,1 ve 238,4): iki ailenin de I. ve II. kademesi Crystalys hızının altında, III. ve IV. kademesi ise üstündedir.

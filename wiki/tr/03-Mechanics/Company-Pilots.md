@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
+<!-- wiki-i18n source: 2d81c36bc4357d49 -->
 <!-- wiki-i18n title: Şirket pilotları -->
 # Şirket pilotları {#company-pilots}
 
@@ -36,6 +36,16 @@ Her şirket, ana sektörlerinde (`M-1` ile `M-4`, `T-1` ile `T-4`, `G-1` ile `G-
 - **Başka bir şirketin pilotları** yok edildiğinde hiçbir şey ödemez (kredi, onur ya da sıralama puanı yok) ve Barış Protokolü sırasında (sezonun ilk üç günü) saldırılamaz.
 - Herhangi bir şirket pilotuna saldırmak [dünyanın](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP kurallarına tabidir: Alpha dünyasında `x-1` ile `x-3` sektörlerinde ve Beta dünyasında `x-1` sektöründe PvP yoktur.
 - **Enkaz**: yok edilen bir şirket pilotu, onu kim ya da ne yok ederse etsin, ne [kargo](/wiki/03-Mechanics/Cargo.md) kutusu ne de parça bırakır: şirket pilotlarını düşürmek malzeme farm etmenin yolu değildir.
+
+## Şirket üssündeki onarım gemileri {#repair-ships-at-the-base}
+
+Her şirket üssünde (her dünyada `M-1`, `T-1` ve `G-1`) şirketin **2 onarım gemisi**, istasyonun güvenli bölgesinin hemen dışında nöbet tutar; adları şirketin etiketiyle verilir, örneğin **[M] Mender** ve **[M] Salve**.
+
+- **Onarım aurası**: her onarım gemisi, kendi şirketinin kendisine **2.000** birim mesafedeki her pilotunun gövdesini, savaşın ortasında da, saniyede **250 gövde puanı** onarır; hiçbir geminin gövdesi azami değerinin üstüne çıkmaz. İkisinin de sana ulaştığı yerde (istasyonun hemen çevresinde) bu saniyede 500 eder. Şirketinin şirket pilotları da onarılır; başka bir şirketin pilotları asla onarılmaz.
+- **Görürsün**: haritada soluk bir halka her birinin ne kadar uzağa ulaştığını gösterir: kendi şirketinin onarım gemilerinin çevresinde yeşil, başka bir şirketinkilerin çevresinde gri. Hedef penceresi ona onarım gemisi der.
+- **Asla ateş etmezler.** Yerlerinde dururlar ve kendi gövdelerini son vuruştan 10 saniye sonra onarmaya başlarlar.
+- **Yok edilebilirler**: saldırgan uzaylılar onların peşine düşer; başka şirketlerin pilotları da, [dünyan](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) ana üste PvP’ye izin veriyorsa (yalnızca Gamma dünyasında `x-1`), Barış Protokolü’nden sonra onları düşürebilir. Her birinin 200.000 gövde puanı ve 100.000 kalkan puanı vardır. Kendi şirketinin onarım gemisini yok etmek, şirket pilotlarından herhangi birinde olduğu gibi **100 onura** mal olur; hiçbiri bir şey ödemez ya da kutu bırakmaz.
+- **2 dakikada geri gelir**: yok edilen bir onarım gemisi 120 saniye sonra sağlam olarak görev yerine döner.
 
 ## Savaş notları {#combat-notes}
 

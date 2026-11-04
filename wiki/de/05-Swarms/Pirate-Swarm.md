@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a99637f071798ec -->
+<!-- wiki-i18n source: 4abd6e42693b5459 -->
 <!-- wiki-i18n title: Pirate-Schwarm -->
 # Pirate-Schwarm {#pirate-swarm}
 
@@ -32,12 +32,12 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 - **Schieß auf den Boss, nicht auf die Scouts.** Die Scouts heilen den Boss, aber die Heilung ist klein gegen seine Hülle, und ein neuer Scout kommt so oft, wie die Liste *Auf einen Blick* sagt: Eine Gruppe, die zuerst die Scouts abschießt, holt sie nie ein, und nur eine sehr große Gruppe kann sie beseitigen und braucht dann trotzdem länger für den Boss als eine, die sie in Ruhe gelassen hat. Die Scouts kosten dich Zeit, sie entscheiden den Kampf nicht.
 - **Lenke die Scouts ab.** Ein Scout heilt nur, solange er in Reichweite des Bosses ist; ein Scout, der dir aus der Reichweite folgt, heilt nichts, und eine Ostirion ist schneller als ein Scout.
 - **Bleib in Bewegung.** Die Rakete des Bosses ist gerade und ungelenkt: Ein Schiff, das in Bewegung bleibt, weicht ihr aus, eines, das stillsteht, wird getroffen.
-- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition verlieren auf `x-3` auch dann, wenn sich die Treffer verteilen, und auf `x-2` ebenfalls; vier schaffen ihn in Alpha in etwa vier Minuten. Mit x4-Munition reichen auch auf `x-3` drei (etwa zweieinhalb Minuten). Fünf schaffen ihn in etwa drei Minuten, wenn sich die Treffer verteilen, und in etwa fünf, wenn ein Pilot das ganze Feuer abbekommt, und verlieren dann vier Schiffe: Eine Gruppe, bei der ein Pilot das ganze Feuer abbekommt, braucht fünf. In Beta braucht es sechs Piloten und in Gamma acht, bei verteilten Treffern (der Boss ist dort größer und seine Scouts heilen mehr). Eine Ostirion allein schafft es nicht, eine Paragon allein auch nicht: Zwei Paragons schaffen es. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
+- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition verlieren auf `x-3` auch dann, wenn sich die Treffer verteilen, und auf `x-2` ebenfalls; vier schaffen ihn in Alpha in etwa vier Minuten. Mit x4-Munition reichen auch auf `x-3` drei (etwa zweieinhalb Minuten). Fünf schaffen ihn in etwa drei Minuten, wenn sich die Treffer verteilen, und in etwa fünf, wenn ein Pilot das ganze Feuer abbekommt, und verlieren dann vier Schiffe: Eine Gruppe, bei der ein Pilot das ganze Feuer abbekommt, braucht fünf. In Beta braucht es sechs Piloten und in Gamma acht, bei verteilten Treffern (der Boss ist dort größer und seine Scouts heilen mehr). In Alpha schafft es eine Ostirion allein auf `x-3` mit x2-Munition nicht, und eine Paragon allein schafft es nur knapp (ihr bleiben nur wenige Prozent ihrer Hülle): Zwei Paragons schaffen es sicher. In Beta und Gamma wird eine einzelne Paragon auf `x-3` zerstört, mit x2- wie mit x4-Munition. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, im selben Sektor.
 
 ## Belohnungen und Beute {#rewards-and-drops}
 
-Der Pirate Boss zahlt für den Kampf, der er ist: Eine Minute Kampf gegen ihn zahlt mehr als eine Minute Kampf gegen einen Goombah. Die Bezahlung wird nach Schaden unter den Piloten aufgeteilt, die ihn bekämpft haben ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Seine Kiste gehört dem Piloten mit dem meisten Schaden und kann eine **Reinforced Hull Plate**, Raketen und Munition enthalten. Seine Kiste ist etwa zwei Fünftel dessen wert, was der Abschuss selbst zahlt. Die Scouts zahlen wenig und lassen nichts fallen.
+Der Pirate Boss zahlt für den Kampf, der er ist: Eine Minute Kampf gegen ihn zahlt mehr als eine Minute Kampf gegen einen Goombah. Die Bezahlung wird nach Schaden unter den Piloten aufgeteilt, die ihn bekämpft haben ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Seine Kiste gehört dem Piloten mit dem meisten Schaden und kann eine **Reinforced Hull Plate**, Raketen und Munition enthalten. Seine Kiste ist etwas weniger als die Hälfte dessen wert, was der Abschuss selbst zahlt. Die Scouts zahlen wenig und lassen nichts fallen.
 
 ## Die Werte {#the-numbers}
 
@@ -71,7 +71,7 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50 % | 1 |
 | Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 5–10 |
-| Eines von Advanced Plasma und Siphon Battery, zufällig gewählt | 100 % | 1.000–2.000 |
+| Eines von Advanced Plasma, Siphon Battery und Siphon Battery II, zufällig gewählt | 100 % | 1.000–2.000 |
 
 ### Pirate Scout
 

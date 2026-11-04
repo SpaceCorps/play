@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Vitesse -->
 # Calcul de la vitesse {#speed-calculation}
 
@@ -41,7 +41,7 @@ De plus, la vitesse du moteur est multipliée par l’efficacité de son emplace
 
 Le pourcentage total de bonus de vitesse est la somme de tous les bonus de vitesse des moteurs équipés (et des hybrides), moins les pénalités des boucliers équipés :
 
-- **Bonus de vitesse des moteurs** : les moteurs ajoutent des pourcentages de vitesse positifs (par ex. l’Engine III ajoute `+5%`).
+- **Bonus de vitesse des moteurs** : les moteurs ajoutent des pourcentages de vitesse positifs (par ex. l’Engine III ajoute `+4%`).
 - **Pénalité de vitesse des boucliers** : les boucliers lourds alourdissent votre vaisseau et ajoutent des pourcentages de vitesse négatifs (par ex. le Heavy Shield Core ajoute `-5%` de vitesse).
 - **Pondération selon l’emplacement** : ces bonus et pénalités en pourcentage sont eux aussi pondérés par l’efficacité de l’emplacement où l’objet est équipé. Un bouclier installé sur l’un de vos drones vous ralentit comme un bouclier placé dans un emplacement principal.
 - **Jamais sous zéro** : quel que soit le nombre de boucliers que vous portez, votre vitesse ne descend pas sous 0.

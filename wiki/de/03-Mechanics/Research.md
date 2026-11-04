@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -30,7 +30,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 
 <!-- research-centre:end -->
 
-**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) schließt die Forschung, die gerade läuft, sofort ab, wenn ihre Technologie höchstens 24 Stunden zum Erforschen braucht (135 der 151 Technologien). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die sie noch nicht verbrannt hat, bleibt in deinem Tank, und die nächste Technologie deiner Warteschlange startet sofort.
+**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) schließt die Forschung, die gerade läuft, sofort ab, wenn ihre Technologie höchstens 24 Stunden zum Erforschen braucht (142 der 158 Technologien). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die sie noch nicht verbrannt hat, bleibt in deinem Tank, und die nächste Technologie deiner Warteschlange startet sofort.
 
 **Die Laserverstärker und die letzte Stufe.** Die Damage, Crit und Penetration Amps der Stufen II bis IV werden wie alles andere erforscht. Piloten, die beim Erscheinen der Amp-Linien Amps besaßen oder in Auftrag hatten, erhielten die Technologie jedes dieser Amps und der Stufen darunter. Dreizehn Technologien brauchen eine Technologie eines anderen Baums, die der Dark Matter Plate aus dem Baum Ressourcen, weil die letzte Stufe jeder Aufwertungskette vier Plates und eine Ancient Control Unit verlangt: die Damage, Crit und Penetration Amps der Stufe IV, die Absorption und Capacity Shield Cells der Stufe IV, die Impulse und Momentum Thrusters der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Wer eine davon früher erforscht hat, behält sie und braucht die Technologie der Plate, um ihre Plates herzustellen. Der Baum unten zeichnet dafür keinen Pfeil, aber die Tabelle führt sie auf, und die Karte im Spiel nennt sie ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Was ein Boost mit der Dauer einer Forschung macht, wenn er von ihrem Beginn an l
 | Forschungsdauer | Mit Boost | Boosts für alles | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5.000 |
+| 1 h | 30 min | 1 | 5.000 |
 | 3 h | 1 h 30 min | 1 | 5.000 |
+| 4 h | 2 h | 1 | 5.000 |
 | 6 h | 3 h | 1 | 5.000 |
+| 8 h | 4 h | 1 | 5.000 |
 | 10 h | 5 h | 1 | 5.000 |
 | 1 d | 12 h | 1 | 5.000 |
 | 2 d | 1 d | 1 | 5.000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Lasermunition {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 - **Der Reihe nach.** Jede Stufe braucht die vorherige, und eine höhere Stufe ersetzt die niedrigere: Die Tabelle zeigt die Summe, die jede Stufe gibt, nicht was sie dazulegt.
 - **Effiziente Snacks** (Kabob, Pelmeni, Burger) geben jedem deiner Schiffe mehr Hülle, in beiden Konfigurationen.
 - **Versiegelte Hintertür** erhöht das Tragelimit jeder Rakete, wo auch immer du sie kaufst, baust oder tauschst.
-- **Baggerabbau** erhöht, was du aus jeder Kiste eines [Riesenbaggers](/wiki/03-Mechanics/Giant-Excavator.md) nimmst, Thulium wie Erz.
+- **Baggerabbau** lässt einen [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md), den du startest, in jede Kiste mehr legen, Thulium wie Erz. Es zählt die Forschung des Piloten, der den Lauf startet, und jeder, der die Kisten aufnimmt, bekommt die größere Menge. Das Bedienfeld des Baggers zeigt, wessen Lauf es ist und welchen Anteil er trägt.
 - **Feldtheorie** erhöht den Anteil jedes Treffers, den deine Schilde aufnehmen. Ein Schiff ohne Schild bekommt nichts.
 - **Schlummerndes Wissen** zahlt Wipe-Punkte für jede Stufe, wenn seine Forschung im Zentrum fertig wird, und nach jedem Wipe noch einmal ([Wipe-Punkte verdienen](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Außer der vorherigen Stufe braucht es einen Anteil der übrigen erforschten Technologien (die Pilot-Technologien zählen, die fünf Stufen von „Schlummerndes Wissen“ nicht), egal wie du sie bekommen hast; die Tabelle zeigt jeden Anteil und wie viele Technologien das sind.
 
@@ -372,9 +391,9 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 | Baggerabbau I | +20% Baggerertrag | – | 1 d | 10 | 500.000 | 5.000 |
 | Baggerabbau II | +30% Baggerertrag | Baggerabbau I | 2 d | 20 | 1.500.000 | 15.000 |
 | Baggerabbau III | +40% Baggerertrag | Baggerabbau II | 3 d | 30 | 4.000.000 | 40.000 |
-| Feldtheorie I | +2% Schildabsorption | – | 1 d | 20 | 500.000 | 5.000 |
-| Feldtheorie II | +3% Schildabsorption | Feldtheorie I | 2 d | 40 | 1.500.000 | 15.000 |
-| Feldtheorie III | +5% Schildabsorption | Feldtheorie II | 3 d | 60 | 5.000.000 | 50.000 |
+| Feldtheorie I | +4% Schildabsorption | – | 1 d | 20 | 500.000 | 5.000 |
+| Feldtheorie II | +7% Schildabsorption | Feldtheorie I | 2 d | 40 | 1.500.000 | 15.000 |
+| Feldtheorie III | +10% Schildabsorption | Feldtheorie II | 3 d | 60 | 5.000.000 | 50.000 |
 | Schlummerndes Wissen I | +50 Wipe-Punkte | 20 % der übrigen Technologien (30 von 146) | 1 h | – | – | – |
 | Schlummerndes Wissen II | +50 Wipe-Punkte | Schlummerndes Wissen I; 40 % der übrigen Technologien (59 von 146) | 1 h | – | – | – |
 | Schlummerndes Wissen III | +50 Wipe-Punkte | Schlummerndes Wissen II; 60 % der übrigen Technologien (88 von 146) | 1 h | – | – | – |
@@ -460,18 +479,25 @@ Die Familie Pilot der Forschungsansicht enthält Technologien, die kein Rezept s
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36.000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86.400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36.000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 min | 1.800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 h | 14.400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 h | 3.600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 h | 10.800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28.800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3.600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21.600 | – |
 
 Die Klassen nach Forschungsdauer:
 
 | Klasse | Forschungsdauer | Technologien | Nacheinander | Wissenschaft | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 10 | 5 h | 18.000 | 0 |
-| B | 3 h bis 6 h | 20 | 2 d 21 h | 248.400 | 0 |
-| C | 10 h | 17 | 7 d 2 h | 612.000 | 95 |
+| A | 30 min bis 1 h | 13 | 7 h 30 min | 27.000 | 0 |
+| B | 3 h bis 6 h | 23 | 3 d 10 h | 295.200 | 0 |
+| C | 8 h bis 10 h | 18 | 7 d 10 h | 640.800 | 95 |
 | D | 1 d bis 2 d | 23 | 28 d | 2.419.200 | 319 |
-| Alle |  | 70 | 38 d 4 h | 3.297.600 | 414 |
+| Alle |  | 77 | 39 d 3 h 30 min | 3.382.200 | 414 |
 
-Nacheinander erforscht, dauert der ganze Baum 38 d 4 h. Mit ständig laufendem Boost sind es 19 d 2 h, das sind 20 Boosts und 100.000 Thulium; die Wissenschaft bleibt dieselbe.
+Nacheinander erforscht, dauert der ganze Baum 39 d 3 h 30 min. Mit ständig laufendem Boost sind es 19 d 13 h 45 min, das sind 20 Boosts und 100.000 Thulium; die Wissenschaft bleibt dieselbe.
 
 <!-- research-technologies:end -->
 

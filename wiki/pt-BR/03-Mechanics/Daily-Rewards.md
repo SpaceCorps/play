@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Recompensas diárias -->
 # Recompensas diárias {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; recompensa diária; recompensas diárias; login diário; calendário; baú; prêmio da temporada; lembrança; projeto; sequência -->
 
-Cada temporada tem um **calendário de recompensas diárias**: um presente pequeno para cada dia da temporada. Na estação, aperte **Coletar** e o presente do dia é seu. Quanto mais dias você coleta, mais você ganha: quatro **baús** chegam com 7, 14, 21 e 28 dias coletados e, nos últimos três dias da temporada, você pode levar o **prêmio da temporada**. Um dia perdido custa o presente daquele dia e mais nada. O calendário fica no **Painel** (o cartão **Recompensas diárias**) e em **Temporada e perfil › Calendário**.
+Cada temporada tem um **calendário de recompensas diárias**: um presente para cada dia da temporada, sempre de munição ou foguetes. Na estação, aperte **Coletar** e o presente do dia é seu. Quanto mais dias você coleta, mais você ganha: quatro **baús** chegam com 7, 14, 21 e 28 dias coletados e, nos últimos três dias da temporada, você pode levar o **prêmio da temporada**. Um dia perdido custa o presente daquele dia e mais nada. O calendário fica no **Painel** (o cartão **Recompensas diárias**) e em **Temporada e perfil › Calendário**.
 
 ## Em um minuto {#in-one-minute}
 
@@ -15,7 +15,7 @@ Cada temporada tem um **calendário de recompensas diárias**: um presente peque
 - **4 baús**, com 7, 14, 21 e 28 dias coletados.
 - **Um prêmio da temporada** nos últimos três dias da temporada: um visual de lembrança com 10 dias coletados e o projeto de um design de nave com 20.
 - **Um calendário novo a cada reset.** Você vê todos os presentes da temporada desde o dia 1.
-- **Pequeno de propósito.** Os 29 dias juntos valem mais ou menos algumas horas de caça, espalhadas ao longo de uma temporada.
+- **Munição e foguetes.** Todo presente diário é um dos dois tipos mais fortes de munição de laser ou um foguete Épico ([Os presentes](#the-gifts)). Os baús e o prêmio da temporada ficam à parte.
 
 ## O dia {#the-day}
 
@@ -33,7 +33,7 @@ O cartão e a aba dizem os dois quando a próxima recompensa abre **no seu próp
 
 - **O dia 1 é curto.** A temporada começa no Reset, no meio de um dia UTC, então o bloco 1 fica aberto desde então até o fim desse dia, mais a tolerância.
 - **O dia 29 é longo.** O último bloco fica aberto até a contagem regressiva do Reset começar, o que pode ser mais de 24 horas depois de ele abrir. Com a contagem regressiva em andamento, nada pode ser coletado até a nova temporada começar.
-- **Os administradores podem mover o dia da temporada.** O calendário acompanha: os dias pulados contam como perdidos para todos, e um bloco que você já coletou continua coletado.
+- **Os administradores podem mover o dia da temporada.** O calendário acompanha. Se o dia avança, os dias pulados contam como perdidos para todos, e um bloco que você já coletou continua coletado. Se o dia recua, os dias são jogados de novo: os blocos dos dias a partir do novo dia que você tinha coletado podem ser coletados outra vez, cada um quando o relógio chega ao seu dia, e cada um paga o seu presente de novo. O que você já recebeu não é retomado, e os blocos anteriores ao novo dia, seus baús e seu prêmio da temporada ficam como estão (um baú que você já recebeu não vem uma segunda vez).
 
 ## Os blocos {#the-tiles}
 
@@ -85,22 +85,19 @@ O prêmio da temporada tem duas etapas. Você as coleta nos **últimos três dia
 
 ## Os presentes {#the-gifts}
 
-O presente de um dia é pequeno. É um destes:
+O presente de um dia é **munição ou foguetes** e mais nada. É um destes seis itens:
 
-- **Munição e foguetes**, em pilhas modestas.
-- **Materiais, placas e consumíveis**, entre eles Forge kits (os materiais de uma etapa da Forja).
-- **Boosters** de algumas horas. Um presente de booster soma as suas horas aos seus [boosters](/wiki/06-Items/Boosters.md#active-boosters).
-- **Créditos e Thulium**, em pequenas quantidades.
-- **Alguns itens especiais** (Workforce Contract, Forger's Seal): nunca mais de 4 blocos de uma temporada.
+- **Ultra Core** (3,0x) e **Experimental Fusion Core** (4,0x), os dois tipos mais fortes de [munição de laser](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** e **Scatter III**, os [foguetes](/wiki/06-Items/Rockets.md#the-twelve-rockets) Épicos.
 
-Esta página não cita nenhum presente de nenhuma temporada, porque o calendário é diferente a cada reset. A aba Calendário mostra os presentes desta temporada. Presente é presente: os itens do calendário não têm a etiqueta **Vendável** ([Itens vendáveis](/wiki/03-Mechanics/Inventory.md#marketable-items)) e não podem ser anunciados no [Leilão](/wiki/03-Mechanics/Auction.md).
+O tamanho da pilha muda de um dia para o outro, e o calendário é diferente a cada reset. A aba Calendário mostra os presentes desta temporada. Os baús e o prêmio da temporada não são presentes diários e continuam como estão. Presente é presente: os itens do calendário não têm a etiqueta **Vendável** ([Itens vendáveis](/wiki/03-Mechanics/Inventory.md#marketable-items)) e não podem ser anunciados no [Leilão](/wiki/03-Mechanics/Auction.md).
 
 ## O Reset {#the-wipe}
 
 Uma temporada nova é um calendário novo. No [Reset](/wiki/03-Mechanics/Wipe-Timeline.md), o antigo fecha e o novo abre com os seus próprios 29 presentes, e a sua contagem recomeça em 0. O reset não leva nada do que você coletou, exceto o que leva de todos os itens:
 
-- **Apagados:** os presentes que são itens (munição, foguetes, materiais, placas, consumíveis) são apagados pelo reset se não estiverem no seu [Cache de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). O Calendário marca esse presente com um aviso.
-- **Mantidos:** boosters, créditos, Thulium, itens especiais, visuais, tecnologias (um projeto) e contêineres.
+- **Mantidos:** a munição e os foguetes do calendário passam pelo reset por conta própria, até um limite para cada tipo ([Munição e foguetes](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Também são mantidos boosters, créditos, Thulium, visuais, tecnologias (um projeto) e contêineres.
+- **Apagados:** qualquer outro item que você tenha, como as Dark Matter Plates que substituem um projeto que você já conhece, é apagado pelo reset se não estiver no seu [Cache de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Os últimos quatro dias (26 a 29) só dão presentes que são mantidos**, então um presente da última semana nunca se perde por causa do reset.
 
 ## Quem chega tarde e calendários tardios {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Uma temporada nova é um calendário novo. No [Reset](/wiki/03-Mechanics/Wipe-Ti
 - **O Premium muda alguma coisa?** Não. O Premium não dá blocos extras nem presentes melhores, e o calendário não dá dias de Premium.
 - **Preciso de um clã?** Não. O calendário usa o mesmo dia da linha diária dos clãs, mas é só seu.
 - **Existe limite de nível?** Não. Todo piloto pode coletar, a partir do nível 1.
-- **O que acontece no reset?** Você recebe um calendário novo e recomeça em 0 dias. Os presentes que são itens são apagados se não estiverem no Cache de Transporte; o resto é mantido ([O Reset](#the-wipe)).
+- **O que acontece no reset?** Você recebe um calendário novo e recomeça em 0 dias. A munição e os foguetes do calendário passam pelo reset, até os seus limites; qualquer outro item é apagado se não estiver no Cache de Transporte, e o resto é mantido ([O Reset](#the-wipe)).
 
 ## Bom saber {#good-to-know}
 

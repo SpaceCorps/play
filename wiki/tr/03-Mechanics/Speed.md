@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Hız -->
 # Hız hesabı {#speed-calculation}
 
@@ -41,7 +41,7 @@ Ayrıca motor hızı, yuvasının verimliliğiyle çarpılır (Çekirdek: %100, 
 
 Toplam hız bonusu yüzdesi, takılı motorlardan (ve hibritlerden) gelen tüm hız bonuslarının toplamından, takılı kalkanların cezalarının çıkarılmasıyla bulunur:
 
-- **Motor hız bonusu**: motorlar olumlu hız yüzdeleri ekler (örneğin Engine III `+5%` ekler).
+- **Motor hız bonusu**: motorlar olumlu hız yüzdeleri ekler (örneğin Engine III `+4%` ekler).
 - **Kalkan hız cezası**: ağır kalkanlar geminin ağırlığını artırır ve olumsuz hız yüzdeleri ekler (örneğin Heavy Shield Core `-5%` hız ekler).
 - **Yuva ölçeklemesi**: bu yüzde bonusları ve cezaları da eşyanın takıldığı yuvanın verimliliğiyle ölçeklenir. Dronlarından birindeki bir kalkan, seni bir çekirdek yuvasındaki kalkan gibi yavaşlatır.
 - **Sıfırın altına inmez**: kaç kalkan taşırsan taşı, hızın 0’ın altına düşmez.

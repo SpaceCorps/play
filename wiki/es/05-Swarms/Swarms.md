@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
-Un **enjambre** es un grupo de alienígenas que recorre una parte de la galaxia bajo un **líder**: un jefe mucho más fuerte que cualquier alienígena a su alrededor, con **seguidores** que lo protegen y, en dos de los enjambres, lo curan. Hay tres, y cada uno tiene su propio artículo:
+Un **enjambre** es un grupo de alienígenas que recorre una parte de la galaxia bajo un **líder**: un jefe mucho más fuerte que cualquier alienígena a su alrededor, con **seguidores** que lo protegen y, en la mayoría de los enjambres, lo curan. Hay siete, y cada uno tiene su propio artículo:
 
 - [Enjambre Seeker](/wiki/05-Swarms/Seeker-Swarm.md): el Boss Seeker y sus Seeker Slaves, el enjambre más pequeño, en los sectores donde vuelan los pilotos nuevos.
 - [Enjambre Pirate](/wiki/05-Swarms/Pirate-Swarm.md): el Pirate Boss y sus Pirate Scouts, un combate largo para un grupo.
 - [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md): la Dormant Force y sus Dormant Pulses, el enjambre más fuerte, con el botín más rico.
+- [Enjambre Phantasm](/wiki/05-Swarms/Phantasm-Swarm.md): el Boss Phantasm y sus Phantasm Guards, un Phantasm enorme para un grupo de pilotos de nivel medio, en los sectores exteriores de las corporaciones.
+- [Enjambre Goombah](/wiki/05-Swarms/Goombah-Swarm.md): el Boss Goombah y sus Goombah Guards, un Goombah enorme para un grupo de los pilotos más fuertes, en los mismos sectores.
+- [Enjambre Crystalys](/wiki/05-Swarms/Crystalys-Swarm.md): el Boss Crystalys y sus Crystalys Guards, el alienígena más duro, más grande, en tres de los sectores de peligro.
+- [Enjambre Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md): el Tesseract, una nave nodriza enorme que suelta Facets mientras lo impactan, para un grupo muy grande, en el sector de peligro `DS-4`.
 
 Sus naves son **alienígenas de tipos propios**: tienen nombres propios y contadores de derribos propios, y ninguna cuenta como un Seeker, un Phantasm ni ningún otro alienígena. Una nave de enjambre tiene la forma de la nave en la que se basa, con un tinte propio y su nombre encima; el Boss Seeker es un Seeker mucho más grande.
 
 Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su propio guardián para el último paso de su línea diaria, y solo ese clan puede dañarlo: ningún piloto se topa con uno vagando por un sector, y las tablas de abajo no los incluyen. A un guardián se le paga por el daño, como al jefe de un enjambre, pero su botín no es una caja para quien más daño causó: cada piloto que causó el 5 % del daño o más recibe una [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes) propia. Consulta [Clanes](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## Los tres enjambres {#the-three-swarms}
+## Los enjambres {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su prop
 | [**Enjambre Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | Los sectores `x-2` y `x-3` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Pirate Boss** | Hasta 5 × Pirate Scout, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
 | [**Enjambre Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | Los sectores de peligro `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando de uno a otro | Uno en cada mundo | **Dormant Force** | 2 × Dormant Pulse, que vuelan con el líder | 1 h después de que destruyan a todo el enjambre, en un sector de peligro al azar. Desde el día 11 de la temporada: 30 min, en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), y cada nave paga ×2 |
 | [**Enjambre Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | Los sectores `x-1` y `x-2` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Seeker** | Hasta 4 × Seeker Slave, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
+| [**Enjambre Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Los sectores `x-3` y `x-4` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Phantasm** | Hasta 4 × Phantasm Guard, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
+| [**Enjambre Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Los sectores `x-3` y `x-4` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Goombah** | Hasta 4 × Goombah Guard, uno nuevo cada 10 s | 5 min después de que destruyan al líder, en el mismo sector |
+| [**Enjambre Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Los sectores de peligro `DS-1`, `DS-2`, `DS-3` | Uno en cada uno de esos sectores, 3 en cada mundo | **Boss Crystalys** | Hasta 3 × Crystalys Guard, uno nuevo cada 10 s | 30 min después de que destruyan al líder, en el mismo sector |
+| [**Enjambre Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | El sector de peligro `DS-4` | Uno en cada mundo | **Tesseract** | Hasta 50 × Facet, 10 más cada 5 s mientras el líder recibe impactos | 30 min después de que destruyan al líder, en el mismo sector |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ El mundo escala un enjambre como escala a todos los alienígenas ([Mundos](/wiki
 
 ## Qué se les avisa a los pilotos {#what-the-pilots-are-told}
 
-Los enjambres Seeker y Pirate avisan a los pilotos de su propio sector cuando aparece un jefe y cuando es destruido. El enjambre Dormant avisa a todo su mundo, y está marcado en los mapas de los sectores de peligro y en el mapa galáctico, para que los pilotos puedan encontrarlo. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El derribo de un jefe también tiene una línea en el registro de bajas que nombra al piloto al que se le acredita. La lista *De un vistazo* de cada artículo dice a quién se avisa.
+Los enjambres Seeker, Pirate, Phantasm, Goombah, Crystalys y Tesseract avisan a los pilotos de su propio sector cuando aparece un jefe y cuando es destruido. El enjambre Dormant avisa a todo su mundo, y está marcado en los mapas de los sectores de peligro y en el mapa galáctico, para que los pilotos puedan encontrarlo. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El derribo de un jefe también tiene una línea en el registro de bajas que nombra al piloto al que se le acredita. La lista *De un vistazo* de cada artículo dice a quién se avisa.
 
 ## Combatir a un enjambre {#fighting-a-swarm}
 
-- **Los líderes nunca empiezan un combate.** Un líder merodea hasta que un piloto lo impacta, entonces responde, y las naves de su enjambre cercanas a él se suman al combate contra el primer piloto que lo impactó (la distancia está en las reglas de arriba). Los Pirate Scouts son la excepción: atacan a cualquier piloto que se les acerque. Un líder nunca repara su casco por sí solo, así que el daño que le hiciste se queda en él a menos que sus seguidores lo curen; su escudo se recarga como el de cualquier alienígena.
+- **Los líderes nunca empiezan un combate.** Un líder merodea hasta que un piloto lo impacta, entonces responde, y las naves de su enjambre cercanas a él se suman al combate contra el primer piloto que lo impactó (la distancia está en las reglas de arriba). Los Pirate Scouts son la excepción: atacan a cualquier piloto que se les acerque. Un líder nunca repara su casco por sí solo, así que el daño que le hiciste se queda en él a menos que sus seguidores lo curen; su escudo se recarga como el de cualquier alienígena. Solo el Tesseract es distinto: no tiene arma, repara por sí solo su casco y su escudo en cuanto nadie lo ha dañado durante unos segundos, y sus Facets cazan al piloto que más daño ha causado, no al primero que lo impactó.
 - **Las naves de enjambre solo combaten contra pilotos.** No disparan a los alienígenas y los alienígenas no les disparan a ellas, y los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) las ignoran: no cazan una nave de enjambre ni acuden en tu ayuda contra una.
 - **Cohetes.** El Pirate Boss, la Dormant Force y las Pulses disparan cohetes **rectos**, [cohetes Rivet](/wiki/06-Items/Rockets.md), contra el piloto que los atacó. Una nave que no deja de moverse los esquiva; una que se queda quieta recibe el impacto.
-- **El tamaño de los combates.** El enjambre Seeker es para dos pilotos, el Pirate para un grupo pequeño y el Dormant para un grupo grande de las naves más fuertes; los mundos más altos piden más pilotos, como con cualquier alienígena.
+- **El tamaño de los combates.** El enjambre Seeker es para dos pilotos, los enjambres Pirate y Phantasm para un grupo pequeño, el Goombah para un grupo de las naves más fuertes, el Crystalys y el Dormant para un grupo grande de ellas, el Tesseract para uno muy grande; los mundos más altos piden más pilotos, como con cualquier alienígena.
 
 ## Qué llevar {#what-to-bring}
 
@@ -80,8 +88,8 @@ Un alienígena normal paga al piloto que lo impactó primero ([Combate](/wiki/03
 
 - **La paga se reparte según el daño.** Cada piloto que causó al menos la parte indicada en las reglas de arriba cobra, en proporción al daño causado: los créditos, el Thulium, la XP y el honor del derribo se reparten entre ellos. Un piloto por debajo de esa parte no cobra nada.
 - **La caja de carga es para el piloto que más daño causó.** Es suya (y de su clan) durante 30 segundos, como con cualquier alienígena, y después puede cogerla cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tiene su propio recuento de daño y su propia caja.
-- **Los seguidores pagan como siempre**: los Pirate Scouts y los Seeker Slaves pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
-- **La paga de un jefe está hecha para superar a los alienígenas de su entorno.** Un minuto de combate contra un Pirate Boss paga más que un minuto de combate contra un Goombah, y el enjambre Dormant paga todavía más; el Boss Seeker paga exactamente diez Seekers.
+- **Los seguidores pagan como siempre**: los Pirate Scouts, los Seeker Slaves y los Guards de los enjambres Phantasm, Goombah y Crystalys pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
+- **La paga de un jefe está hecha para superar a los alienígenas de su entorno.** Un minuto de combate contra un Pirate Boss, un Boss Phantasm o un Boss Goombah paga más que un minuto contra un Goombah, y un minuto contra el enjambre Dormant o un Boss Crystalys paga más que un minuto contra un Crystalys; el Boss Seeker paga exactamente diez Seekers.
 - **Los alienígenas del Dormant Swamp** (el Slumbering Void, la Inert Mass y el Unwakened) se pagan como un jefe, según el daño, y suman puntos PvE a tu clasificación; sus cifras están en [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de derribos y suma puntos PvE a tu clasificación:
@@ -97,6 +105,14 @@ Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de d
 | **Dormant Pulse** | Enjambre Dormant | 11 |
 | **Boss Seeker** | Enjambre Seeker | 5 |
 | **Seeker Slave** | Enjambre Seeker | 1 |
+| **Boss Phantasm** | Enjambre Phantasm | 8 |
+| **Phantasm Guard** | Enjambre Phantasm | 1 |
+| **Boss Goombah** | Enjambre Goombah | 14 |
+| **Goombah Guard** | Enjambre Goombah | 3 |
+| **Boss Crystalys** | Enjambre Crystalys | 21 |
+| **Crystalys Guard** | Enjambre Crystalys | 6 |
+| **Tesseract** | Enjambre Tesseract | 42 |
+| **Facet** | Enjambre Tesseract | 0 |
 
 <!-- swarms-points:end -->
 

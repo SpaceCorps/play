@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Antrieb -->
 # Antrieb & Tempo {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Triebwerke {#engines}
 
-Triebwerke sind die wichtigste Schubquelle deines Schiffs. Ein Triebwerk in einem **Fähigkeits-Slot** gibt dir stattdessen den **Afterburner** aus der Spalte Spezialeffekt, einen Temposchub für zehn Sekunden (länger mit mehr Triebwerken), und bringt selbst keinen Schub (siehe [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)).
+Triebwerke sind die wichtigste Schubquelle deines Schiffs. Ein Triebwerk in einem **Fähigkeits-Slot** gibt dir stattdessen den **Afterburner** aus der Spalte Spezialeffekt, einen Temposchub für fünfzehn Sekunden (länger mit mehr Triebwerken), und bringt selbst keinen Schub (siehe [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)).
 
 | Name | Seltenheit | Grundtempo | Tempobonus % | Schildbonus % | Slots | Spezialeffekt | Kosten |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Minderwertig | +2 | +2 % | -2 % | 1 | Afterburner I | 20.000 Credits |
-| **Engine II** | Gewöhnlich | +4 | +4 % | -8 % | 2 | Afterburner II | Nur herstellbar |
-| **Engine III** | Selten | +6 | +5 % | -15 % | 3 | Afterburner III | Nur herstellbar |
+| **Engine II** | Gewöhnlich | +4 | +3 % | -8 % | 2 | Afterburner II | Nur herstellbar |
+| **Engine III** | Selten | +6 | +4 % | -15 % | 3 | Afterburner III | Nur herstellbar |
 
 Das **Engine II** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Engine I hergestellt, mit 2.000 Thulium, 60 Ship Fragments, 1 Power Core und 4 Velkonite Reinforced Plates. Das **Engine III** wird dort aus einem Engine II hergestellt, mit 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit und 4 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Jedes behält die Verzauberungsstufe und die Boni des Triebwerks, das es verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm das Triebwerk, das verbraucht wird, zuerst von deinem Schiff (und seine Schubdüsen aus ihm): Ein Triebwerk, das ausgerüstet ist oder Schubdüsen enthält, wird nicht verbraucht.
 
@@ -90,4 +90,4 @@ Stufe I jeder Familie wird für 20.000 Credits verkauft. Die Stufen II bis IV we
 
 ### Aliens abhängen {#outrunning-aliens}
 
-Die Aliens fliegen mit 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) und 230 (Crystalys). Eine Ostirion mit einem Engine II und zwei Schubdüsen fliegt mit 221,4 mit Impulse Thruster I: noch unter dem Crystalys, es braucht also eine in der Montage hergestellte Schubdüse, um ihn abzuhängen (230,8 mit Impulse Thruster II, 240,3 mit III, 243,3 mit IV). Die Momentum Thrusters fliegen auf diesem Schiff gleich schnell oder etwas niedriger (221,4 mit einem Momentum Thruster I, dann 230,5, 238,4 und 240,7 mit II bis IV): Stufe I beider Familien liegt unter einem Crystalys, jede in der Montage hergestellte Stufe darüber, Stufe II nur um 0,8 und 0,5.
+Die Aliens fliegen mit 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) und 230 (Crystalys). Eine Ostirion mit einem Engine II und zwei Schubdüsen fliegt mit 219,3 mit Impulse Thruster I und mit 228,6 mit II: beide noch unter dem Crystalys, es braucht also eine Schubdüse der Stufe III, um ihn abzuhängen (238,0 mit Impulse Thruster III, 241,0 mit IV). Die Momentum Thrusters fliegen auf diesem Schiff gleich schnell oder etwas niedriger (219,3 mit einem Momentum Thruster I, dann 228,3, 236,1 und 238,4 mit II bis IV): Stufe I und II beider Familien liegen unter einem Crystalys, Stufe III und IV darüber.

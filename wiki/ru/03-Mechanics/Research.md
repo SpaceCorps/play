@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (135 из 151 технологии). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (142 из 158 технологий). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
 
 **Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует четыре пластины и одну Ancient Control Unit: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@
 | Время исследования | С бустом | Бустов на всё исследование | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 мин | 15 мин | 1 | 5 000 |
+| 1 ч | 30 мин | 1 | 5 000 |
 | 3 ч | 1 ч 30 мин | 1 | 5 000 |
+| 4 ч | 2 ч | 1 | 5 000 |
 | 6 ч | 3 ч | 1 | 5 000 |
+| 8 ч | 4 ч | 1 | 5 000 |
 | 10 ч | 5 ч | 1 | 5 000 |
 | 1 д | 12 ч | 1 | 5 000 |
 | 2 д | 1 д | 1 | 5 000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Лазерные боеприпасы {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 - **По цепочке.** Каждый уровень требует предыдущий, а высокий уровень заменяет низкий: в таблице указан итог, который даёт каждый уровень, а не его прибавка.
 - **Эффективные перекусы** (Кебаб, Пельмени, Бургер) добавляют корпус всем вашим кораблям в обеих конфигурациях.
 - **Запечатанный чёрный ход** повышает лимит ракет в трюме для каждого вида, где бы вы их ни покупали, ни создавали и ни обменивали.
-- **Добыча экскаватором** увеличивает то, что вы берёте из каждого ящика [гигантского экскаватора](/wiki/03-Mechanics/Giant-Excavator.md), и Thulium, и руды.
+- **Добыча экскаватором** заставляет [гигантский экскаватор](/wiki/03-Mechanics/Giant-Excavator.md), который запускаете вы, класть в каждый ящик больше, и Thulium, и руды. Считается исследование пилота, запустившего добычу, а всякий, кто подбирает ящики, получает увеличенное количество. Пульт управления экскаватора показывает, чей это запуск и какую долю он несёт.
 - **Теория поля** увеличивает долю каждого попадания, которую поглощают ваши щиты. Кораблю без щита это ничего не даёт.
 - **Дремлющее знание** выплачивает очки вайпа за каждый уровень, когда его исследование завершается в Центре, и снова после каждого вайпа ([Как заработать очки вайпа](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Помимо предыдущего уровня, оно требует доли остальных изученных технологий (технологии семейства Пилот считаются, пять уровней «Дремлющего знания» — нет), как бы вы их ни получили; в таблице указана каждая доля и сколько это технологий.
 
@@ -372,9 +391,9 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 | Добыча экскаватором I | +20% к добыче экскаватора | – | 1 д | 10 | 500 000 | 5 000 |
 | Добыча экскаватором II | +30% к добыче экскаватора | Добыча экскаватором I | 2 д | 20 | 1 500 000 | 15 000 |
 | Добыча экскаватором III | +40% к добыче экскаватора | Добыча экскаватором II | 3 д | 30 | 4 000 000 | 40 000 |
-| Теория поля I | +2% к поглощению щита | – | 1 д | 20 | 500 000 | 5 000 |
-| Теория поля II | +3% к поглощению щита | Теория поля I | 2 д | 40 | 1 500 000 | 15 000 |
-| Теория поля III | +5% к поглощению щита | Теория поля II | 3 д | 60 | 5 000 000 | 50 000 |
+| Теория поля I | +4% к поглощению щита | – | 1 д | 20 | 500 000 | 5 000 |
+| Теория поля II | +7% к поглощению щита | Теория поля I | 2 д | 40 | 1 500 000 | 15 000 |
+| Теория поля III | +10% к поглощению щита | Теория поля II | 3 д | 60 | 5 000 000 | 50 000 |
 | Дремлющее знание I | +50 очков вайпа | 20% остальных технологий (30 из 146) | 1 ч | – | – | – |
 | Дремлющее знание II | +50 очков вайпа | Дремлющее знание I; 40% остальных технологий (59 из 146) | 1 ч | – | – | – |
 | Дремлющее знание III | +50 очков вайпа | Дремлющее знание II; 60% остальных технологий (88 из 146) | 1 ч | – | – | – |
@@ -460,18 +479,25 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 ч | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 д | 86 400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 ч | 36 000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 мин | 1 800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 ч | 14 400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 ч | 3 600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 ч | 10 800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 ч | 28 800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 ч | 3 600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 ч | 21 600 | – |
 
 Классы по времени исследования:
 
 | Класс | Время исследования | Технологий | Одна за другой | Наука | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 мин | 10 | 5 ч | 18 000 | 0 |
-| B | от 3 ч до 6 ч | 20 | 2 д 21 ч | 248 400 | 0 |
-| C | 10 ч | 17 | 7 д 2 ч | 612 000 | 95 |
+| A | от 30 мин до 1 ч | 13 | 7 ч 30 мин | 27 000 | 0 |
+| B | от 3 ч до 6 ч | 23 | 3 д 10 ч | 295 200 | 0 |
+| C | от 8 ч до 10 ч | 18 | 7 д 10 ч | 640 800 | 95 |
 | D | от 1 д до 2 д | 23 | 28 д | 2 419 200 | 319 |
-| Все |  | 70 | 38 д 4 ч | 3 297 600 | 414 |
+| Все |  | 77 | 39 д 3 ч 30 мин | 3 382 200 | 414 |
 
-Если исследовать одну за другой, всё дерево займёт 38 д 4 ч. С бустом, включённым всё время, — 19 д 2 ч; для этого нужно бустов: 20, Thulium: 100 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 39 д 3 ч 30 мин. С бустом, включённым всё время, — 19 д 13 ч 45 мин; для этого нужно бустов: 20, Thulium: 100 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 

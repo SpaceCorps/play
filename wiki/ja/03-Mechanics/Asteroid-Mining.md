@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7a78278d44e3602 -->
+<!-- wiki-i18n source: 88f92b2c05ff7193 -->
 <!-- wiki-i18n title: 小惑星採掘 -->
 # 小惑星採掘 {#asteroid-mining}
 
@@ -58,7 +58,7 @@
 - **壊す量。** 頂点の Mole（レベル20のレジェンダリー）は、最良のロケット Rivet III で狙うパイロットと少なくとも同じ数の小惑星を1時間に壊し、低いグレードとレベルはそれより少なくなります（[表](/wiki/03-Mechanics/Pets.md#how-strong)）。弾薬もロケットも使いません。レーザー、ロケット、アンプ、ブースター、編成、P.E.T. のダメージはパルスを変えず、装甲はロケットと同じようにパルスを鈍らせます。
 - **どの小惑星か。** 射程内で最も近く、ほかの小惑星や Energetic Wall に覆われていないものです。ロケットでダメージを与えられる小惑星はすべて対象で、Motherlode も、残骸（Cache Pod、Scrap Hulk、Derelict Hulk、Derelict Cruiser）も、ほかのパイロットがダメージを与えた小惑星も含まれます。その場合、チャンクはこれまでどおり与えたダメージで分けられます。背景に漂って見える残骸は飾りにすぎず、小惑星ではありません。セーフゾーンの中、ステルス中、ジャンプ中、艦が破壊されている間は働きません。
 - **独自の上限なし。** Mole は飛んでいる限り毎時間、キーに触れていてもいなくても働き（操作のない艦は標的です）、1日の上限で止まることはありません。専用の上限も、ワールドの上限もありません。残るのは全員に共通する制約、つまり届く範囲にある小惑星と、それが再び育つ速さです。Mole が壊した破片も、あなたの破片と同じく全額が支払われます。
-- **働くのは1体だけ。** Station にいる Mole のうち働くのは最も強い1体だけで、ほかはブーストを与えるだけです。
+- **すべての Mole が働く。** 0.4.27 から、Station にいる Mole はすべて、それぞれのドローンとビームで働くので、届く範囲に十分な小惑星がある限り、Mole が多いほど多くの小惑星を壊します。0.5.0 からは、あなたの Mole たちが同じ小惑星で働くこともできます。それぞれが最も近い小惑星を選ぶので、届く範囲に小惑星が1つしかなければ Mole 5体の全員がそれに取りかかり、より早く壊します。小惑星を壊したパルスより後に届くパルスは失われるので、小さな小惑星は船体の値が示すより少しだけ多くの Mole の働きを要します。
 
 ## ルール {#the-rules}
 
@@ -208,7 +208,7 @@ Alpha、Beta、Gamma の各ワールドには、同じ場所にそれぞれ独�
 
 | 種類 | 船体 | サイズ | ティア | 特性 | 金銭の破片 | 対応ロケット | クレジット | Thulium | 獲得物 | 出現場所 |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66,000 | 中 | 3 | 爆発 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 約14⁠発 | 42,450–70,800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66,000 | 中 | 3 | 爆発 ×1.6 | 2 | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) 約14⁠発 | 42,450–70,800 | 72–168 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1.5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100,000 | 大 | 4 | – | 2 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 約14⁠発 | 62,100–103,500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130,000 | 大 | 4 | – | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 約18⁠発 | 101,400–169,050 | 50%で36–87個 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150,000 | 大 | 5 | 爆発 ×1.6 | 3 | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) 約21⁠発 | 109,650–182,700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -15,7 +15,7 @@ Los extras son los dispositivos que van en las **ranuras de extra** de una nave 
 
 Las Cloaking CPU se venden solo en la tienda. No se pueden fusionar y nada las regala. La **EMP Charge** ya no es un extra: desde la 0.4.21 es un consumible que se lleva en una pila, como un cohete, y no se equipa en ninguna ranura, así que no ocupa ninguna de tus ranuras de extra (consulta [Cohetes](/wiki/06-Items/Rockets.md#emp-charge)). Las dos **Energetic Wall** tampoco son ya extras: desde la 0.4.22 también son consumibles, se llevan en una pila y no van en ninguna ranura (consulta [Energetic Wall](#energetic-wall)).
 
-El **equipo inicial** de un piloto nuevo ya instala dos extras en las dos ranuras de extra de la Protos: una **Base CPU I** (10 usos, un teletransporte a la base de tu corporación) y un **Repair Drone I**. Arrástralos desde el selector de Extras de la barra rápida a una ranura para usarlos. Solo los pilotos nuevos reciben el equipo: quien se alistó antes de la 0.4.10 no lo tiene.
+El **equipo inicial** de un piloto nuevo ya instala dos extras en las dos ranuras de extra de la Protos: una **Base CPU I** (10 usos, un teletransporte a la base de tu corporación) y un **Repair Drone I**. El botón **REP** del Repair Drone I ya está en tu barra rápida, en la ranura 2 (tecla `2`), junto a tu munición en la ranura 1; la Base CPU I la arrastras tú mismo desde el selector de Extras a una ranura. Solo los pilotos nuevos reciben el equipo: quien se alistó antes de la 0.4.10 no lo tiene, y quien se registró antes de la 0.4.27 conserva la barra rápida que tiene.
 
 Otras ocho CPU no se venden: Ensamblaje las fabrica cuando el Centro de investigación del Skylab las ha investigado (consulta [Investigación](/wiki/03-Mechanics/Research.md)). Son la Extra Slots CPU I, II y III, la Jump CPU, la Base CPU I y II, la Auto-Repair CPU y la Auto-Rocket CPU, y [la última sección](#research-cpus) cuenta qué hace cada una. Como la Cloaking CPU, la Jump CPU y las Base CPU son para un momento tranquilo: ninguna de las tres arranca dentro de los 10 segundos posteriores a un disparo tuyo o a un impacto que recibas. Las dos CPU de warp, la Jump CPU y las Base CPU, también se rechazan mientras llevas un objeto de misión («No puedes usar un CPU de warp mientras llevas un objeto de misión.»): consulta [Objetos de misión](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Activa un Repair Drone (REP) y repara el casco hasta que esté completo. Solo empieza tras 10 segundos sin recibir impactos, y cualquier impacto lo apaga. Con varios instalados, trabaja el mejor. Una [Auto-Repair CPU](#auto-repair-cpu) lo vuelve a activar por ti. Las tasas están en [Combate](/wiki/03-Mechanics/Combat.md). Mientras repara, pequeños drones de reparación salen de la nave, la rodean y alcanzan el casco con sus rayos, uno para un Repair Drone I, dos para un II, tres para un III o un IV, y los pilotos cercanos los ven; vuelven a acoplarse cuando la reparación se detiene.
+Activa un Repair Drone (REP) y repara el casco hasta que esté completo. Solo empieza tras 10 segundos sin recibir impactos, y cualquier impacto lo apaga. Con varios instalados, trabaja el mejor. Una [Auto-Repair CPU](#auto-repair-cpu) lo vuelve a activar por ti. Las tasas están en [Combate](/wiki/03-Mechanics/Combat.md). Mientras repara, pequeños drones de reparación salen de la nave, la rodean y alcanzan el casco con sus rayos, uno para un Repair Drone I, dos para un II, tres para un III o un IV, y los pilotos cercanos los ven; vuelven a acoplarse cuando la reparación se detiene. Al pulsar REP para activarlo suena además un suave pulso de reparación, parecido al del Emergency Repair pero algo más grave y más silencioso, y mientras repara, flota sobre tu propia nave, más o menos una vez por segundo, un pequeño número verde con el casco que acaba de reparar (+N), también cuando lo ha activado una Auto-Repair CPU.
 
 ## Cloaking CPU
 

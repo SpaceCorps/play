@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1239db4521af97e8 -->
+<!-- wiki-i18n source: 0a06d961490fa12b -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -11,7 +11,7 @@ Skylab, sana ait yörünge tesisidir. Kredi ve Thulium üreten, cevher çıkaran
 > [!NOTE]
 > **0.4.10’da neler değişti.** Artık her Skylab modülünün seviye seviye kendi üretim, fiyat ve süre tablosu var. Seviyelerin korundu: fark için ne bir ücret alındı ne de bir iade yapıldı. Güncelleme geldiğinde çiftliklerinin ve toplayıcılarının haznelerinde bekleyenler **bir kereliğine, eski oranla** ödendi: kredi ve Thulium hesabına, cevher Kaynak Deposu’na gitti ve hazneler boş olarak yeniden dolmaya başladı.
 >
-> İki kural yeni. **Güneş Paneli yükseltilirken gücünün yalnızca %25 kadarını üretir**; bu yüzden çoğu istasyonda yükseltme bitene kadar her çiftlik ve toplayıcı durur (bkz. [Güneş Paneli modülü](#solar-module) ve [Güneş Paneli yükseltmesini zamanlama](#timing-a-solar-upgrade)). **Kaynak Deposu’nun her cevher için kendi üst sınırı var**: 1. seviyede toplayıcının bir günlük üretimi, 20. seviyede dört günlük.
+> Bir kural yeni. **Kaynak Deposu’nun her cevher için kendi üst sınırı var**: 1. seviyede toplayıcının bir günlük üretimi, 20. seviyede dört günlük.
 
 > [!NOTE]
 > **0.4.15’te neler değişti.** Çekirdeğin 9. seviyeden 10. seviyeye adımı artık **2.000 Thulium** daha pahalı; adım bittiğinde bir **köprü** ve ikinci bir Çekirdek, **Çekirdek 2**, altı yeni modül yuvasıyla ortaya çıkar. Güneş Paneli Çekirdek 2’ye taşınır. İki yeni modül ona bağlanır: **Cephane Yazıcısı** ve **Roket Fabrikası**. Güneş Paneli 7. seviyeden itibaren daha fazla güç de üretir, böylece dolu bir istasyon yine karşılanır. İnşa ettiğin hiçbir şey kaybolmaz: zaten 10. seviyede veya üstünde olan bir Çekirdeğin köprüsü hemen gelir ve hiçbir şey ödemez.
@@ -39,7 +39,7 @@ Skylab, sana ait yörünge tesisidir. Kredi ve Thulium üreten, cevher çıkaran
 - **Çekirdek** tempoyu belirler: hiçbir modül onun seviyesini aşamaz ve kendi yükselişi yaklaşık 16 buçuk gün sürer.
 - **Çekirdek 10. seviyede** bir **köprü**, altı modül yuvası daha olan **Çekirdek 2**’yi kurar; **Cephane Yazıcısı**, **Roket Fabrikası** ve **Cevher Bölmesi** ona bağlanır. 10. seviyeye geçiş 2.000 Thulium daha pahalıdır.
 - **Çekirdek 15. seviyede** ikinci bir köprü **Çekirdek 3**’ü kurar; **Motor Modülü**, **Savunma Modülü**, **Radar Modülü** ve **Trofe Bölmesi** onun yuvalarını alır: bunlarla Skylab evren haritasında uçar ve kendi başına avlanır. 15. seviyeye geçiş 4.000 Thulium daha pahalıdır. [Seferlere bak](#expeditions).
-- **Güneş Paneli yükseltilirken gücünün yalnızca %25 kadarını üretir**; bu yüzden çiftliklerin ve toplayıcıların yükseltme bitene kadar durur. [Planla](#timing-a-solar-upgrade).
+- **Güneş Paneli yükseltilirken gücünün tamamını üretmeye devam eder**; bu yüzden çiftliklerin ve toplayıcıların her Güneş Paneli yükseltmesi boyunca çalışmaya devam eder. [Ayrıntılar](#timing-a-solar-upgrade).
 
 ## Genel bakış {#overview}
 
@@ -128,7 +128,7 @@ Güç, Skylab’ın can damarıdır. Güneş Paneli modülü, diğer her modül�
 - **Önemi**: güç kullanımın ürettiğin gücü aşarsa çiftliklerin ve toplayıcıların kapanır.
 - **Üretilen güç**: N. seviye bir Güneş Paneli, **N. seviyedeki her modüle** yetecek gücü ve yaklaşık onda bir fazlasını üretir: 1. seviyede 255, 7. seviyede 965, 20. seviyede 18.575. 7. seviye Güneş Paneli, 7. seviyedeki bütün bir istasyonu besler (her seviye için bkz. Güç yönetimi).
 - **Fiyat**: Güneş Paneli modülünü inşa etmek **500 kredi ve 50 Thulium** tutar. Yükseltmeleri Dökümhane’ninkilerle aynı fiyatta ve aynı sürededir: 2. seviye için 8.000 kredi + 25 Thulium (5 dakika) ile 20. seviye için 9.000.000 kredi + 10.000 Thulium (24 saat) arasında.
-- **Yükseltme**: Güneş Paneli yükseltilirken mevcut seviyesindeki gücün yalnızca **%25 kadarını** üretir; yeni seviyenin gücü yükseltmenin bittiği andan itibaren gelir. Bundan fazlasını kullanan bir istasyon durur: yükseltme bitene kadar her çiftlik ve toplayıcı üretimi bırakır ve Dökümhane yeni parti başlatmaz. Neredeyse her istasyon için durum budur: istasyon yükseltme boyunca ancak diğer tüm modüller Güneş Paneli’nden en az beş seviye düşükse (Güneş Paneli 10. seviyeden itibaren altı seviye) çalışmaya devam eder. Güneş Paneli yükseltmesini çiftliklerinde bir güç kesintisi gibi planla (bkz. İnşa etme ve yükseltme).
+- **Yükseltme**: Güneş Paneli yükseltilirken mevcut seviyesindeki gücün **tamamını** üretmeye devam eder; yeni seviyenin gücü yükseltmenin bittiği andan itibaren gelir. Bu yüzden bir Güneş Paneli yükseltmesi çiftliklerini ve toplayıcılarını asla durdurmaz, istasyonu güç açığına düşürmez ve Dökümhane son seviyenin 24 saati boyunca bile yeni parti başlatmaya devam eder (bkz. İnşa etme ve yükseltme).
 - **Yeri**: Güneş Paneli istasyonun en ucunda durur: Çekirdek 10. seviyeden itibaren Çekirdek 2’de, 15. seviyeden itibaren Çekirdek 3’te (bkz. [Köprü ve Çekirdek 2](#the-bridge-and-core-2) ve [İkinci köprü ve Çekirdek 3](#the-second-bridge-and-core-3)).
 
 ### Kredi Çiftliği ve Thulium Çiftliği {#credit-farm-and-thulium-farm}
@@ -199,9 +199,9 @@ Dokuzuncu modül kaynakları bilim puanına çevirir ve Montaj’ın yeni bir ş
 
 Cephane Yazıcısı yoktan lazer cephanesi basar, aynı anda tek türden: cevher yok, kredi yok, yalnızca güç. 1’den 20’ye kadar seviyeleri vardır.
 
-- **Üretim**: **x2** (Advanced Plasma) **1. seviyede saatte 100, 20. seviyede 2.000** (her seviyede 100 daha); **x3** (Ultra Core) bunun yarısı, 50’den 1.000’e; **x4** (Experimental Fusion Core) dörtte biri, 25’ten 500’e.
+- **Üretim**: **x2** (Advanced Plasma) **1. seviyede saatte 200, 20. seviyede 4.000** (her seviyede 200 daha); **x3** (Ultra Core) bunun yarısı, 100’den 2.000’e; **x4** (Experimental Fusion Core) dörtte biri, 50’den 1.000’e. 0.4.27’den önce ürettiğinin iki katıdır. 0.5.0’dan beri **x3 ve x4 modları** cephanelerinin araştırmasını gerektirir: **Military Grade Ammo I ve II** (Araştırma Merkezi’nin Laser Ammo ailesi). Birini araştırmadığın sürece modu kilitli görünür ve seçilemez; daha önce o moda ayarlı bir Yazıcı bu arada x2 üretir (hiçbir şey kaybolmaz, araştırma bitince seçim geri gelir). x2 modu ve Roket Fabrikası herkese açıktır.
 - **Mod**: x2, x3 veya x4 modunu kartında ya da sayfasında seçersin. Mod değiştirmek depolanmış saatleri korur ve bundan sonra onları yeni modun hızıyla sayar.
-- **Depo**: bir gün, yani kullanımdaki seviye ve türle 24 saatlik üretim (1. seviyede 2.400 x2, 20. seviyede 48.000). Çevrimdışı süre de sayılır ve dolu bir depo yalnızca durur.
+- **Depo**: bir gün, yani kullanımdaki seviye ve türle 24 saatlik üretim (1. seviyede 4.800 x2, 20. seviyede 96.000). Çevrimdışı süre de sayılır ve dolu bir depo yalnızca durur.
 - **Topla**: tam birimleri **geminin park halindeyken** envanterine aktarır. Cephanenin taşıma sınırı yoktur; bir birimin kesri kalır ve sayılmaya devam eder.
 - **Güç**: 1. seviyede 40, seviye başına %20 artar. Güç kesintisinde çiftlikler ve toplayıcılar gibi durur; tuttukları kalır ve toplanabilir.
 - **İnşa**: 20.000 kredi, 500 Thulium ve 10 Ship Fragment (envanterinden, geminin park halindeyken), yalnızca Çekirdek 2’de. Yükseltmeleri 21.000 kredi + 140 Thulium ile 5.600.000 kredi + 11.000 Thulium arasında tutar ve Dökümhane’ninki kadar sürer: 5 dakikadan 24 saate, toplamda 5 g 13 sa (bkz. aşağıdaki tablolar).
@@ -212,8 +212,8 @@ Cephane Yazıcısı yoktan lazer cephanesi basar, aynı anda tek türden: cevher
 Roket Fabrikası yoktan Mağaza roketleri üretir, aynı anda tek türden. 1’den 20’ye kadar seviyeleri vardır.
 
 - **Ne üretir**: seçtiğin, on iki Mağaza roketinden herhangi biri: Lancet, Rivet, Scatter veya Ember; I, II ve III kademeleri. N.U.K.E. ve N.I.K.E. roketleri asla üretilmez.
-- **Üretim**: III. kademe **1. seviyede saatte 0,5, 20. seviyede 10** (her seviyede 0,5 daha), II. kademe bunun 1,25 katı, I. kademe iki katı. Yalnızca tam roketler sayılır: bir roketin kesri kalır ve sayılmaya devam eder.
-- **Depo**: bir gün, yani kullanımdaki seviye ve roketle 24 saatlik üretim (20. seviyede 240 III. kademe). Çevrimdışı süre de sayılır, dolu depo yalnızca durur ve roket değiştirmek depolanmış saatleri korur.
+- **Üretim**: III. kademe **1. seviyede saatte 1, 20. seviyede 20** (her seviyede 1 daha), II. kademe bunun 1,25 katı, I. kademe iki katı. 0.4.27’den önce ürettiğinin iki katıdır. Yalnızca tam roketler sayılır: bir roketin kesri kalır ve sayılmaya devam eder.
+- **Depo**: bir gün, yani kullanımdaki seviye ve roketle 24 saatlik üretim (20. seviyede 480 III. kademe). Çevrimdışı süre de sayılır, dolu depo yalnızca durur ve roket değiştirmek depolanmış saatleri korur.
 - **Topla**: roketleri **geminin park halindeyken** taşıyabildiğin kadarıyla envanterine aktarır: Mağaza’nın kendi sınırı olarak en fazla 5.000 I. kademe, 2.000 II. kademe ve 500 III. kademe roket. Sığmayanlar Roket Fabrikası’nda kalır.
 - **Güç**: 1. seviyede 24, seviye başına %15 artar. Güç kesintisinde Yazıcı gibi durur.
 - **İnşa**: 20.000 kredi, 500 Thulium ve 15 Ship Fragment (envanterinden, geminin park halindeyken), yalnızca Çekirdek 2’de. Yükseltmeleri Yazıcı’nınkinin dörtte birine mal olur: 5.300 kredi + 35 Thulium ile 1.400.000 kredi + 2.800 Thulium arasında; aynı sürede biter: toplamda 5 g 13 sa.
@@ -333,14 +333,14 @@ Radar Modülü evren haritasının sisini kaldırır (bkz. [Sis ve tarama](#fog-
 Trofe Bölmesi, Skylab’ının öldürmelerinin getirdiklerini sen toplayana kadar saklar. 1’den 20’ye kadar seviyeleri vardır ve teknoloji gerektirmez.
 
 - **Ne tutar**: kredi, Thulium, deneyim, onur ve öldürmelerin ganimeti.
-- **Kapasite**, **ödül puanı** cinsinden sayılır: bir öldürme uzaylısının ödülünü ekler; kredi bölü 200 artı Thulium, ne düşürdüğüne bakılmaksızın (her dünyada Alpha Dünyası’nın rakamları). 1. seviyede 650, 20. seviyede 45.000 puan tutar.
-- **Dolu**: dolu bir Bölme Skylab’ın **ateşi kesmesine** yol açar: sen toplayana kadar hiçbir şey öldürülmez, ödenmez ya da sayılmaz ve hiç cephane harcanmaz (gövde yine de onarılır). Bir mesaj, bir bildirim, istasyon çubuğunda kehribar renkli **Bölme dolu** rozeti, Skylab sayfasında bir uyarı ve kenar çubuğundaki Skylab satırının ipucu bunu söyler.
+- **Kapasite**, **ganimet eşyası** cinsinden sayılır: yalnızca ganimet yer kaplar. Kredi, Thulium, deneyim ve onur, öldürmeler ne kadarını getirirse getirsin hiç yer kaplamaz (0.4.27’den beri; önceden bir öldürmenin ödülü Bölmeyi doldururdu). 1. seviyede 650, 20. seviyede 45.000 eşya tutar. Bir Seeker öldürme başına yaklaşık bir eşya getirir; bu yüzden bir Bölme eskisinden yaklaşık on kat daha yavaş dolar.
+- **Dolu**: dolu bir Bölme Skylab’ın **ateşi kesmesine** yol açar: sen toplayana kadar hiçbir şey öldürülmez, ödenmez ya da sayılmaz ve hiç cephane harcanmaz (gövde yine de onarılır). Bir mesaj, bir bildirim, istasyon çubuğunda kehribar renkli **Bölme dolu** rozeti, Skylab sayfasında bir uyarı ve kenar çubuğundaki Skylab satırının ipucu bunu söyler; dolduğu anda, Skylab yoldayken de.
 - **Topla** Evren penceresinde, geminin park halindeyken yapılır: kredi ve Thulium hesabına, deneyim ve onur pilotuna, ganimet envanterine gider. Aynı anda iki toplama bir kez öder.
 - **Ganimet** her öldürme için uzaylının düşürdüklerinden çekilir; asla Dark Matter, Ancient Control Unit, N.I.K.E. veya N.U.K.E. çıkmaz. **Satılabilir değil**: [pazarda](/wiki/03-Mechanics/Auction.md#marketable-items) satılamaz.
 - **Güç**: 1. seviyede 20, seviye başına %10 artar. Kapatılabilir, ama Skylab yoldayken değil.
 - **İnşa**: 100.000 kredi, 400 Thulium ve 10 Ship Fragment, yalnızca Çekirdek 3’te. Yükseltmeleri 117.500 kredi + 470 Thulium (15 dakika) ile 2.325.000 kredi + 9.300 Thulium (1 g 13 sa) arasında tutar: toplamda 14.722.500 kredi ve 58.890 Thulium, 6 g 8 sa.
 
-| Seviye | Kapasite (puan) | Kredi | Thulium | Süre |
+| Seviye | Kapasite (eşya) | Kredi | Thulium | Süre |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (inşa) | 650 | 100.000 | 400 | – |
 | 2 | 810 | 117.500 | 470 | 15 dk |
@@ -349,15 +349,15 @@ Trofe Bölmesi, Skylab’ının öldürmelerinin getirdiklerini sen toplayana ka
 | 15 | 15.000 | 1.025.000 | 4.100 | 9 sa 14 dk |
 | 20 | 45.000 | 2.325.000 | 9.300 | 1 g 13 sa |
 
-Skylab, Savunma seviyesinin öldürme bütçesinin tamamını kazanırken bir Bölmenin dolması ne kadar sürer (daha küçük bir Bölme daha hızlı, daha küçük bir bütçe daha yavaş dolar):
+Skylab, Savunma seviyesinin öldürme bütçesinin tamamını o zorlukta bir hücrede ve o uzaylıların getirdiği ganimetle kazanırken bir Bölmenin dolması ne kadar sürer (daha küçük bir Bölme daha hızlı, daha küçük bir bütçe daha yavaş dolar):
 
 | Savunma seviyesi | Bölme 1. seviye | Bölme 5. seviye | Bölme 10. seviye | Bölme 15. seviye | Bölme 20. seviye |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 sa 1 dk | 14 sa 49 dk | 1 g 20 sa | 5 g 19 sa | 17 g 9 sa |
-| 2 | 2 sa 13 dk | 5 sa 28 dk | 16 sa 23 dk | 2 g 3 sa | 6 g 10 sa |
-| 3 | 1 sa 22 dk | 3 sa 22 dk | 10 sa 5 dk | 1 g 8 sa | 3 g 22 sa |
-| 4 | 1 sa 11 dk | 2 sa 55 dk | 8 sa 46 dk | 1 g 3 sa | 3 g 10 sa |
-| 5 | 1 sa 2 dk | 2 sa 32 dk | 7 sa 37 dk | 23 sa 49 dk | 2 g 23 sa |
+| 1 | 2 g 9 sa | 5 g 20 sa | 17 g 13 sa | 54 g 20 sa | 164 g 11 sa |
+| 2 | 21 sa 15 dk | 2 g 4 sa | 6 g 13 sa | 20 g 10 sa | 61 g 7 sa |
+| 3 | 15 sa 13 dk | 1 g 13 sa | 4 g 16 sa | 14 g 15 sa | 43 g 22 sa |
+| 4 | 19 sa 50 dk | 2 g 1 sa | 6 g 3 sa | 19 g 2 sa | 57 g 6 sa |
+| 5 | 12 sa 13 dk | 1 g 6 sa | 3 g 18 sa | 11 g 18 sa | 35 g 6 sa |
 
 ## Ağırlık ve hız {#weight-and-speed}
 
@@ -386,7 +386,7 @@ Her modülün bir ağırlığı vardır, **kütle birimi (MU)** cinsinden, ve da
 En üst seviye 20’dir; yalnızca Araştırma Merkezi (10), Motor ve Savunma Modülleri (5) ve Radar Modülü (3) farklıdır. Tüm istasyon Çekirdek 15. seviyede 2.353 MU, 20. seviyede 2.734 MU çeker.
 
 - **İtki**, gemilerin motor hesabıdır, temel hız olmadan: bir motor temel hızını ve iticilerinin sabit hızını, çarpanlarıyla çarparak ekler; motorlar en iyiden başlayarak sıralanır ve ilk dördü %100, beşincisi %85 sayılır (modül en fazla beş tane taşır); en iyi dört hız bonusu da üstüne eklenir. Motoru olmayan bir istasyonun itkisi yoktur.
-- **Hız**, itkinin istasyonun ağırlığına oranının 60 katıdır, saniyede birim cinsinden; iki komşu hücre arasındaki bir sıçrama 15.000 birimdir. Skylab sayfası, gücün altında “Ağırlık 2.353 MU, hız 7,8 birim/sn, bir sıçrama 32dk sürer” satırını gösterir.
+- **Hız**, itkinin istasyonun ağırlığına oranının 60 katıdır, saniyede birim cinsinden; iki komşu hücre arasındaki bir sıçrama 15.000 birimdir. Skylab sayfası, gücün altında “Ağırlık 2.353 MU, hız 7,5 birim/sn, bir sıçrama 33dk sürer” satırını gösterir.
 - **Kalkışta sabitlenir**: bir seferin hızı yola çıkarken, o andaki ağırlık ve itkiden hesaplanır. Yolda biten bir yükseltme ya da Skylab konuşluyken değiştirdiğin bir motor bir sonraki sefer için geçerlidir.
 
 Her modülü 15. seviyede olan bir istasyon için motorların yaptığı (Motor Modülü motorları taşıyan seviyede):
@@ -394,10 +394,10 @@ Her modülü 15. seviyede olan bir istasyon için motorların yaptığı (Motor 
 | Takılı motorlar | Ağırlık (MU) | İtki | Hız (saniyede birim) | Bir sıçrama | Haritayı geçmek (14 sıçrama) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Motor Modülü 1. seviye) | 2.289 | 2,0 | 0,05 | 3 g 6 sa | 45 g 11 sa |
-| 3 Engine II, her biri 2 Impulse Thruster II ile (3. seviye) | 2.321 | 73,6 | 1,90 | 2 sa 11 dk | 1 g 7 sa |
-| 5 Engine III, her biri 3 Impulse Thruster IV ile (5. seviye) | 2.353 | 305,5 | 7,79 | 32 dk | 7 sa 29 dk |
+| 3 Engine II, her biri 2 Impulse Thruster II ile (3. seviye) | 2.321 | 71,6 | 1,85 | 2 sa 15 dk | 1 g 8 sa |
+| 5 Engine III, her biri 3 Impulse Thruster IV ile (5. seviye) | 2.353 | 295,3 | 7,53 | 33 dk | 7 sa 45 dk |
 
-Çekirdek 20. seviyede istasyon %16 daha ağırdır ve en iyi motorlarla bir sıçrama 37 dakika, haritayı geçmek 8 sa 42 dk sürer.
+Çekirdek 20. seviyede istasyon %16 daha ağırdır ve en iyi motorlarla bir sıçrama 39 dakika, haritayı geçmek 9 sa sürer.
 
 ## Seferler {#expeditions}
 
@@ -529,9 +529,10 @@ Klanındaki pilotlar birbirlerinin Skylab’larının nerede olduğunu görür: 
 - **Süre ve maliyet**: yükseltmeler kredi ve Thulium tutar ve zaman alır; her modülün her seviye için kendi fiyatı ve süresi vardır (sonrakini görmek için **Yükselt** düğmesinin üzerine gel; toplamlar aşağıdadır). Fiyat, yükseltmeyi başlattığında ödenir. Maliyet süreye bağlı değildir. Motor, Savunma ve Radar Modülleri ayrıca Dark Matter Plate ister ve seviyenin teknolojisini gerektirir (bkz. [İkinci köprü ve Çekirdek 3](#the-second-bridge-and-core-3)).
 - **Sayaçlar**: bir yükseltme sunucunun saatiyle işler; bu yüzden sen yokken biter, gerekirse günler sonra. Başlat, çıkış yap, geri gel: Skylab sayfasını açtığında modül yeni seviyesindedir.
 - **Yükseltmeyi hızlandırma**: bir [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) süren bir yükseltmeyi hemen bitirir, **Engineer** olarak tutulan bir [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) ise yükseltmeleri 1 saat boyunca iki kat hızlı ilerletir. İkisi de bir şey geri vermez ya da tahsil etmez: bedel, yükseltme başlarken ödenmişti.
+- **Yükseltmeyi iptal etme**: süren bir yükseltme iptal edilebilir ve **her şeyi** geri alırsın: yükseltmenin aldığı kredi, Thulium ve Dark Matter Plate, başlatırken ödediğin gibi geri gelir; fiyatlar sonradan değişmiş olsa bile. Yalnızca zaman kaybolur. Modül eski haline döner: aynı seviye, aynı anahtar, depoladığı şeyler de korunur (durduğu sürece hiçbir şey üretmedi). Zaten biten bir yükseltme iptal edilemez; oyun bunu söyler ve hiçbir şey almaz.
 - **Yükseltme süreleri**: ilk seviyeler hızlıdır, sonuncular 37 saate kadar sürer, Çekirdeğinki 6 güne kadar (bkz. aşağıdaki tablolar). Her modülün kendi sayacı vardır, bu yüzden birkaçını aynı anda yükseltebilirsin.
-- **Üretim duraklaması**: bir modül yükseltilirken çevrimdışıdır: hiçbir şey üretmez ve güç kullanmaz. Güneş Paneli istisnadır: gücünün dörtte birini üretmeye devam eder (aşağıya bak).
-- **Güneş Paneli yükseltilirken gücünün yalnızca %25 kadarını üretir**: Skylab’ın tüm gücünü Güneş Paneli üretir ve yükseltilirken (son seviye için 24 saat) **mevcut** seviyesindeki gücün dörtte birini üretir; yeni seviyenin gücü yükseltmenin bittiği anda devralır. Dolu bir istasyon, Güneş Paneli’nin kendi seviyesinde ürettiğinin yaklaşık %90’ını kullanır; bu yüzden onun dörtte biri yalnızca Güneş Paneli’nden beş ila altı seviye düşük bir istasyonu taşır. Aksi halde her çiftlik ve toplayıcı tüm yükseltme boyunca durur, depoladıkların kalır ve toplanabilir, Dökümhane de yeni parti başlatmaz. Yükseltilen veya kapalı bir modül güç kullanmaz; bu yüzden çiftlikleri Güneş Paneli ile birlikte yükseltmek fazladan bir şeye mal olmaz ve modülleri kapatmak diğerlerine yer açar; Thulium Çiftliği açık arayla en çok gücü kullanır.
+- **Üretim duraklaması**: bir modül yükseltilirken çevrimdışıdır: hiçbir şey üretmez ve güç kullanmaz. Güneş Paneli istisnadır: mevcut seviyesindeki gücün tamamını üretmeye devam eder (aşağıya bak).
+- **Güneş Paneli yükseltilirken tüm gücünü korur**: Skylab’ın tüm gücünü Güneş Paneli üretir ve yükseltilirken (son seviye için 24 saat) **mevcut** seviyesindeki gücün tamamını üretmeye devam eder; yeni seviyenin gücü yükseltmenin bittiği anda devralır. Böylece çiftlikler ve toplayıcılar üretmeye devam eder, Dökümhane yeni parti başlatmayı sürdürür ve tüm yükseltme boyunca hiçbir şey kaybolmaz. Yükseltilen veya kapalı bir modül güç kullanmaz; bu yüzden çiftlikleri Güneş Paneli ile birlikte yükseltmek fazladan bir şeye mal olmaz ve modülleri kapatmak diğerlerine yer açar; Thulium Çiftliği açık arayla en çok gücü kullanır.
 
 ### Ne kadar tutar {#what-it-costs}
 
@@ -638,7 +639,7 @@ Skylab’ının sınırlı bir güç bütçesi vardır.
 - **Güneş Paneli ayak uydurur**: N. seviye bir Güneş Paneli **N. seviyedeki tüm diğer modüllerin** gücünü (Çekirdek, iki çiftlik, Kaynak Deposu, iki toplayıcı ve Dökümhane; 10. seviyeden itibaren Araştırma Merkezi ve Cevher Bölmesi) ve yaklaşık onda bir fazlasını üretir; bu yüzden modülleri hep 7. seviyede olan bir istasyon 7. seviye Güneş Paneli ister ve onunla karşılanır. Bir seviye düşük Güneş Paneli dolu bir istasyon için yetmez (son sütun); yani Güneş Paneli yine de diğerlerinin ardından yükseltilmek zorundadır. Çekirdek az güç çeker, bu yüzden öne geçebilir: 5. seviye ve üstü Güneş Paneli, Çekirdek hangi seviyede olursa olsun dolu bir istasyonu kendi seviyesinde karşılar. Aşağıdaki tablo ayrıca Cephane Yazıcısı’nı 7. seviyeden, Roket Fabrikası ve Cevher Bölmesi’ni 10. seviyeden, Motor, Savunma ve Radar Modüllerini ve Trofe Bölmesi’ni 11. seviyeden itibaren sayar (bunlar Çekirdek 15. seviyeden itibaren inşa edilir ve Çekirdek Güneş Paneli’nin önüne geçebildiği için dört seviye erken sayılır), her biri en çok kendi en yüksek seviyesinde.
 - **Aktif durum**: gücü yönetmek için çiftlikleri, toplayıcıları ve Dökümhane’yi açıp kapatabilirsin. Çekirdek, Güneş Paneli, Kaynak Deposu ve Araştırma Merkezi her zaman çalışır. Cephane Yazıcısı, Roket Fabrikası ve Cevher Bölmesi de açılıp kapatılabilir; Sefer’in dört modülü de (bir sefer sürerken değil).
 - **Güç kesintisi**: güç kullanımı üretilen gücü aşarsa denge geri gelene kadar tüm çiftlikler ve toplayıcılar üretimi bırakır. Zaten tuttukları kalır ve yine toplayabilirsin. Dökümhane yeni parti başlatmaz, Araştırma Merkezi de yeni araştırma başlatmaz (zaten çalışan bir araştırma sürer). Cephane Yazıcısı, Roket Fabrikası ve Cevher Bölmesi çiftlikler ve toplayıcılar gibi durur. Savunma Modülü hiçbir şeyle savaşmaz, Radar’ın taramaları durur ve hiçbir sefer başlayamaz (yolda olan bir sefer sürer).
-- **Güneş Paneli yükseltmeleri**: Güneş Paneli yükseltilirken gücünün yalnızca dörtte birini üretir; bu yüzden diğer modüller ondan çok aşağıda olmadıkça istasyon güç açığına düşer ve çiftlikler ile toplayıcılar yükseltme bitene kadar durur (bkz. [Güneş Paneli modülü](#solar-module)).
+- **Güneş Paneli yükseltmeleri**: Güneş Paneli yükseltilirken mevcut seviyesindeki gücün tamamını üretmeye devam eder; bu yüzden bir Güneş Paneli yükseltmesi istasyonu asla güç açığına düşürmez (bkz. [Güneş Paneli modülü](#solar-module)).
 
 Her seviyede Güneş Paneli’nin gücü, aynı seviyede diğer modüllerin kullandığına karşı (o seviyedeki her modül, Çekirdek dahil; 10. seviyeden itibaren Araştırma Merkezi ve Cevher Bölmesi; 11. seviyeden itibaren Sefer’in dört modülü):
 
@@ -708,30 +709,29 @@ Skylab’ın büyümesi haftalar alır, bu yüzden biraz planlama karşılığı
 
 ### Güneş Paneli yükseltmesini zamanlama {#timing-a-solar-upgrade}
 
-Güneş Paneli yükseltilirken gücünün dörtte birini üretir ve bir istasyon hemen her zaman bundan fazlasını kullanır. Çiftlikler ve toplayıcılar o zaman tüm yükseltme boyunca durur: tuttukları kalır ama üretecekleri kaybolur. Tablo, her Güneş Paneli adımı için süresini, onun içinden çalışmaya devam eden en büyük istasyonu (her modül aynı seviyede, Çekirdek ve tedarik zinciri dahil; daha küçük bir istasyon biraz daha fazlasına sığar) ve o seviyedeki bir Kredi Çiftliği ile bir Thulium Çiftliği’nin o sürede üreteceğini verir. Örneğin Güneş Paneli 10. seviyeden 11. seviyeye 4 saat sürer ve 10. seviyedeki çiftlikler bu sürede 135.000 kredi ve 1.440 Thulium üretirdi. Tablo ayrıca Cephane Yazıcısı’nı 7. seviyeden, Roket Fabrikası ve Cevher Bölmesi’ni 10. seviyeden, Sefer’in dört modülünü de 15. seviyeden itibaren sayar.
+Güneş Paneli yükseltilirken mevcut seviyesindeki gücün tamamını üretmeye devam eder; bu yüzden istasyonunda hiçbir şey durmaz: çiftlikler, toplayıcılar, Dökümhane ve geri kalan her şey, ne inşa etmiş olursan ol, tüm yükseltme boyunca çalışır. Yalnızca beklersin. Tablo, her Güneş Paneli adımı için süresini ve o seviyedeki bir Kredi Çiftliği ile bir Thulium Çiftliği’nin o sürede ürettiğini verir; bunları bu sürenin tamamında üretmeye devam eder. Örneğin Güneş Paneli 10. seviyeden 11. seviyeye 4 saat sürer ve 10. seviyedeki çiftlikler bu sürede 135.000 kredi ve 1.440 Thulium üretir.
 
-| Güneş Paneli yükseltmesi | Süre | Çalışmaya devam eden istasyon, en çok seviye | Bu sürede Kredi Çiftliği üretir | Bu sürede Thulium Çiftliği üretir |
-| :--- | ---: | ---: | ---: | ---: |
-| 1 → 2 | 5 dk | yok | 188 | 3 |
-| 2 → 3 | 15 dk | yok | 1.125 | 16 |
-| 3 → 4 | 30 dk | yok | 3.375 | 44 |
-| 4 → 5 | 45 dk | yok | 6.750 | 84 |
-| 5 → 6 | 1 sa | yok | 11.250 | 144 |
-| 6 → 7 | 1 sa 15 dk | yok | 19.688 | 230 |
-| 7 → 8 | 1 sa 30 dk | 1 | 30.375 | 336 |
-| 8 → 9 | 2 sa | 2 | 49.500 | 528 |
-| 9 → 10 | 3 sa | 3 | 87.750 | 912 |
-| 10 → 11 | 4 sa | 5 | 135.000 | 1.440 |
-| 11 → 12 | 5 sa | 6 | 202.500 | 2.200 |
-| 12 → 13 | 6 sa | 7 | 297.000 | 3.120 |
-| 13 → 14 | 8 sa | 7 | 468.000 | 4.800 |
-| 14 → 15 | 10 sa | 8 | 675.000 | 6.800 |
-| 15 → 16 | 12 sa | 9 | 918.000 | 9.120 |
-| 16 → 17 | 16 sa | 10 | 1.440.000 | 14.080 |
-| 17 → 18 | 18 sa | 11 | 1.944.000 | 18.000 |
-| 18 → 19 | 20 sa | 12 | 2.610.000 | 22.400 |
-| 19 → 20 | 1 g | 13 | 3.780.000 | 28.800 |
+| Güneş Paneli yükseltmesi | Süre | Bu sürede Kredi Çiftliği üretir | Bu sürede Thulium Çiftliği üretir |
+| :--- | ---: | ---: | ---: |
+| 1 → 2 | 5 dk | 188 | 3 |
+| 2 → 3 | 15 dk | 1.125 | 16 |
+| 3 → 4 | 30 dk | 3.375 | 44 |
+| 4 → 5 | 45 dk | 6.750 | 84 |
+| 5 → 6 | 1 sa | 11.250 | 144 |
+| 6 → 7 | 1 sa 15 dk | 19.688 | 230 |
+| 7 → 8 | 1 sa 30 dk | 30.375 | 336 |
+| 8 → 9 | 2 sa | 49.500 | 528 |
+| 9 → 10 | 3 sa | 87.750 | 912 |
+| 10 → 11 | 4 sa | 135.000 | 1.440 |
+| 11 → 12 | 5 sa | 202.500 | 2.200 |
+| 12 → 13 | 6 sa | 297.000 | 3.120 |
+| 13 → 14 | 8 sa | 468.000 | 4.800 |
+| 14 → 15 | 10 sa | 675.000 | 6.800 |
+| 15 → 16 | 12 sa | 918.000 | 9.120 |
+| 16 → 17 | 16 sa | 1.440.000 | 14.080 |
+| 17 → 18 | 18 sa | 1.944.000 | 18.000 |
+| 18 → 19 | 20 sa | 2.610.000 | 22.400 |
+| 19 → 20 | 1 g | 3.780.000 | 28.800 |
 
-- **Çiftlikleri Güneş Paneli ile birlikte yükselt.** Yükseltilen bir modül zaten hiçbir şey üretmez ve güç kullanmaz; bu yüzden bir çiftliğin duraklama sırasında yükseltmede geçirdiği süre fazladan bir şeye mal olmaz.
-- **Duraklamayı göze alamıyorsan diğer modülleri düşük tut.** Bir istasyon, Güneş Paneli yükseltmesi boyunca ancak diğer tüm modülleri Güneş Paneli’nden en az beş seviye düşükse çalışmaya devam eder (Güneş Paneli 10. seviyeden itibaren altı) ve dolu bir istasyon tablonun gösterdiği gibi biraz daha fazlasını ister.
+- **Güneş Paneli yükseltmesini istediğin zaman başlat.** Sürdüğü sürece istasyonuna hiçbir şeye mal olmaz: duraklama yok, güç kesintisi yok, duran çiftlik yok. Yalnızca yeni seviyenin gücü sayacın bitmesini beklemek zorundadır; bu yüzden Güneş Paneli’ni diğer modüllerinle aynı seviyede tut.
 - **Onsuz idare edebileceğini kapat.** Kapalı bir modül güç kullanmaz; bu yüzden en büyük tüketici olan Thulium Çiftliği’ni (1. seviyede 80, her seviyede %30 daha fazla) kapatmak diğerlerine yer açar.

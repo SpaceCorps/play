@@ -39,12 +39,12 @@ Equip shield cores to generate active defensive barriers, in your ship's generat
 | Name | Rarity | Capacity | Recharge Rate | Absorbance | Shield % | Speed % | Cell Slots | Special Effect | Cost |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Shoddy | 10,000 | 333/s | 45% | +5% | -1% | 1 | Shield Surge I | 20,000 Credits |
-| **Basic Shield Core** | Common | 15,000 | 500/s | 48% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
-| **Heavy Shield Core** | Rare | 25,000 | 833/s | 50% | +20% | -5% | 3 | Shield Surge III | Craftable Only |
+| **Basic Shield Core** | Common | 15,000 | 500/s | 50% | +10% | -3% | 2 | Shield Surge II | 2,000 Thulium |
+| **Heavy Shield Core** | Rare | 25,000 | 833/s | 55% | +20% | -5% | 3 | Shield Surge III | Craftable Only |
 
 The **Heavy Shield Core** is made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from a Basic Shield Core, with 4,000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit and 4 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). It keeps the enchant tier and the buffs of the core it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Take the Basic Shield Core off your ship (and its cells out of it) first: a core that is fitted or holds cells is not used up.
 
-**Absorbance** is the share of each hit your shields take; the hull takes the rest. A shield alone is **45 to 50%**, and its cells add the rest: the best shield with the best cells (a Heavy Shield Core with three Absorption Shield Cell IVs) is **80%**, the most a ship has out of the box. Three permanent boosts add to that: the Shield Absorbance Boost of the Season Store (+0.1 points a level, 100 levels, 25 Wipe Points each), the Forge's absorbance buffs and the Pilot research Field Theory (+2, +3 or +5 points). The sources of Wipe Points (up to 1,090 in a wipe, and they start again at every wipe) buy 43 of those 100 levels (+4.3 points) in the first wipe, which with a fully forged Eternal set is about **95%**, and about **99%** with Field Theory III. The stat is not capped at 100%, though: an attacker's *shield penetration* is taken off it, so what a ship has over 100% is its margin against penetration. See [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+**Absorbance** is the share of each hit your shields take; the hull takes the rest. A shield alone is **45 to 55%**, and its cells add the rest: the best shield with the best cells (a Heavy Shield Core with three Absorption Shield Cell IVs) is **85%**, the most a ship has out of the box. Three permanent boosts add to that: the Shield Absorbance Boost of the Season Store (+0.1 points a level, 100 levels, 25 Wipe Points each), the Forge's absorbance buffs and the Pilot research Field Theory (+4, +7 or +10 points). The sources of Wipe Points (up to 1,105 in a wipe, and they start again at every wipe) buy 44 of those 100 levels (+4.4 points) in the first wipe, which with a fully forged Eternal set is about **100%**, and about **110%** with Field Theory III. The stat is not capped at 100%, though: an attacker's *shield penetration* is taken off it, so what a ship has over 100% is its margin against penetration. See [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -54,9 +54,9 @@ Adaptive cores act as hybrid generators, combining shield and speed capabilities
 
 | Name | Rarity | Shield Bonus % | Speed Bonus % | Slots | Special Effect | Cost |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Shoddy | +4% | +2.4% | 1 | — | 100,000 Credits |
-| **Adaptive Core II** | Common | +6.4% | +3.2% | 2 | — | Craftable Only |
-| **Adaptive Core III** | Rare | +8% | +4% | 3 | — | Craftable Only |
+| **Adaptive Core I** | Shoddy | +4% | +1.2% | 1 | — | 100,000 Credits |
+| **Adaptive Core II** | Common | +6.4% | +1.6% | 2 | — | Craftable Only |
+| **Adaptive Core III** | Rare | +8% | +2% | 3 | — | Craftable Only |
 
 The **Adaptive Core II** is made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Adaptive Core I, with 2,000 Thulium, 60 Ship Fragments, 1 Power Core and 4 Velkonite Reinforced Plates. The **Adaptive Core III** is made there from an Adaptive Core II, with 4,000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit and 4 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Each keeps the enchant tier and the buffs of the core it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Take the core you use up off your ship (and its thrusters and cells out of it) first: a core that is fitted or holds modules is not used up.
 

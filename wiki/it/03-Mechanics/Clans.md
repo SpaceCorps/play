@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -16,8 +16,8 @@ Fondare un clan o entrare in uno ti permette di mettere in comune le risorse, po
 - Il Leader e i Co-leader spendono i punti in tre [potenziamenti](#clan-points-and-boosts) di dieci livelli ciascuno: **Danno** (fino a +5%), **Thulium** (fino a +10%) e **Crediti** (fino a +10%).
 - Un clan che completa ogni linea ha comprato ogni livello al **giorno 12**. I punti, i livelli e il clan stesso finiscono con il reset.
 - Servono almeno **tre membri** che abbiano fatto la loro parte e **un grande equipaggio** per lo scontro con il Custode: dalla 0.4.13 un Custode ha cinque volte lo scafo, lo scudo e il danno laser che aveva, quindi gli equipaggi che prima vincevano, di circa sette piloti, ora perdono ([quale equipaggio serve](#how-big-a-crew)). Un equipaggio troppo piccolo perde lo scontro: il clan tiene allora i **70 punti** delle quattro missioni, ma la linea non è completata e non paga [la tua ricompensa](#the-reward-for-you).
-- Un Custode paga un grosso montepremi, diviso in base ai danni, e **ogni pilota che ha inflitto il 5% dei danni o più riceve una cassa privata** con la sua parte del bottino, che solo lui vede e solo lui può raccogliere ([ricompensa e bottino](#warden-pay-and-loot)). Dalla 0.4.16 la ricompensa è tripla, e finché un Custode è in piedi **ogni minuto arriva un’ondata di alieni della mappa** (ogni 40 secondi per il Wrath Warden III), diretta contro i piloti che hanno colpito il Custode, con un **Crystalys** in ogni ondata quando il Custode ha meno di metà scafo ([ondate](#waves-of-aliens)).
-- La tua nave mostra i potenziamenti che ha nella finestra **Booster**, su una scheda a parte ([dove vederli](#the-three-boosts)).
+- Un Custode paga un grosso montepremi, diviso in base ai danni, e **ogni pilota che ha inflitto il 5% dei danni o più riceve una cassa privata** con la sua parte del bottino, che solo lui vede e solo lui può raccogliere ([ricompensa e bottino](#warden-pay-and-loot)). Dalla 0.4.16 la ricompensa è tripla, e finché un Custode è in piedi **ogni minuto arriva un’ondata di Phantasm, Bulwark e (dal Warden II in su) Goombah** (ogni 40 secondi per il Wrath Warden III), diretta contro i piloti che hanno colpito il Custode, con un **Crystalys** in ogni ondata quando il Custode ha meno di metà scafo ([ondate](#waves-of-aliens)).
+- La tua nave mostra i potenziamenti che ha nella finestra **Booster**, come righe delle categorie che aumentano ([dove vederli](#the-three-boosts)).
 - La linea e i potenziamenti richiedono un gioco della versione 0.4.10 o successiva; la scheda nella finestra Booster, la 0.4.12 o successiva; la pagina del clan, gli avvisi, la finestra dei piloti online, il bonus giornaliero, le richieste di pace, il registro e i clan per mondo, la 0.4.16 o successiva.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Dalla 0.4.22 **ogni Custode va addosso al pilota che lo ha colpito**, come il Wr
 
 ### Ondate di alieni {#waves-of-aliens}
 
-Dalla 0.4.16 un Custode non sta da solo. Dal momento in cui è **armato** (i 90 secondi di riscaldamento non hanno ondate, così l’equipaggio può radunarsi), **ogni 60 secondi** arriva un’**ondata** di alieni normali della mappa su cui si trova, finché il Custode è in piedi. La tabella mostra le ondate di otto dei nove Custodi; le [ondate del Wrath Warden III](#wrath-iii-waves) sono più pesanti. Sotto metà scafo le ondate di un Custode portano anche [un Crystalys](#crystalys-waves).
+Dalla 0.4.16 un Custode non sta da solo. Dal momento in cui è **armato** (i 90 secondi di riscaldamento non hanno ondate, così l’equipaggio può radunarsi), **ogni 60 secondi** arriva un’**ondata** di alieni normali, finché il Custode è in piedi. Dalla 0.5.0 un’ondata è un **mix**: circa metà [Phantasm](/wiki/04-Aliens/Phantasm.md), un quarto [Bulwark](/wiki/04-Aliens/Bulwark.md) e un quarto [Goombah](/wiki/04-Aliens/Goombah.md), su ogni mappa, tranne che un Warden I non chiama alcun Goombah (il primo punto qui sotto); un tempo un’ondata era di un solo tipo di alieno: Phantasm su x-2 e x-3 e Bulwark su x-4. Un’ondata conta tanti alieni quanti prima. La tabella mostra le ondate dei Custodi II e III, tranne il Wrath Warden III, le cui [ondate](#wrath-iii-waves) sono più pesanti. Sotto metà scafo le ondate di un Custode portano anche [un Crystalys](#crystalys-waves).
 
 | Mappa | Un’ondata | Al massimo in vita insieme |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, e fino a 3 Crystalys |
-| x-3 | 10 Phantasm | 30, e fino a 3 Crystalys |
-| x-4 | 10 Bulwark | 30, e fino a 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark e 1 Goombah | 15, e fino a 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwark e 2 Goombah | 30, e fino a 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwark e 2 Goombah | 30, e fino a 3 Crystalys |
 
+- **Un Warden I non chiama alcun Goombah.** Il Custode di un clan Recluta (livello medio sotto 4) manda solo Phantasm e Bulwark, tre Phantasm per ogni Bulwark, in ondate della stessa dimensione: **4 Phantasm e 1 Bulwark su x-2, 8 Phantasm e 2 Bulwark su x-3 e x-4**. Un’ondata intera paga 17.000 crediti in Alpha su x-2 e 34.000 su x-3 e x-4, e 92.000 e 109.000 con il suo Crystalys; il massimo di alieni vivi contemporaneamente è quello della tabella.
 - **Al massimo tre ondate sono in vita.** Un’ondata è in vita finché lo è uno dei suoi alieni. Un’ondata dovuta quando ce ne sono tre in vita viene saltata, non rimandata; la successiva è dovuta un minuto dopo.
-- **Sono gli alieni propri della mappa**, del genere che attacca i piloti, fatti come li fa la mappa: un mondo più forte dà loro più scafo, scudo e danno ([Mondi](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Arrivano a 500–1.200 unità dal Custode, sparsi intorno a lui.
-- **Non fanno parte dello scontro per il Custode.** Non curano nulla, e sparare loro non aggiunge nulla alla tua parte dei danni al Custode. Qualsiasi pilota della mappa può ucciderli. Ognuno paga la ricompensa ordinaria del suo alieno nel tuo mondo e dà punti PvE: un’ondata intera di 5 Phantasm paga 15.000 crediti in Alpha, una di 10 Bulwark 50.000, meno del 2% di quanto paga il Custode più debole.
-- **Si fermano con il Custode.** Quando viene distrutto o si ritira, non ne arrivano più; gli alieni già usciti restano e sono gli alieni normali della mappa. Il riavvio del server li ferma insieme al Custode.
-- **Il clan viene avvisato.** Ogni ondata è annunciata nella scheda Sistema della chat e nel Registro di gioco: «Brood Warden I chiama rinforzi in M-3: 10 Phantasm.»
-- **Arrivano dirette (0.4.20).** Gli alieni di un’ondata arrivano sapendo chi combatte il Custode: vanno contro i piloti che lo hanno colpito, il primo per primo, fin dal momento in cui compaiono, e restano su di loro finché il Custode viene colpito. Un Custode che nessuno combatte manda alieni che vagano e attirano chiunque si avvicini, come prima.
+- **Sono alieni normali**, fatti come li fa la mappa: un mondo più forte dà loro più scafo, scudo e danno ([Mondi](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), qualunque sia la forza propria del Custode. I Bulwark e i Goombah arrivano su ogni mappa, anche in un settore x-2, dove altrimenti non ne vive nessuno. Arrivano a 500–1.200 unità dal Custode, sparsi intorno a lui.
+- **Non fanno parte dello scontro per il Custode.** Non curano nulla, e sparare loro non aggiunge nulla alla tua parte dei danni al Custode. Qualsiasi pilota della mappa può ucciderli. Ognuno paga la ricompensa ordinaria del suo alieno nel tuo mondo e dà punti PvE: un’ondata intera della tabella paga 29.000 crediti in Alpha su x-2 (5 alieni) e 60.000 su x-3 e x-4 (10 alieni), una di un Warden I 17.000 e 34.000, meno del 2% di quanto paga il suo Custode.
+- **Si fermano con il Custode.** Quando viene distrutto o si ritira, non ne arrivano più; gli alieni già usciti restano e sono gli alieni normali della mappa (un tipo che il settore non ha di suo, come i Bulwark e i Goombah di un settore x-2, se ne va cinque minuti dopo il Custode, a meno che i piloti non lo stiano ancora combattendo). Il riavvio del server li ferma insieme al Custode.
+- **Il clan viene avvisato.** Ogni ondata è annunciata nella scheda Sistema della chat e nel Registro di gioco, con una riga per ogni tipo di alieno che contiene: «Brood Warden II chiama rinforzi in M-3: 5 Phantasm.», «Brood Warden II chiama rinforzi in M-3: 3 Bulwark.» e «Brood Warden II chiama rinforzi in M-3: 2 Goombah.» (un Warden I avvisa con due righe, perché non ha Goombah)
+- **Arrivano dirette (0.4.20).** Gli alieni di un’ondata arrivano sapendo chi combatte il Custode: vanno contro i piloti che lo hanno colpito, il primo per primo, fin dal momento in cui compaiono, e restano su di loro finché il Custode viene colpito. Un Custode che nessuno combatte manda alieni che vagano: i Phantasm e i Bulwark attirano chiunque si avvicini, come prima, e un Goombah, che non inizia mai uno scontro, vaga finché qualcuno non gli spara.
 
 #### Il Crystalys di ogni Custode {#crystalys-waves}
 
 Dalla 0.4.22 **ogni Custode** fa ciò che il Wrath Warden III faceva dalla 0.4.20: sotto metà scafo (la soglia in cui un Wrath Warden va in furia) **ogni ondata che manda ha anche un Crystalys**, oltre alla dimensione dell’ondata. Vale per il Brood, il Siege e il Wrath Warden, in tutte e tre le potenze. Sopra metà scafo l’ondata arriva senza, e un Custode riparato sopra la metà manda di nuovo la successiva senza.
 
 - **Il Crystalys** è l’alieno ordinario più pesante del gioco: 256.000 di scafo, 160.000 di scudo, 10.000 di danno a salva da 900 unità, velocità 230 (in un mondo più forte più scafo, scudo e danno). Paga quanto paga ogni Crystalys: **75.000 crediti, 200 Thulium, 12.000 XP e 52 d’onore in Alpha** (il doppio in Beta, il triplo in Gamma), e lascia il suo bottino ordinario. Fa parte della sua ondata: un’ondata è in vita finché lo è il suo Crystalys, quindi un Crystalys lasciato in piedi tiene in vita una delle ondate (tre al massimo, quattro per il Wrath Warden III), e un’ondata dovuta quando ce ne sono in vita il massimo viene saltata.
-- **Sono annunciate in due righe**: «Wrath Warden III chiama rinforzi in M-3: 15 Phantasm.» e «Wrath Warden III chiama rinforzi in M-3: 1 Crystalys.»
-- **Quanto pagano.** Un’intera ondata di 10 Bulwarks paga 50.000 crediti in Alpha, e con il suo Crystalys 125.000: meno del 5% dei 2.700.000 che paga il Custode più debole.
-- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con le ondate e il loro Crystalys, dà questi equipaggi più piccoli con munizioni x2, nell’equipaggiamento della potenza del Custode, in Alpha. Un clan di livello 3 ha 50 membri, uno di livello 5 ne ha 100. Come la tabella di quella sezione, sono calcolati e non misurati, e sono il caso migliore; in Gamma, dove gli alieni delle ondate sono due volte più forti, sono ancora più grandi.
+- **Viene annunciato in una riga a parte**, dopo le righe del mix: «Wrath Warden III chiama rinforzi in M-3: 7 Phantasm.», «…: 4 Bulwark.», «…: 4 Goombah.» e «Wrath Warden III chiama rinforzi in M-3: 1 Crystalys.»
+- **Quanto pagano.** Un’intera ondata di 10 alieni paga 34.000 crediti in Alpha per un Warden I e 60.000 per un Warden II, e con il suo Crystalys 109.000 e 135.000: circa il 4% dei 2.700.000 che paga un Warden I e meno del 4% dei 3.600.000 che paga un Warden II, meno per un Warden III.
+- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con le ondate e il loro Crystalys, dà questi equipaggi più piccoli con munizioni x2, nell’equipaggiamento della potenza del Custode, in Alpha. Un clan di livello 3 ha 50 membri, uno di livello 5 ne ha 100. Dalla 0.5.0 i Bulwark e i Goombah del mix rendono le ondate più dure, ma un Warden I non chiama alcun Goombah, quindi un clan di livello 3 ha abbastanza piloti per ogni Custode su ogni mappa. Come la tabella di quella sezione, sono calcolati e non misurati, e sono il caso migliore; in Gamma, dove gli alieni delle ondate sono due volte più forti, sono ancora più grandi, e su x-3 e x-4 a un clan di livello 3 mancano piloti per alcuni Custodi.
 
 | Custode | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### Le ondate del Wrath Warden III {#wrath-iii-waves}
 
-Dalla 0.4.20 il **Wrath Warden III** porta di più e più spesso: un’ondata ogni **40 secondi**, tre quarti del numero di quell’alieno che la mappa contiene, e fino a **quattro ondate** in vita. Come ogni Custode, aggiunge [un Crystalys](#crystalys-waves) a un’ondata sotto metà scafo.
+Dalla 0.4.20 il **Wrath Warden III** porta di più e più spesso: un’ondata ogni **40 secondi**, di 8–15 alieni nello stesso mix di Phantasm, Bulwark e Goombah, e fino a **quattro ondate** in vita. Come ogni Custode, aggiunge [un Crystalys](#crystalys-waves) a un’ondata sotto metà scafo.
 
 | Mappa | Un’ondata | Al massimo in vita insieme |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, e fino a 4 Crystalys |
-| x-3 | 15 Phantasm | 60, e fino a 4 Crystalys |
-| x-4 | 15 Bulwark | 60, e fino a 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwark e 2 Goombah | 32, e fino a 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwark e 4 Goombah | 60, e fino a 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwark e 4 Goombah | 60, e fino a 4 Crystalys |
 
 - **Al massimo quattro ondate sono in vita.** Un’ondata dovuta quando ne sono in vita quattro viene saltata, come per gli altri Custodi.
-- **Quanto pagano.** Un’intera ondata di 15 Bulwarks paga 75.000 crediti in Alpha, e con il suo Crystalys 150.000: circa il 2% dei 7.200.000 che paga il Custode stesso.
-- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con queste ondate e il Crystalys, dà **32 piloti su x-2, 32 su x-3 e 39 su x-4** con munizioni x2 (26 senza ondate), e 39, 41 e 50 in Gamma, dove gli alieni delle ondate sono due volte più forti. Un clan di livello 3 ha 50 membri, quindi 50 su x-4 in Gamma è tutto ciò che può mandare. Come la tabella di quella sezione, è calcolato e non misurato, ed è il caso migliore.
+- **Quanto pagano.** Un’intera ondata di 15 alieni paga 101.000 crediti in Alpha, e con il suo Crystalys 176.000: circa il 2% dei 7.200.000 che paga il Custode stesso.
+- **Cosa chiedono all’equipaggio.** Il calcolo di [quale equipaggio serve](#how-big-a-crew), con queste ondate e il Crystalys, dà **36 piloti su x-2, 40 su x-3 e 40 su x-4** con munizioni x2 (26 senza ondate), e 46, 52 e 52 in Gamma, dove gli alieni delle ondate sono due volte più forti. Un clan di livello 3 ha 50 membri, quindi su x-3 e x-4 in Gamma non ne può mandare abbastanza; uno di livello 5 ne ha 100. Come la tabella di quella sezione, è calcolato e non misurato, ed è il caso migliore.
 
 ### Quale equipaggio serve {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ La tabella è il caso migliore; in gioco, porta più gente che puoi.
 | :--- | :--- | :--- |
 | 5 piloti | perdono contro ogni Custode; il Custode conserva l’88–96% di scafo e scudo | perdono |
 | 10 piloti | perdono contro ogni Custode; il Custode conserva il 55–86% di scafo e scudo | perdono |
-| 20 piloti | vincono solo contro i Siege Warden I e II, in 7,2–7,3 minuti, perdendo 6 navi, e contro il Brood Warden III, in 3,9 minuti, perdendo 9 navi | perdono |
-| 30 piloti | vincono contro ogni Custode in 2,0–5,2 minuti, perdendo da 3 a 11 navi | vincono solo contro i Siege Warden I e II, in 10,4–10,5 minuti, perdendo 9 navi, e contro il Brood Warden III, in 5,2 minuti, perdendo 13 navi |
+| 20 piloti | vincono solo contro i Siege Warden I e II, in 7,2–7,3 minuti, perdendo 6 navi, e contro il Brood Warden III, in 3,7 minuti, perdendo 8 navi | perdono |
+| 30 piloti | vincono contro ogni Custode in 2,0–5,2 minuti, perdendo da 3 a 11 navi | vincono solo contro i Siege Warden I e II, in 10,4–10,5 minuti, perdendo 9 navi, e contro il Brood Warden III, in 5,1 minuti, perdendo 11 navi |
 
-Nel calcolo il più piccolo equipaggio che vince con munizioni x2 ha **17–26 piloti** (il minimo contro i Siege Warden I e II) e perde **10–18** navi nel farlo; con munizioni x1 ha **26–39** piloti e ne perde 12–27. I laser di un Custode colpiscono con centinaia a raffica alla potenza I (240–645) e con migliaia alla potenza III (9.225–15.450), e i suoi aiutanti si sommano: la nave contro cui combatte cade in 18–55 secondi, poi si volta contro la successiva, quindi anche un equipaggio che vince perde molte navi.
+Nel calcolo il più piccolo equipaggio che vince con munizioni x2 ha **17–26 piloti** (il minimo contro i Siege Warden I e II) e perde **10–17** navi nel farlo; con munizioni x1 ha **26–39** piloti e ne perde 12–25. I laser di un Custode colpiscono con centinaia a raffica alla potenza I (240–645) e con migliaia alla potenza III (9.225–15.450), e i suoi aiutanti si sommano: la nave contro cui combatte cade in 18–55 secondi, poi si volta contro la successiva, quindi anche un equipaggio che vince perde molte navi.
 
 La tabella vale per un equipaggio con l’equipaggiamento della difficoltà propria del Custode. Navi più deboli fanno peggio. Il Custode del **tuo** clan corrisponde sempre alla **tua** difficoltà, che fissano i cinque migliori piloti del clan, quindi portali.
 
@@ -452,7 +453,7 @@ I punti clan appartengono al clan. Ogni fase che il clan completa si aggiunge al
 | **Thulium flotta** | 10 | +1% | +10% | Thulium da abbattimenti e ricompense delle missioni |
 | **Crediti flotta** | 10 | +1% | +10% | Crediti da abbattimenti e ricompense delle missioni |
 
-**Dove vederli.** In volo, la finestra **Booster** elenca i potenziamenti che ha la tua nave su una scheda a parte, **Potenziamenti della flotta**, sotto i booster a tempo: il tag del tuo clan, poi una riga per ogni potenziamento con il suo bonus e il suo livello (Liv. 3/10). Non hanno timer, perché un potenziamento del clan dura finché sei nel clan. Passa il mouse su una riga per vedere su cosa agisce. Un clan che non ha ancora comprato nulla mostra «La tua flotta non ha ancora potenziamenti», e un pilota senza clan non vede la scheda. Li elencano anche la scheda Booster della **Dashboard** e il profilo di un pilota. La scheda mostra ciò che la tua nave applica, come il server lo comunica al gioco, quindi un livello che gli ufficiali hanno appena comprato compare subito. Un gioco precedente alla 0.4.12 applica i potenziamenti e non mostra la scheda.
+**Dove vederli.** In volo, la finestra **Booster** conta i potenziamenti che ha la tua nave insieme ai booster: **Danno flotta** è una riga della categoria **Danno**, **Thulium flotta** una di **Thulium**, **Crediti flotta** una di **Crediti**, e ognuna rientra nel totale della categoria, così il totale è ciò che ottiene la tua nave. Apri una categoria per vedere la riga: il suo bonus e, dove un booster mostra il suo timer, il suo livello (Liv. 3/10), perché un potenziamento del clan non ha timer e dura finché sei nel clan. Passa il mouse sulla riga per vedere su cosa agisce. Un clan che non ha ancora comprato nulla mostra una scheda **Potenziamenti della flotta** con «La tua flotta non ha ancora potenziamenti», e un pilota senza clan non vede la scheda. La scheda Booster della **Dashboard** mostra gli stessi totali sotto i booster attivi, e li elenca anche il profilo di un pilota. I numeri sono ciò che la tua nave applica, come il server li comunica al gioco, quindi un livello che gli ufficiali hanno appena comprato compare subito. Un gioco precedente alla 0.4.12 applica i potenziamenti e non mostra nulla di tutto questo; prima della 0.4.27 i potenziamenti stavano su una scheda a parte e non rientravano nei totali.
 
 ### Prezzi {#boost-prices}
 

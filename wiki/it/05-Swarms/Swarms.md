@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
-Uno **sciame** è un gruppo di alieni che percorre una parte della galassia sotto un **capo**: un boss molto più forte di qualsiasi alieno intorno a lui, con dei **seguaci** che lo proteggono e, in due degli sciami, lo curano. Ce ne sono tre, e ciascuno ha un articolo tutto suo:
+Uno **sciame** è un gruppo di alieni che percorre una parte della galassia sotto un **capo**: un boss molto più forte di qualsiasi alieno intorno a lui, con dei **seguaci** che lo proteggono e, nella maggior parte degli sciami, lo curano. Ce ne sono sette, e ciascuno ha un articolo tutto suo:
 
 - [Sciame Seeker](/wiki/05-Swarms/Seeker-Swarm.md): il Boss Seeker e i suoi Seeker Slave, lo sciame più piccolo, nei settori in cui volano i piloti nuovi.
 - [Sciame Pirate](/wiki/05-Swarms/Pirate-Swarm.md): il Pirate Boss e i suoi Pirate Scout, uno scontro lungo per un gruppo.
 - [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md): la Dormant Force e le sue Dormant Pulse, lo sciame più forte, con il bottino più ricco.
+- [Sciame Phantasm](/wiki/05-Swarms/Phantasm-Swarm.md): il Boss Phantasm e i suoi Phantasm Guard, un enorme Phantasm per un gruppo di piloti di livello medio, nei settori esterni delle corporazioni.
+- [Sciame Goombah](/wiki/05-Swarms/Goombah-Swarm.md): il Boss Goombah e i suoi Goombah Guard, un enorme Goombah per un gruppo dei piloti più forti, negli stessi settori.
+- [Sciame Crystalys](/wiki/05-Swarms/Crystalys-Swarm.md): il Boss Crystalys e i suoi Crystalys Guard, l’alieno più resistente ingrandito, in tre dei settori pericolosi.
+- [Sciame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md): il Tesseract, un’enorme nave madre che rilascia Facet finché viene colpito, per un gruppo molto grande, nel settore pericoloso `DS-4`.
 
 Le loro navi sono **alieni di specie a sé**: hanno nomi propri e contatori di abbattimenti propri, e nessuna conta come un Seeker, un Phantasm o un altro alieno. Una nave di sciame ha la forma della nave su cui è costruita, con una tinta tutta sua e il suo nome sopra; il Boss Seeker è un Seeker molto più grande.
 
 I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Custode per l’ultima fase della sua linea giornaliera, e solo quel clan può danneggiarlo: nessun pilota ne incontra uno che si aggira in un settore, e le tabelle qui sotto non li elencano. Un Custode viene pagato in base ai danni, come il capo di uno sciame, ma il suo bottino non è una cassa per chi ha inflitto più danni: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) tutta sua. Vedi [Clan](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## I tre sciami {#the-three-swarms}
+## Gli sciami {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Cust
 | [**Sciame Pirate**](/wiki/05-Swarms/Pirate-Swarm.md) | I settori `x-2` e `x-3` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Pirate Boss** | Fino a 5 × Pirate Scout, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
 | [**Sciame Dormant**](/wiki/05-Swarms/Dormant-Swarm.md) | I settori pericolosi `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando dall’uno all’altro | Uno in ogni mondo | **Dormant Force** | 2 × Dormant Pulse, che volano con il capo | 1 h dopo la distruzione dell’intero sciame, in un settore pericoloso casuale. Dal giorno 11 della stagione: 30 min, nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e ogni nave paga ×2 |
 | [**Sciame Seeker**](/wiki/05-Swarms/Seeker-Swarm.md) | I settori `x-1` e `x-2` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Seeker** | Fino a 4 × Seeker Slave, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
+| [**Sciame Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | I settori `x-3` e `x-4` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Phantasm** | Fino a 4 × Phantasm Guard, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
+| [**Sciame Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | I settori `x-3` e `x-4` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Goombah** | Fino a 4 × Goombah Guard, uno nuovo ogni 10 s | 5 min dopo la distruzione del capo, nello stesso settore |
+| [**Sciame Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | I settori pericolosi `DS-1`, `DS-2`, `DS-3` | Uno in ciascuno di quei settori, 3 in ogni mondo | **Boss Crystalys** | Fino a 3 × Crystalys Guard, uno nuovo ogni 10 s | 30 min dopo la distruzione del capo, nello stesso settore |
+| [**Sciame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Il settore pericoloso `DS-4` | Uno in ogni mondo | **Tesseract** | Fino a 50 × Facet, altri 10 ogni 5 s finché il capo viene colpito | 30 min dopo la distruzione del capo, nello stesso settore |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ Il mondo scala uno sciame come scala ogni alieno ([Mondi](/wiki/03-Mechanics/Wip
 
 ## Cosa vengono a sapere i piloti {#what-the-pilots-are-told}
 
-Gli sciami Seeker e Pirate avvisano i piloti del loro settore quando compare un boss e quando viene distrutto. Lo sciame Dormant avvisa tutto il suo mondo, ed è segnato sulle mappe dei settori pericolosi e sulla mappa galattica, così i piloti possono trovarlo. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. L’abbattimento di un boss ha anche una riga nel kill feed, che nomina il pilota a cui viene accreditato. L’elenco *In breve* di ogni articolo dice chi viene avvisato.
+Gli sciami Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avvisano i piloti del loro settore quando compare un boss e quando viene distrutto. Lo sciame Dormant avvisa tutto il suo mondo, ed è segnato sulle mappe dei settori pericolosi e sulla mappa galattica, così i piloti possono trovarlo. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. L’abbattimento di un boss ha anche una riga nel kill feed, che nomina il pilota a cui viene accreditato. L’elenco *In breve* di ogni articolo dice chi viene avvisato.
 
 ## Combattere uno sciame {#fighting-a-swarm}
 
-- **I capi non iniziano mai uno scontro.** Un capo vaga finché un pilota non lo colpisce, poi risponde, e le navi del suo sciame vicine a lui si uniscono allo scontro contro il primo pilota che lo ha colpito (la distanza è nelle regole qui sopra). I Pirate Scout sono l’eccezione: attaccano qualsiasi pilota si avvicini. Un capo non ripara mai da solo il suo scafo, quindi il danno che hai inflitto resta su di lui, a meno che i suoi seguaci non lo curino; il suo scudo si ricarica come quello di ogni alieno.
+- **I capi non iniziano mai uno scontro.** Un capo vaga finché un pilota non lo colpisce, poi risponde, e le navi del suo sciame vicine a lui si uniscono allo scontro contro il primo pilota che lo ha colpito (la distanza è nelle regole qui sopra). I Pirate Scout sono l’eccezione: attaccano qualsiasi pilota si avvicini. Un capo non ripara mai da solo il suo scafo, quindi il danno che hai inflitto resta su di lui, a meno che i suoi seguaci non lo curino; il suo scudo si ricarica come quello di ogni alieno. Solo il Tesseract è diverso: non ha armi, ripara da solo scafo e scudo non appena nessuno lo ferisce per qualche secondo, e i suoi Facet danno la caccia al pilota che ha inflitto più danno, non al primo che lo ha colpito.
 - **Le navi di sciame combattono solo i piloti.** Non sparano agli alieni e gli alieni non sparano a loro, e i [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) le ignorano: non danno la caccia a una nave di sciame né vengono in tuo aiuto contro una.
 - **Razzi.** Il Pirate Boss, la Dormant Force e le Pulse sparano razzi **dritti**, i [razzi Rivet](/wiki/06-Items/Rockets.md), al pilota che le ha attaccate. Una nave che resta in movimento li schiva, una ferma viene colpita.
-- **La taglia degli scontri.** Lo sciame Seeker è per due piloti, lo sciame Pirate per un piccolo gruppo, lo sciame Dormant per un grande gruppo delle navi più forti; i mondi più alti richiedono più piloti, come per ogni alieno.
+- **La taglia degli scontri.** Lo sciame Seeker è per due piloti, gli sciami Pirate e Phantasm per un piccolo gruppo, lo sciame Goombah per un gruppo delle navi più forti, gli sciami Crystalys e Dormant per un grande gruppo di esse, lo sciame Tesseract per uno molto grande; i mondi più alti richiedono più piloti, come per ogni alieno.
 
 ## Cosa portare {#what-to-bring}
 
@@ -80,8 +88,8 @@ Un alieno normale paga il pilota che lo ha colpito per primo ([Combattimento](/w
 
 - **La ricompensa si divide in base al danno.** Ogni pilota che ha inflitto almeno la quota indicata nelle regole qui sopra viene pagato, in proporzione al danno inflitto: crediti, Thulium, XP e onore dell’abbattimento si dividono tra loro. Un pilota sotto la quota non riceve nulla.
 - **La cassa di carico va al pilota che ha inflitto più danno.** È sua (e del suo clan) per 30 secondi, come per ogni alieno, poi chiunque può prenderla ([Carico](/wiki/03-Mechanics/Cargo.md)). Ogni nave Dormant ha il suo conteggio del danno e la sua cassa.
-- **I seguaci pagano come al solito**: i Pirate Scout e i Seeker Slave pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
-- **La ricompensa di un boss è fatta per battere gli alieni attorno a lui.** Un minuto di scontro con un Pirate Boss paga più di un minuto di scontro con un Goombah, e lo sciame Dormant paga ancora di più; il Boss Seeker paga esattamente dieci Seeker.
+- **I seguaci pagano come al solito**: i Pirate Scout, i Seeker Slave e i Guard degli sciami Phantasm, Goombah e Crystalys pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
+- **La ricompensa di un boss è fatta per battere gli alieni attorno a lui.** Un minuto di scontro con un Pirate Boss, un Boss Phantasm o un Boss Goombah paga più di un minuto di scontro con un Goombah, e un minuto con lo sciame Dormant o con un Boss Crystalys paga più di un minuto con un Crystalys; il Boss Seeker paga esattamente dieci Seeker.
 - **Gli alieni del Dormant Swamp** (lo Slumbering Void, l’Inert Mass e l’Unwakened) vengono pagati come un boss, in base al danno, e aggiungono punti PvE alla tua classifica; i loro numeri sono in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Ogni abbattimento viene contato con il nome proprio della nave nelle tue statistiche degli abbattimenti e aggiunge punti PvE alla tua classifica:
@@ -97,6 +105,14 @@ Ogni abbattimento viene contato con il nome proprio della nave nelle tue statist
 | **Dormant Pulse** | Sciame Dormant | 11 |
 | **Boss Seeker** | Sciame Seeker | 5 |
 | **Seeker Slave** | Sciame Seeker | 1 |
+| **Boss Phantasm** | Sciame Phantasm | 8 |
+| **Phantasm Guard** | Sciame Phantasm | 1 |
+| **Boss Goombah** | Sciame Goombah | 14 |
+| **Goombah Guard** | Sciame Goombah | 3 |
+| **Boss Crystalys** | Sciame Crystalys | 21 |
+| **Crystalys Guard** | Sciame Crystalys | 6 |
+| **Tesseract** | Sciame Tesseract | 42 |
+| **Facet** | Sciame Tesseract | 0 |
 
 <!-- swarms-points:end -->
 

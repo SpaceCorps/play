@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6dd11115bbd66cbd -->
+<!-- wiki-i18n source: e84709a6ef07590a -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -55,7 +55,7 @@ Allt nedan är ditt efter wipen.
 * **Dina wipepoäng och dina permanenta buffar** ([butiken](#the-permanent-buff-store)).
 * **Erfarenhet, nivå och heder.**
 * **Krediter upp till 5 000 000 000 och Thulium upp till 10 000 000.** Det som ligger över går förlorat: se [taken](#the-caps).
-* **Dina uppdrag.** Slutförda och pågående uppdrag finns kvar.
+* **Dina uppdrag.** Slutförda och pågående uppdrag finns kvar. De slutförda kan du göra om för deras fulla belöning (en Upprepning som fortfarande pågår vid wipen slängs).
 * **Ditt utseende** (skinn, auror och avgaseffekter), som inte heller är föremål ([Kosmetik](/wiki/06-Items/Cosmetics.md)).
 * **Det som ligger i ditt transportförråd**, se nedan.
 
@@ -207,7 +207,7 @@ Så fungerar världarna:
 
 ## Framsteg över säsonger (permanenta buffar) {#cross-season-progression-permanent-buffs-}
 
-Förutom belöningarna för din grad bygger ditt spelande upp permanent styrka som ingen wipe tar ifrån dig. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**, som du spenderar på permanenta buffar, och källorna till wipepoäng börjar om vid varje wipe, så du kan tjäna dem varje säsong. Dina egna [uppdrag](/wiki/03-Mechanics/Quests.md), slutförda och pågående, följer med: varje uppdrag kan göras en gång per pilot, för alltid, utom de nivåuppdrag som uppdateringen 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)).
+Förutom belöningarna för din grad bygger ditt spelande upp permanent styrka som ingen wipe tar ifrån dig. Att besegra utomjordingar och slutföra uppdrag ger **wipepoäng (WP)**, som du spenderar på permanenta buffar, och källorna till wipepoäng börjar om vid varje wipe, så du kan tjäna dem varje säsong. Dina egna [uppdrag](/wiki/03-Mechanics/Quests.md), slutförda och pågående, följer med: varje uppdrag kan göras en gång per pilot, för alltid, utom de nivåuppdrag som uppdateringen 0.4.10 gjorde om: 64 av dem erbjuds en gång till ([Uppdrag](/wiki/03-Mechanics/Quests.md#reworked-missions)). Efter en wipe kan du [upprepa](/wiki/03-Mechanics/Quests.md#repeating-missions) de slutförda för deras fulla belöning.
 
 **Klaner och grader.** Wipen upplöser varje klan, med dess Flottans kassa, inlägg, logg, avtal, poäng och bonusnivåer, så varje säsong är ett nytt lopp om att grunda en klan och fylla dess bonusar; krediterna som en klan redan betalat ut till dig finns kvar, och det gör din donationsgräns också ([Klaner](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)). Ledare och vice ledare: betala ut Flottans kassa innan nedräkningen tar slut. Din grad för säsongen hamnar i din historik och dina rankingpoäng börjar om, så varje säsong är en ny klättring på din koncerns lista ([Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe)).
 
@@ -221,7 +221,7 @@ Du kan spendera dina intjänade WP på permanenta buffar som följer med över a
 * **Honor Boost**: +0,1 % erhållen heder per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
 * **Hitpoints Boost**: +0,1 % maximala HP per nivå (max 50 % / 500 nivåer) - *Kostnad: 15 WP*
 * **Shield Capacity Boost**: +0,1 % maximala sköldar (sköldens **kapacitet**) per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
-* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 090 wipepoäng som källorna betalar i en wipe köper 43 (+4,3 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 090 i en wipe och din grad lägger till 5 till 400) skulle 80 % (det bästa rakt ur lådan) bli 90 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 94 % till 96 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
+* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 105 wipepoäng som källorna betalar i en wipe köper 44 (+4,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 105 i en wipe och din grad lägger till 5 till 400) skulle 85 % (det bästa rakt ur lådan) bli 95 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 99 % till 102 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
 * **Luck Boost**: +0,1 % chans till byte från utomjordingar per nivå (max 10 % / 100 nivåer) - *Kostnad: 15 WP*
 
 ### Tjäna wipepoäng {#earning-wipe-points}
@@ -240,8 +240,8 @@ Wipepoäng kommer från milstolpar som du själv hämtar ut, i spelet under **S�
 
 Bara nedskjutningar du får betalt för räknas (se [Strid](/wiki/03-Mechanics/Combat.md)). En milstolpe betalar när den är hel: 99 Seeker betalar ingenting, den 100:e betalar 1 WP, och nedskjutningarna efter räknas mot den 200:e. De fem utomjordingarna tillsammans betalar 750 wipepoäng per wipe.
 
-**Uppdrag.** Det första uppdraget du slutför ger 5 WP, därefter ger vart 5:e (det 5:e, 10:e, 15:e och så vidare, upp till det 85:e) 5 WP till, 90 WP sammanlagt. Bara nivåuppdragen räknas (88 sammanlagt, inte Station-uppdragen eller Utmaningslinjen, se [Uppdrag](/wiki/03-Mechanics/Quests.md)), och ett omgjort nivåuppdrag som du gör om räknas inte en andra gång. Dina uppdrag förblir slutförda genom wipen, så direkt efter den **kan de 90 WP hämtas ut igen**.
+**Uppdrag.** Det första uppdraget du slutför ger 5 WP, därefter ger vart 5:e (det 5:e, 10:e, 15:e och så vidare, upp till det 100:e) 5 WP till, 105 WP sammanlagt. Bara nivåuppdragen räknas (88 sammanlagt, inte Station-uppdragen eller Utmaningslinjen, se [Uppdrag](/wiki/03-Mechanics/Quests.md)), och ett omgjort nivåuppdrag som du gör om räknas inte en andra gång. De 88, gjorda en gång, ger 90 WP. Dina uppdrag förblir slutförda genom wipen, så direkt efter den **kan de 90 WP hämtas ut igen**. En [Upprepning](/wiki/03-Mechanics/Quests.md#repeating-missions) av ett nivåuppdrag räknas som en första avklaring, en gång per uppdrag och säsong, upp till det 100:e uppdraget: den som har alla 88 får 12 Upprepningar räknade och vinner 15 WP på dem.
 
 **Dormant Knowledge.** Utöver milstolparna betalar de fem teknikerna Dormant Knowledge i [Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies) 50 WP var, 250 sammanlagt. En nivå betalar när dess forskning är klar, och efter varje wipe **kan en nivå du har forskat fram hämtas ut igen** under WP-källor. En teknik som en administratör ger betalar ingenting.
 
-**Sammanlagt** betalar källorna upp till **1 090 wipepoäng** i en wipe: 750 för nedskjutningarna, 90 för uppdragen och 250 för Dormant Knowledge. Din grad betalar mer vid wipen ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)).
+**Sammanlagt** betalar källorna upp till **1 105 wipepoäng** i en wipe: 750 för nedskjutningarna, 105 för uppdragen och 250 för Dormant Knowledge. Din grad betalar mer vid wipen ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

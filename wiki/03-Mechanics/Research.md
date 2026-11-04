@@ -28,7 +28,7 @@ This page has the whole technology tree with the time each technology takes, the
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (135 of the 151 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (142 of the 158 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
 
 **The laser amps and the last tier.** The Damage, Crit and Penetration Amps of tiers II to IV are researched crafts like the rest. Pilots who held or had queued amps when the amp families came received the technology of each of those amps and of the tiers below them. Thirteen technologies need a technology of another tree, the Dark Matter Plate's of the Resources tree, because the last tier of every upgrade chain asks for four plates and an Ancient Control Unit: the tier IV Damage, Crit and Penetration Amps, the tier IV Absorption and Capacity Shield Cells, the tier IV Impulse and Momentum Thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. A pilot who researched one of them earlier keeps it, and needs the plate's technology to craft its plates. The tree below draws no arrow for it, but the table lists it and the card in the game names it ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -93,8 +93,11 @@ What a boost does to the time of a research, boosted from its start:
 | Research time | With the boost | Boosts for all of it | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5,000 |
+| 1 h | 30 min | 1 | 5,000 |
 | 3 h | 1 h 30 min | 1 | 5,000 |
+| 4 h | 2 h | 1 | 5,000 |
 | 6 h | 3 h | 1 | 5,000 |
+| 8 h | 4 h | 1 | 5,000 |
 | 10 h | 5 h | 1 | 5,000 |
 | 1 d | 12 h | 1 | 5,000 |
 | 2 d | 1 d | 1 | 5,000 |
@@ -325,6 +328,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Laser Ammo {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -350,7 +369,7 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 - **In series.** Every level needs the level before it, and a higher level replaces the lower one: the table shows the total each level gives, not what it adds.
 - **Efficient Snacks** (Kabob, Pelmeni, Burger) add hull to every ship you own, in both configurations.
 - **Sealed Backdoor** raises the carry limit of every rocket, wherever you buy, make or trade it.
-- **Excavator Mining** makes a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) that you start lay more in every box, Thulium and ore alike. It is the research of the pilot who starts the run that counts, and everyone who picks the boxes up gets the larger amount.
+- **Excavator Mining** makes a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) that you start lay more in every box, Thulium and ore alike. It is the research of the pilot who starts the run that counts, and everyone who picks the boxes up gets the larger amount. The excavator's panel shows whose run it is and which share it carries.
 - **Field Theory** raises the share of every hit that your shields take. A ship with no shield gets nothing.
 - **Dormant Knowledge** pays Wipe Points for each level when its research finishes in the Centre, and again after every wipe ([Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
 
@@ -370,9 +389,9 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 | Excavator Mining I | +20% excavator output | – | 1 d | 10 | 500,000 | 5,000 |
 | Excavator Mining II | +30% excavator output | Excavator Mining I | 2 d | 20 | 1,500,000 | 15,000 |
 | Excavator Mining III | +40% excavator output | Excavator Mining II | 3 d | 30 | 4,000,000 | 40,000 |
-| Field Theory I | +2% shield absorption | – | 1 d | 20 | 500,000 | 5,000 |
-| Field Theory II | +3% shield absorption | Field Theory I | 2 d | 40 | 1,500,000 | 15,000 |
-| Field Theory III | +5% shield absorption | Field Theory II | 3 d | 60 | 5,000,000 | 50,000 |
+| Field Theory I | +4% shield absorption | – | 1 d | 20 | 500,000 | 5,000 |
+| Field Theory II | +7% shield absorption | Field Theory I | 2 d | 40 | 1,500,000 | 15,000 |
+| Field Theory III | +10% shield absorption | Field Theory II | 3 d | 60 | 5,000,000 | 50,000 |
 | Dormant Knowledge I | +50 Wipe Points | 20% of the other technologies (30 of 146) | 1 h | – | – | – |
 | Dormant Knowledge II | +50 Wipe Points | Dormant Knowledge I; 40% of the other technologies (59 of 146) | 1 h | – | – | – |
 | Dormant Knowledge III | +50 Wipe Points | Dormant Knowledge II; 60% of the other technologies (88 of 146) | 1 h | – | – | – |
@@ -458,18 +477,25 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86,400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36,000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 min | 1,800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 h | 14,400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 h | 3,600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 h | 10,800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28,800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3,600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21,600 | – |
 
 The classes, by research time:
 
 | Class | Research time | Technologies | One after another | Science | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 10 | 5 h | 18,000 | 0 |
-| B | 3 h to 6 h | 20 | 2 d 21 h | 248,400 | 0 |
-| C | 10 h | 17 | 7 d 2 h | 612,000 | 95 |
+| A | 30 min to 1 h | 13 | 7 h 30 min | 27,000 | 0 |
+| B | 3 h to 6 h | 23 | 3 d 10 h | 295,200 | 0 |
+| C | 8 h to 10 h | 18 | 7 d 10 h | 640,800 | 95 |
 | D | 1 d to 2 d | 23 | 28 d | 2,419,200 | 319 |
-| All |  | 70 | 38 d 4 h | 3,297,600 | 414 |
+| All |  | 77 | 39 d 3 h 30 min | 3,382,200 | 414 |
 
-Researched one after another, the whole tree takes 38 d 4 h. With the boost on all the time it takes 19 d 2 h, which is 20 boosts and 100,000 Thulium; the science is the same.
+Researched one after another, the whole tree takes 39 d 3 h 30 min. With the boost on all the time it takes 19 d 13 h 45 min, which is 20 boosts and 100,000 Thulium; the science is the same.
 
 <!-- research-technologies:end -->
 

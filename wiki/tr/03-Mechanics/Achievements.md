@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 
@@ -69,7 +69,7 @@ Gizli olmayan 37 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | İstasyon Kurucu | 5 farklı Skylab modülü inşa et. | Sıradan |
 | Tam Donanımlı | 16 Skylab modülünün hepsini inşa et. | Destansı |
 | Bilgin | 50 teknoloji araştır. | Seyrek |
-| Arşivci | 151 teknolojinin hepsini araştır. | Efsanevi |
+| Arşivci | 158 teknolojinin hepsini araştır. | Efsanevi |
 
 ### Filo {#group-fleet}
 
@@ -118,7 +118,7 @@ Hâlâ kilitli gizli bir başarım, hedefi ve çubuğu olmayan kapalı bir kartt
 **Unvan**, bir pilotun adının yanındaki kısa bir yazı satırıdır. 40 başarımın 32 tanesi bir unvan verir; başarımı açtığın anda ömür boyu senindir. Unvanlar ayrıca bir sezonun sonundan (rütben, her şirketin en iyi pilotu ve en çok PvE puanı olan pilot) ve oyunun ekibinden gelir; örneğin oyunun Steam’de çıktığı gün var olan her hesaba verilen **Pioneer** unvanı.
 
 - Çok sayıda unvanın olabilir ama aynı anda **birini taşırsın**. Onu **pilot profilinde** seçersin ve yeniden çıkarabilirsin.
-- Unvanın **profilinde**, **Sıralamalar** sayfasında, **Grup** penceresinde ve **sohbette** adının üzerine geldiğinde görünür. Haritada geminin üstünde görünmez.
+- Unvanın **profilinde**, **Sıralamalar** sayfasında, **Grup** penceresinde ve **sohbette** adının üzerine geldiğinde görünür. 0.4.27’den beri haritada da görünür: unvanın nadirlik renginde küçük, soluk bir satır olarak **her pilotun gemisinin adının üstünde**, seninkinde de. Uzun bir unvan üç noktayla (…) kısaltılır. Kalabalıkta (ekranda sekizden fazla pilot varsa) ekran okunur kalsın diye yalnızca arkadaşlarının, hedefinin ve seçtiğin geminin unvanı kalır. Hedef penceresinde ve mini haritada görünmez.
 - Unvanlar sıfırlamadan sonra da durur.
 
 ## Steam

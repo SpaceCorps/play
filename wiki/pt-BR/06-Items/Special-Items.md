@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -7,12 +7,12 @@
 Os **itens especiais** são seis itens de uso único que poupam tempo no [Skylab](/wiki/03-Mechanics/Skylab.md), no Centro de Pesquisa da [Pesquisa](/wiki/03-Mechanics/Research.md), na [Forja](/wiki/06-Items/Forge.md) e na fila de produção da [Montagem](/wiki/06-Items/Overview.md#the-production-queue). Você usa um sobre algo que já tem, ele faz o seu trabalho uma vez e some. Não são itens no sentido comum: a sua conta guarda uma **contagem** de cada tipo, então eles não são carregados, não caem e não são apagados por um reset, e nenhum deles pode ser negociado.
 
 > [!NOTE]
-> **Ninguém os distribui ainda.** Por enquanto um administrador emite todos os itens especiais. Eles não podem ser comprados, vendidos, anunciados no [Leilão](/wiki/03-Mechanics/Auction.md) nem dados a outro piloto, e um Magic Hammer é extremamente raro.
+> **Ainda não dá para ganhá-los.** Por enquanto eles vêm só de um administrador: entregues diretamente a você ou dentro de um código bônus que você resgata. Eles não podem ser comprados, vendidos, anunciados no [Leilão](/wiki/03-Mechanics/Auction.md) nem dados a outro piloto, e um Magic Hammer é extremamente raro.
 
 ## Em um minuto {#in-one-minute}
 
 - **Seis tipos.** O Magic Hammer, Schematics, a Philosopher's Stone, o Tinkerer's Badge, o Forger's Seal e o Workforce Contract. Cada um é descrito mais abaixo com os seus números.
-- **Onde.** A seção **Itens especiais** do Hangar mostra o que você tem e traz um botão **Usar** para cada um. A página em que o item atua também mostra um botão quando você tem um: o módulo de uma melhoria no Skylab, a pesquisa em andamento, o painel de subida de grau da Forja e a fila de produção.
+- **Onde.** O inventário do Hangar mostra um bloco para cada tipo que você tem, entre os consumíveis, com a quantidade. Passe o cursor sobre um bloco para ler o que o item faz e clique para usá-lo (com o Workforce Contract, você escolhe o trabalhador primeiro). O Magic Hammer e o Tinkerer's Badge agem sobre algo que você escolhe, então o clique não faz nada e o bloco deles diz onde usá-los: no Skylab e na Forja. A página em que o item atua também mostra um botão quando você tem um: o módulo de uma melhoria no Skylab, a pesquisa em andamento, o painel de subida de grau da Forja e a fila de produção.
 - **Ele pergunta primeiro.** Cada uso abre uma folha que diz exatamente o que vai acontecer e o que ele gasta. Usar é definitivo: não dá para desfazer. Se um uso for recusado, nada é gasto.
 - **Eles ficam.** Os seus itens especiais, e a Philosopher's Stone ou o contrato em andamento, ficam depois do [reset](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Em qualquer lugar.** Você pode usá-los voando: nenhum exige que a sua nave esteja pousada.
@@ -44,7 +44,7 @@ Conclui **uma melhoria do Skylab na hora**: escolha o módulo que está sendo me
 
 ### Schematics
 
-Conclui **a pesquisa em andamento agora**, se a tecnologia leva **24 horas ou menos** para ser pesquisada. 135 das 151 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) se enquadram. As 16 que levam 48 ou 72 horas não: o Wraith, três formações de drones, Hull Plating III, os níveis 4 e 5 do Módulo de motores e do Módulo de defesa e sete tecnologias de Piloto.
+Conclui **a pesquisa em andamento agora**, se a tecnologia leva **24 horas ou menos** para ser pesquisada. 142 das 158 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) se enquadram. As 16 que levam 48 ou 72 horas não: o Wraith, três formações de drones, Hull Plating III, os níveis 4 e 5 do Módulo de motores e do Módulo de defesa e sete tecnologias de Piloto.
 
 - **Conta o tempo de pesquisa, não o que resta.** Uma tecnologia de 48 horas a que falta uma hora ainda é recusada: Schematics olha quanto a tecnologia leva no total.
 - **O preço continua pago.** O Dark Matter, os créditos e o Thulium foram cobrados quando a pesquisa começou e não voltam. A ciência que a pesquisa ainda não queimou fica no seu tanque.
@@ -95,7 +95,7 @@ O Hauler só levanta a cota. Todo o resto da [Baía de minério](/wiki/03-Mechan
 
 ## Regras para os seis {#rules-for-all-six}
 
-- **Uma contagem, não um item.** A seção Itens especiais do Hangar é o único lugar que os lista. Eles não têm peso, nem espaço na barra de atalhos, nem lugar na carga ou no Cache de Transporte; nunca caem quando a sua nave é destruída.
+- **Uma contagem, não um item.** O inventário do Hangar é o único lugar que os lista, como blocos entre os consumíveis; um tipo de que você não tem nenhum não tem bloco. Um bloco não é um item, então não pode ser arrastado, selecionado, excluído nem vendido. Eles não têm peso, nem espaço na barra de atalhos, nem lugar na carga ou no Cache de Transporte; nunca caem quando a sua nave é destruída.
 - **Através do reset.** Os seus itens especiais e uma Philosopher's Stone ou um contrato em andamento são mantidos, como o Skylab, a pesquisa e o seu visual.
 - **Nunca negociados.** Nem no [Leilão](/wiki/03-Mechanics/Auction.md), nem a outro piloto, nem por créditos.
 - **Só o Hammer pode mudar o seu ritmo**, e ele é limitado a um a cada 60 dias. Os outros cinco são pequenos de propósito: 10 horas de duas minas, 1 hora de um trabalhador, um grau, 30 minutos de uma fila, uma pesquisa de no máximo 24 horas.

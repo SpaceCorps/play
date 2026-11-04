@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Veszélyes szektorok -->
 # Veszélyes szektorok {#danger-sectors}
 
@@ -52,7 +52,7 @@ A `DS-4`-nek nincs pulzárja: ott van a feketelyuk. A sarkában helyette a Dorma
 
 - **Sugárzás.** Egy túlmelegedett vagy megsemmisült kotrógép és a pulzárja minden hajót megéget, amely a köreikben marad ([Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). A játék előre figyelmeztet, a köröket pedig repülés közben a talajra és a minitérképre rajzolja a játék.
 - **A mocsár lövegei.** A mocsár lövegtornyai jóval azelőtt tüzelnek egy hajóra, hogy az bármi olyat lásson, ami megérné az utat ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Az általad kattintott útvonalat a játék a lövegek és a sugárzás köré hajlítja, ahogy a feketelyuk köré is, és egy értesítés figyelmeztet, ha a kattintott hely beleesik.
-- **Ha ott megsemmisülsz,** a **helyben** újraélés választás a sugárzáson és a mocsár zónáján kívüli legközelebbi pontra tesz, ahogy a feketelyuknál ([Első lépések](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Ha ott megsemmisülsz,** nem térhetsz vissza **helyben**: veszélyes szektorban a halálképernyő csak a **bázisodat** és a **legközelebbi portált** kínálja, a „Helyben” pedig szürke. Ha mégis kéred, elutasítják, és semmibe sem kerül ([Első lépések](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Egy csoport és egy menekülőút.** A kotrógépek egyaránt vonzzák a Voidokat és a riválisokat. Hozz [csoportot](/wiki/03-Mechanics/Groups.md), tudd, melyik kapu van a legközelebb, és ne feledd, hogy a veszélyes szektorokból nem ugorhatsz ki, amíg támadnak ([Ugrás tűz alatt](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **A többi PvP, mint mindig.** Itt semmi sem biztonságos hely: a világod szokásos szabályai érvényesek, a riválisokkal együtt.
 

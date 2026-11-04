@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: 경매장 -->
 # 경매장 {#auction}
 
@@ -16,7 +16,7 @@
 - 경매장에서 등록, 구매, 입찰을 하려면 **레벨 5** 이상이어야 합니다.
 - 등록 가격은 묶음 하나당, 정수 크레딧이나 정수 Thulium 중 하나로 정하며(둘 다는 안 됩니다), 그 아이템의 최저 가격 아래로는 내려갈 수 없습니다. **최고 가격은 없습니다.**
 - Thulium 가격은 크레딧 최저 가격을 환율(1,000 크레딧당 1 Thulium)로 나누어 올림한 값 이상이어야 하며, 최저 가격이 1 Thulium 이상이 되는 아이템에만 적용됩니다. 환율이 하는 일은 그것뿐입니다. **1 Thulium = 1,000 크레딧은 최저 가격을 정하는 규칙일 뿐 환율이 아닙니다.** 아무것도 교환되지 않고, 가치도 표시되지 않으며, 크레딧과 Thulium은 절대 합산되지 않습니다.
-- 84종류를 등록할 수 있고, 그중 83종류는 Thulium으로도 가격을 정할 수 있습니다.
+- 89종류를 등록할 수 있고, 그중 88종류는 Thulium으로도 가격을 정할 수 있습니다.
 - 등록 기간은 168 / 336 / 504시간 중에서 고를 수 있으며, 선택지는 모든 레벨에서 같습니다.
 - **보증금**은 등록이 진행되는 24시간마다 가격의 0.25%이며, 최소 50 크레딧 또는 1 Thulium입니다. 등록할 때 내며, 등록을 취소해도 돌려받지 못합니다.
 - 레벨 10부터는 보증금이 0.4%입니다.
@@ -32,7 +32,7 @@
 
 ## 거래 가능한 아이템 {#marketable-items}
 
-팔 수 있는 것은 **직접 얻은** 아이템뿐입니다. 얻은 것에는 모두 [격납고](/wiki/03-Mechanics/Inventory.md#marketable-items)에서 작은 **거래 가능** 표시가 붙습니다. 우주에서 주운 것(에일리언, 무리, Warden, 블랙홀의 드롭: [화물](/wiki/03-Mechanics/Cargo.md)), 미션이 지급하는 것([퀘스트](/wiki/03-Mechanics/Quests.md#rewards)), 그리고 어셈블리와 대장간이 만든 모든 것이 그렇습니다. 상점에서 **구매한** 것, 로트에서 낙찰받은 것, 시장에서 산 것, [Davidski](/wiki/03-Mechanics/Davidski.md)에게서 산 것, 보너스 코드·초대 패키지·스타터 키트로 받은 것, 환불로 돌려받은 것은 거래 가능이 아니며 다시는 팔 수 없습니다. 그래서 되팔려고만 사는 일이 없습니다. Skylab의 단조소가 만드는 플레이트도 거래 가능이 아니지만, 미션이 지급하는 Reinforced Plate는 거래 가능합니다. Skylab의 탄약 프린터와 로켓 공장이 만드는 탄약과 로켓도 거래 가능이 아닙니다.
+팔 수 있는 것은 **직접 얻은** 아이템뿐입니다. 얻은 것에는 모두 [격납고](/wiki/03-Mechanics/Inventory.md#marketable-items)에서 작은 **거래 가능** 표시가 붙습니다. 우주에서 주운 것(에일리언, 무리, Warden, 블랙홀의 드롭: [화물](/wiki/03-Mechanics/Cargo.md)), 미션이 지급하는 것([퀘스트](/wiki/03-Mechanics/Quests.md#rewards)), 그리고 어셈블리와 대장간이 만든 모든 것이 그렇습니다. 상점에서 **구매한** 것, 로트에서 낙찰받은 것, 시장에서 산 것, [Davidski](/wiki/03-Mechanics/Davidski.md)에게서 산 것, 보너스 코드·초대 패키지·스타터 키트로 받은 것, 환불로 돌려받은 것은 거래 가능이 아니며 다시는 팔 수 없습니다. 그래서 되팔려고만 사는 일이 없습니다. Skylab의 단조소가 만드는 플레이트도 거래 가능이 아니지만, 미션이 지급하는 Reinforced Plate는 거래 가능합니다. Skylab의 탄약 프린터와 로켓 공장이 만드는 탄약과 로켓도 거래 가능이 아닙니다. 미션의 반복이 주는 아이템도 거래 가능하지 않습니다.
 
 표시는 스위치가 아니라 유닛 수입니다. 탄약 묶음에는 산 것과 얻은 것이 섞여 있을 수 있고, 카드에는 “거래 가능 (3/5)”라고 나옵니다. 묶음의 일부를 쓸 때(발사, 제작)는 일반 유닛이 먼저 줄어들어 거래 가능한 것이 가장 오래 남습니다. [대장간](/wiki/06-Items/Forge.md#merge)에서 두 품목을 병합하면 두 품목 모두 표시가 있었을 때만 표시가 남고, 미리 보기가 그렇게 알려 줍니다. 실패한 대장간 단계는 재료를 일반 유닛으로 돌려줍니다.
 
@@ -54,7 +54,7 @@
 | **Adaptive Core** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **실드 셀** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **추진기** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **레이저 탄약** | Standard Battery (100개 묶음), Siphon Battery (10개 묶음), Advanced Plasma (10개 묶음), Ultra Core (10개 묶음), Experimental Fusion Core | 5 |
+| **레이저 탄약** | Standard Battery (100개 묶음), Siphon Battery (10개 묶음), Advanced Plasma (10개 묶음), Siphon Battery II (10개 묶음), Antimatter Battery I (10개 묶음), Ultra Core (10개 묶음), Dark Matter Ammo I (10개 묶음), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **로켓** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **소모품** | EMP Charge, Energetic Wall II | 2 |
 | **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

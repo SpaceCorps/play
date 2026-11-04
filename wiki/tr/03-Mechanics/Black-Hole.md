@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e483b8e10231ca94 -->
+<!-- wiki-i18n source: 0ebfbefceb729180 -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 
@@ -110,7 +110,7 @@ Bir gemi tasarımı geminin hızını, onunla birlikte dönüşü olmayan noktas
 
 Saniyede 272 birimden hızlı bir geminin (koşucu bir donanım ya da çalışan bir Afterburner yeteneği olan standart bir Wraith) dönüşü olmayan noktası her zamanki yerindedir: 300 hızda 885, 432 hızda 747.
 
-Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 39,1 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.600’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on, iki motorla on beş, üç motorla yirmi saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.577’den 989’a, standart bir Wraith gemisinde 1.208’den 801’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 390 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,69); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Impulse Thruster IV bulunan Engine III ve Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 430’un dışından çıkar.
+Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 39,1 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.600’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on beş, iki motorla 22,5, üç motorla otuz saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.577’den 1.225’a, standart bir Wraith gemisinde 1.208’den 851’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 440 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,46); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Impulse Thruster IV bulunan Engine III ve Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 477’un dışından çıkar.
 
 Dönüşü olmayan noktadan düşüş yavaş başlar: noktanın birkaç birim içindeki bir gemi, tam güçte, yirmi saniye ya da daha uzun sürede içeri çekilir, sonra gitgide hızlanır. Çekim uçmak değildir: uçulan mesafeye hiçbir şey katmaz.
 
@@ -118,7 +118,7 @@ Dönüşü olmayan noktadan düşüş yavaş başlar: noktanın birkaç birim i�
 
 Merkeze 300 birim kalan bir gemi yok edilir. Yolda radyasyon altında gövdesi biten gemi ise bunun yerine radyasyonla yok edilir. Hangisi olursa olsun:
 
-- Bu sıradan bir yok oluştur: nereye döneceğini sen seçersin (bkz. [Ölmek ve geri dönmek](/wiki/01-General/Getting-Started.md)), en fazla 10.000 gövde ve boş bir kalkanla (o sayfaya bak), ve her yok oluşun maliyeti ne ise onu öder. “Öldüğün yerde” seçeneği seni asla halkanın içine geri koymaz: seni halkanın dışındaki en yakın noktaya (merkezden 4.500 birim) taşır ve bunu sana söyler.
+- Bu sıradan bir yok oluştur: nereye döneceğini sen seçersin (bkz. [Ölmek ve geri dönmek](/wiki/01-General/Getting-Started.md)), en fazla 10.000 gövde ve boş bir kalkanla (o sayfaya bak), ve her yok oluşun maliyeti ne ise onu öder. Kara delik Tehlike Sektörü 4’tedir ve orada “Öldüğün yerde” sunulmaz; bu yüzden kimse halkanın içine dönmez: üssünü ya da o sektörün en yakın portalını seçersin, o da halkanın dışındadır.
 - **Enkaz yok, kutu yok, ganimet yok**; onur da kaybedilmez.
 - Yok oluşun, bir PvP öldürmesi gibi, **gemin yok olmadan önceki 15 saniye içinde ona son vuran düşman pilota** yazılır: başka bir şirketin pilotu (PvP’nin izin verildiği yer ve zamanda), vuruş ne kadar küçük olursa olsun. Bu, onun istatistiklerinde bir öldürme ve geminin türüne göre PvP sıralama puanıdır, başka bir şey değil. Tek bir atış yeter; o 15 saniyede başka bir şirketten kimse sana vurmadıysa kimse bir şey almaz.
 - O 15 saniyede gemine vuran kendi şirketinden pilotlar, gemini ne yok etmiş olursa olsun, dost ateşi yüzünden yine onur kaybeder.

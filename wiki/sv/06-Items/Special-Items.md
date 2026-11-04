@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -7,12 +7,12 @@
 **Specialföremål** är sex engångsföremål som sparar tid i [Skylab](/wiki/03-Mechanics/Skylab.md), i Forskningscentrumet i [Forskning](/wiki/03-Mechanics/Research.md), i [Smedjan](/wiki/06-Items/Forge.md) och i produktionskön i [Monteringen](/wiki/06-Items/Overview.md#the-production-queue). Du använder ett på något du redan har, det gör sitt jobb en gång och är sedan borta. De är inte föremål i vanlig mening: ditt konto håller ett **antal** för varje sort, så de bärs inte, tappas inte och raderas inte av en wipe, och inget av dem kan handlas.
 
 > [!NOTE]
-> **Ingen delar ut dem än.** Just nu ger en admin ut alla specialföremål. De kan inte köpas, säljas, läggas ut på [Auktionen](/wiki/03-Mechanics/Auction.md) eller ges till en annan pilot, och en Magic Hammer är extremt sällsynt.
+> **Man kan inte tjäna dem än.** Just nu kommer de bara från en admin: antingen ges de direkt till dig eller finns de i en bonuskod som du löser in. De kan inte köpas, säljas, läggas ut på [Auktionen](/wiki/03-Mechanics/Auction.md) eller ges till en annan pilot, och en Magic Hammer är extremt sällsynt.
 
 ## På en minut {#in-one-minute}
 
 - **Sex sorter.** Magic Hammer, Schematics, Philosopher's Stone, Tinkerer's Badge, Forger's Seal och Workforce Contract. Var och en beskrivs längre ner med sina siffror.
-- **Var.** Avdelningen **Specialföremål** i Hangaren visar vad du har och har en knapp **Använd** för varje. Sidan där föremålet verkar visar också en knapp när du har ett: modulen med en pågående uppgradering i Skylab, den pågående forskningen, Smedjans panel för att höja nivå och produktionskön.
+- **Var.** Inventariet i Hangaren visar en ruta för varje slag du har, bland förbrukningsvarorna, med antalet. Håll muspekaren över en ruta för att läsa vad föremålet gör och klicka på den för att använda det (med Workforce Contract väljer du arbetare först). Magic Hammer och Tinkerer's Badge verkar på något du väljer, så ett klick gör ingenting och deras ruta säger var de används: i Skylab och i Smedjan. Sidan där föremålet verkar visar också en knapp när du har ett: modulen med en pågående uppgradering i Skylab, den pågående forskningen, Smedjans panel för att höja nivå och produktionskön.
 - **Det frågar först.** Varje användning öppnar ett blad som säger exakt vad som kommer att hända och vad det förbrukar. Användningen är slutgiltig: den kan inte ångras. Om en användning nekas förbrukas ingenting.
 - **De stannar kvar.** Dina specialföremål, och en pågående Philosopher's Stone eller ett pågående kontrakt, finns kvar efter [wipen](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Var som helst.** Du kan använda dem under flygning: inget av dem kräver att ditt skepp är landat.
@@ -44,7 +44,7 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 ### Schematics
 
-Slutför **forskningen som pågår just nu**, om tekniken tar **24 timmar eller mindre** att forska fram. 135 av de 151 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) uppfyller det. De 16 som tar 48 eller 72 timmar gör det inte: Wraith, tre drönarformationer, Hull Plating III, nivå 4 och 5 av Motormodulen och Försvarsmodulen och sju pilotteknikter.
+Slutför **forskningen som pågår just nu**, om tekniken tar **24 timmar eller mindre** att forska fram. 142 av de 158 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) uppfyller det. De 16 som tar 48 eller 72 timmar gör det inte: Wraith, tre drönarformationer, Hull Plating III, nivå 4 och 5 av Motormodulen och Försvarsmodulen och sju pilotteknikter.
 
 - **Forskningstiden räknas, inte tiden som återstår.** En teknik på 48 timmar med en timme kvar nekas ändå: Schematics tittar på hur lång tid tekniken tar totalt.
 - **Priset förblir betalt.** Dark Matter, krediter och Thulium drogs när forskningen startade och ges inte tillbaka. Vetenskapen som forskningen ännu inte brunnit stannar kvar i din tank.
@@ -95,7 +95,7 @@ Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.
 
 ## Regler för alla sex {#rules-for-all-six}
 
-- **Ett antal, inte ett föremål.** Avdelningen Specialföremål i Hangaren är den enda platsen som listar dem. De har ingen vikt, ingen snabbfältsplats och ingen plats i lasten eller transportförrådet; de tappas aldrig när ditt skepp förstörs.
+- **Ett antal, inte ett föremål.** Inventariet i Hangaren är den enda platsen som listar dem, som rutor bland förbrukningsvarorna; ett slag du inte har något av har ingen ruta. En ruta är inget föremål, så den kan inte dras, markeras, raderas eller säljas. De har ingen vikt, ingen snabbfältsplats och ingen plats i lasten eller transportförrådet; de tappas aldrig när ditt skepp förstörs.
 - **Genom wipen.** Dina specialföremål och en pågående Philosopher's Stone eller ett pågående kontrakt behålls, som Skylab, forskningen och ditt utseende.
 - **Handlas aldrig.** Inte på [Auktionen](/wiki/03-Mechanics/Auction.md), inte till en annan pilot, inte mot krediter.
 - **Bara Hammer kan flytta ditt tempo**, och den är begränsad till en per 60 dagar. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, en forskning på högst 24 timmar.

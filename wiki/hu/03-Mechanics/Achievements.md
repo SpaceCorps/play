@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Eredmények -->
 # Eredmények {#achievements}
 
@@ -69,7 +69,7 @@ A 37 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Állomásépítő | Építs 5 különböző Skylab-modult. | Gyakori |
 | Teljes felszereltség | Építsd meg mind a 16 Skylab-modult. | Epikus |
 | Tudós | Fejezd be 50 technológia kutatását. | Szokatlan |
-| Levéltáros | Fejezd be mind a 151 technológia kutatását. | Legendás |
+| Levéltáros | Fejezd be mind a 158 technológia kutatását. | Legendás |
 
 ### Flotta {#group-fleet}
 
@@ -118,7 +118,7 @@ A rejtett, még zárt eredmény egy zárt kártya cél és sáv nélkül. Ha fel
 A **cím** egy rövid szövegsor a pilóta neve mellett. A 40 eredményből 32 ad egyet, amely örökre a tiéd, amint feloldod az eredményt. Címek jönnek egy szezon végéről is (a rangod, minden vállalat legjobb pilótája és a legtöbb PvE-pontos pilóta) és a játék csapatától, például a **Pioneer** cím minden olyan fióknak, amely a játék Steames indulásának napján már létezett.
 
 - Sok címed lehet, de egyszerre **egyet viselsz**. A **pilótaprofilodon** választod ki, és újra le is veheted.
-- A címed a **profilodon**, a **Rangsorban**, a **Csoport** ablakban és a **csevegésben** jelenik meg, ha a neved fölé viszed az egeret. A térképen a hajód fölött nem jelenik meg.
+- A címed a **profilodon**, a **Rangsorban**, a **Csoport** ablakban és a **csevegésben** jelenik meg, ha a neved fölé viszed az egeret. A 0.4.27 óta a térképen is megjelenik: egy kicsi, halvány sor a cím ritkaságának színében **minden pilóta hajójának neve fölött**, a tiéd fölött is. A hosszú címet a játék három ponttal (…) rövidíti le. Tömegben (több mint nyolc pilóta a képernyőn) csak a barátaid, a célpontod és a kijelölt hajó tartja meg a sajátját, hogy a képernyő olvasható maradjon. A célpontablakban és a minitérképen nem jelenik meg.
 - A címek túlélik a wipe-ot.
 
 ## Steam

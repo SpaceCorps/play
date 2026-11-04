@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
+<!-- wiki-i18n source: 2d81c36bc4357d49 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
@@ -21,8 +21,8 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 
 - **Járőröznek** egy körön a szektor állomásánál, a portáljainál és néhány közbeeső ponton át.
 - **Vadásznak** azokra az idegenekre, amelyekkel elbírnak (Seeker és Phantasm idegenekre; a Bulwark, Goombah és Crystalys idegeneket békén hagyják), amíg pilóták repülnek a szektorban. Az az idegen, amellyel egy másik vállalat pilótája harcol, az övé: az osztag békén hagyja.
-- **Figyelmen kívül hagyják a [rajokat](/wiki/05-Swarms/Swarms.md)**: a rajhajó nem az ő dolguk. Nem vadásznak rá, nem szállnak be egy ellene vívott harcba, és soha nem sietnek a segítségedre egyben.
 - **Segítenek**: ha a vállalatuk egy tőlük 1 500 egységen belül lévő pilótáját megtámadja egy idegen, vagy az a pilóta tüzet nyit egy olyan idegenre, amellyel ők is elbírnának, beszállnak a harcba. Kimaradnak abból a harcból, amelyet egy társuk olyan idegennel kezdett, amellyel nem bírnának el (egy Goombah, amelyre egy pilóta rálőtt, vagy egy Bulwark); azt az agresszív idegent viszont, amely egy társukra támad, visszaverik, bármilyen is. Az általuk kilőtt idegenért az a pilóta kapja a jutalmat, aki a foglalását tartja (aki először eltalálta, lásd [Harc](/wiki/03-Mechanics/Combat.md)); ha senki sem tart foglalást, a vállalatuk legközelebbi pilótájának számít, aki tüzel rá (célba vette, hatótávon belül van, és az elmúlt 2,5 másodpercben leadott egy sortüzet). Így is, úgy is annak a pilótának jár a jutalom, és az idegen [rakományládája](/wiki/03-Mechanics/Cargo.md) is neki van fenntartva, mintha ő végzett volna vele. A vállalati pilóták sosem foglalnak le idegent, és maguk sosem szereznek vagy gyűjtenek semmit: az az idegen, amellyel egyedül harcolnak, nem hagy maga után ládát. Aki csak távolról célba veszi az idegent, vagy akit csak lőnek, az nem kap érte semmit.
+- **Figyelmen kívül hagyják a [rajokat](/wiki/05-Swarms/Swarms.md)**: a rajhajó nem az ő dolguk. Nem vadásznak rá, nem szállnak be egy ellene vívott harcba, és soha nem sietnek a segítségedre egyben.
 - **Visszalőnek**, ha idegenek lőnek rájuk, és ha más vállalatok pilótái lőnek rájuk, de csak akkor, ha már megnyílt a PvP, és ott, ahol a [világuk](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t: az Alpha `x-1`–`x-3` szektoraiban nincs, a Beta `x-1` szektorában sem.
 - **Javítanak** a drónjukkal, valahányszor sérült a hajótestük: másodpercenként a hajótestük 1,5%-át, az utolsó találat után 10 másodperccel kezdve.
 - **Visszavonulnak**, ha a hajótestük 30%-ra csökken, a legközelebbi biztonságos zónába, és ott javítanak 90%-ig.
@@ -36,6 +36,16 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 - **Egy másik vállalat pilótái** semmit sem fizetnek, ha megsemmisítik őket (se kreditet, se becsületet, se rangpontot), és a Békeprotokoll alatt (a szezon első három napján) nem támadhatók.
 - Bármely vállalati pilóta megtámadására a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP-szabályai érvényesek: az Alpha `x-1`–`x-3` szektoraiban nincs PvP, a Beta `x-1` szektorában sem.
 - **Roncsok**: a megsemmisült vállalati pilóta nem hagy maga után [rakományládát](/wiki/03-Mechanics/Cargo.md) és alkatrészt sem, akárki vagy akármi semmisíti meg: a vállalati pilóták lelövésével nem lehet nyersanyagot farmolni.
+
+## Javítóhajók a bázison {#repair-ships-at-the-base}
+
+Minden vállalati bázison (`M-1`, `T-1` és `G-1`, minden világban) **2 javítóhajó** áll őrt a vállalatától, közvetlenül az állomás biztonságos zónáján kívül, a vállalat rövidítésével jelölt névvel, pl. **[M] Mender** és **[M] Salve**.
+
+- **Gyógyító aura**: minden javítóhajó a vállalata minden, tőle **2 000** egységen belül lévő pilótájának hajótestét **másodpercenként 250 életerővel** javítja, harc közben is, a hajó maximális hajótesténél sosem többre. Ahol mindkettő eléri a hajódat (az állomás körül), az másodpercenként 500. A saját vállalatod vállalati pilótáit is javítják; egy másik vállalat pilótáit sosem.
+- **Látod**: egy halvány gyűrű a térképen mutatja, meddig ér el mindegyik: zöld a saját vállalatod javítóhajói körül, szürke egy másik vállalatéi körül. A célpontablak javítóhajónak nevezi.
+- **Soha nem lőnek.** Tartják a posztjukat, és az utolsó találat után 10 másodperccel kezdve javítják a saját hajótestüket.
+- **Megsemmisíthetők**: az agresszív idegenek rájuk mennek, más vállalatok pilótái pedig lelőhetik őket, ahol a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t a bázison (csak a Gamma `x-1` szektorában), a Békeprotokoll után. Mindegyiknek 200 000 életereje és 100 000 pajzspontja van. A saját vállalatod javítóhajójának megsemmisítése **100 becsületbe** kerül, mint bármelyik vállalati pilótájáé, és egyikük sem fizet semmit, és nem hagy ládát.
+- **2 perc múlva visszatér**: a megsemmisült javítóhajó 120 másodperccel később, épen tér vissza a posztjára.
 
 ## Harci megjegyzések {#combat-notes}
 

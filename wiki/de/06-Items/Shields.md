@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Schilde -->
 # Schilde & Verteidigung {#shields-defense}
 
@@ -41,12 +41,12 @@ Rüste Schilde aus, um aktive Schutzbarrieren zu erzeugen, in den Generator-Slot
 | Name | Seltenheit | Kapazität | Aufladerate | Absorption | Schild % | Tempo % | Zellen-Slots | Spezialeffekt | Kosten |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Minderwertig | 10.000 | 333/s | 45 % | +5 % | -1 % | 1 | Shield Surge I | 20.000 Credits |
-| **Basic Shield Core** | Gewöhnlich | 15.000 | 500/s | 48 % | +10 % | -3 % | 2 | Shield Surge II | 2.000 Thulium |
-| **Heavy Shield Core** | Selten | 25.000 | 833/s | 50 % | +20 % | -5 % | 3 | Shield Surge III | Nur herstellbar |
+| **Basic Shield Core** | Gewöhnlich | 15.000 | 500/s | 50 % | +10 % | -3 % | 2 | Shield Surge II | 2.000 Thulium |
+| **Heavy Shield Core** | Selten | 25.000 | 833/s | 55 % | +20 % | -5 % | 3 | Shield Surge III | Nur herstellbar |
 
 Der **Heavy Shield Core** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Basic Shield Core hergestellt, mit 4.000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit und 4 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Er behält die Verzauberungsstufe und die Boni des Kerns, den er verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm den Basic Shield Core zuerst von deinem Schiff (und seine Zellen aus ihm): Ein Kern, der ausgerüstet ist oder Zellen enthält, wird nicht verbraucht.
 
-Die **Absorption** ist der Anteil jedes Treffers, den deine Schilde nehmen; den Rest nimmt die Hülle. Ein Schild allein hat **45 bis 50 %**, und seine Zellen steuern den Rest bei: Der beste Schild mit den besten Zellen (ein Heavy Shield Core mit drei Absorption Shield Cell IV) hat **80 %**, das meiste, was ein Schiff ab Werk hat. Drei dauerhafte Boosts kommen dazu: der Schildabsorptions-Boost des Saison-Shops (+0,1 Punkte pro Level, 100 Level, je 25 Wipe-Punkte), die Absorptionsboni der Schmiede und die Pilot-Forschung Field Theory (+2, +3 oder +5 Punkte). Die Quellen für Wipe-Punkte (bis zu 1.090 pro Wipe, sie beginnen bei jedem Wipe von vorn) kaufen im ersten Wipe 43 dieser 100 Level (+4,3 Punkte), womit ein voll geschmiedetes ewiges Set etwa **95 %** erreicht, mit Field Theory III etwa **99 %**. Der Wert ist jedoch nicht auf 100 % begrenzt: Die *Schilddurchdringung* eines Angreifers wird davon abgezogen, was ein Schiff über 100 % hat, ist also sein Spielraum gegen Durchdringung. Siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+Die **Absorption** ist der Anteil jedes Treffers, den deine Schilde nehmen; den Rest nimmt die Hülle. Ein Schild allein hat **45 bis 55 %**, und seine Zellen steuern den Rest bei: Der beste Schild mit den besten Zellen (ein Heavy Shield Core mit drei Absorption Shield Cell IV) hat **85 %**, das meiste, was ein Schiff ab Werk hat. Drei dauerhafte Boosts kommen dazu: der Schildabsorptions-Boost des Saison-Shops (+0,1 Punkte pro Level, 100 Level, je 25 Wipe-Punkte), die Absorptionsboni der Schmiede und die Pilot-Forschung Field Theory (+4, +7 oder +10 Punkte). Die Quellen für Wipe-Punkte (bis zu 1.105 pro Wipe, sie beginnen bei jedem Wipe von vorn) kaufen im ersten Wipe 44 dieser 100 Level (+4,4 Punkte), womit ein voll geschmiedetes ewiges Set etwa **100 %** erreicht, mit Field Theory III etwa **110 %**. Der Wert ist jedoch nicht auf 100 % begrenzt: Die *Schilddurchdringung* eines Angreifers wird davon abgezogen, was ein Schiff über 100 % hat, ist also sein Spielraum gegen Durchdringung. Siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Adaptive Kerne arbeiten als Hybridgeneratoren und verbinden Schild- und Tempofä
 
 | Name | Seltenheit | Schildbonus % | Tempobonus % | Slots | Spezialeffekt | Kosten |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Minderwertig | +4 % | +2,4 % | 1 | — | 100.000 Credits |
-| **Adaptive Core II** | Gewöhnlich | +6,4 % | +3,2 % | 2 | — | Nur herstellbar |
-| **Adaptive Core III** | Selten | +8 % | +4 % | 3 | — | Nur herstellbar |
+| **Adaptive Core I** | Minderwertig | +4 % | +1,2 % | 1 | — | 100.000 Credits |
+| **Adaptive Core II** | Gewöhnlich | +6,4 % | +1,6 % | 2 | — | Nur herstellbar |
+| **Adaptive Core III** | Selten | +8 % | +2 % | 3 | — | Nur herstellbar |
 
 Der **Adaptive Core II** wird in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus einem Adaptive Core I hergestellt, mit 2.000 Thulium, 60 Ship Fragments, 1 Power Core und 4 Velkonite Reinforced Plates. Der **Adaptive Core III** wird dort aus einem Adaptive Core II hergestellt, mit 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit und 4 Dark Matter Plates ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Jeder behält die Verzauberungsstufe und die Boni des Kerns, den er verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Nimm den Kern, der verbraucht wird, zuerst von deinem Schiff (und seine Schubdüsen und Zellen aus ihm): Ein Kern, der ausgerüstet ist oder Module enthält, wird nicht verbraucht.
 

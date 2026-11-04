@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Os boosters usam um sistema de escala aditiva:
 1. **Os percentuais de bônus se somam**: se você comprar dois boosters diferentes que dão +10% de dano de laser cada um, receberá um bônus total de **+20% de dano de laser**.
 2. **As durações se empilham de forma multiplicativa**: comprar o _mesmo_ booster várias vezes prolonga a duração dele. Os temporizadores de boosters _diferentes_ correm em paralelo.
-3. **Visualização dos temporizadores**: os boosters ativos aparecem no HUD, na janela Boosters, que mostra o total dos bônus ativos agrupados e o próximo evento de expiração.
+3. **Visualização dos temporizadores**: os boosters ativos aparecem no HUD, na janela Boosters, que mostra o total dos bônus ativos agrupados e o próximo evento de expiração. O total de uma categoria conta tudo o que a aumenta: os boosters, os buffs da Loja de PR, os reforços do seu clã e os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados têm cada um uma linha na categoria, então o total é o que a sua nave realmente recebe. O card Boosters do Painel mostra os mesmos totais.
 4. **Os números os contam**: o dano, os escudos, a recarga do escudo, a absorção, a velocidade e o casco do Hangar, e a sua página de piloto, incluem seus boosters ativos, os buffs da Loja de PR, os reforços do seu clã e os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados; uma pequena etiqueta *com boosters* no card de estatísticas de combate indica isso. Penetração, chance de crítico e alcance não mudam com os boosters.
 
 ---

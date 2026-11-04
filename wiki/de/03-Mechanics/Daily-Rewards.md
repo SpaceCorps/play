@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Tägliche Belohnungen -->
 # Tägliche Belohnungen {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; tägliche belohnung; täglicher login; login-bonus; kalender; adventskalender; truhe; saisonprämie; bauplan; serie -->
 
-Jede Saison hat einen **Kalender der täglichen Belohnungen**: ein kleines Geschenk für jeden Tag der Saison. Drück an der Station auf **Abholen**, und das Geschenk des Tages gehört dir. Je mehr Tage du abholst, desto mehr bekommst du: Vier **Truhen** kommen bei 7, 14, 21 und 28 abgeholten Tagen, und in den letzten drei Tagen der Saison kannst du die **Saisonprämie** nehmen. Ein verpasster Tag kostet dich das Geschenk dieses Tages und sonst nichts. Du findest den Kalender im **Dashboard** (die Karte **Tägliche Belohnungen**) und unter **Saison & Profil › Kalender**.
+Jede Saison hat einen **Kalender der täglichen Belohnungen**: ein Geschenk für jeden Tag der Saison, immer Munition oder Raketen. Drück an der Station auf **Abholen**, und das Geschenk des Tages gehört dir. Je mehr Tage du abholst, desto mehr bekommst du: Vier **Truhen** kommen bei 7, 14, 21 und 28 abgeholten Tagen, und in den letzten drei Tagen der Saison kannst du die **Saisonprämie** nehmen. Ein verpasster Tag kostet dich das Geschenk dieses Tages und sonst nichts. Du findest den Kalender im **Dashboard** (die Karte **Tägliche Belohnungen**) und unter **Saison & Profil › Kalender**.
 
 ## In einer Minute {#in-one-minute}
 
@@ -15,7 +15,7 @@ Jede Saison hat einen **Kalender der täglichen Belohnungen**: ein kleines Gesch
 - **4 Truhen**, bei 7, 14, 21 und 28 abgeholten Tagen.
 - **Eine Saisonprämie** in den letzten drei Tagen der Saison: ein Souvenir-Look bei 10 abgeholten Tagen und ein Bauplan für ein Schiffsdesign bei 20.
 - **Jeder Wipe bringt einen neuen Kalender.** Du siehst jedes Geschenk der Saison ab Tag 1.
-- **Absichtlich klein.** Alle 29 Tage zusammen sind ungefähr so viel wert wie ein paar Stunden Jagd, verteilt über eine Saison.
+- **Munition und Raketen.** Jedes tägliche Geschenk ist eine der beiden stärksten Sorten Lasermunition oder eine epische Rakete ([Die Geschenke](#the-gifts)). Die Truhen und die Saisonprämie sind davon getrennt.
 
 ## Der Tag {#the-day}
 
@@ -33,7 +33,7 @@ Die Karte und der Reiter nennen beide, wann die nächste Belohnung **in deiner e
 
 - **Tag 1 ist kurz.** Die Saison beginnt mit dem Wipe, mitten in einem UTC-Tag, also ist Kachel 1 ab da bis zum Ende dieses Tages offen, plus die Gnadenfrist.
 - **Tag 29 ist lang.** Die letzte Kachel bleibt offen, bis der Countdown des Wipe beginnt, und das kann mehr als 24 Stunden nach ihrem Öffnen sein. Sobald der Countdown läuft, lässt sich nichts mehr abholen, bis die neue Saison beginnt.
-- **Administratoren können den Saisontag verschieben.** Der Kalender folgt ihm: Übersprungene Tage gelten für alle als verpasst, und eine Kachel, die du schon abgeholt hast, bleibt abgeholt.
+- **Administratoren können den Saisontag verschieben.** Der Kalender folgt ihm. Wird er vorgestellt, gelten die übersprungenen Tage für alle als verpasst, und eine Kachel, die du schon abgeholt hast, bleibt abgeholt. Wird er zurückgestellt, werden die Tage noch einmal gespielt: Die Kacheln der Tage ab dem neuen Tag, die du abgeholt hattest, kannst du erneut abholen, jede dann, wenn die Uhr ihren Tag erreicht, und jede zahlt ihr Geschenk noch einmal aus. Was du bekommen hast, wird nicht zurückgenommen; die Kacheln vor dem neuen Tag, deine Truhen und deine Saisonprämie bleiben, wie sie sind (eine Truhe, die du schon erhalten hast, kommt kein zweites Mal).
 
 ## Die Kacheln {#the-tiles}
 
@@ -85,22 +85,19 @@ Die Saisonprämie hat zwei Stufen. Du holst sie in den **letzten drei Tagen** de
 
 ## Die Geschenke {#the-gifts}
 
-Das Geschenk eines Tages ist klein. Es ist eines von diesen:
+Das Geschenk eines Tages ist **Munition oder Raketen** und sonst nichts. Es ist einer von sechs Gegenständen:
 
-- **Munition und Raketen** in bescheidenen Stapeln.
-- **Materialien, Platten und Verbrauchsgüter**, darunter Forge kits (die Materialien eines Schritts in der Schmiede).
-- **Booster** von ein paar Stunden. Ein Booster-Geschenk fügt seine Stunden deinen [Boostern](/wiki/06-Items/Boosters.md#active-boosters) hinzu.
-- **Credits und Thulium** in kleinen Mengen.
-- **Ein paar Spezialgegenstände** (Workforce Contract, Forger's Seal): nie mehr als 4 Kacheln einer Saison.
+- **Ultra Core** (3,0x) und **Experimental Fusion Core** (4,0x), die beiden stärksten Sorten [Lasermunition](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** und **Scatter III**, die epischen [Raketen](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
-Diese Seite nennt kein Geschenk irgendeiner Saison, weil der Kalender bei jedem Wipe anders ist. Der Reiter Kalender zeigt die Geschenke dieser Saison. Ein Geschenk ist ein Geschenk: Gegenstände aus dem Kalender tragen kein Label **Handelbar** ([Handelbare Gegenstände](/wiki/03-Mechanics/Inventory.md#marketable-items)) und lassen sich nicht in der [Auktion](/wiki/03-Mechanics/Auction.md) anbieten.
+Die Größe des Stapels ist von Tag zu Tag verschieden, und der Kalender ist bei jedem Wipe anders. Der Reiter Kalender zeigt die Geschenke dieser Saison. Die Truhen und die Saisonprämie sind keine täglichen Geschenke und bleiben, wie sie sind. Ein Geschenk ist ein Geschenk: Gegenstände aus dem Kalender tragen kein Label **Handelbar** ([Handelbare Gegenstände](/wiki/03-Mechanics/Inventory.md#marketable-items)) und lassen sich nicht in der [Auktion](/wiki/03-Mechanics/Auction.md) anbieten.
 
 ## Der Wipe {#the-wipe}
 
 Eine neue Saison ist ein neuer Kalender. Beim [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) schließt der alte, und der neue öffnet mit seinen eigenen 29 Geschenken, und deine Zählung beginnt wieder bei 0. Der Wipe nimmt nichts von dem, was du abgeholt hast, außer dem, was er jedem Gegenstand nimmt:
 
-- **Gelöscht:** Geschenke, die Gegenstände sind (Munition, Raketen, Materialien, Platten, Verbrauchsgüter), löscht der Wipe, wenn sie nicht in deinem [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) liegen. Der Kalender kennzeichnet so ein Geschenk mit einem Hinweis.
-- **Behalten:** Booster, Credits, Thulium, Spezialgegenstände, Looks, Technologien (ein Bauplan) und Container.
+- **Behalten:** die Munition und die Raketen des Kalenders nimmt der Wipe von selbst mit, bis zu einer Grenze für jede Sorte ([Munition und Raketen](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Ebenfalls behalten: Booster, Credits, Thulium, Looks, Technologien (ein Bauplan) und Container.
+- **Gelöscht:** jeder andere Gegenstand, den du besitzt, etwa die Dark Matter Plates, die einen schon bekannten Bauplan ersetzen, wird vom Wipe gelöscht, wenn er nicht in deinem [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) liegt.
 - **Die letzten vier Tage (26 bis 29) geben nur Geschenke, die behalten werden**, sodass ein Geschenk der letzten Woche dem Wipe nie zum Opfer fällt.
 
 ## Späte Einsteiger und späte Kalender {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Eine neue Saison ist ein neuer Kalender. Beim [Wipe](/wiki/03-Mechanics/Wipe-Tim
 - **Ändert Premium etwas?** Nein. Premium gibt keine zusätzlichen Kacheln und keine besseren Geschenke, und der Kalender verschenkt keine Premium-Tage.
 - **Brauche ich einen Clan?** Nein. Der Kalender nutzt denselben Tag wie die Tageslinie der Clans, aber er gehört dir allein.
 - **Gibt es eine Levelgrenze?** Nein. Jeder Pilot kann abholen, ab Level 1.
-- **Was passiert beim Wipe?** Du bekommst einen neuen Kalender und fängst wieder bei 0 Tagen an. Geschenke, die Gegenstände sind, werden gelöscht, wenn sie nicht im Transport-Cache liegen; der Rest bleibt ([Der Wipe](#the-wipe)).
+- **Was passiert beim Wipe?** Du bekommst einen neuen Kalender und fängst wieder bei 0 Tagen an. Die Munition und die Raketen des Kalenders nimmt der Wipe bis zu seinen Grenzen mit; jeder andere Gegenstand wird gelöscht, wenn er nicht im Transport-Cache liegt, und der Rest bleibt ([Der Wipe](#the-wipe)).
 
 ## Gut zu wissen {#good-to-know}
 

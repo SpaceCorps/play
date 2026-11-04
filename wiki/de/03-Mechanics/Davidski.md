@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c0e478368e420e01 -->
+<!-- wiki-i18n source: 2aef34f27861592a -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jed
 | Extras | ein Repair Drone IV, ein Auto-Repair CPU und ein Base CPU II |
 | Hülle | 15 Hull Plating III |
 
-In Alpha-Stärke hat er **858.750 Hülle**, **1.309.534 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 80,5 % Absorption, Tempo 96, 945 Reichweite und eine Salve von **4.104 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,2 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa zwölf Minuten Dauerfeuer, zehn von ihnen etwa eine Minute und zehn Sekunden.
+In Alpha-Stärke hat er **858.750 Hülle**, **1.309.534 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 86,3 % Absorption, Tempo 89, 945 Reichweite und eine Salve von **4.104 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,2 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa zwölf Minuten Dauerfeuer, zehn von ihnen etwa eine Minute und zehn Sekunden.
 
 ## Der Kampf gegen ihn {#fighting-him}
 

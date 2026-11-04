@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
-En **svärm** är en grupp utomjordingar som drar runt i en del av galaxen under en **ledare**: en boss, mycket starkare än någon utomjording omkring den, med **följeslagare** som vaktar den och, i två av svärmarna, läker den. Det finns tre, och var och en har sin egen artikel:
+En **svärm** är en grupp utomjordingar som drar runt i en del av galaxen under en **ledare**: en boss, mycket starkare än någon utomjording omkring den, med **följeslagare** som vaktar den och, i de flesta svärmarna, läker den. Det finns sju, och var och en har sin egen artikel:
 
 - [Seeker-svärm](/wiki/05-Swarms/Seeker-Swarm.md): Boss Seeker och dess Seeker Slaves, den minsta svärmen, i sektorerna där nya piloter flyger.
 - [Pirate-svärm](/wiki/05-Swarms/Pirate-Swarm.md): Pirate Boss och dess Pirate Scouts, en lång strid för en grupp.
 - [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md): Dormant Force och dess Dormant Pulses, den starkaste svärmen, med det rikaste bytet.
+- [Phantasm-svärm](/wiki/05-Swarms/Phantasm-Swarm.md): Boss Phantasm och dess Phantasm Guards, en enorm Phantasm för en grupp piloter på mellannivå, i koncernernas yttre sektorer.
+- [Goombah-svärm](/wiki/05-Swarms/Goombah-Swarm.md): Boss Goombah och dess Goombah Guards, en enorm Goombah för en grupp av de starkaste piloterna, i samma sektorer.
+- [Crystalys-svärm](/wiki/05-Swarms/Crystalys-Swarm.md): Boss Crystalys och dess Crystalys Guards, den segaste utomjordingen men större, i tre av farosektorerna.
+- [Tesseract-svärm](/wiki/05-Swarms/Tesseract-Swarm.md): Tesseract, ett enormt moderskepp som släpper ut Facets så länge det träffas, för en mycket stor grupp, i farosektorn `DS-4`.
 
 Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskjutningsräknare, och inget av dem räknas som en Seeker, en Phantasm eller någon annan utomjording. Ett svärmskepp har formen av skeppet det bygger på, i en egen nyans och med sitt namn ovanför; Boss Seeker är en mycket större Seeker.
 
 **Klanväktarna** är inga publika svärmar. En klan kallar fram sin egen väktare för sista steget i sin dagslinje, och bara den klanen kan skada den: ingen pilot möter en som ströftar omkring i en sektor, och tabellerna nedan listar dem inte. En väktare betalas efter skada, som en svärmboss, men dess byte är inte en låda åt den som gjorde mest skada: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](/wiki/03-Mechanics/Cargo.md#private-boxes). Se [Klaner](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## De tre svärmarna {#the-three-swarms}
+## Svärmarna {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskj
 | [**Pirate-svärm**](/wiki/05-Swarms/Pirate-Swarm.md) | Sektorerna `x-2` och `x-3` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Pirate Boss** | Upp till 5 × Pirate Scout, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
 | [**Dormant-svärm**](/wiki/05-Swarms/Dormant-Swarm.md) | Farosektorerna `DS-1`, `DS-2`, `DS-3`, `DS-4`, flyger från den ena till den andra | En i varje värld | **Dormant Force** | 2 × Dormant Pulse, som flyger med ledaren | 1 h efter att hela svärmen förstörts, i en slumpmässig farosektor. Från säsongsdag 11: 30 min, vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och varje skepp betalar ×2 |
 | [**Seeker-svärm**](/wiki/05-Swarms/Seeker-Swarm.md) | Sektorerna `x-1` och `x-2` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Seeker** | Upp till 4 × Seeker Slave, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
+| [**Phantasm-svärm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Sektorerna `x-3` och `x-4` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Phantasm** | Upp till 4 × Phantasm Guard, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
+| [**Goombah-svärm**](/wiki/05-Swarms/Goombah-Swarm.md) | Sektorerna `x-3` och `x-4` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Goombah** | Upp till 4 × Goombah Guard, en ny var 10 s | 5 min efter att ledaren förstörts, i samma sektor |
+| [**Crystalys-svärm**](/wiki/05-Swarms/Crystalys-Swarm.md) | Farosektorerna `DS-1`, `DS-2`, `DS-3` | En i var och en av de sektorerna, 3 i varje värld | **Boss Crystalys** | Upp till 3 × Crystalys Guard, en ny var 10 s | 30 min efter att ledaren förstörts, i samma sektor |
+| [**Tesseract-svärm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Farosektorn `DS-4` | En i varje värld | **Tesseract** | Upp till 50 × Facet, 10 till var 5 s medan ledaren träffas | 30 min efter att ledaren förstörts, i samma sektor |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ Världen skalar en svärm som den skalar varje utomjording ([Världar](/wiki/03-
 
 ## Vad piloterna får veta {#what-the-pilots-are-told}
 
-Seeker- och Pirate-svärmarna meddelar piloterna i sin egen sektor när en boss dyker upp och när den förstörs. Dormant-svärmen meddelar hela sin värld, och den är markerad på kartorna över farosektorerna och på galaxkartan, så att piloter kan hitta den. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Nedskjutningen av en boss får också en rad i dödsloggen som nämner piloten den tillskrivs. Listan *I korthet* i varje artikel säger vem som meddelas.
+Seeker-, Pirate-, Phantasm-, Goombah-, Crystalys- och Tesseract-svärmarna meddelar piloterna i sin egen sektor när en boss dyker upp och när den förstörs. Dormant-svärmen meddelar hela sin värld, och den är markerad på kartorna över farosektorerna och på galaxkartan, så att piloter kan hitta den. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Nedskjutningen av en boss får också en rad i dödsloggen som nämner piloten den tillskrivs. Listan *I korthet* i varje artikel säger vem som meddelas.
 
 ## Att strida mot en svärm {#fighting-a-swarm}
 
-- **Ledarna börjar aldrig en strid.** En ledare drar omkring tills en pilot träffar den, svarar sedan, och svärmens skepp nära den ansluter sig till striden mot den första piloten som träffade den (avståndet står i reglerna ovan). Pirate Scouts är undantaget: de attackerar varje pilot som kommer nära. En ledare reparerar aldrig sitt skrov själv, så skadan du gjorde blir kvar på den om inte dess följeslagare läker den; dess sköld laddas om som hos alla utomjordingar.
+- **Ledarna börjar aldrig en strid.** En ledare drar omkring tills en pilot träffar den, svarar sedan, och svärmens skepp nära den ansluter sig till striden mot den första piloten som träffade den (avståndet står i reglerna ovan). Pirate Scouts är undantaget: de attackerar varje pilot som kommer nära. En ledare reparerar aldrig sitt skrov själv, så skadan du gjorde blir kvar på den om inte dess följeslagare läker den; dess sköld laddas om som hos alla utomjordingar. Bara Tesseract är annorlunda: den har inget vapen, läker skrov och sköld själv så snart ingen har skadat den på några sekunder, och dess Facets jagar piloten som har gjort mest skada, inte den som träffade först.
 - **Svärmskepp strider bara mot piloter.** De skjuter inte på utomjordingar och utomjordingar skjuter inte på dem, och [koncernpiloterna](/wiki/03-Mechanics/Company-Pilots.md) ignorerar dem: de jagar inte ett svärmskepp och kommer inte till din hjälp mot ett.
 - **Raketer.** Pirate Boss samt Dormant Force och Pulses skjuter **raka** raketer, [Rivet-raketer](/wiki/06-Items/Rockets.md), på piloten som attackerade dem. Ett skepp som håller sig i rörelse undviker dem, ett som står still blir träffat.
-- **Stridernas storlek.** Seeker-svärmen är till för två piloter, Pirate-svärmen för en liten grupp, Dormant-svärmen för en stor grupp av de starkaste skeppen; de högre världarna kräver fler piloter, som för varje utomjording.
+- **Stridernas storlek.** Seeker-svärmen är till för två piloter, Pirate- och Phantasm-svärmen för en liten grupp, Goombah-svärmen för en grupp av de starkaste skeppen, Crystalys- och Dormant-svärmen för en stor grupp av dem, Tesseract-svärmen för en mycket stor; de högre världarna kräver fler piloter, som för varje utomjording.
 
 ## Vad du bör ha med dig {#what-to-bring}
 
@@ -80,8 +88,8 @@ En vanlig utomjording betalar piloten som träffade den först ([Strid](/wiki/03
 
 - **Betalningen delas efter skada.** Varje pilot som gjort minst den andel som anges i reglerna ovan får betalt, i proportion till skadan: nedskjutningens krediter, Thulium, XP och heder delas mellan dem. En pilot under andelen får ingenting.
 - **Lastlådan går till piloten som gjorde mest skada.** Den är den pilotens (och dess klans) i 30 sekunder, som för varje utomjording, och sedan kan vem som helst ta den ([Last](/wiki/03-Mechanics/Cargo.md)). Varje Dormant-skepp har sin egen skaderäkning och sin egen låda.
-- **Följeslagare betalar som vanligt**: Pirate Scouts och Seeker Slaves betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
-- **Betalningen för en boss är gjord för att slå utomjordingarna omkring den.** En minuts strid mot en Pirate Boss betalar mer än en minuts strid mot en Goombah, och Dormant-svärmen betalar ännu mer; Boss Seeker betalar exakt tio Seekers.
+- **Följeslagare betalar som vanligt**: Pirate Scouts, Seeker Slaves och Guards i Phantasm-, Goombah- och Crystalys-svärmarna betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
+- **Betalningen för en boss är gjord för att slå utomjordingarna omkring den.** En minuts strid mot en Pirate Boss, en Boss Phantasm eller en Boss Goombah betalar mer än en minuts strid mot en Goombah, och en minut mot Dormant-svärmen eller en Boss Crystalys betalar mer än en minut mot en Crystalys; Boss Seeker betalar exakt tio Seekers.
 - **Dormant Swamps utomjordingar** (Slumbering Void, Inert Mass och Unwakened) betalas som en boss, efter skada, och ger PvE-poäng till din ranking; deras siffror finns i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik och ger PvE-poäng till din ranking:
@@ -97,6 +105,14 @@ Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik
 | **Dormant Pulse** | Dormant-svärm | 11 |
 | **Boss Seeker** | Seeker-svärm | 5 |
 | **Seeker Slave** | Seeker-svärm | 1 |
+| **Boss Phantasm** | Phantasm-svärm | 8 |
+| **Phantasm Guard** | Phantasm-svärm | 1 |
+| **Boss Goombah** | Goombah-svärm | 14 |
+| **Goombah Guard** | Goombah-svärm | 3 |
+| **Boss Crystalys** | Crystalys-svärm | 21 |
+| **Crystalys Guard** | Crystalys-svärm | 6 |
+| **Tesseract** | Tesseract-svärm | 42 |
+| **Facet** | Tesseract-svärm | 0 |
 
 <!-- swarms-points:end -->
 

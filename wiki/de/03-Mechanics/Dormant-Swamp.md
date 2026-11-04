@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Schaden eines Schusses, in jeder Welt:
 - **Eine Tarnung bringt dich hinein.** Kein Turm sieht je ein getarntes Schiff, noch eines im Fenster eines EMP, in keiner Entfernung. Eine Explosion, die auf ein sichtbares Schiff gezielt war und neben einem getarnten detoniert, verletzt dieses trotzdem und beendet seine Tarnung.
 - **Sie schießen nur auf Piloten,** nie auf Aliens, Konzernpiloten oder den Schwarm, und der Schutz eines Schiffs, das gerade von einer Zerstörung zurückgekehrt ist, gilt auch gegen sie.
 - **Der Hinweisring.** Ein Schiff, das den Ring außerhalb der Zone überquert, erhält eine Systemzeile: Die Türme feuern auf jedes Schiff, das sie sehen, und in der Mitte schläft etwas. Es wird erst wieder informiert, wenn es den Ring verlassen hat und zurückgekommen ist.
-- **Wieder hinaus.** Wirst du dort zerstört und kehrst an Ort und Stelle zurück, oder loggst du dich in der Zone ein, wirst du außerhalb abgesetzt. Ein Kurs, den du anklickst, wird um die Zone herumgeführt, und ein Hinweis warnt dich, wenn der angeklickte Ort in ihr liegt.
+- **Wieder hinaus.** Wirst du dort zerstört, kannst du nicht an Ort und Stelle zurückkehren (ein Gefahrensektor bietet nur die Basis und das nächste Portal an), und loggst du dich in der Zone ein, wirst du außerhalb abgesetzt. Ein Kurs, den du anklickst, wird um die Zone herumgeführt, und ein Hinweis warnt dich, wenn der angeklickte Ort in ihr liegt.
 
 ## Die Aliens {#the-aliens}
 
 Drei Aliens der verlorenen Zivilisation leben hier, jedes mit eigenen Zahlen. Sie werden bezahlt wie der Boss eines Schwarms: **nach dem angerichteten Schaden**, an jeden Piloten, der mindestens den in [Schwärme](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm) genannten Anteil erreicht hat, und die Kiste geht an den Piloten mit dem meisten Schaden. Ihre Abschüsse zählen für deine PvE-Rangpunkte wie die eines Schwarmschiffs, im Verhältnis zu ihrer Bezahlung ([Ränge](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Der Schild jedes von ihnen nimmt 80 % jedes Treffers auf, solange er hält ([Schilde](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** Der schlanke Jäger, das schnellste Alien im Spiel (so schnell wie eine Storm mit Afterburner III). Einige patrouillieren immer in der Umgebung des Sumpfs, und andere kommen in Wellen zu den Baggern. Es ist aggressiv, jagt den nächsten Piloten, den es sehen kann, und sieht nie ein getarntes Schiff.
+- **Slumbering Void.** Der schlanke Jäger, das schnellste Alien im Spiel (schneller als eine Storm mit Afterburner III). Einige patrouillieren immer in der Umgebung des Sumpfs, und andere kommen in Wellen zu den Baggern. Es ist aggressiv, jagt den nächsten Piloten, den es sehen kann, und sieht nie ein getarntes Schiff.
 - **Inert Mass.** Ein toter Koloss mit violetten Rissen, so groß wie eine kleine Station. Sie bleiben in einem festen Umkreis um die Mitte des Sumpfs und verlassen ihn vorerst nicht. Sie feuert **Dormant Lances**: gelenkte Raketen mit sehr großer Reichweite, die einem Schiff folgen, bis es sich tarnt, ein EMP-Fenster öffnet, einen Schutzring betritt, springt oder stirbt. Sie ist schneller als jedes Schiff, nur diese Unterbrechungen helfen. Ein Asteroid auf dem Weg einer Dormant Lance hält sie auf, und die Lance beschädigt ihn mit ihrem eigenen Schaden (niemand wird dafür bezahlt); ein Felsen schützt vor einer Inert Mass also nur für ein paar Treffer.
 - **Der Unwakened.** Ein Monolith, der in der Mitte des Sumpfs schläft, das größte Ding auf jeder Karte, so langsam, dass er nie ein Schiff erwischt. Er feuert nichts, aber jedes Schiff in seiner Aura verbrennt, **getarnt oder nicht**. Er ist **immun**: Schüsse und Raketen treffen und bewirken nichts, das Zielfenster zeigt volle Balken und das Wort Immun. Ein späteres Event wird es erlauben, ihn zu bekämpfen; seine Belohnungen unten sind aufgeschrieben und noch nicht zu verdienen.
 

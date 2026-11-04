@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Boosters -->
 # Boosters
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Boosters använder ett additivt skalningssystem:
 1. **Procentbonusar läggs ihop**: Köper du två olika boosters som båda ger +10 % laserskada får du en total bonus på **+20 % laserskada**.
 2. **Varaktigheter staplas multiplikativt**: Köper du _samma_ booster flera gånger förlängs dess aktiva tid. Tidtagarna för _olika_ boosters löper parallellt.
-3. **Tidsvy**: Aktiva boosters visas i HUD:en i fönstret Boosters, med de sammanlagda aktiva bonusarna grupperade och nästa utgångshändelse.
+3. **Tidsvy**: Aktiva boosters visas i HUD:en i fönstret Boosters, med de sammanlagda aktiva bonusarna grupperade och nästa utgångshändelse. En kategoris summa räknar allt som höjer den: boosterna, dina säsongsbutiksbuffar, din klans boosts och dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md) har var sin rad i kategorin, så summan är det ditt skepp verkligen får. Översiktens kort Aktiva boosters visar samma summor.
 4. **Siffrorna räknar med dem**: skada, sköldar, sköldåterladdning, absorption, fart och skrov i Hangaren, och din pilotsida, inkluderar dina aktiva boosters, dina säsongsbutiksbuffar, din klans boosts och dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md); en liten etikett *med boosters* på kortet med stridsvärden visar det. Genomträngning, kritchans och räckvidd ändras inte av boosters.
 
 ---

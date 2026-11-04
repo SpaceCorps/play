@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: 推進装置 -->
 # 推進装置と速度 {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## エンジン {#engines}
 
-エンジンは艦の主な推進力です。**アビリティスロット**に入れたエンジンは、それ自体の推力を生まない代わりに、「特殊効果」列の **Afterburner** を使えるようにします。Afterburner は10秒間の加速で、エンジンを重ねるとさらに長くなります（[アビリティ](/wiki/03-Mechanics/Abilities.md)を参照）。
+エンジンは艦の主な推進力です。**アビリティスロット**に入れたエンジンは、それ自体の推力を生まない代わりに、「特殊効果」列の **Afterburner** を使えるようにします。Afterburner は15秒間の加速で、エンジンを重ねるとさらに長くなります（[アビリティ](/wiki/03-Mechanics/Abilities.md)を参照）。
 
 | 名前 | レアリティ | 基本速度 | 速度ボーナス% | シールドボーナス% | スロット | 特殊効果 | コスト |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | 粗悪 | +2 | +2% | -2% | 1 | Afterburner I | 20,000クレジット |
-| **Engine II** | コモン | +4 | +4% | -8% | 2 | Afterburner II | 製作専用 |
-| **Engine III** | レア | +6 | +5% | -15% | 3 | Afterburner III | 製作専用 |
+| **Engine II** | コモン | +4 | +3% | -8% | 2 | Afterburner II | 製作専用 |
+| **Engine III** | レア | +6 | +4% | -15% | 3 | Afterburner III | 製作専用 |
 
 **Engine II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Engine I から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚が必要です。**Engine III** は、同じくアセンブリで Engine II から作ります。4,000 Thulium、Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したエンジンのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するエンジンを艦から外してください（中のスラスターも取り出します）。装備されたままのエンジンや、スラスターが入ったままのエンジンは消費されません。
 
@@ -90,4 +90,4 @@ Impulse は固定の速度加算が大きく、Momentum は倍率が大きいの
 
 ### エイリアンを振り切る {#outrunning-aliens}
 
-エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion の速度は、Impulse Thruster I で221.4です。まだ Crystalys に届かないため、振り切るにはアセンブリで作ったスラスターが必要です（Impulse Thruster II で230.8、III で240.3、IV で243.3）。Momentum Thruster は、この艦では同じか少し低くなります（Momentum Thruster I で221.4、II から IV は230.5、238.4、240.7）。どちらの系統もティアIは Crystalys に届かず、アセンブリで作ったティアはすべて上回ります（ティアIIは0.8と0.5だけ）。
+エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion の速度は、Impulse Thruster I で219.3、II で228.6です。どちらもまだ Crystalys に届かないため、振り切るにはティアIIIのスラスターが必要です（Impulse Thruster III で238.0、IV で241.0）。Momentum Thruster は、この艦では同じか少し低くなります（Momentum Thruster I で219.3、II から IV は228.3、236.1、238.4）。どちらの系統もティアIとIIは Crystalys に届かず、ティアIIIとIVは上回ります。

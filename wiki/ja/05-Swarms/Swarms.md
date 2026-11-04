@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
-**群れ**とは、**リーダー**のもとで銀河の一部をうろつくエイリアンの集団です。リーダーは周囲のどのエイリアンよりはるかに強いボスで、**配下**がそれを守り、2つの群れでは回復もします。群れは3つあり、それぞれに専用の記事があります。
+**群れ**とは、**リーダー**のもとで銀河の一部をうろつくエイリアンの集団です。リーダーは周囲のどのエイリアンよりはるかに強いボスで、**配下**がそれを守り、ほとんどの群れでは回復もします。群れは7つあり、それぞれに専用の記事があります。
 
 - [Seeker の群れ](/wiki/05-Swarms/Seeker-Swarm.md)：Boss Seeker とその Seeker Slave。最も小さな群れで、新人パイロットが飛ぶセクターにいます。
 - [Pirate の群れ](/wiki/05-Swarms/Pirate-Swarm.md)：Pirate Boss とその Pirate Scout。グループ向けの長い戦いです。
 - [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)：Dormant Force とその Dormant Pulse。最強の群れで、ドロップも最も豪華です。
+- [Phantasm の群れ](/wiki/05-Swarms/Phantasm-Swarm.md)：Boss Phantasm とその Phantasm Guard。中レベルのパイロットのグループ向けの巨大な Phantasm で、企業の外側のセクターにいます。
+- [Goombah の群れ](/wiki/05-Swarms/Goombah-Swarm.md)：Boss Goombah とその Goombah Guard。最強のパイロットたちのグループ向けの巨大な Goombah で、同じセクターにいます。
+- [Crystalys の群れ](/wiki/05-Swarms/Crystalys-Swarm.md)：Boss Crystalys とその Crystalys Guard。最も頑丈なエイリアンをさらに大きくしたもので、3つの危険セクターにいます。
+- [Tesseract の群れ](/wiki/05-Swarms/Tesseract-Swarm.md)：Tesseract と、攻撃されている間に放たれる Facet。巨大な母艦で、非常に大きなグループ向け。危険セクター `DS-4` にいます。
 
 群れの艦は**それぞれ独立した種類のエイリアン**です。独自の名前と独自の撃破数を持ち、Seeker や Phantasm、その他のエイリアンとしては数えられません。群れの艦は、土台になった艦の形をしていて、独自の色合いを帯び、頭上に名前が表示されます。Boss Seeker はずっと大きな Seeker です。
 
 **クランのウォーデン**は公開の群れではありません。クランは、自分たちのデイリーラインの最後のステップのために自分のウォーデンを召喚し、そのクランだけがダメージを与えられます。セクターをうろつくウォーデンに出会うことはなく、下の表にも載っていません。ウォーデンへの報酬は群れのボスと同じようにダメージで決まりますが、戦利品は最もダメージを与えた人のための1つのコンテナではありません。ダメージの5%以上を与えたパイロットは全員、自分専用の[プライベートコンテナ](/wiki/03-Mechanics/Cargo.md#private-boxes)を受け取ります。[クラン](/wiki/03-Mechanics/Clans.md#clan-wardens)を参照してください。
 
-## 3つの群れ {#the-three-swarms}
+## 群れの一覧 {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@
 | [**Pirate の群れ**](/wiki/05-Swarms/Pirate-Swarm.md) | 各企業の `x-2` と `x-3` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Pirate Boss** | 最大 5 体の Pirate Scout、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
 | [**Dormant の群れ**](/wiki/05-Swarms/Dormant-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3`, `DS-4`。それらの間を 飛び回る | 各ワールドに1つ | **Dormant Force** | 2 体の Dormant Pulse、 リーダーと 一緒に飛行 | 群れ全体撃破の 1時間 後、 ランダムな 危険セクター。シーズン11日目から：30分、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) で、どの艦も報酬は ×2 |
 | [**Seeker の群れ**](/wiki/05-Swarms/Seeker-Swarm.md) | 各企業の `x-1` と `x-2` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Seeker** | 最大 4 体の Seeker Slave、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
+| [**Phantasm の群れ**](/wiki/05-Swarms/Phantasm-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Phantasm** | 最大 4 体の Phantasm Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
+| [**Goombah の群れ**](/wiki/05-Swarms/Goombah-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Goombah** | 最大 4 体の Goombah Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 5分 後、 同じセクター |
+| [**Crystalys の群れ**](/wiki/05-Swarms/Crystalys-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3` | 各セクターに 1つ （各ワールドに 計3つ） | **Boss Crystalys** | 最大 3 体の Crystalys Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 30分 後、 同じセクター |
+| [**Tesseract の群れ**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危険セクター `DS-4` | 各ワールドに1つ | **Tesseract** | 最大 50 体の Facet、リーダーが攻撃されている間 5秒 ごとに 10 体追加 | リーダー撃破の 30分 後、 同じセクター |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@
 
 ## パイロットへの通知 {#what-the-pilots-are-told}
 
-Seeker の群れと Pirate の群れは、ボスが現れたときと倒されたときに、そのセクターのパイロットに知らせます。Dormant の群れはワールド全体に知らせ、危険セクターのマップと銀河マップに印が付くので、パイロットは見つけられます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。ボスの撃破は、撃破の功績を得たパイロットの名前を載せた行がキルフィードにも出ます。誰に知らされるかは、各記事の*ひと目で*の一覧に書かれています。
+Seeker、Pirate、Phantasm、Goombah、Crystalys、Tesseract の群れは、ボスが現れたときと倒されたときに、そのセクターのパイロットに知らせます。Dormant の群れはワールド全体に知らせ、危険セクターのマップと銀河マップに印が付くので、パイロットは見つけられます。これらはシステムの行です。チャットの**システム**タブに未読数付きで表示され、**全体**タブや**ローカル**タブには出ません。ボスの撃破は、撃破の功績を得たパイロットの名前を載せた行がキルフィードにも出ます。誰に知らされるかは、各記事の*ひと目で*の一覧に書かれています。
 
 ## 群れとの戦い {#fighting-a-swarm}
 
-- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。
+- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。Tesseract だけは例外で、武器を持たず、数秒間誰にも攻撃されないと船体とシールドを自分で回復し、配下の Facet は最初に攻撃したパイロットではなく、最も多くのダメージを与えたパイロットを追います。
 - **群れの艦が戦うのはパイロットだけです。** エイリアンを撃たず、エイリアンからも撃たれません。[企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)は群れの艦を無視し、狩ることも、あなたを助けに来ることもありません。
 - **ロケット。** Pirate Boss と Dormant Force、Pulse は、自分を攻撃したパイロットに向けて**直進**ロケット、つまり[Rivet ロケット](/wiki/06-Items/Rockets.md)を撃ちます。動き続ける艦はかわせますが、止まっている艦には当たります。
-- **戦いの規模。** Seeker の群れは2人向け、Pirate の群れは小さなグループ向け、Dormant の群れは最強の艦の大きなグループ向けです。上位のワールドほど、ほかのエイリアンと同じく、より多くのパイロットが必要です。
+- **戦いの規模。** Seeker の群れは2人向け、Pirate の群れと Phantasm の群れは小さなグループ向け、Goombah の群れは最強の艦のグループ向け、Crystalys の群れと Dormant の群れはその大きなグループ向け、Tesseract の群れは非常に大きなグループ向けです。上位のワールドほど、ほかのエイリアンと同じく、より多くのパイロットが必要です。
 
 ## 持っていくもの {#what-to-bring}
 
@@ -80,8 +88,8 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 
 - **報酬はダメージに応じて分けられます。** 上のルールで示された割合以上のダメージを与えたパイロットが、与えたダメージに比例して報酬を受け取ります。撃破のクレジット、Thulium、経験値、名誉は、その人たちの間で分けられます。割合に届かなかったパイロットには何も支払われません。
 - **積荷コンテナは最もダメージを与えたパイロットのものになります。** 通常のエイリアンと同じく、30秒間はそのパイロット（とそのクラン）のもので、その後は誰でも取れます（[積荷](/wiki/03-Mechanics/Cargo.md)）。Dormant の各艦には、それぞれ独自のダメージ集計と独自のコンテナがあります。
-- **配下はいつもどおりに支払います。** Pirate Scout と Seeker Slave は最初に攻撃したパイロットに報酬を払い、その報酬はボスに比べて少額です。
-- **ボスの報酬は、周囲のエイリアンを上回るように作られています。** Pirate Boss と戦う1分は、Goombah と戦う1分より多く報酬を払い、Dormant の群れはさらに多く払います。Boss Seeker の報酬は、ちょうど Seeker 10体分です。
+- **配下はいつもどおりに支払います。** Pirate Scout、Seeker Slave、そして Phantasm、Goombah、Crystalys の群れの Guard は最初に攻撃したパイロットに報酬を払い、その報酬はボスに比べて少額です。
+- **ボスの報酬は、周囲のエイリアンを上回るように作られています。** Pirate Boss、Boss Phantasm、Boss Goombah と戦う1分は、Goombah と戦う1分より多く報酬を払い、Dormant の群れや Boss Crystalys と戦う1分は Crystalys と戦う1分より多く払います。Boss Seeker の報酬は、ちょうど Seeker 10体分です。
 - **Dormant Swamp のエイリアン**（Slumbering Void、Inert Mass、Unwakened）は、ボスと同じくダメージに応じて報酬が支払われ、ランキングの PvE ポイントに加わります。数値は [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)にあります。
 
 撃破はすべて、その艦自身の名前でキルの統計に数えられ、ランキングに PvE ポイントを加えます。
@@ -97,6 +105,14 @@ Seeker の群れと Pirate の群れは、ボスが現れたときと倒され�
 | **Dormant Pulse** | Dormant の群れ | 11 |
 | **Boss Seeker** | Seeker の群れ | 5 |
 | **Seeker Slave** | Seeker の群れ | 1 |
+| **Boss Phantasm** | Phantasm の群れ | 8 |
+| **Phantasm Guard** | Phantasm の群れ | 1 |
+| **Boss Goombah** | Goombah の群れ | 14 |
+| **Goombah Guard** | Goombah の群れ | 3 |
+| **Boss Crystalys** | Crystalys の群れ | 21 |
+| **Crystalys Guard** | Crystalys の群れ | 6 |
+| **Tesseract** | Tesseract の群れ | 42 |
+| **Facet** | Tesseract の群れ | 0 |
 
 <!-- swarms-points:end -->
 

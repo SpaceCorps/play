@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Recompensas diarias -->
 # Recompensas diarias {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; recompensa diaria; recompensas diarias; inicio de sesión diario; calendario; cofre; premio de temporada; recuerdo; plano; racha -->
 
-Cada temporada tiene un **calendario de recompensas diarias**: un regalo pequeño por cada día de la temporada. En la estación, pulsa **Recoger** y el regalo del día es tuyo. Cuantos más días recojas, más consigues: cuatro **cofres** llegan a los 7, 14, 21 y 28 días recogidos, y en los últimos tres días de la temporada puedes llevarte el **premio de temporada**. Un día que se te pasa solo te cuesta el regalo de ese día y nada más. El calendario está en el **Panel** (la tarjeta **Recompensas diarias**) y en **Temporada y perfil › Calendario**.
+Cada temporada tiene un **calendario de recompensas diarias**: un regalo por cada día de la temporada, siempre de munición o cohetes. En la estación, pulsa **Recoger** y el regalo del día es tuyo. Cuantos más días recojas, más consigues: cuatro **cofres** llegan a los 7, 14, 21 y 28 días recogidos, y en los últimos tres días de la temporada puedes llevarte el **premio de temporada**. Un día que se te pasa solo te cuesta el regalo de ese día y nada más. El calendario está en el **Panel** (la tarjeta **Recompensas diarias**) y en **Temporada y perfil › Calendario**.
 
 ## En un minuto {#in-one-minute}
 
@@ -15,7 +15,7 @@ Cada temporada tiene un **calendario de recompensas diarias**: un regalo pequeñ
 - **4 cofres**, a los 7, 14, 21 y 28 días recogidos.
 - **Un premio de temporada** en los últimos tres días de la temporada: un aspecto de recuerdo a los 10 días recogidos y un plano de diseño de nave a los 20.
 - **Un calendario nuevo en cada reinicio.** Ves todos los regalos de la temporada desde el día 1.
-- **Pequeño a propósito.** Los 29 días juntos valen más o menos lo que unas pocas horas de caza, repartidos a lo largo de una temporada.
+- **Munición y cohetes.** Cada regalo diario es una de las dos municiones láser más fuertes o un cohete épico ([Los regalos](#the-gifts)). Los cofres y el premio de temporada van aparte.
 
 ## El día {#the-day}
 
@@ -33,7 +33,7 @@ La tarjeta y la pestaña dicen las dos cuándo se abre la próxima recompensa **
 
 - **El día 1 es corto.** La temporada empieza con el Reinicio, a mitad de un día UTC, así que la casilla 1 está abierta desde entonces hasta el final de ese día, más el margen de gracia.
 - **El día 29 es largo.** La última casilla sigue abierta hasta que empieza la cuenta atrás del Reinicio, y eso puede ser más de 24 horas después de que se abriera. Una vez empezada la cuenta atrás, no se puede recoger nada hasta que empiece la nueva temporada.
-- **Los administradores pueden mover el día de temporada.** El calendario lo sigue: los días que se saltan cuentan como perdidos para todos, y una casilla que ya recogiste sigue recogida.
+- **Los administradores pueden mover el día de temporada.** El calendario lo sigue. Si se adelanta, los días que se saltan cuentan como perdidos para todos, y una casilla que ya recogiste sigue recogida. Si se retrasa, los días se juegan otra vez: las casillas de los días desde el nuevo día que habías recogido se pueden recoger de nuevo, cada una cuando el reloj llega a su día, y cada una paga su regalo otra vez. Lo que ya recibiste no se retira, y las casillas anteriores al nuevo día, tus cofres y tu premio de temporada se quedan como están (un cofre que ya recibiste no llega por segunda vez).
 
 ## Las casillas {#the-tiles}
 
@@ -85,22 +85,19 @@ El premio de temporada tiene dos pasos. Los recoges en los **últimos tres días
 
 ## Los regalos {#the-gifts}
 
-El regalo de un día es pequeño. Es uno de estos:
+El regalo de un día es **munición o cohetes** y nada más. Es uno de seis objetos:
 
-- **Munición y cohetes**, en pilas modestas.
-- **Materiales, placas y consumibles**, entre ellos los Forge kits (los materiales de un paso de la Forja).
-- **Potenciadores** de unas pocas horas. Un regalo de potenciador suma sus horas a tus [potenciadores](/wiki/06-Items/Boosters.md#active-boosters).
-- **Créditos y Thulium**, en pequeñas cantidades.
-- **Unos pocos objetos especiales** (Workforce Contract, Forger's Seal): nunca más de 4 casillas de una temporada.
+- **Ultra Core** (x3,0) y **Experimental Fusion Core** (x4,0), las dos clases más fuertes de [munición láser](/wiki/06-Items/Lasers.md#laser-ammunition).
+- **Lancet III**, **Rivet III**, **Ember III** y **Scatter III**, los [cohetes](/wiki/06-Items/Rockets.md#the-twelve-rockets) épicos.
 
-Esta página no nombra ningún regalo de ninguna temporada, porque el calendario es distinto en cada reinicio. La pestaña Calendario muestra los regalos de esta temporada. Un regalo es un regalo: los objetos del calendario no llevan la etiqueta **Comercializable** ([Objetos comercializables](/wiki/03-Mechanics/Inventory.md#marketable-items)) y no se pueden poner a la venta en la [Subasta](/wiki/03-Mechanics/Auction.md).
+El tamaño de la pila cambia de un día a otro, y el calendario es distinto en cada reinicio. La pestaña Calendario muestra los regalos de esta temporada. Los cofres y el premio de temporada no son regalos diarios y siguen como están. Un regalo es un regalo: los objetos del calendario no llevan la etiqueta **Comercializable** ([Objetos comercializables](/wiki/03-Mechanics/Inventory.md#marketable-items)) y no se pueden poner a la venta en la [Subasta](/wiki/03-Mechanics/Auction.md).
 
 ## El reinicio {#the-wipe}
 
 Una temporada nueva es un calendario nuevo. En el [Reinicio](/wiki/03-Mechanics/Wipe-Timeline.md) el viejo se cierra y el nuevo se abre con sus propios 29 regalos, y tu cuenta vuelve a empezar en 0. El reinicio no se lleva nada de lo que recogiste, salvo lo que se lleva de todos los objetos:
 
-- **Se borran:** los regalos que son objetos (munición, cohetes, materiales, placas, consumibles) los borra el reinicio si no están en tu [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-). El Calendario marca ese regalo con una nota.
-- **Se conservan:** potenciadores, créditos, Thulium, objetos especiales, aspectos, tecnologías (un plano) y contenedores.
+- **Se conservan:** la munición y los cohetes del calendario los conserva el reinicio por sí solo, hasta un límite para cada clase ([Munición y cohetes](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). También se conservan potenciadores, créditos, Thulium, aspectos, tecnologías (un plano) y contenedores.
+- **Se borran:** cualquier otro objeto que tengas, como las Dark Matter Plates que sustituyen a un plano que ya conoces, lo borra el reinicio si no está en tu [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 - **Los últimos cuatro días (26 a 29) solo dan regalos que se conservan**, así que un regalo de la última semana nunca se pierde por el reinicio.
 
 ## Quien llega tarde y calendarios tardíos {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Una temporada nueva es un calendario nuevo. En el [Reinicio](/wiki/03-Mechanics/
 - **¿Cambia algo Premium?** No. Premium no da casillas extra ni mejores regalos, y el calendario no da días de Premium.
 - **¿Necesito un clan?** No. El calendario usa el mismo día que la línea diaria de los clanes, pero es solo tuyo.
 - **¿Hay un límite de nivel?** No. Todos los pilotos pueden recoger, desde el nivel 1.
-- **¿Qué pasa en el reinicio?** Recibes un calendario nuevo y empiezas otra vez en 0 días. Los regalos que son objetos se borran si no están en el Alijo de Transporte; el resto se conserva ([El reinicio](#the-wipe)).
+- **¿Qué pasa en el reinicio?** Recibes un calendario nuevo y empiezas otra vez en 0 días. La munición y los cohetes del calendario los conserva el reinicio, hasta sus límites; cualquier otro objeto se borra si no está en el Alijo de Transporte, y el resto se conserva ([El reinicio](#the-wipe)).
 
 ## Conviene saber {#good-to-know}
 

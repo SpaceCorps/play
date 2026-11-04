@@ -14,11 +14,11 @@ Forming or joining a Clan allows you to pool resources, level up shared banking,
 - The Leader and the Co-Leaders spend the points on three [boosts](#clan-points-and-boosts) of ten levels each: **Damage** (up to +5%), **Thulium** (up to +10%) and **Credits** (up to +10%).
 - A clan that finishes every line has bought every level on **day 12**. Points, levels and the clan itself end at the wipe.
 - You need at least **three members** who did their part, and **a big crew** for the Warden's fight: since 0.4.13 a Warden has five times the hull, shield and laser damage it had, so the crews that won before, about seven pilots, lose now ([how big a crew](#how-big-a-crew)). A crew that is too small loses the fight: the clan then keeps the **70 points** of the four missions, but the line is not finished and pays no [reward for you](#the-reward-for-you).
-- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of the map's aliens arrives every minute** (every 40 seconds for the Wrath Warden III), with a **Crystalys** in each wave once the Warden is under half its hull, aimed at the pilots who hit the Warden ([waves](#waves-of-aliens)).
+- A Warden pays a big pot, split by damage, and **every pilot who dealt 5% of the damage or more gets a private box** with his share of the loot, which only he sees and only he can take ([pay and loot](#warden-pay-and-loot)). Since 0.4.16 the pay is three times what it was, and while a Warden stands **a wave of Phantasm, Bulwarks and (from the Warden II up) Goombahs arrives every minute** (every 40 seconds for the Wrath Warden III), with a **Crystalys** in each wave once the Warden is under half its hull, aimed at the pilots who hit the Warden ([waves](#waves-of-aliens)).
 - Your ship shows the boosts it has in the **Boosters window**, as lines of the categories they raise ([where you see them](#the-three-boosts)).
 - The line and the boosts need a game of version 0.4.10 or later; the card in the Boosters window, 0.4.12 or later; the Clan Page, posts, the Online window, the daily bonus, peace requests, the log and clans per world, 0.4.16 or later.
 
-![The Boosters window in flight: Clan Damage is a line of the Damage category, with its bonus and level, and counts in the category's total](../img/wiki-img/shots/clan-boosters-window.jpg)
+![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../img/wiki-img/shots/clan-boosters-window.jpg)
 ![Buying a level of a clan boost: the sheet shows the level, the bonus the whole fleet gets and the cost in clan points](../img/wiki-img/shots/clan-boosts.jpg)
 ![Summoning a Warden for the clan](../img/wiki-img/shots/clan-warden.jpg)
 ![The Clan window in flight: the clan page over the game, with the clan's Operations](../img/wiki-img/shots/clan-window.jpg)
@@ -302,55 +302,56 @@ Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Ward
 
 ### Waves of aliens
 
-Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens of the map it stands on arrives **every 60 seconds**, for as long as the Warden stands. The table is the waves of eight of the nine Wardens; the [Wrath Warden III's waves](#wrath-iii-waves) are heavier. Under half its hull a Warden's waves also hold [a Crystalys](#crystalys-waves).
+Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the 90-second warm-up has no waves, so the crew can gather), a **wave** of ordinary aliens arrives **every 60 seconds**, for as long as the Warden stands. Since 0.5.0 a wave is a **mix**: about half [Phantasm](/wiki/04-Aliens/Phantasm.md), a quarter [Bulwarks](/wiki/04-Aliens/Bulwark.md) and a quarter [Goombahs](/wiki/04-Aliens/Goombah.md), on every map, except that a Warden I calls no Goombah (the first bullet below); a wave used to be one kind of alien, Phantasm on x-2 and x-3 and Bulwarks on x-4. A wave holds as many aliens as before. The table is the waves of the Wardens II and III other than the Wrath Warden III, whose [waves](#wrath-iii-waves) are heavier. Under half its hull a Warden's waves also hold [a Crystalys](#crystalys-waves).
 
 | Map | A wave | Most alive at once |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, and up to 3 Crystalys |
-| x-3 | 10 Phantasm | 30, and up to 3 Crystalys |
-| x-4 | 10 Bulwarks | 30, and up to 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark and 1 Goombah | 15, and up to 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwarks and 2 Goombahs | 30, and up to 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwarks and 2 Goombahs | 30, and up to 3 Crystalys |
 
+- **A Warden I calls no Goombah.** The Warden of a Recruit clan (mean level under 4) sends Phantasm and Bulwarks only, three Phantasm to a Bulwark, in waves of the same size: **4 Phantasm and 1 Bulwark on x-2, 8 Phantasm and 2 Bulwarks on x-3 and x-4**. A whole wave pays 17,000 Credits in Alpha on x-2 and 34,000 on x-3 and x-4, and 92,000 and 109,000 with its Crystalys; the most alive at once is the table's.
 - **At most three waves are alive.** A wave is alive while one of its aliens is. A wave that is due when three are alive is skipped, not saved for later; the next one is due a minute after.
-- **They are the map's own aliens**, the kind that attack pilots, made as the map makes them: a stronger world gives them more hull, shield and damage ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). They arrive 500 to 1,200 units from the Warden, spread around it.
-- **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave of 5 Phantasm pays 15,000 Credits in Alpha, a wave of 10 Bulwarks 50,000, under 2% of what the weakest Warden pays.
-- **They stop with the Warden.** When it is destroyed or withdraws, no more come; the aliens already out stay and are the map's ordinary aliens. A server restart ends them with the Warden.
-- **The clan is told.** Each wave is announced in the chat's System tab and the Game Log: "Brood Warden I calls reinforcements on M-3: 10 Phantasm."
-- **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam and draw whoever comes near, as before.
+- **They are ordinary aliens**, made as the map makes them: a stronger world gives them more hull, shield and damage ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), whatever the Warden's own strength. The Bulwarks and Goombahs come to every map, also to an x-2 sector, where none lives otherwise. They arrive 500 to 1,200 units from the Warden, spread around it.
+- **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave of the table pays 29,000 Credits in Alpha on x-2 (5 aliens) and 60,000 on x-3 and x-4 (10 aliens), a wave of a Warden I 17,000 and 34,000, under 2% of what its own Warden pays.
+- **They stop with the Warden.** When it is destroyed or withdraws, no more come; the aliens already out stay and are the map's ordinary aliens (a kind that the sector does not have of its own, such as the Bulwarks and Goombahs of an x-2 sector, leaves five minutes after the Warden unless pilots are still fighting it). A server restart ends them with the Warden.
+- **The clan is told.** Each wave is announced in the chat's System tab and the Game Log, a line for each kind of alien in it: "Brood Warden II calls reinforcements on M-3: 5 Phantasm.", "Brood Warden II calls reinforcements on M-3: 3 Bulwark." and "Brood Warden II calls reinforcements on M-3: 2 Goombah." (a Warden I tells two lines, as it has no Goombah)
+- **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam: the Phantasm and the Bulwarks draw whoever comes near, as before, and a Goombah, which never starts a fight, roams until somebody shoots it.
 
 #### The Crystalys of every Warden {#crystalys-waves}
 
 Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: under half its hull (the line where a Wrath Warden enrages) **every wave it sends also holds one Crystalys**, on top of the wave's size. It is the same for the Brood, Siege and Wrath Wardens, in all three strengths. Above half its hull the wave comes without it, and a Warden that is mended above half sends the next wave without it again.
 
 - **The Crystalys** is the heaviest ordinary alien of the game: 256,000 hull, 160,000 shield, 10,000 damage a volley from 900 units, speed 230 (in a stronger world more hull, shield and damage). It pays what any Crystalys pays: **75,000 Credits, 200 Thulium, 12,000 XP and 52 honor in Alpha** (twice that in Beta, three times in Gamma), and drops its ordinary loot. It is part of its wave: a wave is alive while its Crystalys is, so a Crystalys that is left standing keeps one of the waves alive (three at most, four for the Wrath Warden III), and a wave that is due while the most are alive is skipped.
-- **They are told as two lines**: "Wrath Warden III calls reinforcements on M-3: 15 Phantasm." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
-- **What they pay.** A whole wave of 10 Bulwarks pays 50,000 Credits in Alpha, and with its Crystalys 125,000: under 5% of the 2,700,000 the weakest Warden pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with the waves and their Crystalys in it, gives these smallest crews with x2 ammo, in the gear of the Warden's own tier, in Alpha. A level 3 clan holds 50 members and a level 5 clan 100. Like the table there, they are calculated and not measured, and the best case; in Gamma, where the aliens of the waves are twice as strong, they are bigger still.
+- **It is told as a line of its own**, after the lines of the mix: "Wrath Warden III calls reinforcements on M-3: 7 Phantasm.", "...: 4 Bulwark.", "...: 4 Goombah." and "Wrath Warden III calls reinforcements on M-3: 1 Crystalys."
+- **What they pay.** A whole wave of 10 aliens pays 34,000 Credits in Alpha for a Warden I and 60,000 for a Warden II, and with its Crystalys 109,000 and 135,000: about 4% of the 2,700,000 a Warden I pays and under 4% of the 3,600,000 a Warden II pays, less for a Warden III.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with the waves and their Crystalys in it, gives these smallest crews with x2 ammo, in the gear of the Warden's own tier, in Alpha. A level 3 clan holds 50 members and a level 5 clan 100. Since 0.5.0 the Bulwarks and Goombahs of the mix make the waves harder, but a Warden I calls no Goombah, so a level 3 clan holds enough pilots for every Warden on every map. Like the table there, they are calculated and not measured, and the best case; in Gamma, where the aliens of the waves are twice as strong, they are bigger still, and on x-3 and x-4 a level 3 clan is short for some Wardens.
 
 | Warden | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### The Wrath Warden III's waves {#wrath-iii-waves}
 
-Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every **40 seconds**, three quarters of the number of that alien the map holds, and up to **four waves** alive. Like every Warden it adds [a Crystalys](#crystalys-waves) to a wave under half its hull.
+Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every **40 seconds**, of 8 to 15 aliens in the same mix of Phantasm, Bulwarks and Goombahs, and up to **four waves** alive. Like every Warden it adds [a Crystalys](#crystalys-waves) to a wave under half its hull.
 
 | Map | A wave | Most alive at once |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, and up to 4 Crystalys |
-| x-3 | 15 Phantasm | 60, and up to 4 Crystalys |
-| x-4 | 15 Bulwarks | 60, and up to 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwarks and 2 Goombahs | 32, and up to 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwarks and 4 Goombahs | 60, and up to 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwarks and 4 Goombahs | 60, and up to 4 Crystalys |
 
 - **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens.
-- **What they pay.** A whole wave of 15 Bulwarks pays 75,000 Credits in Alpha, and with its Crystalys 150,000: about 2% of the 7,200,000 the Warden itself pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **32 pilots on x-2, 32 on x-3 and 39 on x-4** with x2 ammo (26 without waves), and 39, 41 and 50 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so 50 on x-4 in Gamma is all it can send. Like the table there, it is calculated and not measured, and the best case.
+- **What they pay.** A whole wave of 15 aliens pays 101,000 Credits in Alpha, and with its Crystalys 176,000: about 2% of the 7,200,000 the Warden itself pays.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **36 pilots on x-2, 40 on x-3 and 40 on x-4** with x2 ammo (26 without waves), and 46, 52 and 52 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so on x-3 and x-4 in Gamma it cannot send enough; a level 5 clan holds 100. Like the table there, it is calculated and not measured, and the best case.
 
 ### How big a crew
 
@@ -363,10 +364,10 @@ The table is the best case; in play, bring everyone you can.
 | :--- | :--- | :--- |
 | 5 pilots | lose to every Warden; the Warden keeps 88 to 96% of its hull and shield | lose |
 | 10 pilots | lose to every Warden; the Warden keeps 55 to 86% of its hull and shield | lose |
-| 20 pilots | win only against the Siege Warden I and II, in 7.2 to 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.9 minutes, losing 9 ships | lose |
-| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.4 to 10.5 minutes, losing 9 ships, and against the Brood Warden III, in 5.2 minutes, losing 13 ships |
+| 20 pilots | win only against the Siege Warden I and II, in 7.2 to 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.7 minutes, losing 8 ships | lose |
+| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.4 to 10.5 minutes, losing 9 ships, and against the Brood Warden III, in 5.1 minutes, losing 11 ships |
 
-In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 18** ships doing it; with x1 ammo it has **26 to 39** pilots and loses 12 to 27. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
+In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 17** ships doing it; with x1 ammo it has **26 to 39** pilots and loses 12 to 25. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
 
 The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
 

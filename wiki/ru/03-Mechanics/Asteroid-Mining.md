@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7a78278d44e3602 -->
+<!-- wiki-i18n source: 88f92b2c05ff7193 -->
 <!-- wiki-i18n title: Добыча на астероидах -->
 # Добыча на астероидах {#asteroid-mining}
 
@@ -58,7 +58,7 @@
 - **Сколько он разбивает.** Mole на вершине (Legendary 20-го уровня) разбивает не меньше астероидов в час, чем пилот, стреляющий по ним лучшей ракетой, Rivet III, а более низкие ранги и уровни — меньше ([таблица](/wiki/03-Mechanics/Pets.md#how-strong)). Он не тратит ни боеприпасов, ни ракет. Ваши лазеры, ракеты, усилители, бустеры, построение и Урон ваших P.E.T. не меняют импульс, а броня замедляет импульс так же, как ракету.
 - **Какие астероиды.** Ближайший в радиусе, который не закрывает другой астероид или Energetic Wall. Подходит любой астероид, который можно повредить ракетой: Motherlode и обломки (Cache Pod, Scrap Hulk, Derelict Hulk, Derelict Cruiser) тоже, и астероид, который задели другие пилоты; чанки тогда делятся по урону, как всегда. Обломки, которые вы видите плывущими на заднем плане, — лишь декорация, а не астероиды. Он не работает в безопасной зоне, под маскировкой, пока вы прыгаете и пока ваш корабль уничтожен.
 - **Своего предела нет.** Mole работает каждый час, пока вы летите, касаетесь вы клавиш или нет (бездействующий корабль — мишень), и никакой суточный предел его не останавливает, ни собственный, ни общий для мира. Остаётся то, что ограничивает всех: астероиды в пределах его досягаемости и скорость, с которой они вырастают заново. Его обломки платят полностью, как и ваши.
-- **Работает только один.** Из Mole в вашей Station работает лишь самый сильный; остальные только дают бонусы.
+- **Работают все Mole.** С 0.4.27 работает каждый Mole в вашей Station, у каждого свой дрон и свой луч, так что больше Mole разбивают больше астероидов, пока их достаточно в пределах досягаемости. С 0.5.0 ваши Mole могут работать с одним и тем же астероидом: каждый берёт ближайший, поэтому пять Mole при одном астероиде в пределах досягаемости работают с ним все и разбивают его быстрее. Импульсы, пришедшие после того, что разбивает астероид, пропадают, так что маленький астероид обходится в чуть больше работы Mole, чем говорит его корпус.
 
 ## Правила {#the-rules}
 
@@ -208,7 +208,7 @@
 
 | Вид | Корпус | Размер | Ступень | Особенность | Денежные части | Рассчитан на | Кредиты | Thulium | Находки | Где встречается |
 | :--- | ---: | :--- | ---: | :--- | ---: | :--- | ---: | ---: | :--- | :--- |
-| **Thulium Geode** | 66 000 | Средний | 3 | Взрывы ×1,6 | 2 | Примерно 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 36–84 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
+| **Thulium Geode** | 66 000 | Средний | 3 | Взрывы ×1,6 | 2 | Примерно 14× [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 42 450–70 800 | 72–168 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) 9–15, [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1 (4%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (1,5%) | `T-3`, `G-3`, `T-4` |
 | **Thulium Cluster** | 100 000 | Большой | 4 | – | 2 | Примерно 14× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 62 100–103 500 | 42–99 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 12–21, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–15 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `T-4`, `G-4` |
 | **Vault Rock** | 130 000 | Большой | 4 | – | 3 | Примерно 18× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 101 400–169 050 | 50%: 36–87 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 9–18, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 3–12 (90%); [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (6%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (3%) | `M-4`, `T-4`, `G-4`, `DS-1` |
 | **Star Crystal** | 150 000 | Большой | 5 | Взрывы ×1,6 | 3 | Примерно 21× [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | 109 650–182 700 | 60–141 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) 18–33, [Quorvium](/wiki/06-Items/Resources.md#quorvium) 9–15; [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) 1–2 (8%), [Power Core](/wiki/06-Items/Resources.md#power-core) 1 (5%) | `DS-1`, `DS-2`, `DS-3` |

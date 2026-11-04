@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Container -->
 # Container {#containers}
 
@@ -333,12 +333,12 @@ Das Chroma-Archiv zieht zuerst die Stufe und dann einen Look dieser Stufe, den d
 | :--- | :--- | ---: |
 | Gewöhnlich | 240 × Velkonite (ins Skylab) | 7,000 % |
 | Gewöhnlich | 160 × Orvium (ins Skylab) | 7,000 % |
-| Gewöhnlich | 1.300 × Reinforced Hull Plate | 5,000 % |
-| Gewöhnlich | 9.000 × Ship Fragment | 6,000 % |
+| Gewöhnlich | 100 × Reinforced Hull Plate | 5,000 % |
+| Gewöhnlich | 1.000 × Ship Fragment | 6,000 % |
 | Gewöhnlich | **Schmiedekristalle**: 4.000 × Cataclysite + 3.000 × Quorvium | 5,000 % |
-| Gewöhnlich | 450 × Power Core | 5,000 % |
+| Gewöhnlich | 20 × Power Core | 5,000 % |
 | Gewöhnlich | 450 Thulium | 5,000 % |
-| Gewöhnlich | 4 × Regular Cluster Chunk | 5,000 % |
+| Gewöhnlich | 2 × Regular Cluster Chunk | 5,000 % |
 | Ungewöhnlich | 780 × Velkonite (ins Skylab) | 5,000 % |
 | Ungewöhnlich | 510 × Orvium (ins Skylab) | 5,000 % |
 | Ungewöhnlich | 19 × Velkonite Reinforced Plate | 4,000 % |
@@ -571,16 +571,17 @@ Die Container-Seite des Spiels zeigt deine eigenen Chancen neben den veröffentl
 
 ## Version der Tabelle {#version-of-the-table}
 
-Jede Chance auf dieser Seite ist die Tabelle des Servers des Spiels. Wenn sich eine Chance ändert, bekommt die Tabelle eine neue Version und einen neuen Hash, und jede Öffnung zeichnet den Hash der Tabelle auf, aus der gezogen wurde.
+Jede Chance auf dieser Seite ist die Tabelle des Servers des Spiels. Wenn sich eine Chance oder eine Menge ändert, bekommt die Tabelle eine neue Version und einen neuen Hash, und jede Öffnung zeichnet den Hash der Tabelle auf, aus der gezogen wurde.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Version der Tabelle**: 1
-- **Hash der Tabelle (erste 12 Zeichen)**: `23aa20f1a5ad`
+- **Version der Tabelle**: 2
+- **Hash der Tabelle (erste 12 Zeichen)**: `9f345692845a`
 
 Was sich geändert hat:
 
+- Version 2: Vermessungskanister: Die vier gewöhnlichen Stapel sind kleiner. Reinforced Hull Plate 1.300 auf 100, Ship Fragment 9.000 auf 1.000, Power Core 450 auf 20, Regular Cluster Chunk 4 auf 2. Keine Chance einer Belohnung oder einer Stufe hat sich geändert.
 - Version 1: Die erste veröffentlichte Tabelle.
 
 <!-- containers-version:end -->

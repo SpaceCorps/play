@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: c6cf04f6e8e99425 -->
+<!-- wiki-i18n source: 0353c98632a87f2e -->
 <!-- wiki-i18n title: Günlük ödüller -->
 # Günlük ödüller {#daily-rewards}
 
 <!-- wiki-search: daily reward; daily rewards; daily login; login bonus; login reward; calendar; advent calendar; chest; chests; season prize; souvenir; blueprint; streak; günlük ödül; günlük ödüller; günlük giriş; takvim; sandık; sezon ödülü; hatıra; plan; seri -->
 
-Her sezonun bir **günlük ödül takvimi** vardır: sezonun her günü için küçük bir hediye. İstasyonda **Ödülü al** düğmesine bas, günün hediyesi senin olsun. Ne kadar çok gün toplarsan o kadar çok şey kazanırsın: dört **sandık** 7, 14, 21 ve 28 toplanan günde gelir, sezonun son üç gününde de **sezon ödülü**nü alabilirsin. Kaçırdığın bir gün sana yalnızca o günün hediyesine mal olur, başka bir şeye değil. Takvimi **Gösterge Paneli**nde (**Günlük ödüller** kartı) ve **Sezon ve Profil › Takvim** altında bulursun.
+Her sezonun bir **günlük ödül takvimi** vardır: sezonun her günü için bir hediye, her zaman cephane ya da roket. İstasyonda **Ödülü al** düğmesine bas, günün hediyesi senin olsun. Ne kadar çok gün toplarsan o kadar çok şey kazanırsın: dört **sandık** 7, 14, 21 ve 28 toplanan günde gelir, sezonun son üç gününde de **sezon ödülü**nü alabilirsin. Kaçırdığın bir gün sana yalnızca o günün hediyesine mal olur, başka bir şeye değil. Takvimi **Gösterge Paneli**nde (**Günlük ödüller** kartı) ve **Sezon ve Profil › Takvim** altında bulursun.
 
 ## Bir dakikada {#in-one-minute}
 
@@ -15,7 +15,7 @@ Her sezonun bir **günlük ödül takvimi** vardır: sezonun her günü için k�
 - **4 sandık**, 7, 14, 21 ve 28 toplanan günde.
 - **Bir sezon ödülü** sezonun son üç gününde: 10 toplanan günde bir hatıra görünümü, 20 günde bir gemi tasarımının planı.
 - **Her sıfırlamada yeni bir takvim.** Sezonun her hediyesini 1. günden itibaren görürsün.
-- **Bilerek küçük.** 29 günün tümü, bir sezona yayılmış birkaç saatlik avın değeri kadardır.
+- **Cephane ve roketler.** Her günlük hediye, en güçlü iki lazer cephanesinden biri ya da Destansı bir roket olur ([Hediyeler](#the-gifts)). Sandıklar ve sezon ödülü ayrıdır.
 
 ## Gün {#the-day}
 
@@ -33,7 +33,7 @@ Kart da sekme de bir sonraki ödülün **kendi saat diliminde** ne zaman açıla
 
 - **1. gün kısadır.** Sezon, bir UTC gününün ortasında, sıfırlamayla başlar; bu yüzden 1. kutucuk o andan o günün sonuna kadar ve ek süre boyunca açıktır.
 - **29. gün uzundur.** Son kutucuk, sıfırlamanın geri sayımı başlayana kadar açık kalır; bu, açılışından 24 saatten fazla sonra olabilir. Geri sayım başladıktan sonra yeni sezon başlayana kadar hiçbir şey toplanamaz.
-- **Yöneticiler sezon gününü kaydırabilir.** Takvim onu izler: atlanan günler herkes için kaçırılmış sayılır, senin zaten topladığın bir kutucuk ise toplanmış kalır.
+- **Yöneticiler sezon gününü kaydırabilir.** Takvim onu izler. İleri kaydırılırsa atlanan günler herkes için kaçırılmış sayılır, senin zaten topladığın bir kutucuk ise toplanmış kalır. Geri kaydırılırsa günler yeniden oynanır: yeni günden itibaren olan günlerin, daha önce topladığın kutucuklarını yeniden toplayabilirsin, her birini saat kendi gününe ulaştığında, ve her biri hediyesini bir kez daha öder. Aldığın şeyler geri alınmaz; yeni günden önceki kutucuklar, sandıkların ve sezon ödülün olduğu gibi kalır (daha önce aldığın bir sandık ikinci kez gelmez).
 
 ## Kutucuklar {#the-tiles}
 
@@ -85,22 +85,19 @@ Sezon ödülünün iki basamağı vardır. Onları sezonun **son üç gününde*
 
 ## Hediyeler {#the-gifts}
 
-Bir günün hediyesi küçüktür. Şunlardan biridir:
+Bir günün hediyesi **cephane ya da roket** olur, başka bir şey olmaz. Altı eşyadan biridir:
 
-- **Cephane ve roketler**, mütevazı yığınlar halinde.
-- **Malzemeler, plakalar ve sarf malzemeleri**; aralarında Forge kit’ler (Demirhane’nin bir adımının malzemeleri) de var.
-- Birkaç saatlik **booster**’lar. Bir booster hediyesi saatlerini [booster’larına](/wiki/06-Items/Boosters.md#active-boosters) ekler.
-- **Kredi ve Thulium**, küçük miktarlarda.
-- **Birkaç özel eşya** (Workforce Contract, Forger’s Seal): bir sezonda hiçbir zaman 4 kutucuktan fazla değil.
+- **Ultra Core** (3,0x) ve **Experimental Fusion Core** (4,0x), en güçlü iki [lazer cephanesi](/wiki/06-Items/Lasers.md#laser-ammunition) türü.
+- **Lancet III**, **Rivet III**, **Ember III** ve **Scatter III**, Destansı [roketler](/wiki/06-Items/Rockets.md#the-twelve-rockets).
 
-Bu sayfa hiçbir sezonun hiçbir hediyesini anmaz, çünkü takvim her sıfırlamada farklıdır. Bu sezonun hediyelerini Takvim sekmesi gösterir. Hediye hediyedir: takvimden gelen eşyaların **Satılabilir** etiketi olmaz ([Satılabilir eşyalar](/wiki/03-Mechanics/Inventory.md#marketable-items)) ve [Açık Artırma](/wiki/03-Mechanics/Auction.md)’ya konamaz.
+Yığının büyüklüğü günden güne değişir, takvim de her sıfırlamada farklıdır. Bu sezonun hediyelerini Takvim sekmesi gösterir. Sandıklar ve sezon ödülü günlük hediye değildir, olduğu gibi kalır. Hediye hediyedir: takvimden gelen eşyaların **Satılabilir** etiketi olmaz ([Satılabilir eşyalar](/wiki/03-Mechanics/Inventory.md#marketable-items)) ve [Açık Artırma](/wiki/03-Mechanics/Auction.md)’ya konamaz.
 
 ## Sıfırlama {#the-wipe}
 
 Yeni bir sezon yeni bir takvimdir. [Sıfırlamada](/wiki/03-Mechanics/Wipe-Timeline.md) eskisi kapanır, yenisi kendi 29 hediyesiyle açılır ve sayacın yeniden 0’dan başlar. Sıfırlama, her eşyadan aldığı dışında topladığın hiçbir şeyi almaz:
 
-- **Silinir:** eşya olan hediyeler (cephane, roketler, malzemeler, plakalar, sarf malzemeleri), [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nda değilse sıfırlamada silinir. Takvim böyle bir hediyeyi bir notla işaretler.
-- **Kalır:** booster’lar, kredi, Thulium, özel eşyalar, görünümler, teknolojiler (bir plan) ve konteynerler.
+- **Kalır:** takvimin cephanesi ve roketleri, her tür için bir sınıra kadar, sıfırlamada kendiliğinden aktarılır ([Cephane ve roketler](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)). Booster’lar, kredi, Thulium, görünümler, teknolojiler (bir plan) ve konteynerler de kalır.
+- **Silinir:** elindeki diğer eşyalar (bildiğin bir planın yerine verilen Dark Matter Plate gibi), [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nda değilse sıfırlamada silinir.
 - **Son dört gün (26’dan 29’a) yalnızca kalan hediyeler verir**, böylece son haftanın bir hediyesi sıfırlamada asla kaybolmaz.
 
 ## Geç katılanlar ve geç başlayan takvimler {#late-joiners-and-late-calendars}
@@ -119,7 +116,7 @@ Yeni bir sezon yeni bir takvimdir. [Sıfırlamada](/wiki/03-Mechanics/Wipe-Timel
 - **Premium bir şeyi değiştirir mi?** Hayır. Premium fazladan kutucuk ya da daha iyi hediye vermez, takvim de Premium günü vermez.
 - **Klana ihtiyacım var mı?** Hayır. Takvim klanların günlük hattıyla aynı günü kullanır ama yalnızca senindir.
 - **Seviye sınırı var mı?** Hayır. Her pilot 1. seviyeden itibaren toplayabilir.
-- **Sıfırlamada ne olur?** Yeni bir takvim alırsın ve 0 günden yeniden başlarsın. Eşya olan hediyeler Nakliye Deposu’nda değilse silinir; gerisi kalır ([Sıfırlama](#the-wipe)).
+- **Sıfırlamada ne olur?** Yeni bir takvim alırsın ve 0 günden yeniden başlarsın. Takvimin cephanesi ve roketleri sınırlarına kadar sıfırlamada aktarılır; diğer eşyalar Nakliye Deposu’nda değilse silinir, gerisi kalır ([Sıfırlama](#the-wipe)).
 
 ## Bilmekte fayda var {#good-to-know}
 

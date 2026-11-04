@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Láseres -->
 # Láseres y munición {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Baterías consumibles que multiplican el daño de tus andanadas láser:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Común | x1,0 | – | 5 créditos |
 | **Advanced Plasma** | Raro | x2,0 | – | 0,5 Thulium |
-| **Ultra Core** | Raro | x3,0 | 5 % | 1,0 Thulium |
-| **Experimental Fusion Core** | Épico | x4,0 | 10 % | 2,2 Thulium |
-| **Siphon Battery** | Raro | x1,0, solo escudos | – | 0,25 Thulium |
+| **Ultra Core** | Raro | x3,0 | 5 % | 1,0 Thulium o fabricarlo |
+| **Experimental Fusion Core** | Épico | x4,0 | 10 % | Solo fabricable (ya no se vende) |
+| **Siphon Battery** | Raro | x1,0, solo escudos | – | 50 créditos |
+| **Siphon Battery II** | Raro | x0,5, solo escudos, roba el doble | – | Solo fabricable |
+| **Antimatter Battery I** | Raro | x2,0 | 20 % | Solo fabricable |
+| **Antimatter Battery II** | Épico | x3,0 | 20 % | Solo fabricable |
+| **Dark Matter Ammo I** | Raro | de x1,5 a x5, sorteado en cada andanada (x3,25 de media) | – | Solo fabricable |
+| **Dark Matter Ammo II** | Épico | x6,0, una andanada cada 1,5 s, absorbe el escudo del objetivo | – | Solo fabricable |
 
-La **penetración de escudo** se resta de la absorción de tu objetivo en cada impacto de tus andanadas: los escudos reciben la absorción del objetivo menos la penetración (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)). Tus Penetration Amps y una formación de drones se suman a la de la munición, y la suma entera está [más abajo en esta página](#shield-penetration-of-a-laser-hit). Contra una nave con 80 % (el mejor escudo con las mejores células), el 10 % de la munición x4 deja a los escudos el 70 % del impacto y al casco el 30 %. Importa sobre todo contra naves cuyo casco es pequeño frente a su escudo; una nave muy grande con 80 % aguanta lo mismo de cualquiera de las dos formas. Los alienígenas no tienen una estadística de absorción propiamente dicha (sus escudos reciben el 80 % de un impacto), y la penetración también se resta de eso.
+**De dónde sale la munición nueva.** Desde 0.5.0 el Experimental Fusion Core ya no se vende: lo fabricas, de 1.000 en 1.000, en [Ensamblaje](/wiki/06-Items/Overview.md#the-production-queue), después de investigar **Military Grade Ammo II** en el Centro de investigación del Skylab. El Ultra Core se sigue pudiendo comprar y también se puede fabricar (**Military Grade Ammo I**, 30 minutos de investigación). Cinco municiones nuevas son solo fabricables, cada una tras una tecnología de la familia **Laser Ammo** y cada una hecha con la munición inferior: **Siphon Battery II** (de Siphon Battery), **Antimatter Battery I** (de Siphon Battery II) y **II** (de Antimatter Battery I y un poco de [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (de materias primas y un Dark Matter) y **II** (de Dark Matter Ammo I y Dark Matter). Una fabricación son 1.000 unidades, de 5 a 15 minutos, y cada unidad cuesta más o menos lo que vale. La [Impresora de munición](/wiki/03-Mechanics/Skylab.md) también hace el Ultra Core y el Experimental Fusion Core, una vez que los has investigado.
+
+La **penetración de escudo** se resta de la absorción de tu objetivo en cada impacto de tus andanadas: los escudos reciben la absorción del objetivo menos la penetración (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)). Tus Penetration Amps y una formación de drones se suman a la de la munición, y la suma entera está [más abajo en esta página](#shield-penetration-of-a-laser-hit). Contra una nave con 85 % (el mejor escudo con las mejores células), el 10 % de la munición x4 deja a los escudos el 75 % del impacto y al casco el 25 %, y el 20 % de la munición Antimatter les deja el 65 % y al casco el 35 %. Importa sobre todo contra naves cuyo casco es pequeño frente a su escudo; una nave muy grande con 85 % aguanta lo mismo de cualquiera de las dos formas. Los alienígenas no tienen una estadística de absorción propiamente dicha (sus escudos reciben el 80 % de un impacto), y la penetración también se resta de eso.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ La Siphon Battery es una munición para robar escudos en lugar de romper cascos.
 - **Los golpes críticos** cuentan: una andanada crítica drena 1,5 veces más, y su número se dibuja como un golpe crítico. Sus paquetes son más grandes y brillantes, y el escudo del objetivo destella con más fuerza.
 - Los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) disparan munición estándar x1.
 
+**Siphon Battery II** funciona igual con los números dados la vuelta: drena **la mitad** del escudo del objetivo que una Siphon Battery (x0,5) y te da **el doble** de lo drenado (un robo de 2,0), de modo que tu escudo gana exactamente lo que da la andanada de una Siphon Battery mientras el objetivo pierde la mitad. Se fabrica (investigación **Siphon Battery II**, a partir de 1.000 Siphon Battery) y, como la primera, nunca toca el casco.
+
+---
+
+## Munición Antimatter y Dark Matter {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I y II** perforan escudos: **20 %** de penetración cada una, sumada a la de tus amps y tu formación, con daño x2 y x3. Contra una nave cuyo escudo es grande frente a su casco, abren el casco antes que el Experimental Fusion Core; contra todo lo demás, el x4 sigue pegando más fuerte. Son una elección, no un escalón más.
+
+**Dark Matter Ammo I** sortea su multiplicador **en cada andanada**, en cualquier punto entre **x1,5 y x5** (x3,25 de media). Toda la nave comparte una sola tirada, tenga los láseres que tenga, así que una andanada es afortunada o desafortunada para todos a la vez. Dispara cada segundo, como cualquier munición.
+
+**Dark Matter Ammo II** pega **x6**, pero solo **una andanada cada 1,5 segundos** (el mismo daño por segundo que un x4), y **absorbe escudo**: ganas el 25 % del daño que el escudo del objetivo ha recibido de verdad, hasta tu máximo. El impacto cae como cualquier otro (los escudos reciben su parte y el casco el resto) y un objetivo sin escudo no te da nada. Ganar escudo no es recibir daño, así que no retrasa la regeneración de tu propio escudo.
+
 ---
 
 ## Penetración de escudo de un impacto láser {#shield-penetration-of-a-laser-hit}
 
-Cada impacto láser resta puntos a la absorción de tu objetivo, de hasta tres fuentes que se suman: tu **munición** (Ultra Core 5 %, Experimental Fusion Core 10 %), tus **Penetration Amps** y una **formación de drones** (Gemini +15 %; [Formaciones de drones](/wiki/03-Mechanics/Formations.md)). **Nada limita el total** (un cohete directo suma su propia penetración y la de la formación del mismo modo: [Cohetes](/wiki/06-Items/Rockets.md)). Los escudos reciben entonces la absorción del objetivo menos la penetración del impacto, y el casco el resto ([Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Cada impacto láser resta puntos a la absorción de tu objetivo, de hasta tres fuentes que se suman: tu **munición** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), tus **Penetration Amps** y una **formación de drones** (Gemini +15 %; [Formaciones de drones](/wiki/03-Mechanics/Formations.md)). **Nada limita el total** (un cohete directo suma su propia penetración y la de la formación del mismo modo: [Cohetes](/wiki/06-Items/Rockets.md)). Los escudos reciben entonces la absorción del objetivo menos la penetración del impacto, y el casco el resto ([Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Tus amps cuentan como la media de tus láseres.** Una andanada es un solo impacto, así que el juego suma la penetración de los amps de cada láser (los láseres de tus drones cuentan también) y toma la media de tus láseres, cada uno ponderado por su daño, como hace con la probabilidad de crítico. Tres Penetration Amp IV en cada láser dan 36 %; un Penetration Amp IV en uno de doce láseres da 1 %. Un Wraith tiene 12 láseres y 36 ranuras de amp, y hay que llenar las 36 para llegar al 36 %.
 - **El Hangar lo muestra.** Las estadísticas de combate del Hangar tienen un recuadro **Penetración** en cada nave, con la cifra de los amps láser de la configuración que muestra (0,0 % sin ningún Penetration Amp); la munición y la formación no entran en ella. La ventana **Nave** en vuelo tiene un chip **Penetración** al final de su fila inferior (los chips de configuración y velocidad muestran solo un icono y un número para dejarle sitio): muestra el total de un impacto láser, tus amps, la formación que llevas y la munición que disparas, sumados en cuanto cambias algo, y su sugerencia lista las tres partes.
-- **El mejor láser suma 61 %.** Un Experimental Fusion Core (10 %), un Gemini (15 %) y tres Penetration Amp IV en cada láser (36 %) suman 61 %.
+- **El mejor láser suma 61 % con x4 y 71 % con Antimatter.** Un Experimental Fusion Core (10 %), un Gemini (15 %) y tres Penetration Amp IV en cada láser (36 %) suman 61 %; una Antimatter Battery (20 %) en su lugar suma 71 %, con daño x3 en lugar de x4.
 - **Una bonificación de la Forja en un Penetration Amp IV cuenta.** Un Penetration Amp se puede forjar como los demás amps, y su única bonificación multiplica la penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 13,1 a 13,8 puntos en lugar de 12. En el mejor montaje, tres Eternos suman 66,4 %, y cada punto cuenta.
 
 | Andanada láser | Munición | Amps (3 ranuras) | Formación | Total |
@@ -189,19 +215,19 @@ Lo que eso hace con los escudos del objetivo: cada celda es la parte de un impac
 | Defensor (absorción) | Sin amps | Fusion Core solo (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | El mejor láser (61 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, sin célula (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, sin célula (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, sin célula (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| El mejor escudo de fábrica (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| El mejor escudo, con Eterno de la Forja (mejor tirada) y 44 niveles de la Tienda de temporada (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| El mejor escudo, con Eterno de la Forja (mejor tirada) y la Tienda de temporada en su límite (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| El mejor escudo de fábrica (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| El mejor escudo, con Eterno de la Forja (mejor tirada) y 44 niveles de la Tienda de temporada (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| El mejor escudo, con Eterno de la Forja (mejor tirada) y la Tienda de temporada en su límite (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Cualquier alienígena (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-El mejor láser vacía un núcleo de escudo sin célula y un Light Shield Core con su mejor célula (el casco recibe todo el impacto); un Heavy Shield Core con tres células Capacity conserva el 4 % de cada impacto, y el mejor escudo conserva el 19 % (35 % con las mejoras). Un cohete por sí solo nunca vacía un escudo (35 % como máximo), pero un Lancet III o un Rivet III con un Stiletto (70 %) sí.
+El mejor láser vacía un núcleo de escudo sin célula y un Light Shield Core con su mejor célula (el casco recibe todo el impacto); un Heavy Shield Core con tres células Capacity conserva el 9 % de cada impacto, y el mejor escudo conserva el 24 % (41 % con las mejoras). Un cohete por sí solo nunca vacía un escudo (35 % como máximo), pero un Lancet III o un Rivet III con un Stiletto (70 %) sí.
 
 ### ¿Cuándo compensa un Penetration Amp una ranura? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contrarresta la absorción, y cuanto más alta es, más rinde: contra una nave de casco pequeño a cerca del 95 % (montajes con Tienda de temporada, Forja y Rampart), un montaje de Penetration mata cerca de 1,8 veces más rápido que el mejor montaje simple, y contra el mejor escudo de fábrica (80 %), un trío de Penetration Amps tarda un 11 % menos que un trío de Crit Amps del mismo nivel. Contra alienígenas casi no gana nada.**
+**Un Penetration Amp contrarresta la absorción, y cuanto más alta es, más rinde: contra una nave de casco pequeño a cerca del 101 % (montajes con Tienda de temporada, Forja y Rampart), un montaje de Penetration mata cerca de 2,6 veces más rápido que el mejor montaje simple, y contra el mejor escudo de fábrica (85 %), un trío de Penetration Amps tarda un 19 % menos que un trío de Crit Amps del mismo nivel. Contra alienígenas casi no gana nada.**
 
 - **No da daño.** En un Helios Beam, tres Penetration Amp IV dan 187 de daño por andanada (munición x1, la media de la tirada y de los críticos), donde tres Damage Amp IV dan 356 y tres Crit Amp IV 369: aproximadamente la mitad. Lo que recupera es la parte del escudo, así que solo compensa donde el casco es pequeño frente al escudo y la absorción es alta; contra un Wraith o un Ironclad, cuyo gran casco aguanta igualmente, un conjunto simple de Damage o Crit es casi igual de rápido (un Penetration Amp en un láser gana como mucho un 5 %).
 - **Alienígenas.** Sus escudos reciben el 80 % de un impacto menos tu penetración, así que también funciona con ellos, pero un Damage Amp o un Crit Amp del nivel los mata igual de rápido o más rápido, salvo un Phantasm o un Goombah combatidos con una formación, donde un Penetration Amp en un láser gana hasta un 5 %.

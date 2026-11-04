@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: 危险星区 -->
 # 危险星区 {#danger-sectors}
 
@@ -52,7 +52,7 @@
 
 - **辐射。** 过热或被摧毁的挖掘机及其脉冲星，会烧伤留在它们圆圈内的每艘飞船（[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)）。游戏会提前警告你，圆圈会在飞行中画在地面上，也会画在小地图上。
 - **沼泽的炮台。** 沼泽的炮塔会在飞船看到任何值得一去的东西之前，就先向它开火（[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)）。你点击的航线会像绕开黑洞那样绕开炮台和辐射，点击的地点若在其中，会弹出提示警告你。
-- **如果你在那里被摧毁，**选择**就地**复活，会把你放到辐射之外、沼泽区域之外的最近一点，和黑洞的做法一样（[新手入门](/wiki/01-General/Getting-Started.md#dying-and-coming-back)）。
+- **如果你在那里被摧毁，**不能**就地**重生：在危险星区，死亡界面只提供你的**基地**和**最近的传送门**，“就地”显示为灰色。即使请求也会被拒绝，而且不会有任何损失（[新手入门](/wiki/01-General/Getting-Started.md#dying-and-coming-back)）。
 - **一个小队和一条退路。** 挖掘机同样吸引 Void 和对手。带上[小队](/wiki/03-Mechanics/Groups.md)，知道最近的传送门在哪，并记住在危险星区里，被攻击时无法跳跃离开（[受攻击时的跳跃](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)）。
 - **其余照常是 PvP。** 这里没有安全之处：适用你所在世界的常规规则，包括对手。
 

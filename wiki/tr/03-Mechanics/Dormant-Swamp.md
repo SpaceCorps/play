@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Bir atışın hasarı, her dünyada:
 - **Gizlenme seni içeri sokar.** Hiçbir taret gizlenmiş bir gemiyi, ya da bir EMP etkisi altındaki gemiyi, hiçbir mesafeden görmez. Görünür bir gemiye yönelmiş ve gizlenmiş bir geminin yanında patlayan bir patlama, onu yine de yaralar ve gizlenmesini bitirir.
 - **Yalnızca pilotlara ateş ederler**, uzaylılara, şirket pilotlarına ya da sürüye asla; yeni yeniden doğmuş bir geminin doğma koruması onlara karşı da geçerlidir.
 - **Bildirim halkası.** Bölgenin dışındaki halkayı geçen bir gemiye bir Sistem satırı haber verir: taretler gördükleri her gemiye ateş eder ve ortada bir şey uyuyor. Gemi halkadan çıkıp geri gelmedikçe tekrar uyarılmaz.
-- **Dışarı çıkmak.** Orada yok edilirsen ve olduğun yerde geri dönersen ya da bölgenin içinde giriş yaparsan, bölgenin dışına çıkarılırsın. Tıkladığın rota bölgenin çevresinden dolandırılır ve tıkladığın yer bölgenin içindeyse bir bildirim seni uyarır.
+- **Dışarı çıkmak.** Orada yok edilirsen öldüğün yerde geri dönemezsin (Tehlike Sektörü yalnızca üssü ve en yakın portalı sunar), bölgenin içinde giriş yaparsan da bölgenin dışına çıkarılırsın. Tıkladığın rota bölgenin çevresinden dolandırılır ve tıkladığın yer bölgenin içindeyse bir bildirim seni uyarır.
 
 ## Uzaylılar {#the-aliens}
 
 Kayıp uygarlığın üç uzaylısı burada yaşar, her birinin kendi sayıları vardır. Bir sürünün patronu gibi ödenirler: **verilen hasara göre**, [Sürüler](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm) sayfasında verilen payı en az dolduran her pilota; kutu ise en çok hasar veren pilota gider. Öldürmeleri, ödemeleriyle orantılı olarak, bir sürü gemisininki gibi PvE sıralama puanına eklenir ([Rütbeler](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Her birinin kalkanı, dayandığı sürece her vuruşun %80’ini alır ([Kalkanlar](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** Zarif avcı, oyundaki en hızlı uzaylı (Afterburner III açıkken bir Storm kadar hızlı). Bazıları bataklığın çevresinde her zaman devriye gezer, diğerleri ekskavatörlere dalgalar hâlinde gelir. Saldırgandır, görebildiği en yakın pilotu avlar ve gizlenmiş bir gemiyi asla görmez.
+- **Slumbering Void.** Zarif avcı, oyundaki en hızlı uzaylı (Afterburner III açıkken bir Storm’dan daha hızlı). Bazıları bataklığın çevresinde her zaman devriye gezer, diğerleri ekskavatörlere dalgalar hâlinde gelir. Saldırgandır, görebildiği en yakın pilotu avlar ve gizlenmiş bir gemiyi asla görmez.
 - **Inert Mass.** Mor çatlaklı, küçük bir istasyon boyutunda ölü bir gövde. Bataklığın ortasından belirli bir mesafenin içinde kalır ve şimdilik ondan ayrılmaz. **Dormant Lance** ateşler: çok uzun menzilli güdümlü roketler; bir gemi gizlenene, EMP kullanana, güvenli halkaya girene, sıçrayana ya da ölene kadar onu takip ederler. Lance her gemiden hızlıdır, bu yüzden yalnızca bu kesintiler işe yarar. Bir Lance roketinin yoluna giren bir asteroit onu durdurur ve Lance o asteroite kendi hasarı kadar zarar verir (bunun için kimseye ödeme yapılmaz); yani bir kaya, bir Inert Mass uzaylısına karşı yalnızca birkaç vuruşluk bir barınaktır.
 - **The Unwakened.** Bataklığın ortasında uyuyan bir monolit; herhangi bir haritadaki en büyük şey ve o kadar yavaş ki hiçbir gemiyi yakalayamaz. Hiçbir şey ateşlemez ama aurasının içindeki her gemi yanar, **gizlenmiş olsun ya da olmasın**. **Bağışıktır**: atışlar ve roketler isabet eder ve hiçbir şey yapmaz, hedef penceresi dolu çubukları ve Bağışık yazısını gösterir. Daha sonraki bir etkinlik ona karşı savaşmaya izin verecek; ödülleri aşağıda yazılıdır ve henüz kazanılamaz.
 

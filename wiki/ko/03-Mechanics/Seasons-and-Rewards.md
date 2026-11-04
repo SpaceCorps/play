@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: 시즌과 보상 -->
 # 시즌과 보상 {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@
 
 초기화 순간에 보유한 계급이 지급하는 것:
 
-* **초기화 포인트**: 계급에 따라 5~400. 초기화 포인트 획득처가 지급하는 분에 더해집니다(초기화당 최대 1,090 초기화 포인트: [초기화 포인트 획득](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **초기화 포인트**: 계급에 따라 5~400. 초기화 포인트 획득처가 지급하는 분에 더해집니다(초기화당 최대 1,105 초기화 포인트: [초기화 포인트 획득](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **프리미엄 일수**: 1~7일, 주니어 대위부터. 이미 가진 프리미엄에 더해집니다.
 * **크레딧과 Thulium**: 계급과 함께 커지는 재출발 자금으로, 파일럿의 105,000 크레딧과 225 Thulium에서 시니어 제독의 6,300,000 크레딧과 13,500 Thulium까지입니다. [상한](#the-caps-and-your-rewards)에 비하면 작으며, 새 시즌을 잘 시작하기 위한 것이지 우위가 아닙니다.
 

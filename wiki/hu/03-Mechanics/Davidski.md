@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c0e478368e420e01 -->
+<!-- wiki-i18n source: 2aef34f27861592a -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden a
 | Extrák | egy Repair Drone IV, egy Auto-Repair CPU és egy Base CPU II |
 | Hajótest | 15 Hull Plating III |
 
-Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 80,5%-os elnyelést, 96-os sebességet, 945-ös hatótávot és **másodpercenként 4 104** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából egy perc tíz másodpercet.
+Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 86,3%-os elnyelést, 89-os sebességet, 945-ös hatótávot és **másodpercenként 4 104** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából egy perc tíz másodpercet.
 
 ## Harc ellene {#fighting-him}
 

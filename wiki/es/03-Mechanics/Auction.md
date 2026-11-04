@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
@@ -16,7 +16,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 - Necesitas el **nivel 5** para usar la subasta: para publicar, comprar y pujar.
 - Un anuncio se pone a precio por lote, en créditos enteros o en Thulium entero (no los dos), y nunca por debajo del precio mínimo del objeto. **No hay precio máximo.**
 - Un precio en Thulium es como mínimo el precio mínimo en créditos dividido entre 1.000, redondeado hacia arriba, y solo para los objetos cuyo precio mínimo llega a 1 Thulium o más. Eso es todo lo que hace la tasa: **1 Thulium = 1.000 créditos es una regla para el precio mínimo, no un tipo de cambio.** No se cambia nada, no se muestra ningún valor y los créditos y el Thulium nunca se suman.
-- Se pueden publicar 84 objetos distintos, y 83 de ellos también se pueden poner a precio en Thulium.
+- Se pueden publicar 89 objetos distintos, y 88 de ellos también se pueden poner a precio en Thulium.
 - Un anuncio dura 168 / 336 / 504 horas, a tu elección: las opciones son las mismas en todos los niveles.
 - El **depósito** es el 0,25 % del precio por cada 24 horas que dura el anuncio, con un mínimo de 50 créditos o 1 Thulium. Lo pagas al publicar; nunca se devuelve, ni siquiera si cancelas el anuncio.
 - Desde el nivel 10, el depósito es el 0,4 %.
@@ -32,7 +32,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 
 ## Objetos comercializables {#marketable-items}
 
-Solo se pueden vender los objetos que has **ganado**. Todo lo que ganas lleva en el [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) una pequeña etiqueta, **Comercializable**: lo que recoges en el espacio (botín de alienígenas, enjambres, Wardens y agujero negro: [Carga](/wiki/03-Mechanics/Cargo.md)), lo que paga una misión ([Misiones](/wiki/03-Mechanics/Quests.md#rewards)) y todo lo que fabrican el Ensamblaje y la Forja. Lo que has **comprado** en la Tienda, ganado en un lote, comprado en el Mercado, comprado a [Davidski](/wiki/03-Mechanics/Davidski.md), recibido con un código de bonificación, un paquete de invitación o el kit inicial, o recuperado como reembolso no es comercializable y no se puede volver a vender, para que nada se compre solo para revenderlo. Las placas que fabrica la Forja del Skylab tampoco son comercializables; las Reinforced Plates que paga una misión sí. Tampoco son comercializables la munición y los cohetes que fabrican la Impresora de munición y la Fábrica de cohetes del Skylab.
+Solo se pueden vender los objetos que has **ganado**. Todo lo que ganas lleva en el [Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) una pequeña etiqueta, **Comercializable**: lo que recoges en el espacio (botín de alienígenas, enjambres, Wardens y agujero negro: [Carga](/wiki/03-Mechanics/Cargo.md)), lo que paga una misión ([Misiones](/wiki/03-Mechanics/Quests.md#rewards)) y todo lo que fabrican el Ensamblaje y la Forja. Lo que has **comprado** en la Tienda, ganado en un lote, comprado en el Mercado, comprado a [Davidski](/wiki/03-Mechanics/Davidski.md), recibido con un código de bonificación, un paquete de invitación o el kit inicial, o recuperado como reembolso no es comercializable y no se puede volver a vender, para que nada se compre solo para revenderlo. Las placas que fabrica la Forja del Skylab tampoco son comercializables; las Reinforced Plates que paga una misión sí. Tampoco son comercializables la munición y los cohetes que fabrican la Impresora de munición y la Fábrica de cohetes del Skylab. Tampoco son comercializables los objetos que paga la Repetición de una misión.
 
 La etiqueta es un número de unidades, no un interruptor: una pila de munición puede tener balas compradas y ganadas, y la tarjeta dice «Comercializable (3 de 5)». Cuando gastas parte de una pila (disparar, fabricar), se van primero las unidades normales, así que las comercializables duran más. Al combinar dos piezas en la [Forja](/wiki/06-Items/Forge.md#merge), la etiqueta se mantiene solo si las dos piezas la tenían, y la vista previa lo dice; un paso de la Forja que falla devuelve sus materiales como unidades normales.
 
@@ -54,7 +54,7 @@ Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no v
 | **Adaptive Cores** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Células de escudo** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Propulsores** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Munición láser** | Standard Battery (en lotes de 100), Siphon Battery (en lotes de 10), Advanced Plasma (en lotes de 10), Ultra Core (en lotes de 10), Experimental Fusion Core | 5 |
+| **Munición láser** | Standard Battery (en lotes de 100), Siphon Battery (en lotes de 10), Advanced Plasma (en lotes de 10), Siphon Battery II (en lotes de 10), Antimatter Battery I (en lotes de 10), Ultra Core (en lotes de 10), Dark Matter Ammo I (en lotes de 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Cohetes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consumibles** | EMP Charge, Energetic Wall II | 2 |
 | **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

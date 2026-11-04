@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
+<!-- wiki-i18n source: 2d81c36bc4357d49 -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
@@ -21,8 +21,8 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 
 - **Patrulham** um circuito pela estação do setor, pelos portais dele e por alguns pontos intermediários.
 - **Caçam** os alienígenas que conseguem enfrentar (Seekers e Phantasms; deixam os Bulwarks, Goombahs e Crystalys em paz) enquanto há pilotos voando no setor. Um alienígena que um piloto de outra corporação está combatendo pertence a esse piloto: o esquadrão o deixa em paz.
-- **Ignoram os [enxames](/wiki/05-Swarms/Swarms.md)**: uma nave de enxame não é problema deles. Não a caçam, não entram numa luta contra ela e nunca vêm em seu auxílio numa.
 - **Ajudam**: quando um piloto da corporação deles a até 1.500 unidades deles é atacado por um alienígena, ou abre fogo contra um alienígena que eles conseguiriam enfrentar, eles entram na luta. Ficam fora de uma luta que um colega começou contra um alienígena que não conseguiriam vencer (um Goombah em que um piloto atirou, ou um Bulwark); um alienígena agressivo que vai atrás de um colega é repelido, seja qual for. Um alienígena que eles terminam de destruir paga ao piloto que detém a reivindicação dele (o primeiro a acertá-lo, veja [Combate](/wiki/03-Mechanics/Combat.md)); se ninguém a detém, o abate conta para o piloto da corporação deles mais próximo que está atirando nele (com alvo travado, dentro do alcance, com uma rajada nos últimos 2,5 segundos). De um jeito ou de outro, as recompensas são desse piloto, e a caixa de [carga](/wiki/03-Mechanics/Cargo.md) do alienígena fica reservada para esse piloto, como se ele tivesse feito o abate. Os pilotos de corporação nunca reivindicam um alienígena e nunca ganham nem coletam nada por conta própria: um alienígena que eles combatem sozinhos não deixa caixa. Travar no alvo de longe, ou apenas levar tiros, não rende nada.
+- **Ignoram os [enxames](/wiki/05-Swarms/Swarms.md)**: uma nave de enxame não é problema deles. Não a caçam, não entram numa luta contra ela e nunca vêm em seu auxílio numa.
 - **Revidam** quando alienígenas atiram neles, e quando pilotos de outras corporações atiram, depois que o PvP é liberado e onde o [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) deles permite PvP: nenhum em `x-1` a `x-3` do Alpha, nem em `x-1` do Beta.
 - **Reparam** com o drone sempre que o casco está danificado: 1,5% dele por segundo, a partir de 10 segundos depois do último impacto.
 - **Recuam** com 30% de casco para a zona segura mais próxima e reparam lá até 90%.
@@ -36,6 +36,16 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 - **Os pilotos de outra corporação** não pagam nada quando destruídos (nem créditos, nem honra, nem pontos de ranking) e não podem ser atacados durante o Protocolo de Paz (os três primeiros dias da temporada).
 - Atacar qualquer piloto de corporação segue as regras de PvP do seu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma): nenhum em `x-1` a `x-3` do Alpha, nem em `x-1` do Beta.
 - **Destroços**: um piloto de corporação destruído não deixa caixa de [carga](/wiki/03-Mechanics/Cargo.md) nem peças, seja quem for ou o que for que o destrua: abater pilotos de corporação não é um jeito de farmar materiais.
+
+## Naves de reparo na base {#repair-ships-at-the-base}
+
+Toda base de corporação (`M-1`, `T-1` e `G-1`, em cada mundo) tem **2 naves de reparo** da sua corporação montando guarda logo fora da zona segura da estação, com a tag da corporação no nome, por exemplo **[M] Mender** e **[M] Salve**.
+
+- **Aura de cura**: cada nave de reparo repara o casco de todo piloto da sua corporação a até **2.000** de distância dela, em **250 pontos de vida por segundo**, também no meio de uma luta, nunca acima do casco máximo da nave. Onde as duas alcançam você (ao redor da própria estação), são 500 por segundo. Os pilotos de corporação da sua própria corporação também são reparados; os pilotos de outra corporação, nunca.
+- **Você a vê**: um anel tênue no mapa mostra até onde cada uma alcança: verde ao redor das naves de reparo da sua própria corporação, cinza ao redor das de outra corporação. A janela do alvo a identifica como nave de reparo.
+- **Elas nunca atiram.** Mantêm o posto e reparam o próprio casco a partir de 10 segundos depois do último impacto.
+- **Podem ser destruídas**: alienígenas agressivos vão atrás delas, e pilotos de outras corporações podem abatê-las onde o seu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite PvP na base (só em `x-1` do Gamma), depois do Protocolo de Paz. Cada uma tem 200.000 pontos de vida e 100.000 pontos de escudo. Destruir a nave de reparo da sua própria corporação custa **100 de honra**, como para qualquer um dos pilotos de corporação dela, e nenhum deles paga nada nem deixa caixa.
+- **De volta em 2 minutos**: uma nave de reparo destruída volta ao seu posto 120 segundos depois, inteira.
 
 ## Notas de combate {#combat-notes}
 

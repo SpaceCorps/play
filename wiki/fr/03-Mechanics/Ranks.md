@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
@@ -125,6 +125,13 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Les cinq premières lignes sont les aliens ordinaires, les six suivantes les vaisseaux des trois essaims et les trois suivantes les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dès le jour 11 de la saison). Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
+Les cinq premières lignes sont les aliens ordinaires, les douze suivantes les vaisseaux des six essaims et les trois suivantes les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dès le jour 11 de la saison). Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
 
 Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
 

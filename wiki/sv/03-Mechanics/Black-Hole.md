@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e483b8e10231ca94 -->
+<!-- wiki-i18n source: 0ebfbefceb729180 -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
@@ -110,7 +110,7 @@ En skeppsdesign ändrar farten hos sitt skepp, och därmed dess punkt utan åter
 
 Ett skepp som är snabbare än 272 enheter i sekunden (en utrustning byggd för fart, eller en Wraith med grundutrustning och en pågående Afterburner) har sin punkt utan återvändo kvar där den alltid låg: vid fart 300 är den 885, vid 432 är den 747.
 
-Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 39,1, med punkten utan återvändo vid ungefär 2 600). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (tio sekunder med en motor, femton med två, tjugo med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 577 till 989 och för en Wraith med grundutrustning från 1 208 till 801). Ingenting tar sig ut inifrån ungefär 390 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,69); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 430.
+Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 39,1, med punkten utan återvändo vid ungefär 2 600). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (femton sekunder med en motor, 22,5 med två, trettio med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 577 till 1 225 och för en Wraith med grundutrustning från 1 208 till 851). Ingenting tar sig ut inifrån ungefär 440 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,46); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 477.
 
 Fallet från punkten utan återvändo börjar långsamt: ett skepp som ligger några enheter innanför den dras in på tjugo sekunder eller mer, även med full kraft, och sedan allt snabbare. Dragningen är ingen flygning: den räknas inte som flugen sträcka.
 
@@ -118,7 +118,7 @@ Fallet från punkten utan återvändo börjar långsamt: ett skepp som ligger n�
 
 Ett skepp som når 300 enheter från mitten förstörs. Ett skepp vars skrov tar slut under strålningen på vägen dit förstörs i stället av strålningen. Hur som helst:
 
-- Det är en vanlig förstörelse: du väljer var du återvänder (se [Förstörelse och återkomst](/wiki/01-General/Getting-Started.md)), med högst 10 000 skrov och tom sköld (se den sidan), och den kostar det en förstörelse alltid kostar. ”På platsen” sätter dig aldrig tillbaka innanför ringen: det flyttar dig till närmaste punkt utanför den (4 500 enheter från mitten) och talar om det för dig.
+- Det är en vanlig förstörelse: du väljer var du återvänder (se [Förstörelse och återkomst](/wiki/01-General/Getting-Started.md)), med högst 10 000 skrov och tom sköld (se den sidan), och den kostar det en förstörelse alltid kostar. Det svarta hålet ligger i Farosektor 4, där ”På platsen” inte erbjuds, så ingen återvänder innanför ringen: du väljer din bas eller närmaste portal i den sektorn, som ligger utanför ringen.
 - **Inget vrak, ingen låda, inget byte**, och ingen heder går förlorad.
 - Din förstörelse räknas som en PvP-nedskjutning för den **sista fientliga pilot som träffade ditt skepp under de 15 sekunderna innan det förstördes**: en pilot från en annan koncern (där och när PvP är tillåtet), hur liten träffen än var. Det är en nedskjutning i dennes statistik och ger PvP-rankingpoäng efter din skeppstyp, inget mer. Ett enda skott räcker, och om ingen från en annan koncern träffade dig under de 15 sekunderna får ingen något.
 - Koncernkamrater som träffade ditt skepp under de 15 sekunderna förlorar ändå hedern för vådaeld, vad som än förstörde det.

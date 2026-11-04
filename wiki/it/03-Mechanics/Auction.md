@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: Asta -->
 # Asta {#auction}
 
@@ -16,7 +16,7 @@ L’asta è il mercato dei piloti e, insieme, i lotti orari del gioco stesso, in
 - Ti serve il **livello 5** per usare l’asta: per mettere in vendita, comprare e fare offerte.
 - Un’inserzione ha un prezzo per lotto, in crediti interi o in Thulium interi (non entrambi), e mai sotto il prezzo minimo dell’oggetto. **Non esiste un prezzo massimo.**
 - Un prezzo in Thulium è almeno il prezzo minimo in crediti diviso per il tasso (1.000), arrotondato per eccesso, e solo per gli oggetti il cui prezzo minimo arriva a 1 Thulium o più. È tutto ciò che fa il tasso: **1 Thulium = 1.000 crediti è una regola per il prezzo minimo, non un tasso di cambio.** Nulla viene scambiato, nessun valore viene mostrato, e crediti e Thulium non si sommano mai.
-- 84 oggetti si possono mettere in vendita, e 83 di essi si possono anche prezzare in Thulium.
+- 89 oggetti si possono mettere in vendita, e 88 di essi si possono anche prezzare in Thulium.
 - Un’inserzione dura 168 / 336 / 504 ore, a tua scelta: le opzioni sono le stesse a ogni livello.
 - Il **deposito** è pari a 0,25% del prezzo per ogni 24 ore di durata dell’inserzione, con un minimo di 50 crediti o 1 Thulium. Lo paghi quando metti in vendita; non viene mai restituito, nemmeno se annulli l’inserzione.
 - Dal livello 10 il deposito è pari a 0,4%.
@@ -32,7 +32,7 @@ L’asta è il mercato dei piloti e, insieme, i lotti orari del gioco stesso, in
 
 ## Oggetti vendibili {#marketable-items}
 
-Si possono vendere solo gli oggetti che hai **guadagnato**. Tutto ciò che guadagni porta nell’[Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) un piccolo contrassegno, **Vendibile**: ciò che raccogli nello spazio (bottino di alieni, sciami, Warden e buco nero: [Carico](/wiki/03-Mechanics/Cargo.md)), ciò che paga una missione ([Missioni](/wiki/03-Mechanics/Quests.md#rewards)) e tutto ciò che fanno l’Assemblaggio e la Forgia. Ciò che hai **comprato** al Negozio, vinto in un lotto, comprato sul Mercato, comprato da [Davidski](/wiki/03-Mechanics/Davidski.md), ricevuto con un codice bonus, un pacchetto d’invito o il kit iniziale, o riavuto come rimborso non è vendibile e non si può mai rivendere, così nulla viene comprato solo per essere rivenduto. Neppure le piastre prodotte dalla Fucina dello Skylab sono vendibili; le Reinforced Plate che paga una missione lo sono. Neppure le munizioni e i razzi prodotti dalla Stampante di munizioni e dalla Fabbrica di razzi dello Skylab sono vendibili.
+Si possono vendere solo gli oggetti che hai **guadagnato**. Tutto ciò che guadagni porta nell’[Hangar](/wiki/03-Mechanics/Inventory.md#marketable-items) un piccolo contrassegno, **Vendibile**: ciò che raccogli nello spazio (bottino di alieni, sciami, Warden e buco nero: [Carico](/wiki/03-Mechanics/Cargo.md)), ciò che paga una missione ([Missioni](/wiki/03-Mechanics/Quests.md#rewards)) e tutto ciò che fanno l’Assemblaggio e la Forgia. Ciò che hai **comprato** al Negozio, vinto in un lotto, comprato sul Mercato, comprato da [Davidski](/wiki/03-Mechanics/Davidski.md), ricevuto con un codice bonus, un pacchetto d’invito o il kit iniziale, o riavuto come rimborso non è vendibile e non si può mai rivendere, così nulla viene comprato solo per essere rivenduto. Neppure le piastre prodotte dalla Fucina dello Skylab sono vendibili; le Reinforced Plate che paga una missione lo sono. Neppure le munizioni e i razzi prodotti dalla Stampante di munizioni e dalla Fabbrica di razzi dello Skylab sono vendibili. Neppure gli oggetti che paga la Ripetizione di una missione sono vendibili.
 
 Il contrassegno è un numero di unità, non un interruttore: una pila di munizioni può contenere colpi comprati e guadagnati, e la scheda dice «Vendibile (3 / 5)». Quando usi una parte di una pila (sparare, creare), se ne vanno prima le unità semplici, così quelle vendibili durano più a lungo. Unire due pezzi nella [Forgia](/wiki/06-Items/Forge.md#merge) mantiene il contrassegno solo se lo avevano entrambi, e l’anteprima lo dice; un passaggio della Forgia che fallisce restituisce i suoi materiali come unità semplici.
 
@@ -54,7 +54,7 @@ Quando è arrivata l’Asta (0.4.12), l’equipaggiamento che già avevi e che i
 | **Adaptive Core** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **Celle scudo** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Propulsori** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **Munizioni laser** | Standard Battery (in lotti da 100), Siphon Battery (in lotti da 10), Advanced Plasma (in lotti da 10), Ultra Core (in lotti da 10), Experimental Fusion Core | 5 |
+| **Munizioni laser** | Standard Battery (in lotti da 100), Siphon Battery (in lotti da 10), Advanced Plasma (in lotti da 10), Siphon Battery II (in lotti da 10), Antimatter Battery I (in lotti da 10), Ultra Core (in lotti da 10), Dark Matter Ammo I (in lotti da 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Razzi** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **Consumabili** | EMP Charge, Energetic Wall II | 2 |
 | **Extra** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

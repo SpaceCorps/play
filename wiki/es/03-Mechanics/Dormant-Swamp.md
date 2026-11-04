@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Daño de un disparo, en cada mundo:
 - **Un camuflaje te mete dentro.** Ninguna torreta ve jamás una nave camuflada, ni una dentro de la ventana de un EMP, a ninguna distancia. Una explosión dirigida a una nave visible que estalla junto a una camuflada la daña igualmente y acaba con su camuflaje.
 - **Disparan solo a pilotos,** nunca a alienígenas, pilotos de la corporación ni al enjambre, y la protección de una nave que acaba de volver tras una destrucción vale también contra ellas.
 - **El anillo de aviso.** Una nave que cruza el anillo fuera de la zona recibe una línea del Sistema: las torretas disparan a toda nave que ven, y algo duerme en el centro. Se le vuelve a avisar solo cuando ha salido del anillo y ha regresado.
-- **Salir.** Si te destruyen allí y vuelves en el sitio, o inicias sesión dentro de la zona, te colocan fuera. Un rumbo que marcas con un clic se desvía alrededor de la zona, y un aviso te advierte si el lugar donde haces clic queda dentro.
+- **Salir.** Si te destruyen allí no puedes volver en el sitio (un sector de peligro solo ofrece la base y el portal más cercano), y si inicias sesión dentro de la zona, te colocan fuera. Un rumbo que marcas con un clic se desvía alrededor de la zona, y un aviso te advierte si el lugar donde haces clic queda dentro.
 
 ## Los alienígenas {#the-aliens}
 
 Aquí viven tres alienígenas de la civilización perdida, cada uno con sus propias cifras. Se pagan como el jefe de un enjambre: **según el daño causado**, a todo piloto que haya hecho al menos la parte indicada en [Enjambres](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), y la caja va al piloto que más daño causó. Sus derribos suman a tus puntos PvE de rango como los de una nave de enjambre, en proporción a su paga ([Rangos](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). El escudo de cada uno absorbe el 80 % de cada impacto mientras dura ([Escudos](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** El cazador esbelto, el alienígena más rápido del juego (tan rápido como una Storm con Afterburner III). Algunos patrullan siempre los alrededores del pantano, y otros llegan en oleadas a las excavadoras. Es agresivo, caza al piloto más cercano que pueda ver y nunca ve una nave camuflada.
+- **Slumbering Void.** El cazador esbelto, el alienígena más rápido del juego (más rápido que una Storm con Afterburner III). Algunos patrullan siempre los alrededores del pantano, y otros llegan en oleadas a las excavadoras. Es agresivo, caza al piloto más cercano que pueda ver y nunca ve una nave camuflada.
 - **Inert Mass.** Un casco muerto con grietas violetas, del tamaño de una estación pequeña. Se quedan a una distancia fija del centro del pantano y por ahora no se alejan de él. Dispara **Dormant Lances**: cohetes guiados de larguísimo alcance que siguen a una nave hasta que se camufla, abre una ventana de EMP, entra en un anillo seguro, salta o muere. Es más rápida que cualquier nave, así que solo esas interrupciones sirven. Un asteroide en el camino de una Dormant Lance la detiene, y la Lance daña ese asteroide con su propio daño (nadie cobra por ello), así que una roca protege de una Inert Mass solo durante unos pocos impactos.
 - **El Unwakened.** Un monolito que duerme en el centro del pantano, lo más grande de cualquier mapa, tan lento que nunca alcanza a una nave. No dispara nada, pero toda nave dentro de su aura se quema, **camuflada o no**. Es **inmune**: los disparos y los cohetes impactan y no hacen nada, la ventana de objetivo muestra las barras llenas y la palabra Inmune. Un evento posterior permitirá combatirlo; sus recompensas de abajo están escritas y todavía no se pueden ganar.
 

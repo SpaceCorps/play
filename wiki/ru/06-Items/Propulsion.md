@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Двигательные системы -->
 # Двигательные системы и скорость {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Двигатели {#engines}
 
-Двигатели — основной источник тяги вашего корабля. Двигатель в **слоте способности** вместо этого даёт вам **Afterburner** из колонки «Особый эффект» — рывок скорости на десять секунд (дольше, если двигателей больше) — и сам тяги не добавляет (см. [Способности](/wiki/03-Mechanics/Abilities.md)).
+Двигатели — основной источник тяги вашего корабля. Двигатель в **слоте способности** вместо этого даёт вам **Afterburner** из колонки «Особый эффект» — рывок скорости на пятнадцать секунд (дольше, если двигателей больше) — и сам тяги не добавляет (см. [Способности](/wiki/03-Mechanics/Abilities.md)).
 
 | Название | Редкость | Базовая скорость | Бонус скорости, % | Бонус щита, % | Слоты | Особый эффект | Цена |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Ветхий | +2 | +2% | -2% | 1 | Afterburner I | 20 000 кредитов |
-| **Engine II** | Обычный | +4 | +4% | -8% | 2 | Afterburner II | Только крафт |
-| **Engine III** | Редкий | +6 | +5% | -15% | 3 | Afterburner III | Только крафт |
+| **Engine II** | Обычный | +4 | +3% | -8% | 2 | Afterburner II | Только крафт |
+| **Engine III** | Редкий | +6 | +4% | -15% | 3 | Afterburner III | Только крафт |
 
 **Engine II** создаётся в [Сборочном цехе](/wiki/06-Items/Overview.md#upgrading-modules) из Engine I за 2 000 Thulium, 60 Ship Fragment, 1 Power Core и 4 Velkonite Reinforced Plate. **Engine III** создаётся там же из Engine II за 4 000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit и 4 Dark Matter Plate ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)). Каждый сохраняет уровень зачарования и бонусы израсходованного двигателя ([Улучшение модулей](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Сначала снимите с корабля двигатель, который пойдёт в расход (и извлеките из него ускорители): двигатель, который установлен или в который вложены ускорители, не расходуется.
 
@@ -90,4 +90,4 @@ Impulse даёт больше фиксированной скорости, Momen
 
 ### Как оторваться от пришельцев {#outrunning-aliens}
 
-Пришельцы летают со скоростью 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) и 230 (Crystalys). Ostirion с одним Engine II и двумя ускорителями летит со скоростью 221,4 с Impulse Thruster I: это всё ещё меньше, чем у Crystalys, поэтому оторваться от него можно только с ускорителем, созданным в Сборочном цехе (230,8 с Impulse Thruster II, 240,3 с III, 243,3 с IV). Momentum Thruster на этом корабле летят так же или чуть ниже (221,4 с Momentum Thruster I; затем 230,5, 238,4 и 240,7 со II–IV): ступень I обоих семейств остаётся медленнее Crystalys, а любая ступень, созданная в Сборочном цехе, — быстрее, ступень II лишь на 0,8 и 0,5.
+Пришельцы летают со скоростью 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) и 230 (Crystalys). Ostirion с одним Engine II и двумя ускорителями летит со скоростью 219,3 с Impulse Thruster I и 228,6 со II: обе ещё меньше, чем у Crystalys, поэтому оторваться от него можно только с ускорителем III ступени (238,0 с Impulse Thruster III, 241,0 с IV). Momentum Thruster на этом корабле летят так же или чуть ниже (219,3 с Momentum Thruster I; затем 228,3, 236,1 и 238,4 со II–IV): ступени I и II обоих семейств остаются медленнее Crystalys, а ступени III и IV — быстрее.

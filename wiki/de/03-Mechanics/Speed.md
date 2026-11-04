@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Tempo -->
 # Tempoberechnung {#speed-calculation}
 
@@ -41,7 +41,7 @@ Außerdem wird das Triebwerkstempo mit dem Wirkungsgrad seines Slots multiplizie
 
 Der gesamte Tempobonus in Prozent ist die Summe aller Tempoboni der ausgerüsteten Triebwerke (und Hybride) abzüglich der Abzüge durch ausgerüstete Schilde:
 
-- **Tempobonus der Triebwerke**: Triebwerke fügen positive Tempoprozente hinzu (z. B. fügt Engine III `+5%` hinzu).
+- **Tempobonus der Triebwerke**: Triebwerke fügen positive Tempoprozente hinzu (z. B. fügt Engine III `+4%` hinzu).
 - **Tempoabzug durch Schilde**: Schwere Schilde belasten dein Schiff und fügen negative Tempoprozente hinzu (z. B. fügt Heavy Shield Core `-5%` Tempo hinzu).
 - **Slot-Skalierung**: Auch diese prozentualen Boni und Abzüge werden mit dem Wirkungsgrad des Slots skaliert, in dem der Gegenstand ausgerüstet ist. Ein Schild auf einer deiner Drohnen bremst dich genauso wie ein Schild in einem Kern-Slot.
 - **Nie unter null**: Egal, wie viele Schilde du trägst, dein Tempo sinkt nicht unter 0.

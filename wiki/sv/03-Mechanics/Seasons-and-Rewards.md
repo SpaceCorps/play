@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Säsonger och belöningar -->
 # Säsonger och belöningar {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Varje wipe stänger din säsong. Servern skriver ner graden du nådde, din plats
 
 Graden du har i wipens ögonblick ger dig:
 
-* **Wipepoäng**: 5 till 400, efter grad, utöver det som källorna till wipepoäng betalar (upp till 1 090 wipepoäng per wipe: [Tjäna wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Wipepoäng**: 5 till 400, efter grad, utöver det som källorna till wipepoäng betalar (upp till 1 105 wipepoäng per wipe: [Tjäna wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Premium-dagar**: 1 till 7, från Junior kapten och uppåt. De läggs på en Premium du redan har.
 * **Krediter och Thulium**: en nystartsfond som växer med graden, från 105 000 krediter och 225 Thulium för en Pilot till 6 300 000 krediter och 13 500 Thulium för en Senior amiral. Den är liten bredvid [taken](#the-caps-and-your-rewards): ett sätt att komma igång bra i den nya säsongen, inget försprång.
 

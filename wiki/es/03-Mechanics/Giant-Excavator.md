@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Excavadora gigante -->
 # Excavadora gigante {#giant-excavator}
 
@@ -29,14 +29,14 @@ Desde el primer día de la temporada brilla un **púlsar** en cada uno de los se
 ## Cómo transcurre una tanda {#how-a-run-goes}
 
 1. **Encuentra una.** Desde el día 11 de la temporada cada uno de los tres sectores de peligro que tienen un púlsar tiene una excavadora, en cada mundo. Una etiqueta, **Excavadora**, cuelga sobre ella cuando estás cerca, y el mapa del Sistema estelar marca cada sector de peligro que tiene una: el color de la marca es el estado de su excavadora, y su información emergente dice el tiempo que falta para su próximo cambio.
-2. **Abre el panel.** Haz clic en la etiqueta. La ventana **Excavadora gigante** funciona mientras tu nave esté dentro del alcance del panel de la excavadora (la lista *De un vistazo* lo indica). Una nave camuflada puede usarlo, y usarlo no termina el camuflaje.
+2. **Abre el panel.** Haz clic en la etiqueta. La ventana **Excavadora gigante** funciona mientras tu nave esté dentro del alcance del panel de la excavadora (la lista *De un vistazo* lo indica). Una nave camuflada no puede usarlo: los botones de la ventana están bloqueados y toda acción se rechaza hasta que termina el camuflaje.
 3. **Reposta.** **Añadir Dark Matter** pone un Dark Matter de tu carga en el depósito. Puede hacerlo cualquiera. El depósito nunca admite más de lo que la excavadora puede quemar antes de sobrecalentarse, así que no se desperdicia combustible.
 4. **Elige qué minar** en la lista y pulsa **Iniciar minería**. Hace falta al menos un Dark Matter en el depósito y un recurso. Cualquiera puede cambiar la elección hasta el inicio y también mientras funciona (véase *Cambiar el recurso* más abajo). El inicio se avisa a todos los pilotos del mundo, con tu nombre, el sector y el recurso.
 5. **Defiéndela.** Mientras mina, cada pocos segundos cae una caja alrededor de la excavadora, y poco después del inicio llegan los primeros Slumbering Voids. Defiende la excavadora y recoge las cajas. Un chorro de luz fluye del púlsar al taladro de la excavadora y se intensifica al ritmo de la estrella, una vez cada 4 segundos; en el último minuto antes del sobrecalentamiento parpadea y se entrecorta, y cuando la máquina descansa se apaga.
 6. **Vigila el calor.** La barra de Calor se llena mientras la excavadora mina y nunca se vacía mientras espera. En su límite la excavadora se sobrecalienta. Vete antes: el juego avisa al mapa dos veces.
 7. **Descansa.** Sobrecalentada o destruida, la excavadora y su púlsar quedan irradiados hasta que termina el descanso; entonces vuelve a estar lista, con el calor a cero y el casco lleno.
 
-La ventana muestra además el sector, el depósito (una celda por cada Dark Matter, la que se quema dibujada a medias), cuánto Dark Matter llevas, el casco de la excavadora, lo que cada recurso suelta por minuto en tu mundo y, mientras mina, el recurso que se mina ahora, lo que cada recurso ha soltado desde que la excavadora se enfrió por última vez, el tiempo hasta la siguiente oleada y los Voids vivos. Cuando algo es rechazado, lees el motivo en rojo: estás demasiado lejos del panel, no tienes Dark Matter, el depósito está lleno, aún no hay combustible o recurso elegido, la excavadora ya está funcionando, un cambio llegó demasiado pronto tras el anterior, o la excavadora está caliente.
+La ventana muestra además el sector, el depósito (una celda por cada Dark Matter, la que se quema dibujada a medias), cuánto Dark Matter llevas, el casco de la excavadora, lo que cada recurso suelta por minuto en tu mundo y, mientras mina, el recurso que se mina ahora, lo que cada recurso ha soltado desde que la excavadora se enfrió por última vez, el tiempo hasta la siguiente oleada y los Voids vivos. Cuando algo es rechazado, lees el motivo en rojo: estás demasiado lejos del panel, no tienes Dark Matter, el depósito está lleno, aún no hay combustible o recurso elegido, la excavadora ya está funcionando, un cambio llegó demasiado pronto tras el anterior, la excavadora está caliente o tu nave está camuflada.
 
 ### Cambiar el recurso {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Si el combustible se agota antes del límite, la excavadora vuelve a **Lista** c
 
 ## Qué mina {#what-it-mines}
 
-Un depósito lleno suelta aproximadamente lo que ganarían cinco pilotos en media hora del mejor cultivo de Thulium. Beta y Gamma sueltan más, igual que pagan más por cada derribo. Eliges el recurso antes del inicio y puedes cambiarlo mientras la excavadora funciona. Una caja contiene lo mismo para todos, y una caja de Thulium es dinero en efectivo que se paga al recogerla, como el Thulium de los asteroides. Lo que sacas de una caja, en cambio, puede variar: cada nivel de la investigación de Piloto Excavator Mining ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta el Thulium y el mineral que recoges en un 20 %, 30 % o 40 % en total, redondeado hacia abajo.
+Un depósito lleno suelta aproximadamente lo que ganarían cinco pilotos en media hora del mejor cultivo de Thulium. Beta y Gamma sueltan más, igual que pagan más por cada derribo. Eliges el recurso antes del inicio y puedes cambiarlo mientras la excavadora funciona. Una caja contiene lo mismo para todos, y una caja de Thulium es dinero en efectivo que se paga al recogerla, como el Thulium de los asteroides. El tamaño de las cajas lo fija quien inicia la tanda: cada nivel de la investigación de Piloto Excavator Mining ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) del piloto que pulsa **Iniciar minería** hace que cada caja de esa tanda contenga en total un 20 %, 30 % o 40 % más, tanto de Thulium como de mineral, durante toda la tanda, sin importar quién reposte, cambie el recurso o recoja las cajas. El panel de control muestra de quién es la tanda y qué parte llevan sus cajas, y avisa a un piloto que tiene Excavator Mining de que cuenta en las tandas que inicia él mismo. Las cantidades de más abajo son sin ella; se suma al máximo que un recurso puede dejar en una tanda.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ La excavadora **no tiene un anillo especial**: valen las reglas normales de tu m
 Son líneas del Sistema (aparecen en la pestaña **Sistema** del chat y en el Registro de juego, y no en **Global** ni en **Local**). Las tres primeras van a todo el mundo; la última, a los pilotos del sector de la excavadora.
 
 - El día en que empieza el evento 2: los sectores de peligro han cambiado.
-- Un piloto **inicia** una excavadora, con el sector, el recurso y los minutos de combustible.
+- Un piloto **inicia** una excavadora, con el sector, el recurso y los minutos de combustible, y la parte de Excavator Mining de ese piloto, si la tiene.
 - La excavadora **se sobrecalienta** o es **destruida**.
 - Se agota el combustible; la excavadora está a punto de sobrecalentarse (dos avisos); viene una **oleada** de Voids, con su número y el lado del mapa por el que llega; no queda ningún piloto, así que los Voids atacan la excavadora.
 

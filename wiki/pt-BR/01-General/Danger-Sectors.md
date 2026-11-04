@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Setores de perigo -->
 # Setores de perigo {#danger-sectors}
 
@@ -52,7 +52,7 @@ Cada mundo tem a sua própria cópia de tudo, e um pulsar e sua escavadeira fica
 
 - **Radiação.** Uma escavadeira que superaqueceu ou foi destruída, e seu pulsar, queimam toda nave que ficar dentro dos seus círculos ([Escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). O jogo avisa antes, e os círculos são desenhados no chão durante o voo e no minimapa.
 - **Os canhões do pântano.** As torres do pântano atiram numa nave que conseguem ver muito antes de ela ver algo que valha a viagem ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Um rumo que você clica é desviado em volta dos canhões e da radiação, como em volta do buraco negro, e um aviso alerta quando o lugar clicado fica dentro.
-- **Se você for destruído lá,** a opção de voltar **no local** o coloca no ponto mais próximo fora da radiação e fora da zona do pântano, como no buraco negro ([Primeiros passos](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Se você for destruído lá,** não é possível voltar **no local**: em um setor de perigo a tela de destruição oferece apenas a sua **base** e o **portal mais próximo**, e “No local” aparece esmaecido. Pedi-lo é recusado e não custa nada ([Primeiros passos](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Um grupo e uma saída.** As escavadeiras atraem Voids e rivais por igual. Leve um [grupo](/wiki/03-Mechanics/Groups.md), saiba qual portão é o mais próximo e lembre que, nos setores de perigo, você não pode sair por salto enquanto é atacado ([Saltar sob fogo](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **O resto é PvP como sempre.** Nada aqui é lugar seguro: valem as regras normais do seu mundo, rivais incluídos.
 

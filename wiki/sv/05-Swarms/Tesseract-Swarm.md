@@ -1,0 +1,104 @@
+<!-- wiki-i18n source: b1ed99f509dd1e6b -->
+<!-- wiki-i18n title: Tesseract-svärm -->
+# Tesseract-svärm {#tesseract-swarm}
+
+Tesseract-svärmen är ett enda enormt moderskepp, **Tesseract**, och de **Facets** det släpper ut medan det träffas. Tesseract håller till på en fast plats i [farosektorn](/wiki/01-General/Danger-Sectors.md) `DS-4`, har inget eget vapen och lämnar aldrig sin sektor. Det är gjort för en mycket stor grupp av de starkaste piloterna: dess skrov och sköld är långt över en Crystalys, och det läker sig självt så snart det lämnas i fred. Farosektorerna är PvP-sektorer, så striden kan locka rivaler utöver Facets.
+
+## I korthet {#at-a-glance}
+
+<!-- tesseract-glance:begin -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+
+- **Var**: Farosektorn `DS-4`
+- **Hur många**: En i varje värld
+- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Ledare**: Tesseract
+- **Hemmaplats**: Inom 2 500 enheter från punkten 27 000, 5 000 på sektorns karta
+- **Regenerering**: 125 000 HP per sekund i Alpha, först skrovet och sedan skölden, när 5 s har gått utan skada
+- **Följeslagare**: Upp till 50 × Facet, 10 till var 5 s medan ledaren träffas
+- **Följeslagarna kommer**: Bara medan ledaren har träffats de senaste 5 s, inom 400 enheter från den
+- **Jägare**: Varje Facet går på piloten som har gjort mest skada på ledaren, upp till 5 000 enheter från den. Utan någon att jaga väntar den nära ledaren och försvinner 20 s efter den sista träffen
+- **När ledaren förstörs**: Följeslagarna försvinner 1 min efter att ledaren förstörts, även om de just attackerar
+- **Kommer tillbaka**: 30 min efter att ledaren förstörts, i samma sektor
+- **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.
+
+<!-- tesseract-glance:end -->
+
+## Medlemmarna {#the-members}
+
+- **Tesseract**: ett kubformat moderskepp många gånger större än en Crystalys, av mörkt smitt järn med glödande sömmar och med sitt namn över sig. En hangar i frontväggen öppnas medan det träffas, och en lysande kub snurrar i en bur på taket. Det är passivt: det driver sakta runt inom sitt område så länge ingen skadar det, och när en pilot träffar det stannar det och håller sin plats. Det skjuter inget och jagar ingen; dess försvar är storleken, självläkningen och de Facets det släpper ut.
+- **Facet**: ett litet, snabbt skepp av samma mörka järn, med glödande kanter, en lysande lins i nosen och två svävande vingplattor. Det finns bara medan Tesseract träffas. Det går på piloten som har gjort mest skada på Tesseract, skjuter på honom och försvinner när Tesseract lämnas i fred. Det är snabbare än alla skepp, så det hjälper inte att fly.
+
+## Hur striden går till {#how-the-fight-goes}
+
+- **Kom med en mycket stor grupp och slå till samtidigt.** Tesseracts skrov och sköld är en reserv på miljontals poäng, så striden tar lång tid även för en stor grupp starka skepp, och betalningen delas efter skada: varje pilot på plats räknas.
+- **Lämna det aldrig i fred.** Har ingen skadat det under tiden i listan *I korthet* läker det först skrovet och sedan skölden i den takten, så ett uppehåll på några sekunder kan göra en lång minuts arbete ogjort. En Tesseract som läkt helt glömmer vem som skadade det: betalningen och lådan följer skadan i striden som förstör det.
+- **Varje träff kallar på Facets.** Så länge Tesseract träffas kommer en grupp Facets nära det med några sekunders mellanrum, upp till taket i listan *I korthet*. Träffar ingen det kommer inga, och de som redan är där väntar och försvinner.
+- **Facets jagar den som gör mest skada.** Alla går på piloten som har gjort mest skada på Tesseract och byter mål först när en annan pilot tydligt har gått förbi honom: ett litet försprång får dem inte att vända. Femtio av dem förstör ett skepp på några sekunder, så bestäm i gruppen vem som tar den platsen. De andra är inte deras mål: en Facet har lite skrov och sköld, och att skjuta ner en betalar ingenting men tar en salva från piloten längst fram.
+- **Den som flyr tillräckligt långt släpps.** Facets följer inte längre från Tesseract än avståndet i listan *I korthet*; en Facet utan någon att jaga väntar nära det och försvinner.
+- **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), och det gäller också Tesseracts självläkning och varje Facets salva.
+- **Farosektorerna är PvP.** En rival kan attackera gruppen mitt i striden och vänta på lådan: den tillhör piloten som gjorde mest skada (och dennes klan) i 30 sekunder, och sedan vem som helst ([Last](/wiki/03-Mechanics/Cargo.md)). Kom inte ensam.
+- **Tesseract kommer tillbaka** efter tiden i listan *I korthet*, med full styrka, på sin plats.
+
+## Belöningar och byte {#rewards-and-drops}
+
+Tesseract betalar för den strid det är: lika mycket som många Crystalys tillsammans, och mer för skadan det tål än en Crystalys, den bäst betalda utomjordingen. Betalningen delas efter skada mellan piloterna som stred mot det ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Dess låda går till piloten som gjorde mest skada och innehåller skrovplattor, Power Cores och Ancient Control Units, och då och då Dark Matter. Facets betalar ingenting, tappar ingenting och ger inga PvE-poäng: att skjuta ner dem är ingen farmning.
+
+## Värdena {#the-numbers}
+
+Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)).
+
+<!-- tesseract-members:begin -->
+<!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
+
+### Tesseract
+
+Bygger på Crystalys med 625 % av skrovet; inget vapen, och sköld och hastighet är egna.
+
+| | Alpha | Beta | Gamma |
+| :--- | ---: | ---: | ---: |
+| Skrov | 1 600 000 | 2 400 000 | 3 200 000 |
+| Sköld | 1 200 000 | 1 800 000 | 2 400 000 |
+| Laserskada (en salva per sekund) | ingen | ingen | ingen |
+| Hastighet | 30 | 30 | 30 |
+| Laserräckvidd | – | – | – |
+| Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
+| Läker per sekund, efter 5 s utan skada (först skrovet, sedan skölden) | 125 000 | 187 500 | 250 000 |
+| Krediter | 900 000 | 1 800 000 | 2 700 000 |
+| Thulium | 2 400 | 4 800 | 7 200 |
+| Erfarenhet (XP) | 144 000 | 288 000 | 432 000 |
+| Heder | 624 | 1 248 | 1 872 |
+| PvE-poäng per nedskjutning | 42 | 42 | 42 |
+
+**Byte**: en låda, för piloten som gjorde mest skada.
+
+| Föremål | Chans | Mängd |
+| :--- | ---: | ---: |
+| Reinforced Hull Plate | 100 % | 2–4 |
+| Velkonite Reinforced Plate | 60 % | 6–12 |
+| Orvium Reinforced Plate | 40 % | 2–5 |
+| Power Core | 70 % | 1–2 |
+| Ancient Control Unit | 35 % | 1 |
+| Dark Matter | 2,5 % | 1 |
+
+### Facet
+
+Bygger på Seeker med 2 500 % av skrovet och 309 % av laserskadan; sköld, hastighet och räckvidd är egna.
+
+| | Alpha | Beta | Gamma |
+| :--- | ---: | ---: | ---: |
+| Skrov | 20 000 | 30 000 | 40 000 |
+| Sköld | 16 000 | 24 000 | 32 000 |
+| Laserskada (en salva per sekund) | 556 | 834 | 1 112 |
+| Hastighet | 450 | 450 | 450 |
+| Laserräckvidd | 600 | 600 | 600 |
+| Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
+| Krediter | 0 | 0 | 0 |
+| Thulium | 0 | 0 | 0 |
+| Erfarenhet (XP) | 0 | 0 | 0 |
+| Heder | 0 | 0 | 0 |
+| PvE-poäng per nedskjutning | 0 | 0 | 0 |
+
+**Byte**: inget. Nedskjutningen betalar ingenting.
+
+<!-- tesseract-members:end -->

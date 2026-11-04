@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Förbrukningsbara batterier som multiplicerar skadan i dina lasersalvor:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Vanlig | ×1,0 | – | 5 krediter |
 | **Advanced Plasma** | Sällsynt | ×2,0 | – | 0,5 Thulium |
-| **Ultra Core** | Sällsynt | ×3,0 | 5 % | 1,0 Thulium |
-| **Experimental Fusion Core** | Episk | ×4,0 | 10 % | 2,2 Thulium |
-| **Siphon Battery** | Sällsynt | ×1,0, bara sköldar | – | 0,25 Thulium |
+| **Ultra Core** | Sällsynt | ×3,0 | 5 % | 1,0 Thulium, eller tillverka den |
+| **Experimental Fusion Core** | Episk | ×4,0 | 10 % | Kan bara tillverkas (säljs inte längre) |
+| **Siphon Battery** | Sällsynt | ×1,0, bara sköldar | – | 50 krediter |
+| **Siphon Battery II** | Sällsynt | ×0,5, bara sköldar, stjäl dubbelt så mycket | – | Kan bara tillverkas |
+| **Antimatter Battery I** | Sällsynt | ×2,0 | 20 % | Kan bara tillverkas |
+| **Antimatter Battery II** | Episk | ×3,0 | 20 % | Kan bara tillverkas |
+| **Dark Matter Ammo I** | Sällsynt | ×1,5 till ×5, dras på nytt för varje salva (×3,25 i snitt) | – | Kan bara tillverkas |
+| **Dark Matter Ammo II** | Episk | ×6,0, en salva var 1,5 s, suger åt sig målets sköld | – | Kan bara tillverkas |
 
-**Sköldgenomträngning** dras av från målets absorption för varje träff i dina salvor: sköldarna tar målets absorption minus genomträngningen (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Dina Penetration Amps och en drönarformation läggs till ammunitionens, och hela summan står [längre ned på sidan](#shield-penetration-of-a-laser-hit). Mot ett skepp på 80 % (den bästa skölden med de bästa cellerna) lämnar x4-ammunitionens 10 % sköldarna 70 % av träffen och skrovet 30 %. Det spelar störst roll mot skepp vars skrov är litet jämfört med deras sköld; ett mycket stort skepp på 80 % klarar sig lika bra med eller utan genomträngning. Utomjordingar har knappast något absorptionsvärde att tala om (deras sköldar tar 80 % av en träff), och genomträngningen dras av från det också.
+**Varifrån den nya ammunitionen kommer.** Sedan 0.5.0 säljs Experimental Fusion Core inte längre: du tillverkar den, 1 000 åt gången, i [Monteringen](/wiki/06-Items/Overview.md#the-production-queue), efter att du har forskat fram **Military Grade Ammo II** i Skylabs forskningscentrum. Ultra Core går fortfarande att köpa och kan också tillverkas (**Military Grade Ammo I**, 30 minuters forskning). Fem nya ammunitionstyper kan bara tillverkas, var och en bakom en teknik i familjen **Laser Ammo** och var och en gjord av ammunitionen under den: **Siphon Battery II** (av Siphon Battery), **Antimatter Battery I** (av Siphon Battery II) och **II** (av Antimatter Battery I och lite [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (av råvaror och en Dark Matter) och **II** (av Dark Matter Ammo I och Dark Matter). En tillverkning är 1 000 enheter, 5 till 15 minuter, och en enhet kostar ungefär vad den är värd. [Ammunitionsskrivaren](/wiki/03-Mechanics/Skylab.md) gör också Ultra Core och Experimental Fusion Core, när du väl har forskat fram dem.
+
+**Sköldgenomträngning** dras av från målets absorption för varje träff i dina salvor: sköldarna tar målets absorption minus genomträngningen (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Dina Penetration Amps och en drönarformation läggs till ammunitionens, och hela summan står [längre ned på sidan](#shield-penetration-of-a-laser-hit). Mot ett skepp på 85 % (den bästa skölden med de bästa cellerna) lämnar x4-ammunitionens 10 % sköldarna 75 % av träffen och skrovet 25 %, och Antimatter-ammunitionens 20 % lämnar dem 65 % och skrovet 35 %. Det spelar störst roll mot skepp vars skrov är litet jämfört med deras sköld; ett mycket stort skepp på 85 % klarar sig lika bra med eller utan genomträngning. Utomjordingar har knappast något absorptionsvärde att tala om (deras sköldar tar 80 % av en träff), och genomträngningen dras av från det också.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 - **Kritiska träffar** räknas: en kritisk salva dränerar 1,5 gånger så mycket, och dess siffra ritas som en kritisk träff. Dess paket är större och ljusare, och målets sköld blossar kraftigare.
 - [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) skjuter vanlig x1-ammunition.
 
+**Siphon Battery II** fungerar likadant med siffrorna omvända: den dränerar **hälften** så mycket ur målets sköld som en Siphon Battery (x0,5) och ger dig **dubbelt** så mycket som den dränerade (ett stöldvärde på 2,0), så din sköld får exakt vad en Siphon Batterys salva ger medan målet förlorar hälften så mycket. Den tillverkas (forskning **Siphon Battery II**, av 1 000 Siphon Battery) och rör, som den första, aldrig skrovet.
+
+---
+
+## Antimatter- och Dark Matter-ammunition {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I och II** tränger igenom sköldar: **20 %** genomträngning vardera, utöver dina amps och din formation, vid x2 och x3 skada. Mot ett skepp vars sköld är stor jämfört med skrovet öppnar de skrovet snabbare än Experimental Fusion Core; mot allt annat är x4 fortfarande den hårdare träffen. De är ett val, inte ett steg till uppåt.
+
+**Dark Matter Ammo I** slumpar sin multiplikator **för varje salva**, någonstans mellan **x1,5 och x5** (x3,25 i snitt). Hela skeppet delar ett enda slag, oavsett antal lasrar, så en salva är lyckad eller misslyckad för alla på en gång. Den avfyras varje sekund som all ammunition.
+
+**Dark Matter Ammo II** träffar med **x6**, men bara **en salva var 1,5:e sekund** (samma skada per sekund som en x4), och den **suger åt sig sköld**: du får 25 % av den skada som målets sköld verkligen tog, upp till ditt maximum. Träffen landar som vilken annan som helst (sköldarna tar sin del och skrovet resten) och ett mål utan sköld kvar ger dig ingenting. Att få sköld är ingen skada du tagit, så det fördröjer inte din egen sköldregenerering.
+
 ---
 
 ## Sköldgenomträngning för en laserträff {#shield-penetration-of-a-laser-hit}
 
-Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 36 %; en Penetration Amp IV i en av tolv lasrar ger 1 %. En Wraith har 12 lasrar och 36 förstärkarplatser, och alla 36 måste fyllas för att nå 36 %.
 - **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
-- **Den bästa lasern ger 61 %.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (36 %) ger 61 %.
+- **Den bästa lasern ger 61 % med x4 och 71 % med Antimatter.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (36 %) ger 61 %; en Antimatter Battery (20 %) i dess ställe ger 71 %, vid x3 skada i stället för x4.
 - **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter i stället för 12. I den bästa uppsättningen blir tre eviga 66,4 %, och varje punkt räknas.
 
 | Lasersalva | Ammunition | Förstärkare (3 platser) | Formation | Summa |
@@ -189,19 +215,19 @@ Vad det gör med målets sköldar: varje ruta är den andel av en träff som **s
 | Försvarare (absorption) | Utan förstärkare | Fusion Core ensam (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Den bästa lasern (61 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, ingen cell (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, ingen cell (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, ingen cell (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Den bästa skölden rakt ur lådan (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Den bästa skölden rakt ur lådan (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med sin bästa cell (skrovet tar hela träffen); en Heavy Shield Core med tre Capacity-celler behåller 4 % av varje träff, och den bästa skölden behåller 19 % av den (35 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (70 %) gör det.
+Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med sin bästa cell (skrovet tar hela träffen); en Heavy Shield Core med tre Capacity-celler behåller 9 % av varje träff, och den bästa skölden behåller 24 % av den (41 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (70 %) gör det.
 
 ### När är en Penetration Amp värd en plats? {#when-is-a-penetration-amp-worth-a-slot}
 
-**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 95 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 1,8 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (80 %) tar en trio Penetration Amps ungefär 11 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den nästan ingenting.**
+**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 101 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 2,6 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (85 %) tar en trio Penetration Amps ungefär 19 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den nästan ingenting.**
 
 - **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 187 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 356 och tre Crit Amp IV 369: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig bara där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad, vars stora skrov klarar sig ändå, är en enkel Damage- eller Crit-uppsättning ungefär lika snabb (en Penetration Amp i en laser vinner högst 5 %).
 - **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, så den fungerar på dem också, men en Damage Amp eller Crit Amp på nivån dödar dem lika snabbt eller snabbare, utom en Phantasm eller en Goombah som bekämpas med en formation, där en Penetration Amp i en laser vinner upp till 5 %.

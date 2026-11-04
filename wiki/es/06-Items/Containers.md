@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Contenedores -->
 # Contenedores {#containers}
 
@@ -333,12 +333,12 @@ El Archivo cromático saca primero la categoría y luego un aspecto de esa categ
 | :--- | :--- | ---: |
 | Común | 240 × Velkonite (al Skylab) | 7,000 % |
 | Común | 160 × Orvium (al Skylab) | 7,000 % |
-| Común | 1.300 × Reinforced Hull Plate | 5,000 % |
-| Común | 9.000 × Ship Fragment | 6,000 % |
+| Común | 100 × Reinforced Hull Plate | 5,000 % |
+| Común | 1.000 × Ship Fragment | 6,000 % |
 | Común | **Cristales de forja**: 4.000 × Cataclysite + 3.000 × Quorvium | 5,000 % |
-| Común | 450 × Power Core | 5,000 % |
+| Común | 20 × Power Core | 5,000 % |
 | Común | 450 de Thulium | 5,000 % |
-| Común | 4 × Regular Cluster Chunk | 5,000 % |
+| Común | 2 × Regular Cluster Chunk | 5,000 % |
 | Poco común | 780 × Velkonite (al Skylab) | 5,000 % |
 | Poco común | 510 × Orvium (al Skylab) | 5,000 % |
 | Poco común | 19 × Velkonite Reinforced Plate | 4,000 % |
@@ -571,16 +571,17 @@ La página Contenedores del juego muestra tus probabilidades junto a las publica
 
 ## Versión de la tabla {#version-of-the-table}
 
-Cada probabilidad de esta página es la tabla del servidor del juego. Cuando cambia una probabilidad, la tabla recibe una versión nueva y un hash nuevo, y cada apertura registra el hash de la tabla de la que se sacó.
+Cada probabilidad de esta página es la tabla del servidor del juego. Cuando cambia una probabilidad o una cantidad, la tabla recibe una versión nueva y un hash nuevo, y cada apertura registra el hash de la tabla de la que se sacó.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Versión de la tabla**: 1
-- **Hash de la tabla (primeros 12 caracteres)**: `23aa20f1a5ad`
+- **Versión de la tabla**: 2
+- **Hash de la tabla (primeros 12 caracteres)**: `9f345692845a`
 
 Qué cambió:
 
+- Versión 2: Cilindro de sondeo: las cuatro pilas comunes son más pequeñas. Reinforced Hull Plate de 1.300 a 100, Ship Fragment de 9.000 a 1.000, Power Core de 450 a 20, Regular Cluster Chunk de 4 a 2. No ha cambiado la probabilidad de ningún premio ni de ninguna categoría.
 - Versión 1: La primera tabla publicada.
 
 <!-- containers-version:end -->

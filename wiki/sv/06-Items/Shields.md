@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldar och försvar {#shields-defense}
 
@@ -41,12 +41,12 @@ Utrusta sköldkärnor för att skapa aktiva defensiva barriärer, i skeppets gen
 | Namn | Sällsynthet | Kapacitet | Laddningstakt | Absorption | Sköld % | Fart % | Sköldcellsplatser | Specialeffekt | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Skral | 10 000 | 333/s | 45 % | +5 % | −1 % | 1 | Shield Surge I | 20 000 krediter |
-| **Basic Shield Core** | Vanlig | 15 000 | 500/s | 48 % | +10 % | −3 % | 2 | Shield Surge II | 2 000 Thulium |
-| **Heavy Shield Core** | Sällsynt | 25 000 | 833/s | 50 % | +20 % | −5 % | 3 | Shield Surge III | Kan bara tillverkas |
+| **Basic Shield Core** | Vanlig | 15 000 | 500/s | 50 % | +10 % | −3 % | 2 | Shield Surge II | 2 000 Thulium |
+| **Heavy Shield Core** | Sällsynt | 25 000 | 833/s | 55 % | +20 % | −5 % | 3 | Shield Surge III | Kan bara tillverkas |
 
 **Heavy Shield Core** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Basic Shield Core, med 4 000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Den behåller förtrollningsnivån och bonusarna hos den kärna den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av Basic Shield Core från ditt skepp (och ta ut dess celler ur den): en kärna som sitter på ett skepp eller bär celler förbrukas inte.
 
-**Absorption** är den andel av varje träff som dina sköldar tar; skrovet tar resten. En sköld ensam ger **45 till 50 %**, och dess celler lägger till resten: den bästa skölden med de bästa cellerna (en Heavy Shield Core med tre Absorption Shield Cell IV) ger **80 %**, det mest ett skepp har från start. Tre permanenta förstärkningar lägger till det: säsongsbutikens Shield Absorbance Boost (+0,1 punkter per nivå, 100 nivåer, 25 wipepoäng var), Smedjans absorptionsbonusar och Pilot-forskningen Field Theory (+2, +3 eller +5 punkter). Källorna till wipepoäng (upp till 1 090 per wipe, och de börjar om vid varje wipe) räcker i den första wipen till 43 av de 100 nivåerna (+4,3 punkter), vilket med en fullt smidd uppsättning på nivån Evig blir ungefär **95 %**, och ungefär **99 %** med Field Theory III. Värdet är dock inte begränsat till 100 %: en angripares *sköldgenomträngning* dras av från det, så det ett skepp har över 100 % är dess marginal mot genomträngning. Se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+**Absorption** är den andel av varje träff som dina sköldar tar; skrovet tar resten. En sköld ensam ger **45 till 55 %**, och dess celler lägger till resten: den bästa skölden med de bästa cellerna (en Heavy Shield Core med tre Absorption Shield Cell IV) ger **85 %**, det mest ett skepp har från start. Tre permanenta förstärkningar lägger till det: säsongsbutikens Shield Absorbance Boost (+0,1 punkter per nivå, 100 nivåer, 25 wipepoäng var), Smedjans absorptionsbonusar och Pilot-forskningen Field Theory (+4, +7 eller +10 punkter). Källorna till wipepoäng (upp till 1 105 per wipe, och de börjar om vid varje wipe) räcker i den första wipen till 44 av de 100 nivåerna (+4,4 punkter), vilket med en fullt smidd uppsättning på nivån Evig blir ungefär **100 %**, och ungefär **110 %** med Field Theory III. Värdet är dock inte begränsat till 100 %: en angripares *sköldgenomträngning* dras av från det, så det ett skepp har över 100 % är dess marginal mot genomträngning. Se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Adaptiva kärnor fungerar som hybridgeneratorer och kombinerar sköld- och fartf
 
 | Namn | Sällsynthet | Sköldbonus % | Fartbonus % | Platser | Specialeffekt | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Skral | +4 % | +2,4 % | 1 | — | 100 000 krediter |
-| **Adaptive Core II** | Vanlig | +6,4 % | +3,2 % | 2 | — | Kan bara tillverkas |
-| **Adaptive Core III** | Sällsynt | +8 % | +4 % | 3 | — | Kan bara tillverkas |
+| **Adaptive Core I** | Skral | +4 % | +1,2 % | 1 | — | 100 000 krediter |
+| **Adaptive Core II** | Vanlig | +6,4 % | +1,6 % | 2 | — | Kan bara tillverkas |
+| **Adaptive Core III** | Sällsynt | +8 % | +2 % | 3 | — | Kan bara tillverkas |
 
 **Adaptive Core II** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Adaptive Core I, med 2 000 Thulium, 60 Ship Fragments, 1 Power Core och 4 Velkonite Reinforced Plates. **Adaptive Core III** tillverkas där av en Adaptive Core II, med 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Var och en behåller förtrollningsnivån och bonusarna hos den kärna den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av kärnan som ska förbrukas från ditt skepp (och ta ut dess styrraketer och celler ur den): en kärna som sitter på ett skepp eller bär moduler förbrukas inte.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3bcad21ba05a2824 -->
+<!-- wiki-i18n source: 808699731b26ded1 -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -125,6 +125,13 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Pirate Scout | 4 |
 | Dormant Force | 25 |
 | Dormant Pulse | 11 |
+| Boss Phantasm | 8 |
+| Phantasm Guard | 1 |
+| Boss Goombah | 14 |
+| Goombah Guard | 3 |
+| Boss Crystalys | 21 |
+| Crystalys Guard | 6 |
+| Tesseract | 42 |
 | Slumbering Void | 10 |
 | Inert Mass | 15 |
 | The Unwakened | 112 |
@@ -135,7 +142,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Siege Escort I, II, III | 2, 3, 6 |
 | Wrath Guard I, II, III | 2, 3, 6 |
 
-Az első öt sor a hétköznapi idegen, a következő hat a három raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától). A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
+Az első öt sor a hétköznapi idegen, a következő tizenkettő a hat raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától). A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
 
 Például egy 4. szintű pilóta, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 300 + 160 + 40 = **912** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 

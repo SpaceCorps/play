@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -16,8 +16,8 @@ Att grunda en klan eller gå med i en låter dig samla resurser, uppgradera den 
 - Ledaren och vice ledarna lägger poängen på tre [bonusar](#clan-points-and-boosts) med tio nivåer vardera: **Skada** (upp till +5 %), **Thulium** (upp till +10 %) och **Krediter** (upp till +10 %).
 - En klan som klarar varje linje har köpt alla nivåer på **dag 12**. Poäng, nivåer och själva klanen tar slut med wipen.
 - Du behöver minst **tre medlemmar** som gjort sin del och **en stor besättning** för striden mot väktaren: sedan 0.4.13 har en väktare fem gånger så mycket skrov, sköld och laserskada som tidigare, så besättningarna som förut vann, ungefär sju piloter, förlorar nu ([hur stor besättning som behövs](#how-big-a-crew)). En för liten besättning förlorar striden: klanen behåller då de **70 poängen** från de fyra uppdragen, men linjen blir inte klar och betalar ingen [belöning till dig](#the-reward-for-you).
-- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)). Sedan 0.4.16 är betalningen tre gånger så stor, och så länge en väktare står **kommer en våg av kartans utomjordingar varje minut** (var 40:e sekund för Wrath Warden III), riktad mot de piloter som träffade väktaren, med en **Crystalys** i varje våg när väktaren har mindre än halva skrovet kvar ([vågor](#waves-of-aliens)).
-- Ditt skepp visar de bonusar det har i fönstret **Boosters**, på ett eget kort ([var du ser dem](#the-three-boosts)).
+- En väktare betalar en stor pott, delad efter skada, och **varje pilot som gjort 5 % av skadan eller mer får en privat låda** med sin del av bytet, som bara hen ser och bara hen kan ta ([betalning och byte](#warden-pay-and-loot)). Sedan 0.4.16 är betalningen tre gånger så stor, och så länge en väktare står **kommer en våg av Phantasm, Bulwark och (från Warden II och uppåt) Goombah varje minut** (var 40:e sekund för Wrath Warden III), riktad mot de piloter som träffade väktaren, med en **Crystalys** i varje våg när väktaren har mindre än halva skrovet kvar ([vågor](#waves-of-aliens)).
+- Ditt skepp visar de bonusar det har i fönstret **Boosters**, som rader i de kategorier de höjer ([var du ser dem](#the-three-boosts)).
 - Linjen och bonusarna kräver ett spel av version 0.4.10 eller senare, kortet i fönstret Boosters version 0.4.12 eller senare, klansidan, inläggen, onlinefönstret, dagsbonusen, fredsbegärandena, loggen och klaner per värld version 0.4.16 eller senare.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Sedan 0.4.22 **går varje väktare på den pilot som träffade den**, som Wrath 
 
 ### Vågor av utomjordingar {#waves-of-aliens}
 
-Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväpnad** (de 90 sekundernas uppvärmning har inga vågor, så besättningen hinner samlas) kommer **var 60:e sekund** en **våg** av vanliga utomjordingar från kartan den står på, så länge väktaren står. Tabellen visar vågorna för åtta av de nio väktarna; [Wrath Warden III:s vågor](#wrath-iii-waves) är tyngre. Under halva skrovet har en väktares vågor också [en Crystalys](#crystalys-waves).
+Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväpnad** (de 90 sekundernas uppvärmning har inga vågor, så besättningen hinner samlas) kommer **var 60:e sekund** en **våg** av vanliga utomjordingar, så länge väktaren står. Sedan 0.5.0 är en våg en **blandning**: ungefär hälften [Phantasm](/wiki/04-Aliens/Phantasm.md), en fjärdedel [Bulwark](/wiki/04-Aliens/Bulwark.md) och en fjärdedel [Goombah](/wiki/04-Aliens/Goombah.md), på varje karta, utom att en Warden I inte kallar på någon Goombah (den första punkten nedan); en våg var förut av en enda sort utomjordingar: Phantasm på x-2 och x-3 och Bulwark på x-4. En våg har lika många utomjordingar som förut. Tabellen visar vågorna för väktarna II och III utom Wrath Warden III, vars [vågor](#wrath-iii-waves) är tyngre. Under halva skrovet har en väktares vågor också [en Crystalys](#crystalys-waves).
 
 | Karta | En våg | Högst levande samtidigt |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, och upp till 3 Crystalys |
-| x-3 | 10 Phantasm | 30, och upp till 3 Crystalys |
-| x-4 | 10 Bulwark | 30, och upp till 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark och 1 Goombah | 15, och upp till 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwark och 2 Goombah | 30, och upp till 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwark och 2 Goombah | 30, och upp till 3 Crystalys |
 
+- **En Warden I kallar inte på någon Goombah.** Väktaren hos en klan på nivån Rekryt (medelnivå under 4) skickar bara Phantasm och Bulwark, tre Phantasm på en Bulwark, i vågor av samma storlek: **4 Phantasm och 1 Bulwark på x-2, 8 Phantasm och 2 Bulwark på x-3 och x-4**. En hel våg betalar 17 000 krediter i Alpha på x-2 och 34 000 på x-3 och x-4, och 92 000 och 109 000 med sin Crystalys; det mesta som lever på en gång är tabellens.
 - **Högst tre vågor lever.** En våg lever så länge en av dess utomjordingar gör det. En våg som ska komma när tre lever hoppas över och sparas inte till senare; nästa kommer en minut senare.
-- **Det är kartans egna utomjordingar**, den sort som anfaller piloter, gjorda så som kartan gör dem: en starkare värld ger dem mer skrov, sköld och skada ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). De kommer 500 till 1 200 enheter från väktaren, utspridda runt den.
-- **De ingår inte i striden om väktaren.** De läker ingenting, och att skjuta på dem ger ingenting till din andel av skadan på väktaren. Vilken pilot på kartan som helst kan döda dem. Var och en betalar sin utomjordings vanliga betalning i din värld och ger PvE-poäng: en hel våg om 5 Phantasm betalar 15 000 krediter i Alpha, en om 10 Bulwark 50 000, under 2 % av vad den svagaste väktaren betalar.
-- **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler; utomjordingarna som redan är ute blir kvar och är kartans vanliga utomjordingar. En omstart av servern avslutar dem tillsammans med väktaren.
-- **Klanen får veta.** Varje våg annonseras på chattens flik System och i Spelloggen: »Brood Warden I kallar på förstärkning i M-3: 10 Phantasm.«
-- **De kommer riktade (0.4.20).** Utomjordingarna i en våg kommer med vetskap om vem väktaren strider mot: de går på de piloter som träffade den, den första först, från det ögonblick de dyker upp, och håller sig efter dem så länge väktaren träffas. En väktare som ingen strider mot skickar utomjordingar som ströftar omkring och drar till sig den som kommer nära, som förut.
+- **Det är vanliga utomjordingar**, gjorda så som kartan gör dem: en starkare värld ger dem mer skrov, sköld och skada ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), vilken styrka väktaren själv än har. Bulwark och Goombah kommer till varje karta, också till en x-2-sektor där ingen av dem annars lever. De kommer 500 till 1 200 enheter från väktaren, utspridda runt den.
+- **De ingår inte i striden om väktaren.** De läker ingenting, och att skjuta på dem ger ingenting till din andel av skadan på väktaren. Vilken pilot på kartan som helst kan döda dem. Var och en betalar sin utomjordings vanliga betalning i din värld och ger PvE-poäng: en hel våg ur tabellen betalar 29 000 krediter i Alpha på x-2 (5 utomjordingar) och 60 000 på x-3 och x-4 (10 utomjordingar), en våg från en Warden I 17 000 och 34 000, under 2 % av vad den egna väktaren betalar.
+- **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler; utomjordingarna som redan är ute blir kvar och är kartans vanliga utomjordingar (en sort som sektorn inte har av sig själv, till exempel Bulwark och Goombah i en x-2-sektor, lämnar den fem minuter efter väktaren om inte piloter fortfarande strider mot den). En omstart av servern avslutar dem tillsammans med väktaren.
+- **Klanen får veta.** Varje våg annonseras på chattens flik System och i Spelloggen, med en rad för varje sort utomjording i den: »Brood Warden II kallar på förstärkning i M-3: 5 Phantasm.«, »Brood Warden II kallar på förstärkning i M-3: 3 Bulwark.« och »Brood Warden II kallar på förstärkning i M-3: 2 Goombah.« (en Warden I berättar med två rader, eftersom den inte har någon Goombah)
+- **De kommer riktade (0.4.20).** Utomjordingarna i en våg kommer med vetskap om vem väktaren strider mot: de går på de piloter som träffade den, den första först, från det ögonblick de dyker upp, och håller sig efter dem så länge väktaren träffas. En väktare som ingen strider mot skickar utomjordingar som ströftar omkring: Phantasm och Bulwark drar till sig den som kommer nära, som förut, och en Goombah, som aldrig börjar en strid, ströftar omkring tills någon skjuter på den.
 
 #### Varje väktares Crystalys {#crystalys-waves}
 
 Sedan 0.4.22 gör **varje väktare** det Wrath Warden III gjorde från 0.4.20: under halva skrovet (gränsen där en Wrath Warden blir rasande) **har varje våg den skickar också en Crystalys**, utöver vågens storlek. Det gäller för Brood, Siege och Wrath Warden, i alla tre styrkor. Över halva skrovet kommer vågen utan den, och en väktare som lagats över hälften skickar nästa våg utan den igen.
 
 - **Crystalys** är spelets tyngsta vanliga utomjording: 256 000 skrov, 160 000 sköld, 10 000 skada per salva från 900 enheter, hastighet 230 (i en starkare värld mer skrov, sköld och skada). Den betalar vad varje Crystalys betalar: **75 000 krediter, 200 Thulium, 12 000 XP och 52 heder i Alpha** (dubbelt i Beta, tre gånger så mycket i Gamma), och tappar sitt vanliga byte. Den hör till sin våg: en våg lever så länge dess Crystalys lever, så en Crystalys som står kvar håller en av vågorna vid liv (högst tre, för Wrath Warden III fyra), och en våg som är förfallen när det högsta antalet lever hoppas över.
-- **De annonseras på två rader**: »Wrath Warden III kallar på förstärkning i M-3: 15 Phantasm.« och »Wrath Warden III kallar på förstärkning i M-3: 1 Crystalys.«
-- **Vad de betalar.** En hel våg av 10 Bulwarks betalar 50 000 krediter i Alpha, och med sin Crystalys 125 000: under 5 % av de 2 700 000 som den svagaste väktaren betalar.
-- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med vågorna och deras Crystalys, ger de här minsta besättningarna med x2-ammunition, i utrustningen för väktarens egen nivå, i Alpha. En klan på nivå 3 rymmer 50 medlemmar och en på nivå 5 rymmer 100. Liksom tabellen där är de beräknade och inte mätta, och det bästa fallet; i Gamma, där vågornas utomjordingar är dubbelt så starka, är de ännu större.
+- **Den annonseras på en egen rad**, efter raderna för blandningen: »Wrath Warden III kallar på förstärkning i M-3: 7 Phantasm.«, »…: 4 Bulwark.«, »…: 4 Goombah.« och »Wrath Warden III kallar på förstärkning i M-3: 1 Crystalys.«
+- **Vad de betalar.** En hel våg av 10 utomjordingar betalar 34 000 krediter i Alpha för en Warden I och 60 000 för en Warden II, och med sin Crystalys 109 000 och 135 000: omkring 4 % av de 2 700 000 som en Warden I betalar och under 4 % av de 3 600 000 som en Warden II betalar, mindre för en Warden III.
+- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med vågorna och deras Crystalys, ger de här minsta besättningarna med x2-ammunition, i utrustningen för väktarens egen nivå, i Alpha. En klan på nivå 3 rymmer 50 medlemmar och en på nivå 5 rymmer 100. Sedan 0.5.0 gör Bulwark och Goombah i blandningen vågorna tuffare, men en Warden I kallar inte på någon Goombah, så en klan på nivå 3 rymmer tillräckligt många piloter för varje väktare på varje karta. Liksom tabellen där är de beräknade och inte mätta, och det bästa fallet; i Gamma, där vågornas utomjordingar är dubbelt så starka, är de ännu större, och på x-3 och x-4 saknar en klan på nivå 3 piloter för vissa väktare.
 
 | Väktare | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### Wrath Warden III:s vågor {#wrath-iii-waves}
 
-Sedan 0.4.20 tar **Wrath Warden III** med mer, och oftare: en våg var **40:e sekund**, tre fjärdedelar av det antal av den utomjordingen som kartan har, och upp till **fyra vågor** levande. Liksom varje väktare lägger den [en Crystalys](#crystalys-waves) till en våg under halva skrovet.
+Sedan 0.4.20 tar **Wrath Warden III** med mer, och oftare: en våg var **40:e sekund**, med 8 till 15 utomjordingar i samma blandning av Phantasm, Bulwark och Goombah, och upp till **fyra vågor** levande. Liksom varje väktare lägger den [en Crystalys](#crystalys-waves) till en våg under halva skrovet.
 
 | Karta | En våg | Högst levande samtidigt |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, och upp till 4 Crystalys |
-| x-3 | 15 Phantasm | 60, och upp till 4 Crystalys |
-| x-4 | 15 Bulwark | 60, och upp till 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwark och 2 Goombah | 32, och upp till 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwark och 4 Goombah | 60, och upp till 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwark och 4 Goombah | 60, och upp till 4 Crystalys |
 
 - **Högst fyra vågor är levande.** En våg som är förfallen när fyra lever hoppas över, som hos de andra väktarna.
-- **Vad de betalar.** En hel våg av 15 Bulwarks betalar 75 000 krediter i Alpha, och med sin Crystalys 150 000: ungefär 2 % av de 7 200 000 som väktaren själv betalar.
-- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **32 piloter på x-2, 32 på x-3 och 39 på x-4** med x2-ammunition (26 utan vågor), och 39, 41 och 50 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så 50 på x-4 i Gamma är allt den kan skicka. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
+- **Vad de betalar.** En hel våg av 15 utomjordingar betalar 101 000 krediter i Alpha, och med sin Crystalys 176 000: ungefär 2 % av de 7 200 000 som väktaren själv betalar.
+- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **36 piloter på x-2, 40 på x-3 och 40 på x-4** med x2-ammunition (26 utan vågor), och 46, 52 och 52 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så på x-3 och x-4 i Gamma kan den inte skicka tillräckligt många; en klan på nivå 5 rymmer 100. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ Tabellen visar bästa fallet; i spelet, ta med så många du kan.
 | :--- | :--- | :--- |
 | 5 piloter | förlorar mot varje väktare; väktaren behåller 88 till 96 % av sitt skrov och sin sköld | förlorar |
 | 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 86 % av sitt skrov och sin sköld | förlorar |
-| 20 piloter | vinner bara mot Siege Warden I och II, på 7,2 till 7,3 minuter, och förlorar 6 skepp, samt mot Brood Warden III, på 3,9 minuter, och förlorar 9 skepp | förlorar |
-| 30 piloter | vinner mot alla väktare på 2,0 till 5,2 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 10,4 till 10,5 minuter, och förlorar 9 skepp, samt mot Brood Warden III, på 5,2 minuter, och förlorar 13 skepp |
+| 20 piloter | vinner bara mot Siege Warden I och II, på 7,2 till 7,3 minuter, och förlorar 6 skepp, samt mot Brood Warden III, på 3,7 minuter, och förlorar 8 skepp | förlorar |
+| 30 piloter | vinner mot alla väktare på 2,0 till 5,2 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 10,4 till 10,5 minuter, och förlorar 9 skepp, samt mot Brood Warden III, på 5,1 minuter, och förlorar 11 skepp |
 
-I beräkningen har den minsta besättning som vinner med x2-ammunition **17 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **10 till 18** skepp på köpet; med x1-ammunition har den **26 till 39** piloter och förlorar 12 till 27. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 55 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
+I beräkningen har den minsta besättning som vinner med x2-ammunition **17 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **10 till 17** skepp på köpet; med x1-ammunition har den **26 till 39** piloter och förlorar 12 till 25. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 55 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
 
 Tabellen gäller en besättning med utrustning för väktarens egen nivå. Svagare skepp klarar sig sämre. **Din** klans väktare matchar alltid **din** nivå, som klanens fem bästa piloter bestämmer, så ta med dem.
 
@@ -452,7 +453,7 @@ Klanpoängen tillhör klanen. Varje steg som klanen gör klart ökar dess saldo.
 | **Flott-Thulium** | 10 | +1 % | +10 % | Thulium från nedskjutningar och uppdragsbelöningar |
 | **Flottkrediter** | 10 | +1 % | +10 % | Krediter från nedskjutningar och uppdragsbelöningar |
 
-**Var du ser dem.** Under flygning visar fönstret **Boosters** de bonusar ditt skepp har på ett eget kort, **Flottbonusar**, under de tidsbegränsade boostersen: din klans tagg, sedan en rad per bonus med dess värde och nivå (Nivå 3/10). De har ingen timer, eftersom en klanbonus gäller så länge du är med i klanen. För musen över en rad för att se vad den verkar på. En klan som inte köpt något än visar ”Din flotta har inga bonusar än”, och en pilot utan klan ser inget kort. **Översiktens** Boosters-kort och en pilots profil listar dem också. Kortet visar vad ditt skepp tillämpar, så som servern säger det till spelet, så en nivå som officerarna just köpt syns direkt. Ett spel äldre än 0.4.12 tillämpar bonusarna men visar inget kort.
+**Var du ser dem.** Under flygning räknar fönstret **Boosters** de bonusar ditt skepp har tillsammans med boostersen: **Flottskada** är en rad i kategorin **Skada**, **Flott-Thulium** en i **Thulium**, **Flottkrediter** en i **Krediter**, och var och en ingår i kategorins summa, så summan är vad ditt skepp får. Öppna en kategori för att se raden: dess värde och, där en booster visar sin timer, dess nivå (Nivå 3/10), eftersom en klanbonus saknar timer och gäller så länge du är med i klanen. För musen över raden för att se vad den verkar på. En klan som inte köpt något än visar ett kort **Flottbonusar** med ”Din flotta har inga bonusar än”, och en pilot utan klan ser inget kort. **Översiktens** Boosters-kort visar samma summor under de pågående boostersen, och en pilots profil listar dem också. Siffrorna är vad ditt skepp tillämpar, så som servern säger det till spelet, så en nivå som officerarna just köpt syns direkt. Ett spel äldre än 0.4.12 tillämpar bonusarna men visar inget av detta; före 0.4.27 satt bonusarna på ett eget kort och räknades inte med i summorna.
 
 ### Priser {#boost-prices}
 

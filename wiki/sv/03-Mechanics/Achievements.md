@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Prestationer -->
 # Prestationer {#achievements}
 
@@ -69,7 +69,7 @@ De 37 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Stationsbyggare | Bygg 5 olika Skylab-moduler. | Vanlig |
 | Fullt utrustad | Bygg alla 16 Skylab-moduler. | Episk |
 | Lärd | Forska fram 50 tekniker. | Ovanlig |
-| Arkivarie | Forska fram alla 151 tekniker. | Legendarisk |
+| Arkivarie | Forska fram alla 158 tekniker. | Legendarisk |
 
 ### Flotta {#group-fleet}
 
@@ -118,7 +118,7 @@ En dold prestation som fortfarande är låst är ett stängt kort utan mål och 
 En **titel** är en kort textrad bredvid en pilots namn. 32 av de 40 prestationerna ger en, din för alltid när du låser upp prestationen. Titlar kommer också från slutet av en säsong (din grad, den bästa piloten i varje koncern och piloten med flest PvE-poäng) och från spelets team, till exempel titeln **Pioneer** för varje konto som fanns den dag spelet lanserades på Steam.
 
 - Du äger många titlar och **bär en** i taget. Du väljer den på din **pilotprofil** och kan ta av den igen.
-- Din titel visas på din **profil**, i **Ranking**, i **Grupp**-fönstret och när du pekar på ditt namn i **chatten**. Den visas inte över ditt skepp på kartan.
+- Din titel visas på din **profil**, i **Ranking**, i **Grupp**-fönstret och när du pekar på ditt namn i **chatten**. Sedan 0.4.27 visas den också på kartan: en liten, dämpad rad i titelns sällsynthetsfärg **ovanför namnet på varje pilots skepp**, ditt eget inräknat. En lång titel kortas av med en ellips. I en folkmassa (fler än åtta piloter på skärmen) behåller bara dina vänner, ditt mål och det skepp du har valt sin titel, så att skärmen förblir läsbar. Den visas inte i målfönstret eller på minikartan.
 - Titlar överlever wipen.
 
 ## Steam

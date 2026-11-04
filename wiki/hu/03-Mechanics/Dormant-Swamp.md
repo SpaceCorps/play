@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Egy lövés sebzése, minden világban:
 - **Az álca bejuttat.** Egyetlen lövegtorony sem lát soha álcázott hajót, sem EMP-ablakban lévőt, semmilyen távolságból. Egy látható hajóra célzott robbanás, amely egy álcázott hajó mellett robban, azt mégis megsebzi, és megszünteti az álcáját.
 - **Csak pilótákra lőnek,** soha idegenekre, vállalati pilótákra vagy a rajra, és az éppen megsemmisülésből visszatért hajó védelme velük szemben is érvényes.
 - **A figyelmeztető gyűrű.** A zónán kívüli gyűrűt átlépő hajó rendszersort kap: a lövegtornyok minden hajóra tüzelnek, amit látnak, és a közepén valami alszik. Újra csak akkor értesül, ha elhagyta a gyűrűt, és visszatért.
-- **Kijutás.** Ha ott semmisülsz meg, és helyben élsz újra, vagy a zónában jelentkezel be, kívülre tesznek. Az általad kattintott útvonalat a játék a zóna köré hajlítja, és egy értesítés figyelmeztet, ha a kattintott hely beleesik.
+- **Kijutás.** Ha ott semmisülsz meg, nem térhetsz vissza helyben (a veszélyes szektor csak a bázist és a legközelebbi portált kínálja), és ha a zónában jelentkezel be, kívülre tesznek. Az általad kattintott útvonalat a játék a zóna köré hajlítja, és egy értesítés figyelmeztet, ha a kattintott hely beleesik.
 
 ## Az idegenek {#the-aliens}
 
 Az elveszett civilizáció három idegene él itt, mindegyiknek megvannak a saját számai. Úgy fizetnek, mint egy raj főellensége: **az okozott sebzés szerint**, minden pilótának, aki legalább a [Rajok](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm) oldalán megadott részt elérte, a láda pedig a legtöbb sebzést okozó pilótáé. A kilövéseik a PvE rangpontjaidat gyarapítják, mint egy rajhajóé, a fizetésükkel arányosan ([Rangok](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Mindegyikük pajzsa egy találat 80 %-át elnyeli, amíg tart ([Pajzsok](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** A karcsú vadász, a játék leggyorsabb idegene (olyan gyors, mint egy Storm Afterburner III-mal). Néhány mindig a mocsár környékét járőrözi, mások hullámokban érkeznek a kotrógépekhez. Agresszív, a legközelebbi pilótára vadászik, akit lát, és soha nem lát álcázott hajót.
+- **Slumbering Void.** A karcsú vadász, a játék leggyorsabb idegene (gyorsabb, mint egy Storm Afterburner III-mal). Néhány mindig a mocsár környékét járőrözi, mások hullámokban érkeznek a kotrógépekhez. Agresszív, a legközelebbi pilótára vadászik, akit lát, és soha nem lát álcázott hajót.
 - **Inert Mass.** Egy holt roncsóriás ibolya repedésekkel, egy kis állomás méretű. Állandó távolságon belül maradnak a mocsár közepétől, és egyelőre nem hagyják el. **Dormant Lance-eket** lő: nagyon nagy hatótávú, irányított rakétákat, amelyek követik a hajót, amíg az nem álcázza magát, nem nyit EMP-ablakot, nem lép biztonsági gyűrűbe, nem ugrik, vagy meg nem hal. Minden hajónál gyorsabb, ezért csak ezek a megszakítások segítenek. Egy aszteroida a Dormant Lance útjában megállítja azt, a Lance pedig a saját sebzésével rongálja az aszteroidát (ezért senki nem kap fizetséget), így egy szikla csak néhány találatig véd egy Inert Mass ellen.
 - **Az Unwakened.** Egy monolit, amely a mocsár közepén alszik, a legnagyobb dolog bármely térképen, olyan lassú, hogy soha nem ér utol hajót. Semmit nem lő, de minden hajó, amely az aurájában van, elég, **álcázva vagy sem**. **Immunis**: a lövések és a rakéták eltalálják, és nem csinálnak semmit, a célablak teli sávokat és az Immunis szót mutatja. Egy későbbi esemény lehetővé teszi majd a leküzdését; az alábbi jutalmai fel vannak jegyezve, és még nem szerezhetők meg.
 

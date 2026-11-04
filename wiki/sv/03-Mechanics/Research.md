@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -30,7 +30,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 
 <!-- research-centre:end -->
 
-**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) slutför den pågående forskningen direkt, om dess teknik tar 24 timmar eller mindre att forska fram (135 av de 151 teknikerna). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen den ännu inte brunnit stannar kvar i din tank, och nästa teknik i din kö startar direkt.
+**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) slutför den pågående forskningen direkt, om dess teknik tar 24 timmar eller mindre att forska fram (142 av de 158 teknikerna). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen den ännu inte brunnit stannar kvar i din tank, och nästa teknik i din kö startar direkt.
 
 **Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver fyra plattor och en Ancient Control Unit: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Vad en boost gör med tiden för en forskning, med boosten på från start:
 | Forskningstid | Med boost | Boostar för hela | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 min | 15 min | 1 | 5 000 |
+| 1 h | 30 min | 1 | 5 000 |
 | 3 h | 1 h 30 min | 1 | 5 000 |
+| 4 h | 2 h | 1 | 5 000 |
 | 6 h | 3 h | 1 | 5 000 |
+| 8 h | 4 h | 1 | 5 000 |
 | 10 h | 5 h | 1 | 5 000 |
 | 1 d | 12 h | 1 | 5 000 |
 | 2 d | 1 d | 1 | 5 000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Laseramunition {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 - **I serie.** Varje nivå kräver nivån före, och en högre nivå ersätter den lägre: tabellen visar totalen som varje nivå ger, inte vad den lägger till.
 - **Effektiva mellanmål** (Kebab, Pelmeni, Burgare) ger mer skrov åt varje skepp du äger, i båda konfigurationerna.
 - **Förseglad bakdörr** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
-- **Grävmaskinsbrytning** höjer vad du tar ur varje låda från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), både Thulium och malm.
+- **Grävmaskinsbrytning** gör att en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) som du startar lägger mer i varje låda, både Thulium och malm. Det är forskningen hos piloten som startar körningen som räknas, och den som plockar upp lådorna får den större mängden. Grävmaskinens kontrollpanel visar vems körning det är och vilken andel den bär.
 - **Fältteori** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
 - **Slumrande kunskap** ger wipepoäng för varje nivå när forskningen blir klar i centrumet, och igen efter varje wipe ([Tjäna wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem nivåerna av Slumrande kunskap gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
 
@@ -372,9 +391,9 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | Grävmaskinsbrytning I | +20% utbyte från grävmaskinen | – | 1 d | 10 | 500 000 | 5 000 |
 | Grävmaskinsbrytning II | +30% utbyte från grävmaskinen | Grävmaskinsbrytning I | 2 d | 20 | 1 500 000 | 15 000 |
 | Grävmaskinsbrytning III | +40% utbyte från grävmaskinen | Grävmaskinsbrytning II | 3 d | 30 | 4 000 000 | 40 000 |
-| Fältteori I | +2% sköldabsorption | – | 1 d | 20 | 500 000 | 5 000 |
-| Fältteori II | +3% sköldabsorption | Fältteori I | 2 d | 40 | 1 500 000 | 15 000 |
-| Fältteori III | +5% sköldabsorption | Fältteori II | 3 d | 60 | 5 000 000 | 50 000 |
+| Fältteori I | +4% sköldabsorption | – | 1 d | 20 | 500 000 | 5 000 |
+| Fältteori II | +7% sköldabsorption | Fältteori I | 2 d | 40 | 1 500 000 | 15 000 |
+| Fältteori III | +10% sköldabsorption | Fältteori II | 3 d | 60 | 5 000 000 | 50 000 |
 | Slumrande kunskap I | +50 wipepoäng | 20 % av de andra teknologierna (30 av 146) | 1 h | – | – | – |
 | Slumrande kunskap II | +50 wipepoäng | Slumrande kunskap I; 40 % av de andra teknologierna (59 av 146) | 1 h | – | – | – |
 | Slumrande kunskap III | +50 wipepoäng | Slumrande kunskap II; 60 % av de andra teknologierna (88 av 146) | 1 h | – | – | – |
@@ -460,18 +479,25 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 h | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 d | 86 400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 h | 36 000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 min | 1 800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 h | 14 400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 h | 3 600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 h | 10 800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28 800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3 600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21 600 | – |
 
 Klasserna efter forskningstid:
 
 | Klass | Forskningstid | Teknologier | En efter en | Vetenskap | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min | 10 | 5 h | 18 000 | 0 |
-| B | 3 h till 6 h | 20 | 2 d 21 h | 248 400 | 0 |
-| C | 10 h | 17 | 7 d 2 h | 612 000 | 95 |
+| A | 30 min till 1 h | 13 | 7 h 30 min | 27 000 | 0 |
+| B | 3 h till 6 h | 23 | 3 d 10 h | 295 200 | 0 |
+| C | 8 h till 10 h | 18 | 7 d 10 h | 640 800 | 95 |
 | D | 1 d till 2 d | 23 | 28 d | 2 419 200 | 319 |
-| Alla |  | 70 | 38 d 4 h | 3 297 600 | 414 |
+| Alla |  | 77 | 39 d 3 h 30 min | 3 382 200 | 414 |
 
-Framforskat en efter en tar hela trädet 38 d 4 h. Med boosten på hela tiden tar det 19 d 2 h, alltså 20 boostar och 100 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 39 d 3 h 30 min. Med boosten på hela tiden tar det 19 d 13 h 45 min, alltså 20 boostar och 100 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -16,8 +16,8 @@ Fundar um clã ou entrar em um permite reunir recursos, melhorar o banco compart
 - O Líder e os Vice-líderes gastam os pontos em três [bônus](#clan-points-and-boosts) de dez níveis cada: **Dano** (até +5%), **Thulium** (até +10%) e **Créditos** (até +10%).
 - Um clã que conclui todas as linhas comprou todos os níveis no **dia 12**. Os pontos, os níveis e o próprio clã acabam com o reset.
 - É preciso ter pelo menos **três membros** que tenham feito a sua parte e **uma tripulação grande** para a luta contra o Guardião: desde a 0.4.13, um Guardião tem cinco vezes o casco, o escudo e o dano de laser que tinha, então as tripulações que antes venciam, de cerca de sete pilotos, agora perdem ([que tripulação é preciso](#how-big-a-crew)). Uma tripulação pequena demais perde a luta: o clã então fica com os **70 pontos** das quatro missões, mas a linha não é concluída e não paga [a sua recompensa](#the-reward-for-you).
-- Um Guardião paga um bolo grande, dividido por dano, e **cada piloto que causou 5% do dano ou mais recebe uma caixa privada** com a sua parte do saque, que só ele vê e só ele pode pegar ([pagamento e saque](#warden-pay-and-loot)). Desde a 0.4.16 o pagamento é o triplo, e enquanto um Guardião está de pé, **chega uma onda de alienígenas do mapa a cada minuto** (a cada 40 segundos para o Wrath Warden III), dirigida contra os pilotos que acertaram o Guardião, com um **Crystalys** em cada onda quando o Guardião está com menos da metade do casco ([ondas](#waves-of-aliens)).
-- A sua nave mostra os bônus que tem na janela **Boosters**, em um cartão próprio ([onde vê-los](#the-three-boosts)).
+- Um Guardião paga um bolo grande, dividido por dano, e **cada piloto que causou 5% do dano ou mais recebe uma caixa privada** com a sua parte do saque, que só ele vê e só ele pode pegar ([pagamento e saque](#warden-pay-and-loot)). Desde a 0.4.16 o pagamento é o triplo, e enquanto um Guardião está de pé, **chega uma onda de Phantasm, Bulwark e (a partir do Warden II) Goombah a cada minuto** (a cada 40 segundos para o Wrath Warden III), dirigida contra os pilotos que acertaram o Guardião, com um **Crystalys** em cada onda quando o Guardião está com menos da metade do casco ([ondas](#waves-of-aliens)).
+- A sua nave mostra os bônus que tem na janela **Boosters**, como linhas das categorias que eles aumentam ([onde vê-los](#the-three-boosts)).
 - A linha e os bônus exigem um jogo da versão 0.4.10 ou mais recente; o cartão na janela Boosters, a 0.4.12 ou mais recente; a página do clã, os avisos, a janela de pilotos online, o bônus diário, os pedidos de paz, o registro e os clãs por mundo, a 0.4.16 ou mais recente.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Desde a 0.4.22, **todo Guardião vai atrás do piloto que o acertou**, como o Wr
 
 ### Ondas de alienígenas {#waves-of-aliens}
 
-Desde a 0.4.16 um Guardião não fica sozinho. A partir do momento em que está **armado** (os 90 segundos de aquecimento não têm ondas, para a tripulação poder se reunir), uma **onda** de alienígenas comuns do mapa em que ele está chega **a cada 60 segundos**, enquanto o Guardião estiver de pé. A tabela mostra as ondas de oito dos nove Guardiões; as [ondas do Wrath Warden III](#wrath-iii-waves) são mais pesadas. Com menos da metade do casco, as ondas de um Guardião trazem também [um Crystalys](#crystalys-waves).
+Desde a 0.4.16 um Guardião não fica sozinho. A partir do momento em que está **armado** (os 90 segundos de aquecimento não têm ondas, para a tripulação poder se reunir), uma **onda** de alienígenas comuns chega **a cada 60 segundos**, enquanto o Guardião estiver de pé. Desde a 0.5.0 uma onda é uma **mistura**: cerca de metade [Phantasm](/wiki/04-Aliens/Phantasm.md), um quarto [Bulwark](/wiki/04-Aliens/Bulwark.md) e um quarto [Goombah](/wiki/04-Aliens/Goombah.md), em todos os mapas, exceto que um Warden I não chama nenhum Goombah (o primeiro marcador abaixo); antes uma onda era de um único tipo de alienígena: Phantasm em x-2 e x-3 e Bulwark em x-4. Uma onda tem tantos alienígenas quanto antes. A tabela mostra as ondas dos Guardiões II e III, exceto o Wrath Warden III, cujas [ondas](#wrath-iii-waves) são mais pesadas. Com menos da metade do casco, as ondas de um Guardião trazem também [um Crystalys](#crystalys-waves).
 
 | Mapa | Uma onda | No máximo vivos ao mesmo tempo |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, e até 3 Crystalys |
-| x-3 | 10 Phantasm | 30, e até 3 Crystalys |
-| x-4 | 10 Bulwark | 30, e até 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark e 1 Goombah | 15, e até 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwark e 2 Goombah | 30, e até 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwark e 2 Goombah | 30, e até 3 Crystalys |
 
+- **Um Warden I não chama nenhum Goombah.** O Guardião de um clã Recruta (nível médio abaixo de 4) manda só Phantasm e Bulwark, três Phantasm para cada Bulwark, em ondas do mesmo tamanho: **4 Phantasm e 1 Bulwark em x-2, 8 Phantasm e 2 Bulwark em x-3 e x-4**. Uma onda inteira paga 17.000 créditos em Alpha em x-2 e 34.000 em x-3 e x-4, e 92.000 e 109.000 com o seu Crystalys; o máximo vivo ao mesmo tempo é o da tabela.
 - **No máximo três ondas estão vivas.** Uma onda está viva enquanto um alienígena dela estiver. Uma onda que vence quando há três vivas é pulada, não guardada para depois; a próxima vence um minuto depois.
-- **São os alienígenas próprios do mapa**, do tipo que ataca pilotos, feitos como o mapa os faz: um mundo mais forte lhes dá mais casco, escudo e dano ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Chegam a 500–1.200 unidades do Guardião, espalhados ao redor dele.
-- **Não fazem parte da luta pelo Guardião.** Não curam nada, e atirar neles não soma nada à sua parte do dano ao Guardião. Qualquer piloto do mapa pode matá-los. Cada um paga o pagamento comum do seu alienígena no seu mundo e dá pontos PvE: uma onda inteira de 5 Phantasm paga 15.000 créditos em Alpha, uma de 10 Bulwark 50.000, menos de 2% do que paga o Guardião mais fraco.
-- **Param junto com o Guardião.** Quando ele é destruído ou se retira, não vêm mais; os alienígenas que já saíram ficam e são os alienígenas comuns do mapa. Um reinício do servidor os encerra junto com o Guardião.
-- **O clã é avisado.** Cada onda é anunciada na aba Sistema do chat e no Registro do jogo: «Brood Warden I chama reforços em M-3: 10 Phantasm.»
-- **Elas chegam dirigidas (0.4.20).** Os alienígenas de uma onda chegam sabendo quem o Guardião combate: vão atrás dos pilotos que o acertaram, o primeiro deles primeiro, desde o momento em que aparecem, e continuam atrás deles enquanto o Guardião é acertado. Um Guardião que ninguém combate manda alienígenas que vagam e atraem quem chegar perto, como antes.
+- **São alienígenas comuns**, feitos como o mapa os faz: um mundo mais forte lhes dá mais casco, escudo e dano ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), seja qual for a força do próprio Guardião. Os Bulwark e os Goombah chegam a todos os mapas, também a um setor x-2, onde de outro modo não vive nenhum. Chegam a 500–1.200 unidades do Guardião, espalhados ao redor dele.
+- **Não fazem parte da luta pelo Guardião.** Não curam nada, e atirar neles não soma nada à sua parte do dano ao Guardião. Qualquer piloto do mapa pode matá-los. Cada um paga o pagamento comum do seu alienígena no seu mundo e dá pontos PvE: uma onda inteira da tabela paga 29.000 créditos em Alpha em x-2 (5 alienígenas) e 60.000 em x-3 e x-4 (10 alienígenas), a de um Warden I paga 17.000 e 34.000, menos de 2% do que paga o seu próprio Guardião.
+- **Param junto com o Guardião.** Quando ele é destruído ou se retira, não vêm mais; os alienígenas que já saíram ficam e são os alienígenas comuns do mapa (um tipo que o setor não tem por conta própria, como os Bulwark e Goombah de um setor x-2, sai cinco minutos depois do Guardião, a menos que os pilotos ainda estejam lutando contra ele). Um reinício do servidor os encerra junto com o Guardião.
+- **O clã é avisado.** Cada onda é anunciada na aba Sistema do chat e no Registro do jogo, com uma linha para cada tipo de alienígena nela: «Brood Warden II chama reforços em M-3: 5 Phantasm.», «Brood Warden II chama reforços em M-3: 3 Bulwark.» e «Brood Warden II chama reforços em M-3: 2 Goombah.» (um Warden I avisa em duas linhas, porque não tem Goombah)
+- **Elas chegam dirigidas (0.4.20).** Os alienígenas de uma onda chegam sabendo quem o Guardião combate: vão atrás dos pilotos que o acertaram, o primeiro deles primeiro, desde o momento em que aparecem, e continuam atrás deles enquanto o Guardião é acertado. Um Guardião que ninguém combate manda alienígenas que vagam: os Phantasm e os Bulwark atraem quem chegar perto, como antes, e um Goombah, que nunca começa uma luta, vaga até alguém atirar nele.
 
 #### O Crystalys de cada Guardião {#crystalys-waves}
 
 Desde a 0.4.22, **todo Guardião** faz o que o Wrath Warden III fazia desde a 0.4.20: com menos da metade do casco (a linha em que um Wrath Warden enfurece) **toda onda que ele manda traz também um Crystalys**, além do tamanho da onda. Vale para o Brood, o Siege e o Wrath Warden, nas três forças. Acima da metade do casco a onda vem sem ele, e um Guardião consertado acima da metade manda a onda seguinte sem ele de novo.
 
 - **O Crystalys** é o alienígena comum mais pesado do jogo: 256.000 de casco, 160.000 de escudo, 10.000 de dano por salva a 900 unidades, velocidade 230 (em um mundo mais forte, mais casco, escudo e dano). Ele paga o que qualquer Crystalys paga: **75.000 créditos, 200 Thulium, 12.000 XP e 52 de honra em Alpha** (o dobro em Beta, o triplo em Gamma), e solta o seu saque comum. Ele faz parte da sua onda: uma onda está viva enquanto o seu Crystalys estiver, então um Crystalys que continua de pé mantém viva uma das ondas (três no máximo, quatro para o Wrath Warden III), e uma onda que vence quando há o máximo vivas é pulada.
-- **Elas são avisadas em duas linhas**: «Wrath Warden III chama reforços em M-3: 15 Phantasm.» e «Wrath Warden III chama reforços em M-3: 1 Crystalys.»
-- **O que pagam.** Uma onda inteira de 10 Bulwarks paga 50.000 créditos em Alpha, e com o seu Crystalys 125.000: menos de 5% dos 2.700.000 que o Guardião mais fraco paga.
-- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com as ondas e o seu Crystalys, dá estas menores tripulações com munição x2, no equipamento da força do próprio Guardião, em Alpha. Um clã de nível 3 tem 50 membros e um de nível 5 tem 100. Como a tabela de lá, elas são calculadas e não medidas, e são o melhor caso; em Gamma, onde os alienígenas das ondas são duas vezes mais fortes, são ainda maiores.
+- **Ele é avisado em uma linha própria**, depois das linhas da mistura: «Wrath Warden III chama reforços em M-3: 7 Phantasm.», «…: 4 Bulwark.», «…: 4 Goombah.» e «Wrath Warden III chama reforços em M-3: 1 Crystalys.»
+- **O que pagam.** Uma onda inteira de 10 alienígenas paga 34.000 créditos em Alpha por um Warden I e 60.000 por um Warden II, e com o seu Crystalys 109.000 e 135.000: cerca de 4% dos 2.700.000 que um Warden I paga e menos de 4% dos 3.600.000 que um Warden II paga, e menos para um Warden III.
+- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com as ondas e o seu Crystalys, dá estas menores tripulações com munição x2, no equipamento da força do próprio Guardião, em Alpha. Um clã de nível 3 tem 50 membros e um de nível 5 tem 100. Desde a 0.5.0 os Bulwark e os Goombah da mistura deixam as ondas mais duras, mas um Warden I não chama nenhum Goombah, então um clã de nível 3 comporta pilotos suficientes para todos os Guardiões em todos os mapas. Como a tabela de lá, elas são calculadas e não medidas, e são o melhor caso; em Gamma, onde os alienígenas das ondas são duas vezes mais fortes, são ainda maiores, e em x-3 e x-4 faltam pilotos a um clã de nível 3 para alguns Guardiões.
 
 | Guardião | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### As ondas do Wrath Warden III {#wrath-iii-waves}
 
-Desde a 0.4.20, o **Wrath Warden III** traz mais, e com mais frequência: uma onda a cada **40 segundos**, três quartos do número desse alienígena que o mapa tem, e até **quatro ondas** vivas. Como todo Guardião, ele acrescenta [um Crystalys](#crystalys-waves) a uma onda com menos da metade do casco.
+Desde a 0.4.20, o **Wrath Warden III** traz mais, e com mais frequência: uma onda a cada **40 segundos**, de 8 a 15 alienígenas na mesma mistura de Phantasm, Bulwark e Goombah, e até **quatro ondas** vivas. Como todo Guardião, ele acrescenta [um Crystalys](#crystalys-waves) a uma onda com menos da metade do casco.
 
 | Mapa | Uma onda | No máximo vivos ao mesmo tempo |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, e até 4 Crystalys |
-| x-3 | 15 Phantasm | 60, e até 4 Crystalys |
-| x-4 | 15 Bulwark | 60, e até 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwark e 2 Goombah | 32, e até 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwark e 4 Goombah | 60, e até 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwark e 4 Goombah | 60, e até 4 Crystalys |
 
 - **No máximo quatro ondas estão vivas.** Uma onda que vence quando quatro estão vivas é pulada, como nos outros Guardiões.
-- **O que pagam.** Uma onda inteira de 15 Bulwarks paga 75.000 créditos em Alpha, e com o seu Crystalys 150.000: cerca de 2% dos 7.200.000 que o próprio Guardião paga.
-- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com essas ondas e o Crystalys, dá **32 pilotos em x-2, 32 em x-3 e 39 em x-4** com munição x2 (26 sem ondas), e 39, 41 e 50 em Gamma, onde os alienígenas das ondas são duas vezes mais fortes. Um clã de nível 3 tem 50 membros, então 50 em x-4 em Gamma é tudo o que ele pode mandar. Como a tabela de lá, é calculado e não medido, e é o melhor caso.
+- **O que pagam.** Uma onda inteira de 15 alienígenas paga 101.000 créditos em Alpha, e com o seu Crystalys 176.000: cerca de 2% dos 7.200.000 que o próprio Guardião paga.
+- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com essas ondas e o Crystalys, dá **36 pilotos em x-2, 40 em x-3 e 40 em x-4** com munição x2 (26 sem ondas), e 46, 52 e 52 em Gamma, onde os alienígenas das ondas são duas vezes mais fortes. Um clã de nível 3 tem 50 membros, então em x-3 e x-4 em Gamma ele não consegue mandar o bastante; um de nível 5 tem 100. Como a tabela de lá, é calculado e não medido, e é o melhor caso.
 
 ### Que tripulação é preciso {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ A tabela mostra o melhor caso; no jogo, leve o máximo de gente que puder.
 | :--- | :--- | :--- |
 | 5 pilotos | perdem para todos os Guardiões; o Guardião fica com 88 a 96% do casco e do escudo | perdem |
 | 10 pilotos | perdem para todos os Guardiões; o Guardião fica com 55 a 86% do casco e do escudo | perdem |
-| 20 pilotos | só vencem os Siege Warden I e II, em 7,2 a 7,3 minutos, perdendo 6 naves, e o Brood Warden III, em 3,9 minutos, perdendo 9 naves | perdem |
-| 30 pilotos | vencem todos os Guardiões em 2,0 a 5,2 minutos, perdendo de 3 a 11 naves | só vencem os Siege Warden I e II, em 10,4 a 10,5 minutos, perdendo 9 naves, e o Brood Warden III, em 5,2 minutos, perdendo 13 naves |
+| 20 pilotos | só vencem os Siege Warden I e II, em 7,2 a 7,3 minutos, perdendo 6 naves, e o Brood Warden III, em 3,7 minutos, perdendo 8 naves | perdem |
+| 30 pilotos | vencem todos os Guardiões em 2,0 a 5,2 minutos, perdendo de 3 a 11 naves | só vencem os Siege Warden I e II, em 10,4 a 10,5 minutos, perdendo 9 naves, e o Brood Warden III, em 5,1 minutos, perdendo 11 naves |
 
-No cálculo, a menor tripulação que vence com munição x2 tem **17 a 26 pilotos** (o menor número contra os Siege Warden I e II) e perde **10 a 18** naves nesse processo; com munição x1 tem **26 a 39** pilotos e perde 12 a 27. Os lasers de um Guardião batem com centenas por rajada na força I (240 a 645) e com milhares na força III (9.225 a 15.450), e os ajudantes se somam: a nave contra a qual ele luta cai em 18 a 55 segundos, e então ele se vira contra a próxima, então até uma tripulação que vence perde muitas naves.
+No cálculo, a menor tripulação que vence com munição x2 tem **17 a 26 pilotos** (o menor número contra os Siege Warden I e II) e perde **10 a 17** naves nesse processo; com munição x1 tem **26 a 39** pilotos e perde 12 a 25. Os lasers de um Guardião batem com centenas por rajada na força I (240 a 645) e com milhares na força III (9.225 a 15.450), e os ajudantes se somam: a nave contra a qual ele luta cai em 18 a 55 segundos, e então ele se vira contra a próxima, então até uma tripulação que vence perde muitas naves.
 
 A tabela vale para uma tripulação com o equipamento da própria categoria do Guardião. Naves mais fracas vão pior. O Guardião do **seu** clã sempre combina com a **sua** categoria, que os cinco melhores pilotos do clã definem, então leve-os.
 
@@ -452,7 +453,7 @@ Os pontos do clã pertencem ao clã. Cada etapa que o clã conclui soma ao seu s
 | **Thulium da frota** | 10 | +1% | +10% | Thulium de abates e recompensas de missões |
 | **Créditos da frota** | 10 | +1% | +10% | Créditos de abates e recompensas de missões |
 
-**Onde vê-los.** Em voo, a janela **Boosters** lista os bônus que a sua nave tem em um cartão próprio, **Bônus da frota**, sob os boosters com tempo: a tag do seu clã e uma linha para cada bônus com o seu valor e o seu nível (Nív. 3/10). Eles não têm cronômetro, porque um bônus do clã dura enquanto você estiver no clã. Passe o mouse sobre uma linha para ver em que ele age. Um clã que ainda não comprou nada mostra «Sua frota ainda não tem bônus», e um piloto sem clã não vê o cartão. O cartão Boosters do **Painel** e o perfil de um piloto também os listam. O cartão mostra o que a sua nave aplica, como o servidor informa ao jogo, então um nível que os oficiais acabaram de comprar aparece na hora. Um jogo anterior à 0.4.12 aplica os bônus e não mostra o cartão.
+**Onde vê-los.** Em voo, a janela **Boosters** conta os bônus que a sua nave tem junto com os boosters: **Dano da frota** é uma linha da categoria **Dano**, **Thulium da frota** uma de **Thulium**, **Créditos da frota** uma de **Créditos**, e cada uma entra no total da categoria, então o total é o que a sua nave recebe. Abra uma categoria para ver a linha: o seu bônus e, onde um booster mostra o seu cronômetro, o seu nível (Nív. 3/10), porque um bônus do clã não tem cronômetro e dura enquanto você estiver no clã. Passe o mouse sobre a linha para ver em que ele age. Um clã que ainda não comprou nada mostra um cartão **Bônus da frota** com «Sua frota ainda não tem bônus», e um piloto sem clã não vê o cartão. O cartão Boosters do **Painel** mostra os mesmos totais sob os boosters em andamento, e o perfil de um piloto também os lista. Os números são o que a sua nave aplica, como o servidor informa ao jogo, então um nível que os oficiais acabaram de comprar aparece na hora. Um jogo anterior à 0.4.12 aplica os bônus e não mostra nada disso; antes da 0.4.27 os bônus ficavam em um cartão próprio e não entravam nos totais.
 
 ### Preços {#boost-prices}
 

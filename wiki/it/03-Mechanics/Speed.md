@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Velocità -->
 # Calcolo della velocità {#speed-calculation}
 
@@ -41,7 +41,7 @@ Inoltre, la velocità del motore viene moltiplicata per l’efficienza del suo s
 
 La percentuale totale del bonus di velocità è la somma di tutti i bonus di velocità dei motori equipaggiati (e degli ibridi), meno le penalità degli scudi equipaggiati:
 
-- **Bonus di velocità dei motori**: i motori aggiungono percentuali di velocità positive (ad es. l’Engine III aggiunge `+5%`).
+- **Bonus di velocità dei motori**: i motori aggiungono percentuali di velocità positive (ad es. l’Engine III aggiunge `+4%`).
 - **Penalità di velocità degli scudi**: gli scudi pesanti appesantiscono la nave e aggiungono percentuali di velocità negative (ad es. un Heavy Shield Core aggiunge `-5%` di velocità).
 - **Scala degli slot**: anche questi bonus e queste penalità percentuali vengono scalati dall’efficienza dello slot in cui è montato l’oggetto. Uno scudo montato su uno dei tuoi droni ti rallenta come uno scudo in uno slot principale.
 - **Mai sotto zero**: per quanti scudi tu porti, la tua velocità non scende sotto 0.

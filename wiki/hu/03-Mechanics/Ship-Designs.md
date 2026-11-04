@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a99707f7425b7d0 -->
+<!-- wiki-i18n source: 20bfc0d7e85779c5 -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 

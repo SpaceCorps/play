@@ -5,12 +5,12 @@
 **Special items** are six one-use items that save you time in the [Skylab](/wiki/03-Mechanics/Skylab.md), the [Research Centre](/wiki/03-Mechanics/Research.md), the [Forge](/wiki/06-Items/Forge.md) and the Production Queue of [Assembly](/wiki/06-Items/Overview.md#the-production-queue). You use one on something you already have, it does its job once, and it is gone. They are not items in the usual sense: your account holds a **count** of each kind, so they are not carried, not dropped and not deleted by a wipe, and none of them can be traded.
 
 > [!NOTE]
-> **Nothing gives them out yet.** For now an admin issues every special item. They can't be bought, sold, listed on the [Auction](/wiki/03-Mechanics/Auction.md) or given to another pilot, and a Magic Hammer is extremely rare.
+> **You can't earn them yet.** For now they come only from an admin: handed to you directly, or inside a bonus code that you redeem. They can't be bought, sold, listed on the [Auction](/wiki/03-Mechanics/Auction.md) or given to another pilot, and a Magic Hammer is extremely rare.
 
 ## In one minute
 
 - **Six kinds.** The Magic Hammer, Schematics, the Philosopher's Stone, the Tinkerer's Badge, the Forger's Seal and the Workforce Contract. Each is described below with its numbers.
-- **Where.** The **Special items** section of the Hangar shows what you hold and has a **Use** button for each. The page the item works on shows a button too, when you hold one: the module of an upgrade in the Skylab, the running research, the Forge's Tier up panel and the Production Queue.
+- **Where.** The Hangar's inventory shows a tile for each kind you hold, among the consumables, with how many you have. Hover a tile to read what the item does, and click it to use it (for the Workforce Contract you pick the worker first). The Magic Hammer and the Tinkerer's Badge work on something you pick, so a click does nothing and their tile says where to use them: the Skylab and the Forge. The page the item works on shows a button too, when you hold one: the module of an upgrade in the Skylab, the running research, the Forge's Tier up panel and the Production Queue.
 - **It asks first.** Every use opens a sheet that says exactly what will happen and what it uses. Using is final: it can't be undone. If a use is refused, nothing is spent.
 - **They stay.** Your special items, and the Philosopher's Stone or the contract that is running, stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Anywhere.** You can use them while you fly: none of them needs your ship landed.
@@ -42,7 +42,7 @@ Finishes **one Skylab upgrade at once**: pick the module that is being upgraded 
 
 ### Schematics
 
-Finishes **the research that is running now**, if the technology takes **24 hours or less** to research. 135 of the 151 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) qualify. The 16 that take 48 or 72 hours do not: the Wraith, three drone formations, Hull Plating III, levels 4 and 5 of the Engine and Defense Modules and seven Pilot technologies.
+Finishes **the research that is running now**, if the technology takes **24 hours or less** to research. 142 of the 158 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) qualify. The 16 that take 48 or 72 hours do not: the Wraith, three drone formations, Hull Plating III, levels 4 and 5 of the Engine and Defense Modules and seven Pilot technologies.
 
 - **By research time, not time left.** A 48-hour technology with one hour to go is still refused: Schematics look at how long the technology takes in all.
 - **The price stays paid.** The Dark Matter, Credits and Thulium were taken when the research started and are not given back. The science the research has not burned stays in your tank.
@@ -93,7 +93,7 @@ The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/0
 
 ## Rules for all six
 
-- **A count, not an item.** The Hangar's Special items section is the only place that lists them. They have no weight, no hotbar slot and no place in cargo or the Transport Cache; they never drop when your ship is destroyed.
+- **A count, not an item.** The Hangar's inventory is the only place that lists them, as tiles among the consumables; a kind you hold none of has no tile. A tile is not an item, so it can't be dragged, selected, deleted or sold. They have no weight, no hotbar slot and no place in cargo or the Transport Cache; they never drop when your ship is destroyed.
 - **Through the wipe.** Your special items and a running Philosopher's Stone or contract are kept, like the Skylab, the research and your looks.
 - **Never traded.** Not on the [Auction](/wiki/03-Mechanics/Auction.md), not to another pilot, not for Credits.
 - **Only the Hammer can move your pace**, and it is limited to one in 60 days. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, one research of at most 24 hours.

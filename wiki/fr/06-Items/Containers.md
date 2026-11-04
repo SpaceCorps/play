@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Conteneurs -->
 # Conteneurs {#containers}
 
@@ -333,12 +333,12 @@ L’Archive chromatique tire d’abord la catégorie, puis un look de cette cat�
 | :--- | :--- | ---: |
 | Commun | 240 × Velkonite (vers le Skylab) | 7,000 % |
 | Commun | 160 × Orvium (vers le Skylab) | 7,000 % |
-| Commun | 1 300 × Reinforced Hull Plate | 5,000 % |
-| Commun | 9 000 × Ship Fragment | 6,000 % |
+| Commun | 100 × Reinforced Hull Plate | 5,000 % |
+| Commun | 1 000 × Ship Fragment | 6,000 % |
 | Commun | **Cristaux de forge**: 4 000 × Cataclysite + 3 000 × Quorvium | 5,000 % |
-| Commun | 450 × Power Core | 5,000 % |
+| Commun | 20 × Power Core | 5,000 % |
 | Commun | 450 Thulium | 5,000 % |
-| Commun | 4 × Regular Cluster Chunk | 5,000 % |
+| Commun | 2 × Regular Cluster Chunk | 5,000 % |
 | Peu commun | 780 × Velkonite (vers le Skylab) | 5,000 % |
 | Peu commun | 510 × Orvium (vers le Skylab) | 5,000 % |
 | Peu commun | 19 × Velkonite Reinforced Plate | 4,000 % |
@@ -571,16 +571,17 @@ La page Conteneurs du jeu montre vos propres probabilités à côté de celles p
 
 ## Version de la table {#version-of-the-table}
 
-Chaque probabilité de cette page est la table du serveur du jeu. Quand une probabilité change, la table reçoit une nouvelle version et une nouvelle empreinte, et chaque ouverture enregistre l’empreinte de la table d’où elle a été tirée.
+Chaque probabilité de cette page est la table du serveur du jeu. Quand une probabilité ou une quantité change, la table reçoit une nouvelle version et une nouvelle empreinte, et chaque ouverture enregistre l’empreinte de la table d’où elle a été tirée.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Version de la table** : 1
-- **Empreinte de la table (12 premiers caractères)** : `23aa20f1a5ad`
+- **Version de la table** : 2
+- **Empreinte de la table (12 premiers caractères)** : `9f345692845a`
 
 Ce qui a changé :
 
+- Version 2 : Cartouche de sondage : les quatre piles communes sont plus petites. Reinforced Hull Plate de 1 300 à 100, Ship Fragment de 9 000 à 1 000, Power Core de 450 à 20, Regular Cluster Chunk de 4 à 2. Aucune chance de récompense ni de catégorie n’a changé.
 - Version 1 : La première table publiée.
 
 <!-- containers-version:end -->

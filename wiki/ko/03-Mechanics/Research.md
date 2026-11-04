@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 151개 중 135개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 158개 중 142개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | 연구 시간 | 부스트 시 | 전체에 필요한 부스트 | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30분 | 15분 | 1 | 5,000 |
+| 1시간 | 30분 | 1 | 5,000 |
 | 3시간 | 1시간 30분 | 1 | 5,000 |
+| 4시간 | 2시간 | 1 | 5,000 |
 | 6시간 | 3시간 | 1 | 5,000 |
+| 8시간 | 4시간 | 1 | 5,000 |
 | 10시간 | 5시간 | 1 | 5,000 |
 | 1일 | 12시간 | 1 | 5,000 |
 | 2일 | 1일 | 1 | 5,000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### 레이저 탄약 {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 - **순서대로.** 각 레벨은 이전 레벨이 필요하고, 높은 레벨이 낮은 레벨을 대체합니다. 표에는 각 레벨이 주는 합계가 나오며, 더해지는 양이 아닙니다.
 - **효율적인 간식**(케밥, 펠메니, 버거)는 보유한 모든 함선에 두 구성 모두 선체를 더해 줍니다.
 - **봉인된 뒷문**은 어디서 사고, 만들고, 거래하든 모든 로켓의 소지 한도를 늘려 줍니다.
-- **굴착기 채굴**은 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)의 상자마다 얻는 양을 늘려 줍니다. Thulium도 광석도 마찬가지입니다.
+- **굴착기 채굴**은 당신이 가동한 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)가 모든 상자에 Thulium과 광석을 더 많이 담게 합니다. 가동을 시작한 파일럿의 연구가 적용되며, 상자를 줍는 사람은 누구나 늘어난 양을 받습니다. 굴착기의 제어 패널은 누구의 가동인지와 어떤 비율이 적용되는지를 보여 줍니다.
 - **장 이론**은 피격 시 실드가 흡수하는 비율을 늘려 줍니다. 실드가 없는 함선은 효과가 없습니다.
 - **잠든 지식**은 연구가 센터에서 끝날 때 레벨마다 초기화 포인트를 지급하고, 초기화 뒤에도 다시 지급합니다([초기화 포인트 획득](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). 이전 레벨 외에, 다른 기술을 일정 비율 연구해 두어야 합니다(파일럿 계열의 기술은 포함되고 다섯 개의 잠든 지식은 포함되지 않으며, 얻은 방법은 상관없습니다). 표에는 각 비율과 그것이 몇 개의 기술인지가 나옵니다.
 
@@ -372,9 +391,9 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | 굴착기 채굴 I | 굴착기 산출 +20% | – | 1일 | 10 | 500,000 | 5,000 |
 | 굴착기 채굴 II | 굴착기 산출 +30% | 굴착기 채굴 I | 2일 | 20 | 1,500,000 | 15,000 |
 | 굴착기 채굴 III | 굴착기 산출 +40% | 굴착기 채굴 II | 3일 | 30 | 4,000,000 | 40,000 |
-| 장 이론 I | 실드 흡수 +2% | – | 1일 | 20 | 500,000 | 5,000 |
-| 장 이론 II | 실드 흡수 +3% | 장 이론 I | 2일 | 40 | 1,500,000 | 15,000 |
-| 장 이론 III | 실드 흡수 +5% | 장 이론 II | 3일 | 60 | 5,000,000 | 50,000 |
+| 장 이론 I | 실드 흡수 +4% | – | 1일 | 20 | 500,000 | 5,000 |
+| 장 이론 II | 실드 흡수 +7% | 장 이론 I | 2일 | 40 | 1,500,000 | 15,000 |
+| 장 이론 III | 실드 흡수 +10% | 장 이론 II | 3일 | 60 | 5,000,000 | 50,000 |
 | 잠든 지식 I | 초기화 포인트 +50 | 다른 기술의 20%(30/146개) | 1시간 | – | – | – |
 | 잠든 지식 II | 초기화 포인트 +50 | 잠든 지식 I; 다른 기술의 40%(59/146개) | 1시간 | – | – | – |
 | 잠든 지식 III | 초기화 포인트 +50 | 잠든 지식 II; 다른 기술의 60%(88/146개) | 1시간 | – | – | – |
@@ -460,18 +479,25 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10시간 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1일 | 86,400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10시간 | 36,000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30분 | 1,800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4시간 | 14,400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1시간 | 3,600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3시간 | 10,800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8시간 | 28,800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1시간 | 3,600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6시간 | 21,600 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30분 | 10 | 5시간 | 18,000 | 0 |
-| B | 3시간~6시간 | 20 | 2일 21시간 | 248,400 | 0 |
-| C | 10시간 | 17 | 7일 2시간 | 612,000 | 95 |
+| A | 30분~1시간 | 13 | 7시간 30분 | 27,000 | 0 |
+| B | 3시간~6시간 | 23 | 3일 10시간 | 295,200 | 0 |
+| C | 8시간~10시간 | 18 | 7일 10시간 | 640,800 | 95 |
 | D | 1일~2일 | 23 | 28일 | 2,419,200 | 319 |
-| 전체 |  | 70 | 38일 4시간 | 3,297,600 | 414 |
+| 전체 |  | 77 | 39일 3시간 30분 | 3,382,200 | 414 |
 
-하나씩 차례로 연구하면 트리 전체에 38일 4시간이 걸립니다. 부스트를 계속 켜 두면 19일 2시간이 걸리며, 부스트 20개와 Thulium 100,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 39일 3시간 30분이 걸립니다. 부스트를 계속 켜 두면 19일 13시간 45분이 걸리며, 부스트 20개와 Thulium 100,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 

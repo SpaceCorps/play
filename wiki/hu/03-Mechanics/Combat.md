@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Végül a globális szorzók (például az aktív boosterek, mint a Laser Damage
 - Képlet: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) még egyszer szorozhatja az eredményt: például az Auger +21% lézersebzéssel, a Gyre −11%-kal, idegenek ellen a Culler +12%-kal (külön tényező, nem része a booster-százaléknak).
 - A **Siphon Battery** lőszer szorzója x1, de a célpontja más: a sebzése kizárólag a célpont pajzsából jön (sosem a hajótestből, bármekkora is az elnyelés), és a saját pajzsodba kerül, a maximumodig. Lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
+- A **Dark Matter Ammo** (0.5.0) magát a sortüzet változtatja meg: a Dark Matter Ammo I minden sortűznél újra sorsolja a szorzóját (x1,5-től x5-ig), a Dark Matter Ammo II x6-tal csap le, de csak 1,5 másodpercenként egyszer, és visszaadja neked a célpont pajzsa által elszenvedett sebzés negyedét. Az **Antimatter Battery** lőszer a célpont elnyelésének 20%-át áthatolja. Lásd: [Antimatter és Dark Matter lőszer](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Rakéták {#3b-rockets}
 
@@ -115,7 +116,7 @@ Amikor a hajódat egy ellenség vagy NPC eltalálja, a sebzés a következőkép
 ### 1. Pajzselnyelés {#1-shield-absorption}
 
 A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **átlagos elnyelése** szerint: a pajzsaid elnyelésének átlaga, mindegyik a pajzscelláival együtt, plusz a Szezonbolt Shield Absorbance Boost buffja (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)). **Nincs 100%-ra korlátozva**: az, amit a pajzsok egy találatból felfognak, az elnyelésed **mínusz a támadó pajzsáthatolása**, 0% és 100% között.
-- Minden találatnak az **elnyelés** (pl. 80% a legjobb pajzsnál a legjobb cellákkal, 56% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 45%-ot hagy a pajzsokon egy 80%-os hajónál, a többi (itt 55%) pedig közvetlenül az életerőt éri.
+- Minden találatnak az **elnyelés** (pl. 85% a legjobb pajzsnál a legjobb cellákkal, 58% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 50%-ot hagy a pajzsokon egy 85%-os hajónál, a többi (itt 50%) pedig közvetlenül az életerőt éri.
 - A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+3% és +12% között foglalatonként) és egy drónformáció hozzáadódnak, és semmi sem korlátozza az összeget.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.

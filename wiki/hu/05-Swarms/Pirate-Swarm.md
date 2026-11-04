@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4a99637f071798ec -->
+<!-- wiki-i18n source: 4abd6e42693b5459 -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -32,12 +32,12 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **A bosst lődd, ne a Scoutokat.** A Scoutok gyógyítják a bosst, de a gyógyítás kicsi a boss hajótestéhez képest, és új Scout olyan gyakran érkezik, ahogy a *Röviden* lista mondja: az a csoport, amelyik előbb a Scoutokat lövi, sosem kerül előnybe velük szemben, és csak egy nagyon nagy csoport tudja kitakarítani őket, mégis tovább tart neki a boss befejezése, mint annak, amelyik békén hagyta őket. A Scoutok időt vesznek el tőled, a harcot nem ők döntik el.
 - **Vezesd el a Scoutokat.** A Scout csak addig gyógyít, amíg a boss hatótávján belül van, így az a Scout, amelyik a hatótávon kívülre követ téged, semmit sem gyógyít, és az Ostirion gyorsabb a Scoutnál.
 - **Mozogj folyamatosan.** A boss rakétája egyenes és nem önirányító: a folyamatosan mozgó hajó kitér előle, az álló hajót eltalálja.
-- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-3` szektoron akkor is veszít, ha a találatok szétoszlanak, és az `x-2` szektoron is; négyen nagyjából négy perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron is elég három (nagyjából két és fél perc). Öten nagyjából három perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából öt perc alatt, ha egy pilóta kapja az összes tüzet, de akkor négy hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában hat, Gammában nyolc pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Egy Ostirion egyedül nem, egy Paragon egyedül sem: két Paragon igen. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
+- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-3` szektoron akkor is veszít, ha a találatok szétoszlanak, és az `x-2` szektoron is; négyen nagyjából négy perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron is elég három (nagyjából két és fél perc). Öten nagyjából három perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából öt perc alatt, ha egy pilóta kapja az összes tüzet, de akkor négy hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában hat, Gammában nyolc pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül is csak éppen hogy tudja (a hajótestéből néhány százalék marad): két Paragon biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül elpusztul, x2 és x4 lőszerrel is. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, ugyanabban a szektorban.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
 
-A Pirate Boss a harc értékéhez mérten fizet: egy perc harc vele többet fizet, mint egy perc harc egy Goombah ellen. A fizetést a sebzés szerint osztják el a vele harcoló pilóták között ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A ládája annak a pilótának jár, aki a legtöbb sebzést okozta, és tartalmazhat **Reinforced Hull Plate**-et, rakétákat és lőszert. A ládája nagyjából kétötödét éri annak, amit maga a megölés fizet. A Scoutok keveset fizetnek, és nem ejtenek semmit.
+A Pirate Boss a harc értékéhez mérten fizet: egy perc harc vele többet fizet, mint egy perc harc egy Goombah ellen. A fizetést a sebzés szerint osztják el a vele harcoló pilóták között ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A ládája annak a pilótának jár, aki a legtöbb sebzést okozta, és tartalmazhat **Reinforced Hull Plate**-et, rakétákat és lőszert. A ládája valamivel kevesebb mint a felét éri annak, amit maga a megölés fizet. A Scoutok keveset fizetnek, és nem ejtenek semmit.
 
 ## A számok {#the-numbers}
 
@@ -71,7 +71,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
 | Egy a kreditért vásárolható 8 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 5–10 |
-| Egy a következők közül: Advanced Plasma és Siphon Battery, véletlenszerűen | 100% | 1 000–2 000 |
+| Egy a következők közül: Advanced Plasma, Siphon Battery és Siphon Battery II, véletlenszerűen | 100% | 1 000–2 000 |
 
 ### Pirate Scout
 

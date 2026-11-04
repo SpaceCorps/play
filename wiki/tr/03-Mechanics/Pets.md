@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 40b3614430227bf5 -->
+<!-- wiki-i18n source: f5852ee08aded325 -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -21,7 +21,7 @@ Bir **P.E.T.** (Personal Escort Technology), geminin yanında uçan ve ona bonus
 - **Yumurtadan çıkar.** Hangarın **P.E.T.** görünümünde Beşik, her P.E.T. için bir parça ve bir Orvium Reinforced Plate alır ve kuyruğunda dört yer vardır. Parçanın derecesi P.E.T.’in kaç bonusu olacağını belirler: **1, 2 veya 3**.
 - **Yanaştır ve uç.** İstediğin P.E.T.’leri geminin park halindeyken yanaştır. Station takılı ve **AÇIK** iken bonuslarını eklerler ve sen avlanırken, madencilik yaparken ve uçarken deneyim kazanırlar, 20. seviyeye kadar.
 - **AÇIK ve KAPALI.** Anahtar, kısayol çubuğundaki **PET** yuvasıdır ve uçuşta çalışır; değişiklik hemen sayılır: **KAPALI** iken P.E.T.’lerin bonus vermez, deneyim kazanmaz ve çalışmaz; **AÇIK** olunca geri gelirler. Hiç değiştirmediğin bir Station açık sayılır.
-- **İkisini işe koş.** Yanaştırılmış bir **Retriever** geminin çevresinde yatan kutuları alır ve yanaştırılmış bir **Mole** senin için en yakın asteroiti kırar; güvenli bölgenin dışında uçtuğun her an, boşta olsan da olmasan da, günlük bir sınır olmadan: [çalışan türler](#the-working-types). Boşta duran bir gemi bir hedeftir.
+- **İkisini işe koş.** Yanaştırılmış bir **Retriever** geminin çevresinde yatan kutuları alır ve yanaştırılmış her **Mole** senin için en yakın asteroiti kırar (hepsi aynı asteroit üzerinde çalışabilir); güvenli bölgenin dışında uçtuğun her an, boşta olsan da olmasan da, günlük bir sınır olmadan: [çalışan türler](#the-working-types). Boşta duran bir gemi bir hedeftir.
 - **Onlar senindir.** P.E.T.’ler sana bağlıdır: takas yok, pazar yok. Sıfırlamadan sonra da kalırlar.
 
 ## P.E.T. Station {#the-station}
@@ -83,7 +83,7 @@ Bir P.E.T. en çok **20. seviyeye** ulaşır. Her seviye bonuslarının her biri
 | Hasar | %1 | %5 | %25 |
 | Şans | 0,5 puan | 1,7 puan | 8,5 puan |
 
-- **Hasar, gövde ve kalkan**, boosterlarına ve klanının güçlendirmelerine eklenir, onları çarpmaz: hangardaki, Gemi penceresindeki ve pilot sayfandaki sayılar bunları hesaba katar ve **Boosterlar** penceresinde bir **P.E.T.** kartı vardır. Kalkan, kalkan kapasitesidir (azami kalkan puanı).
+- **Hasar, gövde ve kalkan**, boosterlarına ve klanının güçlendirmelerine eklenir, onları çarpmaz: hangardaki, Gemi penceresindeki ve pilot sayfandaki sayılar bunları hesaba katar ve **Boosterlar** penceresi bunları yükselttikleri kategorilerin toplamlarına katar (Hasar altında bir **P.E.T. hasar güçlendirmesi** satırı gibi) ve yanaştırılmış P.E.T.’ler ile Station’ın durumu için bir **P.E.T.** kartı vardır. Kalkan, kalkan kapasitesidir (azami kalkan puanı).
 - **Kredi ve Thulium**, [klanının güçlendirmeleri](/wiki/03-Mechanics/Clans.md) gibi, bir öldürmenin sana ödediğine, bir patrondaki ve bir grup öldürmesindeki payına ve bir görevin ödülünü aldığında ödediği miktara eklenir. Bir kayanın nakit ödemesine, Skylab çiftliklerine, bir bonus koduna ya da pazara asla eklenmez.
 - **Şans**, bir uzaylının ya da bir sürü gemisinin her ganimet satırının ve bir Clan Warden ganimetindeki özel kutuların olasılığını, [Loot Luck Booster](/wiki/06-Items/Boosters.md) gibi artırır. Başka hiçbir şeyi değil.
 - **Station AÇIK değilse bonus da yok.** Yalnızca sayılan yanaştırılmış P.E.T.’ler bonus verir: gemine takılı Station kapasitesine kadar olanlar ve yalnızca o **AÇIK** iken. Ayırdığın ya da hiç yanaştırmadığın bir P.E.T. hiçbir şey eklemez ve hiçbir şey kazanmaz; Station **KAPALI** ya da takılı değilken de hiçbiri.
@@ -100,12 +100,12 @@ Sayılan her yanaştırılmış P.E.T. aynı deneyimi, tam olarak kazanır: aral
 
 ## Çalışan türler {#the-working-types}
 
-On türün sekizi yalnızca bonus verir. **Retriever** ve **Mole** de bonus verir ve her biri sen uçarken senin için çalışır da: Retriever geminin çevresinde yatan kargo kutularını alır, Mole ona en yakın asteroiti kırar. Gemin güvenli bölgenin dışında uçarken çalışırlar, **tuşlara dokunsan da dokunmasan da**, ve **bir günlük çalışmanın sınırı yoktur**: bir Mole birimini sınırlayan şey seni sınırlayan şeydir, erişim menzilindeki asteroitler ve bunların ne kadar çabuk yeniden büyüdüğü ([Mole P.E.T.](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Boşta duran bir gemi bir hedeftir: ona durduğu yerde saldırabilen her pilot saldırabilir ve çalışan bir P.E.T. onu korumaz.
+On türün sekizi yalnızca bonus verir. **Retriever** ve **Mole** de bonus verir ve her biri sen uçarken senin için çalışır da: Retriever geminin çevresinde yatan kargo kutularını alır, her Mole ona en yakın asteroiti kırar. Gemin güvenli bölgenin dışında uçarken çalışırlar, **tuşlara dokunsan da dokunmasan da**, ve **bir günlük çalışmanın sınırı yoktur**: bir Mole birimini sınırlayan şey seni sınırlayan şeydir, erişim menzilindeki asteroitler ve bunların ne kadar çabuk yeniden büyüdüğü ([Mole P.E.T.](/wiki/03-Mechanics/Asteroid-Mining.md#the-mole-pet)). Boşta duran bir gemi bir hedeftir: ona durduğu yerde saldırabilen her pilot saldırabilir ve çalışan bir P.E.T. onu korumaz.
 
 ### Ne zaman çalışırlar {#when-they-work}
 
 - **Yanaştırılmış, Station AÇIK iken.** Yalnızca sayılan yanaştırılmış bir P.E.T. çalışır: Station **KAPALI** olursa Mole biriminin ışını ve Retriever biriminin toplaması hemen durur, **AÇIK** olunca devam eder. Gücü kalkışta okunur: uçuşta kazanılan bir seviye bir sonraki kalkıştan itibaren sayılır.
-- **Her türün yalnızca en iyisi.** Tek bir Mole çalışır, en güçlüsü (eşitlikte alt yerdeki), ve tek bir Retriever, en uzun menzilli olan. Diğer Mole ve Retriever P.E.T.’lerin yalnızca bonus verir; bu yüzden bütün yerlere Mole yanaştırsan bile kırılan asteroit, tek bir Mole biriminin kırdığından fazla olmaz.
+- **Her Mole çalışır, tek bir Retriever.** 0.4.27’den beri yanaştırılmış her Mole çalışır, her birinin kendi dronu ve kendi ışını vardır; 0.5.0’dan beri Mole P.E.T.’lerin aynı asteroit üzerinde de çalışabilir: her biri en yakın olanı seçer, bu yüzden erişim menzilinde tek asteroit varsa hepsi onda çalışır, o kırılınca birlikte bir sonrakine geçerler. Üç Mole P.E.T.’li bir Station, erişim menzilinde yeterince asteroit olduğu sürece tek bir Mole P.E.T.’nin kırdığının yaklaşık üç katına kadar asteroit kırar; bir asteroiti kıran darbeden sonra gelen darbeler boşa gider, bu yüzden küçük bir asteroite aynı anda vuran Mole P.E.T.’ler biraz daha az değer taşır. Tek bir Retriever çalışır, en uzun menzilli olan; diğer Retriever P.E.T.’lerin yalnızca bonus verir.
 - **Uçuşta, güvenli bölgenin dışında.** Bir [güvenli bölge](/wiki/03-Mechanics/Combat.md#2-safe-zone-immunity) gemini korurken, gemin yok edilmişken, [doğma korumasındayken](/wiki/01-General/Getting-Started.md#dying-and-coming-back), gizliyken ya da sıçrarken dururlar ve bunların hiçbiri geçerli olmadığında devam ederler. Oyundan çıkmış bir pilotun uzayda gemisi yoktur, bu yüzden onun için hiçbir şey çalışmaz.
 - **Boşta olsan da olmasan da.** Tuşların başında olmakla ilgili bir kural yoktur: bir Mole, sen avlanırken, bir pencereye bakarken ve ekrandan uzaktayken aynı şekilde çalışır.
 - **Asla yapmadıkları şeyler.** Bir Retriever senin alamayacağın hiçbir kutuyu almaz; yani başka bir pilotun korumalı kutularını asla. Bir Mole güvenli bölgedeki bir asteroiti asla işlemez: asteroitler güvenli halkadan en az 1.500 birim uzakta durur.
@@ -120,7 +120,7 @@ Yanaştırılmış bir Retriever, **menzili** içindeki en yakın kargo kutusunu
 
 ### Mole {#the-mole}
 
-Yanaştırılmış bir Mole, geminin **600 birimi** içinde (yaklaşık beş buçuk gemi boyu) işleyebileceği en yakın asteroiti işler ve ona **3 saniyede bir darbe** verir; roketlerinin yeniden dolduğu süre kadar. Asteroit kırılana kadar onda kalır, sonra bir sonrakini arar. Dronu asteroite uçar ve ince bir ışın onları birleştirir.
+Yanaştırılmış bir Mole, geminin **600 birimi** içinde (yaklaşık beş buçuk gemi boyu) işleyebileceği en yakın asteroiti işler ve ona **3 saniyede bir darbe** verir; roketlerinin yeniden dolduğu süre kadar. Asteroit kırılana kadar onda kalır, sonra bir sonrakini arar. Dronu asteroite uçar ve ince bir ışın onları birleştirir. **Yanaştırılmış her Mole bunu kendi başına yapar** (0.4.27) ve 0.5.0’dan beri aynı asteroiti seçebilirler: üç Mole P.E.T.’le üç dron görürsün ve bir asteroit hepsine en yakın olduğunda ışınları üzerine yan yana iner.
 
 - **Bir darbe nedir.** En iyi roketin, [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets), tam o asteroitten alacağı hasarın bir payıdır; bu yüzden zırh, bir roketi yavaşlattığı gibi bir Mole birimini de yavaşlatır (Ironhide, Plateback, Anvil ve Ancient Husk). Taktığın hiçbir şey onu değiştirmez: ne lazerlerin, roketlerin, amfilerin, boosterların, formasyonun ne de P.E.T.’lerinin hasar bonusu. Bir Mole cephane ya da roket kullanmaz.
 - **Ne kadar güçlü.** Dereceye ve seviyeye göre ([aşağıdaki tablolar](#how-strong)). **20. seviye Efsanevi bir Mole**, işleyecek asteroiti olduğu sürece, **onlara en iyi roketi ateşleyen bir pilotun saatte kırdığı kadar ya da daha fazla asteroit kırar**: asteroit bulunan on altı sektörün her birinde, üç dünyanın hepsinde onunkinin %100’ü ile %118’i arasında. Üretebileceğin en zayıf Mole, 0. seviye bir Mitik, yaklaşık onda birini kırar. Alpha’da en güçlü Mole bir Pebble asteroitini 12 saniyede, bir Star Crystal asteroitini 2 dakikadan kısa sürede, en büyük asteroit olan Motherlode’u 5,8 dakikada kırar; en zayıfı 2,1 dakika, 19,8 dakika ve yaklaşık bir saat alır.

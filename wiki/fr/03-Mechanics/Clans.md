@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -16,8 +16,8 @@ Fonder un clan ou en rejoindre un vous permet de mettre vos ressources en commun
 - Le chef et les chefs adjoints dépensent les points dans trois [bonus](#clan-points-and-boosts) de dix niveaux chacun : **Dégâts** (jusqu’à +5 %), **Thulium** (jusqu’à +10 %) et **Crédits** (jusqu’à +10 %).
 - Un clan qui termine chaque ligne a acheté tous les niveaux au **jour 12**. Les points, les niveaux et le clan lui-même prennent fin avec la réinitialisation.
 - Il faut au moins **trois membres** qui ont fait leur part, et **un grand équipage** pour le combat contre le Gardien : depuis la 0.4.13, un Gardien a cinq fois la coque, le bouclier et les dégâts laser qu’il avait, si bien que les équipages qui gagnaient avant, d’environ sept pilotes, perdent maintenant ([quel équipage il faut](#how-big-a-crew)). Un équipage trop petit perd le combat : le clan garde alors les **70 points** des quatre missions, mais la ligne n’est pas terminée et ne paie pas [votre récompense](#the-reward-for-you).
-- Un Gardien paie une grosse cagnotte, partagée selon les dégâts, et **chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une caisse privée** avec sa part du butin, que lui seul voit et que lui seul peut ramasser ([gain et butin](#warden-pay-and-loot)). Depuis la 0.4.16, le gain est triplé, et tant qu’un Gardien tient debout, **une vague d’aliens de la carte arrive chaque minute** (toutes les 40 secondes pour le Wrath Warden III), avec un **Crystalys** dans chaque vague dès que le Gardien passe sous la moitié de sa coque, dirigée contre les pilotes qui ont touché le Gardien ([vagues](#waves-of-aliens)).
-- Votre vaisseau affiche les bonus qu’il a dans la fenêtre **Boosters**, sur une carte à part ([où les voir](#the-three-boosts)).
+- Un Gardien paie une grosse cagnotte, partagée selon les dégâts, et **chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une caisse privée** avec sa part du butin, que lui seul voit et que lui seul peut ramasser ([gain et butin](#warden-pay-and-loot)). Depuis la 0.4.16, le gain est triplé, et tant qu’un Gardien tient debout, **une vague de Phantasm, de Bulwarks et (à partir du Warden II) de Goombahs arrive chaque minute** (toutes les 40 secondes pour le Wrath Warden III), avec un **Crystalys** dans chaque vague dès que le Gardien passe sous la moitié de sa coque, dirigée contre les pilotes qui ont touché le Gardien ([vagues](#waves-of-aliens)).
+- Votre vaisseau affiche les bonus qu’il a dans la fenêtre **Boosters**, sous forme de lignes des catégories qu’ils augmentent ([où les voir](#the-three-boosts)).
 - La ligne et les bonus demandent un jeu en version 0.4.10 ou plus récente ; la carte de la fenêtre Boosters, la 0.4.12 ou plus récente ; la page du clan, les annonces, la fenêtre des pilotes en ligne, la prime quotidienne, les demandes de paix, le journal et les clans par monde, la 0.4.16 ou plus récente.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Depuis la 0.4.22, **chaque Gardien fonce sur le pilote qui l’a touché**, comm
 
 ### Vagues d’aliens {#waves-of-aliens}
 
-Depuis la 0.4.16, un Gardien ne se tient pas seul. À partir du moment où il est **armé** (les 90 secondes de chauffe n’ont pas de vagues, pour que l’équipage puisse se rassembler), une **vague** d’aliens ordinaires de la carte où il se trouve arrive **toutes les 60 secondes**, tant que le Gardien tient debout. Le tableau donne les vagues de huit des neuf Gardiens ; les [vagues du Wrath Warden III](#wrath-iii-waves) sont plus lourdes. Sous la moitié de sa coque, les vagues d’un Gardien comptent aussi [un Crystalys](#crystalys-waves).
+Depuis la 0.4.16, un Gardien ne se tient pas seul. À partir du moment où il est **armé** (les 90 secondes de chauffe n’ont pas de vagues, pour que l’équipage puisse se rassembler), une **vague** d’aliens ordinaires arrive **toutes les 60 secondes**, tant que le Gardien tient debout. Depuis la 0.5.0, une vague est un **mélange** : environ la moitié de [Phantasm](/wiki/04-Aliens/Phantasm.md), un quart de [Bulwarks](/wiki/04-Aliens/Bulwark.md) et un quart de [Goombahs](/wiki/04-Aliens/Goombah.md), sur chaque carte, sauf qu’un Warden I n’appelle aucun Goombah (la première puce ci-dessous) ; une vague était autrefois d’une seule sorte d’alien : des Phantasm en x-2 et x-3 et des Bulwarks en x-4. Une vague compte autant d’aliens qu’avant. Le tableau donne les vagues des Gardiens II et III autres que le Wrath Warden III, dont les [vagues](#wrath-iii-waves) sont plus lourdes. Sous la moitié de sa coque, les vagues d’un Gardien comptent aussi [un Crystalys](#crystalys-waves).
 
 | Carte | Une vague | Au plus en vie à la fois |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, et jusqu’à 3 Crystalys |
-| x-3 | 10 Phantasm | 30, et jusqu’à 3 Crystalys |
-| x-4 | 10 Bulwarks | 30, et jusqu’à 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark et 1 Goombah | 15, et jusqu’à 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwarks et 2 Goombahs | 30, et jusqu’à 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwarks et 2 Goombahs | 30, et jusqu’à 3 Crystalys |
 
+- **Un Warden I n’appelle aucun Goombah.** Le Gardien d’un clan du palier Recrue (niveau moyen inférieur à 4) n’envoie que des Phantasm et des Bulwarks, trois Phantasm pour un Bulwark, dans des vagues de la même taille : **4 Phantasm et 1 Bulwark en x-2, 8 Phantasm et 2 Bulwarks en x-3 et x-4**. Une vague entière paie 17 000 crédits en Alpha en x-2 et 34 000 en x-3 et x-4, et 92 000 et 109 000 avec son Crystalys ; le plus grand nombre en vie à la fois est celui du tableau.
 - **Trois vagues au plus sont en vie.** Une vague est en vie tant que l’un de ses aliens l’est. Une vague due quand trois sont en vie est sautée, pas gardée pour plus tard ; la suivante est due une minute après.
-- **Ce sont les propres aliens de la carte**, du genre qui attaque les pilotes, faits comme la carte les fait : un monde plus fort leur donne plus de coque, de bouclier et de dégâts ([Mondes](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Ils arrivent à 500 à 1 200 unités du Gardien, répartis autour de lui.
-- **Ils ne font pas partie du combat pour le Gardien.** Ils ne soignent rien, et leur tirer dessus n’ajoute rien à votre part des dégâts au Gardien. N’importe quel pilote de la carte peut les tuer. Chacun paie le gain ordinaire de son alien dans votre monde et rapporte des points PvE : une vague entière de 5 Phantasm paie 15 000 crédits en Alpha, une vague de 10 Bulwarks 50 000, moins de 2 % de ce que paie le Gardien le plus faible.
-- **Ils s’arrêtent avec le Gardien.** Quand il est détruit ou se retire, il n’en vient plus ; les aliens déjà sortis restent et sont les aliens ordinaires de la carte. Un redémarrage du serveur les fait disparaître avec le Gardien.
-- **Le clan est prévenu.** Chaque vague est annoncée dans l’onglet Système du chat et dans le Journal de jeu : « Brood Warden I appelle des renforts dans M-3 : 10 Phantasm. »
-- **Elles arrivent dirigées (0.4.20).** Les aliens d’une vague arrivent en sachant qui le Gardien combat : ils vont sur les pilotes qui l’ont touché, le premier d’abord, dès qu’ils apparaissent, et restent après eux tant que le Gardien est touché. Un Gardien que personne ne combat envoie des aliens qui rôdent et attirent quiconque s’approche, comme avant.
+- **Ce sont des aliens ordinaires**, faits comme la carte les fait : un monde plus fort leur donne plus de coque, de bouclier et de dégâts ([Mondes](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), quelle que soit la force propre du Gardien. Les Bulwarks et les Goombahs viennent sur toutes les cartes, aussi dans un secteur x-2, où il n’en vit aucun autrement. Ils arrivent à 500 à 1 200 unités du Gardien, répartis autour de lui.
+- **Ils ne font pas partie du combat pour le Gardien.** Ils ne soignent rien, et leur tirer dessus n’ajoute rien à votre part des dégâts au Gardien. N’importe quel pilote de la carte peut les tuer. Chacun paie le gain ordinaire de son alien dans votre monde et rapporte des points PvE : une vague entière du tableau paie 29 000 crédits en Alpha en x-2 (5 aliens) et 60 000 en x-3 et x-4 (10 aliens), une vague de Warden I 17 000 et 34 000, moins de 2 % de ce que paie son propre Gardien.
+- **Ils s’arrêtent avec le Gardien.** Quand il est détruit ou se retire, il n’en vient plus ; les aliens déjà sortis restent et sont les aliens ordinaires de la carte (une sorte que le secteur n’a pas d’elle-même, comme les Bulwarks et les Goombahs d’un secteur x-2, part cinq minutes après le Gardien, sauf si des pilotes la combattent encore). Un redémarrage du serveur les fait disparaître avec le Gardien.
+- **Le clan est prévenu.** Chaque vague est annoncée dans l’onglet Système du chat et dans le Journal de jeu, une ligne pour chaque sorte d’alien qu’elle contient : « Brood Warden II appelle des renforts dans M-3 : 5 Phantasm. », « Brood Warden II appelle des renforts dans M-3 : 3 Bulwark. » et « Brood Warden II appelle des renforts dans M-3 : 2 Goombah. » (un Warden I annonce deux lignes, faute de Goombah)
+- **Elles arrivent dirigées (0.4.20).** Les aliens d’une vague arrivent en sachant qui le Gardien combat : ils vont sur les pilotes qui l’ont touché, le premier d’abord, dès qu’ils apparaissent, et restent après eux tant que le Gardien est touché. Un Gardien que personne ne combat envoie des aliens qui rôdent : les Phantasm et les Bulwarks attirent quiconque s’approche, comme avant, et un Goombah, qui ne commence jamais un combat, rôde jusqu’à ce que quelqu’un lui tire dessus.
 
 #### Le Crystalys de chaque Gardien {#crystalys-waves}
 
 Depuis la 0.4.22, **chaque Gardien** fait ce que le Wrath Warden III fait depuis la 0.4.20 : sous la moitié de sa coque (la ligne où un Wrath Warden entre en rage), **chaque vague qu’il envoie compte aussi un Crystalys**, en plus de la taille de la vague. C’est la même chose pour les Brood, Siege et Wrath Wardens, dans les trois forces. Au-dessus de la moitié de sa coque, la vague arrive sans lui, et un Gardien réparé au-dessus de la moitié envoie de nouveau la vague suivante sans lui.
 
 - **Le Crystalys** est l’alien ordinaire le plus lourd du jeu : 256 000 de coque, 160 000 de bouclier, 10 000 de dégâts par salve à 900 unités, vitesse 230 (dans un monde plus fort, plus de coque, de bouclier et de dégâts). Il paie ce que paie tout Crystalys : **75 000 crédits, 200 Thulium, 12 000 XP et 52 d’honneur en Alpha** (le double en Beta, le triple en Gamma), et lâche son butin ordinaire. Il fait partie de sa vague : une vague est en vie tant que son Crystalys l’est, donc un Crystalys laissé debout garde en vie l’une des vagues (trois au plus, quatre pour le Wrath Warden III), et une vague due quand le maximum sont en vie est sautée.
-- **Elles sont annoncées en deux lignes** : « Wrath Warden III appelle des renforts dans M-3 : 15 Phantasm. » et « Wrath Warden III appelle des renforts dans M-3 : 1 Crystalys. »
-- **Ce qu’elles paient.** Une vague entière de 10 Bulwarks paie 50 000 crédits en Alpha, et avec son Crystalys 125 000 : moins de 5 % des 2 700 000 que paie le Gardien le plus faible.
-- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec les vagues et leur Crystalys, donne ces plus petits équipages avec des munitions x2, dans l’équipement du niveau propre du Gardien, en Alpha. Un clan de niveau 3 compte 50 membres, un clan de niveau 5 en compte 100. Comme le tableau de cette section, ils sont calculés et non mesurés, et c’est le meilleur cas ; en Gamma, où les aliens des vagues sont deux fois plus forts, ils sont plus grands encore.
+- **Il est annoncé sur une ligne à part**, après les lignes du mélange : « Wrath Warden III appelle des renforts dans M-3 : 7 Phantasm. », « … : 4 Bulwark. », « … : 4 Goombah. » et « Wrath Warden III appelle des renforts dans M-3 : 1 Crystalys. »
+- **Ce qu’elles paient.** Une vague entière de 10 aliens paie 34 000 crédits en Alpha pour un Warden I et 60 000 pour un Warden II, et avec son Crystalys 109 000 et 135 000 : environ 4 % des 2 700 000 que paie un Warden I et moins de 4 % des 3 600 000 que paie un Warden II, moins pour un Warden III.
+- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec les vagues et leur Crystalys, donne ces plus petits équipages avec des munitions x2, dans l’équipement du niveau propre du Gardien, en Alpha. Un clan de niveau 3 compte 50 membres, un clan de niveau 5 en compte 100. Depuis la 0.5.0, les Bulwarks et les Goombahs du mélange rendent les vagues plus dures, mais un Warden I n’appelle aucun Goombah, si bien qu’un clan de niveau 3 compte assez de pilotes pour chaque Gardien sur chaque carte. Comme le tableau de cette section, ils sont calculés et non mesurés, et c’est le meilleur cas ; en Gamma, où les aliens des vagues sont deux fois plus forts, ils sont plus grands encore, et en x-3 et x-4 il manque des pilotes à un clan de niveau 3 pour certains Gardiens.
 
 | Gardien | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### Les vagues du Wrath Warden III {#wrath-iii-waves}
 
-Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une vague toutes les **40 secondes**, les trois quarts du nombre de cet alien que la carte contient, et jusqu’à **quatre vagues** en vie. Comme chaque Gardien, il ajoute [un Crystalys](#crystalys-waves) à une vague sous la moitié de sa coque.
+Depuis la 0.4.20, le **Wrath Warden III** amène plus, et plus souvent : une vague toutes les **40 secondes**, de 8 à 15 aliens dans le même mélange de Phantasm, de Bulwarks et de Goombahs, et jusqu’à **quatre vagues** en vie. Comme chaque Gardien, il ajoute [un Crystalys](#crystalys-waves) à une vague sous la moitié de sa coque.
 
 | Carte | Une vague | Au plus en vie à la fois |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, et jusqu’à 4 Crystalys |
-| x-3 | 15 Phantasm | 60, et jusqu’à 4 Crystalys |
-| x-4 | 15 Bulwarks | 60, et jusqu’à 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwarks et 2 Goombahs | 32, et jusqu’à 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwarks et 4 Goombahs | 60, et jusqu’à 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwarks et 4 Goombahs | 60, et jusqu’à 4 Crystalys |
 
 - **Quatre vagues au plus sont en vie.** Une vague due quand quatre sont en vie est sautée, comme pour les autres Gardiens.
-- **Ce qu’elles paient.** Une vague entière de 15 Bulwarks paie 75 000 crédits en Alpha, et avec son Crystalys 150 000 : environ 2 % des 7 200 000 que paie le Gardien lui-même.
-- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **32 pilotes en x-2, 32 en x-3 et 39 en x-4** avec des munitions x2 (26 sans vagues), et 39, 41 et 50 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres, donc 50 en x-4 en Gamma, c’est tout ce qu’il peut envoyer. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
+- **Ce qu’elles paient.** Une vague entière de 15 aliens paie 101 000 crédits en Alpha, et avec son Crystalys 176 000 : environ 2 % des 7 200 000 que paie le Gardien lui-même.
+- **Ce qu’elles demandent à l’équipage.** Le calcul de [quel équipage il faut](#how-big-a-crew), avec ces vagues et le Crystalys, donne **36 pilotes en x-2, 40 en x-3 et 40 en x-4** avec des munitions x2 (26 sans vagues), et 46, 52 et 52 en Gamma, où les aliens des vagues sont deux fois plus forts. Un clan de niveau 3 compte 50 membres, donc en x-3 et x-4 en Gamma il ne peut pas en envoyer assez ; un clan de niveau 5 en compte 100. Comme le tableau de cette section, c’est calculé et non mesuré, et c’est le meilleur cas.
 
 ### Quel équipage il faut {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ Le tableau montre le meilleur cas ; en jeu, amenez autant de monde que possible
 | :--- | :--- | :--- |
 | 5 pilotes | perdent contre tous les Gardiens ; le Gardien garde 88 à 96 % de sa coque et de son bouclier | perdent |
 | 10 pilotes | perdent contre tous les Gardiens ; le Gardien garde 55 à 86 % de sa coque et de son bouclier | perdent |
-| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 7,2 à 7,3 minutes, en perdant 6 vaisseaux, et contre le Brood Warden III, en 3,9 minutes, en perdant 9 vaisseaux | perdent |
-| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,2 minutes, en perdant de 3 à 11 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 10,4 à 10,5 minutes, en perdant 9 vaisseaux, et contre le Brood Warden III, en 5,2 minutes, en perdant 13 vaisseaux |
+| 20 pilotes | ne gagnent que contre les Siege Warden I et II, en 7,2 à 7,3 minutes, en perdant 6 vaisseaux, et contre le Brood Warden III, en 3,7 minutes, en perdant 8 vaisseaux | perdent |
+| 30 pilotes | gagnent contre tous les Gardiens en 2,0 à 5,2 minutes, en perdant de 3 à 11 vaisseaux | ne gagnent que contre les Siege Warden I et II, en 10,4 à 10,5 minutes, en perdant 9 vaisseaux, et contre le Brood Warden III, en 5,1 minutes, en perdant 11 vaisseaux |
 
-Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **17 à 26 pilotes** (le moins contre les Siege Warden I et II) et perd **10 à 18** vaisseaux en le faisant ; avec des munitions x1, il compte **26 à 39** pilotes et perd 12 à 27. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 18 à 55 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
+Dans le calcul, le plus petit équipage qui gagne avec des munitions x2 compte **17 à 26 pilotes** (le moins contre les Siege Warden I et II) et perd **10 à 17** vaisseaux en le faisant ; avec des munitions x1, il compte **26 à 39** pilotes et perd 12 à 25. Les lasers d’un Gardien frappent par centaines par salve en force I (240 à 645) et par milliers en force III (9 225 à 15 450), et ses aides s’y ajoutent : le vaisseau qu’il combat tombe en 18 à 55 secondes, puis il se tourne vers le suivant, si bien que même un équipage qui gagne perd beaucoup de vaisseaux.
 
 Le tableau vaut pour un équipage dans l’équipement du palier propre au Gardien. Des vaisseaux plus faibles font moins bien. Le Gardien de **votre** clan correspond toujours à **votre** palier, que fixent les cinq meilleurs pilotes du clan : amenez-les.
 
@@ -452,7 +453,7 @@ Les points de clan appartiennent au clan. Chaque étape que le clan termine ajou
 | **Thulium de flotte** | 10 | +1 % | +10 % | Thulium des destructions et des récompenses de mission |
 | **Crédits de flotte** | 10 | +1 % | +10 % | Crédits des destructions et des récompenses de mission |
 
-**Où les voir.** En vol, la fenêtre **Boosters** liste les bonus que votre vaisseau a sur une carte à part, **Bonus de flotte**, sous les boosters à durée : le tag de votre clan, puis une ligne par bonus avec sa valeur et son niveau (Niv. 3/10). Ils n’ont pas de minuteur, car un bonus de clan dure tant que vous êtes dans le clan. Survolez une ligne pour voir sur quoi il agit. Un clan qui n’a encore rien acheté affiche « Votre flotte n’a pas encore de bonus », et un pilote sans clan ne voit pas de carte. La carte Boosters du **tableau de bord** et le profil d’un pilote les listent aussi. La carte montre ce que votre vaisseau applique, tel que le serveur le dit au jeu, si bien qu’un niveau que les officiers viennent d’acheter apparaît tout de suite. Un jeu antérieur à la 0.4.12 applique les bonus et n’affiche pas de carte.
+**Où les voir.** En vol, la fenêtre **Boosters** compte les bonus que votre vaisseau a avec les boosters : les **Dégâts de flotte** sont une ligne de la catégorie **Dégâts**, le **Thulium de flotte** une de **Thulium**, les **Crédits de flotte** une de **Crédits**, et chacune entre dans le total de la catégorie, si bien que le total est ce que reçoit votre vaisseau. Ouvrez une catégorie pour voir la ligne : son bonus et, là où un booster montre son minuteur, son niveau (Niv. 3/10), car un bonus de clan n’a pas de minuteur et dure tant que vous êtes dans le clan. Survolez la ligne pour voir sur quoi il agit. Un clan qui n’a encore rien acheté affiche une carte **Bonus de flotte** qui dit « Votre flotte n’a pas encore de bonus », et un pilote sans clan ne voit pas de carte. La carte Boosters du **tableau de bord** montre les mêmes totaux sous les boosters en cours, et le profil d’un pilote les liste aussi. Les nombres sont ce que votre vaisseau applique, tel que le serveur le dit au jeu, si bien qu’un niveau que les officiers viennent d’acheter apparaît tout de suite. Un jeu antérieur à la 0.4.12 applique les bonus et n’affiche rien de tout cela ; avant la 0.4.27, les bonus étaient sur une carte à part et n’entraient pas dans les totaux.
 
 ### Prix {#boost-prices}
 

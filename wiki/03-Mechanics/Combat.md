@@ -31,6 +31,7 @@ Finally, global multipliers (such as active boosters, for example a Laser Damage
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - A worn [drone formation](/wiki/03-Mechanics/Formations.md) can multiply the result once more: for example Auger +21% laser damage, Gyre −11%, and against aliens Culler +12% (a separate factor, not part of the booster percent).
 - **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/06-Items/Lasers.md).
+- **Dark Matter Ammo** (0.5.0) changes the volley itself: Dark Matter Ammo I draws its multiplier (x1.5 to x5) for every volley, and Dark Matter Ammo II hits for x6 once every 1.5 seconds and gives you a quarter of the damage your target's shield took. **Antimatter Battery** ammo pierces 20% of the target's absorbance. See [Antimatter and Dark Matter ammo](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Rockets
 
@@ -113,7 +114,7 @@ When your ship is hit by an enemy or NPC, damage is processed as follows:
 ### 1. Shield Absorption
 
 Incoming damage is divided between shields and hitpoints by your ship's **Average Absorbance**: the average of your shields' absorbance, each with its Shield Cells', plus the Season Store's Shield Absorbance Boost (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)). It is **not capped at 100%**: what the shields take of a hit is your absorbance **less the attacker's shield penetration**, between 0% and 100%.
-- **Absorbance** (e.g. 80% for the best shield with the best cells, 56% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 45% on the shields of a 80% ship, and the rest (55% there) hits HP directly.
+- **Absorbance** (e.g. 85% for the best shield with the best cells, 58% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 50% on the shields of an 85% ship, and the rest (50% there) hits HP directly.
 - **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there). The Penetration Amps of the shooter's lasers (+3% to +12% a slot) and a drone formation add to it, and nothing caps the total.
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.

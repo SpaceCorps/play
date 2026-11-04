@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e483b8e10231ca94 -->
+<!-- wiki-i18n source: 0ebfbefceb729180 -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
@@ -110,7 +110,7 @@ Un design di nave cambia la velocità della sua nave, e con essa il suo punto di
 
 Una nave più veloce di 272 unità al secondo (un allestimento da fuga, o una Wraith di serie con un Afterburner attivo) ha il suo punto di non ritorno dove è sempre stato: a velocità 300 è a 885, a 432 è a 747.
 
-Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 39,1, con il punto di non ritorno a circa 2.600). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (dieci secondi con un motore, quindici con due, venti con tre; l’Afterburner III porta quello di una Protos di serie da 1.577 a 989 e quello di una Wraith di serie da 1.208 a 801). Niente può uscire da meno di circa 390 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,69); una nave non incantata costruita per la velocità (Engine III e Adaptive Core III con tre Impulse Thruster IV ciascuno), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 430.
+Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 39,1, con il punto di non ritorno a circa 2.600). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (quindici secondi con un motore, 22,5 con due, trenta con tre; l’Afterburner III porta quello di una Protos di serie da 1.577 a 1.225 e quello di una Wraith di serie da 1.208 a 851). Niente può uscire da meno di circa 440 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,46); una nave non incantata costruita per la velocità (Engine III e Adaptive Core III con tre Impulse Thruster IV ciascuno), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 477.
 
 La caduta dal punto di non ritorno comincia lentamente: una nave poche unità al suo interno, a piena potenza, viene risucchiata in venti secondi o più, poi sempre più in fretta. L’attrazione non è volo: non conta come distanza percorsa.
 
@@ -118,7 +118,7 @@ La caduta dal punto di non ritorno comincia lentamente: una nave poche unità al
 
 Una nave che arriva a 300 unità dal centro viene distrutta. Una nave il cui scafo si esaurisce sotto le radiazioni lungo la strada viene invece distrutta dalle radiazioni. In entrambi i casi:
 
-- È una distruzione normale: scegli dove tornare (vedi [Distruzione e respawn](/wiki/01-General/Getting-Started.md)), con al massimo 10.000 di scafo e lo scudo vuoto (vedi quella pagina), e costa ciò che costa sempre una distruzione. “Sul posto” non ti rimette mai dentro l’anello: ti sposta nel punto più vicino al di fuori (a 4.500 unità dal centro) e te lo comunica.
+- È una distruzione normale: scegli dove tornare (vedi [Distruzione e respawn](/wiki/01-General/Getting-Started.md)), con al massimo 10.000 di scafo e lo scudo vuoto (vedi quella pagina), e costa ciò che costa sempre una distruzione. Il buco nero si trova nel Settore pericoloso 4, dove «Sul posto» non è offerto, quindi nessuno torna dentro l’anello: scegli la tua base o il portale più vicino di quel settore, che sta fuori dall’anello.
 - **Niente relitto, niente cassa, niente bottino**, e nessuna perdita di onore.
 - La tua distruzione viene accreditata come un abbattimento PvP all’**ultimo pilota nemico che ha colpito la tua nave nei 15 secondi prima della sua fine**: un pilota di un’altra corporazione (dove e quando il PvP è consentito), per quanto piccolo sia stato il colpo. Nelle sue statistiche conta come un abbattimento e gli vale punti classifica PvP in base al tipo della tua nave, nient’altro. Basta un solo colpo, e se nessuno di un’altra corporazione ti ha colpito in quei 15 secondi, nessuno riceve nulla.
 - I compagni di corporazione che hanno colpito la tua nave in quei 15 secondi perdono comunque l’onore del fuoco amico, qualunque cosa l’abbia distrutta.

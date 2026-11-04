@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Boucliers -->
 # Boucliers et défense {#shields-defense}
 
@@ -41,12 +41,12 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 | Nom | Rareté | Capacité | Vitesse de recharge | Absorption | Bouclier (%) | Vitesse (%) | Empl. cellule | Effet spécial | Coût |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Médiocre | 10 000 | 333/s | 45 % | +5 % | -1 % | 1 | Shield Surge I | 20 000 crédits |
-| **Basic Shield Core** | Commun | 15 000 | 500/s | 48 % | +10 % | -3 % | 2 | Shield Surge II | 2 000 Thulium |
-| **Heavy Shield Core** | Rare | 25 000 | 833/s | 50 % | +20 % | -5 % | 3 | Shield Surge III | À fabriquer |
+| **Basic Shield Core** | Commun | 15 000 | 500/s | 50 % | +10 % | -3 % | 2 | Shield Surge II | 2 000 Thulium |
+| **Heavy Shield Core** | Rare | 25 000 | 833/s | 55 % | +20 % | -5 % | 3 | Shield Surge III | À fabriquer |
 
 Le **Heavy Shield Core** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core, avec 4 000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Il garde le rang d’enchantement et les bonus du bouclier qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord le Basic Shield Core de votre vaisseau (et sortez-en les cellules) : un bouclier installé ou qui contient des cellules n’est pas consommé.
 
-L’**absorption** est la part de chaque tir que prennent vos boucliers ; la coque encaisse le reste. Un bouclier seul donne **45 à 50 %**, et ses cellules ajoutent le reste : le meilleur bouclier avec les meilleures cellules (un Heavy Shield Core avec trois Absorption Shield Cell IV) donne **80 %**, le maximum qu’un vaisseau possède d’emblée. Trois bonus permanents s’y ajoutent : le Shield Absorbance Boost de la Boutique de saison (+0,1 point par niveau, 100 niveaux, 25 points de réinitialisation chacun), les bonus d’absorption de la Forge et la recherche Pilote Field Theory (+2, +3 ou +5 points). Les sources de points de réinitialisation (jusqu’à 1 090 par réinitialisation, qui repartent à chaque réinitialisation) achètent 43 de ces 100 niveaux (+4,3 points) dès la première réinitialisation, ce qui, avec un ensemble Éternel entièrement forgé, donne environ **95 %**, et environ **99 %** avec Field Theory III. La stat n’est cependant pas plafonnée à 100 % : la *pénétration de bouclier* d’un attaquant en est retranchée, si bien que ce qu’un vaisseau a au-dessus de 100 % est sa marge face à la pénétration. Voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+L’**absorption** est la part de chaque tir que prennent vos boucliers ; la coque encaisse le reste. Un bouclier seul donne **45 à 55 %**, et ses cellules ajoutent le reste : le meilleur bouclier avec les meilleures cellules (un Heavy Shield Core avec trois Absorption Shield Cell IV) donne **85 %**, le maximum qu’un vaisseau possède d’emblée. Trois bonus permanents s’y ajoutent : le Shield Absorbance Boost de la Boutique de saison (+0,1 point par niveau, 100 niveaux, 25 points de réinitialisation chacun), les bonus d’absorption de la Forge et la recherche Pilote Field Theory (+4, +7 ou +10 points). Les sources de points de réinitialisation (jusqu’à 1 105 par réinitialisation, qui repartent à chaque réinitialisation) achètent 44 de ces 100 niveaux (+4,4 points) dès la première réinitialisation, ce qui, avec un ensemble Éternel entièrement forgé, donne environ **100 %**, et environ **110 %** avec Field Theory III. La stat n’est cependant pas plafonnée à 100 % : la *pénétration de bouclier* d’un attaquant en est retranchée, si bien que ce qu’un vaisseau a au-dessus de 100 % est sa marge face à la pénétration. Voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Les cœurs adaptatifs font office de générateurs hybrides, combinant les capac
 
 | Nom | Rareté | Bonus de bouclier (%) | Bonus de vitesse (%) | Emplacements | Effet spécial | Coût |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Médiocre | +4 % | +2,4 % | 1 | — | 100 000 crédits |
-| **Adaptive Core II** | Commun | +6,4 % | +3,2 % | 2 | — | À fabriquer |
-| **Adaptive Core III** | Rare | +8 % | +4 % | 3 | — | À fabriquer |
+| **Adaptive Core I** | Médiocre | +4 % | +1,2 % | 1 | — | 100 000 crédits |
+| **Adaptive Core II** | Commun | +6,4 % | +1,6 % | 2 | — | À fabriquer |
+| **Adaptive Core III** | Rare | +8 % | +2 % | 3 | — | À fabriquer |
 
 L’**Adaptive Core II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Adaptive Core I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Adaptive Core III** s’y fabrique à partir d’un Adaptive Core II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement et les bonus du cœur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le cœur à consommer (et sortez-en les propulseurs et les cellules) : un cœur installé ou qui contient des modules n’est pas consommé.
 

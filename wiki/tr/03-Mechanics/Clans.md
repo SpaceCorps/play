@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d0de4fcf89f7b58e -->
+<!-- wiki-i18n source: 861b3768d176ca3e -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -16,8 +16,8 @@ Bir klan kurmak ya da bir klana katılmak; kaynakları birleştirmene, ortak ban
 - Lider ve Yardımcı liderler puanları, her biri on seviyeli üç [güçlendirmeye](#clan-points-and-boosts) harcar: **Hasar** (en çok +%5), **Thulium** (en çok +%10) ve **Kredi** (en çok +%10).
 - Her hattı bitiren bir klan her seviyeyi **12. günde** satın almış olur. Puanlar, seviyeler ve klanın kendisi sıfırlamada sona erer.
 - Payına düşeni yapmış en az **üç üye** ve Warden savaşı için **büyük bir ekip** gerekir: 0.4.13’ten beri bir Warden, eskisinin beş katı gövde, kalkan ve lazer hasarına sahip; bu yüzden eskiden kazanan ekipler, yaklaşık yedi pilot, artık kaybediyor ([ekip ne kadar büyük olmalı](#how-big-a-crew)). Çok küçük bir ekip savaşı kaybeder: klan dört görevin **70 puanını** yine de tutar, ama hat bitmez ve [sana düşen ödül](#the-reward-for-you) ödenmez.
-- Bir Warden, hasara göre bölüşülen büyük bir havuz öder ve **hasarın %5’ini veya fazlasını veren her pilot**, yalnızca kendisinin görüp alabileceği, ganimetten payını içeren **özel bir kutu** alır ([ödeme ve ganimet](#warden-pay-and-loot)). 0.4.16’dan beri ödeme eskisinin üç katıdır ve bir Warden ayaktayken **haritanın uzaylılarından oluşan bir dalga her dakika gelir** (Wrath Warden III için her 40 saniyede). Warden gövdesinin yarısının altına düşünce her dalgada bir **Crystalys** bulunur ve dalgalar, Warden ile savaşan pilotları hedef alır ([dalgalar](#waves-of-aliens)).
-- Gemin sahip olduğu güçlendirmeleri **Boosterlar penceresinde**, kendi kartında gösterir ([nerede görürsün](#the-three-boosts)).
+- Bir Warden, hasara göre bölüşülen büyük bir havuz öder ve **hasarın %5’ini veya fazlasını veren her pilot**, yalnızca kendisinin görüp alabileceği, ganimetten payını içeren **özel bir kutu** alır ([ödeme ve ganimet](#warden-pay-and-loot)). 0.4.16’dan beri ödeme eskisinin üç katıdır ve bir Warden ayaktayken **Phantasm, Bulwark ve (Warden II’den itibaren) Goombah uzaylılarından oluşan bir dalga her dakika gelir** (Wrath Warden III için her 40 saniyede). Warden gövdesinin yarısının altına düşünce her dalgada bir **Crystalys** bulunur ve dalgalar, Warden ile savaşan pilotları hedef alır ([dalgalar](#waves-of-aliens)).
+- Gemin sahip olduğu güçlendirmeleri **Boosterlar penceresinde**, yükselttikleri kategorilerin satırları olarak gösterir ([nerede görürsün](#the-three-boosts)).
 - Hat ve güçlendirmeler 0.4.10 veya üstü bir oyun sürümü gerektirir; Boosterlar penceresindeki kart 0.4.12 veya üstü; Klan sayfası, gönderiler, Çevrimiçi penceresi, günlük bonus, barış talepleri, filo günlüğü ve dünya başına klanlar 0.4.16 veya üstü.
 
 ![The Boosters window in flight: the Clan boosts card under the timed boosters lists your clan's tag and each boost with its bonus and level](../../img/wiki-img/shots/clan-boosters-window.jpg)
@@ -304,55 +304,56 @@ Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crysta
 
 ### Uzaylı dalgaları {#waves-of-aliens}
 
-0.4.16’dan beri bir Warden yalnız durmaz. **Savaşa hazır** olduğu andan itibaren (90 saniyelik güç toplamada dalga yoktur, böylece ekip toplanabilir), bulunduğu haritanın sıradan uzaylılarından oluşan bir **dalga**, Warden ayakta kaldıkça **her 60 saniyede** gelir. Tablo, dokuz Warden içinden sekizinin dalgalarıdır; [Wrath Warden III dalgaları](#wrath-iii-waves) daha ağırdır. Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crystalys](#crystalys-waves) de bulunur.
+0.4.16’dan beri bir Warden yalnız durmaz. **Savaşa hazır** olduğu andan itibaren (90 saniyelik güç toplamada dalga yoktur, böylece ekip toplanabilir), sıradan uzaylılardan oluşan bir **dalga**, Warden ayakta kaldıkça **her 60 saniyede** gelir. 0.5.0’dan beri bir dalga bir **karışımdır**: yaklaşık yarısı [Phantasm](/wiki/04-Aliens/Phantasm.md), dörtte biri [Bulwark](/wiki/04-Aliens/Bulwark.md), dörtte biri [Goombah](/wiki/04-Aliens/Goombah.md); her haritada böyledir, yalnız Warden I Goombah çağırmaz (aşağıdaki ilk madde); dalga eskiden tek türden uzaylıydı: x-2 ve x-3’te Phantasm, x-4’te Bulwark. Bir dalga eskisi kadar uzaylı içerir. Tablo, Wrath Warden III dışındaki Warden II ve III’ün dalgalarıdır; Wrath Warden III’ün [dalgaları](#wrath-iii-waves) daha ağırdır. Bir Warden gövdesinin yarısının altına düşünce dalgalarında [bir Crystalys](#crystalys-waves) de bulunur.
 
 | Harita | Bir dalga | Aynı anda en çok |
 | :--- | :--- | ---: |
-| x-2 | 5 Phantasm | 15, ve en çok 3 Crystalys |
-| x-3 | 10 Phantasm | 30, ve en çok 3 Crystalys |
-| x-4 | 10 Bulwark | 30, ve en çok 3 Crystalys |
+| x-2 | 3 Phantasm, 1 Bulwark ve 1 Goombah | 15, ve en çok 3 Crystalys |
+| x-3 | 5 Phantasm, 3 Bulwark ve 2 Goombah | 30, ve en çok 3 Crystalys |
+| x-4 | 5 Phantasm, 3 Bulwark ve 2 Goombah | 30, ve en çok 3 Crystalys |
 
+- **Warden I Goombah çağırmaz.** Acemi kademedeki bir klanın (ortalama seviye 4’ten az) Warden’ı yalnızca Phantasm ve Bulwark gönderir, bir Bulwark’a üç Phantasm düşecek şekilde, aynı büyüklükteki dalgalarla: **x-2’de 4 Phantasm ve 1 Bulwark, x-3 ve x-4’te 8 Phantasm ve 2 Bulwark**. Bir dalganın tamamı Alpha’da x-2’de 17.000, x-3 ve x-4’te 34.000 kredi öder; Crystalys’iyle birlikte 92.000 ve 109.000. Aynı anda ayakta en çok kalan sayı tablodakidir.
 - **En çok üç dalga etkindir.** Bir dalga, uzaylılarından biri ayaktayken etkindir. Üç dalga etkinken sırası gelen bir dalga atlanır, sonraya saklanmaz; bir sonrakinin sırası bir dakika sonra gelir.
-- **Haritanın kendi uzaylılarıdır**: pilotlara saldıran türden, harita onları nasıl üretiyorsa öyle üretilmiş uzaylılar; daha güçlü bir dünya onlara daha çok gövde, kalkan ve hasar verir ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Warden çevresine yayılmış hâlde, ondan 500 ile 1.200 birim uzakta gelirler.
-- **Warden ile olan savaşın parçası değildir.** Hiçbir şeyi iyileştirmezler ve onlara ateş etmek Warden hasarındaki payına bir şey eklemez. Haritadaki her pilot onları öldürebilir. Her biri, uzaylı türünün dünyandaki olağan ödemesini öder ve PvE puanı ekler: 5 Phantasm içeren bir dalganın tamamı Alpha’da 15.000 kredi, 10 Bulwark içeren bir dalga 50.000 öder; bu, en zayıf Warden ödemesinin %2’sinden azdır.
-- **Warden ile birlikte sona ererler.** Warden yok edildiğinde ya da çekildiğinde artık yenisi gelmez; zaten çıkmış olanlar kalır ve haritanın sıradan uzaylıları olur. Sunucunun yeniden başlaması onları Warden ile birlikte sona erdirir.
-- **Klana haber verilir.** Her dalga sohbetin Sistem sekmesinde ve Oyun Günlüğü’nde duyurulur: “Brood Warden I, M-3 sektöründe takviye çağırıyor: 10 Phantasm.”
-- **Hedefe yönelik gelirler (0.4.20).** Bir dalganın uzaylıları, Warden ile kimin savaştığını bilerek gelir: göründükleri andan itibaren ona vuran pilotların, ilkinin başta olmak üzere, peşine düşer ve savaş sürdükçe onları takip eder. Kimsenin savaşmadığı bir Warden, eskisi gibi dolaşan ve yaklaşan herkesi çeken uzaylılar gönderir.
+- **Sıradan uzaylılardır**: harita onları nasıl üretiyorsa öyle üretilmiş; daha güçlü bir dünya onlara daha çok gövde, kalkan ve hasar verir ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), Warden’ın kendi gücü ne olursa olsun. Bulwark ve Goombah her haritaya gelir, başka türlü hiçbirinin yaşamadığı bir x-2 sektörüne de. Warden çevresine yayılmış hâlde, ondan 500 ile 1.200 birim uzakta gelirler.
+- **Warden ile olan savaşın parçası değildir.** Hiçbir şeyi iyileştirmezler ve onlara ateş etmek Warden hasarındaki payına bir şey eklemez. Haritadaki her pilot onları öldürebilir. Her biri, uzaylı türünün dünyandaki olağan ödemesini öder ve PvE puanı ekler: tablodaki bir dalganın tamamı Alpha’da x-2’de (5 uzaylı) 29.000, x-3 ve x-4’te (10 uzaylı) 60.000 kredi öder, Warden I dalgası ise 17.000 ve 34.000; bu, kendi Warden’ının ödemesinin %2’sinden azdır.
+- **Warden ile birlikte sona ererler.** Warden yok edildiğinde ya da çekildiğinde artık yenisi gelmez; zaten çıkmış olanlar kalır ve haritanın sıradan uzaylıları olur (sektörün kendiliğinden barındırmadığı bir tür, örneğin x-2 sektöründeki Bulwark ve Goombah’lar, pilotlar hâlâ onlarla savaşmıyorsa Warden’dan beş dakika sonra ayrılır). Sunucunun yeniden başlaması onları Warden ile birlikte sona erdirir.
+- **Klana haber verilir.** Her dalga sohbetin Sistem sekmesinde ve Oyun Günlüğü’nde, içindeki her uzaylı türü için bir satırla duyurulur: “Brood Warden II, M-3 sektöründe takviye çağırıyor: 5 Phantasm.”, “Brood Warden II, M-3 sektöründe takviye çağırıyor: 3 Bulwark.” ve “Brood Warden II, M-3 sektöründe takviye çağırıyor: 2 Goombah.” (Warden I, Goombah çağırmadığı için iki satır bildirir)
+- **Hedefe yönelik gelirler (0.4.20).** Bir dalganın uzaylıları, Warden ile kimin savaştığını bilerek gelir: göründükleri andan itibaren ona vuran pilotların, ilkinin başta olmak üzere, peşine düşer ve savaş sürdükçe onları takip eder. Kimsenin savaşmadığı bir Warden, dolaşan uzaylılar gönderir: Phantasm ve Bulwark eskisi gibi yaklaşan herkesi çeker, hiçbir zaman savaş başlatmayan Goombah ise biri ona ateş edene kadar dolaşır.
 
 #### Her Warden için Crystalys {#crystalys-waves}
 
 0.4.22’den beri **her Warden**, Wrath Warden III 0.4.20’den beri ne yapıyorsa onu yapar: gövdesi yarının altına düşünce (Wrath Warden için öfkelenme eşiği) **gönderdiği her dalgada, dalganın boyuna ek olarak bir Crystalys de bulunur**. Bu, Brood, Siege ve Wrath Warden için, üç güçte de aynıdır. Gövdesi yarının üstündeyken dalga onsuz gelir; gövdesi yeniden yarının üstüne onarılan bir Warden bir sonraki dalgayı yine onsuz gönderir.
 
 - **Crystalys**, oyunun en ağır sıradan uzaylısıdır: 256.000 gövde, 160.000 kalkan, 900 birim mesafeden salvo başına 10.000 hasar, hız 230 (daha güçlü bir dünyada daha çok gövde, kalkan ve hasar). Bir Crystalys ne ödüyorsa onu öder: **Alpha’da 75.000 kredi, 200 Thulium, 12.000 XP ve 52 onur** (Beta’da iki katı, Gamma’da üç katı) ve olağan ganimetini düşürür. Dalgasının bir parçasıdır: bir dalga, içindeki Crystalys ayaktayken etkindir; yani ayakta bırakılan bir Crystalys dalgalardan birini (en çok üç, Wrath Warden III için dört) etkin tutar ve en çok sayıda dalga etkinken sırası gelen dalga atlanır.
-- **Haber iki satır olarak verilir**: “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 15 Phantasm.” ve “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 1 Crystalys.”
-- **Ne öderler.** 10 Bulwark içeren bir dalganın tamamı Alpha’da 50.000 kredi öder, Crystalys ile birlikte 125.000: en zayıf Warden ödemesi olan 2.700.000’in %5’inden azdır.
-- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, dalgalar ve içlerindeki Crystalys hesaba katılınca, x2 cephaneyle, Warden kademesinin kendi donanımıyla, Alpha’da en küçük ekipleri şöyle verir. 3. seviye bir klan 50, 5. seviye bir klan 100 üye alır. Oradaki tablo gibi bunlar da ölçülmemiş, hesaplanmıştır ve en iyi durumdur; dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da daha da büyüktürler.
+- **Haber ayrı bir satır olarak verilir**, karışımın satırlarından sonra: “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 7 Phantasm.”, “…: 4 Bulwark.”, “…: 4 Goombah.” ve “Wrath Warden III, M-3 sektöründe takviye çağırıyor: 1 Crystalys.”
+- **Ne öderler.** 10 uzaylı içeren bir dalganın tamamı Alpha’da Warden I için 34.000, Warden II için 60.000 kredi öder, Crystalys ile birlikte 109.000 ve 135.000: Warden I ödemesi olan 2.700.000’in yaklaşık %4’ü, Warden II ödemesi olan 3.600.000’in %4’ünden azı; Warden III için daha da az.
+- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, dalgalar ve içlerindeki Crystalys hesaba katılınca, x2 cephaneyle, Warden kademesinin kendi donanımıyla, Alpha’da en küçük ekipleri şöyle verir. 3. seviye bir klan 50, 5. seviye bir klan 100 üye alır. 0.5.0’dan beri karışımdaki Bulwark ve Goombah dalgaları daha ağır yapar, ama Warden I Goombah çağırmaz; bu yüzden 3. seviye bir klan her haritada her Warden için yeterince pilot alır. Oradaki tablo gibi bunlar da ölçülmemiş, hesaplanmıştır ve en iyi durumdur; dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da daha da büyüktürler; x-3 ve x-4’te 3. seviye bir klanın bazı Warden’lar için pilotu yetmez.
 
 | Warden | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 43 | 45 | 69 |
-| Siege Warden I | 39 | 40 | 56 |
-| Wrath Warden I | 44 | 46 | 62 |
-| Brood Warden II | 39 | 40 | 48 |
-| Siege Warden II | 27 | 33 | 39 |
-| Wrath Warden II | 36 | 38 | 44 |
-| Brood Warden III | 21 | 21 | 23 |
-| Siege Warden III | 26 | 25 | 28 |
-| Wrath Warden III | 32 | 32 | 39 |
+| Brood Warden I | 44 | 47 | 47 |
+| Siege Warden I | 40 | 43 | 43 |
+| Wrath Warden I | 45 | 48 | 48 |
+| Brood Warden II | 43 | 48 | 48 |
+| Siege Warden II | 35 | 39 | 39 |
+| Wrath Warden II | 40 | 45 | 45 |
+| Brood Warden III | 22 | 23 | 23 |
+| Siege Warden III | 26 | 28 | 28 |
+| Wrath Warden III | 36 | 40 | 40 |
 
 #### Wrath Warden III dalgaları {#wrath-iii-waves}
 
-0.4.20’den beri **Wrath Warden III** daha çok ve daha sık uzaylı getirir: her **40 saniyede** bir dalga, haritanın taşıdığı o uzaylı sayısının dörtte üçü kadar ve en çok **dört dalga** etkin. Her Warden gibi o da gövdesi yarının altına düşünce bir dalgaya [bir Crystalys](#crystalys-waves) ekler.
+0.4.20’den beri **Wrath Warden III** daha çok ve daha sık uzaylı getirir: her **40 saniyede** bir dalga, aynı Phantasm, Bulwark ve Goombah karışımından 8 ile 15 uzaylı ve en çok **dört dalga** etkin. Her Warden gibi o da gövdesi yarının altına düşünce bir dalgaya [bir Crystalys](#crystalys-waves) ekler.
 
 | Harita | Bir dalga | Aynı anda en çok |
 | :--- | :--- | ---: |
-| x-2 | 8 Phantasm | 32, ve en çok 4 Crystalys |
-| x-3 | 15 Phantasm | 60, ve en çok 4 Crystalys |
-| x-4 | 15 Bulwark | 60, ve en çok 4 Crystalys |
+| x-2 | 4 Phantasm, 2 Bulwark ve 2 Goombah | 32, ve en çok 4 Crystalys |
+| x-3 | 7 Phantasm, 4 Bulwark ve 4 Goombah | 60, ve en çok 4 Crystalys |
+| x-4 | 7 Phantasm, 4 Bulwark ve 4 Goombah | 60, ve en çok 4 Crystalys |
 
 - **En çok dört dalga etkindir.** Dört dalga etkinken sırası gelen bir dalga, öteki sekiz Warden için olduğu gibi atlanır.
-- **Ne öderler.** 15 Bulwark içeren bir dalganın tamamı Alpha’da 75.000 kredi öder, Crystalys ile birlikte 150.000: Warden ödemesi olan 7.200.000’in yaklaşık %2’si.
-- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **32, x-3’te 32 ve x-4’te 39 pilot** verir (dalgasız 26); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 39, 41 ve 50. 3. seviye bir klan 50 üye alır, yani Gamma’da x-4 için 50, gönderebileceğinin tamamıdır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
+- **Ne öderler.** 15 uzaylı içeren bir dalganın tamamı Alpha’da 101.000 kredi öder, Crystalys ile birlikte 176.000: Warden ödemesi olan 7.200.000’in yaklaşık %2’si.
+- **Ekipten ne isterler.** [Ekip ne kadar büyük olmalı](#how-big-a-crew) hesabı, bu dalgalar ve içlerindeki Crystalys dahil, x2 cephaneyle x-2’de **36, x-3’te 40 ve x-4’te 40 pilot** verir (dalgasız 26); dalgaların uzaylılarının iki kat güçlü olduğu Gamma’da 46, 52 ve 52. 3. seviye bir klan 50 üye alır, yani Gamma’da x-3 ve x-4 için yeterince gönderemez; 5. seviye bir klan 100 üye alır. Oradaki tablo gibi bu da ölçülmemiş, hesaplanmıştır ve en iyi durumdur.
 
 ### Ekip ne kadar büyük olmalı {#how-big-a-crew}
 
@@ -365,10 +366,10 @@ Tablo en iyi durumdur; oyunda getirebildiğin herkesi getir.
 | :--- | :--- | :--- |
 | 5 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %88 ile %96’sı kalır | kaybeder |
 | 10 pilot | her Warden karşısında kaybeder; Warden gövdesinin ve kalkanının %55 ile %86’sı kalır | kaybeder |
-| 20 pilot | yalnızca Siege Warden I ve II karşısında 7,2 ile 7,3 dakikada 6 gemi kaybederek, Brood Warden III karşısında ise 3,9 dakikada 9 gemi kaybederek kazanır | kaybeder |
-| 30 pilot | her Warden karşısında 2,0 ile 5,2 dakikada, 3 ile 11 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 10,4 ile 10,5 dakikada 9 gemi kaybederek, Brood Warden III karşısında ise 5,2 dakikada 13 gemi kaybederek kazanır |
+| 20 pilot | yalnızca Siege Warden I ve II karşısında 7,2 ile 7,3 dakikada 6 gemi kaybederek, Brood Warden III karşısında ise 3,7 dakikada 8 gemi kaybederek kazanır | kaybeder |
+| 30 pilot | her Warden karşısında 2,0 ile 5,2 dakikada, 3 ile 11 gemi kaybederek kazanır | yalnızca Siege Warden I ve II karşısında 10,4 ile 10,5 dakikada 9 gemi kaybederek, Brood Warden III karşısında ise 5,1 dakikada 11 gemi kaybederek kazanır |
 
-Hesapta x2 cephaneyle kazanan en küçük ekip **17 ile 26 pilottur** (en azı Siege Warden I ve II karşısında) ve bunu yaparken **10 ile 18** gemi kaybeder; x1 cephaneyle **26 ile 39** pilottur ve 12 ile 27 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce (240 ile 645), III. güçte binlerce (9.225 ile 15.450) vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 55 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
+Hesapta x2 cephaneyle kazanan en küçük ekip **17 ile 26 pilottur** (en azı Siege Warden I ve II karşısında) ve bunu yaparken **10 ile 17** gemi kaybeder; x1 cephaneyle **26 ile 39** pilottur ve 12 ile 25 gemi kaybeder. Warden lazerleri I. güçte salvo başına yüzlerce (240 ile 645), III. güçte binlerce (9.225 ile 15.450) vurur ve yardımcıları buna ekler: savaştığı gemi 18 ile 55 saniyede düşer, sonra bir sonrakine döner; bu yüzden kazanan bir ekip bile çok gemi kaybeder.
 
 Tablo, Warden kademesinin kendi donanımındaki bir ekip içindir. Daha zayıf gemiler daha kötü sonuç verir. **Senin** klanının çağırdığı Warden her zaman **senin** kademene uyar; kademeyi klanın en iyi beş pilotu belirler, o yüzden onları getir.
 
@@ -452,7 +453,7 @@ Klan puanları klana aittir. Klanın bitirdiği her adım bakiyesine eklenir. **
 | **Klan Thulium** | 10 | +%1 | +%10 | Öldürmelerden ve görev ödüllerinden gelen Thulium |
 | **Klan kredisi** | 10 | +%1 | +%10 | Öldürmelerden ve görev ödüllerinden gelen kredi |
 
-**Nerede görürsün.** Uçuşta **Boosterlar penceresi**, geminin sahip olduğu güçlendirmeleri süreli boosterların altında, kendi **Klan güçlendirmeleri** kartında listeler: klanının etiketi, sonra her güçlendirme için bonusu ve seviyesiyle bir satır (Sev. 3/10). Sayaçları yoktur, çünkü bir klan güçlendirmesi sen klandayken sürer. Neye etki ettiğini görmek için bir satırın üzerine gel. Henüz hiçbir şey satın almamış bir klan “Klanında henüz güçlendirme yok” gösterir ve klansız bir pilot kart görmez. **Gösterge Paneli**’ndeki Boosterlar kartı ve bir pilotun profili de bunları listeler. Kart, sunucunun oyuna bildirdiği gibi geminin uyguladıklarını gösterir; yetkililerin az önce aldığı bir seviye hemen görünür. 0.4.12’den eski bir oyun güçlendirmeleri uygular ama kart göstermez.
+**Nerede görürsün.** Uçuşta **Boosterlar penceresi**, geminin sahip olduğu güçlendirmeleri boosterlarla birlikte sayar: **Klan hasarı** **Hasar** kategorisinin bir satırıdır, **Klan Thulium** **Thulium** kategorisinin, **Klan kredisi** **Kredi** kategorisinin; her biri kategorinin toplamına girer, yani toplam geminin aldığı değerdir. Satırı görmek için bir kategoriyi aç: bonusu ve, bir boosterın sayacını gösterdiği yerde, seviyesi (Sev. 3/10) görünür; çünkü bir klan güçlendirmesinin sayacı yoktur ve sen klandayken sürer. Neye etki ettiğini görmek için satırın üzerine gel. Henüz hiçbir şey satın almamış bir klan, “Klanında henüz güçlendirme yok” yazan bir **Klan güçlendirmeleri** kartı gösterir ve klansız bir pilot kart görmez. **Gösterge Paneli**’ndeki Boosterlar kartı, çalışan boosterların altında aynı toplamları gösterir ve bir pilotun profili de bunları listeler. Sayılar, sunucunun oyuna bildirdiği gibi geminin uyguladıklarıdır; yetkililerin az önce aldığı bir seviye hemen görünür. 0.4.12’den eski bir oyun güçlendirmeleri uygular ama bunların hiçbirini göstermez; 0.4.27’den önce güçlendirmeler kendi kartındaydı ve toplamlara katılmıyordu.
 
 ### Fiyatlar {#boost-prices}
 

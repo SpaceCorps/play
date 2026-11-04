@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9ee25f58bc1096a1 -->
+<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -7,12 +7,12 @@
 A **különleges tárgyak** hat egyszer használatos tárgy, amelyek időt spórolnak a [Skylabban](/wiki/03-Mechanics/Skylab.md), a [Kutatás](/wiki/03-Mechanics/Research.md) Kutatóközpontjában, a [Kovácsműhelyben](/wiki/06-Items/Forge.md) és a [Gyártás](/wiki/06-Items/Overview.md#the-production-queue) gyártási során. Olyasmin használod őket, ami már megvan, egyszer elvégzik a dolgukat, és elfogynak. Nem tárgyak a megszokott értelemben: a fiókod minden fajtához egy **darabszámot** tart nyilván, így nem viszed magadnál, nem ejtheted el, és a wipe sem törli őket, és egyikükkel sem lehet kereskedni.
 
 > [!NOTE]
-> **Még senki sem oszt belőlük.** Egyelőre minden különleges tárgyat egy admin ad ki. Nem lehet megvenni, eladni, kirakni az [Aukcióra](/wiki/03-Mechanics/Auction.md) vagy másik pilótának odaadni őket, és a Magic Hammer rendkívül ritka.
+> **Még nem lehet őket megszerezni.** Egyelőre csak egy admintól származnak: közvetlenül kapod, vagy egy bónuszkódban, amelyet beváltasz. Nem lehet megvenni, eladni, kirakni az [Aukcióra](/wiki/03-Mechanics/Auction.md) vagy másik pilótának odaadni őket, és a Magic Hammer rendkívül ritka.
 
 ## Egy percben {#in-one-minute}
 
 - **Hat fajta.** A Magic Hammer, a Schematics, a Philosopher's Stone, a Tinkerer's Badge, a Forger's Seal és a Workforce Contract. Mindegyik lejjebb van leírva a számaival.
-- **Hol.** A Hangar **Különleges tárgyak** része mutatja, mid van, és mindegyikhez van egy **Használat** gomb. Az oldal, amelyen a tárgy hat, szintén mutat egy gombot, ha van belőle: a Skylab fejlesztés alatt álló modulját, a futó kutatást, a Kovácsműhely fokozatemelő paneljét és a gyártási sort.
+- **Hol.** A Hangar leltára minden birtokolt fajtához mutat egy csempét a fogyóeszközök között, a darabszámmal. Vidd az egérmutatót egy csempe fölé, hogy elolvasd, mit tesz a tárgy, és kattints rá a használathoz (a Workforce Contract esetében előbb a munkást választod ki). A Magic Hammer és a Tinkerer's Badge olyasmire hat, amit te választasz ki, ezért a kattintás nem csinál semmit, és a csempéjük megmondja, hol használhatod őket: a Skylabban és a Kovácsműhelyben. Az oldal, amelyen a tárgy hat, szintén mutat egy gombot, ha van belőle: a Skylab fejlesztés alatt álló modulját, a futó kutatást, a Kovácsműhely fokozatemelő paneljét és a gyártási sort.
 - **Előbb rákérdez.** Minden használat megnyit egy lapot, amely pontosan megmondja, mi fog történni és mit használ fel. A használat végleges: nem vonható vissza. Ha egy használatot elutasít a rendszer, semmi sem fogy el.
 - **Megmaradnak.** A különleges tárgyaid, és a futó Philosopher's Stone vagy szerződés, a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) után is megmaradnak.
 - **Bárhol.** Repülés közben is használhatod őket: egyikhez sem kell, hogy a hajód leszálljon.
@@ -44,7 +44,7 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 ### Schematics
 
-**Befejezi a most futó kutatást**, ha a technológia kutatása **legfeljebb 24 órát** vesz igénybe. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 151 technológiájából 135 megfelel. A 16, amely 48 vagy 72 órát vesz igénybe, nem: a Wraith, három drónformáció, a Hull Plating III, a Hajtóműmodul és a Védelmi modul 4. és 5. szintje és hét Pilóta-technológia.
+**Befejezi a most futó kutatást**, ha a technológia kutatása **legfeljebb 24 órát** vesz igénybe. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 158 technológiájából 142 megfelel. A 16, amely 48 vagy 72 órát vesz igénybe, nem: a Wraith, három drónformáció, a Hull Plating III, a Hajtóműmodul és a Védelmi modul 4. és 5. szintje és hét Pilóta-technológia.
 
 - **A kutatási idő számít, nem a hátralévő.** Egy 48 órás technológia, amelyből még egy óra van hátra, ugyanúgy elutasítva marad: a Schematics azt nézi, mennyi ideig tart a technológia összesen.
 - **Az ár marad kifizetve.** A Dark Mattert, a krediteket és a Thuliumot a kutatás indításakor levonták, és nem adják vissza. A tudomány, amelyet a kutatás még nem égetett el, a tartályodban marad.
@@ -95,7 +95,7 @@ A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md
 
 ## Szabályok mind a hatra {#rules-for-all-six}
 
-- **Darabszám, nem tárgy.** A Hangar Különleges tárgyak része az egyetlen hely, amely felsorolja őket. Nincs súlyuk, nincs gyorsgomb-helyük, és nincs helyük a rakományban vagy a tranzittárolóban; soha nem esnek el, ha a hajód megsemmisül.
+- **Darabszám, nem tárgy.** A Hangar leltára az egyetlen hely, amely felsorolja őket, csempékként a fogyóeszközök között; ha egy fajtából nincs semmid, nincs hozzá csempe. A csempe nem tárgy, ezért nem húzható, nem jelölhető ki, nem törölhető és nem adható el. Nincs súlyuk, nincs gyorsgomb-helyük, és nincs helyük a rakományban vagy a tranzittárolóban; soha nem esnek el, ha a hajód megsemmisül.
 - **A wipe-on át.** A különleges tárgyaid és egy futó Philosopher's Stone vagy szerződés megmarad, mint a Skylab, a kutatás és a kinézeted.
 - **Soha nem kereskednek velük.** Nem az [Aukción](/wiki/03-Mechanics/Auction.md), nem másik pilótának, nem krediteért.
 - **Csak a Hammer mozdíthatja el a tempódat**, és legfeljebb 60 naponta egyet lehet kapni. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy legfeljebb 24 órás kutatás.

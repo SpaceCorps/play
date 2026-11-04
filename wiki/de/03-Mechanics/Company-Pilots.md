@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d8922d7c6c95d17 -->
+<!-- wiki-i18n source: 2d81c36bc4357d49 -->
 <!-- wiki-i18n title: Konzernpiloten -->
 # Konzernpiloten {#company-pilots}
 
@@ -36,6 +36,16 @@ Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, 
 - **Die Piloten eines anderen Konzerns** zahlen nichts, wenn sie zerstört werden (keine Credits, keine Ehre, keine Rangpunkte) und können während des Friedensprotokolls (den ersten drei Tagen der Saison) nicht angegriffen werden.
 - Der Angriff auf jeden Konzernpiloten folgt den PvP-Regeln deiner [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma): keiner in `x-1` bis `x-3` von Alpha und auch keiner in `x-1` von Beta.
 - **Wracks**: Ein zerstörter Konzernpilot hinterlässt keine [Frachtkiste](/wiki/03-Mechanics/Cargo.md) und keine Teile, egal wer oder was ihn zerstört: Konzernpiloten abzuschießen ist kein Weg, Materialien zu farmen.
+
+## Reparaturschiffe an der Basis {#repair-ships-at-the-base}
+
+Jede Konzernbasis (`M-1`, `T-1` und `G-1`, in jeder Welt) hat **2 Reparaturschiffe** ihres Konzerns, die knapp außerhalb der Schutzzone der Station Wache halten, benannt mit dem Kürzel des Konzerns, z. B. **[M] Mender** und **[M] Salve**.
+
+- **Heilaura**: Jedes Reparaturschiff repariert die Hülle jedes Piloten seines Konzerns im Umkreis von **2.000** um sich um **250 Trefferpunkte pro Sekunde**, auch mitten im Kampf, nie über die maximale Hülle des Schiffs hinaus. Wo beide dich erreichen (rund um die Station selbst), sind es 500 pro Sekunde. Auch die Konzernpiloten deines eigenen Konzerns werden repariert; die eines anderen Konzerns nie.
+- **Du siehst es**: Ein schwacher Ring auf der Karte zeigt, wie weit jedes reicht: grün um die Reparaturschiffe deines eigenen Konzerns, grau um die eines anderen. Das Zielfenster nennt es ein Reparaturschiff.
+- **Sie feuern nie.** Sie halten ihren Posten und reparieren ihre eigene Hülle ab 10 Sekunden nach dem letzten Treffer.
+- **Sie können zerstört werden**: Aggressive Aliens greifen sie an, und Piloten anderer Konzerne können sie abschießen, wo deine [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP an der Basis erlaubt (nur `x-1` von Gamma), nach dem Friedensprotokoll. Jedes hat 200.000 Trefferpunkte und 100.000 Schildpunkte. Ein Reparaturschiff deines eigenen Konzerns zu zerstören kostet **100 Ehre**, wie bei jedem seiner Konzernpiloten, und keines von ihnen zahlt etwas oder hinterlässt eine Kiste.
+- **In 2 Minuten zurück**: Ein zerstörtes Reparaturschiff kehrt 120 Sekunden später unversehrt an seinen Posten zurück.
 
 ## Kampfhinweise {#combat-notes}
 

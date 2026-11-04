@@ -9,7 +9,7 @@ At Core level 15 it grows once more and learns to fly: a **second bridge** joins
 > [!NOTE]
 > **What changed in 0.4.10.** Every Skylab module now has its own table of outputs, prices and times, level by level. You kept your levels: nothing was charged and nothing was refunded for the difference. What your farms and collectors were holding in their hoppers when the update arrived was paid out **once, at the old rate**: Credits and Thulium went to your account, the ore into your Resource Storage, and the hoppers started again from empty.
 >
-> Two rules are new. **Solar makes only 25% of its power while it upgrades**, so for most stations every farm and collector stops until the upgrade is done (see [Solar Module](#solar-module) and [Timing a Solar upgrade](#timing-a-solar-upgrade)). **The Resource Storage has its own cap for each ore**: one day of the collector's output at level 1, four days at level 20.
+> One rule is new. **The Resource Storage has its own cap for each ore**: one day of the collector's output at level 1, four days at level 20.
 
 > [!NOTE]
 > **What changed in 0.4.15.** The Core's step from level 9 to level 10 now costs **2,000 Thulium** more, and when it is done a **bridge** and a second Core, **Core 2**, appear with six new module seats. Solar moves to Core 2. Two new modules plug into it: the **Ammo Printer** and the **Rocket Factory**. Solar also makes more power from level 7, so a full station is still covered. Nothing you built is lost: a Core that is already at level 10 or higher has the bridge at once and pays nothing.
@@ -37,7 +37,7 @@ At Core level 15 it grows once more and learns to fly: a **second bridge** joins
 - The **Core** is the clock: no module goes above it, and its own climb takes about 16 and a half days.
 - At **Core level 10** a **bridge** builds **Core 2**, with six more module seats, and the **Ammo Printer**, the **Rocket Factory** and the **Ore Bay** plug into it. The step into level 10 costs 2,000 Thulium more.
 - At **Core level 15** a second bridge builds **Core 3**, and the **Engine Module**, the **Defense Module**, the **Radar Module** and the **Trophies Bay** take its seats: with them the Skylab flies across the universe map and hunts on its own. The step into level 15 costs 4,000 Thulium more. [See Expeditions](#expeditions).
-- **Solar makes only 25% of its power while it upgrades**, so your farms and collectors stop until it is done. [Plan it](#timing-a-solar-upgrade).
+- **Solar keeps making all of its power while it upgrades**, so your farms and collectors keep running through every Solar upgrade. [Details](#timing-a-solar-upgrade).
 
 ## Overview
 
@@ -126,7 +126,7 @@ Power is the lifeblood of the Skylab. The Solar Module makes the energy that eve
 - **Importance**: if your power use is higher than your power made, your farms and collectors shut down.
 - **Power made**: a Solar module at level N makes enough for **every other module at level N**, and about a tenth more: 255 at level 1, 965 at level 7, 18,575 at level 20. Level 7 Solar powers a whole station at level 7 (see Power Management for every level).
 - **Price**: building Solar costs **500 Credits and 50 Thulium**. Its upgrades cost the same and take as long as the Forgery's: from 8,000 Credits and 25 Thulium for level 2 (5 minutes) to 9,000,000 Credits and 10,000 Thulium for level 20 (24 hours).
-- **Upgrading**: while Solar upgrades it makes only **25%** of the power of its current level, and the new level's power from the moment the upgrade ends. A station that uses more than that stops: every farm and collector stops producing and the Forgery starts no new batch until the upgrade is done. For nearly every station this is the case: it runs through the upgrade only if all the other modules are at least five levels below Solar (six levels from Solar level 10). Plan a Solar upgrade like a blackout of your farms (see Building and Upgrading).
+- **Upgrading**: while Solar upgrades it keeps making **all** the power of its current level, and the new level's power from the moment the upgrade ends. So a Solar upgrade never stops your farms and collectors and never leaves the station in deficit, and the Forgery keeps starting batches, even through the 24 hours of the last level (see Building and Upgrading).
 - **Place**: Solar stands at the far end of the station: on Core 2 from Core level 10 and on Core 3 from level 15 (see [The bridge and Core 2](#the-bridge-and-core-2) and [The second bridge and Core 3](#the-second-bridge-and-core-3)).
 
 ### Credit Farm and Thulium Farm
@@ -197,7 +197,7 @@ The Core's upgrade into **level 10** builds a **bridge** and a second Core. The 
 
 The Ammo Printer prints laser ammo from nothing, one kind at a time: no ore and no Credits, only power. It has levels 1 to 20.
 
-- **Output**: **x2** (Advanced Plasma) **200 an hour at level 1, 4,000 at level 20** (200 more every level); **x3** (Ultra Core) half of that, 100 to 2,000; **x4** (Experimental Fusion Core) a quarter, 50 to 1,000. Twice what it made before 0.4.27.
+- **Output**: **x2** (Advanced Plasma) **200 an hour at level 1, 4,000 at level 20** (200 more every level); **x3** (Ultra Core) half of that, 100 to 2,000; **x4** (Experimental Fusion Core) a quarter, 50 to 1,000. Twice what it made before 0.4.27. Since 0.5.0 the **x3 and x4 modes need the research** of their ammo, **Military Grade Ammo I and II** (the Laser Ammo family of the Research Centre): until you have researched one, its mode shows as locked and cannot be picked, and a Printer that was set to it before makes x2 meanwhile (nothing is lost, and the pick comes back when the research is done). The x2 mode and the Rocket Factory are open to all.
 - **Mode**: you pick x2, x3 or x4 on its card or sheet. A switch keeps the hours already stored and reads them at the new mode's rate from then on.
 - **Store**: one day, 24 hours of production at the level and kind in use (4,800 x2 at level 1, 96,000 at level 20). Offline time counts, and a full store just stops.
 - **Collect**: moves the whole units into your inventory while your **ship is landed**. Ammo has no carry limit, and a part of a unit stays and counts on.
@@ -384,7 +384,7 @@ Every module weighs something, in **mass units (MU)**, and a heavier station fli
 The top level is 20, but for the Research Centre (10), the Engine and Defense Modules (5) and the Radar Module (3). The whole station weighs 2,353 MU at Core level 15 and 2,734 MU at level 20.
 
 - **Thrust** is the engines' own arithmetic of the ships, without a base speed: an engine adds its base speed plus the flat speed of its thrusters, times their multipliers; the engines are ranked best first and the first four count 100% and the fifth 85% (the module holds five at most); and the four best speed bonuses are added on top. A station with no engine has no thrust.
-- **Speed** is 60 times the thrust over the weight of the station, in units a second, and a hop between two neighbouring cells is 15,000 units. Under the power, the Skylab page shows the line "Weight 2,353 MU, speed 7.8 units/s, a hop 32 min".
+- **Speed** is 60 times the thrust over the weight of the station, in units a second, and a hop between two neighbouring cells is 15,000 units. Under the power, the Skylab page shows the line "Weight 2,353 MU, speed 7.5 units/s, a hop 33 min".
 - **Fixed at departure**: a trip's speed is worked out when it leaves, from the weight and thrust of that moment. An upgrade that ends on the way, or an engine you change while the Skylab is stationed, counts for the next trip.
 
 What engines do for a station with every module at level 15 (the Engine Module at the level that holds the engines):
@@ -392,10 +392,10 @@ What engines do for a station with every module at level 15 (the Engine Module a
 | Engines fitted | Weight (MU) | Thrust | Speed (units a second) | One hop | Across the map (14 hops) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Engine Module level 1) | 2,289 | 2.0 | 0.05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, each with 2 Impulse Thruster II (level 3) | 2,321 | 73.6 | 1.90 | 2 h 11 min | 1 d 7 h |
-| 5 Engine III, each with 3 Impulse Thruster IV (level 5) | 2,353 | 305.5 | 7.79 | 32 min | 7 h 29 min |
+| 3 Engine II, each with 2 Impulse Thruster II (level 3) | 2,321 | 71.6 | 1.85 | 2 h 15 min | 1 d 8 h |
+| 5 Engine III, each with 3 Impulse Thruster IV (level 5) | 2,353 | 295.3 | 7.53 | 33 min | 7 h 45 min |
 
-At Core level 20 the station weighs 16% more, and the best engines take 37 minutes a hop and 8 h 42 min across the map.
+At Core level 20 the station weighs 16% more, and the best engines take 39 minutes a hop and 9 h across the map.
 
 ## Expeditions
 
@@ -527,9 +527,10 @@ The pilots of your clan see where each other's Skylabs are: the **Skylab** colum
 - **Time and cost**: upgrades cost Credits and Thulium and take time, and every module has its own price and time for each level (hover **Upgrade** to see the next one; the totals are below). The price is paid when you start the upgrade. The cost does not depend on the time. The Engine, Defense and Radar Modules also take Dark Matter Plates and need the technology of the level (see [The second bridge and Core 3](#the-second-bridge-and-core-3)).
 - **Timers**: an upgrade runs on the server's clock, so it finishes while you are away, days later if it has to. Start it, log off, come back: the module is at its new level when you open the Skylab page.
 - **Rushing an upgrade**: a [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) finishes one running upgrade at once, and a [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) hired as the **Engineer** makes upgrades run at double speed for 1 hour. Neither refunds or charges anything: the price was paid when the upgrade started.
+- **Cancelling an upgrade**: a running upgrade can be cancelled, and you get **everything back**: the Credits, the Thulium and the Dark Matter Plates it took, exactly as you paid them when it started, even if the prices have changed since. Only the time is lost. The module goes back to how it was: the same level, the same switch, and what it had stored is kept (it made nothing while it stood still). An upgrade that has already finished cannot be cancelled, and the game says so without taking anything.
 - **Upgrade times**: the first levels are quick and the last ones take up to 37 hours, the Core's up to 6 days (see the tables below). Every module has its own timer, so you can upgrade several at once.
-- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception: it keeps making a quarter of its power (see below).
-- **Solar makes only 25% of its power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (24 hours for the last level) it makes a quarter of the power of its **current** level; the new level's power takes over the moment the upgrade ends. A full station uses about 90% of what Solar makes at its own level, so a quarter of it carries a station only five to six levels below Solar. Otherwise every farm and collector stops for the whole upgrade, whatever you have stored stays and can be collected, and the Forgery starts no new batch. A module that is upgrading or switched off uses no power, so lifting the farms together with Solar costs nothing extra, and switching modules off makes room for the others; the Thulium Farm uses the most power by far.
+- **Production pause**: while a module is being upgraded it is offline: it makes nothing and uses no power. Solar is the exception: it keeps making all the power of its current level (see below).
+- **Solar keeps all its power while it upgrades**: Solar makes all of the Skylab's power, and while it upgrades (24 hours for the last level) it keeps making all the power of its **current** level; the new level's power takes over the moment the upgrade ends. So the farms and collectors keep producing, the Forgery keeps starting batches and nothing is lost for the whole upgrade. A module that is upgrading or switched off uses no power, so lifting the farms together with Solar costs nothing extra, and switching modules off makes room for the others; the Thulium Farm uses the most power by far.
 
 ### What it costs
 
@@ -636,7 +637,7 @@ Your Skylab has a limited power budget.
 - **Solar keeps pace**: a Solar module at level N makes the power of **all the other modules at level N** (the Core, both farms, the Resource Storage, both collectors and the Forgery, and from level 10 the Research Centre and the Ore Bay) and about a tenth more, so a station whose modules are all at level 7 needs Solar 7, and has it covered. Solar one level lower is not enough for a full station (the last column), so Solar still has to follow the rest up. The Core draws little, so it may run ahead: Solar 5 and up covers a full station at its level with the Core at any level. The table below also counts the Ammo Printer from level 7, the Rocket Factory and the Ore Bay from level 10, and the Engine, Defense and Radar Modules and the Trophies Bay from level 11 (they are built from Core level 15, and count four levels earlier because the Core can run ahead of Solar), each at its own highest level at most.
 - **Active state**: you can switch the farms, the collectors and the Forgery on or off to manage power. The Core, Solar, the Resource Storage and the Research Centre always run. The Ammo Printer, the Rocket Factory and the Ore Bay can be switched on and off too, and so can the four modules of the Expedition (not while a trip is under way).
 - **Blackout**: if power use is higher than power made, all the farms and collectors stop producing until the balance is back. What they already hold stays, and you can still collect it. The Forgery starts no new batch, and the Research Centre starts no new research (a research already running goes on). The Ammo Printer, the Rocket Factory and the Ore Bay stop like the farms and collectors. The Defense Module fights nothing, the Radar's scans stand still and no trip can start (a trip that is under way goes on).
-- **Solar upgrades**: while Solar upgrades it makes only a quarter of its power, so unless your other modules are far below it the station is in deficit and the farms and collectors stop until the upgrade is done (see [Solar Module](#solar-module)).
+- **Solar upgrades**: while Solar upgrades it keeps making all the power of its current level, so an upgrade of Solar never puts the station in deficit (see [Solar Module](#solar-module)).
 
 Solar's power at each level, against what the other modules use at the same level (every module at that level, the Core included, and the Research Centre and the Ore Bay from level 10, and the four modules of the Expedition from level 11):
 
@@ -706,30 +707,29 @@ The Skylab takes weeks to grow, so a little planning pays. The numbers are the t
 
 ### Timing a Solar upgrade
 
-While Solar upgrades it makes a quarter of its power, and a station almost always uses more than that. The farms and collectors then stop for the whole upgrade: what they hold stays, but what they would have made is lost. The table gives, for each Solar step, its time, the biggest station that still runs through it (every module at the same level, the Core and the supply chain included; a smaller station fits a little more) and what a Credit Farm and a Thulium Farm of that level would have made in that time. For example, Solar from level 10 to 11 takes 4 hours, and farms of level 10 would have made 135,000 Credits and 1,440 Thulium in them. The table counts the Ammo Printer from level 7, the Rocket Factory and the Ore Bay from level 10, and the four modules of the Expedition from level 15, too.
+While Solar upgrades it keeps making all the power of its current level, so nothing in your station stops: the farms, the collectors, the Forgery and the rest run through the whole upgrade, whatever is built. You only wait. The table gives, for each Solar step, its time and what a Credit Farm and a Thulium Farm of that level make in that time, which they keep making all the while. For example, Solar from level 10 to 11 takes 4 hours, and farms of level 10 make 135,000 Credits and 1,440 Thulium in them.
 
-| Solar upgrade | Time | Station that keeps running, up to level | Credit Farm makes meanwhile | Thulium Farm makes meanwhile |
-| :--- | ---: | ---: | ---: | ---: |
-| 1 to 2 | 5 min | none | 188 | 3 |
-| 2 to 3 | 15 min | none | 1,125 | 16 |
-| 3 to 4 | 30 min | none | 3,375 | 44 |
-| 4 to 5 | 45 min | none | 6,750 | 84 |
-| 5 to 6 | 1 h | none | 11,250 | 144 |
-| 6 to 7 | 1 h 15 min | none | 19,688 | 230 |
-| 7 to 8 | 1 h 30 min | 1 | 30,375 | 336 |
-| 8 to 9 | 2 h | 2 | 49,500 | 528 |
-| 9 to 10 | 3 h | 3 | 87,750 | 912 |
-| 10 to 11 | 4 h | 5 | 135,000 | 1,440 |
-| 11 to 12 | 5 h | 6 | 202,500 | 2,200 |
-| 12 to 13 | 6 h | 7 | 297,000 | 3,120 |
-| 13 to 14 | 8 h | 7 | 468,000 | 4,800 |
-| 14 to 15 | 10 h | 8 | 675,000 | 6,800 |
-| 15 to 16 | 12 h | 9 | 918,000 | 9,120 |
-| 16 to 17 | 16 h | 10 | 1,440,000 | 14,080 |
-| 17 to 18 | 18 h | 11 | 1,944,000 | 18,000 |
-| 18 to 19 | 20 h | 12 | 2,610,000 | 22,400 |
-| 19 to 20 | 1 d | 13 | 3,780,000 | 28,800 |
+| Solar upgrade | Time | Credit Farm makes meanwhile | Thulium Farm makes meanwhile |
+| :--- | ---: | ---: | ---: |
+| 1 to 2 | 5 min | 188 | 3 |
+| 2 to 3 | 15 min | 1,125 | 16 |
+| 3 to 4 | 30 min | 3,375 | 44 |
+| 4 to 5 | 45 min | 6,750 | 84 |
+| 5 to 6 | 1 h | 11,250 | 144 |
+| 6 to 7 | 1 h 15 min | 19,688 | 230 |
+| 7 to 8 | 1 h 30 min | 30,375 | 336 |
+| 8 to 9 | 2 h | 49,500 | 528 |
+| 9 to 10 | 3 h | 87,750 | 912 |
+| 10 to 11 | 4 h | 135,000 | 1,440 |
+| 11 to 12 | 5 h | 202,500 | 2,200 |
+| 12 to 13 | 6 h | 297,000 | 3,120 |
+| 13 to 14 | 8 h | 468,000 | 4,800 |
+| 14 to 15 | 10 h | 675,000 | 6,800 |
+| 15 to 16 | 12 h | 918,000 | 9,120 |
+| 16 to 17 | 16 h | 1,440,000 | 14,080 |
+| 17 to 18 | 18 h | 1,944,000 | 18,000 |
+| 18 to 19 | 20 h | 2,610,000 | 22,400 |
+| 19 to 20 | 1 d | 3,780,000 | 28,800 |
 
-- **Lift the farms together with Solar.** A module that is upgrading makes nothing and uses no power anyway, so the time a farm spends upgrading during the pause costs nothing extra.
-- **Keep the other modules low if you cannot afford a pause.** A station runs through a Solar upgrade only if all its other modules are at least five levels below Solar (six from Solar level 10), and a full station needs a little more, as the table shows.
+- **Start a Solar upgrade whenever you like.** It costs your station nothing while it runs: no pause, no blackout, no stopped farm. Only the new level's power has to wait for the end of the timer, so keep Solar level with your other modules.
 - **Switch off what you can do without.** A module that is switched off uses no power, so switching off the Thulium Farm, the biggest user (80 at level 1, 30% more with every level), makes room for the others.

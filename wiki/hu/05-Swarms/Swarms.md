@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
-A **raj** idegenek csoportja, amely egy **vezér** alatt járja a galaxis egy részét: a vezér egy boss, sokkal erősebb bármelyik környező idegennél, és **kísérői** őrzik, két rajban pedig gyógyítják is. Három van, mindegyiknek saját cikke:
+A **raj** idegenek csoportja, amely egy **vezér** alatt járja a galaxis egy részét: a vezér egy boss, sokkal erősebb bármelyik környező idegennél, és **kísérői** őrzik, a legtöbb rajban pedig gyógyítják is. Hét van, mindegyiknek saját cikke:
 
 - [Seeker-raj](/wiki/05-Swarms/Seeker-Swarm.md): a Boss Seeker és a Seeker Slave-jei, a legkisebb raj, azokban a szektorokban, ahol az új pilóták repülnek.
 - [Pirate-raj](/wiki/05-Swarms/Pirate-Swarm.md): a Pirate Boss és a Pirate Scoutjai, hosszú harc egy csoportnak.
 - [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md): a Dormant Force és a Dormant Pulse-jai, a legerősebb raj, a leggazdagabb zsákmánnyal.
+- [Phantasm-raj](/wiki/05-Swarms/Phantasm-Swarm.md): a Boss Phantasm és a Phantasm Guardjai, egy hatalmas Phantasm közepes szintű pilóták csoportjának, a vállalatok külső szektoraiban.
+- [Goombah-raj](/wiki/05-Swarms/Goombah-Swarm.md): a Boss Goombah és a Goombah Guardjai, egy hatalmas Goombah a legerősebb pilóták csoportjának, ugyanazokban a szektorokban.
+- [Crystalys-raj](/wiki/05-Swarms/Crystalys-Swarm.md): a Boss Crystalys és a Crystalys Guardjai, a legszívósabb idegen megnagyobbítva, három veszélyes szektorban.
+- [Tesseract-raj](/wiki/05-Swarms/Tesseract-Swarm.md): a Tesseract, egy hatalmas anyahajó, amely Faceteket bocsát ki, amíg találatot kap, egy nagyon nagy csoportnak, a `DS-4` veszélyes szektorban.
 
 A hajóik **saját fajú idegenek**: saját nevük és saját kilövésszámlálójuk van, és egyik sem számít Seekernek, Phantasmnak vagy más idegennek. A rajhajó alakja a hajóé, amelyre épül, saját színezéssel és fölötte a nevével; a Boss Seeker egy sokkal nagyobb Seeker.
 
 A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépéséhez maga idézi meg az őrzőjét, és csak az a klán sebezheti: egyik pilóta sem találkozik olyannal, amely egy szektorban kóborol, és az alábbi táblázatok nem sorolják fel őket. Az őrzőért sebzés szerint fizetnek, mint egy rajvezérért, de a zsákmánya nem egyetlen láda annak, aki a legtöbb sebzést okozta: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](/wiki/03-Mechanics/Cargo.md#private-boxes) kap. Lásd: [Klánok](/wiki/03-Mechanics/Clans.md#clan-wardens).
 
-## A három raj {#the-three-swarms}
+## A rajok {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@ A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépésé
 | [**Pirate-raj**](/wiki/05-Swarms/Pirate-Swarm.md) | Minden vállalat `x-2` és `x-3` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Pirate Boss** | Legfeljebb 5 × Pirate Scout, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 | [**Dormant-raj**](/wiki/05-Swarms/Dormant-Swarm.md) | A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`, `DS-4`; az egyikből a másikba repül | Világonként egy | **Dormant Force** | 2 × Dormant Pulse, a vezérrel együtt repülnek | 1 óra azután, hogy az egész raj megsemmisült, egy véletlenszerű veszélyes szektorban. A szezon 11. napjától: 30 perc, a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál, és minden hajó ×2-szeresét fizeti |
 | [**Seeker-raj**](/wiki/05-Swarms/Seeker-Swarm.md) | Minden vállalat `x-1` és `x-2` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Seeker** | Legfeljebb 4 × Seeker Slave, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
+| [**Phantasm-raj**](/wiki/05-Swarms/Phantasm-Swarm.md) | Minden vállalat `x-3` és `x-4` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Phantasm** | Legfeljebb 4 × Phantasm Guard, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
+| [**Goombah-raj**](/wiki/05-Swarms/Goombah-Swarm.md) | Minden vállalat `x-3` és `x-4` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Goombah** | Legfeljebb 4 × Goombah Guard, mindig 10 mp múlva egy újabb | 5 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
+| [**Crystalys-raj**](/wiki/05-Swarms/Crystalys-Swarm.md) | A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3` | Egy-egy az ilyen szektorokban, világonként 3 | **Boss Crystalys** | Legfeljebb 3 × Crystalys Guard, mindig 10 mp múlva egy újabb | 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
+| [**Tesseract-raj**](/wiki/05-Swarms/Tesseract-Swarm.md) | A veszélyes szektor: `DS-4` | Világonként egy | **Tesseract** | Legfeljebb 50 × Facet, 5 mp múlva 10 újabb, amíg a vezért találatok érik | 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@ A világ úgy skálázza a rajt, ahogy minden idegent ([Világok](/wiki/03-Mecha
 
 ## Mit tudnak meg a pilóták {#what-the-pilots-are-told}
 
-A Seeker- és a Pirate-raj értesíti a saját szektorának pilótáit, amikor egy boss megjelenik, és amikor megsemmisül. A Dormant-raj az egész világát értesíti, és a veszélyes szektorok térképén és a galaxistérképen jelölve van, hogy a pilóták megtalálhassák. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A boss kilövése a kill feedben is kap egy sort, amely megnevezi a pilótát, akinek jóváírják. Az egyes cikkek *Röviden* listája megmondja, kit értesítenek.
+A Seeker-, a Pirate-, a Phantasm-, a Goombah-, a Crystalys- és a Tesseract-raj értesíti a saját szektorának pilótáit, amikor egy boss megjelenik, és amikor megsemmisül. A Dormant-raj az egész világát értesíti, és a veszélyes szektorok térképén és a galaxistérképen jelölve van, hogy a pilóták megtalálhassák. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A boss kilövése a kill feedben is kap egy sort, amely megnevezi a pilótát, akinek jóváírják. Az egyes cikkek *Röviden* listája megmondja, kit értesítenek.
 
 ## Harc egy rajjal {#fighting-a-swarm}
 
-- **A vezérek soha nem kezdenek harcot.** A vezér kóborol, amíg egy pilóta el nem találja, aztán visszavág, és a raj hozzá közeli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta (a távolságot a fenti szabályok adják meg). A Pirate Scoutok kivételek: megtámadnak minden pilótát, aki a közelükbe ér. A vezér a hajótestét soha nem javítja meg magától, így a sebzés, amelyet okoztál, rajta marad, hacsak a kísérői meg nem gyógyítják; a pajzsa úgy töltődik újra, mint bármely idegené.
+- **A vezérek soha nem kezdenek harcot.** A vezér kóborol, amíg egy pilóta el nem találja, aztán visszavág, és a raj hozzá közeli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta (a távolságot a fenti szabályok adják meg). A Pirate Scoutok kivételek: megtámadnak minden pilótát, aki a közelükbe ér. A vezér a hajótestét soha nem javítja meg magától, így a sebzés, amelyet okoztál, rajta marad, hacsak a kísérői meg nem gyógyítják; a pajzsa úgy töltődik újra, mint bármely idegené. Csak a Tesseract más: nincs fegyvere, maga javítja meg a hajótestét és a pajzsát, amint néhány másodpercig senki sem sebezte, és a Facetjei nem az elsőként eltaláló pilótára, hanem a legtöbb sebzést okozóra vadásznak.
 - **A rajhajók csak pilótákkal harcolnak.** Nem lőnek idegenekre, az idegenek sem lőnek rájuk, a [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) pedig figyelmen kívül hagyják őket: nem vadásznak rajhajóra, és nem sietnek a segítségedre ellene.
 - **Rakéták.** A Pirate Boss, valamint a Dormant Force és a Pulse-ok **egyenes** rakétákat, [Rivet-rakétákat](/wiki/06-Items/Rockets.md) lőnek arra a pilótára, aki megtámadta őket. A folyamatosan mozgó hajó kitér előlük, az álló hajót eltalálják.
-- **A harcok mérete.** A Seeker-raj két pilótának való, a Pirate-raj egy kis csoportnak, a Dormant-raj a legerősebb hajók nagy csoportjának; a magasabb világokhoz több pilóta kell, mint minden idegennél.
+- **A harcok mérete.** A Seeker-raj két pilótának való, a Pirate- és a Phantasm-raj egy kis csoportnak, a Goombah-raj a legerősebb hajók csoportjának, a Crystalys- és a Dormant-raj a legerősebb hajók nagy csoportjának, a Tesseract-raj egy nagyon nagynak; a magasabb világokhoz több pilóta kell, mint minden idegennél.
 
 ## Mit vigyél magaddal {#what-to-bring}
 
@@ -80,8 +88,8 @@ A közönséges idegen annak a pilótának fizet, aki először eltalálta ([Har
 
 - **A fizetést a sebzés szerint osztják el.** Minden pilóta, aki legalább a fenti szabályokban megadott részt okozta, fizetést kap, a leadott sebzéssel arányosan: a kilövés kreditjét, Thuliumát, XP-jét és becsületét elosztják köztük. Aki a rész alatt marad, semmit sem kap.
 - **A rakományláda annak a pilótának jár, aki a legtöbb sebzést okozta.** Az övé (és a klánjáé) 30 másodpercig, mint minden idegennél, utána bárki elviheti ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Minden Dormant-hajónak saját sebzésszámlálója és saját ládája van.
-- **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok és a Seeker Slave-ek annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
-- **Egy boss fizetése úgy van megszabva, hogy felülmúlja a körülötte lévő idegeneket.** Egy perc harc egy Pirate Bossszal többet fizet, mint egy perc harc egy Goombah ellen, a Dormant-raj pedig még többet; a Boss Seeker pontosan tíz Seekert fizet.
+- **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok, a Seeker Slave-ek, valamint a Phantasm-, a Goombah- és a Crystalys-raj Guardjai annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
+- **Egy boss fizetése úgy van megszabva, hogy felülmúlja a körülötte lévő idegeneket.** Egy perc harc egy Pirate Bossszal, egy Boss Phantasmmal vagy egy Boss Goombával többet fizet, mint egy perc harc egy Goombah ellen, egy perc harc a Dormant-rajjal vagy egy Boss Crystalysszal pedig többet, mint egy perc harc egy Crystalys ellen; a Boss Seeker pontosan tíz Seekert fizet.
 - **A Dormant Swamp idegenei** (a Slumbering Void, az Inert Mass és az Unwakened) úgy fizetnek, mint egy főellenség, a sebzés szerint, és PvE-pontokat adnak a rangsorodhoz; a számaik itt vannak: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
 Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztikádban, és PvE-pontokat ad a rangsorodhoz:
@@ -97,6 +105,14 @@ Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztiká
 | **Dormant Pulse** | Dormant-raj | 11 |
 | **Boss Seeker** | Seeker-raj | 5 |
 | **Seeker Slave** | Seeker-raj | 1 |
+| **Boss Phantasm** | Phantasm-raj | 8 |
+| **Phantasm Guard** | Phantasm-raj | 1 |
+| **Boss Goombah** | Goombah-raj | 14 |
+| **Goombah Guard** | Goombah-raj | 3 |
+| **Boss Crystalys** | Crystalys-raj | 21 |
+| **Crystalys Guard** | Crystalys-raj | 6 |
+| **Tesseract** | Tesseract-raj | 42 |
+| **Facet** | Tesseract-raj | 0 |
 
 <!-- swarms-points:end -->
 

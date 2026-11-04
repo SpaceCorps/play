@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Succès -->
 # Succès {#achievements}
 
@@ -69,7 +69,7 @@ Les 37 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Bâtisseur de station | Construisez 5 modules différents du Skylab. | Commun |
 | Pleinement équipé | Construisez les 16 modules du Skylab. | Épique |
 | Érudit | Recherchez 50 technologies. | Peu commun |
-| Archiviste | Recherchez les 151 technologies. | Légendaire |
+| Archiviste | Recherchez les 158 technologies. | Légendaire |
 
 ### Flotte {#group-fleet}
 
@@ -118,7 +118,7 @@ Un succès caché encore verrouillé est une carte fermée, sans objectif et san
 Un **titre** est une courte ligne de texte à côté du nom d’un pilote. 32 des 40 succès en donnent un, à vous pour toujours dès que vous débloquez le succès. Des titres viennent aussi de la fin d’une saison (votre grade, le meilleur pilote de chaque corporation et le pilote qui a le plus de points PvE) et de l’équipe du jeu, comme le titre **Pioneer** pour chaque compte qui existait le jour du lancement du jeu sur Steam.
 
 - Vous possédez de nombreux titres et vous en **portez un** à la fois. Vous le choisissez sur votre **profil de pilote** et vous pouvez l’enlever.
-- Votre titre s’affiche sur votre **profil**, dans les **Classements**, dans la fenêtre du **Groupe** et quand vous pointez votre nom dans le **chat**. Il ne s’affiche pas au-dessus de votre vaisseau sur la carte.
+- Votre titre s’affiche sur votre **profil**, dans les **Classements**, dans la fenêtre du **Groupe** et quand vous pointez votre nom dans le **chat**. Depuis la 0.4.27, il s’affiche aussi sur la carte : une petite ligne discrète, dans la couleur de rareté du titre, **au-dessus du nom du vaisseau de chaque pilote**, le vôtre compris. Un titre trop long est coupé par des points de suspension. Dans la foule (plus de huit pilotes à l’écran), seuls vos amis, votre cible et le vaisseau que vous avez sélectionné gardent le leur, pour que l’écran reste lisible. Il ne s’affiche ni dans la fenêtre Cible ni sur la mini-carte.
 - Les titres survivent à la réinitialisation.
 
 ## Steam

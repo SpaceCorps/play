@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Temporadas e recompensas -->
 # Temporadas e recompensas {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Cada reset encerra a sua temporada. O servidor registra a patente que você alca
 
 A patente que você tem no instante do reset paga:
 
-* **Pontos de reset**: de 5 a 400, conforme a patente, além do que as fontes de pontos de reset pagam (até 1.090 pontos de reset por reset: [Como ganhar pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Pontos de reset**: de 5 a 400, conforme a patente, além do que as fontes de pontos de reset pagam (até 1.105 pontos de reset por reset: [Como ganhar pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Dias de Premium**: de 1 a 7, de Capitão júnior para cima. Eles se somam a um Premium que você já tenha.
 * **Créditos e Thulium**: uma verba para recomeçar que cresce com a patente, de 105.000 créditos e 225 Thulium para um Piloto a 6.300.000 créditos e 13.500 Thulium para um Almirante sênior. É pequena perto dos [tetos](#the-caps-and-your-rewards): uma forma de começar bem a nova temporada, não uma vantagem.
 

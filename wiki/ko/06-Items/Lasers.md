@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Helios Beam과 티어 IV 증폭기 3개는 마지막 티어 부품 4개로, Dark
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | 일반 | 1.0x | – | 5 크레딧 |
 | **Advanced Plasma** | 희귀 | 2.0x | – | 0.5 Thulium |
-| **Ultra Core** | 희귀 | 3.0x | 5% | 1.0 Thulium |
-| **Experimental Fusion Core** | 영웅 | 4.0x | 10% | 2.2 Thulium |
-| **Siphon Battery** | 희귀 | 1.0x, 실드에만 | – | 0.25 Thulium |
+| **Ultra Core** | 희귀 | 3.0x | 5% | 1.0 Thulium 또는 제작 |
+| **Experimental Fusion Core** | 영웅 | 4.0x | 10% | 제작 전용(더 이상 판매하지 않음) |
+| **Siphon Battery** | 희귀 | 1.0x, 실드만 | – | 50 크레딧 |
+| **Siphon Battery II** | 희귀 | 0.5x, 실드만, 2배를 빼앗음 | – | 제작 전용 |
+| **Antimatter Battery I** | 희귀 | 2.0x | 20% | 제작 전용 |
+| **Antimatter Battery II** | 영웅 | 3.0x | 20% | 제작 전용 |
+| **Dark Matter Ammo I** | 희귀 | 1.5x~5x, 일제 사격마다 새로 뽑음(평균 3.25x) | – | 제작 전용 |
+| **Dark Matter Ammo II** | 영웅 | 6.0x, 1.5초에 1번 일제 사격, 대상의 실드를 흡수 | – | 제작 전용 |
 
-**실드 관통**은 일제 사격의 매 공격마다 대상의 흡수율에서 차감됩니다. 즉 실드는 대상의 흡수율에서 관통을 뺀 몫을 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration) 참고). Penetration Amp와 드론 편대는 탄약의 관통에 더해지며, 그 합계 전체는 [이 페이지 아래](#shield-penetration-of-a-laser-hit)에 있습니다. 80%(가장 좋은 실드에 가장 좋은 셀)인 함선을 상대로 x4 탄약의 10%는 실드가 공격의 70%를, 선체가 30%를 받게 합니다. 실드에 비해 선체가 작은 함선에 가장 큰 의미가 있으며, 80%인 아주 큰 함선은 어느 쪽이든 똑같이 버팁니다. 외계인에게는 이렇다 할 흡수율 능력치가 없으며(외계인의 실드는 공격의 80%를 받습니다), 관통은 거기서도 차감됩니다.
+**새 탄약은 어디서 오나요.** 0.5.0부터 Experimental Fusion Core는 더 이상 판매하지 않습니다. Skylab 연구 센터에서 **Military Grade Ammo II**를 연구한 뒤 [어셈블리](/wiki/06-Items/Overview.md#the-production-queue)에서 1,000개씩 직접 제작합니다. Ultra Core는 지금도 구매할 수 있고 제작도 할 수 있습니다(**Military Grade Ammo I**, 연구 30분). 새 탄약 5종은 제작 전용이며, 각각 **Laser Ammo** 계열의 기술 뒤에 있고 바로 아래 단계의 탄약으로 만듭니다. **Siphon Battery II**(Siphon Battery로), **Antimatter Battery I**(Siphon Battery II로)과 **II**(Antimatter Battery I과 약간의 [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)로), **Dark Matter Ammo I**(원자재와 Dark Matter 1개로)과 **II**(Dark Matter Ammo I과 Dark Matter로)입니다. 한 번 제작하면 1,000개이며 5~15분이 걸리고, 1개당 비용은 대략 그 가치만큼입니다. [탄약 프린터](/wiki/03-Mechanics/Skylab.md)도 연구를 마치면 Ultra Core와 Experimental Fusion Core를 만듭니다.
+
+**실드 관통**은 일제 사격의 매 공격마다 대상의 흡수율에서 차감됩니다. 즉 실드는 대상의 흡수율에서 관통을 뺀 몫을 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration) 참고). Penetration Amp와 드론 편대는 탄약의 관통에 더해지며, 그 합계 전체는 [이 페이지 아래](#shield-penetration-of-a-laser-hit)에 있습니다. 85%(가장 좋은 실드에 가장 좋은 셀)인 함선을 상대로 x4 탄약의 10%는 실드가 공격의 75%를, 선체가 25%를 받게 합니다. Antimatter 탄약의 20%라면 실드가 65%, 선체가 35%를 받습니다. 실드에 비해 선체가 작은 함선에 가장 큰 의미가 있으며, 85%인 아주 큰 함선은 어느 쪽이든 똑같이 버팁니다. 외계인에게는 이렇다 할 흡수율 능력치가 없으며(외계인의 실드는 공격의 80%를 받습니다), 관통은 거기서도 차감됩니다.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 - **치명타**도 적용됩니다. 치명타 일제 사격은 1.5배를 빼앗으며 숫자도 치명타로 표시됩니다. 입자는 더 크고 밝으며, 대상의 실드는 더 강하게 번쩍입니다.
 - [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 기본 x1 탄약을 사용합니다.
 
+**Siphon Battery II**는 숫자를 뒤집었을 뿐 똑같이 작동합니다. 대상의 실드에서 Siphon Battery(x0.5)의 **절반**만 빼내고, 빼낸 양의 **2배**를 내게 줍니다(탈취량 2.0). 그래서 내 실드는 Siphon Battery 한 번의 일제 사격과 정확히 같은 양을 얻고, 대상은 그 절반만 잃습니다. 제작으로 만들며(연구 **Siphon Battery II**, Siphon Battery 1,000개로), 첫 번째와 마찬가지로 선체는 절대 건드리지 않습니다.
+
+---
+
+## Antimatter와 Dark Matter 탄약 {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I과 II**는 실드를 관통합니다. 각각 **20%**의 관통이 증폭기와 편대의 관통 위에 더해지며, 피해는 x2와 x3입니다. 선체에 비해 실드가 큰 함선을 상대로는 Experimental Fusion Core보다 먼저 선체를 열어 줍니다. 그 밖의 상대에게는 여전히 x4가 더 센 한 방입니다. 한 단계 위가 아니라 하나의 선택입니다.
+
+**Dark Matter Ammo I**은 배율을 **일제 사격마다** 새로 뽑으며, **x1.5에서 x5** 사이 어딘가가 나옵니다(평균 x3.25). 함선 전체가 레이저 수와 관계없이 한 번의 추첨을 공유하므로, 한 번의 일제 사격은 모든 레이저에게 동시에 운이 좋거나 나쁜 사격이 됩니다. 다른 탄약처럼 1초마다 발사됩니다.
+
+**Dark Matter Ammo II**는 **x6**으로 명중하지만 **1.5초에 한 번**만 일제 사격을 하며(초당 피해는 x4와 같음), **실드를 흡수합니다**. 대상의 실드가 실제로 받은 피해의 25%를 내 최대치까지 얻습니다. 명중은 다른 탄약과 똑같이 처리되고(실드가 자기 몫을 받고 선체가 나머지를 받습니다), 실드가 남지 않은 대상에게서는 아무것도 얻지 못합니다. 실드를 얻는 것은 피해를 입은 것이 아니므로 내 실드의 재생을 늦추지 않습니다.
+
 ---
 
 ## 레이저 공격의 실드 관통 {#shield-penetration-of-a-laser-hit}
 
-레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +15%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +15%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 36%, 레이저 12개 중 하나에 Penetration Amp IV 하나면 1%입니다. Wraith는 레이저가 12개, 증폭기 슬롯이 36개이며, 36%를 내려면 36개를 모두 채워야 합니다.
 - **격납고에 표시됩니다.** 격납고의 전투 능력치에는 모든 기체에 표시 중인 구성의 증폭기 수치를 보여 주는 **관통** 타일이 있습니다(Penetration Amp가 없으면 0.0%). 탄약과 편대는 그 수치에 들어 있지 않습니다. 비행 중 **함선** 창에는 아래 줄 끝에 **관통** 칩이 있습니다(자리를 만들기 위해 구성과 속도 칩은 아이콘과 숫자만 보여 줍니다). 레이저 명중의 합계, 곧 증폭기, 착용한 편대, 쏘고 있는 탄약을 바꿀 때마다 더한 값을 보여 주며, 툴팁에 세 가지 내역이 나열됩니다.
-- **최강의 레이저는 61%가 됩니다.** Experimental Fusion Core(10%), Gemini(15%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 61%입니다.
+- **최강의 레이저는 x4로 61%, Antimatter로 71%가 됩니다.** Experimental Fusion Core(10%), Gemini(15%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 61%입니다. 그 자리에 Antimatter Battery(20%)를 쓰면 71%이며, 피해는 x4 대신 x3입니다.
 - **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 12이 아니라 13.1~13.8포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 66.4%가 되며, 그 모든 포인트가 계산에 들어갑니다.
 
 | 레이저 일제 사격 | 탄약 | 증폭기(슬롯 3개) | 편대 | 합계 |
@@ -189,19 +215,19 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 | 방어 측(흡수율) | 증폭기 없음 | Fusion Core 단독(10%) | Fusion Core + Gemini(25%) | Fusion Core + 3 Penetration Amp IV(46%) | 최강의 레이저(61%) |
 |---|---|---|---|---|---|
 | Light Shield Core, 셀 없음(45%) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, 셀 없음(50%) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, 셀 없음(55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV(55%) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + Capacity Shield Cell IV 3개(65%) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| 기본으로 가장 좋은 실드(80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 44레벨(96.4%) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(102%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + Capacity Shield Cell IV 3개(70%) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| 기본으로 가장 좋은 실드(85%) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 44레벨(102.2%) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| 가장 좋은 실드, 영원한 등급 대장간(최고 롤)과 시즌 상점 최대치(107.8%) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | 모든 외계인(80%) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 4%를 지키고, 가장 좋은 실드는 19%를 지킵니다(버프가 있으면 35%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(70%) 비울 수 있습니다.
+최강의 레이저는 셀이 없는 실드 코어와, 가장 좋은 셀을 넣은 Light Shield Core를 비웁니다(선체가 공격 전체를 받습니다). Capacity 셀 3개를 넣은 Heavy Shield Core는 공격의 9%를 지키고, 가장 좋은 실드는 24%를 지킵니다(버프가 있으면 41%). 로켓 단독으로는 실드를 비우지 못하지만(최대 35%), Lancet III나 Rivet III에 Stiletto를 더하면(70%) 비울 수 있습니다.
 
 ### Penetration Amp는 언제 슬롯을 쓸 만한가? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp는 흡수율에 맞서며, 흡수율이 높을수록 더 효과적입니다. 선체가 작은 함선을 상대로 약 95%(시즌 상점, 대장간, Rampart 구성)에서는 Penetration 구성이 가장 좋은 일반 구성보다 약 1.8배 빨리 처치하고, 기본으로 가장 좋은 실드(80%)를 상대로는 Penetration Amp 3개가 같은 티어의 Crit Amp 3개보다 약 11% 적은 시간이 듭니다. 외계인을 상대로는 거의 얻는 것이 없습니다.**
+**Penetration Amp는 흡수율에 맞서며, 흡수율이 높을수록 더 효과적입니다. 선체가 작은 함선을 상대로 약 101%(시즌 상점, 대장간, Rampart 구성)에서는 Penetration 구성이 가장 좋은 일반 구성보다 약 2.6배 빨리 처치하고, 기본으로 가장 좋은 실드(85%)를 상대로는 Penetration Amp 3개가 같은 티어의 Crit Amp 3개보다 약 19% 적은 시간이 듭니다. 외계인을 상대로는 거의 얻는 것이 없습니다.**
 
 - **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 187(탄약 x1, 무작위와 치명타의 평균)을 내고, Damage Amp IV 3개는 356, Crit Amp IV 3개는 369로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성도 거의 비슷하게 빠릅니다(레이저 하나의 Penetration Amp 1개로 얻는 것은 최대 5%).
 - **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받으므로 외계인에게도 통하지만, 같은 티어의 Damage Amp나 Crit Amp도 같거나 더 빨리 처치합니다. 편대를 쓰고 싸우는 Phantasm이나 Goombah는 예외로, 레이저 하나의 Penetration Amp 1개가 최대 5%를 얻습니다.

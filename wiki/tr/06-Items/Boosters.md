@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Boosterlar -->
 # Boosterlar {#boosters}
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Boosterlar toplamsal bir ölçekleme sistemi kullanır:
 1. **Bonus yüzdeleri toplanır**: İkisi de %10 lazer hasarı veren iki farklı booster satın alırsan toplam bonusun **%20 lazer hasarı** olur.
 2. **Süreler çarpımsal olarak birikir**: _Aynı_ booster birden çok kez satın alınırsa etkin süresi uzar. _Farklı_ boosterların sayaçları yan yana işler.
-3. **Sayaç görünümü**: Aktif boosterlar HUD’daki Boosterlar penceresinde görünür; gruplanmış toplam aktif bonusları ve bir sonraki bitiş anını gösterir.
+3. **Sayaç görünümü**: Aktif boosterlar HUD’daki Boosterlar penceresinde görünür; gruplanmış toplam aktif bonusları ve bir sonraki bitiş anını gösterir. Bir kategorinin toplamı onu yükselten her şeyi sayar: boosterlar, Sezon Mağazası güçlendirmelerin, klanının güçlendirmeleri ve yanaştırılmış [P.E.T. birimlerin](/wiki/03-Mechanics/Pets.md) kategoride birer satıra sahiptir; böylece toplam, geminin gerçekte aldığı değerdir. **Gösterge Paneli**’ndeki Boosterlar kartı aynı toplamları gösterir.
 4. **Gösterilen değerler bunları içerir**: hangardaki hasar, kalkan, kalkan dolumu, soğurma, hız ve gövde değerleri ile Pilot penceren; çalışan boosterlarını, Sezon Mağazası güçlendirmelerini, klanının güçlendirmelerini ve yanaştırılmış [P.E.T. birimlerini](/wiki/03-Mechanics/Pets.md) hesaba katar; Savaş özellikleri kartındaki küçük bir *boosterlarla* etiketi bunu belirtir. Kalkan delme, kritik şansı ve menzil boosterlardan etkilenmez.
 
 ---

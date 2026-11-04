@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b5ea1a2768714e5b -->
+<!-- wiki-i18n source: ba91236fc8dde42a -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkan mekaniği {#shield-mechanics}
 
@@ -28,10 +28,10 @@ Motorlara benzer şekilde, takılı kalkanlar (ve hibrit jeneratörler) en iyide
 ### 2. Kalkan soğurması (hasar paylaşımı) {#2-shield-absorbance-damage-split-}
 
 Soğurma, kalkanlarının her vuruştan aldığı paydır; geri kalanı doğrudan gövde puanına (HP) gider.
-- **Kalkan başına**: bir kalkanın soğurması artı ona takılı Kalkan Hücrelerinin soğurması. Tek başına bir kalkanın soğurması **%45 ila %50** olur (Light %45, Basic %48, Heavy %50); hücreler her biri 2 ila 10 puan ekler (Capacity Shield Cell I ila IV +%2, +%3, +%4, +%5; Absorption Shield Cell I ila IV +%4, +%6, +%8, +%10).
+- **Kalkan başına**: bir kalkanın soğurması artı ona takılı Kalkan Hücrelerinin soğurması. Tek başına bir kalkanın soğurması **%45 ila %55** olur (Light %45, Basic %50, Heavy %55); hücreler her biri 2 ila 10 puan ekler (Capacity Shield Cell I ila IV +%2, +%3, +%4, +%5; Absorption Shield Cell I ila IV +%4, +%6, +%8, +%10).
 - **Ortalama soğurma**: geminin soğurması, çekirdek, destek ve yardımcı yuvalardaki ve dronlarındaki kalkanların basit ortalamasıdır. Uyarlanabilir Çekirdeklerin kendi soğurması yoktur ve ortalamaya girmez (bir Uyarlanabilir Çekirdekteki hücreler yalnızca kapasite ve dolum ekler). Takılı kalkan yokken soğurman %0’dır: gövde her vuruşu alır ve bir Uyarlanabilir Çekirdekteki hücrelerin kalkan puanları kullanılmaz, bu yüzden yanına bir kalkan tak.
-- **Bonussuz en fazla %80’dir**: en iyi kalkan en iyi hücrelerle, yani her yuvada üç Absorption Shield Cell IV bulunan bir Heavy Shield Core. Daha zayıf kalkanları karıştırmak ortalamayı düşürür. Hiçbir Sezon Mağazası güçlendirmesi ve hiçbir Demirhane bonusu bu sayının parçası değildir.
-- **Örnek**: iki Absorption Shield Cell I takılı bir Basic Shield Core (%48) %56’dır; bir Light Shield Core (%45) ekle, ortalama %50,5 olur.
+- **Bonussuz en fazla %85’tir**: en iyi kalkan en iyi hücrelerle, yani her yuvada üç Absorption Shield Cell IV bulunan bir Heavy Shield Core. Daha zayıf kalkanları karıştırmak ortalamayı düşürür. Hiçbir Sezon Mağazası güçlendirmesi ve hiçbir Demirhane bonusu bu sayının parçası değildir.
+- **Örnek**: iki Absorption Shield Cell I takılı bir Basic Shield Core (%50) %58’dir; bir Light Shield Core (%45) ekle, ortalama %51,5 olur.
 - **Bu özellik %100 ile sınırlı değildir.** Saldıranın *kalkan delmesi* düşülmeden önce, kalkanlarının bir vuruştan alacağı paydır; bu yüzden bir gemi bir vuruşun tamamından fazlasını taşıyabilir: %112, %12’ye kadar delmesi olan bir saldıranın vuruşunun tamamını yine alır.
 
 #### Kalkan delme {#shield-penetration}
@@ -42,28 +42,28 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 
 - Kalkanlar vuruşun en fazla `round(damage x share)` kadarını alır; gövde geri kalanını alır. Payına göre çok düşük bir kalkan farkı gövde puanına geçirir ve kalkanlar 0’daysa tüm hasar doğrudan gövde puanına gider.
 - **Delme nereden gelir**: doğrudan bir roketin *kalkan delmesi* (Lancet I %10, Lancet II %25, Lancet III %35, Rivet I %5, Rivet II %25, Rivet III %35, N.I.K.E. %35; alan patlamalarında yoktur, bkz. [Roketler](/wiki/06-Items/Rockets.md)) ve lazer cephanesinin (Ultra Core %5, Experimental Fusion Core %10; bkz. [Lazerler ve Cephane](/wiki/06-Items/Lasers.md)). Uzaylıların yoktur, x1 ve x2 cephanenin de yoktur. Bir lazer vuruşu ayrıca atıcının lazerlerindeki Penetration Amp bonusunu (yuva başına +%3 ila +%12, lazerleri üzerinden ortalama) ve bir dron formasyonunun delmesini (Gemini +%15; Stiletto yalnızca doğrudan bir roketin delmesine +%35 ekler) alır; doğrudan bir roket formasyonunkini kendisininkine ekler. **Toplamı hiçbir şey sınırlamaz**: kalkanlar, soğurmadan bunların hepsi düşülmüş hâlini alır; vuruşun hiçbirini almayacak noktaya kadar da düşebilir ([bir lazer vuruşunun nasıl toplandığı](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Örnekler**: %80 soğurma, bir Lancet III roketine (%35) karşı: kalkanlar vuruşun %45’ini, gövde %55’ini alır. %100 soğurma ona karşı: %65 ve %35. %112 soğurma, %12 delmeye karşı: vuruşun tamamı. %45 (tek başına bir Light Shield Core), %35’e karşı: kalkanda %10, geri kalanı gövdede. Bir roket tek başına hiçbir çekirdeği tamamen delmez, ama Stiletto formasyonlu bir Lancet III (%35 + %35 = %70), tek başına bir Light Shield Core (%45) için vuruştan kalkana hiç pay bırakmaz; en iyi lazer (%61) de öyle: o lazere karşı en iyi kalkan (%80) vuruşun %19’unu, gövde %81’ini alır.
+- **Örnekler**: %85 soğurma, bir Lancet III roketine (%35) karşı: kalkanlar vuruşun %50’sini, gövde %50’sini alır. %100 soğurma ona karşı: %65 ve %35. %112 soğurma, %12 delmeye karşı: vuruşun tamamı. %45 (tek başına bir Light Shield Core), %35’e karşı: kalkanda %10, geri kalanı gövdede. Bir roket tek başına hiçbir çekirdeği tamamen delmez, ama Stiletto formasyonlu bir Lancet III (%35 + %35 = %70), tek başına bir Light Shield Core (%45) için vuruştan kalkana hiç pay bırakmaz; en iyi lazer (%61) de öyle: o lazere karşı en iyi kalkan (%85) vuruşun %24’ünü, gövde %76’sını alır.
 - Uzaylıların soğurma özelliği yoktur: her vuruş, vuruşun delmesi düşüldükten sonra %80 kalkana / %20 gövdeye bölünür.
 - Siphon Battery cephanesinin hasarı yalnızca kalkandan düşer: soğurma ve delme buna karışmaz.
 
-**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%61) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %70) tek bir vuruşundan ne aldığını gösterir:
+**Kalkanların hiçbir şey almadığı yerler.** Soğurmaya eşit ya da ondan yüksek bir delme, kalkanlara vuruştan hiçbir pay bırakmaz: gövde hepsini alır. Tablo, kalkanların en iyi lazerin (%61; Experimental Fusion Core yerine bir Antimatter Battery kullanırsan x3 hasarla %71) ve en iyi doğrudan roketin (Stiletto formasyonlu bir Lancet III ya da Rivet III, %70) tek bir vuruşundan ne aldığını gösterir:
 
 | Kalkan | Soğurma | Kalkanların aldığı, en iyi lazer (%61) | Kalkanların aldığı, en iyi doğrudan roket (%70) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | %45 | %0 | %0 |
-| Basic Shield Core | %48 | %0 | %0 |
-| Heavy Shield Core | %50 | %0 | %0 |
-| Bonussuz en iyi kalkan | %80 | %19 | %10 |
+| Basic Shield Core | %50 | %0 | %0 |
+| Heavy Shield Core | %55 | %0 | %0 |
+| Bonussuz en iyi kalkan | %85 | %24 | %15 |
 | %100’lük bir kalkan | %100 | %39 | %30 |
 | %120’lik bir kalkan | %120 | %59 | %50 |
 
 #### %100’e ulaşmak ve aşmak {#reaching-and-passing-100-}
 
-- **Bonussuz**: en fazla %80 (yukarıda).
-- **Shield Absorbance Boost**: sıfırlama puanıyla satın alınan kalıcı bir Sezon Mağazası güçlendirmesi, **seviye başına +0,1 puan, en fazla +10 puan** (100 seviye, her biri 25 WP). Geminin soğurmasına sabit puan ekler, kalkanı olan her gemide aynıdır: %80, 4 seviyeyle (100 WP) %80,4 olur; Light Shield Core için %45 olan soğurma 12 seviyeyle (300 WP) %46,2 olur. Kalkan takılı olmayan bir gemi %0’da kalır. 100 seviye 2.500 WP tutar, birkaç sıfırlamalık bir hedeftir: sıfırlama puanı kaynakları (öldürme kilometre taşları, görevler ve beş Dormant Knowledge araştırması) bir sıfırlamada en fazla 1.090 WP öder ve her sıfırlamada yeniden başlar, rütben sıfırlamada 5 ile 400 arası ekler ve 1.090 WP 43 seviye, +4,3 puan alır. Bkz. [Sezon ve sıfırlama puanları](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
-- **Demirhane**: kalkanlar ve kalkan hücreleri, özelliği çarpan bir **Soğurma** bonusu alabilir: %50’lik bir kalkanda +%5, +2,5 puandır. Tam dövülmüş Ebedi bir en iyi set (bir çekirdek ve üç hücre, her bonus en üst değerde, +%15) 12 puana kadar ekler, ortalama yaklaşık 10 (bkz. [Demirhane](/wiki/06-Items/Forge.md)).
-- **Field Theory**: Pilot araştırması Field Theory I, II ve III ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) bütün gemilerinin soğurmasına, her seviye bir öncekinin üstüne eklenmeden, toplamda **+2, +3 ve +5 puan** ekler; bedeli kredi, Thulium ve Dark Matter’dır. Sezon Mağazası güçlendirmesi gibi kalkanı olan her gemide sabit puandır ve sıfırlamadan sonra da kalır.
-- **Birlikte**: bonussuz %80, +4,3 puan güçlendirme (bir sıfırlamanın 1.090 sıfırlama puanı), en fazla +12 puan Demirhane bonusu ve Field Theory III’ten +5 puan bir sıfırlamadan sonra en fazla **%101,3** eder; güçlendirmenin 100 seviyesinin hepsiyle (+10 puan, 2.500 WP) %107 olurdu. Ne güçlendirme, ne Demirhane, ne de Field Theory tek başına %100’e ulaşır; oraya varmak üçünü de ister, birkaç sıfırlamalık bir hedeftir.
+- **Bonussuz**: en fazla %85 (yukarıda).
+- **Shield Absorbance Boost**: sıfırlama puanıyla satın alınan kalıcı bir Sezon Mağazası güçlendirmesi, **seviye başına +0,1 puan, en fazla +10 puan** (100 seviye, her biri 25 WP). Geminin soğurmasına sabit puan ekler, kalkanı olan her gemide aynıdır: %85, 4 seviyeyle (100 WP) %85,4 olur; Light Shield Core için %45 olan soğurma 12 seviyeyle (300 WP) %46,2 olur. Kalkan takılı olmayan bir gemi %0’da kalır. 100 seviye 2.500 WP tutar, birkaç sıfırlamalık bir hedeftir: sıfırlama puanı kaynakları (öldürme kilometre taşları, görevler ve beş Dormant Knowledge araştırması) bir sıfırlamada en fazla 1.105 WP öder ve her sıfırlamada yeniden başlar, rütben sıfırlamada 5 ile 400 arası ekler ve 1.105 WP 44 seviye, +4,4 puan alır. Bkz. [Sezon ve sıfırlama puanları](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Demirhane**: kalkanlar ve kalkan hücreleri, özelliği çarpan bir **Soğurma** bonusu alabilir: %55’lik bir kalkanda +%5, +2,75 puandır. Tam dövülmüş Ebedi bir en iyi set (bir çekirdek ve üç hücre, her bonus en üst değerde, +%15) 12,8 puana kadar ekler, ortalama yaklaşık 10 (bkz. [Demirhane](/wiki/06-Items/Forge.md)).
+- **Field Theory**: Pilot araştırması Field Theory I, II ve III ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) bütün gemilerinin soğurmasına, her seviye bir öncekinin üstüne eklenmeden, toplamda **+4, +7 ve +10 puan** ekler; bedeli kredi, Thulium ve Dark Matter’dır. Sezon Mağazası güçlendirmesi gibi kalkanı olan her gemide sabit puandır ve sıfırlamadan sonra da kalır.
+- **Birlikte**: bonussuz %85, +4,4 puan güçlendirme (bir sıfırlamanın 1.105 sıfırlama puanı), en fazla +12,8 puan Demirhane bonusu ve Field Theory III’ten +10 puan bir sıfırlamadan sonra en fazla **%112,2** eder; bu, [tasarım](/wiki/03-Mechanics/Ship-Designs.md) ve [formasyon](/wiki/03-Mechanics/Formations.md) kullanmayan sade bir gemi için geçerlidir; güçlendirmenin 100 seviyesinin hepsiyle (+10 puan, 2.500 WP) %117,8 olurdu. %10 kalkan soğurması veren bir tasarım (Paragon BUCKY, Ironclad DUMA, Wraith ATARAXIS) ile Rampart formasyonu (%17), güçlendirmenin ve Field Theory’nin sabit puanları eklenmeden önce kalkanların soğurmasıyla çarpılır; ikisini de taşıyan aynı gemi bir sıfırlamadan sonra **%140,2** eder (100 seviyenin hepsiyle %145,8). Ne güçlendirme, ne Demirhane, ne de Field Theory tek başına %100’e ulaşır; Ebedi bir set Field Theory III ile birlikte bunu aşar (%103 ile %108 arası) ve güçlendirmenin seviyeleri bunun üstüne gelir. Bu rakamların hepsi yalnızca sıfırlama puanı kaynaklarını sayar; rütbenin sıfırlamada ödediği 5 ile 400 sıfırlama puanını saymaz, bu puanlarla güçlendirmenin daha fazla seviyesi alınır.
 
 ### Kalkan güçlendirmeleri: kapasite, soğurma, dolum {#shield-boosts-capacity-absorbance-recharge}
 

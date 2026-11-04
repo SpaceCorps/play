@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 53565b70c10d22d1 -->
+<!-- wiki-i18n source: 0d742becd05e610b -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsok és védelem {#shields-defense}
 
@@ -41,12 +41,12 @@ Szereld fel a pajzsmagokat aktív védőgátak létrehozásához, a hajód gener
 | Név | Ritkaság | Kapacitás | Töltődési sebesség | Elnyelés | Pajzs % | Sebesség % | Cellafoglalatok | Különleges hatás | Ár |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Light Shield Core** | Silány | 10 000 | 333/mp | 45% | +5% | -1% | 1 | Shield Surge I | 20 000 kredit |
-| **Basic Shield Core** | Gyakori | 15 000 | 500/mp | 48% | +10% | -3% | 2 | Shield Surge II | 2 000 Thulium |
-| **Heavy Shield Core** | Ritka | 25 000 | 833/mp | 50% | +20% | -5% | 3 | Shield Surge III | Csak gyártható |
+| **Basic Shield Core** | Gyakori | 15 000 | 500/mp | 50% | +10% | -3% | 2 | Shield Surge II | 2 000 Thulium |
+| **Heavy Shield Core** | Ritka | 25 000 | 833/mp | 55% | +20% | -5% | 3 | Shield Surge III | Csak gyártható |
 
 A **Heavy Shield Core** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Basic Shield Core-ból, 4 000 Thuliummal, 30 Cataclysite-tal, 12 Reinforced Hull Plate-tel, 2 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Megtartja az elhasznált mag bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a Basic Shield Core-t a hajóról (és a celláit is vedd ki belőle): az a mag, amely fel van szerelve, vagy cellákat hordoz, nem használódik el.
 
-Az **elnyelés** a találatoknak az a része, amelyet a pajzsaid felfognak; a többit a hajótest kapja. Egy pajzs önmagában **45–50%**, a többit a cellái adják: a legjobb pajzs a legjobb cellákkal (egy Heavy Shield Core három Absorption Shield Cell IV-gyel) **80%**, ennyi a legtöbb, amit egy hajó külön boostok nélkül elér. Ezt három állandó boost növeli tovább: a Szezonbolt Shield Absorbance Boost buffja (szintenként +0,1 pont, 100 szint, szintenként 25 wipe-pont), a Kovácsműhely elnyelési bónuszai és a Pilóta-kutatás Field Theory (+2, +3 vagy +5 pont). A wipe-pontok forrásai (wipe-onként legfeljebb 1 090, és minden wipe-nál újra indulnak) az első wipe-ban a 100 szintből 43-at vesznek meg (+4,3 pont), ami egy teljesen kikovácsolt Örök fokozatú összeállítással körülbelül **95%**, a Field Theory III-mal pedig körülbelül **99%**. A jellemzőnek azonban nincs 100%-nál felső határa: a támadó *pajzsáthatolását* levonják belőle, ezért ami egy hajónál 100% fölött van, az a tartaléka az áthatolással szemben. Lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+Az **elnyelés** a találatoknak az a része, amelyet a pajzsaid felfognak; a többit a hajótest kapja. Egy pajzs önmagában **45–55%**, a többit a cellái adják: a legjobb pajzs a legjobb cellákkal (egy Heavy Shield Core három Absorption Shield Cell IV-gyel) **85%**, ennyi a legtöbb, amit egy hajó külön boostok nélkül elér. Ezt három állandó boost növeli tovább: a Szezonbolt Shield Absorbance Boost buffja (szintenként +0,1 pont, 100 szint, szintenként 25 wipe-pont), a Kovácsműhely elnyelési bónuszai és a Pilóta-kutatás Field Theory (+4, +7 vagy +10 pont). A wipe-pontok forrásai (wipe-onként legfeljebb 1 105, és minden wipe-nál újra indulnak) az első wipe-ban a 100 szintből 44-at vesznek meg (+4,4 pont), ami egy teljesen kikovácsolt Örök fokozatú összeállítással körülbelül **100%**, a Field Theory III-mal pedig körülbelül **110%**. A jellemzőnek azonban nincs 100%-nál felső határa: a támadó *pajzsáthatolását* levonják belőle, ezért ami egy hajónál 100% fölött van, az a tartaléka az áthatolással szemben. Lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Az adaptív magok hibridgenerátorként működnek, a pajzs és a sebesség kép
 
 | Név | Ritkaság | Pajzsbónusz % | Sebességbónusz % | Foglalatok | Különleges hatás | Ár |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Silány | +4% | +2,4% | 1 | — | 100 000 kredit |
-| **Adaptive Core II** | Gyakori | +6,4% | +3,2% | 2 | — | Csak gyártható |
-| **Adaptive Core III** | Ritka | +8% | +4% | 3 | — | Csak gyártható |
+| **Adaptive Core I** | Silány | +4% | +1,2% | 1 | — | 100 000 kredit |
+| **Adaptive Core II** | Gyakori | +6,4% | +1,6% | 2 | — | Csak gyártható |
+| **Adaptive Core III** | Ritka | +8% | +2% | 3 | — | Csak gyártható |
 
 Az **Adaptive Core II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Adaptive Core I-ből, 2 000 Thuliummal, 60 Ship Fragmenttel, 1 Power Core-ral és 4 Velkonite Reinforced Plate-tel. Az **Adaptive Core III** ott készül egy Adaptive Core II-ből, 4 000 Thuliummal, 110 Ship Fragmenttel, 5 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Mindkettő megtartja az elhasznált mag bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a hajóról az elhasználandó magot (és a fúvókáit és celláit is vedd ki belőle): az a mag, amely fel van szerelve, vagy modulokat hordoz, nem használódik el.
 

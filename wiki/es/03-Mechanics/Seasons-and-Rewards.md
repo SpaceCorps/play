@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0bd05c2a92c0ef14 -->
+<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
 <!-- wiki-i18n title: Temporadas y recompensas -->
 # Temporadas y recompensas {#seasons-and-rewards}
 
@@ -8,7 +8,7 @@ Cada reinicio cierra tu temporada. El servidor anota el rango que alcanzaste, tu
 
 El rango que tienes en el instante del reinicio te paga:
 
-* **Puntos de reinicio**: de 5 a 400, según el rango, además de lo que pagan las fuentes de puntos de reinicio (hasta 1.090 puntos de reinicio por reinicio: [Cómo ganar puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
+* **Puntos de reinicio**: de 5 a 400, según el rango, además de lo que pagan las fuentes de puntos de reinicio (hasta 1.105 puntos de reinicio por reinicio: [Cómo ganar puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)).
 * **Días de Premium**: de 1 a 7, a partir de Capitán júnior. Se suman a un Premium que ya tengas.
 * **Créditos y Thulium**: un fondo de arranque que crece con el rango, desde 105.000 créditos y 225 Thulium para un Piloto hasta 6.300.000 créditos y 13.500 Thulium para un Almirante sénior. Es pequeño comparado con los [topes](#the-caps-and-your-rewards): una forma de empezar bien la nueva temporada, no una ventaja.
 

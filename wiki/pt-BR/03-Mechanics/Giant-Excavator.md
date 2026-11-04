@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Escavadeira gigante -->
 # Escavadeira gigante {#giant-excavator}
 
@@ -29,14 +29,14 @@ Desde o primeiro dia da temporada, um **pulsar** brilha em cada um dos setores d
 ## Como uma rodada se desenrola {#how-a-run-goes}
 
 1. **Encontre uma.** A partir do dia 11 da temporada, cada um dos três setores de perigo que têm um pulsar tem uma escavadeira, em cada mundo. Um rótulo, **Escavadeira**, paira sobre ela quando você está perto, e o mapa do Sistema estelar marca cada setor de perigo que tem uma: a cor da marca é o estado da escavadeira, e a dica dela diz o tempo até a próxima mudança.
-2. **Abra o painel.** Clique no rótulo. A janela **Escavadeira gigante** funciona enquanto sua nave estiver ao alcance do painel da escavadeira (a lista *Em resumo* informa). Uma nave camuflada pode usá-lo, e usá-lo não encerra o camuflado.
+2. **Abra o painel.** Clique no rótulo. A janela **Escavadeira gigante** funciona enquanto sua nave estiver ao alcance do painel da escavadeira (a lista *Em resumo* informa). Uma nave camuflada não pode usá-lo: os botões da janela ficam bloqueados e toda ação é recusada até a camuflagem terminar.
 3. **Abasteça.** **Adicionar Dark Matter** põe um Dark Matter da sua carga no tanque. Qualquer um pode fazer isso. O tanque nunca aceita mais do que a escavadeira pode queimar antes de superaquecer, então nenhum combustível é desperdiçado.
 4. **Escolha o que minerar** na lista e então aperte **Iniciar mineração**. É preciso pelo menos um Dark Matter no tanque e um recurso. Qualquer um pode mudar a escolha até o início e também enquanto ela funciona (veja *Trocar o recurso* mais abaixo). O início é anunciado a todos os pilotos do mundo, com o seu nome, o setor e o recurso.
 5. **Segure-a.** Enquanto minera, uma caixa cai em volta da escavadeira a cada poucos segundos, e logo depois do início chegam os primeiros Slumbering Voids. Defenda a escavadeira e pegue as caixas. Um fluxo de luz corre do pulsar até a broca da escavadeira e se intensifica no ritmo da estrela, uma vez a cada 4 segundos; no último minuto antes do superaquecimento ele pisca e falha, e quando a máquina descansa ele para.
 6. **Vigie o calor.** A barra de Calor enche enquanto a escavadeira minera e nunca esvazia enquanto ela espera. No limite, a escavadeira superaquece. Vá embora antes: o jogo avisa o mapa duas vezes.
 7. **Ela descansa.** Superaquecida ou destruída, a escavadeira e seu pulsar ficam irradiados até o descanso acabar; então ela fica pronta de novo, com o calor zerado e o casco cheio.
 
-A janela mostra também o setor, o tanque (uma célula para cada Dark Matter, a que está queimando desenhada pela metade), quanto Dark Matter você carrega, o casco da escavadeira, o que cada recurso produz por minuto no seu mundo e, enquanto ela minera, o recurso que está sendo minerado agora, o que cada recurso colocou desde que a escavadeira esfriou pela última vez, o tempo até a próxima onda e os Voids vivos. Quando algo é recusado, você lê o motivo em vermelho: você está longe demais do painel, não tem Dark Matter, o tanque está cheio, ainda não há combustível ou recurso escolhido, a escavadeira já está funcionando, uma troca veio cedo demais depois da anterior, ou a escavadeira está quente.
+A janela mostra também o setor, o tanque (uma célula para cada Dark Matter, a que está queimando desenhada pela metade), quanto Dark Matter você carrega, o casco da escavadeira, o que cada recurso produz por minuto no seu mundo e, enquanto ela minera, o recurso que está sendo minerado agora, o que cada recurso colocou desde que a escavadeira esfriou pela última vez, o tempo até a próxima onda e os Voids vivos. Quando algo é recusado, você lê o motivo em vermelho: você está longe demais do painel, não tem Dark Matter, o tanque está cheio, ainda não há combustível ou recurso escolhido, a escavadeira já está funcionando, uma troca veio cedo demais depois da anterior, a escavadeira está quente ou sua nave está camuflada.
 
 ### Trocar o recurso {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Se o combustível acabar antes do limite, a escavadeira volta a **Pronta** com o
 
 ## O que ela minera {#what-it-mines}
 
-Um tanque cheio produz mais ou menos o que cinco pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe o recurso antes do início e pode trocá-lo enquanto a escavadeira funciona. Uma caixa contém o mesmo para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides. O que você tira de uma caixa, porém, pode variar: cada nível da pesquisa de Piloto Excavator Mining ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta o Thulium e o minério que você pega em 20%, 30% ou 40% no total, arredondado para baixo.
+Um tanque cheio produz mais ou menos o que cinco pilotos ganhariam em meia hora do melhor cultivo de Thulium. Beta e Gamma produzem mais, assim como pagam mais por cada abate. Você escolhe o recurso antes do início e pode trocá-lo enquanto a escavadeira funciona. Uma caixa contém o mesmo para todos, e uma caixa de Thulium é dinheiro vivo, pago ao pegá-la, como o Thulium dos asteroides. O tamanho das caixas é definido por quem inicia a operação: cada nível da pesquisa de Piloto Excavator Mining ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) do piloto que aperta **Iniciar mineração** faz cada caixa dessa operação conter 20%, 30% ou 40% a mais no total, tanto de Thulium quanto de minério, durante toda a operação, não importa quem abasteça, troque o recurso ou pegue as caixas. O painel de controle mostra de quem é a operação e que parte suas caixas carregam, e avisa a um piloto que tem Excavator Mining que ela vale nas operações que ele mesmo inicia. As quantidades abaixo são sem ela; ela vem por cima do máximo que um recurso pode deixar em uma operação.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ A escavadeira **não tem anel especial**: valem as regras normais do seu mundo, 
 São linhas do Sistema (aparecem na aba **Sistema** do chat e no Registro do jogo, e não em **Global** nem em **Local**). As três primeiras vão para o mundo inteiro; a última, para os pilotos do setor da escavadeira.
 
 - No dia em que o evento 2 começa: os setores de perigo mudaram.
-- Um piloto **inicia** uma escavadeira, com o setor, o recurso e os minutos de combustível.
+- Um piloto **inicia** uma escavadeira, com o setor, o recurso e os minutos de combustível, e a parte de Excavator Mining desse piloto, se ele tiver.
 - A escavadeira **superaquece** ou é **destruída**.
 - O combustível acaba; a escavadeira está prestes a superaquecer (dois avisos); uma **onda** de Voids está chegando, com seu número e o lado do mapa de onde vem; não resta nenhum piloto, então os Voids atacam a escavadeira.
 

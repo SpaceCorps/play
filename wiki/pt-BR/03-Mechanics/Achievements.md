@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Conquistas -->
 # Conquistas {#achievements}
 
@@ -69,7 +69,7 @@ As 37 conquistas que não são ocultas, por grupo. Quando uma meta conta algo, e
 | Construtor de estações | Construa 5 módulos diferentes do Skylab. | Comum |
 | Totalmente equipado | Construa os 16 módulos do Skylab. | Épico |
 | Erudito | Pesquise 50 tecnologias. | Incomum |
-| Arquivista | Pesquise as 151 tecnologias. | Lendário |
+| Arquivista | Pesquise as 158 tecnologias. | Lendário |
 
 ### Frota {#group-fleet}
 
@@ -118,7 +118,7 @@ Uma conquista oculta ainda bloqueada é um cartão fechado, sem objetivo e sem b
 Um **título** é uma linha curta de texto ao lado do nome de um piloto. 32 das 40 conquistas dão um, seu para sempre quando você desbloqueia a conquista. Títulos também vêm do fim de uma temporada (a sua patente, o melhor piloto de cada corporação e o piloto com mais pontos PvE) e da equipe do jogo, como o título **Pioneer** para toda conta que existia no dia em que o jogo foi lançado na Steam.
 
 - Você pode ter muitos títulos e **usa um** de cada vez. Você o escolhe no seu **perfil de piloto** e pode tirá-lo de novo.
-- Seu título aparece no seu **perfil**, nos **Rankings**, na janela do **Grupo** e quando você aponta para o seu nome no **chat**. Ele não aparece sobre a sua nave no mapa.
+- Seu título aparece no seu **perfil**, nos **Rankings**, na janela do **Grupo** e quando você aponta para o seu nome no **chat**. Desde a 0.4.27 ele também aparece no mapa: uma linha pequena e discreta, na cor de raridade do título, **acima do nome da nave de cada piloto**, a sua inclusive. Um título longo é cortado com reticências. Em meio a uma multidão (mais de oito pilotos na tela), só os seus amigos, o seu alvo e a nave que você selecionou mantêm o deles, para que a tela continue legível. Ele não aparece na janela do alvo nem no minimapa.
 - Os títulos sobrevivem ao reset.
 
 ## Steam

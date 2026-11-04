@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Helios Beam とティアIVのアンプ3つの組は、最終ティアの部品4�
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | コモン | 1.0倍 | – | 5クレジット |
 | **Advanced Plasma** | レア | 2.0倍 | – | 0.5 Thulium |
-| **Ultra Core** | レア | 3.0倍 | 5% | 1.0 Thulium |
-| **Experimental Fusion Core** | エピック | 4.0倍 | 10% | 2.2 Thulium |
-| **Siphon Battery** | レア | 1.0倍（シールドのみ） | – | 0.25 Thulium |
+| **Ultra Core** | レア | 3.0倍 | 5% | 1.0 Thulium、または製作 |
+| **Experimental Fusion Core** | エピック | 4.0倍 | 10% | 製作専用（販売終了） |
+| **Siphon Battery** | レア | 1.0倍（シールドのみ） | – | 50クレジット |
+| **Siphon Battery II** | レア | 0.5倍（シールドのみ、奪う量は2倍） | – | 製作専用 |
+| **Antimatter Battery I** | レア | 2.0倍 | 20% | 製作専用 |
+| **Antimatter Battery II** | エピック | 3.0倍 | 20% | 製作専用 |
+| **Dark Matter Ammo I** | レア | 1.5倍～5倍、斉射のたびに抽選（平均3.25倍） | – | 製作専用 |
+| **Dark Matter Ammo II** | エピック | 6.0倍、1.5秒に1回の斉射、ターゲットのシールドを吸い取る | – | 製作専用 |
 
-**シールド貫通**は、斉射の各命中で、ターゲットの吸収率から差し引かれます。シールドが受けるのは、ターゲットの吸収率から貫通を引いた割合です（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)を参照）。Penetration Amp とドローン編成は弾薬の貫通に加わり、その合計の全体は[このページの下](#shield-penetration-of-a-laser-hit)にあります。吸収率80%（最高のシールドに最高のセル）の艦に対して、貫通10%の x4 弾薬を使うと、シールドが受ける割合は攻撃の70%、船体が受ける割合は30%になります。シールドに比べて船体が小さい艦に対して最も効果があり、吸収率80%の非常に大きな艦は、どちらの弾薬でも持ちこたえる程度は変わりません。エイリアンには語るほどの吸収率のステータスはなく（シールドが攻撃の80%を受けます）、貫通はそこからも差し引かれます。
+**新しい弾薬の入手元。** 0.5.0 から Experimental Fusion Core は販売されなくなりました。Skylab の研究センターで **Military Grade Ammo II** を研究したあと、[アセンブリ](/wiki/06-Items/Overview.md#the-production-queue)で 1,000 個ずつ製作します。Ultra Core は引き続き購入でき、製作もできます（**Military Grade Ammo I**、研究時間30分）。新しい弾薬5種は製作専用で、それぞれ **Laser Ammo** ファミリーの技術の先にあり、1つ下の弾薬から作ります。**Siphon Battery II**（Siphon Battery から）、**Antimatter Battery I**（Siphon Battery II から）と **II**（Antimatter Battery I と少量の [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) から）、**Dark Matter Ammo I**（素材と Dark Matter 1個から）と **II**（Dark Matter Ammo I と Dark Matter から）です。1回の製作は1,000個、5～15分で、1個あたりのコストはおおよそその価値と同じです。[弾薬プリンター](/wiki/03-Mechanics/Skylab.md)も、研究を済ませれば Ultra Core と Experimental Fusion Core を作れます。
+
+**シールド貫通**は、斉射の各命中で、ターゲットの吸収率から差し引かれます。シールドが受けるのは、ターゲットの吸収率から貫通を引いた割合です（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)を参照）。Penetration Amp とドローン編成は弾薬の貫通に加わり、その合計の全体は[このページの下](#shield-penetration-of-a-laser-hit)にあります。吸収率85%（最高のシールドに最高のセル）の艦に対して、貫通10%の x4 弾薬を使うと、シールドが受ける割合は攻撃の75%、船体が受ける割合は25%になります。貫通20%の Antimatter 弾薬なら、シールドが65%、船体が35%になります。シールドに比べて船体が小さい艦に対して最も効果があり、吸収率85%の非常に大きな艦は、どちらの弾薬でも持ちこたえる程度は変わりません。エイリアンには語るほどの吸収率のステータスはなく（シールドが攻撃の80%を受けます）、貫通はそこからも差し引かれます。
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 - **クリティカルヒット**も有効です。クリティカルの斉射は1.5倍の量を奪い、その数字はクリティカルヒットとして表示されます。パケットはより大きく明るくなり、ターゲットのシールドもより強く輝きます。
 - [企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)は、標準の x1 弾薬を使います。
 
+**Siphon Battery II** は数字を裏返しただけで、同じように働きます。ターゲットのシールドから奪う量は Siphon Battery の**半分**（x0.5）ですが、奪った量の**2倍**があなたに入る（奪取量2.0）ので、あなたのシールドは Siphon Battery の斉射1回と同じだけ増え、ターゲットが失う量はその半分で済みます。製作で作る弾薬（研究 **Siphon Battery II**、Siphon Battery 1,000個から）で、1つ目と同じく船体には一切触れません。
+
+---
+
+## Antimatter と Dark Matter の弾薬 {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I と II** はシールドを貫通します。それぞれ貫通 **20%** で、Amp と編成の分に上乗せされ、ダメージは x2 と x3 です。船体に比べてシールドが大きい艦に対しては、Experimental Fusion Core より早く船体を開けます。それ以外の相手には、やはり x4 のほうが重い一撃です。これは上位互換ではなく、選択肢の一つです。
+
+**Dark Matter Ammo I** は倍率を**斉射のたびに**抽選し、**x1.5 から x5** のどこかになります（平均 x3.25）。艦全体で抽選は1回だけで、レーザーの数に関係なく、その斉射は全レーザーにとって当たりか外れかが同時に決まります。ほかの弾薬と同じく毎秒発射します。
+
+**Dark Matter Ammo II** は **x6** で命中しますが、斉射は **1.5秒に1回**だけです（1秒あたりのダメージは x4 と同じ）。さらに**シールドを吸い取ります**。ターゲットのシールドが実際に受けたダメージの 25% を、あなたの上限まで獲得します。命中はほかの弾薬と同じように処理され（シールドが自分の分を受け、船体が残りを受けます）、シールドが残っていないターゲットからは何も得られません。シールドを得ることは被ダメージではないので、自分のシールドの回復を遅らせることはありません。
+
 ---
 
 ## レーザーの命中のシールド貫通 {#shield-penetration-of-a-laser-hit}
 
-レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +15%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
+レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%、Antimatter Battery 20%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +15%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
 - **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。各レーザーに Penetration Amp IV を3つずつ載せれば36%、12本のレーザーのうち1本に Penetration Amp IV を1つ載せても1%です。Wraith のレーザーは12本、アンプスロットは36個で、36%にするには36個すべてを埋める必要があります。
 - **ハンガーに表示されます。** ハンガーの戦闘ステータスには、どの機体でも、表示中の構成のレーザーアンプの値を示す**貫通**タイルがあります（Penetration Amp がなければ0.0%）。弾薬と編成はそこに含まれません。飛行中の**艦船**ウィンドウには、下の行の端に**貫通**チップがあります（場所を空けるため、構成と速度のチップはアイコンと数字だけを表示します）。レーザーの命中の合計、つまりアンプ、装着中の編成、撃っている弾薬を、切り替えるたびに足し合わせた値を示し、ツールチップに3つの内訳が並びます。
-- **最強のレーザーは61%になります。** Experimental Fusion Core（10%）、Gemini（15%）、各レーザーに Penetration Amp IV を3つ（36%）で、合計は61%です。
+- **最強のレーザーは x4 で61%、Antimatter で71%になります。** Experimental Fusion Core（10%）、Gemini（15%）、各レーザーに Penetration Amp IV を3つ（36%）で、合計は61%です。その代わりに Antimatter Battery（20%）を使うと71%になり、ダメージは x4 ではなく x3 です。
 - **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は12ではなく13.1～13.8ポイントになります。最強の構成では、「永遠」が3つなら合計は66.4%になり、そのすべてのポイントが効きます。
 
 | レーザーの斉射 | 弾薬 | アンプ（3スロット） | 編成 | 合計 |
@@ -189,19 +215,19 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 | 防御側（吸収率） | アンプなし | Fusion Core のみ（10%） | Fusion Core + Gemini（25%） | Fusion Core + 3 Penetration Amp IV（46%） | 最強のレーザー（61%） |
 |---|---|---|---|---|---|
 | Light Shield Core、セルなし（45%） | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core、セルなし（50%） | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core、セルなし（55%） | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV（55%） | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + Capacity Shield Cell IV 3つ（65%） | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| 標準で最高のシールド（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア44レベル（96.4%） | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（102%） | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + Capacity Shield Cell IV 3つ（70%） | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| 標準で最高のシールド（85%） | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア44レベル（102.2%） | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（107.8%） | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-最強のレーザーは、セルのないシールドコアと、最良のセルを入れた Light Shield Core を空にします（船体が命中を丸ごと受けます）。Capacity セル3つの Heavy Shield Core は命中の4%を保ち、最高のシールドは19%を保ちます（バフがあれば35%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（70%）は空になります。
+最強のレーザーは、セルのないシールドコアと、最良のセルを入れた Light Shield Core を空にします（船体が命中を丸ごと受けます）。Capacity セル3つの Heavy Shield Core は命中の9%を保ち、最高のシールドは24%を保ちます（バフがあれば41%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（70%）は空になります。
 
 ### Penetration Amp は、スロットを使う価値がいつあるのか？ {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp は吸収率に対抗し、吸収率が高いほど効きます。船体の小さい船に対して約95%（シーズンストア、鍛冶場、Rampart の構成）では、Penetration 構成が最良の通常構成より約1.8倍速く倒し、標準で最高のシールド（80%）に対しては、Penetration Amp 3つが同じティアの Crit Amp 3つより約11%短い時間で済みます。エイリアンに対してはほとんど得られません。**
+**Penetration Amp は吸収率に対抗し、吸収率が高いほど効きます。船体の小さい船に対して約101%（シーズンストア、鍛冶場、Rampart の構成）では、Penetration 構成が最良の通常構成より約2.6倍速く倒し、標準で最高のシールド（85%）に対しては、Penetration Amp 3つが同じティアの Crit Amp 3つより約19%短い時間で済みます。エイリアンに対してはほとんど得られません。**
 
 - **ダメージは与えません。** Helios Beam では、Penetration Amp IV を3つ載せると1回の斉射で187ダメージ（弾薬x1、ダメージの振れ幅とクリティカルの平均）です。Damage Amp IV を3つなら356、Crit Amp IV を3つなら369で、およそ半分になります。取り戻すのはシールドの割合なので、シールドに比べて船体が小さく、吸収率が高い場合にだけ見合います。大きな船体がどのみち持ちこたえる Wraith や Ironclad に対しては、素朴な Damage か Crit の組み合わせもほぼ同じ速さです（レーザー1基の Penetration Amp 1つで得られるのは最大5%）。
 - **エイリアン。** そのシールドは命中の80%からあなたの貫通を引いた分を受けるので、エイリアンにも効きますが、同じティアの Damage Amp や Crit Amp も同じ速さかそれ以上に速く倒せます。例外は、編成を使って戦う Phantasm や Goombah で、レーザー1基の Penetration Amp 1つで最大5%得られます。

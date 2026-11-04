@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9cb279aeecb3bbc8 -->
+<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
 <!-- wiki-i18n title: Contêineres -->
 # Contêineres {#containers}
 
@@ -333,12 +333,12 @@ O Arquivo Cromático sorteia primeiro a categoria e depois um visual dessa categ
 | :--- | :--- | ---: |
 | Comum | 240 × Velkonite (para o Skylab) | 7,000% |
 | Comum | 160 × Orvium (para o Skylab) | 7,000% |
-| Comum | 1.300 × Reinforced Hull Plate | 5,000% |
-| Comum | 9.000 × Ship Fragment | 6,000% |
+| Comum | 100 × Reinforced Hull Plate | 5,000% |
+| Comum | 1.000 × Ship Fragment | 6,000% |
 | Comum | **Cristais de forja**: 4.000 × Cataclysite + 3.000 × Quorvium | 5,000% |
-| Comum | 450 × Power Core | 5,000% |
+| Comum | 20 × Power Core | 5,000% |
 | Comum | 450 de Thulium | 5,000% |
-| Comum | 4 × Regular Cluster Chunk | 5,000% |
+| Comum | 2 × Regular Cluster Chunk | 5,000% |
 | Incomum | 780 × Velkonite (para o Skylab) | 5,000% |
 | Incomum | 510 × Orvium (para o Skylab) | 5,000% |
 | Incomum | 19 × Velkonite Reinforced Plate | 4,000% |
@@ -571,16 +571,17 @@ A página Contêineres do jogo mostra as suas chances ao lado das publicadas qua
 
 ## Versão da tabela {#version-of-the-table}
 
-Cada chance desta página é a tabela do servidor do jogo. Quando uma chance muda, a tabela ganha uma versão nova e um hash novo, e cada abertura registra o hash da tabela de que foi sorteada.
+Cada chance desta página é a tabela do servidor do jogo. Quando uma chance ou uma quantidade muda, a tabela ganha uma versão nova e um hash novo, e cada abertura registra o hash da tabela de que foi sorteada.
 
 <!-- containers-version:begin -->
 <!-- Generated from server/Resources/Containers.json (and Cosmetics.json) by scripts/containers-wiki.sh: don't edit by hand. -->
 
-- **Versão da tabela**: 1
-- **Hash da tabela (primeiros 12 caracteres)**: `23aa20f1a5ad`
+- **Versão da tabela**: 2
+- **Hash da tabela (primeiros 12 caracteres)**: `9f345692845a`
 
 O que mudou:
 
+- Versão 2: Cápsula de Sondagem: as quatro pilhas comuns ficaram menores. Reinforced Hull Plate de 1.300 para 100, Ship Fragment de 9.000 para 1.000, Power Core de 450 para 20, Regular Cluster Chunk de 4 para 2. A chance de nenhum prêmio e de nenhuma categoria mudou.
 - Versão 1: A primeira tabela publicada.
 
 <!-- containers-version:end -->

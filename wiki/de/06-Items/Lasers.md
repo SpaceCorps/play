@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4b16595f9b806710 -->
+<!-- wiki-i18n source: b7458399908a090f -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -32,16 +32,23 @@ Damage Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 3
 Crit Amp IV | laser-amp, epic | craft 2400 Thulium, 60 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Crit Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
-Siphon Battery | ammo, rare | buy 0.25 Thulium | /wiki/06-Items/Lasers.md#siphon-battery
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | buy 2.2 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Quantum Laser I -> Quantum Laser II => Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp I => Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp I => Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp I => Penetration Amp II => Penetration Amp III => Penetration Amp IV
 Standard Battery -> Advanced Plasma -> Ultra Core -> Experimental Fusion Core
+Dark Matter Ammo I => Dark Matter Ammo II
+Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Battery II
 ```
 <!-- item-tree:end -->
 
@@ -145,11 +152,18 @@ Verbrauchsbatterien, die den Schaden deiner Laser-Salven vervielfachen:
 | :--- | :--- | :---: | :---: | :--- |
 | **Standard Battery** | Gewöhnlich | 1,0x | – | 5 Credits |
 | **Advanced Plasma** | Selten | 2,0x | – | 0,5 Thulium |
-| **Ultra Core** | Selten | 3,0x | 5 % | 1,0 Thulium |
-| **Experimental Fusion Core** | Episch | 4,0x | 10 % | 2,2 Thulium |
-| **Siphon Battery** | Selten | 1,0x, nur Schilde | – | 0,25 Thulium |
+| **Ultra Core** | Selten | 3,0x | 5 % | 1,0 Thulium oder herstellen |
+| **Experimental Fusion Core** | Episch | 4,0x | 10 % | Nur herstellbar (nicht mehr im Shop) |
+| **Siphon Battery** | Selten | 1,0x, nur Schilde | – | 50 Credits |
+| **Siphon Battery II** | Selten | 0,5x, nur Schilde, raubt doppelt so viel | – | Nur herstellbar |
+| **Antimatter Battery I** | Selten | 2,0x | 20 % | Nur herstellbar |
+| **Antimatter Battery II** | Episch | 3,0x | 20 % | Nur herstellbar |
+| **Dark Matter Ammo I** | Selten | 1,5x bis 5x, bei jeder Salve neu gezogen (im Schnitt 3,25x) | – | Nur herstellbar |
+| **Dark Matter Ammo II** | Episch | 6,0x, eine Salve alle 1,5 s, saugt dem Ziel Schild ab | – | Nur herstellbar |
 
-Die **Schilddurchdringung** wird bei jedem Treffer deiner Salven von der Absorption deines Ziels abgezogen: Die Schilde nehmen die Absorption des Ziels abzüglich der Durchdringung (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Deine Penetration Amps und eine Drohnenformation kommen zur Durchdringung der Munition dazu, die ganze Summe steht [weiter unten auf dieser Seite](#shield-penetration-of-a-laser-hit). Gegen ein Schiff mit 80 % (der beste Schild mit den besten Zellen) lassen die 10 % der x4-Munition den Schilden 70 % des Treffers und der Hülle 30 %. Sie zählt am meisten gegen Schiffe, deren Hülle neben ihrem Schild klein ist; ein sehr großes Schiff mit 80 % hält so oder so gleich viel aus. Aliens haben keinen nennenswerten Absorptionswert (ihre Schilde nehmen 80 % eines Treffers), und die Durchdringung wird auch davon abgezogen.
+**Woher die neue Munition kommt.** Seit 0.5.0 wird der Experimental Fusion Core nicht mehr verkauft: Du stellst ihn in der [Montage](/wiki/06-Items/Overview.md#the-production-queue) her, 1.000 auf einmal, nachdem du **Military Grade Ammo II** im Forschungszentrum des Skylab erforscht hast. Den Ultra Core kannst du weiter kaufen, und er lässt sich auch herstellen (**Military Grade Ammo I**, 30 Minuten Forschung). Fünf neue Munitionssorten sind nur herstellbar, jede hinter einer Technologie der Familie **Laser Ammo** und jede aus der Munition unter ihr gebaut: **Siphon Battery II** (aus Siphon Battery), **Antimatter Battery I** (aus Siphon Battery II) und **II** (aus Antimatter Battery I und ein wenig [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (aus Rohstoffen und einem Dark Matter) und **II** (aus Dark Matter Ammo I und Dark Matter). Ein Auftrag sind 1.000 Einheiten, 5 bis 15 Minuten, und eine Einheit kostet ungefähr so viel, wie sie wert ist. Der [Munitionsdrucker](/wiki/03-Mechanics/Skylab.md) stellt den Ultra Core und den Experimental Fusion Core ebenfalls her, sobald du sie erforscht hast.
+
+Die **Schilddurchdringung** wird bei jedem Treffer deiner Salven von der Absorption deines Ziels abgezogen: Die Schilde nehmen die Absorption des Ziels abzüglich der Durchdringung (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Deine Penetration Amps und eine Drohnenformation kommen zur Durchdringung der Munition dazu, die ganze Summe steht [weiter unten auf dieser Seite](#shield-penetration-of-a-laser-hit). Gegen ein Schiff mit 85 % (der beste Schild mit den besten Zellen) lassen die 10 % der x4-Munition den Schilden 75 % des Treffers und der Hülle 25 %, und die 20 % der Antimatter-Munition lassen ihnen 65 % und der Hülle 35 %. Sie zählt am meisten gegen Schiffe, deren Hülle neben ihrem Schild klein ist; ein sehr großes Schiff mit 85 % hält so oder so gleich viel aus. Aliens haben keinen nennenswerten Absorptionswert (ihre Schilde nehmen 80 % eines Treffers), und die Durchdringung wird auch davon abgezogen.
 
 ### Siphon Battery
 
@@ -162,15 +176,27 @@ Die Siphon Battery ist Munition, um Schilde zu rauben, statt Hüllen zu brechen.
 - **Kritische Treffer** zählen: Eine kritische Salve entzieht 1,5-mal so viel, und ihre Zahl wird als kritischer Treffer dargestellt. Ihre Pakete sind größer und heller, und der Schild des Ziels flammt stärker auf.
 - [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) feuern Standardmunition x1.
 
+**Siphon Battery II** funktioniert genauso, nur mit umgedrehten Zahlen: Sie entzieht dem Schild des Ziels nur **halb** so viel wie eine Siphon Battery (x0,5) und schreibt dir das **Doppelte** des Entzogenen gut (ein Raub von 2,0), sodass dein Schild genau so viel gewinnt wie bei der Salve einer Siphon Battery, während das Ziel nur halb so viel verliert. Sie ist eine Herstellung (Forschung **Siphon Battery II**, aus 1.000 Siphon Battery) und berührt wie die erste nie die Hülle.
+
+---
+
+## Antimatter- und Dark-Matter-Munition {#antimatter-and-dark-matter-ammo}
+
+**Antimatter Battery I und II** durchdringen Schilde: je **20 %** Durchdringung, zusätzlich zu deinen Amps und deiner Formation, bei x2 und x3 Schaden. Gegen ein Schiff, dessen Schild neben seiner Hülle groß ist, öffnen sie die Hülle schneller als der Experimental Fusion Core; gegen alles andere ist x4 weiter der härtere Treffer. Sie sind eine Wahl, keine nächste Stufe.
+
+**Dark Matter Ammo I** würfelt ihren Faktor **bei jeder Salve** neu, irgendwo zwischen **x1,5 und x5** (im Schnitt x3,25). Das ganze Schiff teilt sich einen Wurf, egal wie viele Laser es hat, eine Salve ist also für alle Laser zugleich ein Glücks- oder ein Pechtreffer. Sie feuert wie jede Munition jede Sekunde.
+
+**Dark Matter Ammo II** trifft mit **x6**, aber nur mit **einer Salve alle 1,5 Sekunden** (derselbe Schaden pro Sekunde wie bei x4), und sie **saugt Schild ab**: Du gewinnst 25 % des Schadens, den der Schild des Ziels wirklich genommen hat, bis zu deinem Maximum. Der Treffer landet wie jeder andere (die Schilde nehmen ihren Anteil, die Hülle den Rest), und ein Ziel ohne Schild gibt dir nichts. Schild zu gewinnen ist kein erlittener Schaden, deshalb verzögert es deine eigene Schildregeneration nicht.
+
 ---
 
 ## Schilddurchdringung eines Lasertreffers {#shield-penetration-of-a-laser-hit}
 
-Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +15 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
+Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +15 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
 - **Deine Amps zählen als Mittelwert deiner Laser.** Eine Salve ist ein Treffer, also addiert das Spiel die Durchdringung der Amps jedes Lasers (die Laser in deinen Drohnen zählen mit) und nimmt den Mittelwert über deine Laser, jeden nach seinem Schaden gewichtet, wie bei der Krit-Chance. Drei Penetration Amp IV in jedem Laser ergeben 36 %; ein Penetration Amp IV in einem von zwölf Lasern ergibt 1 %. Eine Wraith hat 12 Laser und 36 Amp-Slots, und alle 36 müssen gefüllt sein, um 36 % zu erreichen.
 - **Der Hangar zeigt es.** Die Kampfwerte des Hangars haben auf jedem Schiff eine Kachel **Durchdringung** mit dem Wert der Laserverstärker der gezeigten Konfiguration (0,0 % ohne Penetration Amp); Munition und Formation sind nicht darin. Das Fenster **Schiff** im Flug hat am Ende seiner unteren Zeile einen Chip **Durchdringung** (die Chips für Konfiguration und Geschwindigkeit zeigen dafür nur ein Symbol und eine Zahl): Er zeigt die Summe eines Lasertreffers, deine Amps, die getragene Formation und die abgefeuerte Munition, zusammengezählt, sobald du etwas wechselst, und sein Tooltip nennt die drei Teile.
-- **Der beste Laser ergibt 61 %.** Ein Experimental Fusion Core (10 %), ein Gemini (15 %) und drei Penetration Amp IV in jedem Laser (36 %) ergeben 61 %.
+- **Der beste Laser ergibt 61 % mit x4, 71 % mit Antimatter.** Ein Experimental Fusion Core (10 %), ein Gemini (15 %) und drei Penetration Amp IV in jedem Laser (36 %) ergeben 61 %; eine Antimatter Battery (20 %) an dessen Stelle ergibt 71 %, bei x3 statt x4 Schaden.
 - **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten statt 12. Im besten Aufbau kommen drei ewige zusammen auf 66,4 %, und jeder Punkt davon zählt.
 
 | Lasersalve | Munition | Amps (3 Slots) | Formation | Summe |
@@ -189,19 +215,19 @@ Was das mit den Schilden des Ziels macht: Jede Zelle ist der Anteil eines Treffe
 | Verteidiger (Absorption) | Ohne Amps | Fusion Core allein (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Der beste Laser (61 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, keine Zelle (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, keine Zelle (50 %) | 50 / 50 | 40 / 60 | 25 / 75 | 4 / 96 | 0 / 100 |
+| Heavy Shield Core, keine Zelle (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
 | Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (65 %) | 65 / 35 | 55 / 45 | 40 / 60 | 19 / 81 | 4 / 96 |
-| Der beste Schild ab Werk (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (96,4 %) | 96 / 4 | 86 / 14 | 71 / 29 | 50 / 50 | 35 / 65 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (102 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
+| Der beste Schild ab Werk (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
 | Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
 
-Der beste Laser leert einen Schildkern ohne Zelle und einen Light Shield Core mit seiner besten Zelle (die Hülle nimmt den ganzen Treffer); ein Heavy Shield Core mit drei Capacity-Zellen behält 4 % jedes Treffers, und der beste Schild behält 19 % davon (35 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (70 %) schon.
+Der beste Laser leert einen Schildkern ohne Zelle und einen Light Shield Core mit seiner besten Zelle (die Hülle nimmt den ganzen Treffer); ein Heavy Shield Core mit drei Capacity-Zellen behält 9 % jedes Treffers, und der beste Schild behält 24 % davon (41 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (70 %) schon.
 
 ### Wann lohnt sich ein Penetration Amp für einen Slot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Ein Penetration Amp kontert Absorption, und je höher sie ist, desto mehr: Gegen ein Schiff mit kleiner Hülle bei etwa 95 % (Aufbauten mit Saison-Shop, Schmiede und Rampart) tötet ein Penetration-Aufbau etwa 1,8-mal schneller als der beste schlichte, und gegen den besten Schild ab Werk (80 %) braucht ein Trio Penetration Amps etwa 11 % weniger Zeit als ein Trio Crit Amps derselben Stufe. Gegen Aliens bringt er fast nichts.**
+**Ein Penetration Amp kontert Absorption, und je höher sie ist, desto mehr: Gegen ein Schiff mit kleiner Hülle bei etwa 101 % (Aufbauten mit Saison-Shop, Schmiede und Rampart) tötet ein Penetration-Aufbau etwa 2,6-mal schneller als der beste schlichte, und gegen den besten Schild ab Werk (85 %) braucht ein Trio Penetration Amps etwa 19 % weniger Zeit als ein Trio Crit Amps derselben Stufe. Gegen Aliens bringt er fast nichts.**
 
 - **Er gibt keinen Schaden.** Auf einem Helios Beam machen drei Penetration Amp IV 187 Schaden pro Salve (Munition x1, der Mittelwert aus Wurf und Krits), wo drei Damage Amp IV 356 und drei Crit Amp IV 369 machen: etwa die Hälfte. Was er zurückholt, ist der Anteil des Schilds, er lohnt sich also nur, wo die Hülle neben dem Schild klein und die Absorption hoch ist; gegen eine Wraith oder einen Ironclad, deren große Hülle ohnehin hält, ist ein schlichtes Damage- oder Crit-Set etwa ebenso schnell (ein Penetration Amp in einem Laser bringt höchstens 5 %).
 - **Aliens.** Ihre Schilde nehmen 80 % eines Treffers abzüglich deiner Durchdringung, es wirkt also auch bei ihnen, aber ein Damage oder Crit Amp der Stufe tötet sie ebenso schnell oder schneller, außer bei einem Phantasm oder einem Goombah, die mit einer Formation bekämpft werden: Dort bringt ein Penetration Amp in einem Laser bis zu 5 %.

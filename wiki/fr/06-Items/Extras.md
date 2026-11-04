@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -15,7 +15,7 @@ Les extras sont les gadgets installés dans les **emplacements extras** d’un v
 
 Les Cloaking CPU ne se vendent qu’à la boutique. Ils ne peuvent pas être fusionnés, et aucune récompense ni aucun butin ne les donne. L’**EMP Charge** n’est plus un extra : depuis la 0.4.21, c’est un consommable, porté en pile comme une roquette et monté dans aucun emplacement, donc elle n’occupe aucun de vos emplacements extras (voir [Roquettes](/wiki/06-Items/Rockets.md#emp-charge)). Les deux **Energetic Wall** ne sont plus des extras non plus : depuis la 0.4.22, ce sont aussi des consommables, portés en pile et montés dans aucun emplacement (voir [Energetic Wall](#energetic-wall)).
 
-Le **kit de départ** d’un nouveau pilote installe déjà deux extras dans les deux emplacements extras du Protos : un **Base CPU I** (10 utilisations, une téléportation vers la base de votre corporation) et un **Repair Drone I**. Faites-les glisser depuis le sélecteur d’extras de la barre rapide vers un emplacement pour les utiliser. Seuls les nouveaux pilotes reçoivent le kit : un pilote engagé avant la 0.4.10 ne l’a pas.
+Le **kit de départ** d’un nouveau pilote installe déjà deux extras dans les deux emplacements extras du Protos : un **Base CPU I** (10 utilisations, une téléportation vers la base de votre corporation) et un **Repair Drone I**. Le bouton **REP** du Repair Drone I est déjà sur votre barre rapide, à l’emplacement 2 (touche `2`), à côté de vos munitions à l’emplacement 1 ; le Base CPU I, vous le faites glisser vous-même depuis le sélecteur d’extras vers un emplacement. Seuls les nouveaux pilotes reçoivent le kit : un pilote engagé avant la 0.4.10 ne l’a pas, et un pilote inscrit avant la 0.4.27 garde la barre rapide qu’il a.
 
 Huit autres CPU ne sont pas vendus : l’Assemblage les fabrique une fois que le Centre de recherche du Skylab les a recherchés (voir [Recherche](/wiki/03-Mechanics/Research.md)). Ce sont les Extra Slots CPU I, II et III, le Jump CPU, les Base CPU I et II, l’Auto-Repair CPU et l’Auto-Rocket CPU, et [la dernière section](#research-cpus) dit ce que fait chacun. Comme le Cloaking CPU, le Jump CPU et les Base CPU sont faits pour un moment calme : aucun des trois ne démarre dans les 10 secondes qui suivent un tir de votre part ou un coup reçu. Les deux CPU warp, le Jump CPU et les Base CPU, sont aussi refusés tant que vous transportez un objet de mission (« Vous ne pouvez pas utiliser de CPU warp en transportant un objet de mission. ») : voir [Objets de mission](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drones
 
-Activez un Repair Drone (REP) et il répare la coque jusqu’à ce qu’elle soit pleine. Il ne démarre qu’après 10 secondes sans coup reçu, et chaque coup reçu l’éteint. Si plusieurs sont installés, c’est le meilleur qui travaille. Un [Auto-Repair CPU](#auto-repair-cpu) le réactive à votre place. Les taux figurent dans [Combat](/wiki/03-Mechanics/Combat.md). Pendant qu’il répare, de petits drones de réparation sortent du vaisseau, tournent autour et arrosent la coque de faisceaux, un pour un Repair Drone I, deux pour un II, trois pour un III ou un IV, et les pilotes proches les voient ; ils retournent s’arrimer quand la réparation s’arrête.
+Activez un Repair Drone (REP) et il répare la coque jusqu’à ce qu’elle soit pleine. Il ne démarre qu’après 10 secondes sans coup reçu, et chaque coup reçu l’éteint. Si plusieurs sont installés, c’est le meilleur qui travaille. Un [Auto-Repair CPU](#auto-repair-cpu) le réactive à votre place. Les taux figurent dans [Combat](/wiki/03-Mechanics/Combat.md). Pendant qu’il répare, de petits drones de réparation sortent du vaisseau, tournent autour et arrosent la coque de faisceaux, un pour un Repair Drone I, deux pour un II, trois pour un III ou un IV, et les pilotes proches les voient ; ils retournent s’arrimer quand la réparation s’arrête. Appuyer sur REP pour l’activer fait aussi retentir une douce pulsation de réparation, celle de l’Emergency Repair en un peu plus grave et plus discrète, et pendant qu’il répare, un petit nombre vert flotte environ une fois par seconde au-dessus de votre propre vaisseau avec la coque qu’il vient de réparer (+N), y compris quand c’est un Auto-Repair CPU qui l’a activé.
 
 ## Cloaking CPU
 

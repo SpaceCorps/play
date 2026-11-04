@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -15,7 +15,7 @@ Os extras são os equipamentos utilitários dos **slots extras** de uma nave (do
 
 As Cloaking CPUs são vendidas só na Loja. Elas não podem ser fundidas, e nada as dá de graça. A **EMP Charge** não é mais um extra: desde a 0.4.21 é um consumível, levado em uma pilha como um foguete e sem equipar em slot nenhum, então não ocupa nenhum dos seus slots de extra (veja [Foguetes](/wiki/06-Items/Rockets.md#emp-charge)). As duas **Energetic Walls** também não são mais extras: desde a 0.4.22 também são consumíveis, levadas em uma pilha e sem ocupar nenhum slot (veja [Energetic Wall](#energetic-wall)).
 
-O **kit inicial** de um piloto novo já equipa dois extras nos dois slots extras da Protos: uma **Base CPU I** (10 usos, um teletransporte até a base da sua corporação) e um **Repair Drone I**. Arraste-os do seletor de Extras da barra de atalhos para um slot para usá-los. Só os pilotos novos recebem o kit: quem se alistou antes da 0.4.10 não o tem.
+O **kit inicial** de um piloto novo já equipa dois extras nos dois slots extras da Protos: uma **Base CPU I** (10 usos, um teletransporte até a base da sua corporação) e um **Repair Drone I**. O botão **REP** do Repair Drone I já está na sua barra de atalhos, no slot 2 (tecla `2`), ao lado da sua munição no slot 1; a Base CPU I você mesmo arrasta do seletor de Extras para um slot. Só os pilotos novos recebem o kit: quem se alistou antes da 0.4.10 não o tem, e quem se registrou antes da 0.4.27 mantém a barra de atalhos que tem.
 
 Mais oito CPUs não são vendidas: a Montagem as cria depois que o Centro de Pesquisa do Skylab as pesquisou (veja [Pesquisa](/wiki/03-Mechanics/Research.md)). São a Extra Slots CPU I, II e III, a Jump CPU, a Base CPU I e II, a Auto-Repair CPU e a Auto-Rocket CPU, e [a última seção](#research-cpus) diz o que cada uma faz. Como a Cloaking CPU, a Jump CPU e as Base CPUs são para um momento tranquilo: nenhuma das três inicia em até 10 segundos depois de um tiro seu ou de um acerto que você sofra. As duas CPUs de warp, a Jump CPU e as Base CPUs, também são recusadas enquanto você carrega um item de missão (“Você não pode usar um CPU de warp enquanto carrega um item de missão.”): veja [Itens de missão](/wiki/03-Mechanics/Quests.md#quest-items).
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Drones de reparo {#repair-drones}
 
-Ative um Repair Drone (REP) e ele conserta o casco até que esteja cheio. Ele só começa depois de 10 segundos sem sofrer um acerto, e qualquer acerto o desliga. Com vários equipados, funciona o melhor deles. Uma [Auto-Repair CPU](#auto-repair-cpu) o liga de novo por você. As taxas estão em [Combate](/wiki/03-Mechanics/Combat.md). Enquanto repara, pequenos drones de reparo saem da nave, giram em volta dela e atingem o casco com feixes, um para um Repair Drone I, dois para um II, três para um III ou IV, e os pilotos por perto os veem; eles voltam a acoplar quando o reparo para.
+Ative um Repair Drone (REP) e ele conserta o casco até que esteja cheio. Ele só começa depois de 10 segundos sem sofrer um acerto, e qualquer acerto o desliga. Com vários equipados, funciona o melhor deles. Uma [Auto-Repair CPU](#auto-repair-cpu) o liga de novo por você. As taxas estão em [Combate](/wiki/03-Mechanics/Combat.md). Enquanto repara, pequenos drones de reparo saem da nave, giram em volta dela e atingem o casco com feixes, um para um Repair Drone I, dois para um II, três para um III ou IV, e os pilotos por perto os veem; eles voltam a acoplar quando o reparo para. Ao apertar REP para ligá-lo, também toca um pulso de reparo suave, parecido com o do Emergency Repair, só que um pouco mais grave e mais baixo, e enquanto ele repara, um pequeno número verde flutua sobre a sua própria nave cerca de uma vez por segundo com o casco que acabou de reparar (+N), também quando foi uma Auto-Repair CPU que o ligou.
 
 ## Cloaking CPU
 

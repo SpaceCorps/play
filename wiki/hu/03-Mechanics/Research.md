@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 151 technológiából 135). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 158 technológiából 142). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -95,8 +95,11 @@ Mit tesz a boost egy kutatás idejével, ha az elejétől fogva működik:
 | Kutatási idő | Boosttal | Boostok az egészre | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 perc | 15 perc | 1 | 5 000 |
+| 1 óra | 30 perc | 1 | 5 000 |
 | 3 óra | 1 óra 30 perc | 1 | 5 000 |
+| 4 óra | 2 óra | 1 | 5 000 |
 | 6 óra | 3 óra | 1 | 5 000 |
+| 8 óra | 4 óra | 1 | 5 000 |
 | 10 óra | 5 óra | 1 | 5 000 |
 | 1 nap | 12 óra | 1 | 5 000 |
 | 2 nap | 1 nap | 1 | 5 000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### Lézerlőszer {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 - **Sorban.** Minden szint az előzőt igényli, és a magasabb szint felváltja az alacsonyabbat: a táblázat azt az összeget mutatja, amit az adott szint ad, nem azt, amit hozzátesz.
 - A **Hatékony nassolnivalók** (Kebab, Pelmeni, Burger) hajótestet adnak minden hajódnak, mindkét konfigurációban.
 - A **Lezárt hátsó ajtó** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
-- A **Kotrógépes bányászat** megnöveli, amit egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden ládájából kapsz, Thuliumból és ércből egyaránt.
+- A **Kotrógépes bányászat** azt éri el, hogy egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md), amelyet te indítasz, minden ládába többet tesz, Thuliumból és ércből egyaránt. Annak a pilótának a kutatása számít, aki a futást elindítja, és mindenki, aki felszedi a ládákat, a nagyobb mennyiséget kapja. A kotrógép vezérlőpultja megmutatja, kié a futás és milyen részesedést visz.
 - A **Térelmélet** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
 - A **Szunnyadó tudás** szintenként wipe-pontot fizet, amikor a kutatása befejeződik a Központban, és minden wipe után újra ([Wipe-pontok szerzése](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, a Szunnyadó tudás öt szintje nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
 
@@ -372,9 +391,9 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | Kotrógépes bányászat I | +20% kotrógép-hozam | – | 1 nap | 10 | 500 000 | 5 000 |
 | Kotrógépes bányászat II | +30% kotrógép-hozam | Kotrógépes bányászat I | 2 nap | 20 | 1 500 000 | 15 000 |
 | Kotrógépes bányászat III | +40% kotrógép-hozam | Kotrógépes bányászat II | 3 nap | 30 | 4 000 000 | 40 000 |
-| Térelmélet I | +2% pajzselnyelés | – | 1 nap | 20 | 500 000 | 5 000 |
-| Térelmélet II | +3% pajzselnyelés | Térelmélet I | 2 nap | 40 | 1 500 000 | 15 000 |
-| Térelmélet III | +5% pajzselnyelés | Térelmélet II | 3 nap | 60 | 5 000 000 | 50 000 |
+| Térelmélet I | +4% pajzselnyelés | – | 1 nap | 20 | 500 000 | 5 000 |
+| Térelmélet II | +7% pajzselnyelés | Térelmélet I | 2 nap | 40 | 1 500 000 | 15 000 |
+| Térelmélet III | +10% pajzselnyelés | Térelmélet II | 3 nap | 60 | 5 000 000 | 50 000 |
 | Szunnyadó tudás I | +50 wipe-pont | A többi technológiából 20% (30 / 146) | 1 óra | – | – | – |
 | Szunnyadó tudás II | +50 wipe-pont | Szunnyadó tudás I; A többi technológiából 40% (59 / 146) | 1 óra | – | – | – |
 | Szunnyadó tudás III | +50 wipe-pont | Szunnyadó tudás II; A többi technológiából 60% (88 / 146) | 1 óra | – | – | – |
@@ -460,18 +479,25 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 óra | 36 000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 nap | 86 400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 óra | 36 000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 perc | 1 800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 óra | 14 400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 óra | 3 600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 óra | 10 800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 óra | 28 800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 óra | 3 600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 óra | 21 600 | – |
 
 Az osztályok kutatási idő szerint:
 
 | Osztály | Kutatási idő | Technológiák | Egymás után | Tudomány | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 perc | 10 | 5 óra | 18 000 | 0 |
-| B | 3 óra–6 óra | 20 | 2 nap 21 óra | 248 400 | 0 |
-| C | 10 óra | 17 | 7 nap 2 óra | 612 000 | 95 |
+| A | 30 perc–1 óra | 13 | 7 óra 30 perc | 27 000 | 0 |
+| B | 3 óra–6 óra | 23 | 3 nap 10 óra | 295 200 | 0 |
+| C | 8 óra–10 óra | 18 | 7 nap 10 óra | 640 800 | 95 |
 | D | 1 nap–2 nap | 23 | 28 nap | 2 419 200 | 319 |
-| Összesen |  | 70 | 38 nap 4 óra | 3 297 600 | 414 |
+| Összesen |  | 77 | 39 nap 3 óra 30 perc | 3 382 200 | 414 |
 
-Egymás után kutatva a teljes fa 38 nap 4 óra alatt készül el. Ha a boost végig be van kapcsolva, 19 nap 2 óra alatt, ami 20 boost és 100 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 39 nap 3 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 19 nap 13 óra 45 perc alatt, ami 20 boost és 100 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 

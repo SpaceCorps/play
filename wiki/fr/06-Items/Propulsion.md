@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1e45a320f392e480 -->
+<!-- wiki-i18n source: 324144e437f90c5d -->
 <!-- wiki-i18n title: Propulsion -->
 # Propulsion et vitesse {#propulsion-speed}
 
@@ -39,13 +39,13 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## Moteurs {#engines}
 
-Les moteurs sont la principale source de poussée de votre vaisseau. Un moteur placé dans un **emplacement de compétence** vous donne à la place l’**Afterburner** de la colonne Effet spécial, un regain de vitesse de dix secondes (plus long avec davantage de moteurs), et n’ajoute aucune poussée propre (voir [Compétences](/wiki/03-Mechanics/Abilities.md)).
+Les moteurs sont la principale source de poussée de votre vaisseau. Un moteur placé dans un **emplacement de compétence** vous donne à la place l’**Afterburner** de la colonne Effet spécial, un regain de vitesse de quinze secondes (plus long avec davantage de moteurs), et n’ajoute aucune poussée propre (voir [Compétences](/wiki/03-Mechanics/Abilities.md)).
 
 | Nom | Rareté | Vitesse de base | Bonus de vitesse (%) | Bonus de bouclier (%) | Emplacements | Effet spécial | Coût |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
 | **Engine I** | Médiocre | +2 | +2 % | -2 % | 1 | Afterburner I | 20 000 crédits |
-| **Engine II** | Commun | +4 | +4 % | -8 % | 2 | Afterburner II | À fabriquer |
-| **Engine III** | Rare | +6 | +5 % | -15 % | 3 | Afterburner III | À fabriquer |
+| **Engine II** | Commun | +4 | +3 % | -8 % | 2 | Afterburner II | À fabriquer |
+| **Engine III** | Rare | +6 | +4 % | -15 % | 3 | Afterburner III | À fabriquer |
 
 L’**Engine II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Engine III** s’y fabrique à partir d’un Engine II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement et les bonus du moteur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le moteur à consommer (et sortez-en les propulseurs) : un moteur installé ou qui contient des propulseurs n’est pas consommé.
 
@@ -90,4 +90,4 @@ Le palier I de chaque famille se vend 20 000 crédits. Les paliers II à IV se
 
 ### Distancer les aliens {#outrunning-aliens}
 
-Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion avec un Engine II et deux propulseurs vole à 221,4 avec des Impulse Thruster I : toujours sous le Crystalys, il faut donc un propulseur fabriqué à l’Assemblage pour le distancer (230,8 avec des Impulse Thruster II, 240,3 avec des III, 243,3 avec des IV). Les Momentum Thrusters volent à la même vitesse ou un peu plus bas sur ce vaisseau (221,4 avec des Momentum Thruster I ; puis 230,5, 238,4 et 240,7 avec des II à IV) : le palier I des deux familles reste sous un Crystalys, et chaque palier fabriqué à l’Assemblage passe au-dessus, le palier II de 0,8 et 0,5 seulement.
+Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion avec un Engine II et deux propulseurs vole à 219,3 avec des Impulse Thruster I et à 228,6 avec des II : tous deux toujours sous le Crystalys, il faut donc un propulseur de palier III pour le distancer (238,0 avec des Impulse Thruster III, 241,0 avec des IV). Les Momentum Thrusters volent à la même vitesse ou un peu plus bas sur ce vaisseau (219,3 avec des Momentum Thruster I ; puis 228,3, 236,1 et 238,4 avec des II à IV) : les paliers I et II des deux familles restent sous un Crystalys, et les paliers III et IV passent au-dessus.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 74226336693d1ae9 -->
+<!-- wiki-i18n source: 93ce109824aad6c2 -->
 <!-- wiki-i18n title: Velocidade -->
 # Cálculo da velocidade {#speed-calculation}
 
@@ -41,7 +41,7 @@ Além disso, a velocidade do motor é multiplicada pela eficiência do slot (nú
 
 O percentual total de bônus de velocidade é a soma de todos os bônus de velocidade dos motores (e híbridos) equipados, menos as penalidades dos escudos equipados:
 
-- **Bônus de velocidade dos motores**: os motores somam percentuais de velocidade positivos (por exemplo, o Engine III soma `+5%`).
+- **Bônus de velocidade dos motores**: os motores somam percentuais de velocidade positivos (por exemplo, o Engine III soma `+4%`).
 - **Penalidade de velocidade dos escudos**: escudos pesados sobrecarregam a nave e somam percentuais de velocidade negativos (por exemplo, o Heavy Shield Core soma `-5%` de velocidade).
 - **Escala por slot**: esses bônus e penalidades percentuais também são escalados pela eficiência do slot em que o item está equipado. Um escudo em um dos seus drones deixa você mais lento, assim como um escudo em um slot de núcleo.
 - **Nunca abaixo de zero**: por mais escudos que você carregue, a sua velocidade não cai abaixo de 0.

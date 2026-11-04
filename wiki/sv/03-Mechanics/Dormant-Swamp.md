@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Skada per skott, i varje värld:
 - **Kamouflage tar dig in.** Inget torn ser någonsin ett kamouflerat skepp, eller ett inne i en EMP:s fönster, på något avstånd. En explosion riktad mot ett synligt skepp som brister bredvid ett kamouflerat skadar det ändå och avslutar dess kamouflage.
 - **De skjuter bara på piloter,** aldrig på utomjordingar, koncernpiloter eller svärmen, och skyddet hos ett skepp som nyss kommit tillbaka efter en förstörelse gäller också mot dem.
 - **Varningsringen.** Ett skepp som korsar ringen utanför zonen får en systemrad: tornen skjuter på varje skepp de ser, och något sover i mitten. Det varnas igen först när det har lämnat ringen och kommit tillbaka.
-- **Att ta sig ut.** Om du förstörs där och återvänder på platsen, eller loggar in inne i zonen, placeras du utanför. En kurs du klickar böjs runt zonen, och ett meddelande varnar när platsen du klickar på ligger innanför.
+- **Att ta sig ut.** Om du förstörs där kan du inte återvända på platsen (en farosektor erbjuder bara basen och närmaste portal), och loggar du in inne i zonen placeras du utanför. En kurs du klickar böjs runt zonen, och ett meddelande varnar när platsen du klickar på ligger innanför.
 
 ## Utomjordingarna {#the-aliens}
 
 Tre utomjordingar från den försvunna civilisationen lever här, var och en med egna siffror. De betalas som en svärms boss: **efter den skada som gjorts**, till varje pilot som gjort minst den andel som anges i [Svärmar](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), och lådan går till piloten som gjorde mest skada. Deras nedskjutningar räknas till dina PvE-poäng för grad som en svärmskepps, i proportion till betalningen ([Grader](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Var och ens sköld tar upp 80 % av varje träff så länge den håller ([Sköldar](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** Den smäckra jägaren, den snabbaste utomjordingen i spelet (lika snabb som en Storm med Afterburner III). Några patrullerar alltid träskets omgivning, och andra kommer i vågor till grävmaskinerna. Den är aggressiv, jagar den närmaste pilot den kan se och ser aldrig ett kamouflerat skepp.
+- **Slumbering Void.** Den smäckra jägaren, den snabbaste utomjordingen i spelet (snabbare än en Storm med Afterburner III). Några patrullerar alltid träskets omgivning, och andra kommer i vågor till grävmaskinerna. Den är aggressiv, jagar den närmaste pilot den kan se och ser aldrig ett kamouflerat skepp.
 - **Inert Mass.** Ett dött vrak med violetta sprickor, stort som en liten station. De håller sig inom ett fast avstånd från träskets mitt och lämnar det inte just nu. Den skjuter **Dormant Lances**: styrda raketer med mycket lång räckvidd som följer ett skepp tills det kamouflerar sig, öppnar ett EMP-fönster, går in i en säker ring, hoppar eller dör. Den är snabbare än varje skepp, så bara de avbrotten hjälper. En asteroid i vägen för en Dormant Lance stoppar den, och Lance skadar asteroiden med sin egen skada (ingen får betalt för det); en sten ger alltså bara skydd mot en Inert Mass i några träffar.
 - **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Den är **immun**: skott och raketer träffar och gör ingenting, målfönstret visar fulla staplar och ordet Immun. Ett senare event kommer att göra det möjligt att strida mot den; dess belöningar nedan är nedskrivna och går ännu inte att få.
 

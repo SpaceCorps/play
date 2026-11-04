@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Secteurs dangereux -->
 # Secteurs dangereux {#danger-sectors}
 
@@ -52,7 +52,7 @@ Chaque monde a sa propre copie de tout, et un pulsar et son excavatrice se tienn
 
 - **Radiation.** Une excavatrice qui a surchauffé ou qui a été détruite, et son pulsar, brûlent tout vaisseau qui reste dans leurs cercles ([Excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Le jeu vous prévient avant, et les cercles sont dessinés au sol en vol et sur la minicarte.
 - **Les canons du marais.** Les tourelles du marais tirent sur un vaisseau qu’elles voient bien avant qu’il puisse voir quoi que ce soit qui vaille le voyage ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Un cap que vous cliquez est infléchi autour des canons et de la radiation, comme autour du trou noir, et une alerte vous prévient quand l’endroit cliqué se trouve à l’intérieur.
-- **Si vous êtes détruit là-bas,** le choix de revenir **sur place** vous met au point le plus proche hors de la radiation et hors de la zone du marais, comme pour le trou noir ([Premiers pas](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Si vous êtes détruit là-bas,** vous ne pouvez pas revenir **sur place** : dans un secteur dangereux, l’écran de destruction ne propose que votre **base** et le **portail le plus proche**, et « Sur place » est grisé. Le demander est refusé et ne coûte rien ([Premiers pas](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Un groupe et une issue.** Les excavatrices attirent autant les Voids que les rivaux. Venez avec un [groupe](/wiki/03-Mechanics/Groups.md), sachez quelle porte est la plus proche et rappelez-vous que, dans les secteurs dangereux, vous ne pouvez pas sauter tant qu’on vous attaque ([Sauter sous le feu](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **Le reste est du PvP comme toujours.** Rien ici n’est un endroit sûr : les règles normales de votre monde s’appliquent, rivaux compris.
 

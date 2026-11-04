@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Till sist tillämpas globala multiplikatorer (som aktiva boosters, till exempel 
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - En buren [drönarformation](/wiki/03-Mechanics/Formations.md) kan multiplicera resultatet en gång till: till exempel Auger +21 % laserskada, Gyre −11 % och, mot utomjordingar, Culler +12 % (en egen faktor, inte en del av boosterprocenten).
 - Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md).
+- **Dark Matter Ammo** (0.5.0) ändrar själva salvan: Dark Matter Ammo I slumpar sin multiplikator (x1,5 till x5) för varje salva, och Dark Matter Ammo II träffar med x6 bara var 1,5:e sekund och ger dig en fjärdedel av den skada som målets sköld tog. **Antimatter Battery**-ammunition tränger igenom 20 % av målets absorption. Se [Antimatter- och Dark Matter-ammunition](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Raketer {#3b-rockets}
 
@@ -115,7 +116,7 @@ När ditt skepp träffas av en fiende eller en NPC hanteras skadan så här:
 ### 1. Sköldabsorption {#1-shield-absorption}
 
 Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **genomsnittliga absorption**: medelvärdet av dina sköldars absorption, var och en med sina sköldcellers, plus Shield Absorbance Boost från säsongsbutiken (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)). Den har **inget tak vid 100 %**: det sköldarna tar av en träff är din absorption **minus angriparens sköldgenomträngning**, mellan 0 % och 100 %.
-- **Absorption** (t.ex. 80 % för den bästa skölden med de bästa cellerna, 56 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 45 % på sköldarna hos ett skepp med 80 %, och resten (55 % där) träffar HP direkt.
+- **Absorption** (t.ex. 85 % för den bästa skölden med de bästa cellerna, 58 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 50 % på sköldarna hos ett skepp med 85 %, och resten (50 % där) träffar HP direkt.
 - **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+3 % till +12 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.

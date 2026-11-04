@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2a2e684c4e3a5674 -->
+<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
@@ -69,7 +69,7 @@ Die 37 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 151 Technologien. | Legendär |
+| Archivar | Erforsche alle 158 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 
@@ -118,7 +118,7 @@ Ein versteckter Erfolg, der noch gesperrt ist, ist eine geschlossene Karte ohne 
 Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 40 Erfolge geben einen, für immer deiner, sobald du den Erfolg freischaltest. Titel kommen auch vom Ende einer Saison (dein Rang, der beste Pilot jedes Konzerns und der Pilot mit den meisten PvE-Punkten) und vom Team des Spiels, etwa der Titel **Pioneer** für jedes Konto, das am Tag des Steam-Starts des Spiels existierte.
 
 - Du besitzt viele Titel und **trägst einen** auf einmal. Du wählst ihn in deinem **Pilotenprofil** und kannst ihn wieder ablegen.
-- Dein Titel erscheint in deinem **Profil**, in den **Ranglisten**, im **Gruppen**-Fenster und wenn du im **Chat** auf deinen Namen zeigst. Über deinem Schiff auf der Karte erscheint er nicht.
+- Dein Titel erscheint in deinem **Profil**, in den **Ranglisten**, im **Gruppen**-Fenster und wenn du im **Chat** auf deinen Namen zeigst. Seit 0.4.27 erscheint er auch auf der Karte: als kleine, gedämpfte Zeile in der Seltenheitsfarbe des Titels **über dem Namen des Schiffs jedes Piloten**, auch über deinem. Ein langer Titel wird mit Auslassungspunkten abgeschnitten. In einer Menge (mehr als acht Piloten auf dem Bildschirm) behalten nur deine Freunde, dein Ziel und das Schiff, das du gewählt hast, ihren Titel, damit der Bildschirm lesbar bleibt. Im Zielfenster und auf der Minikarte erscheint er nicht.
 - Titel überleben den Wipe.
 
 ## Steam

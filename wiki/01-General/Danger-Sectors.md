@@ -50,7 +50,7 @@ Every world has its own copy of all of it, and a pulsar and its excavator stand 
 
 - **Radiation.** An excavator that has overheated or been destroyed, and its pulsar, burn every ship that stays inside their circles ([Giant Excavator](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). The game warns you before it happens, and the circles are drawn on the ground in flight and on the minimap.
 - **The swamp's guns.** A ship the swamp's turrets can see is shot at long before it can see anything worth the trip ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). A course you click is bent round the guns and the radiation, as it is round the black hole, and a toast warns you when the place you click lies inside.
-- **If you are destroyed there,** the choice to come back **on the spot** puts you at the nearest point outside the radiation and outside the swamp's zone, as it does for the black hole ([Getting Started](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **If you are destroyed there,** you cannot come back **on the spot**: in a Danger Sector the death screen offers only your **base** and the **nearest portal**, and "On the spot" is greyed out. A request for it is refused and costs nothing ([Getting Started](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **A group, and an escape.** The excavators draw Voids and rivals alike. Bring a [group](/wiki/03-Mechanics/Groups.md), know which gate is nearest, and remember that in the Danger Sectors you cannot jump out while you are being attacked ([Jumping Under Fire](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **The rest is PvP as ever.** Nothing here is a safe place: the normal rules of your world apply, rivals included.
 

@@ -1,18 +1,22 @@
-<!-- wiki-i18n source: 0c56fb69c3771892 -->
+<!-- wiki-i18n source: 76c0eb60501ac323 -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
-**무리**는 **리더** 아래에서 은하의 한 구역을 돌아다니는 외계인 집단입니다. 리더는 주변의 어떤 외계인보다 훨씬 강한 보스이고, **부하**들이 리더를 지키며 두 무리에서는 리더를 회복시키기도 합니다. 무리는 세 가지이며, 각각 고유한 문서가 있습니다.
+**무리**는 **리더** 아래에서 은하의 한 구역을 돌아다니는 외계인 집단입니다. 리더는 주변의 어떤 외계인보다 훨씬 강한 보스이고, **부하**들이 리더를 지키며 대부분의 무리에서는 리더를 회복시키기도 합니다. 무리는 일곱 가지이며, 각각 고유한 문서가 있습니다.
 
 - [Seeker 무리](/wiki/05-Swarms/Seeker-Swarm.md): Boss Seeker와 그 Seeker Slave. 가장 작은 무리로, 신규 파일럿이 비행하는 섹터에 있습니다.
 - [Pirate 무리](/wiki/05-Swarms/Pirate-Swarm.md): Pirate Boss와 그 Pirate Scout. 그룹을 위한 긴 전투입니다.
 - [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md): Dormant Force와 그 Dormant Pulse. 가장 강한 무리이며 전리품이 가장 풍부합니다.
+- [Phantasm 무리](/wiki/05-Swarms/Phantasm-Swarm.md): Boss Phantasm과 그 Phantasm Guard. 중간 레벨 파일럿 그룹을 위한 거대한 Phantasm으로, 기업의 바깥쪽 섹터에 있습니다.
+- [Goombah 무리](/wiki/05-Swarms/Goombah-Swarm.md): Boss Goombah와 그 Goombah Guard. 최강 파일럿 그룹을 위한 거대한 Goombah로, 같은 섹터에 있습니다.
+- [Crystalys 무리](/wiki/05-Swarms/Crystalys-Swarm.md): Boss Crystalys와 그 Crystalys Guard. 가장 단단한 외계인을 더 크게 키운 것으로, 위험 섹터 세 곳에 있습니다.
+- [Tesseract 무리](/wiki/05-Swarms/Tesseract-Swarm.md): Tesseract와, 공격받는 동안 풀려나는 Facet. 거대한 모함으로, 매우 큰 그룹을 위한 상대이며 위험 섹터 `DS-4`에 있습니다.
 
 무리의 함선은 **각각 독립된 종류의 외계인**입니다. 고유한 이름과 고유한 처치 횟수를 가지며, Seeker나 Phantasm 같은 다른 외계인으로는 집계되지 않습니다. 무리의 함선은 바탕이 된 함선의 모양을 하고 있고, 고유한 색조를 띠며 머리 위에 이름이 표시됩니다. Boss Seeker는 훨씬 큰 Seeker입니다.
 
 **클랜 워든**은 공개된 무리가 아닙니다. 클랜은 일일 라인의 마지막 단계를 위해 자기 워든을 직접 소환하며, 그 클랜만 피해를 줄 수 있습니다. 섹터를 돌아다니는 워든을 만날 일은 없고, 아래 표에도 나오지 않습니다. 워든은 무리의 보스처럼 피해량에 따라 보상을 받지만, 전리품은 가장 많은 피해를 준 사람을 위한 상자 하나가 아닙니다. 피해의 5% 이상을 준 파일럿은 모두 자기만의 [개인 상자](/wiki/03-Mechanics/Cargo.md#private-boxes)를 받습니다. [클랜](/wiki/03-Mechanics/Clans.md#clan-wardens)을 참고하세요.
 
-## 세 무리 {#the-three-swarms}
+## 무리 목록 {#the-swarms}
 
 <!-- swarms-list:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
@@ -22,6 +26,10 @@
 | [**Pirate 무리**](/wiki/05-Swarms/Pirate-Swarm.md) | 모든 기업의 `x-2`와 `x-3` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Pirate Boss** | 최대 5 × Pirate Scout, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
 | [**Dormant 무리**](/wiki/05-Swarms/Dormant-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3`, `DS-4`. 서로 사이를 비행합니다 | 월드마다 하나 | **Dormant Force** | 2 × Dormant Pulse, 리더와 함께 비행 | 무리 전체가 격파되고 1시간 뒤, 무작위 위험 섹터에서. 시즌 11일차부터: 30분, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에서, 모든 함선의 보상 ×2 |
 | [**Seeker 무리**](/wiki/05-Swarms/Seeker-Swarm.md) | 모든 기업의 `x-1`와 `x-2` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Seeker** | 최대 4 × Seeker Slave, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
+| [**Phantasm 무리**](/wiki/05-Swarms/Phantasm-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Phantasm** | 최대 4 × Phantasm Guard, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
+| [**Goombah 무리**](/wiki/05-Swarms/Goombah-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Goombah** | 최대 4 × Goombah Guard, 10초마다 새로 하나 | 리더가 격파되고 5분 뒤, 같은 섹터에서 |
+| [**Crystalys 무리**](/wiki/05-Swarms/Crystalys-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3` | 해당 섹터마다 하나씩, 월드마다 3개 | **Boss Crystalys** | 최대 3 × Crystalys Guard, 10초마다 새로 하나 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
+| [**Tesseract 무리**](/wiki/05-Swarms/Tesseract-Swarm.md) | 위험 섹터 `DS-4` | 월드마다 하나 | **Tesseract** | 최대 50 × Facet, 리더가 공격받는 동안 5초마다 10기 추가 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
 
 <!-- swarms-list:end -->
 
@@ -58,14 +66,14 @@
 
 ## 파일럿에게 알려지는 내용 {#what-the-pilots-are-told}
 
-Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해당 섹터의 파일럿에게 알립니다. Dormant 무리는 월드 전체에 알리며, 위험 섹터 맵과 은하 지도에 표시되어 파일럿이 찾을 수 있습니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 보스 처치는 킬 피드에도 한 줄이 올라오며, 처치 공로를 인정받은 파일럿의 이름이 나옵니다. 누구에게 알려지는지는 각 문서의 *한눈에 보기* 목록에 적혀 있습니다.
+Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나타날 때와 처치될 때 해당 섹터의 파일럿에게 알립니다. Dormant 무리는 월드 전체에 알리며, 위험 섹터 맵과 은하 지도에 표시되어 파일럿이 찾을 수 있습니다. 이 줄들은 시스템 줄입니다. 채팅의 **시스템** 탭에 읽지 않은 줄 수와 함께 표시되고, **전체** 탭이나 **지역** 탭에는 나오지 않습니다. 보스 처치는 킬 피드에도 한 줄이 올라오며, 처치 공로를 인정받은 파일럿의 이름이 나옵니다. 누구에게 알려지는지는 각 문서의 *한눈에 보기* 목록에 적혀 있습니다.
 
 ## 무리와 싸우기 {#fighting-a-swarm}
 
-- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다.
+- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다. Tesseract만 예외로, 무기가 없고, 몇 초 동안 아무도 피해를 주지 않으면 선체와 실드를 스스로 회복하며, Facet은 처음 공격한 파일럿이 아니라 가장 많은 피해를 입힌 파일럿을 쫓습니다.
 - **무리의 함선은 파일럿하고만 싸웁니다.** 외계인에게 사격하지 않고 외계인도 이들에게 사격하지 않으며, [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 이들을 무시합니다. 무리의 함선을 사냥하지도, 맞서 싸우는 당신을 도우러 오지도 않습니다.
 - **로켓.** Pirate Boss와 Dormant Force, Pulse는 자신을 공격한 파일럿에게 **직선** 로켓, 즉 [Rivet 로켓](/wiki/06-Items/Rockets.md)을 발사합니다. 계속 움직이는 함선은 피하지만 멈춰 있는 함선은 맞습니다.
-- **전투의 규모.** Seeker 무리는 2명, Pirate 무리는 소규모 그룹, Dormant 무리는 최강 함선들의 대규모 그룹을 위한 상대입니다. 높은 월드일수록 다른 외계인과 마찬가지로 더 많은 파일럿이 필요합니다.
+- **전투의 규모.** Seeker 무리는 2명, Pirate 무리와 Phantasm 무리는 소규모 그룹, Goombah 무리는 최강 함선들의 그룹, Crystalys 무리와 Dormant 무리는 그들의 대규모 그룹을, Tesseract 무리는 그보다 훨씬 큰 그룹을 위한 상대입니다. 높은 월드일수록 다른 외계인과 마찬가지로 더 많은 파일럿이 필요합니다.
 
 ## 준비물 {#what-to-bring}
 
@@ -80,8 +88,8 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 
 - **보상은 피해량에 따라 나뉩니다.** 위 규칙에 나온 비율 이상의 피해를 입힌 파일럿이 입힌 피해에 비례해 보상을 받습니다. 처치의 크레딧, Thulium, 경험치, 명예는 이들 사이에서 나뉩니다. 그 비율에 못 미친 파일럿은 아무것도 받지 못합니다.
 - **화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다.** 다른 외계인과 마찬가지로 30초 동안은 그 파일럿(과 소속 클랜)의 것이고, 그 뒤에는 누구나 가져갈 수 있습니다([화물](/wiki/03-Mechanics/Cargo.md)). Dormant의 각 함선은 자체 피해 집계와 자체 상자를 가집니다.
-- **부하는 평소처럼 지급합니다.** Pirate Scout와 Seeker Slave는 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
-- **보스의 보상은 주변 외계인보다 크게 설계되어 있습니다.** Pirate Boss와 1분 싸우면 Goombah와 1분 싸우는 것보다 보상이 많고, Dormant 무리는 그보다도 많습니다. Boss Seeker의 보상은 정확히 Seeker 10마리분입니다.
+- **부하는 평소처럼 지급합니다.** Pirate Scout, Seeker Slave, 그리고 Phantasm, Goombah, Crystalys 무리의 Guard는 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
+- **보스의 보상은 주변 외계인보다 크게 설계되어 있습니다.** Pirate Boss, Boss Phantasm, Boss Goombah와 1분 싸우면 Goombah와 1분 싸우는 것보다 보상이 많고, Dormant 무리나 Boss Crystalys와 1분 싸우면 Crystalys와 1분 싸우는 것보다 많습니다. Boss Seeker의 보상은 정확히 Seeker 10마리분입니다.
 - **Dormant Swamp의 외계인**(Slumbering Void, Inert Mass, Unwakened)은 보스처럼 피해에 따라 보상이 지급되고 내 순위의 PvE 포인트에 더해집니다. 수치는 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)에 있습니다.
 
 모든 처치는 그 함선 고유의 이름으로 처치 통계에 집계되며, 랭킹에 PvE 포인트를 더합니다.
@@ -97,6 +105,14 @@ Seeker 무리와 Pirate 무리는 보스가 나타날 때와 처치될 때 해�
 | **Dormant Pulse** | Dormant 무리 | 11 |
 | **Boss Seeker** | Seeker 무리 | 5 |
 | **Seeker Slave** | Seeker 무리 | 1 |
+| **Boss Phantasm** | Phantasm 무리 | 8 |
+| **Phantasm Guard** | Phantasm 무리 | 1 |
+| **Boss Goombah** | Goombah 무리 | 14 |
+| **Goombah Guard** | Goombah 무리 | 3 |
+| **Boss Crystalys** | Crystalys 무리 | 21 |
+| **Crystalys Guard** | Crystalys 무리 | 6 |
+| **Tesseract** | Tesseract 무리 | 42 |
+| **Facet** | Tesseract 무리 | 0 |
 
 <!-- swarms-points:end -->
 

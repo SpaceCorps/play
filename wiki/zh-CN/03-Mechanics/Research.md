@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 20209f353955718c -->
+<!-- wiki-i18n source: 921da8d25c430cd6 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（151 项科技中的 135 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
+**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（158 项科技中的 142 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -95,8 +95,11 @@
 | 研究时间 | 加速后 | 覆盖全程所需加速次数 | Thulium |
 | :--- | :--- | ---: | ---: |
 | 30 分钟 | 15 分钟 | 1 | 5,000 |
+| 1 小时 | 30 分钟 | 1 | 5,000 |
 | 3 小时 | 1 小时 30 分钟 | 1 | 5,000 |
+| 4 小时 | 2 小时 | 1 | 5,000 |
 | 6 小时 | 3 小时 | 1 | 5,000 |
+| 8 小时 | 4 小时 | 1 | 5,000 |
 | 10 小时 | 5 小时 | 1 | 5,000 |
 | 1 天 | 12 小时 | 1 | 5,000 |
 | 2 天 | 1 天 | 1 | 5,000 |
@@ -327,6 +330,22 @@ P.E.T. Station III | extra, rare | craft 1100000 Credits, 12000 Thulium, 900 s |
 P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ```
 
+### 激光弹药 {#tree-laser-ammo}
+
+```tree research
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
+Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+
+Ultra Core => Experimental Fusion Core
+Siphon Battery II => Antimatter Battery I => Antimatter Battery II
+Dark Matter Ammo I => Dark Matter Ammo II
+```
+
 
 <!-- research-tree:end -->
 
@@ -352,7 +371,7 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 - **按顺序。** 每一级都需要上一级，高等级会取代低等级：表中列出的是每一级给出的总数，而不是它增加的部分。
 - **高效零食**（烤肉串、俄式饺子、汉堡）为你拥有的每艘船增加船体，两套配置都有效。
 - **密封后门** 提高每种火箭的携带上限，无论你在哪里购买、制造或交易。
-- **挖掘机采矿** 提高你从[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)每个箱子里拿到的数量，Thulium 和矿石都一样。
+- **挖掘机采矿** 会让你启动的[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)在每个箱子里多放 Thulium 和矿石。起作用的是启动这次运行的飞行员的研究，拾取箱子的人都会拿到更多的数量。挖掘机的控制面板会显示这是谁的运行、它带有多少加成。
 - **场论** 提高你的护盾对每次命中所吸收的比例。没有护盾的船得不到任何加成。
 - **沉睡的知识** 在研究于研究中心完成时，每一级都会支付重置点数，每次重置之后还会再支付一次（[赚取重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。除了上一级，它还需要研究完其他科技的一定比例（飞行员分类的科技计入，“沉睡的知识”这五项不计入），无论你是怎么得到它们的；表中列出了每个比例，以及它对应多少项科技。
 
@@ -372,9 +391,9 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | 挖掘机采矿 I | 挖掘机产出 +20% | – | 1 天 | 10 | 500,000 | 5,000 |
 | 挖掘机采矿 II | 挖掘机产出 +30% | 挖掘机采矿 I | 2 天 | 20 | 1,500,000 | 15,000 |
 | 挖掘机采矿 III | 挖掘机产出 +40% | 挖掘机采矿 II | 3 天 | 30 | 4,000,000 | 40,000 |
-| 场论 I | 护盾吸收 +2% | – | 1 天 | 20 | 500,000 | 5,000 |
-| 场论 II | 护盾吸收 +3% | 场论 I | 2 天 | 40 | 1,500,000 | 15,000 |
-| 场论 III | 护盾吸收 +5% | 场论 II | 3 天 | 60 | 5,000,000 | 50,000 |
+| 场论 I | 护盾吸收 +4% | – | 1 天 | 20 | 500,000 | 5,000 |
+| 场论 II | 护盾吸收 +7% | 场论 I | 2 天 | 40 | 1,500,000 | 15,000 |
+| 场论 III | 护盾吸收 +10% | 场论 II | 3 天 | 60 | 5,000,000 | 50,000 |
 | 沉睡的知识 I | +50 重置点数 | 其他科技的 20%（30 / 146 项） | 1 小时 | – | – | – |
 | 沉睡的知识 II | +50 重置点数 | 沉睡的知识 I; 其他科技的 40%（59 / 146 项） | 1 小时 | – | – | – |
 | 沉睡的知识 III | +50 重置点数 | 沉睡的知识 II; 其他科技的 60%（88 / 146 项） | 1 小时 | – | – | – |
@@ -460,18 +479,25 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [P.E.T. Station II](/wiki/06-Items/Extras.md) | [P.E.T. Station I](/wiki/06-Items/Extras.md) | C | 10 小时 | 36,000 | – |
 | [P.E.T. Station III](/wiki/06-Items/Extras.md) | [P.E.T. Station II](/wiki/06-Items/Extras.md) | D | 1 天 | 86,400 | – |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | – | C | 10 小时 | 36,000 | – |
+| [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | – | A | 30 分钟 | 1,800 | – |
+| [Experimental Fusion Core](/wiki/06-Items/Lasers.md#laser-ammunition) | [Ultra Core](/wiki/06-Items/Lasers.md#laser-ammunition) | B | 4 小时 | 14,400 | – |
+| [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | – | A | 1 小时 | 3,600 | – |
+| [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Siphon Battery II](/wiki/06-Items/Lasers.md#siphon-battery) | B | 3 小时 | 10,800 | – |
+| [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 小时 | 28,800 | – |
+| [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 小时 | 3,600 | – |
+| [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 小时 | 21,600 | – |
 
 按研究时间划分的类别：
 
 | 类别 | 研究时间 | 科技数 | 逐项研究合计 | 科研点 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 分钟 | 10 | 5 小时 | 18,000 | 0 |
-| B | 3 小时 至 6 小时 | 20 | 2 天 21 小时 | 248,400 | 0 |
-| C | 10 小时 | 17 | 7 天 2 小时 | 612,000 | 95 |
+| A | 30 分钟 至 1 小时 | 13 | 7 小时 30 分钟 | 27,000 | 0 |
+| B | 3 小时 至 6 小时 | 23 | 3 天 10 小时 | 295,200 | 0 |
+| C | 8 小时 至 10 小时 | 18 | 7 天 10 小时 | 640,800 | 95 |
 | D | 1 天 至 2 天 | 23 | 28 天 | 2,419,200 | 319 |
-| 全部 |  | 70 | 38 天 4 小时 | 3,297,600 | 414 |
+| 全部 |  | 77 | 39 天 3 小时 30 分钟 | 3,382,200 | 414 |
 
-逐项依次研究，整棵科技树共需 38 天 4 小时。若全程开着加速，需要 19 天 2 小时，即 20 次加速和 100,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 39 天 3 小时 30 分钟。若全程开着加速，需要 19 天 13 小时 45 分钟，即 20 次加速和 100,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 

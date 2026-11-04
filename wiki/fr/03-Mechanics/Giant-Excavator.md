@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b0a1bdc37188d8da -->
+<!-- wiki-i18n source: 554cae2c2821218e -->
 <!-- wiki-i18n title: Excavatrice géante -->
 # Excavatrice géante {#giant-excavator}
 
@@ -29,14 +29,14 @@ Dès le premier jour de la saison, un **pulsar** brille dans chacun des secteurs
 ## Comment se déroule une série {#how-a-run-goes}
 
 1. **En trouver une.** À partir du jour 11 de la saison, chacun des trois secteurs dangereux qui ont un pulsar a une excavatrice, dans chaque monde. Une étiquette, **Excavatrice**, flotte au-dessus d’elle quand vous êtes proche, et la carte du Système stellaire marque chaque secteur dangereux qui en a une : la couleur de la marque est l’état de son excavatrice, et son infobulle indique le temps avant son prochain changement.
-2. **Ouvrir le panneau.** Cliquez sur l’étiquette. La fenêtre **Excavatrice géante** fonctionne tant que votre vaisseau est à portée du panneau de l’excavatrice (la liste *En un coup d’œil* l’indique). Un vaisseau occulté peut l’utiliser, et l’utiliser ne met pas fin à l’occultation.
+2. **Ouvrir le panneau.** Cliquez sur l’étiquette. La fenêtre **Excavatrice géante** fonctionne tant que votre vaisseau est à portée du panneau de l’excavatrice (la liste *En un coup d’œil* l’indique). Un vaisseau occulté ne peut pas l’utiliser : les boutons de la fenêtre sont grisés et toute action est refusée tant que l’occultation dure.
 3. **La ravitailler.** **Ajouter de la Dark Matter** met une Dark Matter de votre cargaison dans le réservoir. N’importe qui peut le faire. Le réservoir n’en prend jamais plus que l’excavatrice ne peut en brûler avant de surchauffer, si bien qu’aucun carburant n’est gaspillé.
 4. **Choisir ce qu’elle extrait** dans la liste, puis appuyer sur **Lancer l’extraction**. Il faut au moins une Dark Matter dans le réservoir et une ressource. N’importe qui peut changer le choix jusqu’au lancement et aussi pendant qu’elle tourne (voir *Changer de ressource* plus bas). Le lancement est annoncé à tous les pilotes du monde, avec votre nom, le secteur et la ressource.
 5. **La tenir.** Pendant qu’elle extrait, une caisse tombe autour de l’excavatrice toutes les quelques secondes, et les premiers Slumbering Voids arrivent peu après le lancement. Défendez l’excavatrice et prenez les caisses. Un flux de lumière va du pulsar au foret de l’excavatrice et s’intensifie au rythme de l’étoile, une fois toutes les 4 secondes ; dans la dernière minute avant la surchauffe, il vacille et se déchire, et quand la machine se repose, il s’arrête.
 6. **Surveiller la chaleur.** La barre de Chaleur se remplit pendant que l’excavatrice extrait et ne se vide jamais pendant qu’elle attend. À sa limite, l’excavatrice surchauffe. Partez avant : le jeu avertit la carte deux fois.
 7. **Elle se repose.** Surchauffée ou détruite, l’excavatrice et son pulsar sont irradiés jusqu’à la fin du repos ; puis elle est de nouveau prête, avec sa chaleur remise à zéro et sa coque pleine.
 
-La fenêtre montre aussi le secteur, le réservoir (une cellule par Dark Matter, celle qui brûle dessinée en partie), la Dark Matter que vous transportez, la coque de l’excavatrice, ce que chaque ressource dépose par minute dans votre monde et, pendant qu’elle extrait, la ressource extraite en ce moment, ce que chaque ressource a déposé depuis le dernier refroidissement de l’excavatrice, le temps avant la prochaine vague et les Voids en vie. Quand quelque chose est refusé, vous lisez la raison en rouge : vous êtes trop loin du panneau, vous n’avez pas de Dark Matter, le réservoir est plein, il n’y a pas encore de carburant ou de ressource choisie, l’excavatrice tourne déjà, un changement est venu trop tôt après le précédent, ou l’excavatrice est en surchauffe.
+La fenêtre montre aussi le secteur, le réservoir (une cellule par Dark Matter, celle qui brûle dessinée en partie), la Dark Matter que vous transportez, la coque de l’excavatrice, ce que chaque ressource dépose par minute dans votre monde et, pendant qu’elle extrait, la ressource extraite en ce moment, ce que chaque ressource a déposé depuis le dernier refroidissement de l’excavatrice, le temps avant la prochaine vague et les Voids en vie. Quand quelque chose est refusé, vous lisez la raison en rouge : vous êtes trop loin du panneau, vous n’avez pas de Dark Matter, le réservoir est plein, il n’y a pas encore de carburant ou de ressource choisie, l’excavatrice tourne déjà, un changement est venu trop tôt après le précédent, l’excavatrice est en surchauffe ou votre vaisseau est occulté.
 
 ### Changer de ressource {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Si le carburant s’épuise avant la limite, l’excavatrice revient à **Prête
 
 ## Ce qu’elle extrait {#what-it-mines}
 
-Un réservoir plein dépose à peu près ce que gagneraient cinq pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez la ressource avant le lancement et pouvez en changer pendant que l’excavatrice tourne. Une caisse contient la même chose pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes. Ce que vous en retirez peut en revanche différer : chaque niveau de la recherche Pilote Excavator Mining ([Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies)) augmente le Thulium et le minerai que vous ramassez de 20 %, 30 % ou 40 % au total, arrondi à l’inférieur.
+Un réservoir plein dépose à peu près ce que gagneraient cinq pilotes en une demi-heure du meilleur farm de Thulium. Bêta et Gamma déposent davantage, comme ils paient davantage pour chaque élimination. Vous choisissez la ressource avant le lancement et pouvez en changer pendant que l’excavatrice tourne. Une caisse contient la même chose pour tous, et une caisse de Thulium est de l’argent comptant qui est versé au ramassage, comme le Thulium des astéroïdes. La taille des caisses est fixée par celui qui lance l’exploitation : chaque niveau de la recherche Pilote Excavator Mining ([Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies)) du pilote qui appuie sur **Lancer l’extraction** fait contenir à chaque caisse de cette exploitation 20 %, 30 % ou 40 % de plus au total, Thulium comme minerai, pendant toute l’exploitation, quel que soit celui qui la ravitaille, change la ressource ou ramasse les caisses. Le panneau de commande montre de qui est l’exploitation et quelle part ses caisses portent, et dit à un pilote qui a Excavator Mining qu’elle compte sur les exploitations qu’il lance lui-même. Les quantités ci-dessous sont sans elle ; elle s’ajoute au maximum qu’une ressource peut déposer lors d’une exploitation.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -139,7 +139,7 @@ L’excavatrice n’a **aucun anneau spécial** : les règles normales de votre
 Ce sont des lignes Système (elles s’affichent dans l’onglet **Système** du chat et dans le Journal de jeu, et pas dans **Global** ni **Local**). Les trois premières vont au monde entier ; la dernière aux pilotes du secteur de l’excavatrice.
 
 - Le jour où l’événement 2 commence : les secteurs dangereux ont changé.
-- Un pilote **lance** une excavatrice, avec le secteur, la ressource et les minutes de carburant.
+- Un pilote **lance** une excavatrice, avec le secteur, la ressource et les minutes de carburant, et la part d’Excavator Mining de ce pilote s’il en a une.
 - L’excavatrice **surchauffe**, ou est **détruite**.
 - Le carburant s’épuise ; l’excavatrice va surchauffer (deux avertissements) ; une **vague** de Voids arrive, avec son numéro et le côté de la carte d’où elle vient ; plus aucun pilote ne reste, alors les Voids attaquent l’excavatrice.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4087fdb06ed005f2 -->
+<!-- wiki-i18n source: f11f0f1bbd72e286 -->
 <!-- wiki-i18n title: Booster -->
 # Booster {#boosters}
 
@@ -37,7 +37,7 @@ Laser Damage Booster I -> Laser Damage Booster II
 Booster skalieren additiv:
 1. **Bonusprozente addieren sich**: Wenn du zwei verschiedene Booster kaufst, die beide +10 % Laserschaden geben, erhältst du insgesamt **+20 % Laserschaden**.
 2. **Laufzeiten stapeln sich multiplikativ**: Kaufst du _denselben_ Booster mehrmals, verlängert sich seine aktive Laufzeit. Die Timer _verschiedener_ Booster laufen parallel.
-3. **Timer-Ansicht**: Aktive Booster stehen im HUD im Booster-Fenster; es zeigt die zusammengefassten aktiven Boni und das nächste Ablaufereignis.
+3. **Timer-Ansicht**: Aktive Booster stehen im HUD im Booster-Fenster; es zeigt die zusammengefassten aktiven Boni und das nächste Ablaufereignis. Die Summe einer Kategorie zählt alles mit, was sie erhöht: Die Booster, deine Saison-Shop-Buffs, die Boni deines Clans und deine angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md) haben jeweils eine Zeile in der Kategorie, die Summe ist also das, was dein Schiff wirklich bekommt. Die Booster-Karte des Dashboards zeigt dieselben Summen.
 4. **Die Werte zählen sie mit**: Schaden, Schilde, Schildaufladung, Absorption, Geschwindigkeit und Hülle im Hangar sowie dein Pilotenprofil enthalten deine laufenden Booster, deine Saison-Shop-Buffs, die Boni deines Clans und deine angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md); ein kleines Etikett *mit Boostern* auf der Karte der Kampfwerte sagt es. Durchdringung, Krit-Chance und Reichweite ändern Booster nicht.
 
 ---

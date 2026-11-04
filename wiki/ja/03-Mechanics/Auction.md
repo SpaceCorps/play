@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: オークション -->
 # オークション {#auction}
 
@@ -16,7 +16,7 @@
 - オークションを使う（出品、購入、入札する）には**レベル5**が必要です。
 - 出品の価格は1ロットあたり、整数のクレジットか整数のThuliumで付けます（両方は不可）。そのアイテムの最低価格を下回ることはできません。**上限価格はありません。**
 - Thuliumでの価格は、クレジットでの最低価格を1,000で割って切り上げた額以上で、最低価格が1Thulium以上になるアイテムに限られます。レートの役割はそれだけです。**1 Thulium = 1,000クレジットは最低価格のための決まりで、為替レートではありません。**何も交換されず、価値も表示されず、クレジットとThuliumが合算されることもありません。
-- 出品できるのは84種類で、そのうち83種類はThuliumでも価格を付けられます。
+- 出品できるのは89種類で、そのうち88種類はThuliumでも価格を付けられます。
 - 出品期間は168 / 336 / 504時間から選べます。選択肢はどのレベルでも同じです。
 - **出品料**は、出品が続く24時間ごとに価格の0.25%で、最低でも50クレジットまたは1 Thuliumです。出品時に支払い、取り消しても返金されません。
 - レベル10からは、出品料は0.4%になります。
@@ -32,7 +32,7 @@
 
 ## 出品可能なアイテム {#marketable-items}
 
-売れるのは、**獲得した**アイテムだけです。獲得したものはすべて、[ハンガー](/wiki/03-Mechanics/Inventory.md#marketable-items)で小さな**出品可能**のタグが付きます。宇宙で拾ったもの（エイリアン、群れ、Warden、ブラックホールのドロップ：[積荷](/wiki/03-Mechanics/Cargo.md)）、ミッションが支払うもの（[クエスト](/wiki/03-Mechanics/Quests.md#rewards)）、そしてアセンブリと鍛冶場が作るものすべてです。ショップで**購入した**もの、ロットで落札したもの、マーケットで買ったもの、[Davidski](/wiki/03-Mechanics/Davidski.md)から買ったもの、ボーナスコード、招待パック、スターターキットで受け取ったもの、返金として戻ってきたものは出品可能ではなく、二度と売ることはできません。転売のためだけに買われるものがない、ということです。スカイラボの鍛造所が作るプレートも出品可能ではありませんが、ミッションが支払うReinforced Plateは出品可能です。スカイラボの弾薬プリンターとロケット工場が作る弾薬とロケットも出品可能ではありません。
+売れるのは、**獲得した**アイテムだけです。獲得したものはすべて、[ハンガー](/wiki/03-Mechanics/Inventory.md#marketable-items)で小さな**出品可能**のタグが付きます。宇宙で拾ったもの（エイリアン、群れ、Warden、ブラックホールのドロップ：[積荷](/wiki/03-Mechanics/Cargo.md)）、ミッションが支払うもの（[クエスト](/wiki/03-Mechanics/Quests.md#rewards)）、そしてアセンブリと鍛冶場が作るものすべてです。ショップで**購入した**もの、ロットで落札したもの、マーケットで買ったもの、[Davidski](/wiki/03-Mechanics/Davidski.md)から買ったもの、ボーナスコード、招待パック、スターターキットで受け取ったもの、返金として戻ってきたものは出品可能ではなく、二度と売ることはできません。転売のためだけに買われるものがない、ということです。スカイラボの鍛造所が作るプレートも出品可能ではありませんが、ミッションが支払うReinforced Plateは出品可能です。スカイラボの弾薬プリンターとロケット工場が作る弾薬とロケットも出品可能ではありません。ミッションのリピートが渡すアイテムも出品可能ではありません。
 
 タグはスイッチではなくユニットの数です。弾薬のスタックには購入分と獲得分が混ざることがあり、カードには「出品可能（3 / 5）」と表示されます。スタックの一部を使うとき（発射、クラフト）は、普通のユニットが先になくなるので、出品可能なものが最も長く残ります。[鍛冶場](/wiki/06-Items/Forge.md#merge)で2つの品を統合すると、両方にタグがあった場合だけタグが残り、プレビューにそう表示されます。失敗した鍛冶場のステップは、素材を普通のユニットとして返します。
 
@@ -54,7 +54,7 @@
 | **Adaptive Core** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **シールドセル** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **スラスター** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Ultra Core（10個単位）, Experimental Fusion Core | 5 |
+| **レーザー弾薬** | Standard Battery（100個単位）, Siphon Battery（10個単位）, Advanced Plasma（10個単位）, Siphon Battery II（10個単位）, Antimatter Battery I（10個単位）, Ultra Core（10個単位）, Dark Matter Ammo I（10個単位）, Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **ロケット** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **消耗品** | EMP Charge, Energetic Wall II | 2 |
 | **エクストラ** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1239db4521af97e8 -->
+<!-- wiki-i18n source: 0a06d961490fa12b -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -11,7 +11,7 @@ Al livello 15 del Nucleo lo Skylab cresce ancora e impara a volare: un **secondo
 > [!NOTE]
 > **Cosa è cambiato nella 0.4.10.** Ogni modulo dello Skylab ha ora una propria tabella di produzione, prezzi e tempi, livello per livello. Hai mantenuto i tuoi livelli: non è stato addebitato nulla e non è stato rimborsato nulla per la differenza. Ciò che le tue fattorie e i tuoi collettori avevano nelle tramogge quando è arrivato l’aggiornamento è stato pagato **una sola volta, alla vecchia tariffa**: crediti e Thulium sono andati sul tuo account, il minerale nel tuo Magazzino risorse, e le tramogge sono ripartite da vuote.
 >
-> Due regole sono nuove. **Solare produce solo il 25% della sua energia mentre si potenzia**, quindi nella maggior parte delle stazioni tutte le fattorie e i collettori si fermano finché il potenziamento non è finito (vedi [Modulo Solare](#solar-module) e [Pianificare un potenziamento di Solare](#timing-a-solar-upgrade)). **Il Magazzino risorse ha un limite proprio per ogni minerale**: un giorno di produzione del collettore al livello 1, quattro giorni al livello 20.
+> Una regola è nuova. **Il Magazzino risorse ha un limite proprio per ogni minerale**: un giorno di produzione del collettore al livello 1, quattro giorni al livello 20.
 
 > [!NOTE]
 > **Cosa è cambiato nella 0.4.15.** Il passo del Nucleo dal livello 9 al livello 10 costa ora **2.000 Thulium** in più, e quando è finito compaiono un **ponte** e un secondo Nucleo, il **Nucleo 2**, con sei nuovi slot per i moduli. Solare si sposta sul Nucleo 2. Vi si agganciano due nuovi moduli: la **Stampante di munizioni** e la **Fabbrica di razzi**. Inoltre Solare produce più energia dal livello 7, così una stazione completa resta coperta. Niente di ciò che hai costruito va perso: un Nucleo che è già al livello 10 o più ha subito il ponte e non paga nulla.
@@ -39,7 +39,7 @@ Al livello 15 del Nucleo lo Skylab cresce ancora e impara a volare: un **secondo
 - Il **Nucleo** dà il ritmo: nessun modulo lo supera, e la sua salita richiede da sola circa 16 giorni e mezzo.
 - Al **livello 10 del Nucleo** un **ponte** costruisce il **Nucleo 2**, con sei slot in più per i moduli, e vi si agganciano la **Stampante di munizioni**, la **Fabbrica di razzi** e la **Baia del minerale**. Il passo verso il livello 10 costa 2.000 Thulium in più.
 - Al **livello 15 del Nucleo** un secondo ponte costruisce il **Nucleo 3**, e il **Modulo Motori**, il **Modulo Difesa**, il **Modulo Radar** e la **Baia dei trofei** occupano i suoi slot: con loro lo Skylab vola sulla mappa dell’universo e caccia da solo. Il passo al livello 15 costa 4.000 Thulium in più. [Vedi Spedizioni](#expeditions).
-- **Solare produce solo il 25% della sua energia mentre si potenzia**, quindi le tue fattorie e i tuoi collettori si fermano finché non ha finito. [Pianificalo](#timing-a-solar-upgrade).
+- **Solare continua a produrre tutta la sua energia mentre si potenzia**, quindi le tue fattorie e i tuoi collettori restano in funzione durante ogni potenziamento di Solare. [Dettagli](#timing-a-solar-upgrade).
 
 ## Panoramica {#overview}
 
@@ -128,7 +128,7 @@ L’energia è la linfa vitale dello Skylab. Il modulo Solare produce l’energi
 - **Importanza**: se l’energia che usi supera quella che produci, le tue fattorie e i tuoi collettori si spengono.
 - **Energia prodotta**: un modulo Solare al livello N ne produce a sufficienza per **ogni altro modulo al livello N**, e circa un decimo in più: 255 al livello 1, 965 al livello 7, 18.575 al livello 20. Solare al livello 7 alimenta un’intera stazione al livello 7 (vedi Gestione dell’energia per ogni livello).
 - **Prezzo**: costruire Solare costa **500 crediti e 50 Thulium**. I suoi potenziamenti costano come quelli della Fucina e durano quanto loro: da 8.000 crediti e 25 Thulium per il livello 2 (5 minuti) a 9.000.000 di crediti e 10.000 Thulium per il livello 20 (24 ore).
-- **Potenziamento**: mentre si potenzia, Solare produce solo il **25%** dell’energia del livello attuale, e quella del nuovo livello dal momento in cui il potenziamento termina. Una stazione che usa più di così si ferma: ogni fattoria e ogni collettore smettono di produrre e la Fucina non avvia nuovi lotti finché il potenziamento non è finito. Per quasi ogni stazione è così: resta in funzione durante il potenziamento solo se tutti gli altri moduli sono almeno cinque livelli sotto Solare (sei livelli dal livello 10 di Solare). Pianifica un potenziamento di Solare come un blackout delle tue fattorie (vedi Costruzione e potenziamento).
+- **Potenziamento**: mentre si potenzia, Solare continua a produrre **tutta** l’energia del livello attuale, e quella del nuovo livello dal momento in cui il potenziamento termina. Un potenziamento di Solare non ferma quindi mai le tue fattorie e i tuoi collettori e non manda mai la stazione in deficit, e la Fucina continua ad avviare lotti, anche durante le 24 ore dell’ultimo livello (vedi Costruzione e potenziamento).
 - **Posizione**: Solare sta all’estremità opposta della stazione: sul Nucleo 2 dal livello 10 del Nucleo e sul Nucleo 3 dal livello 15 (vedi [Il ponte e il Nucleo 2](#the-bridge-and-core-2) e [Il secondo ponte e il Nucleo 3](#the-second-bridge-and-core-3)).
 
 ### Fattoria crediti e Fattoria Thulium {#credit-farm-and-thulium-farm}
@@ -199,9 +199,9 @@ Il potenziamento del Nucleo al **livello 10** costruisce un **ponte** e un secon
 
 La Stampante di munizioni stampa munizioni laser dal nulla, un tipo alla volta: niente minerale e niente crediti, solo energia. Ha i livelli da 1 a 20.
 
-- **Produzione**: **x2** (Advanced Plasma) **100 all’ora al livello 1, 2.000 al livello 20** (100 in più a ogni livello); **x3** (Ultra Core) la metà, da 50 a 1.000; **x4** (Experimental Fusion Core) un quarto, da 25 a 500.
+- **Produzione**: **x2** (Advanced Plasma) **200 all’ora al livello 1, 4.000 al livello 20** (200 in più a ogni livello); **x3** (Ultra Core) la metà, da 100 a 2.000; **x4** (Experimental Fusion Core) un quarto, da 50 a 1.000. Il doppio di quanto produceva prima della 0.4.27. Dalla 0.5.0 le **modalità x3 e x4 richiedono la ricerca** della loro munizione, **Military Grade Ammo I e II** (la famiglia Laser Ammo del Centro ricerche): finché non ne hai ricercata una, la sua modalità risulta bloccata e non si può scegliere, e una Stampante che era impostata su di essa nel frattempo produce x2 (non si perde nulla, e la scelta torna quando la ricerca è finita). La modalità x2 e la Fabbrica di razzi sono aperte a tutti.
 - **Modalità**: scegli x2, x3 o x4 sulla sua scheda o nel suo pannello. Un cambio mantiene le ore già immagazzinate e da allora le conta alla velocità della nuova modalità.
-- **Scorta**: un giorno, 24 ore di produzione al livello e nel tipo in uso (2.400 x2 al livello 1, 48.000 al livello 20). Il tempo offline conta, e una scorta piena semplicemente si ferma.
+- **Scorta**: un giorno, 24 ore di produzione al livello e nel tipo in uso (4.800 x2 al livello 1, 96.000 al livello 20). Il tempo offline conta, e una scorta piena semplicemente si ferma.
 - **Raccogli**: sposta le unità intere nel tuo inventario mentre la tua **nave è atterrata**. Le munizioni non hanno limite di carico, e la parte di un’unità resta e continua a contare.
 - **Energia**: 40 al livello 1, con un aumento del 20% per livello. In un blackout si ferma come le fattorie e i collettori, e ciò che contiene resta e si può raccogliere.
 - **Costruzione**: 20.000 crediti, 500 Thulium e 10 Ship Fragment (dal tuo inventario, con la nave atterrata), solo sul Nucleo 2. I suoi potenziamenti costano da 21.000 crediti e 140 Thulium a 5.600.000 crediti e 11.000 Thulium e durano quanto quelli della Fucina, da 5 minuti a 24 ore e 5 d 13 h in tutto (vedi le tabelle più sotto).
@@ -212,8 +212,8 @@ La Stampante di munizioni stampa munizioni laser dal nulla, un tipo alla volta: 
 La Fabbrica di razzi costruisce razzi del Negozio dal nulla, un tipo alla volta. Ha i livelli da 1 a 20.
 
 - **Cosa produce**: uno solo dei dodici razzi del Negozio, quello che scegli: Lancet, Rivet, Scatter o Ember, fasce I, II e III. Il N.U.K.E. e il N.I.K.E. non vengono mai prodotti.
-- **Produzione**: fascia III **0,5 all’ora al livello 1, 10 al livello 20** (0,5 in più a ogni livello), fascia II 1,25 volte tanto e fascia I il doppio. Contano solo i razzi interi: la parte di uno resta e continua a contare.
-- **Scorta**: un giorno, 24 ore di produzione al livello e con il razzo in uso (240 di fascia III al livello 20). Il tempo offline conta, una scorta piena semplicemente si ferma, e un cambio di razzo mantiene le ore già immagazzinate.
+- **Produzione**: fascia III **1 all’ora al livello 1, 20 al livello 20** (1 in più a ogni livello), fascia II 1,25 volte tanto e fascia I il doppio. Il doppio di quanto produceva prima della 0.4.27. Contano solo i razzi interi: la parte di uno resta e continua a contare.
+- **Scorta**: un giorno, 24 ore di produzione al livello e con il razzo in uso (480 di fascia III al livello 20). Il tempo offline conta, una scorta piena semplicemente si ferma, e un cambio di razzo mantiene le ore già immagazzinate.
 - **Raccogli**: sposta i razzi nel tuo inventario mentre la tua **nave è atterrata**, quanti ne puoi portare: al massimo 5.000 di fascia I, 2.000 di fascia II e 500 di fascia III, il limite del Negozio stesso. Ciò che non entra resta nella fabbrica.
 - **Energia**: 24 al livello 1, con un aumento del 15% per livello. In un blackout si ferma come la stampante.
 - **Costruzione**: 20.000 crediti, 500 Thulium e 15 Ship Fragment (dal tuo inventario, con la nave atterrata), solo sul Nucleo 2. I suoi potenziamenti costano un quarto di quelli della stampante, da 5.300 crediti e 35 Thulium a 1.400.000 crediti e 2.800 Thulium, e durano altrettanto: 5 d 13 h in tutto.
@@ -333,14 +333,14 @@ In tutto i tre livelli costano 3.250.000 crediti, 13.000 Thulium, 4 piastre e 1 
 La Baia dei trofei conserva ciò che portano le uccisioni del tuo Skylab finché non lo ritiri. Ha i livelli da 1 a 20 e non richiede tecnologia.
 
 - **Cosa contiene**: crediti, Thulium, esperienza, onore e il bottino delle uccisioni.
-- **La capacità** si conta in **punti taglia**: un abbattimento aggiunge la taglia del suo alieno, crediti divisi per 200 più Thulium, qualunque cosa lasci (le cifre di Alpha in ogni mondo). Contiene 650 punti al livello 1 e 45.000 al livello 20.
-- **Piena**: una baia piena fa **smettere di sparare** allo Skylab: nulla viene abbattuto, pagato o contato e non si consumano munizioni finché non ritiri (lo scafo continua a rigenerarsi). Un messaggio, una notifica, una etichetta ambra **Baia piena** nella barra della stazione, un avviso nella pagina dello Skylab e il suggerimento della riga Skylab nella barra laterale lo dicono.
+- **La capacità** si conta in **oggetti di bottino**: solo il bottino occupa spazio. Crediti, Thulium, esperienza e onore non ne occupano, per quanto ne portino le uccisioni (dalla 0.4.27; prima, a riempire la baia era la taglia di un abbattimento). Contiene 650 oggetti al livello 1 e 45.000 al livello 20. Un Seeker porta circa un oggetto per abbattimento, quindi una baia si riempie circa dieci volte più lentamente di prima.
+- **Piena**: una baia piena fa **smettere di sparare** allo Skylab: nulla viene abbattuto, pagato o contato e non si consumano munizioni finché non ritiri (lo scafo continua a rigenerarsi). Un messaggio, una notifica, una etichetta ambra **Baia piena** nella barra della stazione, un avviso nella pagina dello Skylab e il suggerimento della riga Skylab nella barra laterale lo dicono, nel momento in cui si riempie, anche mentre lo Skylab è in viaggio.
 - **Ritira** nella finestra Universo, con la nave atterrata: crediti e Thulium vanno sul tuo conto, esperienza e onore al tuo pilota e il bottino nel tuo inventario. Due ritiri contemporanei pagano una volta sola.
 - **Il bottino** è tirato per ogni abbattimento da ciò che lascia l’alieno, mai Dark Matter, Ancient Control Unit, N.I.K.E. o N.U.K.E. **Non è vendibile**: non si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Energia**: 20 al livello 1, con un aumento del 10% per livello. Si può spegnere, ma non mentre lo Skylab è in viaggio.
 - **Costruzione**: 100.000 crediti, 400 Thulium e 10 Ship Fragment, solo sul Nucleo 3. I suoi potenziamenti costano da 117.500 crediti e 470 Thulium (15 minuti) a 2.325.000 crediti e 9.300 Thulium (1 d 13 h): 14.722.500 crediti e 58.890 Thulium in tutto, e 6 d 8 h.
 
-| Livello | Capacità (punti) | Crediti | Thulium | Tempo |
+| Livello | Capacità (oggetti) | Crediti | Thulium | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
 | 1 (la costruzione) | 650 | 100.000 | 400 | – |
 | 2 | 810 | 117.500 | 470 | 15 min |
@@ -349,15 +349,15 @@ La Baia dei trofei conserva ciò che portano le uccisioni del tuo Skylab finché
 | 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
 | 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
-Quanto ci mette una baia a riempirsi quando lo Skylab guadagna tutto il budget di abbattimenti del suo livello di difesa (una baia più piccola si riempie prima, un budget più piccolo più lentamente):
+Quanto ci mette una baia a riempirsi quando lo Skylab guadagna tutto il budget di abbattimenti del suo livello di difesa in una cella di quella difficoltà, con il bottino che portano quegli alieni (una baia più piccola si riempie prima, un budget più piccolo più lentamente):
 
 | Livello di difesa | Baia livello 1 | Baia livello 5 | Baia livello 10 | Baia livello 15 | Baia livello 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 6 h 1 min | 14 h 49 min | 1 d 20 h | 5 d 19 h | 17 d 9 h |
-| 2 | 2 h 13 min | 5 h 28 min | 16 h 23 min | 2 d 3 h | 6 d 10 h |
-| 3 | 1 h 22 min | 3 h 22 min | 10 h 5 min | 1 d 8 h | 3 d 22 h |
-| 4 | 1 h 11 min | 2 h 55 min | 8 h 46 min | 1 d 3 h | 3 d 10 h |
-| 5 | 1 h 2 min | 2 h 32 min | 7 h 37 min | 23 h 49 min | 2 d 23 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
 
 ## Peso e velocità {#weight-and-speed}
 
@@ -386,7 +386,7 @@ Ogni modulo pesa qualcosa, in **unità di massa (MU)**, e una stazione più pesa
 Il livello massimo è 20, tranne per il Centro ricerche (10), i moduli Motori e Difesa (5) e il Modulo Radar (3). La stazione intera pesa 2.353 MU al livello 15 del Nucleo e 2.734 MU al livello 20.
 
 - **La spinta** è l’aritmetica dei motori delle navi, senza velocità di base: un motore dà la sua velocità di base più la velocità fissa dei suoi propulsori, per i loro moltiplicatori; i motori sono ordinati dal migliore, i primi quattro contano al 100% e il quinto all’85% (il modulo ne ospita cinque al massimo); e i quattro migliori bonus di velocità si sommano sopra. Una stazione senza motore non ha spinta.
-- **La velocità** è 60 volte la spinta divisa per il peso della stazione, in unità al secondo, e un salto tra due celle vicine è di 15.000 unità. Sotto l’energia, la pagina dello Skylab mostra la riga «Peso 2.353 MU, velocità 7,8 unità/s, un salto 32 min».
+- **La velocità** è 60 volte la spinta divisa per il peso della stazione, in unità al secondo, e un salto tra due celle vicine è di 15.000 unità. Sotto l’energia, la pagina dello Skylab mostra la riga «Peso 2.353 MU, velocità 7,5 unità/s, un salto 33 min».
 - **Fissata alla partenza**: la velocità di un viaggio si calcola alla partenza, dal peso e dalla spinta di quel momento. Un potenziamento che finisce lungo la via, o un motore che cambi mentre lo Skylab è di stanza, conta per il viaggio successivo.
 
 Cosa fanno i motori per una stazione con ogni modulo al livello 15 (il Modulo Motori al livello che ospita i motori):
@@ -394,10 +394,10 @@ Cosa fanno i motori per una stazione con ogni modulo al livello 15 (il Modulo Mo
 | Motori montati | Peso (MU) | Spinta | Velocità (unità al secondo) | Un salto | Attraverso la mappa (14 salti) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | 1 Engine I (Modulo Motori livello 1) | 2.289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, ciascuno con 2 Impulse Thruster II (livello 3) | 2.321 | 73,6 | 1,90 | 2 h 11 min | 1 d 7 h |
-| 5 Engine III, ciascuno con 3 Impulse Thruster IV (livello 5) | 2.353 | 305,5 | 7,79 | 32 min | 7 h 29 min |
+| 3 Engine II, ciascuno con 2 Impulse Thruster II (livello 3) | 2.321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
+| 5 Engine III, ciascuno con 3 Impulse Thruster IV (livello 5) | 2.353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
 
-Al livello 20 del Nucleo la stazione pesa il 16% in più, e i motori migliori impiegano 37 minuti per un salto e 8 h 42 min per attraversare la mappa.
+Al livello 20 del Nucleo la stazione pesa il 16% in più, e i motori migliori impiegano 39 minuti per un salto e 9 h per attraversare la mappa.
 
 ## Spedizioni {#expeditions}
 
@@ -529,9 +529,10 @@ I piloti del tuo clan vedono dove sono gli Skylab degli altri: la colonna **Skyl
 - **Durata e costo**: i potenziamenti costano crediti e Thulium e richiedono tempo, e ogni modulo ha il suo prezzo e il suo tempo per ogni livello (passa sopra **Potenzia** per vedere il successivo; i totali sono più sotto). Il prezzo si paga all’avvio del potenziamento. Il costo non dipende dalla durata. I moduli Motori, Difesa e Radar richiedono anche Dark Matter Plate e la tecnologia del livello (vedi [Il secondo ponte e il Nucleo 3](#the-second-bridge-and-core-3)).
 - **Timer**: un potenziamento segue l’orologio del server, quindi si completa mentre sei via, anche giorni dopo se serve. Avvialo, disconnettiti, torna: il modulo è al nuovo livello quando apri la pagina Skylab.
 - **Accelerare un potenziamento**: un [Magic Hammer](/wiki/06-Items/Special-Items.md#magic-hammer) completa subito un potenziamento in corso, e un [Workforce Contract](/wiki/06-Items/Special-Items.md#workforce-contract) assunto come **Engineer** fa procedere i potenziamenti a velocità doppia per 1 ora. Nessuno dei due rimborsa o addebita nulla: il prezzo è stato pagato all’avvio del potenziamento.
+- **Annullare un potenziamento**: un potenziamento in corso può essere annullato e riavrai **tutto**: i crediti, il Thulium e le Dark Matter Plate che è costato, esattamente come li hai pagati all’avvio, anche se nel frattempo i prezzi sono cambiati. Si perde solo il tempo. Il modulo torna com’era: stesso livello, stesso interruttore, e ciò che aveva immagazzinato resta (da fermo non ha prodotto nulla). Un potenziamento già concluso non può essere annullato: il gioco te lo dice e non prende nulla.
 - **Tempi di potenziamento**: i primi livelli sono rapidi e gli ultimi durano fino a 37 ore, quelli del Nucleo fino a 6 giorni (vedi le tabelle più sotto). Ogni modulo ha il suo timer, quindi puoi potenziarne più d’uno insieme.
-- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione: continua a produrre un quarto della sua energia (vedi sotto).
-- **Solare produce solo il 25% della sua energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (24 ore per l’ultimo livello), produce un quarto dell’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Una stazione completa usa circa il 90% di ciò che Solare produce al proprio livello, quindi un quarto di quella energia regge solo una stazione da cinque a sei livelli sotto Solare. Altrimenti ogni fattoria e ogni collettore si fermano per tutto il potenziamento, ciò che hai immagazzinato resta e si può raccogliere, e la Fucina non avvia nuovi lotti. Un modulo in potenziamento o spento non usa energia, quindi potenziare le fattorie insieme a Solare non costa niente in più, e spegnere dei moduli lascia spazio agli altri; la Fattoria Thulium è di gran lunga la più energivora.
+- **Pausa della produzione**: mentre un modulo è in potenziamento è offline: non produce nulla e non usa energia. Solare fa eccezione: continua a produrre tutta l’energia del livello attuale (vedi sotto).
+- **Solare mantiene tutta la sua energia mentre si potenzia**: Solare produce tutta l’energia dello Skylab e, mentre si potenzia (24 ore per l’ultimo livello), continua a produrre tutta l’energia del livello **attuale**; quella del nuovo livello subentra nel momento in cui il potenziamento termina. Le fattorie e i collettori continuano quindi a produrre, la Fucina continua ad avviare lotti e per tutto il potenziamento non si perde nulla. Un modulo in potenziamento o spento non usa energia, quindi potenziare le fattorie insieme a Solare non costa niente in più, e spegnere dei moduli lascia spazio agli altri; la Fattoria Thulium è di gran lunga la più energivora.
 
 ### Quanto costa {#what-it-costs}
 
@@ -638,7 +639,7 @@ Il tuo Skylab ha una disponibilità di energia limitata.
 - **Solare tiene il passo**: un modulo Solare al livello N produce l’energia di **tutti gli altri moduli al livello N** (il Nucleo, entrambe le fattorie, il Magazzino risorse, entrambi i collettori e la Fucina, e dal livello 10 il Centro ricerche e la Baia del minerale) e circa un decimo in più, quindi una stazione i cui moduli sono tutti al livello 7 ha bisogno di Solare 7 e lo ha coperto. Solare un livello più basso non basta per una stazione completa (l’ultima colonna), quindi Solare deve continuare a seguire il resto. Il Nucleo consuma poco, quindi può andare avanti: Solare 5 e oltre copre una stazione completa al suo livello con il Nucleo a qualunque livello. La tabella qui sotto conta anche la Stampante di munizioni dal livello 7, la Fabbrica di razzi e la Baia del minerale dal livello 10, e i moduli Motori, Difesa e Radar e la Baia dei trofei dal livello 11 (si costruiscono dal livello 15 del Nucleo e contano quattro livelli prima, perché il Nucleo può essere più avanti di Solare), ciascuno al massimo al proprio livello massimo.
 - **Stato attivo**: puoi accendere e spegnere le fattorie, i collettori e la Fucina per gestire l’energia. Il Nucleo, Solare, il Magazzino risorse e il Centro ricerche funzionano sempre. Anche la Stampante di munizioni, la Fabbrica di razzi e la Baia del minerale si possono accendere e spegnere, e così i quattro moduli della Spedizione (non mentre un viaggio è in corso).
 - **Blackout**: se il consumo di energia supera la produzione, tutte le fattorie e i collettori smettono di produrre finché l’equilibrio non torna. Ciò che contengono già resta, e puoi ancora raccoglierlo. La Fucina non avvia nuovi lotti e il Centro ricerche nessuna nuova ricerca (una ricerca già in corso prosegue). La Stampante di munizioni, la Fabbrica di razzi e la Baia del minerale si fermano come le fattorie e i collettori. Il Modulo Difesa non combatte nulla, le scansioni del radar restano ferme e nessun viaggio può partire (un viaggio in corso prosegue).
-- **Potenziamento di Solare**: mentre si potenzia, Solare produce solo un quarto della sua energia, quindi, se gli altri moduli non sono molto più in basso, la stazione va in deficit e le fattorie e i collettori si fermano finché il potenziamento non è finito (vedi [Modulo Solare](#solar-module)).
+- **Potenziamento di Solare**: mentre si potenzia, Solare continua a produrre tutta l’energia del livello attuale, quindi un potenziamento di Solare non manda mai la stazione in deficit (vedi [Modulo Solare](#solar-module)).
 
 L’energia di Solare a ogni livello, rispetto a ciò che gli altri moduli consumano allo stesso livello (ogni modulo a quel livello, Nucleo compreso, e il Centro ricerche e la Baia del minerale dal livello 10, e i quattro moduli della Spedizione dal livello 11):
 
@@ -708,30 +709,29 @@ Lo Skylab ci mette settimane a crescere, quindi un po’ di pianificazione ripag
 
 ### Pianificare un potenziamento di Solare {#timing-a-solar-upgrade}
 
-Mentre Solare si potenzia produce un quarto della sua energia, e una stazione consuma quasi sempre più di così. Le fattorie e i collettori si fermano allora per tutto il potenziamento: ciò che contengono resta, ma ciò che avrebbero prodotto è perso. La tabella dà, per ogni passo di Solare, il suo tempo, la stazione più grande che lo attraversa ancora (ogni modulo allo stesso livello, il Nucleo e la filiera compresi; una stazione più piccola ne sopporta un po’ di più) e ciò che una Fattoria crediti e una Fattoria Thulium di quel livello avrebbero prodotto in quel tempo. Per esempio, Solare dal livello 10 all’11 dura 4 ore, e fattorie di livello 10 avrebbero prodotto in quel tempo 135.000 crediti e 1.440 Thulium. La tabella conta anche la Stampante di munizioni dal livello 7, la Fabbrica di razzi e la Baia del minerale dal livello 10 e i quattro moduli della Spedizione dal livello 15.
+Mentre Solare si potenzia continua a produrre tutta l’energia del livello attuale, quindi nella tua stazione non si ferma niente: le fattorie, i collettori, la Fucina e tutto il resto vanno avanti per l’intero potenziamento, qualunque cosa sia costruita. Devi solo aspettare. La tabella dà, per ogni passo di Solare, il suo tempo e ciò che una Fattoria crediti e una Fattoria Thulium di quel livello producono in quel tempo, e che continuano a produrre per tutto il tempo. Per esempio, Solare dal livello 10 all’11 dura 4 ore, e fattorie di livello 10 producono in quel tempo 135.000 crediti e 1.440 Thulium.
 
-| Potenziamento di Solare | Tempo | Stazione che continua a funzionare, fino al livello | La Fattoria crediti produce nel frattempo | La Fattoria Thulium produce nel frattempo |
-| :--- | ---: | ---: | ---: | ---: |
-| da 1 a 2 | 5 min | nessuna | 188 | 3 |
-| da 2 a 3 | 15 min | nessuna | 1.125 | 16 |
-| da 3 a 4 | 30 min | nessuna | 3.375 | 44 |
-| da 4 a 5 | 45 min | nessuna | 6.750 | 84 |
-| da 5 a 6 | 1 h | nessuna | 11.250 | 144 |
-| da 6 a 7 | 1 h 15 min | nessuna | 19.688 | 230 |
-| da 7 a 8 | 1 h 30 min | 1 | 30.375 | 336 |
-| da 8 a 9 | 2 h | 2 | 49.500 | 528 |
-| da 9 a 10 | 3 h | 3 | 87.750 | 912 |
-| da 10 a 11 | 4 h | 5 | 135.000 | 1.440 |
-| da 11 a 12 | 5 h | 6 | 202.500 | 2.200 |
-| da 12 a 13 | 6 h | 7 | 297.000 | 3.120 |
-| da 13 a 14 | 8 h | 7 | 468.000 | 4.800 |
-| da 14 a 15 | 10 h | 8 | 675.000 | 6.800 |
-| da 15 a 16 | 12 h | 9 | 918.000 | 9.120 |
-| da 16 a 17 | 16 h | 10 | 1.440.000 | 14.080 |
-| da 17 a 18 | 18 h | 11 | 1.944.000 | 18.000 |
-| da 18 a 19 | 20 h | 12 | 2.610.000 | 22.400 |
-| da 19 a 20 | 1 g | 13 | 3.780.000 | 28.800 |
+| Potenziamento di Solare | Tempo | La Fattoria crediti produce nel frattempo | La Fattoria Thulium produce nel frattempo |
+| :--- | ---: | ---: | ---: |
+| da 1 a 2 | 5 min | 188 | 3 |
+| da 2 a 3 | 15 min | 1.125 | 16 |
+| da 3 a 4 | 30 min | 3.375 | 44 |
+| da 4 a 5 | 45 min | 6.750 | 84 |
+| da 5 a 6 | 1 h | 11.250 | 144 |
+| da 6 a 7 | 1 h 15 min | 19.688 | 230 |
+| da 7 a 8 | 1 h 30 min | 30.375 | 336 |
+| da 8 a 9 | 2 h | 49.500 | 528 |
+| da 9 a 10 | 3 h | 87.750 | 912 |
+| da 10 a 11 | 4 h | 135.000 | 1.440 |
+| da 11 a 12 | 5 h | 202.500 | 2.200 |
+| da 12 a 13 | 6 h | 297.000 | 3.120 |
+| da 13 a 14 | 8 h | 468.000 | 4.800 |
+| da 14 a 15 | 10 h | 675.000 | 6.800 |
+| da 15 a 16 | 12 h | 918.000 | 9.120 |
+| da 16 a 17 | 16 h | 1.440.000 | 14.080 |
+| da 17 a 18 | 18 h | 1.944.000 | 18.000 |
+| da 18 a 19 | 20 h | 2.610.000 | 22.400 |
+| da 19 a 20 | 1 g | 3.780.000 | 28.800 |
 
-- **Potenzia le fattorie insieme a Solare.** Un modulo in potenziamento non produce nulla e non usa energia comunque, quindi il tempo che una fattoria passa in potenziamento durante la pausa non costa niente in più.
-- **Tieni bassi gli altri moduli se non puoi permetterti una pausa.** Una stazione resta in funzione durante un potenziamento di Solare solo se tutti i suoi altri moduli sono almeno cinque livelli sotto Solare (sei dal livello 10 di Solare), e una stazione completa richiede un po’ di più, come mostra la tabella.
+- **Avvia un potenziamento di Solare quando vuoi.** Non costa nulla alla tua stazione finché è in corso: nessuna pausa, nessun blackout, nessuna fattoria ferma. Solo l’energia del nuovo livello deve aspettare la fine del timer, quindi tieni Solare al livello degli altri moduli.
 - **Spegni ciò di cui puoi fare a meno.** Un modulo spento non usa energia, quindi spegnere la Fattoria Thulium, la più energivora (80 al livello 1, con il 30% in più a ogni livello), lascia spazio agli altri.

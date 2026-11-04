@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b60c2a588a3c3f1b -->
+<!-- wiki-i18n source: 9d2c509b4765edc2 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -53,13 +53,13 @@ Danno di un colpo, in ogni mondo:
 - **L’occultamento ti fa entrare.** Nessuna torretta vede mai una nave occultata, né una dentro la finestra di un EMP, a nessuna distanza. Un’esplosione diretta a una nave visibile che scoppia vicino a una occultata la danneggia comunque e ne pone fine all’occultamento.
 - **Sparano solo ai piloti,** mai agli alieni, ai piloti di corporazione o allo sciame, e la protezione di una nave appena tornata da una distruzione vale anche contro di loro.
 - **L’anello di avviso.** Una nave che attraversa l’anello fuori dalla zona riceve una riga di Sistema: le torrette sparano a ogni nave che vedono, e qualcosa dorme al centro. Viene avvisata di nuovo solo dopo aver lasciato l’anello ed esserci tornata.
-- **Uscirne.** Se vieni distrutto lì e torni sul posto, oppure accedi dentro la zona, vieni messo fuori. Una rotta che clicchi viene piegata intorno alla zona, e un avviso ti segnala quando il punto cliccato cade all’interno.
+- **Uscirne.** Se vieni distrutto lì non puoi tornare sul posto (un settore pericoloso offre solo la base e il portale più vicino), e se accedi dentro la zona vieni messo fuori. Una rotta che clicchi viene piegata intorno alla zona, e un avviso ti segnala quando il punto cliccato cade all’interno.
 
 ## Gli alieni {#the-aliens}
 
 Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengono pagati come il boss di uno sciame: **in base al danno inflitto**, a ogni pilota che ne ha fatto almeno la quota indicata in [Sciami](/wiki/05-Swarms/Swarms.md#the-rules-of-every-swarm), e la cassa va al pilota che ha inflitto più danno. I loro abbattimenti si sommano ai tuoi punti PvE di grado come quelli di una nave di sciame, in proporzione alla ricompensa ([Gradi](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points)). Lo scudo di ciascuno assorbe l’80% di ogni colpo finché regge ([Scudi](/wiki/03-Mechanics/Shields.md)).
 
-- **Slumbering Void.** Il cacciatore snello, l’alieno più veloce del gioco (veloce come una Storm con Afterburner III). Alcuni pattugliano sempre i dintorni della palude, e altri arrivano a ondate agli escavatori. È aggressivo, dà la caccia al pilota più vicino che riesce a vedere e non vede mai una nave occultata.
+- **Slumbering Void.** Il cacciatore snello, l’alieno più veloce del gioco (più veloce di una Storm con Afterburner III). Alcuni pattugliano sempre i dintorni della palude, e altri arrivano a ondate agli escavatori. È aggressivo, dà la caccia al pilota più vicino che riesce a vedere e non vede mai una nave occultata.
 - **Inert Mass.** Un relitto morto con crepe viola, grande come una piccola stazione. Restano entro una distanza fissa dal centro della palude e per ora non lo lasciano. Lancia **Dormant Lance**: razzi guidati con una portata lunghissima che seguono una nave finché non si occulta, non apre una finestra EMP, non entra in un anello sicuro, non salta o non muore. È più veloce di qualsiasi nave, quindi servono solo queste interruzioni. Un asteroide sulla traiettoria di una Dormant Lance la ferma, e la Lance lo danneggia con il proprio danno (nessuno viene pagato per questo): una roccia ripara da una Inert Mass quindi solo per pochi colpi.
 - **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. È **immune**: colpi e razzi lo raggiungono e non fanno nulla, la finestra del bersaglio mostra le barre piene e la parola Immune. Un evento successivo permetterà di combatterlo; le sue ricompense qui sotto sono scritte e non si possono ancora ottenere.
 

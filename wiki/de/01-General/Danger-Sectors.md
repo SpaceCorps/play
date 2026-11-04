@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Gefahrensektoren -->
 # Gefahrensektoren {#danger-sectors}
 
@@ -52,7 +52,7 @@ Jede Welt hat von allem ihre eigene Kopie, und ein Pulsar und sein Bagger stehen
 
 - **Strahlung.** Ein Bagger, der überhitzt oder zerstört wurde, und sein Pulsar verbrennen jedes Schiff, das in ihren Kreisen bleibt ([Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Das Spiel warnt dich vorher, und die Kreise werden im Flug auf den Boden und auf die Minikarte gezeichnet.
 - **Die Geschütze des Sumpfs.** Auf ein Schiff, das die Türme des Sumpfs sehen können, wird geschossen, lange bevor es etwas sehen kann, was die Reise lohnt ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Ein Kurs, den du anklickst, wird um die Geschütze und die Strahlung herumgeführt, wie um das Schwarze Loch, und ein Hinweis warnt dich, wenn der angeklickte Ort darin liegt.
-- **Wenn du dort zerstört wirst,** setzt dich die Wahl, **an Ort und Stelle** zurückzukehren, an den nächsten Punkt außerhalb der Strahlung und außerhalb der Zone des Sumpfs, wie beim Schwarzen Loch ([Erste Schritte](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Wenn du dort zerstört wirst,** kannst du nicht **an Ort und Stelle** zurückkehren: In einem Gefahrensektor bietet der Zerstörungsbildschirm nur deine **Basis** und das **nächste Portal** an, und „An Ort und Stelle“ ist ausgegraut. Eine Anfrage danach wird abgelehnt und kostet nichts ([Erste Schritte](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Eine Gruppe und ein Ausweg.** Die Bagger ziehen Voids und Rivalen gleichermaßen an. Bring eine [Gruppe](/wiki/03-Mechanics/Groups.md) mit, wisse, welches Tor am nächsten ist, und denk daran, dass du in den Gefahrensektoren nicht hinausspringen kannst, solange du angegriffen wirst ([Sprung unter Beschuss](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **Der Rest ist PvP wie immer.** Nichts hier ist ein sicherer Ort: Es gelten die normalen Regeln deiner Welt, Rivalen eingeschlossen.
 

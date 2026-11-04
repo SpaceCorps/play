@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bdcaddfb3b50f7f5 -->
+<!-- wiki-i18n source: 8f997e494738815b -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
@@ -16,7 +16,7 @@
 - 要使用拍卖行（挂单、购买和出价），需要 **5 级**。
 - 挂单按每组定价，用整数信用点或整数 Thulium（二选一），且不能低于该物品的最低价。**没有最高价。**
 - Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 1 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
-- 共有 84 种物品可以挂单，其中 83 种还可以用 Thulium 定价。
+- 共有 89 种物品可以挂单，其中 88 种还可以用 Thulium 定价。
 - 挂单时长可在 168 / 336 / 504 小时中选择，每个等级的可选时长都一样。
 - **押金**是价格的 0.25%，按挂单每 24 小时计，最低 50 信用点 或 1 Thulium。挂单时支付，永远不退还，取消挂单也不退。
 - 从 10 级起，押金为 0.4%。
@@ -32,7 +32,7 @@
 
 ## 可交易的物品 {#marketable-items}
 
-只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、从 [Davidski](/wiki/03-Mechanics/Davidski.md) 买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。
+只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、从 [Davidski](/wiki/03-Mechanics/Davidski.md) 买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。任务的重复所发放的物品同样不可交易。
 
 标记是单位数量，不是开关：一叠弹药里可以既有买来的也有赚来的，卡片上会写“可交易（3/5）”。当你用掉一叠中的一部分（射击、制作）时，普通单位先用掉，所以可交易的单位留得最久。在[锻造炉](/wiki/06-Items/Forge.md#merge)里合并两件物品时，只有两件都带标记，标记才会保留，预览会显示这一点；失败的锻造炉步骤会把材料以普通单位退还。
 
@@ -54,7 +54,7 @@
 | **Adaptive Core** | Adaptive Core I, Adaptive Core II, Adaptive Core III | 3 |
 | **护盾电池** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **推进器** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
-| **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Ultra Core（每组 10 个）, Experimental Fusion Core | 5 |
+| **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Siphon Battery II（每组 10 个）, Antimatter Battery I（每组 10 个）, Ultra Core（每组 10 个）, Dark Matter Ammo I（每组 10 个）, Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
 | **消耗品** | EMP Charge, Energetic Wall II | 2 |
 | **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cf23a423e4e2b435 -->
+<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -33,6 +33,7 @@ Son olarak, nihai hasar çıktısını elde etmek için genel çarpanlar (aktif 
 - Formül: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Kuşanılmış bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) nihai hasarı bir kez daha çarpabilir: örneğin Auger +%21 lazer hasarı, Gyre −%11 ve uzaylılara karşı Culler +%12 (ayrı bir çarpandır, booster yüzdesinin parçası değildir).
 - **Siphon Battery** cephanesinin çarpanı x1, ama hedefi farklı: hasarı yalnızca hedefin kalkanından düşer (soğurma ne olursa olsun asla gövdeden değil) ve senin kendi kalkanına, en fazla maksimumuna kadar geçer. Bkz. [Lazerler ve cephane](/wiki/06-Items/Lasers.md).
+- **Dark Matter Ammo** (0.5.0) salvonun kendisini değiştirir: Dark Matter Ammo I çarpanını (x1,5 ile x5) her salvoda yeniden belirler, Dark Matter Ammo II ise yalnızca 1,5 saniyede bir x6 ile vurur ve hedefinin kalkanının aldığı hasarın dörtte birini sana verir. **Antimatter Battery** cephanesi hedefin soğurmasının %20’sini deler. Bkz. [Antimatter ve Dark Matter cephanesi](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Roketler {#3b-rockets}
 
@@ -115,7 +116,7 @@ Geminin bir düşman ya da NPC tarafından vurulduğunda hasar şu şekilde işl
 ### 1. Kalkan soğurması {#1-shield-absorption}
 
 Gelen hasar, kalkanlar ile gövde puanları arasında geminin **ortalama soğurması** ile bölüşülür: kalkanlarının soğurmasının ortalaması, her biri kendi kalkan hücrelerininkiyle birlikte, artı Sezon Mağazası’ndaki Shield Absorbance Boost (bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md)). **%100 ile sınırlı değildir**: kalkanların bir vuruştan aldığı pay, soğurman **eksi saldırganın kalkan delmesidir**, %0 ile %100 arasında.
-- **Soğurma** (örneğin en iyi kalkan ve en iyi hücrelerle %80, iki Absorption Shield Cell I taşıyan bir Basic Shield Core ile %56) her vuruşun bir kısmını kalkanlara aktarır, vuruşun delmesi düşüldükten sonra: Lancet III roketinin %35 delmesi, %80 soğurmalı bir geminin kalkanlarında %45 bırakır ve geri kalanı (orada %55) doğrudan gövde puanına vurur.
+- **Soğurma** (örneğin en iyi kalkan ve en iyi hücrelerle %85, iki Absorption Shield Cell I taşıyan bir Basic Shield Core ile %58) her vuruşun bir kısmını kalkanlara aktarır, vuruşun delmesi düşüldükten sonra: Lancet III roketinin %35 delmesi, %85 soğurmalı bir geminin kalkanlarında %50 bırakır ve geri kalanı (orada %50) doğrudan gövde puanına vurur.
 - **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%3 ile +%12) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
 - Payı için fazla düşük kalan bir kalkan farkı gövde puanına aktarır; kalkanlar tamamen bittiyse kalan tüm hasar (**%100**) gövde puanına vurur.
 - Uzaylıların soğurma özelliği yoktur: kalkanları her vuruşun %80 kadarını alır (vuruşun delmesi düşülür), gövdeleri geri kalanını.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b5ea1a2768714e5b -->
+<!-- wiki-i18n source: ba91236fc8dde42a -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -28,10 +28,10 @@ Liksom motorer sorteras utrustade sköldar (och hybridgeneratorer) med de bästa
 ### 2. Sköldabsorption (skadefördelning) {#2-shield-absorbance-damage-split-}
 
 Absorption är den andel av varje träff som dina sköldar tar; resten går direkt till träffpoängen (HP).
-- **Per sköld**: en skölds absorption plus absorptionen hos de sköldceller som sitter i den. En sköld ensam har **45 till 50 %** (Light 45 %, Basic 48 %, Heavy 50 %); celler ger 2 till 10 punkter var (Capacity Shield Cell I–IV +2 %, +3 %, +4 %, +5 %; Absorption Shield Cell I–IV +4 %, +6 %, +8 %, +10 %).
+- **Per sköld**: en skölds absorption plus absorptionen hos de sköldceller som sitter i den. En sköld ensam har **45 till 55 %** (Light 45 %, Basic 50 %, Heavy 55 %); celler ger 2 till 10 punkter var (Capacity Shield Cell I–IV +2 %, +3 %, +4 %, +5 %; Absorption Shield Cell I–IV +4 %, +6 %, +8 %, +10 %).
 - **Genomsnittlig absorption**: skeppets absorption är det enkla medelvärdet över sköldarna i kärn-, stöd- och hjälpplatser och på dina drönare. Adaptiva kärnor har ingen egen absorption och räknas inte med i medelvärdet (celler i en adaptiv kärna ger bara kapacitet och laddning). Utan någon sköld utrustad är din absorption 0 %: skrovet tar varje träff, och sköldpoäng från celler i en adaptiv kärna används inte, så sätt dit en sköld också.
-- **Mest rakt ur lådan är 80 %**: den bästa skölden med de bästa cellerna, en Heavy Shield Core med tre Absorption Shield Cell IV i varje plats. Blandar du in svagare sköldar sänks medelvärdet. Ingen buff från säsongsbutiken och ingen bonus från Smedjan ingår i det talet.
-- **Exempel**: en Basic Shield Core (48 %) med två Absorption Shield Cell I ger 56 %; lägg till en Light Shield Core (45 %) och medelvärdet blir 50,5 %.
+- **Mest rakt ur lådan är 85 %**: den bästa skölden med de bästa cellerna, en Heavy Shield Core med tre Absorption Shield Cell IV i varje plats. Blandar du in svagare sköldar sänks medelvärdet. Ingen buff från säsongsbutiken och ingen bonus från Smedjan ingår i det talet.
+- **Exempel**: en Basic Shield Core (50 %) med två Absorption Shield Cell I ger 58 %; lägg till en Light Shield Core (45 %) och medelvärdet blir 51,5 %.
 - **Värdet har inget tak vid 100 %.** Det är vad sköldarna skulle ta av en träff, innan angriparens *sköldgenomträngning* dras av, så ett skepp kan ha mer än en hel träff: 112 % tar fortfarande en hel träff från en angripare med upp till 12 % genomträngning.
 
 #### Sköldgenomträngning {#shield-penetration}
@@ -42,28 +42,28 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 
 - Sköldarna tar högst `round(damage x share)` av träffen; skrovet tar resten. En sköld som är för låg för sin andel för över skillnaden till HP, och är sköldarna på 0 går all skada direkt på HP.
 - **Varifrån genomträngning kommer**: en enkelmålsrakets *sköldgenomträngning* (Lancet I 10 %, Lancet II 25 %, Lancet III 35 %, Rivet I 5 %, Rivet II 25 %, Rivet III 35 %, N.I.K.E. 35 %; områdesskada har ingen, se [Raketer](/wiki/06-Items/Rockets.md)) och laserammunitionens (Ultra Core 5 %, Experimental Fusion Core 10 %; se [Lasrar och ammunition](/wiki/06-Items/Lasers.md)). Utomjordingar har ingen, och det har inte heller x1- och x2-ammunitionen. En laserträff drar också av Penetration Amps i skyttens lasrar (+3 % till +12 % per plats, medelvärdet över dess lasrar) och en drönarformations genomträngning (Gemini +15 %; Stiletto ger +35 % bara åt en direkt raket); en direkt raket lägger formationens till sin egen. **Inget sätter tak för summan**: sköldarna tar absorptionen minus allt detta, ner till ingenting av träffen ([så läggs en laserträff ihop](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
-- **Exempel**: 80 % absorption mot en Lancet III (35 %): sköldarna tar 45 % av träffen, skrovet 55 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. En raket ensam tränger inte helt igenom någon kärna, men en Lancet III med en Stiletto (35 % + 35 % = 70 %) lämnar ingenting av träffen åt en Light Shield Core ensam (45 %), och det gör den bästa lasern (61 %) också: mot den lasern tar den bästa skölden (80 %) 19 % av träffen och skrovet 81 %.
+- **Exempel**: 85 % absorption mot en Lancet III (35 %): sköldarna tar 50 % av träffen, skrovet 50 %. 100 % mot den: 65 % och 35 %. 112 % mot 12 % genomträngning: hela träffen. 45 % (en Light Shield Core ensam) mot 35 %: 10 % på skölden, resten på skrovet. En raket ensam tränger inte helt igenom någon kärna, men en Lancet III med en Stiletto (35 % + 35 % = 70 %) lämnar ingenting av träffen åt en Light Shield Core ensam (45 %), och det gör den bästa lasern (61 %) också: mot den lasern tar den bästa skölden (85 %) 24 % av träffen och skrovet 76 %.
 - Utomjordingar har inget absorptionsvärde: de delar varje träff 80 % / 20 %, minus träffens genomträngning.
 - Skadan från en Siphon Battery tas enbart ur målets sköld: absorption och genomträngning spelar ingen roll.
 
-**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (61 %) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 70 %):
+**Där sköldarna inte tar något.** En genomträngning som är lika med eller större än absorptionen lämnar sköldarna ingenting av träffen: skrovet tar allt. Tabellen visar vad sköldarna tar av en träff från den bästa lasern (61 %; en Antimatter Battery i stället för Experimental Fusion Core ger 71 % vid x3 skada) och den bästa enkelmålsraketen (en Lancet III eller en Rivet III med en Stiletto, 70 %):
 
 | Sköld | Absorption | Sköldarna tar, bästa laser (61 %) | Sköldarna tar, bästa enkelmålsraket (70 %) |
 | :--- | ---: | ---: | ---: |
 | Light Shield Core | 45 % | 0 % | 0 % |
-| Basic Shield Core | 48 % | 0 % | 0 % |
-| Heavy Shield Core | 50 % | 0 % | 0 % |
-| Den bästa skölden utan buffar | 80 % | 19 % | 10 % |
+| Basic Shield Core | 50 % | 0 % | 0 % |
+| Heavy Shield Core | 55 % | 0 % | 0 % |
+| Den bästa skölden utan buffar | 85 % | 24 % | 15 % |
 | En sköld på 100 % | 100 % | 39 % | 30 % |
 | En sköld på 120 % | 120 % | 59 % | 50 % |
 
 #### Att nå och passera 100 % {#reaching-and-passing-100-}
 
-- **Rakt ur lådan**: högst 80 % (se ovan).
-- **Shield Absorbance Boost**: en permanent buff i säsongsbutiken som köps med wipepoäng, **+0,1 punkter per nivå, högst +10 punkter** (100 nivåer, 25 WP var). Den lägger fasta punkter på ditt skepps absorption, lika på alla skepp med sköld: 80 % blir 80,4 % med 4 nivåer (100 WP), och de 45 % som en Light Shield Core har blir 46,2 % med 12 nivåer (300 WP). Ett skepp utan sköld utrustad stannar på 0 %. De 100 nivåerna kostar 2 500 WP, ett mål för flera wipes: källorna till wipepoäng (milstolparna för nedskjutningar, uppdragen och de fem Dormant Knowledge-forskningarna) betalar upp till 1 090 WP i en wipe och börjar om vid varje wipe, din grad lägger till 5 till 400 vid wipen, och 1 090 köper 43 nivåer, +4,3 punkter. Se [Säsong och wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
-- **Smedjan**: sköldar och sköldceller kan få en bonus på **absorption**, som multiplicerar värdet: +5 % på en sköld med 50 % är +2,5 punkter. En fullt smidd bästa uppsättning på nivån Evig (kärna och tre celler, varje bonus slumpad till högsta nivå, +15 %) ger upp till 12 punkter, i snitt omkring 10 (se [Smedjan](/wiki/06-Items/Forge.md)).
-- **Field Theory**: Pilot-forskningen Field Theory I, II och III ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) lägger **+2, +3 och +5 punkter** på absorptionen hos alla dina skepp, sammanlagt och inte varje nivå ovanpå den förra, mot krediter, Thulium och Dark Matter. Liksom säsongsbutikens buff är det fasta punkter på alla skepp med sköld, och de finns kvar efter wipen.
-- **Tillsammans**: 80 % rakt ur lådan, +4,3 punkters buff (en wipes 1 090 wipepoäng), upp till +12 punkter i bonusar från Smedjan och +5 punkter från Field Theory III blir som mest **101,3 %** efter en wipe; med alla buffens 100 nivåer (+10 punkter, 2 500 WP) skulle det bli 107 %. Varken buffen, Smedjan eller Field Theory ensam når 100 %; att komma dit kräver alla tre och är ett mål för flera wipes.
+- **Rakt ur lådan**: högst 85 % (se ovan).
+- **Shield Absorbance Boost**: en permanent buff i säsongsbutiken som köps med wipepoäng, **+0,1 punkter per nivå, högst +10 punkter** (100 nivåer, 25 WP var). Den lägger fasta punkter på ditt skepps absorption, lika på alla skepp med sköld: 85 % blir 85,4 % med 4 nivåer (100 WP), och de 45 % som en Light Shield Core har blir 46,2 % med 12 nivåer (300 WP). Ett skepp utan sköld utrustad stannar på 0 %. De 100 nivåerna kostar 2 500 WP, ett mål för flera wipes: källorna till wipepoäng (milstolparna för nedskjutningar, uppdragen och de fem Dormant Knowledge-forskningarna) betalar upp till 1 105 WP i en wipe och börjar om vid varje wipe, din grad lägger till 5 till 400 vid wipen, och 1 105 köper 44 nivåer, +4,4 punkter. Se [Säsong och wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
+- **Smedjan**: sköldar och sköldceller kan få en bonus på **absorption**, som multiplicerar värdet: +5 % på en sköld med 55 % är +2,75 punkter. En fullt smidd bästa uppsättning på nivån Evig (kärna och tre celler, varje bonus slumpad till högsta nivå, +15 %) ger upp till 12,8 punkter, i snitt omkring 10 (se [Smedjan](/wiki/06-Items/Forge.md)).
+- **Field Theory**: Pilot-forskningen Field Theory I, II och III ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) lägger **+4, +7 och +10 punkter** på absorptionen hos alla dina skepp, sammanlagt och inte varje nivå ovanpå den förra, mot krediter, Thulium och Dark Matter. Liksom säsongsbutikens buff är det fasta punkter på alla skepp med sköld, och de finns kvar efter wipen.
+- **Tillsammans**: 85 % rakt ur lådan, +4,4 punkters buff (en wipes 1 105 wipepoäng), upp till +12,8 punkter i bonusar från Smedjan och +10 punkter från Field Theory III blir som mest **112,2 %** efter en wipe på ett vanligt skepp, utan [design](/wiki/03-Mechanics/Ship-Designs.md) och utan [formation](/wiki/03-Mechanics/Formations.md); med alla buffens 100 nivåer (+10 punkter, 2 500 WP) skulle det bli 117,8 %. En design med +10 % sköldabsorption (Paragon BUCKY, Ironclad DUMA, Wraith ATARAXIS) och formationen Rampart (+17 %) multiplicerar sköldarnas absorption innan buffens och Field Theorys fasta punkter läggs till; samma skepp med båda når därför **140,2 %** efter en wipe (145,8 % med alla 100 nivåer). Varken buffen, Smedjan eller Field Theory ensam når 100 %; en uppsättning på nivån Evig tillsammans med Field Theory III går förbi (103 till 108 %), och buffens nivåer kommer ovanpå. Alla dessa siffror räknar bara källorna till wipepoäng, inte de 5 till 400 wipepoäng som din grad betalar vid wipen och som köper fler nivåer av buffen.
 
 ### Sköldförstärkningar: kapacitet, absorption, laddning {#shield-boosts-capacity-absorbance-recharge}
 

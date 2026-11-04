@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f725fcc3af1d7832 -->
+<!-- wiki-i18n source: 5e622778711b5fed -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -15,7 +15,7 @@
 
 Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고). 두 **Energetic Wall**도 더 이상 부가 장비가 아닙니다. 0.4.22부터 소모품이라 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않습니다([Energetic Wall](#energetic-wall) 참고).
 
-새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. 사용하려면 퀵슬롯의 부가 장비 선택창에서 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없습니다.
+새 파일럿의 **스타터 키트**는 Protos의 부가 슬롯 두 개에 이미 부가 장비 두 개를 장착해 줍니다. **Base CPU I**(10회 사용, 소속 기업의 기지로 순간이동)과 **Repair Drone I**입니다. Repair Drone I의 **REP** 버튼은 이미 퀵슬롯의 2번 슬롯(키 `2`)에 있고, 1번 슬롯의 탄약 옆에 놓여 있습니다. Base CPU I은 퀵슬롯의 부가 장비 선택창에서 직접 슬롯으로 끌어다 놓으세요. 키트는 새 파일럿만 받습니다. 0.4.10 이전에 시작한 파일럿에게는 없고, 0.4.27 이전에 가입한 파일럿은 지금 가진 퀵슬롯을 그대로 씁니다.
 
 CPU 여덟 가지는 판매하지 않습니다. Skylab의 연구 센터가 연구를 마치면 어셈블리에서 제작할 수 있습니다([연구](/wiki/03-Mechanics/Research.md) 참고). Extra Slots CPU I·II·III, Jump CPU, Base CPU I·II, Auto-Repair CPU, Auto-Rocket CPU이며, 각각의 기능은 [마지막 절](#research-cpus)에 있습니다. Cloaking CPU처럼 Jump CPU와 Base CPU도 조용한 때를 위한 장비입니다. 내가 사격하거나 공격을 받고 나서 10초 안에는 이 셋 중 어느 것도 시작되지 않습니다. 두 가지 워프 CPU, 즉 Jump CPU와 Base CPU도 미션 아이템을 운반하는 동안에는 사용할 수 없습니다("미션 아이템을 운반하는 중에는 워프 CPU를 사용할 수 없습니다."). [미션 아이템](/wiki/03-Mechanics/Quests.md#quest-items)을 참고하세요.
 
@@ -64,7 +64,7 @@ Base CPU I -> Base CPU II
 
 ## Repair Drone {#repair-drones}
 
-Repair Drone을 켜면(REP) 선체가 가득 찰 때까지 수리합니다. 피격 없이 10초가 지나야 작동을 시작하고, 피격되면 즉시 꺼집니다. 여러 개를 장착하면 가장 좋은 것 하나만 작동합니다. [Auto-Repair CPU](#auto-repair-cpu)가 있으면 다시 켜 줍니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다. 수리하는 동안 작은 수리 드론이 함선에서 날아 나와 둘레를 돌며 선체에 빔을 쏩니다. Repair Drone I은 1기, II는 2기, III과 IV는 3기이고, 근처 파일럿에게도 보입니다. 수리가 멈추면 드론은 다시 도킹합니다.
+Repair Drone을 켜면(REP) 선체가 가득 찰 때까지 수리합니다. 피격 없이 10초가 지나야 작동을 시작하고, 피격되면 즉시 꺼집니다. 여러 개를 장착하면 가장 좋은 것 하나만 작동합니다. [Auto-Repair CPU](#auto-repair-cpu)가 있으면 다시 켜 줍니다. 수리 속도는 [전투](/wiki/03-Mechanics/Combat.md)에 있습니다. 수리하는 동안 작은 수리 드론이 함선에서 날아 나와 둘레를 돌며 선체에 빔을 쏩니다. Repair Drone I은 1기, II는 2기, III과 IV는 3기이고, 근처 파일럿에게도 보입니다. 수리가 멈추면 드론은 다시 도킹합니다. REP를 눌러 드론을 켜면 Emergency Repair의 파동보다 조금 낮고 작은 부드러운 수리 파동이 울리고, 수리하는 동안에는 방금 회복한 선체량이 작은 초록색 숫자(+N)로 약 1초마다 내 함선 위에 떠오릅니다. Auto-Repair CPU가 켠 경우에도 마찬가지입니다.
 
 ## Cloaking CPU
 

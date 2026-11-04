@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14ba20f129d9805d -->
+<!-- wiki-i18n source: 8265471ed473d0eb -->
 <!-- wiki-i18n title: Tehlike Sektörleri -->
 # Tehlike Sektörleri {#danger-sectors}
 
@@ -52,7 +52,7 @@ Her dünyanın bunların hepsinin kendi kopyası vardır ve bir pulsar ile ekska
 
 - **Radyasyon.** Aşırı ısınmış ya da yok edilmiş bir ekskavatör ve pulsarı, çemberlerinin içinde kalan her gemiyi yakar ([Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md#heat-and-radiation)). Oyun bunu olmadan önce uyarır ve çemberler uçuşta zemin üzerine ve mini haritaya çizilir.
 - **Bataklığın topları.** Bataklığın taretlerinin görebildiği bir gemi, yolculuğa değer bir şey görebilmesinden çok önce ateş altına alınır ([Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-guns)). Tıkladığın rota, kara delikte olduğu gibi, topların ve radyasyonun çevresinden bükülür ve tıkladığın yer içeride kalıyorsa bir bildirim seni uyarır.
-- **Orada yok edilirsen**, **öldüğün yerde** geri dönme seçeneği seni, kara delikte olduğu gibi, radyasyonun ve bataklığın bölgesinin dışındaki en yakın noktaya koyar ([Başlarken](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
+- **Orada yok edilirsen**, **öldüğün yerde** geri dönemezsin: bir Tehlike Sektörü’nde ölüm ekranı yalnızca **üssünü** ve **en yakın portalı** sunar, “Öldüğün yerde” de soluk görünür. Yine de istersen reddedilir ve hiçbir şeye mal olmaz ([Başlarken](/wiki/01-General/Getting-Started.md#dying-and-coming-back)).
 - **Bir grup ve bir kaçış yolu.** Ekskavatörler Void gemilerini de rakipleri de çeker. Bir [grup](/wiki/03-Mechanics/Groups.md) getir, hangi geçidin en yakın olduğunu bil ve Tehlike Sektörleri’nde saldırı altındayken sıçrayıp çıkamayacağını unutma ([Ateş altında sıçrama](/wiki/01-General/Spacemap%20Travel.md#jumping-under-fire)).
 - **Geri kalanı her zamanki PvP.** Burada güvenli bir yer yoktur: dünyanın normal kuralları geçerlidir, rakipler dahil.
 

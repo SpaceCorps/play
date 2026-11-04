@@ -30,12 +30,12 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Shoot the boss, not the scouts.** The scouts heal the boss, but the heal is small next to the boss's hull, and a new scout comes as often as the *At a glance* list says: a group that kills the scouts first never gets ahead of them, and only a very large group can clear them and still takes longer to finish the boss than one that left them alone. The scouts cost you time, they do not decide the fight.
 - **Lead the scouts away.** A scout heals only while it is within reach of the boss, so a scout that follows you out of reach heals nothing, and an Ostirion is faster than a scout.
 - **Keep moving.** The boss's rocket is straight and unguided: a ship that keeps moving sidesteps it, a ship that stands still is hit.
-- **Bring a group.** Three pilots in Ostirions with x2 ammo lose it on `x-3` even while the hits are shared, and on `x-2` as well; four take it in about four minutes in Alpha. With x4 ammo three are enough on `x-3` too (about two and a half minutes). Five take it in about three minutes when the hits are shared and in about five when one pilot takes all the fire, and then they lose four ships: a group that lets one pilot take all the fire needs five. In Beta it takes six pilots and in Gamma eight, with the hits shared (the boss is bigger there and its scouts heal more). One Ostirion alone cannot, and one Paragon alone cannot either: two Paragons can. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
+- **Bring a group.** Three pilots in Ostirions with x2 ammo lose it on `x-3` even while the hits are shared, and on `x-2` as well; four take it in about four minutes in Alpha. With x4 ammo three are enough on `x-3` too (about two and a half minutes). Five take it in about three minutes when the hits are shared and in about five when one pilot takes all the fire, and then they lose four ships: a group that lets one pilot take all the fire needs five. In Beta it takes six pilots and in Gamma eight, with the hits shared (the boss is bigger there and its scouts heal more). In Alpha on `x-3` with x2 ammo, one Ostirion alone cannot win it, and one Paragon alone only just can (it is left with a few percent of its hull): two Paragons win it safely. In Beta and Gamma on `x-3`, one Paragon alone is destroyed, with x2 and with x4 ammo. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
 - **The boss comes back** after the time in the *At a glance* list, in the same sector.
 
 ## Rewards and drops
 
-The Pirate Boss pays for the fight it is: a minute of fighting it pays more than a minute of fighting a Goombah. The credit is split by damage among the pilots who fought it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Its box is for the pilot who dealt the most damage and can hold a **Reinforced Hull Plate**, rockets and ammo. Its box is worth about two fifths of what the kill itself pays. The scouts pay a small amount and drop nothing.
+The Pirate Boss pays for the fight it is: a minute of fighting it pays more than a minute of fighting a Goombah. The credit is split by damage among the pilots who fought it ([how a boss kill pays](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Its box is for the pilot who dealt the most damage and can hold a **Reinforced Hull Plate**, rockets and ammo. Its box is worth a little under half of what the kill itself pays. The scouts pay a small amount and drop nothing.
 
 ## The numbers
 
@@ -69,7 +69,7 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
 | One of the 8 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 5–10 |
-| One of Advanced Plasma and Siphon Battery, picked at random | 100% | 1,000–2,000 |
+| One of Advanced Plasma, Siphon Battery and Siphon Battery II, picked at random | 100% | 1,000–2,000 |
 
 ### Pirate Scout
 
