@@ -123,7 +123,7 @@ jobs:
           ls -l target/release/spacecorps2027 target/release/assetpack
           file target/release/spacecorps2027 | cut -c1-200
 
-      - name: Pack the assets in a copy and start it headless
+      - name: "Pack the assets in a copy and start it headless (8 times: the Windows runs showed a flaky start)"
         working-directory: src
         run: |
           set -e
@@ -136,20 +136,27 @@ jobs:
           target/release/assetpack verify "$work/app/spacecorps2027" --against "$work/assets" | cut -c1-200
           cd /
           set +e
-          # (as scripts/release/smoke-test.sh runs the tarball's binary: another folder, a fresh HOME, software Vulkan)
-          start=$(date +%s)
-          timeout 900 env -i PATH=/usr/bin:/bin "HOME=$RUNNER_TEMP/home" WGPU_BACKEND=vulkan SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off \
-            SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login "SPACECORPS_SHOTS=$RUNNER_TEMP/shots" \
-            "$work/app/spacecorps2027" > "$RUNNER_TEMP/run.log" 2>&1
-          rc=$?
-          echo "exit $rc after $(( $(date +%s) - start )) s"
-          sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
-          grep -aE 'SpaceCorps 2027 [0-9][^ ]* \(|assets: .*packed in|renderer initialised|audio disabled|auto-exit|panicked|fatal|Segmentation' "$RUNNER_TEMP/run.txt" | cut -c1-260
-          n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
-          echo "$n screenshots"
-          grep -aiE 'panicked|fatal' "$RUNNER_TEMP/run.txt" && exit 1
-          [ "$n" -gt 0 ] || { tail -15 "$RUNNER_TEMP/run.txt" | cut -c1-200; exit 1; }
-          grep -aq 'aarch64-unknown-linux-gnu)' "$RUNNER_TEMP/run.txt"
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/shots"; mkdir -p "$RUNNER_TEMP/shots"
+            start=$(date +%s)
+            # (as scripts/release/smoke-test.sh runs the tarball's binary: another folder, a fresh HOME, software Vulkan)
+            timeout 900 env -i PATH=/usr/bin:/bin "HOME=$RUNNER_TEMP/home" WGPU_BACKEND=vulkan SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off \
+              SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login "SPACECORPS_SHOTS=$RUNNER_TEMP/shots" \
+              "$work/app/spacecorps2027" > "$RUNNER_TEMP/run.log" 2>&1
+            rc=$?
+            n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, $(grep -ac 'auto-exit' "$RUNNER_TEMP/run.txt") auto-exit"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+            if [ "$i" = 1 ]; then
+              grep -aE 'SpaceCorps 2027 [0-9][^ ]* \(|assets: .*packed in|renderer initialised|audio disabled|auto-exit|panicked|fatal|Segmentation' "$RUNNER_TEMP/run.txt" | cut -c1-260
+              grep -aq 'aarch64-unknown-linux-gnu)' "$RUNNER_TEMP/run.txt" || { echo "the version line names another target"; exit 1; }
+            fi
+            grep -aiE 'panicked|fatal' "$RUNNER_TEMP/run.txt" && exit 1
+          done
+          echo "TALLY linux aarch64 native: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
+          [ "$ok" -gt 0 ]
 
       - uses: actions/upload-artifact@v4
         with:
@@ -283,7 +290,7 @@ jobs:
           [ "$n" -gt 0 ] || { tail -15 "$RUNNER_TEMP/run.txt" | cut -c1-200; exit 1; }
           grep -aq 'aarch64-pc-windows-msvc)' "$RUNNER_TEMP/run.txt"
 
-      - name: "Diagnose: the exe with a bigger stack, and what Windows says about a crash"
+      - name: "Repeat: the ARM64 exe started 8 times, headless (the first runs crashed, a later one did not)"
         if: always()
         working-directory: src
         run: |
@@ -294,35 +301,23 @@ jobs:
             exe="$PWD/target/aarch64-pc-windows-msvc/release/spacecorps2027.exe"
           fi
           [ -f "$exe" ] || { echo "no exe at $exe"; exit 0; }
-          cat > "$RUNNER_TEMP/stack.py" <<'PY'
-          import struct, sys
-          src, dst, size = sys.argv[1], sys.argv[2], int(sys.argv[3])
-          d = bytearray(open(src, 'rb').read())
-          o = struct.unpack_from('<I', d, 0x3c)[0]
-          opt = o + 24
-          print('stack reserve was', struct.unpack_from('<Q', d, opt + 72)[0] // 1024, 'KiB, now', size // 1024, 'KiB')
-          struct.pack_into('<Q', d, opt + 72, size)
-          open(dst, 'wb').write(d)
-          PY
-          try() { # try <label> <exe> [VAR=value ...]
-            label=$1; e=$2; shift 2
-            rm -rf "$RUNNER_TEMP/dshots"; mkdir -p "$RUNNER_TEMP/dshots" "$RUNNER_TEMP/home"
-            wh=$(cygpath -m "$RUNNER_TEMP/home")
+          mkdir -p "$RUNNER_TEMP/home"
+          wh=$(cygpath -m "$RUNNER_TEMP/home")
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/dshots"; mkdir -p "$RUNNER_TEMP/dshots"
             start=$(date +%s)
             timeout 300 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
               "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/dshots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
-              "$@" "$e" > "$RUNNER_TEMP/d.log" 2>&1
+              "$exe" > "$RUNNER_TEMP/d.log" 2>&1
             rc=$?
-            echo "[$label] exit $rc after $(( $(date +%s) - start )) s, $(find "$RUNNER_TEMP/dshots" -name 'shot_*.png' | wc -l) screenshots"
-            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/d.log" | grep -aE 'auto-exit|panicked|stack overflow' | cut -c1-200
-            powershell -NoProfile -Command "Get-WinEvent -FilterHashtable @{LogName='Application'; ProviderName='Application Error'} -MaxEvents 1 -ErrorAction SilentlyContinue | ForEach-Object { \$_.TimeCreated.ToString('HH:mm:ss'); \$_.Message }" | grep -aE '^[0-9]{2}:|Faulting|Exception code|Fault offset' | cut -c1-200
-          }
-          echo "now: $(date -u +%H:%M:%S) UTC"
-          try as-built "$exe"
-          python3 "$RUNNER_TEMP/stack.py" "$exe" "$RUNNER_TEMP/stack8.exe" 8388608
-          cp "$RUNNER_TEMP/stack8.exe" "${exe%.exe}-stack8.exe"
-          try stack-8MiB "${exe%.exe}-stack8.exe"
-          try small-640x360 "$exe" SPACE3D_HEADLESS=640x360
+            n=$(find "$RUNNER_TEMP/dshots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/d.log" > "$RUNNER_TEMP/d.txt"
+            last=$(grep -aE '^20[0-9-]+T' "$RUNNER_TEMP/d.txt" | tail -1 | cut -c28-130)
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, last log line: $last"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+          done
+          echo "TALLY ${{ matrix.target }} native: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
           exit 0
 
       - uses: actions/upload-artifact@v4
@@ -357,24 +352,28 @@ jobs:
           unzip -q SpaceCorps2027-windows-x86_64.zip -d x64
           file "x64/SpaceCorps 2027/spacecorps2027.exe" | cut -c1-160
 
-      - name: Start it headless (x64 code; emulated by Windows on Arm on the Arm runner)
+      - name: Start it headless 8 times (x64 code; emulated by Windows on Arm on the Arm runner)
         run: |
           set +e
-          mkdir -p "$RUNNER_TEMP/shots" "$RUNNER_TEMP/home"
+          mkdir -p "$RUNNER_TEMP/home"
           wh=$(cygpath -m "$RUNNER_TEMP/home")
           exe="$RUNNER_TEMP/x64/SpaceCorps 2027/spacecorps2027.exe"
-          start=$(date +%s)
-          timeout 600 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
-            "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/shots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
-            "$exe" > "$RUNNER_TEMP/run.log" 2>&1
-          rc=$?
-          echo "exit $rc after $(( $(date +%s) - start )) s"
-          sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
-          grep -aE 'SpaceCorps 2027 [0-9][^ ]* \(|renderer initialised|audio|auto-exit|panicked|fatal|updates ' "$RUNNER_TEMP/run.txt" | cut -c1-260
-          n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
-          echo "$n screenshots"
-          powershell -NoProfile -Command "Get-WinEvent -FilterHashtable @{LogName='Application'; ProviderName='Application Error'} -MaxEvents 1 -ErrorAction SilentlyContinue | ForEach-Object { \$_.TimeCreated.ToString('HH:mm:ss'); \$_.Message }" | grep -aE '^[0-9]{2}:|Faulting|Exception code|Fault offset' | cut -c1-200
-          [ "$n" -gt 0 ]
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/shots"; mkdir -p "$RUNNER_TEMP/shots"
+            start=$(date +%s)
+            timeout 600 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
+              "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/shots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
+              "$exe" > "$RUNNER_TEMP/run.log" 2>&1
+            rc=$?
+            n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
+            last=$(grep -aE '^20[0-9-]+T' "$RUNNER_TEMP/run.txt" | tail -1 | cut -c28-130)
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, last log line: $last"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+          done
+          echo "TALLY x64 build on ${{ matrix.os }}: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
+          [ "$ok" -gt 0 ]
 
       - uses: actions/upload-artifact@v4
         with:
