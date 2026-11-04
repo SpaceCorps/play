@@ -44,6 +44,6 @@ jobs:
         run: ./.github/warp-diag/fetch-x64.ps1 -Dest "$env:RUNNER_TEMP\pkg"
       - name: The newest WARP, app-local
         if: matrix.newwarp
-        run: ./.github/warp-diag/newwarp.ps1 -ExeDir "$env:RUNNER_TEMP\pkgd\SpaceCorps 2027"
+        run: ./.github/warp-diag/newwarp.ps1 -ExeDir "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027"
       - name: "Start it 8 times: ${{ matrix.name }}"
         run: ./.github/warp-diag/variant.ps1 -Exe "$env:RUNNER_TEMP\pkg\x64\SpaceCorps 2027\spacecorps2027.exe" -Name "${{ matrix.name }}" -Vars "${{ matrix.vars }}"
