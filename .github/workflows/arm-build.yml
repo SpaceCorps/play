@@ -412,65 +412,199 @@ jobs:
           systeminfo 2>/dev/null | grep -aE '^(OS Name|OS Version|System Type)' || true
           echo "session: $(powershell -NoProfile -Command '(Get-Process -Id $PID).SessionId')"
 
-      - name: Windows error reporting writes a dump of the crash
-        run: |
-          mkdir -p /c/dumps
-          reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" //v DumpFolder //t REG_EXPAND_SZ //d "C:\dumps" //f
-          reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" //v DumpType //t REG_DWORD //d 2 //f
-          reg add "HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\LocalDumps" //v DumpCount //t REG_DWORD //d 10 //f
-          cat > "$RUNNER_TEMP/dump.py" <<'PY'
-          import struct, sys
-          d = open(sys.argv[1], 'rb').read()
-          assert d[:4] == b'MDMP'
-          n, rva = struct.unpack_from('<II', d, 8)
-          streams = {}
-          for i in range(n):
-              t, size, off = struct.unpack_from('<III', d, rva + 12 * i)
-              streams[t] = (size, off)
-          def name(off):
-              (l,) = struct.unpack_from('<I', d, off)
-              return d[off + 4:off + 4 + l].decode('utf-16-le').replace('\', '/').rsplit('/', 1)[-1]
-          mods = []
-          if 4 in streams:
-              (cnt,) = struct.unpack_from('<I', d, streams[4][1])
-              for i in range(cnt):
-                  base, size, _, _, nrva = struct.unpack_from('<QIIII', d, streams[4][1] + 4 + 108 * i)
-                  mods.append((base, size, name(nrva)))
-          if 6 not in streams:
-              print('no exception stream'); sys.exit(0)
-          o = streams[6][1]
-          tid, _ = struct.unpack_from('<II', d, o)
-          code, flags, _, addr, nparam = struct.unpack_from('<IIQQI', d, o + 8)
-          info = struct.unpack_from('<2Q', d, o + 8 + 32)
-          mod = next(((m, a - b) for (b, s, m) in [(b, s, m) for (b, s, m) in mods] for a in [addr] if b <= a < b + s), (None, 0))
-          print(f'exception {code:#010x} flags {flags:#x} at {addr:#x} thread {tid}; info {info[0]:#x} {info[1]:#x}')
-          print(f'in module {mod[0]} + {mod[1]:#x}')
-          if 3 in streams:
-              (cnt,) = struct.unpack_from('<I', d, streams[3][1])
-              print(f'{cnt} threads, {len(mods)} modules')
-          print('modules:', ' '.join(sorted({m for (_, _, m) in mods if m.lower().startswith(('d3d', 'dxg', 'dx', 'warp', 'vulkan', 'opengl', 'ntdll', 'kernel', 'spacecorps'))})))
-          PY
-
-      - name: The first crash, read from its dump (code, module, offset only)
+      - name: The first crash under a small debugger (module names and offsets only)
         run: |
           set +e
           mkdir -p "$RUNNER_TEMP/home"
           wh=$(cygpath -m "$RUNNER_TEMP/home")
-          exe="$RUNNER_TEMP/x64/SpaceCorps 2027/spacecorps2027.exe"
-          for i in 1 2 3 4 5 6; do
-            rm -f /c/dumps/*.dmp
-            timeout 300 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SCREEN=login \
-              "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
-              "$exe" > "$RUNNER_TEMP/run.log" 2>&1
-            rc=$?
-            echo "start $i: exit $rc"
-            sleep 5
-            if ls /c/dumps/*.dmp >/dev/null 2>&1; then
-              for f in /c/dumps/*.dmp; do echo "dump $(basename "$f") $(stat -c %s "$f") bytes"; python "$RUNNER_TEMP/dump.py" "$f"; done
-              break
-            fi
-          done
-          powershell -NoProfile -Command "Get-WinEvent -FilterHashtable @{LogName='Application'; ProviderName='Application Error'} -MaxEvents 2 -ErrorAction SilentlyContinue | ForEach-Object { \$_.Message -split \"\`n\" | Select-Object -First 8 }" || true
+          cat > "$RUNNER_TEMP/dbg.py" <<'PY'
+          """Starts a Windows x64 program under a minimal debugger (kernel32 through ctypes) and prints, for the first
+          access violation (or other fatal exception): the code, the address, the module and offset, the bytes at the
+          address and the module+offset of the return addresses found on the stack. For the crash investigation of
+          docs/design/arm-builds.md; it prints module names and offsets of a public binary, nothing else.
+
+              python dbg.py <exe> [tries] [arguments of the program...]
+          """
+          import ctypes
+          import sys
+          from ctypes import wintypes as W
+
+          k32 = ctypes.WinDLL('kernel32', use_last_error=True)
+          P = ctypes.c_void_p
+
+          k32.CreateProcessW.argtypes = [W.LPCWSTR, W.LPWSTR, P, P, W.BOOL, W.DWORD, P, W.LPCWSTR, P, P]
+          k32.WaitForDebugEvent.argtypes = [P, W.DWORD]
+          k32.ContinueDebugEvent.argtypes = [W.DWORD, W.DWORD, W.DWORD]
+          k32.OpenThread.argtypes = [W.DWORD, W.BOOL, W.DWORD]
+          k32.OpenThread.restype = P
+          k32.GetThreadContext.argtypes = [P, P]
+          k32.ReadProcessMemory.argtypes = [P, P, P, ctypes.c_size_t, P]
+          k32.GetFinalPathNameByHandleW.argtypes = [P, W.LPWSTR, W.DWORD, W.DWORD]
+          k32.TerminateProcess.argtypes = [P, W.UINT]
+          k32.CloseHandle.argtypes = [P]
+
+
+          class STARTUPINFOW(ctypes.Structure):
+              _fields_ = [('cb', W.DWORD), ('lpReserved', W.LPWSTR), ('lpDesktop', W.LPWSTR), ('lpTitle', W.LPWSTR),
+                          ('dwX', W.DWORD), ('dwY', W.DWORD), ('dwXSize', W.DWORD), ('dwYSize', W.DWORD),
+                          ('dwXCountChars', W.DWORD), ('dwYCountChars', W.DWORD), ('dwFillAttribute', W.DWORD),
+                          ('dwFlags', W.DWORD), ('wShowWindow', W.WORD), ('cbReserved2', W.WORD), ('lpReserved2', P),
+                          ('hStdInput', P), ('hStdOutput', P), ('hStdError', P)]
+
+
+          class PROCESS_INFORMATION(ctypes.Structure):
+              _fields_ = [('hProcess', P), ('hThread', P), ('dwProcessId', W.DWORD), ('dwThreadId', W.DWORD)]
+
+
+          class EXCEPTION_RECORD(ctypes.Structure):
+              _fields_ = [('code', W.DWORD), ('flags', W.DWORD), ('record', P), ('address', P), ('nparams', W.DWORD),
+                          ('info', ctypes.c_size_t * 15)]
+
+
+          class EXCEPTION_DEBUG_INFO(ctypes.Structure):
+              _fields_ = [('record', EXCEPTION_RECORD), ('first_chance', W.DWORD)]
+
+
+          class LOAD_DLL_DEBUG_INFO(ctypes.Structure):
+              _fields_ = [('hFile', P), ('base', P), ('offset', W.DWORD), ('size', W.DWORD), ('name', P), ('unicode', W.WORD)]
+
+
+          class CREATE_PROCESS_DEBUG_INFO(ctypes.Structure):
+              _fields_ = [('hFile', P), ('hProcess', P), ('hThread', P), ('base', P)]
+
+
+          class EXIT_PROCESS_DEBUG_INFO(ctypes.Structure):
+              _fields_ = [('code', W.DWORD)]
+
+
+          class UNION(ctypes.Union):
+              _fields_ = [('exception', EXCEPTION_DEBUG_INFO), ('load', LOAD_DLL_DEBUG_INFO),
+                          ('process', CREATE_PROCESS_DEBUG_INFO), ('exit', EXIT_PROCESS_DEBUG_INFO),
+                          ('pad', ctypes.c_ubyte * 160)]
+
+
+          class DEBUG_EVENT(ctypes.Structure):
+              _fields_ = [('code', W.DWORD), ('pid', W.DWORD), ('tid', W.DWORD), ('u', UNION)]
+
+
+          EXCEPTION, CREATE_PROCESS, EXIT_PROCESS, LOAD_DLL = 1, 3, 5, 6
+          DBG_CONTINUE, NOT_HANDLED = 0x00010002, 0x80010001
+          # Exceptions programs raise and handle as a matter of course: breakpoints, thread names, C++ and Rust unwinding
+          BENIGN = {0x80000003, 0x4001000A, 0x406D1388, 0xE06D7363, 0x40010006, 0x4001000B, 0x80000004, 0xC0000194, 0x4000001F, 0x4000001E}
+
+          modules = []  # (base, name)
+
+
+          def say(*a):
+              print('DBG:', *a, flush=True)
+
+
+          def module_of(addr):
+              best = None
+              for base, name in modules:
+                  if base <= addr and (best is None or base > best[0]):
+                      best = (base, name)
+              return best
+
+
+          def where(addr):
+              m = module_of(addr)
+              return f'{m[1]}+{addr - m[0]:#x}' if m and addr - m[0] < 0x4000000 else f'{addr:#x}'
+
+
+          def read(hproc, addr, n):
+              buf = ctypes.create_string_buffer(n)
+              got = ctypes.c_size_t(0)
+              if not k32.ReadProcessMemory(hproc, addr, buf, n, ctypes.byref(got)):
+                  return buf.raw[:got.value]
+              return buf.raw[:got.value]
+
+
+          def report(ev, hproc, ex):
+              rec = ex.record
+              addr = rec.address or 0
+              say(f'exception {rec.code:#010x} flags {rec.flags:#x} {"first" if ex.first_chance else "second"} chance at {where(addr)}'
+                  f' thread {ev.tid}; access info {rec.info[0]:#x} {rec.info[1]:#x}')
+              say('bytes at the address:', read(hproc, addr, 16).hex(' '))
+              hthread = k32.OpenThread(0x1A, False, ev.tid)  # GET_CONTEXT | SET_CONTEXT | SUSPEND_RESUME... enough to read
+              raw = ctypes.create_string_buffer(1232 + 16)
+              off = (-ctypes.addressof(raw)) % 16
+              ctx = (ctypes.c_ubyte * 1232).from_buffer(raw, off)
+              ctypes.c_uint32.from_buffer(raw, off + 0x30).value = 0x10001F  # CONTEXT_FULL (AMD64)
+              if hthread and k32.GetThreadContext(hthread, ctypes.addressof(ctx)):
+                  q = lambda o: int.from_bytes(bytes(ctx[o:o + 8]), 'little')
+                  rsp, rip = q(0x98), q(0xF8)
+                  say(f'rip {where(rip)} rsp {rsp:#x} rax {q(0x78):#x} rcx {q(0x80):#x} rdx {q(0x88):#x} rbx {q(0x90):#x} rsi {q(0xA8):#x} rdi {q(0xB0):#x}')
+                  stack = read(hproc, rsp, 8 * 400)
+                  seen = []
+                  for i in range(0, len(stack) - 7, 8):
+                      v = int.from_bytes(stack[i:i + 8], 'little')
+                      m = module_of(v)
+                      if m and 0 <= v - m[0] < 0x4000000 and m[1].lower().endswith(('.dll', '.exe')):
+                          seen.append(f'+{i:#x}:{where(v)}')
+                          if len(seen) >= 24:
+                              break
+                  say('stack words that point into modules:', ' '.join(seen))
+              else:
+                  say('no thread context')
+
+
+          def run_once(exe, args=''):
+              modules.clear()
+              si = STARTUPINFOW()
+              si.cb = ctypes.sizeof(si)
+              pi = PROCESS_INFORMATION()
+              cmd = ctypes.create_unicode_buffer(f'"{exe}" {args}', 32768)
+              if not k32.CreateProcessW(exe, cmd, None, None, True, 0x1, None, None, ctypes.byref(si), ctypes.byref(pi)):  # DEBUG_PROCESS
+                  say('CreateProcess failed', ctypes.get_last_error())
+                  return None
+              hproc = pi.hProcess
+              ev = DEBUG_EVENT()
+              reported = False
+              result = None
+              while k32.WaitForDebugEvent(ctypes.byref(ev), 120000):
+                  status = DBG_CONTINUE
+                  if ev.code in (CREATE_PROCESS, LOAD_DLL):
+                      info = ev.u.process if ev.code == CREATE_PROCESS else ev.u.load
+                      buf = ctypes.create_unicode_buffer(1024)
+                      name = ''
+                      if info.hFile and k32.GetFinalPathNameByHandleW(info.hFile, buf, 1024, 0):
+                          name = buf.value.replace('\\', '/').rsplit('/', 1)[-1]
+                      modules.append((info.base or 0, name or '?'))
+                      if info.hFile:
+                          k32.CloseHandle(info.hFile)
+                  elif ev.code == EXCEPTION:
+                      ex = ev.u.exception
+                      code = ex.record.code
+                      status = NOT_HANDLED
+                      if code not in BENIGN and not reported and (code & 0xF0000000) in (0xC0000000, 0x80000000):
+                          reported = True
+                          report(ev, hproc, ex)
+                          result = code
+                      if not ex.first_chance and code not in BENIGN:
+                          k32.ContinueDebugEvent(ev.pid, ev.tid, NOT_HANDLED)
+                          k32.TerminateProcess(hproc, 1)
+                          continue
+                  elif ev.code == EXIT_PROCESS:
+                      say(f'process exit code {ev.u.exit.code:#x}')
+                      k32.ContinueDebugEvent(ev.pid, ev.tid, DBG_CONTINUE)
+                      break
+                  k32.ContinueDebugEvent(ev.pid, ev.tid, status)
+              k32.CloseHandle(hproc)
+              return result
+
+
+          if __name__ == '__main__':
+              exe = sys.argv[1]
+              tries = int(sys.argv[2]) if len(sys.argv) > 2 else 6
+              for i in range(1, tries + 1):
+                  say(f'start {i}')
+                  if run_once(exe, ' '.join(sys.argv[3:])) is not None:
+                      break
+          PY
+          cd "$RUNNER_TEMP"
+          SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SCREEN=login             HOME="$wh" USERPROFILE="$wh" APPDATA="$wh/AppData/Roaming" LOCALAPPDATA="$wh/AppData/Local"             python dbg.py "$(cygpath -w "$RUNNER_TEMP/x64/SpaceCorps 2027/spacecorps2027.exe")" 8 > dbg.out 2>&1
+          grep -a '^DBG:' dbg.out | cut -c1-1200
           true
 
       - name: Variants, 8 starts each (exit code and screenshots only)
