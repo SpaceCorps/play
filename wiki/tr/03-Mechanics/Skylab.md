@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ Skylab’ın bir **gövdesi**, yani bir gövde puanı havuzu vardır; gövde, at
 
 ### Takılanlar ve cephane {#fits-and-ammunition}
 
-**Takma.** Motorlar Motor Modülü’ne, lazerler Savunma Modülü’ne, yuva başına birer tane girer ve envanterindeki boşta eşyalardan alınır: bir gemide ya da Nakliye Deposu’nda olanlardan değil. Takmak ve çıkarmak için **geminin park halinde** ve Skylab’ın **yolda olmaması** gerekir; konuşlu bir Skylab’ın donanımı değiştirilebilir ve yeni hızlar o andan itibaren sayılır. Takılı bir eşya Demirhane bonuslarını ve içine takılanları (iticiler, amfiler) korur ve **ayrılmıştır**: sen çıkarana kadar bir gemiye konamaz, silinemez, pazarda ilana konamaz, Nakliye Deposu’na konamaz ve Demirhane ile Montaj tarafından kullanılamaz; Hangar, Açık Artırma’nın satış sayfası ve Montaj onu soluk gösterir.
+**Takma.** Motorlar Motor Modülü’ne, lazerler Savunma Modülü’ne, yuva başına birer tane girer ve envanterindeki boşta eşyalardan alınır: bir gemide ya da Nakliye Deposu’nda olanlardan değil. Takmak ve çıkarmak için **geminin park halinde** ve Skylab’ın **yolda olmaması** gerekir; konuşlu bir Skylab’ın donanımı değiştirilebilir ve yeni hızlar o andan itibaren sayılır. Takılı bir eşya Demirhane bonuslarını ve içine takılanları (iticiler, amfiler) korur ve **ayrılmıştır**: sen çıkarana kadar bir gemiye konamaz, silinemez, pazarda ilana konamaz, Nakliye Deposu’na konamaz ve Demirhane ile Montaj tarafından kullanılamaz; Hangar, Açık Artırma’nın satış sayfası ve Montaj onu soluk gösterir. Takılı eşya, [sıfırlama](#the-wipe) sonrasında da takılı kalır.
 
 **Cephane.** Şarjör, Cephane Yazıcısı’nın bastığı türden mermileri tutar ve **önce en yüksek çarpanlı olanı** ateşler, lazer başına saniyede bir mermi. **Yalnızca Cephane Yazıcısı’ndan** dolar, envanterinden asla:
 
@@ -690,7 +690,7 @@ Her çiftlik ve toplayıcının ürettiğinin yaklaşık 72 saati için bir hazn
 
 Skylab asla sıfırlanmaz: modüller seviyelerini korur, Kaynak Deposu cevherini korur ve Araştırma Merkezi teknolojilerini, bilim deposunu, tuttuğu Dark Matter miktarını ve süren bir araştırmayı korur. Envanterindeki plakalar diğer her eşya gibidir, bu yüzden [sıfırlama kurallarına](/wiki/03-Mechanics/Wipe-Timeline.md) tabidir. Cephane Yazıcısı ve Roket Fabrikası seviyelerini, neyi üretmeye ayarlı olduklarını ve tuttuklarını korur; Cevher Bölmesi seviyesini ve kotasını korur. Sefer’in dört modülü de teknolojileriyle birlikte seviyelerini korur; şarjör ve besleme anahtarı da öyle. Envanterindeki cevher her eşya gibi sıfırlanır: önce onu Kaynak Deposu’na taşı.
 
-Bir **sefer** sıfırlama anında kapatılır ve hesabı görülür: süren bir sefer biter, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır (ganimeti, diğer her boşta eşya gibi silinir; kredi ve Thulium, [üst sınırlar](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) uygulanmadan önce cüzdanına girer) ve Skylab yeni sezona evde, şirketinin limanında, yeni bir evren haritasıyla, bilinen 19 başlangıç hücresiyle ve boş Radar kuyruğuyla başlar. Motor ve Savunma Modüllerine takılı motorlar ve lazerler diğerleri gibi boşta eşyalardır: korumak için onları çıkar ve Nakliye Deposu’na koy.
+Bir **sefer** sıfırlama anında kapatılır ve hesabı görülür: süren bir sefer biter, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır (ganimeti, diğer her boşta eşya gibi silinir; kredi ve Thulium, [üst sınırlar](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) uygulanmadan önce cüzdanına girer) ve Skylab yeni sezona evde, şirketinin limanında, yeni bir evren haritasıyla, bilinen 19 başlangıç hücresiyle ve boş Radar kuyruğuyla başlar. Motor ve Savunma Modüllerine takılı motorlar ve lazerler **olduğu yerde kalır**: aynı parçalar, içlerine takılanlarla (iticiler, amfiler) ve Demirhane bonuslarıyla birlikte. Nakliye Deposu’nda yer kaplamazlar. Yalnızca modülünden çıkardığın bir parça boşta eşya olur ve diğerleriyle gider; hiçbir yere takılı olmayan Trofe Bölmesi ganimeti de öyle.
 
 ## Skylab’ını planlama {#planning-your-skylab}
 

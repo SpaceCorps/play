@@ -11,7 +11,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 
 - **Hol**: Minden vállalat `x-2` és `x-3` szektora
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 6
-- **Megjelenik**: A szezon 4. napjától a wipe-ig
+- **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Pirate Boss
 - **Kísérők**: Legfeljebb 5 × Pirate Scout, mindig 10 mp múlva egy újabb
 - **A kísérők közel maradnak**: legfeljebb 900 egységre a vezértől

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
@@ -98,7 +98,7 @@
 
 ## 它们在哪里 {#where-they-are}
 
-三个企业的所有母星区和危险星区都有小行星，各有自己的组合：主要是它所在环的种类，再加上一两种来自上一环或下一环的“客人”。没有传送门通往的中立星区没有小行星。危险星区的小行星从表中的赛季日开始出现，也就是 PvP 开启的那一天（[初次接触](/wiki/03-Mechanics/Wipe-Timeline.md)），其余的从第一天起就有。击碎之后，同种类的新小行星会在该星区那一行所写的时间后重新长出来。从赛季第一天起闪耀的脉冲星附近没有小行星；从赛季第 11 天起，巨型挖掘机和 Dormant Swamp 中心附近也没有小行星（[危险星区](/wiki/01-General/Danger-Sectors.md#where-everything-is)），活动 2 开始时在那里的岩石会消失。
+三个企业的所有母星区和危险星区都有小行星，各有自己的组合：主要是它所在环的种类，再加上一两种来自上一环或下一环的“客人”。没有传送门通往的中立星区没有小行星。危险星区的小行星从表中的赛季日开始出现：在 Alpha 是 PvP 开启的那一天（[初次接触](/wiki/03-Mechanics/Wipe-Timeline.md)），在 Beta 和 Gamma 是第一天；其余的从第一天起就有。击碎之后，同种类的新小行星会在该星区那一行所写的时间后重新长出来。从赛季第一天起闪耀的脉冲星附近没有小行星；从赛季第 11 天起，巨型挖掘机和 Dormant Swamp 中心附近也没有小行星（[危险星区](/wiki/01-General/Danger-Sectors.md#where-everything-is)），活动 2 开始时在那里的岩石会消失。在 Beta 和 Gamma，巨型挖掘机周围的圈子同样从第一天起就保持空旷。
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@
 | `M-4` | 18 | 1 | 5 分钟 | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 分钟 | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 分钟 | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 分钟 | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 分钟 | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 分钟 | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 分钟 | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4（Beta 和 Gamma 为 1） | 5 分钟 | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4（Beta 和 Gamma 为 1） | 5 分钟 | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4（Beta 和 Gamma 为 1） | 5 分钟 | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4（Beta 和 Gamma 为 1） | 5 分钟 | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

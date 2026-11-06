@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Mineração de asteroides -->
 # Mineração de asteroides {#asteroid-mining}
 
@@ -98,7 +98,7 @@ As tabelas abaixo trazem os números de um asteroide de Alpha. **Casco** é o fa
 
 ## Onde ficam {#where-they-are}
 
-Cada setor de origem das três corporações e dos setores de perigo tem asteroides, numa mistura própria: principalmente os tipos do seu anel, com um ou dois convidados do anel de cima ou de baixo. Os setores neutros, aos quais nenhum portal leva, não têm nenhum. Os asteroides dos setores de perigo aparecem a partir do dia da temporada da tabela, o dia em que o PvP abre ([Primeiro Contato](/wiki/03-Mechanics/Wipe-Timeline.md)), e os outros desde o primeiro dia. Depois de uma quebra, um novo asteroide do mesmo tipo cresce de novo após o tempo da linha do setor. Nenhum asteroide fica perto de um pulsar, que brilha desde o primeiro dia da temporada; a partir do dia 11 nenhum fica também perto de uma escavadeira gigante ou do meio do Dormant Swamp ([Setores de perigo](/wiki/01-General/Danger-Sectors.md#where-everything-is)), e uma rocha que estava lá quando o evento 2 começou some.
+Cada setor de origem das três corporações e dos setores de perigo tem asteroides, numa mistura própria: principalmente os tipos do seu anel, com um ou dois convidados do anel de cima ou de baixo. Os setores neutros, aos quais nenhum portal leva, não têm nenhum. Os asteroides dos setores de perigo aparecem a partir do dia da temporada da tabela (no Alpha, o dia em que o PvP abre, [Primeiro Contato](/wiki/03-Mechanics/Wipe-Timeline.md); no Beta e no Gamma, desde o primeiro dia), e os outros desde o primeiro dia. Depois de uma quebra, um novo asteroide do mesmo tipo cresce de novo após o tempo da linha do setor. Nenhum asteroide fica perto de um pulsar, que brilha desde o primeiro dia da temporada; a partir do dia 11 nenhum fica também perto de uma escavadeira gigante ou do meio do Dormant Swamp ([Setores de perigo](/wiki/01-General/Danger-Sectors.md#where-everything-is)), e uma rocha que estava lá quando o evento 2 começou some. No Beta e no Gamma, o anel ao redor de uma escavadeira gigante também fica livre desde o primeiro dia.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Cada setor de origem das três corporações e dos setores de perigo tem asteroi
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 no Beta e no Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 no Beta e no Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 no Beta e no Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 no Beta e no Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

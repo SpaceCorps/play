@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Die Tabellen unten nennen die Zahlen eines Alpha-Asteroiden. **Hülle** ist der 
 
 ## Wo sie liegen {#where-they-are}
 
-Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat Asteroiden, in einer eigenen Mischung: meist die Arten seines Rings, mit einem oder zwei Gästen aus dem nächsten Ring darüber oder darunter. Die neutralen Sektoren, zu denen kein Tor führt, haben keine. Die Asteroiden der Gefahrensektoren erscheinen ab dem Saisontag aus der Tabelle, dem Tag, an dem PvP sich öffnet ([Erstkontakt](/wiki/03-Mechanics/Wipe-Timeline.md)), die anderen ab dem ersten Tag. Nach dem Zerbrechen wächst ein neuer Asteroid derselben Art nach der Zeit aus der Zeile des Sektors wieder nach. In der Nähe eines Pulsars, der ab dem ersten Tag der Saison leuchtet, liegt kein Asteroid; ab Saisontag 11 liegt auch keiner in der Nähe eines Riesenbaggers oder der Mitte des Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md#where-everything-is)), und ein Felsen, der dort stand, als Event 2 begann, ist verschwunden.
+Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat Asteroiden, in einer eigenen Mischung: meist die Arten seines Rings, mit einem oder zwei Gästen aus dem nächsten Ring darüber oder darunter. Die neutralen Sektoren, zu denen kein Tor führt, haben keine. Die Asteroiden der Gefahrensektoren erscheinen ab dem Saisontag aus der Tabelle (in Alpha der Tag, an dem PvP sich öffnet, [Erstkontakt](/wiki/03-Mechanics/Wipe-Timeline.md); in Beta und Gamma ab dem ersten Tag), die anderen ab dem ersten Tag. Nach dem Zerbrechen wächst ein neuer Asteroid derselben Art nach der Zeit aus der Zeile des Sektors wieder nach. In der Nähe eines Pulsars, der ab dem ersten Tag der Saison leuchtet, liegt kein Asteroid; ab Saisontag 11 liegt auch keiner in der Nähe eines Riesenbaggers oder der Mitte des Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md#where-everything-is)), und ein Felsen, der dort stand, als Event 2 begann, ist verschwunden. In Beta und Gamma bleibt der Ring um einen Riesenbagger ebenfalls ab dem ersten Tag frei.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat A
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 in Beta und Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 in Beta und Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 in Beta und Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 in Beta und Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

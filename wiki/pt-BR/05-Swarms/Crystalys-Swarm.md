@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Enxame Crystalys -->
 # Enxame Crystalys {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ O enxame Crystalys é um **Boss Crystalys** com seus **Crystalys Guards**: o mai
 
 - **Onde**: Os setores de perigo `DS-1`, `DS-2`, `DS-3`
 - **Quantos**: Um em cada um desses setores, 3 em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Boss Crystalys
 - **Seguidores**: Até 3 × Crystalys Guard, um novo a cada 10 s
 - **Os seguidores ficam a**: até 500 unidades do líder
@@ -29,7 +29,7 @@ O enxame Crystalys é um **Boss Crystalys** com seus **Crystalys Guards**: o mai
 
 ## Como a luta transcorre {#how-the-fight-goes}
 
-- **Leve um grupo grande.** Oito pilotos de nível 8 em Paragons com munição x2 o destroem em cerca de um minuto em Alpha, perdendo no máximo uma nave; quatro precisam de munição x4, e um piloto sozinho é destruído.
+- **Leve um grupo grande.** Em Alpha, seis pilotos de nível 8 em Paragons com munição x2 bastam se o fogo dele se distribuir entre eles, nove se for todo em um piloto; com munição x4 são cinco e seis. Mais pilotos terminam a luta mais cedo e perdem menos naves, e um piloto sozinho é destruído.
 - **Atire no chefe, não nos Guards.** Um Guard cai em segundos, mas um novo chega na frequência que a lista *Resumo rápido* diz, e o que os Guards curam é uma parte pequena do que um grupo causa: deixá-los em paz custa um pouco de tempo, caçá-los custa mais.
 - **Beta e Gamma são mais duros.** Os enxames desses mundos são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então pedem mais pilotos ou munição melhor.
 - **Os setores de perigo são PvP.** Um rival pode atacar o grupo no meio da luta e esperar a caixa: ela é do piloto que mais causou dano (e do clã dele) por 30 segundos, e depois de qualquer um ([Carga](/wiki/03-Mechanics/Cargo.md)). Não vá sozinho.
@@ -48,13 +48,13 @@ Os números das naves do enxame nos três mundos ([Mundos](/wiki/05-Swarms/Swarm
 
 ### Boss Crystalys
 
-Base: Crystalys, com 175% do casco e 50% do dano dos lasers; a velocidade e o alcance são os da nave de origem.
+Base: Crystalys, com 350% do casco e 100% do dano dos lasers; a velocidade e o alcance são os da nave de origem.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 448.000 | 672.000 | 896.000 |
-| Escudo | 280.000 | 420.000 | 560.000 |
-| Dano dos lasers (uma salva por segundo) | 5.000 | 7.500 | 10.000 |
+| Casco | 896.000 | 1.344.000 | 1.792.000 |
+| Escudo | 560.000 | 840.000 | 1.120.000 |
+| Dano dos lasers (uma salva por segundo) | 10.000 | 15.000 | 20.000 |
 | Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 900 | 900 | 900 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
@@ -62,7 +62,7 @@ Base: Crystalys, com 175% do casco e 50% do dano dos lasers; a velocidade e o al
 | Thulium | 1.050 | 2.100 | 3.150 |
 | Experiência (XP) | 63.000 | 126.000 | 189.000 |
 | Honra | 273 | 546 | 819 |
-| Pontos PvE por abate | 21 | 21 | 21 |
+| Pontos PvE por abate | 30 | 30 | 30 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
 

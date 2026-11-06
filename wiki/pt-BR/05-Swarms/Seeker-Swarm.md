@@ -11,7 +11,7 @@ O enxame Seeker é o menor dos [enxames](/wiki/05-Swarms/Swarms.md): um **Boss S
 
 - **Onde**: Os setores `x-1` e `x-2` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Boss Seeker
 - **Seguidores**: Até 4 × Seeker Slave, um novo a cada 10 s
 - **Os seguidores ficam a**: até 500 unidades do líder

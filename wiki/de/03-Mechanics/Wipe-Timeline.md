@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
-Das Universum von SpaceCorps folgt einem wiederkehrenden Saisonzyklus. Alle 30 Tage erlebt die Galaxie einen kosmischen Reset, den **Wipe**. Ein Wipe nimmt dir die losen Dinge und behält, was du aufgebaut hast: Deine Schiffe, Drohnen, Technologien, dein [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) und deine Wipe-Punkte bleiben, ebenso deine Credits und dein Thulium bis zu einer Obergrenze. Deine Saison endet mit einem Rang, und der Rang bringt Belohnungen. Diese Seite ist die ganze Regel an einem Ort: was der Wipe behält, was er zurücksetzt, was er nimmt und was er gibt. Die Belohnungen nach Rang haben eine eigene Seite, [Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+Das Universum von SpaceCorps folgt einem wiederkehrenden Saisonzyklus. Alle 30 Tage erlebt die Galaxie einen kosmischen Reset, den **Wipe**. Ein Wipe nimmt dir die losen Dinge und behält, was du aufgebaut hast: Deine Schiffe, Drohnen, Technologien, dein [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (mit den darin eingebauten Triebwerken und Lasern) und deine Wipe-Punkte bleiben, ebenso deine Credits und dein Thulium bis zu einer Obergrenze. Deine Saison endet mit einem Rang, und der Rang bringt Belohnungen. Diese Seite ist die ganze Regel an einem Ort: was der Wipe behält, was er zurücksetzt, was er nimmt und was er gibt. Die Belohnungen nach Rang haben eine eigene Seite, [Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ Der Kalender der [Täglichen Belohnungen](/wiki/03-Mechanics/Daily-Rewards.md) h
 
 | Phase | Tage | Protokoll / Event | Beschreibung |
 | :--- | :--- | :--- | :--- |
-| **Friedensprotokoll** | Tag 1–3 | Kein PvP | Ein frischer Start, ganz auf PvE-Fortschritt, Ressourcen-Farming und Schiffbau ausgerichtet, ohne die Bedrohung durch Kämpfe zwischen Spielern. |
-| **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten), und die drei [Schwärme](/wiki/05-Swarms/Swarms.md) tauchen auf: Sie bleiben bis zum Wipe, durch die Phasen nach dieser hindurch. Die Phase selbst gibt noch keine besonderen Belohnungen. |
-| **Techschub** | Tag 11–18 | Event 2 | Die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) verändern sich: ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) neben jedem Pulsar auf `DS-1` bis `DS-3`, der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, Slumbering Voids und ein Dormant-Schwarm, der früher zurückkommt und doppelt zahlt. Das alles bleibt bis zum Wipe. Die Phase gibt keine eigenen Belohnungen. |
+| **Friedensprotokoll** | Tag 1–3 | Kein PvP | Ein frischer Start, ganz auf PvE-Fortschritt, Ressourcen-Farming und Schiffbau ausgerichtet, ohne die Bedrohung durch Kämpfe zwischen Spielern. Nur in Alpha: Beta und Gamma kennen kein Friedensprotokoll, dort ist PvP ab Tag 1 aktiv. |
+| **Erstkontakt** | Tag 4–10 | Event 1 | PvP öffnet sich (nach der Regel deiner Welt, siehe Welten unten), und die drei [Schwärme](/wiki/05-Swarms/Swarms.md) tauchen auf: Sie bleiben bis zum Wipe, durch die Phasen nach dieser hindurch. Die Phase selbst gibt noch keine besonderen Belohnungen. In Beta und Gamma sind die Schwärme und die Asteroiden der Gefahrensektoren ab dem ersten Tag der Saison da. |
+| **Techschub** | Tag 11–18 | Event 2 | Die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) verändern sich: ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) neben jedem Pulsar auf `DS-1` bis `DS-3`, der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) auf `DS-4`, Slumbering Voids und ein Dormant-Schwarm, der früher zurückkommt und doppelt zahlt. Das alles bleibt bis zum Wipe. Die Phase gibt keine eigenen Belohnungen. In Beta und Gamma stehen die Riesenbagger ab dem ersten Tag der Saison. |
 | **Kriegsspiele** | Tag 19–25 | Event 3 | Noch keine besonderen Effekte: PvP funktioniert wie in jeder Phase nach dem Friedensprotokoll. |
 | **Finaler Countdown** | Tag 26–30 | Event 4 | Die Phase des finalen Countdowns. Alle Piloten wetteifern darum, ihre mitzunehmende Fracht zusammenzustellen, bevor die Eruption kommt. |
 | **Der Reset** | Tag 30 | Schwarzloch-Eruption | Das Universum wird zerstört und neu geboren, jeder [Clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) wird aufgelöst und deine Saison wird abgeschlossen: Dein Rang wird festgehalten und zahlt seine Belohnungen aus ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Die Piloten wechseln in die Welt, die sie als Ziel für die nächste Saison gewählt haben. In den letzten 72 Stunden davor wächst das [Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) auf das 1,8-Fache seiner Größe, und das Dashboard zählt bis zum Wipe herunter. |
 
-Abgesehen vom Wipe selbst folgen nur fünf Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, ab Tag 11 bekommen die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) ihre Riesenbagger (neben den Pulsaren, die ab Tag 1 leuchten) und den Dormant Swamp, die bis zum Wipe bleiben, und das [Auktionshaus](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Dazu kommt: In den letzten 72 Stunden vor dem Wipe wächst das [Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) auf das 1,8-Fache seiner Größe. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels. Event 2 verändert die Gefahrensektoren wie oben; keines der anderen gibt bisher eigene besondere Belohnungen, Spawns oder Boni.
+Abgesehen vom Wipe selbst folgen nur fünf Dinge dem Kalender: Das Friedensprotokoll (Tage 1–3) ändert eine Regel, ab Tag 4 erscheinen die [Schwärme](/wiki/05-Swarms/Swarms.md) und bleiben bis zum Wipe, ab Tag 11 bekommen die [Gefahrensektoren](/wiki/01-General/Danger-Sectors.md) ihre Riesenbagger (neben den Pulsaren, die ab Tag 1 leuchten) und den Dormant Swamp, die bis zum Wipe bleiben, und das [Auktionshaus](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) erhebt ab Tag 28 keine Gebühren mehr und ist ab Tag 30 geschlossen. Dazu kommt: In den letzten 72 Stunden vor dem Wipe wächst das [Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) auf das 1,8-Fache seiner Größe. Die vier Events sind benannte Phasen der Saison: Sie erscheinen auf der Seite „Saison & Profil“ und im Dashboard des Spiels. Event 2 verändert die Gefahrensektoren wie oben; keines der anderen gibt bisher eigene besondere Belohnungen, Spawns oder Boni. Das sind die Tage von Alpha: Beta und Gamma kennen kein Friedensprotokoll, und ihre Schwärme, die Asteroiden der Gefahrensektoren und die Riesenbagger sind ab Tag 1 da.
 
 ---
 
@@ -51,7 +51,7 @@ Alles Folgende gehört nach dem Wipe weiter dir.
 * **Deine Drohnen** mit ihren Leveln und ihrer Erfahrung und deine [Drohnenformationen](/wiki/03-Mechanics/Formations.md), egal wo sie sind: in deinem Inventar, in deiner Aktionsleiste oder auf einem Schiff.
 * **Deine [P.E.T.s](/wiki/03-Mechanics/Pets.md)** (angedockt oder gelagert), die Aufträge in der Wiege, der Kodex und deine P.E.T. Stationen.
 * **Alle deine Technologien.** Das Forschungszentrum behält alles, was [Forschung](/wiki/03-Mechanics/Research.md) enthält: die Wissenschaft in seinem Tank, das eingesetzte Dark Matter, eine laufende Forschung und den Boost. Ebenso die Extra Slots CPUs, die du installiert hast und die keine Gegenstände sind.
-* **Dein ganzes [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: Module, Level und das Erz, das im Ressourcenlager eingelagert ist. Eingelagertes Erz ist kein Gegenstand und zählt nicht gegen den Cache.
+* **Dein ganzes [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: Module, Level, das im Ressourcenlager eingelagerte Erz und **die Triebwerke und Laser, die im Triebwerks- und im Verteidigungsmodul eingebaut sind**, weiterhin dort eingebaut, mit den Schubdüsen und Amps, die in ihnen stecken. Eingelagertes Erz ist kein Gegenstand und zählt nicht gegen den Cache; die eingebauten Teile brauchen dort ebenfalls keinen Platz.
 * **Deine Wipe-Punkte und deine dauerhaften Buffs** ([der Shop](#the-permanent-buff-store)).
 * **Erfahrung, Level und Ehre.**
 * **Credits bis 5.000.000.000 und Thulium bis 10.000.000.** Was darüber liegt, geht verloren: siehe [die Obergrenzen](#the-caps).
@@ -129,7 +129,7 @@ Jeder Gegenstand hat ein festes Gewicht. Ein Stapel wiegt dieses Gewicht mal sei
 
 Die Schaltfläche **Inhalt einfrieren** auf dem Reiter Transport-Cache ist eine Sicherung für die Fächer und die Fracht: Solange sie eingefroren sind, lässt sich nichts hinzufügen oder entnehmen, bis du sie wieder auftaust. Es ist keine Bedingung: Was im Cache liegt, geht eingefroren oder nicht durch den Wipe. Mit der Sperre des Cache-Schiffs, die endgültig ist, hat es nichts zu tun.
 
-**WARNUNG**: Jeder Gegenstand, der nach den Regeln oben nicht erhalten bleibt (ausgerüstet auf dem Schiff, das seine Ausrüstung behält, im Transport-Cache, eine Drohne, eine Drohnenformation, eine P.E.T. Station oder Munition und Kampfraketen innerhalb der Grenzen), wird bei der Schwarzloch-Eruption **endgültig zerstört**.
+**WARNUNG**: Jeder Gegenstand, der nach den Regeln oben nicht erhalten bleibt (ausgerüstet auf dem Schiff, das seine Ausrüstung behält, eingebaut in deinem Skylab, im Transport-Cache, eine Drohne, eine Drohnenformation, eine P.E.T. Station oder Munition und Kampfraketen innerhalb der Grenzen), wird bei der Schwarzloch-Eruption **endgültig zerstört**.
 
 ---
 
@@ -138,7 +138,7 @@ Die Schaltfläche **Inhalt einfrieren** auf dem Reiter Transport-Cache ist eine 
 * **Dein Rang der Saison.** Er wird mit deinem Platz in der Rangliste deines Konzerns in deinen Saisonverlauf geschrieben (Seite Saison & Profil › Fortschritt), und deine Rangpunkte beginnen wieder bei null ([frische Punkte](#fresh-points)).
 * **Die Quellen der Wipe-Punkte**: die Alien-Abschüsse und die Einlösungen von Missionen und Dormant Knowledge, damit du sie wieder verdienen kannst ([Wipe-Punkte verdienen](#earning-wipe-points)). Deine Wipe-Punkte und deine Buffs bleiben.
 * **Alien-Abschüsse.** Sie zählen für den Wipe, in dem du bist, und deine Gesamtzahlen bleiben.
-* **Jeder Gegenstand, der nicht erhalten bleibt**: Ressourcen, Booster, Ersatzausrüstung, Platten, Cluster Chunks und der Rest, dazu die Triebwerke und Laser, die im Triebwerks- und im Verteidigungsmodul deines Skylab eingebaut sind: Nimm sie heraus und lege sie zum Behalten in den Cache. Was der Wipe dir zuerst zurückgibt (siehe unten), ist ein Gegenstand wie jeder andere.
+* **Jeder Gegenstand, der nicht erhalten bleibt**: Ressourcen, Booster, Ersatzausrüstung, Platten, Cluster Chunks und der Rest. Ein Triebwerk oder Laser, den du aus einem Modul deines Skylab herausgenommen hast, ist Ersatz wie jeder andere; die Teile, die noch eingebaut sind, bleiben erhalten. Was der Wipe dir zuerst zurückgibt (siehe unten), ist ein Gegenstand wie jeder andere.
 * **Clans.** Jeder Clan wird aufgelöst, mit seiner Flottenkasse, seinen Beiträgen, Verträgen, Punkten und Boni-Stufen ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **Die Chrono-Gate-Teile**: Das Tor beginnt von vorn, und dein Materialisator auch.
 * **Deine Skylab-Expedition** endet: Eine laufende Reise ist zu Ende, und die Trophäenhalle zahlt ihre Credits, ihr Thulium, ihre Erfahrung und ihre Ehre aus und wird geleert ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ Beim Wipe gehen **Credits über 5.000.000.000 (5 Milliarden)** und **Thulium üb
 
 Deine **Rangpunkte** zählen, was du **seit dem letzten Wipe** verdient hast: die gewonnenen Level, die Erfahrung und die Alien-Abschüsse dieser Saison. Beim Wipe fangen sie wieder bei null an, und dein alter Rang kommt in deinen Saisonverlauf. **Die Ehre bestimmt deinen Rang nicht**, und deine Gesamtzahlen (Level, Erfahrung, Ehre, Abschüsse) bleiben, wie sie sind. Siehe [Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-Der erste Wipe der neuen Regeln ist der erste, der die Zählung beginnt: Bis dahin sind die Punkte, die du hast, die deiner ganzen Laufbahn.
+Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt: Der Wipe, der Saison 1 abschloss, bezahlte die Ränge der Saison 1 nach den Punkten deiner ganzen Laufbahn.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps betreibt drei **Welten**. Jede ist eine eigene Kopie der ganzen Galax
 
 | Welt | Nötiges Level | Risiko | Stärke der Aliens | Lohn für Abschüsse und Quests | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Locker / Einsteiger | 1,0x | 1,0x Credits, Thulium, EP, Ehre | **Hohe Sicherheit**: nur auf den Grenzkarten (`x-4`) und in der zentralen PvP-Zone (`DS-x`). Kein PvP in den Konzernsektoren `x-1` bis `x-3`. |
-| **Beta** | 7 | Normal / Fortgeschritten | 1,5x | 2,0x Credits, Thulium, EP, Ehre | **Mittlere Sicherheit**: überall außer in den Basissektoren (`x-1`). |
-| **Gamma** | 10 | Hardcore / Elite | 2,0x | 3,0x Credits, Thulium, EP, Ehre | **Geringe Sicherheit**: überall. Maximales Risiko, maximaler Lohn. |
+| **Alpha** | 1 | Locker / Einsteiger | 1,0x | 1,0x Credits, Thulium, EP, Ehre | **Hohe Sicherheit**: nur auf den Grenzkarten (`x-4`) und in der zentralen PvP-Zone (`DS-x`). Kein PvP in den Konzernsektoren `x-1` bis `x-3`. Ab Tag 4. |
+| **Beta** | 7 | Normal / Fortgeschritten | 1,5x | 2,0x Credits, Thulium, EP, Ehre | **Mittlere Sicherheit**: überall außer in den Basissektoren (`x-1`). Ab Tag 1. |
+| **Gamma** | 10 | Hardcore / Elite | 2,0x | 3,0x Credits, Thulium, EP, Ehre | **Geringe Sicherheit**: überall. Maximales Risiko, maximaler Lohn. Ab Tag 1. |
 
 So funktionieren die Welten:
 
 * **Aliens**: Die Alien-Stärke einer Welt multipliziert ihre Trefferpunkte, Schilde, Schildaufladung und ihren Schaden. Ihr Tempo und ihre Reichweite sind überall gleich.
-* **Lohn**: Ein Abschuss zahlt nach der Welt, in der er stattfindet. Eine Quest zahlt nach der Welt, in der du sie erledigt hast (der niedrigeren, falls sie sich über zwei erstreckt), egal in welcher Welt du sie abholst (eine Station-Mission hat keine eigene Welt und zahlt nach der Welt, in der du fliegst, wenn du sie abholst), und das Limit einer zeitgebundenen Quest ist in Beta 1,5-mal so lang und in Gamma doppelt so lang ([Quests](/wiki/03-Mechanics/Quests.md)). Beute und Konzernpiloten sind in jeder Welt gleich, deshalb verdienst du in einer höheren Welt mehr pro Stunde, aber ihre Kämpfe kosten mehr Reparaturen.
-* **PvP**: Jeder auf einer Karte gehört zu deren Welt, deshalb gilt eine Regel für die ganze Karte, Konzernpiloten eingeschlossen. Schutzzonen und das Friedensprotokoll (Tag 1–3) schützen jede Welt.
+* **Lohn**: Ein Abschuss zahlt nach der Welt, in der er stattfindet. Eine Quest zahlt nach der Welt, in der du fliegst, wenn du sie abholst (eine, die du in einer höheren Welt erledigt hast, behält den höheren Multiplikator), eine Quest von vor einem Wipe also nach deiner neuen Welt, und das Limit einer zeitgebundenen Quest ist in Beta 1,5-mal so lang und in Gamma doppelt so lang ([Quests](/wiki/03-Mechanics/Quests.md)). Beute und Konzernpiloten sind in jeder Welt gleich, deshalb verdienst du in einer höheren Welt mehr pro Stunde, aber ihre Kämpfe kosten mehr Reparaturen.
+* **PvP**: Jeder auf einer Karte gehört zu deren Welt, deshalb gilt eine Regel für die ganze Karte, Konzernpiloten eingeschlossen. Schutzzonen schützen jede Welt; das Friedensprotokoll (Tag 1–3) gibt es nur in Alpha, und Beta und Gamma haben PvP ab Tag 1.
 * **Im Flug**: Der Name der Welt steht rechts oben vor der ID des Sektors („Beta · M-2“). Das Abzeichen in der Titelleiste des Fensters Schiff sagt dir, wo du stehst: **Sicher** in einer Schutzzone, **Kein PvP** während des Friedensprotokolls oder dort, wo deine Welt PvP verbietet, **PvP**, wo andere Piloten dich angreifen können. Fahre mit der Maus darüber, um die Regel zu sehen. Die [Galaxiekarte](/wiki/01-General/Spacemap%20Travel.md) färbt die Sektoren nach der Regel deiner Welt ein.
 
 ### Beitreten und wechseln {#joining-and-moving}

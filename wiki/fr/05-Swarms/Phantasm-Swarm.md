@@ -11,7 +11,7 @@ L’essaim Phantasm est un **Boss Phantasm** avec ses **Phantasm Guards** : un 
 
 - **Où** : Les secteurs `x-3` et `x-4` de chaque corporation
 - **Combien** : Un dans chacun de ces secteurs, 6 dans chaque monde
-- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation
+- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Boss Phantasm
 - **Suivants** : Jusqu’à 4 × Phantasm Guard, un nouveau toutes les 10 s
 - **Les suivants restent** : à 500 unités au plus du meneur

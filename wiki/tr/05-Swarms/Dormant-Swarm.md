@@ -11,7 +11,7 @@ Dormant sürüsü, bir **Dormant Force** ve onun **Dormant Pulse** gemileridir: 
 
 - **Yer**: Tehlike Sektörleri `DS-1`, `DS-2`, `DS-3`, `DS-4`; sürü birinden diğerine uçar
 - **Kaç tane**: Her dünyada bir tane
-- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar
+- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Dormant Force
 - **Takipçiler**: 2 × Dormant Pulse, lider ile birlikte uçar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 700 birim

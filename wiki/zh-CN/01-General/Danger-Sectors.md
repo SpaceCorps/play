@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: 危险星区 -->
 # 危险星区 {#danger-sectors}
 
@@ -12,11 +12,11 @@
 
 ## 第 11 天起的新内容 {#what-is-new-from-day-11}
 
-- **巨型挖掘机。** `DS-1`、`DS-2`、`DS-3` 从赛季第一天起各有一颗脉冲星，只是天空中的一点光，别无其他；从第 11 天起，旁边各立着一台**巨型挖掘机**。向挖掘机的燃料箱放入 Dark Matter，选择一种资源，它就会开采脉冲星：Thulium 和稀有矿石会落在它周围的货箱里，谁都可以拾取。这是危险星区里最值得争夺的东西，也是最危险的。见[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)。
+- **巨型挖掘机。** `DS-1`、`DS-2`、`DS-3` 从赛季第一天起各有一颗脉冲星，只是天空中的一点光，别无其他；从第 11 天起，旁边各立着一台**巨型挖掘机**。向挖掘机的燃料箱放入 Dark Matter，选择一种资源，它就会开采脉冲星：Thulium 和稀有矿石会落在它周围的货箱里，谁都可以拾取。这是危险星区里最值得争夺的东西，也是最危险的。见[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)。在 Beta 和 Gamma，巨型挖掘机从赛季第一天起就立在那里。
 - **Slumbering Void。** 挖掘机开采期间，**Slumbering Void** 会成波从地图边缘飞来，追猎它附近的飞行员。另一些在沼泽周围巡逻。见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)。
 - **Dormant Swamp。** `DS-4` 的一个角落立着失落文明的基地：向看到的每艘飞船开火的炮台、守卫它的 Inert Mass，以及中央的 Unwakened。这是飞行员暂时还不该去的地方。见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)。
 - **更快、更富的 Dormant 虫群。** 虫群现在出现在沼泽，被击毁后回归得更早，并且奖励翻倍。见 [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)。
-- **第 11 天之前**只有脉冲星在闪耀：危险星区其余的样子就是[太空地图航行](/wiki/01-General/Spacemap%20Travel.md)所描述的样子。处于第 11 天或之后的世界会一次拥有全部内容。
+- **第 11 天之前**只有脉冲星在闪耀：危险星区其余的样子就是[太空地图航行](/wiki/01-General/Spacemap%20Travel.md)所描述的样子。处于第 11 天或之后的世界会一次拥有全部内容。在 Beta 和 Gamma，巨型挖掘机从赛季第一天起就立在那里。
 
 ## Davidski
 
@@ -42,7 +42,7 @@
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- 脉冲星从赛季第一天起就在闪耀；其余所有新内容在赛季第 11 天出现，并一直留到重置。
+- 脉冲星从赛季第一天起就在闪耀；在 Beta 和 Gamma，巨型挖掘机也从赛季第 1 天起就立在那里。其余所有新内容在赛季第 11 天出现，且全部一直留到重置。
 - 每个世界都有自己的脉冲星、挖掘机和沼泽：一个世界里发生的事不会发生在另一个世界。
 - 脉冲星 2,600 单位内、巨型挖掘机 2,200 单位内、Dormant Swamp 中心 4,900 单位内都没有小行星。
 

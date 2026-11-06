@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -29,20 +29,20 @@ Os **Guardiões do clã** não são enxames públicos. Um clã invoca o seu pró
 | [**Enxame Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Os setores `x-3` e `x-4` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Phantasm** | Até 4 × Phantasm Guard, um novo a cada 10 s | 2 min depois que o líder é destruído, no mesmo setor |
 | [**Enxame Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Os setores `x-3` e `x-4` de cada corporação | Um em cada um desses setores, 6 em cada mundo | **Boss Goombah** | Até 4 × Goombah Guard, um novo a cada 10 s | 5 min depois que o líder é destruído, no mesmo setor |
 | [**Enxame Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Os setores de perigo `DS-1`, `DS-2`, `DS-3` | Um em cada um desses setores, 3 em cada mundo | **Boss Crystalys** | Até 3 × Crystalys Guard, um novo a cada 10 s | 30 min depois que o líder é destruído, no mesmo setor |
-| [**Enxame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | O setor de perigo `DS-4` | Um em cada mundo | **Tesseract** | Até 50 × Facet, mais 10 a cada 5 s enquanto o líder é atingido | 30 min depois que o líder é destruído, no mesmo setor |
+| [**Enxame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | O setor de perigo `DS-4` | Um em cada mundo | **Tesseract** | Até 100 × Facet, mais 20 a cada 5 s enquanto o líder é atingido | 30 min depois que o líder é destruído, no mesmo setor |
 
 <!-- swarms-list:end -->
 
 ## Quando e onde {#when-and-where}
 
-Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (veja a [Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md); o dia é a primeira linha das regras abaixo). **Cada mundo tem os seus próprios enxames** nos mesmos lugares, então o Pirate Boss de Alpha e o de Beta são duas naves diferentes, e um enxame que você destrói no seu mundo não é destruído em outro. Um enxame destruído volta depois do tempo da tabela acima. O Enxame Dormant muda no dia 11 da temporada (evento 2): aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), volta mais cedo e paga o dobro.
+Os enxames começam a aparecer no **Primeiro Contato** e ficam até o reset (veja a [Linha do tempo do reset](/wiki/03-Mechanics/Wipe-Timeline.md); o dia é a primeira linha das regras abaixo). **Cada mundo tem os seus próprios enxames** nos mesmos lugares, então o Pirate Boss de Alpha e o de Beta são duas naves diferentes, e um enxame que você destrói no seu mundo não é destruído em outro. Um enxame destruído volta depois do tempo da tabela acima. O Enxame Dormant muda no dia 11 da temporada (evento 2): aparece no [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), volta mais cedo e paga o dobro. No Beta e no Gamma, os enxames aparecem desde o primeiro dia da temporada.
 
 ## As regras de todo enxame {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Os enxames aparecem a partir do dia 4 da temporada até o reset.
+- Os enxames aparecem a partir do dia 4 da temporada até o reset; no Beta e no Gamma, aparecem a partir do dia 1 da temporada.
 - Quando uma nave de enxame é acertada, as naves do seu enxame a até 1.500 unidades dela entram na luta contra o primeiro piloto que a acertou.
 - Um líder aparece a pelo menos 2.500 unidades da borda de cada anel de estação e de portão.
 - Um piloto que causou pelo menos 5% do dano feito a um chefe é pago pelo abate dele.
@@ -70,7 +70,7 @@ Os enxames Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avisam os pi
 
 ## Lutando contra um enxame {#fighting-a-swarm}
 
-- **Os líderes nunca começam uma luta.** Um líder vagueia até um piloto acertá-lo, então revida, e as naves do seu enxame perto dele entram na luta contra o primeiro piloto que o acertou (a distância está nas regras acima). Os Pirate Scouts são a exceção: atacam qualquer piloto que se aproxime. Um líder nunca conserta o próprio casco, então o dano que você causou fica nele, a menos que seus seguidores o curem; o escudo recarrega como o de qualquer alienígena. Só o Tesseract é diferente: não tem arma, conserta sozinho o casco e o escudo assim que ninguém o fere por alguns segundos, e os Facets dele caçam o piloto que mais causou dano, não o primeiro que o acertou.
+- **Os líderes nunca começam uma luta.** Um líder vagueia até um piloto acertá-lo, então revida, e as naves do seu enxame perto dele entram na luta contra o primeiro piloto que o acertou (a distância está nas regras acima). Os Pirate Scouts são a exceção: atacam qualquer piloto que se aproxime. Um líder nunca conserta o próprio casco, então o dano que você causou fica nele, a menos que seus seguidores o curem; o escudo recarrega como o de qualquer alienígena. Só o Tesseract é diferente: não tem arma, conserta sozinho o casco e o escudo assim que ninguém o fere por alguns segundos, e os Facets dele voam ao redor e atiram no piloto mais próximo que o acertou, em vez de caçar o primeiro que o acertou.
 - **Naves de enxame só lutam contra pilotos.** Elas não atiram em alienígenas e os alienígenas não atiram nelas, e os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) as ignoram: não caçam uma nave de enxame nem vêm em seu auxílio contra uma.
 - **Foguetes.** O Pirate Boss, a Dormant Force e as Pulses disparam foguetes **retos**, os [foguetes Rivet](/wiki/06-Items/Rockets.md), no piloto que os atacou. Uma nave que não para de se mover os esquiva; uma parada é atingida.
 - **O tamanho das lutas.** O enxame Seeker é para dois pilotos, os enxames Pirate e Phantasm para um grupo pequeno, o Goombah para um grupo das naves mais fortes, o Crystalys e o Dormant para um grupo grande delas, o Tesseract para um grupo muito grande; os mundos mais altos pedem mais pilotos, como com qualquer alienígena.
@@ -109,7 +109,7 @@ Todo abate é contado com o nome próprio da nave nas suas estatísticas de abat
 | **Phantasm Guard** | Enxame Phantasm | 1 |
 | **Boss Goombah** | Enxame Goombah | 14 |
 | **Goombah Guard** | Enxame Goombah | 3 |
-| **Boss Crystalys** | Enxame Crystalys | 21 |
+| **Boss Crystalys** | Enxame Crystalys | 30 |
 | **Crystalys Guard** | Enxame Crystalys | 6 |
 | **Tesseract** | Enxame Tesseract | 42 |
 | **Facet** | Enxame Tesseract | 0 |

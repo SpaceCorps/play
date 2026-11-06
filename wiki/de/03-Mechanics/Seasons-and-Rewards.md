@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
+<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
 <!-- wiki-i18n title: Saisons und Belohnungen -->
 # Saisons und Belohnungen {#seasons-and-rewards}
 
@@ -85,7 +85,7 @@ Der Saisonbericht sagt dir, was gefehlt hat, falls etwas fehlte.
 
 Deine **Rangpunkte** zählen, was du **seit dem letzten Wipe** verdient hast: die gewonnenen Level, die Erfahrung und die Alien-Abschüsse dieser Saison. Beim Wipe fangen sie wieder bei null an, dein alter Rang kommt in deinen Verlauf, und dein Rang der neuen Saison entsteht aus dem Nichts, jede Saison ist also ein neuer Aufstieg. **Die Ehre bestimmt deinen Rang nicht.** Deine Gesamtzahlen (Level, Erfahrung, Ehre, Abschüsse) bleiben, wie sie sind.
 
-Der erste Wipe der neuen Regeln ist der erste, der die Zählung beginnt. Bis dahin sind die Punkte, die du hast, die deiner ganzen Laufbahn, und dieser Wipe bezahlt dich für den Rang, den sie dir geben. Die Mindestpunkte der Ränge bleiben, wie sie sind.
+Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt. Der Wipe, der Saison 1 abschloss, bezahlte dich für den Rang, den die Punkte deiner ganzen Laufbahn dir gaben. Die Mindestpunkte der Ränge bleiben, wie sie sind.
 
 ## Der Saisonbericht {#the-season-report}
 

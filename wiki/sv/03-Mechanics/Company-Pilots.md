@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2d81c36bc4357d49 -->
+<!-- wiki-i18n source: dced9aac4fce8b87 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
@@ -33,7 +33,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 - Deras lasrar träffar aldrig piloter eller skepp i den egna koncernen.
 - Säkra zoner skyddar dem som vilken pilot som helst, och de skjuter aldrig in i en säker zon.
 - **Piloter i din egen koncern** kan attackeras, men att förstöra en kostar **100 heder** (din heder kan sjunka under 0), och det gör också en träff mot en under de 15 sekunderna innan en utomjording eller någon annan förstör den. Din eld flyttas aldrig till en av sig själv: väljer du en medan du skjuter håller du elden, och bara attacktangenten eller en ammunitionsplats skjuter på den. Ett klick bredvid en (för att flyga dit) väljer den inte.
-- **Piloter i en annan koncern** ger ingenting när de förstörs (inga krediter, ingen heder och inga rankingpoäng), och kan inte attackeras under Fredsprotokollet (säsongens tre första dagar).
+- **Piloter i en annan koncern** ger ingenting när de förstörs (inga krediter, ingen heder och inga rankingpoäng), och kan inte attackeras under Fredsprotokollet (säsongens tre första dagar). Beta och Gamma har inget fredsprotokoll: där gäller PvP från dag 1.
 - Att attackera en koncernpilot följer PvP-reglerna i din [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma): ingen i Alphas `x-1` till `x-3`, inte heller i Betas `x-1`.
 - **Vrak**: en förstörd koncernpilot lämnar ingen [lastlåda](/wiki/03-Mechanics/Cargo.md) och inga delar, oavsett vem eller vad som förstör den: att skjuta ned koncernpiloter är inget sätt att farma material.
 
@@ -44,7 +44,7 @@ Varje koncernbas (`M-1`, `T-1` och `G-1`, i varje värld) har **2 reparationsske
 - **Läkande aura**: varje reparationsskepp reparerar skrovet på varje pilot i sin koncern inom **2 000** från det med **250 träffpoäng per sekund**, även mitt i en strid, aldrig över skeppets maximala skrov. Där båda når dig (runt själva stationen) blir det 500 per sekund. Din koncerns egna koncernpiloter repareras också; en annan koncerns piloter aldrig.
 - **Du ser det**: en svag ring på kartan visar hur långt vart och ett når: grön runt din egen koncerns reparationsskepp, grå runt en annan koncerns. Målfönstret kallar det ett reparationsskepp.
 - **De skjuter aldrig.** De håller sin post och lagar sitt eget skrov från 10 sekunder efter den senaste träffen.
-- **De kan förstöras**: aggressiva utomjordingar går på dem, och andra koncerners piloter kan skjuta ned dem där din [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) tillåter PvP vid basen (bara Gammas `x-1`), efter Fredsprotokollet. Vart och ett har 200 000 träffpoäng och 100 000 sköldpoäng. Att förstöra din egen koncerns reparationsskepp kostar **100 heder**, som för vilken som helst av dess koncernpiloter, och inget av dem betalar något eller lämnar en låda.
+- **De kan förstöras**: aggressiva utomjordingar går på dem, och andra koncerners piloter kan skjuta ned dem där din [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) tillåter PvP vid basen (bara Gammas `x-1`), efter Fredsprotokollet. Vart och ett har 200 000 träffpoäng och 100 000 sköldpoäng. Att förstöra din egen koncerns reparationsskepp kostar **100 heder**, som för vilken som helst av dess koncernpiloter, och inget av dem betalar något eller lämnar en låda. Beta och Gamma har inget fredsprotokoll: där gäller PvP från dag 1.
 - **Tillbaka efter 2 minuter**: ett förstört reparationsskepp återvänder till sin post 120 sekunder senare, oskadat.
 
 ## Stridsanteckningar {#combat-notes}

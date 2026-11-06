@@ -11,7 +11,7 @@ Pirate sürüsü, bir **Pirate Boss** ve onun **Pirate Scout** gemileridir: kims
 
 - **Yer**: Her şirketin `x-2` ve `x-3` sektörleri
 - **Kaç tane**: Bu sektörlerin her birinde bir tane, her dünyada 6 tane
-- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar
+- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Pirate Boss
 - **Takipçiler**: En fazla 5 × Pirate Scout, 10 sn aralıkla yenisi çıkar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 900 birim

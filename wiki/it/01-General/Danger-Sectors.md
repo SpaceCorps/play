@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: Settori pericolosi -->
 # Settori pericolosi {#danger-sectors}
 
@@ -12,11 +12,11 @@ Qui visse una civiltà dell’antica galassia, avanzata e nera-viola, e per un m
 
 ## Cosa c’è di nuovo dal giorno 11 {#what-is-new-from-day-11}
 
-- **Escavatori giganti.** `DS-1`, `DS-2` e `DS-3` hanno ciascuno un pulsar dal primo giorno della stagione, una luce nel cielo e nient’altro; dal giorno 11 ciascuno riceve accanto un **escavatore gigante**. Metti Dark Matter nel serbatoio dell’escavatore, scegli una risorsa, e lui estrae il pulsar: Thulium e minerali rari cadono intorno a lui in casse che chiunque può prendere. È la cosa più ricca per cui combattere nei settori pericolosi, e la più pericolosa. Vedi [Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Escavatori giganti.** `DS-1`, `DS-2` e `DS-3` hanno ciascuno un pulsar dal primo giorno della stagione, una luce nel cielo e nient’altro; dal giorno 11 ciascuno riceve accanto un **escavatore gigante**. Metti Dark Matter nel serbatoio dell’escavatore, scegli una risorsa, e lui estrae il pulsar: Thulium e minerali rari cadono intorno a lui in casse che chiunque può prendere. È la cosa più ricca per cui combattere nei settori pericolosi, e la più pericolosa. Vedi [Escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md). In Beta e Gamma gli escavatori giganti sorgono dal primo giorno della stagione.
 - **Slumbering Void.** Mentre un escavatore estrae, gli **Slumbering Void** arrivano a ondate dal bordo della mappa e danno la caccia ai piloti vicini. Altri pattugliano la palude. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **Il Dormant Swamp.** In un angolo di `DS-4` sorge la base della civiltà perduta: cannoni che sparano a ogni nave che vedono, Inert Mass che la custodiscono e, al centro, l’Unwakened. È un luogo che i piloti non sono ancora tenuti a visitare. Vedi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Uno Sciame Dormant più veloce e più ricco.** Lo sciame compare ora nella palude, ritorna prima dopo la distruzione e paga il doppio. Vedi [Sciame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Prima del giorno 11** brillano solo i pulsar: per il resto i settori pericolosi sono come li descrive [Viaggiare sulla mappa](/wiki/01-General/Spacemap%20Travel.md). Un mondo al giorno 11 o dopo ha tutto in un colpo.
+- **Prima del giorno 11** brillano solo i pulsar: per il resto i settori pericolosi sono come li descrive [Viaggiare sulla mappa](/wiki/01-General/Spacemap%20Travel.md). Un mondo al giorno 11 o dopo ha tutto in un colpo. In Beta e Gamma gli escavatori giganti sorgono dal primo giorno della stagione.
 
 ## Davidski
 
@@ -42,7 +42,7 @@ Ogni mondo ha una copia tutta sua di ogni cosa, e un pulsar e il suo escavatore 
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- I pulsar brillano dal primo giorno della stagione; tutto il resto di nuovo compare al giorno 11 della stagione e resta fino al reset.
+- I pulsar brillano dal primo giorno della stagione; in Beta e Gamma anche gli escavatori giganti sorgono dal giorno 1 della stagione. Tutto il resto di nuovo compare al giorno 11 della stagione, e tutto resta fino al reset.
 - Ogni mondo ha i propri pulsar, escavatori e palude: quello che succede in uno non succede in un altro.
 - Nessun asteroide si trova entro 2.600 unità da un pulsar, entro 2.200 unità da un escavatore gigante o entro 4.900 unità dal centro del Dormant Swamp.
 

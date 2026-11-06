@@ -11,7 +11,7 @@ O enxame Goombah é um **Boss Goombah** com seus **Goombah Guards**: um [Goombah
 
 - **Onde**: Os setores `x-3` e `x-4` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Boss Goombah
 - **Seguidores**: Até 4 × Goombah Guard, um novo a cada 10 s
 - **Os seguidores ficam a**: até 500 unidades do líder

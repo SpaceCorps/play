@@ -11,7 +11,7 @@ L’essaim Seeker est le plus petit des [essaims](/wiki/05-Swarms/Swarms.md) : 
 
 - **Où** : Les secteurs `x-1` et `x-2` de chaque corporation
 - **Combien** : Un dans chacun de ces secteurs, 6 dans chaque monde
-- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation
+- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Boss Seeker
 - **Suivants** : Jusqu’à 4 × Seeker Slave, un nouveau toutes les 10 s
 - **Les suivants restent** : à 500 unités au plus du meneur

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
@@ -13,7 +13,7 @@ Todo piloto tem uma **patente**, de Piloto júnior a Almirante sênior. É uma e
 - Só estão em uma lista os pilotos com pontos PvE que voaram nos últimos 30 dias. Todos os outros são Piloto júnior até voltarem a voar, e não ocupam vaga.
 - Uma **coroa** dourada sobre o símbolo marca o piloto com mais pontos PvE de todo o servidor: todas as corporações, os três mundos.
 - A sua patente se move. Até Coronel sênior, ela depende só dos seus pontos, então só sobe. As seis melhores patentes também se movem com os outros pilotos da sua corporação: podem cair quando outros ocupam as vagas acima de você. Uma queda nunca é anunciada; uma nova melhor patente é.
-- No reset os pontos recomeçam do zero, então as listas recomeçam e cada temporada é uma nova subida. A sua patente da temporada vai para o seu histórico e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Isso começa com o primeiro reset das novas regras: até lá, os seus pontos são os da sua carreira inteira.)
+- No reset os pontos recomeçam do zero, então as listas recomeçam e cada temporada é uma nova subida. A sua patente da temporada vai para o seu histórico e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim.)
 - O símbolo antes de um nome é a patente: uma forma para a categoria, de uma a três marcas para o grau.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Abra **Economia › Corporação**. A seção **Ranking da corporação** mostra
 
 No reset os seus pontos PvE recomeçam do zero, então o ranking da sua corporação recomeça e cada temporada é uma nova subida. Só conta o que você ganha depois de um reset: os níveis que sobe, a experiência e os abates de alienígenas da nova temporada ([Pontos novos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). O seu nível, a sua experiência e as suas estatísticas de abates ficam nos seus totais. **A honra não define a sua patente.** A patente que você tinha no instante do reset vai para o histórico das suas temporadas, com a sua posição no ranking, e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A sua patente também não é para a vida toda: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias ausente sai do ranking até voar de novo.
 
-O primeiro reset das novas regras é o primeiro a recomeçar os pontos: até lá, eles são os da sua carreira inteira, e esse reset encerra uma temporada com as patentes que o ranking mostrar então.
+A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim: os pontos dela contam a partir desse reset. O reset que encerrou a temporada 1 pagou as patentes da temporada 1 pelos pontos da sua carreira inteira.
 
 ## Quanto tempo leva {#how-long-it-takes}
 

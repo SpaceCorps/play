@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 ## En une minute {#in-one-minute}
 
 - **La Dark Matter est une ressource, et elle s’appelle simplement Dark Matter partout.** Le trou noir au centre du Secteur dangereux 4 (`DS-4`) la fabrique : chaque roquette N.I.K.E. qui atteint le trou rend de 1 à 3 Dark Matter (2 en moyenne), dans de petites caisses au bord de sa zone.
-- **À quoi elle sert.** 107 technologies du Centre de recherche en demandent, de 5 à 60 chacune et 1 354 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite.
+- **À quoi elle sert.** 107 technologies du Centre de recherche en demandent, de 5 à 60 chacune et 1 354 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite. Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
 - **Dans le Centre de recherche**, vous ajoutez de la Dark Matter depuis votre soute (vaisseau posé) avant d’appuyer sur Lancer. La recherche la prend à son début.
 - **Une Dark Matter Plate est un autre objet.** Recherchez d’abord sa recette (le groupe Ressources de l’arbre : 1 jour et 10 Dark Matter), puis fabriquez-la à l’Assemblage avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium.
 - **À quoi sert une plate.** Le dernier palier de chaque chaîne d’amélioration en demande **4** et au moins une Ancient Control Unit : les amps, cellules de bouclier et propulseurs du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II (13 pièces). La Forge en demande 2 pour faire passer un objet de Divin à Fracturant, et 2 de plus de Fracturant à Éternel. Les modules Moteurs, Défense et Radar du Skylab demandent aussi des plaques, pour être construits et améliorés ([Ressources](/wiki/06-Items/Resources.md#dark-matter-plate)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Sürüler -->
 # Sürüler {#swarms}
 
@@ -29,20 +29,20 @@ Gemileri **kendi türlerinden uzaylılardır**: kendi adları ve kendi öldürme
 | [**Phantasm sürüsü**](/wiki/05-Swarms/Phantasm-Swarm.md) | Her şirketin `x-3` ve `x-4` sektörleri | Bu sektörlerin her birinde bir tane, her dünyada 6 tane | **Boss Phantasm** | En fazla 4 × Phantasm Guard, 10 sn aralıkla yenisi çıkar | Lider yok edildikten 2 dk sonra, aynı sektörde |
 | [**Goombah sürüsü**](/wiki/05-Swarms/Goombah-Swarm.md) | Her şirketin `x-3` ve `x-4` sektörleri | Bu sektörlerin her birinde bir tane, her dünyada 6 tane | **Boss Goombah** | En fazla 4 × Goombah Guard, 10 sn aralıkla yenisi çıkar | Lider yok edildikten 5 dk sonra, aynı sektörde |
 | [**Crystalys sürüsü**](/wiki/05-Swarms/Crystalys-Swarm.md) | Tehlike Sektörleri `DS-1`, `DS-2`, `DS-3` | Bu sektörlerin her birinde bir tane, her dünyada 3 tane | **Boss Crystalys** | En fazla 3 × Crystalys Guard, 10 sn aralıkla yenisi çıkar | Lider yok edildikten 30 dk sonra, aynı sektörde |
-| [**Tesseract sürüsü**](/wiki/05-Swarms/Tesseract-Swarm.md) | Tehlike Sektörü `DS-4` | Her dünyada bir tane | **Tesseract** | En fazla 50 × Facet, lider vurulduğu sürece 5 sn aralıkla 10 tane daha | Lider yok edildikten 30 dk sonra, aynı sektörde |
+| [**Tesseract sürüsü**](/wiki/05-Swarms/Tesseract-Swarm.md) | Tehlike Sektörü `DS-4` | Her dünyada bir tane | **Tesseract** | En fazla 100 × Facet, lider vurulduğu sürece 5 sn aralıkla 20 tane daha | Lider yok edildikten 30 dk sonra, aynı sektörde |
 
 <!-- swarms-list:end -->
 
 ## Ne zaman ve nerede {#when-and-where}
 
-Sürüler **İlk Temas** ile belirmeye başlar ve sıfırlamaya kadar kalır (bkz. [Sıfırlama zaman çizelgesi](/wiki/03-Mechanics/Wipe-Timeline.md); gün, aşağıdaki kuralların ilk satırındadır). **Her dünyanın kendi sürüleri** vardır ve aynı yerlerdedir; yani Alpha dünyasındaki Pirate Boss ile Beta dünyasındaki iki ayrı gemidir ve kendi dünyanda yok ettiğin bir sürü başka bir dünyada yok edilmiş olmaz. Yok edilen bir sürü, yukarıdaki tabloda yazan süre sonra geri gelir. Dormant sürüsü sezonun 11. gününde (2. etkinlik) değişir: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde belirir, daha çabuk geri gelir ve iki kat daha fazla öder.
+Sürüler **İlk Temas** ile belirmeye başlar ve sıfırlamaya kadar kalır (bkz. [Sıfırlama zaman çizelgesi](/wiki/03-Mechanics/Wipe-Timeline.md); gün, aşağıdaki kuralların ilk satırındadır). **Her dünyanın kendi sürüleri** vardır ve aynı yerlerdedir; yani Alpha dünyasındaki Pirate Boss ile Beta dünyasındaki iki ayrı gemidir ve kendi dünyanda yok ettiğin bir sürü başka bir dünyada yok edilmiş olmaz. Yok edilen bir sürü, yukarıdaki tabloda yazan süre sonra geri gelir. Dormant sürüsü sezonun 11. gününde (2. etkinlik) değişir: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesinde belirir, daha çabuk geri gelir ve iki kat daha fazla öder. Beta ve Gamma’da sürüler sezonun ilk gününden itibaren belirir.
 
 ## Her sürünün kuralları {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Sürüler sezonun 4. gününden sıfırlamaya kadar görünür.
+- Sürüler sezonun 4. gününden sıfırlamaya kadar görünür; Beta ve Gamma dünyalarında sezonun 1. gününden itibaren görünür.
 - Bir sürü gemisi vurulduğunda, sürüsünden ona 1.500 birim içinde olan gemiler, ona ilk vuran pilota karşı savaşa katılır.
 - Bir lider, her istasyonun ve geçit halkasının kenarından en az 2.500 birim uzakta belirir.
 - Bir patron öldürüldüğünde, ona verilen hasarın en az %5 kadarını veren pilot, öldürme ödülünü alır.
@@ -70,7 +70,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys ve Tesseract sürüleri, bir patron
 
 ## Bir sürüyle savaşmak {#fighting-a-swarm}
 
-- **Liderler hiçbir zaman kavgayı başlatmaz.** Bir lider, bir pilot ona vurana kadar dolaşır, sonra karşılık verir; sürüsünün ona yakın gemileri de ona ilk vuran pilota karşı savaşa katılır (mesafe yukarıdaki kurallarda verilir). Pirate Scout gemileri bunun istisnasıdır: yaklaşan her pilota saldırırlar. Bir lider gövdesini kendi kendine onarmaz; bu yüzden verdiğin hasar, takipçileri onu onarmadıkça üzerinde kalır; kalkanı her uzaylının kalkanı gibi dolar. Yalnızca Tesseract farklıdır: silahı yoktur, birkaç saniye boyunca kimse ona hasar vermezse gövdesini ve kalkanını kendi kendine onarır ve Facet gemileri ilk vuran pilotu değil, en çok hasar veren pilotu avlar.
+- **Liderler hiçbir zaman kavgayı başlatmaz.** Bir lider, bir pilot ona vurana kadar dolaşır, sonra karşılık verir; sürüsünün ona yakın gemileri de ona ilk vuran pilota karşı savaşa katılır (mesafe yukarıdaki kurallarda verilir). Pirate Scout gemileri bunun istisnasıdır: yaklaşan her pilota saldırırlar. Bir lider gövdesini kendi kendine onarmaz; bu yüzden verdiğin hasar, takipçileri onu onarmadıkça üzerinde kalır; kalkanı her uzaylının kalkanı gibi dolar. Yalnızca Tesseract farklıdır: silahı yoktur, birkaç saniye boyunca kimse ona hasar vermezse gövdesini ve kalkanını kendi kendine onarır ve Facet gemileri ilk vuran pilotun peşine düşmek yerine çevresinde uçar ve ona vurmuş pilotlardan en yakın olana ateş eder.
 - **Sürü gemileri yalnızca pilotlarla savaşır.** Uzaylılara ateş etmezler, uzaylılar da onlara ateş etmez; [şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md) da onları yok sayar: ne bir sürü gemisini avlarlar ne de ona karşı yardımına gelirler.
 - **Roketler.** Pirate Boss ile Dormant Force ve Dormant Pulse gemileri, kendilerine saldıran pilota **düz** roketler, yani [Rivet roketleri](/wiki/06-Items/Rockets.md) fırlatır. Hareket etmeye devam eden bir gemi onlardan kaçar, olduğu yerde duran vurulur.
 - **Savaşların ölçeği.** Seeker sürüsü iki pilot içindir, Pirate ve Phantasm sürüleri küçük bir grup içindir, Goombah sürüsü en güçlü gemilerden oluşan bir grup içindir, Crystalys ve Dormant sürüleri bunlardan oluşan büyük bir grup içindir, Tesseract sürüsü çok büyük bir grup içindir; daha büyük dünyalar her uzaylıda olduğu gibi daha çok pilot ister.
@@ -109,7 +109,7 @@ Her öldürme, öldürme istatistiklerinde geminin kendi adı altında sayılır
 | **Phantasm Guard** | Phantasm sürüsü | 1 |
 | **Boss Goombah** | Goombah sürüsü | 14 |
 | **Goombah Guard** | Goombah sürüsü | 3 |
-| **Boss Crystalys** | Crystalys sürüsü | 21 |
+| **Boss Crystalys** | Crystalys sürüsü | 30 |
 | **Crystalys Guard** | Crystalys sürüsü | 6 |
 | **Tesseract** | Tesseract sürüsü | 42 |
 | **Facet** | Tesseract sürüsü | 0 |

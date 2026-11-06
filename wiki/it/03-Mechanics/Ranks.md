@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Gradi -->
 # Gradi {#ranks}
 
@@ -13,7 +13,7 @@ Ogni pilota ha un **grado**, da Pilota junior a Ammiraglio senior. È una scala 
 - Solo i piloti con punti PvE che hanno volato negli ultimi 30 giorni sono in una lista. Tutti gli altri sono Pilota junior finché non volano di nuovo, e non hanno un posto.
 - Una **corona** dorata sopra il simbolo segnala il pilota con più punti PvE di tutto il server: tutte le corporazioni, i tre mondi.
 - Il tuo grado si muove. Fino a Colonnello senior dipende solo dai tuoi punti, quindi può solo salire. I sei gradi migliori si muovono anche con gli altri piloti della tua corporazione: possono scendere quando altri prendono i posti sopra di te. Una discesa non viene mai annunciata; un nuovo grado migliore sì.
-- Al reset i punti ricominciano da zero, quindi le liste ricominciano da capo e ogni stagione è una nuova scalata. Il tuo grado della stagione entra nella tua cronologia e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Questo comincia con il primo reset delle nuove regole: fino ad allora i tuoi punti sono quelli di tutta la tua carriera.)
+- Al reset i punti ricominciano da zero, quindi le liste ricominciano da capo e ogni stagione è una nuova scalata. Il tuo grado della stagione entra nella tua cronologia e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (La stagione 2, iniziata con il reset del 6 novembre 2026, è stata la prima a contare così.)
 - Il simbolo davanti a un nome è il grado: una forma per il livello, da una a tre marche per la gradazione.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Un alieno più duro vale di più: un abbattimento dà punti in base a quanti dan
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Apri **Economia › Corporazione**. La sua sezione **Classifica della corporazio
 
 Al reset i tuoi punti PvE ricominciano da zero, quindi la classifica della tua corporazione ricomincia da capo e ogni stagione è una nuova scalata. Conta solo ciò che guadagni dopo un reset: i livelli che sali, l’esperienza e gli abbattimenti di alieni della nuova stagione ([Punti freschi](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Il tuo livello, la tua esperienza e le tue statistiche degli abbattimenti restano nei tuoi totali. **L’onore non determina il tuo grado.** Il grado che avevi nell’istante del reset entra nella cronologia delle tue stagioni, con la tua posizione in classifica, e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Il tuo grado non è nemmeno per sempre: i sei gradi migliori si muovono con gli altri piloti della tua corporazione, e un pilota che resta lontano 30 giorni esce dalla classifica finché non vola di nuovo.
 
-Il primo reset delle nuove regole è il primo a far ricominciare i punti: fino ad allora sono quelli di tutta la tua carriera, e quel reset chiude una stagione con i gradi che la classifica mostra allora.
+La stagione 2, iniziata con il reset del 6 novembre 2026, è stata la prima a contare così: i suoi punti contano da quel reset. Il reset che ha chiuso la stagione 1 ha pagato i gradi della stagione 1 in base ai punti di tutta la tua carriera.
 
 ## Quanto ci vuole {#how-long-it-takes}
 

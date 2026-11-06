@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 129abc8d9ddf80be -->
+<!-- wiki-i18n source: e7457b6f54e88fc9 -->
 <!-- wiki-i18n title: Uzay haritasında seyahat -->
 # Uzay haritasında seyahat {#spacemap-travel}
 
@@ -30,7 +30,7 @@ Evren, üç ana şirket sektöründen (Mars, Terra, Galactic) ve merkezî bir Pv
 - **x-1 (Ana üs)**: Her şirketin başlangıç haritası (M-1, T-1, G-1). En güvenli bölge.
 - **x-2 -> x-3**: Giderek daha sert uzaylıların bulunduğu genişleme bölgeleri.
 - **x-4 (Sınır)**: PvP sektörünün ve başka bir şirketin `x-3` sektörünün kapısı (aşağıdaki halka).
-- **DS-x (Tehlike Sektörleri)**: Tüm şirketleri birbirine bağlayan merkezî PvP bölgesi: DS-1 ile DS-4. DS-1 ile DS-3 sektörlerinin her birinde sezonun ilk gününden itibaren bir pulsar bulunur ve sezonun 11. gününden itibaren her birinin yanında bir dev ekskavatör ve ayrıca Dormant Swamp bulunur ([Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md)).
+- **DS-x (Tehlike Sektörleri)**: Tüm şirketleri birbirine bağlayan merkezî PvP bölgesi: DS-1 ile DS-4. DS-1 ile DS-3 sektörlerinin her birinde sezonun ilk gününden itibaren bir pulsar bulunur ve sezonun 11. gününden itibaren her birinin yanında bir dev ekskavatör ve ayrıca Dormant Swamp bulunur ([Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md)). Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 
 İstasyon yalnızca ana üslerde bulunur. **Mission Control** orada açılır ve güvenli bölgesi çevresinde 1.600 birim uzanır. Tehlike Sektörleri’nde, `DS-1` dahil, istasyon yoktur: oradaki tek güvenli bölgeler sıçrama geçitlerinin çevresindeki 660 birimlik halkalardır ve orada Mission Control açılamaz; görevlerin için üssüne geri uç.
 

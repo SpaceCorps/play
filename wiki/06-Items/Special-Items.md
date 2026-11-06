@@ -37,7 +37,7 @@ Finishes **one Skylab upgrade at once**: pick the module that is being upgraded 
 
 - **The price stays paid.** What the upgrade cost was taken when you started it. The Hammer refunds none of it and asks for nothing more.
 - **Only a running upgrade.** A module that is not being upgraded, or whose upgrade has just ended by itself, is refused ("Nothing to finish: that module is not being upgraded.") and the Hammer stays with you.
-- **Extremely rare.** The Skylab keeps its levels through the wipe, so a Hammer is worth the time of a step, up to 6 days on the Core. The game allows a pilot at most **one in 60 days**, and you can hold 5.
+- **Extremely rare.** The Skylab keeps its levels through the wipe, so a Hammer is worth the time of a step, up to 6 days on the Core. There is no waiting time between two Hammers, and you can hold 5.
 - **The Engineer** (a [Workforce Contract](#workforce-contract)) shortens upgrades by up to 1 hour; the Hammer takes all that is left.
 
 ### Schematics
@@ -96,7 +96,7 @@ The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/0
 - **A count, not an item.** The Hangar's inventory is the only place that lists them, as tiles among the consumables; a kind you hold none of has no tile. A tile is not an item, so it can't be dragged, selected, deleted or sold. They have no weight, no hotbar slot and no place in cargo or the Transport Cache; they never drop when your ship is destroyed.
 - **Through the wipe.** Your special items and a running Philosopher's Stone or contract are kept, like the Skylab, the research and your looks.
 - **Never traded.** Not on the [Auction](/wiki/03-Mechanics/Auction.md), not to another pilot, not for Credits.
-- **Only the Hammer can move your pace**, and it is limited to one in 60 days. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, one research of at most 24 hours.
+- **Only the Hammer can move your pace**, and you can hold only 5. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, one research of at most 24 hours.
 - **One use, one confirmation, one sound.** Each use plays its own quiet cue.
 
 ## Common mistakes

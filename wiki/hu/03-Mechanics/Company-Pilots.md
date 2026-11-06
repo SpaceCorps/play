@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2d81c36bc4357d49 -->
+<!-- wiki-i18n source: dced9aac4fce8b87 -->
 <!-- wiki-i18n title: Vállalati pilóták -->
 # Vállalati pilóták {#company-pilots}
 
@@ -33,7 +33,7 @@ Minden vállalat egy kis osztagnyi NPC-pilótát tart az otthoni szektoraiban (`
 - A lézereik sosem találják el a saját vállalatuk pilótáit vagy hajóit.
 - A biztonságos zónák ugyanúgy védik őket, mint bármely pilótát, és ők sosem lőnek be egy biztonságos zónába.
 - **A saját vállalatod pilótáit** meg lehet támadni, de egy megsemmisítése **100 becsületbe** kerül (a becsületed 0 alá is csökkenhet), és ugyanennyibe kerül, ha eltalálsz egyet a megsemmisülése előtti 15 másodpercben, akkor is, ha egy idegen vagy bárki más semmisíti meg. A tüzed sosem vált át rájuk magától: ha tüzelés közben kijelölsz egyet, a tüzed visszatartva marad, és csak a támadás billentyűje vagy egy lőszer a gyorssávon tüzel rá. Ha mellette kattintasz (hogy odarepülj), azzal nem jelölöd ki.
-- **Egy másik vállalat pilótái** semmit sem fizetnek, ha megsemmisítik őket (se kreditet, se becsületet, se rangpontot), és a Békeprotokoll alatt (a szezon első három napján) nem támadhatók.
+- **Egy másik vállalat pilótái** semmit sem fizetnek, ha megsemmisítik őket (se kreditet, se becsületet, se rangpontot), és a Békeprotokoll alatt (a szezon első három napján) nem támadhatók. A Betában és a Gammában nincs Békeprotokoll: ott a PvP az 1. naptól él.
 - Bármely vállalati pilóta megtámadására a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP-szabályai érvényesek: az Alpha `x-1`–`x-3` szektoraiban nincs PvP, a Beta `x-1` szektorában sem.
 - **Roncsok**: a megsemmisült vállalati pilóta nem hagy maga után [rakományládát](/wiki/03-Mechanics/Cargo.md) és alkatrészt sem, akárki vagy akármi semmisíti meg: a vállalati pilóták lelövésével nem lehet nyersanyagot farmolni.
 
@@ -44,7 +44,7 @@ Minden vállalati bázison (`M-1`, `T-1` és `G-1`, minden világban) **2 javít
 - **Gyógyító aura**: minden javítóhajó a vállalata minden, tőle **2 000** egységen belül lévő pilótájának hajótestét **másodpercenként 250 életerővel** javítja, harc közben is, a hajó maximális hajótesténél sosem többre. Ahol mindkettő eléri a hajódat (az állomás körül), az másodpercenként 500. A saját vállalatod vállalati pilótáit is javítják; egy másik vállalat pilótáit sosem.
 - **Látod**: egy halvány gyűrű a térképen mutatja, meddig ér el mindegyik: zöld a saját vállalatod javítóhajói körül, szürke egy másik vállalatéi körül. A célpontablak javítóhajónak nevezi.
 - **Soha nem lőnek.** Tartják a posztjukat, és az utolsó találat után 10 másodperccel kezdve javítják a saját hajótestüket.
-- **Megsemmisíthetők**: az agresszív idegenek rájuk mennek, más vállalatok pilótái pedig lelőhetik őket, ahol a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t a bázison (csak a Gamma `x-1` szektorában), a Békeprotokoll után. Mindegyiknek 200 000 életereje és 100 000 pajzspontja van. A saját vállalatod javítóhajójának megsemmisítése **100 becsületbe** kerül, mint bármelyik vállalati pilótájáé, és egyikük sem fizet semmit, és nem hagy ládát.
+- **Megsemmisíthetők**: az agresszív idegenek rájuk mennek, más vállalatok pilótái pedig lelőhetik őket, ahol a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t a bázison (csak a Gamma `x-1` szektorában), a Békeprotokoll után. Mindegyiknek 200 000 életereje és 100 000 pajzspontja van. A saját vállalatod javítóhajójának megsemmisítése **100 becsületbe** kerül, mint bármelyik vállalati pilótájáé, és egyikük sem fizet semmit, és nem hagy ládát. A Betában és a Gammában nincs Békeprotokoll: ott a PvP az 1. naptól él.
 - **2 perc múlva visszatér**: a megsemmisült javítóhajó 120 másodperccel később, épen tér vissza a posztjára.
 
 ## Harci megjegyzések {#combat-notes}

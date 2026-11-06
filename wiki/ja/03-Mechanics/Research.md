@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 921da8d25c430cd6 -->
+<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### レーザー弾薬 {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -371,7 +371,7 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 - **順番に。** 各レベルは前のレベルが必要で、上のレベルは下のレベルを置き換えます。表には各レベルが与える合計が載っており、加算分ではありません。
 - **効率的なスナック**（ケバブ、ペリメニ、バーガー）は、所持するすべての艦船に、両方の構成で船体を加えます。
 - **封印された裏口** は、購入・製造・取引のどこでも、すべてのロケットの所持上限を引き上げます。
-- **掘削機採掘** は、あなたが起動した[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)が、すべての箱に Thulium も鉱石も多く入れるようにします。効くのは運転を開始したパイロットの研究で、箱を拾った人はみな大きいほうの量を受け取ります。掘削機の制御パネルには、誰の運転か、どれだけの上乗せがあるかが表示されます。
+- **掘削機採掘** は、あなたが起動した[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)に、休止するまで保たれる割合を与えます。掘削機が置くすべての箱には、Thulium も鉱石も、その分だけ多く入ります。以後の運転を誰が開始しても、給油しても、箱を拾っても同じです。掘削機は与えられた中で最も高い割合を保ちます。より高いレベルのパイロットは引き上げ、低いレベルは決して下げません。掘削機の制御パネルには、割合、与えたパイロット、誰の運転かが表示されます。
 - **場の理論** は、被弾のうちシールドが受け止める割合を引き上げます。シールドのない艦船には効果がありません。
 - **眠れる知識** は、研究がセンターで完了するたびにレベルごとにワイプポイントを支払い、ワイプのたびにもう一度支払います（[ワイプポイントの獲得](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)）。前のレベルに加えて、ほかの技術を一定の割合で研究済みであることが必要です（パイロットファミリーの技術は数に入り、五つの眠れる知識は入りません）。入手方法は問いません。表には各割合と、それが何件にあたるかが載っています。
 

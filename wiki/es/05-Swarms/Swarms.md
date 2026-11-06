@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -29,20 +29,20 @@ Los **guardianes del clan** no son enjambres públicos. Un clan invoca a su prop
 | [**Enjambre Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Los sectores `x-3` y `x-4` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Phantasm** | Hasta 4 × Phantasm Guard, uno nuevo cada 10 s | 2 min después de que destruyan al líder, en el mismo sector |
 | [**Enjambre Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Los sectores `x-3` y `x-4` de cada corporación | Uno en cada uno de esos sectores, 6 en cada mundo | **Boss Goombah** | Hasta 4 × Goombah Guard, uno nuevo cada 10 s | 5 min después de que destruyan al líder, en el mismo sector |
 | [**Enjambre Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Los sectores de peligro `DS-1`, `DS-2`, `DS-3` | Uno en cada uno de esos sectores, 3 en cada mundo | **Boss Crystalys** | Hasta 3 × Crystalys Guard, uno nuevo cada 10 s | 30 min después de que destruyan al líder, en el mismo sector |
-| [**Enjambre Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | El sector de peligro `DS-4` | Uno en cada mundo | **Tesseract** | Hasta 50 × Facet, 10 más cada 5 s mientras el líder recibe impactos | 30 min después de que destruyan al líder, en el mismo sector |
+| [**Enjambre Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | El sector de peligro `DS-4` | Uno en cada mundo | **Tesseract** | Hasta 100 × Facet, 20 más cada 5 s mientras el líder recibe impactos | 30 min después de que destruyan al líder, en el mismo sector |
 
 <!-- swarms-list:end -->
 
 ## Cuándo y dónde {#when-and-where}
 
-Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta el reinicio (consulta la [Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); el día es la primera línea de las reglas de más abajo). **Cada mundo tiene sus propios enjambres** en los mismos lugares, así que el Pirate Boss de Alpha y el de Beta son dos naves distintas, y un enjambre que destruyes en tu mundo no queda destruido en otro. Un enjambre destruido vuelve pasado el tiempo de la tabla de arriba. El Enjambre Dormant cambia el día 11 de la temporada (evento 2): aparece en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), vuelve antes y paga el doble.
+Los enjambres empiezan a aparecer con el **Primer Contacto** y se quedan hasta el reinicio (consulta la [Cronología del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); el día es la primera línea de las reglas de más abajo). **Cada mundo tiene sus propios enjambres** en los mismos lugares, así que el Pirate Boss de Alpha y el de Beta son dos naves distintas, y un enjambre que destruyes en tu mundo no queda destruido en otro. Un enjambre destruido vuelve pasado el tiempo de la tabla de arriba. El Enjambre Dormant cambia el día 11 de la temporada (evento 2): aparece en el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), vuelve antes y paga el doble. En Beta y Gamma, los enjambres aparecen desde el primer día de la temporada.
 
 ## Las reglas de todos los enjambres {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Los enjambres aparecen desde el día 4 de la temporada hasta el reinicio.
+- Los enjambres aparecen desde el día 4 de la temporada hasta el reinicio; en Beta y Gamma aparecen desde el día 1 de la temporada.
 - Cuando una nave de enjambre recibe un impacto, las naves de su enjambre a menos de 1.500 unidades se suman al combate contra el primer piloto que la impactó.
 - Un líder aparece al menos a 2.500 unidades del borde de cada anillo de estación y de portal.
 - Un piloto que causó al menos 5 % del daño hecho a un jefe cobra por su derribo.
@@ -70,7 +70,7 @@ Los enjambres Seeker, Pirate, Phantasm, Goombah, Crystalys y Tesseract avisan a 
 
 ## Combatir a un enjambre {#fighting-a-swarm}
 
-- **Los líderes nunca empiezan un combate.** Un líder merodea hasta que un piloto lo impacta, entonces responde, y las naves de su enjambre cercanas a él se suman al combate contra el primer piloto que lo impactó (la distancia está en las reglas de arriba). Los Pirate Scouts son la excepción: atacan a cualquier piloto que se les acerque. Un líder nunca repara su casco por sí solo, así que el daño que le hiciste se queda en él a menos que sus seguidores lo curen; su escudo se recarga como el de cualquier alienígena. Solo el Tesseract es distinto: no tiene arma, repara por sí solo su casco y su escudo en cuanto nadie lo ha dañado durante unos segundos, y sus Facets cazan al piloto que más daño ha causado, no al primero que lo impactó.
+- **Los líderes nunca empiezan un combate.** Un líder merodea hasta que un piloto lo impacta, entonces responde, y las naves de su enjambre cercanas a él se suman al combate contra el primer piloto que lo impactó (la distancia está en las reglas de arriba). Los Pirate Scouts son la excepción: atacan a cualquier piloto que se les acerque. Un líder nunca repara su casco por sí solo, así que el daño que le hiciste se queda en él a menos que sus seguidores lo curen; su escudo se recarga como el de cualquier alienígena. Solo el Tesseract es distinto: no tiene arma, repara por sí solo su casco y su escudo en cuanto nadie lo ha dañado durante unos segundos, y sus Facets vuelan a su alrededor y disparan al piloto más cercano que lo ha impactado, en lugar de perseguir al primero que lo impactó.
 - **Las naves de enjambre solo combaten contra pilotos.** No disparan a los alienígenas y los alienígenas no les disparan a ellas, y los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) las ignoran: no cazan una nave de enjambre ni acuden en tu ayuda contra una.
 - **Cohetes.** El Pirate Boss, la Dormant Force y las Pulses disparan cohetes **rectos**, [cohetes Rivet](/wiki/06-Items/Rockets.md), contra el piloto que los atacó. Una nave que no deja de moverse los esquiva; una que se queda quieta recibe el impacto.
 - **El tamaño de los combates.** El enjambre Seeker es para dos pilotos, los enjambres Pirate y Phantasm para un grupo pequeño, el Goombah para un grupo de las naves más fuertes, el Crystalys y el Dormant para un grupo grande de ellas, el Tesseract para uno muy grande; los mundos más altos piden más pilotos, como con cualquier alienígena.
@@ -109,7 +109,7 @@ Cada derribo se cuenta con el nombre propio de la nave en tus estadísticas de d
 | **Phantasm Guard** | Enjambre Phantasm | 1 |
 | **Boss Goombah** | Enjambre Goombah | 14 |
 | **Goombah Guard** | Enjambre Goombah | 3 |
-| **Boss Crystalys** | Enjambre Crystalys | 21 |
+| **Boss Crystalys** | Enjambre Crystalys | 30 |
 | **Crystalys Guard** | Enjambre Crystalys | 6 |
 | **Tesseract** | Enjambre Tesseract | 42 |
 | **Facet** | Enjambre Tesseract | 0 |

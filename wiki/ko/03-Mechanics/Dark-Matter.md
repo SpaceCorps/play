@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter와 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## 1분 요약 {#in-one-minute}
 
 - **Dark Matter는 자원이며, 어디서나 그냥 Dark Matter라고 부릅니다.** 위험 섹터 4(`DS-4`) 중앙의 블랙홀이 만듭니다. 블랙홀에 닿은 N.I.K.E. 로켓 한 발마다 Dark Matter 1~3개(평균 2개)가 그 영역 가장자리의 작은 상자에 담겨 돌아옵니다.
-- **용도.** 연구 센터의 기술 107개가 요구하며, 하나당 5~60개, 모두 1,354개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다. 시즌 11일차부터는 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)도 연료로 태웁니다. 탱크 하나는 Dark Matter 몇 개이며, 굴착기가 파괴되면 사라집니다.
+- **용도.** 연구 센터의 기술 107개가 요구하며, 하나당 5~60개, 모두 1,354개입니다. 어셈블리는 이것을 눌러 Dark Matter Plate로 만듭니다. 시즌 11일차부터는 [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)도 연료로 태웁니다. 탱크 하나는 Dark Matter 몇 개이며, 굴착기가 파괴되면 사라집니다. Beta와 Gamma에서는 거대 굴착기가 시즌 첫날부터 서 있습니다.
 - **연구 센터에서는** 시작을 누르기 전에 화물칸의 Dark Matter를 추가합니다(함선이 착륙한 상태에서). 연구는 시작할 때 그것을 가져갑니다.
 - **Dark Matter Plate는 다른 아이템입니다.** 먼저 제작법을 연구하고(트리의 자원 그룹: 1일과 Dark Matter 10개), 그다음 어셈블리에서 Dark Matter 5개, Velkonite Reinforced Plate 1개, Orvium Reinforced Plate 1개, Thulium 250으로 제작합니다.
 - **플레이트의 용도.** 모든 강화 계열의 마지막 티어는 **4개**와 Ancient Control Unit 1개 이상을 요구합니다. 티어 IV의 증폭기, 셀, 추진기, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II입니다(13개). 대장간은 아이템을 신성한 등급에서 파열하는 등급으로 올릴 때 2개, 파열하는 등급에서 영원한 등급으로 올릴 때 2개를 더 요구합니다. Skylab의 엔진 모듈, 방어 모듈, 레이더 모듈도 건설과 업그레이드에 플레이트를 요구합니다([자원](/wiki/06-Items/Resources.md#dark-matter-plate)).

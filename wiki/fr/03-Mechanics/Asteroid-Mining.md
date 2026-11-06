@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Les tableaux ci-dessous donnent les chiffres d’un astéroïde d’Alpha. **Coq
 
 ## Où ils se trouvent {#where-they-are}
 
-Chaque secteur d’origine des trois corporations et des secteurs dangereux a des astéroïdes, dans un mélange qui lui est propre : surtout les types de son anneau, avec un ou deux invités de l’anneau du dessus ou du dessous. Les secteurs neutres, où aucun portail ne mène, n’en ont aucun. Les astéroïdes des secteurs dangereux apparaissent à partir du jour de saison du tableau, le jour où le PvP s’ouvre ([Premier contact](/wiki/03-Mechanics/Wipe-Timeline.md)), les autres dès le premier jour. Après une destruction, un nouvel astéroïde du même type repousse après le délai de la ligne du secteur. Aucun astéroïde ne se trouve près d’un pulsar, qui brille dès le premier jour de la saison ; dès le jour 11, aucun non plus près d’une excavatrice géante ni du milieu du Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md#where-everything-is)), et une roche qui s’y trouvait quand l’événement 2 a commencé a disparu.
+Chaque secteur d’origine des trois corporations et des secteurs dangereux a des astéroïdes, dans un mélange qui lui est propre : surtout les types de son anneau, avec un ou deux invités de l’anneau du dessus ou du dessous. Les secteurs neutres, où aucun portail ne mène, n’en ont aucun. Les astéroïdes des secteurs dangereux apparaissent à partir du jour de saison du tableau (dans Alpha, le jour où le PvP s’ouvre, [Premier contact](/wiki/03-Mechanics/Wipe-Timeline.md) ; dans Beta et Gamma, dès le premier jour), les autres dès le premier jour. Après une destruction, un nouvel astéroïde du même type repousse après le délai de la ligne du secteur. Aucun astéroïde ne se trouve près d’un pulsar, qui brille dès le premier jour de la saison ; dès le jour 11, aucun non plus près d’une excavatrice géante ni du milieu du Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md#where-everything-is)), et une roche qui s’y trouvait quand l’événement 2 a commencé a disparu. Dans Beta et Gamma, l’anneau autour d’une excavatrice géante reste lui aussi dégagé dès le premier jour.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Chaque secteur d’origine des trois corporations et des secteurs dangereux a de
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 dans Bêta et Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 dans Bêta et Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 dans Bêta et Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 dans Bêta et Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

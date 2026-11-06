@@ -9,7 +9,7 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 
 - **Where**: The sectors `x-2` and `x-3` of every company
 - **How many**: One in each of those sectors, 6 in each world
-- **Appears**: From season day 4 until the wipe
+- **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Pirate Boss
 - **Followers**: Up to 5 × Pirate Scout, a new one every 10 s
 - **Followers stay within**: 900 units of the leader

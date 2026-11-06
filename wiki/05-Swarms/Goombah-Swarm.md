@@ -9,7 +9,7 @@ The Goombah Swarm is a **Boss Goombah** with its **Goombah Guards**: a huge [Goo
 
 - **Where**: The sectors `x-3` and `x-4` of every company
 - **How many**: One in each of those sectors, 6 in each world
-- **Appears**: From season day 4 until the wipe
+- **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Boss Goombah
 - **Followers**: Up to 4 × Goombah Guard, a new one every 10 s
 - **Followers stay within**: 500 units of the leader

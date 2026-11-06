@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 921da8d25c430cd6 -->
+<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Laseramunition {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -371,7 +371,7 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 - **I serie.** Varje nivå kräver nivån före, och en högre nivå ersätter den lägre: tabellen visar totalen som varje nivå ger, inte vad den lägger till.
 - **Effektiva mellanmål** (Kebab, Pelmeni, Burgare) ger mer skrov åt varje skepp du äger, i båda konfigurationerna.
 - **Förseglad bakdörr** höjer bärgränsen för varje raket, var du än köper, tillverkar eller byter den.
-- **Grävmaskinsbrytning** gör att en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) som du startar lägger mer i varje låda, både Thulium och malm. Det är forskningen hos piloten som startar körningen som räknas, och den som plockar upp lådorna får den större mängden. Grävmaskinens kontrollpanel visar vems körning det är och vilken andel den bär.
+- **Grävmaskinsbrytning** ger en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) som du startar en andel som den behåller tills den vilar: varje låda den lägger innehåller så mycket mer, både Thulium och malm, oavsett vem som startar dess senare körningar, tankar den eller plockar upp lådorna. Grävmaskinen behåller den högsta andel den har fått: en pilot med högre nivå höjer den, en lägre nivå sänker den aldrig. Grävmaskinens kontrollpanel visar andelen, vem som gav den och vems körning det är.
 - **Fältteori** höjer den andel av varje träff som dina sköldar tar upp. Ett skepp utan sköld får ingenting.
 - **Slumrande kunskap** ger wipepoäng för varje nivå när forskningen blir klar i centrumet, och igen efter varje wipe ([Tjäna wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Förutom nivån före kräver den en andel av de andra teknologierna framforskade (Pilot-teknologierna räknas, de fem nivåerna av Slumrande kunskap gör det inte), hur du än fått dem; tabellen visar varje andel och hur många teknologier det är.
 

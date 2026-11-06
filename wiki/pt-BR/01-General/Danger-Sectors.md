@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: Setores de perigo -->
 # Setores de perigo {#danger-sectors}
 
@@ -12,11 +12,11 @@ Uma civilização da velha galáxia viveu aqui, avançada e de um preto arroxead
 
 ## O que há de novo a partir do dia 11 {#what-is-new-from-day-11}
 
-- **Escavadeiras gigantes.** `DS-1`, `DS-2` e `DS-3` têm cada um um pulsar desde o primeiro dia da temporada, uma luz no céu e nada mais; a partir do dia 11 cada um ganha uma **escavadeira gigante** ao lado. Coloque Dark Matter no tanque da escavadeira, escolha um recurso, e ela minera o pulsar: Thulium e minérios raros caem em volta dela em caixas que qualquer um pode pegar. É a coisa mais rica pela qual lutar nos setores de perigo, e a mais perigosa. Veja [Escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Escavadeiras gigantes.** `DS-1`, `DS-2` e `DS-3` têm cada um um pulsar desde o primeiro dia da temporada, uma luz no céu e nada mais; a partir do dia 11 cada um ganha uma **escavadeira gigante** ao lado. Coloque Dark Matter no tanque da escavadeira, escolha um recurso, e ela minera o pulsar: Thulium e minérios raros caem em volta dela em caixas que qualquer um pode pegar. É a coisa mais rica pela qual lutar nos setores de perigo, e a mais perigosa. Veja [Escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md). No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
 - **Slumbering Voids.** Enquanto uma escavadeira minera, **Slumbering Voids** chegam em ondas da borda do mapa e caçam os pilotos perto dela. Outros patrulham o pântano. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **O Dormant Swamp.** Num canto de `DS-4` fica a base da civilização perdida: canhões que atiram em toda nave que veem, Inert Masses que a guardam e, no meio, o Unwakened. É um lugar que os pilotos ainda não devem visitar. Veja [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Um Enxame Dormant mais rápido e mais rico.** O enxame agora aparece no pântano, volta mais cedo depois de destruído e paga o dobro. Veja [Enxame Dormant](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Antes do dia 11** só os pulsares brilham: de resto, os setores de perigo são como a [Viagem pelo mapa espacial](/wiki/01-General/Spacemap%20Travel.md) os descreve. Um mundo no dia 11 ou depois tem tudo de uma vez.
+- **Antes do dia 11** só os pulsares brilham: de resto, os setores de perigo são como a [Viagem pelo mapa espacial](/wiki/01-General/Spacemap%20Travel.md) os descreve. Um mundo no dia 11 ou depois tem tudo de uma vez. No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
 
 ## Davidski
 
@@ -42,7 +42,7 @@ Cada mundo tem a sua própria cópia de tudo, e um pulsar e sua escavadeira fica
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- Os pulsares brilham desde o primeiro dia da temporada; tudo o mais que é novo aparece no dia 11 da temporada e fica até o reset.
+- Os pulsares brilham desde o primeiro dia da temporada; no Beta e no Gamma as escavadeiras gigantes também ficam de pé desde o dia 1 da temporada. Tudo o mais que é novo aparece no dia 11 da temporada, e tudo fica até o reset.
 - Cada mundo tem seus próprios pulsares, escavadeiras e pântano: o que acontece em um não acontece em outro.
 - Nenhum asteroide fica a menos de 2.600 unidades de um pulsar, a menos de 2.200 unidades de uma escavadeira gigante nem a menos de 4.900 unidades do meio do Dormant Swamp.
 

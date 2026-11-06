@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -39,7 +39,7 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 - **Le prix reste payé.** Ce que l’amélioration a coûté a été prélevé quand vous l’avez lancée. Le Hammer n’en rembourse rien et ne demande rien de plus.
 - **Seulement une amélioration en cours.** Un module qui n’est pas en amélioration, ou dont l’amélioration vient de se terminer toute seule, est refusé (« Rien à terminer : ce module n’est pas en cours d’amélioration. ») et le Hammer reste chez vous.
-- **Extrêmement rare.** Le Skylab garde ses niveaux à travers la réinitialisation, donc un Hammer vaut le temps d’une étape, jusqu’à 6 jours sur le Noyau. Le jeu autorise au plus **un par pilote tous les 60 jours**, et vous pouvez en garder 5.
+- **Extrêmement rare.** Le Skylab garde ses niveaux à travers la réinitialisation, donc un Hammer vaut le temps d’une étape, jusqu’à 6 jours sur le Noyau. Il n’y a aucun délai d’attente entre deux Hammer, et vous pouvez en garder 5.
 - **L’Engineer** (un [Workforce Contract](#workforce-contract)) raccourcit les améliorations d’1 heure au plus ; le Hammer prend tout ce qui reste.
 
 ### Schematics
@@ -98,7 +98,7 @@ Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-
 - **Un compteur, pas un objet.** L’inventaire du Hangar est le seul endroit qui les liste, sous forme de cases parmi les consommables ; une sorte dont vous ne possédez aucun exemplaire n’a pas de case. Une case n’est pas un objet : on ne peut ni la glisser, ni la sélectionner, ni la supprimer, ni la vendre. Ils n’ont ni poids, ni emplacement de barre rapide, ni place dans la cargaison ou le cache de transport ; ils ne tombent jamais quand votre vaisseau est détruit.
 - **À travers la réinitialisation.** Vos objets spéciaux et une Philosopher’s Stone ou un contrat en cours sont conservés, comme le Skylab, la recherche et votre look.
 - **Jamais échangés.** Ni aux [Enchères](/wiki/03-Mechanics/Auction.md), ni à un autre pilote, ni contre des crédits.
-- **Seul le Hammer peut changer votre rythme**, et il est limité à un tous les 60 jours. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, une recherche de 24 heures au plus.
+- **Seul le Hammer peut changer votre rythme**, et vous ne pouvez en garder que 5. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, une recherche de 24 heures au plus.
 - **Un usage, une confirmation, un son.** Chaque utilisation joue son propre signal discret.
 
 ## Erreurs courantes {#common-mistakes}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Las tablas de abajo dan los números de un asteroide de Alpha. **Casco** es el f
 
 ## Dónde están {#where-they-are}
 
-Todos los sectores de origen de las tres corporaciones y de los sectores de peligro tienen asteroides, con una mezcla propia: sobre todo los tipos de su anillo, con uno o dos invitados del anillo siguiente o del anterior. Los sectores neutrales, a los que no lleva ningún portal, no tienen ninguno. Los asteroides de los sectores de peligro aparecen desde el día de temporada de la tabla, el día en que se abre el PvP ([Primer Contacto](/wiki/03-Mechanics/Wipe-Timeline.md)), y los demás desde el primer día. Tras una rotura, un asteroide nuevo del mismo tipo vuelve a crecer pasado el tiempo de la fila del sector. Ningún asteroide queda cerca de un púlsar, que brilla desde el primer día de la temporada; desde el día 11 ninguno queda tampoco cerca de una excavadora gigante ni del centro del Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md#where-everything-is)), y una roca que estaba allí cuando empezó el evento 2 desaparece.
+Todos los sectores de origen de las tres corporaciones y de los sectores de peligro tienen asteroides, con una mezcla propia: sobre todo los tipos de su anillo, con uno o dos invitados del anillo siguiente o del anterior. Los sectores neutrales, a los que no lleva ningún portal, no tienen ninguno. Los asteroides de los sectores de peligro aparecen desde el día de temporada de la tabla (en Alpha, el día en que se abre el PvP, [Primer Contacto](/wiki/03-Mechanics/Wipe-Timeline.md); en Beta y Gamma, desde el primer día), y los demás desde el primer día. Tras una rotura, un asteroide nuevo del mismo tipo vuelve a crecer pasado el tiempo de la fila del sector. Ningún asteroide queda cerca de un púlsar, que brilla desde el primer día de la temporada; desde el día 11 ninguno queda tampoco cerca de una excavadora gigante ni del centro del Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md#where-everything-is)), y una roca que estaba allí cuando empezó el evento 2 desaparece. En Beta y Gamma, el anillo alrededor de una excavadora gigante también se mantiene despejado desde el primer día.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Todos los sectores de origen de las tres corporaciones y de los sectores de peli
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 en Beta y Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 en Beta y Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 en Beta y Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 en Beta y Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

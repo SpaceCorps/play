@@ -11,7 +11,7 @@ Phantasm sürüsü, bir **Boss Phantasm** ve **Phantasm Guard** gemilerinden olu
 
 - **Yer**: Her şirketin `x-3` ve `x-4` sektörleri
 - **Kaç tane**: Bu sektörlerin her birinde bir tane, her dünyada 6 tane
-- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar
+- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Boss Phantasm
 - **Takipçiler**: En fazla 4 × Phantasm Guard, 10 sn aralıkla yenisi çıkar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
+<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
 <!-- wiki-i18n title: Temporadas y recompensas -->
 # Temporadas y recompensas {#seasons-and-rewards}
 
@@ -85,7 +85,7 @@ El Informe de temporada te dice cuál faltó, si faltó alguno.
 
 Tus **puntos de clasificación** cuentan lo que ganaste **desde el último reinicio**: los niveles que subiste, la experiencia y los derribos de alienígenas de esta temporada. En el reinicio vuelven a empezar de cero, tu antiguo rango pasa a tu historial y tu rango de la nueva temporada se construye desde nada, así que cada temporada es una nueva escalada. **El honor no determina tu rango.** Tus cifras totales (nivel, experiencia, honor, derribos) se quedan como están.
 
-El primer reinicio de las nuevas reglas es el primero que empieza la cuenta. Hasta entonces, los puntos que tienes son los de toda tu trayectoria, y ese reinicio te paga por el rango que te dan. Los puntos mínimos de los rangos se quedan como están.
+La temporada 2, que empezó con el reinicio del 6 de noviembre de 2026, fue la primera que cuenta así. El reinicio que cerró la temporada 1 te pagó por el rango que te dieron los puntos de toda tu trayectoria. Los puntos mínimos de los rangos se quedan como están.
 
 ## El Informe de temporada {#the-season-report}
 

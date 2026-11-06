@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
-A SpaceCorps univerzumát visszatérő szezonciklus irányítja. 30 naponta a galaxis kozmikus újraindításon esik át, ezt hívjuk **wipe-nak**. A wipe elviszi a laza dolgokat, és megtartja, amit felépítettél: a hajóid, a drónjaid, a technológiáid, a [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe) és a wipe-pontjaid megmaradnak, ahogy a krediteid és a Thuliumod is egy felső határig. A szezonod egy ranggal ér véget, a rang pedig jutalmat hoz. Ez az oldal az egész szabály egy helyen: mit tart meg a wipe, mit állít vissza, mit visz el és mit ad. A rang szerinti jutalmaknak külön oldaluk van, a [Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+A SpaceCorps univerzumát visszatérő szezonciklus irányítja. 30 naponta a galaxis kozmikus újraindításon esik át, ezt hívjuk **wipe-nak**. A wipe elviszi a laza dolgokat, és megtartja, amit felépítettél: a hajóid, a drónjaid, a technológiáid, a [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe) (a beszerelt hajtóművekkel és lézerekkel együtt) és a wipe-pontjaid megmaradnak, ahogy a krediteid és a Thuliumod is egy felső határig. A szezonod egy ranggal ér véget, a rang pedig jutalmat hoz. Ez az oldal az egész szabály egy helyen: mit tart meg a wipe, mit állít vissza, mit visz el és mit ad. A rang szerinti jutalmaknak külön oldaluk van, a [Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ A [Napi jutalmak](/wiki/03-Mechanics/Daily-Rewards.md) naptárának 29 mezője v
 
 | Szakasz | Napok | Protokoll / esemény | Leírás |
 | :--- | :--- | :--- | :--- |
-| **Békeprotokoll** | 1–3. nap | PvP nélküli szakasz | Új kezdet, amely teljes egészében a PvE-fejlődésre, a nyersanyag-farmolásra és a hajóépítésre összpontosít, a játékosok közti konfliktus fenyegetése nélkül. |
-| **Első kapcsolat** | 4–10. nap | 1. esemény | A PvP megnyílik (a világod szabálya szerint, lásd lent: Világok), és a három [raj](/wiki/05-Swarms/Swarms.md) megjelenni kezd: a wipe-ig maradnak, az ezt követő szakaszokon át. A szakasz maga egyelőre nem ad különleges jutalmat. |
-| **Techroham** | 11–18. nap | 2. esemény | A [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megváltoznak: egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden pulzár mellett a `DS-1`-től a `DS-3`-ig, a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) a `DS-4`-en, Slumbering Voidok, és egy Dormant-raj, amely hamarabb tér vissza, és kétszer annyit fizet. Mindez a wipe-ig marad. A szakasz nem ad saját jutalmat. |
+| **Békeprotokoll** | 1–3. nap | PvP nélküli szakasz | Új kezdet, amely teljes egészében a PvE-fejlődésre, a nyersanyag-farmolásra és a hajóépítésre összpontosít, a játékosok közti konfliktus fenyegetése nélkül. Csak az Alphában: a Betában és a Gammában nincs Békeprotokoll, ott a PvP az 1. naptól él. |
+| **Első kapcsolat** | 4–10. nap | 1. esemény | A PvP megnyílik (a világod szabálya szerint, lásd lent: Világok), és a három [raj](/wiki/05-Swarms/Swarms.md) megjelenni kezd: a wipe-ig maradnak, az ezt követő szakaszokon át. A szakasz maga egyelőre nem ad különleges jutalmat. A Betában és a Gammában a rajok és a veszélyes szektorok aszteroidái a szezon első napjától ott vannak. |
+| **Techroham** | 11–18. nap | 2. esemény | A [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megváltoznak: egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) minden pulzár mellett a `DS-1`-től a `DS-3`-ig, a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) a `DS-4`-en, Slumbering Voidok, és egy Dormant-raj, amely hamarabb tér vissza, és kétszer annyit fizet. Mindez a wipe-ig marad. A szakasz nem ad saját jutalmat. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak. |
 | **Hadijátékok** | 19–25. nap | 3. esemény | Különleges hatások egyelőre nincsenek: a PvP úgy működik, mint a Békeprotokoll utáni minden szakaszban. |
 | **Visszaszámlálás** | 26–30. nap | 4. esemény | A záró visszaszámlálás szakasza. Minden pilóta versenyt fut az idővel, hogy a kitörés előtt összeállítsa a magával vitt rakományát. |
 | **A reset** | 30. nap | Feketelyuk-kitörés | Az univerzum elpusztul, és újjászületik, minden [klán](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) feloszlik, és a szezonod lezárul: a rangodat feljegyzik, és kifizeti a jutalmait ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A pilóták átköltöznek abba a világba, amelyet a következő szezon úti céljául választottak. Az előtte lévő utolsó 72 órában a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) az 1,8-szeresére nő, és a Dashboard visszaszámol a wipe-ig. |
 
-A wipe-on kívül csak öt dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak, a 11. naptól a [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megkapják az óriás kotrógépeiket (a pulzárok mellé, amelyek az 1. naptól ragyognak) és a Dormant Swamp-ot, amelyek a wipe-ig maradnak, az [Aukció](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) pedig a 28. naptól nem szed díjat, a 30. naptól pedig zárva van. És a wipe előtti utolsó 72 órában a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) az 1,8-szeresére nő. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton. A 2. esemény a fent leírt módon megváltoztatja a veszélyes szektorokat; a többi egyike sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt.
+A wipe-on kívül csak öt dolog követi a naptárat: a Békeprotokoll (1–3. nap) egy szabályt változtat, a 4. naptól megjelennek a [rajok](/wiki/05-Swarms/Swarms.md), és a wipe-ig maradnak, a 11. naptól a [veszélyes szektorok](/wiki/01-General/Danger-Sectors.md) megkapják az óriás kotrógépeiket (a pulzárok mellé, amelyek az 1. naptól ragyognak) és a Dormant Swamp-ot, amelyek a wipe-ig maradnak, az [Aukció](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) pedig a 28. naptól nem szed díjat, a 30. naptól pedig zárva van. És a wipe előtti utolsó 72 órában a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) az 1,8-szeresére nő. A négy esemény a szezon elnevezett szakasza: megjelennek a játék Szezon és profil oldalán és az Irányítópulton. A 2. esemény a fent leírt módon megváltoztatja a veszélyes szektorokat; a többi egyike sem ad egyelőre saját különleges jutalmat, megjelenő idegeneket vagy bónuszt. Ezek az Alpha napjai: a Betában és a Gammában nincs Békeprotokoll, a rajok, a veszélyes szektorok aszteroidái és az óriás kotrógépek pedig az 1. naptól ott vannak.
 
 ---
 
@@ -51,7 +51,7 @@ Minden, ami alább áll, a wipe után is a tiéd.
 * **A drónjaid** a szintjükkel és a tapasztalatukkal, és a [drónformációid](/wiki/03-Mechanics/Formations.md), bárhol vannak: a leltáradban, a gyorssávodon vagy egy hajón.
 * **A [P.E.T.-jeid](/wiki/03-Mechanics/Pets.md)** (dokkolva vagy tárolva), a Bölcső futó munkái, a Kódex és a P.E.T. Stationjeid.
 * **Az összes technológiád.** A Kutatóközpont mindent megtart, amit a [Kutatás](/wiki/03-Mechanics/Research.md) tartalmaz: a tartályában lévő tudományt, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot. Ugyanígy az általad telepített Extra Slots CPU-k is megmaradnak, mert nem tárgyak.
-* **A teljes [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe)**: a modulok, a szintjeik és az Erőforrás-raktárban tárolt érc. A tárolt érc nem tárgy, és nem számít bele a tárolóba.
+* **A teljes [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe)**: a modulok, a szintjeik, az Erőforrás-raktárban tárolt érc és **a Hajtómű- és a Védelmi modulba beszerelt hajtóművek és lézerek**, amelyek ugyanott maradnak beszerelve, a bennük lévő tolóegységekkel és erősítőkkel együtt. A tárolt érc nem tárgy, és nem számít bele a tárolóba; a beszerelt darabok sem foglalnak ott helyet.
 * **A wipe-pontjaid és az állandó buffjaid** ([a bolt](#the-permanent-buff-store)).
 * **Tapasztalat, szint és becsület.**
 * **Kredit 5 000 000 000-ig és Thulium 10 000 000-ig.** Ami ennél több, elvész: lásd [a felső határokat](#the-caps).
@@ -129,7 +129,7 @@ Minden tárgynak rögzített súlya van. Egy halom ennek a súlynak és a mennyi
 
 A Tranzittároló fül **Tartalom befagyasztása** gombja biztonsági retesz a rekeszeknek és a rakománynak: amíg be vannak fagyasztva, semmit sem lehet beletenni vagy kivenni, amíg fel nem oldod őket. Ez nem feltétel: ami a tárolóban van, befagyasztva vagy sem, átmegy a wipe-on. Semmi köze a tárolóhajó zárolásához, amely végleges.
 
-**FIGYELMEZTETÉS**: minden tárgy, amelyet a fenti szabályok nem tartanak meg (azon a hajón van felszerelve, amely megtartja a felszerelését, a tranzittárolóban van, drón, drónformáció, P.E.T. Station vagy a határokon belüli lőszer és harci rakéta), **véglegesen megsemmisül** a feketelyuk-kitörés során.
+**FIGYELMEZTETÉS**: minden tárgy, amelyet a fenti szabályok nem tartanak meg (azon a hajón van felszerelve, amely megtartja a felszerelését, a Skylabodba van beszerelve, a tranzittárolóban van, drón, drónformáció, P.E.T. Station vagy a határokon belüli lőszer és harci rakéta), **véglegesen megsemmisül** a feketelyuk-kitörés során.
 
 ---
 
@@ -138,7 +138,7 @@ A Tranzittároló fül **Tartalom befagyasztása** gombja biztonsági retesz a r
 * **A szezonbeli rangod.** Bekerül a szezonjaid előzményei közé (Szezon és profil › Fejlődés) a vállalatod ranglistáján elfoglalt helyezéseddel, a rangpontjaid pedig újra nulláról indulnak ([friss pontok](#fresh-points)).
 * **A wipe-pontok forrásai**: az idegenek kilövései, valamint a küldetések és a Dormant Knowledge átvételei, hogy újra megszerezhesd őket ([Wipe-pontok szerzése](#earning-wipe-points)). A wipe-pontjaid és a buffjaid megmaradnak.
 * **Az idegenek kilövései.** Annak a wipe-nak számítanak, amelyben vagy, az összesített számaid pedig megmaradnak.
-* **Minden tárgy, amelyet nem tartanak meg**: nyersanyag, boosterek, tartalék felszerelés, lemezek, Cluster Chunkok és a többi, valamint a Skylabod Hajtómű- és Védelmi moduljába szerelt hajtóművek és lézerek: vedd ki őket, és tedd a tárolóba, ha meg akarod tartani. Amit a wipe előbb visszaad neked (lásd alább), az ugyanolyan tárgy, mint a többi.
+* **Minden tárgy, amelyet nem tartanak meg**: nyersanyag, boosterek, tartalék felszerelés, lemezek, Cluster Chunkok és a többi. A Skylabod valamelyik moduljából kivett hajtómű vagy lézer ugyanolyan tartalék, mint a többi; amelyek még be vannak szerelve, megmaradnak. Amit a wipe előbb visszaad neked (lásd alább), az ugyanolyan tárgy, mint a többi.
 * **A klánok.** Minden klán feloszlik a Flottakincstárával, a bejegyzéseivel, a szerződéseivel, a pontjaival és a bónuszszintjeivel együtt ([Klánok](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **A Chrono-Gate-darabok**: a kapu újra kezdődik, és a Materializálód is.
 * **A Skylab-expedíciód** véget ér: a folyamatban lévő út befejeződik, a Trófeaterem pedig kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ A wipe-nál **az 5 000 000 000 (5 milliárd) feletti kredit** és **a 10 000
 
 A **rangpontjaid** azt számolják, amit **az utolsó wipe óta** szereztél: a nyert szinteket, a tapasztalatot és a szezon idegenkilövéseit. A wipe-nál újra nulláról indulnak, a régi rangod pedig bekerül a szezonjaid előzményei közé. **A becsület nem határozza meg a rangodat**, az összesített számaid (szint, tapasztalat, becsület, kilövések) pedig úgy maradnak, ahogy vannak. Lásd: [Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-Az új szabályok első wipe-ja az első, amely elindítja a számolást: addig a pontjaid a teljes pályafutásodét mutatják.
+A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol: az a wipe, amely az 1. szezont lezárta, a teljes pályafutásod pontjai alapján fizette ki az 1. szezon rangjait.
 
 ---
 
@@ -186,15 +186,15 @@ A SpaceCorpsban három **világ** működik. Mindegyik az egész galaxis külön
 
 | Világ | Szükséges szint | Kockázat | Idegenek ereje | Jutalomszorzó | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Laza / kezdő | 1,0× | 1,0× kredit, Thulium, XP, becsület | **Magas biztonság**: csak a határtérképeken (`x-4`) és a központi PvP-zónában (`DS-x`). A vállalati szektorokban (`x-1`–`x-3`) nincs PvP. |
-| **Beta** | 7 | Normál / középhaladó | 1,5× | 2,0× kredit, Thulium, XP, becsület | **Közepes biztonság**: mindenhol, kivéve a bázisszektorokat (`x-1`). |
-| **Gamma** | 10 | Hardcore / elit | 2,0× | 3,0× kredit, Thulium, XP, becsület | **Alacsony biztonság**: mindenhol. Maximális kockázat, maximális jutalom. |
+| **Alpha** | 1 | Laza / kezdő | 1,0× | 1,0× kredit, Thulium, XP, becsület | **Magas biztonság**: csak a határtérképeken (`x-4`) és a központi PvP-zónában (`DS-x`). A vállalati szektorokban (`x-1`–`x-3`) nincs PvP. A 4. naptól. |
+| **Beta** | 7 | Normál / középhaladó | 1,5× | 2,0× kredit, Thulium, XP, becsület | **Közepes biztonság**: mindenhol, kivéve a bázisszektorokat (`x-1`). Az 1. naptól. |
+| **Gamma** | 10 | Hardcore / elit | 2,0× | 3,0× kredit, Thulium, XP, becsület | **Alacsony biztonság**: mindenhol. Maximális kockázat, maximális jutalom. Az 1. naptól. |
 
 Hogyan működnek a világok:
 
 * **Idegenek**: egy világ idegenerőssége megszorozza az idegenek életerejét, pajzsát, pajzstöltődését és sebzését. A sebességük és a hatótávjuk mindenhol ugyanaz.
-* **Jutalom**: egy kilövés annak a világnak megfelelően fizet, amelyben történik. Egy küldetés annak a világnak megfelelően fizet, amelyben teljesítetted (a legalacsonyabbnak megfelelően, ha kettőt is érint), akármelyik világban veszed is át (az állomásküldetésnek nincs saját világa, és annak a világnak megfelelően fizet, amelyben repülsz, amikor átveszed), és az időkorlátos küldetések időkorlátja a Betában 1,5-szer, a Gammában kétszer olyan hosszú ([Küldetések](/wiki/03-Mechanics/Quests.md)). A zsákmány és a vállalati pilóták minden világban ugyanazok, így egy magasabb világ óránként többet hoz, de a harcai több javításba kerülnek.
-* **PvP**: a térképen mindenki annak a világnak a tagja, így egyetlen szabály érvényes az egész térképre, a vállalati pilótákat is beleértve. A biztonságos zónák és a Békeprotokoll (1–3. nap) minden világot védenek.
+* **Jutalom**: egy kilövés annak a világnak megfelelően fizet, amelyben történik. Egy küldetés annak a világnak megfelelően fizet, amelyben repülsz, amikor átveszed (az a küldetés, amelyet magasabb világban teljesítettél, megtartja a magasabb szorzót), így a wipe előtti küldetés az új világodnak megfelelően fizet, és az időkorlátos küldetések időkorlátja a Betában 1,5-szer, a Gammában kétszer olyan hosszú ([Küldetések](/wiki/03-Mechanics/Quests.md)). A zsákmány és a vállalati pilóták minden világban ugyanazok, így egy magasabb világ óránként többet hoz, de a harcai több javításba kerülnek.
+* **PvP**: a térképen mindenki annak a világnak a tagja, így egyetlen szabály érvényes az egész térképre, a vállalati pilótákat is beleértve. A biztonságos zónák minden világot védenek; a Békeprotokoll (1–3. nap) csak az Alphában van, a Betában és a Gammában az 1. naptól van PvP.
 * **Repülés közben**: a világ neve a szektor azonosítója előtt áll a jobb felső sarokban („Beta · M-2”). A Hajó ablak címsorában lévő jelvény megmondja, hol állsz: **Védett** egy biztonságos zónában, **Nincs PvP** a Békeprotokoll alatt vagy ott, ahol a világod tiltja a PvP-t, **PvP** ott, ahol más pilóták megtámadhatnak. Ha fölé viszed az egeret, megmutatja a szabályt. A [galaxistérkép](/wiki/01-General/Spacemap%20Travel.md) a világod szabálya szerint színezi a szektorokat.
 
 ### Csatlakozás és költözés {#joining-and-moving}

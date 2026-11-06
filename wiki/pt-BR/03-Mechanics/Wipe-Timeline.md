@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
-O universo de SpaceCorps é governado por um ciclo sazonal recorrente. A cada 30 dias, a galáxia passa por uma reinicialização cósmica conhecida como **Reset**. Um reset leva embora o que está solto e mantém o que você construiu: as suas naves, drones, tecnologias, o seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) e os seus pontos de reset ficam, e os seus créditos e o seu Thulium também, até um teto. A sua temporada termina com uma patente, e a patente paga recompensas. Esta página é a regra inteira num só lugar: o que o reset mantém, o que ele zera, o que ele tira e o que ele dá. As recompensas por patente têm uma página própria, [Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+O universo de SpaceCorps é governado por um ciclo sazonal recorrente. A cada 30 dias, a galáxia passa por uma reinicialização cósmica conhecida como **Reset**. Um reset leva embora o que está solto e mantém o que você construiu: as suas naves, drones, tecnologias, o seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (com os motores e lasers montados nele) e os seus pontos de reset ficam, e os seus créditos e o seu Thulium também, até um teto. A sua temporada termina com uma patente, e a patente paga recompensas. Esta página é a regra inteira num só lugar: o que o reset mantém, o que ele zera, o que ele tira e o que ele dá. As recompensas por patente têm uma página própria, [Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ O calendário de [Recompensas diárias](/wiki/03-Mechanics/Daily-Rewards.md) tem
 
 | Fase | Dias | Protocolo / Evento | Descrição |
 | :--- | :--- | :--- | :--- |
-| **Protocolo de Paz** | Dias 1–3 | PvP desativado | Um recomeço focado inteiramente na progressão PvE, na coleta de recursos e na construção de naves, sem a ameaça de conflito entre jogadores. |
-| **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo) e os três [enxames](/wiki/05-Swarms/Swarms.md) começam a aparecer: eles ficam até o reset, ao longo das fases seguintes. A fase em si ainda não dá recompensas especiais. |
-| **Onda Tecnológica** | Dias 11–18 | Evento 2 | Os [setores de perigo](/wiki/01-General/Danger-Sectors.md) mudam: uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) ao lado de cada pulsar em `DS-1` a `DS-3`, o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) em `DS-4`, Slumbering Voids, e um Enxame Dormant que volta mais cedo e paga o dobro. Tudo fica até o reset. A fase não dá recompensas próprias. |
+| **Protocolo de Paz** | Dias 1–3 | PvP desativado | Um recomeço focado inteiramente na progressão PvE, na coleta de recursos e na construção de naves, sem a ameaça de conflito entre jogadores. Só no Alpha: o Beta e o Gamma não têm Protocolo de Paz, e lá o PvP vale desde o dia 1. |
+| **Primeiro Contato** | Dias 4–10 | Evento 1 | O PvP é liberado (pela regra do seu mundo, veja Mundos abaixo) e os três [enxames](/wiki/05-Swarms/Swarms.md) começam a aparecer: eles ficam até o reset, ao longo das fases seguintes. A fase em si ainda não dá recompensas especiais. No Beta e no Gamma, os enxames e os asteroides dos setores de perigo estão lá desde o primeiro dia da temporada. |
+| **Onda Tecnológica** | Dias 11–18 | Evento 2 | Os [setores de perigo](/wiki/01-General/Danger-Sectors.md) mudam: uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) ao lado de cada pulsar em `DS-1` a `DS-3`, o [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) em `DS-4`, Slumbering Voids, e um Enxame Dormant que volta mais cedo e paga o dobro. Tudo fica até o reset. A fase não dá recompensas próprias. No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada. |
 | **Jogos de Guerra** | Dias 19–25 | Evento 3 | Ainda sem efeitos especiais: o PvP funciona como em todas as fases depois do Protocolo de Paz. |
 | **Contagem Final** | Dias 26–30 | Evento 4 | A fase da contagem final. Todos os pilotos correm para completar a carga que vão levar consigo antes da erupção. |
 | **O Reset** | Dia 30 | Erupção do Buraco Negro | O universo é destruído e renasce, todos os [clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) são dissolvidos e a sua temporada se encerra: a sua patente é registrada e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Os pilotos passam para o mundo que escolheram como destino para a próxima temporada. Nas últimas 72 horas antes dele, o [buraco negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce até 1,8 vez o seu tamanho e o Dashboard conta regressivamente até o reset. |
 
-Além do próprio reset, só cinco coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, a partir do dia 11 os [setores de perigo](/wiki/01-General/Danger-Sectors.md) ganham suas escavadeiras gigantes (ao lado dos pulsares, que brilham desde o dia 1) e o Dormant Swamp, que ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. E nas últimas 72 horas antes do reset o [buraco negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce até 1,8 vez o seu tamanho. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo. O evento 2 muda os setores de perigo como descrito acima; nenhum dos outros dá ainda recompensas, aparições ou bônus especiais próprios.
+Além do próprio reset, só cinco coisas seguem o calendário: o Protocolo de Paz (dias 1–3) muda uma regra, a partir do dia 4 os [enxames](/wiki/05-Swarms/Swarms.md) aparecem e ficam até o reset, a partir do dia 11 os [setores de perigo](/wiki/01-General/Danger-Sectors.md) ganham suas escavadeiras gigantes (ao lado dos pulsares, que brilham desde o dia 1) e o Dormant Swamp, que ficam até o reset, e o [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) não cobra taxas a partir do dia 28 e fica fechado a partir do dia 30. E nas últimas 72 horas antes do reset o [buraco negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce até 1,8 vez o seu tamanho. Os quatro eventos são fases nomeadas da temporada: aparecem na página Temporada e perfil e no Painel do jogo. O evento 2 muda os setores de perigo como descrito acima; nenhum dos outros dá ainda recompensas, aparições ou bônus especiais próprios. Esses são os dias do Alpha: o Beta e o Gamma não têm Protocolo de Paz, e os enxames, os asteroides dos setores de perigo e as escavadeiras gigantes deles estão lá desde o dia 1.
 
 ---
 
@@ -51,7 +51,7 @@ Tudo o que vem a seguir continua seu depois do reset.
 * **Os seus drones**, com os níveis e a experiência deles, e as suas [formações de drones](/wiki/03-Mechanics/Formations.md), onde quer que estejam: no inventário, na barra de atalhos ou numa nave.
 * **Os seus [P.E.T.s](/wiki/03-Mechanics/Pets.md)** (acoplados ou guardados), os trabalhos em andamento no Berço, o Códice e as suas P.E.T. Station.
 * **Todas as suas tecnologias.** O Centro de Pesquisa mantém tudo o que [Pesquisa](/wiki/03-Mechanics/Research.md) guarda: a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost. O mesmo vale para as Extra Slots CPUs que você instalou, que não são itens.
-* **Todo o seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, níveis e o minério guardado no Depósito de recursos. O minério guardado não é um item e não conta no Cache.
+* **Todo o seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, níveis, o minério guardado no Depósito de recursos e **os motores e lasers montados nos módulos de motores e de defesa**, que continuam montados onde estão, com os propulsores e amplificadores que levam dentro. O minério guardado não é um item e não conta no Cache; as peças montadas também não ocupam espaço nele.
 * **Os seus pontos de reset e os seus bônus permanentes** ([a loja](#the-permanent-buff-store)).
 * **Experiência, nível e honra.**
 * **Créditos até 5.000.000.000 e Thulium até 10.000.000.** O que passar disso se perde: veja [os tetos](#the-caps).
@@ -129,7 +129,7 @@ Cada item tem um peso fixo. Uma pilha pesa esse peso vezes a quantidade, e um it
 
 O botão **Congelar conteúdo** na aba Cache de Transporte é uma trava de segurança para as baías e a carga: enquanto estão congeladas, nada pode ser adicionado nem retirado até você descongelá-las. Não é uma condição: o que está no Cache atravessa o reset congelado ou não. Não tem nada a ver com a trava da nave do cache, que é definitiva.
 
-**AVISO**: qualquer item que não seja mantido pelas regras acima (montado na nave que mantém o equipamento, no Cache de Transporte, um drone, uma formação de drones, uma P.E.T. Station ou munição e foguetes de combate dentro dos limites) será **destruído para sempre** durante a Erupção do Buraco Negro.
+**AVISO**: qualquer item que não seja mantido pelas regras acima (montado na nave que mantém o equipamento, montado no seu Skylab, no Cache de Transporte, um drone, uma formação de drones, uma P.E.T. Station ou munição e foguetes de combate dentro dos limites) será **destruído para sempre** durante a Erupção do Buraco Negro.
 
 ---
 
@@ -138,7 +138,7 @@ O botão **Congelar conteúdo** na aba Cache de Transporte é uma trava de segur
 * **A sua patente da temporada.** Ela é registrada no histórico das suas temporadas (página Temporada e perfil › Progresso) com a sua posição no ranking da sua corporação, e os seus pontos de ranking recomeçam do zero ([pontos novos](#fresh-points)).
 * **As fontes de pontos de reset**: os abates de alienígenas e os resgates de missões e de Dormant Knowledge, para você poder ganhá-los de novo ([Como ganhar pontos de reset](#earning-wipe-points)). Os seus pontos de reset e os seus bônus ficam.
 * **Os abates de alienígenas.** Contam para o reset em que você está, e os seus números totais ficam.
-* **Todo item que não é mantido**: recursos, boosters, equipamento reserva, placas, Cluster Chunks e o resto, mais os motores e lasers montados nos módulos de motores e de defesa do seu Skylab: retire-os e guarde-os no Cache para mantê-los. O que o reset devolve primeiro (veja abaixo) é um item como qualquer outro.
+* **Todo item que não é mantido**: recursos, boosters, equipamento reserva, placas, Cluster Chunks e o resto. Um motor ou laser que você retirou de um módulo do seu Skylab é um reserva como qualquer outro; os que continuam montados são mantidos. O que o reset devolve primeiro (veja abaixo) é um item como qualquer outro.
 * **Os clãs.** Todo clã é dissolvido, com o Tesouro da frota, os avisos, os tratados, os pontos e os níveis de bônus dele ([Clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **As peças do Chrono-Gate**: o portão recomeça, e o seu Materializador também.
 * **A sua expedição do Skylab** termina: uma viagem em andamento acaba, e a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ No reset, os **créditos acima de 5.000.000.000 (5 bilhões)** e o **Thulium aci
 
 Os seus **pontos de ranking** contam o que você ganhou **desde o último reset**: os níveis que subiu, a experiência e os abates de alienígenas desta temporada. No reset eles recomeçam do zero e a sua patente antiga vai para o histórico das suas temporadas. **A honra não define a sua patente**, e os seus números totais (nível, experiência, honra, abates) ficam como estão. Veja [Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-O primeiro reset das novas regras é o primeiro a começar a contagem: até lá, os pontos que você tem são os da sua carreira inteira.
+A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim: o reset que encerrou a temporada 1 pagou as patentes dessa temporada pelos pontos da sua carreira inteira.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps tem três **mundos**. Cada um é uma cópia separada de toda a galáx
 
 | Mundo | Nível necessário | Risco | Força dos alienígenas | Ganho por abates e missões | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Casual / Iniciante | 1,0x | 1,0x créditos, Thulium, XP, honra | **Alta segurança**: só nos mapas de fronteira (`x-4`) e na zona central de PvP (`DS-x`). Sem PvP nos setores da corporação, de `x-1` a `x-3`. |
-| **Beta** | 7 | Normal / Intermediário | 1,5x | 2,0x créditos, Thulium, XP, honra | **Segurança média**: em todo lugar, menos nos setores base (`x-1`). |
-| **Gamma** | 10 | Hardcore / Elite | 2,0x | 3,0x créditos, Thulium, XP, honra | **Baixa segurança**: em todo lugar. Risco máximo, ganho máximo. |
+| **Alpha** | 1 | Casual / Iniciante | 1,0x | 1,0x créditos, Thulium, XP, honra | **Alta segurança**: só nos mapas de fronteira (`x-4`) e na zona central de PvP (`DS-x`). Sem PvP nos setores da corporação, de `x-1` a `x-3`. A partir do dia 4. |
+| **Beta** | 7 | Normal / Intermediário | 1,5x | 2,0x créditos, Thulium, XP, honra | **Segurança média**: em todo lugar, menos nos setores base (`x-1`). A partir do dia 1. |
+| **Gamma** | 10 | Hardcore / Elite | 2,0x | 3,0x créditos, Thulium, XP, honra | **Baixa segurança**: em todo lugar. Risco máximo, ganho máximo. A partir do dia 1. |
 
 Como os mundos funcionam:
 
 * **Alienígenas**: a força dos alienígenas de um mundo multiplica os pontos de vida, os escudos, a recarga de escudo e o dano deles. A velocidade e o alcance são os mesmos em todo lugar.
-* **Ganho**: um abate paga conforme o mundo em que acontece. Uma missão paga conforme o mundo em que você a fez (o mais baixo, caso ela abranja dois), seja qual for o mundo em que você a resgata (uma missão da estação não tem mundo próprio e paga o mundo em que você voa quando a resgata), e o limite de tempo de uma missão cronometrada é 1,5 vez maior no Beta e o dobro no Gamma ([Missões](/wiki/03-Mechanics/Quests.md)). Os itens de saque e os pilotos de corporação são iguais em todos os mundos, então um mundo mais alto rende mais por hora, mas as lutas nele custam mais reparos.
-* **PvP**: todos em um mapa pertencem ao mundo dele, então uma única regra vale para o mapa inteiro, pilotos de corporação incluídos. As zonas seguras e o Protocolo de Paz (dias 1–3) protegem todos os mundos.
+* **Ganho**: um abate paga conforme o mundo em que acontece. Uma missão paga conforme o mundo em que você voa quando a resgata (uma feita num mundo mais alto mantém o multiplicador mais alto), então uma missão de antes de um wipe é paga pelo seu novo mundo, e o limite de tempo de uma missão cronometrada é 1,5 vez maior no Beta e o dobro no Gamma ([Missões](/wiki/03-Mechanics/Quests.md)). Os itens de saque e os pilotos de corporação são iguais em todos os mundos, então um mundo mais alto rende mais por hora, mas as lutas nele custam mais reparos.
+* **PvP**: todos em um mapa pertencem ao mundo dele, então uma única regra vale para o mapa inteiro, pilotos de corporação incluídos. As zonas seguras protegem todos os mundos; o Protocolo de Paz (dias 1–3) é só do Alpha, e o Beta e o Gamma têm PvP desde o dia 1.
 * **Em voo**: o nome do mundo fica antes do id do setor, no canto superior direito (“Beta · M-2”). O selo na barra de título da janela Nave mostra onde você está: **Seguro** em uma zona segura, **Sem PvP** durante o Protocolo de Paz ou onde o seu mundo proíbe PvP, **PvP** onde outros pilotos podem atacar você. Passe o mouse sobre ele para ver a regra. O [mapa da galáxia](/wiki/01-General/Spacemap%20Travel.md) colore os setores conforme a regra do seu mundo.
 
 ### Entrada e mudança {#joining-and-moving}

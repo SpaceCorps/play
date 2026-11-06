@@ -11,7 +11,7 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 
 - **Où** : Les secteurs `x-2` et `x-3` de chaque corporation
 - **Combien** : Un dans chacun de ces secteurs, 6 dans chaque monde
-- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation
+- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Pirate Boss
 - **Suivants** : Jusqu’à 5 × Pirate Scout, un nouveau toutes les 10 s
 - **Les suivants restent** : à 900 unités au plus du meneur

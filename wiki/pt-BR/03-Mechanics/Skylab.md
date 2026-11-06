@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ O Skylab tem um **casco**, uma reserva de pontos de vida, que **se regenera 5% d
 
 ### Montagem e munição {#fits-and-ammunition}
 
-**Montagem.** Os motores vão para o Módulo de motores e os lasers para o Módulo de defesa, um por slot, tirados dos itens soltos do seu inventário: não de uma nave, não do Cache de Transporte. Montar e retirar exigem a sua **nave pousada** e o Skylab **fora de viagem**; um Skylab estacionado pode ser reequipado, e as novas taxas valem a partir daquele momento. Um item montado mantém os bônus da Forja e o que está dentro dele (propulsores, amplificadores) e fica **reservado**: não pode ser posto em uma nave, apagado, anunciado no Leilão, guardado no Cache de Transporte nem usado pela Forja e pela Montagem até você retirá-lo, e o Hangar, a ficha de venda do Leilão e a Montagem o mostram esmaecido.
+**Montagem.** Os motores vão para o Módulo de motores e os lasers para o Módulo de defesa, um por slot, tirados dos itens soltos do seu inventário: não de uma nave, não do Cache de Transporte. Montar e retirar exigem a sua **nave pousada** e o Skylab **fora de viagem**; um Skylab estacionado pode ser reequipado, e as novas taxas valem a partir daquele momento. Um item montado mantém os bônus da Forja e o que está dentro dele (propulsores, amplificadores) e fica **reservado**: não pode ser posto em uma nave, apagado, anunciado no Leilão, guardado no Cache de Transporte nem usado pela Forja e pela Montagem até você retirá-lo, e o Hangar, a ficha de venda do Leilão e a Montagem o mostram esmaecido. Um item montado continua montado depois do [reset](#the-wipe).
 
 **Munição.** O carregador guarda tiros dos tipos que a Impressora de munição faz e dispara primeiro o **maior multiplicador**, um tiro por laser por segundo. Ele é enchido **só pela Impressora de munição**, nunca pelo seu inventário:
 
@@ -690,7 +690,7 @@ Cada mina e cada coletor tem um armazenamento para cerca de 72 horas do que prod
 
 O Skylab nunca sofre reset: os módulos mantêm os níveis, o Depósito de recursos mantém o minério e o Centro de Pesquisa mantém as tecnologias, o tanque de ciência, o Dark Matter que contém e uma pesquisa em andamento. As placas do seu inventário são itens como quaisquer outros, então seguem as [regras do reset](/wiki/03-Mechanics/Wipe-Timeline.md). A Impressora de munição e a Fábrica de foguetes mantêm os níveis, o que estão configuradas para produzir e o que guardam, e a Baía de minério mantém o nível e a cota. Os quatro módulos da Expedição mantêm os níveis também, com as tecnologias, e o mesmo vale para o carregador e a chave da alimentação. O minério do seu inventário sofre reset como qualquer item: mova-o antes para o Depósito de recursos.
 
-Uma **expedição** é acertada até o reset: uma viagem em andamento termina, a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada (o espólio dela é apagado como qualquer item solto; os créditos e o Thulium chegam à sua carteira antes de os [tetos](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) serem aplicados), e o Skylab começa a nova temporada em casa, no porto da sua corporação, com um novo mapa do universo, as 19 células iniciais conhecidas e a fila do radar vazia. Os motores e lasers montados nos módulos de motores e de defesa são itens soltos como os outros: retire-os e guarde-os no Cache de Transporte para mantê-los.
+Uma **expedição** é acertada até o reset: uma viagem em andamento termina, a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada (o espólio dela é apagado como qualquer item solto; os créditos e o Thulium chegam à sua carteira antes de os [tetos](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) serem aplicados), e o Skylab começa a nova temporada em casa, no porto da sua corporação, com um novo mapa do universo, as 19 células iniciais conhecidas e a fila do radar vazia. Os motores e lasers montados nos módulos de motores e de defesa **ficam onde estão**: as mesmas peças, com os propulsores e amplificadores que levam dentro e os bônus da Forja. Não ocupam espaço no Cache de Transporte. Só uma peça que você retirou do módulo é um item solto e vai embora com os outros, assim como o espólio da Baía de troféus, que não está montado em lugar nenhum.
 
 ## Planejando o seu Skylab {#planning-your-skylab}
 

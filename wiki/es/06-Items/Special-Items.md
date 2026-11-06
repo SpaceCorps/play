@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -39,7 +39,7 @@ Termina **una mejora del Skylab al instante**: elige el módulo que se está mej
 
 - **El precio sigue pagado.** Lo que costó la mejora se cobró al empezarla. El Hammer no devuelve nada de eso ni pide nada más.
 - **Solo una mejora en marcha.** Un módulo que no se está mejorando, o cuya mejora acaba de terminar sola, se rechaza («Nada que terminar: ese módulo no se está mejorando.») y el Hammer se queda contigo.
-- **Extremadamente raro.** El Skylab conserva sus niveles a través del reinicio, así que un Hammer vale el tiempo de un paso, hasta 6 días en el Núcleo. El juego permite a un piloto como máximo **uno cada 60 días**, y puedes tener 5.
+- **Extremadamente raro.** El Skylab conserva sus niveles a través del reinicio, así que un Hammer vale el tiempo de un paso, hasta 6 días en el Núcleo. No hay tiempo de espera entre dos Hammer, y puedes tener 5.
 - **El Engineer** (un [Workforce Contract](#workforce-contract)) acorta las mejoras hasta 1 hora; el Hammer se lleva todo lo que queda.
 
 ### Schematics
@@ -98,7 +98,7 @@ El Hauler solo levanta el cupo. Todo lo demás de la [Bahía de mineral](/wiki/0
 - **Un contador, no un objeto.** El inventario del Hangar es el único lugar que los enumera, como casillas entre los consumibles; de una clase que no tienes no hay casilla. Una casilla no es un objeto, así que no se puede arrastrar, seleccionar, eliminar ni vender. No tienen peso, ni hueco en la barra de acceso, ni sitio en la carga ni en el Alijo de Transporte; nunca se sueltan cuando destruyen tu nave.
 - **A través del reinicio.** Tus objetos especiales y una Philosopher's Stone o un contrato en marcha se conservan, como el Skylab, la investigación y tu aspecto.
 - **Nunca se intercambian.** Ni en la [Subasta](/wiki/03-Mechanics/Auction.md), ni a otro piloto, ni a cambio de créditos.
-- **Solo el Hammer puede cambiar tu ritmo**, y está limitado a uno cada 60 días. Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, una investigación de 24 horas como máximo.
+- **Solo el Hammer puede cambiar tu ritmo**, y solo puedes tener 5. Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, una investigación de 24 horas como máximo.
 - **Un uso, una confirmación, un sonido.** Cada uso reproduce su propio aviso sonoro, discreto.
 
 ## Errores comunes {#common-mistakes}

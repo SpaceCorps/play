@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
-SpaceCorps evreni, yinelenen bir sezon döngüsüyle yönetilir. Her 30 günde bir galaksi, **sıfırlama** adı verilen kozmik bir yenilenmeden geçer. Sıfırlama boşta duran şeyleri alır ve inşa ettiğini bırakır: gemilerin, dronların, teknolojilerin, [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)’ın ve sıfırlama puanların kalır; kredin ve Thulium’un da bir üst sınıra kadar kalır. Sezonun bir rütbeyle biter, rütbe de ödül öder. Bu sayfa, kuralın tamamı tek yerde: sıfırlamanın neyi koruduğu, neyi sıfırladığı, neyi aldığı ve neyi verdiği. Rütbeye göre ödüllerin kendi sayfası var: [Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+SpaceCorps evreni, yinelenen bir sezon döngüsüyle yönetilir. Her 30 günde bir galaksi, **sıfırlama** adı verilen kozmik bir yenilenmeden geçer. Sıfırlama boşta duran şeyleri alır ve inşa ettiğini bırakır: gemilerin, dronların, teknolojilerin, [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)’ın (içine takılı motorlar ve lazerlerle birlikte) ve sıfırlama puanların kalır; kredin ve Thulium’un da bir üst sınıra kadar kalır. Sezonun bir rütbeyle biter, rütbe de ödül öder. Bu sayfa, kuralın tamamı tek yerde: sıfırlamanın neyi koruduğu, neyi sıfırladığı, neyi aldığı ve neyi verdiği. Rütbeye göre ödüllerin kendi sayfası var: [Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ Her sezon 1. günden 30. güne kadar sürer (sıfırlama, 30. gün başlarken 5 
 
 | Evre | Günler | Protokol / Etkinlik | Açıklama |
 | :--- | :--- | :--- | :--- |
-| **Barış Protokolü** | 1–3. günler | PvP kapalı | Oyuncu çatışması tehdidi olmadan tamamen PvE ilerlemesine, kaynak farmına ve gemi inşasına odaklanan temiz bir başlangıç. |
-| **İlk Temas** | 4–10. günler | Etkinlik 1 | PvP açılır (dünyanın kuralına göre, aşağıdaki Dünyalar bölümüne bak) ve üç [sürü](/wiki/05-Swarms/Swarms.md) belirmeye başlar: sıfırlamaya kadar, bu evreden sonraki evreler boyunca kalırlar. Evre kendi başına henüz özel ödül vermez. |
-| **Teknoloji Atılımı** | 11–18. günler | Etkinlik 2 | [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) değişir: `DS-1` ile `DS-3` arasındaki her pulsarın yanında bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md), `DS-4` sektöründe [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesi, Slumbering Void uzaylıları ve daha çabuk geri gelen, iki kat ödeyen bir Dormant sürüsü. Hepsi sıfırlamaya kadar kalır. Evre kendi başına ödül vermez. |
+| **Barış Protokolü** | 1–3. günler | PvP kapalı | Oyuncu çatışması tehdidi olmadan tamamen PvE ilerlemesine, kaynak farmına ve gemi inşasına odaklanan temiz bir başlangıç. Yalnızca Alpha’da: Beta ve Gamma’da Barış Protokolü yoktur, orada PvP 1. günden itibaren açıktır. |
+| **İlk Temas** | 4–10. günler | Etkinlik 1 | PvP açılır (dünyanın kuralına göre, aşağıdaki Dünyalar bölümüne bak) ve üç [sürü](/wiki/05-Swarms/Swarms.md) belirmeye başlar: sıfırlamaya kadar, bu evreden sonraki evreler boyunca kalırlar. Evre kendi başına henüz özel ödül vermez. Beta ve Gamma’da sürüler ve Tehlike Sektörleri’nin asteroitleri sezonun ilk gününden itibaren oradadır. |
+| **Teknoloji Atılımı** | 11–18. günler | Etkinlik 2 | [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) değişir: `DS-1` ile `DS-3` arasındaki her pulsarın yanında bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md), `DS-4` sektöründe [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesi, Slumbering Void uzaylıları ve daha çabuk geri gelen, iki kat ödeyen bir Dormant sürüsü. Hepsi sıfırlamaya kadar kalır. Evre kendi başına ödül vermez. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir. |
 | **Savaş Oyunları** | 19–25. günler | Etkinlik 3 | Henüz özel bir etkisi yok: PvP, Barış Protokolü’nden sonraki her evrede olduğu gibi çalışır. |
 | **Son Geri Sayım** | 26–30. günler | Etkinlik 4 | Son geri sayım evresi. Tüm pilotlar, patlamadan önce taşıdıkları kargoyu tamamlamak için yarışır. |
 | **Sıfırlama** | 30. gün | Kara Delik Patlaması | Evren yok olur ve yeniden doğar, her [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) dağıtılır ve sezonun kapanır: rütben kaydedilir ve ödüllerini verir ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Pilotlar, bir sonraki sezon için hedef olarak seçtikleri dünyaya geçer. Ondan önceki son 72 saatte [kara delik](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) boyutunun 1,8 katına büyür ve Dashboard sıfırlamaya kadar geri sayar. |
 
-Sıfırlamanın kendisi dışında takvimi yalnızca beş şey izler: Barış Protokolü (1–3. günler) bir kuralı değiştirir, 4. günden itibaren [sürüler](/wiki/05-Swarms/Swarms.md) belirir ve sıfırlamaya kadar kalır, 11. günden itibaren [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) dev ekskavatörlerini (1. günden itibaren parlayan pulsarların yanında) ve Dormant Swamp bölgesini alır, bunlar da sıfırlamaya kadar kalır ve [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) 28. günden itibaren ücret almaz, 30. günden itibaren kapalıdır. Ve sıfırlamadan önceki son 72 saatte [kara delik](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) boyutunun 1,8 katına büyür. Dört etkinlik, sezonun adlandırılmış evreleridir: oyunun Sezon ve Profil sayfasında ve Gösterge Paneli’nde görünürler. Etkinlik 2, Tehlike Sektörleri’ni yukarıdaki gibi değiştirir; ötekilerin hiçbiri henüz kendine ait özel bir ödül, doğuş ya da bonus vermez.
+Sıfırlamanın kendisi dışında takvimi yalnızca beş şey izler: Barış Protokolü (1–3. günler) bir kuralı değiştirir, 4. günden itibaren [sürüler](/wiki/05-Swarms/Swarms.md) belirir ve sıfırlamaya kadar kalır, 11. günden itibaren [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) dev ekskavatörlerini (1. günden itibaren parlayan pulsarların yanında) ve Dormant Swamp bölgesini alır, bunlar da sıfırlamaya kadar kalır ve [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) 28. günden itibaren ücret almaz, 30. günden itibaren kapalıdır. Ve sıfırlamadan önceki son 72 saatte [kara delik](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) boyutunun 1,8 katına büyür. Dört etkinlik, sezonun adlandırılmış evreleridir: oyunun Sezon ve Profil sayfasında ve Gösterge Paneli’nde görünürler. Etkinlik 2, Tehlike Sektörleri’ni yukarıdaki gibi değiştirir; ötekilerin hiçbiri henüz kendine ait özel bir ödül, doğuş ya da bonus vermez. Bunlar Alpha’nın günleridir: Beta ve Gamma’da Barış Protokolü yoktur; sürüler, Tehlike Sektörleri’nin asteroitleri ve dev ekskavatörler orada 1. günden itibaren vardır.
 
 ---
 
@@ -51,7 +51,7 @@ Aşağıdakilerin hepsi sıfırlamadan sonra da senindir.
 * **Dronların**, seviyeleri ve deneyimleriyle, ve [dron formasyonların](/wiki/03-Mechanics/Formations.md), nerede olurlarsa olsunlar: envanterinde, kısayol çubuğunda ya da bir gemide.
 * **[P.E.T.](/wiki/03-Mechanics/Pets.md)’lerin** (yanaştırılmış ya da saklanmış), Beşik’te süren işler, Kodeks ve P.E.T. Station eşyaların.
 * **Tüm teknolojilerin.** Araştırma Merkezi, [Araştırma](/wiki/03-Mechanics/Research.md) sayfasında yazan her şeyi korur: bilim deposundaki bilim puanını, içindeki Dark Matter’ı, süren bir araştırmayı ve hızlandırmayı. Kurduğun Extra Slots CPU kurulumları da öyle: onlar eşya değildir.
-* **Bütün [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)’ın**: modüller, seviyeler ve Kaynak Deposu’nda biriktirilmiş cevher. Biriktirilmiş cevher bir eşya değildir ve Depo’nun kapasitesinden sayılmaz.
+* **Bütün [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)’ın**: modüller, seviyeler, Kaynak Deposu’nda biriktirilmiş cevher ve **Motor ve Savunma Modüllerine takılı motorlar ile lazerler**: olduğu yerde takılı kalırlar, içlerine takılanlarla (iticiler, amfiler) birlikte. Biriktirilmiş cevher bir eşya değildir ve Depo’nun kapasitesinden sayılmaz; takılı parçalar da orada yer kaplamaz.
 * **Sıfırlama puanların ve kalıcı güçlendirmelerin** ([mağaza](#the-permanent-buff-store)).
 * **Deneyim, seviye ve onur.**
 * **5.000.000.000’a kadar kredi ve 10.000.000’a kadar Thulium.** Üstü kaybolur: bkz. [üst sınırlar](#the-caps).
@@ -129,7 +129,7 @@ Her eşyanın sabit bir ağırlığı vardır. Bir yığın, o ağırlığın mi
 
 Nakliye Deposu sekmesindeki **İçeriği dondur** düğmesi, bölmeler ve kargo için bir emniyettir: donuk olduğu sürece sen çözene kadar hiçbir şey eklenemez ya da çıkarılamaz. Bu bir koşul değildir: depodakiler, dondurulmuş olsun olmasın sıfırlamadan geçer. Kesin olan depo gemisi kilidiyle bir ilgisi yoktur.
 
-**UYARI**: Yukarıdaki kurallarla korunmayan her eşya (teçhizatını koruyan gemiye takılı olmayan, Nakliye Deposu’nda olmayan, dron, dron formasyonu, P.E.T. Station ya da sınırlar içindeki cephane ve savaş roketi olmayan) Kara Delik Patlaması sırasında **kalıcı olarak yok edilir**.
+**UYARI**: Yukarıdaki kurallarla korunmayan her eşya (teçhizatını koruyan gemiye takılı olmayan, Skylab’ına takılı olmayan, Nakliye Deposu’nda olmayan, dron, dron formasyonu, P.E.T. Station ya da sınırlar içindeki cephane ve savaş roketi olmayan) Kara Delik Patlaması sırasında **kalıcı olarak yok edilir**.
 
 ---
 
@@ -138,7 +138,7 @@ Nakliye Deposu sekmesindeki **İçeriği dondur** düğmesi, bölmeler ve kargo 
 * **Sezon rütben.** Şirket listesindeki yerinle birlikte sezon geçmişine (Sezon ve Profil sayfası › İlerleme) yazılır ve sıralama puanların sıfırdan yeniden başlar ([taze puanlar](#fresh-points)).
 * **Sıfırlama puanı kaynakları**: uzaylı öldürmeleri ile görev ve Dormant Knowledge tahsilleri, onları yeniden kazanabilmen için sıfırlanır ([Sıfırlama puanı kazanmak](#earning-wipe-points)). Sıfırlama puanların ve güçlendirmelerin kalır.
 * **Uzaylı öldürmeleri.** İçinde bulunduğun sıfırlama için sayılır ve toplam sayıların kalır.
-* **Korunmayan her eşya**: kaynaklar, güçlendiriciler, yedek teçhizat, plakalar, Cluster Chunk’lar ve gerisi; ayrıca Skylab’ındaki Motor ve Savunma Modüllerine takılı motorlar ve lazerler: saklamak için onları çıkarıp depoya koy. Sıfırlamanın önce sana geri verdiği şey (aşağıya bak) diğerleri gibi bir eşyadır.
+* **Korunmayan her eşya**: kaynaklar, güçlendiriciler, yedek teçhizat, plakalar, Cluster Chunk’lar ve gerisi. Skylab’ındaki bir modülden çıkardığın motor ya da lazer diğer yedekler gibidir; hâlâ takılı olanlar korunur. Sıfırlamanın önce sana geri verdiği şey (aşağıya bak) diğerleri gibi bir eşyadır.
 * **Klanlar.** Her klan, filo hazinesi, gönderileri, antlaşmaları, puanları ve güçlendirme seviyeleriyle birlikte dağıtılır ([Klanlar](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **Chrono-Gate parçaları**: geçit baştan başlar, Maddeleştiricin de.
 * **Skylab seferin** biter: süren bir sefer sona erer, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ Sıfırlamada **5.000.000.000’u (5 milyar) aşan kredi** ve **10.000.000’u (
 
 **Sıralama puanların**, **son sıfırlamadan beri** kazandıklarını sayar: bu sezon yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri. Sıfırlamada sıfırdan yeniden başlar ve eski rütben sezon geçmişine girer. **Onur rütbeni belirlemez**, toplam sayıların (seviye, deneyim, onur, öldürmeler) olduğu gibi kalır. Bkz. [Rütbeler](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-Yeni kuralların ilk sıfırlaması, sayımı başlatan ilk sıfırlamadır: o zamana kadar sahip olduğun puanlar tüm kariyerinin puanlarıdır.
+6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu: 1. sezonu kapatan sıfırlama, o sezonun rütbelerini tüm kariyerinin puanlarına göre ödedi.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps’ta üç **dünya** vardır. Her biri tüm galaksinin ayrı bir kopy
 
 | Dünya | Gereken seviye | Risk | Uzaylı gücü | Öldürme ve görev ödülü | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Rahat / Başlangıç | 1,0x | 1,0x kredi, Thulium, XP, onur | **Yüksek güvenlik**: yalnızca sınır haritalarında (`x-4`) ve merkezdeki PvP bölgesinde (`DS-x`). `x-1` ile `x-3` arasındaki şirket sektörlerinde PvP yok. |
-| **Beta** | 7 | Normal / Orta seviye | 1,5x | 2,0x kredi, Thulium, XP, onur | **Orta güvenlik**: üs sektörleri (`x-1`) dışında her yerde. |
-| **Gamma** | 10 | Hardcore / Elit | 2,0x | 3,0x kredi, Thulium, XP, onur | **Düşük güvenlik**: her yerde. En yüksek risk, en yüksek ödül. |
+| **Alpha** | 1 | Rahat / Başlangıç | 1,0x | 1,0x kredi, Thulium, XP, onur | **Yüksek güvenlik**: yalnızca sınır haritalarında (`x-4`) ve merkezdeki PvP bölgesinde (`DS-x`). `x-1` ile `x-3` arasındaki şirket sektörlerinde PvP yok. 4. günden itibaren. |
+| **Beta** | 7 | Normal / Orta seviye | 1,5x | 2,0x kredi, Thulium, XP, onur | **Orta güvenlik**: üs sektörleri (`x-1`) dışında her yerde. 1. günden itibaren. |
+| **Gamma** | 10 | Hardcore / Elit | 2,0x | 3,0x kredi, Thulium, XP, onur | **Düşük güvenlik**: her yerde. En yüksek risk, en yüksek ödül. 1. günden itibaren. |
 
 Dünyaların işleyişi:
 
 * **Uzaylılar**: bir dünyanın uzaylı gücü, onların gövde puanını, kalkanını, kalkan dolumunu ve hasarını çarpar. Hızları ve menzilleri her yerde aynıdır.
-* **Ödül**: bir öldürme, gerçekleştiği dünyaya göre öder. Bir görev, onu yaptığın dünyaya göre öder (iki dünyaya yayılıyorsa en düşük olana göre), ödülünü hangi dünyada alırsan al (bir istasyon görevinin kendi dünyası yoktur ve ödülü aldığın anda uçtuğun dünyaya göre öder) ve süreli bir görevin sınırı Beta’da 1,5 kat, Gamma’da iki kat daha uzundur ([Görevler](/wiki/03-Mechanics/Quests.md)). Ganimet ve şirket pilotları her dünyada aynıdır; bu yüzden yüksek bir dünya saatte daha çok kazandırır, ama savaşları daha çok onarım masrafına mal olur.
-* **PvP**: bir haritadaki herkes onun dünyasına aittir, bu yüzden şirket pilotları dahil tüm harita için tek bir kural geçerlidir. Güvenli bölgeler ve Barış Protokolü (1–3. günler) her dünyayı korur.
+* **Ödül**: bir öldürme, gerçekleştiği dünyaya göre öder. Bir görev, ödülünü aldığında uçtuğun dünyaya göre öder (daha yüksek bir dünyada yapılmış görev yüksek çarpanı korur); bu yüzden sıfırlamadan önce yapılmış bir görev yeni dünyana göre ödenir ve süreli bir görevin sınırı Beta’da 1,5 kat, Gamma’da iki kat daha uzundur ([Görevler](/wiki/03-Mechanics/Quests.md)). Ganimet ve şirket pilotları her dünyada aynıdır; bu yüzden yüksek bir dünya saatte daha çok kazandırır, ama savaşları daha çok onarım masrafına mal olur.
+* **PvP**: bir haritadaki herkes onun dünyasına aittir, bu yüzden şirket pilotları dahil tüm harita için tek bir kural geçerlidir. Güvenli bölgeler her dünyayı korur; Barış Protokolü (1–3. günler) yalnızca Alpha’ya özgüdür, Beta ve Gamma’da PvP 1. günden itibaren vardır.
 * **Uçuşta**: dünyanın adı, sağ üstte sektörün kimliğinin önünde durur (“Beta · M-2”). Gemi penceresinin başlık çubuğundaki rozet nerede durduğunu söyler: güvenli bölgede **Güvenli**, Barış Protokolü sırasında ya da dünyanın PvP’yi yasakladığı yerde **PvP yok**, başka pilotların sana saldırabileceği yerde **PvP**. Kuralı görmek için üzerine gel. [Galaksi haritası](/wiki/01-General/Spacemap%20Travel.md) sektörleri dünyanın kuralına göre renklendirir.
 
 ### Katılmak ve taşınmak {#joining-and-moving}

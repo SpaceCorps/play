@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter ve Dark Matter plakaları {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## Bir dakikada {#in-one-minute}
 
 - **Dark Matter bir kaynaktır ve her yerde yalnızca Dark Matter diye geçer.** Tehlike Sektörü 4’ün (`DS-4`) ortasındaki kara delik onu üretir: deliğe ulaşan her N.I.K.E. roketi, bölgesinin kenarındaki küçük kutular içinde 1 ile 3 Dark Matter (ortalama 2) geri verir.
-- **Ne işe yarar.** Araştırma Merkezi’nin 107 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.354; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur.
+- **Ne işe yarar.** Araştırma Merkezi’nin 107 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.354; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 - **Araştırma Merkezi’nde**, **Araştırmayı başlat** düğmesine basmadan önce kargondan (gemin park halindeyken) Dark Matter eklersin. Araştırma onu başladığında alır.
 - **Dark Matter plakası ayrı bir eşyadır.** Önce tarifini araştır (ağacın Kaynaklar grubu: 1 gün ve 10 Dark Matter), sonra Montaj’da 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium ile üret.
 - **Plaka ne işe yarar.** Her yükseltme zincirinin son kademesi **4** plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II (13 parça). Demirhane bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için bunlardan 2, Patlayan kademeden Ebedi kademeye çıkarmak için 2 tane daha ister. Skylab’ın Motor, Savunma ve Radar modülleri de inşa etmek ve yükseltmek için plaka ister ([Kaynaklar](/wiki/06-Items/Resources.md#dark-matter-plate)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Crystalys-Schwarm -->
 # Crystalys-Schwarm {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ Der Crystalys-Schwarm ist ein **Boss Crystalys** mit seinen **Crystalys Guards**
 
 - **Wo**: Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`
 - **Wie viele**: Einer in jedem dieser Sektoren, 3 in jeder Welt
-- **Erscheint**: Ab Saisontag 4 bis zum Wipe
+- **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Boss Crystalys
 - **Begleiter**: Bis zu 3 × Crystalys Guard, alle 10 s ein neuer
 - **Begleiter bleiben nahe**: höchstens 500 Einheiten vom Anführer entfernt
@@ -29,7 +29,7 @@ Der Crystalys-Schwarm ist ein **Boss Crystalys** mit seinen **Crystalys Guards**
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
-- **Nimm eine große Gruppe mit.** Acht Piloten von Level 8 in Paragons mit x2-Munition zerstören ihn in Alpha in etwa einer Minute und verlieren höchstens ein Schiff; vier brauchen x4-Munition, und ein Pilot allein wird zerstört.
+- **Nimm eine große Gruppe mit.** In Alpha reichen sechs Piloten von Level 8 in Paragons mit x2-Munition, wenn sein Feuer sich auf sie verteilt, neun, wenn es ganz auf einen Piloten geht; mit x4-Munition sind es fünf und sechs. Mehr Piloten beenden den Kampf früher und verlieren weniger Schiffe, und ein Pilot allein wird zerstört.
 - **Schieß auf den Boss, nicht auf die Guards.** Ein Guard fällt in Sekunden, aber ein neuer kommt so oft, wie die Liste *Auf einen Blick* sagt, und was die Guards heilen, ist ein kleiner Teil dessen, was eine Gruppe austeilt: Sie in Ruhe zu lassen kostet etwas Zeit, sie zu jagen kostet mehr.
 - **Beta und Gamma sind härter.** Die Schwärme dieser Welten sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), sie brauchen also mehr Piloten oder bessere Munition.
 - **Die Gefahrensektoren sind PvP.** Ein Rivale kann die Gruppe mitten im Kampf angreifen und auf die Kiste warten: Sie gehört 30 Sekunden lang dem Piloten mit dem meisten Schaden (und seinem Clan), danach jedem ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Komm nicht allein.
@@ -48,13 +48,13 @@ Die Werte der Schwarmschiffe in den drei Welten ([Welten](/wiki/05-Swarms/Swarms
 
 ### Boss Crystalys
 
-Basis: Crystalys mit 175 % der Hülle und 50 % des Laserschadens; Tempo und Reichweite bleiben die des Vorbilds.
+Basis: Crystalys mit 350 % der Hülle und 100 % des Laserschadens; Tempo und Reichweite bleiben die des Vorbilds.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 448.000 | 672.000 | 896.000 |
-| Schild | 280.000 | 420.000 | 560.000 |
-| Laserschaden (eine Salve pro Sekunde) | 5.000 | 7.500 | 10.000 |
+| Hülle | 896.000 | 1.344.000 | 1.792.000 |
+| Schild | 560.000 | 840.000 | 1.120.000 |
+| Laserschaden (eine Salve pro Sekunde) | 10.000 | 15.000 | 20.000 |
 | Tempo | 230 | 230 | 230 |
 | Laserreichweite | 900 | 900 | 900 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
@@ -62,7 +62,7 @@ Basis: Crystalys mit 175 % der Hülle und 50 % des Laserschadens; Tempo und Re
 | Thulium | 1.050 | 2.100 | 3.150 |
 | Erfahrung (EP) | 63.000 | 126.000 | 189.000 |
 | Ehre | 273 | 546 | 819 |
-| PvE-Punkte pro Abschuss | 21 | 21 | 21 |
+| PvE-Punkte pro Abschuss | 30 | 30 | 30 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
 

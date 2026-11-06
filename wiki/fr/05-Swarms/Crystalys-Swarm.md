@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Essaim Crystalys -->
 # Essaim Crystalys {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ L’essaim Crystalys est un **Boss Crystalys** avec ses **Crystalys Guards** : 
 
 - **Où** : Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`
 - **Combien** : Un dans chacun de ces secteurs, 3 dans chaque monde
-- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation
+- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Boss Crystalys
 - **Suivants** : Jusqu’à 3 × Crystalys Guard, un nouveau toutes les 10 s
 - **Les suivants restent** : à 500 unités au plus du meneur
@@ -29,7 +29,7 @@ L’essaim Crystalys est un **Boss Crystalys** avec ses **Crystalys Guards** : 
 
 ## Le déroulement du combat {#how-the-fight-goes}
 
-- **Venez en grand groupe.** Huit pilotes de niveau 8 en Paragon avec des munitions x2 le détruisent en environ une minute dans Alpha, en perdant au plus un vaisseau ; quatre ont besoin de munitions x4, et un pilote seul est détruit.
+- **Venez en grand groupe.** Dans Alpha, six pilotes de niveau 8 en Paragon avec des munitions x2 suffisent si son tir se répartit entre eux, neuf s’il se concentre sur un seul pilote ; avec des munitions x4, cinq et six. Plus il y a de pilotes, plus le combat finit tôt et moins de vaisseaux sont perdus, et un pilote seul est détruit.
 - **Tirez sur le boss, pas sur les Guards.** Un Guard tombe en quelques secondes, mais un nouveau arrive aussi souvent que la liste *D’un coup d’œil* l’indique, et ce que les Guards soignent est une petite part de ce qu’inflige un groupe : les laisser tranquilles coûte un peu de temps, leur donner la chasse en coûte davantage.
 - **Beta et Gamma sont plus durs.** Les essaims de ces mondes sont plus forts ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)), ils demandent donc plus de pilotes ou de meilleures munitions.
 - **Les secteurs dangereux sont PvP.** Un rival peut attaquer le groupe en plein combat et attendre la caisse : elle est au pilote qui a infligé le plus de dégâts (et à son clan) pendant 30 secondes, puis à n’importe qui ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Ne venez pas seul.
@@ -48,13 +48,13 @@ Les valeurs des vaisseaux de l’essaim dans les trois mondes ([Mondes](/wiki/05
 
 ### Boss Crystalys
 
-Base : Crystalys, avec 175 % de sa coque et 50 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine.
+Base : Crystalys, avec 350 % de sa coque et 100 % de ses dégâts laser ; la vitesse et la portée sont celles du vaisseau d’origine.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Coque | 448 000 | 672 000 | 896 000 |
-| Bouclier | 280 000 | 420 000 | 560 000 |
-| Dégâts des lasers (une salve par seconde) | 5 000 | 7 500 | 10 000 |
+| Coque | 896 000 | 1 344 000 | 1 792 000 |
+| Bouclier | 560 000 | 840 000 | 1 120 000 |
+| Dégâts des lasers (une salve par seconde) | 10 000 | 15 000 | 20 000 |
 | Vitesse | 230 | 230 | 230 |
 | Portée des lasers | 900 | 900 | 900 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
@@ -62,7 +62,7 @@ Base : Crystalys, avec 175 % de sa coque et 50 % de ses dégâts laser ; la 
 | Thulium | 1 050 | 2 100 | 3 150 |
 | Expérience (XP) | 63 000 | 126 000 | 189 000 |
 | Honneur | 273 | 546 | 819 |
-| Points PvE par élimination | 21 | 21 | 21 |
+| Points PvE par élimination | 30 | 30 | 30 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Tabellerna nedan ger siffrorna för en Alpha-asteroid. **Skrov** är världens f
 
 ## Var de finns {#where-they-are}
 
-Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen, dagen då PvP öppnas ([Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md)), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Ingen asteroid ligger nära en pulsar, som lyser från säsongens första dag; från säsongsdag 11 ligger ingen heller nära en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta.
+Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en egen blandning: mest sorterna i dess ring, med en eller två gäster från ringen ovanför eller under. De neutrala sektorerna, dit ingen port leder, har inga. Farosektorernas asteroider dyker upp från säsongsdagen i tabellen (i Alpha dagen då PvP öppnas, [Första kontakten](/wiki/03-Mechanics/Wipe-Timeline.md); i Beta och Gamma från första dagen), de andra från första dagen. Efter en sprängning växer en ny asteroid av samma sort fram igen efter tiden på sektorns rad. Ingen asteroid ligger nära en pulsar, som lyser från säsongens första dag; från säsongsdag 11 ligger ingen heller nära en jättegrävmaskin eller Dormant Swamps mitt ([Farosektorer](/wiki/01-General/Danger-Sectors.md#where-everything-is)), och en sten som stod där när event 2 började är borta. I Beta och Gamma hålls ringen runt en jättegrävmaskin fri redan från första dagen.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en 
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 i Beta och Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 i Beta och Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 i Beta och Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 i Beta och Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

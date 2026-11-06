@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ Lo Skylab ha uno **scafo**, una riserva di punti ferita, che **rigenera il 5% di
 
 ### Montaggio e munizioni {#fits-and-ammunition}
 
-**Montaggio.** I motori vanno nel Modulo Motori e i laser nel Modulo Difesa, uno per slot, presi dagli oggetti liberi del tuo inventario: non su una nave, non nel Deposito di trasporto. Montare e togliere richiedono la tua **nave atterrata** e lo Skylab **non in viaggio**; uno Skylab di stanza si può riequipaggiare, e i nuovi ritmi contano da quel momento. Un oggetto montato conserva i suoi bonus della Fucina e ciò che c’è dentro (propulsori, amplificatori) ed è **riservato**: non si può mettere su una nave, eliminare, mettere all’Asta, mettere nel Deposito di trasporto né usare nella Fucina e nell’Assemblaggio finché non lo togli, e l’Hangar, il foglio di vendita dell’Asta e l’Assemblaggio lo mostrano attenuato.
+**Montaggio.** I motori vanno nel Modulo Motori e i laser nel Modulo Difesa, uno per slot, presi dagli oggetti liberi del tuo inventario: non su una nave, non nel Deposito di trasporto. Montare e togliere richiedono la tua **nave atterrata** e lo Skylab **non in viaggio**; uno Skylab di stanza si può riequipaggiare, e i nuovi ritmi contano da quel momento. Un oggetto montato conserva i suoi bonus della Fucina e ciò che c’è dentro (propulsori, amplificatori) ed è **riservato**: non si può mettere su una nave, eliminare, mettere all’Asta, mettere nel Deposito di trasporto né usare nella Fucina e nell’Assemblaggio finché non lo togli, e l’Hangar, il foglio di vendita dell’Asta e l’Assemblaggio lo mostrano attenuato. Un oggetto montato resta montato anche dopo il [reset](#the-wipe).
 
 **Munizioni.** Il caricatore contiene colpi dei tipi che produce la Stampante di munizioni e spara per primo il **moltiplicatore più alto**, un colpo per laser al secondo. Si riempie **solo dalla Stampante di munizioni**, mai dal tuo inventario:
 
@@ -690,7 +690,7 @@ Ogni fattoria e collettore ha una tramoggia per circa 72 ore della sua produzion
 
 Lo Skylab non viene mai azzerato: i moduli mantengono i loro livelli, il Magazzino risorse mantiene il suo minerale e il Centro ricerche mantiene le sue tecnologie, il suo serbatoio di scienza, la Dark Matter che contiene e una ricerca in corso. Le piastre nel tuo inventario sono oggetti come gli altri, quindi seguono le [regole del reset](/wiki/03-Mechanics/Wipe-Timeline.md). La Stampante di munizioni e la Fabbrica di razzi mantengono i loro livelli, ciò che sono impostate a produrre e ciò che contengono, e la Baia del minerale mantiene il suo livello e la sua quota. Anche i quattro moduli della Spedizione mantengono i loro livelli, con le loro tecnologie, e così il caricatore e l’interruttore dell’alimentazione. Il minerale nel tuo inventario si azzera come ogni oggetto: spostalo prima nel Magazzino risorse.
 
-Una **spedizione** viene saldata fino al reset: un viaggio in corso è finito, la Baia dei trofei paga i suoi crediti, il suo Thulium, la sua esperienza e il suo onore e viene svuotata (il suo bottino è eliminato come ogni oggetto libero; i crediti e il Thulium arrivano al tuo portafoglio prima che vengano applicati i [tetti](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), e lo Skylab inizia la nuova stagione a casa, nel porto della tua corporazione, con una nuova mappa dell’universo, le 19 celle iniziali note e la coda del radar vuota. I motori e i laser montati nei moduli Motori e Difesa sono oggetti liberi come gli altri: toglili e mettili nel Deposito di trasporto per tenerli.
+Una **spedizione** viene saldata fino al reset: un viaggio in corso è finito, la Baia dei trofei paga i suoi crediti, il suo Thulium, la sua esperienza e il suo onore e viene svuotata (il suo bottino è eliminato come ogni oggetto libero; i crediti e il Thulium arrivano al tuo portafoglio prima che vengano applicati i [tetti](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), e lo Skylab inizia la nuova stagione a casa, nel porto della tua corporazione, con una nuova mappa dell’universo, le 19 celle iniziali note e la coda del radar vuota. I motori e i laser montati nei moduli Motori e Difesa **restano dove sono**: gli stessi pezzi, con i propulsori e gli amplificatori che contengono e i loro bonus della Fucina. Non occupano posto nel Deposito di trasporto. Solo un pezzo che hai tolto dal suo modulo è un oggetto libero e se ne va con gli altri, come il bottino della Baia dei trofei, che non è montato da nessuna parte.
 
 ## Pianificare il tuo Skylab {#planning-your-skylab}
 

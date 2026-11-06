@@ -11,7 +11,7 @@ A Dormant-raj egy **Dormant Force** a **Dormant Pulse-aival**: hajók csoportja,
 
 - **Hol**: A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`, `DS-4`; az egyikből a másikba repül
 - **Hány**: Világonként egy
-- **Megjelenik**: A szezon 4. napjától a wipe-ig
+- **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Dormant Force
 - **Kísérők**: 2 × Dormant Pulse, a vezérrel együtt repülnek
 - **A kísérők közel maradnak**: legfeljebb 700 egységre a vezértől

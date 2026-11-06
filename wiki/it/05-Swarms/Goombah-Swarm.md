@@ -11,7 +11,7 @@ Lo sciame Goombah è un **Boss Goombah** con i suoi **Goombah Guard**: un enorme
 
 - **Dove**: I settori `x-3` e `x-4` di ogni corporazione
 - **Quanti**: Uno in ciascuno di quei settori, 6 in ogni mondo
-- **Compare**: Dal giorno 4 della stagione fino al reset
+- **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Boss Goombah
 - **Seguaci**: Fino a 4 × Goombah Guard, uno nuovo ogni 10 s
 - **I seguaci restano vicini**: al massimo 500 unità dal capo

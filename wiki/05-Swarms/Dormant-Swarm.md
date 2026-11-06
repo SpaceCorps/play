@@ -9,7 +9,7 @@ The Dormant Swarm is a **Dormant Force** with its **Dormant Pulses**: a group of
 
 - **Where**: The Danger Sectors `DS-1`, `DS-2`, `DS-3`, `DS-4`, flying from one to another
 - **How many**: One in each world
-- **Appears**: From season day 4 until the wipe
+- **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Dormant Force
 - **Followers**: 2 × Dormant Pulse, flying with the leader
 - **Followers stay within**: 700 units of the leader

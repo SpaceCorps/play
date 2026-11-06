@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -29,20 +29,20 @@ Deras skepp är **utomjordingar av egna slag**: de har egna namn och egna nedskj
 | [**Phantasm-svärm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Sektorerna `x-3` och `x-4` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Phantasm** | Upp till 4 × Phantasm Guard, en ny var 10 s | 2 min efter att ledaren förstörts, i samma sektor |
 | [**Goombah-svärm**](/wiki/05-Swarms/Goombah-Swarm.md) | Sektorerna `x-3` och `x-4` i varje koncern | En i var och en av de sektorerna, 6 i varje värld | **Boss Goombah** | Upp till 4 × Goombah Guard, en ny var 10 s | 5 min efter att ledaren förstörts, i samma sektor |
 | [**Crystalys-svärm**](/wiki/05-Swarms/Crystalys-Swarm.md) | Farosektorerna `DS-1`, `DS-2`, `DS-3` | En i var och en av de sektorerna, 3 i varje värld | **Boss Crystalys** | Upp till 3 × Crystalys Guard, en ny var 10 s | 30 min efter att ledaren förstörts, i samma sektor |
-| [**Tesseract-svärm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Farosektorn `DS-4` | En i varje värld | **Tesseract** | Upp till 50 × Facet, 10 till var 5 s medan ledaren träffas | 30 min efter att ledaren förstörts, i samma sektor |
+| [**Tesseract-svärm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Farosektorn `DS-4` | En i varje värld | **Tesseract** | Upp till 100 × Facet, 20 till var 5 s medan ledaren träffas | 30 min efter att ledaren förstörts, i samma sektor |
 
 <!-- swarms-list:end -->
 
 ## När och var {#when-and-where}
 
-Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen (se [Wipe-tidslinjen](/wiki/03-Mechanics/Wipe-Timeline.md); dagen står på första raden i reglerna nedan). **Varje värld har sina egna svärmar** på samma platser, så Pirate Boss i Alpha och den i Beta är två olika skepp, och en svärm du förstör i din värld är inte förstörd i en annan. En förstörd svärm kommer tillbaka efter tiden i tabellen ovan. Dormant-svärmen förändras på säsongsdag 11 (event 2): den dyker upp vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kommer tillbaka tidigare och betalar dubbelt.
+Svärmarna börjar dyka upp vid **Första kontakten** och finns kvar till wipen (se [Wipe-tidslinjen](/wiki/03-Mechanics/Wipe-Timeline.md); dagen står på första raden i reglerna nedan). **Varje värld har sina egna svärmar** på samma platser, så Pirate Boss i Alpha och den i Beta är två olika skepp, och en svärm du förstör i din värld är inte förstörd i en annan. En förstörd svärm kommer tillbaka efter tiden i tabellen ovan. Dormant-svärmen förändras på säsongsdag 11 (event 2): den dyker upp vid [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kommer tillbaka tidigare och betalar dubbelt. I Beta och Gamma dyker svärmarna upp från säsongens första dag.
 
 ## Reglerna för varje svärm {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Svärmarna dyker upp från säsongsdag 4 till wipen.
+- Svärmarna dyker upp från säsongsdag 4 till wipen; i Beta och Gamma dyker de upp från säsongsdag 1.
 - När ett svärmskepp träffas ansluter sig svärmens skepp inom 1 500 enheter från det till striden mot den första piloten som träffade det.
 - En ledare dyker upp minst 2 500 enheter från kanten av varje station- och portring.
 - En pilot som gjort minst 5 % av skadan på en boss får betalt för dess nedskjutning.
@@ -70,7 +70,7 @@ Seeker-, Pirate-, Phantasm-, Goombah-, Crystalys- och Tesseract-svärmarna medde
 
 ## Att strida mot en svärm {#fighting-a-swarm}
 
-- **Ledarna börjar aldrig en strid.** En ledare drar omkring tills en pilot träffar den, svarar sedan, och svärmens skepp nära den ansluter sig till striden mot den första piloten som träffade den (avståndet står i reglerna ovan). Pirate Scouts är undantaget: de attackerar varje pilot som kommer nära. En ledare reparerar aldrig sitt skrov själv, så skadan du gjorde blir kvar på den om inte dess följeslagare läker den; dess sköld laddas om som hos alla utomjordingar. Bara Tesseract är annorlunda: den har inget vapen, läker skrov och sköld själv så snart ingen har skadat den på några sekunder, och dess Facets jagar piloten som har gjort mest skada, inte den som träffade först.
+- **Ledarna börjar aldrig en strid.** En ledare drar omkring tills en pilot träffar den, svarar sedan, och svärmens skepp nära den ansluter sig till striden mot den första piloten som träffade den (avståndet står i reglerna ovan). Pirate Scouts är undantaget: de attackerar varje pilot som kommer nära. En ledare reparerar aldrig sitt skrov själv, så skadan du gjorde blir kvar på den om inte dess följeslagare läker den; dess sköld laddas om som hos alla utomjordingar. Bara Tesseract är annorlunda: den har inget vapen, läker skrov och sköld själv så snart ingen har skadat den på några sekunder, och dess Facets flyger runt den och skjuter på den närmaste piloten som har träffat den, i stället för att jaga den som träffade först.
 - **Svärmskepp strider bara mot piloter.** De skjuter inte på utomjordingar och utomjordingar skjuter inte på dem, och [koncernpiloterna](/wiki/03-Mechanics/Company-Pilots.md) ignorerar dem: de jagar inte ett svärmskepp och kommer inte till din hjälp mot ett.
 - **Raketer.** Pirate Boss samt Dormant Force och Pulses skjuter **raka** raketer, [Rivet-raketer](/wiki/06-Items/Rockets.md), på piloten som attackerade dem. Ett skepp som håller sig i rörelse undviker dem, ett som står still blir träffat.
 - **Stridernas storlek.** Seeker-svärmen är till för två piloter, Pirate- och Phantasm-svärmen för en liten grupp, Goombah-svärmen för en grupp av de starkaste skeppen, Crystalys- och Dormant-svärmen för en stor grupp av dem, Tesseract-svärmen för en mycket stor; de högre världarna kräver fler piloter, som för varje utomjording.
@@ -109,7 +109,7 @@ Varje nedskjutning räknas under skeppets eget namn i din nedskjutningsstatistik
 | **Phantasm Guard** | Phantasm-svärm | 1 |
 | **Boss Goombah** | Goombah-svärm | 14 |
 | **Goombah Guard** | Goombah-svärm | 3 |
-| **Boss Crystalys** | Crystalys-svärm | 21 |
+| **Boss Crystalys** | Crystalys-svärm | 30 |
 | **Crystalys Guard** | Crystalys-svärm | 6 |
 | **Tesseract** | Tesseract-svärm | 42 |
 | **Facet** | Tesseract-svärm | 0 |

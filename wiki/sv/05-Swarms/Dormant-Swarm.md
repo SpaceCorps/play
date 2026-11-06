@@ -11,7 +11,7 @@ Dormant-svärmen är en **Dormant Force** med sina **Dormant Pulses**: en grupp 
 
 - **Var**: Farosektorerna `DS-1`, `DS-2`, `DS-3`, `DS-4`, flyger från den ena till den andra
 - **Hur många**: En i varje värld
-- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Dormant Force
 - **Följeslagare**: 2 × Dormant Pulse, som flyger med ledaren
 - **Följeslagarna håller sig inom**: högst 700 enheter från ledaren

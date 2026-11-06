@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Oggetti speciali -->
 # Oggetti speciali {#special-items}
 
@@ -39,7 +39,7 @@ Completa **un potenziamento dello Skylab subito**: scegli il modulo che si sta p
 
 - **Il prezzo resta pagato.** Quanto è costato il potenziamento è stato prelevato quando l’hai avviato. L’Hammer non ne rimborsa nulla e non chiede altro.
 - **Solo un potenziamento in corso.** Un modulo che non si sta potenziando, o il cui potenziamento è appena finito da solo, viene rifiutato («Niente da completare: quel modulo non è in fase di potenziamento.») e l’Hammer resta con te.
-- **Estremamente raro.** Lo Skylab mantiene i suoi livelli attraverso il reset, quindi un Hammer vale il tempo di un passo, fino a 6 giorni sul Nucleo. Il gioco permette a un pilota al massimo **uno ogni 60 giorni**, e puoi tenerne 5.
+- **Estremamente raro.** Lo Skylab mantiene i suoi livelli attraverso il reset, quindi un Hammer vale il tempo di un passo, fino a 6 giorni sul Nucleo. Tra due Hammer non c’è nessun tempo di attesa, e puoi tenerne 5.
 - **L’Engineer** (un [Workforce Contract](#workforce-contract)) accorcia i potenziamenti di 1 ora al massimo; l’Hammer prende tutto ciò che resta.
 
 ### Schematics
@@ -98,7 +98,7 @@ L’Hauler toglie solo la quota. Tutto il resto della [Baia del minerale](/wiki/
 - **Un conteggio, non un oggetto.** L’inventario dell’Hangar è l’unico posto che li elenca, come caselle tra i consumabili; un tipo di cui non hai nulla non ha casella. Una casella non è un oggetto, quindi non si può trascinare, selezionare, eliminare né vendere. Non hanno peso, né slot nella barra rapida, né posto nel carico o nel Deposito di trasporto; non cadono mai quando la tua nave viene distrutta.
 - **Attraverso il reset.** I tuoi oggetti speciali e una Philosopher’s Stone o un contratto in corso vengono conservati, come lo Skylab, la ricerca e il tuo look.
 - **Mai scambiati.** Non all’[Asta](/wiki/03-Mechanics/Auction.md), non a un altro pilota, non per crediti.
-- **Solo l’Hammer può spostare il tuo ritmo**, ed è limitato a uno ogni 60 giorni. Gli altri cinque sono piccoli per scelta: 10 ore di due fattorie, 1 ora di un lavoratore, un grado, 30 minuti di una coda, una ricerca di 24 ore al massimo.
+- **Solo l’Hammer può spostare il tuo ritmo**, e puoi tenerne solo 5. Gli altri cinque sono piccoli per scelta: 10 ore di due fattorie, 1 ora di un lavoratore, un grado, 30 minuti di una coda, una ricerca di 24 ore al massimo.
 - **Un uso, una conferma, un suono.** Ogni uso riproduce il suo segnale sommesso.
 
 ## Errori comuni {#common-mistakes}

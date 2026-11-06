@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: 위험 섹터 -->
 # 위험 섹터 {#danger-sectors}
 
@@ -12,11 +12,11 @@
 
 ## 11일차부터 새로 생긴 것 {#what-is-new-from-day-11}
 
-- **거대 굴착기.** `DS-1`, `DS-2`, `DS-3`에는 시즌 첫날부터 각각 펄서가 하나씩 있습니다. 하늘의 빛일 뿐 그 이상은 아닙니다. 11일차부터는 그 옆에 **거대 굴착기**가 섭니다. 굴착기 탱크에 Dark Matter를 넣고 자원을 고르면 굴착기가 펄서를 채굴합니다. Thulium과 희귀 광석이 누구나 주울 수 있는 상자로 굴착기 주위에 떨어집니다. 위험 섹터에서 다툴 만한 것 중 가장 풍성하고 가장 위험합니다. [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)를 보세요.
+- **거대 굴착기.** `DS-1`, `DS-2`, `DS-3`에는 시즌 첫날부터 각각 펄서가 하나씩 있습니다. 하늘의 빛일 뿐 그 이상은 아닙니다. 11일차부터는 그 옆에 **거대 굴착기**가 섭니다. 굴착기 탱크에 Dark Matter를 넣고 자원을 고르면 굴착기가 펄서를 채굴합니다. Thulium과 희귀 광석이 누구나 주울 수 있는 상자로 굴착기 주위에 떨어집니다. 위험 섹터에서 다툴 만한 것 중 가장 풍성하고 가장 위험합니다. [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)를 보세요. Beta와 Gamma에서는 거대 굴착기가 시즌 첫날부터 서 있습니다.
 - **Slumbering Void.** 굴착기가 채굴하는 동안 **Slumbering Void**가 맵 가장자리에서 웨이브로 날아와 근처의 파일럿을 사냥합니다. 다른 개체들은 늪을 순찰합니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)를 보세요.
 - **Dormant Swamp.** `DS-4`의 한쪽 모서리에 잃어버린 문명의 기지가 서 있습니다. 보이는 모든 함선을 쏘는 포대, 그것을 지키는 Inert Mass, 그리고 한가운데의 Unwakened입니다. 파일럿이 아직 찾아가서는 안 되는 곳입니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)를 보세요.
 - **더 빠르고 더 풍성해진 Dormant 무리.** 이제 무리는 늪에 나타나고, 격파된 뒤 더 일찍 돌아오며, 보상은 두 배입니다. [Dormant 무리](/wiki/05-Swarms/Dormant-Swarm.md)를 보세요.
-- **11일차 이전**에는 펄서만 빛납니다. 그 밖의 위험 섹터는 [스페이스맵 이동](/wiki/01-General/Spacemap%20Travel.md)이 설명하는 그대로입니다. 11일차 이후인 월드에는 모두 한꺼번에 있습니다.
+- **11일차 이전**에는 펄서만 빛납니다. 그 밖의 위험 섹터는 [스페이스맵 이동](/wiki/01-General/Spacemap%20Travel.md)이 설명하는 그대로입니다. 11일차 이후인 월드에는 모두 한꺼번에 있습니다. Beta와 Gamma에서는 거대 굴착기가 시즌 첫날부터 서 있습니다.
 
 ## Davidski
 
@@ -42,7 +42,7 @@
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- 펄서는 시즌 첫날부터 빛납니다. 그 밖의 새로운 것은 모두 시즌 11일차에 나타나 초기화까지 남습니다.
+- 펄서는 시즌 첫날부터 빛납니다. 베타와 감마에서는 거대 굴착기도 시즌 1일차부터 서 있습니다. 그 밖의 새로운 것은 모두 시즌 11일차에 나타나며, 모두 초기화까지 남습니다.
 - 모든 월드에 자신만의 펄서, 굴착기, 늪이 있습니다. 한 월드에서 일어난 일은 다른 월드에서 일어나지 않습니다.
 - 펄서에서 2,600 유닛 이내, 거대 굴착기에서 2,200 유닛 이내, Dormant Swamp 중심에서 4,900 유닛 이내에는 소행성이 없습니다.
 

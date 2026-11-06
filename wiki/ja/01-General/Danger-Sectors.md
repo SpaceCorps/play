@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: 危険セクター -->
 # 危険セクター {#danger-sectors}
 
@@ -12,11 +12,11 @@
 
 ## 11日目からの新要素 {#what-is-new-from-day-11}
 
-- **巨大掘削機。** `DS-1`、`DS-2`、`DS-3` にはシーズン初日からそれぞれパルサーが1つあります。空に浮かぶ光で、それ以上のものではありません。11日目からは、その隣に**巨大掘削機**が立ちます。掘削機のタンクに Dark Matter を入れ、資源を選ぶと、パルサーを採掘します。Thulium と希少な鉱石が、誰でも拾えるコンテナとなって周りに落ちます。危険セクターで奪い合う価値のあるもののうち最も豊かで、最も危険です。[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)を参照してください。
+- **巨大掘削機。** `DS-1`、`DS-2`、`DS-3` にはシーズン初日からそれぞれパルサーが1つあります。空に浮かぶ光で、それ以上のものではありません。11日目からは、その隣に**巨大掘削機**が立ちます。掘削機のタンクに Dark Matter を入れ、資源を選ぶと、パルサーを採掘します。Thulium と希少な鉱石が、誰でも拾えるコンテナとなって周りに落ちます。危険セクターで奪い合う価値のあるもののうち最も豊かで、最も危険です。[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)を参照してください。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
 - **Slumbering Void。** 掘削機が採掘しているあいだ、**Slumbering Void** がマップの端からウェーブで飛来し、近くのパイロットを狩ります。ほかのものは沼を巡回します。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void)を参照してください。
 - **Dormant Swamp。** `DS-4` の隅に、失われた文明の基地が立っています。見えた艦船をすべて撃つ砲台、それを守る Inert Mass、そして中心にいる Unwakened です。パイロットがまだ訪れることを想定されていない場所です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)を参照してください。
 - **速く、豊かになった Dormant の群れ。** 群れは沼に現れるようになり、撃破後に早く戻り、報酬は2倍になります。[Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)を参照してください。
-- **11日目より前**は、パルサーだけが輝きます。それ以外の危険セクターは[スペースマップ移動](/wiki/01-General/Spacemap%20Travel.md)が説明するとおりです。11日目以降のワールドには、すべてが一度に揃います。
+- **11日目より前**は、パルサーだけが輝きます。それ以外の危険セクターは[スペースマップ移動](/wiki/01-General/Spacemap%20Travel.md)が説明するとおりです。11日目以降のワールドには、すべてが一度に揃います。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
 
 ## Davidski
 
@@ -42,7 +42,7 @@
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- パルサーはシーズン初日から輝きます。それ以外の新しいものはすべてシーズン11日目に現れ、ワイプまで残ります。
+- パルサーはシーズン初日から輝きます。ベータとガンマでは巨大掘削機もシーズン1日目から立っています。それ以外の新しいものはすべてシーズン11日目に現れ、すべてワイプまで残ります。
 - どのワールドにも専用のパルサー、掘削機、沼があり、あるワールドで起きたことはほかのワールドでは起きません。
 - パルサーから2,600ユニット以内、巨大掘削機から2,200ユニット以内、Dormant Swamp の中心から4,900ユニット以内には小惑星がありません。
 

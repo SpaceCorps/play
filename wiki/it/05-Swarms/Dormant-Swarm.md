@@ -11,7 +11,7 @@ Lo sciame Dormant è una **Dormant Force** con le sue **Dormant Pulse**: un grup
 
 - **Dove**: I settori pericolosi `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando dall’uno all’altro
 - **Quanti**: Uno in ogni mondo
-- **Compare**: Dal giorno 4 della stagione fino al reset
+- **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Dormant Force
 - **Seguaci**: 2 × Dormant Pulse, che volano con il capo
 - **I seguaci restano vicini**: al massimo 700 unità dal capo

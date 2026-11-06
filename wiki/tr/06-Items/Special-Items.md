@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -39,7 +39,7 @@ Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise
 
 - **Bedel ödenmiş kalır.** Yükseltmenin maliyeti, onu başlattığında alınmıştı. Hammer bunun hiçbirini geri vermez ve fazladan bir şey istemez.
 - **Yalnızca süren bir yükseltme.** Yükseltilmeyen bir modül ya da yükseltmesi az önce kendiliğinden biten bir modül reddedilir (“Bitirilecek bir şey yok: o modül yükseltilmiyor.”) ve Hammer sende kalır.
-- **Son derece nadir.** Skylab seviyelerini sıfırlamadan sonra da korur; bu yüzden bir Hammer bir basamağın süresi kadar değerlidir, Çekirdekte 6 güne kadar. Oyun bir pilota **60 günde en fazla bir tane** verilmesine izin verir ve sen 5 tane taşıyabilirsin.
+- **Son derece nadir.** Skylab seviyelerini sıfırlamadan sonra da korur; bu yüzden bir Hammer bir basamağın süresi kadar değerlidir, Çekirdekte 6 güne kadar. İki Hammer arasında bekleme süresi yoktur ve sen 5 tane taşıyabilirsin.
 - **Engineer** (bir [Workforce Contract](#workforce-contract)) yükseltmeleri en fazla 1 saat kısaltır; Hammer geriye kalan her şeyi alır.
 
 ### Schematics
@@ -98,7 +98,7 @@ Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab
 - **Eşya değil, sayaç.** Hangar’daki envanter onları sarf malzemeleri arasında kutucuklar olarak listeleyen tek yerdir; hiç sahip olmadığın bir türün kutucuğu yoktur. Kutucuk bir eşya değildir, bu yüzden sürüklenemez, seçilemez, silinemez ya da satılamaz. Ağırlıkları, kısayol çubuğunda yerleri, kargoda ya da Nakliye Deposu’nda yerleri yoktur; gemin yok edildiğinde asla düşmezler.
 - **Sıfırlamadan sonra da.** Özel eşyaların ve süren bir Philosopher’s Stone ya da sözleşme, Skylab, araştırma ve görünümlerin gibi korunur.
 - **Asla takas edilmez.** [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da, başka bir pilota, krediyle de olmaz.
-- **Temponu yalnızca Hammer değiştirebilir** ve 60 günde bir taneyle sınırlıdır. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, en fazla 24 saatlik bir araştırma.
+- **Temponu yalnızca Hammer değiştirebilir** ve yalnızca 5 tane taşıyabilirsin. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, en fazla 24 saatlik bir araştırma.
 - **Bir kullanım, bir onay, bir ses.** Her kullanım kendi kısık sesli işaretini çalar.
 
 ## Sık yapılan hatalar {#common-mistakes}

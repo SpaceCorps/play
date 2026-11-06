@@ -1,6 +1,6 @@
 # Wipe Timeline & Seasons
 
-The universe of SpaceCorps is governed by a recurring seasonal cycle. Every 30 days, the galaxy undergoes a cosmic reset known as the **Wipe**. A wipe takes the loose things and keeps what you built: your ships, drones, technologies, [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) and Wipe Points stay, and so do your credits and Thulium up to a cap. Your season ends with a rank, and the rank pays rewards. This page is the whole rule in one place: what the wipe keeps, what it resets, what it takes and what it gives. The rewards by rank have a page of their own, [Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+The universe of SpaceCorps is governed by a recurring seasonal cycle. Every 30 days, the galaxy undergoes a cosmic reset known as the **Wipe**. A wipe takes the loose things and keeps what you built: your ships, drones, technologies, [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (with the engines and lasers fitted in it) and Wipe Points stay, and so do your credits and Thulium up to a cap. Your season ends with a rank, and the rank pays rewards. This page is the whole rule in one place: what the wipe keeps, what it resets, what it takes and what it gives. The rewards by rank have a page of their own, [Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -14,14 +14,14 @@ The [Daily Rewards](/wiki/03-Mechanics/Daily-Rewards.md) calendar has 29 tiles, 
 
 | Phase | Days | Protocol / Event | Description |
 | :--- | :--- | :--- | :--- |
-| **Peace Protocol** | Days 1–3 | No PvP Enabled | A fresh start focused entirely on PvE progression, resource farming, and ship building without the threat of player conflict. |
-| **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below), and the three [swarms](/wiki/05-Swarms/Swarms.md) begin to appear: they stay until the wipe, through the phases after this one. The phase itself gives no special rewards yet. |
-| **Tech Surge** | Days 11–18 | Event 2 | The [Danger Sectors](/wiki/01-General/Danger-Sectors.md) change: a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) beside each pulsar on `DS-1` to `DS-3`, the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4`, Slumbering Voids, and a Dormant Swarm that comes back sooner and pays twice. All of it stays until the wipe. The phase gives no rewards of its own. |
+| **Peace Protocol** | Days 1–3 | No PvP Enabled | A fresh start focused entirely on PvE progression, resource farming, and ship building without the threat of player conflict. Alpha only: Beta and Gamma have no Peace Protocol, and PvP is on there from day 1. |
+| **First Contact** | Days 4–10 | Event 1 | PvP opens (by your world's rule, see Worlds below), and the three [swarms](/wiki/05-Swarms/Swarms.md) begin to appear: they stay until the wipe, through the phases after this one. The phase itself gives no special rewards yet. In Beta and Gamma the swarms and the Danger Sectors' asteroids are there from the first day of the season. |
+| **Tech Surge** | Days 11–18 | Event 2 | The [Danger Sectors](/wiki/01-General/Danger-Sectors.md) change: a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) beside each pulsar on `DS-1` to `DS-3`, the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) on `DS-4`, Slumbering Voids, and a Dormant Swarm that comes back sooner and pays twice. All of it stays until the wipe. The phase gives no rewards of its own. In Beta and Gamma the giant excavators stand from the first day of the season. |
 | **War Games** | Days 19–25 | Event 3 | No special effects yet: PvP works as in every phase after the Peace Protocol. |
 | **Final Countdown** | Days 26–30 | Event 4 | The final countdown phase. All pilots race to complete their carrying cargo before the eruption. |
 | **The Reset** | Day 30 | Blackhole Eruption | The universe is destroyed and reborn, every [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) is disbanded and your season is closed: your rank is written down and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Pilots move to the world they chose as their destination for the next season. In the last 72 hours before it the [black hole](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) grows to 1.8 times its size, and the Dashboard counts down to the wipe. |
 
-Apart from the wipe itself, only five things follow the calendar: the Peace Protocol (days 1–3) changes a rule, from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe, from day 11 the [Danger Sectors](/wiki/01-General/Danger-Sectors.md) get their giant excavators (beside the pulsars, which shine from day 1) and the Dormant Swamp, which stay until the wipe, and the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) charges no fees from day 28 and is closed from day 30, and in the last 72 hours before the wipe the [black hole](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) grows to 1.8 times its size. The four events are named phases of the season: they show on the game's Season page and Dashboard. Event 2 changes the Danger Sectors as above; none of the others gives special rewards, spawns or bonuses of its own yet.
+Apart from the wipe itself, only five things follow the calendar: the Peace Protocol (days 1–3) changes a rule, from day 4 the [swarms](/wiki/05-Swarms/Swarms.md) appear and stay until the wipe, from day 11 the [Danger Sectors](/wiki/01-General/Danger-Sectors.md) get their giant excavators (beside the pulsars, which shine from day 1) and the Dormant Swamp, which stay until the wipe, and the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) charges no fees from day 28 and is closed from day 30, and in the last 72 hours before the wipe the [black hole](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) grows to 1.8 times its size. The four events are named phases of the season: they show on the game's Season page and Dashboard. Event 2 changes the Danger Sectors as above; none of the others gives special rewards, spawns or bonuses of its own yet. These are Alpha's days: Beta and Gamma have no Peace Protocol, and their swarms, Danger Sector asteroids and giant excavators are there from day 1.
 
 ---
 
@@ -49,7 +49,7 @@ Everything below is yours after the wipe.
 * **Your drones**, with their levels and experience, and your [drone formations](/wiki/03-Mechanics/Formations.md), wherever they are: in your inventory, on your hotbar or on a ship.
 * **Your [P.E.T.s](/wiki/03-Mechanics/Pets.md)** (docked or stored), the jobs running in the Cradle, the Codex and your P.E.T. Stations.
 * **All your technologies.** The Research Centre keeps everything [Research](/wiki/03-Mechanics/Research.md) holds: the science in its tank, the Dark Matter plugged into it, a research under way and the boost. So do the Extra Slots CPUs you installed, which are not items.
-* **Your whole [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: modules, levels and the ore banked in the Resource Storage. Banked ore is not an item and does not count against the Cache.
+* **Your whole [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: modules, levels, the ore banked in the Resource Storage and **the engines and lasers fitted in the Engine and Defense Modules**, still fitted where they are, with the thrusters and amps fitted into them. Banked ore is not an item and does not count against the Cache; neither do the fitted pieces, which take no room in it.
 * **Your Wipe Points and your permanent buffs** ([the store](#the-permanent-buff-store)).
 * **Experience, level and honor.**
 * **Credits up to 5,000,000,000 and Thulium up to 10,000,000.** Above that is lost: see [the caps](#the-caps).
@@ -127,7 +127,7 @@ Every item has one fixed weight. A stack weighs that weight times its quantity, 
 
 The **Freeze contents** button on the Transport Cache tab is a safety catch for the bays and the cargo: while they are frozen nothing can be added or taken out until you unfreeze them. It is not a condition: what is in the Cache goes through the wipe frozen or not. It has nothing to do with the cache ship's lock, which is final.
 
-**WARNING**: Any item that is not kept by the rules above (fitted to the ship that keeps its gear, in the Transport Cache, a drone, a drone formation, a P.E.T. Station, or ammo and combat rockets within the limits) is **permanently destroyed** during the Blackhole Eruption.
+**WARNING**: Any item that is not kept by the rules above (fitted to the ship that keeps its gear, fitted in your Skylab, in the Transport Cache, a drone, a drone formation, a P.E.T. Station, or ammo and combat rockets within the limits) is **permanently destroyed** during the Blackhole Eruption.
 
 ---
 
@@ -136,7 +136,7 @@ The **Freeze contents** button on the Transport Cache tab is a safety catch for 
 * **Your rank for the season.** It is written into your season history (Season page › Progression) with your place on your company's ladder, and your ranking points start again from zero ([fresh points](#fresh-points)).
 * **The Wipe Point sources**: the alien kills and the claims of missions and Dormant Knowledge, so you can earn them again ([Earning Wipe Points](#earning-wipe-points)). Your Wipe Points and your buffs stay.
 * **Alien kills.** They are counted for the wipe you are in, and your all-time numbers stay.
-* **Every item that is not kept**: resources, boosters, spare gear, plates, Cluster Chunks and the rest, and the engines and lasers fitted in your Skylab's Engine and Defense Modules: take those out and put them in the Cache to keep them. Whatever the wipe returns to you first (see below) is an item like any other.
+* **Every item that is not kept**: resources, boosters, spare gear, plates, Cluster Chunks and the rest. An engine or a laser that you have taken out of your Skylab's module is a spare like any other; the ones still fitted in it are kept. Whatever the wipe returns to you first (see below) is an item like any other.
 * **Clans.** Every clan is disbanded with its Fleet Treasury, posts, treaties, points and boost levels ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **The Chrono-Gate parts**: the gate starts again, and so does your Materializer.
 * **Your Skylab expedition** ends: a trip under way is over and the Trophies Bay pays out its Credits, Thulium, experience and honor and is emptied ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -174,7 +174,7 @@ At the wipe, **credits above 5,000,000,000 (5 billion)** and **Thulium above 10,
 
 Your **ranking points** count what you earned **since the last wipe**: the levels you gained, the experience and the alien kills of this season. At the wipe they start again from zero and your old rank goes into your season history. **Honor does not set your rank**, and your all-time numbers (level, experience, honor, kills) stay as they are. See [Ranks](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-The first wipe of the new rules is the first to start the count: until then the points you have are your whole career's.
+Season 2, which began with the wipe of 6 November 2026, was the first to count this way: the wipe that closed season 1 paid its ranks from the points of your whole career.
 
 ---
 
@@ -184,15 +184,15 @@ SpaceCorps runs three **worlds**. Each one is a separate copy of the whole galax
 
 | World | Level needed | Risk | Alien strength | Kill and quest pay | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Casual / Starter | 1.0x | 1.0x Credits, Thulium, XP, Honor | **High Security**: only on the border maps (`x-4`) and in the central PvP zone (`DS-x`). No PvP in the company sectors `x-1` to `x-3`. |
-| **Beta** | 7 | Normal / Intermediate | 1.5x | 2.0x Credits, Thulium, XP, Honor | **Medium Security**: everywhere except the base sectors (`x-1`). |
-| **Gamma** | 10 | Hardcore / Elite | 2.0x | 3.0x Credits, Thulium, XP, Honor | **Low Security**: everywhere. Maximum risk, maximum pay. |
+| **Alpha** | 1 | Casual / Starter | 1.0x | 1.0x Credits, Thulium, XP, Honor | **High Security**: only on the border maps (`x-4`) and in the central PvP zone (`DS-x`). No PvP in the company sectors `x-1` to `x-3`. From day 4. |
+| **Beta** | 7 | Normal / Intermediate | 1.5x | 2.0x Credits, Thulium, XP, Honor | **Medium Security**: everywhere except the base sectors (`x-1`). From day 1. |
+| **Gamma** | 10 | Hardcore / Elite | 2.0x | 3.0x Credits, Thulium, XP, Honor | **Low Security**: everywhere. Maximum risk, maximum pay. From day 1. |
 
 How the worlds work:
 
 * **Aliens**: a world's alien strength multiplies their hit points, shields, shield recharge and damage. Their speed and range are the same everywhere.
-* **Pay**: a kill pays by the world it happens in. A quest pays by the world you did it in (the lowest one, should it span two), whichever world you claim it in (a Station mission has no world of its own and pays the world you fly in when you claim it), and a timed quest's limit is 1.5 times as long in Beta and twice as long in Gamma ([Quests](/wiki/03-Mechanics/Quests.md)). Loot drops and company pilots are the same in every world, so a higher world earns more per hour, but its fights cost more repairs.
-* **PvP**: everyone on a map belongs to its world, so one rule holds for the whole map, company pilots included. Safe zones and the Peace Protocol (days 1–3) protect every world.
+* **Pay**: a kill pays by the world it happens in. A quest pays by the world you fly in when you claim it (one you did in a higher world keeps the higher multiplier), so a quest from before a wipe is paid your new world, and a timed quest's limit is 1.5 times as long in Beta and twice as long in Gamma ([Quests](/wiki/03-Mechanics/Quests.md)). Loot drops and company pilots are the same in every world, so a higher world earns more per hour, but its fights cost more repairs.
+* **PvP**: everyone on a map belongs to its world, so one rule holds for the whole map, company pilots included. Safe zones protect every world; the Peace Protocol (days 1–3) is Alpha's alone, and Beta and Gamma have PvP from day 1.
 * **In flight**: the world's name sits before the sector's id at the top right ("Beta · M-2"). The badge in the title bar of the Ship window says where you stand: **Safe** in a safe zone, **No PvP** during the Peace Protocol or where your world forbids PvP, **PvP** where other pilots can attack you. Hover it for the rule. The [galaxy map](/wiki/01-General/Spacemap%20Travel.md) colours the sectors by your world's rule.
 
 ### Joining and moving

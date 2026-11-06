@@ -9,7 +9,7 @@ The Seeker Swarm is the smallest of the [swarms](/wiki/05-Swarms/Swarms.md): a *
 
 - **Where**: The sectors `x-1` and `x-2` of every company
 - **How many**: One in each of those sectors, 6 in each world
-- **Appears**: From season day 4 until the wipe
+- **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Boss Seeker
 - **Followers**: Up to 4 × Seeker Slave, a new one every 10 s
 - **Followers stay within**: 500 units of the leader

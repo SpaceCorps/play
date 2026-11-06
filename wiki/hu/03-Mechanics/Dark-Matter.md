@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 ## Egy percben {#in-one-minute}
 
 - **A Dark Matter erőforrás, és mindenhol egyszerűen Dark Matternek hívják.** A Veszélyes szektor 4 (`DS-4`) közepén lévő feketelyuk állítja elő: minden N.I.K.E. rakéta, amely eléri a lyukat, 1–3 Dark Mattert ad vissza (átlagosan 2-t), kis ládákban a zónája szélén.
-- **Mire jó.** A Kutatóközpont 107 technológiája kéri, egyenként 5–60-at, összesen 1 354-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül.
+- **Mire jó.** A Kutatóközpont 107 technológiája kéri, egyenként 5–60-at, összesen 1 354-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 - **A Kutatóközpontban** a raktérből adsz hozzá Dark Mattert (leszállt hajóval), mielőtt az Indítás gombra nyomnál. A kutatás induláskor elveszi.
 - **A Dark Matter Plate más tárgy.** Előbb kutasd ki a receptjét (a fa Erőforrások csoportja: 1 nap és 10 Dark Matter), aztán gyárts belőle a Gyártásban 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból.
 - **Mire jó egy plate.** Minden fejlesztési lánc utolsó szintje **4-et** kér, és legalább egy Ancient Control Unitot. Ezek a IV. szintű amp-ok, pajzscellák és fúvókák, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II (13 darab). A Kovácsműhely 2-t kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen, és újabb 2-t a Repesztőről az Örökre. A Skylab hajtómű-, védelmi és radarmodulja is kér lemezeket az építéshez és a fejlesztéshez ([Erőforrások](/wiki/06-Items/Resources.md#dark-matter-plate)).

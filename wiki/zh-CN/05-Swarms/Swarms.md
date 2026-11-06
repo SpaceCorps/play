@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: 虫群 -->
 # 虫群 {#swarms}
 
@@ -29,20 +29,20 @@
 | [**Phantasm 虫群**](/wiki/05-Swarms/Phantasm-Swarm.md) | 每个企业的 `x-3` 和 `x-4` 星区 | 每个星区 一个， 每个世界 共 6 个 | **Boss Phantasm** | 最多 4 × Phantasm Guard， 每 10 秒 出现 一个新的 | 头领 被击毁 2 分钟 后， 在同一星区 |
 | [**Goombah 虫群**](/wiki/05-Swarms/Goombah-Swarm.md) | 每个企业的 `x-3` 和 `x-4` 星区 | 每个星区 一个， 每个世界 共 6 个 | **Boss Goombah** | 最多 4 × Goombah Guard， 每 10 秒 出现 一个新的 | 头领 被击毁 5 分钟 后， 在同一星区 |
 | [**Crystalys 虫群**](/wiki/05-Swarms/Crystalys-Swarm.md) | 危险星区 `DS-1`, `DS-2`, `DS-3` | 每个星区 一个， 每个世界 共 3 个 | **Boss Crystalys** | 最多 3 × Crystalys Guard， 每 10 秒 出现 一个新的 | 头领 被击毁 30 分钟 后， 在同一星区 |
-| [**Tesseract 虫群**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危险星区 `DS-4` | 每个世界一个 | **Tesseract** | 最多 50 × Facet，头领被击中期间每 5 秒 再来 10 个 | 头领 被击毁 30 分钟 后， 在同一星区 |
+| [**Tesseract 虫群**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危险星区 `DS-4` | 每个世界一个 | **Tesseract** | 最多 100 × Facet，头领被击中期间每 5 秒 再来 20 个 | 头领 被击毁 30 分钟 后， 在同一星区 |
 
 <!-- swarms-list:end -->
 
 ## 何时何地 {#when-and-where}
 
-虫群从**初次接触**起开始出现，并一直留到重置（见[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md)；具体日期在下面规则的第一行）。**每个世界都有自己的虫群**，位置相同，所以 Alpha 的 Pirate Boss 和 Beta 的 Pirate Boss 是两艘不同的舰船，你在自己世界击毁的虫群，在别的世界里并未被击毁。被击毁的虫群会在上表给出的时间后回来。Dormant 虫群在赛季第 11 天（活动 2）发生变化：它出现在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，回归更早，奖励翻倍。
+虫群从**初次接触**起开始出现，并一直留到重置（见[重置时间线](/wiki/03-Mechanics/Wipe-Timeline.md)；具体日期在下面规则的第一行）。**每个世界都有自己的虫群**，位置相同，所以 Alpha 的 Pirate Boss 和 Beta 的 Pirate Boss 是两艘不同的舰船，你在自己世界击毁的虫群，在别的世界里并未被击毁。被击毁的虫群会在上表给出的时间后回来。Dormant 虫群在赛季第 11 天（活动 2）发生变化：它出现在 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)，回归更早，奖励翻倍。在 Beta 和 Gamma，虫群从赛季第一天起就会出现。
 
 ## 每个虫群的规则 {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- 虫群从赛季第 4 天起出现，直到重置。
+- 虫群从赛季第 4 天起出现，直到重置；在 Beta 和 Gamma，从赛季第 1 天起出现。
 - 虫群舰船被击中时，其所在虫群中距它 1,500 单位以内的舰船会加入战斗，对付第一个击中它的飞行员。
 - 头领出现的位置距离每个空间站和传送门环带的边缘至少 2,500 单位。
 - 对 Boss 造成的伤害占比不低于 5% 的飞行员，会为这次击杀获得奖励。
@@ -70,7 +70,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys 和 Tesseract 虫群会在 Boss
 
 ## 与虫群作战 {#fighting-a-swarm}
 
-- **头领从不主动开战。** 头领会一直游荡，直到有飞行员击中它，然后还击，它附近的虫群舰船会加入战斗，对付第一个击中它的飞行员（距离见上面的规则）。Pirate Scout 是例外：它们会攻击任何靠近的飞行员。头领从不自己修复船体，所以你造成的伤害会留在它身上，除非它的随从为它治疗；它的护盾和任何外星人一样会重新充能。只有 Tesseract 不同：它没有武器，只要几秒钟内没人伤到它，就会自己修复船体和护盾，而且它的 Facet 追击的是造成伤害最多的飞行员，而不是第一个击中它的人。
+- **头领从不主动开战。** 头领会一直游荡，直到有飞行员击中它，然后还击，它附近的虫群舰船会加入战斗，对付第一个击中它的飞行员（距离见上面的规则）。Pirate Scout 是例外：它们会攻击任何靠近的飞行员。头领从不自己修复船体，所以你造成的伤害会留在它身上，除非它的随从为它治疗；它的护盾和任何外星人一样会重新充能。只有 Tesseract 不同：它没有武器，只要几秒钟内没人伤到它，就会自己修复船体和护盾，而且它的 Facet 不会追击第一个击中它的人，而是在它周围飞行，并向击中过它的飞行员中最近的一个开火。
 - **虫群舰船只与飞行员作战。** 它们不向外星人开火，外星人也不向它们开火，[企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)会无视它们：既不猎杀虫群舰船，也不会前来帮你对付它。
 - **火箭。** Pirate Boss、Dormant Force 和 Pulse 会向攻击它们的飞行员发射**直线**火箭，即 [Rivet 火箭](/wiki/06-Items/Rockets.md)。保持移动的舰船可以躲开，原地不动的舰船则会被击中。
 - **战斗的规模。** Seeker 虫群适合两名飞行员，Pirate 和 Phantasm 虫群适合小规模小队，Goombah 虫群适合由最强舰船组成的小队，Crystalys 和 Dormant 虫群适合由它们组成的大型小队，Tesseract 虫群适合超大型小队；更高的世界需要更多飞行员，和任何外星人一样。
@@ -109,7 +109,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys 和 Tesseract 虫群会在 Boss
 | **Phantasm Guard** | Phantasm 虫群 | 1 |
 | **Boss Goombah** | Goombah 虫群 | 14 |
 | **Goombah Guard** | Goombah 虫群 | 3 |
-| **Boss Crystalys** | Crystalys 虫群 | 21 |
+| **Boss Crystalys** | Crystalys 虫群 | 30 |
 | **Crystalys Guard** | Crystalys 虫群 | 6 |
 | **Tesseract** | Tesseract 虫群 | 42 |
 | **Facet** | Tesseract 虫群 | 0 |

@@ -83,7 +83,7 @@ The Season Report says which of these was missing, if one was.
 
 Your **ranking points** count what you earned **since the last wipe**: the levels you gained, the experience and the alien kills of this season. At the wipe they start again from zero, your old rank goes into your history, and your rank for the new season is built from nothing, so every season is a new climb. **Honor does not set your rank.** Your all-time numbers (level, experience, honor, kills) stay as they are.
 
-The first wipe of the new rules is the first to start the count. Until then the points you have are your whole career's, and that wipe pays you for the rank they give you. The minimum points of the ranks stay as they are.
+Season 2, which began with the wipe of 6 November 2026, was the first to count this way. The wipe that closed season 1 paid you for the rank that the points of your whole career gave you. The minimum points of the ranks stay as they are.
 
 ## The Season Report
 

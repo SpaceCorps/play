@@ -11,7 +11,7 @@ Every pilot has a **rank**, from Junior Pilot to Senior Admiral. It is a militar
 - Only pilots with PvE points who flew in the last 30 days are on a list. Everybody else is a Junior Pilot until they fly again, and holds no place.
 - A **gold crown** over the symbol marks the pilot with the most PvE points of the whole server: every company, all three worlds.
 - Your rank moves. Up to Senior Colonel it depends on your points alone, so it only rises. The six best ranks also move with the other pilots of your company: they can fall when others take the places above you. A fall is never announced; a new best rank is.
-- At the wipe the points start again from zero, so the lists start over and every season is a new climb. Your rank of the season goes into your history and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (This begins with the first wipe of the new rules: until then your points are your whole career's.)
+- At the wipe the points start again from zero, so the lists start over and every season is a new climb. Your rank of the season goes into your history and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Season 2, which began with the wipe of 6 November 2026, was the first to count this way.)
 - The symbol before a name is the rank: a shape for the tier, one to three marks for the grade.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -127,7 +127,7 @@ A tougher alien is worth more: a kill adds points by how much damage it takes to
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -202,7 +202,7 @@ Open **Economy › Company**. Its **Company ranking** section shows, from the to
 
 At the wipe your PvE points start again from zero, so the ladder of your company starts over and every season is a new climb. Only what you earn after a wipe counts: the levels you gain, the experience and the alien kills of the new season ([Fresh points](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Your level, experience and kill statistics stay in your totals. **Honor does not set your rank.** The rank you held at the instant of the wipe goes into your season history, with your place on the ladder, and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Your rank is not for life, either: the six best ranks move with the other pilots of your company, and a pilot who stays away for 30 days leaves the ladder until he flies again.
 
-The first wipe of the new rules is the first to start the points again: until then they are your whole career's, and that wipe closes a season with the ranks the ladder shows then.
+Season 2, which began with the wipe of 6 November 2026, was the first to count this way: its points count from that wipe. The wipe that closed season 1 paid the ranks of season 1 from the points of your whole career.
 
 ## How long it takes
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Asteroit madenciliği -->
 # Asteroit madenciliği {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Aşağıdaki tablolar Alpha dünyasındaki asteroitlerin rakamlarını verir. **
 
 ## Nerede bulunurlar {#where-they-are}
 
-Üç şirketin ana sektörlerinin ve Tehlike Sektörleri’nin her sektöründe asteroit vardır, her birinin kendi karışımıyla: çoğunlukla halkasının türleri, bir yukarı ya da aşağı halkadan bir iki konuk. Hiçbir geçidin açılmadığı tarafsız sektörlerde hiç yoktur. Tehlike Sektörleri’ndeki asteroitler tablodaki sezon gününden itibaren belirir; bu, PvP’nin açıldığı gündür ([İlk Temas](/wiki/03-Mechanics/Wipe-Timeline.md)). Diğerleri ilk günden itibaren vardır. Bir kırılmadan sonra aynı türden yeni bir asteroit, sektörün satırındaki süre kadar sonra yeniden oluşur. Sezonun ilk gününden itibaren parlayan bir pulsarın yakınında hiç asteroit yoktur; sezonun 11. gününden itibaren dev bir ekskavatörün ya da Dormant Swamp bölgesinin ortasının yakınında da yoktur ([Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md#where-everything-is)) ve Etkinlik 2 başladığında orada duran bir kaya ortadan kalkmıştır.
+Üç şirketin ana sektörlerinin ve Tehlike Sektörleri’nin her sektöründe asteroit vardır, her birinin kendi karışımıyla: çoğunlukla halkasının türleri, bir yukarı ya da aşağı halkadan bir iki konuk. Hiçbir geçidin açılmadığı tarafsız sektörlerde hiç yoktur. Tehlike Sektörleri’ndeki asteroitler tablodaki sezon gününden itibaren belirir; Alpha’da bu, PvP’nin açıldığı gündür ([İlk Temas](/wiki/03-Mechanics/Wipe-Timeline.md)), Beta ve Gamma’da ilk gündür. Diğerleri ilk günden itibaren vardır. Bir kırılmadan sonra aynı türden yeni bir asteroit, sektörün satırındaki süre kadar sonra yeniden oluşur. Sezonun ilk gününden itibaren parlayan bir pulsarın yakınında hiç asteroit yoktur; sezonun 11. gününden itibaren dev bir ekskavatörün ya da Dormant Swamp bölgesinin ortasının yakınında da yoktur ([Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md#where-everything-is)) ve Etkinlik 2 başladığında orada duran bir kaya ortadan kalkmıştır. Beta ve Gamma’da dev bir ekskavatörün çevresindeki halka da ilk günden itibaren boş tutulur.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Aşağıdaki tablolar Alpha dünyasındaki asteroitlerin rakamlarını verir. **
 | `M-4` | 18 | 1 | 5 dk | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 dk | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 dk | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 dk | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 dk | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 dk | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 dk | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (Beta ve Gamma dünyalarında 1) | 5 dk | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (Beta ve Gamma dünyalarında 1) | 5 dk | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (Beta ve Gamma dünyalarında 1) | 5 dk | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (Beta ve Gamma dünyalarında 1) | 5 dk | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ A Skylabnak van egy **hajótestje**, egy életpontkészlete, amely **óránként
 
 ### Beszerelés és lőszer {#fits-and-ammunition}
 
-**Beszerelés.** A hajtóművek a Hajtóműmodulba, a lézerek a Védelmi modulba kerülnek, foglalatonként egy, a készleted szabad tárgyai közül: nem hajóról, nem a tranzittárolóból. A beszereléshez és a kivételhez **leszállt hajó** és **nem úton lévő** Skylab kell; az állomásozó Skylab újra felszerelhető, és az új ütemek attól a pillanattól számítanak. A beszerelt tárgy megtartja a Kovácsműhely-bónuszait és azt, ami benne van (tolóegységek, erősítők), és **foglalt**: nem tehető hajóra, nem törölhető, nem tehető fel az Aukcióra, nem tehető a tranzittárolóba, és a Kovácsműhely és a Gyártás sem használhatja, amíg ki nem veszed, a Hangár, az Aukció eladási lapja és a Gyártás pedig halványan mutatja.
+**Beszerelés.** A hajtóművek a Hajtóműmodulba, a lézerek a Védelmi modulba kerülnek, foglalatonként egy, a készleted szabad tárgyai közül: nem hajóról, nem a tranzittárolóból. A beszereléshez és a kivételhez **leszállt hajó** és **nem úton lévő** Skylab kell; az állomásozó Skylab újra felszerelhető, és az új ütemek attól a pillanattól számítanak. A beszerelt tárgy megtartja a Kovácsműhely-bónuszait és azt, ami benne van (tolóegységek, erősítők), és **foglalt**: nem tehető hajóra, nem törölhető, nem tehető fel az Aukcióra, nem tehető a tranzittárolóba, és a Kovácsműhely és a Gyártás sem használhatja, amíg ki nem veszed, a Hangár, az Aukció eladási lapja és a Gyártás pedig halványan mutatja. A beszerelt tárgy a [wipe](#the-wipe) után is beszerelve marad.
 
 **Lőszer.** A tár a Lőszernyomtató által gyártott fajták lövéseit tartalmazza, és a **legmagasabb szorzóval lő először**, lézerenként másodpercenként egy lövést. **Kizárólag a Lőszernyomtatóból** töltődik, soha a készletedből:
 
@@ -690,7 +690,7 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 
 A wipe sosem érinti a Skylabot: a modulok megtartják a szintjüket, az Erőforrás-raktár megtartja az ércét, a Kutatóközpont pedig a technológiáit, a tudománytartályát, a benne lévő Dark Mattert és a folyamatban lévő kutatást. A készletedben lévő lemezek olyan tárgyak, mint bármelyik másik, ezért a [wipe-szabályokat](/wiki/03-Mechanics/Wipe-Timeline.md) követik. A Lőszernyomtató és a Rakétagyár megtartja a szintjét, azt, hogy mit kell gyártania, és azt, amit tart, az Ércrakodó pedig a szintjét és a keretét. Az Expedíció négy modulja is megtartja a szintjét, a technológiáival együtt, és így a tár és a táplálás kapcsolója is. A készletedben lévő érc a többi tárgyhoz hasonlóan elvész: előtte rakd át az Erőforrás-raktárba.
 
-Az **expedíció** a wipe-ig el van számolva: a folyamatban lévő út véget ér, a Trófeaterem kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül (a zsákmánya törlődik, mint bármely szabad tárgy; a kredit és a Thulium azelőtt kerül a tárcádra, hogy a [felső határokat](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) alkalmaznák), a Skylab pedig az új szezont otthon kezdi, a vállalatod kikötőjében, új univerzumtérképpel, a 19 kezdő cellával ismertként és a radar sorával üresen. A Hajtóműmodulba és a Védelmi modulba beszerelt hajtóművek és lézerek szabad tárgyak, mint a többi: vedd ki őket, és tedd a tranzittárolóba, hogy megtartsd.
+Az **expedíció** a wipe-ig el van számolva: a folyamatban lévő út véget ér, a Trófeaterem kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül (a zsákmánya törlődik, mint bármely szabad tárgy; a kredit és a Thulium azelőtt kerül a tárcádra, hogy a [felső határokat](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) alkalmaznák), a Skylab pedig az új szezont otthon kezdi, a vállalatod kikötőjében, új univerzumtérképpel, a 19 kezdő cellával ismertként és a radar sorával üresen. A Hajtóműmodulba és a Védelmi modulba beszerelt hajtóművek és lézerek **ott maradnak, ahol vannak**: ugyanazok a darabok, a bennük lévő tolóegységekkel és erősítőkkel, valamint a Kovácsműhely-bónuszaikkal. Nem foglalnak helyet a tranzittárolóban. Csak a modulból kivett darab szabad tárgy, és megy a többivel, ahogy a Trófeaterem zsákmánya is, amely sehol sincs beszerelve.
 
 ## A Skylabod megtervezése {#planning-your-skylab}
 

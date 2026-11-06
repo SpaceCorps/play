@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
+<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
 <!-- wiki-i18n title: Sezonlar ve ödüller -->
 # Sezonlar ve ödüller {#seasons-and-rewards}
 
@@ -85,7 +85,7 @@ Sezon Raporu, bir şey eksikse neyin eksik olduğunu söyler.
 
 **Sıralama puanların**, **son sıfırlamadan beri** kazandıklarını sayar: bu sezon yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri. Sıfırlamada sıfırdan yeniden başlar, eski rütben geçmişine girer ve yeni sezonun rütben hiçten kurulur; bu yüzden her sezon yeni bir tırmanıştır. **Onur rütbeni belirlemez.** Toplam sayıların (seviye, deneyim, onur, öldürmeler) olduğu gibi kalır.
 
-Yeni kuralların ilk sıfırlaması, sayımı başlatan ilk sıfırlamadır. O zamana kadar sahip olduğun puanlar tüm kariyerinin puanlarıdır ve o sıfırlama sana onların verdiği rütbe için ödeme yapar. Rütbelerin en düşük puanları olduğu gibi kalır.
+6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu. 1. sezonu kapatan sıfırlama, sana tüm kariyerinin puanlarının verdiği rütbe için ödeme yaptı. Rütbelerin en düşük puanları olduğu gibi kalır.
 
 ## Sezon Raporu {#the-season-report}
 

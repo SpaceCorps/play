@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Enjambre Crystalys -->
 # Enjambre Crystalys {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ El enjambre Crystalys es un **Boss Crystalys** con sus **Crystalys Guards**: el 
 
 - **Dónde**: Los sectores de peligro `DS-1`, `DS-2`, `DS-3`
 - **Cuántos**: Uno en cada uno de esos sectores, 3 en cada mundo
-- **Aparece**: Desde el día 4 de la temporada hasta el reinicio
+- **Aparece**: Desde el día 4 de la temporada hasta el reinicio (Beta y Gamma: desde el día 1 de la temporada)
 - **Líder**: Boss Crystalys
 - **Seguidores**: Hasta 3 × Crystalys Guard, uno nuevo cada 10 s
 - **Los seguidores se mantienen**: a no más de 500 unidades del líder
@@ -29,7 +29,7 @@ El enjambre Crystalys es un **Boss Crystalys** con sus **Crystalys Guards**: el 
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
 
-- **Lleva un grupo grande.** Ocho pilotos de nivel 8 en Paragons con munición x2 lo destruyen en aproximadamente un minuto en Alpha, perdiendo como mucho una nave; cuatro necesitan munición x4, y un piloto solo es destruido.
+- **Lleva un grupo grande.** En Alpha bastan seis pilotos de nivel 8 en Paragons con munición x2 si su fuego se reparte entre ellos, nueve si va todo contra un solo piloto; con munición x4 son cinco y seis. Más pilotos terminan el combate antes y pierden menos naves, y un piloto solo es destruido.
 - **Dispara al jefe, no a los Guards.** Un Guard cae en segundos, pero llega uno nuevo con la frecuencia que dice la lista *De un vistazo*, y lo que curan los Guards es una parte pequeña de lo que causa un grupo: dejarlos en paz cuesta un poco de tiempo, perseguirlos cuesta más.
 - **Beta y Gamma son más duros.** Los enjambres de esos mundos son más fuertes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), así que piden más pilotos o mejor munición.
 - **Los sectores de peligro son PvP.** Un rival puede atacar al grupo en mitad del combate y esperar la caja: es del piloto que más daño causó (y de su clan) durante 30 segundos, y después de cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). No vayas solo.
@@ -48,13 +48,13 @@ Las cifras de las naves del enjambre en los tres mundos ([Mundos](/wiki/05-Swarm
 
 ### Boss Crystalys
 
-Base: Crystalys, con 175 % del casco y 50 % del daño de los láseres; la velocidad y el alcance son los de la nave original.
+Base: Crystalys, con 350 % del casco y 100 % del daño de los láseres; la velocidad y el alcance son los de la nave original.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 448.000 | 672.000 | 896.000 |
-| Escudo | 280.000 | 420.000 | 560.000 |
-| Daño de los láseres (una salva por segundo) | 5.000 | 7.500 | 10.000 |
+| Casco | 896.000 | 1.344.000 | 1.792.000 |
+| Escudo | 560.000 | 840.000 | 1.120.000 |
+| Daño de los láseres (una salva por segundo) | 10.000 | 15.000 | 20.000 |
 | Velocidad | 230 | 230 | 230 |
 | Alcance de los láseres | 900 | 900 | 900 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
@@ -62,7 +62,7 @@ Base: Crystalys, con 175 % del casco y 50 % del daño de los láseres; la velo
 | Thulium | 1.050 | 2.100 | 3.150 |
 | Experiencia (XP) | 63.000 | 126.000 | 189.000 |
 | Honor | 273 | 546 | 819 |
-| Puntos PvE por derribo | 21 | 21 | 21 |
+| Puntos PvE por derribo | 30 | 30 | 30 |
 
 **Botín**: una caja, para el piloto que más daño causó.
 

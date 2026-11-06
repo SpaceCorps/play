@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -39,7 +39,7 @@ Conclui **uma melhoria do Skylab na hora**: escolha o módulo que está sendo me
 
 - **O preço continua pago.** O que a melhoria custou foi cobrado quando você a iniciou. O Hammer não reembolsa nada disso e não pede mais nada.
 - **Só uma melhoria em andamento.** Um módulo que não está sendo melhorado, ou cuja melhoria acabou de terminar sozinha, é recusado («Nada para concluir: esse módulo não está em melhoria.») e o Hammer fica com você.
-- **Extremamente raro.** O Skylab mantém os seus níveis através do reset, então um Hammer vale o tempo de uma etapa, até 6 dias no Núcleo. O jogo permite a um piloto no máximo **um a cada 60 dias**, e você pode ter 5.
+- **Extremamente raro.** O Skylab mantém os seus níveis através do reset, então um Hammer vale o tempo de uma etapa, até 6 dias no Núcleo. Não há tempo de espera entre dois Hammer, e você pode ter 5.
 - **O Engineer** (um [Workforce Contract](#workforce-contract)) encurta as melhorias em até 1 hora; o Hammer leva tudo o que resta.
 
 ### Schematics
@@ -98,7 +98,7 @@ O Hauler só levanta a cota. Todo o resto da [Baía de minério](/wiki/03-Mechan
 - **Uma contagem, não um item.** O inventário do Hangar é o único lugar que os lista, como blocos entre os consumíveis; um tipo de que você não tem nenhum não tem bloco. Um bloco não é um item, então não pode ser arrastado, selecionado, excluído nem vendido. Eles não têm peso, nem espaço na barra de atalhos, nem lugar na carga ou no Cache de Transporte; nunca caem quando a sua nave é destruída.
 - **Através do reset.** Os seus itens especiais e uma Philosopher's Stone ou um contrato em andamento são mantidos, como o Skylab, a pesquisa e o seu visual.
 - **Nunca negociados.** Nem no [Leilão](/wiki/03-Mechanics/Auction.md), nem a outro piloto, nem por créditos.
-- **Só o Hammer pode mudar o seu ritmo**, e ele é limitado a um a cada 60 dias. Os outros cinco são pequenos de propósito: 10 horas de duas minas, 1 hora de um trabalhador, um grau, 30 minutos de uma fila, uma pesquisa de no máximo 24 horas.
+- **Só o Hammer pode mudar o seu ritmo**, e você só pode ter 5. Os outros cinco são pequenos de propósito: 10 horas de duas minas, 1 hora de um trabalhador, um grau, 30 minutos de uma fila, uma pesquisa de no máximo 24 horas.
 - **Um uso, uma confirmação, um som.** Cada uso toca o seu próprio sinal discreto.
 
 ## Erros comuns {#common-mistakes}

@@ -11,7 +11,7 @@ A Seeker-raj a [rajok](/wiki/05-Swarms/Swarms.md) legkisebbike: egy **Boss Seeke
 
 - **Hol**: Minden vállalat `x-1` és `x-2` szektora
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 6
-- **Megjelenik**: A szezon 4. napjától a wipe-ig
+- **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Boss Seeker
 - **Kísérők**: Legfeljebb 4 × Seeker Slave, mindig 10 mp múlva egy újabb
 - **A kísérők közel maradnak**: legfeljebb 500 egységre a vezértől

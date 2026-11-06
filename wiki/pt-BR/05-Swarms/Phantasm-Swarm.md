@@ -11,7 +11,7 @@ O enxame Phantasm é um **Boss Phantasm** com seus **Phantasm Guards**: um [Phan
 
 - **Onde**: Os setores `x-3` e `x-4` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Boss Phantasm
 - **Seguidores**: Até 4 × Phantasm Guard, um novo a cada 10 s
 - **Os seguidores ficam a**: até 500 unidades do líder

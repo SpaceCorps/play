@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## 1分でわかる要点 {#in-one-minute}
 
 - **Dark Matter は資源で、どこでも単に Dark Matter と呼ばれます。** 危険セクター 4（`DS-4`）の中心にあるブラックホールが作ります。ブラックホールに届いた N.I.K.E. ロケット1発につき Dark Matter が1～3個（平均2個）、その領域の縁にある小さなコンテナに入って返ってきます。
-- **何に使うか。** 研究センターの107の技術が要求し、1つにつき5～60個、合計1,354個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。
+- **何に使うか。** 研究センターの107の技術が要求し、1つにつき5～60個、合計1,354個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
 - **研究センターでは**、開始を押す前に、貨物から Dark Matter を追加します（艦を着陸させた状態で）。研究は開始時にそれを受け取ります。
 - **Dark Matter Plate は別のアイテムです。** まずそのレシピを研究し（ツリーの資源グループ：1日と Dark Matter 10個）、そのあとアセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から製作します。
 - **プレートの使い道。** 各強化系統の最終ティアは **4枚** と Ancient Control Unit 1個以上を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II です（13個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールも、建設とアップグレードにプレートを必要とします（[資源](/wiki/06-Items/Resources.md#dark-matter-plate)）。

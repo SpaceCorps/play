@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: Tehlike Sektörleri -->
 # Tehlike Sektörleri {#danger-sectors}
 
@@ -12,11 +12,11 @@ Eski galaksinin bir uygarlığı burada yaşadı: gelişmiş ve mor-siyah bir uy
 
 ## 11. günden itibaren yenilikler {#what-is-new-from-day-11}
 
-- **Dev ekskavatörler.** `DS-1`, `DS-2` ve `DS-3` sektörlerinin her birinde sezonun ilk gününden itibaren bir pulsar vardır; gökyüzünde bir ışıktan ibarettir; 11. günden itibaren her birinin yanına bir **dev ekskavatör** gelir. Ekskavatörün deposuna Dark Matter koy, bir kaynak seç; pulsarı kazar: Thulium ve nadir cevherler çevresine, herkesin alabileceği kutular hâlinde düşer. Tehlike Sektörleri’nde uğrunda savaşılacak en zengin şey budur ve en tehlikelisidir. Bkz. [Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Dev ekskavatörler.** `DS-1`, `DS-2` ve `DS-3` sektörlerinin her birinde sezonun ilk gününden itibaren bir pulsar vardır; gökyüzünde bir ışıktan ibarettir; 11. günden itibaren her birinin yanına bir **dev ekskavatör** gelir. Ekskavatörün deposuna Dark Matter koy, bir kaynak seç; pulsarı kazar: Thulium ve nadir cevherler çevresine, herkesin alabileceği kutular hâlinde düşer. Tehlike Sektörleri’nde uğrunda savaşılacak en zengin şey budur ve en tehlikelisidir. Bkz. [Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md). Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 - **Slumbering Void.** Bir ekskavatör kazarken **Slumbering Void** gemileri haritanın kenarından dalgalar hâlinde uçarak gelir ve yakınındaki pilotları avlar. Diğerleri bataklıkta devriye gezer. Bkz. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **Dormant Swamp.** `DS-4` sektörünün bir köşesinde kayıp uygarlığın üssü durur: gördükleri her gemiye ateş eden toplar, onu koruyan Inert Mass varlıkları ve ortada The Unwakened. Pilotların henüz ziyaret etmemesi gereken bir yerdir. Bkz. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Daha hızlı, daha zengin bir Dormant sürüsü.** Sürü artık bataklıkta belirir, yok edildikten sonra daha çabuk geri gelir ve iki kat daha fazla öder. Bkz. [Dormant sürüsü](/wiki/05-Swarms/Dormant-Swarm.md).
-- **11. günden önce** yalnızca pulsarlar parlar: Tehlike Sektörleri, bunun dışında [Uzay haritasında seyahat](/wiki/01-General/Spacemap%20Travel.md) sayfasında anlatıldığı gibidir. 11. günde ya da daha sonrasında olan bir dünyada hepsi bir arada vardır.
+- **11. günden önce** yalnızca pulsarlar parlar: Tehlike Sektörleri, bunun dışında [Uzay haritasında seyahat](/wiki/01-General/Spacemap%20Travel.md) sayfasında anlatıldığı gibidir. 11. günde ya da daha sonrasında olan bir dünyada hepsi bir arada vardır. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 
 ## Davidski
 
@@ -42,7 +42,7 @@ Her dünyanın bunların hepsinin kendi kopyası vardır ve bir pulsar ile ekska
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- Pulsarlar sezonun ilk gününden itibaren parlar; yeni olan geri kalan her şey sezonun 11. gününde belirir ve sıfırlamaya kadar kalır.
+- Pulsarlar sezonun ilk gününden itibaren parlar; Beta ve Gamma dünyalarında dev ekskavatörler de sezonun 1. gününden itibaren yerindedir. Yeni olan geri kalan her şey sezonun 11. gününde belirir ve hepsi sıfırlamaya kadar kalır.
 - Her dünyanın kendi pulsarları, ekskavatörleri ve bataklığı vardır: birinde olan diğerinde olmaz.
 - Pulsarın 2.600 birim, dev ekskavatörün 2.200 birim ve Dormant Swamp ortasının 4.900 birim yakınında hiçbir asteroit bulunmaz.
 

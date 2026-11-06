@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Rütbeler -->
 # Rütbeler {#ranks}
 
@@ -13,7 +13,7 @@ Her pilotun Genç Pilot ile Kıdemli Amiral arasında bir **rütbesi** vardır. 
 - Bir listede yalnızca PvE puanı olan ve son 30 günde uçmuş pilotlar bulunur. Diğer herkes yeniden uçana kadar Genç Pilot rütbesinde sayılır ve hiçbir kontenjan tutmaz.
 - Simgenin üzerindeki **altın taç**, tüm sunucuda en çok PvE puanı olan pilotu işaretler: her şirket, üç dünyanın hepsi.
 - Rütben değişir. Kıdemli Albay rütbesine kadar yalnızca puanına bağlıdır; bu yüzden asla düşmez, yalnızca yükselir. En iyi altı rütbe şirketindeki diğer pilotlarla da değişir: başkaları senin üstündeki kontenjanları alırsa düşebilirsin. Düşüş asla duyurulmaz; yeni bir en iyi rütbe duyurulur.
-- Sıfırlamada puanlar sıfırdan yeniden başlar, bu yüzden listeler baştan başlar ve her sezon yeni bir tırmanıştır. Sezon rütben geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Bu, yeni kuralların ilk sıfırlamasıyla başlar: o zamana kadar puanların tüm kariyerinin puanlarıdır.)
+- Sıfırlamada puanlar sıfırdan yeniden başlar, bu yüzden listeler baştan başlar ve her sezon yeni bir tırmanıştır. Sezon rütben geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu.)
 - Bir adın önündeki simge rütbedir: kademe için bir şekil, derece için bir ila üç işaret.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Uçuşta **yalnızca simgeyi** görürsün, sözcükleri asla. Simge pilotun ad�
 
 Sıfırlamada PvE puanların sıfırdan yeniden başlar, bu yüzden şirketinin listesi baştan başlar ve her sezon yeni bir tırmanıştır. Yalnızca bir sıfırlamadan sonra kazandıkların sayılır: yeni sezonda yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri ([Taze puanlar](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Seviyen, deneyimin ve öldürme istatistiklerin toplam sayılarında kalır. **Onur rütbeni belirlemez.** Sıfırlama anında taşıdığın rütbe, listedeki yerinle birlikte sezon geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Rütben ömür boyu da değildir: en iyi altı rütbe, şirketindeki diğer pilotlarla birlikte hareket eder ve 30 gün uzak kalan bir pilot, yeniden uçana kadar listeden çıkar.
 
-Yeni kuralların ilk sıfırlaması, puanları yeniden başlatan ilk sıfırlamadır: o zamana kadar bunlar tüm kariyerinin puanlarıdır ve o sıfırlama, listenin o an gösterdiği rütbelerle bir sezonu kapatır.
+6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu: puanları o sıfırlamadan itibaren sayılır. 1. sezonu kapatan sıfırlama, 1. sezonun rütbelerini tüm kariyerinin puanlarına göre ödedi.
 
 ## Ne kadar sürer {#how-long-it-takes}
 

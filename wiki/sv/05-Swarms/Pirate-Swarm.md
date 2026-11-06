@@ -11,7 +11,7 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 
 - **Var**: Sektorerna `x-2` och `x-3` i varje koncern
 - **Hur många**: En i var och en av de sektorerna, 6 i varje värld
-- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Pirate Boss
 - **Följeslagare**: Upp till 5 × Pirate Scout, en ny var 10 s
 - **Följeslagarna håller sig inom**: högst 900 enheter från ledaren

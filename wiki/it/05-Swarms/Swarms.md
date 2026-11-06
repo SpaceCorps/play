@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -29,20 +29,20 @@ I **Custodi del clan** non sono sciami pubblici. Un clan convoca il proprio Cust
 | [**Sciame Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | I settori `x-3` e `x-4` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Phantasm** | Fino a 4 × Phantasm Guard, uno nuovo ogni 10 s | 2 min dopo la distruzione del capo, nello stesso settore |
 | [**Sciame Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | I settori `x-3` e `x-4` di ogni corporazione | Uno in ciascuno di quei settori, 6 in ogni mondo | **Boss Goombah** | Fino a 4 × Goombah Guard, uno nuovo ogni 10 s | 5 min dopo la distruzione del capo, nello stesso settore |
 | [**Sciame Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | I settori pericolosi `DS-1`, `DS-2`, `DS-3` | Uno in ciascuno di quei settori, 3 in ogni mondo | **Boss Crystalys** | Fino a 3 × Crystalys Guard, uno nuovo ogni 10 s | 30 min dopo la distruzione del capo, nello stesso settore |
-| [**Sciame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Il settore pericoloso `DS-4` | Uno in ogni mondo | **Tesseract** | Fino a 50 × Facet, altri 10 ogni 5 s finché il capo viene colpito | 30 min dopo la distruzione del capo, nello stesso settore |
+| [**Sciame Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Il settore pericoloso `DS-4` | Uno in ogni mondo | **Tesseract** | Fino a 100 × Facet, altri 20 ogni 5 s finché il capo viene colpito | 30 min dopo la distruzione del capo, nello stesso settore |
 
 <!-- swarms-list:end -->
 
 ## Quando e dove {#when-and-where}
 
-Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al reset (vedi la [Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md); il giorno è la prima riga delle regole qui sotto). **Ogni mondo ha i suoi sciami** negli stessi posti: il Pirate Boss di Alpha e quello di Beta sono due navi diverse, e uno sciame che distruggi nel tuo mondo non è distrutto in un altro. Uno sciame distrutto torna dopo il tempo indicato nella tabella qui sopra. Lo Sciame Dormant cambia al giorno 11 della stagione (evento 2): compare nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), ritorna prima e paga il doppio.
+Gli sciami cominciano ad apparire con il **Primo contatto** e restano fino al reset (vedi la [Cronologia del reset](/wiki/03-Mechanics/Wipe-Timeline.md); il giorno è la prima riga delle regole qui sotto). **Ogni mondo ha i suoi sciami** negli stessi posti: il Pirate Boss di Alpha e quello di Beta sono due navi diverse, e uno sciame che distruggi nel tuo mondo non è distrutto in un altro. Uno sciame distrutto torna dopo il tempo indicato nella tabella qui sopra. Lo Sciame Dormant cambia al giorno 11 della stagione (evento 2): compare nel [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), ritorna prima e paga il doppio. In Beta e Gamma gli sciami compaiono dal primo giorno della stagione.
 
 ## Le regole di ogni sciame {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Gli sciami compaiono dal giorno 4 della stagione fino al reset.
+- Gli sciami compaiono dal giorno 4 della stagione fino al reset; in Beta e Gamma compaiono dal giorno 1 della stagione.
 - Quando una nave di sciame viene colpita, le navi del suo sciame entro 1.500 unità da essa si uniscono allo scontro contro il primo pilota che l’ha colpita.
 - Un capo compare ad almeno 2.500 unità dal bordo di ogni anello di stazione e di porta.
 - Un pilota che ha inflitto almeno 5% del danno fatto a un boss viene pagato per il suo abbattimento.
@@ -70,7 +70,7 @@ Gli sciami Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avvisano i p
 
 ## Combattere uno sciame {#fighting-a-swarm}
 
-- **I capi non iniziano mai uno scontro.** Un capo vaga finché un pilota non lo colpisce, poi risponde, e le navi del suo sciame vicine a lui si uniscono allo scontro contro il primo pilota che lo ha colpito (la distanza è nelle regole qui sopra). I Pirate Scout sono l’eccezione: attaccano qualsiasi pilota si avvicini. Un capo non ripara mai da solo il suo scafo, quindi il danno che hai inflitto resta su di lui, a meno che i suoi seguaci non lo curino; il suo scudo si ricarica come quello di ogni alieno. Solo il Tesseract è diverso: non ha armi, ripara da solo scafo e scudo non appena nessuno lo ferisce per qualche secondo, e i suoi Facet danno la caccia al pilota che ha inflitto più danno, non al primo che lo ha colpito.
+- **I capi non iniziano mai uno scontro.** Un capo vaga finché un pilota non lo colpisce, poi risponde, e le navi del suo sciame vicine a lui si uniscono allo scontro contro il primo pilota che lo ha colpito (la distanza è nelle regole qui sopra). I Pirate Scout sono l’eccezione: attaccano qualsiasi pilota si avvicini. Un capo non ripara mai da solo il suo scafo, quindi il danno che hai inflitto resta su di lui, a meno che i suoi seguaci non lo curino; il suo scudo si ricarica come quello di ogni alieno. Solo il Tesseract è diverso: non ha armi, ripara da solo scafo e scudo non appena nessuno lo ferisce per qualche secondo, e i suoi Facet volano intorno a lui e sparano al pilota più vicino che lo ha colpito, invece di dare la caccia al primo che lo ha colpito.
 - **Le navi di sciame combattono solo i piloti.** Non sparano agli alieni e gli alieni non sparano a loro, e i [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) le ignorano: non danno la caccia a una nave di sciame né vengono in tuo aiuto contro una.
 - **Razzi.** Il Pirate Boss, la Dormant Force e le Pulse sparano razzi **dritti**, i [razzi Rivet](/wiki/06-Items/Rockets.md), al pilota che le ha attaccate. Una nave che resta in movimento li schiva, una ferma viene colpita.
 - **La taglia degli scontri.** Lo sciame Seeker è per due piloti, gli sciami Pirate e Phantasm per un piccolo gruppo, lo sciame Goombah per un gruppo delle navi più forti, gli sciami Crystalys e Dormant per un grande gruppo di esse, lo sciame Tesseract per uno molto grande; i mondi più alti richiedono più piloti, come per ogni alieno.
@@ -109,7 +109,7 @@ Ogni abbattimento viene contato con il nome proprio della nave nelle tue statist
 | **Phantasm Guard** | Sciame Phantasm | 1 |
 | **Boss Goombah** | Sciame Goombah | 14 |
 | **Goombah Guard** | Sciame Goombah | 3 |
-| **Boss Crystalys** | Sciame Crystalys | 21 |
+| **Boss Crystalys** | Sciame Crystalys | 30 |
 | **Crystalys Guard** | Sciame Crystalys | 6 |
 | **Tesseract** | Sciame Tesseract | 42 |
 | **Facet** | Sciame Tesseract | 0 |

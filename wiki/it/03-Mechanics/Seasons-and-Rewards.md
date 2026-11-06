@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
+<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
 <!-- wiki-i18n title: Stagioni e ricompense -->
 # Stagioni e ricompense {#seasons-and-rewards}
 
@@ -85,7 +85,7 @@ Il Rapporto di stagione ti dice cosa mancava, se mancava qualcosa.
 
 I tuoi **punti classifica** contano ciò che hai guadagnato **dall’ultimo reset**: i livelli saliti, l’esperienza e gli abbattimenti di alieni di questa stagione. Al reset ricominciano da zero, il tuo vecchio grado entra nella tua cronologia e il tuo grado della nuova stagione si costruisce dal nulla, quindi ogni stagione è una nuova scalata. **L’onore non determina il tuo grado.** I tuoi totali (livello, esperienza, onore, abbattimenti) restano come sono.
 
-Il primo reset delle nuove regole è il primo a far partire il conteggio. Fino ad allora i punti che hai sono quelli di tutta la tua carriera, e quel reset ti paga per il grado che ti danno. I punti minimi dei gradi restano come sono.
+La stagione 2, iniziata con il reset del 6 novembre 2026, è stata la prima a contare così. Il reset che ha chiuso la stagione 1 ti ha pagato per il grado che ti davano i punti di tutta la tua carriera. I punti minimi dei gradi restano come sono.
 
 ## Il Rapporto di stagione {#the-season-report}
 

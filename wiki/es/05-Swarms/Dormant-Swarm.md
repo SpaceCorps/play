@@ -11,7 +11,7 @@ El enjambre Dormant es una **Dormant Force** con sus **Dormant Pulses**: un grup
 
 - **Dónde**: Los sectores de peligro `DS-1`, `DS-2`, `DS-3`, `DS-4`, volando de uno a otro
 - **Cuántos**: Uno en cada mundo
-- **Aparece**: Desde el día 4 de la temporada hasta el reinicio
+- **Aparece**: Desde el día 4 de la temporada hasta el reinicio (Beta y Gamma: desde el día 1 de la temporada)
 - **Líder**: Dormant Force
 - **Seguidores**: 2 × Dormant Pulse, que vuelan con el líder
 - **Los seguidores se mantienen**: a no más de 700 unidades del líder

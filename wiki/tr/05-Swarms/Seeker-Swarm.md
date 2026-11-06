@@ -11,7 +11,7 @@ Seeker sürüsü, [sürülerin](/wiki/05-Swarms/Swarms.md) en küçüğüdür: b
 
 - **Yer**: Her şirketin `x-1` ve `x-2` sektörleri
 - **Kaç tane**: Bu sektörlerin her birinde bir tane, her dünyada 6 tane
-- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar
+- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Boss Seeker
 - **Takipçiler**: En fazla 4 × Seeker Slave, 10 sn aralıkla yenisi çıkar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim

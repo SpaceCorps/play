@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter und Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## In einer Minute {#in-one-minute}
 
 - **Dark Matter ist eine Ressource und heißt überall einfach Dark Matter.** Das Schwarze Loch in der Mitte von Gefahrensektor 4 (`DS-4`) stellt es her: Jede N.I.K.E.-Rakete, die das Loch erreicht, bringt 1 bis 3 Dark Matter zurück (im Schnitt 2), in kleinen Kisten am Rand seiner Zone.
-- **Wofür es gut ist.** 107 Technologien des Forschungszentrums verlangen es, je 5 bis 60 und insgesamt 1.354, und die Montage presst daraus die Dark Matter Plate. Ab Saisontag 11 verbrennt auch ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) es als Treibstoff: Ein Tank sind wenige Dark Matter, und es ist verloren, wenn der Bagger zerstört wird.
+- **Wofür es gut ist.** 107 Technologien des Forschungszentrums verlangen es, je 5 bis 60 und insgesamt 1.354, und die Montage presst daraus die Dark Matter Plate. Ab Saisontag 11 verbrennt auch ein [Riesenbagger](/wiki/03-Mechanics/Giant-Excavator.md) es als Treibstoff: Ein Tank sind wenige Dark Matter, und es ist verloren, wenn der Bagger zerstört wird. In Beta und Gamma stehen die Riesenbagger ab dem ersten Tag der Saison.
 - **Im Forschungszentrum** fügst du Dark Matter aus deinem Frachtraum hinzu (bei gelandetem Schiff), bevor du auf Start drückst. Die Forschung nimmt es beim Start.
 - **Eine Dark Matter Plate ist ein anderer Gegenstand.** Erforsche zuerst ihr Rezept (die Gruppe Ressourcen im Baum: 1 Tag und 10 Dark Matter), dann stellst du sie in der Montage her, aus 5 Dark Matter, einer Velkonite Reinforced Plate, einer Orvium Reinforced Plate und 250 Thulium.
 - **Wofür eine Plate gut ist.** Die letzte Stufe jeder Aufwertungskette verlangt **4** und mindestens eine Ancient Control Unit: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II (13 Teile). Die Schmiede verlangt 2 davon, um einen Gegenstand von Göttlich auf Berstend zu heben, und 2 weitere von Berstend auf Ewig. Auch das Triebwerks-, das Verteidigungs- und das Radarmodul des Skylab verlangen Platten, zum Bauen und zum Aufwerten ([Ressourcen](/wiki/06-Items/Resources.md#dark-matter-plate)).

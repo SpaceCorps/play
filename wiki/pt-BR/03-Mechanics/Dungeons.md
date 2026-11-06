@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: a3ead40fe6402d78 -->
+<!-- wiki-i18n source: 76933ad9dd56b71f -->
 <!-- wiki-i18n title: Masmorras -->
 # Masmorras {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; masmorra; masmorras; portão; portões; senhor da guerra; labirinto; fase; zona de saque; carta -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; masmorra; masmorras; portão; portões; senhor da guerra; labirinto; fase; zona de saque; carta; portal; portal do clã; booster; névoa; guardiões; sala inicial; sala trancada; apoio do enxame; zona do caos; alertas de portão do clã -->
 
 Uma **masmorra** é o que o jogo chama de **portão**: um labirinto fechado com um **Senhor da guerra** no fim. Um vice-líder ou o líder de um [clã](/wiki/03-Mechanics/Clans.md) abre um e o paga com o banco do clã, e os membros do clã voam juntos para dentro como um único [grupo](/wiki/03-Mechanics/Groups.md). Eles abrem caminho entre os alienígenas do labirinto, abrem zonas de saque para escolher uma carta em cada uma e derrubam o Senhor da guerra. Todo piloto que participou da luta é pago quando o Senhor da guerra cai, dentro dos limites mais abaixo. Os portões ficam na aba **Portões** da página do clã.
 
@@ -13,7 +13,7 @@ Um portão é uma luta só contra os alienígenas: ninguém pode atacar dentro d
 <!-- dungeons-glance:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-- **Abre**: A partir do dia 4 da temporada
+- **Abre**: A partir do dia 1 da temporada
 - **Quem abre um portão**: Um vice-líder ou o líder, que paga o preço com o banco do clã
 - **Grupo**: De 4 a 10 membros do clã, em um só grupo
 - **Portões por dia**: 3 por clã em um dia UTC, um aberto por vez
@@ -21,7 +21,7 @@ Um portão é uma luta só contra os alienígenas: ninguém pode atacar dentro d
 - **Mapas**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labirintos**: 8; um é sorteado quando um portão é aberto
 - **Reunião**: 10 min para reunir e iniciar. Um portão que ninguém inicia se fecha, e o preço volta ao banco do clã
-- **Limite de tempo**: Fase 1: 80 min, Fase 2: 110 min, Fase 3: 150 min a partir do início. Quando esgota, o portão falha e não paga nada
+- **Limite de tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min a partir do início. Quando esgota, o portão falha e não paga nada
 - **Vazio**: Um portão sem ninguém dentro por 3 min falha
 - **Depois que o Senhor da guerra cai**: O portão fica aberto por 2 min, para os pilotos que estão dentro
 - **Voltar**: Um piloto que saiu ou foi destruído pode voltar a entrar voando 3 vezes, com 20 s entre elas
@@ -31,12 +31,13 @@ Um portão é uma luta só contra os alienígenas: ninguém pode atacar dentro d
 ## Como é uma partida {#how-a-run-goes}
 
 1. **Invocar.** Na aba Portões, um [vice-líder ou o líder](/wiki/03-Mechanics/Clans.md#hierarchy-roles) escolhe uma fase e aperta **Invocar**. O preço sai do [banco do clã](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), e o portão recebe um dos mapas listados acima. Um portão que ninguém inicia se fecha, e o preço volta ao banco.
-2. **Entrar.** Os membros do clã apertam **Entrar** na janela do Clã enquanto estão voando. Os pilotos lá dentro formam o grupo do portão.
-3. **Iniciar.** O piloto que abriu o portão, ou um oficial, aperta **Iniciar** quando há pilotos suficientes lá dentro. Depois disso, só podem voltar os pilotos que já estavam dentro.
-4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra. Os alienígenas dormem em suas salas e acordam em bandos quando o grupo se aproxima.
+2. **Entrar.** Os membros do clã apertam **Entrar** na janela do Clã enquanto estão voando, saltam pelo portal do clã ou apertam **Entrar** no cartão de aviso (veja Entrar). Todos pousam na sala inicial, e os pilotos lá dentro formam o grupo do portão.
+3. **Iniciar.** A sala inicial é uma sala pequena numa ponta do labirinto, e a porta dela fica fechada enquanto o portão se reúne. Não há alienígenas nela, então é seguro esperar ali. O portão **inicia sozinho** quando todos os pilotos que ele espera estão dentro e o grupo é grande o bastante. Ele espera os membros do clã que estão online, não ausentes e no grupo de um piloto que entrou, e inicia na hora quando o grupo está cheio. O piloto que abriu o portão, ou um oficial, pode apertar **Iniciar** para começar mais cedo com os pilotos que estiverem dentro, se forem o bastante. Um piloto que sai deixa de ser esperado. Quando o portão inicia, a porta se abre para sempre, e depois disso só podem voltar os pilotos que já estavam dentro.
+4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra, numa sala trancada. O labirinto é escuro: você só vê o que o grupo explorou e o que está perto das naves dele. Os alienígenas dormem em bandos nos corredores, e um bando que acorda caça o grupo pelo labirinto.
 5. **Abrir as zonas de saque.** Anéis no labirinto marcam as zonas. Segure uma e o grupo vota numa carta, que é paga junto com o pagamento do Senhor da guerra.
-6. **Derrotar o Senhor da guerra.** Quebre seu escudo e seu casco e responda às suas habilidades. Quando ele cai, o portão está concluído.
-7. **Ser pago.** O pagamento vem no momento em que o Senhor da guerra cai. O portão continua aberto um pouco mais para os pilotos lá dentro e depois se fecha.
+6. **Destrancar a sala do chefe.** Destrua os guardiões, os Crystalys e seus Gêmeos, e a porta da sala do Senhor da guerra se abre. Até lá, o Senhor da guerra não pode ser ferido.
+7. **Derrotar o Senhor da guerra.** Quebre seu escudo e seu casco e responda às suas habilidades. Quando ele cai, o portão está concluído.
+8. **Ser pago.** O pagamento vem no momento em que o Senhor da guerra cai. O portão continua aberto um pouco mais para os pilotos lá dentro e depois se fecha.
 
 ## Entrar {#entering}
 
@@ -44,11 +45,21 @@ Para entrar em um portão você precisa de uma **nave em voo**, então decole pr
 
 Um vice-líder ou o líder abre um portão, um de cada vez para o clã, e só até o número de portões por dia. O banco do clã precisa ter o preço. Um clã só pode abrir uma fase depois de concluir a anterior.
 
-Dentro de um portão você não pode trocar de mundo, e a Jump CPU e a Base CPU não funcionam. O botão **Sair** da barra do portão leva você para fora depois de confirmar. Um piloto que saiu, ou que foi destruído, pode voltar algumas vezes, com uma curta espera entre elas.
+Dentro de um portão você não pode trocar de mundo, e a Jump CPU e a Base CPU não funcionam. O botão **Sair** da janela Portão do clã leva você para fora. Ele pede confirmação antes, a não ser que o Senhor da guerra já tenha caído: aí você sai na hora. Um piloto que saiu, ou que foi destruído, pode voltar algumas vezes, com uma curta espera entre elas.
+
+### O portal do clã e o aviso {#the-clan-portal-and-the-call}
+
+Quando um portão é aberto, o clã ganha um **portal** para ele no mapa de origem de cada corporação (`M-1`, `T-1` e `G-1`), um pouco fora da zona segura da estação. Só os pilotos do clã o veem: para todos os outros ele não existe. Ele não tem zona segura própria. Voe até ele e salte como em qualquer outro portal, e ele leva você ao portão com as regras de **Entrar**: uma nave em voo, um grupo com membros suficientes do clã, o nível da fase e vaga no grupo. Depois que o portão inicia, só os pilotos que já estavam dentro podem usá-lo. O portal some quando o portão termina.
+
+Enquanto o portão do seu clã se reúne e você voa em outro lugar, um **aviso** chega a você: um cartão no alto da tela de voo, com um som. Ele diz quem abriu o portão, quantos pilotos estão dentro e por quanto tempo o portão fica aberto. O botão **Entrar** do cartão leva você para dentro, como **Entrar** na aba Portões, e quando você sai do portão sua nave volta para onde estava. Esse botão fica esmaecido enquanto o seu grupo é pequeno demais. **Agora não** esconde o cartão desse portão. Se o seu grupo já está dentro e o portão espera por você, o cartão diz isso. O cartão chega aos pilotos do clã que estão voando (não aos que estão ancorados numa estação) e que têm o nível que a fase pede. Você pode desligar o cartão e o som dele em **Alertas de portão do clã**, em Configurações › Geral › Grupos.
+
+### A janela Portão do clã {#the-clan-dungeon-window}
+
+Dentro de um portão a partida tem uma janela própria, **Portão do clã**. Ela mostra o tempo que passou e o que resta, quantos alienígenas voam e quantos foram destruídos, o que o grupo deve fazer agora (explorar o labirinto, segurar uma zona, achar o chefe, destruir os guardiões, derrotar o Senhor da guerra), as barras de casco do grupo, a barra de retenção enquanto você está numa zona, a habilidade do Senhor da guerra com a contagem regressiva e o botão **Sair**. É uma janela como as outras: arraste pela barra de título e feche com a luz vermelha no canto. Ela abre sozinha quando você entra num portão, uma vez para cada portão: se você a fecha, ela fica fechada até o próximo portão. A barra de ferramentas tem um botão **Portão do clã** para ela enquanto você está num portão. Com a janela fechada, uma habilidade do Senhor da guerra que está para começar ou em andamento aparece como uma faixa de uma linha com o nome e a contagem regressiva. Clique na faixa para abrir a janela de novo.
 
 ## As fases {#the-stages}
 
-Um portão tem uma fase, e a fase é a sua dificuldade. Uma fase mais alta tem alienígenas mais resistentes que batem mais forte, e paga mais. Os multiplicadores da tabela valem para todo alienígena e para o Senhor da guerra. Dano significa lasers, foguetes e as habilidades do Senhor da guerra. A tabela também diz quantos alienígenas uma fase manda em comparação com a primeira. O **preço** é tirado do banco do clã quando o portão é aberto.
+Um portão tem uma fase, e a fase é a dificuldade dele. Uma fase mais alta tem alienígenas mais resistentes que batem mais forte, e paga mais. Os multiplicadores da tabela são os dos alienígenas. Dano quer dizer os lasers e foguetes deles. O Senhor da guerra não segue a tabela: ele tem números próprios para cada fase, mais abaixo. A tabela também diz quantos alienígenas uma fase envia em comparação com a primeira. O **preço** sai do banco do clã quando o portão é aberto.
 
 <!-- dungeons-stages:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -56,30 +67,34 @@ Um portão tem uma fase, e a fase é a sua dificuldade. Uma fase mais alta tem a
 | Fase | Requisito | Casco e escudo dos alienígenas | Número de alienígenas | Dano dos alienígenas | Preço do portão (créditos, do banco do clã) |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | **Fase 1** | A partir do nível 6 | ×1 | ×1 | ×1 | 500.000 |
-| **Fase 2** | A partir do nível 7 | ×1,5 | ×1 | ×1,25 | 1.000.000 |
-| **Fase 3** | A partir do nível 8 | ×2,5 | ×1 | ×1,5 | 2.000.000 |
+| **Fase 2** | A partir do nível 7 | ×1,5 | ×1 | ×1,5 | 1.000.000 |
+| **Fase 3** | A partir do nível 8 | ×2 | ×1 | ×2 | 2.000.000 |
 
 <!-- dungeons-stages:end -->
 
 ## O labirinto {#the-maze}
 
-Cada portão é um labirinto fechado em um mapa próprio, um dos mapas da lista acima, e o labirinto é um de vários desenhos. Um labirinto é uma grade de salas e corredores com paredes sólidas. As naves não atravessam uma parede, e uma parede bloqueia os tiros, então serve de abrigo. Um meteoro cai de cima, e uma parede não o detém.
+Cada portão é um labirinto fechado num mapa próprio, um dos mapas da lista acima, e o labirinto é um de vários desenhos. O labirinto ocupa o mapa inteiro, de borda a borda: uma grade de salas e corredores com paredes sólidas. As naves não atravessam uma parede, e uma parede bloqueia os tiros, então é cobertura. Um meteoro cai de cima, e uma parede não o detém.
+
+**Salas e portas.** A sala inicial, onde você pousa, e a sala do Senhor da guerra, na ponta oposta, têm cada uma uma porta. Uma porta fechada é uma parede para naves, tiros e alienígenas. A porta inicial abre quando o portão inicia. A do Senhor da guerra fica trancada até os guardiões serem destruídos (veja [A sala trancada](#the-locked-room)). Entre as duas, o labirinto tem uma sala de saque para cada zona de saque.
+
+**Névoa.** O labirinto é escuro. Em voo você vê as paredes e os alienígenas dele só onde o grupo esteve, e um trecho curto em volta de cada nave do grupo. Uma sala conta como explorada assim que um de vocês está nela. O minimapa é igual: uma carta do andar inteiro que se preenche conforme o grupo explora, com a entrada, a porta do Senhor da guerra, as zonas que vocês acharam e o Senhor da guerra depois de achado. Os pilotos do seu próprio grupo sempre aparecem.
 
 ## Os alienígenas {#the-aliens}
 
-Quatro tipos de alienígenas guardam o labirinto. Eles dormem em suas salas e acordam quando um piloto se aproxima. O portão mantém no ar só um certo número de alienígenas ao mesmo tempo, e esse número cresce com o tamanho do grupo, então um bando que você destrói deixa o próximo entrar. Um grupo maior enfrenta mais alienígenas em proporção, um menor enfrenta menos, e um tipo de alienígena nunca fica abaixo de um.
+Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corredores, nunca numa sala, e um bando acorda quando um piloto se aproxima. Um bando acordado não espera por você: ele caça o grupo pelo labirinto, e um bando que perde todo mundo volta para onde dormia e se cura. Alguns bandos estão acordados desde o primeiro segundo, parados nos corredores longe da entrada, até um piloto se aproximar. O portão mantém só um certo número de alienígenas no ar de cada vez, e esse número cresce com o tamanho do grupo, então um bando que acorda pode ter de esperar vaga, e um bando que você destrói deixa o próximo entrar. Um grupo maior encontra mais alienígenas, em proporção, um menor encontra menos, e um tipo de alienígena nunca cai abaixo de um.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 | Alienígenas, para um grupo de 5 | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Gate Goombah | 130 | 130 | 130 |
-| Gate Pirate | 28 | 28 | 28 |
-| Gate Crystalys | 28 | 28 | 28 |
-| Gate Crystalys Twin | 9 | 9 | 9 |
-| Total | 195 | 195 | 195 |
-| A onda de uma zona de saque | 10 × Gate Goombah e 1 × Gate Crystalys | 10 × Gate Goombah e 1 × Gate Crystalys | 10 × Gate Goombah e 1 × Gate Crystalys |
+| Gate Goombah | 156 | 156 | 156 |
+| Gate Pirate | 34 | 34 | 34 |
+| Gate Crystalys | 34 | 34 | 34 |
+| Gate Crystalys Twin | 11 | 11 | 11 |
+| Total | 235 | 235 | 235 |
+| A onda de uma zona de saque | 12 × Gate Goombah e 1 × Gate Crystalys | 12 × Gate Goombah e 1 × Gate Crystalys | 12 × Gate Goombah e 1 × Gate Crystalys |
 
 - **Vivos ao mesmo tempo**: No máximo 10 por piloto do grupo, e 70 no total
 
@@ -97,9 +112,9 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 32.000 | 48.000 | 80.000 |
-| Escudo | 48.000 | 72.000 | 120.000 |
-| Dano dos lasers (uma salva por segundo) | 3.000 | 3.750 | 4.500 |
+| Casco | 32.000 | 48.000 | 64.000 |
+| Escudo | 48.000 | 72.000 | 96.000 |
+| Dano dos lasers (uma salva por segundo) | 3.000 | 4.500 | 6.000 |
 | Velocidade | 180 | 180 | 180 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | 1.800 | 1.800 | 1.800 |
@@ -112,10 +127,10 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 300.000 | 450.000 | 750.000 |
-| Escudo | 50.100 | 75.150 | 125.250 |
-| Dano dos lasers (uma salva por segundo) | 200 | 250 | 300 |
-| Dano do foguete | 5.000 | 6.250 | 7.500 |
+| Casco | 300.000 | 450.000 | 600.000 |
+| Escudo | 50.100 | 75.150 | 100.200 |
+| Dano dos lasers (uma salva por segundo) | 200 | 300 | 400 |
+| Dano do foguete | 5.000 | 7.500 | 10.000 |
 | Velocidade | 92 | 92 | 92 |
 | Alcance dos lasers | 700 | 700 | 700 |
 | Raio de agressão | 1.800 | 1.800 | 1.800 |
@@ -127,9 +142,9 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 256.000 | 384.000 | 640.000 |
-| Escudo | 160.000 | 240.000 | 400.000 |
-| Dano dos lasers (uma salva por segundo) | 10.000 | 12.500 | 15.000 |
+| Casco | 256.000 | 384.000 | 512.000 |
+| Escudo | 160.000 | 240.000 | 320.000 |
+| Dano dos lasers (uma salva por segundo) | 10.000 | 15.000 | 20.000 |
 | Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 900 | 900 | 900 |
 | Raio de agressão | 2.400 | 2.400 | 2.400 |
@@ -141,9 +156,9 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 512.000 | 768.000 | 1.280.000 |
-| Escudo | 320.000 | 480.000 | 800.000 |
-| Dano dos lasers (uma salva por segundo) | 20.000 | 25.000 | 30.000 |
+| Casco | 512.000 | 768.000 | 1.024.000 |
+| Escudo | 320.000 | 480.000 | 640.000 |
+| Dano dos lasers (uma salva por segundo) | 20.000 | 30.000 | 40.000 |
 | Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 900 | 900 | 900 |
 | Raio de agressão | 2.400 | 2.400 | 2.400 |
@@ -152,7 +167,7 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 ## O Senhor da guerra {#the-warlord}
 
-O Senhor da guerra espera na sala da ponta oposta do labirinto, e é a única coisa de um portão que paga. É um Crystalys que cresceu até ficar enorme. Seu casco e seu escudo crescem com o tamanho do grupo: quanto mais pilotos entram, mais resistente ele é, em proporção. Ele fica em sua sala e usa suas habilidades uma de cada vez, em ordem aleatória, cada uma com a sua própria recarga.
+O Senhor da guerra espera na sala do fim do labirinto, e é a única coisa num portão que paga. É um Crystalys que cresceu enorme. O casco e o escudo dele crescem com o tamanho do grupo: quanto mais pilotos entram, mais resistente ele é, em proporção. Ele nunca sai da sala dele, com a porta fechada ou aberta: fica dentro das paredes da sala e não caça pelos corredores. Um piloto do lado de fora só consegue atraí-lo até a borda da sala, e por uma porta aberta ele ainda atira em tudo que o laser dele alcança. Ele usa as habilidades uma de cada vez, em ordem aleatória, cada uma com a sua própria recarga.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -164,7 +179,7 @@ O Senhor da guerra espera na sala da ponta oposta do labirinto, e é a única co
 | :--- | ---: | ---: | ---: |
 | Casco | 10.000.000 | 15.000.000 | 25.000.000 |
 | Escudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Dano dos lasers (uma salva por segundo) | 8.000 | 10.000 | 12.000 |
+| Dano dos lasers (uma salva por segundo) | 12.500–15.000 | 15.000–17.500 | 20.000–25.000 |
 | Velocidade | 120 | 120 | 120 |
 | Alcance dos lasers | 1.100 | 1.100 | 1.100 |
 
@@ -182,12 +197,20 @@ O casco e o escudo acima são para um grupo de 5. Eles crescem com o grupo: são
 
 <!-- dungeons-boss:end -->
 
+### A sala trancada {#the-locked-room}
+
+A porta da sala do Senhor da guerra fica fechada desde o momento em que o portão é aberto, e enquanto está fechada o Senhor da guerra não pode ser ferido: nenhum laser, foguete ou explosão o atinge, e ele não usa habilidade nenhuma. A porta se abre para sempre quando o grupo destrói os **guardiões**: o Gate Crystalys e o Gate Crystalys Twin com os quais o portão foi feito, cerca de um quinto dos alienígenas dele. O Gate Goombah e o Gate Pirate não contam, nem as ondas das zonas de saque, nem os Goombahs que o Senhor da guerra chama.
+
+A janela Portão do clã conta os guardiões que restam e diz, numa etiqueta, que o Senhor da guerra não pode ser ferido, e uma mensagem avisa quando a sala é destrancada. Um bando de guardiões que ainda dorme conta por inteiro, então o grupo precisa explorar o labirinto e achar todos. No minimapa a porta é uma linha vermelha enquanto está trancada e uma verde quando está aberta. Um portão nunca é uma armadilha: o limite de tempo ainda encerra um portão cujos últimos guardiões não são achados, e um administrador pode destrancar a sala de um portão travado.
+
 ### Suas habilidades {#its-abilities}
 
 - **O anel vermelho** da Aura de roubo de vida fere todo piloto dentro dele e cura o Senhor da guerra com esse dano. A Absorção de escudo também tem um anel vermelho: ele drena os escudos dos pilotos lá dentro e carrega o do Senhor da guerra. Nos dois casos, saia do anel ou fique atrás de uma parede.
 - **Os anéis âmbar** da Queda de meteoros mostram onde os meteoros vão cair um instante depois. Continue se movendo e saia do anel antes que ele caia.
-- **Foco nos curandeiros** volta o Senhor da guerra contra quem cura outro piloto, e ele bate mais forte nesse piloto. Espalhe a cura.
-- **A Barragem de foguetes** manda foguetes teleguiados contra pilotos aleatórios. Uma EMP Charge ou uma camuflagem os despista.
+- **Foco no mais procurado** marca o piloto que causou mais dano ao Senhor da guerra, com um colchete dourado na nave dele, e o Senhor da guerra dispara nele um tiro extra a cada segundo enquanto dura. A mira dele não muda: ele continua atirando no piloto mais próximo que consegue ver, então um piloto marcado que também é o mais próximo leva os dois. O tiro extra precisa de linha livre e do alcance do laser do Senhor da guerra, então uma parede ou alguma distância o salva. Não começa enquanto ninguém causou dano.
+- **A Barragem de foguetes** manda foguetes teleguiados contra pilotos aleatórios, mas só contra pilotos que o Senhor da guerra consegue ver, e uma parede no caminho detém um foguete. Um anel mostra qual piloto um foguete segue. Uma EMP Charge ou uma camuflagem os despista.
+- **O Apoio do enxame** é o Senhor da guerra chamando seus Goombahs. Enquanto eles vivem, ele não pode ser ferido, e não atira nem usa outra habilidade. Destrua todos: o estandarte conta quantos restam. Se passar um minuto, o Senhor da guerra volta a poder ser ferido e os Goombahs que sobraram ficam e continuam lutando. Eles não são guardiões e não pagam nada.
+- **A Zona do Caos** é um anel violeta no chão, em volta do lugar onde o Senhor da guerra estava quando a lançou. Ninguém dentro do anel pode atacar, nem com lasers nem com foguetes, mas reparos, camuflagem e voo continuam funcionando, e o Senhor da guerra e seus alienígenas atiram como sempre. O anel aparece um instante antes de fazer efeito: saia dele e atire para dentro de fora.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -196,74 +219,107 @@ O casco e o escudo acima são para um grupo de 5. Eles crescem com o grupo: são
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Aura de roubo de vida** | 2 s | 15 s | 2 min | 900 | 8% do casco e do escudo |
 | **Queda de meteoros** | 1,5 s | 3 salvas, com 4 s entre elas | 2 min | 420 | – |
-| **Foco nos curandeiros** | 1 s | 45 s | 2 min | – | – |
+| **Foco no mais procurado** | 1 s | 20 s | 2 min | – | – |
 | **Barragem de foguetes** | 1,5 s | 45 s | 2 min | – | – |
 | **Absorção de escudo** | 2 s | 15 s | 2 min | 900 | 6% do escudo |
+| **Apoio do enxame** | 2 s | Até 1 min | 3 min | – | – |
+| **Zona do Caos** | 2 s | 15 s | 2 min | 900 | – |
 
 | Habilidade | Fase 1 | Fase 2 | Fase 3 |
 | :--- | :--- | :--- | :--- |
 | **Aura de roubo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
 | **Queda de meteoros** | 6 meteoros por salva, 40.000 cada | 8 meteoros por salva, 50.000 cada | 10 meteoros por salva, 60.000 cada |
-| **Foco nos curandeiros** | O laser dele atinge ×1,5 mais forte o piloto em quem ele se volta | O laser dele atinge ×1,5 mais forte o piloto em quem ele se volta | O laser dele atinge ×1,5 mais forte o piloto em quem ele se volta |
+| **Foco no mais procurado** | 18.750–22.500 por tiro extra no piloto que mais causou dano, um a cada 1 s | 22.500–26.250 por tiro extra no piloto que mais causou dano, um a cada 1 s | 30.000–37.500 por tiro extra no piloto que mais causou dano, um a cada 1 s |
 | **Barragem de foguetes** | 6.500 por foguete, um a cada 15 s | 8.125 por foguete, um a cada 15 s | 9.750 por foguete, um a cada 15 s |
 | **Absorção de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
+| **Apoio do enxame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
+| **Zona do Caos** | Pilotos dentro do anel não podem atacar | Pilotos dentro do anel não podem atacar | Pilotos dentro do anel não podem atacar |
 
 <!-- dungeons-abilities:end -->
 
 ## Zonas de saque {#loot-zones}
 
-Um anel no chão do labirinto marca cada zona de saque assim que o grupo a encontra. Fique um instante lá dentro e a zona acorda, e uma onda de alienígenas vai atrás dela. Então o grupo tem de **segurar** a zona: manter um piloto lá dentro até a barra encher. Alienígenas no anel param a barra, e ela recua enquanto não há ninguém dentro, então elimine a onda primeiro. Quando a zona se abre, o grupo vê três cartas diferentes e **vota** em uma. Uma zona se abre uma vez só, e a sua onda não volta.
+Um anel no chão do labirinto marca cada zona de saque assim que o grupo a encontra. Fique um instante dentro dele e a zona desperta, e uma onda de alienígenas vai até ela. Então o grupo tem de **segurar** a zona: manter um piloto dentro até a barra encher. Quanto mais pilotos no anel, mais rápido a barra enche: um número ao lado da barra diz quantas vezes mais rápido, e a tabela abaixo dá os tempos. Alienígenas suficientes no anel param a barra (a lista abaixo diz quantos), e ela recua enquanto ninguém está dentro, então limpe a onda primeiro. Quando a zona abre, o grupo vê três cartas diferentes e **vota** em uma. Uma zona abre uma vez só, e a onda dela não volta.
 
 <!-- dungeons-zones:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-- **Zonas de saque**: 4 em cada labirinto
+- **Zonas de saque**: 6 em cada labirinto
 - **Raio**: 450 unidades
 - **Despertar**: Fique dentro do anel por 2 s
 - **Manter**: Mantenha um piloto dentro por 30 s. A barra para enquanto houver 3 ou mais alienígenas no anel e recua enquanto não houver ninguém
 - **Escolher**: O grupo tem 45 s para votar. A votação termina mais cedo se todos os pilotos presentes votaram ou se uma carta tem mais da metade dos votos
 
+Mais pilotos no anel mantêm a zona mais rápido. Quanto tempo leva para manter uma zona:
+
+| Pilotos no anel | Tempo para manter a zona |
+| :--- | ---: |
+| 1 | 30 s |
+| 2 | 20 s |
+| 3 | 15 s |
+| 4 | 12 s |
+| 5 ou mais | 10 s |
+
 <!-- dungeons-zones:end -->
+
+### Boosters
+
+Nas fases 2 e 3 as ondas das zonas de saque trazem também boosters. Quando o grupo destrói todos os alienígenas de uma onda, a onda conta, e depois de cada segunda onda (a segunda, a quarta e a sexta) cada piloto ganha uma janela de meio minuto para escolher um booster temporário para si: **Dano** (seus lasers batem mais forte), **Pontos de vida** (sua nave aguenta mais casco) ou **Velocidade** (sua nave voa mais rápido). Aperte uma carta para escolhê-la. Se você não responder a tempo, o jogo escolhe Pontos de vida por você. Uma escolha vale 3% na fase 3 e 1,5% na fase 2, e um tipo soma até 9% na fase 3 e 4,5% na fase 2, por mais vezes que você o escolha. A fase 1 não tem boosters. Um grupo que deixa uma onda viva não ganha janela por ela.
+
+Um booster dura até o portão ser concluído. Se você sai do portão, ou é destruído, perde seus boosters, e os recebe de volta quando voa para dentro de novo. Uma etiqueta sob a janela Portão do clã lista o que você tem.
 
 ### As cartas {#the-cards}
 
-As cartas são sorteadas uma a uma do conjunto abaixo. A chance é a de uma carta em um sorteio. Uma carta com muitas cópias vai para todo piloto que é pago, e uma carta de equipamento, com uma só cópia, vai para um piloto do grupo. Um piloto que não é pago também não recebe carta, e uma zona aberta em um portão que fracassa não paga nada.
+As cartas são sorteadas uma a uma do conjunto abaixo. A chance é a de uma carta em um sorteio. Toda carta vai para todo piloto que é pago, as de equipamento também: uma carta com muitas cópias dá a cada um todas essas cópias, e uma carta de equipamento dá a cada um uma peça própria, forjada para ele. Um piloto que não é pago também não recebe carta, e uma zona aberta em um portão que fracassa não paga nada.
 
 <!-- dungeons-cards:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 | Carta | Fase 1 | Fase 2 | Fase 3 | Chance | Vai para |
 | :--- | ---: | ---: | ---: | ---: | :--- |
-| Thulium | 2.000 | 3.000 | 5.000 | 21% | Todo piloto pago |
-| Velkonite Reinforced Plate | 10 | 15 | 25 | 12% | Todo piloto pago |
-| Orvium Reinforced Plate | 10 | 15 | 25 | 12% | Todo piloto pago |
-| Velkonite | 200 | 300 | 500 | 12% | Todo piloto pago |
-| Orvium | 200 | 300 | 500 | 12% | Todo piloto pago |
-| Ultra Core | 5.000 | 7.500 | 12.500 | 10% | Todo piloto pago |
-| Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 8% | Todo piloto pago |
-| Dark Matter | 5 | 8 | 12 | 8% | Todo piloto pago |
-| Dark Matter Plate | 1 | 1 | 2 | 4% | Todo piloto pago |
-| Engine III | 1 | 1 | 1 | 0,25% | Um piloto do grupo |
-| Heavy Shield Core | 1 | 1 | 1 | 0,25% | Um piloto do grupo |
-| Adaptive Core III | 1 | 1 | 1 | 0,25% | Um piloto do grupo |
-| Starfire-III | 1 | 1 | 1 | 0,25% | Um piloto do grupo |
+| Thulium | 2.000 | 3.000 | 5.000 | 23,9% | Todo piloto pago |
+| Velkonite Reinforced Plate | 10 | 15 | 25 | 13,65% | Todo piloto pago |
+| Velkonite | 200 | 300 | 500 | 13,65% | Todo piloto pago |
+| Orvium | 200 | 300 | 500 | 13,65% | Todo piloto pago |
+| Ultra Core | 5.000 | 7.500 | 12.500 | 11,4% | Todo piloto pago |
+| Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1% | Todo piloto pago |
+| Dark Matter | 5 | 8 | 12 | 9,1% | Todo piloto pago |
+| Dark Matter Plate | 1 | 1 | 2 | 4,55% | Todo piloto pago |
+| Starfire-III | – | – | 1 | 0,07% | Todo piloto pago |
+| Helios Beam | – | – | 1 | 0,07% | Todo piloto pago |
+| Engine III | – | – | 1 | 0,07% | Todo piloto pago |
+| Adaptive Core III | – | – | 1 | 0,07% | Todo piloto pago |
+| Heavy Shield Core | – | – | 1 | 0,07% | Todo piloto pago |
+| Momentum Thruster IV | – | – | 1 | 0,07% | Todo piloto pago |
+| Impulse Thruster IV | – | – | 1 | 0,07% | Todo piloto pago |
+| Hull Plating II | – | – | 1 | 0,07% | Todo piloto pago |
+| Hull Plating III | – | – | 1 | 0,07% | Todo piloto pago |
+| Damage Amp IV | – | – | 1 | 0,07% | Todo piloto pago |
+| Crit Amp IV | – | – | 1 | 0,07% | Todo piloto pago |
+| Penetration Amp IV | – | – | 1 | 0,07% | Todo piloto pago |
+| Capacity Shield Cell IV | – | – | 1 | 0,08% | Todo piloto pago |
+| Absorption Shield Cell IV | – | – | 1 | 0,08% | Todo piloto pago |
 
 - **Equipamento**: As cartas com uma só cópia são equipamento: juntas, 1% das cartas
 
 <!-- dungeons-cards:end -->
 
+As cartas com uma única cópia são **equipamento**, e só um portão de fase 3 pode oferecê-las. Uma peça de equipamento é forjada para cada piloto pago na hora do pagamento: cada um sorteia o seu [grau de encantamento](/wiki/06-Items/Overview.md#item-enchants) com as mesmas chances de uma peça que você constrói na Montagem, então a maioria sai Padrão, e um grau mais alto, até Eterno, com bônus, é um achado raro.
+
 ## Pagamento {#pay}
 
 Quando o Senhor da guerra cai, todo piloto que mereceu é pago, uma vez por partida. As cartas escolhidas pelo grupo vêm além do pagamento da fase. Não há multiplicador de mundo: o pagamento é o mesmo em todos os mundos.
 
+As **Orvium Reinforced Plates** não são uma carta da votação. Elas fazem parte do pagamento da fase, e cada piloto pago as recebe uma vez pela conclusão. Os itens que um portão paga não são vendáveis: você não pode [vendê-los no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
+
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Fase | Honra | Experiência | Créditos | Thulium | Munição x4 | Pontos de ranking PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 600 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 1.500 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 2.400 |
+| Fase | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Pontos de ranking PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 600 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 1.500 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2.400 |
 
 <!-- dungeons-pay:end -->
 
@@ -288,10 +344,10 @@ O que um piloto pode receber em um dia e na melhor semana que os limites permite
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Pagamento por piloto | Honra | Experiência | Créditos | Thulium | Munição x4 | Pontos de ranking PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Um dia, cada fase uma vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 4.500 |
-| A melhor semana: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 21.300 |
+| Pagamento por piloto | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Pontos de ranking PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Um dia, cada fase uma vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 4.500 |
+| A melhor semana: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 21.300 |
 
 A experiência de uma fase concluída e paga conta para os seus pontos de ranking PvE: um ponto a cada 1.000 de experiência.
 
@@ -318,6 +374,9 @@ O banco do clã também é pago, em créditos e não em Thulium, na primeira vez
 ## Dicas {#tips}
 
 - Elimine a onda de uma zona antes de tentar segurá-la, e lute dentro do anel se os alienígenas entrarem.
-- Use as paredes: os lasers não as atravessam, e os anéis do Senhor da guerra param nelas.
+- Leve o grupo todo a uma zona: quanto mais pilotos no anel, mais rápido ela é segurada.
+- Explore cada canto do labirinto: um bando de guardiões que você nunca acha mantém a porta do Senhor da guerra fechada.
+- Use as paredes: os lasers não as atravessam, os anéis vermelhos das auras do Senhor da guerra param nelas, e uma parede detém também os foguetes dele.
 - Guarde uma EMP Charge para a Barragem de foguetes.
-- Fique de olho no relógio da barra do portão. Quando o tempo acaba, o portão fracassa e não paga nada.
+- Quando o Senhor da guerra chamar seus Goombahs, destrua-os primeiro: ele não pode ser ferido até eles sumirem. Na Zona do Caos, saia do anel antes de atirar.
+- Fique de olho no relógio da janela Portão do clã. Quando o tempo acaba, o portão fracassa e não paga nada.

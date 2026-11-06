@@ -11,7 +11,7 @@ El enjambre Pirate es un **Pirate Boss** con sus **Pirate Scouts**: una nave eno
 
 - **Dónde**: Los sectores `x-2` y `x-3` de cada corporación
 - **Cuántos**: Uno en cada uno de esos sectores, 6 en cada mundo
-- **Aparece**: Desde el día 4 de la temporada hasta el reinicio
+- **Aparece**: Desde el día 4 de la temporada hasta el reinicio (Beta y Gamma: desde el día 1 de la temporada)
 - **Líder**: Pirate Boss
 - **Seguidores**: Hasta 5 × Pirate Scout, uno nuevo cada 10 s
 - **Los seguidores se mantienen**: a no más de 900 unidades del líder

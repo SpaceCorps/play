@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -39,7 +39,7 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 - **Priset förblir betalt.** Vad uppgraderingen kostade drogs när du startade den. Hammer återbetalar inget av det och ber inte om något mer.
 - **Bara en pågående uppgradering.** En modul som inte uppgraderas, eller vars uppgradering just tagit slut av sig själv, nekas («Inget att avsluta: den modulen uppgraderas inte.») och Hammer stannar hos dig.
-- **Extremt sällsynt.** Skylab behåller sina nivåer genom wipen, så en Hammer är värd tiden för ett steg, upp till 6 dagar på Kärnan. Spelet tillåter en pilot högst **en per 60 dagar**, och du kan ha 5.
+- **Extremt sällsynt.** Skylab behåller sina nivåer genom wipen, så en Hammer är värd tiden för ett steg, upp till 6 dagar på Kärnan. Det finns ingen väntetid mellan två Hammer, och du kan ha 5.
 - **Engineer** (ett [Workforce Contract](#workforce-contract)) kortar uppgraderingar med upp till 1 timme; Hammer tar allt som återstår.
 
 ### Schematics
@@ -98,7 +98,7 @@ Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.
 - **Ett antal, inte ett föremål.** Inventariet i Hangaren är den enda platsen som listar dem, som rutor bland förbrukningsvarorna; ett slag du inte har något av har ingen ruta. En ruta är inget föremål, så den kan inte dras, markeras, raderas eller säljas. De har ingen vikt, ingen snabbfältsplats och ingen plats i lasten eller transportförrådet; de tappas aldrig när ditt skepp förstörs.
 - **Genom wipen.** Dina specialföremål och en pågående Philosopher's Stone eller ett pågående kontrakt behålls, som Skylab, forskningen och ditt utseende.
 - **Handlas aldrig.** Inte på [Auktionen](/wiki/03-Mechanics/Auction.md), inte till en annan pilot, inte mot krediter.
-- **Bara Hammer kan flytta ditt tempo**, och den är begränsad till en per 60 dagar. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, en forskning på högst 24 timmar.
+- **Bara Hammer kan flytta ditt tempo**, och du kan bara ha 5. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, en forskning på högst 24 timmar.
 - **En användning, en bekräftelse, ett ljud.** Varje användning spelar sin egen diskreta signal.
 
 ## Vanliga misstag {#common-mistakes}

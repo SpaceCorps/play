@@ -11,7 +11,7 @@ A Phantasm-raj egy **Boss Phantasm** és a **Phantasm Guardjai**: egy hatalmas [
 
 - **Hol**: Minden vállalat `x-3` és `x-4` szektora
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 6
-- **Megjelenik**: A szezon 4. napjától a wipe-ig
+- **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Boss Phantasm
 - **Kísérők**: Legfeljebb 4 × Phantasm Guard, mindig 10 mp múlva egy újabb
 - **A kísérők közel maradnak**: legfeljebb 500 egységre a vezértől

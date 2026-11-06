@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ Skylab har ett **skrov**, en pool av träffpoäng, som **återhämtar 5 % av si
 
 ### Montering och ammunition {#fits-and-ammunition}
 
-**Montering.** Motorer går i Motormodulen och lasrar i Försvarsmodulen, en per plats, tagna ur de lösa föremålen i ditt inventarie: inte på ett skepp, inte i transportförrådet. Montering och uttagning kräver att ditt **skepp är landat** och att Skylab **inte är på väg**; ett stationerat Skylab kan utrustas om, och de nya takterna gäller från det ögonblicket. Ett monterat föremål behåller sina Smedje-buffar och det som sitter i det (thrusters, förstärkare) och är **reserverat**: det går inte att sätta på ett skepp, radera, lägga ut i Auktionen, lägga i transportförrådet eller använda i Smedjan och Monteringen förrän du tar ut det, och Hangaren, Auktionens säljblad och Monteringen visar det nedtonat.
+**Montering.** Motorer går i Motormodulen och lasrar i Försvarsmodulen, en per plats, tagna ur de lösa föremålen i ditt inventarie: inte på ett skepp, inte i transportförrådet. Montering och uttagning kräver att ditt **skepp är landat** och att Skylab **inte är på väg**; ett stationerat Skylab kan utrustas om, och de nya takterna gäller från det ögonblicket. Ett monterat föremål behåller sina Smedje-buffar och det som sitter i det (thrusters, förstärkare) och är **reserverat**: det går inte att sätta på ett skepp, radera, lägga ut i Auktionen, lägga i transportförrådet eller använda i Smedjan och Monteringen förrän du tar ut det, och Hangaren, Auktionens säljblad och Monteringen visar det nedtonat. Ett monterat föremål sitter kvar även efter [wipen](#the-wipe).
 
 **Ammunition.** Magasinet rymmer skott av de sorter Ammunitionsskrivaren gör och skjuter **den högsta multiplikatorn först**, ett skott per laser och sekund. Det fylls **bara från Ammunitionsskrivaren**, aldrig från ditt inventarie:
 
@@ -690,7 +690,7 @@ Varje farm och samlare har ett lager för ungefär 72 timmars produktion. Du hä
 
 Skylab påverkas aldrig av wipen: modulerna behåller sina nivåer, Resurslagret behåller sin malm och Forskningscentrumet behåller sina teknologier, sin vetenskapstank, den Dark Matter som sitter i det och en pågående forskning. Plåtarna i ditt inventarie är föremål som alla andra, så de följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md). Ammunitionsskrivaren och Raketfabriken behåller sina nivåer, det de är inställda på att tillverka och det de håller, och Malmviken behåller sin nivå och sin kvot. Expeditionens fyra moduler behåller också sina nivåer, med sina teknologier, och det gör magasinet och matningens strömbrytare också. Malmen i ditt inventarie nollställs som vilket föremål som helst: flytta den till Resurslagret först.
 
-En **expedition** avräknas fram till wipen: en resa som pågår är över, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål; krediterna och Thuliumet kommer till din plånbok innan [taken](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) tillämpas), och Skylab börjar den nya säsongen hemma, i din koncerns hamn, med en ny universumkarta, de 19 startcellerna kända och radarns kö tom. Motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen är lösa föremål som de andra: ta ut dem och lägg dem i transportförrådet för att behålla dem.
+En **expedition** avräknas fram till wipen: en resa som pågår är över, Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms (dess byte raderas som alla lösa föremål; krediterna och Thuliumet kommer till din plånbok innan [taken](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps) tillämpas), och Skylab börjar den nya säsongen hemma, i din koncerns hamn, med en ny universumkarta, de 19 startcellerna kända och radarns kö tom. Motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen **sitter kvar där de är**: samma delar, med de thrusters och förstärkare som sitter i dem och deras Smedje-buffar. De tar ingen plats i transportförrådet. Bara en del som du har tagit ut ur sin modul är ett löst föremål och försvinner med de andra, liksom bytet i Trofélagret, som inte sitter monterat någonstans.
 
 ## Planera din Skylab {#planning-your-skylab}
 

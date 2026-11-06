@@ -11,7 +11,7 @@ O enxame Dormant é uma **Dormant Force** com suas **Dormant Pulses**: um grupo 
 
 - **Onde**: Os setores de perigo `DS-1`, `DS-2`, `DS-3`, `DS-4`, voando de um para outro
 - **Quantos**: Um em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Dormant Force
 - **Seguidores**: 2 × Dormant Pulse, voando com o líder
 - **Os seguidores ficam a**: até 700 unidades do líder

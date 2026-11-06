@@ -331,12 +331,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Laser Ammo {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -369,7 +369,7 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 - **In series.** Every level needs the level before it, and a higher level replaces the lower one: the table shows the total each level gives, not what it adds.
 - **Efficient Snacks** (Kabob, Pelmeni, Burger) add hull to every ship you own, in both configurations.
 - **Sealed Backdoor** raises the carry limit of every rocket, wherever you buy, make or trade it.
-- **Excavator Mining** makes a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) that you start lay more in every box, Thulium and ore alike. It is the research of the pilot who starts the run that counts, and everyone who picks the boxes up gets the larger amount. The excavator's panel shows whose run it is and which share it carries.
+- **Excavator Mining** gives a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) that you start a share that it keeps until it rests: every box it lays holds that much more, Thulium and ore alike, whoever starts its later runs, fuels it or picks the boxes up. The excavator keeps the highest share it was given: a pilot with a higher level raises it, and a lower level never lowers it. The excavator's panel shows the share, who gave it and whose run it is.
 - **Field Theory** raises the share of every hit that your shields take. A ship with no shield gets nothing.
 - **Dormant Knowledge** pays Wipe Points for each level when its research finishes in the Centre, and again after every wipe ([Earning Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Besides the level before it, it needs a share of the other technologies researched (the Pilot ones count, the five Dormant Knowledge do not), whichever way you got them; the table shows each share, and how many technologies it is.
 

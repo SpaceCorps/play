@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 28a76e6a4b2ca272 -->
+<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
 <!-- wiki-i18n title: Temporadas e recompensas -->
 # Temporadas e recompensas {#seasons-and-rewards}
 
@@ -85,7 +85,7 @@ O Relatório da temporada diz o que faltou, se faltou alguma coisa.
 
 Os seus **pontos de ranking** contam o que você ganhou **desde o último reset**: os níveis que subiu, a experiência e os abates de alienígenas desta temporada. No reset eles recomeçam do zero, a sua patente antiga vai para o seu histórico e a patente da nova temporada é construída do nada, então cada temporada é uma nova subida. **A honra não define a sua patente.** Os seus números totais (nível, experiência, honra, abates) ficam como estão.
 
-O primeiro reset das novas regras é o primeiro a começar a contagem. Até lá, os pontos que você tem são os da sua carreira inteira, e esse reset paga você pela patente que eles dão. Os pontos mínimos das patentes ficam como estão.
+A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim. O reset que encerrou a temporada 1 pagou você pela patente que os pontos da sua carreira inteira davam. Os pontos mínimos das patentes ficam como estão.
 
 ## O Relatório da temporada {#the-season-report}
 

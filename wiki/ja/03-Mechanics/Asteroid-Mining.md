@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: 小惑星採掘 -->
 # 小惑星採掘 {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Alpha、Beta、Gamma の各ワールドには、同じ場所にそれぞれ独�
 
 ## ある場所 {#where-they-are}
 
-3つの企業の本拠地セクターと危険セクターのすべてに小惑星があり、セクターごとに構成が違います。主にそのリングの種類で、1つ上か下のリングから1、2種類が加わります。ゲートが通じていない中立セクターにはありません。危険セクターの小惑星は、表にあるシーズン日から現れます。PvP が解禁される日です（[ファーストコンタクト](/wiki/03-Mechanics/Wipe-Timeline.md)）。ほかは初日からあります。壊れたあとは、そのセクターの行にある時間がたつと、同じ種類の新しい小惑星が育ちます。シーズン初日から輝くパルサーの近くに小惑星はなく、シーズン11日目からは、巨大掘削機や Dormant Swamp の中心の近くにもなく（[危険セクター](/wiki/01-General/Danger-Sectors.md#where-everything-is)）、イベント2が始まったときにそこにあった岩は消えます。
+3つの企業の本拠地セクターと危険セクターのすべてに小惑星があり、セクターごとに構成が違います。主にそのリングの種類で、1つ上か下のリングから1、2種類が加わります。ゲートが通じていない中立セクターにはありません。危険セクターの小惑星は、表にあるシーズン日から現れます。Alpha では PvP が解禁される日（[ファーストコンタクト](/wiki/03-Mechanics/Wipe-Timeline.md)）で、Beta と Gamma では初日からです。ほかは初日からあります。壊れたあとは、そのセクターの行にある時間がたつと、同じ種類の新しい小惑星が育ちます。シーズン初日から輝くパルサーの近くに小惑星はなく、シーズン11日目からは、巨大掘削機や Dormant Swamp の中心の近くにもなく（[危険セクター](/wiki/01-General/Danger-Sectors.md#where-everything-is)）、イベント2が始まったときにそこにあった岩は消えます。Beta と Gamma では、巨大掘削機の周りの輪も初日から空けられています。
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Alpha、Beta、Gamma の各ワールドには、同じ場所にそれぞれ独�
 | `M-4` | 18 | 1 | 5分 | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5分 | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5分 | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5分 | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5分 | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5分 | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5分 | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4（ベータとガンマでは1） | 5分 | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4（ベータとガンマでは1） | 5分 | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4（ベータとガンマでは1） | 5分 | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4（ベータとガンマでは1） | 5分 | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

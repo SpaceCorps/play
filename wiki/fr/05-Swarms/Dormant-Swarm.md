@@ -11,7 +11,7 @@ L’essaim Dormant est une **Dormant Force** avec ses **Dormant Pulses** : un g
 
 - **Où** : Les secteurs dangereux `DS-1`, `DS-2`, `DS-3`, `DS-4`, qu’il parcourt de l’un à l’autre
 - **Combien** : Un dans chaque monde
-- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation
+- **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Dormant Force
 - **Suivants** : 2 × Dormant Pulse, qui volent avec le meneur
 - **Les suivants restent** : à 700 unités au plus du meneur

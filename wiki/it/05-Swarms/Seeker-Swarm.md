@@ -11,7 +11,7 @@ Lo sciame Seeker è il più piccolo degli [sciami](/wiki/05-Swarms/Swarms.md): u
 
 - **Dove**: I settori `x-1` e `x-2` di ogni corporazione
 - **Quanti**: Uno in ciascuno di quei settori, 6 in ogni mondo
-- **Compare**: Dal giorno 4 della stagione fino al reset
+- **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Boss Seeker
 - **Seguaci**: Fino a 4 × Seeker Slave, uno nuovo ogni 10 s
 - **I seguaci restano vicini**: al massimo 500 unità dal capo

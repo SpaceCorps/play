@@ -11,7 +11,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 
 - **Onde**: Os setores `x-2` e `x-3` de cada corporação
 - **Quantos**: Um em cada um desses setores, 6 em cada mundo
-- **Aparece**: Do dia 4 da temporada até o reset
+- **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Pirate Boss
 - **Seguidores**: Até 5 × Pirate Scout, um novo a cada 10 s
 - **Os seguidores ficam a**: até 900 unidades do líder

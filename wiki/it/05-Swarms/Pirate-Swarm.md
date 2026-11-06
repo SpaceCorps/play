@@ -11,7 +11,7 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 
 - **Dove**: I settori `x-2` e `x-3` di ogni corporazione
 - **Quanti**: Uno in ciascuno di quei settori, 6 in ogni mondo
-- **Compare**: Dal giorno 4 della stagione fino al reset
+- **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Pirate Boss
 - **Seguaci**: Fino a 5 × Pirate Scout, uno nuovo ogni 10 s
 - **I seguaci restano vicini**: al massimo 900 unità dal capo

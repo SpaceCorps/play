@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
@@ -29,20 +29,20 @@
 | [**Phantasm の群れ**](/wiki/05-Swarms/Phantasm-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Phantasm** | 最大 4 体の Phantasm Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 2分 後、 同じセクター |
 | [**Goombah の群れ**](/wiki/05-Swarms/Goombah-Swarm.md) | 各企業の `x-3` と `x-4` セクター | 各セクターに 1つ （各ワールドに 計6つ） | **Boss Goombah** | 最大 4 体の Goombah Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 5分 後、 同じセクター |
 | [**Crystalys の群れ**](/wiki/05-Swarms/Crystalys-Swarm.md) | 危険セクター `DS-1`, `DS-2`, `DS-3` | 各セクターに 1つ （各ワールドに 計3つ） | **Boss Crystalys** | 最大 3 体の Crystalys Guard、 10秒 ごとに 新しく1体 | リーダー撃破の 30分 後、 同じセクター |
-| [**Tesseract の群れ**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危険セクター `DS-4` | 各ワールドに1つ | **Tesseract** | 最大 50 体の Facet、リーダーが攻撃されている間 5秒 ごとに 10 体追加 | リーダー撃破の 30分 後、 同じセクター |
+| [**Tesseract の群れ**](/wiki/05-Swarms/Tesseract-Swarm.md) | 危険セクター `DS-4` | 各ワールドに1つ | **Tesseract** | 最大 100 体の Facet、リーダーが攻撃されている間 5秒 ごとに 20 体追加 | リーダー撃破の 30分 後、 同じセクター |
 
 <!-- swarms-list:end -->
 
 ## いつ、どこに {#when-and-where}
 
-群れは**ファーストコンタクト**から現れ始め、ワイプまで残ります（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md)を参照。日付は下のルールの最初の行にあります）。**各ワールドにそれぞれの群れがいて**、場所は同じです。そのため Alpha の Pirate Boss と Beta の Pirate Boss は別々の艦で、自分のワールドで倒した群れがほかのワールドで倒されたことにはなりません。倒された群れは、上の表の時間がたつと戻ってきます。Dormant の群れはシーズン11日目（イベント2）に変わります。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) に現れ、早く戻り、報酬が2倍になります。
+群れは**ファーストコンタクト**から現れ始め、ワイプまで残ります（[ワイプのタイムライン](/wiki/03-Mechanics/Wipe-Timeline.md)を参照。日付は下のルールの最初の行にあります）。**各ワールドにそれぞれの群れがいて**、場所は同じです。そのため Alpha の Pirate Boss と Beta の Pirate Boss は別々の艦で、自分のワールドで倒した群れがほかのワールドで倒されたことにはなりません。倒された群れは、上の表の時間がたつと戻ってきます。Dormant の群れはシーズン11日目（イベント2）に変わります。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) に現れ、早く戻り、報酬が2倍になります。Beta と Gamma では、群れはシーズン初日から現れます。
 
 ## すべての群れのルール {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- 群れはシーズン4日目からワイプまで現れます。
+- 群れはシーズン4日目からワイプまで現れます。ベータとガンマではシーズン1日目から現れます。
 - 群れの艦が攻撃されると、その艦から1,500ユニット以内にいる同じ群れの艦が、最初に攻撃したパイロットに対して戦いに加わります。
 - リーダーは、すべてのステーションとゲートのリングの縁から少なくとも2,500ユニット離れた場所に現れます。
 - ボスに与えられたダメージの5%以上を与えたパイロットが、その撃破の報酬を受け取ります。
@@ -70,7 +70,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys、Tesseract の群れは、ボ�
 
 ## 群れとの戦い {#fighting-a-swarm}
 
-- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。Tesseract だけは例外で、武器を持たず、数秒間誰にも攻撃されないと船体とシールドを自分で回復し、配下の Facet は最初に攻撃したパイロットではなく、最も多くのダメージを与えたパイロットを追います。
+- **リーダーは決して自分から戦いを始めません。** リーダーはパイロットに攻撃されるまでうろつき、攻撃されると反撃します。その近くにいる群れの艦は、最初に攻撃したパイロットに対して戦いに加わります（距離は上のルールにあります）。例外は Pirate Scout で、近づいてきたパイロットを誰でも攻撃します。リーダーは自分で船体を修復することがないので、与えたダメージは、配下が回復しない限りそのまま残ります。シールドはほかのエイリアンと同じように再充電されます。Tesseract だけは例外で、武器を持たず、数秒間誰にも攻撃されないと船体とシールドを自分で回復し、配下の Facet は最初に攻撃したパイロットを追うのではなく、Tesseract のまわりを飛び回り、攻撃したパイロットのうち最も近い者を撃ちます。
 - **群れの艦が戦うのはパイロットだけです。** エイリアンを撃たず、エイリアンからも撃たれません。[企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)は群れの艦を無視し、狩ることも、あなたを助けに来ることもありません。
 - **ロケット。** Pirate Boss と Dormant Force、Pulse は、自分を攻撃したパイロットに向けて**直進**ロケット、つまり[Rivet ロケット](/wiki/06-Items/Rockets.md)を撃ちます。動き続ける艦はかわせますが、止まっている艦には当たります。
 - **戦いの規模。** Seeker の群れは2人向け、Pirate の群れと Phantasm の群れは小さなグループ向け、Goombah の群れは最強の艦のグループ向け、Crystalys の群れと Dormant の群れはその大きなグループ向け、Tesseract の群れは非常に大きなグループ向けです。上位のワールドほど、ほかのエイリアンと同じく、より多くのパイロットが必要です。
@@ -109,7 +109,7 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys、Tesseract の群れは、ボ�
 | **Phantasm Guard** | Phantasm の群れ | 1 |
 | **Boss Goombah** | Goombah の群れ | 14 |
 | **Goombah Guard** | Goombah の群れ | 3 |
-| **Boss Crystalys** | Crystalys の群れ | 21 |
+| **Boss Crystalys** | Crystalys の群れ | 30 |
 | **Crystalys Guard** | Crystalys の群れ | 6 |
 | **Tesseract** | Tesseract の群れ | 42 |
 | **Facet** | Tesseract の群れ | 0 |

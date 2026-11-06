@@ -9,7 +9,7 @@ The Crystalys Swarm is a **Boss Crystalys** with its **Crystalys Guards**: the t
 
 - **Where**: The Danger Sectors `DS-1`, `DS-2`, `DS-3`
 - **How many**: One in each of those sectors, 3 in each world
-- **Appears**: From season day 4 until the wipe
+- **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Boss Crystalys
 - **Followers**: Up to 3 × Crystalys Guard, a new one every 10 s
 - **Followers stay within**: 500 units of the leader
@@ -27,7 +27,7 @@ The Crystalys Swarm is a **Boss Crystalys** with its **Crystalys Guards**: the t
 
 ## How the fight goes
 
-- **Bring a large group.** Eight level 8 pilots in Paragons with x2 ammo destroy it in about a minute in Alpha, losing at most one ship; four need x4 ammo, and a pilot alone is destroyed.
+- **Bring a large group.** In Alpha, six level 8 pilots in Paragons with x2 ammo are enough if its fire is spread over them, nine if it is all on one pilot; with x4 ammo it is five and six. More pilots end the fight sooner and lose fewer ships, and a pilot alone is destroyed.
 - **Shoot the boss, not the guards.** A guard falls in seconds, but a new one comes as often as the *At a glance* list says, and what the guards heal is a small part of what a group deals: leaving them alone costs a little time, chasing them costs more.
 - **Beta and Gamma are harder.** The swarms of those worlds are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so they need more pilots or better ammo.
 - **The Danger Sectors are PvP.** A rival can attack the group in the middle of the fight and wait for the box: it is the top dealer's (and its clan's) for 30 seconds, and then anyone's ([Cargo](/wiki/03-Mechanics/Cargo.md)). Bring company.
@@ -46,13 +46,13 @@ The numbers of the swarm's ships in the three worlds ([Worlds](/wiki/05-Swarms/S
 
 ### Boss Crystalys
 
-Built from the Crystalys at 175% of its hull and 50% of its laser damage; its speed and range are the ship's own.
+Built from the Crystalys at 350% of its hull and 100% of its laser damage; its speed and range are the ship's own.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hull | 448,000 | 672,000 | 896,000 |
-| Shield | 280,000 | 420,000 | 560,000 |
-| Laser damage (a volley a second) | 5,000 | 7,500 | 10,000 |
+| Hull | 896,000 | 1,344,000 | 1,792,000 |
+| Shield | 560,000 | 840,000 | 1,120,000 |
+| Laser damage (a volley a second) | 10,000 | 15,000 | 20,000 |
 | Speed | 230 | 230 | 230 |
 | Laser range | 900 | 900 | 900 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
@@ -60,7 +60,7 @@ Built from the Crystalys at 175% of its hull and 50% of its laser damage; its sp
 | Thulium | 1,050 | 2,100 | 3,150 |
 | Experience (XP) | 63,000 | 126,000 | 189,000 |
 | Honor | 273 | 546 | 819 |
-| PvE points per kill | 21 | 21 | 21 |
+| PvE points per kill | 30 | 30 | 30 |
 
 **Drop**: one box, for the pilot who dealt the most damage.
 

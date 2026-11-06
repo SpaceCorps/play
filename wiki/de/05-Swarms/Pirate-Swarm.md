@@ -11,7 +11,7 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 
 - **Wo**: Die Sektoren `x-2` und `x-3` jedes Konzerns
 - **Wie viele**: Einer in jedem dieser Sektoren, 6 in jeder Welt
-- **Erscheint**: Ab Saisontag 4 bis zum Wipe
+- **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Pirate Boss
 - **Begleiter**: Bis zu 5 × Pirate Scout, alle 10 s ein neuer
 - **Begleiter bleiben nahe**: höchstens 900 Einheiten vom Anführer entfernt

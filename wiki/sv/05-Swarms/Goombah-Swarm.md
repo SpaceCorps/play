@@ -11,7 +11,7 @@ Goombah-svärmen är en **Boss Goombah** med sina **Goombah Guards**: en jättel
 
 - **Var**: Sektorerna `x-3` och `x-4` i varje koncern
 - **Hur många**: En i var och en av de sektorerna, 6 i varje värld
-- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Boss Goombah
 - **Följeslagare**: Upp till 4 × Goombah Guard, en ny var 10 s
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Cronologia del reset -->
 # Cronologia del reset e stagioni {#wipe-timeline-seasons}
 
-L’universo di SpaceCorps segue un ciclo di stagioni che si ripete. Ogni 30 giorni la galassia subisce un reset cosmico, chiamato **reset**. Un reset si porta via le cose sfuse e lascia ciò che hai costruito: le tue navi, i tuoi droni, le tue tecnologie, il tuo [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) e i tuoi punti reset restano, e restano anche i tuoi crediti e il tuo Thulium fino a un tetto. La tua stagione finisce con un grado, e il grado paga delle ricompense. Questa pagina è l’intera regola in un posto solo: cosa il reset conserva, cosa azzera, cosa toglie e cosa dà. Le ricompense per grado hanno una pagina a parte, [Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+L’universo di SpaceCorps segue un ciclo di stagioni che si ripete. Ogni 30 giorni la galassia subisce un reset cosmico, chiamato **reset**. Un reset si porta via le cose sfuse e lascia ciò che hai costruito: le tue navi, i tuoi droni, le tue tecnologie, il tuo [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (con i motori e i laser montati al suo interno) e i tuoi punti reset restano, e restano anche i tuoi crediti e il tuo Thulium fino a un tetto. La tua stagione finisce con un grado, e il grado paga delle ricompense. Questa pagina è l’intera regola in un posto solo: cosa il reset conserva, cosa azzera, cosa toglie e cosa dà. Le ricompense per grado hanno una pagina a parte, [Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ Il calendario delle [Ricompense giornaliere](/wiki/03-Mechanics/Daily-Rewards.md
 
 | Fase | Giorni | Protocollo / Evento | Descrizione |
 | :--- | :--- | :--- | :--- |
-| **Protocollo di pace** | Giorni 1–3 | Fase senza PvP | Un nuovo inizio incentrato interamente sulla progressione PvE, sul farming di risorse e sulla costruzione delle navi, senza la minaccia di scontri tra giocatori. |
-| **Primo contatto** | Giorni 4–10 | Evento 1 | Il PvP si apre (secondo la regola del tuo mondo, vedi Mondi più sotto) e i tre [sciami](/wiki/05-Swarms/Swarms.md) cominciano ad apparire: restano fino al reset, attraverso le fasi successive. La fase in sé non dà ancora ricompense speciali. |
-| **Balzo tecnologico** | Giorni 11–18 | Evento 2 | I [settori pericolosi](/wiki/01-General/Danger-Sectors.md) cambiano: un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) accanto a ogni pulsar su `DS-1`–`DS-3`, il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) su `DS-4`, Slumbering Void, e uno Sciame Dormant che ritorna prima e paga il doppio. Tutto resta fino al reset. La fase non dà ricompense proprie. |
+| **Protocollo di pace** | Giorni 1–3 | Fase senza PvP | Un nuovo inizio incentrato interamente sulla progressione PvE, sul farming di risorse e sulla costruzione delle navi, senza la minaccia di scontri tra giocatori. Solo in Alpha: Beta e Gamma non hanno il Protocollo di pace, e lì il PvP è attivo dal giorno 1. |
+| **Primo contatto** | Giorni 4–10 | Evento 1 | Il PvP si apre (secondo la regola del tuo mondo, vedi Mondi più sotto) e i tre [sciami](/wiki/05-Swarms/Swarms.md) cominciano ad apparire: restano fino al reset, attraverso le fasi successive. La fase in sé non dà ancora ricompense speciali. In Beta e Gamma gli sciami e gli asteroidi dei settori pericolosi ci sono dal primo giorno della stagione. |
+| **Balzo tecnologico** | Giorni 11–18 | Evento 2 | I [settori pericolosi](/wiki/01-General/Danger-Sectors.md) cambiano: un [escavatore gigante](/wiki/03-Mechanics/Giant-Excavator.md) accanto a ogni pulsar su `DS-1`–`DS-3`, il [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) su `DS-4`, Slumbering Void, e uno Sciame Dormant che ritorna prima e paga il doppio. Tutto resta fino al reset. La fase non dà ricompense proprie. In Beta e Gamma gli escavatori giganti sorgono dal primo giorno della stagione. |
 | **Giochi di guerra** | Giorni 19–25 | Evento 3 | Ancora nessun effetto speciale: il PvP funziona come in ogni fase dopo il Protocollo di pace. |
 | **Conto finale** | Giorni 26–30 | Evento 4 | La fase del conto finale. Tutti i piloti corrono a completare il carico che portano con sé prima dell’eruzione. |
 | **Il reset** | Giorno 30 | Eruzione del buco nero | L’universo viene distrutto e rinasce, ogni [clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) viene sciolto e la tua stagione si chiude: il tuo grado viene registrato e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). I piloti passano al mondo che hanno scelto come destinazione per la stagione successiva. Nelle ultime 72 ore prima di esso il [buco nero](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce fino a 1,8 volte la sua dimensione e la Dashboard conta alla rovescia fino al reset. |
 
-A parte il reset in sé, solo cinque cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, dal giorno 11 i [settori pericolosi](/wiki/01-General/Danger-Sectors.md) ricevono i loro escavatori giganti (accanto ai pulsar, che brillano dal giorno 1) e il Dormant Swamp, che restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. E nelle ultime 72 ore prima del reset il [buco nero](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce fino a 1,8 volte la sua dimensione. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco. L’evento 2 cambia i settori pericolosi come sopra; nessuno degli altri dà ancora ricompense, spawn o bonus speciali propri.
+A parte il reset in sé, solo cinque cose seguono il calendario: il Protocollo di pace (giorni 1–3) cambia una regola, dal giorno 4 gli [sciami](/wiki/05-Swarms/Swarms.md) compaiono e restano fino al reset, dal giorno 11 i [settori pericolosi](/wiki/01-General/Danger-Sectors.md) ricevono i loro escavatori giganti (accanto ai pulsar, che brillano dal giorno 1) e il Dormant Swamp, che restano fino al reset, e l’[Asta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) non applica commissioni dal giorno 28 ed è chiusa dal giorno 30. E nelle ultime 72 ore prima del reset il [buco nero](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) cresce fino a 1,8 volte la sua dimensione. I quattro eventi sono fasi della stagione con un nome: compaiono nella pagina Stagione e profilo e nella Dashboard del gioco. L’evento 2 cambia i settori pericolosi come sopra; nessuno degli altri dà ancora ricompense, spawn o bonus speciali propri. Questi sono i giorni di Alpha: Beta e Gamma non hanno il Protocollo di pace, e i loro sciami, gli asteroidi dei settori pericolosi e gli escavatori giganti ci sono dal giorno 1.
 
 ---
 
@@ -51,7 +51,7 @@ Tutto ciò che segue resta tuo dopo il reset.
 * **I tuoi droni**, con i loro livelli e la loro esperienza, e le tue [formazioni di droni](/wiki/03-Mechanics/Formations.md), ovunque siano: nel tuo inventario, sulla tua barra rapida o su una nave.
 * **I tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md)** (agganciati o in magazzino), i lavori in corso nella Culla, il Codex e le tue P.E.T. Station.
 * **Tutte le tue tecnologie.** Il Centro ricerche conserva tutto ciò che contiene [Ricerca](/wiki/03-Mechanics/Research.md): la scienza nel suo serbatoio, la Dark Matter inserita, una ricerca in corso e il boost. Lo stesso vale per le Extra Slots CPU che hai installate, che non sono oggetti.
-* **Tutto il tuo [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: moduli, livelli e il minerale immagazzinato nel Magazzino risorse. Il minerale immagazzinato non è un oggetto e non conta per il Deposito.
+* **Tutto il tuo [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: moduli, livelli, il minerale immagazzinato nel Magazzino risorse e **i motori e i laser montati nei moduli Motori e Difesa**, che restano montati dove sono, con i propulsori e gli amplificatori che contengono. Il minerale immagazzinato non è un oggetto e non conta per il Deposito; nemmeno i pezzi montati occupano posto al suo interno.
 * **I tuoi punti reset e i tuoi potenziamenti permanenti** ([l’emporio](#the-permanent-buff-store)).
 * **Esperienza, livello e onore.**
 * **Crediti fino a 5.000.000.000 e Thulium fino a 10.000.000.** Ciò che sta sopra va perso: vedi [i tetti](#the-caps).
@@ -129,7 +129,7 @@ Ogni oggetto ha un peso fisso. Una pila pesa quel peso per la sua quantità, e u
 
 Il pulsante **Congela contenuto** nella scheda Deposito di trasporto è una sicura per le baie e il carico: finché sono congelati non si può aggiungere né togliere nulla finché non li scongeli. Non è una condizione: ciò che sta nel Deposito attraversa il reset congelato o no. Non c’entra niente con il blocco della nave del deposito, che è definitivo.
 
-**AVVISO**: qualsiasi oggetto che non viene conservato dalle regole qui sopra (montato sulla nave che conserva l’equipaggiamento, nel Deposito di trasporto, un drone, una formazione di droni, una P.E.T. Station o munizioni e razzi da combattimento entro i limiti) verrà **distrutto definitivamente** durante l’Eruzione del buco nero.
+**AVVISO**: qualsiasi oggetto che non viene conservato dalle regole qui sopra (montato sulla nave che conserva l’equipaggiamento, montato nel tuo Skylab, nel Deposito di trasporto, un drone, una formazione di droni, una P.E.T. Station o munizioni e razzi da combattimento entro i limiti) verrà **distrutto definitivamente** durante l’Eruzione del buco nero.
 
 ---
 
@@ -138,7 +138,7 @@ Il pulsante **Congela contenuto** nella scheda Deposito di trasporto è una sicu
 * **Il tuo grado della stagione.** Viene scritto nella cronologia delle tue stagioni (pagina Stagione e profilo › Progressione) insieme alla tua posizione nella classifica della tua corporazione, e i tuoi punti classifica ricominciano da zero ([punti freschi](#fresh-points)).
 * **Le fonti dei punti reset**: gli abbattimenti di alieni e le riscossioni di missioni e Dormant Knowledge, così puoi guadagnarli di nuovo ([Guadagnare punti reset](#earning-wipe-points)). I tuoi punti reset e i tuoi potenziamenti restano.
 * **Gli abbattimenti di alieni.** Contano per il reset in cui ti trovi, e i tuoi totali restano.
-* **Ogni oggetto che non viene conservato**: risorse, booster, equipaggiamento di scorta, piastre, Cluster Chunk e il resto, più i motori e i laser montati nei moduli Motori e Difesa del tuo Skylab: toglili e mettili nel Deposito per tenerli. Ciò che il reset ti restituisce per primo (vedi sotto) è un oggetto come gli altri.
+* **Ogni oggetto che non viene conservato**: risorse, booster, equipaggiamento di scorta, piastre, Cluster Chunk e il resto. Un motore o un laser che hai tolto da un modulo del tuo Skylab è un ricambio come un altro; quelli ancora montati restano. Ciò che il reset ti restituisce per primo (vedi sotto) è un oggetto come gli altri.
 * **I clan.** Ogni clan viene sciolto, con il suo Tesoro della flotta, i suoi avvisi, i suoi trattati, i suoi punti e i livelli dei potenziamenti ([Clan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **I pezzi del Chrono-Gate**: il portale ricomincia, e anche il tuo Materializzatore.
 * **La tua spedizione dello Skylab** finisce: un viaggio in corso è concluso e la Baia dei trofei paga i suoi crediti, il suo Thulium, la sua esperienza e il suo onore e viene svuotata ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ Al reset, i **crediti oltre 5.000.000.000 (5 miliardi)** e il **Thulium oltre 10
 
 I tuoi **punti classifica** contano ciò che hai guadagnato **dall’ultimo reset**: i livelli saliti, l’esperienza e gli abbattimenti di alieni di questa stagione. Al reset ricominciano da zero e il tuo vecchio grado entra nella cronologia delle tue stagioni. **L’onore non determina il tuo grado**, e i tuoi totali (livello, esperienza, onore, abbattimenti) restano come sono. Vedi [Gradi](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-Il primo reset delle nuove regole è il primo a far partire il conteggio: fino ad allora i punti che hai sono quelli di tutta la tua carriera.
+La stagione 2, iniziata con il reset del 6 novembre 2026, è stata la prima a contare così: il reset che ha chiuso la stagione 1 ha pagato i gradi di quella stagione in base ai punti di tutta la tua carriera.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps ha tre **mondi**. Ognuno è una copia separata dell’intera galassia
 
 | Mondo | Livello richiesto | Rischio | Forza degli alieni | Premi di kill e missioni | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Rilassato / Principiante | 1,0x | 1,0x crediti, Thulium, XP, onore | **Sicurezza alta**: solo sulle mappe di confine (`x-4`) e nella zona PvP centrale (`DS-x`). Nessun PvP nei settori delle corporazioni da `x-1` a `x-3`. |
-| **Beta** | 7 | Normale / Intermedio | 1,5x | 2,0x crediti, Thulium, XP, onore | **Sicurezza media**: ovunque tranne nei settori base (`x-1`). |
-| **Gamma** | 10 | Hardcore / Élite | 2,0x | 3,0x crediti, Thulium, XP, onore | **Sicurezza bassa**: ovunque. Rischio massimo, premi massimi. |
+| **Alpha** | 1 | Rilassato / Principiante | 1,0x | 1,0x crediti, Thulium, XP, onore | **Sicurezza alta**: solo sulle mappe di confine (`x-4`) e nella zona PvP centrale (`DS-x`). Nessun PvP nei settori delle corporazioni da `x-1` a `x-3`. Dal giorno 4. |
+| **Beta** | 7 | Normale / Intermedio | 1,5x | 2,0x crediti, Thulium, XP, onore | **Sicurezza media**: ovunque tranne nei settori base (`x-1`). Dal giorno 1. |
+| **Gamma** | 10 | Hardcore / Élite | 2,0x | 3,0x crediti, Thulium, XP, onore | **Sicurezza bassa**: ovunque. Rischio massimo, premi massimi. Dal giorno 1. |
 
 Come funzionano i mondi:
 
 * **Alieni**: la forza degli alieni di un mondo moltiplica i loro punti scafo, i loro scudi, la ricarica dello scudo e il loro danno. La loro velocità e la loro portata sono le stesse ovunque.
-* **Premi**: un abbattimento paga in base al mondo in cui avviene. Una missione paga in base al mondo in cui l’hai completata (il più basso, se si estende su due), in qualunque mondo tu la riscuota (una missione Stazione non ha un mondo suo e paga il mondo in cui voli quando la riscuoti), e il limite di una missione a tempo è 1,5 volte più lungo in Beta e il doppio in Gamma ([Missioni](/wiki/03-Mechanics/Quests.md)). Il bottino e i piloti di corporazione sono gli stessi in ogni mondo, quindi un mondo più alto fa guadagnare di più all’ora, ma i suoi scontri costano più riparazioni.
-* **PvP**: tutti su una mappa appartengono al suo mondo, quindi una sola regola vale per l’intera mappa, piloti di corporazione compresi. Le zone sicure e il Protocollo di pace (giorni 1–3) proteggono ogni mondo.
+* **Premi**: un abbattimento paga in base al mondo in cui avviene. Una missione paga in base al mondo in cui voli quando la riscuoti (una completata in un mondo più alto mantiene il moltiplicatore più alto), quindi una missione di prima di un wipe viene pagata in base al tuo nuovo mondo, e il limite di una missione a tempo è 1,5 volte più lungo in Beta e il doppio in Gamma ([Missioni](/wiki/03-Mechanics/Quests.md)). Il bottino e i piloti di corporazione sono gli stessi in ogni mondo, quindi un mondo più alto fa guadagnare di più all’ora, ma i suoi scontri costano più riparazioni.
+* **PvP**: tutti su una mappa appartengono al suo mondo, quindi una sola regola vale per l’intera mappa, piloti di corporazione compresi. Le zone sicure proteggono ogni mondo; il Protocollo di pace (giorni 1–3) è solo di Alpha, e Beta e Gamma hanno il PvP dal giorno 1.
 * **In volo**: il nome del mondo sta prima dell’ID del settore in alto a destra (“Beta · M-2”). Il badge nella barra del titolo della finestra Nave dice dove ti trovi: **Sicura** in una zona sicura, **No PvP** durante il Protocollo di pace o dove il tuo mondo vieta il PvP, **PvP** dove altri piloti possono attaccarti. Passaci sopra con il puntatore per leggere la regola. La [mappa galattica](/wiki/01-General/Spacemap%20Travel.md) colora i settori secondo la regola del tuo mondo.
 
 ### Entrare e cambiare mondo {#joining-and-moving}

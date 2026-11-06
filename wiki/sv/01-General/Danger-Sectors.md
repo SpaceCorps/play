@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: Farosektorer -->
 # Farosektorer {#danger-sectors}
 
@@ -12,11 +12,11 @@ Här levde en gång en civilisation från den gamla galaxen, avancerad och lila-
 
 ## Vad som är nytt från dag 11 {#what-is-new-from-day-11}
 
-- **Jättegrävmaskiner.** `DS-1`, `DS-2` och `DS-3` har var sin pulsar från säsongens första dag, ett ljus på himlen och inget mer; från dag 11 får var och en en **jättegrävmaskin** bredvid. Lägg Dark Matter i grävmaskinens tank, välj en resurs, så bryter den pulsaren: Thulium och sällsynta malmer faller runt den i lådor som vem som helst får ta. Det är det rikaste att strida om i farosektorerna, och det farligaste. Se [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Jättegrävmaskiner.** `DS-1`, `DS-2` och `DS-3` har var sin pulsar från säsongens första dag, ett ljus på himlen och inget mer; från dag 11 får var och en en **jättegrävmaskin** bredvid. Lägg Dark Matter i grävmaskinens tank, välj en resurs, så bryter den pulsaren: Thulium och sällsynta malmer faller runt den i lådor som vem som helst får ta. Det är det rikaste att strida om i farosektorerna, och det farligaste. Se [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md). I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
 - **Slumbering Voids.** Medan en grävmaskin bryter kommer **Slumbering Voids** i vågor från kartans kant och jagar piloterna i dess närhet. Andra patrullerar träsket. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **Dormant Swamp.** I ett hörn av `DS-4` står den försvunna civilisationens bas: kanoner som skjuter på varje skepp de ser, Inert Masses som vaktar den och, i mitten, Unwakened. Det är en plats som piloter ännu inte är avsedda att besöka. Se [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **En snabbare, rikare Dormant-svärm.** Svärmen dyker nu upp vid träsket, kommer tillbaka tidigare efter att ha förstörts och betalar dubbelt. Se [Dormant-svärm](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Före dag 11** lyser bara pulsarerna: i övrigt är farosektorerna som [Spacemap-resor](/wiki/01-General/Spacemap%20Travel.md) beskriver dem. En värld som är på dag 11 eller senare har allt på en gång.
+- **Före dag 11** lyser bara pulsarerna: i övrigt är farosektorerna som [Spacemap-resor](/wiki/01-General/Spacemap%20Travel.md) beskriver dem. En värld som är på dag 11 eller senare har allt på en gång. I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
 
 ## Davidski
 
@@ -42,7 +42,7 @@ Varje värld har sin egen kopia av allt, och en pulsar och dess grävmaskin stå
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- Pulsarerna lyser från säsongens första dag; allt annat nytt dyker upp på säsongsdag 11 och finns kvar till wipen.
+- Pulsarerna lyser från säsongens första dag; i Beta och Gamma står även jättegrävmaskinerna från säsongsdag 1. Allt annat nytt dyker upp på säsongsdag 11, och allt finns kvar till wipen.
 - Varje värld har sina egna pulsarer, grävmaskiner och sitt eget träsk: det som händer i en händer inte i en annan.
 - Ingen asteroid ligger inom 2 600 enheter från en pulsar, inom 2 200 enheter från en jättegrävmaskin eller inom 4 900 enheter från Dormant Swamps mitt.
 

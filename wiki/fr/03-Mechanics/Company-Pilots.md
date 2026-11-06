@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2d81c36bc4357d49 -->
+<!-- wiki-i18n source: dced9aac4fce8b87 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
@@ -33,7 +33,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 - Leurs lasers ne touchent jamais les pilotes ni les vaisseaux de leur propre corporation.
 - Les zones sûres les protègent comme n’importe quel pilote, et ils ne tirent jamais dans une zone sûre.
 - **Les pilotes de votre propre corporation** peuvent être attaqués, mais en détruire un coûte **100 points d’honneur** (votre honneur peut descendre sous 0), et en toucher un dans les 15 secondes qui précèdent sa destruction par un alien ou par quelqu’un d’autre coûte autant. Votre tir ne se reporte jamais de lui-même sur l’un d’eux : en sélectionner un pendant que vous tirez suspend votre tir, et seule la touche d’attaque ou un emplacement de munitions tire dessus. Un clic à côté de l’un d’eux (pour voler jusque-là) ne le sélectionne pas.
-- **Les pilotes d’une autre corporation** ne rapportent rien quand ils sont détruits (ni crédits, ni honneur, ni points de classement), et ne peuvent pas être attaqués pendant le Protocole de paix (les trois premiers jours de la saison).
+- **Les pilotes d’une autre corporation** ne rapportent rien quand ils sont détruits (ni crédits, ni honneur, ni points de classement), et ne peuvent pas être attaqués pendant le Protocole de paix (les trois premiers jours de la saison). Beta et Gamma n’ont pas de protocole de paix : le PvP y est actif dès le jour 1.
 - Attaquer un pilote de corporation, quel qu’il soit, suit les règles de PvP de votre [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) : aucun PvP en `x-1` à `x-3` dans Alpha, ni en `x-1` dans Beta.
 - **Épaves** : un pilote de corporation détruit ne laisse ni caisse de [cargaison](/wiki/03-Mechanics/Cargo.md) ni pièces, quoi ou qui que ce soit qui le détruise : abattre des pilotes de corporation n’est pas un moyen de farmer des matériaux.
 
@@ -44,7 +44,7 @@ Chaque base de corporation (`M-1`, `T-1` et `G-1`, dans chaque monde) a **2 vais
 - **Aura de soin** : chaque vaisseau de réparation répare la coque de chaque pilote de sa corporation situé à moins de **2 000** unités de lui, de **250 points de vie par seconde**, y compris en plein combat, sans jamais dépasser la coque maximale du vaisseau. Là où les deux vous atteignent (autour de la station même), cela fait 500 par seconde. Les pilotes de corporation de votre propre corporation sont réparés eux aussi ; ceux d’une autre corporation ne le sont jamais.
 - **Vous le voyez** : un anneau discret sur la carte montre jusqu’où chacun porte, vert autour des vaisseaux de réparation de votre propre corporation, gris autour de ceux d’une autre corporation. La fenêtre Cible le désigne comme un vaisseau de réparation.
 - **Ils ne tirent jamais.** Ils tiennent leur poste et réparent leur propre coque à partir de 10 secondes après le dernier coup reçu.
-- **Ils peuvent être détruits** : les aliens agressifs s’en prennent à eux, et les pilotes d’autres corporations peuvent les abattre là où votre [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) autorise le PvP à la base (seulement en `x-1` dans Gamma), après le Protocole de paix. Chacun a 200 000 points de vie et 100 000 points de bouclier. Détruire le vaisseau de réparation de votre propre corporation coûte **100 points d’honneur**, comme pour n’importe lequel de ses pilotes de corporation, et aucun d’eux ne rapporte quoi que ce soit ni ne laisse de caisse.
+- **Ils peuvent être détruits** : les aliens agressifs s’en prennent à eux, et les pilotes d’autres corporations peuvent les abattre là où votre [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) autorise le PvP à la base (seulement en `x-1` dans Gamma), après le Protocole de paix. Chacun a 200 000 points de vie et 100 000 points de bouclier. Détruire le vaisseau de réparation de votre propre corporation coûte **100 points d’honneur**, comme pour n’importe lequel de ses pilotes de corporation, et aucun d’eux ne rapporte quoi que ce soit ni ne laisse de caisse. Beta et Gamma n’ont pas de protocole de paix : le PvP y est actif dès le jour 1.
 - **De retour en 2 minutes** : un vaisseau de réparation détruit revient à son poste 120 secondes plus tard, intact.
 
 ## Notes de combat {#combat-notes}

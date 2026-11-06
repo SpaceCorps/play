@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Добыча на астероидах -->
 # Добыча на астероидах {#asteroid-mining}
 
@@ -98,7 +98,7 @@
 
 ## Где они {#where-they-are}
 
-Во всех домашних секторах трёх корпораций и во всех Опасных секторах есть астероиды, и набор у каждого сектора свой: в основном виды его кольца, с одним-двумя гостями из соседнего кольца сверху или снизу. В нейтральных секторах, куда не ведёт ни один портал, их нет. Астероиды Опасных секторов появляются с дня сезона из таблицы — дня, когда открывается PvP ([Первый контакт](/wiki/03-Mechanics/Wipe-Timeline.md)), остальные — с первого дня. После разрушения новый астероид того же вида вырастает снова через время из строки сектора. Рядом с пульсаром, который сияет с первого дня сезона, астероидов нет; с 11-го дня их нет и рядом с гигантским экскаватором и серединой Dormant Swamp ([Опасные секторы](/wiki/01-General/Danger-Sectors.md#where-everything-is)), а скала, стоявшая там к началу события 2, исчезает.
+Во всех домашних секторах трёх корпораций и во всех Опасных секторах есть астероиды, и набор у каждого сектора свой: в основном виды его кольца, с одним-двумя гостями из соседнего кольца сверху или снизу. В нейтральных секторах, куда не ведёт ни один портал, их нет. Астероиды Опасных секторов появляются с дня сезона из таблицы (в Alpha — дня, когда открывается PvP, [Первый контакт](/wiki/03-Mechanics/Wipe-Timeline.md); в Beta и Gamma — с первого дня), остальные — с первого дня. После разрушения новый астероид того же вида вырастает снова через время из строки сектора. Рядом с пульсаром, который сияет с первого дня сезона, астероидов нет; с 11-го дня их нет и рядом с гигантским экскаватором и серединой Dormant Swamp ([Опасные секторы](/wiki/01-General/Danger-Sectors.md#where-everything-is)), а скала, стоявшая там к началу события 2, исчезает. В Beta и Gamma круг вокруг гигантского экскаватора тоже свободен от астероидов с первого дня.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@
 | `M-4` | 18 | 1 | 5 мин | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 мин | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 мин | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 мин | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 мин | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 мин | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 мин | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 в Бете и Гамме) | 5 мин | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 в Бете и Гамме) | 5 мин | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 в Бете и Гамме) | 5 мин | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 в Бете и Гамме) | 5 мин | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

@@ -96,7 +96,7 @@ The tables below give the numbers of an Alpha asteroid. **Hull** is the world's 
 
 ## Where they are
 
-Every sector of the three companies' home sectors and of the Danger Sectors has asteroids, in a mix of its own: mostly the kinds of its ring, with a guest or two from the next ring up or down. The neutral sectors, which no gate leads to, have none. The asteroids of the Danger Sectors appear from the season day in the table, the day PvP opens ([First Contact](/wiki/03-Mechanics/Wipe-Timeline.md)), and the others from the first day. After a break, a new asteroid of the same kind grows back after the time of the sector's row. No asteroid lies near a pulsar, which shines from the first day of the season; from season day 11 none lies near a giant excavator or the middle of the Dormant Swamp either ([Danger Sectors](/wiki/01-General/Danger-Sectors.md#where-everything-is)), and a rock that stood there when event 2 began is gone.
+Every sector of the three companies' home sectors and of the Danger Sectors has asteroids, in a mix of its own: mostly the kinds of its ring, with a guest or two from the next ring up or down. The neutral sectors, which no gate leads to, have none. The asteroids of the Danger Sectors appear from the season day in the table (in Alpha the day PvP opens, [First Contact](/wiki/03-Mechanics/Wipe-Timeline.md); in Beta and Gamma from the first day), and the others from the first day. After a break, a new asteroid of the same kind grows back after the time of the sector's row. No asteroid lies near a pulsar, which shines from the first day of the season; from season day 11 none lies near a giant excavator or the middle of the Dormant Swamp either ([Danger Sectors](/wiki/01-General/Danger-Sectors.md#where-everything-is)), and a rock that stood there when event 2 began is gone. In Beta and Gamma the ring around a giant excavator is kept clear from the first day too.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -115,10 +115,10 @@ Every sector of the three companies' home sectors and of the Danger Sectors has 
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 in Beta and Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 in Beta and Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 in Beta and Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 in Beta and Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

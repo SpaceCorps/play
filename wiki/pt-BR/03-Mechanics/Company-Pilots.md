@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2d81c36bc4357d49 -->
+<!-- wiki-i18n source: dced9aac4fce8b87 -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
@@ -33,7 +33,7 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 - Os lasers deles nunca atingem pilotos nem naves da própria corporação.
 - As zonas seguras os protegem como a qualquer piloto, e eles nunca atiram para dentro de uma zona segura.
 - **Os pilotos da sua própria corporação** podem ser atacados, mas destruir um custa **100 de honra** (sua honra pode ficar abaixo de 0), e atingir um nos 15 segundos antes de um alienígena ou de outra pessoa destruí-lo custa o mesmo. Seu fogo nunca passa para um deles por conta própria: selecionar um enquanto você atira faz você segurar o fogo, e só a tecla de ataque ou um slot de munição atira nele. Um clique ao lado de um deles (para voar até lá) não o seleciona.
-- **Os pilotos de outra corporação** não pagam nada quando destruídos (nem créditos, nem honra, nem pontos de ranking) e não podem ser atacados durante o Protocolo de Paz (os três primeiros dias da temporada).
+- **Os pilotos de outra corporação** não pagam nada quando destruídos (nem créditos, nem honra, nem pontos de ranking) e não podem ser atacados durante o Protocolo de Paz (os três primeiros dias da temporada). O Beta e o Gamma não têm Protocolo de Paz: lá o PvP vale desde o dia 1.
 - Atacar qualquer piloto de corporação segue as regras de PvP do seu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma): nenhum em `x-1` a `x-3` do Alpha, nem em `x-1` do Beta.
 - **Destroços**: um piloto de corporação destruído não deixa caixa de [carga](/wiki/03-Mechanics/Cargo.md) nem peças, seja quem for ou o que for que o destrua: abater pilotos de corporação não é um jeito de farmar materiais.
 
@@ -44,7 +44,7 @@ Toda base de corporação (`M-1`, `T-1` e `G-1`, em cada mundo) tem **2 naves de
 - **Aura de cura**: cada nave de reparo repara o casco de todo piloto da sua corporação a até **2.000** de distância dela, em **250 pontos de vida por segundo**, também no meio de uma luta, nunca acima do casco máximo da nave. Onde as duas alcançam você (ao redor da própria estação), são 500 por segundo. Os pilotos de corporação da sua própria corporação também são reparados; os pilotos de outra corporação, nunca.
 - **Você a vê**: um anel tênue no mapa mostra até onde cada uma alcança: verde ao redor das naves de reparo da sua própria corporação, cinza ao redor das de outra corporação. A janela do alvo a identifica como nave de reparo.
 - **Elas nunca atiram.** Mantêm o posto e reparam o próprio casco a partir de 10 segundos depois do último impacto.
-- **Podem ser destruídas**: alienígenas agressivos vão atrás delas, e pilotos de outras corporações podem abatê-las onde o seu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite PvP na base (só em `x-1` do Gamma), depois do Protocolo de Paz. Cada uma tem 200.000 pontos de vida e 100.000 pontos de escudo. Destruir a nave de reparo da sua própria corporação custa **100 de honra**, como para qualquer um dos pilotos de corporação dela, e nenhum deles paga nada nem deixa caixa.
+- **Podem ser destruídas**: alienígenas agressivos vão atrás delas, e pilotos de outras corporações podem abatê-las onde o seu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite PvP na base (só em `x-1` do Gamma), depois do Protocolo de Paz. Cada uma tem 200.000 pontos de vida e 100.000 pontos de escudo. Destruir a nave de reparo da sua própria corporação custa **100 de honra**, como para qualquer um dos pilotos de corporação dela, e nenhum deles paga nada nem deixa caixa. O Beta e o Gamma não têm Protocolo de Paz: lá o PvP vale desde o dia 1.
 - **De volta em 2 minutos**: uma nave de reparo destruída volta ao seu posto 120 segundos depois, inteira.
 
 ## Notas de combate {#combat-notes}

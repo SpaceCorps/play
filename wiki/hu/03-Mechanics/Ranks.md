@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -13,7 +13,7 @@ Minden pilótának van egy **rangja**, a Junior pilóta rangtól a Senior admir�
 - Csak azok a PvE-ponttal rendelkező pilóták szerepelnek egy listán, akik az elmúlt 30 napban repültek. Mindenki más Junior pilóta, amíg újra nem repül, és nincs helye.
 - A jel fölötti arany **korona** az egész szerver legtöbb PvE-pontjával rendelkező pilótát jelöli: minden vállalat, mindhárom világ.
 - A rangod mozog. A Senior ezredes rangig csak a pontjaidtól függ, ezért csak emelkedhet. A hat legjobb rang a vállalatod többi pilótájával együtt is mozog: csökkenhetnek, ha mások foglalják el a helyeket feletted. A csökkenést sosem jelentik be; az új legjobb rangot igen.
-- A wipe-nál a pontok újra nulláról indulnak, így a listák elölről kezdődnek, és minden szezon új mászás. A szezonbeli rangod bekerül az előzményeidbe, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Ez az új szabályok első wipe-jával kezdődik: addig a pontjaid a teljes pályafutásodét mutatják.)
+- A wipe-nál a pontok újra nulláról indulnak, így a listák elölről kezdődnek, és minden szezon új mászás. A szezonbeli rangod bekerül az előzményeidbe, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol.)
 - A név előtti jel a rang: egy alak a fokozatnak, egy–három jelzés a szintnek.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Nyisd meg a **Gazdaság › Vállalat** oldalt. A **Vállalati ranglista** szaka
 
 A wipe-nál a PvE-pontjaid újra nulláról indulnak, így a vállalatod ranglistája elölről kezdődik, és minden szezon új mászás. Csak az számít, amit egy wipe után szerzel: a nyert szintek, a tapasztalat és az új szezon idegenkilövései ([Friss pontok](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). A szinted, a tapasztalatod és a kilövési statisztikád az összesítésedben marad. **A becsület nem határozza meg a rangodat.** Az a rang, amelyet a wipe pillanatában viseltél, a ranglistán elfoglalt helyezéseddel együtt bekerül a szezonjaid előzményei közé, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A rangod egyébként sem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és az a pilóta, aki 30 napig távol marad, kikerül a ranglistáról, amíg újra nem repül.
 
-Az új szabályok első wipe-ja az első, amely újra elindítja a pontokat: addig a teljes pályafutásodét mutatják, és az a wipe olyan rangokkal zár le egy szezont, amilyet a ranglista akkor mutat.
+A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol: a pontjai attól a wipe-tól számítanak. Az a wipe, amely az 1. szezont lezárta, a teljes pályafutásodnál szerzett pontok alapján fizette ki az 1. szezon rangjait.
 
 ## Mennyi ideig tart {#how-long-it-takes}
 

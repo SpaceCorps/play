@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Crystalys-raj -->
 # Crystalys-raj {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ A Crystalys-raj egy **Boss Crystalys** és a **Crystalys Guardjai**: a legszív�
 
 - **Hol**: A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3`
 - **Hány**: Egy-egy az ilyen szektorokban, világonként 3
-- **Megjelenik**: A szezon 4. napjától a wipe-ig
+- **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Boss Crystalys
 - **Kísérők**: Legfeljebb 3 × Crystalys Guard, mindig 10 mp múlva egy újabb
 - **A kísérők közel maradnak**: legfeljebb 500 egységre a vezértől
@@ -29,7 +29,7 @@ A Crystalys-raj egy **Boss Crystalys** és a **Crystalys Guardjai**: a legszív�
 
 ## A harc menete {#how-the-fight-goes}
 
-- **Vigyél nagy csoportot.** Nyolc 8. szintű pilóta Paragonokban x2 lőszerrel Alphában nagyjából egy perc alatt megsemmisíti, legfeljebb egy hajót veszítve; négynek x4 lőszer kell, egy pilótát egyedül megsemmisítenek.
+- **Vigyél nagy csoportot.** Alphában hat 8. szintű pilóta Paragonokban x2 lőszerrel elég, ha a tüze megoszlik köztük, kilenc, ha mind egyetlen pilótára megy; x4 lőszerrel öt, illetve hat. Minél többen vannak, annál hamarabb ér véget a harc és annál kevesebb hajó vész el, egy pilótát egyedül megsemmisítenek.
 - **A bossra lőj, ne a Guardokra.** Egy Guard másodpercek alatt elesik, de a *Röviden* lista szerinti gyakorisággal új érkezik, és amit a Guardok gyógyítanak, az csak kis része annak, amit egy csoport okoz: ha békén hagyod őket, az kis időbe kerül, ha üldözöd őket, többe.
 - **A Beta és a Gamma keményebb.** Ezeknek a világoknak a rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért több pilóta vagy jobb lőszer kell.
 - **A veszélyes szektorok PvP-szektorok.** Egy rivális a harc közepén megtámadhatja a csoportot, és megvárhatja a ládát: az 30 másodpercig a legtöbb sebzést okozó pilótáé (és a klánjáé), utána bárkié ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Ne egyedül menj.
@@ -48,13 +48,13 @@ A raj hajóinak értékei mindhárom világban ([Világok](/wiki/05-Swarms/Swarm
 
 ### Boss Crystalys
 
-Alapja: Crystalys, hajótestének 175%-a és lézersebzésének 50%-a; a sebessége és a hatótávja a mintahajóé.
+Alapja: Crystalys, hajótestének 350%-a és lézersebzésének 100%-a; a sebessége és a hatótávja a mintahajóé.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 448 000 | 672 000 | 896 000 |
-| Pajzs | 280 000 | 420 000 | 560 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 5 000 | 7 500 | 10 000 |
+| Hajótest | 896 000 | 1 344 000 | 1 792 000 |
+| Pajzs | 560 000 | 840 000 | 1 120 000 |
+| Lézersebzés (másodpercenként egy sorozat) | 10 000 | 15 000 | 20 000 |
 | Sebesség | 230 | 230 | 230 |
 | Lézer hatótávja | 900 | 900 | 900 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
@@ -62,7 +62,7 @@ Alapja: Crystalys, hajótestének 175%-a és lézersebzésének 50%-a; a sebess�
 | Thulium | 1 050 | 2 100 | 3 150 |
 | Tapasztalat (XP) | 63 000 | 126 000 | 189 000 |
 | Becsület | 273 | 546 | 819 |
-| PvE-pont kilövésenként | 21 | 21 | 21 |
+| PvE-pont kilövésenként | 30 | 30 | 30 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
 

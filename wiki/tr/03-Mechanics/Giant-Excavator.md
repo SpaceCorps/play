@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 554cae2c2821218e -->
+<!-- wiki-i18n source: 51b0bedfae57b91b -->
 <!-- wiki-i18n title: Dev ekskavatör -->
 # Dev ekskavatör {#giant-excavator}
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3; ekskavatör; dev ekskavatör; kazı; yakıt; kontrol paneli; aşırı ısınma; radyasyon; dalga -->
 
-`DS-1`, `DS-2` ve `DS-3` Tehlike Sektörleri’nin her birinde sezonun ilk gününden itibaren bir **pulsar** parlar ve sezonun 11. gününden itibaren yanında bir **dev ekskavatör** durur. Ekskavatör pulsardan **Thulium ve nadir cevherler** kazar ve bunun için [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) yakar. Herkes ona yakıt koyabilir, neyi kazacağını seçebilir ve başlatabilir; kazdığı her şey çevresine, herkesin alabileceği kutular hâlinde dökülür. Ama bir çalışma gürültülüdür: başladığında tüm dünyaya haber verilir, **Slumbering Void** uzaylıları dalgalar hâlinde onun peşine düşer ve çok uzun çalıştırılan bir ekskavatör aşırı ısınıp tüm çevreyi radyasyonla kaplar. Bu sayfa bir çalışmanın nasıl geçtiğini, neyi bıraktığını ve onu nasıl atlatacağını anlatır. Sektörler [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) sayfasındadır; Void uzaylıları [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void) sayfasında.
+`DS-1`, `DS-2` ve `DS-3` Tehlike Sektörleri’nin her birinde sezonun ilk gününden itibaren bir **pulsar** parlar ve sezonun 11. gününden itibaren yanında bir **dev ekskavatör** durur. Ekskavatör pulsardan **Thulium ve nadir cevherler** kazar ve bunun için [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) yakar. Herkes ona yakıt koyabilir, neyi kazacağını seçebilir ve başlatabilir; kazdığı her şey çevresine, herkesin alabileceği kutular hâlinde dökülür. Ama bir çalışma gürültülüdür: başladığında tüm dünyaya haber verilir, **Slumbering Void** uzaylıları dalgalar hâlinde onun peşine düşer ve çok uzun çalıştırılan bir ekskavatör aşırı ısınıp tüm çevreyi radyasyonla kaplar. Bu sayfa bir çalışmanın nasıl geçtiğini, neyi bıraktığını ve onu nasıl atlatacağını anlatır. Sektörler [Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md) sayfasındadır; Void uzaylıları [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void) sayfasında. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 
 ![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../../img/wiki-img/shots/excavator-sheet.jpg)
 
@@ -14,7 +14,7 @@
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Yer**: `DS-1`, `DS-2` ve `DS-3` sektörlerinin her birinde bir pulsar ve bir dev ekskavatör, her dünyada
-- **Belirme**: Pulsar sezonun ilk gününden itibaren, ekskavatör sezonun 11. gününden sıfırlamaya kadar
+- **Belirme**: Pulsar sezonun ilk gününden itibaren, ekskavatör sezonun 11. gününden itibaren (Beta ve Gamma: sezonun 1. gününden itibaren) sıfırlamaya kadar
 - **Yakıt**: Dark Matter. Biri 10 dk yanar; depo 3 alır, bu da 30 dk kazı süresidir. Herkes kendi kargosundan, tek tek ekleyebilir
 - **Panel**: Panel, ekskavatörün 600 birim yakınında çalışır ve etiketi 1.400 birim uzaklıktan görünür. Herkes yakıt ekleyebilir, seçim yapabilir ve başlatabilir; çalışırken kaynağı da değiştirebilir, ancak 10 sn içinde bir kez
 - **Kutular**: 20 sn aralıkla bir kutu, ekskavatörden 450 ile 900 birim uzaklıkta, yere düştüğü andan itibaren herkese açık. 5 dk boyunca durur ve bir haritada aynı anda en fazla 24 tane bulunur
@@ -28,15 +28,15 @@
 
 ## Bir çalışma nasıl geçer {#how-a-run-goes}
 
-1. **Birini bul.** Sezonun 11. gününden itibaren, pulsarı olan üç Tehlike Sektörü’nün her birinde, her dünyada, bir ekskavatör vardır. Yakınındayken üzerinde **Ekskavatör** etiketi asılı durur ve Yıldız Sistemi haritası ekskavatörü olan her Tehlike Sektörü’nü işaretler: işaretin rengi ekskavatörün durumudur ve ipucu bir sonraki değişikliğe kalan süreyi söyler.
+1. **Birini bul.** Sezonun 11. gününden itibaren, pulsarı olan üç Tehlike Sektörü’nün her birinde, her dünyada, bir ekskavatör vardır. Yakınındayken üzerinde **Ekskavatör** etiketi asılı durur ve Yıldız Sistemi haritası ekskavatörü olan her Tehlike Sektörü’nü işaretler: işaretin rengi ekskavatörün durumudur ve ipucu bir sonraki değişikliğe kalan süreyi söyler. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 2. **Paneli aç.** Etikete tıkla. **Dev ekskavatör** paneli, gemin ekskavatöre panelin menzili içinde olduğu sürece çalışır (menzil *Bir bakışta* listesinde yazar). Gizlenmiş bir gemi kullanamaz: pencerenin düğmeleri kapalıdır ve gizlenme bitene kadar her işlem reddedilir.
 3. **Yakıt koy.** **Dark Matter ekle** kargondan depoya bir Dark Matter koyar. Herkes yapabilir. Depo, ekskavatörün aşırı ısınmadan önce yakabileceğinden fazlasını almaz; bu yüzden hiç yakıt boşa gitmez.
 4. **Neyin kazılacağını** listeden seç, sonra **Kazıyı başlat** düğmesine bas. Depoda en az bir Dark Matter ve bir kaynak gerekir. Herkes seçimi başlangıca kadar ve çalışırken de değiştirebilir (aşağıdaki *Kaynağı değiştirmek* bölümüne bak). Başlangıç dünyadaki her pilota duyurulur; seni, sektörü ve kaynağı adıyla söyler.
 5. **Ekskavatörü tut.** Kazarken ekskavatörün çevresine birkaç saniyede bir kutu bırakılır ve ilk Slumbering Void uzaylıları başlangıçtan kısa süre sonra gelir. Pulsardan ekskavatörün matkabına bir ışık akışı akar; yıldızın atışıyla, 4 saniyede bir yükselir, aşırı ısınmadan önceki son dakikada titreyip dağılır ve makine dinlendiğinde durur. Ekskavatörü savun ve kutuları topla.
 6. **Isıyı izle.** Isı çubuğu ekskavatör kazarken dolar ve beklerken asla boşalmaz. Sınırında ekskavatör aşırı ısınır. Öncesinde ayrıl: oyun haritayı iki kez uyarır.
-7. **Dinlenir.** Aşırı ısınmış ya da yok edilmiş ekskavatör ile pulsarı, dinlenme bitene kadar radyasyonla kaplanır; sonra ısısı sıfırlanmış ve gövdesi dolu olarak yeniden hazırdır.
+7. **Dinlenir.** Aşırı ısınmış ya da yok edilmiş ekskavatör ile pulsarı, dinlenme bitene kadar radyasyonla kaplanır; sonra ısısı sıfırlanmış, gövdesi dolu ve Excavator Mining bonusu olmadan yeniden hazırdır.
 
-Panel ayrıca sektörü, depoyu (her Dark Matter için bir hücre; yanmakta olan kısmen dolu çizilir), kaç Dark Matter taşıdığını, ekskavatörün gövdesini, her kaynağın senin dünyanda dakikada ne bıraktığını ve kazarken şu an kazılan kaynağı, ekskavatör en son soğuduğundan beri her kaynağın ne bıraktığını, sonraki dalgaya kalan süreyi ve hayattaki Void sayısını gösterir. Bir şey reddedildiğinde nedenini kırmızıyla okursun: panele çok uzaksın, Dark Matter’ın yok, depo dolu, henüz yakıt yok ya da kaynak seçilmedi, ekskavatör zaten çalışıyor, bir geçiş sonuncudan çok kısa süre sonra yapıldı, ekskavatör sıcak ya da geminin gizlenmiş durumda.
+Panel ayrıca sektörü, depoyu (her Dark Matter için bir hücre; yanmakta olan kısmen dolu çizilir), kaç Dark Matter taşıdığını, ekskavatörün gövdesini, her kaynağın senin dünyanda dakikada ne bıraktığını ve kazarken şu an kazılan kaynağı, ekskavatör en son soğuduğundan beri her kaynağın ne bıraktığını, sonraki dalgaya kalan süreyi ve hayattaki Void sayısını gösterir. Ekskavatör bir Excavator Mining bonusu taşıdığı sürece panel bunu her durumda, onu veren pilotla birlikte gösterir. Bir şey reddedildiğinde nedenini kırmızıyla okursun: panele çok uzaksın, Dark Matter’ın yok, depo dolu, henüz yakıt yok ya da kaynak seçilmedi, ekskavatör zaten çalışıyor, bir geçiş sonuncudan çok kısa süre sonra yapıldı, ekskavatör sıcak ya da geminin gizlenmiş durumda.
 
 ### Kaynağı değiştirmek {#switching-the-resource}
 
@@ -58,7 +58,7 @@ Yakıt sınıra ulaşılmadan biterse ekskavatör ısısı korunarak **Hazır** 
 
 ## Ne kazar {#what-it-mines}
 
-Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutunun içindekiler herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir. Kutuların büyüklüğünü çalışmayı başlatan belirler: **Kazıyı başlat** düğmesine basan pilotun Pilot araştırması Excavator Mining’in ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her seviyesi, o çalışmanın her kutusunun toplamda %20, %30 ya da %40 daha fazla içermesini sağlar; Thulium’da da cevherde de, tüm çalışma boyunca, yakıtı kim koyarsa, kaynağı kim değiştirirse ya da kutuları kim toplarsa toplasın. Kontrol paneli çalışmanın kimin olduğunu ve kutularının hangi payı taşıdığını gösterir, Excavator Mining’e sahip bir pilota da bunun kendi başlattığı çalışmalarda geçerli olduğunu söyler. Aşağıdaki miktarlar bunsuz değerlerdir; bir kaynağın bir çalışmada bırakabileceği en yüksek miktarın üstüne eklenir.
+Dolu bir depo, en iyi Thulium farmında beş pilotun yarım saatte kazanacağı kadarını bırakır. Beta ve Gamma, her öldürme için daha çok ödedikleri için daha fazlasını bırakır. Kaynağı başlamadan önce seçersin ve ekskavatör çalışırken değiştirebilirsin. Bir kutunun içindekiler herkes için aynıdır ve bir Thulium kutusu, asteroitlerin Thulium’u gibi, alındığında ödenen nakittir. Kutuların büyüklüğünü ekskavatörün **bonusu** belirler: Pilot araştırması Excavator Mining’e ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) sahip bir pilot **Kazıyı başlat** düğmesine bastığında ekskavatöre payını verir, toplamda %20, %30 ya da %40; ekskavatör dinlenene kadar (adım 7) bunu çalışmadan çalışmaya korur. Bıraktığı her kutu o kadar daha fazla içerir, Thulium’da da cevherde de, çalışmanın **Kazıyı başlat** düğmesine kim bastıysa, yakıtı kim koyarsa, kaynağı kim değiştirirse ya da kutuları kim toplarsa toplasın; yakıtla biten bir çalışma bonusu korur. Daha yüksek seviyeli bir pilotun sonraki başlatması bonusu yükseltir ve onu veren o olur; aynı ya da daha düşük seviyeli, seviyesiz bir pilotun ya da bir yöneticinin başlatması onu asla düşürmez. Kontrol paneli bonusu, kimin verdiğini ve çalışmanın kimin olduğunu gösterir, Excavator Mining’e sahip bir pilota da ekskavatörü kendisinin başlatmasının ona bir bonus verip vermeyeceğini ya da taşıdığını yükseltip yükseltmeyeceğini söyler. Aşağıdaki miktarlar bunsuz değerlerdir; bir kaynağın bir çalışmada bırakabileceği en yüksek miktarın üstüne eklenir.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -138,8 +138,8 @@ Ekskavatörün **özel bir halkası yok**: dünyanın olağan kuralları geçerl
 
 Bunlar Sistem satırlarıdır (sohbetin **Sistem** sekmesinde ve Oyun Günlüğü’nde görünür; **Genel** ya da **Yerel** sekmesinde görünmez). İlk üçü tüm dünyaya gider; sonuncusu ekskavatörün sektöründeki pilotlara.
 
-- Etkinlik 2’nin başladığı gün: Tehlike Sektörleri değişti.
-- Bir pilot bir ekskavatörü **başlatır**; sektörü, kaynağı ve yakıtın dakikasını söyler, pilotun Excavator Mining payı varsa onu da söyler.
+- Etkinlik 2’nin başladığı gün: Tehlike Sektörleri değişti. Beta ve Gamma’da ekskavatörler zaten yerinde olduğundan, mesaj yalnızca Dormant Swamp’tan söz eder.
+- Bir pilot bir ekskavatörü **başlatır**; sektörü, kaynağı ve yakıtın dakikasını söyler, ekskavatör bir Excavator Mining payı taşıyorsa, kimin vermiş olduğuna bakılmaksızın onu da söyler.
 - Ekskavatör **aşırı ısınır** ya da **yok edilir**.
 - Bir pilot kazı yapan bir çalışmanın kaynağını **değiştirir**, yeni kaynağı söyleyerek. Yakıt biter; ekskavatör aşırı ısınmak üzeredir (iki kez); bir Void **dalgası** geliyor, sayısıyla ve haritanın hangi tarafından geldiğiyle; hiçbir pilot kalmadı, bu yüzden Void uzaylıları ekskavatöre saldırıyor.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Az alábbi táblázatok egy Alpha-aszteroida számait adják. A **Hajótest** a 
 
 ## Hol vannak {#where-they-are}
 
-A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyikében vannak aszteroidák, saját keverékben: főleg a gyűrűjük fajtái, egy-két vendéggel a következő vagy az előző gyűrűből. A semleges szektorokban, ahová nem vezet kapu, nincs egy sem. A veszélyes szektorok aszteroidái a táblázatban szereplő szezonnaptól jelennek meg, attól a naptól, amikor megnyílik a PvP ([Első kapcsolat](/wiki/03-Mechanics/Wipe-Timeline.md)), a többi az első naptól. Egy szétlövés után ugyanolyan fajtájú új aszteroida nő ki a szektor sorában megadott idő múlva. Pulzár közelében, amely a szezon első napjától ragyog, nem fekszik aszteroida; a szezon 11. napjától óriás kotrógép vagy a Dormant Swamp közepe közelében sem ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md#where-everything-is)), és a szikla, amely ott állt, amikor a 2. esemény elkezdődött, eltűnt.
+A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyikében vannak aszteroidák, saját keverékben: főleg a gyűrűjük fajtái, egy-két vendéggel a következő vagy az előző gyűrűből. A semleges szektorokban, ahová nem vezet kapu, nincs egy sem. A veszélyes szektorok aszteroidái a táblázatban szereplő szezonnaptól jelennek meg (az Alphában attól a naptól, amikor megnyílik a PvP, [Első kapcsolat](/wiki/03-Mechanics/Wipe-Timeline.md); a Betában és a Gammában az első naptól), a többi az első naptól. Egy szétlövés után ugyanolyan fajtájú új aszteroida nő ki a szektor sorában megadott idő múlva. Pulzár közelében, amely a szezon első napjától ragyog, nem fekszik aszteroida; a szezon 11. napjától óriás kotrógép vagy a Dormant Swamp közepe közelében sem ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md#where-everything-is)), és a szikla, amely ott állt, amikor a 2. esemény elkezdődött, eltűnt. A Betában és a Gammában az óriás kotrógép körüli gyűrű is az első naptól szabadon marad.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyik�
 | `M-4` | 18 | 1 | 5 perc | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 perc | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 perc | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 perc | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 perc | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 perc | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 perc | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 a Betában és a Gammában) | 5 perc | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 a Betában és a Gammában) | 5 perc | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 a Betában és a Gammában) | 5 perc | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 a Betában és a Gammában) | 5 perc | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

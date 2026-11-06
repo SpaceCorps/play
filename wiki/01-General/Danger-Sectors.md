@@ -10,11 +10,11 @@ A civilisation of the old galaxy lived here, advanced and purple-black, and for 
 
 ## What is new from day 11
 
-- **Giant excavators.** `DS-1`, `DS-2` and `DS-3` each have a pulsar from the first day of the season, a light in the sky and nothing more; from day 11 each gets a **giant excavator** beside it. Put Dark Matter in the excavator's tank, choose a resource, and it mines the pulsar: Thulium and rare ores land around it in boxes that anyone may take. It is the richest thing to fight over in the Danger Sectors, and the most dangerous. See [Giant Excavator](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Giant excavators.** `DS-1`, `DS-2` and `DS-3` each have a pulsar from the first day of the season, a light in the sky and nothing more; from day 11 each gets a **giant excavator** beside it. Put Dark Matter in the excavator's tank, choose a resource, and it mines the pulsar: Thulium and rare ores land around it in boxes that anyone may take. It is the richest thing to fight over in the Danger Sectors, and the most dangerous. See [Giant Excavator](/wiki/03-Mechanics/Giant-Excavator.md). In Beta and Gamma the giant excavators stand from the first day of the season.
 - **Slumbering Voids.** While an excavator mines, **Slumbering Voids** fly in from the edge of the map in waves and hunt the pilots near it. Others patrol the swamp. See [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **The Dormant Swamp.** In a corner of `DS-4` stands the base of the lost civilisation: guns that fire on every ship they see, Inert Masses that guard it, and in the middle the Unwakened. It is a place pilots are not meant to visit yet. See [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **A faster, richer Dormant Swarm.** The swarm now appears at the swamp, comes back sooner after it is destroyed and pays twice as much. See [Dormant Swarm](/wiki/05-Swarms/Dormant-Swarm.md).
-- **Before day 11** only the pulsars shine: the Danger Sectors are otherwise as [Spacemap Travel](/wiki/01-General/Spacemap%20Travel.md) describes them. A world on day 11 or later has it all at once.
+- **Before day 11** only the pulsars shine: the Danger Sectors are otherwise as [Spacemap Travel](/wiki/01-General/Spacemap%20Travel.md) describes them. A world on day 11 or later has it all at once. In Beta and Gamma the giant excavators stand from the first day of the season.
 
 ## Davidski
 
@@ -40,7 +40,7 @@ Every world has its own copy of all of it, and a pulsar and its excavator stand 
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- The pulsars shine from the first day of the season; everything else new appears on season day 11 and stays until the wipe.
+- The pulsars shine from the first day of the season; in Beta and Gamma the giant excavators stand from season day 1 as well. Everything else new appears on season day 11, and all of it stays until the wipe.
 - Every world has its own pulsars, excavators and swamp: what happens in one does not happen in another.
 - No asteroid lies within 2,600 units of a pulsar, 2,200 units of a giant excavator or 4,900 units of the middle of the Dormant Swamp.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8265471ed473d0eb -->
+<!-- wiki-i18n source: 399d33a09b4ac805 -->
 <!-- wiki-i18n title: Veszélyes szektorok -->
 # Veszélyes szektorok {#danger-sectors}
 
@@ -12,11 +12,11 @@ Itt élt egykor a régi galaxis egy fejlett, lilásfekete civilizációja, amely
 
 ## Mi új a 11. naptól {#what-is-new-from-day-11}
 
-- **Óriás kotrógépek.** A `DS-1`, a `DS-2` és a `DS-3` mindegyikében ott van egy pulzár a szezon első napjától, egy fény az égen, és semmi több; a 11. naptól mindegyik mellé egy **óriás kotrógép** kerül. Tölts Dark Mattert a kotrógép tartályába, válassz erőforrást, és kibányássza a pulzárt: Thulium és ritka ércek hullanak körülötte ládákban, amelyeket bárki felvehet. Ez a legtöbbet érő dolog, amiért a veszélyes szektorokban harcolni lehet, és a legveszélyesebb. Lásd: [Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md).
+- **Óriás kotrógépek.** A `DS-1`, a `DS-2` és a `DS-3` mindegyikében ott van egy pulzár a szezon első napjától, egy fény az égen, és semmi több; a 11. naptól mindegyik mellé egy **óriás kotrógép** kerül. Tölts Dark Mattert a kotrógép tartályába, válassz erőforrást, és kibányássza a pulzárt: Thulium és ritka ércek hullanak körülötte ládákban, amelyeket bárki felvehet. Ez a legtöbbet érő dolog, amiért a veszélyes szektorokban harcolni lehet, és a legveszélyesebb. Lásd: [Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md). A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 - **Slumbering Voidok.** Amíg egy kotrógép bányászik, **Slumbering Voidok** érkeznek hullámokban a térkép széléről, és vadásznak a közelében lévő pilótákra. Mások a mocsarat járőrözik. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
 - **A Dormant Swamp.** A `DS-4` egyik sarkában áll az elveszett civilizáció bázisa: lövegek, amelyek minden hajóra tüzelnek, amit látnak, őrzőik, az Inert Massek, és középen az Unwakened. Ez egy olyan hely, amelyet a pilótáknak még nem szabad meglátogatniuk. Lásd: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
 - **Gyorsabb, gazdagabb Dormant-raj.** A raj mostantól a mocsárnál jelenik meg, megsemmisítése után hamarabb tér vissza, és kétszer annyit fizet. Lásd: [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md).
-- **A 11. nap előtt** csak a pulzárok ragyognak: a veszélyes szektorok egyébként olyanok, amilyennek az [Utazás az űrtérképen](/wiki/01-General/Spacemap%20Travel.md) leírja őket. A 11. napon vagy később járó világban minden egyszerre megvan.
+- **A 11. nap előtt** csak a pulzárok ragyognak: a veszélyes szektorok egyébként olyanok, amilyennek az [Utazás az űrtérképen](/wiki/01-General/Spacemap%20Travel.md) leírja őket. A 11. napon vagy később járó világban minden egyszerre megvan. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 
 ## Davidski
 
@@ -42,7 +42,7 @@ A `DS-4`-nek nincs pulzárja: ott van a feketelyuk. A sarkában helyette a Dorma
 <!-- danger-rules:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
-- A pulzárok a szezon első napjától ragyognak; minden más új dolog a szezon 11. napján jelenik meg, és a wipe-ig marad.
+- A pulzárok a szezon első napjától ragyognak; a Betában és a Gammában az óriás kotrógépek is a szezon 1. napjától állnak. Minden más új dolog a szezon 11. napján jelenik meg, és az egész a wipe-ig marad.
 - Minden világnak megvannak a maga pulzárjai, kotrógépei és mocsara: ami az egyikben történik, az nem történik meg a másikban.
 - Egyetlen aszteroida sem fekszik 2 600 egységen belül egy pulzártól, 2 200 egységen belül egy óriás kotrógéptől, vagy 4 900 egységen belül a Dormant Swamp közepétől.
 

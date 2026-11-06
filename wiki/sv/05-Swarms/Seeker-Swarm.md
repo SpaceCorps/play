@@ -11,7 +11,7 @@ Seeker-svärmen är den minsta av [svärmarna](/wiki/05-Swarms/Swarms.md): en **
 
 - **Var**: Sektorerna `x-1` och `x-2` i varje koncern
 - **Hur många**: En i var och en av de sektorerna, 6 i varje värld
-- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Boss Seeker
 - **Följeslagare**: Upp till 4 × Seeker Slave, en ny var 10 s
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren

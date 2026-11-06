@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 88f92b2c05ff7193 -->
+<!-- wiki-i18n source: 697f915771fec50f -->
 <!-- wiki-i18n title: Estrazione di asteroidi -->
 # Estrazione di asteroidi {#asteroid-mining}
 
@@ -98,7 +98,7 @@ Le tabelle qui sotto riportano i numeri di un asteroide di Alpha. **Scafo** è i
 
 ## Dove si trovano {#where-they-are}
 
-Ogni settore di casa delle tre corporazioni e dei settori pericolosi ha asteroidi, in un mix proprio: soprattutto i tipi del suo anello, con uno o due ospiti dall’anello sopra o sotto. I settori neutrali, a cui non porta nessun portale, non ne hanno. Gli asteroidi dei settori pericolosi compaiono dal giorno di stagione indicato in tabella, il giorno in cui si apre il PvP ([Primo contatto](/wiki/03-Mechanics/Wipe-Timeline.md)), gli altri dal primo giorno. Dopo una rottura, un nuovo asteroide dello stesso tipo ricresce dopo il tempo indicato nella riga del settore. Nessun asteroide si trova vicino a un pulsar, che brilla dal primo giorno della stagione; dal giorno 11 nessuno si trova nemmeno vicino a un escavatore gigante o al centro del Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md#where-everything-is)), e una roccia che stava lì quando è iniziato l’evento 2 è sparita.
+Ogni settore di casa delle tre corporazioni e dei settori pericolosi ha asteroidi, in un mix proprio: soprattutto i tipi del suo anello, con uno o due ospiti dall’anello sopra o sotto. I settori neutrali, a cui non porta nessun portale, non ne hanno. Gli asteroidi dei settori pericolosi compaiono dal giorno di stagione indicato in tabella (in Alpha il giorno in cui si apre il PvP, [Primo contatto](/wiki/03-Mechanics/Wipe-Timeline.md); in Beta e Gamma dal primo giorno), gli altri dal primo giorno. Dopo una rottura, un nuovo asteroide dello stesso tipo ricresce dopo il tempo indicato nella riga del settore. Nessun asteroide si trova vicino a un pulsar, che brilla dal primo giorno della stagione; dal giorno 11 nessuno si trova nemmeno vicino a un escavatore gigante o al centro del Dormant Swamp ([Settori pericolosi](/wiki/01-General/Danger-Sectors.md#where-everything-is)), e una roccia che stava lì quando è iniziato l’evento 2 è sparita. In Beta e Gamma anche l’anello intorno a un escavatore gigante resta libero dal primo giorno.
 
 <!-- asteroids-maps:begin -->
 <!-- Generated from server/Resources/Asteroids.json (and Rockets.json, Pets.json) by scripts/asteroids-wiki.sh: don't edit by hand. -->
@@ -117,10 +117,10 @@ Ogni settore di casa delle tre corporazioni e dei settori pericolosi ha asteroid
 | `M-4` | 18 | 1 | 5 min | 4 × Anvil, 4 × Cataclysite Mass, 4 × Quorvium Boulder, 2 × Derelict Cruiser, 2 × Vault Rock, 2 × Plateback |
 | `T-4` | 18 | 1 | 5 min | 4 × Derelict Cruiser, 4 × Quorvium Boulder, 4 × Cataclysite Mass, 2 × Thulium Cluster, 2 × Vault Rock, 2 × Thulium Geode |
 | `G-4` | 18 | 1 | 5 min | 5 × Quorvium Boulder, 3 × Cataclysite Mass, 3 × Anvil, 3 × Lode Rock, 2 × Thulium Cluster, 2 × Vault Rock |
-| `DS-1` | 24 | 4 | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
-| `DS-2` | 24 | 4 | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
-| `DS-3` | 24 | 4 | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
-| `DS-4` | 24 | 4 | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
+| `DS-1` | 24 | 4 (1 in Beta e Gamma) | 5 min | 8 × Rich Lode, 6 × Prism Cluster, 4 × Ancient Husk, 3 × Star Crystal, 2 × Vault Rock, 1 × Motherlode |
+| `DS-2` | 24 | 4 (1 in Beta e Gamma) | 5 min | 7 × Rich Lode, 7 × Ancient Husk, 3 × Star Crystal, 3 × Anvil, 3 × Derelict Cruiser, 1 × Motherlode |
+| `DS-3` | 24 | 4 (1 in Beta e Gamma) | 5 min | 9 × Prism Cluster, 5 × Rich Lode, 4 × Star Crystal, 3 × Quorvium Boulder, 2 × Cataclysite Mass, 1 × Motherlode |
+| `DS-4` | 24 | 4 (1 in Beta e Gamma) | 5 min | 9 × Rich Lode, 5 × Prism Cluster, 4 × Ancient Husk, 3 × Cataclysite Mass, 2 × Derelict Cruiser, 1 × Motherlode |
 
 <!-- asteroids-maps:end -->
 

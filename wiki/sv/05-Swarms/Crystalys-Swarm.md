@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Crystalys-svärm -->
 # Crystalys-svärm {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ Crystalys-svärmen är en **Boss Crystalys** med sina **Crystalys Guards**: den 
 
 - **Var**: Farosektorerna `DS-1`, `DS-2`, `DS-3`
 - **Hur många**: En i var och en av de sektorerna, 3 i varje värld
-- **Dyker upp**: Från säsongsdag 4 till wipen
+- **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Boss Crystalys
 - **Följeslagare**: Upp till 3 × Crystalys Guard, en ny var 10 s
 - **Följeslagarna håller sig inom**: högst 500 enheter från ledaren
@@ -29,7 +29,7 @@ Crystalys-svärmen är en **Boss Crystalys** med sina **Crystalys Guards**: den 
 
 ## Hur striden går till {#how-the-fight-goes}
 
-- **Ta med en stor grupp.** Åtta piloter på nivå 8 i Paragons med ammunition x2 förstör den på ungefär en minut i Alpha och förlorar högst ett skepp; fyra behöver ammunition x4, och en ensam pilot förstörs.
+- **Ta med en stor grupp.** I Alpha räcker sex piloter på nivå 8 i Paragons med ammunition x2 om dess eld fördelas på dem, nio om den går på en enda pilot; med ammunition x4 är det fem och sex. Fler piloter avslutar striden snabbare och förlorar färre skepp, och en ensam pilot förstörs.
 - **Skjut på bossen, inte på Guards.** En Guard faller på sekunder, men en ny kommer lika ofta som listan *I korthet* säger, och det Guards läker är en liten del av vad en grupp gör: att låta dem vara kostar lite tid, att jaga dem kostar mer.
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de kräver fler piloter eller bättre ammunition.
 - **Farosektorerna är PvP.** En rival kan attackera gruppen mitt i striden och vänta på lådan: den tillhör piloten som gjorde mest skada (och dennes klan) i 30 sekunder, och sedan vem som helst ([Last](/wiki/03-Mechanics/Cargo.md)). Kom inte ensam.
@@ -48,13 +48,13 @@ Värdena för svärmens skepp i de tre världarna ([Världar](/wiki/05-Swarms/Sw
 
 ### Boss Crystalys
 
-Bygger på Crystalys med 175 % av skrovet och 50 % av laserskadan; hastighet och räckvidd är förlagans.
+Bygger på Crystalys med 350 % av skrovet och 100 % av laserskadan; hastighet och räckvidd är förlagans.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 448 000 | 672 000 | 896 000 |
-| Sköld | 280 000 | 420 000 | 560 000 |
-| Laserskada (en salva per sekund) | 5 000 | 7 500 | 10 000 |
+| Skrov | 896 000 | 1 344 000 | 1 792 000 |
+| Sköld | 560 000 | 840 000 | 1 120 000 |
+| Laserskada (en salva per sekund) | 10 000 | 15 000 | 20 000 |
 | Hastighet | 230 | 230 | 230 |
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
@@ -62,7 +62,7 @@ Bygger på Crystalys med 175 % av skrovet och 50 % av laserskadan; hastighet o
 | Thulium | 1 050 | 2 100 | 3 150 |
 | Erfarenhet (XP) | 63 000 | 126 000 | 189 000 |
 | Heder | 273 | 546 | 819 |
-| PvE-poäng per nedskjutning | 21 | 21 | 21 |
+| PvE-poäng per nedskjutning | 30 | 30 | 30 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
 

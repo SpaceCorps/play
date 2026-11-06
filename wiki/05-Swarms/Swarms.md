@@ -27,20 +27,20 @@ The **Clan Wardens** are not public swarms. A clan calls its own Warden for the 
 | [**Phantasm Swarm**](/wiki/05-Swarms/Phantasm-Swarm.md) | The sectors `x-3` and `x-4` of every company | One in each of those sectors, 6 in each world | **Boss Phantasm** | Up to 4 × Phantasm Guard, a new one every 10 s | 2 min after the leader is destroyed, in the same sector |
 | [**Goombah Swarm**](/wiki/05-Swarms/Goombah-Swarm.md) | The sectors `x-3` and `x-4` of every company | One in each of those sectors, 6 in each world | **Boss Goombah** | Up to 4 × Goombah Guard, a new one every 10 s | 5 min after the leader is destroyed, in the same sector |
 | [**Crystalys Swarm**](/wiki/05-Swarms/Crystalys-Swarm.md) | The Danger Sectors `DS-1`, `DS-2`, `DS-3` | One in each of those sectors, 3 in each world | **Boss Crystalys** | Up to 3 × Crystalys Guard, a new one every 10 s | 30 min after the leader is destroyed, in the same sector |
-| [**Tesseract Swarm**](/wiki/05-Swarms/Tesseract-Swarm.md) | The Danger Sector `DS-4` | One in each world | **Tesseract** | Up to 50 × Facet, 10 more every 5 s while the leader is being hit | 30 min after the leader is destroyed, in the same sector |
+| [**Tesseract Swarm**](/wiki/05-Swarms/Tesseract-Swarm.md) | The Danger Sector `DS-4` | One in each world | **Tesseract** | Up to 100 × Facet, 20 more every 5 s while the leader is being hit | 30 min after the leader is destroyed, in the same sector |
 
 <!-- swarms-list:end -->
 
 ## When and where
 
-The swarms begin to appear at **First Contact** and stay until the wipe (see the [Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md); the day is the first line of the rules below). **Every world has its own swarms** in the same places, so the Pirate Boss of Alpha and the one of Beta are two different ships, and a swarm you destroy in your world is not destroyed in another. A swarm that is destroyed comes back after the time in the table above. The Dormant Swarm changes on season day 11 (event 2): it appears at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), comes back sooner and pays twice as much.
+The swarms begin to appear at **First Contact** and stay until the wipe (see the [Wipe Timeline](/wiki/03-Mechanics/Wipe-Timeline.md); the day is the first line of the rules below). **Every world has its own swarms** in the same places, so the Pirate Boss of Alpha and the one of Beta are two different ships, and a swarm you destroy in your world is not destroyed in another. A swarm that is destroyed comes back after the time in the table above. The Dormant Swarm changes on season day 11 (event 2): it appears at the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), comes back sooner and pays twice as much. In Beta and Gamma the swarms appear from the first day of the season.
 
 ## The rules of every swarm
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- The swarms appear from season day 4 until the wipe.
+- The swarms appear from season day 4 until the wipe; in Beta and Gamma they appear from season day 1.
 - When a swarm ship is hit, the ships of its swarm within 1,500 units of it join the fight against the first pilot who hit it.
 - A leader appears at least 2,500 units from the edge of every station and gate ring.
 - A pilot who dealt at least 5% of the damage done to a boss is paid for its kill.
@@ -68,7 +68,7 @@ The Seeker, Pirate, Phantasm, Goombah, Crystalys and Tesseract swarms tell the p
 
 ## Fighting a swarm
 
-- **The leaders never start a fight.** A leader roams until a pilot hits it, then fights back, and the ships of its swarm close to it join in against the first pilot who hit it (the distance is in the rules above). The Pirate Scouts are the exception: they attack any pilot who comes near. A leader never mends its hull by itself, so the damage you did stays on it unless its followers heal it; its shield recharges as every alien's does. Only the Tesseract is different: it has no weapon, it mends its hull and shield by itself once nobody has hurt it for a few seconds, and its Facets hunt the pilot who has dealt the most damage instead of the first one who hit it.
+- **The leaders never start a fight.** A leader roams until a pilot hits it, then fights back, and the ships of its swarm close to it join in against the first pilot who hit it (the distance is in the rules above). The Pirate Scouts are the exception: they attack any pilot who comes near. A leader never mends its hull by itself, so the damage you did stays on it unless its followers heal it; its shield recharges as every alien's does. Only the Tesseract is different: it has no weapon, it mends its hull and shield by itself once nobody has hurt it for a few seconds, and its Facets fly round it and fire on the nearest pilot who has hit it, instead of going after the first one who hit it.
 - **Swarm ships fight pilots only.** They do not shoot aliens and aliens do not shoot them, and [company pilots](/wiki/03-Mechanics/Company-Pilots.md) ignore them: they neither hunt a swarm ship nor come to your help against one.
 - **Rockets.** The Pirate Boss and the Dormant Force and Pulses fire **straight** rockets, [Rivet rockets](/wiki/06-Items/Rockets.md), at the pilot who attacked them. A ship that keeps moving sidesteps them, one that stands still is hit.
 - **The shape of the fights.** The Seeker Swarm is for two pilots, the Pirate Swarm and the Phantasm Swarm for a small group, the Goombah Swarm for a group of the strongest ships, the Crystalys Swarm and the Dormant Swarm for a large group of them, the Tesseract Swarm for a very large one; the bigger worlds need more pilots, as for every alien.
@@ -107,7 +107,7 @@ Every kill is counted under the ship's own name in your kill statistics, and add
 | **Phantasm Guard** | Phantasm Swarm | 1 |
 | **Boss Goombah** | Goombah Swarm | 14 |
 | **Goombah Guard** | Goombah Swarm | 3 |
-| **Boss Crystalys** | Crystalys Swarm | 21 |
+| **Boss Crystalys** | Crystalys Swarm | 30 |
 | **Crystalys Guard** | Crystalys Swarm | 6 |
 | **Tesseract** | Tesseract Swarm | 42 |
 | **Facet** | Tesseract Swarm | 0 |

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
-El universo de SpaceCorps se rige por un ciclo de temporadas que se repite. Cada 30 días, la galaxia sufre un reinicio cósmico conocido como el **Reinicio**. Un reinicio se lleva lo suelto y conserva lo que has construido: tus naves, drones, tecnologías, tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) y tus puntos de reinicio se quedan, y tus créditos y tu Thulium también, hasta un tope. Tu temporada termina con un rango, y el rango da recompensas. Esta página es toda la regla en un solo sitio: qué conserva el reinicio, qué restablece, qué quita y qué da. Las recompensas por rango tienen su propia página, [Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+El universo de SpaceCorps se rige por un ciclo de temporadas que se repite. Cada 30 días, la galaxia sufre un reinicio cósmico conocido como el **Reinicio**. Un reinicio se lleva lo suelto y conserva lo que has construido: tus naves, drones, tecnologías, tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (con los motores y láseres montados en él) y tus puntos de reinicio se quedan, y tus créditos y tu Thulium también, hasta un tope. Tu temporada termina con un rango, y el rango da recompensas. Esta página es toda la regla en un solo sitio: qué conserva el reinicio, qué restablece, qué quita y qué da. Las recompensas por rango tienen su propia página, [Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ El calendario de [Recompensas diarias](/wiki/03-Mechanics/Daily-Rewards.md) tien
 
 | Fase | Días | Protocolo / evento | Descripción |
 | :--- | :--- | :--- | :--- |
-| **Protocolo de paz** | Días 1–3 | Sin PvP | Un nuevo comienzo centrado por completo en el progreso PvE, la recolección de recursos y la construcción de naves, sin la amenaza de combates entre jugadores. |
-| **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo) y los tres [enjambres](/wiki/05-Swarms/Swarms.md) empiezan a aparecer: se quedan hasta el reinicio, a lo largo de las fases siguientes. La fase en sí aún no da recompensas especiales. |
-| **Auge Tecnológico** | Días 11–18 | Evento 2 | Los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) cambian: una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) junto a cada púlsar en `DS-1` a `DS-3`, el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en `DS-4`, Slumbering Voids, y un Enjambre Dormant que vuelve antes y paga el doble. Todo se queda hasta el reinicio. La fase no da recompensas propias. |
+| **Protocolo de paz** | Días 1–3 | Sin PvP | Un nuevo comienzo centrado por completo en el progreso PvE, la recolección de recursos y la construcción de naves, sin la amenaza de combates entre jugadores. Solo en Alpha: Beta y Gamma no tienen Protocolo de paz, y allí el PvP está activo desde el día 1. |
+| **Primer Contacto** | Días 4–10 | Evento 1 | Se abre el PvP (según la regla de tu mundo; consulta Mundos más abajo) y los tres [enjambres](/wiki/05-Swarms/Swarms.md) empiezan a aparecer: se quedan hasta el reinicio, a lo largo de las fases siguientes. La fase en sí aún no da recompensas especiales. En Beta y Gamma, los enjambres y los asteroides de los sectores de peligro están desde el primer día de la temporada. |
+| **Auge Tecnológico** | Días 11–18 | Evento 2 | Los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) cambian: una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) junto a cada púlsar en `DS-1` a `DS-3`, el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) en `DS-4`, Slumbering Voids, y un Enjambre Dormant que vuelve antes y paga el doble. Todo se queda hasta el reinicio. La fase no da recompensas propias. En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada. |
 | **Juegos de Guerra** | Días 19–25 | Evento 3 | Aún sin efectos especiales: el PvP funciona como en todas las fases posteriores al Protocolo de paz. |
 | **Recta Final** | Días 26–30 | Evento 4 | La fase de la cuenta regresiva final. Todos los pilotos se apresuran a completar la carga que se llevan antes de la erupción. |
 | **El Reinicio** | Día 30 | Erupción del agujero negro | El universo se destruye y renace, todos los [clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) se disuelven y tu temporada se cierra: tu rango queda anotado y paga sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Los pilotos pasan al mundo que eligieron como destino para la próxima temporada. En las últimas 72 horas antes de él, el [agujero negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) crece hasta 1,8 veces su tamaño y el Dashboard cuenta hacia atrás hasta el reinicio. |
 
-Aparte del propio reinicio, solo cinco cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, desde el día 11 los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) reciben sus excavadoras gigantes (junto a los púlsares, que brillan desde el día 1) y el Dormant Swamp, que se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Y en las últimas 72 horas antes del reinicio el [agujero negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) crece hasta 1,8 veces su tamaño. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y en el Panel del juego. El evento 2 cambia los sectores de peligro como se ha dicho; ninguno de los demás da todavía recompensas, apariciones ni bonificaciones propias.
+Aparte del propio reinicio, solo cinco cosas siguen el calendario: el Protocolo de paz (días 1–3) cambia una regla, desde el día 4 los [enjambres](/wiki/05-Swarms/Swarms.md) aparecen y se quedan hasta el reinicio, desde el día 11 los [sectores de peligro](/wiki/01-General/Danger-Sectors.md) reciben sus excavadoras gigantes (junto a los púlsares, que brillan desde el día 1) y el Dormant Swamp, que se quedan hasta el reinicio, y la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) no cobra comisiones desde el día 28 y está cerrada desde el día 30. Y en las últimas 72 horas antes del reinicio el [agujero negro](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) crece hasta 1,8 veces su tamaño. Los cuatro eventos son fases con nombre de la temporada: aparecen en la página Temporada y en el Panel del juego. El evento 2 cambia los sectores de peligro como se ha dicho; ninguno de los demás da todavía recompensas, apariciones ni bonificaciones propias. Estos son los días de Alpha: Beta y Gamma no tienen Protocolo de paz, y sus enjambres, los asteroides de los sectores de peligro y las excavadoras gigantes están desde el día 1.
 
 ---
 
@@ -51,7 +51,7 @@ Todo lo que sigue es tuyo después del reinicio.
 * **Tus drones**, con sus niveles y su experiencia, y tus [formaciones de drones](/wiki/03-Mechanics/Formations.md), estén donde estén: en tu inventario, en tu barra rápida o en una nave.
 * **Tus [P.E.T.s](/wiki/03-Mechanics/Pets.md)** (acoplados o guardados), los trabajos en marcha de la Cuna, el Códice y tus P.E.T. Station.
 * **Todas tus tecnologías.** El Centro de investigación conserva todo lo que contiene [Investigación](/wiki/03-Mechanics/Research.md): la ciencia de su depósito, el Dark Matter introducido, una investigación en curso y el impulso. Igual que las Extra Slots CPU que instalaste, que no son objetos.
-* **Todo tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, niveles y el mineral guardado en el Almacén de recursos. El mineral guardado no es un objeto y no cuenta para el Alijo.
+* **Todo tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, niveles, el mineral guardado en el Almacén de recursos y **los motores y láseres montados en los módulos de motores y de defensa**, que siguen montados donde están, con los propulsores y amplificadores que llevan dentro. El mineral guardado no es un objeto y no cuenta para el Alijo; las piezas montadas tampoco ocupan sitio en él.
 * **Tus puntos de reinicio y tus mejoras permanentes** ([la tienda](#the-permanent-buff-store)).
 * **Experiencia, nivel y honor.**
 * **Créditos hasta 5.000.000.000 y Thulium hasta 10.000.000.** Lo que pase de ahí se pierde: consulta [los topes](#the-caps).
@@ -129,7 +129,7 @@ Cada objeto tiene un peso fijo. Una pila pesa ese peso por su cantidad, y un obj
 
 El botón **Congelar contenido** de la pestaña Alijo de Transporte es un seguro para las bahías y la carga: mientras están congeladas no se puede añadir ni sacar nada hasta que las descongeles. No es una condición: lo que hay en el Alijo pasa por el reinicio congelado o no. No tiene nada que ver con el bloqueo de la nave del alijo, que es definitivo.
 
-**ADVERTENCIA**: cualquier objeto que no se conserve según las reglas anteriores (montado en la nave que conserva su equipo, en el Alijo de Transporte, un dron, una formación de drones, una P.E.T. Station o munición y cohetes de combate dentro de los límites) se **destruirá para siempre** durante la Erupción del agujero negro.
+**ADVERTENCIA**: cualquier objeto que no se conserve según las reglas anteriores (montado en la nave que conserva su equipo, montado en tu Skylab, en el Alijo de Transporte, un dron, una formación de drones, una P.E.T. Station o munición y cohetes de combate dentro de los límites) se **destruirá para siempre** durante la Erupción del agujero negro.
 
 ---
 
@@ -138,7 +138,7 @@ El botón **Congelar contenido** de la pestaña Alijo de Transporte es un seguro
 * **Tu rango de la temporada.** Se anota en el historial de tus temporadas (página Temporada y perfil › Progreso) junto con tu puesto en la clasificación de tu corporación, y tus puntos de clasificación vuelven a empezar de cero ([puntos nuevos](#fresh-points)).
 * **Las fuentes de puntos de reinicio**: los derribos de alienígenas y las reclamaciones de misiones y de Dormant Knowledge, para que puedas ganarlos otra vez ([Cómo ganar puntos de reinicio](#earning-wipe-points)). Tus puntos de reinicio y tus mejoras se quedan.
 * **Los derribos de alienígenas.** Se cuentan para el reinicio en el que estás, y tus cifras totales se quedan.
-* **Todo objeto que no se conserva**: recursos, potenciadores, equipo de repuesto, placas, Cluster Chunks y el resto, y los motores y láseres montados en los módulos de motores y de defensa de tu Skylab: sácalos y ponlos en el Alijo para conservarlos. Lo que el reinicio te devuelve primero (véase más abajo) es un objeto como cualquier otro.
+* **Todo objeto que no se conserva**: recursos, potenciadores, equipo de repuesto, placas, Cluster Chunks y el resto. Un motor o un láser que hayas sacado de un módulo de tu Skylab es un repuesto como cualquier otro; los que siguen montados se conservan. Lo que el reinicio te devuelve primero (véase más abajo) es un objeto como cualquier otro.
 * **Los clanes.** Todos los clanes se disuelven, con su Tesoro de la flota, sus avisos, sus tratados, sus puntos y sus niveles de mejora ([Clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **Las piezas del Chrono-Gate**: la puerta vuelve a empezar, y tu Materializador también.
 * **Tu expedición del Skylab** termina: un viaje en curso se acaba y la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ En el reinicio, los **créditos por encima de 5.000.000.000 (5 mil millones)** y
 
 Tus **puntos de clasificación** cuentan lo que ganaste **desde el último reinicio**: los niveles que subiste, la experiencia y los derribos de alienígenas de esta temporada. En el reinicio vuelven a empezar de cero y tu antiguo rango pasa al historial de tus temporadas. **El honor no determina tu rango**, y tus cifras totales (nivel, experiencia, honor, derribos) se quedan como están. Consulta [Rangos](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-El primer reinicio de las nuevas reglas es el primero que empieza la cuenta: hasta entonces, los puntos que tienes son los de toda tu trayectoria.
+La temporada 2, que empezó con el reinicio del 6 de noviembre de 2026, fue la primera que cuenta así: el reinicio que cerró la temporada 1 pagó los rangos de esa temporada según los puntos de toda tu trayectoria.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps tiene tres **mundos**. Cada uno es una copia separada de toda la gala
 
 | Mundo | Nivel necesario | Riesgo | Fuerza alienígena | Paga por derribos y misiones | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Casual / inicial | 1,0x | 1,0x créditos, Thulium, XP, honor | **Seguridad alta**: solo en los mapas fronterizos (`x-4`) y en la zona PvP central (`DS-x`). Sin PvP en los sectores de corporación `x-1` a `x-3`. |
-| **Beta** | 7 | Normal / intermedio | 1,5x | 2,0x créditos, Thulium, XP, honor | **Seguridad media**: en todas partes salvo en los sectores base (`x-1`). |
-| **Gamma** | 10 | Hardcore / élite | 2,0x | 3,0x créditos, Thulium, XP, honor | **Seguridad baja**: en todas partes. Máximo riesgo, máxima paga. |
+| **Alpha** | 1 | Casual / inicial | 1,0x | 1,0x créditos, Thulium, XP, honor | **Seguridad alta**: solo en los mapas fronterizos (`x-4`) y en la zona PvP central (`DS-x`). Sin PvP en los sectores de corporación `x-1` a `x-3`. Desde el día 4. |
+| **Beta** | 7 | Normal / intermedio | 1,5x | 2,0x créditos, Thulium, XP, honor | **Seguridad media**: en todas partes salvo en los sectores base (`x-1`). Desde el día 1. |
+| **Gamma** | 10 | Hardcore / élite | 2,0x | 3,0x créditos, Thulium, XP, honor | **Seguridad baja**: en todas partes. Máximo riesgo, máxima paga. Desde el día 1. |
 
 Así funcionan los mundos:
 
 * **Alienígenas**: la fuerza alienígena de un mundo multiplica sus puntos de vida, sus escudos, su recarga de escudo y su daño. Su velocidad y su alcance son los mismos en todas partes.
-* **Paga**: un derribo paga según el mundo en el que ocurre. Una misión paga según el mundo en el que la hiciste (el más bajo, si abarca dos), sea cual sea el mundo en el que la reclames (una misión de la estación no tiene mundo propio y paga según el mundo en el que vuelas al reclamarla), y el límite de una misión con tiempo límite es 1,5 veces más largo en Beta y el doble en Gamma ([Misiones](/wiki/03-Mechanics/Quests.md)). El botín y los pilotos de corporación son iguales en todos los mundos, así que un mundo más alto rinde más por hora, pero sus combates cuestan más en reparaciones.
-* **PvP**: todos los que están en un mapa pertenecen a su mundo, así que rige una sola regla para todo el mapa, pilotos de corporación incluidos. Las zonas seguras y el Protocolo de paz (días 1–3) protegen en todos los mundos.
+* **Paga**: un derribo paga según el mundo en el que ocurre. Una misión paga según el mundo en el que vuelas al reclamarla (una que hiciste en un mundo más alto conserva el multiplicador más alto), así que una misión de antes de un wipe se paga según tu mundo nuevo, y el límite de una misión con tiempo límite es 1,5 veces más largo en Beta y el doble en Gamma ([Misiones](/wiki/03-Mechanics/Quests.md)). El botín y los pilotos de corporación son iguales en todos los mundos, así que un mundo más alto rinde más por hora, pero sus combates cuestan más en reparaciones.
+* **PvP**: todos los que están en un mapa pertenecen a su mundo, así que rige una sola regla para todo el mapa, pilotos de corporación incluidos. Las zonas seguras protegen en todos los mundos; el Protocolo de paz (días 1–3) es solo de Alpha, y Beta y Gamma tienen PvP desde el día 1.
 * **En vuelo**: el nombre del mundo aparece delante del identificador del sector, arriba a la derecha («Beta · M-2»). La insignia de la barra de título de la ventana Nave indica dónde estás: **A salvo** en una zona segura, **Sin PvP** durante el Protocolo de paz o donde tu mundo prohíbe el PvP, **PvP** donde otros pilotos pueden atacarte. Pasa el puntero por encima para ver la regla. El [mapa galáctico](/wiki/01-General/Spacemap%20Travel.md) colorea los sectores según la regla de tu mundo.
 
 ### Unirse y cambiar de mundo {#joining-and-moving}

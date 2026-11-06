@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -29,20 +29,20 @@ A **klánőrzők** nem nyilvános rajok. A klán a napi vonala utolsó lépésé
 | [**Phantasm-raj**](/wiki/05-Swarms/Phantasm-Swarm.md) | Minden vállalat `x-3` és `x-4` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Phantasm** | Legfeljebb 4 × Phantasm Guard, mindig 10 mp múlva egy újabb | 2 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 | [**Goombah-raj**](/wiki/05-Swarms/Goombah-Swarm.md) | Minden vállalat `x-3` és `x-4` szektora | Egy-egy az ilyen szektorokban, világonként 6 | **Boss Goombah** | Legfeljebb 4 × Goombah Guard, mindig 10 mp múlva egy újabb | 5 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 | [**Crystalys-raj**](/wiki/05-Swarms/Crystalys-Swarm.md) | A veszélyes szektorok: `DS-1`, `DS-2`, `DS-3` | Egy-egy az ilyen szektorokban, világonként 3 | **Boss Crystalys** | Legfeljebb 3 × Crystalys Guard, mindig 10 mp múlva egy újabb | 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
-| [**Tesseract-raj**](/wiki/05-Swarms/Tesseract-Swarm.md) | A veszélyes szektor: `DS-4` | Világonként egy | **Tesseract** | Legfeljebb 50 × Facet, 5 mp múlva 10 újabb, amíg a vezért találatok érik | 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
+| [**Tesseract-raj**](/wiki/05-Swarms/Tesseract-Swarm.md) | A veszélyes szektor: `DS-4` | Világonként egy | **Tesseract** | Legfeljebb 100 × Facet, 5 mp múlva 20 újabb, amíg a vezért találatok érik | 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban |
 
 <!-- swarms-list:end -->
 
 ## Mikor és hol {#when-and-where}
 
-A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (lásd a [Wipe-idővonalat](/wiki/03-Mechanics/Wipe-Timeline.md); a napot az alábbi szabályok első sora adja meg). **Minden világnak megvannak a saját rajai** ugyanazokon a helyeken, így az Alpha Pirate Bossa és a Beta Pirate Bossa két különböző hajó, és az a raj, amelyet a saját világodban megsemmisítesz, egy másikban nem semmisül meg. A megsemmisített raj a fenti táblázatban szereplő idő múlva tér vissza. A Dormant-raj a szezon 11. napján (2. esemény) megváltozik: a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál jelenik meg, hamarabb tér vissza, és kétszer annyit fizet.
+A rajok az **Első kapcsolattal** kezdenek megjelenni, és a wipe-ig maradnak (lásd a [Wipe-idővonalat](/wiki/03-Mechanics/Wipe-Timeline.md); a napot az alábbi szabályok első sora adja meg). **Minden világnak megvannak a saját rajai** ugyanazokon a helyeken, így az Alpha Pirate Bossa és a Beta Pirate Bossa két különböző hajó, és az a raj, amelyet a saját világodban megsemmisítesz, egy másikban nem semmisül meg. A megsemmisített raj a fenti táblázatban szereplő idő múlva tér vissza. A Dormant-raj a szezon 11. napján (2. esemény) megváltozik: a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)-nál jelenik meg, hamarabb tér vissza, és kétszer annyit fizet. A Betában és a Gammában a rajok a szezon első napjától megjelennek.
 
 ## Minden raj szabályai {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- A rajok a szezon 4. napjától a wipe-ig jelennek meg.
+- A rajok a szezon 4. napjától a wipe-ig jelennek meg; a Betában és a Gammában a szezon 1. napjától jelennek meg.
 - Ha egy rajhajót eltalálnak, a rajának 1 500 egységen belüli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta.
 - A vezér legalább 2 500 egység távolságra jelenik meg minden állomás- és kapugyűrű szélétől.
 - Az a pilóta, aki egy bossnak okozott sebzés legalább 5% részét leadta, fizetést kap a kilövéséért.
@@ -70,7 +70,7 @@ A Seeker-, a Pirate-, a Phantasm-, a Goombah-, a Crystalys- és a Tesseract-raj 
 
 ## Harc egy rajjal {#fighting-a-swarm}
 
-- **A vezérek soha nem kezdenek harcot.** A vezér kóborol, amíg egy pilóta el nem találja, aztán visszavág, és a raj hozzá közeli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta (a távolságot a fenti szabályok adják meg). A Pirate Scoutok kivételek: megtámadnak minden pilótát, aki a közelükbe ér. A vezér a hajótestét soha nem javítja meg magától, így a sebzés, amelyet okoztál, rajta marad, hacsak a kísérői meg nem gyógyítják; a pajzsa úgy töltődik újra, mint bármely idegené. Csak a Tesseract más: nincs fegyvere, maga javítja meg a hajótestét és a pajzsát, amint néhány másodpercig senki sem sebezte, és a Facetjei nem az elsőként eltaláló pilótára, hanem a legtöbb sebzést okozóra vadásznak.
+- **A vezérek soha nem kezdenek harcot.** A vezér kóborol, amíg egy pilóta el nem találja, aztán visszavág, és a raj hozzá közeli hajói beszállnak a harcba az első pilóta ellen, aki eltalálta (a távolságot a fenti szabályok adják meg). A Pirate Scoutok kivételek: megtámadnak minden pilótát, aki a közelükbe ér. A vezér a hajótestét soha nem javítja meg magától, így a sebzés, amelyet okoztál, rajta marad, hacsak a kísérői meg nem gyógyítják; a pajzsa úgy töltődik újra, mint bármely idegené. Csak a Tesseract más: nincs fegyvere, maga javítja meg a hajótestét és a pajzsát, amint néhány másodpercig senki sem sebezte, és a Facetjei körülrepkedik, és a legközelebbi pilótára lőnek, aki eltalálta, ahelyett hogy az elsőként eltalálóra vadásznának.
 - **A rajhajók csak pilótákkal harcolnak.** Nem lőnek idegenekre, az idegenek sem lőnek rájuk, a [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) pedig figyelmen kívül hagyják őket: nem vadásznak rajhajóra, és nem sietnek a segítségedre ellene.
 - **Rakéták.** A Pirate Boss, valamint a Dormant Force és a Pulse-ok **egyenes** rakétákat, [Rivet-rakétákat](/wiki/06-Items/Rockets.md) lőnek arra a pilótára, aki megtámadta őket. A folyamatosan mozgó hajó kitér előlük, az álló hajót eltalálják.
 - **A harcok mérete.** A Seeker-raj két pilótának való, a Pirate- és a Phantasm-raj egy kis csoportnak, a Goombah-raj a legerősebb hajók csoportjának, a Crystalys- és a Dormant-raj a legerősebb hajók nagy csoportjának, a Tesseract-raj egy nagyon nagynak; a magasabb világokhoz több pilóta kell, mint minden idegennél.
@@ -109,7 +109,7 @@ Minden kilövést a hajó saját neve alatt számolnak a kilövési statisztiká
 | **Phantasm Guard** | Phantasm-raj | 1 |
 | **Boss Goombah** | Goombah-raj | 14 |
 | **Goombah Guard** | Goombah-raj | 3 |
-| **Boss Crystalys** | Crystalys-raj | 21 |
+| **Boss Crystalys** | Crystalys-raj | 30 |
 | **Crystalys Guard** | Crystalys-raj | 6 |
 | **Tesseract** | Tesseract-raj | 42 |
 | **Facet** | Tesseract-raj | 0 |

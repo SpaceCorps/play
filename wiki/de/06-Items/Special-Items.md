@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -39,7 +39,7 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 - **Der Preis bleibt bezahlt.** Was der Ausbau gekostet hat, wurde beim Start abgezogen. Der Hammer erstattet davon nichts und verlangt nichts dazu.
 - **Nur ein laufender Ausbau.** Ein Modul, das nicht ausgebaut wird oder dessen Ausbau gerade von selbst geendet hat, wird abgelehnt („Nichts zu beenden: Dieses Modul wird nicht ausgebaut.“), und der Hammer bleibt bei dir.
-- **Extrem selten.** Das Skylab behält seine Level über den Wipe hinweg, daher ist ein Hammer die Zeit eines Schritts wert, auf dem Kern bis zu 6 Tage. Das Spiel erlaubt einem Piloten höchstens **einen in 60 Tagen**, und du kannst 5 besitzen.
+- **Extrem selten.** Das Skylab behält seine Level über den Wipe hinweg, daher ist ein Hammer die Zeit eines Schritts wert, auf dem Kern bis zu 6 Tage. Zwischen zwei Hammern gibt es keine Wartezeit, und du kannst 5 besitzen.
 - **Der Engineer** (ein [Workforce Contract](#workforce-contract)) verkürzt Ausbauten um bis zu 1 Stunde; der Hammer nimmt alles, was noch fehlt.
 
 ### Schematics
@@ -98,7 +98,7 @@ Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-
 - **Ein Zähler, kein Gegenstand.** Das Inventar im Hangar ist der einzige Ort, der sie auflistet, als Kacheln unter den Verbrauchsgütern; von einer Sorte, die du nicht besitzt, gibt es keine Kachel. Eine Kachel ist kein Gegenstand, daher lässt sie sich nicht ziehen, auswählen, löschen oder verkaufen. Sie haben kein Gewicht, keinen Hotbar-Platz und keinen Platz in der Fracht oder im Transport-Cache; sie fallen nie, wenn dein Schiff zerstört wird.
 - **Über den Wipe hinaus.** Deine Spezialgegenstände und ein laufender Philosopher's Stone oder Vertrag bleiben erhalten, wie das Skylab, die Forschung und dein Look.
 - **Nie gehandelt.** Nicht in der [Auktion](/wiki/03-Mechanics/Auction.md), nicht an einen anderen Piloten, nicht gegen Credits.
-- **Nur der Hammer kann dein Tempo verschieben**, und er ist auf einen in 60 Tagen begrenzt. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, eine Forschung von höchstens 24 Stunden.
+- **Nur der Hammer kann dein Tempo verschieben**, und du kannst nur 5 davon besitzen. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, eine Forschung von höchstens 24 Stunden.
 - **Eine Verwendung, eine Bestätigung, ein Klang.** Jede Verwendung spielt ihren eigenen leisen Ton.
 
 ## Häufige Fehler {#common-mistakes}

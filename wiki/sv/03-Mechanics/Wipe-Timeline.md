@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: e84709a6ef07590a -->
+<!-- wiki-i18n source: 15776400c516fb14 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
-Universum i SpaceCorps styrs av en återkommande säsongscykel. Var 30:e dag genomgår galaxen en kosmisk återställning som kallas **wipen**. En wipe tar bort det som ligger löst och behåller det du har byggt: dina skepp, drönare, teknologier, din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) och dina wipepoäng finns kvar, och det gör dina krediter och ditt Thulium också, upp till ett tak. Din säsong slutar med en grad, och graden ger belöningar. Den här sidan är hela regeln på ett ställe: vad wipen behåller, vad den nollställer, vad den tar och vad den ger. Belöningarna efter grad har en egen sida, [Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md).
+Universum i SpaceCorps styrs av en återkommande säsongscykel. Var 30:e dag genomgår galaxen en kosmisk återställning som kallas **wipen**. En wipe tar bort det som ligger löst och behåller det du har byggt: dina skepp, drönare, teknologier, din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe) (med monterade motorer och lasrar) och dina wipepoäng finns kvar, och det gör dina krediter och ditt Thulium också, upp till ett tak. Din säsong slutar med en grad, och graden ger belöningar. Den här sidan är hela regeln på ett ställe: vad wipen behåller, vad den nollställer, vad den tar och vad den ger. Belöningarna efter grad har en egen sida, [Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md).
 
 ---
 
@@ -16,14 +16,14 @@ Kalendern för [Dagliga belöningar](/wiki/03-Mechanics/Daily-Rewards.md) har 29
 
 | Fas | Dagar | Protokoll / Event | Beskrivning |
 | :--- | :--- | :--- | :--- |
-| **Fredsprotokoll** | Dag 1–3 | Ingen PvP aktiverad | En nystart helt inriktad på PvE-framsteg, resursfarmning och skeppsbygge utan hot om konflikter mellan spelare. |
-| **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan) och de tre [svärmarna](/wiki/05-Swarms/Swarms.md) börjar dyka upp: de finns kvar till wipen, genom faserna efter denna. Själva fasen ger inga särskilda belöningar än. |
-| **Teknikboom** | Dag 11–18 | Event 2 | [Farosektorerna](/wiki/01-General/Danger-Sectors.md) förändras: en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) bredvid varje pulsar på `DS-1` till `DS-3`, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, Slumbering Voids, och en Dormant-svärm som kommer tillbaka tidigare och betalar dubbelt. Allt finns kvar till wipen. Fasen ger inga egna belöningar. |
+| **Fredsprotokoll** | Dag 1–3 | Ingen PvP aktiverad | En nystart helt inriktad på PvE-framsteg, resursfarmning och skeppsbygge utan hot om konflikter mellan spelare. Bara i Alpha: Beta och Gamma har inget fredsprotokoll, där gäller PvP från dag 1. |
+| **Första kontakten** | Dag 4–10 | Event 1 | PvP öppnas (enligt din världs regel, se Världar nedan) och de tre [svärmarna](/wiki/05-Swarms/Swarms.md) börjar dyka upp: de finns kvar till wipen, genom faserna efter denna. Själva fasen ger inga särskilda belöningar än. I Beta och Gamma finns svärmarna och farosektorernas asteroider där från säsongens första dag. |
+| **Teknikboom** | Dag 11–18 | Event 2 | [Farosektorerna](/wiki/01-General/Danger-Sectors.md) förändras: en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) bredvid varje pulsar på `DS-1` till `DS-3`, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) på `DS-4`, Slumbering Voids, och en Dormant-svärm som kommer tillbaka tidigare och betalar dubbelt. Allt finns kvar till wipen. Fasen ger inga egna belöningar. I Beta och Gamma står jättegrävmaskinerna från säsongens första dag. |
 | **Krigsspel** | Dag 19–25 | Event 3 | Inga särskilda effekter än: PvP fungerar som i varje fas efter Fredsprotokollet. |
 | **Slutnedräkning** | Dag 26–30 | Event 4 | Slutnedräkningsfasen. Alla piloter tävlar om att göra klart den last de tar med sig före utbrottet. |
 | **Återställningen** | Dag 30 | Det svarta hålets utbrott | Universum förstörs och föds på nytt, varje [klan](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan) upplöses och din säsong avslutas: din grad skrivs ner och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Piloter flyttas till den värld de valde som destination för nästa säsong. Under de sista 72 timmarna före den växer det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) till 1,8 gånger sin storlek, och Dashboard räknar ner till wipen. |
 
-Bortsett från själva wipen är det bara fem saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, från dag 11 får [farosektorerna](/wiki/01-General/Danger-Sectors.md) sina jättegrävmaskiner (bredvid pulsarerna, som lyser från dag 1) och Dormant Swamp, som finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. Och under de sista 72 timmarna före wipen växer det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) till 1,8 gånger sin storlek. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten. Event 2 förändrar farosektorerna som ovan; inget av de andra ger särskilda belöningar, nya fiender eller bonusar av eget än.
+Bortsett från själva wipen är det bara fem saker som följer kalendern: Fredsprotokollet (dag 1–3) ändrar en regel, från dag 4 dyker [svärmarna](/wiki/05-Swarms/Swarms.md) upp och finns kvar till wipen, från dag 11 får [farosektorerna](/wiki/01-General/Danger-Sectors.md) sina jättegrävmaskiner (bredvid pulsarerna, som lyser från dag 1) och Dormant Swamp, som finns kvar till wipen, och [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) tar inga avgifter från dag 28 och är stängd från dag 30. Och under de sista 72 timmarna före wipen växer det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md#growing-before-the-wipe) till 1,8 gånger sin storlek. De fyra eventen är namngivna faser av säsongen: de visas på spelets sida Säsong och profil och i Översikten. Event 2 förändrar farosektorerna som ovan; inget av de andra ger särskilda belöningar, nya fiender eller bonusar av eget än. Det här är Alphas dagar: Beta och Gamma har inget fredsprotokoll, och deras svärmar, farosektorernas asteroider och jättegrävmaskiner finns där från dag 1.
 
 ---
 
@@ -51,7 +51,7 @@ Allt nedan är ditt efter wipen.
 * **Dina drönare**, med sina nivåer och sin erfarenhet, och dina [drönarformationer](/wiki/03-Mechanics/Formations.md), var de än är: i ditt inventarie, i din snabbfält eller på ett skepp.
 * **Dina [P.E.T.s](/wiki/03-Mechanics/Pets.md)** (dockade eller förvarade), jobben som pågår i Vaggan, Kodexen och dina P.E.T. Station.
 * **Alla dina teknologier.** Forskningscentrumet behåller allt som [Forskning](/wiki/03-Mechanics/Research.md) rymmer: vetenskapen i tanken, den Dark Matter som satts i, en pågående forskning och boosten. Det gör även de Extra Slots CPU som du har installerat, eftersom de inte är föremål.
-* **Hela din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: moduler, nivåer och malmen som är inlagrad i Resurslagret. Inlagrad malm är inte ett föremål och räknas inte mot förrådet.
+* **Hela din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: moduler, nivåer, malmen som är inlagrad i Resurslagret och **motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen**, som sitter kvar där de är, med de thrusters och förstärkare som sitter i dem. Inlagrad malm är inte ett föremål och räknas inte mot förrådet; de monterade delarna tar heller ingen plats där.
 * **Dina wipepoäng och dina permanenta buffar** ([butiken](#the-permanent-buff-store)).
 * **Erfarenhet, nivå och heder.**
 * **Krediter upp till 5 000 000 000 och Thulium upp till 10 000 000.** Det som ligger över går förlorat: se [taken](#the-caps).
@@ -129,7 +129,7 @@ Varje föremål har en fast vikt. En hög väger den vikten gånger sitt antal, 
 
 Knappen **Frys innehållet** på fliken Transportförråd är en säkring för facken och lasten: medan de är frysta kan inget läggas till eller tas ut förrän du tinar dem. Det är inget villkor: det som ligger i förrådet går igenom wipen fryst eller inte. Det har ingenting med förrådsskeppets lås att göra, som är slutgiltigt.
 
-**VARNING**: Varje föremål som inte behålls enligt reglerna ovan (monterat på skeppet som behåller sin utrustning, i transportförrådet, en drönare, en drönarformation, en P.E.T. Station eller ammunition och stridsraketer inom gränserna) **förstörs för alltid** under Det svarta hålets utbrott.
+**VARNING**: Varje föremål som inte behålls enligt reglerna ovan (monterat på skeppet som behåller sin utrustning, monterat i din Skylab, i transportförrådet, en drönare, en drönarformation, en P.E.T. Station eller ammunition och stridsraketer inom gränserna) **förstörs för alltid** under Det svarta hålets utbrott.
 
 ---
 
@@ -138,7 +138,7 @@ Knappen **Frys innehållet** på fliken Transportförråd är en säkring för f
 * **Din grad för säsongen.** Den skrivs in i din säsongshistorik (sidan Säsong och profil › Framsteg) med din plats på din koncerns lista, och dina rankingpoäng börjar om från noll ([färska poäng](#fresh-points)).
 * **Källorna till wipepoäng**: nedskjutningar av utomjordingar och uthämtningarna för uppdrag och Dormant Knowledge, så att du kan tjäna dem igen ([Tjäna wipepoäng](#earning-wipe-points)). Dina wipepoäng och dina buffar finns kvar.
 * **Nedskjutningar av utomjordingar.** De räknas för den wipe du befinner dig i, och dina totalsiffror finns kvar.
-* **Varje föremål som inte behålls**: resurser, boosters, reservutrustning, plåtar, Cluster Chunks och resten, samt motorerna och lasrarna som sitter i din Skylabs Motor- och Försvarsmodul: ta ut dem och lägg dem i förrådet för att behålla dem. Det wipen först ger tillbaka till dig (se nedan) är ett föremål som alla andra.
+* **Varje föremål som inte behålls**: resurser, boosters, reservutrustning, plåtar, Cluster Chunks och resten. En motor eller laser som du har tagit ut ur en modul i din Skylab är reserv som all annan; de som fortfarande sitter i behålls. Det wipen först ger tillbaka till dig (se nedan) är ett föremål som alla andra.
 * **Klaner.** Varje klan upplöses, med sin Flottans kassa, sina inlägg, avtal, poäng och bonusnivåer ([Klaner](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
 * **Delarna till Chrono-Gate**: porten börjar om, och det gör din Materialiserare också.
 * **Din Skylab-expedition** tar slut: en resa som pågår är över, och Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
@@ -176,7 +176,7 @@ Vid wipen **går krediter över 5 000 000 000 (5 miljarder)** och **Thulium �
 
 Dina **rankingpoäng** räknar det du har tjänat **sedan den senaste wipen**: de nivåer du har gått upp, erfarenheten och nedskjutningarna av utomjordingar den här säsongen. Vid wipen börjar de om från noll, och din gamla grad hamnar i din säsongshistorik. **Heder avgör inte din grad**, och dina totalsiffror (nivå, erfarenhet, heder, nedskjutningar) ligger kvar som de är. Se [Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
-De nya reglernas första wipe är den första som startar räkningen: fram till dess är poängen du har dina poäng för hela karriären.
+Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så: wipen som stängde säsong 1 betalade ut den säsongens grader efter poängen för hela din karriär.
 
 ---
 
@@ -186,15 +186,15 @@ SpaceCorps har tre **världar**. Var och en är en separat kopia av hela galaxen
 
 | Värld | Krävd nivå | Risk | Utomjordingarnas styrka | Lön för nedskjutningar och uppdrag | PvP |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Alpha** | 1 | Avslappnat / nybörjare | 1,0× | 1,0× krediter, Thulium, XP, heder | **Hög säkerhet**: bara på gränskartorna (`x-4`) och i den centrala PvP-zonen (`DS-x`). Ingen PvP i koncernsektorerna `x-1` till `x-3`. |
-| **Beta** | 7 | Normalt / medelsvårt | 1,5× | 2,0× krediter, Thulium, XP, heder | **Medelhög säkerhet**: överallt utom bassektorerna (`x-1`). |
-| **Gamma** | 10 | Hardcore / elit | 2,0× | 3,0× krediter, Thulium, XP, heder | **Låg säkerhet**: överallt. Högsta risk, högsta lön. |
+| **Alpha** | 1 | Avslappnat / nybörjare | 1,0× | 1,0× krediter, Thulium, XP, heder | **Hög säkerhet**: bara på gränskartorna (`x-4`) och i den centrala PvP-zonen (`DS-x`). Ingen PvP i koncernsektorerna `x-1` till `x-3`. Från dag 4. |
+| **Beta** | 7 | Normalt / medelsvårt | 1,5× | 2,0× krediter, Thulium, XP, heder | **Medelhög säkerhet**: överallt utom bassektorerna (`x-1`). Från dag 1. |
+| **Gamma** | 10 | Hardcore / elit | 2,0× | 3,0× krediter, Thulium, XP, heder | **Låg säkerhet**: överallt. Högsta risk, högsta lön. Från dag 1. |
 
 Så fungerar världarna:
 
 * **Utomjordingar**: en världs utomjordingsstyrka multiplicerar deras träffpoäng, sköldar, sköldladdning och skada. Deras hastighet och räckvidd är desamma överallt.
-* **Lön**: en nedskjutning betalar efter världen den sker i. Ett uppdrag betalar efter världen du gjorde det i (den lägsta, om det sträcker sig över två), oavsett i vilken värld du hämtar det (ett Station-uppdrag har ingen egen värld och betalar efter den värld du flyger i när du hämtar det), och tidsgränsen för ett tidsbegränsat uppdrag är 1,5 gånger så lång i Beta och dubbelt så lång i Gamma ([Uppdrag](/wiki/03-Mechanics/Quests.md)). Bytet och koncernpiloterna är desamma i varje värld, så en högre värld ger mer per timme, men dess strider kostar mer i reparationer.
-* **PvP**: alla på en karta tillhör dess värld, så en regel gäller för hela kartan, koncernpiloter inräknade. Säkra zoner och Fredsprotokollet (dag 1–3) skyddar varje värld.
+* **Lön**: en nedskjutning betalar efter världen den sker i. Ett uppdrag betalar efter världen du flyger i när du hämtar det (ett du avklarade i en högre värld behåller den högre multiplikatorn), så ett uppdrag från före en wipe betalas efter din nya värld, och tidsgränsen för ett tidsbegränsat uppdrag är 1,5 gånger så lång i Beta och dubbelt så lång i Gamma ([Uppdrag](/wiki/03-Mechanics/Quests.md)). Bytet och koncernpiloterna är desamma i varje värld, så en högre värld ger mer per timme, men dess strider kostar mer i reparationer.
+* **PvP**: alla på en karta tillhör dess värld, så en regel gäller för hela kartan, koncernpiloter inräknade. Säkra zoner skyddar varje värld; fredsprotokollet (dag 1–3) finns bara i Alpha, och Beta och Gamma har PvP från dag 1.
 * **Under flygning**: världens namn står före sektorns id uppe till höger (”Beta · M-2”). Märket i titelraden på fönstret Skepp säger var du står: **Säker** i en säker zon, **Ingen PvP** under Fredsprotokollet eller där din värld förbjuder PvP, **PvP** där andra piloter kan anfalla dig. Håll muspekaren över det för regeln. [Galaxkartan](/wiki/01-General/Spacemap%20Travel.md) färgar sektorerna efter din världs regel.
 
 ### Gå med och flytta {#joining-and-moving}

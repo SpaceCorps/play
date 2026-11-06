@@ -11,7 +11,7 @@ Der Dormant-Schwarm besteht aus einer **Dormant Force** mit ihren **Dormant Puls
 
 - **Wo**: Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3`, `DS-4`, von einem zum anderen fliegend
 - **Wie viele**: Einer in jeder Welt
-- **Erscheint**: Ab Saisontag 4 bis zum Wipe
+- **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Dormant Force
 - **Begleiter**: 2 × Dormant Pulse, die mit dem Anführer fliegen
 - **Begleiter bleiben nahe**: höchstens 700 Einheiten vom Anführer entfernt

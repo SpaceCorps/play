@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -29,20 +29,20 @@ Die **Clan-Wächter** sind keine öffentlichen Schwärme. Ein Clan ruft seinen e
 | [**Phantasm-Schwarm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Die Sektoren `x-3` und `x-4` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Phantasm** | Bis zu 4 × Phantasm Guard, alle 10 s ein neuer | 2 min nach der Zerstörung des Anführers, im selben Sektor |
 | [**Goombah-Schwarm**](/wiki/05-Swarms/Goombah-Swarm.md) | Die Sektoren `x-3` und `x-4` jedes Konzerns | Einer in jedem dieser Sektoren, 6 in jeder Welt | **Boss Goombah** | Bis zu 4 × Goombah Guard, alle 10 s ein neuer | 5 min nach der Zerstörung des Anführers, im selben Sektor |
 | [**Crystalys-Schwarm**](/wiki/05-Swarms/Crystalys-Swarm.md) | Die Gefahrensektoren `DS-1`, `DS-2`, `DS-3` | Einer in jedem dieser Sektoren, 3 in jeder Welt | **Boss Crystalys** | Bis zu 3 × Crystalys Guard, alle 10 s ein neuer | 30 min nach der Zerstörung des Anführers, im selben Sektor |
-| [**Tesseract-Schwarm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Der Gefahrensektor `DS-4` | Einer in jeder Welt | **Tesseract** | Bis zu 50 × Facet, alle 5 s 10 weitere, solange der Anführer getroffen wird | 30 min nach der Zerstörung des Anführers, im selben Sektor |
+| [**Tesseract-Schwarm**](/wiki/05-Swarms/Tesseract-Swarm.md) | Der Gefahrensektor `DS-4` | Einer in jeder Welt | **Tesseract** | Bis zu 100 × Facet, alle 5 s 20 weitere, solange der Anführer getroffen wird | 30 min nach der Zerstörung des Anführers, im selben Sektor |
 
 <!-- swarms-list:end -->
 
 ## Wann und wo {#when-and-where}
 
-Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe die [Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md); den Tag nennt die erste Zeile der Regeln unten). **Jede Welt hat ihre eigenen Schwärme** an denselben Orten: Der Pirate Boss von Alpha und der von Beta sind zwei verschiedene Schiffe, und ein Schwarm, den du in deiner Welt zerstörst, bleibt in einer anderen bestehen. Ein zerstörter Schwarm kehrt nach der Zeit in der Tabelle oben zurück. Der Dormant-Schwarm ändert sich an Saisontag 11 (Event 2): Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kehrt früher zurück und zahlt doppelt so viel.
+Die Schwärme tauchen ab dem **Erstkontakt** auf und bleiben bis zum Wipe (siehe die [Wipe-Zeitleiste](/wiki/03-Mechanics/Wipe-Timeline.md); den Tag nennt die erste Zeile der Regeln unten). **Jede Welt hat ihre eigenen Schwärme** an denselben Orten: Der Pirate Boss von Alpha und der von Beta sind zwei verschiedene Schiffe, und ein Schwarm, den du in deiner Welt zerstörst, bleibt in einer anderen bestehen. Ein zerstörter Schwarm kehrt nach der Zeit in der Tabelle oben zurück. Der Dormant-Schwarm ändert sich an Saisontag 11 (Event 2): Er erscheint im [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), kehrt früher zurück und zahlt doppelt so viel. In Beta und Gamma erscheinen die Schwärme ab dem ersten Tag der Saison.
 
 ## Die Regeln jedes Schwarms {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Die Schwärme erscheinen ab Saisontag 4 bis zum Wipe.
+- Die Schwärme erscheinen ab Saisontag 4 bis zum Wipe; in Beta und Gamma erscheinen sie ab Saisontag 1.
 - Wird ein Schwarmschiff getroffen, greifen die Schiffe seines Schwarms im Umkreis von 1.500 Einheiten gegen den ersten Piloten ein, der es getroffen hat.
 - Ein Anführer erscheint mindestens 2.500 Einheiten vom Rand jedes Stations- und Torrings entfernt.
 - Ein Pilot, der mindestens 5 % des Schadens an einem Boss angerichtet hat, wird für dessen Abschuss bezahlt.
@@ -70,7 +70,7 @@ Der Seeker-, der Pirate-, der Phantasm-, der Goombah-, der Crystalys- und der Te
 
 ## Einen Schwarm bekämpfen {#fighting-a-swarm}
 
-- **Die Anführer beginnen nie einen Kampf.** Ein Anführer streift umher, bis ein Pilot ihn trifft, wehrt sich dann, und die Schiffe seines Schwarms in seiner Nähe greifen mit ein, und zwar gegen den ersten Piloten, der ihn getroffen hat (die Entfernung steht in den Regeln oben). Die Pirate Scouts sind die Ausnahme: Sie greifen jeden Piloten an, der ihnen nahe kommt. Ein Anführer repariert seine Hülle nie von selbst, der Schaden, den du angerichtet hast, bleibt also auf ihm, es sei denn, seine Begleiter heilen ihn; sein Schild lädt sich wie bei jedem Alien wieder auf. Nur der Tesseract ist anders: Er hat keine Waffe, heilt Hülle und Schild von selbst, sobald ihn einige Sekunden lang niemand verletzt hat, und seine Facets jagen den Piloten mit dem meisten Schaden statt dessen, der ihn zuerst getroffen hat.
+- **Die Anführer beginnen nie einen Kampf.** Ein Anführer streift umher, bis ein Pilot ihn trifft, wehrt sich dann, und die Schiffe seines Schwarms in seiner Nähe greifen mit ein, und zwar gegen den ersten Piloten, der ihn getroffen hat (die Entfernung steht in den Regeln oben). Die Pirate Scouts sind die Ausnahme: Sie greifen jeden Piloten an, der ihnen nahe kommt. Ein Anführer repariert seine Hülle nie von selbst, der Schaden, den du angerichtet hast, bleibt also auf ihm, es sei denn, seine Begleiter heilen ihn; sein Schild lädt sich wie bei jedem Alien wieder auf. Nur der Tesseract ist anders: Er hat keine Waffe, heilt Hülle und Schild von selbst, sobald ihn einige Sekunden lang niemand verletzt hat, und seine Facets fliegen um ihn herum und feuern auf den nächsten Piloten, der ihn getroffen hat, statt den zu jagen, der ihn zuerst getroffen hat.
 - **Schwarmschiffe bekämpfen nur Piloten.** Sie schießen nicht auf Aliens, und Aliens schießen nicht auf sie, und [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) ignorieren sie: Sie jagen kein Schwarmschiff und kommen dir auch nicht gegen eines zu Hilfe.
 - **Raketen.** Der Pirate Boss sowie die Dormant Force und die Pulses feuern **gerade** Raketen, [Rivet-Raketen](/wiki/06-Items/Rockets.md), auf den Piloten, der sie angegriffen hat. Ein Schiff, das in Bewegung bleibt, weicht ihnen aus, eines, das stillsteht, wird getroffen.
 - **Die Größe der Kämpfe.** Der Seeker-Schwarm ist etwas für zwei Piloten, der Pirate- und der Phantasm-Schwarm für eine kleine Gruppe, der Goombah-Schwarm für eine Gruppe der stärksten Schiffe, der Crystalys- und der Dormant-Schwarm für eine große Gruppe von ihnen, der Tesseract-Schwarm für eine sehr große; die größeren Welten brauchen mehr Piloten, wie bei jedem Alien.
@@ -109,7 +109,7 @@ Jeder Abschuss wird unter dem eigenen Namen des Schiffs in deiner Abschussstatis
 | **Phantasm Guard** | Phantasm-Schwarm | 1 |
 | **Boss Goombah** | Goombah-Schwarm | 14 |
 | **Goombah Guard** | Goombah-Schwarm | 3 |
-| **Boss Crystalys** | Crystalys-Schwarm | 21 |
+| **Boss Crystalys** | Crystalys-Schwarm | 30 |
 | **Crystalys Guard** | Crystalys-Schwarm | 6 |
 | **Tesseract** | Tesseract-Schwarm | 42 |
 | **Facet** | Tesseract-Schwarm | 0 |

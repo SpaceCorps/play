@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: 军衔 -->
 # 军衔 {#ranks}
 
@@ -13,7 +13,7 @@
 - 只有拥有 PvE 积分且在最近 30 天内飞行过的飞行员才会上名单。其他人在再次飞行之前都是初级飞行员，也没有名额。
 - 符号上方的金色**王冠**标出全服（所有企业、三个世界）PvE 积分最多的飞行员。
 - 你的军衔会变动。到高级上校为止，它只取决于你自己的积分，所以只会上升。最高的六个军衔还会随你企业的其他飞行员而变动：别人占了你上面的名额时，它们可能下降。下降从不通知；新的最高军衔会通知。
-- 重置时积分从零重新开始，所以名单会重新开始，每个赛季都是一次新的攀登。你本赛季的军衔会进入你的历史并发放奖励（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md)）。（这从新规则的第一次重置开始：在那之前，你的积分是你整个生涯的积分。）
+- 重置时积分从零重新开始，所以名单会重新开始，每个赛季都是一次新的攀登。你本赛季的军衔会进入你的历史并发放奖励（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md)）。（从2026年11月6日的重置开始的第2赛季，是第一个这样计数的赛季。）
 - 名字前的符号就是军衔：阶层用形状表示，级别用一到三个标记表示。
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@
 
 重置时你的 PvE 积分从零重新开始，所以你企业的榜单会重新开始，每个赛季都是一次新的攀登。只有重置之后赚到的才会计入：新赛季提升的等级、经验和击杀的外星人（[新积分](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)）。你的等级、经验和击杀统计会留在你的累计数据里。**荣誉不决定你的军衔。**你在重置那一刻拥有的军衔，会连同你在榜单上的名次进入你的赛季历史并发放奖励（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md)）。军衔也不是终身的：最高的六个军衔会随你企业里其他飞行员而变动，离开 30 天的飞行员会退出榜单，直到再次飞行。
 
-新规则下的第一次重置是第一个让积分重新开始的重置：在那之前它们是你整个生涯的积分，那次重置会按榜单当时显示的军衔结束一个赛季。
+从2026年11月6日的重置开始的第2赛季，是第一个这样计数的赛季：它的积分从那次重置起计算。结束第1赛季的那次重置，是按你整个生涯的积分发放第1赛季军衔奖励的。
 
 ## 需要多久 {#how-long-it-takes}
 

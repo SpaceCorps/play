@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Sciame Crystalys -->
 # Sciame Crystalys {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ Lo sciame Crystalys è un **Boss Crystalys** con i suoi **Crystalys Guard**: il 
 
 - **Dove**: I settori pericolosi `DS-1`, `DS-2`, `DS-3`
 - **Quanti**: Uno in ciascuno di quei settori, 3 in ogni mondo
-- **Compare**: Dal giorno 4 della stagione fino al reset
+- **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Boss Crystalys
 - **Seguaci**: Fino a 3 × Crystalys Guard, uno nuovo ogni 10 s
 - **I seguaci restano vicini**: al massimo 500 unità dal capo
@@ -29,7 +29,7 @@ Lo sciame Crystalys è un **Boss Crystalys** con i suoi **Crystalys Guard**: il 
 
 ## Come va lo scontro {#how-the-fight-goes}
 
-- **Porta un grande gruppo.** Otto piloti di livello 8 su Paragon con munizioni x2 lo distruggono in circa un minuto in Alpha, perdendo al massimo una nave; quattro hanno bisogno di munizioni x4, e un pilota da solo viene distrutto.
+- **Porta un grande gruppo.** In Alpha bastano sei piloti di livello 8 su Paragon con munizioni x2 se il suo fuoco si distribuisce tra loro, nove se va tutto su un solo pilota; con munizioni x4 sono cinque e sei. Più piloti chiudono lo scontro prima e perdono meno navi, e un pilota da solo viene distrutto.
 - **Spara al boss, non ai Guard.** Un Guard cade in pochi secondi, ma ne arriva uno nuovo con la frequenza indicata nell’elenco *In breve*, e ciò che i Guard curano è una piccola parte di ciò che infligge un gruppo: lasciarli stare costa un po’ di tempo, dare loro la caccia ne costa di più.
 - **Beta e Gamma sono più duri.** Gli sciami di quei mondi sono più forti ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)), quindi servono più piloti o munizioni migliori.
 - **I settori pericolosi sono PvP.** Un rivale può attaccare il gruppo in mezzo allo scontro e aspettare la cassa: è del pilota che ha inflitto più danno (e del suo clan) per 30 secondi, poi di chiunque ([Carico](/wiki/03-Mechanics/Cargo.md)). Non andare da solo.
@@ -48,13 +48,13 @@ I valori delle navi dello sciame nei tre mondi ([Mondi](/wiki/05-Swarms/Swarms.m
 
 ### Boss Crystalys
 
-Base: Crystalys; rispetto all’originale, scafo 175% e danno dei laser 50%; velocità e portata sono quelle della nave di partenza.
+Base: Crystalys; rispetto all’originale, scafo 350% e danno dei laser 100%; velocità e portata sono quelle della nave di partenza.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Scafo | 448.000 | 672.000 | 896.000 |
-| Scudo | 280.000 | 420.000 | 560.000 |
-| Danno dei laser (una raffica al secondo) | 5.000 | 7.500 | 10.000 |
+| Scafo | 896.000 | 1.344.000 | 1.792.000 |
+| Scudo | 560.000 | 840.000 | 1.120.000 |
+| Danno dei laser (una raffica al secondo) | 10.000 | 15.000 | 20.000 |
 | Velocità | 230 | 230 | 230 |
 | Portata dei laser | 900 | 900 | 900 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
@@ -62,7 +62,7 @@ Base: Crystalys; rispetto all’originale, scafo 175% e danno dei laser 50%; vel
 | Thulium | 1.050 | 2.100 | 3.150 |
 | Esperienza (XP) | 63.000 | 126.000 | 189.000 |
 | Onore | 273 | 546 | 819 |
-| Punti PvE per abbattimento | 21 | 21 | 21 |
+| Punti PvE per abbattimento | 30 | 30 | 30 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.
 

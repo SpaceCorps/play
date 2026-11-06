@@ -2,7 +2,7 @@
 
 <!-- wiki-search: excavator; giant excavator; pulsar; mining; fuel; excavator fuel; control panel; overheat; radiation; slumbering void; voids; wave; ds-1; ds-2; ds-3 -->
 
-A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from the first day of the season, and from season day 11 a **giant excavator** stands beside it. The excavator mines the pulsar for **Thulium and rare ores**, and it burns [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) to do it. Anyone may fuel it, choose what it mines and start it, and everything it lays lies around it in boxes that anyone may take. A run is loud, though: the whole world is told when it starts, **Slumbering Voids** come for it in waves, and an excavator that is worked too long overheats and irradiates the whole area. This page says how a run goes, what it lays and how to live through it. The sectors are in [Danger Sectors](/wiki/01-General/Danger-Sectors.md); the Voids are in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void).
+A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from the first day of the season, and from season day 11 a **giant excavator** stands beside it. The excavator mines the pulsar for **Thulium and rare ores**, and it burns [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md) to do it. Anyone may fuel it, choose what it mines and start it, and everything it lays lies around it in boxes that anyone may take. A run is loud, though: the whole world is told when it starts, **Slumbering Voids** come for it in waves, and an excavator that is worked too long overheats and irradiates the whole area. This page says how a run goes, what it lays and how to live through it. The sectors are in [Danger Sectors](/wiki/01-General/Danger-Sectors.md); the Voids are in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#slumbering-void). In Beta and Gamma the giant excavators stand from the first day of the season.
 
 ![The giant excavator's sheet: the fuel tank, the heat, the resource to mine, the excavator's hull and the Voids of the next wave](../img/wiki-img/shots/excavator-sheet.jpg)
 
@@ -12,7 +12,7 @@ A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
 
 - **Where**: One pulsar with one giant excavator on each of `DS-1`, `DS-2` and `DS-3`, in every world
-- **Appears**: The pulsar from the first day of the season, the excavator from season day 11 until the wipe
+- **Appears**: The pulsar from the first day of the season, the excavator from season day 11 (Beta and Gamma: from season day 1) until the wipe
 - **Fuel**: Dark Matter. One burns for 10 min; the tank holds 3, which is 30 min of mining. Anyone may add one at a time, from their own cargo
 - **Panel**: The sheet works within 600 units of the excavator, and its label shows from 1,400 units. Anyone may fuel, choose and start, and switch the resource while it runs, once in 10 s
 - **Boxes**: A box every 20 s, 450 to 900 units from the excavator, free for anyone from the moment it lies. It lies for 5 min, and at most 24 lie on a map at once
@@ -26,15 +26,15 @@ A **pulsar** shines in each of the Danger Sectors `DS-1`, `DS-2` and `DS-3` from
 
 ## How a run goes
 
-1. **Find one.** From season day 11 each of the three Danger Sectors that has a pulsar has one excavator, in each world. A label, **Excavator**, hangs over it when you are near, and the Star System map marks every Danger Sector that has one: the mark's colour is the state of its excavator, and its tooltip tells the time to its next change.
+1. **Find one.** From season day 11 each of the three Danger Sectors that has a pulsar has one excavator, in each world. A label, **Excavator**, hangs over it when you are near, and the Star System map marks every Danger Sector that has one: the mark's colour is the state of its excavator, and its tooltip tells the time to its next change. In Beta and Gamma the giant excavators stand from the first day of the season.
 2. **Open the panel.** Click the label. The **Giant excavator** sheet works while your ship is within the panel's range of the excavator (the *At a glance* list gives it). A cloaked ship cannot use it: the sheet's buttons are shut and every action is refused until the cloak ends.
 3. **Fuel it.** **Add Dark Matter** puts one Dark Matter from your cargo into the tank. Anyone can. The tank never takes more than the excavator can still burn before it overheats, so no fuel is wasted.
 4. **Choose what to mine** from the list, then press **Start mining**. It needs at least one Dark Matter in the tank and a resource. Anyone can change the choice until the start, and also while it runs (see *Switching the resource* below). The start is told to every pilot of the world, naming you, the sector and the resource.
 5. **Hold it.** While it mines a box lies down around the excavator every few seconds, and the first Slumbering Voids arrive soon after the start. A stream of light flows from the pulsar into the excavator's drill, surging with the star's beat, once every 4 seconds; in the last minute before the overheat it flickers and breaks up, and when the machine rests it stops. Defend the excavator, and take the boxes.
 6. **Watch the heat.** The Heat bar fills while the excavator mines and never empties while it waits. At its limit the excavator overheats. Leave before: the game warns the map twice.
-7. **It rests.** Overheated or destroyed, the excavator and its pulsar are irradiated until the rest is over; then it is ready again, with its heat back to nothing and its hull full.
+7. **It rests.** Overheated or destroyed, the excavator and its pulsar are irradiated until the rest is over; then it is ready again, with its heat back to nothing and its hull full, and without its Excavator Mining buff.
 
-The sheet also shows the sector, the tank (one cell for each Dark Matter, the one that burns drawn partly), how much Dark Matter you carry, the excavator's hull, what each resource lays a minute in your world, and, while it mines, the resource that mines now, what each resource has laid since the excavator last cooled down, the time to the next wave and the Voids alive. When something is refused you read the reason in red: you are too far from the panel, you have no Dark Matter, the tank is full, there is no fuel yet or no resource chosen, the excavator is already running, a switch came too soon after the last, the excavator is hot, or your ship is cloaked.
+The sheet also shows the sector, the tank (one cell for each Dark Matter, the one that burns drawn partly), how much Dark Matter you carry, the excavator's hull, what each resource lays a minute in your world, and, while it mines, the resource that mines now, what each resource has laid since the excavator last cooled down, the time to the next wave and the Voids alive. While the excavator carries an Excavator Mining buff, the sheet says it in every state, with the pilot who gave it. When something is refused you read the reason in red: you are too far from the panel, you have no Dark Matter, the tank is full, there is no fuel yet or no resource chosen, the excavator is already running, a switch came too soon after the last, the excavator is hot, or your ship is cloaked.
 
 ### Switching the resource
 
@@ -56,7 +56,7 @@ If the fuel runs out before the limit, the excavator goes back to **Ready** with
 
 ## What it mines
 
-A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box holds the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is. The size of the boxes is set by whoever starts the run: each level of the Pilot research Excavator Mining ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) of the pilot who presses **Start mining** makes every box of that run hold 20%, 30% or 40% in all more, Thulium and ore alike, for the whole run, whoever fuels it, switches the resource or picks the boxes up. The panel shows whose run it is and which share its boxes carry, and tells a pilot who has Excavator Mining that it counts on the runs he starts himself. The amounts below are without it; it comes on top of the most a resource can lay in a run.
+A full tank lays about what five pilots would make in half an hour of the best Thulium farming. Beta and Gamma lay more, as they pay more for every kill. You choose the resource before the start and may switch it while the excavator runs. A box holds the same for everyone, and a Thulium box is cash that pays when it is picked up, as the asteroids' Thulium is. The size of the boxes is set by the excavator's **buff**: a pilot who presses **Start mining** with the Pilot research Excavator Mining ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) gives the excavator his share, 20%, 30% or 40% in all, and the excavator keeps it, from run to run, until it rests (step 7). Every box it lays holds that much more, Thulium and ore alike, whoever pressed **Start mining** of the run, whoever fuels it, switches the resource or picks the boxes up; a run that ends with the fuel keeps it. A later start by a pilot with a higher level raises the buff and he becomes its giver; a start by a pilot with the same or a lower level, with none, or by an admin never lowers it. The panel shows the buff, who gave it and whose run it is, and tells a pilot who has Excavator Mining whether starting the excavator himself would give it a buff or raise the one it carries. The amounts below are without it; it comes on top of the most a resource can lay in a run.
 
 <!-- excavator-resources:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->
@@ -136,8 +136,8 @@ The excavator has **no special ring**: the normal rules of your world apply, so 
 
 These are System lines (they show in the chat's **System** tab and in the Game Log, and not in **Global** or **Local**). The first three go to the whole world; the last goes to the pilots of the excavator's sector.
 
-- The day event 2 begins: the Danger Sectors have changed.
-- A pilot **starts** an excavator, naming the sector, the resource and the minutes of fuel, and the Excavator Mining share of that pilot when he has one.
+- The day event 2 begins: the Danger Sectors have changed. In Beta and Gamma, where the excavators already stand, the line names the Dormant Swamp alone.
+- A pilot **starts** an excavator, naming the sector, the resource and the minutes of fuel, and the Excavator Mining share the excavator carries when it carries one, whoever gave it.
 - The excavator **overheats**, or is **destroyed**.
 - A pilot **switches** the resource of a run that mines, naming the new one. The fuel runs out; the excavator is about to overheat (twice); a **wave** of Voids is coming, with its number and the side of the map it comes from; no pilot is left, so the Voids attack the excavator.
 

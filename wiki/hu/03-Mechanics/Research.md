@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 921da8d25c430cd6 -->
+<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Lézerlőszer {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -371,7 +371,7 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 - **Sorban.** Minden szint az előzőt igényli, és a magasabb szint felváltja az alacsonyabbat: a táblázat azt az összeget mutatja, amit az adott szint ad, nem azt, amit hozzátesz.
 - A **Hatékony nassolnivalók** (Kebab, Pelmeni, Burger) hajótestet adnak minden hajódnak, mindkét konfigurációban.
 - A **Lezárt hátsó ajtó** megemeli minden rakéta szállítási korlátját, akárhol veszed, gyártod vagy cseréled.
-- A **Kotrógépes bányászat** azt éri el, hogy egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md), amelyet te indítasz, minden ládába többet tesz, Thuliumból és ércből egyaránt. Annak a pilótának a kutatása számít, aki a futást elindítja, és mindenki, aki felszedi a ládákat, a nagyobb mennyiséget kapja. A kotrógép vezérlőpultja megmutatja, kié a futás és milyen részesedést visz.
+- A **Kotrógépes bányászat** olyan részesedést ad egy [óriás kotrógépnek](/wiki/03-Mechanics/Giant-Excavator.md), amelyet te indítasz, amelyet az megtart, amíg a pihenő le nem telik: minden láda ennyivel többet tartalmaz, Thuliumból és ércből egyaránt, akárki indítja a további futásokat, tankol vagy szedi fel a ládákat. A kotrógép a kapott legmagasabb részesedést tartja meg: a magasabb szintű pilóta emeli, az alacsonyabb szint soha nem csökkenti. A kotrógép vezérlőpultja megmutatja a részesedést, hogy ki adta, és kié a futás.
 - A **Térelmélet** megnöveli a találatoknak azt a részét, amelyet a pajzsaid elnyelnek. A pajzs nélküli hajó semmit sem kap.
 - A **Szunnyadó tudás** szintenként wipe-pontot fizet, amikor a kutatása befejeződik a Központban, és minden wipe után újra ([Wipe-pontok szerzése](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Az előző szint mellett a többi technológia egy részét is megköveteli kutatva (a Pilóta technológiái számítanak, a Szunnyadó tudás öt szintje nem), akárhogy szerezted meg őket; a táblázat mutatja az egyes részeket, és hogy hány technológiát jelent.
 

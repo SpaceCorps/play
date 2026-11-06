@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cb94c2a238471e59 -->
+<!-- wiki-i18n source: 356dbca5d33cc408 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## En un minuto {#in-one-minute}
 
 - **Dark Matter es un recurso y se llama simplemente Dark Matter en todas partes.** El agujero negro del centro del Sector de peligro 4 (`DS-4`) la produce: cada cohete N.I.K.E. que llega al agujero devuelve de 1 a 3 Dark Matter (2 de media), en cajas pequeñas en el borde de su zona.
-- **Para qué sirve.** 107 tecnologías del Centro de investigación la piden, de 5 a 60 cada una y 1.354 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida.
+- **Para qué sirve.** 107 tecnologías del Centro de investigación la piden, de 5 a 60 cada una y 1.354 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida. En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
 - **En el Centro de investigación** añades Dark Matter desde tu bodega (con la nave aterrizada) antes de pulsar Iniciar. La investigación la toma al empezar.
 - **Una Dark Matter Plate es otro objeto.** Investiga primero su receta (el grupo Recursos del árbol: 1 día y 10 Dark Matter) y luego fabrícala en el Ensamblaje con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium.
 - **Para qué sirve una plate.** El último nivel de cada cadena de mejora pide **4** y al menos una Ancient Control Unit: los amps, las células de escudo y los propulsores del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II (13 piezas). La Forja pide 2 para subir un objeto de Divino a Rompedor, y otras 2 de Rompedor a Eterno. Los módulos de motores, de defensa y de radar del Skylab también piden placas, para construirse y para mejorarse ([Recursos](/wiki/06-Items/Resources.md#dark-matter-plate)).

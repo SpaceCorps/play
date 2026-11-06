@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 921da8d25c430cd6 -->
+<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Munitions laser {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -371,7 +371,7 @@ La famille Pilote de la vue Recherche contient des technologies qui ne sont pas 
 - **En série.** Chaque niveau demande le précédent, et un niveau supérieur remplace l’inférieur : le tableau montre le total que donne chaque niveau, pas ce qu’il ajoute.
 - **Collations efficaces** (Kebab, Pelmeni, Burger) ajoutent des points de coque à chacun de vos vaisseaux, dans les deux configurations.
 - **Porte dérobée scellée** augmente la limite de transport de chaque roquette, où que vous l’achetiez, la fabriquiez ou l’échangiez.
-- **Extraction par excavatrice** fait qu’une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) que vous lancez dépose plus dans chaque caisse, Thulium comme minerai. C’est la recherche du pilote qui lance l’exploitation qui compte, et quiconque ramasse les caisses reçoit la quantité plus grande. Le panneau de commande de l’excavatrice montre de qui est l’exploitation et quelle part elle porte.
+- **Extraction par excavatrice** donne à une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) que vous lancez une part qu’elle garde jusqu’à ce qu’elle se repose : chaque caisse qu’elle dépose contient d’autant plus, Thulium comme minerai, quel que soit celui qui lance ses exploitations suivantes, la ravitaille ou ramasse les caisses. L’excavatrice garde la part la plus élevée qu’elle a reçue : un pilote d’un niveau supérieur la relève, un niveau inférieur ne la baisse jamais. Le panneau de commande de l’excavatrice montre la part, qui l’a donnée et de qui est l’exploitation.
 - **Théorie des champs** augmente la part de chaque tir que vos boucliers absorbent. Un vaisseau sans bouclier n’obtient rien.
 - **Savoir dormant** verse des points de réinitialisation pour chaque niveau quand sa recherche se termine dans le Centre, et de nouveau après chaque réinitialisation ([Gagner des points de réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). En plus du niveau précédent, il demande une part des autres technologies recherchées (celles de la famille Pilote comptent, les cinq niveaux de Savoir dormant non), quelle que soit la façon dont vous les avez obtenues ; le tableau montre chaque part, et combien de technologies cela fait.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0a06d961490fa12b -->
+<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -501,7 +501,7 @@ El Skylab tiene un **casco**, una reserva de puntos de vida, que **se recupera u
 
 ### Montaje y munición {#fits-and-ammunition}
 
-**Montaje.** Los motores van al Módulo de motores y los láseres al Módulo de defensa, uno por ranura, tomados de los objetos sueltos de tu inventario: no de una nave, no del Alijo de Transporte. Montar y sacar exigen tu **nave aterrizada** y el Skylab **sin estar de viaje**; un Skylab estacionado se puede reequipar, y las nuevas tasas cuentan desde ese momento. Un objeto montado conserva sus mejoras de la Forja y lo que lleva dentro (propulsores, amplificadores) y queda **reservado**: no se puede poner en una nave, borrar, poner en la Subasta, guardar en el Alijo de Transporte ni usar en la Forja y el Ensamblaje hasta que lo saques, y el Hangar, la hoja de venta de la Subasta y el Ensamblaje lo muestran atenuado.
+**Montaje.** Los motores van al Módulo de motores y los láseres al Módulo de defensa, uno por ranura, tomados de los objetos sueltos de tu inventario: no de una nave, no del Alijo de Transporte. Montar y sacar exigen tu **nave aterrizada** y el Skylab **sin estar de viaje**; un Skylab estacionado se puede reequipar, y las nuevas tasas cuentan desde ese momento. Un objeto montado conserva sus mejoras de la Forja y lo que lleva dentro (propulsores, amplificadores) y queda **reservado**: no se puede poner en una nave, borrar, poner en la Subasta, guardar en el Alijo de Transporte ni usar en la Forja y el Ensamblaje hasta que lo saques, y el Hangar, la hoja de venta de la Subasta y el Ensamblaje lo muestran atenuado. Un objeto montado sigue montado tras el [reinicio](#the-wipe).
 
 **Munición.** El cargador guarda disparos de los tipos que fabrica la Impresora de munición y dispara primero el **multiplicador más alto**, un disparo por láser y segundo. Se llena **solo desde la Impresora de munición**, nunca desde tu inventario:
 
@@ -690,7 +690,7 @@ Cada granja y cada colector tiene una tolva para unas 72 horas de lo que produce
 
 El Skylab nunca se reinicia: los módulos conservan sus niveles, el Almacén de recursos conserva su mineral y el Centro de investigación conserva sus tecnologías, su depósito de ciencia, el Dark Matter que contiene y una investigación en curso. Las placas de tu inventario son objetos como cualquier otro, así que siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md). La Impresora de munición y la Fábrica de cohetes conservan sus niveles, lo que tienen configurado fabricar y lo que guardan, y la Bahía de mineral conserva su nivel y su cupo. Los cuatro módulos de la Expedición conservan también sus niveles, con sus tecnologías, y lo mismo el cargador y el interruptor de la alimentación. El mineral de tu inventario se reinicia como cualquier objeto: pásalo antes al Almacén de recursos.
 
-Una **expedición** se liquida hasta el reinicio: un viaje en curso termina, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto; los créditos y el Thulium llegan a tu cartera antes de que se apliquen los [topes](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), y el Skylab empieza la nueva temporada en casa, en el puerto de tu corporación, con un mapa del universo nuevo, las 19 celdas iniciales conocidas y la cola del radar vacía. Los motores y láseres montados en los módulos de motores y de defensa son objetos sueltos como los demás: sácalos y guárdalos en el Alijo de Transporte para conservarlos.
+Una **expedición** se liquida hasta el reinicio: un viaje en curso termina, la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía (su botín se borra como cualquier objeto suelto; los créditos y el Thulium llegan a tu cartera antes de que se apliquen los [topes](/wiki/03-Mechanics/Wipe-Timeline.md#the-caps)), y el Skylab empieza la nueva temporada en casa, en el puerto de tu corporación, con un mapa del universo nuevo, las 19 celdas iniciales conocidas y la cola del radar vacía. Los motores y láseres montados en los módulos de motores y de defensa **se quedan donde están**: las mismas piezas, con los propulsores y amplificadores que llevan dentro y sus bonus de la Forja. No ocupan sitio en el Alijo de Transporte. Solo una pieza que hayas sacado de su módulo es un objeto suelto y se va con los demás, igual que el botín de la Bahía de trofeos, que no está montado en ninguna parte.
 
 ## Planifica tu Skylab {#planning-your-skylab}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
@@ -13,7 +13,7 @@ Chaque pilote a un **grade**, de Pilote junior à Amiral sénior. C’est une é
 - Seuls les pilotes qui ont des points PvE et ont volé durant les 30 derniers jours figurent dans une liste. Tous les autres sont Pilote junior jusqu’à leur prochain vol, et n’ont pas de place.
 - Une **couronne** dorée au-dessus du symbole désigne le pilote qui a le plus de points PvE de tout le serveur : toutes les corporations, les trois mondes.
 - Votre grade bouge. Jusqu’à Colonel sénior, il ne dépend que de vos points, donc il ne fait que monter. Les six meilleurs grades bougent aussi avec les autres pilotes de votre corporation : ils peuvent baisser quand d’autres prennent les places au-dessus de vous. Une baisse n’est jamais annoncée ; un nouveau meilleur grade, si.
-- À la réinitialisation, les points repartent de zéro : les listes repartent donc aussi et chaque saison est une nouvelle ascension. Votre grade de la saison passe dans votre historique et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Cela commence avec la première réinitialisation des nouvelles règles : d’ici là, vos points sont ceux de toute votre carrière.)
+- À la réinitialisation, les points repartent de zéro : les listes repartent donc aussi et chaque saison est une nouvelle ascension. Votre grade de la saison passe dans votre historique et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (La saison 2, qui a commencé avec la réinitialisation du 6 novembre 2026, a été la première à compter ainsi.)
 - Le symbole devant un nom est le grade : une forme pour le palier, de une à trois marques pour le degré.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Ouvrez **Économie › Corporation**. Sa section **Classement de la corporation*
 
 À la réinitialisation, vos points PvE repartent de zéro : le classement de votre corporation repart donc aussi et chaque saison est une nouvelle ascension. Seul compte ce que vous gagnez après une réinitialisation : les niveaux pris, l’expérience et les éliminations d’aliens de la nouvelle saison ([Points neufs](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Votre niveau, votre expérience et vos statistiques d’éliminations restent dans vos totaux. **L’honneur ne détermine pas votre grade.** Le grade que vous déteniez à l’instant de la réinitialisation passe dans l’historique de vos saisons, avec votre place dans le classement, et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Votre grade n’est pas non plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
 
-La première réinitialisation des nouvelles règles est la première à faire repartir les points : d’ici là, ils sont ceux de toute votre carrière, et cette réinitialisation clôt une saison avec les grades que le classement montre alors.
+La saison 2, qui a commencé avec la réinitialisation du 6 novembre 2026, a été la première à compter ainsi : ses points comptent à partir de cette réinitialisation. La réinitialisation qui a clos la saison 1 a payé les grades de la saison 1 d’après les points de toute votre carrière.
 
 ## Combien de temps cela prend {#how-long-it-takes}
 

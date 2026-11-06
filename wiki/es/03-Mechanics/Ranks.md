@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
@@ -13,7 +13,7 @@ Cada piloto tiene un **rango**, desde Piloto júnior hasta Almirante sénior. Es
 - Solo están en una lista los pilotos con puntos PvE que han volado en los últimos 30 días. Todos los demás son Piloto júnior hasta que vuelvan a volar, y no ocupan ninguna plaza.
 - Una **corona** dorada sobre el símbolo marca al piloto con más puntos PvE de todo el servidor: todas las corporaciones, los tres mundos.
 - Tu rango se mueve. Hasta Coronel sénior depende solo de tus puntos, así que solo sube. Los seis mejores rangos también se mueven con los demás pilotos de tu corporación: pueden bajar cuando otros ocupan las plazas por encima de ti. Una bajada nunca se anuncia; un nuevo mejor rango, sí.
-- En el reinicio los puntos vuelven a empezar de cero, así que las listas empiezan de nuevo y cada temporada es una nueva escalada. Tu rango de la temporada pasa a tu historial y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Esto empieza con el primer reinicio de las nuevas reglas: hasta entonces, tus puntos son los de toda tu trayectoria.)
+- En el reinicio los puntos vuelven a empezar de cero, así que las listas empiezan de nuevo y cada temporada es una nueva escalada. Tu rango de la temporada pasa a tu historial y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (La temporada 2, que empezó con el reinicio del 6 de noviembre de 2026, fue la primera que cuenta así.)
 - El símbolo delante de un nombre es el rango: una forma para la categoría y de una a tres marcas para el grado.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Abre **Economía › Corporación**. Su sección **Clasificación de la corporac
 
 En el reinicio tus puntos PvE vuelven a empezar de cero, así que la clasificación de tu corporación empieza de nuevo y cada temporada es una nueva escalada. Solo cuenta lo que ganas después de un reinicio: los niveles que subes, la experiencia y los derribos de alienígenas de la nueva temporada ([Puntos nuevos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Tu nivel, tu experiencia y tus estadísticas de derribos se quedan en tus totales. **El honor no determina tu rango.** El rango que tenías en el instante del reinicio pasa al historial de tus temporadas, con tu puesto en la clasificación, y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Tu rango tampoco es para siempre: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
 
-El primer reinicio de las nuevas reglas es el primero que vuelve a empezar los puntos: hasta entonces son los de toda tu trayectoria, y ese reinicio cierra una temporada con los rangos que muestre entonces la clasificación.
+La temporada 2, que empezó con el reinicio del 6 de noviembre de 2026, fue la primera que cuenta así: sus puntos cuentan desde ese reinicio. El reinicio que cerró la temporada 1 pagó los rangos de la temporada 1 según los puntos de toda tu trayectoria.
 
 ## Cuánto se tarda {#how-long-it-takes}
 

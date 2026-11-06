@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ab45d2848eb7e2f0 -->
+<!-- wiki-i18n source: 77234a6ca233f292 -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -39,7 +39,7 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 - **Az ár marad kifizetve.** Amibe a fejlesztés került, azt az indításkor levonták. A Hammer ebből semmit sem térít vissza, és semmi mást sem kér.
 - **Csak futó fejlesztés.** Az a modul, amelyet nem fejlesztenek, vagy amelynek fejlesztése épp magától véget ért, elutasítva marad („Nincs mit befejezni: ez a modul nincs fejlesztés alatt.”), és a Hammer nálad marad.
-- **Rendkívül ritka.** A Skylab a szintjeit a wipe-on át megtartja, ezért egy Hammer egy lépés idejét éri, a Magon akár 6 napot. A játék egy pilótának legfeljebb **60 naponta egyet** enged, és 5-öt tarthatsz nálad.
+- **Rendkívül ritka.** A Skylab a szintjeit a wipe-on át megtartja, ezért egy Hammer egy lépés idejét éri, a Magon akár 6 napot. Két Hammer között nincs várakozási idő, és 5-öt tarthatsz nálad.
 - **Az Engineer** (egy [Workforce Contract](#workforce-contract)) legfeljebb 1 órával rövidíti a fejlesztéseket; a Hammer mindent elvisz, ami még hátra van.
 
 ### Schematics
@@ -98,7 +98,7 @@ A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md
 - **Darabszám, nem tárgy.** A Hangar leltára az egyetlen hely, amely felsorolja őket, csempékként a fogyóeszközök között; ha egy fajtából nincs semmid, nincs hozzá csempe. A csempe nem tárgy, ezért nem húzható, nem jelölhető ki, nem törölhető és nem adható el. Nincs súlyuk, nincs gyorsgomb-helyük, és nincs helyük a rakományban vagy a tranzittárolóban; soha nem esnek el, ha a hajód megsemmisül.
 - **A wipe-on át.** A különleges tárgyaid és egy futó Philosopher's Stone vagy szerződés megmarad, mint a Skylab, a kutatás és a kinézeted.
 - **Soha nem kereskednek velük.** Nem az [Aukción](/wiki/03-Mechanics/Auction.md), nem másik pilótának, nem krediteért.
-- **Csak a Hammer mozdíthatja el a tempódat**, és legfeljebb 60 naponta egyet lehet kapni. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy legfeljebb 24 órás kutatás.
+- **Csak a Hammer mozdíthatja el a tempódat**, és csak 5-öt tarthatsz belőle nálad. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy legfeljebb 24 órás kutatás.
 - **Egy használat, egy megerősítés, egy hang.** Minden használat saját, halk hangjelzést játszik le.
 
 ## Gyakori hibák {#common-mistakes}

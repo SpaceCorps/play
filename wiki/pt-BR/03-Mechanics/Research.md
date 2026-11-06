@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 921da8d25c430cd6 -->
+<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Munição de laser {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 500 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1050 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1000 Ship Fragment, 100 Power Core, 1000 Cataclysite, 1000 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 800 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 2000 Ship Fragment, 2000 Cataclysite, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -371,7 +371,7 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 - **Em série.** Cada nível exige o anterior, e um nível maior substitui o menor: a tabela mostra o total que cada nível dá, não o que ele acrescenta.
 - **Lanches eficientes** (Kebab, Pelmeni, Hambúrguer) acrescentam casco a todas as naves que você tem, nas duas configurações.
 - **Porta dos fundos selada** aumenta o limite de carga de todos os foguetes, onde quer que você os compre, fabrique ou troque.
-- **Mineração com escavadeira** faz uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) que você liga deixar mais em cada caixa, tanto de Thulium quanto de minério. Vale a pesquisa do piloto que inicia a operação, e quem pegar as caixas leva a quantidade maior. O painel de controle da escavadeira mostra de quem é a operação e que parte ela carrega.
+- **Mineração com escavadeira** dá a uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) que você liga uma parte que ela mantém até descansar: cada caixa que ela deixa contém esse tanto a mais, tanto de Thulium quanto de minério, não importa quem inicie as próximas operações, abasteça ou pegue as caixas. A escavadeira mantém a maior parte que recebeu: um piloto com nível maior a eleva, e um nível menor nunca a reduz. O painel de controle da escavadeira mostra a parte, quem a deu e de quem é a operação.
 - **Teoria de campos** aumenta a parte de cada tiro que seus escudos absorvem. Uma nave sem escudo não ganha nada.
 - **Conhecimento adormecido** paga pontos de reset por nível quando a pesquisa termina no Centro, e de novo depois de cada reset ([Como ganhar pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points)). Além do nível anterior, exige uma parte das outras tecnologias pesquisadas (as do Piloto contam, as cinco de Conhecimento adormecido não), de qualquer forma que você as tenha obtido; a tabela mostra cada parte e quantas tecnologias são.
 

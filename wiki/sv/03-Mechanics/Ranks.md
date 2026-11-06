@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
@@ -13,7 +13,7 @@ Varje pilot har en **grad**, från Junior pilot till Senior amiral. Det är en m
 - Bara piloter med PvE-poäng som har flugit de senaste 30 dagarna finns på en lista. Alla andra är Junior pilot tills de flyger igen, och har ingen plats.
 - En gyllene **krona** över symbolen märker piloten med flest PvE-poäng på hela servern: alla koncerner, alla tre världarna.
 - Din grad rör sig. Upp till Senior överste beror den bara på dina poäng, så den kan bara stiga. De sex bästa graderna rör sig också med de andra piloterna i din koncern: de kan sjunka när andra tar platserna ovanför dig. Ett fall meddelas aldrig; en ny bästa grad gör det.
-- Vid wipen börjar poängen om från noll, så listorna börjar om och varje säsong är en ny klättring. Din grad för säsongen hamnar i din historik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Det börjar med de nya reglernas första wipe: fram till dess är dina poäng dina poäng för hela karriären.)
+- Vid wipen börjar poängen om från noll, så listorna börjar om och varje säsong är en ny klättring. Din grad för säsongen hamnar i din historik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så.)
 - Symbolen framför ett namn är graden: en form för nivån, ett till tre märken för steget.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Under flygning ser du **bara symbolen**, aldrig orden. Den står framför pilote
 
 Vid wipen börjar dina PvE-poäng om från noll, så din koncerns lista börjar om och varje säsong är en ny klättring. Det som räknas är bara det du tjänar efter en wipe: de nivåer du går upp, erfarenheten och nedskjutningarna av utomjordingar i den nya säsongen ([Färska poäng](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Din nivå, din erfarenhet och din nedskjutningsstatistik ligger kvar i dina totalsiffror. **Heder avgör inte din grad.** Graden du hade i wipens ögonblick hamnar, med din plats på listan, i din säsongshistorik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Din grad gäller inte heller för alltid: de sex bästa graderna rör sig med de andra piloterna i din koncern, och en pilot som är borta i 30 dagar lämnar listan tills han eller hon flyger igen.
 
-De nya reglernas första wipe är den första som får poängen att börja om: fram till dess är de dina poäng för hela karriären, och den wipen stänger en säsong med de grader som listan då visar.
+Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så: dess poäng räknas från den wipen. Wipen som stängde säsong 1 betalade ut graderna för säsong 1 efter poängen för hela din karriär.
 
 ## Hur lång tid det tar {#how-long-it-takes}
 

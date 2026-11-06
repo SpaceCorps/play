@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 62896aebea81e95a -->
+<!-- wiki-i18n source: 5f873edc2b653495 -->
 <!-- wiki-i18n title: Crystalys sürüsü -->
 # Crystalys sürüsü {#crystalys-swarm}
 
@@ -11,7 +11,7 @@ Crystalys sürüsü, bir **Boss Crystalys** ve **Crystalys Guard** gemilerinden 
 
 - **Yer**: Tehlike Sektörleri `DS-1`, `DS-2`, `DS-3`
 - **Kaç tane**: Bu sektörlerin her birinde bir tane, her dünyada 3 tane
-- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar
+- **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Boss Crystalys
 - **Takipçiler**: En fazla 3 × Crystalys Guard, 10 sn aralıkla yenisi çıkar
 - **Takipçiler şu mesafede kalır**: liderden en fazla 500 birim
@@ -29,7 +29,7 @@ Crystalys sürüsü, bir **Boss Crystalys** ve **Crystalys Guard** gemilerinden 
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
 
-- **Büyük bir grup getir.** x2 cephaneli, Paragon ile uçan 8. seviyeden sekiz pilot onu Alpha’da yaklaşık bir dakikada yok eder ve en fazla bir gemi kaybeder; dördünün x4 cephaneye ihtiyacı vardır, tek başına bir pilot ise yok edilir.
+- **Büyük bir grup getir.** Alpha’da x2 cephaneli, Paragon ile uçan 8. seviyeden altı pilot, ateşi aralarında dağılırsa yeter; tamamı tek pilota yönelirse dokuz pilot gerekir; x4 cephanede bu sayılar beş ve altıdır. Pilot sayısı arttıkça savaş daha erken biter ve daha az gemi kaybedilir; tek başına bir pilot ise yok edilir.
 - **Patrona ateş et, Guard gemilerine değil.** Bir Guard saniyeler içinde düşer, ama *Bir bakışta* listesinin söylediği sıklıkta yenisi gelir; Guard gemilerinin onardığı da bir grubun verdiği hasarın küçük bir kısmıdır: onları rahat bırakmak biraz zamana mal olur, peşlerine düşmek daha çoğuna.
 - **Beta ve Gamma daha zordur.** O dünyaların sürüleri daha güçlüdür ([Dünyalar](/wiki/05-Swarms/Swarms.md#the-worlds)); bu yüzden daha çok pilot ya da daha iyi cephane gerekir.
 - **Tehlike Sektörleri PvP’dir.** Bir rakip savaşın ortasında gruba saldırıp kutuyu bekleyebilir: kutu 30 saniye boyunca en çok hasar veren pilotun (ve klanının) olur, sonra herkesin ([Kargo](/wiki/03-Mechanics/Cargo.md)). Yalnız gitme.
@@ -48,13 +48,13 @@ Sürünün gemilerinin üç dünyadaki değerleri ([Dünyalar](/wiki/05-Swarms/S
 
 ### Boss Crystalys
 
-Crystalys temel alınarak, gövdesinin %175 kadarıyla ve lazer hasarının %50 kadarıyla yapılmıştır; hızı ve menzili kaynağıyla aynıdır.
+Crystalys temel alınarak, gövdesinin %350 kadarıyla ve lazer hasarının %100 kadarıyla yapılmıştır; hızı ve menzili kaynağıyla aynıdır.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Gövde | 448.000 | 672.000 | 896.000 |
-| Kalkan | 280.000 | 420.000 | 560.000 |
-| Lazer hasarı (saniyede bir salvo) | 5.000 | 7.500 | 10.000 |
+| Gövde | 896.000 | 1.344.000 | 1.792.000 |
+| Kalkan | 560.000 | 840.000 | 1.120.000 |
+| Lazer hasarı (saniyede bir salvo) | 10.000 | 15.000 | 20.000 |
 | Hız | 230 | 230 | 230 |
 | Lazer menzili | 900 | 900 | 900 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
@@ -62,7 +62,7 @@ Crystalys temel alınarak, gövdesinin %175 kadarıyla ve lazer hasarının %50 
 | Thulium | 1.050 | 2.100 | 3.150 |
 | Deneyim (XP) | 63.000 | 126.000 | 189.000 |
 | Onur | 273 | 546 | 819 |
-| Öldürme başına PvE puanı | 21 | 21 | 21 |
+| Öldürme başına PvE puanı | 30 | 30 | 30 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.
 

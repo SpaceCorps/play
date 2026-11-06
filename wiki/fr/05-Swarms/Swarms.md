@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -29,20 +29,20 @@ Les **Gardiens de clan** ne sont pas des essaims publics. Un clan invoque son pr
 | [**Essaim Phantasm**](/wiki/05-Swarms/Phantasm-Swarm.md) | Les secteurs `x-3` et `x-4` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Phantasm** | Jusqu’à 4 × Phantasm Guard, un nouveau toutes les 10 s | 2 min après la destruction du meneur, dans le même secteur |
 | [**Essaim Goombah**](/wiki/05-Swarms/Goombah-Swarm.md) | Les secteurs `x-3` et `x-4` de chaque corporation | Un dans chacun de ces secteurs, 6 dans chaque monde | **Boss Goombah** | Jusqu’à 4 × Goombah Guard, un nouveau toutes les 10 s | 5 min après la destruction du meneur, dans le même secteur |
 | [**Essaim Crystalys**](/wiki/05-Swarms/Crystalys-Swarm.md) | Les secteurs dangereux `DS-1`, `DS-2`, `DS-3` | Un dans chacun de ces secteurs, 3 dans chaque monde | **Boss Crystalys** | Jusqu’à 3 × Crystalys Guard, un nouveau toutes les 10 s | 30 min après la destruction du meneur, dans le même secteur |
-| [**Essaim Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Le secteur dangereux `DS-4` | Un dans chaque monde | **Tesseract** | Jusqu’à 50 × Facet, 10 de plus toutes les 5 s tant que le meneur est touché | 30 min après la destruction du meneur, dans le même secteur |
+| [**Essaim Tesseract**](/wiki/05-Swarms/Tesseract-Swarm.md) | Le secteur dangereux `DS-4` | Un dans chaque monde | **Tesseract** | Jusqu’à 100 × Facet, 20 de plus toutes les 5 s tant que le meneur est touché | 30 min après la destruction du meneur, dans le même secteur |
 
 <!-- swarms-list:end -->
 
 ## Quand et où {#when-and-where}
 
-Les essaims commencent à apparaître au **Premier contact** et restent jusqu’à la réinitialisation (voir la [Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md) ; le jour est la première ligne des règles ci-dessous). **Chaque monde a ses propres essaims**, aux mêmes endroits : le Pirate Boss d’Alpha et celui de Beta sont deux vaisseaux différents, et un essaim que vous détruisez dans votre monde n’est pas détruit dans un autre. Un essaim détruit revient après le délai du tableau ci-dessus. L’Essaim Dormant change au jour 11 de la saison (événement 2) : il apparaît au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), revient plus tôt et paie le double.
+Les essaims commencent à apparaître au **Premier contact** et restent jusqu’à la réinitialisation (voir la [Chronologie des réinitialisations](/wiki/03-Mechanics/Wipe-Timeline.md) ; le jour est la première ligne des règles ci-dessous). **Chaque monde a ses propres essaims**, aux mêmes endroits : le Pirate Boss d’Alpha et celui de Beta sont deux vaisseaux différents, et un essaim que vous détruisez dans votre monde n’est pas détruit dans un autre. Un essaim détruit revient après le délai du tableau ci-dessus. L’Essaim Dormant change au jour 11 de la saison (événement 2) : il apparaît au [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), revient plus tôt et paie le double. Dans Beta et Gamma, les essaims apparaissent dès le premier jour de la saison.
 
 ## Les règles de chaque essaim {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- Les essaims apparaissent à partir du jour 4 de la saison jusqu’à la réinitialisation.
+- Les essaims apparaissent à partir du jour 4 de la saison jusqu’à la réinitialisation ; dans Bêta et Gamma, ils apparaissent à partir du jour 1 de la saison.
 - Quand un vaisseau d’essaim est touché, les vaisseaux de son essaim situés à moins de 1 500 unités se joignent au combat contre le premier pilote qui l’a touché.
 - Un meneur apparaît à au moins 2 500 unités du bord de chaque anneau de station et de portail.
 - Un pilote qui a infligé au moins 5 % des dégâts subis par un boss est payé pour son élimination.
@@ -70,7 +70,7 @@ Les essaims Seeker, Pirate, Phantasm, Goombah, Crystalys et Tesseract avertissen
 
 ## Combattre un essaim {#fighting-a-swarm}
 
-- **Les meneurs ne commencent jamais un combat.** Un meneur erre jusqu’à ce qu’un pilote le touche, puis il riposte, et les vaisseaux de son essaim proches de lui se joignent au combat contre le premier pilote qui l’a touché (la distance est donnée dans les règles ci-dessus). Les Pirate Scouts font exception : ils attaquent tout pilote qui s’approche. Un meneur ne répare jamais sa coque de lui-même, donc les dégâts que vous lui avez infligés restent sur lui, sauf si ses suivants le soignent ; son bouclier se recharge comme celui de tout alien. Seul le Tesseract fait exception : il n’a pas d’arme, répare de lui-même sa coque et son bouclier dès que personne ne l’a blessé pendant quelques secondes, et ses Facets traquent le pilote qui a infligé le plus de dégâts, non le premier qui l’a touché.
+- **Les meneurs ne commencent jamais un combat.** Un meneur erre jusqu’à ce qu’un pilote le touche, puis il riposte, et les vaisseaux de son essaim proches de lui se joignent au combat contre le premier pilote qui l’a touché (la distance est donnée dans les règles ci-dessus). Les Pirate Scouts font exception : ils attaquent tout pilote qui s’approche. Un meneur ne répare jamais sa coque de lui-même, donc les dégâts que vous lui avez infligés restent sur lui, sauf si ses suivants le soignent ; son bouclier se recharge comme celui de tout alien. Seul le Tesseract fait exception : il n’a pas d’arme, répare de lui-même sa coque et son bouclier dès que personne ne l’a blessé pendant quelques secondes, et ses Facets volent autour de lui et tirent sur le pilote le plus proche qui l’a touché, au lieu de traquer le premier qui l’a touché.
 - **Les vaisseaux d’essaim ne combattent que les pilotes.** Ils ne tirent pas sur les aliens et les aliens ne tirent pas sur eux, et les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) les ignorent : ils ne chassent pas un vaisseau d’essaim et ne viennent pas vous aider contre l’un d’eux.
 - **Roquettes.** Le Pirate Boss, la Dormant Force et les Pulses tirent des roquettes **droites**, des [roquettes Rivet](/wiki/06-Items/Rockets.md), sur le pilote qui les a attaqués. Un vaisseau qui reste en mouvement les esquive, un vaisseau immobile est touché.
 - **L’ampleur des combats.** L’essaim Seeker est fait pour deux pilotes, les essaims Pirate et Phantasm pour un petit groupe, l’essaim Goombah pour un groupe des vaisseaux les plus forts, les essaims Crystalys et Dormant pour un grand groupe d’entre eux, l’essaim Tesseract pour un très grand groupe ; les mondes plus élevés demandent plus de pilotes, comme pour tout alien.
@@ -109,7 +109,7 @@ Chaque élimination est comptée sous le nom propre du vaisseau dans vos statist
 | **Phantasm Guard** | Essaim Phantasm | 1 |
 | **Boss Goombah** | Essaim Goombah | 14 |
 | **Goombah Guard** | Essaim Goombah | 3 |
-| **Boss Crystalys** | Essaim Crystalys | 21 |
+| **Boss Crystalys** | Essaim Crystalys | 30 |
 | **Crystalys Guard** | Essaim Crystalys | 6 |
 | **Tesseract** | Essaim Tesseract | 42 |
 | **Facet** | Essaim Tesseract | 0 |

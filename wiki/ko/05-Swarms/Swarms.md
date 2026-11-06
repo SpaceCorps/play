@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 76c0eb60501ac323 -->
+<!-- wiki-i18n source: fc4e75309862b3af -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -29,20 +29,20 @@
 | [**Phantasm 무리**](/wiki/05-Swarms/Phantasm-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Phantasm** | 최대 4 × Phantasm Guard, 10초마다 새로 하나 | 리더가 격파되고 2분 뒤, 같은 섹터에서 |
 | [**Goombah 무리**](/wiki/05-Swarms/Goombah-Swarm.md) | 모든 기업의 `x-3`와 `x-4` 섹터 | 해당 섹터마다 하나씩, 월드마다 6개 | **Boss Goombah** | 최대 4 × Goombah Guard, 10초마다 새로 하나 | 리더가 격파되고 5분 뒤, 같은 섹터에서 |
 | [**Crystalys 무리**](/wiki/05-Swarms/Crystalys-Swarm.md) | 위험 섹터 `DS-1`, `DS-2`, `DS-3` | 해당 섹터마다 하나씩, 월드마다 3개 | **Boss Crystalys** | 최대 3 × Crystalys Guard, 10초마다 새로 하나 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
-| [**Tesseract 무리**](/wiki/05-Swarms/Tesseract-Swarm.md) | 위험 섹터 `DS-4` | 월드마다 하나 | **Tesseract** | 최대 50 × Facet, 리더가 공격받는 동안 5초마다 10기 추가 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
+| [**Tesseract 무리**](/wiki/05-Swarms/Tesseract-Swarm.md) | 위험 섹터 `DS-4` | 월드마다 하나 | **Tesseract** | 최대 100 × Facet, 리더가 공격받는 동안 5초마다 20기 추가 | 리더가 격파되고 30분 뒤, 같은 섹터에서 |
 
 <!-- swarms-list:end -->
 
 ## 언제, 어디에 {#when-and-where}
 
-무리는 **첫 접촉**부터 나타나기 시작해 초기화까지 남아 있습니다([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md) 참조. 날짜는 아래 규칙의 첫 줄에 있습니다). **월드마다 자기만의 무리가 있으며** 위치는 같습니다. 그래서 Alpha의 Pirate Boss와 Beta의 Pirate Boss는 서로 다른 함선이고, 내 월드에서 처치한 무리가 다른 월드에서 처치되는 것은 아닙니다. 처치된 무리는 위 표의 시간이 지나면 돌아옵니다. Dormant 무리는 시즌 11일차(이벤트 2)에 달라집니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에 나타나고, 더 일찍 돌아오며, 보상이 두 배입니다.
+무리는 **첫 접촉**부터 나타나기 시작해 초기화까지 남아 있습니다([초기화 일정](/wiki/03-Mechanics/Wipe-Timeline.md) 참조. 날짜는 아래 규칙의 첫 줄에 있습니다). **월드마다 자기만의 무리가 있으며** 위치는 같습니다. 그래서 Alpha의 Pirate Boss와 Beta의 Pirate Boss는 서로 다른 함선이고, 내 월드에서 처치한 무리가 다른 월드에서 처치되는 것은 아닙니다. 처치된 무리는 위 표의 시간이 지나면 돌아옵니다. Dormant 무리는 시즌 11일차(이벤트 2)에 달라집니다. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)에 나타나고, 더 일찍 돌아오며, 보상이 두 배입니다. Beta와 Gamma에서는 무리가 시즌 첫날부터 나타납니다.
 
 ## 모든 무리의 규칙 {#the-rules-of-every-swarm}
 
 <!-- swarms-rules:begin -->
 <!-- Generated from server/Resources/Swarms.json (and Rockets.json, Values/ranking-config.json, Data/Seeds/items.json) by scripts/swarms-wiki.sh: don't edit by hand. -->
 
-- 무리는 시즌 4일차부터 초기화까지 나타납니다.
+- 무리는 시즌 4일차부터 초기화까지 나타납니다. 베타와 감마에서는 시즌 1일차부터 나타납니다.
 - 무리의 함선이 공격받으면, 그 함선에서 1,500유닛 이내에 있는 같은 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다.
 - 리더는 모든 스테이션과 게이트 고리의 가장자리에서 최소 2,500유닛 떨어진 곳에 나타납니다.
 - 보스에게 입힌 피해의 5% 이상을 입힌 파일럿이 그 처치의 보상을 받습니다.
@@ -70,7 +70,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나�
 
 ## 무리와 싸우기 {#fighting-a-swarm}
 
-- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다. Tesseract만 예외로, 무기가 없고, 몇 초 동안 아무도 피해를 주지 않으면 선체와 실드를 스스로 회복하며, Facet은 처음 공격한 파일럿이 아니라 가장 많은 피해를 입힌 파일럿을 쫓습니다.
+- **리더는 절대 먼저 싸움을 걸지 않습니다.** 리더는 파일럿에게 공격받을 때까지 돌아다니다가 공격받으면 반격하며, 가까이 있는 무리의 함선들이 처음 공격한 파일럿을 상대로 전투에 합류합니다(거리는 위 규칙에 있습니다). 예외는 Pirate Scout로, 가까이 오는 모든 파일럿을 공격합니다. 리더는 스스로 선체를 수리하지 않으므로, 입힌 피해는 부하가 회복시키지 않는 한 그대로 남습니다. 실드는 다른 외계인과 똑같이 재충전됩니다. Tesseract만 예외로, 무기가 없고, 몇 초 동안 아무도 피해를 주지 않으면 선체와 실드를 스스로 회복하며, Facet은 처음 공격한 파일럿을 쫓는 대신 Tesseract 주위를 날아다니며 공격한 파일럿 중 가장 가까운 파일럿을 쏩니다.
 - **무리의 함선은 파일럿하고만 싸웁니다.** 외계인에게 사격하지 않고 외계인도 이들에게 사격하지 않으며, [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 이들을 무시합니다. 무리의 함선을 사냥하지도, 맞서 싸우는 당신을 도우러 오지도 않습니다.
 - **로켓.** Pirate Boss와 Dormant Force, Pulse는 자신을 공격한 파일럿에게 **직선** 로켓, 즉 [Rivet 로켓](/wiki/06-Items/Rockets.md)을 발사합니다. 계속 움직이는 함선은 피하지만 멈춰 있는 함선은 맞습니다.
 - **전투의 규모.** Seeker 무리는 2명, Pirate 무리와 Phantasm 무리는 소규모 그룹, Goombah 무리는 최강 함선들의 그룹, Crystalys 무리와 Dormant 무리는 그들의 대규모 그룹을, Tesseract 무리는 그보다 훨씬 큰 그룹을 위한 상대입니다. 높은 월드일수록 다른 외계인과 마찬가지로 더 많은 파일럿이 필요합니다.
@@ -109,7 +109,7 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나�
 | **Phantasm Guard** | Phantasm 무리 | 1 |
 | **Boss Goombah** | Goombah 무리 | 14 |
 | **Goombah Guard** | Goombah 무리 | 3 |
-| **Boss Crystalys** | Crystalys 무리 | 21 |
+| **Boss Crystalys** | Crystalys 무리 | 30 |
 | **Crystalys Guard** | Crystalys 무리 | 6 |
 | **Tesseract** | Tesseract 무리 | 42 |
 | **Facet** | Tesseract 무리 | 0 |

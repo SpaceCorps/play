@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 808699731b26ded1 -->
+<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
@@ -13,7 +13,7 @@ Jeder Pilot hat einen **Rang**, vom Junior-Pilot bis zum Senior-Admiral. Es ist 
 - Nur Piloten mit PvE-Punkten, die in den letzten 30 Tagen geflogen sind, stehen in einer Liste. Alle anderen gelten als Junior-Pilot, bis sie wieder fliegen, und haben keinen Platz.
 - Eine **goldene Krone** über dem Symbol kennzeichnet den Piloten mit den meisten PvE-Punkten des ganzen Servers: alle Konzerne, alle drei Welten.
 - Dein Rang bewegt sich. Bis einschließlich Senior-Oberst hängt er nur von deinen Punkten ab und steigt deshalb nur. Die sechs besten Ränge bewegen sich außerdem mit den anderen Piloten deines Konzerns: Sie können sinken, wenn andere die Plätze über dir einnehmen. Ein Abstieg wird nie gemeldet; ein neuer bester Rang schon.
-- Beim Wipe fangen die Punkte wieder bei null an, die Listen beginnen also von vorn und jede Saison ist ein neuer Aufstieg. Dein Rang der Saison kommt in deinen Verlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Das beginnt mit dem ersten Wipe der neuen Regeln: Bis dahin sind deine Punkte die deiner ganzen Laufbahn.)
+- Beim Wipe fangen die Punkte wieder bei null an, die Listen beginnen also von vorn und jede Saison ist ein neuer Aufstieg. Dein Rang der Saison kommt in deinen Verlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). (Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt.)
 - Das Symbol vor einem Namen ist der Rang: eine Form für die Stufe, ein bis drei Markierungen für den Grad.
 
 ![All ranks on the Company page: the 24 ranks with their places per company, the pilots who hold each now and its minimum PvE points](../../img/wiki-img/shots/company-ranks-bands.jpg)
@@ -129,7 +129,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 | Phantasm Guard | 1 |
 | Boss Goombah | 14 |
 | Goombah Guard | 3 |
-| Boss Crystalys | 21 |
+| Boss Crystalys | 30 |
 | Crystalys Guard | 6 |
 | Tesseract | 42 |
 | Slumbering Void | 10 |
@@ -204,7 +204,7 @@ Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und
 
 Beim Wipe fangen deine PvE-Punkte wieder bei null an, die Rangliste deines Konzerns beginnt also von vorn und jede Saison ist ein neuer Aufstieg. Es zählt nur, was du nach einem Wipe verdienst: die Level, die du gewinnst, die Erfahrung und die Alien-Abschüsse der neuen Saison ([Frische Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Dein Level, deine Erfahrung und deine Abschussstatistik bleiben in deinen Gesamtzahlen. **Die Ehre bestimmt deinen Rang nicht.** Der Rang, den du im Augenblick des Wipes hieltest, kommt mit deinem Platz in der Rangliste in deinen Saisonverlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Dein Rang gilt auch nicht fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
 
-Der erste Wipe der neuen Regeln ist der erste, der die Punkte wieder bei null beginnen lässt: Bis dahin sind sie die deiner ganzen Laufbahn, und dieser Wipe schließt eine Saison mit den Rängen ab, die die Rangliste dann zeigt.
+Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt: Ihre Punkte zählen ab diesem Wipe. Der Wipe, der Saison 1 abschloss, bezahlte die Ränge der Saison 1 nach den Punkten deiner ganzen Laufbahn.
 
 ## Wie lange es dauert {#how-long-it-takes}
 

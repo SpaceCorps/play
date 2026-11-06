@@ -11,7 +11,7 @@ Der Phantasm-Schwarm ist ein **Boss Phantasm** mit seinen **Phantasm Guards**: e
 
 - **Wo**: Die Sektoren `x-3` und `x-4` jedes Konzerns
 - **Wie viele**: Einer in jedem dieser Sektoren, 6 in jeder Welt
-- **Erscheint**: Ab Saisontag 4 bis zum Wipe
+- **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Boss Phantasm
 - **Begleiter**: Bis zu 4 × Phantasm Guard, alle 10 s ein neuer
 - **Begleiter bleiben nahe**: höchstens 500 Einheiten vom Anführer entfernt
