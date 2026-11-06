@@ -1,0 +1,383 @@
+# Published as .github/workflows/arm-build.yml of the PUBLIC repository SpaceCorps/play (the one whose
+# runners are free, like mac-build.yml); this copy is where it is reviewed with the rest of the ARM work
+# (docs/design/arm-builds.md).
+name: ARM64 build check
+
+# Builds the SpaceCorps 2027 client NATIVELY on GitHub's free Arm runners and starts it headless: the
+# proof the release PC cannot give (it is an x86_64 machine: Linux ARM64 runs only under QEMU there and a
+# Windows on Arm exe cannot run at all). Nothing is released or published by it, and no binary is uploaded
+# (artifacts of a public repository are public): only the screenshots the headless game writes.
+#
+# The game's source is private: it is cloned here with the read-only token SOURCE_TOKEN (Contents read on
+# SpaceCorps/SpaceCorps2027 and SpaceCorps/Space3d), as mac-build.yml does, and the build log stays on the
+# runner: only the error lines (message and file:line, not the source) and the game's own start-up lines are
+# printed.
+#
+#   gh workflow run arm-build.yml -R SpaceCorps/play -f ref=<branch, commit or tag of SpaceCorps2027> -f jobs=probe|linux|windows|x64|all
+#
+# A pull request that changes this file only runs the probe (no secret).
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Branch, commit or tag of SpaceCorps/SpaceCorps2027 to build
+        required: true
+        default: main
+      jobs:
+        description: "What to run: probe (a minute: what the runners have), linux, windows, x64 (the released x86_64 build under Windows' emulation), or all"
+        required: true
+        default: probe
+  pull_request:
+    paths: [".github/workflows/arm-build.yml"]
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: never
+
+jobs:
+  probe:
+    if: github.event_name == 'pull_request' || inputs.jobs == 'probe' || inputs.jobs == 'all'
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04-arm, windows-11-arm]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: The machine
+        run: |
+          uname -a
+          echo "PROCESSOR_ARCHITECTURE=${PROCESSOR_ARCHITECTURE:-} PROCESSOR_ARCHITEW6432=${PROCESSOR_ARCHITEW6432:-}"
+          echo "cpus: $(nproc 2>/dev/null || echo "$NUMBER_OF_PROCESSORS")"
+          df -h . 2>/dev/null | tail -2 || true
+      - name: The tools
+        run: |
+          for t in git bash curl unzip zip tar python3 python jq cmake perl gcc clang cc make rustup rustc cargo file pkg-config vulkaninfo cl link; do
+            printf '%-12s %s\n' "$t" "$(command -v "$t" || echo -)"
+          done
+          rustc --version || true
+          cargo --version || true
+          rustup show 2>&1 | head -12 || true
+          python3 --version 2>&1 || true
+      - name: Windows only - Visual Studio and the SDK
+        if: runner.os == 'Windows'
+        run: |
+          vswhere="/c/Program Files (x86)/Microsoft Visual Studio/Installer/vswhere.exe"
+          "$vswhere" -all -products '*' -format json 2>/dev/null | grep -E '"(displayName|installationVersion|installationPath)"' || true
+          ls "/c/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC" 2>/dev/null || true
+          ls /c/Program\ Files\ \(x86\)/Windows\ Kits/10/Lib 2>/dev/null || true
+          ls /c/Program\ Files\ \(x86\)/Windows\ Kits/10/Lib/*/um 2>/dev/null || true
+          ls /c/Program\ Files/Git/bin 2>/dev/null | head -3 || true
+          file /c/Program\ Files/Git/bin/bash.exe 2>/dev/null || true
+      - name: Linux only - packages
+        if: runner.os == 'Linux'
+        run: |
+          apt-cache policy libasound2-dev libdbus-1-dev mesa-vulkan-drivers libvulkan1 | grep -E '^[a-z]|Candidate' || true
+          ls /usr/share/vulkan/icd.d 2>/dev/null || true
+
+  linux:
+    if: github.event_name == 'workflow_dispatch' && (inputs.jobs == 'linux' || inputs.jobs == 'all')
+    runs-on: ubuntu-24.04-arm
+    timeout-minutes: 240
+    steps:
+      - name: Source (private, read-only token)
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          REF: ${{ inputs.ref }}
+          GIT_TERMINAL_PROMPT: "0"
+        run: |
+          test -n "$SOURCE_TOKEN" || { echo "the secret SOURCE_TOKEN is not set"; exit 1; }
+          git config --global url."https://x-access-token:${SOURCE_TOKEN}@github.com/SpaceCorps/".insteadOf "https://github.com/SpaceCorps/"
+          git clone --quiet https://github.com/SpaceCorps/SpaceCorps2027.git src
+          git -C src checkout --quiet "$REF"
+          echo "source at $(git -C src rev-parse --short=7 HEAD)"
+
+      - name: System libraries (build, and a software Vulkan to run on)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends libasound2-dev libdbus-1-dev pkg-config cmake perl file \
+            mesa-vulkan-drivers libvulkan1 libegl1 libgl1 >/dev/null
+          uname -m
+
+      - name: Build (cargo build --release, natively)
+        working-directory: src
+        env:
+          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
+          CARGO_PROFILE_RELEASE_STRIP: symbols
+          SPACECORPS_CI_BUILD: "1"
+        run: |
+          set +e
+          date -u +%H:%M:%S
+          cargo build --release --locked -p spacecorps2027 -p spacecorps-assetpack > "$RUNNER_TEMP/build.log" 2>&1
+          rc=$?
+          date -u +%H:%M:%S
+          # The log is private (compiler messages quote the source): only the message and place of each error.
+          grep -E '^(error|warning: unused)|^ +--> ' "$RUNNER_TEMP/build.log" | grep -vE '^warning' | cut -c1-200 | head -40
+          if [ "$rc" -ne 0 ]; then echo "the build failed (exit $rc)"; exit "$rc"; fi
+          ls -l target/release/spacecorps2027 target/release/assetpack
+          file target/release/spacecorps2027 | cut -c1-200
+
+      - name: "Pack the assets in a copy and start it headless (8 times: the Windows runs showed a flaky start)"
+        working-directory: src
+        run: |
+          set -e
+          work="$RUNNER_TEMP/pack"
+          rm -rf "$work"; mkdir -p "$work/assets" "$work/app" "$RUNNER_TEMP/shots" "$RUNNER_TEMP/home"
+          cp -R assets/. "$work/assets/"
+          scripts/release/prune-assets.sh "$work/assets" >/dev/null
+          cp target/release/spacecorps2027 "$work/app/spacecorps2027"
+          target/release/assetpack append "$work/app/spacecorps2027" "$work/assets" >/dev/null
+          target/release/assetpack verify "$work/app/spacecorps2027" --against "$work/assets" | cut -c1-200
+          cd /
+          set +e
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/shots"; mkdir -p "$RUNNER_TEMP/shots"
+            start=$(date +%s)
+            # (as scripts/release/smoke-test.sh runs the tarball's binary: another folder, a fresh HOME, software Vulkan)
+            timeout 900 env -i PATH=/usr/bin:/bin "HOME=$RUNNER_TEMP/home" WGPU_BACKEND=vulkan SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off \
+              SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login "SPACECORPS_SHOTS=$RUNNER_TEMP/shots" \
+              "$work/app/spacecorps2027" > "$RUNNER_TEMP/run.log" 2>&1
+            rc=$?
+            n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, $(grep -ac 'auto-exit' "$RUNNER_TEMP/run.txt") auto-exit"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+            if [ "$i" = 1 ]; then
+              grep -aE 'SpaceCorps 2027 [0-9][^ ]* \(|assets: .*packed in|renderer initialised|audio disabled|auto-exit|panicked|fatal|Segmentation' "$RUNNER_TEMP/run.txt" | cut -c1-260
+              grep -aq 'aarch64-unknown-linux-gnu)' "$RUNNER_TEMP/run.txt" || { echo "the version line names another target"; exit 1; }
+            fi
+            grep -aiE 'panicked|fatal' "$RUNNER_TEMP/run.txt" && exit 1
+          done
+          echo "TALLY linux aarch64 native: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
+          [ "$ok" -gt 0 ]
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arm-linux-screenshots
+          path: ${{ runner.temp }}/shots/*.png
+          retention-days: 3
+          if-no-files-found: error
+
+  windows:
+    if: github.event_name == 'workflow_dispatch' && (inputs.jobs == 'windows' || inputs.jobs == 'all')
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [aarch64-pc-windows-gnullvm, aarch64-pc-windows-msvc]
+    runs-on: windows-11-arm
+    timeout-minutes: 240
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Source (private, read-only token)
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          REF: ${{ inputs.ref }}
+          GIT_TERMINAL_PROMPT: "0"
+        run: |
+          test -n "$SOURCE_TOKEN" || { echo "the secret SOURCE_TOKEN is not set"; exit 1; }
+          git config --global url."https://x-access-token:${SOURCE_TOKEN}@github.com/SpaceCorps/".insteadOf "https://github.com/SpaceCorps/"
+          git clone --quiet https://github.com/SpaceCorps/SpaceCorps2027.git src
+          git -C src checkout --quiet "$REF"
+          echo "source at $(git -C src rev-parse --short=7 HEAD)"
+
+      - name: Rust (the toolchain rust-toolchain.toml pins, for this target)
+        working-directory: src
+        run: |
+          set -e
+          if ! command -v rustup >/dev/null 2>&1; then
+            curl -fsSL -o "$RUNNER_TEMP/rustup-init.exe" https://win.rustup.rs/aarch64
+            "$RUNNER_TEMP/rustup-init.exe" -y --default-toolchain none --profile minimal >/dev/null
+            export PATH="$HOME/.cargo/bin:$PATH"
+            echo "$HOME/.cargo/bin" >> "$GITHUB_PATH"
+          fi
+          rustup show active-toolchain || true
+          rustup target add "${{ matrix.target }}" 2>&1 | tail -2
+          rustc --version --verbose | grep -E '^(rustc|host)'
+
+      - name: llvm-mingw (gnullvm only)
+        if: matrix.target == 'aarch64-pc-windows-gnullvm'
+        run: |
+          set -e
+          cd "$RUNNER_TEMP"
+          curl -fsSL -o llvm-mingw.zip https://github.com/mstorsjo/llvm-mingw/releases/download/20261020/llvm-mingw-20261020-ucrt-aarch64.zip
+          echo "8f24fedd0b75c674c6c83dec2d76a7ac31a690120212843a17e465ef49854f69  llvm-mingw.zip" | sha256sum -c -
+          unzip -q llvm-mingw.zip
+          rm llvm-mingw.zip
+          bin="$(pwd)/llvm-mingw-20261020-ucrt-aarch64/bin"
+          "$bin/aarch64-w64-mingw32-clang" --version | head -2
+          echo "LLVM_MINGW_BIN=$bin" >> "$GITHUB_ENV"
+
+      - name: "Build and package (gnullvm: scripts/release-local.sh --arm-only, as the release PC runs it)"
+        if: matrix.target == 'aarch64-pc-windows-gnullvm'
+        working-directory: src
+        env:
+          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
+          PYTHONUTF8: "1"
+          SPACECORPS_CI_BUILD: "1"
+        run: |
+          set +e
+          date -u +%H:%M:%S
+          scripts/release-local.sh --arm-only --only windows --unsigned --out "$RUNNER_TEMP/out" > "$RUNNER_TEMP/build.log" 2>&1
+          rc=$?
+          date -u +%H:%M:%S
+          # The log is private (compiler messages quote the source): the script's own summary lines and each error's place.
+          grep -aE '^(SpaceCorps 2027 [0-9]|stamped |no local paths|imports: |ok: |.*is not an ARM64|the exe needs|missing )|^error|^ +--> |windows-aarch64\.zip \(' "$RUNNER_TEMP/build.log" | cut -c1-200 | head -60
+          if [ "$rc" -ne 0 ]; then echo "the build failed (exit $rc)"; tail -5 "$RUNNER_TEMP/build.log" | grep -avE '^ +[0-9]+ \||^ +\|' | cut -c1-200; exit "$rc"; fi
+          ls -l "$RUNNER_TEMP/out"
+
+      - name: "Smoke test (the exe itself, headless: scripts/release/smoke-test.sh --only windows-aarch64)"
+        if: matrix.target == 'aarch64-pc-windows-gnullvm'
+        working-directory: src
+        env:
+          PYTHONUTF8: "1"
+        run: |
+          set +e
+          PATH="$PATH:$LLVM_MINGW_BIN" scripts/release/smoke-test.sh --out "$RUNNER_TEMP/out" --only windows-aarch64 --secs 12 > "$RUNNER_TEMP/smoke.log" 2>&1
+          rc=$?
+          sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/smoke.log" | grep -aE '^(ok|skip|FAIL|==>)|passed' | cut -c1-220
+          if [ "$rc" -ne 0 ]; then echo "the smoke test failed (exit $rc)"; sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/smoke.log" | tail -12 | cut -c1-200; fi
+          mkdir -p "$RUNNER_TEMP/shots"
+          cp "$RUNNER_TEMP"/out/smoke/windows-aarch64/shots/*.png "$RUNNER_TEMP/shots/" 2>/dev/null || true
+          sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/out/smoke/windows-aarch64/log.txt" 2>/dev/null | grep -aE 'renderer initialised|adapter|auto-exit|panicked|fatal|audio' | cut -c1-260 || true
+          exit "$rc"
+
+      - name: "Build (msvc: cargo build --release, natively)"
+        if: matrix.target == 'aarch64-pc-windows-msvc'
+        working-directory: src
+        env:
+          CARGO_NET_GIT_FETCH_WITH_CLI: "true"
+          CARGO_PROFILE_RELEASE_STRIP: symbols
+          SPACECORPS_CI_BUILD: "1"
+        run: |
+          set +e
+          date -u +%H:%M:%S
+          cargo build --release --locked -p spacecorps2027 --target aarch64-pc-windows-msvc > "$RUNNER_TEMP/build.log" 2>&1
+          rc=$?
+          date -u +%H:%M:%S
+          grep -aE '^error|^ +--> |LNK[0-9]+|link\.exe|rc\.exe' "$RUNNER_TEMP/build.log" | cut -c1-200 | head -40
+          if [ "$rc" -ne 0 ]; then echo "the build failed (exit $rc)"; exit "$rc"; fi
+          ls -l target/aarch64-pc-windows-msvc/release/spacecorps2027.exe
+          file target/aarch64-pc-windows-msvc/release/spacecorps2027.exe | cut -c1-200
+
+      - name: Start it headless (msvc; its assets are the compile-time fallback, this checkout's)
+        if: matrix.target == 'aarch64-pc-windows-msvc'
+        working-directory: src
+        run: |
+          set +e
+          mkdir -p "$RUNNER_TEMP/shots" "$RUNNER_TEMP/home"
+          wh=$(cygpath -m "$RUNNER_TEMP/home")
+          exe=target/aarch64-pc-windows-msvc/release/spacecorps2027.exe
+          start=$(date +%s)
+          timeout 900 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
+            "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/shots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
+            "$exe" > "$RUNNER_TEMP/run.log" 2>&1
+          rc=$?
+          echo "exit $rc after $(( $(date +%s) - start )) s"
+          sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
+          grep -aE 'SpaceCorps 2027 [0-9][^ ]* \(|renderer initialised|adapter|audio|auto-exit|panicked|fatal' "$RUNNER_TEMP/run.txt" | cut -c1-260
+          n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
+          echo "$n screenshots"
+          grep -aiE 'panicked|fatal' "$RUNNER_TEMP/run.txt" && exit 1
+          [ "$n" -gt 0 ] || { tail -15 "$RUNNER_TEMP/run.txt" | cut -c1-200; exit 1; }
+          grep -aq 'aarch64-pc-windows-msvc)' "$RUNNER_TEMP/run.txt"
+
+      - name: "Repeat: the ARM64 exe started 8 times, headless (the first runs crashed, a later one did not)"
+        if: always()
+        working-directory: src
+        run: |
+          set +e
+          if [ "${{ matrix.target }}" = aarch64-pc-windows-gnullvm ]; then
+            exe="$RUNNER_TEMP/out/smoke/windows-aarch64/SpaceCorps 2027/spacecorps2027.exe"
+          else
+            exe="$PWD/target/aarch64-pc-windows-msvc/release/spacecorps2027.exe"
+          fi
+          [ -f "$exe" ] || { echo "no exe at $exe"; exit 0; }
+          mkdir -p "$RUNNER_TEMP/home"
+          wh=$(cygpath -m "$RUNNER_TEMP/home")
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/dshots"; mkdir -p "$RUNNER_TEMP/dshots"
+            start=$(date +%s)
+            timeout 300 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
+              "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/dshots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
+              "$exe" > "$RUNNER_TEMP/d.log" 2>&1
+            rc=$?
+            n=$(find "$RUNNER_TEMP/dshots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/d.log" > "$RUNNER_TEMP/d.txt"
+            last=$(grep -aE '^20[0-9-]+T' "$RUNNER_TEMP/d.txt" | tail -1 | cut -c28-130)
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, last log line: $last"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+          done
+          echo "TALLY ${{ matrix.target }} native: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
+          exit 0
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arm-windows-${{ matrix.target }}-screenshots
+          path: ${{ runner.temp }}/shots/*.png
+          retention-days: 3
+          if-no-files-found: ignore
+
+  windows-x64-emulated:
+    # The released x86_64 build on the Arm runner (emulated) and, as the control, on an ordinary x64 runner: the same
+    # software renderer (Microsoft Basic Render Driver / WARP), no GPU.
+    if: github.event_name == 'workflow_dispatch' && (inputs.jobs == 'x64' || inputs.jobs == 'all')
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-11-arm, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: The released x86_64 package (public), checked against the release's list
+        run: |
+          set -e
+          cd "$RUNNER_TEMP"
+          base=https://github.com/SpaceCorps/play/releases/download/v0.5.0
+          curl -fsSL -o SHA256SUMS "$base/SHA256SUMS"
+          curl -fsSL -o SpaceCorps2027-windows-x86_64.zip "$base/SpaceCorps2027-windows-x86_64.zip"
+          grep ' SpaceCorps2027-windows-x86_64.zip$' SHA256SUMS | sha256sum -c -
+          unzip -q SpaceCorps2027-windows-x86_64.zip -d x64
+          file "x64/SpaceCorps 2027/spacecorps2027.exe" | cut -c1-160
+
+      - name: Start it headless 8 times (x64 code; emulated by Windows on Arm on the Arm runner)
+        run: |
+          set +e
+          mkdir -p "$RUNNER_TEMP/home"
+          wh=$(cygpath -m "$RUNNER_TEMP/home")
+          exe="$RUNNER_TEMP/x64/SpaceCorps 2027/spacecorps2027.exe"
+          ok=0; crashed=0
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf "$RUNNER_TEMP/shots"; mkdir -p "$RUNNER_TEMP/shots"
+            start=$(date +%s)
+            timeout 600 env SPACE3D_HEADLESS=1280x720 SPACE3D_AUDIO=off SPACE3D_EXIT_AFTER_SECS=12 SPACECORPS_SHOT_EVERY=5 SPACECORPS_SCREEN=login \
+              "SPACECORPS_SHOTS=$(cygpath -m "$RUNNER_TEMP/shots")" "HOME=$wh" "USERPROFILE=$wh" "APPDATA=$wh/AppData/Roaming" "LOCALAPPDATA=$wh/AppData/Local" \
+              "$exe" > "$RUNNER_TEMP/run.log" 2>&1
+            rc=$?
+            n=$(find "$RUNNER_TEMP/shots" -name 'shot_*.png' | wc -l)
+            sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/run.log" > "$RUNNER_TEMP/run.txt"
+            last=$(grep -aE '^20[0-9-]+T' "$RUNNER_TEMP/run.txt" | tail -1 | cut -c28-130)
+            echo "run $i: exit $rc after $(( $(date +%s) - start )) s, $n screenshots, last log line: $last"
+            if [ "$rc" = 0 ] && [ "$n" -gt 0 ]; then ok=$((ok + 1)); else crashed=$((crashed + 1)); fi
+          done
+          echo "TALLY x64 build on ${{ matrix.os }}: $ok of 8 runs started, ran and wrote screenshots; $crashed did not"
+          [ "$ok" -gt 0 ]
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arm-windows-x64-${{ matrix.os }}-screenshots
+          path: ${{ runner.temp }}/shots/*.png
+          retention-days: 3
+          if-no-files-found: ignore
