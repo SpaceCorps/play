@@ -55,17 +55,17 @@ Base : Wraith, avec 100 % de sa coque et 300 % de ses dégâts laser ; la vi
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Coque | 324 000 | 486 000 | 648 000 |
+| Coque | 256 000 | 384 000 | 512 000 |
 | Bouclier | 83 400 | 125 100 | 166 800 |
-| Dégâts des lasers (une salve par seconde) | 2 880 | 4 320 | 5 760 |
-| Vitesse | 220 | 220 | 220 |
+| Dégâts des lasers (une salve par seconde) | 3 120 | 4 680 | 6 240 |
+| Vitesse | 210 | 210 | 210 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 7 500 | 11 250 | 15 000 |
-| Crédits | 200 000 | 400 000 | 600 000 |
-| Thulium | 535 | 1 070 | 1 605 |
-| Expérience (XP) | 32 100 | 64 200 | 96 300 |
-| Honneur | 139 | 278 | 417 |
+| Crédits | 185 000 | 370 000 | 555 000 |
+| Thulium | 485 | 970 | 1 455 |
+| Expérience (XP) | 29 200 | 58 400 | 87 600 |
+| Honneur | 127 | 254 | 381 |
 | Points PvE par élimination | 25 | 25 | 25 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.
@@ -84,15 +84,15 @@ Base : Paragon, avec 100 % de sa coque et 600 % de ses dégâts laser ; la v
 | :--- | ---: | ---: | ---: |
 | Coque | 128 000 | 192 000 | 256 000 |
 | Bouclier | 64 570 | 96 855 | 129 140 |
-| Dégâts des lasers (une salve par seconde) | 3 840 | 5 760 | 7 680 |
-| Vitesse | 210 | 210 | 210 |
+| Dégâts des lasers (une salve par seconde) | 4 320 | 6 480 | 8 640 |
+| Vitesse | 230 | 230 | 230 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 5 000 | 7 500 | 10 000 |
-| Crédits | 95 000 | 190 000 | 285 000 |
-| Thulium | 255 | 510 | 765 |
-| Expérience (XP) | 15 200 | 30 400 | 45 600 |
-| Honneur | 66 | 132 | 198 |
+| Crédits | 105 000 | 210 000 | 315 000 |
+| Thulium | 275 | 550 | 825 |
+| Expérience (XP) | 16 600 | 33 200 | 49 800 |
+| Honneur | 72 | 144 | 216 |
 | Points PvE par élimination | 11 | 11 | 11 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.

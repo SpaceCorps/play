@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Succès -->
 # Succès {#achievements}
 
@@ -69,7 +69,7 @@ Les 37 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Bâtisseur de station | Construisez 5 modules différents du Skylab. | Commun |
 | Pleinement équipé | Construisez les 16 modules du Skylab. | Épique |
 | Érudit | Recherchez 50 technologies. | Peu commun |
-| Archiviste | Recherchez les 158 technologies. | Légendaire |
+| Archiviste | Recherchez les 159 technologies. | Légendaire |
 
 ### Flotte {#group-fleet}
 

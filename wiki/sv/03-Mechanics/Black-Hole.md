@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
@@ -17,7 +17,7 @@ Avstånden räknas från sektorns mitt, i kartenheter. Sektorn är 32 000 gång
 | :--- | ---: | :--- |
 | **Strålning** | 4 000 | Ditt skepp tar skada varje sekund, en andel av dess totala maximala HP. Ju närmare, desto mer. |
 | **Dragning** | 3 000 | Det svarta hålet drar ditt skepp mot mitten, hårdare ju närmare du är. Ett skepp som inte flyger förs med. |
-| **Punkt utan återvändo** | ungefär 1 000 till 2 600 | Där dragningen är lika stark som ditt skepps fart. Innanför den dras du in, även med full kraft. Den beror på din fart. |
+| **Punkt utan återvändo** | ungefär 900 till 2 500 | Där dragningen är lika stark som ditt skepps fart. Innanför den dras du in, även med full kraft. Den beror på din fart. |
 | **Händelsehorisont** | 300 | Varje skepp som når den förstörs på stört, oavsett skrov och sköld. |
 
 Farosektor 4:s portaler och lederna mellan dem ligger alla långt utanför strålningen, så du råkar aldrig in i den på vägen igenom. Från säsongsdag 11 rymmer samma sektor också [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), i sitt övre vänstra hörn, långt från hålet; utomjordingarna där kommer aldrig in i hålets ringar. Säsongens sista dagar är undantaget: se [Tillväxt före återställningen](#growing-before-the-wipe).
@@ -60,11 +60,11 @@ Mellan två rader ökar skadan längs en rät linje. I träffpoäng per sekund, 
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30 000 | 165 | 240 | 600 | 1 500 | 3 300 |
 | Kitefin | 46 000 | 253 | 368 | 920 | 2 300 | 5 060 |
-| Ostirion | 82 500 | 454 | 660 | 1 650 | 4 125 | 9 075 |
-| Nomad | 130 500 | 718 | 1 044 | 2 610 | 6 525 | 14 355 |
+| Ostirion | 98 500 | 542 | 788 | 1 970 | 4 925 | 10 835 |
+| Nomad | 145 500 | 800 | 1 164 | 2 910 | 7 275 | 16 005 |
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 198 000 | 1 089 | 1 584 | 3 960 | 9 900 | 21 780 |
-| Wraith | 372 000 | 2 046 | 2 976 | 7 440 | 18 600 | 40 920 |
+| Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
+| Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
 | Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
 
 - **Skölden tar skadan först**, sedan skrovet. Det är ingen träff: sköldens absorption kommer inte in i bilden, och strålningen går inte att väja undan.
@@ -97,20 +97,20 @@ Din **punkt utan återvändo** är avståndet där dragningen är lika stark som
 
 | Skepp (grundutrustning) | Fart | Punkt utan återvändo |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1 974 |
-| Protos | 165 | 1 577 |
-| Kitefin | 184 | 1 480 |
-| Ostirion | 208 | 1 362 |
-| Nomad | 211 | 1 347 |
-| Paragon | 222 | 1 287 |
-| Wraith | 233 | 1 208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1 826 |
+| Protos | 188 | 1 462 |
+| Kitefin | 202 | 1 388 |
+| Nomad | 221 | 1 294 |
+| Wraith | 223 | 1 281 |
+| Ostirion | 231 | 1 220 |
+| Paragon | 242 | 1 141 |
+| Storm | 273 | 924 |
 
 En skeppsdesign ändrar farten hos sitt skepp, och därmed dess punkt utan återvändo: en DUMA är långsammare än en Ironclad, en NOTSUM snabbare än en Storm.
 
 Ett skepp som är snabbare än 272 enheter i sekunden (en utrustning byggd för fart, eller en Wraith med grundutrustning och en pågående Afterburner) har sin punkt utan återvändo kvar där den alltid låg: vid fart 300 är den 885, vid 432 är den 747.
 
-Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 39,1, med punkten utan återvändo vid ungefär 2 600). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (femton sekunder med en motor, 22,5 med två, trettio med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 577 till 1 225 och för en Wraith med grundutrustning från 1 208 till 851). Ingenting tar sig ut inifrån ungefär 440 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,46); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 477.
+Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 46,8, med punkten utan återvändo vid ungefär 2 500). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (femton sekunder med en motor, 22,5 med två, trettio med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 462 till 994 och för en Wraith med grundutrustning från 1 281 till 869). Ingenting tar sig ut inifrån ungefär 440 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,46); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 475.
 
 Fallet från punkten utan återvändo börjar långsamt: ett skepp som ligger några enheter innanför den dras in på tjugo sekunder eller mer, även med full kraft, och sedan allt snabbare. Dragningen är ingen flygning: den räknas inte som flugen sträcka.
 
@@ -161,4 +161,4 @@ Hålet ger tillbaka **Dark Matter** för en **N.I.K.E.**-raket som når det. En 
 - **Hur många.** En karta rymmer högst 32 lådor med Dark Matter; en ny knuffar ut den äldsta av dem, och aldrig någon annan sorts låda. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) lägger inget till Dark Matter.
 - **Vad du ser.** När en N.I.K.E. korsar horisonten sträcks den ut in i hålet, rymden krusar sig ut från där den gick in, och skivan och fotonringen blossar upp i ungefär en och en halv sekund (en tredjedel av det, med hälften av ljuset, under **Minska rörelser**). Ett ögonblick senare kommer lådorna ut ur hålet och driver till sina platser vid randen: var och en är ett violettsvart klot med en ljus kant och gnistor, lätt att se på långt håll, och med titeln **Dark Matter** när du håller pekaren över den. Dina visar sekunderna du har kvar över dem, och syns på minikartan som ett litet violett märke, liksom för din klan; andra piloters lådor syns på minikartan först när deras minut är slut.
 - **Vad du hör.** Hålet ger ifrån sig ett mjukt, lågt ljud när det gör Dark Matter: först ett andetag som dras in, sedan två kalla klockton när den första lådan kommer ut. Du hör det för dina egna N.I.K.E.-raketer var du än är på kartan, och för en annan pilots när dess lådor kommer ut inom 3 200 enheter från ditt skepp, svagare ju längre bort de är. Hur många N.I.K.E.-raketer som än flyger låter det högst en gång på tre sekunder, och det följer volymen för **Ljudeffekter**.
-- **Vad den är till för.** Monteringen pressar 5 Dark Matter med en Velkonite Reinforced Plate och en Orvium Reinforced Plate till en **Dark Matter Plate**, och [Smedjan](/wiki/06-Items/Forge.md) kräver två av dem för att höja ett föremål från Gudomlig till Rämnande och igen från Rämnande till Evig: tio Dark Matter per steg. Sista nivån i varje uppgraderingskedja kräver 4 plattor, 20 Dark Matter per del, och minst en Ancient Control Unit: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. Skylabs [forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter) behöver också Dark Matter: 10 för var och en av de 16 teknologierna högst upp i trädet, 160 sammanlagt, tillagda i centret innan forskningen börjar. Drönarformationerna kräver också Dark Matter, 5, 13 eller 20 efter styrka: 189 till, 349 sammanlagt. De två forskningarna för Hull Plating kräver 65 till, och skeppsdesignerna och pansarplatserna 490 ([Forskning](/wiki/03-Mechanics/Research.md#ship-technologies)). Nivåerna i Skylabs motor-, försvars- och radarmodul kräver 115 till ([Forskning](/wiki/03-Mechanics/Research.md#module-technologies)). En Helios Beam med sina tre Amp av nivå IV rymmer 80 Dark Matter, och en Wraith som bara bär delar av sista nivån 1 200 ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **Vad den är till för.** Monteringen pressar 5 Dark Matter med en Velkonite Reinforced Plate och en Orvium Reinforced Plate till en **Dark Matter Plate**, och [Smedjan](/wiki/06-Items/Forge.md) kräver två av dem för att höja ett föremål från Gudomlig till Rämnande och igen från Rämnande till Evig: tio Dark Matter per steg. Sista nivån i varje uppgraderingskedja kräver 4 plattor, 20 Dark Matter per del, och minst en Ancient Control Unit: Amp, sköldceller och styrraketer av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. Skylabs [forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter) behöver också Dark Matter: 10 för var och en av de 16 teknologierna högst upp i trädet, 160 sammanlagt, tillagda i centret innan forskningen börjar. Drönarformationerna kräver också Dark Matter, 5, 13 eller 20 efter styrka: 189 till, 349 sammanlagt. De två forskningarna för Hull Plating kräver 65 till, och skeppsdesignerna och pansarplatserna 490 ([Forskning](/wiki/03-Mechanics/Research.md#ship-technologies)). Nivåerna i Skylabs motor-, försvars- och radarmodul kräver 115 till ([Forskning](/wiki/03-Mechanics/Research.md#module-technologies)). En Helios Beam med sina tre Amp av nivå IV rymmer 80 Dark Matter, och en Wraith som bara bär delar av sista nivån 1 280 ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

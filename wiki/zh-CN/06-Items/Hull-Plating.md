@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -45,7 +45,7 @@ Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一�
 | **Paragon** | 5 | 75,000 |
 | **Storm** | 7 | 105,000 |
 | **Ironclad** | 15 | 225,000 |
-| **Wraith** | 9 | 135,000 |
+| **Wraith** | 10 | 150,000 |
 
 - **起初全部锁定。** 槽位要在 Skylab 里研究后才会开启：每个槽位一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次进行。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)视图把一艘舰船的槽位显示为一张卡片，每个槽位一个圆点。
 - **按舰船种类，而不是按单艘舰船。** 你为 Paragon 开启的槽位，在 Paragon 的每一种设计上也是开启的（[舰船设计](/wiki/03-Mechanics/Ship-Designs.md)）。科技永远属于你：重置也会保留。

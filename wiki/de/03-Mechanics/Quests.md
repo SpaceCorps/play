@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -278,7 +278,7 @@ Hast du eine der 64 **erledigt**, machst du auch die neue Fassung. Beim ersten F
 In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch sterben. Plane deine Ausrüstung dafür:
 
 - **PvP**: Piloten anderer Konzerne können dich in `x-4` und im Zentrum angreifen, in jeder Welt, in Beta ab `x-2` aufwärts und in Gamma überall (außer in Schutzzonen und während des Friedensprotokolls). Die Ringtore bringen auch Piloten anderer Konzerne in dein `x-3`: In Beta und Gamma kann dich dort einer zerstören, während du einen Gegenstand trägst. Beta und Gamma kennen kein Friedensprotokoll: Dort ist PvP ab Tag 1 aktiv.
-- **Bulwarks** (`x-3`, `x-4`) sind schneller als eine Protos und schlagen hart zu. Bekämpfe sie von einer [Ostirion](/wiki/02-Ships/Ostirion.md) aus, nahe der Schutzzone eines Tors, und zieh dich zum Reparieren in sie zurück.
+- **Bulwarks** (`x-3`, `x-4`) halten fast mit einer Protos mit und schlagen hart zu. Bekämpfe sie von einer [Ostirion](/wiki/02-Ships/Ostirion.md) aus, nahe der Schutzzone eines Tors, und zieh dich zum Reparieren in sie zurück.
 - **Goombahs** (`x-3`, `x-4`) haben eine Reichweite von 800, richten 3.000 Schaden an und beginnen nie einen Kampf: Lässt du einen in Ruhe, lässt er dich in Ruhe; schießt du auf ihn, wendet er sich gegen dich, bis 10 Sekunden nach deinem letzten Treffer (und er repariert sich, wenn man ihn in Ruhe lässt). Ein Schiff, dessen Laser alle [Starfire-III](/wiki/06-Items/Lasers.md) sind (Reichweite 850), hat mehr Reichweite als sie und die Bulwarks gleichermaßen: Mit einem Schiff, das schneller ist als sie (eine Ostirion oder höher; ein Goombah fliegt 180, ein Bulwark 175), kannst du feuern, ohne getroffen zu werden. Die Reichweite deines Schiffs ist der Durchschnitt der Reichweiten seiner Laser, ein Starfire-III neben zwei Quantum Laser II feuert also aus 750: weit genug, um einem Bulwark (700) fernzubleiben, nicht aber einem Goombah (800). Die Spezialmission von Level 5 gibt dir einen; du kannst einen auch in der Montage herstellen, aus Velkonite Reinforced Plates, die die Schmiede deines [Skylab](/wiki/03-Mechanics/Skylab.md) herstellt.
 - **Crystalys** streifen an der Grenze (`x-4`) umher. Nichts, was auf Level 8 erreichbar ist, hat mehr Reichweite als einer, und nur ein schnelles Schiff ist schneller als er: Halte Abstand und behalte die Minikarte im Auge.
 - Wirst du zerstört, wählst du, wo du zurückkehrst: an deiner Basis, am nächsten Portal oder an Ort und Stelle, was ein Gefahrensektor nicht anbietet (siehe [Zerstörung und Rückkehr](/wiki/01-General/Getting-Started.md)). Die Uhr einer zeitgebundenen Mission läuft derweil weiter, ein getragener Gegenstand ist verloren, und eine Regel „nicht sterben“ bricht.

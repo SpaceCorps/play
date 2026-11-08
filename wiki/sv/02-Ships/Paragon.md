@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 056d221c8d10db60 -->
+<!-- wiki-i18n source: 778c5b5caba86532 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ Paragon är en tung stridskryssare med balanserat försvar och balanserad eldkra
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 128 000
-- **Grundhastighet**: 210
-- **Laserplatser**: 8
+- **Grundhastighet**: 230
+- **Laserplatser**: 9
 - **Extraplatser**: 3
 - **Pansarplatser**: 5
 

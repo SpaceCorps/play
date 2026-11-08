@@ -4,11 +4,11 @@ The Wraith is the ultimate battleship-class vessel, boasting unmatched firepower
 
 ## Stats
 
-- **Hitpoints (HP)**: 324,000
-- **Base Speed**: 220
-- **Laser Slots**: 12
+- **Hitpoints (HP)**: 256,000
+- **Base Speed**: 210
+- **Laser Slots**: 13
 - **Extra Slots**: 3
-- **Hull Plate Slots**: 9
+- **Hull Plate Slots**: 10
 
 ### Generator & Support Slots
 
@@ -25,16 +25,16 @@ The Wraith is the ultimate battleship-class vessel, boasting unmatched firepower
 
 ## Research
 
-- **Hull plate slots.** The Wraith has 9 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Wraith and on every one of its designs. All 9 filled with Hull Plating III add 135,000 hull.
+- **Hull plate slots.** The Wraith has 10 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Wraith and on every one of its designs. All 10 filled with Hull Plating III add 150,000 hull.
 - **Designs.** The Wraith has 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Research one (10 h and 10 Dark Matter), then convert your Wraith into it in Assembly: the change cannot be undone.
 
 | Design | What it changes |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom |
-| **Wraith BILLY** | +5% base hull, +10 base speed, +10% shields, Diminisher |
+| **Wraith BILLY** | +5% base hull, +10% shields, Diminisher |
 | **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod |
-| **Wraith ATARAXIS** | -1 laser slot, +25% shields, +10% shield absorption, Shield Buff |
-| **Wraith MATT** | -10% base hull, +2 laser slots, -20% shields, +10% laser penetration |
+| **Wraith ATARAXIS** | -1 laser slot, +1 support slot, +25% shields, +10% shield absorption, Shield Buff |
+| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

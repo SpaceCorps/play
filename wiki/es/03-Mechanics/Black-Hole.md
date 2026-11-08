@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: Agujero negro -->
 # El agujero negro {#the-black-hole}
 
@@ -17,7 +17,7 @@ Las distancias se miden desde el centro del sector, en unidades del mapa. El sec
 | :--- | ---: | :--- |
 | **Radiación** | 4.000 | Tu nave recibe daño cada segundo, una parte de sus HP máximos totales. Cuanto más cerca, más. |
 | **Atracción** | 3.000 | El agujero negro atrae tu nave hacia el centro, con más fuerza cuanto más cerca estás. Una nave que no vuela es arrastrada. |
-| **Punto de no retorno** | de unos 1.000 a 2.600 | Donde la atracción iguala la velocidad de tu nave. Dentro de él, ni a toda potencia puedes evitar que te arrastre. Depende de tu velocidad. |
+| **Punto de no retorno** | de unos 900 a 2.500 | Donde la atracción iguala la velocidad de tu nave. Dentro de él, ni a toda potencia puedes evitar que te arrastre. Depende de tu velocidad. |
 | **Horizonte de sucesos** | 300 | Toda nave que lo alcanza es destruida al instante, sean cuales sean su casco y su escudo. |
 
 Los portales del sector de peligro 4 y las rutas entre ellos pasan todos muy por fuera de la radiación, así que nunca te la encuentras por accidente al cruzar. Desde el día 11 de la temporada el mismo sector contiene además el [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), en su esquina superior izquierda, lejos del agujero; los alienígenas de allí nunca entran en los anillos del agujero. Los últimos días de una temporada son la excepción: consulta [Crecimiento antes del reinicio](#growing-before-the-wipe).
@@ -60,11 +60,11 @@ Entre dos filas el daño sube en línea recta. En puntos de vida por segundo, pa
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
 | Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
-| Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
+| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
+| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
-| Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
+| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
+| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
 - El **escudo lo absorbe primero**, luego el casco. No es un impacto: la absorción del escudo no interviene y no se puede esquivar.
@@ -97,20 +97,20 @@ Tu **punto de no retorno** es la distancia en la que la atracción iguala tu vel
 
 | Nave (configuración de serie) | Velocidad | Punto de no retorno |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1.974 |
-| Protos | 165 | 1.577 |
-| Kitefin | 184 | 1.480 |
-| Ostirion | 208 | 1.362 |
-| Nomad | 211 | 1.347 |
-| Paragon | 222 | 1.287 |
-| Wraith | 233 | 1.208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1.826 |
+| Protos | 188 | 1.462 |
+| Kitefin | 202 | 1.388 |
+| Nomad | 221 | 1.294 |
+| Wraith | 223 | 1.281 |
+| Ostirion | 231 | 1.220 |
+| Paragon | 242 | 1.141 |
+| Storm | 273 | 924 |
 
 Un diseño de nave cambia la velocidad de su nave, y con ella su punto de no retorno: una DUMA es más lenta que una Ironclad, una NOTSUM más rápida que una Storm.
 
 Una nave más rápida que 272 unidades por segundo (una configuración de corredor, o una Wraith de serie con un Afterburner en marcha) tiene su punto de no retorno donde siempre estuvo: a velocidad 300 es 885, a 432 es 747.
 
-Si optimizas la nave para la velocidad, puedes salir desde más adentro; si te cargas de escudos pesados, no (una Ironclad, la nave más lenta, con un Heavy Shield Core en cada una de sus 14 ranuras vuela a 39,1, con su punto de no retorno en unos 2.600). Solo una ráfaga de velocidad devuelve a una nave desde justo dentro de su punto de no retorno: cuenta un [Afterburner](/wiki/03-Mechanics/Abilities.md) en marcha, y desplaza el punto de no retorno más adentro mientras dura (quince segundos con un motor, 22,5 con dos, treinta con tres; el Afterburner III lleva el de una Protos de serie de 1.577 a 1.225 y el de una Wraith de serie de 1.208 a 851). Nada puede salir desde menos de unas 440 unidades, ni siquiera una nave construida para la velocidad con todas las estadísticas de velocidad encantadas al máximo y la ráfaga más potente en marcha (un Afterburner III encantado hasta el límite, x1,46); una nave sin encantar construida para la velocidad (Engine III y Adaptive Core III con tres Impulse Thruster IV cada uno), con un Afterburner III, sale desde fuera de 477 en el mejor de los casos.
+Si optimizas la nave para la velocidad, puedes salir desde más adentro; si te cargas de escudos pesados, no (una Ironclad, la nave más lenta, con un Heavy Shield Core en cada una de sus 14 ranuras vuela a 46,8, con su punto de no retorno en unos 2.500). Solo una ráfaga de velocidad devuelve a una nave desde justo dentro de su punto de no retorno: cuenta un [Afterburner](/wiki/03-Mechanics/Abilities.md) en marcha, y desplaza el punto de no retorno más adentro mientras dura (quince segundos con un motor, 22,5 con dos, treinta con tres; el Afterburner III lleva el de una Protos de serie de 1.462 a 994 y el de una Wraith de serie de 1.281 a 869). Nada puede salir desde menos de unas 440 unidades, ni siquiera una nave construida para la velocidad con todas las estadísticas de velocidad encantadas al máximo y la ráfaga más potente en marcha (un Afterburner III encantado hasta el límite, x1,46); una nave sin encantar construida para la velocidad (Engine III y Adaptive Core III con tres Impulse Thruster IV cada uno), con un Afterburner III, sale desde fuera de 475 en el mejor de los casos.
 
 La caída desde el punto de no retorno empieza despacio: una nave a unas pocas unidades por dentro, a toda potencia, es arrastrada durante veinte segundos o más, y luego cada vez más rápido. La atracción no es vuelo: no cuenta para la distancia recorrida.
 
@@ -161,4 +161,4 @@ El agujero devuelve **Dark Matter** por un cohete **N.I.K.E.** que lo alcanza. U
 - **Cuántas.** Un mapa admite como máximo 32 cajas de Dark Matter; una nueva desplaza a la más antigua de ellas, y nunca a otro tipo de caja. El [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) no suma nada al Dark Matter.
 - **Lo que ves.** Cuando una N.I.K.E. cruza el horizonte, es estirada hacia el agujero, el espacio ondula desde donde entró, y el disco y el anillo de fotones destellan durante aproximadamente un segundo y medio (una tercera parte de eso, con la mitad de luz, con **Reducir movimiento**). Un momento después las cajas salen del agujero y derivan hasta sus lugares en el borde: cada una es una esfera de color negro violáceo con un borde brillante y destellos, fácil de ver desde lejos, y se titula **Dark Matter** cuando pasas el cursor por ella. Las tuyas muestran encima los segundos que te quedan, y aparecen en el minimapa como una pequeña marca violeta, igual que para tu clan; las cajas de otros pilotos aparecen en el minimapa solo cuando termina su minuto.
 - **Lo que oyes.** El agujero hace un sonido suave y grave cuando crea Dark Matter: primero una respiración que se aspira y después dos notas de campana frías cuando sale la primera caja. Lo oyes por tus propias N.I.K.E. estés donde estés en el mapa, y por las de otro piloto cuando sus cajas salen a 3.200 unidades o menos de tu nave, más débil cuanto más lejos están. Por muchas N.I.K.E. que vuelen, suena como máximo una vez cada tres segundos y sigue el volumen de **Efectos de sonido**.
-- **Para qué sirve.** El Ensamblaje combina 5 Dark Matter con una Velkonite Reinforced Plate y una Orvium Reinforced Plate para obtener una **Dark Matter Plate**, y [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) pide dos de ellas para subir un objeto de Divino a Rompedor y de nuevo de Rompedor a Eterno: diez Dark Matter por paso. El último nivel de cada cadena de mejora pide 4 plates, 20 Dark Matter por pieza, y al menos una Ancient Control Unit: los amps, las células de escudo y los propulsores del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. El [Centro de investigación](/wiki/03-Mechanics/Research.md#dark-matter) del Skylab también necesita Dark Matter: 10 por cada una de las 16 tecnologías de lo más alto de su árbol, 160 en total, añadidos al Centro antes de que empiece la investigación. Las formaciones de drones también la piden, 5, 13 o 20 según su fuerza: 189 más, 349 en total. Las dos investigaciones del Hull Plating piden 65 más, y los diseños de naves y las ranuras de blindaje 490 ([Investigación](/wiki/03-Mechanics/Research.md#ship-technologies)). Los niveles de los módulos de motores, de defensa y de radar del Skylab piden 115 más ([Investigación](/wiki/03-Mechanics/Research.md#module-technologies)). Un Helios Beam con sus tres amps del nivel IV contiene 80 Dark Matter, y un Wraith que lleva solo piezas del último nivel, 1.200 ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **Para qué sirve.** El Ensamblaje combina 5 Dark Matter con una Velkonite Reinforced Plate y una Orvium Reinforced Plate para obtener una **Dark Matter Plate**, y [la Forja de Ensamblaje](/wiki/06-Items/Forge.md) pide dos de ellas para subir un objeto de Divino a Rompedor y de nuevo de Rompedor a Eterno: diez Dark Matter por paso. El último nivel de cada cadena de mejora pide 4 plates, 20 Dark Matter por pieza, y al menos una Ancient Control Unit: los amps, las células de escudo y los propulsores del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. El [Centro de investigación](/wiki/03-Mechanics/Research.md#dark-matter) del Skylab también necesita Dark Matter: 10 por cada una de las 16 tecnologías de lo más alto de su árbol, 160 en total, añadidos al Centro antes de que empiece la investigación. Las formaciones de drones también la piden, 5, 13 o 20 según su fuerza: 189 más, 349 en total. Las dos investigaciones del Hull Plating piden 65 más, y los diseños de naves y las ranuras de blindaje 490 ([Investigación](/wiki/03-Mechanics/Research.md#ship-technologies)). Los niveles de los módulos de motores, de defensa y de radar del Skylab piden 115 más ([Investigación](/wiki/03-Mechanics/Research.md#module-technologies)). Un Helios Beam con sus tres amps del nivel IV contiene 80 Dark Matter, y un Wraith que lleva solo piezas del último nivel, 1.280 ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

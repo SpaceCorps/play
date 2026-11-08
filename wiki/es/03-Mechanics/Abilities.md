@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49ab4e31b6a7b8a0 -->
+<!-- wiki-i18n source: fdf67ad887f06846 -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades activas de la nave {#active-ship-abilities}
 
@@ -58,24 +58,24 @@ Repara una parte de tu **casco máx. de manera uniforme durante diez segundos**,
 
 ## Habilidades de nave {#ship-abilities}
 
-Ocho de los trece [diseños de nave](/wiki/03-Mechanics/Ship-Designs.md) traen una habilidad que pertenece al diseño, no a un objeto. No ocupa **ninguna ranura de habilidad** ni necesita nada equipado: está ahí mientras pilotes el diseño. Tiene un botón propio, el cuarto de la columna de la barra rápida, y su tecla es `F` (se puede cambiar en Configuración). Tiene su propia recarga, que se conserva como las demás: cambiar de configuración, saltar y desconectarte no la reinician, y una nave destruida empieza el siguiente vuelo con todas las habilidades listas.
+Nueve de los trece [diseños de nave](/wiki/03-Mechanics/Ship-Designs.md) traen una habilidad que pertenece al diseño, no a un objeto. No ocupa **ninguna ranura de habilidad** ni necesita nada equipado: está ahí mientras pilotes el diseño. Tiene un botón propio, el cuarto de la columna de la barra rápida, y su tecla es `F` (se puede cambiar en Configuración). Tiene su propia recarga, que se conserva como las demás: cambiar de configuración, saltar y desconectarte no la reinician, y una nave destruida empieza el siguiente vuelo con todas las habilidades listas.
 
 | Habilidad | Diseño | Qué hace | Duración | Recarga |
 | :--- | :--- | :--- | ---: | ---: |
-| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocidad 2.500 (TITANIC: 1.500) hacia tu orden de movimiento | 1 s | 120 s |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocidad 2.500 hacia tu orden de movimiento | 1 s | 120 s |
 | **Chameleon** | Storm RECON | Invisible para todos los demás pilotos, también en el minimapa | hasta que se rompe | 60 s |
 | **Focus Fire** | Ironclad DUMA | Las naves enemigas a menos de 1.000 unidades se ven obligadas a atacarte | 5 s | 60 s |
-| **Venom** | Wraith RAPTOR | 100.000 de daño directo al casco de un objetivo | 30 s | 120 s |
+| **Venom** | Wraith RAPTOR | 125.000 de daño directo al casco de un objetivo | 30 s | 120 s |
 | **Diminisher** | Wraith BILLY | Recibes un 75 % menos de daño y haces un 25 % menos | 10 s | 120 s |
-| **Heal Pod** | Wraith MENATI | Una cápsula cura a las naves aliadas a menos de 600 unidades 10.000 + 1 % de su casco máximo por segundo | 5 s | 120 s |
+| **Heal Pod** | Storm BRATAN, Wraith MENATI | Una cápsula cura a las naves aliadas a menos de 600 unidades 20.000 + 2 % de su casco máximo por segundo | 5 s | 120 s |
 | **Shield Buff** | Wraith ATARAXIS | Tu capacidad de escudo se duplica y regenera un 2 % de su máximo por segundo | 10 s | 120 s |
 
-- **Blink.** Durante 1 segundo tu velocidad es 2.500 (la de un TITANIC está limitada a 1.500), hacia tu orden de movimiento. Te detienes donde termina la orden, y el borde del mapa también te detiene. Después descansa 120 segundos.
+- **Blink.** Durante 1 segundo tu velocidad es 2.500, hacia tu orden de movimiento. Te detienes donde termina la orden, y el borde del mapa también te detiene. Después descansa 120 segundos.
 - **Chameleon.** Desapareces: ningún otro piloto te ve, ni en el mapa ni en el minimapa, y nadie puede fijarte como objetivo. Tu propia corporación te sigue viendo, como un fantasma. Un EMP no puede romperlo. Termina cuando recibes cualquier daño, disparas una ráfaga de láser, lanzas un cohete, recoges una caja o entras en una zona segura, o cuando vuelves a pulsar el botón; sus 60 segundos empiezan cuando termina, termine como termine. No puedes activarlo en los 10 segundos siguientes a un disparo o un impacto, ni dentro del anillo de una zona segura, ni mientras haya un Cloaking CPU activo.
 - **Focus Fire.** Durante 5 segundos, todo piloto enemigo y todo alienígena a menos de 1.000 unidades se ve obligado a atacarte: la fijación de un piloto se pone sobre ti y no se puede cambiar, y un alienígena se vuelve contra ti. Los pilotos de tu grupo y de tu corporación, las naves protegidas por una zona segura y las naves camufladas quedan fuera, y se rechaza dentro de una zona segura o sin ningún enemigo al alcance. Los obligados pueden seguir volando adonde quieran.
-- **Venom.** Fija un objetivo al alcance de tus láseres y pulsa: 100.000 de daño van directos a su casco a lo largo de 30 segundos, por igual, y su escudo no se lleva ninguna parte. Funciona igual con pilotos de otras corporaciones y con alienígenas, no con tu grupo ni tu corporación, no con una nave que protege una zona segura y no donde se rechaza una fijación con láser (el Protocolo de paz, un sector sin PvP). Una nave lleva un Venom a la vez. Cada tic cuenta como un impacto, así que el objetivo no puede esconderse en una zona segura hasta que termine. La reparación, un Heal Pod y un Diminisher sobre el objetivo lo reducen, termina cuando muere el objetivo o tú, y la baja y sus puntos son tuyos.
+- **Venom.** Fija un objetivo al alcance de tus láseres y pulsa: 125.000 de daño van directos a su casco a lo largo de 30 segundos, por igual, y su escudo no se lleva ninguna parte. Funciona igual con pilotos de otras corporaciones y con alienígenas, no con tu grupo ni tu corporación, no con una nave que protege una zona segura y no donde se rechaza una fijación con láser (el Protocolo de paz, un sector sin PvP). Una nave lleva un Venom a la vez. Cada tic cuenta como un impacto, así que el objetivo no puede esconderse en una zona segura hasta que termine. La reparación, un Heal Pod y un Diminisher sobre el objetivo lo reducen, termina cuando muere el objetivo o tú, y la baja y sus puntos son tuyos.
 - **Diminisher.** Durante 10 segundos, cada impacto que recibes se reduce a la cuarta parte antes de que tu escudo se lleve su parte, de modo que escudo y casco pierden un cuarto, y cada impacto que haces se reduce a tres cuartos: láseres, cohetes directos y explosiones. Una segunda pulsación no hace nada mientras está en marcha.
-- **Heal Pod.** Cae una cápsula donde estás y se queda 5 segundos. Cada segundo cura a toda nave aliada a menos de 600 unidades 10.000 más el 1 % del casco máximo de esa nave: a ti, a tu grupo y a tu corporación, a nadie más, y nunca por encima del máximo. Nada puede fijar la cápsula ni dispararle, y sigue curando si mueres.
+- **Heal Pod.** Cae una cápsula donde estás y se queda 5 segundos. Cada segundo cura a toda nave aliada a menos de 600 unidades 20.000 más el 2 % del casco máximo de esa nave: a ti, a tu grupo y a tu corporación, a nadie más, y nunca por encima del máximo. Nada puede fijar la cápsula ni dispararle, y sigue curando si mueres.
 - **Shield Buff.** Durante 10 segundos tu capacidad de escudo se duplica, con el escudo que tienes duplicado también, y el escudo regenera un 2 % del máximo duplicado cada segundo. Al terminar, la capacidad vuelve a la normal y el escudo con ella, conservando su proporción, así que nunca te cura: es espacio para aguantar golpes. Se rechaza en una nave sin escudo.
 
 Un **EMP** que estalla cerca de ti bloquea el botón durante 5 segundos: se rechaza la pulsación y no empieza ninguna recarga. Una habilidad que ya está en marcha sigue, y un Chameleon sigue oculto. Los demás pilotos también ven estas habilidades: una estela detrás de un Blink, un anillo rojo y líneas hacia las naves que obliga un Focus Fire, un Chameleon solo como fantasma para su propia corporación.

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 20bfc0d7e85779c5 -->
+<!-- wiki-i18n source: f7bdf2e998ae581b -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; conversão; converter; design de nave -->
 
-Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Oito dos treze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
+Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Nove dos treze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
 
 ## Os treze designs {#the-thirteen-designs}
 
@@ -12,19 +12,19 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 
 | Design | O que muda | Casco | Velocidade base | Slots de laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% de casco base, +40 de velocidade base, +1 slot de laser | 96.000 | 250 | 9 |
-| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, -1 slot de laser, +10% de absorção de escudo, +20% de tamanho do modelo | 160.000 | 190 | 7 |
-| **Paragon LICH** | +1% de regeneração de escudo por segundo | 128.000 | 210 | 8 |
-| **Storm NOTSUM** | -20% de casco base, +20 de velocidade base, +2% de velocidade, Blink | 120.000 | 270 | 13 |
-| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -50% de capacidade de escudo, +10% de penetração de escudo | 150.000 | 200 | 15 |
-| **Storm RECON** | -20% de casco base, +5% de velocidade, -2 slots de laser, Chameleon | 120.000 | 250 | 11 |
-| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 720.000 | 72 | 3 |
-| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink (velocidade limitada a 1.500) | 600.000 | 92 | 8 |
-| **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 324.000 | 220 | 13 |
-| **Wraith BILLY** | +5% de casco base, +10 de velocidade base, +10% de capacidade de escudo, Diminisher | 340.200 | 230 | 12 |
-| **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 388.800 | 240 | 12 |
-| **Wraith ATARAXIS** | -1 slot de laser, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff | 324.000 | 220 | 11 |
-| **Wraith MATT** | -10% de casco base, +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser | 291.600 | 220 | 14 |
+| **Paragon THUNDER** | -25% de casco base, +40 de velocidade base, +1 slot de laser | 96.000 | 270 | 10 |
+| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, -1 slot de laser, +10% de absorção de escudo, +20% de tamanho do modelo | 160.000 | 210 | 8 |
+| **Paragon LICH** | +1% de regeneração de escudo por segundo | 128.000 | 230 | 9 |
+| **Storm NOTSUM** | -10% de casco base, +50 de velocidade base, +2% de velocidade, Blink | 162.000 | 310 | 14 |
+| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -25% de capacidade de escudo, +10% de penetração de escudo, Heal Pod | 180.000 | 210 | 16 |
+| **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon | 144.000 | 260 | 13 |
+| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 720.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink | 600.000 | 110 | 10 |
+| **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser | 256.000 | 210 | 15 |
 
 ## Conseguir um design {#getting-a-design}
 
@@ -37,16 +37,16 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 | **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100.000 | 15 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 20 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100.000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100.000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
-| **Wraith ATARAXIS** | 100.000 | 30 | 375 | 65 | 20 | 3 |
-| **Wraith MATT** | 100.000 | 20 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
 
 A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDER, o BUCKY ou o LICH), e ela não pode ser a nave que você está pilotando: torne outra nave ativa antes. Uma nave destruída não pode ser convertida.
 
@@ -60,10 +60,10 @@ A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDE
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
 | **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
-| **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
-| **As quatro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
+| **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
+| **As quatro** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Juntas, elas pedem 490 Dark Matter, além dos 749 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.354 para todas as tecnologias do jogo.
+Juntas, elas pedem 500 Dark Matter, além dos 749 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.364 para todas as tecnologias do jogo.
 
 ## O que acontece com a sua nave {#what-happens-to-your-ship}
 

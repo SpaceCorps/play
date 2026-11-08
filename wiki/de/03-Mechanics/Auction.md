@@ -179,6 +179,7 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Zu Beginn jeder UTC-Stunde öffnen 3 neue Lose, jedes mit anderer Ware, und jedes bleibt 4 Stunden offen, sodass 12 gleichzeitig offen sind.
+- Jede Welt hat ihre eigenen Lose: Alpha, Beta und Gamma bekommen diese Lose zu jeder Stunde, zur selben Stunde mit anderen Waren, in einer Größe, die sich nach den Piloten der jeweiligen Welt richtet. Du siehst, bietest auf und gewinnst nur die Lose der Welt, in der du fliegst. Der Markt und die Kaufaufträge sind für alle drei Welten gemeinsam.
 - Das Startgebot beträgt 20 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits mehr betragen.
 - Dein Gebot wird sofort bezahlt und gehalten. Wirst du überboten, bekommst du es sofort zurück.
 - Ein Gebot in den letzten 2 min eines Loses verschiebt dessen Ende auf 2 min nach dem Gebot, höchstens 5-mal.

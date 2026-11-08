@@ -1,12 +1,12 @@
-<!-- wiki-i18n source: 76933ad9dd56b71f -->
+<!-- wiki-i18n source: 9679806228678ce2 -->
 <!-- wiki-i18n title: Zindanlar -->
 # Zindanlar {#dungeons}
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; zindan; zindanlar; geçit; geçitler; savaş lordu; labirent; aşama; ganimet bölgesi; kart; portal; klan portalı; booster; sis; muhafızlar; başlangıç odası; kilitli oda; sürü desteği; kaos bölgesi; klan geçidi uyarıları -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; zindan; zindanlar; zindan; zindanlar; savaş lordu; labirent; aşama; ganimet bölgesi; kart; portal; klan portalı; booster; sis; muhafızlar; başlangıç odası; kilitli oda; sürü desteği; kaos bölgesi; klan zindanı uyarıları; klan zindanı; klan zindanı uyarıları; dörtte üç; yüzde 75 -->
 
-**Zindan**, oyunda **geçit** olarak adlandırılır: sonunda bir **Savaş Lordu** bulunan kapalı bir labirent. Bir [klanın](/wiki/03-Mechanics/Clans.md) yardımcı lideri ya da lideri bir geçit açar ve bedelini klan bankasından öder, klan üyeleri de tek bir [grup](/wiki/03-Mechanics/Groups.md) olarak birlikte içeri uçar. Labirentin uzaylılarının arasından yollarını açar, her birinden bir kart seçmek için ganimet bölgeleri açar ve Savaş Lordu'nu devirirler. Savaşa katılan her pilota, Savaş Lordu düştüğünde, aşağıdaki sınırlar içinde ödeme yapılır. Geçitler, klan sayfasındaki **Geçitler** sekmesindedir.
+**Zindan**, sonunda bir **Savaş Lordu** bulunan kapalı bir labirenttir (0.5.2'den önce oyunda geçit olarak adlandırılırdı). Bir [klanın](/wiki/03-Mechanics/Clans.md) yardımcı lideri ya da lideri bir zindan açar ve bedelini klan bankasından öder, klan üyeleri de tek bir [grup](/wiki/03-Mechanics/Groups.md) olarak birlikte içeri uçar. Labirentin uzaylılarının arasından yollarını açar, her birinden bir kart seçmek için ganimet bölgeleri açar ve Savaş Lordu'nu devirirler. Savaşa katılan her pilota, Savaş Lordu düştüğünde, aşağıdaki sınırlar içinde ödeme yapılır. Zindanlar, klan sayfasındaki **Zindanlar** sekmesindedir.
 
-Geçit yalnızca uzaylılara karşı bir savaştır: içeride kimse bir klan arkadaşına ya da başka birine saldıramaz. Uzaylılar hiçbir şey ödemez. Ödeme yalnızca Savaş Lordu'ndan gelir, bu yüzden ödeme almanın tek yolu, o düşerken savaşın içinde olmaktır.
+Zindan yalnızca uzaylılara karşı bir savaştır: içeride kimse bir klan arkadaşına ya da başka birine saldıramaz. Uzaylılar hiçbir şey ödemez. Ödeme yalnızca Savaş Lordu'ndan gelir, bu yüzden ödeme almanın tek yolu, o düşerken savaşın içinde olmaktır.
 
 ## Bir bakışta {#at-a-glance}
 
@@ -14,57 +14,58 @@ Geçit yalnızca uzaylılara karşı bir savaştır: içeride kimse bir klan ark
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Açılış**: Sezonun 1. gününden itibaren
-- **Geçidi kim açar**: Bedeli klan bankasından ödeyen bir yardımcı lider ya da lider
+- **Zindanı kim açar**: Bedeli klan bankasından ödeyen bir yardımcı lider ya da lider
 - **Grup**: Klanın 4 ila 10 üyesi, tek bir grupta
-- **Günlük geçit sayısı**: Klan başına UTC gününde 3, aynı anda yalnızca biri açık
-- **Aynı anda geçit**: Bir dünyada 6
+- **Günlük zindan sayısı**: Klan başına UTC gününde 3, aynı anda yalnızca biri açık
+- **Aynı anda zindan**: Bir dünyada 6
 - **Haritalar**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
-- **Labirentler**: 8; geçit açılırken biri seçilir
-- **Toplanma**: Toplanıp başlamak için 10 dk. Kimsenin başlatmadığı bir geçit kapanır ve bedeli klan bankasına geri döner
-- **Süre sınırı**: Başlangıçtan itibaren Aşama 1: 95 dk, Aşama 2: 130 dk, Aşama 3: 165 dk. Süre dolarsa geçit başarısız olur ve hiçbir şey ödemez
-- **Boş bırakılırsa**: 3 dk boyunca içinde kimse olmayan bir geçit başarısız olur
-- **Savaş Lordu düştükten sonra**: Geçit, içerideki pilotlar için 2 dk açık kalır
+- **Labirentler**: 8; zindan açılırken biri seçilir
+- **Patron odası**: Labirentteki uzaylıların %75 kadarı yok edilince açılır, yukarı yuvarlanır
+- **Toplanma**: Toplanıp başlamak için 10 dk. Kimsenin başlatmadığı bir zindan kapanır ve bedeli klan bankasına geri döner
+- **Süre sınırı**: Başlangıçtan itibaren Aşama 1: 95 dk, Aşama 2: 130 dk, Aşama 3: 165 dk. Süre dolarsa zindan başarısız olur ve hiçbir şey ödemez
+- **Boş bırakılırsa**: 3 dk boyunca içinde kimse olmayan bir zindan başarısız olur
+- **Savaş Lordu düştükten sonra**: Zindan, içerideki pilotlar için 2 dk açık kalır
 - **Geri dönüş**: Ayrılan ya da yok edilen bir pilot, aralarında 20 sn olacak şekilde 3 kez geri uçabilir
 
 <!-- dungeons-glance:end -->
 
 ## Bir tur nasıl geçer {#how-a-run-goes}
 
-1. **Çağır.** Geçitler sekmesinde bir [yardımcı lider ya da lider](/wiki/03-Mechanics/Clans.md#hierarchy-roles) bir aşama seçer ve **Çağır**'a basar. Bedel [klan bankasından](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) çıkar ve geçit yukarıda sıralanan haritalardan birini alır. Kimsenin başlatmadığı bir geçit kapanır ve bedel bankaya geri döner.
-2. **Gir.** Klan üyeleri uçarken Klan penceresinde **Gir**'e basar, klan portalından sıçrar ya da uyarı kartındaki **Katıl**'a basar (bkz. Girmek). Herkes başlangıç odasına iner ve içerideki pilotlar geçidin grubudur.
-3. **Başlat.** Başlangıç odası labirentin bir ucundaki küçük bir odadır ve geçit toplanırken kapısı kapalıdır. İçinde uzaylı yoktur, bu yüzden orada beklemek güvenlidir. Geçit, beklediği her pilot içeride olduğunda ve grup yeterince büyük olduğunda **kendiliğinden başlar**. Çevrimiçi olan, uzakta olmayan ve içeri girmiş bir pilotun grubunda bulunan klan üyelerini bekler, grup dolduğunda da hemen başlar. Geçidi açan pilot ya da bir subay, içeridekiler yeterince kalabalıksa onlarla daha erken başlamak için **Başlat**'a basabilir. Ayrılan bir pilot artık beklenmez. Geçit başladığında kapı bir daha kapanmamak üzere açılır ve bundan sonra yalnızca zaten içeride olan pilotlar geri dönebilir.
+1. **Çağır.** Zindanlar sekmesinde bir [yardımcı lider ya da lider](/wiki/03-Mechanics/Clans.md#hierarchy-roles) bir aşama seçer ve **Çağır**'a basar. Bedel [klan bankasından](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) çıkar ve zindan yukarıda sıralanan haritalardan birini alır. Kimsenin başlatmadığı bir zindan kapanır ve bedel bankaya geri döner.
+2. **Gir.** Klan üyeleri uçarken Klan penceresinde **Gir**'e basar, klan portalından sıçrar ya da uyarı kartındaki **Katıl**'a basar (bkz. Girmek). Herkes başlangıç odasına iner ve içerideki pilotlar zindanın grubudur.
+3. **Başlat.** Başlangıç odası labirentin bir ucundaki küçük bir odadır ve zindan toplanırken kapısı kapalıdır. İçinde uzaylı yoktur, bu yüzden orada beklemek güvenlidir. Zindan, beklediği her pilot içeride olduğunda ve grup yeterince büyük olduğunda **kendiliğinden başlar**. Çevrimiçi olan, uzakta olmayan ve içeri girmiş bir pilotun grubunda bulunan klan üyelerini bekler, grup dolduğunda da hemen başlar. Zindanı açan pilot ya da bir subay, içeridekiler yeterince kalabalıksa onlarla daha erken başlamak için **Başlat**'a basabilir. Ayrılan bir pilot artık beklenmez. Zindan başladığında kapı bir daha kapanmamak üzere açılır ve bundan sonra yalnızca zaten içeride olan pilotlar geri dönebilir.
 4. **Labirentten geç.** Labirente bir uçtan girersin, Savaş Lordu diğer uçta, kilitli bir odada bekler. Labirent karanlıktır: yalnızca grubun keşfettiği yerleri ve gemilerinin yakınındakileri görürsün. Uzaylılar koridorlarda sürüler halinde uyur ve uyanan bir sürü grubu labirent boyunca kovalar.
 5. **Ganimet bölgelerini aç.** Labirentteki halkalar bölgeleri işaretler. Birini elinde tut, grup bir kart için oy versin; kart, Savaş Lordu'nun ödemesiyle birlikte ödenir.
-6. **Patron odasının kilidini aç.** Muhafızları, yani Crystalys'leri ve ikizlerini yok et; Savaş Lordu'nun odasının kapısı açılır. O zamana kadar Savaş Lordu'na zarar verilemez.
-7. **Savaş Lordu'nu yen.** Kalkanını ve gövdesini kır, yeteneklerine karşılık ver. O düştüğünde geçit tamamlanır.
-8. **Ödemeni al.** Ödeme, Savaş Lordu'nun düştüğü anda gelir. Geçit, içerideki pilotlar için biraz daha açık kalır, sonra kapanır.
+6. **Patron odasının kilidini aç.** Labirentteki uzaylıların dörtte üçünü yok et; Savaş Lordu'nun odasının kapısı açılır. O zamana kadar Savaş Lordu'na zarar verilemez.
+7. **Savaş Lordu'nu yen.** Kalkanını ve gövdesini kır, yeteneklerine karşılık ver. O düştüğünde zindan tamamlanır.
+8. **Ödemeni al.** Ödeme, Savaş Lordu'nun düştüğü anda gelir. Zindan, içerideki pilotlar için biraz daha açık kalır, sonra kapanır.
 
 ## Girmek {#entering}
 
-Bir geçide girmek için **uçuştaki bir gemiye** ihtiyacın var; önce kalk, sonra Klan penceresini aç; ayrıca içinde yeterince klan üyesi olan bir [grup](/wiki/03-Mechanics/Groups.md) gerekir. Aşamanın istediği **seviyeye** de sahip olmalısın ve başka bir geçidin içinde olmamalısın. Geçidin grubunun bir boyut sınırı vardır: dolduğunda kimse giremez.
+Bir zindana girmek için **uçuştaki bir gemiye** ihtiyacın var; önce kalk, sonra Klan penceresini aç; ayrıca içinde yeterince klan üyesi olan bir [grup](/wiki/03-Mechanics/Groups.md) gerekir. Aşamanın istediği **seviyeye** de sahip olmalısın ve başka bir zindanın içinde olmamalısın. Zindanın grubunun bir boyut sınırı vardır: dolduğunda kimse giremez.
 
-Geçidi bir yardımcı lider ya da lider açar; klan için aynı anda yalnızca bir tane, günlük geçit sayısına kadar. Klan bankasında bedelin bulunması gerekir. Bir klan, bir aşamayı ancak ondan önceki aşamayı tamamladıktan sonra açabilir.
+Zindanı bir yardımcı lider ya da lider açar; klan için aynı anda yalnızca bir tane, günlük zindan sayısına kadar. Klan bankasında bedelin bulunması gerekir. Bir klan, bir aşamayı ancak ondan önceki aşamayı tamamladıktan sonra açabilir.
 
-Bir geçidin içinde dünya değiştiremezsin ve Jump CPU ile Base CPU çalışmaz. Klan geçidi penceresindeki **Ayrıl** düğmesi seni dışarı çıkarır. Önce onay ister; Savaş Lordu zaten düşmüşse seni hemen çıkarır. Ayrılan ya da yok edilen bir pilot, aralarda kısa bir beklemeyle birkaç kez geri uçabilir.
+Bir zindanın içinde dünya değiştiremezsin ve Jump CPU ile Base CPU çalışmaz. Klan zindanı penceresindeki **Ayrıl** düğmesi seni dışarı çıkarır. Önce onay ister; Savaş Lordu zaten düşmüşse seni hemen çıkarır. Ayrılan ya da yok edilen bir pilot, aralarda kısa bir beklemeyle birkaç kez geri uçabilir.
 
 ### Klan portalı ve uyarı {#the-clan-portal-and-the-call}
 
-Bir geçit açıldığında klan, onun için her şirketin ana haritasında (`M-1`, `T-1` ve `G-1`), istasyonun güvenli bölgesinin biraz dışında bir **portal** alır. Portalı yalnızca klanın pilotları görür: diğer herkes için yoktur. Kendi güvenli bölgesi yoktur. Yanına uç ve başka herhangi bir portaldaki gibi sıçra; seni **Gir** kurallarına göre geçide götürür: uçuştaki bir gemi, yeterince klan üyesi olan bir grup, aşamanın seviyesi ve grupta yer. Geçit başladıktan sonra portalı yalnızca zaten içeride olan pilotlar kullanabilir. Geçit bitince portal kaybolur.
+Bir zindan açıldığında klan, onun için her şirketin ana haritasında (`M-1`, `T-1` ve `G-1`), istasyonun güvenli bölgesinin biraz dışında bir **portal** alır. Portalı yalnızca klanın pilotları görür: diğer herkes için yoktur. Kendi güvenli bölgesi yoktur. Yanına uç ve başka herhangi bir portaldaki gibi sıçra; seni **Gir** kurallarına göre zindana götürür: uçuştaki bir gemi, yeterince klan üyesi olan bir grup, aşamanın seviyesi ve grupta yer. Zindan başladıktan sonra portalı yalnızca zaten içeride olan pilotlar kullanabilir. Zindan bitince portal kaybolur.
 
-Klanının geçidi toplanırken ve sen başka bir yerde uçarken sana bir **uyarı** gelir: uçuş ekranının üstünde, sesli bir kart. Geçidi kimin açtığını, içeride kaç pilot olduğunu ve geçidin ne kadar daha açık kalacağını söyler. **Katıl** seni içeri uçurur, tıpkı Geçitler sekmesindeki **Gir** gibi; geçitten çıktığında geminin eski yerine döner. Grubun çok küçük olduğu sürece Katıl soluk görünür. **Şimdi değil** o geçit için kartı gizler. Grubun zaten içerideyse ve geçit seni bekliyorsa kart bunu söyler. Kart, klanın uçmakta olan pilotlarına (istasyona yanaşmış olanlara değil) ve aşamanın istediği seviyeye sahip olanlara ulaşır. Kartı ve sesini Ayarlar › Genel › Gruplar altındaki **Klan geçidi uyarıları** ile kapatabilirsin.
+Klanının zindanı toplanırken ve sen başka bir yerde uçarken sana bir **uyarı** gelir: uçuş ekranının üstünde, sesli bir kart. Zindanı kimin açtığını, içeride kaç pilot olduğunu ve zindanın ne kadar daha açık kalacağını söyler. **Katıl** seni içeri uçurur, tıpkı Zindanlar sekmesindeki **Gir** gibi; zindandan çıktığında geminin eski yerine döner. Grubun çok küçük olduğu sürece Katıl soluk görünür. **Şimdi değil** o zindan için kartı gizler. Grubun zaten içerideyse ve zindan seni bekliyorsa kart bunu söyler. Kart, klanın uçmakta olan pilotlarına (istasyona yanaşmış olanlara değil) ve aşamanın istediği seviyeye sahip olanlara ulaşır. Kartı ve sesini Ayarlar › Genel › Gruplar altındaki **Klan zindanı uyarıları** ile kapatabilirsin.
 
-### Klan geçidi penceresi {#the-clan-dungeon-window}
+### Klan zindanı penceresi {#the-clan-dungeon-window}
 
-Bir geçidin içinde tura ait ayrı bir pencere vardır: **Klan geçidi**. Geçen süreyi ve kalanı, kaç uzaylının uçtuğunu ve kaçının yok edildiğini, grubun şimdi ne yapması gerektiğini (labirenti keşfetmek, bir bölgeyi tutmak, patronu bulmak, muhafızları yok etmek, Savaş Lordu'nu yenmek), grubun gövde çubuklarını, bir bölgede dururken tutma çubuğunu, Savaş Lordu'nun yeteneğini geri sayımıyla ve **Ayrıl** düğmesini gösterir. Diğerleri gibi bir penceredir: başlık çubuğundan sürükle ve köşesindeki kırmızı ışıkla kapat. Bir geçide girdiğinde kendiliğinden açılır, her geçit için bir kez: kapatırsan bir sonraki geçide kadar kapalı kalır. Bir geçitteyken araç çubuğunda onun için bir **Klan geçidi** düğmesi bulunur. Pencere kapalıyken, Savaş Lordu'nun başlamak üzere olan ya da etkin olan bir yeteneği, adı ve geri sayımıyla tek satırlık bir şerit olarak görünür. Pencereyi yeniden açmak için şeride tıkla.
+Bir zindanın içinde tura ait ayrı bir pencere vardır: **Klan zindanı**. Geçen süreyi ve kalanı, kaç uzaylının uçtuğunu ve kaçının yok edildiğini, grubun şimdi ne yapması gerektiğini (labirenti keşfetmek, bir bölgeyi tutmak, patronu bulmak, uzaylıların dörtte üçünü yok etmek, Savaş Lordu'nu yenmek), grubun gövde çubuklarını, bir bölgede dururken tutma çubuğunu, Savaş Lordu'nun yeteneğini geri sayımıyla ve **Ayrıl** düğmesini gösterir. Diğerleri gibi bir penceredir: başlık çubuğundan sürükle ve köşesindeki kırmızı ışıkla kapat. Bir zindana girdiğinde kendiliğinden açılır, her zindan için bir kez: kapatırsan bir sonraki zindana kadar kapalı kalır. Bir zindandayken araç çubuğunda onun için bir **Klan zindanı** düğmesi bulunur. Pencere kapalıyken, Savaş Lordu'nun başlamak üzere olan ya da etkin olan bir yeteneği, adı ve geri sayımıyla tek satırlık bir şerit olarak görünür. Pencereyi yeniden açmak için şeride tıkla.
 
 ## Aşamalar {#the-stages}
 
-Bir geçidin bir aşaması vardır ve aşama onun zorluğudur. Daha yüksek bir aşamada uzaylılar daha dayanıklıdır, daha sert vurur ve daha çok ödeme yapar. Tablodaki çarpanlar uzaylılarındır. Hasar, onların lazerlerini ve roketlerini anlatır. Savaş Lordu tabloyu izlemez: her aşama için kendi sayıları vardır, aşağıda. Tablo ayrıca bir aşamanın birinciye kıyasla kaç uzaylı gönderdiğini de söyler. **Bedel**, geçit açılırken klan bankasından alınır.
+Bir zindanın bir aşaması vardır ve aşama onun zorluğudur. Daha yüksek bir aşamada uzaylılar daha dayanıklıdır, daha sert vurur ve daha çok ödeme yapar. Tablodaki çarpanlar uzaylılarındır. Hasar, onların lazerlerini ve roketlerini anlatır. Savaş Lordu tabloyu izlemez: her aşama için kendi sayıları vardır, aşağıda. Tablo ayrıca bir aşamanın birinciye kıyasla kaç uzaylı gönderdiğini de söyler. **Bedel**, zindan açılırken klan bankasından alınır.
 
 <!-- dungeons-stages:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Aşama | Gereksinim | Uzaylıların gövdesi ve kalkanı | Uzaylı sayısı | Uzaylıların hasarı | Geçidin bedeli (kredi, klan bankasından) |
+| Aşama | Gereksinim | Uzaylıların gövdesi ve kalkanı | Uzaylı sayısı | Uzaylıların hasarı | Zindanın bedeli (kredi, klan bankasından) |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | **Aşama 1** | 6. seviyeden itibaren | ×1 | ×1 | ×1 | 500.000 |
 | **Aşama 2** | 7. seviyeden itibaren | ×1,5 | ×1 | ×1,5 | 1.000.000 |
@@ -74,27 +75,28 @@ Bir geçidin bir aşaması vardır ve aşama onun zorluğudur. Daha yüksek bir 
 
 ## Labirent {#the-maze}
 
-Her geçit, kendi haritasında, yukarıdaki listedeki haritalardan birinde yer alan kapalı bir labirenttir ve labirent birkaç düzenden biridir. Labirent haritanın tamamını kenardan kenara doldurur: katı duvarlı odalar ve koridorlardan oluşan bir ızgara. Gemiler duvarı geçemez, duvar atışları da engeller; yani duvar siperdir. Meteor yukarıdan düşer ve bir duvar onu durdurmaz.
+Her zindan, kendi haritasında, yukarıdaki listedeki haritalardan birinde yer alan kapalı bir labirenttir ve labirent birkaç düzenden biridir. Labirent haritanın tamamını kenardan kenara doldurur: katı duvarlı odalar ve koridorlardan oluşan bir ızgara. Gemiler duvarı geçemez, duvar atışları da engeller; yani duvar siperdir. Meteor yukarıdan düşer ve bir duvar onu durdurmaz.
 
-**Odalar ve kapılar.** İndiğin başlangıç odasının ve uzak uçtaki Savaş Lordu odasının birer kapısı vardır. Kapalı bir kapı gemiler, atışlar ve uzaylılar için aynı şekilde bir duvardır. Başlangıç kapısı geçit başladığında açılır. Savaş Lordu'nun kapısı, muhafızlar yok edilene kadar kilitli kalır ([Kilitli oda](#the-locked-room) bölümüne bak). Aralarında labirentin her ganimet bölgesi için bir ganimet odası vardır.
+**Odalar ve kapılar.** İndiğin başlangıç odasının ve uzak uçtaki Savaş Lordu odasının birer kapısı vardır. Kapalı bir kapı gemiler, atışlar ve uzaylılar için aynı şekilde bir duvardır. Başlangıç kapısı zindan başladığında açılır. Savaş Lordu'nun kapısı, uzaylıların dörtte üçü yok edilene kadar kilitli kalır ([Kilitli oda](#the-locked-room) bölümüne bak). Aralarında labirentin her ganimet bölgesi için bir ganimet odası vardır.
 
 **Sis.** Labirent karanlıktır. Uçuşta duvarlarını ve uzaylılarını yalnızca grubun bulunduğu yerlerde ve grubun her gemisinin çevresinde kısa bir mesafede görürsün. Bir oda, içinde biriniz olur olmaz keşfedilmiş sayılır. Mini harita da aynıdır: grup keşfettikçe dolan, tüm katın bir haritasıdır; giriş, Savaş Lordu'nun kapısı, bulduğunuz bölgeler ve bulduktan sonra Savaş Lordu üzerinde gösterilir. Kendi grubunun pilotları her zaman gösterilir.
 
 ## Uzaylılar {#the-aliens}
 
-Labirenti dört tür uzaylı korur. Koridorlarda sürüler halinde uyurlar, asla bir odada değil, ve bir pilot yaklaşınca sürü uyanır. Uyanık bir sürü seni beklemez: grubu labirent boyunca kovalar ve herkesi kaybeden bir sürü uyuduğu yere geri döner ve iyileşir. Birkaç sürü ilk saniyeden uyanıktır ve bir pilot yaklaşana kadar girişten uzak koridorlarda durur. Geçit havada aynı anda yalnızca belirli sayıda uzaylı tutar ve bu sayı grubun büyüklüğüyle artar; bu yüzden uyanan bir sürü yer için beklemek zorunda kalabilir, yok ettiğin bir sürü sıradakini içeri alır. Daha büyük bir grup orantılı olarak daha çok uzaylıyla, daha küçük bir grup daha az uzaylıyla karşılaşır ve bir uzaylı türü asla birin altına düşmez.
+Labirenti dört tür uzaylı korur. Koridorlarda sürüler halinde uyurlar, asla bir odada değil, ve bir pilot yaklaşınca sürü uyanır. Uyanık bir sürü seni beklemez: grubu labirent boyunca kovalar ve herkesi kaybeden bir sürü uyuduğu yere geri döner ve iyileşir. Birkaç sürü ilk saniyeden uyanıktır ve bir pilot yaklaşana kadar girişten uzak koridorlarda durur. Zindan havada aynı anda yalnızca belirli sayıda uzaylı tutar ve bu sayı grubun büyüklüğüyle artar; bu yüzden uyanan bir sürü yer için beklemek zorunda kalabilir, yok ettiğin bir sürü sıradakini içeri alır. Daha büyük bir grup orantılı olarak daha çok uzaylıyla, daha küçük bir grup daha az uzaylıyla karşılaşır ve bir uzaylı türü asla birin altına düşmez.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 | Uzaylılar, 5 kişilik bir grup için | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
-| Gate Goombah | 156 | 156 | 156 |
-| Gate Pirate | 34 | 34 | 34 |
-| Gate Crystalys | 34 | 34 | 34 |
-| Gate Crystalys Twin | 11 | 11 | 11 |
+| Dungeon Goombah | 156 | 156 | 156 |
+| Dungeon Pirate | 34 | 34 | 34 |
+| Dungeon Crystalys | 34 | 34 | 34 |
+| Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Toplam | 235 | 235 | 235 |
-| Bir ganimet bölgesinin dalgası | 12 × Gate Goombah ve 1 × Gate Crystalys | 12 × Gate Goombah ve 1 × Gate Crystalys | 12 × Gate Goombah ve 1 × Gate Crystalys |
+| Patron odasını açmak için | 177 | 177 | 177 |
+| Bir ganimet bölgesinin dalgası | 12 × Dungeon Goombah ve 1 × Dungeon Crystalys | 12 × Dungeon Goombah ve 1 × Dungeon Crystalys | 12 × Dungeon Goombah ve 1 × Dungeon Crystalys |
 
 - **Aynı anda canlı**: Grubun her pilotu için en çok 10, toplamda 70
 
@@ -105,7 +107,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 <!-- dungeons-enemies:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-### Gate Goombah
+### Dungeon Goombah
 
 - **Görünüşü**: Goombah
 - **Sürü büyüklüğü**: 6
@@ -119,7 +121,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 | Lazer menzili | 800 | 800 | 800 |
 | Aggro yarıçapı | 1.800 | 1.800 | 1.800 |
 
-### Gate Pirate
+### Dungeon Pirate
 
 - **Görünüşü**: Pirate Boss
 - **Sürü büyüklüğü**: 2
@@ -131,11 +133,11 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 | Kalkan | 50.100 | 75.150 | 100.200 |
 | Lazer hasarı (saniyede bir salvo) | 200 | 300 | 400 |
 | Roket hasarı | 5.000 | 7.500 | 10.000 |
-| Hız | 92 | 92 | 92 |
+| Hız | 110 | 110 | 110 |
 | Lazer menzili | 700 | 700 | 700 |
 | Aggro yarıçapı | 1.800 | 1.800 | 1.800 |
 
-### Gate Crystalys
+### Dungeon Crystalys
 
 - **Görünüşü**: Crystalys
 - **Sürü büyüklüğü**: 2
@@ -149,7 +151,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 | Lazer menzili | 900 | 900 | 900 |
 | Aggro yarıçapı | 2.400 | 2.400 | 2.400 |
 
-### Gate Crystalys Twin
+### Dungeon Crystalys Twin
 
 - **Görünüşü**: Crystalys, 1,4 kat büyük
 - **Sürü büyüklüğü**: 1
@@ -167,7 +169,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 ## Savaş Lordu {#the-warlord}
 
-Savaş Lordu, labirentin uzak ucundaki odada bekler ve bir geçitte ödeme yapan tek şey odur. Devasa büyümüş bir Crystalys'tir. Gövdesi ve kalkanı grubun büyüklüğüyle büyür: ne kadar çok pilot girerse, orantılı olarak o kadar dayanıklıdır. Kapı kapalı da olsa açık da olsa odasından asla çıkmaz: odanın duvarları içinde kalır ve koridorlarda avlanmaz. Dışarıdaki bir pilot onu ancak odanın kenarına kadar çekebilir; açık bir kapıdan yine de lazerinin yettiği her şeye ateş eder. Yeteneklerini tek tek, rastgele sırayla kullanır; her birinin kendi bekleme süresi vardır.
+Savaş Lordu, labirentin uzak ucundaki odada bekler ve bir zindanda ödeme yapan tek şey odur. Devasa büyümüş bir Crystalys'tir. Gövdesi ve kalkanı grubun büyüklüğüyle büyür: ne kadar çok pilot girerse, orantılı olarak o kadar dayanıklıdır. Kapı kapalı da olsa açık da olsa odasından asla çıkmaz: odanın duvarları içinde kalır ve koridorlarda avlanmaz. Dışarıdaki bir pilot onu ancak odanın kenarına kadar çekebilir; açık bir kapıdan yine de lazerinin yettiği her şeye ateş eder. Yeteneklerini tek tek, rastgele sırayla kullanır; her birinin kendi bekleme süresi vardır.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -183,7 +185,7 @@ Savaş Lordu, labirentin uzak ucundaki odada bekler ve bir geçitte ödeme yapan
 | Hız | 120 | 120 | 120 |
 | Lazer menzili | 1.100 | 1.100 | 1.100 |
 
-Yukarıdaki gövde ve kalkan 5 kişilik bir grup içindir. Grupla birlikte büyürler: bunlar, geçit başladığında gruptaki pilot sayısına göre Savaş Lordu'nun gövdesi ve kalkanının toplamıdır.
+Yukarıdaki gövde ve kalkan 5 kişilik bir grup içindir. Grupla birlikte büyürler: bunlar, zindan başladığında gruptaki pilot sayısına göre Savaş Lordu'nun gövdesi ve kalkanının toplamıdır.
 
 | Gruptaki pilotlar | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
@@ -199,9 +201,9 @@ Yukarıdaki gövde ve kalkan 5 kişilik bir grup içindir. Grupla birlikte büy�
 
 ### Kilitli oda {#the-locked-room}
 
-Savaş Lordu'nun odasının kapısı, geçit açıldığı andan itibaren kapalıdır ve kapalıyken Savaş Lordu'na zarar verilemez: hiçbir lazer, roket ya da patlama ona değmez ve hiçbir yetenek kullanmaz. Grup **muhafızları** yok ettiğinde kapı bir daha kapanmamak üzere açılır: geçidin yapıldığı Gate Crystalys ve Gate Crystalys Twin, uzaylılarının yaklaşık beşte biri. Gate Goombah ve Gate Pirate sayılmaz, ganimet bölgelerinin dalgaları ve Savaş Lordu'nun çağırdığı Goombah'lar da sayılmaz.
+Savaş Lordu'nun odasının kapısı, zindan açıldığı andan itibaren kapalıdır ve kapalıyken Savaş Lordu'na zarar verilemez: hiçbir lazer, roket ya da patlama ona değmez ve hiçbir yetenek kullanmaz. Zindanın yapıldığı **uzaylıların dörtte üçü** yok edildiğinde (yukarı yuvarlanır; yukarıdaki uzaylı tablosu bunları 5 kişilik bir grup için sayar) kapı bir daha kapanmamak üzere açılır. Sayılanlar labirentin sürülerindeki uzaylılardır; ilk saniyeden koridorlarda duran sürüler de dahil, dört türün hepsi ve onları kim yok ederse etsin. Ganimet bölgelerinin dalgaları, Savaş Lordu'nun çağırdığı Goombah'lar ve Savaş Lordu'nun kendisi sayılmaz.
 
-Klan geçidi penceresi kalan muhafızları sayar ve bir etiketle Savaş Lordu'na zarar verilemeyeceğini söyler; oda açıldığında bir mesaj sana haber verir. Hâlâ uyuyan bir muhafız sürüsü tam sayılır, bu yüzden grubun labirenti keşfedip hepsini bulması gerekir. Mini haritada kapı, kilitliyken kırmızı bir çizgi, açıkken yeşil bir çizgidir. Bir geçit asla tuzak değildir: son muhafızları bulunamayan bir geçidi yine de süre sınırı bitirir ve bir yönetici, takılıp kalmış bir geçidin odasının kilidini açabilir.
+Klan zindanı penceresi odayı açmak için kaç uzaylının daha yok edilmesi gerektiğini sayar ve bir etiketle Savaş Lordu'na zarar verilemeyeceğini söyler; oda açıldığında bir mesaj sana haber verir. Hâlâ uyuyan bir sürü tam sayılır, bu yüzden grubun labirenti keşfetmesi gerekir; ama uzaylıların son çeyreğini rahat bırakabilir. Mini haritada kapı, kilitliyken kırmızı bir çizgi, açıkken yeşil bir çizgidir. Bir zindan asla tuzak değildir: kapısı kapalı kalan bir zindanı yine de süre sınırı bitirir ve bir yönetici, takılıp kalmış bir zindanın odasının kilidini açabilir.
 
 ### Yetenekleri {#its-abilities}
 
@@ -209,7 +211,7 @@ Klan geçidi penceresi kalan muhafızları sayar ve bir etiketle Savaş Lordu'na
 - Meteor yağmurunun **kehribar halkaları**, meteorların bir an sonra nereye düşeceğini gösterir. Hareket etmeye devam et ve düşmeden önce halkadan çık.
 - **En aranana odaklan** yeteneği, Savaş Lordu'na en çok hasar vermiş pilotu geminin üzerinde altın rengi bir ayraçla işaretler ve sürdüğü sürece Savaş Lordu ona her saniye bir fazladan atış yapar. Nişanı değişmez: görebildiği en yakın pilota ateş etmeye devam eder, bu yüzden aynı zamanda en yakın olan işaretli pilot ikisini de yer. Fazladan atış için açık bir görüş hattı ve Savaş Lordu'nun lazer menzili gerekir; bir duvar ya da biraz mesafe onu kurtarır. Kimse hasar vermediği sürece başlamaz.
 - **Roket yağmuru**, rastgele pilotlara güdümlü roketler gönderir, ama yalnızca Savaş Lordu'nun görebildiği pilotlara; yoldaki bir duvar roketi durdurur. Bir halka, bir roketin hangi pilotu izlediğini gösterir. Bir EMP Charge ya da gizlenme onları atlatır.
-- **Sürü desteği**, Savaş Lordu'nun Goombah'larını çağırmasıdır. Onlar yaşadığı sürece ona zarar verilemez ve ateş etmez, başka bir yetenek de kullanmaz. Hepsini yok et: afiş kaç tanesinin kaldığını sayar. Bir dakika geçerse Savaş Lordu'na yine zarar verilebilir ve kalan Goombah'lar yerinde kalıp savaşmaya devam eder. Muhafız değildirler ve hiçbir şey ödemezler.
+- **Sürü desteği**, Savaş Lordu'nun Goombah'larını çağırmasıdır. Onlar yaşadığı sürece ona zarar verilemez ve ateş etmez, başka bir yetenek de kullanmaz. Hepsini yok et: afiş kaç tanesinin kaldığını sayar. Bir dakika geçerse Savaş Lordu'na yine zarar verilebilir ve kalan Goombah'lar yerinde kalıp savaşmaya devam eder. Patron odası için sayılmazlar ve hiçbir şey ödemezler.
 - **Kaos Bölgesi**, Savaş Lordu'nun onu kullandığı anda durduğu yerin çevresinde, yerde duran mor bir halkadır. Halkanın içindeki hiç kimse lazerle ya da roketle saldıramaz; ama onarım, gizlenme ve uçuş çalışmaya devam eder, Savaş Lordu ve uzaylıları her zamanki gibi ateş eder. Halka etkisini göstermeden kısa bir an önce belirir: ondan çık ve dışarıdan içeriye ateş et.
 
 <!-- dungeons-abilities:begin -->
@@ -266,11 +268,11 @@ Halkada ne kadar çok pilot varsa bölge o kadar hızlı tutulur. Bir bölgeyi t
 
 Aşama 2 ve 3'te ganimet bölgelerinin dalgaları booster da getirir. Grup bir dalganın her uzaylısını yok ettiğinde dalga sayılır ve her ikinci dalgadan sonra (ikinci, dördüncü ve altıncı) her pilot kendisi için geçici bir booster seçmek üzere yarım dakikalık bir pencere alır: **Hasar** (lazerlerin daha sert vurur), **Gövde** (geminin daha çok gövde taşır) ya da **Hız** (geminin daha hızlı uçar). Seçmek için bir karta bas. Zamanında cevap vermezsen oyun senin yerine Gövde seçer. Bir seçim aşama 3'te %3, aşama 2'de %1,5 değerindedir ve bir tür, ne kadar sık seçersen seç, aşama 3'te en çok %9'a, aşama 2'de %4,5'e kadar birikir. Aşama 1'de booster yoktur. Bir dalgayı hayatta bırakan grup, o dalga için pencere almaz.
 
-Bir booster, geçit tamamlanana kadar sürer. Geçitten ayrılırsan ya da yok edilirsen boosterlarını kaybedersin ve yeniden uçup girdiğinde onları geri alırsın. Klan geçidi penceresinin altındaki bir etiket sahip olduklarını listeler.
+Bir booster, zindan tamamlanana kadar sürer. Zindandan ayrılırsan ya da yok edilirsen boosterlarını kaybedersin ve yeniden uçup girdiğinde onları geri alırsın. Klan zindanı penceresinin altındaki bir etiket sahip olduklarını listeler.
 
 ### Kartlar {#the-cards}
 
-Kartlar, aşağıdaki havuzdan teker teker çekilir. Şans, bir kartın tek bir çekilişteki şansıdır. Her kart ödeme alan her pilota gider, ekipman kartları da: çok kopyalı bir kart her birine o kadar kopya verir, ekipman kartı ise her birine kendisi için dövülmüş kendi parçasını verir. Ödeme almayan bir pilot kart da almaz ve başarısız olan bir geçitte açılan bölge hiçbir şey ödemez.
+Kartlar, aşağıdaki havuzdan teker teker çekilir. Şans, bir kartın tek bir çekilişteki şansıdır. Her kart ödeme alan her pilota gider, ekipman kartları da: çok kopyalı bir kart her birine o kadar kopya verir, ekipman kartı ise her birine kendisi için dövülmüş kendi parçasını verir. Ödeme almayan bir pilot kart da almaz ve başarısız olan bir zindanda açılan bölge hiçbir şey ödemez.
 
 <!-- dungeons-cards:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -304,13 +306,13 @@ Kartlar, aşağıdaki havuzdan teker teker çekilir. Şans, bir kartın tek bir 
 
 <!-- dungeons-cards:end -->
 
-Tek kopyalı kartlar **ekipmandır** ve yalnızca aşama 3 bir geçit bunları sunabilir. Bir ekipman parçası, ödeme alan her pilot için ödenirken dövülür: her biri Montaj'da yaptığın bir parçayla aynı şanslarla kendi [büyüleme kademesini](/wiki/06-Items/Overview.md#item-enchants) çeker; bu yüzden çoğu Standart çıkar ve Ebedi'ye kadar daha yüksek bir kademe, bonuslarıyla, nadir bir bulgudur.
+Tek kopyalı kartlar **ekipmandır** ve yalnızca aşama 3 bir zindan bunları sunabilir. Bir ekipman parçası, ödeme alan her pilot için ödenirken dövülür: her biri Montaj'da yaptığın bir parçayla aynı şanslarla kendi [büyüleme kademesini](/wiki/06-Items/Overview.md#item-enchants) çeker; bu yüzden çoğu Standart çıkar ve Ebedi'ye kadar daha yüksek bir kademe, bonuslarıyla, nadir bir bulgudur.
 
 ## Ödeme {#pay}
 
 Savaş Lordu düştüğünde, hak eden her pilota tamamlanan tur için bir kez ödeme yapılır. Grubun seçtiği kartlar, aşamanın ödemesinin üstüne gelir. Dünya çarpanı yoktur: ödeme her dünyada aynıdır.
 
-**Orvium Reinforced Plates** oylamadaki bir kart değildir. Aşamanın ödemesinin parçasıdır ve ödeme alan her pilot onları tamamlama başına bir kez alır. Bir geçidin ödediği eşyalar satılabilir değildir: onları [Açık Artırma'da satamazsın](/wiki/03-Mechanics/Auction.md#marketable-items).
+**Orvium Reinforced Plates** oylamadaki bir kart değildir. Aşamanın ödemesinin parçasıdır ve ödeme alan her pilot onları tamamlama başına bir kez alır. Bir zindanın ödediği eşyalar satılabilir değildir: onları [Açık Artırma'da satamazsın](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -333,7 +335,7 @@ Uzaylılar asla ödeme yapmaz. Bir tur, hiçbir şey ödemese bile sonuna kadar 
 - **Bir gün**: Bir aşama, bir pilota UTC gününde bir kez öder: Savaş Lordu'nun düştüğü gün
 - **Bir hafta**: Bir pilot, UTC haftasında (Pazartesi–Pazar) en çok 10 aşama tamamlama için ödeme alır
 - **İçeride**: Toplamda en az 2 dk
-- **Savaşa katkı**: Şunlardan en az biri: Savaş Lordu'nun gövdesine ve kalkanına toplam %2 oranında hasar verdi; geçidin 10 uzaylısını yok etti; Savaş Lordu'yla savaş sırasında diğer pilotları 50.000 iyileştirdi
+- **Savaşa katkı**: Şunlardan en az biri: Savaş Lordu'nun gövdesine ve kalkanına toplam %2 oranında hasar verdi; zindanın 10 uzaylısını yok etti; Savaş Lordu'yla savaş sırasında diğer pilotları 50.000 iyileştirdi
 
 <!-- dungeons-rules:end -->
 
@@ -367,7 +369,7 @@ Klan bir sezonda bir aşamayı ilk kez tamamladığında klan bankasına da öde
 | **Aşama 3** | 30.000.000 |
 
 - **Klanın yaşı**: En az 3 gün
-- **Ödeme alan pilotlar**: Geçitte en az 3
+- **Ödeme alan pilotlar**: Zindanda en az 3
 
 <!-- dungeons-clan:end -->
 
@@ -375,8 +377,8 @@ Klan bir sezonda bir aşamayı ilk kez tamamladığında klan bankasına da öde
 
 - Bir bölgeyi tutmaya çalışmadan önce dalgasını temizle ve uzaylılar içeri girerse halkanın içinde savaş.
 - Tüm grubu bir bölgeye getir: halkada ne kadar çok pilot varsa bölge o kadar hızlı tutulur.
-- Labirentin her köşesini keşfet: hiç bulamadığın bir muhafız sürüsü Savaş Lordu'nun kapısını kapalı tutar.
+- Labirenti keşfet ve karşılaştığın uzaylıları yok et: Savaş Lordu'nun kapısı, onların dörtte üçü ölünce açılır, ondan önce değil.
 - Duvarları kullan: lazerler onları geçmez, Savaş Lordu'nun aurasının kırmızı halkaları onlarda durur ve bir duvar Savaş Lordu'nun roketlerini de durdurur.
 - Roket yağmuru için bir EMP Charge sakla.
 - Savaş Lordu Goombah'larını çağırdığında önce onları yok et: onlar gidene kadar ona zarar verilemez. Kaos Bölgesi'nde ateş etmeden önce halkadan çık.
-- Klan geçidi penceresindeki saate bak. Süre dolduğunda geçit başarısız olur ve hiçbir şey ödemez.
+- Klan zindanı penceresindeki saate bak. Süre dolduğunda zindan başarısız olur ve hiçbir şey ödemez.

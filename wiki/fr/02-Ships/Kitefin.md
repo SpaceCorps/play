@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 24 000
-- **Vitesse de base** : 175
+- **Vitesse de base** : 190
 - **Emplacements laser** : 3
 - **Emplacements extras** : 2
 
@@ -15,7 +15,7 @@ Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la
 
 - **Emplacements principaux (efficacité de 100 %)** : 2
 - **Emplacements de soutien (efficacité de 75 %)** : 3
-- **Emplacements auxiliaires (efficacité de 50 %)** : 0
+- **Emplacements auxiliaires (efficacité de 50 %)** : 1
 
 ---
 

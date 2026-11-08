@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av 
 
 | Vad | Föremål |
 |---|---|
-| Lasrar | 8 Helios Beam, var och en med en Damage Amp IV, en Crit Amp IV och en Penetration Amp IV |
+| Lasrar | 10 Helios Beam, var och en med en Damage Amp IV, en Crit Amp IV och en Penetration Amp IV |
 | Sköldar och motorer | 11 Heavy Shield Core och 4 Adaptive Core, var och en med Capacity och Absorption Shield Cell IV eller Impulse och Momentum Thruster IV |
 | Extra | en Repair Drone IV, en Auto-Repair CPU och en Base CPU II |
 | Skrov | 15 Hull Plating III |
 
-På Alphas styrka har han **858 750 skrov**, **1 309 534 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 86,3 % absorbering, hastighet 89, räckvidd 945 och en salva på **4 104 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,2 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tolv minuters ihållande eld, tio av dem omkring en minut och tio sekunder.
+På Alphas styrka har han **858 750 skrov**, **1 309 534 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 86,3 % absorbering, hastighet 98, räckvidd 945 och en salva på **4 324 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,2 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tretton minuters ihållande eld, tio av dem omkring 77 sekunder.
 
 ## Att bekämpa honom {#fighting-him}
 

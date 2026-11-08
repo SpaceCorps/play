@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ A Kitefin é uma canhoneira leve e a primeira nave que a maioria dos pilotos com
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 24.000
-- **Velocidade base**: 175
+- **Velocidade base**: 190
 - **Slots de laser**: 3
 - **Slots extras**: 2
 
@@ -15,7 +15,7 @@ A Kitefin é uma canhoneira leve e a primeira nave que a maioria dos pilotos com
 
 - **Slots de núcleo (100% de eficiência)**: 2
 - **Slots de suporte (75% de eficiência)**: 3
-- **Slots auxiliares (50% de eficiência)**: 0
+- **Slots auxiliares (50% de eficiência)**: 1
 
 ---
 

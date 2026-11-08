@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Um alienígena que desiste passa a vagar de onde está, nunca indo para onde viu
 
 Os alienígenas não se empurram entre si: uma matilha atrás de um piloto se aproxima sem deixar espaço entre as suas naves, e uma matilha que perdeu o piloto só se dispersa quando cada alienígena escolhe o próprio caminho. Um alienígena, porém, fica afastado de uma **nave**: ele nunca acaba dentro do casco de um piloto, e um piloto que para em cima de um o empurra.
 
-Voar mais rápido só ajuda até certo ponto: uma Protos (160) não é mais rápida do que nenhum dos alienígenas que caçam (Phantasm 160, Bulwark 175, Crystalys 230), então o limite de distância, e não a sua velocidade, encerra a perseguição.
+Voar mais rápido só ajuda até certo ponto: uma Protos (180) é só um pouco mais rápida do que um Phantasm (160) ou um Bulwark (175), não é mais rápida do que um Goombah (180) e é mais lenta do que um Crystalys (230), então o limite de distância, e não a sua velocidade, encerra a perseguição.
 
 ---
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 20bfc0d7e85779c5 -->
+<!-- wiki-i18n source: f7bdf2e998ae581b -->
 <!-- wiki-i18n title: Design delle navi -->
 # Design delle navi {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; conversione; convertire; design della nave -->
 
-Un **design** è una delle quattro navi che costruisci nell’Assemblaggio con qualche numero cambiato apposta: meno scafo per più velocità, uno slot laser in meno per scudi più robusti. Otto dei tredici design hanno inoltre una delle sette [abilità](/wiki/03-Mechanics/Abilities.md#ship-abilities) che la nave semplice non ha. Un design si ricerca nello Skylab, poi si converte nell’Assemblaggio una nave che possiedi. **La conversione non si può annullare.**
+Un **design** è una delle quattro navi che costruisci nell’Assemblaggio con qualche numero cambiato apposta: meno scafo per più velocità, uno slot laser in meno per scudi più robusti. Nove dei tredici design hanno inoltre una delle sette [abilità](/wiki/03-Mechanics/Abilities.md#ship-abilities) che la nave semplice non ha. Un design si ricerca nello Skylab, poi si converte nell’Assemblaggio una nave che possiedi. **La conversione non si può annullare.**
 
 ## I tredici design {#the-thirteen-designs}
 
@@ -12,19 +12,19 @@ Le ultime tre colonne sono ciò che ha la nave convertita: il suo scafo e la sua
 
 | Design | Cosa cambia | Scafo | Velocità base | Slot laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% scafo base, +40 velocità base, +1 slot laser | 96.000 | 250 | 9 |
-| **Paragon BUCKY** | +25% scafo base, -20 velocità base, -1 slot laser, +10% assorbimento dello scudo, +20% dimensione del modello | 160.000 | 190 | 7 |
-| **Paragon LICH** | +1% rigenerazione dello scudo al secondo | 128.000 | 210 | 8 |
-| **Storm NOTSUM** | -20% scafo base, +20 velocità base, +2% velocità, Blink | 120.000 | 270 | 13 |
-| **Storm BRATAN** | -50 velocità base, +2 slot laser, -50% capacità dello scudo, +10% penetrazione dello scudo | 150.000 | 200 | 15 |
-| **Storm RECON** | -20% scafo base, +5% velocità, -2 slot laser, Chameleon | 120.000 | 250 | 11 |
-| **Ironclad DUMA** | +20% scafo base, -20 velocità base, -3 slot laser, +10% assorbimento dello scudo, Focus Fire | 720.000 | 72 | 3 |
-| **Ironclad TITANIC** | +2 slot laser, +1 slot principale, +20% capacità dello scudo, +20% dimensione del modello, Blink (velocità limitata a 1.500) | 600.000 | 92 | 8 |
-| **Wraith RAPTOR** | +1 slot laser, +5% danno totale, Venom | 324.000 | 220 | 13 |
-| **Wraith BILLY** | +5% scafo base, +10 velocità base, +10% capacità dello scudo, Diminisher | 340.200 | 230 | 12 |
-| **Wraith MENATI** | +20% scafo base, +20 velocità base, +5% assorbimento dello scudo, Heal Pod | 388.800 | 240 | 12 |
-| **Wraith ATARAXIS** | -1 slot laser, +25% capacità dello scudo, +10% assorbimento dello scudo, Shield Buff | 324.000 | 220 | 11 |
-| **Wraith MATT** | -10% scafo base, +2 slot laser, -20% capacità dello scudo, +10% penetrazione dei laser | 291.600 | 220 | 14 |
+| **Paragon THUNDER** | -25% scafo base, +40 velocità base, +1 slot laser | 96.000 | 270 | 10 |
+| **Paragon BUCKY** | +25% scafo base, -20 velocità base, -1 slot laser, +10% assorbimento dello scudo, +20% dimensione del modello | 160.000 | 210 | 8 |
+| **Paragon LICH** | +1% rigenerazione dello scudo al secondo | 128.000 | 230 | 9 |
+| **Storm NOTSUM** | -10% scafo base, +50 velocità base, +2% velocità, Blink | 162.000 | 310 | 14 |
+| **Storm BRATAN** | -50 velocità base, +2 slot laser, -25% capacità dello scudo, +10% penetrazione dello scudo, Heal Pod | 180.000 | 210 | 16 |
+| **Storm RECON** | -20% scafo base, +5% velocità, -1 slot laser, Chameleon | 144.000 | 260 | 13 |
+| **Ironclad DUMA** | +20% scafo base, -20 velocità base, -3 slot laser, +10% assorbimento dello scudo, Focus Fire | 720.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 slot laser, +1 slot principale, +20% capacità dello scudo, +20% dimensione del modello, Blink | 600.000 | 110 | 10 |
+| **Wraith RAPTOR** | +1 slot laser, +5% danno totale, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5% scafo base, +10% capacità dello scudo, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20% scafo base, +20 velocità base, +5% assorbimento dello scudo, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 slot laser, +1 slot di supporto, +25% capacità dello scudo, +10% assorbimento dello scudo, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 slot laser, -20% capacità dello scudo, +10% penetrazione dei laser | 256.000 | 210 | 15 |
 
 ## Ottenere un design {#getting-a-design}
 
@@ -37,16 +37,16 @@ Le ultime tre colonne sono ciò che ha la nave convertita: il suo scafo e la sua
 | **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100.000 | 15 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 20 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100.000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100.000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
-| **Wraith ATARAXIS** | 100.000 | 30 | 375 | 65 | 20 | 3 |
-| **Wraith MATT** | 100.000 | 20 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
 
 La nave da convertire è quella che possiedi di quel tipo (una Paragon per THUNDER, BUCKY o LICH), e non può essere la nave che pilotti: rendi prima attiva un’altra nave. Una nave distrutta non si può convertire.
 
@@ -60,10 +60,10 @@ La nave da convertire è quella che possiedi di quel tipo (una Paragon per THUND
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
 | **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
-| **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
-| **Tutte e quattro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
+| **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
+| **Tutte e quattro** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Insieme chiedono 490 Dark Matter, oltre ai 749 che chiedono tutte le altre tecnologie, e i livelli dei moduli dello Skylab ne chiedono 115 in più: 1.354 per tutte le tecnologie del gioco.
+Insieme chiedono 500 Dark Matter, oltre ai 749 che chiedono tutte le altre tecnologie, e i livelli dei moduli dello Skylab ne chiedono 115 in più: 1.364 per tutte le tecnologie del gioco.
 
 ## Cosa succede alla tua nave {#what-happens-to-your-ship}
 

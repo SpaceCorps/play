@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4abd6e42693b5459 -->
+<!-- wiki-i18n source: e6bba0f75d99f5cd -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -32,7 +32,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **A bosst lődd, ne a Scoutokat.** A Scoutok gyógyítják a bosst, de a gyógyítás kicsi a boss hajótestéhez képest, és új Scout olyan gyakran érkezik, ahogy a *Röviden* lista mondja: az a csoport, amelyik előbb a Scoutokat lövi, sosem kerül előnybe velük szemben, és csak egy nagyon nagy csoport tudja kitakarítani őket, mégis tovább tart neki a boss befejezése, mint annak, amelyik békén hagyta őket. A Scoutok időt vesznek el tőled, a harcot nem ők döntik el.
 - **Vezesd el a Scoutokat.** A Scout csak addig gyógyít, amíg a boss hatótávján belül van, így az a Scout, amelyik a hatótávon kívülre követ téged, semmit sem gyógyít, és az Ostirion gyorsabb a Scoutnál.
 - **Mozogj folyamatosan.** A boss rakétája egyenes és nem önirányító: a folyamatosan mozgó hajó kitér előle, az álló hajót eltalálja.
-- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-3` szektoron akkor is veszít, ha a találatok szétoszlanak, és az `x-2` szektoron is; négyen nagyjából négy perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron is elég három (nagyjából két és fél perc). Öten nagyjából három perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából öt perc alatt, ha egy pilóta kapja az összes tüzet, de akkor négy hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában hat, Gammában nyolc pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül is csak éppen hogy tudja (a hajótestéből néhány százalék marad): két Paragon biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül elpusztul, x2 és x4 lőszerrel is. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
+- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-3` szektoron akkor is veszít, ha a találatok szétoszlanak, de az `x-2` szektoron egyetlen hajó elvesztése nélkül megnyerik a harcot; négyen nagyjából négy perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron is elég három (nagyjából két és fél perc). Öten nagyjából három perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából négy perc alatt, ha egy pilóta kapja az összes tüzet, de akkor két hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában öt, Gammában hét pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül is csak éppen hogy tudja (a hajótestéből néhány százalék marad): két Paragon biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül elpusztul, x2 és x4 lőszerrel is. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, ugyanabban a szektorban.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
@@ -55,7 +55,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 | Hajótest | 300 000 | 450 000 | 600 000 |
 | Pajzs | 50 100 | 75 150 | 100 200 |
 | Lézersebzés (másodpercenként egy sorozat) | nincs | nincs | nincs |
-| Sebesség | 92 | 92 | 92 |
+| Sebesség | 110 | 110 | 110 |
 | Lézer hatótávja | – | – | – |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
@@ -82,7 +82,7 @@ Alapja: Kitefin, hajótestének 50%-a és lézersebzésének 113%-a; a sebesség
 | Hajótest | 12 000 | 18 000 | 24 000 |
 | Pajzs | 9 818 | 14 727 | 19 636 |
 | Lézersebzés (másodpercenként egy sorozat) | 221 | 332 | 442 |
-| Sebesség | 175 | 175 | 175 |
+| Sebesség | 190 | 190 | 190 |
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | 700 | 700 | 700 |
 | Gyógyítja a vezért, egyenként, másodpercenként (csak hajótest) | 40 | 60 | 80 |

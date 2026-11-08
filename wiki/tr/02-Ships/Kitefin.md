@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ Kitefin hafif bir saldırı gemisidir ve çoğu pilotun satın aldığı ilk gem
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 24.000
-- **Temel hız**: 175
+- **Temel hız**: 190
 - **Lazer yuvaları**: 3
 - **Ekstra yuvalar**: 2
 
@@ -15,7 +15,7 @@ Kitefin hafif bir saldırı gemisidir ve çoğu pilotun satın aldığı ilk gem
 
 - **Çekirdek yuvaları (%100 verimlilik)**: 2
 - **Destek yuvaları (%75 verimlilik)**: 3
-- **Yardımcı yuvalar (%50 verimlilik)**: 0
+- **Yardımcı yuvalar (%50 verimlilik)**: 1
 
 ---
 

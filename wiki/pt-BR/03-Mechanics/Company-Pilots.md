@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dced9aac4fce8b87 -->
+<!-- wiki-i18n source: 0096209c8f6660f0 -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
@@ -11,7 +11,7 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 
 - **Esquadrão**: 3 pilotos por setor da corporação em cada mundo (Alpha, Beta e Gamma têm esquadrões próprios), cada um com a tag da corporação e um codinome, por exemplo **[M] Vesper**. As tags de nome deles trazem uma pequena marca de robô e a cor da corporação.
 - **Nave**: uma [Ostirion](/wiki/02-Ships/Ostirion.md) com três **Quantum Laser II**, dois **Light Shield Cores**, um **Engine I** e um **Repair Drone I**:
-  - 48.000 pontos de vida, 22.000 pontos de escudo, velocidade 202
+  - 64.000 pontos de vida, 22.000 pontos de escudo, velocidade 222
   - absorção de 45%: os escudos deles recebem 45% de cada impacto, e o casco, 55%
   - 195 de dano base por rajada (munição x1), 1% de chance de crítico, alcance de 700
 - **No minimapa**: um losango verde para os pilotos da sua corporação, um âmbar para os de outra corporação.

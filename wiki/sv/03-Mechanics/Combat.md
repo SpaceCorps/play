@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -105,7 +105,7 @@ En utomjording som ger upp strövar vidare från där den står, aldrig vidare t
 
 Utomjordingar skjuter inte undan varandra: en flock efter en pilot närmar sig utan att lämna något utrymme mellan sina skepp, och en flock som tappat sin pilot sprids först när varje utomjording väljer sin egen väg. En utomjording håller däremot avstånd till ett **skepp**: den hamnar aldrig inuti en pilots skrov, och en pilot som parkerar på en knuffar den med sig.
 
-Att flyga fortare hjälper bara till en viss gräns: en Protos (160) är inte snabbare än någon utomjording som jagar (Phantasm 160, Bulwark 175, Crystalys 230), så det är avståndsgränsen, inte din hastighet, som avslutar jakten.
+Att flyga fortare hjälper bara till en viss gräns: en Protos (180) är bara lite snabbare än en Phantasm (160) eller en Bulwark (175), inte snabbare än en Goombah (180) och långsammare än en Crystalys (230), så det är avståndsgränsen, inte din hastighet, som avslutar jakten.
 
 ---
 

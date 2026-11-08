@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Skrovpansar -->
 # Skrovpansar {#hull-plating}
 
@@ -45,7 +45,7 @@ Skrovpansar passar bara i **pansarplatser**, en egen sorts plats som de fyra ske
 | **Paragon** | 5 | 75 000 |
 | **Storm** | 7 | 105 000 |
 | **Ironclad** | 15 | 225 000 |
-| **Wraith** | 9 | 135 000 |
+| **Wraith** | 10 | 150 000 |
 
 - **Alla låsta från början.** En plats öppnas när du forskar fram den i Skylab: en teknologi för varje plats, 1 timme och 10 Dark Matter, i ordning från den första. Vyn [Forskning](/wiki/03-Mechanics/Research.md#ship-technologies) visar ett skepps platser som ett enda kort med en prick för varje.
 - **En sorts skepp, inte ett enda skepp.** Platserna du har öppnat för Paragon är öppna också på varje Paragon-design ([Skeppsdesigner](/wiki/03-Mechanics/Ship-Designs.md)). En teknologi är din för alltid: wipen behåller den.

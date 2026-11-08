@@ -179,6 +179,7 @@ Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, tr
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Al comienzo de cada hora UTC se abren 3 lotes nuevos, cada uno de un artículo distinto, y cada uno sigue abierto 4 horas, así que hay 12 abiertos a la vez.
+- Cada mundo tiene sus propios lotes: Alpha, Beta y Gamma reciben estos lotes cada hora, con artículos distintos a la misma hora, con un tamaño que depende de los pilotos de ese mundo. Solo ves, pujas y ganas los lotes del mundo en el que vuelas. El Mercado y las órdenes de compra son comunes a los tres mundos.
 - La puja inicial es el 20 % del precio de la tienda de lo que se ofrece. Cada puja posterior debe superar la puja más alta en al menos un 5 %, y en al menos 100 créditos.
 - Tu puja se paga al instante y queda retenida. Si alguien te supera, te la devuelven al instante.
 - Una puja en los últimos 2 min de un lote mueve su final a 2 min después de la puja, como máximo 5 veces.

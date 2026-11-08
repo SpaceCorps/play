@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-A Nomad olyan cirkáló, amelynek kétszer akkora a hajóteste és kétszer annyi a fegyvere, mint egy Ostirioné: kalapácsfejű hajó az Ostirion és a Paragon között, a Boltban kreditért és Thuliumért együtt vásárolható. Bármelyik pilóta megveheti.
+A Nomad olyan cirkáló, amelynek közel kétszer akkora a hajóteste és kétszer annyi a fegyvere, mint egy Ostirioné: kalapácsfejű hajó az Ostirion és a Paragon között, a Boltban kreditért és Thuliumért együtt vásárolható. Bármelyik pilóta megveheti.
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 96 000
-- **Alapsebesség**: 200
+- **Életerő (HP)**: 111 000
+- **Alapsebesség**: 210
 - **Lézerfoglalatok**: 6
 - **Extrafoglalatok**: 2
 
@@ -36,4 +36,4 @@ A Nomad olyan cirkáló, amelynek kétszer akkora a hajóteste és kétszer anny
 
 ## Háttértörténet {#lore}
 
-A Nomad karavánhajónak készült: hosszú hatótávolságú felmérő és szállító hajótest az állomás ágyúin túli útvonalakra, ahol egy személyzet hetekig repülhet anélkül, hogy bárkivel találkozna, aki barátságos. Felülről nézve kalapácsfej. A széles orrot teljes szélességében alkonyindigó páncéllemezek borítják, lapos V alakú elülső élén hat ágyú van, három párban, és a hídhoz legközelebbi pár ér el a legtávolabbra. Két hosszú gém húzódik össze a hajtóműgondolák felé, egy karcsú gerinc viszi a hidat, és a kalapács alatt nyitott teherfedélzeten négy homokszínű láda és egy érzékelőkupola áll. A homok, az alkonyindigó és a lila futófények az ő színei, és más hajó nem viseli őket. A konvojkapitányok olyan kísérőt kértek, amely maga is lehet a konvoj, és a hajógyárak egy Ostiriont adtak nekik kétszeres hajótesttel és kétszeres fegyverzettel.
+A Nomad karavánhajónak készült: hosszú hatótávolságú felmérő és szállító hajótest az állomás ágyúin túli útvonalakra, ahol egy személyzet hetekig repülhet anélkül, hogy bárkivel találkozna, aki barátságos. Felülről nézve kalapácsfej. A széles orrot teljes szélességében alkonyindigó páncéllemezek borítják, lapos V alakú elülső élén hat ágyú van, három párban, és a hídhoz legközelebbi pár ér el a legtávolabbra. Két hosszú gém húzódik össze a hajtóműgondolák felé, egy karcsú gerinc viszi a hidat, és a kalapács alatt nyitott teherfedélzeten négy homokszínű láda és egy érzékelőkupola áll. A homok, az alkonyindigó és a lila futófények az ő színei, és más hajó nem viseli őket. A konvojkapitányok olyan kísérőt kértek, amely maga is lehet a konvoj, és a hajógyárak egy Ostiriont adtak nekik közel kétszeres hajótesttel és kétszeres fegyverzettel.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 600.000
-- **Velocità di base**: 92
-- **Slot laser**: 6
+- **Velocità di base**: 110
+- **Slot laser**: 8
 - **Slot extra**: 3
 - **Slot corazza**: 15
 
@@ -33,7 +33,7 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 | Design | Cosa cambia |
 | :--- | :--- |
 | **Ironclad DUMA** | +20% scafo base, -20 velocità base, -3 slot laser, +10% assorbimento dello scudo, Focus Fire |
-| **Ironclad TITANIC** | +2 slot laser, +1 slot principale, +20% capacità dello scudo, +20% dimensione del modello, Blink (velocità limitata a 1.500) |
+| **Ironclad TITANIC** | +2 slot laser, +1 slot principale, +20% capacità dello scudo, +20% dimensione del modello, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 
 ## Storia {#lore}
 
-L’Ironclad nacque come scafo d’assedio: un cuneo corazzato costruito per stare davanti ai cannoni della stazione e incassare qualunque cosa lo Sciame gli scagliasse contro. I cantieri tennero la corazza e la ispessirono, le diedero sette slot principali per i generatori e l’85% di scafo in più rispetto alla Wraith, le montarono sul retro due enormi gondole dei motori per spostare tutto quel peso e ridussero i cannoni a sei per pagarne il prezzo. Non è fatta per seminare nessuno e non ne ha bisogno. I piloti la parcheggiano tra lo Sciame e ciò che vogliono proteggere e lasciano che a fare il lavoro sia la corazza grigio scuro. Le lastre di corazza chiare si sostituiscono dopo ogni sortita; le strisce chiare lungo le ali sono l’unica parte che sia mai stata pensata per essere vista.
+L’Ironclad nacque come scafo d’assedio: un cuneo corazzato costruito per stare davanti ai cannoni della stazione e incassare qualunque cosa lo Sciame gli scagliasse contro. I cantieri tennero la corazza e la ispessirono, le diedero sette slot principali per i generatori e più del doppio dello scafo rispetto alla Wraith, le montarono sul retro due enormi gondole dei motori per spostare tutto quel peso e ridussero i cannoni a otto per pagarne il prezzo. Non è fatta per seminare nessuno e non ne ha bisogno. I piloti la parcheggiano tra lo Sciame e ciò che vogliono proteggere e lasciano che a fare il lavoro sia la corazza grigio scuro. Le lastre di corazza chiare si sostituiscono dopo ogni sortita; le strisce chiare lungo le ali sono l’unica parte che sia mai stata pensata per essere vista.

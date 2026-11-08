@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -278,7 +278,7 @@ Si habías **hecho** una de las 64, haces también la versión nueva. En tu prim
 Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara tu equipo para ellos:
 
 - **PvP**: los pilotos de otras corporaciones pueden atacarte en `x-4` y en el centro en todos los mundos, desde `x-2` en adelante en Beta y en todas partes en Gamma (salvo en las zonas seguras y durante el Protocolo de paz). Los portales del Anillo traen también a pilotos de otras corporaciones a tu `x-3`: en Beta y Gamma, uno de ellos puede destruirte allí mientras llevas un objeto. Beta y Gamma no tienen Protocolo de paz: allí el PvP está activo desde el día 1.
-- Los **Bulwarks** (`x-3`, `x-4`) son más rápidos que una Protos y golpean fuerte. Combátelos desde una [Ostirion](/wiki/02-Ships/Ostirion.md), cerca de la zona segura de un portal, y retírate a ella para reparar.
+- Los **Bulwarks** (`x-3`, `x-4`) casi igualan en velocidad a una Protos y golpean fuerte. Combátelos desde una [Ostirion](/wiki/02-Ships/Ostirion.md), cerca de la zona segura de un portal, y retírate a ella para reparar.
 - Los **Goombahs** (`x-3`, `x-4`) tienen un alcance de 800, golpean con 3.000 de daño y nunca empiezan un combate: si dejas a uno en paz, te deja en paz; si le disparas, se vuelve contra ti hasta 10 segundos después de tu último impacto (y se repara cuando lo dejan en paz). Una nave cuyos láseres sean todos [Starfire-III](/wiki/06-Items/Lasers.md) (alcance 850) los supera en alcance, igual que a los Bulwarks: con una nave más rápida que ellos (una Ostirion o superior; un Goombah vuela a 180 y un Bulwark a 175) puedes disparar sin recibir ni un impacto. El alcance de tu nave es la media del alcance de sus láseres, así que un Starfire-III junto a dos Quantum Laser II dispara desde 750: lo bastante lejos para mantenerte fuera del alcance de un Bulwark (700), pero no del de un Goombah (800). La Especial del nivel 5 te da uno; también puedes fabricarlo en Ensamblaje, con Velkonite Reinforced Plates que produce la Forja de tu [Skylab](/wiki/03-Mechanics/Skylab.md).
 - Los **Crystalys** recorren la frontera (`x-4`). Nada de lo que puedes conseguir hasta el nivel 8 lo supera en alcance, y solo una nave rápida lo deja atrás: mantén la distancia y vigila el minimapa.
 - Cuando te destruyen, eliges dónde volver: en tu base, en el portal más cercano o en el sitio, que un sector de peligro no ofrece (mira [Destrucción y regreso](/wiki/01-General/Getting-Started.md)). El reloj de una misión con tiempo límite sigue corriendo mientras tanto, un objeto transportado se pierde y una regla de sin morir se rompe.

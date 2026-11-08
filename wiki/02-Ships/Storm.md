@@ -1,12 +1,12 @@
 # Storm
 
-The Storm is a glass-cannon fighter: the highest base speed and the most lasers of any ship (13), on a hull that is light for its class. By the game's rating (more than 10 laser slots) it is a Class IV Dreadnought. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
+The Storm is a glass-cannon fighter: the highest base speed and the most lasers of any ship (14), on a hull that is light for its class. By the game's rating (more than 10 laser slots) it is a Class IV Dreadnought. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
 
 ## Stats
 
-- **Hitpoints (HP)**: 150,000
-- **Base Speed**: 250
-- **Laser Slots**: 13
+- **Hitpoints (HP)**: 180,000
+- **Base Speed**: 260
+- **Laser Slots**: 14
 - **Extra Slots**: 3
 - **Hull Plate Slots**: 7
 
@@ -30,9 +30,9 @@ The Storm is a glass-cannon fighter: the highest base speed and the most lasers 
 
 | Design | What it changes |
 | :--- | :--- |
-| **Storm NOTSUM** | -20% base hull, +20 base speed, +2% speed, Blink |
-| **Storm BRATAN** | -50 base speed, +2 laser slots, -50% shields, +10% shield penetration |
-| **Storm RECON** | -20% base hull, +5% speed, -2 laser slots, Chameleon |
+| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, Blink |
+| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, Heal Pod |
+| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -46,4 +46,4 @@ Once it is researched, crafting a Storm in Assembly takes 3 [Ancient Control Uni
 
 ## Lore
 
-The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Pale grey plating over a darker frame, with white light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten muzzles in plain view, and thirteen lasers fire through them. What it has no room for is armor. Its hull is about half a Wraith's and about a quarter of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.
+The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Pale grey plating over a darker frame, with white light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten muzzles in plain view, and fourteen lasers fire through them. What it has no room for is armor. Its hull is about seven tenths of a Wraith's and about three tenths of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.

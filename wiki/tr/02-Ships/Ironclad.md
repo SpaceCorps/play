@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 600.000
-- **Temel hız**: 92
-- **Lazer yuvaları**: 6
+- **Temel hız**: 110
+- **Lazer yuvaları**: 8
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 15
 
@@ -33,7 +33,7 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
 | **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire |
-| **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink (hız sınırı 1.500) |
+| **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 
 ## Hikâye {#lore}
 
-Ironclad bir kuşatma gövdesi olarak doğdu: istasyon toplarının önünde durup uzaylı sürüsünün üzerine fırlattığı her şeyi göğüslemek için yapılmış zırhlı bir kama. Tersaneler zırhı korudu ve kalınlaştırdı; gemiye yedi çekirdek jeneratör yuvası ve Wraith gemisinden %85 daha fazla gövde verdi, ağırlığı taşımak için arkasına bir çift aşırı büyük motor kapsülü astı ve bedelini ödemek için topları altıya indirdi. Hiçbir şeyi geride bırakmak için yapılmadı, buna ihtiyacı da yok. Pilotlar onu sürü ile korumak istedikleri şeyin arasına park eder ve işi koyu gri zırha bırakır. Açık renkli zırh levhaları her çıkıştan sonra değiştirilir; kanatlar boyunca uzanan ışık şeritleri ise geminin görülmek için tasarlanmış tek parçasıdır.
+Ironclad bir kuşatma gövdesi olarak doğdu: istasyon toplarının önünde durup uzaylı sürüsünün üzerine fırlattığı her şeyi göğüslemek için yapılmış zırhlı bir kama. Tersaneler zırhı korudu ve kalınlaştırdı; gemiye yedi çekirdek jeneratör yuvası ve Wraith gemisinin iki katından fazla gövde verdi, ağırlığı taşımak için arkasına bir çift aşırı büyük motor kapsülü astı ve bedelini ödemek için topları sekize indirdi. Hiçbir şeyi geride bırakmak için yapılmadı, buna ihtiyacı da yok. Pilotlar onu sürü ile korumak istedikleri şeyin arasına park eder ve işi koyu gri zırha bırakır. Açık renkli zırh levhaları her çıkıştan sonra değiştirilir; kanatlar boyunca uzanan ışık şeritleri ise geminin görülmek için tasarlanmış tek parçasıdır.

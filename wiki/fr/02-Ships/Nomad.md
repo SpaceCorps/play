@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Le Nomad est un croiseur avec deux fois la coque et deux fois les canons d’un Ostirion : une tête de marteau entre l’Ostirion et le Paragon, qui s’achète à la boutique avec des crédits et du Thulium à la fois. Tout pilote peut l’acheter.
+Le Nomad est un croiseur avec presque deux fois la coque et deux fois les canons d’un Ostirion : une tête de marteau entre l’Ostirion et le Paragon, qui s’achète à la boutique avec des crédits et du Thulium à la fois. Tout pilote peut l’acheter.
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 96 000
-- **Vitesse de base** : 200
+- **Points de vie (PV)** : 111 000
+- **Vitesse de base** : 210
 - **Emplacements laser** : 6
 - **Emplacements extras** : 2
 
@@ -36,4 +36,4 @@ Le Nomad est un croiseur avec deux fois la coque et deux fois les canons d’un 
 
 ## Histoire {#lore}
 
-Le Nomad a été dessiné comme un vaisseau de caravane : une coque de reconnaissance et de transport à long rayon d’action pour les routes au-delà des canons de la station, où un équipage peut voler des semaines sans croiser personne d’amical. Vu de dessus, c’est une tête de marteau. La proue large est blindée sur toute sa largeur de plaques indigo crépusculaire, et son bord avant, un V peu ouvert, porte six canons en trois paires, la paire la plus proche de la passerelle étant celle qui porte le plus loin. Deux longues poutres se resserrent vers les nacelles moteur, une mince épine dorsale porte la passerelle, et sous le marteau un pont cargo ouvert abrite quatre caisses couleur sable et un dôme de capteurs. Sable, indigo crépusculaire et feux de navigation violets sont ses couleurs, et aucun autre vaisseau ne les porte. Les capitaines de convoi voulaient une escorte qui puisse aussi être le convoi, et les chantiers leur ont donné un Ostirion avec deux fois la coque et deux fois les canons.
+Le Nomad a été dessiné comme un vaisseau de caravane : une coque de reconnaissance et de transport à long rayon d’action pour les routes au-delà des canons de la station, où un équipage peut voler des semaines sans croiser personne d’amical. Vu de dessus, c’est une tête de marteau. La proue large est blindée sur toute sa largeur de plaques indigo crépusculaire, et son bord avant, un V peu ouvert, porte six canons en trois paires, la paire la plus proche de la passerelle étant celle qui porte le plus loin. Deux longues poutres se resserrent vers les nacelles moteur, une mince épine dorsale porte la passerelle, et sous le marteau un pont cargo ouvert abrite quatre caisses couleur sable et un dôme de capteurs. Sable, indigo crépusculaire et feux de navigation violets sont ses couleurs, et aucun autre vaisseau ne les porte. Les capitaines de convoi voulaient une escorte qui puisse aussi être le convoi, et les chantiers leur ont donné un Ostirion avec presque deux fois la coque et deux fois les canons.

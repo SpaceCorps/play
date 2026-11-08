@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Blindage de coque -->
 # Blindage de coque {#hull-plating}
 
@@ -45,7 +45,7 @@ Le blindage de coque ne se monte que dans des **emplacements de blindage**, un t
 | **Paragon** | 5 | 75 000 |
 | **Storm** | 7 | 105 000 |
 | **Ironclad** | 15 | 225 000 |
-| **Wraith** | 9 | 135 000 |
+| **Wraith** | 10 | 150 000 |
 
 - **Tous verrouillés au départ.** Un emplacement s’ouvre quand vous le recherchez dans le Skylab : une technologie par emplacement, 1 heure et 10 Dark Matter, dans l’ordre à partir du premier. La vue [Recherche](/wiki/03-Mechanics/Research.md#ship-technologies) montre les emplacements d’un vaisseau sous la forme d’une seule carte avec un point par emplacement.
 - **Un type de vaisseau, pas un seul vaisseau.** Les emplacements que vous avez ouverts pour le Paragon sont ouverts aussi sur chaque design du Paragon ([Designs de vaisseaux](/wiki/03-Mechanics/Ship-Designs.md)). Une technologie est à vous pour toujours : la réinitialisation la conserve.

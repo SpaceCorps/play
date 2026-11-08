@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden a
 
 | Mi | Tárgy |
 |---|---|
-| Lézerek | 8 Helios Beam, mindegyikben egy Damage Amp IV, egy Crit Amp IV és egy Penetration Amp IV |
+| Lézerek | 10 Helios Beam, mindegyikben egy Damage Amp IV, egy Crit Amp IV és egy Penetration Amp IV |
 | Pajzsok és hajtóművek | 11 Heavy Shield Core és 4 Adaptive Core, mindegyikben Capacity és Absorption Shield Cell IV, illetve Impulse és Momentum Thruster IV |
 | Extrák | egy Repair Drone IV, egy Auto-Repair CPU és egy Base CPU II |
 | Hajótest | 15 Hull Plating III |
 
-Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 86,3%-os elnyelést, 89-os sebességet, 945-ös hatótávot és **másodpercenként 4 104** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenkét perc folyamatos tüzet igényel, tíz ilyen nagyjából egy perc tíz másodpercet.
+Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 86,3%-os elnyelést, 98-as sebességet, 945-ös hatótávot és **másodpercenként 4 324** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenhárom perc folyamatos tüzet igényel, tíz ilyen nagyjából 77 másodpercet.
 
 ## Harc ellene {#fighting-him}
 

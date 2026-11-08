@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: 推进 -->
 # 推进与速度 {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Impulse 提供更多固定速度，Momentum 的倍率更大，所以哪个更快
 
 ### 甩开外星人 {#outrunning-aliens}
 
-外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion，装 Impulse Thruster I 时速度为 219.3，装 II 时为 228.6：两者仍然低于 Crystalys，所以要用 III 阶推进器才能甩开它（Impulse Thruster III 为 238.0，IV 为 241.0）。Momentum Thruster 在这艘舰船上速度相同或稍低（Momentum Thruster I 为 219.3，II 至 IV 为 228.3、236.1、238.4）：两个系列的 I 阶和 II 阶都低于 Crystalys，III 阶和 IV 阶则高于它。
+外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion（基础速度 220），装 Impulse Thruster I 时速度为 239.9，装 II 时为 249.2，装 III 时为 258.6，装 IV 时为 261.6：每一阶都能甩开 Crystalys，连可以购买的 Impulse Thruster I 也不例外。Momentum Thruster 在这艘舰船上速度相同或稍低（Momentum Thruster I 为 239.9，II 至 IV 为 248.9、256.7、259.0）：两个系列的每一阶都高于 Crystalys，至少高出 9.9。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4abd6e42693b5459 -->
+<!-- wiki-i18n source: e6bba0f75d99f5cd -->
 <!-- wiki-i18n title: Essaim Pirate -->
 # Essaim Pirate {#pirate-swarm}
 
@@ -32,7 +32,7 @@ L’essaim Pirate est un **Pirate Boss** avec ses **Pirate Scouts** : un vaisse
 - **Tirez sur le boss, pas sur les Scouts.** Les Scouts soignent le boss, mais ce soin est faible à côté de sa coque, et un nouveau Scout arrive aussi souvent que le dit la liste *D’un coup d’œil* : un groupe qui élimine d’abord les Scouts ne prend jamais d’avance sur eux, et seul un très grand groupe peut les éliminer tous et met pourtant plus de temps à finir le boss que celui qui les a laissés tranquilles. Les Scouts vous coûtent du temps, ils ne décident pas du combat.
 - **Éloignez les Scouts.** Un Scout ne soigne que tant qu’il est à portée du boss, donc un Scout qui vous suit hors de cette portée ne soigne rien, et un Ostirion est plus rapide qu’un Scout.
 - **Restez en mouvement.** La roquette du boss est droite et non guidée : un vaisseau qui reste en mouvement l’esquive, un vaisseau immobile est touché.
-- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 le perdent sur `x-3` même tant que les coups se répartissent, et sur `x-2` aussi ; quatre l’abattent en environ quatre minutes dans Alpha. Avec des munitions x4, trois suffisent aussi sur `x-3` (environ deux minutes et demie). Cinq l’abattent en environ trois minutes quand les coups se répartissent et en environ cinq quand un pilote encaisse tout le feu, et perdent alors quatre vaisseaux : un groupe qui laisse un pilote encaisser tout le feu en demande cinq. Dans Beta il faut six pilotes et dans Gamma huit, les coups étant répartis (le boss y est plus grand et ses Scouts soignent davantage). Dans Alpha, sur `x-3` avec des munitions x2, un Ostirion seul n’y arrive pas, un Paragon seul n’y arrive que de justesse (il lui reste quelques pour cent de sa coque) : deux Paragons y arrivent sans risque. Dans Beta et Gamma, sur `x-3`, un Paragon seul est détruit, avec des munitions x2 comme avec des munitions x4. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
+- **Amenez un groupe.** Trois pilotes en Ostirion avec des munitions x2 le perdent sur `x-3` même tant que les coups se répartissent, mais l’emportent sur `x-2` sans perdre de vaisseau ; quatre l’abattent en environ quatre minutes dans Alpha. Avec des munitions x4, trois suffisent aussi sur `x-3` (environ deux minutes et demie). Cinq l’abattent en environ trois minutes quand les coups se répartissent et en environ quatre quand un pilote encaisse tout le feu, et perdent alors deux vaisseaux : un groupe qui laisse un pilote encaisser tout le feu en demande cinq. Dans Beta il faut cinq pilotes et dans Gamma sept, les coups étant répartis (le boss y est plus grand et ses Scouts soignent davantage). Dans Alpha, sur `x-3` avec des munitions x2, un Ostirion seul n’y arrive pas, un Paragon seul n’y arrive que de justesse (il lui reste quelques pour cent de sa coque) : deux Paragons y arrivent sans risque. Dans Beta et Gamma, sur `x-3`, un Paragon seul est détruit, avec des munitions x2 comme avec des munitions x4. Le boss répond au premier pilote qui l’a touché, donc laissez le vaisseau le plus robuste commencer, et utilisez vos compétences (Emergency Repair, Shield Surge : [Compétences](/wiki/03-Mechanics/Abilities.md)) dans un combat aussi long. Les pilotes encore de niveau 2 ou 3 sont trop faibles pour lui, même là où ils volent : restez à l’écart jusqu’à être plus forts.
 - **Le boss revient** après le délai de la liste *D’un coup d’œil*, dans le même secteur.
 
 ## Récompenses et butin {#rewards-and-drops}
@@ -55,7 +55,7 @@ Base : Ironclad, avec 50 % de coque, de bouclier et de dégâts ; la vitesse 
 | Coque | 300 000 | 450 000 | 600 000 |
 | Bouclier | 50 100 | 75 150 | 100 200 |
 | Dégâts des lasers (une salve par seconde) | aucun | aucun | aucun |
-| Vitesse | 92 | 92 | 92 |
+| Vitesse | 110 | 110 | 110 |
 | Portée des lasers | – | – | – |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
@@ -82,7 +82,7 @@ Base : Kitefin, avec 50 % de sa coque et 113 % de ses dégâts laser ; la vi
 | Coque | 12 000 | 18 000 | 24 000 |
 | Bouclier | 9 818 | 14 727 | 19 636 |
 | Dégâts des lasers (une salve par seconde) | 221 | 332 | 442 |
-| Vitesse | 175 | 175 | 175 |
+| Vitesse | 190 | 190 | 190 |
 | Portée des lasers | 700 | 700 | 700 |
 | Rayon d’aggro | 700 | 700 | 700 |
 | Soigne le meneur, chacun, par seconde (coque seulement) | 40 | 60 | 80 |

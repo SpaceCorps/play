@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 81f1785f1e0ba446 -->
+<!-- wiki-i18n source: 110ad87b2e059bc1 -->
 <!-- wiki-i18n title: 物品栏 -->
 # 物品栏与装备 {#inventory-equipment}
 
@@ -15,12 +15,12 @@
 - **发生器槽位**：护盾、引擎和自适应核心共用的槽位。它们分为三个效率档，由所在的档位决定物品基础属性有多少能计入。在机库中，每个档位的名称旁都有一个 (i)，可以查看它的说明：
   - **核心槽位**：放在这里的物品能获得 **100%** 的基础属性。每艘舰船都有核心槽位：把你最强的护盾和引擎放在这里。
   - **支援槽位**：放在这里的物品能获得 **75%** 的基础属性（例如 75% 的速度或护盾容量）。每艘舰船都有支援槽位。
-  - **辅助槽位**：放在这里的物品能获得 **50%** 的基础属性。只有部分舰船拥有辅助槽位（Nomad 有 1 个，Paragon 和 Storm 有 2 个，Ironclad 有 3 个，Wraith 有 4 个；Protos、Kitefin 和 Ostirion 没有）。它们最适合放额外的、较弱的护盾和引擎，而你最强的则放进核心槽位。
+  - **辅助槽位**：放在这里的物品能获得 **50%** 的基础属性。每艘舰船至少有一个辅助槽位（Protos、Kitefin、Ostirion 和 Nomad 各有 1 个，Paragon 和 Storm 有 2 个，Ironclad 有 3 个，Wraith 有 4 个）。它们最适合放额外的、较弱的护盾和引擎，而你最强的则放进核心槽位。
   - **无人机槽位**：你的某台无人机上的护盾与核心槽位中的护盾一样计入，获得它 **100%** 的属性（参见[无人机机制](/wiki/03-Mechanics/Drones.md)）。
   - **未分配/旧版槽位**：放在这里的物品不提供任何属性。
   - **叠加也会递减**：护盾和引擎按强度从高到低排名（按各自在槽位份额之后所计入的值），档位的份额再乘以它们所在名次的份额：第 1 到第 4 件全额计入，第 5 到第 7 件分别按 85%、70% 和 55% 计入，第 8 件及以后：护盾按 50%、引擎按 25% 计入。参见[护盾](/wiki/03-Mechanics/Shields.md)和[速度](/wiki/03-Mechanics/Speed.md)。
 - **附加槽位**：用于专门的功能物品，例如 Repair Drone。Protos、Kitefin、Ostirion 和 Nomad 有两个；你制造的 Paragon、Ironclad、Wraith 和 Storm 有三个；Extra Slots CPU（[附加装置](/wiki/06-Items/Extras.md#extra-slots-cpus)）能再增加 3、5 或 7 个。
-- **装甲槽位**：用于增加船体的[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)。只有你制造的四艘舰船才有（Paragon 5 个，Storm 7 个，Ironclad 15 个，Wraith 9 个），每个在你于 Skylab 研究之前都是锁定的，两种配置里都一样。
+- **装甲槽位**：用于增加船体的[船体装甲](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)。只有你制造的四艘舰船才有（Paragon 5 个，Storm 7 个，Ironclad 15 个，Wraith 10 个），每个在你于 Skylab 研究之前都是锁定的，两种配置里都一样。
 
 ## 物品栏排序 {#inventory-order}
 

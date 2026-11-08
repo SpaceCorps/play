@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 356dbca5d33cc408 -->
+<!-- wiki-i18n source: 32b893f12261ffc4 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter e Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ A **Dark Matter** é o recurso por trás do topo da árvore de tecnologias, dos 
 ## Em um minuto {#in-one-minute}
 
 - **A Dark Matter é um recurso e se chama simplesmente Dark Matter em todo lugar.** O buraco negro no meio do Setor de perigo 4 (`DS-4`) a produz: cada foguete N.I.K.E. que chega ao buraco devolve de 1 a 3 Dark Matter (2 em média), em caixas pequenas na borda da zona dele.
-- **Para que serve.** 107 tecnologias do Centro de Pesquisa a pedem, de 5 a 60 cada uma e 1.354 no total, e a Montagem a prensa na Dark Matter Plate. A partir do dia 11 da temporada uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) também a queima, como combustível: um tanque tem poucas Dark Matter, e elas se perdem se a escavadeira for destruída. No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
+- **Para que serve.** 108 tecnologias do Centro de Pesquisa a pedem, de 5 a 60 cada uma e 1.364 no total, e a Montagem a prensa na Dark Matter Plate. A partir do dia 11 da temporada uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) também a queima, como combustível: um tanque tem poucas Dark Matter, e elas se perdem se a escavadeira for destruída. No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
 - **No Centro de Pesquisa** você adiciona Dark Matter do seu porão (com a nave pousada) antes de apertar Iniciar. A pesquisa a leva quando começa.
 - **Uma Dark Matter Plate é outro item.** Pesquise primeiro a receita dela (o grupo Recursos da árvore: 1 dia e 10 Dark Matter) e depois a fabrique na Montagem com 5 Dark Matter, uma Velkonite Reinforced Plate, uma Orvium Reinforced Plate e 250 Thulium.
 - **Para que serve uma plate.** O último nível de cada cadeia de melhoria pede **4** e pelo menos uma Ancient Control Unit: os amps, as células de escudo e os propulsores do nível IV, o Heavy Shield Core, o Engine III, o Adaptive Core III, o Helios Beam, o Extra Slots CPU III e o Base CPU II (13 peças). A Forja pede 2 para elevar um item de Divino a Rompedor, e mais 2 de Rompedor a Eterno. Os módulos de motores, de defesa e de radar do Skylab também pedem placas, para construir e para melhorar ([Recursos](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@ A **Dark Matter** é o recurso por trás do topo da árvore de tecnologias, dos 
 | **O que é** | Um recurso Épico | Um recurso Mítico |
 | **De onde vem** | O buraco negro no setor de perigo 4, pelos foguetes N.I.K.E. disparados nele; um pouco do Enxame Dormant e das Inert Masses do Dormant Swamp | A Montagem, prensada com 5 Dark Matter, uma Velkonite Reinforced Plate, uma Orvium Reinforced Plate e 250 Thulium |
 | **O que você faz antes** | Pesquisar a N.I.K.E. (3 h, sem Dark Matter) e fabricar alguns | Pesquisar a receita da plate (1 d, 10 Dark Matter) |
-| **Para que serve** | Os custos de pesquisa (107 tecnologias, 1.354 no total) e a plate | O último nível de cada cadeia de melhoria: 4 para cada uma das 13 peças; a melhoria do Master Drone: 10; a Forja: 2 para cada um dos dois degraus mais altos dela |
+| **Para que serve** | Os custos de pesquisa (108 tecnologias, 1.364 no total) e a plate | O último nível de cada cadeia de melhoria: 4 para cada uma das 13 peças; a melhoria do Master Drone: 10; a Forja: 2 para cada um dos dois degraus mais altos dela |
 
 ## Como conseguir Dark Matter {#how-to-get-dark-matter}
 
@@ -49,7 +49,7 @@ Cerca de **5 foguetes fazem 10 Dark Matter**. O Resource Magnet Booster não som
 
 ## Dark Matter no Centro de Pesquisa {#in-the-research-centre}
 
-As tecnologias do topo da árvore pedem Dark Matter além da ciência: **10** para cada uma das 16 tecnologias mais altas, e **5, 13 ou 20** para cada uma das 16 formações de drones (quanto mais forte a formação, mais). As duas pesquisas da Hull Plating pedem **25 e 40**, e as tecnologias de naves, os 13 designs e os 36 slots de blindagem, **10** cada uma. Os módulos de motores, de defesa e de radar do Skylab pedem **5, 10, 15 ou 20** por nível a partir do segundo, 115 no total ([Pesquisa](/wiki/03-Mechanics/Research.md#module-technologies)). As tabelas de [Pesquisa](/wiki/03-Mechanics/Research.md#dark-matter) listam todas as outras.
+As tecnologias do topo da árvore pedem Dark Matter além da ciência: **10** para cada uma das 16 tecnologias mais altas, e **5, 13 ou 20** para cada uma das 16 formações de drones (quanto mais forte a formação, mais). As duas pesquisas da Hull Plating pedem **25 e 40**, e as tecnologias de naves, os 13 designs e os 37 slots de blindagem, **10** cada uma. Os módulos de motores, de defesa e de radar do Skylab pedem **5, 10, 15 ou 20** por nível a partir do segundo, 115 no total ([Pesquisa](/wiki/03-Mechanics/Research.md#module-technologies)). As tabelas de [Pesquisa](/wiki/03-Mechanics/Research.md#dark-matter) listam todas as outras.
 
 1. **Abra a visão Pesquisa** do seu Skylab na estação e escolha a tecnologia. O cartão dela tem uma linha **Dark Matter**: quanta há no Centro, de quanta ela precisa (por exemplo 3 / 10).
 2. **Aperte Adicionar.** Isso move Dark Matter do seu porão para o Centro de Pesquisa, o que falta, até onde você a carrega. Sua nave precisa estar pousada. **Recuperar** a devolve ao seu porão.
@@ -94,10 +94,10 @@ Uma plate é prensada a partir de 5 Dark Matter, uma Velkonite Reinforced Plate,
 | :--- | ---: | ---: | ---: | ---: |
 | Uma peça do último nível | 1 | 4 | 20 | 10 |
 | Um Helios Beam com seus 3 amps do nível IV | 4 | 16 | 80 | 40 |
-| Um Paragon | 40 | 160 | 800 | 400 |
-| Um Wraith | 60 | 240 | 1.200 | 600 |
+| Um Paragon | 44 | 176 | 880 | 440 |
+| Um Wraith | 64 | 256 | 1.280 | 640 |
 
-As 40 peças de um Paragon são os 8 lasers dele, os 24 amps deles e os 8 slots de gerador e suporte (3 + 3 + 2); as 60 de um Wraith são os 12 lasers dele, os 36 amps deles e os 12 slots de gerador e suporte (4 + 4 + 4).
+As 44 peças de um Paragon são os 9 lasers dele, os 27 amps deles e os 8 slots de gerador e suporte (3 + 3 + 2); as 64 de um Wraith são os 13 lasers dele, os 39 amps deles e os 12 slots de gerador e suporte (4 + 4 + 4).
 
 ## Quanto você precisa {#how-much-you-need}
 
@@ -107,7 +107,7 @@ As 40 peças de um Paragon são os 8 lasers dele, os 24 amps deles e os 8 slots 
 | Uma Dark Matter Plate | 5 | 2,5 |
 | As duas plates de uma etapa da Forja | 10 | 5 |
 | As quatro plates de uma peça do último nível | 20 | 10 |
-| Toda tecnologia que pede Dark Matter | 1.354 | 677 |
+| Toda tecnologia que pede Dark Matter | 1.364 | 682 |
 
 Um primeiro aprimoramento do zero é a receita (10) e duas plates (10): 20 Dark Matter, cerca de 10 foguetes N.I.K.E., ou seja, duas fabricações. Um primeiro amp de nível IV do zero é a receita da plate (10), a tecnologia do próprio amp (10) e 4 plates (20): 40 Dark Matter, cerca de 20 foguetes N.I.K.E.
 

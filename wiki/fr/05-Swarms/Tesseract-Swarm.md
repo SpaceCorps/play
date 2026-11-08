@@ -13,11 +13,11 @@ L’essaim Tesseract est un unique et immense vaisseau-mère, le **Tesseract**, 
 - **Combien** : Un dans chaque monde
 - **Apparaît** : Du jour 4 de la saison jusqu’à la réinitialisation (Bêta et Gamma : dès le jour 1 de la saison)
 - **Meneur** : Tesseract
-- **Position** : À moins de 2 500 unités du point 27 000, 5 000 de la carte du secteur
+- **Position** : À moins de 2 500 unités du point 25 900, 6 100 de la carte du secteur
 - **Régénération** : 125 000 PV par seconde dans Alpha, d’abord la coque puis le bouclier, une fois 5 s écoulées sans dégâts
 - **Suivants** : Jusqu’à 100 × Facet, 20 de plus toutes les 5 s tant que le meneur est touché
 - **Arrivée des suivants** : Seulement si le meneur a été touché depuis moins de 5 s, à moins de 400 unités de lui
-- **Chasseurs** : Chaque Facet vole par trajets à lui autour du meneur, à moins de 1 800 unités de celui-ci, et ne poursuit personne. Il tire sur le pilote le plus proche qui a touché le meneur quand ce pilote est à sa portée. Sans cible, il continue de voler autour du meneur et part 20 s après le dernier coup
+- **Chasseurs** : Chaque Facet vole par trajets à lui autour du meneur, à moins de 3 600 unités de celui-ci, et ne poursuit personne. Il tire sur le pilote le plus proche qui a touché le meneur quand ce pilote est à sa portée. Sans cible, il continue de voler autour du meneur et part 20 s après le dernier coup
 - **Meneur détruit** : Les suivants partent 1 min après la destruction du meneur, qu’ils attaquent ou non
 - **Revient** : 30 min après la destruction du meneur, dans le même secteur
 - **Annonces** : Les pilotes du secteur sont prévenus quand le meneur apparaît et quand il est détruit. Ce sont des lignes Système : elles apparaissent dans l’onglet **Système** du chat, avec un compteur de lignes non lues, et pas dans **Global** ni **Local**. Le fil des éliminations nomme le pilote à qui l’élimination est créditée.

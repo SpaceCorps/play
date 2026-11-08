@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Ein Alien, das von dir ablässt, streift von dort aus weiter, wo es steht, nie d
 
 Aliens schieben sich nicht gegenseitig auseinander: Ein Rudel, das hinter einem Piloten her ist, rückt vor, ohne Platz zwischen seinen Schiffen zu lassen, und ein Rudel, das seinen Piloten verloren hat, löst sich nur auf, indem jedes Alien seinen eigenen Weg wählt. Von einem **Schiff** halten Aliens aber Abstand: Sie landen nie in der Hülle eines Piloten, und ein Pilot, der sich auf eines stellt, schiebt es mit.
 
-Schneller zu fliegen hilft dir nur bis zu einem gewissen Punkt: Eine Protos (160) ist nicht schneller als irgendein Alien, das jagt (Phantasm 160, Bulwark 175, Crystalys 230), also beendet die Verfolgungsgrenze die Jagd, nicht dein Tempo.
+Schneller zu fliegen hilft dir nur bis zu einem gewissen Punkt: Eine Protos (180) ist nur wenig schneller als Phantasm (160) und Bulwark (175), nicht schneller als Goombah (180) und langsamer als Crystalys (230), also beendet die Verfolgungsgrenze die Jagd, nicht dein Tempo.
 
 ---
 

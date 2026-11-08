@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Az az idegen, amely elenged, onnan kóborol tovább, ahol áll, sosem oda, ahol 
 
 Az idegenek nem tolják szét egymást: az egy pilóta nyomában lévő falka úgy közeledik, hogy nem hagy helyet a hajói között, a pilótáját elvesztett falka pedig csak úgy bomlik fel, hogy minden idegen a maga útját választja. Hajótól viszont az idegen távol marad: sosem kerül egy pilóta hajótestének belsejébe, és ha egy pilóta rááll egyre, azt maga előtt tolja.
 
-A gyorsabb repülés csak egy pontig segít: a Protos (160) nem gyorsabb egyetlen vadászó idegennél sem (Phantasm 160, Bulwark 175, Crystalys 230), így az üldözésnek a póráz vet véget, nem a sebességed.
+A gyorsabb repülés csak egy pontig segít: a Protos (180) csak egy kicsit gyorsabb a Phantasmnál (160) és a Bulwarknál (175), nem gyorsabb a Goombahnál (180), és lassabb a Crystalysnál (230), így az üldözésnek a póráz vet véget, nem a sebességed.
 
 ---
 

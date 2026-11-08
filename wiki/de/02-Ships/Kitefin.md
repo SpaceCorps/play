@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten P
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 24.000
-- **Grundtempo**: 175
+- **Grundtempo**: 190
 - **Laser-Slots**: 3
 - **Extra-Slots**: 2
 
@@ -15,7 +15,7 @@ Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten P
 
 - **Kern-Slots (100 % Wirkungsgrad)**: 2
 - **Support-Slots (75 % Wirkungsgrad)**: 3
-- **Hilfs-Slots (50 % Wirkungsgrad)**: 0
+- **Hilfs-Slots (50 % Wirkungsgrad)**: 1
 
 ---
 

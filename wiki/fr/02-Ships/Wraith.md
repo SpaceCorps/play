@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c75311ce44403c5 -->
+<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -6,11 +6,11 @@ Le Wraith est le vaisseau ultime de classe cuirassé : une puissance de feu in�
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 324 000
-- **Vitesse de base** : 220
-- **Emplacements laser** : 12
+- **Points de vie (PV)** : 256 000
+- **Vitesse de base** : 210
+- **Emplacements laser** : 13
 - **Emplacements extras** : 3
-- **Emplacements de blindage**: 9
+- **Emplacements de blindage**: 10
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
@@ -27,16 +27,16 @@ Le Wraith est le vaisseau ultime de classe cuirassé : une puissance de feu in�
 
 ## Recherche {#research}
 
-- **Emplacements de blindage.** Ce vaisseau a 9 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 9 remplis de Hull Plating III ajoutent 135 000 de coque.
+- **Emplacements de blindage.** Ce vaisseau a 10 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 10 remplis de Hull Plating III ajoutent 150 000 de coque.
 - **Designs.** Ce vaisseau a 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-en un (10 h et 10 Dark Matter), puis transformez votre Wraith en l’un d’eux dans l’Assemblage : le changement est définitif.
 
 | Design | Ce qu’il change |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom |
-| **Wraith BILLY** | +5 % de coque de base, +10 de vitesse de base, +10 % de capacité du bouclier, Diminisher |
+| **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher |
 | **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod |
-| **Wraith ATARAXIS** | -1 emplacement laser, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff |
-| **Wraith MATT** | -10 % de coque de base, +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers |
+| **Wraith ATARAXIS** | -1 emplacement laser, +1 emplacement de soutien, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff |
+| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

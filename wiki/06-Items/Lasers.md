@@ -32,11 +32,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -60,7 +60,7 @@ Equip lasers directly on ship weapon slots or inside drones to increase your off
 | **Quantum Laser II** | Common | 65 | 1% | 700 | 2 | 80,000 Credits |
 | **Quantum Laser III** | Rare | 80 | 10% | 800 | 3 | Craftable Only |
 | **Starfire-III** | Mythical | 135 | 15% | 850 | 3 | Craftable Only |
-| **Helios Beam** | Mythical | 185 | 25% | 900 | 3 | Craftable Only |
+| **Helios Beam** | Mythical | 150 | 20% | 900 | 3 | Craftable Only |
 
 The Range column is each laser's own. **Your ship fires at the average of the ranges of its lasers** (the lasers in your drones count too), rounded to the nearest unit, and every laser fires once the target is inside that distance. A Starfire-III beside two Quantum Laser II gives a ship range of 750, not 850; three Starfire-III keep 850, and lasers that are all alike change nothing. A Forge range buff counts on its own laser before the average is taken. With no laser the Hangar shows no range (a dash) and the lasers cannot fire, but your rockets still can, each with its own range (see [Rockets](/wiki/06-Items/Rockets.md)). In the Hangar the tile says "Avg. range" where your lasers differ, and hovering it lists each laser's range.
 
@@ -131,13 +131,13 @@ Equip these directly into a laser's slot to augment its characteristics. There a
 | Penetration Amp III | 2,000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Cores, 50 Ship Fragments, 2 Velkonite Reinforced Plates |
 | Penetration Amp IV | 2,400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plates |
 
-A Helios Beam with its 3 tier IV amps holds 4 last-tier pieces: 16 Dark Matter Plates, 80 Dark Matter, 40 N.I.K.E. rockets on average. A Wraith with the last tier in every slot holds 1,200 Dark Matter ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+A Helios Beam with its 3 tier IV amps holds 4 last-tier pieces: 16 Dark Matter Plates, 80 Dark Matter, 40 N.I.K.E. rockets on average. A Wraith with the last tier in every slot holds 1,280 Dark Matter ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Which amp goes where
 
-A damage amp adds the same damage to any laser, so it is worth the most on the **Quantum lasers**. A crit amp multiplies what the laser already does, so it is worth more the harder the laser hits: it draws level with the damage line on the **Starfire-III** and comes out about 3.5% ahead on the **Helios Beam**. A laser's critical chance stops at 100%: three Crit Amp III or Crit Amp IV take a Helios Beam to exactly that. A Penetration Amp adds no damage and no critical chance: it is for ships whose shields would otherwise take most of your hit ([below](#when-is-a-penetration-amp-worth-a-slot)).
+A damage amp adds the same damage to any laser, so it is worth the most on the **Quantum lasers**. A crit amp multiplies what the laser already does, so it is worth more the harder the laser hits: it draws level with the damage line on the **Starfire-III** and comes out about 1% ahead on the **Helios Beam**. A laser's critical chance stops at 100%: three Crit Amp III or Crit Amp IV take a Helios Beam (20% of its own) to 95%. A Penetration Amp adds no damage and no critical chance: it is for ships whose shields would otherwise take most of your hit ([below](#when-is-a-penetration-amp-worth-a-slot)).
 
-Filled with the same amp, a laser is always stronger than the one below it, so a better amp never replaces a better laser: a Quantum Laser III with three Damage Amp IV does less than a Helios Beam with three Damage Amp I (with pieces of the same enchant tier: a Quantum Laser III and Damage Amp IV forged to Godly or better, with the best rolls, can pass a plain Helios Beam in Damage Amp I, by a hair at Godly).
+Filled with the same amp, a laser is always stronger than the one below it, so a better amp makes up only part of a better laser: a Quantum Laser III with three Damage Amp IV does more than a Helios Beam with three Damage Amp I, but less than one with three Damage Amp III (with pieces of the same enchant tier: a Quantum Laser III and Damage Amp IV forged to Eternal, with the best rolls, can pass a plain Helios Beam in Damage Amp III, by a hair).
 
 ---
 
@@ -191,7 +191,7 @@ The Siphon Battery is ammo for stealing shields instead of breaking hulls. It de
 
 Every laser hit takes points off your target's absorbance, from up to three sources that add up: your **ammo** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), your **Penetration Amps** and a **drone formation** (Gemini +15%; [Drone Formations](/wiki/03-Mechanics/Formations.md)). **Nothing caps the total** (a direct rocket adds its own penetration and the formation's the same way: [Rockets](/wiki/06-Items/Rockets.md)). The shields then take the target's absorbance less the penetration of the hit, and the hull takes the rest ([Shield Mechanics](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 36%; one Penetration Amp IV in one laser of twelve makes 1%. A Wraith has 12 lasers and 36 amp slots, and all 36 must be filled to reach 36%.
+- **Your amps count as the mean of your lasers.** A volley is one hit, so the game adds up the penetration of each laser's amps (the lasers in your drones count too) and takes the mean over your lasers, each weighing by its damage, as it does for the critical chance. Three Penetration Amp IV in every laser make 36%; one Penetration Amp IV in one laser of thirteen makes about 1%. A Wraith has 13 lasers and 39 amp slots, and all 39 must be filled to reach 36%.
 - **The Hangar shows it.** The combat stats of the Hangar have a **Penetration** tile on every ship, with the figure of the laser amps of the configuration it shows (0.0% without a Penetration Amp); ammo and formation are not in it. The **Ship window** in flight has a **Penetration** chip at the end of its bottom row (the Config and Speed chips show only an icon and a number to make room): it shows the total of a laser hit, your amps, the formation you wear and the ammo you fire, added up as you change them, and its tip lists the three parts.
 - **The best laser makes 61% on x4, 71% on Antimatter.** An Experimental Fusion Core (10%), a Gemini (15%) and three Penetration Amp IV in every laser (36%) make 61%; an Antimatter Battery (20%) in its place makes 71%, at x3 damage instead of x4.
 - **A Forge buff on a Penetration Amp IV counts.** A Penetration Amp is forgeable like the other amps, and its one buff multiplies the penetration: an Eternal buff (+9% to +15%) makes a Penetration Amp IV 13.1 to 13.8 points instead of 12. In the best build, three Eternal ones add up to 66.4%, and every point of it counts.
@@ -226,6 +226,6 @@ The best laser empties a shield core with no cell and a Light Shield Core with i
 
 **A Penetration Amp counters absorbance, and the higher it is, the more: against a small-hulled ship at about 101% (Season Store, Forge and Rampart builds) a Penetration loadout kills about 2.6 times faster than the best plain one, and against the best shield out of the box (85%) a trio of Penetration Amps takes about 19% less time than a trio of Crit Amps of the same tier. Against aliens it gains almost nothing.**
 
-- **It gives no damage.** On a Helios Beam, three Penetration Amp IV make 187 damage a volley (x1 ammo, the mean of the roll and the crits), where three Damage Amp IV make 356 and three Crit Amp IV 369: about half. What it buys back is the shield's share, so it pays only where the hull is small next to the shield and the absorbance is high; against a Wraith or an Ironclad, whose big hull holds anyway, a plain Damage or Crit set is about as fast (one Penetration Amp in a laser gains 5% at most).
+- **It gives no damage.** On a Helios Beam, three Penetration Amp IV make 149 damage a volley (x1 ammo, the mean of the roll and the crits), where three Damage Amp IV make 308 and three Crit Amp IV 312: about half. What it buys back is the shield's share, so it pays only where the hull is small next to the shield and the absorbance is high; against a Wraith or an Ironclad, whose big hull holds anyway, a plain Damage or Crit set is about as fast (one Penetration Amp in a laser gains 5% at most).
 - **Aliens.** Their shields take 80% of a hit less your penetration, so it works on them too, but a Damage or Crit Amp of the tier kills them as fast or faster, except a Phantasm or a Goombah fought with a formation, where one Penetration Amp in a laser gains up to 5%.
-- **What it costs.** Each Penetration Amp IV takes 4 Dark Matter Plates (20 Dark Matter), like every tier IV amp, so a Wraith that fills its 36 slots needs 144 plates, 720 Dark Matter.
+- **What it costs.** Each Penetration Amp IV takes 4 Dark Matter Plates (20 Dark Matter), like every tier IV amp, so a Wraith that fills its 39 slots needs 156 plates, 780 Dark Matter.

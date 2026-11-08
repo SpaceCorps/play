@@ -179,6 +179,7 @@ Os Lotes são as ofertas do próprio jogo: munição, foguetes e EMP Charges, tr
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - No início de cada hora UTC abrem 3 lotes novos, cada um de uma mercadoria diferente, e cada um fica aberto por 4 horas, de modo que 12 ficam abertos ao mesmo tempo.
+- Cada mundo tem os seus próprios lotes: Alpha, Beta e Gamma recebem estes lotes a cada hora, com mercadorias diferentes na mesma hora, em um tamanho definido pelos pilotos daquele mundo. Você só vê, dá lances e ganha os lotes do mundo em que voa. O Mercado e as ordens de compra são compartilhados pelos três mundos.
 - O lance inicial é de 20% do preço da Loja da mercadoria. Cada lance seguinte precisa superar o mais alto em pelo menos 5%, e em pelo menos 100 créditos.
 - O seu lance é pago na hora e fica retido. Se alguém cobrir, ele volta para você na hora.
 - Um lance nos últimos 2 min de um lote move o fim dele para 2 min depois do lance, no máximo 5 vezes.

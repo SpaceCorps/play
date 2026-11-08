@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Prestationer -->
 # Prestationer {#achievements}
 
@@ -69,7 +69,7 @@ De 37 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Stationsbyggare | Bygg 5 olika Skylab-moduler. | Vanlig |
 | Fullt utrustad | Bygg alla 16 Skylab-moduler. | Episk |
 | Lärd | Forska fram 50 tekniker. | Ovanlig |
-| Arkivarie | Forska fram alla 158 tekniker. | Legendarisk |
+| Arkivarie | Forska fram alla 159 tekniker. | Legendarisk |
 
 ### Flotta {#group-fleet}
 

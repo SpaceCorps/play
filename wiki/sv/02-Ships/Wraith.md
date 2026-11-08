@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c75311ce44403c5 -->
+<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -6,11 +6,11 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 324 000
-- **Grundhastighet**: 220
-- **Laserplatser**: 12
+- **Träffpoäng (HP)**: 256 000
+- **Grundhastighet**: 210
+- **Laserplatser**: 13
 - **Extraplatser**: 3
-- **Pansarplatser**: 9
+- **Pansarplatser**: 10
 
 ### Generator- och stödplatser {#generator-support-slots}
 
@@ -27,16 +27,16 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 9 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 9 fyllda med Hull Plating III ger 135 000 skrov.
+- **Pansarplatser.** Det här skeppet har 10 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 10 fyllda med Hull Plating III ger 150 000 skrov.
 - **Designer.** Skeppet har 5 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom |
-| **Wraith BILLY** | +5 % basskrov, +10 bashastighet, +10 % sköldkapacitet, Diminisher |
+| **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher |
 | **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod |
-| **Wraith ATARAXIS** | -1 laserplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff |
-| **Wraith MATT** | -10 % basskrov, +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning |
+| **Wraith ATARAXIS** | -1 laserplats, +1 stödplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff |
+| **Wraith MATT** | +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

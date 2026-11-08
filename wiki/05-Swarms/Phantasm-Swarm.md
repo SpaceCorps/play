@@ -27,7 +27,7 @@ The Phantasm Swarm is a **Boss Phantasm** with its **Phantasm Guards**: an enorm
 
 ## How the fight goes
 
-- **Bring a group.** Three level 4–5 pilots with x2 ammo destroy it in about a minute and a half in Alpha, losing at most one ship; one pilot of that level alone is destroyed, and so are two. Better ships and x4 ammo make it much quicker.
+- **Bring a group.** Three level 4–5 pilots with x2 ammo destroy it in about a minute and a half in Alpha, losing at most one ship; one pilot of that level alone is destroyed, and two only just win it, and only while the hits are shared. Better ships and x4 ammo make it much quicker.
 - **Shoot the boss, not the guards.** A guard falls in seconds, but a new one comes as often as the *At a glance* list says, and what the guards heal is a small part of what a group deals: leaving them alone costs a little time, chasing them costs more.
 - **Beta and Gamma are harder.** The swarms of those worlds are stronger ([Worlds](/wiki/05-Swarms/Swarms.md#the-worlds)), so they need more pilots or better ammo.
 - **Watch the sector.** `x-4` is a PvP sector in Alpha, and `x-3` and `x-4` are in Beta and Gamma ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): a rival can join the fight or wait for the box. Keep a ship of the group on watch.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -44,7 +44,7 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 ### Schematics
 
-**Befejezi a most futó kutatást**, ha a technológia kutatása **legfeljebb 24 órát** vesz igénybe. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 158 technológiájából 142 megfelel. A 16, amely 48 vagy 72 órát vesz igénybe, nem: a Wraith, három drónformáció, a Hull Plating III, a Hajtóműmodul és a Védelmi modul 4. és 5. szintje és hét Pilóta-technológia.
+**Befejezi a most futó kutatást**, ha a technológia kutatása **legfeljebb 24 órát** vesz igénybe. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 159 technológiájából 143 megfelel. A 16, amely 48 vagy 72 órát vesz igénybe, nem: a Wraith, három drónformáció, a Hull Plating III, a Hajtóműmodul és a Védelmi modul 4. és 5. szintje és hét Pilóta-technológia.
 
 - **A kutatási idő számít, nem a hátralévő.** Egy 48 órás technológia, amelyből még egy óra van hátra, ugyanúgy elutasítva marad: a Schematics azt nézi, mennyi ideig tart a technológia összesen.
 - **Az ár marad kifizetve.** A Dark Mattert, a krediteket és a Thuliumot a kutatás indításakor levonták, és nem adják vissza. A tudomány, amelyet a kutatás még nem égetett el, a tartályodban marad.

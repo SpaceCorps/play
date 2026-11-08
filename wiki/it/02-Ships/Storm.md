@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-La Storm è un caccia a cannone di vetro: la velocità di base più alta e il maggior numero di laser di tutte le navi (13) su uno scafo leggero per la sua classe. Secondo la classificazione del gioco (più di 10 slot laser) è un Dreadnought classe IV. Si crea nell’Assemblaggio dopo che il Centro ricerche ne ha ricercato la tecnologia, e a parità di laser perde uno contro uno contro una Wraith o una Ironclad.
+La Storm è un caccia a cannone di vetro: la velocità di base più alta e il maggior numero di laser di tutte le navi (14) su uno scafo leggero per la sua classe. Secondo la classificazione del gioco (più di 10 slot laser) è un Dreadnought classe IV. Si crea nell’Assemblaggio dopo che il Centro ricerche ne ha ricercato la tecnologia, e a parità di laser perde uno contro uno contro una Wraith o una Ironclad.
 
 ## Statistiche {#stats}
 
-- **Punti scafo (HP)**: 150.000
-- **Velocità di base**: 250
-- **Slot laser**: 13
+- **Punti scafo (HP)**: 180.000
+- **Velocità di base**: 260
+- **Slot laser**: 14
 - **Slot extra**: 3
 - **Slot corazza**: 7
 
@@ -32,9 +32,9 @@ La Storm è un caccia a cannone di vetro: la velocità di base più alta e il ma
 
 | Design | Cosa cambia |
 | :--- | :--- |
-| **Storm NOTSUM** | -20% scafo base, +20 velocità base, +2% velocità, Blink |
-| **Storm BRATAN** | -50 velocità base, +2 slot laser, -50% capacità dello scudo, +10% penetrazione dello scudo |
-| **Storm RECON** | -20% scafo base, +5% velocità, -2 slot laser, Chameleon |
+| **Storm NOTSUM** | -10% scafo base, +50 velocità base, +2% velocità, Blink |
+| **Storm BRATAN** | -50 velocità base, +2 slot laser, -25% capacità dello scudo, +10% penetrazione dello scudo, Heal Pod |
+| **Storm RECON** | -20% scafo base, +5% velocità, -1 slot laser, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Una volta ricercata la sua tecnologia, creare una Storm nell’Assemblaggio rich
 
 ## Storia {#lore}
 
-La Storm è ciò che i cantieri costruiscono quando l’unico ordine è la velocità. Una fusoliera ad ago con un abitacolo scuro sta tra due anelli a mezzaluna aperti, ciascuno un arco corazzato attorno a un vuoto che termina con un corno rialzato, mentre una gondola motore attraversa l’apertura: la maggior parte della nave è propulsione. La corazza grigio chiaro su un telaio più scuro, con strisce luminose bianche, la rende facile da vedere, e vuole essere vista. Due lunghi cannoni stanno sulle lame anteriori e otto piccoli emettitori sugli anelli e sulle pinne alle spalle, dieci bocche in piena vista, attraverso cui sparano tredici laser. Non ha spazio per la corazza. Il suo scafo è circa la metà di quello di una Wraith e circa un quarto di quello di una Ironclad, perciò i suoi piloti colpiscono per primi, colpiscono forte e se ne vanno prima che qualcosa di più grosso si giri.
+La Storm è ciò che i cantieri costruiscono quando l’unico ordine è la velocità. Una fusoliera ad ago con un abitacolo scuro sta tra due anelli a mezzaluna aperti, ciascuno un arco corazzato attorno a un vuoto che termina con un corno rialzato, mentre una gondola motore attraversa l’apertura: la maggior parte della nave è propulsione. La corazza grigio chiaro su un telaio più scuro, con strisce luminose bianche, la rende facile da vedere, e vuole essere vista. Due lunghi cannoni stanno sulle lame anteriori e otto piccoli emettitori sugli anelli e sulle pinne alle spalle, dieci bocche in piena vista, attraverso cui sparano quattordici laser. Non ha spazio per la corazza. Il suo scafo è circa sette decimi di quello di una Wraith e circa tre decimi di quello di una Ironclad, perciò i suoi piloti colpiscono per primi, colpiscono forte e se ne vanno prima che qualcosa di più grosso si giri.

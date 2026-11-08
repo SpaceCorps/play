@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Phantasm-svärm -->
 # Phantasm-svärm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ Phantasm-svärmen är en **Boss Phantasm** med sina **Phantasm Guards**: en enor
 
 ## Hur striden går till {#how-the-fight-goes}
 
-- **Ta med en grupp.** Tre piloter på nivå 4–5 med ammunition x2 förstör den på ungefär en och en halv minut i Alpha och förlorar högst ett skepp; en ensam pilot på den nivån förstörs, och två likaså. Bättre skepp och ammunition x4 gör det mycket snabbare.
+- **Ta med en grupp.** Tre piloter på nivå 4–5 med ammunition x2 förstör den på ungefär en och en halv minut i Alpha och förlorar högst ett skepp; en ensam pilot på den nivån förstörs, och två vinner med knapp nöd, och bara medan träffarna fördelas. Bättre skepp och ammunition x4 gör det mycket snabbare.
 - **Skjut på bossen, inte på Guards.** En Guard faller på sekunder, men en ny kommer lika ofta som listan *I korthet* säger, och det Guards läker är en liten del av vad en grupp gör: att låta dem vara kostar lite tid, att jaga dem kostar mer.
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), så de kräver fler piloter eller bättre ammunition.
 - **Håll koll på sektorn.** `x-4` är en PvP-sektor i Alpha, och `x-3` och `x-4` är det i Beta och Gamma ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): en rival kan ansluta sig till striden eller vänta på lådan. Låt ett skepp i gruppen hålla utkik.

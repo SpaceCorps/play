@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 24.000
-- **Velocità di base**: 175
+- **Velocità di base**: 190
 - **Slot laser**: 3
 - **Slot extra**: 2
 
@@ -15,7 +15,7 @@ La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte
 
 - **Slot principali (100% di efficienza)**: 2
 - **Slot di supporto (75% di efficienza)**: 3
-- **Slot ausiliari (50% di efficienza)**: 0
+- **Slot ausiliari (50% di efficienza)**: 1
 
 ---
 

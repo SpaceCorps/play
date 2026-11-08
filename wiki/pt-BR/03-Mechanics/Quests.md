@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Missões -->
 # Missões {#quests}
 
@@ -278,7 +278,7 @@ Se você tinha **feito** uma das 64, faz também a versão nova. No seu primeiro
 Os setores mais altos são onde as missões pagam, e onde você pode morrer. Planeje o seu equipamento para eles:
 
 - **PvP**: os pilotos de outras corporações podem atacar você em `x-4` e no centro em todos os mundos, a partir de `x-2` no Beta, e em todo lugar no Gamma (exceto em zonas seguras e durante o Protocolo de Paz). Os portais do Anel trazem pilotos de outras corporações também para o seu `x-3`: no Beta e no Gamma, um deles pode destruir você lá enquanto você carrega um item. O Beta e o Gamma não têm Protocolo de Paz: lá o PvP vale desde o dia 1.
-- Os **Bulwarks** (`x-3`, `x-4`) são mais rápidos que uma Protos e batem forte. Enfrente-os a partir de uma [Ostirion](/wiki/02-Ships/Ostirion.md), perto da zona segura de um portal, e recue para dentro dela para reparar.
+- Os **Bulwarks** (`x-3`, `x-4`) quase acompanham a velocidade de uma Protos e batem forte. Enfrente-os a partir de uma [Ostirion](/wiki/02-Ships/Ostirion.md), perto da zona segura de um portal, e recue para dentro dela para reparar.
 - Os **Goombahs** (`x-3`, `x-4`) têm alcance de 800, causam 3.000 de dano por golpe e nunca começam uma luta: deixe um em paz e ele deixa você em paz; atire nele e ele se volta contra você até 10 segundos depois do seu último acerto (e ele se recupera quando é deixado em paz). Uma nave cujos lasers são todos [Starfire-III](/wiki/06-Items/Lasers.md) (alcance 850) tem mais alcance do que eles e do que os Bulwarks: com uma nave mais rápida do que eles (uma Ostirion ou acima; um Goombah voa a 180, um Bulwark a 175) você pode atirar sem levar um acerto. O alcance da sua nave é a média dos alcances dos lasers dela, então um Starfire-III ao lado de dois Quantum Laser II dispara de 750: longe o bastante para ficar fora do alcance de um Bulwark (700), mas não de um Goombah (800). A Especial do nível 5 dá um Starfire-III a você; você também pode fabricar um na Montagem, com Velkonite Reinforced Plates que a Forja do seu [Skylab](/wiki/03-Mechanics/Skylab.md) produz.
 - Os **Crystalys** rondam a fronteira (`x-4`). Nada ao alcance do nível 8 tem mais alcance do que um deles, e só uma nave rápida o deixa para trás: mantenha a distância e fique de olho no minimapa.
 - Quando você é destruído, escolhe onde voltar: na sua base, no portal mais próximo ou no local, que um setor de perigo não oferece (veja [Destruição e retorno](/wiki/01-General/Getting-Started.md)). O relógio de uma missão com tempo limite continua correndo nesse meio-tempo, um item carregado se perde e uma regra de sem morrer se quebra.

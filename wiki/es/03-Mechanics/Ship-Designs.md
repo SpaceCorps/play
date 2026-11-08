@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 20bfc0d7e85779c5 -->
+<!-- wiki-i18n source: f7bdf2e998ae581b -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; diseño; diseños; conversión; convertir -->
 
-Un **diseño** es una de las cuatro naves que fabricas en Ensamblaje con unas pocas cifras cambiadas a propósito: menos casco a cambio de más velocidad, una ranura de láser menos a cambio de escudos más duros. Ocho de los trece diseños traen además una de siete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que la nave normal no tiene. Un diseño se investiga en el Skylab y después se convierte en él una nave que posees en Ensamblaje. **La conversión no se puede deshacer.**
+Un **diseño** es una de las cuatro naves que fabricas en Ensamblaje con unas pocas cifras cambiadas a propósito: menos casco a cambio de más velocidad, una ranura de láser menos a cambio de escudos más duros. Nueve de los trece diseños traen además una de siete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que la nave normal no tiene. Un diseño se investiga en el Skylab y después se convierte en él una nave que posees en Ensamblaje. **La conversión no se puede deshacer.**
 
 ## Los trece diseños {#the-thirteen-designs}
 
@@ -12,19 +12,19 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 
 | Diseño | Qué cambia | Casco | Velocidad base | Ranuras de láser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % de casco base, +40 de velocidad base, +1 ranura de láser | 96.000 | 250 | 9 |
-| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, -1 ranura de láser, +10 % de absorción de escudo, +20 % de tamaño del modelo | 160.000 | 190 | 7 |
-| **Paragon LICH** | +1 % de regeneración de escudo por segundo | 128.000 | 210 | 8 |
-| **Storm NOTSUM** | -20 % de casco base, +20 de velocidad base, +2 % de velocidad, Blink | 120.000 | 270 | 13 |
-| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -50 % de capacidad de escudo, +10 % de penetración de escudo | 150.000 | 200 | 15 |
-| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -2 ranuras de láser, Chameleon | 120.000 | 250 | 11 |
-| **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire | 720.000 | 72 | 3 |
-| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink (velocidad limitada a 1.500) | 600.000 | 92 | 8 |
-| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 324.000 | 220 | 13 |
-| **Wraith BILLY** | +5 % de casco base, +10 de velocidad base, +10 % de capacidad de escudo, Diminisher | 340.200 | 230 | 12 |
-| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 388.800 | 240 | 12 |
-| **Wraith ATARAXIS** | -1 ranura de láser, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 324.000 | 220 | 11 |
-| **Wraith MATT** | -10 % de casco base, +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 291.600 | 220 | 14 |
+| **Paragon THUNDER** | -25 % de casco base, +40 de velocidad base, +1 ranura de láser | 96.000 | 270 | 10 |
+| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, -1 ranura de láser, +10 % de absorción de escudo, +20 % de tamaño del modelo | 160.000 | 210 | 8 |
+| **Paragon LICH** | +1 % de regeneración de escudo por segundo | 128.000 | 230 | 9 |
+| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, Blink | 162.000 | 310 | 14 |
+| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, Heal Pod | 180.000 | 210 | 16 |
+| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon | 144.000 | 260 | 13 |
+| **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire | 720.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink | 600.000 | 110 | 10 |
+| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 15 |
 
 ## Conseguir un diseño {#getting-a-design}
 
@@ -37,16 +37,16 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 | **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100.000 | 15 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100.000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 20 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100.000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100.000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100.000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100.000 | 35 | 375 | 65 | 20 | 3 |
-| **Wraith ATARAXIS** | 100.000 | 30 | 375 | 65 | 20 | 3 |
-| **Wraith MATT** | 100.000 | 20 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100.000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100.000 | 25 | 375 | 65 | 20 | 3 |
 
 La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER, BUCKY o LICH), y no puede ser la nave que pilotas: activa antes otra nave. Una nave destruida no se puede convertir.
 
@@ -60,10 +60,10 @@ La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
 | **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
-| **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
-| **Las cuatro** | 36 | 36 h | 360 | 13 | 130 h | 130 |
+| **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
+| **Las cuatro** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Juntas piden 490 Dark Matter, además de los 749 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.354 por todas las tecnologías del juego.
+Juntas piden 500 Dark Matter, además de los 749 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.364 por todas las tecnologías del juego.
 
 ## Qué le pasa a tu nave {#what-happens-to-your-ship}
 

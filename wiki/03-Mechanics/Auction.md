@@ -177,6 +177,7 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots ev
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - 3 new lots open at the start of every UTC hour, each of different goods, and each stays open for 4 hours, so 12 are open at once.
+- Every world has its own lots: Alpha, Beta and Gamma each get these lots at every hour, with different goods at the same hour, sized by the pilots of that world. You see, bid on and win only the lots of the world you fly in. The Market and the buy orders are shared by all three worlds.
 - The opening bid is 20% of the Shop price of the goods. A bid after that must be at least 5% over the high bid, and at least 100 Credits more.
 - Your bid is paid at once and held. If someone outbids you, it comes back to you at once.
 - A bid in the last 2 min of a lot moves its end to 2 min after the bid, at most 5 times.

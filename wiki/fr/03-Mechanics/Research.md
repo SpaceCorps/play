@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Recherche -->
 # Recherche {#research}
 
@@ -30,7 +30,7 @@ Cette page rassemble l’arbre complet des technologies avec la durée de chacun
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termine sur-le-champ la recherche en cours, si sa technologie demande 24 heures ou moins de recherche (142 des 158 technologies). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science qu’elle n’a pas encore brûlée reste dans votre réservoir, et la technologie suivante de votre file démarre aussitôt.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termine sur-le-champ la recherche en cours, si sa technologie demande 24 heures ou moins de recherche (143 des 159 technologies). Ce que la recherche a coûté a été payé au départ et n’est pas rendu, la science qu’elle n’a pas encore brûlée reste dans votre réservoir, et la technologie suivante de votre file démarre aussitôt.
 
 **Les amplis laser et le dernier palier.** Les Damage, Crit et Penetration Amps des paliers II à IV se recherchent comme tout ce qui se fabrique. Les pilotes qui possédaient ou avaient en file des amplis à l’arrivée des gammes d’amplis ont reçu la technologie de chacun d’eux et celle des paliers en dessous. Treize technologies demandent une technologie d’un autre arbre, celle de la Dark Matter Plate, de l’arbre Ressources, parce que le dernier palier de chaque chaîne d’amélioration demande quatre plates et une Ancient Control Unit : les Damage, Crit et Penetration Amps du palier IV, les Absorption et Capacity Shield Cells du palier IV, les Impulse et Momentum Thrusters du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II. Un pilote qui a déjà recherché l’une d’elles la garde, mais il lui faut la technologie de la plate pour fabriquer ses plates. L’arbre ci-dessous ne trace aucune flèche pour elle, mais le tableau la liste et la carte en jeu la nomme ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Munitions laser {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez 
 
 ### Auto-Rocket CPU
 
-- **Ce qu’il fait.** Tant qu’il est sur ON et que vous êtes au combat (vos lasers visent un alien ou un pilote ennemi), il tire tout seul votre roquette active, la dernière que vous avez tirée, sur cette cible, chaque fois qu’un appui sur la touche Tirer roquette fonctionnerait : le minuteur des roquettes est prêt et il vous en reste une. Le serveur vérifie chaque tir comme il vérifie les vôtres.
+- **Ce qu’il fait.** Tant qu’il est sur ON et que vous êtes au combat (vos lasers visent un alien, un pilote ennemi ou un astéroïde), il tire tout seul votre roquette active, la dernière que vous avez tirée, sur cette cible, chaque fois qu’un appui sur la touche Tirer roquette fonctionnerait : le minuteur des roquettes est prêt et il vous en reste une. Le serveur vérifie chaque tir comme il vérifie les vôtres. Contre un astéroïde, il dépense des roquettes comme contre un vaisseau : passez-le sur OFF tant que vous ne faites que miner.
 - **L’interrupteur.** Équipez-le dans un emplacement Extras et appuyez sur son emplacement ARL pour le passer sur ON ou OFF. Il démarre sur OFF et reste comme vous l’avez laissé, y compris quand vous vous reconnectez. L’emplacement indique ON ou OFF et brille quand le CPU tire.
-- **Ce qu’il ne fait jamais.** Il ne choisit jamais de cible, ne tire jamais sur des astéroïdes, ni depuis une zone sûre, ni sous occultation, et ne tire jamais une N.U.K.E. ni une N.I.K.E. Une roquette que vous tirez vous-même fonctionne toujours. Sans touche, clic ni mouvement de souris pendant 3 minutes, il attend que vous fassiez quelque chose.
+- **Ce qu’il ne fait jamais.** Il ne choisit jamais de cible, ne tire jamais depuis une zone sûre ni sous occultation, et ne tire jamais une N.U.K.E. ni une N.I.K.E. Une roquette que vous tirez vous-même fonctionne toujours. Sans touche, clic ni mouvement de souris pendant 3 minutes, il attend que vous fassiez quelque chose.
 - **Plus de roquettes.** Il vous le dit une fois et tire de nouveau dès que vous en avez.
 
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Un alienígena que te suelta deambula desde donde está, sin ir nunca hacia dond
 
 Los alienígenas no se empujan entre sí: una manada que va tras un piloto se acerca sin dejar espacio entre sus naves, y una manada que perdió a su piloto solo se dispersa cuando cada alienígena elige su propio camino. Eso sí, un alienígena se mantiene apartado de una **nave**: nunca acaba dentro del casco de un piloto, y un piloto que se coloca sobre uno lo empuja.
 
-Volar más rápido solo te ayuda hasta cierto punto: una Protos (160) no es más rápida que ningún alienígena que caza (Phantasm 160, Bulwark 175, Crystalys 230), así que lo que pone fin a la persecución son esos límites de distancia, no tu velocidad.
+Volar más rápido solo te ayuda hasta cierto punto: una Protos (180) solo es un poco más rápida que un Phantasm (160) o un Bulwark (175), no más rápida que un Goombah (180) y más lenta que un Crystalys (230), así que lo que pone fin a la persecución son esos límites de distancia, no tu velocidad.
 
 ---
 

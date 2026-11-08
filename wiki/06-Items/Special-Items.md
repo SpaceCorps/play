@@ -42,7 +42,7 @@ Finishes **one Skylab upgrade at once**: pick the module that is being upgraded 
 
 ### Schematics
 
-Finishes **the research that is running now**, if the technology takes **24 hours or less** to research. 142 of the 158 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) qualify. The 16 that take 48 or 72 hours do not: the Wraith, three drone formations, Hull Plating III, levels 4 and 5 of the Engine and Defense Modules and seven Pilot technologies.
+Finishes **the research that is running now**, if the technology takes **24 hours or less** to research. 143 of the 159 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) qualify. The 16 that take 48 or 72 hours do not: the Wraith, three drone formations, Hull Plating III, levels 4 and 5 of the Engine and Defense Modules and seven Pilot technologies.
 
 - **By research time, not time left.** A 48-hour technology with one hour to go is still refused: Schematics look at how long the technology takes in all.
 - **The price stays paid.** The Dark Matter, Credits and Thulium were taken when the research started and are not given back. The science the research has not burned stays in your tank.

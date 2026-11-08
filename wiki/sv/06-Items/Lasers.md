@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7458399908a090f -->
+<!-- wiki-i18n source: aa5ab1afb62faea7 -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -34,11 +34,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -62,7 +62,7 @@ Utrusta lasrar direkt i skeppets laserplatser eller i drönare för att öka din
 | **Quantum Laser II** | Vanlig | 65 | 1 % | 700 | 2 | 80 000 krediter |
 | **Quantum Laser III** | Sällsynt | 80 | 10 % | 800 | 3 | Kan bara tillverkas |
 | **Starfire-III** | Mytisk | 135 | 15 % | 850 | 3 | Kan bara tillverkas |
-| **Helios Beam** | Mytisk | 185 | 25 % | 900 | 3 | Kan bara tillverkas |
+| **Helios Beam** | Mytisk | 150 | 20 % | 900 | 3 | Kan bara tillverkas |
 
 Kolumnen Räckvidd är varje lasers egen. **Ditt skepp skjuter på medelvärdet av sina lasrars räckvidder** (lasrarna i dina drönare räknas också), avrundat till närmaste enhet, och varje laser avfyras så fort målet är inom det avståndet. En Starfire-III bredvid två Quantum Laser II ger skeppet räckvidden 750, inte 850; tre Starfire-III behåller 850, och lasrar som alla är lika ändrar ingenting. En räckviddsbonus från Smedjan räknas på sin egen laser innan medelvärdet tas. Utan laser visar hangaren ingen räckvidd (ett streck) och inga lasrar kan skjuta, men dina raketer kan det ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). I hangaren står det ”Medelräckvidd” på rutan där dina lasrar skiljer sig åt, och när du pekar på den listas varje lasers räckvidd.
 
@@ -133,13 +133,13 @@ Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det f
 | Penetration Amp III | 2 000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2 400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-En Helios Beam med sina 3 Amp av nivå IV rymmer 4 delar av sista nivån: 16 Dark Matter Plates, 80 Dark Matter, i genomsnitt 40 N.I.K.E.-raketer. En Wraith med sista nivån på alla platser rymmer 1 200 Dark Matter ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+En Helios Beam med sina 3 Amp av nivå IV rymmer 4 delar av sista nivån: 16 Dark Matter Plates, 80 Dark Matter, i genomsnitt 40 N.I.K.E.-raketer. En Wraith med sista nivån på alla platser rymmer 1 280 Dark Matter ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Vilken förstärkare som passar var {#which-amp-goes-where}
 
-En skadeförstärkare ger samma skada åt vilken laser som helst, så den är värd mest på **Quantum-lasrarna**. En kritförstärkare multiplicerar det lasern redan gör, så ju hårdare lasern träffar, desto mer är den värd: den drar jämnt med skadeserien på **Starfire-III** och hamnar ungefär 3,5 % före på **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III eller Crit Amp IV tar en Helios Beam till exakt det. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
+En skadeförstärkare ger samma skada åt vilken laser som helst, så den är värd mest på **Quantum-lasrarna**. En kritförstärkare multiplicerar det lasern redan gör, så ju hårdare lasern träffar, desto mer är den värd: den drar jämnt med skadeserien på **Starfire-III** och hamnar ungefär 1 % före på **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III eller Crit Amp IV tar en Helios Beam (som har 20 % själv) till 95 %. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
 
-Fylld med samma förstärkare är en laser alltid starkare än den under sig, så en bättre förstärkare ersätter aldrig en bättre laser: en Quantum Laser III med tre Damage Amp IV gör mindre skada än en Helios Beam med tre Damage Amp I (med delar på samma förtrollningsnivå: en Quantum Laser III och Damage Amp IV som smitts till Gudomlig eller högre, med de bästa slumpvärdena, kan gå förbi en osmidd Helios Beam i Damage Amp I, med knapp marginal på Gudomlig).
+Fylld med samma förstärkare är en laser alltid starkare än den under sig, så en bättre förstärkare väger bara upp en del av en bättre laser: en Quantum Laser III med tre Damage Amp IV gör mer skada än en Helios Beam med tre Damage Amp I, men mindre än en med tre Damage Amp III (med delar på samma förtrollningsnivå: en Quantum Laser III och Damage Amp IV som smitts till Evig, med de bästa slumpvärdena, kan gå förbi en osmidd Helios Beam i Damage Amp III, med knapp marginal).
 
 
 ---
@@ -194,7 +194,7 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 
 Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 36 %; en Penetration Amp IV i en av tolv lasrar ger 1 %. En Wraith har 12 lasrar och 36 förstärkarplatser, och alla 36 måste fyllas för att nå 36 %.
+- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 36 %; en Penetration Amp IV i en av tretton lasrar ger ungefär 1 %. En Wraith har 13 lasrar och 39 förstärkarplatser, och alla 39 måste fyllas för att nå 36 %.
 - **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
 - **Den bästa lasern ger 61 % med x4 och 71 % med Antimatter.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (36 %) ger 61 %; en Antimatter Battery (20 %) i dess ställe ger 71 %, vid x3 skada i stället för x4.
 - **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter i stället för 12. I den bästa uppsättningen blir tre eviga 66,4 %, och varje punkt räknas.
@@ -229,6 +229,6 @@ Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med
 
 **En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 101 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 2,6 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (85 %) tar en trio Penetration Amps ungefär 19 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den nästan ingenting.**
 
-- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 187 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 356 och tre Crit Amp IV 369: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig bara där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad, vars stora skrov klarar sig ändå, är en enkel Damage- eller Crit-uppsättning ungefär lika snabb (en Penetration Amp i en laser vinner högst 5 %).
+- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 149 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 308 och tre Crit Amp IV 312: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig bara där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad, vars stora skrov klarar sig ändå, är en enkel Damage- eller Crit-uppsättning ungefär lika snabb (en Penetration Amp i en laser vinner högst 5 %).
 - **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, så den fungerar på dem också, men en Damage Amp eller Crit Amp på nivån dödar dem lika snabbt eller snabbare, utom en Phantasm eller en Goombah som bekämpas med en formation, där en Penetration Amp i en laser vinner upp till 5 %.
-- **Vad den kostar.** Varje Penetration Amp IV kräver 4 Dark Matter Plates (20 Dark Matter), liksom varje förstärkare av nivå IV, så en Wraith som fyller sina 36 platser behöver 144 plattor, 720 Dark Matter.
+- **Vad den kostar.** Varje Penetration Amp IV kräver 4 Dark Matter Plates (20 Dark Matter), liksom varje förstärkare av nivå IV, så en Wraith som fyller sina 39 platser behöver 156 plattor, 780 Dark Matter.

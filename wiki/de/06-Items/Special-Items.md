@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -44,7 +44,7 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 ### Schematics
 
-Schließt **die Forschung ab, die gerade läuft**, wenn die Technologie **höchstens 24 Stunden** zum Erforschen braucht. 142 der 158 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) kommen infrage. Die 16, die 48 oder 72 Stunden dauern, nicht: der Wraith, drei Drohnenformationen, Hull Plating III, die Stufen 4 und 5 des Triebwerks- und des Verteidigungsmoduls und sieben Piloten-Technologien.
+Schließt **die Forschung ab, die gerade läuft**, wenn die Technologie **höchstens 24 Stunden** zum Erforschen braucht. 143 der 159 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) kommen infrage. Die 16, die 48 oder 72 Stunden dauern, nicht: der Wraith, drei Drohnenformationen, Hull Plating III, die Stufen 4 und 5 des Triebwerks- und des Verteidigungsmoduls und sieben Piloten-Technologien.
 
 - **Nach der Forschungszeit, nicht nach der Restzeit.** Eine 48-Stunden-Technologie mit noch einer Stunde Rest wird trotzdem abgelehnt: Schematics sehen darauf, wie lange die Technologie insgesamt dauert.
 - **Der Preis bleibt bezahlt.** Das Dark Matter, die Credits und das Thulium wurden beim Start der Forschung abgezogen und werden nicht zurückgegeben. Die Wissenschaft, die die Forschung noch nicht verbrannt hat, bleibt in deinem Tank.

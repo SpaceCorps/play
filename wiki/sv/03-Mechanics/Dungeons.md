@@ -1,12 +1,12 @@
-<!-- wiki-i18n source: 76933ad9dd56b71f -->
+<!-- wiki-i18n source: 9679806228678ce2 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; port; portar; krigsherre; labyrint; steg; bytezon; kort; portal; klanportal; booster; dimma; väktare; startrum; låst rum; svärmhjälp; kaoszon; klanens portaviseringar -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage; dungeon; dungeons; krigsherre; labyrint; steg; bytezon; kort; portal; klanportal; booster; dimma; väktare; startrum; låst rum; svärmhjälp; kaoszon; klanens dungeonaviseringar; klandungeon; klanens dungeonaviseringar; tre fjärdedelar; 75 procent -->
 
-En **dungeon** kallas **port** i spelet: en sluten labyrint med en **krigsherre** i änden. En vice ledare eller ledaren i en [klan](/wiki/03-Mechanics/Clans.md) öppnar en och betalar för den ur klanbanken, och klanens medlemmar flyger in tillsammans som en [grupp](/wiki/03-Mechanics/Groups.md). De kämpar sig igenom labyrintens utomjordingar, öppnar bytezoner för att välja ett kort i var och en och fäller krigsherren. Varje pilot som deltog i striden får betalt när krigsherren faller, inom gränserna längre ner. Portarna finns på fliken **Portar** på klansidan.
+En **dungeon** är en sluten labyrint med en **krigsherre** i änden (före 0.5.2 kallade spelet den port). En vice ledare eller ledaren i en [klan](/wiki/03-Mechanics/Clans.md) öppnar en och betalar för den ur klanbanken, och klanens medlemmar flyger in tillsammans som en [grupp](/wiki/03-Mechanics/Groups.md). De kämpar sig igenom labyrintens utomjordingar, öppnar bytezoner för att välja ett kort i var och en och fäller krigsherren. Varje pilot som deltog i striden får betalt när krigsherren faller, inom gränserna längre ner. Dungeonerna finns på fliken **Dungeons** på klansidan.
 
-En port är en strid enbart mot utomjordingarna: ingen kan attackera en klankamrat eller någon annan därinne. Utomjordingarna betalar ingenting. Betalningen kommer enbart från krigsherren, så det enda sättet att få betalt är att vara med i striden när den faller.
+En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klankamrat eller någon annan därinne. Utomjordingarna betalar ingenting. Betalningen kommer enbart från krigsherren, så det enda sättet att få betalt är att vara med i striden när den faller.
 
 ## I korthet {#at-a-glance}
 
@@ -14,57 +14,58 @@ En port är en strid enbart mot utomjordingarna: ingen kan attackera en klankamr
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Öppnar**: Från säsongsdag 1
-- **Vem som öppnar en port**: En vice ledare eller ledaren, som betalar priset ur klanbanken
+- **Vem som öppnar en dungeon**: En vice ledare eller ledaren, som betalar priset ur klanbanken
 - **Grupp**: 4 till 10 medlemmar av klanen, i en grupp
-- **Portar per dag**: 3 per klan och UTC-dag, en öppen åt gången
-- **Portar samtidigt**: 6 i en värld
+- **Dungeons per dag**: 3 per klan och UTC-dag, en öppen åt gången
+- **Dungeons samtidigt**: 6 i en värld
 - **Kartor**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
-- **Labyrinter**: 8; en väljs när en port öppnas
-- **Samling**: 10 min att samlas och starta. En port som ingen startar stängs, och dess pris går tillbaka till klanbanken
-- **Tidsgräns**: Steg 1: 95 min, Steg 2: 130 min, Steg 3: 165 min från starten. När tiden tar slut misslyckas porten och betalar ingenting
-- **Lämnad tom**: En port där ingen är inne på 3 min misslyckas
-- **När krigsherren faller**: Porten förblir öppen i 2 min för piloterna som är inne
-- **Komma tillbaka**: En pilot som har lämnat porten eller blivit förstörd kan flyga in igen 3 gånger, med 20 s emellan
+- **Labyrinter**: 8; en väljs när en dungeon öppnas
+- **Bossrummet**: Öppnas när 75 % av labyrintens aliens är förstörda, avrundat uppåt
+- **Samling**: 10 min att samlas och starta. En dungeon som ingen startar stängs, och dess pris går tillbaka till klanbanken
+- **Tidsgräns**: Steg 1: 95 min, Steg 2: 130 min, Steg 3: 165 min från starten. När tiden tar slut misslyckas dungeonen och betalar ingenting
+- **Lämnad tom**: En dungeon där ingen är inne på 3 min misslyckas
+- **När krigsherren faller**: Dungeonen förblir öppen i 2 min för piloterna som är inne
+- **Komma tillbaka**: En pilot som har lämnat dungeonen eller blivit förstörd kan flyga in igen 3 gånger, med 20 s emellan
 
 <!-- dungeons-glance:end -->
 
 ## Hur en omgång går till {#how-a-run-goes}
 
-1. **Kalla fram.** På fliken Portar väljer en [vice ledare eller ledaren](/wiki/03-Mechanics/Clans.md#hierarchy-roles) ett steg och trycker på **Kalla fram**. Priset tas ur [klanbanken](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), och porten får en av kartorna som listas ovan. En port som ingen startar stängs, och priset går tillbaka till banken.
-2. **Gå in.** Klanens medlemmar trycker på **Gå in** i klanfönstret medan de flyger, hoppar genom klanportalen eller trycker på **Gå med** på aviseringskortet (se Gå in). Alla landar i startrummet, och piloterna därinne är portens grupp.
-3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan porten samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Porten **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade porten, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på. När porten startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
+1. **Kalla fram.** På fliken Dungeons väljer en [vice ledare eller ledaren](/wiki/03-Mechanics/Clans.md#hierarchy-roles) ett steg och trycker på **Kalla fram**. Priset tas ur [klanbanken](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), och dungeonen får en av kartorna som listas ovan. En dungeon som ingen startar stängs, och priset går tillbaka till banken.
+2. **Gå in.** Klanens medlemmar trycker på **Gå in** i klanfönstret medan de flyger, hoppar genom klanportalen eller trycker på **Gå med** på aviseringskortet (se Gå in). Alla landar i startrummet, och piloterna därinne är dungeonens grupp.
+3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan dungeonen samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Dungeonen **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade dungeonen, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på. När dungeonen startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
 4. **Kämpa dig genom labyrinten.** Du kommer in i ena änden av labyrinten och krigsherren väntar i den andra, i ett låst rum. Labyrinten är mörk: du ser bara det gruppen har utforskat och det som är nära dess skepp. Utomjordingarna sover i flockar i korridorerna, och en flock som vaknar jagar gruppen genom labyrinten.
 5. **Öppna bytezonerna.** Ringar i labyrinten markerar zonerna. Håll en och gruppen röstar om ett kort, som betalas ut tillsammans med krigsherrens betalning.
-6. **Lås upp bossrummet.** Förstör väktarna, Crystalys och deras tvillingar, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas.
-7. **Besegra krigsherren.** Bryt hans sköld och skrov och svara på hans förmågor. När han faller är porten avklarad.
-8. **Få betalt.** Betalningen kommer i samma ögonblick som krigsherren faller. Porten står öppen en stund till för piloterna därinne och stängs sedan.
+6. **Lås upp bossrummet.** Förstör tre fjärdedelar av labyrintens utomjordingar, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas.
+7. **Besegra krigsherren.** Bryt hans sköld och skrov och svara på hans förmågor. När han faller är dungeonen avklarad.
+8. **Få betalt.** Betalningen kommer i samma ögonblick som krigsherren faller. Dungeonen står öppen en stund till för piloterna därinne och stängs sedan.
 
 ## Gå in {#entering}
 
-För att gå in i en port behöver du ett **skepp i flykt**, så starta först och öppna sedan klanfönstret, och en [grupp](/wiki/03-Mechanics/Groups.md) med tillräckligt många klanmedlemmar. Du behöver också den **nivå** som steget kräver, och du får inte redan vara inne i en annan port. Portens grupp har en storleksgräns: när den är full kan ingen annan gå in.
+För att gå in i en dungeon behöver du ett **skepp i flykt**, så starta först och öppna sedan klanfönstret, och en [grupp](/wiki/03-Mechanics/Groups.md) med tillräckligt många klanmedlemmar. Du behöver också den **nivå** som steget kräver, och du får inte redan vara inne i en annan dungeon. Dungeonens grupp har en storleksgräns: när den är full kan ingen annan gå in.
 
-En vice ledare eller ledaren öppnar en port, en i taget för klanen, och bara upp till antalet portar per dag. Klanbanken måste ha priset. En klan kan öppna ett steg först när den har klarat steget före.
+En vice ledare eller ledaren öppnar en dungeon, en i taget för klanen, och bara upp till antalet dungeons per dag. Klanbanken måste ha priset. En klan kan öppna ett steg först när den har klarat steget före.
 
-Inne i en port kan du inte byta värld, och Jump CPU och Base CPU fungerar inte. Knappen **Lämna** i fönstret Klanport tar ut dig. Den ber först om bekräftelse, utom när krigsherren redan har fallit: då går du ut direkt. En pilot som har lämnat, eller blivit förstörd, kan flyga in igen några gånger, med en kort väntan emellan.
+Inne i en dungeon kan du inte byta värld, och Jump CPU och Base CPU fungerar inte. Knappen **Lämna** i fönstret Klandungeon tar ut dig. Den ber först om bekräftelse, utom när krigsherren redan har fallit: då går du ut direkt. En pilot som har lämnat, eller blivit förstörd, kan flyga in igen några gånger, med en kort väntan emellan.
 
 ### Klanportalen och aviseringen {#the-clan-portal-and-the-call}
 
-När en port öppnas får klanen en **portal** till den på varje koncerns hemkarta (`M-1`, `T-1` och `G-1`), en bit utanför stationens säkra zon. Bara klanens piloter ser den: för alla andra finns den inte. Den har ingen egen säker zon. Flyg fram till den och hoppa som vid vilken portal som helst, så tar den dig in i porten enligt reglerna för **Gå in**: ett skepp i flykt, en grupp med tillräckligt många klanmedlemmar, stegets nivå och plats i gruppen. När porten har startat kan bara piloter som redan var inne använda den. Portalen försvinner när porten är över.
+När en dungeon öppnas får klanen en **portal** till den på varje koncerns hemkarta (`M-1`, `T-1` och `G-1`), en bit utanför stationens säkra zon. Bara klanens piloter ser den: för alla andra finns den inte. Den har ingen egen säker zon. Flyg fram till den och hoppa som vid vilken portal som helst, så tar den dig in i dungeonen enligt reglerna för **Gå in**: ett skepp i flykt, en grupp med tillräckligt många klanmedlemmar, stegets nivå och plats i gruppen. När dungeonen har startat kan bara piloter som redan var inne använda den. Portalen försvinner när dungeonen är över.
 
-Medan din klans port samlas och du flyger någon annanstans får du en **avisering**: ett kort högst upp på flygskärmen, med ett ljud. Det säger vem som öppnade porten, hur många piloter som är inne och hur länge porten står öppen. **Gå med** flyger in dig, som **Gå in** på fliken Portar, och när du lämnar porten kommer ditt skepp tillbaka dit det var. Gå med är nedtonad medan din grupp är för liten. **Inte nu** döljer kortet för den porten. Om din grupp redan är inne och porten väntar på dig står det på kortet. Kortet når klanens piloter som flyger (inte dem som är dockade vid en station) och som har den nivå steget kräver. Du kan stänga av kortet och dess ljud med **Klanens portaviseringar** i Inställningar › Allmänt › Grupper.
+Medan din klans dungeon samlas och du flyger någon annanstans får du en **avisering**: ett kort högst upp på flygskärmen, med ett ljud. Det säger vem som öppnade dungeonen, hur många piloter som är inne och hur länge dungeonen står öppen. **Gå med** flyger in dig, som **Gå in** på fliken Dungeons, och när du lämnar dungeonen kommer ditt skepp tillbaka dit det var. Gå med är nedtonad medan din grupp är för liten. **Inte nu** döljer kortet för den dungeonen. Om din grupp redan är inne och dungeonen väntar på dig står det på kortet. Kortet når klanens piloter som flyger (inte dem som är dockade vid en station) och som har den nivå steget kräver. Du kan stänga av kortet och dess ljud med **Klanens dungeonaviseringar** i Inställningar › Allmänt › Grupper.
 
-### Fönstret Klanport {#the-clan-dungeon-window}
+### Fönstret Klandungeon {#the-clan-dungeon-window}
 
-Inne i en port har omgången ett eget fönster, **Klanport**. Det visar tiden som har gått och det som är kvar, hur många utomjordingar som flyger och hur många som har förstörts, vad gruppen ska göra nu (utforska labyrinten, hålla en zon, hitta bossen, förstöra väktarna, besegra krigsherren), gruppens skrovstaplar, hållstapeln medan du står i en zon, krigsherrens förmåga med nedräkningen och knappen **Lämna**. Det är ett fönster som de andra: dra det i titelraden och stäng det med det röda ljuset i hörnet. Det öppnas av sig självt när du går in i en port, en gång för varje port: om du stänger det förblir det stängt till nästa port. Verktygsfältet har en knapp **Klanport** för det medan du är i en port. Medan fönstret är stängt visas en förmåga hos krigsherren som snart startar eller är igång som ett enradigt fält med namnet och nedräkningen. Klicka på fältet för att öppna fönstret igen.
+Inne i en dungeon har omgången ett eget fönster, **Klandungeon**. Det visar tiden som har gått och det som är kvar, hur många utomjordingar som flyger och hur många som har förstörts, vad gruppen ska göra nu (utforska labyrinten, hålla en zon, hitta bossen, förstöra tre fjärdedelar av utomjordingarna, besegra krigsherren), gruppens skrovstaplar, hållstapeln medan du står i en zon, krigsherrens förmåga med nedräkningen och knappen **Lämna**. Det är ett fönster som de andra: dra det i titelraden och stäng det med det röda ljuset i hörnet. Det öppnas av sig självt när du går in i en dungeon, en gång för varje dungeon: om du stänger det förblir det stängt till nästa dungeon. Verktygsfältet har en knapp **Klandungeon** för det medan du är i en dungeon. Medan fönstret är stängt visas en förmåga hos krigsherren som snart startar eller är igång som ett enradigt fält med namnet och nedräkningen. Klicka på fältet för att öppna fönstret igen.
 
 ## Stegen {#the-stages}
 
-En port har ett steg, och steget är dess svårighet. Ett högre steg har segare utomjordingar som slår hårdare, och det betalar mer. Faktorerna i tabellen är utomjordingarnas. Skada betyder deras lasrar och raketer. Krigsherren följer inte tabellen: han har egna tal för varje steg, längre ned. Tabellen säger också hur många utomjordingar ett steg skickar jämfört med det första. **Priset** tas ur klanbanken när porten öppnas.
+En dungeon har ett steg, och steget är dess svårighet. Ett högre steg har segare utomjordingar som slår hårdare, och det betalar mer. Faktorerna i tabellen är utomjordingarnas. Skada betyder deras lasrar och raketer. Krigsherren följer inte tabellen: han har egna tal för varje steg, längre ned. Tabellen säger också hur många utomjordingar ett steg skickar jämfört med det första. **Priset** tas ur klanbanken när dungeonen öppnas.
 
 <!-- dungeons-stages:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Steg | Kräver | Utomjordingarnas skrov och sköld | Antal utomjordingar | Utomjordingarnas skada | Portens pris (krediter, ur klanbanken) |
+| Steg | Kräver | Utomjordingarnas skrov och sköld | Antal utomjordingar | Utomjordingarnas skada | Dungeonens pris (krediter, ur klanbanken) |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | **Steg 1** | Från nivå 6 | ×1 | ×1 | ×1 | 500 000 |
 | **Steg 2** | Från nivå 7 | ×1,5 | ×1 | ×1,5 | 1 000 000 |
@@ -74,27 +75,28 @@ En port har ett steg, och steget är dess svårighet. Ett högre steg har segare
 
 ## Labyrinten {#the-maze}
 
-Varje port är en sluten labyrint på en egen karta, en av kartorna i listan ovan, och labyrinten är en av flera utformningar. Labyrinten fyller hela kartan, från kant till kant: ett rutnät av rum och korridorer med massiva väggar. Skepp kan inte passera en vägg, och en vägg blockerar skott, så den är skydd. En meteor faller uppifrån, och en vägg stoppar den inte.
+Varje dungeon är en sluten labyrint på en egen karta, en av kartorna i listan ovan, och labyrinten är en av flera utformningar. Labyrinten fyller hela kartan, från kant till kant: ett rutnät av rum och korridorer med massiva väggar. Skepp kan inte passera en vägg, och en vägg blockerar skott, så den är skydd. En meteor faller uppifrån, och en vägg stoppar den inte.
 
-**Rum och dörrar.** Startrummet, där du landar, och krigsherrens rum, i andra änden, har var sin dörr. En stängd dörr är en vägg för skepp, skott och utomjordingar likadant. Startdörren öppnas när porten startar. Krigsherrens dörr förblir låst tills väktarna är förstörda (se [Det låsta rummet](#the-locked-room)). Mellan dem har labyrinten ett bytesrum för varje bytezon.
+**Rum och dörrar.** Startrummet, där du landar, och krigsherrens rum, i andra änden, har var sin dörr. En stängd dörr är en vägg för skepp, skott och utomjordingar likadant. Startdörren öppnas när dungeonen startar. Krigsherrens dörr förblir låst tills tre fjärdedelar av utomjordingarna är förstörda (se [Det låsta rummet](#the-locked-room)). Mellan dem har labyrinten ett bytesrum för varje bytezon.
 
 **Dimma.** Labyrinten är mörk. I flykt ser du dess väggar och utomjordingar bara där gruppen har varit, och en kort bit runt varje skepp i gruppen. Ett rum räknas som utforskat så fort en av er är i det. Minikartan fungerar likadant: en karta över hela våningen som fylls i allteftersom gruppen utforskar den, med ingången, krigsherrens dörr, de zoner ni har hittat och krigsherren när ni har hittat honom. Piloterna i din egen grupp visas alltid.
 
 ## Utomjordingarna {#the-aliens}
 
-Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna, aldrig i ett rum, och en flock vaknar när en pilot kommer nära. En flock som är vaken väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den sov och läker. Några flockar är vakna från första sekunden och står i korridorerna långt från ingången tills en pilot kommer nära. Porten håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en flock som vaknar kan behöva vänta på plats, och en flock du förstör släpper in nästa. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en.
+Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna, aldrig i ett rum, och en flock vaknar när en pilot kommer nära. En flock som är vaken väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den sov och läker. Några flockar är vakna från första sekunden och står i korridorerna långt från ingången tills en pilot kommer nära. Dungeonen håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en flock som vaknar kan behöva vänta på plats, och en flock du förstör släpper in nästa. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 | Utomjordingar, för en grupp på 5 | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Gate Goombah | 156 | 156 | 156 |
-| Gate Pirate | 34 | 34 | 34 |
-| Gate Crystalys | 34 | 34 | 34 |
-| Gate Crystalys Twin | 11 | 11 | 11 |
+| Dungeon Goombah | 156 | 156 | 156 |
+| Dungeon Pirate | 34 | 34 | 34 |
+| Dungeon Crystalys | 34 | 34 | 34 |
+| Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Tillsammans | 235 | 235 | 235 |
-| Vågen i en bytezon | 12 × Gate Goombah och 1 × Gate Crystalys | 12 × Gate Goombah och 1 × Gate Crystalys | 12 × Gate Goombah och 1 × Gate Crystalys |
+| För att öppna bossrummet | 177 | 177 | 177 |
+| Vågen i en bytezon | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys |
 
 - **Levande samtidigt**: Högst 10 per pilot i gruppen, och 70 totalt
 
@@ -105,7 +107,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 <!-- dungeons-enemies:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-### Gate Goombah
+### Dungeon Goombah
 
 - **Ser ut som**: Goombah
 - **Flyger i flockar om**: 6
@@ -119,7 +121,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | 1 800 | 1 800 | 1 800 |
 
-### Gate Pirate
+### Dungeon Pirate
 
 - **Ser ut som**: Pirate Boss
 - **Flyger i flockar om**: 2
@@ -131,11 +133,11 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Sköld | 50 100 | 75 150 | 100 200 |
 | Laserskada (en salva per sekund) | 200 | 300 | 400 |
 | Raketskada | 5 000 | 7 500 | 10 000 |
-| Hastighet | 92 | 92 | 92 |
+| Hastighet | 110 | 110 | 110 |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | 1 800 | 1 800 | 1 800 |
 
-### Gate Crystalys
+### Dungeon Crystalys
 
 - **Ser ut som**: Crystalys
 - **Flyger i flockar om**: 2
@@ -149,7 +151,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | 2 400 | 2 400 | 2 400 |
 
-### Gate Crystalys Twin
+### Dungeon Crystalys Twin
 
 - **Ser ut som**: Crystalys, 1,4 gånger så stor
 - **Flyger i flockar om**: 1
@@ -167,7 +169,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 ## Krigsherren {#the-warlord}
 
-Krigsherren väntar i rummet i andra änden av labyrinten, och han är det enda i en port som betalar. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid.
+Krigsherren väntar i rummet i andra änden av labyrinten, och han är det enda i en dungeon som betalar. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -183,7 +185,7 @@ Krigsherren väntar i rummet i andra änden av labyrinten, och han är det enda 
 | Hastighet | 120 | 120 | 120 |
 | Laserräckvidd | 1 100 | 1 100 | 1 100 |
 
-Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: det är krigsherrens skrov och sköld tillsammans, efter antalet piloter i gruppen när porten startar.
+Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: det är krigsherrens skrov och sköld tillsammans, efter antalet piloter i gruppen när dungeonen startar.
 
 | Piloter i gruppen | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -199,9 +201,9 @@ Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: de
 
 ### Det låsta rummet {#the-locked-room}
 
-Dörren till krigsherrens rum är stängd från det ögonblick porten öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när gruppen har förstört **väktarna**: Gate Crystalys och Gate Crystalys Twin som porten skapades med, ungefär en femtedel av dess utomjordingar. Gate Goombah och Gate Pirate räknas inte, inte heller bytezonernas vågor eller de Goombahs som krigsherren kallar på.
+Dörren till krigsherrens rum är stängd från det ögonblick dungeonen öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när **tre fjärdedelar av utomjordingarna** som dungeonen skapades med är förstörda, avrundat uppåt (tabellen över utomjordingarna ovan räknar dem för en grupp på 5). Det som räknas är utomjordingarna i labyrintens flockar, även flockarna som står i korridorerna från första sekunden, av alla fyra sorterna och vem som än förstör dem. Bytezonernas vågor, de Goombahs som krigsherren kallar på och krigsherren själv räknas inte.
 
-Fönstret Klanport räknar väktarna som är kvar och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock väktare som fortfarande sover räknas fullt ut, så gruppen måste utforska labyrinten och hitta alla. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En port är aldrig en fälla: tidsgränsen avslutar ändå en port vars sista väktare inte går att hitta, och en administratör kan låsa upp rummet i en port som har kört fast.
+Fönstret Klandungeon räknar hur många fler utomjordingar som måste förstöras för att öppna rummet och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock som fortfarande sover räknas fullt ut, så gruppen måste utforska labyrinten, men den kan lämna den sista fjärdedelen av utomjordingarna i fred. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En dungeon är aldrig en fälla: tidsgränsen avslutar ändå en dungeon vars dörr förblir stängd, och en administratör kan låsa upp rummet i en dungeon som har kört fast.
 
 ### Hans förmågor {#its-abilities}
 
@@ -209,7 +211,7 @@ Fönstret Klanport räknar väktarna som är kvar och säger, i en bricka, att k
 - **De bärnstensfärgade ringarna** för Meteorregn visar var meteorerna slår ner ett ögonblick senare. Fortsätt röra dig och lämna ringen innan den slår ner.
 - **Fokus på mest efterlysta** markerar piloten som har gjort mest skada på krigsherren, med en guldfärgad parentes på dennes skepp, och krigsherren skjuter ett extra skott mot piloten varje sekund så länge det varar. Hans sikte ändras inte: han fortsätter skjuta på närmaste pilot han kan se, så en markerad pilot som också är närmast får båda. Det extra skottet kräver fri sikt och räckvidden hos krigsherrens laser, så en vägg eller lite avstånd räddar piloten. Förmågan börjar inte medan ingen har gjort skada.
 - **Raketsalvan** skickar målsökande raketer mot slumpmässiga piloter, men bara mot piloter som krigsherren kan se, och en vägg i vägen stoppar en raket. En ring visar vilken pilot en raket följer. En EMP Charge eller kamouflage skakar av dem.
-- **Svärmhjälpen** är krigsherren som kallar på sina Goombahs. Medan de lever kan han inte skadas, och han skjuter inte och använder ingen annan förmåga. Förstör dem alla: banderollen räknar hur många som är kvar. Om en minut går kan krigsherren skadas igen, och de Goombahs som är kvar stannar och kämpar vidare. De är inte väktare, och de betalar ingenting.
+- **Svärmhjälpen** är krigsherren som kallar på sina Goombahs. Medan de lever kan han inte skadas, och han skjuter inte och använder ingen annan förmåga. Förstör dem alla: banderollen räknar hur många som är kvar. Om en minut går kan krigsherren skadas igen, och de Goombahs som är kvar stannar och kämpar vidare. De räknas inte för bossrummet, och de betalar ingenting.
 - **Kaoszonen** är en violett ring på marken, runt platsen där krigsherren stod när han kastade den. Ingen inne i ringen kan attackera, varken med lasrar eller raketer, men reparationer, kamouflage och flygning fungerar fortfarande, och krigsherren och hans utomjordingar skjuter som vanligt. Ringen syns ett ögonblick innan den tar verkan: kliv ut ur den och skjut in utifrån.
 
 <!-- dungeons-abilities:begin -->
@@ -266,11 +268,11 @@ Fler piloter i ringen håller en zon snabbare. Så lång tid tar det att hålla 
 
 Vid steg 2 och 3 ger bytezonernas vågor också boosters. När gruppen har förstört varenda utomjording i en våg räknas vågen, och efter var annan våg (den andra, den fjärde och den sjätte) får varje pilot ett fönster på en halv minut för att välja en tillfällig booster åt sig själv: **Skada** (dina lasrar slår hårdare), **Träffpoäng** (ditt skepp tål mer skrov) eller **Hastighet** (ditt skepp flyger snabbare). Tryck på ett kort för att välja det. Om du inte svarar i tid väljer spelet Träffpoäng åt dig. Ett val är värt 3 % vid steg 3 och 1,5 % vid steg 2, och en sort adderas upp till högst 9 % vid steg 3 och 4,5 % vid steg 2, hur ofta du än väljer den. Steg 1 har inga boosters. En grupp som lämnar en våg vid liv får inget fönster för den.
 
-En booster varar tills porten är avklarad. Om du lämnar porten, eller blir förstörd, förlorar du dina boosters, och du får tillbaka dem när du flyger in igen. En bricka under fönstret Klanport listar vad du har.
+En booster varar tills dungeonen är avklarad. Om du lämnar dungeonen, eller blir förstörd, förlorar du dina boosters, och du får tillbaka dem när du flyger in igen. En bricka under fönstret Klandungeon listar vad du har.
 
 ### Korten {#the-cards}
 
-Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragning. Varje kort går till varje pilot som får betalt, utrustningskorten också: ett kort med många exemplar ger var och en lika många, och ett utrustningskort ger var och en ett eget stycke, smitt särskilt för var och en. En pilot som inte får betalt får inte heller något kort, och en zon som öppnats i en port som misslyckas betalar ingenting.
+Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragning. Varje kort går till varje pilot som får betalt, utrustningskorten också: ett kort med många exemplar ger var och en lika många, och ett utrustningskort ger var och en ett eget stycke, smitt särskilt för var och en. En pilot som inte får betalt får inte heller något kort, och en zon som öppnats i en dungeon som misslyckas betalar ingenting.
 
 <!-- dungeons-cards:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -304,13 +306,13 @@ Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragni
 
 <!-- dungeons-cards:end -->
 
-Korten med ett exemplar är **utrustning**, och bara en port av steg 3 kan erbjuda dem. Ett utrustningsstycke smids för varje pilot som får betalt när det betalas ut: var och en slår en egen [förtrollningsnivå](/wiki/06-Items/Overview.md#item-enchants) med samma chanser som ett stycke du bygger i Monteringen, så de flesta blir Standard, och en högre nivå, upp till Evig, med bonusar, är ett sällsynt fynd.
+Korten med ett exemplar är **utrustning**, och bara en dungeon av steg 3 kan erbjuda dem. Ett utrustningsstycke smids för varje pilot som får betalt när det betalas ut: var och en slår en egen [förtrollningsnivå](/wiki/06-Items/Overview.md#item-enchants) med samma chanser som ett stycke du bygger i Monteringen, så de flesta blir Standard, och en högre nivå, upp till Evig, med bonusar, är ett sällsynt fynd.
 
 ## Betalning {#pay}
 
 När krigsherren faller får varje pilot som förtjänat det betalt, en gång per genomförd omgång. Korten som gruppen valde kommer ovanpå stegets betalning. Det finns ingen världsmultiplikator: betalningen är densamma i varje värld.
 
-**Orvium Reinforced Plates** är inte ett kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. Föremålen som en port betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
+**Orvium Reinforced Plates** är inte ett kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. Föremålen som en dungeon betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -333,7 +335,7 @@ Utomjordingarna betalar aldrig. En omgång spelas klart även när den inte beta
 - **En dag**: Ett steg betalar en pilot en gång per UTC-dag: den dag då krigsherren faller
 - **En vecka**: En pilot får betalt för högst 10 avklarade steg per UTC-vecka, måndag till söndag
 - **Inne**: Minst 2 min totalt
-- **Del i striden**: Minst ett av dessa: orsakat 2 % av krigsherrens skrov och sköld; förstört 10 av portens utomjordingar; läkt andra piloter för 50 000 under striden mot krigsherren
+- **Del i striden**: Minst ett av dessa: orsakat 2 % av krigsherrens skrov och sköld; förstört 10 av dungeonens utomjordingar; läkt andra piloter för 50 000 under striden mot krigsherren
 
 <!-- dungeons-rules:end -->
 
@@ -367,7 +369,7 @@ Klanbanken får också betalt, i krediter och inte i Thulium, första gången kl
 | **Steg 3** | 30 000 000 |
 
 - **Klanens ålder**: Minst 3 d
-- **Betalda piloter**: Minst 3 i porten
+- **Betalda piloter**: Minst 3 i dungeonen
 
 <!-- dungeons-clan:end -->
 
@@ -375,8 +377,8 @@ Klanbanken får också betalt, i krediter och inte i Thulium, första gången kl
 
 - Rensa en zons våg innan du försöker hålla zonen, och strid inne i ringen om utomjordingar kommer in.
 - Ta med hela gruppen till en zon: ju fler piloter i ringen, desto snabbare hålls den.
-- Utforska varje hörn av labyrinten: en flock väktare som du aldrig hittar håller krigsherrens dörr stängd.
+- Utforska labyrinten och förstör utomjordingarna du möter: krigsherrens dörr öppnas när tre fjärdedelar av dem är döda, och inte förr.
 - Använd väggarna: lasrar går inte igenom dem, de röda ringarna från krigsherrens auror slutar vid dem, och en vägg stoppar också krigsherrens raketer.
 - Spara en EMP Charge till Raketsalvan.
 - När krigsherren kallar på sina Goombahs, förstör dem först: han kan inte skadas förrän de är borta. Kliv ut ur ringen innan du skjuter i Kaoszonen.
-- Håll koll på klockan i fönstret Klanport. När tiden tar slut misslyckas porten och betalar ingenting.
+- Håll koll på klockan i fönstret Klandungeon. När tiden tar slut misslyckas dungeonen och betalar ingenting.

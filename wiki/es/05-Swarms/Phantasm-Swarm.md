@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Enjambre Phantasm -->
 # Enjambre Phantasm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ El enjambre Phantasm es un **Boss Phantasm** con sus **Phantasm Guards**: un [Ph
 
 ## Cómo transcurre el combate {#how-the-fight-goes}
 
-- **Lleva un grupo.** Tres pilotos de nivel 4–5 con munición x2 lo destruyen en aproximadamente minuto y medio en Alpha, perdiendo como mucho una nave; un piloto de ese nivel solo es destruido, y dos también. Mejores naves y munición x4 lo hacen mucho más rápido.
+- **Lleva un grupo.** Tres pilotos de nivel 4–5 con munición x2 lo destruyen en aproximadamente minuto y medio en Alpha, perdiendo como mucho una nave; un piloto de ese nivel solo es destruido, y dos lo ganan por muy poco, y solo mientras los golpes se reparten. Mejores naves y munición x4 lo hacen mucho más rápido.
 - **Dispara al jefe, no a los Guards.** Un Guard cae en segundos, pero llega uno nuevo con la frecuencia que dice la lista *De un vistazo*, y lo que curan los Guards es una parte pequeña de lo que causa un grupo: dejarlos en paz cuesta un poco de tiempo, perseguirlos cuesta más.
 - **Beta y Gamma son más duros.** Los enjambres de esos mundos son más fuertes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), así que piden más pilotos o mejor munición.
 - **Vigila el sector.** `x-4` es un sector PvP en Alpha, y `x-3` y `x-4` lo son en Beta y Gamma ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): un rival puede unirse al combate o esperar la caja. Deja una nave del grupo de guardia.

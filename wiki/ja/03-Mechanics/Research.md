@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究を、その技術の研究時間が24時間以内なら即座に完了させます（158の技術のうち142）。研究にかかった費用は開始時に支払い済みで返ってきません。まだ燃やしていない科学ポイントはタンクに残り、キューの次の技術はすぐに始まります。
+**Schematics。** [Schematics](/wiki/06-Items/Special-Items.md#schematics) は、進行中の研究を、その技術の研究時間が24時間以内なら即座に完了させます（159の技術のうち143）。研究にかかった費用は開始時に支払い済みで返ってきません。まだ燃やしていない科学ポイントはタンクに残り、キューの次の技術はすぐに始まります。
 
 **レーザーアンプと最終ティア。** ティアII～IVの Damage Amp、Crit Amp、Penetration Amp は、ほかの製作物と同じく研究します。アンプの系統が登場した時点でアンプを所持していた、または製作待ちにしていたパイロットは、そのアンプそれぞれの技術と、その下のティアの技術を受け取りました。別のツリーの技術を必要とする技術は13あります。リソースのツリーにある Dark Matter Plate の技術です。各強化系統の最終ティアがプレートを4枚と Ancient Control Unit を1個要求するためで、ティアIVの Damage Amp・Crit Amp・Penetration Amp、ティアIVの Absorption Shield Cell・Capacity Shield Cell、ティアIVの Impulse Thruster・Momentum Thruster、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II が該当します。以前にそのどれかを研究済みなら、その技術はそのまま残りますが、必要なプレートを作るには Dark Matter Plate の技術が要ります。下のツリーにはそのための矢印は描かれませんが、表には載っており、ゲーム内のカードにも名前が出ます（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### レーザー弾薬 {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Skylab の研究画面の「艦」ファミリーには、製作ではない技�
 
 ### Auto-Rocket CPU
 
-- **働き。** ON の間、戦闘中（レーザーがエイリアンか敵パイロットを狙っているとき）、ロケット発射キーを押せる状況になるたびに、最後に撃ったロケットを自動でそのターゲットへ発射します。条件は、ロケットのタイマーが済んでいて、そのロケットが1発以上残っていることです。サーバーは、あなたの発射と同じように、1発ごとに確認します。
+- **働き。** ON の間、戦闘中（レーザーがエイリアン、敵パイロット、または小惑星を狙っているとき）、ロケット発射キーを押せる状況になるたびに、最後に撃ったロケットを自動でそのターゲットへ発射します。条件は、ロケットのタイマーが済んでいて、そのロケットが1発以上残っていることです。サーバーは、あなたの発射と同じように、1発ごとに確認します。小惑星にも船と同じようにロケットを使うので、採掘だけをするときは OFF にしておいてください。
 - **スイッチ。** エクストラのスロットに装備し、その ARL スロットを押して ON と OFF を切り替えます。最初は OFF で、設定は次にサインインしても残ります。スロットは ON か OFF を表示し、CPU が発射するたびに光ります。
-- **しないこと。** ターゲットは選びません。小惑星には撃たず、セーフゾーンの中やステルス中も撃たず、N.U.K.E. と N.I.K.E. も撃ちません。自分で撃ったロケットは常に有効です。3分間、キー操作・クリック・マウスの移動がないと、何か操作するまで待機します。
+- **しないこと。** ターゲットは選びません。セーフゾーンの中やステルス中は撃たず、N.U.K.E. と N.I.K.E. も撃ちません。自分で撃ったロケットは常に有効です。3分間、キー操作・クリック・マウスの移動がないと、何か操作するまで待機します。
 - **ロケット切れ。** 一度だけ知らせ、補充されるとすぐにまた発射します。
 
 

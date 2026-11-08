@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: 추진 장치 -->
 # 추진 장치와 속도 {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하�
 
 ### 외계인 따돌리기 {#outrunning-aliens}
 
-외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion은 Impulse Thruster I로 219.3, II로 228.6의 속도로 비행합니다. 둘 다 아직 Crystalys보다 느리므로, 따돌리려면 티어 III 추진기가 필요합니다(Impulse Thruster III 238.0, IV 241.0). Momentum Thruster는 이 함선에서 같거나 조금 더 느립니다(Momentum Thruster I은 219.3, II~IV는 228.3, 236.1, 238.4). 두 계열 모두 티어 I과 II는 Crystalys보다 느리고, 티어 III과 IV는 더 빠릅니다.
+외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion(기본 속도 220)은 Impulse Thruster I로 239.9, II로 249.2, III으로 258.6, IV로 261.6의 속도로 비행합니다. 모든 티어가 Crystalys보다 빠르며, 구매할 수 있는 티어 I도 마찬가지입니다. Momentum Thruster는 이 함선에서 같거나 조금 더 느립니다(Momentum Thruster I은 239.9, II~IV는 248.9, 256.7, 259.0). 두 계열 모두 모든 티어가 Crystalys보다 빠르며, 그 차이는 최소 9.9입니다.

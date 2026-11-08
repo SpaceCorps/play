@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Phantasm sürüsü -->
 # Phantasm sürüsü {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ Phantasm sürüsü, bir **Boss Phantasm** ve **Phantasm Guard** gemilerinden olu
 
 ## Savaş nasıl geçer {#how-the-fight-goes}
 
-- **Bir grup getir.** x2 cephaneli, 4–5. seviyeden üç pilot onu Alpha’da yaklaşık bir buçuk dakikada yok eder ve en fazla bir gemi kaybeder; bu seviyeden tek bir pilot yok edilir, iki pilot da öyle. Daha iyi gemiler ve x4 cephane işi çok hızlandırır.
+- **Bir grup getir.** x2 cephaneli, 4–5. seviyeden üç pilot onu Alpha’da yaklaşık bir buçuk dakikada yok eder ve en fazla bir gemi kaybeder; bu seviyeden tek bir pilot yok edilir, iki pilot ise ancak zar zor kazanır, o da yalnızca darbeler paylaşıldığında. Daha iyi gemiler ve x4 cephane işi çok hızlandırır.
 - **Patrona ateş et, Guard gemilerine değil.** Bir Guard saniyeler içinde düşer, ama *Bir bakışta* listesinin söylediği sıklıkta yenisi gelir; Guard gemilerinin onardığı da bir grubun verdiği hasarın küçük bir kısmıdır: onları rahat bırakmak biraz zamana mal olur, peşlerine düşmek daha çoğuna.
 - **Beta ve Gamma daha zordur.** O dünyaların sürüleri daha güçlüdür ([Dünyalar](/wiki/05-Swarms/Swarms.md#the-worlds)); bu yüzden daha çok pilot ya da daha iyi cephane gerekir.
 - **Sektörü gözle.** `x-4` Alpha’da bir PvP sektörüdür; Beta ve Gamma’da ise `x-3` ve `x-4` öyledir ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): bir rakip savaşa katılabilir ya da kutuyu bekleyebilir. Grubun bir gemisini gözcü olarak bırak.

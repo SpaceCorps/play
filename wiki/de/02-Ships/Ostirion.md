@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ Die Ostirion ist ein solider Abfangjäger der Mittelklasse und bietet gegenüber
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 48.000
-- **Grundtempo**: 200
+- **Trefferpunkte (HP)**: 64.000
+- **Grundtempo**: 220
 - **Laser-Slots**: 3
 - **Extra-Slots**: 2
 
@@ -15,7 +15,7 @@ Die Ostirion ist ein solider Abfangjäger der Mittelklasse und bietet gegenüber
 
 - **Kern-Slots (100 % Wirkungsgrad)**: 3
 - **Support-Slots (75 % Wirkungsgrad)**: 3
-- **Hilfs-Slots (50 % Wirkungsgrad)**: 0
+- **Hilfs-Slots (50 % Wirkungsgrad)**: 1
 
 ---
 

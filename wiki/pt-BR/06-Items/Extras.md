@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -91,7 +91,7 @@ Pressione o slot WAL e uma **parede de plasma** se ergue **no seu cursor**, atra
 
 - **O que ela detém.** Todo tiro que a atravessa acerta a parede no lugar, não importa quem atirou nem de que lado: uma salva de laser, um foguete, a salva de um alienígena. O que está atrás não sofre nada e os pontos de vida da parede levam o dano. A explosão de um foguete que detona na parede atinge as naves do lado de cá e não as que estão atrás. Seus próprios tiros também: você não pode atirar para fora através da sua própria parede. A N.I.K.E. e as torres do Dormant Swamp passam por cima dela, como passam por cima dos asteroides.
 - **O que ela queima.** Toda nave cujo casco encosta na faixa sofre **2.500 de dano por segundo**, primeiro no escudo, inclusive a sua, e também alienígenas e pilotos de corporação. Uma nave em zona segura ou sob a proteção de um reaparecimento não queima, e duas faixas sobre uma nave não se somam.
-- **Quanto dura.** Uma parede de nível 1 tem **30.000 pontos de vida** e uma de nível 2, **90.000**. Uma parede perde sozinha um sessenta avos por segundo, então uma em que ninguém atira some em **60 segundos**. Os tiros encurtam isso: uma Wraith com doze Helios Beams e munição x4 derruba uma parede de nível 1 em cerca de 3,5 segundos.
+- **Quanto dura.** Uma parede de nível 1 tem **30.000 pontos de vida** e uma de nível 2, **90.000**. Uma parede perde sozinha um sessenta avos por segundo, então uma em que ninguém atira some em **60 segundos**. Os tiros encurtam isso: uma Wraith com treze Helios Beams e munição x4 derruba uma parede de nível 1 em cerca de 4 segundos.
 - **Uma de cada vez, uma parede por pressão.** Uma parede nova toma o lugar da antiga. Depois de pressionar, o item recarrega por **90 segundos**; a espera é sua, não da nave: morrer ou sair do jogo não a encurta. Uma pressão gasta **uma parede do nível que o slot guarda**, e só quando a parede se ergue: uma pressão que o jogo recusa (abaixo) não gasta nada e não inicia espera. Se não resta nenhuma desse nível, ele diz “Não resta nenhuma Energetic Wall.” e o outro nível nunca é gasto no lugar dele.
 - **Onde não.** Não enquanto uma zona segura ou um reaparecimento protege você, não onde a faixa tocaria uma zona segura ou um portão, não camuflado e não onde o meio da faixa cairia fora do mapa. O jogo diz qual é o caso.
 - **Abates.** Uma nave que a parede destrói morre de radiação, e o abate vai para o último piloto inimigo que a acertou nos 15 segundos anteriores, se houve algum. Quem ergueu a parede não recebe crédito por nada que não tenha atirado ele mesmo. Um alienígena que a parede destrói não paga nada: nem recompensa nem espólio.
@@ -154,9 +154,9 @@ Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montage
 
 ### Auto-Rocket CPU
 
-- **O que faz.** Enquanto estiver em ON e você estiver em combate (seus lasers estão em um alienígena ou em um piloto inimigo), ela dispara sozinha o seu foguete ativo, o último que você disparou, nesse alvo, sempre que um clique na tecla Disparar foguete funcionaria: o temporizador dos foguetes está pronto e resta um. O servidor confere cada disparo como confere os seus.
+- **O que faz.** Enquanto estiver em ON e você estiver em combate (seus lasers estão em um alienígena, em um piloto inimigo ou em um asteroide), ela dispara sozinha o seu foguete ativo, o último que você disparou, nesse alvo, sempre que um clique na tecla Disparar foguete funcionaria: o temporizador dos foguetes está pronto e resta um. O servidor confere cada disparo como confere os seus. Contra um asteroide ela gasta foguetes como contra uma nave, então deixe-a em OFF enquanto só minera.
 - **O interruptor.** Equipe-a em um slot de Extras e clique no slot ARL dela para colocá-la em ON ou OFF. Ela começa em OFF e fica como você a deixou, mesmo quando você entra de novo. O slot mostra ON ou OFF e brilha quando a CPU dispara.
-- **O que nunca faz.** Nunca escolhe um alvo, nunca dispara em asteroides, de uma zona segura ou camuflado, e nunca dispara uma N.U.K.E. ou uma N.I.K.E. Um foguete que você mesmo dispara sempre funciona. Sem tecla, clique ou movimento do mouse por 3 minutos, ela espera você fazer algo.
+- **O que nunca faz.** Nunca escolhe um alvo, nunca dispara de uma zona segura ou camuflado, e nunca dispara uma N.U.K.E. ou uma N.I.K.E. Um foguete que você mesmo dispara sempre funciona. Sem tecla, clique ou movimento do mouse por 3 minutos, ela espera você fazer algo.
 - **Sem foguetes.** Ela avisa uma vez e volta a disparar assim que você tiver mais.
 
 

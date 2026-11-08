@@ -179,6 +179,7 @@ Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç l
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Her UTC saatinin başında 3 yeni lot açılır, her biri farklı mallardan oluşur ve her biri 4 saat açık kalır; böylece aynı anda 12 lot açıktır.
+- Her dünyanın kendi lotları vardır: Alpha, Beta ve Gamma bu lotları her saat alır, aynı saatte farklı mallarla, büyüklüğü o dünyanın pilotlarına göre belirlenerek. Yalnızca uçtuğun dünyanın lotlarını görür, onlara teklif verir ve onları kazanırsın. Pilot pazarı ve alım emirleri üç dünya için ortaktır.
 - Açılış teklifi, malların Mağaza fiyatının %20 kadarıdır. Bundan sonraki bir teklif, en yüksek tekliften en az %5 ve en az 100 kredi daha fazla olmalıdır.
 - Teklifin hemen ödenir ve tutulur. Biri teklifini aşarsa hemen sana geri döner.
 - Bir lotun son 2 dk içinde verilen teklif, lotun bitişini tekliften 2 dk sonrasına taşır, en fazla 5 kez.

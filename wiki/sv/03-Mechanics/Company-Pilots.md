@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dced9aac4fce8b87 -->
+<!-- wiki-i18n source: 0096209c8f6660f0 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
@@ -11,7 +11,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 
 - **Skvadron**: 3 piloter per koncernsektor i varje värld (Alpha, Beta och Gamma har var sin skvadron), var och en med koncernens tagg och en anropssignal i namnet, t.ex. **[M] Vesper**. Deras namnskyltar har ett litet robotmärke och koncernens färg.
 - **Skepp**: en [Ostirion](/wiki/02-Ships/Ostirion.md) med tre **Quantum Laser II**, två **Light Shield Core**, en **Engine I** och en **Repair Drone I**:
-  - 48 000 träffpoäng, 22 000 sköldpoäng, hastighet 202
+  - 64 000 träffpoäng, 22 000 sköldpoäng, hastighet 222
   - absorption 45 %: deras sköldar tar 45 % av varje träff, skrovet 55 %
   - 195 grundskada per salva (x1-ammunition), 1 % kritisk chans, räckvidd 700
 - **På minikartan**: en grön romb för din koncerns piloter, en bärnstensfärgad för en annan koncerns.

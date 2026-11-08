@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Un alien qui lâche prise reprend sa ronde depuis l’endroit où il se trouve, 
 
 Les aliens ne se repoussent pas entre eux : une meute aux trousses d’un pilote approche sans garder d’espace entre ses vaisseaux, et une meute qui a perdu son pilote ne se disperse que lorsque chaque alien choisit sa propre route. Un alien reste en revanche à distance d’un **vaisseau** : il ne se retrouve jamais dans la coque d’un pilote, et un pilote qui se gare sur l’un le pousse devant lui.
 
-Voler plus vite ne vous aide que jusqu’à un certain point : un Protos (160) n’est pas plus rapide que les aliens qui chassent (Phantasm 160, Bulwark 175, Crystalys 230), donc c’est la laisse, et non votre vitesse, qui met fin à la poursuite.
+Voler plus vite ne vous aide que jusqu’à un certain point : un Protos (180) n’est qu’à peine plus rapide qu’un Phantasm (160) ou qu’un Bulwark (175), pas plus rapide qu’un Goombah (180) et moins rapide qu’un Crystalys (230), donc c’est la laisse, et non votre vitesse, qui met fin à la poursuite.
 
 ---
 

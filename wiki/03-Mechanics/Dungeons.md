@@ -1,10 +1,10 @@
 # Dungeons
 
-<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage -->
+<!-- wiki-search: dungeon; dungeons; gate; gates; clan gate; clan gates; clan dungeon; summon; warlord; gate warlord; boss; maze; loot zone; chest; card; vote; stage; instance; gate delta; gate epsilon; gate zeta; gate eta; gate theta; gate iota; gate goombah; gate pirate; gate crystalys; portal; clan portal; join; clan gate alerts; clan dungeon window; clan dungeon alerts; dungeon goombah; dungeon pirate; dungeon crystalys; dungeon warlord; 75 percent; three quarters; start room; fog; guards; locked room; boss room; booster; boosters; swarm assist; focus most wanted; zone of chaos; rocket barrage -->
 
-A **dungeon** is what the game calls a **gate**: a closed maze with a **Warlord** at its end. A co-leader or the leader of a [clan](/wiki/03-Mechanics/Clans.md) opens one and pays for it from the clan bank, and members of the clan fly in together as one [group](/wiki/03-Mechanics/Groups.md). They fight through the aliens of the maze, open loot zones to choose a card from each, and bring the Warlord down. Every pilot who took part in the fight is paid when the Warlord falls, within the limits further down. The gates are on the **Gates** tab of the clan page.
+A **dungeon** is a closed maze with a **Warlord** at its end (before 0.5.2 the game called it a gate). A co-leader or the leader of a [clan](/wiki/03-Mechanics/Clans.md) opens one and pays for it from the clan bank, and members of the clan fly in together as one [group](/wiki/03-Mechanics/Groups.md). They fight through the aliens of the maze, open loot zones to choose a card from each, and bring the Warlord down. Every pilot who took part in the fight is paid when the Warlord falls, within the limits further down. The dungeons are on the **Dungeons** tab of the clan page.
 
-A gate is a fight against the aliens only: nobody can attack a clan mate, or anyone else, inside one. The aliens pay nothing. The pay is the Warlord's alone, so the only way to be paid is to be in the fight when it falls.
+A dungeon is a fight against the aliens only: nobody can attack a clan mate, or anyone else, inside one. The aliens pay nothing. The pay is the Warlord's alone, so the only way to be paid is to be in the fight when it falls.
 
 ## At a glance
 
@@ -12,57 +12,58 @@ A gate is a fight against the aliens only: nobody can attack a clan mate, or any
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 - **Opens**: From season day 1
-- **Who opens a gate**: A co-leader or the leader, who pays the price from the clan bank
+- **Who opens a dungeon**: A co-leader or the leader, who pays the price from the clan bank
 - **Party**: 4 to 10 members of the clan, in one group
-- **Gates a day**: 3 for each clan in a UTC day, one open at a time
-- **Gates at once**: 6 in a world
+- **Dungeons a day**: 3 for each clan in a UTC day, one open at a time
+- **Dungeons at once**: 6 in a world
 - **Maps**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
-- **Mazes**: 8; one is picked when a gate is opened
-- **Gathering**: 10 min to gather and start. A gate nobody starts closes, and its price goes back to the clan bank
-- **Time limit**: Stage 1: 95 min, Stage 2: 130 min, Stage 3: 165 min from the start. When it runs out the gate fails and pays nothing
-- **Left empty**: A gate with nobody inside for 3 min fails
-- **After the Warlord falls**: The gate stays open for 2 min, for the pilots inside
+- **Mazes**: 8; one is picked when a dungeon is opened
+- **Boss room**: Opens when 75% of the aliens of the maze are destroyed, rounded up
+- **Gathering**: 10 min to gather and start. A dungeon nobody starts closes, and its price goes back to the clan bank
+- **Time limit**: Stage 1: 95 min, Stage 2: 130 min, Stage 3: 165 min from the start. When it runs out the dungeon fails and pays nothing
+- **Left empty**: A dungeon with nobody inside for 3 min fails
+- **After the Warlord falls**: The dungeon stays open for 2 min, for the pilots inside
 - **Coming back**: A pilot who left or was destroyed can fly back in 3 times, 20 s apart
 
 <!-- dungeons-glance:end -->
 
 ## How a run goes
 
-1. **Summon.** On the Gates tab a [co-leader or the leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) picks a stage and presses **Summon**. The price comes out of the [clan bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), and the gate takes one of the maps listed above. A gate that nobody starts closes, and the price goes back to the bank.
-2. **Enter.** Members of the clan press **Enter** in the Clan window while they are flying, jump through the clan portal, or press **Join** on the call card (see Entering). Everyone lands in the start room, and the pilots inside are the gate's party.
-3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the gate gathers. There are no aliens in it, so it is safe to wait there. The gate **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the gate, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more. When the gate starts, the door opens for good, and after that only the pilots who were already inside can come back.
+1. **Summon.** On the Dungeons tab a [co-leader or the leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) picks a stage and presses **Summon**. The price comes out of the [clan bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), and the dungeon takes one of the maps listed above. A dungeon that nobody starts closes, and the price goes back to the bank.
+2. **Enter.** Members of the clan press **Enter** in the Clan window while they are flying, jump through the clan portal, or press **Join** on the call card (see Entering). Everyone lands in the start room, and the pilots inside are the dungeon's party.
+3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the dungeon gathers. There are no aliens in it, so it is safe to wait there. The dungeon **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the dungeon, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more. When the dungeon starts, the door opens for good, and after that only the pilots who were already inside can come back.
 4. **Fight through the maze.** You come in at one end of the maze and the Warlord waits at the other, in a locked room. The maze is dark: you see only what the party has explored and what is close to its ships. The aliens sleep in packs in the corridors, and a pack that wakes hunts the party through the maze.
 5. **Open the loot zones.** Rings in the maze mark the zones. Hold one and the party votes for a card, which is paid out with the Warlord's pay.
-6. **Unlock the boss room.** Destroy the guards, the Crystalys and their Twins, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt.
-7. **Defeat the Warlord.** Break its shield and hull, and answer its abilities. When it falls the gate is cleared.
-8. **Get paid.** The pay comes at the moment the Warlord falls. The gate stays open a little longer for the pilots inside, then closes.
+6. **Unlock the boss room.** Destroy three quarters of the aliens of the maze, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt.
+7. **Defeat the Warlord.** Break its shield and hull, and answer its abilities. When it falls the dungeon is cleared.
+8. **Get paid.** The pay comes at the moment the Warlord falls. The dungeon stays open a little longer for the pilots inside, then closes.
 
 ## Entering
 
-To enter a gate you need a **ship in flight**, so launch first and then open the Clan window, and a [group](/wiki/03-Mechanics/Groups.md) with enough members of the clan in it. You also need the **level** that the stage asks for, and you cannot be inside another gate. The gate's party has a size limit: once it is full nobody else can enter.
+To enter a dungeon you need a **ship in flight**, so launch first and then open the Clan window, and a [group](/wiki/03-Mechanics/Groups.md) with enough members of the clan in it. You also need the **level** that the stage asks for, and you cannot be inside another dungeon. The dungeon's party has a size limit: once it is full nobody else can enter.
 
-A co-leader or the leader opens a gate, one at a time for the clan, and only up to the number of gates a day. The clan bank has to hold the price. A clan can open a stage only after it has cleared the stage before it.
+A co-leader or the leader opens a dungeon, one at a time for the clan, and only up to the number of dungeons a day. The clan bank has to hold the price. A clan can open a stage only after it has cleared the stage before it.
 
-Inside a gate you cannot change world, and the Jump CPU and the Base CPU do not work. The **Leave** button in the Clan dungeon window takes you out. It asks you to confirm first, unless the Warlord has already fallen: then you go at once. A pilot who left, or who was destroyed, can fly back in a few times, with a short wait between them.
+Inside a dungeon you cannot change world, and the Jump CPU and the Base CPU do not work. The **Leave** button in the Clan dungeon window takes you out. It asks you to confirm first, unless the Warlord has already fallen: then you go at once. A pilot who left, or who was destroyed, can fly back in a few times, with a short wait between them.
 
 ### The clan portal and the call
 
-When a gate is opened, the clan gets a **portal** for it on the home map of each company (`M-1`, `T-1` and `G-1`), a little way outside the safe zone of the station. Only the pilots of the clan can see it: for everyone else it is not there. It has no safe zone of its own. Fly up to it and jump as at any other portal, and it takes you into the gate under the rules of **Enter**: a ship in flight, a group with enough members of the clan, the level of the stage and room in the party. Once the gate has started, only the pilots who were already inside can use it. The portal is gone when the gate is over.
+When a dungeon is opened, the clan gets a **portal** for it on the home map of each company (`M-1`, `T-1` and `G-1`), a little way outside the safe zone of the station. Only the pilots of the clan can see it: for everyone else it is not there. It has no safe zone of its own. Fly up to it and jump as at any other portal, and it takes you into the dungeon under the rules of **Enter**: a ship in flight, a group with enough members of the clan, the level of the stage and room in the party. Once the dungeon has started, only the pilots who were already inside can use it. The portal is gone when the dungeon is over.
 
-While the clan's gate is gathering and you are flying somewhere else, a **call** comes to you: a card at the top of the flight screen, with a sound. It says who opened the gate, how many pilots are inside and how long the gate stays open. **Join** flies you in, as **Enter** does on the Gates tab, and when you leave the gate your ship comes back to where it was. Join is greyed out while your group is too small. **Not now** hides the card for that gate. If your group is already inside and the gate is waiting for you, the card says so. The card reaches the pilots of the clan who are flying, not the ones docked at a station, and who have the level that the stage asks. You can turn the card and its sound off with **Clan gate alerts** in Settings › General › Groups.
+While the clan's dungeon is gathering and you are flying somewhere else, a **call** comes to you: a card at the top of the flight screen, with a sound. It says who opened the dungeon, how many pilots are inside and how long the dungeon stays open. **Join** flies you in, as **Enter** does on the Dungeons tab, and when you leave the dungeon your ship comes back to where it was. Join is greyed out while your group is too small. **Not now** hides the card for that dungeon. If your group is already inside and the dungeon is waiting for you, the card says so. The card reaches the pilots of the clan who are flying, not the ones docked at a station, and who have the level that the stage asks. You can turn the card and its sound off with **Clan dungeon alerts** in Settings › General › Groups.
 
 ### The Clan dungeon window
 
-Inside a gate the run has a window of its own, **Clan dungeon**. It shows the time that has gone and what is left, how many aliens fly and how many have been destroyed, what the party should do now (explore the maze, hold a zone, find the boss, destroy the guards, defeat the Warlord), the hull bars of the party, the hold bar while you stand in a zone, the Warlord's ability with its countdown, and the **Leave** button. It is a window like the others: drag it by its title bar and close it with the red light in its corner. It opens by itself when you enter a gate, once for each gate: if you close it, it stays closed until the next gate. The toolbar has a **Clan dungeon** button for it while you are in a gate. While the window is closed, an ability of the Warlord that is about to start or is at work shows as a one-line strip with its name and countdown. Click the strip to open the window again.
+Inside a dungeon the run has a window of its own, **Clan dungeon**. It shows the time that has gone and what is left, how many aliens fly and how many have been destroyed, what the party should do now (explore the maze, hold a zone, find the boss, destroy three quarters of the aliens, defeat the Warlord), the hull bars of the party, the hold bar while you stand in a zone, the Warlord's ability with its countdown, and the **Leave** button. It is a window like the others: drag it by its title bar and close it with the red light in its corner. It opens by itself when you enter a dungeon, once for each dungeon: if you close it, it stays closed until the next dungeon. The toolbar has a **Clan dungeon** button for it while you are in a dungeon. While the window is closed, an ability of the Warlord that is about to start or is at work shows as a one-line strip with its name and countdown. Click the strip to open the window again.
 
 ## The stages
 
-A gate has a stage, and the stage is its difficulty. A higher stage has tougher aliens that hit harder, and it pays more. The multipliers in the table are the aliens'. Damage means their lasers and rockets. The Warlord does not follow the table: it keeps its own numbers for each stage, further down. The table also says how many aliens a stage sends compared with the first. The **price** is taken from the clan bank when the gate is opened.
+A dungeon has a stage, and the stage is its difficulty. A higher stage has tougher aliens that hit harder, and it pays more. The multipliers in the table are the aliens'. Damage means their lasers and rockets. The Warlord does not follow the table: it keeps its own numbers for each stage, further down. The table also says how many aliens a stage sends compared with the first. The **price** is taken from the clan bank when the dungeon is opened.
 
 <!-- dungeons-stages:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Stage | Needs | Hull and shield of the aliens | Number of aliens | Damage of the aliens | Price of the gate (credits, from the clan bank) |
+| Stage | Needs | Hull and shield of the aliens | Number of aliens | Damage of the aliens | Price of the dungeon (credits, from the clan bank) |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | **Stage 1** | From level 6 | ×1 | ×1 | ×1 | 500,000 |
 | **Stage 2** | From level 7 | ×1.5 | ×1 | ×1.5 | 1,000,000 |
@@ -72,27 +73,28 @@ A gate has a stage, and the stage is its difficulty. A higher stage has tougher 
 
 ## The maze
 
-Each gate is a closed maze on a map of its own, one of the maps in the list above, and the maze is one of several layouts. The maze fills the whole map, from edge to edge: a grid of rooms and corridors with solid walls. Ships cannot cross a wall, and a wall blocks shots, so a wall is cover. A meteor falls from above, and a wall does not stop it.
+Each dungeon is a closed maze on a map of its own, one of the maps in the list above, and the maze is one of several layouts. The maze fills the whole map, from edge to edge: a grid of rooms and corridors with solid walls. Ships cannot cross a wall, and a wall blocks shots, so a wall is cover. A meteor falls from above, and a wall does not stop it.
 
-**Rooms and doors.** The start room, where you land, and the Warlord's room, at the far end, each have one door. A shut door is a wall to ships, shots and aliens alike. The start door opens when the gate starts. The Warlord's door stays locked until the guards are destroyed (see [the locked room](#the-locked-room)). Between them the maze has a loot room for each loot zone.
+**Rooms and doors.** The start room, where you land, and the Warlord's room, at the far end, each have one door. A shut door is a wall to ships, shots and aliens alike. The start door opens when the dungeon starts. The Warlord's door stays locked until three quarters of the aliens are destroyed (see [the locked room](#the-locked-room)). Between them the maze has a loot room for each loot zone.
 
 **Fog.** The maze is dark. In flight you see its walls and its aliens only where the party has been, and a short way round each ship of the party. A room counts as explored as soon as one of you is in it. The minimap is the same: a chart of the whole floor that fills in as the party explores it, with the entrance, the door of the Warlord's room, the zones you have found and the Warlord once you have found it. The pilots of your own party are always shown.
 
 ## The aliens
 
-Four kinds of alien guard the maze. They sleep in packs in the corridors, never in a room, and a pack wakes when a pilot comes near. A pack that is awake does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it slept and heals. A few packs are awake from the first second, standing in the corridors away from the entrance until a pilot comes near. The gate keeps only so many aliens in the air at once, and that number grows with the size of the party, so a pack that wakes may have to wait for room, and a pack that you destroy lets the next one in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one.
+Four kinds of alien guard the maze. They sleep in packs in the corridors, never in a room, and a pack wakes when a pilot comes near. A pack that is awake does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it slept and heals. A few packs are awake from the first second, standing in the corridors away from the entrance until a pilot comes near. The dungeon keeps only so many aliens in the air at once, and that number grows with the size of the party, so a pack that wakes may have to wait for room, and a pack that you destroy lets the next one in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
 | Aliens, for a party of 5 | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Gate Goombah | 156 | 156 | 156 |
-| Gate Pirate | 34 | 34 | 34 |
-| Gate Crystalys | 34 | 34 | 34 |
-| Gate Crystalys Twin | 11 | 11 | 11 |
+| Dungeon Goombah | 156 | 156 | 156 |
+| Dungeon Pirate | 34 | 34 | 34 |
+| Dungeon Crystalys | 34 | 34 | 34 |
+| Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Together | 235 | 235 | 235 |
-| The wave of a loot zone | 12 × Gate Goombah and 1 × Gate Crystalys | 12 × Gate Goombah and 1 × Gate Crystalys | 12 × Gate Goombah and 1 × Gate Crystalys |
+| To open the boss room | 177 | 177 | 177 |
+| The wave of a loot zone | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys |
 
 - **Alive at once**: At most 10 for each pilot of the party, and 70 in all
 
@@ -103,7 +105,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 <!-- dungeons-enemies:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-### Gate Goombah
+### Dungeon Goombah
 
 - **Looks like**: Goombah
 - **Flies in packs of**: 6
@@ -117,7 +119,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | 1,800 | 1,800 | 1,800 |
 
-### Gate Pirate
+### Dungeon Pirate
 
 - **Looks like**: Pirate Boss
 - **Flies in packs of**: 2
@@ -129,11 +131,11 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Shield | 50,100 | 75,150 | 100,200 |
 | Laser damage (a volley a second) | 200 | 300 | 400 |
 | Rocket damage | 5,000 | 7,500 | 10,000 |
-| Speed | 92 | 92 | 92 |
+| Speed | 110 | 110 | 110 |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | 1,800 | 1,800 | 1,800 |
 
-### Gate Crystalys
+### Dungeon Crystalys
 
 - **Looks like**: Crystalys
 - **Flies in packs of**: 2
@@ -147,7 +149,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Laser range | 900 | 900 | 900 |
 | Aggro radius | 2,400 | 2,400 | 2,400 |
 
-### Gate Crystalys Twin
+### Dungeon Crystalys Twin
 
 - **Looks like**: Crystalys, 1.4 times as big
 - **Flies in packs of**: 1
@@ -165,7 +167,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 ## The Warlord
 
-The Warlord waits in the room at the far end of the maze, and it is the only thing in a gate that pays. It is a Crystalys grown huge. Its hull and shield grow with the size of the party: the more pilots enter, the tougher it is, in proportion. It never leaves its room, whether the door is shut or open: it keeps inside the room's walls and does not hunt through the corridors. A pilot outside can draw it only to the edge of the room, and it still shoots through an open door at whatever its laser reaches. It uses its abilities one at a time, in a random order, each with a cooldown of its own.
+The Warlord waits in the room at the far end of the maze, and it is the only thing in a dungeon that pays. It is a Crystalys grown huge. Its hull and shield grow with the size of the party: the more pilots enter, the tougher it is, in proportion. It never leaves its room, whether the door is shut or open: it keeps inside the room's walls and does not hunt through the corridors. A pilot outside can draw it only to the edge of the room, and it still shoots through an open door at whatever its laser reaches. It uses its abilities one at a time, in a random order, each with a cooldown of its own.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -181,7 +183,7 @@ The Warlord waits in the room at the far end of the maze, and it is the only thi
 | Speed | 120 | 120 | 120 |
 | Laser range | 1,100 | 1,100 | 1,100 |
 
-The hull and shield above are for a party of 5. They grow with the party: these are the Warlord's hull and shield together, by the number of pilots in the party when the gate starts.
+The hull and shield above are for a party of 5. They grow with the party: these are the Warlord's hull and shield together, by the number of pilots in the party when the dungeon starts.
 
 | Pilots in the party | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -197,9 +199,9 @@ The hull and shield above are for a party of 5. They grow with the party: these 
 
 ### The locked room
 
-The door of the Warlord's room is shut from the moment the gate is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when the party has destroyed the **guards**: the Gate Crystalys and the Gate Crystalys Twin that the gate was made with, about a fifth of its aliens. The Gate Goombah and the Gate Pirate do not count, and neither do the waves of the loot zones or the Goombahs that the Warlord calls.
+The door of the Warlord's room is shut from the moment the dungeon is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when **three quarters of the aliens** that the dungeon was made with are destroyed, rounded up (the table of the aliens above counts them for a party of 5). The aliens that count are the ones in the packs of the maze, the packs that stand in the corridors from the first second among them, of all four kinds and whoever destroys them. The waves of the loot zones, the Goombahs that the Warlord calls and the Warlord itself do not count.
 
-The Clan dungeon window counts the guards that are left and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack of guards that still sleeps counts in full, so the party has to explore the maze and find them all. On the minimap the door is a red line while it is locked and a green one when it is open. A gate is never a trap: the time limit still ends a gate whose last guards cannot be found, and an administrator can unlock the room of a stuck gate.
+The Clan dungeon window counts how many more aliens have to be destroyed to open the room and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack that still sleeps counts in full, so the party has to explore the maze, but it can leave the last quarter of the aliens alone. On the minimap the door is a red line while it is locked and a green one when it is open. A dungeon is never a trap: the time limit still ends a dungeon whose door stays shut, and an administrator can unlock the room of a stuck dungeon.
 
 ### Its abilities
 
@@ -207,7 +209,7 @@ The Clan dungeon window counts the guards that are left and says, in a chip, tha
 - **The amber rings** of the Meteor drop show where meteors will land a moment later. Keep moving and get out of the ring before it lands.
 - **Focus Most Wanted** marks the pilot who has dealt the most damage to the Warlord, with a gold bracket on his ship, and the Warlord fires an extra bolt at him every second while it lasts. Its aim does not change: it goes on shooting the nearest pilot it can see, so a marked pilot who is also the nearest takes both. The extra bolt needs a clear line and the reach of the Warlord's laser, so a wall or some distance saves him. It does not start while nobody has dealt any damage.
 - **The Rocket barrage** sends homing rockets at random pilots, but only at pilots the Warlord can see, and a wall in the way stops a rocket. A ring shows which pilot a rocket follows. An EMP Charge or a cloak shakes them off.
-- **The Swarm assist** is the Warlord calling its Goombahs. While they live it cannot be hurt, and it does not fire or use any other ability. Destroy them all: the banner counts how many are left. If a minute goes by, the Warlord can be hurt again and the Goombahs that are left stay and fight on. They are not guards, and they pay nothing.
+- **The Swarm assist** is the Warlord calling its Goombahs. While they live it cannot be hurt, and it does not fire or use any other ability. Destroy them all: the banner counts how many are left. If a minute goes by, the Warlord can be hurt again and the Goombahs that are left stay and fight on. They do not count for the boss room, and they pay nothing.
 - **The Zone of Chaos** is a violet ring on the ground, round the place where the Warlord stood when it cast it. Nobody inside the ring can attack, with lasers or rockets, though repairs, cloaks and flying still work, and the Warlord and its aliens fire as ever. The ring shows a moment before it takes hold: step out of it, and shoot into it from outside.
 
 <!-- dungeons-abilities:begin -->
@@ -264,11 +266,11 @@ More pilots in the ring hold a zone faster. How long a zone takes to hold:
 
 At stages 2 and 3 the waves of the loot zones bring boosters too. When the party has destroyed every alien of a wave, the wave counts, and after every second wave (the second, the fourth and the sixth) each pilot gets a window of half a minute to pick a temporary booster for himself: **Damage** (your lasers hit harder), **HP** (your ship holds more hull) or **Speed** (your ship flies faster). Press a card to pick it. If you do not answer in time, the game picks HP for you. A pick is worth 3% at stage 3 and 1.5% at stage 2, and a kind adds up to 9% at stage 3 and 4.5% at stage 2, however often you pick it. Stage 1 has no boosters. A party that leaves a wave alive gets no window for it.
 
-A booster lasts until the gate is cleared. If you leave the gate, or are destroyed, you lose your boosters, and you get them back when you fly in again. A chip under the Clan dungeon window lists what you have.
+A booster lasts until the dungeon is cleared. If you leave the dungeon, or are destroyed, you lose your boosters, and you get them back when you fly in again. A chip under the Clan dungeon window lists what you have.
 
 ### The cards
 
-The cards are drawn one by one from the pool below. The chance is that of a card in one draw. Every card goes to every pilot who is paid, gear cards too: a card with many copies gives each of them that many, and a gear card gives each of them a piece of his own, forged for him. A pilot who is not paid gets no card either, and a zone that was opened in a gate that fails pays nothing.
+The cards are drawn one by one from the pool below. The chance is that of a card in one draw. Every card goes to every pilot who is paid, gear cards too: a card with many copies gives each of them that many, and a gear card gives each of them a piece of his own, forged for him. A pilot who is not paid gets no card either, and a zone that was opened in a dungeon that fails pays nothing.
 
 <!-- dungeons-cards:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -302,13 +304,13 @@ The cards are drawn one by one from the pool below. The chance is that of a card
 
 <!-- dungeons-cards:end -->
 
-The cards with one copy are **gear**, and only a stage 3 gate can offer them. A piece of gear is forged for every paid pilot as it is paid out: each of them rolls an [enchant tier](/wiki/06-Items/Overview.md#item-enchants) of his own with the same chances as a piece you build in the Assembly, so most come as Standard, and a higher tier, up to Eternal, with buffs, is a rare find.
+The cards with one copy are **gear**, and only a stage 3 dungeon can offer them. A piece of gear is forged for every paid pilot as it is paid out: each of them rolls an [enchant tier](/wiki/06-Items/Overview.md#item-enchants) of his own with the same chances as a piece you build in the Assembly, so most come as Standard, and a higher tier, up to Eternal, with buffs, is a rare find.
 
 ## Pay
 
 When the Warlord falls, every pilot who earned it is paid, once for the clear. The cards that the party chose come on top of the pay of the stage. There is no world multiplier: the pay is the same in every world.
 
-The **Orvium Reinforced Plates** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The items that a gate pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
+The **Orvium Reinforced Plates** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The items that a dungeon pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -331,7 +333,7 @@ The aliens never pay. A clear is played in full even when it pays nothing, and t
 - **A day**: A stage pays a pilot once in a UTC day: the day the Warlord falls
 - **A week**: A pilot is paid for at most 10 stage clears in a UTC week, Monday to Sunday
 - **Inside**: At least 2 min in all
-- **A share in the fight**: At least one of these: dealt 2% of the Warlord's hull and shield; destroyed 10 of the gate's aliens; healed other pilots for 50,000 during the fight with the Warlord
+- **A share in the fight**: At least one of these: dealt 2% of the Warlord's hull and shield; destroyed 10 of the dungeon's aliens; healed other pilots for 50,000 during the fight with the Warlord
 
 <!-- dungeons-rules:end -->
 
@@ -365,7 +367,7 @@ The clan bank is paid too, in credits and not in Thulium, the first time the cla
 | **Stage 3** | 30,000,000 |
 
 - **Clan age**: At least 3 d
-- **Paid pilots**: At least 3 in the gate
+- **Paid pilots**: At least 3 in the dungeon
 
 <!-- dungeons-clan:end -->
 
@@ -373,8 +375,8 @@ The clan bank is paid too, in credits and not in Thulium, the first time the cla
 
 - Clear a zone's wave before you try to hold the zone, and fight inside the ring if the aliens come in.
 - Bring the whole party to a zone: the more pilots in the ring, the faster it is held.
-- Explore every corner of the maze: a pack of guards that you never find keeps the Warlord's door shut.
+- Explore the maze and destroy the aliens you meet: the Warlord's door opens when three quarters of them are dead, and not before.
 - Use the walls: lasers do not cross them, the red rings of the Warlord's auras stop at them, and a wall stops the Warlord's rockets too.
 - Keep an EMP Charge for the Rocket barrage.
 - When the Warlord calls its Goombahs, destroy them first: it cannot be hurt until they are gone. In the Zone of Chaos, step out of the ring before you shoot.
-- Watch the clock in the Clan dungeon window. When the time runs out the gate fails and pays nothing.
+- Watch the clock in the Clan dungeon window. When the time runs out the dungeon fails and pays nothing.

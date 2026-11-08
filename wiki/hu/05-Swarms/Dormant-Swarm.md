@@ -55,17 +55,17 @@ Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 324 000 | 486 000 | 648 000 |
+| Hajótest | 256 000 | 384 000 | 512 000 |
 | Pajzs | 83 400 | 125 100 | 166 800 |
-| Lézersebzés (másodpercenként egy sorozat) | 2 880 | 4 320 | 5 760 |
-| Sebesség | 220 | 220 | 220 |
+| Lézersebzés (másodpercenként egy sorozat) | 3 120 | 4 680 | 6 240 |
+| Sebesség | 210 | 210 | 210 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 7 500 | 11 250 | 15 000 |
-| Kredit | 200 000 | 400 000 | 600 000 |
-| Thulium | 535 | 1 070 | 1 605 |
-| Tapasztalat (XP) | 32 100 | 64 200 | 96 300 |
-| Becsület | 139 | 278 | 417 |
+| Kredit | 185 000 | 370 000 | 555 000 |
+| Thulium | 485 | 970 | 1 455 |
+| Tapasztalat (XP) | 29 200 | 58 400 | 87 600 |
+| Becsület | 127 | 254 | 381 |
 | PvE-pont kilövésenként | 25 | 25 | 25 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.
@@ -84,15 +84,15 @@ Alapja: Paragon, hajótestének 100%-a és lézersebzésének 600%-a; a sebessé
 | :--- | ---: | ---: | ---: |
 | Hajótest | 128 000 | 192 000 | 256 000 |
 | Pajzs | 64 570 | 96 855 | 129 140 |
-| Lézersebzés (másodpercenként egy sorozat) | 3 840 | 5 760 | 7 680 |
-| Sebesség | 210 | 210 | 210 |
+| Lézersebzés (másodpercenként egy sorozat) | 4 320 | 6 480 | 8 640 |
+| Sebesség | 230 | 230 | 230 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 5 000 | 7 500 | 10 000 |
-| Kredit | 95 000 | 190 000 | 285 000 |
-| Thulium | 255 | 510 | 765 |
-| Tapasztalat (XP) | 15 200 | 30 400 | 45 600 |
-| Becsület | 66 | 132 | 198 |
+| Kredit | 105 000 | 210 000 | 315 000 |
+| Thulium | 275 | 550 | 825 |
+| Tapasztalat (XP) | 16 600 | 33 200 | 49 800 |
+| Becsület | 72 | 144 | 216 |
 | PvE-pont kilövésenként | 11 | 11 | 11 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da31a9c98f00d180 -->
+<!-- wiki-i18n source: a19ca2c434d33d24 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 8000
-- **Velocità di base**: 160
+- **Velocità di base**: 180
 - **Slot laser**: 2
 - **Slot extra**: 2
 
@@ -15,7 +15,7 @@ La Protos è la nave iniziale di base che viene data a tutti i nuovi piloti di S
 
 - **Slot principali (100% di efficienza)**: 2
 - **Slot di supporto (75% di efficienza)**: 2
-- **Slot ausiliari (50% di efficienza)**: 0
+- **Slot ausiliari (50% di efficienza)**: 1
 
 ---
 

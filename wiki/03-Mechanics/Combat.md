@@ -103,7 +103,7 @@ An alien that lets go roams from where it stands, never on to where it last saw 
 
 Aliens do not push each other apart: a pack after one pilot closes in without keeping any room between its ships, and a pack that lost its pilot breaks up only as each alien picks its own way. An alien does keep clear of a **ship**, though: it never ends up inside a pilot's hull, and a pilot who parks on one pushes it along.
 
-Flying faster only helps you so far: a Protos (160) is no faster than any alien that hunts (Phantasm 160, Bulwark 175, Crystalys 230), so the leash, not your speed, ends the chase.
+Flying faster only helps you so far: a Protos (180) is only a little faster than a Phantasm (160) or a Bulwark (175), no faster than a Goombah (180) and slower than a Crystalys (230), so the leash, not your speed, ends the chase.
 
 ---
 

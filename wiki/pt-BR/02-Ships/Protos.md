@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: da31a9c98f00d180 -->
+<!-- wiki-i18n source: a19ca2c434d33d24 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ A Protos é a nave inicial básica entregue a todos os pilotos novos do SpaceCor
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 8.000
-- **Velocidade base**: 160
+- **Velocidade base**: 180
 - **Slots de laser**: 2
 - **Slots extras**: 2
 
@@ -15,7 +15,7 @@ A Protos é a nave inicial básica entregue a todos os pilotos novos do SpaceCor
 
 - **Slots de núcleo (100% de eficiência)**: 2
 - **Slots de suporte (75% de eficiência)**: 2
-- **Slots auxiliares (50% de eficiência)**: 0
+- **Slots auxiliares (50% de eficiência)**: 1
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
@@ -17,7 +17,7 @@ Die Entfernungen gelten ab der Mitte des Sektors, in Karteneinheiten. Der Sektor
 | :--- | ---: | :--- |
 | **Strahlung** | 4.000 | Dein Schiff nimmt jede Sekunde Schaden, einen Anteil seiner gesamten maximalen HP. Je näher, desto mehr. |
 | **Sog** | 3.000 | Das Schwarze Loch zieht dein Schiff zur Mitte, umso stärker, je näher du bist. Ein Schiff, das nicht fliegt, wird mitgetragen. |
-| **Punkt ohne Wiederkehr** | etwa 1.000 bis 2.600 | Dort, wo der Sog dem Tempo deines Schiffs entspricht. Innerhalb davon wirst du selbst mit voller Kraft hineingezogen. Er hängt von deinem Tempo ab. |
+| **Punkt ohne Wiederkehr** | etwa 900 bis 2.500 | Dort, wo der Sog dem Tempo deines Schiffs entspricht. Innerhalb davon wirst du selbst mit voller Kraft hineingezogen. Er hängt von deinem Tempo ab. |
 | **Ereignishorizont** | 300 | Jedes Schiff, das ihn erreicht, wird sofort zerstört, egal wie stark Hülle und Schild sind. |
 
 Die Portale von Gefahrensektor 4 und die Bahnen zwischen ihnen verlaufen alle weit außerhalb der Strahlung, sodass du ihr auf der Durchreise nie zufällig begegnest. Ab Saisontag 11 liegt im selben Sektor außerdem der [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in seiner oberen linken Ecke, weit vom Loch entfernt; die Aliens dort kommen nie in die Ringe des Lochs. Die letzten Tage einer Saison sind die Ausnahme: siehe [Vor dem Wipe wächst es](#growing-before-the-wipe).
@@ -60,11 +60,11 @@ Zwischen zwei Zeilen steigt der Schaden linear. In Trefferpunkten pro Sekunde, f
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
 | Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
-| Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
+| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
+| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
-| Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
+| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
+| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
 - Den Schaden **nimmt zuerst der Schild**, dann die Hülle. Es ist kein Treffer: Die Absorption des Schilds spielt keine Rolle, und ausweichen kannst du ihm nicht.
@@ -97,20 +97,20 @@ Dein **Punkt ohne Wiederkehr** ist die Entfernung, in der der Sog deinem Tempo e
 
 | Schiff (Standardausstattung) | Tempo | Punkt ohne Wiederkehr |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1.974 |
-| Protos | 165 | 1.577 |
-| Kitefin | 184 | 1.480 |
-| Ostirion | 208 | 1.362 |
-| Nomad | 211 | 1.347 |
-| Paragon | 222 | 1.287 |
-| Wraith | 233 | 1.208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1.826 |
+| Protos | 188 | 1.462 |
+| Kitefin | 202 | 1.388 |
+| Nomad | 221 | 1.294 |
+| Wraith | 223 | 1.281 |
+| Ostirion | 231 | 1.220 |
+| Paragon | 242 | 1.141 |
+| Storm | 273 | 924 |
 
 Ein Schiffsdesign ändert das Tempo seines Schiffs und damit auch seinen Punkt ohne Wiederkehr: Eine DUMA ist langsamer als eine Ironclad, eine NOTSUM schneller als eine Storm.
 
 Ein Schiff, das schneller als 272 Einheiten pro Sekunde ist (eine auf Flucht ausgelegte Ausstattung oder eine Wraith in Standardausstattung mit laufendem Afterburner), hat seinen Punkt ohne Wiederkehr dort, wo er immer lag: Bei Tempo 300 liegt er bei 885, bei 432 bei 747.
 
-Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 39,1, ihr Punkt ohne Wiederkehr liegt bei etwa 2.600). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (fünfzehn Sekunden mit einem Triebwerk, 22,5 mit zwei, dreißig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.577 auf 1.225 und den einer Wraith in Standardausstattung von 1.208 auf 851). Innerhalb von etwa 440 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,46); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs und Adaptive Core IIIs mit je drei Impulse Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 477 heraus.
+Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 46,8, ihr Punkt ohne Wiederkehr liegt bei etwa 2.500). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (fünfzehn Sekunden mit einem Triebwerk, 22,5 mit zwei, dreißig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.462 auf 994 und den einer Wraith in Standardausstattung von 1.281 auf 869). Innerhalb von etwa 440 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,46); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs und Adaptive Core IIIs mit je drei Impulse Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 475 heraus.
 
 Der Fall vom Punkt ohne Wiederkehr beginnt langsam: Ein Schiff, das wenige Einheiten innerhalb davon mit voller Kraft fliegt, wird über zwanzig Sekunden oder länger hineingezogen, dann immer schneller. Der Sog ist kein Flug: Er zählt nicht als geflogene Strecke.
 
@@ -161,4 +161,4 @@ Das Loch gibt **Dark Matter** für eine **N.I.K.E.**-Rakete zurück, die es erre
 - **Wie viele.** Eine Karte fasst höchstens 32 Dark-Matter-Kisten; eine neue verdrängt die älteste von ihnen und nie eine andere Art von Kiste. Der [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) fügt Dark Matter nichts hinzu.
 - **Was du siehst.** Überquert eine N.I.K.E. den Horizont, wird sie in das Loch hineingestreckt, der Raum kräuselt sich von der Stelle aus, an der sie eintrat, und die Scheibe und der Photonenring flammen etwa anderthalb Sekunden lang auf (ein Drittel davon, mit halbem Licht, unter **Bewegung reduzieren**). Einen Moment später kommen die Kisten aus dem Loch und treiben an ihre Plätze am Rand: Jede ist eine violett-schwarze Kugel mit hellem Rand und Funkeln, von Weitem gut zu sehen, und trägt den Titel **Dark Matter**, wenn du auf sie zeigst. Über deinen stehen die Sekunden, die dir bleiben, und sie erscheinen auf der Minikarte als kleine violette Markierung, ebenso für deinen Clan; die Kisten anderer Piloten erscheinen auf der Minikarte erst, wenn ihre Minute vorbei ist.
 - **Was du hörst.** Das Loch macht einen leisen, tiefen Klang, wenn es Dark Matter herstellt: zuerst ein eingezogener Atemzug, dann zwei kalte Glockentöne, wenn die erste Kiste herauskommt. Du hörst ihn bei deinen eigenen N.I.K.E.s überall auf der Karte und bei denen eines anderen Piloten, wenn dessen Kisten höchstens 3.200 Einheiten von deinem Schiff entfernt herauskommen, umso leiser, je weiter sie weg sind. Egal, wie viele N.I.K.E.s fliegen: Er ertönt höchstens einmal in drei Sekunden und folgt der Lautstärke der **Soundeffekte**.
-- **Wofür es gut ist.** Die Montage presst 5 Dark Matter mit einer Velkonite und einer Orvium Reinforced Plate zu einer **Dark Matter Plate**, und [die Schmiede](/wiki/06-Items/Forge.md) verlangt zwei davon, um einen Gegenstand von Göttlich auf Berstend zu heben und noch einmal von Berstend auf Ewig: zehn Dark Matter pro Schritt. Die letzte Stufe jeder Aufwertungskette verlangt 4 Plates, 20 Dark Matter pro Teil, und mindestens eine Ancient Control Unit: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Auch das [Forschungszentrum](/wiki/03-Mechanics/Research.md#dark-matter) des Skylab braucht Dark Matter: 10 für jede der 16 Technologien an der Spitze seines Baums, insgesamt 160, dem Zentrum hinzugefügt, bevor die Forschung beginnt. Auch die Drohnenformationen verlangen Dark Matter, je nach Stärke 5, 13 oder 20: 189 mehr, insgesamt 349. Die beiden Forschungen der Hüllenpanzerung verlangen 65 mehr, die Schiffsdesigns und Panzerungs-Slots 490 ([Forschung](/wiki/03-Mechanics/Research.md#ship-technologies)). Die Level des Triebwerks-, Verteidigungs- und Radarmoduls des Skylab verlangen 115 mehr ([Forschung](/wiki/03-Mechanics/Research.md#module-technologies)). Ein Helios Beam mit seinen drei Amps der Stufe IV enthält 80 Dark Matter, ein Wraith, der nur Teile der letzten Stufe trägt, 1.200 ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **Wofür es gut ist.** Die Montage presst 5 Dark Matter mit einer Velkonite und einer Orvium Reinforced Plate zu einer **Dark Matter Plate**, und [die Schmiede](/wiki/06-Items/Forge.md) verlangt zwei davon, um einen Gegenstand von Göttlich auf Berstend zu heben und noch einmal von Berstend auf Ewig: zehn Dark Matter pro Schritt. Die letzte Stufe jeder Aufwertungskette verlangt 4 Plates, 20 Dark Matter pro Teil, und mindestens eine Ancient Control Unit: die Amps, Schildzellen und Schubdüsen der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Auch das [Forschungszentrum](/wiki/03-Mechanics/Research.md#dark-matter) des Skylab braucht Dark Matter: 10 für jede der 16 Technologien an der Spitze seines Baums, insgesamt 160, dem Zentrum hinzugefügt, bevor die Forschung beginnt. Auch die Drohnenformationen verlangen Dark Matter, je nach Stärke 5, 13 oder 20: 189 mehr, insgesamt 349. Die beiden Forschungen der Hüllenpanzerung verlangen 65 mehr, die Schiffsdesigns und Panzerungs-Slots 490 ([Forschung](/wiki/03-Mechanics/Research.md#ship-technologies)). Die Level des Triebwerks-, Verteidigungs- und Radarmoduls des Skylab verlangen 115 mehr ([Forschung](/wiki/03-Mechanics/Research.md#module-technologies)). Ein Helios Beam mit seinen drei Amps der Stufe IV enthält 80 Dark Matter, ein Wraith, der nur Teile der letzten Stufe trägt, 1.280 ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

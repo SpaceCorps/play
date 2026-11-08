@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 81f1785f1e0ba446 -->
+<!-- wiki-i18n source: 110ad87b2e059bc1 -->
 <!-- wiki-i18n title: Leltár -->
 # Leltár és felszerelés {#inventory-equipment}
 
@@ -15,12 +15,12 @@ A hagyományos űrjátékokkal ellentétben a SpaceCorpsban dinamikusan sávokra
 - **Generátorfoglalatok**: közös foglalatok pajzsoknak, hajtóműveknek és adaptív magoknak. Három hatékonysági sávra oszlanak, és a sáv dönti el, hogy egy tárgy alapértékeiből mennyi számít. A hangárban minden sáv neve mellett van egy (i), amely elmagyarázza:
   - **Magfoglalatok**: az ide helyezett tárgyak az alapértékeik **100%-át** kapják. Minden hajónak van belőlük: a legerősebb pajzsaidat és hajtóműveidet ide tedd.
   - **Támogató foglalatok**: az ide helyezett tárgyak az alapértékeik **75%-át** kapják (pl. a sebesség vagy a pajzskapacitás 75%-át). Minden hajónak van belőlük.
-  - **Segédfoglalatok**: az ide helyezett tárgyak az alapértékeik **50%-át** kapják. Csak néhány hajónak van belőlük (Nomad: 1, Paragon és Storm: 2, Ironclad: 3, Wraith: 4; Protos, Kitefin és Ostirion: nincs). A legjobbak extra, gyengébb pajzsokhoz és hajtóművekhez valók, míg a legerősebbek a magfoglalatokba kerülnek.
+  - **Segédfoglalatok**: az ide helyezett tárgyak az alapértékeik **50%-át** kapják. Minden hajónak van legalább egy (Protos, Kitefin, Ostirion és Nomad: 1, Paragon és Storm: 2, Ironclad: 3, Wraith: 4). A legjobbak extra, gyengébb pajzsokhoz és hajtóművekhez valók, míg a legerősebbek a magfoglalatokba kerülnek.
   - **Drónfoglalatok**: a drónjaid egyikén lévő pajzs úgy számít, mint a magfoglalatban lévő: az alapértékeinek **100%-át** kapja (lásd: [Drónmechanika](/wiki/03-Mechanics/Drones.md)).
   - **Besorolatlan/régi foglalatok**: az ide helyezett tárgyak nem járulnak hozzá az értékekhez.
   - **A halmozás is csökken**: a pajzsokat és a hajtóműveket a legerősebbtől kezdve rangsorolják (aszerint, hogy mi számít belőlük a foglalatuk részesedése után), és a sáv részesedését megszorozzák a rangjukéval: az 1.–4. teljes értékkel számít, az 5.–7. 85%-kal, 70%-kal és 55%-kal, a 8.-tól kezdve a pajzsok 50%-kal, a hajtóművek 25%-kal. Lásd: [Pajzsok](/wiki/03-Mechanics/Shields.md) és [Sebesség](/wiki/03-Mechanics/Speed.md).
 - **Extrafoglalatok**: speciális segédtárgyaknak, például Repair Drone-oknak. A Protoson, a Kitefinen, az Ostirionon és a Nomadon kettő van; a Paragonon, az Ironcladen, a Wraithen és a Stormon, amelyeket gyártasz, három. Az Extra Slots CPU-k ([Extrák](/wiki/06-Items/Extras.md#extra-slots-cpus)) 3, 5 vagy 7 foglalattal többet adnak.
-- **Páncélzatfoglalatok**: [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), amely hajótestet ad hozzá. Csak a négy hajónak vannak, amelyet gyártasz (a Paragonnak 5, a Stormnak 7, az Ironcladnek 15 és a Wraithnek 9), mindegyik zárolva, amíg a Skylabben ki nem kutatod, és a két konfigurációban egyformák.
+- **Páncélzatfoglalatok**: [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), amely hajótestet ad hozzá. Csak a négy hajónak vannak, amelyet gyártasz (a Paragonnak 5, a Stormnak 7, az Ironcladnek 15 és a Wraithnek 10), mindegyik zárolva, amíg a Skylabben ki nem kutatod, és a két konfigurációban egyformák.
 
 ## Leltárrend {#inventory-order}
 

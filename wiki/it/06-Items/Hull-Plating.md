@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Corazza dello scafo -->
 # Corazza dello scafo {#hull-plating}
 
@@ -45,7 +45,7 @@ La corazza dello scafo entra solo negli **slot corazza**, un tipo di slot a sé 
 | **Paragon** | 5 | 75.000 |
 | **Storm** | 7 | 105.000 |
 | **Ironclad** | 15 | 225.000 |
-| **Wraith** | 9 | 135.000 |
+| **Wraith** | 10 | 150.000 |
 
 - **Tutti bloccati all’inizio.** Uno slot si apre quando lo ricerchi nello Skylab: una tecnologia per ogni slot, 1 ora e 10 Dark Matter, in ordine a partire dal primo. La vista [Ricerca](/wiki/03-Mechanics/Research.md#ship-technologies) mostra gli slot di una nave come un’unica scheda con un punto per ognuno.
 - **Un tipo di nave, non una sola nave.** Gli slot che hai aperto per la Paragon sono aperti anche su ogni design della Paragon ([Design delle navi](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnologia è tua per sempre: il reset la mantiene.

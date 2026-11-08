@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Davidski 是一位会飞的商人。他是一艘和平的 NPC 飞船，每天出
 
 | 部分 | 物品 |
 |---|---|
-| 激光 | 8 把 Helios Beam，每把装有 Damage Amp IV、Crit Amp IV 和 Penetration Amp IV |
+| 激光 | 10 把 Helios Beam，每把装有 Damage Amp IV、Crit Amp IV 和 Penetration Amp IV |
 | 护盾与引擎 | 11 个 Heavy Shield Core 和 4 个 Adaptive Core，每个装有 Capacity 和 Absorption Shield Cell IV，或 Impulse 和 Momentum Thruster IV |
 | 附件 | Repair Drone IV、Auto-Repair CPU 和 Base CPU II |
 | 船体 | 15 块 Hull Plating III |
 
-在 Alpha 强度下，他拥有 **858,750 船体**、**1,309,534 护盾**（15 秒未被命中后每秒恢复 67,614）、86.3% 吸收率、速度 89、射程 945，以及每秒 **4,104** 的齐射。Beta 是这些数值的 1.5 倍，Gamma 是 2 倍，和所有外星人一样。在 Alpha 中大约有 220 万点要打掉：一架装有同样激光的 Wraith 单独需要约十二分钟持续射击，十架则约一分十秒。
+在 Alpha 强度下，他拥有 **858,750 船体**、**1,309,534 护盾**（15 秒未被命中后每秒恢复 67,614）、86.3% 吸收率、速度 98、射程 945，以及每秒 **4,324** 的齐射。Beta 是这些数值的 1.5 倍，Gamma 是 2 倍，和所有外星人一样。在 Alpha 中大约有 220 万点要打掉：一架装有同样激光的 Wraith 单独需要约十三分钟持续射击，十架则约 77 秒。
 
 ## 与他战斗 {#fighting-him}
 

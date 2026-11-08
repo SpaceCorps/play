@@ -5,8 +5,8 @@ The Paragon is a heavy combat cruiser designed with balanced defense and offense
 ## Stats
 
 - **Hitpoints (HP)**: 128,000
-- **Base Speed**: 210
-- **Laser Slots**: 8
+- **Base Speed**: 230
+- **Laser Slots**: 9
 - **Extra Slots**: 3
 - **Hull Plate Slots**: 5
 

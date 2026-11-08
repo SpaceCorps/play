@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
@@ -17,7 +17,7 @@ A távolságok a szektor középpontjától értendők, térképi egységben. A 
 | :--- | ---: | :--- |
 | **Sugárzás** | 4 000 | A hajód másodpercenként sebzést kap: az összes maximális életerejének egy hányadát. Minél közelebb vagy, annál többet. |
 | **Vonzás** | 3 000 | A feketelyuk a középpont felé húzza a hajódat, minél közelebb vagy, annál erősebben. A nem repülő hajót sodorja. |
-| **A nincs visszaút pontja** | kb. 1 000–2 600 | Ott van, ahol a vonzás egyenlő a hajód sebességével. Ezen belül még teljes tolóerővel is behúz a lyuk. A sebességedtől függ. |
+| **A nincs visszaút pontja** | kb. 900–2 500 | Ott van, ahol a vonzás egyenlő a hajód sebességével. Ezen belül még teljes tolóerővel is behúz a lyuk. A sebességedtől függ. |
 | **Eseményhorizont** | 300 | Minden hajó, amely eléri, azonnal megsemmisül, bármilyen hajótest és pajzs van rajta. |
 
 A Veszélyes szektor 4 portáljai és a köztük futó útvonalak mind jóval a sugárzáson kívül haladnak, így átutazás közben sosem találkozol vele véletlenül. A szezon 11. napjától ugyanebben a szektorban a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) is áll, a bal felső sarkában, messze a lyuktól; az ottani idegenek sosem lépnek be a lyuk gyűrűibe. A szezon utolsó napjai kivételek: lásd [A wipe előtt nő](#growing-before-the-wipe).
@@ -60,11 +60,11 @@ Két sor között a sebzés egyenes vonalban nő. Életerőpontban másodpercenk
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30 000 | 165 | 240 | 600 | 1 500 | 3 300 |
 | Kitefin | 46 000 | 253 | 368 | 920 | 2 300 | 5 060 |
-| Ostirion | 82 500 | 454 | 660 | 1 650 | 4 125 | 9 075 |
-| Nomad | 130 500 | 718 | 1 044 | 2 610 | 6 525 | 14 355 |
+| Ostirion | 98 500 | 542 | 788 | 1 970 | 4 925 | 10 835 |
+| Nomad | 145 500 | 800 | 1 164 | 2 910 | 7 275 | 16 005 |
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
-| Storm | 198 000 | 1 089 | 1 584 | 3 960 | 9 900 | 21 780 |
-| Wraith | 372 000 | 2 046 | 2 976 | 7 440 | 18 600 | 40 920 |
+| Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
+| Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
 | Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
 
 - A **pajzs veszi fel először**, utána a hajótest. Nem találat: a pajzs elnyelése nem számít bele, és kitérni sem lehet előle.
@@ -97,20 +97,20 @@ A **nincs visszaút pontja** a hajód számára az a távolság, ahol a vonzás 
 
 | Hajó (alap felszerelés) | Sebesség | A nincs visszaút pontja |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1 974 |
-| Protos | 165 | 1 577 |
-| Kitefin | 184 | 1 480 |
-| Ostirion | 208 | 1 362 |
-| Nomad | 211 | 1 347 |
-| Paragon | 222 | 1 287 |
-| Wraith | 233 | 1 208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1 826 |
+| Protos | 188 | 1 462 |
+| Kitefin | 202 | 1 388 |
+| Nomad | 221 | 1 294 |
+| Wraith | 223 | 1 281 |
+| Ostirion | 231 | 1 220 |
+| Paragon | 242 | 1 141 |
+| Storm | 273 | 924 |
 
 A hajódizájn megváltoztatja a hajója sebességét, és vele a nincs visszaút pontját is: a DUMA lassabb az Ironcladnél, a NOTSUM gyorsabb a Stormnál.
 
 A 272 egység/mp-nél gyorsabb hajónál (futó összeállítás, vagy működő Afterburnerrel repülő alap Wraith) a nincs visszaút pontja ott van, ahol mindig is volt: 300-as sebességnél ez 885, 432-nél 747.
 
-Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 39,1-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 600 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tizenöt, kettővel 22,5, hárommal harminc másodpercig; az Afterburner III egy alap Protosét 1 577-ről 1 225-re, egy alap Wraithét 1 208-ről 851-ra viszi). Nagyjából 440 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,46); egy bűvöletlen, sebességre épített hajó (Engine III-ak és Adaptive Core III-ak három-három Impulse Thruster IV-gyel) Afterburner III-mal a legjobb esetben is csak 477 egységen kívülről jut ki.
+Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 46,8-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 500 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tizenöt, kettővel 22,5, hárommal harminc másodpercig; az Afterburner III egy alap Protosét 1 462-ről 994-re, egy alap Wraithét 1 281-ről 869-ra viszi). Nagyjából 440 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,46); egy bűvöletlen, sebességre épített hajó (Engine III-ak és Adaptive Core III-ak három-három Impulse Thruster IV-gyel) Afterburner III-mal a legjobb esetben is csak 475 egységen kívülről jut ki.
 
 A zuhanás a nincs visszaút pontjától lassan indul: egy hajó, amely néhány egységgel belülre került, teljes tolóerővel is húsz másodperc vagy több alatt húzódik be, aztán egyre gyorsabban. A vonzás nem repülés: egy megtett távolságba sem számít bele.
 
@@ -161,4 +161,4 @@ A lyuk **Dark Mattert** ad vissza minden **N.I.K.E.** rakétáért, amely eléri
 - **Hány.** Egy térképen legfeljebb 32 Dark Matter-láda lehet; egy új kiszorítja közülük a legrégebbit, más fajta ládát sosem. A [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) nem ad hozzá semmit a Dark Matterhez.
 - **Amit látsz.** Amikor egy N.I.K.E. átlépi a horizontot, a lyukba nyúlik, a tér hullámozva tágul onnan, ahol belépett, a korong és a fotongyűrű pedig körülbelül másfél másodpercre fellángol (**Kevesebb mozgás** mellett ennek harmadáig, fele fénnyel). Egy pillanattal később a ládák kijönnek a lyukból, és a peremen lévő helyükre sodródnak: mindegyik egy ibolyafekete gömb fényes peremmel és szikrákkal, messziről jól látható, és ha föléje viszed az egeret, a felirata **Dark Matter**. A tieid megmutatják a rajtuk hátralévő másodperceket, és kis ibolyaszínű jelként látszanak a minitérképen, a klánod számára is ugyanígy; más pilóták ládái csak a saját percük lejárta után látszanak a minitérképen.
 - **Amit hallasz.** A lyuk halk, mély hangot ad, amikor Dark Mattert hoz létre: először egy beszívott lélegzet, majd két hideg harangszó, amikor kijön az első láda. A saját N.I.K.E.-id esetén a térkép bármely pontján hallod, más pilóta N.I.K.E.-jénél pedig akkor, ha a ládái a hajódtól legfeljebb 3 200 egységre jönnek ki, annál halkabban, minél messzebb vannak. Akárhány N.I.K.E. repül, legfeljebb három másodpercenként egyszer szólal meg, és a **Hangeffektek** hangerejét követi.
-- **Mire jó.** A Gyártás 5 Dark Matterből, egy Velkonite Reinforced Plate-ből és egy Orvium Reinforced Plate-ből egy **Dark Matter Plate**-et készít, a [Kovácsműhely](/wiki/06-Items/Forge.md) pedig kettőt kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre, majd a Repesztőről az Örökre lépjen: fokozatonként tíz Dark Matter. Minden fejlesztési lánc utolsó szintje 4 plate-et kér, darabonként 20 Dark Mattert, és legalább egy Ancient Control Unitot: a IV. szintű amp-okat, pajzscellákat és fúvókákat, a Heavy Shield Core-t, az Engine III-at, az Adaptive Core III-at, a Helios Beamet, az Extra Slots CPU III-at és a Base CPU II-t. A Skylab [Kutatóközpontja](/wiki/03-Mechanics/Research.md#dark-matter) is kér Dark Mattert: 10-et a fája csúcsán lévő 16 technológia mindegyikéhez, összesen 160-at, a kutatás indulása előtt a Kutatóközponthoz hozzáadva. A drónformációk is kérnek Dark Mattert, erősségtől függően 5, 13 vagy 20 darabot: további 189-et, összesen 349-et. A Hull Plating két kutatása további 65-öt kér, a hajódizájnok és a páncélzatfoglalatok pedig 490-et ([Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies)). A Skylab hajtómű-, védelmi és radarmoduljának szintjei további 115-öt kérnek ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). Egy Helios Beam a három IV. szintű ampjával 80 Dark Mattert tartalmaz, egy Wraith pedig, amely csak utolsó szintű darabokat hordoz, 1 200-at ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **Mire jó.** A Gyártás 5 Dark Matterből, egy Velkonite Reinforced Plate-ből és egy Orvium Reinforced Plate-ből egy **Dark Matter Plate**-et készít, a [Kovácsműhely](/wiki/06-Items/Forge.md) pedig kettőt kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre, majd a Repesztőről az Örökre lépjen: fokozatonként tíz Dark Matter. Minden fejlesztési lánc utolsó szintje 4 plate-et kér, darabonként 20 Dark Mattert, és legalább egy Ancient Control Unitot: a IV. szintű amp-okat, pajzscellákat és fúvókákat, a Heavy Shield Core-t, az Engine III-at, az Adaptive Core III-at, a Helios Beamet, az Extra Slots CPU III-at és a Base CPU II-t. A Skylab [Kutatóközpontja](/wiki/03-Mechanics/Research.md#dark-matter) is kér Dark Mattert: 10-et a fája csúcsán lévő 16 technológia mindegyikéhez, összesen 160-at, a kutatás indulása előtt a Kutatóközponthoz hozzáadva. A drónformációk is kérnek Dark Mattert, erősségtől függően 5, 13 vagy 20 darabot: további 189-et, összesen 349-et. A Hull Plating két kutatása további 65-öt kér, a hajódizájnok és a páncélzatfoglalatok pedig 490-et ([Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies)). A Skylab hajtómű-, védelmi és radarmoduljának szintjei további 115-öt kérnek ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). Egy Helios Beam a három IV. szintű ampjával 80 Dark Mattert tartalmaz, egy Wraith pedig, amely csak utolsó szintű darabokat hordoz, 1 280-at ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

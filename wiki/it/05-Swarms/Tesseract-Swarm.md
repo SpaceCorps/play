@@ -13,11 +13,11 @@ Lo sciame Tesseract è un’unica enorme nave madre, il **Tesseract**, e i **Fac
 - **Quanti**: Uno in ogni mondo
 - **Compare**: Dal giorno 4 della stagione fino al reset (Beta e Gamma: dal giorno 1 della stagione)
 - **Capo**: Tesseract
-- **Posizione**: Entro 2.500 unità dal punto 27.000, 5.000 della mappa del settore
+- **Posizione**: Entro 2.500 unità dal punto 25.900, 6.100 della mappa del settore
 - **Rigenerazione**: 125.000 HP al secondo in Alpha, prima lo scafo e poi lo scudo, dopo 5 s senza danni
 - **Seguaci**: Fino a 100 × Facet, altri 20 ogni 5 s finché il capo viene colpito
 - **Arrivo dei seguaci**: Solo finché il capo è stato colpito negli ultimi 5 s, entro 400 unità da lui
-- **Cacciatori**: Ogni Facet vola tratti propri intorno al capo, entro 1.800 unità da lui, e non dà la caccia a nessuno. Spara al pilota più vicino che ha colpito il capo quando quel pilota è nel suo raggio. Senza nessuno a cui sparare continua a volare intorno al capo e se ne va 20 s dopo l’ultimo colpo
+- **Cacciatori**: Ogni Facet vola tratti propri intorno al capo, entro 3.600 unità da lui, e non dà la caccia a nessuno. Spara al pilota più vicino che ha colpito il capo quando quel pilota è nel suo raggio. Senza nessuno a cui sparare continua a volare intorno al capo e se ne va 20 s dopo l’ultimo colpo
 - **Capo distrutto**: I seguaci se ne vanno 1 min dopo la distruzione del capo, anche se stanno attaccando
 - **Ritorna**: 30 min dopo la distruzione del capo, nello stesso settore
 - **Avvisi**: I piloti del settore vengono avvisati quando il capo compare e quando viene distrutto. Sono righe di Sistema: compaiono nella scheda **Sistema** della chat, con un conteggio delle righe non lette, e non in **Globale** né in **Locale**. Il kill feed nomina il pilota a cui viene accreditato l’abbattimento.

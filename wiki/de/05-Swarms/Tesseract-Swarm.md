@@ -13,11 +13,11 @@ Der Tesseract-Schwarm besteht aus einem einzigen riesigen Mutterschiff, dem **Te
 - **Wie viele**: Einer in jeder Welt
 - **Erscheint**: Ab Saisontag 4 bis zum Wipe (Beta und Gamma: ab Saisontag 1)
 - **Anführer**: Tesseract
-- **Heimat**: Im Umkreis von 2.500 Einheiten um den Punkt 27.000, 5.000 der Sektorkarte
+- **Heimat**: Im Umkreis von 2.500 Einheiten um den Punkt 25.900, 6.100 der Sektorkarte
 - **Regeneration**: In Alpha 125.000 HP pro Sekunde, erst die Hülle, dann der Schild, sobald 5 s lang kein Schaden entstanden ist
 - **Begleiter**: Bis zu 100 × Facet, alle 5 s 20 weitere, solange der Anführer getroffen wird
 - **Begleiter kommen**: Nur solange der Anführer in den letzten 5 s getroffen wurde, im Umkreis von 400 Einheiten um ihn
-- **Jäger**: Jeder Facet fliegt eigene Strecken um den Anführer, im Umkreis von 1.800 Einheiten um ihn, und verfolgt niemanden. Er feuert auf den nächsten Piloten, der den Anführer getroffen hat, wenn dieser in seiner Reichweite ist. Ohne Ziel fliegt er weiter um den Anführer und verschwindet 20 s nach dem letzten Treffer
+- **Jäger**: Jeder Facet fliegt eigene Strecken um den Anführer, im Umkreis von 3.600 Einheiten um ihn, und verfolgt niemanden. Er feuert auf den nächsten Piloten, der den Anführer getroffen hat, wenn dieser in seiner Reichweite ist. Ohne Ziel fliegt er weiter um den Anführer und verschwindet 20 s nach dem letzten Treffer
 - **Anführer zerstört**: Die Begleiter verschwinden 1 min nach der Zerstörung des Anführers, auch wenn sie gerade angreifen
 - **Kehrt zurück**: 30 min nach der Zerstörung des Anführers, im selben Sektor
 - **Meldungen**: Die Piloten des Sektors erfahren, wann der Anführer auftaucht und wann er zerstört wird. Das sind Systemzeilen: Sie erscheinen im Tab **System** des Chats, mit Zähler für Ungelesenes, und nicht in **Global** oder **Lokal**. Der Kill-Feed nennt den Piloten, dem der Abschuss gutgeschrieben wird.

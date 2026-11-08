@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 81f1785f1e0ba446 -->
+<!-- wiki-i18n source: 110ad87b2e059bc1 -->
 <!-- wiki-i18n title: 인벤토리 -->
 # 인벤토리와 장비 {#inventory-equipment}
 
@@ -15,12 +15,12 @@
 - **발전기 슬롯**: 실드, 엔진, 적응형 코어가 함께 쓰는 슬롯입니다. 세 가지 효율 구간으로 나뉘며, 구간에 따라 아이템의 기본 능력치가 얼마나 반영되는지가 정해집니다. 격납고에서는 각 구간의 이름 옆에 설명해 주는 (i)가 있습니다.
   - **코어 슬롯**: 여기에 놓은 아이템은 기본 능력치의 **100%**를 받습니다. 모든 함선에 있습니다. 가장 강한 실드와 엔진을 여기에 놓으세요.
   - **지원 슬롯**: 여기에 놓은 아이템은 기본 능력치의 **75%**를 받습니다(예: 속도나 실드 용량의 75%). 모든 함선에 있습니다.
-  - **보조 슬롯**: 여기에 놓은 아이템은 기본 능력치의 **50%**를 받습니다. 일부 함선에만 있습니다(Nomad는 1개, Paragon과 Storm은 2개, Ironclad는 3개, Wraith는 4개이며, Protos, Kitefin, Ostirion에는 없습니다). 가장 강한 것은 코어 슬롯에 넣고, 보조 슬롯은 추가로 쓰는 더 약한 실드와 엔진에 알맞습니다.
+  - **보조 슬롯**: 여기에 놓은 아이템은 기본 능력치의 **50%**를 받습니다. 모든 함선에 적어도 하나는 있습니다(Protos, Kitefin, Ostirion, Nomad는 1개, Paragon과 Storm은 2개, Ironclad는 3개, Wraith는 4개). 가장 강한 것은 코어 슬롯에 넣고, 보조 슬롯은 추가로 쓰는 더 약한 실드와 엔진에 알맞습니다.
   - **드론 슬롯**: 내 드론에 장착한 실드는 코어 슬롯의 실드처럼 계산되어 기본 능력치의 **100%**를 받습니다([드론 시스템](/wiki/03-Mechanics/Drones.md) 참조).
   - **미지정/레거시 슬롯**: 여기에 놓은 아이템은 능력치에 기여하지 않습니다.
   - **중첩도 효과가 줄어듭니다**: 실드와 엔진은 가장 강한 것부터(슬롯의 비율을 적용한 뒤의 값 기준으로) 순위가 매겨지고, 구간의 비율에 그 순위의 비율이 곱해집니다. 1~4번째는 전부 반영되고, 5~7번째는 85%, 70%, 55%, 8번째 이후는 실드가 50%, 엔진이 25%입니다. [실드](/wiki/03-Mechanics/Shields.md)와 [속도](/wiki/03-Mechanics/Speed.md)를 참고하세요.
 - **부가 슬롯**: Repair Drone처럼 특수한 보조 장비용입니다. Protos, Kitefin, Ostirion, Nomad에는 2개, 제작하는 Paragon, Ironclad, Wraith, Storm에는 3개가 있고, Extra Slots CPU([부가 장비](/wiki/06-Items/Extras.md#extra-slots-cpus))를 설치하면 3, 5 또는 7개가 늘어납니다.
-- **장갑 슬롯**: 선체를 늘려 주는 [선체 장갑](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)용입니다. 제작하는 네 함선에만 있고(Paragon 5개, Storm 7개, Ironclad 15개, Wraith 9개), Skylab에서 연구하기 전까지 각각 잠겨 있으며, 두 구성에서 같습니다.
+- **장갑 슬롯**: 선체를 늘려 주는 [선체 장갑](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)용입니다. 제작하는 네 함선에만 있고(Paragon 5개, Storm 7개, Ironclad 15개, Wraith 10개), Skylab에서 연구하기 전까지 각각 잠겨 있으며, 두 구성에서 같습니다.
 
 ## 인벤토리 정렬 순서 {#inventory-order}
 

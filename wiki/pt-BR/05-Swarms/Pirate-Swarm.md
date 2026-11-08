@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4abd6e42693b5459 -->
+<!-- wiki-i18n source: e6bba0f75d99f5cd -->
 <!-- wiki-i18n title: Enxame Pirate -->
 # Enxame Pirate {#pirate-swarm}
 
@@ -32,7 +32,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Atire no chefe, não nos Scouts.** Os Scouts curam o chefe, mas a cura é pequena perto do casco dele, e um novo Scout chega com a frequência que a lista *Resumo rápido* indica: um grupo que mata os Scouts primeiro nunca passa à frente deles, e só um grupo muito grande consegue eliminá-los e ainda assim leva mais tempo para acabar com o chefe do que um que os deixou em paz. Os Scouts custam tempo, não decidem a luta.
 - **Afaste os Scouts.** Um Scout só cura enquanto está ao alcance do chefe, então um Scout que segue você para fora desse alcance não cura nada, e uma Ostirion é mais rápida que um Scout.
 - **Não pare de se mover.** O foguete do chefe é reto e não guiado: uma nave que não para de se mover o esquiva, uma parada é atingida.
-- **Leve um grupo.** Três pilotos em Ostirions com munição x2 perdem em `x-3` mesmo enquanto os acertos são divididos, e também em `x-2`; quatro o derrubam em cerca de quatro minutos em Alpha. Com munição x4, três bastam também em `x-3` (cerca de dois minutos e meio). Cinco o derrubam em cerca de três minutos quando os acertos são divididos e em cerca de cinco quando um piloto leva todo o fogo, e então perdem quatro naves: um grupo que deixa um piloto levar todo o fogo precisa de cinco. Em Beta são necessários seis pilotos e em Gamma oito, com os acertos divididos (o chefe é maior lá e seus Scouts curam mais). Em Alpha, em `x-3` e com munição x2, uma Ostirion sozinha não consegue, e uma Paragon sozinha só consegue por pouco (sobra apenas uma pequena porcentagem do casco): duas Paragons conseguem com segurança. Em Beta e Gamma, em `x-3`, uma Paragon sozinha é destruída, tanto com munição x2 quanto com x4. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
+- **Leve um grupo.** Três pilotos em Ostirions com munição x2 perdem em `x-3` mesmo enquanto os acertos são divididos, mas o derrubam em `x-2` sem perder nenhuma nave; quatro o derrubam em cerca de quatro minutos em Alpha. Com munição x4, três bastam também em `x-3` (cerca de dois minutos e meio). Cinco o derrubam em cerca de três minutos quando os acertos são divididos e em cerca de quatro quando um piloto leva todo o fogo, e então perdem duas naves: um grupo que deixa um piloto levar todo o fogo precisa de cinco. Em Beta são necessários cinco pilotos e em Gamma sete, com os acertos divididos (o chefe é maior lá e seus Scouts curam mais). Em Alpha, em `x-3` e com munição x2, uma Ostirion sozinha não consegue, e uma Paragon sozinha só consegue por pouco (sobra apenas uma pequena porcentagem do casco): duas Paragons conseguem com segurança. Em Beta e Gamma, em `x-3`, uma Paragon sozinha é destruída, tanto com munição x2 quanto com x4. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, no mesmo setor.
 
 ## Recompensas e saque {#rewards-and-drops}
@@ -55,7 +55,7 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 | Casco | 300.000 | 450.000 | 600.000 |
 | Escudo | 50.100 | 75.150 | 100.200 |
 | Dano dos lasers (uma salva por segundo) | nenhum | nenhum | nenhum |
-| Velocidade | 92 | 92 | 92 |
+| Velocidade | 110 | 110 | 110 |
 | Alcance dos lasers | – | – | – |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
@@ -82,7 +82,7 @@ Base: Kitefin, com 50% do casco e 113% do dano dos lasers; a velocidade e o alca
 | Casco | 12.000 | 18.000 | 24.000 |
 | Escudo | 9.818 | 14.727 | 19.636 |
 | Dano dos lasers (uma salva por segundo) | 221 | 332 | 442 |
-| Velocidade | 175 | 175 | 175 |
+| Velocidade | 190 | 190 | 190 |
 | Alcance dos lasers | 700 | 700 | 700 |
 | Raio de agressão | 700 | 700 | 700 |
 | Cura o líder, cada um, por segundo (só o casco) | 40 | 60 | 80 |

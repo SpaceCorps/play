@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Un **Ironclad TITANIC** peint en or, à la taille propre du TITANIC, équipé du
 
 | Quoi | Objet |
 |---|---|
-| Lasers | 8 Helios Beam, chacun avec un Damage Amp IV, un Crit Amp IV et un Penetration Amp IV |
+| Lasers | 10 Helios Beam, chacun avec un Damage Amp IV, un Crit Amp IV et un Penetration Amp IV |
 | Boucliers et moteurs | 11 Heavy Shield Core et 4 Adaptive Core, chacun avec des Capacity et Absorption Shield Cell IV ou des Impulse et Momentum Thruster IV |
 | Extras | un Repair Drone IV, un Auto-Repair CPU et un Base CPU II |
 | Coque | 15 Hull Plating III |
 
-À la puissance d’Alpha, il a **858 750 de coque**, **1 309 534 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 86,3 % d’absorption, vitesse 89, portée 945 et une salve de **4 104 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,2 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ douze minutes de tir continu à lui seul, dix d’entre eux d’environ une minute et dix secondes.
+À la puissance d’Alpha, il a **858 750 de coque**, **1 309 534 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 86,3 % d’absorption, vitesse 98, portée 945 et une salve de **4 324 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,2 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ treize minutes de tir continu à lui seul, dix d’entre eux d’environ 77 secondes.
 
 ## Le combattre {#fighting-him}
 

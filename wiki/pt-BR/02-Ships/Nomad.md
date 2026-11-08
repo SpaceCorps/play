@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-A Nomad é um cruzador com o dobro do casco e o dobro dos canhões de uma Ostirion: uma cabeça de martelo entre a Ostirion e a Paragon, comprada na Loja com Créditos e Thulium juntos. Qualquer piloto pode comprá-la.
+A Nomad é um cruzador com quase o dobro do casco e o dobro dos canhões de uma Ostirion: uma cabeça de martelo entre a Ostirion e a Paragon, comprada na Loja com Créditos e Thulium juntos. Qualquer piloto pode comprá-la.
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 96.000
-- **Velocidade base**: 200
+- **Pontos de vida (HP)**: 111.000
+- **Velocidade base**: 210
 - **Slots de laser**: 6
 - **Slots extras**: 2
 
@@ -36,4 +36,4 @@ A Nomad é um cruzador com o dobro do casco e o dobro dos canhões de uma Ostiri
 
 ## História {#lore}
 
-A Nomad foi desenhada como nave de caravana: um casco de levantamento e carga de longo alcance para as rotas além dos canhões da estação, onde uma tripulação pode voar por semanas sem encontrar ninguém amistoso. Vista de cima, é uma cabeça de martelo. A proa larga é blindada em toda a sua largura com placas índigo de crepúsculo, e sua borda dianteira, um V raso, leva seis canhões em três pares, com o par mais próximo da ponte alcançando mais longe. Dois longos braços se estreitam em direção às naceles de motor, uma espinha esguia sustenta a ponte e, sob o martelo, um convés de carga aberto guarda quatro caixas cor de areia e uma cúpula de sensores. Areia, índigo de crepúsculo e luzes de navegação violeta são suas cores, e nenhuma outra nave as usa. Os capitães de comboio pediram uma escolta que também pudesse ser o comboio, e os estaleiros lhes deram uma Ostirion com o dobro do casco e o dobro dos canhões.
+A Nomad foi desenhada como nave de caravana: um casco de levantamento e carga de longo alcance para as rotas além dos canhões da estação, onde uma tripulação pode voar por semanas sem encontrar ninguém amistoso. Vista de cima, é uma cabeça de martelo. A proa larga é blindada em toda a sua largura com placas índigo de crepúsculo, e sua borda dianteira, um V raso, leva seis canhões em três pares, com o par mais próximo da ponte alcançando mais longe. Dois longos braços se estreitam em direção às naceles de motor, uma espinha esguia sustenta a ponte e, sob o martelo, um convés de carga aberto guarda quatro caixas cor de areia e uma cúpula de sensores. Areia, índigo de crepúsculo e luzes de navegação violeta são suas cores, e nenhuma outra nave as usa. Os capitães de comboio pediram uma escolta que também pudesse ser o comboio, e os estaleiros lhes deram uma Ostirion com quase o dobro do casco e o dobro dos canhões.

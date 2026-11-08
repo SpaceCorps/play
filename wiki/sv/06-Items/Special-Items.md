@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -44,7 +44,7 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 ### Schematics
 
-Slutför **forskningen som pågår just nu**, om tekniken tar **24 timmar eller mindre** att forska fram. 142 av de 158 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) uppfyller det. De 16 som tar 48 eller 72 timmar gör det inte: Wraith, tre drönarformationer, Hull Plating III, nivå 4 och 5 av Motormodulen och Försvarsmodulen och sju pilotteknikter.
+Slutför **forskningen som pågår just nu**, om tekniken tar **24 timmar eller mindre** att forska fram. 143 av de 159 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) uppfyller det. De 16 som tar 48 eller 72 timmar gör det inte: Wraith, tre drönarformationer, Hull Plating III, nivå 4 och 5 av Motormodulen och Försvarsmodulen och sju pilotteknikter.
 
 - **Forskningstiden räknas, inte tiden som återstår.** En teknik på 48 timmar med en timme kvar nekas ändå: Schematics tittar på hur lång tid tekniken tar totalt.
 - **Priset förblir betalt.** Dark Matter, krediter och Thulium drogs när forskningen startade och ges inte tillbaka. Vetenskapen som forskningen ännu inte brunnit stannar kvar i din tank.

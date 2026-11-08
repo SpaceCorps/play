@@ -179,6 +179,7 @@ I Lotti sono le offerte del gioco stesso: munizioni, razzi ed EMP Charge, tre lo
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - All’inizio di ogni ora UTC si aprono 3 nuovi lotti, ciascuno di merce diversa, e ognuno resta aperto 4 ore, così ne sono aperti 12 insieme.
+- Ogni mondo ha i suoi lotti: Alpha, Beta e Gamma ricevono questi lotti a ogni ora, con merci diverse alla stessa ora, di dimensione decisa dai piloti di quel mondo. Vedi, fai offerte e vinci solo i lotti del mondo in cui voli. Il Mercato e gli ordini di acquisto sono condivisi da tutti e tre i mondi.
 - L’offerta iniziale è pari a 20% del prezzo di Negozio della merce. Ogni offerta successiva deve superare la più alta di almeno 5%, e di almeno 100 crediti.
 - La tua offerta viene pagata subito e trattenuta. Se qualcuno rilancia, ti torna indietro subito.
 - Un’offerta negli ultimi 2 min di un lotto sposta la sua fine a 2 min dopo l’offerta, al massimo 5 volte.

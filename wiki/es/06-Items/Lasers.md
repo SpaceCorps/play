@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7458399908a090f -->
+<!-- wiki-i18n source: aa5ab1afb62faea7 -->
 <!-- wiki-i18n title: Láseres -->
 # Láseres y munición {#lasers-ammo}
 
@@ -34,11 +34,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -62,7 +62,7 @@ Equipa láseres directamente en las ranuras de láser de la nave o dentro de dro
 | **Quantum Laser II** | Común | 65 | 1 % | 700 | 2 | 80.000 créditos |
 | **Quantum Laser III** | Raro | 80 | 10 % | 800 | 3 | Solo fabricable |
 | **Starfire-III** | Mítico | 135 | 15 % | 850 | 3 | Solo fabricable |
-| **Helios Beam** | Mítico | 185 | 25 % | 900 | 3 | Solo fabricable |
+| **Helios Beam** | Mítico | 150 | 20 % | 900 | 3 | Solo fabricable |
 
 La columna Alcance es la de cada láser por separado. **Tu nave dispara al alcance medio de sus láseres** (cuentan también los láseres de tus drones), redondeado a la unidad más cercana, y todos los láseres disparan en cuanto el objetivo está dentro de esa distancia. Un Starfire-III junto a dos Quantum Laser II da a la nave un alcance de 750, no de 850; tres Starfire-III mantienen 850, y los láseres que son todos iguales no cambian nada. Una bonificación de alcance de la Forja cuenta en su propio láser antes de calcular la media. Sin ningún láser, el hangar no muestra alcance (un guion) y los láseres no pueden disparar, pero tus cohetes sí, cada uno con su propio alcance (consulta [Cohetes](/wiki/06-Items/Rockets.md)). En el hangar, la casilla dice «Alcance medio» cuando tus láseres difieren, y al pasar el cursor por encima se lista el alcance de cada láser.
 
@@ -133,13 +133,13 @@ Equípalos directamente en la ranura de un láser para mejorar sus característi
 | Penetration Amp III | 2.000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2.400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-Un Helios Beam con sus 3 amps del nivel IV contiene 4 piezas del último nivel: 16 Dark Matter Plates, 80 Dark Matter, 40 cohetes N.I.K.E. de media. Un Wraith con el último nivel en cada ranura contiene 1.200 Dark Matter ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Un Helios Beam con sus 3 amps del nivel IV contiene 4 piezas del último nivel: 16 Dark Matter Plates, 80 Dark Matter, 40 cohetes N.I.K.E. de media. Un Wraith con el último nivel en cada ranura contiene 1.280 Dark Matter ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Qué amplificador va dónde {#which-amp-goes-where}
 
-Un amplificador de daño suma el mismo daño a cualquier láser, así que vale más en los **láseres Quantum**. Un amplificador de crítico multiplica lo que el láser ya hace, así que vale más cuanto más fuerte pega el láser: iguala a la línea de daño en el **Starfire-III** y sale un 3,5 % por delante en el **Helios Beam**. La probabilidad de crítico de un láser se detiene en el 100 %: tres Crit Amp III o Crit Amp IV llevan un Helios Beam exactamente a eso. Un Penetration Amp no da daño ni probabilidad de crítico: es para naves cuyos escudos, de otro modo, se llevarían la mayor parte de tu impacto ([más abajo](#when-is-a-penetration-amp-worth-a-slot)).
+Un amplificador de daño suma el mismo daño a cualquier láser, así que vale más en los **láseres Quantum**. Un amplificador de crítico multiplica lo que el láser ya hace, así que vale más cuanto más fuerte pega el láser: iguala a la línea de daño en el **Starfire-III** y sale un 1 % por delante en el **Helios Beam**. La probabilidad de crítico de un láser se detiene en el 100 %: tres Crit Amp III o Crit Amp IV llevan un Helios Beam (que tiene un 20 % propio) al 95 %. Un Penetration Amp no da daño ni probabilidad de crítico: es para naves cuyos escudos, de otro modo, se llevarían la mayor parte de tu impacto ([más abajo](#when-is-a-penetration-amp-worth-a-slot)).
 
-Con el mismo amplificador en todas las ranuras, un láser siempre es más fuerte que el del escalón inferior, así que un amplificador mejor nunca sustituye a un láser mejor: un Quantum Laser III con tres Damage Amp IV hace menos daño que un Helios Beam con tres Damage Amp I (con piezas del mismo grado de encantamiento: un Quantum Laser III y Damage Amp IV forjados a Divino o superior, con las mejores tiradas, pueden superar a un Helios Beam de grado Estándar con Damage Amp I, por un pelo con grado Divino).
+Con el mismo amplificador en todas las ranuras, un láser siempre es más fuerte que el del escalón inferior, así que un amplificador mejor solo compensa una parte de un láser mejor: un Quantum Laser III con tres Damage Amp IV hace más daño que un Helios Beam con tres Damage Amp I, pero menos que uno con tres Damage Amp III (con piezas del mismo grado de encantamiento: un Quantum Laser III y Damage Amp IV forjados a Eterno, con las mejores tiradas, pueden superar a un Helios Beam de grado Estándar con Damage Amp III, por un pelo).
 
 
 ---
@@ -194,7 +194,7 @@ La Siphon Battery es una munición para robar escudos en lugar de romper cascos.
 
 Cada impacto láser resta puntos a la absorción de tu objetivo, de hasta tres fuentes que se suman: tu **munición** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), tus **Penetration Amps** y una **formación de drones** (Gemini +15 %; [Formaciones de drones](/wiki/03-Mechanics/Formations.md)). **Nada limita el total** (un cohete directo suma su propia penetración y la de la formación del mismo modo: [Cohetes](/wiki/06-Items/Rockets.md)). Los escudos reciben entonces la absorción del objetivo menos la penetración del impacto, y el casco el resto ([Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Tus amps cuentan como la media de tus láseres.** Una andanada es un solo impacto, así que el juego suma la penetración de los amps de cada láser (los láseres de tus drones cuentan también) y toma la media de tus láseres, cada uno ponderado por su daño, como hace con la probabilidad de crítico. Tres Penetration Amp IV en cada láser dan 36 %; un Penetration Amp IV en uno de doce láseres da 1 %. Un Wraith tiene 12 láseres y 36 ranuras de amp, y hay que llenar las 36 para llegar al 36 %.
+- **Tus amps cuentan como la media de tus láseres.** Una andanada es un solo impacto, así que el juego suma la penetración de los amps de cada láser (los láseres de tus drones cuentan también) y toma la media de tus láseres, cada uno ponderado por su daño, como hace con la probabilidad de crítico. Tres Penetration Amp IV en cada láser dan 36 %; un Penetration Amp IV en uno de trece láseres da aproximadamente 1 %. Un Wraith tiene 13 láseres y 39 ranuras de amp, y hay que llenar las 39 para llegar al 36 %.
 - **El Hangar lo muestra.** Las estadísticas de combate del Hangar tienen un recuadro **Penetración** en cada nave, con la cifra de los amps láser de la configuración que muestra (0,0 % sin ningún Penetration Amp); la munición y la formación no entran en ella. La ventana **Nave** en vuelo tiene un chip **Penetración** al final de su fila inferior (los chips de configuración y velocidad muestran solo un icono y un número para dejarle sitio): muestra el total de un impacto láser, tus amps, la formación que llevas y la munición que disparas, sumados en cuanto cambias algo, y su sugerencia lista las tres partes.
 - **El mejor láser suma 61 % con x4 y 71 % con Antimatter.** Un Experimental Fusion Core (10 %), un Gemini (15 %) y tres Penetration Amp IV en cada láser (36 %) suman 61 %; una Antimatter Battery (20 %) en su lugar suma 71 %, con daño x3 en lugar de x4.
 - **Una bonificación de la Forja en un Penetration Amp IV cuenta.** Un Penetration Amp se puede forjar como los demás amps, y su única bonificación multiplica la penetración: una bonificación Eterna (+9 % a +15 %) deja un Penetration Amp IV en 13,1 a 13,8 puntos en lugar de 12. En el mejor montaje, tres Eternos suman 66,4 %, y cada punto cuenta.
@@ -229,6 +229,6 @@ El mejor láser vacía un núcleo de escudo sin célula y un Light Shield Core c
 
 **Un Penetration Amp contrarresta la absorción, y cuanto más alta es, más rinde: contra una nave de casco pequeño a cerca del 101 % (montajes con Tienda de temporada, Forja y Rampart), un montaje de Penetration mata cerca de 2,6 veces más rápido que el mejor montaje simple, y contra el mejor escudo de fábrica (85 %), un trío de Penetration Amps tarda un 19 % menos que un trío de Crit Amps del mismo nivel. Contra alienígenas casi no gana nada.**
 
-- **No da daño.** En un Helios Beam, tres Penetration Amp IV dan 187 de daño por andanada (munición x1, la media de la tirada y de los críticos), donde tres Damage Amp IV dan 356 y tres Crit Amp IV 369: aproximadamente la mitad. Lo que recupera es la parte del escudo, así que solo compensa donde el casco es pequeño frente al escudo y la absorción es alta; contra un Wraith o un Ironclad, cuyo gran casco aguanta igualmente, un conjunto simple de Damage o Crit es casi igual de rápido (un Penetration Amp en un láser gana como mucho un 5 %).
+- **No da daño.** En un Helios Beam, tres Penetration Amp IV dan 149 de daño por andanada (munición x1, la media de la tirada y de los críticos), donde tres Damage Amp IV dan 308 y tres Crit Amp IV 312: aproximadamente la mitad. Lo que recupera es la parte del escudo, así que solo compensa donde el casco es pequeño frente al escudo y la absorción es alta; contra un Wraith o un Ironclad, cuyo gran casco aguanta igualmente, un conjunto simple de Damage o Crit es casi igual de rápido (un Penetration Amp en un láser gana como mucho un 5 %).
 - **Alienígenas.** Sus escudos reciben el 80 % de un impacto menos tu penetración, así que también funciona con ellos, pero un Damage Amp o un Crit Amp del nivel los mata igual de rápido o más rápido, salvo un Phantasm o un Goombah combatidos con una formación, donde un Penetration Amp en un láser gana hasta un 5 %.
-- **Lo que cuesta.** Cada Penetration Amp IV pide 4 Dark Matter Plates (20 Dark Matter), como todo amp del nivel IV, así que un Wraith que llene sus 36 ranuras necesita 144 plates, 720 Dark Matter.
+- **Lo que cuesta.** Cada Penetration Amp IV pide 4 Dark Matter Plates (20 Dark Matter), como todo amp del nivel IV, así que un Wraith que llene sus 39 ranuras necesita 156 plates, 780 Dark Matter.

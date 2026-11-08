@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: 推進装置 -->
 # 推進装置と速度 {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Impulse は固定の速度加算が大きく、Momentum は倍率が大きいの
 
 ### エイリアンを振り切る {#outrunning-aliens}
 
-エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion の速度は、Impulse Thruster I で219.3、II で228.6です。どちらもまだ Crystalys に届かないため、振り切るにはティアIIIのスラスターが必要です（Impulse Thruster III で238.0、IV で241.0）。Momentum Thruster は、この艦では同じか少し低くなります（Momentum Thruster I で219.3、II から IV は228.3、236.1、238.4）。どちらの系統もティアIとIIは Crystalys に届かず、ティアIIIとIVは上回ります。
+エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion（基本速度220）の速度は、Impulse Thruster I で239.9、II で249.2、III で258.6、IV で261.6です。どのティアでも Crystalys を振り切れます。購入できるティアIでも同じです。Momentum Thruster は、この艦では同じか少し低くなります（Momentum Thruster I で239.9、II から IV は248.9、256.7、259.0）。どちらの系統もすべてのティアが Crystalys を上回り、その差は最低でも9.9です。

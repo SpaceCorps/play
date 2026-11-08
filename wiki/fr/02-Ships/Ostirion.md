@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ L’Ostirion est un solide intercepteur de milieu de gamme, nettement supérieur
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 48 000
-- **Vitesse de base** : 200
+- **Points de vie (PV)** : 64 000
+- **Vitesse de base** : 220
 - **Emplacements laser** : 3
 - **Emplacements extras** : 2
 
@@ -15,7 +15,7 @@ L’Ostirion est un solide intercepteur de milieu de gamme, nettement supérieur
 
 - **Emplacements principaux (efficacité de 100 %)** : 3
 - **Emplacements de soutien (efficacité de 75 %)** : 3
-- **Emplacements auxiliaires (efficacité de 50 %)** : 0
+- **Emplacements auxiliaires (efficacité de 50 %)** : 1
 
 ---
 

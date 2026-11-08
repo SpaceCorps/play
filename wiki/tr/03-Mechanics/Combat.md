@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Bırakan bir uzaylı bulunduğu yerden dolaşmaya başlar, seni son gördüğü 
 
 Uzaylılar birbirini itip ayırmaz: bir pilotun peşindeki bir sürü, gemileri arasında hiç boşluk bırakmadan yaklaşır ve pilotunu kaybeden bir sürü ancak her uzaylı kendi yolunu seçtikçe dağılır. Ama bir **gemiden** uzak durur: bir pilotun gövdesinin içine asla girmez ve üzerine park eden bir pilot onu yanında sürükler.
 
-Daha hızlı uçmak yalnızca bir yere kadar işe yarar: bir Protos (160), avlanan hiçbir uzaylıdan daha hızlı değildir (Phantasm 160, Bulwark 175, Crystalys 230); bu yüzden takibi senin hızın değil takip sınırı bitirir.
+Daha hızlı uçmak yalnızca bir yere kadar işe yarar: bir Protos (180), bir Phantasm (160) ya da Bulwark (175) uzaylısından yalnızca biraz hızlıdır, bir Goombah (180) uzaylısından daha hızlı değildir, bir Crystalys (230) uzaylısından ise yavaştır; bu yüzden takibi senin hızın değil takip sınırı bitirir.
 
 ---
 

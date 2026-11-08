@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -45,7 +45,7 @@ Hull Plating I は購入します。**II と III は強化品です**。アセ�
 | **Paragon** | 5 | 75,000 |
 | **Storm** | 7 | 105,000 |
 | **Ironclad** | 15 | 225,000 |
-| **Wraith** | 9 | 135,000 |
+| **Wraith** | 10 | 150,000 |
 
 - **最初はすべてロック。** スロットは、Skylab で研究すると開きます。スロット1つにつき技術が1つで、1時間と Dark Matter 10個、最初のものから順に進めます。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)画面では、艦のスロットが1枚のカードにまとめて表示され、スロット1つにつき点が1つ付きます。
 - **艦1隻ではなく、艦の種類ごと。** Paragon のために開いたスロットは、Paragon のすべてのデザインでも開いています（[艦のデザイン](/wiki/03-Mechanics/Ship-Designs.md)）。技術は永久にあなたのものです。ワイプでも残ります。

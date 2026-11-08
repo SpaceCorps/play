@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
@@ -69,7 +69,7 @@ Die 37 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 158 Technologien. | Legendär |
+| Archivar | Erforsche alle 159 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 

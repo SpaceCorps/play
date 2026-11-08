@@ -67,7 +67,7 @@ The 37 achievements that are not hidden, by group. Where a goal counts something
 | Station Builder | Build 5 different Skylab modules. | Common |
 | Fully Fitted | Build all 16 Skylab modules. | Epic |
 | Scholar | Research 50 technologies. | Uncommon |
-| Archivist | Research all 158 technologies. | Legendary |
+| Archivist | Research all 159 technologies. | Legendary |
 
 ### Fleet {#group-fleet}
 

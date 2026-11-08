@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-La Nomad es un crucero con el doble de casco y el doble de cañones que una Ostirion: una cabeza de martillo entre la Ostirion y la Paragon, que se compra en la tienda con créditos y Thulium a la vez. Cualquier piloto puede comprarla.
+La Nomad es un crucero con casi el doble de casco y el doble de cañones que una Ostirion: una cabeza de martillo entre la Ostirion y la Paragon, que se compra en la tienda con créditos y Thulium a la vez. Cualquier piloto puede comprarla.
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 96.000
-- **Velocidad base**: 200
+- **Puntos de vida (HP)**: 111.000
+- **Velocidad base**: 210
 - **Ranuras de láser**: 6
 - **Ranuras de extra**: 2
 
@@ -36,4 +36,4 @@ La Nomad es un crucero con el doble de casco y el doble de cañones que una Osti
 
 ## Historia {#lore}
 
-La Nomad se diseñó como nave de caravana: un casco de reconocimiento y carga de largo alcance para las rutas más allá de los cañones de la estación, donde una tripulación puede volar semanas sin cruzarse con nadie amistoso. Vista desde arriba es una cabeza de martillo. La proa ancha está blindada en toda su anchura con placas añil crepuscular, y su borde delantero, una V poco profunda, lleva seis cañones en tres pares, con el par más cercano al puente alcanzando más lejos. Dos largos brazos se estrechan hacia las góndolas de motor, una espina esbelta sostiene el puente, y bajo el martillo una cubierta de carga abierta guarda cuatro cajas color arena y una cúpula de sensores. Arena, añil crepuscular y luces de navegación violetas son sus colores, y ninguna otra nave los lleva. Los capitanes de convoy pidieron una escolta que también pudiera ser el convoy, y los astilleros les dieron una Ostirion con el doble de casco y el doble de cañones.
+La Nomad se diseñó como nave de caravana: un casco de reconocimiento y carga de largo alcance para las rutas más allá de los cañones de la estación, donde una tripulación puede volar semanas sin cruzarse con nadie amistoso. Vista desde arriba es una cabeza de martillo. La proa ancha está blindada en toda su anchura con placas añil crepuscular, y su borde delantero, una V poco profunda, lleva seis cañones en tres pares, con el par más cercano al puente alcanzando más lejos. Dos largos brazos se estrechan hacia las góndolas de motor, una espina esbelta sostiene el puente, y bajo el martillo una cubierta de carga abierta guarda cuatro cajas color arena y una cúpula de sensores. Arena, añil crepuscular y luces de navegación violetas son sus colores, y ninguna otra nave los lleva. Los capitanes de convoy pidieron una escolta que también pudiera ser el convoy, y los astilleros les dieron una Ostirion con casi el doble de casco y el doble de cañones.

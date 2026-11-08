@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Phantasm-raj -->
 # Phantasm-raj {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ A Phantasm-raj egy **Boss Phantasm** és a **Phantasm Guardjai**: egy hatalmas [
 
 ## A harc menete {#how-the-fight-goes}
 
-- **Vigyél csoportot.** Három 4–5. szintű pilóta x2 lőszerrel Alphában körülbelül másfél perc alatt megsemmisíti, legfeljebb egy hajót veszítve; egy ilyen szintű pilótát egyedül megsemmisítenek, kettőt is. Jobb hajók és x4 lőszer sokkal gyorsabbá teszik.
+- **Vigyél csoportot.** Három 4–5. szintű pilóta x2 lőszerrel Alphában körülbelül másfél perc alatt megsemmisíti, legfeljebb egy hajót veszítve; egy ilyen szintű pilótát egyedül megsemmisítenek, kettő pedig csak éppen hogy nyer, és csak akkor, ha a találatok szétoszlanak. Jobb hajók és x4 lőszer sokkal gyorsabbá teszik.
 - **A bossra lőj, ne a Guardokra.** Egy Guard másodpercek alatt elesik, de a *Röviden* lista szerinti gyakorisággal új érkezik, és amit a Guardok gyógyítanak, az csak kis része annak, amit egy csoport okoz: ha békén hagyod őket, az kis időbe kerül, ha üldözöd őket, többe.
 - **A Beta és a Gamma keményebb.** Ezeknek a világoknak a rajai erősebbek ([Világok](/wiki/05-Swarms/Swarms.md#the-worlds)), ezért több pilóta vagy jobb lőszer kell.
 - **Figyeld a szektort.** Az `x-4` Alphában PvP-szektor, az `x-3` és az `x-4` pedig Betában és Gammában az ([Világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): egy rivális beléphet a harcba, vagy megvárhatja a ládát. Hagyj egy hajót a csoportból őrségben.

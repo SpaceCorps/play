@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dced9aac4fce8b87 -->
+<!-- wiki-i18n source: 0096209c8f6660f0 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
@@ -11,7 +11,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 
 - **Escadrille** : 3 pilotes par secteur de corporation dans chaque monde (Alpha, Beta et Gamma ont chacun leurs propres escadrilles), chacun nommé avec le tag de la corporation et un indicatif, par ex. **[M] Vesper**. Leur nom affiché porte une petite icône de robot et la couleur de la corporation.
 - **Vaisseau** : un [Ostirion](/wiki/02-Ships/Ostirion.md) équipé de trois **Quantum Laser II**, de deux **Light Shield Cores**, d’un **Engine I** et d’un **Repair Drone I** :
-  - 48 000 points de vie, 22 000 points de bouclier, vitesse 202
+  - 64 000 points de vie, 22 000 points de bouclier, vitesse 222
   - absorption de 45 % : leurs boucliers prennent 45 % de chaque tir, la coque 55 %
   - 195 de dégâts de base par salve (munitions x1), 1 % de taux critique, portée de 700
 - **Sur la mini-carte** : un losange vert pour les pilotes de votre corporation, un losange ambre pour ceux d’une autre corporation.

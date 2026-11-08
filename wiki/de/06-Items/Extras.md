@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -91,7 +91,7 @@ Drücke den Slot WAL, und eine **Plasmawand** steht **an deinem Mauszeiger**, qu
 
 - **Was sie aufhält.** Jeder Schuss, der sie kreuzt, trifft stattdessen die Wand, egal wer ihn abgegeben hat und von welcher Seite: eine Laser-Salve, eine Rakete, die Salve eines Aliens. Was dahinter steht, nimmt nichts, und die Trefferpunkte der Wand nehmen den Schaden. Die Explosion einer Rakete, die an der Wand losgeht, trifft die Schiffe auf ihrer nahen Seite und nicht die dahinter. Auch deine eigenen Schüsse: Durch deine eigene Wand kannst du nicht hinausschießen. Die N.I.K.E. und die Geschütze des Dormant Swamp fliegen darüber hinweg, wie über Asteroiden.
 - **Was sie verbrennt.** Jedes Schiff, dessen Hülle den Streifen berührt, nimmt **2.500 Schaden pro Sekunde**, zuerst am Schild, auch dein eigenes, auch Aliens und Konzernpiloten. Ein Schiff in einer Schutzzone oder unter dem Schutz eines Respawns wird nicht verbrannt, und zwei Streifen auf einem Schiff addieren sich nicht.
-- **Wie lange sie hält.** Eine Wand der Stufe 1 hat **30.000 Trefferpunkte**, eine der Stufe 2 **90.000**. Eine Wand verliert von selbst jede Sekunde ein Sechzigstel davon, also ist eine, auf die niemand schießt, nach **60 Sekunden** weg. Schüsse verkürzen das: Eine Wraith mit zwölf Helios Beams auf x4-Munition bringt eine Wand der Stufe 1 in etwa 3,5 Sekunden zu Fall.
+- **Wie lange sie hält.** Eine Wand der Stufe 1 hat **30.000 Trefferpunkte**, eine der Stufe 2 **90.000**. Eine Wand verliert von selbst jede Sekunde ein Sechzigstel davon, also ist eine, auf die niemand schießt, nach **60 Sekunden** weg. Schüsse verkürzen das: Eine Wraith mit dreizehn Helios Beams auf x4-Munition bringt eine Wand der Stufe 1 in etwa 4 Sekunden zu Fall.
 - **Immer nur eine, ein Druck eine Wand.** Eine neue Wand ersetzt deine alte. Nach einem Druck lädt der Gegenstand **90 Sekunden** nach; die Wartezeit gehört dir, nicht dem Schiff: Sterben oder Ausloggen verkürzt sie nicht. Ein Druck verbraucht **eine Wand der Stufe, die der Slot hält**, und nur, wenn die Wand steht: Ein Druck, den das Spiel abweist (siehe unten), verbraucht nichts und startet keine Wartezeit. Ist von dieser Stufe keine mehr da, sagt es „Keine Energetic Wall mehr.“, und die andere Stufe wird nie an ihrer Stelle benutzt.
 - **Wo nicht.** Nicht, solange dich eine Schutzzone oder ein Respawn schützt, nicht, wo der Streifen eine Schutzzone oder ein Tor berühren würde, nicht getarnt und nicht, wo die Mitte des Streifens außerhalb der Karte läge. Das Spiel sagt dir, welcher Fall es ist.
 - **Abschüsse.** Ein Schiff, das die Wand zerstört, stirbt an Strahlung, und der Abschuss geht an den letzten feindlichen Piloten, der es innerhalb von 15 Sekunden getroffen hat, falls es einen gab. Wer die Wand aufgestellt hat, bekommt nichts gutgeschrieben, was er nicht selbst geschossen hat. Ein Alien, das die Wand zerstört, zahlt nichts: keine Belohnung, keine Beute.
@@ -154,9 +154,9 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 
 ### Auto-Rocket CPU
 
-- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien oder einen feindlichen Piloten gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen.
+- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien, einen feindlichen Piloten oder einen Asteroiden gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen. Gegen einen Asteroiden verbraucht sie Raketen wie gegen ein Schiff, schalte sie also AUS, solange du nur abbaust.
 - **Der Schalter.** Rüste sie in einem Extra-Slot aus und drücke ihren ARL-Slot, um sie AN oder AUS zu schalten. Sie startet AUS und bleibt, wie du sie gelassen hast, auch wenn du dich neu anmeldest. Der Slot zeigt AN oder AUS und leuchtet auf, wenn die CPU feuert.
-- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie auf Asteroiden, nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
+- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
 - **Keine Raketen mehr.** Sie sagt es dir einmal und feuert wieder, sobald du mehr hast.
 
 

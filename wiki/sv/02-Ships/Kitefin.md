@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper:
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 24 000
-- **Grundhastighet**: 175
+- **Grundhastighet**: 190
 - **Laserplatser**: 3
 - **Extraplatser**: 2
 
@@ -15,7 +15,7 @@ Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper:
 
 - **Kärnplatser (100 % verkningsgrad)**: 2
 - **Stödplatser (75 % verkningsgrad)**: 3
-- **Hjälpplatser (50 % verkningsgrad)**: 0
+- **Hjälpplatser (50 % verkningsgrad)**: 1
 
 ---
 

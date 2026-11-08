@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
@@ -69,7 +69,7 @@ I 37 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 158 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 159 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 

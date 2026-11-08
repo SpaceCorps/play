@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Davidski는 날아다니는 상인입니다. 하루에 한 번, 아무도 알려
 
 | 항목 | 아이템 |
 |---|---|
-| 레이저 | Helios Beam 8기, 각각 Damage Amp IV, Crit Amp IV, Penetration Amp IV 장착 |
+| 레이저 | Helios Beam 10기, 각각 Damage Amp IV, Crit Amp IV, Penetration Amp IV 장착 |
 | 실드와 엔진 | Heavy Shield Core 11기와 Adaptive Core 4기, 각각 Capacity 및 Absorption Shield Cell IV 또는 Impulse 및 Momentum Thruster IV 장착 |
 | 추가 장비 | Repair Drone IV, Auto-Repair CPU, Base CPU II |
 | 선체 | Hull Plating III 15개 |
 
-Alpha 강도에서 **선체 858,750**, **실드 1,309,534**(15초간 피격이 없으면 초당 67,614 회복), 흡수율 86.3%, 속도 89, 사거리 945, **초당 4,104**의 일제 사격을 가집니다. Beta는 이 수치의 1.5배, Gamma는 2배이며, 모든 에일리언이 그렇습니다. Alpha에서는 약 220만 포인트를 깎아야 합니다. 같은 레이저를 단 Wraith 한 대는 혼자서 약 12분 동안 계속 사격해야 하고, 열 대라면 약 1분 10초입니다.
+Alpha 강도에서 **선체 858,750**, **실드 1,309,534**(15초간 피격이 없으면 초당 67,614 회복), 흡수율 86.3%, 속도 98, 사거리 945, **초당 4,324**의 일제 사격을 가집니다. Beta는 이 수치의 1.5배, Gamma는 2배이며, 모든 에일리언이 그렇습니다. Alpha에서는 약 220만 포인트를 깎아야 합니다. 같은 레이저를 단 Wraith 한 대는 혼자서 약 13분 동안 계속 사격해야 하고, 열 대라면 약 77초입니다.
 
 ## 그와 싸우기 {#fighting-him}
 

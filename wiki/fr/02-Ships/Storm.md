@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevée et le plus grand nombre de lasers de tous les vaisseaux (13) sur une coque légère pour sa classe. D’après le classement du jeu (plus de 10 emplacements laser), c’est un cuirassé de classe IV. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
+Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevée et le plus grand nombre de lasers de tous les vaisseaux (14) sur une coque légère pour sa classe. D’après le classement du jeu (plus de 10 emplacements laser), c’est un cuirassé de classe IV. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
 
 ## Caractéristiques {#stats}
 
-- **Points de vie (PV)** : 150 000
-- **Vitesse de base** : 250
-- **Emplacements laser** : 13
+- **Points de vie (PV)** : 180 000
+- **Vitesse de base** : 260
+- **Emplacements laser** : 14
 - **Emplacements extras** : 3
 - **Emplacements de blindage**: 7
 
@@ -32,9 +32,9 @@ Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevé
 
 | Design | Ce qu’il change |
 | :--- | :--- |
-| **Storm NOTSUM** | -20 % de coque de base, +20 de vitesse de base, +2 % de vitesse, Blink |
-| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -50 % de capacité du bouclier, +10 % de pénétration du bouclier |
-| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -2 emplacements laser, Chameleon |
+| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, Blink |
+| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, Heal Pod |
+| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Une fois sa technologie recherchée, fabriquer un Storm à l’Assemblage coûte
 
 ## Histoire {#lore}
 
-Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage gris clair sur une ossature plus sombre, avec des bandes lumineuses blanches, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix bouches bien visibles, par lesquelles tirent treize lasers. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ la moitié de celle d’un Wraith et environ le quart de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.
+Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage gris clair sur une ossature plus sombre, avec des bandes lumineuses blanches, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix bouches bien visibles, par lesquelles tirent quatorze lasers. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ sept dixièmes de celle d’un Wraith et environ trois dixièmes de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.

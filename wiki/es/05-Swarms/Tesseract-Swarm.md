@@ -13,11 +13,11 @@ El enjambre Tesseract es una única nave nodriza enorme, el **Tesseract**, y los
 - **Cuántos**: Uno en cada mundo
 - **Aparece**: Desde el día 4 de la temporada hasta el reinicio (Beta y Gamma: desde el día 1 de la temporada)
 - **Líder**: Tesseract
-- **Hogar**: A no más de 2.500 unidades del punto 27.000, 5.000 del mapa del sector
+- **Hogar**: A no más de 2.500 unidades del punto 25.900, 6.100 del mapa del sector
 - **Regeneración**: 125.000 HP por segundo en Alpha, primero el casco y luego el escudo, cuando han pasado 5 s sin recibir daño
 - **Seguidores**: Hasta 100 × Facet, 20 más cada 5 s mientras el líder recibe impactos
 - **Llegada de los seguidores**: Solo mientras el líder ha recibido impactos en los últimos 5 s, a menos de 400 unidades de él
-- **Cazadores**: Cada Facet vuela tramos propios alrededor del líder, a menos de 1.800 unidades de él, y no persigue a nadie. Dispara al piloto más cercano que haya impactado al líder cuando ese piloto está a su alcance. Si no tiene a quién disparar, sigue volando alrededor del líder y se va 20 s después del último impacto
+- **Cazadores**: Cada Facet vuela tramos propios alrededor del líder, a menos de 3.600 unidades de él, y no persigue a nadie. Dispara al piloto más cercano que haya impactado al líder cuando ese piloto está a su alcance. Si no tiene a quién disparar, sigue volando alrededor del líder y se va 20 s después del último impacto
 - **Líder destruido**: Los seguidores se van 1 min después de que destruyan al líder, estén atacando o no
 - **Vuelve**: 30 min después de que destruyan al líder, en el mismo sector
 - **Avisos**: Se avisa a los pilotos del sector cuándo aparece el líder y cuándo es destruido. Son líneas del Sistema: aparecen en la pestaña **Sistema** del chat, con un contador de no leídas, y no en **Global** ni en **Local**. El registro de bajas nombra al piloto al que se acredita el derribo.

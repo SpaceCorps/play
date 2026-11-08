@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Die Nomad ist ein Kreuzer mit der doppelten Hülle und den doppelten Geschützen einer Ostirion: ein Hammerkopf zwischen der Ostirion und der Paragon, im Shop mit Credits und Thulium zusammen zu kaufen. Jeder Pilot darf sie kaufen.
+Die Nomad ist ein Kreuzer mit fast der doppelten Hülle und den doppelten Geschützen einer Ostirion: ein Hammerkopf zwischen der Ostirion und der Paragon, im Shop mit Credits und Thulium zusammen zu kaufen. Jeder Pilot darf sie kaufen.
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 96.000
-- **Grundtempo**: 200
+- **Trefferpunkte (HP)**: 111.000
+- **Grundtempo**: 210
 - **Laser-Slots**: 6
 - **Extra-Slots**: 2
 
@@ -36,4 +36,4 @@ Die Nomad ist ein Kreuzer mit der doppelten Hülle und den doppelten Geschützen
 
 ## Hintergrund {#lore}
 
-Die Nomad wurde als Karawanenschiff entworfen: ein Langstrecken-Vermessungs- und Frachtrumpf für die Routen jenseits der Stationsgeschütze, wo eine Besatzung wochenlang fliegen kann, ohne jemandem Freundlichem zu begegnen. Von oben gesehen ist sie ein Hammerkopf. Der breite Bug ist über seine ganze Breite mit dunkelindigofarbenen Platten gepanzert, und seine flach V-förmige Vorderkante trägt sechs Geschütze in drei Paaren, wobei das Paar nahe der Brücke am weitesten reicht. Zwei lange Ausleger laufen auf die Triebwerkskapseln zu, ein schlanker Rücken trägt die Brücke, und unter dem Hammer hält ein offenes Frachtdeck vier sandfarbene Kisten und eine Sensorkuppel. Sand, Dunkelindigo und violette Positionslichter sind ihre Farben, und kein anderes Schiff trägt sie. Konvoikapitäne wollten eine Eskorte, die zugleich der Konvoi sein kann, und die Werften gaben ihnen eine Ostirion mit doppelter Hülle und doppelten Geschützen.
+Die Nomad wurde als Karawanenschiff entworfen: ein Langstrecken-Vermessungs- und Frachtrumpf für die Routen jenseits der Stationsgeschütze, wo eine Besatzung wochenlang fliegen kann, ohne jemandem Freundlichem zu begegnen. Von oben gesehen ist sie ein Hammerkopf. Der breite Bug ist über seine ganze Breite mit dunkelindigofarbenen Platten gepanzert, und seine flach V-förmige Vorderkante trägt sechs Geschütze in drei Paaren, wobei das Paar nahe der Brücke am weitesten reicht. Zwei lange Ausleger laufen auf die Triebwerkskapseln zu, ein schlanker Rücken trägt die Brücke, und unter dem Hammer hält ein offenes Frachtdeck vier sandfarbene Kisten und eine Sensorkuppel. Sand, Dunkelindigo und violette Positionslichter sind ihre Farben, und kein anderes Schiff trägt sie. Konvoikapitäne wollten eine Eskorte, die zugleich der Konvoi sein kann, und die Werften gaben ihnen eine Ostirion mit fast doppelter Hülle und doppelten Geschützen.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -91,7 +91,7 @@ Tryck på platsen WAL, så står en **plasmavägg** **vid din markör**, tvärs 
 
 - **Vad den stoppar.** Varje skott som korsar den träffar väggen i stället, vem som än sköt det och från vilken sida: en lasersalva, en raket, en utomjordings salva. Det som står bakom tar ingenting och väggens livspoäng tar skadan. Explosionen från en raket som går av vid väggen träffar skeppen på dess nära sida och inte de bakom den. Dina egna skott också: du kan inte skjuta ut genom din egen vägg. N.I.K.E. och Dormant Swamps kanontorn flyger över den, som de flyger över asteroider.
 - **Vad den bränner.** Varje skepp vars skrov rör vid bandet tar **2 500 i skada per sekund**, först på skölden, ditt eget också, och utomjordingar och koncernpiloter. Ett skepp i en säker zon eller under skydd av en återkomst brinner inte, och två band på ett skepp läggs inte ihop.
-- **Hur länge den håller.** En vägg på nivå 1 har **30 000 livspoäng**, en på nivå 2 **90 000**. En vägg förlorar en sextiondel av dem varje sekund av sig själv, så en som ingen skjuter på är borta efter **60 sekunder**. Skott förkortar det: en Wraith med tolv Helios Beam på x4-ammunition fäller en nivå 1-vägg på ungefär 3,5 sekunder.
+- **Hur länge den håller.** En vägg på nivå 1 har **30 000 livspoäng**, en på nivå 2 **90 000**. En vägg förlorar en sextiondel av dem varje sekund av sig själv, så en som ingen skjuter på är borta efter **60 sekunder**. Skott förkortar det: en Wraith med tretton Helios Beam på x4-ammunition fäller en nivå 1-vägg på ungefär 4 sekunder.
 - **En i taget, en vägg per tryck.** En ny vägg tar den gamlas plats. Efter ett tryck laddas föremålet i **90 sekunder**; väntan är din, inte skeppets: att dö eller logga ut förkortar den inte. Ett tryck förbrukar **en vägg av den nivå platsen rymmer**, och bara när väggen står: ett tryck som spelet nekar (nedan) förbrukar ingenting och startar ingen väntan. Finns ingen kvar av den nivån säger det ”Inga Energetic Wall kvar.”, och den andra nivån förbrukas aldrig i dess ställe.
 - **Var inte.** Inte medan en säker zon eller en återkomst skyddar dig, inte där bandet skulle röra en säker zon eller en port, inte kamouflerad och inte där bandets mitt skulle hamna utanför kartan. Spelet säger vilket fall det är.
 - **Nedskjutningar.** Ett skepp som väggen förstör dör av strålning, och nedskjutningen går till den sista fientliga piloten som träffade det inom 15 sekunder, om det fanns någon. Den som satte upp väggen får inget tillgodo för det den inte sköt själv. En utomjording som väggen förstör betalar ingenting: ingen belöning, inget byte.
@@ -154,9 +154,9 @@ Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n 
 
 ### Auto-Rocket CPU
 
-- **Vad den gör.** Medan den är PÅ och du är i strid (dina lasrar är på en utomjording eller en fientlig pilot) avfyrar den din aktiva raket, den du avfyrade senast, mot det målet av sig själv, så fort ett tryck på tangenten Avfyra raket skulle fungera: raketernas timer är klar och du har en kvar. Servern kontrollerar varje avfyrning som den kontrollerar dina.
+- **Vad den gör.** Medan den är PÅ och du är i strid (dina lasrar är på en utomjording, en fientlig pilot eller en asteroid) avfyrar den din aktiva raket, den du avfyrade senast, mot det målet av sig själv, så fort ett tryck på tangenten Avfyra raket skulle fungera: raketernas timer är klar och du har en kvar. Servern kontrollerar varje avfyrning som den kontrollerar dina. Mot en asteroid använder den raketer som mot ett skepp, så stäng AV den medan du bara bryter.
 - **Strömbrytaren.** Montera den i en extraplats och tryck på dess ARL-plats för att slå den PÅ eller AV. Den startar AV och förblir som du lämnade den, också när du loggar in igen. Platsen visar PÅ eller AV och lyser upp när CPU:n avfyrar.
-- **Vad den aldrig gör.** Den väljer aldrig ett mål, skjuter aldrig mot asteroider, från en säker zon eller när du är kamouflerad, och avfyrar aldrig en N.U.K.E. eller en N.I.K.E. En raket som du själv avfyrar fungerar alltid. Utan tangenttryck, klick eller musrörelse i 3 minuter väntar den på att du gör något.
+- **Vad den aldrig gör.** Den väljer aldrig ett mål, skjuter aldrig från en säker zon eller när du är kamouflerad, och avfyrar aldrig en N.U.K.E. eller en N.I.K.E. En raket som du själv avfyrar fungerar alltid. Utan tangenttryck, klick eller musrörelse i 3 minuter väntar den på att du gör något.
 - **Slut på raketer.** Den säger det en gång och avfyrar igen så fort du har fler.
 
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -44,7 +44,7 @@ Termina **una mejora del Skylab al instante**: elige el módulo que se está mej
 
 ### Schematics
 
-Termina **la investigación que está en marcha**, si la tecnología tarda **24 horas o menos** en investigarse. 142 de las 158 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) cumplen. Las 16 que tardan 48 o 72 horas no: el Wraith, tres formaciones de drones, Hull Plating III, los niveles 4 y 5 del Módulo de motores y del Módulo de defensa y siete tecnologías de Piloto.
+Termina **la investigación que está en marcha**, si la tecnología tarda **24 horas o menos** en investigarse. 143 de las 159 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) cumplen. Las 16 que tardan 48 o 72 horas no: el Wraith, tres formaciones de drones, Hull Plating III, los niveles 4 y 5 del Módulo de motores y del Módulo de defensa y siete tecnologías de Piloto.
 
 - **Cuenta el tiempo de investigación, no el que queda.** Una tecnología de 48 horas a la que le falta una hora se rechaza igualmente: Schematics mira cuánto tarda la tecnología en total.
 - **El precio sigue pagado.** El Dark Matter, los créditos y el Thulium se cobraron cuando empezó la investigación y no se devuelven. La ciencia que la investigación no ha quemado se queda en tu depósito.

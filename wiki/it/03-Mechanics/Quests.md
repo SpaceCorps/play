@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
@@ -278,7 +278,7 @@ Se ne avevi **completata** una delle 64, fai anche la versione nuova. Al tuo pri
 I settori più alti sono quelli in cui le missioni pagano, e quelli in cui puoi morire. Pianifica il tuo equipaggiamento per affrontarli:
 
 - **PvP**: i piloti delle altre corporazioni possono attaccarti in `x-4` e nel centro in ogni mondo, da `x-2` in su in Beta e ovunque in Gamma (tranne nelle zone sicure e durante il Protocollo di pace). Le porte dell’Anello portano piloti di altre corporazioni anche nel tuo `x-3`: in Beta e Gamma uno di loro può distruggerti lì mentre trasporti un oggetto. Beta e Gamma non hanno il Protocollo di pace: lì il PvP è attivo dal giorno 1.
-- I **Bulwark** (`x-3`, `x-4`) sono più veloci di una Protos e colpiscono duro. Combattili da un’[Ostirion](/wiki/02-Ships/Ostirion.md), vicino alla zona sicura di un portale, e ritirati lì dentro per riparare.
+- I **Bulwark** (`x-3`, `x-4`) tengono quasi il passo di una Protos e colpiscono duro. Combattili da un’[Ostirion](/wiki/02-Ships/Ostirion.md), vicino alla zona sicura di un portale, e ritirati lì dentro per riparare.
 - I **Goombah** (`x-3`, `x-4`) hanno una portata di 800, colpiscono per 3.000 e non iniziano mai un combattimento: lasciane stare uno e lui lascia stare te, sparagli e si rivolta contro di te fino a 10 secondi dopo il tuo ultimo colpo (e si ripara quando viene lasciato in pace). Una nave i cui laser sono tutti [Starfire-III](/wiki/06-Items/Lasers.md) (portata 850) supera la portata sia dei Goombah sia dei Bulwark: con una nave più veloce di loro (un’Ostirion o superiore; un Goombah vola a 180, un Bulwark a 175) puoi sparare senza subire colpi. La portata della tua nave è la media delle portate dei suoi laser, quindi una Starfire-III accanto a due Quantum Laser II spara da 750: abbastanza lontano per restare fuori dalla portata di un Bulwark (700), non di un Goombah (800). La Speciale del livello 5 te ne dà uno; puoi anche crearne uno in Assemblaggio, con le Velkonite Reinforced Plate prodotte dalla Fucina del tuo [Skylab](/wiki/03-Mechanics/Skylab.md).
 - I **Crystalys** vagano lungo il confine (`x-4`). Niente di ciò che puoi avere entro il livello 8 supera la portata di un Crystalys, e solo una nave veloce lo distanzia: mantieni le distanze e tieni d’occhio la minimappa.
 - Quando vieni distrutto, scegli dove tornare: alla tua base, al portale più vicino o sul posto, che un settore pericoloso non offre (vedi [Distruzione e ritorno](/wiki/01-General/Getting-Started.md)). L’orologio di una missione a tempo continua a correre nel frattempo, un oggetto trasportato è perso e una regola senza morire si spezza.

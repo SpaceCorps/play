@@ -2,7 +2,7 @@
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt -->
 
-A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Eight of the thirteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
+A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Nine of the thirteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
 
 ## The thirteen designs
 
@@ -10,19 +10,19 @@ The last three columns are what the converted ship has: its own hull and base sp
 
 | Design | What it changes | Hull | Base speed | Laser slots |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% base hull, +40 base speed, +1 laser slot | 96,000 | 250 | 9 |
-| **Paragon BUCKY** | +25% base hull, -20 base speed, -1 laser slot, +10% shield absorption, +20% model size | 160,000 | 190 | 7 |
-| **Paragon LICH** | +1% shield regeneration a second | 128,000 | 210 | 8 |
-| **Storm NOTSUM** | -20% base hull, +20 base speed, +2% speed, Blink | 120,000 | 270 | 13 |
-| **Storm BRATAN** | -50 base speed, +2 laser slots, -50% shields, +10% shield penetration | 150,000 | 200 | 15 |
-| **Storm RECON** | -20% base hull, +5% speed, -2 laser slots, Chameleon | 120,000 | 250 | 11 |
-| **Ironclad DUMA** | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire | 720,000 | 72 | 3 |
-| **Ironclad TITANIC** | +2 laser slots, +1 core slot, +20% shields, +20% model size, Blink (capped at 1,500 speed) | 600,000 | 92 | 8 |
-| **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom | 324,000 | 220 | 13 |
-| **Wraith BILLY** | +5% base hull, +10 base speed, +10% shields, Diminisher | 340,200 | 230 | 12 |
-| **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 388,800 | 240 | 12 |
-| **Wraith ATARAXIS** | -1 laser slot, +25% shields, +10% shield absorption, Shield Buff | 324,000 | 220 | 11 |
-| **Wraith MATT** | -10% base hull, +2 laser slots, -20% shields, +10% laser penetration | 291,600 | 220 | 14 |
+| **Paragon THUNDER** | -25% base hull, +40 base speed, +1 laser slot | 96,000 | 270 | 10 |
+| **Paragon BUCKY** | +25% base hull, -20 base speed, -1 laser slot, +10% shield absorption, +20% model size | 160,000 | 210 | 8 |
+| **Paragon LICH** | +1% shield regeneration a second | 128,000 | 230 | 9 |
+| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, Blink | 162,000 | 310 | 14 |
+| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, Heal Pod | 180,000 | 210 | 16 |
+| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon | 144,000 | 260 | 13 |
+| **Ironclad DUMA** | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire | 720,000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 laser slots, +1 core slot, +20% shields, +20% model size, Blink | 600,000 | 110 | 10 |
+| **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom | 256,000 | 210 | 14 |
+| **Wraith BILLY** | +5% base hull, +10% shields, Diminisher | 268,800 | 210 | 13 |
+| **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 307,200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 laser slot, +1 support slot, +25% shields, +10% shield absorption, Shield Buff | 256,000 | 210 | 12 |
+| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration | 256,000 | 210 | 15 |
 
 ## Getting a design
 
@@ -35,16 +35,16 @@ The last three columns are what the converted ship has: its own hull and base sp
 | **Paragon THUNDER** | 50,000 | 4 | 30 | 5 | 2 | – |
 | **Paragon BUCKY** | 50,000 | 4 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50,000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100,000 | 15 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100,000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm NOTSUM** | 100,000 | 25 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100,000 | 20 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100,000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100,000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100,000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100,000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100,000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100,000 | 35 | 375 | 65 | 20 | 3 |
-| **Wraith ATARAXIS** | 100,000 | 30 | 375 | 65 | 20 | 3 |
-| **Wraith MATT** | 100,000 | 20 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100,000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100,000 | 25 | 375 | 65 | 20 | 3 |
 
 The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCKY or LICH), and it must not be the ship you fly: make another ship active first. A wrecked ship cannot be converted.
 
@@ -58,10 +58,10 @@ The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCK
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
 | **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
-| **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
-| **All four** | 36 | 36 h | 360 | 13 | 130 h | 130 |
+| **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
+| **All four** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Together they ask 490 Dark Matter on top of the 749 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,354 for every technology of the game.
+Together they ask 500 Dark Matter on top of the 749 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,364 for every technology of the game.
 
 ## What happens to your ship
 

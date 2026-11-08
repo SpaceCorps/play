@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -278,7 +278,7 @@ Ha a 64 egyikét **teljesítetted**, az új változatot is megcsinálod. A friss
 A magasabb szektorokban fizetnek a küldetések, és ott halhatsz meg. Ehhez tervezd meg a felszerelésedet:
 
 - **PvP**: más vállalatok pilótái az `x-4` szektorban és a központban minden világban megtámadhatnak, a Betában az `x-2` szektortól felfelé, a Gammában pedig mindenhol (kivéve a biztonságos zónákat és a Békeprotokoll idejét). A gyűrűkapuk más vállalatok pilótáit is behozzák az `x-3` szektorodba: a Betában és a Gammában egyikük ott megsemmisíthet, miközben tárgyat cipelsz. A Betában és a Gammában nincs Békeprotokoll: ott a PvP az 1. naptól él.
-- A **Bulwark** idegenek (`x-3`, `x-4`) lehagynak egy Protost, és keményen ütnek. Az [Ostirion](/wiki/02-Ships/Ostirion.md) hajóból harcolj velük, egy kapu biztonságos zónájának közelében, és javításhoz húzódj vissza abba.
+- A **Bulwark** idegenek (`x-3`, `x-4`) majdnem tartják a lépést egy Protosszal, és keményen ütnek. Az [Ostirion](/wiki/02-Ships/Ostirion.md) hajóból harcolj velük, egy kapu biztonságos zónájának közelében, és javításhoz húzódj vissza abba.
 - A **Goombah** idegenek (`x-3`, `x-4`) hatótávja 800, 3 000 sebzést okoznak, és sosem kezdenek harcot: hagyj békén egyet, és téged is békén hagy; lőj rá, és az utolsó találatod után 10 másodpercig ellened fordul (és ha békén hagyják, javítja magát). Az a hajó, amelynek az összes lézere [Starfire-III](/wiki/06-Items/Lasers.md) (hatótáv: 850), a Goombah és a Bulwark idegeneknél is messzebbre ér: egy náluk gyorsabb hajóval (egy Ostirion vagy afölött; a Goombah sebessége 180, a Bulwarké 175) úgy tüzelhetsz, hogy nem kapsz találatot. A hajód hatótávja a lézerei hatótávjának átlaga, így egy Starfire-III két Quantum Laser II mellett 750 egységről tüzel: elég messziről ahhoz, hogy távol maradhass egy Bulwarktól (700), egy Goombah-tól (800) viszont nem. Az 5. szint Különleges küldetése ad egyet; a Gyártásban is gyárthatsz egyet Velkonite Reinforced Plate-ekből, amelyeket a [Skylabod](/wiki/03-Mechanics/Skylab.md) Kovácsműhelye készít.
 - A **Crystalys** idegenek a határt (`x-4`) járják. Semmi, ami a 8. szintig elérhető, nem ér messzebbre egy Crystalysnál, és csak egy gyors hajó hagyja le: tartsd a távolságot, és figyeld a minitérképet.
 - Ha megsemmisülsz, te döntöd el, hol térsz vissza: a bázisodon, a legközelebbi portálnál vagy a helyszínen, amit a veszélyes szektor nem kínál (lásd a [Megsemmisülés és visszatérés](/wiki/01-General/Getting-Started.md) részt). Az időkorlátos küldetés órája közben tovább fut, a cipelt tárgy elvész, a „halál nélkül” szabály pedig megszakad.

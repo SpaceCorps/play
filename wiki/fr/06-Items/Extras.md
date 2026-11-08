@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -91,7 +91,7 @@ Appuyez sur l’emplacement WAL et une **paroi de plasma** se dresse **à votre 
 
 - **Ce qu’elle arrête.** Tout tir qui la croise frappe la paroi à la place, quel que soit celui qui l’a tiré et de quel côté : une salve de laser, une roquette, la salve d’un alien. Ce qui se tient derrière ne subit rien et les points de vie de la paroi encaissent les dégâts. Le souffle d’une roquette qui explose sur la paroi touche les vaisseaux du côté proche et non ceux qui sont derrière. Vos propres tirs aussi : vous ne pouvez pas tirer à travers votre propre paroi. La N.I.K.E. et les tourelles du Dormant Swamp passent par-dessus, comme par-dessus les astéroïdes.
 - **Ce qu’elle brûle.** Tout vaisseau dont la coque touche la bande subit **2 500 de dégâts par seconde**, bouclier d’abord, le vôtre aussi, ainsi que les aliens et les pilotes de corporation. Un vaisseau dans une zone sûre ou sous la protection d’une réapparition ne brûle pas, et deux bandes sur un même vaisseau ne s’additionnent pas.
-- **Combien de temps elle tient.** Une paroi de niveau 1 a **30 000 points de vie**, une de niveau 2 **90 000**. Une paroi en perd d’elle-même un soixantième chaque seconde, si bien qu’une paroi sur laquelle personne ne tire disparaît après **60 secondes**. Les tirs raccourcissent ce délai : un Wraith avec douze Helios Beam en munitions x4 abat une paroi de niveau 1 en 3,5 secondes environ.
+- **Combien de temps elle tient.** Une paroi de niveau 1 a **30 000 points de vie**, une de niveau 2 **90 000**. Une paroi en perd d’elle-même un soixantième chaque seconde, si bien qu’une paroi sur laquelle personne ne tire disparaît après **60 secondes**. Les tirs raccourcissent ce délai : un Wraith avec treize Helios Beam en munitions x4 abat une paroi de niveau 1 en 4 secondes environ.
 - **Une seule à la fois, une paroi par appui.** Une nouvelle paroi prend la place de l’ancienne. Après un appui, l’objet se recharge pendant **90 secondes** ; l’attente est la vôtre, pas celle du vaisseau : mourir ou se déconnecter ne la raccourcit pas. Un appui consomme **une paroi du niveau que tient son emplacement**, et seulement quand la paroi se dresse : un appui que le jeu refuse (voir plus bas) ne consomme rien et ne lance aucune attente. S’il n’en reste plus de ce niveau, il dit « Il ne vous reste aucune Energetic Wall. », et l’autre niveau n’est jamais consommé à sa place.
 - **Où non.** Pas tant qu’une zone sûre ou une réapparition vous protège, pas là où la bande toucherait une zone sûre ou une porte, pas en étant occulté et pas là où le milieu de la bande tomberait hors de la carte. Le jeu dit de quel cas il s’agit.
 - **Éliminations.** Un vaisseau que la paroi détruit meurt de radiation, et l’élimination revient au dernier pilote ennemi qui l’a touché dans les 15 secondes, s’il y en a eu un. Celui qui a posé la paroi n’est crédité de rien qu’il n’ait tiré lui-même. Un alien que la paroi détruit ne rapporte rien : ni récompense ni butin.
@@ -154,9 +154,9 @@ Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez 
 
 ### Auto-Rocket CPU
 
-- **Ce qu’il fait.** Tant qu’il est sur ON et que vous êtes au combat (vos lasers visent un alien ou un pilote ennemi), il tire tout seul votre roquette active, la dernière que vous avez tirée, sur cette cible, chaque fois qu’un appui sur la touche Tirer roquette fonctionnerait : le minuteur des roquettes est prêt et il vous en reste une. Le serveur vérifie chaque tir comme il vérifie les vôtres.
+- **Ce qu’il fait.** Tant qu’il est sur ON et que vous êtes au combat (vos lasers visent un alien, un pilote ennemi ou un astéroïde), il tire tout seul votre roquette active, la dernière que vous avez tirée, sur cette cible, chaque fois qu’un appui sur la touche Tirer roquette fonctionnerait : le minuteur des roquettes est prêt et il vous en reste une. Le serveur vérifie chaque tir comme il vérifie les vôtres. Contre un astéroïde, il dépense des roquettes comme contre un vaisseau : passez-le sur OFF tant que vous ne faites que miner.
 - **L’interrupteur.** Équipez-le dans un emplacement Extras et appuyez sur son emplacement ARL pour le passer sur ON ou OFF. Il démarre sur OFF et reste comme vous l’avez laissé, y compris quand vous vous reconnectez. L’emplacement indique ON ou OFF et brille quand le CPU tire.
-- **Ce qu’il ne fait jamais.** Il ne choisit jamais de cible, ne tire jamais sur des astéroïdes, ni depuis une zone sûre, ni sous occultation, et ne tire jamais une N.U.K.E. ni une N.I.K.E. Une roquette que vous tirez vous-même fonctionne toujours. Sans touche, clic ni mouvement de souris pendant 3 minutes, il attend que vous fassiez quelque chose.
+- **Ce qu’il ne fait jamais.** Il ne choisit jamais de cible, ne tire jamais depuis une zone sûre ni sous occultation, et ne tire jamais une N.U.K.E. ni une N.I.K.E. Une roquette que vous tirez vous-même fonctionne toujours. Sans touche, clic ni mouvement de souris pendant 3 minutes, il attend que vous fassiez quelque chose.
 - **Plus de roquettes.** Il vous le dit une fois et tire de nouveau dès que vous en avez.
 
 

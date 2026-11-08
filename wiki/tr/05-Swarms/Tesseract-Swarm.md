@@ -13,11 +13,11 @@ Tesseract sürüsü, tek bir devasa ana gemi olan **Tesseract** ile vurulduğu s
 - **Kaç tane**: Her dünyada bir tane
 - **Belirme**: Sezonun 4. gününden sıfırlamaya kadar (Beta ve Gamma: sezonun 1. gününden itibaren)
 - **Lider**: Tesseract
-- **Konum**: Sektör haritasının 27.000, 5.000 noktasının 2.500 birim çevresinde
+- **Konum**: Sektör haritasının 25.900, 6.100 noktasının 2.500 birim çevresinde
 - **Yenilenme**: Alpha dünyasında saniyede 125.000 HP; önce gövde, sonra kalkan; 5 sn hasarsız geçtikten sonra
 - **Takipçiler**: En fazla 100 × Facet, lider vurulduğu sürece 5 sn aralıkla 20 tane daha
 - **Takipçiler gelir**: Yalnızca lider son 5 sn içinde vurulduysa, ondan en fazla 400 birim uzakta
-- **Avcılar**: Her Facet, liderin çevresinde, ondan en fazla 1.800 birim uzakta kendi uçuşlarını yapar ve kimsenin peşine düşmez. Lidere vurmuş en yakın pilot menzilindeyse ona ateş eder. Ateş edecek kimse yoksa liderin çevresinde uçmaya devam eder ve son vuruştan 20 sn sonra gider
+- **Avcılar**: Her Facet, liderin çevresinde, ondan en fazla 3.600 birim uzakta kendi uçuşlarını yapar ve kimsenin peşine düşmez. Lidere vurmuş en yakın pilot menzilindeyse ona ateş eder. Ateş edecek kimse yoksa liderin çevresinde uçmaya devam eder ve son vuruştan 20 sn sonra gider
 - **Lider yok edilince**: Takipçiler, saldırıyor olsalar bile, lider yok edildikten 1 dk sonra ayrılır
 - **Geri gelir**: Lider yok edildikten 30 dk sonra, aynı sektörde
 - **Duyuru**: Sektördeki pilotlara liderin ne zaman belirdiği ve ne zaman yok edildiği bildirilir. Bunlar Sistem satırlarıdır: sohbetin **Sistem** sekmesinde, okunmamış sayısıyla birlikte görünür; **Genel** ya da **Yerel** sekmesinde görünmez. Öldürme akışı, öldürmeyi alan pilotu adıyla gösterir.

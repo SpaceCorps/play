@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Una **Ironclad TITANIC** pintada de oro, del tamaño propio de la TITANIC, con l
 
 | Qué | Objeto |
 |---|---|
-| Láseres | 8 Helios Beam, cada uno con un Damage Amp IV, un Crit Amp IV y un Penetration Amp IV |
+| Láseres | 10 Helios Beam, cada uno con un Damage Amp IV, un Crit Amp IV y un Penetration Amp IV |
 | Escudos y motores | 11 Heavy Shield Cores y 4 Adaptive Cores, cada uno con Capacity y Absorption Shield Cells IV o Impulse y Momentum Thrusters IV |
 | Extras | un Repair Drone IV, una Auto-Repair CPU y una Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Con la fuerza de Alpha tiene **858.750 de casco**, **1.309.534 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 86,3 % de absorbancia, velocidad 89, alcance 945 y una salva de **4.104 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,2 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos doce minutos de fuego continuo él solo; diez de ellos, un minuto y diez segundos.
+Con la fuerza de Alpha tiene **858.750 de casco**, **1.309.534 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 86,3 % de absorbancia, velocidad 98, alcance 945 y una salva de **4.324 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,2 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos trece minutos de fuego continuo él solo; diez de ellos, 77 segundos.
 
 ## Combatirlo {#fighting-him}
 

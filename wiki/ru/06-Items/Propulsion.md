@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Двигательные системы -->
 # Двигательные системы и скорость {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Impulse даёт больше фиксированной скорости, Momen
 
 ### Как оторваться от пришельцев {#outrunning-aliens}
 
-Пришельцы летают со скоростью 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) и 230 (Crystalys). Ostirion с одним Engine II и двумя ускорителями летит со скоростью 219,3 с Impulse Thruster I и 228,6 со II: обе ещё меньше, чем у Crystalys, поэтому оторваться от него можно только с ускорителем III ступени (238,0 с Impulse Thruster III, 241,0 с IV). Momentum Thruster на этом корабле летят так же или чуть ниже (219,3 с Momentum Thruster I; затем 228,3, 236,1 и 238,4 со II–IV): ступени I и II обоих семейств остаются медленнее Crystalys, а ступени III и IV — быстрее.
+Пришельцы летают со скоростью 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) и 230 (Crystalys). Ostirion (базовая скорость 220) с одним Engine II и двумя ускорителями летит со скоростью 239,9 с Impulse Thruster I, 249,2 со II, 258,6 с III и 261,6 с IV: любая ступень обгоняет Crystalys, даже Impulse Thruster I, который можно купить. Momentum Thruster на этом корабле летят так же или чуть ниже (239,9 с Momentum Thruster I; затем 248,9, 256,7 и 259,0 со II–IV): любая ступень обоих семейств быстрее Crystalys, не менее чем на 9,9.

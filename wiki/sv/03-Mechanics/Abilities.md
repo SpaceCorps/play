@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49ab4e31b6a7b8a0 -->
+<!-- wiki-i18n source: fdf67ad887f06846 -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -58,24 +58,24 @@ Läker en andel av ditt **max. skrov jämnt fördelat över tio sekunder**, aldr
 
 ## Skeppsförmågor {#ship-abilities}
 
-Åtta av de tretton [skeppsdesignerna](/wiki/03-Mechanics/Ship-Designs.md) har en förmåga som hör till designen, inte till ett föremål. Den tar **ingen förmågeplats** och kräver inget monterat: den finns där så länge du flyger designen. Den har en egen knapp, den fjärde i snabbfältets kolumn, och dess tangent är `F` (du kan ändra den i inställningarna). Den har sin egen återhämtning, som består som de andras: att byta konfiguration, hoppa och logga ut nollställer den inte, och ett förstört skepp börjar nästa flygning med alla förmågor redo.
+Nio av de tretton [skeppsdesignerna](/wiki/03-Mechanics/Ship-Designs.md) har en förmåga som hör till designen, inte till ett föremål. Den tar **ingen förmågeplats** och kräver inget monterat: den finns där så länge du flyger designen. Den har en egen knapp, den fjärde i snabbfältets kolumn, och dess tangent är `F` (du kan ändra den i inställningarna). Den har sin egen återhämtning, som består som de andras: att byta konfiguration, hoppa och logga ut nollställer den inte, och ett förstört skepp börjar nästa flygning med alla förmågor redo.
 
 | Förmåga | Design | Vad den gör | Varaktighet | Återhämtning |
 | :--- | :--- | :--- | ---: | ---: |
-| **Blink** | Storm NOTSUM, Ironclad TITANIC | Fart 2 500 (TITANIC: 1 500) mot din rörelseorder | 1 s | 120 s |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Fart 2 500 mot din rörelseorder | 1 s | 120 s |
 | **Chameleon** | Storm RECON | Osynlig för alla andra piloter, även på minikartan | tills den bryts | 60 s |
 | **Focus Fire** | Ironclad DUMA | Fientliga skepp inom 1 000 enheter tvingas attackera dig | 5 s | 60 s |
-| **Venom** | Wraith RAPTOR | 100 000 skada rakt på ett måls skrov | 30 s | 120 s |
+| **Venom** | Wraith RAPTOR | 125 000 skada rakt på ett måls skrov | 30 s | 120 s |
 | **Diminisher** | Wraith BILLY | Du tar 75 % mindre skada och ger 25 % mindre | 10 s | 120 s |
-| **Heal Pod** | Wraith MENATI | En kapsel läker vänliga skepp inom 600 enheter med 10 000 + 1 % av deras maxskrov i sekunden | 5 s | 120 s |
+| **Heal Pod** | Storm BRATAN, Wraith MENATI | En kapsel läker vänliga skepp inom 600 enheter med 20 000 + 2 % av deras maxskrov i sekunden | 5 s | 120 s |
 | **Shield Buff** | Wraith ATARAXIS | Din sköldkapacitet fördubblas och återhämtar 2 % av sitt maximum i sekunden | 10 s | 120 s |
 
-- **Blink.** I 1 sekund är din fart 2 500 (en TITANIC begränsas till 1 500), mot din rörelseorder. Du stannar där ordern tar slut, och kartans kant stoppar dig också. Sedan vilar den i 120 sekunder.
+- **Blink.** I 1 sekund är din fart 2 500, mot din rörelseorder. Du stannar där ordern tar slut, och kartans kant stoppar dig också. Sedan vilar den i 120 sekunder.
 - **Chameleon.** Du försvinner: ingen annan pilot ser dig, varken på kartan eller på minikartan, och ingen kan låsa på dig. Din egen koncern ser dig fortfarande, som ett spöke. En EMP kan inte bryta den. Den tar slut när du tar någon skada, avfyrar en lasersalva, skjuter upp en raket, plockar upp en låda eller går in i en säker zon, eller när du trycker på knappen igen; dess 60 sekunder börjar när den tar slut, hur det än sker. Du kan inte starta den inom 10 sekunder efter ett skott eller en träff, inte i en säker zons ring och inte medan en Cloaking CPU är på.
 - **Focus Fire.** I 5 sekunder tvingas varje fientlig pilot och utomjording inom 1 000 enheter att attackera dig: en pilots målfixering sätts på dig och går inte att ändra, en utomjording vänder sig mot dig. Piloter i din grupp och din koncern, skepp under en säker zons skydd och maskerade skepp lämnas ifred, och den nekas i en säker zon eller utan fiender inom räckhåll. De tvingade piloterna kan fortfarande flyga vart de vill.
-- **Venom.** Lås på ett mål inom dina lasrars räckvidd och tryck: 100 000 skada går rakt på dess skrov under 30 sekunder, jämnt fördelat, och dess sköld tar ingen del. Den fungerar på piloter från andra koncerner och på utomjordingar lika, inte på din grupp eller koncern, inte på ett skepp som en säker zon skyddar och inte där en laserlåsning nekas (Fredsprotokollet, en sektor utan PvP). Ett skepp bär en Venom i taget. Varje tick räknas som en träff, så målet kan inte gömma sig i en säker zon förrän den tar slut. Reparation, en Heal Pod och en Diminisher på målet dämpar den, den tar slut när målet eller du dör, och dödandet och dess poäng är dina.
+- **Venom.** Lås på ett mål inom dina lasrars räckvidd och tryck: 125 000 skada går rakt på dess skrov under 30 sekunder, jämnt fördelat, och dess sköld tar ingen del. Den fungerar på piloter från andra koncerner och på utomjordingar lika, inte på din grupp eller koncern, inte på ett skepp som en säker zon skyddar och inte där en laserlåsning nekas (Fredsprotokollet, en sektor utan PvP). Ett skepp bär en Venom i taget. Varje tick räknas som en träff, så målet kan inte gömma sig i en säker zon förrän den tar slut. Reparation, en Heal Pod och en Diminisher på målet dämpar den, den tar slut när målet eller du dör, och dödandet och dess poäng är dina.
 - **Diminisher.** I 10 sekunder skärs varje träff du tar ner till en fjärdedel innan din sköld tar sin del, så sköld och skrov förlorar en fjärdedel var, och varje träff du ger skärs ner till tre fjärdedelar: lasrar, direkta raketer och explosioner. Ett andra tryck gör ingenting medan den pågår.
-- **Heal Pod.** En kapsel faller där du är och blir kvar i 5 sekunder. Varje sekund läker den varje vänligt skepp inom 600 enheter med 10 000 plus 1 % av det skeppets maxskrov: dig, din grupp och din koncern, ingen annan, och aldrig över maximum. Ingenting kan låsa på kapseln eller skjuta på den, och den fortsätter läka om du dör.
+- **Heal Pod.** En kapsel faller där du är och blir kvar i 5 sekunder. Varje sekund läker den varje vänligt skepp inom 600 enheter med 20 000 plus 2 % av det skeppets maxskrov: dig, din grupp och din koncern, ingen annan, och aldrig över maximum. Ingenting kan låsa på kapseln eller skjuta på den, och den fortsätter läka om du dör.
 - **Shield Buff.** I 10 sekunder är din sköldkapacitet fördubblad, med skölden du har fördubblad med den, och skölden återhämtar 2 % av det fördubblade maximumet varje sekund. När den tar slut går kapaciteten tillbaka och skölden med den, med bibehållen andel, så den läker dig aldrig: den är utrymme att ta emot slag. Den nekas på ett skepp utan sköld.
 
 En **EMP** som detonerar nära dig låser knappen i 5 sekunder: ett tryck nekas och ingen återhämtning börjar. En förmåga som redan pågår fortsätter, och en Chameleon förblir dold. De andra piloterna ser också de här förmågorna: en strimma bakom en Blink, en röd ring och linjer till skeppen som en Focus Fire tvingar, och en Chameleon bara som ett spöke för sin egen koncern.

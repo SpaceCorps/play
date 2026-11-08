@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c75311ce44403c5 -->
+<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -6,11 +6,11 @@ La Wraith es la nave definitiva de clase acorazado: una potencia de fuego sin ig
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 324.000
-- **Velocidad base**: 220
-- **Ranuras de láser**: 12
+- **Puntos de vida (HP)**: 256.000
+- **Velocidad base**: 210
+- **Ranuras de láser**: 13
 - **Ranuras de extra**: 3
-- **Ranuras de blindaje**: 9
+- **Ranuras de blindaje**: 10
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 
@@ -27,16 +27,16 @@ La Wraith es la nave definitiva de clase acorazado: una potencia de fuego sin ig
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Wraith tiene 9 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Wraith y en todos sus diseños. Con las 9 llenas de Hull Plating III se suman 135.000 de casco.
+- **Ranuras de blindaje.** La Wraith tiene 10 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Wraith y en todos sus diseños. Con las 10 llenas de Hull Plating III se suman 150.000 de casco.
 - **Diseños.** La Wraith tiene 5 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Wraith en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom |
-| **Wraith BILLY** | +5 % de casco base, +10 de velocidad base, +10 % de capacidad de escudo, Diminisher |
+| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher |
 | **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod |
-| **Wraith ATARAXIS** | -1 ranura de láser, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff |
-| **Wraith MATT** | -10 % de casco base, +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser |
+| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff |
+| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

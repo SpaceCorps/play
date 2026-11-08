@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
@@ -45,7 +45,7 @@ El blindaje de casco solo encaja en las **ranuras de blindaje**, una clase de ra
 | **Paragon** | 5 | 75.000 |
 | **Storm** | 7 | 105.000 |
 | **Ironclad** | 15 | 225.000 |
-| **Wraith** | 9 | 135.000 |
+| **Wraith** | 10 | 150.000 |
 
 - **Todas bloqueadas al principio.** Una ranura se abre cuando la investigas en el Skylab: una tecnología por cada ranura, 1 hora y 10 Dark Matter, en orden desde la primera. La vista de [Investigación](/wiki/03-Mechanics/Research.md#ship-technologies) muestra las ranuras de una nave como una sola tarjeta con un punto por ranura.
 - **Una clase de nave, no una sola nave.** Las ranuras que abriste para la Paragon están abiertas también en todos los diseños de la Paragon ([Diseños de naves](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnología es tuya para siempre: el reinicio la conserva.

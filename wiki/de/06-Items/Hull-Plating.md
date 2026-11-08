@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Hüllenpanzerung -->
 # Hüllenpanzerung {#hull-plating}
 
@@ -45,7 +45,7 @@ Hüllenpanzerung passt nur in **Panzerungs-Slots**, eine eigene Art von Slot, di
 | **Paragon** | 5 | 75.000 |
 | **Storm** | 7 | 105.000 |
 | **Ironclad** | 15 | 225.000 |
-| **Wraith** | 9 | 135.000 |
+| **Wraith** | 10 | 150.000 |
 
 - **Anfangs alle gesperrt.** Ein Slot öffnet sich, wenn du ihn im Skylab erforschst: eine Technologie für jeden Slot, 1 Stunde und 10 Dark Matter, der Reihe nach vom ersten an. Die Ansicht [Forschung](/wiki/03-Mechanics/Research.md#ship-technologies) zeigt die Slots eines Schiffs als eine Karte mit einem Punkt für jeden.
 - **Eine Schiffsart, nicht ein Schiff.** Die Slots, die du für die Paragon geöffnet hast, sind auch an jedem Paragon-Design offen ([Schiffsdesigns](/wiki/03-Mechanics/Ship-Designs.md)). Eine Technologie gehört dir für immer: Der Wipe lässt sie dir.

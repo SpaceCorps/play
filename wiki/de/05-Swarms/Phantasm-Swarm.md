@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Phantasm-Schwarm -->
 # Phantasm-Schwarm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ Der Phantasm-Schwarm ist ein **Boss Phantasm** mit seinen **Phantasm Guards**: e
 
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
-- **Nimm eine Gruppe mit.** Drei Piloten von Level 4–5 mit x2-Munition zerstören ihn in Alpha in etwa anderthalb Minuten und verlieren höchstens ein Schiff; ein Pilot dieses Levels allein wird zerstört, und zwei ebenso. Bessere Schiffe und x4-Munition machen es viel schneller.
+- **Nimm eine Gruppe mit.** Drei Piloten von Level 4–5 mit x2-Munition zerstören ihn in Alpha in etwa anderthalb Minuten und verlieren höchstens ein Schiff; ein Pilot dieses Levels allein wird zerstört, und zwei gewinnen nur knapp, und nur solange sich die Treffer verteilen. Bessere Schiffe und x4-Munition machen es viel schneller.
 - **Schieß auf den Boss, nicht auf die Guards.** Ein Guard fällt in Sekunden, aber ein neuer kommt so oft, wie die Liste *Auf einen Blick* sagt, und was die Guards heilen, ist ein kleiner Teil dessen, was eine Gruppe austeilt: Sie in Ruhe zu lassen kostet etwas Zeit, sie zu jagen kostet mehr.
 - **Beta und Gamma sind härter.** Die Schwärme dieser Welten sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), sie brauchen also mehr Piloten oder bessere Munition.
 - **Behalte den Sektor im Auge.** `x-4` ist in Alpha ein PvP-Sektor, und in Beta und Gamma sind es `x-3` und `x-4` ([Welten](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): Ein Rivale kann in den Kampf eingreifen oder auf die Kiste warten. Lass ein Schiff der Gruppe Wache halten.

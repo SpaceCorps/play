@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49ab4e31b6a7b8a0 -->
+<!-- wiki-i18n source: fdf67ad887f06846 -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -58,24 +58,24 @@ Cura una quota del tuo **scafo massimo in modo uniforme nell’arco di dieci sec
 
 ## Abilità delle navi {#ship-abilities}
 
-Otto dei tredici [design delle navi](/wiki/03-Mechanics/Ship-Designs.md) hanno un’abilità che appartiene al design, non a un oggetto. Non occupa **nessuno slot abilità** e non richiede nulla di montato: c’è finché pilotti il design. Ha un pulsante tutto suo, il quarto nella colonna della barra rapida, e il suo tasto è `F` (modificabile nelle impostazioni). Ha la propria ricarica, che si mantiene come le altre: cambiare configurazione, saltare e disconnettersi non la azzerano, e una nave distrutta inizia il volo successivo con tutte le abilità pronte.
+Nove dei tredici [design delle navi](/wiki/03-Mechanics/Ship-Designs.md) hanno un’abilità che appartiene al design, non a un oggetto. Non occupa **nessuno slot abilità** e non richiede nulla di montato: c’è finché pilotti il design. Ha un pulsante tutto suo, il quarto nella colonna della barra rapida, e il suo tasto è `F` (modificabile nelle impostazioni). Ha la propria ricarica, che si mantiene come le altre: cambiare configurazione, saltare e disconnettersi non la azzerano, e una nave distrutta inizia il volo successivo con tutte le abilità pronte.
 
 | Abilità | Design | Cosa fa | Durata | Ricarica |
 | :--- | :--- | :--- | ---: | ---: |
-| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocità 2.500 (TITANIC: 1.500) verso il tuo ordine di movimento | 1 s | 120 s |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | Velocità 2.500 verso il tuo ordine di movimento | 1 s | 120 s |
 | **Chameleon** | Storm RECON | Invisibile a ogni altro pilota, minimappa compresa | finché non si spezza | 60 s |
 | **Focus Fire** | Ironclad DUMA | Le navi nemiche entro 1.000 unità sono costrette ad attaccarti | 5 s | 60 s |
-| **Venom** | Wraith RAPTOR | 100.000 di danno direttamente allo scafo di un bersaglio | 30 s | 120 s |
+| **Venom** | Wraith RAPTOR | 125.000 di danno direttamente allo scafo di un bersaglio | 30 s | 120 s |
 | **Diminisher** | Wraith BILLY | Subisci il 75% di danno in meno e ne infliggi il 25% in meno | 10 s | 120 s |
-| **Heal Pod** | Wraith MENATI | Un baccello cura le navi alleate entro 600 unità di 10.000 + 1% del loro scafo massimo al secondo | 5 s | 120 s |
+| **Heal Pod** | Storm BRATAN, Wraith MENATI | Un baccello cura le navi alleate entro 600 unità di 20.000 + 2% del loro scafo massimo al secondo | 5 s | 120 s |
 | **Shield Buff** | Wraith ATARAXIS | La tua capacità dello scudo raddoppia e rigenera il 2% del suo massimo al secondo | 10 s | 120 s |
 
-- **Blink.** Per 1 secondo la tua velocità è 2.500 (quella di un TITANIC è limitata a 1.500), verso il tuo ordine di movimento. Ti fermi dove l’ordine finisce, e anche il bordo della mappa ti ferma. Poi riposa per 120 secondi.
+- **Blink.** Per 1 secondo la tua velocità è 2.500, verso il tuo ordine di movimento. Ti fermi dove l’ordine finisce, e anche il bordo della mappa ti ferma. Poi riposa per 120 secondi.
 - **Chameleon.** Sparisci: nessun altro pilota ti vede, né sulla mappa né sulla minimappa, e nessuno può agganciarti. La tua corporazione continua a vederti, come un fantasma. Un EMP non può spezzarla. Termina quando subisci un qualsiasi danno, spari una raffica di laser, lanci un razzo, raccogli una cassa o entri in una zona sicura, oppure quando premi di nuovo il pulsante; i suoi 60 secondi partono quando termina, in qualunque modo. Non puoi avviarla entro 10 secondi da uno sparo o da un colpo subito, né nell’anello di una zona sicura, né mentre un Cloaking CPU è attivo.
 - **Focus Fire.** Per 5 secondi ogni pilota nemico e ogni alieno entro 1.000 unità è costretto ad attaccarti: l’aggancio di un pilota viene messo su di te e non si può cambiare, un alieno si rivolge contro di te. I piloti del tuo gruppo e della tua corporazione, le navi sotto la protezione di una zona sicura e le navi occultate restano escluse, e viene rifiutata in una zona sicura o senza nemici a portata. I piloti costretti possono comunque volare dove vogliono.
-- **Venom.** Aggancia un bersaglio alla portata dei tuoi laser e premi: 100.000 di danno vanno direttamente al suo scafo in 30 secondi, in modo uniforme, e il suo scudo non ne prende alcuna parte. Funziona sui piloti di altre corporazioni e sugli alieni allo stesso modo, non sul tuo gruppo né sulla tua corporazione, non su una nave protetta da una zona sicura e non dove un aggancio con il laser viene rifiutato (il Protocollo di pace, un settore senza PvP). Una nave porta un solo Venom alla volta. Ogni tic conta come un colpo, quindi il bersaglio non può nascondersi in una zona sicura fino alla fine. La riparazione, un Heal Pod e un Diminisher sul bersaglio lo riducono, termina quando muore il bersaglio o muori tu, e l’eliminazione e i suoi punti sono tuoi.
+- **Venom.** Aggancia un bersaglio alla portata dei tuoi laser e premi: 125.000 di danno vanno direttamente al suo scafo in 30 secondi, in modo uniforme, e il suo scudo non ne prende alcuna parte. Funziona sui piloti di altre corporazioni e sugli alieni allo stesso modo, non sul tuo gruppo né sulla tua corporazione, non su una nave protetta da una zona sicura e non dove un aggancio con il laser viene rifiutato (il Protocollo di pace, un settore senza PvP). Una nave porta un solo Venom alla volta. Ogni tic conta come un colpo, quindi il bersaglio non può nascondersi in una zona sicura fino alla fine. La riparazione, un Heal Pod e un Diminisher sul bersaglio lo riducono, termina quando muore il bersaglio o muori tu, e l’eliminazione e i suoi punti sono tuoi.
 - **Diminisher.** Per 10 secondi ogni colpo che subisci è ridotto a un quarto prima che il tuo scudo ne prenda la sua parte, quindi scudo e scafo perdono entrambi un quarto, e ogni colpo che infliggi è ridotto a tre quarti: laser, razzi diretti ed esplosioni. Una seconda pressione non fa nulla finché è attivo.
-- **Heal Pod.** Un baccello cade dove ti trovi e resta per 5 secondi. Ogni secondo cura ogni nave alleata entro 600 unità di 10.000 più l’1% dello scafo massimo di quella nave: te, il tuo gruppo e la tua corporazione, nessun altro, e mai oltre il massimo. Nulla può agganciare il baccello né colpirlo, e continua a curare se muori.
+- **Heal Pod.** Un baccello cade dove ti trovi e resta per 5 secondi. Ogni secondo cura ogni nave alleata entro 600 unità di 20.000 più il 2% dello scafo massimo di quella nave: te, il tuo gruppo e la tua corporazione, nessun altro, e mai oltre il massimo. Nulla può agganciare il baccello né colpirlo, e continua a curare se muori.
 - **Shield Buff.** Per 10 secondi la capacità del tuo scudo è raddoppiata, con lo scudo che hai raddoppiato insieme, e lo scudo rigenera il 2% del massimo raddoppiato ogni secondo. Quando finisce, la capacità torna normale e con lei lo scudo, mantenendo la sua quota, quindi non ti cura mai: è spazio per incassare colpi. Viene rifiutato su una nave senza scudo.
 
 Un **EMP** che esplode vicino a te blocca il pulsante per 5 secondi: la pressione viene rifiutata e nessuna ricarica parte. Un’abilità già in corso prosegue, e un Chameleon resta nascosto. Anche gli altri piloti vedono queste abilità: una scia dietro un Blink, un anello rosso e linee verso le navi che un Focus Fire costringe, un Chameleon solo come un fantasma per la sua stessa corporazione.

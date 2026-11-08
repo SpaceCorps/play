@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7458399908a090f -->
+<!-- wiki-i18n source: aa5ab1afb62faea7 -->
 <!-- wiki-i18n title: 레이저 -->
 # 레이저와 탄약 {#lasers-ammo}
 
@@ -34,11 +34,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -62,7 +62,7 @@ Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Batter
 | **Quantum Laser II** | 일반 | 65 | 1% | 700 | 2 | 80,000 크레딧 |
 | **Quantum Laser III** | 희귀 | 80 | 10% | 800 | 3 | 제작 전용 |
 | **Starfire-III** | 신화 | 135 | 15% | 850 | 3 | 제작 전용 |
-| **Helios Beam** | 신화 | 185 | 25% | 900 | 3 | 제작 전용 |
+| **Helios Beam** | 신화 | 150 | 20% | 900 | 3 | 제작 전용 |
 
 사거리 열은 각 레이저의 고유 사거리입니다. **함선은 장착한 레이저 사거리의 평균**(드론에 장착한 레이저도 포함)을 가장 가까운 정수로 반올림한 거리에서 사격하며, 대상이 그 거리 안에 들어오면 모든 레이저가 사격합니다. Starfire-III 한 개와 Quantum Laser II 두 개를 함께 쓰면 함선의 사거리는 850이 아니라 750이고, Starfire-III 세 개면 850이 유지되며, 레이저가 모두 같으면 달라지는 것이 없습니다. 대장간의 사거리 보너스는 평균을 내기 전에 해당 레이저에 먼저 적용됩니다. 레이저가 없으면 격납고에는 사거리가 표시되지 않고(줄표로 나옵니다) 레이저는 사격할 수 없지만, 로켓은 여전히 각자의 사거리로 발사할 수 있습니다([로켓](/wiki/06-Items/Rockets.md) 참고). 격납고에서는 레이저들의 사거리가 서로 다르면 타일에 “평균 사거리”라고 표시되며, 마우스를 올리면 각 레이저의 사거리가 나열됩니다.
 
@@ -133,13 +133,13 @@ Ship Fragment, Cataclysite, Power Core, Reinforced Hull Plate는 외계인이 �
 | Penetration Amp III | 2,000 | 60초 | Nyxite 30개, Cataclysite 20개, Power Core 2개, Ship Fragment 50개, Velkonite Reinforced Plate 2개 |
 | Penetration Amp IV | 2,400 | 90초 | Quorvium 40개, Cataclysite 30개, Power Core 1개, Ancient Control Unit 1개, Dark Matter Plate 4개 |
 
-Helios Beam과 티어 IV 증폭기 3개는 마지막 티어 부품 4개로, Dark Matter Plate 16개, Dark Matter 80개, N.I.K.E. 로켓 평균 40발 분량입니다. 모든 슬롯을 마지막 티어로 채운 Wraith에는 Dark Matter 1,200개가 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Helios Beam과 티어 IV 증폭기 3개는 마지막 티어 부품 4개로, Dark Matter Plate 16개, Dark Matter 80개, N.I.K.E. 로켓 평균 40발 분량입니다. 모든 슬롯을 마지막 티어로 채운 Wraith에는 Dark Matter 1,280개가 들어갑니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### 어느 증폭기를 어디에 쓸까 {#which-amp-goes-where}
 
-피해 증폭기는 어떤 레이저에든 같은 양의 피해를 더하므로 **Quantum 레이저**에서 가치가 가장 큽니다. 치명타 증폭기는 레이저가 이미 내는 피해에 곱해지므로 레이저가 강할수록 가치가 커집니다. **Starfire-III**에서는 피해 계열과 동률이 되고, **Helios Beam**에서는 약 3.5% 앞섭니다. 레이저의 치명타 확률은 100%에서 멈춥니다. Crit Amp III나 Crit Amp IV 세 개를 달면 Helios Beam이 정확히 그 값에 이릅니다. Penetration Amp는 피해도 치명타 확률도 더하지 않습니다. 실드가 공격의 대부분을 받아 낼 함선을 상대하기 위한 것입니다([아래](#when-is-a-penetration-amp-worth-a-slot)).
+피해 증폭기는 어떤 레이저에든 같은 양의 피해를 더하므로 **Quantum 레이저**에서 가치가 가장 큽니다. 치명타 증폭기는 레이저가 이미 내는 피해에 곱해지므로 레이저가 강할수록 가치가 커집니다. **Starfire-III**에서는 피해 계열과 동률이 되고, **Helios Beam**에서는 약 1% 앞섭니다. 레이저의 치명타 확률은 100%에서 멈춥니다. Crit Amp III나 Crit Amp IV 세 개를 달면 Helios Beam은 자체 확률 20%에서 95%까지 올라갑니다. Penetration Amp는 피해도 치명타 확률도 더하지 않습니다. 실드가 공격의 대부분을 받아 낼 함선을 상대하기 위한 것입니다([아래](#when-is-a-penetration-amp-worth-a-slot)).
 
-같은 증폭기로 채우면 레이저는 항상 바로 아래 레이저보다 강하므로, 더 좋은 증폭기가 더 좋은 레이저를 대신할 수는 없습니다. Damage Amp IV 세 개를 단 Quantum Laser III는 Damage Amp I 세 개를 단 Helios Beam보다 피해량이 낮습니다(같은 인챈트 등급의 부품끼리 비교한 경우입니다. 신성한 등급 이상으로 단련하고 최고의 보너스를 굴린 Quantum Laser III와 Damage Amp IV라면, Damage Amp I을 단 평범한 Helios Beam을 넘어설 수 있으며, 신성한 등급에서는 간발의 차입니다).
+같은 증폭기로 채우면 레이저는 항상 바로 아래 레이저보다 강하므로, 더 좋은 증폭기는 더 좋은 레이저의 일부만 메울 수 있습니다. Damage Amp IV 세 개를 단 Quantum Laser III는 Damage Amp I 세 개를 단 Helios Beam보다 피해량이 높지만, Damage Amp III 세 개를 단 Helios Beam보다는 낮습니다(같은 인챈트 등급의 부품끼리 비교한 경우입니다. 영원한 등급으로 단련하고 최고의 보너스를 굴린 Quantum Laser III와 Damage Amp IV라면, Damage Amp III을 단 평범한 Helios Beam을 넘어설 수 있으며, 간발의 차입니다).
 
 
 ---
@@ -194,7 +194,7 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 
 레이저 공격은 모두 대상의 흡수율에서 포인트를 깎으며, 그 출처는 최대 세 가지이고 서로 더해집니다. 내 **탄약**(Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), 내 **Penetration Amp**, 그리고 **드론 편대**(Gemini +15%, [드론 편대](/wiki/03-Mechanics/Formations.md))입니다. **합계에는 상한이 없습니다**(직접 로켓도 자신의 관통과 편대의 관통을 같은 방식으로 더합니다: [로켓](/wiki/06-Items/Rockets.md)). 그러면 실드는 대상의 흡수율에서 공격의 관통을 뺀 몫을 받고, 선체가 나머지를 받습니다([실드 시스템](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 36%, 레이저 12개 중 하나에 Penetration Amp IV 하나면 1%입니다. Wraith는 레이저가 12개, 증폭기 슬롯이 36개이며, 36%를 내려면 36개를 모두 채워야 합니다.
+- **증폭기는 레이저의 평균으로 계산됩니다.** 일제 사격은 한 번의 공격이므로, 게임은 각 레이저의 증폭기 관통을 더하고(드론 안의 레이저도 포함) 치명타 확률과 마찬가지로 각 레이저를 피해량으로 가중해 레이저 전체의 평균을 냅니다. 모든 레이저에 Penetration Amp IV 3개씩이면 36%, 레이저 13개 중 하나에 Penetration Amp IV 하나면 약 1%입니다. Wraith는 레이저가 13개, 증폭기 슬롯이 39개이며, 36%를 내려면 39개를 모두 채워야 합니다.
 - **격납고에 표시됩니다.** 격납고의 전투 능력치에는 모든 기체에 표시 중인 구성의 증폭기 수치를 보여 주는 **관통** 타일이 있습니다(Penetration Amp가 없으면 0.0%). 탄약과 편대는 그 수치에 들어 있지 않습니다. 비행 중 **함선** 창에는 아래 줄 끝에 **관통** 칩이 있습니다(자리를 만들기 위해 구성과 속도 칩은 아이콘과 숫자만 보여 줍니다). 레이저 명중의 합계, 곧 증폭기, 착용한 편대, 쏘고 있는 탄약을 바꿀 때마다 더한 값을 보여 주며, 툴팁에 세 가지 내역이 나열됩니다.
 - **최강의 레이저는 x4로 61%, Antimatter로 71%가 됩니다.** Experimental Fusion Core(10%), Gemini(15%), 모든 레이저에 Penetration Amp IV 3개(36%)면 합계가 61%입니다. 그 자리에 Antimatter Battery(20%)를 쓰면 71%이며, 피해는 x4 대신 x3입니다.
 - **Penetration Amp IV에 붙은 대장간 보너스는 계산에 들어갑니다.** Penetration Amp도 다른 증폭기처럼 단련할 수 있으며, 하나뿐인 보너스가 관통을 곱합니다. 영원한 등급의 보너스(+9%~+15%)는 Penetration Amp IV를 12이 아니라 13.1~13.8포인트로 만듭니다. 최강의 구성에서 영원한 등급 셋이면 66.4%가 되며, 그 모든 포인트가 계산에 들어갑니다.
@@ -229,6 +229,6 @@ Siphon Battery는 선체를 부수는 대신 실드를 빼앗는 탄약입니다
 
 **Penetration Amp는 흡수율에 맞서며, 흡수율이 높을수록 더 효과적입니다. 선체가 작은 함선을 상대로 약 101%(시즌 상점, 대장간, Rampart 구성)에서는 Penetration 구성이 가장 좋은 일반 구성보다 약 2.6배 빨리 처치하고, 기본으로 가장 좋은 실드(85%)를 상대로는 Penetration Amp 3개가 같은 티어의 Crit Amp 3개보다 약 19% 적은 시간이 듭니다. 외계인을 상대로는 거의 얻는 것이 없습니다.**
 
-- **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 187(탄약 x1, 무작위와 치명타의 평균)을 내고, Damage Amp IV 3개는 356, Crit Amp IV 3개는 369로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성도 거의 비슷하게 빠릅니다(레이저 하나의 Penetration Amp 1개로 얻는 것은 최대 5%).
+- **피해는 주지 않습니다.** Helios Beam에서 Penetration Amp IV 3개는 일제 사격당 피해 149(탄약 x1, 무작위와 치명타의 평균)를 내고, Damage Amp IV 3개는 308, Crit Amp IV 3개는 312로, 대략 절반입니다. 되찾는 것은 실드의 몫이므로 실드에 비해 선체가 작고 흡수율이 높을 때에만 보람이 있습니다. 큰 선체가 어차피 버티는 Wraith나 Ironclad를 상대로는 평범한 Damage나 Crit 구성도 거의 비슷하게 빠릅니다(레이저 하나의 Penetration Amp 1개로 얻는 것은 최대 5%).
 - **외계인.** 그 실드는 공격의 80%에서 내 관통을 뺀 몫을 받으므로 외계인에게도 통하지만, 같은 티어의 Damage Amp나 Crit Amp도 같거나 더 빨리 처치합니다. 편대를 쓰고 싸우는 Phantasm이나 Goombah는 예외로, 레이저 하나의 Penetration Amp 1개가 최대 5%를 얻습니다.
-- **비용.** Penetration Amp IV마다 Dark Matter Plate 4개(Dark Matter 20개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 36개 슬롯을 모두 채우는 Wraith에는 플레이트 144개, Dark Matter 720개가 필요합니다.
+- **비용.** Penetration Amp IV마다 Dark Matter Plate 4개(Dark Matter 20개)가 필요합니다. 티어 IV 증폭기는 모두 같으므로, 39개 슬롯을 모두 채우는 Wraith에는 플레이트 156개, Dark Matter 780개가 필요합니다.

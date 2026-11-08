@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Framdrivning -->
 # Framdrivning och fart {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Nivå I i varje familj säljs för 20 000 krediter. Nivå II till IV tillverkas
 
 ### Köra ifrån utomjordingar {#outrunning-aliens}
 
-Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion med en Engine II och två styrraketer når fart 219,3 med Impulse Thruster I och 228,6 med II: båda fortfarande under Crystalys, så det krävs en styrraket av nivå III för att köra ifrån den (238,0 med Impulse Thruster III, 241,0 med IV). Momentum Thruster flyger lika snabbt eller lite lägre på det skeppet (219,3 med en Momentum Thruster I; sedan 228,3, 236,1 och 238,4 med II till IV): nivå I och II i båda familjerna ligger under en Crystalys, och nivå III och IV ligger över.
+Utomjordingarnas fart är 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) och 230 (Crystalys). En Ostirion (grundfart 220) med en Engine II och två styrraketer når fart 239,9 med Impulse Thruster I, 249,2 med II, 258,6 med III och 261,6 med IV: varje nivå kör ifrån Crystalys, till och med Impulse Thruster I som går att köpa. Momentum Thruster flyger lika snabbt eller lite lägre på det skeppet (239,9 med en Momentum Thruster I; sedan 248,9, 256,7 och 259,0 med II till IV): varje nivå i båda familjerna ligger över en Crystalys, med minst 9,9.

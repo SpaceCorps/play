@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c75311ce44403c5 -->
+<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -6,11 +6,11 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 324.000
-- **Temel hız**: 220
-- **Lazer yuvaları**: 12
+- **Gövde puanı (HP)**: 256.000
+- **Temel hız**: 210
+- **Lazer yuvaları**: 13
 - **Ekstra yuvalar**: 3
-- **Gövde plakası yuvaları**: 9
+- **Gövde plakası yuvaları**: 10
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 
@@ -27,16 +27,16 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 9 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 9 yuvanın hepsi Hull Plating III ile dolduğunda 135.000 gövde ekler.
+- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 10 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 10 yuvanın hepsi Hull Plating III ile dolduğunda 150.000 gövde ekler.
 - **Tasarımlar.** Wraith gemisinin 5 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Wraith gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 lazer yuvası, +%5 tüm hasar, Venom |
-| **Wraith BILLY** | +%5 temel gövde, +10 temel hız, +%10 kalkan, Diminisher |
+| **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher |
 | **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod |
-| **Wraith ATARAXIS** | -1 lazer yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff |
-| **Wraith MATT** | -%10 temel gövde, +2 lazer yuvası, -%20 kalkan, +%10 lazer delme |
+| **Wraith ATARAXIS** | -1 lazer yuvası, +1 destek yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff |
+| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

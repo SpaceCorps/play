@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Logros -->
 # Logros {#achievements}
 
@@ -69,7 +69,7 @@ Los 37 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Constructor de estaciones | Construye 5 módulos distintos del Skylab. | Común |
 | Equipo completo | Construye los 16 módulos del Skylab. | Épico |
 | Erudito | Investiga 50 tecnologías. | Poco común |
-| Archivista | Investiga las 158 tecnologías. | Legendario |
+| Archivista | Investiga las 159 tecnologías. | Legendario |
 
 ### Flota {#group-fleet}
 

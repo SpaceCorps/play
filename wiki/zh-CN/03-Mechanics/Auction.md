@@ -179,6 +179,7 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - 每个 UTC 整点开启 3 个新拍品，每个都是不同的物品，每个开放 4 小时，所以同时开放 12 个。
+- 每个世界都有自己的拍品：Alpha、Beta 和 Gamma 每小时都会各自开启这些拍品，同一时刻的物品各不相同，大小取决于该世界的飞行员。你只能查看、竞拍并赢得所飞行世界的拍品。市场和求购单由三个世界共用。
 - 起拍价是商品商店价格的 20%。之后的每次出价必须比最高出价至少高 5%，并且至少多 100 信用点。
 - 你的出价会立即支付并被冻结。如果有人出价更高，会立即退还给你。
 - 在拍品结束前最后 2 分钟 内出价，会把结束时间推迟到出价后 2 分钟，最多 5 次。

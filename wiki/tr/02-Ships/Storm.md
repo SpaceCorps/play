@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek temel hıza ve en çok lazere (13) sahiptir, ama sınıfına göre hafif bir gövdeye oturur. Oyunun derecelendirmesine göre (10’dan fazla lazer yuvası) IV. sınıf dretnottur. Araştırma Merkezi’nde araştırıldıktan sonra Montaj’da üretilir ve eşit lazer sayısında bire bir savaşta bir Wraith ya da Ironclad karşısında kaybeder.
+Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek temel hıza ve en çok lazere (14) sahiptir, ama sınıfına göre hafif bir gövdeye oturur. Oyunun derecelendirmesine göre (10’dan fazla lazer yuvası) IV. sınıf dretnottur. Araştırma Merkezi’nde araştırıldıktan sonra Montaj’da üretilir ve eşit lazer sayısında bire bir savaşta bir Wraith ya da Ironclad karşısında kaybeder.
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 150.000
-- **Temel hız**: 250
-- **Lazer yuvaları**: 13
+- **Gövde puanı (HP)**: 180.000
+- **Temel hız**: 260
+- **Lazer yuvaları**: 14
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 7
 
@@ -32,9 +32,9 @@ Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek tem
 
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
-| **Storm NOTSUM** | -%20 temel gövde, +20 temel hız, +%2 hız, Blink |
-| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%50 kalkan, +%10 kalkan delme |
-| **Storm RECON** | -%20 temel gövde, +%5 hız, -2 lazer yuvası, Chameleon |
+| **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, Blink |
+| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, Heal Pod |
+| **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Araştırıldıktan sonra Montaj’da bir Storm üretmek 3 [Ancient Control Unit
 
 ## Hikâye {#lore}
 
-Storm, tek emrin hız olduğu zaman tersanelerin yaptığı gemidir. İğne gibi ince bir gövde ve koyu renkli bir kanopi, iki açık hilal halkanın arasında durur; her halka içi boş bir çevrenin etrafında zırhlı bir yaydır ve yükselmiş bir boynuzla biter, açıklığın içinden bir motor kapsülü geçer: geminin büyük kısmı itki sistemidir. Koyu bir iskeletin üstündeki soluk gri zırh ve beyaz ışık şeritleri onu kolay görünür kılar; o da görünmek ister. İki uzun top öndeki kanatçıklara biner, sekiz küçük yayıcı da halkalara ve omuz yüzgeçlerine yerleşir: on namlu açıkça ortadadır ve on üç lazer bunların içinden ateşlenir. Sığmayan tek şey zırhtır. Gövdesi, Wraith gemisinin gövdesinin kabaca yarısı, Ironclad gemisinin gövdesinin ise kabaca dörtte biri kadardır; bu yüzden pilotları önce vurur, sert vurur ve daha büyük bir şey dönmeden çekilir.
+Storm, tek emrin hız olduğu zaman tersanelerin yaptığı gemidir. İğne gibi ince bir gövde ve koyu renkli bir kanopi, iki açık hilal halkanın arasında durur; her halka içi boş bir çevrenin etrafında zırhlı bir yaydır ve yükselmiş bir boynuzla biter, açıklığın içinden bir motor kapsülü geçer: geminin büyük kısmı itki sistemidir. Koyu bir iskeletin üstündeki soluk gri zırh ve beyaz ışık şeritleri onu kolay görünür kılar; o da görünmek ister. İki uzun top öndeki kanatçıklara biner, sekiz küçük yayıcı da halkalara ve omuz yüzgeçlerine yerleşir: on namlu açıkça ortadadır ve on dört lazer bunların içinden ateşlenir. Sığmayan tek şey zırhtır. Gövdesi, Wraith gemisinin gövdesinin kabaca onda yedisi, Ironclad gemisinin gövdesinin ise kabaca onda üçü kadardır; bu yüzden pilotları önce vurur, sert vurur ve daha büyük bir şey dönmeden çekilir.

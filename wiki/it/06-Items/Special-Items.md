@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Oggetti speciali -->
 # Oggetti speciali {#special-items}
 
@@ -44,7 +44,7 @@ Completa **un potenziamento dello Skylab subito**: scegli il modulo che si sta p
 
 ### Schematics
 
-Completa **la ricerca in corso adesso**, se la tecnologia richiede **24 ore o meno** per essere ricercata. 142 delle 158 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) rientrano. Le 16 che richiedono 48 o 72 ore no: il Wraith, tre formazioni di droni, Hull Plating III, i livelli 4 e 5 del Modulo Motori e del Modulo Difesa e sette tecnologie del Pilota.
+Completa **la ricerca in corso adesso**, se la tecnologia richiede **24 ore o meno** per essere ricercata. 143 delle 159 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) rientrano. Le 16 che richiedono 48 o 72 ore no: il Wraith, tre formazioni di droni, Hull Plating III, i livelli 4 e 5 del Modulo Motori e del Modulo Difesa e sette tecnologie del Pilota.
 
 - **Conta il tempo di ricerca, non quello che resta.** Una tecnologia da 48 ore a cui manca un’ora viene rifiutata comunque: Schematics guarda quanto dura la tecnologia in tutto.
 - **Il prezzo resta pagato.** La Dark Matter, i crediti e il Thulium sono stati prelevati quando la ricerca è partita e non vengono restituiti. La scienza che la ricerca non ha ancora bruciato resta nel tuo serbatoio.

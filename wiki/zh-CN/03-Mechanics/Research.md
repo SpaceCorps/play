@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（158 项科技中的 142 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
+**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（159 项科技中的 143 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### 激光弹药 {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 
 ### Auto-Rocket CPU
 
-- **作用。** 开启期间，当你处于战斗中（你的激光瞄准外星人或敌方飞行员）时，只要按下“发射火箭”键本可以发射，它就会自动向该目标发射你上一次发射的当前火箭：火箭的计时已就绪，且你还剩一枚。服务器会像检查你的发射一样检查每一次发射。
+- **作用。** 开启期间，当你处于战斗中（你的激光瞄准外星人、敌方飞行员或小行星）时，只要按下“发射火箭”键本可以发射，它就会自动向该目标发射你上一次发射的当前火箭：火箭的计时已就绪，且你还剩一枚。服务器会像检查你的发射一样检查每一次发射。它对小行星和对飞船一样会消耗火箭，所以只采矿时请把它关闭。
 - **开关。** 装备在附加装置槽位中，按下它的 ARL 槽位即可开启或关闭。默认关闭，并保持你上次的设置，重新登录后也一样。槽位会显示开启或关闭，CPU 发射时会亮起。
-- **它从不做的事。** 它从不自己选目标，不攻击小行星，不在安全区内或隐形时发射，也从不发射 N.U.K.E. 或 N.I.K.E.。你自己发射的火箭总是有效。如果 3 分钟内没有按键、点击或移动鼠标，它会等你有所操作。
+- **它从不做的事。** 它从不自己选目标，不在安全区内或隐形时发射，也从不发射 N.U.K.E. 或 N.I.K.E.。你自己发射的火箭总是有效。如果 3 分钟内没有按键、点击或移动鼠标，它会等你有所操作。
 - **火箭用完。** 它只会提醒你一次，等你有了更多火箭就会重新发射。
 
 

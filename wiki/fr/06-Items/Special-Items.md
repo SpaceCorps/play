@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -44,7 +44,7 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 ### Schematics
 
-Termine **la recherche en cours**, si la technologie demande **24 heures ou moins** de recherche. 142 des 158 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) y sont admises. Les 16 qui demandent 48 ou 72 heures ne le sont pas : le Wraith, trois formations de drones, Hull Plating III, les niveaux 4 et 5 du Module Moteurs et du Module Défense et sept technologies de Pilote.
+Termine **la recherche en cours**, si la technologie demande **24 heures ou moins** de recherche. 143 des 159 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) y sont admises. Les 16 qui demandent 48 ou 72 heures ne le sont pas : le Wraith, trois formations de drones, Hull Plating III, les niveaux 4 et 5 du Module Moteurs et du Module Défense et sept technologies de Pilote.
 
 - **Selon la durée de recherche, pas le temps restant.** Une technologie de 48 heures à laquelle il reste une heure est quand même refusée : Schematics regarde combien de temps la technologie demande en tout.
 - **Le prix reste payé.** La Dark Matter, les crédits et le Thulium ont été prélevés au début de la recherche et ne sont pas rendus. La science que la recherche n’a pas encore brûlée reste dans votre réservoir.

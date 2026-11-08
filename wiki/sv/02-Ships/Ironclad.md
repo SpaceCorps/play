@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 600 000
-- **Grundhastighet**: 92
-- **Laserplatser**: 6
+- **Grundhastighet**: 110
+- **Laserplatser**: 8
 - **Extraplatser**: 3
 - **Pansarplatser**: 15
 
@@ -33,7 +33,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 | Design | Vad den ändrar |
 | :--- | :--- |
 | **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire |
-| **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink (hastighet begränsad till 1 500) |
+| **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 ## Bakgrund {#lore}
 
-Ironclad började som ett belägringsskrov: en pansrad kil byggd för att stå framför stationens kanoner och ta emot allt som Svärmen kastade mot den. Varven behöll pansaret och gjorde det tjockare, gav den sju kärnplatser för generatorer och 85 % mer skrov än Wraith, hängde ett par överdimensionerade motorgondoler på baksidan för att flytta tyngden och skar ner kanonerna till sex för att betala för det. Den är inte byggd för att köra ifrån något, och den behöver inte vara det. Piloter parkerar den mellan Svärmen och det de vill skydda och låter den mörkgrå pläteringen göra jobbet. De ljusa pansarplattorna byts ut efter varje insats; de ljusa remsorna längs vingarna är det enda på den som någonsin var tänkt att synas.
+Ironclad började som ett belägringsskrov: en pansrad kil byggd för att stå framför stationens kanoner och ta emot allt som Svärmen kastade mot den. Varven behöll pansaret och gjorde det tjockare, gav den sju kärnplatser för generatorer och mer än dubbelt så stort skrov som Wraith, hängde ett par överdimensionerade motorgondoler på baksidan för att flytta tyngden och skar ner kanonerna till åtta för att betala för det. Den är inte byggd för att köra ifrån något, och den behöver inte vara det. Piloter parkerar den mellan Svärmen och det de vill skydda och låter den mörkgrå pläteringen göra jobbet. De ljusa pansarplattorna byts ut efter varje insats; de ljusa remsorna längs vingarna är det enda på den som någonsin var tänkt att synas.

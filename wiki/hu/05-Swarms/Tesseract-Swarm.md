@@ -13,11 +13,11 @@ A Tesseract-raj egyetlen hatalmas anyahajó, a **Tesseract**, és a **Facetek**,
 - **Hány**: Világonként egy
 - **Megjelenik**: A szezon 4. napjától a wipe-ig (Betában és Gammában: a szezon 1. napjától)
 - **Vezér**: Tesseract
-- **Otthon**: A szektortérkép 27 000, 5 000 pontjától legfeljebb 2 500 egységre
+- **Otthon**: A szektortérkép 25 900, 6 100 pontjától legfeljebb 2 500 egységre
 - **Regeneráció**: Alphában másodpercenként 125 000 HP, előbb a hajótest, aztán a pajzs, miután 5 mp telt el sebzés nélkül
 - **Kísérők**: Legfeljebb 100 × Facet, 5 mp múlva 20 újabb, amíg a vezért találatok érik
 - **A kísérők érkezése**: Csak amíg a vezért az elmúlt 5 mp alatt találat érte, tőle legfeljebb 400 egységre
-- **Vadászok**: Minden Facet saját szakaszokat repül a vezér körül, tőle legfeljebb 1 800 egységre, és senkit sem üldöz. Arra a legközelebbi pilótára tüzel, aki eltalálta a vezért, ha az a hatótávjában van. Ha nincs kire lőnie, tovább repked a vezér körül, és az utolsó találat után 20 mp múlva elmegy
+- **Vadászok**: Minden Facet saját szakaszokat repül a vezér körül, tőle legfeljebb 3 600 egységre, és senkit sem üldöz. Arra a legközelebbi pilótára tüzel, aki eltalálta a vezért, ha az a hatótávjában van. Ha nincs kire lőnie, tovább repked a vezér körül, és az utolsó találat után 20 mp múlva elmegy
 - **A vezér megsemmisül**: A kísérők a vezér megsemmisülése után 1 perc múlva eltűnnek, akkor is, ha éppen támadnak
 - **Visszatér**: 30 perc azután, hogy a vezér megsemmisült, ugyanabban a szektorban
 - **Értesítés**: A szektor pilótái értesülnek arról, mikor jelenik meg a vezér, és mikor semmisül meg. Ezek rendszersorok: a chat **Rendszer** lapján jelennek meg, olvasatlan sorok számlálójával, és nem a **Globális** vagy a **Helyi** lapon. A kill feed megnevezi a pilótát, akinek a kilövést jóváírják.

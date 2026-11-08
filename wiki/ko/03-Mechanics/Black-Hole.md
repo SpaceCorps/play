@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: 블랙홀 -->
 # 블랙홀 {#the-black-hole}
 
@@ -17,7 +17,7 @@
 | :--- | ---: | :--- |
 | **방사선** | 4,000 | 함선이 매초 총 최대 HP의 일정 비율만큼 피해를 입습니다. 가까울수록 더 큽니다. |
 | **인력** | 3,000 | 블랙홀이 함선을 중심 쪽으로 끌어당기며, 가까울수록 더 세게 당깁니다. 비행하지 않는 함선은 끌려갑니다. |
-| **귀환 불능 지점** | 약 1,000~2,600 | 인력이 함선의 속도와 같아지는 지점입니다. 이 안쪽에서는 전속력으로 날아도 끌려 들어갑니다. 속도에 따라 달라집니다. |
+| **귀환 불능 지점** | 약 900~2,500 | 인력이 함선의 속도와 같아지는 지점입니다. 이 안쪽에서는 전속력으로 날아도 끌려 들어갑니다. 속도에 따라 달라집니다. |
 | **사건의 지평선** | 300 | 닿은 함선은 선체와 실드에 상관없이 즉시 파괴됩니다. |
 
 위험 섹터 4의 포털과 포털 사이의 항로는 모두 방사선 구역에서 한참 바깥으로 지나가므로, 지나가다가 우연히 방사선을 만날 일은 없습니다. 시즌 11일차부터 같은 섹터의 왼쪽 위 모서리, 블랙홀에서 먼 곳에 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)도 있으며, 그곳의 외계인은 블랙홀의 링에 들어오지 않습니다. 시즌의 마지막 며칠은 예외입니다. [초기화 전의 성장](#growing-before-the-wipe)을 참고하세요.
@@ -60,11 +60,11 @@
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30,000 | 165 | 240 | 600 | 1,500 | 3,300 |
 | Kitefin | 46,000 | 253 | 368 | 920 | 2,300 | 5,060 |
-| Ostirion | 82,500 | 454 | 660 | 1,650 | 4,125 | 9,075 |
-| Nomad | 130,500 | 718 | 1,044 | 2,610 | 6,525 | 14,355 |
+| Ostirion | 98,500 | 542 | 788 | 1,970 | 4,925 | 10,835 |
+| Nomad | 145,500 | 800 | 1,164 | 2,910 | 7,275 | 16,005 |
 | Paragon | 162,500 | 894 | 1,300 | 3,250 | 8,125 | 17,875 |
-| Storm | 198,000 | 1,089 | 1,584 | 3,960 | 9,900 | 21,780 |
-| Wraith | 372,000 | 2,046 | 2,976 | 7,440 | 18,600 | 40,920 |
+| Storm | 228,000 | 1,254 | 1,824 | 4,560 | 11,400 | 25,080 |
+| Wraith | 304,000 | 1,672 | 2,432 | 6,080 | 15,200 | 33,440 |
 | Ironclad | 673,200 | 3,703 | 5,386 | 13,464 | 33,660 | 74,052 |
 
 - **실드가 먼저** 피해를 받고, 그다음에 선체가 받습니다. 공격에 맞는 것이 아니므로 실드의 흡수율은 적용되지 않으며, 피할 수도 없습니다.
@@ -97,20 +97,20 @@
 
 | 함선 (기본 구성) | 속도 | 귀환 불능 지점 |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1,974 |
-| Protos | 165 | 1,577 |
-| Kitefin | 184 | 1,480 |
-| Ostirion | 208 | 1,362 |
-| Nomad | 211 | 1,347 |
-| Paragon | 222 | 1,287 |
-| Wraith | 233 | 1,208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1,826 |
+| Protos | 188 | 1,462 |
+| Kitefin | 202 | 1,388 |
+| Nomad | 221 | 1,294 |
+| Wraith | 223 | 1,281 |
+| Ostirion | 231 | 1,220 |
+| Paragon | 242 | 1,141 |
+| Storm | 273 | 924 |
 
 함선 디자인은 원래 함선의 속도를 바꾸며, 귀환 불능 지점도 함께 바뀝니다. DUMA는 Ironclad보다 느리고, NOTSUM은 Storm보다 빠릅니다.
 
 초당 272유닛보다 빠른 함선(러너 구성, 또는 Afterburner를 작동 중인 기본 Wraith)은 귀환 불능 지점이 원래 있던 자리에 그대로 있습니다. 속도 300에서는 885, 432에서는 747입니다.
 
-속도에 맞춰 구성하면 더 깊은 곳에서도 빠져나올 수 있고, 무거운 실드를 가득 실으면 그럴 수 없습니다(가장 느린 함선인 Ironclad의 14개 슬롯 모두에 Heavy Shield Core를 장착하면 속도는 39.1이고 귀환 불능 지점은 약 2,600입니다). 귀환 불능 지점 바로 안쪽에 들어온 함선을 되돌릴 수 있는 것은 순간 가속뿐입니다. 작동 중인 [Afterburner](/wiki/03-Mechanics/Abilities.md)가 여기에 해당하며, 작동하는 동안 귀환 불능 지점을 더 깊은 곳으로 옮겨 줍니다(엔진 1개면 15초, 2개면 22.5초, 3개면 30초. Afterburner III는 기본 Protos의 지점을 1,577에서 1,225로, 기본 Wraith의 지점을 1,208에서 851로 옮깁니다). 속도 능력치를 전부 최대로 인챈트하고 가장 강한 가속(상한까지 인챈트한 Afterburner III, x1.46)을 작동시킨, 속도에 맞춘 함선조차도 약 440유닛 이내에서는 누구도 빠져나올 수 없습니다. 인챈트하지 않은 속도형 함선(Engine III와 Adaptive Core III에 각각 Impulse Thruster IV 3개를 장착한 구성)은 Afterburner III를 써도 아무리 잘해야 477유닛 바깥에서만 빠져나올 수 있습니다.
+속도에 맞춰 구성하면 더 깊은 곳에서도 빠져나올 수 있고, 무거운 실드를 가득 실으면 그럴 수 없습니다(가장 느린 함선인 Ironclad의 14개 슬롯 모두에 Heavy Shield Core를 장착하면 속도는 46.8이고 귀환 불능 지점은 약 2,500입니다). 귀환 불능 지점 바로 안쪽에 들어온 함선을 되돌릴 수 있는 것은 순간 가속뿐입니다. 작동 중인 [Afterburner](/wiki/03-Mechanics/Abilities.md)가 여기에 해당하며, 작동하는 동안 귀환 불능 지점을 더 깊은 곳으로 옮겨 줍니다(엔진 1개면 15초, 2개면 22.5초, 3개면 30초. Afterburner III는 기본 Protos의 지점을 1,462에서 994로, 기본 Wraith의 지점을 1,281에서 869로 옮깁니다). 속도 능력치를 전부 최대로 인챈트하고 가장 강한 가속(상한까지 인챈트한 Afterburner III, x1.46)을 작동시킨, 속도에 맞춘 함선조차도 약 440유닛 이내에서는 누구도 빠져나올 수 없습니다. 인챈트하지 않은 속도형 함선(Engine III와 Adaptive Core III에 각각 Impulse Thruster IV 3개를 장착한 구성)은 Afterburner III를 써도 아무리 잘해야 475유닛 바깥에서만 빠져나올 수 있습니다.
 
 귀환 불능 지점에서의 추락은 천천히 시작됩니다. 지점에서 몇 유닛만 안쪽에 있는 함선은 전속력으로 날아도 20초 넘게 걸려 끌려 들어가고, 그다음부터는 점점 더 빨라집니다. 인력에 끌려가는 것은 비행이 아니므로 비행 거리에 포함되지 않습니다.
 
@@ -161,4 +161,4 @@ Dark Matter가 처음이신가요? 연구에서 플레이트까지의 전체 과
 - **수량.** 한 맵에는 Dark Matter 상자가 최대 32개까지 있을 수 있으며, 새 상자가 생기면 그중 가장 오래된 것이 밀려납니다. 다른 종류의 상자는 절대 밀려나지 않습니다. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md)은 Dark Matter에는 아무것도 더하지 않습니다.
 - **보이는 모습.** N.I.K.E.가 지평선을 넘으면 블랙홀 속으로 가늘게 늘어나며 빨려 들어가고, 들어간 자리에서 공간이 물결치며 퍼져 나가고, 원반과 광자 고리가 약 1.5초 동안 번쩍입니다(**움직임 줄이기**에서는 그 3분의 1 길이에 절반의 밝기). 잠시 뒤 상자가 블랙홀에서 나와 가장자리의 제자리로 떠갑니다. 각 상자는 밝은 테두리와 반짝임이 있는 보랏빛 도는 검은 구체로 멀리서도 잘 보이며, 마우스를 올리면 **Dark Matter**라는 이름이 표시됩니다. 내 상자에는 남은 시간(초)이 표시되고, 클랜의 상자와 마찬가지로 미니맵에 작은 보라색 표시로 나타납니다. 다른 파일럿의 상자는 그 1분이 지나야 미니맵에 표시됩니다.
 - **들리는 소리.** 블랙홀은 Dark Matter를 만들 때 낮고 부드러운 소리를 냅니다. 숨을 들이쉬는 듯한 소리가 난 뒤, 첫 상자가 나올 때 차가운 종소리 두 음이 울립니다. 내 N.I.K.E.의 소리는 맵 어디에 있든 들리고, 다른 파일럿의 소리는 그 상자가 내 함선에서 3,200유닛 이내에 나올 때 들리며, 멀수록 작아집니다. N.I.K.E.가 몇 발 날아가든 소리는 3초에 한 번까지만 나고, 음량은 **효과음** 설정을 따릅니다.
-- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. 모든 강화 계열의 마지막 티어는 플레이트 4개와 Ancient Control Unit 1개 이상을 요구하며, 부품 하나에 Dark Matter 20개입니다. 티어 IV의 Amp, 실드 셀과 추진기, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 해당합니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 16개 각각에 10개씩, 모두 160개를 연구가 시작되기 전에 센터에 추가해 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 349개입니다. Hull Plating의 연구 두 개가 65개를 더하고, 함선 디자인과 장갑 슬롯이 490개를 더합니다([연구](/wiki/03-Mechanics/Research.md#ship-technologies)). Skylab의 엔진 모듈, 방어 모듈, 레이더 모듈의 레벨이 115개를 더합니다([연구](/wiki/03-Mechanics/Research.md#module-technologies)). Helios Beam과 티어 IV Amp 3개를 합하면 Dark Matter 80개이고, 마지막 티어 부품으로만 채운 Wraith는 1,200개입니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **용도.** 어셈블리에서는 Dark Matter 5개를 Velkonite Reinforced Plate와 Orvium Reinforced Plate 하나씩과 함께 눌러 **Dark Matter Plate** 하나로 만들며, [대장간](/wiki/06-Items/Forge.md)에서는 아이템을 신성한 등급에서 파열하는 등급으로, 다시 파열하는 등급에서 영원한 등급으로 올릴 때 이것을 두 개씩 요구합니다. 한 단계에 Dark Matter 10개입니다. 모든 강화 계열의 마지막 티어는 플레이트 4개와 Ancient Control Unit 1개 이상을 요구하며, 부품 하나에 Dark Matter 20개입니다. 티어 IV의 Amp, 실드 셀과 추진기, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 해당합니다. Skylab의 [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter)도 Dark Matter가 필요합니다. 기술 트리 맨 위의 기술 16개 각각에 10개씩, 모두 160개를 연구가 시작되기 전에 센터에 추가해 두어야 합니다. 드론 편대 연구도 강도에 따라 Dark Matter 5, 13 또는 20개를 요구하므로 189개가 더해져 모두 349개입니다. Hull Plating의 연구 두 개가 65개를 더하고, 함선 디자인과 장갑 슬롯이 490개를 더합니다([연구](/wiki/03-Mechanics/Research.md#ship-technologies)). Skylab의 엔진 모듈, 방어 모듈, 레이더 모듈의 레벨이 115개를 더합니다([연구](/wiki/03-Mechanics/Research.md#module-technologies)). Helios Beam과 티어 IV Amp 3개를 합하면 Dark Matter 80개이고, 마지막 티어 부품으로만 채운 Wraith는 1,280개입니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

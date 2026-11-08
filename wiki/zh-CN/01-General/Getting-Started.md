@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2d2a520ca5cb418 -->
+<!-- wiki-i18n source: 80430516b86b4df2 -->
 <!-- wiki-i18n title: 新手入门 -->
 # SpaceCorps 新手入门 {#getting-started-in-spacecorps}
 

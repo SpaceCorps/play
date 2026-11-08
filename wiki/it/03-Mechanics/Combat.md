@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 30cb39a6ffd64f21 -->
+<!-- wiki-i18n source: 6032abb12d3d13a5 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -105,7 +105,7 @@ Un alieno che lascia perdere vaga da dove si trova, mai verso il punto in cui ti
 
 Gli alieni non si spingono a vicenda: un branco dietro un pilota si avvicina senza lasciare spazio tra le sue navi, e un branco che ha perso il suo pilota si sparpaglia solo quando ogni alieno sceglie la propria strada. Un alieno però si tiene lontano da una **nave**: non finisce mai dentro lo scafo di un pilota, e un pilota che si ferma su uno lo spinge via.
 
-Volare più veloci aiuta solo fino a un certo punto: una Protos (160) non è più veloce di nessun alieno che dà la caccia (Phantasm 160, Bulwark 175, Crystalys 230), quindi a far finire l’inseguimento è il limite di distanza, non la tua velocità.
+Volare più veloci aiuta solo fino a un certo punto: una Protos (180) è solo un po’ più veloce di un Phantasm (160) o di un Bulwark (175), non più veloce di un Goombah (180) e più lenta di un Crystalys (230), quindi a far finire l’inseguimento è il limite di distanza, non la tua velocità.
 
 ---
 

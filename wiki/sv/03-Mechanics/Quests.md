@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -278,7 +278,7 @@ Om du hade **gjort** ett av de 64 gör du den nya versionen också. Vid din för
 De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera din utrustning för dem:
 
 - **PvP**: andra koncerners piloter kan attackera dig i `x-4` och centrum i varje värld, från `x-2` och uppåt i Beta, och överallt i Gamma (utom i säkra zoner och under Fredsprotokollet). Ringportalerna för även andra koncerners piloter in i din `x-3`: i Beta och Gamma kan en av dem förstöra dig där medan du bär ett föremål. Beta och Gamma har inget fredsprotokoll: där gäller PvP från dag 1.
-- **Bulwark** (`x-3`, `x-4`) är snabbare än en Protos och träffar hårt. Bekämpa dem från en [Ostirion](/wiki/02-Ships/Ostirion.md), nära en portals säkra zon, och dra dig tillbaka in i den för att reparera.
+- **Bulwark** (`x-3`, `x-4`) är nästan lika snabba som en Protos och träffar hårt. Bekämpa dem från en [Ostirion](/wiki/02-Ships/Ostirion.md), nära en portals säkra zon, och dra dig tillbaka in i den för att reparera.
 - **Goombah** (`x-3`, `x-4`) har en räckvidd på 800, träffar för 3 000 och startar aldrig en strid: lämnar du en i fred lämnar den dig i fred, skjuter du på den vänder den sig mot dig tills 10 sekunder efter din senaste träff (och den läker när den lämnas i fred). Ett skepp vars lasrar alla är [Starfire-III](/wiki/06-Items/Lasers.md) (räckvidd 850) har längre räckvidd än både dem och Bulwark: med ett skepp som är snabbare än de är (en Ostirion eller bättre; en Goombah flyger 180, en Bulwark 175) kan du skjuta utan att ta en träff. Ditt skepps räckvidd är medelvärdet av dess lasrars räckvidd, så en Starfire-III bredvid två Quantum Laser II skjuter från 750: långt nog för att hålla sig borta från en Bulwark (700), men inte från en Goombah (800). Specialuppdraget på nivå 5 ger dig en; du kan också tillverka en i Monteringen, av Velkonite Reinforced Plate som Smedjan i din [Skylab](/wiki/03-Mechanics/Skylab.md) gör.
 - **Crystalys** strövar längs gränsen (`x-4`). Inget som finns inom räckhåll för nivå 8 har längre räckvidd än en, och bara ett snabbt skepp flyger ifrån den: håll avstånd, och håll koll på minikartan.
 - När du förstörs väljer du var du kommer tillbaka: vid din bas, vid närmaste portal eller på platsen, vilket en farosektor inte erbjuder (se [Förstörd och tillbaka](/wiki/01-General/Getting-Started.md)). Klockan för ett tidsbegränsat uppdrag fortsätter gå under tiden, ett bärat föremål går förlorat, och en regel om inga dödsfall bryts.

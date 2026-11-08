@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Blindagem de casco -->
 # Blindagem de casco {#hull-plating}
 
@@ -45,7 +45,7 @@ A blindagem de casco só entra em **slots de blindagem**, um tipo de slot própr
 | **Paragon** | 5 | 75.000 |
 | **Storm** | 7 | 105.000 |
 | **Ironclad** | 15 | 225.000 |
-| **Wraith** | 9 | 135.000 |
+| **Wraith** | 10 | 150.000 |
 
 - **Todos bloqueados no início.** Um slot abre quando você o pesquisa no Skylab: uma tecnologia para cada slot, 1 hora e 10 Dark Matter, em ordem a partir do primeiro. A tela de [Pesquisa](/wiki/03-Mechanics/Research.md#ship-technologies) mostra os slots de uma nave como um único cartão com um ponto para cada um.
 - **Um tipo de nave, não uma nave só.** Os slots que você abriu para a Paragon estão abertos também em todos os designs da Paragon ([Designs de naves](/wiki/03-Mechanics/Ship-Designs.md)). Uma tecnologia é sua para sempre: o reset a mantém.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extra -->
 # Extra {#extras}
 
@@ -91,7 +91,7 @@ Premi lo slot WAL e una **parete di plasma** si erge **sul tuo cursore**, di tra
 
 - **Cosa ferma.** Ogni colpo che la attraversa colpisce invece la parete, chiunque l’abbia sparato e da qualunque lato: una salva di laser, un razzo, la salva di un alieno. Ciò che sta dietro non subisce nulla e sono i punti ferita della parete a prendere il danno. L’esplosione di un razzo che scoppia sulla parete colpisce le navi sul suo lato vicino e non quelle dietro. Anche i tuoi colpi: non puoi sparare all’esterno attraverso la tua stessa parete. La N.I.K.E. e le torrette del Dormant Swamp la sorvolano, come sorvolano gli asteroidi.
 - **Cosa brucia.** Ogni nave il cui scafo tocca la striscia subisce **2.500 di danno al secondo**, prima sullo scudo, anche la tua, anche alieni e piloti delle corporazioni. Una nave in una zona sicura o sotto la protezione di un respawn non brucia, e due strisce su una nave non si sommano.
-- **Quanto dura.** Una parete di livello 1 ha **30.000 punti ferita**, una di livello 2 **90.000**. Una parete ne perde da sola un sessantesimo ogni secondo, quindi una che nessuno colpisce sparisce dopo **60 secondi**. I colpi accorciano questo tempo: una Wraith con dodici Helios Beam e munizioni x4 abbatte una parete di livello 1 in circa 3,5 secondi.
+- **Quanto dura.** Una parete di livello 1 ha **30.000 punti ferita**, una di livello 2 **90.000**. Una parete ne perde da sola un sessantesimo ogni secondo, quindi una che nessuno colpisce sparisce dopo **60 secondi**. I colpi accorciano questo tempo: una Wraith con tredici Helios Beam e munizioni x4 abbatte una parete di livello 1 in circa 4 secondi.
 - **Una alla volta, una parete a pressione.** Una nuova parete prende il posto della vecchia. Dopo una pressione l’oggetto si ricarica per **90 secondi**; l’attesa è tua, non della nave: morire o disconnettersi non la accorcia. Una pressione consuma **una parete del livello che lo slot tiene**, e solo quando la parete sta in piedi: una pressione che il gioco rifiuta (più sotto) non consuma nulla e non avvia nessuna attesa. Se di quel livello non ne resta nessuna, dice «Non hai più Energetic Wall.» e l’altro livello non viene mai consumato al suo posto.
 - **Dove no.** Non mentre una zona sicura o un respawn ti protegge, non dove la striscia toccherebbe una zona sicura o una porta, non con l’occultamento attivo e non dove il centro della striscia cadrebbe fuori dalla mappa. Il gioco dice qual è il caso.
 - **Abbattimenti.** Una nave che la parete distrugge muore per radiazione, e l’abbattimento va all’ultimo pilota nemico che l’ha colpita nei 15 secondi precedenti, se ce n’è stato uno. Chi ha alzato la parete non riceve credito per ciò che non ha sparato lui stesso. Un alieno che la parete distrugge non paga nulla: né ricompensa né bottino.
@@ -154,9 +154,9 @@ Nessuna si vende nel Negozio: ricerca la tecnologia, poi crea la CPU nell’Asse
 
 ### Auto-Rocket CPU
 
-- **Che cosa fa.** Finché è su ON e sei in combattimento (i tuoi laser sono su un alieno o su un pilota nemico), spara da sola il tuo razzo attivo, l’ultimo che hai lanciato, su quel bersaglio, ogni volta che la pressione del tasto Lancia razzo funzionerebbe: il timer dei razzi è pronto e te ne resta uno. Il server controlla ogni lancio come controlla i tuoi.
+- **Che cosa fa.** Finché è su ON e sei in combattimento (i tuoi laser sono su un alieno, su un pilota nemico o su un asteroide), spara da sola il tuo razzo attivo, l’ultimo che hai lanciato, su quel bersaglio, ogni volta che la pressione del tasto Lancia razzo funzionerebbe: il timer dei razzi è pronto e te ne resta uno. Il server controlla ogni lancio come controlla i tuoi. Contro un asteroide spende razzi come contro una nave, quindi tienila su OFF finché estrai soltanto.
 - **L’interruttore.** Montala in uno slot Extra e premi il suo slot ARL per portarla su ON o OFF. Parte su OFF e resta come l’hai lasciata, anche quando accedi di nuovo. Lo slot dice ON o OFF e si illumina quando la CPU spara.
-- **Che cosa non fa mai.** Non sceglie mai un bersaglio, non spara mai agli asteroidi, né da una zona sicura, né con l’occultamento attivo, e non spara mai un razzo N.U.K.E. o N.I.K.E. Un razzo che lanci tu funziona sempre. Se per 3 minuti non premi un tasto, non fai clic né muovi il mouse, aspetta che tu faccia qualcosa.
+- **Che cosa non fa mai.** Non sceglie mai un bersaglio, non spara mai da una zona sicura né con l’occultamento attivo, e non spara mai un razzo N.U.K.E. o N.I.K.E. Un razzo che lanci tu funziona sempre. Se per 3 minuti non premi un tasto, non fai clic né muovi il mouse, aspetta che tu faccia qualcosa.
 - **Razzi finiti.** Te lo dice una volta e torna a sparare appena ne hai altri.
 
 

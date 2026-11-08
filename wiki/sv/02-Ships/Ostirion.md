@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 48 000
-- **Grundhastighet**: 200
+- **Träffpoäng (HP)**: 64 000
+- **Grundhastighet**: 220
 - **Laserplatser**: 3
 - **Extraplatser**: 2
 
@@ -15,7 +15,7 @@ Ostirion är en gedigen interceptor i mellanklassen som ger en rejäl uppgraderi
 
 - **Kärnplatser (100 % verkningsgrad)**: 3
 - **Stödplatser (75 % verkningsgrad)**: 3
-- **Hjälpplatser (50 % verkningsgrad)**: 0
+- **Hjälpplatser (50 % verkningsgrad)**: 1
 
 ---
 

@@ -11,11 +11,11 @@ The Tesseract Swarm is one huge mothership, the **Tesseract**, and the **Facets*
 - **How many**: One in each world
 - **Appears**: From season day 4 until the wipe (Beta and Gamma: from season day 1)
 - **Leader**: Tesseract
-- **Home**: Within 2,500 units of the point 27,000, 5,000 of the sector's map
+- **Home**: Within 2,500 units of the point 25,900, 6,100 of the sector's map
 - **Regeneration**: 125,000 HP a second in Alpha, the hull first and then the shield, once 5 s have passed without damage
 - **Followers**: Up to 100 × Facet, 20 more every 5 s while the leader is being hit
 - **Followers come**: Only while the leader has been hit in the last 5 s, within 400 units of it
-- **Hunters**: Each Facet flies legs of its own round the leader, within 1,800 units of it, and goes after nobody. It fires at the nearest pilot who has hit the leader when that pilot is within its range. With nobody to fire at it flies on round the leader and leaves 20 s after the last hit
+- **Hunters**: Each Facet flies legs of its own round the leader, within 3,600 units of it, and goes after nobody. It fires at the nearest pilot who has hit the leader when that pilot is within its range. With nobody to fire at it flies on round the leader and leaves 20 s after the last hit
 - **Leader destroyed**: The followers leave 1 min after the leader is destroyed, attacking or not
 - **Comes back**: 30 min after the leader is destroyed, in the same sector
 - **Announced**: The pilots of the sector are told when the leader appears and when it is destroyed. These are System lines: they show in the chat's **System** tab, with an unread count, and not in **Global** or **Local**. The kill feed names the pilot credited with the kill.

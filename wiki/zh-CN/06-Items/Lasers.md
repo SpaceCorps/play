@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7458399908a090f -->
+<!-- wiki-i18n source: aa5ab1afb62faea7 -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -34,11 +34,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -62,7 +62,7 @@ Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Batter
 | **Quantum Laser II** | 普通 | 65 | 1% | 700 | 2 | 80,000 信用点 |
 | **Quantum Laser III** | 稀有 | 80 | 10% | 800 | 3 | 仅可制造 |
 | **Starfire-III** | 神话 | 135 | 15% | 850 | 3 | 仅可制造 |
-| **Helios Beam** | 神话 | 185 | 25% | 900 | 3 | 仅可制造 |
+| **Helios Beam** | 神话 | 150 | 20% | 900 | 3 | 仅可制造 |
 
 “射程”一列是每把激光自己的射程。**你的舰船以所有激光射程的平均值开火**（无人机中的激光也计入），四舍五入取整，目标一进入这个距离，每把激光就会开火。一把 Starfire-III 加两把 Quantum Laser II，舰船的射程是 750，而不是 850；三把 Starfire-III 则保持 850，而全都相同的激光不会带来任何变化。锻造炉的射程加成会在取平均值之前先计入其所在的那把激光。没有激光时，机库不显示射程（只有一条短横线），激光无法开火，但你的火箭仍然可以，每枚各有自己的射程（见[火箭](/wiki/06-Items/Rockets.md)）。在机库中，当你的激光射程不一致时，对应的图块会写着“平均射程”，把鼠标悬停在上面会列出每把激光的射程。
 
@@ -133,13 +133,13 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 | Penetration Amp III | 2,000 | 60 秒 | 30 个 Nyxite、20 个 Cataclysite、2 个 Power Core、50 个 Ship Fragment、2 块 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2,400 | 90 秒 | 40 个 Quorvium、30 个 Cataclysite、1 个 Power Core、1 个 Ancient Control Unit、4 块 Dark Matter Plate |
 
-一把带有 3 个 IV 阶增幅器的 Helios Beam 含有 4 件最后一阶的部件：16 块 Dark Matter Plate、80 个 Dark Matter，平均相当于 40 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,200 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+一把带有 3 个 IV 阶增幅器的 Helios Beam 含有 4 件最后一阶的部件：16 块 Dark Matter Plate、80 个 Dark Matter，平均相当于 40 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,280 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
 
 ### 哪种增幅器装在哪里 {#which-amp-goes-where}
 
-伤害增幅器给任何激光增加的伤害都一样，所以装在 **Quantum 系列激光**上最划算。暴击增幅器放大的是激光本来的输出，所以激光打得越重，它就越值：在 **Starfire-III** 上它与伤害系持平，在 **Helios Beam** 上则领先约 3.5%。激光的暴击率上限是 100%：三个 Crit Amp III 或 Crit Amp IV 恰好能把 Helios Beam 推到这个数字。Penetration Amp 既不增加伤害也不增加暴击率：它是给那些护盾本会承受你大部分命中的舰船用的（[见下文](#when-is-a-penetration-amp-worth-a-slot)）。
+伤害增幅器给任何激光增加的伤害都一样，所以装在 **Quantum 系列激光**上最划算。暴击增幅器放大的是激光本来的输出，所以激光打得越重，它就越值：在 **Starfire-III** 上它与伤害系持平，在 **Helios Beam** 上则领先约 1%。激光的暴击率上限是 100%：三个 Crit Amp III 或 Crit Amp IV 能把本身有 20% 的 Helios Beam 推到 95%。Penetration Amp 既不增加伤害也不增加暴击率：它是给那些护盾本会承受你大部分命中的舰船用的（[见下文](#when-is-a-penetration-amp-worth-a-slot)）。
 
-装上同样的增幅器时，一把激光总是比低一级的那把更强，所以更好的增幅器永远无法取代更好的激光：装了三个 Damage Amp IV 的 Quantum Laser III，输出低于装了三个 Damage Amp I 的 Helios Beam（前提是部件的附魔等级相同：锻造到神圣或更高的 Quantum Laser III 和 Damage Amp IV，在随机到最佳数值时，可以超过装着 Damage Amp I 的普通 Helios Beam，神圣等级时只是险胜）。
+装上同样的增幅器时，一把激光总是比低一级的那把更强，所以更好的增幅器只能弥补更好激光的一部分：装了三个 Damage Amp IV 的 Quantum Laser III，输出高于装了三个 Damage Amp I 的 Helios Beam，但低于装了三个 Damage Amp III 的 Helios Beam（前提是部件的附魔等级相同：锻造到永恒的 Quantum Laser III 和 Damage Amp IV，在随机到最佳数值时，可以超过装着 Damage Amp III 的普通 Helios Beam，只是险胜）。
 
 
 ---
@@ -194,7 +194,7 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 每一次激光命中都会从目标的吸收率中扣除点数，来源最多三个，彼此相加：你的**弹药**（Ultra Core 5%，Experimental Fusion Core 10%，Antimatter Battery 20%）、你的 **Penetration Amp**，以及**无人机编队**（Gemini +15%；[无人机编队](/wiki/03-Mechanics/Formations.md)）。**总和没有上限**（直接火箭也以同样的方式把自己的穿透和编队的穿透相加：[火箭](/wiki/06-Items/Rockets.md)）。然后护盾承受目标吸收率减去该次命中穿透后的份额，船体承受其余部分（[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
-- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把激光上三个 Penetration Amp IV 是 36%；十二把激光里只有一把装一个 Penetration Amp IV 是 1%。Wraith 有 12 把激光和 36 个增幅槽位，要凑到 36% 必须把 36 个槽位全部装满。
+- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把激光上三个 Penetration Amp IV 是 36%；十三把激光里只有一把装一个 Penetration Amp IV 约是 1%。Wraith 有 13 把激光和 39 个增幅槽位，要凑到 36% 必须把 39 个槽位全部装满。
 - **机库会显示它。** 机库的战斗属性中，每艘飞船都有一个显示所示配置的激光增幅器数值的**穿透**图块（没有 Penetration Amp 时为 0.0%）；弹药和编队不计入其中。飞行中的**舰船**窗口在下方一行的末尾有一个**穿透**标签（为腾出位置，配置和速度标签只显示一个图标和一个数字），显示激光命中的总穿透：你的增幅器、所穿戴的编队和所用的弹药相加，一换就更新，它的悬停提示会列出这三部分。
 - **最强的激光用 x4 是 61%，用 Antimatter 是 71%。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（36%）加起来是 61%；换成一块 Antimatter Battery（20%）则是 71%，伤害为 x3 而不是 x4。
 - **Penetration Amp IV 上的锻造加成会计入。** Penetration Amp 和其他增幅器一样可以锻造，它唯一的一条加成会成倍提高穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 达到 13.1 至 13.8 点，而不是 12 点。在最强的配置里，三个永恒级的加起来是 66.4%，每一点都会计入。
@@ -229,6 +229,6 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 **Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 101%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 2.6 倍；面对出厂最好的护盾（85%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 19% 的时间。面对外星人几乎没有收益。**
 
-- **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 187 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 356，三个 Crit Amp IV 是 369：大约一半。它夺回的是护盾的份额，所以只有在船体相对护盾较小、吸收率较高的时候才划算；面对船体庞大、本来就扛得住的 Wraith 或 Ironclad，普通的 Damage 或 Crit 组合速度差不多（一把激光里的一个 Penetration Amp 最多只多出 5%）。
+- **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 149 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 308，三个 Crit Amp IV 是 312：大约一半。它夺回的是护盾的份额，所以只有在船体相对护盾较小、吸收率较高的时候才划算；面对船体庞大、本来就扛得住的 Wraith 或 Ironclad，普通的 Damage 或 Crit 组合速度差不多（一把激光里的一个 Penetration Amp 最多只多出 5%）。
 - **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，所以它对外星人也有效，但同阶的 Damage Amp 或 Crit Amp 杀得一样快或更快；例外是配合编队作战的 Phantasm 或 Goombah，此时一把激光里的一个 Penetration Amp 最多多出 5%。
-- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 36 个槽位的 Wraith 需要 144 块板，共 720 个 Dark Matter。
+- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 39 个槽位的 Wraith 需要 156 块板，共 780 个 Dark Matter。

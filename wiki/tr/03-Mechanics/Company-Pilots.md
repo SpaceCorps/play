@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dced9aac4fce8b87 -->
+<!-- wiki-i18n source: 0096209c8f6660f0 -->
 <!-- wiki-i18n title: Şirket pilotları -->
 # Şirket pilotları {#company-pilots}
 
@@ -11,7 +11,7 @@ Her şirket, ana sektörlerinde (`M-1` ile `M-4`, `T-1` ile `T-4`, `G-1` ile `G-
 
 - **Ekip**: her dünyada şirketin her sektöründe 3 pilot (Alpha, Beta ve Gamma dünyalarının kendi ekipleri vardır); her biri şirketin etiketi ve bir çağrı adıyla anılır, örneğin **[M] Vesper**. Ad etiketlerinde küçük bir robot işareti ve şirketin rengi bulunur.
 - **Gemi**: üç **Quantum Laser II**, iki **Light Shield Core**, bir **Engine I** ve bir **Repair Drone I** taşıyan bir [Ostirion](/wiki/02-Ships/Ostirion.md):
-  - 48.000 gövde puanı, 22.000 kalkan puanı, hız 202
+  - 64.000 gövde puanı, 22.000 kalkan puanı, hız 222
   - soğurma %45: kalkanları her vuruşun %45’ini, gövdeleri %55’ini alır
   - salvo başına 195 temel hasar (x1 cephane), %1 kritik şans, 700 menzil
 - **Mini haritada**: kendi şirketinin pilotları için yeşil bir elmas, başka bir şirketinkiler için kehribar rengi bir elmas.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Propulsione -->
 # Propulsione e velocità {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Il tier I di ogni famiglia si compra a 20.000 crediti. I tier da II a IV si crea
 
 ### Seminare gli alieni {#outrunning-aliens}
 
-Gli alieni volano a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Una nave Ostirion con un Engine II e due propulsori vola a 219,3 con gli Impulse Thruster I e a 228,6 con i II: entrambi ancora sotto il Crystalys, quindi serve un propulsore di tier III per superarlo in velocità (238,0 con gli Impulse Thruster III, 241,0 con i IV). I Momentum Thruster su questa nave volano alla stessa velocità o un po’ più in basso (219,3 con i Momentum Thruster I; poi 228,3, 236,1 e 238,4 con i II, i III e i IV): i tier I e II di entrambe le famiglie restano sotto un Crystalys, i tier III e IV stanno sopra.
+Gli alieni volano a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Una nave Ostirion (velocità base 220) con un Engine II e due propulsori vola a 239,9 con gli Impulse Thruster I, a 249,2 con i II, a 258,6 con i III e a 261,6 con i IV: ogni tier supera in velocità il Crystalys, anche gli Impulse Thruster I che si possono comprare. I Momentum Thruster su questa nave volano alla stessa velocità o un po’ più in basso (239,9 con i Momentum Thruster I; poi 248,9, 256,7 e 259,0 con i II, i III e i IV): ogni tier di entrambe le famiglie sta sopra un Crystalys, di almeno 9,9.

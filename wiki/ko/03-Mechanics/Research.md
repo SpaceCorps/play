@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 158개 중 142개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 159개 중 143개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### 레이저 탄약 {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 
 ### Auto-Rocket CPU
 
-- **기능.** ON인 동안 전투 중(레이저가 외계인이나 적 파일럿을 겨누고 있을 때)에는, 로켓 발사 키를 눌러 쓸 수 있는 상황이 될 때마다 마지막에 쏜 로켓을 그 대상에게 자동으로 발사합니다. 조건은 로켓 타이머가 끝났고 그 로켓이 하나 이상 남아 있는 것입니다. 서버는 내가 쏠 때와 똑같이 발사마다 확인합니다.
+- **기능.** ON인 동안 전투 중(레이저가 외계인, 적 파일럿 또는 소행성을 겨누고 있을 때)에는, 로켓 발사 키를 눌러 쓸 수 있는 상황이 될 때마다 마지막에 쏜 로켓을 그 대상에게 자동으로 발사합니다. 조건은 로켓 타이머가 끝났고 그 로켓이 하나 이상 남아 있는 것입니다. 서버는 내가 쏠 때와 똑같이 발사마다 확인합니다. 소행성에도 함선과 똑같이 로켓을 쓰므로, 채굴만 할 때는 OFF로 두세요.
 - **스위치.** 부가 장비 슬롯에 장착하고 ARL 슬롯을 눌러 ON과 OFF를 전환하세요. 처음엔 OFF이며, 다시 로그인해도 마지막으로 둔 상태 그대로입니다. 슬롯에 ON 또는 OFF가 표시되고 CPU가 발사할 때 빛납니다.
-- **절대 하지 않는 것.** 대상을 스스로 고르지 않고, 소행성에는 쏘지 않으며, 안전 지대 안이나 은폐 중에는 쏘지 않고, N.U.K.E.와 N.I.K.E.도 쏘지 않습니다. 내가 직접 쏜 로켓은 언제나 작동합니다. 3분 동안 키 입력, 클릭, 마우스 이동이 없으면 내가 무언가 할 때까지 대기합니다.
+- **절대 하지 않는 것.** 대상을 스스로 고르지 않고, 안전 지대 안이나 은폐 중에는 쏘지 않으며, N.U.K.E.와 N.I.K.E.도 쏘지 않습니다. 내가 직접 쏜 로켓은 언제나 작동합니다. 3분 동안 키 입력, 클릭, 마우스 이동이 없으면 내가 무언가 할 때까지 대기합니다.
 - **로켓이 없을 때.** 한 번만 알려 주고, 로켓이 생기면 곧바로 다시 발사합니다.
 
 

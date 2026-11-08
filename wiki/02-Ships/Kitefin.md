@@ -5,7 +5,7 @@ The Kitefin is a light gunship and the first ship most pilots buy: a third laser
 ## Stats
 
 - **Hitpoints (HP)**: 24,000
-- **Base Speed**: 175
+- **Base Speed**: 190
 - **Laser Slots**: 3
 - **Extra Slots**: 2
 
@@ -13,7 +13,7 @@ The Kitefin is a light gunship and the first ship most pilots buy: a third laser
 
 - **Core Slots (100% efficiency)**: 2
 - **Support Slots (75% efficiency)**: 3
-- **Auxiliary Slots (50% efficiency)**: 0
+- **Auxiliary Slots (50% efficiency)**: 1
 
 ---
 

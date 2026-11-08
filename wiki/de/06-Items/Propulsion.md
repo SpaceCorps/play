@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Antrieb -->
 # Antrieb & Tempo {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Stufe I jeder Familie wird für 20.000 Credits verkauft. Die Stufen II bis IV we
 
 ### Aliens abhängen {#outrunning-aliens}
 
-Die Aliens fliegen mit 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) und 230 (Crystalys). Eine Ostirion mit einem Engine II und zwei Schubdüsen fliegt mit 219,3 mit Impulse Thruster I und mit 228,6 mit II: beide noch unter dem Crystalys, es braucht also eine Schubdüse der Stufe III, um ihn abzuhängen (238,0 mit Impulse Thruster III, 241,0 mit IV). Die Momentum Thrusters fliegen auf diesem Schiff gleich schnell oder etwas niedriger (219,3 mit einem Momentum Thruster I, dann 228,3, 236,1 und 238,4 mit II bis IV): Stufe I und II beider Familien liegen unter einem Crystalys, Stufe III und IV darüber.
+Die Aliens fliegen mit 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) und 230 (Crystalys). Eine Ostirion (Grundtempo 220) mit einem Engine II und zwei Schubdüsen erreicht 239,9 mit Impulse Thruster I, 249,2 mit II, 258,6 mit III und 261,6 mit IV: Jede Stufe hängt den Crystalys ab, sogar der Impulse Thruster I, den du kaufen kannst. Die Momentum Thrusters fliegen auf diesem Schiff gleich schnell oder etwas niedriger (239,9 mit einem Momentum Thruster I, dann 248,9, 256,7 und 259,0 mit II bis IV): Jede Stufe beider Familien liegt über einem Crystalys, um mindestens 9,9.

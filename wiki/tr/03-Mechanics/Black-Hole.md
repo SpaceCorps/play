@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0ebfbefceb729180 -->
+<!-- wiki-i18n source: 055651a5599c4bc9 -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 
@@ -17,7 +17,7 @@ Mesafeler sektörün merkezinden, harita birimi cinsinden ölçülür. Sektör 3
 | :--- | ---: | :--- |
 | **Radyasyon** | 4.000 | Geminin her saniye hasar alır; hasar, toplam azami gövde puanının bir payıdır. Ne kadar yakınsan o kadar çok. |
 | **Çekim** | 3.000 | Kara delik geminin merkeze doğru çeker, ne kadar yakınsan o kadar sert. Uçmayan bir gemi sürüklenir. |
-| **Dönüşü olmayan nokta** | yaklaşık 1.000 ile 2.600 arası | Çekimin geminin hızına eşit olduğu yer. Bunun içinde, tam güçte bile, içeri çekilirsin. Hızına bağlıdır. |
+| **Dönüşü olmayan nokta** | yaklaşık 900 ile 2.500 arası | Çekimin geminin hızına eşit olduğu yer. Bunun içinde, tam güçte bile, içeri çekilirsin. Hızına bağlıdır. |
 | **Olay ufku** | 300 | Ona ulaşan her gemi, gövdesi ve kalkanı ne olursa olsun, anında yok edilir. |
 
 Tehlike Sektörü 4’ün portalları ve aralarındaki yollar radyasyonun çok dışından geçer, bu yüzden yolda giderken ona yanlışlıkla denk gelmezsin. Sezonun 11. gününden itibaren aynı sektörde, sol üst köşede, delikten uzakta [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) de bulunur; oradaki uzaylılar deliğin halkalarına asla girmez. Bir sezonun son günleri istisnadır: bkz. [Sıfırlamadan önce büyür](#growing-before-the-wipe).
@@ -60,11 +60,11 @@ Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30.000 | 165 | 240 | 600 | 1.500 | 3.300 |
 | Kitefin | 46.000 | 253 | 368 | 920 | 2.300 | 5.060 |
-| Ostirion | 82.500 | 454 | 660 | 1.650 | 4.125 | 9.075 |
-| Nomad | 130.500 | 718 | 1.044 | 2.610 | 6.525 | 14.355 |
+| Ostirion | 98.500 | 542 | 788 | 1.970 | 4.925 | 10.835 |
+| Nomad | 145.500 | 800 | 1.164 | 2.910 | 7.275 | 16.005 |
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
-| Storm | 198.000 | 1.089 | 1.584 | 3.960 | 9.900 | 21.780 |
-| Wraith | 372.000 | 2.046 | 2.976 | 7.440 | 18.600 | 40.920 |
+| Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
+| Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
 | Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
 
 - **Önce kalkan alır**, sonra gövde. Bu bir vuruş değildir: kalkanın soğurması işe karışmaz ve ondan kaçınılamaz.
@@ -97,20 +97,20 @@ Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde
 
 | Gemi (standart donanım) | Hız | Dönüşü olmayan nokta |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1.974 |
-| Protos | 165 | 1.577 |
-| Kitefin | 184 | 1.480 |
-| Ostirion | 208 | 1.362 |
-| Nomad | 211 | 1.347 |
-| Paragon | 222 | 1.287 |
-| Wraith | 233 | 1.208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1.826 |
+| Protos | 188 | 1.462 |
+| Kitefin | 202 | 1.388 |
+| Nomad | 221 | 1.294 |
+| Wraith | 223 | 1.281 |
+| Ostirion | 231 | 1.220 |
+| Paragon | 242 | 1.141 |
+| Storm | 273 | 924 |
 
 Bir gemi tasarımı geminin hızını, onunla birlikte dönüşü olmayan noktasını da değiştirir: DUMA tasarımı Ironclad gemisinden yavaştır, NOTSUM tasarımı Storm gemisinden hızlıdır.
 
 Saniyede 272 birimden hızlı bir geminin (koşucu bir donanım ya da çalışan bir Afterburner yeteneği olan standart bir Wraith) dönüşü olmayan noktası her zamanki yerindedir: 300 hızda 885, 432 hızda 747.
 
-Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 39,1 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.600’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on beş, iki motorla 22,5, üç motorla otuz saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.577’den 1.225’a, standart bir Wraith gemisinde 1.208’den 851’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 440 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,46); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Impulse Thruster IV bulunan Engine III ve Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 477’un dışından çıkar.
+Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 46,8 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.500’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on beş, iki motorla 22,5, üç motorla otuz saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.462’den 994’a, standart bir Wraith gemisinde 1.281’den 869’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 440 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,46); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Impulse Thruster IV bulunan Engine III ve Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 475’un dışından çıkar.
 
 Dönüşü olmayan noktadan düşüş yavaş başlar: noktanın birkaç birim içindeki bir gemi, tam güçte, yirmi saniye ya da daha uzun sürede içeri çekilir, sonra gitgide hızlanır. Çekim uçmak değildir: uçulan mesafeye hiçbir şey katmaz.
 
@@ -161,4 +161,4 @@ Delik, ona ulaşan bir **N.I.K.E.** roketi karşılığında **Dark Matter** ver
 - **Kaç tane.** Bir harita en fazla 32 Dark Matter kutusu taşır; yeni bir kutu bunların en eskisini iter, başka türden bir kutuyu asla. [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) Dark Matter miktarına hiçbir şey eklemez.
 - **Ne görürsün.** Bir N.I.K.E. ufku geçtiğinde deliğin içine doğru gerilir, uzay girdiği yerden dalgalanarak yayılır; disk ve foton halkası yaklaşık bir buçuk saniye parlar (**Hareketi azalt** açıkken bunun üçte biri, yarı ışıkta). Bir an sonra kutular delikten çıkar ve kenardaki yerlerine süzülür: her biri parlak kenarlı ve kıvılcımlı mor-siyah bir küredir, uzaktan kolay görülür ve üzerine gelince **Dark Matter** yazar. Seninkilerin üzerinde kalan saniyeler yazar ve mini haritada küçük bir mor işaret olarak belirir, klanın için de öyle; diğer pilotların kutuları mini haritada yalnızca dakikaları dolduktan sonra görünür.
 - **Ne duyarsın.** Delik Dark Matter ürettiğinde yumuşak, alçak bir ses çıkarır: içe çekilen bir nefes, ardından ilk kutu çıkarken iki soğuk çan notası. Kendi N.I.K.E. atışların için haritanın neresinde olursan ol duyarsın; başka bir pilotunki için kutuları geminin 3.200 birim yakınında çıkıyorsa duyarsın, uzaklaştıkça daha hafif. Kaç N.I.K.E. uçarsa uçsun üç saniyede en fazla bir kez çalar ve **Ses efektleri** ses düzeyini izler.
-- **Ne işe yarar.** Montaj’da 5 Dark Matter, bir Velkonite Reinforced Plate ve bir Orvium Reinforced Plate birleştirilip bir **Dark Matter Plate** üretilir; [Demirhane](/wiki/06-Items/Forge.md) bir eşyayı İlahi kademeden Patlayan kademeye, sonra Patlayan kademeden Ebedi kademeye yükseltmek için bunlardan ikisini ister: adım başına on Dark Matter. Her yükseltme zincirinin son kademesi, tanesi 20 Dark Matter olan 4 plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Skylab’ın [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#dark-matter) de Dark Matter ister: ağacının tepesindeki 16 teknolojinin her biri için 10, toplam 160; araştırma başlamadan önce Araştırma Merkezi’ne eklenir. Dron formasyonları da ister: gücüne göre her biri 5, 13 veya 20; 189 daha, toplam 349. İki Gövde Kaplaması araştırması 65 daha, gemi tasarımları ve gövde plakası yuvaları 490 ister ([Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies)). Skylab’ın Motor Modülü, Savunma Modülü ve Radar Modülü seviyeleri 115 daha ister ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Üç IV. kademe amfisi olan bir Helios Beam 80 Dark Matter taşır, yalnızca son kademe parçalar taşıyan bir Wraith ise 1.200 ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **Ne işe yarar.** Montaj’da 5 Dark Matter, bir Velkonite Reinforced Plate ve bir Orvium Reinforced Plate birleştirilip bir **Dark Matter Plate** üretilir; [Demirhane](/wiki/06-Items/Forge.md) bir eşyayı İlahi kademeden Patlayan kademeye, sonra Patlayan kademeden Ebedi kademeye yükseltmek için bunlardan ikisini ister: adım başına on Dark Matter. Her yükseltme zincirinin son kademesi, tanesi 20 Dark Matter olan 4 plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Skylab’ın [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#dark-matter) de Dark Matter ister: ağacının tepesindeki 16 teknolojinin her biri için 10, toplam 160; araştırma başlamadan önce Araştırma Merkezi’ne eklenir. Dron formasyonları da ister: gücüne göre her biri 5, 13 veya 20; 189 daha, toplam 349. İki Gövde Kaplaması araştırması 65 daha, gemi tasarımları ve gövde plakası yuvaları 490 ister ([Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies)). Skylab’ın Motor Modülü, Savunma Modülü ve Radar Modülü seviyeleri 115 daha ister ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Üç IV. kademe amfisi olan bir Helios Beam 80 Dark Matter taşır, yalnızca son kademe parçalar taşıyan bir Wraith ise 1.280 ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

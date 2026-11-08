@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Gövde Kaplaması -->
 # Gövde Kaplaması {#hull-plating}
 
@@ -45,7 +45,7 @@ Gövde kaplaması yalnızca **gövde plakası yuvalarına** takılır; Montaj’
 | **Paragon** | 5 | 75.000 |
 | **Storm** | 7 | 105.000 |
 | **Ironclad** | 15 | 225.000 |
-| **Wraith** | 9 | 135.000 |
+| **Wraith** | 10 | 150.000 |
 
 - **Başta hepsi kilitli.** Bir yuva, Skylab’da araştırdığında açılır: her yuva için bir teknoloji, 1 saat ve 10 Dark Matter, ilkinden başlayarak sırayla. [Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies) görünümü bir geminin yuvalarını, her biri için bir nokta bulunan tek bir kart olarak gösterir.
 - **Tek bir gemi değil, bir gemi türü.** Paragon için açtığın yuvalar her Paragon tasarımında da açıktır ([Gemi tasarımları](/wiki/03-Mechanics/Ship-Designs.md)). Bir teknoloji kalıcı olarak senindir: sıfırlama onu korur.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Conquistas -->
 # Conquistas {#achievements}
 
@@ -69,7 +69,7 @@ As 37 conquistas que não são ocultas, por grupo. Quando uma meta conta algo, e
 | Construtor de estações | Construa 5 módulos diferentes do Skylab. | Comum |
 | Totalmente equipado | Construa os 16 módulos do Skylab. | Épico |
 | Erudito | Pesquise 50 tecnologias. | Incomum |
-| Arquivista | Pesquise as 158 tecnologias. | Lendário |
+| Arquivista | Pesquise as 159 tecnologias. | Lendário |
 
 ### Frota {#group-fleet}
 

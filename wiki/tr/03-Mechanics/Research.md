@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (158 teknolojiden 142’i). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (159 teknolojiden 143’ü). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Lazer Cephanesi {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da 
 
 ### Auto-Rocket CPU
 
-- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya ya da düşman pilota ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler.
+- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya, düşman bir pilota ya da bir asteroite ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler. Bir asteroite karşı da bir gemiye karşı olduğu gibi roket harcar, bu yüzden yalnızca madencilik yaparken onu KAPALI tut.
 - **Anahtar.** Bir Ekstra yuvasına tak ve ARL yuvasına basarak AÇIK ya da KAPALI yap. KAPALI başlar ve bıraktığın gibi kalır, yeniden giriş yaptığında da. Yuva AÇIK ya da KAPALI yazar ve CPU ateş ettiğinde parlar.
-- **Asla yapmadığı şeyler.** Asla hedef seçmez, asteroitlere, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
+- **Asla yapmadığı şeyler.** Asla hedef seçmez, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
 - **Roket kalmadı.** Bir kez söyler ve elinde yenisi olunca yeniden fırlatır.
 
 

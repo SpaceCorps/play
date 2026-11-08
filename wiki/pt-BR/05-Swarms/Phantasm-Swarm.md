@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Enxame Phantasm -->
 # Enxame Phantasm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ O enxame Phantasm é um **Boss Phantasm** com seus **Phantasm Guards**: um [Phan
 
 ## Como a luta transcorre {#how-the-fight-goes}
 
-- **Leve um grupo.** Três pilotos de nível 4–5 com munição x2 o destroem em cerca de um minuto e meio em Alpha, perdendo no máximo uma nave; um piloto desse nível sozinho é destruído, e dois também. Naves melhores e munição x4 o deixam bem mais rápido.
+- **Leve um grupo.** Três pilotos de nível 4–5 com munição x2 o destroem em cerca de um minuto e meio em Alpha, perdendo no máximo uma nave; um piloto desse nível sozinho é destruído, e dois vencem por pouco, e só enquanto os acertos são divididos. Naves melhores e munição x4 o deixam bem mais rápido.
 - **Atire no chefe, não nos Guards.** Um Guard cai em segundos, mas um novo chega na frequência que a lista *Resumo rápido* diz, e o que os Guards curam é uma parte pequena do que um grupo causa: deixá-los em paz custa um pouco de tempo, caçá-los custa mais.
 - **Beta e Gamma são mais duros.** Os enxames desses mundos são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), então pedem mais pilotos ou munição melhor.
 - **Fique de olho no setor.** `x-4` é um setor PvP em Alpha, e `x-3` e `x-4` são em Beta e Gamma ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): um rival pode entrar na luta ou esperar a caixa. Deixe uma nave do grupo de vigia.

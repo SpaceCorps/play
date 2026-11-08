@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (142 из 158 технологий). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (143 из 159 технологий). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
 
 **Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует четыре пластины и одну Ancient Control Unit: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Лазерные боеприпасы {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Dark Matter Ammo I => Dark Matter Ammo II
 
 ### Auto-Rocket CPU
 
-- **Что делает.** Пока она включена и вы в бою (ваши лазеры нацелены на пришельца или вражеского пилота), она сама выпускает вашу активную ракету, последнюю из выпущенных, по этой цели всякий раз, когда нажатие клавиши «Пуск ракеты» сработало бы: таймер ракет готов и у вас осталась хотя бы одна. Сервер проверяет каждый пуск так же, как ваши.
+- **Что делает.** Пока она включена и вы в бою (ваши лазеры нацелены на пришельца, вражеского пилота или астероид), она сама выпускает вашу активную ракету, последнюю из выпущенных, по этой цели всякий раз, когда нажатие клавиши «Пуск ракеты» сработало бы: таймер ракет готов и у вас осталась хотя бы одна. Сервер проверяет каждый пуск так же, как ваши. По астероиду она тратит ракеты так же, как по кораблю, поэтому выключайте её, пока вы только добываете руду.
 - **Переключатель.** Установите её в слот «Устройства» и нажмите её слот ARL, чтобы включить или выключить (сначала она выключена). Состояние сохраняется, в том числе при новом входе в игру. Слот показывает «ВКЛ» или «ВЫКЛ» и вспыхивает, когда CPU стреляет.
-- **Чего она не делает никогда.** Она никогда не выбирает цель, не стреляет по астероидам, из безопасной зоны и в маскировке, и не выпускает N.U.K.E. и N.I.K.E. Ракета, которую вы выпустили сами, всегда срабатывает. Если 3 мин. нет ни нажатий клавиш, ни щелчков, ни движения мыши, она ждёт, пока вы что-нибудь сделаете.
+- **Чего она не делает никогда.** Она никогда не выбирает цель, не стреляет из безопасной зоны и в маскировке, и не выпускает N.U.K.E. и N.I.K.E. Ракета, которую вы выпустили сами, всегда срабатывает. Если 3 мин. нет ни нажатий клавиш, ни щелчков, ни движения мыши, она ждёт, пока вы что-нибудь сделаете.
 - **Ракеты кончились.** Она скажет об этом один раз и снова начнёт стрелять, как только они появятся.
 
 

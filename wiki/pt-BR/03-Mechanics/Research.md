@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -30,7 +30,7 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 
 <!-- research-centre:end -->
 
-**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) conclui na hora a pesquisa em andamento, se a tecnologia dela leva 24 horas ou menos para ser pesquisada (142 das 158 tecnologias). O que a pesquisa custou foi pago no início e não volta, a ciência que ela ainda não queimou fica no seu tanque e a próxima tecnologia da sua fila começa na hora.
+**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) conclui na hora a pesquisa em andamento, se a tecnologia dela leva 24 horas ou menos para ser pesquisada (143 das 159 tecnologias). O que a pesquisa custou foi pago no início e não volta, a ciência que ela ainda não queimou fica no seu tanque e a próxima tecnologia da sua fila começa na hora.
 
 **Os amplificadores de laser e o último nível.** Os Damage, Crit e Penetration Amps dos níveis II a IV são pesquisados como todo o resto que se cria. Os pilotos que tinham ou haviam enfileirado amps quando as linhas de amps chegaram receberam a tecnologia de cada um deles e a dos níveis abaixo. Treze tecnologias exigem uma tecnologia de outra árvore, a da Dark Matter Plate, da árvore Recursos, porque o último nível de cada cadeia de melhoria pede quatro plates e uma Ancient Control Unit: os Damage, Crit e Penetration Amps do nível IV, as Absorption e Capacity Shield Cells do nível IV, os Impulse e Momentum Thrusters do nível IV, o Heavy Shield Core, o Engine III, o Adaptive Core III, o Helios Beam, o Extra Slots CPU III e o Base CPU II. Quem pesquisou uma delas antes a mantém, e precisa da tecnologia da plate para fazer as plates dela. A árvore abaixo não traça seta para ela, mas a tabela a lista e o cartão no jogo a nomeia ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Munição de laser {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montage
 
 ### Auto-Rocket CPU
 
-- **O que faz.** Enquanto estiver em ON e você estiver em combate (seus lasers estão em um alienígena ou em um piloto inimigo), ela dispara sozinha o seu foguete ativo, o último que você disparou, nesse alvo, sempre que um clique na tecla Disparar foguete funcionaria: o temporizador dos foguetes está pronto e resta um. O servidor confere cada disparo como confere os seus.
+- **O que faz.** Enquanto estiver em ON e você estiver em combate (seus lasers estão em um alienígena, em um piloto inimigo ou em um asteroide), ela dispara sozinha o seu foguete ativo, o último que você disparou, nesse alvo, sempre que um clique na tecla Disparar foguete funcionaria: o temporizador dos foguetes está pronto e resta um. O servidor confere cada disparo como confere os seus. Contra um asteroide ela gasta foguetes como contra uma nave, então deixe-a em OFF enquanto só minera.
 - **O interruptor.** Equipe-a em um slot de Extras e clique no slot ARL dela para colocá-la em ON ou OFF. Ela começa em OFF e fica como você a deixou, mesmo quando você entra de novo. O slot mostra ON ou OFF e brilha quando a CPU dispara.
-- **O que nunca faz.** Nunca escolhe um alvo, nunca dispara em asteroides, de uma zona segura ou camuflado, e nunca dispara uma N.U.K.E. ou uma N.I.K.E. Um foguete que você mesmo dispara sempre funciona. Sem tecla, clique ou movimento do mouse por 3 minutos, ela espera você fazer algo.
+- **O que nunca faz.** Nunca escolhe um alvo, nunca dispara de uma zona segura ou camuflado, e nunca dispara uma N.U.K.E. ou uma N.I.K.E. Um foguete que você mesmo dispara sempre funciona. Sem tecla, clique ou movimento do mouse por 3 minutos, ela espera você fazer algo.
 - **Sem foguetes.** Ela avisa uma vez e volta a disparar assim que você tiver mais.
 
 

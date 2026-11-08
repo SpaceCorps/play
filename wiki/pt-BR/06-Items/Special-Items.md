@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -44,7 +44,7 @@ Conclui **uma melhoria do Skylab na hora**: escolha o módulo que está sendo me
 
 ### Schematics
 
-Conclui **a pesquisa em andamento agora**, se a tecnologia leva **24 horas ou menos** para ser pesquisada. 142 das 158 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) se enquadram. As 16 que levam 48 ou 72 horas não: o Wraith, três formações de drones, Hull Plating III, os níveis 4 e 5 do Módulo de motores e do Módulo de defesa e sete tecnologias de Piloto.
+Conclui **a pesquisa em andamento agora**, se a tecnologia leva **24 horas ou menos** para ser pesquisada. 143 das 159 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) se enquadram. As 16 que levam 48 ou 72 horas não: o Wraith, três formações de drones, Hull Plating III, os níveis 4 e 5 do Módulo de motores e do Módulo de defesa e sete tecnologias de Piloto.
 
 - **Conta o tempo de pesquisa, não o que resta.** Uma tecnologia de 48 horas a que falta uma hora ainda é recusada: Schematics olha quanto a tecnologia leva no total.
 - **O preço continua pago.** O Dark Matter, os créditos e o Thulium foram cobrados quando a pesquisa começou e não voltam. A ciência que a pesquisa ainda não queimou fica no seu tanque.

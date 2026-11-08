@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 20bfc0d7e85779c5 -->
+<!-- wiki-i18n source: f7bdf2e998ae581b -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; transformation; transformer; design de vaisseau -->
 
-Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Huit des treize designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
+Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Neuf des treize designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
 
 ## Les treize designs {#the-thirteen-designs}
 
@@ -12,19 +12,19 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 
 | Design | Ce qu’il change | Coque | Vitesse de base | Emplacements de laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % de coque de base, +40 de vitesse de base, +1 emplacement laser | 96 000 | 250 | 9 |
-| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, -1 emplacement laser, +10 % d’absorption du bouclier, +20 % de taille du modèle | 160 000 | 190 | 7 |
-| **Paragon LICH** | +1 % de régénération du bouclier par seconde | 128 000 | 210 | 8 |
-| **Storm NOTSUM** | -20 % de coque de base, +20 de vitesse de base, +2 % de vitesse, Blink | 120 000 | 270 | 13 |
-| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -50 % de capacité du bouclier, +10 % de pénétration du bouclier | 150 000 | 200 | 15 |
-| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -2 emplacements laser, Chameleon | 120 000 | 250 | 11 |
-| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 720 000 | 72 | 3 |
-| **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink (vitesse limitée à 1 500) | 600 000 | 92 | 8 |
-| **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 324 000 | 220 | 13 |
-| **Wraith BILLY** | +5 % de coque de base, +10 de vitesse de base, +10 % de capacité du bouclier, Diminisher | 340 200 | 230 | 12 |
-| **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 388 800 | 240 | 12 |
-| **Wraith ATARAXIS** | -1 emplacement laser, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff | 324 000 | 220 | 11 |
-| **Wraith MATT** | -10 % de coque de base, +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers | 291 600 | 220 | 14 |
+| **Paragon THUNDER** | -25 % de coque de base, +40 de vitesse de base, +1 emplacement laser | 96 000 | 270 | 10 |
+| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, -1 emplacement laser, +10 % d’absorption du bouclier, +20 % de taille du modèle | 160 000 | 210 | 8 |
+| **Paragon LICH** | +1 % de régénération du bouclier par seconde | 128 000 | 230 | 9 |
+| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, Blink | 162 000 | 310 | 14 |
+| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, Heal Pod | 180 000 | 210 | 16 |
+| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon | 144 000 | 260 | 13 |
+| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 720 000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink | 600 000 | 110 | 10 |
+| **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 256 000 | 210 | 14 |
+| **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 13 |
+| **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 307 200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 emplacement laser, +1 emplacement de soutien, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff | 256 000 | 210 | 12 |
+| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers | 256 000 | 210 | 15 |
 
 ## Obtenir un design {#getting-a-design}
 
@@ -37,16 +37,16 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Paragon BUCKY** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
-| **Storm NOTSUM** | 100 000 | 15 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100 000 | 15 | 250 | 45 | 15 | 3 |
+| **Storm NOTSUM** | 100 000 | 25 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100 000 | 20 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100 000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100 000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100 000 | 24 | 50 | 100 | 15 | 5 |
 | **Wraith RAPTOR** | 100 000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith BILLY** | 100 000 | 30 | 375 | 65 | 20 | 3 |
 | **Wraith MENATI** | 100 000 | 35 | 375 | 65 | 20 | 3 |
-| **Wraith ATARAXIS** | 100 000 | 30 | 375 | 65 | 20 | 3 |
-| **Wraith MATT** | 100 000 | 20 | 375 | 65 | 20 | 3 |
+| **Wraith ATARAXIS** | 100 000 | 35 | 375 | 65 | 20 | 3 |
+| **Wraith MATT** | 100 000 | 25 | 375 | 65 | 20 | 3 |
 
 Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour THUNDER, BUCKY ou LICH), et ce ne peut pas être le vaisseau que vous pilotez : rendez d’abord un autre vaisseau actif. Un vaisseau détruit ne peut pas être transformé.
 
@@ -60,10 +60,10 @@ Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
 | **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
-| **Wraith** | 9 | 9 h | 90 | 5 | 50 h | 50 |
-| **Les quatre** | 36 | 36 h | 360 | 13 | 130 h | 130 |
+| **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
+| **Les quatre** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Ensemble, elles demandent 490 Dark Matter, en plus des 749 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 354 pour toutes les technologies du jeu.
+Ensemble, elles demandent 500 Dark Matter, en plus des 749 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 364 pour toutes les technologies du jeu.
 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 

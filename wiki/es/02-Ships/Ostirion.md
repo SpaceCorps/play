@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ La Ostirion es un interceptor sólido de gama media que ofrece una mejora notabl
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 48.000
-- **Velocidad base**: 200
+- **Puntos de vida (HP)**: 64.000
+- **Velocidad base**: 220
 - **Ranuras de láser**: 3
 - **Ranuras de extra**: 2
 
@@ -15,7 +15,7 @@ La Ostirion es un interceptor sólido de gama media que ofrece una mejora notabl
 
 - **Ranuras principales (100 % de eficiencia)**: 3
 - **Ranuras de apoyo (75 % de eficiencia)**: 3
-- **Ranuras auxiliares (50 % de eficiencia)**: 0
+- **Ranuras auxiliares (50 % de eficiencia)**: 1
 
 ---
 

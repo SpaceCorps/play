@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Forschung -->
 # Forschung {#research}
 
@@ -30,7 +30,7 @@ Diese Seite zeigt den ganzen Technologiebaum mit der Dauer jeder Technologie, di
 
 <!-- research-centre:end -->
 
-**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) schließt die Forschung, die gerade läuft, sofort ab, wenn ihre Technologie höchstens 24 Stunden zum Erforschen braucht (142 der 158 Technologien). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die sie noch nicht verbrannt hat, bleibt in deinem Tank, und die nächste Technologie deiner Warteschlange startet sofort.
+**Schematics.** Ein [Schematics](/wiki/06-Items/Special-Items.md#schematics) schließt die Forschung, die gerade läuft, sofort ab, wenn ihre Technologie höchstens 24 Stunden zum Erforschen braucht (143 der 159 Technologien). Was die Forschung gekostet hat, wurde beim Start bezahlt und wird nicht zurückgegeben, die Wissenschaft, die sie noch nicht verbrannt hat, bleibt in deinem Tank, und die nächste Technologie deiner Warteschlange startet sofort.
 
 **Die Laserverstärker und die letzte Stufe.** Die Damage, Crit und Penetration Amps der Stufen II bis IV werden wie alles andere erforscht. Piloten, die beim Erscheinen der Amp-Linien Amps besaßen oder in Auftrag hatten, erhielten die Technologie jedes dieser Amps und der Stufen darunter. Dreizehn Technologien brauchen eine Technologie eines anderen Baums, die der Dark Matter Plate aus dem Baum Ressourcen, weil die letzte Stufe jeder Aufwertungskette vier Plates und eine Ancient Control Unit verlangt: die Damage, Crit und Penetration Amps der Stufe IV, die Absorption und Capacity Shield Cells der Stufe IV, die Impulse und Momentum Thrusters der Stufe IV sowie Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III und Base CPU II. Wer eine davon früher erforscht hat, behält sie und braucht die Technologie der Plate, um ihre Plates herzustellen. Der Baum unten zeichnet dafür keinen Pfeil, aber die Tabelle führt sie auf, und die Karte im Spiel nennt sie ([Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Lasermunition {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU 
 
 ### Auto-Rocket CPU
 
-- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien oder einen feindlichen Piloten gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen.
+- **Was sie tut.** Solange sie AN geschaltet ist und du im Kampf bist (deine Laser sind auf einen Alien, einen feindlichen Piloten oder einen Asteroiden gerichtet), feuert sie deine aktive Rakete, die du zuletzt abgefeuert hast, von selbst auf dieses Ziel, sobald ein Druck auf die Taste „Rakete feuern“ funktionieren würde: Der Raketen-Timer ist bereit und du hast noch eine. Der Server prüft jeden Abschuss wie deinen. Gegen einen Asteroiden verbraucht sie Raketen wie gegen ein Schiff, schalte sie also AUS, solange du nur abbaust.
 - **Der Schalter.** Rüste sie in einem Extra-Slot aus und drücke ihren ARL-Slot, um sie AN oder AUS zu schalten. Sie startet AUS und bleibt, wie du sie gelassen hast, auch wenn du dich neu anmeldest. Der Slot zeigt AN oder AUS und leuchtet auf, wenn die CPU feuert.
-- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie auf Asteroiden, nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
+- **Was sie nie tut.** Sie wählt nie ein Ziel, feuert nie aus einer Schutzzone oder während du getarnt bist und nie eine N.U.K.E. oder N.I.K.E. Eine Rakete, die du selbst abfeuerst, funktioniert immer. Ohne Tastendruck, Klick oder Mausbewegung für 3 Minuten wartet sie, bis du etwas tust.
 - **Keine Raketen mehr.** Sie sagt es dir einmal und feuert wieder, sobald du mehr hast.
 
 

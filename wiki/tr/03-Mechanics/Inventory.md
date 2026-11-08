@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 81f1785f1e0ba446 -->
+<!-- wiki-i18n source: 110ad87b2e059bc1 -->
 <!-- wiki-i18n title: Envanter -->
 # Envanter ve ekipman {#inventory-equipment}
 
@@ -15,12 +15,12 @@ Geleneksel uzay oyunlarının aksine SpaceCorps’ta, takılan modüllerin etkis
 - **Jeneratör yuvaları**: Kalkanlar, motorlar ve Uyarlanabilir Çekirdekler için ortak yuvalardır. Üç verim bandına ayrılırlar ve bir eşyanın temel değerlerinin ne kadarının sayılacağını bant belirler. Hangarda her bandın adının yanında, onu açıklayan bir (i) vardır:
   - **Çekirdek yuvaları**: Buraya konan eşyalar temel değerlerinin **%100**’ünü alır. Her gemide vardır: en güçlü kalkanlarını ve motorlarını buraya koy.
   - **Destek yuvaları**: Buraya konan eşyalar temel değerlerinin **%75**’ini alır (örneğin %75 hız veya kalkan kapasitesi). Her gemide vardır.
-  - **Yardımcı yuvalar**: Buraya konan eşyalar temel değerlerinin **%50**’sini alır. Yalnızca bazı gemilerde vardır (Nomad gemisinde 1, Paragon ve Storm gemilerinde 2, Ironclad gemisinde 3, Wraith gemisinde 4; Protos, Kitefin ve Ostirion gemilerinde hiç yoktur). Fazladan, daha zayıf kalkanlar ve motorlar için idealdir; en güçlülerini ise çekirdek yuvalarına koy.
+  - **Yardımcı yuvalar**: Buraya konan eşyalar temel değerlerinin **%50**’sini alır. Her gemide en az bir tane vardır (Protos, Kitefin, Ostirion ve Nomad gemilerinde 1, Paragon ve Storm gemilerinde 2, Ironclad gemisinde 3, Wraith gemisinde 4). Fazladan, daha zayıf kalkanlar ve motorlar için idealdir; en güçlülerini ise çekirdek yuvalarına koy.
   - **Dron yuvaları**: Dronlarından birindeki bir kalkan, çekirdek yuvasındaki gibi sayılır: değerlerinin **%100**’ünü alır ([Dron mekanikleri](/wiki/03-Mechanics/Drones.md)).
   - **Atanmamış/eski yuvalar**: Buraya konan eşyalar özelliklere katkı yapmaz.
   - **Yığılma da azalır**: kalkanlar ve motorlar en güçlüden başlayarak sıralanır (her birinin yuvasının payı uygulandıktan sonra saydığı değere göre), ardından bandın payı sıralarının payıyla çarpılır: 1–4. sıradakiler tam sayılır, 5–7. sıradakiler sırasıyla %85, %70 ve %55 sayılır; 8. ve sonrası kalkanlarda %50, motorlarda %25 sayılır. [Kalkanlar](/wiki/03-Mechanics/Shields.md) ve [Hız](/wiki/03-Mechanics/Speed.md) sayfalarına bak.
 - **Ekstra yuvalar**: Repair Drone gibi özel yardımcı eşyalar içindir. Protos, Kitefin, Ostirion ve Nomad gemilerinde iki, ürettiğin Paragon, Ironclad, Wraith ve Storm gemilerinde üç tane vardır. Extra Slots CPU eşyaları ([Ekstralar](/wiki/06-Items/Extras.md#extra-slots-cpus)) 3, 5 veya 7 yuva daha ekler.
-- **Gövde plakası yuvaları**: Gövde ekleyen [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) içindir. Yalnızca ürettiğin dört gemide bulunur (Paragon gemisinde 5, Storm gemisinde 7, Ironclad gemisinde 15 ve Wraith gemisinde 9); her biri Skylab’da araştırana kadar kilitlidir ve iki konfigürasyonda da aynıdır.
+- **Gövde plakası yuvaları**: Gövde ekleyen [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) içindir. Yalnızca ürettiğin dört gemide bulunur (Paragon gemisinde 5, Storm gemisinde 7, Ironclad gemisinde 15 ve Wraith gemisinde 10); her biri Skylab’da araştırana kadar kilitlidir ve iki konfigürasyonda da aynıdır.
 
 ## Envanter sırası {#inventory-order}
 

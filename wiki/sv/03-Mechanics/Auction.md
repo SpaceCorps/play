@@ -179,6 +179,7 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre 
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - I början av varje UTC-timme öppnas 3 nya lotter, var och en med olika varor, och var och en är öppen i 4 timmar, så att 12 är öppna samtidigt.
+- Varje värld har sina egna lotter: Alpha, Beta och Gamma får dessa lotter varje timme, med olika varor samma timme, i en storlek som styrs av piloterna i den världen. Du ser, bjuder på och vinner bara lotterna i den värld du flyger i. Marknaden och köporder delas av alla tre världarna.
 - Startbudet är 20 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter mer.
 - Ditt bud betalas direkt och hålls kvar. Om någon överbjuder dig kommer det tillbaka direkt.
 - Ett bud under de sista 2 min av en lott flyttar dess slut till 2 min efter budet, högst 5 gånger.

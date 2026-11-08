@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Tahrik -->
 # Tahrik ve hız {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Her ailenin I. kademesi 20.000 krediye satılır. II. ila IV. kademeler [Montaj�
 
 ### Uzaylıları geride bırakmak {#outrunning-aliens}
 
-Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi, Impulse Thruster I ile 219,3, II ile 228,6 hızla uçar: ikisi de hâlâ Crystalys hızının altındadır, bu yüzden onu geride bırakmak için III. kademe bir itici gerekir (Impulse Thruster III ile 238,0, IV ile 241,0). Momentum ailesi o gemide aynı ya da biraz daha düşük hızla uçar (Momentum Thruster I ile 219,3; II ila IV ile sırasıyla 228,3, 236,1 ve 238,4): iki ailenin de I. ve II. kademesi Crystalys hızının altında, III. ve IV. kademesi ise üstündedir.
+Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi (temel hız 220), Impulse Thruster I ile 239,9, II ile 249,2, III ile 258,6, IV ile 261,6 hızla uçar: her kademe Crystalys’i geride bırakır, satın alınabilen Impulse Thruster I bile. Momentum ailesi o gemide aynı ya da biraz daha düşük hızla uçar (Momentum Thruster I ile 239,9; II ila IV ile sırasıyla 248,9, 256,7 ve 259,0): iki ailenin de her kademesi Crystalys hızının üstündedir, en az 9,9 farkla.

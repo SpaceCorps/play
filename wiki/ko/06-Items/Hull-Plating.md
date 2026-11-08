@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: 선체 장갑 -->
 # 선체 장갑 {#hull-plating}
 
@@ -45,7 +45,7 @@ Hull Plating I은 구매합니다. **II와 III는 업그레이드입니다.** �
 | **Paragon** | 5 | 75,000 |
 | **Storm** | 7 | 105,000 |
 | **Ironclad** | 15 | 225,000 |
-| **Wraith** | 9 | 135,000 |
+| **Wraith** | 10 | 150,000 |
 
 - **처음에는 모두 잠겨 있습니다.** 슬롯은 Skylab에서 연구하면 열립니다. 슬롯마다 기술이 하나이며, 1시간과 Dark Matter 10개로 첫 번째부터 순서대로 연구합니다. [연구](/wiki/03-Mechanics/Research.md#ship-technologies) 화면에서는 함선의 슬롯이 슬롯마다 점이 하나씩 붙은 카드 한 장으로 보입니다.
 - **함선 한 척이 아니라 함선의 종류입니다.** Paragon을 위해 연 슬롯은 Paragon의 모든 디자인에서도 열려 있습니다([함선 디자인](/wiki/03-Mechanics/Ship-Designs.md)). 기술은 영구히 내 것입니다. 초기화 뒤에도 남습니다.

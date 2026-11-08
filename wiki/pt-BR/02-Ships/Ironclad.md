@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 600.000
-- **Velocidade base**: 92
-- **Slots de laser**: 6
+- **Velocidade base**: 110
+- **Slots de laser**: 8
 - **Slots extras**: 3
 - **Slots de blindagem**: 15
 
@@ -33,7 +33,7 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 | Design | O que muda |
 | :--- | :--- |
 | **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire |
-| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink (velocidade limitada a 1.500) |
+| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 
 ## História {#lore}
 
-A Ironclad começou como um casco de cerco: uma cunha blindada feita para ficar diante dos canhões da estação e aguentar tudo o que o Enxame lançasse contra ela. Os estaleiros mantiveram a blindagem e a engrossaram, deram à nave sete slots de núcleo para geradores e 85% mais casco que a Wraith, penduraram na traseira um par de naceles de motor superdimensionadas para mover todo esse peso e cortaram os canhões para seis, para pagar a conta. Ela não foi feita para fugir de nada, e não precisa. Os pilotos a estacionam entre o Enxame e o que querem proteger e deixam a blindagem cinza-escura fazer o trabalho. As placas de blindagem claras são trocadas depois de cada surtida; as faixas claras ao longo das asas são a única parte dela que foi feita para ser vista.
+A Ironclad começou como um casco de cerco: uma cunha blindada feita para ficar diante dos canhões da estação e aguentar tudo o que o Enxame lançasse contra ela. Os estaleiros mantiveram a blindagem e a engrossaram, deram à nave sete slots de núcleo para geradores e mais que o dobro do casco da Wraith, penduraram na traseira um par de naceles de motor superdimensionadas para mover todo esse peso e cortaram os canhões para oito, para pagar a conta. Ela não foi feita para fugir de nada, e não precisa. Os pilotos a estacionam entre o Enxame e o que querem proteger e deixam a blindagem cinza-escura fazer o trabalho. As placas de blindagem claras são trocadas depois de cada surtida; as faixas claras ao longo das asas são a única parte dela que foi feita para ser vista.

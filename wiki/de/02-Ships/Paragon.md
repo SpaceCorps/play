@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 056d221c8d10db60 -->
+<!-- wiki-i18n source: 778c5b5caba86532 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ Die Paragon ist ein schwerer Kampfkreuzer mit ausgewogener Verteidigung und Offe
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 128.000
-- **Grundtempo**: 210
-- **Laser-Slots**: 8
+- **Grundtempo**: 230
+- **Laser-Slots**: 9
 - **Extra-Slots**: 3
 - **Panzerungs-Slots**: 5
 

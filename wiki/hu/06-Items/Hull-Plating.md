@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b031b05274071083 -->
+<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
 <!-- wiki-i18n title: Hajótest-páncélzat -->
 # Hajótest-páncélzat {#hull-plating}
 
@@ -45,7 +45,7 @@ A hajótest-páncélzat csak **páncélzatfoglalatba** illik, egy önálló fogl
 | **Paragon** | 5 | 75 000 |
 | **Storm** | 7 | 105 000 |
 | **Ironclad** | 15 | 225 000 |
-| **Wraith** | 9 | 135 000 |
+| **Wraith** | 10 | 150 000 |
 
 - **Kezdetben mind zárolva.** Egy foglalat akkor nyílik meg, ha a Skylabben kikutatod: foglalatonként egy technológia, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban. A [Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies) nézet egy hajó foglalatait egyetlen kártyaként mutatja, foglalatonként egy ponttal.
 - **Hajófajta, nem egy hajó.** A foglalatok, amelyeket a Paragonhoz kinyitottál, a Paragon minden dizájnján is nyitva vannak ([Hajódizájnok](/wiki/03-Mechanics/Ship-Designs.md)). A technológia örökre a tiéd: a wipe megtartja.

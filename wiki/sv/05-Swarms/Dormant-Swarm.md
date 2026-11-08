@@ -55,17 +55,17 @@ Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Skrov | 324 000 | 486 000 | 648 000 |
+| Skrov | 256 000 | 384 000 | 512 000 |
 | Sköld | 83 400 | 125 100 | 166 800 |
-| Laserskada (en salva per sekund) | 2 880 | 4 320 | 5 760 |
-| Hastighet | 220 | 220 | 220 |
+| Laserskada (en salva per sekund) | 3 120 | 4 680 | 6 240 |
+| Hastighet | 210 | 210 | 210 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 7 500 | 11 250 | 15 000 |
-| Krediter | 200 000 | 400 000 | 600 000 |
-| Thulium | 535 | 1 070 | 1 605 |
-| Erfarenhet (XP) | 32 100 | 64 200 | 96 300 |
-| Heder | 139 | 278 | 417 |
+| Krediter | 185 000 | 370 000 | 555 000 |
+| Thulium | 485 | 970 | 1 455 |
+| Erfarenhet (XP) | 29 200 | 58 400 | 87 600 |
+| Heder | 127 | 254 | 381 |
 | PvE-poäng per nedskjutning | 25 | 25 | 25 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.
@@ -84,15 +84,15 @@ Bygger på Paragon med 100 % av skrovet och 600 % av laserskadan; hastighet oc
 | :--- | ---: | ---: | ---: |
 | Skrov | 128 000 | 192 000 | 256 000 |
 | Sköld | 64 570 | 96 855 | 129 140 |
-| Laserskada (en salva per sekund) | 3 840 | 5 760 | 7 680 |
-| Hastighet | 210 | 210 | 210 |
+| Laserskada (en salva per sekund) | 4 320 | 6 480 | 8 640 |
+| Hastighet | 230 | 230 | 230 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 5 000 | 7 500 | 10 000 |
-| Krediter | 95 000 | 190 000 | 285 000 |
-| Thulium | 255 | 510 | 765 |
-| Erfarenhet (XP) | 15 200 | 30 400 | 45 600 |
-| Heder | 66 | 132 | 198 |
+| Krediter | 105 000 | 210 000 | 315 000 |
+| Thulium | 275 | 550 | 825 |
+| Erfarenhet (XP) | 16 600 | 33 200 | 49 800 |
+| Heder | 72 | 144 | 216 |
 | PvE-poäng per nedskjutning | 11 | 11 | 11 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.

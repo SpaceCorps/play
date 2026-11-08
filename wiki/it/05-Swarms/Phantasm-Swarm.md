@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Sciame Phantasm -->
 # Sciame Phantasm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ Lo sciame Phantasm è un **Boss Phantasm** con i suoi **Phantasm Guard**: un eno
 
 ## Come va lo scontro {#how-the-fight-goes}
 
-- **Porta un gruppo.** Tre piloti di livello 4–5 con munizioni x2 lo distruggono in circa un minuto e mezzo in Alpha, perdendo al massimo una nave; un pilota di quel livello da solo viene distrutto, e anche due. Navi migliori e munizioni x4 lo rendono molto più rapido.
+- **Porta un gruppo.** Tre piloti di livello 4–5 con munizioni x2 lo distruggono in circa un minuto e mezzo in Alpha, perdendo al massimo una nave; un pilota di quel livello da solo viene distrutto, e due vincono a malapena, e solo finché i colpi sono distribuiti. Navi migliori e munizioni x4 lo rendono molto più rapido.
 - **Spara al boss, non ai Guard.** Un Guard cade in pochi secondi, ma ne arriva uno nuovo con la frequenza indicata nell’elenco *In breve*, e ciò che i Guard curano è una piccola parte di ciò che infligge un gruppo: lasciarli stare costa un po’ di tempo, dare loro la caccia ne costa di più.
 - **Beta e Gamma sono più duri.** Gli sciami di quei mondi sono più forti ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)), quindi servono più piloti o munizioni migliori.
 - **Tieni d’occhio il settore.** `x-4` è un settore PvP in Alpha, e `x-3` e `x-4` lo sono in Beta e Gamma ([Mondi](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)): un rivale può unirsi allo scontro o aspettare la cassa. Lascia una nave del gruppo di guardia.

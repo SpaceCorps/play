@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 600.000
-- **Grundtempo**: 92
-- **Laser-Slots**: 6
+- **Grundtempo**: 110
+- **Laser-Slots**: 8
 - **Extra-Slots**: 3
 - **Panzerungs-Slots**: 15
 
@@ -33,7 +33,7 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 | Design | Was es ändert |
 | :--- | :--- |
 | **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire |
-| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink (auf 1.500 Tempo begrenzt) |
+| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 
 ## Hintergrund {#lore}
 
-Die Ironclad begann als Belagerungsrumpf: ein gepanzerter Keil, gebaut, um vor den Stationsgeschützen zu stehen und alles einzustecken, was der Schwarm auf sie warf. Die Werften behielten die Panzerung und machten sie dicker, gaben ihr sieben Kern-Slots für Generatoren und 85 % mehr Hülle als die Wraith, hängten ihr ein Paar übergroßer Triebwerksgondeln ans Heck, um das Gewicht zu bewegen, und kürzten dafür die Geschütze auf sechs. Sie ist nicht dafür gebaut, irgendetwas abzuhängen, und das muss sie auch nicht. Piloten parken sie zwischen dem Schwarm und dem, was sie schützen wollen, und lassen die dunkelgraue Panzerung die Arbeit machen. Die hellen Panzerplatten werden nach jedem Einsatz ersetzt; die hellen Streifen entlang der Flügel sind der einzige Teil von ihr, der je gesehen werden sollte.
+Die Ironclad begann als Belagerungsrumpf: ein gepanzerter Keil, gebaut, um vor den Stationsgeschützen zu stehen und alles einzustecken, was der Schwarm auf sie warf. Die Werften behielten die Panzerung und machten sie dicker, gaben ihr sieben Kern-Slots für Generatoren und mehr als doppelt so viel Hülle wie die Wraith, hängten ihr ein Paar übergroßer Triebwerksgondeln ans Heck, um das Gewicht zu bewegen, und kürzten dafür die Geschütze auf acht. Sie ist nicht dafür gebaut, irgendetwas abzuhängen, und das muss sie auch nicht. Piloten parken sie zwischen dem Schwarm und dem, was sie schützen wollen, und lassen die dunkelgraue Panzerung die Arbeit machen. Die hellen Panzerplatten werden nach jedem Einsatz ersetzt; die hellen Streifen entlang der Flügel sind der einzige Teil von ihr, der je gesehen werden sollte.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Hajtás -->
 # Hajtás és sebesség {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Az egyes családok I. szintjét 20 000 kreditért árulják. A II–IV. szintet
 
 ### Az idegenek lehagyása {#outrunning-aliens}
 
-Az idegenek sebessége 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) és 230 (Crystalys). Egy Engine II-vel és két fúvókával felszerelt Ostirion 219,3-mal repül Impulse Thruster I-gyel és 228,6-tal II-vel: mindkettő még a Crystalys alatt van, ezért egy III. szintű fúvóka kell hozzá, hogy lehagyd (238,0 Impulse Thruster III-mal, 241,0 IV-gyel). A Momentum fúvókák ezen a hajón ugyanolyan gyorsan vagy kicsit alacsonyabban repülnek (219,3 egy Momentum Thruster I-gyel, aztán 228,3, 236,1 és 238,4 a II.–IV.-gyel): mindkét család I. és II. szintje a Crystalys alatt marad, a III. és IV. szint fölé kerül.
+Az idegenek sebessége 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) és 230 (Crystalys). Egy Engine II-vel és két fúvókával felszerelt Ostirion (alapsebessége 220) 239,9-cel repül Impulse Thruster I-gyel, 249,2-vel II-vel, 258,6-tal III-mal és 261,6-tal IV-gyel: minden szint lehagyja a Crystalyst, még a megvásárolható Impulse Thruster I is. A Momentum fúvókák ezen a hajón ugyanolyan gyorsan vagy kicsit alacsonyabban repülnek (239,9 egy Momentum Thruster I-gyel, aztán 248,9, 256,7 és 259,0 a II.–IV.-gyel): mindkét család minden szintje a Crystalys fölött van, legalább 9,9-cel.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Propulsão -->
 # Propulsão e velocidade {#propulsion-speed}
 
@@ -90,4 +90,4 @@ O nível I de cada família é vendido por 20.000 créditos. Os níveis II a IV 
 
 ### Deixando os alienígenas para trás {#outrunning-aliens}
 
-Os alienígenas voam a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Uma Ostirion com um Engine II e dois propulsores voa a 219,3 com Impulse Thruster I e a 228,6 com II: ambos ainda abaixo do Crystalys, então é preciso um propulsor de nível III para deixá-lo para trás (238,0 com Impulse Thruster III, 241,0 com IV). Os Momentum Thrusters voam igual ou um pouco mais baixo nessa nave (219,3 com um Momentum Thruster I; depois 228,3, 236,1 e 238,4 com II a IV): os níveis I e II das duas famílias ficam abaixo de um Crystalys, e os níveis III e IV ficam acima.
+Os alienígenas voam a 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) e 230 (Crystalys). Uma Ostirion (velocidade base 220) com um Engine II e dois propulsores voa a 239,9 com Impulse Thruster I, 249,2 com II, 258,6 com III e 261,6 com IV: todos os níveis deixam o Crystalys para trás, até o Impulse Thruster I que se pode comprar. Os Momentum Thrusters voam igual ou um pouco mais baixo nessa nave (239,9 com um Momentum Thruster I; depois 248,9, 256,7 e 259,0 com II a IV): todos os níveis das duas famílias ficam acima de um Crystalys, por pelo menos 9,9.

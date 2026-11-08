@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad, bir Ostirion gemisinin iki katı gövdeye ve iki katı topa sahip bir kruvazördür: Ostirion ile Paragon arasında duran çekiç başlı bir gemi; Mağaza’dan kredi ve Thulium birlikte ödenerek satın alınır. Her pilot satın alabilir.
+Nomad, bir Ostirion gemisinin neredeyse iki katı gövdeye ve iki katı topa sahip bir kruvazördür: Ostirion ile Paragon arasında duran çekiç başlı bir gemi; Mağaza’dan kredi ve Thulium birlikte ödenerek satın alınır. Her pilot satın alabilir.
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 96.000
-- **Temel hız**: 200
+- **Gövde puanı (HP)**: 111.000
+- **Temel hız**: 210
 - **Lazer yuvaları**: 6
 - **Ekstra yuvalar**: 2
 
@@ -36,4 +36,4 @@ Nomad, bir Ostirion gemisinin iki katı gövdeye ve iki katı topa sahip bir kru
 
 ## Hikâye {#lore}
 
-Nomad bir kervan gemisi olarak çizildi: istasyon toplarının ötesindeki hatlar için uzun menzilli bir etüt ve yük gövdesi; orada bir mürettebat haftalarca uçup dost tek bir yüzle karşılaşmayabilir. Yukarıdan bakıldığında bir çekiç başıdır. Geniş burnu bütün genişliği boyunca alacakaranlık çivit rengi plakayla zırhlanmıştır; sığ bir V biçimindeki ön kenarında üç çift halinde altı top vardır, köprüye en yakın çift en uzağa ulaşır. İki uzun kiriş motor kapsüllerine doğru daralır, ince bir omurga köprüyü taşır ve çekicin altında açık bir kargo güvertesi kum rengi dört sandığı ve bir sensör kubbesini barındırır. Kum rengi, alacakaranlık çivit mavisi ve mor seyir ışıkları onun renkleridir; başka hiçbir gemi bunları taşımaz. Konvoy kaptanları aynı zamanda konvoyun kendisi olabilecek bir eskort istedi; tersaneler de onlara gövdesi ve topları iki katına çıkarılmış bir Ostirion verdi.
+Nomad bir kervan gemisi olarak çizildi: istasyon toplarının ötesindeki hatlar için uzun menzilli bir etüt ve yük gövdesi; orada bir mürettebat haftalarca uçup dost tek bir yüzle karşılaşmayabilir. Yukarıdan bakıldığında bir çekiç başıdır. Geniş burnu bütün genişliği boyunca alacakaranlık çivit rengi plakayla zırhlanmıştır; sığ bir V biçimindeki ön kenarında üç çift halinde altı top vardır, köprüye en yakın çift en uzağa ulaşır. İki uzun kiriş motor kapsüllerine doğru daralır, ince bir omurga köprüyü taşır ve çekicin altında açık bir kargo güvertesi kum rengi dört sandığı ve bir sensör kubbesini barındırır. Kum rengi, alacakaranlık çivit mavisi ve mor seyir ışıkları onun renkleridir; başka hiçbir gemi bunları taşımaz. Konvoy kaptanları aynı zamanda konvoyun kendisi olabilecek bir eskort istedi; tersaneler de onlara gövdesi neredeyse, topları ise tam iki katına çıkarılmış bir Ostirion verdi.

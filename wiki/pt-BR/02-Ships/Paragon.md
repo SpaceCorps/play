@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 056d221c8d10db60 -->
+<!-- wiki-i18n source: 778c5b5caba86532 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ A Paragon é um cruzador de combate pesado, projetado com defesa e ataque equili
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 128.000
-- **Velocidade base**: 210
-- **Slots de laser**: 8
+- **Velocidade base**: 230
+- **Slots de laser**: 9
 - **Slots extras**: 3
 - **Slots de blindagem**: 5
 

@@ -16,12 +16,12 @@ An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best
 
 | What | Item |
 |---|---|
-| Lasers | 8 Helios Beams, each with a Damage Amp IV, a Crit Amp IV and a Penetration Amp IV |
+| Lasers | 10 Helios Beams, each with a Damage Amp IV, a Crit Amp IV and a Penetration Amp IV |
 | Shields and engines | 11 Heavy Shield Cores and 4 Adaptive Cores, each with Capacity and Absorption Shield Cells IV or Impulse and Momentum Thrusters IV |
 | Extras | a Repair Drone IV, an Auto-Repair CPU and a Base CPU II |
 | Hull | 15 Hull Plating III |
 
-At Alpha strength he has **858,750 hull**, **1,309,534 shield** (recharging 67,614 a second after 15 seconds without a hit), 86.3% absorbance, speed 89, 945 range and a volley of **4,104 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.2 million points to chew through in Alpha: one Wraith with the same lasers needs about twelve minutes of steady fire on its own, ten of them about a minute and ten seconds.
+At Alpha strength he has **858,750 hull**, **1,309,534 shield** (recharging 67,614 a second after 15 seconds without a hit), 86.3% absorbance, speed 98, 945 range and a volley of **4,324 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.2 million points to chew through in Alpha: one Wraith with the same lasers needs about thirteen minutes of steady fire on its own, ten of them about 77 seconds.
 
 ## Fighting Him
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ L’Ostirion è un solido intercettore di fascia media, che offre un netto migli
 
 ## Statistiche {#stats}
 
-- **Punti scafo (HP)**: 48.000
-- **Velocità di base**: 200
+- **Punti scafo (HP)**: 64.000
+- **Velocità di base**: 220
 - **Slot laser**: 3
 - **Slot extra**: 2
 
@@ -15,7 +15,7 @@ L’Ostirion è un solido intercettore di fascia media, che offre un netto migli
 
 - **Slot principali (100% di efficienza)**: 3
 - **Slot di supporto (75% di efficienza)**: 3
-- **Slot ausiliari (50% di efficienza)**: 0
+- **Slot ausiliari (50% di efficienza)**: 1
 
 ---
 

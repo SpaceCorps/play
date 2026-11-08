@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b7458399908a090f -->
+<!-- wiki-i18n source: aa5ab1afb62faea7 -->
 <!-- wiki-i18n title: Laser -->
 # Laser e munizioni {#lasers-ammo}
 
@@ -34,11 +34,11 @@ Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000
 Standard Battery | ammo, common | buy 5 Credits | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Advanced Plasma | ammo, rare | buy 0.5 Thulium | /wiki/06-Items/Lasers.md#laser-ammunition
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery | ammo, rare | buy 50 Credits | /wiki/06-Items/Lasers.md#siphon-battery
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
@@ -62,7 +62,7 @@ Equipaggia i laser direttamente negli slot laser della nave o dentro i droni per
 | **Quantum Laser II** | Comune | 65 | 1% | 700 | 2 | 80.000 crediti |
 | **Quantum Laser III** | Raro | 80 | 10% | 800 | 3 | Solo da creare |
 | **Starfire-III** | Mitico | 135 | 15% | 850 | 3 | Solo da creare |
-| **Helios Beam** | Mitico | 185 | 25% | 900 | 3 | Solo da creare |
+| **Helios Beam** | Mitico | 150 | 20% | 900 | 3 | Solo da creare |
 
 La colonna Portata è quella di ciascun laser. **La tua nave spara alla media delle portate dei suoi laser** (contano anche i laser nei tuoi droni), arrotondata all’unità più vicina, e ogni laser spara quando il bersaglio è entro quella distanza. Una Starfire-III accanto a due Quantum Laser II dà alla nave una portata di 750, non di 850; tre Starfire-III mantengono 850, e laser tutti uguali non cambiano nulla. Un bonus di portata della Forgia conta sul proprio laser prima che si faccia la media. Senza laser l’Hangar non indica nessuna portata (un trattino) e i laser non possono sparare, ma i tuoi razzi sì, ognuno con la propria portata (vedi [Razzi](/wiki/06-Items/Rockets.md)). Nell’Hangar il riquadro dice “Portata media” dove i tuoi laser differiscono, e passandoci sopra elenca la portata di ciascun laser.
 
@@ -133,13 +133,13 @@ Montali direttamente nello slot di un laser per potenziarne le caratteristiche. 
 | Penetration Amp III | 2.000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2.400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-Un Helios Beam con i suoi 3 amp del tier IV contiene 4 pezzi dell’ultimo tier: 16 Dark Matter Plate, 80 Dark Matter, 40 razzi N.I.K.E. in media. Un Wraith con l’ultimo tier in ogni slot contiene 1.200 Dark Matter ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Un Helios Beam con i suoi 3 amp del tier IV contiene 4 pezzi dell’ultimo tier: 16 Dark Matter Plate, 80 Dark Matter, 40 razzi N.I.K.E. in media. Un Wraith con l’ultimo tier in ogni slot contiene 1.280 Dark Matter ([Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Quale amp va dove {#which-amp-goes-where}
 
-Un amp di danno aggiunge lo stesso danno a qualsiasi laser, quindi vale di più sui **Quantum Laser**. Un amp critico moltiplica ciò che il laser fa già, quindi vale di più quanto più forte colpisce il laser: sulla **Starfire-III** pareggia con la linea del danno e sull’**Helios Beam** risulta in vantaggio di circa il 3,5%. La probabilità critica di un laser si ferma al 100%: tre Crit Amp III o Crit Amp IV portano un Helios Beam esattamente a quel valore. Un Penetration Amp non dà né danno né probabilità critica: serve contro le navi i cui scudi altrimenti prenderebbero la maggior parte del tuo colpo ([più sotto](#when-is-a-penetration-amp-worth-a-slot)).
+Un amp di danno aggiunge lo stesso danno a qualsiasi laser, quindi vale di più sui **Quantum Laser**. Un amp critico moltiplica ciò che il laser fa già, quindi vale di più quanto più forte colpisce il laser: sulla **Starfire-III** pareggia con la linea del danno e sull’**Helios Beam** risulta in vantaggio di circa l’1%. La probabilità critica di un laser si ferma al 100%: tre Crit Amp III o Crit Amp IV portano un Helios Beam (che ha già il 20% di suo) al 95%. Un Penetration Amp non dà né danno né probabilità critica: serve contro le navi i cui scudi altrimenti prenderebbero la maggior parte del tuo colpo ([più sotto](#when-is-a-penetration-amp-worth-a-slot)).
 
-Riempito con lo stesso amp, un laser è sempre più forte di quello inferiore, quindi un amp migliore non sostituisce mai un laser migliore: un Quantum Laser III con tre Damage Amp IV fa meno danno di un Helios Beam con tre Damage Amp I (con pezzi dello stesso grado di incantamento: un Quantum Laser III e dei Damage Amp IV forgiati a Divino o oltre, con i valori migliori, possono superare un Helios Beam semplice con dei Damage Amp I, per un soffio a Divino).
+Riempito con lo stesso amp, un laser è sempre più forte di quello inferiore, quindi un amp migliore compensa solo una parte di un laser migliore: un Quantum Laser III con tre Damage Amp IV fa più danno di un Helios Beam con tre Damage Amp I, ma meno di uno con tre Damage Amp III (con pezzi dello stesso grado di incantamento: un Quantum Laser III e dei Damage Amp IV forgiati a Eterno, con i valori migliori, possono superare un Helios Beam semplice con dei Damage Amp III, per un soffio).
 
 
 ---
@@ -194,7 +194,7 @@ La **Dark Matter Ammo II** colpisce a **x6**, ma solo **una raffica ogni 1,5 sec
 
 Ogni colpo laser toglie punti all’assorbimento del tuo bersaglio, da un massimo di tre fonti che si sommano: le tue **munizioni** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), i tuoi **Penetration Amp** e una **formazione di droni** (Gemini +15%; [Formazioni di droni](/wiki/03-Mechanics/Formations.md)). **Niente limita il totale** (un razzo diretto somma allo stesso modo la propria penetrazione e quella della formazione: [Razzi](/wiki/06-Items/Rockets.md)). Gli scudi prendono poi l’assorbimento del bersaglio meno la penetrazione del colpo, lo scafo il resto ([Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser fanno 36%; un Penetration Amp IV in un laser su dodici fa 1%. Un Wraith ha 12 laser e 36 slot amp, e vanno riempiti tutti e 36 per arrivare al 36%.
+- **I tuoi amp contano come la media dei tuoi laser.** Una raffica è un solo colpo, quindi il gioco somma la penetrazione degli amp di ciascun laser (contano anche i laser nei tuoi droni) e fa la media sui tuoi laser, ciascuno pesato per il suo danno, come per la probabilità critica. Tre Penetration Amp IV in ogni laser fanno 36%; un Penetration Amp IV in un laser su tredici fa circa l’1%. Un Wraith ha 13 laser e 39 slot amp, e vanno riempiti tutti e 39 per arrivare al 36%.
 - **L’Hangar lo mostra.** Le statistiche di combattimento dell’Hangar hanno un riquadro **Penetrazione** su ogni nave, con il valore degli amp laser della configurazione mostrata (0,0% senza Penetration Amp); munizioni e formazione non ne fanno parte. La finestra **Nave** in volo ha un chip **Penetrazione** in fondo alla riga in basso (i chip della configurazione e della velocità mostrano solo un’icona e un numero per fargli posto): mostra il totale di un colpo laser, i tuoi amp, la formazione che indossi e le munizioni che spari, sommati non appena cambi qualcosa, e il suo suggerimento elenca le tre parti.
 - **Il miglior laser fa il 61% con l’x4, il 71% con l’Antimatter.** Un Experimental Fusion Core (10%), un Gemini (15%) e tre Penetration Amp IV in ogni laser (36%) fanno 61%; una Antimatter Battery (20%) al suo posto fa 71%, con danno x3 invece di x4.
 - **Un bonus della Forgia su un Penetration Amp IV conta.** Un Penetration Amp si forgia come gli altri amp, e il suo unico bonus moltiplica la penetrazione: un bonus Eterno (da +9% a +15%) porta un Penetration Amp IV a 13,1–13,8 punti invece di 12. Nella configurazione migliore, tre Eterni fanno 66,4%, e ogni punto conta.
@@ -229,6 +229,6 @@ Il miglior laser svuota un nucleo scudo senza cella e un Light Shield Core con l
 
 **Un Penetration Amp contrasta l’assorbimento, e più è alto, più conta: contro una nave con scafo piccolo a circa il 101% (configurazioni con Emporio, Forgia e Rampart) un assetto di Penetration uccide circa 2,6 volte più in fretta del miglior assetto semplice, e contro il miglior scudo di serie (85%) un trio di Penetration Amp impiega circa l’19% di tempo in meno di un trio di Crit Amp dello stesso tier. Contro gli alieni guadagna quasi nulla.**
 
-- **Non dà danno.** Su un Helios Beam, tre Penetration Amp IV fanno 187 di danno a raffica (munizioni x1, la media del tiro e dei critici), dove tre Damage Amp IV ne fanno 356 e tre Crit Amp IV 369: circa la metà. Ciò che riguadagna è la quota dello scudo, quindi conviene solo dove lo scafo è piccolo rispetto allo scudo e l’assorbimento è alto; contro un Wraith o un Ironclad, il cui grande scafo regge comunque, un set semplice di Damage o Crit è veloce più o meno uguale (un Penetration Amp in un laser guadagna al massimo il 5%).
+- **Non dà danno.** Su un Helios Beam, tre Penetration Amp IV fanno 149 di danno a raffica (munizioni x1, la media del tiro e dei critici), dove tre Damage Amp IV ne fanno 308 e tre Crit Amp IV 312: circa la metà. Ciò che riguadagna è la quota dello scudo, quindi conviene solo dove lo scafo è piccolo rispetto allo scudo e l’assorbimento è alto; contro un Wraith o un Ironclad, il cui grande scafo regge comunque, un set semplice di Damage o Crit è veloce più o meno uguale (un Penetration Amp in un laser guadagna al massimo il 5%).
 - **Alieni.** I loro scudi prendono l’80% di un colpo meno la tua penetrazione, quindi funziona anche su di loro, ma un Damage Amp o un Crit Amp del tier li uccide altrettanto in fretta o più in fretta, salvo un Phantasm o un Goombah combattuto con una formazione, dove un Penetration Amp in un laser guadagna fino al 5%.
-- **Quanto costa.** Ogni Penetration Amp IV richiede 4 Dark Matter Plate (20 Dark Matter), come ogni amp del tier IV, quindi un Wraith che riempie i suoi 36 slot ha bisogno di 144 plate, 720 Dark Matter.
+- **Quanto costa.** Ogni Penetration Amp IV richiede 4 Dark Matter Plate (20 Dark Matter), come ogni amp del tier IV, quindi un Wraith che riempie i suoi 39 slot ha bisogno di 156 plate, 780 Dark Matter.

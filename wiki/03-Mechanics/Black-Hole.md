@@ -13,7 +13,7 @@ Distances are from the centre of the sector, in map units. The sector is 32,000 
 | :--- | ---: | :--- |
 | **Radiation** | 4,000 | Your ship takes damage every second, a share of its total maximum HP. The closer, the more. |
 | **Pull** | 3,000 | The black hole pulls your ship toward the centre, harder the closer you are. A ship that is not flying is carried. |
-| **Point of no return** | about 1,000 to 2,600 | Where the pull equals your ship's speed. Inside it, even at full power, you are drawn in. It depends on your speed. |
+| **Point of no return** | about 900 to 2,500 | Where the pull equals your ship's speed. Inside it, even at full power, you are drawn in. It depends on your speed. |
 | **Event horizon** | 300 | Any ship that reaches it is destroyed at once, whatever its hull and shield. |
 
 The portals of Danger Sector 4 and the lanes between them all pass well outside the radiation, so you never meet it by accident on the way through (but for the last days of a season, see [Growing Before the Wipe](#growing-before-the-wipe)). From season day 11 the same sector also holds the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), in its top-left corner, far from the hole; the aliens there never come into the hole's rings.
@@ -56,11 +56,11 @@ Between two rows the damage rises in a straight line. In hit points a second, fo
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Protos | 30,000 | 165 | 240 | 600 | 1,500 | 3,300 |
 | Kitefin | 46,000 | 253 | 368 | 920 | 2,300 | 5,060 |
-| Ostirion | 82,500 | 454 | 660 | 1,650 | 4,125 | 9,075 |
-| Nomad | 130,500 | 718 | 1,044 | 2,610 | 6,525 | 14,355 |
+| Ostirion | 98,500 | 542 | 788 | 1,970 | 4,925 | 10,835 |
+| Nomad | 145,500 | 800 | 1,164 | 2,910 | 7,275 | 16,005 |
 | Paragon | 162,500 | 894 | 1,300 | 3,250 | 8,125 | 17,875 |
-| Storm | 198,000 | 1,089 | 1,584 | 3,960 | 9,900 | 21,780 |
-| Wraith | 372,000 | 2,046 | 2,976 | 7,440 | 18,600 | 40,920 |
+| Storm | 228,000 | 1,254 | 1,824 | 4,560 | 11,400 | 25,080 |
+| Wraith | 304,000 | 1,672 | 2,432 | 6,080 | 15,200 | 33,440 |
 | Ironclad | 673,200 | 3,703 | 5,386 | 13,464 | 33,660 | 74,052 |
 
 - The **shield takes it first**, then the hull. It is not a hit: the shield's absorbance does not come into it, and it cannot be dodged.
@@ -93,20 +93,20 @@ Your **point of no return** is the distance where the pull equals your speed. A 
 
 | Ship (stock build) | Speed | Point of no return |
 | :--- | ---: | ---: |
-| Ironclad | 99 | 1,974 |
-| Protos | 165 | 1,577 |
-| Kitefin | 184 | 1,480 |
-| Ostirion | 208 | 1,362 |
-| Nomad | 211 | 1,347 |
-| Paragon | 222 | 1,287 |
-| Wraith | 233 | 1,208 |
-| Storm | 263 | 995 |
+| Ironclad | 117 | 1,826 |
+| Protos | 188 | 1,462 |
+| Kitefin | 202 | 1,388 |
+| Nomad | 221 | 1,294 |
+| Wraith | 223 | 1,281 |
+| Ostirion | 231 | 1,220 |
+| Paragon | 242 | 1,141 |
+| Storm | 273 | 924 |
 
 A ship design changes the speed of its ship, and its point of no return with it: a DUMA is slower than an Ironclad, a NOTSUM faster than a Storm.
 
 A ship faster than 272 units a second (a runner build, or a stock Wraith with a running Afterburner) has its point of no return where it always was: at speed 300 it is 885, at 432 it is 747.
 
-Build for speed and you can leave from deeper; load up on heavy shields and you cannot (an Ironclad, the slowest ship, with a Heavy Shield Core in all of its 14 slots flies at 39.1, with its point of no return at about 2,600). Only a burst of speed turns a ship back from just inside its point of no return: a running [Afterburner](/wiki/03-Mechanics/Abilities.md) counts, and moves the point of no return deeper for as long as it runs (fifteen seconds with one engine, 22.5 with two, thirty with three; Afterburner III takes a stock Protos's from 1,577 to 1,225 and a stock Wraith's from 1,208 to 851). Nothing can leave from within about 440 units, even a ship built for speed with every speed stat enchanted to the top and the strongest burst running (an Afterburner III enchanted to the cap, x1.46); an unenchanted ship built for speed (Engine IIIs and Adaptive Core IIIs with three Impulse Thruster IVs each), with an Afterburner III, leaves from outside 477 at best.
+Build for speed and you can leave from deeper; load up on heavy shields and you cannot (an Ironclad, the slowest ship, with a Heavy Shield Core in all of its 14 slots flies at 46.8, with its point of no return at about 2,500). Only a burst of speed turns a ship back from just inside its point of no return: a running [Afterburner](/wiki/03-Mechanics/Abilities.md) counts, and moves the point of no return deeper for as long as it runs (fifteen seconds with one engine, 22.5 with two, thirty with three; Afterburner III takes a stock Protos's from 1,462 to 994 and a stock Wraith's from 1,281 to 869). Nothing can leave from within about 440 units, even a ship built for speed with every speed stat enchanted to the top and the strongest burst running (an Afterburner III enchanted to the cap, x1.46); an unenchanted ship built for speed (Engine IIIs and Adaptive Core IIIs with three Impulse Thruster IVs each), with an Afterburner III, leaves from outside 475 at best.
 
 The fall from the point of no return starts slowly: a ship a few units inside it, at full power, is drawn in over twenty seconds or more, then faster and faster. The pull is not flight: it counts for no distance flown.
 
@@ -157,4 +157,4 @@ The hole gives back **Dark Matter** for a **N.I.K.E.** rocket that reaches it. A
 - **How many.** A map holds at most 32 Dark Matter crates; a new one pushes out the oldest of them, and never another kind of crate. The [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) adds nothing to Dark Matter.
 - **What you see.** When a N.I.K.E. crosses the horizon it is stretched into the hole, space ripples out from where it went in, and the disk and the photon ring flare for about a second and a half (a third of that, at half the light, under **Reduce Motion**). A moment later the crates come out of the hole and drift to their places on the rim: each is a violet-black orb with a bright rim and sparkles, easy to see from far, and titled **Dark Matter** when you hover it. Yours show the seconds you have left over them, and show on the minimap as a small violet mark, as they do for your clan; other pilots' crates show on the minimap only once their minute is over.
 - **What you hear.** The hole makes a soft, low sound when it makes Dark Matter: a breath drawn in, then two cold bell notes as the first crate comes out. You hear it for your own N.I.K.E.s wherever you are on the map, and for another pilot's when its crates come out within 3,200 units of your ship, fainter the farther away they are. However many N.I.K.E.s fly, it sounds once in three seconds at most, and it follows the **Sound Effects** volume.
-- **What it is for.** Assembly presses 5 Dark Matter with a Velkonite and an Orvium Reinforced Plate into a **Dark Matter Plate**, and [The Forge](/wiki/06-Items/Forge.md) asks for two of them to raise an item from Godly to Rupturing and again from Rupturing to Eternal: ten Dark Matter a step. The last tier of every upgrade chain asks for 4 plates, 20 Dark Matter a piece, and at least one Ancient Control Unit: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. The Skylab's [Research Centre](/wiki/03-Mechanics/Research.md#dark-matter) needs Dark Matter too: 10 for each of the 16 technologies at the top of its tree, 160 in all, added to the Centre before the research starts. The drone formations need it too, 5, 13 or 20 each depending on strength: 189 more, 349 in all. The two Hull Plating researches ask 65 more, and the ship designs and hull plate slots 490 ([Research](/wiki/03-Mechanics/Research.md#ship-technologies)). The module levels of the Skylab's Engine, Defense and Radar modules ask 115 more ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). A Helios Beam with its three tier IV amps holds 80 Dark Matter, and a Wraith carrying only last-tier pieces 1,200 ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+- **What it is for.** Assembly presses 5 Dark Matter with a Velkonite and an Orvium Reinforced Plate into a **Dark Matter Plate**, and [The Forge](/wiki/06-Items/Forge.md) asks for two of them to raise an item from Godly to Rupturing and again from Rupturing to Eternal: ten Dark Matter a step. The last tier of every upgrade chain asks for 4 plates, 20 Dark Matter a piece, and at least one Ancient Control Unit: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. The Skylab's [Research Centre](/wiki/03-Mechanics/Research.md#dark-matter) needs Dark Matter too: 10 for each of the 16 technologies at the top of its tree, 160 in all, added to the Centre before the research starts. The drone formations need it too, 5, 13 or 20 each depending on strength: 189 more, 349 in all. The two Hull Plating researches ask 65 more, and the ship designs and hull plate slots 490 ([Research](/wiki/03-Mechanics/Research.md#ship-technologies)). The module levels of the Skylab's Engine, Defense and Radar modules ask 115 more ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). A Helios Beam with its three tier IV amps holds 80 Dark Matter, and a Wraith carrying only last-tier pieces 1,280 ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).

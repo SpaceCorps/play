@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e23339b2091d0bba -->
+<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -6,8 +6,8 @@ Ostirion, sağlam bir orta kademe önleme gemisidir; hızda, savunmada ve ateş 
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 48.000
-- **Temel hız**: 200
+- **Gövde puanı (HP)**: 64.000
+- **Temel hız**: 220
 - **Lazer yuvaları**: 3
 - **Ekstra yuvalar**: 2
 
@@ -15,7 +15,7 @@ Ostirion, sağlam bir orta kademe önleme gemisidir; hızda, savunmada ve ateş 
 
 - **Çekirdek yuvaları (%100 verimlilik)**: 3
 - **Destek yuvaları (%75 verimlilik)**: 3
-- **Yardımcı yuvalar (%50 verimlilik)**: 0
+- **Yardımcı yuvalar (%50 verimlilik)**: 1
 
 ---
 

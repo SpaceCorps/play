@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -91,7 +91,7 @@ Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merő
 
 - **Mit állít meg.** Minden lövés, amely átszeli, a falat találja el, bárki adta le és bármelyik oldalról: lézersorozat, rakéta, egy idegen sorozata. Ami mögötte áll, semmit sem kap, a sebzést a fal életereje viseli. Egy rakéta robbanása, amely a falnál megy el, a közeli oldalán lévő hajókat éri, a mögötte lévőket nem. A saját lövéseidet is: a saját falaidon át nem tudsz kifelé lőni. A N.I.K.E. és a Dormant Swamp lövegtornyai átrepülnek rajta, ahogy az aszteroidák felett is.
 - **Mit éget.** Minden hajó, amelynek a törzse hozzáér a sávhoz, **másodpercenként 2 500 sebzést** kap, előbb a pajzsa, a tiéd is, az idegenek és a vállalati pilóták is. A biztonságos zónában vagy újraéledés védelme alatt álló hajó nem ég, és két sáv egy hajón nem adódik össze.
-- **Meddig tart.** Az 1. szintű fal **30 000 életerőpontos**, a 2. szintű **90 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenkét Helios Beammel és x4 lőszerrel nagyjából 3,5 másodperc alatt lebont egy 1. szintű falat.
+- **Meddig tart.** Az 1. szintű fal **30 000 életerőpontos**, a 2. szintű **90 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenhárom Helios Beammel és x4 lőszerrel nagyjából 4 másodperc alatt lebont egy 1. szintű falat.
 - **Egyszerre egy, megnyomásonként egy fal.** Az új fal a régi helyére kerül. Egy megnyomás után a tárgy **90 másodpercig** tölt; a várakozás a tiéd, nem a hajóé: a halál vagy a kijelentkezés nem rövidíti. Egy megnyomás **egy, a hely szintjének megfelelő falat** használ el, és csak akkor, ha a fal áll: az a megnyomás, amelyet a játék elutasít (lásd lent), nem használ el semmit, és nem indít várakozást. Ha ebből a szintből nincs több, azt mondja: „Nincs több Energetic Wall.”, és a másik szintet soha nem használja el helyette.
 - **Hol nem.** Nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a sáv biztonságos zónához vagy kapuhoz érne, nem álcázva, és nem ott, ahol a sáv közepe a térképen kívülre esne. A játék megmondja, melyik eset.
 - **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
@@ -154,9 +154,9 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 
 ### Auto-Rocket CPU
 
-- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre vagy ellenséges pilótára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet.
+- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre, egy ellenséges pilótára vagy egy aszteroidára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet. Aszteroidára ugyanúgy költi a rakétákat, mint hajóra, ezért kapcsold KI, amíg csak bányászol.
 - **A kapcsoló.** Szereld fel egy Extrák helyre, és nyomd meg az ARL helyét a be- vagy kikapcsoláshoz. KI állapotban indul, és úgy marad, ahogy hagytad, akkor is, ha újra bejelentkezel. A hely BE vagy KI feliratot mutat, és felvillan, amikor a CPU lő.
-- **Mit nem tesz soha.** Soha nem választ célpontot, soha nem lő aszteroidákra, biztonságos zónából vagy álcázva, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
+- **Mit nem tesz soha.** Soha nem választ célpontot, biztonságos zónából vagy álcázva nem lő, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
 - **Elfogyott a rakéta.** Egyszer szól, és újra lő, amint lesz több.
 
 

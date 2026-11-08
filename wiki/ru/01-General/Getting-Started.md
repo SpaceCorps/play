@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d2d2a520ca5cb418 -->
+<!-- wiki-i18n source: 80430516b86b4df2 -->
 <!-- wiki-i18n title: Начало игры -->
 # Начало игры в SpaceCorps {#getting-started-in-spacecorps}
 

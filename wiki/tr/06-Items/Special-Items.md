@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 77234a6ca233f292 -->
+<!-- wiki-i18n source: fb052da5a08f1ff5 -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -44,7 +44,7 @@ Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise
 
 ### Schematics
 
-**Şu an süren araştırmayı**, o teknoloji araştırılması **en fazla 24 saat** sürüyorsa bitirir. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 158 teknolojisinden 142’i uygundur. 48 ya da 72 saat süren 16’sı değildir: Wraith, üç dron formasyonu, Hull Plating III, Motor Modülü ile Savunma Modülü’nün 4. ve 5. seviyeleri ve yedi Pilot teknolojisi.
+**Şu an süren araştırmayı**, o teknoloji araştırılması **en fazla 24 saat** sürüyorsa bitirir. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 159 teknolojisinden 143’i uygundur. 48 ya da 72 saat süren 16’sı değildir: Wraith, üç dron formasyonu, Hull Plating III, Motor Modülü ile Savunma Modülü’nün 4. ve 5. seviyeleri ve yedi Pilot teknolojisi.
 
 - **Kalan süre değil, araştırma süresi sayılır.** Bir saati kalmış 48 saatlik bir teknoloji de reddedilir: Schematics teknolojinin toplamda ne kadar sürdüğüne bakar.
 - **Bedel ödenmiş kalır.** Dark Matter, kredi ve Thulium araştırma başlarken alınmıştı ve geri verilmez. Araştırmanın henüz yakmadığı bilim puanı tankında kalır.

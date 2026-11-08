@@ -179,6 +179,7 @@ Les Lots sont les offres du jeu lui-même : munitions, roquettes et EMP Charges
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Au début de chaque heure UTC, 3 nouveaux lots s’ouvrent, chacun d’un article différent, et chacun reste ouvert 4 heures, si bien que 12 sont ouverts en même temps.
+- Chaque monde a ses propres lots : Alpha, Beta et Gamma reçoivent ces lots à chaque heure, avec des articles différents à la même heure, de taille fixée par les pilotes de ce monde. Vous ne voyez, ne remportez et ne misez que sur les lots du monde où vous volez. Le Marché et les ordres d’achat sont communs aux trois mondes.
 - La mise de départ est de 20 % du prix en Boutique de la marchandise. Une enchère suivante doit dépasser la meilleure d’au moins 5 %, et d’au moins 100 crédits.
 - Votre enchère est payée tout de suite et retenue. Si quelqu’un surenchérit, elle vous est rendue tout de suite.
 - Une enchère dans les 2 min qui précèdent la fin d’un lot repousse sa fin à 2 min après l’enchère, au plus 5 fois.

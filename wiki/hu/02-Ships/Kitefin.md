@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bfae656e362838c0 -->
+<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
@@ -7,7 +7,7 @@ A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először:
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 24 000
-- **Alapsebesség**: 175
+- **Alapsebesség**: 190
 - **Lézerfoglalatok**: 3
 - **Extrafoglalatok**: 2
 
@@ -15,7 +15,7 @@ A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először:
 
 - **Magfoglalatok (100%-os hatásfok)**: 2
 - **Támogató foglalatok (75%-os hatásfok)**: 3
-- **Segédfoglalatok (50%-os hatásfok)**: 0
+- **Segédfoglalatok (50%-os hatásfok)**: 1
 
 ---
 

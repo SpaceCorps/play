@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayor cantidad de láseres de todas las naves (13) sobre un casco ligero para su clase. Según la clasificación del juego (más de 10 ranuras de láser) es un acorazado de clase IV. Se fabrica en Ensamblaje cuando el Centro de investigación la ha investigado, y con láseres iguales pierde uno contra uno frente a una Wraith o una Ironclad.
+La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayor cantidad de láseres de todas las naves (14) sobre un casco ligero para su clase. Según la clasificación del juego (más de 10 ranuras de láser) es un acorazado de clase IV. Se fabrica en Ensamblaje cuando el Centro de investigación la ha investigado, y con láseres iguales pierde uno contra uno frente a una Wraith o una Ironclad.
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 150.000
-- **Velocidad base**: 250
-- **Ranuras de láser**: 13
+- **Puntos de vida (HP)**: 180.000
+- **Velocidad base**: 260
+- **Ranuras de láser**: 14
 - **Ranuras de extra**: 3
 - **Ranuras de blindaje**: 7
 
@@ -32,9 +32,9 @@ La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayo
 
 | Diseño | Qué cambia |
 | :--- | :--- |
-| **Storm NOTSUM** | -20 % de casco base, +20 de velocidad base, +2 % de velocidad, Blink |
-| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -50 % de capacidad de escudo, +10 % de penetración de escudo |
-| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -2 ranuras de láser, Chameleon |
+| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, Blink |
+| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, Heal Pod |
+| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Una vez investigada su tecnología, fabricar una Storm en Ensamblaje cuesta 3 [A
 
 ## Historia {#lore}
 
-La Storm es lo que construyen los astilleros cuando la única orden es la velocidad. Un fuselaje en forma de aguja con una cabina oscura se sitúa entre dos anillos abiertos en media luna, cada uno un arco blindado alrededor de un hueco y rematado por un cuerno erguido, con una góndola de motor que atraviesa la abertura: casi toda la nave es propulsión. El blindaje gris claro sobre una estructura más oscura, con tiras de luz blancas, la hace fácil de ver, y quiere que la vean. Dos cañones largos van en las palas delanteras y ocho pequeños emisores en los anillos y las aletas de los hombros, diez bocas bien a la vista, por las que disparan trece láseres. Lo que no tiene es sitio para el blindaje. Su casco es aproximadamente la mitad del de una Wraith y aproximadamente la cuarta parte del de una Ironclad, así que sus pilotos atacan primero, golpean fuerte y se van antes de que algo más grande se dé la vuelta.
+La Storm es lo que construyen los astilleros cuando la única orden es la velocidad. Un fuselaje en forma de aguja con una cabina oscura se sitúa entre dos anillos abiertos en media luna, cada uno un arco blindado alrededor de un hueco y rematado por un cuerno erguido, con una góndola de motor que atraviesa la abertura: casi toda la nave es propulsión. El blindaje gris claro sobre una estructura más oscura, con tiras de luz blancas, la hace fácil de ver, y quiere que la vean. Dos cañones largos van en las palas delanteras y ocho pequeños emisores en los anillos y las aletas de los hombros, diez bocas bien a la vista, por las que disparan catorce láseres. Lo que no tiene es sitio para el blindaje. Su casco es aproximadamente siete décimas del de una Wraith y aproximadamente tres décimas del de una Ironclad, así que sus pilotos atacan primero, golpean fuerte y se van antes de que algo más grande se dé la vuelta.

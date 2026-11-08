@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Uma **Ironclad TITANIC** pintada de dourado, no tamanho próprio da TITANIC, com
 
 | O quê | Item |
 |---|---|
-| Lasers | 8 Helios Beam, cada um com um Damage Amp IV, um Crit Amp IV e um Penetration Amp IV |
+| Lasers | 10 Helios Beam, cada um com um Damage Amp IV, um Crit Amp IV e um Penetration Amp IV |
 | Escudos e motores | 11 Heavy Shield Core e 4 Adaptive Core, cada um com Capacity e Absorption Shield Cell IV ou Impulse e Momentum Thruster IV |
 | Extras | um Repair Drone IV, uma Auto-Repair CPU e uma Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Na força de Alpha ele tem **858.750 de casco**, **1.309.534 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 86,3% de absorção, velocidade 89, alcance 945 e uma salva de **4.104 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,2 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de doze minutos de tiro contínuo sozinho; dez deles, cerca de um minuto e dez segundos.
+Na força de Alpha ele tem **858.750 de casco**, **1.309.534 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 86,3% de absorção, velocidade 98, alcance 945 e uma salva de **4.324 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,2 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de treze minutos de tiro contínuo sozinho; dez deles, cerca de 77 segundos.
 
 ## Combatê-lo {#fighting-him}
 

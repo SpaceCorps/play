@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest lasrar av alla skepp (13) på ett skrov som är lätt för sin klass. Enligt spelets klassning (fler än 10 laserplatser) är den ett slagskepp av klass IV. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
+Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest lasrar av alla skepp (14) på ett skrov som är lätt för sin klass. Enligt spelets klassning (fler än 10 laserplatser) är den ett slagskepp av klass IV. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 150 000
-- **Grundhastighet**: 250
-- **Laserplatser**: 13
+- **Träffpoäng (HP)**: 180 000
+- **Grundhastighet**: 260
+- **Laserplatser**: 14
 - **Extraplatser**: 3
 - **Pansarplatser**: 7
 
@@ -32,9 +32,9 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 | Design | Vad den ändrar |
 | :--- | :--- |
-| **Storm NOTSUM** | -20 % basskrov, +20 bashastighet, +2 % hastighet, Blink |
-| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -50 % sköldkapacitet, +10 % sköldgenomträngning |
-| **Storm RECON** | -20 % basskrov, +5 % hastighet, -2 laserplatser, Chameleon |
+| **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, Blink |
+| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, Heal Pod |
+| **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ När du har forskat fram dess teknologi kostar det 3 [Ancient Control Units](/wi
 
 ## Bakgrund {#lore}
 
-Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Ljusgrå plätering över ett mörkare skelett, med vita ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka tretton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär hälften av en Wraiths och ungefär en fjärdedel av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.
+Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Ljusgrå plätering över ett mörkare skelett, med vita ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka fjorton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär sju tiondelar av en Wraiths och ungefär tre tiondelar av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.

@@ -13,11 +13,11 @@ O enxame Tesseract é uma única nave-mãe enorme, o **Tesseract**, e os **Facet
 - **Quantos**: Um em cada mundo
 - **Aparece**: Do dia 4 da temporada até o reset (Beta e Gamma: do dia 1 da temporada)
 - **Líder**: Tesseract
-- **Posição**: Até 2.500 unidades do ponto 27.000, 5.000 do mapa do setor
+- **Posição**: Até 2.500 unidades do ponto 25.900, 6.100 do mapa do setor
 - **Regeneração**: 125.000 HP por segundo em Alpha, primeiro o casco e depois o escudo, depois de 5 s sem dano
 - **Seguidores**: Até 100 × Facet, mais 20 a cada 5 s enquanto o líder é atingido
 - **Chegada dos seguidores**: Só enquanto o líder foi atingido nos últimos 5 s, a até 400 unidades dele
-- **Caçadores**: Cada Facet voa trechos próprios ao redor do líder, a até 1.800 unidades dele, e não persegue ninguém. Atira no piloto mais próximo que atingiu o líder quando esse piloto está ao seu alcance. Sem ninguém para atirar, continua voando ao redor do líder e vai embora 20 s depois do último acerto
+- **Caçadores**: Cada Facet voa trechos próprios ao redor do líder, a até 3.600 unidades dele, e não persegue ninguém. Atira no piloto mais próximo que atingiu o líder quando esse piloto está ao seu alcance. Sem ninguém para atirar, continua voando ao redor do líder e vai embora 20 s depois do último acerto
 - **Líder destruído**: Os seguidores vão embora 1 min depois que o líder é destruído, estejam atacando ou não
 - **Volta**: 30 min depois que o líder é destruído, no mesmo setor
 - **Avisos**: Os pilotos do setor são avisados quando o líder aparece e quando é destruído. São linhas do Sistema: aparecem na aba **Sistema** do chat, com uma contagem de linhas não lidas, e não em **Global** nem em **Local**. O registro de baixas nomeia o piloto a quem o abate é creditado.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -91,7 +91,7 @@ Pulsa la ranura WAL y una **pared de plasma** se alza **en tu cursor**, atravesa
 
 - **Qué detiene.** Todo disparo que la cruza golpea la pared en su lugar, lo haya hecho quien lo haya hecho y desde el lado que sea: una andanada láser, un cohete, la andanada de un alienígena. Lo que está detrás no recibe nada y los puntos de vida de la pared absorben el daño. La explosión de un cohete que estalla en la pared alcanza a las naves de su lado cercano y no a las que están detrás. También tus propios disparos: no puedes disparar hacia fuera a través de tu propia pared. La N.I.K.E. y las torretas del Dormant Swamp pasan por encima, como por encima de los asteroides.
 - **Qué quema.** Toda nave cuyo casco toque la franja recibe **2.500 de daño por segundo**, primero en el escudo, también la tuya, también los alienígenas y los pilotos de corporación. Una nave en una zona segura o bajo la protección de una reaparición no se quema, y dos franjas sobre una nave no se suman.
-- **Cuánto dura.** Una pared de nivel 1 tiene **30.000 puntos de vida** y una de nivel 2, **90.000**. Una pared pierde por sí sola una sexagésima parte cada segundo, así que una a la que nadie dispara desaparece a los **60 segundos**. Los disparos lo acortan: una Wraith con doce Helios Beam y munición x4 derriba una pared de nivel 1 en unos 3,5 segundos.
+- **Cuánto dura.** Una pared de nivel 1 tiene **30.000 puntos de vida** y una de nivel 2, **90.000**. Una pared pierde por sí sola una sexagésima parte cada segundo, así que una a la que nadie dispara desaparece a los **60 segundos**. Los disparos lo acortan: una Wraith con trece Helios Beam y munición x4 derriba una pared de nivel 1 en unos 4 segundos.
 - **Una a la vez, una pared por pulsación.** Una pared nueva ocupa el lugar de la anterior. Tras pulsar, el objeto se recarga durante **90 segundos**; la espera es tuya, no de la nave: morir o desconectarse no la acorta. Una pulsación gasta **una pared del nivel que guarda su ranura**, y solo cuando la pared se alza: una pulsación que el juego rechaza (más abajo) no gasta nada ni inicia ninguna espera. Si no queda ninguna de ese nivel, dice «Ya no te quedan Energetic Wall.» y el otro nivel nunca se gasta en su lugar.
 - **Dónde no.** No mientras te proteja una zona segura o una reaparición, no donde la franja tocaría una zona segura o una puerta, no camuflado y no donde el centro de la franja quedaría fuera del mapa. El juego dice cuál es el caso.
 - **Bajas.** Una nave que destruye la pared muere por radiación, y la baja es del último piloto enemigo que la golpeó en los últimos 15 segundos, si lo hubo. Quien puso la pared no recibe crédito por nada que no disparara él mismo. Un alienígena que la pared destruye no paga nada: ni recompensa ni botín.
@@ -154,9 +154,9 @@ Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU e
 
 ### Auto-Rocket CPU
 
-- **Qué hace.** Mientras esté en ON y estés en un combate (tus láseres apuntan a un alienígena o a un piloto enemigo), lanza por sí sola tu cohete activo, el último que lanzaste, contra ese objetivo, siempre que una pulsación de la tecla Disparar cohete funcionaría: el temporizador de los cohetes está listo y te queda uno. El servidor comprueba cada lanzamiento como comprueba los tuyos.
+- **Qué hace.** Mientras esté en ON y estés en un combate (tus láseres apuntan a un alienígena, a un piloto enemigo o a un asteroide), lanza por sí sola tu cohete activo, el último que lanzaste, contra ese objetivo, siempre que una pulsación de la tecla Disparar cohete funcionaría: el temporizador de los cohetes está listo y te queda uno. El servidor comprueba cada lanzamiento como comprueba los tuyos. Contra un asteroide gasta cohetes igual que contra una nave, así que ponla en OFF mientras solo mines.
 - **El interruptor.** Equípala en una ranura de Extras y pulsa su ranura ARL para ponerla en ON u OFF. Empieza en OFF y se queda como la dejaste, también cuando vuelves a iniciar sesión. La ranura dice ON u OFF y brilla cuando la CPU lanza.
-- **Lo que nunca hace.** Nunca elige un objetivo, nunca lanza contra asteroides, ni desde una zona segura, ni mientras estás camuflado, y nunca lanza una N.U.K.E. ni una N.I.K.E. Un cohete que lances tú siempre funciona. Si pasan 3 minutos sin pulsar una tecla, hacer clic ni mover el ratón, espera a que hagas algo.
+- **Lo que nunca hace.** Nunca elige un objetivo, nunca lanza desde una zona segura ni mientras estás camuflado, y nunca lanza una N.U.K.E. ni una N.I.K.E. Un cohete que lances tú siempre funciona. Si pasan 3 minutos sin pulsar una tecla, hacer clic ni mover el ratón, espera a que hagas algo.
 - **Sin cohetes.** Te avisa una vez y vuelve a lanzar en cuanto tengas más.
 
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 356dbca5d33cc408 -->
+<!-- wiki-i18n source: 32b893f12261ffc4 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter ve Dark Matter plakaları {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@
 ## Bir dakikada {#in-one-minute}
 
 - **Dark Matter bir kaynaktır ve her yerde yalnızca Dark Matter diye geçer.** Tehlike Sektörü 4’ün (`DS-4`) ortasındaki kara delik onu üretir: deliğe ulaşan her N.I.K.E. roketi, bölgesinin kenarındaki küçük kutular içinde 1 ile 3 Dark Matter (ortalama 2) geri verir.
-- **Ne işe yarar.** Araştırma Merkezi’nin 107 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.354; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
+- **Ne işe yarar.** Araştırma Merkezi’nin 108 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.364; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 - **Araştırma Merkezi’nde**, **Araştırmayı başlat** düğmesine basmadan önce kargondan (gemin park halindeyken) Dark Matter eklersin. Araştırma onu başladığında alır.
 - **Dark Matter plakası ayrı bir eşyadır.** Önce tarifini araştır (ağacın Kaynaklar grubu: 1 gün ve 10 Dark Matter), sonra Montaj’da 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium ile üret.
 - **Plaka ne işe yarar.** Her yükseltme zincirinin son kademesi **4** plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II (13 parça). Demirhane bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için bunlardan 2, Patlayan kademeden Ebedi kademeye çıkarmak için 2 tane daha ister. Skylab’ın Motor, Savunma ve Radar modülleri de inşa etmek ve yükseltmek için plaka ister ([Kaynaklar](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@
 | **Nedir** | Destansı bir kaynak | Mitik bir kaynak |
 | **Nereden gelir** | Tehlike Sektörü 4’teki kara delik, içine ateşlenen N.I.K.E. roketleri karşılığında; ayrıca Dormant sürüsünden ve Dormant Swamp bölgesindeki Inert Mass uzaylılarından biraz | Montaj: 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium’dan preslenir |
 | **Önce ne yaparsın** | N.I.K.E. roketini araştır (3 sa, Dark Matter istemez) ve biraz üret | Plakanın tarifini araştır (1 g, 10 Dark Matter) |
-| **Ne işe yarar** | Araştırma maliyetleri (107 teknoloji, toplam 1.354) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 10; Demirhane: en üst iki basamağının her biri için 2 |
+| **Ne işe yarar** | Araştırma maliyetleri (108 teknoloji, toplam 1.364) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 10; Demirhane: en üst iki basamağının her biri için 2 |
 
 ## Dark Matter nasıl edinilir {#how-to-get-dark-matter}
 
@@ -49,7 +49,7 @@ Yaklaşık **5 roket 10 Dark Matter eder**. Resource Magnet Booster ona hiçbir 
 
 ## Araştırma Merkezi’nde Dark Matter {#in-the-research-centre}
 
-Ağacın tepesindeki teknolojiler, bilim puanlarının yanında Dark Matter de ister: 16 üst teknolojinin her biri için **10**, 16 dron formasyonunun her biri için **5, 13 veya 20** (formasyon ne kadar güçlüyse o kadar çok). İki Hull Plating araştırması **25 ve 40** ister; gemi teknolojileri, yani 13 tasarım ile 36 gövde plakası yuvası ise her biri için **10**. Skylab’ın Motor, Savunma ve Radar modülleri ikinci seviyeden itibaren her seviye için **5, 10, 15 veya 20** ister, toplam 115 ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Diğerlerinin hepsi [Araştırma](/wiki/03-Mechanics/Research.md#dark-matter) sayfasındaki tablolarda listelenir.
+Ağacın tepesindeki teknolojiler, bilim puanlarının yanında Dark Matter de ister: 16 üst teknolojinin her biri için **10**, 16 dron formasyonunun her biri için **5, 13 veya 20** (formasyon ne kadar güçlüyse o kadar çok). İki Hull Plating araştırması **25 ve 40** ister; gemi teknolojileri, yani 13 tasarım ile 37 gövde plakası yuvası ise her biri için **10**. Skylab’ın Motor, Savunma ve Radar modülleri ikinci seviyeden itibaren her seviye için **5, 10, 15 veya 20** ister, toplam 115 ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Diğerlerinin hepsi [Araştırma](/wiki/03-Mechanics/Research.md#dark-matter) sayfasındaki tablolarda listelenir.
 
 1. İstasyonda Skylab’ının **Araştırma görünümünü aç** ve teknolojiyi seç. Kartında bir **Dark Matter** satırı vardır: Merkez’de ne kadar olduğu ve araştırmanın ne kadar aldığı (örneğin 3 / 10).
 2. **Ekle** düğmesine bas. Dark Matter’ı kargondan Araştırma Merkezi’ne taşır; eksik olan kadarını, taşıdığın ölçüde. Geminin park halinde olması gerekir. **Geri al** onu kargona geri verir.
@@ -94,10 +94,10 @@ Bir plaka 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thuli
 | :--- | ---: | ---: | ---: | ---: |
 | Bir son kademe parça | 1 | 4 | 20 | 10 |
 | 3 IV. kademe amfisiyle bir Helios Beam | 4 | 16 | 80 | 40 |
-| Bir Paragon | 40 | 160 | 800 | 400 |
-| Bir Wraith | 60 | 240 | 1.200 | 600 |
+| Bir Paragon | 44 | 176 | 880 | 440 |
+| Bir Wraith | 64 | 256 | 1.280 | 640 |
 
-Paragon için 40 parça 8 lazer, onların 24 amfisi ve 8 jeneratör ve destek yuvasıdır (3 + 3 + 2); Wraith için 60 parça 12 lazer, onların 36 amfisi ve 12 jeneratör ve destek yuvasıdır (4 + 4 + 4).
+Paragon için 44 parça 9 lazer, onların 27 amfisi ve 8 jeneratör ve destek yuvasıdır (3 + 3 + 2); Wraith için 64 parça 13 lazer, onların 39 amfisi ve 12 jeneratör ve destek yuvasıdır (4 + 4 + 4).
 
 ## Ne kadar gerekir {#how-much-you-need}
 
@@ -107,7 +107,7 @@ Paragon için 40 parça 8 lazer, onların 24 amfisi ve 8 jeneratör ve destek yu
 | Bir Dark Matter plakası | 5 | 2,5 |
 | Bir Demirhane adımının iki plakası | 10 | 5 |
 | Bir son kademe parçanın dört plakası | 20 | 10 |
-| Dark Matter isteyen her teknoloji | 1.354 | 677 |
+| Dark Matter isteyen her teknoloji | 1.364 | 682 |
 
 Sıfırdan ilk yükseltme, tarif (10) ve iki plakadır (10): 20 Dark Matter, yaklaşık 10 N.I.K.E. roketi, yani iki üretim. Sıfırdan ilk IV. kademe amfi, plakanın tarifi (10), amfinin kendi teknolojisi (10) ve 4 plakadır (20): 40 Dark Matter, yaklaşık 20 N.I.K.E. roketi.
 

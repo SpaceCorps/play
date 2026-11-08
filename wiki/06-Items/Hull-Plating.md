@@ -43,7 +43,7 @@ Hull Plating fits only in **hull plate slots**, a kind of slot of its own that t
 | **Paragon** | 5 | 75,000 |
 | **Storm** | 7 | 105,000 |
 | **Ironclad** | 15 | 225,000 |
-| **Wraith** | 9 | 135,000 |
+| **Wraith** | 10 | 150,000 |
 
 - **All locked at first.** A slot opens when you research it in the Skylab: one technology for each slot, 1 hour and 10 Dark Matter, in order from the first. The [Research](/wiki/03-Mechanics/Research.md#ship-technologies) view shows a ship's slots as one card with a pip for each.
 - **A kind of ship, not one ship.** The slots you opened for the Paragon are open on every Paragon design too ([Ship Designs](/wiki/03-Mechanics/Ship-Designs.md)). A technology is yours for good: the wipe keeps it.

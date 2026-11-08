@@ -55,17 +55,17 @@ Base: Wraith, com 100% do casco e 300% do dano dos lasers; a velocidade e o alca
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 324.000 | 486.000 | 648.000 |
+| Casco | 256.000 | 384.000 | 512.000 |
 | Escudo | 83.400 | 125.100 | 166.800 |
-| Dano dos lasers (uma salva por segundo) | 2.880 | 4.320 | 5.760 |
-| Velocidade | 220 | 220 | 220 |
+| Dano dos lasers (uma salva por segundo) | 3.120 | 4.680 | 6.240 |
+| Velocidade | 210 | 210 | 210 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 7.500 | 11.250 | 15.000 |
-| Créditos | 200.000 | 400.000 | 600.000 |
-| Thulium | 535 | 1.070 | 1.605 |
-| Experiência (XP) | 32.100 | 64.200 | 96.300 |
-| Honra | 139 | 278 | 417 |
+| Créditos | 185.000 | 370.000 | 555.000 |
+| Thulium | 485 | 970 | 1.455 |
+| Experiência (XP) | 29.200 | 58.400 | 87.600 |
+| Honra | 127 | 254 | 381 |
 | Pontos PvE por abate | 25 | 25 | 25 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.
@@ -84,15 +84,15 @@ Base: Paragon, com 100% do casco e 600% do dano dos lasers; a velocidade e o alc
 | :--- | ---: | ---: | ---: |
 | Casco | 128.000 | 192.000 | 256.000 |
 | Escudo | 64.570 | 96.855 | 129.140 |
-| Dano dos lasers (uma salva por segundo) | 3.840 | 5.760 | 7.680 |
-| Velocidade | 210 | 210 | 210 |
+| Dano dos lasers (uma salva por segundo) | 4.320 | 6.480 | 8.640 |
+| Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 5.000 | 7.500 | 10.000 |
-| Créditos | 95.000 | 190.000 | 285.000 |
-| Thulium | 255 | 510 | 765 |
-| Experiência (XP) | 15.200 | 30.400 | 45.600 |
-| Honra | 66 | 132 | 198 |
+| Créditos | 105.000 | 210.000 | 315.000 |
+| Thulium | 275 | 550 | 825 |
+| Experiência (XP) | 16.600 | 33.200 | 49.800 |
+| Honra | 72 | 144 | 216 |
 | Pontos PvE por abate | 11 | 11 | 11 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.

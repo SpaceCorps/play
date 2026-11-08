@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior número de lasers de todas as naves (13) em um casco leve para a sua classe. Pela classificação do jogo (mais de 10 slots de laser), é um Encouraçado Classe IV. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
+A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior número de lasers de todas as naves (14) em um casco leve para a sua classe. Pela classificação do jogo (mais de 10 slots de laser), é um Encouraçado Classe IV. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 150.000
-- **Velocidade base**: 250
-- **Slots de laser**: 13
+- **Pontos de vida (HP)**: 180.000
+- **Velocidade base**: 260
+- **Slots de laser**: 14
 - **Slots extras**: 3
 - **Slots de blindagem**: 7
 
@@ -32,9 +32,9 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 
 | Design | O que muda |
 | :--- | :--- |
-| **Storm NOTSUM** | -20% de casco base, +20 de velocidade base, +2% de velocidade, Blink |
-| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -50% de capacidade de escudo, +10% de penetração de escudo |
-| **Storm RECON** | -20% de casco base, +5% de velocidade, -2 slots de laser, Chameleon |
+| **Storm NOTSUM** | -10% de casco base, +50 de velocidade base, +2% de velocidade, Blink |
+| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -25% de capacidade de escudo, +10% de penetração de escudo, Heal Pod |
+| **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem cus
 
 ## História {#lore}
 
-A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem cinza-clara sobre uma estrutura mais escura, com faixas de luz brancas, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam treze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de metade do de uma Wraith e cerca de um quarto do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.
+A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem cinza-clara sobre uma estrutura mais escura, com faixas de luz brancas, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam catorze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de sete décimos do de uma Wraith e cerca de três décimos do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.

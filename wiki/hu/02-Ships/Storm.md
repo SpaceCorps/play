@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb lézer (13) az összes hajó közül egy olyan hajótesten, amely az osztályához képest könnyű. A játék besorolása szerint (10-nél több lézerhely) IV. osztályú csatahajó. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
+A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb lézer (14) az összes hajó közül egy olyan hajótesten, amely az osztályához képest könnyű. A játék besorolása szerint (10-nél több lézerhely) IV. osztályú csatahajó. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 150 000
-- **Alapsebesség**: 250
-- **Lézerfoglalatok**: 13
+- **Életerő (HP)**: 180 000
+- **Alapsebesség**: 260
+- **Lézerfoglalatok**: 14
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 7
 
@@ -32,9 +32,9 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 | Dizájn | Mit változtat |
 | :--- | :--- |
-| **Storm NOTSUM** | -20% alap hajótest, +20 alap sebesség, +2% sebesség, Blink |
-| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -50% pajzskapacitás, +10% pajzsáthatolás |
-| **Storm RECON** | -20% alap hajótest, +5% sebesség, -2 lézerfoglalat, Chameleon |
+| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink |
+| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod |
+| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártás
 
 ## Háttértörténet {#lore}
 
-A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Halványszürke páncél sötétebb váz fölött, fehér fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizenhárom lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából fele egy Wraith-ének és nagyjából negyede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.
+A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Halványszürke páncél sötétebb váz fölött, fehér fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizennégy lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából hét tizede egy Wraith-ének és nagyjából három tizede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.

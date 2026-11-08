@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 49ab4e31b6a7b8a0 -->
+<!-- wiki-i18n source: fdf67ad887f06846 -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -58,24 +58,24 @@ A **maximális hajótestednek** egy részét gyógyítja **egyenletesen tíz má
 
 ## Hajóképességek {#ship-abilities}
 
-A tizenhárom [hajódizájn](/wiki/03-Mechanics/Ship-Designs.md) közül nyolcnak van egy képessége, amely a dizájnhoz tartozik, nem egy tárgyhoz. **Nem foglal képességfoglalatot**, és semmit nem kell hozzá felszerelni: ott van, amíg a dizájnt repülöd. Saját gombja van, a negyedik a gyorssáv oszlopában, a billentyűje pedig az `F` (a beállításokban átállítható). Saját töltődése van, amely a többiekéhez hasonlóan megmarad: a konfigurációváltás, az ugrás és a kijelentkezés nem nullázza, és a megsemmisült hajó minden képességgel készen kezdi a következő repülést.
+A tizenhárom [hajódizájn](/wiki/03-Mechanics/Ship-Designs.md) közül kilencnek van egy képessége, amely a dizájnhoz tartozik, nem egy tárgyhoz. **Nem foglal képességfoglalatot**, és semmit nem kell hozzá felszerelni: ott van, amíg a dizájnt repülöd. Saját gombja van, a negyedik a gyorssáv oszlopában, a billentyűje pedig az `F` (a beállításokban átállítható). Saját töltődése van, amely a többiekéhez hasonlóan megmarad: a konfigurációváltás, az ugrás és a kijelentkezés nem nullázza, és a megsemmisült hajó minden képességgel készen kezdi a következő repülést.
 
 | Képesség | Dizájn | Mit csinál | Tartam | Töltődés |
 | :--- | :--- | :--- | ---: | ---: |
-| **Blink** | Storm NOTSUM, Ironclad TITANIC | 2 500-as sebesség (TITANIC: 1 500) a mozgásparancsod irányába | 1 mp | 120 mp |
+| **Blink** | Storm NOTSUM, Ironclad TITANIC | 2 500-as sebesség a mozgásparancsod irányába | 1 mp | 120 mp |
 | **Chameleon** | Storm RECON | Minden más pilóta számára láthatatlan, a minitérképen is | amíg meg nem törik | 60 mp |
 | **Focus Fire** | Ironclad DUMA | Az 1 000 egységen belüli ellenséges hajók kénytelenek megtámadni téged | 5 mp | 60 mp |
-| **Venom** | Wraith RAPTOR | 100 000 sebzés közvetlenül a célpont hajótestére | 30 mp | 120 mp |
+| **Venom** | Wraith RAPTOR | 125 000 sebzés közvetlenül a célpont hajótestére | 30 mp | 120 mp |
 | **Diminisher** | Wraith BILLY | 75%-kal kevesebb sebzést kapsz, és 25%-kal kevesebbet okozol | 10 mp | 120 mp |
-| **Heal Pod** | Wraith MENATI | Egy kapszula a 600 egységen belüli baráti hajókat másodpercenként 10 000 + a maximális hajótestük 1%-ával gyógyítja | 5 mp | 120 mp |
+| **Heal Pod** | Storm BRATAN, Wraith MENATI | Egy kapszula a 600 egységen belüli baráti hajókat másodpercenként 20 000 + a maximális hajótestük 2%-ával gyógyítja | 5 mp | 120 mp |
 | **Shield Buff** | Wraith ATARAXIS | A pajzskapacitásod megduplázódik, és másodpercenként a maximuma 2%-át regenerálja | 10 mp | 120 mp |
 
-- **Blink.** 1 másodpercig a sebességed 2 500 (a TITANIC-é legfeljebb 1 500), a mozgásparancsod irányába. Ott állsz meg, ahol a parancs véget ér, és a térkép széle is megállít. Aztán 120 másodpercig pihen.
+- **Blink.** 1 másodpercig a sebességed 2 500, a mozgásparancsod irányába. Ott állsz meg, ahol a parancs véget ér, és a térkép széle is megállít. Aztán 120 másodpercig pihen.
 - **Chameleon.** Eltűnsz: egyetlen másik pilóta sem lát, sem a térképen, sem a minitérképen, és senki nem tud rád célozni. A saját vállalatod továbbra is lát, szellemként. Egy EMP nem tudja megtörni. Véget ér, ha bármilyen sebzést kapsz, lézersortüzet adsz le, rakétát indítasz, ládát szedsz fel vagy biztonságos zónába lépsz, vagy ha újra megnyomod a gombot; a 60 másodperce akkor indul, amikor véget ér, bárhogy is. Nem indíthatod egy lövés vagy találat után 10 másodpercen belül, sem biztonságos zóna gyűrűjében, sem amíg egy Cloaking CPU be van kapcsolva.
 - **Focus Fire.** 5 másodpercig minden ellenséges pilóta és idegen az 1 000 egységen belül kénytelen megtámadni téged: a pilóta célzása rád kerül, és nem változtatható, az idegen feléd fordul. A csoportod és a vállalatod pilótái, a biztonságos zóna védelme alatt álló hajók és az álcázott hajók érintetlenek maradnak, és biztonságos zónában vagy hatótávon belüli ellenség nélkül visszautasítja a játék. A kényszerített pilóták továbbra is oda repülhetnek, ahová akarnak.
-- **Venom.** Vedd célba a lézereid hatótávján belül lévő célpontot, és nyomd meg: 100 000 sebzés megy közvetlenül a hajótestére 30 másodperc alatt, egyenletesen, és a pajzsa nem vesz el belőle semmit. Más vállalatok pilótáin és idegeneken egyaránt működik, a csoportodon és a vállalatodon nem, biztonságos zóna által védett hajón nem, és ott sem, ahol a lézeres célzást visszautasítják (a Békeprotokoll, PvP nélküli szektor). Egy hajón egyszerre egy Venom van. Minden tik találatnak számít, így a célpont a végéig nem bújhat el biztonságos zónában. A javítás, egy Heal Pod és egy Diminisher a célponton gyengíti, véget ér, ha a célpont vagy te meghalsz, és a leküzdés meg a pontjai a tieid.
+- **Venom.** Vedd célba a lézereid hatótávján belül lévő célpontot, és nyomd meg: 125 000 sebzés megy közvetlenül a hajótestére 30 másodperc alatt, egyenletesen, és a pajzsa nem vesz el belőle semmit. Más vállalatok pilótáin és idegeneken egyaránt működik, a csoportodon és a vállalatodon nem, biztonságos zóna által védett hajón nem, és ott sem, ahol a lézeres célzást visszautasítják (a Békeprotokoll, PvP nélküli szektor). Egy hajón egyszerre egy Venom van. Minden tik találatnak számít, így a célpont a végéig nem bújhat el biztonságos zónában. A javítás, egy Heal Pod és egy Diminisher a célponton gyengíti, véget ér, ha a célpont vagy te meghalsz, és a leküzdés meg a pontjai a tieid.
 - **Diminisher.** 10 másodpercig minden találat, amelyet kapsz, negyedére csökken, mielőtt a pajzsod elvenné a részét, így a pajzs és a hajótest is egy negyedet veszít, és minden találat, amelyet okozol, háromnegyedére: lézerek, közvetlen rakéták és robbanások. Egy második megnyomás nem csinál semmit, amíg fut.
-- **Heal Pod.** Egy kapszula esik le, ahol vagy, és 5 másodpercig marad. Másodpercenként minden baráti hajót a 600 egységen belül 10 000-rel plusz az adott hajó maximális hajótestének 1%-ával gyógyít: téged, a csoportodat és a vállalatodat, senki mást, és sosem a maximum fölé. A kapszulát semmi nem tudja célba venni vagy lelőni, és akkor is gyógyít tovább, ha meghalsz.
+- **Heal Pod.** Egy kapszula esik le, ahol vagy, és 5 másodpercig marad. Másodpercenként minden baráti hajót a 600 egységen belül 20 000-rel plusz az adott hajó maximális hajótestének 2%-ával gyógyít: téged, a csoportodat és a vállalatodat, senki mást, és sosem a maximum fölé. A kapszulát semmi nem tudja célba venni vagy lelőni, és akkor is gyógyít tovább, ha meghalsz.
 - **Shield Buff.** 10 másodpercig a pajzskapacitásod megduplázódik, a pajzsod, amid van, vele együtt megduplázódik, és a pajzs másodpercenként a megduplázott maximum 2%-át regenerálja. Amikor véget ér, a kapacitás visszaáll, és vele a pajzs is, megtartva az arányát, így sosem gyógyít: hely a kapott találatoknak. Pajzs nélküli hajón visszautasítja a játék.
 
 Egy **EMP**, amely a közeledben robban, 5 másodpercre lezárja a gombot: a megnyomást visszautasítják, és semmilyen töltődés nem indul. A már futó képesség megy tovább, a Chameleon pedig rejtve marad. A többi pilóta is látja ezeket a képességeket: csíkot a Blink mögött, piros gyűrűt és vonalakat a Focus Fire által kényszerített hajókhoz, a Chameleont pedig csak szellemként a saját vállalata.

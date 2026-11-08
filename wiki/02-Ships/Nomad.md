@@ -1,11 +1,11 @@
 # Nomad
 
-The Nomad is a cruiser with twice the hull and twice the guns of an Ostirion: a hammerhead between the Ostirion and the Paragon, bought in the Shop with Credits and Thulium together. Every pilot may buy it.
+The Nomad is a cruiser with nearly twice the hull and twice the guns of an Ostirion: a hammerhead between the Ostirion and the Paragon, bought in the Shop with Credits and Thulium together. Every pilot may buy it.
 
 ## Stats
 
-- **Hitpoints (HP)**: 96,000
-- **Base Speed**: 200
+- **Hitpoints (HP)**: 111,000
+- **Base Speed**: 210
 - **Laser Slots**: 6
 - **Extra Slots**: 2
 
@@ -34,4 +34,4 @@ The Nomad is a cruiser with twice the hull and twice the guns of an Ostirion: a 
 
 ## Lore
 
-The Nomad was drawn as a caravan ship: a long-range survey and hauling hull for the lanes beyond the station guns, where a crew can fly for weeks and meet nobody friendly. Seen from above it is a hammerhead. The broad prow is armored across its whole width in dusk-indigo plate, and its shallow V of a front edge carries six guns in three pairs, the pair nearest the bridge reaching farthest. Two long booms draw in toward the engine pods, a slim spine carries the bridge, and under the hammer an open cargo deck holds four sand-colored crates and a sensor dome. Sand, dusk-indigo and violet running lights are its colors, and no other ship wears them. Convoy captains asked for an escort that could also be the convoy, and the yards gave them an Ostirion with twice the hull and twice the guns.
+The Nomad was drawn as a caravan ship: a long-range survey and hauling hull for the lanes beyond the station guns, where a crew can fly for weeks and meet nobody friendly. Seen from above it is a hammerhead. The broad prow is armored across its whole width in dusk-indigo plate, and its shallow V of a front edge carries six guns in three pairs, the pair nearest the bridge reaching farthest. Two long booms draw in toward the engine pods, a slim spine carries the bridge, and under the hammer an open cargo deck holds four sand-colored crates and a sensor dome. Sand, dusk-indigo and violet running lights are its colors, and no other ship wears them. Convoy captains asked for an escort that could also be the convoy, and the yards gave them an Ostirion with nearly twice the hull and twice the guns.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 81f1785f1e0ba446 -->
+<!-- wiki-i18n source: 110ad87b2e059bc1 -->
 <!-- wiki-i18n title: Inventar -->
 # Inventar & Ausrüstung {#inventory-equipment}
 
@@ -15,12 +15,12 @@ Anders als in herkömmlichen Weltraumspielen hat SpaceCorps dynamisch gestufte A
 - **Generator-Slots**: Gemeinsame Slots für Schilde, Triebwerke und adaptive Kerne. Sie sind in drei Wirkungsgrad-Stufen eingeteilt, und die Stufe entscheidet, wie viel von den Grundwerten eines Gegenstands zählt. Im Hangar hat jede Stufe neben ihrem Namen ein (i), das sie erklärt:
   - **Kern-Slots**: Gegenstände, die hier sitzen, erhalten **100 %** ihrer Grundwerte. Jedes Schiff hat sie: Setze hier deine stärksten Schilde und Triebwerke ein.
   - **Support-Slots**: Gegenstände, die hier sitzen, erhalten **75 %** ihrer Grundwerte (z. B. 75 % des Tempos oder der Schildkapazität). Jedes Schiff hat sie.
-  - **Hilfs-Slots**: Gegenstände, die hier sitzen, erhalten **50 %** ihrer Grundwerte. Nur manche Schiffe haben sie (die Nomad hat 1, die Paragon und die Storm 2, die Ironclad 3 und die Wraith 4; die Protos, Kitefin und Ostirion haben keine). Sie eignen sich am besten für zusätzliche, schwächere Schilde und Triebwerke, während deine stärksten in die Kern-Slots kommen.
+  - **Hilfs-Slots**: Gegenstände, die hier sitzen, erhalten **50 %** ihrer Grundwerte. Jedes Schiff hat mindestens einen (die Protos, Kitefin, Ostirion und Nomad haben 1, die Paragon und die Storm 2, die Ironclad 3 und die Wraith 4). Sie eignen sich am besten für zusätzliche, schwächere Schilde und Triebwerke, während deine stärksten in die Kern-Slots kommen.
   - **Drohnen-Slots**: Ein Schild auf einer deiner Drohnen zählt wie einer in einem Kern-Slot, **100 %** seiner Werte (siehe [Drohnenmechanik](/wiki/03-Mechanics/Drones.md)).
   - **Nicht zugewiesene Slots/Alt-Slots**: Gegenstände, die hier sitzen, tragen nichts zu den Werten bei.
   - **Auch das Stapeln lässt nach**: Schilde und Triebwerke werden nach Stärke geordnet, die stärksten zuerst (nach dem, was jedes nach dem Anteil seines Slots zählt), und der Anteil der Stufe wird dann mit dem ihres Rangs multipliziert: Der 1. bis 4. zählt voll, der 5. bis 7. mit 85 %, 70 % und 55 %, ab dem 8. mit 50 % bei Schilden und 25 % bei Triebwerken. Siehe [Schilde](/wiki/03-Mechanics/Shields.md) und [Tempo](/wiki/03-Mechanics/Speed.md).
 - **Extra-Slots**: Für spezialisierte Hilfsgegenstände, etwa Repair Drones. Protos, Kitefin, Ostirion und Nomad haben zwei; Paragon, Ironclad, Wraith und Storm, die du baust, haben drei. Die Extra Slots CPUs ([Extras](/wiki/06-Items/Extras.md#extra-slots-cpus)) geben 3, 5 oder 7 dazu.
-- **Panzerungs-Slots**: Für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), die Hülle hinzufügt. Nur die vier Schiffe, die du baust, haben sie (die Paragon 5, die Storm 7, die Ironclad 15 und die Wraith 9), jeder gesperrt, bis du ihn im Skylab erforschst, und sie sind in beiden Konfigurationen gleich.
+- **Panzerungs-Slots**: Für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md#hull-plate-slots), die Hülle hinzufügt. Nur die vier Schiffe, die du baust, haben sie (die Paragon 5, die Storm 7, die Ironclad 15 und die Wraith 10), jeder gesperrt, bis du ihn im Skylab erforschst, und sie sind in beiden Konfigurationen gleich.
 
 ## Reihenfolge im Inventar {#inventory-order}
 

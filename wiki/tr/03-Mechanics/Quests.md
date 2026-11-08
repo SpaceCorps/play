@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 43381473c9b224c4 -->
+<!-- wiki-i18n source: a5bc832fdcc0674d -->
 <!-- wiki-i18n title: Görevler -->
 # Görevler {#quests}
 
@@ -278,7 +278,7 @@ Bu 64 görevden birini **yaptıysan** yeni sürümünü de yaparsın. Güncellem
 Görevlerin ödediği yüksek sektörler, aynı zamanda ölebileceğin yerlerdir. Donanımını onlara göre planla:
 
 - **PvP**: başka şirketlerin pilotları sana her dünyada `x-4` ve merkezde, Beta Dünyası’nda `x-2` ve üstünde, Gamma Dünyası’nda her yerde saldırabilir (güvenli bölgeler ve Barış Protokolü sırasında hariç). Halka geçitleri başka şirketlerin pilotlarını senin `x-3` sektörüne de getirir: Beta ve Gamma dünyalarında onlardan biri, bir eşya taşırken seni orada yok edebilir. Beta ve Gamma’da Barış Protokolü yoktur: orada PvP 1. günden itibaren açıktır.
-- **Bulwark** (`x-3`, `x-4`) bir Protos gemisinden hızlıdır ve sert vurur. Onlarla bir [Ostirion](/wiki/02-Ships/Ostirion.md) gemisiyle, bir geçidin güvenli bölgesinin yakınında savaş ve onarmak için içine çekil.
+- **Bulwark** (`x-3`, `x-4`) bir Protos gemisinin hızına neredeyse yetişir ve sert vurur. Onlarla bir [Ostirion](/wiki/02-Ships/Ostirion.md) gemisiyle, bir geçidin güvenli bölgesinin yakınında savaş ve onarmak için içine çekil.
 - **Goombah** (`x-3`, `x-4`) 800 menzile sahiptir, 3.000 hasar vurur ve asla kavga başlatmaz: birini yalnız bırakırsan seni yalnız bırakır, ona ateş edersen son vuruşundan 10 saniye sonrasına kadar sana döner (ve yalnız bırakıldığında onarılır). Lazerlerinin hepsi [Starfire-III](/wiki/06-Items/Lasers.md) (menzil 850) olan bir gemi, onların ve Bulwark uzaylılarının menzilini aşar: onlardan hızlı bir gemiyle (bir Ostirion ya da üstü; bir Goombah 180, bir Bulwark 175 hızla uçar) vurulmadan ateş edebilirsin. Geminin menzili lazerlerinin menzillerinin ortalamasıdır, bu yüzden iki Quantum Laser II ile birlikteki bir Starfire-III 750’den ateş eder: Bulwark uzaylısının (700) menzilinden uzak kalmaya yeter, Goombah uzaylısının (800) menzilinden yetmez. 5. seviyenin Özel görevi sana bir tane verir; ayrıca Montaj’da, [Skylab](/wiki/03-Mechanics/Skylab.md) üssünün Dökümhane modülünün ürettiği Velkonite Reinforced Plate ile bir tane üretebilirsin.
 - **Crystalys** sınırda (`x-4`) dolaşır. 8. seviyenin erişebileceği hiçbir şey birinin menzilini aşmaz ve onu yalnızca hızlı bir gemi geçer: mesafeni koru ve mini haritayı izle.
 - Yok edildiğinde nerede geri döneceğini seçersin: üssünde, en yakın portalda ya da öldüğün yerde; bunu Tehlike Sektörü sunmaz (bkz. [Ölmek ve geri dönmek](/wiki/01-General/Getting-Started.md)). Bu arada süreli bir görevin saati işlemeye devam eder, taşınan bir eşya kaybolur ve bir ölmeden kuralı bozulur.

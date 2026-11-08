@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Phantasm 虫群 -->
 # Phantasm 虫群 {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ Phantasm 虫群由一个 **Boss Phantasm** 和它的 **Phantasm Guard** 组成�
 
 ## 战斗过程 {#how-the-fight-goes}
 
-- **带上一队人。** 三名 4–5 级、使用 x2 弹药的飞行员，在 Alpha 中大约一分半钟就能击毁它，至多损失一艘舰船；这个等级的飞行员单独一人会被击毁，两人也一样。更好的舰船和 x4 弹药会快得多。
+- **带上一队人。** 三名 4–5 级、使用 x2 弹药的飞行员，在 Alpha 中大约一分半钟就能击毁它，至多损失一艘舰船；这个等级的飞行员单独一人会被击毁，两人只能险胜，而且只在伤害被分摊时才行。更好的舰船和 x4 弹药会快得多。
 - **打 Boss，别打 Guard。** Guard 几秒钟就会倒下，但新的会按*一览*列表所说的频率到来，而 Guard 的治疗量只是一队人造成伤害的一小部分：放着它们不管只会多花一点时间，追着它们打则要多花更多时间。
 - **Beta 和 Gamma 更难。** 这些世界的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），所以需要更多飞行员或更好的弹药。
 - **留意星区。** `x-4` 在 Alpha 中是 PvP 星区，在 Beta 和 Gamma 中 `x-3` 和 `x-4` 都是（[世界](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)）：对手可能加入战斗，或等着拿货箱。让队里的一艘舰船放哨。

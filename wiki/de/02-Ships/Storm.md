@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: cd2fa1a59cda0e5e -->
+<!-- wiki-i18n source: d3cb48a66eac99d6 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser aller Schiffe (13) auf einer Hülle, die für ihre Klasse leicht ist. Nach der Bewertung des Spiels (mehr als 10 Laser-Slots) ist sie ein Schlachtschiff der Klasse IV. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
+Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser aller Schiffe (14) auf einer Hülle, die für ihre Klasse leicht ist. Nach der Bewertung des Spiels (mehr als 10 Laser-Slots) ist sie ein Schlachtschiff der Klasse IV. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 150.000
-- **Grundtempo**: 250
-- **Laser-Slots**: 13
+- **Trefferpunkte (HP)**: 180.000
+- **Grundtempo**: 260
+- **Laser-Slots**: 14
 - **Extra-Slots**: 3
 - **Panzerungs-Slots**: 7
 
@@ -32,9 +32,9 @@ Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser all
 
 | Design | Was es ändert |
 | :--- | :--- |
-| **Storm NOTSUM** | -20 % Basis-Hülle, +20 Basis-Tempo, +2 % Tempo, Blink |
-| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -50 % Schildkapazität, +10 % Schilddurchdringung |
-| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -2 Laser-Slots, Chameleon |
+| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink |
+| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod |
+| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -48,4 +48,4 @@ Sobald seine Technologie erforscht ist, kostet der Bau eines Storm in der Montag
 
 ## Hintergrund {#lore}
 
-Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Blassgraue Panzerung über einem dunkleren Gerüst, mit weißen Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Mündungen in voller Sicht, durch die dreizehn Laser feuern. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa halb so stark wie die einer Wraith und etwa ein Viertel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.
+Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Blassgraue Panzerung über einem dunkleren Gerüst, mit weißen Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Mündungen in voller Sicht, durch die vierzehn Laser feuern. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa sieben Zehntel so stark wie die einer Wraith und etwa drei Zehntel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.

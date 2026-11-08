@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9c75311ce44403c5 -->
+<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -6,11 +6,11 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 ## Atributos {#stats}
 
-- **Pontos de vida (HP)**: 324.000
-- **Velocidade base**: 220
-- **Slots de laser**: 12
+- **Pontos de vida (HP)**: 256.000
+- **Velocidade base**: 210
+- **Slots de laser**: 13
 - **Slots extras**: 3
-- **Slots de blindagem**: 9
+- **Slots de blindagem**: 10
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
@@ -27,16 +27,16 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 9 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 9 cheios de Hull Plating III, somam-se 135.000 de casco.
+- **Slots de blindagem.** Esta nave tem 10 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 10 cheios de Hull Plating III, somam-se 150.000 de casco.
 - **Designs.** Esta nave tem 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Wraith nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |
 | :--- | :--- |
 | **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom |
-| **Wraith BILLY** | +5% de casco base, +10 de velocidade base, +10% de capacidade de escudo, Diminisher |
+| **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher |
 | **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod |
-| **Wraith ATARAXIS** | -1 slot de laser, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff |
-| **Wraith MATT** | -10% de casco base, +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser |
+| **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff |
+| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

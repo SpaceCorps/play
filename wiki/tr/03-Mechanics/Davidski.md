@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça 
 
 | Ne | Eşya |
 |---|---|
-| Lazerler | 8 Helios Beam; her biri bir Damage Amp IV, bir Crit Amp IV ve bir Penetration Amp IV ile donatılmıştır |
+| Lazerler | 10 Helios Beam; her biri bir Damage Amp IV, bir Crit Amp IV ve bir Penetration Amp IV ile donatılmıştır |
 | Kalkanlar ve motorlar | 11 Heavy Shield Core ve 4 Adaptive Core; her biri Capacity Shield Cell IV ve Absorption Shield Cell IV ya da Impulse Thruster IV ve Momentum Thruster IV ile donatılmıştır |
 | Ekstralar | bir Repair Drone IV, bir Auto-Repair CPU ve bir Base CPU II |
 | Gövde | 15 Hull Plating III |
 
-Alpha gücünde **858.750 gövde**, **1.309.534 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %86,3 soğurma, 89 hız, 945 menzil ve saniyede **4.104** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,2 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on iki dakika kesintisiz ateş ister; on Wraith ise yaklaşık bir dakika on saniye.
+Alpha gücünde **858.750 gövde**, **1.309.534 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %86,3 soğurma, 98 hız, 945 menzil ve saniyede **4.324** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,2 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on üç dakika kesintisiz ateş ister; on Wraith ise yaklaşık 77 saniye.
 
 ## Ona karşı savaşmak {#fighting-him}
 

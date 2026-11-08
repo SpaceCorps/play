@@ -10,7 +10,7 @@
 ## In one minute
 
 - **Dark Matter is a resource, and it is just called Dark Matter everywhere.** The black hole in the middle of Danger Sector 4 (`DS-4`) makes it: every N.I.K.E. rocket that reaches the hole gives back 1 to 3 Dark Matter (2 on average), in small crates on the rim of its zone.
-- **What it is for.** 107 technologies of the Research Centre ask for it, 5 to 60 each and 1,354 in all, and Assembly presses it into the Dark Matter Plate. From season day 11 a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) burns it too, as fuel: a tank is a few Dark Matter, and it is lost if the excavator is destroyed. In Beta and Gamma the giant excavators stand from the first day of the season.
+- **What it is for.** 108 technologies of the Research Centre ask for it, 5 to 60 each and 1,364 in all, and Assembly presses it into the Dark Matter Plate. From season day 11 a [giant excavator](/wiki/03-Mechanics/Giant-Excavator.md) burns it too, as fuel: a tank is a few Dark Matter, and it is lost if the excavator is destroyed. In Beta and Gamma the giant excavators stand from the first day of the season.
 - **In the Research Centre** you add Dark Matter from your cargo (with your ship landed) before you press Start. The research takes it when it starts.
 - **A Dark Matter Plate is a different item.** Research its recipe first (the Resources group of the tree: 1 day and 10 Dark Matter), then craft it in Assembly from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate and 250 Thulium.
 - **What a plate is for.** The last tier of every upgrade chain asks for **4** and at least one Ancient Control Unit: the tier IV amps, shield cells and thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II (13 pieces). The Forge asks for 2 of them to raise an item from Godly to Rupturing, and 2 more from Rupturing to Eternal. The Skylab's Engine, Defense and Radar modules ask for plates too, to build and to upgrade ([Resources](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -25,7 +25,7 @@
 | **What it is** | An Epic resource | A Mythical resource |
 | **Where it comes from** | The black hole in Danger Sector 4, for N.I.K.E. rockets fired into it; a little from the Dormant Swarm and from the Inert Masses of the Dormant Swamp | Assembly, pressed from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plate, and 250 Thulium |
 | **What you do first** | Research the N.I.K.E. (3 h, no Dark Matter) and craft some | Research the Plate's recipe (1 d, 10 Dark Matter) |
-| **What it is for** | Research costs (107 technologies, 1,354 in all) and the plate | The last tier of every upgrade chain: 4 for each of 13 pieces; the Master Drone's upgrade: 10; the Forge: 2 for each of its top two steps |
+| **What it is for** | Research costs (108 technologies, 1,364 in all) and the plate | The last tier of every upgrade chain: 4 for each of 13 pieces; the Master Drone's upgrade: 10; the Forge: 2 for each of its top two steps |
 
 ## How to get Dark Matter
 
@@ -47,7 +47,7 @@ About **5 rockets make 10 Dark Matter**. The Resource Magnet Booster adds nothin
 
 ## Dark Matter in the Research Centre {#in-the-research-centre}
 
-Technologies at the top of the tree ask for Dark Matter on top of their science: **10** for each of the 16 top technologies, and **5, 13 or 20** for each of the 16 drone formations (the stronger the formation, the more). The two Hull Plating researches ask **25 and 40**, and the ship technologies, the 13 designs and the 36 hull plate slots, **10** each. The Skylab's Engine, Defense and Radar modules ask **5, 10, 15 or 20** for each level from their second on, 115 in all ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). The tables in [Research](/wiki/03-Mechanics/Research.md#dark-matter) list all the others.
+Technologies at the top of the tree ask for Dark Matter on top of their science: **10** for each of the 16 top technologies, and **5, 13 or 20** for each of the 16 drone formations (the stronger the formation, the more). The two Hull Plating researches ask **25 and 40**, and the ship technologies, the 13 designs and the 37 hull plate slots, **10** each. The Skylab's Engine, Defense and Radar modules ask **5, 10, 15 or 20** for each level from their second on, 115 in all ([Research](/wiki/03-Mechanics/Research.md#module-technologies)). The tables in [Research](/wiki/03-Mechanics/Research.md#dark-matter) list all the others.
 
 1. **Open the Research view** of your Skylab at the station and pick the technology. Its card has a **Dark Matter** row: how much is in the Centre, of how much it takes (for example 3 / 10).
 2. **Press Add.** It moves Dark Matter from your cargo into the Research Centre, as much as is missing, as far as you carry it. Your ship must be landed. **Take back** gives it back to your cargo.
@@ -92,10 +92,10 @@ A plate is pressed from 5 Dark Matter, a Velkonite and an Orvium Reinforced Plat
 | :--- | ---: | ---: | ---: | ---: |
 | One last-tier piece | 1 | 4 | 20 | 10 |
 | A Helios Beam with its 3 tier IV amps | 4 | 16 | 80 | 40 |
-| A Paragon | 40 | 160 | 800 | 400 |
-| A Wraith | 60 | 240 | 1,200 | 600 |
+| A Paragon | 44 | 176 | 880 | 440 |
+| A Wraith | 64 | 256 | 1,280 | 640 |
 
-A Paragon's 40 pieces are its 8 lasers, their 24 amps and its 8 generator and support slots (3 + 3 + 2); a Wraith's 60 are its 12 lasers, their 36 amps and its 12 generator and support slots (4 + 4 + 4).
+A Paragon's 44 pieces are its 9 lasers, their 27 amps and its 8 generator and support slots (3 + 3 + 2); a Wraith's 64 are its 13 lasers, their 39 amps and its 12 generator and support slots (4 + 4 + 4).
 
 ## How much you need
 
@@ -105,7 +105,7 @@ A Paragon's 40 pieces are its 8 lasers, their 24 amps and its 8 generator and su
 | One Dark Matter Plate | 5 | 2.5 |
 | The two plates of one Forge step | 10 | 5 |
 | The four plates of one last-tier piece | 20 | 10 |
-| Every technology that asks for Dark Matter | 1,354 | 677 |
+| Every technology that asks for Dark Matter | 1,364 | 682 |
 
 A first upgrade from nothing is the recipe (10) and two plates (10): 20 Dark Matter, about 10 N.I.K.E. rockets, which is two crafts. A first tier IV amp from nothing is the plate's recipe (10), the amp's own technology (10) and 4 plates (20): 40 Dark Matter, about 20 N.I.K.E. rockets.
 

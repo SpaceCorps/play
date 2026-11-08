@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 2aef34f27861592a -->
+<!-- wiki-i18n source: 9780998c76023357 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -18,12 +18,12 @@ Davidski は飛び回る商人です。1日に1回、誰にも知らされない
 
 | 項目 | アイテム |
 |---|---|
-| レーザー | Helios Beam 8基。それぞれにDamage Amp IV、Crit Amp IV、Penetration Amp IVを装着 |
+| レーザー | Helios Beam 10基。それぞれにDamage Amp IV、Crit Amp IV、Penetration Amp IVを装着 |
 | シールドとエンジン | Heavy Shield Core 11基とAdaptive Core 4基。それぞれにCapacityおよびAbsorption Shield Cell IV、またはImpulseおよびMomentum Thruster IVを装着 |
 | エクストラ | Repair Drone IV、Auto-Repair CPU、Base CPU II |
 | 船体 | Hull Plating III 15枚 |
 
-Alpha の強さでは、**船体858,750**、**シールド1,309,534**（15秒間被弾しないと毎秒67,614回復）、吸収率86.3%、速度89、射程945、**毎秒4,104**の斉射を持ちます。Beta ではこれらの1.5倍、Gamma では2倍です（どのエイリアンも同じです）。Alpha では約220万ポイントを削る必要があります。同じレーザーを積んだWraith 1機だけなら連続射撃で約12分、10機なら約1分10秒です。
+Alpha の強さでは、**船体858,750**、**シールド1,309,534**（15秒間被弾しないと毎秒67,614回復）、吸収率86.3%、速度98、射程945、**毎秒4,324**の斉射を持ちます。Beta ではこれらの1.5倍、Gamma では2倍です（どのエイリアンも同じです）。Alpha では約220万ポイントを削る必要があります。同じレーザーを積んだWraith 1機だけなら連続射撃で約13分、10機なら約77秒です。
 
 ## 彼と戦う {#fighting-him}
 

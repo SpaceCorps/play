@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 324144e437f90c5d -->
+<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
 <!-- wiki-i18n title: Propulsion -->
 # Propulsion et vitesse {#propulsion-speed}
 
@@ -90,4 +90,4 @@ Le palier I de chaque famille se vend 20 000 crédits. Les paliers II à IV se
 
 ### Distancer les aliens {#outrunning-aliens}
 
-Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion avec un Engine II et deux propulseurs vole à 219,3 avec des Impulse Thruster I et à 228,6 avec des II : tous deux toujours sous le Crystalys, il faut donc un propulseur de palier III pour le distancer (238,0 avec des Impulse Thruster III, 241,0 avec des IV). Les Momentum Thrusters volent à la même vitesse ou un peu plus bas sur ce vaisseau (219,3 avec des Momentum Thruster I ; puis 228,3, 236,1 et 238,4 avec des II à IV) : les paliers I et II des deux familles restent sous un Crystalys, et les paliers III et IV passent au-dessus.
+Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion (vitesse de base 220) avec un Engine II et deux propulseurs vole à 239,9 avec des Impulse Thruster I, 249,2 avec des II, 258,6 avec des III et 261,6 avec des IV : tous les paliers distancent le Crystalys, même l’Impulse Thruster I qu’on peut acheter. Les Momentum Thrusters volent à la même vitesse ou un peu plus bas sur ce vaisseau (239,9 avec des Momentum Thruster I ; puis 248,9, 256,7 et 259,0 avec des II à IV) : tous les paliers des deux familles passent au-dessus d’un Crystalys, d’au moins 9,9.

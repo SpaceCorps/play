@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las na
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 600.000
-- **Velocidad base**: 92
-- **Ranuras de láser**: 6
+- **Velocidad base**: 110
+- **Ranuras de láser**: 8
 - **Ranuras de extra**: 3
 - **Ranuras de blindaje**: 15
 
@@ -33,7 +33,7 @@ La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las na
 | Diseño | Qué cambia |
 | :--- | :--- |
 | **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire |
-| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink (velocidad limitada a 1.500) |
+| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las na
 
 ## Historia {#lore}
 
-La Ironclad nació como casco de asedio: una cuña blindada construida para situarse delante de los cañones de la estación y aguantar todo lo que le lanzara el Enjambre. Los astilleros conservaron el blindaje y lo hicieron más grueso, le dieron siete ranuras principales de generador y un 85 % más de casco que la Wraith, le colgaron en la popa un par de góndolas de motor descomunales para mover el peso y, para compensarlo, redujeron sus cañones a seis. No está hecha para dejar atrás a nada, ni le hace falta. Los pilotos la aparcan entre el Enjambre y lo que quieran proteger, y dejan que el blindaje gris oscuro haga el trabajo. Las planchas de blindaje claras se sustituyen después de cada salida; las franjas claras de las alas son la única parte de ella que se pensó para ser vista.
+La Ironclad nació como casco de asedio: una cuña blindada construida para situarse delante de los cañones de la estación y aguantar todo lo que le lanzara el Enjambre. Los astilleros conservaron el blindaje y lo hicieron más grueso, le dieron siete ranuras principales de generador y más del doble de casco que la Wraith, le colgaron en la popa un par de góndolas de motor descomunales para mover el peso y, para compensarlo, redujeron sus cañones a ocho. No está hecha para dejar atrás a nada, ni le hace falta. Los pilotos la aparcan entre el Enjambre y lo que quieran proteger, y dejan que el blindaje gris oscuro haga el trabajo. Las planchas de blindaje claras se sustituyen después de cada salida; las franjas claras de las alas son la única parte de ella que se pensó para ser vista.

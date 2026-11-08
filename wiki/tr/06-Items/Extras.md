@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5e622778711b5fed -->
+<!-- wiki-i18n source: b3d904b8eec2cf43 -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -91,7 +91,7 @@ WAL yuvasına bas; **imlecinin olduğu yerde**, geminden ona uzanan hattı dik k
 
 - **Neyi durdurur.** Onu geçen her atış, kim ateşlemiş olursa olsun ve hangi yönden gelirse gelsin, duvara çarpar: bir lazer salvosu, bir roket, bir uzaylının salvosu. Arkasında duran hiçbir şey hasar almaz; hasarı duvar alır. Duvarda patlayan bir roketin patlaması yakın tarafındaki gemilere zarar verir, arkasındakilere vermez. Seninkiler de: kendi duvarının içinden dışarı ateş edemezsin. N.I.K.E. roketi ile Dormant Swamp taretleri, asteroitlerin üzerinden uçtukları gibi, onun üzerinden uçar.
 - **Neyi yakar.** Gövdesi şeride değen her gemi, önce kalkanından olmak üzere, saniyede **2.500 hasar** alır: seninki de, uzaylılar ve şirket pilotları da. Güvenli bölgedeki ya da doğma korumasındaki bir gemi yanmaz ve bir gemide iki şerit toplanmaz.
-- **Ne kadar dayanır.** 1. seviye bir duvar **30.000 HP**, 2. seviye bir duvar **90.000 HP** taşır. Duvar kendiliğinden her saniye bunların altmışta birini kaybeder; yani kimsenin ateş etmediği bir duvar **60 saniye** sonra yok olur. Atışlar bunu kısaltır: x4 cephaneyle on iki Helios Beam taşıyan bir Wraith, 1. seviye bir duvarı yaklaşık 3,5 saniyede yıkar.
+- **Ne kadar dayanır.** 1. seviye bir duvar **30.000 HP**, 2. seviye bir duvar **90.000 HP** taşır. Duvar kendiliğinden her saniye bunların altmışta birini kaybeder; yani kimsenin ateş etmediği bir duvar **60 saniye** sonra yok olur. Atışlar bunu kısaltır: x4 cephaneyle on üç Helios Beam taşıyan bir Wraith, 1. seviye bir duvarı yaklaşık 4 saniyede yıkar.
 - **Aynı anda tek, basış başına bir duvar.** Yeni bir duvar eskisinin yerini alır. Bir basıştan sonra eşya **90 saniye** yeniden dolar; bu bekleme gemiye değil sana aittir, bu yüzden ölmek ya da oturumu kapatmak onu kısaltmaz. Bir basış, yuvasının taşıdığı seviyeden **bir duvar** harcar ve yalnızca duvar kurulduğunda: oyunun reddettiği bir basış (aşağıda) hiçbir şey harcamaz ve bekleme başlatmaz. O seviyeden hiç kalmadıysa “Energetic Wall kalmadı.” der ve onun yerine diğer seviye asla kullanılmaz.
 - **Nerede olmaz.** Bir güvenli bölge ya da doğma koruması seni korurken olmaz, şeridin bir güvenli bölgeye ya da geçide değeceği yerde olmaz, gizliyken olmaz ve şeridin ortasının haritadan taşacağı yerde olmaz. Hangisi olduğunu oyun söyler.
 - **Öldürmeler.** Duvarın yok ettiği bir gemi radyasyondan ölür ve öldürme, varsa, ona 15 saniye içinde vuran son düşman pilota yazılır. Duvarı kurana, kendisinin ateş etmediği hiçbir şey yazılmaz. Duvarın yok ettiği bir uzaylı hiçbir şey ödemez: ne ödül ne ganimet.
@@ -154,9 +154,9 @@ Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da 
 
 ### Auto-Rocket CPU
 
-- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya ya da düşman pilota ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler.
+- **Ne yapar.** AÇIK olduğu sürece ve bir çatışmadayken (lazerlerin bir uzaylıya, düşman bir pilota ya da bir asteroite ateş ederken), Roket fırlat tuşuna basmak işe yarayacağı her an en son fırlattığın aktif roketi o hedefe kendisi fırlatır: roketlerin sayacı hazırdır ve elinde bir tane kalmıştır. Sunucu her fırlatmayı seninkileri denetlediği gibi denetler. Bir asteroite karşı da bir gemiye karşı olduğu gibi roket harcar, bu yüzden yalnızca madencilik yaparken onu KAPALI tut.
 - **Anahtar.** Bir Ekstra yuvasına tak ve ARL yuvasına basarak AÇIK ya da KAPALI yap. KAPALI başlar ve bıraktığın gibi kalır, yeniden giriş yaptığında da. Yuva AÇIK ya da KAPALI yazar ve CPU ateş ettiğinde parlar.
-- **Asla yapmadığı şeyler.** Asla hedef seçmez, asteroitlere, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
+- **Asla yapmadığı şeyler.** Asla hedef seçmez, güvenli bölgeden ya da gizliyken ateş etmez, N.U.K.E. ya da N.I.K.E. fırlatmaz. Kendi fırlattığın roket her zaman çalışır. 3 dakika boyunca tuşa basmazsan, tıklamazsan ve fareyi oynatmazsan sen bir şey yapana kadar bekler.
 - **Roket kalmadı.** Bir kez söyler ve elinde yenisi olunca yeniden fırlatır.
 
 

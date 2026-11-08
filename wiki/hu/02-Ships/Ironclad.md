@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 31da41b4ca191641 -->
+<!-- wiki-i18n source: afbfba0feace9790 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,8 +7,8 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 600 000
-- **Alapsebesség**: 92
-- **Lézerfoglalatok**: 6
+- **Alapsebesség**: 110
+- **Lézerfoglalatok**: 8
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 15
 
@@ -33,7 +33,7 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 | Dizájn | Mit változtat |
 | :--- | :--- |
 | **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire |
-| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink (sebesség legfeljebb 1 500) |
+| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -45,4 +45,4 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 
 ## Háttértörténet {#lore}
 
-Az Ironclad ostromhajótestként indult: páncélozott ék, amelyet arra építettek, hogy az állomás ágyúi előtt álljon, és elnyeljen mindent, amit a Raj rázúdít. A hajógyárak megtartották a páncélt, és vastagabbra csinálták, hét magfoglalatot adtak neki a generátoroknak és a Wraith-nél 85%-kal több hajótestet, hátulra felakasztottak egy pár túlméretezett hajtóműgondolát, hogy elmozdítsák a súlyt, a fegyvereit pedig hatra faragták, hogy kijöjjön a költség. Nem arra építették, hogy bárkit lehagyjon, és nincs is rá szüksége. A pilóták a Raj és minden közé beállítják, amit védeni akarnak, és a sötétszürke páncélzatra bízzák a munkát. A világos páncéllapokat minden bevetés után kicserélik; a szárnyak mentén futó világos csíkok az egyetlen részei, amelyeket valaha is arra szántak, hogy látni lehessen.
+Az Ironclad ostromhajótestként indult: páncélozott ék, amelyet arra építettek, hogy az állomás ágyúi előtt álljon, és elnyeljen mindent, amit a Raj rázúdít. A hajógyárak megtartották a páncélt, és vastagabbra csinálták, hét magfoglalatot adtak neki a generátoroknak és a Wraith-nél több mint kétszer akkora hajótestet, hátulra felakasztottak egy pár túlméretezett hajtóműgondolát, hogy elmozdítsák a súlyt, a fegyvereit pedig nyolcra faragták, hogy kijöjjön a költség. Nem arra építették, hogy bárkit lehagyjon, és nincs is rá szüksége. A pilóták a Raj és minden közé beállítják, amit védeni akarnak, és a sötétszürke páncélzatra bízzák a munkát. A világos páncéllapokat minden bevetés után kicserélik; a szárnyak mentén futó világos csíkok az egyetlen részei, amelyeket valaha is arra szántak, hogy látni lehessen.

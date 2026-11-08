@@ -28,7 +28,7 @@ This page has the whole technology tree with the time each technology takes, the
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (142 of the 158 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (143 of the 159 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
 
 **The laser amps and the last tier.** The Damage, Crit and Penetration Amps of tiers II to IV are researched crafts like the rest. Pilots who held or had queued amps when the amp families came received the technology of each of those amps and of the tiers below them. Thirteen technologies need a technology of another tree, the Dark Matter Plate's of the Resources tree, because the last tier of every upgrade chain asks for four plates and an Ancient Control Unit: the tier IV Damage, Crit and Penetration Amps, the tier IV Absorption and Capacity Shield Cells, the tier IV Impulse and Momentum Thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. A pilot who researched one of them earlier keeps it, and needs the plate's technology to craft its plates. The tree below draws no arrow for it, but the table lists it and the card in the game names it ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -331,12 +331,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Laser Ammo {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -554,9 +554,9 @@ None of them is sold in the Shop: research the technology, then make the CPU in 
 
 ### Auto-Rocket CPU
 
-- **What it does.** While it is switched ON and you are in a fight (your lasers are on an alien or an enemy pilot), it fires your armed rocket, the one you fired last, at that target by itself, whenever a press of the Fire Rocket key would work: the rockets' timer is ready and you have one left. The server checks each launch as it checks yours.
+- **What it does.** While it is switched ON and you are in a fight (your lasers are on an alien, an enemy pilot or an asteroid), it fires your armed rocket, the one you fired last, at that target by itself, whenever a press of the Fire Rocket key would work: the rockets' timer is ready and you have one left. The server checks each launch as it checks yours. It spends rockets on an asteroid as it does on a ship, so switch it OFF while you only mine.
 - **The switch.** Fit it in an Extras slot and press its ARL slot to switch it ON or OFF. It starts OFF and stays as you left it, also when you sign in again. The slot says ON or OFF and glows when the CPU fires.
-- **What it never does.** It never picks a target, never fires at asteroids, never fires from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E. A rocket you fire yourself always works. With no key, click or mouse move for 3 minutes it waits until you do something.
+- **What it never does.** It never picks a target, never fires from a safe zone or while you are cloaked, and never fires a N.U.K.E. or a N.I.K.E. A rocket you fire yourself always works. With no key, click or mouse move for 3 minutes it waits until you do something.
 - **No rockets left.** It tells you once and fires again as soon as you have more.
 
 

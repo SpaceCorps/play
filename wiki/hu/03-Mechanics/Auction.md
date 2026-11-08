@@ -179,6 +179,7 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
 
 - Minden UTC-óra elején 3 új tétel nyílik, mindegyik más árucikk, és mindegyik 4 órán át nyitva marad, így egyszerre 12 van nyitva.
+- Minden világnak megvannak a saját tételei: az Alpha, a Beta és a Gamma minden órában megkapja ezeket a tételeket, ugyanabban az órában más árucikkekkel, a méretüket az adott világ pilótái szabják meg. Csak annak a világnak a tételeit látod, azokra licitálhatsz és azokat nyerheted meg, amelyben repülsz. A Piac és a vételi megbízások mind a három világban közösek.
 - A kikiáltási ár az áru bolti árának 20%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit többnek kell lennie.
 - Az ajánlatod azonnal kifizetődik és zárolva marad. Ha valaki túllicitál, azonnal visszakapod.
 - Ha egy tétel utolsó 2 perc idejében licitálsz, a tétel vége a licit után 2 perc múlva lesz, legfeljebb 5 alkalommal.

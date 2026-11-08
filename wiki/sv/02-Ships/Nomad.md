@@ -1,13 +1,13 @@
-<!-- wiki-i18n source: a69782bc2215e128 -->
+<!-- wiki-i18n source: 2171d83ccb169853 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad är en kryssare med dubbelt så stort skrov och dubbelt så många kanoner som en Ostirion: ett hammarhuvud mellan Ostirion och Paragon, som köps i butiken med krediter och Thulium tillsammans. Alla piloter får köpa den.
+Nomad är en kryssare med nästan dubbelt så stort skrov och dubbelt så många kanoner som en Ostirion: ett hammarhuvud mellan Ostirion och Paragon, som köps i butiken med krediter och Thulium tillsammans. Alla piloter får köpa den.
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 96 000
-- **Grundhastighet**: 200
+- **Träffpoäng (HP)**: 111 000
+- **Grundhastighet**: 210
 - **Laserplatser**: 6
 - **Extraplatser**: 2
 
@@ -36,4 +36,4 @@ Nomad är en kryssare med dubbelt så stort skrov och dubbelt så många kanoner
 
 ## Bakgrund {#lore}
 
-Nomad ritades som ett karavanskepp: ett långdistansskrov för kartläggning och frakt, byggt för lederna bortom stationens kanoner, där en besättning kan flyga i veckor utan att möta någon vänlig. Uppifrån är den ett hammarhuvud. Den breda fören är pansrad över hela sin bredd med skymningsindigofärgade plåtar, och dess grunda V-formade framkant bär sex kanoner i tre par, där paret närmast bryggan når längst. Två långa bommar smalnar av mot motorkapslarna, en smal ryggrad bär bryggan, och under hammaren rymmer ett öppet lastdäck fyra sandfärgade lådor och en sensorkupol. Sand, skymningsindigo och violetta positionsljus är dess färger, och inget annat skepp bär dem. Konvojkaptener bad om en eskort som också kunde vara konvojen, och varven gav dem en Ostirion med dubbelt så stort skrov och dubbelt så många kanoner.
+Nomad ritades som ett karavanskepp: ett långdistansskrov för kartläggning och frakt, byggt för lederna bortom stationens kanoner, där en besättning kan flyga i veckor utan att möta någon vänlig. Uppifrån är den ett hammarhuvud. Den breda fören är pansrad över hela sin bredd med skymningsindigofärgade plåtar, och dess grunda V-formade framkant bär sex kanoner i tre par, där paret närmast bryggan når längst. Två långa bommar smalnar av mot motorkapslarna, en smal ryggrad bär bryggan, och under hammaren rymmer ett öppet lastdäck fyra sandfärgade lådor och en sensorkupol. Sand, skymningsindigo och violetta positionsljus är dess färger, och inget annat skepp bär dem. Konvojkaptener bad om en eskort som också kunde vara konvojen, och varven gav dem en Ostirion med nästan dubbelt så stort skrov och dubbelt så många kanoner.

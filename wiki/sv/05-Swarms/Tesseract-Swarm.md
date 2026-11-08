@@ -13,11 +13,11 @@ Tesseract-svärmen är ett enda enormt moderskepp, **Tesseract**, och de **Facet
 - **Hur många**: En i varje värld
 - **Dyker upp**: Från säsongsdag 4 till wipen (Beta och Gamma: från säsongsdag 1)
 - **Ledare**: Tesseract
-- **Hemmaplats**: Inom 2 500 enheter från punkten 27 000, 5 000 på sektorns karta
+- **Hemmaplats**: Inom 2 500 enheter från punkten 25 900, 6 100 på sektorns karta
 - **Regenerering**: 125 000 HP per sekund i Alpha, först skrovet och sedan skölden, när 5 s har gått utan skada
 - **Följeslagare**: Upp till 100 × Facet, 20 till var 5 s medan ledaren träffas
 - **Följeslagarna kommer**: Bara medan ledaren har träffats de senaste 5 s, inom 400 enheter från den
-- **Jägare**: Varje Facet flyger egna sträckor runt ledaren, inom 1 800 enheter från den, och jagar ingen. Den skjuter på den närmaste piloten som har träffat ledaren när piloten är inom dess räckhåll. Utan någon att skjuta på flyger den vidare runt ledaren och försvinner 20 s efter den sista träffen
+- **Jägare**: Varje Facet flyger egna sträckor runt ledaren, inom 3 600 enheter från den, och jagar ingen. Den skjuter på den närmaste piloten som har träffat ledaren när piloten är inom dess räckhåll. Utan någon att skjuta på flyger den vidare runt ledaren och försvinner 20 s efter den sista träffen
 - **När ledaren förstörs**: Följeslagarna försvinner 1 min efter att ledaren förstörts, även om de just attackerar
 - **Kommer tillbaka**: 30 min efter att ledaren förstörts, i samma sektor
 - **Meddelanden**: Piloterna i sektorn får veta när ledaren dyker upp och när den förstörs. Det är systemrader: de syns på chattens flik **System**, med en räknare för olästa rader, och inte i **Global** eller **Lokal**. Dödsloggen nämner piloten som nedskjutningen tillskrivs.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eeb51b0ee423d9c8 -->
+<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
 <!-- wiki-i18n title: Eredmények -->
 # Eredmények {#achievements}
 
@@ -69,7 +69,7 @@ A 37 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Állomásépítő | Építs 5 különböző Skylab-modult. | Gyakori |
 | Teljes felszereltség | Építsd meg mind a 16 Skylab-modult. | Epikus |
 | Tudós | Fejezd be 50 technológia kutatását. | Szokatlan |
-| Levéltáros | Fejezd be mind a 158 technológia kutatását. | Legendás |
+| Levéltáros | Fejezd be mind a 159 technológia kutatását. | Legendás |
 
 ### Flotta {#group-fleet}
 

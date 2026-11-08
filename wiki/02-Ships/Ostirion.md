@@ -4,8 +4,8 @@ The Ostirion is a solid mid-tier interceptor, offering a significant upgrade in 
 
 ## Stats
 
-- **Hitpoints (HP)**: 48,000
-- **Base Speed**: 200
+- **Hitpoints (HP)**: 64,000
+- **Base Speed**: 220
 - **Laser Slots**: 3
 - **Extra Slots**: 2
 
@@ -13,7 +13,7 @@ The Ostirion is a solid mid-tier interceptor, offering a significant upgrade in 
 
 - **Core Slots (100% efficiency)**: 3
 - **Support Slots (75% efficiency)**: 3
-- **Auxiliary Slots (50% efficiency)**: 0
+- **Auxiliary Slots (50% efficiency)**: 1
 
 ---
 

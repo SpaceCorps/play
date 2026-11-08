@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c21ae6d189180cd7 -->
+<!-- wiki-i18n source: abb582fd63389ab9 -->
 <!-- wiki-i18n title: Essaim Phantasm -->
 # Essaim Phantasm {#phantasm-swarm}
 
@@ -29,7 +29,7 @@ L’essaim Phantasm est un **Boss Phantasm** avec ses **Phantasm Guards** : un 
 
 ## Le déroulement du combat {#how-the-fight-goes}
 
-- **Venez en groupe.** Trois pilotes de niveau 4–5 avec des munitions x2 le détruisent en environ une minute et demie dans Alpha, en perdant au plus un vaisseau ; un pilote de ce niveau seul est détruit, et deux aussi. De meilleurs vaisseaux et des munitions x4 le rendent bien plus rapide.
+- **Venez en groupe.** Trois pilotes de niveau 4–5 avec des munitions x2 le détruisent en environ une minute et demie dans Alpha, en perdant au plus un vaisseau ; un pilote de ce niveau seul est détruit, et deux ne gagnent que de justesse, et seulement tant que les coups se répartissent. De meilleurs vaisseaux et des munitions x4 le rendent bien plus rapide.
 - **Tirez sur le boss, pas sur les Guards.** Un Guard tombe en quelques secondes, mais un nouveau arrive aussi souvent que la liste *D’un coup d’œil* l’indique, et ce que les Guards soignent est une petite part de ce qu’inflige un groupe : les laisser tranquilles coûte un peu de temps, leur donner la chasse en coûte davantage.
 - **Beta et Gamma sont plus durs.** Les essaims de ces mondes sont plus forts ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)), ils demandent donc plus de pilotes ou de meilleures munitions.
 - **Surveillez le secteur.** `x-4` est un secteur PvP dans Alpha, et `x-3` et `x-4` le sont dans Beta et Gamma ([Mondes](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)) : un rival peut se joindre au combat ou attendre la caisse. Gardez un vaisseau du groupe en veille.

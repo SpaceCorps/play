@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ffcda2d3fe90cc98 -->
+<!-- wiki-i18n source: 97e5ffd31b68d936 -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 158 technológiából 142). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 159 technológiából 143). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -333,12 +333,12 @@ P.E.T. Station I => P.E.T. Station II => P.E.T. Station III
 ### Lézerlőszer {#tree-laser-ammo}
 
 ```tree research
-Ultra Core | ammo, rare | buy 1 Thulium | craft 360 Credits, 568 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 1200 Cataclysite, 900 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
-Experimental Fusion Core | ammo, epic | craft 9138 Credits, 1176 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 1400 Cataclysite, 1050 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Ultra Core | ammo, rare | buy 1 Thulium | craft 320 Credits, 687 Thulium, 600 s, x1000 | research 1800 s, 1800 science | 120 Cataclysite, 90 Quorvium, 4 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
+Experimental Fusion Core | ammo, epic | craft 9058 Credits, 1315 Thulium, 900 s, x1000 | research 14400 s, 14400 science | 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 1 Orvium Reinforced Plate | /wiki/06-Items/Lasers.md#laser-ammunition
 Siphon Battery II | ammo, rare | craft 250 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1000 Siphon Battery | /wiki/06-Items/Lasers.md#siphon-battery
 Antimatter Battery I | ammo, rare | craft 100 Thulium, 600 s, x1000 | research 10800 s, 10800 science | 1000 Siphon Battery II | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Antimatter Battery II | ammo, epic | craft 4740 Credits, 75 Thulium, 900 s, x1000 | research 28800 s, 28800 science | 1000 Antimatter Battery I, 3 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
-Dark Matter Ammo I | ammo, rare | craft 4913 Credits, 868 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 1200 Cataclysite, 900 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
+Dark Matter Ammo I | ammo, rare | craft 4873 Credits, 987 Thulium, 300 s, x1000 | research 3600 s, 3600 science | 120 Cataclysite, 90 Quorvium, 1 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 Dark Matter Ammo II | ammo, epic | craft 200 Thulium, 900 s, x1000 | research 21600 s, 21600 science | 1000 Dark Matter Ammo I, 4 Dark Matter | /wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo
 
 Ultra Core => Experimental Fusion Core
@@ -556,9 +556,9 @@ Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a C
 
 ### Auto-Rocket CPU
 
-- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre vagy ellenséges pilótára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet.
+- **Mit tud.** Amíg BE van kapcsolva, és harcban vagy (a lézereid egy idegenre, egy ellenséges pilótára vagy egy aszteroidára céloznak), magától kilövi az aktív rakétádat, azt, amelyet utoljára lőttél ki, arra a célpontra, valahányszor a Rakéta kilövése gomb lenyomása működne: a rakéták időzítője kész, és van még belőle egy. A szerver minden kilövést úgy ellenőriz, mint a tieidet. Aszteroidára ugyanúgy költi a rakétákat, mint hajóra, ezért kapcsold KI, amíg csak bányászol.
 - **A kapcsoló.** Szereld fel egy Extrák helyre, és nyomd meg az ARL helyét a be- vagy kikapcsoláshoz. KI állapotban indul, és úgy marad, ahogy hagytad, akkor is, ha újra bejelentkezel. A hely BE vagy KI feliratot mutat, és felvillan, amikor a CPU lő.
-- **Mit nem tesz soha.** Soha nem választ célpontot, soha nem lő aszteroidákra, biztonságos zónából vagy álcázva, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
+- **Mit nem tesz soha.** Soha nem választ célpontot, biztonságos zónából vagy álcázva nem lő, és soha nem lő ki N.U.K.E.-t vagy N.I.K.E.-t. A magad kilőtt rakéta mindig működik. Ha 3 percig nincs gombnyomás, kattintás vagy egérmozgatás, megvárja, amíg csinálsz valamit.
 - **Elfogyott a rakéta.** Egyszer szól, és újra lő, amint lesz több.
 
 
