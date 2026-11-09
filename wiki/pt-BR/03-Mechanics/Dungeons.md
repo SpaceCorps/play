@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Masmorras -->
 # Masmorras {#dungeons}
 
@@ -20,7 +20,7 @@ Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro
 - **Masmorras ao mesmo tempo**: 6 em um mundo
 - **Mapas**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labirintos**: 8; uma é sorteada quando uma masmorra é aberta
-- **Sala do chefe**: Abre quando 75% dos alienígenas do labirinto são destruídos, arredondado para cima
+- **Sala do chefe**: Abre quando 75% dos Crystalys e de seus Twins são destruídos, arredondado para cima
 - **Reunião**: 10 min para reunir e iniciar. Uma masmorra que ninguém inicia se fecha, e o preço volta ao banco do clã
 - **Limite de tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min a partir do início. Quando esgota, a masmorra falha e não paga nada
 - **Vazio**: Uma masmorra sem ninguém dentro por 3 min falha
@@ -36,7 +36,7 @@ Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro
 3. **Iniciar.** A sala inicial é uma sala pequena numa ponta do labirinto, e a porta dela fica fechada enquanto a masmorra se reúne. Não há alienígenas nela, então é seguro esperar ali. A masmorra **inicia sozinha** quando todos os pilotos que ela espera estão dentro e o grupo é grande o bastante. Ele espera os membros do clã que estão online, não ausentes e no grupo de um piloto que entrou, e inicia na hora quando o grupo está cheio. O piloto que abriu a masmorra, ou um oficial, pode apertar **Iniciar** para começar mais cedo com os pilotos que estiverem dentro, se forem o bastante. Um piloto que sai deixa de ser esperado. Quando a masmorra inicia, a porta se abre para sempre, e depois disso só podem voltar os pilotos que já estavam dentro.
 4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra, numa sala trancada. O labirinto é escuro: você só vê o que o grupo explorou e o que está perto das naves dele. Os alienígenas dormem em bandos nos corredores, e um bando que acorda caça o grupo pelo labirinto.
 5. **Abrir as zonas de saque.** Anéis no labirinto marcam as zonas. Segure uma e o grupo vota numa carta, que é paga junto com o pagamento do Senhor da guerra.
-6. **Destrancar a sala do chefe.** Destrua três quartos dos alienígenas do labirinto, e a porta da sala do Senhor da guerra se abre. Até lá, o Senhor da guerra não pode ser ferido.
+6. **Destrancar a sala do chefe.** Destrua três quartos dos Crystalys e de seus Twins do labirinto, e a porta da sala do Senhor da guerra se abre. Até lá, o Senhor da guerra não pode ser ferido. Os outros alienígenas ficam onde estão, e você também pode destruí-los.
 7. **Derrotar o Senhor da guerra.** Quebre seu escudo e seu casco e responda às suas habilidades. Quando ele cai, a masmorra está concluída.
 8. **Ser pago.** O pagamento vem no momento em que o Senhor da guerra cai. A masmorra continua aberta um pouco mais para os pilotos lá dentro e depois se fecha.
 
@@ -56,7 +56,7 @@ Enquanto a masmorra do seu clã se reúne e você voa em outro lugar, um **aviso
 
 ### A janela Masmorra do clã {#the-clan-dungeon-window}
 
-Dentro de uma masmorra a partida tem uma janela própria, **Masmorra do clã**. Ela mostra o tempo que passou e o que resta, quantos alienígenas voam e quantos foram destruídos, o que o grupo deve fazer agora (explorar o labirinto, segurar uma zona, achar o chefe, destruir três quartos dos alienígenas, derrotar o Senhor da guerra), as barras de casco do grupo, a barra de retenção enquanto você está numa zona, a habilidade do Senhor da guerra com a contagem regressiva e o botão **Sair**. É uma janela como as outras: arraste pela barra de título e feche com a luz vermelha no canto. Ela abre sozinha quando você entra numa masmorra, uma vez para cada masmorra: se você a fecha, ela fica fechada até a próxima masmorra. A barra de ferramentas tem um botão **Masmorra do clã** para ela enquanto você está numa masmorra. Com a janela fechada, uma habilidade do Senhor da guerra que está para começar ou em andamento aparece como uma faixa de uma linha com o nome e a contagem regressiva. Clique na faixa para abrir a janela de novo.
+Dentro de uma masmorra a partida tem uma janela própria, **Masmorra do clã**. Ela mostra o tempo que passou e o que resta, quantos alienígenas voam e quantos foram destruídos, o que o grupo deve fazer agora (explorar o labirinto, segurar uma zona, achar o chefe, destruir três quartos dos Crystalys e de seus Twins, derrotar o Senhor da guerra), a barra de retenção enquanto você está numa zona, a habilidade do Senhor da guerra com a contagem regressiva e o botão **Sair**. É uma janela como as outras: arraste pela barra de título e feche com a luz vermelha no canto. Ela abre sozinha quando você entra numa masmorra, uma vez para cada masmorra: se você a fecha, ela fica fechada até a próxima masmorra. A barra de ferramentas tem um botão **Masmorra do clã** para ela enquanto você está numa masmorra. Com a janela fechada, uma habilidade do Senhor da guerra que está para começar ou em andamento aparece como uma faixa de uma linha com o nome e a contagem regressiva. Clique na faixa para abrir a janela de novo.
 
 ## As fases {#the-stages}
 
@@ -77,13 +77,13 @@ Uma masmorra tem uma fase, e a fase é a dificuldade dela. Uma fase mais alta te
 
 Cada masmorra é um labirinto fechado num mapa próprio, um dos mapas da lista acima, e o labirinto é um de vários desenhos. O labirinto ocupa o mapa inteiro, de borda a borda: uma grade de salas e corredores com paredes sólidas. As naves não atravessam uma parede, e uma parede bloqueia os tiros, então é cobertura. Um meteoro cai de cima, e uma parede não o detém.
 
-**Salas e portas.** A sala inicial, onde você pousa, e a sala do Senhor da guerra, na ponta oposta, têm cada uma uma porta. Uma porta fechada é uma parede para naves, tiros e alienígenas. A porta inicial abre quando a masmorra inicia. A do Senhor da guerra fica trancada até três quartos dos alienígenas serem destruídos (veja [A sala trancada](#the-locked-room)). Entre as duas, o labirinto tem uma sala de saque para cada zona de saque.
+**Salas e portas.** A sala inicial, onde você pousa, e a sala do Senhor da guerra, na ponta oposta, têm cada uma uma porta. Uma porta fechada é uma parede para naves, tiros e alienígenas. A porta inicial abre quando a masmorra inicia. A do Senhor da guerra fica trancada até três quartos dos Crystalys e de seus Twins serem destruídos (veja [A sala trancada](#the-locked-room)). Entre as duas, o labirinto tem uma sala de saque para cada zona de saque.
 
 **Névoa.** O labirinto é escuro. Em voo você vê as paredes e os alienígenas dele só onde o grupo esteve, e um trecho curto em volta de cada nave do grupo. Uma sala conta como explorada assim que um de vocês está nela. O minimapa é igual: uma carta do andar inteiro que se preenche conforme o grupo explora, com a entrada, a porta do Senhor da guerra, as zonas que vocês acharam e o Senhor da guerra depois de achado. Os pilotos do seu próprio grupo sempre aparecem.
 
 ## Os alienígenas {#the-aliens}
 
-Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corredores, nunca numa sala, e um bando acorda quando um piloto se aproxima. Um bando acordado não espera por você: ele caça o grupo pelo labirinto, e um bando que perde todo mundo volta para onde dormia e se cura. Alguns bandos estão acordados desde o primeiro segundo, parados nos corredores longe da entrada, até um piloto se aproximar. A masmorra mantém só um certo número de alienígenas no ar de cada vez, e esse número cresce com o tamanho do grupo, então um bando que acorda pode ter de esperar vaga, e um bando que você destrói deixa o próximo entrar. Um grupo maior encontra mais alienígenas, em proporção, um menor encontra menos, e um tipo de alienígena nunca cai abaixo de um.
+Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corredores, nunca numa sala, e um bando acorda quando um piloto se aproxima. Um bando acordado não espera por você: ele caça o grupo pelo labirinto, e um bando que perde todo mundo volta para onde dormia e se cura. Alguns bandos estão acordados desde o primeiro segundo, parados nos corredores longe da entrada, até um piloto se aproximar. A masmorra mantém só um certo número de alienígenas no ar de cada vez, e esse número cresce com o tamanho do grupo, então um bando que acorda pode ter de esperar vaga, e um bando que você destrói deixa o próximo entrar. Um grupo maior encontra mais alienígenas, em proporção, um menor encontra menos, e um tipo de alienígena nunca cai abaixo de um. Um bando que ainda espera vaga quando todos os pilotos se afastaram volta a dormir, e acorda de novo quando um piloto se aproxima.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corr
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Total | 235 | 235 | 235 |
-| Para abrir a sala do chefe | 177 | 177 | 177 |
+| Para abrir a sala do chefe | 34 | 34 | 34 |
 | A onda de uma zona de saque | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys |
 
 - **Vivos ao mesmo tempo**: No máximo 10 por piloto do grupo, e 70 no total
@@ -125,7 +125,7 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 - **Parece com**: Pirate Boss
 - **Voa em bandos de**: 2
-- **Foguete**: Um foguete reto a cada 5 s, alcance de 970 unidades
+- **Foguete**: Um foguete reto a cada 5 s, alcance de 1.000 unidades
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ O casco e o escudo acima são para um grupo de 5. Eles crescem com o grupo: são
 
 ### A sala trancada {#the-locked-room}
 
-A porta da sala do Senhor da guerra fica fechada desde o momento em que a masmorra é aberta, e enquanto está fechada o Senhor da guerra não pode ser ferido: nenhum laser, foguete ou explosão o atinge, e ele não usa habilidade nenhuma. A porta se abre para sempre quando **três quartos dos alienígenas** com os quais a masmorra foi feita são destruídos, arredondados para cima (a tabela dos alienígenas acima os conta para um grupo de 5). Contam os alienígenas dos bandos do labirinto, inclusive os bandos que ficam nos corredores desde o primeiro segundo, dos quatro tipos e quem quer que os destrua. Não contam as ondas das zonas de saque, os Goombahs que o Senhor da guerra chama nem o próprio Senhor da guerra.
+A porta da sala do Senhor da guerra fica fechada desde o momento em que a masmorra é aberta, e enquanto está fechada o Senhor da guerra não pode ser ferido: nenhum laser, foguete ou explosão o atinge, e ele não usa habilidade nenhuma. A porta se abre para sempre quando **três quartos dos Crystalys e de seus Twins** com os quais a masmorra foi feita são destruídos, arredondados para cima (a tabela dos alienígenas acima os conta para um grupo de 5, e a última linha diz quantos são necessários). Contam os Crystalys e os Twins dos bandos do labirinto, inclusive os dos bandos que ficam nos corredores desde o primeiro segundo, e quem quer que os destrua. Para a porta não contam os outros alienígenas, as ondas das zonas de saque, os Goombahs que o Senhor da guerra chama nem o próprio Senhor da guerra.
 
-A janela Masmorra do clã conta quantos alienígenas ainda faltam destruir para abrir a sala e diz, numa etiqueta, que o Senhor da guerra não pode ser ferido, e uma mensagem avisa quando a sala é destrancada. Um bando que ainda dorme conta por inteiro, então o grupo precisa explorar o labirinto, mas pode deixar em paz o último quarto dos alienígenas. No minimapa a porta é uma linha vermelha enquanto está trancada e uma verde quando está aberta. Uma masmorra nunca é uma armadilha: o limite de tempo ainda encerra uma masmorra cuja porta continua fechada, e um administrador pode destrancar a sala de uma masmorra travada.
+A janela Masmorra do clã conta quantos deles ainda faltam destruir para abrir a sala e diz, numa etiqueta, que o Senhor da guerra não pode ser ferido, e uma mensagem avisa quando a sala é destrancada. Um bando que ainda dorme conta por inteiro, então o grupo precisa achar os Crystalys e seus Twins no labirinto. **Os outros alienígenas não somem quando a porta se abre.** Eles ficam no labirinto, acordam quando um piloto se aproxima e podem ser destruídos como antes, então um grupo que quiser pode destruir todos antes de enfrentar o Senhor da guerra: a contagem de alienígenas na janela vai até todos os alienígenas com que a masmorra foi feita e aparece cheia quando não sobra nenhum. Eles não pagam nada, e os que ainda estão vivos quando o Senhor da guerra cai vão embora com a masmorra. No minimapa a porta é uma linha vermelha enquanto está trancada e uma verde quando está aberta. Uma masmorra nunca é uma armadilha: o limite de tempo ainda encerra uma masmorra cuja porta continua fechada, e um administrador pode destrancar a sala de uma masmorra travada.
 
 ### Suas habilidades {#its-abilities}
 
@@ -212,7 +212,7 @@ A janela Masmorra do clã conta quantos alienígenas ainda faltam destruir para 
 - **Foco no mais procurado** marca o piloto que causou mais dano ao Senhor da guerra, com um colchete dourado na nave dele, e o Senhor da guerra dispara nele um tiro extra a cada segundo enquanto dura. A mira dele não muda: ele continua atirando no piloto mais próximo que consegue ver, então um piloto marcado que também é o mais próximo leva os dois. O tiro extra precisa de linha livre e do alcance do laser do Senhor da guerra, então uma parede ou alguma distância o salva. Não começa enquanto ninguém causou dano.
 - **A Barragem de foguetes** manda foguetes teleguiados contra pilotos aleatórios, mas só contra pilotos que o Senhor da guerra consegue ver, e uma parede no caminho detém um foguete. Um anel mostra qual piloto um foguete segue. Uma EMP Charge ou uma camuflagem os despista.
 - **O Apoio do enxame** é o Senhor da guerra chamando seus Goombahs. Enquanto eles vivem, ele não pode ser ferido, e não atira nem usa outra habilidade. Destrua todos: o estandarte conta quantos restam. Se passar um minuto, o Senhor da guerra volta a poder ser ferido e os Goombahs que sobraram ficam e continuam lutando. Eles não contam para a sala do chefe e não pagam nada.
-- **A Zona do Caos** é um anel violeta no chão, em volta do lugar onde o Senhor da guerra estava quando a lançou. Ninguém dentro do anel pode atacar, nem com lasers nem com foguetes, mas reparos, camuflagem e voo continuam funcionando, e o Senhor da guerra e seus alienígenas atiram como sempre. O anel aparece um instante antes de fazer efeito: saia dele e atire para dentro de fora.
+- **A Zona do Caos** é um anel violeta no chão, em volta do Senhor da guerra, e enquanto dura vai aonde o Senhor da guerra for. Ninguém dentro do anel pode atacar, nem com lasers nem com foguetes, mas reparos, camuflagem e voo continuam funcionando, e o Senhor da guerra e seus alienígenas atiram como sempre. O anel aparece um instante antes de fazer efeito: saia dele e fique fora, porque ele segue o Senhor da guerra. Um piloto fora do anel ainda pode atirar, até onde suas armas alcançarem.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ A janela Masmorra do clã conta quantos alienígenas ainda faltam destruir para 
 | **Aura de roubo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
 | **Queda de meteoros** | 6 meteoros por salva, 40.000 cada | 8 meteoros por salva, 50.000 cada | 10 meteoros por salva, 60.000 cada |
 | **Foco no mais procurado** | 18.750–22.500 por tiro extra no piloto que mais causou dano, um a cada 1 s | 22.500–26.250 por tiro extra no piloto que mais causou dano, um a cada 1 s | 30.000–37.500 por tiro extra no piloto que mais causou dano, um a cada 1 s |
-| **Barragem de foguetes** | 6.500 por foguete, um a cada 15 s | 8.125 por foguete, um a cada 15 s | 9.750 por foguete, um a cada 15 s |
+| **Barragem de foguetes** | 26.000 por foguete, um a cada 15 s | 32.500 por foguete, um a cada 15 s | 39.000 por foguete, um a cada 15 s |
 | **Absorção de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
 | **Apoio do enxame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona do Caos** | Pilotos dentro do anel não podem atacar | Pilotos dentro do anel não podem atacar | Pilotos dentro do anel não podem atacar |
@@ -266,7 +266,9 @@ Mais pilotos no anel mantêm a zona mais rápido. Quanto tempo leva para manter 
 
 ### Boosters
 
-Nas fases 2 e 3 as ondas das zonas de saque trazem também boosters. Quando o grupo destrói todos os alienígenas de uma onda, a onda conta, e depois de cada segunda onda (a segunda, a quarta e a sexta) cada piloto ganha uma janela de meio minuto para escolher um booster temporário para si: **Dano** (seus lasers batem mais forte), **Pontos de vida** (sua nave aguenta mais casco) ou **Velocidade** (sua nave voa mais rápido). Aperte uma carta para escolhê-la. Se você não responder a tempo, o jogo escolhe Pontos de vida por você. Uma escolha vale 3% na fase 3 e 1,5% na fase 2, e um tipo soma até 9% na fase 3 e 4,5% na fase 2, por mais vezes que você o escolha. A fase 1 não tem boosters. Um grupo que deixa uma onda viva não ganha janela por ela.
+Nas fases 2 e 3 o grupo ganha boosters destruindo os alienígenas da masmorra. Um booster cai a cada décimo deles: quando um décimo dos alienígenas é destruído, depois dois décimos, e assim por diante até todos, dez quedas no total. Conta cada alienígena com que a masmorra foi feita, não importa quem o destrua (é a contagem de alienígenas destruídos da janela Masmorra do clã); as ondas das zonas de saque e os alienígenas que o Senhor da guerra chama não contam, então uma zona não traz booster nenhum. A cada queda cada piloto ganha uma janela de meio minuto para escolher um booster temporário para si entre três que o jogo sorteia de cinco: **Dano** (seus lasers batem mais forte), **Pontos de vida** (sua nave aguenta mais casco), **Escudo** (seu escudo aguenta mais), **Velocidade** (sua nave voa mais rápido) e **Recarga do escudo** (seu escudo recarrega mais rápido). Aperte uma carta para escolhê-la. Se você não responder a tempo, o jogo escolhe Pontos de vida por você, ou o primeiro dos três se Pontos de vida não estiver entre eles. Uma escolha vale 3% na fase 3 e 1,5% na fase 2, então dez escolhas somam no máximo trinta por cento na fase 3 e quinze por cento na fase 2, sejam de que tipo forem. A fase 1 não tem boosters.
+
+A décima queda vem com o último alienígena. Um grupo que destrói todos os alienígenas antes de lutar contra o Senhor da guerra ganha as dez quedas; um grupo que abre a sala do Senhor da guerra e segue em frente ganha as quedas dos alienígenas que destruiu até ali, e os que sobram ficam e ainda podem ser destruídos. Depois que a luta contra o Senhor da guerra começou, nenhum booster cai mais.
 
 Um booster dura até a masmorra ser concluída. Se você sai da masmorra, ou é destruído, perde seus boosters, e os recebe de volta quando voa para dentro de novo. Uma etiqueta sob a janela Masmorra do clã lista o que você tem.
 
@@ -285,7 +287,7 @@ As cartas são sorteadas uma a uma do conjunto abaixo. A chance é a de uma cart
 | Orvium | 200 | 300 | 500 | 13,65% | Todo piloto pago |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4% | Todo piloto pago |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1% | Todo piloto pago |
-| Dark Matter | 5 | 8 | 12 | 9,1% | Todo piloto pago |
+| Dark Matter | 10 | 16 | 24 | 9,1% | Todo piloto pago |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55% | Todo piloto pago |
 | Starfire-III | – | – | 1 | 0,07% | Todo piloto pago |
 | Helios Beam | – | – | 1 | 0,07% | Todo piloto pago |
@@ -377,7 +379,7 @@ O banco do clã também é pago, em créditos e não em Thulium, na primeira vez
 
 - Elimine a onda de uma zona antes de tentar segurá-la, e lute dentro do anel se os alienígenas entrarem.
 - Leve o grupo todo a uma zona: quanto mais pilotos no anel, mais rápido ela é segurada.
-- Explore o labirinto e destrua os alienígenas que encontrar: a porta do Senhor da guerra se abre quando três quartos deles estão mortos, e não antes.
+- Procure os Crystalys e seus Twins no labirinto: a porta do Senhor da guerra se abre quando três quartos deles estão mortos, e não antes. Os outros alienígenas podem esperar, ou ser destruídos também.
 - Use as paredes: os lasers não as atravessam, os anéis vermelhos das auras do Senhor da guerra param nelas, e uma parede detém também os foguetes dele.
 - Guarde uma EMP Charge para a Barragem de foguetes.
 - Quando o Senhor da guerra chamar seus Goombahs, destrua-os primeiro: ele não pode ser ferido até eles sumirem. Na Zona do Caos, saia do anel antes de atirar.

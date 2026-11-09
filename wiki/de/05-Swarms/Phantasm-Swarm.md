@@ -74,7 +74,7 @@ Basis: Phantasm mit 2.000 % der Hülle und 300 % des Laserschadens; Tempo und 
 | Standard Battery | 100 % | 600–1.200 |
 | Advanced Plasma | 100 % | 60–100 |
 | Ultra Core | 100 % | 10–20 |
-| Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 4–6 |
+| Eine der 4 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 4–6 |
 
 ### Phantasm Guard
 

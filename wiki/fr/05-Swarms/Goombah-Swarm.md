@@ -75,7 +75,7 @@ Base : Goombah, avec 400 % de sa coque et 100 % de ses dégâts laser ; la v
 | Quorvium | 100 % à chacun des 8 tirages | 2–4 |
 | Advanced Plasma | 100 % | 100–200 |
 | Ultra Core | 100 % | 100–200 |
-| L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 6–10 |
+| L’une des 4 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 6–10 |
 
 ### Goombah Guard
 

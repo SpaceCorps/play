@@ -72,7 +72,7 @@ Basis: Seeker mit 400 % von Hülle, Schild und Schaden; Tempo und Reichweite bl
 | Standard Battery | 100 % | 200–400 |
 | Advanced Plasma | 100 % | 10–20 |
 | Ultra Core | 100 % | 2–4 |
-| Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 2–3 |
+| Eine der 4 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 2–3 |
 
 ### Seeker Slave
 

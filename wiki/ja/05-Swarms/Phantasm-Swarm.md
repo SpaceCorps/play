@@ -74,7 +74,7 @@ Boss Phantasm の報酬は、その戦いの重さに見合っています。1�
 | Standard Battery | 100% | 600–1,200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| クレジットで買える 8 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 4–6 |
+| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 4–6 |
 
 ### Phantasm Guard
 

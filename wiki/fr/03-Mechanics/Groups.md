@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -52,11 +52,13 @@ Le chat a une rangée d’onglets en haut : **Global**, **Local**, **Groupe** (
 | Canal | Qui l’entend | Commande |
 | :--- | :--- | :--- |
 | **Local** | les pilotes de votre carte | `/l` ou `/local` |
-| **Global** | tous les pilotes en ligne | `/g` ou `/global` |
-| **Groupe** | votre groupe, où qu’il soit | `/p`, `/party` ou `/group` |
-| **Privé** | un seul pilote, où qu’il soit | `/m`, `/msg` ou `/w`, puis le nom et le message ([plus bas](#private-messages)) |
+| **Global** | tous les pilotes de tous les serveurs et de tous les mondes | `/g` ou `/global` |
+| **Groupe** | votre groupe sur votre serveur, où qu’il soit | `/p`, `/party` ou `/group` |
+| **Privé** | un seul pilote de votre serveur, où qu’il soit | `/m`, `/msg` ou `/w`, puis le nom et le message ([plus bas](#private-messages)) |
 
 Une commande change aussi d’onglet, et saisie seule (`/g`) elle ne fait que changer d’onglet. Le chat de groupe nécessite un groupe. Sur un serveur de jeu antérieur aux canaux, le chat reste la liste unique qu’il était, et on ne peut pas former de groupe.
+
+**Global** est un seul chat pour tout le jeu : votre ligne est entendue de tous les pilotes de tous les serveurs et de tous les mondes, en vol comme à la station. Une ligne venue d’un autre serveur peut arriver un instant après son envoi, et des pilotes de serveurs différents peuvent voir deux lignes presque simultanées dans un ordre différent. Laissez le pointeur sur le nom d’un pilote : la carte qui s’ouvre dit aussi sur quel serveur il vole, quand ce n’est pas le vôtre. Les autres canaux restent sur le serveur où vous êtes : **Local** désigne les pilotes de votre carte, le chat de groupe et les messages privés n’atteignent que les pilotes de votre serveur, et le [fil des éliminations](#the-kill-feed) et les lignes **Système** (les annonces du serveur) appartiennent à chaque serveur. Si un serveur perd sa liaison avec les autres, son Global se réduit à ses propres pilotes jusqu’au retour de la liaison ; une courte coupure est rattrapée avec retard, et ce qui a été dit pendant une plus longue n’est pas redit ensuite.
 
 L’onglet **Système** est doré et en lecture seule, avec sa propre liste : il contient ce que le serveur dit de lui-même (l’accueil, les avertissements de redémarrage, de mise à jour et de réinitialisation, les annonces d’essaims) et ce que signale votre vaisseau (réparations, occultation, EMP, roquettes). Ces lignes ne figurent dans aucun autre onglet : un Global très animé ne peut donc pas les repousser, et les autres onglets contiennent ce que disent les pilotes. Le compteur de l’onglet ne compte que les annonces ; un compte à rebours de redémarrage ou de mise à jour et les avertissements de réinitialisation s’affichent aussi un instant sous forme de notification. Le [fil des éliminations](#the-kill-feed) reste dans **Global**, avec son propre réglage, et les lignes indiquant qu’un pilote rejoint ou quitte votre groupe sont dans **Groupe**.
 
@@ -66,7 +68,7 @@ L’onglet **Système** est doré et en lecture seule, avec sa propre liste : i
 
 ### Messages privés {#private-messages}
 
-Tapez `/m`, le nom d’un pilote et votre message pour écrire à ce seul pilote : `/m nova o7` (`/msg` et `/w` font la même chose). Le pilote doit être en ligne, dans n’importe quel monde, à la station ou en vol. Le nom est celui du pilote tel que le chat l’affiche, quelle que soit la casse (`/m NOVA`, `/m @nova` et `/m nova:` trouvent tous nova) : il faut le nom entier, jamais seulement son début, pour qu’un message ne parte pas chez le mauvais pilote. `/r` et votre réponse (`/r o7`) répond au pilote qui vous a écrit en dernier, ou au dernier pilote à qui vous avez écrit si personne ne vous a écrit.
+Tapez `/m`, le nom d’un pilote et votre message pour écrire à ce seul pilote : `/m nova o7` (`/msg` et `/w` font la même chose). Le pilote doit être en ligne sur votre serveur, dans n’importe quel monde, à la station ou en vol. Le nom est celui du pilote tel que le chat l’affiche, quelle que soit la casse (`/m NOVA`, `/m @nova` et `/m nova:` trouvent tous nova) : il faut le nom entier, jamais seulement son début, pour qu’un message ne parte pas chez le mauvais pilote. `/r` et votre réponse (`/r o7`) répond au pilote qui vous a écrit en dernier, ou au dernier pilote à qui vous avez écrit si personne ne vous a écrit.
 
 Un message privé s’affiche dans l’onglet que vous regardez, parmi ses lignes, en violet : **À nova :** pour celui que vous avez envoyé, **De nova :** pour celui que vous avez reçu, de sorte que vous avez les deux côtés de la conversation dans la fenêtre du chat en vol et dans la barre à la station. Tous les onglets l’affichent, y compris l’onglet **Système** et un onglet **Global** masqué. Un message reçu compte comme non lu (sur le bouton de la barre d’outils et dans la barre à la station) jusqu’à ce que vous ouvriez un onglet, et joue un carillon discret, au plus une fois toutes les 2 secondes ; en envoyer un joue son propre son discret. Faites un clic droit sur un message reçu pour **Répondre**, **Inviter dans le groupe**, **Ignorer** ou **Signaler…**.
 
@@ -102,7 +104,7 @@ Désactivez-le avec le bouton de menu dans la barre de titre de la fenêtre de c
 
 ### Masquer, ignorer et signaler {#hiding-ignoring-and-reporting}
 
-Global touche tous les pilotes en ligne : le chat propose donc trois outils pour le garder agréable. Ils se trouvent dans la fenêtre de chat : le bouton de menu dans sa barre de titre, et un clic droit sur le nom d’un pilote.
+Global touche tous les pilotes de tous les serveurs et de tous les mondes : le chat propose donc trois outils pour le garder agréable. Ils se trouvent dans la fenêtre de chat : le bouton de menu dans sa barre de titre, et un clic droit sur le nom d’un pilote.
 
 - **Masquer le chat Global** (le menu, ou Paramètres › Interface › Chat) : l’onglet Global n’affiche plus aucune ligne de Global, lignes du fil des éliminations comprises (vos messages privés y restent affichés), et cesse de compter les lignes non lues. L’onglet reste, indique « Global est masqué » et a un bouton qui l’affiche de nouveau ; ce que vous envoyez à Global part quand même. Désactivez ce réglage et toutes les lignes arrivées entre-temps sont là.
 - **Ignorer** (clic droit sur un nom, puis **Ignorer**) : les lignes de ce pilote dans Global et Local et ses messages privés sont masqués (un message privé de sa part ne fait aucun bruit et ne compte pas comme non lu), et ses invitations de groupe sont refusées sans vous demander. Il n’en est pas informé. Il reste visible dans l’onglet **Groupe** : un coéquipier que vous ignorez reste dans votre groupe, quittez donc le groupe pour vous en débarrasser. Les lignes propres au serveur ne sont jamais masquées. **Ne plus ignorer** se trouve dans le même menu, et **Paramètres › Interface › Chat** liste les pilotes ignorés (jusqu’à 200) avec un bouton **Retirer** pour chacun.

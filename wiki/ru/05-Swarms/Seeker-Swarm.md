@@ -72,7 +72,7 @@ Boss Seeker приносит **ровно десять Seeker**: в десять
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| Одна из 8 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 2–3 |
+| Одна из 4 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 2–3 |
 
 ### Seeker Slave
 

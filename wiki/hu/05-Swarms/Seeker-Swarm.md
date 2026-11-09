@@ -72,7 +72,7 @@ Alapja: Seeker, hajótestének, pajzsának és sebzésének 400%-a; a sebessége
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| Egy a kreditért vásárolható 8 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 2–3 |
+| Egy a kreditért vásárolható 4 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 2–3 |
 
 ### Seeker Slave
 

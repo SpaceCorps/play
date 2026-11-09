@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
-Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekunder som träffar mycket hårdare än en lasersalva. Tolv raketer i fyra typer, tre nivåer vardera, ytterligare två som bara Monteringen tillverkar, och **en omladdningstimer på 3 sekunder som alla delar**, vilken du än avfyrar (de två som bara Monteringen tillverkar väntar lite längre, på grund av sin långa flygning). De vanliga och sällsynta raketerna köps med **krediter**; de fyra episka raketerna köps med **Thulium**. En [drönarformation](/wiki/03-Mechanics/Formations.md) kan höja en raket skada och göra den timern längre eller kortare: se [Drönarformationer och raketer](#drone-formations-and-rockets).
+Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekunder som träffar mycket hårdare än en lasersalva. Tolv **vanliga raketer** i fyra typer, tre nivåer vardera, delar **en omladdningstimer på 3 sekunder**, som skeppets raketkastare bestämmer. Tolv **specialraketer**, som gör mer än skada, delar **en egen timer på 5 sekunder**, och var och en väntar dessutom på sin egen. Bara de fyra vanliga raketerna, Flares och Ricochet köps, med **krediter**; varje annan raket tillverkas i Monteringen. En [drönarformation](/wiki/03-Mechanics/Formations.md) kan höja en raketens skada och göra den vanliga timern längre eller kortare: se [Drönarformationer och raketer](#drone-formations-and-rockets).
 
 ## På en minut {#in-one-minute}
 
-- **Tolv raketer att köpa.** Fyra sorter (Lancet, Rivet, Ember, Scatter), tre nivåer var. De vanliga och sällsynta kostar krediter, de episka Thulium. Ytterligare två raketer, N.U.K.E. och N.I.K.E., tillverkas i Monteringen.
+- **Tolv vanliga raketer.** Fyra typer (Lancet, Rivet, Ember, Scatter), tre nivåer vardera. Bara nivå I säljs, för 1 000 krediter; nivå II och III tillverkas i Monteringen av 100 raketer av nivån under.
 - **Varje raket slumpar sin skada.** När du avfyrar den väljer spelet ett tal mellan raketens lägsta och högsta skada (en Lancet I: 1 700 till 2 100). Ditt skepp, dina lasrar, förstärkare och boosters ändrar inget, bara en drönarformation gör det. De raketer som utomjordingar skjuter slumpar inte: de gör ett fast tal ([Mot utomjordingarna](#against-the-aliens)).
 - **Explosioner är starkast i mitten.** Ember- och Scatter-raketer briserar och skadar varje skepp inom ringen: hela talet i mitten, hälften av det vid kanten.
-- **En timer för alla.** Efter varje avfyrning väntar du 3 sekunder till nästa, vilken raket det än är. Bara N.U.K.E. och N.I.K.E. får dig att vänta längre (4,1 och 4,6 sekunder), eftersom de är så länge i luften.
+- **Två sorters timer.** De vanliga raketerna delar en: 3 sekunder efter varje avfyrning, eller med en **Raketkastare II till V** en serie på 2 till 5 raketer med 0,15 sekunder emellan och sedan 5 sekunder ([Avfyra](#firing)). Specialraketerna delar en annan på 5 sekunder som ingen raketkastare ändrar, och var och en väntar dessutom på sin egen, från 3 sekunder till 2 minuter ([Specialraketer](#special-rockets)).
+- **Tolv specialraketer.** De fryser, stör, förgiftar eller markerar ett skepp, bryter sköldar eller låsningar, läker dina vänner, hoppar till ett andra skepp eller öppnar ett litet svart hål vid markören. N.U.K.E. och N.I.K.E. är två av dem.
 - **Målsökande eller rak.** En målsökande raket (Lancet, Ember) behöver ett mål du har valt. En rak (Rivet, Scatter) flyger mot din muspekare.
 - **Flera saker bärs som en raket.** **EMP Charge** är en förbrukningsvara: en hög i ditt inventarie, som används från snabbfältet och inte tar någon plats ([EMP Charge](#emp-charge)). Det gäller de två **Energetic Wall** också ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Raketer är ett andra vapen vid sidan av dina lasrar: ett skott var några sekun
 Det som Monteringen tillverkar kräver först sin teknologi; håll pekaren över ett föremål för att se hur lång tid forskningen tar. Teknologiträdet, bränslet och boosten: [Forskning](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Varje raket har **sin egen skada, som slumpas fram när du avfyrar den**: var so
 
 | Namn | Typ | Sällsynthet | Skada | Medel | Sköldgenomträngning | Explosionsradie | Låsräckvidd | Räckvidd | Fart | Pris | Högst så många kan du bära |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Målsökande, enkelmål | Vanlig | 1 700–2 100 | 1 900 | 10 % | – | 700 | 1 040 | 520 | 500 krediter | 5 000 |
-| **Lancet II** | Målsökande, enkelmål | Sällsynt | 3 500–4 200 | 3 850 | 25 % | – | 1 000 | 1 584 | 660 | 800 krediter | 2 000 |
-| **Lancet III** | Målsökande, enkelmål | Episk | 5 200–6 200 | 5 700 | 35 % | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Rak, enkelmål | Vanlig | 2 200–2 700 | 2 450 | 5 % | – | – | 1 080 | 900 | 500 krediter | 5 000 |
-| **Rivet II** | Rak, enkelmål | Sällsynt | 4 500–5 250 | 4 875 | 25 % | – | – | 1 120 | 700 | 800 krediter | 2 000 |
-| **Rivet III** | Rak, enkelmål | Episk | 7 000–8 000 | 7 500 | 35 % | – | – | 1 100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Målsökande, områdesskada | Vanlig | 1 200–1 400 | 1 300 | – | 255 | 700 | 1 000 | 500 | 500 krediter | 5 000 |
-| **Ember II** | Målsökande, områdesskada | Sällsynt | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 800 krediter | 2 000 |
-| **Ember III** | Målsökande, områdesskada | Episk | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Rak, områdesskada | Vanlig | 1 500–1 750 | 1 625 | – | 315 | – | 1 088 | 640 | 500 krediter | 5 000 |
-| **Scatter II** | Rak, områdesskada | Sällsynt | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 800 krediter | 2 000 |
-| **Scatter III** | Rak, områdesskada | Episk | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Målsökande, enkelmål | Vanlig | 3 500–4 200 | 3 850 | 25 % | – | 1 000 | 1 584 | 660 | 1 000 krediter | 5 000 |
+| **Lancet II** | Målsökande, enkelmål | Sällsynt | 5 200–6 200 | 5 700 | 35 % | – | 1 300 | 2 296 | 820 | Tillverkad av 100 Lancet I | 2 000 |
+| **Lancet III** | Målsökande, enkelmål | Episk | 7 300–8 700 | 8 000 | 35 % | – | 1 300 | 2 296 | 820 | Tillverkad av 100 Lancet II | 500 |
+| **Rivet I** | Rak, enkelmål | Vanlig | 4 500–5 250 | 4 875 | 25 % | – | – | 1 120 | 700 | 1 000 krediter | 5 000 |
+| **Rivet II** | Rak, enkelmål | Sällsynt | 7 000–8 000 | 7 500 | 35 % | – | – | 1 100 | 500 | Tillverkad av 100 Rivet I | 2 000 |
+| **Rivet III** | Rak, enkelmål | Episk | 9 800–11 200 | 10 500 | 35 % | – | – | 1 100 | 500 | Tillverkad av 100 Rivet II | 500 |
+| **Ember I** | Målsökande, områdesskada | Vanlig | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 1 000 krediter | 5 000 |
+| **Ember II** | Målsökande, områdesskada | Sällsynt | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | Tillverkad av 100 Ember I | 2 000 |
+| **Ember III** | Målsökande, områdesskada | Episk | 4 900–6 300 | 5 600 | – | 495 | 1 150 | 2 030 | 700 | Tillverkad av 100 Ember II | 500 |
+| **Scatter I** | Rak, områdesskada | Vanlig | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 1 000 krediter | 5 000 |
+| **Scatter II** | Rak, områdesskada | Sällsynt | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | Tillverkad av 100 Scatter I | 2 000 |
+| **Scatter III** | Rak, områdesskada | Episk | 6 300–7 700 | 7 000 | – | 660 | – | 1 092 | 420 | Tillverkad av 100 Scatter II | 500 |
 
 Ju dyrare nivån är, desto hårdare träffar en raket, desto längre når den, desto mer sköldgenomträngning har den och desto färre kan du bära; de dyra ger också mest skada för pengarna. En rak raket gör i genomsnitt 23 till 32 % mer än den målsökande raketen av samma nivå och samma slag för samma pris (en fjärdedel till en tredjedel mer), eftersom du måste sikta den. En explosion gör ungefär två tredjedelar av vad raketen med enkelmål av samma nivå och slag gör (66 till 70 % i genomsnitt: en Ember mot en Lancet, en Scatter mot en Rivet), på varje skepp den täcker. Skadan i en explosion är full i mitten och faller i en rak linje till **hälften vid kanten**: ett skepp vars skrov ligger halvvägs ut tar 75 %, och ett vars skrov ligger utanför ringen tar ingenting. Ett skott gör i genomsnitt mitten av sitt intervall, 89 till 94 % av sitt högsta tal, och tabellen längre ner som räknar raketer utgår från det.
 
 ## Vad de kostar {#what-they-cost}
 
-En vanlig raket kostar 500 krediter, en sällsynt 800 krediter och en episk 5 Thulium, i varje typ. Avfyrad så fort timern tillåter blir det 10 000 krediter i minuten för en vanlig raket, 16 000 för en sällsynt och 100 Thulium för en episk, mot de 900 krediter i minuten som en Ostirions tre lasrar förbrukar på x1. En full hög är 5 000 vanliga raketer (2 500 000 krediter), 2 000 sällsynta (1 600 000 krediter) eller 500 episka (2 500 Thulium): du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Vid wipen behåller du utan att göra något upp till 1 000 av var och en av de tolv raketerna; allt över det, och varje N.U.K.E. och N.I.K.E., överlever bara i transportförrådet, där en raket väger 1 kg (en N.U.K.E. eller N.I.K.E. 250 kg): se [wipen](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). En raket var 3:e sekund är bara tjugo i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna. Det du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#limits) och lotterna du leder där räknas in i den gränsen när du köper eller budar på en raket. Det här är grundvärdena: Pilot-forskningen Sealed Backdoor ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) höjer gränsen för varje raket åt dig, sammanlagt med 25 %, 50 %, 100 %, 150 % eller 200 %, avrundat nedåt, så att 5 000 blir 6 250 på nivå I och 15 000 på nivå V.
+En vanlig raket (nivå I) kostar 1 000 krediter i butiken, i varje typ. De sällsynta (nivå II) och episka (nivå III) raketerna säljs inte: Monteringen tillverkar dem, 100 åt gången, av 100 raketer av nivån under (en sats sällsynta kostar dessutom 50 000 krediter och 200 Thulium, en sats episka 150 000 krediter och 800 Thulium, med några material; butiken och Monteringen säger resten). Avfyrad vid varje timer är en vanlig raket 20 000 krediter i minuten, mot de 900 krediter i minuten som en Ostirions tre lasrar bränner vid x1. Ett fullt lager är 5 000 vanliga raketer (5 000 000 krediter), 2 000 sällsynta eller 500 episka: du köper så många du vill upp till det, och *högst så många kan du bära* för en raket är den enda gränsen för hur många du håller. Vid wipen behåller du utan att göra något upp till 1 000 av var och en av de tolv raketerna; allt över det, och varje N.U.K.E. och N.I.K.E., överlever bara i transportförrådet, där en raket väger 1 kg (en N.U.K.E. eller N.I.K.E. 250 kg): se [wipen](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). En raket var 3:e sekund är bara tjugo i minuten, så en raket är ett extra kraftslag ovanpå dina lasrar: de billiga till de svaga utomjordingarna, de dyra till de stora striderna. Det du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#limits) och lotterna du leder där räknas in i den gränsen när du köper eller budar på en raket. Det här är grundvärdena: Pilot-forskningen Sealed Backdoor ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) höjer gränsen för varje raket åt dig, sammanlagt med 25 %, 50 %, 100 %, 150 % eller 200 %, avrundat nedåt, så att 5 000 blir 6 250 på nivå I och 15 000 på nivå V.
 
-Butiken listar raketerna en typ i taget, var och en under sitt namn, med den vanliga raketen först och den episka sist; hangaren, transportförrådet och väljaren Raketer använder samma ordning.
+Butiken säljer de fyra vanliga raketerna, en typ i taget, och efter dem Flares och Ricochet; hangaren, transportförrådet och raketväljaren listar de tolv vanliga raketerna på samma sätt, varje typ under sitt namn, den vanliga först och den episka sist, och efter dem specialraketerna.
 
 ## Mot utomjordingarna {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Så många raketer krävs för att skjuta ner en utomjording, en raketsort i tag
 
 | Raketer som krävs | Seeker (1 600) | Phantasm (5 200) | Bulwark (26 000) | Goombah (80 000) | Crystalys (416 000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - De **vanliga** raketerna med enkelmål skjuter ner en Seeker med en träff vid varje slumptal och en Phantasm med tre (en Lancet I behöver en fjärde vid sitt lägsta); de är vardagsraketerna i de första sektorerna. De **sällsynta** är till för Bulwark och Goombah: sju Lancet II-raketer tar en Bulwark på ungefär 20 sekunders timer. De **episka** raketerna med enkelmål skjuter ner en Goombah med åtta (Rivet III) till elva (Lancet III). Explosionerna är värda sitt pris när flera utomjordingar står tätt: en Scatter III som briserar över en flock på fem Phantasm (alla inom 250 enheter från målet du siktade på) gör ungefär 22 000 skada över flocken i ett enda skott.
 - En nedskjutning enbart med raketer är en rejäl utgift, inget sätt att bli rik: en raket med enkelmål kostar mellan 15 % (en Rivet II mot en Phantasm) och 95 % (en Lancet I mot en Crystalys) av vad nedskjutningen ger (krediter, och Thulium till 200 krediter styck), och de svaga explosionsraketerna mot de starka utomjordingarna kostar mer än nedskjutningen ger (en Ember I mot en Bulwark: 120 %). Att skjuta ner **Crystalys** med bara en sort kräver 56 till 352 raketer och nästan tre minuters timer; en full hög på 500 episka raketer räcker till fyra till åtta av dem. Den starkaste utomjordingen kräver en plan: dina lasrar på x2-ammunition, en raket i mellannivån var 3:e sekund från första sekunden, och de stora raketerna längre ner som extra kraftslag.
@@ -126,14 +137,36 @@ Två raketer finns inte i butiken. **Monteringen** tillverkar dem, och de följe
 - **Haken.** En N.I.K.E. som möter ett skepp på vägen, en rival som väntar på linjen eller något annat den får skada, träffar det med 67 500 till 75 000 och är borta: det svarta hålet får ingenting, och det får inte du heller. Inget annat rör sig inom hålets ring som den kan råka träffa (utomjordingar och koncernpiloter håller sig utanför): bara piloter som gått in för Dark Matter eller väntar på dig vid kanten. Den flyger igenom din egen koncern, skepp i en säker zon och skepp du ännu inte får skada. Lämnar du kartan efter att ha avfyrat den flyger den vidare utan att skada någon och ger ändå din Dark Matter.
 - Monteringen startar ingen tillverkning som skulle lämna dig med fler av en raket än dess gräns (*högst så många kan du bära*), inräknat det du har köat. Sealed Backdoor höjer också deras gränser (10 blir 12 och 20 blir 25 på nivå I, 30 och 60 på nivå V).
 
+## Specialraketer {#special-rockets}
+
+Specialraketerna gör saker som en skadesiffra inte säger. De delar **en timer på 5 sekunder** (ingen raketkastare ändrar den), och var och en väntar dessutom på **sin egen timer**, från 3 sekunder till 2 minuter; de vanliga raketernas timer är separat, så en vanlig raket och en specialraket kan avfyras samtidigt. Monteringen tillverkar dem, utom Flares och Ricochet, som butiken säljer (föremålsträdet ovan har varje recept). N.U.K.E. och N.I.K.E. ovan är också specialraketer, och N.U.K.E. har ingen egen timer. Auto-raket-CPU:n och raketkastarna avfyrar bara vanliga raketer.
+
+| Namn | Typ | Effekt | Egen timer | Högst så många kan du bära |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Målsökande, enkelmål | En målsökande raket utan skada: skeppet den träffar fryser och flyger 60 % långsammare i fyra sekunder. | 30 s | 50 |
+| **EMP Rocket** | Målsökande, enkelmål | En målsökande raket utan skada: skeppet den träffar påverkas av en EMP-laddning i tre sekunder. | 30 s | 50 |
+| **Shield Breaker** | Rak, enkelmål | En snabb, ostyrd raket gjord för sköldar: 25 000 mot skölden och 5 000 mot skrovet, men så länge det finns sköld kvar träffar den bara skölden. | 15 s | 50 |
+| **Toxic Rocket** | Målsökande, enkelmål | En målsökande raket utan egen skada: skeppet den träffar förgiftas i fem sekunder och förlorar en halv procent av sina effektiva livspoäng (skrov och sköld tillsammans) per sekund, taget från skrovet. | 20 s | 50 |
+| **Marking Rocket** | Målsökande, enkelmål | En målsökande raket utan skada: skeppet den träffar markeras i fem sekunder och tar 20 % mer skada från allt. | 30 s | 50 |
+| **Cooldown Rocket** | Målsökande, enkelmål | En målsökande raket utan skada: i åtta sekunder svalnar det träffade skeppets tidsstyrda föremål med halv hastighet. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Rak, områdesskada | En N.U.K.E. ombyggd kring en kollapsad kärna. Den placeras vid markören och öppnar ett litet svart hål i femton sekunder som drar in skepp och målsökande raketer. Bara en kan finnas på en karta. Endast Monteringen tillverkar den, och den kan aldrig säljas på Auktionen. | 120 s | 5 |
+| **Support Rocket** | Rak, områdesskada | Placeras vid markören: den läker varje vänligt skepp i området med 40 % av skrov och sköld. | 120 s | 20 |
+| **Flares** | Rak, enkelmål | Avfyras från ditt eget skepp: den bryter alla målsökande raketer som är låsta på dig. | 60 s | 20 |
+| **Ricochet** | Rak, enkelmål | En snabb, ostyrd raket som träffar som en Rivet II och efter första träffen hoppar till ett andra skepp med 75 % av skadan. | 3 s | 500 |
+
+- Ett andra träff av samma slag förnyar en frysning, en störning, en förgiftning, en markering eller en nedsaktad nedkylning och läggs aldrig ovanpå den första. Toxic Rockets skada är skyttens, så ett dödande med gift räknas för hen.
+- Gravitations-N.U.K.E. och Support Rocket **placeras vid markören**: de flyger till punkten under den, eller så långt de når, och inget skepps zonrör utlöser dem. Bara en gravitationsbrunn kan finnas på en karta: en andra avfyrning avvisas och inget förbrukas.
+
 ## Avfyrning {#firing}
 
-1. Köp raketer i butiken (kategorin **Raketer**), upp till *högst så många kan du bära* för var och en: krediter för de vanliga och sällsynta, Thulium för de episka.
-2. Öppna **Raketer** ovanför snabbfältet och dra de du vill ha till platser. Väljaren visar en kolumn per typ och en rad per nivå, med det du bär av varje. Under dem finns en egen rad, **Special · endast Monteringen**, för N.U.K.E. och N.I.K.E. (en liten hammare markerar den du inte bär någon av).
+1. Köp de vanliga raketerna i butiken (kategorin **Raketer**), upp till *högst så många du kan bära* av varje, för krediter; tillverka de sällsynta och episka i Monteringen av 100 av nivån under.
+2. Öppna **Raketer** ovanför snabbfältet och dra de du vill ha till platser. Väljaren visar en kolumn per typ och en rad per nivå, med det du bär av varje. Under dem finns **specialraketerna**, fyra per rad (en liten hammare markerar en som bara kan tillverkas och som du inte bär någon av).
 3. Tryck på platsens tangent. Ett klick på platsen för en **målsökande** raket avfyrar den mot ditt valda mål; ett klick på platsen för en **rak** raket armerar den, och ditt nästa klick i rymden avfyrar den dit. Tangenten **Avfyra raket** (`R` som standard, går att binda om i Inställningar › Styrning) avfyrar den raket du sköt senast, eller den första i snabbfältet.
-4. En cirkelsektor sveper över **varje** raketplats under de 3 sekunderna till nästa avfyrning (4,1 efter en N.U.K.E., 4,6 efter en N.I.K.E.), med de återstående sekunderna i mitten. Ett tryck innan dess säger bara att raketerna laddas om (ett tryck under den sista tiondels sekunden avfyrar ändå). En drönarformation kan göra väntan mellan 2,19 och 4,05 sekunder (se nedan).
+4. En cirkelsektor sveper över varje raketplats för den timer som den raketen väntar på: 3 sekunder för en vanlig raket (5 med en raketkastare), och för en specialraket den längsta av de 5 sekunderna och dess egen, med de återstående sekunderna i mitten. Ett tryck innan dess säger bara att raketerna laddas om (ett tryck under den sista tiondels sekunden avfyrar ändå). En drönarformation kan göra den vanliga timern mellan 2,19 och 4,05 sekunder (se nedan).
 
 Peka på en raketplats för att se dess siffror (dess lägsta och högsta skada; butiken och hangaren säger detsamma) och, ute i världen, dess låsring (grön när det valda målet är inom räckhåll) eller dess linje och explosionscirkel. En raket som är låst på **dig** får skärmkanten att blinka rött.
+
+**Raketkastare.** En raketkastare II till V förvaras i din hangar som Auto-raket-CPU:n, behöver ingen plats och fungerar på alla skepp (den bästa du äger räknas). Ett tryck på en vanlig raket avfyrar då 2, 3, 4 eller 5 raketer ur lagret med 0,15 sekunder emellan, och sedan väntar de vanliga raketerna 5 sekunder. Monteringen tillverkar dem efter deras forskning (8 till 24 timmar, med 150 000 till 2 000 000 Thulium och material; föremålsträdet för [Extra](/wiki/06-Items/Extras.md) listar dem).
 
 **N.U.K.E.** ritar sin explosion på kartan innan du avfyrar (cirkeln på 1 350 enheter vid den siktade punkten) och, när den detonerar, en vit blixt över vyn, en ring som löper ut till den exakta räckvidden på ungefär en sekund och blir kvar två till, ett moln som reser sig som en svamp, och en kameraskakning som är starkare ju närmare du är. **Minska skärmskakning** tar bort skakningen, och **Minska rörelser** förkortar blixten till en tredjedels sekund med mindre än hälften av dess ljus (båda finns under Inställningar › Grafik); en lägre partikelkvalitet tunnar ut molnet och tar bort gnistorna, aldrig blixten eller ringen. **N.I.K.E.** siktas som en Rivet I, med linjen från ditt skepp till markören, och spelet vägrar den aldrig för att den är långt från det svarta hålet eller på en karta utan något: vart den tar vägen är det upp till dig att bedöma. Dess kort säger **Svart hål: Ger Dark Matter** bredvid dess skada. Den lämnar ett violett spår med gnistor som slingrar sig runt det; ett skepp den möter tar träffen som av vilken raket som helst, och när den i stället korsar horisonten blossar hålet.
 
@@ -142,7 +175,7 @@ Peka på en raketplats för att se dess siffror (dess lägsta och högsta skada;
 En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar en raket. Alla skadesiffror på den här sidan gäller ett skepp utan formation.
 
 - **Skada.** Raketbonusen hos Ballista (+55 %), Bodkin (+29 %) och Asterism (+24 %) multiplicerar skadan hos alla 14 raketer, även N.U.K.E. och N.I.K.E. Testudos pris på all skada räknas också på raketer, och Cullers skada mot utomjordingar räknas på en raket som träffar en utomjording. Alla faktorer på en raket tillsammans stannar vid ×1,59. Bonusen räknas mot en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) precis som mot ett skepp, och asteroidens pansar dras av efter den.
-- **Omladdning.** Asterism gör den gemensamma timern 35 % längre (4,05 sekunder), Cordon 11 % längre (3,33) och Redoubt 27 % kortare (2,19), men aldrig kortare än raketens flygtid plus ett ögonblick. Med Redoubt väntar de snabba raketerna (Lancet I, Rivet I och II, Ember I, Scatter I och II) de 2,19 sekunderna, en Rivet III väntar 2,3, en Lancet III 2,9 och en Ember III hela 3; N.U.K.E. och N.I.K.E. väntar 4,1 och 4,6 sekunder vad du än bär. Väntan sätts när du avfyrar, så att byta formation efteråt förkortar den inte, och laddcirkeln över raketplatserna följer den.
+- **Omladdning.** Asterism gör de vanliga raketernas timer 35 % längre (4,05 sekunder), Cordon 11 % längre (3,33) och Redoubt 27 % kortare (2,19), men aldrig kortare än raketens flygning plus ett ögonblick. Under Redoubt väntar de snabba raketerna (Lancet I, Rivet I och II, Ember I, Scatter I och II) 2,19 sekunder, en Rivet III 2,3, en Lancet III 2,9 och en Ember III hela 3. Väntan bestäms när du avfyrar, så att byta formation efteråt förkortar den inte, och cirkelsektorn över raketplatserna följer den. Specialraketernas timers ändras inte av någon formation.
 - **De två storas gränser står sig.** Med den bästa formationen träffar en N.I.K.E. med upp till 116 250, vilket en oskadad Paragon (128 000) överlever, och en N.U.K.E. med upp till 77 500, vilket en Goombah (80 000) överlever.
 - **Undanmanöver.** Asterisms 7 % undanmanöver ger en direkt raket som träffar dig 7 % chans att inte göra någon skada alls, och ett flytande ”Miss” visas över ditt skepp; en områdesexplosion har inget sikte och undviks aldrig.
 - **Genomträngning.** Gemini lägger sina 15 poäng, och Stiletto sina 35 poäng raketgenomträngning, till sköldgenomträngningen hos en direkt raket (en explosion har ingen), utan tak: en Lancet III med en Stiletto ger 70 %, med Gemini 50 %. En laserträff lägger till Geminis på samma sätt till ammunitionens och förstärkarnas, och får ingenting av Stilettos ([Lasrar och ammunition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som �
 - Bara en rakets **direktträff** paxar en utomjording (se [Strid](/wiki/03-Mechanics/Combat.md)); en explosions kant kan skada en utomjording som någon redan har paxat utan att stjäla den. Varje utomjording en explosion skadar, även en sovande, vänder sig mot dig, som vid en lasersträff (en Seeker eller en Goombah, som bara slår tillbaka, inräknade); en som explosionen missar förblir sovande.
 - Timern är din: den överlever ett hopp, en återanslutning, ett skeppsbyte och ett förstört skepp.
 
-De tolv raketerna i den första tabellen köps (krediter för de vanliga och sällsynta, Thulium för de episka); N.U.K.E. och N.I.K.E. tillverkas.
+Bara de vanliga raketerna i första tabellen, Flares och Ricochet köps (för krediter); varje annan raket tillverkas i Monteringen.
 
 Se även: [Lasrar och ammunition](/wiki/06-Items/Lasers.md), [Strid](/wiki/03-Mechanics/Combat.md), [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md).
 

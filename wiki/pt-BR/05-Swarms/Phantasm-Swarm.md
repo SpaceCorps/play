@@ -74,7 +74,7 @@ Base: Phantasm, com 2.000% do casco e 300% do dano dos lasers; a velocidade e o 
 | Standard Battery | 100% | 600–1.200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| Um dos 8 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 4–6 |
+| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 4–6 |
 
 ### Phantasm Guard
 

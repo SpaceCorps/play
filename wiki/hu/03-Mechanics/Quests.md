@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Küldetések -->
 # Küldetések {#quests}
 
@@ -131,7 +131,7 @@ A **feltétel** egy lépésre vagy egy egész küldetésre vonatkozó extra szab
 
 A halál megszakítja a futó hajótestkorlátot is, akárcsak a „halál nélkül” szabályt.
 
-A korlátok pontokban vannak megadva, arra a hajóra, amelyet azon a szinten vezetsz. A cipelt tárgy korlátja az 1–3. szinten 3 000 hajótestpont, a 4–6. szinten 17 000, a 7. és a 8. szinten 46 000; a hosszabb tartózkodásoknak és köröknek nagyobb a számuk. Minden világban ugyanazok, ezért a Betában és a Gammában, ahol az idegenek erősebben ütnek, kevesebb mozgásteret hagynak. Nézd meg a küldetés kártyáját, mielőtt elfogadod. A korlát megadható a hajód hajótestének százalékában is, és ha mindkettő meg van adva, a szigorúbb számít; ennek a frissítésnek minden küldetése pontokat használ.
+A korlátok pontokban vannak megadva, arra a hajóra, amelyet azon a szinten vezetsz. A cipelt tárgy korlátja az 1–3. szinten 3 000 hajótestpont, a 4–6. szinten 17 000, a 7. és a 8. szinten 46 000; a hosszabb tartózkodásoknak és köröknek nagyobb a számuk. Ezek az **Alpha** számai, akárcsak a táblázatok időkorlátjai. A Beta idegenei 1,5-szer, a Gamma idegenei kétszer olyan erősen ütnek, ezért a Betában és a Gammában a korlátok 1,5-szer, illetve 2-szer akkorák, mint az [időkorlátok](#time-limits): 3 000 pont a Betában 4 500, a Gammában 6 000, és ugyanannyi találatot bírsz ki, mint az Alphában. A küldetés kártyája és az Aktív küldetések a te világod számát mutatják (a küldetés leírása az Alpháét nevezi meg); nézd meg, mielőtt elfogadod. A korlát megadható a hajód hajótestének százalékában is, és ha mindkettő meg van adva, a szigorúbb számít; ennek a frissítésnek minden küldetése pontokat használ.
 
 ## Küldetéspéldák {#mission-examples}
 
@@ -234,6 +234,7 @@ A küldetések a szinteddel együtt emelkednek a szektorokban:
 - Egyes küldetések **időkorlátosak**. A Küldetésirányítás az elfogadás előtt megmutatja az időkorlátot a küldetés kártyáján (egy óra és „15 perc”), és ha elfogadod, egy **visszaszámlálás** fut a kártyán és az Aktív küldetések ablakban. Az utolsó percben borostyánsárgára, lejáratkor pirosra vált.
 - Az az időkorlátos küldetés, amelynek lejár az ideje, **elbukik**: kikerül az aktív küldetéseid közül, és azonnal újra elfogadhatod, elölről.
 - Az alábbi táblázatok időkorlátjai az **Alpha** világéi. A Beta idegenei 1,5-szer, a Gamma idegenei kétszer olyan erősek, ezért az ottani időkorlátok 1,5-szer, illetve 2-szer olyan hosszúak. Az óra az elfogadáskor áll be, annak a világnak megfelelően, amelyben vagy.
+- A küldetések **hajótestkorlátjai** ugyanígy követik a világot: a Betában az Alpha 1,5-szeresei, a Gammában a kétszeresei (lásd [Feltételek](#conditions)).
 - A lépéseknek nincs saját időkorlátjuk: a küldetés korlátja mindegyikre vonatkozik. Egy megszegett feltétel újraindít egy lépést vagy a küldetést, de az órát soha nem állítja vissza.
 
 ## Jutalmak {#rewards}
@@ -285,7 +286,7 @@ A magasabb szektorokban fizetnek a küldetések, és ott halhatsz meg. Ehhez ter
 
 ## A küldetések {#the-missions}
 
-Az időkorlátok az Alphára vonatkoznak („–”: nincs). A „→” a **Sorrendben** jelzésű küldetések lépéseit köti össze, amelyeket ebben a sorrendben kell teljesíteni; a „;” jellel összekötött lépések együtt nyílnak meg, és tetszőleges sorrendben teljesíthetők. A lépés után írt feltétel arra a lépésre vonatkozik, az „(az egész küldetés alatt: ...)” pedig minden lépésre.
+Az időkorlátok és a hajótestkorlátok az Alphára vonatkoznak („–”: nincs). A „→” a **Sorrendben** jelzésű küldetések lépéseit köti össze, amelyeket ebben a sorrendben kell teljesíteni; a „;” jellel összekötött lépések együtt nyílnak meg, és tetszőleges sorrendben teljesíthetők. A lépés után írt feltétel arra a lépésre vonatkozik, az „(az egész küldetés alatt: ...)” pedig minden lépésre.
 
 A küldetéstárgy így szerepel: „elejtheti: pusztításonként 15%, a 10. pusztításnál biztosan”: az idegen minden kilövése abban a szektorban dob az esélyre, és a lépés megnyílta óta a 10. kilövés biztosan elejti. A „a szezon 4. napjától” egy [rajvadászat](#swarm-missions).
 

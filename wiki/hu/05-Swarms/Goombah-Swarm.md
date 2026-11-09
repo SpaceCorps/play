@@ -75,7 +75,7 @@ Alapja: Goombah, hajótestének 400%-a és lézersebzésének 100%-a; a sebessé
 | Quorvium | 100% mind a 8 dobásnál | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| Egy a kreditért vásárolható 8 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 6–10 |
+| Egy a kreditért vásárolható 4 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 6–10 |
 
 ### Goombah Guard
 

@@ -1,13 +1,14 @@
 # Rockets
 
-Rockets are a second weapon beside your lasers: one shot every few seconds that hits far harder than a laser volley. Twelve rockets in four kinds, three tiers each, two more that only Assembly makes, and **one recharge timer of 3 seconds that all of them share**, whichever you fire (the two that only Assembly makes wait a little longer, for their long flight). The Common and Rare rockets are bought with **Credits**; the four Epic rockets are bought with **Thulium**. A [drone formation](/wiki/03-Mechanics/Formations.md) can raise a rocket's damage and make that timer longer or shorter: see [Drone formations and rockets](#drone-formations-and-rockets).
+Rockets are a second weapon beside your lasers: one shot every few seconds that hits far harder than a laser volley. Twelve **normal rockets** in four kinds, three tiers each, share **one recharge timer of 3 seconds**, which your ship's rocket launcher sets. Twelve **special rockets**, which do more than damage, share **a timer of 5 seconds** of their own, and each also waits for its own. Only the four Common rockets, Flares and Ricochet are bought, with **Credits**; every other rocket is crafted in Assembly. A [drone formation](/wiki/03-Mechanics/Formations.md) can raise a rocket's damage and make the normal timer longer or shorter: see [Drone formations and rockets](#drone-formations-and-rockets).
 
 ## In one minute
 
-- **Twelve rockets to buy.** Four kinds (Lancet, Rivet, Ember, Scatter), three tiers each. The Common and Rare ones cost Credits, the Epic ones Thulium. Two more rockets, the N.U.K.E. and the N.I.K.E., are made in Assembly.
+- **Twelve normal rockets.** Four kinds (Lancet, Rivet, Ember, Scatter), three tiers each. Only Tier I is sold, for 1,000 Credits; Tier II and III are crafted in Assembly from 100 rockets of the tier below.
 - **Each rocket rolls its damage.** When you fire it, the game picks a number between the rocket's lowest and highest damage (a Lancet I: 1,700 to 2,100). Your ship, lasers, amps and boosters change nothing, only a drone formation does. The rockets that aliens fire do not roll: they deal a fixed number ([Against the aliens](#against-the-aliens)).
 - **Blasts are strongest in the middle.** Ember and Scatter rockets burst and hurt every ship inside the ring: the full number at the centre, half of it at the edge.
-- **One timer for all of them.** After any launch you wait 3 seconds before the next one, whichever rocket it is. Only the N.U.K.E. and the N.I.K.E. make you wait longer (4.1 and 4.6 seconds), because they stay in the air that long.
+- **Two kinds of timer.** The normal rockets share one: 3 seconds after any launch, or with a **Rocket Launcher II to V** a series of 2 to 5 rockets 0.15 seconds apart and then 5 seconds ([Firing](#firing)). The special rockets share another of 5 seconds that no launcher changes, and each also waits for its own, from 3 seconds to 2 minutes ([Special rockets](#special-rockets)).
+- **Twelve special rockets.** They freeze, jam, poison or mark a ship, break shields or locks, heal your friends, jump to a second ship or open a small black hole at your cursor. The N.U.K.E. and the N.I.K.E. are two of them.
 - **Guided or straight.** A guided rocket (Lancet, Ember) needs a target you have selected. A straight one (Rivet, Scatter) flies to your cursor.
 - **More is carried like a rocket.** The **EMP Charge** is a consumable: a stack in your inventory, used from the hotbar, in no slot ([EMP Charge](#emp-charge)). So are the two **Energetic Walls** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -19,28 +20,38 @@ Rockets are a second weapon beside your lasers: one shot every few seconds that 
 What Assembly makes needs its technology first; point at an item to see how long it takes to research. The technology tree, the fuel and the boost: [Research](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -65,26 +76,26 @@ Every rocket has **its own damage, rolled when you fire it**: anywhere from its 
 
 | Name | Kind | Rarity | Damage | Average | Shield penetration | Blast radius | Lock range | Range | Speed | Price | Carry at most |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guided, single target | Common | 1,700–2,100 | 1,900 | 10% | – | 700 | 1,040 | 520 | 500 Credits | 5,000 |
-| **Lancet II** | Guided, single target | Rare | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 800 Credits | 2,000 |
-| **Lancet III** | Guided, single target | Epic | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Straight, single target | Common | 2,200–2,700 | 2,450 | 5% | – | – | 1,080 | 900 | 500 Credits | 5,000 |
-| **Rivet II** | Straight, single target | Rare | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 800 Credits | 2,000 |
-| **Rivet III** | Straight, single target | Epic | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guided, area blast | Common | 1,200–1,400 | 1,300 | – | 255 | 700 | 1,000 | 500 | 500 Credits | 5,000 |
-| **Ember II** | Guided, area blast | Rare | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 800 Credits | 2,000 |
-| **Ember III** | Guided, area blast | Epic | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Straight, area blast | Common | 1,500–1,750 | 1,625 | – | 315 | – | 1,088 | 640 | 500 Credits | 5,000 |
-| **Scatter II** | Straight, area blast | Rare | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 800 Credits | 2,000 |
-| **Scatter III** | Straight, area blast | Epic | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Guided, single target | Common | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 1,000 Credits | 5,000 |
+| **Lancet II** | Guided, single target | Rare | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | Crafted from 100 Lancet I | 2,000 |
+| **Lancet III** | Guided, single target | Epic | 7,300–8,700 | 8,000 | 35% | – | 1,300 | 2,296 | 820 | Crafted from 100 Lancet II | 500 |
+| **Rivet I** | Straight, single target | Common | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 1,000 Credits | 5,000 |
+| **Rivet II** | Straight, single target | Rare | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | Crafted from 100 Rivet I | 2,000 |
+| **Rivet III** | Straight, single target | Epic | 9,800–11,200 | 10,500 | 35% | – | – | 1,100 | 500 | Crafted from 100 Rivet II | 500 |
+| **Ember I** | Guided, area blast | Common | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 1,000 Credits | 5,000 |
+| **Ember II** | Guided, area blast | Rare | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | Crafted from 100 Ember I | 2,000 |
+| **Ember III** | Guided, area blast | Epic | 4,900–6,300 | 5,600 | – | 495 | 1,150 | 2,030 | 700 | Crafted from 100 Ember II | 500 |
+| **Scatter I** | Straight, area blast | Common | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 1,000 Credits | 5,000 |
+| **Scatter II** | Straight, area blast | Rare | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | Crafted from 100 Scatter I | 2,000 |
+| **Scatter III** | Straight, area blast | Epic | 6,300–7,700 | 7,000 | – | 660 | – | 1,092 | 420 | Crafted from 100 Scatter II | 500 |
 
 The dearer the tier, the harder a rocket hits, the farther it reaches, the more shield penetration it has and the fewer you can carry; the dear ones also give the most damage for what they cost. A straight rocket deals a quarter to a third more than the guided rocket of its tier and kind for the same price (23 to 32% on average), because you have to aim it. A blast deals about two thirds of the single-target rocket of its tier and kind (66 to 70% on average: an Ember against a Lancet, a Scatter against a Rivet), to every ship it covers. Damage in a blast is full at its centre and falls in a straight line to **half of it at the edge**: a ship whose hull is halfway out takes 75%, and one whose hull is outside the ring takes nothing. On average a launch deals the middle of its range, 89 to 94% of its top number, and the table that counts rockets below uses that.
 
 ## What they cost
 
-A Common rocket costs 500 Credits, a Rare one 800 Credits and an Epic one 5 Thulium, in every kind. Fired on every timer, that is 10,000 Credits a minute for a Common rocket, 16,000 for a Rare one and 100 Thulium for an Epic one, against the 900 Credits a minute that an Ostirion's three lasers burn at x1. A full stack is 5,000 Common rockets (2,500,000 Credits), 2,000 Rare ones (1,600,000 Credits) or 500 Epic ones (2,500 Thulium): you buy as many as you like up to that, and the *carry at most* of a rocket is the only limit on how many you hold. At the wipe you keep up to 1,000 of each of the twelve rockets without doing anything; more than that, and every N.U.K.E. and N.I.K.E., survives only in the Transport Cache, where a rocket weighs 1 kg (a N.U.K.E. or a N.I.K.E. 250 kg): see [the wipe](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). A rocket every 3 seconds is only twenty a minute, so a rocket is the burst on top of your lasers: the cheap ones for the weak aliens, the dear ones for the big fights. What you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#limits) and the lots you lead there count toward that limit when you buy or bid on a rocket. These are the base numbers: the Pilot research Sealed Backdoor ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) raises the limit of every rocket for you, by 25%, 50%, 100%, 150% or 200% in all, rounded down, so that 5,000 becomes 6,250 at level I and 15,000 at level V.
+A Common (Tier I) rocket costs 1,000 Credits in the Shop, in every kind. The Rare (Tier II) and Epic (Tier III) rockets are not sold: Assembly crafts them, 100 at a time, out of 100 rockets of the tier below (a batch of Rare rockets costs 50,000 Credits and 200 Thulium besides, a batch of Epic ones 150,000 Credits and 800 Thulium, with a few materials; the Shop and Assembly say the rest). Fired on every timer, a Common rocket is 20,000 Credits a minute, against the 900 Credits a minute that an Ostirion's three lasers burn at x1. A full stack is 5,000 Common rockets (5,000,000 Credits), 2,000 Rare ones or 500 Epic ones: you buy as many as you like up to that, and the *carry at most* of a rocket is the only limit on how many you hold. At the wipe you keep up to 1,000 of each of the twelve rockets without doing anything; more than that, and every N.U.K.E. and N.I.K.E., survives only in the Transport Cache, where a rocket weighs 1 kg (a N.U.K.E. or a N.I.K.E. 250 kg): see [the wipe](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). A rocket every 3 seconds is only twenty a minute, so a rocket is the burst on top of your lasers: the cheap ones for the weak aliens, the dear ones for the big fights. What you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#limits) and the lots you lead there count toward that limit when you buy or bid on a rocket. These are the base numbers: the Pilot research Sealed Backdoor ([Research](/wiki/03-Mechanics/Research.md#pilot-technologies)) raises the limit of every rocket for you, by 25%, 50%, 100%, 150% or 200% in all, rounded down, so that 5,000 becomes 6,250 at level I and 15,000 at level V.
 
-The Shop lists the rockets one kind at a time, each under its name, the Common rocket first and the Epic one last; the Hangar, the Transport Cache and the Rockets picker use the same order.
+The Shop sells the four Common rockets, one kind at a time, and after them Flares and Ricochet; the Hangar, the Transport Cache and the Rockets picker list the twelve normal rockets the same way, each kind under its name, the Common rocket first and the Epic one last, and the special rockets after them.
 
 ## Against the aliens
 
@@ -92,18 +103,18 @@ The rockets it takes to kill one alien, one kind of rocket after the other, ever
 
 | Rockets to kill | Seeker (1,600) | Phantasm (5,200) | Bulwark (26,000) | Goombah (80,000) | Crystalys (416,000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - The **Common** single-target rockets kill a Seeker in one hit at any roll and a Phantasm in three (a Lancet I needs a fourth on its lowest roll); they are the everyday rockets of the first sectors. The **Rare** ones are for the Bulwark and the Goombah: seven Lancet II rockets take a Bulwark in about 20 seconds of timer. The **Epic** single-target ones kill a Goombah in eight (Rivet III) to eleven (Lancet III). The blasts are worth their price when several aliens are close together: a Scatter III bursting over a pack of five Phantasms (all within 250 units of the one you aimed at) deals about 22,000 damage across the pack in one cast.
 - A kill by rockets alone is a real spend, not a way to get rich: a single-target rocket costs between 15% (a Rivet II on a Phantasm) and 95% (a Lancet I on a Crystalys) of what the kill pays (Credits, and Thulium at 200 Credits each), and the weak blasts on the strong aliens cost more than the kill pays (an Ember I on a Bulwark: 120%). Killing the **Crystalys** with one kind alone takes 56 to 352 rockets and nearly three minutes of timer; a full stack of 500 Epic rockets is enough for four to eight of them. The strongest alien needs a plan: your lasers on x2 ammo, a mid-tier rocket every 3 seconds from the first second, and the big rockets below as the burst.
@@ -124,14 +135,36 @@ Two rockets are not in the Shop. **Assembly** makes them, and they follow every 
 - **The catch.** A N.I.K.E. that meets a ship on its way, a rival waiting on the line or anything else it may hurt, hits it for 67,500 to 75,000 and is gone: the black hole gets nothing, and neither do you. Nothing else roams inside the hole's ring for it to hit by accident (aliens and company pilots keep out of it): only pilots who went in for Dark Matter, or are waiting for you at the rim. It flies through your own company, ships in a safe zone and ships you may not hurt yet. If you leave the map after firing it, it flies on without hurting anyone and still makes your Dark Matter.
 - Assembly won't start a craft that would leave you holding more than the *carry at most* of a rocket, counting what you have queued. Sealed Backdoor raises their limits too (10 becomes 12 and 20 becomes 25 at level I, 30 and 60 at level V).
 
+## Special rockets
+
+The special rockets do things a damage number does not. They share **one timer of 5 seconds** with each other (no launcher changes it), and each also waits for **its own timer**, from 3 seconds to 2 minutes; the normal rockets' timer is separate, so a normal rocket and a special one can be fired together. Assembly crafts them, except Flares and Ricochet, which the Shop sells (the item tree above has every recipe). The N.U.K.E. and the N.I.K.E. above are special rockets too, and the N.U.K.E. has no timer of its own. The Auto-Rocket CPU and the Rocket Launchers fire normal rockets only.
+
+| Name | Kind | Effect | Own timer | Carry at most |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Guided, single target | A guided rocket that deals no damage: the ship it hits is frozen and flies 60% slower for four seconds. | 30 s | 50 |
+| **EMP Rocket** | Guided, single target | A guided rocket that deals no damage: it puts the ship it hits through the effect of an EMP Charge for three seconds. | 30 s | 50 |
+| **Shield Breaker** | Straight, single target | A fast unguided rocket made for shields: 25,000 to the shield and 5,000 to the hull, but while any shield is left it hits the shield only. | 15 s | 50 |
+| **Toxic Rocket** | Guided, single target | A guided rocket that deals no damage of its own: the ship it hits is poisoned for five seconds and loses half a percent of its effective hit points (hull and shield together) a second, taken from the hull. | 20 s | 50 |
+| **Marking Rocket** | Guided, single target | A guided rocket that deals no damage: the ship it hits is marked for five seconds and takes 20% more damage from everything. | 30 s | 50 |
+| **Cooldown Rocket** | Guided, single target | A guided rocket that deals no damage: for eight seconds the timed items of the ship it hits cool down at half speed. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Straight, area blast | A N.U.K.E. rebuilt around a collapsed core. It is placed at the cursor and opens a small black hole for fifteen seconds that pulls ships and guided rockets in. Only one can exist on a map. Only Assembly makes it, and it can never be sold at the Auction. | 120 s | 5 |
+| **Support Rocket** | Straight, area blast | Placed at the cursor: it heals every friendly ship in its area by 40% of its hull and shield. | 120 s | 20 |
+| **Flares** | Straight, single target | Launched from your own ship: it breaks every guided rocket that is locked on you. | 60 s | 20 |
+| **Ricochet** | Straight, single target | A fast unguided rocket that hits like a Rivet II and, after its first hit, jumps to a second ship for 75% of the damage. | 3 s | 500 |
+
+- A second hit of the same kind renews a freeze, a jam, a poison, a mark or a slowed cooldown and never stacks with the first. The Toxic Rocket's damage is the shooter's, so a kill by poison counts for them.
+- The Gravitational N.U.K.E. and the Support Rocket are **placed at your cursor**: they fly to the point under it, or as far as they reach, and no ship's fuse sets them off. Only one gravity well can stand on a map: a second launch is refused, and nothing is spent.
+
 ## Firing
 
-1. Buy rockets in the Shop (the **Rockets** category), up to the *carry at most* of each: Credits for the Common and Rare ones, Thulium for the Epic ones.
-2. Open **Rockets** above the hotbar, and drag the ones you want onto slots. The picker shows a column per kind and a row per tier, with what you carry on each. Under them is a row of its own, **Special · craft only**, for the N.U.K.E. and the N.I.K.E. (a small hammer marks the one you carry none of).
+1. Buy the Common rockets in the Shop (the **Rockets** category), up to the *carry at most* of each, for Credits; craft the Rare and Epic ones in Assembly from 100 of the tier below.
+2. Open **Rockets** above the hotbar, and drag the ones you want onto slots. The picker shows a column per kind and a row per tier, with what you carry on each. Under them are the **Special rockets**, four to a row (a small hammer marks a craft-only one you carry none of).
 3. Press the slot's key. Clicking the slot of a **guided** rocket fires it at your selected target; clicking a **straight** rocket's slot arms it, and your next click in space fires it there. The **Fire Rocket** key (`R` by default, rebindable in Settings › Controls) fires the rocket you fired last, or the first one on the bar.
-4. A pie sweeps over **every** rocket slot for the 3 seconds until the next launch (4.1 after a N.U.K.E., 4.6 after a N.I.K.E.), with the seconds left in the middle. A press before then only tells you the rockets are recharging (a press in the last tenth of a second still fires). A drone formation can make the wait anything from 2.19 to 4.05 seconds (see below).
+4. A pie sweeps over each rocket slot for the timer that rocket waits on: 3 seconds for a normal rocket (5 with a Rocket Launcher), and for a special rocket the longer of the 5 seconds and its own, with the seconds left in the middle. A press before then only tells you the rockets are recharging (a press in the last tenth of a second still fires). A drone formation can make the normal timer anything from 2.19 to 4.05 seconds (see below).
 
 Hover a rocket slot to see its numbers (its lowest and highest damage; the Shop and the Hangar say the same) and, in the world, its lock ring (green when the selected target is in range) or its line and blast circle. A rocket locked on **you** flashes the edge of your screen red.
+
+**Rocket Launchers.** A Rocket Launcher II to V is kept in your hangar like the Auto-Rocket CPU, needs no slot and works from any ship (the best one you own counts). One press of a normal rocket then fires 2, 3, 4 or 5 rockets of the stack, 0.15 seconds apart, and the normal rockets wait 5 seconds afterwards. Assembly crafts them after their research (8 to 24 hours, with 150,000 to 2,000,000 Thulium and materials; the item tree of [Extras](/wiki/06-Items/Extras.md) lists them).
 
 The **N.U.K.E.** draws its blast on the map before you fire (the circle of 1,350 units at the aimed point) and, when it goes off, a white flash over the view, a ring that runs out to the exact reach in about a second and stays for two more, a cloud that rises like a mushroom, and a shake of the camera that is stronger the nearer you are. **Reduce screen shaking** removes the shake, and **Reduce Motion** shortens the flash to a third of a second at less than half its light (both are in Settings, under Graphics); a lower particle quality thins the cloud and drops the sparks, never the flash or the ring. The **N.I.K.E.** is aimed like a Rivet I, by the line from your ship to the cursor, and the game never refuses it for being far from the black hole or on a map without one: where it goes is yours to judge. Its card says **Black hole: Makes Dark Matter** beside its damage. It leaves a violet trail with sparks winding round it; a ship it meets takes the hit like from any rocket, and when it crosses the horizon instead the hole flares.
 
@@ -140,7 +173,7 @@ The **N.U.K.E.** draws its blast on the map before you fire (the circle of 1,350
 A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that changes a rocket. Every damage figure on this page is for a ship with no formation.
 
 - **Damage.** The rocket bonus of Ballista (+55%), Bodkin (+29%) and Asterism (+24%) multiplies the damage of all 14 rockets, the N.U.K.E. and the N.I.K.E. included. Testudo's all-damage price counts on rockets, and Culler's damage to aliens counts on a rocket that hits an alien. All the factors on one rocket together stop at ×1.59. The bonus counts against an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) just as against a ship, and the asteroid's armour comes off after it.
-- **Reload.** Asterism makes the shared timer 35% longer (4.05 seconds), Cordon 11% longer (3.33) and Redoubt 27% shorter (2.19), but never shorter than the rocket's flight plus a moment. Under Redoubt the quick rockets (Lancet I, Rivet I and II, Ember I, Scatter I and II) wait the 2.19 seconds, a Rivet III waits 2.3, a Lancet III 2.9 and an Ember III the full 3; the N.U.K.E. and the N.I.K.E. wait 4.1 and 4.6 seconds whatever you wear. The wait is set when you fire, so changing formation afterwards does not shorten it, and the pie over the rocket slots follows it.
+- **Reload.** Asterism makes the normal rockets' timer 35% longer (4.05 seconds), Cordon 11% longer (3.33) and Redoubt 27% shorter (2.19), but never shorter than the rocket's flight plus a moment. Under Redoubt the quick rockets (Lancet I, Rivet I and II, Ember I, Scatter I and II) wait the 2.19 seconds, a Rivet III waits 2.3, a Lancet III 2.9 and an Ember III the full 3. The wait is set when you fire, so changing formation afterwards does not shorten it, and the pie over the rocket slots follows it. The special rockets' timers never change with a formation.
 - **The limits of the big two hold.** With the best formation a N.I.K.E. hits for up to 116,250, which a fresh Paragon (128,000) survives, and a N.U.K.E. for up to 77,500, which a Goombah (80,000) survives.
 - **Evasion.** Asterism's 7% evasion gives a direct rocket that hits you a 7% chance to do no damage at all, and a floating "Miss" shows over your ship; an area blast has no aim and is never dodged.
 - **Penetration.** Gemini adds its 15 points, and Stiletto its 35 points of rocket penetration, to the shield penetration of a direct rocket (a blast has none), with no cap: a Lancet III with a Stiletto is 70%, with Gemini 50%. A laser hit adds Gemini's to its ammo's and its amps' the same way, and gets none of the Stiletto's ([Lasers & Ammo](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -156,7 +189,7 @@ A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that
 - Only a rocket's **direct hit** claims an alien (see [Combat](/wiki/03-Mechanics/Combat.md)); a blast's edge can hurt a claimed alien without stealing it. Every alien a blast hurts, a sleeping one too, turns on you, as it does for a laser hit (a Seeker or a Goombah, which only fight back, included); one the blast misses stays asleep.
 - The timer is yours: it survives a jump, a reconnect, a ship swap and a destroyed ship.
 
-The twelve rockets of the first table are bought (Credits for the Common and Rare ones, Thulium for the Epic ones); the N.U.K.E. and the N.I.K.E. are crafted.
+Only the Common rockets of the first table, Flares and Ricochet are bought (for Credits); every other rocket is crafted in Assembly.
 
 See also: [Lasers & Ammo](/wiki/06-Items/Lasers.md), [Combat](/wiki/03-Mechanics/Combat.md), [The Black Hole](/wiki/03-Mechanics/Black-Hole.md).
 

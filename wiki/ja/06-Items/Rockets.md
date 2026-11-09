@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: ロケット -->
 # ロケット {#rockets}
 
-ロケットは、レーザーに並ぶ第2の武器です。数秒に1発、レーザーの斉射よりはるかに強力な一撃を放ちます。4つの種類に3段階ずつの計12種類のロケットに加え、アセンブリでしか作れないものが2種類あり、どれを撃っても、**全ロケットで共有する3秒の再装填タイマー**が1つ動きます（アセンブリでしか作れない2種類は、飛行時間が長いぶん少し長く待ちます）。コモンとレアのロケットは**クレジット**で、エピックのロケット4種類は **Thulium** で購入します。[ドローン編成](/wiki/03-Mechanics/Formations.md)は、ロケットのダメージを上げたり、そのタイマーを長くも短くもしたりできます（[ドローン編成とロケット](#drone-formations-and-rockets)を参照）。
+ロケットは、レーザーに並ぶ第2の武器です。数秒に1発、レーザーの斉射よりはるかに強力な一撃を放ちます。4つの種類に3段階ずつの計12種類の**通常ロケット**は、**3秒の再装填タイマー**を1つ共有し、その長さは艦のロケットランチャーで決まります。ダメージ以外のことをする12種類の**特殊ロケット**は、**専用の5秒タイマー**を共有し、それぞれ自分のタイマーも待ちます。購入できるのは4種類のコモンのロケットとFlares、Ricochetだけで、**クレジット**で買います。それ以外のロケットはアセンブリで製作します。[ドローン編成](/wiki/03-Mechanics/Formations.md)は、ロケットのダメージを上げたり、通常タイマーを長くも短くもしたりできます（[ドローン編成とロケット](#drone-formations-and-rockets)を参照）。
 
 ## 1分でわかる要点 {#in-one-minute}
 
-- **購入できる12種類のロケット。** 4つの種類（Lancet、Rivet、Ember、Scatter）が、それぞれ3段階あります。コモンとレアはクレジット、エピックは Thulium で買います。N.U.K.E. と N.I.K.E. の2つは、アセンブリで製作します。
+- **通常ロケットは12種類。** 4つの種類（Lancet、Rivet、Ember、Scatter）に3段階ずつ。販売されているのは段階Iだけで1,000クレジット。段階IIとIIIは、ひとつ下の段階のロケット100発からアセンブリで製作します。
 - **ロケットのダメージは発射ごとに決まります。** 発射すると、そのロケットの最小ダメージと最大ダメージの間の数値がゲームによって選ばれます（Lancet I は1,700～2,100）。艦、レーザー、アンプ、ブースターは影響せず、変えるのはドローン編成だけです。エイリアンが撃つロケットは出目で変わらず、固定の値になります（[エイリアンに対して](#against-the-aliens)）。
 - **爆発は中心が最も強くなります。** Ember と Scatter のロケットは炸裂し、輪の中のすべての艦にダメージを与えます。中心では全ダメージ、端ではその半分です。
-- **タイマーはすべてのロケットで共通です。** どのロケットでも、発射したあとは次の発射まで3秒待ちます。N.U.K.E. と N.I.K.E. だけは空中にいる時間が長いため、待ち時間が長くなります（4.1秒と4.6秒）。
+- **タイマーは2種類。** 通常ロケットは1つを共有します。どの発射のあとも3秒、**ロケットランチャーII〜V**があれば、0.15秒間隔の2〜5発の連射のあとに5秒です（[発射](#firing)）。特殊ロケットは、どのランチャーでも変わらない別の5秒タイマーを共有し、それぞれ3秒から2分までの自分のタイマーも待ちます（[特殊ロケット](#special-rockets)）。
+- **特殊ロケットは12種類。** 艦を凍結、妨害、毒、マークの状態にし、シールドやロックを破り、味方を回復し、2隻目の艦に跳ね、カーソル位置に小さなブラックホールを開きます。N.U.K.E. と N.I.K.E. もその2つです。
 - **誘導か直進か。** 誘導ロケット（Lancet、Ember）は、選択したターゲットが必要です。直進ロケット（Rivet、Scatter）は、カーソルの方向へ飛びます。
 - **ロケットと同じように持ち運ぶものがさらにあります。** **EMP Charge** は消耗品です。インベントリのスタックで、ホットバーから使い、スロットは使いません（[EMP Charge](#emp-charge)）。2つの **Energetic Wall** も同じです（[Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)）。
 
@@ -21,28 +22,38 @@
 アセンブリで作れるものは、先にその技術が必要です。アイテムにカーソルを合わせると、研究にかかる時間が分かります。技術ツリー、燃料、ブーストは [研究](/wiki/03-Mechanics/Research.md) を参照してください。
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Energetic Wall I -> Energetic Wall II
 
 | 名前 | 種類 | レアリティ | ダメージ | 平均 | シールド貫通 | 爆発半径 | ロックオン範囲 | 射程 | 速度 | 価格 | 最大所持数 |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | 誘導・単体 | コモン | 1,700～2,100 | 1,900 | 10% | – | 700 | 1,040 | 520 | 500クレジット | 5,000 |
-| **Lancet II** | 誘導・単体 | レア | 3,500～4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 800クレジット | 2,000 |
-| **Lancet III** | 誘導・単体 | エピック | 5,200～6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | 直進・単体 | コモン | 2,200～2,700 | 2,450 | 5% | – | – | 1,080 | 900 | 500クレジット | 5,000 |
-| **Rivet II** | 直進・単体 | レア | 4,500～5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 800クレジット | 2,000 |
-| **Rivet III** | 直進・単体 | エピック | 7,000～8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 5 Thulium | 500 |
-| **Ember I** | 誘導・範囲爆発 | コモン | 1,200～1,400 | 1,300 | – | 255 | 700 | 1,000 | 500 | 500クレジット | 5,000 |
-| **Ember II** | 誘導・範囲爆発 | レア | 2,400～2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 800クレジット | 2,000 |
-| **Ember III** | 誘導・範囲爆発 | エピック | 3,500～4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | 直進・範囲爆発 | コモン | 1,500～1,750 | 1,625 | – | 315 | – | 1,088 | 640 | 500クレジット | 5,000 |
-| **Scatter II** | 直進・範囲爆発 | レア | 3,000～3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 800クレジット | 2,000 |
-| **Scatter III** | 直進・範囲爆発 | エピック | 4,500～5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | 誘導・単体 | コモン | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 1,000クレジット | 5,000 |
+| **Lancet II** | 誘導・単体 | レア | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | Lancet I 100発から製作 | 2,000 |
+| **Lancet III** | 誘導・単体 | エピック | 7,300–8,700 | 8,000 | 35% | – | 1,300 | 2,296 | 820 | Lancet II 100発から製作 | 500 |
+| **Rivet I** | 直進・単体 | コモン | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 1,000クレジット | 5,000 |
+| **Rivet II** | 直進・単体 | レア | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | Rivet I 100発から製作 | 2,000 |
+| **Rivet III** | 直進・単体 | エピック | 9,800–11,200 | 10,500 | 35% | – | – | 1,100 | 500 | Rivet II 100発から製作 | 500 |
+| **Ember I** | 誘導・範囲爆発 | コモン | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 1,000クレジット | 5,000 |
+| **Ember II** | 誘導・範囲爆発 | レア | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | Ember I 100発から製作 | 2,000 |
+| **Ember III** | 誘導・範囲爆発 | エピック | 4,900–6,300 | 5,600 | – | 495 | 1,150 | 2,030 | 700 | Ember II 100発から製作 | 500 |
+| **Scatter I** | 直進・範囲爆発 | コモン | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 1,000クレジット | 5,000 |
+| **Scatter II** | 直進・範囲爆発 | レア | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | Scatter I 100発から製作 | 2,000 |
+| **Scatter III** | 直進・範囲爆発 | エピック | 6,300–7,700 | 7,000 | – | 660 | – | 1,092 | 420 | Scatter II 100発から製作 | 500 |
 
 段階が上がるほど価格は高くなり、ロケットは強く当たり、遠くまで届き、シールド貫通が大きくなり、持てる数は少なくなります。高価なものは、価格に対するダメージも最も大きくなります。直進ロケットは、同じ価格で、同じ段階で単体か爆発かも同じ誘導ロケットより、平均で23～32%多くダメージを与えます。狙いを付ける必要があるためです。爆発ロケットは、同じ段階・同じ種類の単体ロケットの約3分の2（平均で66～70%。Ember は Lancet と、Scatter は Rivet と比べた値）のダメージを、範囲内のすべての艦に与えます。爆発のダメージは中心で最大で、端に向かって直線的に下がり、**端では半分**になります。船体が中心と端のちょうど中間にある艦は75%を受け、船体が輪の外にある艦は何も受けません。1回の発射のダメージは平均で範囲の中央、つまり上限の数値の89～94%で、下の表（ロケットの数を数える表）はこの平均を使っています。
 
 ## コスト {#what-they-cost}
 
-コモンのロケットは500クレジット、レアは800クレジット、エピックは5 Thulium で、どの種類でも同じです。タイマーが戻るたびに撃つと、1分あたり、コモンは10,000クレジット、レアは16,000クレジット、エピックは100 Thulium になります。これに対して、Ostirion のレーザー3基が x1 弾薬で1分間に使うのは900クレジットです。所持上限いっぱいの量は、コモン5,000発（2,500,000クレジット）、レア2,000発（1,600,000クレジット）、エピック500発（2,500 Thulium）です。その数までなら好きなだけ買え、持てる数を決めるのは、ロケットの*最大所持数*だけです。ワイプでは、12種のロケットそれぞれ最大1,000発が何もしなくても残ります。それを超える分と、すべてのN.U.K.E.とN.I.K.E.は、トランスポートキャッシュに入れた場合のみ残り、そこではロケット1発が1 kg（N.U.K.E.とN.I.K.E.は250 kg）です（[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)を参照）。3秒に1発では1分に20発にしかならないので、ロケットはレーザーの上乗せの一撃です。安価なものは弱いエイリアン向け、高価なものは大きな戦いのためのものです。[オークション](/wiki/03-Mechanics/Auction.md#limits)に出品しているものと、トップに立っているロットの分も、ロケットを購入または入札するときにこの上限に数えられます。 これは基本の数値です。パイロットの研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）で、あなたのすべてのロケットの所持上限が、合計で25%、50%、100%、150%、200%増えます（端数は切り捨て）。たとえば5,000は、レベルIで6,250、レベルVで15,000になります。
+コモン（段階I）のロケットは、どの種類でもショップで1,000クレジットです。レア（段階II）とエピック（段階III）のロケットは販売されておらず、アセンブリがひとつ下の段階のロケット100発から、100発ずつ製作します（レアのロット1つにはさらに50,000クレジットと200 Thulium、エピックのロット1つには150,000クレジットと800 Thulium、加えていくつかの素材が必要です。残りはショップとアセンブリが示します）。タイマーが戻るたびに撃つと、コモンのロケットは1分あたり20,000クレジットで、これに対しOstirionのレーザー3基がx1弾薬で1分間に使うのは900クレジットです。所持上限いっぱいの量は、コモン5,000発（5,000,000クレジット）、レア2,000発、エピック500発です。 その数までなら好きなだけ買え、持てる数を決めるのは、ロケットの*最大所持数*だけです。ワイプでは、12種のロケットそれぞれ最大1,000発が何もしなくても残ります。それを超える分と、すべてのN.U.K.E.とN.I.K.E.は、トランスポートキャッシュに入れた場合のみ残り、そこではロケット1発が1 kg（N.U.K.E.とN.I.K.E.は250 kg）です（[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)を参照）。3秒に1発では1分に20発にしかならないので、ロケットはレーザーの上乗せの一撃です。安価なものは弱いエイリアン向け、高価なものは大きな戦いのためのものです。[オークション](/wiki/03-Mechanics/Auction.md#limits)に出品しているものと、トップに立っているロットの分も、ロケットを購入または入札するときにこの上限に数えられます。 これは基本の数値です。パイロットの研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）で、あなたのすべてのロケットの所持上限が、合計で25%、50%、100%、150%、200%増えます（端数は切り捨て）。たとえば5,000は、レベルIで6,250、レベルVで15,000になります。
 
-ショップでは、ロケットが1種類ずつ、それぞれの名前で並び、コモンが先頭、エピックが最後です。ハンガー、トランスポートキャッシュ、ロケットの選択画面でも同じ順番です。
+ショップで売られているのは4種類のコモンのロケットで、種類ごとに並び、そのあとにFlaresとRicochetが続きます。ハンガー、トランスポートキャッシュ、ロケット選択画面も12種類の通常ロケットを同じように並べ、各種類をその名前の下に、コモンを最初、エピックを最後にし、そのあとに特殊ロケットが続きます。
 
 ## エイリアンに対して {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Energetic Wall I -> Energetic Wall II
 
 | 撃破に必要なロケット数 | Seeker（1,600） | Phantasm（5,200） | Bulwark（26,000） | Goombah（80,000） | Crystalys（416,000） |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - **コモン**の単体ロケットは、どの出目でも Seeker を1発、Phantasm を3発で倒します（Lancet I は最小値の出目だと4発目が要ります）。最初のセクターで日常的に使うロケットです。**レア**は Bulwark と Goombah 向けで、Lancet II 7発（タイマーで約20秒）で Bulwark を倒せます。**エピック**の単体ロケットは、Goombah を8発（Rivet III）から11発（Lancet III）で倒します。爆発ロケットは、複数のエイリアンが近くに固まっているときに、価格に見合います。Scatter III が Phantasm 5体の群れ（すべて、狙ったターゲットから250ユニット以内）の上で炸裂すると、1回の発射で群れ全体に約22,000のダメージを与えます。
 - ロケットだけで倒すのは、本物の出費であって、稼ぐ手段ではありません。単体ロケットのコストは撃破報酬の15%（Phantasm に Rivet II）から95%（Crystalys に Lancet I）にのぼり（クレジットと、Thulium を1個200クレジットとして換算）、強いエイリアンに弱い爆発ロケットを使うと、報酬より高くつきます（Bulwark に Ember I で120%）。**Crystalys** を1種類のロケットだけで倒すには56～352発が必要で、タイマーだけで3分近くかかります。エピックのロケット500発の1スタックがあれば、Crystalys 4～8体分になります。最強のエイリアンには作戦が必要です。x2 弾薬のレーザー、最初の1秒から3秒おきに撃つ中位のロケット、そして一撃として、下にある大型ロケットを組み合わせましょう。
@@ -126,14 +137,36 @@ Energetic Wall I -> Energetic Wall II
 - **落とし穴。**途中で艦、射線上で待ち構えるライバル、あるいはダメージを与えられるほかのものに出会った N.I.K.E. は、そこに67,500～75,000のダメージを与えて消えます。ブラックホールは何も得られず、あなたも何も得られません。ブラックホールの輪の内側で、うっかり当たってしまうような存在はほかにいません（エイリアンと企業パイロットは近づきません）。いるのは、Dark Matter のために入り込んだパイロットか、縁であなたを待ち伏せているパイロットだけです。自分の企業の艦、セーフゾーン内の艦、まだダメージを与えられない艦は、すり抜けます。撃った後にマップを離れても、ロケットは誰にもダメージを与えずに飛び続け、Dark Matter は作られます。
 - アセンブリは、製作の結果、そのロケットの*最大所持数*を超えてしまう場合、キューに入れた分も含めて、製作を開始しません。 Sealed Backdoor はこれらの所持上限も引き上げます（レベルIで10は12、20は25に、レベルVでは30と60になります）。
 
+## 特殊ロケット {#special-rockets}
+
+特殊ロケットは、ダメージの数字では表せないことをします。互いに**5秒のタイマー1つ**を共有し（どのランチャーでも変わりません）、それぞれ3秒から2分までの**自分のタイマー**も待ちます。通常ロケットのタイマーは別なので、通常ロケットと特殊ロケットは同時に撃てます。FlaresとRicochetはショップで売られていますが、それ以外はアセンブリで製作します（上のアイテムツリーにすべてのレシピがあります）。上のN.U.K.E.とN.I.K.E.も特殊ロケットで、N.U.K.E.には専用のタイマーがありません。オートロケットCPUとロケットランチャーが発射するのは通常ロケットだけです。
+
+| 名前 | 種類 | 効果 | 専用タイマー | 最大所持数 |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | 誘導・単体 | ダメージを与えない誘導ロケット。命中した艦は凍結し、4秒間、速度が60%低下します。 | 30 秒 | 50 |
+| **EMP Rocket** | 誘導・単体 | ダメージを与えない誘導ロケット。命中した艦は3秒間、EMPチャージの効果を受けます。 | 30 秒 | 50 |
+| **Shield Breaker** | 直進・単体 | シールドを狙った高速の非誘導ロケット。シールドに25,000、船体に5,000のダメージを与えますが、シールドが残っている間はシールドだけに当たります。 | 15 秒 | 50 |
+| **Toxic Rocket** | 誘導・単体 | それ自体ではダメージを与えない誘導ロケット。命中した艦は5秒間毒状態になり、毎秒、実効耐久（船体とシールドの合計）の0.5%を船体から失います。 | 20 秒 | 50 |
+| **Marking Rocket** | 誘導・単体 | ダメージを与えない誘導ロケット。命中した艦は5秒間マークされ、あらゆるダメージを20%多く受けます。 | 30 秒 | 50 |
+| **Cooldown Rocket** | 誘導・単体 | ダメージを与えない誘導ロケット。8秒間、命中した艦のタイマー式アイテムのクールダウンが半分の速さになります。 | 60 秒 | 20 |
+| **Gravitational N.U.K.E.** | 直進・範囲爆発 | 崩壊した核を中心に組み直されたN.U.K.E.。カーソル位置に設置され、15秒間、艦と誘導ロケットを引き寄せる小さなブラックホールを開きます。マップに存在できるのは1つだけです。アセンブリでのみ製作でき、オークションでは売却できません。 | 120 秒 | 5 |
+| **Support Rocket** | 直進・範囲爆発 | カーソル位置に設置：範囲内の味方の艦すべてを、船体とシールドの40%ぶん回復します。 | 120 秒 | 20 |
+| **Flares** | 直進・単体 | 自艦から発射：自分にロックオンしている誘導ロケットをすべて無効にします。 | 60 秒 | 20 |
+| **Ricochet** | 直進・単体 | Rivet IIと同じ威力の高速な非誘導ロケット。最初の命中のあと、ダメージの75%で2隻目の艦に跳ね返ります。 | 3 秒 | 500 |
+
+- 同じ種類の2発目が当たると、凍結、妨害、毒、マーク、クールダウン低下は更新されますが、1発目と重なって強くなることはありません。Toxic Rocketのダメージは撃った人のものなので、毒による撃破もその人の戦果になります。
+- 重力N.U.K.E.とSupport Rocketは**カーソル位置に設置**されます。カーソル下の地点、または届く限りの地点まで飛び、どの艦の信管でも起爆しません。1つのマップに立てる重力井戸は1つだけで、2発目の発射は拒否され、何も消費されません。
+
 ## 発射 {#firing}
 
-1. ショップ（**ロケット**カテゴリー）でロケットを購入します。各ロケットの*最大所持数*まで持てます。コモンとレアはクレジット、エピックは Thulium で購入します。
-2. ホットバーの上にある**ロケット**を開き、使いたいものをスロットにドラッグします。選択画面には、種類ごとの列と段階ごとの行があり、それぞれ所持数が表示されます。その下には専用の行、**特殊・アセンブリのみ**があり、N.U.K.E. と N.I.K.E. が入っています（1つも持っていないものには、小さなハンマーのマークが付きます）。
+1. コモンのロケットをショップ（**ロケット**カテゴリ）で、それぞれの*最大所持数*までクレジットで購入します。レアとエピックは、ひとつ下の段階のロケット100発からアセンブリで製作します。
+2. ホットバーの上にある**ロケット**を開き、使いたいものをスロットにドラッグします。選択画面には、種類ごとの列と段階ごとの行があり、それぞれ所持数が表示されます。その下に**特殊ロケット**が1行4つずつ並びます（1つも持っていない製作専用のロケットには、小さなハンマーのマークが付きます）。
 3. スロットのキーを押します。**誘導**ロケットのスロットをクリックすると、選択中のターゲットに向けて発射します。**直進**ロケットのスロットをクリックすると装填され、次に宇宙空間をクリックすると、そこへ発射します。**ロケット発射**キー（初期設定は `R`、設定 › 操作で変更可能）は、最後に撃ったロケット、またはバーの最初のロケットを発射します。
-4. 次の発射までの3秒間（N.U.K.E. のあとは4.1秒、N.I.K.E. のあとは4.6秒）、**すべての**ロケットスロットに扇形のゲージが回り、中央に残り秒数が表示されます。それより前に押しても、ロケットが再装填中だと知らされるだけです（最後の0.1秒の間なら、押すと発射されます）。ドローン編成によっては、待ち時間は2.19秒から4.05秒の間になります（下を参照）。
+4. 各ロケットスロットの上には、そのロケットが待つタイマーの扇形ゲージが回り、中央に残り秒数が表示されます。通常ロケットは3秒（ロケットランチャーがあれば5秒）、特殊ロケットは5秒と自分のタイマーの長いほうです。それより前に押しても、ロケットが再装填中だと知らされるだけです（最後の0.1秒の間なら、押すと発射されます）。ドローン編成によっては、通常タイマーは2.19秒から4.05秒の間になります（下を参照）。
 
 ロケットのスロットにカーソルを合わせると、その数値（ダメージは最小値と最大値で、ショップとハンガーでも同じです）が表示され、飛行画面には、ロックオンの輪（選択中のターゲットが範囲内にいると緑）、またはその線と爆発の円が表示されます。**あなた**をロックオンしたロケットがあると、画面の端が赤く点滅します。
+
+**ロケットランチャー。** ロケットランチャーII〜Vは、オートロケットCPUのようにハンガーに保管し、スロットは不要で、どの艦でも働きます（持っている中で最良のものが有効です）。通常ロケットを1回押すと、スタックから2、3、4、5発を0.15秒間隔で発射し、その後は通常ロケットが5秒待ちます。アセンブリで、研究後に製作します（8〜24時間、150,000〜2,000,000 Thuliumと素材。[エクストラ](/wiki/06-Items/Extras.md)のアイテムツリーに載っています）。
 
 **N.U.K.E.** は、発射前に、マップ上に爆発範囲を描きます（狙った地点を中心とする半径1,350ユニットの円）。爆発すると、視界全体に白い閃光が走り、約1秒で正確な範囲まで広がる輪が、さらに2秒間残り、キノコ雲のような雲が立ち上り、近いほど強くカメラが揺れます。**画面の揺れを減らす**を設定すると揺れがなくなり、**動きを減らす**を設定すると、閃光は光量が半分未満で、3分の1秒に短縮されます（どちらも設定 › グラフィックにあります）。パーティクル品質を下げると、雲が薄くなり、火花がなくなりますが、閃光と輪は変わりません。**N.I.K.E.** は、Rivet I と同じように、艦からカーソルへ向かう線で狙います。ブラックホールから遠いことや、ブラックホールのないマップにいることを理由にゲームが拒否することはなく、どこへ撃つかはあなたの判断です。カードには、ダメージの横に**ブラックホール：Dark Matter を生む**と表示されます。N.I.K.E. は、火花が巻きつく紫の尾を引きます。艦に出会えば、ほかのロケットと同じようにその艦に命中し、代わりに事象の地平線を越えると、ブラックホールが輝きます。
 
@@ -142,7 +175,7 @@ Energetic Wall I -> Energetic Wall II
 使用中の[ドローン編成](/wiki/03-Mechanics/Formations.md)は、ロケットを変える唯一のものです。このページのダメージの数値はすべて、編成なしの艦のものです。
 
 - **ダメージ。** Ballista（+55%）、Bodkin（+29%）、Asterism（+24%）のロケットボーナスは、N.U.K.E. と N.I.K.E. を含む14種類すべてのロケットのダメージにかかります。Testudo の全ダメージの代償もロケットに効き、Culler のエイリアンへのダメージは、エイリアンに当たるロケットに効きます。1発のロケットにかかる係数は、合計で×1.59で止まります。このボーナスは、船に対してと同じように[小惑星](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)に対しても効き、小惑星の装甲はそのあとで引かれます。
-- **リロード。** Asterism は共有タイマーを35%長く（4.05秒）、Cordon は11%長く（3.33秒）、Redoubt は27%短く（2.19秒）しますが、ロケットの飛行時間にわずかな猶予を足した時間より短くはなりません。Redoubt を着けていても、速いロケット（Lancet I、Rivet I と II、Ember I、Scatter I と II）は2.19秒、Rivet III は2.3秒、Lancet III は2.9秒、Ember III は丸3秒待ちます。N.U.K.E. と N.I.K.E. は、どの編成でも4.1秒と4.6秒待ちます。待ち時間は発射時に決まるので、そのあと編成を替えても短くならず、ロケットスロットの上の扇形もそれに従います。
+- **再装填。** Asterismは通常ロケットのタイマーを35%長く（4.05秒）、Cordonは11%長く（3.33秒）し、Redoubtは27%短く（2.19秒）しますが、ロケットの飛行時間にわずかな余裕を足した長さより短くなることはありません。Redoubtでは、速いロケット（Lancet I、Rivet IとII、Ember I、Scatter IとII）は2.19秒、Rivet IIIは2.3秒、Lancet IIIは2.9秒、Ember IIIはそのまま3秒待ちます。待ち時間は発射時に決まるため、あとから編成を変えても短くならず、ロケットスロットのゲージもそれに従います。特殊ロケットのタイマーは、どの編成でも変わりません。
 - **大きい2種の限界は変わりません。** 最強の編成でも N.I.K.E. は最大116,250で、無傷の Paragon（128,000）は耐えられ、N.U.K.E. は最大77,500で、Goombah（80,000）は耐えられます。
 - **回避。** Asterism の回避7%は、自分に当たる直撃ロケットが7%の確率でダメージを一切与えない、という意味で、自分の船の上に「ミス」と浮かんで表示されます。範囲爆発は狙いをつけないので、かわされることはありません。
 - **貫通。** Gemini はその15ポイントを、Stiletto はそのロケット貫通35ポイントを、直撃ロケットのシールド貫通に足します（爆発には貫通がありません）。合計に上限はありません。Lancet III に Stiletto を合わせると70%、Gemini を合わせると50%です。レーザーの命中は、Gemini の分を弾薬とアンプの貫通に同じように足しますが、Stiletto の分は何も受けません（[レーザーと弾薬](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
@@ -158,7 +191,7 @@ Energetic Wall I -> Energetic Wall II
 - エイリアンの権利を得られるのは、ロケットの**直撃**だけです（[戦闘](/wiki/03-Mechanics/Combat.md)を参照）。爆発の端が、権利を持たれているエイリアンにダメージを与えても、それを奪うことはありません。爆発がダメージを与えたエイリアンは、眠っているものも含めて、レーザーが当たったときと同じようにあなたに向かってきます（反撃しかしない Seeker と Goombah も含みます）。爆発が外れたエイリアンは、眠ったままです。
 - タイマーはあなた自身に付きます。ジャンプ、再接続、艦の交換、艦の撃破があっても、続きます。
 
-最初の表の12種類のロケットは購入するもの（コモンとレアはクレジット、エピックは Thulium）で、N.U.K.E. と N.I.K.E. は製作するものです。
+購入できるのは、最初の表のコモンのロケットとFlares、Ricochetだけです（クレジット）。それ以外のロケットはアセンブリで製作します。
 
 関連項目：[レーザーと弾薬](/wiki/06-Items/Lasers.md)、[戦闘](/wiki/03-Mechanics/Combat.md)、[ブラックホール](/wiki/03-Mechanics/Black-Hole.md)。
 

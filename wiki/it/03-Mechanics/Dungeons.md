@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Dungeon -->
 # Dungeon {#dungeons}
 
@@ -20,7 +20,7 @@ Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare 
 - **Dungeon contemporanei**: 6 in un mondo
 - **Mappe**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labirinti**: 8; uno viene scelto all’apertura di un dungeon
-- **Stanza del boss**: Si apre quando 75% degli alieni del labirinto è distrutto, arrotondato per eccesso
+- **Stanza del boss**: Si apre quando 75% dei Crystalys e dei loro Twin è distrutto, arrotondato per eccesso
 - **Raduno**: 10 min per radunarsi e avviare. Un dungeon che nessuno avvia si chiude, e il suo prezzo torna alla banca del clan
 - **Limite di tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min dall’avvio. Quando scade, il dungeon fallisce e non paga nulla
 - **Lasciata vuota**: Un dungeon con nessuno all’interno per 3 min fallisce
@@ -36,7 +36,7 @@ Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare 
 3. **Avvia.** La sala di partenza è una piccola sala a un’estremità del labirinto, e il suo portello resta chiuso mentre il dungeon si riunisce. Dentro non ci sono alieni, quindi si può aspettare in sicurezza. Il dungeon **parte da solo** quando ogni pilota che aspetta è dentro e il gruppo è abbastanza grande. Aspetta i membri del clan che sono online, non assenti e nel gruppo di un pilota che è entrato, e parte subito quando il gruppo è pieno. Il pilota che ha aperto il dungeon, o un ufficiale, può premere **Avvia** per cominciare prima con i piloti che sono dentro, se sono abbastanza. Un pilota che se ne va non viene più aspettato. Quando il dungeon parte, il portello si apre per sempre, e dopo possono tornare solo i piloti che erano già dentro.
 4. **Aprirsi la strada nel labirinto.** Si entra a un’estremità del labirinto e il Signore della guerra aspetta all’altra, in una sala chiusa. Il labirinto è buio: si vede solo ciò che il gruppo ha esplorato e ciò che è vicino alle sue navi. Gli alieni dormono in branchi nei corridoi, e un branco che si sveglia dà la caccia al gruppo attraverso il labirinto.
 5. **Aprire le zone del bottino.** Degli anelli nel labirinto segnano le zone. Tienine una e il gruppo vota una carta, che viene pagata insieme alla paga del Signore della guerra.
-6. **Sbloccare la sala del boss.** Distruggi tre quarti degli alieni del labirinto, e il portello della sala del Signore della guerra si apre. Fino ad allora il Signore della guerra non può essere ferito.
+6. **Sbloccare la sala del boss.** Distruggi tre quarti dei Crystalys e dei loro Twin del labirinto, e il portello della sala del Signore della guerra si apre. Fino ad allora il Signore della guerra non può essere ferito. Gli altri alieni restano dove sono, e puoi distruggere anche loro.
 7. **Sconfiggere il Signore della guerra.** Rompi il suo scudo e il suo scafo, e rispondi alle sue abilità. Quando cade, il dungeon è completato.
 8. **Essere pagati.** La paga arriva nel momento in cui il Signore della guerra cade. Il dungeon resta aperto ancora un po’ per i piloti all’interno, poi si chiude.
 
@@ -56,7 +56,7 @@ Mentre il dungeon del tuo clan si sta riunendo e tu voli altrove, ti arriva un *
 
 ### La finestra Dungeon del clan {#the-clan-dungeon-window}
 
-Dentro un dungeon la partita ha una finestra tutta sua, **Dungeon del clan**. Mostra il tempo trascorso e quello che resta, quanti alieni volano e quanti sono stati distrutti, che cosa deve fare ora il gruppo (esplorare il labirinto, tenere una zona, trovare il boss, distruggere tre quarti degli alieni, sconfiggere il Signore della guerra), le barre dello scafo del gruppo, la barra di tenuta mentre sei in una zona, l’abilità del Signore della guerra con il suo conto alla rovescia e il pulsante **Esci**. È una finestra come le altre: trascinala dalla barra del titolo e chiudila con la luce rossa nel suo angolo. Si apre da sola quando entri in un dungeon, una volta per ogni dungeon: se la chiudi, resta chiusa fino al dungeon successivo. La barra degli strumenti ha un pulsante **Dungeon del clan** per esso finché sei in un dungeon. Mentre la finestra è chiusa, un’abilità del Signore della guerra che sta per iniziare o è in corso compare come una striscia di una riga con il suo nome e il conto alla rovescia. Fai clic sulla striscia per riaprire la finestra.
+Dentro un dungeon la partita ha una finestra tutta sua, **Dungeon del clan**. Mostra il tempo trascorso e quello che resta, quanti alieni volano e quanti sono stati distrutti, che cosa deve fare ora il gruppo (esplorare il labirinto, tenere una zona, trovare il boss, distruggere tre quarti dei Crystalys e dei loro Twin, sconfiggere il Signore della guerra), la barra di tenuta mentre sei in una zona, l’abilità del Signore della guerra con il suo conto alla rovescia e il pulsante **Esci**. È una finestra come le altre: trascinala dalla barra del titolo e chiudila con la luce rossa nel suo angolo. Si apre da sola quando entri in un dungeon, una volta per ogni dungeon: se la chiudi, resta chiusa fino al dungeon successivo. La barra degli strumenti ha un pulsante **Dungeon del clan** per esso finché sei in un dungeon. Mentre la finestra è chiusa, un’abilità del Signore della guerra che sta per iniziare o è in corso compare come una striscia di una riga con il suo nome e il conto alla rovescia. Fai clic sulla striscia per riaprire la finestra.
 
 ## Le fasi {#the-stages}
 
@@ -77,13 +77,13 @@ Un dungeon ha una fase, e la fase è la sua difficoltà. Una fase più alta ha a
 
 Ogni dungeon è un labirinto chiuso su una mappa a sé, una delle mappe dell’elenco qui sopra, e il labirinto è uno di diversi schemi. Il labirinto riempie tutta la mappa, da un bordo all’altro: una griglia di sale e corridoi con pareti piene. Le navi non possono attraversare una parete, e una parete blocca i colpi, quindi è una copertura. Un meteorite cade dall’alto, e una parete non lo ferma.
 
-**Sale e portelli.** La sala di partenza, dove atterri, e la sala del Signore della guerra, all’estremità opposta, hanno ciascuna un portello. Un portello chiuso è un muro per navi, colpi e alieni allo stesso modo. Il portello di partenza si apre quando il dungeon parte. Quello del Signore della guerra resta bloccato finché tre quarti degli alieni non sono distrutti (vedi [La sala chiusa](#the-locked-room)). Tra i due, il labirinto ha una sala del bottino per ogni zona del bottino.
+**Sale e portelli.** La sala di partenza, dove atterri, e la sala del Signore della guerra, all’estremità opposta, hanno ciascuna un portello. Un portello chiuso è un muro per navi, colpi e alieni allo stesso modo. Il portello di partenza si apre quando il dungeon parte. Quello del Signore della guerra resta bloccato finché tre quarti dei Crystalys e dei loro Twin non sono distrutti (vedi [La sala chiusa](#the-locked-room)). Tra i due, il labirinto ha una sala del bottino per ogni zona del bottino.
 
 **Nebbia.** Il labirinto è buio. In volo vedi le sue pareti e i suoi alieni solo dove è stato il gruppo, e per un breve tratto attorno a ogni nave del gruppo. Una sala conta come esplorata appena uno di voi è dentro. La minimappa funziona allo stesso modo: è una mappa dell’intero piano che si riempie man mano che il gruppo lo esplora, con l’ingresso, il portello del Signore della guerra, le zone che avete trovato e il Signore della guerra una volta trovato. I piloti del tuo gruppo sono sempre mostrati.
 
 ## Gli alieni {#the-aliens}
 
-Quattro tipi di alieni custodiscono il labirinto. Dormono in branchi nei corridoi, mai in una sala, e un branco si sveglia quando un pilota si avvicina. Un branco sveglio non ti aspetta: dà la caccia al gruppo attraverso il labirinto, e un branco che perde tutti torna dove dormiva e si cura. Alcuni branchi sono svegli fin dal primo secondo, fermi nei corridoi lontano dall’ingresso, finché un pilota non si avvicina. Il dungeon tiene in aria solo un certo numero di alieni alla volta, e quel numero cresce con la dimensione del gruppo, quindi un branco che si sveglia può dover aspettare posto, e un branco che distruggi fa entrare il successivo. Un gruppo più grande incontra più alieni, in proporzione, uno più piccolo meno, e un tipo di alieno non scende mai sotto uno.
+Quattro tipi di alieni custodiscono il labirinto. Dormono in branchi nei corridoi, mai in una sala, e un branco si sveglia quando un pilota si avvicina. Un branco sveglio non ti aspetta: dà la caccia al gruppo attraverso il labirinto, e un branco che perde tutti torna dove dormiva e si cura. Alcuni branchi sono svegli fin dal primo secondo, fermi nei corridoi lontano dall’ingresso, finché un pilota non si avvicina. Il dungeon tiene in aria solo un certo numero di alieni alla volta, e quel numero cresce con la dimensione del gruppo, quindi un branco che si sveglia può dover aspettare posto, e un branco che distruggi fa entrare il successivo. Un gruppo più grande incontra più alieni, in proporzione, uno più piccolo meno, e un tipo di alieno non scende mai sotto uno. Un branco che sta ancora aspettando posto quando tutti i piloti si sono allontanati torna a dormire, e si risveglia quando un pilota si avvicina di nuovo.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Quattro tipi di alieni custodiscono il labirinto. Dormono in branchi nei corrido
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Insieme | 235 | 235 | 235 |
-| Per aprire la stanza del boss | 177 | 177 | 177 |
+| Per aprire la stanza del boss | 34 | 34 | 34 |
 | L’ondata di una zona del bottino | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys |
 
 - **Vivi contemporaneamente**: Al massimo 10 per ogni pilota del gruppo, e 70 in tutto
@@ -125,7 +125,7 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 - **Ha l’aspetto di**: Pirate Boss
 - **Vola in branchi da**: 2
-- **Razzo**: Un razzo diritto ogni 5 s, gittata 970 unità
+- **Razzo**: Un razzo diritto ogni 5 s, gittata 1.000 unità
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ Lo scafo e lo scudo qui sopra valgono per un gruppo di 5. Crescono con il gruppo
 
 ### La sala chiusa {#the-locked-room}
 
-Il portello della sala del Signore della guerra è chiuso dal momento in cui il dungeon viene aperto, e finché è chiuso il Signore della guerra non può essere ferito: nessun laser, razzo o esplosione lo tocca, e non usa nessuna abilità. Il portello si apre per sempre quando sono stati distrutti **tre quarti degli alieni** con cui il dungeon è stato creato, arrotondati per eccesso (la tabella degli alieni qui sopra li conta per un gruppo di 5). Contano gli alieni dei branchi del labirinto, compresi i branchi che stanno nei corridoi fin dal primo secondo, di tutti e quattro i tipi e chiunque li distrugga. Non contano le ondate delle zone del bottino, i Goombah che il Signore della guerra chiama e il Signore della guerra stesso.
+Il portello della sala del Signore della guerra è chiuso dal momento in cui il dungeon viene aperto, e finché è chiuso il Signore della guerra non può essere ferito: nessun laser, razzo o esplosione lo tocca, e non usa nessuna abilità. Il portello si apre per sempre quando sono stati distrutti **tre quarti dei Crystalys e dei loro Twin** con cui il dungeon è stato creato, arrotondati per eccesso (la tabella degli alieni qui sopra li conta per un gruppo di 5, e la sua ultima riga dice quanti ne servono). Contano i Crystalys e i Twin dei branchi del labirinto, compresi quelli dei branchi che stanno nei corridoi fin dal primo secondo, e chiunque li distrugga. Per il portello non contano gli altri alieni, le ondate delle zone del bottino, i Goombah che il Signore della guerra chiama e il Signore della guerra stesso.
 
-La finestra Dungeon del clan conta quanti alieni restano da distruggere per aprire la sala e dice, in un’etichetta, che il Signore della guerra non può essere ferito, e un messaggio ti avvisa quando la sala viene sbloccata. Un branco che dorme ancora conta per intero, quindi il gruppo deve esplorare il labirinto, ma può lasciare in pace l’ultimo quarto degli alieni. Sulla minimappa il portello è una linea rossa finché è bloccato e una verde quando è aperto. Un dungeon non è mai una trappola: il limite di tempo pone comunque fine a un dungeon il cui portello resta chiuso, e un amministratore può sbloccare la sala di un dungeon in stallo.
+La finestra Dungeon del clan conta quanti di essi restano da distruggere per aprire la sala e dice, in un’etichetta, che il Signore della guerra non può essere ferito, e un messaggio ti avvisa quando la sala viene sbloccata. Un branco che dorme ancora conta per intero, quindi il gruppo deve trovare i Crystalys e i loro Twin nel labirinto. **Gli altri alieni non spariscono quando il portello si apre.** Restano nel labirinto, si svegliano quando un pilota si avvicina e si possono distruggere come prima, quindi un gruppo che lo vuole può distruggerli tutti prima di affrontare il Signore della guerra: il conteggio degli alieni nella finestra arriva fino a tutti gli alieni con cui il dungeon è stato creato, e risulta pieno quando non ne resta nessuno. Non pagano nulla, e quelli ancora vivi quando il Signore della guerra cade se ne vanno con il dungeon. Sulla minimappa il portello è una linea rossa finché è bloccato e una verde quando è aperto. Un dungeon non è mai una trappola: il limite di tempo pone comunque fine a un dungeon il cui portello resta chiuso, e un amministratore può sbloccare la sala di un dungeon in stallo.
 
 ### Le sue abilità {#its-abilities}
 
@@ -212,7 +212,7 @@ La finestra Dungeon del clan conta quanti alieni restano da distruggere per apri
 - **Focus sul più ricercato** segna il pilota che ha inflitto più danno al Signore della guerra, con una parentesi dorata sulla sua nave, e il Signore della guerra gli spara un colpo in più ogni secondo finché dura. La sua mira non cambia: continua a sparare al pilota più vicino che riesce a vedere, quindi un pilota segnato che è anche il più vicino prende entrambi. Il colpo in più richiede una linea libera e la portata del laser del Signore della guerra, quindi una parete o un po’ di distanza lo salva. Non inizia finché nessuno ha inflitto danno.
 - **La Raffica di razzi** manda razzi a ricerca su piloti casuali, ma solo su piloti che il Signore della guerra può vedere, e una parete sulla strada ferma un razzo. Un anello mostra quale pilota un razzo segue. Una EMP Charge o l’occultamento li scrolla di dosso.
 - **Il Supporto dello sciame** è il Signore della guerra che chiama i suoi Goombah. Finché vivono, non può essere ferito, e non spara né usa altre abilità. Distruggili tutti: lo striscione conta quanti ne restano. Se passa un minuto, il Signore della guerra può di nuovo essere ferito e i Goombah rimasti restano a combattere. Non contano per la sala del boss, e non pagano nulla.
-- **La Zona del Caos** è un anello viola sul terreno, attorno al punto in cui si trovava il Signore della guerra quando l’ha lanciata. Nessuno dentro l’anello può attaccare, né con i laser né con i razzi, ma riparazioni, occultamento e volo funzionano ancora, e il Signore della guerra e i suoi alieni sparano come sempre. L’anello compare un attimo prima di fare effetto: esci da esso, e spara dentro da fuori.
+- **La Zona del Caos** è un anello viola sul terreno, attorno al Signore della guerra, e finché dura va dovunque vada il Signore della guerra. Nessuno dentro l’anello può attaccare, né con i laser né con i razzi, ma riparazioni, occultamento e volo funzionano ancora, e il Signore della guerra e i suoi alieni sparano come sempre. L’anello compare un attimo prima di fare effetto: esci da esso e resta fuori, perché segue il Signore della guerra. Un pilota fuori può ancora sparare, fin dove arrivano le sue armi.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ La finestra Dungeon del clan conta quanti alieni restano da distruggere per apri
 | **Aura di furto vitale** | 8.000 al secondo | 10.000 al secondo | 12.000 al secondo |
 | **Pioggia di meteore** | 6 meteoriti per raffica, 40.000 ciascuno | 8 meteoriti per raffica, 50.000 ciascuno | 10 meteoriti per raffica, 60.000 ciascuno |
 | **Focus sul più ricercato** | 18.750–22.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 22.500–26.250 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 30.000–37.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
-| **Raffica di razzi** | 6.500 a razzo, uno ogni 15 s | 8.125 a razzo, uno ogni 15 s | 9.750 a razzo, uno ogni 15 s |
+| **Raffica di razzi** | 26.000 a razzo, uno ogni 15 s | 32.500 a razzo, uno ogni 15 s | 39.000 a razzo, uno ogni 15 s |
 | **Assorbimento dello scudo** | 10.000 di scudo al secondo | 12.500 di scudo al secondo | 15.000 di scudo al secondo |
 | **Supporto dello sciame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare |
@@ -266,7 +266,9 @@ Più piloti nell’anello tengono una zona più in fretta. Quanto ci vuole per t
 
 ### Booster {#boosters}
 
-Alle fasi 2 e 3 le ondate delle zone del bottino portano anche dei booster. Quando il gruppo ha distrutto tutti gli alieni di un’ondata, l’ondata conta, e dopo ogni seconda ondata (la seconda, la quarta e la sesta) ogni pilota riceve una finestra di mezzo minuto per scegliere un booster temporaneo per sé: **Danni** (i tuoi laser colpiscono più forte), **Punti scafo** (la tua nave regge più scafo) o **Velocità** (la tua nave vola più veloce). Premi una carta per sceglierla. Se non rispondi in tempo, il gioco sceglie Punti scafo per te. Una scelta vale il 3% alla fase 3 e l’1,5% alla fase 2, e un tipo si somma fino al 9% alla fase 3 e al 4,5% alla fase 2, per quante volte lo scegli. La fase 1 non ha booster. Un gruppo che lascia viva un’ondata non ottiene la finestra per essa.
+Alle fasi 2 e 3 il gruppo guadagna dei booster distruggendo gli alieni del dungeon. Un booster cade a ogni decimo di essi: quando è stato distrutto un decimo degli alieni, poi due decimi, e così via fino a tutti, dieci cadute in tutto. Conta ogni alieno con cui è stato creato il dungeon, chiunque lo distrugga (è il conteggio degli alieni distrutti nella finestra Dungeon del clan); le ondate delle zone del bottino e gli alieni che chiama il Signore della guerra non contano, quindi una zona non porta alcun booster. A ogni caduta ogni pilota riceve una finestra di mezzo minuto per scegliere un booster temporaneo per sé tra tre che il gioco estrae a caso da cinque: **Danni** (i tuoi laser colpiscono più forte), **Punti scafo** (la tua nave regge più scafo), **Scudo** (il tuo scudo regge di più), **Velocità** (la tua nave vola più veloce) e **Ricarica scudo** (il tuo scudo si ricarica più in fretta). Premi una carta per sceglierla. Se non rispondi in tempo, il gioco sceglie Punti scafo per te, o il primo dei tre se Punti scafo non è tra loro. Una scelta vale il 3% alla fase 3 e l’1,5% alla fase 2, quindi dieci scelte si sommano fino al trenta per cento al massimo alla fase 3 e al quindici per cento alla fase 2, di qualunque tipo siano. La fase 1 non ha booster.
+
+La decima caduta arriva con l’ultimo alieno. Un gruppo che distrugge ogni alieno prima di combattere il Signore della guerra ottiene tutte e dieci le cadute; un gruppo che apre la sala del Signore della guerra e prosegue ottiene le cadute degli alieni che ha distrutto fino a quel momento, e gli alieni rimasti restano e possono ancora essere distrutti. Quando lo scontro con il Signore della guerra è iniziato, non cade più alcun booster.
 
 Un booster dura finché il dungeon non è completato. Se esci dal dungeon, o vieni distrutto, perdi i tuoi booster, e li riottieni quando rientri in volo. Un’etichetta sotto la finestra Dungeon del clan elenca quelli che hai.
 
@@ -285,7 +287,7 @@ Le carte vengono estratte una alla volta dal mazzo qui sotto. La probabilità è
 | Orvium | 200 | 300 | 500 | 13,65% | Ogni pilota pagato |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4% | Ogni pilota pagato |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1% | Ogni pilota pagato |
-| Dark Matter | 5 | 8 | 12 | 9,1% | Ogni pilota pagato |
+| Dark Matter | 10 | 16 | 24 | 9,1% | Ogni pilota pagato |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55% | Ogni pilota pagato |
 | Starfire-III | – | – | 1 | 0,07% | Ogni pilota pagato |
 | Helios Beam | – | – | 1 | 0,07% | Ogni pilota pagato |
@@ -377,7 +379,7 @@ Viene pagata anche la banca del clan, in crediti e non in Thulium, la prima volt
 
 - Elimina l’ondata di una zona prima di provare a tenerla, e combatti dentro l’anello se gli alieni entrano.
 - Porta tutto il gruppo in una zona: più piloti ci sono nell’anello, più in fretta viene tenuta.
-- Esplora il labirinto e distruggi gli alieni che incontri: il portello del Signore della guerra si apre quando tre quarti di loro sono morti, e non prima.
+- Cerca i Crystalys e i loro Twin nel labirinto: il portello del Signore della guerra si apre quando tre quarti di loro sono morti, e non prima. Gli altri alieni possono aspettare, oppure essere distrutti anche loro.
 - Usa le pareti: i laser non le attraversano, gli anelli rossi delle aure del Signore della guerra si fermano contro di esse, e una parete ferma anche i razzi del Signore della guerra.
 - Tieni da parte una EMP Charge per la Raffica di razzi.
 - Quando il Signore della guerra chiama i suoi Goombah, distruggili per primi: non può essere ferito finché non sono spariti. Nella Zona del Caos, esci dall’anello prima di sparare.

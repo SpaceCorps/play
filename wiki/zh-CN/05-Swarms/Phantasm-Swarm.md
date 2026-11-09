@@ -74,7 +74,7 @@ Boss Phantasm 的奖励与这场战斗的分量相称：与它战斗一分钟的
 | Standard Battery | 100% | 600–1,200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 4–6 |
+| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 4–6 |
 
 ### Phantasm Guard
 

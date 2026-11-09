@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
-Les roquettes sont une seconde arme à côté de vos lasers : un tir toutes les quelques secondes, qui frappe bien plus fort qu’une salve laser. Douze roquettes en quatre types, de trois gammes chacun, deux autres que seul l’Assemblage fabrique, et **un seul minuteur de rechargement de 3 secondes que toutes partagent**, quelle que soit celle que vous tirez (les deux que seul l’Assemblage fabrique attendent un peu plus, à cause de leur long vol). Les roquettes communes et rares s’achètent avec des **crédits** ; les quatre roquettes épiques s’achètent avec du **Thulium**. Une [formation de drones](/wiki/03-Mechanics/Formations.md) peut augmenter les dégâts d’une roquette et allonger ou raccourcir ce minuteur : voir [Formations de drones et roquettes](#drone-formations-and-rockets).
+Les roquettes sont une seconde arme à côté de vos lasers  un tir toutes les quelques secondes, qui frappe bien plus fort qu’une salve laser. Douze **roquettes normales** en quatre types, de trois gammes chacun, partagent **un seul minuteur de rechargement de 3 secondes**, que fixe le lance-roquettes de votre vaisseau. Douze **roquettes spéciales**, qui font autre chose que des dégâts, partagent **un minuteur de 5 secondes** qui leur est propre, et chacune attend aussi le sien. Seules les quatre roquettes communes, Flares et Ricochet s’achètent, avec des **crédits**  toute autre roquette est fabriquée à l’Assemblage. Une [formation de drones](/wiki/03-Mechanics/Formations.md) peut augmenter les dégâts d’une roquette et allonger ou raccourcir le minuteur normal  voir [Formations de drones et roquettes](#drone-formations-and-rockets).
 
 ## En une minute {#in-one-minute}
 
-- **Douze roquettes à acheter.** Quatre types (Lancet, Rivet, Ember, Scatter), trois gammes chacun. Les communes et les rares coûtent des crédits, les épiques du Thulium. Deux autres roquettes, la N.U.K.E. et la N.I.K.E., sont fabriquées à l’Assemblage.
+- **Douze roquettes normales.** Quatre types (Lancet, Rivet, Ember, Scatter), de trois gammes chacun. Seule la gamme I se vend, 1 000 crédits  les gammes II et III sont fabriquées à l’Assemblage avec 100 roquettes de la gamme inférieure.
 - **Chaque roquette tire ses dégâts au sort.** Au moment du tir, le jeu choisit un nombre entre les dégâts les plus bas et les plus hauts de la roquette (une Lancet I : de 1 700 à 2 100). Votre vaisseau, vos lasers, vos amplis et vos boosters n’y changent rien, seule une formation de drones le fait. Les roquettes que tirent les aliens ne font pas de jet : elles infligent un nombre fixe ([Contre les aliens](#against-the-aliens)).
 - **Les explosions sont plus fortes au milieu.** Les roquettes Ember et Scatter éclatent et blessent tous les vaisseaux dans l’anneau : le nombre entier au centre, la moitié au bord.
-- **Un seul minuteur pour toutes.** Après un tir, vous attendez 3 secondes avant le suivant, quelle que soit la roquette. Seules la N.U.K.E. et la N.I.K.E. vous font attendre plus longtemps (4,1 et 4,6 secondes), parce qu’elles restent aussi longtemps en l’air.
+- **Deux sortes de minuteur.** Les roquettes normales en partagent un  3 secondes après tout tir, ou, avec un **Lance-roquettes II à V**, une série de 2 à 5 roquettes à 0,15 seconde d’intervalle, puis 5 secondes ([Tirer](#firing)). Les roquettes spéciales en partagent un autre de 5 secondes qu’aucun lance-roquettes ne change, et chacune attend aussi le sien, de 3 secondes à 2 minutes ([Roquettes spéciales](#special-rockets)).
+- **Douze roquettes spéciales.** Elles gèlent, brouillent, empoisonnent ou marquent un vaisseau, brisent les boucliers ou les verrouillages, soignent vos amis, rebondissent sur un second vaisseau ou ouvrent un petit trou noir à votre curseur. La N.U.K.E. et la N.I.K.E. en font partie.
 - **Guidée ou droite.** Une roquette guidée (Lancet, Ember) a besoin d’une cible que vous avez sélectionnée. Une droite (Rivet, Scatter) vole vers votre curseur.
 - **D’autres objets se portent comme une roquette.** L’**EMP Charge** est un consommable : une pile dans votre inventaire, utilisée depuis la barre rapide, sans emplacement ([EMP Charge](#emp-charge)). Les deux **Energetic Wall** aussi ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Les roquettes sont une seconde arme à côté de vos lasers : un tir toutes les
 Ce que fabrique l’Assemblage exige d’abord sa technologie ; pointez un objet pour voir combien de temps sa recherche prend. L’arbre des technologies, le carburant et le boost : [Recherche](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Chaque roquette a **ses propres dégâts, déterminés par un jet au moment du t
 
 | Nom | Type | Rareté | Dégâts | Moyenne | Pénétration de bouclier | Rayon d’explosion | Portée de verrouillage | Portée | Vitesse | Prix | Maximum transportable |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guidée, cible unique | Commun | 1 700–2 100 | 1 900 | 10 % | – | 700 | 1 040 | 520 | 500 crédits | 5 000 |
-| **Lancet II** | Guidée, cible unique | Rare | 3 500–4 200 | 3 850 | 25 % | – | 1 000 | 1 584 | 660 | 800 crédits | 2 000 |
-| **Lancet III** | Guidée, cible unique | Épique | 5 200–6 200 | 5 700 | 35 % | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Droite, cible unique | Commun | 2 200–2 700 | 2 450 | 5 % | – | – | 1 080 | 900 | 500 crédits | 5 000 |
-| **Rivet II** | Droite, cible unique | Rare | 4 500–5 250 | 4 875 | 25 % | – | – | 1 120 | 700 | 800 crédits | 2 000 |
-| **Rivet III** | Droite, cible unique | Épique | 7 000–8 000 | 7 500 | 35 % | – | – | 1 100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guidée, explosion de zone | Commun | 1 200–1 400 | 1 300 | – | 255 | 700 | 1 000 | 500 | 500 crédits | 5 000 |
-| **Ember II** | Guidée, explosion de zone | Rare | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 800 crédits | 2 000 |
-| **Ember III** | Guidée, explosion de zone | Épique | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Droite, explosion de zone | Commun | 1 500–1 750 | 1 625 | – | 315 | – | 1 088 | 640 | 500 crédits | 5 000 |
-| **Scatter II** | Droite, explosion de zone | Rare | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 800 crédits | 2 000 |
-| **Scatter III** | Droite, explosion de zone | Épique | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Guidée, cible unique | Commun | 3 500–4 200 | 3 850 | 25 % | – | 1 000 | 1 584 | 660 | 1 000 crédits | 5 000 |
+| **Lancet II** | Guidée, cible unique | Rare | 5 200–6 200 | 5 700 | 35 % | – | 1 300 | 2 296 | 820 | Fabriquée avec 100 Lancet I | 2 000 |
+| **Lancet III** | Guidée, cible unique | Épique | 7 300–8 700 | 8 000 | 35 % | – | 1 300 | 2 296 | 820 | Fabriquée avec 100 Lancet II | 500 |
+| **Rivet I** | Droite, cible unique | Commun | 4 500–5 250 | 4 875 | 25 % | – | – | 1 120 | 700 | 1 000 crédits | 5 000 |
+| **Rivet II** | Droite, cible unique | Rare | 7 000–8 000 | 7 500 | 35 % | – | – | 1 100 | 500 | Fabriquée avec 100 Rivet I | 2 000 |
+| **Rivet III** | Droite, cible unique | Épique | 9 800–11 200 | 10 500 | 35 % | – | – | 1 100 | 500 | Fabriquée avec 100 Rivet II | 500 |
+| **Ember I** | Guidée, explosion de zone | Commun | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 1 000 crédits | 5 000 |
+| **Ember II** | Guidée, explosion de zone | Rare | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | Fabriquée avec 100 Ember I | 2 000 |
+| **Ember III** | Guidée, explosion de zone | Épique | 4 900–6 300 | 5 600 | – | 495 | 1 150 | 2 030 | 700 | Fabriquée avec 100 Ember II | 500 |
+| **Scatter I** | Droite, explosion de zone | Commun | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 1 000 crédits | 5 000 |
+| **Scatter II** | Droite, explosion de zone | Rare | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | Fabriquée avec 100 Scatter I | 2 000 |
+| **Scatter III** | Droite, explosion de zone | Épique | 6 300–7 700 | 7 000 | – | 660 | – | 1 092 | 420 | Fabriquée avec 100 Scatter II | 500 |
 
 Plus la gamme est chère, plus la roquette frappe fort, plus elle porte loin, plus elle a de pénétration de bouclier et moins vous pouvez en emporter ; les chères donnent aussi le plus de dégâts pour leur prix. Une roquette droite inflige d’un quart à un tiers de plus que la roquette guidée de même gamme et de même type pour le même prix (23 à 32 % en moyenne), parce qu’il faut la viser. Une explosion inflige environ les deux tiers de la roquette à cible unique de sa gamme et de son type (66 à 70 % en moyenne : une Ember face à une Lancet, une Scatter face à une Rivet), à tous les vaisseaux qu’elle couvre. Les dégâts d’une explosion sont pleins au centre et retombent en ligne droite à **la moitié au bord** : un vaisseau dont la coque est à mi-chemin du bord subit 75 %, et un vaisseau dont la coque est hors de l’anneau ne subit rien. Un tir inflige en moyenne le milieu de sa fourchette, soit 89 à 94 % de son nombre maximal, et le tableau qui compte les roquettes plus bas s’en sert.
 
 ## Ce qu’elles coûtent {#what-they-cost}
 
-Une roquette commune coûte 500 crédits, une rare 800 crédits et une épique 5 Thulium, quel que soit le type. Tirée dès que le minuteur le permet, cela fait 10 000 crédits par minute pour une roquette commune, 16 000 pour une rare et 100 Thulium pour une épique, contre les 900 crédits par minute que brûlent les trois lasers d’un Ostirion en x1. Un stock plein, c’est 5 000 roquettes communes (2 500 000 crédits), 2 000 rares (1 600 000 crédits) ou 500 épiques (2 500 Thulium) : vous en achetez autant que vous voulez jusque-là, et le *maximum transportable* d’une roquette est la seule limite au nombre que vous en détenez. À la réinitialisation, vous gardez sans rien faire jusqu’à 1 000 de chacune des douze roquettes ; au-delà, et pour chaque N.U.K.E. et N.I.K.E., il faut la cache de transport, où une roquette pèse 1 kg (une N.U.K.E. ou une N.I.K.E. 250 kg) : voir [la réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Une roquette toutes les 3 secondes, ce n’est que vingt par minute, donc une roquette est un pic de puissance en plus de vos lasers : les bon marché pour les aliens faibles, les chères pour les gros combats. Ce que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#limits) et les lots que vous y menez comptent dans cette limite quand vous achetez une roquette ou enchérissez dessus. Ce sont les chiffres de base : la recherche Pilote Sealed Backdoor ([Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies)) relève pour vous la limite de chaque roquette, de 25 %, 50 %, 100 %, 150 % ou 200 % au total, arrondi à l’inférieur, si bien que 5 000 deviennent 6 250 au niveau I et 15 000 au niveau V.
+Une roquette commune (gamme I) coûte 1 000 crédits à la boutique, dans tous les types. Les roquettes rares (gamme II) et épiques (gamme III) ne se vendent pas  l’Assemblage les fabrique, 100 à la fois, avec 100 roquettes de la gamme inférieure (un lot de rares coûte en plus 50 000 crédits et 200 Thulium, un lot d’épiques 150 000 crédits et 800 Thulium, avec quelques matériaux  la boutique et l’Assemblage disent le reste). Tirée à chaque minuteur, une roquette commune représente 20 000 crédits par minute, contre les 900 crédits par minute que brûlent à x1 les trois lasers d’un Ostirion. Un stock plein, c’est 5 000 roquettes communes (5 000 000 de crédits), 2 000 rares ou 500 épiques  vous en achetez autant que vous voulez jusque-là, et le *maximum transportable* d’une roquette est la seule limite au nombre que vous en détenez. À la réinitialisation, vous gardez sans rien faire jusqu’à 1 000 de chacune des douze roquettes ; au-delà, et pour chaque N.U.K.E. et N.I.K.E., il faut la cache de transport, où une roquette pèse 1 kg (une N.U.K.E. ou une N.I.K.E. 250 kg) : voir [la réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Une roquette toutes les 3 secondes, ce n’est que vingt par minute, donc une roquette est un pic de puissance en plus de vos lasers : les bon marché pour les aliens faibles, les chères pour les gros combats. Ce que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#limits) et les lots que vous y menez comptent dans cette limite quand vous achetez une roquette ou enchérissez dessus. Ce sont les chiffres de base : la recherche Pilote Sealed Backdoor ([Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies)) relève pour vous la limite de chaque roquette, de 25 %, 50 %, 100 %, 150 % ou 200 % au total, arrondi à l’inférieur, si bien que 5 000 deviennent 6 250 au niveau I et 15 000 au niveau V.
 
-La boutique liste les roquettes un type à la fois, chacune sous son nom, la roquette commune en premier et l’épique en dernier ; le hangar, la cache de transport et le sélecteur de roquettes suivent le même ordre.
+La boutique vend les quatre roquettes communes, un type à la fois, puis Flares et Ricochet  le hangar, le Cache de transport et le sélecteur de roquettes listent de même les douze roquettes normales, chaque type sous son nom, la commune d’abord et l’épique en dernier, puis les roquettes spéciales.
 
 ## Contre les aliens {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Le nombre de roquettes nécessaires pour détruire un alien, chaque type de roqu
 
 | Roquettes nécessaires | Seeker (1 600) | Phantasm (5 200) | Bulwark (26 000) | Goombah (80 000) | Crystalys (416 000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - Les roquettes **communes** à cible unique détruisent un Seeker en un coup quel que soit le jet et un Phantasm en trois (une Lancet I en demande une quatrième à son jet le plus bas) ; ce sont les roquettes de tous les jours des premiers secteurs. Les **rares** sont pour le Bulwark et le Goombah : sept roquettes Lancet II viennent à bout d’un Bulwark en environ 20 secondes de minuteur. Les **épiques** à cible unique détruisent un Goombah en huit (Rivet III) à onze (Lancet III). Les explosions valent leur prix quand plusieurs aliens sont proches les uns des autres : une Scatter III qui éclate sur une meute de cinq Phantasms (tous à moins de 250 unités de la cible que vous avez visée) inflige environ 22 000 dégâts à la meute en un seul tir.
 - Une élimination aux seules roquettes est une vraie dépense, pas un moyen de s’enrichir : une roquette à cible unique coûte de 15 % (une Rivet II sur un Phantasm) à 95 % (une Lancet I sur un Crystalys) de ce que rapporte l’élimination (en crédits, et en Thulium à 200 crédits l’unité), et les explosions faibles sur les aliens forts coûtent plus que ce que l’élimination rapporte (une Ember I sur un Bulwark : 120 %). Détruire le **Crystalys** avec un seul type exige de 56 à 352 roquettes et près de trois minutes de minuteur ; un stock plein de 500 roquettes épiques suffit pour en détruire de quatre à huit. L’alien le plus fort demande un plan : vos lasers avec des munitions x2, une roquette de gamme moyenne toutes les 3 secondes dès la première seconde, et les grosses roquettes décrites plus bas comme pic de puissance.
@@ -126,14 +137,36 @@ Deux roquettes ne sont pas en boutique. **L’Assemblage** les fabrique, et elle
 - **Le piège.** Une N.I.K.E. qui rencontre un vaisseau en chemin, un rival qui attend sur la ligne de tir ou tout ce qu’elle peut blesser, lui inflige 67 500 à 75 000 dégâts et disparaît : le trou noir n’obtient rien, et vous non plus. Rien d’autre ne rôde à l’intérieur de l’anneau du trou qu’elle pourrait toucher par accident (les aliens et les pilotes de corporation s’en tiennent à l’écart) : seulement des pilotes venus chercher de la Dark Matter, ou qui vous attendent au bord. Elle traverse votre propre corporation, les vaisseaux en zone sûre et ceux que vous n’avez pas encore le droit de blesser. Si vous quittez la carte après l’avoir tirée, elle poursuit sa route sans blesser personne et produit quand même votre Dark Matter.
 - L’Assemblage ne lance pas une fabrication qui vous ferait dépasser le *maximum transportable* d’une roquette, en comptant ce que vous avez en file. Sealed Backdoor relève aussi leurs limites (10 deviennent 12 et 20 deviennent 25 au niveau I, 30 et 60 au niveau V).
 
+## Roquettes spéciales {#special-rockets}
+
+Les roquettes spéciales font des choses qu’un chiffre de dégâts ne dit pas. Elles partagent **un minuteur de 5 secondes** (aucun lance-roquettes ne le change), et chacune attend aussi **le sien**, de 3 secondes à 2 minutes  le minuteur des roquettes normales est à part, si bien qu’une roquette normale et une spéciale peuvent partir ensemble. L’Assemblage les fabrique, sauf Flares et Ricochet, que la boutique vend (l’arbre d’objets ci-dessus donne toutes les recettes). La N.U.K.E. et la N.I.K.E. ci-dessus sont aussi des roquettes spéciales, et la N.U.K.E. n’a pas de minuteur propre. Le CPU de roquettes automatique et les lance-roquettes ne tirent que des roquettes normales.
+
+| Nom | Type | Effet | Minuteur propre | Maximum transportable |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Guidée, cible unique | Une roquette guidée qui ne fait aucun dégât : le vaisseau touché est gelé et vole 60 % plus lentement pendant quatre secondes. | 30 s | 50 |
+| **EMP Rocket** | Guidée, cible unique | Une roquette guidée qui ne fait aucun dégât : le vaisseau touché subit l’effet d’une Charge EMP pendant trois secondes. | 30 s | 50 |
+| **Shield Breaker** | Droite, cible unique | Une roquette rapide et non guidée conçue pour les boucliers : 25 000 au bouclier et 5 000 à la coque, mais tant qu’il reste du bouclier, elle ne touche que lui. | 15 s | 50 |
+| **Toxic Rocket** | Guidée, cible unique | Une roquette guidée qui ne fait aucun dégât propre : le vaisseau touché est empoisonné cinq secondes et perd chaque seconde un demi pour cent de ses points de vie effectifs (coque et bouclier ensemble), prélevés sur la coque. | 20 s | 50 |
+| **Marking Rocket** | Guidée, cible unique | Une roquette guidée qui ne fait aucun dégât : le vaisseau touché est marqué cinq secondes et subit 20 % de dégâts en plus de toutes les sources. | 30 s | 50 |
+| **Cooldown Rocket** | Guidée, cible unique | Une roquette guidée qui ne fait aucun dégât : pendant huit secondes, les objets à minuteur du vaisseau touché se rechargent à moitié vitesse. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Droite, explosion de zone | Une N.U.K.E. reconstruite autour d’un noyau effondré. Elle se pose au curseur et ouvre pendant quinze secondes un petit trou noir qui attire vaisseaux et roquettes guidées. Une seule peut exister par carte. Seul l’Assemblage la fabrique, et elle ne peut jamais être vendue aux Enchères. | 120 s | 5 |
+| **Support Rocket** | Droite, explosion de zone | Posée au curseur : elle soigne tout vaisseau allié de sa zone de 40 % de sa coque et de son bouclier. | 120 s | 20 |
+| **Flares** | Droite, cible unique | Lancés depuis votre propre vaisseau : ils brisent toutes les roquettes guidées verrouillées sur vous. | 60 s | 20 |
+| **Ricochet** | Droite, cible unique | Une roquette rapide et non guidée qui frappe comme une Rivet II et, après son premier impact, rebondit sur un second vaisseau avec 75 % des dégâts. | 3 s | 500 |
+
+- Un second coup du même genre renouvelle un gel, un brouillage, un poison, une marque ou un refroidissement ralenti, sans jamais s’additionner au premier. Les dégâts de la Toxic Rocket sont ceux du tireur  une élimination par le poison lui revient.
+- La N.U.K.E. gravitationnelle et la Support Rocket se **posent à votre curseur**  elles volent jusqu’au point qui s’y trouve, ou aussi loin qu’elles portent, et la fusée d’aucun vaisseau ne les déclenche. Un seul puits gravitationnel peut exister sur une carte  un second tir est refusé, et rien n’est dépensé.
+
 ## Tirer {#firing}
 
-1. Achetez des roquettes à la boutique (la catégorie **Roquettes**), jusqu’au *maximum transportable* de chacune : des crédits pour les communes et les rares, du Thulium pour les épiques.
-2. Ouvrez **Roquettes** au-dessus de la barre rapide, et faites glisser celles que vous voulez sur des emplacements. Le sélecteur affiche une colonne par type et une ligne par gamme, avec ce que vous portez de chacune. Dessous se trouve une ligne à part, **Spéciales · Assemblage seul**, pour la N.U.K.E. et la N.I.K.E. (un petit marteau marque celle dont vous ne portez aucune).
+1. Achetez les roquettes communes à la boutique (la catégorie **Roquettes**), jusqu’au *maximum transportable* de chacune, en crédits  fabriquez les rares et les épiques à l’Assemblage avec 100 de la gamme inférieure.
+2. Ouvrez **Roquettes** au-dessus de la barre rapide, et faites glisser celles que vous voulez sur des emplacements. Le sélecteur affiche une colonne par type et une ligne par gamme, avec ce que vous portez de chacune. Dessous se trouvent les **roquettes spéciales**, quatre par ligne (un petit marteau marque une roquette à fabriquer dont vous ne portez aucune).
 3. Appuyez sur la touche de l’emplacement. Cliquer sur l’emplacement d’une roquette **guidée** la tire sur votre cible sélectionnée ; cliquer sur celui d’une roquette **droite** l’arme, et votre prochain clic dans l’espace la tire là. La touche **Tirer roquette** (`R` par défaut, reconfigurable dans Paramètres › Commandes) tire la roquette que vous avez tirée en dernier, ou la première de la barre.
-4. Un balayage circulaire recouvre **chaque** emplacement de roquette pendant les 3 secondes qui précèdent le prochain lancement (4,1 après une N.U.K.E., 4,6 après une N.I.K.E.), avec les secondes restantes au centre. Un appui avant la fin vous indique seulement que les roquettes se rechargent (un appui dans le dernier dixième de seconde tire quand même). Une formation de drones peut fixer l’attente entre 2,19 et 4,05 secondes (voir plus bas).
+4. Un balayage circulaire recouvre chaque emplacement de roquette pendant le minuteur que cette roquette attend  3 secondes pour une roquette normale (5 avec un lance-roquettes), et pour une spéciale le plus long des 5 secondes et du sien, avec les secondes restantes au centre. Un appui avant la fin vous indique seulement que les roquettes se rechargent (un appui dans le dernier dixième de seconde tire quand même). Une formation de drones peut fixer le minuteur normal entre 2,19 et 4,05 secondes (voir plus bas).
 
 Survolez un emplacement de roquette pour voir ses chiffres (ses dégâts les plus bas et les plus hauts ; la boutique et le hangar indiquent la même chose) et, dans le monde, son anneau de verrouillage (vert quand la cible sélectionnée est à portée) ou sa ligne et son cercle d’explosion. Une roquette verrouillée sur **vous** fait clignoter le bord de votre écran en rouge.
+
+**Lance-roquettes.** Un lance-roquettes II à V se garde dans votre hangar comme le CPU de roquettes automatique, n’occupe aucun emplacement et fonctionne sur tous les vaisseaux (le meilleur que vous possédez compte). Un appui sur une roquette normale en tire alors 2, 3, 4 ou 5 du stock, à 0,15 seconde d’intervalle, puis les roquettes normales attendent 5 secondes. L’Assemblage les fabrique après leur recherche (de 8 à 24 heures, avec de 150 000 à 2 000 000 de Thulium et des matériaux  l’arbre d’objets des [Extras](/wiki/06-Items/Extras.md) les liste).
 
 La **N.U.K.E.** dessine son explosion sur la carte avant que vous ne tiriez (le cercle de 1 350 unités au point visé) et, quand elle éclate, un flash blanc sur la vue, un anneau qui s’étend jusqu’à la portée exacte en une seconde environ et reste deux secondes de plus, un nuage qui s’élève comme un champignon, et une secousse de la caméra d’autant plus forte que vous êtes près. **Réduire les tremblements de l’écran** supprime la secousse, et **Réduire les animations** raccourcit le flash à un tiers de seconde, à moins de la moitié de sa lumière (les deux se trouvent dans les Paramètres, sous Graphismes) ; une qualité de particules plus basse rend le nuage plus clairsemé et supprime les étincelles, jamais le flash ni l’anneau. La **N.I.K.E.** se vise comme une Rivet I, par la ligne qui va de votre vaisseau au curseur, et le jeu ne la refuse jamais parce que vous êtes loin du trou noir ou sur une carte qui n’en a pas : c’est à vous de juger où elle va. Sa carte indique **Trou noir : Produit de la Dark Matter** à côté de ses dégâts. Elle laisse une traînée violette avec des étincelles qui s’enroulent autour ; un vaisseau qu’elle rencontre prend le coup comme avec n’importe quelle roquette, et quand elle franchit l’horizon à la place, le trou s’embrase.
 
@@ -142,7 +175,7 @@ La **N.U.K.E.** dessine son explosion sur la carte avant que vous ne tiriez (le 
 Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule chose qui change une roquette. Tous les chiffres de dégâts de cette page sont ceux d’un vaisseau sans formation.
 
 - **Dégâts.** Le bonus de roquettes de Ballista (+55 %), Bodkin (+29 %) et Asterism (+24 %) multiplie les dégâts des 14 roquettes, N.U.K.E. et N.I.K.E. compris. Le prix de tous les dégâts de Testudo compte aussi sur les roquettes, et les dégâts aux aliens de Culler comptent sur une roquette qui touche un alien. Tous les facteurs d’une roquette ensemble s’arrêtent à ×1,59. Le bonus compte contre un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) comme contre un vaisseau, et le blindage de l’astéroïde se retranche après lui.
-- **Rechargement.** Asterism allonge le minuteur commun de 35 % (4,05 secondes), Cordon de 11 % (3,33) et Redoubt le raccourcit de 27 % (2,19), mais jamais en dessous du vol de la roquette plus un instant. Sous Redoubt, les roquettes rapides (Lancet I, Rivet I et II, Ember I, Scatter I et II) attendent les 2,19 secondes, une Rivet III attend 2,3, une Lancet III 2,9 et une Ember III les 3 pleines ; la N.U.K.E. et la N.I.K.E. attendent 4,1 et 4,6 secondes, quelle que soit la formation. L’attente est fixée au tir, donc changer de formation ensuite ne la raccourcit pas, et le balayage sur les emplacements de roquette la suit.
+- **Rechargement.** Asterism allonge le minuteur des roquettes normales de 35 % (4,05 secondes), Cordon de 11 % (3,33) et Redoubt le raccourcit de 27 % (2,19), mais jamais en dessous du vol de la roquette plus un instant. Sous Redoubt, les roquettes rapides (Lancet I, Rivet I et II, Ember I, Scatter I et II) attendent les 2,19 secondes, une Rivet III 2,3, une Lancet III 2,9 et une Ember III les 3 pleines. L’attente est fixée au tir  changer de formation ensuite ne la raccourcit pas, et le balayage sur les emplacements de roquette la suit. Les minuteurs des roquettes spéciales ne changent avec aucune formation.
 - **Les limites des deux grosses tiennent.** Avec la meilleure formation, une N.I.K.E. frappe jusqu’à 116 250, ce qu’un Paragon intact (128 000) survit, et une N.U.K.E. jusqu’à 77 500, ce qu’un Goombah (80 000) survit.
 - **Esquive.** Les 7 % d’esquive d’Asterism donnent à une roquette directe qui vous touche 7 % de chances de ne faire aucun dégât, et un « Raté » flottant s’affiche au-dessus de votre vaisseau ; une explosion de zone ne vise pas et n’est jamais esquivée.
 - **Pénétration.** Gemini ajoute ses 15 points, et Stiletto ses 35 points de pénétration de roquettes, à la pénétration de bouclier d’une roquette directe (une explosion n’en a pas), sans plafond : une Lancet III avec un Stiletto fait 70 %, avec Gemini 50 %. Un tir laser ajoute ceux de Gemini de la même façon à celles de ses munitions et de ses amplis, et ne reçoit rien de ceux du Stiletto ([Lasers et munitions](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Une [formation de drones](/wiki/03-Mechanics/Formations.md) portée est la seule
 - Seul le **coup direct** d’une roquette revendique un alien (voir [Combat](/wiki/03-Mechanics/Combat.md)) ; le bord d’une explosion peut blesser un alien revendiqué sans le lui prendre. Tout alien qu’une explosion blesse, même endormi, se retourne contre vous, comme avec un tir laser (un Seeker ou un Goombah, qui ne font que riposter, compris) ; celui que l’explosion manque reste endormi.
 - Le minuteur est le vôtre : il survit à un saut, à une reconnexion, à un changement de vaisseau et à un vaisseau détruit.
 
-Les douze roquettes du premier tableau s’achètent (des crédits pour les communes et les rares, du Thulium pour les épiques) ; la N.U.K.E. et la N.I.K.E. se fabriquent.
+Seules les roquettes communes du premier tableau, Flares et Ricochet s’achètent (en crédits)  toute autre roquette est fabriquée à l’Assemblage.
 
 Voir aussi : [Lasers et munitions](/wiki/06-Items/Lasers.md), [Combat](/wiki/03-Mechanics/Combat.md), [Le trou noir](/wiki/03-Mechanics/Black-Hole.md).
 

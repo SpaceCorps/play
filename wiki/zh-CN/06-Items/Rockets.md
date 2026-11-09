@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: 火箭 -->
 # 火箭 {#rockets}
 
-火箭是激光之外的第二种武器：每隔几秒发射一枚，威力远超一轮激光齐射。共有十二种火箭，分为四种类型、每种三个档次，另有两种只能在装配站制造的火箭，以及**所有火箭共用的一个 3 秒装填计时器**，无论你发射哪一种（只能在装配站制造的两种火箭因为飞行时间长，要多等一会儿）。普通和稀有火箭用**信用点**购买；四种史诗火箭用 **Thulium** 购买。[无人机编队](/wiki/03-Mechanics/Formations.md)可以提高火箭的伤害，也能让这个计时器变长或变短（见[无人机编队与火箭](#drone-formations-and-rockets)）。
+火箭是激光之外的第二种武器：每隔几秒发射一枚，威力远超一轮激光齐射。十二种**普通火箭**分为四种类型、每种三个档次，共用**一个 3 秒装填计时器**，由飞船的火箭发射器决定。十二种**特殊火箭**不只是造成伤害，它们共用**自己的一个 5 秒计时器**，每种还要等待自己的计时器。只有四种普通火箭、Flares 和 Ricochet 可以用**信用点**购买；其他火箭都在装配站制造。[无人机编队](/wiki/03-Mechanics/Formations.md)可以提高火箭的伤害，也能让普通计时器变长或变短（见[无人机编队与火箭](#drone-formations-and-rockets)）。
 
 ## 一分钟了解 {#in-one-minute}
 
-- **可以购买的十二种火箭。** 四个类型（Lancet、Rivet、Ember、Scatter），每个三档。普通和稀有火箭用信用点购买，史诗火箭用 Thulium 购买。另外两种火箭 N.U.K.E. 和 N.I.K.E. 在装配站制造。
+- **十二种普通火箭。** 四种类型（Lancet、Rivet、Ember、Scatter），每种三个档次。只出售第 I 档，1,000 信用点；第 II、III 档在装配站用下一档的 100 枚火箭制造。
 - **每枚火箭发射时随机决定伤害。** 发射时，游戏会在这枚火箭的最低伤害和最高伤害之间选出一个数值（Lancet I 为 1,700 到 2,100）。你的舰船、激光、增幅器和增益都不会改变它，只有无人机编队会。外星人发射的火箭不会随机，它们造成固定数值的伤害（见[对付外星人](#against-the-aliens)）。
 - **爆炸中心最强。** Ember 和 Scatter 火箭会爆裂，伤害圆环内的每一艘舰船：中心处是完整数值，边缘处是一半。
-- **所有火箭共用一个计时器。** 无论发射哪种火箭，发射之后都要等 3 秒才能发射下一枚。只有 N.U.K.E. 和 N.I.K.E. 要等得更久（4.1 秒和 4.6 秒），因为它们在空中飞得那么久。
+- **两种计时器。** 普通火箭共用一个：任何一次发射后等 3 秒；有**火箭发射器 II 至 V** 时，则是间隔 0.15 秒连发 2 至 5 枚，然后等 5 秒（见[发射](#firing)）。特殊火箭共用另一个 5 秒计时器，任何发射器都不会改变它，每种还要等待自己的计时器，从 3 秒到 2 分钟不等（见[特殊火箭](#special-rockets)）。
+- **十二种特殊火箭。** 它们能冻结、干扰、毒害或标记飞船，击碎护盾或锁定，治疗友军，跳向第二艘飞船，或在光标处开启一个小黑洞。N.U.K.E. 和 N.I.K.E. 是其中两种。
 - **制导或直射。** 制导火箭（Lancet、Ember）需要你选中的目标。直射火箭（Rivet、Scatter）飞向你的光标。
 - **还有几样东西像火箭一样携带。** **EMP Charge** 是消耗品：物品栏里的一个堆叠，从快捷栏使用，不占槽位（[EMP Charge](#emp-charge)）。两道 **Energetic Wall** 也是（[Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)）。
 
@@ -21,28 +22,38 @@
 装配站制造的东西要先有对应的科技；将指针悬停在物品上可看到研究所需的时间。科技树、燃料和加速见 [研究](/wiki/03-Mechanics/Research.md)。
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Energetic Wall I -> Energetic Wall II
 
 | 名称 | 类型 | 稀有度 | 伤害 | 平均 | 护盾穿透 | 爆炸半径 | 锁定范围 | 射程 | 速度 | 价格 | 最多携带 |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | 制导 · 单体 | 普通 | 1,700–2,100 | 1,900 | 10% | – | 700 | 1,040 | 520 | 500 信用点 | 5,000 |
-| **Lancet II** | 制导 · 单体 | 稀有 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 800 信用点 | 2,000 |
-| **Lancet III** | 制导 · 单体 | 史诗 | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | 直射 · 单体 | 普通 | 2,200–2,700 | 2,450 | 5% | – | – | 1,080 | 900 | 500 信用点 | 5,000 |
-| **Rivet II** | 直射 · 单体 | 稀有 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 800 信用点 | 2,000 |
-| **Rivet III** | 直射 · 单体 | 史诗 | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 5 Thulium | 500 |
-| **Ember I** | 制导 · 范围爆炸 | 普通 | 1,200–1,400 | 1,300 | – | 255 | 700 | 1,000 | 500 | 500 信用点 | 5,000 |
-| **Ember II** | 制导 · 范围爆炸 | 稀有 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 800 信用点 | 2,000 |
-| **Ember III** | 制导 · 范围爆炸 | 史诗 | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | 直射 · 范围爆炸 | 普通 | 1,500–1,750 | 1,625 | – | 315 | – | 1,088 | 640 | 500 信用点 | 5,000 |
-| **Scatter II** | 直射 · 范围爆炸 | 稀有 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 800 信用点 | 2,000 |
-| **Scatter III** | 直射 · 范围爆炸 | 史诗 | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | 制导 · 单体 | 普通 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 1,000 信用点 | 5,000 |
+| **Lancet II** | 制导 · 单体 | 稀有 | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 用 100 枚 Lancet I 制造 | 2,000 |
+| **Lancet III** | 制导 · 单体 | 史诗 | 7,300–8,700 | 8,000 | 35% | – | 1,300 | 2,296 | 820 | 用 100 枚 Lancet II 制造 | 500 |
+| **Rivet I** | 直射 · 单体 | 普通 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 1,000 信用点 | 5,000 |
+| **Rivet II** | 直射 · 单体 | 稀有 | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 用 100 枚 Rivet I 制造 | 2,000 |
+| **Rivet III** | 直射 · 单体 | 史诗 | 9,800–11,200 | 10,500 | 35% | – | – | 1,100 | 500 | 用 100 枚 Rivet II 制造 | 500 |
+| **Ember I** | 制导 · 范围爆炸 | 普通 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 1,000 信用点 | 5,000 |
+| **Ember II** | 制导 · 范围爆炸 | 稀有 | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 用 100 枚 Ember I 制造 | 2,000 |
+| **Ember III** | 制导 · 范围爆炸 | 史诗 | 4,900–6,300 | 5,600 | – | 495 | 1,150 | 2,030 | 700 | 用 100 枚 Ember II 制造 | 500 |
+| **Scatter I** | 直射 · 范围爆炸 | 普通 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 1,000 信用点 | 5,000 |
+| **Scatter II** | 直射 · 范围爆炸 | 稀有 | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 用 100 枚 Scatter I 制造 | 2,000 |
+| **Scatter III** | 直射 · 范围爆炸 | 史诗 | 6,300–7,700 | 7,000 | – | 660 | – | 1,092 | 420 | 用 100 枚 Scatter II 制造 | 500 |
 
 档次越贵，火箭的威力越大，射得越远，护盾穿透越高，能携带的数量也越少；贵的火箭按其价格计算，提供的伤害也最多。同样的价格下，直射火箭比同档次、同类型的制导火箭平均多造成 23% 到 32% 的伤害（大约四分之一到三分之一），因为你得自己瞄准。范围爆炸火箭的伤害约为同档次、同系列单体火箭的三分之二（平均 66% 到 70%：Ember 对比 Lancet，Scatter 对比 Rivet），但会作用于它覆盖的每一艘舰船。爆炸的伤害在中心处是满额，并沿直线下降，到**边缘处是一半**：船体位于中心与边缘正中的舰船承受 75%，船体在圆环之外的舰船则不承受任何伤害。一次发射平均造成其范围的中间值，即最高数值的 89% 到 94%，下文统计火箭数量的表格用的就是这个平均值。
 
 ## 火箭的花费 {#what-they-cost}
 
-在每一种类型中，普通火箭 500 信用点，稀有火箭 800 信用点，史诗火箭 5 Thulium。每次计时结束就发射的话，普通火箭每分钟 10,000 信用点，稀有火箭 16,000 信用点，史诗火箭 100 Thulium，而 Ostirion 的三把激光在 x1 弹药下每分钟消耗 900 信用点。一整堆是 5,000 枚普通火箭（2,500,000 信用点）、2,000 枚稀有火箭（1,600,000 信用点）或 500 枚史诗火箭（2,500 Thulium）：在此之内你想买多少就买多少，火箭的*最多携带*数量是你能持有数量的唯一限制。重置时，十二种火箭每种最多 1,000 枚无需任何操作就会保留；超出的部分，以及每一枚 N.U.K.E. 和 N.I.K.E.，只有放进运输储藏库才能保留，库中一枚火箭重 1 kg（N.U.K.E. 或 N.I.K.E. 为 250 kg）：见[重置](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)。每 3 秒一枚，一分钟只有二十枚，所以火箭是叠加在激光之上的爆发手段：便宜的用来对付弱小的外星人，贵的留给大战。你在[拍卖行](/wiki/03-Mechanics/Auction.md#limits)挂出的火箭，以及你领先的拍品中的火箭，在你购买或出价时也计入这个上限。 这些是基础数值：飞行员研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）会为你提高每种火箭的携带上限，合计提高 25%、50%、100%、150% 或 200%（向下取整），所以 5,000 在 I 级变成 6,250，在 V 级变成 15,000。
+普通（第 I 档）火箭在商店里每枚 1,000 信用点，各类型都一样。稀有（第 II 档）和史诗（第 III 档）火箭不出售：由装配站用下一档的 100 枚火箭制造，每次 100 枚（一批稀有火箭另需 50,000 信用点和 200 Thulium，一批史诗火箭另需 150,000 信用点和 800 Thulium，外加少量材料；其余信息由商店和装配站告诉你）。按每个计时器都发射，一枚普通火箭相当于每分钟 20,000 信用点，而 Ostirion 的三门激光在 x1 弹药下每分钟只消耗 900 信用点。一整叠是 5,000 枚普通火箭（5,000,000 信用点）、2,000 枚稀有火箭或 500 枚史诗火箭： 在此之内你想买多少就买多少，火箭的*最多携带*数量是你能持有数量的唯一限制。重置时，十二种火箭每种最多 1,000 枚无需任何操作就会保留；超出的部分，以及每一枚 N.U.K.E. 和 N.I.K.E.，只有放进运输储藏库才能保留，库中一枚火箭重 1 kg（N.U.K.E. 或 N.I.K.E. 为 250 kg）：见[重置](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)。每 3 秒一枚，一分钟只有二十枚，所以火箭是叠加在激光之上的爆发手段：便宜的用来对付弱小的外星人，贵的留给大战。你在[拍卖行](/wiki/03-Mechanics/Auction.md#limits)挂出的火箭，以及你领先的拍品中的火箭，在你购买或出价时也计入这个上限。 这些是基础数值：飞行员研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）会为你提高每种火箭的携带上限，合计提高 25%、50%、100%、150% 或 200%（向下取整），所以 5,000 在 I 级变成 6,250，在 V 级变成 15,000。
 
-商店按类型逐一列出火箭，每种都在各自的名字下，普通火箭在前，史诗火箭在后；机库、运输储藏库和火箭选择器使用同样的顺序。
+商店出售四种普通火箭，按类型逐一列出，之后是 Flares 和 Ricochet；机库、运输储藏库和火箭选择器以同样的方式列出十二种普通火箭，每种类型列在自己的名字下，普通的在前、史诗的在后，之后是特殊火箭。
 
 ## 对付外星人 {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Energetic Wall I -> Energetic Wall II
 
 | 击杀所需火箭数 | Seeker（1,600） | Phantasm（5,200） | Bulwark（26,000） | Goombah（80,000） | Crystalys（416,000） |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - **普通**单体火箭无论怎么掷都是一击杀死一架 Seeker，三击杀死一架 Phantasm（Lancet I 掷出最低值时需要第四击）；它们是最初几个星区里的日常火箭。**稀有**火箭用来对付 Bulwark 和 Goombah：七枚 Lancet II 就能在大约 20 秒的计时内击杀一架 Bulwark。**史诗**单体火箭用八枚（Rivet III）到十一枚（Lancet III）杀死一架 Goombah。当多个外星人聚在一起时，范围爆炸火箭物有所值：一枚 Scatter III 在一群五架 Phantasm（都在你所瞄准目标的 250 单位内）上空爆裂，一次发射就能对整群共造成约 22,000 点伤害。
 - 只靠火箭击杀是一笔实打实的开销，不是发财之道：单体火箭的花费是该击杀所得的 15%（Rivet II 打 Phantasm）到 95%（Lancet I 打 Crystalys）（信用点，以及按每个 Thulium 折合 200 信用点计的 Thulium），而用弱范围爆炸火箭打强外星人，花费比击杀所得还多（Ember I 打 Bulwark：120%）。只用一种火箭击杀 **Crystalys** 需要 56 到 352 枚火箭，要将近三分钟的计时；一整堆 500 枚史诗火箭足够击杀其中的四到八架。最强的外星人需要一个计划：你的激光用 x2 弹药，从第一秒起每 3 秒一枚中档火箭，再用下文的大型火箭作为爆发。
@@ -126,14 +137,36 @@ Energetic Wall I -> Energetic Wall II
 - **要注意的一点。** 如果一枚 N.I.K.E. 在途中遇到一艘舰船、一个守在弹道上的对手，或任何它可以伤害的东西，它就会对其造成 67,500 到 75,000 点伤害并消失：黑洞什么也得不到，你也一样。黑洞圆环之内没有别的东西会游荡，让它误中（外星人和企业飞行员都不会进入）：只有为了 Dark Matter 而进去的飞行员，或在边缘等着你的飞行员。它会从你自己的企业、安全区内的舰船，以及你暂时还不能伤害的舰船身上穿过。如果你在发射后离开了地图，它会继续飞行，不伤害任何人，仍然会为你产出 Dark Matter。
 - 如果一次制造会让你持有的某种火箭超过其*最多携带*数量（算上你已排队的），装配站不会开始这次制造。 Sealed Backdoor 同样会提高它们的上限（I 级时 10 变成 12、20 变成 25，V 级时是 30 和 60）。
 
+## 特殊火箭 {#special-rockets}
+
+特殊火箭做的是伤害数字说不清的事。它们彼此共用**一个 5 秒计时器**（任何发射器都不会改变它），每种还要等待**自己的计时器**，从 3 秒到 2 分钟；普通火箭的计时器是分开的，所以普通火箭和特殊火箭可以一起发射。它们由装配站制造，只有 Flares 和 Ricochet 由商店出售（上面的物品树有所有配方）。上面的 N.U.K.E. 和 N.I.K.E. 也是特殊火箭，N.U.K.E. 没有自己的计时器。自动火箭 CPU 和火箭发射器只发射普通火箭。
+
+| 名称 | 类型 | 效果 | 自有计时 | 最多携带 |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | 制导 · 单体 | 不造成伤害的制导火箭：被击中的飞船会被冻结，四秒内飞行速度降低 60%。 | 30 秒 | 50 |
+| **EMP Rocket** | 制导 · 单体 | 不造成伤害的制导火箭：被击中的飞船会承受三秒的 EMP 充能效果。 | 30 秒 | 50 |
+| **Shield Breaker** | 直射 · 单体 | 专为护盾设计的高速非制导火箭：对护盾造成 25,000 点、对船体造成 5,000 点伤害，但只要还有护盾，就只击中护盾。 | 15 秒 | 50 |
+| **Toxic Rocket** | 制导 · 单体 | 自身不造成伤害的制导火箭：被击中的飞船会中毒五秒，每秒损失有效生命值（船体与护盾合计）的百分之零点五，从船体扣除。 | 20 秒 | 50 |
+| **Marking Rocket** | 制导 · 单体 | 不造成伤害的制导火箭：被击中的飞船会被标记五秒，受到的所有伤害增加 20%。 | 30 秒 | 50 |
+| **Cooldown Rocket** | 制导 · 单体 | 不造成伤害的制导火箭：八秒内，被击中飞船的计时物品以一半的速度冷却。 | 60 秒 | 20 |
+| **Gravitational N.U.K.E.** | 直射 · 范围爆炸 | 围绕坍缩核心重新制造的 N.U.K.E.。放置在光标处，开启一个持续十五秒的小型黑洞，吸引飞船和制导火箭。每张地图只能存在一个。只能在装配站制造，且永远不能在拍卖行出售。 | 120 秒 | 5 |
+| **Support Rocket** | 直射 · 范围爆炸 | 放置在光标处：为范围内的每艘友方飞船恢复其船体和护盾 40% 的生命。 | 120 秒 | 20 |
+| **Flares** | 直射 · 单体 | 从自己的飞船发射：使所有锁定你的制导火箭失去锁定。 | 60 秒 | 20 |
+| **Ricochet** | 直射 · 单体 | 命中如 Rivet II 的高速非制导火箭，首次命中后会以 75% 的伤害弹向第二艘飞船。 | 3 秒 | 500 |
+
+- 同类的第二次命中会刷新冻结、干扰、中毒、标记或冷却减缓，而不会与第一次叠加。Toxic Rocket 的伤害算射手的，所以因中毒而被击毁也算他的击杀。
+- 重力 N.U.K.E. 和 Support Rocket **放置在光标处**：它们飞向光标下的那一点，或飞到射程尽头，任何飞船的引信都不会引爆它们。一张地图上只能存在一个引力井：第二次发射会被拒绝，且不消耗任何东西。
+
 ## 发射 {#firing}
 
-1. 在商店购买火箭（**火箭**类别），每种最多买到其*最多携带*数量：普通和稀有火箭用信用点，史诗火箭用 Thulium。
-2. 打开快捷栏上方的**火箭**，把你想要的火箭拖到槽位上。选择器为每种类型显示一列、每个档次显示一行，并标出你携带的数量。它们下方单独有一行，**特殊 · 仅装配站制造**，放的是 N.U.K.E. 和 N.I.K.E.（没有携带的那种会标上一个小锤子）。
+1. 在商店（**火箭**分类）用信用点购买普通火箭，每种买到*最多携带*数量；稀有和史诗火箭在装配站用下一档的 100 枚制造。
+2. 打开快捷栏上方的**火箭**，把你想要的火箭拖到槽位上。选择器为每种类型显示一列、每个档次显示一行，并标出你携带的数量。它们下方是**特殊火箭**，每行四种（没有携带的仅制造火箭会标上一个小锤子）。
 3. 按下槽位的按键。点击**制导**火箭的槽位会朝你选中的目标发射；点击**直射**火箭的槽位会使其待发，你接下来在太空中的点击会朝那里发射。**发射火箭**按键（默认为 `R`，可在“设置 › 操作”中重新绑定）会发射你上一次发射的火箭，或快捷栏上的第一枚。
-4. 在下一次发射前的 3 秒内（N.U.K.E. 之后是 4.1 秒，N.I.K.E. 之后是 4.6 秒），一个扇形倒计时会扫过**每一个**火箭槽位，中间显示剩余秒数。在此之前按下只会提示你火箭正在装填（最后十分之一秒内的按下仍会发射）。无人机编队可以把等待时间变成 2.19 到 4.05 秒之间（见下文）。
+4. 每个火箭槽位上都会扫过一个扇形倒计时，对应该火箭所等待的计时器，中间显示剩余秒数：普通火箭 3 秒（有火箭发射器时 5 秒），特殊火箭则取 5 秒和自己计时器中较长的一个。在此之前按下只会提示你火箭正在装填（最后十分之一秒内的按下仍会发射）。无人机编队可以把普通计时器变成 2.19 到 4.05 秒之间（见下文）。
 
 把鼠标悬停在火箭槽位上可以看到它的数值（伤害是最低值到最高值；商店和机库显示的相同），并在游戏世界中看到它的锁定圈（选中的目标在范围内时为绿色），或它的弹道线和爆炸圈。锁定**你**的火箭会让你的屏幕边缘闪红。
+
+**火箭发射器。** 火箭发射器 II 至 V 像自动火箭 CPU 一样存放在机库中，不占槽位，在任何飞船上都有效（以你拥有的最好的一个为准）。按一次普通火箭，就会从叠中以 0.15 秒的间隔发射 2、3、4 或 5 枚，之后普通火箭等待 5 秒。装配站在研究完成后制造它们（8 至 24 小时，需要 150,000 至 2,000,000 Thulium 和材料；[附加装置](/wiki/06-Items/Extras.md)的物品树列出了它们）。
 
 **N.U.K.E.** 在你发射之前就会在地图上画出它的爆炸范围（瞄准点处半径 1,350 单位的圆），引爆时，视野中会闪过一道白光，一个圆环在大约一秒内扩张到精确的作用范围并再停留两秒，一团蘑菇状升起的烟云，以及一阵镜头震动，离得越近震动越强。**减弱屏幕震动**会去掉震动，**减弱动态效果**会把闪光缩短到三分之一秒、亮度不到一半（两者都在“设置 › 图形”中）；较低的粒子质量会让烟云变稀疏并去掉火花，但绝不会去掉闪光和圆环。**N.I.K.E.** 的瞄准方式与 Rivet I 相同，沿着从你舰船到光标的连线；游戏绝不会因为距离黑洞太远或所在地图没有黑洞而拒绝发射：它飞向哪里，由你自己判断。它的卡片在伤害旁写着**黑洞：产出 Dark Matter**。它会拖出一道紫色的尾迹，火花环绕其间；它遇到的舰船会像被任何火箭击中一样受到打击，而当它越过视界时，黑洞会闪耀一下。
 
@@ -142,7 +175,7 @@ Energetic Wall I -> Energetic Wall II
 正在使用的[无人机编队](/wiki/03-Mechanics/Formations.md)是唯一能改变火箭的东西。本页所有伤害数字都是没有编队的舰船的数值。
 
 - **伤害。** Ballista（+55%）、Bodkin（+29%）和 Asterism（+24%）的火箭加成会乘到全部 14 种火箭的伤害上，包括 N.U.K.E. 和 N.I.K.E.。Testudo 对所有伤害的代价同样作用于火箭，Culler 对外星人的伤害则作用于击中外星人的火箭。同一枚火箭上的所有系数加起来最高为 ×1.59。这个加成对[小行星](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)和对飞船一样有效，小行星的装甲在它之后才扣除。
-- **装填。** Asterism 让共用计时器变长 35%（4.05 秒），Cordon 变长 11%（3.33 秒），Redoubt 变短 27%（2.19 秒），但绝不会短于火箭的飞行时间再加一小段余量。穿着 Redoubt 时，快的火箭（Lancet I、Rivet I 和 II、Ember I、Scatter I 和 II）等 2.19 秒，Rivet III 等 2.3 秒，Lancet III 等 2.9 秒，Ember III 等整整 3 秒；无论穿什么编队，N.U.K.E. 和 N.I.K.E. 之后都要等 4.1 秒和 4.6 秒。等待时间在发射时确定，所以之后再切换编队不会缩短它，火箭槽位上方的扇形也跟随它。
+- **装填。** Asterism 让普通火箭的计时器变长 35%（4.05 秒），Cordon 变长 11%（3.33 秒），Redoubt 变短 27%（2.19 秒），但绝不会短于火箭的飞行时间再加一瞬。在 Redoubt 下，快速火箭（Lancet I、Rivet I 和 II、Ember I、Scatter I 和 II）等 2.19 秒，Rivet III 等 2.3 秒，Lancet III 等 2.9 秒，Ember III 则等满 3 秒。等待时间在发射时就已确定，所以之后更换编队不会缩短它，火箭槽位上的倒计时也随它变化。特殊火箭的计时器不受任何编队影响。
 - **两枚大型火箭的上限依然成立。** 用最好的编队，N.I.K.E. 最高造成 116,250 的伤害，完好的 Paragon（128,000）能扛住；N.U.K.E. 最高 77,500，Goombah（80,000）能扛住。
 - **闪避。** Asterism 的 7% 闪避让击中你的直接命中火箭有 7% 的几率完全不造成伤害，你的飞船上方会浮现“未命中”；范围爆炸没有瞄准，永远不会被闪避。
 - **穿透。** Gemini 把自己的 15 点、Stiletto 把自己的 35 点火箭穿透，加到直接命中火箭的护盾穿透上（爆炸没有穿透），没有上限：Lancet III 加上 Stiletto 是 70%，加上 Gemini 是 50%。激光命中也以同样的方式把 Gemini 的点数加到弹药和增幅器的穿透上，但得不到 Stiletto 的任何点数（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
@@ -158,7 +191,7 @@ Energetic Wall I -> Energetic Wall II
 - 只有火箭的**直接命中**才能取得外星人的归属（见[战斗](/wiki/03-Mechanics/Combat.md)）；爆炸的边缘可以伤到已有归属的外星人，却不会抢走它。爆炸伤到的每个外星人，包括沉睡的，都会转而攻击你，就像被激光命中一样（只会还击的 Seeker 或 Goombah 也包括在内）；爆炸没波及的则继续沉睡。
 - 计时器属于你本人：它在跃迁、重新连接、更换舰船和舰船被摧毁之后依然保留。
 
-第一张表中的十二种火箭是购买的（普通和稀有火箭用信用点，史诗火箭用 Thulium）；N.U.K.E. 和 N.I.K.E. 则是制造的。
+只有第一张表里的普通火箭、Flares 和 Ricochet 可以购买（用信用点）；其他火箭都在装配站制造。
 
 另见：[激光与弹药](/wiki/06-Items/Lasers.md)、[战斗](/wiki/03-Mechanics/Combat.md)、[黑洞](/wiki/03-Mechanics/Black-Hole.md)。
 

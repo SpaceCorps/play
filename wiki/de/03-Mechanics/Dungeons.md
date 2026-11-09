@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -20,7 +20,7 @@ Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clan
 - **Dungeons gleichzeitig**: 6 in einer Welt
 - **Instanzen**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labyrinthe**: 8; beim Öffnen eines Dungeons wird einer ausgewählt
-- **Boss-Raum**: Öffnet sich, wenn 75 % der Aliens des Labyrinths zerstört sind, aufgerundet
+- **Boss-Raum**: Öffnet sich, wenn 75 % der Crystalys und ihrer Twins zerstört sind, aufgerundet
 - **Sammeln**: 10 min zum Sammeln und Starten. Ein Dungeon, den niemand startet, schließt sich, und sein Preis geht an die Clan-Bank zurück
 - **Zeitlimit**: Stufe 1: 95 min, Stufe 2: 130 min, Stufe 3: 165 min ab dem Start. Läuft sie ab, scheitert der Dungeon und zahlt nichts
 - **Leer**: Ein Dungeon, in dem 3 min lang niemand ist, scheitert
@@ -36,7 +36,7 @@ Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clan
 3. **Starten.** Der Startraum ist ein kleiner Raum an einem Ende des Labyrinths, und seine Tür bleibt zu, solange sich der Dungeon sammelt. Es gibt dort keine Aliens, du kannst also sicher warten. Der Dungeon **startet von selbst**, sobald jeder Pilot, auf den es wartet, drin ist und die Gruppe groß genug ist. Es wartet auf die Mitglieder des Clans, die online und nicht abwesend sind und in der Gruppe eines Piloten sind, der hineingekommen ist, und es startet sofort, wenn die Gruppe voll ist. Der Pilot, der den Dungeon geöffnet hat, oder ein Offizier kann **Starten** drücken, um früher mit den Piloten zu beginnen, die drin sind, wenn es genug sind. Ein Pilot, der geht, wird nicht mehr erwartet. Wenn der Dungeon startet, öffnet sich die Tür für immer, und danach können nur noch Piloten zurückkehren, die schon drin waren.
 4. **Durchs Labyrinth kämpfen.** Du kommst an einem Ende des Labyrinths hinein, und am anderen wartet der Kriegsherr in einem verschlossenen Raum. Das Labyrinth ist dunkel: Du siehst nur, was die Gruppe erkundet hat und was nahe an ihren Schiffen liegt. Die Aliens schlafen in Rudeln in den Gängen, und ein Rudel, das aufwacht, jagt die Gruppe durchs Labyrinth.
 5. **Beutezonen öffnen.** Ringe im Labyrinth markieren die Zonen. Halte eine, und die Gruppe stimmt über eine Karte ab, die zusammen mit der Belohnung des Kriegsherrn ausgezahlt wird.
-6. **Den Raum des Kriegsherrn entsperren.** Zerstöre drei Viertel der Aliens des Labyrinths, und die Tür zum Raum des Kriegsherrn öffnet sich. Bis dahin kann der Kriegsherr nicht verletzt werden.
+6. **Den Raum des Kriegsherrn entsperren.** Zerstöre drei Viertel der Crystalys und ihrer Twins des Labyrinths, und die Tür zum Raum des Kriegsherrn öffnet sich. Bis dahin kann der Kriegsherr nicht verletzt werden. Die übrigen Aliens bleiben, wo sie sind, und du kannst sie auch zerstören.
 7. **Den Kriegsherrn besiegen.** Brich seinen Schild und seine Hülle und antworte auf seine Fähigkeiten. Wenn er fällt, ist der Dungeon geschafft.
 8. **Bezahlt werden.** Die Belohnung kommt in dem Moment, in dem der Kriegsherr fällt. Der Dungeon bleibt für die Piloten im Inneren noch etwas länger offen und schließt sich dann.
 
@@ -56,7 +56,7 @@ Solange sich der Dungeon deines Clans sammelt und du woanders fliegst, erreicht 
 
 ### Das Fenster Clan-Dungeon {#the-clan-dungeon-window}
 
-In einem Dungeon hat der Durchgang ein eigenes Fenster, **Clan-Dungeon**. Es zeigt die vergangene und die verbleibende Zeit, wie viele Aliens fliegen und wie viele zerstört wurden, was die Gruppe jetzt tun soll (das Labyrinth erkunden, eine Zone halten, den Boss finden, drei Viertel der Aliens zerstören, den Kriegsherrn besiegen), die Hüllenbalken der Gruppe, den Haltebalken, solange du in einer Zone stehst, die Fähigkeit des Kriegsherrn mit ihrem Countdown und die Schaltfläche **Verlassen**. Es ist ein Fenster wie die anderen: Ziehe es an seiner Titelleiste und schließe es mit dem roten Licht in seiner Ecke. Es öffnet sich von selbst, wenn du einen Dungeon betrittst, einmal für jeden Dungeon: Schließt du es, bleibt es bis zum nächsten Dungeon zu. Die Symbolleiste hat dafür eine Schaltfläche **Clan-Dungeon**, solange du in einem Dungeon bist. Ist das Fenster geschlossen, erscheint eine Fähigkeit des Kriegsherrn, die gleich startet oder gerade wirkt, als einzeilige Leiste mit Namen und Countdown. Klicke auf die Leiste, um das Fenster wieder zu öffnen.
+In einem Dungeon hat der Durchgang ein eigenes Fenster, **Clan-Dungeon**. Es zeigt die vergangene und die verbleibende Zeit, wie viele Aliens fliegen und wie viele zerstört wurden, was die Gruppe jetzt tun soll (das Labyrinth erkunden, eine Zone halten, den Boss finden, drei Viertel der Crystalys und ihrer Twins zerstören, den Kriegsherrn besiegen), den Haltebalken, solange du in einer Zone stehst, die Fähigkeit des Kriegsherrn mit ihrem Countdown und die Schaltfläche **Verlassen**. Es ist ein Fenster wie die anderen: Ziehe es an seiner Titelleiste und schließe es mit dem roten Licht in seiner Ecke. Es öffnet sich von selbst, wenn du einen Dungeon betrittst, einmal für jeden Dungeon: Schließt du es, bleibt es bis zum nächsten Dungeon zu. Die Symbolleiste hat dafür eine Schaltfläche **Clan-Dungeon**, solange du in einem Dungeon bist. Ist das Fenster geschlossen, erscheint eine Fähigkeit des Kriegsherrn, die gleich startet oder gerade wirkt, als einzeilige Leiste mit Namen und Countdown. Klicke auf die Leiste, um das Fenster wieder zu öffnen.
 
 ## Die Stufen {#the-stages}
 
@@ -77,13 +77,13 @@ Ein Dungeon hat eine Stufe, und die Stufe ist sein Schwierigkeitsgrad. Eine höh
 
 Jeder Dungeon ist ein geschlossenes Labyrinth auf einer eigenen Instanz, einer der Instanzen aus der Liste oben, und das Labyrinth ist eines von mehreren Layouts. Das Labyrinth füllt die ganze Karte, von Rand zu Rand: ein Raster aus Räumen und Gängen mit festen Wänden. Schiffe können eine Wand nicht durchqueren, und eine Wand blockt Schüsse, sie ist also Deckung. Ein Meteor fällt von oben, und eine Wand hält ihn nicht auf.
 
-**Räume und Türen.** Der Startraum, in dem du landest, und der Raum des Kriegsherrn am fernen Ende haben je eine Tür. Eine geschlossene Tür ist für Schiffe, Schüsse und Aliens gleichermaßen eine Wand. Die Starttür öffnet sich, wenn der Dungeon startet. Die Tür des Kriegsherrn bleibt verschlossen, bis drei Viertel der Aliens zerstört sind (siehe [Der verschlossene Raum](#the-locked-room)). Dazwischen hat das Labyrinth für jede Beutezone einen Beuteraum.
+**Räume und Türen.** Der Startraum, in dem du landest, und der Raum des Kriegsherrn am fernen Ende haben je eine Tür. Eine geschlossene Tür ist für Schiffe, Schüsse und Aliens gleichermaßen eine Wand. Die Starttür öffnet sich, wenn der Dungeon startet. Die Tür des Kriegsherrn bleibt verschlossen, bis drei Viertel der Crystalys und ihrer Twins zerstört sind (siehe [Der verschlossene Raum](#the-locked-room)). Dazwischen hat das Labyrinth für jede Beutezone einen Beuteraum.
 
 **Nebel.** Das Labyrinth ist dunkel. Im Flug siehst du seine Wände und seine Aliens nur dort, wo die Gruppe gewesen ist, und ein Stück um jedes Schiff der Gruppe herum. Ein Raum gilt als erkundet, sobald einer von euch darin ist. Die Minikarte funktioniert genauso: Sie ist eine Karte der ganzen Ebene, die sich füllt, während die Gruppe sie erkundet, mit dem Eingang, der Tür des Kriegsherrn, den Zonen, die ihr gefunden habt, und dem Kriegsherrn, sobald ihr ihn gefunden habt. Die Piloten deiner eigenen Gruppe werden immer angezeigt.
 
 ## Die Aliens {#the-aliens}
 
-Vier Arten von Aliens bewachen das Labyrinth. Sie schlafen in Rudeln in den Gängen, nie in einem Raum, und ein Rudel wacht auf, wenn ein Pilot näher kommt. Ein wachendes Rudel wartet nicht auf dich: Es jagt die Gruppe durchs Labyrinth, und ein Rudel, das alle verliert, geht dorthin zurück, wo es geschlafen hat, und heilt sich. Ein paar Rudel sind von der ersten Sekunde an wach und stehen abseits des Eingangs in den Gängen, bis ein Pilot näher kommt. Der Dungeon hält nur eine bestimmte Zahl von Aliens gleichzeitig in der Luft, und diese Zahl wächst mit der Größe der Gruppe, sodass ein Rudel, das aufwacht, auf Platz warten muss und ein zerstörtes Rudel das nächste hereinlässt. Eine größere Gruppe trifft im selben Verhältnis auf mehr Aliens, eine kleinere auf weniger, und eine Alienart fällt nie unter eins.
+Vier Arten von Aliens bewachen das Labyrinth. Sie schlafen in Rudeln in den Gängen, nie in einem Raum, und ein Rudel wacht auf, wenn ein Pilot näher kommt. Ein wachendes Rudel wartet nicht auf dich: Es jagt die Gruppe durchs Labyrinth, und ein Rudel, das alle verliert, geht dorthin zurück, wo es geschlafen hat, und heilt sich. Ein paar Rudel sind von der ersten Sekunde an wach und stehen abseits des Eingangs in den Gängen, bis ein Pilot näher kommt. Der Dungeon hält nur eine bestimmte Zahl von Aliens gleichzeitig in der Luft, und diese Zahl wächst mit der Größe der Gruppe, sodass ein Rudel, das aufwacht, auf Platz warten muss und ein zerstörtes Rudel das nächste hereinlässt. Eine größere Gruppe trifft im selben Verhältnis auf mehr Aliens, eine kleinere auf weniger, und eine Alienart fällt nie unter eins. Ein Rudel, das noch auf Platz wartet, wenn alle Piloten weggeflogen sind, legt sich wieder schlafen und wacht auf, wenn ein Pilot näher kommt.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Vier Arten von Aliens bewachen das Labyrinth. Sie schlafen in Rudeln in den Gän
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Zusammen | 235 | 235 | 235 |
-| Zum Öffnen des Boss-Raums | 177 | 177 | 177 |
+| Zum Öffnen des Boss-Raums | 34 | 34 | 34 |
 | Die Welle einer Beutezone | 12 × Dungeon Goombah und 1 × Dungeon Crystalys | 12 × Dungeon Goombah und 1 × Dungeon Crystalys | 12 × Dungeon Goombah und 1 × Dungeon Crystalys |
 
 - **Gleichzeitig am Leben**: Höchstens 10 je Pilot der Gruppe und 70 insgesamt
@@ -125,7 +125,7 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 - **Sieht aus wie**: Pirate Boss
 - **Fliegt in Rudeln zu**: 2
-- **Rakete**: Alle 5 s eine gerade Rakete, Reichweite 970 Einheiten
+- **Rakete**: Alle 5 s eine gerade Rakete, Reichweite 1.000 Einheiten
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ Hülle und Schild oben gelten für eine Gruppe von 5. Sie wachsen mit der Gruppe
 
 ### Der verschlossene Raum {#the-locked-room}
 
-Die Tür zum Raum des Kriegsherrn ist ab dem Moment verschlossen, in dem der Dungeon geöffnet wird, und solange sie zu ist, kann der Kriegsherr nicht verletzt werden: Kein Laser, keine Rakete und keine Explosion trifft ihn, und er setzt keine Fähigkeit ein. Die Tür öffnet sich für immer, wenn **drei Viertel der Aliens** zerstört sind, mit denen der Dungeon gebaut wurde, aufgerundet (die Tabelle der Aliens oben zählt sie für eine Gruppe von 5). Es zählen die Aliens in den Rudeln des Labyrinths, auch die Rudel, die von der ersten Sekunde an in den Gängen stehen, alle vier Arten und gleich, wer sie zerstört. Die Wellen der Beutezonen, die Goombahs, die der Kriegsherr ruft, und der Kriegsherr selbst zählen nicht.
+Die Tür zum Raum des Kriegsherrn ist ab dem Moment verschlossen, in dem der Dungeon geöffnet wird, und solange sie zu ist, kann der Kriegsherr nicht verletzt werden: Kein Laser, keine Rakete und keine Explosion trifft ihn, und er setzt keine Fähigkeit ein. Die Tür öffnet sich für immer, wenn **drei Viertel der Crystalys und ihrer Twins** zerstört sind, mit denen der Dungeon gebaut wurde, aufgerundet (die Tabelle der Aliens oben zählt sie für eine Gruppe von 5, und ihre letzte Zeile sagt, wie viele es braucht). Es zählen die Crystalys und die Twins in den Rudeln des Labyrinths, auch in den Rudeln, die von der ersten Sekunde an in den Gängen stehen, und gleich, wer sie zerstört. Die übrigen Aliens, die Wellen der Beutezonen, die Goombahs, die der Kriegsherr ruft, und der Kriegsherr selbst zählen für die Tür nicht.
 
-Das Fenster Clan-Dungeon zählt, wie viele Aliens noch zerstört werden müssen, um den Raum zu öffnen, und sagt in einem kleinen Feld, dass der Kriegsherr nicht verletzt werden kann, und eine Meldung sagt dir, wann der Raum entsperrt ist. Ein Rudel, das noch schläft, zählt voll, also muss die Gruppe das Labyrinth erkunden, kann aber das letzte Viertel der Aliens in Ruhe lassen. Auf der Minikarte ist die Tür eine rote Linie, solange sie verschlossen ist, und eine grüne, wenn sie offen ist. Ein Dungeon ist nie eine Falle: Das Zeitlimit beendet auch einen Dungeon, dessen Tür verschlossen bleibt, und ein Administrator kann den Raum eines festgefahrenen Dungeons entsperren.
+Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, um den Raum zu öffnen, und sagt in einem kleinen Feld, dass der Kriegsherr nicht verletzt werden kann, und eine Meldung sagt dir, wann der Raum entsperrt ist. Ein Rudel, das noch schläft, zählt voll, also muss die Gruppe die Crystalys und ihre Twins im Labyrinth finden. **Die übrigen Aliens verschwinden nicht, wenn die Tür sich öffnet.** Sie bleiben im Labyrinth, wachen auf, wenn ein Pilot näher kommt, und können wie zuvor zerstört werden; eine Gruppe, die das will, kann also alle zerstören, bevor sie gegen den Kriegsherrn kämpft: Die Zahl der Aliens im Fenster läuft weiter bis zu allen Aliens, mit denen der Dungeon gebaut wurde, und steht auf voll, wenn keiner mehr übrig ist. Sie bringen nichts ein, und die, die noch leben, wenn der Kriegsherr fällt, verschwinden mit dem Dungeon. Auf der Minikarte ist die Tür eine rote Linie, solange sie verschlossen ist, und eine grüne, wenn sie offen ist. Ein Dungeon ist nie eine Falle: Das Zeitlimit beendet auch einen Dungeon, dessen Tür verschlossen bleibt, und ein Administrator kann den Raum eines festgefahrenen Dungeons entsperren.
 
 ### Seine Fähigkeiten {#its-abilities}
 
@@ -212,7 +212,7 @@ Das Fenster Clan-Dungeon zählt, wie viele Aliens noch zerstört werden müssen,
 - **Fokus auf den Meistgesuchten** markiert den Piloten, der dem Kriegsherrn den meisten Schaden zugefügt hat, mit einer goldenen Klammer an seinem Schiff, und der Kriegsherr feuert, solange es dauert, jede Sekunde einen zusätzlichen Schuss auf ihn. Sein Ziel ändert sich nicht: Er schießt weiter auf den nächsten Piloten, den er sehen kann, ein markierter Pilot, der auch der nächste ist, kassiert also beides. Der zusätzliche Schuss braucht freie Sicht und die Reichweite des Lasers des Kriegsherrn, eine Wand oder etwas Abstand rettet ihn also. Er startet nicht, solange noch niemand Schaden verursacht hat.
 - **Die Raketensalve** schickt zielsuchende Raketen auf zufällige Piloten, aber nur auf Piloten, die der Kriegsherr sehen kann, und eine Wand im Weg stoppt eine Rakete. Ein Ring zeigt, welchem Piloten eine Rakete folgt. Eine EMP Charge oder eine Tarnung schüttelt sie ab.
 - **Die Schwarm-Unterstützung** ist der Kriegsherr, der seine Goombahs ruft. Solange sie leben, kann er nicht verletzt werden, und er feuert nicht und setzt keine andere Fähigkeit ein. Zerstöre sie alle: Das Banner zählt, wie viele übrig sind. Vergeht eine Minute, kann der Kriegsherr wieder verletzt werden, und die übrigen Goombahs bleiben und kämpfen weiter. Sie zählen nicht für den Raum des Kriegsherrn, und sie zahlen nichts.
-- **Die Zone des Chaos** ist ein violetter Ring auf dem Boden, um die Stelle, an der der Kriegsherr stand, als er sie wirkte. Niemand im Ring kann angreifen, weder mit Lasern noch mit Raketen, doch Reparaturen, Tarnung und Fliegen funktionieren weiter, und der Kriegsherr und seine Aliens feuern wie immer. Der Ring zeigt sich einen Moment, bevor er wirkt: Tritt aus ihm heraus, und schieße von außen hinein.
+- **Die Zone des Chaos** ist ein violetter Ring auf dem Boden, um den Kriegsherrn herum, und solange sie andauert, geht er überallhin mit, wohin der Kriegsherr geht. Niemand im Ring kann angreifen, weder mit Lasern noch mit Raketen, doch Reparaturen, Tarnung und Fliegen funktionieren weiter, und der Kriegsherr und seine Aliens feuern wie immer. Der Ring zeigt sich einen Moment, bevor er wirkt: Tritt aus ihm heraus und bleib draußen, denn er folgt dem Kriegsherrn. Ein Pilot außerhalb kann weiter schießen, soweit seine Waffen reichen.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ Das Fenster Clan-Dungeon zählt, wie viele Aliens noch zerstört werden müssen,
 | **Lebensraub-Aura** | 8.000 pro Sekunde | 10.000 pro Sekunde | 12.000 pro Sekunde |
 | **Meteoritenhagel** | 6 Meteore pro Salve, je 40.000 | 8 Meteore pro Salve, je 50.000 | 10 Meteore pro Salve, je 60.000 |
 | **Fokus auf den Meistgesuchten** | 18.750–22.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 22.500–26.250 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 30.000–37.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
-| **Raketensalve** | 6.500 pro Rakete, eine alle 15 s | 8.125 pro Rakete, eine alle 15 s | 9.750 pro Rakete, eine alle 15 s |
+| **Raketensalve** | 26.000 pro Rakete, eine alle 15 s | 32.500 pro Rakete, eine alle 15 s | 39.000 pro Rakete, eine alle 15 s |
 | **Schildabsorption** | 10.000 Schild pro Sekunde | 12.500 Schild pro Sekunde | 15.000 Schild pro Sekunde |
 | **Schwarm-Unterstützung** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone des Chaos** | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen |
@@ -266,7 +266,9 @@ Mehr Piloten im Ring halten eine Zone schneller. So lange dauert es, eine Zone z
 
 ### Booster {#boosters}
 
-In den Stufen 2 und 3 bringen die Wellen der Beutezonen auch Booster. Hat die Gruppe jedes Alien einer Welle zerstört, zählt die Welle, und nach jeder zweiten Welle (der zweiten, der vierten und der sechsten) bekommt jeder Pilot ein Fenster von einer halben Minute, um sich einen zeitweiligen Booster auszusuchen: **Schaden** (deine Laser treffen härter), **Trefferpunkte** (dein Schiff hält mehr Hülle aus) oder **Tempo** (dein Schiff fliegt schneller). Drücke auf eine Karte, um sie zu wählen. Antwortest du nicht rechtzeitig, wählt das Spiel Trefferpunkte für dich. Eine Wahl ist in Stufe 3 3 % wert und in Stufe 2 1,5 %, und eine Art summiert sich in Stufe 3 auf höchstens 9 % und in Stufe 2 auf 4,5 %, wie oft du sie auch wählst. Stufe 1 hat keine Booster. Eine Gruppe, die eine Welle am Leben lässt, bekommt dafür kein Fenster.
+In den Stufen 2 und 3 verdient sich die Gruppe Booster, indem sie die Aliens des Dungeons zerstört. Bei jedem Zehntel von ihnen fällt ein Booster: wenn ein Zehntel der Aliens zerstört ist, dann zwei Zehntel und so weiter bis zu allen, zehn Drops insgesamt. Es zählt jedes Alien, mit dem der Dungeon gebaut wurde, gleich, wer es zerstört (es ist die Zählung der zerstörten Aliens im Fenster Clan-Dungeon); die Wellen der Beutezonen und die Aliens, die der Kriegsherr ruft, zählen nicht, eine Zone bringt also keinen Booster. Bei jedem Drop bekommt jeder Pilot ein Fenster von einer halben Minute, um sich einen zeitweiligen Booster auszusuchen, und zwar aus drei, die das Spiel zufällig aus fünf zieht: **Schaden** (deine Laser treffen härter), **Trefferpunkte** (dein Schiff hält mehr Hülle aus), **Schild** (dein Schild hält mehr aus), **Tempo** (dein Schiff fliegt schneller) und **Schildaufladung** (dein Schild lädt sich schneller auf). Drücke auf eine Karte, um sie zu wählen. Antwortest du nicht rechtzeitig, wählt das Spiel Trefferpunkte für dich, oder die erste der drei, wenn Trefferpunkte nicht darunter sind. Eine Wahl ist in Stufe 3 3 % wert und in Stufe 2 1,5 %, zehn Wahlen summieren sich also in Stufe 3 auf höchstens dreißig Prozent und in Stufe 2 auf fünfzehn Prozent, welche Arten es auch sind. Stufe 1 hat keine Booster.
+
+Der zehnte Drop kommt mit dem letzten Alien. Eine Gruppe, die jedes Alien zerstört, bevor sie gegen den Kriegsherrn kämpft, bekommt alle zehn Drops; eine Gruppe, die den Raum des Kriegsherrn öffnet und weiterfliegt, bekommt die Drops der Aliens, die sie bis dahin zerstört hat, und die übrigen Aliens bleiben und können weiter zerstört werden. Hat der Kampf gegen den Kriegsherrn begonnen, fällt kein Booster mehr.
 
 Ein Booster hält, bis der Dungeon geschafft ist. Verlässt du den Dungeon oder wirst du zerstört, verlierst du deine Booster, und du bekommst sie zurück, wenn du wieder hineinfliegst. Ein kleines Feld unter dem Fenster Clan-Dungeon zeigt, was du hast.
 
@@ -285,7 +287,7 @@ Die Karten werden eine nach der anderen aus dem Pool unten gezogen. Die Chance i
 | Orvium | 200 | 300 | 500 | 13,65 % | Jeden bezahlten Piloten |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4 % | Jeden bezahlten Piloten |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1 % | Jeden bezahlten Piloten |
-| Dark Matter | 5 | 8 | 12 | 9,1 % | Jeden bezahlten Piloten |
+| Dark Matter | 10 | 16 | 24 | 9,1 % | Jeden bezahlten Piloten |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Jeden bezahlten Piloten |
 | Starfire-III | – | – | 1 | 0,07 % | Jeden bezahlten Piloten |
 | Helios Beam | – | – | 1 | 0,07 % | Jeden bezahlten Piloten |
@@ -377,7 +379,7 @@ Auch die Clan-Bank wird bezahlt, in Credits und nicht in Thulium, wenn der Clan 
 
 - Räume die Welle einer Zone, bevor du versuchst, sie zu halten, und kämpfe im Ring, wenn Aliens hereinkommen.
 - Bring die ganze Gruppe zu einer Zone: Je mehr Piloten im Ring stehen, desto schneller wird sie gehalten.
-- Erkunde das Labyrinth und zerstöre die Aliens, denen du begegnest: Die Tür des Kriegsherrn öffnet sich, wenn drei Viertel von ihnen tot sind, und nicht früher.
+- Suche im Labyrinth die Crystalys und ihre Twins: Die Tür des Kriegsherrn öffnet sich, wenn drei Viertel von ihnen tot sind, und nicht früher. Die übrigen Aliens können warten oder auch zerstört werden.
 - Nutze die Wände: Laser durchqueren sie nicht, die roten Ringe der Auren des Kriegsherrn enden an ihnen, und eine Wand stoppt auch die Raketen des Kriegsherrn.
 - Spare eine EMP Charge für die Raketensalve auf.
 - Ruft der Kriegsherr seine Goombahs, zerstöre sie zuerst: Er kann nicht verletzt werden, bis sie weg sind. Tritt in der Zone des Chaos aus dem Ring, bevor du schießt.

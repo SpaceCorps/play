@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: 로켓 -->
 # 로켓 {#rockets}
 
-로켓은 레이저와 함께 쓰는 두 번째 무기로, 몇 초에 한 번 발사하며 레이저 일제 사격보다 훨씬 강하게 때립니다. 로켓은 4종류에 등급 3단계씩 12가지이고, 어셈블리에서만 만드는 로켓이 2가지 더 있으며, 어떤 로켓을 쏘든 **모든 로켓이 공유하는 3초짜리 재장전 타이머가 하나** 있습니다(어셈블리에서만 만드는 두 로켓은 비행 시간이 길어서 조금 더 기다립니다). 일반과 희귀 로켓은 **크레딧**으로, 영웅 로켓 4종은 **Thulium**으로 구매합니다. [드론 편대](/wiki/03-Mechanics/Formations.md)는 로켓의 피해량을 높이거나 그 타이머를 길게도 짧게도 만들 수 있습니다([드론 편대와 로켓](#drone-formations-and-rockets) 참고).
+로켓은 레이저와 함께 쓰는 두 번째 무기로, 몇 초에 한 번 발사하며 레이저 일제 사격보다 훨씬 강하게 때립니다. 4종류에 등급 3단계씩인 12가지 **일반 로켓**은 **3초짜리 재장전 타이머 하나**를 공유하며, 그 길이는 함선의 로켓 발사기가 정합니다. 피해 말고도 다른 일을 하는 12가지 **특수 로켓**은 **자기들만의 5초 타이머**를 공유하고, 각각 자체 타이머도 기다립니다. 일반 로켓 네 가지 중 가장 낮은 등급과 Flares, Ricochet만 **크레딧**으로 구매하고, 나머지 로켓은 모두 어셈블리에서 제작합니다. [드론 편대](/wiki/03-Mechanics/Formations.md)는 로켓의 피해량을 높이거나 일반 타이머를 길게도 짧게도 만들 수 있습니다([드론 편대와 로켓](#drone-formations-and-rockets) 참고).
 
 ## 1분 요약 {#in-one-minute}
 
-- **살 수 있는 로켓 12종.** 네 종류(Lancet, Rivet, Ember, Scatter)가 각각 세 등급입니다. 일반과 희귀는 크레딧으로, 영웅은 Thulium으로 삽니다. N.U.K.E.와 N.I.K.E. 두 가지는 어셈블리에서 제작합니다.
+- **일반 로켓 12가지.** 4종류(Lancet, Rivet, Ember, Scatter)에 등급 3단계씩. 판매하는 것은 1등급뿐이며 1,000 크레딧입니다. 2등급과 3등급은 한 단계 아래 로켓 100발로 어셈블리에서 제작합니다.
 - **로켓은 발사할 때마다 피해량이 정해집니다.** 발사하면 게임이 그 로켓의 최소 피해와 최대 피해 사이에서 수치를 하나 고릅니다(Lancet I은 1,700~2,100). 함선, 레이저, 증폭기, 부스터는 영향을 주지 않으며, 바꾸는 것은 드론 편대뿐입니다. 외계인이 쏘는 로켓은 값이 정해지지 않고 고정된 수치를 줍니다([외계인을 상대로](#against-the-aliens)).
 - **폭발은 중심이 가장 강합니다.** Ember와 Scatter 로켓은 터지면서 고리 안의 모든 함선에 피해를 줍니다. 중심에서는 수치 전체, 가장자리에서는 그 절반입니다.
-- **모든 로켓이 타이머 하나를 씁니다.** 어떤 로켓이든 발사한 뒤 다음 발사까지 3초를 기다립니다. N.U.K.E.와 N.I.K.E.만 공중에 오래 떠 있어서 더 오래 기다립니다(4.1초와 4.6초).
+- **타이머는 두 종류.** 일반 로켓은 하나를 공유합니다. 어떤 발사 뒤에든 3초이며, **로켓 발사기 II~V**가 있으면 0.15초 간격으로 2~5발을 쏜 뒤 5초입니다([발사](#firing)). 특수 로켓은 어떤 발사기로도 바뀌지 않는 5초짜리 다른 타이머를 공유하고, 각각 3초에서 2분까지의 자체 타이머도 기다립니다([특수 로켓](#special-rockets)).
+- **특수 로켓 12가지.** 함선을 얼리거나, 교란하거나, 중독시키거나, 표식을 붙이고, 실드나 조준을 깨뜨리고, 아군을 치료하고, 두 번째 함선으로 튕겨 가거나, 커서 위치에 작은 블랙홀을 엽니다. N.U.K.E.와 N.I.K.E.도 그중 둘입니다.
 - **유도 또는 직선.** 유도 로켓(Lancet, Ember)은 선택해 둔 대상이 필요합니다. 직선 로켓(Rivet, Scatter)은 커서 쪽으로 날아갑니다.
 - **로켓처럼 가지고 다니는 것이 더 있습니다.** **EMP Charge**는 소모품입니다. 인벤토리의 묶음이며 퀵슬롯에서 쓰고 슬롯은 차지하지 않습니다([EMP Charge](#emp-charge)). 두 **Energetic Wall**도 마찬가지입니다([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@
 어셈블리에서 만드는 것은 먼저 해당 기술이 필요합니다. 아이템에 마우스를 올리면 연구에 걸리는 시간을 볼 수 있습니다. 기술 트리, 연료, 부스트는 [연구](/wiki/03-Mechanics/Research.md)에 있습니다.
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Energetic Wall I -> Energetic Wall II
 
 | 이름 | 종류 | 희귀도 | 피해 | 평균 | 실드 관통 | 폭발 반경 | 락온 범위 | 사거리 | 속도 | 가격 | 최대 보유량 |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | 유도, 단일 대상 | 일반 | 1,700–2,100 | 1,900 | 10% | – | 700 | 1,040 | 520 | 500 크레딧 | 5,000 |
-| **Lancet II** | 유도, 단일 대상 | 희귀 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 800 크레딧 | 2,000 |
-| **Lancet III** | 유도, 단일 대상 | 영웅 | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | 직선, 단일 대상 | 일반 | 2,200–2,700 | 2,450 | 5% | – | – | 1,080 | 900 | 500 크레딧 | 5,000 |
-| **Rivet II** | 직선, 단일 대상 | 희귀 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 800 크레딧 | 2,000 |
-| **Rivet III** | 직선, 단일 대상 | 영웅 | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 5 Thulium | 500 |
-| **Ember I** | 유도, 범위 폭발 | 일반 | 1,200–1,400 | 1,300 | – | 255 | 700 | 1,000 | 500 | 500 크레딧 | 5,000 |
-| **Ember II** | 유도, 범위 폭발 | 희귀 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 800 크레딧 | 2,000 |
-| **Ember III** | 유도, 범위 폭발 | 영웅 | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | 직선, 범위 폭발 | 일반 | 1,500–1,750 | 1,625 | – | 315 | – | 1,088 | 640 | 500 크레딧 | 5,000 |
-| **Scatter II** | 직선, 범위 폭발 | 희귀 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 800 크레딧 | 2,000 |
-| **Scatter III** | 직선, 범위 폭발 | 영웅 | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | 유도, 단일 대상 | 일반 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 1,000 크레딧 | 5,000 |
+| **Lancet II** | 유도, 단일 대상 | 희귀 | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | Lancet I 100발로 제작 | 2,000 |
+| **Lancet III** | 유도, 단일 대상 | 영웅 | 7,300–8,700 | 8,000 | 35% | – | 1,300 | 2,296 | 820 | Lancet II 100발로 제작 | 500 |
+| **Rivet I** | 직선, 단일 대상 | 일반 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 1,000 크레딧 | 5,000 |
+| **Rivet II** | 직선, 단일 대상 | 희귀 | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | Rivet I 100발로 제작 | 2,000 |
+| **Rivet III** | 직선, 단일 대상 | 영웅 | 9,800–11,200 | 10,500 | 35% | – | – | 1,100 | 500 | Rivet II 100발로 제작 | 500 |
+| **Ember I** | 유도, 범위 폭발 | 일반 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 1,000 크레딧 | 5,000 |
+| **Ember II** | 유도, 범위 폭발 | 희귀 | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | Ember I 100발로 제작 | 2,000 |
+| **Ember III** | 유도, 범위 폭발 | 영웅 | 4,900–6,300 | 5,600 | – | 495 | 1,150 | 2,030 | 700 | Ember II 100발로 제작 | 500 |
+| **Scatter I** | 직선, 범위 폭발 | 일반 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 1,000 크레딧 | 5,000 |
+| **Scatter II** | 직선, 범위 폭발 | 희귀 | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | Scatter I 100발로 제작 | 2,000 |
+| **Scatter III** | 직선, 범위 폭발 | 영웅 | 6,300–7,700 | 7,000 | – | 660 | – | 1,092 | 420 | Scatter II 100발로 제작 | 500 |
 
 등급이 비쌀수록 로켓은 더 세게 때리고, 더 멀리 날아가고, 실드 관통이 더 크고, 가질 수 있는 수는 더 적습니다. 비싼 로켓은 가격 대비 피해량도 가장 큽니다. 직선 로켓은 직접 조준해야 하므로, 같은 가격으로 같은 등급과 같은 종류의 유도 로켓보다 평균 23~32% 더 많은 피해를 줍니다. 폭발은 같은 등급·같은 종류 단일 대상 로켓의 약 3분의 2(평균 66~70%. Ember는 Lancet, Scatter는 Rivet과 비교한 값)를 범위 안의 모든 함선에 줍니다. 폭발의 피해는 중심에서 전부이고, 가장자리까지 직선으로 줄어들어 **가장자리에서는 절반**이 됩니다. 선체가 중심과 가장자리 한가운데에 있는 함선은 75%를 받고, 선체가 고리 밖에 있는 함선은 아무것도 받지 않습니다. 한 번의 발사는 평균적으로 범위의 한가운데 값, 즉 최대 수치의 89~94%를 주며, 아래에서 로켓 수를 세는 표는 이 값을 씁니다.
 
 ## 비용 {#what-they-cost}
 
-일반 로켓은 500 크레딧, 희귀 로켓은 800 크레딧, 영웅 로켓은 5 Thulium이며, 종류와 상관없이 같습니다. 타이머가 돌 때마다 쏘면 일반 로켓은 분당 10,000 크레딧, 희귀 로켓은 16,000, 영웅 로켓은 100 Thulium이며, 이는 Ostirion의 레이저 3개가 x1 탄약으로 태우는 분당 900 크레딧과 비교됩니다. 가득 찬 묶음은 일반 로켓 5,000발(2,500,000 크레딧), 희귀 로켓 2,000발(1,600,000 크레딧), 영웅 로켓 500발(2,500 Thulium)입니다. 그 한도까지 원하는 만큼 살 수 있으며, 로켓의 *최대 보유량*이 보유 수를 제한하는 유일한 기준입니다. 초기화 때 12종의 로켓은 각각 최대 1,000개가 아무것도 하지 않아도 남습니다. 그 이상의 분량과 모든 N.U.K.E., N.I.K.E.는 수송 보관함에 넣어야만 남으며, 거기서 로켓은 1kg(N.U.K.E.와 N.I.K.E.는 250kg)입니다([초기화](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets) 참조). 3초에 한 발이면 분당 20발에 불과하므로, 로켓은 레이저 위에 얹는 순간 화력입니다. 값싼 것은 약한 외계인에게, 비싼 것은 큰 전투에 씁니다. [경매장](/wiki/03-Mechanics/Auction.md#limits)에 등록한 것과 선두에 서 있는 로트의 몫도 로켓을 사거나 입찰할 때 이 한도에 포함됩니다. 이것은 기본 수치입니다. 파일럿 연구 Sealed Backdoor([연구](/wiki/03-Mechanics/Research.md#pilot-technologies))는 모든 로켓의 보유 한도를 합계 25%, 50%, 100%, 150%, 200%만큼 늘려 줍니다(소수점 이하는 버림). 예를 들어 5,000은 I단계에서 6,250이 되고, V단계에서는 15,000이 됩니다.
+일반(1등급) 로켓은 모든 종류에서 상점 가격이 1,000 크레딧입니다. 희귀(2등급)와 영웅(3등급) 로켓은 판매하지 않으며, 어셈블리가 한 단계 아래 로켓 100발로 100발씩 제작합니다(희귀 한 묶음에는 추가로 50,000 크레딧과 200 Thulium, 영웅 한 묶음에는 150,000 크레딧과 800 Thulium에 약간의 재료가 듭니다. 나머지는 상점과 어셈블리가 알려 줍니다). 타이머가 돌 때마다 쏘면 일반 로켓은 분당 20,000 크레딧이며, 이는 Ostirion의 레이저 3개가 x1 탄약으로 태우는 분당 900 크레딧과 비교됩니다. 가득 찬 묶음은 일반 로켓 5,000발(5,000,000 크레딧), 희귀 로켓 2,000발, 영웅 로켓 500발입니다. 그 한도까지 원하는 만큼 살 수 있으며, 로켓의 *최대 보유량*이 보유 수를 제한하는 유일한 기준입니다. 초기화 때 12종의 로켓은 각각 최대 1,000개가 아무것도 하지 않아도 남습니다. 그 이상의 분량과 모든 N.U.K.E., N.I.K.E.는 수송 보관함에 넣어야만 남으며, 거기서 로켓은 1kg(N.U.K.E.와 N.I.K.E.는 250kg)입니다([초기화](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets) 참조). 3초에 한 발이면 분당 20발에 불과하므로, 로켓은 레이저 위에 얹는 순간 화력입니다. 값싼 것은 약한 외계인에게, 비싼 것은 큰 전투에 씁니다. [경매장](/wiki/03-Mechanics/Auction.md#limits)에 등록한 것과 선두에 서 있는 로트의 몫도 로켓을 사거나 입찰할 때 이 한도에 포함됩니다. 이것은 기본 수치입니다. 파일럿 연구 Sealed Backdoor([연구](/wiki/03-Mechanics/Research.md#pilot-technologies))는 모든 로켓의 보유 한도를 합계 25%, 50%, 100%, 150%, 200%만큼 늘려 줍니다(소수점 이하는 버림). 예를 들어 5,000은 I단계에서 6,250이 되고, V단계에서는 15,000이 됩니다.
 
-상점은 로켓을 종류별로, 각각 이름 아래에 일반 로켓부터 영웅 로켓 순으로 나열하며, 격납고, 수송 보관함, 로켓 선택창도 같은 순서를 씁니다.
+상점은 일반 로켓 네 가지를 종류별로 판매하고, 그 뒤에 Flares와 Ricochet가 이어집니다. 격납고, 수송 보관함, 로켓 선택창도 12가지 일반 로켓을 같은 방식으로, 종류마다 그 이름 아래 일반이 맨 앞, 영웅이 맨 뒤로 나열하며, 그 뒤에 특수 로켓이 옵니다.
 
 ## 외계인을 상대로 {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Energetic Wall I -> Energetic Wall II
 
 | 처치에 필요한 로켓 수 | Seeker (1,600) | Phantasm (5,200) | Bulwark (26,000) | Goombah (80,000) | Crystalys (416,000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - **일반** 단일 대상 로켓은 어떤 값이 나와도 Seeker를 1발에, Phantasm을 3발에 처치합니다(Lancet I은 가장 낮은 값이 나오면 4발째가 필요합니다). 첫 섹터들의 일상적인 로켓입니다. **희귀** 로켓은 Bulwark와 Goombah용입니다. Lancet II 7발이면 타이머 기준 약 20초 만에 Bulwark를 쓰러뜨립니다. **영웅** 단일 대상 로켓은 Goombah를 8발(Rivet III)에서 11발(Lancet III)에 처치합니다. 폭발 로켓은 외계인 여러 기가 가까이 모여 있을 때 값어치를 합니다. Phantasm 5기로 이루어진 무리(모두 조준한 대상에서 250유닛 이내) 위에서 터진 Scatter III는 한 번에 무리 전체에 약 22,000의 피해를 줍니다.
 - 로켓만으로 처치하는 것은 실제로 돈이 드는 일이지 부자가 되는 방법이 아닙니다. 단일 대상 로켓은 처치 보상(크레딧, 그리고 Thulium은 개당 200 크레딧으로 환산)의 15%(Phantasm에 Rivet II)에서 95%(Crystalys에 Lancet I)가 들고, 약한 폭발 로켓을 강한 외계인에게 쓰면 처치 보상보다 더 많이 듭니다(Bulwark에 Ember I은 120%). **Crystalys**를 한 종류만으로 처치하려면 로켓이 56~352발 필요하고 타이머 기준 3분 가까이 걸립니다. 영웅 로켓 500발 한 묶음이면 Crystalys 4~8기를 처치하기에 충분합니다. 가장 강한 외계인에게는 계획이 필요합니다. 레이저는 x2 탄약으로, 중간 등급 로켓을 첫 순간부터 3초마다 쏘고, 아래의 큰 로켓을 순간 화력으로 씁니다.
@@ -126,14 +137,36 @@ Energetic Wall I -> Energetic Wall II
 - **주의할 점.** 도중에 함선을 만난 N.I.K.E.는, 경로에서 기다리던 적이든 그 밖에 해칠 수 있는 무엇이든, 67,500~75,000의 피해를 주고 사라집니다. 블랙홀은 아무것도 얻지 못하고, 당신도 마찬가지입니다. 블랙홀 고리 안에는 우연히 맞힐 만한 다른 것이 돌아다니지 않으며(외계인과 기업 파일럿은 가까이 가지 않습니다), Dark Matter를 얻으러 들어온 파일럿이나 가장자리에서 당신을 기다리는 파일럿뿐입니다. N.I.K.E.는 소속 기업, 안전 지대의 함선, 아직 해칠 수 없는 함선을 통과해 날아갑니다. 발사한 뒤 맵을 떠나도 아무도 해치지 않고 계속 날아가며, Dark Matter는 그대로 만들어집니다.
 - 어셈블리는 대기열에 넣은 것까지 합쳐 로켓의 *최대 보유량*을 넘게 되는 제작은 시작하지 않습니다. Sealed Backdoor는 이 로켓들의 한도도 늘려 줍니다(I단계에서 10은 12, 20은 25가 되고, V단계에서는 30과 60이 됩니다).
 
+## 특수 로켓 {#special-rockets}
+
+특수 로켓은 피해 수치로는 설명되지 않는 일을 합니다. 서로 **5초짜리 타이머 하나**를 공유하며(어떤 발사기로도 바뀌지 않습니다), 각각 3초에서 2분까지의 **자체 타이머**도 기다립니다. 일반 로켓의 타이머는 따로이므로 일반 로켓과 특수 로켓을 함께 쏠 수 있습니다. Flares와 Ricochet는 상점에서 팔고, 나머지는 어셈블리에서 제작합니다(위의 아이템 트리에 모든 레시피가 있습니다). 위의 N.U.K.E.와 N.I.K.E.도 특수 로켓이며, N.U.K.E.에는 자체 타이머가 없습니다. 오토 로켓 CPU와 로켓 발사기는 일반 로켓만 발사합니다.
+
+| 이름 | 종류 | 효과 | 자체 타이머 | 최대 보유량 |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | 유도, 단일 대상 | 피해를 주지 않는 유도 로켓입니다. 맞은 함선은 얼어붙어 4초 동안 속도가 60% 느려집니다. | 30초 | 50 |
+| **EMP Rocket** | 유도, 단일 대상 | 피해를 주지 않는 유도 로켓입니다. 맞은 함선은 3초 동안 EMP 차지의 효과를 받습니다. | 30초 | 50 |
+| **Shield Breaker** | 직선, 단일 대상 | 실드를 노린 빠른 무유도 로켓입니다. 실드에 25,000, 선체에 5,000의 피해를 주지만 실드가 남아 있는 동안에는 실드만 맞힙니다. | 15초 | 50 |
+| **Toxic Rocket** | 유도, 단일 대상 | 자체 피해는 없는 유도 로켓입니다. 맞은 함선은 5초 동안 중독되어 매초 유효 체력(선체와 실드 합계)의 0.5%를 선체에서 잃습니다. | 20초 | 50 |
+| **Marking Rocket** | 유도, 단일 대상 | 피해를 주지 않는 유도 로켓입니다. 맞은 함선은 5초 동안 표식이 붙어 모든 피해를 20% 더 받습니다. | 30초 | 50 |
+| **Cooldown Rocket** | 유도, 단일 대상 | 피해를 주지 않는 유도 로켓입니다. 8초 동안 맞은 함선의 타이머 아이템이 절반 속도로 재사용 대기시간을 돌립니다. | 60초 | 20 |
+| **Gravitational N.U.K.E.** | 직선, 범위 폭발 | 붕괴한 핵을 중심으로 다시 만든 N.U.K.E.입니다. 커서 위치에 설치되어 15초 동안 함선과 유도 로켓을 끌어당기는 작은 블랙홀을 엽니다. 맵에는 하나만 존재할 수 있습니다. 어셈블리에서만 제작할 수 있으며 경매에서는 절대 판매할 수 없습니다. | 120초 | 5 |
+| **Support Rocket** | 직선, 범위 폭발 | 커서 위치에 설치: 범위 안의 모든 아군 함선을 선체와 실드의 40%만큼 회복시킵니다. | 120초 | 20 |
+| **Flares** | 직선, 단일 대상 | 자신의 함선에서 발사: 당신을 조준한 모든 유도 로켓을 무력화합니다. | 60초 | 20 |
+| **Ricochet** | 직선, 단일 대상 | Rivet II처럼 타격하는 빠른 무유도 로켓입니다. 첫 명중 뒤 피해의 75%로 두 번째 함선에 튕겨 나갑니다. | 3초 | 500 |
+
+- 같은 종류의 두 번째 명중은 빙결, 교란, 중독, 표식, 느려진 재사용 대기시간을 갱신할 뿐 첫 번째와 겹쳐 강해지지 않습니다. Toxic Rocket의 피해는 쏜 사람의 것이므로, 독으로 잡은 처치도 그 사람의 몫으로 셉니다.
+- 중력 N.U.K.E.와 Support Rocket은 **커서 위치에 설치**됩니다. 커서 아래의 지점까지, 또는 닿는 데까지 날아가며 어떤 함선의 신관도 이들을 터뜨리지 못합니다. 한 맵에는 중력 우물이 하나만 설 수 있습니다. 두 번째 발사는 거부되며 아무것도 소모되지 않습니다.
+
 ## 발사 {#firing}
 
-1. 상점의 **로켓** 분류에서 로켓을 구매합니다. 각 로켓의 *최대 보유량*까지 살 수 있으며, 일반과 희귀 로켓은 크레딧, 영웅 로켓은 Thulium으로 삽니다.
-2. 퀵슬롯 위의 **로켓**을 열고 원하는 로켓을 슬롯으로 끌어다 놓습니다. 선택창에는 종류별로 열이, 등급별로 행이 있으며 각 로켓의 보유량이 표시됩니다. 그 아래에는 N.U.K.E.와 N.I.K.E.를 위한 별도의 행인 **특수 · 어셈블리 전용**이 있습니다(하나도 보유하지 않은 로켓에는 작은 망치 표시가 붙습니다).
+1. 일반 로켓은 상점(**로켓** 카테고리)에서 각각의 *최대 보유량*까지 크레딧으로 구매하고, 희귀와 영웅은 한 단계 아래 로켓 100발로 어셈블리에서 제작합니다.
+2. 퀵슬롯 위의 **로켓**을 열고 원하는 로켓을 슬롯으로 끌어다 놓습니다. 선택창에는 종류별로 열이, 등급별로 행이 있으며 각 로켓의 보유량이 표시됩니다. 그 아래에 **특수 로켓**이 한 줄에 네 개씩 있습니다(하나도 보유하지 않은 제작 전용 로켓에는 작은 망치 표시가 붙습니다).
 3. 슬롯의 키를 누릅니다. **유도** 로켓의 슬롯을 클릭하면 선택한 대상을 향해 발사되고, **직선** 로켓의 슬롯을 클릭하면 장전되며 다음에 우주 공간을 클릭할 때 그곳으로 발사됩니다. **로켓 발사** 키(기본값은 `R`, 설정 › 조작에서 변경 가능)는 마지막에 쏜 로켓을, 없으면 퀵슬롯에서 맨 앞의 로켓을 발사합니다.
-4. 다음 발사까지의 3초 동안(N.U.K.E. 뒤에는 4.1초, N.I.K.E. 뒤에는 4.6초) **모든** 로켓 슬롯 위로 원형 게이지가 돌며, 가운데에는 남은 초가 표시됩니다. 그 전에 누르면 로켓이 재장전 중이라고 알려 줄 뿐입니다(마지막 0.1초 안에 누르면 그래도 발사됩니다). 드론 편대에 따라 대기 시간이 2.19초에서 4.05초 사이가 될 수 있습니다(아래 참고).
+4. 각 로켓 슬롯 위로 그 로켓이 기다리는 타이머의 원형 게이지가 돌며, 가운데에는 남은 초가 표시됩니다. 일반 로켓은 3초(로켓 발사기가 있으면 5초), 특수 로켓은 5초와 자체 타이머 중 더 긴 쪽입니다. 그 전에 누르면 로켓이 재장전 중이라고 알려 줄 뿐입니다(마지막 0.1초 안에 누르면 그래도 발사됩니다). 드론 편대에 따라 일반 타이머가 2.19초에서 4.05초 사이가 될 수 있습니다(아래 참고).
 
 로켓 슬롯에 마우스를 올리면 수치(피해는 가장 낮은 값과 가장 높은 값이며, 상점과 격납고도 같은 값을 표시합니다)가 나오고, 비행 화면에서는 락온 링(선택한 대상이 범위 안에 있으면 초록색) 또는 조준선과 폭발 원이 나타납니다. **당신**을 락온한 로켓이 있으면 화면 가장자리가 빨갛게 번쩍입니다.
+
+**로켓 발사기.** 로켓 발사기 II~V는 오토 로켓 CPU처럼 격납고에 보관하며, 슬롯이 필요 없고 어떤 함선에서도 작동합니다(가진 것 중 가장 좋은 것이 적용됩니다). 일반 로켓을 한 번 누르면 묶음에서 2, 3, 4, 5발을 0.15초 간격으로 발사하고, 그 뒤 일반 로켓은 5초를 기다립니다. 어셈블리가 연구 후에 제작합니다(8~24시간, 150,000~2,000,000 Thulium과 재료. [엑스트라](/wiki/06-Items/Extras.md)의 아이템 트리에 나옵니다).
 
 **N.U.K.E.**는 발사하기 전에 맵에 폭발 범위(조준 지점에 반경 1,350유닛의 원)를 그리고, 터질 때는 화면 전체의 하얀 섬광, 약 1초 만에 정확한 도달 범위까지 퍼져 나가 2초 더 남는 고리, 버섯처럼 피어오르는 구름, 가까울수록 강해지는 카메라 흔들림이 나타납니다. **화면 흔들림 줄이기**를 켜면 흔들림이 사라지고, **움직임 줄이기**를 켜면 섬광이 밝기 절반 미만으로 3분의 1초만 지속됩니다(둘 다 설정 › 그래픽에 있습니다). 파티클 품질을 낮추면 구름이 옅어지고 불꽃이 빠지지만, 섬광과 고리는 그대로입니다. **N.I.K.E.**는 Rivet I처럼 함선에서 커서까지의 선으로 조준하며, 블랙홀에서 멀거나 블랙홀이 없는 맵이라는 이유로 발사가 거부되는 일은 없습니다. 어디로 보낼지는 직접 판단하세요. 카드에는 피해량 옆에 **블랙홀: Dark Matter 생성**이라고 표시됩니다. 불꽃이 휘감긴 보라색 궤적을 남기며, 도중에 만난 함선은 다른 로켓과 똑같이 피해를 입고, 대신 사건의 지평선을 넘으면 블랙홀이 번쩍입니다.
 
@@ -142,7 +175,7 @@ Energetic Wall I -> Energetic Wall II
 사용 중인 [드론 편대](/wiki/03-Mechanics/Formations.md)는 로켓을 바꾸는 유일한 것입니다. 이 페이지의 모든 피해량 수치는 편대가 없는 함선 기준입니다.
 
 - **피해량.** Ballista(+55%), Bodkin(+29%), Asterism(+24%)의 로켓 보너스는 N.U.K.E.와 N.I.K.E.를 포함한 14종 모든 로켓의 피해량에 곱해집니다. Testudo의 모든 피해 대가도 로켓에 적용되고, Culler의 외계인 대상 피해는 외계인에 맞는 로켓에 적용됩니다. 로켓 하나에 걸리는 모든 배율은 합쳐서 ×1.59에서 멈춥니다. 이 보너스는 함선에 대해서와 똑같이 [소행성](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)에도 적용되며, 소행성의 장갑은 그 뒤에 차감됩니다.
-- **재장전.** Asterism은 공용 타이머를 35% 늘리고(4.05초), Cordon은 11% 늘리고(3.33초), Redoubt는 27% 줄이지만(2.19초), 로켓의 비행 시간에 잠깐의 여유를 더한 시간보다 짧아지지는 않습니다. Redoubt를 쓰면 빠른 로켓(Lancet I, Rivet I과 II, Ember I, Scatter I과 II)은 2.19초, Rivet III는 2.3초, Lancet III는 2.9초를 기다리고, Ember III는 3초를 그대로 기다립니다. N.U.K.E.와 N.I.K.E.는 어떤 편대든 4.1초와 4.6초를 기다립니다. 대기 시간은 발사할 때 정해지므로 그 뒤에 편대를 바꿔도 짧아지지 않고, 로켓 슬롯 위의 부채꼴도 이를 따릅니다.
+- **재장전.** Asterism은 일반 로켓의 타이머를 35% 늘리고(4.05초), Cordon은 11% 늘리며(3.33초), Redoubt는 27% 줄이지만(2.19초), 로켓의 비행 시간에 잠깐을 더한 것보다 짧아지지는 않습니다. Redoubt에서는 빠른 로켓(Lancet I, Rivet I과 II, Ember I, Scatter I과 II)이 2.19초, Rivet III는 2.3초, Lancet III는 2.9초, Ember III는 그대로 3초를 기다립니다. 대기 시간은 발사할 때 정해지므로 나중에 편대를 바꿔도 짧아지지 않으며, 로켓 슬롯 위의 게이지가 이를 따릅니다. 특수 로켓의 타이머는 어떤 편대로도 바뀌지 않습니다.
 - **큰 두 로켓의 한계는 그대로입니다.** 가장 좋은 편대로도 N.I.K.E.는 최대 116,250이라 멀쩡한 Paragon(128,000)이 버티고, N.U.K.E.는 최대 77,500이라 Goombah(80,000)가 버팁니다.
 - **회피.** Asterism의 회피 7%는 나에게 맞는 직격 로켓이 7%의 확률로 피해를 전혀 주지 못한다는 뜻이며, 내 함선 위에 “빗나감”이 떠오릅니다. 범위 폭발은 조준하지 않으므로 회피되는 일이 없습니다.
 - **관통.** Gemini는 그 15포인트를, Stiletto는 그 로켓 관통 35포인트를 직격 로켓의 실드 관통에 더합니다(폭발에는 관통이 없습니다). 합계에는 상한이 없습니다. Lancet III에 Stiletto를 더하면 70%, Gemini를 더하면 50%입니다. 레이저 공격도 Gemini의 몫을 탄약과 증폭기의 관통에 같은 방식으로 더하지만, Stiletto의 몫은 전혀 받지 않습니다([레이저와 탄약](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Energetic Wall I -> Energetic Wall II
 - 외계인을 선점하는 것은 로켓의 **직격**뿐이며([전투](/wiki/03-Mechanics/Combat.md) 참고), 폭발의 가장자리는 선점된 외계인을 빼앗지 않고 피해만 줄 수 있습니다. 폭발에 피해를 입은 외계인은 잠들어 있던 것까지 모두 레이저에 맞았을 때처럼 당신을 공격하기 시작합니다(반격만 하는 Seeker나 Goombah도 포함). 폭발이 빗나간 외계인은 계속 잠들어 있습니다.
 - 타이머는 당신의 것입니다. 점프, 재접속, 함선 교체, 함선 파괴 후에도 유지됩니다.
 
-첫 번째 표의 로켓 12가지는 구매합니다(일반과 희귀 로켓은 크레딧, 영웅 로켓은 Thulium). N.U.K.E.와 N.I.K.E.는 제작합니다.
+구매할 수 있는 것은 첫 번째 표의 일반 로켓과 Flares, Ricochet뿐이며(크레딧), 나머지 로켓은 모두 어셈블리에서 제작합니다.
 
 함께 보기: [레이저와 탄약](/wiki/06-Items/Lasers.md), [전투](/wiki/03-Mechanics/Combat.md), [블랙홀](/wiki/03-Mechanics/Black-Hole.md).
 

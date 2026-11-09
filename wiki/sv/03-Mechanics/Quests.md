@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
@@ -131,7 +131,7 @@ Ett **villkor** är en extra regel för ett steg eller för ett helt uppdrag. De
 
 Att dö bryter en skrovgräns som är igång, precis som en regel om inga dödsfall.
 
-Gränserna anges i poäng, för det skepp du flyger på den nivån. Gränsen för ett bärat föremål är 3 000 skrovpoäng på nivå 1 till 3, 17 000 på nivå 4 till 6 och 46 000 på nivå 7 och 8; vistelser och turer som varar längre har större tal. De är desamma i alla världar, så i Beta och Gamma, där utomjordingarna slår hårdare, lämnar de dig mindre marginal. Titta på uppdragets kort innan du antar det. En gräns kan också anges som procent av ditt skepps skrov, och när båda anges gäller den strängaste; alla uppdrag i den här uppdateringen använder poäng.
+Gränserna anges i poäng, för det skepp du flyger på den nivån. Gränsen för ett bärat föremål är 3 000 skrovpoäng på nivå 1 till 3, 17 000 på nivå 4 till 6 och 46 000 på nivå 7 och 8; vistelser och turer som varar längre har större tal. Det är **Alphas** tal, liksom tidsgränserna i tabellerna. Betas utomjordingar slår 1,5 gånger så hårt och Gammas dubbelt så hårt, så i Beta och Gamma är gränserna 1,5 och 2 gånger så stora, precis som [tidsgränserna](#time-limits): 3 000 poäng blir 4 500 i Beta och 6 000 i Gamma, och du tål lika många träffar som i Alpha. Uppdragets kort och Aktiva uppdrag visar talet för din värld (uppdragstexten nämner Alphas); titta på det innan du antar uppdraget. En gräns kan också anges som procent av ditt skepps skrov, och när båda anges gäller den strängaste; alla uppdrag i den här uppdateringen använder poäng.
 
 ## Uppdragsexempel {#mission-examples}
 
@@ -234,6 +234,7 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 - Vissa uppdrag är **tidsbegränsade**. Mission Control visar gränsen på uppdragets kort innan du antar det (en klocka och ”15 min”), och när du har antagit det går en **nedräkning** på kortet och i Aktiva uppdrag. Den blir bärnstensfärgad den sista minuten och röd när tiden är slut.
 - Ett tidsbegränsat uppdrag som tar slut **misslyckas**: det lämnar dina aktiva uppdrag och du kan anta det igen direkt, från början.
 - Gränserna i tabellerna nedan är **Alphas**. Betas utomjordingar är 1,5 gånger så starka och Gammas dubbelt så starka, så deras gränser är 1,5 och 2 gånger så långa. Klockan ställs in när du antar uppdraget, för världen du befinner dig i.
+- Uppdragens **skrovgränser** följer världen på samma sätt: 1,5 gånger Alphas i Beta och dubbelt i Gamma (se [Villkor](#conditions)).
 - Steg har ingen egen tidsgräns: uppdragets gräns gäller för alla. Ett brutet villkor startar om ett steg eller uppdraget, men nollställer aldrig klockan.
 
 ## Belöningar {#rewards}
@@ -285,7 +286,7 @@ De högre sektorerna är där uppdragen betalar, och där du kan dö. Planera di
 
 ## Uppdragen {#the-missions}
 
-Tidsgränserna är Alphas (”–”: ingen). ”→” förbinder stegen i ett **I ordning**-uppdrag, som måste göras i den ordningen; steg som förbinds med ”;” öppnas samtidigt och kan göras i valfri ordning. Ett villkor som står efter ett steg hör till det steget, ”(hela uppdraget: ...)” till varje steg.
+Tidsgränserna och skrovgränserna är Alphas (”–”: ingen). ”→” förbinder stegen i ett **I ordning**-uppdrag, som måste göras i den ordningen; steg som förbinds med ”;” öppnas samtidigt och kan göras i valfri ordning. Ett villkor som står efter ett steg hör till det steget, ”(hela uppdraget: ...)” till varje steg.
 
 Ett uppdragsföremål står som ”kan tappa det: 15 % per nedskjutning, säkert vid nedskjutning 10”: varje nedskjutning av den utomjordingen i den sektorn slår chansen, och den tionde nedskjutningen sedan steget öppnades tappar det säkert. ”Från säsongsdag 4” är en [svärmjakt](#swarm-missions).
 

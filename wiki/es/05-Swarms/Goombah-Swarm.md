@@ -75,7 +75,7 @@ Base: Goombah, con 400 % del casco y 100 % del daño de los láseres; la veloc
 | Quorvium | 100 % en cada una de 8 tiradas | 2–4 |
 | Advanced Plasma | 100 % | 100–200 |
 | Ultra Core | 100 % | 100–200 |
-| Uno de los 8 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 6–10 |
+| Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) que se compran con créditos, elegido al azar | 100 % | 6–10 |
 
 ### Goombah Guard
 

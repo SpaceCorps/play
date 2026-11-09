@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Missioni -->
 # Missioni {#quests}
 
@@ -131,7 +131,7 @@ Una **condizione** è una regola in più su un passaggio o su un’intera missio
 
 Morire spezza un limite di scafo in corso, come una regola senza morire.
 
-I limiti sono espressi in punti, per la nave che piloti a quel livello. Il limite di un oggetto trasportato è di 3.000 punti di scafo ai livelli da 1 a 3, di 17.000 ai livelli da 4 a 6 e di 46.000 ai livelli 7 e 8; le permanenze e i percorsi più lunghi hanno numeri più grandi. Sono uguali in ogni mondo, quindi in Beta e Gamma, dove gli alieni colpiscono più forte, ti lasciano meno margine. Guarda la scheda della missione prima di accettarla. Un limite può anche essere dato come percentuale dello scafo della tua nave, e se sono indicati entrambi conta il più severo; tutte le missioni di questo aggiornamento usano i punti.
+I limiti sono espressi in punti, per la nave che piloti a quel livello. Il limite di un oggetto trasportato è di 3.000 punti di scafo ai livelli da 1 a 3, di 17.000 ai livelli da 4 a 6 e di 46.000 ai livelli 7 e 8; le permanenze e i percorsi più lunghi hanno numeri più grandi. Sono i numeri di **Alpha**, come i limiti di tempo delle tabelle. Gli alieni di Beta colpiscono 1,5 volte più forte e quelli di Gamma il doppio, quindi in Beta e Gamma i limiti sono 1,5 e 2 volte più grandi, come i [limiti di tempo](#time-limits): 3.000 punti sono 4.500 in Beta e 6.000 in Gamma, e puoi incassare tanti colpi quanti in Alpha. La scheda della missione e Missioni attive mostrano il numero del tuo mondo (il testo della missione cita quello di Alpha); guardalo prima di accettarla. Un limite può anche essere dato come percentuale dello scafo della tua nave, e se sono indicati entrambi conta il più severo; tutte le missioni di questo aggiornamento usano i punti.
 
 ## Esempi di missioni {#mission-examples}
 
@@ -234,6 +234,7 @@ Le missioni risalgono i settori insieme al tuo livello:
 - Alcune missioni sono **a tempo**. Mission Control mostra il limite sulla scheda della missione prima che tu la accetti (un orologio e “15 min”), e una volta accettata un **conto alla rovescia** scorre sulla scheda e in Missioni attive. Diventa ambra nell’ultimo minuto e rosso quando il tempo è scaduto.
 - Una missione a tempo che scade **fallisce**: esce dalle tue missioni attive e puoi accettarla di nuovo subito, dall’inizio.
 - I limiti nelle tabelle qui sotto sono **quelli di Alpha**. Gli alieni di Beta sono 1,5 volte più forti e quelli di Gamma il doppio, quindi i loro limiti sono 1,5 e 2 volte più lunghi. Il limite viene fissato quando accetti la missione, in base al mondo in cui ti trovi.
+- I **limiti di scafo** delle missioni seguono il mondo allo stesso modo: 1,5 volte quelli di Alpha in Beta e il doppio in Gamma (vedi [Condizioni](#conditions)).
 - I passaggi non hanno un limite di tempo proprio: il limite della missione vale per tutti. Una condizione infranta fa ricominciare un passaggio o la missione, ma non azzera mai l’orologio.
 
 ## Ricompense {#rewards}
@@ -285,7 +286,7 @@ I settori più alti sono quelli in cui le missioni pagano, e quelli in cui puoi 
 
 ## Le missioni {#the-missions}
 
-I limiti di tempo sono quelli di Alpha (“–”: nessuno). “→” unisce i passaggi di una missione **In ordine**, che vanno fatti in quell’ordine; i passaggi uniti da “;” si aprono insieme e si possono fare in qualsiasi ordine. Una condizione scritta dopo un passaggio appartiene a quel passaggio, “(intera missione: ...)” a ogni passaggio.
+I limiti di tempo e i limiti di scafo sono quelli di Alpha (“–”: nessuno). “→” unisce i passaggi di una missione **In ordine**, che vanno fatti in quell’ordine; i passaggi uniti da “;” si aprono insieme e si possono fare in qualsiasi ordine. Una condizione scritta dopo un passaggio appartiene a quel passaggio, “(intera missione: ...)” a ogni passaggio.
 
 Un oggetto della missione si legge “può lasciarlo: 15% per abbattimento, di sicuro all’abbattimento n. 10”: ogni abbattimento di quell’alieno in quel settore tira la probabilità, e il 10º abbattimento da quando il passaggio si è aperto lo lascia di sicuro. “Dal giorno 4 della stagione” indica una [caccia allo sciame](#swarm-missions).
 

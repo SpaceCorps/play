@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e6bba0f75d99f5cd -->
+<!-- wiki-i18n source: 9070ca3143eddf92 -->
 <!-- wiki-i18n title: Sciame Pirate -->
 # Sciame Pirate {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Lo sciame Pirate è un **Pirate Boss** con i suoi **Pirate Scout**: una nave eno
 - **Spara al boss, non agli Scout.** Gli Scout curano il boss, ma la cura è piccola rispetto al suo scafo, e un nuovo Scout arriva con la frequenza che dice l’elenco *In breve*: un gruppo che uccide prima gli Scout non li supera mai, e solo un gruppo molto grande può eliminarli e impiega comunque più tempo a finire il boss di uno che li ha lasciati stare. Gli Scout ti costano tempo, non decidono lo scontro.
 - **Allontana gli Scout.** Uno Scout cura solo finché è alla portata del boss, quindi uno Scout che ti segue fuori portata non cura nulla, e un’Ostirion è più veloce di uno Scout.
 - **Resta in movimento.** Il razzo del boss è dritto e non guidato: una nave che resta in movimento lo schiva, una ferma viene colpita.
-- **Porta un gruppo.** Tre piloti su Ostirion con munizioni x2 lo perdono su `x-3` anche finché i colpi sono distribuiti, ma lo vincono su `x-2` senza perdere una nave; quattro lo abbattono in circa quattro minuti in Alpha. Con munizioni x4 bastano tre anche su `x-3` (circa due minuti e mezzo). Cinque lo abbattono in circa tre minuti quando i colpi sono distribuiti e in circa quattro quando un pilota prende tutto il fuoco, e allora perdono due navi: un gruppo che lascia a un pilota tutto il fuoco ne richiede cinque. In Beta servono cinque piloti e in Gamma sette, con i colpi distribuiti (il boss lì è più grande e i suoi Scout curano di più). In Alpha, su `x-3` con munizioni x2, un’Ostirion da sola non ce la fa, e una Paragon da sola ce la fa a malapena (le restano solo pochi punti percentuali di scafo): due Paragon ce la fanno senza rischi. In Beta e Gamma, su `x-3`, una Paragon da sola viene distrutta, sia con munizioni x2 sia con munizioni x4. Il boss risponde al primo pilota che lo ha colpito, quindi lascia cominciare la nave più robusta, e usa le tue abilità (Emergency Repair, Shield Surge: [Abilità](/wiki/03-Mechanics/Abilities.md)) in uno scontro così lungo. I piloti ancora di livello 2 o 3 sono troppo deboli per lui, anche dove volano: stai lontano finché non sei più forte.
+- **Porta un gruppo.** Tre piloti su Ostirion con munizioni x2 lo perdono su `x-3` anche finché i colpi sono distribuiti, ma lo vincono su `x-2` senza perdere una nave; quattro lo abbattono in circa quattro minuti in Alpha. Con munizioni x4 bastano tre anche su `x-3` (circa due minuti e mezzo). Cinque lo abbattono in circa tre minuti quando i colpi sono distribuiti e in circa quattro quando un pilota prende tutto il fuoco, e allora perdono due navi: un gruppo che lascia a un pilota tutto il fuoco ne richiede cinque. In Beta servono cinque piloti e in Gamma sette, con i colpi distribuiti (il boss lì è più grande e i suoi Scout curano di più). In Alpha, su `x-3` con munizioni x2, un’Ostirion da sola non ce la fa, e nemmeno una Paragon da sola: due Paragon ce la fanno senza rischi. In Beta e Gamma, su `x-3`, una Paragon da sola viene distrutta, sia con munizioni x2 sia con munizioni x4. Il boss risponde al primo pilota che lo ha colpito, quindi lascia cominciare la nave più robusta, e usa le tue abilità (Emergency Repair, Shield Surge: [Abilità](/wiki/03-Mechanics/Abilities.md)) in uno scontro così lungo. I piloti ancora di livello 2 o 3 sono troppo deboli per lui, anche dove volano: stai lontano finché non sei più forte.
 - **Il boss ritorna** dopo il tempo indicato nell’elenco *In breve*, nello stesso settore.
 
 ## Ricompense e bottino {#rewards-and-drops}
@@ -70,7 +70,7 @@ Base: Ironclad, con il 50% di scafo, scudo e danno; velocità e portata sono que
 | Oggetto | Probabilità | Quantità |
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
-| Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 5–10 |
+| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 5–10 |
 | Uno tra Advanced Plasma, Siphon Battery e Siphon Battery II, scelto a caso | 100% | 1.000–2.000 |
 
 ### Pirate Scout

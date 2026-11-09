@@ -16,7 +16,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Pazarı kullanmak (ilan vermek, satın almak ve teklif vermek) için **5. seviye** gerekir.
 - Bir ilan lot başına fiyatlanır, tam sayı kredi ya da tam sayı Thulium cinsinden (ikisi birden değil) ve asla türün en düşük fiyatının altında olamaz. **En yüksek fiyat yoktur**.
 - Thulium cinsinden bir fiyat, kredi cinsinden en düşük fiyatın 1.000 değerine bölünüp yukarı yuvarlanmış hâlinden az olamaz; bu yalnızca en düşük fiyatı 1 Thulium ya da daha fazla eden türler için geçerlidir. Oranın yaptığı tek şey budur: **1 Thulium = 1.000 kredi, en düşük fiyat için bir kuraldır, döviz kuru değildir.** Hiçbir şey takas edilmez, hiçbir değer gösterilmez ve kredi ile Thulium asla toplanmaz.
-- 89 tür ilana konabilir ve bunlardan 88 tanesi Thulium cinsinden de fiyatlanabilir.
+- 102 tür ilana konabilir ve bunlardan 101 tanesi Thulium cinsinden de fiyatlanabilir.
 - Bir ilan, seçtiğin gibi 168 / 336 / 504 saat sürer: seçenekler her seviyede aynıdır.
 - **İlan ücreti**, ilanın sürdüğü her 24 saat için fiyatın %0,25 kadarıdır, en az 50 kredi ya da 1 Thulium. Bunu ilan verirken ödersin; asla iade edilmez, iptal etsen bile.
 - Seviye 10 ve üzerinde ilan ücreti %0,4 olur.
@@ -55,9 +55,9 @@ Açık Artırma geldiğinde (0.4.12), Mağaza’nın satmadığı ve elinde zate
 | **Kalkan Hücreleri** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **İticiler** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Lazer Cephanesi** | Standard Battery (lot başına 100 adet), Siphon Battery (lot başına 10 adet), Advanced Plasma (lot başına 10 adet), Siphon Battery II (lot başına 10 adet), Antimatter Battery I (lot başına 10 adet), Ultra Core (lot başına 10 adet), Dark Matter Ammo I (lot başına 10 adet), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
-| **Roketler** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **Roketler** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Sarf Malzemeleri** | EMP Charge, Energetic Wall II | 2 |
-| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
+| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
 | **Gövde Kaplaması** | Hull Plating II, Hull Plating III | 2 |
 | **Kaynaklar** | Cataclysite (lot başına 100 adet), Ship Fragment (lot başına 100 adet), Daraxium (lot başına 100 adet), Nyxite (lot başına 100 adet), Quorvium (lot başına 10 adet), Reinforced Hull Plate (lot başına 10 adet), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -85,7 +85,7 @@ Her türün bir **en düşük fiyatı** vardır ve **en yüksek fiyat yoktur**: 
 | EMP Charge | 1 | 40.000 | 40 |
 | Cloaking CPU S | 1 | 400.000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 200 | 1 |
+| Lancet I | 1 | 400 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33.000 | 33 |
 
@@ -194,78 +194,78 @@ Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç l
 
 | UTC saati | Lot | Tam büyüklük | Tam büyüklükte açılış teklifi |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter III | 1.250 | 250.000 kredi |
+| 00:00 | Scatter I | 1.250 | 250.000 kredi |
 | 00:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 00:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 01:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 01:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 01:00 | Lancet III | 1.250 | 250.000 kredi |
-| 02:00 | Lancet I | 12.500 | 1.250.000 kredi |
-| 02:00 | Advanced Plasma | 25.000 | 500.000 kredi |
+| 01:00 | Scatter I | 1.250 | 250.000 kredi |
+| 02:00 | Lancet I | 12.500 | 2.500.000 kredi |
+| 02:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 02:00 | EMP Charge | 5 | 100.000 kredi |
 | 03:00 | EMP Charge | 5 | 100.000 kredi |
 | 03:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 03:00 | Lancet I | 12.500 | 1.250.000 kredi |
+| 03:00 | Lancet I | 12.500 | 2.500.000 kredi |
 | 04:00 | Ultra Core | 25.000 | 1.000.000 kredi |
 | 04:00 | Advanced Plasma | 25.000 | 500.000 kredi |
-| 04:00 | Rivet I | 12.500 | 1.250.000 kredi |
-| 05:00 | Rivet II | 5.000 | 800.000 kredi |
+| 04:00 | Rivet I | 12.500 | 2.500.000 kredi |
+| 05:00 | Rivet I | 5.000 | 1.000.000 kredi |
 | 05:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 05:00 | EMP Charge | 5 | 100.000 kredi |
 | 06:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 06:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 06:00 | Ember II | 5.000 | 800.000 kredi |
+| 06:00 | Ember I | 5.000 | 1.000.000 kredi |
 | 07:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 07:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 07:00 | Rivet II | 5.000 | 800.000 kredi |
-| 08:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 07:00 | Rivet I | 5.000 | 1.000.000 kredi |
+| 08:00 | Ember I | 12.500 | 2.500.000 kredi |
 | 08:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 08:00 | EMP Charge | 5 | 100.000 kredi |
 | 09:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 09:00 | Advanced Plasma | 10.000 | 200.000 kredi |
-| 09:00 | Ember II | 5.000 | 800.000 kredi |
-| 10:00 | Scatter II | 5.000 | 800.000 kredi |
+| 09:00 | Advanced Plasma | 25.000 | 500.000 kredi |
+| 09:00 | Lancet I | 1.250 | 250.000 kredi |
+| 10:00 | Scatter I | 5.000 | 1.000.000 kredi |
 | 10:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 10:00 | EMP Charge | 5 | 100.000 kredi |
 | 11:00 | EMP Charge | 5 | 100.000 kredi |
 | 11:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 11:00 | Lancet I | 12.500 | 1.250.000 kredi |
+| 11:00 | Lancet I | 12.500 | 2.500.000 kredi |
 | 12:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 12:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 12:00 | Scatter II | 5.000 | 800.000 kredi |
-| 13:00 | Lancet III | 1.250 | 250.000 kredi |
+| 12:00 | Scatter I | 5.000 | 1.000.000 kredi |
+| 13:00 | Lancet I | 1.250 | 250.000 kredi |
 | 13:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 13:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 14:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 14:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 14:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 14:00 | Ember I | 12.500 | 2.500.000 kredi |
 | 15:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 15:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 15:00 | Lancet III | 1.250 | 250.000 kredi |
+| 15:00 | Lancet I | 1.250 | 250.000 kredi |
 | 16:00 | Ultra Core | 50.000 | 2.000.000 kredi |
 | 16:00 | Advanced Plasma | 10.000 | 200.000 kredi |
-| 16:00 | Scatter III | 1.250 | 250.000 kredi |
-| 17:00 | Rivet I | 12.500 | 1.250.000 kredi |
+| 16:00 | Ember I | 5.000 | 1.000.000 kredi |
+| 17:00 | Rivet I | 12.500 | 2.500.000 kredi |
 | 17:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 17:00 | EMP Charge | 5 | 100.000 kredi |
 | 18:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 18:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 18:00 | Scatter II | 5.000 | 800.000 kredi |
-| 19:00 | Ember II | 5.000 | 800.000 kredi |
+| 18:00 | Scatter I | 5.000 | 1.000.000 kredi |
+| 19:00 | Ember I | 5.000 | 1.000.000 kredi |
 | 19:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 19:00 | EMP Charge | 5 | 100.000 kredi |
 | 20:00 | Ultra Core | 25.000 | 1.000.000 kredi |
 | 20:00 | Advanced Plasma | 25.000 | 500.000 kredi |
-| 20:00 | Rivet I | 12.500 | 1.250.000 kredi |
+| 20:00 | Rivet I | 12.500 | 2.500.000 kredi |
 | 21:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 21:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 21:00 | Rivet II | 5.000 | 800.000 kredi |
+| 21:00 | Rivet I | 5.000 | 1.000.000 kredi |
 | 22:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 22:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 22:00 | Scatter III | 1.250 | 250.000 kredi |
+| 22:00 | Scatter I | 1.250 | 250.000 kredi |
 | 23:00 | EMP Charge | 5 | 100.000 kredi |
 | 23:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 23:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 23:00 | Ember I | 12.500 | 2.500.000 kredi |
 
 <!-- market-day:end -->
 

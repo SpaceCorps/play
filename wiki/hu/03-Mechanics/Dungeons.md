@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Kazamaták -->
 # Kazamaták {#dungeons}
 
@@ -20,7 +20,7 @@ A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat 
 - **Kazamata egyszerre**: 6 egy világban
 - **Térképek**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labirintusok**: 8; a kazamata megnyitásakor az egyiket választja a játék
-- **Főellenség terme**: Akkor nyílik meg, ha a labirintus idegenjeinek 75%-a megsemmisült, felfelé kerekítve
+- **Főellenség terme**: Akkor nyílik meg, ha a Crystalysok és a Twinjeik 75%-a megsemmisült, felfelé kerekítve
 - **Gyülekezés**: 10 perc a gyülekezésre és az indításra. Az a kazamata, amelyet senki sem indít el, bezárul, és az ára visszakerül a klánbankba
 - **Időkorlát**: 1. fokozat: 95 perc, 2. fokozat: 130 perc, 3. fokozat: 165 perc az indítástól. Ha lejár, a kazamata elbukik, és semmit sem fizet
 - **Üresen**: Az a kazamata, amelyben 3 perc ideig senki sincs, elbukik
@@ -36,7 +36,7 @@ A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat 
 3. **Indítás.** A kezdőterem egy kis terem a labirintus egyik végén, és az ajtaja zárva marad, amíg a kazamata gyülekezik. Nincsenek benne idegenek, így biztonságosan lehet várakozni. A kazamata **magától elindul**, ha minden pilóta bent van, akire vár, és a csoport elég nagy. A klán azon tagjaira vár, akik online vannak, nincsenek távol, és egy bejutott pilóta csoportjában vannak, és azonnal elindul, ha a csoport megtelt. A pilóta, aki a kazamatát megnyitotta, vagy egy tiszt megnyomhatja az **Indítás** gombot, hogy korábban kezdjenek azokkal a pilótákkal, akik bent vannak, ha elegen vannak. Aki kilép, arra többé nem várnak. Amikor a kazamata elindul, az ajtó végleg kinyílik, és ezután csak azok a pilóták térhetnek vissza, akik már bent voltak.
 4. **Át a labirintuson.** A labirintus egyik végén lépsz be, a másikon vár a Hadúr egy lezárt teremben. A labirintus sötét: csak azt látod, amit a csoport felfedezett, és ami a hajói közelében van. Az idegenek falkákban alszanak a folyosókon, és az a falka, amelyik felébred, végigüldözi a csoportot a labirintuson.
 5. **A zsákmányzónák megnyitása.** A labirintusban gyűrűk jelölik a zónákat. Tarts meg egyet, és a csoport szavaz egy kártyára, amelyet a Hadúr fizetségével együtt fizetnek ki.
-6. **A főnökterem feloldása.** Pusztítsd el a labirintus idegeneinek háromnegyedét, és a Hadúr termének ajtaja kinyílik. Addig a Hadúr nem sebezhető.
+6. **A főnökterem feloldása.** Pusztítsd el a labirintus Crystalysainak és Twinjeinek háromnegyedét, és a Hadúr termének ajtaja kinyílik. Addig a Hadúr nem sebezhető. A többi idegen marad, ahol van, és őket is elpusztíthatod.
 7. **A Hadúr legyőzése.** Törd át a pajzsát és a hajótestét, és válaszolj a képességeire. Amikor elesik, a kazamata teljesítve van.
 8. **A fizetség.** A fizetség abban a pillanatban érkezik, amikor a Hadúr elesik. A kazamata még egy ideig nyitva marad a bent lévő pilótáknak, aztán bezárul.
 
@@ -56,7 +56,7 @@ Amíg a klánod kazamataja gyülekezik, és te máshol repülsz, **riasztás** �
 
 ### A Klánkazamata ablak {#the-clan-dungeon-window}
 
-A kazamatában a menetnek saját ablaka van, a **Klánkazamata**. Mutatja az eltelt időt és ami hátravan, hány idegen repül és hányat semmisítettek meg, mit kell most tennie a csoportnak (felfedezni a labirintust, tartani egy zónát, megtalálni a főnököt, elpusztítani az idegenek háromnegyedét, legyőzni a Hadúrt), a csoport hajótest-sávjait, a tartósávot, amíg egy zónában állsz, a Hadúr képességét a visszaszámlálásával, és a **Kilépés** gombot. Ugyanolyan ablak, mint a többi: húzd a címsoránál fogva, és zárd be a sarkában lévő piros fénnyel. Magától kinyílik, amikor belépsz egy kazamatába, minden kazamatánál egyszer: ha bezárod, a következő kazamatáig zárva marad. Az eszköztáron van hozzá egy **Klánkazamata** gomb, amíg egy kazamatában vagy. Amíg az ablak zárva van, a Hadúr egy képessége, amely mindjárt indul vagy éppen hat, egyetlen soros sávként jelenik meg a nevével és a visszaszámlálásával. Kattints a sávra, hogy újra megnyisd az ablakot.
+A kazamatában a menetnek saját ablaka van, a **Klánkazamata**. Mutatja az eltelt időt és ami hátravan, hány idegen repül és hányat semmisítettek meg, mit kell most tennie a csoportnak (felfedezni a labirintust, tartani egy zónát, megtalálni a főnököt, elpusztítani a Crystalysok és a Twinjeik háromnegyedét, legyőzni a Hadúrt), a tartósávot, amíg egy zónában állsz, a Hadúr képességét a visszaszámlálásával, és a **Kilépés** gombot. Ugyanolyan ablak, mint a többi: húzd a címsoránál fogva, és zárd be a sarkában lévő piros fénnyel. Magától kinyílik, amikor belépsz egy kazamatába, minden kazamatánál egyszer: ha bezárod, a következő kazamatáig zárva marad. Az eszköztáron van hozzá egy **Klánkazamata** gomb, amíg egy kazamatában vagy. Amíg az ablak zárva van, a Hadúr egy képessége, amely mindjárt indul vagy éppen hat, egyetlen soros sávként jelenik meg a nevével és a visszaszámlálásával. Kattints a sávra, hogy újra megnyisd az ablakot.
 
 ## A fokozatok {#the-stages}
 
@@ -77,13 +77,13 @@ Egy kazamatának van fokozata, és a fokozat a nehézsége. Magasabb fokozaton s
 
 Minden kazamata egy zárt labirintus egy saját térképen, a fenti lista egyik térképén, és a labirintus több elrendezés egyike. A labirintus kitölti az egész térképet, szélétől szélig: termek és folyosók rácsa tömör falakkal. A hajók nem juthatnak át a falon, és a fal a lövéseket is blokkolja, így fedezék. A meteor fentről esik, és egy fal nem állítja meg.
 
-**Termek és ajtók.** A kezdőteremnek, ahol landolsz, és a Hadúr termének a túlsó végen, egy-egy ajtaja van. A zárt ajtó fal a hajóknak, a lövéseknek és az idegeneknek egyaránt. A kezdőajtó kinyílik, amikor a kazamata elindul. A Hadúr ajtaja zárva marad, amíg az idegenek háromnegyede meg nem semmisül (lásd [A lezárt terem](#the-locked-room)). Köztük a labirintusban minden zsákmányzónához van egy zsákmányterem.
+**Termek és ajtók.** A kezdőteremnek, ahol landolsz, és a Hadúr termének a túlsó végen, egy-egy ajtaja van. A zárt ajtó fal a hajóknak, a lövéseknek és az idegeneknek egyaránt. A kezdőajtó kinyílik, amikor a kazamata elindul. A Hadúr ajtaja zárva marad, amíg a Crystalysok és a Twinjeik háromnegyede meg nem semmisül (lásd [A lezárt terem](#the-locked-room)). Köztük a labirintusban minden zsákmányzónához van egy zsákmányterem.
 
 **Köd.** A labirintus sötét. Repülés közben a falait és az idegeneit csak ott látod, ahol a csoport járt, és a csoport minden hajója körül egy kis darabon. Egy terem felfedezettnek számít, amint egyikőtök bent van. A minitérkép ugyanígy működik: az egész szint térképe, amely a csoport felfedezésével tölt ki, a bejárattal, a Hadúr ajtajával, a megtalált zónákkal és a Hadúrral, ha megtaláltátok. A saját csoportod pilótái mindig látszanak.
 
 ## Az idegenek {#the-aliens}
 
-Négyféle idegen őrzi a labirintust. Falkákban alszanak a folyosókon, soha nem egy teremben, és egy falka felébred, amikor egy pilóta a közelébe ér. Az ébren lévő falka nem vár rád: végigüldözi a csoportot a labirintuson, és az a falka, amelyik mindenkit elveszít, visszamegy oda, ahol aludt, és meggyógyul. Néhány falka az első másodperctől ébren van, a folyosókon áll a bejárattól távol, amíg egy pilóta a közelébe nem ér. A kazamata egyszerre csak annyi idegent tart a levegőben, és ez a szám a csoport méretével nő, így egy falkának, amely felébred, várnia kell a helyre, és egy falka, amelyet elpusztítasz, beengedi a következőt. Egy nagyobb csoport arányosan több idegennel találkozik, egy kisebb kevesebbel, és az idegenek egy fajtája soha nem esik egy alá.
+Négyféle idegen őrzi a labirintust. Falkákban alszanak a folyosókon, soha nem egy teremben, és egy falka felébred, amikor egy pilóta a közelébe ér. Az ébren lévő falka nem vár rád: végigüldözi a csoportot a labirintuson, és az a falka, amelyik mindenkit elveszít, visszamegy oda, ahol aludt, és meggyógyul. Néhány falka az első másodperctől ébren van, a folyosókon áll a bejárattól távol, amíg egy pilóta a közelébe nem ér. A kazamata egyszerre csak annyi idegent tart a levegőben, és ez a szám a csoport méretével nő, így egy falkának, amely felébred, várnia kell a helyre, és egy falka, amelyet elpusztítasz, beengedi a következőt. Egy nagyobb csoport arányosan több idegennel találkozik, egy kisebb kevesebbel, és az idegenek egy fajtája soha nem esik egy alá. Az a falka, amelyik még a helyre vár, amikor minden pilóta eltávolodott, visszaalszik, és újra felébred, amikor egy pilóta a közelébe ér.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Négyféle idegen őrzi a labirintust. Falkákban alszanak a folyosókon, soha n
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Összesen | 235 | 235 | 235 |
-| A főellenség termének megnyitásához | 177 | 177 | 177 |
+| A főellenség termének megnyitásához | 34 | 34 | 34 |
 | Egy zsákmányzóna hulláma | 12 × Dungeon Goombah és 1 × Dungeon Crystalys | 12 × Dungeon Goombah és 1 × Dungeon Crystalys | 12 × Dungeon Goombah és 1 × Dungeon Crystalys |
 
 - **Egyszerre életben**: Legfeljebb 10 a csoport minden pilótájára, és összesen 70
@@ -125,7 +125,7 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 - **Úgy néz ki, mint**: Pirate Boss
 - **Falkaméret**: 2
-- **Rakéta**: Egyenes rakéta 5 mp időközönként, hatótávolsága 970 egység
+- **Rakéta**: Egyenes rakéta 5 mp időközönként, hatótávolsága 1 000 egység
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ A fenti hajótest és pajzs 5 fős csoportra vonatkozik. A csoporttal együtt n�
 
 ### A lezárt terem {#the-locked-room}
 
-A Hadúr termének ajtaja attól a pillanattól zárva van, hogy a kazamatát megnyitják, és amíg zárva van, a Hadúr nem sebezhető: semmilyen lézer, rakéta vagy robbanás nem éri, és egyetlen képességet sem használ. Az ajtó végleg kinyílik, amikor megsemmisült **az idegenek háromnegyede**, amelyekkel a kazamatát létrehozták, felfelé kerekítve (a fenti idegentáblázat egy 5 fős csoportra számolja őket). Azok az idegenek számítanak, amelyek a labirintus falkáiban vannak, köztük azok a falkák is, amelyek az első másodperctől a folyosókon állnak, mind a négy fajtából, és mindegy, ki semmisíti meg őket. A zsákmányzónák hullámai, a Goombahok, amelyeket a Hadúr hív, és maga a Hadúr nem számítanak.
+A Hadúr termének ajtaja attól a pillanattól zárva van, hogy a kazamatát megnyitják, és amíg zárva van, a Hadúr nem sebezhető: semmilyen lézer, rakéta vagy robbanás nem éri, és egyetlen képességet sem használ. Az ajtó végleg kinyílik, amikor megsemmisült **a Crystalysok és a Twinjeik háromnegyede**, amelyekkel a kazamatát létrehozták, felfelé kerekítve (a fenti idegentáblázat egy 5 fős csoportra számolja őket, és az utolsó sora megmondja, mennyi kell). A labirintus falkáiban lévő Crystalysok és Twinek számítanak, köztük azok is, amelyek az első másodperctől a folyosókon álló falkákban vannak, és mindegy, ki semmisíti meg őket. A többi idegen, a zsákmányzónák hullámai, a Goombahok, amelyeket a Hadúr hív, és maga a Hadúr nem számítanak az ajtó felé.
 
-A Klánkazamata ablak számolja, hány idegent kell még megsemmisíteni a terem megnyitásához, és egy jelzésben megmondja, hogy a Hadúr nem sebezhető, egy üzenet pedig szól, amikor a terem feloldódik. Egy falka, amely még alszik, teljes egészében számít, így a csoportnak fel kell fedeznie a labirintust, de az idegenek utolsó negyedét békén hagyhatja. A minitérképen az ajtó piros vonal, amíg zárva van, és zöld, amikor nyitva. Egy kazamata soha nem csapda: az időkorlát akkor is véget vet egy kazamatának, amelynek ajtaja zárva marad, és egy adminisztrátor feloldhatja egy elakadt kazamata termét.
+A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem megnyitásához, és egy jelzésben megmondja, hogy a Hadúr nem sebezhető, egy üzenet pedig szól, amikor a terem feloldódik. Egy falka, amely még alszik, teljes egészében számít, így a csoportnak meg kell találnia a labirintusban a Crystalysokat és a Twinjeiket. **A többi idegen nem tűnik el, amikor az ajtó kinyílik.** Maradnak a labirintusban, felébrednek, amikor egy pilóta a közelükbe ér, és ugyanúgy megsemmisíthetők, mint addig, így a csoport, ha akarja, mindet elpusztíthatja, mielőtt a Hadúrral harcol: az ablakban az idegenek száma egészen az összes idegenig megy, amellyel a kazamatát létrehozták, és tele van, amikor egy sem maradt. Nem fizetnek semmit, és akik még élnek, amikor a Hadúr elesik, a kazamatával együtt eltűnnek. A minitérképen az ajtó piros vonal, amíg zárva van, és zöld, amikor nyitva. Egy kazamata soha nem csapda: az időkorlát akkor is véget vet egy kazamatának, amelynek ajtaja zárva marad, és egy adminisztrátor feloldhatja egy elakadt kazamata termét.
 
 ### A képességei {#its-abilities}
 
@@ -212,7 +212,7 @@ A Klánkazamata ablak számolja, hány idegent kell még megsemmisíteni a terem
 - A **Fókusz a legkeresettebbre** megjelöli azt a pilótát, aki a legtöbb sebzést okozta a Hadúrnak, egy arany zárójellel a hajóján, és a Hadúr minden másodpercben egy extra lövést ad le rá, amíg tart. A célzása nem változik: tovább lő a legközelebbi pilótára, akit lát, így az a megjelölt pilóta, aki egyben a legközelebbi is, mindkettőt megkapja. Az extra lövéshez szabad rálátás és a Hadúr lézerének hatótávolsága kell, így egy fal vagy némi távolság megmenti. Nem indul el, amíg senki nem okozott sebzést.
 - A **Rakétazápor** önirányító rakétákat küld véletlen pilótákra, de csak olyan pilótákra, akiket a Hadúr lát, és az útba eső fal megállít egy rakétát. Egy gyűrű mutatja, melyik pilótát követi egy rakéta. Egy EMP Charge vagy az álca lerázza őket.
 - A **Rajtámogatás** az, amikor a Hadúr hívja a Goombahjait. Amíg élnek, nem sebezhető, és nem lő, és más képességet sem használ. Pusztítsd el mindet: a szalag számolja, hány maradt. Ha eltelik egy perc, a Hadúr újra sebezhető, és a megmaradt Goombahok maradnak és tovább harcolnak. Nem számítanak a főnökterem megnyitásához, és semmit nem fizetnek.
-- A **Káoszzóna** egy lila gyűrű a földön, azon a helyen, ahol a Hadúr állt, amikor kiváltotta. A gyűrűben senki nem támadhat, sem lézerrel, sem rakétával, a javítás, az álca és a repülés viszont működik, és a Hadúr és az idegenei úgy lőnek, mint mindig. A gyűrű egy pillanattal a hatása előtt megjelenik: lépj ki belőle, és kívülről lőj be.
+- A **Káoszzóna** egy lila gyűrű a földön, a Hadúr körül, és amíg tart, mindenhová megy, ahová a Hadúr. A gyűrűben senki nem támadhat, sem lézerrel, sem rakétával, a javítás, az álca és a repülés viszont működik, és a Hadúr és az idegenei úgy lőnek, mint mindig. A gyűrű egy pillanattal a hatása előtt megjelenik: lépj ki belőle, és maradj kint, mert követi a Hadúrt. A gyűrűn kívüli pilóta tovább lőhet, ameddig a fegyverei elérnek.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ A Klánkazamata ablak számolja, hány idegent kell még megsemmisíteni a terem
 | **Életszívó aura** | 8 000 másodpercenként | 10 000 másodpercenként | 12 000 másodpercenként |
 | **Meteorzápor** | 6 meteor sorozatonként, egyenként 40 000 | 8 meteor sorozatonként, egyenként 50 000 | 10 meteor sorozatonként, egyenként 60 000 |
 | **Fókusz a legkeresettebbre** | 18 750–22 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 22 500–26 250 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 30 000–37 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
-| **Rakétazápor** | 6 500 rakétánként, 15 mp időközönként egy | 8 125 rakétánként, 15 mp időközönként egy | 9 750 rakétánként, 15 mp időközönként egy |
+| **Rakétazápor** | 26 000 rakétánként, 15 mp időközönként egy | 32 500 rakétánként, 15 mp időközönként egy | 39 000 rakétánként, 15 mp időközönként egy |
 | **Pajzselnyelés** | 10 000 pajzs másodpercenként | 12 500 pajzs másodpercenként | 15 000 pajzs másodpercenként |
 | **Rajtámogatás** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Káoszzóna** | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak |
@@ -266,7 +266,9 @@ Több pilóta a gyűrűben gyorsabban tartja a zónát. Ennyi ideig tart egy zó
 
 ### Boosterek {#boosters}
 
-A 2. és a 3. fokozaton a zsákmányzónák hullámai boostereket is hoznak. Amikor a csoport elpusztította egy hullám minden idegenét, a hullám beszámít, és minden második hullám után (a második, a negyedik és a hatodik) minden pilóta fél percnyi ablakot kap, hogy kiválasszon magának egy ideiglenes boostert: **Sebzés** (a lézereid erősebben ütnek), **Életerő** (a hajód több hajótestet bír) vagy **Sebesség** (a hajód gyorsabban repül). Nyomj egy kártyára a kiválasztásához. Ha nem válaszolsz időben, a játék választ helyetted Életerőt. Egy választás a 3. fokozaton 3%-ot ér, a 2. fokozaton 1,5%-ot, és egy fajta a 3. fokozaton legfeljebb 9%-ig, a 2. fokozaton 4,5%-ig adódik össze, akárhányszor választod. Az 1. fokozaton nincsenek boosterek. Az a csoport, amely életben hagy egy hullámot, nem kap hozzá ablakot.
+A 2. és a 3. fokozaton a csoport a kazamata idegeneinek elpusztításával szerez boostereket. Minden tizedüknél esik egy booster: amikor az idegenek egytizede elpusztult, aztán kéttizede, és így tovább egészen mindegyikig, összesen tíz esés. Minden idegen számít, amellyel a kazamatát létrehozták, bárki pusztítja is el (ez a Klánkazamata ablak elpusztított idegeneinek száma); a zsákmányzónák hullámai és az idegenek, amelyeket a Hadúr hív, nem számítanak, így egy zóna nem hoz boostert. Minden esésnél minden pilóta fél percnyi ablakot kap, hogy kiválasszon magának egy ideiglenes boostert abból a háromból, amelyet a játék véletlenszerűen húz az ötből: **Sebzés** (a lézereid erősebben ütnek), **Életerő** (a hajód több hajótestet bír), **Pajzs** (a pajzsod többet bír), **Sebesség** (a hajód gyorsabban repül) és **Pajzstöltődés** (a pajzsod gyorsabban töltődik újra). Nyomj egy kártyára a kiválasztásához. Ha nem válaszolsz időben, a játék választ helyetted Életerőt, vagy a három közül az elsőt, ha az Életerő nincs köztük. Egy választás a 3. fokozaton 3%-ot ér, a 2. fokozaton 1,5%-ot, így tíz választás legfeljebb harminc százalékig adódik össze a 3. fokozaton és tizenöt százalékig a 2. fokozaton, bármilyen fajtákból. Az 1. fokozaton nincsenek boosterek.
+
+A tizedik esés az utolsó idegennel jön. Az a csoport, amely minden idegent elpusztít, mielőtt a Hadúrral harcol, mind a tíz esést megkapja; az a csoport, amely kinyitja a Hadúr termét, és továbbrepül, azoknak az idegeneknek az eséseit kapja, amelyeket addig elpusztított, a megmaradt idegenek pedig maradnak, és még elpusztíthatók. Amint a Hadúrral való harc megkezdődött, többé nem esik booster.
 
 A booster addig tart, amíg a kazamatát teljesítik. Ha kilépsz a kazamatából, vagy megsemmisülsz, elveszíted a boostereidet, és visszakapod őket, amikor újra beszállsz. A Klánkazamata ablak alatti jelzés felsorolja, mid van.
 
@@ -285,7 +287,7 @@ A kártyákat egyenként húzzák az alábbi készletből. Az esély egy kárty�
 | Orvium | 200 | 300 | 500 | 13,65% | Minden kifizetett pilóta |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4% | Minden kifizetett pilóta |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1% | Minden kifizetett pilóta |
-| Dark Matter | 5 | 8 | 12 | 9,1% | Minden kifizetett pilóta |
+| Dark Matter | 10 | 16 | 24 | 9,1% | Minden kifizetett pilóta |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55% | Minden kifizetett pilóta |
 | Starfire-III | – | – | 1 | 0,07% | Minden kifizetett pilóta |
 | Helios Beam | – | – | 1 | 0,07% | Minden kifizetett pilóta |
@@ -377,7 +379,7 @@ A klánbank is kap fizetséget, kreditben és nem Thuliumban, amikor a klán egy
 
 - Számold fel egy zóna hullámát, mielőtt megpróbálnád tartani a zónát, és harcolj a gyűrűben, ha az idegenek bejönnek.
 - Vidd az egész csoportot egy zónába: minél több pilóta áll a gyűrűben, annál gyorsabban tartható.
-- Fedezd fel a labirintust, és pusztítsd el az idegeneket, akikkel találkozol: a Hadúr ajtaja akkor nyílik ki, ha háromnegyedük elpusztult, korábban nem.
+- Keresd meg a labirintusban a Crystalysokat és a Twinjeiket: a Hadúr ajtaja akkor nyílik ki, ha háromnegyedük elpusztult, korábban nem. A többi idegen várhat, vagy őket is elpusztíthatod.
 - Használd a falakat: a lézerek nem hatolnak át rajtuk, a Hadúr aurái piros gyűrűi megállnak náluk, és egy fal a Hadúr rakétáit is megállítja.
 - Tarts meg egy EMP Charge-ot a Rakétazáporra.
 - Amikor a Hadúr hívja a Goombahjait, előbb azokat pusztítsd el: nem sebezhető, amíg el nem tűntek. A Káoszzónában lépj ki a gyűrűből, mielőtt lősz.

@@ -70,7 +70,7 @@ Built from the Seeker at 400% of its hull, shield and damage; its speed and rang
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| One of the 8 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 2–3 |
+| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 2–3 |
 
 ### Seeker Slave
 

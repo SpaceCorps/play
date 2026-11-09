@@ -16,7 +16,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 89 föremål kan läggas ut, och 88 av dem kan även prissättas i Thulium.
+- 102 föremål kan läggas ut, och 101 av dem kan även prissättas i Thulium.
 - En annons löper 168 / 336 / 504 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 0,25 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 0,4 %.
@@ -55,9 +55,9 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Sköldceller** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Styrraketer** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Siphon Battery II (i partier om 10), Antimatter Battery I (i partier om 10), Ultra Core (i partier om 10), Dark Matter Ammo I (i partier om 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
-| **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Förbrukningsvaror** | EMP Charge, Energetic Wall II | 2 |
-| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
+| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
 | **Skrovpansar** | Hull Plating II, Hull Plating III | 2 |
 | **Resurser** | Cataclysite (i partier om 100), Ship Fragment (i partier om 100), Daraxium (i partier om 100), Nyxite (i partier om 100), Quorvium (i partier om 10), Reinforced Hull Plate (i partier om 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -85,7 +85,7 @@ Varje föremål har ett **lägsta pris**, och det finns **inget högsta pris**: 
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 200 | 1 |
+| Lancet I | 1 | 400 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33 000 | 33 |
 
@@ -194,78 +194,78 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre 
 
 | UTC-timme | Lott | Full storlek | Startbud vid full storlek |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter III | 1 250 | 250 000 krediter |
+| 00:00 | Scatter I | 1 250 | 250 000 krediter |
 | 00:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 00:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 01:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 01:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 01:00 | Lancet III | 1 250 | 250 000 krediter |
-| 02:00 | Lancet I | 12 500 | 1 250 000 krediter |
-| 02:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 01:00 | Scatter I | 1 250 | 250 000 krediter |
+| 02:00 | Lancet I | 12 500 | 2 500 000 krediter |
+| 02:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 02:00 | EMP Charge | 5 | 100 000 krediter |
 | 03:00 | EMP Charge | 5 | 100 000 krediter |
 | 03:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 03:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 03:00 | Lancet I | 12 500 | 2 500 000 krediter |
 | 04:00 | Ultra Core | 25 000 | 1 000 000 krediter |
 | 04:00 | Advanced Plasma | 25 000 | 500 000 krediter |
-| 04:00 | Rivet I | 12 500 | 1 250 000 krediter |
-| 05:00 | Rivet II | 5 000 | 800 000 krediter |
+| 04:00 | Rivet I | 12 500 | 2 500 000 krediter |
+| 05:00 | Rivet I | 5 000 | 1 000 000 krediter |
 | 05:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 05:00 | EMP Charge | 5 | 100 000 krediter |
 | 06:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 06:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 06:00 | Ember II | 5 000 | 800 000 krediter |
+| 06:00 | Ember I | 5 000 | 1 000 000 krediter |
 | 07:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 07:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 07:00 | Rivet II | 5 000 | 800 000 krediter |
-| 08:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 07:00 | Rivet I | 5 000 | 1 000 000 krediter |
+| 08:00 | Ember I | 12 500 | 2 500 000 krediter |
 | 08:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 08:00 | EMP Charge | 5 | 100 000 krediter |
 | 09:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 09:00 | Advanced Plasma | 10 000 | 200 000 krediter |
-| 09:00 | Ember II | 5 000 | 800 000 krediter |
-| 10:00 | Scatter II | 5 000 | 800 000 krediter |
+| 09:00 | Advanced Plasma | 25 000 | 500 000 krediter |
+| 09:00 | Lancet I | 1 250 | 250 000 krediter |
+| 10:00 | Scatter I | 5 000 | 1 000 000 krediter |
 | 10:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 10:00 | EMP Charge | 5 | 100 000 krediter |
 | 11:00 | EMP Charge | 5 | 100 000 krediter |
 | 11:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 11:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 11:00 | Lancet I | 12 500 | 2 500 000 krediter |
 | 12:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 12:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 12:00 | Scatter II | 5 000 | 800 000 krediter |
-| 13:00 | Lancet III | 1 250 | 250 000 krediter |
+| 12:00 | Scatter I | 5 000 | 1 000 000 krediter |
+| 13:00 | Lancet I | 1 250 | 250 000 krediter |
 | 13:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 13:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 14:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 14:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 14:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 14:00 | Ember I | 12 500 | 2 500 000 krediter |
 | 15:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 15:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 15:00 | Lancet III | 1 250 | 250 000 krediter |
+| 15:00 | Lancet I | 1 250 | 250 000 krediter |
 | 16:00 | Ultra Core | 50 000 | 2 000 000 krediter |
 | 16:00 | Advanced Plasma | 10 000 | 200 000 krediter |
-| 16:00 | Scatter III | 1 250 | 250 000 krediter |
-| 17:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 16:00 | Ember I | 5 000 | 1 000 000 krediter |
+| 17:00 | Rivet I | 12 500 | 2 500 000 krediter |
 | 17:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 17:00 | EMP Charge | 5 | 100 000 krediter |
 | 18:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 18:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 18:00 | Scatter II | 5 000 | 800 000 krediter |
-| 19:00 | Ember II | 5 000 | 800 000 krediter |
+| 18:00 | Scatter I | 5 000 | 1 000 000 krediter |
+| 19:00 | Ember I | 5 000 | 1 000 000 krediter |
 | 19:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 19:00 | EMP Charge | 5 | 100 000 krediter |
 | 20:00 | Ultra Core | 25 000 | 1 000 000 krediter |
 | 20:00 | Advanced Plasma | 25 000 | 500 000 krediter |
-| 20:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 20:00 | Rivet I | 12 500 | 2 500 000 krediter |
 | 21:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 21:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 21:00 | Rivet II | 5 000 | 800 000 krediter |
+| 21:00 | Rivet I | 5 000 | 1 000 000 krediter |
 | 22:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 22:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 22:00 | Scatter III | 1 250 | 250 000 krediter |
+| 22:00 | Scatter I | 1 250 | 250 000 krediter |
 | 23:00 | EMP Charge | 5 | 100 000 krediter |
 | 23:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 23:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 23:00 | Ember I | 12 500 | 2 500 000 krediter |
 
 <!-- market-day:end -->
 

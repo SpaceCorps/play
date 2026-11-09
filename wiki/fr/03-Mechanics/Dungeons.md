@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Donjons -->
 # Donjons {#dungeons}
 
@@ -20,7 +20,7 @@ Un donjon est un combat contre les aliens uniquement : personne ne peut y attaq
 - **Donjons en même temps** : 6 dans un monde
 - **Cartes** : Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labyrinthes** : 8 ; l’un est tiré à l’ouverture d’un donjon
-- **Salle du boss** : S’ouvre quand 75 % des aliens du labyrinthe sont détruits, arrondi à l’entier supérieur
+- **Salle du boss** : S’ouvre quand 75 % des Crystalys et de leurs Twins sont détruits, arrondi à l’entier supérieur
 - **Rassemblement** : 10 min pour se rassembler et lancer. Un donjon que personne ne lance se ferme, et son prix retourne à la banque du clan
 - **Limite de temps** : Étape 1: 95 min, Étape 2: 130 min, Étape 3: 165 min à partir du lancement. Si le temps s’écoule, le donjon échoue et ne paie rien
 - **Laissée vide** : Un donjon où personne ne reste pendant 3 min échoue
@@ -36,7 +36,7 @@ Un donjon est un combat contre les aliens uniquement : personne ne peut y attaq
 3. **Lancer.** La salle de départ est une petite salle à une extrémité du labyrinthe, et son sas reste fermé tant que le donjon se rassemble. Il n’y a pas d’aliens dedans, on peut donc y attendre en sécurité. Le donjon **se lance toute seule** quand chaque pilote qu’elle attend est à l’intérieur et que le groupe est assez grand. Elle attend les membres du clan qui sont en ligne, pas absents, et dans le groupe d’un pilote qui est entré, et elle se lance aussitôt quand le groupe est plein. Le pilote qui a ouvert le donjon, ou un officier, peut appuyer sur **Lancer** pour commencer plus tôt avec les pilotes qui sont à l’intérieur, s’ils sont assez nombreux. Un pilote qui part n’est plus attendu. Quand le donjon se lance, le sas s’ouvre pour de bon, et ensuite seuls les pilotes qui étaient déjà à l’intérieur peuvent revenir.
 4. **Traverser le labyrinthe.** Vous entrez par une extrémité du labyrinthe et le Seigneur de guerre attend à l’autre, dans une salle verrouillée. Le labyrinthe est sombre : vous ne voyez que ce que le groupe a exploré et ce qui est proche de ses vaisseaux. Les aliens dorment en meutes dans les couloirs, et une meute qui se réveille traque le groupe à travers le labyrinthe.
 5. **Ouvrir les zones de butin.** Des anneaux dans le labyrinthe marquent les zones. Tenez-en une et le groupe vote pour une carte, qui est versée avec la paie du Seigneur de guerre.
-6. **Déverrouiller la salle du boss.** Détruisez les trois quarts des aliens du labyrinthe, et le sas de la salle du Seigneur de guerre s’ouvre. Jusque-là, le Seigneur de guerre ne peut pas être blessé.
+6. **Déverrouiller la salle du boss.** Détruisez les trois quarts des Crystalys et de leurs Twins du labyrinthe, et le sas de la salle du Seigneur de guerre s’ouvre. Jusque-là, le Seigneur de guerre ne peut pas être blessé. Les autres aliens restent où ils sont, et vous pouvez aussi les détruire.
 7. **Vaincre le Seigneur de guerre.** Brisez son bouclier et sa coque, et répondez à ses compétences. Quand il tombe, le donjon est terminé.
 8. **Être payé.** La paie arrive à l’instant où le Seigneur de guerre tombe. Le donjon reste ouvert un peu plus longtemps pour les pilotes à l’intérieur, puis se ferme.
 
@@ -56,7 +56,7 @@ Tant que le donjon de votre clan se rassemble et que vous volez ailleurs, une **
 
 ### La fenêtre Donjon de clan {#the-clan-dungeon-window}
 
-Dans un donjon, la partie a sa propre fenêtre, **Donjon de clan**. Elle montre le temps écoulé et ce qui reste, combien d’aliens volent et combien ont été détruits, ce que le groupe doit faire maintenant (explorer le labyrinthe, tenir une zone, trouver le boss, détruire les trois quarts des aliens, vaincre le Seigneur de guerre), les barres de coque du groupe, la barre de tenue quand vous êtes dans une zone, la compétence du Seigneur de guerre avec son compte à rebours, et le bouton **Quitter**. C’est une fenêtre comme les autres : faites-la glisser par sa barre de titre et fermez-la avec le voyant rouge de son coin. Elle s’ouvre toute seule quand vous entrez dans un donjon, une fois pour chaque donjon : si vous la fermez, elle reste fermée jusqu’au donjon suivant. La barre d’outils a pour elle un bouton **Donjon de clan** tant que vous êtes dans un donjon. Quand la fenêtre est fermée, une compétence du Seigneur de guerre qui va démarrer ou qui est en cours s’affiche comme un bandeau d’une ligne avec son nom et son compte à rebours. Cliquez sur le bandeau pour rouvrir la fenêtre.
+Dans un donjon, la partie a sa propre fenêtre, **Donjon de clan**. Elle montre le temps écoulé et ce qui reste, combien d’aliens volent et combien ont été détruits, ce que le groupe doit faire maintenant (explorer le labyrinthe, tenir une zone, trouver le boss, détruire les trois quarts des Crystalys et de leurs Twins, vaincre le Seigneur de guerre), la barre de tenue quand vous êtes dans une zone, la compétence du Seigneur de guerre avec son compte à rebours, et le bouton **Quitter**. C’est une fenêtre comme les autres : faites-la glisser par sa barre de titre et fermez-la avec le voyant rouge de son coin. Elle s’ouvre toute seule quand vous entrez dans un donjon, une fois pour chaque donjon : si vous la fermez, elle reste fermée jusqu’au donjon suivant. La barre d’outils a pour elle un bouton **Donjon de clan** tant que vous êtes dans un donjon. Quand la fenêtre est fermée, une compétence du Seigneur de guerre qui va démarrer ou qui est en cours s’affiche comme un bandeau d’une ligne avec son nom et son compte à rebours. Cliquez sur le bandeau pour rouvrir la fenêtre.
 
 ## Les étapes {#the-stages}
 
@@ -77,13 +77,13 @@ Un donjon a une étape, et l’étape est sa difficulté. Une étape plus élev�
 
 Chaque donjon est un labyrinthe fermé sur une carte à part, l’une des cartes de la liste ci-dessus, et le labyrinthe est l’une de plusieurs dispositions. Le labyrinthe remplit toute la carte, d’un bord à l’autre : une grille de salles et de couloirs aux murs pleins. Les vaisseaux ne peuvent pas traverser un mur, et un mur bloque les tirs, c’est donc un abri. Un météore tombe d’en haut, et un mur ne l’arrête pas.
 
-**Salles et sas.** La salle de départ, où vous atterrissez, et la salle du Seigneur de guerre, à l’autre bout, ont chacune un sas. Un sas fermé est un mur pour les vaisseaux, les tirs et les aliens. Le sas de départ s’ouvre quand le donjon se lance. Celui du Seigneur de guerre reste verrouillé tant que les trois quarts des aliens ne sont pas détruits (voir [La salle verrouillée](#the-locked-room)). Entre les deux, le labyrinthe a une salle de butin pour chaque zone de butin.
+**Salles et sas.** La salle de départ, où vous atterrissez, et la salle du Seigneur de guerre, à l’autre bout, ont chacune un sas. Un sas fermé est un mur pour les vaisseaux, les tirs et les aliens. Le sas de départ s’ouvre quand le donjon se lance. Celui du Seigneur de guerre reste verrouillé tant que les trois quarts des Crystalys et de leurs Twins ne sont pas détruits (voir [La salle verrouillée](#the-locked-room)). Entre les deux, le labyrinthe a une salle de butin pour chaque zone de butin.
 
 **Brouillard.** Le labyrinthe est sombre. En vol, vous ne voyez ses murs et ses aliens que là où le groupe est passé, et sur une courte distance autour de chaque vaisseau du groupe. Une salle compte comme explorée dès que l’un de vous y entre. La mini-carte fait de même : c’est un plan de tout l’étage qui se remplit à mesure que le groupe l’explore, avec l’entrée, le sas du Seigneur de guerre, les zones que vous avez trouvées et le Seigneur de guerre une fois trouvé. Les pilotes de votre propre groupe sont toujours affichés.
 
 ## Les aliens {#the-aliens}
 
-Quatre sortes d’aliens gardent le labyrinthe. Ils dorment en meutes dans les couloirs, jamais dans une salle, et une meute se réveille quand un pilote approche. Une meute réveillée ne vous attend pas : elle traque le groupe à travers le labyrinthe, et une meute qui perd tout le monde retourne là où elle dormait et se soigne. Quelques meutes sont réveillées dès la première seconde, postées dans les couloirs loin de l’entrée, jusqu’à ce qu’un pilote approche. Le donjon ne garde en l’air qu’un certain nombre d’aliens à la fois, et ce nombre grandit avec la taille du groupe : une meute qui se réveille peut donc devoir attendre de la place, et une meute que vous détruisez laisse entrer la suivante. Un groupe plus grand rencontre plus d’aliens, en proportion, un groupe plus petit moins, et une sorte d’alien ne descend jamais sous un.
+Quatre sortes d’aliens gardent le labyrinthe. Ils dorment en meutes dans les couloirs, jamais dans une salle, et une meute se réveille quand un pilote approche. Une meute réveillée ne vous attend pas : elle traque le groupe à travers le labyrinthe, et une meute qui perd tout le monde retourne là où elle dormait et se soigne. Quelques meutes sont réveillées dès la première seconde, postées dans les couloirs loin de l’entrée, jusqu’à ce qu’un pilote approche. Le donjon ne garde en l’air qu’un certain nombre d’aliens à la fois, et ce nombre grandit avec la taille du groupe : une meute qui se réveille peut donc devoir attendre de la place, et une meute que vous détruisez laisse entrer la suivante. Un groupe plus grand rencontre plus d’aliens, en proportion, un groupe plus petit moins, et une sorte d’alien ne descend jamais sous un. Une meute qui attend encore de la place quand tous les pilotes se sont éloignés se rendort, et se réveille quand un pilote approche à nouveau.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Quatre sortes d’aliens gardent le labyrinthe. Ils dorment en meutes dans les c
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Total | 235 | 235 | 235 |
-| Pour ouvrir la salle du boss | 177 | 177 | 177 |
+| Pour ouvrir la salle du boss | 34 | 34 | 34 |
 | La vague d’une zone de butin | 12 × Dungeon Goombah et 1 × Dungeon Crystalys | 12 × Dungeon Goombah et 1 × Dungeon Crystalys | 12 × Dungeon Goombah et 1 × Dungeon Crystalys |
 
 - **Vivants en même temps** : Au plus 10 par pilote du groupe, et 70 en tout
@@ -125,7 +125,7 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 - **Ressemble à** : Pirate Boss
 - **Vole en meutes de** : 2
-- **Roquette** : Une roquette droite toutes les 5 s, portée de 970 unités
+- **Roquette** : Une roquette droite toutes les 5 s, portée de 1 000 unités
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ La coque et le bouclier ci-dessus valent pour un groupe de 5. Ils croissent avec
 
 ### La salle verrouillée {#the-locked-room}
 
-Le sas de la salle du Seigneur de guerre est fermé dès l’ouverture du donjon, et tant qu’il l’est, le Seigneur de guerre ne peut pas être blessé : aucun laser, aucune roquette, aucune explosion ne le touche, et il n’utilise aucune compétence. Le sas s’ouvre pour de bon quand **les trois quarts des aliens** avec lesquels le donjon a été fait sont détruits, arrondis à l’entier supérieur (le tableau des aliens ci-dessus les compte pour un groupe de 5). Comptent les aliens des meutes du labyrinthe, y compris les meutes qui se tiennent dans les couloirs dès la première seconde, des quatre sortes et quel que soit celui qui les détruit. Ne comptent pas les vagues des zones de butin, les Goombahs que le Seigneur de guerre appelle, ni le Seigneur de guerre lui-même.
+Le sas de la salle du Seigneur de guerre est fermé dès l’ouverture du donjon, et tant qu’il l’est, le Seigneur de guerre ne peut pas être blessé  aucun laser, aucune roquette, aucune explosion ne le touche, et il n’utilise aucune compétence. Le sas s’ouvre pour de bon quand **les trois quarts des Crystalys et de leurs Twins** avec lesquels le donjon a été fait sont détruits, arrondis à l’entier supérieur (le tableau des aliens ci-dessus les compte pour un groupe de 5, et sa dernière ligne dit combien il en faut). Comptent les Crystalys et les Twins des meutes du labyrinthe, y compris ceux des meutes qui se tiennent dans les couloirs dès la première seconde, et quel que soit celui qui les détruit. Ne comptent pas pour le sas les autres aliens, les vagues des zones de butin, les Goombahs que le Seigneur de guerre appelle, ni le Seigneur de guerre lui-même.
 
-La fenêtre Donjon de clan compte combien d’aliens il reste à détruire pour ouvrir la salle et dit, dans une pastille, que le Seigneur de guerre ne peut pas être blessé, et un message vous prévient quand la salle est déverrouillée. Une meute qui dort encore compte en entier, le groupe doit donc explorer le labyrinthe, mais il peut laisser en paix le dernier quart des aliens. Sur la mini-carte, le sas est une ligne rouge tant qu’il est verrouillé et une ligne verte quand il est ouvert. Un donjon n’est jamais un piège : la limite de temps met quand même fin à un donjon dont le sas reste fermé, et un administrateur peut déverrouiller la salle d’un donjon bloqué.
+La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire pour ouvrir la salle et dit, dans une pastille, que le Seigneur de guerre ne peut pas être blessé, et un message vous prévient quand la salle est déverrouillée. Une meute qui dort encore compte en entier, le groupe doit donc trouver les Crystalys et leurs Twins dans le labyrinthe. **Les autres aliens ne disparaissent pas quand le sas s’ouvre.** Ils restent dans le labyrinthe, se réveillent quand un pilote approche et peuvent être détruits comme avant  un groupe qui le veut peut donc tous les détruire avant d’affronter le Seigneur de guerre, le compte d’aliens de la fenêtre va alors jusqu’à tous les aliens avec lesquels le donjon a été fait et affiche le total quand il n’en reste plus. Ils ne rapportent rien, et ceux qui sont encore en vie quand le Seigneur de guerre tombe partent avec le donjon. Sur la mini-carte, le sas est une ligne rouge tant qu’il est verrouillé et une ligne verte quand il est ouvert. Un donjon n’est jamais un piège : la limite de temps met quand même fin à un donjon dont le sas reste fermé, et un administrateur peut déverrouiller la salle d’un donjon bloqué.
 
 ### Ses compétences {#its-abilities}
 
@@ -212,7 +212,7 @@ La fenêtre Donjon de clan compte combien d’aliens il reste à détruire pour 
 - **Focus sur le plus recherché** marque le pilote qui a infligé le plus de dégâts au Seigneur de guerre, d’un crochet doré sur son vaisseau, et le Seigneur de guerre tire sur lui un trait de plus chaque seconde tant que la compétence dure. Sa visée ne change pas : il continue de tirer sur le pilote le plus proche qu’il voit, un pilote marqué qui est aussi le plus proche prend donc les deux. Le trait supplémentaire demande une ligne dégagée et la portée du laser du Seigneur de guerre, donc un mur ou un peu de distance le sauve. Elle ne démarre pas tant que personne n’a infligé de dégâts.
 - **La Salve de roquettes** lance des roquettes à tête chercheuse sur des pilotes au hasard, mais seulement sur des pilotes que le Seigneur de guerre peut voir, et un mur sur le chemin arrête une roquette. Un anneau montre quel pilote une roquette suit. Une EMP Charge ou une occultation les fait lâcher prise.
 - **Le Renfort d’essaim** est le Seigneur de guerre qui appelle ses Goombahs. Tant qu’ils vivent, il ne peut pas être blessé, et il ne tire pas et n’utilise aucune autre compétence. Détruisez-les tous : la bannière compte combien il en reste. Si une minute passe, le Seigneur de guerre peut de nouveau être blessé et les Goombahs qui restent continuent le combat. Ils ne comptent pas pour la salle du boss, et ils ne paient rien.
-- **La Zone du Chaos** est un anneau violet au sol, autour de l’endroit où se tenait le Seigneur de guerre quand il l’a lancée. Personne dans l’anneau ne peut attaquer, ni avec des lasers ni avec des roquettes, mais les réparations, l’occultation et le vol fonctionnent toujours, et le Seigneur de guerre et ses aliens tirent comme toujours. L’anneau apparaît un instant avant de faire effet : sortez-en, et tirez dedans depuis l’extérieur.
+- **La Zone du Chaos** est un anneau violet au sol, autour du Seigneur de guerre, et tant qu’elle dure, il va partout où va le Seigneur de guerre. Personne dans l’anneau ne peut attaquer, ni avec des lasers ni avec des roquettes, mais les réparations, l’occultation et le vol fonctionnent toujours, et le Seigneur de guerre et ses aliens tirent comme toujours. L’anneau apparaît un instant avant de faire effet  sortez-en et restez dehors, car il suit le Seigneur de guerre. Un pilote à l’extérieur peut toujours tirer, aussi loin que portent ses armes.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ La fenêtre Donjon de clan compte combien d’aliens il reste à détruire pour 
 | **Aura de vol de vie** | 8 000 par seconde | 10 000 par seconde | 12 000 par seconde |
 | **Chute de météores** | 6 météores par salve, 40 000 chacun | 8 météores par salve, 50 000 chacun | 10 météores par salve, 60 000 chacun |
 | **Focus sur le plus recherché** | 18 750–22 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 22 500–26 250 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 30 000–37 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
-| **Salve de roquettes** | 6 500 par roquette, une toutes les 15 s | 8 125 par roquette, une toutes les 15 s | 9 750 par roquette, une toutes les 15 s |
+| **Salve de roquettes** | 26 000 par roquette, une toutes les 15 s | 32 500 par roquette, une toutes les 15 s | 39 000 par roquette, une toutes les 15 s |
 | **Absorption de bouclier** | 10 000 de bouclier par seconde | 12 500 de bouclier par seconde | 15 000 de bouclier par seconde |
 | **Renfort d’essaim** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone du Chaos** | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer |
@@ -266,7 +266,9 @@ Plus il y a de pilotes dans l’anneau, plus une zone est tenue vite. Voici le t
 
 ### Boosters
 
-Aux étapes 2 et 3, les vagues des zones de butin apportent aussi des boosters. Quand le groupe a détruit tous les aliens d’une vague, la vague compte, et après chaque deuxième vague (la deuxième, la quatrième et la sixième), chaque pilote reçoit une fenêtre d’une demi-minute pour choisir un booster temporaire pour lui-même : **Dégâts** (vos lasers frappent plus fort), **Points de vie** (votre vaisseau tient plus de coque) ou **Vitesse** (votre vaisseau vole plus vite). Appuyez sur une carte pour la choisir. Si vous ne répondez pas à temps, le jeu choisit Points de vie pour vous. Un choix vaut 3 % à l’étape 3 et 1,5 % à l’étape 2, et un type s’additionne jusqu’à 9 % à l’étape 3 et 4,5 % à l’étape 2, quel que soit le nombre de fois où vous le choisissez. L’étape 1 n’a pas de boosters. Un groupe qui laisse une vague en vie n’obtient pas de fenêtre pour elle.
+Aux étapes 2 et 3, le groupe gagne des boosters en détruisant les aliens du donjon. Un booster tombe à chaque dixième d’entre eux  quand un dixième des aliens est détruit, puis deux dixièmes, et ainsi de suite jusqu’à tous, dix chutes en tout. Chaque alien avec lequel le donjon a été fait compte, quel que soit celui qui le détruit (c’est le compte des aliens détruits de la fenêtre Donjon de clan)  les vagues des zones de butin et les aliens que le Seigneur de guerre appelle ne comptent pas, donc une zone n’apporte aucun booster. À chaque chute, chaque pilote reçoit une fenêtre d’une demi-minute pour choisir un booster temporaire pour lui-même parmi trois que le jeu tire au hasard sur cinq  **Dégâts** (vos lasers frappent plus fort), **Points de vie** (votre vaisseau tient plus de coque), **Bouclier** (votre bouclier tient plus), **Vitesse** (votre vaisseau vole plus vite) et **Recharge bouclier** (votre bouclier se recharge plus vite). Appuyez sur une carte pour la choisir. Si vous ne répondez pas à temps, le jeu choisit Points de vie pour vous, ou le premier des trois si Points de vie n’en fait pas partie. Un choix vaut 3 % à l’étape 3 et 1,5 % à l’étape 2, donc dix choix s’additionnent jusqu’à trente pour cent au plus à l’étape 3 et quinze pour cent à l’étape 2, quels que soient les types. L’étape 1 n’a pas de boosters.
+
+La dixième chute vient avec le dernier alien. Un groupe qui détruit tous les aliens avant d’affronter le Seigneur de guerre obtient les dix chutes  un groupe qui ouvre la salle du Seigneur de guerre et poursuit sa route obtient les chutes des aliens qu’il a détruits d’ici là, et les aliens qui restent restent et peuvent encore être détruits. Une fois le combat contre le Seigneur de guerre commencé, plus aucun booster ne tombe.
 
 Un booster dure jusqu’à ce que le donjon soit terminé. Si vous quittez le donjon, ou si vous êtes détruit, vous perdez vos boosters, et vous les retrouvez quand vous revolez dedans. Une pastille sous la fenêtre Donjon de clan liste ce que vous avez.
 
@@ -285,7 +287,7 @@ Les cartes sont tirées une à une dans la réserve ci-dessous. La chance est ce
 | Orvium | 200 | 300 | 500 | 13,65 % | Chaque pilote payé |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4 % | Chaque pilote payé |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1 % | Chaque pilote payé |
-| Dark Matter | 5 | 8 | 12 | 9,1 % | Chaque pilote payé |
+| Dark Matter | 10 | 16 | 24 | 9,1 % | Chaque pilote payé |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Chaque pilote payé |
 | Starfire-III | – | – | 1 | 0,07 % | Chaque pilote payé |
 | Helios Beam | – | – | 1 | 0,07 % | Chaque pilote payé |
@@ -377,7 +379,7 @@ La banque du clan est payée aussi, en crédits et non en Thulium, la première 
 
 - Éliminez la vague d’une zone avant d’essayer de la tenir, et battez-vous dans l’anneau si des aliens y entrent.
 - Amenez tout le groupe dans une zone : plus il y a de pilotes dans l’anneau, plus vite elle est tenue.
-- Explorez le labyrinthe et détruisez les aliens que vous croisez : le sas du Seigneur de guerre s’ouvre quand les trois quarts d’entre eux sont morts, et pas avant.
+- Cherchez les Crystalys et leurs Twins dans le labyrinthe  le sas du Seigneur de guerre s’ouvre quand les trois quarts d’entre eux sont morts, et pas avant. Les autres aliens peuvent attendre, ou être détruits aussi.
 - Servez-vous des murs : les lasers ne les traversent pas, les anneaux rouges des auras du Seigneur de guerre s’y arrêtent, et un mur arrête aussi ses roquettes.
 - Gardez une EMP Charge pour la Salve de roquettes.
 - Quand le Seigneur de guerre appelle ses Goombahs, détruisez-les d’abord : il ne peut pas être blessé tant qu’ils ne sont pas partis. Dans la Zone du Chaos, sortez de l’anneau avant de tirer.

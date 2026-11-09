@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -52,11 +52,13 @@ Chatten har en rad med flikar överst: **Global**, **Lokal**, **Grupp** (medan d
 | Kanal | Vem som hör den | Kommando |
 | :--- | :--- | :--- |
 | **Lokal** | piloter på din karta | `/l` eller `/local` |
-| **Global** | alla piloter online | `/g` eller `/global` |
-| **Grupp** | din grupp, var den än är | `/p`, `/party` eller `/group` |
-| **Privat** | en enda pilot, var den än är | `/m`, `/msg` eller `/w`, sedan namnet och meddelandet ([nedan](#private-messages)) |
+| **Global** | alla piloter på alla servrar och i alla världar | `/g` eller `/global` |
+| **Grupp** | din grupp på din server, var den än är | `/p`, `/party` eller `/group` |
+| **Privat** | en enda pilot på din server, var den än är | `/m`, `/msg` eller `/w`, sedan namnet och meddelandet ([nedan](#private-messages)) |
 
 Ett kommando byter också flik, och skrivet ensamt (`/g`) byter det bara flik. Gruppchatten kräver en grupp. På en spelserver från före kanalerna är chatten den enda lista den var, och en grupp kan inte bildas.
+
+**Global** är en enda chatt för hela spelet: din rad hörs av alla piloter på alla servrar och i alla världar, under flygning och på stationen. En rad från en annan server kan komma fram en stund efter att den skickats, och piloter på olika servrar kan se två nästan samtidiga rader i olika ordning. Låt pekaren vila på en pilots namn: kortet som öppnas anger också vilken server piloten flyger på, när det inte är din. De andra kanalerna stannar på den server du är på: **Lokal** är piloterna på din karta, gruppchatten och privata meddelanden når bara piloter på din server, och [dödsloggen](#the-kill-feed) och **System**-raderna (serverns meddelanden) tillhör varje server för sig. Förlorar en server förbindelsen med de andra krymper dess Global till dess egna piloter tills förbindelsen är tillbaka; ett kort avbrott tas igen i efterhand, och det som sades under ett längre berättas inte efteråt.
 
 Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamnar det servern säger av sig själv (välkomsten, varningarna för omstart, uppdatering och wipe, svärmmeddelandena) och det ditt skepp rapporterar (reparationer, kamouflage, EMP, raketer). De raderna finns i ingen annan flik, så en livlig Global kan inte tränga undan dem, och de andra flikarna innehåller det piloter säger. Flikens räknare gäller bara meddelandena; en nedräkning till omstart eller uppdatering och wipe-varningarna dyker dessutom upp en kort stund på skärmen. [Dödsloggen](#the-kill-feed) stannar i **Global**, med sin egen knapp, och raderna om piloter som går med i din grupp eller lämnar den finns i **Grupp**.
 
@@ -66,7 +68,7 @@ Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamn
 
 ### Privata meddelanden {#private-messages}
 
-Skriv `/m`, en pilots namn och ditt meddelande för att skriva till just den piloten: `/m nova o7` (`/msg` och `/w` gör samma sak). Piloten måste vara online, i vilken värld som helst, på stationen eller i flykten. Namnet är pilotens namn som chatten visar det, med vilka versaler som helst (`/m NOVA`, `/m @nova` och `/m nova:` hittar alla nova): det måste vara hela namnet, aldrig bara början på det, så att ett meddelande inte kan gå till fel pilot. `/r` och ditt svar (`/r o7`) svarar den pilot som skrev till dig senast, eller den pilot du själv skrev till senast om ingen har skrivit till dig.
+Skriv `/m`, en pilots namn och ditt meddelande för att skriva till just den piloten: `/m nova o7` (`/msg` och `/w` gör samma sak). Piloten måste vara online på din server, i vilken värld som helst, på stationen eller i flykten. Namnet är pilotens namn som chatten visar det, med vilka versaler som helst (`/m NOVA`, `/m @nova` och `/m nova:` hittar alla nova): det måste vara hela namnet, aldrig bara början på det, så att ett meddelande inte kan gå till fel pilot. `/r` och ditt svar (`/r o7`) svarar den pilot som skrev till dig senast, eller den pilot du själv skrev till senast om ingen har skrivit till dig.
 
 Ett privat meddelande visas i den flik du tittar på, bland dess rader, i lila: **Till nova:** för det du skickade och **Från nova:** för det du fick, så att du har båda sidor av samtalet i chattfönstret i flykten och i fältet på stationen. Varje flik visar det, även fliken **System** och en dold flik **Global**. Ett meddelande du får räknas som oläst (på verktygsfältets knapp och i fältet på stationen) tills du öppnar en flik, och spelar ett mjukt ljud, högst en gång var 2:a sekund; att skicka ett spelar sitt eget mjuka ljud. Högerklicka på ett mottaget meddelande för att **Svara**, **Bjuda in till gruppen**, **Ignorera** eller **Rapportera…**.
 
@@ -102,7 +104,7 @@ Stäng av den med menyknappen i chattfönstrets titelrad (**Visa dödslogg**) el
 
 ### Dölja, ignorera och rapportera {#hiding-ignoring-and-reporting}
 
-Global når alla piloter online, så chatten har tre verktyg för att hålla den behaglig. De finns i chattfönstret: menyknappen i dess titelrad och ett högerklick på en pilots namn.
+Global når alla piloter på alla servrar och i alla världar, så chatten har tre verktyg för att hålla den behaglig. De finns i chattfönstret: menyknappen i dess titelrad och ett högerklick på en pilots namn.
 
 - **Dölj Global-chatten** (menyn, eller Inställningar › Gränssnitt › Chatt): fliken Global visar inga rader från Global, dödsloggens rader inräknade (dina privata meddelanden syns fortfarande i den), och slutar räkna olästa rader. Fliken finns kvar, säger ”Global är dold” och har en knapp som visar den igen; det du skickar till Global går ändå iväg. Slå av det så finns varje rad som kom under tiden där.
 - **Ignorera** (högerklicka på ett namn, sedan **Ignorera**): den pilotens rader i Global och Lokal och dess privata meddelanden döljs (ett privat meddelande från den piloten låter inte och räknas inte som oläst), och dess gruppinbjudningar avvisas utan att du tillfrågas. Piloten får inte veta det. De förblir synliga i fliken **Grupp**: en gruppmedlem du ignorerar är fortfarande med i din grupp, så lämna gruppen för att bli av med dem. Serverns egna rader döljs aldrig. **Sluta ignorera** finns i samma meny, och **Inställningar › Gränssnitt › Chatt** listar de ignorerade piloterna (upp till 200) med en knapp **Ta bort** för var och en.

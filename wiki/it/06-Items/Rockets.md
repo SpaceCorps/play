@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
-I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che colpisce molto più forte di una raffica laser. Dodici razzi in quattro tipi, tre fasce per ciascun tipo, altri due che produce solo l’Assemblaggio, e **un solo timer di ricarica di 3 secondi che condividono tutti**, qualunque tu lanci (i due che produce solo l’Assemblaggio aspettano un po’ di più, per il loro lungo volo). I razzi Comuni e Rari si comprano con i **crediti**; i quattro razzi Epici si comprano con il **Thulium**. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) può aumentare il danno di un razzo e allungare o accorciare quel timer: vedi [Formazioni di droni e razzi](#drone-formations-and-rockets).
+I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che colpisce molto più forte di una raffica laser. Dodici **razzi normali** in quattro tipi, tre fasce per ciascun tipo, condividono **un solo timer di ricarica di 3 secondi**, che stabilisce il lanciarazzi della tua nave. Dodici **razzi speciali**, che fanno più che danno, condividono **un timer di 5 secondi** tutto loro, e ciascuno attende anche il proprio. Si comprano solo i quattro razzi Comuni, Flares e Ricochet, con i **crediti**; ogni altro razzo si crea in Assemblaggio. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) può aumentare il danno di un razzo e allungare o accorciare il timer normale: vedi [Formazioni di droni e razzi](#drone-formations-and-rockets).
 
 ## In un minuto {#in-one-minute}
 
-- **Dodici razzi da comprare.** Quattro tipi (Lancet, Rivet, Ember, Scatter), tre fasce ciascuno. I Comuni e i Rari costano crediti, gli Epici Thulium. Altri due razzi, il N.U.K.E. e il N.I.K.E., si creano nell’Assemblaggio.
+- **Dodici razzi normali.** Quattro tipi (Lancet, Rivet, Ember, Scatter), tre fasce per ciascun tipo. Si vende solo la fascia I, a 1.000 crediti; le fasce II e III si creano in Assemblaggio con 100 razzi della fascia inferiore.
 - **Ogni razzo stabilisce a caso il suo danno.** Quando lo lanci, il gioco sceglie un numero tra il danno più basso e quello più alto del razzo (un Lancet I: da 1.700 a 2.100). La tua nave, i tuoi laser, gli amp e i booster non lo cambiano, lo fa solo una formazione di droni. I razzi che sparano gli alieni non tirano a caso: infliggono un numero fisso ([Contro gli alieni](#against-the-aliens)).
 - **Le esplosioni sono più forti al centro.** I razzi Ember e Scatter esplodono e danneggiano ogni nave dentro l’anello: il numero intero al centro, la metà al bordo.
-- **Un solo timer per tutti.** Dopo ogni lancio aspetti 3 secondi prima del successivo, qualunque sia il razzo. Solo il N.U.K.E. e il N.I.K.E. ti fanno aspettare di più (4,1 e 4,6 secondi), perché restano in aria così a lungo.
+- **Due tipi di timer.** I razzi normali ne condividono uno: 3 secondi dopo ogni lancio, oppure, con un **Lanciarazzi da II a V**, una serie da 2 a 5 razzi a 0,15 secondi di distanza e poi 5 secondi ([Lanciare](#firing)). I razzi speciali ne condividono un altro di 5 secondi che nessun lanciarazzi cambia, e ciascuno attende anche il proprio, da 3 secondi a 2 minuti ([Razzi speciali](#special-rockets)).
+- **Dodici razzi speciali.** Congelano, disturbano, avvelenano o marcano una nave, spezzano scudi o agganci, curano i tuoi amici, rimbalzano su una seconda nave o aprono un piccolo buco nero sul tuo cursore. Il N.U.K.E. e il N.I.K.E. sono due di loro.
 - **Guidato o dritto.** Un razzo guidato (Lancet, Ember) ha bisogno di un bersaglio che hai selezionato. Uno dritto (Rivet, Scatter) vola verso il tuo cursore.
 - **Qualcos’altro si porta come un razzo.** L’**EMP Charge** è un consumabile: una pila nel tuo inventario, che si usa dalla barra rapida, senza slot ([EMP Charge](#emp-charge)). Così anche le due **Energetic Wall** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ I razzi sono una seconda arma accanto ai laser: un colpo ogni pochi secondi che 
 Ciò che crea l’Assemblaggio richiede prima la sua tecnologia; passa il puntatore su un oggetto per vedere quanto tempo serve a ricercarla. L’albero delle tecnologie, il carburante e il boost: [Ricerca](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Ogni razzo ha **il proprio danno, stabilito a caso quando lo lanci**: in un punt
 
 | Nome | Tipo | Rarità | Danno | Media | Penetrazione scudo | Raggio dell’esplosione | Portata di aggancio | Portata | Velocità | Prezzo | Massimo trasportabile |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guidato, bersaglio singolo | Comune | 1.700–2.100 | 1.900 | 10% | – | 700 | 1.040 | 520 | 500 crediti | 5.000 |
-| **Lancet II** | Guidato, bersaglio singolo | Raro | 3.500–4.200 | 3.850 | 25% | – | 1.000 | 1.584 | 660 | 800 crediti | 2.000 |
-| **Lancet III** | Guidato, bersaglio singolo | Epico | 5.200–6.200 | 5.700 | 35% | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Dritto, bersaglio singolo | Comune | 2.200–2.700 | 2.450 | 5% | – | – | 1.080 | 900 | 500 crediti | 5.000 |
-| **Rivet II** | Dritto, bersaglio singolo | Raro | 4.500–5.250 | 4.875 | 25% | – | – | 1.120 | 700 | 800 crediti | 2.000 |
-| **Rivet III** | Dritto, bersaglio singolo | Epico | 7.000–8.000 | 7.500 | 35% | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guidato, ad area | Comune | 1.200–1.400 | 1.300 | – | 255 | 700 | 1.000 | 500 | 500 crediti | 5.000 |
-| **Ember II** | Guidato, ad area | Raro | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 800 crediti | 2.000 |
-| **Ember III** | Guidato, ad area | Epico | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Dritto, ad area | Comune | 1.500–1.750 | 1.625 | – | 315 | – | 1.088 | 640 | 500 crediti | 5.000 |
-| **Scatter II** | Dritto, ad area | Raro | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 800 crediti | 2.000 |
-| **Scatter III** | Dritto, ad area | Epico | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Guidato, bersaglio singolo | Comune | 3.500–4.200 | 3.850 | 25% | – | 1.000 | 1.584 | 660 | 1.000 crediti | 5.000 |
+| **Lancet II** | Guidato, bersaglio singolo | Raro | 5.200–6.200 | 5.700 | 35% | – | 1.300 | 2.296 | 820 | Creato da 100 Lancet I | 2.000 |
+| **Lancet III** | Guidato, bersaglio singolo | Epico | 7.300–8.700 | 8.000 | 35% | – | 1.300 | 2.296 | 820 | Creato da 100 Lancet II | 500 |
+| **Rivet I** | Dritto, bersaglio singolo | Comune | 4.500–5.250 | 4.875 | 25% | – | – | 1.120 | 700 | 1.000 crediti | 5.000 |
+| **Rivet II** | Dritto, bersaglio singolo | Raro | 7.000–8.000 | 7.500 | 35% | – | – | 1.100 | 500 | Creato da 100 Rivet I | 2.000 |
+| **Rivet III** | Dritto, bersaglio singolo | Epico | 9.800–11.200 | 10.500 | 35% | – | – | 1.100 | 500 | Creato da 100 Rivet II | 500 |
+| **Ember I** | Guidato, ad area | Comune | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 1.000 crediti | 5.000 |
+| **Ember II** | Guidato, ad area | Raro | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | Creato da 100 Ember I | 2.000 |
+| **Ember III** | Guidato, ad area | Epico | 4.900–6.300 | 5.600 | – | 495 | 1.150 | 2.030 | 700 | Creato da 100 Ember II | 500 |
+| **Scatter I** | Dritto, ad area | Comune | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 1.000 crediti | 5.000 |
+| **Scatter II** | Dritto, ad area | Raro | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | Creato da 100 Scatter I | 2.000 |
+| **Scatter III** | Dritto, ad area | Epico | 6.300–7.700 | 7.000 | – | 660 | – | 1.092 | 420 | Creato da 100 Scatter II | 500 |
 
 Più cara è la fascia, più forte colpisce un razzo, più lontano arriva, più penetrazione dello scudo ha e meno ne puoi trasportare; quelli cari sono anche quelli che rendono più danno in rapporto al costo. Un razzo dritto infligge dal 23 al 32% in più, in media, del razzo guidato della sua fascia e del suo tipo allo stesso prezzo (da un quarto a un terzo in più), perché devi mirarlo. Un’esplosione infligge circa due terzi del razzo a bersaglio singolo della sua fascia e del suo tipo (il 66–70% in media: un Ember rispetto a un Lancet, uno Scatter rispetto a un Rivet), a ogni nave che copre. Il danno di un’esplosione è pieno al suo centro e scende in linea retta fino alla **metà al bordo**: una nave il cui scafo è a metà strada verso il bordo ne subisce il 75%, e una il cui scafo è fuori dall’anello non ne subisce nulla. Un lancio infligge in media il centro del suo intervallo, l’89–94% del suo numero massimo, e la tabella che conta i razzi qui sotto usa quel valore.
 
 ## Quanto costano {#what-they-cost}
 
-Un razzo Comune costa 500 crediti, uno Raro 800 crediti e uno Epico 5 Thulium, in ogni tipo. Lanciati a ogni timer, fanno 10.000 crediti al minuto per un razzo Comune, 16.000 per uno Raro e 100 Thulium per uno Epico, contro i 900 crediti al minuto che bruciano a x1 i tre laser di una nave Ostirion. Una scorta piena è di 5.000 razzi Comuni (2.500.000 crediti), 2.000 Rari (1.600.000 crediti) o 500 Epici (2.500 Thulium): ne compri quanti vuoi fino a quel numero, e il *massimo trasportabile* di un razzo è l’unico tetto a quanti ne possiedi. Al reset conservi senza fare nulla fino a 1.000 di ciascuno dei dodici razzi; quello che supera il limite, e ogni N.U.K.E. e N.I.K.E., sopravvive solo nel Deposito di trasporto, dove un razzo pesa 1 kg (un N.U.K.E. o un N.I.K.E. 250 kg): vedi [il reset](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Un razzo ogni 3 secondi sono solo venti al minuto, quindi un razzo è il picco di danno che si aggiunge ai tuoi laser: quelli economici per gli alieni deboli, quelli cari per gli scontri grossi. Ciò che hai messo all’[Asta](/wiki/03-Mechanics/Auction.md#limits) e i lotti in cui sei in testa contano in questo limite quando compri un razzo o fai un’offerta su di esso. Questi sono i numeri di base: la ricerca Pilota Sealed Backdoor ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) alza per te il limite di ogni razzo, di 25%, 50%, 100%, 150% o 200% in tutto, arrotondato per difetto, così che 5.000 diventa 6.250 al livello I e 15.000 al livello V.
+Un razzo Comune (fascia I) costa 1.000 crediti nel Negozio, in ogni tipo. I razzi Rari (fascia II) ed Epici (fascia III) non si vendono: li crea l’Assemblaggio, 100 alla volta, con 100 razzi della fascia inferiore (un lotto di Rari costa inoltre 50.000 crediti e 200 Thulium, uno di Epici 150.000 crediti e 800 Thulium, con alcuni materiali; il resto lo dicono il Negozio e l’Assemblaggio). Lanciato a ogni timer, un razzo Comune sono 20.000 crediti al minuto, contro i 900 crediti al minuto che i tre laser di una Ostirion bruciano a x1. Una scorta piena sono 5.000 razzi Comuni (5.000.000 di crediti), 2.000 Rari o 500 Epici: ne compri quanti vuoi fino a quel numero, e il *massimo trasportabile* di un razzo è l’unico tetto a quanti ne possiedi. Al reset conservi senza fare nulla fino a 1.000 di ciascuno dei dodici razzi; quello che supera il limite, e ogni N.U.K.E. e N.I.K.E., sopravvive solo nel Deposito di trasporto, dove un razzo pesa 1 kg (un N.U.K.E. o un N.I.K.E. 250 kg): vedi [il reset](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Un razzo ogni 3 secondi sono solo venti al minuto, quindi un razzo è il picco di danno che si aggiunge ai tuoi laser: quelli economici per gli alieni deboli, quelli cari per gli scontri grossi. Ciò che hai messo all’[Asta](/wiki/03-Mechanics/Auction.md#limits) e i lotti in cui sei in testa contano in questo limite quando compri un razzo o fai un’offerta su di esso. Questi sono i numeri di base: la ricerca Pilota Sealed Backdoor ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) alza per te il limite di ogni razzo, di 25%, 50%, 100%, 150% o 200% in tutto, arrotondato per difetto, così che 5.000 diventa 6.250 al livello I e 15.000 al livello V.
 
-Il Negozio elenca i razzi un tipo alla volta, ciascuno sotto il proprio nome, con il razzo Comune per primo e quello Epico per ultimo; l’Hangar, il Deposito di trasporto e il selettore Razzi usano lo stesso ordine.
+Il Negozio vende i quattro razzi Comuni, un tipo alla volta, e dopo di loro Flares e Ricochet; l’hangar, il Deposito di trasporto e il selettore dei razzi elencano i dodici razzi normali allo stesso modo, ogni tipo sotto il suo nome, il Comune per primo e l’Epico per ultimo, e dopo di loro i razzi speciali.
 
 ## Contro gli alieni {#against-the-aliens}
 
@@ -94,18 +105,18 @@ I razzi necessari per distruggere un alieno, un tipo di razzo dopo l’altro, co
 
 | Razzi per distruggere | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - I razzi **Comuni** a bersaglio singolo distruggono un Seeker con un colpo, con qualsiasi valore, e un Phantasm con tre (un Lancet I ne richiede un quarto con il suo valore più basso); sono i razzi di ogni giorno dei primi settori. Quelli **Rari** sono per il Bulwark e il Goombah: sette Lancet II abbattono un Bulwark in circa 20 secondi di timer. Quelli **Epici** a bersaglio singolo distruggono un Goombah con otto (Rivet III) a undici (Lancet III) colpi. Le esplosioni valgono il loro prezzo quando più alieni sono vicini: uno Scatter III che esplode su un branco di cinque Phantasm (tutti entro 250 unità dal bersaglio che hai mirato) infligge circa 22.000 danni al branco in un solo lancio.
 - Un abbattimento solo con i razzi è una vera spesa, non un modo per arricchirsi: un razzo a bersaglio singolo costa dal 15% (un Rivet II su un Phantasm) al 95% (un Lancet I su un Crystalys) di ciò che paga l’abbattimento (crediti, e Thulium a 200 crediti l’uno), e le esplosioni deboli sugli alieni forti costano più di quanto paga l’abbattimento (un Ember I su un Bulwark: il 120%). Distruggere il **Crystalys** con un solo tipo richiede da 56 a 352 razzi e quasi tre minuti di timer; una scorta piena di 500 razzi Epici basta per distruggerne da quattro a otto. L’alieno più forte richiede un piano: i tuoi laser con munizioni x2, un razzo di fascia media ogni 3 secondi fin dal primo secondo, e i razzi grossi qui sotto come picco di danno.
@@ -126,14 +137,36 @@ Due razzi non sono nel Negozio. Li produce l’**Assemblaggio** e seguono tutte 
 - **L’insidia.** Un N.I.K.E. che incontra una nave lungo il percorso, un rivale in attesa sulla traiettoria o qualsiasi altra cosa che possa danneggiare, la colpisce con un danno da 67.500 a 75.000 e sparisce: il buco nero non riceve nulla, e nemmeno tu. Nient’altro si aggira dentro l’anello del buco per essere colpito per sbaglio (gli alieni e i piloti di corporazione ne stanno fuori): solo i piloti entrati per la Dark Matter o che ti aspettano al bordo. Attraversa la tua corporazione, le navi in una zona sicura e le navi che non puoi ancora danneggiare. Se lasci la mappa dopo averlo lanciato, vola avanti senza fare male a nessuno e produce comunque la tua Dark Matter.
 - L’Assemblaggio non avvia una creazione che ti lascerebbe con più del *massimo trasportabile* di un razzo, contando ciò che hai messo in coda. Sealed Backdoor alza anche i loro limiti (10 diventa 12 e 20 diventa 25 al livello I, 30 e 60 al livello V).
 
+## Razzi speciali {#special-rockets}
+
+I razzi speciali fanno cose che un numero di danno non dice. Condividono **un timer di 5 secondi** (nessun lanciarazzi lo cambia), e ciascuno attende anche **il proprio timer**, da 3 secondi a 2 minuti; il timer dei razzi normali è separato, quindi un razzo normale e uno speciale possono partire insieme. Li crea l’Assemblaggio, tranne Flares e Ricochet, che vende il Negozio (l’albero degli oggetti qui sopra ha ogni ricetta). Anche il N.U.K.E. e il N.I.K.E. qui sopra sono razzi speciali, e il N.U.K.E. non ha un timer proprio. La CPU lanciarazzi automatica e i lanciarazzi sparano solo razzi normali.
+
+| Nome | Tipo | Effetto | Timer proprio | Massimo trasportabile |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Guidato, bersaglio singolo | Un razzo guidato che non fa danni: la nave colpita si congela e vola il 60% più lenta per quattro secondi. | 30 s | 50 |
+| **EMP Rocket** | Guidato, bersaglio singolo | Un razzo guidato che non fa danni: la nave colpita subisce l’effetto di una Carica EMP per tre secondi. | 30 s | 50 |
+| **Shield Breaker** | Dritto, bersaglio singolo | Un razzo veloce e non guidato fatto per gli scudi: 25.000 allo scudo e 5.000 allo scafo, ma finché resta scudo colpisce solo lo scudo. | 15 s | 50 |
+| **Toxic Rocket** | Guidato, bersaglio singolo | Un razzo guidato che non fa danni propri: la nave colpita viene avvelenata per cinque secondi e perde ogni secondo mezzo per cento dei suoi punti ferita effettivi (scafo e scudo insieme), sottratti allo scafo. | 20 s | 50 |
+| **Marking Rocket** | Guidato, bersaglio singolo | Un razzo guidato che non fa danni: la nave colpita viene marcata per cinque secondi e subisce il 20% di danni in più da tutto. | 30 s | 50 |
+| **Cooldown Rocket** | Guidato, bersaglio singolo | Un razzo guidato che non fa danni: per otto secondi gli oggetti a tempo della nave colpita si raffreddano a metà velocità. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Dritto, ad area | Una N.U.K.E. ricostruita attorno a un nucleo collassato. Si piazza sul cursore e apre per quindici secondi un piccolo buco nero che attira navi e razzi guidati. Su una mappa ne può esistere uno solo. Solo l’Assemblaggio lo produce e non può mai essere venduto all’Asta. | 120 s | 5 |
+| **Support Rocket** | Dritto, ad area | Si piazza sul cursore: cura ogni nave alleata nella sua area del 40% di scafo e scudo. | 120 s | 20 |
+| **Flares** | Dritto, bersaglio singolo | Lanciati dalla tua nave: spezzano ogni razzo guidato agganciato a te. | 60 s | 20 |
+| **Ricochet** | Dritto, bersaglio singolo | Un razzo veloce e non guidato che colpisce come un Rivet II e, dopo il primo colpo, rimbalza su una seconda nave col 75% del danno. | 3 s | 500 |
+
+- Un secondo colpo dello stesso tipo rinnova un congelamento, un disturbo, un avvelenamento, una marcatura o un raffreddamento rallentato e non si somma mai al primo. Il danno del Toxic Rocket è di chi spara, quindi un’uccisione per veleno conta per lui.
+- Il N.U.K.E. gravitazionale e il Support Rocket si **piazzano sul tuo cursore**: volano fino al punto sotto di esso, o fin dove arrivano, e la spoletta di nessuna nave li fa esplodere. Su una mappa può esistere un solo pozzo gravitazionale: un secondo lancio viene rifiutato e non si consuma nulla.
+
 ## Lancio {#firing}
 
-1. Compra i razzi nel Negozio (la categoria **Razzi**), fino al *massimo trasportabile* di ciascuno: crediti per i Comuni e i Rari, Thulium per gli Epici.
-2. Apri **Razzi** sopra la barra rapida e trascina quelli che vuoi sugli slot. Il selettore mostra una colonna per tipo e una riga per fascia, con ciò che trasporti di ciascuno. Sotto c’è una riga a parte, **Speciale · solo creazione**, per il N.U.K.E. e il N.I.K.E. (un piccolo martello segna quello di cui non porti nemmeno uno).
+1. Compra i razzi Comuni nel Negozio (la categoria **Razzi**), fino al *massimo trasportabile* di ciascuno, in crediti; crea i Rari e gli Epici in Assemblaggio con 100 della fascia inferiore.
+2. Apri **Razzi** sopra la barra rapida e trascina quelli che vuoi sugli slot. Il selettore mostra una colonna per tipo e una riga per fascia, con ciò che trasporti di ciascuno. Sotto ci sono i **razzi speciali**, quattro per riga (un piccolo martello segna uno creabile solo in Assemblaggio di cui non porti nemmeno uno).
 3. Premi il tasto dello slot. Cliccare sullo slot di un razzo **guidato** lo lancia contro il bersaglio selezionato; cliccare sullo slot di un razzo **dritto** lo arma, e il clic successivo nello spazio lo lancia lì. Il tasto **Lancia razzo** (`R` per impostazione predefinita, riassegnabile in Impostazioni › Comandi) lancia l’ultimo razzo che hai lanciato, o il primo sulla barra.
-4. Un indicatore circolare di ricarica gira su **ogni** slot dei razzi per i 3 secondi che precedono il lancio successivo (4,1 dopo il N.U.K.E., 4,6 dopo il N.I.K.E.), con i secondi rimanenti al centro. Una pressione prima di allora ti dice soltanto che i razzi si stanno ricaricando (una pressione nell’ultimo decimo di secondo lancia comunque). Una formazione di droni può portare l’attesa tra 2,19 e 4,05 secondi (vedi sotto).
+4. Un indicatore circolare gira su ogni slot dei razzi per il timer su cui quel razzo attende: 3 secondi per un razzo normale (5 con un lanciarazzi) e, per uno speciale, il più lungo tra i 5 secondi e il proprio, con i secondi rimanenti al centro. Una pressione prima di allora ti dice soltanto che i razzi si stanno ricaricando (una pressione nell’ultimo decimo di secondo lancia comunque). Una formazione di droni può portare il timer normale tra 2,19 e 4,05 secondi (vedi sotto).
 
 Passa il puntatore su uno slot di razzo per vederne i numeri (il suo danno più basso e più alto; il Negozio e l’Hangar dicono lo stesso) e, nel mondo, il suo anello di aggancio (verde quando il bersaglio selezionato è a portata) o la sua linea e il suo cerchio d’esplosione. Un razzo che ha agganciato **te** fa lampeggiare di rosso il bordo dello schermo.
+
+**Lanciarazzi.** Un lanciarazzi da II a V si tiene nel tuo hangar come la CPU lanciarazzi automatica, non occupa alcuno slot e funziona su qualsiasi nave (conta il migliore che possiedi). Una pressione di un razzo normale ne lancia allora 2, 3, 4 o 5 della scorta, a 0,15 secondi di distanza, e poi i razzi normali attendono 5 secondi. L’Assemblaggio li crea dopo la loro ricerca (da 8 a 24 ore, con da 150.000 a 2.000.000 di Thulium e materiali; l’albero degli oggetti degli [Extra](/wiki/06-Items/Extras.md) li elenca).
 
 Il **N.U.K.E.** disegna la sua esplosione sulla mappa prima che tu lo lanci (il cerchio di 1.350 unità nel punto mirato) e, quando esplode, un lampo bianco sulla vista, un anello che si allarga fino alla portata esatta in circa un secondo e resta per altri due, una nube che sale come un fungo e uno scossone della camera tanto più forte quanto più sei vicino. **Riduci scosse dello schermo** elimina lo scossone e **Riduci movimento** accorcia il lampo a un terzo di secondo con meno della metà della sua luce (entrambe sono in Impostazioni, sotto Grafica); una qualità delle particelle più bassa dirada la nube ed elimina le scintille, mai il lampo né l’anello. Il **N.I.K.E.** si mira come un Rivet I, con la linea dalla tua nave al cursore, e il gioco non lo rifiuta mai perché sei lontano dal buco nero o su una mappa che non ne ha: dove va lo decidi tu. La sua scheda dice **Buco nero: Produce Dark Matter** accanto al danno. Lascia una scia viola con scintille che vi si avvolgono; una nave che incontra subisce il colpo come da qualsiasi razzo, e quando invece attraversa l’orizzonte il buco si accende.
 
@@ -142,7 +175,7 @@ Il **N.U.K.E.** disegna la sua esplosione sulla mappa prima che tu lo lanci (il 
 Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia un razzo. Tutte le cifre di danno di questa pagina valgono per una nave senza formazione.
 
 - **Danno.** Il bonus ai razzi di Ballista (+55%), Bodkin (+29%) e Asterism (+24%) moltiplica il danno di tutti i 14 razzi, N.U.K.E. e N.I.K.E. compresi. Anche il costo sul danno totale di Testudo conta sui razzi, e il danno agli alieni di Culler conta su un razzo che colpisce un alieno. Tutti i fattori su un razzo insieme si fermano a ×1,59. Il bonus conta contro un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) come contro una nave, e la corazza dell’asteroide si toglie dopo.
-- **Ricarica.** Asterism allunga il timer condiviso del 35% (4,05 secondi), Cordon dell’11% (3,33) e Redoubt lo accorcia del 27% (2,19), ma mai sotto il volo del razzo più un attimo. Con Redoubt i razzi veloci (Lancet I, Rivet I e II, Ember I, Scatter I e II) aspettano i 2,19 secondi, un Rivet III ne aspetta 2,3, un Lancet III 2,9 e un Ember III i 3 interi; il N.U.K.E. e il N.I.K.E. aspettano 4,1 e 4,6 secondi, qualunque formazione tu porti. L’attesa è fissata quando lanci, quindi cambiare formazione dopo non la accorcia, e il cerchio sopra gli slot dei razzi la segue.
+- **Ricarica.** Asterism allunga del 35% il timer dei razzi normali (4,05 secondi), Cordon dell’11% (3,33) e Redoubt lo accorcia del 27% (2,19), ma mai sotto il volo del razzo più un istante. Con Redoubt i razzi veloci (Lancet I, Rivet I e II, Ember I, Scatter I e II) attendono i 2,19 secondi, un Rivet III 2,3, un Lancet III 2,9 e un Ember III i 3 interi. L’attesa è fissata quando spari, quindi cambiare formazione dopo non la accorcia, e l’indicatore sugli slot dei razzi la segue. I timer dei razzi speciali non cambiano con nessuna formazione.
 - **I limiti dei due grandi restano validi.** Con la formazione migliore una N.I.K.E. colpisce fino a 116.250, che un Paragon intatto (128.000) sopravvive, e una N.U.K.E. fino a 77.500, che un Goombah (80.000) sopravvive.
 - **Evasione.** Il 7% di evasione di Asterism dà a un razzo diretto che ti colpisce il 7% di probabilità di non fare alcun danno, e sopra la tua nave compare un “Mancato” fluttuante; un’esplosione ad area non prende la mira e non viene mai schivata.
 - **Penetrazione.** Gemini somma i suoi 15 punti, e Stiletto i suoi 35 punti di penetrazione dei razzi, alla penetrazione dello scudo di un razzo diretto (un’esplosione non ne ha), senza tetto: un Lancet III con uno Stiletto arriva al 70%, con Gemini al 50%. Un colpo laser somma allo stesso modo quelli di Gemini a quelli delle sue munizioni e dei suoi amp, e non riceve nulla da quelli dello Stiletto ([Laser e munizioni](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’uni
 - Solo il **colpo diretto** di un razzo rivendica un alieno (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); il bordo di un’esplosione può danneggiare un alieno già rivendicato senza rubarlo. Ogni alieno che un’esplosione danneggia, anche uno addormentato, si rivolta contro di te, come succede con un colpo di laser (compresi un Seeker o un Goombah, che reagiscono soltanto); uno che l’esplosione manca resta addormentato.
 - Il timer è tuo: sopravvive a un salto, a una riconnessione, a un cambio di nave e a una nave distrutta.
 
-I dodici razzi della prima tabella si comprano (crediti per i Comuni e i Rari, Thulium per gli Epici); il N.U.K.E. e il N.I.K.E. si creano.
+Si comprano (in crediti) solo i razzi Comuni della prima tabella, Flares e Ricochet; ogni altro razzo si crea in Assemblaggio.
 
 Vedi anche: [Laser e munizioni](/wiki/06-Items/Lasers.md), [Combattimento](/wiki/03-Mechanics/Combat.md), [Il buco nero](/wiki/03-Mechanics/Black-Hole.md).
 

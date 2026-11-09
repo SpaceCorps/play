@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
-A rakéták a lézereid mellett egy második fegyver: néhány másodpercenként egy lövés, amely sokkal erősebben üt, mint egy lézersortűz. Tizenkét rakéta négy fajtában, fajtánként három fokozattal, plusz kettő, amelyet csak a Gyártás állít elő, és **egyetlen, 3 másodperces töltési időzítő, amelyen mindegyik osztozik**, bármelyiket lősd is ki (a két, csak a Gyártásban készülő rakéta után hosszú repülésük miatt kicsit tovább kell várni). A Gyakori és a Ritka rakéták **kreditért** vehetők; a négy Epikus rakéta **Thuliumért**. Egy [drónformáció](/wiki/03-Mechanics/Formations.md) növelheti a rakéta sebzését, és hosszabbá vagy rövidebbé teheti ezt az időzítőt: lásd: [Drónformációk és rakéták](#drone-formations-and-rockets).
+A rakéták a lézereid mellett egy második fegyver: néhány másodpercenként egy lövés, amely sokkal erősebben üt, mint egy lézersortűz. Tizenkét **normál rakéta** négy fajtában, fajtánként három fokozattal, **egyetlen, 3 másodperces töltési időzítőn** osztozik, amelyet a hajód rakétavetője szab meg. Tizenkét **különleges rakéta**, amely többet tesz a puszta sebzésnél, **egy saját, 5 másodperces időzítőn** osztozik, és mindegyik a sajátjára is vár. Csak a négy Gyakori rakétát, a Flares-t és a Ricochet-et lehet megvenni, **kreditért**; minden más rakétát a Gyártás állít elő. Egy [drónformáció](/wiki/03-Mechanics/Formations.md) növelheti a rakéta sebzését, és hosszabbá vagy rövidebbé teheti a normál időzítőt: lásd [Drónformációk és rakéták](#drone-formations-and-rockets).
 
 ## Egy percben {#in-one-minute}
 
-- **Tizenkét rakéta vásárolható.** Négy fajta (Lancet, Rivet, Ember, Scatter), mindegyikből három fokozat. A Gyakori és a Ritka kreditbe, az Epikus Thuliumba kerül. Két további rakétát, a N.U.K.E.-t és a N.I.K.E.-t a Gyártás készíti.
+- **Tizenkét normál rakéta.** Négy fajta (Lancet, Rivet, Ember, Scatter), fajtánként három fokozattal. Csak az I. fokozatot árulják, 1000 kreditért; a II. és III. fokozatot a Gyártás állítja elő az alatta lévő fokozat 100 rakétájából.
 - **Minden rakéta kisorsolja a sebzését.** Kilövéskor a játék egy számot választ a rakéta legalacsonyabb és legmagasabb sebzése között (egy Lancet I: 1 700–2 100). A hajód, a lézereid, az erősítőid és a boosterek nem változtatnak rajta, csak egy drónformáció teszi. Az idegenek rakétái nem sorsolnak: rögzített számot okoznak ([Az idegenek ellen](#against-the-aliens)).
 - **A robbanások a közepén a legerősebbek.** Az Ember és a Scatter rakéták felrobbannak, és minden hajót megsebeznek a gyűrűn belül: a középpontban a teljes számot, a szélén annak a felét.
-- **Egy időzítő mindegyiknek.** Minden kilövés után 3 másodpercet kell várnod a következőig, bármelyik rakétáról van szó. Csak a N.U.K.E. és a N.I.K.E. után kell tovább várni (4,1, illetve 4,6 másodpercet), mert ennyi ideig vannak a levegőben.
+- **Kétféle időzítő.** A normál rakéták egyen osztoznak: minden kilövés után 3 másodperc, vagy egy **II–V. Rakétavetővel** 2–5 rakétából álló sorozat 0,15 másodperces közökkel, utána 5 másodperc ([Kilövés](#firing)). A különleges rakéták egy másik, 5 másodperces időzítőn osztoznak, amelyet egyetlen rakétavető sem változtat, és mindegyik a sajátjára is vár, 3 másodperctől 2 percig ([Különleges rakéták](#special-rockets)).
+- **Tizenkét különleges rakéta.** Lefagyasztanak, zavarnak, megmérgeznek vagy megjelölnek egy hajót, pajzsot vagy célzárat törnek, gyógyítják a barátaidat, átugranak egy második hajóra, vagy kis fekete lyukat nyitnak a kurzorodnál. A N.U.K.E. és a N.I.K.E. kettő közülük.
 - **Irányított vagy egyenes.** Az irányított rakétának (Lancet, Ember) kiválasztott célpont kell. Az egyenes (Rivet, Scatter) a kurzorod felé repül.
 - **Még egy-két dolgot úgy viszel, mint a rakétákat.** Az **EMP Charge** fogyóeszköz: köteg a leltáradban, a gyorssávról használod, és nem foglal foglalatot ([EMP Charge](#emp-charge)). Ilyen a két **Energetic Wall** is ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ A rakéták a lézereid mellett egy második fegyver: néhány másodpercenként
 Amit a Gyártás elkészít, ahhoz előbb a technológiája kell; vidd az egeret egy tárgy fölé, hogy lásd, mennyi ideig tart a kutatása. A technológiafa, az üzemanyag és a boost: [Kutatás](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Minden rakétának **saját sebzése van, amelyet a kilövéskor sorsol a rendsz
 
 | Név | Fajta | Ritkaság | Sebzés | Átlag | Pajzsáthatolás | Robbanási sugár | Befogási távolság | Hatótáv | Sebesség | Ár | Legfeljebb ennyit vihetsz |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Irányított · egy célpont | Gyakori | 1 700–2 100 | 1 900 | 10% | – | 700 | 1 040 | 520 | 500 kredit | 5 000 |
-| **Lancet II** | Irányított · egy célpont | Ritka | 3 500–4 200 | 3 850 | 25% | – | 1 000 | 1 584 | 660 | 800 kredit | 2 000 |
-| **Lancet III** | Irányított · egy célpont | Epikus | 5 200–6 200 | 5 700 | 35% | – | 1 300 | 2 296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Egyenes · egy célpont | Gyakori | 2 200–2 700 | 2 450 | 5% | – | – | 1 080 | 900 | 500 kredit | 5 000 |
-| **Rivet II** | Egyenes · egy célpont | Ritka | 4 500–5 250 | 4 875 | 25% | – | – | 1 120 | 700 | 800 kredit | 2 000 |
-| **Rivet III** | Egyenes · egy célpont | Epikus | 7 000–8 000 | 7 500 | 35% | – | – | 1 100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Irányított · területi robbanás | Gyakori | 1 200–1 400 | 1 300 | – | 255 | 700 | 1 000 | 500 | 500 kredit | 5 000 |
-| **Ember II** | Irányított · területi robbanás | Ritka | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 800 kredit | 2 000 |
-| **Ember III** | Irányított · területi robbanás | Epikus | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Egyenes · területi robbanás | Gyakori | 1 500–1 750 | 1 625 | – | 315 | – | 1 088 | 640 | 500 kredit | 5 000 |
-| **Scatter II** | Egyenes · területi robbanás | Ritka | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 800 kredit | 2 000 |
-| **Scatter III** | Egyenes · területi robbanás | Epikus | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Irányított · egy célpont | Gyakori | 3 500–4 200 | 3 850 | 25% | – | 1 000 | 1 584 | 660 | 1 000 kredit | 5 000 |
+| **Lancet II** | Irányított · egy célpont | Ritka | 5 200–6 200 | 5 700 | 35% | – | 1 300 | 2 296 | 820 | Előállítva 100 Lancet I-ből | 2 000 |
+| **Lancet III** | Irányított · egy célpont | Epikus | 7 300–8 700 | 8 000 | 35% | – | 1 300 | 2 296 | 820 | Előállítva 100 Lancet II-ből | 500 |
+| **Rivet I** | Egyenes · egy célpont | Gyakori | 4 500–5 250 | 4 875 | 25% | – | – | 1 120 | 700 | 1 000 kredit | 5 000 |
+| **Rivet II** | Egyenes · egy célpont | Ritka | 7 000–8 000 | 7 500 | 35% | – | – | 1 100 | 500 | Előállítva 100 Rivet I-ből | 2 000 |
+| **Rivet III** | Egyenes · egy célpont | Epikus | 9 800–11 200 | 10 500 | 35% | – | – | 1 100 | 500 | Előállítva 100 Rivet II-ből | 500 |
+| **Ember I** | Irányított · területi robbanás | Gyakori | 2 400–2 900 | 2 650 | – | 345 | 920 | 1 500 | 600 | 1 000 kredit | 5 000 |
+| **Ember II** | Irányított · területi robbanás | Ritka | 3 500–4 500 | 4 000 | – | 450 | 1 150 | 2 030 | 700 | Előállítva 100 Ember I-ből | 2 000 |
+| **Ember III** | Irányított · területi robbanás | Epikus | 4 900–6 300 | 5 600 | – | 495 | 1 150 | 2 030 | 700 | Előállítva 100 Ember II-ből | 500 |
+| **Scatter I** | Egyenes · területi robbanás | Gyakori | 3 000–3 500 | 3 250 | – | 435 | – | 1 080 | 540 | 1 000 kredit | 5 000 |
+| **Scatter II** | Egyenes · területi robbanás | Ritka | 4 500–5 500 | 5 000 | – | 600 | – | 1 092 | 420 | Előállítva 100 Scatter I-ből | 2 000 |
+| **Scatter III** | Egyenes · területi robbanás | Epikus | 6 300–7 700 | 7 000 | – | 660 | – | 1 092 | 420 | Előállítva 100 Scatter II-ből | 500 |
 
 Minél drágább a fokozat, annál erősebben üt a rakéta, annál messzebbre hat, annál nagyobb a pajzsáthatolása, és annál kevesebbet vihetsz belőle; a drágák ráadásul a költségükhöz képest adják a legtöbb sebzést. Egy egyenes rakéta átlagosan 23–32%-kal többet sebez, mint az azonos fokozatú és azonos fajtájú irányított rakéta ugyanazért az árért, mert célozni kell vele. Egy robbanás nagyjából az azonos fokozatú és azonos fajtájú egy célpontú rakéta sebzésének kétharmadát okozza (átlagosan 66–70%-át: egy Ember egy Lancethez, egy Scatter egy Rivethez képest), minden hajónak, amelyet lefed. A robbanás sebzése a középpontban teljes, és egyenes vonalban csökken **a felére a szélén**: az a hajó, amelynek a teste félúton van a szél felé, 75%-ot kap, az pedig, amelynek a teste a gyűrűn kívül van, semmit. Egy kilövés átlagosan a sávja közepét sebzi, a legmagasabb számának 89–94%-át, és az alábbi, rakétákat számoló táblázat ezzel számol.
 
 ## Mennyibe kerülnek {#what-they-cost}
 
-Egy Gyakori rakéta 500 kreditbe kerül, egy Ritka 800 kreditbe, egy Epikus 5 Thuliumba, minden fajtában. Minden időzítőnél kilőve ez percenként 10 000 kredit a Gyakori rakétánál, 16 000 a Ritkánál és 100 Thulium az Epikusnál, szemben azzal a 900 kredit/perccel, amennyit egy Ostirion három lézere x1 lőszerrel elfogyaszt. Egy teli köteg 5 000 Gyakori rakéta (2 500 000 kredit), 2 000 Ritka (1 600 000 kredit) vagy 500 Epikus (2 500 Thulium): a teli kötegig annyit veszel, amennyit akarsz, és egy rakéta *legfeljebb ennyit vihetsz* értéke az egyetlen korlát arra, hányat tarthatsz. A wipe-nál további teendő nélkül megtartod a tizenkét rakéta mindegyikéből legfeljebb 1 000-et; ami ezen felül van, valamint minden N.U.K.E. és N.I.K.E., csak a tranzittárolóban éli túl, ahol egy rakéta 1 kg-ot nyom (egy N.U.K.E. vagy N.I.K.E. 250 kg): lásd [a wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). A 3 másodpercenkénti egy rakéta percenként csak húsz, így a rakéta a lézereid tetejére jövő löket: az olcsók a gyenge idegeneknek, a drágák a nagy harcokra. Amit az [Aukción](/wiki/03-Mechanics/Auction.md#limits) meghirdettél, és a tételek, amelyekben vezetsz, beleszámítanak ebbe a korlátba, amikor rakétát vásárolsz vagy licitálsz rá. Ezek az alapértékek: a Pilóta-kutatás Sealed Backdoor ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) mindegyik rakéta korlátját megemeli neked, összesen 25%, 50%, 100%, 150% vagy 200%, lefelé kerekítve, így az 5 000 az I. szinten 6 250, az V. szinten 15 000 lesz.
+Egy Gyakori (I. fokozatú) rakéta 1000 kreditbe kerül a boltban, minden fajtában. A Ritka (II. fokozatú) és Epikus (III. fokozatú) rakétákat nem árulják: a Gyártás állítja elő őket, egyszerre 100-at, az alatta lévő fokozat 100 rakétájából (egy Ritka tétel ezen felül 50 000 kreditbe és 200 Thuliumba kerül, egy Epikus 150 000 kreditbe és 800 Thuliumba, néhány anyaggal; a többit a bolt és a Gyártás mondja meg). Minden időzítőnél kilőve egy Gyakori rakéta percenként 20 000 kredit, szemben azzal a 900 kredittel, amelyet egy Ostirion három lézere égetne el percenként x1 lőszerrel. Egy teli köteg 5000 Gyakori rakéta (5 000 000 kredit), 2000 Ritka vagy 500 Epikus: a teli kötegig annyit veszel, amennyit akarsz, és egy rakéta *legfeljebb ennyit vihetsz* értéke az egyetlen korlát arra, hányat tarthatsz. A wipe-nál további teendő nélkül megtartod a tizenkét rakéta mindegyikéből legfeljebb 1 000-et; ami ezen felül van, valamint minden N.U.K.E. és N.I.K.E., csak a tranzittárolóban éli túl, ahol egy rakéta 1 kg-ot nyom (egy N.U.K.E. vagy N.I.K.E. 250 kg): lásd [a wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). A 3 másodpercenkénti egy rakéta percenként csak húsz, így a rakéta a lézereid tetejére jövő löket: az olcsók a gyenge idegeneknek, a drágák a nagy harcokra. Amit az [Aukción](/wiki/03-Mechanics/Auction.md#limits) meghirdettél, és a tételek, amelyekben vezetsz, beleszámítanak ebbe a korlátba, amikor rakétát vásárolsz vagy licitálsz rá. Ezek az alapértékek: a Pilóta-kutatás Sealed Backdoor ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) mindegyik rakéta korlátját megemeli neked, összesen 25%, 50%, 100%, 150% vagy 200%, lefelé kerekítve, így az 5 000 az I. szinten 6 250, az V. szinten 15 000 lesz.
 
-A Bolt a rakétákat fajtánként sorolja fel, mindegyiket a neve alatt, elöl a Gyakori rakétával és a végén az Epikussal; a hangár, a tranzittároló és a Rakéták menü ugyanezt a sorrendet használja.
+A bolt a négy Gyakori rakétát árulja, fajtánként, utánuk a Flares-t és a Ricochet-et; a hangár, a tranzittároló és a rakétaválasztó ugyanígy sorolja fel a tizenkét normál rakétát, mindegyik fajtát a saját neve alatt, elöl a Gyakorit, a végén az Epikust, utánuk pedig a különleges rakétákat.
 
 ## Az idegenek ellen {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Hány rakéta kell egy idegen megsemmisítéséhez, egyszerre egyféle rakétáv
 
 | Szükséges rakéták | Seeker (1 600) | Phantasm (5 200) | Bulwark (26 000) | Goombah (80 000) | Crystalys (416 000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - A **Gyakori** egy célpontú rakéták bármely sorsolásnál egy találattal megsemmisítenek egy Seekert, három találattal egy Phantasmot (egy Lancet I-nek a legalacsonyabb sorsolásánál negyedik is kell); ezek az első szektorok mindennapi rakétái. A **Ritkák** a Bulwarkhoz és a Goombah-hoz valók: hét Lancet II körülbelül 20 másodpercnyi időzítő alatt elintéz egy Bulwarkot. Az **Epikus** egy célpontú rakéták nyolc (Rivet III) és tizenegy (Lancet III) találattal semmisítenek meg egy Goombah-ot. A robbanások akkor érik meg az áruk, ha több idegen van közel egymáshoz: egy öt Phantasmból álló raj fölött felrobbanó Scatter III (mind 250 egységen belül attól a célponttól, amelyre céloztál) egyetlen lövéssel körülbelül 22 000 sebzést okoz a rajban.
 - A kizárólag rakétákkal végzett kilövés valódi kiadás, nem a meggazdagodás útja: egy egy célpontú rakéta a kilövés jutalmának 15%-ától (egy Rivet II egy Phantasmon) 95%-áig (egy Lancet I egy Crystalyson) terjedő összegbe kerül (kreditben, a Thuliumot 200 kreditnek számolva darabonként), a gyenge robbanórakéták az erős idegeneken pedig többe kerülnek, mint amennyit a kilövés fizet (egy Ember I egy Bulwarkon: 120%). A **Crystalyst** egyetlen rakétafajtával megsemmisíteni 56–352 rakétát és majdnem három percnyi időzítőt igényel; egy 500 darabos teli köteg Epikus rakéta négy–nyolc ilyen megsemmisítéséhez elég. A legerősebb idegenhez terv kell: a lézereid x2 lőszerrel, az első másodperctől minden 3 másodpercben egy közepes fokozatú rakéta, és az alább leírt nagy rakéták löketként.
@@ -126,14 +137,36 @@ Két rakéta nincs a Boltban. A **Gyártás** állítja elő őket, és mindenbe
 - **A csapda.** Az a N.I.K.E., amely útközben hajóval találkozik, egy a lövés vonalában várakozó riválissal vagy bármi mással, amit megsebezhet, 67 500–75 000-et sebez rajta, és eltűnik: a feketelyuk nem kap semmit, és te sem. A lyuk gyűrűjében semmi más nem kóborol, amit véletlenül eltalálhatna (az idegenek és a vállalati pilóták távol maradnak tőle): csak azok a pilóták, akik Dark Matterért mentek be, vagy a szélén várnak rád. A saját vállalatodon, a biztonságos zónában lévő hajókon és azokon a hajókon, amelyeket még nem sebezhetsz, átrepül. Ha a kilövés után elhagyod a térképet, tovább repül anélkül, hogy bárkit megsebezne, és a Dark Mattert így is megtermeli neked.
 - A Gyártás nem indít el olyan gyártást, amely után a *legfeljebb ennyit vihetsz* értéknél többet tartanál egy rakétából, a sorba állítottakat is beleszámítva. A Sealed Backdoor az ő korlátaikat is megemeli (a 10 az I. szinten 12, a 20 pedig 25 lesz, az V. szinten 30 és 60).
 
+## Különleges rakéták {#special-rockets}
+
+A különleges rakéták olyasmit tesznek, amit egy sebzésszám nem fejez ki. **Egyetlen 5 másodperces időzítőn** osztoznak (egyetlen rakétavető sem változtatja), és mindegyik a **saját időzítőjére** is vár, 3 másodperctől 2 percig; a normál rakéták időzítője külön van, így egy normál és egy különleges rakéta együtt is kilőhető. A Gyártás állítja elő őket, kivéve a Flares-t és a Ricochet-et, amelyeket a bolt árul (a fenti tárgyfa minden receptet megad). A fenti N.U.K.E. és N.I.K.E. is különleges rakéta, a N.U.K.E.-nek pedig nincs saját időzítője. Az Automata rakéta CPU és a rakétavetők csak normál rakétákat lőnek.
+
+| Név | Fajta | Hatás | Saját időzítő | Legfeljebb ennyit vihetsz |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Irányított · egy célpont | Irányított rakéta, amely nem sebez: a talált hajó lefagy, és négy másodpercig 60%-kal lassabban repül. | 30 mp | 50 |
+| **EMP Rocket** | Irányított · egy célpont | Irányított rakéta, amely nem sebez: a talált hajóra három másodpercig egy EMP-töltet hatása érvényes. | 30 mp | 50 |
+| **Shield Breaker** | Egyenes · egy célpont | Gyors, irányítatlan rakéta pajzsok ellen: 25 000 a pajzsnak és 5000 a törzsnek, de amíg van pajzs, csak azt találja el. | 15 mp | 50 |
+| **Toxic Rocket** | Irányított · egy célpont | Irányított rakéta, amely önmagában nem sebez: a talált hajó öt másodpercre megmérgeződik, és másodpercenként a tényleges életerejének fél százalékát veszti (törzs és pajzs együtt), a törzsből levonva. | 20 mp | 50 |
+| **Marking Rocket** | Irányított · egy célpont | Irányított rakéta, amely nem sebez: a talált hajó öt másodpercre megjelölődik, és mindenből 20%-kal több sebzést kap. | 30 mp | 50 |
+| **Cooldown Rocket** | Irányított · egy célpont | Irányított rakéta, amely nem sebez: nyolc másodpercig a talált hajó időzített tárgyai feleakkora sebességgel hűlnek le. | 60 mp | 20 |
+| **Gravitational N.U.K.E.** | Egyenes · területi robbanás | Egy összeomlott mag köré újraépített N.U.K.E. A kurzornál helyezhető le, és tizenöt másodpercre egy kis fekete lyukat nyit, amely magába húzza a hajókat és az irányított rakétákat. Egy pályán egyszerre csak egy létezhet. Csak a Gyártás állítja elő, és az Aukción soha nem adható el. | 120 mp | 5 |
+| **Support Rocket** | Egyenes · területi robbanás | A kurzornál helyezhető le: a területén lévő minden baráti hajó törzsét és pajzsát 40%-kal gyógyítja. | 120 mp | 20 |
+| **Flares** | Egyenes · egy célpont | A saját hajódról indul: megtöri az összes rád zárolt irányított rakétát. | 60 mp | 20 |
+| **Ricochet** | Egyenes · egy célpont | Gyors, irányítatlan rakéta, amely úgy üt, mint egy Rivet II, és az első találat után a sebzés 75%-ával átugrik egy második hajóra. | 3 mp | 500 |
+
+- Az azonos fajta második találata megújítja a lefagyasztást, zavarást, mérgezést, jelölést vagy lassú hűlést, és sosem adódik hozzá az elsőhöz. A Toxic Rocket sebzése a lövészé, így a méreg okozta kiiktatás neki számít.
+- A Gravitációs N.U.K.E.-et és a Support Rocketet **a kurzorodnál lehet lehelyezni**: a kurzor alatti pontig repülnek, vagy ameddig elérnek, és egyetlen hajó gyújtója sem robbantja fel őket. Egy pályán csak egy gravitációs kút állhat: a második kilövést elutasítják, és semmi sem fogy el.
+
 ## Tüzelés {#firing}
 
-1. Vegyél rakétákat a Boltban (a **Rakéta** kategóriában), mindegyikből a *legfeljebb ennyit vihetsz* korlátig: kreditért a Gyakori és a Ritka, Thuliumért az Epikus rakétákat.
-2. Nyisd meg a **Rakéták** menüt a gyorssáv fölött, és húzd a kívánt rakétákat a helyekre. A menü fajtánként egy oszlopot és fokozatonként egy sort mutat, mindegyiken azzal, amennyit hordasz. Alattuk külön sor van, **Különleges · csak Gyártás**, a N.U.K.E. és a N.I.K.E. számára (egy kis kalapács jelöli azt, amelyből egyet sem hordasz).
+1. Vedd meg a Gyakori rakétákat a boltban (a **Rakéták** kategória), mindegyikből a *legfeljebb hordozható* mennyiségig, kreditért; a Ritkákat és az Epikusokat a Gyártásban állítsd elő az alatta lévő fokozat 100 darabjából.
+2. Nyisd meg a **Rakéták** menüt a gyorssáv fölött, és húzd a kívánt rakétákat a helyekre. A menü fajtánként egy oszlopot és fokozatonként egy sort mutat, mindegyiken azzal, amennyit hordasz. Alattuk vannak a **különleges rakéták**, soronként négy (egy kis kalapács jelöl egy csak előállítható rakétát, amelyből egyet sem hordasz).
 3. Nyomd meg a hely billentyűjét. Egy **irányított** rakéta helyére kattintva a kijelölt célpontra lősz vele; egy **egyenes** rakéta helyére kattintva élesíted, és a következő űrbeli kattintásod oda lövi ki. A **Rakétakilövés** billentyű (alapértelmezés szerint `R`, a Beállítások › Irányítás alatt átállítható) az utoljára kilőtt rakétát lövi ki, vagy a sáv első rakétáját.
-4. **Minden** rakétahelyen egy körcikk fut körbe a következő kilövésig tartó 3 másodpercben (4,1 egy N.U.K.E. után, 4,6 egy N.I.K.E. után), a hátralévő másodpercekkel a közepén. Addig egy megnyomás csak azt közli, hogy a rakéták töltődnek (az utolsó tizedmásodpercben megnyomva még elsül). Egy drónformáció 2,19 és 4,05 másodperc közé állíthatja a várakozást (lásd lent).
+4. Minden rakétahelyen egy körcikk fut körbe azon az időzítőn, amelyre az a rakéta vár: normál rakétánál 3 másodperc (rakétavetővel 5), különleges rakétánál az 5 másodperc és a saját időzítője közül a hosszabb, a hátralévő másodpercekkel a közepén. Addig egy megnyomás csak azt közli, hogy a rakéták töltődnek (az utolsó tizedmásodpercben megnyomva még elsül). Egy drónformáció 2,19 és 4,05 másodperc közé állíthatja a normál időzítőt (lásd lent).
 
 Vidd az egeret egy rakétahely fölé, hogy lásd az értékeit (a legalacsonyabb és a legmagasabb sebzése; a Bolt és a hangár ugyanezt mondja), a világban pedig a befogási gyűrűjét (zöld, ha a kijelölt célpont hatótávon belül van), illetve a vonalát és a robbanási körét. A **rád** befogott rakéta pirosan villogtatja a képernyőd szélét.
+
+**Rakétavetők.** A II–V. Rakétavetőt a hangárban tartod, mint az Automata rakéta CPU-t, nincs szüksége helyre, és bármelyik hajón működik (a legjobb, amit birtokolsz, számít). A normál rakéta egy megnyomása ekkor a köteg 2, 3, 4 vagy 5 rakétáját lövi ki 0,15 másodperces közökkel, utána a normál rakéták 5 másodpercet várnak. A Gyártás a kutatásuk után állítja elő őket (8–24 óra, 150 000–2 000 000 Thuliummal és anyagokkal; az [Extrák](/wiki/06-Items/Extras.md) tárgyfája felsorolja őket).
 
 A **N.U.K.E.** a térképen megrajzolja a robbanását, mielőtt kilősz (az 1 350 egységes kör a megcélzott pontnál), és amikor felrobban, egy fehér villanás látszik a nézet fölött, egy gyűrű, amely körülbelül egy másodperc alatt kifut a pontos hatósugarig, és még kettőig megmarad, egy gombafelhőszerűen emelkedő felhő, és egy kamerarázkódás, amely annál erősebb, minél közelebb vagy. A **Kevesebb képernyőrázkódás** megszünteti a rázkódást, a **Kevesebb mozgás** pedig a villanást egy másodperc harmadára rövidíti, a fényének felénél kisebb erősséggel (mindkettő a Beállítások › Grafika alatt található); az alacsonyabb részecskeminőség ritkítja a felhőt és elhagyja a szikrákat, a villanást és a gyűrűt sosem. A **N.I.K.E.**-t úgy célzod, mint a Rivetet, a hajód és a kurzor közötti vonallal, és a játék sosem utasítja el azért, mert messze van a feketelyuktól, vagy mert olyan térképen vagy, amelyen nincs ilyen: hogy hová megy, azt te ítéled meg. A kártyája a sebzése mellett ezt írja: **Feketelyuk: Dark Mattert ad**. Lilás nyomot hagy maga után, amely körül szikrák kígyóznak; egy hajó, amellyel találkozik, úgy kapja a találatot, mint bármelyik rakétától, ha pedig inkább az eseményhorizontot lépi át, a lyuk felvillan.
 
@@ -142,7 +175,7 @@ A **N.U.K.E.** a térképen megrajzolja a robbanását, mielőtt kilősz (az 1 
 A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen dolog, ami megváltoztat egy rakétát. Az ezen az oldalon szereplő minden sebzésszám formáció nélküli hajóra érvényes.
 
 - **Sebzés.** A Ballista (+55%), a Bodkin (+29%) és az Asterism (+24%) rakétabónusza mind a 14 rakéta sebzését szorozza, a N.U.K.E.-ét és a N.I.K.E.-ét is. A Testudo minden sebzésre vonatkozó ára a rakétákra is hat, a Culler idegenekre vonatkozó sebzése pedig az idegent találó rakétákra. Az egy rakétán lévő összes tényező együtt ×1,59-nél megáll. A bónusz egy [aszteroida](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) ellen ugyanúgy számít, mint egy hajó ellen, és az aszteroida páncélja csak utána vonódik le.
-- **Újratöltés.** Az Asterism 35%-kal hosszabbra (4,05 másodperc), a Cordon 11%-kal hosszabbra (3,33), a Redoubt 27%-kal rövidebbre (2,19) állítja a közös időzítőt, de soha nem rövidebbre, mint a rakéta repülése plusz egy pillanat. A Redoubt alatt a gyors rakéták (Lancet I, Rivet I és II, Ember I, Scatter I és II) a 2,19 másodpercet várják ki, egy Rivet III 2,3-at, egy Lancet III 2,9-et, egy Ember III a teljes 3-at; a N.U.K.E. és a N.I.K.E. után 4,1, illetve 4,6 másodperc a várakozás, bármit viselsz. A várakozás a kilövéskor dől el, ezért a későbbi formációváltás nem rövidíti, és a rakétahelyek feletti körcikk követi.
+- **Újratöltés.** Az Asterism 35%-kal hosszabbá teszi a normál rakéták időzítőjét (4,05 másodperc), a Cordon 11%-kal (3,33), a Redoubt 27%-kal rövidebbé (2,19), de sosem rövidebbé a rakéta repülésénél egy pillanattal. Redoubt alatt a gyors rakéták (Lancet I, Rivet I és II, Ember I, Scatter I és II) a 2,19 másodpercet várják, egy Rivet III 2,3-at, egy Lancet III 2,9-et, egy Ember III a teljes 3-at. A várakozás kilövéskor dől el, ezért a későbbi formációváltás nem rövidíti, és a rakétahelyeken futó körcikk követi. A különleges rakéták időzítőit semmilyen formáció nem változtatja.
 - **A két nagy határai megmaradnak.** A legjobb formációval egy N.I.K.E. legfeljebb 116 250-es találatot ad, amit egy ép Paragon (128 000) túlél, egy N.U.K.E. legfeljebb 77 500-ast, amit egy Goombah (80 000) túlél.
 - **Kitérés.** Az Asterism 7%-os kitérése 7% esélyt ad arra, hogy a rád érkező közvetlen rakéta egyáltalán nem sebez, és a hajód fölött egy lebegő „Mellé” felirat jelenik meg; a területi robbanás nem céloz, és soha nem kerülhető ki.
 - **Átütés.** A Gemini a 15 pontját, a Stiletto pedig a 35 pont rakétaátütését egy közvetlen rakéta pajzsáthatolásához adja (a robbanásnak nincs), felső határ nélkül: egy Lancet III és egy Stiletto együtt 70%, egy Gemini-vel 50%. Egy lézertalálat ugyanígy hozzáadja a Gemini pontjait a lőszere és az erősítői átütéséhez, a Stiletto pontjaiból viszont semmit sem kap ([Lézerek és lőszer](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen dolog, 
 - Csak a rakéta **közvetlen találata** foglal le egy idegent (lásd: [Harc](/wiki/03-Mechanics/Combat.md)); a robbanás széle megsebezhet egy lefoglalt idegent anélkül, hogy elvenné. Minden idegen, amelyet egy robbanás megsebez, az alvót is beleértve, ellened fordul, ahogy egy lézertalálatnál is (a csak visszatámadó Seekert vagy Goombah-ot is beleértve); amelyiket a robbanás elvéti, az alszik tovább.
 - Az időzítő a tiéd: túléli az ugrást, az újracsatlakozást, a hajócserét és a megsemmisült hajót.
 
-Az első táblázat tizenkét rakétája megvásárolható (kreditért a Gyakori és a Ritka, Thuliumért az Epikus); a N.U.K.E. és a N.I.K.E. gyártható.
+Csak az első táblázat Gyakori rakétáit, a Flares-t és a Ricochet-et lehet megvenni (kreditért); minden más rakétát a Gyártás állít elő.
 
 Lásd még: [Lézerek és lőszer](/wiki/06-Items/Lasers.md), [Harc](/wiki/03-Mechanics/Combat.md), [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md).
 

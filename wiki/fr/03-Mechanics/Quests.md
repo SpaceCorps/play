@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Quêtes -->
 # Quêtes {#quests}
 
@@ -131,7 +131,7 @@ Une **condition** est une règle supplémentaire sur une étape ou sur toute une
 
 Mourir brise une limite de coque en cours, comme une règle sans mourir.
 
-Les limites sont fixées en points, pour le vaisseau que vous pilotez à ce niveau. La limite d’un objet transporté est de 3 000 points de coque aux niveaux 1 à 3, de 17 000 aux niveaux 4 à 6 et de 46 000 aux niveaux 7 et 8 ; les séjours et les parcours plus longs ont des nombres plus grands. Elles sont les mêmes dans tous les mondes, et dans Beta et Gamma, où les aliens frappent plus fort, elles vous laissent donc moins de marge. Regardez la carte de la mission avant de l’accepter. Une limite peut aussi être donnée en pourcentage de la coque de votre vaisseau, et la plus stricte compte quand les deux sont indiquées ; toutes les missions de cette mise à jour utilisent des points.
+Les limites sont fixées en points, pour le vaisseau que vous pilotez à ce niveau. La limite d’un objet transporté est de 3 000 points de coque aux niveaux 1 à 3, de 17 000 aux niveaux 4 à 6 et de 46 000 aux niveaux 7 et 8 ; les séjours et les parcours plus longs ont des nombres plus grands. Ce sont les nombres d’**Alpha**, comme les limites de temps des tableaux. Les aliens de Beta frappent 1,5 fois plus fort et ceux de Gamma deux fois plus, donc dans Beta et Gamma les limites sont 1,5 et 2 fois plus grandes, comme les [limites de temps](#time-limits) : 3 000 points font 4 500 dans Beta et 6 000 dans Gamma, et vous encaissez autant de coups que dans Alpha. La carte de la mission et Quêtes actives affichent le nombre de votre monde (le texte de la mission cite celui d’Alpha) ; regardez-le avant d’accepter. Une limite peut aussi être donnée en pourcentage de la coque de votre vaisseau, et la plus stricte compte quand les deux sont indiquées ; toutes les missions de cette mise à jour utilisent des points.
 
 ## Exemples de missions {#mission-examples}
 
@@ -234,6 +234,7 @@ Les missions montent de secteur en secteur avec votre niveau :
 - Certaines missions sont **chronométrées**. Mission Control affiche la limite sur la carte de la mission avant que vous l’acceptiez (une horloge et « 15 min »), et une fois la mission acceptée, un **compte à rebours** tourne sur la carte et dans Quêtes actives. Il passe à l’ambre dans la dernière minute et au rouge quand le temps est écoulé.
 - Une mission chronométrée dont le temps s’écoule **échoue** : elle quitte vos missions actives et vous pouvez l’accepter de nouveau aussitôt, depuis le début.
 - Les limites des tableaux ci-dessous sont celles d’**Alpha**. Les aliens de Beta sont 1,5 fois plus forts et ceux de Gamma deux fois plus, donc leurs limites sont 1,5 et 2 fois plus longues. Le chrono est réglé au moment où vous acceptez la mission, pour le monde où vous vous trouvez.
+- Les **limites de coque** des missions suivent le monde de la même façon : 1,5 fois celles d’Alpha dans Beta et deux fois dans Gamma (voir [Conditions](#conditions)).
 - Les étapes n’ont pas de limite de temps propre : la limite de la mission vaut pour toutes. Une condition brisée fait recommencer une étape ou la mission, mais ne remet jamais le chrono à zéro.
 
 ## Récompenses {#rewards}
@@ -285,7 +286,7 @@ C’est dans les secteurs supérieurs que les missions rapportent, et c’est l�
 
 ## Les missions {#the-missions}
 
-Les limites de temps sont celles d’Alpha (« – » : aucune). « → » relie les étapes d’une mission **Dans l’ordre**, qui doivent être accomplies dans cet ordre ; les étapes reliées par « ; » s’ouvrent ensemble et peuvent être faites dans n’importe quel ordre. Une condition écrite après une étape appartient à cette étape, « (toute la mission : ...) » à chaque étape.
+Les limites de temps et les limites de coque sont celles d’Alpha (« – » : aucune). « → » relie les étapes d’une mission **Dans l’ordre**, qui doivent être accomplies dans cet ordre ; les étapes reliées par « ; » s’ouvrent ensemble et peuvent être faites dans n’importe quel ordre. Une condition écrite après une étape appartient à cette étape, « (toute la mission : ...) » à chaque étape.
 
 Un objet de mission se lit « peut le lâcher : 15 % par destruction, à coup sûr à la destruction n° 10 » : chaque destruction de cet alien dans ce secteur tire la chance, et la 10e destruction depuis l’ouverture de l’étape le lâche à coup sûr. « À partir du jour 4 de la saison » désigne une [chasse d’essaim](#swarm-missions).
 

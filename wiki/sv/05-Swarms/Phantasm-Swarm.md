@@ -74,7 +74,7 @@ Bygger på Phantasm med 2 000 % av skrovet och 300 % av laserskadan; hastighe
 | Standard Battery | 100 % | 600–1 200 |
 | Advanced Plasma | 100 % | 60–100 |
 | Ultra Core | 100 % | 10–20 |
-| En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 4–6 |
+| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 4–6 |
 
 ### Phantasm Guard
 

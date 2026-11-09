@@ -74,7 +74,7 @@ Phantasm temel alınarak, gövdesinin %2.000 kadarıyla ve lazer hasarının %30
 | Standard Battery | %100 | 600–1.200 |
 | Advanced Plasma | %100 | 60–100 |
 | Ultra Core | %100 | 10–20 |
-| Kredi ile satın alınan 8 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 4–6 |
+| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 4–6 |
 
 ### Phantasm Guard
 

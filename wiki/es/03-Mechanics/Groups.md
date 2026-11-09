@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -52,11 +52,13 @@ El chat tiene una fila de pestañas arriba: **Global**, **Local**, **Grupo** (mi
 | Canal | Quién lo oye | Comando |
 | :--- | :--- | :--- |
 | **Local** | los pilotos de tu mapa | `/l` o `/local` |
-| **Global** | todos los pilotos conectados | `/g` o `/global` |
-| **Grupo** | tu grupo, esté donde esté | `/p`, `/party` o `/group` |
-| **Privado** | un solo piloto, esté donde esté | `/m`, `/msg` o `/w`, y luego el nombre y el mensaje ([más abajo](#private-messages)) |
+| **Global** | todos los pilotos de todos los servidores y de todos los mundos | `/g` o `/global` |
+| **Grupo** | tu grupo en tu servidor, esté donde esté | `/p`, `/party` o `/group` |
+| **Privado** | un solo piloto de tu servidor, esté donde esté | `/m`, `/msg` o `/w`, y luego el nombre y el mensaje ([más abajo](#private-messages)) |
 
 Un comando también cambia de pestaña, y si se escribe solo (`/g`) únicamente cambia de pestaña. El chat de grupo necesita un grupo. En un servidor de juego anterior a los canales, el chat es la única lista que era, y no se puede formar un grupo.
+
+**Global** es un solo chat para todo el juego: tu línea la oye todo piloto de cualquier servidor y de cualquier mundo, en vuelo o en la estación. Una línea de otro servidor puede llegar un instante después de enviarse, y los pilotos de servidores distintos pueden ver dos líneas casi simultáneas en distinto orden. Deja el puntero sobre el nombre de un piloto: la tarjeta que se abre dice también en qué servidor vuela, cuando no es el tuyo. Los demás canales se quedan en el servidor en el que estás: **Local** son los pilotos de tu mapa, el chat de grupo y los mensajes privados llegan solo a pilotos de tu servidor, y el [registro de bajas](#the-kill-feed) y las líneas de **Sistema** (los anuncios del servidor) son de cada servidor. Si un servidor pierde el enlace con los demás, su Global se reduce a sus propios pilotos hasta que vuelva; una interrupción corta se recupera con retraso, y lo que se diga durante una más larga no se transmite después.
 
 La pestaña **Sistema** es dorada y de solo lectura, con una lista propia: recoge lo que el servidor dice por su cuenta (la bienvenida, los avisos de reinicio, de actualización y de reinicio de temporada, los anuncios de enjambres) y lo que informa tu nave (reparaciones, camuflaje, EMP, cohetes). Esas líneas no están en ninguna otra pestaña, así que un Global muy movido no puede desplazarlas, y las demás pestañas contienen lo que dicen los pilotos. El contador de la pestaña cuenta solo los anuncios; la cuenta atrás de un reinicio o de una actualización y los avisos del reinicio de temporada además aparecen un momento como aviso emergente. El [registro de bajas](#the-kill-feed) se queda en **Global**, con su propio interruptor, y las líneas sobre pilotos que entran en tu grupo o lo dejan están en **Grupo**.
 
@@ -66,7 +68,7 @@ La pestaña **Sistema** es dorada y de solo lectura, con una lista propia: recog
 
 ### Mensajes privados {#private-messages}
 
-Escribe `/m`, el nombre de un piloto y tu mensaje para escribir solo a ese piloto: `/m nova o7` (`/msg` y `/w` hacen lo mismo). El piloto tiene que estar conectado, en cualquier mundo, en la estación o en vuelo. El nombre es el del piloto tal como lo muestra el chat, con cualquier combinación de mayúsculas (`/m NOVA`, `/m @nova` y `/m nova:` encuentran a nova): tiene que ser el nombre entero, nunca solo su comienzo, para que un mensaje no vaya al piloto equivocado. `/r` y tu respuesta (`/r o7`) responde al piloto que te escribió por última vez, o al último piloto al que escribiste cuando nadie te ha escrito.
+Escribe `/m`, el nombre de un piloto y tu mensaje para escribir solo a ese piloto: `/m nova o7` (`/msg` y `/w` hacen lo mismo). El piloto tiene que estar conectado en tu servidor, en cualquier mundo, en la estación o en vuelo. El nombre es el del piloto tal como lo muestra el chat, con cualquier combinación de mayúsculas (`/m NOVA`, `/m @nova` y `/m nova:` encuentran a nova): tiene que ser el nombre entero, nunca solo su comienzo, para que un mensaje no vaya al piloto equivocado. `/r` y tu respuesta (`/r o7`) responde al piloto que te escribió por última vez, o al último piloto al que escribiste cuando nadie te ha escrito.
 
 Un mensaje privado aparece en la pestaña que estás mirando, entre sus líneas, en violeta: **Para nova:** el que enviaste y **De nova:** el que recibiste, de modo que tienes los dos lados de la conversación en la ventana del chat en vuelo y en la barra de la estación. Todas las pestañas la muestran, también la pestaña **Sistema** y una pestaña **Global** oculta. Un mensaje que recibes cuenta como no leído (en el botón de la barra de herramientas y en la barra de la estación) hasta que abres una pestaña, y suena un aviso suave, como máximo una vez cada 2 segundos; enviar uno reproduce su propio sonido suave. Haz clic derecho en un mensaje recibido para **Responder**, **Invitar al grupo**, **Ignorar** o **Denunciar…**.
 
@@ -102,7 +104,7 @@ Desactívalo con el botón de menú de la barra de título de la ventana del cha
 
 ### Ocultar, ignorar y denunciar {#hiding-ignoring-and-reporting}
 
-Global llega a todos los pilotos conectados, así que el chat tiene tres herramientas para mantenerlo cómodo. Están en la ventana del chat: el botón de menú de su barra de título y el clic derecho en el nombre de un piloto.
+Global llega a todos los pilotos de todos los servidores y de todos los mundos, así que el chat tiene tres herramientas para mantenerlo cómodo. Están en la ventana del chat: el botón de menú de su barra de título y el clic derecho en el nombre de un piloto.
 
 - **Ocultar el chat Global** (el menú, o Configuración › Interfaz › Chat): la pestaña Global no muestra ninguna línea de Global, incluidas las líneas del registro de bajas (tus mensajes privados siguen apareciendo en ella), y deja de contar las líneas sin leer. La pestaña se queda, dice «Global está oculto» y tiene un botón que la vuelve a mostrar; lo que envías a Global sigue saliendo. Desactívalo y estarán todas las líneas que llegaron mientras tanto.
 - **Ignorar** (haz clic derecho en un nombre y luego en **Ignorar**): las líneas de ese piloto en Global y Local y sus mensajes privados se ocultan (un mensaje privado suyo no suena ni cuenta como no leído), y sus invitaciones de grupo se rechazan sin preguntarte. No se le avisa. Siguen siendo visibles en la pestaña **Grupo**: un compañero de grupo al que ignoras sigue siendo de tu grupo, así que sal del grupo para librarte de él. Las líneas del propio servidor nunca se ocultan. **Dejar de ignorar** está en el mismo menú, y **Configuración › Interfaz › Chat** enumera los pilotos ignorados (hasta 200) con un botón **Quitar** para cada uno.

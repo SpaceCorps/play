@@ -74,7 +74,7 @@ Base: Phantasm; rispetto all’originale, scafo 2.000% e danno dei laser 300%; v
 | Standard Battery | 100% | 600–1.200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 4–6 |
+| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 4–6 |
 
 ### Phantasm Guard
 

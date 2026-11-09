@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Quests -->
 # Quests
 
@@ -131,7 +131,7 @@ Eine **Bedingung** ist eine zusätzliche Regel für einen Schritt oder eine ganz
 
 Auch ein laufendes Hüllenlimit bricht, wenn du stirbst, ebenso wie eine Regel „nicht sterben“.
 
-Die Limits sind in Punkten angegeben, für das Schiff, das du auf diesem Level fliegst. Das Limit für einen getragenen Gegenstand beträgt 3.000 Hüllenpunkte auf den Leveln 1 bis 3, 17.000 auf den Leveln 4 bis 6 und 46.000 auf den Leveln 7 und 8; Aufenthalte und Touren, die länger dauern, haben größere Zahlen. Sie sind in jeder Welt gleich, lassen dir also in Beta und Gamma, wo die Aliens härter treffen, weniger Spielraum. Sieh dir die Karte der Mission an, bevor du sie annimmst. Ein Limit kann auch als Prozentsatz der Hülle deines Schiffs angegeben sein, und wenn beides angegeben ist, zählt das strengere; jede Mission dieses Updates verwendet Punkte.
+Die Limits sind in Punkten angegeben, für das Schiff, das du auf diesem Level fliegst. Das Limit für einen getragenen Gegenstand beträgt 3.000 Hüllenpunkte auf den Leveln 1 bis 3, 17.000 auf den Leveln 4 bis 6 und 46.000 auf den Leveln 7 und 8; Aufenthalte und Touren, die länger dauern, haben größere Zahlen. Das sind die Zahlen von **Alpha**, wie bei den Zeitlimits in den Tabellen. Die Aliens in Beta treffen 1,5-mal so hart und die in Gamma doppelt so hart, deshalb sind die Limits in Beta und Gamma 1,5- und 2-mal so groß, wie es die [Zeitlimits](#time-limits) auch sind: 3.000 Punkte sind in Beta 4.500 und in Gamma 6.000, und du hältst genauso viele Treffer aus wie in Alpha. Die Karte der Mission und Aktive Quests zeigen die Zahl deiner Welt (der Briefingtext nennt die von Alpha); sieh sie dir an, bevor du die Mission annimmst. Ein Limit kann auch als Prozentsatz der Hülle deines Schiffs angegeben sein, und wenn beides angegeben ist, zählt das strengere; jede Mission dieses Updates verwendet Punkte.
 
 ## Missionsbeispiele {#mission-examples}
 
@@ -234,6 +234,7 @@ Die Missionen steigen mit deinem Level durch die Sektoren auf:
 - Manche Missionen sind **zeitgebunden**. Mission Control zeigt das Limit auf der Karte der Mission, bevor du sie annimmst (eine Uhr und „15 min“), und sobald du sie annimmst, läuft auf der Karte und unter Aktive Quests ein **Countdown**. Er färbt sich in der letzten Minute bernsteinfarben und, wenn die Zeit abgelaufen ist, rot.
 - Eine zeitgebundene Mission, deren Zeit abläuft, **scheitert**: Sie verlässt deine aktiven Missionen, und du kannst sie sofort wieder annehmen, von vorn.
 - Die Limits in den Tabellen unten gelten für **Alpha**. Die Aliens in Beta sind 1,5-mal so stark und die in Gamma doppelt so stark, deshalb sind die Limits dort 1,5- und 2-mal so lang. Die Uhr wird beim Annehmen der Mission gestellt, für die Welt, in der du bist.
+- Die **Hüllenlimits** der Missionen folgen der Welt auf dieselbe Weise: In Beta sind sie 1,5-mal und in Gamma 2-mal so groß wie in Alpha (siehe [Bedingungen](#conditions)).
 - Schritte haben kein eigenes Zeitlimit: Das Limit der Mission gilt für alle zusammen. Eine gebrochene Bedingung startet einen Schritt oder die Mission neu, setzt aber nie die Uhr zurück.
 
 ## Belohnungen {#rewards}
@@ -285,7 +286,7 @@ In den höheren Sektoren zahlen die Missionen richtig, und dort kannst du auch s
 
 ## Die Missionen {#the-missions}
 
-Die Zeitlimits gelten für Alpha („–“: keines). „→“ verbindet die Schritte einer Mission **Der Reihe nach**, die in dieser Reihenfolge erledigt werden müssen; durch „;“ verbundene Schritte öffnen sich gemeinsam und können in beliebiger Reihenfolge erledigt werden. Eine Bedingung hinter einem Schritt gehört zu diesem Schritt, „(ganze Mission: ...)“ zu jedem Schritt.
+Die Zeitlimits und die Hüllenlimits gelten für Alpha („–“: keines). „→“ verbindet die Schritte einer Mission **Der Reihe nach**, die in dieser Reihenfolge erledigt werden müssen; durch „;“ verbundene Schritte öffnen sich gemeinsam und können in beliebiger Reihenfolge erledigt werden. Eine Bedingung hinter einem Schritt gehört zu diesem Schritt, „(ganze Mission: ...)“ zu jedem Schritt.
 
 Ein Missionsgegenstand steht als „kann es fallen lassen: 15 % pro Abschuss, sicher beim 10. Abschuss“: Jeder Abschuss dieses Aliens in diesem Sektor würfelt die Chance, und der 10. Abschuss seit dem Öffnen des Schritts lässt ihn sicher fallen. „Ab Saisontag 4“ ist eine [Schwarmjagd](#swarm-missions).
 

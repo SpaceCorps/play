@@ -75,7 +75,7 @@ Boss Goombah의 보상은 그 전투의 무게에 걸맞습니다. 1분 싸우�
 | Quorvium | 8번의 굴림마다 각각 100% | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| 크레딧으로 살 수 있는 8종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 6–10 |
+| 크레딧으로 살 수 있는 4종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 6–10 |
 
 ### Goombah Guard
 

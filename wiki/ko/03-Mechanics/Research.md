@@ -103,6 +103,9 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | 10시간 | 5시간 | 1 | 5,000 |
 | 1일 | 12시간 | 1 | 5,000 |
 | 2일 | 1일 | 1 | 5,000 |
+| 4일 | 2일 | 2 | 10,000 |
+| 7일 | 3일 12시간 | 4 | 20,000 |
+| 10일 | 5일 | 5 | 25,000 |
 
 <!-- research-boost:end -->
 
@@ -113,13 +116,13 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- 아래 표의 기술 16개 각각에 과학과는 별도로 **Dark Matter 10개**가 필요합니다. 시작 전에 연구 센터에 넣어 두세요(인벤토리에서, 함선이 착륙한 상태). 연구는 시작할 때 그것을 가져갑니다.
+- 아래 표의 기술 17개 각각에 과학과는 별도로 **Dark Matter 10개**가 필요합니다. 시작 전에 연구 센터에 넣어 두세요(인벤토리에서, 함선이 착륙한 상태). 연구는 시작할 때 그것을 가져갑니다.
 - **규칙:** 희귀도가 영웅 이상이면서 연구에 10시간 이상 걸리는 아이템. Dark Matter를 만드는 N.I.K.E.에는 결코 필요하지 않습니다.
 - **드론 편대**는 이 규칙에서 제외됩니다. 모든 편대 연구는 강도에 따라 Dark Matter 5, 13 또는 20개를 요구합니다(표 참고).
 - **선체 장갑**도 이 규칙에서 제외됩니다. 두 연구는 더 많이 요구하여, 하루짜리 연구는 Dark Matter 25개, 이틀짜리 연구는 40개입니다(표 참고).
 - **연구를 취소하면** 그 연구를 위해 넣어 둔 Dark Matter는 센터로 돌아옵니다. 진행도와 이미 태운 과학은 돌아오지 않습니다.
 - **대기열 전체.** 대기열에 추가해도 아무것도 지불하지 않고, 대기열의 각 기술은 시작할 때 자기 몫의 Dark Matter를 가져가므로, 대기열 전체에 필요한 Dark Matter를 한꺼번에 넣어 두세요. 추가 버튼은 첫 번째 기술이 얼마를 필요로 하든, 대기열의 기술이 모두 합쳐 쓰는 양(선택한 기술이 아직 대기열에 없다면 그 몫도)까지 연구 센터를 채우고, 대기열의 각 기술은 센터의 Dark Matter로 충당되는지 보여 줍니다. Dark Matter가 부족해 멈춘 대기열은 모자란 만큼을 추가하는 순간 저절로 시작됩니다.
-- 전부 합치면 Dark Matter 414개가 필요합니다.
+- 전부 합치면 Dark Matter 424개가 필요합니다.
 
 | 기술 | 희귀도 | 연구 시간 | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -157,6 +160,7 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | 영웅 | 10시간 | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 희귀 | 1일 | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | 영웅 | 2일 | 40 |
+| [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | 신화 | 1일 | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -258,6 +262,32 @@ Dark Matter Plate | resource, mythical | craft 250 Thulium, 120 s | research 864
 ```tree research
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 172800 s, 172800 science | 300 Ship Fragment, 50 Reinforced Hull Plate, 30 Power Core, 5 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+
+Lancet II => Lancet III
+Rivet II => Rivet III
+Ember II => Ember III
+Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
 ```
 
 ### CPU {#tree-cpus}
@@ -438,7 +468,7 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2일 | 172,800 | 10 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1일 | 86,400 | 10 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3시간 | 10,800 | – |
-| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | D | 1일 | 86,400 | 10 |
+| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | D | 1일 | 86,400 | 10 |
 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | – | A | 30분 | 1,800 | – |
 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | C | 10시간 | 36,000 | – |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | D | 1일 | 86,400 | 10 |
@@ -486,18 +516,38 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8시간 | 28,800 | – |
 | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1시간 | 3,600 | – |
 | [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6시간 | 21,600 | – |
+| [Lancet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30분 | 1,800 | – |
+| [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
+| [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30분 | 1,800 | – |
+| [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
+| [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30분 | 1,800 | – |
+| [Ember III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
+| [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30분 | 1,800 | – |
+| [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
+| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
+| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
+| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6시간 | 21,600 | – |
+| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
+| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
+| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | C | 8시간 | 28,800 | – |
+| [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | D | 1일 | 86,400 | 10 |
+| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6시간 | 21,600 | – |
+| [Rocket Launcher II](/wiki/06-Items/Extras.md) | – | D | 2일 | 172,800 | – |
+| [Rocket Launcher III](/wiki/06-Items/Extras.md) | [Rocket Launcher II](/wiki/06-Items/Extras.md) | D | 4일 | 345,600 | – |
+| [Rocket Launcher IV](/wiki/06-Items/Extras.md) | [Rocket Launcher III](/wiki/06-Items/Extras.md) | D | 7일 | 604,800 | – |
+| [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10일 | 864,000 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30분~1시간 | 13 | 7시간 30분 | 27,000 | 0 |
-| B | 3시간~6시간 | 23 | 3일 10시간 | 295,200 | 0 |
-| C | 8시간~10시간 | 18 | 7일 10시간 | 640,800 | 95 |
-| D | 1일~2일 | 23 | 28일 | 2,419,200 | 319 |
-| 전체 |  | 77 | 39일 3시간 30분 | 3,382,200 | 414 |
+| A | 30분~1시간 | 17 | 9시간 30분 | 34,200 | 0 |
+| B | 3시간~6시간 | 33 | 5일 2시간 | 439,200 | 0 |
+| C | 8시간~10시간 | 19 | 7일 18시간 | 669,600 | 95 |
+| D | 1일~10일 | 28 | 52일 | 4,492,800 | 329 |
+| 전체 |  | 97 | 65일 5시간 30분 | 5,635,800 | 424 |
 
-하나씩 차례로 연구하면 트리 전체에 39일 3시간 30분이 걸립니다. 부스트를 계속 켜 두면 19일 13시간 45분이 걸리며, 부스트 20개와 Thulium 100,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 65일 5시간 30분이 걸립니다. 부스트를 계속 켜 두면 32일 14시간 45분이 걸리며, 부스트 33개와 Thulium 165,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 

@@ -72,7 +72,7 @@ Boss Seeker의 보상은 **정확히 Seeker 10마리분**입니다. Seeker의 �
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| 크레딧으로 살 수 있는 8종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 2–3 |
+| 크레딧으로 살 수 있는 4종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 2–3 |
 
 ### Seeker Slave
 

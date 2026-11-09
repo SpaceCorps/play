@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
-Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada poucos segundos que bate muito mais forte que uma rajada de laser. Doze foguetes em quatro tipos, três raridades cada, mais dois que só a Montagem fabrica, e **um único temporizador de recarga de 3 segundos que todos compartilham**, qualquer que você dispare (os dois que só a Montagem fabrica esperam um pouco mais, por causa do voo longo). Os foguetes Comuns e Raros são comprados com **créditos**; os quatro foguetes Épicos são comprados com **Thulium**. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) pode aumentar o dano de um foguete e alongar ou encurtar esse temporizador: veja [Formações de drones e foguetes](#drone-formations-and-rockets).
+Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada poucos segundos que bate muito mais forte que uma rajada de laser. Doze **foguetes normais** em quatro tipos, três raridades cada, compartilham **um único temporizador de recarga de 3 segundos**, definido pelo lançador de foguetes da sua nave. Doze **foguetes especiais**, que fazem mais do que dano, compartilham **um temporizador de 5 segundos** só deles, e cada um espera também o seu próprio. Só se compram os quatro foguetes Comuns, Flares e Ricochet, com **créditos**; todo outro foguete é fabricado na Montagem. Uma [formação de drones](/wiki/03-Mechanics/Formations.md) pode aumentar o dano de um foguete e alongar ou encurtar o temporizador normal: veja [Formações de drones e foguetes](#drone-formations-and-rockets).
 
 ## Em um minuto {#in-one-minute}
 
-- **Doze foguetes para comprar.** Quatro tipos (Lancet, Rivet, Ember, Scatter), três raridades cada um. Os Comuns e Raros custam créditos, os Épicos Thulium. Mais dois foguetes, a N.U.K.E. e a N.I.K.E., são feitos na Montagem.
+- **Doze foguetes normais.** Quatro tipos (Lancet, Rivet, Ember, Scatter), três raridades cada. Só a raridade I é vendida, por 1.000 créditos; as raridades II e III são fabricadas na Montagem com 100 foguetes da raridade abaixo.
 - **Cada foguete sorteia o seu dano.** Ao disparar, o jogo escolhe um número entre o menor e o maior dano do foguete (um Lancet I: de 1.700 a 2.100). A sua nave, os seus lasers, os amplificadores e os boosters não mudam nada, só uma formação de drones muda. Os foguetes que os alienígenas disparam não sorteiam: causam um número fixo ([Contra os alienígenas](#against-the-aliens)).
 - **As explosões são mais fortes no meio.** Os foguetes Ember e Scatter explodem e ferem toda nave dentro do anel: o número inteiro no centro, metade dele na borda.
-- **Um temporizador para todos.** Depois de qualquer disparo você espera 3 segundos até o próximo, seja qual for o foguete. Só o N.U.K.E. e o N.I.K.E. fazem você esperar mais (4,1 e 4,6 segundos), porque ficam tanto tempo no ar.
+- **Dois tipos de temporizador.** Os foguetes normais compartilham um: 3 segundos depois de qualquer lançamento, ou, com um **Lançador de foguetes II a V**, uma série de 2 a 5 foguetes com 0,15 segundo entre eles e depois 5 segundos ([Disparar](#firing)). Os foguetes especiais compartilham outro, de 5 segundos, que nenhum lançador altera, e cada um espera também o seu, de 3 segundos a 2 minutos ([Foguetes especiais](#special-rockets)).
+- **Doze foguetes especiais.** Congelam, interferem, envenenam ou marcam uma nave, quebram escudos ou travas, curam seus amigos, saltam para uma segunda nave ou abrem um pequeno buraco negro no seu cursor. O N.U.K.E. e o N.I.K.E. são dois deles.
 - **Guiado ou reto.** Um foguete guiado (Lancet, Ember) precisa de um alvo que você selecionou. Um reto (Rivet, Scatter) voa em direção ao seu cursor.
 - **Mais algumas coisas são levadas como um foguete.** A **EMP Charge** é um consumível: uma pilha no seu inventário, usada pela barra de atalhos, sem slot ([EMP Charge](#emp-charge)). As duas **Energetic Walls** também ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Os foguetes são uma segunda arma ao lado dos seus lasers: um disparo a cada pou
 O que a Montagem faz exige antes a sua tecnologia; passe o mouse sobre um item para ver quanto tempo leva para pesquisá-la. A árvore de tecnologias, o combustível e o boost: [Pesquisa](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Cada foguete tem **o seu próprio dano, sorteado quando você o dispara**: em qu
 
 | Nome | Tipo | Raridade | Dano | Média | Penetração de escudo | Raio da explosão | Alcance de travamento | Alcance | Velocidade | Preço | Máximo que você carrega |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guiado, alvo único | Comum | 1.700–2.100 | 1.900 | 10% | – | 700 | 1.040 | 520 | 500 créditos | 5.000 |
-| **Lancet II** | Guiado, alvo único | Raro | 3.500–4.200 | 3.850 | 25% | – | 1.000 | 1.584 | 660 | 800 créditos | 2.000 |
-| **Lancet III** | Guiado, alvo único | Épico | 5.200–6.200 | 5.700 | 35% | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Reto, alvo único | Comum | 2.200–2.700 | 2.450 | 5% | – | – | 1.080 | 900 | 500 créditos | 5.000 |
-| **Rivet II** | Reto, alvo único | Raro | 4.500–5.250 | 4.875 | 25% | – | – | 1.120 | 700 | 800 créditos | 2.000 |
-| **Rivet III** | Reto, alvo único | Épico | 7.000–8.000 | 7.500 | 35% | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guiado, explosão em área | Comum | 1.200–1.400 | 1.300 | – | 255 | 700 | 1.000 | 500 | 500 créditos | 5.000 |
-| **Ember II** | Guiado, explosão em área | Raro | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 800 créditos | 2.000 |
-| **Ember III** | Guiado, explosão em área | Épico | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Reto, explosão em área | Comum | 1.500–1.750 | 1.625 | – | 315 | – | 1.088 | 640 | 500 créditos | 5.000 |
-| **Scatter II** | Reto, explosão em área | Raro | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 800 créditos | 2.000 |
-| **Scatter III** | Reto, explosão em área | Épico | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Guiado, alvo único | Comum | 3.500–4.200 | 3.850 | 25% | – | 1.000 | 1.584 | 660 | 1.000 créditos | 5.000 |
+| **Lancet II** | Guiado, alvo único | Raro | 5.200–6.200 | 5.700 | 35% | – | 1.300 | 2.296 | 820 | Fabricado com 100 Lancet I | 2.000 |
+| **Lancet III** | Guiado, alvo único | Épico | 7.300–8.700 | 8.000 | 35% | – | 1.300 | 2.296 | 820 | Fabricado com 100 Lancet II | 500 |
+| **Rivet I** | Reto, alvo único | Comum | 4.500–5.250 | 4.875 | 25% | – | – | 1.120 | 700 | 1.000 créditos | 5.000 |
+| **Rivet II** | Reto, alvo único | Raro | 7.000–8.000 | 7.500 | 35% | – | – | 1.100 | 500 | Fabricado com 100 Rivet I | 2.000 |
+| **Rivet III** | Reto, alvo único | Épico | 9.800–11.200 | 10.500 | 35% | – | – | 1.100 | 500 | Fabricado com 100 Rivet II | 500 |
+| **Ember I** | Guiado, explosão em área | Comum | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 1.000 créditos | 5.000 |
+| **Ember II** | Guiado, explosão em área | Raro | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | Fabricado com 100 Ember I | 2.000 |
+| **Ember III** | Guiado, explosão em área | Épico | 4.900–6.300 | 5.600 | – | 495 | 1.150 | 2.030 | 700 | Fabricado com 100 Ember II | 500 |
+| **Scatter I** | Reto, explosão em área | Comum | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 1.000 créditos | 5.000 |
+| **Scatter II** | Reto, explosão em área | Raro | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | Fabricado com 100 Scatter I | 2.000 |
+| **Scatter III** | Reto, explosão em área | Épico | 6.300–7.700 | 7.000 | – | 660 | – | 1.092 | 420 | Fabricado com 100 Scatter II | 500 |
 
 Quanto mais cara a raridade, mais forte o foguete bate, mais longe ele chega, mais penetração de escudo ele tem e menos você pode carregar; os caros também dão o maior dano pelo que custam. Um foguete reto causa de 23 a 32% a mais, em média, que o foguete guiado da mesma raridade e do mesmo tipo pelo mesmo preço (de um quarto a um terço), porque você precisa mirar. Uma explosão causa cerca de dois terços do foguete de alvo único da mesma raridade e do mesmo tipo (de 66 a 70% em média: um Ember em relação a um Lancet, um Scatter em relação a um Rivet), a toda nave que ela cobre. O dano de uma explosão é total no centro e cai em linha reta até **metade dele na borda**: uma nave cujo casco está a meio caminho da borda recebe 75%, e uma com o casco fora do anel não recebe nada. Um disparo causa em média o meio do seu intervalo, de 89 a 94% do número máximo, e a tabela que conta foguetes mais abaixo usa esse valor.
 
 ## Quanto custam {#what-they-cost}
 
-Um foguete Comum custa 500 créditos, um Raro 800 créditos e um Épico 5 Thulium, em todos os tipos. Disparados a cada temporizador, isso dá 10.000 créditos por minuto para um foguete Comum, 16.000 para um Raro e 100 Thulium para um Épico, contra os 900 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Uma pilha cheia são 5.000 foguetes Comuns (2.500.000 créditos), 2.000 Raros (1.600.000 créditos) ou 500 Épicos (2.500 Thulium): você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. No reset você mantém, sem fazer nada, até 1.000 de cada um dos doze foguetes; o que passar disso, e todo N.U.K.E. e N.I.K.E., só sobrevive no Cache de Transporte, onde um foguete pesa 1 kg (um N.U.K.E. ou N.I.K.E. pesa 250 kg): veja [o reset](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Um foguete a cada 3 segundos são só vinte por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas. O que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#limits) e os lotes que você lidera lá contam para esse limite quando você compra um foguete ou dá lance nele. Esses são os números base: a pesquisa de Piloto Sealed Backdoor ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta para você o limite de todos os foguetes, em 25%, 50%, 100%, 150% ou 200% no total, arredondado para baixo, de modo que 5.000 viram 6.250 no nível I e 15.000 no nível V.
+Um foguete Comum (raridade I) custa 1.000 créditos na loja, em todos os tipos. Os foguetes Raros (raridade II) e Épicos (raridade III) não são vendidos: a Montagem os fabrica, 100 por vez, com 100 foguetes da raridade abaixo (um lote de Raros custa ainda 50.000 créditos e 200 Thulium, um de Épicos 150.000 créditos e 800 Thulium, com alguns materiais; a loja e a Montagem dizem o resto). Disparado a cada temporizador, um foguete Comum são 20.000 créditos por minuto, contra os 900 créditos por minuto que os três lasers de uma Ostirion queimam a x1. Um estoque cheio são 5.000 foguetes Comuns (5.000.000 de créditos), 2.000 Raros ou 500 Épicos: você compra quantos quiser até esse limite, e o *máximo que você carrega* de um foguete é o único limite de quantos você tem. No reset você mantém, sem fazer nada, até 1.000 de cada um dos doze foguetes; o que passar disso, e todo N.U.K.E. e N.I.K.E., só sobrevive no Cache de Transporte, onde um foguete pesa 1 kg (um N.U.K.E. ou N.I.K.E. pesa 250 kg): veja [o reset](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Um foguete a cada 3 segundos são só vinte por minuto, então um foguete é o golpe extra por cima dos seus lasers: os baratos para os alienígenas fracos, os caros para as grandes lutas. O que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#limits) e os lotes que você lidera lá contam para esse limite quando você compra um foguete ou dá lance nele. Esses são os números base: a pesquisa de Piloto Sealed Backdoor ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) aumenta para você o limite de todos os foguetes, em 25%, 50%, 100%, 150% ou 200% no total, arredondado para baixo, de modo que 5.000 viram 6.250 no nível I e 15.000 no nível V.
 
-A Loja lista os foguetes um tipo de cada vez, cada um sob o seu nome, com o foguete Comum primeiro e o Épico por último; o hangar, o Cache de Transporte e o seletor de Foguetes usam a mesma ordem.
+A loja vende os quatro foguetes Comuns, um tipo por vez, e depois deles Flares e Ricochet; o hangar, o Cache de Transporte e o seletor de foguetes listam os doze foguetes normais do mesmo jeito, cada tipo sob o seu nome, o Comum primeiro e o Épico por último, e depois deles os foguetes especiais.
 
 ## Contra os alienígenas {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Os foguetes necessários para matar um alienígena, um tipo de foguete de cada v
 
 | Foguetes para matar | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - Os foguetes de alvo único **Comuns** matam um Seeker com um acerto em qualquer sorteio e um Phantasm com três (um Lancet I precisa de um quarto no sorteio mais baixo); são os foguetes do dia a dia dos primeiros setores. Os **Raros** são para o Bulwark e o Goombah: sete foguetes Lancet II derrubam um Bulwark em cerca de 20 segundos de temporizador. Os **Épicos** de alvo único matam um Goombah com oito (Rivet III) a onze (Lancet III). As explosões valem o preço quando vários alienígenas estão juntos: um Scatter III explodindo sobre um bando de cinco Phantasms (todos a até 250 unidades do alvo para o qual você mirou) causa cerca de 22.000 de dano ao bando em um único disparo.
 - Um abate só com foguetes é um gasto de verdade, não um jeito de ficar rico: um foguete de alvo único custa de 15% (um Rivet II num Phantasm) a 95% (um Lancet I num Crystalys) do que o abate paga (créditos, e Thulium a 200 créditos cada), e as explosões fracas contra os alienígenas fortes custam mais do que o abate paga (um Ember I num Bulwark: 120%). Matar o **Crystalys** com um único tipo exige de 56 a 352 foguetes e quase três minutos de temporizador; uma pilha cheia de 500 foguetes Épicos basta para quatro a oito deles. O alienígena mais forte pede um plano: seus lasers com munição x2, um foguete intermediário a cada 3 segundos desde o primeiro segundo, e os foguetes grandes abaixo como o golpe extra.
@@ -126,14 +137,36 @@ Dois foguetes não estão na Loja. A **Montagem** os fabrica, e eles seguem toda
 - **O porém.** Uma N.I.K.E. que encontra uma nave no caminho, um rival à espera na linha ou qualquer outra coisa que ela possa ferir, a atinge com 67.500 a 75.000 e some: o buraco negro não recebe nada, e você também não. Nada mais circula dentro do anel do buraco para ela atingir por acidente (alienígenas e pilotos de corporação ficam fora dele): só pilotos que entraram atrás de Dark Matter, ou que esperam você na borda. Ela atravessa a sua própria corporação, naves em uma zona segura e naves que você ainda não pode ferir. Se você sai do mapa depois de dispará-la, ela continua voando sem ferir ninguém e ainda produz a sua Dark Matter.
 - A Montagem não inicia uma criação que deixaria você com mais do que o *máximo que você carrega* de um foguete, contando o que você já colocou na fila. O Sealed Backdoor também aumenta os limites deles (10 viram 12 e 20 viram 25 no nível I, 30 e 60 no nível V).
 
+## Foguetes especiais {#special-rockets}
+
+Os foguetes especiais fazem coisas que um número de dano não diz. Eles compartilham **um temporizador de 5 segundos** entre si (nenhum lançador o altera), e cada um espera também **o seu próprio**, de 3 segundos a 2 minutos; o temporizador dos foguetes normais é separado, então um foguete normal e um especial podem sair juntos. A Montagem os fabrica, exceto Flares e Ricochet, que a loja vende (a árvore de itens acima traz todas as receitas). O N.U.K.E. e o N.I.K.E. acima também são foguetes especiais, e o N.U.K.E. não tem temporizador próprio. A CPU de foguetes automática e os lançadores de foguetes disparam apenas foguetes normais.
+
+| Nome | Tipo | Efeito | Temporizador próprio | Máximo que você carrega |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Guiado, alvo único | Um foguete guiado que não causa dano: a nave atingida congela e voa 60% mais devagar por quatro segundos. | 30 s | 50 |
+| **EMP Rocket** | Guiado, alvo único | Um foguete guiado que não causa dano: a nave atingida sofre o efeito de uma Carga EMP por três segundos. | 30 s | 50 |
+| **Shield Breaker** | Reto, alvo único | Um foguete rápido e não guiado feito para escudos: 25.000 no escudo e 5.000 no casco, mas enquanto restar escudo ele atinge só o escudo. | 15 s | 50 |
+| **Toxic Rocket** | Guiado, alvo único | Um foguete guiado que não causa dano próprio: a nave atingida fica envenenada por cinco segundos e perde por segundo meio por cento dos seus pontos de vida efetivos (casco e escudo juntos), tirados do casco. | 20 s | 50 |
+| **Marking Rocket** | Guiado, alvo único | Um foguete guiado que não causa dano: a nave atingida fica marcada por cinco segundos e recebe 20% a mais de dano de tudo. | 30 s | 50 |
+| **Cooldown Rocket** | Guiado, alvo único | Um foguete guiado que não causa dano: por oito segundos, os itens temporizados da nave atingida esfriam na metade da velocidade. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Reto, explosão em área | Uma N.U.K.E. reconstruída em torno de um núcleo colapsado. É colocada no cursor e abre por quinze segundos um pequeno buraco negro que puxa naves e foguetes guiados. Só pode existir um por mapa. Só a Montagem a fabrica, e ela nunca pode ser vendida no Leilão. | 120 s | 5 |
+| **Support Rocket** | Reto, explosão em área | Colocado no cursor: cura toda nave aliada na sua área em 40% do casco e do escudo. | 120 s | 20 |
+| **Flares** | Reto, alvo único | Lançados da sua própria nave: quebram todos os foguetes guiados travados em você. | 60 s | 20 |
+| **Ricochet** | Reto, alvo único | Um foguete rápido e não guiado que acerta como um Rivet II e, depois do primeiro acerto, salta para uma segunda nave com 75% do dano. | 3 s | 500 |
+
+- Um segundo acerto do mesmo tipo renova um congelamento, uma interferência, um veneno, uma marca ou um resfriamento lento e nunca se soma ao primeiro. O dano do Toxic Rocket é de quem atirou, então uma eliminação por veneno conta para ele.
+- O N.U.K.E. Gravitacional e o Support Rocket são **colocados no seu cursor**: voam até o ponto sob ele, ou até onde alcançarem, e o detonador de nenhuma nave os faz explodir. Só pode haver um poço gravitacional por mapa: um segundo lançamento é recusado e nada é gasto.
+
 ## Disparo {#firing}
 
-1. Compre foguetes na Loja (a categoria **Foguetes**), até o *máximo que você carrega* de cada um: créditos para os Comuns e Raros, Thulium para os Épicos.
-2. Abra **Foguetes** acima da barra de atalhos e arraste os que você quer para os slots. O seletor mostra uma coluna por tipo e uma linha por raridade, com o que você carrega de cada um. Sob elas há uma linha própria, **Especiais · só na Montagem**, para a N.U.K.E. e a N.I.K.E. (um pequeno martelo marca aquela de que você não carrega nenhuma).
+1. Compre os foguetes Comuns na loja (a categoria **Foguetes**), até o *máximo que você carrega* de cada um, com créditos; fabrique os Raros e Épicos na Montagem com 100 da raridade abaixo.
+2. Abra **Foguetes** acima da barra de atalhos e arraste os que você quer para os slots. O seletor mostra uma coluna por tipo e uma linha por raridade, com o que você carrega de cada um. Abaixo estão os **foguetes especiais**, quatro por linha (um pequeno martelo marca um só de fabricação de que você não carrega nenhum).
 3. Pressione a tecla do slot. Clicar no slot de um foguete **guiado** o dispara contra o seu alvo selecionado; clicar no slot de um foguete **reto** o arma, e o seu próximo clique no espaço o dispara ali. A tecla **Disparar foguete** (`R` por padrão, alterável em Configurações › Controles) dispara o foguete que você disparou por último, ou o primeiro da barra.
-4. Um indicador circular percorre **todos** os slots de foguete durante os 3 segundos até o próximo lançamento (4,1 depois de um N.U.K.E., 4,6 depois de um N.I.K.E.), com os segundos restantes no meio. Se você disparar antes disso, o jogo apenas avisa que os foguetes estão recarregando (um disparo na última décima de segundo ainda sai). Uma formação de drones pode deixar a espera entre 2,19 e 4,05 segundos (veja abaixo).
+4. Um indicador circular percorre cada slot de foguete durante o temporizador que aquele foguete espera: 3 segundos num foguete normal (5 com um lançador de foguetes) e, num especial, o maior entre os 5 segundos e o seu próprio, com os segundos restantes no meio. Se você disparar antes disso, o jogo apenas avisa que os foguetes estão recarregando (um disparo na última décima de segundo ainda sai). Uma formação de drones pode deixar o temporizador normal entre 2,19 e 4,05 segundos (veja abaixo).
 
 Passe o mouse sobre um slot de foguete para ver os números dele (o dano mais baixo e o mais alto dele; a Loja e o hangar dizem o mesmo) e, no mundo, o anel de travamento dele (verde quando o alvo selecionado está ao alcance) ou a linha e o círculo da explosão. Um foguete travado em **você** faz a borda da sua tela piscar em vermelho.
+
+**Lançadores de foguetes.** Um lançador de foguetes II a V fica guardado no seu hangar como a CPU de foguetes automática, não ocupa slot e funciona em qualquer nave (vale o melhor que você tem). Um toque num foguete normal dispara então 2, 3, 4 ou 5 foguetes do estoque, com 0,15 segundo entre eles, e depois os foguetes normais esperam 5 segundos. A Montagem os fabrica após a pesquisa (de 8 a 24 horas, com de 150.000 a 2.000.000 de Thulium e materiais; a árvore de itens dos [Extras](/wiki/06-Items/Extras.md) os lista).
 
 A **N.U.K.E.** desenha a explosão dela no mapa antes de você disparar (o círculo de 1.350 unidades no ponto mirado) e, quando detona, um clarão branco sobre a visão, um anel que se expande até o alcance exato em cerca de um segundo e permanece por mais dois, uma nuvem que sobe como um cogumelo, e um tremor da câmera que é mais forte quanto mais perto você está. **Reduzir tremor da tela** remove o tremor, e **Reduzir movimento** encurta o clarão para um terço de segundo, com menos da metade da luz dele (os dois estão em Configurações › Gráficos); uma qualidade de partículas mais baixa afina a nuvem e tira as faíscas, nunca o clarão nem o anel. A **N.I.K.E.** é mirada como um Rivet I, pela linha da sua nave até o cursor, e o jogo nunca a recusa por estar longe do buraco negro ou em um mapa sem um: para onde ela vai é você quem julga. O cartão dela diz **Buraco negro: Gera Dark Matter** ao lado do dano. Ela deixa um rastro violeta com faíscas girando em volta; uma nave que ela encontra recebe o impacto como de qualquer foguete, e quando ela cruza o horizonte, em vez disso, o buraco lampeja.
 
@@ -142,7 +175,7 @@ A **N.U.K.E.** desenha a explosão dela no mapa antes de você disparar (o círc
 Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única coisa que muda um foguete. Todos os números de dano desta página são de uma nave sem formação.
 
 - **Dano.** O bônus de foguetes de Ballista (+55%), Bodkin (+29%) e Asterism (+24%) multiplica o dano de todos os 14 foguetes, N.U.K.E. e N.I.K.E. incluídos. O custo de todo o dano de Testudo também conta nos foguetes, e o dano a alienígenas de Culler conta num foguete que acerta um alienígena. Todos os fatores de um foguete juntos param em ×1,59. O bônus conta contra um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) como contra uma nave, e a blindagem do asteroide é descontada depois dele.
-- **Recarga.** Asterism alonga o temporizador compartilhado em 35% (4,05 segundos), Cordon em 11% (3,33) e Redoubt o encurta em 27% (2,19), mas nunca abaixo do voo do foguete mais um instante. Com o Redoubt, os foguetes rápidos (Lancet I, Rivet I e II, Ember I, Scatter I e II) esperam os 2,19 segundos, um Rivet III espera 2,3, um Lancet III 2,9 e um Ember III os 3 inteiros; o N.U.K.E. e o N.I.K.E. esperam 4,1 e 4,6 segundos, seja qual for a formação. A espera é fixada ao disparar, então trocar de formação depois não a encurta, e o círculo sobre os slots de foguete a acompanha.
+- **Recarga.** Asterism alonga em 35% o temporizador dos foguetes normais (4,05 segundos), Cordon em 11% (3,33) e Redoubt o encurta em 27% (2,19), mas nunca abaixo do voo do foguete mais um instante. Com Redoubt, os foguetes rápidos (Lancet I, Rivet I e II, Ember I, Scatter I e II) esperam os 2,19 segundos, um Rivet III 2,3, um Lancet III 2,9 e um Ember III os 3 inteiros. A espera é definida quando você dispara, então trocar de formação depois não a encurta, e o indicador sobre os slots de foguete a acompanha. Os temporizadores dos foguetes especiais não mudam com nenhuma formação.
 - **Os limites dos dois grandes continuam valendo.** Com a melhor formação, um N.I.K.E. acerta com até 116.250, o que um Paragon intacto (128.000) sobrevive, e um N.U.K.E. com até 77.500, o que um Goombah (80.000) sobrevive.
 - **Evasão.** Os 7% de evasão de Asterism dão a um foguete direto que atinge você 7% de chance de não causar dano nenhum, e um “Errou” flutuante aparece sobre a sua nave; uma explosão em área não mira e nunca é esquivada.
 - **Penetração.** Gemini soma seus 15 pontos, e Stiletto seus 35 pontos de penetração de foguetes, à penetração de escudo de um foguete direto (uma explosão não tem), sem limite: um Lancet III com um Stiletto dá 70%, com Gemini 50%. Um acerto de laser soma os de Gemini do mesmo jeito à da munição e à dos amps, e não recebe nada dos do Stiletto ([Lasers e munição](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Uma [formação de drones](/wiki/03-Mechanics/Formations.md) em uso é a única 
 - Só o **acerto direto** de um foguete reivindica um alienígena (veja [Combate](/wiki/03-Mechanics/Combat.md)); a borda de uma explosão pode ferir um alienígena já reivindicado sem roubá-lo. Todo alienígena que uma explosão fere, um que dormia também, se volta contra você, como acontece com um acerto de laser (inclusive um Seeker ou um Goombah, que só revidam); o que a explosão erra continua dormindo.
 - O temporizador é seu: ele sobrevive a um salto, a uma reconexão, a uma troca de nave e a uma nave destruída.
 
-Os doze foguetes da primeira tabela são comprados (créditos para os Comuns e Raros, Thulium para os Épicos); a N.U.K.E. e a N.I.K.E. são criadas.
+Só se compram (com créditos) os foguetes Comuns da primeira tabela, Flares e Ricochet; todo outro foguete é fabricado na Montagem.
 
 Veja também: [Lasers e munição](/wiki/06-Items/Lasers.md), [Combate](/wiki/03-Mechanics/Combat.md), [O buraco negro](/wiki/03-Mechanics/Black-Hole.md).
 

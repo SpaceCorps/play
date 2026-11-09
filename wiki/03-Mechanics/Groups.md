@@ -50,11 +50,13 @@ The chat has a row of tabs on top: **Global**, **Local**, **Group** (while you a
 | Channel | Who hears it | Command |
 | :--- | :--- | :--- |
 | **Local** | pilots on your map | `/l` or `/local` |
-| **Global** | every pilot online | `/g` or `/global` |
-| **Group** | your group, wherever they are | `/p`, `/party` or `/group` |
-| **Private** | one pilot, wherever they are | `/m`, `/msg` or `/w`, then the name and the message ([below](#private-messages)) |
+| **Global** | every pilot on every server and in every world | `/g` or `/global` |
+| **Group** | your group on your server, wherever they are | `/p`, `/party` or `/group` |
+| **Private** | one pilot on your server, wherever they are | `/m`, `/msg` or `/w`, then the name and the message ([below](#private-messages)) |
 
 A command switches the tab too, and typed alone (`/g`) it only switches. Group chat needs a group. On a game server from before the channels the chat is the one list it was, and a group cannot be formed.
+
+**Global** is one chat for the whole game: every pilot on every server and in every world hears your line, in flight or at the station. A line from another server can arrive a moment after it was sent, and pilots on different servers may see two near-simultaneous lines in a different order. Rest the pointer on a pilot's name and the card that opens also says which server he flies on, when it is not yours. The other channels stay on the server you are on: **Local** is the pilots on your map, **Group** chat and private messages reach only pilots on your server, and the [kill feed](#the-kill-feed) and the **System** lines (the server's announcements) belong to each server. If a server loses its link to the rest, its Global shrinks to its own pilots until the link is back; a short break is made up late, and what was said during a longer one is not told afterwards.
 
 **System** is gold and read-only, with a list of its own: it holds what the server says on its own (the welcome, the restart, update and wipe warnings, the swarm announcements) and what your ship reports (repairs, cloaking, EMPs, rockets). Those lines are in no other tab, so a busy Global cannot push them out, and the pilots' tabs hold what pilots say. The tab's count is for the announcements; a restart or update countdown and the wipe warnings also pop up as a notice. The [kill feed](#the-kill-feed) stays in **Global**, with its own switch, and the lines about pilots joining or leaving your group are in **Group**.
 
@@ -64,7 +66,7 @@ A command switches the tab too, and typed alone (`/g`) it only switches. Group c
 
 ### Private Messages
 
-Type `/m`, a pilot's name and your message to write to one pilot only: `/m nova o7` (`/msg` and `/w` do the same). The pilot has to be online, in any world, at the station or in flight. The name is the pilot's name as the chat shows it, in any case (`/m NOVA`, `/m @nova` and `/m nova:` all find nova): it has to be the whole name, never just its beginning, so a message cannot go to the wrong pilot. `/r` and your reply (`/r o7`) answers the pilot who wrote to you last, or the last pilot you wrote to when nobody has written to you.
+Type `/m`, a pilot's name and your message to write to one pilot only: `/m nova o7` (`/msg` and `/w` do the same). The pilot has to be online on your server, in any world, at the station or in flight. The name is the pilot's name as the chat shows it, in any case (`/m NOVA`, `/m @nova` and `/m nova:` all find nova): it has to be the whole name, never just its beginning, so a message cannot go to the wrong pilot. `/r` and your reply (`/r o7`) answers the pilot who wrote to you last, or the last pilot you wrote to when nobody has written to you.
 
 A private message shows in the tab you are looking at, among its lines, in violet: **To nova:** for the one you sent, **From nova:** for the one you received, so you have both sides of the talk in the chat window in flight and in the bar at the station. Every tab shows it, the **System** tab and a hidden **Global** tab included. A message you receive counts as unread (in the toolbar's button, and in the bar at the station) until you open a tab, and plays a soft chime, at most once every 2 seconds; sending one plays its own soft cue. Right-click a message you received to **Reply**, **Invite to group**, **Ignore** or **Report…**.
 
@@ -100,7 +102,7 @@ Turn it off with the menu button in the chat window's title bar (**Show kill fee
 
 ### Hiding, Ignoring and Reporting
 
-Global reaches every pilot online, so the chat has three tools to keep it comfortable. They are in the chat window: the menu button in its title bar, and a right-click on a pilot's name.
+Global reaches every pilot on every server and in every world, so the chat has three tools to keep it comfortable. They are in the chat window: the menu button in its title bar, and a right-click on a pilot's name.
 
 - **Hide Global chat** (the menu, or Settings › Interface › Chat): the Global tab shows none of Global's lines, the kill feed's lines included (your private messages still show in it), and stops counting unread lines. The tab stays, says "Global is hidden" and has a button that shows it again; what you send to Global still goes out. Turn it off and every line that came meanwhile is there.
 - **Ignore** (right-click a name, then **Ignore**): that pilot's lines in Global and Local and their private messages are hidden (a private message from them makes no sound and does not count as unread), and their group invitations are turned down without asking you. They are not told. They stay visible in the **Group** tab: a group mate you ignore is still your group, so leave the group to be rid of them. The server's own lines are never hidden. **Stop ignoring** is on the same menu, and **Settings › Interface › Chat** lists the ignored pilots (up to 200) with a **Remove** button for each.

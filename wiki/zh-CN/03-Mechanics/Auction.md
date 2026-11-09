@@ -16,7 +16,7 @@
 - 要使用拍卖行（挂单、购买和出价），需要 **5 级**。
 - 挂单按每组定价，用整数信用点或整数 Thulium（二选一），且不能低于该物品的最低价。**没有最高价。**
 - Thulium 定价至少是信用点最低价除以汇率（1,000）后向上取整的值，且只适用于最低价达到 1 Thulium 或以上的物品。汇率只起这一个作用：**1 Thulium = 1,000 信用点只是最低价的规则，不是兑换汇率。**不会换算任何东西，也不显示任何价值，信用点和 Thulium 永远不会相加。
-- 共有 89 种物品可以挂单，其中 88 种还可以用 Thulium 定价。
+- 共有 102 种物品可以挂单，其中 101 种还可以用 Thulium 定价。
 - 挂单时长可在 168 / 336 / 504 小时中选择，每个等级的可选时长都一样。
 - **押金**是价格的 0.25%，按挂单每 24 小时计，最低 50 信用点 或 1 Thulium。挂单时支付，永远不退还，取消挂单也不退。
 - 从 10 级起，押金为 0.4%。
@@ -55,9 +55,9 @@
 | **护盾电池** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **推进器** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Siphon Battery II（每组 10 个）, Antimatter Battery I（每组 10 个）, Ultra Core（每组 10 个）, Dark Matter Ammo I（每组 10 个）, Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
-| **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **消耗品** | EMP Charge, Energetic Wall II | 2 |
-| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
+| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **资源** | Cataclysite（每组 100 个）, Ship Fragment（每组 100 个）, Daraxium（每组 100 个）, Nyxite（每组 100 个）, Quorvium（每组 10 个）, Reinforced Hull Plate（每组 10 个）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -85,7 +85,7 @@
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 200 | 1 |
+| Lancet I | 1 | 400 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33,000 | 33 |
 
@@ -194,78 +194,78 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 | UTC 整点 | 拍品 | 完整大小 | 完整大小时的起拍价 |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter III | 1,250 | 250,000 信用点 |
+| 00:00 | Scatter I | 1,250 | 250,000 信用点 |
 | 00:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
 | 00:00 | Ultra Core | 10,000 | 400,000 信用点 |
 | 01:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 01:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
-| 01:00 | Lancet III | 1,250 | 250,000 信用点 |
-| 02:00 | Lancet I | 12,500 | 1,250,000 信用点 |
-| 02:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 01:00 | Scatter I | 1,250 | 250,000 信用点 |
+| 02:00 | Lancet I | 12,500 | 2,500,000 信用点 |
+| 02:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
 | 02:00 | EMP Charge | 5 | 100,000 信用点 |
 | 03:00 | EMP Charge | 5 | 100,000 信用点 |
 | 03:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
-| 03:00 | Lancet I | 12,500 | 1,250,000 信用点 |
+| 03:00 | Lancet I | 12,500 | 2,500,000 信用点 |
 | 04:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
 | 04:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
-| 04:00 | Rivet I | 12,500 | 1,250,000 信用点 |
-| 05:00 | Rivet II | 5,000 | 800,000 信用点 |
+| 04:00 | Rivet I | 12,500 | 2,500,000 信用点 |
+| 05:00 | Rivet I | 5,000 | 1,000,000 信用点 |
 | 05:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 05:00 | EMP Charge | 5 | 100,000 信用点 |
 | 06:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
 | 06:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
-| 06:00 | Ember II | 5,000 | 800,000 信用点 |
+| 06:00 | Ember I | 5,000 | 1,000,000 信用点 |
 | 07:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
 | 07:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
-| 07:00 | Rivet II | 5,000 | 800,000 信用点 |
-| 08:00 | Ember I | 12,500 | 1,250,000 信用点 |
+| 07:00 | Rivet I | 5,000 | 1,000,000 信用点 |
+| 08:00 | Ember I | 12,500 | 2,500,000 信用点 |
 | 08:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
 | 08:00 | EMP Charge | 5 | 100,000 信用点 |
 | 09:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
-| 09:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
-| 09:00 | Ember II | 5,000 | 800,000 信用点 |
-| 10:00 | Scatter II | 5,000 | 800,000 信用点 |
+| 09:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
+| 09:00 | Lancet I | 1,250 | 250,000 信用点 |
+| 10:00 | Scatter I | 5,000 | 1,000,000 信用点 |
 | 10:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 10:00 | EMP Charge | 5 | 100,000 信用点 |
 | 11:00 | EMP Charge | 5 | 100,000 信用点 |
 | 11:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
-| 11:00 | Lancet I | 12,500 | 1,250,000 信用点 |
+| 11:00 | Lancet I | 12,500 | 2,500,000 信用点 |
 | 12:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
 | 12:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
-| 12:00 | Scatter II | 5,000 | 800,000 信用点 |
-| 13:00 | Lancet III | 1,250 | 250,000 信用点 |
+| 12:00 | Scatter I | 5,000 | 1,000,000 信用点 |
+| 13:00 | Lancet I | 1,250 | 250,000 信用点 |
 | 13:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
 | 13:00 | Ultra Core | 10,000 | 400,000 信用点 |
 | 14:00 | Ultra Core | 10,000 | 400,000 信用点 |
 | 14:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
-| 14:00 | Ember I | 12,500 | 1,250,000 信用点 |
+| 14:00 | Ember I | 12,500 | 2,500,000 信用点 |
 | 15:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 15:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
-| 15:00 | Lancet III | 1,250 | 250,000 信用点 |
+| 15:00 | Lancet I | 1,250 | 250,000 信用点 |
 | 16:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
 | 16:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
-| 16:00 | Scatter III | 1,250 | 250,000 信用点 |
-| 17:00 | Rivet I | 12,500 | 1,250,000 信用点 |
+| 16:00 | Ember I | 5,000 | 1,000,000 信用点 |
+| 17:00 | Rivet I | 12,500 | 2,500,000 信用点 |
 | 17:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
 | 17:00 | EMP Charge | 5 | 100,000 信用点 |
 | 18:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
 | 18:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
-| 18:00 | Scatter II | 5,000 | 800,000 信用点 |
-| 19:00 | Ember II | 5,000 | 800,000 信用点 |
+| 18:00 | Scatter I | 5,000 | 1,000,000 信用点 |
+| 19:00 | Ember I | 5,000 | 1,000,000 信用点 |
 | 19:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 19:00 | EMP Charge | 5 | 100,000 信用点 |
 | 20:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
 | 20:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
-| 20:00 | Rivet I | 12,500 | 1,250,000 信用点 |
+| 20:00 | Rivet I | 12,500 | 2,500,000 信用点 |
 | 21:00 | Advanced Plasma | 25,000 | 500,000 信用点 |
 | 21:00 | Ultra Core | 25,000 | 1,000,000 信用点 |
-| 21:00 | Rivet II | 5,000 | 800,000 信用点 |
+| 21:00 | Rivet I | 5,000 | 1,000,000 信用点 |
 | 22:00 | Advanced Plasma | 10,000 | 200,000 信用点 |
 | 22:00 | Ultra Core | 50,000 | 2,000,000 信用点 |
-| 22:00 | Scatter III | 1,250 | 250,000 信用点 |
+| 22:00 | Scatter I | 1,250 | 250,000 信用点 |
 | 23:00 | EMP Charge | 5 | 100,000 信用点 |
 | 23:00 | Advanced Plasma | 50,000 | 1,000,000 信用点 |
-| 23:00 | Ember I | 12,500 | 1,250,000 信用点 |
+| 23:00 | Ember I | 12,500 | 2,500,000 信用点 |
 
 <!-- market-day:end -->
 

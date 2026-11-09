@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -52,11 +52,13 @@ A chat tetején lapok sora van: **Globális**, **Helyi**, **Csoport** (amíg cso
 | Csatorna | Ki hallja | Parancs |
 | :--- | :--- | :--- |
 | **Helyi** | a térképeden lévő pilóták | `/l` vagy `/local` |
-| **Globális** | minden online pilóta | `/g` vagy `/global` |
-| **Csoport** | a csoportod, bárhol is vannak | `/p`, `/party` vagy `/group` |
-| **Privát** | egyetlen pilóta, bárhol is van | `/m`, `/msg` vagy `/w`, majd a név és az üzenet ([lent](#private-messages)) |
+| **Globális** | minden szerveren és minden világban minden pilóta | `/g` vagy `/global` |
+| **Csoport** | a csoportod a szervereden, bárhol is vannak | `/p`, `/party` vagy `/group` |
+| **Privát** | egyetlen pilóta a szervereden, bárhol is van | `/m`, `/msg` vagy `/w`, majd a név és az üzenet ([lent](#private-messages)) |
 
 A parancs a lapot is átváltja, és egyedül beírva (`/g`) csak vált. A csoportchathez csoport kell. A csatornák előtti játékszerveren a chat az az egy lista, ami volt, és csoportot nem lehet alakítani.
+
+A **Globális** az egész játék közös chatje: a soraidat minden szerveren és minden világban minden pilóta hallja, repülés közben és az állomáson is. Egy másik szerverről érkező sor egy pillanattal a küldése után ér ide, és a különböző szervereken lévő pilóták két majdnem egyidejű sort eltérő sorrendben láthatnak. Tartsd az egérmutatót egy pilóta nevén: a megnyíló kártya azt is megmondja, melyik szerveren repül, ha az nem a tiéd. A többi csatorna azon a szerveren marad, ahol vagy: a **Helyi** a térképeden lévő pilóták, a csoportchat és a privát üzenetek csak a szervereden lévő pilótákhoz jutnak el, a [kill feed](#the-kill-feed) és a **Rendszer** sorai (a szerver közleményei) pedig az egyes szerverek sajátjai. Ha egy szerver elveszti a kapcsolatot a többivel, a Globálisa addig csak a saját pilótáira szűkül, amíg a kapcsolat vissza nem áll; egy rövid kiesést utólag pótol, de ami egy hosszabb kiesés alatt elhangzott, azt utána nem közvetíti.
 
 A **Rendszer** lap arany színű és csak olvasható, saját listával: ide kerül, amit a szerver magától mond (az üdvözlés, az újraindítás, a frissítés és a wipe figyelmeztetései, a rajok bejelentései), és amit a hajód jelent (javítások, álcázás, EMP-k, rakéták). Ezek a sorok egyetlen másik lapon sincsenek, így egy forgalmas Globális nem tudja kiszorítani őket, a többi lapon pedig az van, amit a pilóták mondanak. A lap számlálója a bejelentéseket számolja; az újraindítás vagy a frissítés visszaszámlálása és a wipe figyelmeztetései ezenfelül rövid időre értesítésként is felbukkannak. A [kill feed](#the-kill-feed) a **Globális** lapon marad, saját kapcsolóval, a csoportodhoz csatlakozó vagy azt elhagyó pilótákról szóló sorok pedig a **Csoport** lapon vannak.
 
@@ -66,7 +68,7 @@ Az **Enter** billentyű megnyitja a chatet, és átadja neki a billentyűzetet. 
 
 ### Privát üzenetek {#private-messages}
 
-Írd be, hogy `/m`, egy pilóta neve és az üzeneted, hogy csak neki írj: `/m nova o7` (a `/msg` és a `/w` ugyanezt teszi). A pilótának online kell lennie, bármelyik világban, az állomáson vagy repülés közben. A név a pilóta neve úgy, ahogy a chat mutatja, kis- és nagybetűre nem érzékenyen (a `/m NOVA`, a `/m @nova` és a `/m nova:` is nova-t találja meg): a teljes névnek kell lennie, soha nem csak az elejének, így egy üzenet nem mehet rossz pilótához. A `/r` és a válaszod (`/r o7`) arra a pilótára válaszol, aki legutóbb írt neked, vagy arra, akinek te írtál legutóbb, ha senki sem írt neked.
+Írd be, hogy `/m`, egy pilóta neve és az üzeneted, hogy csak neki írj: `/m nova o7` (a `/msg` és a `/w` ugyanezt teszi). A pilótának a szervereden online kell lennie, bármelyik világban, az állomáson vagy repülés közben. A név a pilóta neve úgy, ahogy a chat mutatja, kis- és nagybetűre nem érzékenyen (a `/m NOVA`, a `/m @nova` és a `/m nova:` is nova-t találja meg): a teljes névnek kell lennie, soha nem csak az elejének, így egy üzenet nem mehet rossz pilótához. A `/r` és a válaszod (`/r o7`) arra a pilótára válaszol, aki legutóbb írt neked, vagy arra, akinek te írtál legutóbb, ha senki sem írt neked.
 
 A privát üzenet abban a lapban jelenik meg, amelyet éppen nézel, a sorai között, lilával: **nova részére:** az, amelyet küldtél, **nova üzenete:** az, amelyet kaptál, így a beszélgetés mindkét oldala megvan a repülés közbeni chatablakban és az állomás sávjában. Minden lap mutatja, a **Rendszer** lap és az elrejtett **Globális** lap is. A kapott üzenet olvasatlannak számít (az eszköztár gombján és az állomás sávjában), amíg meg nem nyitsz egy lapot, és halk hangot játszik, legfeljebb 2 másodpercenként egyszer; a küldésnek saját halk hangja van. Kattints jobb gombbal egy kapott üzenetre, hogy **Válaszolj**, **Meghívd a csoportba**, **Mellőzd** vagy **Jelentsd…**.
 
@@ -102,7 +104,7 @@ Kikapcsolhatod a chatablak címsorában lévő menügombbal (**Kill feed megjele
 
 ### Elrejtés, mellőzés és jelentés {#hiding-ignoring-and-reporting}
 
-A Globális minden online pilótához eljut, ezért a chat három eszközt ad a kényelmed megőrzéséhez. A chatablakban vannak: a címsorában lévő menügomb, és egy pilóta nevén a jobb kattintás.
+A Globális minden szerveren és minden világban minden pilótához eljut, ezért a chat három eszközt ad a kényelmed megőrzéséhez. A chatablakban vannak: a címsorában lévő menügomb, és egy pilóta nevén a jobb kattintás.
 
 - **Globális chat elrejtése** (a menü, vagy Beállítások › Felület › Chat): a Globális lap a Globális egyetlen sorát sem mutatja, a kill feed sorait is beleértve (a privát üzeneteid továbbra is látszanak benne), és nem számolja az olvasatlan sorokat. A lap marad, kiírja: „A Globális el van rejtve”, és van egy gombja, amely újra megmutatja; amit a Globálisba küldesz, az így is kimegy. Kapcsold ki, és minden közben érkezett sor ott van.
 - **Mellőzés** (jobb kattintás egy néven, aztán **Mellőzés**): annak a pilótának a sorai a Globálisban és a Helyiben, valamint a privát üzenetei el vannak rejtve (egy privát üzenete nem ad hangot, és nem számít olvasatlannak), a csoportmeghívásait pedig anélkül utasítják el, hogy téged kérdeznének. Nem értesül róla. A **Csoport** lapon továbbra is látszanak: egy csoporttárs, akit mellőzöl, továbbra is a csoportod tagja, ezért lépj ki a csoportból, ha meg akarsz szabadulni tőle. A szerver saját sorait sosem rejtik el. A **Mellőzés megszüntetése** ugyanabban a menüben van, a **Beállítások › Felület › Chat** pedig felsorolja a mellőzött pilótákat (legfeljebb 200-at), mindegyikhez egy **Eltávolítás** gombbal.

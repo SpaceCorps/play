@@ -103,6 +103,9 @@ Vad en boost gör med tiden för en forskning, med boosten på från start:
 | 10 h | 5 h | 1 | 5 000 |
 | 1 d | 12 h | 1 | 5 000 |
 | 2 d | 1 d | 1 | 5 000 |
+| 4 d | 2 d | 2 | 10 000 |
+| 7 d | 3 d 12 h | 4 | 20 000 |
+| 10 d | 5 d | 5 | 25 000 |
 
 <!-- research-boost:end -->
 
@@ -113,13 +116,13 @@ Teknologierna högst upp i trädet kräver också Dark Matter. Den kommer från 
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- **10 Dark Matter** för var och en av de 16 teknologierna i tabellen nedan, utöver vetenskapen: sätt i den i forskningscentrumet (från ditt inventarie, med landat skepp) innan du startar, så tar forskningen den när den börjar.
+- **10 Dark Matter** för var och en av de 17 teknologierna i tabellen nedan, utöver vetenskapen: sätt i den i forskningscentrumet (från ditt inventarie, med landat skepp) innan du startar, så tar forskningen den när den börjar.
 - **Regeln:** ett föremål med raritet Episk eller högre vars forskning tar 10 h eller mer. N.I.K.E., som är sättet att få fram Dark Matter, behöver den aldrig.
 - **Drönarformationer** står utanför regeln: varje formationsforskning kräver Dark Matter, 5, 13 eller 20 efter styrka, som tabellen visar.
 - **Skrovpansar** står också utanför regeln: dess två forskningar kräver mer, 25 Dark Matter för en dags forskning och 40 för två dagar, som tabellen visar.
 - **Avbryter du en forskning** går den Dark Matter du satte i för den tillbaka till centret. Framsteget och vetenskapen som redan bränts gör det inte.
 - **Hela kön.** Det kostar inget att köa, och varje köad teknologi tar sin Dark Matter när den startar, så sätt in Dark Matter för hela kön på en gång. Knappen Lägg till fyller centret upp till vad de köade teknologierna tar tillsammans (och den teknologi du valt, om den inte är köad än), hur mycket den första än behöver, och varje köad teknologi visar om Dark Matter i centret räcker till den. En kö som stannade för brist på Dark Matter startar av sig själv i samma ögonblick som du lägger till det som saknades.
-- Alla tillsammans kräver 414 Dark Matter.
+- Alla tillsammans kräver 424 Dark Matter.
 
 | Teknologi | Raritet | Forskningstid | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -157,6 +160,7 @@ Teknologierna högst upp i trädet kräver också Dark Matter. Den kommer från 
 | [Penetration Amp IV](/wiki/06-Items/Lasers.md#laser-amplifiers-amps-) | Episk | 10 h | 10 |
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Sällsynt | 1 d | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Episk | 2 d | 40 |
+| [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Mytisk | 1 d | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -258,6 +262,32 @@ Dark Matter Plate | resource, mythical | craft 250 Thulium, 120 s | research 864
 ```tree research
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 172800 s, 172800 science | 300 Ship Fragment, 50 Reinforced Hull Plate, 30 Power Core, 5 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+
+Lancet II => Lancet III
+Rivet II => Rivet III
+Ember II => Ember III
+Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
 ```
 
 ### CPU:er {#tree-cpus}
@@ -438,7 +468,7 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2 d | 172 800 | 10 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1 d | 86 400 | 10 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3 h | 10 800 | – |
-| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | D | 1 d | 86 400 | 10 |
+| [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | D | 1 d | 86 400 | 10 |
 | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | – | A | 30 min | 1 800 | – |
 | [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Extra Slots CPU I](/wiki/06-Items/Extras.md#extra-slots-cpus) | C | 10 h | 36 000 | – |
 | [Extra Slots CPU III](/wiki/06-Items/Extras.md#extra-slots-cpus) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Extra Slots CPU II](/wiki/06-Items/Extras.md#extra-slots-cpus) | D | 1 d | 86 400 | 10 |
@@ -486,18 +516,38 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | [Antimatter Battery II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Antimatter Battery I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | C | 8 h | 28 800 | – |
 | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | – | A | 1 h | 3 600 | – |
 | [Dark Matter Ammo II](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | [Dark Matter Ammo I](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo) | B | 6 h | 21 600 | – |
+| [Lancet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 min | 1 800 | – |
+| [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10 800 | – |
+| [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 min | 1 800 | – |
+| [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Rivet II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10 800 | – |
+| [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 min | 1 800 | – |
+| [Ember III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10 800 | – |
+| [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 min | 1 800 | – |
+| [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10 800 | – |
+| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14 400 | – |
+| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14 400 | – |
+| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 h | 21 600 | – |
+| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14 400 | – |
+| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14 400 | – |
+| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | C | 8 h | 28 800 | – |
+| [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | D | 1 d | 86 400 | 10 |
+| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 h | 21 600 | – |
+| [Rocket Launcher II](/wiki/06-Items/Extras.md) | – | D | 2 d | 172 800 | – |
+| [Rocket Launcher III](/wiki/06-Items/Extras.md) | [Rocket Launcher II](/wiki/06-Items/Extras.md) | D | 4 d | 345 600 | – |
+| [Rocket Launcher IV](/wiki/06-Items/Extras.md) | [Rocket Launcher III](/wiki/06-Items/Extras.md) | D | 7 d | 604 800 | – |
+| [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 d | 864 000 | – |
 
 Klasserna efter forskningstid:
 
 | Klass | Forskningstid | Teknologier | En efter en | Vetenskap | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| A | 30 min till 1 h | 13 | 7 h 30 min | 27 000 | 0 |
-| B | 3 h till 6 h | 23 | 3 d 10 h | 295 200 | 0 |
-| C | 8 h till 10 h | 18 | 7 d 10 h | 640 800 | 95 |
-| D | 1 d till 2 d | 23 | 28 d | 2 419 200 | 319 |
-| Alla |  | 77 | 39 d 3 h 30 min | 3 382 200 | 414 |
+| A | 30 min till 1 h | 17 | 9 h 30 min | 34 200 | 0 |
+| B | 3 h till 6 h | 33 | 5 d 2 h | 439 200 | 0 |
+| C | 8 h till 10 h | 19 | 7 d 18 h | 669 600 | 95 |
+| D | 1 d till 10 d | 28 | 52 d | 4 492 800 | 329 |
+| Alla |  | 97 | 65 d 5 h 30 min | 5 635 800 | 424 |
 
-Framforskat en efter en tar hela trädet 39 d 3 h 30 min. Med boosten på hela tiden tar det 19 d 13 h 45 min, alltså 20 boostar och 100 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 65 d 5 h 30 min. Med boosten på hela tiden tar det 32 d 14 h 45 min, alltså 33 boostar och 165 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 

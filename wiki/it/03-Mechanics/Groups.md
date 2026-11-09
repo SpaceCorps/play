@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -52,11 +52,13 @@ La chat ha una fila di schede in alto: **Globale**, **Locale**, **Gruppo** (finc
 | Canale | Chi lo sente | Comando |
 | :--- | :--- | :--- |
 | **Locale** | i piloti sulla tua mappa | `/l` o `/local` |
-| **Globale** | ogni pilota online | `/g` o `/global` |
-| **Gruppo** | il tuo gruppo, ovunque si trovi | `/p`, `/party` o `/group` |
-| **Privato** | un solo pilota, ovunque si trovi | `/m`, `/msg` o `/w`, poi il nome e il messaggio ([più sotto](#private-messages)) |
+| **Globale** | ogni pilota di ogni server e di ogni mondo | `/g` o `/global` |
+| **Gruppo** | il tuo gruppo sul tuo server, ovunque si trovi | `/p`, `/party` o `/group` |
+| **Privato** | un solo pilota del tuo server, ovunque si trovi | `/m`, `/msg` o `/w`, poi il nome e il messaggio ([più sotto](#private-messages)) |
 
 Un comando cambia anche la scheda, e scritto da solo (`/g`) cambia soltanto quella. La chat di gruppo richiede un gruppo. Su un server di gioco precedente ai canali la chat è l’unico elenco di sempre, e non si può formare un gruppo.
+
+**Globale** è un’unica chat per tutto il gioco: la tua riga la sente ogni pilota di ogni server e di ogni mondo, in volo o alla stazione. Una riga che arriva da un altro server può giungere un attimo dopo l’invio, e i piloti di server diversi possono vedere due righe quasi simultanee in ordine diverso. Lascia il puntatore sul nome di un pilota: la scheda che si apre dice anche su quale server vola, quando non è il tuo. Gli altri canali restano sul server in cui ti trovi: **Locale** sono i piloti della tua mappa, la chat di gruppo e i messaggi privati raggiungono solo i piloti del tuo server, e il [kill feed](#the-kill-feed) e le righe **Sistema** (gli annunci del server) appartengono a ciascun server. Se un server perde il collegamento con gli altri, il suo Globale si riduce ai suoi piloti finché il collegamento non torna; un’interruzione breve viene recuperata in ritardo, mentre ciò che è stato detto durante una più lunga non viene riferito dopo.
 
 La scheda **Sistema** è dorata e di sola lettura, con un elenco tutto suo: contiene ciò che il server dice di sua iniziativa (il benvenuto, gli avvisi di riavvio, di aggiornamento e di reset, gli annunci degli sciami) e ciò che riferisce la tua nave (riparazioni, occultamento, EMP, razzi). Quelle righe non stanno in nessun’altra scheda, quindi un Globale molto movimentato non può spingerle fuori, e le altre schede contengono ciò che dicono i piloti. Il conteggio della scheda riguarda solo gli annunci; il conto alla rovescia di un riavvio o di un aggiornamento e gli avvisi del reset compaiono anche per un momento come notifica. Il [kill feed](#the-kill-feed) resta in **Globale**, con il suo interruttore, e le righe sui piloti che entrano nel tuo gruppo o lo lasciano sono in **Gruppo**.
 
@@ -66,7 +68,7 @@ La scheda **Sistema** è dorata e di sola lettura, con un elenco tutto suo: cont
 
 ### Messaggi privati {#private-messages}
 
-Scrivi `/m`, il nome di un pilota e il tuo messaggio per scrivere solo a quel pilota: `/m nova o7` (`/msg` e `/w` fanno lo stesso). Il pilota deve essere online, in qualsiasi mondo, alla stazione o in volo. Il nome è quello del pilota come lo mostra la chat, con maiuscole e minuscole a piacere (`/m NOVA`, `/m @nova` e `/m nova:` trovano tutti nova): deve essere il nome intero, mai solo il suo inizio, così un messaggio non può finire al pilota sbagliato. `/r` e la tua risposta (`/r o7`) risponde al pilota che ti ha scritto per ultimo, oppure all’ultimo pilota a cui hai scritto se nessuno ti ha scritto.
+Scrivi `/m`, il nome di un pilota e il tuo messaggio per scrivere solo a quel pilota: `/m nova o7` (`/msg` e `/w` fanno lo stesso). Il pilota deve essere online sul tuo server, in qualsiasi mondo, alla stazione o in volo. Il nome è quello del pilota come lo mostra la chat, con maiuscole e minuscole a piacere (`/m NOVA`, `/m @nova` e `/m nova:` trovano tutti nova): deve essere il nome intero, mai solo il suo inizio, così un messaggio non può finire al pilota sbagliato. `/r` e la tua risposta (`/r o7`) risponde al pilota che ti ha scritto per ultimo, oppure all’ultimo pilota a cui hai scritto se nessuno ti ha scritto.
 
 Un messaggio privato compare nella scheda che stai guardando, tra le sue righe, in viola: **A nova:** per quello che hai inviato, **Da nova:** per quello che hai ricevuto, così hai entrambi i lati della conversazione nella finestra della chat in volo e nella barra alla stazione. Tutte le schede lo mostrano, anche la scheda **Sistema** e una scheda **Globale** nascosta. Un messaggio ricevuto conta come non letto (sul pulsante della barra degli strumenti e nella barra alla stazione) finché non apri una scheda, e suona un tintinnio leggero, al massimo una volta ogni 2 secondi; inviarne uno suona un suono leggero tutto suo. Fai clic destro su un messaggio ricevuto per **Rispondere**, **Invitare nel gruppo**, **Ignorare** o **Segnalare…**.
 
@@ -102,7 +104,7 @@ Disattivalo con il pulsante del menu nella barra del titolo della finestra della
 
 ### Nascondere, ignorare e segnalare {#hiding-ignoring-and-reporting}
 
-Globale raggiunge ogni pilota online, quindi la chat ha tre strumenti per tenerla vivibile. Si trovano nella finestra della chat: il pulsante del menu nella sua barra del titolo e un clic destro sul nome di un pilota.
+Globale raggiunge ogni pilota di ogni server e di ogni mondo, quindi la chat ha tre strumenti per tenerla vivibile. Si trovano nella finestra della chat: il pulsante del menu nella sua barra del titolo e un clic destro sul nome di un pilota.
 
 - **Nascondi la chat Globale** (il menu, oppure Impostazioni › Interfaccia › Chat): la scheda Globale non mostra nessuna riga di Globale, comprese le righe del kill feed (i tuoi messaggi privati vi restano visibili), e smette di contare le righe non lette. La scheda resta, dice “Globale è nascosta” e ha un pulsante che la mostra di nuovo; ciò che invii a Globale parte comunque. Disattivalo e ogni riga arrivata nel frattempo è lì.
 - **Ignora** (clic destro su un nome, poi **Ignora**): le righe di quel pilota in Globale e Locale e i suoi messaggi privati vengono nascosti (un suo messaggio privato non fa rumore e non conta come non letto), e i suoi inviti al gruppo vengono rifiutati senza chiedertelo. Lui non ne viene informato. Restano visibili nella scheda **Gruppo**: un compagno di gruppo che ignori resta comunque nel tuo gruppo, quindi lascia il gruppo per liberartene. Le righe del server non vengono mai nascoste. **Smetti di ignorare** si trova nello stesso menu, e **Impostazioni › Interfaccia › Chat** elenca i piloti ignorati (fino a 200) con un pulsante **Rimuovi** per ciascuno.

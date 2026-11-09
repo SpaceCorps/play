@@ -72,7 +72,7 @@ Bygger på Seeker med 400 % av skrov, sköld och skada; hastighet och räckvidd
 | Standard Battery | 100 % | 200–400 |
 | Advanced Plasma | 100 % | 10–20 |
 | Ultra Core | 100 % | 2–4 |
-| En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 2–3 |
+| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 2–3 |
 
 ### Seeker Slave
 

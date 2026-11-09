@@ -16,7 +16,7 @@
 - 경매장에서 등록, 구매, 입찰을 하려면 **레벨 5** 이상이어야 합니다.
 - 등록 가격은 묶음 하나당, 정수 크레딧이나 정수 Thulium 중 하나로 정하며(둘 다는 안 됩니다), 그 아이템의 최저 가격 아래로는 내려갈 수 없습니다. **최고 가격은 없습니다.**
 - Thulium 가격은 크레딧 최저 가격을 환율(1,000 크레딧당 1 Thulium)로 나누어 올림한 값 이상이어야 하며, 최저 가격이 1 Thulium 이상이 되는 아이템에만 적용됩니다. 환율이 하는 일은 그것뿐입니다. **1 Thulium = 1,000 크레딧은 최저 가격을 정하는 규칙일 뿐 환율이 아닙니다.** 아무것도 교환되지 않고, 가치도 표시되지 않으며, 크레딧과 Thulium은 절대 합산되지 않습니다.
-- 89종류를 등록할 수 있고, 그중 88종류는 Thulium으로도 가격을 정할 수 있습니다.
+- 102종류를 등록할 수 있고, 그중 101종류는 Thulium으로도 가격을 정할 수 있습니다.
 - 등록 기간은 168 / 336 / 504시간 중에서 고를 수 있으며, 선택지는 모든 레벨에서 같습니다.
 - **보증금**은 등록이 진행되는 24시간마다 가격의 0.25%이며, 최소 50 크레딧 또는 1 Thulium입니다. 등록할 때 내며, 등록을 취소해도 돌려받지 못합니다.
 - 레벨 10부터는 보증금이 0.4%입니다.
@@ -55,9 +55,9 @@
 | **실드 셀** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **추진기** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **레이저 탄약** | Standard Battery (100개 묶음), Siphon Battery (10개 묶음), Advanced Plasma (10개 묶음), Siphon Battery II (10개 묶음), Antimatter Battery I (10개 묶음), Ultra Core (10개 묶음), Dark Matter Ammo I (10개 묶음), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
-| **로켓** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **로켓** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **소모품** | EMP Charge, Energetic Wall II | 2 |
-| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
+| **부가 장비** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
 | **선체 장갑** | Hull Plating II, Hull Plating III | 2 |
 | **자원** | Cataclysite (100개 묶음), Ship Fragment (100개 묶음), Daraxium (100개 묶음), Nyxite (100개 묶음), Quorvium (10개 묶음), Reinforced Hull Plate (10개 묶음), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -85,7 +85,7 @@
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 200 | 1 |
+| Lancet I | 1 | 400 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33,000 | 33 |
 
@@ -194,78 +194,78 @@ Thulium 가격에는 규칙이 하나뿐입니다. 크레딧 최저 가격을 �
 
 | UTC 시각 | 로트 | 전체 크기 | 전체 크기일 때 시작가 |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter III | 1,250 | 250,000 크레딧 |
+| 00:00 | Scatter I | 1,250 | 250,000 크레딧 |
 | 00:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
 | 00:00 | Ultra Core | 10,000 | 400,000 크레딧 |
 | 01:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 01:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
-| 01:00 | Lancet III | 1,250 | 250,000 크레딧 |
-| 02:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
-| 02:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 01:00 | Scatter I | 1,250 | 250,000 크레딧 |
+| 02:00 | Lancet I | 12,500 | 2,500,000 크레딧 |
+| 02:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
 | 02:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 03:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 03:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
-| 03:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
+| 03:00 | Lancet I | 12,500 | 2,500,000 크레딧 |
 | 04:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
 | 04:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
-| 04:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
-| 05:00 | Rivet II | 5,000 | 800,000 크레딧 |
+| 04:00 | Rivet I | 12,500 | 2,500,000 크레딧 |
+| 05:00 | Rivet I | 5,000 | 1,000,000 크레딧 |
 | 05:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 05:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 06:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
 | 06:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
-| 06:00 | Ember II | 5,000 | 800,000 크레딧 |
+| 06:00 | Ember I | 5,000 | 1,000,000 크레딧 |
 | 07:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
 | 07:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
-| 07:00 | Rivet II | 5,000 | 800,000 크레딧 |
-| 08:00 | Ember I | 12,500 | 1,250,000 크레딧 |
+| 07:00 | Rivet I | 5,000 | 1,000,000 크레딧 |
+| 08:00 | Ember I | 12,500 | 2,500,000 크레딧 |
 | 08:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
 | 08:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 09:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
-| 09:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
-| 09:00 | Ember II | 5,000 | 800,000 크레딧 |
-| 10:00 | Scatter II | 5,000 | 800,000 크레딧 |
+| 09:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
+| 09:00 | Lancet I | 1,250 | 250,000 크레딧 |
+| 10:00 | Scatter I | 5,000 | 1,000,000 크레딧 |
 | 10:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 10:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 11:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 11:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
-| 11:00 | Lancet I | 12,500 | 1,250,000 크레딧 |
+| 11:00 | Lancet I | 12,500 | 2,500,000 크레딧 |
 | 12:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
 | 12:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
-| 12:00 | Scatter II | 5,000 | 800,000 크레딧 |
-| 13:00 | Lancet III | 1,250 | 250,000 크레딧 |
+| 12:00 | Scatter I | 5,000 | 1,000,000 크레딧 |
+| 13:00 | Lancet I | 1,250 | 250,000 크레딧 |
 | 13:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
 | 13:00 | Ultra Core | 10,000 | 400,000 크레딧 |
 | 14:00 | Ultra Core | 10,000 | 400,000 크레딧 |
 | 14:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
-| 14:00 | Ember I | 12,500 | 1,250,000 크레딧 |
+| 14:00 | Ember I | 12,500 | 2,500,000 크레딧 |
 | 15:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 15:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
-| 15:00 | Lancet III | 1,250 | 250,000 크레딧 |
+| 15:00 | Lancet I | 1,250 | 250,000 크레딧 |
 | 16:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
 | 16:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
-| 16:00 | Scatter III | 1,250 | 250,000 크레딧 |
-| 17:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
+| 16:00 | Ember I | 5,000 | 1,000,000 크레딧 |
+| 17:00 | Rivet I | 12,500 | 2,500,000 크레딧 |
 | 17:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
 | 17:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 18:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
 | 18:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
-| 18:00 | Scatter II | 5,000 | 800,000 크레딧 |
-| 19:00 | Ember II | 5,000 | 800,000 크레딧 |
+| 18:00 | Scatter I | 5,000 | 1,000,000 크레딧 |
+| 19:00 | Ember I | 5,000 | 1,000,000 크레딧 |
 | 19:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 19:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 20:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
 | 20:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
-| 20:00 | Rivet I | 12,500 | 1,250,000 크레딧 |
+| 20:00 | Rivet I | 12,500 | 2,500,000 크레딧 |
 | 21:00 | Advanced Plasma | 25,000 | 500,000 크레딧 |
 | 21:00 | Ultra Core | 25,000 | 1,000,000 크레딧 |
-| 21:00 | Rivet II | 5,000 | 800,000 크레딧 |
+| 21:00 | Rivet I | 5,000 | 1,000,000 크레딧 |
 | 22:00 | Advanced Plasma | 10,000 | 200,000 크레딧 |
 | 22:00 | Ultra Core | 50,000 | 2,000,000 크레딧 |
-| 22:00 | Scatter III | 1,250 | 250,000 크레딧 |
+| 22:00 | Scatter I | 1,250 | 250,000 크레딧 |
 | 23:00 | EMP Charge | 5 | 100,000 크레딧 |
 | 23:00 | Advanced Plasma | 50,000 | 1,000,000 크레딧 |
-| 23:00 | Ember I | 12,500 | 1,250,000 크레딧 |
+| 23:00 | Ember I | 12,500 | 2,500,000 크레딧 |
 
 <!-- market-day:end -->
 

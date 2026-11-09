@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
-Los cohetes son una segunda arma junto a tus láseres: un disparo cada pocos segundos que golpea mucho más fuerte que una andanada láser. Doce cohetes en cuatro tipos, tres gamas cada uno, dos más que solo fabrica Ensamblaje, y **un único temporizador de recarga de 3 segundos que comparten todos**, sea cual sea el que dispares (los dos que solo fabrica Ensamblaje esperan un poco más, por su largo vuelo). Los cohetes comunes y raros se compran con **créditos**; los cuatro cohetes épicos se compran con **Thulium**. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puede aumentar el daño de un cohete y alargar o acortar ese temporizador: consulta [Formaciones de drones y cohetes](#drone-formations-and-rockets).
+Los cohetes son una segunda arma junto a tus láseres: un disparo cada pocos segundos que golpea mucho más fuerte que una andanada láser. Doce **cohetes normales** en cuatro tipos, tres gamas cada uno, comparten **un único temporizador de recarga de 3 segundos**, que fija el lanzacohetes de tu nave. Doce **cohetes especiales**, que hacen algo más que daño, comparten **un temporizador de 5 segundos** propio, y cada uno espera además el suyo. Solo se compran los cuatro cohetes comunes, Flares y Ricochet, con **créditos**; cualquier otro cohete lo fabrica el Ensamblaje. Una [formación de drones](/wiki/03-Mechanics/Formations.md) puede aumentar el daño de un cohete y alargar o acortar el temporizador normal: ver [Formaciones de drones y cohetes](#drone-formations-and-rockets).
 
 ## En un minuto {#in-one-minute}
 
-- **Doce cohetes que comprar.** Cuatro tipos (Lancet, Rivet, Ember, Scatter), tres gamas cada uno. Los comunes y raros cuestan créditos, los épicos Thulium. Otros dos cohetes, la N.U.K.E. y la N.I.K.E., los fabrica el Ensamblaje.
+- **Doce cohetes normales.** Cuatro tipos (Lancet, Rivet, Ember, Scatter), tres gamas cada uno. Solo se vende la gama I, por 1.000 créditos; las gamas II y III las fabrica el Ensamblaje con 100 cohetes de la gama anterior.
 - **Cada cohete sortea su daño.** Al dispararlo, el juego elige un número entre el daño más bajo y el más alto del cohete (un Lancet I: de 1.700 a 2.100). Tu nave, tus láseres, tus amplificadores y tus potenciadores no lo cambian; solo una formación de drones lo hace. Los cohetes que disparan los alienígenas no se sortean: causan una cifra fija ([Contra los alienígenas](#against-the-aliens)).
 - **Las explosiones son más fuertes en el medio.** Los cohetes Ember y Scatter estallan y dañan a toda nave dentro del anillo: la cifra completa en el centro, la mitad en el borde.
-- **Un solo temporizador para todos.** Tras cualquier lanzamiento esperas 3 segundos antes del siguiente, sea cual sea el cohete. Solo el N.U.K.E. y el N.I.K.E. te hacen esperar más (4,1 y 4,6 segundos), porque se quedan tanto tiempo en el aire.
+- **Dos clases de temporizador.** Los cohetes normales comparten uno: 3 segundos tras cualquier lanzamiento, o con un **Lanzacohetes II a V** una serie de 2 a 5 cohetes con 0,15 segundos entre ellos y luego 5 segundos ([Disparar](#firing)). Los cohetes especiales comparten otro de 5 segundos que ningún lanzacohetes cambia, y cada uno espera además el suyo, de 3 segundos a 2 minutos ([Cohetes especiales](#special-rockets)).
+- **Doce cohetes especiales.** Congelan, bloquean, envenenan o marcan una nave, rompen escudos o fijaciones, curan a tus amigos, saltan a una segunda nave o abren un pequeño agujero negro en tu cursor. El N.U.K.E. y el N.I.K.E. son dos de ellos.
 - **Guiado o recto.** Un cohete guiado (Lancet, Ember) necesita un objetivo que hayas seleccionado. Uno recto (Rivet, Scatter) vuela hacia tu cursor.
 - **Algunas cosas más se llevan como un cohete.** La **EMP Charge** es un consumible: una pila en tu inventario que se usa desde la barra rápida, sin ranura ([EMP Charge](#emp-charge)). También las dos **Energetic Wall** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Los cohetes son una segunda arma junto a tus láseres: un disparo cada pocos seg
 Lo que fabrica Ensamblaje necesita antes su tecnología; pasa el cursor por un objeto para ver cuánto tarda en investigarse. El árbol de tecnologías, el combustible y el impulso: [Investigación](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Cada cohete tiene **su propio daño, que se sortea al dispararlo**: en cualquier
 
 | Nombre | Tipo | Rareza | Daño | Media | Penetración de escudo | Radio de explosión | Alcance de fijación | Alcance | Velocidad | Precio | Máximo que puedes llevar |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Guiado · un objetivo | Común | 1.700–2.100 | 1.900 | 10 % | – | 700 | 1.040 | 520 | 500 créditos | 5.000 |
-| **Lancet II** | Guiado · un objetivo | Raro | 3.500–4.200 | 3.850 | 25 % | – | 1.000 | 1.584 | 660 | 800 créditos | 2.000 |
-| **Lancet III** | Guiado · un objetivo | Épico | 5.200–6.200 | 5.700 | 35 % | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Recto · un objetivo | Común | 2.200–2.700 | 2.450 | 5 % | – | – | 1.080 | 900 | 500 créditos | 5.000 |
-| **Rivet II** | Recto · un objetivo | Raro | 4.500–5.250 | 4.875 | 25 % | – | – | 1.120 | 700 | 800 créditos | 2.000 |
-| **Rivet III** | Recto · un objetivo | Épico | 7.000–8.000 | 7.500 | 35 % | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Guiado · explosión en área | Común | 1.200–1.400 | 1.300 | – | 255 | 700 | 1.000 | 500 | 500 créditos | 5.000 |
-| **Ember II** | Guiado · explosión en área | Raro | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 800 créditos | 2.000 |
-| **Ember III** | Guiado · explosión en área | Épico | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Recto · explosión en área | Común | 1.500–1.750 | 1.625 | – | 315 | – | 1.088 | 640 | 500 créditos | 5.000 |
-| **Scatter II** | Recto · explosión en área | Raro | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 800 créditos | 2.000 |
-| **Scatter III** | Recto · explosión en área | Épico | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Guiado · un objetivo | Común | 3.500–4.200 | 3.850 | 25 % | – | 1.000 | 1.584 | 660 | 1.000 créditos | 5.000 |
+| **Lancet II** | Guiado · un objetivo | Raro | 5.200–6.200 | 5.700 | 35 % | – | 1.300 | 2.296 | 820 | Fabricado con 100 Lancet I | 2.000 |
+| **Lancet III** | Guiado · un objetivo | Épico | 7.300–8.700 | 8.000 | 35 % | – | 1.300 | 2.296 | 820 | Fabricado con 100 Lancet II | 500 |
+| **Rivet I** | Recto · un objetivo | Común | 4.500–5.250 | 4.875 | 25 % | – | – | 1.120 | 700 | 1.000 créditos | 5.000 |
+| **Rivet II** | Recto · un objetivo | Raro | 7.000–8.000 | 7.500 | 35 % | – | – | 1.100 | 500 | Fabricado con 100 Rivet I | 2.000 |
+| **Rivet III** | Recto · un objetivo | Épico | 9.800–11.200 | 10.500 | 35 % | – | – | 1.100 | 500 | Fabricado con 100 Rivet II | 500 |
+| **Ember I** | Guiado · explosión en área | Común | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 1.000 créditos | 5.000 |
+| **Ember II** | Guiado · explosión en área | Raro | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | Fabricado con 100 Ember I | 2.000 |
+| **Ember III** | Guiado · explosión en área | Épico | 4.900–6.300 | 5.600 | – | 495 | 1.150 | 2.030 | 700 | Fabricado con 100 Ember II | 500 |
+| **Scatter I** | Recto · explosión en área | Común | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 1.000 créditos | 5.000 |
+| **Scatter II** | Recto · explosión en área | Raro | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | Fabricado con 100 Scatter I | 2.000 |
+| **Scatter III** | Recto · explosión en área | Épico | 6.300–7.700 | 7.000 | – | 660 | – | 1.092 | 420 | Fabricado con 100 Scatter II | 500 |
 
 Cuanto más cara es la gama, más fuerte golpea un cohete, más lejos llega, más penetración de escudo tiene y menos puedes llevar; los caros también dan el mayor daño por lo que cuestan. Un cohete recto causa entre un cuarto y un tercio más que el cohete guiado de su gama y tipo por el mismo precio (del 23 al 32 % de media), porque hay que apuntarlo. Una explosión causa casi dos tercios de lo que causa el cohete de un objetivo de su gama y tipo (del 66 al 70 % de media: un Ember frente a un Lancet, un Scatter frente a un Rivet), a toda nave que cubre. El daño de una explosión es completo en su centro y cae en línea recta hasta **la mitad en el borde**: una nave cuyo casco está a medio camino del borde recibe el 75 %, y una con el casco fuera del anillo no recibe nada. Un disparo causa de media el punto medio de su intervalo, del 89 al 94 % de su cifra máxima, y la tabla de más abajo, que cuenta cohetes, usa ese valor.
 
 ## Lo que cuestan {#what-they-cost}
 
-Un cohete común cuesta 500 créditos, uno raro 800 créditos y uno épico 5 Thulium, en todos los tipos. Disparados en cada temporizador, son 10.000 créditos por minuto con un cohete común, 16.000 con uno raro y 100 Thulium con uno épico, frente a los 900 créditos por minuto que gastan los tres láseres de una Ostirion con munición x1. Una reserva llena son 5.000 cohetes comunes (2.500.000 créditos), 2.000 raros (1.600.000 créditos) o 500 épicos (2.500 Thulium): puedes comprar tantos como quieras hasta ese límite, y el *máximo que puedes llevar* de un cohete es el único límite de cuántos tienes. En el reinicio conservas sin hacer nada hasta 1.000 de cada uno de los doce cohetes; lo que pase de ahí, y cada N.U.K.E. y N.I.K.E., solo sobrevive en el Alijo de Transporte, donde un cohete pesa 1 kg (una N.U.K.E. o una N.I.K.E., 250 kg): consulta [el reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Un cohete cada 3 segundos son solo veinte por minuto, así que un cohete es la ráfaga que se suma a tus láseres: los baratos para los alienígenas débiles, los caros para los grandes combates. Lo que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#limits) y los lotes en los que vas en cabeza cuentan para ese límite cuando compras un cohete o pujas por él. Esos son los números base: la investigación de Piloto Sealed Backdoor ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) sube para ti el límite de todos los cohetes, en total un 25 %, 50 %, 100 %, 150 % o 200 %, redondeado hacia abajo, de modo que 5.000 pasa a ser 6.250 en el nivel I y 15.000 en el nivel V.
+Un cohete común (gama I) cuesta 1.000 créditos en la tienda, en todos los tipos. Los cohetes raros (gama II) y épicos (gama III) no se venden: los fabrica el Ensamblaje, de 100 en 100, con 100 cohetes de la gama anterior (un lote de raros cuesta además 50.000 créditos y 200 Thulium, y uno de épicos 150.000 créditos y 800 Thulium, con algunos materiales; la tienda y el Ensamblaje dicen el resto). Disparando con cada temporizador, un cohete común son 20.000 créditos por minuto, frente a los 900 créditos por minuto que queman a x1 los tres láseres de una Ostirion. Un lote completo son 5.000 cohetes comunes (5.000.000 de créditos), 2.000 raros o 500 épicos: puedes comprar tantos como quieras hasta ese límite, y el *máximo que puedes llevar* de un cohete es el único límite de cuántos tienes. En el reinicio conservas sin hacer nada hasta 1.000 de cada uno de los doce cohetes; lo que pase de ahí, y cada N.U.K.E. y N.I.K.E., solo sobrevive en el Alijo de Transporte, donde un cohete pesa 1 kg (una N.U.K.E. o una N.I.K.E., 250 kg): consulta [el reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Un cohete cada 3 segundos son solo veinte por minuto, así que un cohete es la ráfaga que se suma a tus láseres: los baratos para los alienígenas débiles, los caros para los grandes combates. Lo que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#limits) y los lotes en los que vas en cabeza cuentan para ese límite cuando compras un cohete o pujas por él. Esos son los números base: la investigación de Piloto Sealed Backdoor ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) sube para ti el límite de todos los cohetes, en total un 25 %, 50 %, 100 %, 150 % o 200 %, redondeado hacia abajo, de modo que 5.000 pasa a ser 6.250 en el nivel I y 15.000 en el nivel V.
 
-La tienda lista los cohetes un tipo tras otro, cada uno bajo su nombre, con el cohete común primero y el épico al final; el hangar, el Alijo de Transporte y el selector de Cohetes usan el mismo orden.
+La tienda vende los cuatro cohetes comunes, un tipo cada vez, y después Flares y Ricochet; el hangar, el Alijo de Transporte y el selector de cohetes enumeran los doce cohetes normales igual, cada tipo bajo su nombre, el común primero y el épico último, y después los cohetes especiales.
 
 ## Contra los alienígenas {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Los cohetes que hacen falta para matar a un alienígena, con un solo tipo de coh
 
 | Cohetes para matar | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - Los cohetes de un objetivo **comunes** matan a un Seeker de un impacto con cualquier tirada y a un Phantasm de tres (un Lancet I necesita un cuarto con su tirada más baja); son los cohetes de todos los días de los primeros sectores. Los **raros** son para el Bulwark y el Goombah: siete cohetes Lancet II se llevan un Bulwark en unos 20 segundos de temporizador. Los **épicos** de un objetivo matan a un Goombah con ocho (Rivet III) a once (Lancet III). Las explosiones valen su precio cuando hay varios alienígenas juntos: un Scatter III que estalla sobre una manada de cinco Phantasms (todos a menos de 250 unidades del objetivo al que apuntaste) causa unos 22.000 de daño repartidos entre la manada de un solo lanzamiento.
 - Un derribo solo con cohetes es un gasto de verdad, no una forma de hacerse rico: un cohete de un objetivo cuesta entre el 15 % (un Rivet II contra un Phantasm) y el 95 % (un Lancet I contra un Crystalys) de lo que paga el derribo (créditos, y Thulium a 200 créditos cada uno), y las explosiones débiles contra los alienígenas fuertes cuestan más de lo que paga el derribo (un Ember I contra un Bulwark: el 120 %). Derribar al **Crystalys** con un solo tipo requiere de 56 a 352 cohetes y casi tres minutos de temporizador; una reserva llena de 500 cohetes épicos alcanza para entre cuatro y ocho de estos derribos. El alienígena más fuerte necesita un plan: tus láseres con munición x2, un cohete de gama media cada 3 segundos desde el primer segundo, y los cohetes grandes de más abajo como ráfaga.
@@ -126,14 +137,36 @@ Dos cohetes no están en la tienda. Los fabrica **Ensamblaje**, y siguen todas l
 - **La trampa.** Una N.I.K.E. que se encuentra por el camino una nave, un rival que espera en la línea de tiro o cualquier otra cosa que pueda dañar, la golpea con 67.500 a 75.000 y desaparece: el agujero negro no recibe nada, y tú tampoco. No hay nada más rondando dentro del anillo del agujero con lo que pueda chocar por accidente (los alienígenas y los pilotos de corporación se mantienen fuera): solo los pilotos que entraron a por Dark Matter, o que te esperan en el borde. Atraviesa a tu propia corporación, a las naves en una zona segura y a las naves a las que todavía no puedes dañar. Si sales del mapa después de dispararlo, sigue volando sin dañar a nadie y aun así produce tu Dark Matter.
 - Ensamblaje no inicia una fabricación que te dejaría con más del *máximo que puedes llevar* de un cohete, contando lo que tienes en cola. Sealed Backdoor también sube sus límites (10 pasa a 12 y 20 pasa a 25 en el nivel I, 30 y 60 en el nivel V).
 
+## Cohetes especiales {#special-rockets}
+
+Los cohetes especiales hacen cosas que una cifra de daño no expresa. Comparten **un temporizador de 5 segundos** entre ellos (ningún lanzacohetes lo cambia), y cada uno espera además **el suyo**, de 3 segundos a 2 minutos; el temporizador de los cohetes normales es aparte, así que se puede disparar a la vez un cohete normal y uno especial. Los fabrica el Ensamblaje, salvo Flares y Ricochet, que vende la tienda (el árbol de objetos de arriba tiene todas las recetas). El N.U.K.E. y el N.I.K.E. de arriba también son cohetes especiales, y el N.U.K.E. no tiene temporizador propio. La CPU de cohetes automática y los lanzacohetes disparan solo cohetes normales.
+
+| Nombre | Tipo | Efecto | Temporizador propio | Máximo que puedes llevar |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Guiado · un objetivo | Un cohete guiado que no hace daño: la nave que alcanza se congela y vuela un 60 % más despacio durante cuatro segundos. | 30 s | 50 |
+| **EMP Rocket** | Guiado · un objetivo | Un cohete guiado que no hace daño: la nave que alcanza sufre el efecto de una Carga EMP durante tres segundos. | 30 s | 50 |
+| **Shield Breaker** | Recto · un objetivo | Un cohete rápido y sin guía hecho para escudos: 25.000 al escudo y 5.000 al casco, pero mientras quede escudo golpea solo el escudo. | 15 s | 50 |
+| **Toxic Rocket** | Guiado · un objetivo | Un cohete guiado que no hace daño propio: la nave que alcanza queda envenenada cinco segundos y pierde cada segundo medio por ciento de sus puntos de vida efectivos (casco y escudo juntos), descontados del casco. | 20 s | 50 |
+| **Marking Rocket** | Guiado · un objetivo | Un cohete guiado que no hace daño: la nave que alcanza queda marcada cinco segundos y recibe un 20 % más de daño de todo. | 30 s | 50 |
+| **Cooldown Rocket** | Guiado · un objetivo | Un cohete guiado que no hace daño: durante ocho segundos los objetos con temporizador de la nave que alcanza se enfrían a la mitad de velocidad. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Recto · explosión en área | Una N.U.K.E. reconstruida alrededor de un núcleo colapsado. Se coloca en el cursor y abre durante quince segundos un pequeño agujero negro que atrae naves y cohetes guiados. Solo puede existir uno en un mapa. Solo el Ensamblaje la fabrica y nunca puede venderse en la Subasta. | 120 s | 5 |
+| **Support Rocket** | Recto · explosión en área | Se coloca en el cursor: cura a toda nave aliada de su zona un 40 % de su casco y su escudo. | 120 s | 20 |
+| **Flares** | Recto · un objetivo | Se lanza desde tu propia nave: rompe todos los cohetes guiados que te tienen fijada. | 60 s | 20 |
+| **Ricochet** | Recto · un objetivo | Un cohete rápido y sin guía que golpea como un Rivet II y, tras su primer impacto, salta a una segunda nave con el 75 % del daño. | 3 s | 500 |
+
+- Un segundo impacto del mismo tipo renueva una congelación, un bloqueo, un veneno, una marca o un enfriamiento lento, y nunca se acumula con el primero. El daño del Toxic Rocket es del tirador, así que una baja por veneno cuenta para él.
+- El N.U.K.E. Gravitacional y el Support Rocket se **colocan en tu cursor**: vuelan hasta el punto que hay bajo él, o hasta donde alcancen, y la espoleta de ninguna nave los hace estallar. Solo puede haber un pozo gravitatorio en un mapa: un segundo lanzamiento se rechaza y no se gasta nada.
+
 ## Disparo {#firing}
 
-1. Compra cohetes en la tienda (la categoría **Cohetes**), hasta el *máximo que puedes llevar* de cada uno: créditos para los comunes y raros, Thulium para los épicos.
-2. Abre **Cohetes** encima de la barra rápida y arrastra los que quieras a las ranuras. El selector muestra una columna por tipo y una fila por gama, con lo que llevas de cada uno. Debajo hay una fila propia, **Especiales · solo Ensamblaje**, para la N.U.K.E. y la N.I.K.E. (un pequeño martillo marca la que no llevas).
+1. Compra los cohetes comunes en la tienda (la categoría **Cohetes**), hasta el *máximo que puedes llevar* de cada uno, con créditos; fabrica los raros y épicos en el Ensamblaje con 100 de la gama anterior.
+2. Abre **Cohetes** encima de la barra rápida y arrastra los que quieras a las ranuras. El selector muestra una columna por tipo y una fila por gama, con lo que llevas de cada uno. Debajo están los **cohetes especiales**, de cuatro en cuatro por fila (un pequeño martillo marca uno solo de fabricación del que no llevas ninguno).
 3. Pulsa la tecla de la ranura. Hacer clic en la ranura de un cohete **guiado** lo dispara contra tu objetivo seleccionado; hacer clic en la ranura de un cohete **recto** lo arma, y tu siguiente clic en el espacio lo dispara allí. La tecla **Disparar cohete** (`R` por defecto, reasignable en Configuración › Controles) dispara el cohete que disparaste por última vez, o el primero de la barra.
-4. Un barrido circular cubre **todas** las ranuras de cohete durante los 3 segundos hasta el siguiente lanzamiento (4,1 tras un N.U.K.E., 4,6 tras un N.I.K.E.), con los segundos que quedan en el centro. Una pulsación antes de eso solo te dice que los cohetes se están recargando (una pulsación en la última décima de segundo todavía dispara). Una formación de drones puede dejar la espera entre 2,19 y 4,05 segundos (ver abajo).
+4. Un barrido circular cubre cada ranura de cohete durante el temporizador que ese cohete espera: 3 segundos en un cohete normal (5 con un lanzacohetes), y en uno especial el mayor entre los 5 segundos y el suyo, con los segundos que quedan en el centro. Una pulsación antes de eso solo te dice que los cohetes se están recargando (una pulsación en la última décima de segundo todavía dispara). Una formación de drones puede dejar el temporizador normal entre 2,19 y 4,05 segundos (ver abajo).
 
 Pasa el cursor por una ranura de cohete para ver sus cifras (su daño más bajo y más alto; la tienda y el hangar dicen lo mismo) y, en el mundo, su anillo de fijación (verde cuando el objetivo seleccionado está al alcance) o su línea y su círculo de explosión. Un cohete fijado en **ti** hace parpadear en rojo el borde de tu pantalla.
+
+**Lanzacohetes.** Un lanzacohetes II a V se guarda en tu hangar como la CPU de cohetes automática, no necesita ranura y funciona en cualquier nave (cuenta el mejor que tengas). Una pulsación de un cohete normal dispara entonces 2, 3, 4 o 5 cohetes del lote, con 0,15 segundos entre ellos, y después los cohetes normales esperan 5 segundos. El Ensamblaje los fabrica tras su investigación (de 8 a 24 horas, con de 150.000 a 2.000.000 de Thulium y materiales; el árbol de objetos de [Extras](/wiki/06-Items/Extras.md) los enumera).
 
 La **N.U.K.E.** dibuja su explosión en el mapa antes de que dispares (el círculo de 1.350 unidades en el punto apuntado) y, cuando estalla, un destello blanco sobre la vista, un anillo que se expande hasta el alcance exacto en aproximadamente un segundo y permanece dos más, una nube que se eleva como un hongo y una sacudida de la cámara que es más fuerte cuanto más cerca estás. **Reducir temblor de pantalla** elimina la sacudida, y **Reducir movimiento** acorta el destello a un tercio de segundo con menos de la mitad de su luz (las dos están en Configuración, en Gráficos); una calidad de partículas más baja aclara la nube y suprime las chispas, nunca el destello ni el anillo. La **N.I.K.E.** se apunta como un Rivet I, con la línea que va de tu nave al cursor, y el juego nunca lo rechaza por estar lejos del agujero negro o en un mapa que no tiene ninguno: a dónde va, lo juzgas tú. Su tarjeta dice **Agujero negro: Produce Dark Matter** junto a su daño. Deja una estela violeta con chispas que la rodean en espiral; una nave que encuentra recibe el golpe como con cualquier cohete, y cuando cruza el horizonte en cambio, el agujero destella.
 
@@ -142,7 +175,7 @@ La **N.U.K.E.** dibuja su explosión en el mapa antes de que dispares (el círcu
 Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único que cambia un cohete. Todas las cifras de daño de esta página son para una nave sin formación.
 
 - **Daño.** La bonificación de cohetes de Ballista (+55 %), Bodkin (+29 %) y Asterism (+24 %) multiplica el daño de los 14 cohetes, incluidos el N.U.K.E. y el N.I.K.E. El coste de todo el daño de Testudo cuenta en los cohetes, y el daño a alienígenas de Culler cuenta en un cohete que alcanza a un alienígena. Todos los factores de un cohete juntos se detienen en ×1,59. La bonificación cuenta contra un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) igual que contra una nave, y el blindaje del asteroide se resta después.
-- **Recarga.** Asterism alarga el temporizador compartido un 35 % (4,05 segundos), Cordon un 11 % (3,33) y Redoubt lo acorta un 27 % (2,19), pero nunca por debajo del vuelo del cohete más un instante. Con Redoubt, los cohetes rápidos (Lancet I, Rivet I y II, Ember I, Scatter I y II) esperan los 2,19 segundos, un Rivet III espera 2,3, un Lancet III 2,9 y un Ember III los 3 completos; el N.U.K.E. y el N.I.K.E. esperan 4,1 y 4,6 segundos, lleves lo que lleves. La espera se fija al disparar, así que cambiar de formación después no la acorta, y el barrido sobre las ranuras de cohete la sigue.
+- **Recarga.** Asterism alarga el temporizador de los cohetes normales un 35 % (4,05 segundos), Cordon un 11 % (3,33) y Redoubt lo acorta un 27 % (2,19), pero nunca por debajo del vuelo del cohete más un instante. Con Redoubt, los cohetes rápidos (Lancet I, Rivet I y II, Ember I, Scatter I y II) esperan los 2,19 segundos, un Rivet III 2,3, un Lancet III 2,9 y un Ember III los 3 completos. La espera se fija al disparar, así que cambiar de formación después no la acorta, y el barrido sobre las ranuras de cohete la sigue. Los temporizadores de los cohetes especiales no cambian con ninguna formación.
 - **Los límites de los dos grandes se mantienen.** Con la mejor formación un N.I.K.E. golpea con hasta 116.250, lo que un Paragon intacto (128.000) sobrevive, y un N.U.K.E. con hasta 77.500, lo que sobrevive un Goombah (80.000).
 - **Evasión.** El 7 % de evasión de Asterism da a un cohete directo que te alcanza un 7 % de probabilidad de no causar ningún daño, y sobre tu nave aparece un «Fallo» flotante; una explosión de área no apunta y nunca se esquiva.
 - **Penetración.** Gemini suma sus 15 puntos, y Stiletto sus 35 puntos de penetración de cohetes, a la penetración de escudo de un cohete directo (una explosión no tiene), sin tope: un Lancet III con un Stiletto llega al 70 %, con Gemini al 50 %. Un impacto láser suma igual los de Gemini a la de su munición y sus amps, y no recibe nada de los del Stiletto ([Láseres y munición](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta es lo único
 - Solo el **impacto directo** de un cohete reclama a un alienígena (consulta [Combate](/wiki/03-Mechanics/Combat.md)); el borde de una explosión puede dañar a un alienígena reclamado sin quitárselo a su dueño. Todo alienígena al que daña una explosión, también uno dormido, se vuelve contra ti, como con un impacto láser (un Seeker o un Goombah, que solo contraatacan, incluidos); el que la explosión no alcanza sigue dormido.
 - El temporizador es tuyo: sobrevive a un salto, a una reconexión, a un cambio de nave y a una nave destruida.
 
-Los doce cohetes de la primera tabla se compran (créditos los comunes y raros, Thulium los épicos); la N.U.K.E. y la N.I.K.E. se fabrican.
+Solo se compran (con créditos) los cohetes comunes de la primera tabla, Flares y Ricochet; cualquier otro cohete lo fabrica el Ensamblaje.
 
 Consulta también: [Láseres y munición](/wiki/06-Items/Lasers.md), [Combate](/wiki/03-Mechanics/Combat.md), [El agujero negro](/wiki/03-Mechanics/Black-Hole.md).
 

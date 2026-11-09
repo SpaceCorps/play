@@ -74,7 +74,7 @@ Base : Phantasm, avec 2 000 % de sa coque et 300 % de ses dégâts laser ; 
 | Standard Battery | 100 % | 600–1 200 |
 | Advanced Plasma | 100 % | 60–100 |
 | Ultra Core | 100 % | 10–20 |
-| L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 4–6 |
+| L’une des 4 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 4–6 |
 
 ### Phantasm Guard
 

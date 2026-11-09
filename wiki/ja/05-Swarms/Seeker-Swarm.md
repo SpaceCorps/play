@@ -72,7 +72,7 @@ Boss Seeker の報酬は**ちょうど Seeker 10体分**です。Seeker のク�
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| クレジットで買える 8 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 2–3 |
+| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 2–3 |
 
 ### Seeker Slave
 

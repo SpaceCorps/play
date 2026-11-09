@@ -75,7 +75,7 @@ Base: Goombah, com 400% do casco e 100% do dano dos lasers; a velocidade e o alc
 | Quorvium | 100% em cada uma de 8 rolagens | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| Um dos 8 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 6–10 |
+| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 6–10 |
 
 ### Goombah Guard
 

@@ -72,7 +72,7 @@ Built from the Phantasm at 2,000% of its hull and 300% of its laser damage; its 
 | Standard Battery | 100% | 600–1,200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| One of the 8 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 4–6 |
+| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 4–6 |
 
 ### Phantasm Guard
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -52,11 +52,13 @@ Sohbetin üstünde bir sıra sekme vardır: **Genel**, **Yerel**, **Grup** (bir 
 | Kanal | Kimler duyar | Komut |
 | :--- | :--- | :--- |
 | **Yerel** | haritandaki pilotlar | `/l` veya `/local` |
-| **Genel** | çevrimiçi her pilot | `/g` veya `/global` |
-| **Grup** | grubun, nerede olurlarsa olsunlar | `/p`, `/party` veya `/group` |
-| **Özel** | tek bir pilot, nerede olursa olsun | `/m`, `/msg` veya `/w`, ardından ad ve mesaj ([aşağıda](#private-messages)) |
+| **Genel** | tüm sunuculardaki ve tüm dünyalardaki her pilot | `/g` veya `/global` |
+| **Grup** | sunucundaki grubun, nerede olurlarsa olsunlar | `/p`, `/party` veya `/group` |
+| **Özel** | sunucundaki tek bir pilot, nerede olursa olsun | `/m`, `/msg` veya `/w`, ardından ad ve mesaj ([aşağıda](#private-messages)) |
 
 Bir komut sekmeyi de değiştirir; tek başına yazılırsa (`/g`) yalnızca sekmeyi değiştirir. Grup sohbeti için bir grup gerekir. Kanallardan önceki bir oyun sunucusunda sohbet eskiden olduğu gibi tek bir listedir ve grup kurulamaz.
+
+**Genel**, tüm oyun için tek bir sohbettir: satırını tüm sunuculardaki ve tüm dünyalardaki her pilot duyar, uçuşta da istasyonda da. Başka bir sunucudan gelen satır, gönderildikten bir an sonra ulaşabilir; farklı sunuculardaki pilotlar neredeyse aynı anda gönderilmiş iki satırı farklı sırada görebilir. İşaretçiyi bir pilotun adı üzerinde beklet: açılan kart, senin sunucun değilse pilotun hangi sunucuda uçtuğunu da söyler. Diğer kanallar bulunduğun sunucuda kalır: **Yerel** haritandaki pilotlardır, grup sohbeti ile özel mesajlar yalnızca sunucundaki pilotlara ulaşır, [öldürme akışı](#the-kill-feed) ile **Sistem** satırları (sunucunun duyuruları) ise her sunucunun kendisine aittir. Bir sunucunun diğerleriyle bağlantısı kopunca, bağlantı dönene kadar o sunucunun Genel’i yalnızca kendi pilotlarına daralır; kısa bir kesinti sonradan telafi edilir, daha uzun bir kesintide söylenenler ise sonradan aktarılmaz.
 
 **Sistem** altın rengidir ve salt okunurdur, kendi listesi vardır: sunucunun kendiliğinden söylediklerini (karşılama, yeniden başlatma, güncelleme ve sıfırlama uyarıları, sürü duyuruları) ve geminin bildirdiklerini (onarımlar, gizlenme, EMP patlamaları, roketler) barındırır. Bu satırlar başka hiçbir sekmede yoktur; bu yüzden kalabalık bir Genel onları dışarı itemez, pilotların sekmeleri de pilotların söylediklerini tutar. Sekmenin sayacı duyurular içindir; yeniden başlatma ya da güncelleme geri sayımı ve sıfırlama uyarıları ayrıca bir bildirim olarak da belirir. [Öldürme akışı](#the-kill-feed) kendi anahtarıyla **Genel** sekmesinde kalır; grubuna giren ya da ayrılan pilotlarla ilgili satırlar **Grup** sekmesindedir.
 
@@ -66,7 +68,7 @@ Bir komut sekmeyi de değiştirir; tek başına yazılırsa (`/g`) yalnızca sek
 
 ### Özel mesajlar {#private-messages}
 
-Yalnızca tek bir pilota yazmak için `/m`, pilotun adını ve mesajını yaz: `/m nova o7` (`/msg` ve `/w` aynı işi yapar). Pilotun çevrimiçi olması gerekir; hangi dünyada olursa olsun, istasyonda ya da uçuşta. Ad, pilotun sohbette göründüğü addır ve büyük küçük harf fark etmez (`/m NOVA`, `/m @nova` ve `/m nova:` aynı pilotu bulur): adın tamamı yazılmalıdır, yalnızca başlangıcı olmaz; böylece bir mesaj yanlış pilota gidemez. `/r` ve yanıtın (`/r o7`) sana en son yazan pilota gider; kimse sana yazmamışsa en son yazdığın pilota.
+Yalnızca tek bir pilota yazmak için `/m`, pilotun adını ve mesajını yaz: `/m nova o7` (`/msg` ve `/w` aynı işi yapar). Pilotun senin sunucunda çevrimiçi olması gerekir; hangi dünyada olursa olsun, istasyonda ya da uçuşta. Ad, pilotun sohbette göründüğü addır ve büyük küçük harf fark etmez (`/m NOVA`, `/m @nova` ve `/m nova:` aynı pilotu bulur): adın tamamı yazılmalıdır, yalnızca başlangıcı olmaz; böylece bir mesaj yanlış pilota gidemez. `/r` ve yanıtın (`/r o7`) sana en son yazan pilota gider; kimse sana yazmamışsa en son yazdığın pilota.
 
 Özel bir mesaj, baktığın sekmede satırlarının arasında mor renkte görünür: gönderdiğin için **nova adlı pilota:**, aldığın için **nova adlı pilottan:**; böylece konuşmanın iki tarafı da uçuştaki sohbet penceresinde ve istasyondaki çubukta elindedir. Her sekme onu gösterir; **Sistem** sekmesi ve gizli bir **Genel** sekmesi de dahil. Aldığın bir mesaj, bir sekme açana kadar okunmamış sayılır (araç çubuğundaki düğmede ve istasyondaki çubukta) ve en fazla 2 saniyede bir yumuşak bir çınlama çalar; göndermenin de kendi hafif sesi vardır. Aldığın bir mesaja sağ tıklayarak **Yanıtla**, **Gruba davet et**, **Yoksay** ya da **Bildir…** seçeneklerini kullanabilirsin.
 
@@ -102,7 +104,7 @@ Sohbet penceresinin başlık çubuğundaki menü düğmesiyle (**Öldürme akı�
 
 ### Gizleme, yoksayma ve bildirme {#hiding-ignoring-and-reporting}
 
-Genel, çevrimiçi her pilota ulaşır; bu yüzden sohbeti rahat tutman için üç araç vardır. Bunlar sohbet penceresindedir: başlık çubuğundaki menü düğmesi ve bir pilotun adına sağ tık.
+Genel, tüm sunuculardaki ve tüm dünyalardaki her pilota ulaşır; bu yüzden sohbeti rahat tutman için üç araç vardır. Bunlar sohbet penceresindedir: başlık çubuğundaki menü düğmesi ve bir pilotun adına sağ tık.
 
 - **Genel sohbeti gizle** (menü ya da Ayarlar › Arayüz › Sohbet): Genel sekmesi Genel kanalının hiçbir satırını göstermez, öldürme akışının satırları dahil (özel mesajların yine de içinde görünür) ve okunmamış satırları saymayı bırakır. Sekme kalır, “Genel gizli” der ve onu yeniden gösteren bir düğmesi vardır; Genel kanalına gönderdiklerin yine gider. Kapattığında bu arada gelen her satır oradadır.
 - **Yoksay** (bir ada sağ tıkla, sonra **Yoksay**): o pilotun Genel ve Yerel sohbetteki satırları ile özel mesajları gizlenir (ondan gelen özel mesaj ses çıkarmaz ve okunmamış sayılmaz) ve grup davetleri sana sorulmadan geri çevrilir. Pilota söylenmez. **Grup** sekmesinde görünür kalır: yoksaydığın bir grup arkadaşı yine grubundandır, ondan kurtulmak için gruptan ayrıl. Sunucunun kendi satırları asla gizlenmez. **Yoksaymayı bırak** aynı menüdedir ve **Ayarlar › Arayüz › Sohbet** yoksayılan pilotları (en fazla 200) her biri için bir **Kaldır** düğmesiyle listeler.

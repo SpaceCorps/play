@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Görevler -->
 # Görevler {#quests}
 
@@ -131,7 +131,7 @@ Bir **koşul**, bir adım ya da bütün bir görev üzerinde ek bir kuraldır. �
 
 Ölmek, işleyen bir gövde sınırını da bir ölmeden kuralını da bozar.
 
-Sınırlar, o seviyede uçtuğun gemi için puan cinsinden belirlenir. Taşınan bir eşyanın sınırı 1. ile 3. seviyelerde 3.000 gövde puanı, 4. ile 6. seviyelerde 17.000, 7. ile 8. seviyelerde 46.000 puandır; daha uzun süren kalışlar ve turlar daha büyük sayılara sahiptir. Her dünyada aynıdırlar; bu yüzden uzaylıların daha sert vurduğu Beta ve Gamma dünyalarında sana daha az alan bırakırlar. Kabul etmeden önce görevin kartına bak. Bir sınır geminin gövdesinin yüzdesi olarak da verilebilir ve ikisi birden verildiğinde daha sıkı olan sayılır; bu sürümdeki her görev puan kullanır.
+Sınırlar, o seviyede uçtuğun gemi için puan cinsinden belirlenir. Taşınan bir eşyanın sınırı 1. ile 3. seviyelerde 3.000 gövde puanı, 4. ile 6. seviyelerde 17.000, 7. ile 8. seviyelerde 46.000 puandır; daha uzun süren kalışlar ve turlar daha büyük sayılara sahiptir. Bunlar, tablolardaki süre sınırları gibi **Alpha Dünyası**’nın sayılarıdır. Beta Dünyası’ndaki uzaylılar 1,5 kat, Gamma Dünyası’ndakiler iki kat sert vurur; bu yüzden Beta ve Gamma dünyalarında sınırlar, [süre sınırları](#time-limits) gibi 1,5 ve 2 kat daha büyüktür: 3.000 puan Beta’da 4.500, Gamma’da 6.000 eder ve Alpha’daki kadar vuruş dayanabilirsin. Görevin kartı ve Aktif Görevler, içinde bulunduğun dünyanın sayısını gösterir (görev metni Alpha’nınkini yazar); kabul etmeden önce ona bak. Bir sınır geminin gövdesinin yüzdesi olarak da verilebilir ve ikisi birden verildiğinde daha sıkı olan sayılır; bu sürümdeki her görev puan kullanır.
 
 ## Görev örnekleri {#mission-examples}
 
@@ -234,6 +234,7 @@ Görevler seviyenle birlikte sektörlerde yükselir:
 - Bazı görevler **süreli** görevlerdir. Mission Control, görevin kartında kabul etmeden önce sınırı gösterir (bir saat simgesi ve “15 dk”) ve kabul ettiğinde kartta ve Aktif Görevler penceresinde bir **geri sayım** işler. Son dakikada kehribar, süre dolunca kırmızı olur.
 - Süresi dolan süreli bir görev **başarısız olur**: aktif görevlerinden çıkar ve onu hemen, baştan yeniden kabul edebilirsin.
 - Aşağıdaki tablolardaki sınırlar **Alpha Dünyası** içindir. Beta Dünyası’ndaki uzaylılar 1,5 kat, Gamma Dünyası’ndakiler iki kat güçlüdür; bu yüzden oradaki sınırlar 1,5 ve 2 kat daha uzundur. Saat, görevi kabul ettiğin anda, içinde bulunduğun dünya için kurulur.
+- Görevlerin **gövde sınırları** da dünyayı aynı şekilde izler: Beta’da Alpha’nın 1,5 katı, Gamma’da iki katıdır (bkz. [Koşullar](#conditions)).
 - Adımların kendi süre sınırı yoktur: görevin sınırı hepsini kapsar. Bozulan bir koşul bir adımı ya da görevi yeniden başlatır, ama saati asla sıfırlamaz.
 
 ## Ödüller {#rewards}
@@ -285,7 +286,7 @@ Görevlerin ödediği yüksek sektörler, aynı zamanda ölebileceğin yerlerdir
 
 ## Görev listesi {#the-missions}
 
-Süre sınırları Alpha Dünyası içindir (“–”: yok). “→”, **Sırayla** görevinin o sırayla yapılması gereken adımlarını birleştirir; “;” ile birleştirilen adımlar birlikte açılır ve herhangi bir sırayla yapılabilir. Bir adımdan sonra yazılan koşul o adıma aittir, “(tüm görev boyunca…)” her adıma.
+Süre sınırları ve gövde sınırları Alpha Dünyası içindir (“–”: yok). “→”, **Sırayla** görevinin o sırayla yapılması gereken adımlarını birleştirir; “;” ile birleştirilen adımlar birlikte açılır ve herhangi bir sırayla yapılabilir. Bir adımdan sonra yazılan koşul o adıma aittir, “(tüm görev boyunca…)” her adıma.
 
 Bir görev eşyası “düşürebilir: her öldürmede %15 şansla, 10. öldürmede kesin olarak” diye okunur: o sektördeki o uzaylının her öldürmesi şansı çeker ve adım açıldığından beri 10. öldürme onu kesin düşürür. “Sezonun 4. gününden itibaren” bir [sürü avıdır](#swarm-missions).
 

@@ -129,7 +129,7 @@ A **condition** is an extra rule on one step or on a whole mission. There are tw
 
 Dying breaks a hull limit that is running as well as a no-death rule.
 
-The limits are set in points, for the ship you fly at that level. A carried item's limit is 3,000 hull points on levels 1 to 3, 17,000 on levels 4 to 6 and 46,000 on levels 7 and 8; stays and tours that run longer have larger numbers. They are the same in every world, so in Beta and Gamma, where the aliens hit harder, they leave you less room. Check the mission's card before you accept. A limit may also be given as a percent of your ship's hull, and the stricter one counts when both are given; every mission of this release uses points.
+The limits are set in points, for the ship you fly at that level. A carried item's limit is 3,000 hull points on levels 1 to 3, 17,000 on levels 4 to 6 and 46,000 on levels 7 and 8; stays and tours that run longer have larger numbers. These are **Alpha's** numbers, like the time limits in the tables. Beta's aliens hit 1.5 times as hard and Gamma's twice, so in Beta and Gamma the limits are 1.5 and 2 times as large, as the [time limits](#time-limits) are: 3,000 points are 4,500 in Beta and 6,000 in Gamma, and you can take as many hits as in Alpha. The mission's card and Active Quests show the number of your world (the briefing text names Alpha's); check it before you accept. A limit may also be given as a percent of your ship's hull, and the stricter one counts when both are given; every mission of this release uses points.
 
 ## Mission examples
 
@@ -232,6 +232,7 @@ The missions climb the sectors with your level:
 - Some missions are **timed**. Mission Control shows the limit on the mission's card before you accept it (a clock and "15 min"), and once you accept it a **countdown** runs on the card and in Active Quests. It turns amber in the last minute and red when time is up.
 - A timed mission that runs out **fails**: it leaves your active missions and you can accept it again at once, from the start.
 - The limits in the tables below are **Alpha's**. Beta's aliens are 1.5 times as strong and Gamma's twice, so their limits are 1.5 and 2 times as long. The clock is set when you accept the mission, for the world you're in.
+- The **hull limits** of the missions follow the world in the same way: 1.5 times Alpha's in Beta and twice in Gamma (see [Conditions](#conditions)).
 - Steps have no time limit of their own: the mission's limit covers all of them. A broken condition restarts a step or the mission, but it never resets the clock.
 
 ## Rewards
@@ -283,7 +284,7 @@ The higher sectors are where the missions pay, and where you can die. Plan your 
 
 ## The missions
 
-The time limits are Alpha's ("–": none). "→" joins the steps of an **In order** mission, which must be done in that order; steps joined by ";" open together and can be done in any order. A condition written after a step belongs to that step, "(whole mission: ...)" to every step.
+The time limits and the hull limits are Alpha's ("–": none). "→" joins the steps of an **In order** mission, which must be done in that order; steps joined by ";" open together and can be done in any order. A condition written after a step belongs to that step, "(whole mission: ...)" to every step.
 
 A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill of that alien in that sector rolls the chance, and the 10th kill since the step opened drops it for sure. "From season day 4" is a [swarm hunt](#swarm-missions).
 

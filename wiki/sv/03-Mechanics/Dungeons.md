@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -20,7 +20,7 @@ En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klank
 - **Dungeons samtidigt**: 6 i en värld
 - **Kartor**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Labyrinter**: 8; en väljs när en dungeon öppnas
-- **Bossrummet**: Öppnas när 75 % av labyrintens aliens är förstörda, avrundat uppåt
+- **Bossrummet**: Öppnas när 75 % av Crystalys och deras Twins är förstörda, avrundat uppåt
 - **Samling**: 10 min att samlas och starta. En dungeon som ingen startar stängs, och dess pris går tillbaka till klanbanken
 - **Tidsgräns**: Steg 1: 95 min, Steg 2: 130 min, Steg 3: 165 min från starten. När tiden tar slut misslyckas dungeonen och betalar ingenting
 - **Lämnad tom**: En dungeon där ingen är inne på 3 min misslyckas
@@ -36,7 +36,7 @@ En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klank
 3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan dungeonen samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Dungeonen **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade dungeonen, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på. När dungeonen startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
 4. **Kämpa dig genom labyrinten.** Du kommer in i ena änden av labyrinten och krigsherren väntar i den andra, i ett låst rum. Labyrinten är mörk: du ser bara det gruppen har utforskat och det som är nära dess skepp. Utomjordingarna sover i flockar i korridorerna, och en flock som vaknar jagar gruppen genom labyrinten.
 5. **Öppna bytezonerna.** Ringar i labyrinten markerar zonerna. Håll en och gruppen röstar om ett kort, som betalas ut tillsammans med krigsherrens betalning.
-6. **Lås upp bossrummet.** Förstör tre fjärdedelar av labyrintens utomjordingar, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas.
+6. **Lås upp bossrummet.** Förstör tre fjärdedelar av labyrintens Crystalys och deras Twins, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas. De andra utomjordingarna blir kvar där de är, och du kan förstöra dem också.
 7. **Besegra krigsherren.** Bryt hans sköld och skrov och svara på hans förmågor. När han faller är dungeonen avklarad.
 8. **Få betalt.** Betalningen kommer i samma ögonblick som krigsherren faller. Dungeonen står öppen en stund till för piloterna därinne och stängs sedan.
 
@@ -56,7 +56,7 @@ Medan din klans dungeon samlas och du flyger någon annanstans får du en **avis
 
 ### Fönstret Klandungeon {#the-clan-dungeon-window}
 
-Inne i en dungeon har omgången ett eget fönster, **Klandungeon**. Det visar tiden som har gått och det som är kvar, hur många utomjordingar som flyger och hur många som har förstörts, vad gruppen ska göra nu (utforska labyrinten, hålla en zon, hitta bossen, förstöra tre fjärdedelar av utomjordingarna, besegra krigsherren), gruppens skrovstaplar, hållstapeln medan du står i en zon, krigsherrens förmåga med nedräkningen och knappen **Lämna**. Det är ett fönster som de andra: dra det i titelraden och stäng det med det röda ljuset i hörnet. Det öppnas av sig självt när du går in i en dungeon, en gång för varje dungeon: om du stänger det förblir det stängt till nästa dungeon. Verktygsfältet har en knapp **Klandungeon** för det medan du är i en dungeon. Medan fönstret är stängt visas en förmåga hos krigsherren som snart startar eller är igång som ett enradigt fält med namnet och nedräkningen. Klicka på fältet för att öppna fönstret igen.
+Inne i en dungeon har omgången ett eget fönster, **Klandungeon**. Det visar tiden som har gått och det som är kvar, hur många utomjordingar som flyger och hur många som har förstörts, vad gruppen ska göra nu (utforska labyrinten, hålla en zon, hitta bossen, förstöra tre fjärdedelar av Crystalys och deras Twins, besegra krigsherren), hållstapeln medan du står i en zon, krigsherrens förmåga med nedräkningen och knappen **Lämna**. Det är ett fönster som de andra: dra det i titelraden och stäng det med det röda ljuset i hörnet. Det öppnas av sig självt när du går in i en dungeon, en gång för varje dungeon: om du stänger det förblir det stängt till nästa dungeon. Verktygsfältet har en knapp **Klandungeon** för det medan du är i en dungeon. Medan fönstret är stängt visas en förmåga hos krigsherren som snart startar eller är igång som ett enradigt fält med namnet och nedräkningen. Klicka på fältet för att öppna fönstret igen.
 
 ## Stegen {#the-stages}
 
@@ -77,13 +77,13 @@ En dungeon har ett steg, och steget är dess svårighet. Ett högre steg har seg
 
 Varje dungeon är en sluten labyrint på en egen karta, en av kartorna i listan ovan, och labyrinten är en av flera utformningar. Labyrinten fyller hela kartan, från kant till kant: ett rutnät av rum och korridorer med massiva väggar. Skepp kan inte passera en vägg, och en vägg blockerar skott, så den är skydd. En meteor faller uppifrån, och en vägg stoppar den inte.
 
-**Rum och dörrar.** Startrummet, där du landar, och krigsherrens rum, i andra änden, har var sin dörr. En stängd dörr är en vägg för skepp, skott och utomjordingar likadant. Startdörren öppnas när dungeonen startar. Krigsherrens dörr förblir låst tills tre fjärdedelar av utomjordingarna är förstörda (se [Det låsta rummet](#the-locked-room)). Mellan dem har labyrinten ett bytesrum för varje bytezon.
+**Rum och dörrar.** Startrummet, där du landar, och krigsherrens rum, i andra änden, har var sin dörr. En stängd dörr är en vägg för skepp, skott och utomjordingar likadant. Startdörren öppnas när dungeonen startar. Krigsherrens dörr förblir låst tills tre fjärdedelar av Crystalys och deras Twins är förstörda (se [Det låsta rummet](#the-locked-room)). Mellan dem har labyrinten ett bytesrum för varje bytezon.
 
 **Dimma.** Labyrinten är mörk. I flykt ser du dess väggar och utomjordingar bara där gruppen har varit, och en kort bit runt varje skepp i gruppen. Ett rum räknas som utforskat så fort en av er är i det. Minikartan fungerar likadant: en karta över hela våningen som fylls i allteftersom gruppen utforskar den, med ingången, krigsherrens dörr, de zoner ni har hittat och krigsherren när ni har hittat honom. Piloterna i din egen grupp visas alltid.
 
 ## Utomjordingarna {#the-aliens}
 
-Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna, aldrig i ett rum, och en flock vaknar när en pilot kommer nära. En flock som är vaken väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den sov och läker. Några flockar är vakna från första sekunden och står i korridorerna långt från ingången tills en pilot kommer nära. Dungeonen håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en flock som vaknar kan behöva vänta på plats, och en flock du förstör släpper in nästa. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en.
+Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna, aldrig i ett rum, och en flock vaknar när en pilot kommer nära. En flock som är vaken väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den sov och läker. Några flockar är vakna från första sekunden och står i korridorerna långt från ingången tills en pilot kommer nära. Dungeonen håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en flock som vaknar kan behöva vänta på plats, och en flock du förstör släpper in nästa. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en. En flock som fortfarande väntar på plats när alla piloter har flugit bort somnar om, och vaknar igen när en pilot kommer nära.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna,
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Tillsammans | 235 | 235 | 235 |
-| För att öppna bossrummet | 177 | 177 | 177 |
+| För att öppna bossrummet | 34 | 34 | 34 |
 | Vågen i en bytezon | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys |
 
 - **Levande samtidigt**: Högst 10 per pilot i gruppen, och 70 totalt
@@ -125,7 +125,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 - **Ser ut som**: Pirate Boss
 - **Flyger i flockar om**: 2
-- **Raket**: En rak raket var 5 s, räckvidd 970 enheter
+- **Raket**: En rak raket var 5 s, räckvidd 1 000 enheter
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: de
 
 ### Det låsta rummet {#the-locked-room}
 
-Dörren till krigsherrens rum är stängd från det ögonblick dungeonen öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när **tre fjärdedelar av utomjordingarna** som dungeonen skapades med är förstörda, avrundat uppåt (tabellen över utomjordingarna ovan räknar dem för en grupp på 5). Det som räknas är utomjordingarna i labyrintens flockar, även flockarna som står i korridorerna från första sekunden, av alla fyra sorterna och vem som än förstör dem. Bytezonernas vågor, de Goombahs som krigsherren kallar på och krigsherren själv räknas inte.
+Dörren till krigsherrens rum är stängd från det ögonblick dungeonen öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när **tre fjärdedelar av Crystalys och deras Twins** som dungeonen skapades med är förstörda, avrundat uppåt (tabellen över utomjordingarna ovan räknar dem för en grupp på 5, och dess sista rad säger hur många det krävs). Det som räknas är Crystalys och Twins i labyrintens flockar, även de i flockarna som står i korridorerna från första sekunden, och vem som än förstör dem. De andra utomjordingarna, bytezonernas vågor, de Goombahs som krigsherren kallar på och krigsherren själv räknas inte för dörren.
 
-Fönstret Klandungeon räknar hur många fler utomjordingar som måste förstöras för att öppna rummet och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock som fortfarande sover räknas fullt ut, så gruppen måste utforska labyrinten, men den kan lämna den sista fjärdedelen av utomjordingarna i fred. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En dungeon är aldrig en fälla: tidsgränsen avslutar ändå en dungeon vars dörr förblir stängd, och en administratör kan låsa upp rummet i en dungeon som har kört fast.
+Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstöras för att öppna rummet och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock som fortfarande sover räknas fullt ut, så gruppen måste hitta Crystalys och deras Twins i labyrinten. **De andra utomjordingarna försvinner inte när dörren öppnas.** De blir kvar i labyrinten, vaknar när en pilot kommer nära och kan förstöras som förut, så en grupp som vill kan förstöra alla innan den möter krigsherren: räknaren för utomjordingar i fönstret går vidare till alla utomjordingar som dungeonen skapades med och står full när ingen är kvar. De ger ingen betalning, och de som fortfarande lever när krigsherren faller försvinner med dungeonen. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En dungeon är aldrig en fälla: tidsgränsen avslutar ändå en dungeon vars dörr förblir stängd, och en administratör kan låsa upp rummet i en dungeon som har kört fast.
 
 ### Hans förmågor {#its-abilities}
 
@@ -212,7 +212,7 @@ Fönstret Klandungeon räknar hur många fler utomjordingar som måste förstör
 - **Fokus på mest efterlysta** markerar piloten som har gjort mest skada på krigsherren, med en guldfärgad parentes på dennes skepp, och krigsherren skjuter ett extra skott mot piloten varje sekund så länge det varar. Hans sikte ändras inte: han fortsätter skjuta på närmaste pilot han kan se, så en markerad pilot som också är närmast får båda. Det extra skottet kräver fri sikt och räckvidden hos krigsherrens laser, så en vägg eller lite avstånd räddar piloten. Förmågan börjar inte medan ingen har gjort skada.
 - **Raketsalvan** skickar målsökande raketer mot slumpmässiga piloter, men bara mot piloter som krigsherren kan se, och en vägg i vägen stoppar en raket. En ring visar vilken pilot en raket följer. En EMP Charge eller kamouflage skakar av dem.
 - **Svärmhjälpen** är krigsherren som kallar på sina Goombahs. Medan de lever kan han inte skadas, och han skjuter inte och använder ingen annan förmåga. Förstör dem alla: banderollen räknar hur många som är kvar. Om en minut går kan krigsherren skadas igen, och de Goombahs som är kvar stannar och kämpar vidare. De räknas inte för bossrummet, och de betalar ingenting.
-- **Kaoszonen** är en violett ring på marken, runt platsen där krigsherren stod när han kastade den. Ingen inne i ringen kan attackera, varken med lasrar eller raketer, men reparationer, kamouflage och flygning fungerar fortfarande, och krigsherren och hans utomjordingar skjuter som vanligt. Ringen syns ett ögonblick innan den tar verkan: kliv ut ur den och skjut in utifrån.
+- **Kaoszonen** är en violett ring på marken, runt krigsherren, och så länge den varar följer den med krigsherren vart han än går. Ingen inne i ringen kan attackera, varken med lasrar eller raketer, men reparationer, kamouflage och flygning fungerar fortfarande, och krigsherren och hans utomjordingar skjuter som vanligt. Ringen syns ett ögonblick innan den tar verkan: kliv ut ur den och håll dig utanför, eftersom den följer krigsherren. En pilot utanför kan fortfarande skjuta, så långt hans vapen når.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ Fönstret Klandungeon räknar hur många fler utomjordingar som måste förstör
 | **Livsstjälande aura** | 8 000 per sekund | 10 000 per sekund | 12 000 per sekund |
 | **Meteorregn** | 6 meteorer per salva, 40 000 vardera | 8 meteorer per salva, 50 000 vardera | 10 meteorer per salva, 60 000 vardera |
 | **Fokus på mest efterlysta** | 18 750–22 500 per extra skott mot piloten som gjort mest skada, ett var 1 s | 22 500–26 250 per extra skott mot piloten som gjort mest skada, ett var 1 s | 30 000–37 500 per extra skott mot piloten som gjort mest skada, ett var 1 s |
-| **Raketsalva** | 6 500 per raket, en var 15 s | 8 125 per raket, en var 15 s | 9 750 per raket, en var 15 s |
+| **Raketsalva** | 26 000 per raket, en var 15 s | 32 500 per raket, en var 15 s | 39 000 per raket, en var 15 s |
 | **Sköldabsorption** | 10 000 sköld per sekund | 12 500 sköld per sekund | 15 000 sköld per sekund |
 | **Svärmhjälp** | 12 × Goombah | 18 × Goombah | 24 × Goombah |
 | **Kaoszonen** | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera |
@@ -266,7 +266,9 @@ Fler piloter i ringen håller en zon snabbare. Så lång tid tar det att hålla 
 
 ### Boosters
 
-Vid steg 2 och 3 ger bytezonernas vågor också boosters. När gruppen har förstört varenda utomjording i en våg räknas vågen, och efter var annan våg (den andra, den fjärde och den sjätte) får varje pilot ett fönster på en halv minut för att välja en tillfällig booster åt sig själv: **Skada** (dina lasrar slår hårdare), **Träffpoäng** (ditt skepp tål mer skrov) eller **Hastighet** (ditt skepp flyger snabbare). Tryck på ett kort för att välja det. Om du inte svarar i tid väljer spelet Träffpoäng åt dig. Ett val är värt 3 % vid steg 3 och 1,5 % vid steg 2, och en sort adderas upp till högst 9 % vid steg 3 och 4,5 % vid steg 2, hur ofta du än väljer den. Steg 1 har inga boosters. En grupp som lämnar en våg vid liv får inget fönster för den.
+Vid steg 2 och 3 tjänar gruppen boosters genom att förstöra dungeonens utomjordingar. En booster delas ut vid var tionde del av dem: när en tiondel av utomjordingarna är förstörd, sedan två tiondelar, och så vidare upp till alla, tio utdelningar sammanlagt. Varenda utomjording som dungeonen skapades med räknas, vem som än förstör den (det är räkningen av förstörda utomjordingar i fönstret Klandungeon); bytezonernas vågor och de utomjordingar som krigsherren kallar på räknas inte, så en zon ger ingen booster. Vid varje utdelning får varje pilot ett fönster på en halv minut för att välja en tillfällig booster åt sig själv bland tre som spelet drar slumpmässigt ur fem: **Skada** (dina lasrar slår hårdare), **Träffpoäng** (ditt skepp tål mer skrov), **Sköld** (din sköld tål mer), **Hastighet** (ditt skepp flyger snabbare) och **Sköldladdning** (din sköld laddas snabbare). Tryck på ett kort för att välja det. Om du inte svarar i tid väljer spelet Träffpoäng åt dig, eller den första av de tre om Träffpoäng inte är bland dem. Ett val är värt 3 % vid steg 3 och 1,5 % vid steg 2, så tio val adderas upp till högst trettio procent vid steg 3 och femton procent vid steg 2, vilka sorter det än är. Steg 1 har inga boosters.
+
+Den tionde utdelningen kommer med den sista utomjordingen. En grupp som förstör varenda utomjording innan den möter krigsherren får alla tio utdelningarna; en grupp som öppnar krigsherrens rum och flyger vidare får utdelningarna för de utomjordingar den hittills har förstört, och de som är kvar blir kvar och kan fortfarande förstöras. När striden mot krigsherren har börjat delas ingen booster ut längre.
 
 En booster varar tills dungeonen är avklarad. Om du lämnar dungeonen, eller blir förstörd, förlorar du dina boosters, och du får tillbaka dem när du flyger in igen. En bricka under fönstret Klandungeon listar vad du har.
 
@@ -285,7 +287,7 @@ Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragni
 | Orvium | 200 | 300 | 500 | 13,65 % | Varje betald pilot |
 | Ultra Core | 5 000 | 7 500 | 12 500 | 11,4 % | Varje betald pilot |
 | Experimental Fusion Core | 3 000 | 4 500 | 7 500 | 9,1 % | Varje betald pilot |
-| Dark Matter | 5 | 8 | 12 | 9,1 % | Varje betald pilot |
+| Dark Matter | 10 | 16 | 24 | 9,1 % | Varje betald pilot |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Varje betald pilot |
 | Starfire-III | – | – | 1 | 0,07 % | Varje betald pilot |
 | Helios Beam | – | – | 1 | 0,07 % | Varje betald pilot |
@@ -377,7 +379,7 @@ Klanbanken får också betalt, i krediter och inte i Thulium, första gången kl
 
 - Rensa en zons våg innan du försöker hålla zonen, och strid inne i ringen om utomjordingar kommer in.
 - Ta med hela gruppen till en zon: ju fler piloter i ringen, desto snabbare hålls den.
-- Utforska labyrinten och förstör utomjordingarna du möter: krigsherrens dörr öppnas när tre fjärdedelar av dem är döda, och inte förr.
+- Leta efter Crystalys och deras Twins i labyrinten: krigsherrens dörr öppnas när tre fjärdedelar av dem är döda, och inte förr. De andra utomjordingarna kan vänta, eller förstöras också.
 - Använd väggarna: lasrar går inte igenom dem, de röda ringarna från krigsherrens auror slutar vid dem, och en vägg stoppar också krigsherrens raketer.
 - Spara en EMP Charge till Raketsalvan.
 - När krigsherren kallar på sina Goombahs, förstör dem först: han kan inte skadas förrän de är borta. Kliv ut ur ringen innan du skjuter i Kaoszonen.

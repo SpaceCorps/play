@@ -74,7 +74,7 @@ Alapja: Phantasm, hajótestének 2 000%-a és lézersebzésének 300%-a; a sebe
 | Standard Battery | 100% | 600–1 200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| Egy a kreditért vásárolható 8 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 4–6 |
+| Egy a kreditért vásárolható 4 [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 4–6 |
 
 ### Phantasm Guard
 

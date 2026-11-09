@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9679806228678ce2 -->
+<!-- wiki-i18n source: 9421722a69e53475 -->
 <!-- wiki-i18n title: Mazmorras -->
 # Mazmorras {#dungeons}
 
@@ -20,7 +20,7 @@ Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dent
 - **Mazmorras a la vez**: 6 en un mundo
 - **Mapas**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Laberintos**: 8; se elige una al abrir una mazmorra
-- **Sala del jefe**: Se abre cuando se destruye el 75 % de los alienígenas del laberinto, redondeando hacia arriba
+- **Sala del jefe**: Se abre cuando se destruye el 75 % de los Crystalys y sus Twins, redondeando hacia arriba
 - **Reunión**: 10 min para reunirse y empezar. Una mazmorra que nadie inicia se cierra, y su precio vuelve al banco del clan
 - **Límite de tiempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min desde el inicio. Si se agota, la mazmorra fracasa y no paga nada
 - **Vacía**: Una mazmorra sin nadie dentro durante 3 min fracasa
@@ -36,7 +36,7 @@ Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dent
 3. **Iniciar.** La sala de inicio es una sala pequeña en un extremo del laberinto, y su compuerta está cerrada mientras la mazmorra espera a los pilotos. No hay alienígenas dentro, así que se puede esperar con seguridad. La mazmorra **se inicia sola** cuando están dentro todos los pilotos a los que espera y el grupo es lo bastante grande. Espera a los miembros del clan que están conectados, no ausentes y en el grupo de un piloto que ha entrado, y se inicia de inmediato cuando el grupo está lleno. El piloto que abrió la mazmorra, o un oficial, puede pulsar **Iniciar** para empezar antes con los pilotos que estén dentro, si son suficientes. Un piloto que se va deja de ser esperado. Cuando la mazmorra se inicia, la compuerta se abre para siempre, y después solo pueden volver los pilotos que ya estaban dentro.
 4. **Abrirse paso por el laberinto.** Entras por un extremo del laberinto y el Señor de la guerra espera en el otro, en una sala bloqueada. El laberinto está a oscuras: solo ves lo que el grupo ha explorado y lo que está cerca de sus naves. Los alienígenas duermen en manadas en los pasillos, y una manada que despierta persigue al grupo por el laberinto.
 5. **Abrir las zonas de botín.** Unos anillos en el laberinto marcan las zonas. Mantén una y el grupo vota una carta, que se paga junto con el pago del Señor de la guerra.
-6. **Desbloquear la sala del Señor de la guerra.** Destruye tres cuartas partes de los alienígenas del laberinto, y la compuerta de su sala se abre. Hasta entonces el Señor de la guerra no puede ser dañado.
+6. **Desbloquear la sala del Señor de la guerra.** Destruye tres cuartas partes de los Crystalys y sus Twins del laberinto, y la compuerta de su sala se abre. Hasta entonces el Señor de la guerra no puede ser dañado. Los demás alienígenas se quedan donde están, y también puedes destruirlos.
 7. **Derrotar al Señor de la guerra.** Rompe su escudo y su casco, y responde a sus habilidades. Cuando cae, la mazmorra queda superada.
 8. **Cobrar.** El pago llega en el momento en que cae el Señor de la guerra. La mazmorra sigue abierta un poco más para los pilotos que están dentro y luego se cierra.
 
@@ -56,7 +56,7 @@ Mientras la mazmorra de tu clan espera a los pilotos y tú vuelas en otra parte,
 
 ### La ventana Mazmorra de clan {#the-clan-dungeon-window}
 
-Dentro de una mazmorra, la partida tiene una ventana propia, **Mazmorra de clan**. Muestra el tiempo transcurrido y el que queda, cuántos alienígenas vuelan y cuántos se han destruido, qué debe hacer el grupo ahora (explorar el laberinto, mantener una zona, encontrar al jefe, destruir tres cuartas partes de los alienígenas, derrotar al Señor de la guerra), las barras de casco del grupo, la barra de la zona mientras estás en una, la habilidad del Señor de la guerra con su cuenta atrás y el botón **Salir**. Es una ventana como las demás: arrástrala por su barra de título y ciérrala con la luz roja de su esquina. Se abre sola cuando entras en una mazmorra, una vez por cada mazmorra: si la cierras, sigue cerrada hasta la siguiente mazmorra. La barra de herramientas tiene un botón **Mazmorra de clan** para ella mientras estás en una mazmorra. Con la ventana cerrada, una habilidad del Señor de la guerra que está a punto de empezar o en marcha aparece como una franja de una línea con su nombre y su cuenta atrás. Haz clic en la franja para volver a abrir la ventana.
+Dentro de una mazmorra, la partida tiene una ventana propia, **Mazmorra de clan**. Muestra el tiempo transcurrido y el que queda, cuántos alienígenas vuelan y cuántos se han destruido, qué debe hacer el grupo ahora (explorar el laberinto, mantener una zona, encontrar al jefe, destruir tres cuartas partes de los Crystalys y sus Twins, derrotar al Señor de la guerra), la barra de la zona mientras estás en una, la habilidad del Señor de la guerra con su cuenta atrás y el botón **Salir**. Es una ventana como las demás: arrástrala por su barra de título y ciérrala con la luz roja de su esquina. Se abre sola cuando entras en una mazmorra, una vez por cada mazmorra: si la cierras, sigue cerrada hasta la siguiente mazmorra. La barra de herramientas tiene un botón **Mazmorra de clan** para ella mientras estás en una mazmorra. Con la ventana cerrada, una habilidad del Señor de la guerra que está a punto de empezar o en marcha aparece como una franja de una línea con su nombre y su cuenta atrás. Haz clic en la franja para volver a abrir la ventana.
 
 ## Las fases {#the-stages}
 
@@ -77,13 +77,13 @@ Una mazmorra tiene una fase, y la fase es su dificultad. Una fase superior tiene
 
 Cada mazmorra es un laberinto cerrado en un mapa propio, uno de los mapas de la lista de arriba, y el laberinto es uno de varios diseños. El laberinto ocupa todo el mapa, de borde a borde: una cuadrícula de salas y pasillos con paredes sólidas. Las naves no pueden cruzar una pared, y una pared bloquea los disparos, así que es una cobertura. Un meteoro cae desde arriba, y una pared no lo detiene.
 
-**Salas y compuertas.** La sala de inicio, donde aterrizas, y la sala del Señor de la guerra, en el extremo lejano, tienen cada una una compuerta. Una compuerta cerrada es una pared para las naves, los disparos y los alienígenas por igual. La compuerta de inicio se abre cuando la mazmorra empieza. La del Señor de la guerra sigue bloqueada hasta que tres cuartas partes de los alienígenas son destruidas (consulta [La sala bloqueada](#the-locked-room)). Entre ambas, el laberinto tiene una sala de botín para cada zona de botín.
+**Salas y compuertas.** La sala de inicio, donde aterrizas, y la sala del Señor de la guerra, en el extremo lejano, tienen cada una una compuerta. Una compuerta cerrada es una pared para las naves, los disparos y los alienígenas por igual. La compuerta de inicio se abre cuando la mazmorra empieza. La del Señor de la guerra sigue bloqueada hasta que tres cuartas partes de los Crystalys y sus Twins son destruidos (consulta [La sala bloqueada](#the-locked-room)). Entre ambas, el laberinto tiene una sala de botín para cada zona de botín.
 
 **Niebla.** El laberinto está a oscuras. En vuelo ves sus paredes y sus alienígenas solo donde ha estado el grupo, y a poca distancia alrededor de cada nave del grupo. Una sala cuenta como explorada en cuanto uno de vosotros está dentro. El minimapa funciona igual: es un plano de toda la planta que se va rellenando a medida que el grupo la explora, con la entrada, la compuerta de la sala del Señor de la guerra, las zonas que habéis encontrado y el Señor de la guerra cuando lo habéis encontrado. Los pilotos de tu propio grupo siempre se muestran.
 
 ## Los alienígenas {#the-aliens}
 
-Cuatro tipos de alienígenas guardan el laberinto. Duermen en manadas en los pasillos, nunca en una sala, y una manada despierta cuando un piloto se acerca. Una manada despierta no te espera: persigue al grupo por el laberinto, y una manada que pierde a todos vuelve a donde dormía y se cura. Unas pocas manadas están despiertas desde el primer segundo, en los pasillos lejos de la entrada, hasta que un piloto se acerca. La mazmorra mantiene en el aire solo un número limitado de alienígenas a la vez, y ese número crece con el tamaño del grupo, así que una manada que despierta puede tener que esperar sitio, y una manada que destruyes deja entrar a la siguiente. Un grupo más grande se encuentra con más alienígenas en proporción, uno más pequeño con menos, y un tipo de alienígena nunca baja de uno.
+Cuatro tipos de alienígenas guardan el laberinto. Duermen en manadas en los pasillos, nunca en una sala, y una manada despierta cuando un piloto se acerca. Una manada despierta no te espera: persigue al grupo por el laberinto, y una manada que pierde a todos vuelve a donde dormía y se cura. Unas pocas manadas están despiertas desde el primer segundo, en los pasillos lejos de la entrada, hasta que un piloto se acerca. La mazmorra mantiene en el aire solo un número limitado de alienígenas a la vez, y ese número crece con el tamaño del grupo, así que una manada que despierta puede tener que esperar sitio, y una manada que destruyes deja entrar a la siguiente. Un grupo más grande se encuentra con más alienígenas en proporción, uno más pequeño con menos, y un tipo de alienígena nunca baja de uno. Una manada que sigue esperando sitio cuando todos los pilotos se han alejado vuelve a dormirse, y despierta de nuevo cuando un piloto se acerca.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -95,7 +95,7 @@ Cuatro tipos de alienígenas guardan el laberinto. Duermen en manadas en los pas
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | En total | 235 | 235 | 235 |
-| Para abrir la sala del jefe | 177 | 177 | 177 |
+| Para abrir la sala del jefe | 34 | 34 | 34 |
 | La oleada de una zona de botín | 12 × Dungeon Goombah y 1 × Dungeon Crystalys | 12 × Dungeon Goombah y 1 × Dungeon Crystalys | 12 × Dungeon Goombah y 1 × Dungeon Crystalys |
 
 - **Vivos a la vez**: Como máximo 10 por cada piloto del grupo, y 70 en total
@@ -125,7 +125,7 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 - **Se parece a**: Pirate Boss
 - **Vuela en manadas de**: 2
-- **Cohete**: Un cohete recto cada 5 s, alcance de 970 unidades
+- **Cohete**: Un cohete recto cada 5 s, alcance de 1.000 unidades
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -201,9 +201,9 @@ El casco y el escudo de arriba son para un grupo de 5. Crecen con el grupo: son 
 
 ### La sala bloqueada {#the-locked-room}
 
-La compuerta de la sala del Señor de la guerra está cerrada desde el momento en que se abre la mazmorra, y mientras lo está el Señor de la guerra no puede ser dañado: ningún láser, cohete ni explosión lo toca, y no usa ninguna habilidad. La compuerta se abre para siempre cuando se han destruido **tres cuartas partes de los alienígenas** con los que se creó la mazmorra, redondeando hacia arriba (la tabla de los alienígenas de arriba los cuenta para un grupo de 5). Cuentan los alienígenas de las manadas del laberinto, entre ellas las que están en los pasillos desde el primer segundo, de las cuatro clases y quien los destruya. No cuentan las oleadas de las zonas de botín, los Goombahs que llama el Señor de la guerra ni el propio Señor de la guerra.
+La compuerta de la sala del Señor de la guerra está cerrada desde el momento en que se abre la mazmorra, y mientras lo está el Señor de la guerra no puede ser dañado: ningún láser, cohete ni explosión lo toca, y no usa ninguna habilidad. La compuerta se abre para siempre cuando se han destruido **tres cuartas partes de los Crystalys y sus Twins** con los que se creó la mazmorra, redondeando hacia arriba (la tabla de los alienígenas de arriba los cuenta para un grupo de 5, y su última fila dice cuántos hacen falta). Cuentan los Crystalys y los Twins de las manadas del laberinto, también los de las manadas que están en los pasillos desde el primer segundo, y quien los destruya. No cuentan para la compuerta los demás alienígenas, las oleadas de las zonas de botín, los Goombahs que llama el Señor de la guerra ni el propio Señor de la guerra.
 
-La ventana Mazmorra de clan cuenta cuántos alienígenas faltan por destruir para abrir la sala y dice, en una etiqueta, que el Señor de la guerra no puede ser dañado, y un mensaje te avisa cuando la sala se desbloquea. Una manada que sigue dormida cuenta entera, así que el grupo tiene que explorar el laberinto, pero puede dejar en paz a la última cuarta parte de los alienígenas. En el minimapa la compuerta es una línea roja mientras está bloqueada y una verde cuando está abierta. Una mazmorra nunca es una trampa: el límite de tiempo sigue terminando una mazmorra cuya compuerta sigue cerrada, y un administrador puede desbloquear la sala de una mazmorra atascada.
+La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para abrir la sala y dice, en una etiqueta, que el Señor de la guerra no puede ser dañado, y un mensaje te avisa cuando la sala se desbloquea. Una manada que sigue dormida cuenta entera, así que el grupo tiene que encontrar a los Crystalys y sus Twins en el laberinto. **Los demás alienígenas no desaparecen cuando se abre la compuerta.** Se quedan en el laberinto, despiertan cuando un piloto se acerca y se pueden destruir como antes, así que un grupo que quiera puede destruirlos todos antes de combatir al Señor de la guerra: la cuenta de alienígenas de la ventana sigue hasta todos los alienígenas con los que se creó la mazmorra, y se ve completa cuando no queda ninguno. No pagan nada, y los que siguen vivos cuando cae el Señor de la guerra se van con la mazmorra. En el minimapa la compuerta es una línea roja mientras está bloqueada y una verde cuando está abierta. Una mazmorra nunca es una trampa: el límite de tiempo sigue terminando una mazmorra cuya compuerta sigue cerrada, y un administrador puede desbloquear la sala de una mazmorra atascada.
 
 ### Sus habilidades {#its-abilities}
 
@@ -212,7 +212,7 @@ La ventana Mazmorra de clan cuenta cuántos alienígenas faltan por destruir par
 - **Foco en el más buscado** marca al piloto que más daño ha hecho al Señor de la guerra, con un corchete dorado en su nave, y el Señor de la guerra le dispara un tiro extra cada segundo mientras dura. Su puntería no cambia: sigue disparando al piloto más cercano que puede ver, así que un piloto marcado que además es el más cercano recibe ambos. El tiro extra necesita línea libre y el alcance del láser del Señor de la guerra, así que una pared o algo de distancia lo salva. No empieza mientras nadie haya hecho daño.
 - **La Andanada de cohetes** lanza cohetes teledirigidos contra pilotos al azar, pero solo contra pilotos que el Señor de la guerra puede ver, y una pared en el camino detiene un cohete. Un anillo muestra a qué piloto sigue un cohete. Una EMP Charge o un camuflaje los despista.
 - **El Apoyo de enjambre** es el Señor de la guerra llamando a sus Goombahs. Mientras viven, no puede ser dañado, y no dispara ni usa otra habilidad. Destrúyelos todos: el cartel de la habilidad cuenta cuántos quedan. Si pasa un minuto, el Señor de la guerra vuelve a poder ser dañado y los Goombahs que quedan siguen luchando. No cuentan para la sala del Señor de la guerra, y no pagan nada.
-- **La Zona del Caos** es un anillo violeta en el suelo, alrededor del lugar donde estaba el Señor de la guerra cuando la lanzó. Nadie dentro del anillo puede atacar, ni con láseres ni con cohetes, aunque las reparaciones, el camuflaje y el vuelo siguen funcionando, y el Señor de la guerra y sus alienígenas disparan como siempre. El anillo aparece un momento antes de hacer efecto: sal de él, y dispara hacia dentro desde fuera.
+- **La Zona del Caos** es un anillo violeta en el suelo, alrededor del Señor de la guerra, y mientras dura va adonde vaya el Señor de la guerra. Nadie dentro del anillo puede atacar, ni con láseres ni con cohetes, aunque las reparaciones, el camuflaje y el vuelo siguen funcionando, y el Señor de la guerra y sus alienígenas disparan como siempre. El anillo aparece un momento antes de hacer efecto: sal de él y quédate fuera, porque sigue al Señor de la guerra. Un piloto que está fuera puede seguir disparando, hasta donde alcancen sus armas.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -232,7 +232,7 @@ La ventana Mazmorra de clan cuenta cuántos alienígenas faltan por destruir par
 | **Aura de robo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
 | **Lluvia de meteoros** | 6 meteoros por salva, 40.000 cada uno | 8 meteoros por salva, 50.000 cada uno | 10 meteoros por salva, 60.000 cada uno |
 | **Foco en el más buscado** | 18.750–22.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 22.500–26.250 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 30.000–37.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
-| **Andanada de cohetes** | 6.500 por cohete, uno cada 15 s | 8.125 por cohete, uno cada 15 s | 9.750 por cohete, uno cada 15 s |
+| **Andanada de cohetes** | 26.000 por cohete, uno cada 15 s | 32.500 por cohete, uno cada 15 s | 39.000 por cohete, uno cada 15 s |
 | **Absorción de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
 | **Apoyo de enjambre** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar |
@@ -266,7 +266,9 @@ Más pilotos en el anillo mantienen una zona más rápido. Lo que tarda en mante
 
 ### Potenciadores {#boosters}
 
-En las fases 2 y 3, las oleadas de las zonas de botín traen también potenciadores. Cuando el grupo ha destruido a todos los alienígenas de una oleada, la oleada cuenta, y tras cada segunda oleada (la segunda, la cuarta y la sexta) cada piloto recibe una ventana de medio minuto para elegir un potenciador temporal para sí mismo: **Daño** (tus láseres golpean más fuerte), **Puntos de vida** (tu nave aguanta más casco) o **Velocidad** (tu nave vuela más rápido). Pulsa una carta para elegirla. Si no respondes a tiempo, el juego elige Puntos de vida por ti. Una elección vale un 3 % en la fase 3 y un 1,5 % en la fase 2, y un tipo suma como máximo un 9 % en la fase 3 y un 4,5 % en la fase 2, por muchas veces que lo elijas. La fase 1 no tiene potenciadores. Un grupo que deja viva una oleada no recibe ventana por ella.
+En las fases 2 y 3 el grupo gana potenciadores destruyendo a los alienígenas de la mazmorra. Cae un potenciador por cada décima parte de ellos: cuando se ha destruido una décima parte de los alienígenas, luego dos décimas, y así hasta todos ellos, diez caídas en total. Cuenta cada alienígena con el que se hizo la mazmorra, sea quien sea quien lo destruya (es el recuento de alienígenas destruidos de la ventana Mazmorra de clan); las oleadas de las zonas de botín y los alienígenas que llama el Señor de la guerra no cuentan, así que una zona no trae ningún potenciador. En cada caída cada piloto recibe una ventana de medio minuto para elegir un potenciador temporal para sí mismo entre tres que el juego saca al azar de cinco: **Daño** (tus láseres golpean más fuerte), **Puntos de vida** (tu nave aguanta más casco), **Escudo** (tu escudo aguanta más), **Velocidad** (tu nave vuela más rápido) y **Recarga de escudo** (tu escudo se recarga más rápido). Pulsa una carta para elegirla. Si no respondes a tiempo, el juego elige Puntos de vida por ti, o el primero de los tres si Puntos de vida no está entre ellos. Una elección vale un 3 % en la fase 3 y un 1,5 % en la fase 2, así que diez elecciones suman como máximo un treinta por ciento en la fase 3 y un quince por ciento en la fase 2, sean del tipo que sean. La fase 1 no tiene potenciadores.
+
+La décima caída llega con el último alienígena. Un grupo que destruye a todos los alienígenas antes de luchar contra el Señor de la guerra obtiene las diez caídas; un grupo que abre la sala del Señor de la guerra y sigue adelante obtiene las caídas de los alienígenas que ha destruido hasta entonces, y los que quedan se quedan y aún pueden destruirse. Cuando ha empezado el combate contra el Señor de la guerra, ya no cae ningún potenciador.
 
 Un potenciador dura hasta que se supera la mazmorra. Si sales de la mazmorra o eres destruido, pierdes tus potenciadores, y los recuperas cuando vuelves a entrar. Una etiqueta bajo la ventana Mazmorra de clan muestra lo que tienes.
 
@@ -285,7 +287,7 @@ Las cartas se sacan una a una del conjunto de abajo. La probabilidad es la de un
 | Orvium | 200 | 300 | 500 | 13,65 % | Cada piloto pagado |
 | Ultra Core | 5.000 | 7.500 | 12.500 | 11,4 % | Cada piloto pagado |
 | Experimental Fusion Core | 3.000 | 4.500 | 7.500 | 9,1 % | Cada piloto pagado |
-| Dark Matter | 5 | 8 | 12 | 9,1 % | Cada piloto pagado |
+| Dark Matter | 10 | 16 | 24 | 9,1 % | Cada piloto pagado |
 | Dark Matter Plate | 1 | 1 | 2 | 4,55 % | Cada piloto pagado |
 | Starfire-III | – | – | 1 | 0,07 % | Cada piloto pagado |
 | Helios Beam | – | – | 1 | 0,07 % | Cada piloto pagado |
@@ -377,7 +379,7 @@ El banco del clan también cobra, en créditos y no en Thulium, la primera vez q
 
 - Acaba con la oleada de una zona antes de intentar mantenerla, y lucha dentro del anillo si entran alienígenas.
 - Lleva a todo el grupo a una zona: cuantos más pilotos haya en el anillo, más rápido se mantiene.
-- Explora el laberinto y destruye a los alienígenas que encuentres: la compuerta del Señor de la guerra se abre cuando tres cuartas partes de ellos están muertos, y no antes.
+- Busca a los Crystalys y sus Twins en el laberinto: la compuerta del Señor de la guerra se abre cuando tres cuartas partes de ellos están muertos, y no antes. Los demás alienígenas pueden esperar, o destruirse también.
 - Usa las paredes: los láseres no las cruzan, los anillos rojos de las auras del Señor de la guerra se detienen en ellas, y una pared también detiene sus cohetes.
 - Guarda una EMP Charge para la Andanada de cohetes.
 - Cuando el Señor de la guerra llame a sus Goombahs, destrúyelos primero: no puede ser dañado hasta que desaparezcan. En la Zona del Caos, sal del anillo antes de disparar.

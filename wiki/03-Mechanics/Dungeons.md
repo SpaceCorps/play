@@ -18,7 +18,7 @@ A dungeon is a fight against the aliens only: nobody can attack a clan mate, or 
 - **Dungeons at once**: 6 in a world
 - **Maps**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
 - **Mazes**: 8; one is picked when a dungeon is opened
-- **Boss room**: Opens when 75% of the aliens of the maze are destroyed, rounded up
+- **Boss room**: Opens when 75% of the Crystalys and their Twins are destroyed, rounded up
 - **Gathering**: 10 min to gather and start. A dungeon nobody starts closes, and its price goes back to the clan bank
 - **Time limit**: Stage 1: 95 min, Stage 2: 130 min, Stage 3: 165 min from the start. When it runs out the dungeon fails and pays nothing
 - **Left empty**: A dungeon with nobody inside for 3 min fails
@@ -34,7 +34,7 @@ A dungeon is a fight against the aliens only: nobody can attack a clan mate, or 
 3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the dungeon gathers. There are no aliens in it, so it is safe to wait there. The dungeon **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the dungeon, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more. When the dungeon starts, the door opens for good, and after that only the pilots who were already inside can come back.
 4. **Fight through the maze.** You come in at one end of the maze and the Warlord waits at the other, in a locked room. The maze is dark: you see only what the party has explored and what is close to its ships. The aliens sleep in packs in the corridors, and a pack that wakes hunts the party through the maze.
 5. **Open the loot zones.** Rings in the maze mark the zones. Hold one and the party votes for a card, which is paid out with the Warlord's pay.
-6. **Unlock the boss room.** Destroy three quarters of the aliens of the maze, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt.
+6. **Unlock the boss room.** Destroy three quarters of the Crystalys and their Twins of the maze, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt. The other aliens stay where they are, and you can destroy them too.
 7. **Defeat the Warlord.** Break its shield and hull, and answer its abilities. When it falls the dungeon is cleared.
 8. **Get paid.** The pay comes at the moment the Warlord falls. The dungeon stays open a little longer for the pilots inside, then closes.
 
@@ -54,7 +54,7 @@ While the clan's dungeon is gathering and you are flying somewhere else, a **cal
 
 ### The Clan dungeon window
 
-Inside a dungeon the run has a window of its own, **Clan dungeon**. It shows the time that has gone and what is left, how many aliens fly and how many have been destroyed, what the party should do now (explore the maze, hold a zone, find the boss, destroy three quarters of the aliens, defeat the Warlord), the hull bars of the party, the hold bar while you stand in a zone, the Warlord's ability with its countdown, and the **Leave** button. It is a window like the others: drag it by its title bar and close it with the red light in its corner. It opens by itself when you enter a dungeon, once for each dungeon: if you close it, it stays closed until the next dungeon. The toolbar has a **Clan dungeon** button for it while you are in a dungeon. While the window is closed, an ability of the Warlord that is about to start or is at work shows as a one-line strip with its name and countdown. Click the strip to open the window again.
+Inside a dungeon the run has a window of its own, **Clan dungeon**. It shows the time that has gone and what is left, how many aliens fly and how many have been destroyed, what the party should do now (explore the maze, hold a zone, find the boss, destroy three quarters of the Crystalys and their Twins, defeat the Warlord), the hold bar while you stand in a zone, the Warlord's ability with its countdown, and the **Leave** button. It is a window like the others: drag it by its title bar and close it with the red light in its corner. It opens by itself when you enter a dungeon, once for each dungeon: if you close it, it stays closed until the next dungeon. The toolbar has a **Clan dungeon** button for it while you are in a dungeon. While the window is closed, an ability of the Warlord that is about to start or is at work shows as a one-line strip with its name and countdown. Click the strip to open the window again.
 
 ## The stages
 
@@ -75,13 +75,13 @@ A dungeon has a stage, and the stage is its difficulty. A higher stage has tough
 
 Each dungeon is a closed maze on a map of its own, one of the maps in the list above, and the maze is one of several layouts. The maze fills the whole map, from edge to edge: a grid of rooms and corridors with solid walls. Ships cannot cross a wall, and a wall blocks shots, so a wall is cover. A meteor falls from above, and a wall does not stop it.
 
-**Rooms and doors.** The start room, where you land, and the Warlord's room, at the far end, each have one door. A shut door is a wall to ships, shots and aliens alike. The start door opens when the dungeon starts. The Warlord's door stays locked until three quarters of the aliens are destroyed (see [the locked room](#the-locked-room)). Between them the maze has a loot room for each loot zone.
+**Rooms and doors.** The start room, where you land, and the Warlord's room, at the far end, each have one door. A shut door is a wall to ships, shots and aliens alike. The start door opens when the dungeon starts. The Warlord's door stays locked until three quarters of the Crystalys and their Twins are destroyed (see [the locked room](#the-locked-room)). Between them the maze has a loot room for each loot zone.
 
 **Fog.** The maze is dark. In flight you see its walls and its aliens only where the party has been, and a short way round each ship of the party. A room counts as explored as soon as one of you is in it. The minimap is the same: a chart of the whole floor that fills in as the party explores it, with the entrance, the door of the Warlord's room, the zones you have found and the Warlord once you have found it. The pilots of your own party are always shown.
 
 ## The aliens
 
-Four kinds of alien guard the maze. They sleep in packs in the corridors, never in a room, and a pack wakes when a pilot comes near. A pack that is awake does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it slept and heals. A few packs are awake from the first second, standing in the corridors away from the entrance until a pilot comes near. The dungeon keeps only so many aliens in the air at once, and that number grows with the size of the party, so a pack that wakes may have to wait for room, and a pack that you destroy lets the next one in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one.
+Four kinds of alien guard the maze. They sleep in packs in the corridors, never in a room, and a pack wakes when a pilot comes near. A pack that is awake does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it slept and heals. A few packs are awake from the first second, standing in the corridors away from the entrance until a pilot comes near. The dungeon keeps only so many aliens in the air at once, and that number grows with the size of the party, so a pack that wakes may have to wait for room, and a pack that you destroy lets the next one in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one. A pack that still waits for room when every pilot has moved away goes back to sleep, and wakes again when a pilot comes near.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -93,7 +93,7 @@ Four kinds of alien guard the maze. They sleep in packs in the corridors, never 
 | Dungeon Crystalys | 34 | 34 | 34 |
 | Dungeon Crystalys Twin | 11 | 11 | 11 |
 | Together | 235 | 235 | 235 |
-| To open the boss room | 177 | 177 | 177 |
+| To open the boss room | 34 | 34 | 34 |
 | The wave of a loot zone | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys |
 
 - **Alive at once**: At most 10 for each pilot of the party, and 70 in all
@@ -123,7 +123,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 - **Looks like**: Pirate Boss
 - **Flies in packs of**: 2
-- **Rocket**: A straight rocket every 5 s, range 970 units
+- **Rocket**: A straight rocket every 5 s, range 1,000 units
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -199,9 +199,9 @@ The hull and shield above are for a party of 5. They grow with the party: these 
 
 ### The locked room
 
-The door of the Warlord's room is shut from the moment the dungeon is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when **three quarters of the aliens** that the dungeon was made with are destroyed, rounded up (the table of the aliens above counts them for a party of 5). The aliens that count are the ones in the packs of the maze, the packs that stand in the corridors from the first second among them, of all four kinds and whoever destroys them. The waves of the loot zones, the Goombahs that the Warlord calls and the Warlord itself do not count.
+The door of the Warlord's room is shut from the moment the dungeon is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when **three quarters of the Crystalys and their Twins** that the dungeon was made with are destroyed, rounded up (the table of the aliens above counts them for a party of 5, and its last row says how many it takes). The aliens that count are the Crystalys and the Twins in the packs of the maze, the packs that stand in the corridors from the first second among them, and whoever destroys them. The other aliens, the waves of the loot zones, the Goombahs that the Warlord calls and the Warlord itself do not count toward the door.
 
-The Clan dungeon window counts how many more aliens have to be destroyed to open the room and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack that still sleeps counts in full, so the party has to explore the maze, but it can leave the last quarter of the aliens alone. On the minimap the door is a red line while it is locked and a green one when it is open. A dungeon is never a trap: the time limit still ends a dungeon whose door stays shut, and an administrator can unlock the room of a stuck dungeon.
+The Clan dungeon window counts how many more of them have to be destroyed to open the room and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack that still sleeps counts in full, so the party has to find the Crystalys and their Twins in the maze. **The other aliens do not go away when the door opens.** They stay in the maze, wake when a pilot comes near and can be destroyed as before, so a party that wants to can destroy all of them before it fights the Warlord: the count of aliens in the window goes on to all the aliens the dungeon was made with, and reads full when none is left. They pay nothing, and the ones that are still alive when the Warlord falls leave with the dungeon. On the minimap the door is a red line while it is locked and a green one when it is open. A dungeon is never a trap: the time limit still ends a dungeon whose door stays shut, and an administrator can unlock the room of a stuck dungeon.
 
 ### Its abilities
 
@@ -210,7 +210,7 @@ The Clan dungeon window counts how many more aliens have to be destroyed to open
 - **Focus Most Wanted** marks the pilot who has dealt the most damage to the Warlord, with a gold bracket on his ship, and the Warlord fires an extra bolt at him every second while it lasts. Its aim does not change: it goes on shooting the nearest pilot it can see, so a marked pilot who is also the nearest takes both. The extra bolt needs a clear line and the reach of the Warlord's laser, so a wall or some distance saves him. It does not start while nobody has dealt any damage.
 - **The Rocket barrage** sends homing rockets at random pilots, but only at pilots the Warlord can see, and a wall in the way stops a rocket. A ring shows which pilot a rocket follows. An EMP Charge or a cloak shakes them off.
 - **The Swarm assist** is the Warlord calling its Goombahs. While they live it cannot be hurt, and it does not fire or use any other ability. Destroy them all: the banner counts how many are left. If a minute goes by, the Warlord can be hurt again and the Goombahs that are left stay and fight on. They do not count for the boss room, and they pay nothing.
-- **The Zone of Chaos** is a violet ring on the ground, round the place where the Warlord stood when it cast it. Nobody inside the ring can attack, with lasers or rockets, though repairs, cloaks and flying still work, and the Warlord and its aliens fire as ever. The ring shows a moment before it takes hold: step out of it, and shoot into it from outside.
+- **The Zone of Chaos** is a violet ring on the ground, round the Warlord, and for as long as it lasts it goes wherever the Warlord goes. Nobody inside the ring can attack, with lasers or rockets, though repairs, cloaks and flying still work, and the Warlord and its aliens fire as ever. The ring shows a moment before it takes hold: step out of it and stay out, because it follows the Warlord. A pilot outside can still fire, as far as his weapons reach.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -230,7 +230,7 @@ The Clan dungeon window counts how many more aliens have to be destroyed to open
 | **Lifesteal aura** | 8,000 a second | 10,000 a second | 12,000 a second |
 | **Meteor drop** | 6 meteors a volley, 40,000 each | 8 meteors a volley, 50,000 each | 10 meteors a volley, 60,000 each |
 | **Focus Most Wanted** | 18,750–22,500 an extra bolt at the pilot with the most damage dealt, one every 1 s | 22,500–26,250 an extra bolt at the pilot with the most damage dealt, one every 1 s | 30,000–37,500 an extra bolt at the pilot with the most damage dealt, one every 1 s |
-| **Rocket barrage** | 6,500 a rocket, one every 15 s | 8,125 a rocket, one every 15 s | 9,750 a rocket, one every 15 s |
+| **Rocket barrage** | 26,000 a rocket, one every 15 s | 32,500 a rocket, one every 15 s | 39,000 a rocket, one every 15 s |
 | **Shield absorption** | 10,000 shield a second | 12,500 shield a second | 15,000 shield a second |
 | **Swarm assist** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone of Chaos** | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack | Pilots inside the ring cannot attack |
@@ -264,7 +264,9 @@ More pilots in the ring hold a zone faster. How long a zone takes to hold:
 
 ### Boosters
 
-At stages 2 and 3 the waves of the loot zones bring boosters too. When the party has destroyed every alien of a wave, the wave counts, and after every second wave (the second, the fourth and the sixth) each pilot gets a window of half a minute to pick a temporary booster for himself: **Damage** (your lasers hit harder), **HP** (your ship holds more hull) or **Speed** (your ship flies faster). Press a card to pick it. If you do not answer in time, the game picks HP for you. A pick is worth 3% at stage 3 and 1.5% at stage 2, and a kind adds up to 9% at stage 3 and 4.5% at stage 2, however often you pick it. Stage 1 has no boosters. A party that leaves a wave alive gets no window for it.
+At stages 2 and 3 the party earns boosters by destroying the aliens of the dungeon. A booster drops at every tenth of them: when a tenth of the aliens is destroyed, then two tenths, and so on up to all of them, ten drops in all. Every alien the dungeon was made with counts, whoever destroys it (it is the count of aliens destroyed in the Clan dungeon window); the waves of the loot zones and the aliens the Warlord calls do not, so a zone brings no booster. At each drop every pilot gets a window of half a minute to pick a temporary booster for himself out of three that the game draws at random from five: **Damage** (your lasers hit harder), **HP** (your ship holds more hull), **Shield** (your shield holds more), **Speed** (your ship flies faster) and **Shield Recharge** (your shield refills faster). Press a card to pick it. If you do not answer in time, the game picks HP for you, or the first of the three if HP is not one of them. A pick is worth 3% at stage 3 and 1.5% at stage 2, so ten picks add up to thirty percent at the most at stage 3 and fifteen percent at stage 2, whichever kinds they are. Stage 1 has no boosters.
+
+The tenth drop comes with the last alien. A party that destroys every alien before it fights the Warlord gets all ten drops; a party that opens the room of the Warlord and flies on gets the drops of the aliens it has destroyed by then, and the aliens that are left stay and can still be destroyed. Once the fight with the Warlord has begun, no booster drops any more.
 
 A booster lasts until the dungeon is cleared. If you leave the dungeon, or are destroyed, you lose your boosters, and you get them back when you fly in again. A chip under the Clan dungeon window lists what you have.
 
@@ -283,7 +285,7 @@ The cards are drawn one by one from the pool below. The chance is that of a card
 | Orvium | 200 | 300 | 500 | 13.65% | Every paid pilot |
 | Ultra Core | 5,000 | 7,500 | 12,500 | 11.4% | Every paid pilot |
 | Experimental Fusion Core | 3,000 | 4,500 | 7,500 | 9.1% | Every paid pilot |
-| Dark Matter | 5 | 8 | 12 | 9.1% | Every paid pilot |
+| Dark Matter | 10 | 16 | 24 | 9.1% | Every paid pilot |
 | Dark Matter Plate | 1 | 1 | 2 | 4.55% | Every paid pilot |
 | Starfire-III | – | – | 1 | 0.07% | Every paid pilot |
 | Helios Beam | – | – | 1 | 0.07% | Every paid pilot |
@@ -375,7 +377,7 @@ The clan bank is paid too, in credits and not in Thulium, the first time the cla
 
 - Clear a zone's wave before you try to hold the zone, and fight inside the ring if the aliens come in.
 - Bring the whole party to a zone: the more pilots in the ring, the faster it is held.
-- Explore the maze and destroy the aliens you meet: the Warlord's door opens when three quarters of them are dead, and not before.
+- Look for the Crystalys and their Twins in the maze: the Warlord's door opens when three quarters of them are dead, and not before. The other aliens can wait, or be destroyed too.
 - Use the walls: lasers do not cross them, the red rings of the Warlord's auras stop at them, and a wall stops the Warlord's rockets too.
 - Keep an EMP Charge for the Rocket barrage.
 - When the Warlord calls its Goombahs, destroy them first: it cannot be hurt until they are gone. In the Zone of Chaos, step out of the ring before you shoot.

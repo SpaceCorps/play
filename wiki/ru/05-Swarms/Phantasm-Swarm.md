@@ -74,7 +74,7 @@ Boss Phantasm платит соразмерно бою, которым он яв
 | Standard Battery | 100% | 600–1 200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| Одна из 8 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 4–6 |
+| Одна из 4 [ракет](/wiki/06-Items/Rockets.md), покупаемых за кредиты, на выбор случая | 100% | 4–6 |
 
 ### Phantasm Guard
 

@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
+<!-- wiki-i18n source: eb868ee753081e77 -->
 <!-- wiki-i18n title: Conquistas -->
 # Conquistas {#achievements}
 
-As conquistas são as metas de toda a carreira de um piloto: destruir seu primeiro alienígena, alcançar o nível 21, ter um bilhão de créditos, sobreviver a um reset. O jogo conta tudo por você. Existem **40** delas, em **8** grupos e **5** categorias. Cada uma paga **uma vez por conta, para sempre**: créditos por todas e, na maioria, um **título** para usar ao lado do seu nome. Um reset nunca tira de você uma conquista, a recompensa dela ou o título dela.
+As conquistas são as metas de toda a carreira de um piloto: destruir seu primeiro alienígena, alcançar o nível 21, ter um bilhão de créditos, sobreviver a um reset. O jogo conta tudo por você. Existem **42** delas, em **8** grupos e **5** categorias. Cada uma paga **uma vez por conta, para sempre**: créditos por todas e, na maioria, um **título** para usar ao lado do seu nome. Um reset nunca tira de você uma conquista, a recompensa dela ou o título dela.
 
 **Em um minuto**
 
 - Abra **Comunidade › Conquistas** na estação para ver cada meta, até onde você chegou e quanto ela paga.
 - A categoria (Comum, Incomum, Raro, Épico ou Lendário) define os créditos: quanto mais difícil a meta, mais alta a categoria.
 - O pagamento vem no instante em que você alcança uma meta, em voo ou na estação. Um cartão mostra a conquista e a recompensa, e o Registro do jogo guarda uma linha.
-- **3** das 40 são ocultas: a página as mostra como cartões fechados até você desbloqueá-las. Elas contam entre as 40 e não são nomeadas aqui.
+- **5** das 42 são ocultas: a página as mostra como cartões fechados até você desbloqueá-las. Elas contam entre as 42 e não são nomeadas aqui.
 - Na versão da Steam, suas conquistas também aparecem no seu perfil da Steam, depois que você vincular sua conta (veja abaixo).
 
 ## Categorias e recompensas {#tiers-and-rewards}
@@ -19,12 +19,12 @@ As cinco categorias pagam o mesmo por cada conquista que contêm, uma única vez
 | Categoria | Conquistas | Créditos por conquista |
 | :--- | ---: | ---: |
 | Comum | 10 | 50.000 |
-| Incomum | 7 | 150.000 |
-| Raro | 11 | 500.000 |
+| Incomum | 8 | 150.000 |
+| Raro | 12 | 500.000 |
 | Épico | 7 | 2.000.000 |
 | Lendário | 5 | 5.000.000 |
 
-As 40 juntas pagam **46.050.000** créditos, uma vez na vida de um piloto.
+As 42 juntas pagam **46.700.000** créditos, uma vez na vida de um piloto.
 
 ## As conquistas {#the-achievements}
 
@@ -69,7 +69,7 @@ As 37 conquistas que não são ocultas, por grupo. Quando uma meta conta algo, e
 | Construtor de estações | Construa 5 módulos diferentes do Skylab. | Comum |
 | Totalmente equipado | Construa os 16 módulos do Skylab. | Épico |
 | Erudito | Pesquise 50 tecnologias. | Incomum |
-| Arquivista | Pesquise as 159 tecnologias. | Lendário |
+| Arquivista | Pesquise as 179 tecnologias. | Lendário |
 
 ### Frota {#group-fleet}
 
@@ -115,7 +115,7 @@ Uma conquista oculta ainda bloqueada é um cartão fechado, sem objetivo e sem b
 
 ## Títulos {#titles}
 
-Um **título** é uma linha curta de texto ao lado do nome de um piloto. 32 das 40 conquistas dão um, seu para sempre quando você desbloqueia a conquista. Títulos também vêm do fim de uma temporada (a sua patente, o melhor piloto de cada corporação e o piloto com mais pontos PvE) e da equipe do jogo, como o título **Pioneer** para toda conta que existia no dia em que o jogo foi lançado na Steam.
+Um **título** é uma linha curta de texto ao lado do nome de um piloto. 32 das 42 conquistas dão um, seu para sempre quando você desbloqueia a conquista. Títulos também vêm do fim de uma temporada (a sua patente, o melhor piloto de cada corporação e o piloto com mais pontos PvE) e da equipe do jogo, como o título **Pioneer** para toda conta que existia no dia em que o jogo foi lançado na Steam.
 
 - Você pode ter muitos títulos e **usa um** de cada vez. Você o escolhe no seu **perfil de piloto** e pode tirá-lo de novo.
 - Seu título aparece no seu **perfil**, nos **Rankings**, na janela do **Grupo** e quando você aponta para o seu nome no **chat**. Desde a 0.4.27 ele também aparece no mapa: uma linha pequena e discreta, na cor de raridade do título, **acima do nome da nave de cada piloto**, a sua inclusive. Um título longo é cortado com reticências. Em meio a uma multidão (mais de oito pilotos na tela), só os seus amigos, o seu alvo e a nave que você selecionou mantêm o deles, para que a tela continue legível. Ele não aparece na janela do alvo nem no minimapa.

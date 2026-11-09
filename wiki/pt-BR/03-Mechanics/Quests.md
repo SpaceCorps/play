@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Missões -->
 # Missões {#quests}
 
@@ -131,7 +131,7 @@ Uma **condição** é uma regra extra sobre uma etapa ou sobre uma missão intei
 
 Morrer quebra um limite de casco em andamento, assim como uma regra de sem morrer.
 
-Os limites são dados em pontos, para a nave que você pilota naquele nível. O limite de um item carregado é de 3.000 pontos de casco nos níveis 1 a 3, de 17.000 nos níveis 4 a 6 e de 46.000 nos níveis 7 e 8; as permanências e os percursos mais longos têm números maiores. Eles são iguais em todos os mundos, então no Beta e no Gamma, onde os alienígenas batem mais forte, deixam menos folga para você. Veja o cartão da missão antes de aceitá-la. Um limite também pode ser dado como porcentagem do casco da sua nave, e quando os dois são dados vale o mais rígido; todas as missões desta atualização usam pontos.
+Os limites são dados em pontos, para a nave que você pilota naquele nível. O limite de um item carregado é de 3.000 pontos de casco nos níveis 1 a 3, de 17.000 nos níveis 4 a 6 e de 46.000 nos níveis 7 e 8; as permanências e os percursos mais longos têm números maiores. Esses são os números do **Alpha**, como os limites de tempo das tabelas. Os alienígenas do Beta batem 1,5 vez mais forte e os do Gamma, o dobro, então no Beta e no Gamma os limites são 1,5 e 2 vezes maiores, como os [limites de tempo](#time-limits): 3.000 pontos são 4.500 no Beta e 6.000 no Gamma, e você aguenta tantos golpes quanto no Alpha. O cartão da missão e Missões ativas mostram o número do seu mundo (o texto da missão cita o do Alpha); confira antes de aceitá-la. Um limite também pode ser dado como porcentagem do casco da sua nave, e quando os dois são dados vale o mais rígido; todas as missões desta atualização usam pontos.
 
 ## Exemplos de missões {#mission-examples}
 
@@ -234,6 +234,7 @@ As missões sobem pelos setores conforme o seu nível:
 - Algumas missões têm **tempo limite**. O Mission Control mostra o limite no cartão da missão antes de você aceitá-la (um relógio e “15 min”), e depois que você a aceita uma **contagem regressiva** corre no cartão e em Missões ativas. Ela fica âmbar no último minuto e vermelha quando o tempo acaba.
 - Uma missão com tempo limite que se esgota **falha**: ela sai das suas missões ativas e você pode aceitá-la de novo na hora, do início.
 - Os limites nas tabelas abaixo são os do **Alpha**. Os alienígenas do Beta são 1,5 vez mais fortes e os do Gamma, o dobro, então os limites deles são 1,5 e 2 vezes mais longos. O relógio é definido quando você aceita a missão, para o mundo em que você está.
+- Os **limites de casco** das missões seguem o mundo do mesmo jeito: 1,5 vez os do Alpha no Beta e o dobro no Gamma (veja [Condições](#conditions)).
 - As etapas não têm um limite de tempo próprio: o limite da missão vale para todas. Uma condição quebrada faz uma etapa ou a missão recomeçar, mas nunca zera o relógio.
 
 ## Recompensas {#rewards}
@@ -285,7 +286,7 @@ Os setores mais altos são onde as missões pagam, e onde você pode morrer. Pla
 
 ## As missões {#the-missions}
 
-Os limites de tempo são os do Alpha (“–”: nenhum). “→” une as etapas de uma missão **Em ordem**, que precisam ser feitas nessa ordem; as etapas unidas por “;” se abrem juntas e podem ser feitas em qualquer ordem. Uma condição escrita depois de uma etapa pertence a essa etapa, “(missão inteira: ...)” a todas as etapas.
+Os limites de tempo e os limites de casco são os do Alpha (“–”: nenhum). “→” une as etapas de uma missão **Em ordem**, que precisam ser feitas nessa ordem; as etapas unidas por “;” se abrem juntas e podem ser feitas em qualquer ordem. Uma condição escrita depois de uma etapa pertence a essa etapa, “(missão inteira: ...)” a todas as etapas.
 
 Um item de missão aparece como “pode soltá-lo: 15% por abate, garantido no abate 10”: cada abate daquele alienígena naquele setor rola a chance, e o 10º abate desde que a etapa se abriu o solta com certeza. “A partir do dia 4 da temporada” é uma [caçada de enxame](#swarm-missions).
 

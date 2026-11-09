@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
-Raketen sind eine zweite Waffe neben deinen Lasern: ein Schuss alle paar Sekunden, der weit härter trifft als eine Lasersalve. Zwölf Raketen in vier Arten, je drei Stufen, zwei weitere, die nur die Montage herstellt, und **ein Nachladetimer von 3 Sekunden, den alle gemeinsam haben**, egal welche du abfeuerst (die beiden, die nur die Montage herstellt, warten wegen ihres langen Flugs etwas länger). Die gewöhnlichen und seltenen Raketen kaufst du mit **Credits**, die vier epischen mit **Thulium**. Eine [Drohnenformation](/wiki/03-Mechanics/Formations.md) kann den Schaden einer Rakete erhöhen und den Timer länger oder kürzer machen: siehe [Drohnenformationen und Raketen](#drone-formations-and-rockets).
+Raketen sind eine zweite Waffe neben deinen Lasern: ein Schuss alle paar Sekunden, der weit härter trifft als eine Lasersalve. Zwölf **normale Raketen** in vier Arten, je drei Stufen, teilen sich **einen Nachladetimer von 3 Sekunden**, den der Raketenwerfer deines Schiffs bestimmt. Zwölf **Spezialraketen**, die mehr als Schaden tun, teilen sich **einen eigenen Timer von 5 Sekunden**, und jede wartet zusätzlich auf ihren eigenen. Nur die vier gewöhnlichen Raketen, Flares und Ricochet kaufst du, mit **Credits**; jede andere Rakete stellt die Montage her. Eine [Drohnenformation](/wiki/03-Mechanics/Formations.md) kann den Schaden einer Rakete erhöhen und den normalen Timer länger oder kürzer machen: siehe [Drohnenformationen und Raketen](#drone-formations-and-rockets).
 
 ## In einer Minute {#in-one-minute}
 
-- **Zwölf Raketen zum Kaufen.** Vier Arten (Lancet, Rivet, Ember, Scatter), je drei Stufen. Die gewöhnlichen und seltenen kosten Credits, die epischen Thulium. Zwei weitere Raketen, die N.U.K.E. und die N.I.K.E., stellt die Montage her.
+- **Zwölf normale Raketen.** Vier Arten (Lancet, Rivet, Ember, Scatter), je drei Stufen. Verkauft wird nur Stufe I, für 1.000 Credits; Stufe II und III stellt die Montage aus 100 Raketen der Stufe darunter her.
 - **Jede Rakete würfelt ihren Schaden.** Beim Abfeuern wählt das Spiel eine Zahl zwischen dem niedrigsten und dem höchsten Schaden der Rakete (eine Lancet I: 1.700 bis 2.100). Dein Schiff, deine Laser, Verstärker und Booster ändern nichts, nur eine Drohnenformation tut es. Die Raketen, die Aliens abfeuern, würfeln nicht: Sie richten eine feste Zahl an ([Gegen die Aliens](#against-the-aliens)).
 - **Explosionen sind in der Mitte am stärksten.** Ember- und Scatter-Raketen explodieren und treffen jedes Schiff im Ring: die volle Zahl im Zentrum, die Hälfte davon am Rand.
-- **Ein Timer für alle.** Nach jedem Abschuss wartest du 3 Sekunden bis zum nächsten, egal welche Rakete es ist. Nur die N.U.K.E. und die N.I.K.E. lassen dich länger warten (4,1 und 4,6 Sekunden), weil sie so lange in der Luft bleiben.
+- **Zwei Arten von Timern.** Die normalen Raketen teilen sich einen: 3 Sekunden nach jedem Abschuss, oder mit einem **Raketenwerfer II bis V** eine Salve von 2 bis 5 Raketen im Abstand von 0,15 Sekunden und danach 5 Sekunden ([Abfeuern](#firing)). Die Spezialraketen teilen sich einen weiteren von 5 Sekunden, den kein Raketenwerfer ändert, und jede wartet zusätzlich auf ihren eigenen, von 3 Sekunden bis 2 Minuten ([Spezialraketen](#special-rockets)).
+- **Zwölf Spezialraketen.** Sie frieren ein, stören, vergiften oder markieren ein Schiff, zerbrechen Schilde oder Aufschaltungen, heilen deine Freunde, springen auf ein zweites Schiff oder öffnen an deinem Cursor ein kleines Schwarzes Loch. Die N.U.K.E. und die N.I.K.E. sind zwei davon.
 - **Gelenkt oder geradeaus.** Eine gelenkte Rakete (Lancet, Ember) braucht ein Ziel, das du ausgewählt hast. Eine geradeaus fliegende (Rivet, Scatter) fliegt zu deinem Cursor.
 - **Einiges trägst du noch wie eine Rakete.** Die **EMP Charge** ist ein Verbrauchsgut: ein Stapel in deinem Inventar, der über die Aktionsleiste eingesetzt wird, ohne Slot ([EMP Charge](#emp-charge)). Ebenso die beiden **Energetic Walls** ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Raketen sind eine zweite Waffe neben deinen Lasern: ein Schuss alle paar Sekunde
 Was die Montage herstellt, braucht zuerst seine Technologie; zeige auf einen Gegenstand, um zu sehen, wie lange die Forschung dauert. Der Technologiebaum, der Treibstoff und der Boost: [Forschung](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Jede Rakete hat **ihren eigenen Schaden, der beim Abfeuern ausgewürfelt wird**:
 
 | Name | Art | Seltenheit | Schaden | Durchschnitt | Schilddurchdringung | Explosionsradius | Aufschaltreichweite | Reichweite | Geschwindigkeit | Preis | Maximal tragbar |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Gelenkt, Einzelziel | Gewöhnlich | 1.700–2.100 | 1.900 | 10 % | – | 700 | 1.040 | 520 | 500 Credits | 5.000 |
-| **Lancet II** | Gelenkt, Einzelziel | Selten | 3.500–4.200 | 3.850 | 25 % | – | 1.000 | 1.584 | 660 | 800 Credits | 2.000 |
-| **Lancet III** | Gelenkt, Einzelziel | Episch | 5.200–6.200 | 5.700 | 35 % | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Geradeaus, Einzelziel | Gewöhnlich | 2.200–2.700 | 2.450 | 5 % | – | – | 1.080 | 900 | 500 Credits | 5.000 |
-| **Rivet II** | Geradeaus, Einzelziel | Selten | 4.500–5.250 | 4.875 | 25 % | – | – | 1.120 | 700 | 800 Credits | 2.000 |
-| **Rivet III** | Geradeaus, Einzelziel | Episch | 7.000–8.000 | 7.500 | 35 % | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Gelenkt, Flächenschaden | Gewöhnlich | 1.200–1.400 | 1.300 | – | 255 | 700 | 1.000 | 500 | 500 Credits | 5.000 |
-| **Ember II** | Gelenkt, Flächenschaden | Selten | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 800 Credits | 2.000 |
-| **Ember III** | Gelenkt, Flächenschaden | Episch | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Geradeaus, Flächenschaden | Gewöhnlich | 1.500–1.750 | 1.625 | – | 315 | – | 1.088 | 640 | 500 Credits | 5.000 |
-| **Scatter II** | Geradeaus, Flächenschaden | Selten | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 800 Credits | 2.000 |
-| **Scatter III** | Geradeaus, Flächenschaden | Episch | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Gelenkt, Einzelziel | Gewöhnlich | 3.500–4.200 | 3.850 | 25 % | – | 1.000 | 1.584 | 660 | 1.000 Credits | 5.000 |
+| **Lancet II** | Gelenkt, Einzelziel | Selten | 5.200–6.200 | 5.700 | 35 % | – | 1.300 | 2.296 | 820 | Hergestellt aus 100 Lancet I | 2.000 |
+| **Lancet III** | Gelenkt, Einzelziel | Episch | 7.300–8.700 | 8.000 | 35 % | – | 1.300 | 2.296 | 820 | Hergestellt aus 100 Lancet II | 500 |
+| **Rivet I** | Geradeaus, Einzelziel | Gewöhnlich | 4.500–5.250 | 4.875 | 25 % | – | – | 1.120 | 700 | 1.000 Credits | 5.000 |
+| **Rivet II** | Geradeaus, Einzelziel | Selten | 7.000–8.000 | 7.500 | 35 % | – | – | 1.100 | 500 | Hergestellt aus 100 Rivet I | 2.000 |
+| **Rivet III** | Geradeaus, Einzelziel | Episch | 9.800–11.200 | 10.500 | 35 % | – | – | 1.100 | 500 | Hergestellt aus 100 Rivet II | 500 |
+| **Ember I** | Gelenkt, Flächenschaden | Gewöhnlich | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 1.000 Credits | 5.000 |
+| **Ember II** | Gelenkt, Flächenschaden | Selten | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | Hergestellt aus 100 Ember I | 2.000 |
+| **Ember III** | Gelenkt, Flächenschaden | Episch | 4.900–6.300 | 5.600 | – | 495 | 1.150 | 2.030 | 700 | Hergestellt aus 100 Ember II | 500 |
+| **Scatter I** | Geradeaus, Flächenschaden | Gewöhnlich | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 1.000 Credits | 5.000 |
+| **Scatter II** | Geradeaus, Flächenschaden | Selten | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | Hergestellt aus 100 Scatter I | 2.000 |
+| **Scatter III** | Geradeaus, Flächenschaden | Episch | 6.300–7.700 | 7.000 | – | 660 | – | 1.092 | 420 | Hergestellt aus 100 Scatter II | 500 |
 
 Je teurer die Stufe, desto härter trifft eine Rakete, desto weiter reicht sie, desto mehr Schilddurchdringung hat sie und desto weniger kannst du tragen; die teuren geben auch den meisten Schaden für ihren Preis. Eine Geradeaus-Rakete richtet für denselben Preis ein Viertel bis ein Drittel mehr Schaden an als die gelenkte Rakete ihrer Stufe und Art (23 bis 32 % im Schnitt), weil du zielen musst. Eine Flächenschaden-Rakete richtet etwa zwei Drittel der Einzelziel-Rakete ihrer Stufe und Art an (66 bis 70 % im Schnitt: eine Ember gegenüber einer Lancet, eine Scatter gegenüber einer Rivet), an jedem Schiff, das sie erfasst. Im Zentrum einer Explosion ist der Schaden voll und fällt in einer geraden Linie auf **die Hälfte davon am Rand**: Ein Schiff, dessen Hülle auf halbem Weg zum Rand liegt, nimmt 75 %, eines mit der Hülle außerhalb des Rings nichts. Ein Schuss richtet im Schnitt die Mitte seines Bereichs an, 89 bis 94 % seiner Höchstzahl; die Tabelle unten, die Raketen zählt, rechnet damit.
 
 ## Was sie kosten {#what-they-cost}
 
-Eine gewöhnliche Rakete kostet 500 Credits, eine seltene 800 Credits und eine epische 5 Thulium, in jeder Art. Bei jedem Timer abgefeuert sind das 10.000 Credits pro Minute für eine gewöhnliche Rakete, 16.000 für eine seltene und 100 Thulium für eine epische, gegenüber den 900 Credits pro Minute, die die drei Laser einer Ostirion bei x1 verbrennen. Ein voller Vorrat sind 5.000 gewöhnliche Raketen (2.500.000 Credits), 2.000 seltene (1.600.000 Credits) oder 500 epische (2.500 Thulium): Du kaufst so viele, wie du willst, bis zu dieser Zahl, und die *maximal tragbare Menge* einer Rakete ist die einzige Grenze dafür, wie viele du hältst. Beim Wipe behältst du ohne Zutun bis zu 1.000 von jeder der zwölf Raketen; alles darüber sowie jede N.U.K.E. und jede N.I.K.E. überlebt nur im Transport-Cache, wo eine Rakete 1 kg wiegt (eine N.U.K.E. oder N.I.K.E. 250 kg): siehe [den Wipe](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Eine Rakete alle 3 Sekunden sind nur zwanzig pro Minute, eine Rakete ist also der Burst obendrauf zu deinen Lasern: die billigen für die schwachen Aliens, die teuren für die großen Kämpfe. Was du in der [Auktion](/wiki/03-Mechanics/Auction.md#limits) eingestellt hast und die Lose, die du dort anführst, zählen zu diesem Limit, wenn du eine Rakete kaufst oder auf sie bietest. Das sind die Grundwerte: Die Pilot-Forschung Sealed Backdoor ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) hebt für dich das Limit jeder Rakete an, insgesamt um 25 %, 50 %, 100 %, 150 % oder 200 %, abgerundet, sodass aus 5.000 auf Stufe I 6.250 werden und auf Stufe V 15.000.
+Eine gewöhnliche Rakete (Stufe I) kostet im Shop 1.000 Credits, in jeder Art. Die seltenen (Stufe II) und epischen (Stufe III) Raketen werden nicht verkauft: Die Montage stellt sie her, je 100 auf einmal, aus 100 Raketen der Stufe darunter (ein Los seltener Raketen kostet zusätzlich 50.000 Credits und 200 Thulium, ein Los epischer 150.000 Credits und 800 Thulium, dazu ein paar Materialien; den Rest sagen der Shop und die Montage). Bei jedem Timer abgefeuert sind das für eine gewöhnliche Rakete 20.000 Credits pro Minute, gegenüber den 900 Credits pro Minute, die die drei Laser einer Ostirion bei x1 verbrennen. Ein voller Vorrat sind 5.000 gewöhnliche Raketen (5.000.000 Credits), 2.000 seltene oder 500 epische: Du kaufst so viele, wie du willst, bis zu dieser Zahl, und die *maximal tragbare Menge* einer Rakete ist die einzige Grenze dafür, wie viele du hältst. Beim Wipe behältst du ohne Zutun bis zu 1.000 von jeder der zwölf Raketen; alles darüber sowie jede N.U.K.E. und jede N.I.K.E. überlebt nur im Transport-Cache, wo eine Rakete 1 kg wiegt (eine N.U.K.E. oder N.I.K.E. 250 kg): siehe [den Wipe](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). Eine Rakete alle 3 Sekunden sind nur zwanzig pro Minute, eine Rakete ist also der Burst obendrauf zu deinen Lasern: die billigen für die schwachen Aliens, die teuren für die großen Kämpfe. Was du in der [Auktion](/wiki/03-Mechanics/Auction.md#limits) eingestellt hast und die Lose, die du dort anführst, zählen zu diesem Limit, wenn du eine Rakete kaufst oder auf sie bietest. Das sind die Grundwerte: Die Pilot-Forschung Sealed Backdoor ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) hebt für dich das Limit jeder Rakete an, insgesamt um 25 %, 50 %, 100 %, 150 % oder 200 %, abgerundet, sodass aus 5.000 auf Stufe I 6.250 werden und auf Stufe V 15.000.
 
-Der Shop listet die Raketen Art für Art auf, jede unter ihrem Namen, die gewöhnliche zuerst und die epische zuletzt; der Hangar, der Transport-Cache und die Raketenauswahl nutzen dieselbe Reihenfolge.
+Der Shop verkauft die vier gewöhnlichen Raketen, Art für Art, und danach Flares und Ricochet; der Hangar, der Transport-Cache und die Raketenauswahl listen die zwölf normalen Raketen genauso auf, jede Art unter ihrem Namen, die gewöhnliche zuerst und die epische zuletzt, und danach die Spezialraketen.
 
 ## Gegen die Aliens {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Die Raketen, die man braucht, um ein Alien abzuschießen, eine Raketenart nach d
 
 | Raketen bis zum Abschuss | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - Die **gewöhnlichen** Einzelziel-Raketen schießen einen Seeker bei jedem Wurf mit einem Treffer und einen Phantasm mit dreien ab (eine Lancet I braucht bei ihrem niedrigsten Wurf einen vierten); sie sind die Alltagsraketen der ersten Sektoren. Die **seltenen** sind für den Bulwark und den Goombah: Sieben Lancet-II-Raketen brauchen für einen Bulwark etwa 20 Sekunden Timer. Die **epischen** Einzelziel-Raketen schießen einen Goombah mit acht (Rivet III) bis elf (Lancet III) ab. Die Flächenschaden-Raketen sind ihren Preis wert, wenn mehrere Aliens dicht beieinander stehen: Eine Scatter III, die über einem Rudel aus fünf Phantasms platzt (alle innerhalb von 250 Einheiten um das Ziel, auf das du gezielt hast), richtet auf einen Schlag etwa 22.000 Schaden im Rudel an.
 - Ein Abschuss allein mit Raketen ist eine echte Ausgabe, kein Weg zum Reichtum: Eine Einzelziel-Rakete kostet zwischen 15 % (eine Rivet II bei einem Phantasm) und 95 % (eine Lancet I bei einem Crystalys) dessen, was der Abschuss zahlt (Credits, und Thulium zu je 200 Credits), und die schwachen Flächenschaden-Raketen kosten bei den starken Aliens mehr, als der Abschuss zahlt (eine Ember I bei einem Bulwark: 120 %). Den **Crystalys** allein mit einer Raketenart abzuschießen, braucht 56 bis 352 Raketen und knapp drei Minuten Timer; ein voller Vorrat von 500 epischen Raketen reicht für vier bis acht davon. Das stärkste Alien braucht einen Plan: deine Laser mit x2-Munition, eine Rakete mittlerer Stufe alle 3 Sekunden ab der ersten Sekunde und die großen Raketen unten als Burst.
@@ -126,14 +137,36 @@ Zwei Raketen gibt es nicht im Shop. Die **Montage** stellt sie her, und für sie
 - **Der Haken.** Eine N.I.K.E., die unterwegs auf ein Schiff trifft, einen Rivalen, der auf der Schusslinie wartet, oder irgendetwas anderes, das sie verletzen darf, trifft es mit 67.500 bis 75.000 und ist weg: Das Schwarze Loch bekommt nichts, und du auch nicht. Sonst streift nichts im Ring des Lochs umher, was sie versehentlich treffen könnte (Aliens und Konzernpiloten halten sich fern): nur Piloten, die für Dark Matter hineingeflogen sind oder am Rand auf dich warten. Sie fliegt durch deinen eigenen Konzern, durch Schiffe in einer Schutzzone und durch Schiffe, die du noch nicht verletzen darfst. Verlässt du die Karte nach dem Abfeuern, fliegt sie weiter, ohne jemanden zu verletzen, und erzeugt trotzdem dein Dark Matter.
 - Die Montage startet keine Herstellung, nach der du mehr als die *maximal tragbare Menge* einer Rakete halten würdest, eingereihte Aufträge mitgezählt. Sealed Backdoor hebt auch ihre Limits an (aus 10 werden 12 und aus 20 werden 25 auf Stufe I, 30 und 60 auf Stufe V).
 
+## Spezialraketen {#special-rockets}
+
+Die Spezialraketen tun Dinge, die eine Schadenszahl nicht ausdrückt. Sie teilen sich **einen Timer von 5 Sekunden** (kein Raketenwerfer ändert ihn), und jede wartet zusätzlich auf **ihren eigenen Timer**, von 3 Sekunden bis 2 Minuten; der Timer der normalen Raketen ist getrennt, sodass eine normale und eine Spezialrakete zusammen abgefeuert werden können. Die Montage stellt sie her, außer Flares und Ricochet, die der Shop verkauft (der Gegenstandsbaum oben nennt jedes Rezept). Auch die N.U.K.E. und die N.I.K.E. oben sind Spezialraketen, und die N.U.K.E. hat keinen eigenen Timer. Die Auto-Raketen-CPU und die Raketenwerfer feuern nur normale Raketen.
+
+| Name | Art | Wirkung | Eigener Timer | Maximal tragbar |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Gelenkt, Einzelziel | Eine gelenkte Rakete ohne Schaden: Das getroffene Schiff friert ein und fliegt vier Sekunden lang 60 % langsamer. | 30 s | 50 |
+| **EMP Rocket** | Gelenkt, Einzelziel | Eine gelenkte Rakete ohne Schaden: Das getroffene Schiff steht drei Sekunden lang unter der Wirkung einer EMP-Ladung. | 30 s | 50 |
+| **Shield Breaker** | Geradeaus, Einzelziel | Eine schnelle, ungelenkte Rakete gegen Schilde: 25.000 auf das Schild und 5.000 auf den Rumpf, aber solange noch Schild übrig ist, trifft sie nur das Schild. | 15 s | 50 |
+| **Toxic Rocket** | Gelenkt, Einzelziel | Eine gelenkte Rakete ohne eigenen Schaden: Das getroffene Schiff ist fünf Sekunden lang vergiftet und verliert pro Sekunde ein halbes Prozent seiner effektiven Trefferpunkte (Rumpf und Schild zusammen), abgezogen vom Rumpf. | 20 s | 50 |
+| **Marking Rocket** | Gelenkt, Einzelziel | Eine gelenkte Rakete ohne Schaden: Das getroffene Schiff ist fünf Sekunden lang markiert und erleidet 20 % mehr Schaden von allem. | 30 s | 50 |
+| **Cooldown Rocket** | Gelenkt, Einzelziel | Eine gelenkte Rakete ohne Schaden: Acht Sekunden lang kühlen die zeitgesteuerten Gegenstände des getroffenen Schiffs nur halb so schnell ab. | 60 s | 20 |
+| **Gravitational N.U.K.E.** | Geradeaus, Flächenschaden | Eine um einen kollabierten Kern neu gebaute N.U.K.E. Sie wird am Cursor platziert und öffnet fünfzehn Sekunden lang ein kleines Schwarzes Loch, das Schiffe und gelenkte Raketen anzieht. Pro Karte kann nur eines existieren. Nur die Montage stellt sie her, und sie lässt sich nie in der Auktion verkaufen. | 120 s | 5 |
+| **Support Rocket** | Geradeaus, Flächenschaden | Wird am Cursor platziert: Sie heilt jedes befreundete Schiff in ihrem Bereich um 40 % seines Rumpfes und Schilds. | 120 s | 20 |
+| **Flares** | Geradeaus, Einzelziel | Vom eigenen Schiff gestartet: Sie zerstört jede gelenkte Rakete, die auf dich aufgeschaltet ist. | 60 s | 20 |
+| **Ricochet** | Geradeaus, Einzelziel | Eine schnelle, ungelenkte Rakete, die wie eine Rivet II trifft und nach dem ersten Treffer mit 75 % des Schadens auf ein zweites Schiff springt. | 3 s | 500 |
+
+- Ein zweiter Treffer derselben Art erneuert ein Einfrieren, Stören, Vergiften, Markieren oder verlangsamte Abkühlen und addiert sich nie zum ersten. Der Schaden der Toxic Rocket gehört dem Schützen, ein Abschuss durch Gift zählt also für ihn.
+- Die Gravitational N.U.K.E. und die Support Rocket werden **an deinem Cursor platziert**: Sie fliegen zum Punkt darunter oder so weit sie reichen, und kein Zünder eines Schiffs löst sie aus. Auf einer Karte kann nur ein Gravitationsfeld stehen: Ein zweiter Start wird abgelehnt, und nichts wird verbraucht.
+
 ## Abfeuern {#firing}
 
-1. Kaufe Raketen im Shop (die Kategorie **Raketen**), bis zur *maximal tragbaren Menge* jeder: Credits für die gewöhnlichen und seltenen, Thulium für die epischen.
-2. Öffne **Raketen** über der Aktionsleiste und ziehe die gewünschten auf Slots. Die Auswahl zeigt eine Spalte pro Art und eine Zeile pro Stufe, mit dem, was du von jeder trägst. Darunter liegt eine eigene Zeile, **Spezial · nur Montage**, für die N.U.K.E. und die N.I.K.E. (ein kleiner Hammer markiert die, von der du keine trägst).
+1. Kaufe die gewöhnlichen Raketen im Shop (die Kategorie **Raketen**), bis zur *maximal tragbaren Menge* jeder, für Credits; stelle die seltenen und epischen in der Montage aus 100 der Stufe darunter her.
+2. Öffne **Raketen** über der Aktionsleiste und ziehe die gewünschten auf Slots. Die Auswahl zeigt eine Spalte pro Art und eine Zeile pro Stufe, mit dem, was du von jeder trägst. Darunter liegen die **Spezialraketen**, vier pro Zeile (ein kleiner Hammer markiert eine nur herstellbare, von der du keine trägst).
 3. Drücke die Taste des Slots. Ein Klick auf den Slot einer **gelenkten** Rakete feuert sie auf dein gewähltes Ziel ab; ein Klick auf den Slot einer **Geradeaus**-Rakete macht sie scharf, und dein nächster Klick in den Weltraum feuert sie dorthin ab. Die Taste **Rakete feuern** (standardmäßig `R`, in Einstellungen › Steuerung neu belegbar) feuert die Rakete, die du zuletzt abgefeuert hast, oder die erste auf der Leiste.
-4. Ein Ladekreis läuft über **jeden** Raketen-Slot, für die 3 Sekunden bis zum nächsten Start (4,1 nach einer N.U.K.E., 4,6 nach einer N.I.K.E.), mit den verbleibenden Sekunden in der Mitte. Ein Druck davor sagt dir nur, dass die Raketen nachladen (ein Druck in der letzten Zehntelsekunde feuert trotzdem). Eine Drohnenformation kann die Wartezeit auf 2,19 bis 4,05 Sekunden bringen (siehe unten).
+4. Ein Ladekreis läuft über jeden Raketen-Slot, für den Timer, auf den diese Rakete wartet: 3 Sekunden bei einer normalen Rakete (5 mit einem Raketenwerfer), bei einer Spezialrakete der längere von 5 Sekunden und ihrem eigenen, mit den verbleibenden Sekunden in der Mitte. Ein Druck davor sagt dir nur, dass die Raketen nachladen (ein Druck in der letzten Zehntelsekunde feuert trotzdem). Eine Drohnenformation kann den normalen Timer auf 2,19 bis 4,05 Sekunden bringen (siehe unten).
 
 Fahre mit der Maus über einen Raketen-Slot, um seine Zahlen zu sehen (ihr niedrigster und höchster Schaden; der Shop und der Hangar nennen dasselbe) und in der Welt ihren Aufschaltring (grün, wenn das gewählte Ziel in Reichweite ist) oder ihre Linie und ihren Explosionskreis. Eine Rakete, die auf **dich** aufgeschaltet ist, lässt den Rand deines Bildschirms rot aufblitzen.
+
+**Raketenwerfer.** Ein Raketenwerfer II bis V liegt wie die Auto-Raketen-CPU in deinem Hangar, braucht keinen Slot und funktioniert auf jedem Schiff (der beste, den du besitzt, zählt). Ein Druck auf eine normale Rakete feuert dann 2, 3, 4 oder 5 Raketen des Vorrats ab, im Abstand von 0,15 Sekunden, und danach warten die normalen Raketen 5 Sekunden. Die Montage stellt sie nach ihrer Forschung her (8 bis 24 Stunden, mit 150.000 bis 2.000.000 Thulium und Materialien; der Gegenstandsbaum der [Extras](/wiki/06-Items/Extras.md) listet sie auf).
 
 Die **N.U.K.E.** zeichnet ihre Explosion auf der Karte, bevor du feuerst (den Kreis von 1.350 Einheiten am Zielpunkt), und wenn sie losgeht, einen weißen Blitz über der Ansicht, einen Ring, der in etwa einer Sekunde bis zur genauen Reichweite hinausläuft und zwei weitere stehen bleibt, eine Wolke, die wie ein Pilz aufsteigt, und ein Beben der Kamera, das umso stärker ist, je näher du bist. **Bildschirmwackeln reduzieren** entfernt das Beben, und **Bewegung reduzieren** verkürzt den Blitz auf eine Drittelsekunde mit weniger als der Hälfte seines Lichts (beides in den Einstellungen unter Grafik); eine niedrigere Partikelqualität dünnt die Wolke aus und lässt die Funken weg, nie den Blitz oder den Ring. Die **N.I.K.E.** wird wie eine Rivet I gezielt, über die Linie von deinem Schiff zum Cursor, und das Spiel verweigert sie nie, weil du weit vom Schwarzen Loch entfernt bist oder auf einer Karte ohne ein solches: Wohin sie fliegt, beurteilst du selbst. Ihre Karte zeigt neben ihrem Schaden **Schwarzes Loch: Erzeugt Dark Matter**. Sie hinterlässt eine violette Spur, um die sich Funken winden; ein Schiff, auf das sie trifft, nimmt den Treffer wie von jeder Rakete, und überquert sie stattdessen den Horizont, flammt das Loch auf.
 
@@ -142,7 +175,7 @@ Die **N.U.K.E.** zeichnet ihre Explosion auf der Karte, bevor du feuerst (den Kr
 Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einzige, was eine Rakete verändert. Alle Schadenszahlen auf dieser Seite gelten für ein Schiff ohne Formation.
 
 - **Schaden.** Der Raketenbonus von Ballista (+55 %), Bodkin (+29 %) und Asterism (+24 %) multipliziert den Schaden aller 14 Raketen, auch von N.U.K.E. und N.I.K.E. Testudos Preis auf allen Schaden zählt bei Raketen, und Cullers Schaden gegen Aliens zählt bei einer Rakete, die ein Alien trifft. Alle Faktoren einer Rakete zusammen enden bei ×1,59. Der Bonus zählt bei einem [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) genauso wie bei einem Schiff, und die Panzerung des Asteroiden wird danach abgezogen.
-- **Nachladen.** Asterism macht den gemeinsamen Timer um 35 % länger (4,05 Sekunden), Cordon um 11 % länger (3,33) und Redoubt um 27 % kürzer (2,19), aber nie kürzer als der Flug der Rakete plus ein Moment. Unter Redoubt warten die schnellen Raketen (Lancet I, Rivet I und II, Ember I, Scatter I und II) die 2,19 Sekunden, eine Rivet III 2,3, eine Lancet III 2,9 und eine Ember III die vollen 3; die N.U.K.E. und die N.I.K.E. warten 4,1 und 4,6 Sekunden, was du auch trägst. Die Wartezeit steht beim Abfeuern fest, ein späterer Formationswechsel verkürzt sie also nicht, und der Ladekreis über den Raketen-Slots folgt ihr.
+- **Nachladen.** Asterism macht den Timer der normalen Raketen um 35 % länger (4,05 Sekunden), Cordon um 11 % länger (3,33) und Redoubt um 27 % kürzer (2,19), aber nie kürzer als der Flug der Rakete plus ein Moment. Unter Redoubt warten die schnellen Raketen (Lancet I, Rivet I und II, Ember I, Scatter I und II) die 2,19 Sekunden, eine Rivet III 2,3, eine Lancet III 2,9 und eine Ember III die vollen 3. Die Wartezeit steht beim Abfeuern fest, ein späterer Formationswechsel verkürzt sie also nicht, und der Ladekreis über den Raketen-Slots folgt ihr. Die Timer der Spezialraketen ändert keine Formation.
 - **Die Grenzen der beiden Großen halten.** Mit der besten Formation trifft eine N.I.K.E. mit bis zu 116.250, was ein frischer Paragon (128.000) überlebt, und eine N.U.K.E. mit bis zu 77.500, was ein Goombah (80.000) überlebt.
 - **Ausweichen.** Asterisms 7 % Ausweichen geben einer direkten Rakete, die dich trifft, eine Chance von 7 %, gar keinen Schaden anzurichten, und über deinem Schiff erscheint ein schwebendes „Verfehlt“; eine Flächenexplosion zielt nicht und wird nie abgewehrt.
 - **Durchdringung.** Gemini addiert seine 15 Punkte und Stiletto seine 35 Punkte Raketendurchdringung zur Schilddurchdringung einer direkten Rakete (eine Explosion hat keine), ohne Obergrenze: Eine Lancet III mit einer Stiletto kommt auf 70 %, mit Gemini auf 50 %. Ein Lasertreffer addiert die von Gemini ebenso zu der Durchdringung seiner Munition und seiner Amps und bekommt nichts von der der Stiletto ([Laser & Munition](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Eine getragene [Drohnenformation](/wiki/03-Mechanics/Formations.md) ist das Einz
 - Nur der **Direkttreffer** einer Rakete beansprucht ein Alien (siehe [Kampf](/wiki/03-Mechanics/Combat.md)); der Rand einer Explosion kann ein beanspruchtes Alien verletzen, ohne es zu stehlen. Jedes Alien, das eine Explosion verletzt, auch ein schlafendes, wendet sich gegen dich, wie bei einem Lasertreffer (ein Seeker oder ein Goombah, die nur zurückschlagen, eingeschlossen); eines, das die Explosion verfehlt, bleibt schlafen.
 - Der Timer gehört dir: Er übersteht einen Sprung, ein erneutes Verbinden, einen Schiffswechsel und ein zerstörtes Schiff.
 
-Die zwölf Raketen der ersten Tabelle werden gekauft (Credits für die gewöhnlichen und seltenen, Thulium für die epischen); die N.U.K.E. und die N.I.K.E. werden hergestellt.
+Gekauft werden nur die gewöhnlichen Raketen der ersten Tabelle, Flares und Ricochet (für Credits); jede andere Rakete stellt die Montage her.
 
 Siehe auch: [Laser & Munition](/wiki/06-Items/Lasers.md), [Kampf](/wiki/03-Mechanics/Combat.md), [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md).
 

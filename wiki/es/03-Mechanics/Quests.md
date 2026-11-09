@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a5bc832fdcc0674d -->
+<!-- wiki-i18n source: 7b1e351ed04701ee -->
 <!-- wiki-i18n title: Misiones -->
 # Misiones {#quests}
 
@@ -131,7 +131,7 @@ Una **condición** es una regla extra sobre un paso o sobre una misión entera. 
 
 Morir rompe un límite de casco que esté corriendo igual que una regla de sin morir.
 
-Los límites están en puntos, para la nave que pilotas en ese nivel. El límite de un objeto transportado es de 3.000 puntos de casco en los niveles 1 a 3, de 17.000 en los niveles 4 a 6 y de 46.000 en los niveles 7 y 8; las permanencias y los recorridos más largos tienen números mayores. Son iguales en todos los mundos, así que en Beta y Gamma, donde los alienígenas golpean más fuerte, te dejan menos margen. Mira la tarjeta de la misión antes de aceptarla. Un límite también puede darse como porcentaje del casco de tu nave, y si se dan ambos cuenta el más estricto; todas las misiones de esta actualización usan puntos.
+Los límites están en puntos, para la nave que pilotas en ese nivel. El límite de un objeto transportado es de 3.000 puntos de casco en los niveles 1 a 3, de 17.000 en los niveles 4 a 6 y de 46.000 en los niveles 7 y 8; las permanencias y los recorridos más largos tienen números mayores. Son los números de **Alpha**, como los límites de tiempo de las tablas. Los alienígenas de Beta golpean 1,5 veces más fuerte y los de Gamma el doble, así que en Beta y Gamma los límites son 1,5 y 2 veces mayores, igual que los [límites de tiempo](#time-limits): 3.000 puntos son 4.500 en Beta y 6.000 en Gamma, y aguantas tantos golpes como en Alpha. La tarjeta de la misión y Misiones activas muestran el número de tu mundo (el texto de la misión cita el de Alpha); míralo antes de aceptarla. Un límite también puede darse como porcentaje del casco de tu nave, y si se dan ambos cuenta el más estricto; todas las misiones de esta actualización usan puntos.
 
 ## Ejemplos de misiones {#mission-examples}
 
@@ -234,6 +234,7 @@ Las misiones van subiendo de sector con tu nivel:
 - Algunas misiones tienen **tiempo límite**. Mission Control muestra el límite en la tarjeta de la misión antes de que la aceptes (un reloj y «15 min»), y en cuanto la aceptas corre una **cuenta regresiva** en la tarjeta y en Misiones activas. Se vuelve ámbar en el último minuto y roja cuando se acaba el tiempo.
 - Una misión con tiempo límite que se queda sin tiempo **fracasa**: sale de tus misiones activas y puedes volver a aceptarla al instante, desde el principio.
 - Los límites de las tablas de abajo son los de **Alpha**. Los alienígenas de Beta son 1,5 veces más fuertes y los de Gamma el doble, así que allí los límites son 1,5 y 2 veces más largos. El reloj se fija al aceptar la misión, según el mundo en el que estés.
+- Los **límites de casco** de las misiones siguen al mundo de la misma manera: 1,5 veces los de Alpha en Beta y el doble en Gamma (mira [Condiciones](#conditions)).
 - Los pasos no tienen un límite de tiempo propio: el límite de la misión cubre todos. Una condición incumplida reinicia un paso o la misión, pero nunca reinicia el reloj.
 
 ## Recompensas {#rewards}
@@ -285,7 +286,7 @@ Los sectores altos son donde las misiones pagan, y donde puedes morir. Prepara t
 
 ## Las misiones {#the-missions}
 
-Los límites de tiempo son los de Alpha («–»: ninguno). «→» une los pasos de una misión **En orden**, que hay que hacer en ese orden; los pasos unidos por «;» se abren juntos y se pueden hacer en cualquier orden. Una condición escrita tras un paso pertenece a ese paso, «(toda la misión: ...)» a todos los pasos.
+Los límites de tiempo y los límites de casco son los de Alpha («–»: ninguno). «→» une los pasos de una misión **En orden**, que hay que hacer en ese orden; los pasos unidos por «;» se abren juntos y se pueden hacer en cualquier orden. Una condición escrita tras un paso pertenece a ese paso, «(toda la misión: ...)» a todos los pasos.
 
 Un objeto de misión se lee «puede soltarlo: 15 % por baja, seguro en la baja 10»: cada derribo de ese alienígena en ese sector tira la probabilidad, y el derribo 10 desde que se abrió el paso lo suelta seguro. «Desde el día 4 de la temporada» es una [cacería de enjambre](#swarm-missions).
 

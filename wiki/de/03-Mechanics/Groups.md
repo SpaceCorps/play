@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 3d497b46d280a0c4 -->
+<!-- wiki-i18n source: f575534af4751bc1 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -52,11 +52,13 @@ Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal**, **Gruppe** (solang
 | Kanal | Wer es hört | Befehl |
 | :--- | :--- | :--- |
 | **Lokal** | Piloten auf deiner Karte | `/l` oder `/local` |
-| **Global** | jeder Pilot online | `/g` oder `/global` |
-| **Gruppe** | deine Gruppe, wo auch immer sie ist | `/p`, `/party` oder `/group` |
-| **Privat** | ein einzelner Pilot, wo auch immer er ist | `/m`, `/msg` oder `/w`, dann Name und Nachricht ([unten](#private-messages)) |
+| **Global** | jeder Pilot auf jedem Server und in jeder Welt | `/g` oder `/global` |
+| **Gruppe** | deine Gruppe auf deinem Server, wo auch immer sie ist | `/p`, `/party` oder `/group` |
+| **Privat** | ein einzelner Pilot auf deinem Server, wo auch immer er ist | `/m`, `/msg` oder `/w`, dann Name und Nachricht ([unten](#private-messages)) |
 
 Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der Gruppenchat braucht eine Gruppe. Auf einem Spielserver aus der Zeit vor den Kanälen ist der Chat die eine Liste, die er war, und eine Gruppe lässt sich nicht bilden.
+
+**Global** ist ein Chat für das ganze Spiel: Deine Zeile hört jeder Pilot auf jedem Server und in jeder Welt, im Flug und an der Station. Eine Zeile von einem anderen Server kann einen Moment nach dem Senden eintreffen, und Piloten auf verschiedenen Servern sehen zwei fast gleichzeitige Zeilen unter Umständen in anderer Reihenfolge. Lass den Mauszeiger auf dem Namen eines Piloten ruhen: Die Karte, die sich öffnet, nennt auch den Server, auf dem er fliegt, wenn es nicht deiner ist. Die anderen Kanäle bleiben auf dem Server, auf dem du bist: **Lokal** sind die Piloten auf deiner Karte, Gruppenchat und private Nachrichten erreichen nur Piloten auf deinem Server, und der [Kill-Feed](#the-kill-feed) und die **System**-Zeilen (die Ansagen des Servers) gehören jedem Server selbst. Verliert ein Server die Verbindung zu den anderen, schrumpft sein Global auf seine eigenen Piloten, bis sie wieder steht; eine kurze Unterbrechung wird nachträglich ausgeglichen, was während einer längeren gesagt wurde, wird danach nicht mehr zugestellt.
 
 **System** ist golden und nur zum Lesen, mit einer eigenen Liste: Dort stehen die Meldungen, die der Server von sich aus macht (die Begrüßung, die Warnungen vor Neustart, Update und Wipe, die Schwarm-Ansagen), und was dein Schiff meldet (Reparaturen, Tarnung, EMPs, Raketen). Diese Zeilen stehen in keinem anderen Tab, ein vielbeschäftigtes Global kann sie also nicht verdrängen, und die anderen Tabs enthalten, was Piloten sagen. Die Zahl am Tab zählt nur die Ansagen; ein Countdown bis zu einem Neustart oder Update und die Wipe-Warnungen erscheinen außerdem kurz als Hinweis. Der [Kill-Feed](#the-kill-feed) bleibt in **Global**, mit eigenem Schalter, und die Zeilen darüber, dass Piloten deiner Gruppe beitreten oder sie verlassen, stehen in **Gruppe**.
 
@@ -66,7 +68,7 @@ Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der
 
 ### Private Nachrichten {#private-messages}
 
-Tippe `/m`, den Namen eines Piloten und deine Nachricht, um nur an diesen einen Piloten zu schreiben: `/m nova o7` (`/msg` und `/w` tun dasselbe). Der Pilot muss online sein, in irgendeiner Welt, an der Station oder im Flug. Der Name ist der Name des Piloten, wie der Chat ihn zeigt, in beliebiger Groß- und Kleinschreibung (`/m NOVA`, `/m @nova` und `/m nova:` finden alle nova): Es muss der ganze Name sein, nie nur sein Anfang, damit eine Nachricht nicht beim falschen Piloten landet. `/r` und deine Antwort (`/r o7`) antwortet dem Piloten, der dir zuletzt geschrieben hat, oder dem Piloten, dem du zuletzt geschrieben hast, wenn dir noch niemand geschrieben hat.
+Tippe `/m`, den Namen eines Piloten und deine Nachricht, um nur an diesen einen Piloten zu schreiben: `/m nova o7` (`/msg` und `/w` tun dasselbe). Der Pilot muss auf deinem Server online sein, in irgendeiner Welt, an der Station oder im Flug. Der Name ist der Name des Piloten, wie der Chat ihn zeigt, in beliebiger Groß- und Kleinschreibung (`/m NOVA`, `/m @nova` und `/m nova:` finden alle nova): Es muss der ganze Name sein, nie nur sein Anfang, damit eine Nachricht nicht beim falschen Piloten landet. `/r` und deine Antwort (`/r o7`) antwortet dem Piloten, der dir zuletzt geschrieben hat, oder dem Piloten, dem du zuletzt geschrieben hast, wenn dir noch niemand geschrieben hat.
 
 Eine private Nachricht erscheint in dem Tab, den du gerade ansiehst, zwischen dessen Zeilen, in Violett: **An nova:** für die, die du geschickt hast, **Von nova:** für die, die du erhalten hast, sodass du beide Seiten des Gesprächs im Chatfenster im Flug und in der Leiste an der Station hast. Jeder Tab zeigt sie, auch der Tab **System** und ein ausgeblendeter Tab **Global**. Eine erhaltene Nachricht zählt als ungelesen (an der Schaltfläche in der Symbolleiste und in der Leiste an der Station), bis du einen Tab öffnest, und spielt einen leisen Klang, höchstens alle 2 Sekunden; das Senden spielt einen eigenen leisen Klang. Klicke mit der rechten Maustaste auf eine erhaltene Nachricht, um zu **Antworten**, **In die Gruppe einzuladen**, zu **Ignorieren** oder zu **Melden…**.
 
@@ -102,7 +104,7 @@ Schalte ihn mit der Menüschaltfläche in der Titelleiste des Chatfensters (**Ki
 
 ### Ausblenden, Ignorieren und Melden {#hiding-ignoring-and-reporting}
 
-Global erreicht jeden Piloten online, daher hat der Chat drei Werkzeuge, um es angenehm zu halten. Sie sind im Chatfenster: die Menüschaltfläche in seiner Titelleiste und ein Rechtsklick auf den Namen eines Piloten.
+Global erreicht jeden Piloten auf jedem Server und in jeder Welt, daher hat der Chat drei Werkzeuge, um es angenehm zu halten. Sie sind im Chatfenster: die Menüschaltfläche in seiner Titelleiste und ein Rechtsklick auf den Namen eines Piloten.
 
 - **Global-Chat ausblenden** (das Menü oder Einstellungen › Oberfläche › Chat): Der Tab Global zeigt keine Zeile von Global, auch nicht die Zeilen des Kill-Feeds (deine privaten Nachrichten stehen weiterhin darin), und zählt keine ungelesenen Zeilen mehr. Der Tab bleibt, sagt „Global ist ausgeblendet“ und hat eine Schaltfläche, die ihn wieder anzeigt; was du an Global sendest, geht trotzdem hinaus. Schaltest du das Ausblenden wieder aus, ist jede Zeile, die in der Zwischenzeit kam, da.
 - **Ignorieren** (klicke mit der rechten Maustaste auf einen Namen, dann auf **Ignorieren**): Die Zeilen dieses Piloten in Global und Lokal und seine privaten Nachrichten werden ausgeblendet (eine private Nachricht von ihm macht kein Geräusch und zählt nicht als ungelesen), und seine Gruppeneinladungen werden abgelehnt, ohne dich zu fragen. Er erfährt es nicht. Seine Zeilen bleiben im Tab **Gruppe** sichtbar: Ein Pilot deiner Gruppe, den du ignorierst, gehört weiterhin zu deiner Gruppe, verlasse die Gruppe also, um ihn loszuwerden. Die eigenen Zeilen des Servers werden nie ausgeblendet. **Nicht mehr ignorieren** steht im selben Menü, und **Einstellungen › Oberfläche › Chat** listet die ignorierten Piloten (bis zu 200) mit einer Schaltfläche **Entfernen** für jeden auf.

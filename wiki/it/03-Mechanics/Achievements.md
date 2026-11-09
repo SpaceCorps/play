@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
+<!-- wiki-i18n source: eb868ee753081e77 -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
-Gli obiettivi sono le mete di un’intera carriera da pilota: distruggere il tuo primo alieno, raggiungere il livello 21, possedere un miliardo di crediti, sopravvivere a un reset. Il gioco li conta per te. Ce ne sono **40**, in **8** gruppi e **5** fasce. Ognuno paga **una volta per account, per sempre**: crediti per tutti e, per la maggior parte, un **titolo** da portare accanto al tuo nome. Un reset non ti toglie mai un obiettivo, la sua ricompensa o il suo titolo.
+Gli obiettivi sono le mete di un’intera carriera da pilota: distruggere il tuo primo alieno, raggiungere il livello 21, possedere un miliardo di crediti, sopravvivere a un reset. Il gioco li conta per te. Ce ne sono **42**, in **8** gruppi e **5** fasce. Ognuno paga **una volta per account, per sempre**: crediti per tutti e, per la maggior parte, un **titolo** da portare accanto al tuo nome. Un reset non ti toglie mai un obiettivo, la sua ricompensa o il suo titolo.
 
 **In un minuto**
 
 - Apri **Comunità › Obiettivi** nella stazione per vedere ogni meta, a che punto sei e quanto paga.
 - La fascia (Comune, Non comune, Raro, Epico o Leggendario) stabilisce i crediti: più la meta è difficile, più la fascia è alta.
 - Il pagamento arriva nel momento in cui raggiungi una meta, in volo o nella stazione. Una scheda mostra l’obiettivo e la sua ricompensa, e il Registro di gioco ne conserva una riga.
-- **3** dei 40 sono nascosti: la pagina li mostra come schede chiuse finché non li sblocchi. Contano tra i 40 e qui non sono nominati.
+- **5** dei 42 sono nascosti: la pagina li mostra come schede chiuse finché non li sblocchi. Contano tra i 42 e qui non sono nominati.
 - Nella versione Steam i tuoi obiettivi compaiono anche sul tuo profilo Steam, una volta collegato il tuo account (vedi sotto).
 
 ## Fasce e ricompense {#tiers-and-rewards}
@@ -19,12 +19,12 @@ Le cinque fasce pagano lo stesso per ogni obiettivo che contengono, una sola vol
 | Fascia | Obiettivi | Crediti ciascuno |
 | :--- | ---: | ---: |
 | Comune | 10 | 50.000 |
-| Non comune | 7 | 150.000 |
-| Raro | 11 | 500.000 |
+| Non comune | 8 | 150.000 |
+| Raro | 12 | 500.000 |
 | Epico | 7 | 2.000.000 |
 | Leggendario | 5 | 5.000.000 |
 
-Tutti e 40 insieme pagano **46.050.000** crediti, una volta nella vita di un pilota.
+Tutti e 42 insieme pagano **46.700.000** crediti, una volta nella vita di un pilota.
 
 ## Gli obiettivi {#the-achievements}
 
@@ -69,7 +69,7 @@ I 37 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 159 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 179 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 
@@ -115,7 +115,7 @@ Un obiettivo nascosto ancora bloccato è una scheda chiusa, senza meta e senza b
 
 ## Titoli {#titles}
 
-Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 40 obiettivi ne danno uno, tuo per sempre quando sblocchi l’obiettivo. I titoli arrivano anche dalla fine di una stagione (il tuo grado, il miglior pilota di ogni corporazione e il pilota con più punti PvE) e dal team del gioco, come il titolo **Pioneer** per ogni account che esisteva il giorno del lancio del gioco su Steam.
+Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 42 obiettivi ne danno uno, tuo per sempre quando sblocchi l’obiettivo. I titoli arrivano anche dalla fine di una stagione (il tuo grado, il miglior pilota di ogni corporazione e il pilota con più punti PvE) e dal team del gioco, come il titolo **Pioneer** per ogni account che esisteva il giorno del lancio del gioco su Steam.
 
 - Hai molti titoli e ne **porti uno** alla volta. Lo scegli sul tuo **profilo da pilota** e puoi toglierlo di nuovo.
 - Il tuo titolo compare sul tuo **profilo**, nelle **Classifiche**, nella finestra del **Gruppo** e quando passi il puntatore sul tuo nome nella **chat**. Dalla 0.4.27 compare anche sulla mappa: una piccola riga attenuata, nel colore di rarità del titolo, **sopra il nome della nave di ogni pilota**, la tua compresa. Un titolo lungo viene tagliato con i puntini di sospensione. Nella folla (più di otto piloti sullo schermo) solo i tuoi amici, il tuo bersaglio e la nave che hai selezionato mantengono il proprio, così lo schermo resta leggibile. Non compare nella finestra bersaglio né sulla minimappa.

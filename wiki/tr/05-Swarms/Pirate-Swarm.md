@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e6bba0f75d99f5cd -->
+<!-- wiki-i18n source: 9070ca3143eddf92 -->
 <!-- wiki-i18n title: Pirate sürüsü -->
 # Pirate sürüsü {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Pirate sürüsü, bir **Pirate Boss** ve onun **Pirate Scout** gemileridir: kims
 - **Patrona ateş et, Scout gemilerine değil.** Scout gemileri patronu onarır, ama onarım patronun gövdesinin yanında küçüktür ve *Bir bakışta* listesinin söylediği sıklıkta yeni bir Scout gelir: Scout gemilerini önce öldüren bir grup onların önüne asla geçemez; yalnızca çok büyük bir grup onları temizleyebilir ve yine de patronu bitirmesi, onları rahat bırakan bir gruptan daha uzun sürer. Scout gemileri sana zaman kaybettirir, savaşı belirlemez.
 - **Scout gemilerini uzağa çek.** Bir Scout yalnızca patronun erişimi içindeyken onarır; bu yüzden seni erişim dışına kadar izleyen bir Scout hiçbir şeyi onarmaz ve bir Ostirion bir Scout gemisinden hızlıdır.
 - **Hareket etmeye devam et.** Patronun roketi düzdür ve güdümsüzdür: hareket etmeye devam eden gemi ondan kaçar, olduğu yerde duran vurulur.
-- **Bir grup getir.** x2 cephaneli Ostirion gemilerindeki üç pilot, darbeler paylaşıldığında bile `x-3` sektöründe bu savaşı kaybeder, ama `x-2` sektöründe tek gemi kaybetmeden kazanır; dört pilot Alpha dünyasında onu yaklaşık dört dakikada indirir. x4 cephaneyle `x-3` sektöründe de üç pilot yeter (yaklaşık iki buçuk dakika). Beş pilot, darbeler paylaşıldığında yaklaşık üç dakikada, tüm ateşi tek pilot aldığında yaklaşık dört dakikada indirir; o durumda iki gemi kaybederler: tüm ateşi tek pilotun almasına izin veren bir grubun beş kişi olması gerekir. Beta dünyasında beş, Gamma dünyasında yedi pilot gerekir; darbeler paylaşılmış olmalıdır (patron orada daha büyüktür ve Scout gemileri daha çok onarır). Alpha dünyasında `x-3` sektöründe x2 cephaneyle tek bir Ostirion tek başına başaramaz, tek bir Paragon ise ancak zar zor başarır (gövdesinin yalnızca yüzde birkaçı kalır): iki Paragon güvenle başarır. Beta ve Gamma dünyalarında `x-3` sektöründe tek bir Paragon tek başına yok edilir, hem x2 hem x4 cephaneyle. Patron ona ilk vuran pilota karşılık verir, bu yüzden işe en sağlam gemi başlasın ve bu kadar uzun bir savaşta yeteneklerini (Emergency Repair, Shield Surge: [Yetenekler](/wiki/03-Mechanics/Abilities.md)) kullan. Hâlâ 2. ya da 3. seviyede olan pilotlar, uçtukları yerde bile, bunun için fazla zayıftır: daha güçlenene kadar uzak dur.
+- **Bir grup getir.** x2 cephaneli Ostirion gemilerindeki üç pilot, darbeler paylaşıldığında bile `x-3` sektöründe bu savaşı kaybeder, ama `x-2` sektöründe tek gemi kaybetmeden kazanır; dört pilot Alpha dünyasında onu yaklaşık dört dakikada indirir. x4 cephaneyle `x-3` sektöründe de üç pilot yeter (yaklaşık iki buçuk dakika). Beş pilot, darbeler paylaşıldığında yaklaşık üç dakikada, tüm ateşi tek pilot aldığında yaklaşık dört dakikada indirir; o durumda iki gemi kaybederler: tüm ateşi tek pilotun almasına izin veren bir grubun beş kişi olması gerekir. Beta dünyasında beş, Gamma dünyasında yedi pilot gerekir; darbeler paylaşılmış olmalıdır (patron orada daha büyüktür ve Scout gemileri daha çok onarır). Alpha dünyasında `x-3` sektöründe x2 cephaneyle tek bir Ostirion tek başına başaramaz, tek bir Paragon da başaramaz: iki Paragon güvenle başarır. Beta ve Gamma dünyalarında `x-3` sektöründe tek bir Paragon tek başına yok edilir, hem x2 hem x4 cephaneyle. Patron ona ilk vuran pilota karşılık verir, bu yüzden işe en sağlam gemi başlasın ve bu kadar uzun bir savaşta yeteneklerini (Emergency Repair, Shield Surge: [Yetenekler](/wiki/03-Mechanics/Abilities.md)) kullan. Hâlâ 2. ya da 3. seviyede olan pilotlar, uçtukları yerde bile, bunun için fazla zayıftır: daha güçlenene kadar uzak dur.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, aynı sektörde.
 
 ## Ödüller ve ganimet {#rewards-and-drops}
@@ -70,7 +70,7 @@ Ironclad temel alınarak, gövdesinin, kalkanının ve hasarının %50 kadarıyl
 | Eşya | Şans | Miktar |
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | %50 | 1 |
-| Kredi ile satın alınan 8 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 5–10 |
+| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 5–10 |
 | Advanced Plasma, Siphon Battery ve Siphon Battery II arasından rastgele biri | %100 | 1.000–2.000 |
 
 ### Pirate Scout

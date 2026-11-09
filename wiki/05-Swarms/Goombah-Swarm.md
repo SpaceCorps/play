@@ -73,7 +73,7 @@ Built from the Goombah at 400% of its hull and 100% of its laser damage; its spe
 | Quorvium | 100% on each of 8 rolls | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| One of the 8 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 6–10 |
+| One of the 4 [rockets](/wiki/06-Items/Rockets.md) bought with Credits, picked at random | 100% | 6–10 |
 
 ### Goombah Guard
 

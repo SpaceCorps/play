@@ -1,15 +1,16 @@
-<!-- wiki-i18n source: 8dee345606270d23 -->
+<!-- wiki-i18n source: bb72653926e5803a -->
 <!-- wiki-i18n title: Roketler -->
 # Roketler {#rockets}
 
-Roketler, lazerlerinin yanında ikinci bir silahtır: birkaç saniyede bir yapılan ve bir lazer salvosundan çok daha sert vuran tek bir atış. Dört türde, her türde üç kademe olmak üzere on iki roket vardır; bunlara yalnızca Montaj’ın ürettiği iki roket daha eklenir. Hangisini fırlatırsan fırlat hepsi **3 saniyelik tek bir ortak dolum sayacını** paylaşır (yalnızca Montaj’ın ürettiği iki roket, uzun uçuşları yüzünden biraz daha uzun bekler). Sıradan ve Nadir roketler **kredi** ile, dört Destansı roket **Thulium** ile satın alınır. Bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) bir roketin hasarını artırabilir ve bu sayacı uzatabilir ya da kısaltabilir: bkz. [Dron formasyonları ve roketler](#drone-formations-and-rockets).
+Roketler, lazerlerinin yanında ikinci bir silahtır: birkaç saniyede bir yapılan ve bir lazer salvosundan çok daha sert vuran tek bir atış. Dört türde, her türde üç kademe olmak üzere on iki **normal roket**, geminin roket fırlatıcısının belirlediği **3 saniyelik tek bir dolum sayacını** paylaşır. Hasardan fazlasını yapan on iki **özel roket**, **kendilerine ait 5 saniyelik bir sayacı** paylaşır ve her biri ayrıca kendi sayacını da bekler. Yalnızca dört Sıradan roket, Flares ve Ricochet satın alınır, **kredi** ile; diğer tüm roketleri Montaj üretir. Bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) bir roketin hasarını artırabilir ve normal sayacı uzatıp kısaltabilir: bkz. [Dron formasyonları ve roketler](#drone-formations-and-rockets).
 
 ## Bir dakikada {#in-one-minute}
 
-- **Satın alınacak on iki roket.** Dört tür (Lancet, Rivet, Ember, Scatter), her birinde üç kademe. Sıradan ve Nadir olanlar kredi, Destansı olanlar Thulium tutar. İki roket daha, N.U.K.E. ve N.I.K.E., Montaj’da üretilir.
+- **On iki normal roket.** Dört tür (Lancet, Rivet, Ember, Scatter), her türde üç kademe. Yalnızca I. kademe satılır, 1.000 kredi; II. ve III. kademeyi Montaj, bir alt kademenin 100 roketinden üretir.
 - **Her roket hasarını rastgele belirler.** Fırlattığında oyun, roketin en düşük ve en yüksek hasarı arasından bir sayı seçer (bir Lancet I için 1.700 ile 2.100 arası). Gemin, lazerlerin, amfilerin ve boosterların hiçbir şeyi değiştirmez, yalnızca bir dron formasyonu değiştirir. Uzaylıların attığı roketler rastgele hasar vermez: sabit bir sayı verirler ([Uzaylılara karşı](#against-the-aliens)).
 - **Patlamalar ortada en güçlüdür.** Ember ve Scatter roketleri patlar ve halkanın içindeki her gemiye zarar verir: merkezde sayının tamamı, kenarda yarısı.
-- **Hepsi için tek sayaç.** Hangi roket olursa olsun, her fırlatmadan sonra bir sonrakine kadar 3 saniye beklersin. Yalnızca N.U.K.E. ve N.I.K.E. daha uzun bekletir (4,1 ve 4,6 saniye), çünkü havada o kadar kalırlar.
+- **İki tür sayaç.** Normal roketler birini paylaşır: her fırlatmadan sonra 3 saniye, ya da bir **Roket Fırlatıcı II–V** ile 0,15 saniye arayla 2–5 roketlik bir seri ve ardından 5 saniye ([Ateşleme](#firing)). Özel roketler, hiçbir fırlatıcının değiştirmediği başka bir 5 saniyelik sayacı paylaşır ve her biri ayrıca 3 saniyeden 2 dakikaya kadar kendi sayacını da bekler ([Özel roketler](#special-rockets)).
+- **On iki özel roket.** Bir gemiyi dondurur, bozar, zehirler ya da işaretler; kalkanları veya kilitleri kırar; dostlarını iyileştirir; ikinci bir gemiye sıçrar ya da imlecinde küçük bir kara delik açar. N.U.K.E. ve N.I.K.E. bunlardan ikisidir.
 - **Güdümlü ya da düz.** Güdümlü bir roket (Lancet, Ember) seçtiğin bir hedef ister. Düz olan (Rivet, Scatter) imlecinin gösterdiği yere uçar.
 - **Daha fazlası roket gibi taşınır.** **EMP Charge** bir sarf malzemesidir: envanterinde bir yığın olarak durur, kısayol çubuğundan kullanılır ve hiçbir yuvaya takılmaz ([EMP Charge](#emp-charge)). İki **Energetic Wall** da öyledir ([Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall)).
 
@@ -21,28 +22,38 @@ Roketler, lazerlerinin yanında ikinci bir silahtır: birkaç saniyede bir yapı
 Her Montaj ürünü önce kendi teknolojisini ister; araştırmanın ne kadar sürdüğünü görmek için bir eşyanın üzerine gel. Teknoloji ağacı, yakıt ve hızlandırma: [Araştırma](/wiki/03-Mechanics/Research.md).
 
 ```tree
-Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter II | rocket, rare | buy 800 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Lancet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter III | rocket, epic | buy 5 Thulium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Scatter I, 5 Ship Fragment, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ricochet | rocket, rare | buy 4000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Flares | rocket, rare | buy 25000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Lancet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Rivet II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Ember II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter III | rocket, epic | craft 150000 Credits, 800 Thulium, 300 s, x100 | research 10800 s, 10800 science | 100 Scatter II, 15 Ship Fragment, 2 Reinforced Hull Plate, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Freeze Rocket | rocket, epic | craft 50000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 1 Power Core, 30 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+EMP Rocket | rocket, epic | craft 60000 Credits, 1200 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 2 Power Core, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Shield Breaker | rocket, epic | craft 80000 Credits, 1500 Thulium, 300 s, x5 | research 21600 s, 21600 science | 15 Ship Fragment, 3 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Toxic Rocket | rocket, epic | craft 60000 Credits, 1000 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Nyxite, 10 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Marking Rocket | rocket, epic | craft 50000 Credits, 800 Thulium, 300 s, x5 | research 14400 s, 14400 science | 10 Ship Fragment, 30 Daraxium, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | research 10800 s, 10800 science | 20 Ship Fragment, 4 Reinforced Hull Plate, 40 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
+Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 
-Lancet I -> Lancet II -> Lancet III
-Rivet I -> Rivet II -> Rivet III
-Ember I -> Ember II -> Ember III
-Scatter I -> Scatter II -> Scatter III => N.U.K.E.
+Lancet I => Lancet II => Lancet III
+Rivet I => Rivet II => Rivet III
+Ember I => Ember II => Ember III
+Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
 Energetic Wall I -> Energetic Wall II
 ```
 <!-- item-tree:end -->
@@ -67,26 +78,26 @@ Her roketin **kendine ait, fırlattığında belirlenen bir hasarı** vardır: e
 
 | Ad | Tür | Nadirlik | Hasar | Ortalama | Kalkan delme | Patlama yarıçapı | Kilitlenme menzili | Menzil | Hız | Fiyat | Taşıma sınırı |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | Güdümlü, tek hedef | Sıradan | 1.700–2.100 | 1.900 | %10 | – | 700 | 1.040 | 520 | 500 kredi | 5.000 |
-| **Lancet II** | Güdümlü, tek hedef | Nadir | 3.500–4.200 | 3.850 | %25 | – | 1.000 | 1.584 | 660 | 800 kredi | 2.000 |
-| **Lancet III** | Güdümlü, tek hedef | Destansı | 5.200–6.200 | 5.700 | %35 | – | 1.300 | 2.296 | 820 | 5 Thulium | 500 |
-| **Rivet I** | Düz, tek hedef | Sıradan | 2.200–2.700 | 2.450 | %5 | – | – | 1.080 | 900 | 500 kredi | 5.000 |
-| **Rivet II** | Düz, tek hedef | Nadir | 4.500–5.250 | 4.875 | %25 | – | – | 1.120 | 700 | 800 kredi | 2.000 |
-| **Rivet III** | Düz, tek hedef | Destansı | 7.000–8.000 | 7.500 | %35 | – | – | 1.100 | 500 | 5 Thulium | 500 |
-| **Ember I** | Güdümlü, alan hasarı | Sıradan | 1.200–1.400 | 1.300 | – | 255 | 700 | 1.000 | 500 | 500 kredi | 5.000 |
-| **Ember II** | Güdümlü, alan hasarı | Nadir | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 800 kredi | 2.000 |
-| **Ember III** | Güdümlü, alan hasarı | Destansı | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 5 Thulium | 500 |
-| **Scatter I** | Düz, alan hasarı | Sıradan | 1.500–1.750 | 1.625 | – | 315 | – | 1.088 | 640 | 500 kredi | 5.000 |
-| **Scatter II** | Düz, alan hasarı | Nadir | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 800 kredi | 2.000 |
-| **Scatter III** | Düz, alan hasarı | Destansı | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 5 Thulium | 500 |
+| **Lancet I** | Güdümlü, tek hedef | Sıradan | 3.500–4.200 | 3.850 | %25 | – | 1.000 | 1.584 | 660 | 1.000 kredi | 5.000 |
+| **Lancet II** | Güdümlü, tek hedef | Nadir | 5.200–6.200 | 5.700 | %35 | – | 1.300 | 2.296 | 820 | 100 Lancet I ile üretilir | 2.000 |
+| **Lancet III** | Güdümlü, tek hedef | Destansı | 7.300–8.700 | 8.000 | %35 | – | 1.300 | 2.296 | 820 | 100 Lancet II ile üretilir | 500 |
+| **Rivet I** | Düz, tek hedef | Sıradan | 4.500–5.250 | 4.875 | %25 | – | – | 1.120 | 700 | 1.000 kredi | 5.000 |
+| **Rivet II** | Düz, tek hedef | Nadir | 7.000–8.000 | 7.500 | %35 | – | – | 1.100 | 500 | 100 Rivet I ile üretilir | 2.000 |
+| **Rivet III** | Düz, tek hedef | Destansı | 9.800–11.200 | 10.500 | %35 | – | – | 1.100 | 500 | 100 Rivet II ile üretilir | 500 |
+| **Ember I** | Güdümlü, alan hasarı | Sıradan | 2.400–2.900 | 2.650 | – | 345 | 920 | 1.500 | 600 | 1.000 kredi | 5.000 |
+| **Ember II** | Güdümlü, alan hasarı | Nadir | 3.500–4.500 | 4.000 | – | 450 | 1.150 | 2.030 | 700 | 100 Ember I ile üretilir | 2.000 |
+| **Ember III** | Güdümlü, alan hasarı | Destansı | 4.900–6.300 | 5.600 | – | 495 | 1.150 | 2.030 | 700 | 100 Ember II ile üretilir | 500 |
+| **Scatter I** | Düz, alan hasarı | Sıradan | 3.000–3.500 | 3.250 | – | 435 | – | 1.080 | 540 | 1.000 kredi | 5.000 |
+| **Scatter II** | Düz, alan hasarı | Nadir | 4.500–5.500 | 5.000 | – | 600 | – | 1.092 | 420 | 100 Scatter I ile üretilir | 2.000 |
+| **Scatter III** | Düz, alan hasarı | Destansı | 6.300–7.700 | 7.000 | – | 660 | – | 1.092 | 420 | 100 Scatter II ile üretilir | 500 |
 
 Kademe ne kadar pahalıysa roket o kadar sert vurur, o kadar uzağa erişir, kalkan delmesi o kadar yüksektir ve o kadar az taşıyabilirsin; pahalı olanlar, tuttukları bedele göre en çok hasarı da verir. Düz bir roket, aynı fiyata, kendi kademesi ve türündeki güdümlü rokete göre dörtte bir ile üçte bir arası fazla hasar verir (ortalamada %23 ile %32), çünkü onu nişanlamak zorundasın. Bir patlama, kendi kademesi ve türündeki tek hedefli roketin yaklaşık üçte ikisi kadar hasar verir (ortalamada %66 ile %70: Ember ile Lancet ailesi, Scatter ile Rivet ailesi arasında), ama kapsadığı her gemiye. Patlamadaki hasar merkezde tamdır ve düz bir çizgide **kenarda yarısına** düşer: gövdesi yarı yolda olan bir gemi %75 alır, gövdesi halkanın dışında kalan bir gemi hiç hasar almaz. Ortalamada bir fırlatma, aralığının ortasını, yani en yüksek sayısının %89 ile %94’ünü verir ve aşağıda roketleri sayan tablo bunu kullanır.
 
 ## Ne kadara mal olurlar {#what-they-cost}
 
-Her türde Sıradan bir roket 500 kredi, Nadir bir roket 800 kredi, Destansı bir roket 5 Thulium tutar. Her sayaç dolduğunda ateşlenirse bu, Sıradan bir roket için dakikada 10.000 kredi, Nadir bir roket için 16.000, Destansı bir roket için 100 Thulium eder; Ostirion gemisinin üç lazerinin x1 cephanede dakikada yaktığı 900 kredinin karşısında. Dolu bir yığın: 5.000 Sıradan roket (2.500.000 kredi), 2.000 Nadir roket (1.600.000 kredi) veya 500 Destansı roket (2.500 Thulium). Bu sınıra kadar dilediğin kadar satın alabilirsin; bir roketin *taşıma sınırı*, kaç tane tutabileceğinin tek sınırıdır. Sıfırlamada on iki roketin her birinden en fazla 1.000 tanesini hiçbir şey yapmadan korursun; bunun üstündeki kısım ile her N.U.K.E. ve N.I.K.E. yalnızca Nakliye Deposu’nda hayatta kalır; orada bir roket 1 kg, bir N.U.K.E. ya da N.I.K.E. 250 kg gelir: bkz. [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). 3 saniyede bir roket, dakikada yalnızca yirmi eder; bu yüzden roket, lazerlerinin üstüne eklenen bir darbedir: ucuzlar zayıf uzaylılar için, pahalılar büyük çatışmalar için. Bir roket satın alırken ya da ona teklif verirken, [pazarda](/wiki/03-Mechanics/Auction.md#limits) listelediklerin ve orada önde olduğun lotlar bu sınıra dahildir. Bunlar temel sayılardır: Pilot araştırması Sealed Backdoor ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her roketin sınırını senin için toplamda %25, %50, %100, %150 ya da %200 artırır, aşağı yuvarlanarak; böylece 5.000, I. seviyede 6.250, V. seviyede 15.000 olur.
+Sıradan (I. kademe) bir roket, her türde mağazada 1.000 krediye mal olur. Nadir (II. kademe) ve Destansı (III. kademe) roketler satılmaz: Montaj bunları 100’er adet, bir alt kademenin 100 roketinden üretir (bir Nadir parti ayrıca 50.000 kredi ve 200 Thulium, bir Destansı parti 150.000 kredi ve 800 Thulium tutar, birkaç malzemeyle; gerisini mağaza ve Montaj söyler). Her sayaçta ateşlenen bir Sıradan roket dakikada 20.000 kredidir; bir Ostirion’un üç lazerinin x1 ile dakikada yaktığı 900 krediye karşılık. Dolu bir yığın 5.000 Sıradan roket (5.000.000 kredi), 2.000 Nadir ya da 500 Destansı roket eder. Bu sınıra kadar dilediğin kadar satın alabilirsin; bir roketin *taşıma sınırı*, kaç tane tutabileceğinin tek sınırıdır. Sıfırlamada on iki roketin her birinden en fazla 1.000 tanesini hiçbir şey yapmadan korursun; bunun üstündeki kısım ile her N.U.K.E. ve N.I.K.E. yalnızca Nakliye Deposu’nda hayatta kalır; orada bir roket 1 kg, bir N.U.K.E. ya da N.I.K.E. 250 kg gelir: bkz. [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets). 3 saniyede bir roket, dakikada yalnızca yirmi eder; bu yüzden roket, lazerlerinin üstüne eklenen bir darbedir: ucuzlar zayıf uzaylılar için, pahalılar büyük çatışmalar için. Bir roket satın alırken ya da ona teklif verirken, [pazarda](/wiki/03-Mechanics/Auction.md#limits) listelediklerin ve orada önde olduğun lotlar bu sınıra dahildir. Bunlar temel sayılardır: Pilot araştırması Sealed Backdoor ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) her roketin sınırını senin için toplamda %25, %50, %100, %150 ya da %200 artırır, aşağı yuvarlanarak; böylece 5.000, I. seviyede 6.250, V. seviyede 15.000 olur.
 
-Mağaza roketleri tür tür listeler, her tür kendi adının altında: önce Sıradan roket, en sonda Destansı olan; hangar, Nakliye Deposu ve Roketler seçicisi aynı sırayı kullanır.
+Mağaza dört Sıradan roketi tür tür satar, ardından Flares ve Ricochet’i; hangar, Nakliye Deposu ve roket seçici on iki normal roketi aynı şekilde sıralar, her türü kendi adı altında, Sıradan olan önce, Destansı olan en sonda, ardından özel roketleri.
 
 ## Uzaylılara karşı {#against-the-aliens}
 
@@ -94,18 +105,18 @@ Bir uzaylıyı öldürmek için gereken roket sayısı, tür tür ve her roketin
 
 | Öldürmek için gereken roket | Seeker (1.600) | Phantasm (5.200) | Bulwark (26.000) | Goombah (80.000) | Crystalys (416.000) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Lancet I** | 1 | 3 | 14 | 43 | 219 |
-| **Lancet II** | 1 | 2 | 7 | 19 | 109 |
-| **Lancet III** | 1 | 1 | 5 | 11 | 73 |
-| **Rivet I** | 1 | 3 | 11 | 33 | 170 |
-| **Rivet II** | 1 | 1 | 6 | 15 | 86 |
-| **Rivet III** | 1 | 1 | 4 | 8 | 56 |
-| **Ember I** | 2 | 5 | 22 | 68 | 352 |
-| **Ember II** | 1 | 3 | 11 | 33 | 170 |
-| **Ember III** | 1 | 2 | 7 | 22 | 112 |
-| **Scatter I** | 2 | 4 | 18 | 54 | 276 |
-| **Scatter II** | 1 | 2 | 9 | 27 | 136 |
-| **Scatter III** | 1 | 2 | 6 | 17 | 88 |
+| **Lancet I** | 1 | 2 | 7 | 19 | 109 |
+| **Lancet II** | 1 | 1 | 5 | 11 | 73 |
+| **Lancet III** | 1 | 1 | 4 | 8 | 52 |
+| **Rivet I** | 1 | 1 | 6 | 15 | 86 |
+| **Rivet II** | 1 | 1 | 4 | 8 | 56 |
+| **Rivet III** | 1 | 1 | 3 | 6 | 40 |
+| **Ember I** | 1 | 3 | 11 | 33 | 170 |
+| **Ember II** | 1 | 2 | 7 | 22 | 112 |
+| **Ember III** | 1 | 1 | 5 | 16 | 80 |
+| **Scatter I** | 1 | 2 | 9 | 27 | 136 |
+| **Scatter II** | 1 | 2 | 6 | 17 | 88 |
+| **Scatter III** | 1 | 1 | 4 | 12 | 63 |
 
 - **Sıradan** tek hedefli roketler, Seeker uzaylısını hangi hasar çıkarsa çıksın tek vuruşta, Phantasm uzaylısını üç vuruşta öldürür (bir Lancet I, en düşük hasarda dördüncüye ihtiyaç duyar); ilk sektörlerin gündelik roketleridir. **Nadir** olanlar Bulwark ve Goombah içindir: yedi Lancet II roketi bir Bulwark uzaylısını yaklaşık 20 saniyelik sayaçta devirir. **Destansı** tek hedefliler bir Goombah uzaylısını sekiz (Rivet III) ile on bir (Lancet III) roketle öldürür. Birkaç uzaylı birbirine yakınken patlamalar bedelini çıkarır: beş Phantasm uzaylısından oluşan bir kümenin (hepsi nişan aldığın uzaylıya 250 birim içinde) üzerinde patlayan bir Scatter III, tek atışta kümeye toplam yaklaşık 22.000 hasar verir.
 - Yalnızca roketlerle öldürmek gerçek bir harcamadır, zengin olmanın yolu değil: tek hedefli bir roketin bedeli, öldürmenin ödediği tutarın (kredi ve tanesi 200 kredi olan Thulium) %15’i (Phantasm uzaylısına karşı Rivet II) ile %95’i (Crystalys uzaylısına karşı Lancet I) arasındadır; güçlü uzaylılara karşı zayıf patlamalar ise öldürmenin ödediğinden fazlasına mal olur (Bulwark uzaylısına karşı Ember I: %120). **Crystalys** uzaylısını tek bir türle öldürmek 56 ile 352 roket ve yaklaşık üç dakikalık sayaç ister; 500 adetlik dolu bir Destansı yığını dört ile sekiz Crystalys uzaylısını öldürmeye yeter. En güçlü uzaylı için bir plan gerekir: lazerlerin x2 cephaneyle, ilk saniyeden itibaren 3 saniyede bir orta kademe bir roket ve ani darbe olarak aşağıdaki büyük roketler.
@@ -126,14 +137,36 @@ Bir uzaylıyı öldürmek için gereken roket sayısı, tür tür ve her roketin
 - **Tuzak.** Yolunda bir gemiyle, hattın üzerinde bekleyen bir rakiple ya da zarar verebileceği başka bir şeyle karşılaşan bir N.I.K.E. ona 67.500 ile 75.000 hasar verir ve harcanır: kara delik hiçbir şey almaz, sen de almazsın. Deliğin halkasının içinde yanlışlıkla vurabileceği başka bir şey dolaşmaz (uzaylılar ve şirket pilotları oradan uzak durur): yalnızca Dark Matter için içeri girmiş ya da seni kenarda bekleyen pilotlar. Kendi şirketinin gemilerinin, güvenli bölgedeki gemilerin ve henüz zarar veremeyeceğin gemilerin içinden geçer. Ateşledikten sonra haritadan çıkarsan, kimseye zarar vermeden uçmaya devam eder ve yine de Dark Matter üretir.
 - Montaj, kuyruğa aldıkların dahil elindeki sayıyı bir roketin *taşıma sınırının* üstüne çıkaracak bir üretimi başlatmaz. Sealed Backdoor bunların sınırlarını da artırır (I. seviyede 10, 12 olur ve 20, 25 olur; V. seviyede 30 ve 60).
 
+## Özel roketler {#special-rockets}
+
+Özel roketler, bir hasar sayısının anlatamadığı şeyler yapar. Birbirleriyle **5 saniyelik tek bir sayacı** paylaşırlar (hiçbir fırlatıcı onu değiştirmez) ve her biri ayrıca 3 saniyeden 2 dakikaya kadar **kendi sayacını** bekler; normal roketlerin sayacı ayrıdır, yani bir normal roketle bir özel roket birlikte ateşlenebilir. Montaj bunları üretir; yalnızca mağazanın sattığı Flares ve Ricochet hariç (yukarıdaki eşya ağacında her tarif var). Yukarıdaki N.U.K.E. ve N.I.K.E. da özel roketlerdir ve N.U.K.E.’nin kendi sayacı yoktur. Otomatik Roket CPU’su ve Roket Fırlatıcılar yalnızca normal roketleri ateşler.
+
+| Ad | Tür | Etki | Kendi sayacı | Taşıma sınırı |
+| :--- | :--- | :--- | :---: | :---: |
+| **Freeze Rocket** | Güdümlü, tek hedef | Hasar vermeyen güdümlü bir roket: vurduğu gemi donar ve dört saniye boyunca %60 daha yavaş uçar. | 30 sn | 50 |
+| **EMP Rocket** | Güdümlü, tek hedef | Hasar vermeyen güdümlü bir roket: vurduğu gemi üç saniye boyunca bir EMP Şarjı etkisi altında kalır. | 30 sn | 50 |
+| **Shield Breaker** | Düz, tek hedef | Kalkanlar için yapılmış hızlı, güdümsüz bir roket: kalkana 25.000, gövdeye 5.000 verir; ama kalkan kaldığı sürece yalnızca kalkana vurur. | 15 sn | 50 |
+| **Toxic Rocket** | Güdümlü, tek hedef | Kendi başına hasar vermeyen güdümlü bir roket: vurduğu gemi beş saniye zehirlenir ve her saniye etkin can puanının (gövde ve kalkan birlikte) yüzde yarısını kaybeder; bu gövdeden düşülür. | 20 sn | 50 |
+| **Marking Rocket** | Güdümlü, tek hedef | Hasar vermeyen güdümlü bir roket: vurduğu gemi beş saniye işaretlenir ve her şeyden %20 daha fazla hasar alır. | 30 sn | 50 |
+| **Cooldown Rocket** | Güdümlü, tek hedef | Hasar vermeyen güdümlü bir roket: sekiz saniye boyunca vurduğu geminin zamanlı eşyaları yarı hızda soğur. | 60 sn | 20 |
+| **Gravitational N.U.K.E.** | Düz, alan hasarı | Çökmüş bir çekirdeğin etrafında yeniden kurulmuş bir N.U.K.E. İmlece yerleştirilir ve on beş saniye boyunca gemileri ve güdümlü roketleri çeken küçük bir kara delik açar. Bir haritada yalnızca bir tane olabilir. Yalnızca Montaj’da üretilir ve Müzayede’de asla satılamaz. | 120 sn | 5 |
+| **Support Rocket** | Düz, alan hasarı | İmlece yerleştirilir: alanındaki her dost gemiyi gövdesinin ve kalkanının %40’ı kadar onarır. | 120 sn | 20 |
+| **Flares** | Düz, tek hedef | Kendi geminden fırlatılır: üzerine kilitlenmiş tüm güdümlü roketleri bozar. | 60 sn | 20 |
+| **Ricochet** | Düz, tek hedef | Rivet II gibi vuran hızlı, güdümsüz bir roket; ilk vuruştan sonra hasarın %75’iyle ikinci bir gemiye sıçrar. | 3 sn | 500 |
+
+- Aynı türden ikinci bir isabet, bir dondurmayı, bozmayı, zehri, işareti ya da yavaşlamış soğumayı yeniler ve ilkiyle asla birikmez. Toxic Rocket’in hasarı atıcıya aittir; zehirle yapılan bir öldürme onun hesabına yazılır.
+- Yerçekimsel N.U.K.E. ve Support Rocket **imlecinde yerleştirilir**: altındaki noktaya ya da yetebildikleri yere kadar uçarlar ve hiçbir geminin ateşleyicisi onları patlatmaz. Bir haritada yalnızca bir yerçekimi kuyusu durabilir: ikinci bir fırlatma reddedilir ve hiçbir şey harcanmaz.
+
 ## Fırlatma {#firing}
 
-1. Roketleri Mağaza’dan (**Roketler** kategorisi) her birinin *taşıma sınırına* kadar satın al: Sıradan ve Nadir olanlar için kredi, Destansı olanlar için Thulium.
-2. Kısayol çubuğunun üstündeki **Roketler** düğmesini aç ve istediklerini yuvalara sürükle. Seçici her tür için bir sütun, her kademe için bir satır gösterir, her birinde taşıdığın miktarla. Altlarında kendilerine ait bir satır vardır: N.U.K.E. ve N.I.K.E. için **Özel · yalnızca üretim** (hiç taşımadığın olanı küçük bir çekiç işaretler).
+1. Sıradan roketleri mağazadan (**Roketler** kategorisi) her birinin *taşıma sınırına* kadar kredi ile satın al; Nadir ve Destansı olanları Montaj’da bir alt kademenin 100 roketinden üret.
+2. Kısayol çubuğunun üstündeki **Roketler** düğmesini aç ve istediklerini yuvalara sürükle. Seçici her tür için bir sütun, her kademe için bir satır gösterir, her birinde taşıdığın miktarla. Altlarında **özel roketler** yer alır, satır başına dört tane (hiç taşımadığın, yalnızca üretilen bir roketi küçük bir çekiç işaretler).
 3. Yuvanın tuşuna bas. **Güdümlü** bir roketin yuvasına tıklamak onu seçili hedefe ateşler; **düz** bir roketin yuvasına tıklamak onu kurar ve uzayda bir sonraki tıklaman onu oraya ateşler. **Roket fırlat** tuşu (varsayılan `R`, Ayarlar › Kontroller’den değiştirilebilir) en son fırlattığın roketi ya da çubuktaki ilkini ateşler.
-4. Bir sonraki fırlatmaya kadarki 3 saniye boyunca (N.U.K.E. sonrası 4,1, N.I.K.E. sonrası 4,6) **her** roket yuvasının üzerinde dairesel bir sayaç döner, ortasında kalan saniyeyle. O sırada basmak yalnızca roketlerin yeniden dolduğunu söyler (son saniyenin onda birinde basmak yine ateşler). Bir dron formasyonu beklemeyi 2,19 ile 4,05 saniye arasında herhangi bir değere getirebilir (aşağıya bak).
+4. Her roket yuvasının üzerinde, o roketin beklediği sayaç için dairesel bir gösterge döner, ortasında kalan saniyeyle: normal bir roket için 3 saniye (roket fırlatıcıyla 5), özel bir roket için 5 saniye ile kendi sayacının uzun olanı. O sırada basmak yalnızca roketlerin yeniden dolduğunu söyler (son saniyenin onda birinde basmak yine ateşler). Bir dron formasyonu normal sayacı 2,19 ile 4,05 saniye arasında bir değere getirebilir (aşağıya bak).
 
 Sayılarını görmek için bir roket yuvasının üzerine gel (en düşük ve en yüksek hasarını; Mağaza ve hangar da aynısını söyler) ve uçuş görünümünde kilitlenme halkasını (seçili hedef menzildeyken yeşil) ya da çizgisini ve patlama dairesini gör. **Sana** kilitlenmiş bir roket ekranının kenarını kırmızı yakıp söndürür.
+
+**Roket Fırlatıcılar.** Bir Roket Fırlatıcı II–V, Otomatik Roket CPU’su gibi hangarında durur, yuva gerektirmez ve her gemide çalışır (sahip olduğun en iyisi sayılır). Normal bir roketin bir basışı o zaman yığından 2, 3, 4 ya da 5 roketi 0,15 saniye arayla ateşler, ardından normal roketler 5 saniye bekler. Montaj bunları araştırmalarından sonra üretir (8–24 saat, 150.000–2.000.000 Thulium ve malzemelerle; [Ekstralar](/wiki/06-Items/Extras.md) eşya ağacı bunları listeler).
 
 **N.U.K.E.**, ateşlemeden önce patlamasını haritada çizer (nişan aldığın noktada 1.350 birimlik daire) ve patladığında görünümün üzerinde beyaz bir parlama, yaklaşık bir saniyede tam erişimine kadar yayılan ve iki saniye daha kalan bir halka, mantar gibi yükselen bir bulut ve ne kadar yakınsan o kadar güçlü bir kamera sarsıntısı verir. **Ekran sarsıntısını azalt** sarsıntıyı kaldırır, **Hareketi azalt** ise parlamayı ışığının yarısından azıyla saniyenin üçte birine kısaltır (ikisi de Ayarlar’daki Grafik bölümündedir); düşük parçacık kalitesi bulutu inceltir ve kıvılcımları bırakır, parlamayı ya da halkayı asla. **N.I.K.E.**, bir Rivet I gibi, geminden imlecine uzanan çizgiyle nişanlanır ve oyun onu kara delikten uzak olduğu ya da deliği olmayan bir haritada olduğu için asla reddetmez: nereye gideceğine sen karar verirsin. Kartında hasarının yanında **Kara delik: Dark Matter üretir** yazar. Etrafında kıvrılan kıvılcımlarla mor bir iz bırakır; karşılaştığı bir gemi vuruşu her roket gibi alır, bunun yerine ufku geçerse delik parlar.
 
@@ -142,7 +175,7 @@ Sayılarını görmek için bir roket yuvasının üzerine gel (en düşük ve e
 Kuşandığın bir [dron formasyonu](/wiki/03-Mechanics/Formations.md), bir roketi değiştiren tek şeydir. Bu sayfadaki her hasar rakamı formasyonsuz bir gemi içindir.
 
 - **Hasar.** Ballista (+%55), Bodkin (+%29) ve Asterism (+%24) formasyonlarının roket bonusu, N.U.K.E. ve N.I.K.E. dahil 14 roketin tamamının hasarını çarpar. Testudo formasyonunun tüm hasar bedeli roketlerde de geçerlidir, Culler formasyonunun uzaylılara hasarı ise bir uzaylıya isabet eden rokette geçerlidir. Bir roket üzerindeki tüm çarpanlar birlikte ×1,59’da durur. Bonus, bir gemiye olduğu gibi bir [asteroite](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one) karşı da geçerlidir ve asteroitin zırhı ondan sonra düşülür.
-- **Yeniden doldurma.** Asterism ortak sayacı %35 uzatır (4,05 saniye), Cordon %11 uzatır (3,33), Redoubt %27 kısaltır (2,19); ama asla roketin uçuş süresine kısa bir an eklenmiş değerin altına inmez. Redoubt altında hızlı roketler (Lancet I, Rivet I ve II, Ember I, Scatter I ve II) 2,19 saniye bekler, bir Rivet III 2,3, bir Lancet III 2,9 ve bir Ember III tam 3 saniye; N.U.K.E. ve N.I.K.E., ne kuşanırsan kuşan 4,1 ve 4,6 saniye bekler. Bekleme ateşlediğin anda belirlenir, bu yüzden sonradan formasyon değiştirmek onu kısaltmaz ve roket yuvalarının üzerindeki sayaç onu izler.
+- **Dolum.** Asterism normal roketlerin sayacını %35 uzatır (4,05 saniye), Cordon %11 uzatır (3,33), Redoubt %27 kısaltır (2,19); ama asla roketin uçuşuna bir an eklenmiş süreden kısa olmaz. Redoubt altında hızlı roketler (Lancet I, Rivet I ve II, Ember I, Scatter I ve II) 2,19 saniye, Rivet III 2,3, Lancet III 2,9, Ember III ise tam 3 saniye bekler. Bekleme ateşlediğin anda belirlenir, bu yüzden sonradan formasyon değiştirmek onu kısaltmaz ve roket yuvalarındaki gösterge onu izler. Özel roketlerin sayaçları hiçbir formasyonla değişmez.
 - **Büyük ikilinin sınırları korunur.** En iyi formasyonla bir N.I.K.E. en çok 116.250 vurur; bunu tam gövdeli bir Paragon gemisi (128.000) atlatır. Bir N.U.K.E. ise en çok 77.500 vurur; bunu da bir Goombah uzaylısı (80.000) atlatır.
 - **Kaçınma.** Asterism formasyonunun %7 kaçınması, sana isabet eden doğrudan bir roketin hiç hasar vermeme şansını %7 yapar ve geminin üzerinde yüzen bir “Iska” görünür; alan hasarlı bir patlamanın nişanı yoktur ve asla savuşturulmaz.
 - **Kalkan delme.** Gemini 15 puanını, Stiletto da 35 puanlık roket delmesini doğrudan bir roketin kalkan delmesine ekler (patlamanın delmesi yoktur), sınır olmadan: Stiletto ile bir Lancet III %70, Gemini ile %50’dir. Bir lazer vuruşu Gemini’ninkini cephanesininkine ve amfilerininkine aynı şekilde ekler, Stiletto’nunkinden ise hiçbir şey almaz ([Lazerler ve cephane](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)).
@@ -158,7 +191,7 @@ Kuşandığın bir [dron formasyonu](/wiki/03-Mechanics/Formations.md), bir roke
 - Bir uzaylıyı yalnızca bir roketin **doğrudan isabeti** sahiplenir (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)); bir patlamanın kenarı, sahiplenilmiş bir uzaylıya onu çalmadan zarar verebilir. Bir patlamanın zarar verdiği her uzaylı, uyuyan da dahil, tıpkı lazer vuruşunda olduğu gibi sana döner (yalnızca karşılık veren Seeker ve Goombah dahil); patlamanın ıskaladığı uzaylı uyumaya devam eder.
 - Sayaç senindir: bir sıçramadan, yeniden bağlanmadan, gemi değiştirmeden ve yok edilen bir gemiden sağ çıkar.
 
-İlk tablodaki on iki roket satın alınır (Sıradan ve Nadir olanlar kredi, Destansı olanlar Thulium ile); N.U.K.E. ve N.I.K.E. üretilir.
+Yalnızca ilk tablodaki Sıradan roketler, Flares ve Ricochet satın alınır (kredi ile); diğer tüm roketleri Montaj üretir.
 
 Ayrıca bkz.: [Lazerler ve cephane](/wiki/06-Items/Lasers.md), [Savaş](/wiki/03-Mechanics/Combat.md), [Kara delik](/wiki/03-Mechanics/Black-Hole.md).
 

@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 54c53e80ce4f67f2 -->
+<!-- wiki-i18n source: eb868ee753081e77 -->
 <!-- wiki-i18n title: Prestationer -->
 # Prestationer {#achievements}
 
-Prestationer är målen för en pilots hela karriär: förstör din första utomjording, nå nivå 21, ha en miljard krediter, överlev en wipe. Spelet räknar dem åt dig. Det finns **40** av dem, i **8** grupper och **5** klasser. Varje prestation betalar **en gång per konto, för alltid**: krediter för varje och, för de flesta, en **titel** att bära vid sidan av ditt namn. En wipe tar aldrig ifrån dig en prestation, dess belöning eller dess titel.
+Prestationer är målen för en pilots hela karriär: förstör din första utomjording, nå nivå 21, ha en miljard krediter, överlev en wipe. Spelet räknar dem åt dig. Det finns **42** av dem, i **8** grupper och **5** klasser. Varje prestation betalar **en gång per konto, för alltid**: krediter för varje och, för de flesta, en **titel** att bära vid sidan av ditt namn. En wipe tar aldrig ifrån dig en prestation, dess belöning eller dess titel.
 
 **På en minut**
 
 - Öppna **Gemenskap › Prestationer** i stationen för att se varje mål, hur långt du kommit och vad det betalar.
 - Klassen (Vanlig, Ovanlig, Sällsynt, Episk eller Legendarisk) avgör krediterna: ju svårare målet är, desto högre klass.
 - Du får betalt i samma stund som du når ett mål, under flygning eller i stationen. Ett kort visar prestationen och belöningen, och Spelloggen sparar en rad.
-- **3** av de 40 är dolda: sidan visar dem som stängda kort tills du låser upp dem. De räknas bland de 40 och nämns inte här.
+- **5** av de 42 är dolda: sidan visar dem som stängda kort tills du låser upp dem. De räknas bland de 42 och nämns inte här.
 - I Steam-versionen visas dina prestationer också på din Steam-profil när du har länkat ditt konto (se nedan).
 
 ## Klasser och belöningar {#tiers-and-rewards}
@@ -19,12 +19,12 @@ De fem klasserna betalar lika mycket för varje prestation i dem, en gång. Tabe
 | Klass | Prestationer | Krediter per prestation |
 | :--- | ---: | ---: |
 | Vanlig | 10 | 50 000 |
-| Ovanlig | 7 | 150 000 |
-| Sällsynt | 11 | 500 000 |
+| Ovanlig | 8 | 150 000 |
+| Sällsynt | 12 | 500 000 |
 | Episk | 7 | 2 000 000 |
 | Legendarisk | 5 | 5 000 000 |
 
-Alla 40 tillsammans betalar **46 050 000** krediter, en gång i en pilots liv.
+Alla 42 tillsammans betalar **46 700 000** krediter, en gång i en pilots liv.
 
 ## Prestationerna {#the-achievements}
 
@@ -69,7 +69,7 @@ De 37 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Stationsbyggare | Bygg 5 olika Skylab-moduler. | Vanlig |
 | Fullt utrustad | Bygg alla 16 Skylab-moduler. | Episk |
 | Lärd | Forska fram 50 tekniker. | Ovanlig |
-| Arkivarie | Forska fram alla 159 tekniker. | Legendarisk |
+| Arkivarie | Forska fram alla 179 tekniker. | Legendarisk |
 
 ### Flotta {#group-fleet}
 
@@ -115,7 +115,7 @@ En dold prestation som fortfarande är låst är ett stängt kort utan mål och 
 
 ## Titlar {#titles}
 
-En **titel** är en kort textrad bredvid en pilots namn. 32 av de 40 prestationerna ger en, din för alltid när du låser upp prestationen. Titlar kommer också från slutet av en säsong (din grad, den bästa piloten i varje koncern och piloten med flest PvE-poäng) och från spelets team, till exempel titeln **Pioneer** för varje konto som fanns den dag spelet lanserades på Steam.
+En **titel** är en kort textrad bredvid en pilots namn. 32 av de 42 prestationerna ger en, din för alltid när du låser upp prestationen. Titlar kommer också från slutet av en säsong (din grad, den bästa piloten i varje koncern och piloten med flest PvE-poäng) och från spelets team, till exempel titeln **Pioneer** för varje konto som fanns den dag spelet lanserades på Steam.
 
 - Du äger många titlar och **bär en** i taget. Du väljer den på din **pilotprofil** och kan ta av den igen.
 - Din titel visas på din **profil**, i **Ranking**, i **Grupp**-fönstret och när du pekar på ditt namn i **chatten**. Sedan 0.4.27 visas den också på kartan: en liten, dämpad rad i titelns sällsynthetsfärg **ovanför namnet på varje pilots skepp**, ditt eget inräknat. En lång titel kortas av med en ellips. I en folkmassa (fler än åtta piloter på skärmen) behåller bara dina vänner, ditt mål och det skepp du har valt sin titel, så att skärmen förblir läsbar. Den visas inte i målfönstret eller på minikartan.

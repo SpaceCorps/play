@@ -75,7 +75,7 @@ Bygger på Goombah med 400 % av skrovet och 100 % av laserskadan; hastighet oc
 | Quorvium | 100 % på vart och ett av 8 slag | 2–4 |
 | Advanced Plasma | 100 % | 100–200 |
 | Ultra Core | 100 % | 100–200 |
-| En av de 8 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 6–10 |
+| En av de 4 [raketer](/wiki/06-Items/Rockets.md) som köps med krediter, slumpmässigt vald | 100 % | 6–10 |
 
 ### Goombah Guard
 

@@ -72,7 +72,7 @@ Base: Seeker, con il 400% di scafo, scudo e danno; velocità e portata sono quel
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 2–3 |
+| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 2–3 |
 
 ### Seeker Slave
 

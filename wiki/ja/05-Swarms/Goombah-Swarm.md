@@ -75,7 +75,7 @@ Boss Goombah の報酬は、その戦いの重さに見合っています。1分
 | Quorvium | 8回の抽選それぞれで 100% | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| クレジットで買える 8 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 6–10 |
+| クレジットで買える 4 種の [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 6–10 |
 
 ### Goombah Guard
 

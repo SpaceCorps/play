@@ -74,7 +74,7 @@ Boss Phantasm의 보상은 그 전투의 무게에 걸맞습니다. 1분 싸우�
 | Standard Battery | 100% | 600–1,200 |
 | Advanced Plasma | 100% | 60–100 |
 | Ultra Core | 100% | 10–20 |
-| 크레딧으로 살 수 있는 8종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 4–6 |
+| 크레딧으로 살 수 있는 4종의 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 4–6 |
 
 ### Phantasm Guard
 

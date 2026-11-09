@@ -75,7 +75,7 @@ Basis: Goombah mit 400 % der Hülle und 100 % des Laserschadens; Tempo und Rei
 | Quorvium | 100 % bei jedem von 8 Würfen | 2–4 |
 | Advanced Plasma | 100 % | 100–200 |
 | Ultra Core | 100 % | 100–200 |
-| Eine der 8 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 6–10 |
+| Eine der 4 [Raketen](/wiki/06-Items/Rockets.md), die man mit Credits kauft, zufällig gewählt | 100 % | 6–10 |
 
 ### Goombah Guard
 

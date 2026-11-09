@@ -72,7 +72,7 @@ Boss Seeker 的奖励**恰好是十只 Seeker**：Seeker 的信用点、Thulium�
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 2–3 |
+| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 2–3 |
 
 ### Seeker Slave
 

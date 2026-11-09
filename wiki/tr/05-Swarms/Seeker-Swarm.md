@@ -72,7 +72,7 @@ Seeker temel alınarak, gövdesinin, kalkanının ve hasarının %400 kadarıyla
 | Standard Battery | %100 | 200–400 |
 | Advanced Plasma | %100 | 10–20 |
 | Ultra Core | %100 | 2–4 |
-| Kredi ile satın alınan 8 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 2–3 |
+| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 2–3 |
 
 ### Seeker Slave
 

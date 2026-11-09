@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e6bba0f75d99f5cd -->
+<!-- wiki-i18n source: 9070ca3143eddf92 -->
 <!-- wiki-i18n title: Pirate 虫群 -->
 # Pirate 虫群 {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Pirate 虫群由一个 **Pirate Boss** 和它的 **Pirate Scout** 组成：Pirat
 - **打 Boss，不要打 Scout。** Scout 会治疗 Boss，但与 Boss 的船体相比，治疗量很小，而且新的 Scout 会按*一览*列表所说的频率出现：先击杀 Scout 的小队永远赶不上它们，只有非常庞大的小队才能清掉它们，而且仍比不去管它们的小队花更长时间击败 Boss。Scout 只会耗费你的时间，不会决定战斗。
 - **把 Scout 引开。** Scout 只有在 Boss 的范围之内才会治疗，所以跟着你离开该范围的 Scout 什么也治疗不了，而 Ostirion 比 Scout 更快。
 - **保持移动。** Boss 的火箭是直线的，不带制导：保持移动的舰船可以躲开，原地不动的舰船则会被击中。
-- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，即使伤害被分摊，在 `x-3` 也会输，但在 `x-2` 不损失一艘舰船就能赢；四个人在 Alpha 中大约四分钟就能击败它。使用 x4 弹药时，在 `x-3` 三个人也够了（大约两分半钟）。五个人在伤害被分摊时大约三分钟就能击败它，由一名飞行员承受全部火力时要大约四分钟，并且会损失两艘舰船：让一名飞行员承受全部火力的小队需要五个人。在 Beta 中需要五名飞行员，在 Gamma 中需要七名，且伤害要被分摊（那里的 Boss 更大，它的 Scout 回复更多）。在 Alpha 的 `x-3` 使用 x2 弹药时，单独一艘 Ostirion 做不到，单独一艘 Paragon 也只能险胜（船体只剩百分之几）：两艘 Paragon 可以稳稳拿下。在 Beta 和 Gamma 的 `x-3`，单独一艘 Paragon 会被击毁，无论使用 x2 还是 x4 弹药。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
+- **带上小队。** 三名驾驶 Ostirion、使用 x2 弹药的飞行员，即使伤害被分摊，在 `x-3` 也会输，但在 `x-2` 不损失一艘舰船就能赢；四个人在 Alpha 中大约四分钟就能击败它。使用 x4 弹药时，在 `x-3` 三个人也够了（大约两分半钟）。五个人在伤害被分摊时大约三分钟就能击败它，由一名飞行员承受全部火力时要大约四分钟，并且会损失两艘舰船：让一名飞行员承受全部火力的小队需要五个人。在 Beta 中需要五名飞行员，在 Gamma 中需要七名，且伤害要被分摊（那里的 Boss 更大，它的 Scout 回复更多）。在 Alpha 的 `x-3` 使用 x2 弹药时，单独一艘 Ostirion 做不到，单独一艘 Paragon 也做不到：两艘 Paragon 可以稳稳拿下。在 Beta 和 Gamma 的 `x-3`，单独一艘 Paragon 会被击毁，无论使用 x2 还是 x4 弹药。Boss 会应对第一个击中它的飞行员，所以让最结实的舰船先出手，并在这样的长战中使用你的技能（Emergency Repair、Shield Surge：[技能](/wiki/03-Mechanics/Abilities.md)）。仍是 2 级或 3 级的飞行员对它来说太弱，即使在他们活动的星区也是如此：变强之前请远离。
 - **Boss 会回来**，在*一览*列表给出的时间之后，出现在同一个星区。
 
 ## 奖励与掉落 {#rewards-and-drops}
@@ -70,7 +70,7 @@ Pirate Boss 的奖励与这场战斗相称：与它战斗一分钟的收益高�
 | 物品 | 几率 | 数量 |
 | :--- | ---: | ---: |
 | Reinforced Hull Plate | 50% | 1 |
-| 可用信用点购买的 8 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 5–10 |
+| 可用信用点购买的 4 种 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 5–10 |
 | Advanced Plasma, Siphon Battery 和 Siphon Battery II 中随机一种 | 100% | 1,000–2,000 |
 
 ### Pirate Scout

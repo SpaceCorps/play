@@ -16,7 +16,7 @@
 - Чтобы пользоваться аукционом (выставлять, покупать и делать ставки), нужен **уровень 5**.
 - Объявление оценивается за партию, в целых кредитах или в целых Thulium (не в обоих сразу), и никогда не ниже минимальной цены предмета. **Максимальной цены нет.**
 - Цена в Thulium не меньше минимальной цены в кредитах, делённой на курс (1 000), с округлением вверх, и только для предметов, у которых минимальная цена достигает 1 Thulium или больше. Это всё, что делает курс: **1 Thulium = 1 000 кредитов — правило для минимальной цены, а не обменный курс.** Ничего не обменивается, никакая стоимость не показывается, а кредиты и Thulium никогда не складываются.
-- Выставить можно 89 видов предметов, и 88 из них можно оценить ещё и в Thulium.
+- Выставить можно 102 видов предметов, и 101 из них можно оценить ещё и в Thulium.
 - Объявление идёт 168 / 336 / 504 ч — на ваш выбор; варианты одинаковы на любом уровне.
 - **Взнос** — 0,25% цены за каждые 24 часа объявления, но не меньше 50 кредитов или 1 Thulium. Его платят при выставлении; он никогда не возвращается, даже если вы снимете объявление.
 - С уровня 10 взнос составляет 0,4%.
@@ -55,9 +55,9 @@
 | **Ячейки щита** | Absorption Shield Cell I, Capacity Shield Cell I, Absorption Shield Cell II, Capacity Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell III, Absorption Shield Cell IV, Capacity Shield Cell IV | 8 |
 | **Ускорители** | Impulse Thruster I, Momentum Thruster I, Impulse Thruster II, Momentum Thruster II, Impulse Thruster III, Momentum Thruster III, Impulse Thruster IV, Momentum Thruster IV | 8 |
 | **Лазерные боеприпасы** | Standard Battery (партиями по 100), Siphon Battery (партиями по 10), Advanced Plasma (партиями по 10), Siphon Battery II (партиями по 10), Antimatter Battery I (партиями по 10), Ultra Core (партиями по 10), Dark Matter Ammo I (партиями по 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
-| **Ракеты** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ember III, Lancet III, Rivet III, Scatter III | 12 |
+| **Ракеты** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Расходники** | EMP Charge, Energetic Wall II | 2 |
-| **Устройства** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II | 11 |
+| **Устройства** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
 | **Броня корпуса** | Hull Plating II, Hull Plating III | 2 |
 | **Ресурсы** | Cataclysite (партиями по 100), Ship Fragment (партиями по 100), Daraxium (партиями по 100), Nyxite (партиями по 100), Quorvium (партиями по 10), Reinforced Hull Plate (партиями по 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -85,7 +85,7 @@
 | EMP Charge | 1 | 40 000 | 40 |
 | Cloaking CPU S | 1 | 400 000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 200 | 1 |
+| Lancet I | 1 | 400 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33 000 | 33 |
 
@@ -194,78 +194,78 @@
 
 | Час UTC | Лот | Полный размер | Начальная ставка при полном размере |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter III | 1 250 | 250 000 кредитов |
+| 00:00 | Scatter I | 1 250 | 250 000 кредитов |
 | 00:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
 | 00:00 | Ultra Core | 10 000 | 400 000 кредитов |
 | 01:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 01:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
-| 01:00 | Lancet III | 1 250 | 250 000 кредитов |
-| 02:00 | Lancet I | 12 500 | 1 250 000 кредитов |
-| 02:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
+| 01:00 | Scatter I | 1 250 | 250 000 кредитов |
+| 02:00 | Lancet I | 12 500 | 2 500 000 кредитов |
+| 02:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
 | 02:00 | EMP Charge | 5 | 100 000 кредитов |
 | 03:00 | EMP Charge | 5 | 100 000 кредитов |
 | 03:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
-| 03:00 | Lancet I | 12 500 | 1 250 000 кредитов |
+| 03:00 | Lancet I | 12 500 | 2 500 000 кредитов |
 | 04:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
 | 04:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
-| 04:00 | Rivet I | 12 500 | 1 250 000 кредитов |
-| 05:00 | Rivet II | 5 000 | 800 000 кредитов |
+| 04:00 | Rivet I | 12 500 | 2 500 000 кредитов |
+| 05:00 | Rivet I | 5 000 | 1 000 000 кредитов |
 | 05:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 05:00 | EMP Charge | 5 | 100 000 кредитов |
 | 06:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
 | 06:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
-| 06:00 | Ember II | 5 000 | 800 000 кредитов |
+| 06:00 | Ember I | 5 000 | 1 000 000 кредитов |
 | 07:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
 | 07:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
-| 07:00 | Rivet II | 5 000 | 800 000 кредитов |
-| 08:00 | Ember I | 12 500 | 1 250 000 кредитов |
+| 07:00 | Rivet I | 5 000 | 1 000 000 кредитов |
+| 08:00 | Ember I | 12 500 | 2 500 000 кредитов |
 | 08:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
 | 08:00 | EMP Charge | 5 | 100 000 кредитов |
 | 09:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
-| 09:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
-| 09:00 | Ember II | 5 000 | 800 000 кредитов |
-| 10:00 | Scatter II | 5 000 | 800 000 кредитов |
+| 09:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
+| 09:00 | Lancet I | 1 250 | 250 000 кредитов |
+| 10:00 | Scatter I | 5 000 | 1 000 000 кредитов |
 | 10:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 10:00 | EMP Charge | 5 | 100 000 кредитов |
 | 11:00 | EMP Charge | 5 | 100 000 кредитов |
 | 11:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
-| 11:00 | Lancet I | 12 500 | 1 250 000 кредитов |
+| 11:00 | Lancet I | 12 500 | 2 500 000 кредитов |
 | 12:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
 | 12:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
-| 12:00 | Scatter II | 5 000 | 800 000 кредитов |
-| 13:00 | Lancet III | 1 250 | 250 000 кредитов |
+| 12:00 | Scatter I | 5 000 | 1 000 000 кредитов |
+| 13:00 | Lancet I | 1 250 | 250 000 кредитов |
 | 13:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
 | 13:00 | Ultra Core | 10 000 | 400 000 кредитов |
 | 14:00 | Ultra Core | 10 000 | 400 000 кредитов |
 | 14:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
-| 14:00 | Ember I | 12 500 | 1 250 000 кредитов |
+| 14:00 | Ember I | 12 500 | 2 500 000 кредитов |
 | 15:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 15:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
-| 15:00 | Lancet III | 1 250 | 250 000 кредитов |
+| 15:00 | Lancet I | 1 250 | 250 000 кредитов |
 | 16:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
 | 16:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
-| 16:00 | Scatter III | 1 250 | 250 000 кредитов |
-| 17:00 | Rivet I | 12 500 | 1 250 000 кредитов |
+| 16:00 | Ember I | 5 000 | 1 000 000 кредитов |
+| 17:00 | Rivet I | 12 500 | 2 500 000 кредитов |
 | 17:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
 | 17:00 | EMP Charge | 5 | 100 000 кредитов |
 | 18:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
 | 18:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
-| 18:00 | Scatter II | 5 000 | 800 000 кредитов |
-| 19:00 | Ember II | 5 000 | 800 000 кредитов |
+| 18:00 | Scatter I | 5 000 | 1 000 000 кредитов |
+| 19:00 | Ember I | 5 000 | 1 000 000 кредитов |
 | 19:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 19:00 | EMP Charge | 5 | 100 000 кредитов |
 | 20:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
 | 20:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
-| 20:00 | Rivet I | 12 500 | 1 250 000 кредитов |
+| 20:00 | Rivet I | 12 500 | 2 500 000 кредитов |
 | 21:00 | Advanced Plasma | 25 000 | 500 000 кредитов |
 | 21:00 | Ultra Core | 25 000 | 1 000 000 кредитов |
-| 21:00 | Rivet II | 5 000 | 800 000 кредитов |
+| 21:00 | Rivet I | 5 000 | 1 000 000 кредитов |
 | 22:00 | Advanced Plasma | 10 000 | 200 000 кредитов |
 | 22:00 | Ultra Core | 50 000 | 2 000 000 кредитов |
-| 22:00 | Scatter III | 1 250 | 250 000 кредитов |
+| 22:00 | Scatter I | 1 250 | 250 000 кредитов |
 | 23:00 | EMP Charge | 5 | 100 000 кредитов |
 | 23:00 | Advanced Plasma | 50 000 | 1 000 000 кредитов |
-| 23:00 | Ember I | 12 500 | 1 250 000 кредитов |
+| 23:00 | Ember I | 12 500 | 2 500 000 кредитов |
 
 <!-- market-day:end -->
 

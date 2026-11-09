@@ -72,7 +72,7 @@ Base: Seeker, com 400% de casco, escudo e dano; a velocidade e o alcance são os
 | Standard Battery | 100% | 200–400 |
 | Advanced Plasma | 100% | 10–20 |
 | Ultra Core | 100% | 2–4 |
-| Um dos 8 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 2–3 |
+| Um dos 4 [foguetes](/wiki/06-Items/Rockets.md) comprados com créditos, escolhido ao acaso | 100% | 2–3 |
 
 ### Seeker Slave
 

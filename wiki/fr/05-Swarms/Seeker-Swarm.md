@@ -72,7 +72,7 @@ Base : Seeker, avec 400 % de coque, de bouclier et de dégâts ; la vitesse e
 | Standard Battery | 100 % | 200–400 |
 | Advanced Plasma | 100 % | 10–20 |
 | Ultra Core | 100 % | 2–4 |
-| L’une des 8 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 2–3 |
+| L’une des 4 [roquettes](/wiki/06-Items/Rockets.md) achetées avec des crédits, tirée au hasard | 100 % | 2–3 |
 
 ### Seeker Slave
 

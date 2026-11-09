@@ -75,7 +75,7 @@ Goombah temel alınarak, gövdesinin %400 kadarıyla ve lazer hasarının %100 k
 | Quorvium | 8 çekilişin her birinde %100 | 2–4 |
 | Advanced Plasma | %100 | 100–200 |
 | Ultra Core | %100 | 100–200 |
-| Kredi ile satın alınan 8 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 6–10 |
+| Kredi ile satın alınan 4 [roket](/wiki/06-Items/Rockets.md) arasından rastgele biri | %100 | 6–10 |
 
 ### Goombah Guard
 

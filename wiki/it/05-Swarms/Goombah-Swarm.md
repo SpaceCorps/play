@@ -75,7 +75,7 @@ Base: Goombah; rispetto all’originale, scafo 400% e danno dei laser 100%; velo
 | Quorvium | 100% a ciascuno di 8 tiri | 2–4 |
 | Advanced Plasma | 100% | 100–200 |
 | Ultra Core | 100% | 100–200 |
-| Uno dei 8 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 6–10 |
+| Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) acquistabili con i crediti, scelto a caso | 100% | 6–10 |
 
 ### Goombah Guard
 
