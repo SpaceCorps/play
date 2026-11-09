@@ -10,6 +10,13 @@ version: "0.5.3"
 date: "2026-11-09"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
+  - os: "macOS"
+    arch: "universal (Apple Silicon & Intel)"
+    format: "dmg"
+    filename: "SpaceCorps2027-macos-universal.dmg"
+    size: 172341635
+    sha256: "07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc"
+    url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
@@ -52,6 +59,7 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (172.3 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc` |
 | **Windows** | x86_64 | `.zip` (165.7 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c` |
 | **Linux** | x86_64 | `.AppImage` (160.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e` |
 | **Linux** | x86_64 | `.tar.gz` (166.6 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `616ab3548aca0dd8ea1572910a405fb885fd773057fa7e36e1dd90a750e5c1d8` |
@@ -290,6 +298,12 @@ The owner's complaint after 0.5.2: the start card listed the servers but the row
 ## Checksum Verification
 
 Verify the integrity of downloaded binaries prior to execution:
+
+### macOS
+```bash
+shasum -a 256 SpaceCorps2027-macos-universal.dmg
+# Expected: 07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc
+```
 
 ### Windows (PowerShell)
 ```powershell

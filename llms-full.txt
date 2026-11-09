@@ -53,21 +53,28 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 
 ### Asset Matrix
 
-1. **Windows x86_64:**
+1. **macOS Universal:**
+   - Filename: `SpaceCorps2027-macos-universal.dmg`
+   - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
+   - Size: 172,341,635 bytes (172.3 MB)
+   - SHA-256: `07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc`
+   - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
+
+2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
    - Size: 165,697,303 bytes (165.7 MB)
    - SHA-256: `4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
-2. **Linux AppImage:**
+3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
    - Size: 160,057,848 bytes (160.1 MB)
    - SHA-256: `4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
-3. **Linux Tarball:**
+4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
    - Size: 166,582,093 bytes (166.6 MB)

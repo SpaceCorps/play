@@ -47,6 +47,7 @@ Autonomous AI agents, tool callers, and automation frameworks should use SpaceCo
 
 | OS | Architecture | Package | Direct Download URL | File Size | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| macOS | Universal (ARM64/x86_64) | DMG | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg | 172,341,635 bytes | 07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc |
 | Windows | x86_64 | ZIP | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip | 165,697,303 bytes | 4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c |
 | Linux | x86_64 | AppImage | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage | 160,057,848 bytes | 4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e |
 | Linux | x86_64 | tar.gz | https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz | 166,582,093 bytes | 616ab3548aca0dd8ea1572910a405fb885fd773057fa7e36e1dd90a750e5c1d8 |
@@ -58,6 +59,16 @@ Released 2026-11-09. These values are `release.json`'s, written from it at relea
 
 <!-- release:recipes -->
 ## Agent Verification Recipes
+
+### macOS
+```bash
+curl -LO https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg
+echo "07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc  SpaceCorps2027-macos-universal.dmg" | shasum -a 256 -c -
+hdiutil attach SpaceCorps2027-macos-universal.dmg
+cp -R "/Volumes/SpaceCorps 2027/SpaceCorps 2027.app" /Applications/
+hdiutil detach "/Volumes/SpaceCorps 2027"
+xattr -dr com.apple.quarantine "/Applications/SpaceCorps 2027.app"
+```
 
 ### Windows (PowerShell)
 ```powershell
