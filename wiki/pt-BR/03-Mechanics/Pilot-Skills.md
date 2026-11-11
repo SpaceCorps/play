@@ -20,7 +20,7 @@ Um piloto novo não está com força total. No nível 1, um laser e um foguete c
 - **Custo de um nível**: 40 XP do nível 1 ao 2, 875 XP do nível 50 ao 51, 19.157 XP do nível 99 ao 100; 313.258 XP no total
 - **O que um nível dá**: Um bônus cresce em linha reta do valor dele no nível 1 ao valor dele no nível 100. Nada tem limite
 - **O seu laser no nível 1**: Causa 80% do dano dele e acerta 80% das vezes, ou seja, 64% do dano que as páginas de itens indicam
-- **O seu foguete no nível 1**: Causa 80% do dano dele e falha ao acender 20% das vezes, ou seja, 64% do dano que as páginas de itens indicam
+- **O seu foguete no nível 1**: Causa 100% do dano dele e falha ao acender 10% das vezes, ou seja, 90% do dano que as páginas de itens indicam
 - **Esquiva**: A nave de todo piloto esquiva 3% dos golpes que podem ser esquivados, antes de qualquer perícia ou formação somar
 - **Nível de casco**: A raridade da sua nave o define, como mostra a tabela abaixo. O tamanho do seu porão e o XP da Massa o acompanham
 - **Porão**: Conta as unidades de recursos que você coleta depois de decolar, até o tamanho que o seu nível de casco lhe dá. Está cheio a partir de 90% disso, e um porão cheio faz a Massa pagar ×1,5. Nada é recusado
@@ -62,8 +62,8 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | :--- | :--- | ---: | ---: |
 | **Tecnologia laser** (Reflexos) | Dano do laser | ×0,8 | ×1,1 |
 |  | Chance de uma rajada de laser acertar | 80% | 90% |
-| **Tecnologia de foguetes** (Reflexos) | Dano do foguete | ×0,8 | ×1,1 |
-|  | Chance de um foguete falhar ao acender | 20% | 0% |
+| **Tecnologia de foguetes** (Reflexos) | Dano do foguete | ×1 | ×1,3 |
+|  | Chance de um foguete falhar ao acender | 10% | 0% |
 | **Antimatéria** (Instinto) | Dark Matter das coletas | ×1 | ×1,25 |
 
 ### Combate {#combat}

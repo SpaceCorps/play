@@ -83,7 +83,7 @@ Every kind has a **least price**, and there is **no highest price**: ask what yo
 | EMP Charge | 1 | 40,000 | 40 |
 | Cloaking CPU S | 1 | 400,000 | 400 |
 | Ultra Core | 10 | 800 | 1 |
-| Lancet I | 1 | 400 | 1 |
+| Lancet I | 1 | 200 | 1 |
 | Ship Fragment | 100 | 600 | 1 |
 | Dark Matter | 1 | 33,000 | 33 |
 
@@ -194,78 +194,78 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots ev
 
 | UTC hour | Lot | Full size | Opening bid at full size |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1,250 | 250,000 Credits |
+| 00:00 | Scatter I | 1,250 | 125,000 Credits |
 | 00:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 00:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 01:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 01:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 01:00 | Scatter I | 1,250 | 250,000 Credits |
-| 02:00 | Lancet I | 12,500 | 2,500,000 Credits |
+| 01:00 | Scatter I | 1,250 | 125,000 Credits |
+| 02:00 | Lancet I | 12,500 | 1,250,000 Credits |
 | 02:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 02:00 | EMP Charge | 5 | 100,000 Credits |
 | 03:00 | EMP Charge | 5 | 100,000 Credits |
 | 03:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 03:00 | Lancet I | 12,500 | 2,500,000 Credits |
+| 03:00 | Lancet I | 12,500 | 1,250,000 Credits |
 | 04:00 | Ultra Core | 25,000 | 1,000,000 Credits |
 | 04:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 04:00 | Rivet I | 12,500 | 2,500,000 Credits |
-| 05:00 | Rivet I | 5,000 | 1,000,000 Credits |
+| 04:00 | Rivet I | 12,500 | 1,250,000 Credits |
+| 05:00 | Rivet I | 5,000 | 500,000 Credits |
 | 05:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 05:00 | EMP Charge | 5 | 100,000 Credits |
 | 06:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 06:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 06:00 | Ember I | 5,000 | 1,000,000 Credits |
+| 06:00 | Ember I | 5,000 | 500,000 Credits |
 | 07:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 07:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 07:00 | Rivet I | 5,000 | 1,000,000 Credits |
-| 08:00 | Ember I | 12,500 | 2,500,000 Credits |
+| 07:00 | Rivet I | 5,000 | 500,000 Credits |
+| 08:00 | Ember I | 12,500 | 1,250,000 Credits |
 | 08:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 08:00 | EMP Charge | 5 | 100,000 Credits |
 | 09:00 | Ultra Core | 50,000 | 2,000,000 Credits |
 | 09:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 09:00 | Lancet I | 1,250 | 250,000 Credits |
-| 10:00 | Scatter I | 5,000 | 1,000,000 Credits |
+| 09:00 | Lancet I | 1,250 | 125,000 Credits |
+| 10:00 | Scatter I | 5,000 | 500,000 Credits |
 | 10:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 10:00 | EMP Charge | 5 | 100,000 Credits |
 | 11:00 | EMP Charge | 5 | 100,000 Credits |
 | 11:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 11:00 | Lancet I | 12,500 | 2,500,000 Credits |
+| 11:00 | Lancet I | 12,500 | 1,250,000 Credits |
 | 12:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 12:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 12:00 | Scatter I | 5,000 | 1,000,000 Credits |
-| 13:00 | Lancet I | 1,250 | 250,000 Credits |
+| 12:00 | Scatter I | 5,000 | 500,000 Credits |
+| 13:00 | Lancet I | 1,250 | 125,000 Credits |
 | 13:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 13:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 14:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 14:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 14:00 | Ember I | 12,500 | 2,500,000 Credits |
+| 14:00 | Ember I | 12,500 | 1,250,000 Credits |
 | 15:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 15:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 15:00 | Lancet I | 1,250 | 250,000 Credits |
+| 15:00 | Lancet I | 1,250 | 125,000 Credits |
 | 16:00 | Ultra Core | 50,000 | 2,000,000 Credits |
 | 16:00 | Advanced Plasma | 10,000 | 200,000 Credits |
-| 16:00 | Ember I | 5,000 | 1,000,000 Credits |
-| 17:00 | Rivet I | 12,500 | 2,500,000 Credits |
+| 16:00 | Ember I | 5,000 | 500,000 Credits |
+| 17:00 | Rivet I | 12,500 | 1,250,000 Credits |
 | 17:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 17:00 | EMP Charge | 5 | 100,000 Credits |
 | 18:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 18:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 18:00 | Scatter I | 5,000 | 1,000,000 Credits |
-| 19:00 | Ember I | 5,000 | 1,000,000 Credits |
+| 18:00 | Scatter I | 5,000 | 500,000 Credits |
+| 19:00 | Ember I | 5,000 | 500,000 Credits |
 | 19:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 19:00 | EMP Charge | 5 | 100,000 Credits |
 | 20:00 | Ultra Core | 25,000 | 1,000,000 Credits |
 | 20:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 20:00 | Rivet I | 12,500 | 2,500,000 Credits |
+| 20:00 | Rivet I | 12,500 | 1,250,000 Credits |
 | 21:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 21:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 21:00 | Rivet I | 5,000 | 1,000,000 Credits |
+| 21:00 | Rivet I | 5,000 | 500,000 Credits |
 | 22:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 22:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 22:00 | Scatter I | 1,250 | 250,000 Credits |
+| 22:00 | Scatter I | 1,250 | 125,000 Credits |
 | 23:00 | EMP Charge | 5 | 100,000 Credits |
 | 23:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 23:00 | Ember I | 12,500 | 2,500,000 Credits |
+| 23:00 | Ember I | 12,500 | 1,250,000 Credits |
 
 <!-- market-day:end -->
 

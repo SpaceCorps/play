@@ -20,7 +20,7 @@ Az új pilóta nem teljes erejű. Az 1. szinten a lézer és a rakéta kevesebb 
 - **Egy szint ára**: 1. szint → 2. szint: 40 XP; 50. szint → 51. szint: 875 XP; 99. szint → 100. szint: 19 157 XP; összesen 313 258 XP
 - **Mit ad egy szint**: A buff egyenesen nő az 1. szinten felvett értékétől a 100. szinten felvett értékéig. Semmi sem korlátozott
 - **A lézered az 1. szinten**: A sebzésének 80%-át okozza, és az idő 80%-ában talál, vagyis a tárgyoldalak által megadott sebzés 64%-át
-- **A rakétád az 1. szinten**: A sebzésének 80%-át okozza, és az idő 20%-ában hibás gyújtású, vagyis a tárgyoldalak által megadott sebzés 64%-át
+- **A rakétád az 1. szinten**: A sebzésének 100%-át okozza, és az idő 10%-ában hibás gyújtású, vagyis a tárgyoldalak által megadott sebzés 90%-át
 - **Kitérés**: Minden pilóta hajója kikerüli a kitérhető találatok 3%-át, mielőtt bármely készség vagy formáció hozzátenne
 - **Hajótestszint**: A hajód ritkasága határozza meg, ahogy az alábbi táblázat mutatja. A raktéred mérete és a Tömeg XP-je ezt követi
 - **Raktér**: Az indulás után felvett erőforrás-egységeket számolja, a hajótestszintje által adott méretig. Ennek 90%-ától tele van, és teli raktérnél a Tömeg fizetése ×1,5. Soha semmit nem utasít el
@@ -62,8 +62,8 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | :--- | :--- | ---: | ---: |
 | **Lézertechnika** (Reflexek) | Lézersebzés | ×0,8 | ×1,1 |
 |  | Az esély, hogy egy lézersorozat talál | 80% | 90% |
-| **Rakétatechnika** (Reflexek) | Rakétasebzés | ×0,8 | ×1,1 |
-|  | Az esély, hogy egy rakéta hibás gyújtású | 20% | 0% |
+| **Rakétatechnika** (Reflexek) | Rakétasebzés | ×1 | ×1,3 |
+|  | Az esély, hogy egy rakéta hibás gyújtású | 10% | 0% |
 | **Antianyag** (Ösztön) | Dark Matter a felvételekből | ×1 | ×1,25 |
 
 ### Harc {#combat}

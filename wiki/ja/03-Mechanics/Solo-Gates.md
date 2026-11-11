@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: ソロゲート -->
 # ソロゲート {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; ソロゲート; ゲート; ギャラクシーゲート; パーツ; ゲートパーツ; エネルギーマテリアライザー; スピン; 保証; ウェーブ; ライフ; 再開; 放棄; ノーデス; チャレンジ; 実績; Thulium上限 -->
 
-**ソロゲート**は、ギャラクシーゲートのうち単独で飛ぶ5つのゲートです。**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege**、**Omega Vault**があります。それぞれが専用の空っぽのアリーナで、エイリアンのウェーブが次々に襲いかかり、最後にボスが待っています。ゲートは**パーツ**で開き、パーツはThuliumでエネルギーマテリアライザーをスピンして見つけます。クリアするとクレジット、Thulium、経験値、名誉、鉱石、プレート、弾薬が支払われます。
+**ソロゲート**は、ギャラクシーゲートのうち単独で飛ぶ5つのゲートです。**Alpha Rift**、**Beta Breach**、**Gamma Foundry**、**Delta Siege**、**Omega Vault**があります。それぞれが専用の空っぽのアリーナで、エイリアンのウェーブが次々に襲いかかり、最後にボスが待っています。ゲートは**パーツ**で建設し、パーツはThuliumでエネルギーマテリアライザーをスピンして見つけます。クリアするとクレジット、Thulium、経験値、名誉、鉱石、プレート、弾薬が支払われます。
 
 ソロゲートは[クランのダンジョン](/wiki/03-Mechanics/Dungeons.md)ではありません。ダンジョンはクランがグループのために開く迷路で、最奥にウォーロードがいます。ソロゲートはあなた1人だけが入るアリーナで、ほかの誰も一緒に入れません。両者のルール、報酬、制限は別々です。ギャラクシーゲートのページには**Chrono-Gate**もあります。これは飛ぶ場所ではなく、ワイプに向けてあなたの[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)を開くゲートで、そのパーツも同じスピンで見つかります。
 
@@ -28,7 +28,7 @@
 
 ## ゲートパーツを見つける {#finding-gate-parts}
 
-**ギャラクシーゲート**のページを開き、エネルギーマテリアライザーをスピンします。スピンは1回ごとにThuliumで支払い、見つかるパーツは多くても1つで、そのパーツは6つのゲートのどれかに属し、ランダムに決まります。ゲートを開くにはそのゲートのパーツが一定数必要で、パーツは使うまであなたのものです。パーツが見つからなかったスピンは無駄になりません。賞品が支払われます（[下](#a-spin-without-a-part)）。スピンは毎回課金され、Chrono-Gateが完成していても同じです。Chrono-Gateが完成すると、そのスピンの取り分は何も見つけず、ソロゲートは自分の確率を保つので、ソロゲートのパーツのコストはChrono-Gateの有無にかかわらず同じです。
+**ギャラクシーゲート**のページを開き、エネルギーマテリアライザーをスピンします。スピンは1回ごとにThuliumで支払い、見つかるパーツは多くても1つで、そのパーツは6つのゲートのどれかに属し、ランダムに決まります。ゲートを建設するにはそのゲートのパーツが一定数必要で、パーツは使うまであなたのものです。パーツが見つからなかったスピンは無駄になりません。賞品が支払われます（[下](#a-spin-without-a-part)）。スピンは毎回課金され、Chrono-Gateが完成していても同じです。Chrono-Gateが完成すると、そのスピンの取り分は何も見つけず、ソロゲートは自分の確率を保つので、ソロゲートのパーツのコストはChrono-Gateの有無にかかわらず同じです。
 
 表は、各ゲートに必要なパーツ数と、**保証を含めた**平均コストを示します（スピンは抽選なので、運のいいパイロットは安く、運の悪いパイロットは高くつき、保証が許す最長のスピン連続までです）。
 
@@ -84,12 +84,13 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ## 入る {#going-in}
 
-ギャラクシーゲートのページから入ります。入れるのは次のすべてを満たすときだけです。
+ゲートはギャラクシーゲートのページで**建設**し、そのポータルから**ジャンプして入ります**。建設はステーションから、船をドッキングしたままできます。飛行中である必要はありません。必要なのは次のものです。
 
-- ゲートのパーツを持っている：パーツは**最初に入るときに1度だけ**取られ、拒否された入場では何も取られません。
-- 船を操縦していて、ジャンプ中でもCPUチャネル中でもなく、戦闘中でも危険セクターでもなく、ホームサーバーにいる（地域サーバーにはゲートがありません）。
-- ほかのソロのランが開いていない：同時に持てるランは1つで、離れたランは、別のランを始める前に再開するか放棄します。
-- ワールドに空いているリフトがある：各ワールドには一定数のリフトがあり、すべて使用中のときは待ちます。
+- ゲートのパーツ：パーツは**建設するときに1度だけ**取られ、拒否された建設では何も取られません。
+- ほかのソロのランが開いていないこと：同時に持てるランは1つで、離れたランは、別のゲートを建設する前にポータルから入り直すか放棄します。
+- ホームサーバー（地域サーバーにはゲートがありません）。
+
+建設したゲートは、あなたの**基地セクター**（企業に応じて`M-1`、`T-1`、`G-1`のいずれか）に、ゲート名のついたポータルとして立ちます。どこにあるかはギャラクシーゲートのページに表示されます。**出撃してポータルまで飛び、ジャンプ**して通ります。ほかのポータルと同じです。入るときはワールドにリフトが空いている必要があります。各ワールドには一定数のリフトがあり、すべて使用中のときは待ちます。
 
 空っぽのアリーナの中央に、1人で降り立ちます。中ではほかの誰もあなたを攻撃できず、Jump CPUとBase CPUは動きません。
 
@@ -101,7 +102,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 4. **任意ウェーブ**はSeekerの巨大なウェーブで、Delta SiegeとOmega Vaultにそれぞれ1つあります。カウントダウン中にスキップでき、スキップすると完了扱いになり、**何も**支払われません。戦えば、その撃破はほかのウェーブと同じように支払われます。
 5. **最後のウェーブはボスです。**船体が減るとフェーズが変わり、変わるたびに一瞬だけダメージを受けなくなります。ボスを倒すとランはクリアになり、クリア報酬はすぐに支払われます。
 
-**ライフ。**死亡するとライフを1つ失い、ほかの死亡と同じく基地に送られます。ランはあなたを待ち、時計は進みません。**再開**すると、保存されたウェーブに残りライフで戻ります。新しいパーツは要求されません。最後のライフがなくなると挑戦は終わりますが、ランは最後にクリアしたウェーブで開いたままで、再開するとライフが満タンになります。**退出**、ログオフ、ワールドの切り替えはライフを失わずにランを一時停止します。サーバーの再起動でもランは開いたままです。**放棄**するとランをあきらめます。パーツは失われ、倒したエイリアンはその時点のとおりに支払われます。**再開**は飛行中の船からしかできません。死亡のあと、結果画面の再開ボタンは、その理由を示す一行を添えて、復帰するまで待機します。復帰した船は上限つきの船体で戻ります。船体が半分を切ると結果画面が警告しますが、**再開**はそのままの状態で戻ります。基地の修理艦は、そのオーラの内側であなたを修理します。
+**ライフ。**死亡するとライフを1つ失い、ほかの死亡と同じく基地に送られます。ランはあなたを待ち、時計は進みません。ランが開いていてアリーナの外にいる間は、**ゲートのポータルが基地セクターに立っています**。そこをジャンプで通ると、**再開**と同じように、保存されたウェーブに残りライフで戻ります。新しいパーツは要求されません。最後のライフがなくなると挑戦は終わりますが、ランは最後にクリアしたウェーブで開いたままで、入り直すとライフが満タンになります。**退出**、ログオフ、ワールドの切り替えはライフを失わずにランを一時停止します。サーバーの再起動でもランは開いたままです。**放棄**するとランをあきらめます。パーツは失われ、倒したエイリアンはその時点のとおりに支払われます。**再開**は飛行中の船からしかできません。死亡のあと、結果画面の再開ボタンは、その理由を示す一行を添えて、復帰するまで待機します。復帰した船は上限つきの船体で戻ります。船体が半分を切ると結果画面が警告しますが、**再開**はそのままの状態で戻ります。基地の修理艦は、そのオーラの内側であなたを修理します。
 
 どのワールドも同じゲートと戦います。エイリアンの強さと報酬は、飛んでいるワールドによって変わりません。
 
@@ -169,11 +170,11 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400、弾薬：Advanced Plasma ×20,000, Ultra Core ×5,000
-- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100、弾薬：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×3,000
-- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15、弾薬：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×20,000
-- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3、弾薬：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×50,000
-- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10、弾薬：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×85,000
+- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400、弾薬：Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100、弾薬：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15、弾薬：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3、弾薬：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10、弾薬：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
 
 <!-- solo-pay:end -->
 

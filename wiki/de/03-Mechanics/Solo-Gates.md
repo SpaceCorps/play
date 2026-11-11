@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Solo-Tore -->
 # Solo-Tore {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; solo-tore; solo-tor; galaxietore; torteil; torteile; energie-materialisator; scan; garantie; welle; wellen; leben; fortsetzen; aufgeben; ohne tod; herausforderung; erfolg; thulium-obergrenze -->
 
-Die **Solo-Tore** sind fünf Tore der Galaxietore, die du allein fliegst: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** und **Omega Vault**. Jedes ist eine leere Arena für sich, in der Wellen von Aliens nacheinander auf dich zukommen und am Ende ein Boss wartet. Du öffnest ein Tor mit seinen **Teilen**, die du findest, indem du den Energie-Materialisator mit Thulium scannst, und ein Abschluss zahlt Credits, Thulium, Erfahrung, Ehre, Erz, Platten und Munition.
+Die **Solo-Tore** sind fünf Tore der Galaxietore, die du allein fliegst: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** und **Omega Vault**. Jedes ist eine leere Arena für sich, in der Wellen von Aliens nacheinander auf dich zukommen und am Ende ein Boss wartet. Du baust ein Tor mit seinen **Teilen**, die du findest, indem du den Energie-Materialisator mit Thulium scannst, und ein Abschluss zahlt Credits, Thulium, Erfahrung, Ehre, Erz, Platten und Munition.
 
 Ein Solo-Tor ist kein [Clan-Dungeon](/wiki/03-Mechanics/Dungeons.md). Ein Dungeon ist ein Labyrinth, das ein Clan für eine Gruppe öffnet, mit einem Kriegsherrn an seinem Ende; ein Solo-Tor ist eine Arena, in der nur du bist und in die niemand sonst mit dir hineinkann. Beide haben getrennte Regeln, Auszahlungen und Grenzen. Die Seite Galaxietore hat auch das **Chrono-Gate**, das kein Ort zum Fliegen ist, sondern das Tor, das für den Wipe deinen [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) öffnet: Seine Teile werden mit denselben Scans gefunden.
 
@@ -28,7 +28,7 @@ Ein Solo-Tor ist kein [Clan-Dungeon](/wiki/03-Mechanics/Dungeons.md). Ein Dungeo
 
 ## Torteile finden {#finding-gate-parts}
 
-Öffne die Seite **Galaxietore** und scanne mit dem Energie-Materialisator. Jeder Scan wird in Thulium bezahlt und findet höchstens ein Teil, und das Teil gehört zu einem der sechs Tore, per Zufall gewählt. Du brauchst eine Anzahl Teile eines Tors, um es zu öffnen, und die Teile gehören dir, bis du sie einsetzt. Ein Scan ohne Teil ist nicht verloren: Er zahlt eine Belohnung ([unten](#a-spin-without-a-part)). Jeder Scan wird berechnet, auch bei einem fertigen Chrono-Gate. Ist das Chrono-Gate komplett, findet sein Anteil an den Scans nichts, und die Solo-Tore behalten ihre eigene Chance, ein Teil eines Solo-Tors kostet also mit oder ohne es dasselbe.
+Öffne die Seite **Galaxietore** und scanne mit dem Energie-Materialisator. Jeder Scan wird in Thulium bezahlt und findet höchstens ein Teil, und das Teil gehört zu einem der sechs Tore, per Zufall gewählt. Du brauchst eine Anzahl Teile eines Tors, um es zu bauen, und die Teile gehören dir, bis du sie einsetzt. Ein Scan ohne Teil ist nicht verloren: Er zahlt eine Belohnung ([unten](#a-spin-without-a-part)). Jeder Scan wird berechnet, auch bei einem fertigen Chrono-Gate. Ist das Chrono-Gate komplett, findet sein Anteil an den Scans nichts, und die Solo-Tore behalten ihre eigene Chance, ein Teil eines Solo-Tors kostet also mit oder ohne es dasselbe.
 
 Die Tabelle gibt die Kosten jedes Tors in Teilen und was sie im Schnitt **mit der Garantie** kosten (ein Scan ist eine Lotterie, ein glücklicher Pilot zahlt also weniger und ein unglücklicher mehr, bis zur längsten Reihe von Scans, die die Garantie zulässt).
 
@@ -84,12 +84,13 @@ Die meisten Scans finden kein Teil. Jeder von ihnen zahlt eine Belohnung, gewäh
 
 ## Hineingehen {#going-in}
 
-Du betrittst ein Tor von der Seite Galaxietore aus, und nur wenn:
+Du **baust** ein Tor auf der Seite Galaxietore und **springst** durch sein Portal hinein. Das Bauen geht von der Station aus, mit angedocktem Schiff: Du musst nicht fliegen. Es braucht:
 
-- du die Teile des Tors hast: Sie werden **einmal beim ersten Hineingehen** genommen, und ein abgelehnter Eintritt nimmt nichts;
-- du ein Schiff fliegst, nicht in einem Sprung oder einem CPU-Kanal, nicht im Kampf und nicht in einem Gefahrensektor bist und auf dem Heimserver bist (die regionalen Server haben keine Tore);
-- du keinen anderen Solo-Lauf offen hast: Du hast einen Lauf zugleich, und ein Lauf, den du verlassen hast, wird fortgesetzt oder aufgegeben, bevor ein anderer beginnt;
-- ein Rift in deiner Welt frei ist. Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du.
+- die Teile des Tors: Sie werden **einmal beim Bauen** genommen, und ein abgelehntes Bauen nimmt nichts;
+- keinen anderen offenen Solo-Lauf: Du hast einen Lauf zugleich, und ein Lauf, den du verlassen hast, wird wieder durch sein Portal betreten oder aufgegeben, bevor du ein anderes Tor baust;
+- den Heimserver (die regionalen Server haben keine Tore).
+
+Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du.
 
 Du landest allein in der Mitte einer leeren Arena. Niemand kann dich darin angreifen, und die Jump CPU und die Base CPU funktionieren nicht.
 
@@ -101,7 +102,7 @@ Du landest allein in der Mitte einer leeren Arena. Niemand kann dich darin angre
 4. **Eine optionale Welle** ist eine riesige Welle Seeker, und Delta Siege und Omega Vault haben je eine. Während ihres Countdowns kannst du sie überspringen: Sie gilt dann als erledigt und zahlt **nichts**. Kämpfst du sie, zahlen ihre Abschüsse wie die jeder Welle.
 5. **Die letzte Welle ist der Boss.** Er wechselt die Phase, wenn seine Hülle fällt, und bei jedem Wechsel kann er einen Moment lang nicht verletzt werden. Stirbt der Boss, ist der Lauf abgeschlossen, und der Abschluss wird sofort ausgezahlt.
 
-**Leben.** Ein Tod kostet ein Leben und schickt dich wie jeder andere Tod zu deiner Basis; der Lauf wartet auf dich, ohne dass eine Uhr läuft. **Fortsetzen** bringt dich mit den Leben, die du noch hast, in der gespeicherten Welle wieder hinein, und es verlangt keine neuen Teile. Ist dein letztes Leben weg, endet der Versuch, aber der Lauf bleibt bei der letzten abgeschlossenen Welle offen, und Fortsetzen füllt deine Leben wieder auf. **Verlassen**, ein Abmelden oder ein Weltwechsel hält den Lauf an, ohne ein Leben zu kosten. Ein Neustart des Servers hält deinen Lauf ebenfalls offen. **Aufgeben** gibt den Lauf auf: Seine Teile sind weg, und die Aliens, die du getötet hast, werden so bezahlt, wie sie stehen. **Fortsetzen** geht nur mit einem fliegenden Schiff: Nach einem Tod wartet die Schaltfläche auf dem Ergebnisbildschirm, mit einer Zeile, die sagt warum, bis du wieder respawnt hast. Ein respawntes Schiff kehrt mit begrenzter Hülle zurück; liegt deine Hülle unter der Hälfte, warnt dich der Ergebnisbildschirm, und **Fortsetzen** bringt dich trotzdem so zurück, wie du bist. Die Reparaturschiffe an deiner Basis reparieren dich innerhalb ihrer Aura.
+**Leben.** Ein Tod kostet ein Leben und schickt dich wie jeder andere Tod zu deiner Basis; der Lauf wartet auf dich, ohne dass eine Uhr läuft. Solange der Lauf offen ist und du außerhalb der Arena bist, steht **das Portal deines Tors in deinem Heimatsektor**, und ein Sprung hindurch bringt dich wie **Fortsetzen** mit den Leben, die du noch hast, in der gespeicherten Welle wieder hinein; es verlangt keine neuen Teile. Ist dein letztes Leben weg, endet der Versuch, aber der Lauf bleibt bei der letzten abgeschlossenen Welle offen, und das erneute Hineingehen füllt deine Leben wieder auf. **Verlassen**, ein Abmelden oder ein Weltwechsel hält den Lauf an, ohne ein Leben zu kosten. Ein Neustart des Servers hält deinen Lauf ebenfalls offen. **Aufgeben** gibt den Lauf auf: Seine Teile sind weg, und die Aliens, die du getötet hast, werden so bezahlt, wie sie stehen. **Fortsetzen** geht nur mit einem fliegenden Schiff: Nach einem Tod wartet die Schaltfläche auf dem Ergebnisbildschirm, mit einer Zeile, die sagt warum, bis du wieder respawnt hast. Ein respawntes Schiff kehrt mit begrenzter Hülle zurück; liegt deine Hülle unter der Hälfte, warnt dich der Ergebnisbildschirm, und **Fortsetzen** bringt dich trotzdem so zurück, wie du bist. Die Reparaturschiffe an deiner Basis reparieren dich innerhalb ihrer Aura.
 
 Jede Welt kämpft dasselbe Tor: Stärke und Auszahlung der Aliens hängen nicht von der Welt ab, in der du fliegst.
 
@@ -169,11 +170,11 @@ Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, i
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; Munition: Advanced Plasma ×20.000, Ultra Core ×5.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; Munition: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×3.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; Munition: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×20.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; Munition: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×50.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; Munition: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×85.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; Munition: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; Munition: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; Munition: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; Munition: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; Munition: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
 
 <!-- solo-pay:end -->
 

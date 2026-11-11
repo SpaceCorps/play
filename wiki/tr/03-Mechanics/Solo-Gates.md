@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Solo Geçitler -->
 # Solo Geçitler {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; solo geçitler; solo geçit; galaksi geçitleri; geçit parçası; parça; parçalar; enerji maddeleştirici; çevirme; garanti; dalga; dalgalar; can; devam et; pes et; ölümsüz; meydan okuma; başarım; thulium sınırı -->
 
-**Solo geçitler**, Galaksi Geçitleri’nin tek başına uçtuğun beş geçididir: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** ve **Omega Vault**. Her biri kendine ait boş bir arenadır; orada uzaylı dalgaları sana birbiri ardına gelir ve sonda bir patron bekler. Bir geçidi **parçalarıyla** açarsın; parçaları Enerji Maddeleştirici’yi Thulium ile çevirerek bulursun, bir tamamlama da kredi, Thulium, deneyim, onur, cevher, plaka ve cephane öder.
+**Solo geçitler**, Galaksi Geçitleri’nin tek başına uçtuğun beş geçididir: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** ve **Omega Vault**. Her biri kendine ait boş bir arenadır; orada uzaylı dalgaları sana birbiri ardına gelir ve sonda bir patron bekler. Bir geçidi **parçalarıyla** inşa edersin; parçaları Enerji Maddeleştirici’yi Thulium ile çevirerek bulursun, bir tamamlama da kredi, Thulium, deneyim, onur, cevher, plaka ve cephane öder.
 
 Bir solo geçit bir [klan zindanı](/wiki/03-Mechanics/Dungeons.md) değildir. Zindan, bir klanın bir grup için açtığı, sonunda bir Savaş Lordu bulunan labirenttir; solo geçit ise yalnızca senin bulunduğun bir arenadır ve kimse seninle birlikte giremez. İkisinin kuralları, ödemeleri ve sınırları ayrıdır. Galaksi Geçitleri sayfasında ayrıca **Chrono-Gate** vardır; o uçulacak bir yer değil, sıfırlama için [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nu açan geçittir: parçaları aynı çevirmelerle bulunur.
 
@@ -28,7 +28,7 @@ Bir solo geçit bir [klan zindanı](/wiki/03-Mechanics/Dungeons.md) değildir. Z
 
 ## Geçit parçalarını bulmak {#finding-gate-parts}
 
-**Galaksi Geçitleri** sayfasını aç ve Enerji Maddeleştirici’yi çevir. Her çevirme Thulium ile ödenir ve en çok bir parça bulur; parça altı geçitten birine aittir ve rastgele seçilir. Bir geçidi açmak için ondan belli sayıda parça gerekir ve parçalar sen kullanana kadar senindir. Parça bulmayan bir çevirme boşa gitmez: bir ödül öder ([aşağıda](#a-spin-without-a-part)). Her çevirme ücretlendirilir, tamamlanmış bir Chrono-Gate’te bile. Chrono-Gate tamamlandığında çevirmelerdeki payı hiçbir şey bulmaz ve solo geçitler kendi şanslarını korur; yani bir solo geçidin parçası ona sahipken de değilken de aynı maliyettedir.
+**Galaksi Geçitleri** sayfasını aç ve Enerji Maddeleştirici’yi çevir. Her çevirme Thulium ile ödenir ve en çok bir parça bulur; parça altı geçitten birine aittir ve rastgele seçilir. Bir geçidi inşa etmek için ondan belli sayıda parça gerekir ve parçalar sen kullanana kadar senindir. Parça bulmayan bir çevirme boşa gitmez: bir ödül öder ([aşağıda](#a-spin-without-a-part)). Her çevirme ücretlendirilir, tamamlanmış bir Chrono-Gate’te bile. Chrono-Gate tamamlandığında çevirmelerdeki payı hiçbir şey bulmaz ve solo geçitler kendi şanslarını korur; yani bir solo geçidin parçası ona sahipken de değilken de aynı maliyettedir.
 
 Tablo her geçidin parça olarak maliyetini ve **garantiyle** ortalama neye mal olduklarını verir (bir çevirme piyangodur, bu yüzden şanslı bir pilot daha az, şanssız biri daha çok öder; garantinin izin verdiği en uzun çevirme dizisine kadar).
 
@@ -84,12 +84,13 @@ Chrono-Gate’in parçaları sıfırlamada sıfıra döner ve her sezon yeniden 
 
 ## İçeri girmek {#going-in}
 
-Galaksi Geçitleri sayfasından girersin ve yalnızca şu durumlarda:
+Bir geçidi Galaksi Geçitleri sayfasında **inşa edersin** ve portalından **sıçrayarak** girersin. İnşa istasyondan yapılır, gemin kenetliyken: uçuyor olmana gerek yok. Şunlar gerekir:
 
-- geçidin parçaları sende: bunlar **ilk girişte bir kez** alınır ve reddedilen bir giriş hiçbir şey almaz;
-- bir gemi uçuruyorsun; bir sıçrama ya da CPU kanalında, savaşta ve bir Tehlike Sektörü’nde değilsin ve ana sunucudasın (bölgesel sunucularda geçit yoktur);
-- açık başka bir solo turun yok: aynı anda tek turun olur ve bıraktığın bir tur, başka biri başlamadan önce sürdürülür ya da bırakılır;
-- dünyanda boş bir yarık var. Her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin.
+- geçidin parçaları: bunlar **inşa ederken bir kez** alınır ve reddedilen bir inşa hiçbir şey almaz;
+- açık başka bir solo turun olmaması: aynı anda tek turun olur ve bıraktığın bir tura, başka bir geçit inşa etmeden önce portalından yeniden girilir ya da tur bırakılır;
+- ana sunucu (bölgesel sunucularda geçit yoktur).
+
+İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin.
 
 Boş bir arenanın ortasına tek başına inersin. İçeride kimse sana saldıramaz; Jump CPU ve Base CPU çalışmaz.
 
@@ -101,7 +102,7 @@ Boş bir arenanın ortasına tek başına inersin. İçeride kimse sana saldıra
 4. **İsteğe bağlı bir dalga** devasa bir Seeker dalgasıdır; Delta Siege ve Omega Vault’un birer tane var. Geri sayımı sırasında atlayabilirsin: o zaman yapılmış sayılır ve **hiçbir şey** ödemez. Onunla savaşırsan öldürmeleri herhangi bir dalganınki gibi öder.
 5. **Son dalga patrondur.** Gövdesi düştükçe faz değiştirir ve her değişimde bir an hasar alamaz. Patron öldüğünde tur tamamlanır ve tamamlama ödülü hemen ödenir.
 
-**Canlar.** Bir ölüm bir can götürür ve seni, diğer ölümler gibi üssüne gönderir; tur sana saat işlemeden bekler. **Devam et**, seni kalan canlarınla kayıtlı dalgaya geri götürür ve yeni parça istemez. Son canın gittiğinde deneme biter ama tur son geçilen dalgada açık kalır ve Devam et canlarını yeniler. **Ayrıl**, bir oturum kapatma ya da dünya değişimi turu can kaybetmeden duraklatır. Sunucunun yeniden başlatılması da turunu açık tutar. **Pes et**, turdan vazgeçmektir: parçaları gider ve öldürdüğün uzaylılar oldukları gibi ödenir. **Devam et** yalnızca uçan bir gemiyle çalışır: bir ölümden sonra sonuç ekranındaki düğmesi, nedenini söyleyen bir satırla birlikte, yeniden doğana kadar bekler. Yeniden doğan gemi sınırlı bir gövdeyle döner; gövden yarının altındaysa sonuç ekranı seni uyarır, **Devam et** yine de seni olduğun gibi geri götürür. Üssündeki onarım gemileri seni aurasının içinde onarır.
+**Canlar.** Bir ölüm bir can götürür ve seni, diğer ölümler gibi üssüne gönderir; tur sana saat işlemeden bekler. Tur açıkken ve sen arenanın dışındayken **geçidinin portalı ana sektöründe durur**; ondan sıçramak, **Devam et** gibi seni kalan canlarınla kayıtlı dalgaya geri götürür ve yeni parça istemez. Son canın gittiğinde deneme biter ama tur son geçilen dalgada açık kalır ve yeniden girmek canlarını yeniler. **Ayrıl**, bir oturum kapatma ya da dünya değişimi turu can kaybetmeden duraklatır. Sunucunun yeniden başlatılması da turunu açık tutar. **Pes et**, turdan vazgeçmektir: parçaları gider ve öldürdüğün uzaylılar oldukları gibi ödenir. **Devam et** yalnızca uçan bir gemiyle çalışır: bir ölümden sonra sonuç ekranındaki düğmesi, nedenini söyleyen bir satırla birlikte, yeniden doğana kadar bekler. Yeniden doğan gemi sınırlı bir gövdeyle döner; gövden yarının altındaysa sonuç ekranı seni uyarır, **Devam et** yine de seni olduğun gibi geri götürür. Üssündeki onarım gemileri seni aurasının içinde onarır.
 
 Her dünya aynı geçitle savaşır: uzaylıların gücü ve ödemesi uçtuğun dünyaya bağlı değildir.
 
@@ -169,11 +170,11 @@ Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: k
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; cephane: Advanced Plasma ×20.000, Ultra Core ×5.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; cephane: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×3.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; cephane: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×20.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; cephane: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×50.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; cephane: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×85.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; cephane: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; cephane: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; cephane: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; cephane: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; cephane: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
 
 <!-- solo-pay:end -->
 

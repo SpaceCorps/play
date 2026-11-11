@@ -2,7 +2,7 @@
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap -->
 
-The **solo gates** are five gates of the Galaxy Gates that you fly alone: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** and **Omega Vault**. Each is an empty arena of its own where waves of aliens come at you one after the other and a boss waits at the end. You open a gate with its **parts**, which you find by spinning the Energy Materializer with Thulium, and a clear pays Credits, Thulium, experience, honor, ore, plates and ammo.
+The **solo gates** are five gates of the Galaxy Gates that you fly alone: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** and **Omega Vault**. Each is an empty arena of its own where waves of aliens come at you one after the other and a boss waits at the end. You build a gate with its **parts**, which you find by spinning the Energy Materializer with Thulium, and a clear pays Credits, Thulium, experience, honor, ore, plates and ammo.
 
 A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon is a maze that a clan opens for a group with a Warlord at its end; a solo gate is an arena that only you are in, and nobody else can enter it with you. The two have separate rules, pay and limits. The Galaxy Gates page also has the **Chrono-Gate**, which is not a place to fly but the gate that opens your [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) for the wipe: its parts are found with the same spins.
 
@@ -26,7 +26,7 @@ A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon i
 
 ## Finding gate parts
 
-Open the **Galaxy Gates** page and spin the Energy Materializer. Every spin is paid in Thulium and finds at most one part, and the part belongs to one of the six gates, picked by chance. You need a number of parts of a gate to open it, and the parts are yours until you use them. A spin that finds no part is not lost: it pays a prize ([below](#a-spin-without-a-part)). Every spin is charged, a complete Chrono-Gate's too. When the Chrono-Gate is complete its share of the spins finds nothing, and the solo gates keep their own chance, so a part of a solo gate costs the same with or without it.
+Open the **Galaxy Gates** page and spin the Energy Materializer. Every spin is paid in Thulium and finds at most one part, and the part belongs to one of the six gates, picked by chance. You need a number of parts of a gate to build it, and the parts are yours until you use them. A spin that finds no part is not lost: it pays a prize ([below](#a-spin-without-a-part)). Every spin is charged, a complete Chrono-Gate's too. When the Chrono-Gate is complete its share of the spins finds nothing, and the solo gates keep their own chance, so a part of a solo gate costs the same with or without it.
 
 The table gives the cost of each gate in parts and what they cost on average **with the guarantee** (a spin is a lottery, so a lucky pilot pays less and an unlucky one more, up to the longest run of spins the guarantee allows).
 
@@ -82,12 +82,13 @@ Most spins find no part. Each of them pays one prize, picked by the chances belo
 
 ## Going in
 
-You enter from the Galaxy Gates page, and only when:
+You **build** a gate on the Galaxy Gates page and **jump in** through its portal. Building works from the station, with your ship docked: you do not have to be flying. It needs:
 
-- you have the parts of the gate: they are taken **once, when you first go in**, and a refused entry takes nothing;
-- you are flying a ship, not in a jump or a CPU channel, not in combat and not in a Danger Sector, and you are on the home server (the regional servers have no gates);
-- you have no other solo run open: you have one run at a time, and a run that you left is resumed or abandoned before another begins;
-- a rift is free in your world. Each world has a number of them, and when all are busy you wait.
+- the parts of the gate: they are taken **once, when you build it**, and a refused build takes nothing;
+- no other solo run open: you have one run at a time, and a run that you left is entered again through its portal or abandoned before you build another gate;
+- the home server (the regional servers have no gates).
+
+The built gate stands in your **home sector** (`M-1`, `T-1` or `G-1`, by your company) as a portal named after it, and the Galaxy Gates page says where it stands. **Launch, fly to the portal and jump** through it as through any portal. A rift has to be free in your world when you go in: each world has a number of them, and when all are busy you wait.
 
 You land in the middle of an empty arena, alone. Nobody can attack you in it, and the Jump and Base CPUs do not work.
 
@@ -99,7 +100,7 @@ You land in the middle of an empty arena, alone. Nobody can attack you in it, an
 4. **An optional wave** is a huge wave of Seekers, and Delta Siege and Omega Vault have one each. During its countdown you may skip it: it then counts as done, and it pays **nothing**. If you fight it, its kills pay like the kills of any wave.
 5. **The last wave is the boss.** It changes phase as its hull falls, and it cannot be hurt for a moment at every change. When the boss dies the run is cleared, and the clear is paid at once.
 
-**Lives.** A death costs one life and sends you to your base like any other death; the run waits for you, with no clock running. **Resume** takes you back in at the saved wave with the lives you have left, and it asks for no new parts. When your last life is gone the attempt ends but the run stays open at the last cleared wave, and Resume refills your lives. **Leave**, a log-off or a change of world pauses the run without costing a life. A restart of the server keeps your run open too. **Abandon** gives the run up: its parts are gone, and the aliens you killed are paid as they stand. Resume works only from a flying ship: after a death its button on the result screen waits, with a line that says why, until you have respawned. A respawned ship returns with a capped hull, so when your hull is under half the result screen warns you; Resume still puts you back as you are. The repair ships at your base mend you inside their aura.
+**Lives.** A death costs one life and sends you to your base like any other death; the run waits for you, with no clock running. While the run is open and you are outside the arena, **the portal of your gate stands in your home sector**, and a jump through it takes you back in at the saved wave with the lives you have left, as **Resume** does; it asks for no new parts. When your last life is gone the attempt ends but the run stays open at the last cleared wave, and going back in refills your lives. **Leave**, a log-off or a change of world pauses the run without costing a life. A restart of the server keeps your run open too. **Abandon** gives the run up: its parts are gone, and the aliens you killed are paid as they stand. Resume works only from a flying ship: after a death its button on the result screen waits, with a line that says why, until you have respawned. A respawned ship returns with a capped hull, so when your hull is under half the result screen warns you; Resume still puts you back as you are. The repair ships at your base mend you inside their aura.
 
 Every world fights the same gate: the aliens' strength and pay do not depend on the world you fly in.
 
@@ -167,11 +168,11 @@ A clear pays its table **once**, in one go, the moment the boss dies: the Credit
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammo: Advanced Plasma ×20,000, Ultra Core ×5,000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammo: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×3,000
-- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammo: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×20,000
-- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammo: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×50,000
-- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammo: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×85,000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammo: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammo: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammo: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammo: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammo: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
 
 <!-- solo-pay:end -->
 

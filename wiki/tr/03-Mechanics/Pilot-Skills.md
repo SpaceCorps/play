@@ -20,7 +20,7 @@ Yeni bir pilot tam güçte değildir. 1. seviyede bir lazer ve bir roket, eşya 
 - **Bir seviyenin maliyeti**: 1. seviyeden 2’ye 40 XP, 50. seviyeden 51’e 875 XP, 99. seviyeden 100’e 19.157 XP; toplam 313.258 XP
 - **Bir seviyenin verdiği**: Bir buff, 1. seviyedeki değerinden 100. seviyedeki değerine düz bir çizgide artar. Hiçbir şeyin sınırı yoktur
 - **1. seviyede lazerin**: Hasarının %80 kadarını verir ve zamanın %80 kadarında isabet eder; yani eşya sayfalarında yazan hasarın %64 kadarı
-- **1. seviyede roketin**: Hasarının %80 kadarını verir ve zamanın %20 kadarında ateşlenmez; yani eşya sayfalarında yazan hasarın %64 kadarı
+- **1. seviyede roketin**: Hasarının %100 kadarını verir ve zamanın %10 kadarında ateşlenmez; yani eşya sayfalarında yazan hasarın %90 kadarı
 - **Kaçınma**: Her pilotun gemisi, kaçınılabilir darbelerin %3 kadarını, herhangi bir beceri ya da diziliş eklemeden önce savuşturur
 - **Gövde kademesi**: Geminin nadirliği belirler, aşağıdaki tablonun gösterdiği gibi. Kargo bölmesinin boyutu ve Kütle’nin XP’si buna uyar
 - **Kargo bölmesi**: Fırlatmadan sonra topladığın kaynak birimlerini, gövde kademesinin verdiği boyuta kadar sayar. Bunun %90 kadarından itibaren doludur ve dolu bir kargo bölmesi Kütle’nin ×1,5 ödemesini sağlar. Hiçbir şey asla reddedilmez
@@ -62,8 +62,8 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | :--- | :--- | ---: | ---: |
 | **Lazer teknolojisi** (Refleks) | Lazer hasarı | ×0,8 | ×1,1 |
 |  | Bir lazer salvosunun isabet şansı | %80 | %90 |
-| **Roket teknolojisi** (Refleks) | Roket hasarı | ×0,8 | ×1,1 |
-|  | Bir roketin ateşlenmeme şansı | %20 | %0 |
+| **Roket teknolojisi** (Refleks) | Roket hasarı | ×1 | ×1,3 |
+|  | Bir roketin ateşlenmeme şansı | %10 | %0 |
 | **Antimadde** (İçgüdü) | Toplamalardan Dark Matter | ×1 | ×1,25 |
 
 ### Savaş {#combat}

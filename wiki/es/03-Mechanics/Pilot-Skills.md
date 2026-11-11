@@ -20,7 +20,7 @@ Un piloto nuevo no tiene toda su fuerza. En el nivel 1 un láser y un cohete hac
 - **Coste de un nivel**: 40 XP del nivel 1 al 2, 875 XP del nivel 50 al 51, 19.157 XP del nivel 99 al 100; 313.258 XP en total
 - **Lo que da un nivel**: Un bonificador crece en línea recta desde su valor en el nivel 1 hasta su valor en el nivel 100. Nada tiene límite
 - **Tu láser en el nivel 1**: Hace el 80 % de su daño y acierta el 80 % de las veces, es decir, el 64 % del daño que indican las páginas de objetos
-- **Tu cohete en el nivel 1**: Hace el 80 % de su daño y falla al encenderse el 20 % de las veces, es decir, el 64 % del daño que indican las páginas de objetos
+- **Tu cohete en el nivel 1**: Hace el 100 % de su daño y falla al encenderse el 10 % de las veces, es decir, el 90 % del daño que indican las páginas de objetos
 - **Esquiva**: La nave de todo piloto esquiva el 3 % de los impactos que se pueden esquivar, antes de que ninguna destreza o formación sume
 - **Nivel de casco**: La rareza de tu nave lo fija, como muestra la tabla de abajo. El tamaño de tu bodega y la XP de la Masa lo siguen
 - **Bodega**: Cuenta las unidades de recursos que recoges después de despegar, hasta el tamaño que le da su nivel de casco. Está llena desde el 90 % de eso, y una bodega llena hace que la Masa pague ×1,5. Nunca se rechaza nada
@@ -62,8 +62,8 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | :--- | :--- | ---: | ---: |
 | **Tecnología láser** (Reflejos) | Daño láser | ×0,8 | ×1,1 |
 |  | Probabilidad de que una ráfaga láser acierte | 80 % | 90 % |
-| **Tecnología de cohetes** (Reflejos) | Daño de cohete | ×0,8 | ×1,1 |
-|  | Probabilidad de que un cohete falle al encenderse | 20 % | 0 % |
+| **Tecnología de cohetes** (Reflejos) | Daño de cohete | ×1 | ×1,3 |
+|  | Probabilidad de que un cohete falle al encenderse | 10 % | 0 % |
 | **Antimateria** (Instinto) | Dark Matter de las recogidas | ×1 | ×1,25 |
 
 ### Combate {#combat}

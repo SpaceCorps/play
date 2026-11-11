@@ -20,7 +20,7 @@ Un pilota nuovo non è a piena forza. Al livello 1 un laser e un razzo fanno men
 - **Costo di un livello**: 40 XP dal livello 1 al 2, 875 XP dal livello 50 al 51, 19.157 XP dal livello 99 al 100; 313.258 XP in tutto
 - **Cosa dà un livello**: Un bonus cresce in linea retta dal suo valore al livello 1 al suo valore al livello 100. Nulla è limitato
 - **Il tuo laser al livello 1**: Fa il 80% del suo danno e colpisce il 80% delle volte, quindi il 64% del danno indicato dalle pagine degli oggetti
-- **Il tuo razzo al livello 1**: Fa il 80% del suo danno ed è un fallimento il 20% delle volte, quindi il 64% del danno indicato dalle pagine degli oggetti
+- **Il tuo razzo al livello 1**: Fa il 100% del suo danno ed è un fallimento il 10% delle volte, quindi il 90% del danno indicato dalle pagine degli oggetti
 - **Schivata**: La nave di ogni pilota schiva il 3% dei colpi che si possono schivare, prima che qualsiasi competenza o formazione vi aggiunga
 - **Livello dello scafo**: La rarità della tua nave lo fissa, come mostra la tabella qui sotto. La dimensione della tua stiva e gli XP della Massa lo seguono
 - **Stiva**: Conta le unità di risorse che raccogli dopo il lancio, fino alla dimensione che le dà il suo livello dello scafo. È piena a partire dal 90% di questo, e una stiva piena fa pagare la Massa ×1,5. Nulla viene mai rifiutato
@@ -62,8 +62,8 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | :--- | :--- | ---: | ---: |
 | **Tecnica laser** (Riflessi) | Danno laser | ×0,8 | ×1,1 |
 |  | Probabilità che una raffica laser colpisca | 80% | 90% |
-| **Tecnica dei razzi** (Riflessi) | Danno dei razzi | ×0,8 | ×1,1 |
-|  | Probabilità che un razzo sia un fallimento | 20% | 0% |
+| **Tecnica dei razzi** (Riflessi) | Danno dei razzi | ×1 | ×1,3 |
+|  | Probabilità che un razzo sia un fallimento | 10% | 0% |
 | **Antimateria** (Istinto) | Dark Matter dalle raccolte | ×1 | ×1,25 |
 
 ### Combattimento {#combat}

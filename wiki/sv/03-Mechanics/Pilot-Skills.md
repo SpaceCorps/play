@@ -20,7 +20,7 @@ En ny pilot är inte på full styrka. På nivå 1 gör en laser och en raket min
 - **Kostnad för en nivå**: 40 XP från nivå 1 till 2, 875 XP från nivå 50 till 51, 19 157 XP från nivå 99 till 100; 313 258 XP totalt
 - **Vad en nivå ger**: En buff växer i rät linje från sitt värde på nivå 1 till sitt värde på nivå 100. Inget har tak
 - **Din laser på nivå 1**: Den gör 80 % av sin skada och träffar 80 % av gångerna, alltså 64 % av den skada föremålssidorna anger
-- **Din raket på nivå 1**: Den gör 80 % av sin skada och är en blindgångare 20 % av gångerna, alltså 64 % av den skada föremålssidorna anger
+- **Din raket på nivå 1**: Den gör 100 % av sin skada och är en blindgångare 10 % av gångerna, alltså 90 % av den skada föremålssidorna anger
 - **Undanmanöver**: Varje pilots skepp viker undan för 3 % av de träffar som går att väja för, innan någon färdighet eller formation lägger till
 - **Skrovnivå**: Skeppets sällsynthet avgör den, som tabellen nedan visar. Lastrummets storlek och Tyngds XP följer den
 - **Lastrum**: Det räknar de resursenheter du plockar upp efter start, upp till den storlek som dess skrovnivå ger det. Det är fullt från 90 % av det, och ett fullt lastrum gör att Tyngd betalar ×1,5. Inget nekas någonsin
@@ -62,8 +62,8 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | :--- | :--- | ---: | ---: |
 | **Laserteknik** (Reflexer) | Laserskada | ×0,8 | ×1,1 |
 |  | Chans att en lasersalva träffar | 80 % | 90 % |
-| **Raketteknik** (Reflexer) | Raketskada | ×0,8 | ×1,1 |
-|  | Chans att en raket blir en blindgångare | 20 % | 0 % |
+| **Raketteknik** (Reflexer) | Raketskada | ×1 | ×1,3 |
+|  | Chans att en raket blir en blindgångare | 10 % | 0 % |
 | **Antimateria** (Instinkt) | Dark Matter från plock | ×1 | ×1,25 |
 
 ### Strid {#combat}

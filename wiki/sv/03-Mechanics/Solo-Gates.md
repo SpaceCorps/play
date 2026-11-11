@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Soloportar -->
 # Soloportar {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; soloportar; soloport; galaxportar; portdel; portdelar; energimaterialiserare; snurr; garanti; våg; vågor; liv; fortsätt; ge upp; utan död; utmaning; prestation; thulium-tak -->
 
-**Soloportarna** är fem av Galaxportarna som du flyger ensam: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** och **Omega Vault**. Var och en är en egen tom arena där vågor av utomjordingar kommer mot dig en efter en och en boss väntar i slutet. Du öppnar en port med dess **delar**, som du hittar genom att snurra Energimaterialiseraren med Thulium, och en seger betalar krediter, Thulium, erfarenhet, heder, malm, plåtar och ammunition.
+**Soloportarna** är fem av Galaxportarna som du flyger ensam: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** och **Omega Vault**. Var och en är en egen tom arena där vågor av utomjordingar kommer mot dig en efter en och en boss väntar i slutet. Du bygger en port av dess **delar**, som du hittar genom att snurra Energimaterialiseraren med Thulium, och en seger betalar krediter, Thulium, erfarenhet, heder, malm, plåtar och ammunition.
 
 En soloport är inte en [klandungeon](/wiki/03-Mechanics/Dungeons.md). En dungeon är en labyrint som en klan öppnar för en grupp, med en krigsherre i slutet; en soloport är en arena som bara du är i, och ingen annan kan gå in med dig. De två har skilda regler, utbetalningar och gränser. Sidan Galaxportar har också **Chrono-Gate**, som inte är en plats att flyga till utan porten som öppnar ditt [Transportförråd](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) inför wipen: dess delar hittas med samma snurr.
 
@@ -28,7 +28,7 @@ En soloport är inte en [klandungeon](/wiki/03-Mechanics/Dungeons.md). En dungeo
 
 ## Att hitta portdelar {#finding-gate-parts}
 
-Öppna sidan **Galaxportar** och snurra Energimaterialiseraren. Varje snurr betalas med Thulium och hittar högst en del, och delen tillhör en av de sex portarna, vald på måfå. Du behöver ett antal delar av en port för att öppna den, och delarna är dina tills du använder dem. Ett snurr som inte hittar någon del är inte förlorat: det betalar ett pris ([nedan](#a-spin-without-a-part)). Varje snurr debiteras, även med en klar Chrono-Gate. När Chrono-Gate är klar hittar dess andel av snurren ingenting, och soloportarna behåller sin egen chans, så en del av en soloport kostar detsamma med eller utan den.
+Öppna sidan **Galaxportar** och snurra Energimaterialiseraren. Varje snurr betalas med Thulium och hittar högst en del, och delen tillhör en av de sex portarna, vald på måfå. Du behöver ett antal delar av en port för att bygga den, och delarna är dina tills du använder dem. Ett snurr som inte hittar någon del är inte förlorat: det betalar ett pris ([nedan](#a-spin-without-a-part)). Varje snurr debiteras, även med en klar Chrono-Gate. När Chrono-Gate är klar hittar dess andel av snurren ingenting, och soloportarna behåller sin egen chans, så en del av en soloport kostar detsamma med eller utan den.
 
 Tabellen anger kostnaden för varje port i delar och vad de kostar i snitt **med garantin** (ett snurr är ett lotteri, så en lyckosam pilot betalar mindre och en olycklig mer, upp till den längsta serie snurr som garantin tillåter).
 
@@ -84,12 +84,13 @@ De flesta snurr hittar ingen del. Vart och ett betalar ett pris, valt efter chan
 
 ## Att gå in {#going-in}
 
-Du går in från sidan Galaxportar, och bara när:
+Du **bygger** en port på sidan Galaxportar och **hoppar in** genom dess portal. Man bygger från stationen, med skeppet dockat: du behöver inte flyga. Det krävs:
 
-- du har portens delar: de tas **en gång, första gången du går in**, och en nekad ingång tar ingenting;
-- du flyger ett skepp, inte i ett hopp eller en CPU-kanal, inte i strid och inte i en farosektor, och du är på hemservern (de regionala servrarna har inga portar);
-- du inte har någon annan solo-omgång öppen: du har en omgång åt gången, och en omgång du lämnat återupptas eller ges upp innan en annan börjar;
-- en spricka är ledig i din värld. Varje värld har ett antal av dem, och när alla är upptagna väntar du.
+- portens delar: de tas **en gång, när du bygger den**, och ett nekat bygge tar ingenting;
+- ingen annan solo-omgång öppen: du har en omgång åt gången, och en omgång du lämnat går du in i igen genom dess portal eller ger upp innan du bygger en annan port;
+- hemservern (de regionala servrarna har inga portar).
+
+Den byggda porten står i din **hemsektor** (`M-1`, `T-1` eller `G-1`, efter din koncern) som en portal med dess namn, och sidan Galaxportar säger var den står. **Flyg ut, flyg till portalen och hoppa** genom den som genom vilken portal som helst. En spricka måste vara ledig i din värld när du går in: varje värld har ett antal av dem, och när alla är upptagna väntar du.
 
 Du landar ensam mitt i en tom arena. Ingen kan attackera dig i den, och Jump CPU och Base CPU fungerar inte.
 
@@ -101,7 +102,7 @@ Du landar ensam mitt i en tom arena. Ingen kan attackera dig i den, och Jump CPU
 4. **En valfri våg** är en enorm våg Seeker, och Delta Siege och Omega Vault har en var. Under dess nedräkning kan du hoppa över den: den räknas då som klar och betalar **ingenting**. Om du bekämpar den betalar dess nedgörningar som i vilken våg som helst.
 5. **Den sista vågen är bossen.** Den byter fas när dess skrov faller, och den kan inte skadas ett ögonblick vid varje byte. När bossen dör är omgången klar, och segern betalas direkt.
 
-**Liv.** En död kostar ett liv och skickar dig till din bas som vilken annan död som helst; omgången väntar på dig, utan att någon klocka tickar. **Fortsätt** tar dig tillbaka in vid den sparade vågen med de liv du har kvar, och kräver inga nya delar. När ditt sista liv är borta tar försöket slut men omgången är kvar öppen vid den senast avklarade vågen, och Fortsätt fyller på dina liv. **Lämna**, en utloggning eller ett världsbyte pausar omgången utan att kosta ett liv. En omstart av servern håller också din omgång öppen. **Ge upp** ger upp omgången: dess delar är borta, och utomjordingarna du dödade betalas som de står. **Fortsätt** fungerar bara från ett flygande skepp: efter en död väntar knappen på resultatskärmen, med en rad som säger varför, tills du har återvänt. Ett skepp som återvänder kommer tillbaka med begränsat skrov, så när ditt skrov är under hälften varnar resultatskärmen; **Fortsätt** tar dig ändå tillbaka som du är. Reparationsskeppen vid din bas lagar dig inom sin aura.
+**Liv.** En död kostar ett liv och skickar dig till din bas som vilken annan död som helst; omgången väntar på dig, utan att någon klocka tickar. Medan omgången är öppen och du är utanför arenan står **portalen till din port i din hemsektor**, och ett hopp genom den tar dig tillbaka in vid den sparade vågen med de liv du har kvar, som **Fortsätt**; den kräver inga nya delar. När ditt sista liv är borta tar försöket slut men omgången är kvar öppen vid den senast avklarade vågen, och att gå in igen fyller på dina liv. **Lämna**, en utloggning eller ett världsbyte pausar omgången utan att kosta ett liv. En omstart av servern håller också din omgång öppen. **Ge upp** ger upp omgången: dess delar är borta, och utomjordingarna du dödade betalas som de står. **Fortsätt** fungerar bara från ett flygande skepp: efter en död väntar knappen på resultatskärmen, med en rad som säger varför, tills du har återvänt. Ett skepp som återvänder kommer tillbaka med begränsat skrov, så när ditt skrov är under hälften varnar resultatskärmen; **Fortsätt** tar dig ändå tillbaka som du är. Reparationsskeppen vid din bas lagar dig inom sin aura.
 
 Varje värld möter samma port: utomjordingarnas styrka och utbetalning beror inte på vilken värld du flyger i.
 
@@ -169,11 +170,11 @@ En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen 
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammunition: Advanced Plasma ×20 000, Ultra Core ×5 000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammunition: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×3 000
-- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammunition: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×20 000
-- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammunition: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×50 000
-- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammunition: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×85 000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammunition: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammunition: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
+- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammunition: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
+- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammunition: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
+- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammunition: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
 
 <!-- solo-pay:end -->
 

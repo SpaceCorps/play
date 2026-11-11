@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 744c8aa45332a63c -->
+<!-- wiki-i18n source: 0b4be81d7bd87307 -->
 <!-- wiki-i18n title: 火箭 -->
 # 火箭 {#rockets}
 
@@ -6,7 +6,7 @@
 
 ## 一分钟了解 {#in-one-minute}
 
-- **十二种普通火箭。** 四种类型（Lancet、Rivet、Ember、Scatter），每种三个档次。只出售第 I 档，1,000 信用点；第 II、III 档在装配站用下一档的 100 枚火箭制造。
+- **十二种普通火箭。** 四种类型（Lancet、Rivet、Ember、Scatter），每种三个档次。只出售第 I 档，500 信用点；第 II、III 档在装配站用下一档的 100 枚火箭制造。
 - **每枚火箭发射时随机决定伤害。** 发射时，游戏会在这枚火箭的最低伤害和最高伤害之间选出一个数值（Lancet I 为 1,700 到 2,100）。你的舰船、激光、增幅器和增益都不会改变它，只有无人机编队和你的**火箭技术**（飞行员技能）会。外星人发射的火箭不会随机，它们造成固定数值的伤害（见[对付外星人](#against-the-aliens)）。
 - **爆炸中心最强。** Ember 和 Scatter 火箭会爆裂，伤害圆环内的每一艘舰船：中心处是完整数值，边缘处是 66%（N.U.K.E. 的爆炸降到一半）。
 - **两种计时器。** 普通火箭共用一个：任何一次发射后等 3 秒；有**火箭发射器 II 至 V** 时，则是间隔 0.15 秒连发 2 至 5 枚，然后等 5 秒（见[发射](#firing)）。特殊火箭共用另一个 5 秒计时器，任何发射器都不会改变它，每种还要等待自己的计时器，从 3 秒到 2 分钟不等（见[特殊火箭](#special-rockets)）。
@@ -22,10 +22,10 @@
 装配站制造的东西要先有对应的科技；将指针悬停在物品上可看到研究所需的时间。科技树、燃料和加速见 [研究](/wiki/03-Mechanics/Research.md)。
 
 ```tree
-Lancet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Rivet I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Ember I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
-Scatter I | rocket, common | buy 1000 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Lancet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Rivet I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Ember I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Scatter I | rocket, common | buy 500 Credits | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Lancet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Lancet I, 5 Ship Fragment, 10 Nyxite | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Rivet II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Rivet I, 5 Ship Fragment, 10 Daraxium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Ember II | rocket, rare | craft 50000 Credits, 200 Thulium, 120 s, x100 | research 1800 s, 1800 science | 100 Ember I, 5 Ship Fragment, 10 Cataclysite | /wiki/06-Items/Rockets.md#the-twelve-rockets
@@ -82,16 +82,16 @@ Energetic Wall I -> Energetic Wall II
 
 | 名称 | 类型 | 稀有度 | 伤害 | 平均 | 护盾穿透 | 爆炸半径 | 锁定范围 | 射程 | 速度 | 价格 | 最多携带 |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
-| **Lancet I** | 制导 · 单体 | 普通 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 1,000 信用点 | 5,000 |
+| **Lancet I** | 制导 · 单体 | 普通 | 3,500–4,200 | 3,850 | 25% | – | 1,000 | 1,584 | 660 | 500 信用点 | 5,000 |
 | **Lancet II** | 制导 · 单体 | 稀有 | 5,200–6,200 | 5,700 | 35% | – | 1,300 | 2,296 | 820 | 用 100 枚 Lancet I 制造 | 2,000 |
 | **Lancet III** | 制导 · 单体 | 史诗 | 7,300–8,700 | 8,000 | 35% | – | 1,300 | 2,296 | 820 | 用 100 枚 Lancet II 制造 | 500 |
-| **Rivet I** | 直射 · 单体 | 普通 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 1,000 信用点 | 5,000 |
+| **Rivet I** | 直射 · 单体 | 普通 | 4,500–5,250 | 4,875 | 25% | – | – | 1,120 | 700 | 500 信用点 | 5,000 |
 | **Rivet II** | 直射 · 单体 | 稀有 | 7,000–8,000 | 7,500 | 35% | – | – | 1,100 | 500 | 用 100 枚 Rivet I 制造 | 2,000 |
 | **Rivet III** | 直射 · 单体 | 史诗 | 9,800–11,200 | 10,500 | 35% | – | – | 1,100 | 500 | 用 100 枚 Rivet II 制造 | 500 |
-| **Ember I** | 制导 · 范围爆炸 | 普通 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 1,000 信用点 | 5,000 |
+| **Ember I** | 制导 · 范围爆炸 | 普通 | 2,400–2,900 | 2,650 | – | 345 | 920 | 1,500 | 600 | 500 信用点 | 5,000 |
 | **Ember II** | 制导 · 范围爆炸 | 稀有 | 3,500–4,500 | 4,000 | – | 450 | 1,150 | 2,030 | 700 | 用 100 枚 Ember I 制造 | 2,000 |
 | **Ember III** | 制导 · 范围爆炸 | 史诗 | 4,900–6,300 | 5,600 | – | 495 | 1,150 | 2,030 | 700 | 用 100 枚 Ember II 制造 | 500 |
-| **Scatter I** | 直射 · 范围爆炸 | 普通 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 1,000 信用点 | 5,000 |
+| **Scatter I** | 直射 · 范围爆炸 | 普通 | 3,000–3,500 | 3,250 | – | 435 | – | 1,080 | 540 | 500 信用点 | 5,000 |
 | **Scatter II** | 直射 · 范围爆炸 | 稀有 | 4,500–5,500 | 5,000 | – | 600 | – | 1,092 | 420 | 用 100 枚 Scatter I 制造 | 2,000 |
 | **Scatter III** | 直射 · 范围爆炸 | 史诗 | 6,300–7,700 | 7,000 | – | 660 | – | 1,092 | 420 | 用 100 枚 Scatter II 制造 | 500 |
 
@@ -99,7 +99,7 @@ Energetic Wall I -> Energetic Wall II
 
 ## 火箭的花费 {#what-they-cost}
 
-普通（第 I 档）火箭在商店里每枚 1,000 信用点，各类型都一样。稀有（第 II 档）和史诗（第 III 档）火箭不出售：由装配站用下一档的 100 枚火箭制造，每次 100 枚（一批稀有火箭另需 50,000 信用点和 200 Thulium，一批史诗火箭另需 150,000 信用点和 800 Thulium，外加少量材料；其余信息由商店和装配站告诉你）。按每个计时器都发射，一枚普通火箭相当于每分钟 20,000 信用点，而 Ostirion 的三门激光在 x1 弹药下每分钟只消耗 900 信用点。一整叠是 5,000 枚普通火箭（5,000,000 信用点）、2,000 枚稀有火箭或 500 枚史诗火箭： 在此之内你想买多少就买多少，火箭的*最多携带*数量是你能持有数量的唯一限制。重置时，十二种火箭每种最多 1,000 枚无需任何操作就会保留；超出的部分，以及每一枚 N.U.K.E. 和 N.I.K.E.，只有放进运输储藏库才能保留，库中一枚火箭重 1 kg（N.U.K.E. 或 N.I.K.E. 为 250 kg）：见[重置](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)。每 3 秒一枚，一分钟只有二十枚，所以火箭是叠加在激光之上的爆发手段：便宜的用来对付弱小的外星人，贵的留给大战。你在[拍卖行](/wiki/03-Mechanics/Auction.md#limits)挂出的火箭，以及你领先的拍品中的火箭，在你购买或出价时也计入这个上限。 这些是基础数值：飞行员研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）会为你提高每种火箭的携带上限，合计提高 25%、50%、100%、150% 或 200%（向下取整），所以 5,000 在 I 级变成 6,250，在 V 级变成 15,000。
+普通（第 I 档）火箭在商店里每枚 500 信用点，各类型都一样。稀有（第 II 档）和史诗（第 III 档）火箭不出售：由装配站用下一档的 100 枚火箭制造，每次 100 枚（一批稀有火箭另需 50,000 信用点和 200 Thulium，一批史诗火箭另需 150,000 信用点和 800 Thulium，外加少量材料；其余信息由商店和装配站告诉你）。按每个计时器都发射，一枚普通火箭相当于每分钟 10,000 信用点，而 Ostirion 的三门激光在 x1 弹药下每分钟只消耗 900 信用点。一整叠是 5,000 枚普通火箭（2,500,000 信用点）、2,000 枚稀有火箭或 500 枚史诗火箭： 在此之内你想买多少就买多少，火箭的*最多携带*数量是你能持有数量的唯一限制。重置时，十二种火箭每种最多 1,000 枚无需任何操作就会保留；超出的部分，以及每一枚 N.U.K.E. 和 N.I.K.E.，只有放进运输储藏库才能保留，库中一枚火箭重 1 kg（N.U.K.E. 或 N.I.K.E. 为 250 kg）：见[重置](/wiki/03-Mechanics/Wipe-Timeline.md#ammo-and-rockets)。每 3 秒一枚，一分钟只有二十枚，所以火箭是叠加在激光之上的爆发手段：便宜的用来对付弱小的外星人，贵的留给大战。你在[拍卖行](/wiki/03-Mechanics/Auction.md#limits)挂出的火箭，以及你领先的拍品中的火箭，在你购买或出价时也计入这个上限。 这些是基础数值：飞行员研究 Sealed Backdoor（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）会为你提高每种火箭的携带上限，合计提高 25%、50%、100%、150% 或 200%（向下取整），所以 5,000 在 I 级变成 6,250，在 V 级变成 15,000。
 
 商店出售四种普通火箭，按类型逐一列出，之后是 Flares 和 Ricochet；机库、运输储藏库和火箭选择器以同样的方式列出十二种普通火箭，每种类型列在自己的名字下，普通的在前、史诗的在后，之后是特殊火箭。
 
@@ -123,7 +123,7 @@ Energetic Wall I -> Energetic Wall II
 | **Scatter III** | 1 | 1 | 4 | 12 | 62 |
 
 - **普通**单体火箭无论怎么掷都是一击杀死一架 Seeker，三击杀死一架 Phantasm（Lancet I 掷出最低值时需要第四击）；它们是最初几个星区里的日常火箭。**稀有**火箭用来对付 Bulwark 和 Goombah：七枚 Lancet II 就能在大约 20 秒的计时内击杀一架 Bulwark。**史诗**单体火箭用八枚（Rivet III）到十一枚（Lancet III）杀死一架 Goombah。当多个外星人聚在一起时，范围爆炸火箭物有所值：一枚 Scatter III 在一群五架 Phantasm（都在你所瞄准目标的 250 单位内）上空爆裂，一次发射就能对整群共造成约 33,000 点伤害。
-- 只靠火箭击杀是一笔实打实的开销，不是发财之道：单体火箭的花费是该击杀所得的 15%（Rivet II 打 Phantasm）到 95%（Lancet I 打 Crystalys）（信用点，以及按每个 Thulium 折合 200 信用点计的 Thulium），而用弱范围爆炸火箭打强外星人，花费比击杀所得还多（Ember I 打 Bulwark：120%）。只用一种火箭击杀 **Crystalys** 需要 40 到 166 枚火箭，要两到八分钟的计时；一整堆 500 枚史诗火箭足够击杀其中的六到十二架。最强的外星人需要一个计划：你的激光用 x2 弹药，从第一秒起每 3 秒一枚中档火箭，再用下文的大型火箭作为爆发。
+- 只靠火箭击杀是一笔实打实的开销，不是发财之道：普通单体火箭的花费是该击杀所得的 9%（Rivet I 打 Phantasm）到 47%（Lancet I 打 Crystalys）（信用点，以及按每个 Thulium 折合 200 信用点计的 Thulium），而用稀有范围爆炸火箭打最强的外星人，花费比击杀所得还多（Ember II 打 Crystalys：133%）。只用一种火箭击杀 **Crystalys** 需要 40 到 166 枚火箭，要两到八分钟的计时；一整堆 500 枚史诗火箭足够击杀其中的六到十二架。最强的外星人需要一个计划：你的激光用 x2 弹药，从第一秒起每 3 秒一枚中档火箭，再用下文的大型火箭作为爆发。
 - 无论用什么方式击杀，奖励都是一样的（最大的奖励见 [Crystalys](/wiki/04-Aliens/Crystalys.md)），所以火箭击杀只有在节省时间、且花费低于奖励时才值得。
 - **外星人也会发射火箭。** [虫群](/wiki/05-Swarms/Swarms.md)的 Pirate Boss、Dormant Force 和 Pulse，以及[战队](/wiki/03-Mechanics/Clans.md#clan-wardens)的 Siege Warden，会以各自的计时（虫群 5 秒，Siege Warden 8 到 24 秒，不受你的编队影响）向攻击它们的飞行员发射直线 Rivet 火箭。**外星人的火箭不会随机，也不使用上面的范围**：它造成固定的 2,500（Rivet I）、5,000（Rivet II）或 7,500（Rivet III）伤害，在外星人分别强 1.5 倍和 2 倍的 Beta 和 Gamma 里更高（Clan Warden 的火箭在每个世界都一样）。保持移动的舰船可以躲开。虫群的 Boss 也会在货箱中掉落火箭。
 
@@ -181,7 +181,7 @@ Energetic Wall I -> Energetic Wall II
 
 - **伤害。** Ballista（+55%）、Bodkin（+29%）和 Asterism（+24%）的火箭加成会乘到全部 14 种火箭的伤害上，包括 N.U.K.E. 和 N.I.K.E.。Testudo 对所有伤害的代价同样作用于火箭，Culler 对外星人的伤害则作用于击中外星人的火箭。同一枚火箭上的所有系数加起来最高为 ×1.59。这个加成对[小行星](/wiki/03-Mechanics/Asteroid-Mining.md#breaking-one)和对飞船一样有效，小行星的装甲在它之后才扣除。
 - **装填。** Asterism 让普通火箭的计时器变长 35%（4.05 秒），Cordon 变长 11%（3.33 秒），Redoubt 变短 27%（2.19 秒），但绝不会短于火箭的飞行时间再加一瞬。在 Redoubt 下，快速火箭（Lancet I、Rivet I 和 II、Ember I、Scatter I 和 II）等 2.19 秒，Rivet III 等 2.3 秒，Lancet III 等 2.9 秒，Ember III 则等满 3 秒。等待时间在发射时就已确定，所以之后更换编队不会缩短它，火箭槽位上的倒计时也随它变化。特殊火箭的计时器不受任何编队影响。
-- **两枚大型火箭的上限只对编队而言依然成立。** 用最好的编队，N.I.K.E. 最高造成 116,250 的伤害，完好的 Paragon（128,000）能扛住；N.U.K.E. 最高 77,500，Goombah（80,000）能扛住。[火箭技术](#rocket-tech)没有上限，会同时提高两者：100 级、装备 Ballista 时，N.I.K.E. 最高造成 127,875 的伤害，完好的 Paragon 仍能扛住；N.U.K.E. 在爆炸中心最高 85,250，掷出较高数值时足以摧毁一只 Goombah。
+- **两枚大型火箭的上限只对编队而言依然成立。** 用最好的编队，N.I.K.E. 最高造成 116,250 的伤害，完好的 Paragon（128,000）能扛住；N.U.K.E. 最高 77,500，Goombah（80,000）能扛住。[火箭技术](#rocket-tech)没有上限，会同时提高两者：100 级、装备 Ballista 时，N.I.K.E. 最高造成 151,125 的伤害，超过完好的 Paragon 的 128,000；N.U.K.E. 在爆炸中心最高 100,750，无论掷出多少都足以摧毁一只 Goombah。
 - **闪避。** Asterism 的 7% 闪避让击中你的直接命中火箭有 7% 的几率完全不造成伤害，你的飞船上方会浮现“未命中”；范围爆炸没有瞄准，永远不会被闪避。
 - **穿透。** Gemini 把自己的 15 点、Stiletto 把自己的 35 点火箭穿透，加到直接命中火箭的护盾穿透上（爆炸没有穿透），没有上限：Lancet III 加上 Stiletto 是 70%，加上 Gemini 是 50%。激光命中也以同样的方式把 Gemini 的点数加到弹药和增幅器的穿透上，但得不到 Stiletto 的任何点数（[激光与弹药](/wiki/06-Items/Lasers.md#shield-penetration-of-a-laser-hit)）。
 
@@ -189,8 +189,8 @@ Energetic Wall I -> Energetic Wall II
 
 **火箭技术**是一项飞行员技能：你发射火箭并用它们击中舰船时它会升级，它的等级在每艘舰船上都属于你。它从两个方面改变你发射的每一枚火箭。
 
-- **伤害。** 火箭在 1 级造成其伤害的 0.80 倍，随等级呈直线上升，到 100 级为 1.10 倍：游戏在发射时随机决定的数值会乘上它，所以命中、爆炸、小行星和 Energetic Wall 都会受到这个数值。编队的 ×1.59 上限只作用于编队的加成，因此这项技能没有任何上限：100 级配上 Ballista，火箭造成其数值的 1.705 倍，N.U.K.E. 在爆炸中心可达 85,250，比 Goombah 的 80,000 还多。
-- **哑火。** 你向敌人发射的火箭可能哑火，概率在 1 级为 20%，随等级呈直线下降，到 100 级为零。哑火和任何发射一样会耗掉那枚火箭、那一次射击和等待时间，但它哪里也不会飞去：地图上能看到炮口冒出的一团烟，你会收到提示："你的火箭哑火了。" Support Rocket 和 Flares 从不哑火。
+- **伤害。** 火箭在 1 级造成其伤害的 1.00 倍，随等级呈直线上升，到 100 级为 1.30 倍：游戏在发射时随机决定的数值会乘上它，所以命中、爆炸、小行星和 Energetic Wall 都会受到这个数值。编队的 ×1.59 上限只作用于编队的加成，因此这项技能没有任何上限：100 级配上 Ballista，火箭造成其数值的 2.015 倍，N.U.K.E. 在爆炸中心可达 100,750，比 Goombah 的 80,000 还多。
+- **哑火。** 你向敌人发射的火箭可能哑火，概率在 1 级为 10%，随等级呈直线下降，到 100 级为零。哑火和任何发射一样会耗掉那枚火箭、那一次射击和等待时间，但它哪里也不会飞去：地图上能看到炮口冒出的一团烟，你会收到提示："你的火箭哑火了。" Support Rocket 和 Flares 从不哑火。
 
 ## 规则 {#rules}
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Puertas en solitario -->
 # Puertas en solitario {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; puertas en solitario; puerta en solitario; puertas galácticas; pieza; piezas; materializador de energía; giro; garantía; oleada; oleadas; vidas; reanudar; abandonar; sin morir; desafío; logro; límite de thulium -->
 
-Las **puertas en solitario** son cinco puertas de las Puertas Galácticas que pilotas solo: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** y **Omega Vault**. Cada una es una arena vacía propia donde oleadas de alienígenas llegan una tras otra y un jefe espera al final. Abres una puerta con sus **piezas**, que encuentras girando el Materializador de Energía con Thulium, y una victoria paga Credits, Thulium, experiencia, honor, mineral, placas y munición.
+Las **puertas en solitario** son cinco puertas de las Puertas Galácticas que pilotas solo: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** y **Omega Vault**. Cada una es una arena vacía propia donde oleadas de alienígenas llegan una tras otra y un jefe espera al final. Construyes una puerta con sus **piezas**, que encuentras girando el Materializador de Energía con Thulium, y una victoria paga Credits, Thulium, experiencia, honor, mineral, placas y munición.
 
 Una puerta en solitario no es una [mazmorra de clan](/wiki/03-Mechanics/Dungeons.md). Una mazmorra es un laberinto que un clan abre para un grupo, con un Señor de la guerra al final; una puerta en solitario es una arena en la que solo estás tú, y nadie más puede entrar contigo. Las dos tienen reglas, pagos y límites separados. La página de las Puertas Galácticas también tiene el **Chrono-Gate**, que no es un lugar al que volar sino la puerta que abre tu [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) para el reinicio: sus piezas se encuentran con los mismos giros.
 
@@ -28,7 +28,7 @@ Una puerta en solitario no es una [mazmorra de clan](/wiki/03-Mechanics/Dungeons
 
 ## Encontrar piezas de puerta {#finding-gate-parts}
 
-Abre la página de las **Puertas Galácticas** y gira el Materializador de Energía. Cada giro se paga en Thulium y encuentra como mucho una pieza, y la pieza pertenece a una de las seis puertas, elegida al azar. Necesitas un número de piezas de una puerta para abrirla, y las piezas son tuyas hasta que las usas. Un giro que no encuentra pieza no se pierde: paga un premio ([más abajo](#a-spin-without-a-part)). Cada giro se cobra, también con el Chrono-Gate completo. Cuando el Chrono-Gate está completo su parte de los giros no encuentra nada, y las puertas en solitario mantienen su propia probabilidad, así que una pieza de una puerta en solitario cuesta lo mismo con él o sin él.
+Abre la página de las **Puertas Galácticas** y gira el Materializador de Energía. Cada giro se paga en Thulium y encuentra como mucho una pieza, y la pieza pertenece a una de las seis puertas, elegida al azar. Necesitas un número de piezas de una puerta para construirla, y las piezas son tuyas hasta que las usas. Un giro que no encuentra pieza no se pierde: paga un premio ([más abajo](#a-spin-without-a-part)). Cada giro se cobra, también con el Chrono-Gate completo. Cuando el Chrono-Gate está completo su parte de los giros no encuentra nada, y las puertas en solitario mantienen su propia probabilidad, así que una pieza de una puerta en solitario cuesta lo mismo con él o sin él.
 
 La tabla da el coste de cada puerta en piezas y lo que cuestan de media **con la garantía** (un giro es una lotería, así que un piloto afortunado paga menos y uno desafortunado más, hasta la racha de giros más larga que permite la garantía).
 
@@ -84,12 +84,13 @@ La mayoría de los giros no encuentran pieza. Cada uno de ellos paga un premio, 
 
 ## Entrar {#going-in}
 
-Entras desde la página de las Puertas Galácticas, y solo cuando:
+**Construyes** una puerta en la página de las Puertas Galácticas y **saltas** dentro por su portal. Construir se hace desde la estación, con la nave atracada: no hace falta estar volando. Hace falta:
 
-- tienes las piezas de la puerta: se toman **una sola vez, al entrar por primera vez**, y una entrada rechazada no quita nada;
-- estás pilotando una nave, no en un salto ni en un canal de CPU, no en combate y no en un Sector de peligro, y estás en el servidor principal (los servidores regionales no tienen puertas);
-- no tienes otra partida en solitario abierta: tienes una partida a la vez, y una partida que dejaste se reanuda o se abandona antes de que empiece otra;
-- hay una grieta libre en tu mundo. Cada mundo tiene un número de ellas, y cuando todas están ocupadas esperas.
+- las piezas de la puerta: se toman **una sola vez, al construirla**, y una construcción rechazada no quita nada;
+- ninguna otra partida en solitario abierta: tienes una partida a la vez, y una partida que dejaste se vuelve a entrar por su portal o se abandona antes de que construyas otra puerta;
+- el servidor principal (los servidores regionales no tienen puertas).
+
+La puerta construida está en tu **sector base** (`M-1`, `T-1` o `G-1`, según tu corporación) como un portal con su nombre, y la página de las Puertas Galácticas dice dónde está. **Despega, vuela hasta el portal y salta** por él como por cualquier portal. Tiene que haber una grieta libre en tu mundo cuando entres: cada mundo tiene un número de ellas, y cuando todas están ocupadas esperas.
 
 Aterrizas en medio de una arena vacía, solo. Nadie puede atacarte en ella, y la Jump CPU y la Base CPU no funcionan.
 
@@ -101,7 +102,7 @@ Aterrizas en medio de una arena vacía, solo. Nadie puede atacarte en ella, y la
 4. **Una oleada opcional** es una oleada enorme de Seeker, y Delta Siege y Omega Vault tienen una cada una. Durante su cuenta atrás puedes saltarla: entonces cuenta como hecha y **no paga nada**. Si la combates, sus bajas pagan como las de cualquier oleada.
 5. **La última oleada es el jefe.** Cambia de fase a medida que cae su casco, y no se le puede herir un instante en cada cambio. Cuando el jefe muere, la partida está ganada y la victoria se paga al instante.
 
-**Vidas.** Una muerte cuesta una vida y te envía a tu base como cualquier otra muerte; la partida te espera, sin reloj en marcha. **Reanudar** te devuelve a la oleada guardada con las vidas que te quedan, y no pide piezas nuevas. Cuando se acaba tu última vida, el intento termina pero la partida sigue abierta en la última oleada superada, y Reanudar te devuelve las vidas. **Salir**, cerrar la sesión o cambiar de mundo pausa la partida sin costar una vida. Un reinicio del servidor también mantiene tu partida abierta. **Abandonar** deja la partida: sus piezas se pierden, y los alienígenas que mataste se pagan tal como están. **Reanudar** solo funciona desde una nave en vuelo: tras una muerte, su botón en la pantalla de resultados espera, con una línea que dice por qué, hasta que hayas reaparecido. Una nave que reaparece vuelve con el casco limitado, así que cuando tu casco está por debajo de la mitad la pantalla de resultados te avisa; **Reanudar** te devuelve igualmente tal como estás. Las naves reparadoras de tu base te reparan dentro de su aura.
+**Vidas.** Una muerte cuesta una vida y te envía a tu base como cualquier otra muerte; la partida te espera, sin reloj en marcha. Mientras la partida está abierta y estás fuera de la arena, **el portal de tu puerta está en tu sector base**, y un salto por él te devuelve a la oleada guardada con las vidas que te quedan, como **Reanudar**; no pide piezas nuevas. Cuando se acaba tu última vida, el intento termina pero la partida sigue abierta en la última oleada superada, y volver a entrar te devuelve las vidas. **Salir**, cerrar la sesión o cambiar de mundo pausa la partida sin costar una vida. Un reinicio del servidor también mantiene tu partida abierta. **Abandonar** deja la partida: sus piezas se pierden, y los alienígenas que mataste se pagan tal como están. **Reanudar** solo funciona desde una nave en vuelo: tras una muerte, su botón en la pantalla de resultados espera, con una línea que dice por qué, hasta que hayas reaparecido. Una nave que reaparece vuelve con el casco limitado, así que cuando tu casco está por debajo de la mitad la pantalla de resultados te avisa; **Reanudar** te devuelve igualmente tal como estás. Las naves reparadoras de tu base te reparan dentro de su aura.
 
 Todos los mundos combaten la misma puerta: la fuerza y el pago de los alienígenas no dependen del mundo en el que vueles.
 
@@ -169,11 +170,11 @@ Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el 
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munición: Advanced Plasma ×20.000, Ultra Core ×5.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munición: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×3.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munición: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×20.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munición: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×50.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munición: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×85.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munición: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munición: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munición: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munición: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munición: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
 
 <!-- solo-pay:end -->
 

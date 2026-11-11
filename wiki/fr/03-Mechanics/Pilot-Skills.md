@@ -20,7 +20,7 @@ Un nouveau pilote n’est pas à pleine puissance. Au niveau 1, un laser et une 
 - **Coût d’un niveau** : 40 XP du niveau 1 au 2, 875 XP du niveau 50 au 51, 19 157 XP du niveau 99 au 100 ; 313 258 XP en tout
 - **Ce que donne un niveau** : Un bonus croît en ligne droite de sa valeur au niveau 1 à sa valeur au niveau 100. Rien n’est plafonné
 - **Votre laser au niveau 1** : Il fait 80 % de ses dégâts et touche 80 % du temps, soit 64 % des dégâts qu’indiquent les pages d’objets
-- **Votre roquette au niveau 1** : Elle fait 80 % de ses dégâts et est un raté 20 % du temps, soit 64 % des dégâts qu’indiquent les pages d’objets
+- **Votre roquette au niveau 1** : Elle fait 100 % de ses dégâts et est un raté 10 % du temps, soit 90 % des dégâts qu’indiquent les pages d’objets
 - **Esquive** : Le vaisseau de chaque pilote esquive 3 % des coups qui peuvent être esquivés, avant qu’aucune aptitude ou formation n’y ajoute
 - **Niveau de coque** : La rareté de votre vaisseau le fixe, comme le montre le tableau ci-dessous. La taille de votre soute et l’XP de la Masse le suivent
 - **Soute** : Elle compte les unités de ressources que vous ramassez après le lancement, jusqu’à la taille que lui donne son niveau de coque. Elle est pleine à partir de 90 % de cela, et une soute pleine fait payer la Masse ×1,5. Rien n’est jamais refusé
@@ -62,8 +62,8 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | :--- | :--- | ---: | ---: |
 | **Technique laser** (Réflexes) | Dégâts laser | ×0,8 | ×1,1 |
 |  | Chance qu’une salve laser touche | 80 % | 90 % |
-| **Technique des roquettes** (Réflexes) | Dégâts de roquette | ×0,8 | ×1,1 |
-|  | Chance qu’une roquette soit un raté | 20 % | 0 % |
+| **Technique des roquettes** (Réflexes) | Dégâts de roquette | ×1 | ×1,3 |
+|  | Chance qu’une roquette soit un raté | 10 % | 0 % |
 | **Antimatière** (Instinct) | Dark Matter des ramassages | ×1 | ×1,25 |
 
 ### Combat

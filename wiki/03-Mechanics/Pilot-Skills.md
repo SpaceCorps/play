@@ -18,7 +18,7 @@ A new pilot is not at full strength. At level 1 a laser and a rocket do less tha
 - **Cost of a level**: 40 XP from level 1 to 2, 875 XP from level 50 to 51, 19,157 XP from level 99 to 100; 313,258 XP in all
 - **What a level gives**: A buff grows in a straight line from its value at level 1 to its value at level 100. Nothing is capped
 - **Your laser at level 1**: It deals 80% of its damage and hits 80% of the time, so 64% of the damage the item pages list
-- **Your rocket at level 1**: It deals 80% of its damage and is a dud 20% of the time, so 64% of the damage the item pages list
+- **Your rocket at level 1**: It deals 100% of its damage and is a dud 10% of the time, so 90% of the damage the item pages list
 - **Dodging**: Every pilot's ship dodges 3% of the hits that can be dodged, before any skill or formation adds to it
 - **Hull tier**: The rarity of your ship sets it, as the table below shows. The size of your hold and the XP of Heft follow it
 - **Hold**: It counts the resource units you pick up after you launch, up to the size its hull tier gives it. It is full from 90% of that, and a full hold makes Heft pay ×1.5. Nothing is ever refused
@@ -60,8 +60,8 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | :--- | :--- | ---: | ---: |
 | **Laser tech** (Reflex) | Laser damage | ×0.8 | ×1.1 |
 |  | Chance a laser volley hits | 80% | 90% |
-| **Rocket tech** (Reflex) | Rocket damage | ×0.8 | ×1.1 |
-|  | Chance a rocket is a dud | 20% | 0% |
+| **Rocket tech** (Reflex) | Rocket damage | ×1 | ×1.3 |
+|  | Chance a rocket is a dud | 10% | 0% |
 | **Antimatter** (Instinct) | Dark Matter from pick-ups | ×1 | ×1.25 |
 
 ### Combat

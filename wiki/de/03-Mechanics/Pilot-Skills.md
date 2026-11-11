@@ -20,7 +20,7 @@ Ein neuer Pilot ist nicht bei voller Stärke. Auf Level 1 machen ein Laser und e
 - **Kosten eines Levels**: 40 EP von Level 1 auf 2, 875 EP von Level 50 auf 51, 19.157 EP von Level 99 auf 100; 313.258 EP insgesamt
 - **Was ein Level bringt**: Ein Buff wächst geradlinig von seinem Wert auf Level 1 bis zu seinem Wert auf Level 100. Nichts ist gedeckelt
 - **Dein Laser auf Level 1**: Er macht 80 % seines Schadens und trifft zu 80 %, also 64 % des Schadens, den die Gegenstandsseiten nennen
-- **Deine Rakete auf Level 1**: Sie macht 80 % ihres Schadens und ist zu 20 % ein Blindgänger, also 64 % des Schadens, den die Gegenstandsseiten nennen
+- **Deine Rakete auf Level 1**: Sie macht 100 % ihres Schadens und ist zu 10 % ein Blindgänger, also 90 % des Schadens, den die Gegenstandsseiten nennen
 - **Ausweichen**: Jedes Pilotenschiff weicht 3 % der Treffer aus, denen man ausweichen kann, bevor eine Fertigkeit oder Formation etwas hinzufügt
 - **Hüllenstufe**: Die Seltenheit deines Schiffs legt sie fest, wie die Tabelle unten zeigt. Die Größe deines Frachtraums und die EP von Masse folgen ihr
 - **Frachtraum**: Er zählt die Ressourceneinheiten, die du nach dem Start aufsammelst, bis zu der Größe, die seine Hüllenstufe ihm gibt. Voll ist er ab 90 % davon, und ein voller Frachtraum lässt Masse ×1,5 zahlen. Nichts wird je abgelehnt
@@ -62,8 +62,8 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | :--- | :--- | ---: | ---: |
 | **Lasertechnik** (Reflexe) | Laserschaden | ×0,8 | ×1,1 |
 |  | Chance, dass eine Lasersalve trifft | 80 % | 90 % |
-| **Raketentechnik** (Reflexe) | Raketenschaden | ×0,8 | ×1,1 |
-|  | Chance, dass eine Rakete ein Blindgänger ist | 20 % | 0 % |
+| **Raketentechnik** (Reflexe) | Raketenschaden | ×1 | ×1,3 |
+|  | Chance, dass eine Rakete ein Blindgänger ist | 10 % | 0 % |
 | **Antimaterie** (Instinkt) | Dark Matter beim Aufsammeln | ×1 | ×1,25 |
 
 ### Kampf {#combat}

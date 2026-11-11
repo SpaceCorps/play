@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Porte solo -->
 # Porte solo {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; porte solo; porta solo; porte galattiche; pezzo; pezzi; materializzatore di energia; giro; garanzia; ondata; ondate; vite; riprendi; abbandona; senza morire; sfida; obiettivo; limite di thulium -->
 
-Le **porte solo** sono cinque porte delle Porte galattiche che piloti da solo: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** e **Omega Vault**. Ognuna è un’arena vuota tutta sua dove ondate di alieni ti vengono incontro una dopo l’altra e in fondo aspetta un boss. Apri una porta con i suoi **pezzi**, che trovi girando il Materializzatore di energia con il Thulium, e una vittoria paga Crediti, Thulium, esperienza, onore, minerale, piastre e munizioni.
+Le **porte solo** sono cinque porte delle Porte galattiche che piloti da solo: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** e **Omega Vault**. Ognuna è un’arena vuota tutta sua dove ondate di alieni ti vengono incontro una dopo l’altra e in fondo aspetta un boss. Costruisci una porta con i suoi **pezzi**, che trovi girando il Materializzatore di energia con il Thulium, e una vittoria paga Crediti, Thulium, esperienza, onore, minerale, piastre e munizioni.
 
 Una porta solo non è un [dungeon di clan](/wiki/03-Mechanics/Dungeons.md). Un dungeon è un labirinto che un clan apre per un gruppo, con un Signore della guerra in fondo; una porta solo è un’arena in cui ci sei solo tu, e nessun altro può entrarvi con te. Le due hanno regole, pagamenti e limiti separati. La pagina delle Porte galattiche ha anche il **Chrono-Gate**, che non è un posto in cui volare ma la porta che apre il tuo [Deposito di trasporto](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) per il reset: i suoi pezzi si trovano con gli stessi giri.
 
@@ -28,7 +28,7 @@ Una porta solo non è un [dungeon di clan](/wiki/03-Mechanics/Dungeons.md). Un d
 
 ## Trovare i pezzi delle porte {#finding-gate-parts}
 
-Apri la pagina delle **Porte galattiche** e gira il Materializzatore di energia. Ogni giro si paga in Thulium e trova al massimo un pezzo, e il pezzo appartiene a una delle sei porte, scelta a caso. Servono un certo numero di pezzi di una porta per aprirla, e i pezzi sono tuoi finché non li usi. Un giro che non trova alcun pezzo non è perso: paga un premio ([sotto](#a-spin-without-a-part)). Ogni giro si paga, anche con il Chrono-Gate completo. Quando il Chrono-Gate è completo la sua quota dei giri non trova nulla, e le porte solo mantengono la propria probabilità, quindi un pezzo di una porta solo costa lo stesso con o senza di esso.
+Apri la pagina delle **Porte galattiche** e gira il Materializzatore di energia. Ogni giro si paga in Thulium e trova al massimo un pezzo, e il pezzo appartiene a una delle sei porte, scelta a caso. Servono un certo numero di pezzi di una porta per costruirla, e i pezzi sono tuoi finché non li usi. Un giro che non trova alcun pezzo non è perso: paga un premio ([sotto](#a-spin-without-a-part)). Ogni giro si paga, anche con il Chrono-Gate completo. Quando il Chrono-Gate è completo la sua quota dei giri non trova nulla, e le porte solo mantengono la propria probabilità, quindi un pezzo di una porta solo costa lo stesso con o senza di esso.
 
 La tabella dà il costo di ogni porta in pezzi e quanto costano in media **con la garanzia** (un giro è una lotteria, quindi un pilota fortunato paga meno e uno sfortunato di più, fino alla serie di giri più lunga che la garanzia consente).
 
@@ -84,12 +84,13 @@ La maggior parte dei giri non trova alcun pezzo. Ognuno di essi paga un premio, 
 
 ## Entrare {#going-in}
 
-Entri dalla pagina delle Porte galattiche, e solo quando:
+**Costruisci** una porta dalla pagina delle Porte galattiche e **salti** dentro dal suo portale. Si costruisce dalla stazione, con la nave attraccata: non devi essere in volo. Servono:
 
-- hai i pezzi della porta: vengono presi **una sola volta, al primo ingresso**, e un ingresso rifiutato non toglie nulla;
-- stai pilotando una nave, non in un salto né in un canale di CPU, non in combattimento e non in un Settore pericoloso, e sei sul server principale (i server regionali non hanno porte);
-- non hai un’altra partita solo aperta: hai una partita alla volta, e una partita che hai lasciato viene ripresa o abbandonata prima che ne inizi un’altra;
-- un varco è libero nel tuo mondo. Ogni mondo ne ha un certo numero, e quando sono tutti occupati aspetti.
+- i pezzi della porta: vengono presi **una sola volta, quando la costruisci**, e una costruzione rifiutata non toglie nulla;
+- nessun’altra partita solo aperta: hai una partita alla volta, e una partita che hai lasciato si rientra dal suo portale o si abbandona prima che tu costruisca un’altra porta;
+- il server principale (i server regionali non hanno porte).
+
+La porta costruita sta nel tuo **settore base** (`M-1`, `T-1` o `G-1`, secondo la tua corporazione) come un portale che porta il suo nome, e la pagina delle Porte galattiche dice dove si trova. **Decolla, vola fino al portale e salta** come in qualsiasi portale. Un varco deve essere libero nel tuo mondo quando entri: ogni mondo ne ha un certo numero, e quando sono tutti occupati aspetti.
 
 Atterri da solo in mezzo a un’arena vuota. Nessuno può attaccarti al suo interno, e la Jump CPU e la Base CPU non funzionano.
 
@@ -101,7 +102,7 @@ Atterri da solo in mezzo a un’arena vuota. Nessuno può attaccarti al suo inte
 4. **Un’ondata facoltativa** è un’enorme ondata di Seeker, e Delta Siege e Omega Vault ne hanno una ciascuna. Durante il suo conto alla rovescia puoi saltarla: conta allora come fatta e **non paga nulla**. Se la combatti, le sue uccisioni pagano come quelle di qualsiasi ondata.
 5. **L’ultima ondata è il boss.** Cambia fase man mano che il suo scafo cala, e a ogni cambio non può essere colpito per un attimo. Quando il boss muore la partita è vinta, e la vittoria viene pagata subito.
 
-**Vite.** Una morte costa una vita e ti manda alla tua base come qualsiasi altra morte; la partita ti aspetta, senza orologio che corre. **Riprendi** ti riporta all’ondata salvata con le vite che ti restano, e non chiede nuovi pezzi. Quando la tua ultima vita è finita il tentativo termina ma la partita resta aperta all’ultima ondata superata, e Riprendi ti rende le vite. **Esci**, una disconnessione o un cambio di mondo mette in pausa la partita senza costare una vita. Anche il riavvio del server mantiene aperta la tua partita. **Abbandona** rinuncia alla partita: i suoi pezzi sono persi, e gli alieni che hai ucciso vengono pagati così come sono. **Riprendi** funziona solo da una nave in volo: dopo una morte il suo pulsante nella schermata del risultato aspetta, con una riga che dice perché, finché non hai fatto respawn. Una nave che fa respawn torna con lo scafo limitato, quindi quando il tuo scafo è sotto la metà la schermata del risultato ti avvisa; **Riprendi** ti riporta comunque così come sei. Le navi riparatrici della tua base ti riparano dentro la loro aura.
+**Vite.** Una morte costa una vita e ti manda alla tua base come qualsiasi altra morte; la partita ti aspetta, senza orologio che corre. Finché la partita è aperta e sei fuori dall’arena, **il portale della tua porta sta nel tuo settore base**, e un salto attraverso di esso ti riporta all’ondata salvata con le vite che ti restano, come **Riprendi**; non chiede nuovi pezzi. Quando la tua ultima vita è finita il tentativo termina ma la partita resta aperta all’ultima ondata superata, e rientrare ti rende le vite. **Esci**, una disconnessione o un cambio di mondo mette in pausa la partita senza costare una vita. Anche il riavvio del server mantiene aperta la tua partita. **Abbandona** rinuncia alla partita: i suoi pezzi sono persi, e gli alieni che hai ucciso vengono pagati così come sono. **Riprendi** funziona solo da una nave in volo: dopo una morte il suo pulsante nella schermata del risultato aspetta, con una riga che dice perché, finché non hai fatto respawn. Una nave che fa respawn torna con lo scafo limitato, quindi quando il tuo scafo è sotto la metà la schermata del risultato ti avvisa; **Riprendi** ti riporta comunque così come sei. Le navi riparatrici della tua base ti riparano dentro la loro aura.
 
 Ogni mondo combatte la stessa porta: la forza e il pagamento degli alieni non dipendono dal mondo in cui voli.
 
@@ -169,11 +170,11 @@ Una vittoria paga la sua tabella **una volta**, in un colpo solo, nel momento in
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munizioni: Advanced Plasma ×20.000, Ultra Core ×5.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munizioni: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×3.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munizioni: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×20.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munizioni: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×50.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munizioni: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×85.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munizioni: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munizioni: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munizioni: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munizioni: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munizioni: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
 
 <!-- solo-pay:end -->
 

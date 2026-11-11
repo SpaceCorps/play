@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 9cfe9cd95c159da6 -->
+<!-- wiki-i18n source: 4d2749864875137f -->
 <!-- wiki-i18n title: Szólókapuk -->
 # Szólókapuk {#solo-gates}
 
 <!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; szólókapuk; szólókapu; galaxiskapuk; kapualkatrész; alkatrész; energiamaterializáló; pörgetés; garancia; hullám; hullámok; életek; folytatás; feladás; halál nélkül; kihívás; eredmény; thulium-plafon -->
 
-A **szólókapuk** a Galaxiskapuk öt kapuja, amelyeket egyedül repülsz be: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** és **Omega Vault**. Mindegyik külön üres aréna, ahol idegenek hullámai jönnek rád egymás után, és a végén egy boss vár. A kaput az **alkatrészeivel** nyitod, amelyeket az Energiamaterializáló Thuliummal való pörgetésével találsz, és egy teljesítés Creditet, Thuliumot, tapasztalatot, becsületet, ércet, lemezeket és lőszert fizet.
+A **szólókapuk** a Galaxiskapuk öt kapuja, amelyeket egyedül repülsz be: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** és **Omega Vault**. Mindegyik külön üres aréna, ahol idegenek hullámai jönnek rád egymás után, és a végén egy boss vár. A kaput az **alkatrészeivel** építed, amelyeket az Energiamaterializáló Thuliummal való pörgetésével találsz, és egy teljesítés Creditet, Thuliumot, tapasztalatot, becsületet, ércet, lemezeket és lőszert fizet.
 
 A szólókapu nem [klánkazamata](/wiki/03-Mechanics/Dungeons.md). A kazamata egy labirintus, amelyet egy klán nyit egy csoportnak, a végén egy Hadúrral; a szólókapu olyan aréna, amelyben csak te vagy, és rajtad kívül senki sem léphet be. A kettőnek külön szabályai, fizetése és korlátai vannak. A Galaxiskapuk oldalon ott van a **Chrono-Gate** is, amely nem repülőhely, hanem az a kapu, amely a wipe-hoz megnyitja a [Tranzittárolódat](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-): az alkatrészeit ugyanazokkal a pörgetésekkel találod.
 
@@ -28,7 +28,7 @@ A szólókapu nem [klánkazamata](/wiki/03-Mechanics/Dungeons.md). A kazamata eg
 
 ## Kapualkatrészek megtalálása {#finding-gate-parts}
 
-Nyisd meg a **Galaxiskapuk** oldalt, és pörgesd az Energiamaterializálót. Minden pörgetést Thuliummal kell fizetni, és legfeljebb egy alkatrészt talál, az alkatrész pedig a hat kapu valamelyikéhez tartozik, véletlenszerűen kiválasztva. A kapu megnyitásához egy bizonyos számú alkatrész kell belőle, és az alkatrészek a tieid, amíg fel nem használod őket. Az a pörgetés, amely nem talál alkatrészt, nem vész el: nyereményt fizet ([lent](#a-spin-without-a-part)). Minden pörgetésért fizetni kell, a kész Chrono-Gate mellett is. Ha a Chrono-Gate kész, a pörgetésekből rá eső rész nem talál semmit, a szólókapuk pedig megtartják a saját esélyüket, így egy szólókapu alkatrésze ugyanannyiba kerül vele vagy nélküle.
+Nyisd meg a **Galaxiskapuk** oldalt, és pörgesd az Energiamaterializálót. Minden pörgetést Thuliummal kell fizetni, és legfeljebb egy alkatrészt talál, az alkatrész pedig a hat kapu valamelyikéhez tartozik, véletlenszerűen kiválasztva. A kapu megépítéséhez egy bizonyos számú alkatrész kell belőle, és az alkatrészek a tieid, amíg fel nem használod őket. Az a pörgetés, amely nem talál alkatrészt, nem vész el: nyereményt fizet ([lent](#a-spin-without-a-part)). Minden pörgetésért fizetni kell, a kész Chrono-Gate mellett is. Ha a Chrono-Gate kész, a pörgetésekből rá eső rész nem talál semmit, a szólókapuk pedig megtartják a saját esélyüket, így egy szólókapu alkatrésze ugyanannyiba kerül vele vagy nélküle.
 
 A táblázat megadja minden kapu költségét alkatrészekben és azt, hogy **a garanciával** átlagosan mibe kerülnek (a pörgetés lottó, így a szerencsés pilóta kevesebbet fizet, a peches többet, a garancia által megengedett leghosszabb pörgetéssorozatig).
 
@@ -84,12 +84,13 @@ A legtöbb pörgetés nem talál alkatrészt. Mindegyik egy nyereményt fizet, a
 
 ## Belépés {#going-in}
 
-A Galaxiskapuk oldalról lépsz be, és csak akkor, ha:
+A kaput a Galaxiskapuk oldalon **építed meg**, és a portálján **ugrasz be**. Az építés az állomásról megy, dokkolt hajóval: nem kell repülnöd. Ehhez kell:
 
-- megvannak a kapu alkatrészei: **egyszer, az első belépéskor** veszik el őket, az elutasított belépés semmit sem vesz el;
-- hajót vezetsz, nem ugrás vagy CPU-csatorna közben, nem harcban és nem Veszélyes szektorban, és a fő szerveren vagy (a regionális szervereken nincsenek kapuk);
-- nincs más nyitott szólómenetted: egyszerre egy menetet játszol, és az elhagyott menetet folytatni vagy feladni kell, mielőtt másik kezdődik;
-- szabad egy hasadék a világodban. Minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz.
+- a kapu alkatrészei: **egyszer, az építéskor** veszik el őket, az elutasított építés semmit sem vesz el;
+- nincs más nyitott szólómenet: egyszerre egy menetet játszol, és az elhagyott menetbe a portálján át lépsz vissza, vagy fel kell adnod, mielőtt másik kaput építesz;
+- a fő szerver (a regionális szervereken nincsenek kapuk).
+
+A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz.
 
 Egy üres aréna közepén landolsz, egyedül. Senki sem támadhat meg benne, és a Jump CPU és a Base CPU nem működik.
 
@@ -101,7 +102,7 @@ Egy üres aréna közepén landolsz, egyedül. Senki sem támadhat meg benne, é
 4. **A választható hullám** Seekerek hatalmas hulláma, és a Delta Siege-nek és az Omega Vaultnak van egy-egy. A visszaszámlálása alatt átugorhatod: ekkor késznek számít, és **semmit** sem fizet. Ha megküzdesz vele, a kilövései úgy fizetnek, mint bármelyik hullámé.
 5. **Az utolsó hullám a boss.** Fázist vált, ahogy a hajóteste csökken, és minden váltásnál egy pillanatig nem sebezhető. Amikor a boss meghal, a menet teljesítve van, és a teljesítés azonnal kifizetésre kerül.
 
-**Életek.** A halál egy életbe kerül, és a bázisodra küld, mint bármelyik másik halál; a menet vár rád, járó óra nélkül. A **Folytatás** visszavisz a mentett hullámba a megmaradt életeiddel, és nem kér új alkatrészt. Ha az utolsó életed is elfogy, a kísérlet véget ér, de a menet nyitva marad az utolsó teljesített hullámnál, és a Folytatás újratölti az életeidet. A **Kilépés**, a kijelentkezés vagy a világváltás szünetelteti a menetet életbe kerülés nélkül. A szerver újraindítása is nyitva tartja a menetedet. A **Feladás** feladja a menetet: az alkatrészei elvesznek, és a megölt idegeneket úgy fizetik ki, ahogy állnak. A **Folytatás** csak repülő hajóból működik: halál után a gombja az eredményképernyőn vár, egy sorral, amely megmondja, miért, amíg újra nem éledtél. Az újraéledt hajó korlátozott hajótesttel tér vissza; ha a hajótested a fele alatt van, az eredményképernyő figyelmeztet, a **Folytatás** pedig így is úgy visz vissza, ahogy vagy. A bázisod javítóhajói az aurájukon belül megjavítanak.
+**Életek.** A halál egy életbe kerül, és a bázisodra küld, mint bármelyik másik halál; a menet vár rád, járó óra nélkül. Amíg a menet nyitva van, és az arénán kívül vagy, **a kapud portálja a bázisszektorodban áll**, és egy ugrás rajta át visszavisz a mentett hullámba a megmaradt életeiddel, ahogy a **Folytatás** is; nem kér új alkatrészt. Ha az utolsó életed is elfogy, a kísérlet véget ér, de a menet nyitva marad az utolsó teljesített hullámnál, és az újbóli belépés újratölti az életeidet. A **Kilépés**, a kijelentkezés vagy a világváltás szünetelteti a menetet életbe kerülés nélkül. A szerver újraindítása is nyitva tartja a menetedet. A **Feladás** feladja a menetet: az alkatrészei elvesznek, és a megölt idegeneket úgy fizetik ki, ahogy állnak. A **Folytatás** csak repülő hajóból működik: halál után a gombja az eredményképernyőn vár, egy sorral, amely megmondja, miért, amíg újra nem éledtél. Az újraéledt hajó korlátozott hajótesttel tér vissza; ha a hajótested a fele alatt van, az eredményképernyő figyelmeztet, a **Folytatás** pedig így is úgy visz vissza, ahogy vagy. A bázisod javítóhajói az aurájukon belül megjavítanak.
 
 Minden világ ugyanazt a kaput vívja: az idegenek ereje és fizetése nem függ attól a világtól, amelyben repülsz.
 
@@ -169,11 +170,11 @@ A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, 
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; lőszer: Advanced Plasma ×20 000, Ultra Core ×5 000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; lőszer: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×3 000
-- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; lőszer: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×20 000
-- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; lőszer: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×50 000
-- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; lőszer: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×85 000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; lőszer: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; lőszer: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
+- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; lőszer: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
+- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; lőszer: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
+- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; lőszer: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
 
 <!-- solo-pay:end -->
 
