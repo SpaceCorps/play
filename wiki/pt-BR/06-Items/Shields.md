@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: Escudos -->
 # Escudos e defesa {#shields-defense}
 
@@ -46,7 +46,7 @@ Equipe núcleos de escudo para gerar barreiras defensivas ativas, nos slots de g
 
 O **Heavy Shield Core** é feito na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Basic Shield Core, com 4.000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit e 4 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Ele mantém o grau de encantamento e os bônus do núcleo que consome ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retire primeiro o Basic Shield Core da sua nave (e as células de dentro dele): um núcleo que está encaixado ou que guarda células não é consumido.
 
-A **absorção** é a parte de cada impacto que seus escudos recebem; o casco recebe o resto. Um escudo sozinho tem de **45 a 55%**, e as células dele somam o resto: o melhor escudo com as melhores células (um Heavy Shield Core com três Absorption Shield Cell IV) chega a **85%**, o máximo que uma nave tem de série. Três bônus permanentes se somam a isso: o Shield Absorbance Boost da Loja de PR (+0,1 ponto por nível, 100 níveis, 25 pontos de reset cada), os bônus de absorção da Forja e a pesquisa de Piloto Field Theory (+4, +7 ou +10 pontos). As fontes de pontos de reset (até 1.105 por reset, que recomeçam a cada reset) compram 44 desses 100 níveis (+4,4 pontos) no primeiro reset, o que, com um conjunto Eterno totalmente forjado, dá cerca de **100%**, e cerca de **110%** com o Field Theory III. Mesmo assim, o atributo não tem teto em 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que uma nave tem acima de 100% é a margem dela contra a penetração. Veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+A **absorção** é a parte de cada impacto que seus escudos recebem; o casco recebe o resto. Um escudo sozinho tem de **45 a 55%**, e as células dele somam o resto: o melhor escudo com as melhores células (um Heavy Shield Core com três Absorption Shield Cell IV) chega a **91%**, o máximo que uma nave tem de série. Três bônus permanentes se somam a isso: o Shield Absorbance Boost da Loja de PR (+0,1 ponto por nível, 100 níveis, 25 pontos de reset cada), os bônus de absorção da Forja e a pesquisa de Piloto Field Theory (+4, +7 ou +10 pontos). As fontes de pontos de reset (até 1.105 por reset, que recomeçam a cada reset) compram 44 desses 100 níveis (+4,4 pontos) no primeiro reset, o que, com um conjunto Eterno totalmente forjado, dá cerca de **106%**, e cerca de **116%** com o Field Theory III. Mesmo assim, o atributo não tem teto em 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que uma nave tem acima de 100% é a margem dela contra a penetração. Veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Os núcleos adaptativos funcionam como geradores híbridos, combinando capacidad
 
 | Nome | Raridade | Bônus de escudo % | Bônus de velocidade % | Slots | Efeito especial | Custo |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Inferior | +4% | +1,2% | 1 | — | 100.000 créditos |
-| **Adaptive Core II** | Comum | +6,4% | +1,6% | 2 | — | Só por criação |
-| **Adaptive Core III** | Raro | +8% | +2% | 3 | — | Só por criação |
+| **Adaptive Core I** | Inferior | +4% | +1,5% | 1 | — | 100.000 créditos |
+| **Adaptive Core II** | Comum | +6,4% | +2,5% | 2 | — | Só por criação |
+| **Adaptive Core III** | Raro | +8% | +3% | 3 | — | Só por criação |
 
 O **Adaptive Core II** é feito na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules) a partir de um Adaptive Core I, com 2.000 Thulium, 60 Ship Fragments, 1 Power Core e 4 Velkonite Reinforced Plates. O **Adaptive Core III** é feito lá a partir de um Adaptive Core II, com 4.000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit e 4 Dark Matter Plates ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Cada um mantém o grau de encantamento e os bônus do núcleo que consome ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retire primeiro da sua nave o núcleo que será consumido (e os propulsores e as células de dentro dele): um núcleo que está encaixado ou que guarda módulos não é consumido.
 
@@ -66,17 +66,17 @@ O **Adaptive Core II** é feito na [Montagem](/wiki/06-Items/Overview.md#upgradi
 
 ## Células de escudo {#shield-cells}
 
-As células de escudo se encaixam dentro de núcleos de escudo ou de núcleos adaptativos (tantas quantos forem os slots do núcleo) para reforçar esse núcleo. Em um núcleo de escudo, elas aumentam também a absorção dele, em pontos, e com ela a parte de cada impacto que seus escudos recebem. Há duas famílias de quatro níveis cada uma: as **Capacity Shield Cells** dão mais escudo e recarga, as **Absorption Shield Cells** mais absorção (em cada nível, o dobro da absorção e metade do escudo e da recarga da Capacity do mesmo nível). A Capacity ajuda uma nave em que o escudo decide o combate; a Absorption, uma em que quem decide é o casco. Um núcleo com todos os slots cheios de uma mesma célula: um Light Shield Core (1 slot) fica entre 47 e 55%, um Basic Shield Core (2 slots) entre 52 e 68% e um Heavy Shield Core (3 slots) entre 56 e 80%, das células Capacity de nível I às Absorption de nível IV. Desequipar o núcleo, ou consumi-lo como doador de uma combinação da [Forja](/wiki/06-Items/Forge.md), devolve as células dele ao inventário.
+As células de escudo se encaixam dentro de núcleos de escudo ou de núcleos adaptativos (tantas quantos forem os slots do núcleo) para reforçar esse núcleo. Em um núcleo de escudo, elas aumentam também a absorção dele, em pontos, e com ela a parte de cada impacto que seus escudos recebem. Há duas famílias de quatro níveis cada uma: as **Capacity Shield Cells** dão mais escudo e recarga, as **Absorption Shield Cells** mais absorção (em cada nível, o dobro da absorção e metade do escudo e da recarga da Capacity do mesmo nível). A Capacity ajuda uma nave em que o escudo decide o combate; a Absorption, uma em que quem decide é o casco. Um núcleo com todos os slots cheios de uma mesma célula: um Light Shield Core (1 slot) fica entre 48 e 57%, um Basic Shield Core (2 slots) entre 56 e 74% e um Heavy Shield Core (3 slots) entre 64 e 91%, das células Capacity de nível I às Absorption de nível IV. Desequipar o núcleo, ou consumi-lo como doador de uma combinação da [Forja](/wiki/06-Items/Forge.md), devolve as células dele ao inventário.
 
 | Nome | Raridade | Capacidade extra | Recarga extra | Absorção extra | Custo |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | Inferior | +3.000 | +250/s | +2% | 30.000 créditos |
-| **Capacity Shield Cell II** | Comum | +6.000 | +500/s | +3% | Só por criação |
-| **Capacity Shield Cell III** | Raro | +9.000 | +750/s | +4% | Só por criação |
-| **Capacity Shield Cell IV** | Épico | +12.000 | +1.000/s | +5% | Só por criação |
-| **Absorption Shield Cell I** | Inferior | +1.500 | +125/s | +4% | 30.000 créditos |
-| **Absorption Shield Cell II** | Comum | +3.000 | +250/s | +6% | Só por criação |
-| **Absorption Shield Cell III** | Raro | +4.500 | +375/s | +8% | Só por criação |
-| **Absorption Shield Cell IV** | Épico | +6.000 | +500/s | +10% | Só por criação |
+| **Capacity Shield Cell I** | Inferior | +4.000 | +250/s | +3% | 30.000 créditos |
+| **Capacity Shield Cell II** | Comum | +8.000 | +500/s | +4% | Só por criação |
+| **Capacity Shield Cell III** | Raro | +12.000 | +750/s | +5% | Só por criação |
+| **Capacity Shield Cell IV** | Épico | +16.000 | +1.000/s | +6% | Só por criação |
+| **Absorption Shield Cell I** | Inferior | +2.000 | +125/s | +6% | 30.000 créditos |
+| **Absorption Shield Cell II** | Comum | +4.000 | +250/s | +8% | Só por criação |
+| **Absorption Shield Cell III** | Raro | +6.000 | +375/s | +10% | Só por criação |
+| **Absorption Shield Cell IV** | Épico | +8.000 | +500/s | +12% | Só por criação |
 
 O nível I de cada família é vendido por 30.000 créditos. Os níveis II a IV são feitos na [Montagem](/wiki/06-Items/Overview.md#upgrading-modules), cada um a partir da célula da mesma família um nível abaixo (uma Capacity Shield Cell II a partir de uma Capacity Shield Cell I, uma III a partir de uma II, uma IV a partir de uma III), com Thulium, drops e placas: 4 Velkonite Reinforced Plates do seu Skylab para o nível II ou III, e 4 Dark Matter Plates e uma Ancient Control Unit para o nível IV. Uma célula nunca muda de família: você escolhe Capacity ou Absorption ao comprar o nível I. A célula nova mantém o grau de encantamento e os bônus da célula que consome ([Melhorias de módulos](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). As células não cabem em um [slot de habilidade](/wiki/03-Mechanics/Abilities.md); o lugar delas é dentro de escudos e de núcleos adaptativos.

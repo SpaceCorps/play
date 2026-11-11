@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ A Védelmi modul harcol a Skylabodért. Tartalmazza a lézereket, amelyek a cell
 
 | Szint | Lézerek | Tár (lövés) | Lelövési keret (pont óránként) | Legnagyobb nehézség |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 300 | 108 | 1 |
-| 2 | 2 | 3 600 | 293 | 2 |
-| 3 | 3 | 14 000 | 476 | 3 |
-| 4 | 4 | 23 000 | 548 | 4 |
-| 5 | 5 | 35 000 | 630 | 5 |
+| 1 | 1 | 1 600 | 108 | 1 |
+| 2 | 2 | 4 300 | 293 | 2 |
+| 3 | 3 | 16 000 | 476 | 3 |
+| 4 | 4 | 28 000 | 548 | 4 |
+| 5 | 5 | 42 000 | 630 | 5 |
 
 | Szint | Kredit | Thulium | Lemez | Idő |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ Az öt szint összesen 24 400 000 kreditbe, 97 600 Thuliumba, 26 lemezbe és 
 
 A Radarmodul feloldja az univerzumtérkép ködét (lásd: [Köd és szkennelés](#fog-and-scanning)). Az 1–3. szintje van, és a magasabb szint gyorsabban szkennel egy cellát.
 
-- **Mit csinál**: **egyszerre egy cellát** szkennel, azok közül, amelyek egy ismert cella mellett vannak, és **háromos sort** tart: az első szkennelés alatt áll, a többi vár. Ha egy szkennelés kész, ismered a cellát, és a Skylabod odarepülhet.
+- **Mit csinál**: **egyszerre egy cellát** szkennel, azok közül, amelyek egy ismert cella mellett vannak, és **sort** tart: az első szkennelés alatt áll, a többi vár. Ha egy szkennelés kész, ismered a cellát, és a Skylabod odarepülhet.
+- **Sor**: a sor **3 cellát fogad be az 1. szinten**, és **szintenként 2-vel többet**: 5-öt a 2. szinten és 7-et a 3. szinten. A fejlesztés csak helyet ad hozzá, és a sorban már álló cellák megtartják a helyüket. Amíg a modul ki van kapcsolva, fejlesztés alatt áll vagy áram nélkül van, a sor megmarad, de új cellát nem fogad be.
 - **Idő**: cellánként 90 perc az 1. szinten, 40 a 2. szinten és 15 a 3. szinten. A szkennelés a szerver óráján fut, akkor is, amikor távol vagy, és amikor a Skylab repül. Áll, és az idő nem pótlódik, amíg a modul ki van kapcsolva, fejlesztés alatt áll vagy áram nélkül van, és amíg a Skylab megsemmisült. A szkennelés időbe kerül, és semmi másba.
 - **Mindent feltérképezni**: a 131 cella feltérképezése, amelyet az elején nem ismersz, egymás után 8 d 4 h-t vesz igénybe az 1. szinten, 3 d 15 h-t a 2. szinten és 1 d 9 h-t a 3. szinten.
 - **Kutatás**: minden szinthez saját technológia kell, Radarmodul I–III (lásd a fenti táblázatot).
@@ -386,18 +387,18 @@ Minden modulnak van tömege, **tömegegységben (MU)**, és a nehezebb állomás
 A legmagasabb szint a 20, kivéve a Kutatóközpontot (10), a Hajtóműmodult és a Védelmi modult (5) és a Radarmodult (3). Az egész állomás 2 353 MU-t nyom a Mag 15. szintjén és 2 734 MU-t a 20. szinten.
 
 - **A tolóerő** a hajók hajtómű-számítása alapsebesség nélkül: egy hajtómű az alapsebességét plusz a tolóegységei fix sebességét adja, megszorozva azok szorzóival; a hajtóműveket jóság szerint rangsorolják, az első négy 100%-ot, az ötödik 85%-ot számít (a modul legfeljebb ötöt fogad); és a négy legjobb sebességbónusz ráadódik. A hajtómű nélküli állomásnak nincs tolóereje.
-- **A sebesség** a tolóerő 60-szorosa osztva az állomás tömegével, egység/másodpercben, és a két szomszédos cella közti ugrás 15 000 egység. Az energia alatt a Skylab oldala ezt a sort mutatja: „Tömeg: 2 353 MU, sebesség: 7,5 egység/s, egy ugrás: 33 min”.
+- **A sebesség** a tolóerő 60-szorosa osztva az állomás tömegével, egység/másodpercben, és a két szomszédos cella közti ugrás 15 000 egység. Az energia alatt a Skylab oldala ezt a sort mutatja: „Tömeg: 2 353 MU, sebesség: 8,9 egység/s, egy ugrás: 28 min”.
 - **Induláskor rögzül**: egy út sebességét induláskor számolják ki, az akkori tömegből és tolóerőből. Egy fejlesztés, amely útközben ér véget, vagy egy hajtómű, amelyet akkor cserélsz, amikor a Skylab állomásozik, a következő útra számít.
 
 Mit tesznek a hajtóművek egy olyan állomásnak, amelyen minden modul a 15. szinten van (a Hajtóműmodul azon a szinten, amely a hajtóműveket tartja):
 
 | Beszerelt hajtóművek | Tömeg (MU) | Tolóerő | Sebesség (egység másodpercenként) | Egy ugrás | A térképen át (14 ugrás) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Hajtóműmodul 1. szint) | 2 289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, mindegyikben 2 Impulse Thruster II (3. szint) | 2 321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
-| 5 Engine III, mindegyikben 3 Impulse Thruster IV (5. szint) | 2 353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
+| 1 Engine I (Hajtóműmodul 1. szint) | 2 289 | 5,1 | 0,13 | 1 d 7 h | 18 d 4 h |
+| 3 Engine II, mindegyikben 2 Impulse Thruster II (3. szint) | 2 321 | 92,1 | 2,38 | 1 h 45 min | 1 d |
+| 5 Engine III, mindegyikben 3 Impulse Thruster IV (5. szint) | 2 353 | 350,6 | 8,94 | 28 min | 6 h 32 min |
 
-A Mag 20. szintjén az állomás 16%-kal nehezebb, és a legjobb hajtóművek 39 percet vesznek igénybe egy ugráshoz és 9 h-t a térképen át.
+A Mag 20. szintjén az állomás 16%-kal nehezebb, és a legjobb hajtóművek 32 percet vesznek igénybe egy ugráshoz és 7 h 35 percet a térképen át.
 
 ## Expedíciók {#expeditions}
 
@@ -434,7 +435,7 @@ Csak azokat a cellákat látod, amelyeket ismersz.
 - **Egy cella, amelyet nem ismersz**, semmit nem mutat magáról: sem a fajtáját, sem a nehézségét, sem a nevét, sem az idegenjeit. Az ismert cella melletti cellát **?** jelöli, és szkennelhető; minden más ismeretlen cella sötét.
 - **Egy ismert cella** a paneljén mutatja a kódját, fajtáját, nehézségét, nevét és idegenjeit.
 - **Repülni** csak ismert cellákba lehet.
-- **Szkennelés**: válassz ki egy **?** cellát, és nyomd meg a **Cella szkennelése** gombot. A radar egyszerre egy cellát szkennel, és háromos sort tart; egy cellát ki lehet venni a sorból, az **Összes törlése** pedig kiüríti. A szkennelés idejét a [Radarmodul](#radar-module) mutatja.
+- **Szkennelés**: válassz ki egy **?** cellát, és nyomd meg a **Cella szkennelése** gombot. A radar egyszerre egy cellát szkennel, és sort tart (3 cella az 1. szinten, szintenként 2-vel több); egy cellát ki lehet venni a sorból, az **Összes törlése** pedig kiüríti. A szkennelés idejét a [Radarmodul](#radar-module) mutatja.
 
 ### Az út {#the-trip}
 
@@ -682,6 +683,7 @@ Minden farmnak és gyűjtőnek van egy tárolója nagyjából 72 órányi termel
 - **Kovácsműhely**: a lemezek a készletedbe kerülnek, ha a hajód leszállt.
 - **Lőszernyomtató és Rakétagyár**: a lőszer és a rakéták a készletedbe kerülnek, ha a hajód leszállt. Mindegyik csak 24 órányi termést tárol (lásd: [Lőszernyomtató](#ammo-printer) és [Rakétagyár](#rocket-factory)).
 - **Ércrakodó**: nincs mit begyűjteni. A készleted ércét az Erőforrás-raktárba rakja át, amikor megnyomod az **Átrakás** gombot, leszállt hajóval, a keretéig (lásd: [Ércrakodó](#ore-bay)).
+- **Pilótaképességek**: a begyűjtés azt fizeti ki, amennyit az órák az éppen meglévő képességeiddel érnek. Az **Extraction** növeli azt, amit a farmok, a gyűjtők, a Lőszernyomtató és a Rakétagyár termel, az **Instinct** a két gyűjtő ércét még tovább növeli, a **Logistics** pedig megnöveli az Erőforrás-raktár bankjának befogadóképességét.
 - **Trófeaterem**: az Univerzum ablakban gyűjtöd be, leszállt hajóval: a kredit és a Thulium a számládra, a tapasztalat és a becsület a pilótádhoz, a zsákmány a készletedbe kerül. Megtartja, amit tart, amíg be nem gyűjtöd, de a teli terem miatt a Skylab abbahagyja a tüzelést (lásd: [Trófeaterem](#trophies-bay)).
 - **Mindent begyűjt** mindent egyszerre elvisz, a kikapcsolt és a fejlesztés alatt álló modulokat is, de a Trófeatermet nem, azt az Univerzum ablakban gyűjtöd be.
 - Egy **(!)** jelvény mutatja a kiüríthető, tele tárolót és a Kovácsműhelyben várakozó lemezeket a Skylab oldalon és az oldalsáv Skylab feliratú sorában.

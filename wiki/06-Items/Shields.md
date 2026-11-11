@@ -44,7 +44,7 @@ Equip shield cores to generate active defensive barriers, in your ship's generat
 
 The **Heavy Shield Core** is made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from a Basic Shield Core, with 4,000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit and 4 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). It keeps the enchant tier and the buffs of the core it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Take the Basic Shield Core off your ship (and its cells out of it) first: a core that is fitted or holds cells is not used up.
 
-**Absorbance** is the share of each hit your shields take; the hull takes the rest. A shield alone is **45 to 55%**, and its cells add the rest: the best shield with the best cells (a Heavy Shield Core with three Absorption Shield Cell IVs) is **85%**, the most a ship has out of the box. Three permanent boosts add to that: the Shield Absorbance Boost of the Season Store (+0.1 points a level, 100 levels, 25 Wipe Points each), the Forge's absorbance buffs and the Pilot research Field Theory (+4, +7 or +10 points). The sources of Wipe Points (up to 1,105 in a wipe, and they start again at every wipe) buy 44 of those 100 levels (+4.4 points) in the first wipe, which with a fully forged Eternal set is about **100%**, and about **110%** with Field Theory III. The stat is not capped at 100%, though: an attacker's *shield penetration* is taken off it, so what a ship has over 100% is its margin against penetration. See [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+**Absorbance** is the share of each hit your shields take; the hull takes the rest. A shield alone is **45 to 55%**, and its cells add the rest: the best shield with the best cells (a Heavy Shield Core with three Absorption Shield Cell IVs) is **91%**, the most a ship has out of the box. Three permanent boosts add to that: the Shield Absorbance Boost of the Season Store (+0.1 points a level, 100 levels, 25 Wipe Points each), the Forge's absorbance buffs and the Pilot research Field Theory (+4, +7 or +10 points). The sources of Wipe Points (up to 1,105 in a wipe, and they start again at every wipe) buy 44 of those 100 levels (+4.4 points) in the first wipe, which with a fully forged Eternal set is about **106%**, and about **116%** with Field Theory III. The stat is not capped at 100%, though: an attacker's *shield penetration* is taken off it, so what a ship has over 100% is its margin against penetration. See [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -54,9 +54,9 @@ Adaptive cores act as hybrid generators, combining shield and speed capabilities
 
 | Name | Rarity | Shield Bonus % | Speed Bonus % | Slots | Special Effect | Cost |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Shoddy | +4% | +1.2% | 1 | — | 100,000 Credits |
-| **Adaptive Core II** | Common | +6.4% | +1.6% | 2 | — | Craftable Only |
-| **Adaptive Core III** | Rare | +8% | +2% | 3 | — | Craftable Only |
+| **Adaptive Core I** | Shoddy | +4% | +1.5% | 1 | — | 100,000 Credits |
+| **Adaptive Core II** | Common | +6.4% | +2.5% | 2 | — | Craftable Only |
+| **Adaptive Core III** | Rare | +8% | +3% | 3 | — | Craftable Only |
 
 The **Adaptive Core II** is made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules) from an Adaptive Core I, with 2,000 Thulium, 60 Ship Fragments, 1 Power Core and 4 Velkonite Reinforced Plates. The **Adaptive Core III** is made there from an Adaptive Core II, with 4,000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit and 4 Dark Matter Plates ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Each keeps the enchant tier and the buffs of the core it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Take the core you use up off your ship (and its thrusters and cells out of it) first: a core that is fitted or holds modules is not used up.
 
@@ -64,17 +64,17 @@ The **Adaptive Core II** is made in [Assembly](/wiki/06-Items/Overview.md#upgrad
 
 ## Shield Cells
 
-Shield Cells are fitted inside Shield Cores or Adaptive Cores (as many as the core's slots) to boost that core. In a Shield Core they raise its absorbance too, in points, and with it the share of each hit your shields take. There are two families of four tiers each: the **Capacity Shield Cells** add the most shield and recharge, the **Absorption Shield Cells** the most absorbance (at every tier twice the absorbance and half the shield and recharge of the Capacity cell of that tier). Capacity helps a ship whose shield ends the fight, Absorption a ship whose hull ends it. A core with all its slots full of one cell: a Light Shield Core (1 slot) is 47 to 55%, a Basic Shield Core (2 slots) 52 to 68% and a Heavy Shield Core (3 slots) 56 to 80%, from tier I Capacity cells to tier IV Absorption cells. Unequipping the core, or using it up as the donor of a [Forge](/wiki/06-Items/Forge.md) merge, returns its cells to the inventory.
+Shield Cells are fitted inside Shield Cores or Adaptive Cores (as many as the core's slots) to boost that core. In a Shield Core they raise its absorbance too, in points, and with it the share of each hit your shields take. There are two families of four tiers each: the **Capacity Shield Cells** add the most shield and recharge, the **Absorption Shield Cells** the most absorbance (at every tier twice the absorbance and half the shield and recharge of the Capacity cell of that tier). Capacity helps a ship whose shield ends the fight, Absorption a ship whose hull ends it. A core with all its slots full of one cell: a Light Shield Core (1 slot) is 48 to 57%, a Basic Shield Core (2 slots) 56 to 74% and a Heavy Shield Core (3 slots) 64 to 91%, from tier I Capacity cells to tier IV Absorption cells. Unequipping the core, or using it up as the donor of a [Forge](/wiki/06-Items/Forge.md) merge, returns its cells to the inventory.
 
 | Name | Rarity | Capacity Boost | Recharge Boost | Absorbance Boost | Cost |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | Shoddy | +3,000 | +250/s | +2% | 30,000 Credits |
-| **Capacity Shield Cell II** | Common | +6,000 | +500/s | +3% | Craftable Only |
-| **Capacity Shield Cell III** | Rare | +9,000 | +750/s | +4% | Craftable Only |
-| **Capacity Shield Cell IV** | Epic | +12,000 | +1,000/s | +5% | Craftable Only |
-| **Absorption Shield Cell I** | Shoddy | +1,500 | +125/s | +4% | 30,000 Credits |
-| **Absorption Shield Cell II** | Common | +3,000 | +250/s | +6% | Craftable Only |
-| **Absorption Shield Cell III** | Rare | +4,500 | +375/s | +8% | Craftable Only |
-| **Absorption Shield Cell IV** | Epic | +6,000 | +500/s | +10% | Craftable Only |
+| **Capacity Shield Cell I** | Shoddy | +4,000 | +250/s | +3% | 30,000 Credits |
+| **Capacity Shield Cell II** | Common | +8,000 | +500/s | +4% | Craftable Only |
+| **Capacity Shield Cell III** | Rare | +12,000 | +750/s | +5% | Craftable Only |
+| **Capacity Shield Cell IV** | Epic | +16,000 | +1,000/s | +6% | Craftable Only |
+| **Absorption Shield Cell I** | Shoddy | +2,000 | +125/s | +6% | 30,000 Credits |
+| **Absorption Shield Cell II** | Common | +4,000 | +250/s | +8% | Craftable Only |
+| **Absorption Shield Cell III** | Rare | +6,000 | +375/s | +10% | Craftable Only |
+| **Absorption Shield Cell IV** | Epic | +8,000 | +500/s | +12% | Craftable Only |
 
 Tier I of each family is sold for 30,000 Credits. Tiers II to IV are made in [Assembly](/wiki/06-Items/Overview.md#upgrading-modules), each from the cell of the same family one tier below (a Capacity Shield Cell II from a Capacity Shield Cell I, a III from a II, a IV from a III), with Thulium, drops and plates: 4 Velkonite Reinforced Plates from your Skylab for tier II or III, and 4 Dark Matter Plates and an Ancient Control Unit for tier IV. A cell never changes family: you choose Capacity or Absorption when you buy tier I. The new cell keeps the enchant tier and the buffs of the cell it uses up ([Module upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Cells don't fit an [ability slot](/wiki/03-Mechanics/Abilities.md); they belong inside shields and Adaptive Cores.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93ce109824aad6c2 -->
+<!-- wiki-i18n source: 43de857ffcad0375 -->
 <!-- wiki-i18n title: Vitesse -->
 # Calcul de la vitesse {#speed-calculation}
 
@@ -21,7 +21,7 @@ Chaque moteur équipé génère de la vitesse, et chaque cœur adaptatif qui con
 - **Bonus fixe des propulseurs** : la somme de tous les ajouts fixes de vitesse des propulseurs (par ex. l’Impulse Thruster III donne `+12.75` de vitesse).
 - **Multiplicateur des propulseurs** : le produit des multiplicateurs de vitesse de tous les propulseurs installés dans ce moteur (par ex. le Momentum Thruster III vaut `1.0765`, soit `+7.65%`, l’Impulse Thruster III `1.0255`, soit `+2.55%`). Il multiplie tout ce que produit le moteur : sa vitesse de base propre et les bonus fixes des propulseurs. Un cœur adaptatif n’a pas de vitesse de base propre, et les bonus fixes de ses propulseurs sont multipliés tout de même.
 
-Un Engine III (vitesse de base 6) avec trois Momentum Thruster IV (`+11.135`, `1.0935`) produit (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, et avec trois Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. Un bonus de la Forge sur le multiplicateur d’un propulseur fait croître la part au-dessus de 1 : +15 % sur `1.0935` donne `1.1075`.
+Un Engine III (vitesse de base 15) avec trois Momentum Thruster IV (`+11.135`, `1.0935`) produit (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, et avec trois Impulse Thruster IV (`+14.025`, `1.02975`) (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3. Un bonus de la Forge sur le multiplicateur d’un propulseur fait croître la part au-dessus de 1 : +15 % sur `1.0935` donne `1.1075`.
 
 ### 2. Rendements décroissants (efficacité marginale) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -45,4 +45,5 @@ Le pourcentage total de bonus de vitesse est la somme de tous les bonus de vites
 - **Pénalité de vitesse des boucliers** : les boucliers lourds alourdissent votre vaisseau et ajoutent des pourcentages de vitesse négatifs (par ex. le Heavy Shield Core ajoute `-5%` de vitesse).
 - **Pondération selon l’emplacement** : ces bonus et pénalités en pourcentage sont eux aussi pondérés par l’efficacité de l’emplacement où l’objet est équipé. Un bouclier installé sur l’un de vos drones vous ralentit comme un bouclier placé dans un emplacement principal.
 - **Jamais sous zéro** : quel que soit le nombre de boucliers que vous portez, votre vitesse ne descend pas sous 0.
+- **Aptitude de pilote** : votre [Théorie des propulseurs](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) augmente la vitesse d’une part, un peu plus à chaque niveau, en plus des moteurs. L’Afterburner multiplie le résultat.
 - **Formations de drones** : une [formation de drones](/wiki/03-Mechanics/Formations.md) portée modifie encore la vitesse finale, comme un facteur à part : Gyre +10 %, Cordon −3 %, Auger −9 %, Culler −10 %, Redoubt −11 %, Rampart −17 %. L’Afterburner multiplie ensuite le résultat.

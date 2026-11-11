@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: eb868ee753081e77 -->
+<!-- wiki-i18n source: ac7ece9cd18ca13a -->
 <!-- wiki-i18n title: Succès -->
 # Succès {#achievements}
 
-Les succès sont les objectifs de toute la carrière d’un pilote : détruire votre premier alien, atteindre le niveau 21, détenir un milliard de crédits, survivre à une réinitialisation. Le jeu les compte pour vous. Il y en a **42**, répartis en **8** groupes et **5** paliers. Chacun paie **une fois par compte, pour toujours** : des crédits pour chacun et, pour la plupart, un **titre** à porter à côté de votre nom. Une réinitialisation ne vous reprend jamais un succès, sa récompense ni son titre.
+Les succès sont les objectifs de toute la carrière d’un pilote : détruire votre premier alien, atteindre le niveau 21, détenir un milliard de crédits, survivre à une réinitialisation. Le jeu les compte pour vous. Il y en a **50**, répartis en **8** groupes et **5** paliers. Chacun paie **une fois par compte, pour toujours** : des crédits pour chacun et, pour la plupart, un **titre** à porter à côté de votre nom. Une réinitialisation ne vous reprend jamais un succès, sa récompense ni son titre.
 
 **En une minute**
 
 - Ouvrez **Communauté › Succès** à la station pour voir chaque objectif, votre avancement et ce qu’il rapporte.
 - Le palier (Commun, Peu commun, Rare, Épique ou Légendaire) fixe les crédits : plus l’objectif est difficile, plus le palier est haut.
 - Vous êtes payé dès que vous atteignez un objectif, en vol ou à la station. Une carte montre le succès et sa récompense, et le Journal de jeu en garde une ligne.
-- **5** des 42 sont cachés : la page les montre comme des cartes fermées jusqu’à ce que vous les débloquiez. Ils comptent dans les 42 et ne sont pas nommés ici.
+- **5** des 50 sont cachés : la page les montre comme des cartes fermées jusqu’à ce que vous les débloquiez. Ils comptent dans les 50 et ne sont pas nommés ici.
 - Dans la version Steam, vos succès apparaissent aussi sur votre profil Steam, une fois votre compte lié (voir plus bas).
 
 ## Paliers et récompenses {#tiers-and-rewards}
@@ -18,17 +18,17 @@ Les cinq paliers paient la même chose pour chaque succès qu’ils contiennent,
 
 | Palier | Succès | Crédits par succès |
 | :--- | ---: | ---: |
-| Commun | 10 | 50 000 |
-| Peu commun | 8 | 150 000 |
-| Rare | 12 | 500 000 |
-| Épique | 7 | 2 000 000 |
-| Légendaire | 5 | 5 000 000 |
+| Commun | 11 | 50 000 |
+| Peu commun | 9 | 150 000 |
+| Rare | 16 | 500 000 |
+| Épique | 8 | 2 000 000 |
+| Légendaire | 6 | 5 000 000 |
 
-Les 42 ensemble paient **46 700 000** crédits, une fois dans la vie d’un pilote.
+Les 50 ensemble paient **55 900 000** crédits, une fois dans la vie d’un pilote.
 
 ## Les succès {#the-achievements}
 
-Les 37 succès qui ne sont pas cachés, par groupe. Quand un objectif compte quelque chose, il le compte sur toute votre carrière.
+Les 45 succès qui ne sont pas cachés, par groupe. Quand un objectif compte quelque chose, il le compte sur toute votre carrière.
 
 ### Combat {#group-combat}
 
@@ -40,6 +40,14 @@ Les 37 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Fléau du Vide | Détruisez 100 000 aliens. | Légendaire |
 | Briseur d’essaim | Détruisez 500 membres d’essaims. | Rare |
 | As | Détruisez 100 pilotes. | Rare |
+| Faille refermée | Terminez seul l’Alpha Rift. | Commun |
+| Brèche scellée | Terminez seul le Beta Breach. | Peu commun |
+| Fonderie arrêtée | Terminez seul la Gamma Foundry. | Rare |
+| Siège brisé | Brisez seul le Delta Siege. | Rare |
+| Coffre-fort forcé | Forcez seul l’Omega Vault. | Épique |
+| Gardien des portes | Terminez les cinq portes solo : Alpha, Beta, Gamma, Delta et Omega. | Légendaire |
+| Intouchable | Terminez une porte solo sans perdre une vie. | Rare |
+| Contre la montre | Terminez une porte solo dans son temps le plus court ou moins : 10, 15, 25, 35 ou 50 minutes, de l’Alpha à l’Omega. | Rare |
 
 ### Pilote {#group-pilot}
 
@@ -69,7 +77,7 @@ Les 37 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Bâtisseur de station | Construisez 5 modules différents du Skylab. | Commun |
 | Pleinement équipé | Construisez les 16 modules du Skylab. | Épique |
 | Érudit | Recherchez 50 technologies. | Peu commun |
-| Archiviste | Recherchez les 179 technologies. | Légendaire |
+| Archiviste | Recherchez les 181 technologies. | Légendaire |
 
 ### Flotte {#group-fleet}
 
@@ -115,7 +123,7 @@ Un succès caché encore verrouillé est une carte fermée, sans objectif et san
 
 ## Titres {#titles}
 
-Un **titre** est une courte ligne de texte à côté du nom d’un pilote. 32 des 42 succès en donnent un, à vous pour toujours dès que vous débloquez le succès. Des titres viennent aussi de la fin d’une saison (votre grade, le meilleur pilote de chaque corporation et le pilote qui a le plus de points PvE) et de l’équipe du jeu, comme le titre **Pioneer** pour chaque compte qui existait le jour du lancement du jeu sur Steam.
+Un **titre** est une courte ligne de texte à côté du nom d’un pilote. 32 des 50 succès en donnent un, à vous pour toujours dès que vous débloquez le succès. Des titres viennent aussi de la fin d’une saison (votre grade, le meilleur pilote de chaque corporation et le pilote qui a le plus de points PvE) et de l’équipe du jeu, comme le titre **Pioneer** pour chaque compte qui existait le jour du lancement du jeu sur Steam.
 
 - Vous possédez de nombreux titres et vous en **portez un** à la fois. Vous le choisissez sur votre **profil de pilote** et vous pouvez l’enlever.
 - Votre titre s’affiche sur votre **profil**, dans les **Classements**, dans la fenêtre du **Groupe** et quand vous pointez votre nom dans le **chat**. Depuis la 0.4.27, il s’affiche aussi sur la carte : une petite ligne discrète, dans la couleur de rareté du titre, **au-dessus du nom du vaisseau de chaque pilote**, le vôtre compris. Un titre trop long est coupé par des points de suspension. Dans la foule (plus de huit pilotes à l’écran), seuls vos amis, votre cible et le vaisseau que vous avez sélectionné gardent le leur, pour que l’écran reste lisible. Il ne s’affiche ni dans la fenêtre Cible ni sur la mini-carte.

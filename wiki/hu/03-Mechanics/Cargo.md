@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -12,8 +12,9 @@ A megsemmisített idegenek a zsákmányukat izzó rakományládákként hagyják
 - A **vállalati pilóták** nem hagynak ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket. Lásd: [Vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md).
 - A **pilóták hajói** nem hagynak roncsot és ládát, amikor megsemmisülnek, bárki vagy bármi semmisíti is meg őket, és a pilóta leltárából nem vesznek el semmit.
 - A **feketelyuk** **Dark Matter**-ládákat rak le a zónája peremén a beléje lőtt N.I.K.E. rakétáért (lásd: [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Ők az egyetlen fajta láda, amely a lyuk gyűrűjén belül fekszik.
-- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei (a Tesseract kivételével) és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
 - **Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** nem ejt ilyen ládát: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](#private-boxes) kap a zsákmányból járó részével.
+- **A [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** a roncsánál sem hagy ládát: minden pilóta, akit a megölése kifizet, saját [privát ládát](#private-boxes) kap a Hull Plate-ek, Reinforced Plate-ek, Power Core-ok, Ancient Control Unitok és a Dark Matter rá eső részével.
 - Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. A darabot úgy veszik fel, mint egy ládát, és azoknak a pilótáknak van fenntartva, akik kiérdemelték, utána szabad, mint egy láda.
 
 Az az idegen, amelyet egy vállalati pilóta fejez be, a zsákmányát annak a pilótának dobja, akinek a kilövés számít (aki a foglalását tartja, különben a vállalatának az ellene harcoló pilótája); az az idegen, amellyel egy vállalati pilóta egyedül harcolt, semmit sem dob, mert a vállalati pilóták sosem gyűjtenek.
@@ -42,14 +43,14 @@ A láda fényei a benne lévő legritkább tárgy színét öltik: kékeszöld a
 
 ## Privát ládák {#private-boxes}
 
-Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmánya nem egyetlen láda egyetlen pilótának: **minden pilóta, aki a sebzés legalább 5%-át okozta, saját ládát kap**, az ő részére kisorsolva (a sebzés 20%-áért nagyjából minden mennyiség ötödét; [a részletek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmánya nem egyetlen láda egyetlen pilótának: **minden pilóta, aki a sebzés legalább 5%-át okozta, saját ládát kap**, az ő részére kisorsolva (a sebzés 20%-áért nagyjából minden mennyiség ötödét; [a részletek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). A [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) zsákmánya ugyanígy működik: minden pilóta, akit a megölése kifizet, kap egyet.
 
 - **Csak te látod, és csak te veheted fel.** A klánod és a csoportod nem látja, és nem veheti fel; mindenki más számára egyszerűen nincs ott. A képernyődön egy vékony gyűrű van alatta.
-- **10 percig áll** a kilövéstől számítva, és végig a tiéd: nincs 30 másodperces várakozás. Utána elsodródik, mint bármelyik láda. A Játéknapló megmondja a zsákmányból járó részedet, amikor az őrző elesik.
+- **10 percig áll** a kilövéstől számítva, és végig a tiéd: nincs 30 másodperces várakozás. Utána elsodródik, mint bármelyik láda. A Játéknapló megmondja a zsákmányból járó részedet, amikor az őrző vagy a Tesseract elesik.
 - **Nem szorít ki más ládákat.** A privát ládáknak saját készletük van a térkép 64 ládája mellett (legfeljebb 32), így egy őrző kilövése soha nem veszi el egy másik láda helyét, és egy tele térkép miatt soha nem veszíted el a ládádat.
 - A felvétel ugyanaz, mint bármelyik ládánál ([fent](#collecting)): a hajód odarepül, a felvétel fél másodpercig tart. A Retrievered a te privát ládáidat is felveszi, és senki másét nem.
 
 ## Boosterek {#boosters}
 
-- A **Loot Luck Booster** (és az állandó Luck Boost buff, valamint a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) szerencséje) növeli minden zsákmánybejegyzés esélyét, amikor a kilövő a kilövést végrehajtja.
-- A **Resource Magnet Booster** **25%**-kal növeli az általad kézzel vagy Retrieverrel felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit, így öt N.I.K.E. mindenkinek tíz Dark Matter.
+- A **Loot Luck Booster** (és az állandó Luck Boost buff, valamint a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) szerencséje) növeli minden zsákmánybejegyzés esélyét, amikor a kilövő a kilövést végrehajtja. Az [Ösztön](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) készséged is növeli ezt az esélyt, a booster esélyén felül.
+- A **Resource Magnet Booster** **25%**-kal növeli az általad kézzel vagy Retrieverrel felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit. Csak a saját Antimatter képességed ad hozzá Dark Mattert (a 100. szinten legfeljebb +25%); nélküle öt N.I.K.E. tíz Dark Matter.

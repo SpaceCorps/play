@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Ironclad는 중장갑 탱커 함선입니다. 모든 함선을 통틀어 가장 
 
 ## 능력치 {#stats}
 
-- **내구도(HP)**: 600,000
+- **내구도(HP)**: 500,000
 - **기본 속도**: 110
 - **레이저 슬롯**: 8
 - **부가 슬롯**: 3
@@ -27,7 +27,7 @@ Ironclad는 중장갑 탱커 함선입니다. 모든 함선을 통틀어 가장 
 
 ## 연구 {#research}
 
-- **장갑 슬롯.** 이 함선에는 [선체 장갑](/wiki/06-Items/Hull-Plating.md)용 [장갑 슬롯](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)이 15개 있으며, 만들었을 때는 모두 잠겨 있습니다. 각 슬롯은 Skylab의 독립된 기술이며, 1시간과 Dark Matter 10개로 첫 번째부터 순서대로 연구합니다. 연구하면 이 함선과 모든 디자인에서 그 슬롯이 열립니다. 15개를 모두 Hull Plating III로 채우면 선체가 225,000 늘어납니다.
+- **장갑 슬롯.** 이 함선에는 [선체 장갑](/wiki/06-Items/Hull-Plating.md)용 [장갑 슬롯](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)이 15개 있으며, 만들었을 때는 모두 잠겨 있습니다. 각 슬롯은 Skylab의 독립된 기술이며, 1시간과 Dark Matter 10개로 첫 번째부터 순서대로 연구합니다. 연구하면 이 함선과 모든 디자인에서 그 슬롯이 열립니다. 15개를 모두 Hull Plating III로 채우면 선체가 375,000 늘어납니다.
 - **디자인.** 이 함선에는 [디자인](/wiki/03-Mechanics/Ship-Designs.md)이 2개 있습니다. 하나를 연구한 뒤(10시간과 Dark Matter 10개), 어셈블리에서 내 함선을 그 디자인으로 개조하세요. 이 변경은 되돌릴 수 없습니다.
 
 | 디자인 | 바뀌는 점 |

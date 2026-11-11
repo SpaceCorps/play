@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -6,7 +6,7 @@ Ekstralar, geminin **ekstra yuvalarındaki** aletlerdir (başladığın ya da sa
 
 | Ekstra | Ne yapar | Kullanım | Fiyat |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I–IV** | Gövdeni onarır: saniyede maksimum gövdenin %1,5, %2,25, %3,5 ve %5 kadarı | sınırsız | 5.000 / 15.000 / 35.000 kredi, 2.000 Thulium |
+| **Repair Drone I–IV** | Gövdeni onarır: saniyede maksimum gövdenin %2, %3, %4 ve %5 kadarı | sınırsız | 5.000 / 15.000 / 35.000 kredi, 2.000 Thulium |
 | **Cloaking CPU S** | Gemini gizler | 10 | 5.000 Thulium |
 | **Cloaking CPU M** | Gemini gizler | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Gemini gizler | 50 | 20.000 Thulium |
@@ -96,13 +96,24 @@ WAL yuvasına bas; **imlecinin olduğu yerde**, geminden ona uzanan hattı dik k
 
 - **Neyi durdurur.** Onu geçen her atış, kim ateşlemiş olursa olsun ve hangi yönden gelirse gelsin, duvara çarpar: bir lazer salvosu, bir roket, bir uzaylının salvosu. Arkasında duran hiçbir şey hasar almaz; hasarı duvar alır. Duvarda patlayan bir roketin patlaması yakın tarafındaki gemilere zarar verir, arkasındakilere vermez. Seninkiler de: kendi duvarının içinden dışarı ateş edemezsin. N.I.K.E. roketi ile Dormant Swamp taretleri, asteroitlerin üzerinden uçtukları gibi, onun üzerinden uçar.
 - **Neyi yakar.** Gövdesi şeride değen her gemi, önce kalkanından olmak üzere, saniyede **2.500 hasar** alır: seninki de, uzaylılar ve şirket pilotları da. Güvenli bölgedeki ya da doğma korumasındaki bir gemi yanmaz ve bir gemide iki şerit toplanmaz.
-- **Ne kadar dayanır.** 1. seviye bir duvar **30.000 HP**, 2. seviye bir duvar **90.000 HP** taşır. Duvar kendiliğinden her saniye bunların altmışta birini kaybeder; yani kimsenin ateş etmediği bir duvar **60 saniye** sonra yok olur. Atışlar bunu kısaltır: x4 cephaneyle on üç Helios Beam taşıyan bir Wraith, 1. seviye bir duvarı yaklaşık 4 saniyede yıkar.
+- **Ne kadar dayanır.** 1. seviye bir duvar **100.000 HP**, 2. seviye bir duvar **250.000 HP** taşır. Duvar kendiliğinden her saniye bunların altmışta birini kaybeder; yani kimsenin ateş etmediği bir duvar **60 saniye** sonra yok olur. Atışlar bunu kısaltır: x4 cephaneyle on üç Helios Beam taşıyan bir Wraith, 1. seviye bir duvarı yaklaşık 11 saniyede, 2. seviye bir duvarı yaklaşık 22 saniyede yıkar.
 - **Aynı anda tek, basış başına bir duvar.** Yeni bir duvar eskisinin yerini alır. Bir basıştan sonra eşya **90 saniye** yeniden dolar; bu bekleme gemiye değil sana aittir, bu yüzden ölmek ya da oturumu kapatmak onu kısaltmaz. Bir basış, yuvasının taşıdığı seviyeden **bir duvar** harcar ve yalnızca duvar kurulduğunda: oyunun reddettiği bir basış (aşağıda) hiçbir şey harcamaz ve bekleme başlatmaz. O seviyeden hiç kalmadıysa “Energetic Wall kalmadı.” der ve onun yerine diğer seviye asla kullanılmaz.
 - **Nerede olmaz.** Bir güvenli bölge ya da doğma koruması seni korurken olmaz, şeridin bir güvenli bölgeye ya da geçide değeceği yerde olmaz, gizliyken olmaz ve şeridin ortasının haritadan taşacağı yerde olmaz. Hangisi olduğunu oyun söyler.
 - **Öldürmeler.** Duvarın yok ettiği bir gemi radyasyondan ölür ve öldürme, varsa, ona 15 saniye içinde vuran son düşman pilota yazılır. Duvarı kurana, kendisinin ateş etmediği hiçbir şey yazılmaz. Duvarın yok ettiği bir uzaylı hiçbir şey ödemez: ne ödül ne ganimet.
 - **Uzaylılar etrafından dolanmaz.** İçinden uçup yanarlar ya da kendi tarafında durup duvara ateş ederler.
 - **Ne görürsün.** Boyunca parlak çizgilerin aktığı, iki ucunda birer ışık direği olan mavi-beyaz bir ışık şeridi; atış isabet ettiği yerde parlar, tükenmeye yakınken titrer. 2. seviye bir duvar bunun yerine sarı parlar; çekirdeği daha kalın ve parlak, ışıltısı daha güçlüdür, ama şeridi 1. seviye duvarınki kadar, yani 10 birim genişliğindedir. Yanındaki ince bir can çubuğu kısalır, kehribar rengine sonra kırmızıya döner; yuvan duvarın kalan canını yay olarak, beklemeyi gölge olarak, o seviyeden kalan duvar sayısını da bir sayı olarak gösterir. Kurulan bir duvar parlayarak belirir, vurulup yıkılan bir duvar kıvılcımlar içinde çöker, süresi dolan ise solar.
 - **Nasıl edinilir ve taşınır.** Energetic Wall I, Mağaza’da duvar başına **250 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın ([Açık Artırma](/wiki/03-Mechanics/Auction.md)’da listelediklerin de sayılır). Energetic Wall II, Araştırma Merkezi onu araştırdıktan sonra (normal hızda 6 saat: [Araştırma](/wiki/03-Mechanics/Research.md)) Montaj’da, **üretim başına bir duvar** olarak, **600 Thulium**, 5 Ship Fragment ve bir Power Core ile üretilir; en fazla **10** tane taşırsın. Kendiliğinden aktarılan on iki roketin (her birinden 1.000) aksine, taşıdığın duvarlar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki duvarlar kullanılamaz. Yaptığın bir Energetic Wall II Açık Artırma’da satılabilir; Mağaza’nın sattığı Energetic Wall I asla.
+
+## Mine
+
+**Mine**, attığın bir tuzaktır. Kürsörü bir noktaya getirip yuvasına bas; geminin Mine’ı oraya atar, **lazerlerinin yettiği yere kadar**: daha uzaktaki bir kürsör onu çizgi boyunca o menzile koyar, kürsör noktası yoksa gemiden hemen altına düşer. Kısa bir süre uçar, iner ve **3 saniye sonra silahlanır**. Bundan sonra **üzerinden geçen ilk geminin altında, tüm hasarıyla bir kez** patlar ve ortadan kalkar: zamana yayılan hasar da patlama dalgası da yoktur. Mine, [Energetic Wall](#energetic-wall) gibi bir **sarf malzemesidir**: envanterindeki bir yığındır ve hiçbir gemide **yuva kaplamaz**. Kullanmak için onu kısayol çubuğunun **Sarf Malzemeleri** bölümünden bir yuvaya sürükle; üç seviye üç ayrı kalemdir, bu yüzden bir yuva tek bir seviyeyi taşır.
+
+- **Kime çarpar.** Üzerinden geçen her gemiye: düşman pilota, uzaylıya, şirket pilotuna, şirket arkadaşlarına, grubuna ve **sana**. Mine’ın dostu yoktur. Bir gemiyi koruyan şey onu her silahtan koruyan şeydir: güvenli bölge, doğma koruması, gizlenme ya da EMP penceresi.
+- **Uzaklaşmak.** Mine indiği anda menzilinin içinde olan gemi, o menzilden bir kez çıkana kadar korunur ve onun ilk koruduğu sensin: gemin altına bir Mine bırakıp uzaklaşabilirsin. Sonrasında Mine, o geminin altında da diğer her geminin altında olduğu gibi patlar; sonradan geri gelse bile.
+- **Ne kadar.** Hasar seviyeyle artar: **8.000, 20.000 ve 50.000**. Sabotaj becerin ona yüzde 30’a kadar ekler, Nişancılık becerin de Mine’ın daha hızlı ve daha uzağa uçmasını sağlar.
+- **Sınırlar.** Aynı anda **üç** Mine dışarıda olabilir (dördüncüsü en eskisinin yerini alır), her biri indikten **3 dakika** sonra yok olur ve iki atış arasında **8 saniye** beklersin; bekleme geminin değil senindir. Haritadan ayrıldığında Mine’ların seninle birlikte gider.
+- **Nerede olmaz.** Pilotların birbiriyle savaşamadığı yerlerde olmaz (Barış Protokolü sırasında ya da kuralları bunu yasaklayan bir sektörde veya geçitte), bir güvenli bölge ya da doğma koruması seni korurken olmaz, Mine’ın bir güvenli bölgeye ya da geçide değeceği yerde olmaz ve gizliyken olmaz. Hangisi olduğunu oyun söyler; reddedilen bir atış hiçbir şey harcamaz ve bekleme başlatmaz.
+- **Nasıl edinilir ve taşınır.** Mine I, Mağaza’da **100 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın. Mine II, Montaj’da, **üretim başına bir Mine** olarak, iki Mine I, 3 Ship Fragment ve bir Power Core ile **200 Thulium** karşılığında üretilir (yığında en fazla **10**); Mine III, iki Mine II, 8 Ship Fragment, 2 Power Core ve bir Reinforced Hull Plate ile **400 Thulium** karşılığında (en fazla **5**). İkisi de Araştırma Merkezi araştırdıktan sonra üretilir: normal hızda II için 3 saat, III için 6 saat ([Araştırma](/wiki/03-Mechanics/Research.md)). Taşıdığın Mine’lar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki Mine’lar kullanılamaz. Mine’lar [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da satılamaz.
 
 ## Araştırma Merkezi CPU’ları {#research-cpus}
 
@@ -122,6 +133,8 @@ CPU’lardan ikisi, her yükseltme zincirinin son kademesi gibi, Dark Matter Pla
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 sa | – | 15.000 | 10 dk |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 sa | – | 600 | 2 dk |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 sa | – | 20.000 | 15 dk |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 sa | – | 200 | 2 dk |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 sa | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 dk |
 
 Hiçbiri Mağaza’da satılmaz: önce teknolojiyi araştır, sonra Montaj’da CPU üret. Montaj’ın istediği malzemeleri görmek üzere ağaçtaki CPU simgesinin üzerine gel.
 

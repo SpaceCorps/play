@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
+<!-- wiki-i18n source: fe17f46644fd6072 -->
 <!-- wiki-i18n title: 추진 장치 -->
 # 추진 장치와 속도 {#propulsion-speed}
 
@@ -8,7 +8,7 @@
 
 - **엔진은 속도를 만들고, 추진기는 엔진 안에 끼워 그 속도를 높입니다.** 엔진에는 추진기를 1~3개 끼울 수 있고(Engine I은 1개, Engine II는 2개, Engine III는 3개), 적응형 코어도 마찬가지입니다(티어에 따라 개수가 정해집니다).
 - **네 티어씩 두 계열.** Impulse Thruster는 고정 속도를 가장 많이 더하고, Momentum Thruster는 고정 속도를 적게 더하는 대신 속도를 더 크게 곱합니다. 두 계열 모두 티어가 오를 때마다 두 수치가 모두 아래 티어보다 높아집니다.
-- **어느 것을 어디에.** 기본적으로 Impulse는 어디에나 알맞습니다. Momentum이 앞서는 곳은 추진기 3개를 모두 채운 Engine III의 티어 I과 II뿐입니다. 수치는 [아래 표](#which-thruster-where)에 있습니다. 가장 빠른 Engine III는 Impulse Thruster IV 3개를 끼운 것으로 52.5가 됩니다.
+- **어느 것을 어디에.** 기본적으로 추진기 3개를 모두 채운 Engine III에는 Momentum을, 적응형 코어에는 Impulse를 넣으세요. 더 작은 엔진에서는 티어 I과 II에서 둘이 비슷하고, 티어 III부터는 Impulse가 앞섭니다. 수치는 [아래 표](#which-thruster-where)에 있습니다. 가장 빠른 Engine III는 Momentum Thruster IV 3개를 끼운 것으로 63.3이 됩니다.
 - **구하는 법.** 각 계열의 티어 I은 20,000 크레딧에 팔고, 티어 II~IV는 어셈블리에서 한 티어 아래의 추진기로 제작합니다. 추진기는 계열이 바뀌지 않습니다.
 
 <!-- item-tree:begin -->
@@ -43,9 +43,9 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 | 이름 | 희귀도 | 기본 속도 | 속도 보너스 % | 실드 보너스 % | 슬롯 | 특수 효과 | 비용 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Engine I** | 하급 | +2 | +2% | -2% | 1 | Afterburner I | 20,000 크레딧 |
-| **Engine II** | 일반 | +4 | +3% | -8% | 2 | Afterburner II | 제작 전용 |
-| **Engine III** | 희귀 | +6 | +4% | -15% | 3 | Afterburner III | 제작 전용 |
+| **Engine I** | 하급 | +5 | +2% | -2% | 1 | Afterburner I | 20,000 크레딧 |
+| **Engine II** | 일반 | +10 | +3% | -8% | 2 | Afterburner II | 제작 전용 |
+| **Engine III** | 희귀 | +15 | +4% | -15% | 3 | Afterburner III | 제작 전용 |
 
 **Engine II**는 [어셈블리](/wiki/06-Items/Overview.md#upgrading-modules)에서 Engine I을 재료로, 2,000 Thulium, Ship Fragment 60개, Power Core 1개, Velkonite Reinforced Plate 4개를 들여 만듭니다. **Engine III**는 같은 곳에서 Engine II를 재료로, 4,000 Thulium, Ship Fragment 110개, Power Core 5개, Ancient Control Unit 1개, 그리고 Dark Matter Plate 4개([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md))를 들여 만듭니다. 둘 다 소모한 엔진의 인챈트 등급과 보너스를 그대로 이어받습니다([모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). 먼저 함선에서 소모할 엔진을 떼어 내세요(그 안의 추진기도 꺼내야 합니다). 장착되어 있거나 추진기가 들어 있는 엔진은 소모되지 않습니다.
 
@@ -55,7 +55,7 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## 추진기 {#thrusters}
 
-추진기는 엔진이나 적응형 코어 안에 끼워 속도 출력을 높입니다. 추진기는 각각 네 티어로 이루어진 두 계열이 있습니다. **Impulse Thruster**는 고정 속도를 가장 많이 더하고 장착한 엔진의 속도에 작은 배율도 곱하며, **Momentum Thruster**는 고정 속도를 적게 더하는 대신 더 큰 배율을 곱합니다. 두 계열 모두 티어가 오를 때마다 고정 속도와 배율이 모두 아래 티어보다 높아집니다. 추진기가 들어 있는 엔진(또는 적응형 코어)은 **자체 기본 속도에 추진기의 고정 속도 증가를 더한 값 전체에, 추진기의 속도 배율을 모두 곱한 값**을 만들어 냅니다([속도 계산 방법](/wiki/03-Mechanics/Speed.md)). Momentum Thruster IV 3개를 끼운 Engine III는 (6 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 51.5, Impulse Thruster IV 3개를 끼우면 (6 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 52.5, Impulse Thruster IV 2개를 끼운 Adaptive Core II는 (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7입니다(Momentum Thruster IV 2개면 26.6).
+추진기는 엔진이나 적응형 코어 안에 끼워 속도 출력을 높입니다. 추진기는 각각 네 티어로 이루어진 두 계열이 있습니다. **Impulse Thruster**는 고정 속도를 가장 많이 더하고 장착한 엔진의 속도에 작은 배율도 곱하며, **Momentum Thruster**는 고정 속도를 적게 더하는 대신 더 큰 배율을 곱합니다. 두 계열 모두 티어가 오를 때마다 고정 속도와 배율이 모두 아래 티어보다 높아집니다. 추진기가 들어 있는 엔진(또는 적응형 코어)은 **자체 기본 속도에 추진기의 고정 속도 증가를 더한 값 전체에, 추진기의 속도 배율을 모두 곱한 값**을 만들어 냅니다([속도 계산 방법](/wiki/03-Mechanics/Speed.md)). Momentum Thruster IV 3개를 끼운 Engine III는 (15 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 63.3, Impulse Thruster IV 3개를 끼우면 (15 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 62.3, Impulse Thruster IV 2개를 끼운 Adaptive Core II는 (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7입니다(Momentum Thruster IV 2개면 26.6).
 
 | 이름 | 희귀도 | 고정 속도 증가 | 속도 배율 | 비용 |
 | :--- | :--- | :---: | :---: | :--- |
@@ -70,19 +70,19 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ### 어느 추진기를 어디에 {#which-thruster-where}
 
-Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하므로, 어느 쪽이 더 빠른지는 엔진이 이미 만들어 내는 속도에 달려 있습니다. 고정 속도는 곱할 속도가 적은 곳, 즉 적응형 코어(자체 속도가 없습니다)와 추진기가 1~2개인 엔진에서 가장 큰 효과를 냅니다. 배율은 곱할 속도가 많은 곳, 즉 추진기 3개를 모두 채운 Engine III에서 가장 큰 효과를 내지만, 거기서 이기는 것은 티어 I과 II의 Momentum뿐입니다. 모든 슬롯에 티어 IV 추진기를 끼웠을 때 각 구성이 내는 속도는 다음과 같습니다.
+Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하므로, 어느 쪽이 더 빠른지는 엔진이 이미 만들어 내는 속도에 달려 있습니다. 고정 속도는 곱할 속도가 적은 곳, 즉 적응형 코어(자체 속도가 없습니다)와 추진기가 1~2개인 엔진에서 가장 큰 효과를 냅니다. 배율은 곱할 속도가 많은 곳, 즉 추진기 3개를 모두 채운 Engine III에서 가장 큰 효과를 내며, 거기서는 모든 티어에서 Momentum이 이깁니다. 모든 슬롯에 티어 IV 추진기를 끼웠을 때 각 구성이 내는 속도는 다음과 같습니다.
 
 | 추진기를 끼운 곳 | Impulse Thruster IV일 때 | Momentum Thruster IV일 때 | 더 빠른 쪽 |
 | :--- | :---: | :---: | :--- |
-| Engine I, 추진기 1개 | 16.5 | 14.4 | Impulse |
-| Engine II, 추진기 2개 | 34.0 | 31.4 | Impulse |
-| Engine III, 추진기 1개 | 20.6 | 18.7 | Impulse |
-| Engine III, 추진기 2개 | 36.1 | 33.8 | Impulse |
-| Engine III, 추진기 3개 | 52.5 | 51.5 | Impulse |
+| Engine I, 추진기 1개 | 19.6 | 17.6 | Impulse |
+| Engine II, 추진기 2개 | 40.3 | 38.6 | Impulse |
+| Engine III, 추진기 1개 | 29.9 | 28.6 | Impulse |
+| Engine III, 추진기 2개 | 45.6 | 44.6 | Impulse |
+| Engine III, 추진기 3개 | 62.3 | 63.3 | Momentum |
 | Adaptive Core II, 추진기 2개 | 29.7 | 26.6 | Impulse |
 
-- **낮은 티어.** 낮은 티어도 같은 양상이지만, 접전인 경우가 둘, 예외가 하나 있습니다. Engine II에 추진기를 2개 끼우면 티어 I과 II에서는 두 계열이 비슷하고(Impulse가 0.06과 0.24 앞섭니다), Engine III에 2개를 끼워도 비슷합니다(차이 0.1 이내). 티어 III부터는 두 경우 모두 Impulse가 1.5~2.6 앞섭니다. 예외는 추진기 3개를 모두 채운 Engine III입니다. 여기서는 티어 I과 II에서 Momentum이 0.6과 0.9 앞서고, 티어 III과 IV에서 Impulse가 0.5와 1.0 앞섭니다.
-- **가장 빠른 Engine III.** Impulse Thruster IV 3개를 끼운 것입니다. 52.5로, Impulse 1개와 Momentum Thruster IV 2개(52.1)나 Momentum 3개(51.5)보다 조금 높습니다.
+- **낮은 티어.** 티어 III부터는 추진기 3개를 모두 채운 Engine III를 뺀 모든 곳에서 Impulse가 0.6~3.1 앞섭니다. 티어 I과 II에서는 추진기 3개짜리 Engine III를 제외하면 두 계열의 차이가 1포인트 미만입니다. Impulse가 앞서는 곳은 Engine I과 Adaptive Core I 또는 II이고, Momentum이 앞서거나 같은 곳은 추진기 1~2개의 Engine III와 2개의 Engine II입니다. 예외는 추진기 3개를 모두 채운 Engine III로, 여기서는 모든 티어에서 Momentum이 1.0~2.0 앞섭니다.
+- **가장 빠른 Engine III.** Momentum Thruster IV 3개를 끼운 것입니다. 63.3으로, Impulse 1개와 Momentum Thruster IV 2개(63.2)나 Impulse 3개(62.3)보다 조금 높습니다.
 
 추진기의 속도 배율에 붙는 [대장간](/wiki/06-Items/Forge.md) 보너스는 1을 넘는 부분을 키웁니다(1.0935x에 +15% 보너스가 붙으면 1.1075x). 대장간은 배율이 1.05x 이하인 곳에는 보너스를 붙이지 않습니다. Impulse Thruster의 1.017x~1.02975x에 붙여도 늘어나는 것은 0.005 미만입니다(1.02975x에 +15%면 1.034x). Impulse Thruster는 보너스를 1개(고정 속도) 가지며, Momentum Thruster는 2개를 가집니다.
 
@@ -90,4 +90,4 @@ Impulse는 고정 속도를 더 많이 더하고 Momentum은 더 크게 곱하�
 
 ### 외계인 따돌리기 {#outrunning-aliens}
 
-외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion(기본 속도 220)은 Impulse Thruster I로 239.9, II로 249.2, III으로 258.6, IV로 261.6의 속도로 비행합니다. 모든 티어가 Crystalys보다 빠르며, 구매할 수 있는 티어 I도 마찬가지입니다. Momentum Thruster는 이 함선에서 같거나 조금 더 느립니다(Momentum Thruster I은 239.9, II~IV는 248.9, 256.7, 259.0). 두 계열 모두 모든 티어가 Crystalys보다 빠르며, 그 차이는 최소 9.9입니다.
+외계인의 비행 속도는 Seeker 120, Phantasm 160, Bulwark 175, Goombah 180, Crystalys 230입니다. Engine II 1개와 추진기 2개를 장착한 Ostirion(기본 속도 220)은 Impulse Thruster I로 246.3, II로 255.6, III으로 265.1, IV로 268.2의 속도로 비행합니다. 모든 티어가 Crystalys보다 빠르며, 구매할 수 있는 티어 I도 마찬가지입니다. Momentum Thruster는 이 함선에서 그와 2포인트 이내의 차이로 비행합니다(Momentum Thruster I은 246.7, II~IV는 255.9, 263.9, 266.3). 두 계열 모두 모든 티어가 Crystalys보다 빠르며, 그 차이는 최소 16.3입니다.

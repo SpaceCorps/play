@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -18,8 +18,8 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 | **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, Blink | 162 000 | 310 | 14 |
 | **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, Heal Pod | 180 000 | 210 | 16 |
 | **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon | 144 000 | 260 | 13 |
-| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire | 720 000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink | 600 000 | 110 | 10 |
+| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire | 600 000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink | 500 000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher | 268 800 | 210 | 13 |
 | **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod | 307 200 | 230 | 13 |
@@ -63,7 +63,7 @@ Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BU
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Alla fyra** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Tillsammans kräver de 500 Dark Matter, utöver de 749 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 364 för alla teknologier i spelet.
+Tillsammans kräver de 500 Dark Matter, utöver de 759 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 374 för alla teknologier i spelet.
 
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 

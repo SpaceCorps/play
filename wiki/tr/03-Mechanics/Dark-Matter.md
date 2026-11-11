@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 32b893f12261ffc4 -->
+<!-- wiki-i18n source: 97e289c94edbe6a9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter ve Dark Matter plakaları {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; dark matter plate; dark matter plates; plate; plates; dark matter socket; dark matter sockets; socket; sockets; karanlık madde; plaka; plakalar; dark matter plakası; karanlık madde plakası; soket; soketler; dark matter soketi -->
 
-**Dark Matter**, teknoloji ağacının tepesindeki araştırmaların, Demirhane’nin en yüksek iki basamağının ve her yükseltme zincirinin son kademesinin gerektirdiği kaynaktır. Onu satın alamaz, madenini çıkaramaz ya da sıradan uzaylılardan alamazsın: **kara delikte (black hole) üretirsin**; içine **N.I.K.E.** roketleri ateşler ve geri fırlattığı kutuları toplarsın. Bir **Dark Matter plakası**, tarifini araştırdıktan sonra Montaj’da Dark Matter’dan preslenir. Bu sayfa her birinin nereden geldiğini, ne işe yaradığını ve işlerin hangi sırayla yapılacağını anlatır. Sezonun 11. gününden itibaren Dark Matter aynı zamanda **dev ekskavatörlerin yakıtıdır** ([Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md)) ve [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesindeki birkaç uzaylı biraz bırakır.
+**Dark Matter**, teknoloji ağacının tepesindeki araştırmaların, Demirhane’nin en yüksek iki basamağının ve her yükseltme zincirinin son kademesinin gerektirdiği kaynaktır. Onu satın alamaz, madenini çıkaramaz ya da sıradan uzaylılardan alamazsın: **kara delikte (black hole) üretirsin**; içine **N.I.K.E.** roketleri ateşler ve geri fırlattığı kutuları toplarsın. Bir **Dark Matter plakası**, tarifini araştırdıktan sonra Montaj’da Dark Matter’dan preslenir. Bu sayfa her birinin nereden geldiğini, ne işe yaradığını ve işlerin hangi sırayla yapılacağını anlatır. Sezonun 11. gününden itibaren Dark Matter aynı zamanda **dev ekskavatörlerin yakıtıdır** ([Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md)), [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesindeki birkaç uzaylı biraz bırakır ve [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) çok büyük bir gruba daha fazlasını verir.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
@@ -12,7 +12,7 @@
 ## Bir dakikada {#in-one-minute}
 
 - **Dark Matter bir kaynaktır ve her yerde yalnızca Dark Matter diye geçer.** Tehlike Sektörü 4’ün (`DS-4`) ortasındaki kara delik onu üretir: deliğe ulaşan her N.I.K.E. roketi, bölgesinin kenarındaki küçük kutular içinde 1 ile 3 Dark Matter (ortalama 2) geri verir.
-- **Ne işe yarar.** Araştırma Merkezi’nin 108 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.364; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
+- **Ne işe yarar.** Araştırma Merkezi’nin 109 teknolojisi onu ister, her biri 5 ile 60 arası, toplamda 1.374; Montaj da onu Dark Matter plakasına preser. Sezonun 11. gününden itibaren bir [dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md) de onu yakıt olarak yakar: bir yakıt deposu birkaç Dark Matter’dır ve ekskavatör yok edilirse kaybolur. Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 - **Araştırma Merkezi’nde**, **Araştırmayı başlat** düğmesine basmadan önce kargondan (gemin park halindeyken) Dark Matter eklersin. Araştırma onu başladığında alır.
 - **Dark Matter plakası ayrı bir eşyadır.** Önce tarifini araştır (ağacın Kaynaklar grubu: 1 gün ve 10 Dark Matter), sonra Montaj’da 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium ile üret.
 - **Plaka ne işe yarar.** Her yükseltme zincirinin son kademesi **4** plaka ve en az bir Ancient Control Unit ister: IV. kademe amfiler, kalkan hücreleri ve iticiler, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II (13 parça). Demirhane bir eşyayı İlahi kademeden Patlayan kademeye çıkarmak için bunlardan 2, Patlayan kademeden Ebedi kademeye çıkarmak için 2 tane daha ister. Skylab’ın Motor, Savunma ve Radar modülleri de inşa etmek ve yükseltmek için plaka ister ([Kaynaklar](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -25,9 +25,9 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Nedir** | Destansı bir kaynak | Mitik bir kaynak |
-| **Nereden gelir** | Tehlike Sektörü 4’teki kara delik, içine ateşlenen N.I.K.E. roketleri karşılığında; ayrıca Dormant sürüsünden ve Dormant Swamp bölgesindeki Inert Mass uzaylılarından biraz | Montaj: 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium’dan preslenir |
+| **Nereden gelir** | Tehlike Sektörü 4’teki kara delik, içine ateşlenen N.I.K.E. roketleri karşılığında; ayrıca Dormant sürüsünden ve Dormant Swamp bölgesindeki Inert Mass uzaylılarından biraz, Tehlike Sektörü 4’teki Tesseract’tan ise çok daha fazla | Montaj: 5 Dark Matter, bir Velkonite, bir Orvium Reinforced Plate ve 250 Thulium’dan preslenir |
 | **Önce ne yaparsın** | N.I.K.E. roketini araştır (3 sa, Dark Matter istemez) ve biraz üret | Plakanın tarifini araştır (1 g, 10 Dark Matter) |
-| **Ne işe yarar** | Araştırma maliyetleri (108 teknoloji, toplam 1.364) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 10; Demirhane: en üst iki basamağının her biri için 2 |
+| **Ne işe yarar** | Araştırma maliyetleri (109 teknoloji, toplam 1.374) ve plaka | Her yükseltme zincirinin son kademesi: 13 parçanın her biri için 4; Master Drone yükseltmesi: 10; Demirhane: en üst iki basamağının her biri için 2 |
 
 ## Dark Matter nasıl edinilir {#how-to-get-dark-matter}
 
@@ -38,18 +38,18 @@
 5. **Kutuları topla.** Deliğe ulaşan her N.I.K.E. **1, 2 veya 3 Dark Matter** geri verir (zamanın dörtte birinde 1, yarısında 2, dörtte birinde 3), her biri en çok 2 içeren bir ya da iki kutuda. Kutular, deliğin bölgesinin kenarına, merkezden 3.050 ile 3.950 birim uzağa, atışının hattının yakınına düşer. Her birine 200 birimden daha yakına uç: toplama yarım saniye sürer.
 6. **Eve götür.** Dark Matter envanterine girer. İstasyonda, geminin park halindeyken, onu Araştırma Merkezi’ne ekleyebilir ya da Montaj’da kullanabilirsin.
 
-Yaklaşık **5 roket 10 Dark Matter eder**. Resource Magnet Booster ona hiçbir şey eklemez, bu yüzden herkes için aynıdır.
+Yaklaşık **5 roket 10 Dark Matter eder**. Resource Magnet Booster ona hiçbir şey eklemez, bu yüzden Antimatter yeteneğini geliştirmemiş herkes için aynıdır: bu yetenek 100. seviyede en çok %25 ekler.
 
 ### Güvende tutmak {#keeping-it-safe}
 
 - **Kutular 60 saniye boyunca senindir**, klanınındır da. Sonra haritadaki herkes onları alabilir ve 240 saniye sonra kaybolurlar. Bir harita en fazla 32 Dark Matter kutusu tutar ve yenisi en eskisini dışarı iter.
 - **Kenar radyasyonun içindedir.** Orada her saniye geminin toplam gövde puanının %0,3 ile %0,8’ine mal olur, deliğe yaklaştıkça daha fazla. Dolu bir gemi yaklaşık 2 ile 5 dakika dayanır; bandın ortasında bir dakika üçte birine mal olur. Çekim 3.000 birimde biter, bu yüzden hiçbir şey seni ya da kutuları sürükleyip götürmez.
 - **Tehlike Sektörü 4 PvP’dir.** Bir rakip hattında bekleyebilir: bir N.I.K.E. dokunduğu ilk gemiye çarpar (67.500 ile 75.000 hasar) ve delikten hiçbir şey çıkmaz. Bir rakip, 60 saniyen dolunca kutuları da bekleyebilir. Kenardan ateş et, kutuları atışlarının sırasıyla topla ve yanına arkadaş getir.
-- **İkinci, küçük bir kaynak.** [Dormant sürüsünün](/wiki/05-Swarms/Dormant-Swarm.md) bir Dormant Pulse gemisi, ona en çok hasar veren pilot için beşte bir olasılıkla 1 ile 5 Dark Matter bırakır. Sürü büyük bir grup ister. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesindeki bir Inert Mass da ara sıra biraz bırakır, ama o bataklığın silahlarının altında yaşar.
+- **Diğer kaynaklar.** [Dormant sürüsünün](/wiki/05-Swarms/Dormant-Swarm.md) bir Dormant Pulse gemisi, ona en çok hasar veren pilot için beşte bir olasılıkla 1 ile 5 Dark Matter bırakır. Sürü büyük bir grup ister. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesindeki bir Inert Mass da ara sıra biraz bırakır, ama o bataklığın silahlarının altında yaşar. Büyük olan, Tehlike Sektörü 4’teki [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) uzaylısıdır: öldürülmesinin ödediği her pilot kendine özel bir kutu alır; öldürmenin 10 ile 20 Dark Matter’lik havuzu hasara göre aralarında bölüşülür, pilot başına en çok 5, böylece dört ya da daha fazla kişilik bir grup öldürme başına yaklaşık 15 eve götürür. PvP sektöründe çok büyük bir grup ister ve yok edildikten 30 dakika sonra geri döner.
 
 ## Araştırma Merkezi’nde Dark Matter {#in-the-research-centre}
 
-Ağacın tepesindeki teknolojiler, bilim puanlarının yanında Dark Matter de ister: 16 üst teknolojinin her biri için **10**, 16 dron formasyonunun her biri için **5, 13 veya 20** (formasyon ne kadar güçlüyse o kadar çok). İki Hull Plating araştırması **25 ve 40** ister; gemi teknolojileri, yani 13 tasarım ile 37 gövde plakası yuvası ise her biri için **10**. Skylab’ın Motor, Savunma ve Radar modülleri ikinci seviyeden itibaren her seviye için **5, 10, 15 veya 20** ister, toplam 115 ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Diğerlerinin hepsi [Araştırma](/wiki/03-Mechanics/Research.md#dark-matter) sayfasındaki tablolarda listelenir.
+Ağacın tepesindeki teknolojiler, bilim puanlarının yanında Dark Matter de ister: 17 üst teknolojinin her biri için **10**, 16 dron formasyonunun her biri için **5, 13 veya 20** (formasyon ne kadar güçlüyse o kadar çok). İki Hull Plating araştırması **25 ve 40** ister; gemi teknolojileri, yani 13 tasarım ile 37 gövde plakası yuvası ise her biri için **10**. Skylab’ın Motor, Savunma ve Radar modülleri ikinci seviyeden itibaren her seviye için **5, 10, 15 veya 20** ister, toplam 115 ([Araştırma](/wiki/03-Mechanics/Research.md#module-technologies)). Diğerlerinin hepsi [Araştırma](/wiki/03-Mechanics/Research.md#dark-matter) sayfasındaki tablolarda listelenir.
 
 1. İstasyonda Skylab’ının **Araştırma görünümünü aç** ve teknolojiyi seç. Kartında bir **Dark Matter** satırı vardır: Merkez’de ne kadar olduğu ve araştırmanın ne kadar aldığı (örneğin 3 / 10).
 2. **Ekle** düğmesine bas. Dark Matter’ı kargondan Araştırma Merkezi’ne taşır; eksik olan kadarını, taşıdığın ölçüde. Geminin park halinde olması gerekir. **Geri al** onu kargona geri verir.
@@ -107,7 +107,7 @@ Paragon için 44 parça 9 lazer, onların 27 amfisi ve 8 jeneratör ve destek yu
 | Bir Dark Matter plakası | 5 | 2,5 |
 | Bir Demirhane adımının iki plakası | 10 | 5 |
 | Bir son kademe parçanın dört plakası | 20 | 10 |
-| Dark Matter isteyen her teknoloji | 1.364 | 682 |
+| Dark Matter isteyen her teknoloji | 1.374 | 687 |
 
 Sıfırdan ilk yükseltme, tarif (10) ve iki plakadır (10): 20 Dark Matter, yaklaşık 10 N.I.K.E. roketi, yani iki üretim. Sıfırdan ilk IV. kademe amfi, plakanın tarifi (10), amfinin kendi teknolojisi (10) ve 4 plakadır (20): 40 Dark Matter, yaklaşık 20 N.I.K.E. roketi.
 

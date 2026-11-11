@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Mineração de asteroides -->
 # Mineração de asteroides {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Nada é pago quando um asteroide quebra. Ele se desfaz em destroços e lança al
 
 Um asteroide maior deixa mais peças (a coluna Fragmentos de dinheiro de Os tipos: os créditos e o Thulium vêm em tantas peças, e o minério em mais uma). Depois de uma coleta, sua nave segue sozinha para o próximo fragmento de um asteroide próximo que você pode pegar; qualquer ordem de movimento sua a interrompe.
 
-A partir do nível 2 das rochas, uma quebra também pode deixar um **Cluster Chunk** inteiro, no bloco de minério do grupo que causou mais dano: um **Regular Cluster Chunk** a partir do nível 2, um **Mythical Cluster Chunk** a partir do nível 3 e um **Legendary Cluster Chunk** a partir do nível 4; a Motherlode os dá com mais frequência. As chances estão em [Recursos](/wiki/06-Items/Resources.md#regular-cluster-chunk). A sorte não as muda, nem a de um P.E.T. Com uma Orvium Reinforced Plate, um chunk vira um [P.E.T.](/wiki/03-Mechanics/Pets.md) no Berço do hangar.
+Uma quebra também pode deixar um **Cluster Chunk** inteiro, no bloco de minério do grupo que causou mais dano: um **Regular Cluster Chunk** a partir do nível 1, um **Mythical Cluster Chunk** a partir do nível 3 e um **Legendary Cluster Chunk** a partir do nível 4; a Motherlode os dá com mais frequência. As chances estão em [Recursos](/wiki/06-Items/Resources.md#regular-cluster-chunk). A sorte não as muda, nem a de um P.E.T. Com uma Orvium Reinforced Plate, um chunk vira um [P.E.T.](/wiki/03-Mechanics/Pets.md) no Berço do hangar.
 
 ## Quem fica com os fragmentos {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Cada setor de origem das três corporações e dos setores de perigo tem asteroi
 
 O **nível** de um asteroide é o anel de setores a que o seu tipo pertence: os níveis de 1 a 4 são os setores x-1 a x-4 das três corporações e o nível 5 os setores de perigo. O nível sobe com o tamanho: quanto maior o asteroide, mais alto o seu nível. Mas os dois não são a mesma coisa: a maioria dos níveis tem dois tamanhos, que a tabela mostra. A janela do alvo e o cartão que aparece ao passar o mouse mostram a família, o tamanho e o nível de um asteroide.
 
-O nível também decide um achado próprio: uma **peça de P.E.T.**, um Cluster Chunk que o Berço de [P.E.T.](/wiki/03-Mechanics/Pets.md) aceita. A tabela dá a chance de um asteroide quebrado deixar cada grau (um traço: nunca). Os asteroides de nível 1 não deixam nenhum. Cada grau é sorteado uma vez por asteroide quebrado, o piloto que causou mais dano recebe o chunk inteiro e a sorte não muda as chances. A Motherlode tem chances próprias. Selecione um asteroide e a janela do alvo lista as peças de P.E.T. do seu tipo.
+O nível também decide um achado próprio: uma **peça de P.E.T.**, um Cluster Chunk que o Berço de [P.E.T.](/wiki/03-Mechanics/Pets.md) aceita. A tabela dá a chance de um asteroide quebrado deixar cada grau (um traço: nunca). Cada grau é sorteado uma vez por asteroide quebrado, o piloto que causou mais dano recebe o chunk inteiro e a sorte não muda as chances. A Motherlode tem chances próprias. Selecione um asteroide e a janela do alvo lista as peças de P.E.T. do seu tipo.
 
 | Nível | Setores | Tamanho | Tipos | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Minúsculo, Pequeno | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Pequeno, Médio | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4% | – | – |
-| 3 | `x-3` | Médio | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8% | 0,15% | – |
-| 4 | `x-4` | Médio, Grande | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0,25% | 0,03% |
-| 5 | Setores de perigo | Grande | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2% | 0,3% | 0,1% |
-| 5 | Setores de perigo | Enorme | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | Minúsculo, Pequeno | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0,5% | – | – |
+| 2 | `x-2` | Pequeno, Médio | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | Médio | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2,5% | 0,35% | – |
+| 4 | `x-4` | Médio, Grande | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0,5% | 0,1% |
+| 5 | Setores de perigo | Grande | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0,5% |
+| 5 | Setores de perigo | Enorme | Motherlode | 20% | 5% | 3% |
 
 Há 27 tipos de asteroide, em 8 famílias. **Feito para** nomeia o foguete para o qual um tipo é balanceado e mais ou menos quantos dele uma quebra leva em Alpha. **Achados** são o minério e os achados raros que uma quebra sorteia e que os fragmentos dela dividem: uma porcentagem é a chance daquela linha, as outras linhas são sempre encontradas. Os créditos e o Thulium são as quantias de Alpha de uma quebra.
 

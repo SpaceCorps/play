@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Képességek -->
 # Aktív hajóképességek {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ Az Engine II-t, valamint a III. rangú pajzsokat és hajtóműveket (a Heavy Shi
 - **Mindegyik képességnek saját töltődése van.** Egy használata nem zárolja a többit.
 - **Egy futó hatás megtartja azokat a számokat, amelyekkel elindult.** A tárgy leszerelése vagy a konfigurációváltás nem változtatja meg és nem szakítja meg. Egy ugrás vagy újracsatlakozás sem szakítja meg; a kijelentkezés igen, és a töltődése megmarad.
 - A többi pilóta látja a képességeid időzítőit a térképen, mint mindig: egy elhasznált Surge azt mondja nekik, hogy a következő percek nyitva állnak előttük.
+
+## Pilótakészségek {#pilot-skills}
+
+A [pilótakészségeid](/wiki/03-Mechanics/Pilot-Skills.md) közül három változtatja meg, hogyan futnak a képességek, a hajód típusának `F` képességét is beleértve:
+
+- A **Reflexek** hamarabb leteltetik a töltődést, szintenként egy kicsit jobban. A töltődés továbbra is akkor indul, amikor megnyomod, és magában foglalja a képesség időtartamát.
+- A **Taktika** hosszabb ideig tartóvá teszi a képességet. Egy Shield Surge vagy egy Emergency Repair a hosszabb idő alatt is ugyanannyi pontot ad másodpercenként, vagyis összesen többet pótol, egy Afterburner pedig tovább fut. A töltődés nem nő vele együtt, így a képesség vége utáni várakozás rövidebb lesz.
+- A **Szabotázs** erősíti a mérgeket, például egy Wraith RAPTOR Venomját, sebzésben és időtartamban, a Taktikán felül.
+
+Az egyes szintek értékei a [Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) táblázatában vannak.
 
 ## Billentyűk és gombok {#keys-and-buttons}
 

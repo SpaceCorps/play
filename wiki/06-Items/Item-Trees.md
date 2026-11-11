@@ -108,14 +108,18 @@ N.I.K.E. | rocket, mythical | craft 100000 Credits, 1500 Thulium, 300 s, x5 | re
 Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 N.U.K.E. | rocket, legendary | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 6 Scatter III, 40 Ship Fragment, 10 Reinforced Hull Plate, 4 Power Core, 80 Cataclysite | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s, x3 | research 28800 s, 28800 science | 20 Ship Fragment, 3 Power Core, 1 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
+Mine I | consumable, uncommon | buy 100 Thulium | /wiki/06-Items/Extras.md#mine
 Energetic Wall I | consumable, uncommon | buy 250 Thulium | /wiki/06-Items/Extras.md#energetic-wall
 EMP Charge | consumable, uncommon | buy 500 Thulium | /wiki/06-Items/Rockets.md#emp-charge
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
+Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
+Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
 
 Lancet I => Lancet II => Lancet III
 Rivet I => Rivet II => Rivet III
 Ember I => Ember II => Ember III
 Scatter I => Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Mine I => Mine II => Mine III
 Energetic Wall I -> Energetic Wall II
 ```
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Dungeon -->
 # Dungeon {#dungeons}
 
@@ -6,7 +6,9 @@
 
 Un **dungeon** è un labirinto chiuso con un **Signore della guerra** in fondo (prima della 0.5.2 il gioco lo chiamava porta). Un Co-leader o il Leader di un [clan](/wiki/03-Mechanics/Clans.md) ne apre uno e lo paga con la banca del clan, e i membri del clan ci volano dentro insieme come un unico [gruppo](/wiki/03-Mechanics/Groups.md). Si fanno strada tra gli alieni del labirinto, aprono zone del bottino per scegliere una carta da ciascuna e abbattono il Signore della guerra. Ogni pilota che ha preso parte allo scontro viene pagato quando il Signore della guerra cade, entro i limiti più sotto. I dungeon si trovano nella scheda **Dungeon** della pagina del clan.
 
-Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare un compagno di clan né nessun altro. Gli alieni non pagano nulla. La paga è solo quella del Signore della guerra, quindi l’unico modo per essere pagati è essere nello scontro quando cade.
+Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare un compagno di clan né nessun altro. Gli alieni pagano quando cadono, come gli alieni del gioco su cui sono modellati ([cosa pagano gli alieni](#what-the-aliens-pay)). Il completamento è del Signore della guerra, quindi l’unico modo per essere pagati per esso è essere nello scontro quando cade.
+
+Un dungeon non è una [porta solo](/wiki/03-Mechanics/Solo-Gates.md). Una porta solo è un’arena in cui voli solo tu, aperta con pezzi che trovi con il Materializzatore di energia; i due hanno regole, pagamenti e limiti separati.
 
 ## In breve {#at-a-glance}
 
@@ -22,10 +24,10 @@ Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare 
 - **Labirinti**: 8; uno viene scelto all’apertura di un dungeon
 - **Stanza del boss**: Si apre quando 75% dei Crystalys e dei loro Twin è distrutto, arrotondato per eccesso
 - **Raduno**: 10 min per radunarsi e avviare. Un dungeon che nessuno avvia si chiude, e il suo prezzo torna alla banca del clan
-- **Limite di tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min dall’avvio. Quando scade, il dungeon fallisce e non paga nulla
+- **Limite di tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min dall’avvio. Quando scade, il dungeon fallisce e il completamento non paga nulla
 - **Lasciata vuota**: Un dungeon con nessuno all’interno per 3 min fallisce
 - **Dopo la caduta del Signore della guerra**: Il dungeon resta aperto per 2 min, per i piloti all’interno
-- **Tornare dentro**: Un pilota che è uscito o è stato distrutto può rientrare in volo 3 volte, a 20 s di distanza
+- **Tornare dentro**: Un pilota che è uscito o è stato distrutto può rientrare in volo tutte le volte che vuole, con almeno 20 s tra un rientro e l’altro
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ Un dungeon è uno scontro solo contro gli alieni: dentro nessuno può attaccare 
 1. **Convoca.** Nella scheda Dungeon un [Co-leader o il Leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) sceglie una fase e preme **Convoca**. Il prezzo esce dalla [banca del clan](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), e il dungeon prende una delle mappe elencate sopra. Un dungeon che nessuno avvia si chiude, e il prezzo torna alla banca.
 2. **Entra.** I membri del clan premono **Entra** nella finestra del Clan mentre sono in volo, saltano attraverso il portale del clan o premono **Unisciti** sulla scheda di avviso (vedi Entrare). Tutti atterrano nella sala di partenza, e i piloti all’interno sono il gruppo del dungeon.
 3. **Avvia.** La sala di partenza è una piccola sala a un’estremità del labirinto, e il suo portello resta chiuso mentre il dungeon si riunisce. Dentro non ci sono alieni, quindi si può aspettare in sicurezza. Il dungeon **parte da solo** quando ogni pilota che aspetta è dentro e il gruppo è abbastanza grande. Aspetta i membri del clan che sono online, non assenti e nel gruppo di un pilota che è entrato, e parte subito quando il gruppo è pieno. Il pilota che ha aperto il dungeon, o un ufficiale, può premere **Avvia** per cominciare prima con i piloti che sono dentro, se sono abbastanza. Un pilota che se ne va non viene più aspettato. Quando il dungeon parte, il portello si apre per sempre, e dopo possono tornare solo i piloti che erano già dentro.
-4. **Aprirsi la strada nel labirinto.** Si entra a un’estremità del labirinto e il Signore della guerra aspetta all’altra, in una sala chiusa. Il labirinto è buio: si vede solo ciò che il gruppo ha esplorato e ciò che è vicino alle sue navi. Gli alieni dormono in branchi nei corridoi, e un branco che si sveglia dà la caccia al gruppo attraverso il labirinto.
+4. **Aprirsi la strada nel labirinto.** Si entra a un’estremità del labirinto e il Signore della guerra aspetta all’altra, in una sala chiusa. Il labirinto è buio: si vede solo ciò che il gruppo ha esplorato e ciò che è vicino alle sue navi. Gli alieni aspettano in branchi nei corridoi, e un branco esce nel momento in cui un pilota vola nel tratto di corridoio dove aspetta, poi dà la caccia al gruppo attraverso il labirinto.
 5. **Aprire le zone del bottino.** Degli anelli nel labirinto segnano le zone. Tienine una e il gruppo vota una carta, che viene pagata insieme alla paga del Signore della guerra.
 6. **Sbloccare la sala del boss.** Distruggi tre quarti dei Crystalys e dei loro Twin del labirinto, e il portello della sala del Signore della guerra si apre. Fino ad allora il Signore della guerra non può essere ferito. Gli altri alieni restano dove sono, e puoi distruggere anche loro.
 7. **Sconfiggere il Signore della guerra.** Rompi il suo scudo e il suo scafo, e rispondi alle sue abilità. Quando cade, il dungeon è completato.
@@ -46,7 +48,7 @@ Per entrare in un dungeon ti serve una **nave in volo**, quindi decolla prima e 
 
 Un Co-leader o il Leader apre un dungeon, uno alla volta per il clan, e solo fino al numero di dungeon al giorno. La banca del clan deve avere il prezzo. Un clan può aprire una fase solo dopo aver completato quella precedente.
 
-Dentro un dungeon non puoi cambiare mondo, e la Jump CPU e la Base CPU non funzionano. Il pulsante **Esci** nella finestra Dungeon del clan ti porta fuori. Prima chiede conferma, a meno che il Signore della guerra non sia già caduto: allora esci subito. Un pilota che se n’è andato, o che è stato distrutto, può rientrare alcune volte, con una breve attesa tra l’una e l’altra.
+Dentro un dungeon non puoi cambiare mondo, e la Jump CPU e la Base CPU non funzionano. Il pulsante **Esci** nella finestra Dungeon del clan ti porta fuori. Prima chiede conferma, a meno che il Signore della guerra non sia già caduto: allora esci subito. Un pilota che se n’è andato, o che è stato distrutto, può rientrare; l’elenco sotto **In breve** dice quante volte e quanto deve aspettare tra un rientro e l’altro.
 
 ### Il portale del clan e l’avviso {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Ogni dungeon è un labirinto chiuso su una mappa a sé, una delle mappe dell’e
 
 ## Gli alieni {#the-aliens}
 
-Quattro tipi di alieni custodiscono il labirinto. Dormono in branchi nei corridoi, mai in una sala, e un branco si sveglia quando un pilota si avvicina. Un branco sveglio non ti aspetta: dà la caccia al gruppo attraverso il labirinto, e un branco che perde tutti torna dove dormiva e si cura. Alcuni branchi sono svegli fin dal primo secondo, fermi nei corridoi lontano dall’ingresso, finché un pilota non si avvicina. Il dungeon tiene in aria solo un certo numero di alieni alla volta, e quel numero cresce con la dimensione del gruppo, quindi un branco che si sveglia può dover aspettare posto, e un branco che distruggi fa entrare il successivo. Un gruppo più grande incontra più alieni, in proporzione, uno più piccolo meno, e un tipo di alieno non scende mai sotto uno. Un branco che sta ancora aspettando posto quando tutti i piloti si sono allontanati torna a dormire, e si risveglia quando un pilota si avvicina di nuovo.
+Quattro tipi di alieni custodiscono il labirinto. Aspettano in branchi nei corridoi, mai in una sala, e un branco esce nel momento in cui un pilota vola nel tratto di corridoio dove aspetta. Dove nessun pilota è stato non c’è nulla sulla mappa, quindi nessun branco sta dietro i muri, in fondo al labirinto, prima che tu arrivi. Un branco non aspetta posto: è sulla mappa in quello stesso momento, per quanti alieni siano già fuori. Un tratto di corridoio ospita un solo branco, quindi nel tratto in cui voli incontri un branco e non la somma di più branchi (un gruppo di dieci ha più branchi che tratti, e lì un tratto ne ospita due, che escono entrambi). Un branco che è fuori non ti aspetta: dà la caccia al gruppo attraverso il labirinto, e un branco che perde tutti torna dove è uscito e si cura. Un branco esce una volta sola: quello che distruggi non torna, e quello da cui voli via resta sulla mappa. Le ondate delle zone del bottino sono diverse: il dungeon tiene in aria solo un certo numero di alieni alla volta, e quel numero cresce con la dimensione del gruppo, quindi un’ondata che lo supererebbe aspetta posto, e un branco che distruggi fa entrare l’ondata successiva. Un gruppo più grande incontra più alieni, in proporzione, uno più piccolo meno, e un tipo di alieno non scende mai sotto uno.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Quattro tipi di alieni custodiscono il labirinto. Dormono in branchi nei corrido
 | Per aprire la stanza del boss | 34 | 34 | 34 |
 | L’ondata di una zona del bottino | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys |
 
-- **Vivi contemporaneamente**: Al massimo 10 per ogni pilota del gruppo, e 70 in tutto
+- **L’ondata di una zona del bottino aspetta posto**: Quando ci sono 10 vivi per ogni pilota del gruppo, o 70 in tutto
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 - **Ha l’aspetto di**: Goombah
 - **Vola in branchi da**: 6
+- **Ricompensa e bottino come**: Goombah
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 | Velocità | 180 | 180 | 180 |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | 1.800 | 1.800 | 1.800 |
+| Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
+| Crediti per distruzione | 15.000 | 22.500 | 30.000 |
+| Thulium per distruzione | 75 | 113 | 150 |
+| Esperienza per distruzione | 3.000 | 4.500 | 6.000 |
+| Onore per distruzione | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Ha l’aspetto di**: Pirate Boss
 - **Vola in branchi da**: 2
+- **Ricompensa e bottino come**: Pirate Boss
 - **Razzo**: Un razzo diritto ogni 5 s, gittata 1.000 unità
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Scafo | 300.000 | 450.000 | 600.000 |
+| Scafo | 250.000 | 375.000 | 500.000 |
 | Scudo | 50.100 | 75.150 | 100.200 |
 | Danno dei laser (una raffica al secondo) | 200 | 300 | 400 |
 | Danno dei razzi | 5.000 | 7.500 | 10.000 |
 | Velocità | 110 | 110 | 110 |
 | Portata dei laser | 700 | 700 | 700 |
 | Raggio di aggressione | 1.800 | 1.800 | 1.800 |
+| Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
+| Crediti per distruzione | 145.000 | 217.500 | 290.000 |
+| Thulium per distruzione | 725 | 1.088 | 1.450 |
+| Esperienza per distruzione | 29.000 | 43.500 | 58.000 |
+| Onore per distruzione | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Ha l’aspetto di**: Crystalys
 - **Vola in branchi da**: 2
+- **Ricompensa e bottino come**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 | Velocità | 230 | 230 | 230 |
 | Portata dei laser | 900 | 900 | 900 |
 | Raggio di aggressione | 2.400 | 2.400 | 2.400 |
+| Ricompensa e bottino, multiplo dell’originale | ×1 | ×1,5 | ×2 |
+| Crediti per distruzione | 75.000 | 112.500 | 150.000 |
+| Thulium per distruzione | 200 | 300 | 400 |
+| Esperienza per distruzione | 12.000 | 18.000 | 24.000 |
+| Onore per distruzione | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Ha l’aspetto di**: Crystalys, 1,4 volte più grande
 - **Vola in branchi da**: 1
+- **Ricompensa e bottino come**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 | Velocità | 230 | 230 | 230 |
 | Portata dei laser | 900 | 900 | 900 |
 | Raggio di aggressione | 2.400 | 2.400 | 2.400 |
+| Ricompensa e bottino, multiplo dell’originale | ×2 | ×3 | ×4 |
+| Crediti per distruzione | 150.000 | 225.000 | 300.000 |
+| Thulium per distruzione | 400 | 600 | 800 |
+| Esperienza per distruzione | 24.000 | 36.000 | 48.000 |
+| Onore per distruzione | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## Il Signore della guerra {#the-warlord}
 
-Il Signore della guerra aspetta nella sala all’estremità opposta del labirinto, ed è l’unica cosa in un dungeon che paga. È un Crystalys diventato enorme. Il suo scafo e il suo scudo crescono con la dimensione del gruppo: più piloti entrano, più è resistente, in proporzione. Non lascia mai la sua sala, con la porta chiusa o aperta: resta tra le pareti della sala e non dà la caccia nei corridoi. Un pilota all’esterno può attirarlo solo fino al bordo della sala, e da una porta aperta spara comunque a tutto ciò che il suo laser raggiunge. Usa le sue abilità una alla volta, in ordine casuale, ognuna con il suo tempo di ricarica.
+Il Signore della guerra aspetta nella sala all’estremità opposta del labirinto, e la sua caduta è ciò che paga il completamento. Non paga una distruzione propria, come invece fanno gli altri alieni. È un Crystalys diventato enorme. Il suo scafo e il suo scudo crescono con la dimensione del gruppo: più piloti entrano, più è resistente, in proporzione. Non lascia mai la sua sala, con la porta chiusa o aperta: resta tra le pareti della sala e non dà la caccia nei corridoi. Un pilota all’esterno può attirarlo solo fino al bordo della sala, e da una porta aperta spara comunque a tutto ciò che il suo laser raggiunge. Usa le sue abilità una alla volta, in ordine casuale, ognuna con il suo tempo di ricarica.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ Lo scafo e lo scudo qui sopra valgono per un gruppo di 5. Crescono con il gruppo
 
 ### La sala chiusa {#the-locked-room}
 
-Il portello della sala del Signore della guerra è chiuso dal momento in cui il dungeon viene aperto, e finché è chiuso il Signore della guerra non può essere ferito: nessun laser, razzo o esplosione lo tocca, e non usa nessuna abilità. Il portello si apre per sempre quando sono stati distrutti **tre quarti dei Crystalys e dei loro Twin** con cui il dungeon è stato creato, arrotondati per eccesso (la tabella degli alieni qui sopra li conta per un gruppo di 5, e la sua ultima riga dice quanti ne servono). Contano i Crystalys e i Twin dei branchi del labirinto, compresi quelli dei branchi che stanno nei corridoi fin dal primo secondo, e chiunque li distrugga. Per il portello non contano gli altri alieni, le ondate delle zone del bottino, i Goombah che il Signore della guerra chiama e il Signore della guerra stesso.
+Il portello della sala del Signore della guerra è chiuso dal momento in cui il dungeon viene aperto, e finché è chiuso il Signore della guerra non può essere ferito: nessun laser, razzo o esplosione lo tocca, e non usa nessuna abilità. Il portello si apre per sempre quando sono stati distrutti **tre quarti dei Crystalys e dei loro Twin** con cui il dungeon è stato creato, arrotondati per eccesso (la tabella degli alieni qui sopra li conta per un gruppo di 5, e la sua ultima riga dice quanti ne servono). Contano i Crystalys e i Twin dei branchi del labirinto, e chiunque li distrugga. Un branco esce solo quando un pilota vola nel suo tratto di corridoio, quindi il gruppo deve trovarne abbastanza per aprire il portello. Per il portello non contano gli altri alieni, le ondate delle zone del bottino, i Goombah che il Signore della guerra chiama e il Signore della guerra stesso.
 
-La finestra Dungeon del clan conta quanti di essi restano da distruggere per aprire la sala e dice, in un’etichetta, che il Signore della guerra non può essere ferito, e un messaggio ti avvisa quando la sala viene sbloccata. Un branco che dorme ancora conta per intero, quindi il gruppo deve trovare i Crystalys e i loro Twin nel labirinto. **Gli altri alieni non spariscono quando il portello si apre.** Restano nel labirinto, si svegliano quando un pilota si avvicina e si possono distruggere come prima, quindi un gruppo che lo vuole può distruggerli tutti prima di affrontare il Signore della guerra: il conteggio degli alieni nella finestra arriva fino a tutti gli alieni con cui il dungeon è stato creato, e risulta pieno quando non ne resta nessuno. Non pagano nulla, e quelli ancora vivi quando il Signore della guerra cade se ne vanno con il dungeon. Sulla minimappa il portello è una linea rossa finché è bloccato e una verde quando è aperto. Un dungeon non è mai una trappola: il limite di tempo pone comunque fine a un dungeon il cui portello resta chiuso, e un amministratore può sbloccare la sala di un dungeon in stallo.
+La finestra Dungeon del clan conta quanti di essi restano da distruggere per aprire la sala e dice, in un’etichetta, che il Signore della guerra non può essere ferito, e un messaggio ti avvisa quando la sala viene sbloccata. Un branco che non è ancora uscito conta per intero, quindi il gruppo deve trovare i Crystalys e i loro Twin nel labirinto e volare nei loro tratti di corridoio. **Gli altri alieni non spariscono quando il portello si apre.** Restano nel labirinto, escono quando un pilota vola nel loro tratto di corridoio e si possono distruggere come prima, quindi un gruppo che lo vuole può distruggerli tutti prima di affrontare il Signore della guerra: il conteggio degli alieni nella finestra arriva fino a tutti gli alieni con cui il dungeon è stato creato, e risulta pieno quando non ne resta nessuno. Pagano quando cadono ([cosa pagano gli alieni](#what-the-aliens-pay)), e quelli ancora vivi quando il Signore della guerra cade se ne vanno con il dungeon. Sulla minimappa il portello è una linea rossa finché è bloccato e una verde quando è aperto. Un dungeon non è mai una trappola: il limite di tempo pone comunque fine a un dungeon il cui portello resta chiuso, e un amministratore può sbloccare la sala di un dungeon in stallo.
 
 ### Le sue abilità {#its-abilities}
 
@@ -314,7 +340,7 @@ Le carte con una sola copia sono **equipaggiamento**, e solo un dungeon di fase 
 
 Quando il Signore della guerra cade, ogni pilota che se l’è guadagnata viene pagato, una volta per partita. Le carte scelte dal gruppo si aggiungono alla paga della fase. Non c’è moltiplicatore di mondo: la paga è la stessa in ogni mondo.
 
-Le **Orvium Reinforced Plates** non sono una carta del voto. Fanno parte della paga della fase, e ogni pilota pagato le riceve una volta per il completamento. Gli oggetti che un dungeon paga non sono vendibili: non puoi [venderli all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
+Le **Orvium Reinforced Plates** non sono una carta del voto. Fanno parte della paga della fase, e ogni pilota pagato le riceve una volta per il completamento. Gli oggetti che paga il completamento non sono vendibili: non puoi [venderli all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ Le **Orvium Reinforced Plates** non sono una carta del voto. Fanno parte della p
 
 ### Chi viene pagato {#who-is-paid}
 
-Gli alieni non pagano mai. Una partita si gioca per intero anche quando non paga nulla, e la schermata dei risultati dice perché. L’ingresso non viene mai rifiutato perché sei già stato pagato per una fase: quella partita semplicemente non paga.
+Queste regole decidono chi viene pagato **per il completamento**. Una partita si gioca per intero anche quando non paga nulla, e la schermata dei risultati dice perché. L’ingresso non viene mai rifiutato perché sei già stato pagato per una fase: il completamento semplicemente non paga. Gli alieni leggono le stesse regole, una distruzione alla volta, tranne la parte nello scontro ([cosa pagano gli alieni](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ L’esperienza di una fase completata e pagata conta per i tuoi punti classifica
 
 <!-- dungeons-totals:end -->
 
+### Cosa pagano gli alieni {#what-the-aliens-pay}
+
+Ogni alieno di un dungeon paga quando cade e lascia cadere del bottino, come l’alieno del gioco su cui è modellato: un Dungeon Goombah come un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys e il suo Twin come un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate come il Pirate Boss dello [Sciame Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Ciò che paga e lascia cadere una distruzione è quello dell’originale **moltiplicato per il rapporto tra scafo e scudo di entrambi insieme**: un alieno resistente come il suo originale paga quanto paga l’originale, uno due volte più resistente paga il doppio e lascia cadere il doppio di ogni oggetto, e così via. La sezione di ogni tipo di alieno sotto [Gli alieni](#the-aliens) indica il rapporto e la paga di una distruzione in ogni fase.
+
+- **Chi viene pagato.** I piloti che hanno colpito l’alieno, in base al danno inflitto, come per gli alieni degli sciami: un pilota o un gruppo che l’ha solo sfiorato non riceve nulla, un gruppo viene pagato come uno solo, e dentro un gruppo i membri vicini al relitto che hanno sparato da poco si dividono per livello quanto viene pagato. Un pilota che non ha inflitto danni all’alieno non riceve nulla per esso, per quanto vicino abbia volato, e un alieno che nessun pilota ha colpito non paga nessuno. Contano solo i piloti che le regole qui sopra pagano: chi se n’è andato, chi non è stato dentro abbastanza a lungo, chi è già stato pagato oggi per la fase o chi ha avuto tutti i completamenti pagati della settimana non riceve nulla per gli alieni, e gli altri hanno la sua parte. Una distruzione non chiede la parte nello scontro: aver colpito l’alieno è la parte. Se il membro di un gruppo che ha inflitto più danni è stato distrutto o non è più sulla mappa, i membri vicini al relitto che hanno sparato da poco si dividono la paga senza di lui.
+- **Cosa viene pagato.** Crediti, Thulium, esperienza e onore, una volta per distruzione. La paga è quella dell’originale in Alpha, in ogni mondo: un dungeon non ha moltiplicatore di mondo. I tuoi booster, il Premium, la formazione e i bonus del tuo clan contano come per qualsiasi distruzione, e l’esperienza conta per i tuoi [punti PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) come quella del completamento.
+- **Il bottino.** Viene tirato con le probabilità dell’originale, poi ogni quantità viene moltiplicata per il rapporto (una frazione di unità è una probabilità di averne una in più). Cade come una cassa sul relitto, prima per il pilota che ha inflitto più danni e il suo clan, poi per chiunque sulla mappa, e infine sparisce. La mappa regge solo un certo numero di casse alla volta, quindi raccoglile mentre combatti, e ciò che resta sulla mappa quando il dungeon si chiude se ne va con lui. A differenza degli oggetti del completamento, sono bottini ordinari di un alieno: si possono [vendere all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items) se l’oggetto è vendibile.
+- **Cosa non paga.** Il Signore della guerra non paga una distruzione, solo il completamento. I Goombah che chiama non pagano nulla, perché la chiamata ritorna finché dura lo scontro.
+- **Non una distruzione del gioco.** Una distruzione in un dungeon non conta per le missioni, gli obiettivi, i contatori di distruzioni, i punti reset, i punti PvE di una distruzione, i droni o i P.E.T.: un Dungeon Goombah non è un Goombah del gioco.
+- **I limiti.** I limiti del giorno e della settimana qui sopra trattengono la paga degli alieni come quella del completamento: chi è già stato pagato oggi per la fase, o ha avuto tutti i completamenti pagati della settimana, non riceve nulla nemmeno per i suoi alieni, e il montepremi di una distruzione va agli altri. Un dungeon che non viene completato paga le sue distruzioni ai piloti che le regole pagano, e nulla per il completamento.
+
 ## La ricompensa della banca del clan {#clan-bank-reward}
 
 Viene pagata anche la banca del clan, in crediti e non in Thulium, la prima volta che il clan completa una fase in una stagione. Il clan deve essere abbastanza vecchio, e devono essere pagati abbastanza piloti di quella partita. La banca viene pagata una volta per fase in una stagione.
@@ -383,4 +420,4 @@ Viene pagata anche la banca del clan, in crediti e non in Thulium, la prima volt
 - Usa le pareti: i laser non le attraversano, gli anelli rossi delle aure del Signore della guerra si fermano contro di esse, e una parete ferma anche i razzi del Signore della guerra.
 - Tieni da parte una EMP Charge per la Raffica di razzi.
 - Quando il Signore della guerra chiama i suoi Goombah, distruggili per primi: non può essere ferito finché non sono spariti. Nella Zona del Caos, esci dall’anello prima di sparare.
-- Controlla l’orologio nella finestra Dungeon del clan. Quando il tempo finisce, il dungeon fallisce e non paga nulla.
+- Controlla l’orologio nella finestra Dungeon del clan. Quando il tempo finisce, il dungeon fallisce e il completamento non paga nulla.

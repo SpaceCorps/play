@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -17,7 +17,7 @@ En **P.E.T.** (Personal Escort Technology) är en liten följeslagare som flyger
 ## På en minut {#in-one-minute}
 
 - **Skaffa Stationen.** Forska fram en **P.E.T. Station** i forskningscentret och tillverka den i Monteringen. Den har tre nivåer, med plats för **2, 3 och 5** P.E.T.s. Montera den i en extraplats på skeppet du flyger. Vaggan fungerar utan den: du kan kläcka P.E.T.s innan du har en Station.
-- **Hitta chunks.** Bryt asteroider från andra nivån och uppåt: en **Regular**, en **Mythical** eller en **Legendary Cluster Chunk** kan bli kvar hel i malmbiten åt den grupp som gjorde mest skada.
+- **Hitta chunks.** Bryt asteroider, ju större desto bättre: en **Regular**, en **Mythical** eller en **Legendary Cluster Chunk** kan bli kvar hel i malmbiten åt den grupp som gjorde mest skada.
 - **Kläck.** I hangarens vy **P.E.T.** tar Vaggan en chunk och en Orvium Reinforced Plate för varje P.E.T. och har fyra platser i kön. Chunkens grad avgör hur många boosts P.E.T.n har: **1, 2 eller 3**.
 - **Docka och flyg.** Docka de P.E.T.s du vill ha medan ditt skepp är landat. Med en monterad Station som är PÅ ger de sina boosts och samlar erfarenhet medan du jagar, bryter och flyger, upp till nivå 20.
 - **PÅ och AV.** Platsen **PET** i snabbfältet slår om Stationen, även under flygning, och ändringen gäller direkt: AV, och dina P.E.T.s ger inga boosts, samlar ingen erfarenhet och arbetar inte; PÅ, och de är tillbaka. En Station du aldrig har slagit om är PÅ.
@@ -37,7 +37,7 @@ Hangarens vy P.E.T. säger vilken Station du äger, var den är monterad och om 
 
 ## Cluster Chunks
 
-Cluster Chunks är kristallklungor som klipporna rymmer. De finns i tre grader, **Normal (Regular)**, **Mytisk (Mythical)** och **Legendarisk (Legendary)**, och ett sönderfall lämnar högst en av varje. Från nivå 2 av [klipporna](/wiki/03-Mechanics/Asteroid-Mining.md) kan ett sönderfall lämna en Regular Cluster Chunk, från nivå 3 en Mythical och från nivå 4 en Legendary; Motherlode ger dem oftast. Chanserna står i [Resurser](/wiki/06-Items/Resources.md#regular-cluster-chunk). Chunken ingår inte i sönderfallets utbetalning: den går hel, i malmbiten, till den grupp som gjorde mest skada, och ingen tur ändrar chansen, inte heller en P.E.T.s.
+Cluster Chunks är kristallklungor som klipporna rymmer. De finns i tre grader, **Normal (Regular)**, **Mytisk (Mythical)** och **Legendarisk (Legendary)**, och ett sönderfall lämnar högst en av varje. Ett sönderfall av vilken [klippa](/wiki/03-Mechanics/Asteroid-Mining.md) som helst kan lämna en Regular Cluster Chunk, från nivå 3 en Mythical och från nivå 4 en Legendary; Motherlode ger dem oftast. Chanserna står i [Resurser](/wiki/06-Items/Resources.md#regular-cluster-chunk). Chunken ingår inte i sönderfallets utbetalning: den går hel, i malmbiten, till den grupp som gjorde mest skada, och ingen tur ändrar chansen, inte heller en P.E.T.s.
 
 En chunk är en resurs: den kan inte säljas, och wipen raderar den om du inte tar med den i [Transportförrådet](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 

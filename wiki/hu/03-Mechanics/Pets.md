@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 
@@ -17,7 +17,7 @@ A **P.E.T.** (Personal Escort Technology) egy kis kísérő, amely a hajód mell
 ## Egy percben {#in-one-minute}
 
 - **Szerezd meg a Stationt.** Kutass ki egy **P.E.T. Stationt** a kutatóközpontban, és gyárts egyet a Gyártásban. Három szintje van, **2, 3 és 5** P.E.T.-nek ad helyet. Szereld fel annak a hajónak az egyik extrafoglalatába, amellyel repülsz. A Bölcső nélküle is működik: P.E.T.-eket kikeltethetsz, mielőtt Stationöd lenne.
-- **Találj chunkokat.** Törj aszteroidákat a második szinttől felfelé: egy **Regular**, egy **Mythical** vagy egy **Legendary Cluster Chunk** egészben maradhat a legtöbb sebzést okozó csoport ércdarabjában.
+- **Találj chunkokat.** Törj aszteroidákat, minél nagyobb, annál jobb: egy **Regular**, egy **Mythical** vagy egy **Legendary Cluster Chunk** egészben maradhat a legtöbb sebzést okozó csoport ércdarabjában.
 - **Keltesd ki.** A hangár **P.E.T.** nézetében a Bölcső minden P.E.T.-hez egy chunkot és egy Orvium Reinforced Plate-et vesz el, és négy helye van a sorában. A chunk fokozata dönti el, hány bónusza lesz a P.E.T.-nek: **1, 2 vagy 3**.
 - **Dokkold és repülj.** Dokkold azokat a P.E.T.-eket, amelyeket akarsz, amíg a hajód leszállt. Felszerelt és BE kapcsolt Stationnel adják a bónuszaikat, és tapasztalatot szereznek, miközben vadászol, bányászol és repülsz, a 20. szintig.
 - **BE és KI.** A gyorssáv **PET** foglalata kapcsolja a Stationt, repülés közben is, és a változás azonnal érvényes: KI állásban a P.E.T.-eid nem adnak bónuszt, nem szereznek tapasztalatot és nem dolgoznak; BE állásban visszatérnek. A Station, amelyet még nem kapcsoltál át, BE van.
@@ -37,7 +37,7 @@ A hangár P.E.T. nézete megmondja, melyik Stationöd van, hová van felszerelve
 
 ## Cluster Chunkok {#cluster-chunks}
 
-A Cluster Chunkok kristályfürtök, amelyeket a sziklák rejtenek. Három fokozatban léteznek, **Normál (Regular)**, **Mitikus (Mythical)** és **Legendás (Legendary)**, és egy széttörés legfeljebb egyet hagy mindegyikből. A [sziklák](/wiki/03-Mechanics/Asteroid-Mining.md) 2. szintjétől egy széttörés Regular Cluster Chunkot hagyhat, a 3. szinttől Mythicalt, a 4. szinttől Legendaryt; a Motherlode adja őket a leggyakrabban. Az esélyek az [Erőforrások](/wiki/06-Items/Resources.md#regular-cluster-chunk) cikkben vannak. A chunk nem része a széttörés kifizetésének: egészben, az ércdarabban a legtöbb sebzést okozó csoporté lesz, és semmilyen szerencse nem változtat az esélyén, a P.E.T.-é sem.
+A Cluster Chunkok kristályfürtök, amelyeket a sziklák rejtenek. Három fokozatban léteznek, **Normál (Regular)**, **Mitikus (Mythical)** és **Legendás (Legendary)**, és egy széttörés legfeljebb egyet hagy mindegyikből. Bármelyik [szikla](/wiki/03-Mechanics/Asteroid-Mining.md) széttörése hagyhat Regular Cluster Chunkot, a 3. szinttől Mythicalt, a 4. szinttől Legendaryt; a Motherlode adja őket a leggyakrabban. Az esélyek az [Erőforrások](/wiki/06-Items/Resources.md#regular-cluster-chunk) cikkben vannak. A chunk nem része a széttörés kifizetésének: egészben, az ércdarabban a legtöbb sebzést okozó csoporté lesz, és semmilyen szerencse nem változtat az esélyén, a P.E.T.-é sem.
 
 A chunk erőforrás: nem adható el, és a wipe törli, ha nem viszed át a [Tranzittárolóban](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 

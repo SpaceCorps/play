@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
+<!-- wiki-i18n source: fe17f46644fd6072 -->
 <!-- wiki-i18n title: 推进 -->
 # 推进与速度 {#propulsion-speed}
 
@@ -8,7 +8,7 @@
 
 - **引擎产生速度，推进器装在引擎里为它增加速度。** 一台引擎可装一到三个推进器（Engine I 一个，Engine II 两个，Engine III 三个），自适应核心也一样（它的等级决定数量）。
 - **两个系列，每个四阶。** Impulse Thruster 提供最多的固定速度，Momentum Thruster 提供的固定速度较少，但对速度的倍率更大。两个系列中，每一阶在两项数值上都比下一阶更高。
-- **哪个装哪里。** 一般来说，各处都适合装 Impulse：只有装满三个推进器的 Engine III 里，I 阶和 II 阶的 Momentum 才会领先。数字见[下面的表格](#which-thruster-where)。最快的 Engine III 装三个 Impulse Thruster IV，速度为 52.5。
+- **哪个装哪里。** 一般来说，装满三个推进器的 Engine III 里装 Momentum，自适应核心里装 Impulse；在较小的引擎里，两者在 I 阶和 II 阶很接近，从 III 阶起 Impulse 领先。数字见[下面的表格](#which-thruster-where)。最快的 Engine III 装三个 Momentum Thruster IV，速度为 63.3。
 - **如何获得。** 每个系列的 I 阶售价 20,000 信用点。II 到 IV 阶在装配站制造，每一阶用低一阶的推进器制成，推进器永远不会更换系列。
 
 <!-- item-tree:begin -->
@@ -43,9 +43,9 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 | 名称 | 稀有度 | 基础速度 | 速度加成 % | 护盾加成 % | 槽位 | 特殊效果 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Engine I** | 劣质 | +2 | +2% | -2% | 1 | Afterburner I | 20,000 信用点 |
-| **Engine II** | 普通 | +4 | +3% | -8% | 2 | Afterburner II | 仅可制造 |
-| **Engine III** | 稀有 | +6 | +4% | -15% | 3 | Afterburner III | 仅可制造 |
+| **Engine I** | 劣质 | +5 | +2% | -2% | 1 | Afterburner I | 20,000 信用点 |
+| **Engine II** | 普通 | +10 | +3% | -8% | 2 | Afterburner II | 仅可制造 |
+| **Engine III** | 稀有 | +15 | +4% | -15% | 3 | Afterburner III | 仅可制造 |
 
 **Engine II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Engine I 制成，另需 2,000 Thulium、60 个 Ship Fragment、1 个 Power Core 和 4 块 Velkonite Reinforced Plate。**Engine III** 在装配站中由一个 Engine II 制成，另需 4,000 Thulium、110 个 Ship Fragment、5 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗引擎的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的引擎从你的舰船上取下（并把其中的推进器取出）：已装备或带有推进器的引擎不会被消耗。
 
@@ -55,7 +55,7 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## 推进器 {#thrusters}
 
-推进器嵌入在引擎或自适应核心中，以提升它们的速度输出。推进器分为两个系列，每个系列有四阶：**Impulse Thruster** 提供最多的固定速度，并以较小的倍率略微提升所装引擎的速度，**Momentum Thruster** 提供的固定速度较少，但倍率更大。两个系列中，每一阶的固定速度和倍率都比低一阶更高。装有推进器的引擎（或自适应核心）产生的速度是**它自身的基础速度加上推进器的固定速度提升，再把整体乘上所有推进器的速度倍率之积**（[速度如何计算](/wiki/03-Mechanics/Speed.md)）：装有三个 Momentum Thruster IV 的 Engine III 产生 (6 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 51.5，装有三个 Impulse Thruster IV 的产生 (6 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 52.5，装有两个 Impulse Thruster IV 的 Adaptive Core II 产生 (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7（装两个 Momentum Thruster IV 则为 26.6）。
+推进器嵌入在引擎或自适应核心中，以提升它们的速度输出。推进器分为两个系列，每个系列有四阶：**Impulse Thruster** 提供最多的固定速度，并以较小的倍率略微提升所装引擎的速度，**Momentum Thruster** 提供的固定速度较少，但倍率更大。两个系列中，每一阶的固定速度和倍率都比低一阶更高。装有推进器的引擎（或自适应核心）产生的速度是**它自身的基础速度加上推进器的固定速度提升，再把整体乘上所有推进器的速度倍率之积**（[速度如何计算](/wiki/03-Mechanics/Speed.md)）：装有三个 Momentum Thruster IV 的 Engine III 产生 (15 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 63.3，装有三个 Impulse Thruster IV 的产生 (15 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 62.3，装有两个 Impulse Thruster IV 的 Adaptive Core II 产生 (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7（装两个 Momentum Thruster IV 则为 26.6）。
 
 | 名称 | 稀有度 | 固定速度提升 | 速度倍率 | 费用 |
 | :--- | :--- | :---: | :---: | :--- |
@@ -70,19 +70,19 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ### 哪个推进器装哪里 {#which-thruster-where}
 
-Impulse 提供更多固定速度，Momentum 的倍率更大，所以哪个更快，取决于引擎本来就产生多少速度。固定速度在可供相乘的速度很少的地方作用最大：自适应核心（它没有自身速度）以及装有一两个推进器的引擎。倍率则在可供相乘的速度很多的地方作用最大：装满三个推进器的 Engine III，但在那里只有 I 阶和 II 阶的 Momentum 能获胜。每个槽位都装 IV 阶推进器时，各自产生的速度如下：
+Impulse 提供更多固定速度，Momentum 的倍率更大，所以哪个更快，取决于引擎本来就产生多少速度。固定速度在可供相乘的速度很少的地方作用最大：自适应核心（它没有自身速度）以及装有一两个推进器的引擎。倍率则在可供相乘的速度很多的地方作用最大：装满三个推进器的 Engine III，在那里 Momentum 每一阶都能获胜。每个槽位都装 IV 阶推进器时，各自产生的速度如下：
 
 | 推进器装在哪里 | 装 Impulse Thruster IV | 装 Momentum Thruster IV | 更快的一方 |
 | :--- | :---: | :---: | :--- |
-| Engine I，1 个推进器 | 16.5 | 14.4 | Impulse |
-| Engine II，2 个推进器 | 34.0 | 31.4 | Impulse |
-| Engine III，1 个推进器 | 20.6 | 18.7 | Impulse |
-| Engine III，2 个推进器 | 36.1 | 33.8 | Impulse |
-| Engine III，3 个推进器 | 52.5 | 51.5 | Impulse |
+| Engine I，1 个推进器 | 19.6 | 17.6 | Impulse |
+| Engine II，2 个推进器 | 40.3 | 38.6 | Impulse |
+| Engine III，1 个推进器 | 29.9 | 28.6 | Impulse |
+| Engine III，2 个推进器 | 45.6 | 44.6 | Impulse |
+| Engine III，3 个推进器 | 62.3 | 63.3 | Momentum |
 | Adaptive Core II，2 个推进器 | 29.7 | 26.6 | Impulse |
 
-- **较低的阶。** 较低的阶规律相同，但有两处接近和一个例外：Engine II 装两个推进器时，两个系列在 I 阶和 II 阶打平（Impulse 领先 0.06 和 0.24）；Engine III 装两个时也打平（相差不到 0.1）。从 III 阶起，两种情况下都是 Impulse 领先，领先 1.5 到 2.6。例外是装满三个推进器的 Engine III：Momentum 在 I 阶和 II 阶领先，分别领先 0.6 和 0.9，Impulse 在 III 阶和 IV 阶领先，分别领先 0.5 和 1.0。
-- **最快的 Engine III。** 装三个 Impulse Thruster IV：52.5，略高于一个 Impulse 加两个 Momentum Thruster IV（52.1）或三个 Momentum（51.5）。
+- **较低的阶。** 从 III 阶起，除装满三个推进器的 Engine III 外，其余各处都是 Impulse 领先，领先 0.6 到 3.1。在 I 阶和 II 阶，除装满三个推进器的 Engine III 外，两个系列相差不到 1 点：Impulse 在 Engine I 和 Adaptive Core I 或 II 里领先，Momentum 在装一两个推进器的 Engine III 和装两个的 Engine II 里领先或打平。例外是装满三个推进器的 Engine III：Momentum 在每一阶都领先，领先 1.0 到 2.0。
+- **最快的 Engine III。** 装三个 Momentum Thruster IV：63.3，略高于一个 Impulse 加两个 Momentum Thruster IV（63.2）或三个 Impulse（62.3）。
 
 [锻造炉](/wiki/06-Items/Forge.md)为推进器速度倍率附加的加成，作用于超出 1 的部分（1.0935x 加上 +15% 得到 1.1075x）；锻造炉不会给 1.05x 及以下的倍率附加加成：加在 Impulse Thruster 的 1.017x 到 1.02975x 上，增加的不到 0.005（1.02975x 加上 +15% 得到 1.034x）。Impulse Thruster 有一项加成（固定速度），Momentum Thruster 有两项。
 
@@ -90,4 +90,4 @@ Impulse 提供更多固定速度，Momentum 的倍率更大，所以哪个更快
 
 ### 甩开外星人 {#outrunning-aliens}
 
-外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion（基础速度 220），装 Impulse Thruster I 时速度为 239.9，装 II 时为 249.2，装 III 时为 258.6，装 IV 时为 261.6：每一阶都能甩开 Crystalys，连可以购买的 Impulse Thruster I 也不例外。Momentum Thruster 在这艘舰船上速度相同或稍低（Momentum Thruster I 为 239.9，II 至 IV 为 248.9、256.7、259.0）：两个系列的每一阶都高于 Crystalys，至少高出 9.9。
+外星人的飞行速度分别是 120（Seeker）、160（Phantasm）、175（Bulwark）、180（Goombah）和 230（Crystalys）。装了一个 Engine II 和两个推进器的 Ostirion（基础速度 220），装 Impulse Thruster I 时速度为 246.3，装 II 时为 255.6，装 III 时为 265.1，装 IV 时为 268.2：每一阶都能甩开 Crystalys，连可以购买的 Impulse Thruster I 也不例外。Momentum Thruster 在这艘舰船上与此相差不到两点（Momentum Thruster I 为 246.7，II 至 IV 为 255.9、263.9、266.3）：两个系列的每一阶都高于 Crystalys，至少高出 16.3。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -18,8 +18,8 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 | **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink | 162 000 | 310 | 14 |
 | **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod | 180 000 | 210 | 16 |
 | **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon | 144 000 | 260 | 13 |
-| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 720 000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 600 000 | 110 | 10 |
+| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 600 000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 500 000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 13 |
 | **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod | 307 200 | 230 | 13 |
@@ -63,7 +63,7 @@ Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a T
 | **Wraith** | 10 | 10 óra | 100 | 5 | 50 óra | 50 |
 | **Mind a négy** | 37 | 37 óra | 370 | 13 | 130 óra | 130 |
 
-Együtt 500 Dark Mattert kérnek, az összes többi technológia 749-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 364 a játék összes technológiájára.
+Együtt 500 Dark Mattert kérnek, az összes többi technológia 759-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 374 a játék összes technológiájára.
 
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 

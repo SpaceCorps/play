@@ -25,7 +25,7 @@ The Storm is a glass-cannon fighter: the highest base speed and the most lasers 
 
 ## Research
 
-- **Hull plate slots.** The Storm has 7 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Storm and on every one of its designs. All 7 filled with Hull Plating III add 105,000 hull.
+- **Hull plate slots.** The Storm has 7 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Storm and on every one of its designs. All 7 filled with Hull Plating III add 175,000 hull.
 - **Designs.** The Storm has 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Research one (10 h and 10 Dark Matter), then convert your Storm into it in Assembly: the change cannot be undone.
 
 | Design | What it changes |

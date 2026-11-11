@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -17,7 +17,7 @@
 ## 1分でわかる {#in-one-minute}
 
 - **Station を手に入れる。** 研究センターで **P.E.T. Station** を研究し、アセンブリで製作します。3段階あり、**2体、3体、5体**分の枠があります。操縦する艦のエクストラ枠に装備します。ゆりかごは Station がなくても使えるので、Station を持つ前に P.E.T. を孵せます。
-- **チャンクを見つける。** ティア2以上の小惑星を壊すと、最もダメージを与えたパーティの鉱石チャンクの中に、**Regular**、**Mythical**、**Legendary** の **Cluster Chunk** がそのまま残ることがあります。
+- **チャンクを見つける。** 小惑星を壊すと（大きい岩ほど有利です）、最もダメージを与えたパーティの鉱石チャンクの中に、**Regular**、**Mythical**、**Legendary** の **Cluster Chunk** がそのまま残ることがあります。
 - **孵す。** ハンガーの **P.E.T.** ビューでは、ゆりかごが P.E.T. 1体につきチャンク1つと Orvium Reinforced Plate 1枚を使い、キューは4枠です。チャンクのグレードが、P.E.T. のブースト数を決めます：**1、2、3**。
 - **ドッキングして飛ぶ。** 艦が着陸している間に、使いたい P.E.T. をドッキングします。Station を装備して ON にしている間は、ブーストを与え、狩り、採掘、飛行で経験値を得て、レベル20まで育ちます。
 - **ON と OFF。** ホットバーの **PET** スロットが Station を切り替えます。飛行中でも切り替えられ、すぐに有効です。OFF では P.E.T. はブーストを与えず、経験値を得ず、働きません。ON に戻せば元どおりです。切り替えたことのない Station は ON です。
@@ -37,7 +37,7 @@ Station は**エクストラ**です。**P.E.T. Station I、II、III** の3つ�
 
 ## Cluster Chunk {#cluster-chunks}
 
-Cluster Chunk は、岩が抱える結晶の塊です。**ノーマル（Regular）**、**ミシカル（Mythical）**、**レジェンダリー（Legendary）** の3つのグレードがあり、1回の破壊で各グレードが最大1つ残ります。[岩](/wiki/03-Mechanics/Asteroid-Mining.md)のティア2以上で Regular Cluster Chunk、ティア3以上で Mythical、ティア4以上で Legendary が残ることがあり、最もよく出すのは Motherlode です。確率は[資源](/wiki/06-Items/Resources.md#regular-cluster-chunk)にあります。チャンクは破壊の報酬には含まれません。鉱石チャンクの中にそのまま入り、最もダメージを与えたパーティのものになり、運では確率は変わりません。P.E.T. の運でも同じです。
+Cluster Chunk は、岩が抱える結晶の塊です。**ノーマル（Regular）**、**ミシカル（Mythical）**、**レジェンダリー（Legendary）** の3つのグレードがあり、1回の破壊で各グレードが最大1つ残ります。どの[岩](/wiki/03-Mechanics/Asteroid-Mining.md)を壊しても Regular Cluster Chunk、ティア3以上で Mythical、ティア4以上で Legendary が残ることがあり、最もよく出すのは Motherlode です。確率は[資源](/wiki/06-Items/Resources.md#regular-cluster-chunk)にあります。チャンクは破壊の報酬には含まれません。鉱石チャンクの中にそのまま入り、最もダメージを与えたパーティのものになり、運では確率は変わりません。P.E.T. の運でも同じです。
 
 チャンクは資源なので売れず、[トランスポートキャッシュ](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)に入れて持ち越さない限り、ワイプで削除されます。
 

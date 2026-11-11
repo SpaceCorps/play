@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -6,7 +6,7 @@ Os extras são os equipamentos utilitários dos **slots extras** de uma nave (do
 
 | Extra | O que faz | Usos | Preço |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I a IV** | Repara seu casco, 1,5%, 2,25%, 3,5% e 5% do máximo por segundo | ilimitados | 5.000 / 15.000 / 35.000 créditos, 2.000 Thulium |
+| **Repair Drone I a IV** | Repara seu casco, 2%, 3%, 4% e 5% do máximo por segundo | ilimitados | 5.000 / 15.000 / 35.000 créditos, 2.000 Thulium |
 | **Cloaking CPU S** | Esconde sua nave | 10 | 5.000 Thulium |
 | **Cloaking CPU M** | Esconde sua nave | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Esconde sua nave | 50 | 20.000 Thulium |
@@ -96,13 +96,24 @@ Pressione o slot WAL e uma **parede de plasma** se ergue **no seu cursor**, atra
 
 - **O que ela detém.** Todo tiro que a atravessa acerta a parede no lugar, não importa quem atirou nem de que lado: uma salva de laser, um foguete, a salva de um alienígena. O que está atrás não sofre nada e os pontos de vida da parede levam o dano. A explosão de um foguete que detona na parede atinge as naves do lado de cá e não as que estão atrás. Seus próprios tiros também: você não pode atirar para fora através da sua própria parede. A N.I.K.E. e as torres do Dormant Swamp passam por cima dela, como passam por cima dos asteroides.
 - **O que ela queima.** Toda nave cujo casco encosta na faixa sofre **2.500 de dano por segundo**, primeiro no escudo, inclusive a sua, e também alienígenas e pilotos de corporação. Uma nave em zona segura ou sob a proteção de um reaparecimento não queima, e duas faixas sobre uma nave não se somam.
-- **Quanto dura.** Uma parede de nível 1 tem **30.000 pontos de vida** e uma de nível 2, **90.000**. Uma parede perde sozinha um sessenta avos por segundo, então uma em que ninguém atira some em **60 segundos**. Os tiros encurtam isso: uma Wraith com treze Helios Beams e munição x4 derruba uma parede de nível 1 em cerca de 4 segundos.
+- **Quanto dura.** Uma parede de nível 1 tem **100.000 pontos de vida** e uma de nível 2, **250.000**. Uma parede perde sozinha um sessenta avos por segundo, então uma em que ninguém atira some em **60 segundos**. Os tiros encurtam isso: uma Wraith com treze Helios Beams e munição x4 derruba uma parede de nível 1 em cerca de 11 segundos e uma de nível 2 em cerca de 22.
 - **Uma de cada vez, uma parede por pressão.** Uma parede nova toma o lugar da antiga. Depois de pressionar, o item recarrega por **90 segundos**; a espera é sua, não da nave: morrer ou sair do jogo não a encurta. Uma pressão gasta **uma parede do nível que o slot guarda**, e só quando a parede se ergue: uma pressão que o jogo recusa (abaixo) não gasta nada e não inicia espera. Se não resta nenhuma desse nível, ele diz “Não resta nenhuma Energetic Wall.” e o outro nível nunca é gasto no lugar dele.
 - **Onde não.** Não enquanto uma zona segura ou um reaparecimento protege você, não onde a faixa tocaria uma zona segura ou um portão, não camuflado e não onde o meio da faixa cairia fora do mapa. O jogo diz qual é o caso.
 - **Abates.** Uma nave que a parede destrói morre de radiação, e o abate vai para o último piloto inimigo que a acertou nos 15 segundos anteriores, se houve algum. Quem ergueu a parede não recebe crédito por nada que não tenha atirado ele mesmo. Um alienígena que a parede destrói não paga nada: nem recompensa nem espólio.
 - **Os alienígenas não a contornam.** Eles passam por ela e queimam, ou ficam do lado deles e atiram na parede.
 - **O que você vê.** Uma faixa de luz azul-esbranquiçada com traços brilhantes correndo por ela e um poste de luz em cada ponta, que lampeja onde um tiro acerta e treme quando está quase no fim. Uma parede de nível 2 brilha em amarelo, com um núcleo mais grosso e brilhante e um halo mais forte, mas a faixa dela tem as mesmas 10 unidades de largura que a de nível 1. Uma barra de vida fina ao lado encurta e passa para âmbar e depois para vermelho; o seu slot mostra a vida restante da sua parede como arco e a espera como sombra. Uma parede recém-erguida lampeja ao acender, uma derrubada desaba em faíscas e uma cujo tempo acabou se apaga. No seu slot, um número também conta as paredes do nível dele que restam.
 - **Como conseguir e levar.** A Energetic Wall I é vendida na loja por **250 Thulium** a parede, e você leva até **20** em uma pilha (o que você colocou no [Leilão](/wiki/03-Mechanics/Auction.md) conta). A Energetic Wall II é feita na Montagem, **uma parede por produção**, por **600 Thulium**, 5 Ship Fragments e um Power Core, depois que o Centro de Pesquisa a pesquisa (6 horas na velocidade normal: [Pesquisa](/wiki/03-Mechanics/Research.md)); você leva até **10**. Ao contrário dos doze foguetes, dos quais 1.000 de cada passam por conta própria, as paredes que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte, e as do Cache não podem ser usadas. Uma Energetic Wall II que você fez pode ser vendida no Leilão; uma Energetic Wall I, que a loja vende, nunca.
+
+## Mine
+
+Uma **Mine** é uma armadilha que se lança. Aperte o slot dela com o cursor sobre um ponto e a sua nave lança a Mine até lá, **até onde alcançam os seus lasers**: um cursor mais distante a coloca nesse alcance ao longo da linha, e sem ponto de cursor ela cai sob a nave. Ela voa por um instante, pousa e fica **armada 3 segundos depois**. Daí em diante explode **uma única vez, com todo o seu dano, sob a primeira nave que passar por cima**, e desaparece: não há dano ao longo do tempo nem onda de explosão. Uma Mine é um **consumível**, como a [Energetic Wall](#energetic-wall): uma pilha no seu inventário que não ocupa **nenhum slot** de nenhuma nave. Arraste-a dos Consumíveis da barra de atalhos para um slot para usá-la; os três níveis são três entradas, então um slot guarda um nível.
+
+- **Quem ela atinge.** Toda nave que passa por cima: um piloto inimigo, um alienígena, um piloto de corporação, os seus colegas de corporação, o seu grupo e **você mesmo**. Uma Mine não tem amigos. O que poupa uma nave é o que a poupa de qualquer arma: uma zona segura, a proteção de um reaparecimento, uma camuflagem ou uma janela de EMP.
+- **Afastar-se.** Uma nave que está dentro do alcance de uma Mine quando ela pousa é poupada até sair desse alcance uma vez, e você é o primeiro que ela poupa: você pode largar uma Mine sob a sua nave e se afastar. Depois disso, a Mine explode sob essa nave como sob qualquer outra, mesmo que ela volte mais tarde.
+- **Quanto.** O dano cresce com o nível: **8.000, 20.000 e 50.000**. A sua habilidade Sabotagem soma até 30 % a ele, e a sua Pontaria faz a Mine voar mais rápido e mais longe.
+- **Limites.** Você pode ter **três** Mines fora ao mesmo tempo (a quarta toma o lugar da mais antiga), cada uma some **3 minutos** depois de pousar, e você espera **8 segundos** entre dois lançamentos; a espera é sua, não da nave. Se você sai do mapa, as suas Mines saem com você.
+- **Onde não.** Não onde os pilotos não podem lutar entre si (durante o Protocolo de Paz, ou em um setor ou portão cujas regras proíbem), não enquanto uma zona segura ou um reaparecimento protege você, não onde a Mine tocaria uma zona segura ou um portão, e não camuflado. O jogo diz qual é o caso; um lançamento recusado não gasta nada e não inicia espera.
+- **Como conseguir e levar.** A Mine I é vendida na loja por **100 Thulium**, e você leva até **20** em uma pilha. A Mine II é feita na Montagem, **uma Mine por produção**, com duas Mine I, 3 Ship Fragments e um Power Core por **200 Thulium** (até **10** em uma pilha); a Mine III com duas Mine II, 8 Ship Fragments, 2 Power Cores e uma Reinforced Hull Plate por **400 Thulium** (até **5**). As duas são feitas depois que o Centro de Pesquisa as pesquisa: 3 horas para a II e 6 horas para a III no ritmo normal (veja [Pesquisa](/wiki/03-Mechanics/Research.md)). As Mines que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte, e as do Cache não podem ser usadas. As Mines não podem ser vendidas no [Leilão](/wiki/03-Mechanics/Auction.md).
 
 ## CPUs do Centro de Pesquisa {#research-cpus}
 
@@ -122,6 +133,8 @@ Duas das CPUs pedem Dark Matter Plates, como o último nível de cada cadeia de 
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montagem. Passe o mouse sobre uma CPU na árvore dela para ver o que a Montagem pede para criá-la.
 

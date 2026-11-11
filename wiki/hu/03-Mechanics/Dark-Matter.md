@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 32b893f12261ffc4 -->
+<!-- wiki-i18n source: 97e289c94edbe6a9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; sötét anyag; dark matter plate; dark matter plates; plate; plates; lemez; lemezek; dark matter socket; dark matter sockets; socket; sockets; foglalat; dark matter foglalat -->
 
-A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsműhely két legmagasabb lépcsője és minden fejlesztési lánc utolsó szintje mögött áll. Nem veheted meg, nem bányászhatod, és a közönséges idegenek sem ejtik el: te **magad állítod elő a feketelyuknál (black hole)**, úgy, hogy **N.I.K.E.** rakétákat lősz bele, majd felszeded a ládákat, amelyeket visszadob. A **Dark Matter Plate**-et a Gyártásban sajtolják Dark Matterből, miután kikutattad a receptjét. Ez az oldal elmondja, honnan jön mindkettő, mire jó, és milyen sorrendben érdemes haladni. A szezon 11. napjától a Dark Matter az **óriás kotrógépek üzemanyaga** is ([Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)), és a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) néhány idegene ejt belőle egy keveset.
+A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsműhely két legmagasabb lépcsője és minden fejlesztési lánc utolsó szintje mögött áll. Nem veheted meg, nem bányászhatod, és a közönséges idegenek sem ejtik el: te **magad állítod elő a feketelyuknál (black hole)**, úgy, hogy **N.I.K.E.** rakétákat lősz bele, majd felszeded a ládákat, amelyeket visszadob. A **Dark Matter Plate**-et a Gyártásban sajtolják Dark Matterből, miután kikutattad a receptjét. Ez az oldal elmondja, honnan jön mindkettő, mire jó, és milyen sorrendben érdemes haladni. A szezon 11. napjától a Dark Matter az **óriás kotrógépek üzemanyaga** is ([Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)), a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) néhány idegene ejt belőle egy keveset, a [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) pedig többet ad egy nagyon nagy csoportnak.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
@@ -12,7 +12,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 ## Egy percben {#in-one-minute}
 
 - **A Dark Matter erőforrás, és mindenhol egyszerűen Dark Matternek hívják.** A Veszélyes szektor 4 (`DS-4`) közepén lévő feketelyuk állítja elő: minden N.I.K.E. rakéta, amely eléri a lyukat, 1–3 Dark Mattert ad vissza (átlagosan 2-t), kis ládákban a zónája szélén.
-- **Mire jó.** A Kutatóközpont 108 technológiája kéri, egyenként 5–60-at, összesen 1 364-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
+- **Mire jó.** A Kutatóközpont 109 technológiája kéri, egyenként 5–60-at, összesen 1 374-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 - **A Kutatóközpontban** a raktérből adsz hozzá Dark Mattert (leszállt hajóval), mielőtt az Indítás gombra nyomnál. A kutatás induláskor elveszi.
 - **A Dark Matter Plate más tárgy.** Előbb kutasd ki a receptjét (a fa Erőforrások csoportja: 1 nap és 10 Dark Matter), aztán gyárts belőle a Gyártásban 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból.
 - **Mire jó egy plate.** Minden fejlesztési lánc utolsó szintje **4-et** kér, és legalább egy Ancient Control Unitot. Ezek a IV. szintű amp-ok, pajzscellák és fúvókák, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II (13 darab). A Kovácsműhely 2-t kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen, és újabb 2-t a Repesztőről az Örökre. A Skylab hajtómű-, védelmi és radarmodulja is kér lemezeket az építéshez és a fejlesztéshez ([Erőforrások](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -25,9 +25,9 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Mi ez** | Egy Epikus erőforrás | Egy Mitikus erőforrás |
-| **Honnan jön** | A feketelyuk a 4. veszélyes szektorban, a belelőtt N.I.K.E. rakétákért; egy kevés a Dormant-rajtól és a Dormant Swamp Inert Masseitől | A Gyártás, 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból sajtolva |
+| **Honnan jön** | A feketelyuk a 4. veszélyes szektorban, a belelőtt N.I.K.E. rakétákért; egy kevés a Dormant-rajtól és a Dormant Swamp Inert Masseitől, sokkal több a 4. veszélyes szektor Tesseractjától | A Gyártás, 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból sajtolva |
 | **Mit teszel előbb** | Kikutatod a N.I.K.E.-t (3 óra, Dark Matter nélkül), és gyártasz belőle | Kikutatod a plate receptjét (1 nap, 10 Dark Matter) |
-| **Mire jó** | A kutatások költsége (108 technológia, összesen 1 364) és a plate | Minden fejlesztési lánc utolsó szintje: 4 a 13 darab mindegyikéhez; a Master Drone fejlesztése: 10; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
+| **Mire jó** | A kutatások költsége (109 technológia, összesen 1 374) és a plate | Minden fejlesztési lánc utolsó szintje: 4 a 13 darab mindegyikéhez; a Master Drone fejlesztése: 10; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
 
 ## Hogyan szerezz Dark Mattert {#how-to-get-dark-matter}
 
@@ -38,18 +38,18 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 5. **Szedd fel a ládákat.** Minden N.I.K.E., amely eléri a lyukat, **1, 2 vagy 3 Dark Mattert** ad vissza (az esetek negyedében 1-et, felében 2-t, negyedében 3-at), egy vagy két, legfeljebb 2 darabos ládában. A lyuk zónájának peremén landolnak, a középponttól 3 050–3 950 egységre, a lövésed vonalának közelében. Menj mindegyikhez 200 egységen belülre: a felszedés fél másodpercig tart.
 6. **Vidd haza.** A Dark Matter a leltáradba kerül. Az állomáson, leszállt hajóval hozzáadhatod a Kutatóközponthoz, vagy felhasználhatod a Gyártásban.
 
-Nagyjából **5 rakéta ad 10 Dark Mattert**. A Resource Magnet Booster nem tesz hozzá semmit, így mindenkinek ugyanannyi.
+Nagyjából **5 rakéta ad 10 Dark Mattert**. A Resource Magnet Booster nem tesz hozzá semmit, így mindenkinek ugyanannyi, aki nem képezte az Antimatter képességet: az a 100. szinten legfeljebb +25%-ot ad hozzá.
 
 ### Hogyan maradj életben {#keeping-it-safe}
 
 - **A ládák 60 másodpercig a tieid**, és a klánodéi. Utána bárki felveheti őket a térképen, és 240 másodperc múlva eltűnnek. Egy térképen legfeljebb 32 Dark Matter-láda lehet, és egy új kiszorítja közülük a legrégebbit.
 - **A perem a sugárzásban van.** Ott másodpercenként a hajód teljes életerejének 0,3–0,8%-ába kerül, a lyukhoz közelebb többe. Egy teljes hajó nagyjából 2–5 percig bírja; egy perc a sáv közepén egyharmadába kerül. A vonzás 3 000 egységnél véget ér, így semmi nem visz el sem téged, sem a ládákat.
 - **A Veszélyes szektor 4 PvP.** Egy rivális várhat a vonaladon: a N.I.K.E. az első hajót találja el, amelyet érint (67 500–75 000 sebzés), és a lyuk nem kap semmit. Egy rivális a ládákra is várhat, ha lejárt a 60 másodperced. Lőj a peremről, a lövéseid sorrendjében szedd fel a ládákat, és hozz társaságot.
-- **Egy második, kis forrás.** A [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) egy Dormant Pulse-a öt esetből egyszer ejt 1–5 Dark Mattert, annak a pilótának, aki a legtöbb sebzést okozta neki. A rajhoz nagy csoport kell. A [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) egy Inert Mass-e is ejt néha belőle, de a mocsár lövegei alatt él.
+- **További források.** A [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) egy Dormant Pulse-a öt esetből egyszer ejt 1–5 Dark Mattert, annak a pilótának, aki a legtöbb sebzést okozta neki. A rajhoz nagy csoport kell. A [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) egy Inert Mass-e is ejt néha belőle, de a mocsár lövegei alatt él. A nagy forrás a 4. veszélyes szektor [Tesseractja](/wiki/05-Swarms/Tesseract-Swarm.md): minden pilóta, akit a megölése kifizet, kap egy privát ládát, és a megölés 10–20 Dark Matteres készletét sebzés szerint osztják el köztük, pilótánként legfeljebb 5-tel, így négy vagy több pilóta csoportja megölésenként nagyjából 15-öt visz haza. Nagyon nagy csoport kell hozzá egy PvP-szektorban, és a megsemmisítése után 30 perccel tér vissza.
 
 ## Dark Matter a Kutatóközpontban {#in-the-research-centre}
 
-A fa csúcsán lévő technológiák a tudományuk mellett Dark Mattert is kérnek: **10-et** a 16 legfelső technológia mindegyikéhez, és **5-öt, 13-at vagy 20-at** a 16 drónformáció mindegyikéhez (minél erősebb a formáció, annál többet). A Hull Plating két kutatása **25-öt és 40-et** kér, a hajótechnológiák, a 13 dizájn és a 37 páncélzatfoglalat pedig egyenként **10-et**. A Skylab hajtómű-, védelmi és radarmodulja a második szinttől kezdve szintenként **5, 10, 15 vagy 20** Dark Mattert kér, összesen 115-öt ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). A [Kutatás](/wiki/03-Mechanics/Research.md#dark-matter) táblázatai az összes többit felsorolják.
+A fa csúcsán lévő technológiák a tudományuk mellett Dark Mattert is kérnek: **10-et** a 17 legfelső technológia mindegyikéhez, és **5-öt, 13-at vagy 20-at** a 16 drónformáció mindegyikéhez (minél erősebb a formáció, annál többet). A Hull Plating két kutatása **25-öt és 40-et** kér, a hajótechnológiák, a 13 dizájn és a 37 páncélzatfoglalat pedig egyenként **10-et**. A Skylab hajtómű-, védelmi és radarmodulja a második szinttől kezdve szintenként **5, 10, 15 vagy 20** Dark Mattert kér, összesen 115-öt ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). A [Kutatás](/wiki/03-Mechanics/Research.md#dark-matter) táblázatai az összes többit felsorolják.
 
 1. **Nyisd meg a Kutatás nézetet** a Skylabodban az állomáson, és válaszd ki a technológiát. A kártyáján van egy **Dark Matter** sor: mennyi van a Központban, mennyiből, amennyit kér (például 3 / 10).
 2. **Nyomj a Hozzáadás gombra.** A raktérből Dark Mattert visz a Kutatóközpontba, annyit, amennyi hiányzik, amennyire nálad van. A hajódnak le kell szállnia. A **Visszavétel** visszaadja a raktérbe.
@@ -107,7 +107,7 @@ Egy Paragon 44 darabja a 9 lézere, azok 27 erősítője és a 8 generátor- és
 | Egy Dark Matter Plate | 5 | 2,5 |
 | Egy Kovácsműhely-lépés két plate-je | 10 | 5 |
 | Egy utolsó szintű darab négy plate-je | 20 | 10 |
-| Minden technológia, amely Dark Mattert kér | 1 364 | 682 |
+| Minden technológia, amely Dark Mattert kér | 1 374 | 687 |
 
 Egy első fejlesztés a semmiből a recept (10) és két plate (10): 20 Dark Matter, nagyjából 10 N.I.K.E. rakéta, vagyis két gyártás. Egy első IV. szintű erősítő a semmiből a plate receptje (10), az erősítő saját technológiája (10) és 4 plate (20): 40 Dark Matter, nagyjából 20 N.I.K.E. rakéta.
 

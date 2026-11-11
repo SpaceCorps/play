@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ A Paragon é um cruzador de combate pesado, projetado com defesa e ataque equili
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 5 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 5 cheios de Hull Plating III, somam-se 75.000 de casco.
+- **Slots de blindagem.** Esta nave tem 5 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 5 cheios de Hull Plating III, somam-se 125.000 de casco.
 - **Designs.** Esta nave tem 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Paragon nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |

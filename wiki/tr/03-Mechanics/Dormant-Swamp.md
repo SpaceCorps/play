@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Kayıp uygarlığın üç uzaylısı burada yaşar, her birinin kendi sayıları
 
 - **Slumbering Void.** Zarif avcı, oyundaki en hızlı uzaylı (Afterburner III açıkken bir Storm’dan daha hızlı). Bazıları bataklığın çevresinde her zaman devriye gezer, diğerleri ekskavatörlere dalgalar hâlinde gelir. Saldırgandır, görebildiği en yakın pilotu avlar ve gizlenmiş bir gemiyi asla görmez.
 - **Inert Mass.** Mor çatlaklı, küçük bir istasyon boyutunda ölü bir gövde. Bataklığın ortasından belirli bir mesafenin içinde kalır ve şimdilik ondan ayrılmaz. **Dormant Lance** ateşler: çok uzun menzilli güdümlü roketler; bir gemi gizlenene, EMP kullanana, güvenli halkaya girene, sıçrayana ya da ölene kadar onu takip ederler. Lance her gemiden hızlıdır, bu yüzden yalnızca bu kesintiler işe yarar. Bir Lance roketinin yoluna giren bir asteroit onu durdurur ve Lance o asteroite kendi hasarı kadar zarar verir (bunun için kimseye ödeme yapılmaz); yani bir kaya, bir Inert Mass uzaylısına karşı yalnızca birkaç vuruşluk bir barınaktır.
-- **The Unwakened.** Bataklığın ortasında uyuyan bir monolit; herhangi bir haritadaki en büyük şey ve o kadar yavaş ki hiçbir gemiyi yakalayamaz. Hiçbir şey ateşlemez ama aurasının içindeki her gemi yanar, **gizlenmiş olsun ya da olmasın**. **Bağışıktır**: atışlar ve roketler isabet eder ve hiçbir şey yapmaz, hedef penceresi dolu çubukları ve Bağışık yazısını gösterir. Daha sonraki bir etkinlik ona karşı savaşmaya izin verecek; ödülleri aşağıda yazılıdır ve henüz kazanılamaz.
+- **The Unwakened.** Bataklığın ortasında uyuyan bir monolit; herhangi bir haritadaki en büyük şey ve o kadar yavaş ki hiçbir gemiyi yakalayamaz. Hiçbir şey ateşlemez ama aurasının içindeki her gemi yanar, **gizlenmiş olsun ya da olmasın**. **Bağışıktır**: atışlar ve roketler isabet eder ve hiçbir şey yapmaz, hedef penceresi dolu çubukları ve Bağışık yazısını gösterir. Daha sonraki bir etkinlik ona karşı savaşmaya izin verecek; ödülleri aşağıda yazılıdır ve henüz kazanılamaz. Bir pilotun **Radyasyon tekniği** yanmayı düşürür; 100. seviyede 0,40 katına iner.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

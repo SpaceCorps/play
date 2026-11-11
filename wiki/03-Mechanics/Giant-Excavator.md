@@ -118,6 +118,7 @@ Mining adds heat second by second. The heat is **cumulative and never cools whil
 
 <!-- excavator-radiation:end -->
 
+- **Radiation tech.** A pilot skill that lowers the dose in the circles just as at the black hole, to 0.40 of it at level 100; the circles and the times do not change.
 - **The warning.** Twice before the overheat (the times are in the list above) the map is told, a ship inside the circles sees a warning, and the circles are drawn on the ground in flight and on the minimap. When they radiate the circles are red and the Radiation gauge shows the dose.
 - **Leaving.** Every stock ship can leave from the panel's edge or from the farthest box alive, except the Ironclad, which is slow: it leaves during the warning, or it does not leave. Do not stand on a box when the heat runs out.
 - **Loot in the circles.** Boxes laid before the overheat stay, in the radiation: a box lying there when it begins is taken at the cost of the dose.

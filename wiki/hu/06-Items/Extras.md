@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -6,7 +6,7 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 
 | Extra | Mit csinál | Használatok | Ár |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I–IV** | Javítja a hajótestedet: másodpercenként a maximum 1,5%-át, 2,25%-át, 3,5%-át, illetve 5%-át | korlátlan | 5 000 / 15 000 / 35 000 kredit, 2 000 Thulium |
+| **Repair Drone I–IV** | Javítja a hajótestedet: másodpercenként a maximum 2%-át, 3%-át, 4%-át, illetve 5%-át | korlátlan | 5 000 / 15 000 / 35 000 kredit, 2 000 Thulium |
 | **Cloaking CPU S** | Elrejti a hajódat | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Elrejti a hajódat | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Elrejti a hajódat | 50 | 20 000 Thulium |
@@ -96,13 +96,24 @@ Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merő
 
 - **Mit állít meg.** Minden lövés, amely átszeli, a falat találja el, bárki adta le és bármelyik oldalról: lézersorozat, rakéta, egy idegen sorozata. Ami mögötte áll, semmit sem kap, a sebzést a fal életereje viseli. Egy rakéta robbanása, amely a falnál megy el, a közeli oldalán lévő hajókat éri, a mögötte lévőket nem. A saját lövéseidet is: a saját falaidon át nem tudsz kifelé lőni. A N.I.K.E. és a Dormant Swamp lövegtornyai átrepülnek rajta, ahogy az aszteroidák felett is.
 - **Mit éget.** Minden hajó, amelynek a törzse hozzáér a sávhoz, **másodpercenként 2 500 sebzést** kap, előbb a pajzsa, a tiéd is, az idegenek és a vállalati pilóták is. A biztonságos zónában vagy újraéledés védelme alatt álló hajó nem ég, és két sáv egy hajón nem adódik össze.
-- **Meddig tart.** Az 1. szintű fal **30 000 életerőpontos**, a 2. szintű **90 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenhárom Helios Beammel és x4 lőszerrel nagyjából 4 másodperc alatt lebont egy 1. szintű falat.
+- **Meddig tart.** Az 1. szintű fal **100 000 életerőpontos**, a 2. szintű **250 000**. A fal magától másodpercenként a hatvanad részét veszíti, így az, amire senki sem lő, **60 másodperc** után eltűnik. A lövések ezt lerövidítik: egy Wraith tizenhárom Helios Beammel és x4 lőszerrel nagyjából 11 másodperc alatt lebont egy 1. szintű falat, egy 2. szintűt pedig nagyjából 22 alatt.
 - **Egyszerre egy, megnyomásonként egy fal.** Az új fal a régi helyére kerül. Egy megnyomás után a tárgy **90 másodpercig** tölt; a várakozás a tiéd, nem a hajóé: a halál vagy a kijelentkezés nem rövidíti. Egy megnyomás **egy, a hely szintjének megfelelő falat** használ el, és csak akkor, ha a fal áll: az a megnyomás, amelyet a játék elutasít (lásd lent), nem használ el semmit, és nem indít várakozást. Ha ebből a szintből nincs több, azt mondja: „Nincs több Energetic Wall.”, és a másik szintet soha nem használja el helyette.
 - **Hol nem.** Nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a sáv biztonságos zónához vagy kapuhoz érne, nem álcázva, és nem ott, ahol a sáv közepe a térképen kívülre esne. A játék megmondja, melyik eset.
 - **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
 - **Az idegenek nem kerülik meg.** Átrepülnek rajta és égnek, vagy a saját oldalukon állva lőnek a falra.
 - **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul. A helyeden egy szám a szintjének megmaradt falait is számolja.
 - **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **250 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A tizenkét rakétával ellentétben, amelyekből típusonként 1 000 magától átkerül, a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
+
+## Mine
+
+A **Mine** eldobható csapda. Nyomd meg a helyét a kurzorral egy ponton, és a hajód oda dobja a Mine-t, **ameddig a lézereid elérnek**: egy távolabbi kurzor ezen az elérésen helyezi el a vonal mentén, kurzorpont nélkül pedig a hajó alá esik. Egy pillanatig repül, leszáll, és **3 másodperccel később éles**. Ettől kezdve **egyszer, a teljes sebzésével robban fel az első hajó alatt, amely átrepül fölötte**, és eltűnik: nincs idővel járó sebzés, és nincs lökéshullám. A Mine **fogyóeszköz**, mint az [Energetic Wall](#energetic-wall): köteg a leltáradban, amely **egyetlen hajón sem foglal foglalatot**. A használatához húzd a gyorssáv Fogyóeszközök menüjéből egy helyre; a három szint három bejegyzés, így egy hely egy szintet tart.
+
+- **Kit talál el.** Minden hajót, amely átrepül fölötte: ellenséges pilótát, idegent, vállalati pilótát, a vállalati társaidat, a csoportodat és **téged magadat**. A Mine-nak nincsenek barátai. Egy hajót az kímél, ami minden fegyvertől megkíméli: a biztonságos zóna, az újraéledés védelme, az álcázás vagy az EMP-ablak.
+- **Távolodás.** Az a hajó, amely a Mine elérésén belül van, amikor az leszáll, addig kíméletben marad, amíg egyszer el nem hagyta ezt az elérést, és te vagy az első, akit kímél: eldobhatsz egy Mine-t a hajód alá, és elrepülhetsz. Ezután a Mine ugyanúgy felrobban az adott hajó alatt, mint bármelyik másik alatt, akkor is, ha később visszatér.
+- **Mennyit.** A sebzés a szinttel nő: **8 000, 20 000 és 50 000**. A Szabotázs képességed legfeljebb 30 %-ot ad hozzá, a Lövészet pedig gyorsabban és messzebbre repíti a Mine-t.
+- **Korlátok.** Egyszerre **három** Mine lehet kint (a negyedik a legrégebbi helyét veszi át), mindegyik **3 perccel** a leszállás után eltűnik, és két dobás között **8 másodpercet** vársz; a várakozás a tiéd, nem a hajóé. Ha elhagyod a térképet, a Mine-jaid veled mennek.
+- **Hol nem.** Nem ott, ahol a pilóták nem harcolhatnak egymással (a Békeprotokoll alatt, vagy olyan szektorban vagy kapuban, ahol a szabályok tiltják), nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a Mine biztonságos zónához vagy kapuhoz érne, és nem álcázva. A játék megmondja, melyik eset; az elutasított dobás nem használ el semmit, és nem indít várakozást.
+- **Hogyan szerezhető és viszed.** A Mine I a Boltban **100 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben. A Mine II-t a Gyártás készíti, **gyártásonként egy Mine-t**, két Mine I-ből, 3 Ship Fragmentből és egy Power Core-ból **200 Thuliumért** (kötegenként legfeljebb **10**); a Mine III-at két Mine II-ből, 8 Ship Fragmentből, 2 Power Core-ból és egy Reinforced Hull Plate-ből **400 Thuliumért** (legfeljebb **5**). Mindkettőt akkor lehet legyártani, ha a Kutatóközpont már kikutatta: a II 3 órába, a III 6 órába kerül normál ütemben (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). A nálad lévő Mine-ok elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Mine-t nem lehet eladni az [Aukción](/wiki/03-Mechanics/Auction.md).
 
 ## A Kutatóközpont CPU-i {#research-cpus}
 
@@ -122,6 +133,8 @@ A CPU-k közül kettő Dark Matter Plate-et kér, mint minden fejlesztési lánc
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 óra | – | 15 000 | 10 perc |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 óra | – | 600 | 2 perc |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 óra | – | 20 000 | 15 perc |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 óra | – | 200 | 2 perc |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 óra | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 perc |
 
 Egyik sem kapható a Boltban: kutasd ki a technológiát, majd készítsd el a CPU-t a Gyártásban. Vidd az egeret egy CPU fölé a fáján, hogy lásd, mit kér érte a Gyártás.
 

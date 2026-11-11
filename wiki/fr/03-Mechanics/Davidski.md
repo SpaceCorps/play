@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Un **Ironclad TITANIC** peint en or, à la taille propre du TITANIC, équipé du
 | Extras | un Repair Drone IV, un Auto-Repair CPU et un Base CPU II |
 | Coque | 15 Hull Plating III |
 
-À la puissance d’Alpha, il a **858 750 de coque**, **1 309 534 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 86,3 % d’absorption, vitesse 98, portée 945 et une salve de **4 324 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,2 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ treize minutes de tir continu à lui seul, dix d’entre eux d’environ 77 secondes.
+À la puissance d’Alpha, il a **931 250 de coque**, **1 559 486 de bouclier** (se recharge de 67 614 par seconde après 15 secondes sans être touché), 90,9 % d’absorption, vitesse 102, portée 945 et une salve de **4 440 par seconde**. Beta a 1,5 fois ces valeurs et Gamma 2 fois, comme tout alien. Cela fait environ 2,5 millions de points à entamer dans Alpha : un Wraith avec les mêmes lasers a besoin d’environ quatorze minutes de tir continu à lui seul, dix d’entre eux d’environ 86 secondes.
 
 ## Le combattre {#fighting-him}
 
@@ -38,10 +38,10 @@ Il paie comme un boss, selon les dégâts infligés par chaque pilote (une part 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Crédits | 1 590 000 | 3 180 000 | 4 770 000 |
-| Thulium | 4 275 | 8 550 | 12 825 |
-| Expérience | 255 000 | 510 000 | 765 000 |
-| Honneur | 1 110 | 2 220 | 3 330 |
+| Crédits | 1 830 000 | 3 660 000 | 5 490 000 |
+| Thulium | 4 875 | 9 750 | 14 625 |
+| Expérience | 292 500 | 585 000 | 877 500 |
+| Honneur | 1 275 | 2 550 | 3 825 |
 
 La caisse contient 40 à 60 Ship Fragments, 10 à 20 Power Cores et 3 000 à 6 000 Advanced Plasma, et parfois des Ancient Control Units ou de la Dark Matter. Une destruction ne rapporte **aucun point PvE** au classement (il est hors de tous les classements, voir plus bas) ; l’expérience qu’elle paie compte comme n’importe quelle autre expérience, et la destruction est comptée sous le nom Davidski dans les statistiques de destructions.
 

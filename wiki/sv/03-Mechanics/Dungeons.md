@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -6,7 +6,9 @@
 
 En **dungeon** är en sluten labyrint med en **krigsherre** i änden (före 0.5.2 kallade spelet den port). En vice ledare eller ledaren i en [klan](/wiki/03-Mechanics/Clans.md) öppnar en och betalar för den ur klanbanken, och klanens medlemmar flyger in tillsammans som en [grupp](/wiki/03-Mechanics/Groups.md). De kämpar sig igenom labyrintens utomjordingar, öppnar bytezoner för att välja ett kort i var och en och fäller krigsherren. Varje pilot som deltog i striden får betalt när krigsherren faller, inom gränserna längre ner. Dungeonerna finns på fliken **Dungeons** på klansidan.
 
-En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klankamrat eller någon annan därinne. Utomjordingarna betalar ingenting. Betalningen kommer enbart från krigsherren, så det enda sättet att få betalt är att vara med i striden när den faller.
+En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klankamrat eller någon annan därinne. Utomjordingarna betalar när de faller, som utomjordingarna i spelet som de är byggda efter ([vad utomjordingarna betalar](#what-the-aliens-pay)). Klarningen tillhör krigsherren, så det enda sättet att få betalt för den är att vara med i striden när den faller.
+
+En dungeon är inte en [soloport](/wiki/03-Mechanics/Solo-Gates.md). En soloport är en arena som bara du flyger in i, öppnad med delar du hittar med Energimaterialiseraren; de två har skilda regler, utbetalningar och gränser.
 
 ## I korthet {#at-a-glance}
 
@@ -22,10 +24,10 @@ En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klank
 - **Labyrinter**: 8; en väljs när en dungeon öppnas
 - **Bossrummet**: Öppnas när 75 % av Crystalys och deras Twins är förstörda, avrundat uppåt
 - **Samling**: 10 min att samlas och starta. En dungeon som ingen startar stängs, och dess pris går tillbaka till klanbanken
-- **Tidsgräns**: Steg 1: 95 min, Steg 2: 130 min, Steg 3: 165 min från starten. När tiden tar slut misslyckas dungeonen och betalar ingenting
+- **Tidsgräns**: Steg 1: 95 min, Steg 2: 130 min, Steg 3: 165 min från starten. När tiden tar slut misslyckas dungeonen och klarningen betalar ingenting
 - **Lämnad tom**: En dungeon där ingen är inne på 3 min misslyckas
 - **När krigsherren faller**: Dungeonen förblir öppen i 2 min för piloterna som är inne
-- **Komma tillbaka**: En pilot som har lämnat dungeonen eller blivit förstörd kan flyga in igen 3 gånger, med 20 s emellan
+- **Komma tillbaka**: En pilot som har lämnat dungeonen eller blivit förstörd kan flyga in igen hur många gånger som helst, med minst 20 s emellan
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ En dungeon är en strid enbart mot utomjordingarna: ingen kan attackera en klank
 1. **Kalla fram.** På fliken Dungeons väljer en [vice ledare eller ledaren](/wiki/03-Mechanics/Clans.md#hierarchy-roles) ett steg och trycker på **Kalla fram**. Priset tas ur [klanbanken](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), och dungeonen får en av kartorna som listas ovan. En dungeon som ingen startar stängs, och priset går tillbaka till banken.
 2. **Gå in.** Klanens medlemmar trycker på **Gå in** i klanfönstret medan de flyger, hoppar genom klanportalen eller trycker på **Gå med** på aviseringskortet (se Gå in). Alla landar i startrummet, och piloterna därinne är dungeonens grupp.
 3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan dungeonen samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Dungeonen **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade dungeonen, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på. När dungeonen startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
-4. **Kämpa dig genom labyrinten.** Du kommer in i ena änden av labyrinten och krigsherren väntar i den andra, i ett låst rum. Labyrinten är mörk: du ser bara det gruppen har utforskat och det som är nära dess skepp. Utomjordingarna sover i flockar i korridorerna, och en flock som vaknar jagar gruppen genom labyrinten.
+4. **Kämpa dig genom labyrinten.** Du kommer in i ena änden av labyrinten och krigsherren väntar i den andra, i ett låst rum. Labyrinten är mörk: du ser bara det gruppen har utforskat och det som är nära dess skepp. Utomjordingarna väntar i flockar i korridorerna, och en flock kommer ut i samma ögonblick som en pilot flyger in i den korridorsträcka där den väntar, och jagar sedan gruppen genom labyrinten.
 5. **Öppna bytezonerna.** Ringar i labyrinten markerar zonerna. Håll en och gruppen röstar om ett kort, som betalas ut tillsammans med krigsherrens betalning.
 6. **Lås upp bossrummet.** Förstör tre fjärdedelar av labyrintens Crystalys och deras Twins, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas. De andra utomjordingarna blir kvar där de är, och du kan förstöra dem också.
 7. **Besegra krigsherren.** Bryt hans sköld och skrov och svara på hans förmågor. När han faller är dungeonen avklarad.
@@ -46,7 +48,7 @@ För att gå in i en dungeon behöver du ett **skepp i flykt**, så starta förs
 
 En vice ledare eller ledaren öppnar en dungeon, en i taget för klanen, och bara upp till antalet dungeons per dag. Klanbanken måste ha priset. En klan kan öppna ett steg först när den har klarat steget före.
 
-Inne i en dungeon kan du inte byta värld, och Jump CPU och Base CPU fungerar inte. Knappen **Lämna** i fönstret Klandungeon tar ut dig. Den ber först om bekräftelse, utom när krigsherren redan har fallit: då går du ut direkt. En pilot som har lämnat, eller blivit förstörd, kan flyga in igen några gånger, med en kort väntan emellan.
+Inne i en dungeon kan du inte byta värld, och Jump CPU och Base CPU fungerar inte. Knappen **Lämna** i fönstret Klandungeon tar ut dig. Den ber först om bekräftelse, utom när krigsherren redan har fallit: då går du ut direkt. En pilot som har lämnat, eller blivit förstörd, kan flyga in igen; listan under **I korthet** säger hur många gånger och hur länge han väntar mellan två återvändanden.
 
 ### Klanportalen och aviseringen {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Varje dungeon är en sluten labyrint på en egen karta, en av kartorna i listan 
 
 ## Utomjordingarna {#the-aliens}
 
-Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna, aldrig i ett rum, och en flock vaknar när en pilot kommer nära. En flock som är vaken väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den sov och läker. Några flockar är vakna från första sekunden och står i korridorerna långt från ingången tills en pilot kommer nära. Dungeonen håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en flock som vaknar kan behöva vänta på plats, och en flock du förstör släpper in nästa. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en. En flock som fortfarande väntar på plats när alla piloter har flugit bort somnar om, och vaknar igen när en pilot kommer nära.
+Fyra sorters utomjordingar vaktar labyrinten. De väntar i flockar i korridorerna, aldrig i ett rum, och en flock kommer ut i samma ögonblick som en pilot flyger in i den korridorsträcka där den väntar. Där ingen pilot har varit finns inget på kartan, så ingen flock står bakom väggarna djupt inne i labyrinten innan du kommer dit. En flock väntar inte på plats: den är på kartan i samma ögonblick, hur många utomjordingar som än redan är ute. En korridorsträcka rymmer en flock, så på den sträcka du flyger in i möter du en flock och inte summan av flera (en grupp på tio har fler flockar än sträckor, och där rymmer en sträcka två, som båda kommer ut). En flock som är ute väntar inte på dig: den jagar gruppen genom labyrinten, och en flock som tappar alla går tillbaka dit den kom ut och läker. En flock kommer ut bara en gång: en du förstör kommer inte tillbaka, och en du flyger ifrån blir kvar på kartan. Vågorna i bytezonerna är annorlunda: dungeonen håller bara ett visst antal utomjordingar i luften åt gången, och det antalet växer med gruppens storlek, så en våg som skulle passera det väntar på plats, och en flock du förstör släpper in nästa våg. En större grupp möter fler utomjordingar, i proportion, en mindre färre, och en sorts utomjording faller aldrig under en.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Fyra sorters utomjordingar vaktar labyrinten. De sover i flockar i korridorerna,
 | För att öppna bossrummet | 34 | 34 | 34 |
 | Vågen i en bytezon | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys | 12 × Dungeon Goombah och 1 × Dungeon Crystalys |
 
-- **Levande samtidigt**: Högst 10 per pilot i gruppen, och 70 totalt
+- **Vågen i en bytezon väntar på plats**: När 10 per pilot i gruppen lever, eller 70 totalt
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 - **Ser ut som**: Goombah
 - **Flyger i flockar om**: 6
+- **Belöning och byte som**: Goombah
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Hastighet | 180 | 180 | 180 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | 1 800 | 1 800 | 1 800 |
+| Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
+| Krediter för varje förstörd | 15 000 | 22 500 | 30 000 |
+| Thulium för varje förstörd | 75 | 113 | 150 |
+| Erfarenhet för varje förstörd | 3 000 | 4 500 | 6 000 |
+| Heder för varje förstörd | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Ser ut som**: Pirate Boss
 - **Flyger i flockar om**: 2
+- **Belöning och byte som**: Pirate Boss
 - **Raket**: En rak raket var 5 s, räckvidd 1 000 enheter
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
-| Skrov | 300 000 | 450 000 | 600 000 |
+| Skrov | 250 000 | 375 000 | 500 000 |
 | Sköld | 50 100 | 75 150 | 100 200 |
 | Laserskada (en salva per sekund) | 200 | 300 | 400 |
 | Raketskada | 5 000 | 7 500 | 10 000 |
 | Hastighet | 110 | 110 | 110 |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | 1 800 | 1 800 | 1 800 |
+| Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
+| Krediter för varje förstörd | 145 000 | 217 500 | 290 000 |
+| Thulium för varje förstörd | 725 | 1 088 | 1 450 |
+| Erfarenhet för varje förstörd | 29 000 | 43 500 | 58 000 |
+| Heder för varje förstörd | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Ser ut som**: Crystalys
 - **Flyger i flockar om**: 2
+- **Belöning och byte som**: Crystalys
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Hastighet | 230 | 230 | 230 |
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | 2 400 | 2 400 | 2 400 |
+| Belöning och byte, gånger originalets | ×1 | ×1,5 | ×2 |
+| Krediter för varje förstörd | 75 000 | 112 500 | 150 000 |
+| Thulium för varje förstörd | 200 | 300 | 400 |
+| Erfarenhet för varje förstörd | 12 000 | 18 000 | 24 000 |
+| Heder för varje förstörd | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Ser ut som**: Crystalys, 1,4 gånger så stor
 - **Flyger i flockar om**: 1
+- **Belöning och byte som**: Crystalys
 
 |  | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 | Hastighet | 230 | 230 | 230 |
 | Laserräckvidd | 900 | 900 | 900 |
 | Aggroradie | 2 400 | 2 400 | 2 400 |
+| Belöning och byte, gånger originalets | ×2 | ×3 | ×4 |
+| Krediter för varje förstörd | 150 000 | 225 000 | 300 000 |
+| Thulium för varje förstörd | 400 | 600 | 800 |
+| Erfarenhet för varje förstörd | 24 000 | 36 000 | 48 000 |
+| Heder för varje förstörd | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## Krigsherren {#the-warlord}
 
-Krigsherren väntar i rummet i andra änden av labyrinten, och han är det enda i en dungeon som betalar. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid.
+Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det som betalar klarningen. Han betalar ingen egen förstörd utomjording, som de andra utomjordingarna gör. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: de
 
 ### Det låsta rummet {#the-locked-room}
 
-Dörren till krigsherrens rum är stängd från det ögonblick dungeonen öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när **tre fjärdedelar av Crystalys och deras Twins** som dungeonen skapades med är förstörda, avrundat uppåt (tabellen över utomjordingarna ovan räknar dem för en grupp på 5, och dess sista rad säger hur många det krävs). Det som räknas är Crystalys och Twins i labyrintens flockar, även de i flockarna som står i korridorerna från första sekunden, och vem som än förstör dem. De andra utomjordingarna, bytezonernas vågor, de Goombahs som krigsherren kallar på och krigsherren själv räknas inte för dörren.
+Dörren till krigsherrens rum är stängd från det ögonblick dungeonen öppnas, och medan den är stängd kan krigsherren inte skadas: ingen laser, raket eller explosion träffar honom, och han använder ingen förmåga. Dörren öppnas för gott när **tre fjärdedelar av Crystalys och deras Twins** som dungeonen skapades med är förstörda, avrundat uppåt (tabellen över utomjordingarna ovan räknar dem för en grupp på 5, och dess sista rad säger hur många det krävs). Det som räknas är Crystalys och Twins i labyrintens flockar, och vem som än förstör dem. En flock kommer bara ut när en pilot flyger in i dess korridorsträcka, så gruppen måste hitta tillräckligt många för att öppna dörren. De andra utomjordingarna, bytezonernas vågor, de Goombahs som krigsherren kallar på och krigsherren själv räknas inte för dörren.
 
-Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstöras för att öppna rummet och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock som fortfarande sover räknas fullt ut, så gruppen måste hitta Crystalys och deras Twins i labyrinten. **De andra utomjordingarna försvinner inte när dörren öppnas.** De blir kvar i labyrinten, vaknar när en pilot kommer nära och kan förstöras som förut, så en grupp som vill kan förstöra alla innan den möter krigsherren: räknaren för utomjordingar i fönstret går vidare till alla utomjordingar som dungeonen skapades med och står full när ingen är kvar. De ger ingen betalning, och de som fortfarande lever när krigsherren faller försvinner med dungeonen. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En dungeon är aldrig en fälla: tidsgränsen avslutar ändå en dungeon vars dörr förblir stängd, och en administratör kan låsa upp rummet i en dungeon som har kört fast.
+Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstöras för att öppna rummet och säger, i en bricka, att krigsherren inte kan skadas, och ett meddelande talar om när rummet låses upp. En flock som ännu inte har kommit ut räknas fullt ut, så gruppen måste hitta Crystalys och deras Twins i labyrinten och flyga in i deras korridorsträckor. **De andra utomjordingarna försvinner inte när dörren öppnas.** De blir kvar i labyrinten, kommer ut när en pilot flyger in i deras korridorsträcka och kan förstöras som förut, så en grupp som vill kan förstöra alla innan den möter krigsherren: räknaren för utomjordingar i fönstret går vidare till alla utomjordingar som dungeonen skapades med och står full när ingen är kvar. De betalar när de faller ([vad utomjordingarna betalar](#what-the-aliens-pay)), och de som fortfarande lever när krigsherren faller försvinner med dungeonen. På minikartan är dörren en röd linje medan den är låst och en grön när den är öppen. En dungeon är aldrig en fälla: tidsgränsen avslutar ändå en dungeon vars dörr förblir stängd, och en administratör kan låsa upp rummet i en dungeon som har kört fast.
 
 ### Hans förmågor {#its-abilities}
 
@@ -314,7 +340,7 @@ Korten med ett exemplar är **utrustning**, och bara en dungeon av steg 3 kan er
 
 När krigsherren faller får varje pilot som förtjänat det betalt, en gång per genomförd omgång. Korten som gruppen valde kommer ovanpå stegets betalning. Det finns ingen världsmultiplikator: betalningen är densamma i varje värld.
 
-**Orvium Reinforced Plates** är inte ett kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. Föremålen som en dungeon betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
+**Orvium Reinforced Plates** är inte ett kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. Föremålen som klarningen betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ När krigsherren faller får varje pilot som förtjänat det betalt, en gång pe
 
 ### Vem som får betalt {#who-is-paid}
 
-Utomjordingarna betalar aldrig. En omgång spelas klart även när den inte betalar något, och resultatskärmen säger varför. Inträde nekas aldrig för att du redan fått betalt för ett steg: den omgången betalar bara ingenting.
+Dessa regler avgör vem som får betalt **för klarningen**. En omgång spelas klart även när den inte betalar något, och resultatskärmen säger varför. Inträde nekas aldrig för att du redan fått betalt för ett steg: klarningen betalar bara ingenting. Utomjordingarna läser samma regler, en förstörd i taget, utom andelen i striden ([vad utomjordingarna betalar](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ Erfarenheten från ett betalt, avklarat steg räknas med i dina PvE-rankingpoän
 
 <!-- dungeons-totals:end -->
 
+### Vad utomjordingarna betalar {#what-the-aliens-pay}
+
+Varje utomjording i en dungeon betalar när den faller och släpper byte, som utomjordingen i spelet som den är byggd efter: en Dungeon Goombah som en [Goombah](/wiki/04-Aliens/Goombah.md), en Dungeon Crystalys och dess Twin som en [Crystalys](/wiki/04-Aliens/Crystalys.md), en Dungeon Pirate som Pirate Boss (se [Pirate-svärm](/wiki/05-Swarms/Pirate-Swarm.md)). Vad en förstörd utomjording betalar och släpper är originalets **gånger förhållandet mellan deras skrov och sköld tillsammans**: en utomjording som är lika seg som sitt original betalar vad originalet betalar, en som är dubbelt så seg betalar dubbelt så mycket och släpper dubbelt så mycket av varje föremål, och så vidare. Avsnittet för varje sorts utomjording under [Utomjordingarna](#the-aliens) anger förhållandet och betalningen för en förstörd utomjording i varje steg.
+
+- **Vem som får betalt.** Piloterna som skadade utomjordingen, efter skadan de gjorde, som med svärmarnas utomjordingar: en pilot eller grupp som bara snuddade vid den får ingenting, en grupp får betalt som en, och inom en grupp delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen efter nivå. En pilot som inte skadade utomjordingen får inget för den, hur nära han än flög, och en utomjording som ingen pilot skadade betalar ingen. Bara de piloter som reglerna ovan betalar är med: den som har lämnat, inte varit inne tillräckligt länge, redan fått betalt för steget idag eller haft alla betalda klarningar för veckan får ingenting för utomjordingarna, och de andra får hans del. En förstörd utomjording kräver inte andelen i striden: att ha skadat den är andelen. Om gruppmedlemmen som gjorde mest skada har blivit förstörd eller inte är kvar på kartan, delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen utan honom.
+- **Vad som betalas.** Krediter, Thulium, erfarenhet och heder, en gång per förstörd utomjording. Betalningen är vad originalet betalar i Alpha, i alla världar: en dungeon har ingen världsmultiplikator. Dina boosters, Premium, formation och din klans bonusar räknas som vid vilken förstörd utomjording som helst, och erfarenheten räknas för dina [PvE-poäng](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) som klarningens.
+- **Bytet.** Det slumpas med originalets chanser, och sedan multipliceras varje mängd med förhållandet (en bråkdel av en enhet är en chans till en till). Det faller som en låda vid vraket, först för piloten som gjorde mest skada och hans klan, sedan för vem som helst på kartan, och sedan är det borta. Kartan rymmer bara ett visst antal lådor åt gången, så plocka upp dem under tiden, och det som ligger kvar på kartan när dungeonen stänger försvinner med den. Till skillnad från klarningens föremål är det vanligt byte från en utomjording: det kan [säljas på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) när föremålet är säljbart.
+- **Vad som inte betalar.** Krigsherren betalar ingen förstörd utomjording, bara klarningen. Goombahs som han kallar på betalar ingenting, eftersom kallelsen kommer tillbaka så länge striden pågår.
+- **Inte en förstörd utomjording i spelet.** En förstörd utomjording i en dungeon räknas inte för uppdrag, prestationer, räknare över förstörda, wipepoäng, PvE-poängen för en förstörd, drönare eller P.E.T.s: en Dungeon Goombah är ingen Goombah i spelet.
+- **Gränserna.** Dag- och veckogränserna ovan håller tillbaka utomjordingarnas betalning precis som klarningens: den som redan fått betalt för steget idag, eller haft alla betalda klarningar för veckan, får inget heller för dess utomjordingar, och potten för en förstörd går till de andra. En dungeon som inte klaras betalar sina förstörda utomjordingar till de piloter som reglerna betalar, och ingenting för klarningen.
+
 ## Klanbankens belöning {#clan-bank-reward}
 
 Klanbanken får också betalt, i krediter och inte i Thulium, första gången klanen klarar ett steg under en säsong. Klanen måste vara gammal nog, och tillräckligt många piloter i den omgången måste få betalt. Banken får betalt en gång per steg under en säsong.
@@ -383,4 +420,4 @@ Klanbanken får också betalt, i krediter och inte i Thulium, första gången kl
 - Använd väggarna: lasrar går inte igenom dem, de röda ringarna från krigsherrens auror slutar vid dem, och en vägg stoppar också krigsherrens raketer.
 - Spara en EMP Charge till Raketsalvan.
 - När krigsherren kallar på sina Goombahs, förstör dem först: han kan inte skadas förrän de är borta. Kliv ut ur ringen innan du skjuter i Kaoszonen.
-- Håll koll på klockan i fönstret Klandungeon. När tiden tar slut misslyckas dungeonen och betalar ingenting.
+- Håll koll på klockan i fönstret Klandungeon. När tiden tar slut misslyckas dungeonen och klarningen betalar ingenting.

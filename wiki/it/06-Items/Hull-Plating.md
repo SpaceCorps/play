@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Corazza dello scafo -->
 # Corazza dello scafo {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Oggetto | Scafo aggiunto | Da dove viene |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5.000 | Negozio, 5.000 Thulium |
-| **Hull Plating II** | 10.000 | Assemblaggio, da una Hull Plating I |
-| **Hull Plating III** | 15.000 | Assemblaggio, da una Hull Plating II |
+| **Hull Plating I** | 8.000 | Negozio, 5.000 Thulium |
+| **Hull Plating II** | 15.000 | Assemblaggio, da una Hull Plating I |
+| **Hull Plating III** | 25.000 | Assemblaggio, da una Hull Plating II |
 
 La Hull Plating I si compra. **La II e la III sono potenziamenti**: l’Assemblaggio consuma una corazza del grado inferiore (libera nel tuo inventario) e chiede Thulium, materiali e **Dark Matter Plate**, 5 per la II e 8 per la III, dove l’ultimo tier di qualsiasi altro pezzo di equipaggiamento ne chiede 4 e una Ancient Control Unit. Ciascuna ha prima bisogno della sua tecnologia, nell’albero Hull Plating della pagina [Ricerca](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 giorno e 25 Dark Matter per la II, 2 giorni e 40 per la III, oltre alla tecnologia della Dark Matter Plate stessa. L’albero qui sopra riporta i prezzi, i materiali e i tempi.
 
-La [Forgia](/wiki/06-Items/Forge.md) accetta ogni corazza, e un potenziamento mantiene il grado di forgia e il bonus della corazza consumata. Una corazza ha una sola statistica, lo scafo, quindi porta un solo bonus, da +2% a +15% in base al grado: una Hull Plating III di grado Eterno aggiunge fino a 17.250. All’[Asta](/wiki/03-Mechanics/Auction.md) si mettono in vendita la Hull Plating II e la III, mai la Hull Plating I, che vende il Negozio.
+La [Forgia](/wiki/06-Items/Forge.md) accetta ogni corazza, e un potenziamento mantiene il grado di forgia e il bonus della corazza consumata. Una corazza ha una sola statistica, lo scafo, quindi porta un solo bonus, da +2% a +15% in base al grado: una Hull Plating III di grado Eterno aggiunge fino a 28.750. All’[Asta](/wiki/03-Mechanics/Auction.md) si mettono in vendita la Hull Plating II e la III, mai la Hull Plating I, che vende il Negozio.
 
 ## Slot corazza {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ La corazza dello scafo entra solo negli **slot corazza**, un tipo di slot a sé 
 
 | Nave | Slot corazza | Un set completo di Hull Plating III aggiunge |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75.000 |
-| **Storm** | 7 | 105.000 |
-| **Ironclad** | 15 | 225.000 |
-| **Wraith** | 10 | 150.000 |
+| **Paragon** | 5 | 125.000 |
+| **Storm** | 7 | 175.000 |
+| **Ironclad** | 15 | 375.000 |
+| **Wraith** | 10 | 250.000 |
 
 - **Tutti bloccati all’inizio.** Uno slot si apre quando lo ricerchi nello Skylab: una tecnologia per ogni slot, 1 ora e 10 Dark Matter, in ordine a partire dal primo. La vista [Ricerca](/wiki/03-Mechanics/Research.md#ship-technologies) mostra gli slot di una nave come un’unica scheda con un punto per ognuno.
 - **Un tipo di nave, non una sola nave.** Gli slot che hai aperto per la Paragon sono aperti anche su ogni design della Paragon ([Design delle navi](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnologia è tua per sempre: il reset la mantiene.

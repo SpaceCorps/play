@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayo
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Storm tiene 7 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Storm y en todos sus diseños. Con las 7 llenas de Hull Plating III se suman 105.000 de casco.
+- **Ranuras de blindaje.** La Storm tiene 7 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Storm y en todos sus diseños. Con las 7 llenas de Hull Plating III se suman 175.000 de casco.
 - **Diseños.** La Storm tiene 3 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Storm en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |

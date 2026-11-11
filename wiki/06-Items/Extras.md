@@ -4,7 +4,7 @@ Extras are the gadgets in a ship's **extra slots** (two on the Protos, Kitefin, 
 
 | Extra | What it does | Uses | Price |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I to IV** | Repairs your hull, 1.5%, 2.25%, 3.5% and 5% of the maximum a second | endless | 5,000 / 15,000 / 35,000 credits, 2,000 Thulium |
+| **Repair Drone I to IV** | Repairs your hull, 2%, 3%, 4% and 5% of the maximum a second | endless | 5,000 / 15,000 / 35,000 credits, 2,000 Thulium |
 | **Cloaking CPU S** | Hides your ship | 10 | 5,000 Thulium |
 | **Cloaking CPU M** | Hides your ship | 25 | 11,250 Thulium |
 | **Cloaking CPU L** | Hides your ship | 50 | 20,000 Thulium |
@@ -94,13 +94,24 @@ Press the WAL slot and a **wall of plasma** stands **at your cursor**, across th
 
 - **What it stops.** Every shot that crosses it hits the wall instead, whoever fired it and from whichever side: a laser volley, a rocket, an alien's volley. What stands behind it takes nothing and the wall's hit points take the damage. A rocket's blast that goes off at the wall hurts the ships on its near side and not the ones behind it. Your own shots too: you cannot shoot out through your own wall. The N.I.K.E. and the turrets of the Dormant Swamp fly over it, as they fly over asteroids.
 - **What it burns.** Any ship whose hull touches the strip takes **2,500 damage a second**, shield first, your own included, aliens and company pilots too. A ship in a safe zone or under the protection of a respawn is not burnt, and two strips on one ship do not add up.
-- **How long it lasts.** A level 1 wall has **30,000 hit points**, a level 2 wall **90,000**. A wall loses a sixtieth of them every second by itself, so one nobody shoots is gone after **60 seconds**. Shots shorten that: a Wraith with thirteen Helios Beams on x4 ammo brings a level 1 wall down in about 4 seconds.
+- **How long it lasts.** A level 1 wall has **100,000 hit points**, a level 2 wall **250,000**. A wall loses a sixtieth of them every second by itself, so one nobody shoots is gone after **60 seconds**. Shots shorten that: a Wraith with thirteen Helios Beams on x4 ammo brings a level 1 wall down in about 11 seconds and a level 2 wall in about 22.
 - **One at a time, one wall a press.** A new wall takes the place of your old one. After a press the item recharges for **90 seconds**; the wait is yours, not the ship's, so dying or logging out does not shorten it. A press uses up **one wall of the level its slot holds**, and only when the wall stands: a press the game refuses (below) uses nothing and starts no wait. With none of that level left it says "No Energetic Wall left." and the other level is never used in its place.
 - **Where not.** Not while a safe zone or a respawn protects you, not where the strip would touch a safe zone or a gate, not while cloaked, and not where the middle of the strip would fall off the map. The game says which.
 - **Kills.** A ship the wall destroys dies of radiation, and the kill goes to the last enemy pilot who hit it within 15 seconds, if there was one. Whoever put the wall down is credited with nothing it did not shoot itself. An alien the wall destroys pays nothing: no reward, no loot.
 - **Aliens do not go round it.** They fly through it and burn, or stand on their side and shoot the wall.
 - **What you see.** A strip of blue-white light with bright dashes running along it and a post of light at each end, flaring where a shot lands and flickering when it is nearly spent. A level 2 wall glows yellow instead, with a thicker, brighter core and a stronger glow, but its strip is the same 10 units wide as a level 1 wall's. A thin life bar beside it shortens and turns amber and then red; your slot shows the wall's remaining life as its arc, the wait as its shade and the walls of its level you have left as its number. A wall put down flares in, a wall shot down collapses in sparks, and one whose time ran out fades.
 - **Getting it and carrying it.** The Energetic Wall I is sold in the Shop for **250 Thulium** a wall, and you carry up to **20** of it in one stack (what you have listed on the [Auction](/wiki/03-Mechanics/Auction.md) counts). The Energetic Wall II is made in Assembly, **one wall a craft**, for **600 Thulium**, 5 Ship Fragments and a Power Core, once the Research Centre has researched it (6 hours at the normal rate: [Research](/wiki/03-Mechanics/Research.md)); you carry up to **10** of it. Unlike the twelve rockets, of which 1,000 of each carry over by themselves, the walls you carry are lost with the season unless you put them in the Transport Cache, and walls in the cache cannot be used. An Energetic Wall II you made can be sold on the Auction; an Energetic Wall I, which the Shop sells, never.
+
+## Mine
+
+A **Mine** is a trap you throw. Press its slot with the cursor on a point and your ship throws the Mine there, **as far as your lasers reach**: a cursor farther away puts it at that reach along the line, and with no cursor point it drops under the ship. It flies for a moment, lands, and is **armed 3 seconds later**. From then on it goes off **once, with its whole damage, under the first ship that flies over it**, and is gone: there is no damage over time and no blast. A Mine is a **consumable**, like the [Energetic Wall](#energetic-wall): a stack in your inventory that takes **no slot** on any ship. Drag it from the hotbar's **Consumables** onto a slot to use it; the three levels are three entries, so a slot holds one level.
+
+- **Who it hits.** Every ship that flies over it: an enemy pilot, an alien, a company pilot, your company mates, your group and **you**. A Mine has no friends. What spares a ship is what spares it from every weapon: a safe zone, the protection of a respawn, a cloak or an EMP window.
+- **Moving away.** A ship that is inside a Mine's reach when it lands is spared until it has left that reach once, and you are the first one it spares: you can drop a Mine under your ship and fly away. After that the Mine goes off under that ship like under any other, even if it comes back later.
+- **How much.** The damage grows with the level: **8,000, 20,000 and 50,000**. Your Sabotage skill adds up to 30 % to it, and your Marksmanship makes the Mine fly faster and farther.
+- **Limits.** You can have **three** Mines out at a time (a fourth takes the oldest one's place), each is gone **3 minutes** after it landed, and you wait **8 seconds** between two throws; the wait is yours, not the ship's. When you leave the map your Mines leave with you.
+- **Where not.** Not where pilots cannot fight each other (under the Peace Protocol, or in a sector or a gate whose rules forbid it), not while a safe zone or a respawn protects you, not where the Mine would touch a safe zone or a gate, and not while cloaked. The game says which; a refused throw uses nothing and starts no wait.
+- **Getting it and carrying it.** Mine I is sold in the Shop for **100 Thulium**, and you carry up to **20** of it in one stack. Mine II is made in Assembly, **one Mine a craft**, out of two Mine I, 3 Ship Fragments and a Power Core for **200 Thulium** (up to **10** in a stack); Mine III out of two Mine II, 8 Ship Fragments, 2 Power Cores and a Reinforced Hull Plate for **400 Thulium** (up to **5**). Both are made once the Research Centre has researched them: 3 hours for the II and 6 hours for the III at the normal rate ([Research](/wiki/03-Mechanics/Research.md)). The Mines you carry are lost with the season unless you put them in the Transport Cache, and Mines in the cache cannot be used. Mines cannot be sold on the [Auction](/wiki/03-Mechanics/Auction.md).
 
 ## CPUs of the Research Centre {#research-cpus}
 
@@ -120,6 +131,8 @@ Two of the CPUs take Dark Matter Plates, like the last tier of every upgrade cha
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15,000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20,000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 None of them is sold in the Shop: research the technology, then make the CPU in Assembly. Point at a CPU in its tree to see what Assembly asks for it.
 

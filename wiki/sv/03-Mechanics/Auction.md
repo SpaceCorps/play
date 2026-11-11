@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -134,6 +134,8 @@ En annons kostar en **deposition**, som betalas när du lägger ut den och aldri
 | Helios Beam: nivå 12, 504 h, under säsongens sista dagar | 2 500 000 krediter | 0 krediter | 0 krediter | 2 500 000 krediter |
 
 <!-- market-fees:end -->
+
+Din förmåga **Commerce** tar bort upp till hälften av depositionen för dina annonser och köporder (avrundat uppåt, aldrig till noll). Skatten är densamma för alla, och tabellen ovan visar talet för en pilot på första nivån. Varje försäljning och varje uppfylld köporder tränar förmågan, hos både säljaren och köparen.
 
 ## Köpa {#buying}
 
@@ -284,8 +286,8 @@ Vid wipen **kommer varje öppen annons tillbaka till sin säljare** som lösa f�
 Auktionen finns för att handla med det du förtjänar, och den är ärlig om sina gränser.
 
 - **Att sälja byte är ingen grind.** Rått byte från utomjordingar är bara resurser och är värt 0,4 till 0,9 procent av vad samma jakttimme på nivå 5 betalar i dödade fiender. Det Marknaden ger en ny pilot är utrustningen som hans uppdrag betalar ut och som han inte behöver (en gång), resurserna från Utmaningsuppdragen, svärmbossarnas lådor och det han tillverkar.
-- **Det finns ingen mellanhand.** En köporder tillhör en pilot och täcks av hans egna pengar: spelet köper inte av dig till något pris. Köpordrar, där en pilot säger vad han vill köpa och för hur mycket, ger en säljare en köpare som alltid finns där, och hantverkaren, som köper material, tillverkar utrustning i Monteringen och säljer den, ett sätt att beställa det; en order kan också vänta på en säljare, eller löpa ut och förbränna sin deposition. De ändrar inget i den första punkten.
-- **Butikens utrustning är inte till för vidareförsäljning.** Utrustning du köpte i Butiken kan inte säljas igen: hit hör Quantum Laser I och II, Light och Basic Shield Core, Engine I och II, första graden av celler och styrraketer, de amps som Butiken säljer och köpt ammunition. Den enda säljbara Quantum Laser II en pilot har är den som ett uppdrag betalar ut en gång.
+- **Det finns ingen mellanhand.** En köporder tillhör en pilot och täcks av hans egna pengar: Auktionen köper inte av dig till något pris. Köpordrar, där en pilot säger vad han vill köpa och för hur mycket, ger en säljare en köpare som alltid finns där, och hantverkaren, som köper material, tillverkar utrustning i Monteringen och säljer den, ett sätt att beställa det; en order kan också vänta på en säljare, eller löpa ut och förbränna sin deposition. De ändrar inget i den första punkten.
+- **Butikens utrustning är inte till för vidareförsäljning.** Utrustning du köpte i Butiken kan inte säljas igen på Auktionen: hit hör Quantum Laser I och II, Light och Basic Shield Core, Engine I och II, första graden av celler och styrraketer, de amps som Butiken säljer och köpt ammunition. Den enda säljbara Quantum Laser II en pilot har är den som ett uppdrag betalar ut en gång. Butiken själv köper tillbaka de enheter du köpte i den och ännu inte har installerat, för en bråkdel av priset (lite mer med din förmåga **Commerce**), och inget annat: det du tjänat, tillverkat, köpt av andra piloter eller fått i gåva köper den inte tillbaka.
 - **Plattor kommer från uppdrag.** Velkonite och Orvium Reinforced Plates på Marknaden är de som Utmaningsuppdragen betalar ut. Smedjans plattor står utanför, annars skulle de bli den största varan på Marknaden.
 
 Om en annons ser fel ut, anmäl den på vanligt sätt: spelets administratörer kan pausa en annons, återlämna den, pausa Auktionen eller stänga av en pilot från den, och varje sådan åtgärd registreras.

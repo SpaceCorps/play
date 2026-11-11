@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -6,7 +6,7 @@ Les extras sont les gadgets installés dans les **emplacements extras** d’un v
 
 | Extra | Effet | Utilisations | Prix |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I à IV** | Répare votre coque de 1,5 %, 2,25 %, 3,5 % et 5 % du maximum par seconde | illimitées | 5 000 / 15 000 / 35 000 crédits, 2 000 Thulium |
+| **Repair Drone I à IV** | Répare votre coque de 2 %, 3 %, 4 % et 5 % du maximum par seconde | illimitées | 5 000 / 15 000 / 35 000 crédits, 2 000 Thulium |
 | **Cloaking CPU S** | Cache votre vaisseau | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Cache votre vaisseau | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Cache votre vaisseau | 50 | 20 000 Thulium |
@@ -96,13 +96,24 @@ Appuyez sur l’emplacement WAL et une **paroi de plasma** se dresse **à votre 
 
 - **Ce qu’elle arrête.** Tout tir qui la croise frappe la paroi à la place, quel que soit celui qui l’a tiré et de quel côté : une salve de laser, une roquette, la salve d’un alien. Ce qui se tient derrière ne subit rien et les points de vie de la paroi encaissent les dégâts. Le souffle d’une roquette qui explose sur la paroi touche les vaisseaux du côté proche et non ceux qui sont derrière. Vos propres tirs aussi : vous ne pouvez pas tirer à travers votre propre paroi. La N.I.K.E. et les tourelles du Dormant Swamp passent par-dessus, comme par-dessus les astéroïdes.
 - **Ce qu’elle brûle.** Tout vaisseau dont la coque touche la bande subit **2 500 de dégâts par seconde**, bouclier d’abord, le vôtre aussi, ainsi que les aliens et les pilotes de corporation. Un vaisseau dans une zone sûre ou sous la protection d’une réapparition ne brûle pas, et deux bandes sur un même vaisseau ne s’additionnent pas.
-- **Combien de temps elle tient.** Une paroi de niveau 1 a **30 000 points de vie**, une de niveau 2 **90 000**. Une paroi en perd d’elle-même un soixantième chaque seconde, si bien qu’une paroi sur laquelle personne ne tire disparaît après **60 secondes**. Les tirs raccourcissent ce délai : un Wraith avec treize Helios Beam en munitions x4 abat une paroi de niveau 1 en 4 secondes environ.
+- **Combien de temps elle tient.** Une paroi de niveau 1 a **100 000 points de vie**, une de niveau 2 **250 000**. Une paroi en perd d’elle-même un soixantième chaque seconde, si bien qu’une paroi sur laquelle personne ne tire disparaît après **60 secondes**. Les tirs raccourcissent ce délai : un Wraith avec treize Helios Beam en munitions x4 abat une paroi de niveau 1 en 11 secondes environ et une paroi de niveau 2 en 22 environ.
 - **Une seule à la fois, une paroi par appui.** Une nouvelle paroi prend la place de l’ancienne. Après un appui, l’objet se recharge pendant **90 secondes** ; l’attente est la vôtre, pas celle du vaisseau : mourir ou se déconnecter ne la raccourcit pas. Un appui consomme **une paroi du niveau que tient son emplacement**, et seulement quand la paroi se dresse : un appui que le jeu refuse (voir plus bas) ne consomme rien et ne lance aucune attente. S’il n’en reste plus de ce niveau, il dit « Il ne vous reste aucune Energetic Wall. », et l’autre niveau n’est jamais consommé à sa place.
 - **Où non.** Pas tant qu’une zone sûre ou une réapparition vous protège, pas là où la bande toucherait une zone sûre ou une porte, pas en étant occulté et pas là où le milieu de la bande tomberait hors de la carte. Le jeu dit de quel cas il s’agit.
 - **Éliminations.** Un vaisseau que la paroi détruit meurt de radiation, et l’élimination revient au dernier pilote ennemi qui l’a touché dans les 15 secondes, s’il y en a eu un. Celui qui a posé la paroi n’est crédité de rien qu’il n’ait tiré lui-même. Un alien que la paroi détruit ne rapporte rien : ni récompense ni butin.
 - **Les aliens ne la contournent pas.** Ils la traversent et brûlent, ou restent de leur côté et tirent sur la paroi.
 - **Ce que vous voyez.** Une bande de lumière blanc-bleu avec des traits brillants qui courent le long d’elle et un poteau de lumière à chaque bout, qui s’embrase là où un tir porte et vacille quand elle est presque épuisée. Une paroi de niveau 2 brille en jaune à la place, avec un cœur plus épais et plus lumineux et une lueur plus forte, mais sa bande fait les mêmes 10 unités de large que celle du niveau 1. Une fine barre de vie à côté d’elle se raccourcit et passe à l’ambre puis au rouge ; votre emplacement montre la vie restante de votre paroi en arc et l’attente en ombre. Une paroi posée s’embrase, une paroi abattue s’effondre en étincelles, et une paroi dont le temps est écoulé s’efface. Sur votre emplacement, un nombre compte aussi les parois de son niveau qu’il vous reste.
 - **Comment l’obtenir et la porter.** L’Energetic Wall I se vend à la boutique pour **250 Thulium** la paroi, et vous en portez jusqu’à **20** dans une même pile (ce que vous avez mis en vente aux [Enchères](/wiki/03-Mechanics/Auction.md) compte). L’Energetic Wall II se fabrique à l’Assemblage, **une paroi par fabrication**, pour **600 Thulium**, 5 Ship Fragments et un Power Core, une fois qu’elle a été recherchée au Centre de recherche (6 heures à vitesse normale : [Recherche](/wiki/03-Mechanics/Research.md)) ; vous en portez jusqu’à **10**. Contrairement aux douze roquettes, dont 1 000 de chaque sont conservées d’office, les parois que vous portez sont perdues avec la saison si vous ne les mettez pas dans la cache de transport, et celles de la cache ne peuvent pas servir. Une Energetic Wall II fabriquée par vous peut être vendue aux Enchères ; une Energetic Wall I, que la boutique vend, jamais.
+
+## Mine
+
+Une **Mine** est un piège que l’on lance. Appuyez sur son emplacement avec le curseur sur un point, et votre vaisseau lance la Mine là-bas, **aussi loin que portent vos lasers** : un curseur plus éloigné la dépose à cette portée sur la ligne, et sans point de curseur elle tombe sous le vaisseau. Elle vole un instant, se pose et est **armée 3 secondes plus tard**. Dès lors, elle explose **une seule fois, avec tous ses dégâts, sous le premier vaisseau qui passe au-dessus**, et disparaît : pas de dégâts dans le temps, pas de souffle. Une Mine est un **consommable**, comme l’[Energetic Wall](#energetic-wall) : une pile dans votre inventaire qui n’occupe **aucun emplacement** d’aucun vaisseau. Glissez-la depuis les Consommables de la barre rapide sur un emplacement pour l’utiliser ; les trois niveaux sont trois entrées, un emplacement en tient donc un seul.
+
+- **Qui elle touche.** Tout vaisseau qui passe au-dessus : un pilote ennemi, un alien, un pilote de corporation, vos camarades de corporation, votre groupe et **vous-même**. Une Mine n’a pas d’amis. Ce qui épargne un vaisseau est ce qui l’épargne de toute arme : une zone sûre, la protection d’une réapparition, une occultation ou une fenêtre d’EMP.
+- **S’éloigner.** Un vaisseau qui se trouve dans la portée d’une Mine quand elle se pose est épargné tant qu’il n’a pas quitté cette portée une fois, et vous êtes le premier qu’elle épargne : vous pouvez larguer une Mine sous votre vaisseau et vous éloigner. Ensuite, la Mine explose sous ce vaisseau comme sous n’importe quel autre, même s’il revient plus tard.
+- **Combien.** Les dégâts croissent avec le niveau : **8 000, 20 000 et 50 000**. Votre compétence Sabotage leur ajoute jusqu’à 30 %, et votre Précision de tir fait voler la Mine plus vite et plus loin.
+- **Limites.** Vous pouvez avoir **trois** Mines dehors à la fois (une quatrième prend la place de la plus ancienne), chacune disparaît **3 minutes** après s’être posée, et vous attendez **8 secondes** entre deux lancers ; l’attente est la vôtre, pas celle du vaisseau. Si vous quittez la carte, vos Mines partent avec vous.
+- **Où non.** Pas là où les pilotes ne peuvent pas se combattre (sous le Protocole de paix, ou dans un secteur ou une porte dont les règles l’interdisent), pas tant qu’une zone sûre ou une réapparition vous protège, pas là où la Mine toucherait une zone sûre ou une porte, et pas en étant occulté. Le jeu dit de quel cas il s’agit ; un lancer refusé ne consomme rien et ne déclenche aucune attente.
+- **Comment l’obtenir et la porter.** La Mine I se vend à la boutique pour **100 Thulium**, et vous en portez jusqu’à **20** dans une même pile. La Mine II se fabrique à l’Assemblage, **une Mine par fabrication**, à partir de deux Mine I, 3 Ship Fragments et un Power Core pour **200 Thulium** (jusqu’à **10** dans une pile) ; la Mine III à partir de deux Mine II, 8 Ship Fragments, 2 Power Cores et une Reinforced Hull Plate pour **400 Thulium** (jusqu’à **5**). Les deux se fabriquent une fois recherchées par le Centre de recherche : 3 heures pour la II et 6 heures pour la III au rythme normal (voir [Recherche](/wiki/03-Mechanics/Research.md)). Les Mines que vous portez sont perdues avec la saison si vous ne les mettez pas dans la cache de transport, et celles de la cache ne peuvent pas servir. Les Mines ne peuvent pas être vendues aux [Enchères](/wiki/03-Mechanics/Auction.md).
 
 ## CPU du Centre de recherche {#research-cpus}
 
@@ -122,6 +133,8 @@ Deux des CPU demandent des Dark Matter Plates, comme le dernier palier de chaque
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Aucun n’est vendu à la boutique : recherchez la technologie, puis fabriquez le CPU à l’Assemblage. Pointez un CPU dans son arbre pour voir ce que l’Assemblage demande pour le fabriquer.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ Paragon は、防御と攻撃のバランスを重視して設計された重戦
 
 ## 研究 {#research}
 
-- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が5つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。5つすべてに Hull Plating III を装着すると、船体が 75,000 増えます。
+- **装甲スロット。** この艦には、[船体装甲](/wiki/06-Items/Hull-Plating.md)用の[装甲スロット](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)が5つあり、建造した時点ではすべてロックされています。スロットは1つにつき、Skylab の専用の技術です。1時間と Dark Matter 10個で、最初のものから順に研究します。研究すると、この艦とそのすべてのデザインでそのスロットが開きます。5つすべてに Hull Plating III を装着すると、船体が 125,000 増えます。
 - **デザイン。** この艦には[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が3つあります。1つ研究して（10時間と Dark Matter 10個）、アセンブリで Paragon をそのデザインに改造します。この変更は元に戻せません。
 
 | デザイン | 変更点 |

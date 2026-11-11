@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Les pilotes de corporation** ne laissent aucune caisse quand ils sont détruits, quel qu’en soit l’auteur. Voir [Pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md).
 - **Les vaisseaux de joueurs** ne laissent ni épave ni caisse quand ils sont détruits, quel qu’en soit l’auteur, et rien n’est prélevé dans l’inventaire du pilote.
 - **Le trou noir** dépose des caisses de **Dark Matter** au bord de sa zone pour toute roquette N.I.K.E. tirée dedans (voir [Le trou noir](/wiki/03-Mechanics/Black-Hole.md)). Ce sont les seules caisses qui se trouvent à l’intérieur de l’anneau du trou.
-- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) (hors le Tesseract) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** ne laisse pas une caisse de ce genre : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](#private-boxes) à lui, avec sa part du butin.
+- **Le [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** ne laisse pas non plus de caisse sur son épave : chaque pilote que son élimination paie reçoit une [caisse privée](#private-boxes) à lui, avec sa part de Hull Plates, de Reinforced Plates, de Power Cores, d’Ancient Control Units et de Dark Matter.
 - **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Un fragment se ramasse comme une caisse, et il est réservé aux pilotes qui l’ont mérité, puis libre, comme une caisse.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
@@ -42,14 +43,14 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 
 ## Caisses privées {#private-boxes}
 
-Le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n’est pas une caisse pour un seul pilote : **chaque pilote qui a infligé au moins 5 % des dégâts reçoit une caisse à lui**, tirée pour sa part (pour 20 % des dégâts, environ un cinquième de chaque quantité ; [les détails](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+Le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n’est pas une caisse pour un seul pilote : **chaque pilote qui a infligé au moins 5 % des dégâts reçoit une caisse à lui**, tirée pour sa part (pour 20 % des dégâts, environ un cinquième de chaque quantité ; [les détails](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). Le butin du [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) fonctionne de même : chaque pilote que son élimination paie en reçoit une.
 
 - **Vous seul la voyez et vous seul pouvez la ramasser.** Votre clan et votre groupe ne la voient pas et ne peuvent pas la prendre ; pour tous les autres, elle n’existe simplement pas. Sur votre écran, elle a un anneau fin dessous.
-- **Elle reste 10 minutes** à partir de l’élimination, et pendant tout ce temps elle est à vous : il n’y a pas d’attente de 30 secondes. Ensuite elle dérive et disparaît comme n’importe quelle caisse. Le Journal de jeu vous donne votre part du butin quand le Gardien tombe.
+- **Elle reste 10 minutes** à partir de l’élimination, et pendant tout ce temps elle est à vous : il n’y a pas d’attente de 30 secondes. Ensuite elle dérive et disparaît comme n’importe quelle caisse. Le Journal de jeu vous donne votre part du butin quand le Gardien ou le Tesseract tombe.
 - **Elle ne chasse aucune autre caisse.** Les caisses privées ont une réserve à elles à côté des 64 d’une carte (32 au plus) : l’élimination d’un Gardien ne prend jamais la place d’une autre caisse, et une carte pleine ne vous coûte jamais votre caisse.
 - La récupération est la même que pour toute caisse ([plus haut](#collecting)) : votre vaisseau vole jusqu’à elle et la récupération prend une demi-seconde. Votre Retriever prend aussi vos caisses privées, et celles de personne d’autre.
 
 ## Boosters
 
-- **Loot Luck Booster** (et le bonus permanent de chance, ainsi que la chance de vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise.
-- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, à la main ou avec un Retriever, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien, donc cinq N.I.K.E. valent dix Dark Matter pour tout le monde.
+- **Loot Luck Booster** (et le bonus permanent de chance, ainsi que la chance de vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise. Votre aptitude [Instinct](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) s’ajoute aussi à cette chance, en plus de celle du booster.
+- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, à la main ou avec un Retriever, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien. Seule votre compétence Antimatter ajoute de la Dark Matter (jusqu’à +25 % au niveau 100) ; sans elle, cinq N.I.K.E. valent dix Dark Matter.

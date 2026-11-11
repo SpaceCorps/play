@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | 物品 | 增加的船体值 | 来源 |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5,000 | 商店，5,000 Thulium |
-| **Hull Plating II** | 10,000 | 装配站，由 Hull Plating I 升级 |
-| **Hull Plating III** | 15,000 | 装配站，由 Hull Plating II 升级 |
+| **Hull Plating I** | 8,000 | 商店，5,000 Thulium |
+| **Hull Plating II** | 15,000 | 装配站，由 Hull Plating I 升级 |
+| **Hull Plating III** | 25,000 | 装配站，由 Hull Plating II 升级 |
 
 Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一块低一阶的装甲（要放在物品栏里，不能装在舰船上），并需要 Thulium、材料和 **Dark Matter Plate**，II 需要 5 块，III 需要 8 块，而任何其他装备的最后一阶只需要 4 块和 1 个 Ancient Control Unit。每一块都要先有对应的科技，位于[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)页的 Hull Plating 科技树中：II 需要 1 天和 25 个 Dark Matter，III 需要 2 天和 40 个，另外还要有 Dark Matter Plate 本身的科技。上面的科技树列出了价格、材料和时间。
 
-[锻造炉](/wiki/06-Items/Forge.md)可以处理每一种装甲，升级会保留被消耗装甲的锻造等级和加成。装甲只有一项属性，也就是船体，所以只带一条加成，按等级从 +2% 到 +15%：一块永恒等级的 Hull Plating III 最多可增加 17,250。[拍卖行](/wiki/03-Mechanics/Auction.md)可以上架 Hull Plating II 和 III，但不能上架商店出售的 Hull Plating I。
+[锻造炉](/wiki/06-Items/Forge.md)可以处理每一种装甲，升级会保留被消耗装甲的锻造等级和加成。装甲只有一项属性，也就是船体，所以只带一条加成，按等级从 +2% 到 +15%：一块永恒等级的 Hull Plating III 最多可增加 28,750。[拍卖行](/wiki/03-Mechanics/Auction.md)可以上架 Hull Plating II 和 III，但不能上架商店出售的 Hull Plating I。
 
 ## 装甲槽位 {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一�
 
 | 舰船 | 装甲槽位 | 一整套 Hull Plating III 增加 |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75,000 |
-| **Storm** | 7 | 105,000 |
-| **Ironclad** | 15 | 225,000 |
-| **Wraith** | 10 | 150,000 |
+| **Paragon** | 5 | 125,000 |
+| **Storm** | 7 | 175,000 |
+| **Ironclad** | 15 | 375,000 |
+| **Wraith** | 10 | 250,000 |
 
 - **起初全部锁定。** 槽位要在 Skylab 里研究后才会开启：每个槽位一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次进行。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)视图把一艘舰船的槽位显示为一张卡片，每个槽位一个圆点。
 - **按舰船种类，而不是按单艘舰船。** 你为 Paragon 开启的槽位，在 Paragon 的每一种设计上也是开启的（[舰船设计](/wiki/03-Mechanics/Ship-Designs.md)）。科技永远属于你：重置也会保留。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden a
 | Extrák | egy Repair Drone IV, egy Auto-Repair CPU és egy Base CPU II |
 | Hajótest | 15 Hull Plating III |
 
-Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 86,3%-os elnyelést, 98-as sebességet, 945-ös hatótávot és **másodpercenként 4 324** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,2 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizenhárom perc folyamatos tüzet igényel, tíz ilyen nagyjából 77 másodpercet.
+Alpha-erősségen **931 250 hajótestet**, **1 559 486 pajzsot** (másodpercenként 67 614-et tölt, 15 másodperc találat nélkül), 90,9%-os elnyelést, 102-es sebességet, 945-ös hatótávot és **másodpercenként 4 440** sortüzet kap. Béta ezeknek 1,5-szeresét, Gamma 2-szeresét, ahogy minden idegen. Ez Alphában nagyjából 2,5 millió pont lebontani való: egy ugyanilyen lézerekkel felszerelt Wraith egyedül körülbelül tizennégy perc folyamatos tüzet igényel, tíz ilyen nagyjából 86 másodpercet.
 
 ## Harc ellene {#fighting-him}
 
@@ -38,10 +38,10 @@ Alpha-erősségen **858 750 hajótestet**, **1 309 534 pajzsot** (másodperce
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredit | 1 590 000 | 3 180 000 | 4 770 000 |
-| Thulium | 4 275 | 8 550 | 12 825 |
-| Tapasztalat | 255 000 | 510 000 | 765 000 |
-| Becsület | 1 110 | 2 220 | 3 330 |
+| Kredit | 1 830 000 | 3 660 000 | 5 490 000 |
+| Thulium | 4 875 | 9 750 | 14 625 |
+| Tapasztalat | 292 500 | 585 000 | 877 500 |
+| Becsület | 1 275 | 2 550 | 3 825 |
 
 A ládában 40–60 Ship Fragment, 10–20 Power Core és 3 000–6 000 Advanced Plasma van, néha Ancient Control Unit vagy Dark Matter. Egy kivégzés **nem ad PvE-pontot** a rangsorodban (ő egyik rangsorban sem szerepel, lásd lejjebb); az általa fizetett tapasztalat úgy számít, mint bármely más tapasztalat, a kivégzést pedig Davidski néven számolja a kivégzési statisztikád.
 

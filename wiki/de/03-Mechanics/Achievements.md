@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: eb868ee753081e77 -->
+<!-- wiki-i18n source: ac7ece9cd18ca13a -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
-Erfolge sind die Ziele einer ganzen Pilotenlaufbahn: Zerstöre deinen ersten Alien, erreiche Level 21, besitze eine Milliarde Credits, überlebe einen Wipe. Das Spiel zählt sie für dich mit. Es gibt **42** davon, in **8** Gruppen und **5** Stufen. Jeder zahlt **einmal pro Konto, für immer**: Credits für jeden, und für die meisten einen **Titel**, den du neben deinem Namen trägst. Ein Wipe nimmt dir weder einen Erfolg noch seine Belohnung oder seinen Titel weg.
+Erfolge sind die Ziele einer ganzen Pilotenlaufbahn: Zerstöre deinen ersten Alien, erreiche Level 21, besitze eine Milliarde Credits, überlebe einen Wipe. Das Spiel zählt sie für dich mit. Es gibt **50** davon, in **8** Gruppen und **5** Stufen. Jeder zahlt **einmal pro Konto, für immer**: Credits für jeden, und für die meisten einen **Titel**, den du neben deinem Namen trägst. Ein Wipe nimmt dir weder einen Erfolg noch seine Belohnung oder seinen Titel weg.
 
 **In einer Minute**
 
 - Öffne in der Station **Community › Erfolge**: Dort siehst du jedes Ziel, wie weit du bist und was es einbringt.
 - Die Stufe (Gewöhnlich, Ungewöhnlich, Selten, Episch oder Legendär) bestimmt die Credits: Je schwerer das Ziel, desto höher die Stufe.
 - Du wirst bezahlt, sobald du ein Ziel erreichst, im Flug oder in der Station. Eine Karte zeigt den Erfolg und seine Belohnung, und das Spielprotokoll hält eine Zeile fest.
-- **5** der 42 sind versteckt: Die Seite zeigt sie als geschlossene Karten, bis du sie freischaltest. Sie zählen zu den 42 und werden hier nicht genannt.
+- **5** der 50 sind versteckt: Die Seite zeigt sie als geschlossene Karten, bis du sie freischaltest. Sie zählen zu den 50 und werden hier nicht genannt.
 - Im Steam-Build erscheinen deine Erfolge auch in deinem Steam-Profil, sobald du dein Konto verknüpft hast (siehe unten).
 
 ## Stufen und Belohnungen {#tiers-and-rewards}
@@ -18,17 +18,17 @@ Die fünf Stufen zahlen für jeden Erfolg darin gleich viel, einmalig. Die Tabel
 
 | Stufe | Erfolge | Credits je Erfolg |
 | :--- | ---: | ---: |
-| Gewöhnlich | 10 | 50.000 |
-| Ungewöhnlich | 8 | 150.000 |
-| Selten | 12 | 500.000 |
-| Episch | 7 | 2.000.000 |
-| Legendär | 5 | 5.000.000 |
+| Gewöhnlich | 11 | 50.000 |
+| Ungewöhnlich | 9 | 150.000 |
+| Selten | 16 | 500.000 |
+| Episch | 8 | 2.000.000 |
+| Legendär | 6 | 5.000.000 |
 
-Alle 42 zusammen zahlen **46.700.000** Credits, einmal im Pilotenleben.
+Alle 50 zusammen zahlen **55.900.000** Credits, einmal im Pilotenleben.
 
 ## Die Erfolge {#the-achievements}
 
-Die 37 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt, zählt es über deine gesamte Laufbahn.
+Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt, zählt es über deine gesamte Laufbahn.
 
 ### Kampf {#group-combat}
 
@@ -40,6 +40,14 @@ Die 37 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Geißel der Leere | Zerstöre 100.000 Aliens. | Legendär |
 | Schwarmbrecher | Zerstöre 500 Schwarmmitglieder. | Selten |
 | Ass | Zerstöre 100 Piloten. | Selten |
+| Riss geschlossen | Schließe den Alpha Rift im Alleingang ab. | Gewöhnlich |
+| Bresche versiegelt | Schließe den Beta Breach im Alleingang ab. | Ungewöhnlich |
+| Gießerei stillgelegt | Schließe die Gamma Foundry im Alleingang ab. | Selten |
+| Belagerung gebrochen | Brich die Delta Siege im Alleingang. | Selten |
+| Tresor geknackt | Knacke den Omega Vault im Alleingang. | Episch |
+| Torwächter | Schließe alle fünf Solo-Tore ab: Alpha, Beta, Gamma, Delta und Omega. | Legendär |
+| Unantastbar | Schließe ein Solo-Tor ab, ohne ein Leben zu verlieren. | Selten |
+| Gegen die Uhr | Schließe ein Solo-Tor in höchstens seiner kürzesten Zeit ab: 10, 15, 25, 35 oder 50 Minuten für Alpha bis Omega. | Selten |
 
 ### Pilot {#group-pilot}
 
@@ -69,7 +77,7 @@ Die 37 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 179 Technologien. | Legendär |
+| Archivar | Erforsche alle 181 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 
@@ -115,7 +123,7 @@ Ein versteckter Erfolg, der noch gesperrt ist, ist eine geschlossene Karte ohne 
 
 ## Titel {#titles}
 
-Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 42 Erfolge geben einen, für immer deiner, sobald du den Erfolg freischaltest. Titel kommen auch vom Ende einer Saison (dein Rang, der beste Pilot jedes Konzerns und der Pilot mit den meisten PvE-Punkten) und vom Team des Spiels, etwa der Titel **Pioneer** für jedes Konto, das am Tag des Steam-Starts des Spiels existierte.
+Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 50 Erfolge geben einen, für immer deiner, sobald du den Erfolg freischaltest. Titel kommen auch vom Ende einer Saison (dein Rang, der beste Pilot jedes Konzerns und der Pilot mit den meisten PvE-Punkten) und vom Team des Spiels, etwa der Titel **Pioneer** für jedes Konto, das am Tag des Steam-Starts des Spiels existierte.
 
 - Du besitzt viele Titel und **trägst einen** auf einmal. Du wählst ihn in deinem **Pilotenprofil** und kannst ihn wieder ablegen.
 - Dein Titel erscheint in deinem **Profil**, in den **Ranglisten**, im **Gruppen**-Fenster und wenn du im **Chat** auf deinen Namen zeigst. Seit 0.4.27 erscheint er auch auf der Karte: als kleine, gedämpfte Zeile in der Seltenheitsfarbe des Titels **über dem Namen des Schiffs jedes Piloten**, auch über deinem. Ein langer Titel wird mit Auslassungspunkten abgeschnitten. In einer Menge (mehr als acht Piloten auf dem Bildschirm) behalten nur deine Freunde, dein Ziel und das Schiff, das du gewählt hast, ihren Titel, damit der Bildschirm lesbar bleibt. Im Zielfenster und auf der Minikarte erscheint er nicht.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Sciame Tesseract -->
 # Sciame Tesseract {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ Lo sciame Tesseract è un’unica enorme nave madre, il **Tesseract**, e i **Fac
 ## Come va lo scontro {#how-the-fight-goes}
 
 - **Porta un gruppo molto grande e colpite insieme.** Scafo e scudo del Tesseract sono una riserva di milioni di punti, quindi lo scontro è lungo anche per un grande gruppo di navi forti, e la ricompensa si divide in base al danno: conta ogni pilota presente.
-- **Non lasciarlo mai in pace.** Se nessuno lo ferisce per il tempo indicato nell’elenco *In breve*, ripara prima lo scafo e poi lo scudo a quella velocità, quindi una pausa di pochi secondi può cancellare un lungo minuto di lavoro. Un Tesseract completamente riparato dimentica chi lo ha ferito: ricompensa e cassa seguono il danno dello scontro che lo distrugge.
+- **Non lasciarlo mai in pace.** Se nessuno lo ferisce per il tempo indicato nell’elenco *In breve*, ripara prima lo scafo e poi lo scudo a quella velocità, quindi una pausa di pochi secondi può cancellare un lungo minuto di lavoro. Un Tesseract completamente riparato dimentica chi lo ha ferito: ricompensa e bottino seguono il danno dello scontro che lo distrugge.
 - **Ogni colpo chiama i Facet.** Finché il Tesseract viene colpito, ogni pochi secondi arriva vicino a lui un gruppo di Facet, fino al limite indicato nell’elenco *In breve*. Se nessuno lo colpisce non ne arriva nessuno, e quelli già presenti aspettano e se ne vanno.
-- **I Facet volano tutt’intorno al Tesseract e sparano a chi è nel loro raggio.** Non danno la caccia a chi infligge più danno né a un pilota in particolare: ogni Facet vola brevi tratti propri verso punti casuali di un ampio anello intorno al Tesseract, in ogni direzione, e appena un pilota che ha colpito il Tesseract è nel suo raggio spara al più vicino di loro. Un gruppo che resta unito è nel raggio di meno Facet alla volta e ne divide il fuoco, a differenza di un gruppo sparso tutt’intorno al Tesseract. Un Facet ha poco scafo e poco scudo, e abbatterne uno non paga nulla, ma toglie una salva ai piloti vicini. Un pilota che non ha colpito il Tesseract non è il loro bersaglio.
+- **I Facet volano tutt’intorno al Tesseract e sparano a chi è nel loro raggio.** Non danno la caccia a chi infligge più danno né a un pilota in particolare: ogni Facet vola brevi tratti propri verso punti casuali di un ampio anello intorno al Tesseract, in ogni direzione, e appena un pilota che ha colpito il Tesseract è nel suo raggio spara al più vicino di loro. Un gruppo che resta unito è nel raggio di meno Facet alla volta e ne divide il fuoco, a differenza di un gruppo sparso tutt’intorno al Tesseract. Un Facet ha poco scafo e poco scudo, e abbatterne uno paga quanto un [Phantasm](/wiki/04-Aliens/Phantasm.md), ma toglie una salva ai piloti vicini. Un pilota che non ha colpito il Tesseract non è il loro bersaglio.
 - **Chi resta abbastanza lontano viene lasciato in pace.** I Facet non si allontanano mai dal Tesseract oltre la distanza indicata nell’elenco *In breve*; un pilota che resta oltre quella distanza e oltre il raggio del laser di un Facet non viene colpito, per quanto danno abbia inflitto. Un Facet senza nessuno a cui sparare continua a volare intorno al Tesseract e se ne va quando il Tesseract viene lasciato in pace.
 - **Beta e Gamma sono più duri.** Gli sciami di quei mondi sono più forti ([Mondi](/wiki/05-Swarms/Swarms.md#the-worlds)), e lo sono anche la riparazione del Tesseract e la salva di ogni Facet.
-- **I settori pericolosi sono PvP.** Un rivale può attaccare il gruppo in mezzo allo scontro e aspettare la cassa: è del pilota che ha inflitto più danno (e del suo clan) per 30 secondi, poi di chiunque ([Carico](/wiki/03-Mechanics/Cargo.md)). Non andare da solo.
+- **I settori pericolosi sono PvP.** Un rivale può attaccare il gruppo in mezzo allo scontro. Non c’è nessuna cassa accanto al relitto da aspettare: il bottino è una [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) per ogni pilota pagato dall’abbattimento, che solo quel pilota può vedere e prendere. Non andare da solo.
 - **Il Tesseract ritorna** dopo il tempo indicato nell’elenco *In breve*, a piena forza, nella sua posizione.
 
 ## Ricompense e bottino {#rewards-and-drops}
 
-Il Tesseract paga per lo scontro che è: quanto molti Crystalys insieme, e più di un Crystalys, l’alieno meglio pagato, per il danno che incassa. La ricompensa si divide in base al danno tra i piloti che lo hanno combattuto ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). La sua cassa va al pilota che ha inflitto più danno e contiene Power Core e Ancient Control Unit, e ogni tanto Dark Matter. Le piastre dello scafo non sono lì dentro: ogni pilota pagato dall’abbattimento riceve una propria [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) di piastre, che solo lui vede e può prendere, per 10 minuti. Viene tirata per la sua parte di danno, come il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): chi ha inflitto un quinto del danno riceve circa un quinto delle quantità della tabella, e in un gruppo ogni pilota riceve la sua parte di quella del gruppo, come viene divisa la ricompensa. I Facet non pagano nulla, non lasciano nulla e non danno punti PvE: abbatterli non è farming.
+Il Tesseract paga per lo scontro che è: quanto molti Crystalys insieme, e più di un Crystalys, l’alieno meglio pagato, per il danno che incassa. La ricompensa si divide in base al danno tra i piloti che lo hanno combattuto ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Non c’è nessuna cassa per il pilota che infligge più danno. Ogni pilota pagato dall’abbattimento riceve una propria [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes), che solo lui vede e può prendere, per 10 minuti, con Reinforced Hull Plate, Velkonite e Orvium Reinforced Plate, Power Core, Ancient Control Unit e Dark Matter. Viene tirata per la sua parte di danno, come il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): chi ha inflitto un quinto del danno riceve circa un quinto delle quantità della tabella, e in un gruppo ogni pilota riceve la sua parte di quella del gruppo, come viene divisa la ricompensa. La Dark Matter ha un tetto per pilota: da un abbattimento ne riceve al massimo 5, per quanto grande sia la sua parte (in un gruppo si separa prima la parte di ciascun pilota, e il tetto è quello di ognuno), e ciò che supera il tetto va perso, non viene dato agli altri. Un Facet paga quanto un [Phantasm](/wiki/04-Aliens/Phantasm.md) in Crediti, Thulium, XP e Onore, e il suo abbattimento conta come abbattimento (nelle tue statistiche, per gli obiettivi e per l’esperienza dei tuoi droni e P.E.T.), ma non lascia nulla e non dà punti PvE.
 
 ## I valori {#the-numbers}
 
@@ -70,21 +70,16 @@ Base: Crystalys, con 625% dello scafo; non ha armi, e scudo e velocità sono pro
 | Onore | 624 | 1.248 | 1.872 |
 | Punti PvE per abbattimento | 42 | 42 | 42 |
 
-**Bottino**: una cassa, per il pilota che ha inflitto più danno.
+**Bottino per ogni pilota pagato dall’abbattimento**: una cassa ciascuno, solo per lui, con la sua parte di queste quantità.
 
 | Oggetto | Probabilità | Quantità |
 | :--- | ---: | ---: |
-| Power Core | 70% | 1–2 |
-| Ancient Control Unit | 35% | 1 |
-| Dark Matter | 2,5% | 1 |
-
-**Bottino per ogni pilota pagato dall’abbattimento**: una cassa in più ciascuno, solo per lui, con la sua parte di queste quantità.
-
-| Oggetto | Probabilità | Quantità |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 1–2 |
-| Velkonite Reinforced Plate | 60% | 3–6 |
-| Orvium Reinforced Plate | 40% | 1–2 |
+| Reinforced Hull Plate | 100% | 3–10 |
+| Velkonite Reinforced Plate | 66% | 7–12 |
+| Orvium Reinforced Plate | 50% | 3–5 |
+| Power Core | 66% | 4–7 |
+| Ancient Control Unit | 100% | 1–4 |
+| Dark Matter | 100% | 10–20, al massimo 5 per pilota |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Base: Seeker, con 2.500% dello scafo e 309% del danno dei laser; scudo, velocit�
 | Velocità | 750 | 750 | 750 |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
-| Crediti | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| Esperienza (XP) | 0 | 0 | 0 |
-| Onore | 0 | 0 | 0 |
+| Crediti | 3.000 | 6.000 | 9.000 |
+| Thulium | 12 | 24 | 36 |
+| Esperienza (XP) | 300 | 600 | 900 |
+| Onore | 6 | 12 | 18 |
 | Punti PvE per abbattimento | 0 | 0 | 0 |
 
-**Bottino**: nessuno. L’abbattimento non paga nulla.
+**Bottino**: nessuno. L’abbattimento paga solo i suoi crediti, il Thulium, l’XP e l’onore.
 
 <!-- tesseract-members:end -->

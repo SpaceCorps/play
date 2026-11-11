@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 10 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 10 yuvanın hepsi Hull Plating III ile dolduğunda 150.000 gövde ekler.
+- **Gövde plakası yuvaları.** Wraith gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 10 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Wraith gemisinde ve tüm tasarımlarında açar. 10 yuvanın hepsi Hull Plating III ile dolduğunda 250.000 gövde ekler.
 - **Tasarımlar.** Wraith gemisinin 5 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Wraith gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |

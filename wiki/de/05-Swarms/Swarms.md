@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Schwärme -->
 # Schwärme {#swarms}
 
@@ -87,8 +87,8 @@ Der Seeker-, der Pirate-, der Phantasm-, der Goombah-, der Crystalys- und der Te
 Ein gewöhnliches Alien zahlt an den Piloten, der es zuerst getroffen hat ([Kampf](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Der Anführer eines Schwarms und jede Dormant Pulse zahlen stattdessen **nach dem angerichteten Schaden**:
 
 - **Die Bezahlung wird nach Schaden aufgeteilt.** Jeder Pilot, der mindestens den Anteil aus den Regeln oben angerichtet hat, wird bezahlt, im Verhältnis zu seinem Schaden: Credits, Thulium, EP und Ehre des Abschusses werden unter ihnen aufgeteilt. Ein Pilot unter dem Anteil bekommt nichts.
-- **Die Frachtkiste geht an den Piloten mit dem meisten Schaden.** Sie gehört 30 Sekunden lang diesem Piloten (und seinem Clan), wie bei jedem Alien, danach kann sie jeder nehmen ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Jedes Dormant-Schiff hat seine eigene Schadenszählung und seine eigene Kiste.
-- **Begleiter zahlen wie üblich**: Die Pirate Scouts, die Seeker Slaves und die Guards des Phantasm-, des Goombah- und des Crystalys-Schwarms zahlen an den Piloten, der sie zuerst getroffen hat, und ihre Bezahlung ist klein gegen die eines Bosses.
+- **Die Frachtkiste geht an den Piloten mit dem meisten Schaden.** Sie gehört 30 Sekunden lang diesem Piloten (und seinem Clan), wie bei jedem Alien, danach kann sie jeder nehmen ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Jedes Dormant-Schiff hat seine eigene Schadenszählung und seine eigene Kiste. Der Tesseract ist die Ausnahme: Er lässt keine Kiste fallen, und jeder Pilot, den sein Abschuss bezahlt, bekommt eine eigene private Kiste ([Tesseract-Schwarm](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Begleiter zahlen wie üblich**: Die Pirate Scouts, die Seeker Slaves, die Guards des Phantasm-, des Goombah- und des Crystalys-Schwarms und die Facets des Tesseract-Schwarms zahlen an den Piloten, der sie zuerst getroffen hat, und ihre Bezahlung ist klein gegen die eines Bosses.
 - **Die Bezahlung eines Bosses soll die Aliens um ihn herum übertreffen.** Eine Minute Kampf gegen einen Pirate Boss, einen Boss Phantasm oder einen Boss Goombah zahlt mehr als eine Minute Kampf gegen einen Goombah, und eine Minute Kampf gegen den Dormant-Schwarm oder einen Boss Crystalys zahlt mehr als eine Minute Kampf gegen einen Crystalys; der Boss Seeker zahlt genau zehn Seeker.
 - **Die Aliens des Dormant Swamp** (der Slumbering Void, die Inert Mass und der Unwakened) werden wie ein Boss bezahlt, nach dem Schaden, und bringen PvE-Punkte für deinen Rang; ihre Zahlen stehen in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

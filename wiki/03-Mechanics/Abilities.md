@@ -118,6 +118,16 @@ The Engine II and the rank III shields and engines (the Heavy Shield Core, Engin
 - **A running effect keeps the numbers it started with.** Unfitting the item or swapping configuration does not change or end it. A jump or a reconnect does not end it either; logging out does, and its cooldown stays.
 - Other pilots see your abilities' timers on the map, as they always did: a spent Surge tells them the next minutes are open.
 
+## Pilot skills
+
+Three of your [Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md) change how abilities run, the `F` ability of your ship's design included:
+
+- **Reflex** makes cooldowns run out sooner, a little more with every level. A cooldown still starts when you press and includes the ability's duration.
+- **Tactics** makes an ability last longer. A Shield Surge or an Emergency Repair gives the same points a second over the longer time, so it puts back more in all, and an Afterburner runs longer. The cooldown does not grow with it, so the wait after the ability ends gets shorter.
+- **Sabotage** strengthens poisons, such as the Venom of a Wraith RAPTOR, in damage and in duration, on top of Tactics.
+
+The figures of each level are in the table of [Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
+
 ## Keys and buttons
 
 `Q` Shield Surge, `W` Afterburner, `E` Emergency Repair and `F` the ability of your ship's design (all configurable in the settings). Each button appears beside the hotbar only when your configuration has that ability (the `F` button, when the ship you fly has one), so a new pilot's `E` is there from the first minute. The ring around its icon tells where the ability is: whole in the ability's colour when it is ready, draining with the seconds left while it runs (the Emergency Repair too, now that it heals over ten seconds), and filling up again while it recharges, with the seconds left in the middle. A stack of several modules wears its mark (`x2`, `x3`) in the button's corner. The Emergency Repair button is dimmed while your hull is full, and the Shield Surge button on a ship with no shield at all. Hover a button for the numbers on your ship, the stack counted (for example *Afterburner II x2: +30% speed for 22.5 s*), and, while a Surge or a repair runs, how much it gives a second and how much is still to come.

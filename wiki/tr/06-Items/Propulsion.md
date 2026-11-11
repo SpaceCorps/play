@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
+<!-- wiki-i18n source: fe17f46644fd6072 -->
 <!-- wiki-i18n title: Tahrik -->
 # Tahrik ve hız {#propulsion-speed}
 
@@ -8,7 +8,7 @@ Tahrik sistemleri geminin hareket hızını ve manevra kabiliyetini belirler.
 
 - **Motorlar hız üretir, iticiler onların içinde durur ve ona katkı yapar.** Bir motor bir ila üç itici alır (Engine I bir, Engine II iki, Engine III üç); Uyarlanabilir Çekirdek de öyle (kaç tane olduğunu kademesi belirler).
 - **İki aile, her birinde dört kademe.** Impulse Thruster ailesi en çok sabit hızı ekler. Momentum Thruster ailesi daha az sabit hız ekler ve hızı daha çok çarpar. İki ailede de her kademe bir altındakinden iki sayıda da daha iyidir.
-- **Hangisi nereye.** Kural olarak her yere Impulse Thruster tak: yalnızca tam dolu bir Engine III motorunda (üç itici) I. ve II. kademe Momentum Thruster öne geçer. [Aşağıdaki tablo](#which-thruster-where) sayıları verir. En hızlı Engine III motoru üç Impulse Thruster IV taşır ve 52,5 hız yapar.
+- **Hangisi nereye.** Kural olarak tam dolu bir Engine III motoruna (üç itici) Momentum Thruster, Uyarlanabilir Çekirdeğe Impulse Thruster tak; daha küçük motorlarda ikisi I. ve II. kademede birbirine yakındır, III. kademeden itibaren Impulse öndedir. [Aşağıdaki tablo](#which-thruster-where) sayıları verir. En hızlı Engine III motoru üç Momentum Thruster IV taşır ve 63,3 hız yapar.
 - **Nasıl edinilir.** Her ailenin I. kademesi 20.000 krediye mal olur. II. ila IV. kademeler Montaj’da, her biri bir alt kademeden üretilir; bir itici asla aile değiştirmez.
 
 <!-- item-tree:begin -->
@@ -43,9 +43,9 @@ Motorlar geminin ana itki kaynağıdır. Bir **yetenek yuvasındaki** motor ise 
 
 | Ad | Nadirlik | Temel hız | Hız bonusu % | Kalkan bonusu % | Yuvalar | Özel etki | Maliyet |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Engine I** | Kalitesiz | +2 | +%2 | -%2 | 1 | Afterburner I | 20.000 kredi |
-| **Engine II** | Sıradan | +4 | +%3 | -%8 | 2 | Afterburner II | Yalnızca üretilebilir |
-| **Engine III** | Nadir | +6 | +%4 | -%15 | 3 | Afterburner III | Yalnızca üretilebilir |
+| **Engine I** | Kalitesiz | +5 | +%2 | -%2 | 1 | Afterburner I | 20.000 kredi |
+| **Engine II** | Sıradan | +10 | +%3 | -%8 | 2 | Afterburner II | Yalnızca üretilebilir |
+| **Engine III** | Nadir | +15 | +%4 | -%15 | 3 | Afterburner III | Yalnızca üretilebilir |
 
 **Engine II**, [Montaj’da](/wiki/06-Items/Overview.md#upgrading-modules) bir Engine I eşyasından üretilir: 2.000 Thulium, 60 Ship Fragment, 1 Power Core ve 4 Velkonite Reinforced Plate gerekir. **Engine III** orada bir Engine II eşyasından üretilir: 4.000 Thulium, 110 Ship Fragment, 5 Power Core, 1 Ancient Control Unit ve 4 Dark Matter Plate gerekir ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)). Her biri harcadığı motorun büyüleme kademesini ve bonuslarını korur ([Modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Önce harcayacağın motoru gemiden çıkar (iticilerini de içinden al): takılı olan ya da itici barındıran bir motor harcanmaz.
 
@@ -55,7 +55,7 @@ Motorların kalkan bonusu eşya verisinde yer alır, ama oyun onu hiç uygulamad
 
 ## İticiler {#thrusters}
 
-İticiler, hız çıktısını artırmak için motorların ya da Uyarlanabilir Çekirdeklerin içine yerleştirilir. Her biri dört kademeli iki aile vardır: **Impulse Thruster** ailesi en çok sabit hızı ekler ve içinde durduğu motorun hızını biraz çarpar; **Momentum Thruster** ailesi daha az sabit hız ekler ve onu daha çok çarpar. İki ailede de her kademe bir altındakinden hem sabit hızda hem çarpanda daha iyidir. İticili bir motorun (ya da Uyarlanabilir Çekirdeğin) yaptığı hız **kendi temel hızı artı iticilerin sabit hız artışlarıdır; bunun tamamı da iticilerin hız çarpanlarının çarpımıyla çarpılır** ([hız nasıl hesaplanır](/wiki/03-Mechanics/Speed.md)): üç Momentum Thruster IV taşıyan bir Engine III (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, üç Impulse Thruster IV ile (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5 yapar; iki Impulse Thruster IV taşıyan bir Adaptive Core II ise (0 + 2 x 14,025) x 1,02975 x 1,02975 = 29,7 yapar (iki Momentum Thruster IV ile 26,6).
+İticiler, hız çıktısını artırmak için motorların ya da Uyarlanabilir Çekirdeklerin içine yerleştirilir. Her biri dört kademeli iki aile vardır: **Impulse Thruster** ailesi en çok sabit hızı ekler ve içinde durduğu motorun hızını biraz çarpar; **Momentum Thruster** ailesi daha az sabit hız ekler ve onu daha çok çarpar. İki ailede de her kademe bir altındakinden hem sabit hızda hem çarpanda daha iyidir. İticili bir motorun (ya da Uyarlanabilir Çekirdeğin) yaptığı hız **kendi temel hızı artı iticilerin sabit hız artışlarıdır; bunun tamamı da iticilerin hız çarpanlarının çarpımıyla çarpılır** ([hız nasıl hesaplanır](/wiki/03-Mechanics/Speed.md)): üç Momentum Thruster IV taşıyan bir Engine III (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, üç Impulse Thruster IV ile (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3 yapar; iki Impulse Thruster IV taşıyan bir Adaptive Core II ise (0 + 2 x 14,025) x 1,02975 x 1,02975 = 29,7 yapar (iki Momentum Thruster IV ile 26,6).
 
 | Ad | Nadirlik | Sabit hız artışı | Hız çarpanı | Maliyet |
 | :--- | :--- | :---: | :---: | :--- |
@@ -70,19 +70,19 @@ Motorların kalkan bonusu eşya verisinde yer alır, ama oyun onu hiç uygulamad
 
 ### Hangi itici nereye {#which-thruster-where}
 
-Impulse daha çok sabit hız ekler, Momentum daha çok çarpar; bu yüzden hangisinin daha hızlı olduğu motorun zaten ne kadar hız yaptığına bağlıdır. Sabit hız, çarpılacak az hızın olduğu yerde en çok işe yarar: bir Uyarlanabilir Çekirdekte (kendi hızı yoktur) ve bir ya da iki iticili motorda. Çarpan, çarpılacak çok hızın olduğu tam dolu bir Engine III motorunda en çok işe yarar, ama orada yalnızca I. ve II. kademe Momentum Thruster kazanır. Her yuvada IV. kademe iticileriyle her birinin yaptığı hız:
+Impulse daha çok sabit hız ekler, Momentum daha çok çarpar; bu yüzden hangisinin daha hızlı olduğu motorun zaten ne kadar hız yaptığına bağlıdır. Sabit hız, çarpılacak az hızın olduğu yerde en çok işe yarar: bir Uyarlanabilir Çekirdekte (kendi hızı yoktur) ve bir ya da iki iticili motorda. Çarpan, çarpılacak çok hızın olduğu tam dolu bir Engine III motorunda en çok işe yarar ve orada Momentum Thruster her kademede kazanır. Her yuvada IV. kademe iticileriyle her birinin yaptığı hız:
 
 | İticilerin yeri | Impulse Thruster IV ile | Momentum Thruster IV ile | Hangisi hızlı |
 | :--- | :---: | :---: | :--- |
-| Engine I, bir itici | 16,5 | 14,4 | Impulse |
-| Engine II, iki itici | 34,0 | 31,4 | Impulse |
-| Engine III, bir itici | 20,6 | 18,7 | Impulse |
-| Engine III, iki itici | 36,1 | 33,8 | Impulse |
-| Engine III, üç itici | 52,5 | 51,5 | Impulse |
+| Engine I, bir itici | 19,6 | 17,6 | Impulse |
+| Engine II, iki itici | 40,3 | 38,6 | Impulse |
+| Engine III, bir itici | 29,9 | 28,6 | Impulse |
+| Engine III, iki itici | 45,6 | 44,6 | Impulse |
+| Engine III, üç itici | 62,3 | 63,3 | Momentum |
 | Adaptive Core II, iki itici | 29,7 | 26,6 | Impulse |
 
-- **Düşük kademeler.** Düşük kademeler de aynı yöne gider; iki başa baş durum ve bir istisna vardır. Bir Engine II motorunda iki iticiyle aileler I. ve II. kademede başa baştır (Impulse 0,06 ve 0,24 önde), bir Engine III motorunda iki iticiyle de başa baştırlar (0,1 içinde). III. kademeden itibaren Impulse ikisinde de 1,5 ila 2,6 farkla öndedir. İstisna tam dolu Engine III: orada Momentum I. ve II. kademede 0,6 ve 0,9 farkla, Impulse ise III. ve IV. kademede 0,5 ve 1,0 farkla öndedir.
-- **En hızlı Engine III.** Üç Impulse Thruster IV taşır: 52,5; bu, bir Impulse ve iki Momentum Thruster IV ile yapılan 52,1’in ya da üç Momentum Thruster IV ile yapılan 51,5’in biraz üstündedir.
+- **Düşük kademeler.** III. kademeden itibaren Impulse, tam dolu Engine III dışında her yerde 0,6 ila 3,1 farkla öndedir. I. ve II. kademede tam dolu Engine III dışında iki aile arasındaki fark bir puandan azdır: Impulse bir Engine I motorunda ve bir Adaptive Core I ya da II çekirdeğinde öndedir, Momentum bir ya da iki iticili Engine III motorunda ve iki iticili Engine II motorunda önde ya da başa baştır. İstisna tam dolu Engine III: orada Momentum her kademede 1,0 ila 2,0 farkla öndedir.
+- **En hızlı Engine III.** Üç Momentum Thruster IV taşır: 63,3; bu, bir Impulse ve iki Momentum Thruster IV ile yapılan 63,2’nin ya da üç Impulse Thruster IV ile yapılan 62,3’ün biraz üstündedir.
 
 Bir iticinin [Demirhane’den](/wiki/06-Items/Forge.md) gelen hız çarpanı bonusu 1’in üstündeki kısmı büyütür (x1,0935 üzerindeki +%15 bonus x1,1075 yapar) ve Demirhane, x1,05 ya da daha düşük bir çarpana bonus vermez: Impulse ailesinin x1,017 ila x1,02975 değerinde 0,005’ten azını ekler (x1,02975 üzerindeki +%15, x1,034 yapar). Bir Impulse Thruster bir bonus taşır (sabit hızı), bir Momentum Thruster iki.
 
@@ -90,4 +90,4 @@ Her ailenin I. kademesi 20.000 krediye satılır. II. ila IV. kademeler [Montaj�
 
 ### Uzaylıları geride bırakmak {#outrunning-aliens}
 
-Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi (temel hız 220), Impulse Thruster I ile 239,9, II ile 249,2, III ile 258,6, IV ile 261,6 hızla uçar: her kademe Crystalys’i geride bırakır, satın alınabilen Impulse Thruster I bile. Momentum ailesi o gemide aynı ya da biraz daha düşük hızla uçar (Momentum Thruster I ile 239,9; II ila IV ile sırasıyla 248,9, 256,7 ve 259,0): iki ailenin de her kademesi Crystalys hızının üstündedir, en az 9,9 farkla.
+Uzaylılar 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) ve 230 (Crystalys) hızla uçar. Bir Engine II ve iki iticili bir Ostirion gemisi (temel hız 220), Impulse Thruster I ile 246,3, II ile 255,6, III ile 265,1, IV ile 268,2 hızla uçar: her kademe Crystalys’i geride bırakır, satın alınabilen Impulse Thruster I bile. Momentum ailesi o gemide bundan en fazla iki puan farkla uçar (Momentum Thruster I ile 246,7; II ila IV ile sırasıyla 255,9, 263,9 ve 266,3): iki ailenin de her kademesi Crystalys hızının üstündedir, en az 16,3 farkla.

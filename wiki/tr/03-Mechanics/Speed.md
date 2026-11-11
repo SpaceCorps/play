@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93ce109824aad6c2 -->
+<!-- wiki-i18n source: 43de857ffcad0375 -->
 <!-- wiki-i18n title: Hız -->
 # Hız hesabı {#speed-calculation}
 
@@ -21,7 +21,7 @@ Takılı her motor hız üretir ve itici taşıyan her Uyarlanabilir Çekirdek d
 - **İtici sabit bonusu**: iticilerden gelen tüm sabit hız eklemelerinin toplamı (örneğin Impulse Thruster III `+12.75` hız verir).
 - **İtici çarpanı**: o motora takılı tüm itici hız çarpanlarının çarpımı (örneğin Momentum Thruster III `1.0765` yani `+7.65%`, Impulse Thruster III `1.0255` yani `+2.55%` değerindedir). Motorun ürettiği her şeyi çarpar: kendi temel hızını ve iticilerin sabit bonuslarını. Bir Uyarlanabilir Çekirdeğin kendi temel hızı yoktur; iticilerinin sabit bonusları yine de aynı şekilde çarpılır.
 
-Üç Momentum Thruster IV (`+11.135`, `1.0935`) takılı bir Engine III (temel hız 6) (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5 üretir; üç Impulse Thruster IV (`+14.025`, `1.02975`) ile (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5 üretir. Bir iticinin çarpanındaki Demirhane bonusu, 1’in üstündeki kısmı büyütür: `1.0935` üzerinde +%15, `1.1075` yapar.
+Üç Momentum Thruster IV (`+11.135`, `1.0935`) takılı bir Engine III (temel hız 15) (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3 üretir; üç Impulse Thruster IV (`+14.025`, `1.02975`) ile (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3 üretir. Bir iticinin çarpanındaki Demirhane bonusu, 1’in üstündeki kısmı büyütür: `1.0935` üzerinde +%15, `1.1075` yapar.
 
 ### 2. Azalan getiri (marjinal verimlilik) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -45,4 +45,5 @@ Toplam hız bonusu yüzdesi, takılı motorlardan (ve hibritlerden) gelen tüm h
 - **Kalkan hız cezası**: ağır kalkanlar geminin ağırlığını artırır ve olumsuz hız yüzdeleri ekler (örneğin Heavy Shield Core `-5%` hız ekler).
 - **Yuva ölçeklemesi**: bu yüzde bonusları ve cezaları da eşyanın takıldığı yuvanın verimliliğiyle ölçeklenir. Dronlarından birindeki bir kalkan, seni bir çekirdek yuvasındaki kalkan gibi yavaşlatır.
 - **Sıfırın altına inmez**: kaç kalkan taşırsan taşı, hızın 0’ın altına düşmez.
+- **Pilot becerisi**: [İtici teorin](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) hızı, motorların üstüne, her seviyede biraz daha fazla bir oranda artırır. Afterburner sonucu çarpar.
 - **Dron formasyonları**: kuşanılmış bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) nihai hızı bir kez daha, kendi faktörüyle değiştirir: Gyre +%10, Cordon −%3, Auger −%9, Culler −%10, Redoubt −%11, Rampart −%17. Afterburner bundan sonra sonucu çarpar.

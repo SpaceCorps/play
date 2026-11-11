@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Kara delik -->
 # Kara delik {#the-black-hole}
 
@@ -65,12 +65,13 @@ Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
 | Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
 | Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
+| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
 
 - **Önce kalkan alır**, sonra gövde. Bu bir vuruş değildir: kalkanın soğurması işe karışmaz ve ondan kaçınılamaz.
 - Radyasyon **alınan hasar** sayılır: kalkanın dolmaz, bir Repair Drone durur (“Onarım kesintiye uğradı: radyasyon.”) ve başlatılamaz; güvenli bölge de son dozdan 5 saniye geçene kadar seni korumaz.
 - Boosterlar ve yükseltmeler toplamının ne kadar büyük olduğunu değiştirir, ne kadar dayandığını değil: hasar onun bir payıdır.
 - Hiçbir şey bir gemiyi bağışık yapmaz. Radyasyon bir vuruş değildir, bu yüzden onu hiçbir şey emmez; ama yetenekler içinde de çalışır: Shield Surge kalkanını geri yüklemeye, Emergency Repair da gövdeni iyileştirmeye on saniyelik süreleri boyunca devam eder (dozun durdurduğu doğal onarımlardan değildirler). Gizlenme gemiyi ondan saklamaz.
+- Bir pilot yeteneği olan **Radyasyon tekniği** dozu düşürür: saniyede kaybettiğin toplam payı, 1. seviyedeki tamamından 100. seviyedeki 0,40 katına kadar düz bir çizgide düşer ve gösterge gerçekten aldığın dozu gösterir.
 
 ## Çekim {#the-pull}
 
@@ -97,20 +98,20 @@ Hasar, her saniye **geminin toplam azami gövde puanının yüzdesidir** (gövde
 
 | Gemi (standart donanım) | Hız | Dönüşü olmayan nokta |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1.826 |
-| Protos | 188 | 1.462 |
-| Kitefin | 202 | 1.388 |
-| Nomad | 221 | 1.294 |
-| Wraith | 223 | 1.281 |
-| Ostirion | 231 | 1.220 |
-| Paragon | 242 | 1.141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1.755 |
+| Protos | 194 | 1.431 |
+| Kitefin | 211 | 1.346 |
+| Nomad | 229 | 1.233 |
+| Wraith | 235 | 1.189 |
+| Ostirion | 240 | 1.160 |
+| Paragon | 252 | 1.071 |
+| Storm | 284 | 906 |
 
 Bir gemi tasarımı geminin hızını, onunla birlikte dönüşü olmayan noktasını da değiştirir: DUMA tasarımı Ironclad gemisinden yavaştır, NOTSUM tasarımı Storm gemisinden hızlıdır.
 
 Saniyede 272 birimden hızlı bir geminin (koşucu bir donanım ya da çalışan bir Afterburner yeteneği olan standart bir Wraith) dönüşü olmayan noktası her zamanki yerindedir: 300 hızda 885, 432 hızda 747.
 
-Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 46,8 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.500’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on beş, iki motorla 22,5, üç motorla otuz saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.462’den 994’a, standart bir Wraith gemisinde 1.281’den 869’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 440 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,46); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Impulse Thruster IV bulunan Engine III ve Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 475’un dışından çıkar.
+Hız için donanım kurarsan daha derinden çıkabilirsin; ağır kalkanlar yüklersen çıkamazsın (en yavaş gemi olan Ironclad, 14 yuvasının hepsinde birer Heavy Shield Core taşırsa 46,8 hızla uçar ve dönüşü olmayan noktası yaklaşık 2.500’dedir). Dönüşü olmayan noktanın hemen içindeki bir gemiyi yalnızca ani bir hız patlaması geri döndürür: çalışan bir [Afterburner](/wiki/03-Mechanics/Abilities.md) sayılır ve çalıştığı sürece dönüşü olmayan noktayı daha derine iter (bir motorla on beş, iki motorla 22,5, üç motorla otuz saniye; Afterburner III, standart bir Protos gemisinde noktayı 1.431’den 928’a, standart bir Wraith gemisinde 1.189’den 847’e çeker). Hız için kurulmuş, her hız değeri sonuna kadar büyülenmiş ve en güçlü hız patlaması çalışan bir gemi bile yaklaşık 410 birimin içinden çıkamaz (üst sınıra kadar büyülenmiş bir Afterburner III, x1,46); büyülenmemiş, hız için kurulmuş bir gemi (her birinde üç Momentum Thruster IV bulunan Engine III ve her birinde üç Impulse Thruster IV bulunan Adaptive Core III eşyalarıyla) bir Afterburner III ile en iyi durumda 453’un dışından çıkar.
 
 Dönüşü olmayan noktadan düşüş yavaş başlar: noktanın birkaç birim içindeki bir gemi, tam güçte, yirmi saniye ya da daha uzun sürede içeri çekilir, sonra gitgide hızlanır. Çekim uçmak değildir: uçulan mesafeye hiçbir şey katmaz.
 

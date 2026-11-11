@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | アイテム | 追加される船体 | 入手方法 |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5,000 | ショップ、5,000 Thulium |
-| **Hull Plating II** | 10,000 | アセンブリ、Hull Plating I から |
-| **Hull Plating III** | 15,000 | アセンブリ、Hull Plating II から |
+| **Hull Plating I** | 8,000 | ショップ、5,000 Thulium |
+| **Hull Plating II** | 15,000 | アセンブリ、Hull Plating I から |
+| **Hull Plating III** | 25,000 | アセンブリ、Hull Plating II から |
 
 Hull Plating I は購入します。**II と III は強化品です**。アセンブリは1つ下のティアの装甲（インベントリにそのままある1個）を消費し、Thulium、素材、そして **Dark Matter Plate** を要求します。II は5枚、III は8枚で、ほかの装備の最終ティアが要求する4枚（と Ancient Control Unit 1個）より多くなっています。どちらもまず技術が必要で、[研究](/wiki/03-Mechanics/Research.md#tree-hull-plating)ページの Hull Plating ツリーにあります。II は1日と Dark Matter 25個、III は2日と Dark Matter 40個で、Dark Matter Plate 自体の技術に加えて必要です。上のツリーに価格、素材、時間が載っています。
 
-[鍛冶場](/wiki/06-Items/Forge.md)はどの装甲も扱えます。強化すると、消費した装甲の鍛造の段階とボーナスが引き継がれます。装甲のステータスは船体の1つだけなので、ボーナスも1つで、段階に応じて +2% から +15% です。「永遠」の Hull Plating III は最大で 17,250 を加えます。[オークション](/wiki/03-Mechanics/Auction.md)に出せるのは Hull Plating II と III で、ショップで売られている Hull Plating I は出品できません。
+[鍛冶場](/wiki/06-Items/Forge.md)はどの装甲も扱えます。強化すると、消費した装甲の鍛造の段階とボーナスが引き継がれます。装甲のステータスは船体の1つだけなので、ボーナスも1つで、段階に応じて +2% から +15% です。「永遠」の Hull Plating III は最大で 28,750 を加えます。[オークション](/wiki/03-Mechanics/Auction.md)に出せるのは Hull Plating II と III で、ショップで売られている Hull Plating I は出品できません。
 
 ## 装甲スロット {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Hull Plating I は購入します。**II と III は強化品です**。アセ�
 
 | 艦 | 装甲スロット | Hull Plating III のフルセットで増える船体 |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75,000 |
-| **Storm** | 7 | 105,000 |
-| **Ironclad** | 15 | 225,000 |
-| **Wraith** | 10 | 150,000 |
+| **Paragon** | 5 | 125,000 |
+| **Storm** | 7 | 175,000 |
+| **Ironclad** | 15 | 375,000 |
+| **Wraith** | 10 | 250,000 |
 
 - **最初はすべてロック。** スロットは、Skylab で研究すると開きます。スロット1つにつき技術が1つで、1時間と Dark Matter 10個、最初のものから順に進めます。[研究](/wiki/03-Mechanics/Research.md#ship-technologies)画面では、艦のスロットが1枚のカードにまとめて表示され、スロット1つにつき点が1つ付きます。
 - **艦1隻ではなく、艦の種類ごと。** Paragon のために開いたスロットは、Paragon のすべてのデザインでも開いています（[艦のデザイン](/wiki/03-Mechanics/Ship-Designs.md)）。技術は永久にあなたのものです。ワイプでも残ります。

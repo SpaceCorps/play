@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 32b893f12261ffc4 -->
+<!-- wiki-i18n source: 97e289c94edbe6a9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; materia oscura; dark matter plate; dark matter plates; plate; plates; placa; placas; dark matter socket; dark matter sockets; socket; sockets; ranura; ranura de dark matter -->
 
-**Dark Matter** es el recurso que hay detrás de lo más alto del árbol de tecnologías, de los dos pasos más altos de la Forja y del último nivel de cada cadena de mejora. No se puede comprar ni extraer, y los alienígenas corrientes no la sueltan: la **fabricas en el agujero negro (black hole)** disparándole cohetes **N.I.K.E.** y recoges las cajas que devuelve. Una **Dark Matter Plate** se prensa en el Ensamblaje a partir de Dark Matter, una vez que has investigado su receta. Esta página dice de dónde viene cada una, para qué sirve y en qué orden conviene hacer las cosas. Desde el día 11 de la temporada, Dark Matter es además el **combustible de las excavadoras gigantes** ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md)), y unos pocos alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) sueltan un poco.
+**Dark Matter** es el recurso que hay detrás de lo más alto del árbol de tecnologías, de los dos pasos más altos de la Forja y del último nivel de cada cadena de mejora. No se puede comprar ni extraer, y los alienígenas corrientes no la sueltan: la **fabricas en el agujero negro (black hole)** disparándole cohetes **N.I.K.E.** y recoges las cajas que devuelve. Una **Dark Matter Plate** se prensa en el Ensamblaje a partir de Dark Matter, una vez que has investigado su receta. Esta página dice de dónde viene cada una, para qué sirve y en qué orden conviene hacer las cosas. Desde el día 11 de la temporada, Dark Matter es además el **combustible de las excavadoras gigantes** ([Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md)), unos pocos alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) sueltan un poco y el [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) da más a un grupo muy grande.
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
@@ -12,7 +12,7 @@
 ## En un minuto {#in-one-minute}
 
 - **Dark Matter es un recurso y se llama simplemente Dark Matter en todas partes.** El agujero negro del centro del Sector de peligro 4 (`DS-4`) la produce: cada cohete N.I.K.E. que llega al agujero devuelve de 1 a 3 Dark Matter (2 de media), en cajas pequeñas en el borde de su zona.
-- **Para qué sirve.** 108 tecnologías del Centro de investigación la piden, de 5 a 60 cada una y 1.364 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida. En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
+- **Para qué sirve.** 109 tecnologías del Centro de investigación la piden, de 5 a 60 cada una y 1.374 en total, y el Ensamblaje la prensa para hacer la Dark Matter Plate. Desde el día 11 de la temporada una [excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md) también la quema, como combustible: un depósito son unos pocos Dark Matter, y se pierde si la excavadora es destruida. En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
 - **En el Centro de investigación** añades Dark Matter desde tu bodega (con la nave aterrizada) antes de pulsar Iniciar. La investigación la toma al empezar.
 - **Una Dark Matter Plate es otro objeto.** Investiga primero su receta (el grupo Recursos del árbol: 1 día y 10 Dark Matter) y luego fabrícala en el Ensamblaje con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium.
 - **Para qué sirve una plate.** El último nivel de cada cadena de mejora pide **4** y al menos una Ancient Control Unit: los amps, las células de escudo y los propulsores del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II (13 piezas). La Forja pide 2 para subir un objeto de Divino a Rompedor, y otras 2 de Rompedor a Eterno. Los módulos de motores, de defensa y de radar del Skylab también piden placas, para construirse y para mejorarse ([Recursos](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -25,9 +25,9 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **Qué es** | Un recurso Épico | Un recurso Mítico |
-| **De dónde viene** | El agujero negro del sector de peligro 4, por los cohetes N.I.K.E. disparados contra él; un poco del Enjambre Dormant y de las Inert Masses del Dormant Swamp | El Ensamblaje, prensada con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium |
+| **De dónde viene** | El agujero negro del sector de peligro 4, por los cohetes N.I.K.E. disparados contra él; un poco del Enjambre Dormant y de las Inert Masses del Dormant Swamp, mucho más del Tesseract del sector de peligro 4 | El Ensamblaje, prensada con 5 Dark Matter, una Velkonite Reinforced Plate, una Orvium Reinforced Plate y 250 Thulium |
 | **Qué haces antes** | Investigar la N.I.K.E. (3 h, sin Dark Matter) y fabricar algunos | Investigar la receta de la plate (1 d, 10 Dark Matter) |
-| **Para qué sirve** | Los costes de investigación (108 tecnologías, 1.364 en total) y la plate | El último nivel de cada cadena de mejora: 4 para cada una de 13 piezas; la mejora del Master Drone: 10; la Forja: 2 para cada uno de sus dos pasos más altos |
+| **Para qué sirve** | Los costes de investigación (109 tecnologías, 1.374 en total) y la plate | El último nivel de cada cadena de mejora: 4 para cada una de 13 piezas; la mejora del Master Drone: 10; la Forja: 2 para cada uno de sus dos pasos más altos |
 
 ## Cómo conseguir Dark Matter {#how-to-get-dark-matter}
 
@@ -38,18 +38,18 @@
 5. **Recoge las cajas.** Cada N.I.K.E. que llega al agujero devuelve **1, 2 o 3 Dark Matter** (1 una cuarta parte de las veces, 2 la mitad, 3 una cuarta parte), en una o dos cajas de 2 como máximo. Caen en el borde de la zona del agujero, a entre 3.050 y 3.950 unidades del centro, cerca de la línea de tu disparo. Acércate a menos de 200 unidades de cada una: recogerla tarda medio segundo.
 6. **Llévala a casa.** La Dark Matter va a tu inventario. En la estación, con la nave aterrizada, puedes añadirla al Centro de investigación o usarla en el Ensamblaje.
 
-Unos **5 cohetes dan 10 Dark Matter**. El Resource Magnet Booster no le suma nada, así que es igual para todos.
+Unos **5 cohetes dan 10 Dark Matter**. El Resource Magnet Booster no le suma nada, así que es igual para todos los que no hayan entrenado la habilidad Antimatter: esa suma hasta +25 % en el nivel 100.
 
 ### Cómo ir sobre seguro {#keeping-it-safe}
 
 - **Las cajas son tuyas durante 60 segundos**, y de tu clan. Después, cualquiera que esté en el mapa puede tomarlas, y desaparecen a los 240 segundos. Un mapa admite como máximo 32 cajas de Dark Matter, y una nueva desplaza a la más antigua de ellas.
 - **El borde está dentro de la radiación.** Allí cuesta de 0,3 a 0,8 % de los HP totales de tu nave cada segundo, más cuanto más cerca del agujero. Una nave completa aguanta unos 2 a 5 minutos; un minuto en medio de la banda cuesta un tercio. La atracción termina a 3.000 unidades, así que nada te arrastra a ti ni a las cajas.
 - **El Sector de peligro 4 es PvP.** Un rival puede esperar en tu línea: una N.I.K.E. golpea la primera nave que toca (de 67.500 a 75.000 de daño) y el agujero no recibe nada. Un rival también puede esperar a las cajas cuando se acaben tus 60 segundos. Dispara desde el borde, recoge las cajas en el orden de tus disparos y ve acompañado.
-- **Una segunda fuente, pequeña.** Una Dormant Pulse del [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) suelta de 1 a 5 Dark Matter una vez de cada cinco, para el piloto que más daño le hizo. El enjambre exige un grupo grande. Una Inert Mass del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) también suelta algo de vez en cuando, pero vive bajo los cañones del pantano.
+- **Otras fuentes.** Una Dormant Pulse del [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) suelta de 1 a 5 Dark Matter una vez de cada cinco, para el piloto que más daño le hizo. El enjambre exige un grupo grande. Una Inert Mass del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) también suelta algo de vez en cuando, pero vive bajo los cañones del pantano. La grande es el [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) del sector de peligro 4: cada piloto al que paga su derribo recibe una caja privada, y el bote del derribo, de 10 a 20 Dark Matter, se reparte entre ellos según el daño, con 5 como máximo para cada piloto, así que un grupo de cuatro o más se lleva unos 15 por derribo. Exige un grupo muy grande en un sector PvP y vuelve 30 minutos después de ser destruido.
 
 ## Dark Matter en el Centro de investigación {#in-the-research-centre}
 
-Las tecnologías de lo más alto del árbol piden Dark Matter además de su ciencia: **10** para cada una de las 16 tecnologías de arriba, y **5, 13 o 20** para cada una de las 16 formaciones de drones (cuanto más fuerte la formación, más). Las dos investigaciones del Hull Plating piden **25 y 40**, y las tecnologías de naves, los 13 diseños y las 37 ranuras de blindaje, **10** cada una. Los módulos de motores, de defensa y de radar del Skylab piden **5, 10, 15 o 20** por cada nivel a partir del segundo, 115 en total ([Investigación](/wiki/03-Mechanics/Research.md#module-technologies)). Las tablas de [Investigación](/wiki/03-Mechanics/Research.md#dark-matter) listan todas las demás.
+Las tecnologías de lo más alto del árbol piden Dark Matter además de su ciencia: **10** para cada una de las 17 tecnologías de arriba, y **5, 13 o 20** para cada una de las 16 formaciones de drones (cuanto más fuerte la formación, más). Las dos investigaciones del Hull Plating piden **25 y 40**, y las tecnologías de naves, los 13 diseños y las 37 ranuras de blindaje, **10** cada una. Los módulos de motores, de defensa y de radar del Skylab piden **5, 10, 15 o 20** por cada nivel a partir del segundo, 115 en total ([Investigación](/wiki/03-Mechanics/Research.md#module-technologies)). Las tablas de [Investigación](/wiki/03-Mechanics/Research.md#dark-matter) listan todas las demás.
 
 1. **Abre la vista Investigación** de tu Skylab en la estación y elige la tecnología. Su ficha tiene una fila **Dark Matter**: cuánta hay en el Centro, de cuánta necesita (por ejemplo 3 / 10).
 2. **Pulsa Añadir.** Pasa Dark Matter de tu bodega al Centro de investigación, la que falta, en la medida en que la lleves. Tu nave debe estar aterrizada. **Recuperar** la devuelve a tu bodega.
@@ -107,7 +107,7 @@ Las 44 piezas de un Paragon son sus 9 láseres, sus 27 amps y sus 8 ranuras de g
 | Una Dark Matter Plate | 5 | 2,5 |
 | Las dos plates de un paso de la Forja | 10 | 5 |
 | Las cuatro plates de una pieza del último nivel | 20 | 10 |
-| Toda tecnología que pide Dark Matter | 1.364 | 682 |
+| Toda tecnología que pide Dark Matter | 1.374 | 687 |
 
 Una primera mejora desde cero es la receta (10) y dos plates (10): 20 Dark Matter, unos 10 cohetes N.I.K.E., es decir, dos fabricaciones. Un primer amp de nivel IV desde cero es la receta de la plate (10), la tecnología propia del amp (10) y 4 plates (20): 40 Dark Matter, unos 20 cohetes N.I.K.E.
 

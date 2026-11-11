@@ -4,7 +4,7 @@ The Ironclad is a heavy armored tank: the thickest hull of any ship and the most
 
 ## Stats
 
-- **Hitpoints (HP)**: 600,000
+- **Hitpoints (HP)**: 500,000
 - **Base Speed**: 110
 - **Laser Slots**: 8
 - **Extra Slots**: 3
@@ -25,7 +25,7 @@ The Ironclad is a heavy armored tank: the thickest hull of any ship and the most
 
 ## Research
 
-- **Hull plate slots.** The Ironclad has 15 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Ironclad and on every one of its designs. All 15 filled with Hull Plating III add 225,000 hull.
+- **Hull plate slots.** The Ironclad has 15 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Ironclad and on every one of its designs. All 15 filled with Hull Plating III add 375,000 hull.
 - **Designs.** The Ironclad has 2 [designs](/wiki/03-Mechanics/Ship-Designs.md). Research one (10 h and 10 Dark Matter), then convert your Ironclad into it in Assembly: the change cannot be undone.
 
 | Design | What it changes |

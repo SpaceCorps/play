@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Escavatore gigante -->
 # Escavatore gigante {#giant-excavator}
 
@@ -120,6 +120,7 @@ L’estrazione aggiunge calore secondo dopo secondo. Il calore è **cumulativo e
 
 <!-- excavator-radiation:end -->
 
+- **Tecnica delle radiazioni.** Un’abilità del pilota che abbassa la dose nei cerchi come presso il buco nero, fino a 0,40 di essa al livello 100; i cerchi e i tempi non cambiano.
 - **L’avviso.** Due volte prima del surriscaldamento (i tempi sono nell’elenco qui sopra) la mappa viene avvisata, una nave dentro i cerchi vede un avvertimento, e i cerchi vengono disegnati a terra in volo e sulla minimappa. Quando irradiano, i cerchi sono rossi e l’indicatore delle Radiazioni mostra la dose.
 - **Andarsene.** Ogni nave di serie può uscire dal bordo del pannello o dalla cassa più lontana rimasta, tranne la Ironclad, che è lenta: se ne va durante l’avviso, oppure non se ne va. Non startene su una cassa quando il calore arriva al limite.
 - **Bottino nei cerchi.** Le casse deposte prima del surriscaldamento restano, nelle radiazioni: una cassa che si trova lì quando iniziano si prende al prezzo della dose.

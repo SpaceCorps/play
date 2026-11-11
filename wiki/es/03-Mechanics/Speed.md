@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93ce109824aad6c2 -->
+<!-- wiki-i18n source: 43de857ffcad0375 -->
 <!-- wiki-i18n title: Velocidad -->
 # Cálculo de la velocidad {#speed-calculation}
 
@@ -21,7 +21,7 @@ Cada motor equipado genera velocidad, y también cada núcleo adaptativo que lle
 - **Bono fijo de propulsores**: la suma de todos los aumentos fijos de velocidad de los propulsores (p. ej., Impulse Thruster III da `+12.75` de velocidad).
 - **Multiplicador de propulsores**: el producto de los multiplicadores de velocidad de todos los propulsores instalados en ese motor (p. ej., Momentum Thruster III es `1.0765` o `+7.65%`; Impulse Thruster III, `1.0255` o `+2.55%`). Multiplica todo lo que produce el motor: su propia velocidad base y los bonos fijos de los propulsores. Un núcleo adaptativo no tiene velocidad base propia, y los bonos fijos de sus propulsores se multiplican igualmente.
 
-Un Engine III (velocidad base 6) con tres Momentum Thruster IV (`+11.135`, `1.0935`) produce (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, y con tres Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. Una bonificación de la Forja en el multiplicador de un propulsor hace crecer la parte por encima de 1: +15 % sobre `1.0935` da `1.1075`.
+Un Engine III (velocidad base 15) con tres Momentum Thruster IV (`+11.135`, `1.0935`) produce (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, y con tres Impulse Thruster IV (`+14.025`, `1.02975`) (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3. Una bonificación de la Forja en el multiplicador de un propulsor hace crecer la parte por encima de 1: +15 % sobre `1.0935` da `1.1075`.
 
 ### 2. Rendimientos decrecientes (eficiencia marginal) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -45,4 +45,5 @@ El porcentaje total de bono de velocidad es la suma de todos los bonos de veloci
 - **Penalización de velocidad de los escudos**: los escudos pesados lastran tu nave y suman porcentajes de velocidad negativos (p. ej., Heavy Shield Core suma `-5%` de velocidad).
 - **Escalado por ranura**: estos bonos y penalizaciones porcentuales también se escalan según la eficiencia de la ranura donde está equipado el objeto. Un escudo en uno de tus drones te ralentiza igual que uno en una ranura principal.
 - **Nunca por debajo de cero**: por muchos escudos que lleves, tu velocidad no baja de 0.
+- **Destreza de piloto**: tu [Teoría de propulsores](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) sube la velocidad en una parte, un poco más con cada nivel, además de los motores. El Afterburner multiplica el resultado.
 - **Formaciones de drones**: una [formación de drones](/wiki/03-Mechanics/Formations.md) puesta cambia la velocidad final una vez más, como un factor propio: Gyre +10 %, Cordon −3 %, Auger −9 %, Culler −10 %, Redoubt −11 %, Rampart −17 %. Después el Afterburner multiplica el resultado.

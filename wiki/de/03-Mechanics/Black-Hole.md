@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Schwarzes Loch -->
 # Das Schwarze Loch {#the-black-hole}
 
@@ -65,12 +65,13 @@ Zwischen zwei Zeilen steigt der Schaden linear. In Trefferpunkten pro Sekunde, f
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
 | Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
 | Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
+| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
 
 - Den Schaden **nimmt zuerst der Schild**, dann die Hülle. Es ist kein Treffer: Die Absorption des Schilds spielt keine Rolle, und ausweichen kannst du ihm nicht.
 - Strahlung zählt als **erlittener Schaden**: Dein Schild lädt sich nicht auf, eine Repair Drone stoppt („Reparatur unterbrochen: Strahlung.“) und lässt sich nicht starten, und eine Schutzzone würde dich erst 5 Sekunden nach der letzten Dosis schützen.
 - Booster und Upgrades ändern, wie groß deine Gesamtsumme ist, nicht, wie lange du durchhältst: Der Schaden ist ein Anteil davon.
 - Nichts macht ein Schiff immun. Strahlung ist kein Treffer, also fängt nichts sie ab; die Fähigkeiten wirken darin aber weiter: Ein Shield Surge stellt deinen Schild weiter wieder her und eine Emergency Repair heilt deine Hülle weiter, jeweils für ihre zehn Sekunden (sie sind nicht die natürlichen Reparaturen, die die Dosis stoppt). Eine Tarnung verbirgt das Schiff nicht vor ihr.
+- Die **Strahlungstechnik**, eine Pilotenfähigkeit, senkt die Dosis: Der Anteil deines Gesamtwerts, den du pro Sekunde verlierst, fällt in einer geraden Linie vom Ganzen auf Stufe 1 auf das 0,40-Fache auf Stufe 100, und die Anzeige zeigt die Dosis, die du wirklich bekommst.
 
 ## Der Sog {#the-pull}
 
@@ -97,20 +98,20 @@ Dein **Punkt ohne Wiederkehr** ist die Entfernung, in der der Sog deinem Tempo e
 
 | Schiff (Standardausstattung) | Tempo | Punkt ohne Wiederkehr |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1.826 |
-| Protos | 188 | 1.462 |
-| Kitefin | 202 | 1.388 |
-| Nomad | 221 | 1.294 |
-| Wraith | 223 | 1.281 |
-| Ostirion | 231 | 1.220 |
-| Paragon | 242 | 1.141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1.755 |
+| Protos | 194 | 1.431 |
+| Kitefin | 211 | 1.346 |
+| Nomad | 229 | 1.233 |
+| Wraith | 235 | 1.189 |
+| Ostirion | 240 | 1.160 |
+| Paragon | 252 | 1.071 |
+| Storm | 284 | 906 |
 
 Ein Schiffsdesign ändert das Tempo seines Schiffs und damit auch seinen Punkt ohne Wiederkehr: Eine DUMA ist langsamer als eine Ironclad, eine NOTSUM schneller als eine Storm.
 
 Ein Schiff, das schneller als 272 Einheiten pro Sekunde ist (eine auf Flucht ausgelegte Ausstattung oder eine Wraith in Standardausstattung mit laufendem Afterburner), hat seinen Punkt ohne Wiederkehr dort, wo er immer lag: Bei Tempo 300 liegt er bei 885, bei 432 bei 747.
 
-Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 46,8, ihr Punkt ohne Wiederkehr liegt bei etwa 2.500). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (fünfzehn Sekunden mit einem Triebwerk, 22,5 mit zwei, dreißig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.462 auf 994 und den einer Wraith in Standardausstattung von 1.281 auf 869). Innerhalb von etwa 440 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,46); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs und Adaptive Core IIIs mit je drei Impulse Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 475 heraus.
+Rüste auf Tempo, und du kommst aus größerer Tiefe heraus; pack dich mit schweren Schilden voll, und du schaffst es nicht (eine Ironclad, das langsamste Schiff, mit einem Heavy Shield Core in allen 14 Slots fliegt mit 46,8, ihr Punkt ohne Wiederkehr liegt bei etwa 2.500). Nur ein Geschwindigkeitsschub holt ein Schiff knapp innerhalb seines Punkts ohne Wiederkehr noch zurück: Ein laufender [Afterburner](/wiki/03-Mechanics/Abilities.md) zählt und verlegt den Punkt ohne Wiederkehr nach innen, solange er läuft (fünfzehn Sekunden mit einem Triebwerk, 22,5 mit zwei, dreißig mit drei; Afterburner III verlegt den einer Protos in Standardausstattung von 1.431 auf 928 und den einer Wraith in Standardausstattung von 1.189 auf 847). Innerhalb von etwa 410 Einheiten kommt nichts mehr heraus, auch kein auf Tempo ausgelegtes Schiff, dessen Tempowerte alle bis zum Maximum verzaubert sind und das den stärksten Schub laufen hat (einen bis zur Obergrenze verzauberten Afterburner III, x1,46); ein unverzaubertes, auf Tempo ausgelegtes Schiff (Engine IIIs mit je drei Momentum Thruster IV und Adaptive Core IIIs mit je drei Impulse Thruster IV) mit Afterburner III kommt bestenfalls von außerhalb von 453 heraus.
 
 Der Fall vom Punkt ohne Wiederkehr beginnt langsam: Ein Schiff, das wenige Einheiten innerhalb davon mit voller Kraft fliegt, wird über zwanzig Sekunden oder länger hineingezogen, dann immer schneller. Der Sog ist kein Flug: Er zählt nicht als geflogene Strecke.
 

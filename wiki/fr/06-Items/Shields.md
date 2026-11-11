@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: Boucliers -->
 # Boucliers et défense {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 Le **Heavy Shield Core** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Basic Shield Core, avec 4 000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Il garde le rang d’enchantement et les bonus du bouclier qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord le Basic Shield Core de votre vaisseau (et sortez-en les cellules) : un bouclier installé ou qui contient des cellules n’est pas consommé.
 
-L’**absorption** est la part de chaque tir que prennent vos boucliers ; la coque encaisse le reste. Un bouclier seul donne **45 à 55 %**, et ses cellules ajoutent le reste : le meilleur bouclier avec les meilleures cellules (un Heavy Shield Core avec trois Absorption Shield Cell IV) donne **85 %**, le maximum qu’un vaisseau possède d’emblée. Trois bonus permanents s’y ajoutent : le Shield Absorbance Boost de la Boutique de saison (+0,1 point par niveau, 100 niveaux, 25 points de réinitialisation chacun), les bonus d’absorption de la Forge et la recherche Pilote Field Theory (+4, +7 ou +10 points). Les sources de points de réinitialisation (jusqu’à 1 105 par réinitialisation, qui repartent à chaque réinitialisation) achètent 44 de ces 100 niveaux (+4,4 points) dès la première réinitialisation, ce qui, avec un ensemble Éternel entièrement forgé, donne environ **100 %**, et environ **110 %** avec Field Theory III. La stat n’est cependant pas plafonnée à 100 % : la *pénétration de bouclier* d’un attaquant en est retranchée, si bien que ce qu’un vaisseau a au-dessus de 100 % est sa marge face à la pénétration. Voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+L’**absorption** est la part de chaque tir que prennent vos boucliers ; la coque encaisse le reste. Un bouclier seul donne **45 à 55 %**, et ses cellules ajoutent le reste : le meilleur bouclier avec les meilleures cellules (un Heavy Shield Core avec trois Absorption Shield Cell IV) donne **91 %**, le maximum qu’un vaisseau possède d’emblée. Trois bonus permanents s’y ajoutent : le Shield Absorbance Boost de la Boutique de saison (+0,1 point par niveau, 100 niveaux, 25 points de réinitialisation chacun), les bonus d’absorption de la Forge et la recherche Pilote Field Theory (+4, +7 ou +10 points). Les sources de points de réinitialisation (jusqu’à 1 105 par réinitialisation, qui repartent à chaque réinitialisation) achètent 44 de ces 100 niveaux (+4,4 points) dès la première réinitialisation, ce qui, avec un ensemble Éternel entièrement forgé, donne environ **106 %**, et environ **116 %** avec Field Theory III. La stat n’est cependant pas plafonnée à 100 % : la *pénétration de bouclier* d’un attaquant en est retranchée, si bien que ce qu’un vaisseau a au-dessus de 100 % est sa marge face à la pénétration. Voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Les cœurs adaptatifs font office de générateurs hybrides, combinant les capac
 
 | Nom | Rareté | Bonus de bouclier (%) | Bonus de vitesse (%) | Emplacements | Effet spécial | Coût |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Médiocre | +4 % | +1,2 % | 1 | — | 100 000 crédits |
-| **Adaptive Core II** | Commun | +6,4 % | +1,6 % | 2 | — | À fabriquer |
-| **Adaptive Core III** | Rare | +8 % | +2 % | 3 | — | À fabriquer |
+| **Adaptive Core I** | Médiocre | +4 % | +1,5 % | 1 | — | 100 000 crédits |
+| **Adaptive Core II** | Commun | +6,4 % | +2,5 % | 2 | — | À fabriquer |
+| **Adaptive Core III** | Rare | +8 % | +3 % | 3 | — | À fabriquer |
 
 L’**Adaptive Core II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Adaptive Core I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Adaptive Core III** s’y fabrique à partir d’un Adaptive Core II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement et les bonus du cœur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le cœur à consommer (et sortez-en les propulseurs et les cellules) : un cœur installé ou qui contient des modules n’est pas consommé.
 
@@ -66,17 +66,17 @@ L’**Adaptive Core II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview
 
 ## Cellules de bouclier {#shield-cells}
 
-Les cellules de bouclier s’installent dans des boucliers ou des cœurs adaptatifs (autant que le nombre d’emplacements du bouclier ou du cœur) pour le renforcer. Dans un bouclier, elles augmentent aussi son absorption, en points, et avec elle la part de chaque tir que prennent vos boucliers. Il y a deux familles de quatre paliers : les **Capacity Shield Cells** apportent le plus de bouclier et de recharge, les **Absorption Shield Cells** le plus d’absorption (à chaque palier, deux fois plus d’absorption et deux fois moins de bouclier et de recharge que la Capacity du même palier). La Capacity aide un vaisseau dont le bouclier décide du combat, l’Absorption un vaisseau dont c’est la coque. Pour un bouclier dont tous les emplacements sont remplis par une même cellule : un Light Shield Core (1 emplacement) atteint de 47 à 55 %, un Basic Shield Core (2 emplacements) de 52 à 68 % et un Heavy Shield Core (3 emplacements) de 56 à 80 %, des cellules Capacity de palier I aux cellules Absorption de palier IV. Retirer le bouclier, ou le consommer comme donneur d’une fusion de la [Forge](/wiki/06-Items/Forge.md), rend ses cellules à l’inventaire.
+Les cellules de bouclier s’installent dans des boucliers ou des cœurs adaptatifs (autant que le nombre d’emplacements du bouclier ou du cœur) pour le renforcer. Dans un bouclier, elles augmentent aussi son absorption, en points, et avec elle la part de chaque tir que prennent vos boucliers. Il y a deux familles de quatre paliers : les **Capacity Shield Cells** apportent le plus de bouclier et de recharge, les **Absorption Shield Cells** le plus d’absorption (à chaque palier, deux fois plus d’absorption et deux fois moins de bouclier et de recharge que la Capacity du même palier). La Capacity aide un vaisseau dont le bouclier décide du combat, l’Absorption un vaisseau dont c’est la coque. Pour un bouclier dont tous les emplacements sont remplis par une même cellule : un Light Shield Core (1 emplacement) atteint de 48 à 57 %, un Basic Shield Core (2 emplacements) de 56 à 74 % et un Heavy Shield Core (3 emplacements) de 64 à 91 %, des cellules Capacity de palier I aux cellules Absorption de palier IV. Retirer le bouclier, ou le consommer comme donneur d’une fusion de la [Forge](/wiki/06-Items/Forge.md), rend ses cellules à l’inventaire.
 
 | Nom | Rareté | Boost de capacité | Boost de recharge | Boost d’absorption | Coût |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | Médiocre | +3 000 | +250/s | +2 % | 30 000 crédits |
-| **Capacity Shield Cell II** | Commun | +6 000 | +500/s | +3 % | À fabriquer |
-| **Capacity Shield Cell III** | Rare | +9 000 | +750/s | +4 % | À fabriquer |
-| **Capacity Shield Cell IV** | Épique | +12 000 | +1 000/s | +5 % | À fabriquer |
-| **Absorption Shield Cell I** | Médiocre | +1 500 | +125/s | +4 % | 30 000 crédits |
-| **Absorption Shield Cell II** | Commun | +3 000 | +250/s | +6 % | À fabriquer |
-| **Absorption Shield Cell III** | Rare | +4 500 | +375/s | +8 % | À fabriquer |
-| **Absorption Shield Cell IV** | Épique | +6 000 | +500/s | +10 % | À fabriquer |
+| **Capacity Shield Cell I** | Médiocre | +4 000 | +250/s | +3 % | 30 000 crédits |
+| **Capacity Shield Cell II** | Commun | +8 000 | +500/s | +4 % | À fabriquer |
+| **Capacity Shield Cell III** | Rare | +12 000 | +750/s | +5 % | À fabriquer |
+| **Capacity Shield Cell IV** | Épique | +16 000 | +1 000/s | +6 % | À fabriquer |
+| **Absorption Shield Cell I** | Médiocre | +2 000 | +125/s | +6 % | 30 000 crédits |
+| **Absorption Shield Cell II** | Commun | +4 000 | +250/s | +8 % | À fabriquer |
+| **Absorption Shield Cell III** | Rare | +6 000 | +375/s | +10 % | À fabriquer |
+| **Absorption Shield Cell IV** | Épique | +8 000 | +500/s | +12 % | À fabriquer |
 
 Le palier I de chaque famille se vend 30 000 crédits. Les paliers II à IV se fabriquent à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules), chacun à partir de la cellule de la même famille un palier en dessous (une Capacity Shield Cell II à partir d’une Capacity Shield Cell I, une III à partir d’une II, une IV à partir d’une III), avec du Thulium, du butin et des plaques : 4 Velkonite Reinforced Plates de votre Skylab pour le palier II ou III, et 4 Dark Matter Plates et une Ancient Control Unit pour le palier IV. Une cellule ne change jamais de famille : vous choisissez Capacity ou Absorption en achetant le palier I. La nouvelle cellule garde le rang d’enchantement et les bonus de la cellule qu’elle consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Les cellules ne vont pas dans un [emplacement de compétence](/wiki/03-Mechanics/Abilities.md) ; elles se placent dans des boucliers et des cœurs adaptatifs.

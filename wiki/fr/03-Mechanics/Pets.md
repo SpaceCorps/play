@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -17,7 +17,7 @@ Un **P.E.T.** (Personal Escort Technology) est un petit compagnon qui vole à c�
 ## En une minute {#in-one-minute}
 
 - **Obtenir la Station.** Faites rechercher une **P.E.T. Station** au centre de recherche et fabriquez-la dans l’Assemblage. Elle a trois niveaux, avec de la place pour **2, 3 et 5** P.E.T.s. Équipez-la dans un emplacement extra du vaisseau que vous pilotez. Le Berceau fonctionne sans elle : vous pouvez faire éclore des P.E.T.s avant d’avoir une Station.
-- **Trouver des chunks.** Brisez des astéroïdes à partir du deuxième palier : un **Regular**, un **Mythical** ou un **Legendary Cluster Chunk** peut rester entier dans le morceau de minerai du groupe qui a fait le plus de dégâts.
+- **Trouver des chunks.** Brisez des astéroïdes, plus ils sont gros mieux c’est : un **Regular**, un **Mythical** ou un **Legendary Cluster Chunk** peut rester entier dans le morceau de minerai du groupe qui a fait le plus de dégâts.
 - **Faire éclore.** Dans la vue **P.E.T.** du hangar, le Berceau prend un chunk et une Orvium Reinforced Plate pour chaque P.E.T. et a quatre places dans sa file. Le grade du chunk décide du nombre de boosts du P.E.T. : **1, 2 ou 3**.
 - **Arrimer et voler.** Arrimez les P.E.T.s que vous voulez pendant que votre vaisseau est posé. Avec une Station équipée et sur ON, ils apportent leurs boosts et gagnent de l’expérience pendant que vous chassez, minez et volez, jusqu’au niveau 20.
 - **ON et OFF.** L’emplacement **PET** de la barre rapide commute la Station, même en vol, et le changement compte tout de suite : sur OFF, vos P.E.T.s n’apportent aucun boost, ne gagnent pas d’expérience et ne travaillent pas ; sur ON, ils sont de retour. Une Station que vous n’avez pas commutée est sur ON.
@@ -37,7 +37,7 @@ La vue P.E.T. du hangar dit quelle Station vous possédez, où elle est équipé
 
 ## Cluster Chunks
 
-Les Cluster Chunks sont des amas de cristal que renferment les rochers. Ils existent en trois grades, **Normal (Regular)**, **Mythique (Mythical)** et **Légendaire (Legendary)**, et une rupture en laisse au plus un de chaque. À partir du palier 2 des [rochers](/wiki/03-Mechanics/Asteroid-Mining.md), une rupture peut laisser un Regular Cluster Chunk, à partir du palier 3 un Mythical et à partir du palier 4 un Legendary ; la Motherlode les donne le plus souvent. Les chances sont dans [Ressources](/wiki/06-Items/Resources.md#regular-cluster-chunk). Le chunk ne fait pas partie de la paie de la rupture : il va entier, dans le morceau de minerai, au groupe qui a fait le plus de dégâts, et aucune chance de butin ne change sa probabilité, pas même celle d’un P.E.T.
+Les Cluster Chunks sont des amas de cristal que renferment les rochers. Ils existent en trois grades, **Normal (Regular)**, **Mythique (Mythical)** et **Légendaire (Legendary)**, et une rupture en laisse au plus un de chaque. La rupture de n’importe quel [rocher](/wiki/03-Mechanics/Asteroid-Mining.md) peut laisser un Regular Cluster Chunk, à partir du palier 3 un Mythical et à partir du palier 4 un Legendary ; la Motherlode les donne le plus souvent. Les chances sont dans [Ressources](/wiki/06-Items/Resources.md#regular-cluster-chunk). Le chunk ne fait pas partie de la paie de la rupture : il va entier, dans le morceau de minerai, au groupe qui a fait le plus de dégâts, et aucune chance de butin ne change sa probabilité, pas même celle d’un P.E.T.
 
 Un chunk est une ressource : il ne peut pas être vendu, et la réinitialisation le supprime si vous ne le portez pas dans la [Cache de transport](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 

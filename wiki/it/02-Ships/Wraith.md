@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ La Wraith è la suprema nave di classe corazzata, con una potenza di fuoco senza
 
 ## Ricerca {#research}
 
-- **Slot corazza.** Questa nave ha 10 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 10 riempiti di Hull Plating III aggiungono 150.000 di scafo.
+- **Slot corazza.** Questa nave ha 10 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 10 riempiti di Hull Plating III aggiungono 250.000 di scafo.
 - **Design.** Questa nave ha 5 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercane uno (10 h e 10 Dark Matter), poi converti la tua Wraith in quel design nell’Assemblaggio: il cambiamento non si può annullare.
 
 | Design | Cosa cambia |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Minden, ami alább áll, a wipe után is a tiéd.
 * **A teljes [Skylabod](/wiki/03-Mechanics/Skylab.md#the-wipe)**: a modulok, a szintjeik, az Erőforrás-raktárban tárolt érc és **a Hajtómű- és a Védelmi modulba beszerelt hajtóművek és lézerek**, amelyek ugyanott maradnak beszerelve, a bennük lévő tolóegységekkel és erősítőkkel együtt. A tárolt érc nem tárgy, és nem számít bele a tárolóba; a beszerelt darabok sem foglalnak ott helyet.
 * **A wipe-pontjaid és az állandó buffjaid** ([a bolt](#the-permanent-buff-store)).
 * **Tapasztalat, szint és becsület.**
+* **A Pilóta-képességfád.** Minden képesség megtartja a szintjét és az XP-jét.
 * **Kredit 5 000 000 000-ig és Thulium 10 000 000-ig.** Ami ennél több, elvész: lásd [a felső határokat](#the-caps).
 * **A küldetéseid állása.** A teljesített és a folyamatban lévő küldetések megmaradnak. A teljesítetteket újra megcsinálhatod, a teljes jutalmukért (a wipe-kor még futó Ismétlés elvész).
+* **A szólókapuk alkatrészei**, a garancia számlálója, valamint a pörgetésekre költött és a kapuk által visszafizetett összeg nyilvántartása ([Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **A kinézeteid** (skinek, aurák és kipufogóeffektek), amelyek szintén nem tárgyak ([Kozmetika](/wiki/06-Items/Cosmetics.md)).
 * **Ami a tranzittárolódban van**, lásd alább.
 
@@ -67,14 +69,17 @@ A fel nem nyitott konténereidhez, a [különleges tárgyaidhoz](/wiki/06-Items/
 
 ## Chrono-Gate és Energiamaterializáló {#chrono-gate-energy-materializer}
 
-A **Chrono-Gate** (Galaxiskapunak is hívják) egy hatalmas szezonális építmény, amely hidat képez a szezonok között. A kapu megépítése és stabilizálása elengedhetetlen ahhoz, hogy megkapd a szezonok közötti átvitel szállítási jogosultságait.
+A **Chrono-Gate** (Galaxiskapunak is hívják) egy hatalmas szezonális építmény, amely hidat képez a szezonok között. A kapu megépítése és stabilizálása elengedhetetlen ahhoz, hogy megkapd a szezonok közötti átvitel szállítási jogosultságait. A Galaxiskapuk oldal hat kapuja közül az egyik: a másik öt a [szólókapuk](/wiki/03-Mechanics/Solo-Gates.md), olyan helyek, ahová beröpülsz, és az alkatrészeik ugyanabból az Energiamaterializálóból jönnek.
 
 ### A kapu összeállítása {#gate-assembly}
-A Chrono-Gate teljes stabilizálásához pontosan **100 Chrono-Gate-alkatrészt** kell összegyűjtened.
+A Chrono-Gate teljes stabilizálásához pontosan **2 Chrono-Gate-alkatrészt** kell összegyűjtened. A [Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) oldalon látod, mire van szüksége a hat kapu mindegyikének, és átlagosan mennyibe kerülnek az alkatrészeik.
 
 ### Az Energiamaterializáló {#the-energy-materializer}
 Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi energiaszektorokat pörgeti, hogy megtalálja a kapu alkatrészeit. Csak **Thuliummal** pörget (a kredites pörgetés megszűnt):
-* **Thuliumos pörgetés** (5 Thulium): **10% eséllyel** ad egy kapualkatrészt.
+* **Thuliumos pörgetés**: pörgetésenként **100 Thulium**, **13% eséllyel** ad egy kapualkatrészt. Az alkatrész a hat kapu egyikéhez tartozik, véletlenszerűen választva, ezért nem mindig Chrono-Gate-alkatrész.
+* **A garancia.** Az alkatrész nélküli pörgetések hosszú sora nem tarthat örökké: néhány üres pörgetés után nő az esély, aztán az alkatrész biztos ([részletek](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Az alkatrész nélküli pörgetés** is fizet egy nyereményt ([Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **A pörgetések folytatódnak, amikor a Chrono-Gate kész.** Minden pörgetés pénzbe kerül, és az általa talált alkatrészek ilyenkor a szólókapukéi. Az alkatrész esélye egyhatodával kisebb, mert a Chrono-Gate része kiesik belőle.
 
 *Profi tipp: szorzókkal (1×, 5×, 10×, 100×) tömeges pörgetést végezhetsz, és felgyorsíthatod a kapu építését.*
 
@@ -82,7 +87,7 @@ Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi e
 
 ## Tranzittároló (utazókapszula) {#transport-cache-travel-capsule-}
 
-Amint mind a 100 alkatrész megvan, és a Chrono-Gate teljesen stabilizálva van, a portál megnyitja a hozzáférést a személyes **tranzittárolódhoz** (átviteli kocsi vagy utazókapszula néven is ismert). Ez a zsebdimenzió megvédi a holmidat attól, hogy törlődjön a wipe alatt. Az [Aukción](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) meghirdetett tárgyaid a wipe-kor laza tárgyként visszajönnek hozzád, amelyeket a wipe a többihez hasonlóan töröl, ha nem teszed őket a Tranzittárolóba; a tételekben tartott licitjeidet visszatérítik.
+Amint minden alkatrész megvan, és a Chrono-Gate teljesen stabilizálva van, a portál megnyitja a hozzáférést a személyes **tranzittárolódhoz** (átviteli kocsi vagy utazókapszula néven is ismert). Ez a zsebdimenzió megvédi a holmidat attól, hogy törlődjön a wipe alatt. Az [Aukción](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) meghirdetett tárgyaid a wipe-kor laza tárgyként visszajönnek hozzád, amelyeket a wipe a többihez hasonlóan töröl, ha nem teszed őket a Tranzittárolóba; a tételekben tartott licitjeidet visszatérítik.
 
 ### A tárolóhajó {#the-cache-ship}
 
@@ -140,7 +145,7 @@ A Tranzittároló fül **Tartalom befagyasztása** gombja biztonsági retesz a r
 * **Az idegenek kilövései.** Annak a wipe-nak számítanak, amelyben vagy, az összesített számaid pedig megmaradnak.
 * **Minden tárgy, amelyet nem tartanak meg**: nyersanyag, boosterek, tartalék felszerelés, lemezek, Cluster Chunkok és a többi. A Skylabod valamelyik moduljából kivett hajtómű vagy lézer ugyanolyan tartalék, mint a többi; amelyek még be vannak szerelve, megmaradnak. Amit a wipe előbb visszaad neked (lásd alább), az ugyanolyan tárgy, mint a többi.
 * **A klánok.** Minden klán feloszlik a Flottakincstárával, a bejegyzéseivel, a szerződéseivel, a pontjaival és a bónuszszintjeivel együtt ([Klánok](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **A Chrono-Gate-darabok**: a kapu újra kezdődik, és a Materializálód is.
+* **A Chrono-Gate-darabok**: a kapu újra kezdődik, és újra megtalálod az alkatrészeit. Egy nyitott szólókapu-menet véget ér, és visszaadja az alkatrészeit; a szólókapuk alkatrészei, amelyek nálad vannak, megmaradnak ([Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **A Skylab-expedíciód** véget ér: a folyamatban lévő út befejeződik, a Trófeaterem pedig kifizeti a kreditjét, a Thuliumját, a tapasztalatát és a becsületét, és kiürül ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **A gyártásaid.** Az Összeszerelő gyártási sorában lévő minden gyártás megszakad, és visszatérítik, bármit is készítene: tárgyat, hajót, hajóátalakítást, drónt vagy drónfejlesztést, drónformációt, P.E.T. Stationt vagy Extra Slots CPU-t. A kredit és a Thulium, amibe került, a felső határok előtt visszakerül a tárcádra. Az anyagok laza tárgyként térnek vissza, és a többivel együtt elvesznek, hacsak nem szakítod meg előbb magad a munkát, és nem teszed őket a tárolóba. Az már elkészült, de még át nem vett gyártást is visszatérítik, és ami belőle lett volna, az soha nem készül el: a wipe előtt vedd át a kész gyártásaidat. A Bölcső munkái nem gyártások: a P.E.T.-munkáid tovább futnak.
 
@@ -221,7 +226,7 @@ Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átí
 * **Honor Boost**: +0,1% szerzett becsület szintenként (max. 50% / 500 szint) - *Ár: 10 WP*
 * **Hitpoints Boost**: +0,1% maximális életerő (HP) szintenként (max. 50% / 500 szint) - *Ár: 15 WP*
 * **Shield Capacity Boost**: +0,1% maximális pajzs (a pajzs **kapacitása**) szintenként (max. 50% / 500 szint) - *Ár: 10 WP*
-* **Shield Absorbance Boost**: szintenként +0,1 pont a pajzsod **elnyeléséhez** (max. +10 pont / 100 szint) - *Ár: 25 WP*. Az elnyelés az a rész, amelyet a pajzsaid minden találatból felfognak (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); a buff fix pontokat ad hozzá: 100 wipe-pont 4 szintet vesz (+0,4 pont), 300 12-t (+1,2), 500 20-at (+2,0), a források által egy wipe-ban fizetett mind az 1 105 wipe-pont pedig 44-at (+4,4 pont). A maximumon (100 szint, 2 500 WP: több wipe-ra szóló cél, mert a források egy wipe-ban legfeljebb 1 105-et fizetnek, a rangod pedig 5-től 400-ig ad hozzá) a 85% (az alapból elérhető legjobb) 95%-ra, egy Light Shield Core 45%-a pedig 55%-ra nőne. Az érték nincs 100%-ra korlátozva: abból levonják a támadó *pajzsáthatolását*, így ami 100% fölé jut, az tartalék. Ha egy wipe wipe-pontjait ebbe a buffba teszed, és egy teljesen kovácsolt, Örök ritkaságú pajzs- és cellaszettel játszol, egy hajó nagyjából 99–102%-ot ér el. (A 0.4.5-ös verzióig ez a buff magának az elnyelésnek egy hányadát adta hozzá, szintenként 0,1%-át, ugyanazon az áron; a pontok minden elnyelésnél ugyanannyit vagy többet érnek, így a már megvásárolt szintek nem veszítettek semmit; a 0.4.2-es verzióig ez a buff a pajzs *töltődési* sebességét növelte; ma már egyetlen állandó buff sem növeli a töltődést.)
+* **Shield Absorbance Boost**: szintenként +0,1 pont a pajzsod **elnyeléséhez** (max. +10 pont / 100 szint) - *Ár: 25 WP*. Az elnyelés az a rész, amelyet a pajzsaid minden találatból felfognak (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); a buff fix pontokat ad hozzá: 100 wipe-pont 4 szintet vesz (+0,4 pont), 300 12-t (+1,2), 500 20-at (+2,0), a források által egy wipe-ban fizetett mind az 1 105 wipe-pont pedig 44-at (+4,4 pont). A maximumon (100 szint, 2 500 WP: több wipe-ra szóló cél, mert a források egy wipe-ban legfeljebb 1 105-et fizetnek, a rangod pedig 5-től 400-ig ad hozzá) a 91% (az alapból elérhető legjobb) 101%-ra, egy Light Shield Core 45%-a pedig 55%-ra nőne. Az érték nincs 100%-ra korlátozva: abból levonják a támadó *pajzsáthatolását*, így ami 100% fölé jut, az tartalék. Ha egy wipe wipe-pontjait ebbe a buffba teszed, és egy teljesen kovácsolt, Örök ritkaságú pajzs- és cellaszettel játszol, egy hajó nagyjából 104–109%-ot ér el. (A 0.4.5-ös verzióig ez a buff magának az elnyelésnek egy hányadát adta hozzá, szintenként 0,1%-át, ugyanazon az áron; a pontok minden elnyelésnél ugyanannyit vagy többet érnek, így a már megvásárolt szintek nem veszítettek semmit; a 0.4.2-es verzióig ez a buff a pajzs *töltődési* sebességét növelte; ma már egyetlen állandó buff sem növeli a töltődést.)
 * **Luck Boost**: +0,1% zsákmányesély az idegenektől szintenként (max. 10% / 100 szint) - *Ár: 15 WP*
 
 ### Wipe-pontok szerzése {#earning-wipe-points}

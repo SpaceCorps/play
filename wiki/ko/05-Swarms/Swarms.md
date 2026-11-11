@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: 무리 -->
 # 무리 {#swarms}
 
@@ -87,8 +87,8 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys, Tesseract 무리는 보스가 나�
 일반 외계인은 처음 명중시킨 파일럿에게 보상을 지급합니다([전투](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). 무리의 리더와 각 Dormant Pulse는 대신 **입힌 피해량에 따라** 보상을 지급합니다.
 
 - **보상은 피해량에 따라 나뉩니다.** 위 규칙에 나온 비율 이상의 피해를 입힌 파일럿이 입힌 피해에 비례해 보상을 받습니다. 처치의 크레딧, Thulium, 경험치, 명예는 이들 사이에서 나뉩니다. 그 비율에 못 미친 파일럿은 아무것도 받지 못합니다.
-- **화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다.** 다른 외계인과 마찬가지로 30초 동안은 그 파일럿(과 소속 클랜)의 것이고, 그 뒤에는 누구나 가져갈 수 있습니다([화물](/wiki/03-Mechanics/Cargo.md)). Dormant의 각 함선은 자체 피해 집계와 자체 상자를 가집니다.
-- **부하는 평소처럼 지급합니다.** Pirate Scout, Seeker Slave, 그리고 Phantasm, Goombah, Crystalys 무리의 Guard는 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
+- **화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다.** 다른 외계인과 마찬가지로 30초 동안은 그 파일럿(과 소속 클랜)의 것이고, 그 뒤에는 누구나 가져갈 수 있습니다([화물](/wiki/03-Mechanics/Cargo.md)). Dormant의 각 함선은 자체 피해 집계와 자체 상자를 가집니다. Tesseract는 예외입니다. 상자를 남기지 않으며, 처치로 보상을 받는 파일럿은 모두 자기만의 개인 상자를 받습니다([Tesseract 무리](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **부하는 평소처럼 지급합니다.** Pirate Scout, Seeker Slave, Phantasm, Goombah, Crystalys 무리의 Guard, 그리고 Tesseract 무리의 Facet은 처음 명중시킨 파일럿에게 지급하며, 보상은 보스에 비해 소액입니다.
 - **보스의 보상은 주변 외계인보다 크게 설계되어 있습니다.** Pirate Boss, Boss Phantasm, Boss Goombah와 1분 싸우면 Goombah와 1분 싸우는 것보다 보상이 많고, Dormant 무리나 Boss Crystalys와 1분 싸우면 Crystalys와 1분 싸우는 것보다 많습니다. Boss Seeker의 보상은 정확히 Seeker 10마리분입니다.
 - **Dormant Swamp의 외계인**(Slumbering Void, Inert Mass, Unwakened)은 보스처럼 피해에 따라 보상이 지급되고 내 순위의 PvE 포인트에 더해집니다. 수치는 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)에 있습니다.
 

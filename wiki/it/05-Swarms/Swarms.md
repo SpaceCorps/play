@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Sciami -->
 # Sciami {#swarms}
 
@@ -87,8 +87,8 @@ Gli sciami Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avvisano i p
 Un alieno normale paga il pilota che lo ha colpito per primo ([Combattimento](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Il capo di uno sciame, e ogni Dormant Pulse, pagano invece **in base al danno inflitto**:
 
 - **La ricompensa si divide in base al danno.** Ogni pilota che ha inflitto almeno la quota indicata nelle regole qui sopra viene pagato, in proporzione al danno inflitto: crediti, Thulium, XP e onore dell’abbattimento si dividono tra loro. Un pilota sotto la quota non riceve nulla.
-- **La cassa di carico va al pilota che ha inflitto più danno.** È sua (e del suo clan) per 30 secondi, come per ogni alieno, poi chiunque può prenderla ([Carico](/wiki/03-Mechanics/Cargo.md)). Ogni nave Dormant ha il suo conteggio del danno e la sua cassa.
-- **I seguaci pagano come al solito**: i Pirate Scout, i Seeker Slave e i Guard degli sciami Phantasm, Goombah e Crystalys pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
+- **La cassa di carico va al pilota che ha inflitto più danno.** È sua (e del suo clan) per 30 secondi, come per ogni alieno, poi chiunque può prenderla ([Carico](/wiki/03-Mechanics/Cargo.md)). Ogni nave Dormant ha il suo conteggio del danno e la sua cassa. Il Tesseract è l’eccezione: non lascia nessuna cassa, e ogni pilota pagato dal suo abbattimento riceve una cassa privata tutta sua ([Sciame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **I seguaci pagano come al solito**: i Pirate Scout, i Seeker Slave, i Guard degli sciami Phantasm, Goombah e Crystalys e i Facet dello sciame Tesseract pagano il pilota che li ha colpiti per primo, e la loro ricompensa è piccola rispetto a quella di un boss.
 - **La ricompensa di un boss è fatta per battere gli alieni attorno a lui.** Un minuto di scontro con un Pirate Boss, un Boss Phantasm o un Boss Goombah paga più di un minuto di scontro con un Goombah, e un minuto con lo sciame Dormant o con un Boss Crystalys paga più di un minuto con un Crystalys; il Boss Seeker paga esattamente dieci Seeker.
 - **Gli alieni del Dormant Swamp** (lo Slumbering Void, l’Inert Mass e l’Unwakened) vengono pagati come un boss, in base al danno, e aggiungono punti PvE alla tua classifica; i loro numeri sono in [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

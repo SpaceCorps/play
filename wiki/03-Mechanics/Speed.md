@@ -19,7 +19,7 @@ Every engine equipped generates speed, and so does every Adaptive Core that hold
 - **Thruster Flat Bonus**: The sum of all flat speed additions from thrusters (e.g. Impulse Thruster III is `+12.75` speed).
 - **Thruster Multiplier**: The product of all thruster speed multipliers slotted in that engine (e.g. Momentum Thruster III is `1.0765` or `+7.65%`, Impulse Thruster III `1.0255` or `+2.55%`). It multiplies everything the engine makes: its own base speed and the thrusters' flat bonuses. An Adaptive Core has no base speed of its own, and its thrusters' flat bonuses are multiplied all the same.
 
-An Engine III (base speed 6) with three Momentum Thruster IVs (`+11.135`, `1.0935`) makes (6 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 51.5, and with three Impulse Thruster IVs (`+14.025`, `1.02975`) (6 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 52.5. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.0935` makes `1.1075`.
+An Engine III (base speed 15) with three Momentum Thruster IVs (`+11.135`, `1.0935`) makes (15 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 63.3, and with three Impulse Thruster IVs (`+14.025`, `1.02975`) (15 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 62.3. A Forge buff on a thruster's multiplier grows the part above 1: +15% on `1.0935` makes `1.1075`.
 
 ### 2. Diminishing Returns (Marginal Efficiency)
 
@@ -43,4 +43,5 @@ Total speed bonus percent is the sum of all speed bonuses from equipped engines 
 - **Shield speed penalty**: Heavy shields weigh down your ship, adding negative speed percentages (e.g. Heavy Shield Core adds `-5%` speed).
 - **Slot scaling**: These percentage bonuses and penalties are also scaled by the slot efficiency where the item is equipped. A shield on one of your drones slows you as one in a core slot does.
 - **Never below zero**: however many shields you carry, your speed does not go below 0.
+- **Pilot skill**: your [Thruster theory](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) raises the speed by a share, a little more with every level, on top of the engines. The Afterburner multiplies the result.
 - **Drone formations**: a worn [drone formation](/wiki/03-Mechanics/Formations.md) changes the final speed once more, as a factor of its own: Gyre +10%, Cordon −3%, Auger −9%, Culler −10%, Redoubt −11%, Rampart −17%. The Afterburner then multiplies the result.

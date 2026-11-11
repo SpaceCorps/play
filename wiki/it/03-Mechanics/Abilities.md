@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Abilità -->
 # Abilità attive della nave {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ L’Engine II e gli scudi e i motori di grado III (l’Heavy Shield Core, l’En
 - **Ogni abilità ha la propria ricarica.** Usarne una non blocca le altre.
 - **Un effetto in corso mantiene i valori con cui è partito.** Smontare l’oggetto o cambiare configurazione non lo modifica né lo termina. Nemmeno un salto o una riconnessione lo terminano; la disconnessione sì, e la sua ricarica resta.
 - Gli altri piloti vedono i timer delle tue abilità sulla mappa, come hanno sempre fatto: un Surge già usato dice loro che i prossimi minuti sono scoperti.
+
+## Competenze del pilota {#pilot-skills}
+
+Tre delle tue [competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md) cambiano il modo in cui girano le abilità, compresa l’abilità `F` del progetto della tua nave:
+
+- **Riflessi** fa finire prima le ricariche, un po’ di più a ogni livello. Una ricarica parte sempre quando premi e comprende la durata dell’abilità.
+- **Tattica** fa durare di più un’abilità. Uno Shield Surge o una Emergency Repair dà gli stessi punti al secondo sul tempo più lungo, quindi ne restituisce di più in tutto, e un Afterburner dura di più. La ricarica non cresce con essa, quindi l’attesa dopo la fine dell’abilità si accorcia.
+- **Sabotaggio** potenzia i veleni, come il Venom di una Wraith RAPTOR, nel danno e nella durata, oltre alla Tattica.
+
+Le cifre di ogni livello sono nella tabella delle [Competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ## Tasti e pulsanti {#keys-and-buttons}
 

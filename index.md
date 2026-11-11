@@ -6,38 +6,59 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.5.3"
-date: "2026-11-09"
+version: "0.5.4"
+date: "2026-11-11"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 172341635
-    sha256: "07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc"
+    size: 174596873
+    sha256: "688877c636e8930b691fb1b0e117944cf845fe2b96ba296b4d4c4f653705c659"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 165697303
-    sha256: "4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c"
+    size: 167656678
+    sha256: "f0eea23dedea5bfe345f28d0673d893b54b8ff6b591e6a869b5f040b6f453398"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 160057848
-    sha256: "4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e"
+    size: 161950200
+    sha256: "b69f30b0895e5b6d491194c3b7b64cabecb95a0fee7e3ae6a63056d4a2a5656c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 166582093
-    sha256: "616ab3548aca0dd8ea1572910a405fb885fd773057fa7e36e1dd90a750e5c1d8"
+    size: 168542757
+    sha256: "a06321c2a83a2abf3249a34dd52ced5320e729ad6acbe33f523e705bad94804c"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
+  - os: "Windows"
+    arch: "aarch64"
+    format: "zip"
+    filename: "SpaceCorps2027-windows-aarch64.zip"
+    size: 165871053
+    sha256: "75d1129a3024f04583e76dd3d3ea0d7f86318e1b99023abf503520ae8427ffd1"
+    url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip"
+  - os: "Linux"
+    arch: "aarch64"
+    format: "appimage"
+    filename: "SpaceCorps2027-linux-aarch64.AppImage"
+    size: 160451080
+    sha256: "638e14548b281d3220b2ca6484ae1dad47487b9bfe736bc5fb64aff4567ba376"
+    url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage"
+  - os: "Linux"
+    arch: "aarch64"
+    format: "tar.gz"
+    filename: "SpaceCorps2027-linux-aarch64.tar.gz"
+    size: 166821566
+    sha256: "df6123ad6ded93752855ab9c8bc589dcfe9cefa31841f39a1fbfb75709d12b43"
+    url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz"
 # /release:front
 ---
 
@@ -55,14 +76,17 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.5.3)
+## Downloads (Version 0.5.4)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (172.3 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc` |
-| **Windows** | x86_64 | `.zip` (165.7 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c` |
-| **Linux** | x86_64 | `.AppImage` (160.1 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e` |
-| **Linux** | x86_64 | `.tar.gz` (166.6 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `616ab3548aca0dd8ea1572910a405fb885fd773057fa7e36e1dd90a750e5c1d8` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (174.6 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `688877c636e8930b691fb1b0e117944cf845fe2b96ba296b4d4c4f653705c659` |
+| **Windows** | x86_64 | `.zip` (167.7 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `f0eea23dedea5bfe345f28d0673d893b54b8ff6b591e6a869b5f040b6f453398` |
+| **Linux** | x86_64 | `.AppImage` (162.0 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `b69f30b0895e5b6d491194c3b7b64cabecb95a0fee7e3ae6a63056d4a2a5656c` |
+| **Linux** | x86_64 | `.tar.gz` (168.5 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `a06321c2a83a2abf3249a34dd52ced5320e729ad6acbe33f523e705bad94804c` |
+| **Windows** | aarch64 | `.zip` (165.9 MB) | [SpaceCorps2027-windows-aarch64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip) | `75d1129a3024f04583e76dd3d3ea0d7f86318e1b99023abf503520ae8427ffd1` |
+| **Linux** | aarch64 | `.AppImage` (160.5 MB) | [SpaceCorps2027-linux-aarch64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage) | `638e14548b281d3220b2ca6484ae1dad47487b9bfe736bc5fb64aff4567ba376` |
+| **Linux** | aarch64 | `.tar.gz` (166.8 MB) | [SpaceCorps2027-linux-aarch64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz) | `df6123ad6ded93752855ab9c8bc589dcfe9cefa31841f39a1fbfb75709d12b43` |
 <!-- /release:downloads -->
 
 ---
@@ -72,224 +96,186 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.5.3 · 2026-11-09
+### 0.5.4 · 2026-11-11
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.3)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.4)
 
-SpaceCorps 2027 0.5.3 is the patch for the regional servers. The regional servers of 0.5.2 (Singapore and US East) went public with the hotbar icons broken, with no way to equip or fire rockets there and no way to turn in quests there. 0.5.3 fixes that: the hotbar icons, the ammo list and the rockets work on the regional servers as they do in Helsinki, and a finished mission can be turned in there (Claim Reward in Mission Control; the reward is paid to your account at the home server and shows in your wallet when you return to base). It also carries what was finished meanwhile: a rework of the rockets (only Tier I is sold, the tiers move up, Rocket Launcher II to V, ten special rockets), Clan Dungeons v2 (the Warlord's room opens at 75 % of the Crystalys and their Twins, boosters drop by kills), hull limits of missions that follow the world, one Global chat for every server, a choice of server before you log in, and a sidebar that lists every page again. Singapore and US East were closed to the public again on 2026-11-09 (staff only) until this fix is live; they will be open again when 0.5.3 is live.
+SpaceCorps 2027 0.5.4 is the balance patch and the first release of the Pilot Skill Tree, the six Galaxy Gates and Mines. The Pilot Skill Tree gives 18 stats that level from 1 to 100 by what you do and survive every wipe; everybody starts at level 1. The Galaxy Gates grow from one gate to six: the Chrono-Gate needs 2 parts now (it took 100), and five solo gates, Alpha Rift to Omega Vault, are fought alone, with waves and a boss. Mines are a trap you throw. The Shop has a Sell button. Clan dungeon aliens pay and drop like the aliens they are modelled on and come out of the cell you fly into. There is an Interface size setting (75 to 200 %) and a more compact Group window.
 
 #### What's new
 
 **Highlights**
-- **Singapore and US East work like Helsinki again for the hotbar, the rockets and your missions.** The hotbar shows its pictures and counts again, the rocket list can be dragged to the bar and fired, and **Claim Reward works on a regional server**: the Reward Claimed window shows the amounts at once, and the reward itself (Credits, Thulium, XP, honor, items, research, booster time) is paid once to your account at the home server and shows in your wallet when you return to base. Equip, Shop, crafting and the other station windows stay the home server's (Return to Base first).
-- **Davidski plays music as he flies.** When your ship is within about 3,000 units of him, his song **"Gold Ironclad"** (a gangster-rap track about the game's lore, AI-generated with ACE-Step 1.5, 3 minutes) plays around his ship: full next to him, fading with the distance, panned by the side of the screen, on the Sound Effects volume; the game's music dips under it. It plays through, pauses 30 seconds, and plays again; fly away and it stops. Only pilots on the Danger Sector he flies hear it (he comes out once a day). A game-only change: the new game is needed.
-- **Of the normal rockets, only Tier I is sold, for 1,000 credits (500).** Tier II and Tier III are crafted, won at the Auction, or made by the Skylab Rocket Factory.
-- **The tiers moved up.** The new Tier I has the stats of the old Tier II, the new Tier II the old Tier III's, and the new Tier III is the old Tier III with its damage x 1.4 (blast radius x 1.1).
-- **Rocket Launcher II to V** (permanent, like the Auto-Rocket CPU): II fires **2** rockets per 5 s, III **3**, IV **4**, V **5**, the shots 0.15 s apart.
-- **Two cooldowns:** normal rockets share one, set by your launcher (default one shot every 3 s); special rockets share their own 5 s cooldown, which launchers do not change, and each special rocket has its own on top.
-- **Ten new special rockets:** Freeze, EMP, Shield Breaker, Toxic, Marking, Cooldown rocket, Flares, Ricochet, Support and the Gravitational N.U.K.E. (the tables below).
-- **Do not feed the black hole a N.U.K.E.:** a normal N.U.K.E. that is swallowed by the Danger Sector 4 black hole wakes 10 Slumbering Voids round the ship that fired it, and they hunt that pilot for 10 minutes. To feed the hole the shooter has to be deep in its radiation (a N.U.K.E. flies 1,200 units, the radiation reaches 4,000), and the Voids do not attack a pilot parked inside the hole's 4,200-unit circle. This is read from the server's code and tests; nobody has flown it.
-- **Research: 20 new technologies** (Tier II and III of the four families, the eight crafted special rockets and the four Rocket Launchers), so there are **179** technologies in all (159), and the Archivist goal is 179. Flares and Ricochet are sold in the Shop and have none. The N.U.K.E.'s technology now asks for Scatter III (the N.U.K.E. is crafted from it), and the Gravitational N.U.K.E.'s asks for the N.U.K.E.'s.
-- **Mining and rock missions pay differently.** The eight rock-breaking missions pay less (Husk and Crystal: **70,000** credits and **560** Thulium, 90,000 and 720 before), Pebble, Cobble and Glimmer have more hit points and pay more, the Anvil and the Ancient Husk pay less, and every rock gives about a quarter less ore (see "Mining and rocks" below).
-- **Missions: hull limits follow the world.** A mission that says "hull loss at most N points" gives you **1.5 times N in Beta and 2 times N in Gamma** (Alpha as it was), 42 missions in all.
-- **Clan Dungeons v2: the Warlord's room opens when 75 % of the Crystalys and their Twins are destroyed:** **34 of the 45** for a party of 5 (0.5.2: 177 of the 235 aliens). The other aliens stay and can still be destroyed.
-- **Boosters drop by kills:** **ten drops** in a run, one at every tenth of all the aliens destroyed, each offering **three kinds drawn at random from five** (Damage, Hull, Shield, Speed, Shield Recharge), at most **15 %** (stage 2) and **30 %** (stage 3).
-- **Packs wake and attack at 4 cells** (they woke at 6). **The Zone of Chaos follows the Warlord**, so no laser reaches him from outside it. **The Rocket barrage hits four times as hard:** **26,000** at stage 1 (6,500). **The Dark Matter card gives twice as much:** **10 / 16 / 24** at stages 1 / 2 / 3 (5 / 8 / 12).
-- **Global chat is one chat for every server and every world** (with the new game, a pilot's name card also says his server).
-- **Choose the server before you log in (needs the new game):** the rows of the start card are clickable, and the game remembers the pick for the main server you play on.
-- **The sidebar lists every page again** (the More row of 0.5.2 is gone), **the icon rail is 48 pt wide** (56), **Launch is back in the header of every page**, the Dashboard's included, and **the first-flight tour card no longer flickers or jumps** (all need the new game).
+- **Galaxy Gates: six gates, and the Chrono-Gate needs 2 parts (100).** A spin costs **100 Thulium** (5) and finds a gate part with a **13 %** chance (10 %). The part is of one of six gates, each equally likely: the Chrono-Gate and the five solo gates Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege and Omega Vault (a sixth of the 13 % each, 2.17 %). The Chrono-Gate takes about 9,100 Thulium on average to complete, every season (we aimed at about 10,000); the five solo gates need 11 / 26 / 54 / 87 / 108 parts. After 24 spins without a part the chance rises with every spin, and after 47 spins without one the next spin is certain to find a part. The Chrono-Gate's parts reset at the wipe; the parts of the solo gates stay.
+- **A spin that finds no part pays a prize:** laser ammo of x2 or better, Tier II and III rockets, now and then a magic item or a skin case. Every spin is charged, a complete Chrono-Gate included.
+- **Solo gate runs have waves and no timer on a wave.** You fly a gate alone, in an arena of your own, with three lives. Every wave starts after a 5-second countdown (the first and the boss's too), ends when its last alien dies, and your progress is saved after each wave. Delta (wave 18) and Omega (wave 17) have one optional N.U.K.E. wave of 250 Seekers that you may skip during its countdown (a skipped wave pays nothing); Omega's waves 22 to 24 are elite (50 % more hull, shield and damage). You can leave a run and resume it later at the saved wave; a wipe ends a run that is open and gives its parts back.
+- **Every solo gate ends with one boss.** The bosses of Beta, Gamma and Omega change phase at set hull levels (50 %, 50 %, and 70 % and 35 %) and cannot be hurt for 3 seconds between phases. Alpha's Enhanced Phantasm shoots; Beta's Enhanced Bulwark fires four Dormant Lances in its second half; Gamma's Elite Crystalys calls ten Goombahs; Delta's Siege Construct drops meteors and fires six Lances; Omega's Guardian calls Bulwarks and Phantasms, blasts a ring and, at the end, enrages.
+- **A cleared solo gate pays its table, once** (credits, XP, honor, Thulium, the gate's ore, plates, Power Cores and ammunition; the table is below), and the items are Marketable like a drop. The Thulium obeys the cap on the gates (half of what you spent on spins), so it is cut to what is left and the result shows the part that was cut. The parts of a gate are taken when you first Enter. A crash cannot lose a clear: the server pays a cleared run it finds unpaid.
+- **The aliens you kill in a solo gate pay as they do in Alpha.** Every alien of a wave pays at its Alpha figures when your stint ends (a leave, a death, an abandon or a log-off; not a wipe or a server restart), and a wave pays for its aliens once for a run however often you leave and resume it; the boss's adds pay nothing. The kills count for no quest and no kill statistic; their XP counts for your rank like any XP. In the per-map statistics every solo gate counts as one entry, Solo Gates.
+- **Eight new achievements:** one for each of the five gates, one for clearing all five, one for a clear with no death and one for a clear at or under a gate's shortest time (10 / 15 / 25 / 35 / 50 minutes). The two challenges (no death, the clock) give an achievement each and no Thulium.
+- **The Galaxy Gates page shows all six gates.** A new Solo gates tab has a card for each solo gate: the parts you hold of the parts it takes, the chance a spin finds one, the average Thulium a part costs, the minutes a run takes, its lives and the Thulium its cap still lets it pay, with Enter, Resume and Abandon (Abandon asks first and says the parts are lost; when the server refuses, its reason shows under the button in your language). To Enter you must be flying (launch first) and out of combat; there is no launch-and-enter. The Chrono-Gate's ring has a segment for each of its parts, the spin shows the real chance of a part and your guarantee (the spins without a part against the spin where one is certain), and a 5x, 10x or 100x spin lists the parts it found gate by gate and what the spins without a part paid. The page's texts, the help cards and the Dashboard say 2 parts for the Chrono-Gate in all 13 languages, and take the number from the server.
+- **Inside a solo gate a Solo gate window opens by itself** (right column under the system toolbar, movable and shut with its red light, with a toolbar button while you are in a run): the gate, your three hearts, "Wave 4 of 14" and the aliens left, the time in the arena against the gate's minutes (information: there is no time limit), the 5-second countdown to the next wave, the boss's name, phase, hull and shield, and a card with seconds running down for each move it telegraphs (blast ring, meteors, rockets, a rocket locked on you, reinforcements; the rings are drawn on the ground and the arena's edge is lit on the minimap). It has Skip (only for the optional N.U.K.E. wave), Leave, and Abandon, which asks first and says the parts are forfeited and what the run already paid stays yours. A cleared wave is a toast.
+- **When a run ends or pauses, a result sheet shows how it ended:** waves cleared of N, deaths, time, the rewards (kills, completion, the Thulium the cap trimmed, credits, XP, honor, items and ammunition), the two challenges of a clear, and Resume when the run can be resumed. A result you missed (the game was closed) is shown once when you sign in.
+- **The Pilot Skill Tree: 18 stats that level from 1 to 100 by what you do.** Fighting trains Laser tech and Grit, picking up cargo trains Instinct, collecting from your Skylab trains Extraction, and so on; nothing is spent or chosen, and nothing is capped. The levels belong to you, not to a ship, and they survive every wipe. Everybody starts at level 1 in every stat: a laser does 80 % of its damage and hits 80 % of the time, a rocket does 80 % and is a dud 20 % of the time, so a new pilot does 64 % of the numbers on the item pages (110 % damage, 90 % hits and no duds at level 100). Hunting pays less at first: a level 8 Goombah hunter nets about 147,776 Credits an hour at level 1 against 249,181 before (worked out on paper).
+- **What the levels do to your ship (at level 100).** Heft adds 10 % hull, Thruster theory 15 % speed (an Afterburner multiplies on top) and Instinct 5 points of loot chance (on top of the Loot Luck booster); the Hangar tile, the pilot sheet and the ship in flight agree. Evasion adds up to 15 points to the 3 % chance to dodge of a pilot's ship and of a formation's. Grit takes up to 10 % off every hit (with a Diminisher 0.25 x 0.9 = 0.225), and the number a beam shows follows it. A level of Heft, Thruster theory, Instinct or Evasion reached in flight reaches the ship at once, and a full ship stays full when Heft levels up.
+- **What the levels do to your abilities (at level 100).** Reflex makes the item and design abilities cool down 11.1 % faster (90 s is 81 s). Tactics makes them last 20 % longer (an Afterburner 18 s), and a Shield Surge, an Emergency Repair and a Venom give 20 % more over the longer time. Sabotage makes a Venom and a Toxic rocket deal up to 30 % more, a poison over up to 20 % more time. Marksmanship makes a Mine fly up to 15 % farther and faster; it changes nothing else, lasers and rockets are not affected. Reflex, Tactics, Grit and Sabotage read the level when an ability is used or a hit lands.
+- **Rocket tech.** A rocket deals 0.80 of its damage at Rocket tech level 1, up to 1.10 at level 100, on top of the drone formation: the formation's x1.59 limit is on the formation's bonus alone. A rocket you fire can be a dud, with a chance of 20 % at level 1 falling in a straight line to nothing at level 100: it costs the rocket, the shot and the wait, flies nowhere and tells you "Your rocket misfired." with a toast (the Support Rocket and Flares never misfire). Rocket tech pays 0.15 XP for a launch and 0.30 for a hit, 130 rockets an hour at the full rate.
+- **Radiation tech.** It takes the dose of the black hole, of the excavator's and the pulsar's circles and of the Unwakened's aura from the whole at level 1 down to 0.40 of it at level 100 (the Energetic Wall's strip is a weapon, not a radiation zone, and is not changed). It pays 1 XP per 5 seconds in a radiation zone and 1 per percent of the hull the dose takes.
+- **Instinct and Antimatter.** Every cargo box you pick up, by hand or with a Retriever, is 2 XP of Instinct, the first time you see an item of Rare or better 25 XP and every item of a quest claim 10 XP (600 XP an hour at the full rate). Antimatter pays 1 XP for 10 Dark Matter received and adds up to +25 % to the Dark Matter you pick up (+12.4 % at level 50): it is a channel of its own, the Resource Magnet Booster still adds nothing to Dark Matter, and at level 1 five N.I.K.E.s are still ten Dark Matter. A boxed Dark Matter is rounded with a random remainder, so the bonus is exact on average even on boxes of one or two.
+- **The hold.** The resources you pick up fill a hold (60 / 120 / 250 / 500 / 1,000 units by hull tier, full at 90 %); a full hold makes Heft pay 1.5 times the XP. Nothing is ever refused, and the Pilot window does not show the hold yet.
+- **Pilot skills follow you to the regional servers and through every wipe.** The skill XP you earn flying on Singapore or US East is added to your skills when you come home (a stat you used for the first time there is yours at Home, and the hourly soft cap you used up there goes with you). A wipe never touches your levels, and deleting your account deletes them. The Pilot screen of a pilot who flies on a node reads the node's numbers, with the XP his ship has earned since its last save.
+- **Pilot skills at Home: at level 100, Skylab output +30 % (Extraction), the Resource Storage's bank +40 % (Logistics), Assembly time -35 % (Fabrication), Research Centre science +25 % (Science), Shop prices -15 %, Auction deposits -50 % and Shop buy-back +10 % (Commerce), and Orvium and Velkonite +50 % more on the collectors (Instinct).** At level 1 none of these bonuses is active.
+- **The Pilot Skills page and the flight HUD.** The Economy group has a Pilot Skills page under the Skylab: the four attributes and the five groups of skills with their levels (a dash for a skill not used yet, except Laser tech and Rocket tech, which start below full strength and always show theirs), and on the right what the one you pick does, what it grows from, its XP bar and a slider from level 1 to 100 that shows each number at that level beside level 1, your level and level 100 (laser damage x0.80 at level 1, x0.95 at 50, x1.10 at 100). In flight a few small lines over the hotbar say the XP you earned every five seconds ("+1.2 XP - Laser tech"), a banner shows a level reached with the old and the new value of each number it changed ("Laser damage: x0.806 -> x0.809"), a skill's first XP is a toast, and a level is a line in the Game Log and a (!) on the sidebar row until you open the page. The cards of the laser, the rocket, the Hangar's Damage tile, its boosted hull and speed and the Boosters window have a "Pilot skills" line. 13 languages.
+- **Mines: a trap you throw, in three levels (8,000 / 20,000 / 50,000 damage).** Mine I is sold in the Shop for 100 Thulium. Mine II and III are made in Assembly (the table below has the recipes: a fee of 200 and 400 Thulium) after 3 and 6 hours of research (the tree has 181 technologies, and the Archivist wants 181). A Mine flies to the cursor (as far as your lasers reach), is armed 3 seconds after it lands and goes off once, with all its damage, under the first ship that flies over it: an enemy, an alien, a company mate, a groupmate or you. A ship inside its reach when it lands is spared until it has left that reach once. At most 3 per pilot, 3 minutes each, 8 seconds between throws, never where PvP is off.
+- **Mines and your skills.** Sabotage adds up to 30 % to a Mine's damage and Marksmanship up to 15 % to its throw range and speed (Marksmanship works on Mines only). A Mine hit on an enemy or an alien pays Sabotage and Marksmanship XP and no Laser tech, and the Energetic Wall's burn counts as a Mine hit for Sabotage.
+- **Your Mines are on screen.** They have a MIN slot in the hotbar and are drawn in space with their trigger ring (arming pips, a flash when one goes off). A game from before 0.5.4 does not show Mines in the Shop: update the game.
+- **The Shop shows what an order really costs, and has a Sell button.** With the Pilot Skill Tree's Commerce discount an order is priced once, on the whole order (1,000 Standard Batteries at 85 % cost 4,250, not 5 x 1,000): the total, Max, the "are you sure?" sheet and the wallet check now use that number. An item the Shop sold you and you still hold loose has a buy-back block under Purchase (how many, a stepper, what the Shop pays, Sell). The Shop buys back at 25 % of its price (27.5 % at level 100, never more than you paid) the loose units you bought in it: only what the Shop sold you counts, from this update on, never what you earned, crafted, bought from other pilots or were given; in flight never. Merging stacks keeps the Shop's units. The 5 % sale tax of the Auction and the real-money prices do not change.
+- **Clan dungeon aliens pay and drop like the aliens they are modelled on.** A Dungeon Goombah pays what a Goombah pays (15,000 Credits, 75 Thulium, 3,000 XP, 24 honor), a Dungeon Pirate what a Pirate Boss pays, a Dungeon Crystalys what a Crystalys pays and its Twin twice that, times the ratio of their hull and shield (**x1.5** in stage 2, **x2** in stage 3), and each kill drops the original's loot as a box at the wreck, every quantity times the same ratio. A full clear of the aliens of a stage 1 dungeon adds **13.0 million Credits and 54,150 Thulium** for a party of 5 on top of the clear (+52 % Credits, +271 % Thulium); the Warlord pays the clear as before, and the Goombahs it calls pay nothing. A pilot who was paid for the stage today, or has had all his paid clears of the week, is paid nothing for its aliens either, and neither is one who left or has been inside under two minutes.
+- **Clan dungeon aliens come out of the cell you fly into, one pack to a cell.** A pack of aliens is on the map the moment a pilot of the party is in its cell: fly into a new cell and its aliens are there at once, and the cell you fly into has one pack to meet and not the sum of several. None stands behind the walls, deep in the maze, waiting from the start (a tenth of the packs did). A pack does not wait for room under the limit of aliens alive at once, and a pack you leave behind stays where it is; the loot zones' waves still wait their turn. The rest of the dungeon is as it was: the door of the Warlord's room opens when three quarters of the Crystalys and their Twins are destroyed, and you now find them by flying through the maze. The time limits of a run stay at 95 / 130 / 165 minutes.
+- **Clan dungeons: rejoin as often as you like.** A pilot who was destroyed (by the Warlord or by anything else), logged off or left can fly back into a dungeon that is on again and again; there is no limit any more (it was 3 times). The 20 seconds between two returns stay.
+- **Penetration Amps: 5 / 10 / 15 / 20 points** (3 / 6 / 9 / 12). The best laser now takes **85 points** off a shield (61 before), so it pierces an alien's 80 % shield whole.
+- **Ironclad hull 500,000** (600,000). **Hull Plating I / II / III add 8,000 / 15,000 / 25,000 hull** (5,000 / 10,000 / 15,000): a full set of III nearly doubles the hull of the small crafted ships (+97.7 % on a Paragon or a Wraith).
+- **Hybrid Generators (Adaptive Core I / II / III): speed +1.5 % / +2.5 % / +3 %** (1.2 % / 1.6 % / 2 %).
+- **Helios Beam: base damage 155** (150).
+- **Engines: base speed bonus 5 / 10 / 15** (2 / 4 / 6). The fastest builds gain about 10 to 13 %: Storm 875, Ironclad 871, Wraith 859 (793, 773, 774).
+- **Blast rockets hurt 66 % of their centre damage at the edge of the blast** (50 %). The six Ember and Scatter rockets (I to III); the N.U.K.E. keeps its 50 %.
+- **Shield cells hold and absorb more.** Absorption cells: 2,000 / 4,000 / 6,000 / 8,000 capacity and 6 / 8 / 10 / 12 % absorption (1,500 / 3,000 / 4,500 / 6,000 and 4 / 6 / 8 / 10 %). Capacity cells: 4,000 / 8,000 / 12,000 / 16,000 and 3 / 4 / 5 / 6 % (3,000 / 6,000 / 9,000 / 12,000 and 2 / 3 / 4 / 5 %). The best shield out of the box is **91 %** (85 %).
+- **Repair Drone I to IV repair 2 / 3 / 4 / 5 % of the hull a second** (1.5 / 2.25 / 3.5 / 5 %).
+- **Energetic Wall: 100,000 / 250,000 hit points** (30,000 / 90,000). It still lasts at most a minute.
+- **Cluster Chunks drop from every rock.** Regular: 0.5 / 1 / 2.5 / 5 / 10 % at tiers 1 to 5 and 20 % from the Motherlode (0 / 0.4 / 0.8 / 1 / 1.2 % and 25 %). Mythical from tier 3: 0.35 / 0.5 / 1 % and 5 % (0.15 / 0.25 / 0.3 % and 8 %). Legendary from tier 4: 0.1 / 0.5 % and 3 % (0.03 / 0.1 % and 3 %).
+- **Facets pay what a Phantasm pays:** 3,000 Credits, 12 Thulium, 300 XP and 6 honor in Alpha, and their kills count.
+- **The Tesseract has no top-dealer box.** Every pilot its kill pays gets a private box with his share of: Reinforced Hull Plates (3 to 10), Velkonite Reinforced Plates (66 %, 7 to 12), Orvium Reinforced Plates (50 %, 3 to 5), Power Cores (66 %, 4 to 7), Ancient Control Units (1 to 4) and **10 to 20 Dark Matter, 5 at most for each pilot**.
+- **Support Rocket: a guided heal of exactly 100,000 hull for one friend.** It is no area rocket any more: select a pilot of your group or company (company pilots included) and fire; it flies to them and repairs their hull by 100,000 on contact (never above the maximum, the shield is untouched, the Repair Drone is not interrupted). It only ever flies at a friend: with nothing selected, or an enemy, an alien, an asteroid or yourself selected, the press is refused and nothing is spent (no rocket, no timer). A friend with a full hull is refused and nothing is spent.
+- **Gravitational N.U.K.E.: a black hole in the middle, and it pulls ships that do not move.** The well now has a black disc, a turning accretion disk and a thin bright ring, drawn under the ships. A ship that is parked at its destination is dragged to the centre and its destination goes with it (until now only flying ships felt the pull); company pilots are pulled too, and in a clan dungeon the pull cannot drag a ship through a wall. In a solo gate the well also pulls the run's aliens, so a wave can be clumped for a N.U.K.E.; a clan dungeon's aliens are not pulled. Radius, pull and the 15 seconds are as before.
+- **The special rockets are researched behind the normal rockets.** Freeze, EMP, Toxic, Marking and Cooldown behind Lancet III, Shield Breaker behind Rivet III, Support behind Scatter III (3.5 hours of Tier II and III research first, 7.5 to 11.5 hours from nothing). N.I.K.E., N.U.K.E. and the Gravitational N.U.K.E. keep their places. Pilots who already have a special keep it and can still craft it.
+- **The in-game windows work on a regional server, or say what to do.** In flight on Singapore or US East the Ranking window shows your real ranking (read from the main server); Assembly, Auction and Clan are dimmed and say to use Return to Base; the Hangar says it is locked; the Auction no longer claims the server is "older than the Auction".
+- **Skylab Radar Module: the queue holds 3 cells at level 1, 5 at level 2 and 7 at level 3** (3 at every level).
+- **Davidski is tougher and pays 15 % more:** hull 931,250, absorbance 90.85 %; 1,830,000 Credits, 4,875 Thulium, 292,500 XP and 1,275 honor a kill in Alpha (1,590,000, 4,275, 255,000, 1,110). On paper a group needs one more pilot in Gamma (9, 8 before), and a group that kept every ship before may lose one now.
+- **Interface size: a slider in Settings › Interface, and Ctrl and + / - / 0 (Cmd on a Mac) as before.** 75 % to 200 % in steps of 5 (the keys step by 10), saved with your pilot: the size is no longer lost at every start. A window applies as much as it has room for, because the HUD is laid out for 1024 x 576 points: 125 % in a 1280 x 720 window, 185 % in a 1920 x 1080 one, 200 % from 2048 x 1152; a bigger window or fullscreen gives your size back, and the help line under the slider says how far this window goes.
+- **The Group window is more compact.** A member who flies has a 30-point row instead of 44 (instead of up to 77 when a title and a target were shown): the name, level and distance on the first line, the thin hull and shield bars under it. A member who has docked, was destroyed or is away has one short line of 22 points. Ten members now fit without scrolling from a 1280 x 720 window. A mate's target is a small mark, its name when the window is wide enough and two thin bars at the right end of the bars, and a row is as tall and its bars as long with a target as without. The title follows the level when there is room (the card always has it).
+- **The rockets rework's items and the Mines have their own icons.** The ten special rockets (Freeze, EMP, Shield Breaker, Toxic, Marking, Cooldown, Gravitational N.U.K.E., Support, Flares and Ricochet) and the four Rocket Launchers (II to V: a rack of two, three, four and five tubes) are pictures of their own in the Shop, Assembly, the Hangar, the hotbar and the wiki, each in the colour the rocket has in flight and with a nose of its own (an ice crystal, a copper coil, an hourglass, a target ring, a green cross, a bundle of flares ...). Each Mine has an icon in the colour of its marker (amber, orange, magenta-red): a domed armoured mine with lit seams, fuze pegs and a lit lens, the II with twelve pegs and blades round its base, the III with a cage of talons round its lens.
+- **Reflex pays when the work is done.** A craft pays its Reflex XP when you collect the job, and a jump when the ship arrives, not when you press, so pressing and cancelling earns nothing.
+- **The in-game wiki has two new pages, Pilot Skills and Solo Gates, in 13 languages.** Pilot Skills is the 18 stats with their level 1 and level 100 figures, the XP that pays each and what is kept at the wipe; Solo Gates is the six gates with their parts, the guarantee, the waves, the bosses, the pay and the eight achievements. The tables are written from the server's files, so they follow every later change. Combat, Abilities, Speed, Cargo, Dungeons, Wipe Timeline and Resources say what the tree and the 2-part Chrono-Gate changed.
 
 **If you already play: what changes for you**
-- **The server and the game update together.** The new numbers (rockets, Dungeons, mission limits) are the server's; the new words and screens are in the game. The release puts the new server and the new game on the table at the same moment.
-- **Home and the regional servers update together,** and **the new game is needed for** Davidski's song, the server picker, the hover card's server row, the sidebar, Launch and tour changes (below) and the new Dungeon words. The relay of the Global chat pairs servers of the same build only.
-- **Update the game.** A 0.5.2 game can still log in and fly on a 0.5.3 server, but it is not a supported pair: the game and the server go live together. It files Tier II and III rockets in the row of the craft-only rockets, and knows nothing of the Rocket Launchers, the two cooldowns and the new special rockets; see "What a 0.5.2 game sees on a 0.5.3 server". Only chat was looked at with a released 0.5.2 game, on a scratch server of the chat work: signed in at Home, it showed a line of a pilot of another server in its Global tab like any Global line, without the server's name, and its tip still says "every pilot online".
-- **The update moves no Credits, Thulium or items.** No rocket stack is removed. Your Tier II and Tier III rockets keep their ids, and their stats move up one step (an old Tier II rocket now hits like the old Tier III).
-- **Shop and rocks.** Shop prices: Tier I 1,000 credits; Tier II and III are no longer in the Shop. Three rocks of the first ring have more hit points (Pebble 11,500, was 8,500; Cobble 11,500, was 10,000; Glimmer 12,500, was 9,000), because the rock floor follows the strongest shop rocket; the pay of the rocks and of the eight rock-breaking missions was struck again (see "Mining and rocks"). Mining with Tier II or III costs more per hit than before, because they are crafted (see the known limits).
-- **The Pirate Boss's rocket changed.** On `x-3` maps it fires Rivet II, which pierces 0.35 (0.25) and reaches 990 (1,000); on `x-2` maps it fires Rivet I, which pierces 0.25 (0.05) and reaches 1,000 (970). In the model (level 8 Paragons, Alpha, x2 ammo), a lone Paragon no longer wins the fight on `x-3`, two Paragons win it safely. The Dormant Pulses' Rivet II reaches 990 (1,000) too.
-- **The Skylab Rocket Factory still makes Tier II and III without crafting.** The Dormant Force's box still holds 30 to 50 of one Tier III rocket (one of the four families, drawn at random), and a N.I.K.E. or a N.U.K.E. half of the time, and the Boss Crystalys's box 8 to 15 of one Tier III rocket, as before; none of the ten new special rockets drops from an alien. The rocket boxes of the Pirate, Seeker, Phantasm and Goombah Bosses now draw from the four Tier I only (from the eight Tier I and II before). The Auction's rocket lots are all Tier I now; the day is worth about 339 M credit-equivalents (273.75 M before).
-- **Achievements are off on regional servers.** A flight from Singapore or US East unlocks no achievement; fly from Helsinki for them.
-- **A Dungeon that is open when the server updates ends** with the restart, as for any restart; its price goes back to the clan bank. The boosters of a run end with it and nothing is saved.
-- **Mission limits.** A mission you are doing when this goes live takes the bigger limit the next time you log in or move on a step, and keeps the hull points you have lost so far. Nothing restarts. A timed mission keeps its clock. If you change world at a wipe with a hull-limited mission under way, you get the limit of the world you fly in then; the points you have lost stay. The mission card, the "Hull limit" pill and Active Quests ("Hull damage: taken / limit") show your world's numbers; the briefing text of a mission still names Alpha's number, as the briefings of the timed missions name Alpha's minutes, and the numbers in the wiki tables are Alpha's.
-- **Global chat: the rules are the same** (200 characters, 5 lines at once and then one every 2 seconds, the pauses, no links, no repeats, the alphabet). They run on the server you play on, before your line leaves it: a line the rules refuse, or that comes while you are paused, is shown to nobody. The main server also holds each pilot to one allowance of his own for the lines that come from the regional servers, so changing servers does not give a fresh one.
-- **Ignore, Hide Global and Report work for a line from another server** as for any line (they follow the pilot, not the server). Report is still refused while you fly on a regional server (the report sheet shows the refusal): dock first.
-- **A line from another server comes a moment after it was said,** and two lines said at nearly the same time on different servers can appear in a different order on different servers. Your own line shows at once. There is no history: you read what is said while you are connected; nothing is stored for later and nothing is replayed when you arrive. If a regional server cannot reach the main server, its Global shows its own pilots until the link is back; a short break is made up late, and what was said during a longer one is not told afterwards.
-- **What stays on your server:** Local (the pilots on your map, in your world, on your server), Group chat, private messages (`/m`), the kill feed and the server's own System lines (restart and wipe countdowns, swarm announcements). A private message to a pilot who flies on another server says he is offline, as before.
-- **Global chat is shared by all of our servers.**
-- **Choosing the server.** On the start card the server rows are clickable, signed out and signed in; a server that is down, updating, full or of another version is dimmed and cannot be picked, as in the Launch sheet. Home's row is the choice until something else is picked. The pick is saved on your computer for the main server you play on, so a pick made at one main server does not apply at another after "Change server", and applies again when you are back. If you flew from Singapore in 0.5.2, that choice is adopted once, at your first sign-in, when nothing was ever picked on this computer.
-- **If the picked server cannot take you,** you fly from Helsinki and one line says why: "Singapore is not open right now (Full). You fly from Helsinki instead." (on the start card, in the Launch sheet, and as a toast when the flight starts). If the list could not be read at the launch, you fly from the home server and a toast says "Could not check the servers. You fly from the home server instead." A server that is down or full stays picked and is used again when it opens.
-- **Sidebar.** Every page is in the list again, as in 0.5.1, for every pilot and with or without the tour. The `sidebarMore` setting that a 0.5.2 game saved stays in your settings and does nothing, so a pilot who had shut the fold sees all pages again.
-- **Launch.** The header's Launch button is on every page again, the Dashboard's included. The active ship's card on the Dashboard keeps its own Launch, so the Dashboard has two.
-- **The tour.** The card of the flight tour keeps its side, ignores a small wobble of the thing it points at, and for a thing that moves (the nearest Seeker, your target) docks above the hotbar, so it no longer flickers or jumps.
+- **The server and the game must update together.** All the numbers above are the server's; the wiki, the Help cards, the item texts and the Hangar tips are in the game, so a game that has not been updated still shows the old numbers next to the new ones. A 0.5.3 game against the 0.5.4 server would draw the special rockets' research cards on top of each other, would let you aim the Support Rocket at enemies (the server refuses it), is refused the Galaxy Gates spin ("Update the game to spin the Galaxy Gates.", nothing is charged), has no Solo gates tab and no Pilot Skills page (it still flies with the Pilot Skill Tree's level 1 numbers, which it cannot see), and is not shown the Mines in the Shop.
+- **Your Chrono-Gate parts are reset.** The Chrono-Gate takes 2 parts now (it took 100). At the first start the parts of the old gate are dropped: if you held 1 to 99 of them you start the new gate with none; if you had completed the old gate you keep a complete gate (2 of 2) and your Transport Cache. The parts of the five solo gates start at none.
+- **The Pilot Skill Tree starts you at level 1.** Every pilot starts at level 1 in every stat: lasers and rockets do 0.64 of today's damage (0.80 of the damage, and 80 % of the laser shots hit; one rocket in five is a dud), so income and fights are lower on the first day. With use a laser climbs to 0.99 of today's output at level 100 (110 % damage, 90 % hits) and a rocket to 1.10 (no duds), and the levels survive every wipe.
+- **The update moves no Credits, Thulium or items.** Every Penetration Amp, shield cell, Engine, Adaptive Core, Helios Beam, Repair Drone, Hull Plating and Energetic Wall you own keeps its id and takes the new numbers when the server starts; the buffs you forged on them are multipliers and keep working on the new values.
+- **Your ships keep the hull points they had.** A ship's hull is saved as a number, so a ship with plates, whose maximum has just gone up, reads below full until you repair it. The Ironclad's maximum falls from 600,000 to 500,000: an Ironclad saved above that is cut to 500,000 when it launches and flies full. The Hangar and the Dashboard may show a docked Ironclad above its maximum (600,000 / 500,000) until it flies; that is read from the code, not looked at in the game.
+- **Your shield sets are stronger without a change from you.** A Heavy Shield Core with three Absorption Shield Cell IV is 91 %; with the new Penetration Amps in the other pilots' lasers, the best x4 laser leaves it 6 points (24 before); an Antimatter laser, 95 points, leaves it none. Look at your loadout against what other pilots can fit.
+- **Rocks pay Cluster Chunks from the first ring on.** Nothing is paid back for rocks you broke before; the chances apply to every break from the restart.
+- **Davidski is tougher and pays 15 % more** (see the Highlights); on paper a group needs one more pilot in Gamma and up to two more to lose no ship.
 
-**What a 0.5.2 game sees on a 0.5.3 server**
+**The Galaxy Gates and Mines in numbers**
 
-A 0.5.2 game can still open the Dungeon window and enter a Dungeon (no new feature gate was added), and nothing crashes. It reads the server's numbers, but it has the 0.5.2 words:
-- The door's objective line still says "Destroy 75 % of the aliens to unlock the boss room (N left)". N is right: it counts the Crystalys and their Twins the door asks for.
-- The alien count in the window reads the older pair (all aliens killed of all sent, the loot waves included), not the plan-wide count.
-- When a booster window offers Shield or Shield Recharge, the game does not know the kind and shows a card named "Booster" with "A temporary booster"; with three kinds offered there are none, one or two such cards. Picking works.
-- The window still draws the party list (the server still sends it), the Zone of Chaos ring is drawn at the place the server last told, up to a second behind the Warlord, and the wiki page of Dungeons shows the old numbers (the wiki is part of the game files).
-- The Dark Matter card shows the new numbers on the vote screen, which reads the server's.
-- Chat: a line from another server shows like any Global line, with no server name; the Global tab's tip is the old one.
-- Server choice, sidebar, Launch and the tour card: they are in the game, so a 0.5.2 game keeps the 0.5.2 start card (rows read only; the choice is in the Launch sheet), the More row, the Dashboard without the header's Launch, and the old tour card. It reads the same `client.json` as the new game and keeps the new key when it saves.
-- Mission limits: the numbers are the server's.
-- Rockets (read from the 0.5.2 game's code): the game takes every rocket with no Shop price for a craft-only rocket, and Tier II and III have none now. It lists them in the row of the craft-only rockets (with the N.U.K.E. and the N.I.K.E.), marks them "craft only", and its Auto-Rocket CPU does not fire them. It has no code for the Rocket Launchers, for the shared special cooldown or for the cooldown of each special rocket (it has one 3 s rocket timer, so it can offer a shot the server then refuses), and it draws none of the effects of the new special rockets (the gravity well, the Support pulse, the puff of Flares, the rings under a ship). The server holds the real rules.
-
-The release puts the new server and the new game on the table at the same moment, so this is a window for a pilot who has not updated yet, not a state to plan for. (These lists are read from the 0.5.2 game's code; nobody has flown a 0.5.2 game on the whole 0.5.3 server.)
-
-**The rockets**
-
-The tiers (damage per hit, lowest to top, from `Rockets.json`):
-
-| Family | Tier I | Tier II | Tier III |
-|---|---|---|---|
-| Lancet | 3,500-4,200 | 5,200-6,200 | 7,300-8,700 |
-| Rivet | 4,500-5,250 | 7,000-8,000 | 9,800-11,200 |
-| Ember | 2,400-2,900 | 3,500-4,500 | 4,900-6,300 |
-| Scatter | 3,000-3,500 | 4,500-5,500 | 6,300-7,700 |
-
-Crafting (the signature material: Lancet Nyxite, Rivet Daraxium, Ember Cataclysite, Scatter Quorvium). Each Tier II and Tier III rocket has a research technology (Tier II 30 min, Tier III 3 h, and it asks for the Tier II of its family).
-
-| Craft | Needs | Credits | Thulium | Time |
-|---|---|---|---|---|
-| Tier II | 100 Tier I, 5 Ship Fragments, 10 signature material | 50,000 | 200 | 120 s |
-| Tier III | 100 Tier II, 15 Ship Fragments, 2 Reinforced Hull Plates, 20 signature material | 150,000 | 800 | 300 s |
-
-The Rocket Launchers (permanent; the ship's own launcher fires one rocket, then the normal rockets wait 3 s):
-
-| Launcher | Rockets a press | Wait after the press | Research | Craft | Thulium |
-|---|---|---|---|---|---|
-| Rocket Launcher II | 2 | 5 s | 48 h | 8 h | 150k |
-| Rocket Launcher III | 3 | 5 s | 96 h | 12 h | 400k |
-| Rocket Launcher IV | 4 | 5 s | 168 h | 16 h | 900k |
-| Rocket Launcher V | 5 | 5 s | 240 h | 24 h | 2M |
-
-Each launcher also asks for materials: II 300 Ship Fragments, 50 Reinforced Hull Plates, 30 Power Cores and 5 Ancient Control Units; III 800, 120, 80 and 15; IV 1,800, 250, 160 and 30; V 4,000, 500, 300 and 60. The shots of a press are 0.15 s apart.
-
-The ten special rockets (each has its own cooldown, and all of them share the 5 s special cooldown):
-
-| Rocket | Own cooldown | What it does |
-|---|---|---|
-| Freeze | 30 s | the target's speed is cut by 60 % for 4 s |
-| EMP | 30 s | for 3 s the target can fire no laser, launch no rocket and press no ability |
-| Shield Breaker | 15 s | 5,000 hull damage, or 25,000 to the shield while any shield is left |
-| Toxic | 20 s | 5 s of poison, 0.5 % of the hull and shield together a second, taken from the hull |
-| Marking | 30 s | +20 % damage taken for 5 s |
-| Cooldown rocket | 60 s | ability and timed-item cooldowns run at half speed (for 8 s) |
-| Flares | 60 s | 25,000 credits, stack of 20: breaks every guided rocket locked on you |
-| Ricochet | 3 s | 4,000 credits: 75 % of the damage jumps to a second ship |
-| Support | 120 s | placed at the cursor: heals the ships within 500 units of where it bursts (you, your group and your company) by 40 % of their hull and shield |
-| Gravitational N.U.K.E. | 120 s | a gravity well at the cursor for 15 s that pulls ships and guided rockets; one per map |
-
-Flares and Ricochet are sold in the Shop and have no recipe or technology. The other eight are crafted in Assembly (one craft makes the number in the second column) and each has a technology of its own:
-
-| Rocket | One craft makes | Needs | Credits | Thulium | Time | Research |
+| Gate | Parts | Credits | XP | Honor | Thulium | Shortest time |
 |---|---|---|---|---|---|---|
-| Freeze | 5 | 10 Ship Fragments, 30 Cataclysite, 1 Power Core | 50,000 | 1,000 | 300 s | 4 h |
-| EMP | 5 | 10 Ship Fragments, 20 Quorvium, 2 Power Cores | 60,000 | 1,200 | 300 s | 4 h |
-| Shield Breaker | 5 | 15 Ship Fragments, 40 Cataclysite, 3 Reinforced Hull Plates | 80,000 | 1,500 | 300 s | 6 h |
-| Toxic | 5 | 10 Ship Fragments, 30 Nyxite, 10 Quorvium | 60,000 | 1,000 | 300 s | 4 h |
-| Marking | 5 | 10 Ship Fragments, 30 Daraxium, 10 Nyxite | 50,000 | 800 | 300 s | 4 h |
-| Cooldown rocket | 3 | 20 Ship Fragments, 40 Quorvium, 3 Power Cores, 1 Ancient Control Unit | 100,000 | 2,500 | 600 s | 8 h |
-| Support | 3 | 20 Ship Fragments, 40 Nyxite, 20 Quorvium, 2 Power Cores | 90,000 | 2,000 | 600 s | 6 h |
-| Gravitational N.U.K.E. | 1 | 1 N.U.K.E., 40 Quorvium, 4 Power Cores, 2 Ancient Control Units | 150,000 | 3,000 | 900 s | 24 h and 10 Dark Matter |
+| Alpha Rift | 11 | 0.45 million | 70,000 | 1,000 | 5,000 | 10 minutes |
+| Beta Breach | 26 | 1.5 million | 180,000 | 2,500 | 12,000 | 15 minutes |
+| Gamma Foundry | 54 | 4 million | 400,000 | 5,500 | 25,000 | 25 minutes |
+| Delta Siege | 87 | 8 million | 800,000 | 10,000 | 40,000 | 35 minutes |
+| Omega Vault | 108 | 15 million | 1.5 million | 20,000 | 60,000 | 50 minutes |
 
-- **The Gravitational N.U.K.E.** is crafted from a normal N.U.K.E.; its technology asks for the N.U.K.E.'s, which now asks for Scatter III (the N.U.K.E. is crafted from Scatter III). It cannot be sold at the Auction.
-- **The client shows** the gravity well, the Support pulse, a puff when Flares break a lock, and a ring on a ship under Freeze, EMP, Toxic, Marking or Cooldown.
+The Chrono-Gate takes 2 parts. "Shortest time" is the clock challenge: a clear at or under it gives an achievement. The pay is the clear's; the aliens pay on top, as they do in Alpha.
 
-**Mining and rocks** (`quests.json` and `Asteroids.json`; Alpha's numbers. The rocks' file is struck on the Rivet of each ring: Rivet I on x-1, Rivet II on x-2 and x-3, Rivet III on x-4 and the Danger Sectors. Those rockets moved up a step, so the pay and the ore were struck again.)
-- **The eight rock-breaking missions pay less** (ids 149 to 156; the items they give are as before; the pay before in brackets):
+| Mine | Damage | How you get it |
+|---|---|---|
+| Mine I | 8,000 | Shop, 100 Thulium |
+| Mine II | 20,000 | Assembly: 2 Mine I, 3 Ship Fragments, 1 Power Core, 200 Thulium; 2 minutes; research 3 hours |
+| Mine III | 50,000 | Assembly: 2 Mine II, 8 Ship Fragments, 2 Power Cores, 1 Reinforced Hull Plate, 400 Thulium; 5 minutes; research 6 hours |
 
-| Mission | Level | Experience | Credits | Thulium | Honor |
-|---|---|---|---|---|---|
-| Rock Breaker (149) | 1 | 350 (400) | 2,000 | 5 | 4 |
-| Deeper Rock (150) | 2 | 300 (350) | 2,000 (2,500) | 5 | 3 (4) |
-| Heavy Stone (151) | 3 | 800 (1,000) | 6,500 (8,000) | 20 (25) | 8 (10) |
-| Armoured Seams (152) | 4 | 1,250 (1,500) | 6,000 (8,000) | 40 (45) | 12 (15) |
-| The Rich Border (153) | 5 | 3,000 (3,500) | 12,000 (14,000) | 90 (105) | 22 (26) |
-| Anvil Country (154) | 6 | 7,000 (9,000) | 25,000 (30,000) | 210 (270) | 52 (68) |
-| Danger Sector Lodes (155) | 7 | 13,000 (16,000) | 40,000 (50,000) | 325 (400) | 65 (80) |
-| Husk and Crystal (156) | 8 | 28,000 (36,000) | 70,000 (90,000) | 560 (720) | 140 (180) |
+**The numbers, in the order of the owner's list**
 
-- **Hit points.** Three rocks of the first ring have more: Pebble 11,500 (8,500), Cobble 11,500 (10,000), Glimmer 12,500 (9,000). The others keep theirs: Rime 12,000 and Cache Pod 14,000; x-2 rocks 12,000 to 26,000; x-3 24,000 to 66,000; x-4 48,000 to 130,000; the Danger Sectors 80,000 to 150,000, and the Motherlode 450,000. A rock has 1.5 times the hit points in Beta and twice in Gamma, and pays 2 and 3 times.
-- **Fewer rockets break a rock,** because the rockets hit harder. By the file's count of rockets of the ring's Rivet, the Pebble takes 3 (4 before), the Anvil 11 (18.2), the Ancient Husk 14.7 (22.2) and the Motherlode 43.3 (60.5).
-- **Pay.** Three rocks of the first ring pay more: Pebble 9,000 to 14,850 credits (6,600 to 11,100) and 3 Thulium 29 % of the time (22 %); Cobble 7,200 to 12,000 (6,300 to 10,500), 28 % (25 %); Glimmer 8,550 to 14,250 (6,150 to 10,350), 57 % (41 %). Four armoured rocks pay less: Ironhide 13,050 to 21,750 (13,650 to 22,650); Plateback 29,700 to 49,650 (31,650 to 52,800) and 6 to 18 Thulium (9 to 18); Anvil 70,650 to 117,750 (84,900 to 141,450) and 24 to 60 Thulium (30 to 72); Ancient Husk 103,950 to 173,250 (114,300 to 190,350) and 51 to 117 Thulium (57 to 129). The other 20 rocks pay what they did, give or take 150 credits and a few Thulium.
-- **Ore.** Every rock gives less ore: 13 to 37 % less on average, 27 % less for the middle one. The Anvil gives 9 to 18 Cataclysite (15 to 27), 3 to 12 Quorvium 89 % of the time (6 to 15) and 24 to 48 Ship Fragments (36 to 69); the Plateback 18 to 36 Ship Fragments (27 to 51); the Motherlode 51 to 96 Cataclysite (69 to 126) and 27 to 48 Quorvium (36 to 66); the Pebble 3 Daraxium 42 % of the time (49 %).
+**1. Penetration Amps** ("points" are points of the target's absorbance a laser hit slips past)
 
-**Clan Dungeons v2** (the designer's list and the owner's orders of 2026-11-08)
-- **The Warlord's room opens when 75 % of the Crystalys and their Twins are destroyed.** 0.5.2 asked for 75 % of all the aliens (177 of 235 for a party of 5), 0.5.1 for every Crystalys and Twin. Now it is three quarters of the Crystalys and their Twins, rounded up: **34 of the 45 for a party of 5** (the table below), the same in the three stages. The other aliens do not count toward the door, **none of them is removed when it opens**: they stay, wake, hunt you and can be destroyed. The objective line reads "Destroy 75 % of the Crystalys and their Twins to unlock the boss room (N left)", and the chip, the minimap, the toast and the wiki say the same. Once the room is open it stays open.
-- **The alien count in the window runs to all the aliens.** "37 aliens - 110 of 235 destroyed" counts every alien the dungeon was made with (the waves of the loot zones and the Goombahs the Warlord calls are not in it), goes on after the door opens and reads full when the last one is destroyed. Destroying the rest pays nothing extra: a run is still paid for the Warlord alone.
-- **Packs wake and attack at 4 cells.** A pack woke at 6 cells and attacked at 4; now both are 4 cells (3,200 units), so a pack that wakes is already after you. A pack that woke but has not come out yet goes back to sleep when none of the party is within 4 cells, and wakes again when one comes back. The pre-spawned packs, the cap on aliens alive and the hunt through up to 16 cells of corridor are as before. With a smaller radius you walk more to find the packs: a party may have to leave the loot route to reach three quarters of the Crystalys and their Twins.
-- **The Zone of Chaos follows the Warlord.** The violet ring (radius 900) now moves with the Warlord from the warning to the end of the 15 seconds, and the client draws it on the Warlord's ship. The longest laser reaches 900, so **from outside the ring no laser reaches the Warlord** while it lasts (rockets still can). Stay out of the ring, or fly out of it and let the Warlord follow. The 0.5.1 text "the ring stays there, pilots outside can fire into it" is gone from the hint and the wiki.
-- **The Dungeon Pirates' rocket reaches 1,000 (970).** Its damage (5,000) and rhythm (a rocket every 5 s) are as before.
-- **The Rocket barrage hits four times as hard.** A rocket does **26,000** at stage 1 (6,500), **32,500** at stage 2 and **39,000** at stage 3; a cast of three is 78,000 / 97,500 / 117,000. Its rhythm (a rocket every 15 s for 45 s, a cooldown of 120 s) is as before.
-- **Boosters drop by kills, not by zones.** There are **ten drops** in a run (stages 2 and 3), **one at every tenth of all the aliens destroyed** (24, 47, 71, 94, 118, 141, 165, 188, 212 and 235 of 235 for a party of 5). Each drop opens the 30-second window for every pilot, and it offers **three kinds drawn at random from five: Damage, Hull, Shield, Speed and Shield Recharge** (the same three for the whole party, and for a pilot who flies back in). A pick is **+1.5 %** at stage 2 and **+3 %** at stage 3 of its kind: at most **15 % and 30 %** in all, a kind alone may reach all of it. Shield is the ship's maximum shield, Shield Recharge how fast it refills. A pilot who does not answer gets Hull, or the first kind offered when Hull is not among the three. Stage 1 has none; no drop falls once the fight with the Warlord has begun, and one that was earned but not opened by then is lost. The loot zones no longer open booster windows. All ten need all the aliens: a party that stops at the door gets fewer (about 8 in the model, 6 to 9), a full clear gets all ten.
-- **The party list is gone from the Clan dungeon window.** The list of the party's pilots with a hull bar each is removed (the minimap still shows the party's dots). The lobby keeps a count and no names: "3 inside, 2 still missing".
-- **Twice the Dark Matter in the Dark Matter card.** The loot card gives **10 / 16 / 24** Dark Matter at stages 1 / 2 / 3 (5 / 8 / 12). How often the card is offered is as before (it is in an offer of three about 3 times in 10), the Dark Matter Plate card is not changed (1 / 1 / 2), and every paid pilot gets the card the party picks, as for every card. This Dark Matter cannot be sold at the Auction.
-- **Run lengths, in the model:** a party of 5 that opens the door and goes on to the Warlord takes about **33 / 55 / 62 minutes** (stages 1 / 2 / 3), a full clear about 38 / 64 / 72, against 32 / 51 / 58 as the 0.5.2 notes had it (the model now puts the 0.5.2 rule at about 32 / 49 / 57). The time limits stay **95 / 130 / 165 minutes** and the pay is as it was, except for the Dark Matter card.
+| Amp | Points | Before |
+|---|---|---|
+| Penetration Amp I | 5 | 3 |
+| Penetration Amp II | 10 | 6 |
+| Penetration Amp III | 15 | 9 |
+| Penetration Amp IV | 20 | 12 |
 
-The door by party size (the Crystalys and their Twins that must be destroyed, of all of them):
+- **The best laser at x4 damage:** Experimental Fusion Core 10 + Gemini 15 + three Penetration Amp IV 60 = **85 points** (61); with an Antimatter Battery (20 points, x3 damage) in the Fusion Core's place it is 95. An all-in forged laser reaches 94 (66.4); the everyday best (Ultra Core, Gemini) 80 (56); Fusion Core with three Amp IV and no formation 70.
+- **Against aliens:** an alien's shield absorbs 80 %, so the best laser pierces it whole; Fusion Core with three Amp IV keeps 10 points of it. Against pilots, see the known limits.
+- **Price:** unchanged (a Penetration Amp I is 15,000 Credits; the others are made from it).
 
-| Party | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|
-| Must be destroyed (75 %) | 27 | 34 | 41 | 48 | 54 | 61 | 68 |
-| Crystalys and Twins | 36 | 45 | 54 | 63 | 72 | 81 | 90 |
+**2. Hull: Ironclad and Hull Plating**
+- **Ironclad 500,000 hull** (600,000). **Ironclad DUMA 600,000** (720,000) and **Ironclad TITANIC 500,000** (600,000): the designs follow, as they are the hull times 1.2 and 1. Base speed, slots and everything else of the three are as before.
+- **Hull Plating I / II / III add 8,000 / 15,000 / 25,000** (5,000 / 10,000 / 15,000). Forged to Eternal, a Hull Plating III adds 28,750. A full set of III (every plate slot of the ship) adds **97.7 %** of a bare Paragon's or Wraith's hull, 97.2 % of a Storm's and 75.0 % of the Ironclad's 500,000; on the lighter designs it more than doubles the hull (+130 % on a Paragon THUNDER, +122 % on a Storm RECON, +108 % on a Storm NOTSUM). The rule of the design was "at most 75 %".
+- **The Pirate Boss has half the Ironclad's hull: 250,000 in Alpha** (300,000), 375,000 in Beta and 500,000 in Gamma, because the Boss is built as 50 % of the Ironclad. Its pay is unchanged, so a minute of fighting it pays 2.17 times a Goombah's (1.85). Worked out on paper, a trio of Ostirions on x2 ammo wins on `x-3` now (4 % hull left at the lowest; it lost, with 3 ships, before), four win in about 204 s, and a lone level 8 Paragon wins in 3.7 minutes with 18 % of its hull left (it was destroyed). Beta needs 5 pilots and Gamma 6 (5 and 7).
 
-**Missions: hull limits follow the world** (the owner, 2026-11-08: the timed missions give more time in Beta and Gamma because the aliens are harder; the missions that limit the damage you may take should do the same)
-- **Hull limits follow the world, like the time limits.** A mission that says "hull loss at most N points" (on the whole mission or on a step) gives you **1.5 times N in Beta and 2 times N in Gamma**. A 3,000-point carry is 4,500 in Beta and 6,000 in Gamma. Beta's aliens hit 1.5 times as hard and Gamma's twice, so you can now take as many hits as in Alpha (in Beta and Gamma you could take fewer before). Alpha is as it was.
-- **It covers all 42 missions that have a hull limit:** the carries, the holds, the tours and the Challenge missions (the five Untouched runs and the Convoys).
-- **The numbers on the mission card, the "Hull limit" pill and Active Quests ("Hull damage: taken / limit") are your world's.** The briefing text of a mission still names Alpha's number, as the briefings of the timed missions name Alpha's minutes. The numbers in the wiki tables are Alpha's.
-- **A server rule; the numbers need no new game.** The rule is `Tier::strength()` of the pilot's world (Alpha 1, Beta 1.5, Gamma 2) times the seed's number (`quest::world_hull_limit`, `world_hull_pct`; a percent limit stops at 90). `quests.json` and the model stay Alpha's. The wiki text about the limits (Conditions, Time limits, the note above the tables) is new in all 13 languages; it needs the new game to be read.
+**3. Hybrid Generators** (the in-game name is Adaptive Core)
+- **Speed bonus +1.5 % / +2.5 % / +3 %** for Adaptive Core I / II / III (+1.2 % / +1.6 % / +2 % before). The shield bonus of the cores (4 / 6.4 / 8 %) is unchanged. On its own this lifts a ship's best build by 0.4 % (Protos) to 3.0 % (Ironclad) and puts the Ironclad's best build (796) ahead of the Wraith's (793); in 0.5.3 the Wraith was ahead, 774 against 773.
 
-**Global chat between the servers**
-- **Global chat is one chat for every server and every world.** What you write in **Global** is heard by every pilot on Home and on every regional server (Singapore, US East), in Alpha, Beta and Gamma, in flight and at the station. Before, each server had a Global of its own, so a pilot in Asia and a pilot in Europe could not read each other.
-- **Which server is he on?** Rest the pointer on a pilot's name: the card that opens now also says **Server: Singapore** (or the server's name) when he flies on another server than you (needs the new game). There is no server tag in the line.
-- **"Invite to group" on a line another server relayed is disabled,** with the reason, in 13 languages: a group lives on one server.
-- **The words:** the Global tab's tip and the Help card for the chat channels say it in the 13 languages, and so does the wiki's Groups page.
+**4. Helios Beam**
+- **Base damage 155** (150); range 900, critical chance 20 % and slots as before. On paper a x1 volley of one Helios Beam with three Damage Amp IV is 314 on average (308).
+- **Skylab Defense Module:** the magazine of level 2 holds **4,300 rounds** (4,500) and level 3 **16,000** (17,000), because the Helios Beam shortens the kill the magazine is sized for.
 
-**Choosing the server before you log in** (needs the new game; the server is unchanged)
+**5. Engines**
+- **Engine I / II / III base speed bonus 5 / 10 / 15** (2 / 4 / 6). The speed bonus in percent (2 / 3 / 4 %), the shield cost, the slots and the Afterburner ranks are as before; no ship's own base speed changed.
+- **The fastest builds** (units a second; before in brackets): Storm 875 (793), Ironclad 871 (773), Wraith 859 (774), Paragon 713 (650), Ostirion 665 (605), Nomad 653 (594), Kitefin 552 (502), Protos 490 (445). The best Engine III is now three Momentum Thruster IV (63.3); Impulse was the leader before.
+- **The stock Storm** flies 284.45 (272.90) and leaves the black hole's pull from outside 906 units (924). The wiki's table of the black hole's escape has the new figures; the Help card's "about 900 to 2,500 units" is still right.
+- **Skylab expeditions are faster with every Engine module:** a hop with a bare Engine I takes about 31 hours (3 days 6 hours before), the middle build (three Engine II with two Impulse II each) about 24.5 hours across the field, the best kit 1.8 hours bare and 7.6 hours on a full Core 20 station. Trips already under way keep the hop they were given.
 
-The owner's complaint after 0.5.2: the start card listed the servers but the rows were read only, the choice existed only in the Launch sheet, and a pilot who signed in and went to the station had no list there.
-- **The start card (the Landing card):** the rows are clickable, signed out and in the "signed in as" state, under one line, "Choose the server you fly from" (13 languages). A server that is down, updating, full or of another version is dimmed and cannot be picked. Home's row is the choice until something else is picked.
-- **Remembered on the computer, for the main server it was made at.** The game keeps the pick in `client.json` (key `play_server_picks`), for the address of the main server you chose. A pick made at Home A does not apply at Home B after "Change server", and applies again when you are back at A. The pick is written at the click and read at the next start before any sign-in.
-- **The choice of 0.5.2 is adopted once.** A pilot who flew from Singapore in 0.5.2 has only the per-pilot choice. At the pilot's first sign-in, when nothing was ever picked on this computer, that choice becomes the pick of the main server signed in to. It is not copied to a second main server, and a click made on the card before the sign-in is more recent and wins.
-- **It applies everywhere you launch.** The Launch sheet opens with the picked row selected, and a launch from anywhere uses it. If the picked server is not in the list, is down, full or of another version, the launch is Helsinki's and one line says why and from where the flight is. A launch that does not start (the setup guard) toasts nothing. A Home with no list plays as before.
-- **It cannot nag.** The toast comes once for each (pick, reason) in a run; a new reason is told, and so is the same one after you pick the line again. A pick whose server is gone from the list is told and then forgotten at that launch, so a Home that lists only itself cannot hold a stale pick.
-- **A list that could not be read.** When the list is still unknown at the launch and the pick is not Home's, the flight is Home's and a toast says "Could not check the servers. You fly from the home server instead." (13 languages).
-- **The list stays in the station.** A sign-in keeps the list that is known and asks again at once (an administrator's staff lines appear); a sign-out and another Home drop it. The game asks every 5 seconds while the start card or the Launch sheet is on screen, once a minute while the station is shown (a conditional request, answered "not changed" when the list is the same), and not at all otherwise (flight at Home, other screens). In a window that cannot be seen (minimised, hidden, suspended) nothing is read and no server is pinged. A read that fails is repeated after 15 s, then 30 s, then 60 s, each wait a little longer by a share of up to 25 % that is the client's own, so the pilots of a Home that was down do not all come back in the same second.
-- **The rules stay:** a launch ticket goes only to a host on the list of suffixes the game accepts, your token goes only to Home, a 404 is no list, and Home alone is no list (no row is drawn).
-- **Not changed on purpose:** the sign-in (Login) screen has no list of its own, and the typed-address sheet and the Settings page are as they were.
+**6. Blast rockets** (Ember I to III and Scatter I to III: the I is sold in the Shop, the II and III are made in Assembly)
+- **The edge of the blast deals 66 % of the centre damage** (50 %). The fall-off is a straight line from the centre to the edge, so a ship halfway out takes 83 % (75 %), and the ship whose hull sets the blast off takes 95 to 97 % of the centre damage (93 to 96 %). The centre damage, the radius and the price of every rocket are unchanged.
+- **The N.U.K.E. keeps 50 %** (22,500 to 25,000 at its edge). The N.I.K.E. and every single-target rocket are not blasts.
+- **Rockets to kill an alien** (Alpha, average roll): ten of the twelve cells lose rockets (the Goombah's one each, the Crystalys's one to four). Goombah: Ember I 32 (33), Ember II 21 (22), Ember III 15 (16), Scatter I 26 (27); Scatter II 17 and III 12 as before. Crystalys: Ember I 166 (170), Ember II 109 (112), Ember III 78 (80), Scatter I 134 (136), Scatter II 87 (88), Scatter III 62 (63). The wiki's table has the same rows.
+- **A pack:** a Scatter III bursting over a pile of eight Phantasms deals 7.1 times its centre damage in all (6.7), and clearing the pile takes about a tenth fewer rockets.
 
-**The sidebar, the rail, Launch and the tour card** (needs the new game)
-- **The sidebar lists every page again, as 0.5.1 did,** on the owner's order of 2026-11-08. The More fold of 0.5.2 hid fourteen of nineteen pages from a pilot at level 1 and from every pilot while the tour ran; the owner wants the whole list in view for everyone, with no level or tour rule. The four groups (Command, Economy, Community, Library) have their headers and every page of them that the game lists for you, then Settings, Admin (admins only) and Sign out stay at the foot. There is no More row. The attention "!" is on the page's own row again. The keys, the Dashboard's Next-step card, the toolbar's ? guide, the window cascade and the one vocabulary of 0.5.2 are kept.
-- **The icon rail is narrower:** the sidebar folded with the panel button at the top is **48 pt** wide (it was 56). The attention badge on a rail row is a smaller disc on the row's top-right corner, clear of the icon; the rail's list has no scroll bar over the icons (the wheel still scrolls, and a fade at the foot says there is more). The open sidebar is unchanged. The page gets 8 pt more on the rail (936 pt at a 1024 wide window).
-- **The header's Launch is back on every page,** the Dashboard included. In 0.5.2 it was hidden on the Dashboard; at 1024 x 640 with the chat dock open, the wipe card and the Next-step card above the ship card (level 1) put the ship card's own Launch 18 pt under the fold, with no Launch left in view. The ship card keeps its own Launch. The tour's last station step points at the header's Launch on every page.
-- **The first-flight tour card no longer flickers or jumps** (the owner on the live 0.5.2: "flight tour fly panel flickers and jumps around all over the place"). Before, the card was placed again every frame from the rectangles of the thing it pointed at, and in flight those are never still. Now:
-  - **It keeps its side** while the side still fits, with 4 pt of slack, and forgets it when the card points at something else.
-  - **It ignores a small wobble:** a move of the card's place under 3.5 pt is not followed; a bigger one is.
-  - **A target that is not drawn** is held, ring and card, for 0.3 s in the flight (the station lets go of it at once).
-  - **For a thing that moves of itself** (the nearest Seeker, the target, the bubble over the station) the card docks at the bottom centre, above the hotbar when it is drawn, and only the ring goes after the thing. The card never stands on the ring (at least 10 pt clear): it moves to the top centre or a side when the ring comes down on it, and stays there until it must move again. A docked card on a moving thing has no arrow. In a window under 900 pt wide the card is full width and has only the bottom and the top.
-  - **The card's height** is the tallest its content has been in the step and is measured again when the width or the language changes; a new card is laid out in the frame it first shows, so there is no blank frame between two cards.
+**7. Shield cells** (the recharge of every cell is unchanged)
 
-**Texts and the wiki**
-- The Global tab's tip, the Help card for the chat channels, the wiki's Groups page and the reason on the disabled "Invite to group" entry are in all 13 languages. The wiki text about mission hull limits is new in all 13 languages.
-- The wiki page of Dungeons, the objective line, the chip, the minimap and the toast carry the new door and the new numbers.
-- The new rockets' texts have keys in the 13 languages (the rockets design notes).
+| Cell | Capacity | Absorption | Before |
+|---|---|---|---|
+| Absorption Shield Cell I / II / III / IV | 2,000 / 4,000 / 6,000 / 8,000 | 6 / 8 / 10 / 12 % | 1,500 / 3,000 / 4,500 / 6,000 and 4 / 6 / 8 / 10 % |
+| Capacity Shield Cell I / II / III / IV | 4,000 / 8,000 / 12,000 / 16,000 | 3 / 4 / 5 / 6 % | 3,000 / 6,000 / 9,000 / 12,000 and 2 / 3 / 4 / 5 % |
 
-**Needs the new game, and what does not**
-- **Needs the new game:** the server choice on the start card (the line "Choose the server you fly from" and the "Could not check the servers" toast are in 13 languages), the server row on a pilot's name card, the sidebar, the rail, the Launch button in the header of every page and the tour card; the new Dungeon words (the door line, the plan-wide count, the three booster kinds, the lobby count, the ring on the Warlord's ship); the drawings of the new rockets (the gravity well, the Support pulse, the puff of Flares, the rings under the status rockets); the new wiki and Help texts.
-- **Server only, live with the server:** the rockets' stats, prices, recipes and cooldowns, the launchers, the rocks' hit points, pay and ore, the pay of the eight rock-breaking missions, the Pirate Boss's rocket, the Auction's rocket lots, every Dungeon number, the mission hull limits and the Global chat relay.
+- **The best shield out of the box is 91 %** (a Heavy Shield Core, 55 %, with three Absorption Shield Cell IV, 12 % each; 85 % before). A Heavy core with Capacity Cell IV is 73 % (70 %).
+- **Past 100 %:** either source alone now passes it. The Shield Absorbance Boost bought to its limit (100 levels, +10 points) makes the best set 101 %, and an Eternal Forge roll at the top (+13.65 points) makes it 104.65 % (95 % and 97.75 % before).
+- **The best laser against the best shield:** the strongest laser (Fusion Core x4, Gemini, three Amp IV) takes 85 points off, so a 91 % shield keeps 6 points of every hit (24 before); a shield at 100 % keeps 15 (39) and one at 120 % keeps 35 (59). An Antimatter Battery II laser (x3 damage) takes 95 points off and pierces the 91 % shield whole; a 100 % shield keeps 5 points of it.
 
-**For administrators and the server**
-- **Clan Dungeons: no new table, column, route, setting or data step.** The only data that moved is `server/Resources/Dungeons.json` (written by `docs/design/dungeons-model.py --json`, never by hand), so `GET /api/admin/dungeons` shows a new `file.hash`. The file is read at the start and checked whole: a file that is there and wrong stops the start with nothing changed. `python -X utf8 docs/design/dungeons-model.py --check` was green on the Dungeons v2 lane's branch (run 2026-11-09; not run again on this note's branch).
-- **The file and the code belong together.** A 0.5.2 server does not know the door rule `eliteShare`: given the 0.5.3 `Dungeons.json` it fails to read the file and the start is stopped. A 0.5.3 server with the 0.5.2 file runs no boosters. A rollback brings the 0.5.2 image together with its own file. Server and game go live together (stage both, flip together).
-- **First days, the counters** (`GET /api/admin/counters?prefix=dungeon`; the healthy values are expectations from the rules and the model, not seen on a live server): `dungeon_boost_window{stage}` up to ten a run and none at stage 1, about 8 for a party that opens the door and flies on; `dungeon_boost_picked{kind,auto}` has five kinds; `dungeon_door_opened{door=boss, why=kills}` at 75 % of the elites; `why=admin` stays rare. The admin overview's `boosts` object of an active run has new keys, `{kills, earned, windows, of, open, answered, picks: {damage, hull, shield, speed, recharge}}`.
-- **The Dark Matter model:** the dungeons now give more than the Dark Matter model's single source (a clan of five that runs the three stages every day gets 74 to 222 Dark Matter a day before, twice that now). Read the Dark Matter stock of the first days against the excavators' burn.
-- **Global chat between the servers: nothing to set up** (the node uses its `NODE_SECRET`; a Home with no node registered behaves as before). Look at it with `GET /health`, `flight.chat` (`relay`, `ringHead`, `ringLen`, and per node `pushAgeMs`, `pullAgeMs`, `pushed`, `pulled`, `dropped`). Home's log has every Global line as `CHAT: [global] [<node>/<World>] name: text`, and the speaker's own server logs it as well.
-- **Chat kill switch, no restart:** `PUT /api/admin/flight/dials` with `{"chat": {"relay": false}}`; each server then keeps its own Global. The dials replace each other as a whole (a PUT without `asteroids` lifts the asteroid dials, one without `chat` turns the relay on), and they live in memory, so Home's restart is the default (on). A `chat.relay` that is not a JSON boolean is a `400 BAD_DIALS`.
-- **Chat: two things nobody has looked at on the real boxes** (`docs/DEPLOY.md`, "Global chat between the servers (0.5.3)"): whether Sliplane's edge holds a request for 8 seconds (a cut is taken as an empty answer, so chat still works), and which address Home sees for each node (it decides what is counted per address).
-- **Missions:** a server rule (`quest::world_hull_limit`, `world_hull_pct`); no data step.
-- **`GET /api/servers` with a token costs one account read on every request,** a 304 included, because the list differs for administrators. At the station that is about one primary-key read per signed-in pilot per minute, and one per 5 seconds while the start card or the Launch dialog is open. A cheap fix is known (cache the admin flag per user for a short window) and is not done; this is a client release.
-- **Proof of the tour card:** `tour::tests_settle`, `tour::tests_flicker` and `tour::tests_card` hold each cause; several of the flicker tests failed on 0.5.2's code when they were written (not run again for this note).
+**8. Repair Drones**
+- **Repair Drone I / II / III / IV repair 2 / 3 / 4 / 5 % of the maximum hull a second** (1.5 / 2.25 / 3.5 / 5 %). The IV is as before; prices and the "endless" use are unchanged.
+
+**9. Energetic Wall**
+- **Hit points 100,000 (level I) and 250,000 (level II)** (30,000 and 90,000). The wall still loses a sixtieth of its hit points a second and is gone after a minute, so it now fades by **1,667 a second at level I and 4,167 at level II** (500 and 1,500 before). A ship inside takes 2,500 damage a second, as before; the cooldown (90 s) and the stack sizes are as before.
+- **What it takes:** a top Wraith (13 Helios Beams, x4 ammo) breaks a level I wall in 11.2 seconds (4.0) and a level II in 21.9 seconds (10.6). Level II is only just the better buy per hit point (0.0024 Thulium a point against 0.0025).
+
+**10. Cluster Chunks** (the chance that a broken rock leaves one whole, in the ore chunk of the party that dealt the most damage)
+
+| Rock tier | Regular | Mythical | Legendary |
+|---|---|---|---|
+| 1 (`x-1`) | 0.5 % (0) | none | none |
+| 2 (`x-2`) | 1 % (0.4) | none | none |
+| 3 (`x-3`) | 2.5 % (0.8) | 0.35 % (0.15) | none |
+| 4 (`x-4`) | 5 % (1) | 0.5 % (0.25) | 0.1 % (0.03) |
+| 5 (Danger Sectors) | 10 % (1.2) | 1 % (0.3) | 0.5 % (0.1) |
+| Motherlode | 20 % (25) | 5 % (8) | 3 % (3) |
+
+- **A rock of the first ring can leave a Regular chunk,** the first ingredient of a P.E.T. (a Cradle job still needs a P.E.T. Station and an Orvium Reinforced Plate). The Motherlode still gives chunks most often, but its Regular chance is lower.
+- **How often, on paper (at today's output; a level 1 pilot is slower, for example a Regular chunk about every 53 minutes at `x-2` instead of every 41):** a miner on `x-1` finds a Regular chunk about every 1.3 hours; on `x-2` and farther every 15 to 45 minutes; a Mythical chunk every 2.4 to 3.5 hours; a Legendary one every 16 to 18 hours on `x-4` and every 5 to 6 hours in a Danger Sector. With the Motherlode in reach a Mole (the mining P.E.T.) makes 4 to 8 % fewer Regular chunks an hour and more Mythical and Legendary ones.
+- **The wall is the plate, not the chunk.** A Cradle job takes one Orvium Reinforced Plate; see the known limits.
+
+**11. Facets**
+- **A Facet pays what a Phantasm pays:** 3,000 Credits, 12 Thulium, 300 XP and 6 honor in Alpha (6,000 / 24 / 600 / 12 in Beta, 9,000 / 36 / 900 / 18 in Gamma). The kill counts like any alien's (your kill statistics, achievements, the experience of your drones and P.E.T.s) and the kill log says "You killed Facet". Its ranking weight stays 0, so it adds no PvE points of its own (its 300 XP count like any XP, 0.3 of a point a kill), and it drops nothing. Until now a Facet paid nothing and was counted nowhere.
+
+**13. The Tesseract** ("shared" means every pilot the kill pays gets a box rolled for him alone, with his own Loot Luck, and cut to his share of the damage; a group's share is split among its members by level, as the pay is)
+
+| Item | Chance | Amount in the pot |
+|---|---|---|
+| Reinforced Hull Plate | 100 % | 3 to 10 |
+| Velkonite Reinforced Plate | 66 % | 7 to 12 |
+| Orvium Reinforced Plate | 50 % | 3 to 5 |
+| Power Core | 66 % | 4 to 7 |
+| Ancient Control Unit | 100 % | 1 to 4 |
+| Dark Matter | 100 % | 10 to 20, at most 5 for each pilot |
+
+- **No box for the top dealer.** Nothing lies at the wreck: every pilot the kill pays (5 % of the damage or more, as for every boss) gets a private box for 10 minutes that only he sees and takes. In a group each pilot's part of the pot is split off first, and the Dark Matter cap of 5 is each pilot's own; what is over the cap is lost.
+- **A kill's pot, on average:** 6.5 Reinforced Hull Plates, 6.3 Velkonite and 2.0 Orvium Reinforced Plates, 3.6 Power Cores, 2.5 Ancient Control Units and 15 Dark Matter when four or more pilots are paid about equally (a lone pilot gets 5, two get 10, three about 13.6; a pilot with a big share loses what is over his 5). Before: 1.5 Reinforced Hull Plates, 2.7 Velkonite and 0.6 Orvium Reinforced Plates (already a private box for every paid pilot), and, in one box for the top dealer, 1.05 Power Cores, 0.35 Ancient Control Units and 0.025 Dark Matter.
+- **Dark Matter:** the Tesseract comes back 30 minutes after its death, so a group that kills it the moment it is back takes about 30 Dark Matter an hour from one world, five times what the three giant excavators burn (6 an hour; it was 0.05 an hour from the Tesseract).
+
+**18. Skylab Radar queue**
+- **The Radar Module's queue grows with its level: 3 cells at level 1, 5 at level 2, 7 at level 3** (3 at every level). An upgrade only adds room: the cells already in the queue keep their places. The module's upgrade card and the universe map show the room, and a full queue says how many cells it holds.
 <!-- /patchnotes:latest -->
 
 ---
@@ -302,18 +288,18 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: 07b7f4a9316e99d9d72c5b00815c79f279ced071038dccc5ef4aa8b4748feafc
+# Expected: 688877c636e8930b691fb1b0e117944cf845fe2b96ba296b4d4c4f653705c659
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 4f5e1883d4186c6d949a539f57426e47e2b3763249c9a6d38bc93cc6b1e2418c
+# Expected: f0eea23dedea5bfe345f28d0673d893b54b8ff6b591e6a869b5f040b6f453398
 ```
 
 ### Linux
 ```bash
-echo "4607f5e97fee9b07dfb727832739e15432ef6770f049de634e0f73d6f6f10c2e  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "b69f30b0895e5b6d491194c3b7b64cabecb95a0fee7e3ae6a63056d4a2a5656c  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

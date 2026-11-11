@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
+<!-- wiki-i18n source: fe17f46644fd6072 -->
 <!-- wiki-i18n title: 推進装置 -->
 # 推進装置と速度 {#propulsion-speed}
 
@@ -8,7 +8,7 @@
 
 - **エンジンは速度を生み、スラスターはその中に入って速度を上乗せします。** エンジンには1～3基のスラスターを装着でき（Engine I は1基、Engine II は2基、Engine III は3基）、アダプティブコアも同様です（ティアで基数が決まります）。
 - **4ティアずつの2つの系統。** Impulse Thruster は固定の速度加算が最も大きく、Momentum Thruster は固定の加算が小さい代わりに速度への倍率が大きくなります。どちらの系統も、ティアが上がるごとに、両方の数値が1つ下のティアより高くなります。
-- **どれをどこに。** 目安として、Impulse はどこにでも向きます。Momentum が上回るのは、スラスターを3基載せた Engine III のティアIとIIだけです。数値は[下の表](#which-thruster-where)にあります。最速の Engine III は Impulse Thruster IV を3基載せたもので、52.5になります。
+- **どれをどこに。** 目安として、スラスターを3基載せた Engine III には Momentum を、アダプティブコアには Impulse を入れます。小さいエンジンでは、ティアIとIIでは両者が近く、ティアIII以降は Impulse が上回ります。数値は[下の表](#which-thruster-where)にあります。最速の Engine III は Momentum Thruster IV を3基載せたもので、63.3になります。
 - **入手方法。** 各系統のティアIは20,000クレジットで販売されています。ティアII～IVはアセンブリで、1つ下のティアから作ります。スラスターが系統を変えることはありません。
 
 <!-- item-tree:begin -->
@@ -43,9 +43,9 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 | 名前 | レアリティ | 基本速度 | 速度ボーナス% | シールドボーナス% | スロット | 特殊効果 | コスト |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Engine I** | 粗悪 | +2 | +2% | -2% | 1 | Afterburner I | 20,000クレジット |
-| **Engine II** | コモン | +4 | +3% | -8% | 2 | Afterburner II | 製作専用 |
-| **Engine III** | レア | +6 | +4% | -15% | 3 | Afterburner III | 製作専用 |
+| **Engine I** | 粗悪 | +5 | +2% | -2% | 1 | Afterburner I | 20,000クレジット |
+| **Engine II** | コモン | +10 | +3% | -8% | 2 | Afterburner II | 製作専用 |
+| **Engine III** | レア | +15 | +4% | -15% | 3 | Afterburner III | 製作専用 |
 
 **Engine II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Engine I から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚が必要です。**Engine III** は、同じくアセンブリで Engine II から作ります。4,000 Thulium、Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したエンジンのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するエンジンを艦から外してください（中のスラスターも取り出します）。装備されたままのエンジンや、スラスターが入ったままのエンジンは消費されません。
 
@@ -55,7 +55,7 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ## スラスター {#thrusters}
 
-スラスターはエンジンまたはアダプティブコアの中に装着して、その速度を高めます。スラスターには、4ティアずつの2つの系統があります。**Impulse Thruster** は固定の速度加算が最も大きく、装着したエンジンの速度にもわずかな倍率をかけます。**Momentum Thruster** は固定の加算が小さい代わりに、その倍率がより大きくなります。どちらの系統も、ティアが上がるごとに、固定速度も倍率も1つ下のティアより高くなります。スラスターを載せたエンジン（またはアダプティブコア）が生み出す速度は、**自身の基本速度にスラスターの固定速度ブーストを足し、その全体にスラスターの速度倍率をすべて掛け合わせたもの**です（[速度の計算方法](/wiki/03-Mechanics/Speed.md)）。Momentum Thruster IV を3基載せた Engine III は (6 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 51.5、Impulse Thruster IV を3基載せると (6 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 52.5、Impulse Thruster IV を2基載せた Adaptive Core II は (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7（Momentum Thruster IV 2基なら 26.6）になります。
+スラスターはエンジンまたはアダプティブコアの中に装着して、その速度を高めます。スラスターには、4ティアずつの2つの系統があります。**Impulse Thruster** は固定の速度加算が最も大きく、装着したエンジンの速度にもわずかな倍率をかけます。**Momentum Thruster** は固定の加算が小さい代わりに、その倍率がより大きくなります。どちらの系統も、ティアが上がるごとに、固定速度も倍率も1つ下のティアより高くなります。スラスターを載せたエンジン（またはアダプティブコア）が生み出す速度は、**自身の基本速度にスラスターの固定速度ブーストを足し、その全体にスラスターの速度倍率をすべて掛け合わせたもの**です（[速度の計算方法](/wiki/03-Mechanics/Speed.md)）。Momentum Thruster IV を3基載せた Engine III は (15 + 3 x 11.135) x 1.0935 x 1.0935 x 1.0935 = 63.3、Impulse Thruster IV を3基載せると (15 + 3 x 14.025) x 1.02975 x 1.02975 x 1.02975 = 62.3、Impulse Thruster IV を2基載せた Adaptive Core II は (0 + 2 x 14.025) x 1.02975 x 1.02975 = 29.7（Momentum Thruster IV 2基なら 26.6）になります。
 
 | 名前 | レアリティ | 固定速度ブースト | 速度倍率 | コスト |
 | :--- | :--- | :---: | :---: | :--- |
@@ -70,19 +70,19 @@ Momentum Thruster I => Momentum Thruster II => Momentum Thruster III => Momentum
 
 ### どのスラスターをどこに {#which-thruster-where}
 
-Impulse は固定の速度加算が大きく、Momentum は倍率が大きいので、どちらが速いかは、エンジンがもともと生み出している速度によって決まります。固定の加算が最も効くのは、掛け合わせる速度が少ない場所、つまりアダプティブコア（自前の速度を持ちません）と、スラスターが1～2基のエンジンです。倍率が最も効くのは、掛け合わせる速度が大きい、スラスターを3基載せた Engine III ですが、そこで勝つのはティアIとIIの Momentum だけです。どの場所でも、すべてのスロットにティアIVのスラスターを入れたときの速度は次のとおりです。
+Impulse は固定の速度加算が大きく、Momentum は倍率が大きいので、どちらが速いかは、エンジンがもともと生み出している速度によって決まります。固定の加算が最も効くのは、掛け合わせる速度が少ない場所、つまりアダプティブコア（自前の速度を持ちません）と、スラスターが1～2基のエンジンです。倍率が最も効くのは、掛け合わせる速度が大きい、スラスターを3基載せた Engine III で、そこではどのティアでも Momentum が勝ちます。どの場所でも、すべてのスロットにティアIVのスラスターを入れたときの速度は次のとおりです。
 
 | スラスターを載せる場所 | Impulse Thruster IV の場合 | Momentum Thruster IV の場合 | より速い方 |
 | :--- | :---: | :---: | :--- |
-| Engine I、スラスター1基 | 16.5 | 14.4 | Impulse |
-| Engine II、スラスター2基 | 34.0 | 31.4 | Impulse |
-| Engine III、スラスター1基 | 20.6 | 18.7 | Impulse |
-| Engine III、スラスター2基 | 36.1 | 33.8 | Impulse |
-| Engine III、スラスター3基 | 52.5 | 51.5 | Impulse |
+| Engine I、スラスター1基 | 19.6 | 17.6 | Impulse |
+| Engine II、スラスター2基 | 40.3 | 38.6 | Impulse |
+| Engine III、スラスター1基 | 29.9 | 28.6 | Impulse |
+| Engine III、スラスター2基 | 45.6 | 44.6 | Impulse |
+| Engine III、スラスター3基 | 62.3 | 63.3 | Momentum |
 | Adaptive Core II、スラスター2基 | 29.7 | 26.6 | Impulse |
 
-- **低いティア。** 低いティアも同じ傾向ですが、接戦が2つと例外が1つあります。Engine II にスラスターを2基載せた場合、ティアIとIIでは両系統がほぼ並びます（Impulse が0.06と0.24上回ります）。Engine III に2基載せた場合も並びます（差は0.1以内）。ティアIII以降は、どちらも Impulse が1.5～2.6上回ります。例外はスラスターを3基載せた Engine III です。ここではティアIとIIで Momentum が0.6と0.9上回り、ティアIIIとIVで Impulse が0.5と1.0上回ります。
-- **最速の Engine III。** Impulse Thruster IV を3基載せたものです。52.5で、Impulse 1基と Momentum Thruster IV 2基（52.1）や Momentum 3基（51.5）をわずかに上回ります。
+- **低いティア。** ティアIII以降は、スラスターを3基載せた Engine III を除くどの場所でも Impulse が0.6～3.1上回ります。ティアIとIIでは、3基載せた Engine III を除けば両系統の差は1ポイント未満です。Impulse が上回るのは Engine I とアダプティブコア I・II で、Momentum が上回る（または並ぶ）のはスラスター1～2基の Engine III と、2基の Engine II です。例外はスラスターを3基載せた Engine III で、ここではどのティアでも Momentum が1.0～2.0上回ります。
+- **最速の Engine III。** Momentum Thruster IV を3基載せたものです。63.3で、Impulse 1基と Momentum Thruster IV 2基（63.2）や Impulse 3基（62.3）をわずかに上回ります。
 
 [鍛冶場](/wiki/06-Items/Forge.md)でスラスターの速度倍率に付くボーナスは、1を超える部分を伸ばします（1.0935倍に +15% のボーナスが付くと1.1075倍）。倍率が1.05倍以下の場合、鍛冶場はその倍率にボーナスを付けません。Impulse Thruster の1.017倍～1.02975倍に付けても、増えるのは0.005未満です（1.02975倍に +15% で1.034倍）。Impulse Thruster が持てるボーナスは1つ（固定の速度）、Momentum Thruster は2つです。
 
@@ -90,4 +90,4 @@ Impulse は固定の速度加算が大きく、Momentum は倍率が大きいの
 
 ### エイリアンを振り切る {#outrunning-aliens}
 
-エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion（基本速度220）の速度は、Impulse Thruster I で239.9、II で249.2、III で258.6、IV で261.6です。どのティアでも Crystalys を振り切れます。購入できるティアIでも同じです。Momentum Thruster は、この艦では同じか少し低くなります（Momentum Thruster I で239.9、II から IV は248.9、256.7、259.0）。どちらの系統もすべてのティアが Crystalys を上回り、その差は最低でも9.9です。
+エイリアンの速度は、Seeker が120、Phantasm が160、Bulwark が175、Goombah が180、Crystalys が230です。Engine II 1基とスラスター2基を載せた Ostirion（基本速度220）の速度は、Impulse Thruster I で246.3、II で255.6、III で265.1、IV で268.2です。どのティアでも Crystalys を振り切れます。購入できるティアIでも同じです。Momentum Thruster の速度はそこから2以内に収まります（Momentum Thruster I で246.7、II から IV は255.9、263.9、266.3）。どちらの系統もすべてのティアが Crystalys を上回り、その差は最低でも16.3です。

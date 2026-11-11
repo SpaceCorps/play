@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5fa8bae0ee2f864 -->
+<!-- wiki-i18n source: fe17f46644fd6072 -->
 <!-- wiki-i18n title: Propulsion -->
 # Propulsion et vitesse {#propulsion-speed}
 
@@ -8,7 +8,7 @@ Les systèmes de propulsion déterminent la vitesse de déplacement et la maniab
 
 - **Les moteurs produisent de la vitesse, les propulseurs s’installent dedans et en ajoutent.** Un moteur accueille un à trois propulseurs (un Engine I un, un Engine II deux, un Engine III trois), et un cœur adaptatif aussi (son palier dit combien).
 - **Deux familles de quatre paliers.** Les Impulse Thrusters apportent le plus de vitesse fixe. Les Momentum Thrusters apportent moins de vitesse fixe et multiplient davantage la vitesse. Dans les deux familles, chaque palier est meilleur que celui d’en dessous, dans les deux valeurs.
-- **Lequel où.** En règle générale, mettez des Impulse Thrusters partout : c’est seulement dans un Engine III plein (trois propulseurs) que les Momentum Thrusters des paliers I et II prennent l’avantage. [Le tableau ci-dessous](#which-thruster-where) donne les chiffres. Le meilleur Engine III contient trois Impulse Thruster IV et fait 52,5.
+- **Lequel où.** En règle générale, mettez des Momentum Thrusters dans un Engine III plein (trois propulseurs) et des Impulse Thrusters dans un cœur adaptatif ; dans les moteurs plus petits, les deux sont proches aux paliers I et II, et l’Impulse mène à partir du palier III. [Le tableau ci-dessous](#which-thruster-where) donne les chiffres. Le meilleur Engine III contient trois Momentum Thruster IV et fait 63,3.
 - **Les obtenir.** Le palier I de chaque famille coûte 20 000 crédits. Les paliers II à IV se fabriquent à l’Assemblage, chacun à partir du palier d’en dessous, et un propulseur ne change jamais de famille.
 
 <!-- item-tree:begin -->
@@ -43,9 +43,9 @@ Les moteurs sont la principale source de poussée de votre vaisseau. Un moteur p
 
 | Nom | Rareté | Vitesse de base | Bonus de vitesse (%) | Bonus de bouclier (%) | Emplacements | Effet spécial | Coût |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :--- |
-| **Engine I** | Médiocre | +2 | +2 % | -2 % | 1 | Afterburner I | 20 000 crédits |
-| **Engine II** | Commun | +4 | +3 % | -8 % | 2 | Afterburner II | À fabriquer |
-| **Engine III** | Rare | +6 | +4 % | -15 % | 3 | Afterburner III | À fabriquer |
+| **Engine I** | Médiocre | +5 | +2 % | -2 % | 1 | Afterburner I | 20 000 crédits |
+| **Engine II** | Commun | +10 | +3 % | -8 % | 2 | Afterburner II | À fabriquer |
+| **Engine III** | Rare | +15 | +4 % | -15 % | 3 | Afterburner III | À fabriquer |
 
 L’**Engine II** se fabrique à l’[Assemblage](/wiki/06-Items/Overview.md#upgrading-modules) à partir d’un Engine I, avec 2 000 Thulium, 60 Ship Fragments, 1 Power Core et 4 Velkonite Reinforced Plates. L’**Engine III** s’y fabrique à partir d’un Engine II, avec 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit et 4 Dark Matter Plates ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Chacun garde le rang d’enchantement et les bonus du moteur qu’il consomme ([Améliorations de modules](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Retirez d’abord de votre vaisseau le moteur à consommer (et sortez-en les propulseurs) : un moteur installé ou qui contient des propulseurs n’est pas consommé.
 
@@ -55,7 +55,7 @@ Le bonus de bouclier des moteurs figure dans les données de l’objet, mais le 
 
 ## Propulseurs {#thrusters}
 
-Les propulseurs s’installent dans des moteurs ou des cœurs adaptatifs pour augmenter leur vitesse. Il y a deux familles de quatre paliers : les **Impulse Thrusters** apportent le plus de vitesse fixe et multiplient un peu la vitesse du moteur dans lequel ils sont installés, les **Momentum Thrusters** moins de vitesse fixe, mais ils la multiplient davantage. Dans les deux familles, chaque palier est meilleur que celui d’en dessous, en vitesse fixe comme en multiplicateur. Un moteur (ou cœur adaptatif) muni de propulseurs produit **sa propre vitesse de base plus les boosts de vitesse fixes des propulseurs, le tout multiplié par les multiplicateurs de vitesse des propulseurs, multipliés entre eux** ([comment la vitesse est calculée](/wiki/03-Mechanics/Speed.md)) : un Engine III avec trois Momentum Thruster IV produit (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, avec trois Impulse Thruster IV (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5, et un Adaptive Core II avec deux Impulse Thruster IV produit (0 + 2 x 14,025) x 1,02975 x 1,02975 = 29,7 (26,6 avec deux Momentum Thruster IV).
+Les propulseurs s’installent dans des moteurs ou des cœurs adaptatifs pour augmenter leur vitesse. Il y a deux familles de quatre paliers : les **Impulse Thrusters** apportent le plus de vitesse fixe et multiplient un peu la vitesse du moteur dans lequel ils sont installés, les **Momentum Thrusters** moins de vitesse fixe, mais ils la multiplient davantage. Dans les deux familles, chaque palier est meilleur que celui d’en dessous, en vitesse fixe comme en multiplicateur. Un moteur (ou cœur adaptatif) muni de propulseurs produit **sa propre vitesse de base plus les boosts de vitesse fixes des propulseurs, le tout multiplié par les multiplicateurs de vitesse des propulseurs, multipliés entre eux** ([comment la vitesse est calculée](/wiki/03-Mechanics/Speed.md)) : un Engine III avec trois Momentum Thruster IV produit (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, avec trois Impulse Thruster IV (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3, et un Adaptive Core II avec deux Impulse Thruster IV produit (0 + 2 x 14,025) x 1,02975 x 1,02975 = 29,7 (26,6 avec deux Momentum Thruster IV).
 
 | Nom | Rareté | Boost de vitesse fixe | Multiplicateur de vitesse | Coût |
 | :--- | :--- | :---: | :---: | :--- |
@@ -70,19 +70,19 @@ Les propulseurs s’installent dans des moteurs ou des cœurs adaptatifs pour au
 
 ### Quel propulseur où {#which-thruster-where}
 
-L’Impulse apporte plus de vitesse fixe, le Momentum multiplie davantage ; savoir lequel est le plus rapide dépend donc de ce que le moteur produit déjà. La vitesse fixe compte le plus là où il y a peu de vitesse à multiplier : dans un cœur adaptatif (il n’a pas de vitesse propre) et dans un moteur avec un ou deux propulseurs. Un multiplicateur compte le plus dans un Engine III plein, où il y a beaucoup de vitesse à multiplier, mais seuls les Momentum Thrusters des paliers I et II l’emportent là. La vitesse que chacun produit avec des propulseurs de palier IV dans tous les emplacements :
+L’Impulse apporte plus de vitesse fixe, le Momentum multiplie davantage ; savoir lequel est le plus rapide dépend donc de ce que le moteur produit déjà. La vitesse fixe compte le plus là où il y a peu de vitesse à multiplier : dans un cœur adaptatif (il n’a pas de vitesse propre) et dans un moteur avec un ou deux propulseurs. Un multiplicateur compte le plus dans un Engine III plein, où il y a beaucoup de vitesse à multiplier, et les Momentum Thrusters l’emportent là à tous les paliers. La vitesse que chacun produit avec des propulseurs de palier IV dans tous les emplacements :
 
 | Où sont les propulseurs | Avec Impulse Thruster IV | Avec Momentum Thruster IV | Plus rapide |
 | :--- | :---: | :---: | :--- |
-| Engine I, 1 propulseur | 16,5 | 14,4 | Impulse |
-| Engine II, 2 propulseurs | 34,0 | 31,4 | Impulse |
-| Engine III, 1 propulseur | 20,6 | 18,7 | Impulse |
-| Engine III, 2 propulseurs | 36,1 | 33,8 | Impulse |
-| Engine III, 3 propulseurs | 52,5 | 51,5 | Impulse |
+| Engine I, 1 propulseur | 19,6 | 17,6 | Impulse |
+| Engine II, 2 propulseurs | 40,3 | 38,6 | Impulse |
+| Engine III, 1 propulseur | 29,9 | 28,6 | Impulse |
+| Engine III, 2 propulseurs | 45,6 | 44,6 | Impulse |
+| Engine III, 3 propulseurs | 62,3 | 63,3 | Momentum |
 | Adaptive Core II, 2 propulseurs | 29,7 | 26,6 | Impulse |
 
-- **Paliers inférieurs.** Les paliers inférieurs suivent la même logique, avec deux cas serrés et une exception : avec deux propulseurs dans un Engine II, les familles sont à égalité aux paliers I et II (l’Impulse devance de 0,06 et 0,24), et avec deux dans un Engine III aussi (à moins de 0,1). À partir du palier III, l’Impulse mène dans les deux, de 1,5 à 2,6. L’exception est l’Engine III plein : le Momentum y mène aux paliers I et II, de 0,6 et 0,9, et l’Impulse aux paliers III et IV, de 0,5 et 1,0.
-- **Le meilleur Engine III.** Il contient trois Impulse Thruster IV : 52,5, un peu au-dessus d’un Impulse et deux Momentum Thruster IV (52,1) ou de trois Momentum (51,5).
+- **Paliers inférieurs.** À partir du palier III, l’Impulse mène partout sauf dans l’Engine III plein, de 0,6 à 3,1. Aux paliers I et II, les deux familles sont à moins d’un point l’une de l’autre en dehors de l’Engine III plein : l’Impulse devance dans un Engine I et dans un Adaptive Core I ou II ; le Momentum devance ou égale dans un Engine III avec un ou deux propulseurs et dans un Engine II avec deux. L’exception est l’Engine III plein : le Momentum y mène à tous les paliers, de 1,0 à 2,0.
+- **Le meilleur Engine III.** Il contient trois Momentum Thruster IV : 63,3, un peu au-dessus d’un Impulse et deux Momentum Thruster IV (63,2) ou de trois Impulse (62,3).
 
 Le bonus de multiplicateur de vitesse d’un propulseur, issu de la [Forge](/wiki/06-Items/Forge.md), fait croître la part au-dessus de 1 (un bonus de +15 % sur 1,0935x donne 1,1075x), et la Forge ne tire aucun bonus sur un multiplicateur de 1,05x ou moins : sur le 1,017x à 1,02975x d’un Impulse Thruster, il ajouterait moins de 0,005 (+15 % sur 1,02975x donne 1,034x). Un Impulse Thruster porte un bonus (sa vitesse fixe), un Momentum Thruster deux.
 
@@ -90,4 +90,4 @@ Le palier I de chaque famille se vend 20 000 crédits. Les paliers II à IV se
 
 ### Distancer les aliens {#outrunning-aliens}
 
-Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion (vitesse de base 220) avec un Engine II et deux propulseurs vole à 239,9 avec des Impulse Thruster I, 249,2 avec des II, 258,6 avec des III et 261,6 avec des IV : tous les paliers distancent le Crystalys, même l’Impulse Thruster I qu’on peut acheter. Les Momentum Thrusters volent à la même vitesse ou un peu plus bas sur ce vaisseau (239,9 avec des Momentum Thruster I ; puis 248,9, 256,7 et 259,0 avec des II à IV) : tous les paliers des deux familles passent au-dessus d’un Crystalys, d’au moins 9,9.
+Les aliens volent à 120 (Seeker), 160 (Phantasm), 175 (Bulwark), 180 (Goombah) et 230 (Crystalys). Un Ostirion (vitesse de base 220) avec un Engine II et deux propulseurs vole à 246,3 avec des Impulse Thruster I, 255,6 avec des II, 265,1 avec des III et 268,2 avec des IV : tous les paliers distancent le Crystalys, même l’Impulse Thruster I qu’on peut acheter. Les Momentum Thrusters volent à moins de deux points de là sur ce vaisseau (246,7 avec des Momentum Thruster I ; puis 255,9, 263,9 et 266,3 avec des II à IV) : tous les paliers des deux familles passent au-dessus d’un Crystalys, d’au moins 16,3.

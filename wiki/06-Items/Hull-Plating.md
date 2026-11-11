@@ -26,13 +26,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Item | Hull it adds | Where it comes from |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5,000 | Shop, 5,000 Thulium |
-| **Hull Plating II** | 10,000 | Assembly, from a Hull Plating I |
-| **Hull Plating III** | 15,000 | Assembly, from a Hull Plating II |
+| **Hull Plating I** | 8,000 | Shop, 5,000 Thulium |
+| **Hull Plating II** | 15,000 | Assembly, from a Hull Plating I |
+| **Hull Plating III** | 25,000 | Assembly, from a Hull Plating II |
 
 Hull Plating I is bought. **II and III are upgrades**: Assembly uses up one plating of the tier below (loose in your inventory) and asks for Thulium, materials and **Dark Matter Plates**, 5 for the II and 8 for the III, where the last tier of any other piece of equipment asks 4 and an Ancient Control Unit. Each one needs its technology first, in the Hull Plating tree of the [Research](/wiki/03-Mechanics/Research.md#tree-hull-plating) page: 1 day and 25 Dark Matter for the II, 2 days and 40 for the III, on top of the technology of the Dark Matter Plate itself. The tree above has the prices, the materials and the times.
 
-The [Forge](/wiki/06-Items/Forge.md) takes every plating, and an upgrade keeps the Forge tier and the buff of the plating it used up. A plating has one stat, its hull, so it holds one buff, +2% to +15% by tier: a Hull Plating III at Eternal adds up to 17,250. The [Auction](/wiki/03-Mechanics/Auction.md) lists Hull Plating II and III, never Hull Plating I, which the Shop sells.
+The [Forge](/wiki/06-Items/Forge.md) takes every plating, and an upgrade keeps the Forge tier and the buff of the plating it used up. A plating has one stat, its hull, so it holds one buff, +2% to +15% by tier: a Hull Plating III at Eternal adds up to 28,750. The [Auction](/wiki/03-Mechanics/Auction.md) lists Hull Plating II and III, never Hull Plating I, which the Shop sells.
 
 ## Hull plate slots
 
@@ -40,10 +40,10 @@ Hull Plating fits only in **hull plate slots**, a kind of slot of its own that t
 
 | Ship | Hull plate slots | A full set of Hull Plating III adds |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75,000 |
-| **Storm** | 7 | 105,000 |
-| **Ironclad** | 15 | 225,000 |
-| **Wraith** | 10 | 150,000 |
+| **Paragon** | 5 | 125,000 |
+| **Storm** | 7 | 175,000 |
+| **Ironclad** | 15 | 375,000 |
+| **Wraith** | 10 | 250,000 |
 
 - **All locked at first.** A slot opens when you research it in the Skylab: one technology for each slot, 1 hour and 10 Dark Matter, in order from the first. The [Research](/wiki/03-Mechanics/Research.md#ship-technologies) view shows a ship's slots as one card with a pip for each.
 - **A kind of ship, not one ship.** The slots you opened for the Paragon are open on every Paragon design too ([Ship Designs](/wiki/03-Mechanics/Ship-Designs.md)). A technology is yours for good: the wipe keeps it.

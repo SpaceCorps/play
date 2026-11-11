@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Trou noir -->
 # Le trou noir {#the-black-hole}
 
@@ -65,12 +65,13 @@ Entre deux lignes, les dégâts augmentent de façon linéaire. En points de vie
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
 | Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
 | Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
+| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
 
 - Le **bouclier encaisse en premier**, puis la coque. Ce n’est pas un coup : l’absorption du bouclier n’entre pas en jeu, et on ne peut pas l’esquiver.
 - La radiation compte comme des **dégâts subis** : votre bouclier ne se recharge pas, un Repair Drone s’arrête (« Réparations interrompues : radiation. ») et ne peut pas être lancé, et une zone sûre ne vous protégerait qu’une fois 5 secondes écoulées depuis la dernière dose.
 - Les boosters et les améliorations changent la taille de votre total, pas le temps que vous tenez : les dégâts en sont une part.
 - Rien ne rend un vaisseau immunisé. La radiation n’est pas un coup, donc rien ne l’absorbe ; mais les compétences continuent d’agir dedans : un Shield Surge continue de restaurer votre bouclier et un Emergency Repair de réparer votre coque pendant leurs dix secondes (ce ne sont pas les réparations naturelles que la dose interrompt). L’occultation ne cache pas le vaisseau à la radiation.
+- La **Technique de radiation**, une compétence de pilote, réduit la dose : la part de votre total que vous perdez par seconde descend en ligne droite de la totalité au niveau 1 à 0,40 de celle-ci au niveau 100, et la jauge indique la dose que vous recevez réellement.
 
 ## L’attraction {#the-pull}
 
@@ -97,20 +98,20 @@ Votre **point de non-retour** est la distance où l’attraction égale votre vi
 
 | Vaisseau (équipement de série) | Vitesse | Point de non-retour |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1 826 |
-| Protos | 188 | 1 462 |
-| Kitefin | 202 | 1 388 |
-| Nomad | 221 | 1 294 |
-| Wraith | 223 | 1 281 |
-| Ostirion | 231 | 1 220 |
-| Paragon | 242 | 1 141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1 755 |
+| Protos | 194 | 1 431 |
+| Kitefin | 211 | 1 346 |
+| Nomad | 229 | 1 233 |
+| Wraith | 235 | 1 189 |
+| Ostirion | 240 | 1 160 |
+| Paragon | 252 | 1 071 |
+| Storm | 284 | 906 |
 
 Un design de vaisseau change la vitesse de son vaisseau, et avec elle son point de non-retour : un DUMA est plus lent qu’un Ironclad, un NOTSUM plus rapide qu’un Storm.
 
 Un vaisseau plus rapide que 272 unités par seconde (un équipement de course, ou un Wraith de série avec un Afterburner actif) a son point de non-retour là où il a toujours été : à une vitesse de 300, il est à 885 ; à 432, il est à 747.
 
-Misez sur la vitesse et vous pourrez repartir de plus profond ; chargez-vous de boucliers lourds et vous ne le pourrez pas (un Ironclad, le vaisseau le plus lent, avec un Heavy Shield Core dans chacun de ses 14 emplacements vole à 46,8, avec son point de non-retour à environ 2 500). Seule une pointe de vitesse ramène un vaisseau qui se trouve juste en deçà de son point de non-retour : un [Afterburner](/wiki/03-Mechanics/Abilities.md) actif compte, et repousse le point de non-retour plus profond tant qu’il dure (quinze secondes avec un moteur, 22,5 avec deux, trente avec trois ; l’Afterburner III fait passer celui d’un Protos de série de 1 462 à 994 et celui d’un Wraith de série de 1 281 à 869). Rien ne peut repartir d’en deçà d’environ 440 unités, pas même un vaisseau conçu pour la vitesse, avec chaque statistique de vitesse enchantée au maximum et la plus forte pointe de vitesse active (un Afterburner III enchanté jusqu’au plafond, x1,46) ; un vaisseau non enchanté conçu pour la vitesse (des Engine III et des Adaptive Core III avec trois Impulse Thruster IV chacun), avec un Afterburner III, repart au mieux d’au-delà de 475.
+Misez sur la vitesse et vous pourrez repartir de plus profond ; chargez-vous de boucliers lourds et vous ne le pourrez pas (un Ironclad, le vaisseau le plus lent, avec un Heavy Shield Core dans chacun de ses 14 emplacements vole à 46,8, avec son point de non-retour à environ 2 500). Seule une pointe de vitesse ramène un vaisseau qui se trouve juste en deçà de son point de non-retour : un [Afterburner](/wiki/03-Mechanics/Abilities.md) actif compte, et repousse le point de non-retour plus profond tant qu’il dure (quinze secondes avec un moteur, 22,5 avec deux, trente avec trois ; l’Afterburner III fait passer celui d’un Protos de série de 1 431 à 928 et celui d’un Wraith de série de 1 189 à 847). Rien ne peut repartir d’en deçà d’environ 410 unités, pas même un vaisseau conçu pour la vitesse, avec chaque statistique de vitesse enchantée au maximum et la plus forte pointe de vitesse active (un Afterburner III enchanté jusqu’au plafond, x1,46) ; un vaisseau non enchanté conçu pour la vitesse (des Engine III avec trois Momentum Thruster IV chacun et des Adaptive Core III avec trois Impulse Thruster IV chacun), avec un Afterburner III, repart au mieux d’au-delà de 453.
 
 La chute depuis le point de non-retour commence lentement : un vaisseau quelques unités en deçà, à pleine puissance, est aspiré en vingt secondes ou plus, puis de plus en plus vite. L’attraction n’est pas du vol : elle ne compte pour aucune distance parcourue.
 

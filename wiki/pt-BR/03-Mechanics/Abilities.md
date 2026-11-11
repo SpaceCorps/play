@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Habilidades -->
 # Habilidades ativas da nave {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ O Engine II e os escudos e motores de nível III (o Heavy Shield Core, o Engine 
 - **Cada habilidade tem o seu próprio tempo de recarga.** Usar uma não bloqueia as outras.
 - **Um efeito em andamento mantém os números com que começou.** Desequipar o item ou trocar de configuração não o muda nem o encerra. Um salto ou uma reconexão também não o encerra; se desconectar encerra, e o tempo de recarga continua.
 - Os outros pilotos veem os temporizadores das suas habilidades no mapa, como sempre viram: um Surge gasto avisa a eles que os próximos minutos estão livres.
+
+## Perícias do piloto {#pilot-skills}
+
+Três das suas [perícias do piloto](/wiki/03-Mechanics/Pilot-Skills.md) mudam como as habilidades funcionam, inclusive a habilidade `F` do projeto da sua nave:
+
+- **Reflexos** faz os tempos de recarga acabarem mais cedo, um pouco mais a cada nível. Um tempo de recarga continua começando quando você aperta e inclui a duração da habilidade.
+- **Tática** faz uma habilidade durar mais. Um Shield Surge ou uma Emergency Repair dá os mesmos pontos por segundo durante o tempo mais longo, então devolve mais no total, e um Afterburner funciona por mais tempo. O tempo de recarga não cresce com ela, então a espera depois que a habilidade termina fica menor.
+- **Sabotagem** reforça os venenos, como o Venom de uma Wraith RAPTOR, em dano e em duração, além da Tática.
+
+Os números de cada nível estão na tabela de [Perícias do piloto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ## Teclas e botões {#keys-and-buttons}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93ce109824aad6c2 -->
+<!-- wiki-i18n source: 43de857ffcad0375 -->
 <!-- wiki-i18n title: Hastighet -->
 # Hastighetsberäkning {#speed-calculation}
 
@@ -21,7 +21,7 @@ Varje utrustad motor ger hastighet, och det gör varje adaptiv kärna som har st
 - **Fast styrraketbonus**: Summan av alla fasta hastighetstillägg från styrraketer (t.ex. är Impulse Thruster III `+12.75` hastighet).
 - **Styrraketmultiplikator**: Produkten av alla hastighetsmultiplikatorer hos de styrraketer som sitter i den motorn (t.ex. är Momentum Thruster III `1.0765` eller `+7.65%`, Impulse Thruster III `1.0255` eller `+2.55%`). Den multiplicerar allt motorn ger: dess egen grundhastighet och styrraketernas fasta bonusar. En adaptiv kärna har ingen egen grundhastighet, och dess styrraketers fasta bonusar multipliceras ändå.
 
-En Engine III (grundhastighet 6) med tre Momentum Thruster IV (`+11.135`, `1.0935`) ger (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, och med tre Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.0935` ger `1.1075`.
+En Engine III (grundhastighet 15) med tre Momentum Thruster IV (`+11.135`, `1.0935`) ger (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, och med tre Impulse Thruster IV (`+14.025`, `1.02975`) (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3. En bonus från Smedjan på en styrrakets multiplikator ökar delen över 1: +15 % på `1.0935` ger `1.1075`.
 
 ### 2. Avtagande avkastning (marginaleffektivitet) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -45,4 +45,5 @@ Den totala fartbonusen i procent är summan av alla fartbonusar från utrustade 
 - **Sköldarnas fartavdrag**: Tunga sköldar tynger ner ditt skepp och ger negativa fartprocent (t.ex. ger Heavy Shield Core `-5%` fart).
 - **Skalning efter plats**: De här procentbonusarna och avdragen skalas också med effektiviteten hos platsen där föremålet sitter. En sköld på en av dina drönare bromsar dig lika mycket som en sköld på en kärnplats.
 - **Aldrig under noll**: hur många sköldar du än bär går din hastighet inte under 0.
+- **Pilotfärdighet**: din [Thrusterteori](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) höjer farten med en andel, lite mer för varje nivå, utöver motorerna. Afterburner multiplicerar resultatet.
 - **Drönarformationer**: en buren [drönarformation](/wiki/03-Mechanics/Formations.md) ändrar slutfarten en gång till, som en egen faktor: Gyre +10 %, Cordon −3 %, Auger −9 %, Culler −10 %, Redoubt −11 %, Rampart −17 %. Afterburner multiplicerar sedan resultatet.

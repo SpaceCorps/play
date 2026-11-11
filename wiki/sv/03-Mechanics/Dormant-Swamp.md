@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Tre utomjordingar från den försvunna civilisationen lever här, var och en med
 
 - **Slumbering Void.** Den smäckra jägaren, den snabbaste utomjordingen i spelet (snabbare än en Storm med Afterburner III). Några patrullerar alltid träskets omgivning, och andra kommer i vågor till grävmaskinerna. Den är aggressiv, jagar den närmaste pilot den kan se och ser aldrig ett kamouflerat skepp.
 - **Inert Mass.** Ett dött vrak med violetta sprickor, stort som en liten station. De håller sig inom ett fast avstånd från träskets mitt och lämnar det inte just nu. Den skjuter **Dormant Lances**: styrda raketer med mycket lång räckvidd som följer ett skepp tills det kamouflerar sig, öppnar ett EMP-fönster, går in i en säker ring, hoppar eller dör. Den är snabbare än varje skepp, så bara de avbrotten hjälper. En asteroid i vägen för en Dormant Lance stoppar den, och Lance skadar asteroiden med sin egen skada (ingen får betalt för det); en sten ger alltså bara skydd mot en Inert Mass i några träffar.
-- **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Den är **immun**: skott och raketer träffar och gör ingenting, målfönstret visar fulla staplar och ordet Immun. Ett senare event kommer att göra det möjligt att strida mot den; dess belöningar nedan är nedskrivna och går ännu inte att få.
+- **Unwakened.** En monolit som sover i träskets mitt, det största på någon karta, så långsam att den aldrig hinner ikapp ett skepp. Den skjuter ingenting, men varje skepp inom dess aura brinner, **kamouflerat eller inte**. Den är **immun**: skott och raketer träffar och gör ingenting, målfönstret visar fulla staplar och ordet Immun. Ett senare event kommer att göra det möjligt att strida mot den; dess belöningar nedan är nedskrivna och går ännu inte att få. En pilots **Strålningsteknik** sänker bränningen till 0,40 av den på nivå 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

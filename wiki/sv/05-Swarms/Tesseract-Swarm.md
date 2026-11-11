@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Tesseract-svärm -->
 # Tesseract-svärm {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ Tesseract-svärmen är ett enda enormt moderskepp, **Tesseract**, och de **Facet
 ## Hur striden går till {#how-the-fight-goes}
 
 - **Kom med en mycket stor grupp och slå till samtidigt.** Tesseracts skrov och sköld är en reserv på miljontals poäng, så striden tar lång tid även för en stor grupp starka skepp, och betalningen delas efter skada: varje pilot på plats räknas.
-- **Lämna det aldrig i fred.** Har ingen skadat det under tiden i listan *I korthet* läker det först skrovet och sedan skölden i den takten, så ett uppehåll på några sekunder kan göra en lång minuts arbete ogjort. En Tesseract som läkt helt glömmer vem som skadade det: betalningen och lådan följer skadan i striden som förstör det.
+- **Lämna det aldrig i fred.** Har ingen skadat det under tiden i listan *I korthet* läker det först skrovet och sedan skölden i den takten, så ett uppehåll på några sekunder kan göra en lång minuts arbete ogjort. En Tesseract som läkt helt glömmer vem som skadade det: betalningen och bytet följer skadan i striden som förstör det.
 - **Varje träff kallar på Facets.** Så länge Tesseract träffas kommer en grupp Facets nära det med några sekunders mellanrum, upp till taket i listan *I korthet*. Träffar ingen det kommer inga, och de som redan är där väntar och försvinner.
-- **Facets flyger runt Tesseract och skjuter på den som är inom räckhåll.** De jagar varken den som gör mest skada eller någon enskild pilot: varje Facet flyger egna korta sträckor till slumpmässiga platser i en bred ring runt Tesseract, åt alla håll, och så snart en pilot som har träffat Tesseract är inom dess räckhåll skjuter den på den närmaste av dem. En grupp som håller ihop är inom räckhåll för färre Facets åt gången och delar deras eld, till skillnad från en grupp som är utspridd runt Tesseract. En Facet har lite skrov och sköld, och att skjuta ner en betalar ingenting men tar en salva från piloterna nära den. En pilot som inte har träffat Tesseract är inte deras mål.
+- **Facets flyger runt Tesseract och skjuter på den som är inom räckhåll.** De jagar varken den som gör mest skada eller någon enskild pilot: varje Facet flyger egna korta sträckor till slumpmässiga platser i en bred ring runt Tesseract, åt alla håll, och så snart en pilot som har träffat Tesseract är inom dess räckhåll skjuter den på den närmaste av dem. En grupp som håller ihop är inom räckhåll för färre Facets åt gången och delar deras eld, till skillnad från en grupp som är utspridd runt Tesseract. En Facet har lite skrov och sköld, och att skjuta ner en betalar som en [Phantasm](/wiki/04-Aliens/Phantasm.md) men tar en salva från piloterna nära den. En pilot som inte har träffat Tesseract är inte deras mål.
 - **Den som håller sig tillräckligt långt bort lämnas i fred.** Facets går aldrig längre från Tesseract än avståndet i listan *I korthet*; en pilot som stannar bortom det avståndet och en Facets laserräckvidd blir inte beskjuten, hur mycket skada han än har gjort. En Facet utan någon att skjuta på flyger vidare runt Tesseract och försvinner när Tesseract lämnas i fred.
 - **Beta och Gamma är hårdare.** Svärmarna i de världarna är starkare ([Världar](/wiki/05-Swarms/Swarms.md#the-worlds)), och det gäller också Tesseracts självläkning och varje Facets salva.
-- **Farosektorerna är PvP.** En rival kan attackera gruppen mitt i striden och vänta på lådan: den tillhör piloten som gjorde mest skada (och dennes klan) i 30 sekunder, och sedan vem som helst ([Last](/wiki/03-Mechanics/Cargo.md)). Kom inte ensam.
+- **Farosektorerna är PvP.** En rival kan attackera gruppen mitt i striden. Det ligger ingen låda vid vraket som han kan vänta på: bytet är en [privat låda](/wiki/03-Mechanics/Cargo.md#private-boxes) för varje pilot som nedskjutningen betalar, som bara den piloten kan se och ta. Kom inte ensam.
 - **Tesseract kommer tillbaka** efter tiden i listan *I korthet*, med full styrka, på sin plats.
 
 ## Belöningar och byte {#rewards-and-drops}
 
-Tesseract betalar för den strid det är: lika mycket som många Crystalys tillsammans, och mer för skadan det tål än en Crystalys, den bäst betalda utomjordingen. Betalningen delas efter skada mellan piloterna som stred mot det ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Dess låda går till piloten som gjorde mest skada och innehåller Power Cores och Ancient Control Units, och då och då Dark Matter. Skrovplattorna ligger inte i den: varje pilot som nedskjutningen betalar får en egen [privat låda](/wiki/03-Mechanics/Cargo.md#private-boxes) med plattor, som bara han ser och kan ta, i 10 minuter. Den slumpas fram för hans andel av skadan, som bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): den som gjorde en femtedel av skadan får ungefär en femtedel av mängderna i tabellen, och i en grupp får varje pilot sin del av gruppens andel, så som betalningen delas. Facets betalar ingenting, tappar ingenting och ger inga PvE-poäng: att skjuta ner dem är ingen farmning.
+Tesseract betalar för den strid det är: lika mycket som många Crystalys tillsammans, och mer för skadan det tål än en Crystalys, den bäst betalda utomjordingen. Betalningen delas efter skada mellan piloterna som stred mot det ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Det finns ingen låda för piloten som gjorde mest skada. Varje pilot som nedskjutningen betalar får en egen [privat låda](/wiki/03-Mechanics/Cargo.md#private-boxes), som bara han ser och kan ta, i 10 minuter, med Reinforced Hull Plates, Velkonite och Orvium Reinforced Plates, Power Cores, Ancient Control Units och Dark Matter. Den slumpas fram för hans andel av skadan, som bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): den som gjorde en femtedel av skadan får ungefär en femtedel av mängderna i tabellen, och i en grupp får varje pilot sin del av gruppens andel, så som betalningen delas. Dark Matter har ett tak för varje pilot: från en nedskjutning får han högst 5, hur stor hans andel än är (i en grupp skiljs varje pilots del av först, och taket gäller för var och en), och det som överstiger taket går förlorat, det ges inte till de andra. En Facet betalar lika mycket som en [Phantasm](/wiki/04-Aliens/Phantasm.md) i Krediter, Thulium, XP och Heder, och nedskjutningen räknas som en nedskjutning (i din statistik, för prestationer och för erfarenheten hos dina drönare och P.E.T.s), men den tappar ingenting och ger inga PvE-poäng.
 
 ## Värdena {#the-numbers}
 
@@ -70,21 +70,16 @@ Bygger på Crystalys med 625 % av skrovet; inget vapen, och sköld och hastighe
 | Heder | 624 | 1 248 | 1 872 |
 | PvE-poäng per nedskjutning | 42 | 42 | 42 |
 
-**Byte**: en låda, för piloten som gjorde mest skada.
+**Byte för varje pilot som nedskjutningen betalar**: en låda var, bara för honom, med hans andel av dessa mängder.
 
 | Föremål | Chans | Mängd |
 | :--- | ---: | ---: |
-| Power Core | 70 % | 1–2 |
-| Ancient Control Unit | 35 % | 1 |
-| Dark Matter | 2,5 % | 1 |
-
-**Byte för varje pilot som nedskjutningen betalar**: ytterligare en låda var, bara för honom, med hans andel av dessa mängder.
-
-| Föremål | Chans | Mängd |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 1–2 |
-| Velkonite Reinforced Plate | 60 % | 3–6 |
-| Orvium Reinforced Plate | 40 % | 1–2 |
+| Reinforced Hull Plate | 100 % | 3–10 |
+| Velkonite Reinforced Plate | 66 % | 7–12 |
+| Orvium Reinforced Plate | 50 % | 3–5 |
+| Power Core | 66 % | 4–7 |
+| Ancient Control Unit | 100 % | 1–4 |
+| Dark Matter | 100 % | 10–20, högst 5 per pilot |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Bygger på Seeker med 2 500 % av skrovet och 309 % av laserskadan; sköld, ha
 | Hastighet | 750 | 750 | 750 |
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
-| Krediter | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| Erfarenhet (XP) | 0 | 0 | 0 |
-| Heder | 0 | 0 | 0 |
+| Krediter | 3 000 | 6 000 | 9 000 |
+| Thulium | 12 | 24 | 36 |
+| Erfarenhet (XP) | 300 | 600 | 900 |
+| Heder | 6 | 12 | 18 |
 | PvE-poäng per nedskjutning | 0 | 0 | 0 |
 
-**Byte**: inget. Nedskjutningen betalar ingenting.
+**Byte**: inget. Nedskjutningen betalar bara sina krediter, sitt Thulium, sin XP och sin heder.
 
 <!-- tesseract-members:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Blindagem de casco -->
 # Blindagem de casco {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Item | Casco que acrescenta | De onde vem |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5.000 | Loja, 5.000 Thulium |
-| **Hull Plating II** | 10.000 | Montagem, a partir de uma Hull Plating I |
-| **Hull Plating III** | 15.000 | Montagem, a partir de uma Hull Plating II |
+| **Hull Plating I** | 8.000 | Loja, 5.000 Thulium |
+| **Hull Plating II** | 15.000 | Montagem, a partir de uma Hull Plating I |
+| **Hull Plating III** | 25.000 | Montagem, a partir de uma Hull Plating II |
 
 A Hull Plating I é comprada. **A II e a III são melhorias**: a Montagem consome uma blindagem do nível abaixo (solta no seu inventário) e pede Thulium, materiais e **Dark Matter Plates**, 5 para a II e 8 para a III, enquanto o último nível de qualquer outra peça de equipamento pede 4 e uma Ancient Control Unit. Cada uma precisa antes da sua tecnologia, na árvore da Hull Plating da página [Pesquisa](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 dia e 25 Dark Matter para a II, 2 dias e 40 para a III, além da tecnologia da própria Dark Matter Plate. A árvore acima traz os preços, os materiais e os tempos.
 
-A [Forja](/wiki/06-Items/Forge.md) aceita todas as blindagens, e uma melhoria mantém o grau de forja e o bônus da blindagem que consumiu. Uma blindagem tem um único atributo, o casco, então leva um único bônus, de +2% a +15% conforme o grau: uma Hull Plating III Eterna soma até 17.250. O [Leilão](/wiki/03-Mechanics/Auction.md) lista a Hull Plating II e a III, nunca a Hull Plating I, que a Loja vende.
+A [Forja](/wiki/06-Items/Forge.md) aceita todas as blindagens, e uma melhoria mantém o grau de forja e o bônus da blindagem que consumiu. Uma blindagem tem um único atributo, o casco, então leva um único bônus, de +2% a +15% conforme o grau: uma Hull Plating III Eterna soma até 28.750. O [Leilão](/wiki/03-Mechanics/Auction.md) lista a Hull Plating II e a III, nunca a Hull Plating I, que a Loja vende.
 
 ## Slots de blindagem {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ A blindagem de casco só entra em **slots de blindagem**, um tipo de slot própr
 
 | Nave | Slots de blindagem | Um conjunto completo de Hull Plating III soma |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75.000 |
-| **Storm** | 7 | 105.000 |
-| **Ironclad** | 15 | 225.000 |
-| **Wraith** | 10 | 150.000 |
+| **Paragon** | 5 | 125.000 |
+| **Storm** | 7 | 175.000 |
+| **Ironclad** | 15 | 375.000 |
+| **Wraith** | 10 | 250.000 |
 
 - **Todos bloqueados no início.** Um slot abre quando você o pesquisa no Skylab: uma tecnologia para cada slot, 1 hora e 10 Dark Matter, em ordem a partir do primeiro. A tela de [Pesquisa](/wiki/03-Mechanics/Research.md#ship-technologies) mostra os slots de uma nave como um único cartão com um ponto para cada um.
 - **Um tipo de nave, não uma nave só.** Os slots que você abriu para a Paragon estão abertos também em todos os designs da Paragon ([Designs de naves](/wiki/03-Mechanics/Ship-Designs.md)). Uma tecnologia é sua para sempre: o reset a mantém.

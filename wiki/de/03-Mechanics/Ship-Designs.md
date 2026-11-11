@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -18,8 +18,8 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 | **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink | 162.000 | 310 | 14 |
 | **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod | 180.000 | 210 | 16 |
 | **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon | 144.000 | 260 | 13 |
-| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 720.000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 600.000 | 110 | 10 |
+| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 600.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 500.000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 13 |
@@ -63,7 +63,7 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Alle vier** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Zusammen verlangen sie 500 Dark Matter zusätzlich zu den 749, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.364 für jede Technologie des Spiels.
+Zusammen verlangen sie 500 Dark Matter zusätzlich zu den 759, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.374 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 

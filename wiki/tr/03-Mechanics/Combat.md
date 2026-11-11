@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6032abb12d3d13a5 -->
+<!-- wiki-i18n source: 00e6e072226a1f45 -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -32,12 +32,17 @@ Her salvonun kritik vuruş olma şansı vardır.
 Son olarak, nihai hasar çıktısını elde etmek için genel çarpanlar (aktif boosterlar, örneğin Laser Damage Booster etkisi olan +%10, ya da x2, x3, x4 gibi lazer cephanesi çarpanları) uygulanır:
 - Formül: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Kuşanılmış bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) nihai hasarı bir kez daha çarpabilir: örneğin Auger +%21 lazer hasarı, Gyre −%11 ve uzaylılara karşı Culler +%12 (ayrı bir çarpandır, booster yüzdesinin parçası değildir).
+- Bir pilotun [Lazer teknolojisi](#laser-tech) salvoyu bir kez daha çarpar: temel hasarı ve onunla birlikte kritik vuruşun sabit hasarını.
 - **Siphon Battery** cephanesinin çarpanı x1, ama hedefi farklı: hasarı yalnızca hedefin kalkanından düşer (soğurma ne olursa olsun asla gövdeden değil) ve senin kendi kalkanına, en fazla maksimumuna kadar geçer. Bkz. [Lazerler ve cephane](/wiki/06-Items/Lasers.md).
 - **Dark Matter Ammo** (0.5.0) salvonun kendisini değiştirir: Dark Matter Ammo I çarpanını (x1,5 ile x5) her salvoda yeniden belirler, Dark Matter Ammo II ise yalnızca 1,5 saniyede bir x6 ile vurur ve hedefinin kalkanının aldığı hasarın dörtte birini sana verir. **Antimatter Battery** cephanesi hedefin soğurmasının %20’sini deler. Bkz. [Antimatter ve Dark Matter cephanesi](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Roketler {#3b-rockets}
 
-Bir [roketin](/wiki/06-Items/Rockets.md) kendi hasarı vardır (bir Lancet I 1.700 ile 2.100, bir Lancet III 5.200 ile 6.200, bir N.U.K.E. 45.000 ile 50.000 hasar verir); ateşlediğinde bir kez belirlenir ve her gemi için aynıdır: lazerlerin, amfilerin, boosterların ve cephanen onu değiştirmez ve kritik vuruş yoktur. Tüm roketler tek bir **3 saniyelik** zamanlayıcıyı paylaşır. Tek hedefli bir roketin **kalkan delmesi** vardır: hedefinin soğurmasından düşer (aşağıdaki Hasar alma bölümüne bak); bir patlama, yarıçapı içindeki her gemiye zarar verir; merkezde tam değeri, kenarda yarısını. Bir roketin bir pilotun gemisinden aldığı miktarı hiçbir şey sınırlamaz: önce kalkan, sonra gövde. Roketler kendi şirketine ya da kendi [grubuna](/wiki/03-Mechanics/Groups.md), içindeki şirketler hangileri olursa olsun, asla zarar vermez. Kuşanılmış bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) hem hasarı hem zamanlayıcıyı değiştiren tek şeydir: bir roket formasyonu her roketin hasarını artırır (en fazla +%55) ve birkaçı zamanlayıcıyı uzatır ya da kısaltır. [Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md) roketlerden hasar alır, lazerlerden de bir salvonun bir gemiye verdiği hasarın %5 kadarıyla (amfilerin, boosterların, cephanen ve kritik vuruşlar sayılır, asteroitin zırhı sonra düşer); dronlar onlara bir şey yapmaz ve bir atışın yoluna giren bir asteroit, arkasındaki gemi yerine vuruşu alır ([Siper](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), bir [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) da öyle.
+Bir [roketin](/wiki/06-Items/Rockets.md) kendi hasarı vardır (bir Lancet I 1.700 ile 2.100, bir Lancet III 5.200 ile 6.200, bir N.U.K.E. 45.000 ile 50.000 hasar verir); ateşlediğinde bir kez belirlenir ve her gemi için aynıdır: lazerlerin, amfilerin, boosterların ve cephanen onu değiştirmez ve kritik vuruş yoktur. Tüm roketler tek bir **3 saniyelik** zamanlayıcıyı paylaşır. Tek hedefli bir roketin **kalkan delmesi** vardır: hedefinin soğurmasından düşer (aşağıdaki Hasar alma bölümüne bak); bir patlama, yarıçapı içindeki her gemiye zarar verir; merkezde tam değeri, kenarda bir Ember ya da Scatter için %66'sını, N.U.K.E. için yarısını. Bir roketin bir pilotun gemisinden aldığı miktarı hiçbir şey sınırlamaz: önce kalkan, sonra gövde. Roketler kendi şirketine ya da kendi [grubuna](/wiki/03-Mechanics/Groups.md), içindeki şirketler hangileri olursa olsun, asla zarar vermez. Kuşanılmış bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) hem hasarı hem zamanlayıcıyı değiştirir: bir roket formasyonu her roketin hasarını artırır (en fazla +%55) ve birkaçı zamanlayıcıyı uzatır ya da kısaltır. [Roket tekniğin](/wiki/06-Items/Rockets.md#rocket-tech) bir pilot becerisidir; hasarı da çarpar (1. seviyede 0,80, 100. seviyede 1,10) ve bir roketin ateşleme hatası vermesine yol açabilir. [Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md) roketlerden hasar alır, lazerlerden de bir salvonun bir gemiye verdiği hasarın %5 kadarıyla (amfilerin, boosterların, cephanen ve kritik vuruşlar sayılır, asteroitin zırhı sonra düşer); dronlar onlara bir şey yapmaz ve bir atışın yoluna giren bir asteroit, arkasındaki gemi yerine vuruşu alır ([Siper](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), bir [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) da öyle.
+
+### 3c. Lazer teknolojisi {#laser-tech}
+
+**Lazer teknolojin**, bir [pilot becerisi](/wiki/03-Mechanics/Pilot-Skills.md), bir gemiye atılan salvoda iki şeyi değiştirir. Salvonun hasarını, 1. seviyede 1’in altında olan ve seviyeyle yükselen bir çarpanla çarpar (hem temel hasarı hem kritik vuruşun sabit hasarını). Ayrıca salvonun hiç isabet edip etmeyeceğinin şansını belirler. Iska geçen bir salvo hedefin üzerinde süzülen bir “Iska” yazısı gösterir, hasar vermez ve **mühimmatını yine de harcar**; hedefin kendi kaçınma şansına ayrıca sokulmaz. Her seviyedeki çarpan ve şans [Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) tablosundadır. [Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech) roketler için aynısını yapar.
 
 ### 4. Hedefe dönmek {#4-facing-the-target}
 
@@ -51,7 +56,7 @@ Bir gemi, hedefi **menzilinin** içindeyken saniyede bir salvo ateşler; hedef d
 
 Bir vuruş, isabet ettiği geminin üzerinde süzülen bir sayı olarak görünür. **Kendi sayıların** her zaman görünür: verdiğin hasar, aldığın hasar ve kendi onarımların. **Kilitlenme çemberinin altındaki gemi** daha fazlasını gösterir: aldığı her vuruşu ve her iyileştirmeyi, **kaynağı ne olursa olsun**. Yani diğer pilotların lazerleri, roketleri ve dronları, uzaylılar, Clan Warden saldırıları ve geminin kendi onarımları ile kalkan yenilenmesi. Başkası senin hedefine ateş ediyorsa onun hasarını da görürsün.
 
-- **Renkler.** Altın: bir uzaylıya ya da düşman pilota verilen hasar. Eksi işaretli kırmızı: korumakta olduğun bir gemiye (kendi şirketinden ya da grubundan bir pilot) verilen hasar ve senin aldığın hasar. Artı işaretli yeşil: bir iyileştirme; örneğin Emergency Repair, bir Repair Drone ya da geri gelen bir kalkan. Soluk gümüş “Iska”: bir formasyonun kaçınmasının savuşturduğu doğrudan vuruş. Kritik bir salvo daha büyüktür ve “!” ile biter (bir uzaylıya ya da düşmana isabet ederse buz mavisi).
+- **Renkler.** Altın: bir uzaylıya ya da düşman pilota verilen hasar. Eksi işaretli kırmızı: korumakta olduğun bir gemiye (kendi şirketinden ya da grubundan bir pilot) verilen hasar ve senin aldığın hasar. Artı işaretli yeşil: bir iyileştirme; örneğin Emergency Repair, bir Repair Drone ya da geri gelen bir kalkan. Soluk gümüş “Iska”: hasar vermeyen doğrudan vuruş: ya salvon ıskaladı ([Lazer teknolojisi](#laser-tech)) ya da hedef ondan kaçındı (bir formasyonun kaçınması, bir pilotun [Kaçınma](#grit-and-evasion) becerisi). Kritik bir salvo daha büyüktür ve “!” ile biter (bir uzaylıya ya da düşmana isabet ederse buz mavisi).
 - **Seninkiler daha parlak kalır.** Başkalarının senin hedefindeki sayıları biraz daha küçük ve soluktur ve geminin sağında bir sütunda dizilir; bu yüzden seninkilerin üstünü asla kapatmaz.
 - **Kalabalık için tek sayı.** Birlikte isabet eden vuruşlar tek bir sayıda toplanır, sonuna da bir sayaç (`×35`) eklenir. Bir gemiye ateş eden kırk pilot saniyede yaklaşık iki sayı üretir, yediden fazlasını asla. İyileştirmeler saniyede bir kez gösterilir.
 - **Yalnızca çemberin altındaki gemi.** Diğer her gemi yalnızca senin vuruşlarını ve sana gelen vuruşları gösterir. Kara deliğin radyasyonu ve bir formasyonun kalkan kaybı için sayı yoktur: çubuklarda görünürler.
@@ -116,8 +121,8 @@ Geminin bir düşman ya da NPC tarafından vurulduğunda hasar şu şekilde işl
 ### 1. Kalkan soğurması {#1-shield-absorption}
 
 Gelen hasar, kalkanlar ile gövde puanları arasında geminin **ortalama soğurması** ile bölüşülür: kalkanlarının soğurmasının ortalaması, her biri kendi kalkan hücrelerininkiyle birlikte, artı Sezon Mağazası’ndaki Shield Absorbance Boost (bkz. [Kalkan mekaniği](/wiki/03-Mechanics/Shields.md)). **%100 ile sınırlı değildir**: kalkanların bir vuruştan aldığı pay, soğurman **eksi saldırganın kalkan delmesidir**, %0 ile %100 arasında.
-- **Soğurma** (örneğin en iyi kalkan ve en iyi hücrelerle %85, iki Absorption Shield Cell I taşıyan bir Basic Shield Core ile %58) her vuruşun bir kısmını kalkanlara aktarır, vuruşun delmesi düşüldükten sonra: Lancet III roketinin %35 delmesi, %85 soğurmalı bir geminin kalkanlarında %50 bırakır ve geri kalanı (orada %50) doğrudan gövde puanına vurur.
-- **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%3 ile +%12) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
+- **Soğurma** (örneğin en iyi kalkan ve en iyi hücrelerle %91, iki Absorption Shield Cell I taşıyan bir Basic Shield Core ile %62) her vuruşun bir kısmını kalkanlara aktarır, vuruşun delmesi düşüldükten sonra: Lancet III roketinin %35 delmesi, %91 soğurmalı bir geminin kalkanlarında %56 bırakır ve geri kalanı (orada %44) doğrudan gövde puanına vurur.
+- **Kalkan delme** doğrudan roketlerden (%10 ile %35) ve x3 ile x4 lazer cephanesinden (%5 ve %10) gelir; uzaylılarda yoktur. Soğurması %100’ü aşan bir gemi (diyelim %112), farka (orada %12) kadar delmeye karşı bir vuruşun tamamını tutar. Atıcının lazerlerine takılı Penetration Amp eşyaları (yuva başına +%5 ile +%20) ve bir dron formasyonu buna eklenir ve toplamı hiçbir şey sınırlamaz.
 - Payı için fazla düşük kalan bir kalkan farkı gövde puanına aktarır; kalkanlar tamamen bittiyse kalan tüm hasar (**%100**) gövde puanına vurur.
 - Uzaylıların soğurma özelliği yoktur: kalkanları her vuruşun %80 kadarını alır (vuruşun delmesi düşülür), gövdeleri geri kalanını.
 - **Dron formasyonları.** Rampart soğurmanı %17 artırır (Shrike %10 azaltır), Asterism, sana gelen her doğrudan vuruşun %7 şansla hiç hasar vermemesini sağlar (süzülen bir “Iska” görünür) ve isabet eden vuruşlar her zamanki gibi kalkan ile gövde arasında bölüşülür. Gemini (+15 puan) kendi cephanene ve doğrudan roketlerine kalkan delme ekler, Stiletto (+35 puan roket delmesi) yalnızca doğrudan roketlere ekler, sınır yoktur ([Dron formasyonları](/wiki/03-Mechanics/Formations.md)). Bir lazer için amfileri de sayılır.
@@ -133,6 +138,15 @@ Her şirketin ana üssü (X-1 haritaları) güvenli bölgeler içerir.
 ### 3. Bir Tehlike Sektörü’nde saldırı altında {#3-under-attack-in-a-danger-sector}
 
 Bir portaldan sıçrama 3 saniye sürer (bkz. [Uzay haritası yolculuğu](/wiki/01-General/Spacemap%20Travel.md)). Tehlike Sektörleri’nde (`DS-1` ile `DS-4`), gemisi son **10 saniye** içinde başka bir pilot ya da bir uzaylı tarafından vurulmuş bir pilot sıçrama başlatamaz ve bir vuruş devam eden bir sıçramayı iptal eder. Başka her yerde saldırılar bir sıçramayı asla kesmez ve bir [kargo](/wiki/03-Mechanics/Cargo.md) kutusunun toplanmasını hiçbir şey kesmez.
+
+### 4. Dayanıklılık ve Kaçınma {#grit-and-evasion}
+
+İki [pilot becerisi](/wiki/03-Mechanics/Pilot-Skills.md), kalkanlarının ve formasyonunun üstüne, bir vuruşun sana ne yaptığını değiştirir:
+
+- **Dayanıklılık**, yediğin her vuruşun hasarından, kalkanla gövde onu aralarında bölüşmeden önce bir pay düşer; yani ikisini de azaltır. Pay becerinin seviyesiyle büyür.
+- **Kaçınma**, doğrudan bir vuruşun hiç hasar vermeme şansına eklenir (süzülen bir “Iska” yazısı çıkar). Her pilotun gemisinin kendi küçük bir şansı zaten vardır; Kaçınma ona eklenir, kaçınması olan bir [dron formasyonu](/wiki/03-Mechanics/Formations.md) ise ikisine birden eklenir. Şans %100’ü geçemez. Bir alan patlamasının nişanı yoktur ve ondan hiç kaçınılmaz.
+
+Her seviyenin değerleri [Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) tablosundadır.
 
 ---
 
@@ -154,9 +168,9 @@ Bir portaldan sıçrama 3 saniye sürer (bkz. [Uzay haritası yolculuğu](/wiki/
 
 - **İşleyiş**: Bir Repair Drone takarsan (hangardaki Ekstralar altında) onu kısayol çubuğundan açarsın (Ekstralar bölümünden bir yuvaya sürükle) ve gövdeni (HP) onarır. Herhangi bir vuruş onu kapatır ve gövde dolunca durur. Takılı bir [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) ile onu yeniden açmana gerek kalmaz: aşağıdaki gecikme geçer geçmez dronu kendisi gönderir, onu elle durdurmadıysan.
 - **Onarım hızı**: Her saniye maksimum gövde puanının bir yüzdesini geri yükler (yalnızca takılı en iyi dron sayılır, toplanmazlar):
-  - **Repair Drone I**: %1,5 maks. HP / sn
-  - **Repair Drone II**: %2,25 maks. HP / sn
-  - **Repair Drone III**: %3,5 maks. HP / sn
+  - **Repair Drone I**: %2 maks. HP / sn
+  - **Repair Drone II**: %3 maks. HP / sn
+  - **Repair Drone III**: %4 maks. HP / sn
   - **Repair Drone IV**: %5 maks. HP / sn
 - **Gecikme**: Onarım dronları gövdeyi ancak **10 saniye** hasar almadıktan sonra onarmaya başlar.
 - **Yetenek yuvasında** bir Repair Drone kendi başına onarmaz: sana **Emergency Repair** verir; ateş altında bile maksimum gövde puanının bir payını on saniyede iyileştiren bir düğme (bkz. [Yetenekler](/wiki/03-Mechanics/Abilities.md)).

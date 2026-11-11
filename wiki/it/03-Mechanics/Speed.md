@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 93ce109824aad6c2 -->
+<!-- wiki-i18n source: 43de857ffcad0375 -->
 <!-- wiki-i18n title: Velocità -->
 # Calcolo della velocità {#speed-calculation}
 
@@ -21,7 +21,7 @@ Ogni motore equipaggiato genera velocità, e così ogni Nucleo adattivo che cont
 - **Bonus fisso dei propulsori**: la somma di tutte le aggiunte fisse di velocità dei propulsori (ad es. l’Impulse Thruster III dà `+12.75` di velocità).
 - **Moltiplicatore dei propulsori**: il prodotto dei moltiplicatori di velocità di tutti i propulsori montati in quel motore (ad es. il Momentum Thruster III è `1.0765`, ovvero `+7.65%`, l’Impulse Thruster III `1.0255`, ovvero `+2.55%`). Moltiplica tutto ciò che il motore produce: la sua velocità base e i bonus fissi dei propulsori. Un Nucleo adattivo non ha una velocità base propria, e i bonus fissi dei suoi propulsori vengono moltiplicati lo stesso.
 
-Un Engine III (velocità base 6) con tre Momentum Thruster IV (`+11.135`, `1.0935`) produce (6 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 51,5, e con tre Impulse Thruster IV (`+14.025`, `1.02975`) (6 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 52,5. Un bonus della Forgia sul moltiplicatore di un propulsore fa crescere la parte sopra 1: +15% su `1.0935` dà `1.1075`.
+Un Engine III (velocità base 15) con tre Momentum Thruster IV (`+11.135`, `1.0935`) produce (15 + 3 x 11,135) x 1,0935 x 1,0935 x 1,0935 = 63,3, e con tre Impulse Thruster IV (`+14.025`, `1.02975`) (15 + 3 x 14,025) x 1,02975 x 1,02975 x 1,02975 = 62,3. Un bonus della Forgia sul moltiplicatore di un propulsore fa crescere la parte sopra 1: +15% su `1.0935` dà `1.1075`.
 
 ### 2. Rendimenti decrescenti (efficienza marginale) {#2-diminishing-returns-marginal-efficiency-}
 
@@ -45,4 +45,5 @@ La percentuale totale del bonus di velocità è la somma di tutti i bonus di vel
 - **Penalità di velocità degli scudi**: gli scudi pesanti appesantiscono la nave e aggiungono percentuali di velocità negative (ad es. un Heavy Shield Core aggiunge `-5%` di velocità).
 - **Scala degli slot**: anche questi bonus e queste penalità percentuali vengono scalati dall’efficienza dello slot in cui è montato l’oggetto. Uno scudo montato su uno dei tuoi droni ti rallenta come uno scudo in uno slot principale.
 - **Mai sotto zero**: per quanti scudi tu porti, la tua velocità non scende sotto 0.
+- **Competenza del pilota**: la tua [Teoria dei propulsori](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) aumenta la velocità di una quota, un po’ di più a ogni livello, in aggiunta ai motori. L’Afterburner moltiplica il risultato.
 - **Formazioni di droni**: una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata cambia ancora la velocità finale, come fattore a parte: Gyre +10%, Cordon −3%, Auger −9%, Culler −10%, Redoubt −11%, Rampart −17%. L’Afterburner moltiplica poi il risultato.

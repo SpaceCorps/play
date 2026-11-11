@@ -15,7 +15,7 @@ A **P.E.T.** (Personal Escort Technology) is a small companion that flies beside
 ## In one minute
 
 - **Get the Station.** Research a **P.E.T. Station** in the Research Centre and make it in Assembly. It has three levels, with room for **2, 3 and 5** P.E.T.s. Fit it in an Extras slot of the ship you fly. The Cradle works without it: you can hatch P.E.T.s before you own a Station.
-- **Find chunks.** Break asteroids from the second tier up: a **Regular**, a **Mythical** or a **Legendary Cluster Chunk** can be left whole in the ore chunk of the party that dealt the most damage.
+- **Find chunks.** Break asteroids, the bigger the better: a **Regular**, a **Mythical** or a **Legendary Cluster Chunk** can be left whole in the ore chunk of the party that dealt the most damage.
 - **Hatch.** In the Hangar's **P.E.T.** view the Cradle takes one chunk and one Orvium Reinforced Plate for each P.E.T. and has four places in its queue. The chunk's grade decides how many boosts the P.E.T. has: **1, 2 or 3**.
 - **Dock and fly.** Dock the P.E.T.s you want while your ship is landed. With a Station fitted and ON they add their boosts and gain experience as you hunt, mine and fly, up to level 20.
 - **ON and OFF.** The **PET** slot of the hotbar switches the Station, in flight, and the change counts at once: OFF, your P.E.T.s give no boosts, earn no experience and do not work; ON, they are back. A Station you have not switched is ON.
@@ -35,7 +35,7 @@ The Hangar's P.E.T. view says which Station you own, where it is fitted and whet
 
 ## Cluster Chunks
 
-Cluster Chunks are crystal clusters that rocks hold. They come in three grades, **Regular**, **Mythical** and **Legendary**, and a break of a rock leaves at most one of each. From tier 2 of the [rocks](/wiki/03-Mechanics/Asteroid-Mining.md) up a break can leave a Regular chunk, from tier 3 a Mythical one and from tier 4 a Legendary one; the Motherlode gives them most often. The chances are in [Resources](/wiki/06-Items/Resources.md#regular-cluster-chunk). The chunk is not part of the break's pay: it goes whole, in the ore chunk, to the party that dealt the most damage, and no Luck changes its chance, a P.E.T.'s included.
+Cluster Chunks are crystal clusters that rocks hold. They come in three grades, **Regular**, **Mythical** and **Legendary**, and a break of a rock leaves at most one of each. A break of any [rock](/wiki/03-Mechanics/Asteroid-Mining.md) can leave a Regular chunk, from tier 3 up a Mythical one and from tier 4 up a Legendary one; the Motherlode gives them most often. The chances are in [Resources](/wiki/06-Items/Resources.md#regular-cluster-chunk). The chunk is not part of the break's pay: it goes whole, in the ore chunk, to the party that dealt the most damage, and no Luck changes its chance, a P.E.T.'s included.
 
 A chunk is a resource: it cannot be sold, and it is deleted by the wipe unless you carry it over in the [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 

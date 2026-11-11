@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Blindage de coque -->
 # Blindage de coque {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Objet | Coque ajoutée | D’où il vient |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5 000 | Boutique, 5 000 Thulium |
-| **Hull Plating II** | 10 000 | Assemblage, à partir d’un Hull Plating I |
-| **Hull Plating III** | 15 000 | Assemblage, à partir d’un Hull Plating II |
+| **Hull Plating I** | 8 000 | Boutique, 5 000 Thulium |
+| **Hull Plating II** | 15 000 | Assemblage, à partir d’un Hull Plating I |
+| **Hull Plating III** | 25 000 | Assemblage, à partir d’un Hull Plating II |
 
 Le Hull Plating I s’achète. **Le II et le III sont des améliorations** : l’Assemblage consomme un blindage du palier en dessous (libre dans votre inventaire) et demande du Thulium, des matériaux et des **Dark Matter Plates**, 5 pour le II et 8 pour le III, là où le dernier palier de toute autre pièce d’équipement en demande 4 et une Ancient Control Unit. Chacun a d’abord besoin de sa technologie, dans l’arbre Hull Plating de la page [Recherche](/wiki/03-Mechanics/Research.md#tree-hull-plating) : 1 jour et 25 Dark Matter pour le II, 2 jours et 40 pour le III, en plus de la technologie de la Dark Matter Plate elle-même. L’arbre ci-dessus donne les prix, les matériaux et les durées.
 
-La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge et le bonus du blindage consommé. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Éternel ajoute jusqu’à 17 250. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
+La [Forge](/wiki/06-Items/Forge.md) accepte tous les blindages, et une amélioration conserve le rang de forge et le bonus du blindage consommé. Un blindage n’a qu’une seule stat, sa coque, il porte donc un seul bonus, de +2 % à +15 % selon le rang : un Hull Plating III Éternel ajoute jusqu’à 28 750. Les [Enchères](/wiki/03-Mechanics/Auction.md) acceptent les Hull Plating II et III, jamais le Hull Plating I, que vend la boutique.
 
 ## Emplacements de blindage {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Le blindage de coque ne se monte que dans des **emplacements de blindage**, un t
 
 | Vaisseau | Emplacements de blindage | Un jeu complet de Hull Plating III ajoute |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75 000 |
-| **Storm** | 7 | 105 000 |
-| **Ironclad** | 15 | 225 000 |
-| **Wraith** | 10 | 150 000 |
+| **Paragon** | 5 | 125 000 |
+| **Storm** | 7 | 175 000 |
+| **Ironclad** | 15 | 375 000 |
+| **Wraith** | 10 | 250 000 |
 
 - **Tous verrouillés au départ.** Un emplacement s’ouvre quand vous le recherchez dans le Skylab : une technologie par emplacement, 1 heure et 10 Dark Matter, dans l’ordre à partir du premier. La vue [Recherche](/wiki/03-Mechanics/Research.md#ship-technologies) montre les emplacements d’un vaisseau sous la forme d’une seule carte avec un point par emplacement.
 - **Un type de vaisseau, pas un seul vaisseau.** Les emplacements que vous avez ouverts pour le Paragon sont ouverts aussi sur chaque design du Paragon ([Designs de vaisseaux](/wiki/03-Mechanics/Ship-Designs.md)). Une technologie est à vous pour toujours : la réinitialisation la conserve.

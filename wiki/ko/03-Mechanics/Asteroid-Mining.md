@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: 소행성 채굴 -->
 # 소행성 채굴 {#asteroid-mining}
 
@@ -45,7 +45,7 @@
 
 큰 소행성일수록 조각이 더 많이 남습니다(「종류」의 돈 조각 열: 크레딧과 Thulium는 그 수만큼의 조각으로 나뉘고, 광석은 하나 더 있습니다). 회수한 뒤에는 근처 소행성의 내가 가져갈 수 있는 다음 조각으로 함선이 저절로 이어서 갑니다. 내가 이동 명령을 내리면 멈춥니다.
 
-바위의 티어 2 이상에서는 부서질 때 **Cluster Chunk**가 통째로 남을 수 있으며, 가장 많은 피해를 준 파티의 광석 덩어리에 들어갑니다. **Regular Cluster Chunk**는 티어 2부터, **Mythical Cluster Chunk**는 티어 3부터, **Legendary Cluster Chunk**는 티어 4부터 나오고, Motherlode가 가장 자주 줍니다. 확률은 [자원](/wiki/06-Items/Resources.md#regular-cluster-chunk)에 있습니다. 행운은 이를 바꾸지 않으며 P.E.T.의 행운도 마찬가지입니다. Orvium Reinforced Plate와 함께 격납고의 요람에서 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 됩니다.
+바위가 부서질 때 **Cluster Chunk**가 통째로 남을 수 있으며, 가장 많은 피해를 준 파티의 광석 덩어리에 들어갑니다. **Regular Cluster Chunk**는 티어 1부터, **Mythical Cluster Chunk**는 티어 3부터, **Legendary Cluster Chunk**는 티어 4부터 나오고, Motherlode가 가장 자주 줍니다. 확률은 [자원](/wiki/06-Items/Resources.md#regular-cluster-chunk)에 있습니다. 행운은 이를 바꾸지 않으며 P.E.T.의 행운도 마찬가지입니다. Orvium Reinforced Plate와 함께 격납고의 요람에서 [P.E.T.](/wiki/03-Mechanics/Pets.md)가 됩니다.
 
 ## 조각을 받는 사람 {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Alpha, Beta, Gamma 각 월드에는 같은 자리에 자기만의 소행성이 �
 
 소행성의 **티어**는 그 종류가 속한 섹터 링을 뜻합니다. 티어 1~4는 세 기업의 섹터 x-1~x-4이고, 티어 5는 위험 섹터입니다. 티어는 크기에 따라 올라갑니다. 소행성이 클수록 티어가 높습니다. 하지만 둘이 같지는 않아서, 대부분의 티어에는 두 가지 크기가 있으며 표에 나와 있습니다. 대상 창과 마우스를 올렸을 때 나오는 카드에는 소행성의 계열, 크기, 티어가 표시됩니다.
 
-티어는 별도의 전리품도 결정합니다. **P.E.T. 부품**은 [P.E.T.](/wiki/03-Mechanics/Pets.md) 요람이 받는 Cluster Chunk입니다. 표에는 부서진 소행성이 각 등급을 남길 확률이 나와 있습니다(대시: 절대 없음). 티어 1의 소행성은 아무것도 남기지 않습니다. 등급마다 소행성 하나가 부서질 때 한 번씩 굴리며, 피해를 가장 많이 입힌 파일럿이 청크를 통째로 받고, 행운은 확률을 바꾸지 않습니다. Motherlode는 확률이 따로 있습니다. 소행성을 선택하면 대상 창에 그 종류의 P.E.T. 부품이 나열됩니다.
+티어는 별도의 전리품도 결정합니다. **P.E.T. 부품**은 [P.E.T.](/wiki/03-Mechanics/Pets.md) 요람이 받는 Cluster Chunk입니다. 표에는 부서진 소행성이 각 등급을 남길 확률이 나와 있습니다(대시: 절대 없음). 등급마다 소행성 하나가 부서질 때 한 번씩 굴리며, 피해를 가장 많이 입힌 파일럿이 청크를 통째로 받고, 행운은 확률을 바꾸지 않습니다. Motherlode는 확률이 따로 있습니다. 소행성을 선택하면 대상 창에 그 종류의 P.E.T. 부품이 나열됩니다.
 
 | 티어 | 섹터 | 크기 | 종류 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | 극소, 소형 | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | 소형, 중형 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
-| 3 | `x-3` | 중형 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
-| 4 | `x-4` | 중형, 대형 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
-| 5 | 위험 섹터 | 대형 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
-| 5 | 위험 섹터 | 초대형 | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | 극소, 소형 | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0.5% | – | – |
+| 2 | `x-2` | 소형, 중형 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | 중형 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2.5% | 0.35% | – |
+| 4 | `x-4` | 중형, 대형 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0.5% | 0.1% |
+| 5 | 위험 섹터 | 대형 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0.5% |
+| 5 | 위험 섹터 | 초대형 | Motherlode | 20% | 5% | 3% |
 
 소행성은 8개 계열에 27가지 종류가 있습니다. **대응 로켓**은 그 종류에 맞춰 균형이 잡힌 로켓과, Alpha에서 부수는 데 대략 몇 발이 드는지입니다. **획득물**은 부서질 때 추첨되어 그 조각들이 나누어 갖는 광석과 희귀한 획득물입니다. 퍼센트는 그 줄의 확률이고, 다른 줄은 항상 나옵니다. 크레딧과 Thulium는 부서질 때의 Alpha 기준 양입니다.
 

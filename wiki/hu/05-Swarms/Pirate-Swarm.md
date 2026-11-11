@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9070ca3143eddf92 -->
+<!-- wiki-i18n source: aace02deb18f7c01 -->
 <!-- wiki-i18n title: Pirate-raj -->
 # Pirate-raj {#pirate-swarm}
 
@@ -32,7 +32,7 @@ A Pirate-raj egy **Pirate Boss** a **Pirate Scoutjaival**: egy hatalmas, lassú 
 - **A bosst lődd, ne a Scoutokat.** A Scoutok gyógyítják a bosst, de a gyógyítás kicsi a boss hajótestéhez képest, és új Scout olyan gyakran érkezik, ahogy a *Röviden* lista mondja: az a csoport, amelyik előbb a Scoutokat lövi, sosem kerül előnybe velük szemben, és csak egy nagyon nagy csoport tudja kitakarítani őket, mégis tovább tart neki a boss befejezése, mint annak, amelyik békén hagyta őket. A Scoutok időt vesznek el tőled, a harcot nem ők döntik el.
 - **Vezesd el a Scoutokat.** A Scout csak addig gyógyít, amíg a boss hatótávján belül van, így az a Scout, amelyik a hatótávon kívülre követ téged, semmit sem gyógyít, és az Ostirion gyorsabb a Scoutnál.
 - **Mozogj folyamatosan.** A boss rakétája egyenes és nem önirányító: a folyamatosan mozgó hajó kitér előle, az álló hajót eltalálja.
-- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-3` szektoron akkor is veszít, ha a találatok szétoszlanak, de az `x-2` szektoron egyetlen hajó elvesztése nélkül megnyerik a harcot; négyen nagyjából négy perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron is elég három (nagyjából két és fél perc). Öten nagyjából három perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából négy perc alatt, ha egy pilóta kapja az összes tüzet, de akkor két hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, öt főt kíván. Betában öt, Gammában hét pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül sem tudja: két Paragon biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül elpusztul, x2 és x4 lőszerrel is. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
+- **Hozz csoportot.** Három Ostirion-pilóta x2 lőszerrel az `x-2` szektoron egyetlen hajó elvesztése nélkül leteríti, az `x-3` szektoron is, amíg a találatok szétoszlanak, bár csak éppen hogy; négyen nagyjából három és fél perc alatt leterítik Alphában. x4 lőszerrel az `x-3` szektoron három pilóta nagyjából két perc alatt leteríti. Öten nagyjából két és fél perc alatt leterítik, ha a találatok szétoszlanak, és nagyjából három perc alatt, ha egy pilóta kapja az összes tüzet, de akkor két hajót elveszítenek: az a csoport, amelynél egy pilóta kapja az összes tüzet, négy főt kíván. Betában öt, Gammában hat pilóta kell, szétoszló találatokkal (ott nagyobb a boss, és a Scoutjai többet gyógyítanak). Alphában az `x-3` szektoron x2 lőszerrel egy Ostirion egyedül nem tudja leteríteni, egy Paragon egyedül éppen hogy leteríti, két Paragon pedig biztonságosan leteríti. Betában és Gammában az `x-3` szektoron egy Paragon egyedül x2 lőszerrel elpusztul; x4 lőszerrel Betában leteríti, Gammában elpusztul. A boss az első pilótának válaszol, aki eltalálta, ezért a legellenállóbb hajó kezdje, és használd a képességeidet (Emergency Repair, Shield Surge: [Képességek](/wiki/03-Mechanics/Abilities.md)) egy ilyen hosszú harcban. A még 2. vagy 3. szintű pilóták túl gyengék hozzá, még ott is, ahol repülnek: maradj távol, amíg erősebb nem leszel.
 - **A boss visszatér** a *Röviden* lista szerinti idő múlva, ugyanabban a szektorban.
 
 ## Jutalmak és zsákmány {#rewards-and-drops}
@@ -52,7 +52,7 @@ Alapja: Ironclad, hajótestének, pajzsának és sebzésének 50%-a; a sebesség
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 300 000 | 450 000 | 600 000 |
+| Hajótest | 250 000 | 375 000 | 500 000 |
 | Pajzs | 50 100 | 75 150 | 100 200 |
 | Lézersebzés (másodpercenként egy sorozat) | nincs | nincs | nincs |
 | Sebesség | 110 | 110 | 110 |

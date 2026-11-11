@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Aquí viven tres alienígenas de la civilización perdida, cada uno con sus prop
 
 - **Slumbering Void.** El cazador esbelto, el alienígena más rápido del juego (más rápido que una Storm con Afterburner III). Algunos patrullan siempre los alrededores del pantano, y otros llegan en oleadas a las excavadoras. Es agresivo, caza al piloto más cercano que pueda ver y nunca ve una nave camuflada.
 - **Inert Mass.** Un casco muerto con grietas violetas, del tamaño de una estación pequeña. Se quedan a una distancia fija del centro del pantano y por ahora no se alejan de él. Dispara **Dormant Lances**: cohetes guiados de larguísimo alcance que siguen a una nave hasta que se camufla, abre una ventana de EMP, entra en un anillo seguro, salta o muere. Es más rápida que cualquier nave, así que solo esas interrupciones sirven. Un asteroide en el camino de una Dormant Lance la detiene, y la Lance daña ese asteroide con su propio daño (nadie cobra por ello), así que una roca protege de una Inert Mass solo durante unos pocos impactos.
-- **El Unwakened.** Un monolito que duerme en el centro del pantano, lo más grande de cualquier mapa, tan lento que nunca alcanza a una nave. No dispara nada, pero toda nave dentro de su aura se quema, **camuflada o no**. Es **inmune**: los disparos y los cohetes impactan y no hacen nada, la ventana de objetivo muestra las barras llenas y la palabra Inmune. Un evento posterior permitirá combatirlo; sus recompensas de abajo están escritas y todavía no se pueden ganar.
+- **El Unwakened.** Un monolito que duerme en el centro del pantano, lo más grande de cualquier mapa, tan lento que nunca alcanza a una nave. No dispara nada, pero toda nave dentro de su aura se quema, **camuflada o no**. Es **inmune**: los disparos y los cohetes impactan y no hacen nada, la ventana de objetivo muestra las barras llenas y la palabra Inmune. Un evento posterior permitirá combatirlo; sus recompensas de abajo están escritas y todavía no se pueden ganar. La **Tecnología de radiación** de un piloto reduce su quemadura, hasta 0,40 de ella en el nivel 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

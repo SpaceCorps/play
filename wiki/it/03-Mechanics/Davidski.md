@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Una **Ironclad TITANIC** dipinta d’oro, della grandezza propria della TITANIC,
 | Extra | un Repair Drone IV, una Auto-Repair CPU e una Base CPU II |
 | Scafo | 15 Hull Plating III |
 
-Con la forza di Alpha ha **858.750 di scafo**, **1.309.534 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento dell’86,3%, velocità 98, portata 945 e una salva di **4.324 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,2 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa tredici minuti di fuoco continuo, dieci di loro di circa 77 secondi.
+Con la forza di Alpha ha **931.250 di scafo**, **1.559.486 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento del 90,9%, velocità 102, portata 945 e una salva di **4.440 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,5 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa quattordici minuti di fuoco continuo, dieci di loro di circa 86 secondi.
 
 ## Combatterlo {#fighting-him}
 
@@ -38,10 +38,10 @@ Paga come un boss, in base al danno inflitto da ogni pilota (una quota sotto il 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Crediti | 1.590.000 | 3.180.000 | 4.770.000 |
-| Thulium | 4.275 | 8.550 | 12.825 |
-| Esperienza | 255.000 | 510.000 | 765.000 |
-| Onore | 1.110 | 2.220 | 3.330 |
+| Crediti | 1.830.000 | 3.660.000 | 5.490.000 |
+| Thulium | 4.875 | 9.750 | 14.625 |
+| Esperienza | 292.500 | 585.000 | 877.500 |
+| Onore | 1.275 | 2.550 | 3.825 |
 
 La cassa contiene da 40 a 60 Ship Fragment, da 10 a 20 Power Core e da 3.000 a 6.000 Advanced Plasma, e a volte Ancient Control Unit o Dark Matter. Una distruzione **non dà punti PvE** alla tua classifica (lui è fuori da tutte le classifiche, vedi sotto); l’esperienza che paga conta come qualsiasi altra esperienza, e la distruzione è contata con il nome Davidski nelle tue statistiche di distruzioni.
 

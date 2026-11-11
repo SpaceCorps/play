@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Az elveszett civilizáció három idegene él itt, mindegyiknek megvannak a saj�
 
 - **Slumbering Void.** A karcsú vadász, a játék leggyorsabb idegene (gyorsabb, mint egy Storm Afterburner III-mal). Néhány mindig a mocsár környékét járőrözi, mások hullámokban érkeznek a kotrógépekhez. Agresszív, a legközelebbi pilótára vadászik, akit lát, és soha nem lát álcázott hajót.
 - **Inert Mass.** Egy holt roncsóriás ibolya repedésekkel, egy kis állomás méretű. Állandó távolságon belül maradnak a mocsár közepétől, és egyelőre nem hagyják el. **Dormant Lance-eket** lő: nagyon nagy hatótávú, irányított rakétákat, amelyek követik a hajót, amíg az nem álcázza magát, nem nyit EMP-ablakot, nem lép biztonsági gyűrűbe, nem ugrik, vagy meg nem hal. Minden hajónál gyorsabb, ezért csak ezek a megszakítások segítenek. Egy aszteroida a Dormant Lance útjában megállítja azt, a Lance pedig a saját sebzésével rongálja az aszteroidát (ezért senki nem kap fizetséget), így egy szikla csak néhány találatig véd egy Inert Mass ellen.
-- **Az Unwakened.** Egy monolit, amely a mocsár közepén alszik, a legnagyobb dolog bármely térképen, olyan lassú, hogy soha nem ér utol hajót. Semmit nem lő, de minden hajó, amely az aurájában van, elég, **álcázva vagy sem**. **Immunis**: a lövések és a rakéták eltalálják, és nem csinálnak semmit, a célablak teli sávokat és az Immunis szót mutatja. Egy későbbi esemény lehetővé teszi majd a leküzdését; az alábbi jutalmai fel vannak jegyezve, és még nem szerezhetők meg.
+- **Az Unwakened.** Egy monolit, amely a mocsár közepén alszik, a legnagyobb dolog bármely térképen, olyan lassú, hogy soha nem ér utol hajót. Semmit nem lő, de minden hajó, amely az aurájában van, elég, **álcázva vagy sem**. **Immunis**: a lövések és a rakéták eltalálják, és nem csinálnak semmit, a célablak teli sávokat és az Immunis szót mutatja. Egy későbbi esemény lehetővé teszi majd a leküzdését; az alábbi jutalmai fel vannak jegyezve, és még nem szerezhetők meg. A pilóta **Sugárzástechnikája** csökkenti az égetést, a 100. szinten annak 0,40-szeresére.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

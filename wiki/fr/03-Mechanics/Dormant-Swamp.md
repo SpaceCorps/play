@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Trois aliens de la civilisation perdue vivent ici, chacun avec ses propres chiff
 
 - **Slumbering Void.** Le chasseur élancé, l’alien le plus rapide du jeu (plus rapide qu’un Storm avec Afterburner III). Certains patrouillent toujours aux abords du marais, et d’autres arrivent par vagues aux excavatrices. Il est agressif, traque le pilote le plus proche qu’il peut voir et ne voit jamais un vaisseau occulté.
 - **Inert Mass.** Une carcasse morte aux fissures violettes, de la taille d’une petite station. Elles restent à une distance fixe du milieu du marais et ne le quittent pas pour l’instant. Elle tire des **Dormant Lances** : des roquettes guidées à très longue portée qui suivent un vaisseau jusqu’à ce qu’il s’occulte, ouvre une fenêtre d’EMP, entre dans un anneau sûr, saute ou meure. Elle est plus rapide que n’importe quel vaisseau, donc seules ces ruptures aident. Un astéroïde sur la trajectoire d’une Dormant Lance l’arrête, et la Lance l’endommage de son propre dégât (personne n’est payé pour cela) ; un rocher ne protège donc d’une Inert Mass que pour quelques coups.
-- **L’Unwakened.** Un monolithe qui dort au milieu du marais, la plus grande chose de toutes les cartes, si lent qu’il n’attrape jamais un vaisseau. Il ne tire rien, mais tout vaisseau dans son aura brûle, **occulté ou non**. Il est **immunisé** : les tirs et les roquettes touchent et ne font rien, la fenêtre de cible montre des barres pleines et le mot Immunisé. Un événement ultérieur permettra de le combattre ; ses récompenses ci-dessous sont écrites et ne peuvent pas encore être gagnées.
+- **L’Unwakened.** Un monolithe qui dort au milieu du marais, la plus grande chose de toutes les cartes, si lent qu’il n’attrape jamais un vaisseau. Il ne tire rien, mais tout vaisseau dans son aura brûle, **occulté ou non**. Il est **immunisé** : les tirs et les roquettes touchent et ne font rien, la fenêtre de cible montre des barres pleines et le mot Immunisé. Un événement ultérieur permettra de le combattre ; ses récompenses ci-dessous sont écrites et ne peuvent pas encore être gagnées. La **Technique de radiation** d’un pilote réduit sa brûlure, jusqu’à 0,40 de celle-ci au niveau 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

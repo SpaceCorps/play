@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -6,7 +6,7 @@ Los extras son los dispositivos que van en las **ranuras de extra** de una nave 
 
 | Extra | Qué hace | Usos | Precio |
 | :---- | :----------- | :--- | :---- |
-| **Repair Drone I a IV** | Repara tu casco: 1,5 %, 2,25 %, 3,5 % y 5 % del máximo por segundo | ilimitados | 5000 / 15.000 / 35.000 créditos, 2000 Thulium |
+| **Repair Drone I a IV** | Repara tu casco: 2 %, 3 %, 4 % y 5 % del máximo por segundo | ilimitados | 5000 / 15.000 / 35.000 créditos, 2000 Thulium |
 | **Cloaking CPU S** | Oculta tu nave | 10 | 5000 Thulium |
 | **Cloaking CPU M** | Oculta tu nave | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Oculta tu nave | 50 | 20.000 Thulium |
@@ -96,13 +96,24 @@ Pulsa la ranura WAL y una **pared de plasma** se alza **en tu cursor**, atravesa
 
 - **Qué detiene.** Todo disparo que la cruza golpea la pared en su lugar, lo haya hecho quien lo haya hecho y desde el lado que sea: una andanada láser, un cohete, la andanada de un alienígena. Lo que está detrás no recibe nada y los puntos de vida de la pared absorben el daño. La explosión de un cohete que estalla en la pared alcanza a las naves de su lado cercano y no a las que están detrás. También tus propios disparos: no puedes disparar hacia fuera a través de tu propia pared. La N.I.K.E. y las torretas del Dormant Swamp pasan por encima, como por encima de los asteroides.
 - **Qué quema.** Toda nave cuyo casco toque la franja recibe **2.500 de daño por segundo**, primero en el escudo, también la tuya, también los alienígenas y los pilotos de corporación. Una nave en una zona segura o bajo la protección de una reaparición no se quema, y dos franjas sobre una nave no se suman.
-- **Cuánto dura.** Una pared de nivel 1 tiene **30.000 puntos de vida** y una de nivel 2, **90.000**. Una pared pierde por sí sola una sexagésima parte cada segundo, así que una a la que nadie dispara desaparece a los **60 segundos**. Los disparos lo acortan: una Wraith con trece Helios Beam y munición x4 derriba una pared de nivel 1 en unos 4 segundos.
+- **Cuánto dura.** Una pared de nivel 1 tiene **100.000 puntos de vida** y una de nivel 2, **250.000**. Una pared pierde por sí sola una sexagésima parte cada segundo, así que una a la que nadie dispara desaparece a los **60 segundos**. Los disparos lo acortan: una Wraith con trece Helios Beam y munición x4 derriba una pared de nivel 1 en unos 11 segundos y una de nivel 2 en unos 22.
 - **Una a la vez, una pared por pulsación.** Una pared nueva ocupa el lugar de la anterior. Tras pulsar, el objeto se recarga durante **90 segundos**; la espera es tuya, no de la nave: morir o desconectarse no la acorta. Una pulsación gasta **una pared del nivel que guarda su ranura**, y solo cuando la pared se alza: una pulsación que el juego rechaza (más abajo) no gasta nada ni inicia ninguna espera. Si no queda ninguna de ese nivel, dice «Ya no te quedan Energetic Wall.» y el otro nivel nunca se gasta en su lugar.
 - **Dónde no.** No mientras te proteja una zona segura o una reaparición, no donde la franja tocaría una zona segura o una puerta, no camuflado y no donde el centro de la franja quedaría fuera del mapa. El juego dice cuál es el caso.
 - **Bajas.** Una nave que destruye la pared muere por radiación, y la baja es del último piloto enemigo que la golpeó en los últimos 15 segundos, si lo hubo. Quien puso la pared no recibe crédito por nada que no disparara él mismo. Un alienígena que la pared destruye no paga nada: ni recompensa ni botín.
 - **Los alienígenas no la rodean.** La atraviesan y se queman, o se quedan en su lado y disparan a la pared.
 - **Qué ves.** Una franja de luz blanquiazul con rayas brillantes que corren por ella y un poste de luz en cada extremo, que destella donde cae un disparo y parpadea cuando casi se ha agotado. Una pared de nivel 2 brilla en amarillo, con un núcleo más grueso y brillante y un resplandor más fuerte, pero su franja tiene las mismas 10 unidades de ancho que la de nivel 1. Una barra de vida fina junto a ella se acorta y pasa a ámbar y luego a rojo; tu ranura muestra la vida que le queda a tu pared como arco y la espera como sombra. Una pared recién puesta destella al encenderse, una derribada se desmorona en chispas y una a la que se le acabó el tiempo se desvanece. En tu ranura, además, un número cuenta las paredes de su nivel que te quedan.
 - **Cómo conseguirla y llevarla.** La Energetic Wall I se vende en la tienda por **250 Thulium** la pared, y llevas hasta **20** en una pila (lo que tienes puesto en la [Subasta](/wiki/03-Mechanics/Auction.md) cuenta). La Energetic Wall II se hace en el Ensamblaje, **una pared por fabricación**, por **600 Thulium**, 5 Ship Fragments y un Power Core, cuando el Centro de investigación la ha investigado (6 horas a velocidad normal: [Investigación](/wiki/03-Mechanics/Research.md)); llevas hasta **10**. A diferencia de los doce cohetes, de los que pasan solos 1.000 de cada uno, las paredes que llevas se pierden con la temporada si no las pones en el Alijo de Transporte, y las del Alijo no se pueden usar. Una Energetic Wall II que hayas hecho se puede vender en la Subasta; una Energetic Wall I, que vende la tienda, nunca.
+
+## Mine
+
+Una **Mine** es una trampa que se lanza. Pulsa su ranura con el cursor sobre un punto y tu nave lanza la Mine allí, **hasta donde alcanzan tus láseres**: un cursor más lejano la deja a ese alcance sobre la línea, y sin punto de cursor cae bajo la nave. Vuela un instante, aterriza y queda **armada 3 segundos después**. Desde entonces estalla **una sola vez, con todo su daño, bajo la primera nave que pase por encima**, y desaparece: no hay daño con el tiempo ni onda expansiva. Una Mine es un **consumible**, como la [Energetic Wall](#energetic-wall): una pila en tu inventario que no ocupa **ninguna ranura** de ninguna nave. Arrástrala desde los Consumibles de la barra rápida a una ranura para usarla; los tres niveles son tres entradas, así que una ranura guarda un nivel.
+
+- **A quién golpea.** A toda nave que pase por encima: un piloto enemigo, un alienígena, un piloto de corporación, tus compañeros de corporación, tu grupo y **a ti**. Una Mine no tiene amigos. Lo que protege a una nave es lo que la protege de cualquier arma: una zona segura, la protección de una reaparición, un camuflaje o una ventana de EMP.
+- **Alejarse.** Una nave que está dentro del alcance de una Mine cuando aterriza queda a salvo hasta que haya salido una vez de ese alcance, y tú eres la primera a la que protege: puedes dejar caer una Mine bajo tu nave y alejarte. Después, la Mine estalla bajo esa nave como bajo cualquier otra, aunque vuelva más tarde.
+- **Cuánto.** El daño crece con el nivel: **8.000, 20.000 y 50.000**. Tu habilidad Sabotaje le suma hasta un 30 %, y tu Puntería hace que la Mine vuele más rápido y más lejos.
+- **Límites.** Puedes tener **tres** Mines fuera a la vez (una cuarta ocupa el lugar de la más antigua), cada una desaparece **3 minutos** después de aterrizar, y entre dos lanzamientos esperas **8 segundos**; la espera es tuya, no de la nave. Si abandonas el mapa, tus Mines se van contigo.
+- **Dónde no.** No donde los pilotos no pueden combatir entre sí (bajo el Protocolo de paz, o en un sector o una puerta cuyas reglas lo prohíben), no mientras te proteja una zona segura o una reaparición, no donde la Mine tocaría una zona segura o una puerta, y no camuflado. El juego dice cuál es el caso; un lanzamiento rechazado no gasta nada ni inicia espera.
+- **Cómo conseguirla y llevarla.** La Mine I se vende en la tienda por **100 Thulium**, y llevas hasta **20** en una pila. La Mine II se hace en el Ensamblaje, **una Mine por fabricación**, con dos Mine I, 3 Ship Fragments y un Power Core por **200 Thulium** (hasta **10** en una pila); la Mine III con dos Mine II, 8 Ship Fragments, 2 Power Cores y una Reinforced Hull Plate por **400 Thulium** (hasta **5**). Ambas se fabrican cuando el Centro de investigación las ha investigado: 3 horas la II y 6 horas la III al ritmo normal (consulta [Investigación](/wiki/03-Mechanics/Research.md)). Las Mines que llevas se pierden con la temporada si no las pones en el Alijo de Transporte, y las del Alijo no se pueden usar. Las Mines no se pueden vender en la [Subasta](/wiki/03-Mechanics/Auction.md).
 
 ## CPU del Centro de investigación {#research-cpus}
 
@@ -122,6 +133,8 @@ Dos de las CPU piden Dark Matter Plates, como el último nivel de cada cadena de
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Ninguna se vende en la tienda: investiga la tecnología y luego fabrica la CPU en Ensamblaje. Pasa el cursor por una CPU en su árbol para ver qué pide Ensamblaje para fabricarla.
 

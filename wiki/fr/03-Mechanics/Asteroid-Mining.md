@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Rien n’est payé quand un astéroïde se brise. Il éclate en débris et lance
 
 Un astéroïde plus gros laisse plus de pièces (la colonne Fragments d’argent de Les types : les crédits et le Thulium viennent en autant de pièces, et le minerai en une de plus). Après une récupération, votre vaisseau passe tout seul au fragment suivant d’un astéroïde proche que vous pouvez prendre ; tout ordre de déplacement de votre part l’arrête.
 
-À partir du palier 2 des rochers, une rupture peut aussi laisser un **Cluster Chunk** entier, dans le morceau de minerai du groupe qui a fait le plus de dégâts : un **Regular Cluster Chunk** dès le palier 2, un **Mythical Cluster Chunk** dès le palier 3 et un **Legendary Cluster Chunk** dès le palier 4 ; la Motherlode les donne le plus souvent. Les chances sont dans [Ressources](/wiki/06-Items/Resources.md#regular-cluster-chunk). La chance ne les change pas, pas même celle d’un P.E.T. Avec une Orvium Reinforced Plate, un chunk devient un [P.E.T.](/wiki/03-Mechanics/Pets.md) dans le Berceau du hangar.
+Une rupture peut aussi laisser un **Cluster Chunk** entier, dans le morceau de minerai du groupe qui a fait le plus de dégâts : un **Regular Cluster Chunk** dès le palier 1, un **Mythical Cluster Chunk** dès le palier 3 et un **Legendary Cluster Chunk** dès le palier 4 ; la Motherlode les donne le plus souvent. Les chances sont dans [Ressources](/wiki/06-Items/Resources.md#regular-cluster-chunk). La chance ne les change pas, pas même celle d’un P.E.T. Avec une Orvium Reinforced Plate, un chunk devient un [P.E.T.](/wiki/03-Mechanics/Pets.md) dans le Berceau du hangar.
 
 ## Qui reçoit les fragments {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Chaque secteur d’origine des trois corporations et des secteurs dangereux a de
 
 Le **palier** d’un astéroïde est l’anneau de secteurs auquel appartient son type : les paliers 1 à 4 sont les secteurs x-1 à x-4 des trois corporations et le palier 5 les secteurs dangereux. Le palier monte avec la taille : plus l’astéroïde est gros, plus son palier est élevé. Les deux ne sont pourtant pas la même chose : la plupart des paliers comptent deux tailles, que donne le tableau. La fenêtre cible et la carte qui s’affiche au survol montrent la famille, la taille et le palier d’un astéroïde.
 
-Le palier décide aussi d’une trouvaille à part : une **pièce de P.E.T.**, un Cluster Chunk que prend le Berceau des [P.E.T.](/wiki/03-Mechanics/Pets.md). Le tableau donne la chance qu’un astéroïde brisé laisse chaque grade (un tiret : jamais). Les astéroïdes du palier 1 n’en laissent aucun. Chaque grade est tiré une fois par astéroïde brisé, le pilote qui a infligé le plus de dégâts reçoit le chunk entier, et la chance de butin n’y change rien. La Motherlode a ses propres chances. Sélectionnez un astéroïde et la fenêtre cible liste les pièces de P.E.T. de son type.
+Le palier décide aussi d’une trouvaille à part : une **pièce de P.E.T.**, un Cluster Chunk que prend le Berceau des [P.E.T.](/wiki/03-Mechanics/Pets.md). Le tableau donne la chance qu’un astéroïde brisé laisse chaque grade (un tiret : jamais). Chaque grade est tiré une fois par astéroïde brisé, le pilote qui a infligé le plus de dégâts reçoit le chunk entier, et la chance de butin n’y change rien. La Motherlode a ses propres chances. Sélectionnez un astéroïde et la fenêtre cible liste les pièces de P.E.T. de son type.
 
 | Palier | Secteurs | Taille | Types | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Minuscule, Petit | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Petit, Moyen | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4 % | – | – |
-| 3 | `x-3` | Moyen | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8 % | 0,15 % | – |
-| 4 | `x-4` | Moyen, Grand | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1 % | 0,25 % | 0,03 % |
-| 5 | Secteurs dangereux | Grand | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2 % | 0,3 % | 0,1 % |
-| 5 | Secteurs dangereux | Énorme | Motherlode | 25 % | 8 % | 3 % |
+| 1 | `x-1` | Minuscule, Petit | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0,5 % | – | – |
+| 2 | `x-2` | Petit, Moyen | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1 % | – | – |
+| 3 | `x-3` | Moyen | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2,5 % | 0,35 % | – |
+| 4 | `x-4` | Moyen, Grand | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5 % | 0,5 % | 0,1 % |
+| 5 | Secteurs dangereux | Grand | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10 % | 1 % | 0,5 % |
+| 5 | Secteurs dangereux | Énorme | Motherlode | 20 % | 5 % | 3 % |
 
 Il y a 27 types d’astéroïde, dans 8 familles. **Conçu pour** nomme la roquette pour laquelle un type est équilibré et environ combien il en faut pour le briser dans Alpha. **Trouvailles** sont le minerai et les trouvailles rares qu’une destruction tire et que ses fragments se partagent : un pourcentage est la chance de cette ligne, les autres lignes sont toujours trouvées. Les crédits et le Thulium sont les montants d’Alpha d’une destruction.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Cronología del reinicio -->
 # Cronología del reinicio y temporadas {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Todo lo que sigue es tuyo después del reinicio.
 * **Todo tu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, niveles, el mineral guardado en el Almacén de recursos y **los motores y láseres montados en los módulos de motores y de defensa**, que siguen montados donde están, con los propulsores y amplificadores que llevan dentro. El mineral guardado no es un objeto y no cuenta para el Alijo; las piezas montadas tampoco ocupan sitio en él.
 * **Tus puntos de reinicio y tus mejoras permanentes** ([la tienda](#the-permanent-buff-store)).
 * **Experiencia, nivel y honor.**
+* **Tu Árbol de habilidades del piloto.** Cada habilidad conserva su nivel y su XP.
 * **Créditos hasta 5.000.000.000 y Thulium hasta 10.000.000.** Lo que pase de ahí se pierde: consulta [los topes](#the-caps).
 * **Tu progreso de misiones.** Las misiones terminadas y en curso se quedan. Las terminadas se pueden volver a hacer por su recompensa completa (una Repetición que sigue en curso durante el wipe se descarta).
+* **Tus piezas de las puertas en solitario**, la cuenta de la garantía y el registro de lo que gastaste en giros y de lo que las puertas devolvieron ([Puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Tus aspectos** (skins, auras y estelas de escape), que tampoco son objetos ([Cosméticos](/wiki/06-Items/Cosmetics.md)).
 * **Lo que hay en tu Alijo de Transporte**, más abajo.
 
@@ -67,14 +69,17 @@ Tus contenedores sin abrir, tus [objetos especiales](/wiki/06-Items/Special-Item
 
 ## Chrono-Gate y Materializador de Energía {#chrono-gate-energy-materializer}
 
-El **Chrono-Gate** (también llamado Puerta Galáctica) es una enorme estructura de temporada que hace de puente entre temporadas. Construir y estabilizar esta puerta es esencial para desbloquear tus privilegios de transporte entre temporadas.
+El **Chrono-Gate** (también llamado Puerta Galáctica) es una enorme estructura de temporada que hace de puente entre temporadas. Construir y estabilizar esta puerta es esencial para desbloquear tus privilegios de transporte entre temporadas. Es una de las seis puertas de la página Puertas Galácticas: las otras cinco son las [puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md), lugares a los que vuelas, y sus piezas salen del mismo Materializador de Energía.
 
 ### Montaje de la puerta {#gate-assembly}
-Para estabilizar por completo el Chrono-Gate, debes reunir exactamente **100 piezas del Chrono-Gate**.
+Para estabilizar por completo el Chrono-Gate, debes reunir exactamente **2 piezas del Chrono-Gate**. En [Puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) verás lo que necesita cada una de las seis puertas y lo que cuestan de media sus piezas.
 
 ### El Materializador de Energía {#the-energy-materializer}
 Las piezas se consiguen con la interfaz del Materializador de Energía, que hace girar sectores de energía locales para localizar piezas de la puerta. Solo gira con **Thulium** (el giro con créditos está cerrado):
-* **Giro con Thulium** (5 de Thulium): tiene un **10 % de probabilidad** de producir una pieza de la puerta.
+* **Giro con Thulium**: **100 Thulium** por giro, con un **13 % de probabilidad** de producir una pieza de la puerta. La pieza pertenece a una de las seis puertas, elegida al azar, así que no siempre es una pieza del Chrono-Gate.
+* **La garantía.** Una racha larga de giros sin pieza no puede durar para siempre: tras unos cuantos giros en blanco la probabilidad sube, y entonces una pieza es segura ([detalles](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Un giro sin pieza** paga igualmente un premio ([Puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Los giros continúan cuando el Chrono-Gate está completo.** Cada giro se cobra, y las piezas que encuentra son entonces de las puertas en solitario. La probabilidad de una pieza es un sexto menor, porque la parte del Chrono-Gate ya no cuenta.
 
 *Consejo: puedes usar multiplicadores (1x, 5x, 10x, 100x) para hacer giros en bloque y acelerar la construcción de la puerta.*
 
@@ -82,7 +87,7 @@ Las piezas se consiguen con la interfaz del Materializador de Energía, que hace
 
 ## Alijo de Transporte (cápsula de viaje) {#transport-cache-travel-capsule-}
 
-Una vez reunidas las 100 piezas y estabilizado por completo el Chrono-Gate, el portal da acceso a tu **Alijo de Transporte** personal (también conocido como carro de traspaso o cápsula de viaje). Esta dimensión de bolsillo protege tus pertenencias para que no se borren durante el reinicio. Los objetos que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vuelven a ti con el reinicio como objetos sueltos, que el reinicio borra como el resto si no los guardas en el Alijo; las pujas que tienes en lotes se devuelven.
+Una vez reunidas todas las piezas y estabilizado por completo el Chrono-Gate, el portal da acceso a tu **Alijo de Transporte** personal (también conocido como carro de traspaso o cápsula de viaje). Esta dimensión de bolsillo protege tus pertenencias para que no se borren durante el reinicio. Los objetos que has puesto en la [Subasta](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vuelven a ti con el reinicio como objetos sueltos, que el reinicio borra como el resto si no los guardas en el Alijo; las pujas que tienes en lotes se devuelven.
 
 ### La nave del alijo {#the-cache-ship}
 
@@ -140,7 +145,7 @@ El botón **Congelar contenido** de la pestaña Alijo de Transporte es un seguro
 * **Los derribos de alienígenas.** Se cuentan para el reinicio en el que estás, y tus cifras totales se quedan.
 * **Todo objeto que no se conserva**: recursos, potenciadores, equipo de repuesto, placas, Cluster Chunks y el resto. Un motor o un láser que hayas sacado de un módulo de tu Skylab es un repuesto como cualquier otro; los que siguen montados se conservan. Lo que el reinicio te devuelve primero (véase más abajo) es un objeto como cualquier otro.
 * **Los clanes.** Todos los clanes se disuelven, con su Tesoro de la flota, sus avisos, sus tratados, sus puntos y sus niveles de mejora ([Clanes](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **Las piezas del Chrono-Gate**: la puerta vuelve a empezar, y tu Materializador también.
+* **Las piezas del Chrono-Gate**: la puerta vuelve a empezar y vuelves a encontrar sus piezas. Una partida abierta de una puerta en solitario termina y te devuelve sus piezas; las piezas que tengas de las puertas en solitario se conservan ([Puertas en solitario](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Tu expedición del Skylab** termina: un viaje en curso se acaba y la Bahía de trofeos paga sus créditos, su Thulium, su experiencia y su honor y se vacía ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Tus fabricaciones.** Toda fabricación de tu cola de producción del Ensamblaje se cancela y se reembolsa, sea lo que sea lo que produzca: un objeto, una nave, una conversión de nave, un dron o la mejora de un dron, una formación de drones, una P.E.T. Station o una Extra Slots CPU. Los créditos y el Thulium que costó vuelven a tu cartera antes de los topes. Los materiales vuelven como objetos sueltos y se van con el resto, salvo que canceles el trabajo tú mismo antes y los pongas en el Alijo. Una fabricación ya terminada que espera a ser recogida también se reembolsa, y lo que habría producido nunca se produce: recoge tus fabricaciones terminadas antes del reinicio. Los trabajos de la Cuna no son fabricaciones: tus trabajos de P.E.T. siguen.
 
@@ -221,7 +226,7 @@ Puedes gastar los PR acumulados en mejoras permanentes que se conservan en todas
 * **Honor Boost**: +0,1 % de honor obtenido por nivel (máx. 50 % / 500 niveles) - *Costo: 10 PR*
 * **Hitpoints Boost**: +0,1 % de HP máximos por nivel (máx. 50 % / 500 niveles) - *Costo: 15 PR*
 * **Shield Capacity Boost**: +0,1 % de escudo máximo (**capacidad** de escudo) por nivel (máx. 50 % / 500 niveles) - *Costo: 10 PR*
-* **Shield Absorbance Boost**: +0,1 puntos de la **absorción** de tu escudo por nivel (máx. +10 puntos / 100 niveles) - *Costo: 25 PR*. La absorción es la parte de cada impacto que se llevan tus escudos (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); la mejora le suma puntos fijos: 100 puntos de reinicio compran 4 niveles (+0,4 puntos), 300 compran 12 (+1,2), 500 compran 20 (+2,0) y los 1.105 puntos de reinicio que pagan las fuentes en un reinicio compran 44 (+4,4 puntos). En el máximo (100 niveles, 2.500 PR: una meta para varios reinicios, porque las fuentes pagan 1.105 como máximo en un reinicio y tu rango suma de 5 a 400), un 85 % (lo mejor de serie) pasaría a ser un 95 % y el 45 % de un Light Shield Core, un 55 %. La estadística no tiene tope en el 100 %: se le resta la *penetración de escudo* del atacante, así que lo que pasa del 100 % es un margen. Con los puntos de reinicio de un reinicio en esta mejora y un juego completo de escudos y células forjado hasta Eterno, una nave llega a entre el 99 % y el 102 %, aproximadamente. (Hasta la versión 0.4.5, esta mejora sumaba una parte de la propia absorción, un 0,1 % de ella por nivel, al mismo precio; los puntos valen lo mismo o más con cualquier absorción, así que los niveles ya comprados no perdieron nada; hasta la 0.4.2 aumentaba en cambio la *velocidad de recarga* del escudo; ahora ninguna mejora permanente aumenta la recarga.)
+* **Shield Absorbance Boost**: +0,1 puntos de la **absorción** de tu escudo por nivel (máx. +10 puntos / 100 niveles) - *Costo: 25 PR*. La absorción es la parte de cada impacto que se llevan tus escudos (consulta [Mecánicas de los escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); la mejora le suma puntos fijos: 100 puntos de reinicio compran 4 niveles (+0,4 puntos), 300 compran 12 (+1,2), 500 compran 20 (+2,0) y los 1.105 puntos de reinicio que pagan las fuentes en un reinicio compran 44 (+4,4 puntos). En el máximo (100 niveles, 2.500 PR: una meta para varios reinicios, porque las fuentes pagan 1.105 como máximo en un reinicio y tu rango suma de 5 a 400), un 91 % (lo mejor de serie) pasaría a ser un 101 % y el 45 % de un Light Shield Core, un 55 %. La estadística no tiene tope en el 100 %: se le resta la *penetración de escudo* del atacante, así que lo que pasa del 100 % es un margen. Con los puntos de reinicio de un reinicio en esta mejora y un juego completo de escudos y células forjado hasta Eterno, una nave llega a entre el 104 % y el 109 %, aproximadamente. (Hasta la versión 0.4.5, esta mejora sumaba una parte de la propia absorción, un 0,1 % de ella por nivel, al mismo precio; los puntos valen lo mismo o más con cualquier absorción, así que los niveles ya comprados no perdieron nada; hasta la 0.4.2 aumentaba en cambio la *velocidad de recarga* del escudo; ahora ninguna mejora permanente aumenta la recarga.)
 * **Luck Boost**: +0,1 % de probabilidad de botín de los alienígenas por nivel (máx. 10 % / 100 niveles) - *Costo: 15 PR*
 
 ### Cómo ganar puntos de reinicio {#earning-wipe-points}

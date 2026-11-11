@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: 货箱 -->
 # 货箱 {#cargo-boxes}
 
@@ -12,8 +12,9 @@
 - **企业飞行员**被摧毁时不会留下货箱，无论摧毁他们的是谁或是什么。参见[企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)。
 - **玩家舰船**被摧毁时不会留下残骸，也不会留下货箱，无论摧毁它们的是谁或是什么，飞行员的物品栏里也不会被拿走任何东西。
 - **黑洞**会为射入其中的 N.I.K.E. 火箭，在它所在区域的边缘放置装有 **Dark Matter** 的货箱（参见[黑洞](/wiki/03-Mechanics/Black-Hole.md)）。这是唯一一种会落在黑洞环内的货箱。
-- **[虫群](/wiki/05-Swarms/Swarms.md)的头领和 Dormant Pulse** 会掉落专属的货箱，里面有弹药、火箭和资源。货箱为对其造成伤害最多的飞行员（及其战队）保留，而不是第一个击中它的飞行员。
+- **[虫群](/wiki/05-Swarms/Swarms.md)的头领（Tesseract 除外）和 Dormant Pulse** 会掉落专属的货箱，里面有弹药、火箭和资源。货箱为对其造成伤害最多的飞行员（及其战队）保留，而不是第一个击中它的飞行员。
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** 不会掉落这样的货箱：每名造成至少 5% 伤害的飞行员都会得到属于自己的[私人货箱](#private-boxes)，里面是他那一份战利品。
+- **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** 的残骸上同样不会留下货箱：击杀所支付的每名飞行员都会得到属于自己的[私人货箱](#private-boxes)，里面是他在 Hull Plate、Reinforced Plate、Power Core、Ancient Control Unit 和 Dark Matter 中的那一份。
 - **[小行星](/wiki/03-Mechanics/Asteroid-Mining.md)**不留下货箱，而是留下**碎块**：装着信用点和 Thulium 的小金块和水晶，以及装着矿石的石头。信用点和 Thulium 在拾取碎块时支付，而不是在小行星碎裂时。碎块像货箱一样拾取，先为挣得它的飞行员保留，之后像货箱一样对所有人开放。
 
 如果外星人是被企业飞行员击杀的，它会为这次击杀所记在的飞行员掉落战利品（持有其归属权的那位飞行员；没有的话，则是与该外星人交战、且与这名企业飞行员同属一个企业的飞行员）。企业飞行员独自交战击杀的外星人则什么都不掉落，因为企业飞行员从不拾取。
@@ -42,14 +43,14 @@
 
 ## 私人货箱 {#private-boxes}
 
-[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 的战利品不是给一名飞行员的一个货箱：**每名造成至少 5% 伤害的飞行员都会得到属于自己的货箱**，按他那一份抽取（造成 20% 的伤害，就是每个数量的约五分之一；[详情](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)）。
+[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 的战利品不是给一名飞行员的一个货箱：**每名造成至少 5% 伤害的飞行员都会得到属于自己的货箱**，按他那一份抽取（造成 20% 的伤害，就是每个数量的约五分之一；[详情](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)）。[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) 的战利品也是这样：击杀所支付的每名飞行员都会得到一个。
 
 - **只有你看得到，也只有你能拾取。** 你的战队和小队看不到，也拿不走；对其他所有人来说，它根本不存在。在你的屏幕上，它下面有一圈细环。
-- **它会在击毁后保留 10 分钟**，这段时间一直是你的：没有 30 秒的等待。之后它会像任何货箱一样飘走。守卫倒下时，游戏日志会告诉你你的战利品份额。
+- **它会在击毁后保留 10 分钟**，这段时间一直是你的：没有 30 秒的等待。之后它会像任何货箱一样飘走。守卫或 Tesseract 倒下时，游戏日志会告诉你你的战利品份额。
 - **它不会挤掉其他货箱。** 私人货箱在地图的 64 个之外有自己的名额（最多 32 个），所以击毁守卫永远不会占掉其他货箱的位置，地图满了也不会让你丢掉自己的货箱。
 - 拾取方式与任何货箱相同（[见上](#collecting)）：你的飞船飞过去，拾取需要半秒。你的 Retriever 也会拿你的私人货箱，不会拿其他任何人的。
 
 ## 增益 {#boosters}
 
-- **Loot Luck Booster**（以及永久幸运加成，还有已对接 [P.E.T.](/wiki/03-Mechanics/Pets.md) 的幸运）会在击杀者完成击杀时，提高每一项战利品的掉落几率。
-- **Resource Magnet Booster** 会让你拾取的每个货箱中的资源增加 **25%**，无论是亲手拾取还是由 Retriever 拾取，也无论击杀者是谁。Dark Matter 是例外：Magnet 不会给它增加任何东西，所以五枚 N.I.K.E. 对每个人来说都是十个 Dark Matter。
+- **Loot Luck Booster**（以及永久幸运加成，还有已对接 [P.E.T.](/wiki/03-Mechanics/Pets.md) 的幸运）会在击杀者完成击杀时，提高每一项战利品的掉落几率。你的[直觉](/wiki/03-Mechanics/Pilot-Skills.md#the-stats)专长也会提高这个几率，与加速器叠加。
+- **Resource Magnet Booster** 会让你拾取的每个货箱中的资源增加 **25%**，无论是亲手拾取还是由 Retriever 拾取，也无论击杀者是谁。Dark Matter 是例外：Magnet 不会给它增加任何东西。只有你自己的 Antimatter 技能能增加 Dark Matter（100 级时最多 +25%）；没有它，五枚 N.I.K.E. 就是十个 Dark Matter。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 
 ## Werte {#stats}
 
-- **Trefferpunkte (HP)**: 600.000
+- **Trefferpunkte (HP)**: 500.000
 - **Grundtempo**: 110
 - **Laser-Slots**: 8
 - **Extra-Slots**: 3
@@ -27,7 +27,7 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 
 ## Forschung {#research}
 
-- **Panzerungs-Slots.** Die Ironclad hat 15 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Ironclad und an jedem ihrer Designs. Alle 15 mit Hull Plating III gefüllt ergeben 225.000 Hülle.
+- **Panzerungs-Slots.** Die Ironclad hat 15 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Ironclad und an jedem ihrer Designs. Alle 15 mit Hull Plating III gefüllt ergeben 375.000 Hülle.
 - **Designs.** Die Ironclad hat 2 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Ironclad dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
 
 | Design | Was es ändert |

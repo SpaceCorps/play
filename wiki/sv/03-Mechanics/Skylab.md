@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ Försvarsmodulen strider för ditt Skylab. Den rymmer lasrarna som skjuter på u
 
 | Nivå | Lasrar | Magasin (skott) | Nedgörningsbudget (poäng i timmen) | Högsta svårighet |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 300 | 108 | 1 |
-| 2 | 2 | 3 600 | 293 | 2 |
-| 3 | 3 | 14 000 | 476 | 3 |
-| 4 | 4 | 23 000 | 548 | 4 |
-| 5 | 5 | 35 000 | 630 | 5 |
+| 1 | 1 | 1 600 | 108 | 1 |
+| 2 | 2 | 4 300 | 293 | 2 |
+| 3 | 3 | 16 000 | 476 | 3 |
+| 4 | 4 | 28 000 | 548 | 4 |
+| 5 | 5 | 42 000 | 630 | 5 |
 
 | Nivå | Krediter | Thulium | Plåtar | Tid |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ Alla fem nivåerna kostar sammanlagt 24 400 000 krediter, 97 600 Thulium, 26 
 
 Radarmodulen lättar dimman på universumkartan (se [Dimma och skanning](#fog-and-scanning)). Den har nivå 1 till 3, och en högre nivå skannar en cell snabbare.
 
-- **Vad den gör**: den skannar **en cell i taget**, bland cellerna bredvid en cell du känner till, och håller en **kö på tre**: den första skannas och de andra väntar. När en skanning är klar känner du till cellen, och ditt Skylab får flyga dit.
+- **Vad den gör**: den skannar **en cell i taget**, bland cellerna bredvid en cell du känner till, och håller en **kö**: den första skannas och de andra väntar. När en skanning är klar känner du till cellen, och ditt Skylab får flyga dit.
+- **Kö**: kön rymmer **3 celler på nivå 1** och **2 fler för varje nivå över den**: 5 på nivå 2 och 7 på nivå 3. En uppgradering ger bara mer plats, och cellerna som redan står i kön behåller sina platser. Medan modulen är avstängd, under uppgradering eller utan ström finns kön kvar men tar inte emot någon ny cell.
 - **Tid**: 90 minuter per cell på nivå 1, 40 på nivå 2 och 15 på nivå 3. En skanning går på serverns klocka, även medan du är borta och medan Skylab flyger. Den står stilla, och tiden tas inte igen, medan modulen är avstängd, under uppgradering eller utan ström och medan Skylab är förstört. En skanning kostar tid och inget annat.
 - **Kartlägga allt**: att kartlägga de 131 celler du inte känner till från början, en efter en, tar 8 d 4 h på nivå 1, 3 d 15 h på nivå 2 och 1 d 9 h på nivå 3.
 - **Forskning**: varje nivå kräver sin egen teknologi, Radarmodul I till III (se tabellen ovan).
@@ -386,18 +387,18 @@ Varje modul väger något, i **massenheter (MU)**, och en tyngre station flyger 
 Högsta nivå är 20, utom för Forskningscentrumet (10), Motor- och Försvarsmodulen (5) och Radarmodulen (3). Hela stationen väger 2 353 MU på kärnnivå 15 och 2 734 MU på nivå 20.
 
 - **Dragkraften** är skeppens motorräkning, utan grundfart: en motor ger sin grundfart plus sina thrusters fasta fart, gånger deras multiplikatorer; motorerna rangordnas bäst först, de fyra första räknas till 100 % och den femte till 85 % (modulen rymmer högst fem); och de fyra bästa fartbonusarna läggs på ovanpå. En station utan motor har ingen dragkraft.
-- **Farten** är 60 gånger dragkraften delat med stationens vikt, i enheter per sekund, och ett hopp mellan två grannceller är 15 000 enheter. Under energin visar Skylab-sidan raden ”Vikt 2 353 MU, fart 7,5 enheter/s, ett hopp 33 min”.
+- **Farten** är 60 gånger dragkraften delat med stationens vikt, i enheter per sekund, och ett hopp mellan två grannceller är 15 000 enheter. Under energin visar Skylab-sidan raden ”Vikt 2 353 MU, fart 8,9 enheter/s, ett hopp 28 min”.
 - **Bestäms vid start**: en resas fart räknas ut när den startar, ur vikten och dragkraften i det ögonblicket. En uppgradering som slutar på vägen, eller en motor du byter medan Skylab är stationerat, räknas för nästa resa.
 
 Vad motorerna gör för en station med varje modul på nivå 15 (Motormodulen på den nivå som rymmer motorerna):
 
 | Monterade motorer | Vikt (MU) | Dragkraft | Fart (enheter per sekund) | Ett hopp | Över kartan (14 hopp) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Motormodul nivå 1) | 2 289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, var och en med 2 Impulse Thruster II (nivå 3) | 2 321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
-| 5 Engine III, var och en med 3 Impulse Thruster IV (nivå 5) | 2 353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
+| 1 Engine I (Motormodul nivå 1) | 2 289 | 5,1 | 0,13 | 1 d 7 h | 18 d 4 h |
+| 3 Engine II, var och en med 2 Impulse Thruster II (nivå 3) | 2 321 | 92,1 | 2,38 | 1 h 45 min | 1 d |
+| 5 Engine III, var och en med 3 Impulse Thruster IV (nivå 5) | 2 353 | 350,6 | 8,94 | 28 min | 6 h 32 min |
 
-På kärnnivå 20 väger stationen 16 % mer, och de bästa motorerna tar 39 minuter per hopp och 9 h över kartan.
+På kärnnivå 20 väger stationen 16 % mer, och de bästa motorerna tar 32 minuter per hopp och 7 h 35 min över kartan.
 
 ## Expeditioner {#expeditions}
 
@@ -434,7 +435,7 @@ Du ser bara de celler du känner till.
 - **En cell du inte känner till** visar ingenting om sig själv: varken sort, svårighet, namn eller utomjordingar. En cell bredvid en känd cell är markerad med ett **?** och kan skannas; varje annan okänd cell är mörk.
 - **En känd cell** visar i sin panel kod, sort, svårighet, namn och utomjordingar.
 - **Flyga** går bara till kända celler.
-- **Skanning**: välj en **?**-cell och tryck på **Skanna den här cellen**. Radarn skannar en cell i taget och håller en kö på tre; en cell kan tas ur kön igen, och **Avbryt alla** tömmer den. Tiden för en skanning står under [Radarmodul](#radar-module).
+- **Skanning**: välj en **?**-cell och tryck på **Skanna den här cellen**. Radarn skannar en cell i taget och håller en kö (3 celler på nivå 1, 2 fler för varje nivå); en cell kan tas ur kön igen, och **Avbryt alla** tömmer den. Tiden för en skanning står under [Radarmodul](#radar-module).
 
 ### Resan {#the-trip}
 
@@ -682,6 +683,7 @@ Varje farm och samlare har ett lager för ungefär 72 timmars produktion. Du hä
 - **Smedja**: plåtarna går till ditt inventarie, när ditt skepp är landat.
 - **Ammunitionsskrivaren och Raketfabriken**: ammunitionen och raketerna går till ditt inventarie, när ditt skepp är landat. Var och en lagrar bara 24 timmars produktion (se [Ammunitionsskrivare](#ammo-printer) och [Raketfabrik](#rocket-factory)).
 - **Malmviken**: inget att hämta. Den flyttar malmen i ditt inventarie till Resurslagret när du trycker på **Flytta**, med skeppet landat, upp till sin kvot (se [Malmviken](#ore-bay)).
+- **Pilotförmågor**: en insamling betalar vad timmarna är värda med de förmågor du har när du samlar in. **Extraction** ökar det som farmarna, samlarna, ammunitionsskrivaren och raketfabriken tillverkar, **Instinct** ökar malmen från de två samlarna ytterligare, och **Logistics** ökar det som resurslagrets bank rymmer.
 - **Trofélager**: hämtas i fönstret Universum, med skeppet landat: krediter och Thulium går till ditt konto, erfarenhet och heder till din pilot och bytet till ditt inventarie. Det behåller det det håller tills du hämtar, men ett fullt lager får Skylab att sluta skjuta (se [Trofélager](#trophies-bay)).
 - **Hämta allt** tar allt på en gång, även från avstängda moduler och moduler under uppgradering, men inte Trofélagret, som du hämtar i fönstret Universum.
 - Ett **(!)**-märke pekar ut ett fullt lager du kan tömma, och plåtar som väntar i Smedjan, på Skylab-sidan och på sidofältets Skylab-rad.

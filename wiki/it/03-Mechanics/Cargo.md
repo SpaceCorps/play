@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Gli alieni distrutti lasciano il loro bottino nello spazio sotto forma di casse 
 - I **piloti di corporazione** non lasciano nessuna cassa quando vengono distrutti, chiunque o qualunque cosa li distrugga. Vedi [Piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md).
 - Le **navi dei giocatori** non lasciano né relitto né cassa quando vengono distrutte, chiunque o qualunque cosa le distrugga, e al pilota non viene tolto nulla dall’inventario.
 - Il **buco nero** posa casse di **Dark Matter** sul bordo della sua zona per ogni razzo N.I.K.E. lanciato al suo interno (vedi [Il buco nero](/wiki/03-Mechanics/Black-Hole.md)). Sono l’unico tipo di cassa che si trova dentro l’anello del buco nero.
-- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) (tranne il Tesseract) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** non lascia una cassa del genere: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte del bottino.
+- **Il [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** non lascia una cassa nemmeno sul suo relitto: ogni pilota pagato dal suo abbattimento riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte di Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit e Dark Matter.
 - Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza. Un frammento si raccoglie come una cassa, ed è riservato ai piloti che l’hanno meritato e poi libero, come una cassa.
 
 Un alieno finito da un pilota di corporazione rilascia il suo bottino per il pilota a cui l’abbattimento viene attribuito (chi ne detiene la rivendicazione, altrimenti il pilota della stessa corporazione che lo sta combattendo); uno combattuto da un pilota di corporazione da solo non rilascia nulla, perché i piloti di corporazione non raccolgono mai.
@@ -42,14 +43,14 @@ Le luci della cassa prendono il colore dell’oggetto più raro al suo interno: 
 
 ## Casse private {#private-boxes}
 
-Il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) non è una cassa per un solo pilota: **ogni pilota che ha inflitto almeno il 5% dei danni riceve una cassa tutta sua**, estratta per la sua parte (per il 20% dei danni, circa un quinto di ogni quantità; [i dettagli](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+Il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) non è una cassa per un solo pilota: **ogni pilota che ha inflitto almeno il 5% dei danni riceve una cassa tutta sua**, estratta per la sua parte (per il 20% dei danni, circa un quinto di ogni quantità; [i dettagli](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). Il bottino del [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) funziona allo stesso modo: ogni pilota pagato dal suo abbattimento ne riceve una.
 
 - **Solo tu la vedi e solo tu puoi raccoglierla.** Il tuo clan e il tuo gruppo non la vedono e non possono prenderla; per tutti gli altri semplicemente non c’è. Sul tuo schermo ha un anello sottile sotto.
-- **Resta lì 10 minuti** dall’abbattimento, e per tutto il tempo è tua: non c’è l’attesa di 30 secondi. Poi se ne va alla deriva come ogni cassa. Il Registro di gioco ti dice la tua parte del bottino quando il Custode cade.
+- **Resta lì 10 minuti** dall’abbattimento, e per tutto il tempo è tua: non c’è l’attesa di 30 secondi. Poi se ne va alla deriva come ogni cassa. Il Registro di gioco ti dice la tua parte del bottino quando il Custode o il Tesseract cade.
 - **Non scaccia altre casse.** Le casse private hanno una riserva a sé accanto alle 64 di una mappa (al massimo 32), così l’abbattimento di un Custode non prende mai il posto di un’altra cassa e una mappa piena non ti fa mai perdere la tua.
 - La raccolta è la stessa di ogni cassa ([sopra](#collecting)): la tua nave vola fino a lei e la raccolta dura mezzo secondo. Il tuo Retriever prende anche le tue casse private, e quelle di nessun altro.
 
 ## Booster {#boosters}
 
-- **Loot Luck Booster** (e il potenziamento permanente Fortuna, e la fortuna dei tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciati) aumentano la probabilità di ogni voce del bottino quando chi abbatte l’alieno mette a segno l’abbattimento.
-- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, a mano o con un Retriever, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla, quindi cinque N.I.K.E. sono dieci Dark Matter per tutti.
+- **Loot Luck Booster** (e il potenziamento permanente Fortuna, e la fortuna dei tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciati) aumentano la probabilità di ogni voce del bottino quando chi abbatte l’alieno mette a segno l’abbattimento. Anche la tua competenza [Istinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) si somma a questa probabilità, oltre a quella del booster.
+- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, a mano o con un Retriever, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla. Solo la tua abilità Antimatter aggiunge Dark Matter (fino a +25% al livello 100); senza, cinque N.I.K.E. sono dieci Dark Matter.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Tesseract 虫群 -->
 # Tesseract 虫群 {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ Tesseract 虫群是一艘巨大的母舰 **Tesseract**，以及它在被击中�
 ## 战斗过程 {#how-the-fight-goes}
 
 - **带上超大型小队，一起出手。** Tesseract 的船体和护盾是数百万点的血池，所以即使是强力舰船组成的大队，战斗也很漫长；奖励按伤害分配：在场的每个飞行员都算数。
-- **永远不要放过它。** 只要在*一览*列表给出的时间内没人伤害它，它就会按那个速度先修复船体、再修复护盾，所以几秒钟的停顿就可能毁掉长长一分钟的努力。完全修复的 Tesseract 会忘掉是谁伤害过它：奖励和货箱按击毁它的那场战斗的伤害来算。
+- **永远不要放过它。** 只要在*一览*列表给出的时间内没人伤害它，它就会按那个速度先修复船体、再修复护盾，所以几秒钟的停顿就可能毁掉长长一分钟的努力。完全修复的 Tesseract 会忘掉是谁伤害过它：奖励和战利品按击毁它的那场战斗的伤害来算。
 - **每次命中都会召来 Facet。** Tesseract 被击中期间，每隔几秒就有一批 Facet 出现在它附近，最多到*一览*列表给出的上限。没人击中它时不会再来，已经在场的会等待并离去。
-- **Facet 在 Tesseract 周围飞行，向射程内的人开火。** 它们不追击伤害最高的人，也不追击任何一名飞行员：每个 Facet 都朝 Tesseract 周围一大圈内的随机地点、向各个方向自行飞出短程航线，只要有击中过 Tesseract 的飞行员进入射程，就向其中最近的一个开火。紧靠在一起的队伍同一时间处于射程内的 Facet 更少，还能分摊它们的火力，而分散在 Tesseract 四周的队伍则不然。Facet 的船体和护盾很少，击落一个没有任何奖励，但能替附近的飞行员挡掉一轮齐射。没有击中过 Tesseract 的飞行员不是它们的目标。
+- **Facet 在 Tesseract 周围飞行，向射程内的人开火。** 它们不追击伤害最高的人，也不追击任何一名飞行员：每个 Facet 都朝 Tesseract 周围一大圈内的随机地点、向各个方向自行飞出短程航线，只要有击中过 Tesseract 的飞行员进入射程，就向其中最近的一个开火。紧靠在一起的队伍同一时间处于射程内的 Facet 更少，还能分摊它们的火力，而分散在 Tesseract 四周的队伍则不然。Facet 的船体和护盾很少，击落一个的奖励与 [Phantasm](/wiki/04-Aliens/Phantasm.md) 相同，还能替附近的飞行员挡掉一轮齐射。没有击中过 Tesseract 的飞行员不是它们的目标。
 - **离得足够远的人会被放过。** Facet 不会离开 Tesseract 超过*一览*列表所给的距离；待在这个距离和 Facet 激光射程之外的飞行员，无论造成过多少伤害，都不会被攻击。没有目标的 Facet 会继续在 Tesseract 周围飞行，Tesseract 无人理会时便离去。
 - **Beta 和 Gamma 更难。** 这些世界的虫群更强（[世界](/wiki/05-Swarms/Swarms.md#the-worlds)），Tesseract 的自我修复和每个 Facet 的齐射也是如此。
-- **危险星区是 PvP。** 对手可能在战斗中途攻击你们的队伍，并等着拿货箱：货箱在 30 秒内属于造成伤害最多的飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。别一个人去。
+- **危险星区是 PvP。** 对手可能在战斗中途攻击你们的队伍。残骸旁没有货箱可供他守候：战利品是击杀付给的每名飞行员各自的一个[私人货箱](/wiki/03-Mechanics/Cargo.md#private-boxes)，只有那名飞行员看得见、拿得到。别一个人去。
 - **Tesseract 会回来。** 过了*一览*列表给出的时间，它会满状态地回到原来的位置。
 
 ## 奖励与掉落 {#rewards-and-drops}
 
-Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys 的总和，而就它承受的伤害而言，比报酬最高的外星人 Crystalys 更高。奖励按伤害在与它战斗的飞行员之间分配（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。货箱归造成伤害最多的飞行员，里面有 Power Core、Ancient Control Unit，偶尔还有 Dark Matter。船体装甲板不在这个货箱里：击杀付给的每名飞行员都会得到自己的一个装有装甲板的[私人货箱](/wiki/03-Mechanics/Cargo.md#private-boxes)，只有他自己看得见、拿得到，保留 10 分钟。它按他的伤害份额掷出，和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 的战利品一样：造成五分之一伤害的人，大约得到表中数量的五分之一；在队伍里，每名飞行员按奖励的分配方式，得到队伍份额中属于自己的部分。Facet 没有奖励，不掉落东西，也不增加 PvE 点数：击杀它们不能刷资源。
+Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys 的总和，而就它承受的伤害而言，比报酬最高的外星人 Crystalys 更高。奖励按伤害在与它战斗的飞行员之间分配（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。没有给伤害最多者的货箱。击杀付给的每名飞行员都会得到自己的一个[私人货箱](/wiki/03-Mechanics/Cargo.md#private-boxes)，只有他自己看得见、拿得到，保留 10 分钟，里面有 Reinforced Hull Plate、Velkonite Reinforced Plate、Orvium Reinforced Plate、Power Core、Ancient Control Unit 和 Dark Matter。它按他的伤害份额掷出，和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 的战利品一样：造成五分之一伤害的人，大约得到表中数量的五分之一；在队伍里，每名飞行员按奖励的分配方式，得到队伍份额中属于自己的部分。Dark Matter 对每名飞行员有上限：一次击杀他最多得到 5 个，无论他的份额多大（在队伍里先划出每名飞行员的部分，上限按每名飞行员各自计算），超出上限的部分会丢失，不会分给别人。Facet 支付的信用点、Thulium、XP 和荣誉与 [Phantasm](/wiki/04-Aliens/Phantasm.md) 相同，它的击杀也会被计入（统计、成就，以及无人机和 P.E.T. 的经验），但不掉落东西，也不增加 PvE 点数。
 
 ## 数值 {#the-numbers}
 
@@ -70,21 +70,16 @@ Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys �
 | 荣誉 | 624 | 1,248 | 1,872 |
 | 每次击杀的 PvE 积分 | 42 | 42 | 42 |
 
-**掉落**：一个货箱，归造成伤害最多的飞行员。
+**击杀付给的每名飞行员的掉落**：每人一个货箱，只属于他，装有这些数量中他的份额。
 
 | 物品 | 几率 | 数量 |
 | :--- | ---: | ---: |
-| Power Core | 70% | 1–2 |
-| Ancient Control Unit | 35% | 1 |
-| Dark Matter | 2.5% | 1 |
-
-**击杀付给的每名飞行员的掉落**：每人再得一个货箱，只属于他，装有这些数量中他的份额。
-
-| 物品 | 几率 | 数量 |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 1–2 |
-| Velkonite Reinforced Plate | 60% | 3–6 |
-| Orvium Reinforced Plate | 40% | 1–2 |
+| Reinforced Hull Plate | 100% | 3–10 |
+| Velkonite Reinforced Plate | 66% | 7–12 |
+| Orvium Reinforced Plate | 50% | 3–5 |
+| Power Core | 66% | 4–7 |
+| Ancient Control Unit | 100% | 1–4 |
+| Dark Matter | 100% | 10–20，每名飞行员最多 5 |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys �
 | 速度 | 750 | 750 | 750 |
 | 激光射程 | 600 | 600 | 600 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
-| 信用点 | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| 经验值（XP） | 0 | 0 | 0 |
-| 荣誉 | 0 | 0 | 0 |
+| 信用点 | 3,000 | 6,000 | 9,000 |
+| Thulium | 12 | 24 | 36 |
+| 经验值（XP） | 300 | 600 | 900 |
+| 荣誉 | 6 | 12 | 18 |
 | 每次击杀的 PvE 积分 | 0 | 0 | 0 |
 
-**掉落**：无。击杀不支付任何奖励。
+**掉落**：无。击杀只支付信用点、Thulium、经验值和荣誉。
 
 <!-- tesseract-members:end -->

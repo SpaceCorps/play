@@ -21,7 +21,7 @@ An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best
 | Extras | a Repair Drone IV, an Auto-Repair CPU and a Base CPU II |
 | Hull | 15 Hull Plating III |
 
-At Alpha strength he has **858,750 hull**, **1,309,534 shield** (recharging 67,614 a second after 15 seconds without a hit), 86.3% absorbance, speed 98, 945 range and a volley of **4,324 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.2 million points to chew through in Alpha: one Wraith with the same lasers needs about thirteen minutes of steady fire on its own, ten of them about 77 seconds.
+At Alpha strength he has **931,250 hull**, **1,559,486 shield** (recharging 67,614 a second after 15 seconds without a hit), 90.9% absorbance, speed 102, 945 range and a volley of **4,440 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.5 million points to chew through in Alpha: one Wraith with the same lasers needs about fourteen minutes of steady fire on its own, ten of them about 86 seconds.
 
 ## Fighting Him
 
@@ -36,10 +36,10 @@ He pays like a boss, by the damage each pilot dealt (a share under 5% of the dam
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1,590,000 | 3,180,000 | 4,770,000 |
-| Thulium | 4,275 | 8,550 | 12,825 |
-| Experience | 255,000 | 510,000 | 765,000 |
-| Honor | 1,110 | 2,220 | 3,330 |
+| Credits | 1,830,000 | 3,660,000 | 5,490,000 |
+| Thulium | 4,875 | 9,750 | 14,625 |
+| Experience | 292,500 | 585,000 | 877,500 |
+| Honor | 1,275 | 2,550 | 3,825 |
 
 The box holds 40 to 60 Ship Fragments, 10 to 20 Power Cores and 3,000 to 6,000 Advanced Plasma, and sometimes Ancient Control Units or Dark Matter. A kill adds **no PvE points** to your ranking (he is out of the rankings, see below); the experience it pays counts like any other experience, and the kill is counted under the name Davidski in your kill statistics.
 

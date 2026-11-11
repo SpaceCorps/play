@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Essaim Tesseract -->
 # Essaim Tesseract {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ L’essaim Tesseract est un unique et immense vaisseau-mère, le **Tesseract**, 
 ## Le déroulement du combat {#how-the-fight-goes}
 
 - **Venez en très grand groupe et frappez ensemble.** La coque et le bouclier du Tesseract forment une réserve de millions de points ; le combat est long même pour un grand groupe de vaisseaux puissants, et le paiement est réparti selon les dégâts : chaque pilote présent compte.
-- **Ne le laissez jamais tranquille.** Quand personne ne l’a blessé pendant le temps indiqué dans la liste *D’un coup d’œil*, il répare sa coque puis son bouclier à cette vitesse ; une pause de quelques secondes peut défaire une longue minute de travail. Un Tesseract entièrement réparé oublie qui l’a blessé : le paiement et la caisse suivent les dégâts du combat qui le détruit.
+- **Ne le laissez jamais tranquille.** Quand personne ne l’a blessé pendant le temps indiqué dans la liste *D’un coup d’œil*, il répare sa coque puis son bouclier à cette vitesse ; une pause de quelques secondes peut défaire une longue minute de travail. Un Tesseract entièrement réparé oublie qui l’a blessé : le paiement et le butin suivent les dégâts du combat qui le détruit.
 - **Chaque coup appelle les Facets.** Tant que le Tesseract est touché, un groupe de Facets arrive près de lui toutes les quelques secondes, jusqu’au plafond de la liste *D’un coup d’œil*. Tant que personne ne le touche, aucun ne vient, et ceux qui sont déjà là attendent puis partent.
-- **Les Facets volent tout autour du Tesseract et tirent sur ceux qui sont à leur portée.** Ils ne traquent ni celui qui inflige le plus de dégâts ni aucun pilote en particulier : chaque Facet vole par petits trajets à lui vers des endroits pris au hasard dans un large anneau autour du Tesseract, dans toutes les directions, et dès qu’un pilote qui a touché le Tesseract est à sa portée, il tire sur le plus proche d’entre eux. Un groupe qui reste serré est à portée de moins de Facets à la fois, et se partage leur tir, contrairement à un groupe réparti tout autour du Tesseract. Un Facet a peu de coque et de bouclier, et en abattre un ne paie rien, mais cela retire une salve aux pilotes qui sont près de lui. Un pilote qui n’a pas touché le Tesseract n’est pas leur cible.
+- **Les Facets volent tout autour du Tesseract et tirent sur ceux qui sont à leur portée.** Ils ne traquent ni celui qui inflige le plus de dégâts ni aucun pilote en particulier : chaque Facet vole par petits trajets à lui vers des endroits pris au hasard dans un large anneau autour du Tesseract, dans toutes les directions, et dès qu’un pilote qui a touché le Tesseract est à sa portée, il tire sur le plus proche d’entre eux. Un groupe qui reste serré est à portée de moins de Facets à la fois, et se partage leur tir, contrairement à un groupe réparti tout autour du Tesseract. Un Facet a peu de coque et de bouclier, et en abattre un paie ce que paie un [Phantasm](/wiki/04-Aliens/Phantasm.md), mais cela retire une salve aux pilotes qui sont près de lui. Un pilote qui n’a pas touché le Tesseract n’est pas leur cible.
 - **Un pilote qui reste assez loin est laissé tranquille.** Les Facets ne s’éloignent jamais du Tesseract au-delà de la distance de la liste *D’un coup d’œil* ; un pilote qui reste au-delà de cette distance et de la portée du laser d’un Facet n’est pas pris pour cible, quels que soient les dégâts qu’il a infligés. Un Facet sans personne sur qui tirer continue de voler autour du Tesseract et part quand on laisse le Tesseract tranquille.
 - **Beta et Gamma sont plus durs.** Les essaims de ces mondes sont plus forts ([Mondes](/wiki/05-Swarms/Swarms.md#the-worlds)), de même que la réparation du Tesseract et la salve de chaque Facet.
-- **Les secteurs dangereux sont PvP.** Un rival peut attaquer le groupe en plein combat et attendre la caisse : elle est au pilote qui a infligé le plus de dégâts (et à son clan) pendant 30 secondes, puis à n’importe qui ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Ne venez pas seul.
+- **Les secteurs dangereux sont PvP.** Un rival peut attaquer le groupe en plein combat. Aucune caisse ne reste près de l’épave pour qu’il l’attende : le butin est une [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) pour chaque pilote que l’élimination paie, que seul ce pilote peut voir et prendre. Ne venez pas seul.
 - **Le Tesseract revient** après le temps de la liste *D’un coup d’œil*, à pleine force, à son emplacement.
 
 ## Récompenses et butin {#rewards-and-drops}
 
-Le Tesseract paie pour le combat qu’il est : autant que de nombreux Crystalys réunis, et davantage, pour les dégâts qu’il encaisse, qu’un Crystalys, l’alien le mieux payé. Le paiement est réparti selon les dégâts entre les pilotes qui l’ont combattu ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Sa caisse revient au pilote qui a infligé le plus de dégâts et contient des Power Cores et des Ancient Control Units, et de temps en temps de la Dark Matter. Les plaques de coque n’y sont pas : chaque pilote que l’élimination paie reçoit sa propre [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) de plaques, que lui seul voit et peut prendre, pendant 10 minutes. Elle est tirée pour sa part des dégâts, comme le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) : celui qui a infligé un cinquième des dégâts reçoit environ un cinquième des quantités du tableau, et dans un groupe chaque pilote reçoit sa part de celle du groupe, comme le paiement est partagé. Les Facets ne paient rien, ne laissent rien et ne rapportent aucun point PvE : les tuer n’est pas une façon de farmer.
+Le Tesseract paie pour le combat qu’il est : autant que de nombreux Crystalys réunis, et davantage, pour les dégâts qu’il encaisse, qu’un Crystalys, l’alien le mieux payé. Le paiement est réparti selon les dégâts entre les pilotes qui l’ont combattu ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Il n’y a pas de caisse pour le pilote qui inflige le plus de dégâts. Chaque pilote que l’élimination paie reçoit sa propre [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes), que lui seul voit et peut prendre, pendant 10 minutes, avec des Reinforced Hull Plates, des Velkonite et Orvium Reinforced Plates, des Power Cores, des Ancient Control Units et de la Dark Matter. Elle est tirée pour sa part des dégâts, comme le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) : celui qui a infligé un cinquième des dégâts reçoit environ un cinquième des quantités du tableau, et dans un groupe chaque pilote reçoit sa part de celle du groupe, comme le paiement est partagé. La Dark Matter a un plafond par pilote : d’une élimination, il en reçoit 5 au plus, quelle que soit l’ampleur de sa part (dans un groupe, la part de chaque pilote est d’abord séparée, et le plafond est celui de chacun), et ce qui dépasse le plafond est perdu, il n’est pas donné aux autres. Un Facet paie ce que paie un [Phantasm](/wiki/04-Aliens/Phantasm.md) en Crédits, Thulium, XP et Honneur, et son élimination compte comme une élimination (dans vos statistiques, pour les succès et pour l’expérience de vos drones et de vos P.E.T.), mais il ne laisse rien et ne rapporte aucun point PvE.
 
 ## Les valeurs {#the-numbers}
 
@@ -70,21 +70,16 @@ Base : Crystalys, avec 625 % de sa coque ; sans arme, avec un bouclier et une
 | Honneur | 624 | 1 248 | 1 872 |
 | Points PvE par élimination | 42 | 42 | 42 |
 
-**Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.
+**Butin pour chaque pilote que l’élimination paie** : une caisse pour chacun, rien que pour lui, avec sa part de ces quantités.
 
 | Objet | Chance | Quantité |
 | :--- | ---: | ---: |
-| Power Core | 70 % | 1–2 |
-| Ancient Control Unit | 35 % | 1 |
-| Dark Matter | 2,5 % | 1 |
-
-**Butin pour chaque pilote que l’élimination paie** : une caisse de plus pour chacun, rien que pour lui, avec sa part de ces quantités.
-
-| Objet | Chance | Quantité |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 1–2 |
-| Velkonite Reinforced Plate | 60 % | 3–6 |
-| Orvium Reinforced Plate | 40 % | 1–2 |
+| Reinforced Hull Plate | 100 % | 3–10 |
+| Velkonite Reinforced Plate | 66 % | 7–12 |
+| Orvium Reinforced Plate | 50 % | 3–5 |
+| Power Core | 66 % | 4–7 |
+| Ancient Control Unit | 100 % | 1–4 |
+| Dark Matter | 100 % | 10–20, au plus 5 par pilote |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Base : Seeker, avec 2 500 % de sa coque et 309 % de ses dégâts laser ; le
 | Vitesse | 750 | 750 | 750 |
 | Portée des lasers | 600 | 600 | 600 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
-| Crédits | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| Expérience (XP) | 0 | 0 | 0 |
-| Honneur | 0 | 0 | 0 |
+| Crédits | 3 000 | 6 000 | 9 000 |
+| Thulium | 12 | 24 | 36 |
+| Expérience (XP) | 300 | 600 | 900 |
+| Honneur | 6 | 12 | 18 |
 | Points PvE par élimination | 0 | 0 | 0 |
 
-**Butin** : aucun. L’élimination ne paie rien.
+**Butin** : aucun. L’élimination ne paie que ses crédits, son Thulium, son XP et son honneur.
 
 <!-- tesseract-members:end -->

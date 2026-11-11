@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Drei Aliens der verlorenen Zivilisation leben hier, jedes mit eigenen Zahlen. Si
 
 - **Slumbering Void.** Der schlanke Jäger, das schnellste Alien im Spiel (schneller als eine Storm mit Afterburner III). Einige patrouillieren immer in der Umgebung des Sumpfs, und andere kommen in Wellen zu den Baggern. Es ist aggressiv, jagt den nächsten Piloten, den es sehen kann, und sieht nie ein getarntes Schiff.
 - **Inert Mass.** Ein toter Koloss mit violetten Rissen, so groß wie eine kleine Station. Sie bleiben in einem festen Umkreis um die Mitte des Sumpfs und verlassen ihn vorerst nicht. Sie feuert **Dormant Lances**: gelenkte Raketen mit sehr großer Reichweite, die einem Schiff folgen, bis es sich tarnt, ein EMP-Fenster öffnet, einen Schutzring betritt, springt oder stirbt. Sie ist schneller als jedes Schiff, nur diese Unterbrechungen helfen. Ein Asteroid auf dem Weg einer Dormant Lance hält sie auf, und die Lance beschädigt ihn mit ihrem eigenen Schaden (niemand wird dafür bezahlt); ein Felsen schützt vor einer Inert Mass also nur für ein paar Treffer.
-- **Der Unwakened.** Ein Monolith, der in der Mitte des Sumpfs schläft, das größte Ding auf jeder Karte, so langsam, dass er nie ein Schiff erwischt. Er feuert nichts, aber jedes Schiff in seiner Aura verbrennt, **getarnt oder nicht**. Er ist **immun**: Schüsse und Raketen treffen und bewirken nichts, das Zielfenster zeigt volle Balken und das Wort Immun. Ein späteres Event wird es erlauben, ihn zu bekämpfen; seine Belohnungen unten sind aufgeschrieben und noch nicht zu verdienen.
+- **Der Unwakened.** Ein Monolith, der in der Mitte des Sumpfs schläft, das größte Ding auf jeder Karte, so langsam, dass er nie ein Schiff erwischt. Er feuert nichts, aber jedes Schiff in seiner Aura verbrennt, **getarnt oder nicht**. Er ist **immun**: Schüsse und Raketen treffen und bewirken nichts, das Zielfenster zeigt volle Balken und das Wort Immun. Ein späteres Event wird es erlauben, ihn zu bekämpfen; seine Belohnungen unten sind aufgeschrieben und noch nicht zu verdienen. Die **Strahlungstechnik** eines Piloten senkt das Brennen auf das 0,40-Fache auf Stufe 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

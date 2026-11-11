@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Enxame Tesseract -->
 # Enxame Tesseract {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ O enxame Tesseract é uma única nave-mãe enorme, o **Tesseract**, e os **Facet
 ## Como a luta transcorre {#how-the-fight-goes}
 
 - **Leve um grupo muito grande e ataquem juntos.** O casco e o escudo do Tesseract são uma reserva de milhões de pontos, então a luta demora mesmo para um grupo grande de naves fortes, e o pagamento é dividido pelo dano: cada piloto presente conta.
-- **Nunca o deixe em paz.** Se ninguém o fere pelo tempo da lista *Resumo rápido*, ele conserta o casco e depois o escudo nessa velocidade, então uma pausa de poucos segundos pode desfazer um longo minuto de trabalho. Um Tesseract totalmente consertado esquece quem o feriu: o pagamento e a caixa seguem o dano da luta que o destrói.
+- **Nunca o deixe em paz.** Se ninguém o fere pelo tempo da lista *Resumo rápido*, ele conserta o casco e depois o escudo nessa velocidade, então uma pausa de poucos segundos pode desfazer um longo minuto de trabalho. Um Tesseract totalmente consertado esquece quem o feriu: o pagamento e o saque seguem o dano da luta que o destrói.
 - **Cada acerto chama os Facets.** Enquanto o Tesseract é atingido, um grupo de Facets chega perto dele a cada poucos segundos, até o limite da lista *Resumo rápido*. Se ninguém o atinge, nenhum vem, e os que já estão lá esperam e vão embora.
-- **Os Facets voam ao redor do Tesseract e atiram em quem estiver ao alcance.** Não vão atrás de quem causa mais dano nem de um piloto só: cada Facet voa trechos curtos próprios para lugares aleatórios de um anel largo em volta do Tesseract, em todas as direções, e assim que um piloto que atingiu o Tesseract está ao seu alcance, atira no mais próximo deles. Um grupo que fica junto está ao alcance de menos Facets por vez e divide o fogo deles, ao contrário de um grupo espalhado ao redor do Tesseract. Um Facet tem pouco casco e escudo, e abater um não paga nada, mas tira uma salva dos pilotos perto dele. Um piloto que não atingiu o Tesseract não é o alvo deles.
+- **Os Facets voam ao redor do Tesseract e atiram em quem estiver ao alcance.** Não vão atrás de quem causa mais dano nem de um piloto só: cada Facet voa trechos curtos próprios para lugares aleatórios de um anel largo em volta do Tesseract, em todas as direções, e assim que um piloto que atingiu o Tesseract está ao seu alcance, atira no mais próximo deles. Um grupo que fica junto está ao alcance de menos Facets por vez e divide o fogo deles, ao contrário de um grupo espalhado ao redor do Tesseract. Um Facet tem pouco casco e escudo, e abater um paga o que paga um [Phantasm](/wiki/04-Aliens/Phantasm.md), mas tira uma salva dos pilotos perto dele. Um piloto que não atingiu o Tesseract não é o alvo deles.
 - **Quem fica longe o bastante é deixado em paz.** Os Facets nunca se afastam do Tesseract além da distância da lista *Resumo rápido*; um piloto que fica além dessa distância e do alcance do laser de um Facet não é alvejado, por mais dano que tenha causado. Um Facet sem ninguém para atirar continua voando ao redor do Tesseract e vai embora quando o Tesseract é deixado em paz.
 - **Beta e Gamma são mais duros.** Os enxames desses mundos são mais fortes ([Mundos](/wiki/05-Swarms/Swarms.md#the-worlds)), e também o conserto do Tesseract e a salva de cada Facet.
-- **Os setores de perigo são PvP.** Um rival pode atacar o grupo no meio da luta e esperar a caixa: ela é do piloto que mais causou dano (e do clã dele) por 30 segundos, e depois de qualquer um ([Carga](/wiki/03-Mechanics/Cargo.md)). Não vá sozinho.
+- **Os setores de perigo são PvP.** Um rival pode atacar o grupo no meio da luta. Não há nenhuma caixa nos destroços para ele esperar: o saque é uma [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) para cada piloto que o abate paga, que só esse piloto pode ver e pegar. Não vá sozinho.
 - **O Tesseract volta** depois do tempo da lista *Resumo rápido*, com força total, no seu lugar.
 
 ## Recompensas e saque {#rewards-and-drops}
 
-O Tesseract paga pela luta que ele é: tanto quanto muitos Crystalys juntos, e mais, pelo dano que aguenta, do que um Crystalys, o alienígena mais bem pago. O pagamento é dividido pelo dano entre os pilotos que lutaram contra ele ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A caixa dele é do piloto que mais causou dano e contém Power Cores e Ancient Control Units, e de vez em quando Dark Matter. As placas de casco não estão nessa caixa: cada piloto que o abate paga recebe a sua própria [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) de placas, que só ele vê e pode pegar, por 10 minutos. Ela é sorteada para a parte dele no dano, como o saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): quem causou um quinto do dano recebe cerca de um quinto das quantidades da tabela, e num grupo cada piloto recebe a sua parte da parte do grupo, como o pagamento é dividido. Os Facets não pagam nada, não largam nada e não somam pontos PvE: abatê-los não é farm.
+O Tesseract paga pela luta que ele é: tanto quanto muitos Crystalys juntos, e mais, pelo dano que aguenta, do que um Crystalys, o alienígena mais bem pago. O pagamento é dividido pelo dano entre os pilotos que lutaram contra ele ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Não há caixa para o piloto que mais causa dano. Cada piloto que o abate paga recebe a sua própria [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes), que só ele vê e pode pegar, por 10 minutos, com Reinforced Hull Plates, Velkonite e Orvium Reinforced Plates, Power Cores, Ancient Control Units e Dark Matter. Ela é sorteada para a parte dele no dano, como o saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): quem causou um quinto do dano recebe cerca de um quinto das quantidades da tabela, e num grupo cada piloto recebe a sua parte da parte do grupo, como o pagamento é dividido. A Dark Matter tem um limite por piloto: de um abate ele recebe 5 no máximo, por maior que seja a sua parte (num grupo a parte de cada piloto é separada primeiro, e o limite é o de cada um), e o que passa do limite se perde, não é dado aos outros. Um Facet paga o que paga um [Phantasm](/wiki/04-Aliens/Phantasm.md) em Créditos, Thulium, XP e Honra, e o abate dele conta como abate (nas suas estatísticas, para as conquistas e para a experiência dos seus drones e P.E.T.s), mas não larga nada e não soma pontos PvE.
 
 ## Os números {#the-numbers}
 
@@ -70,21 +70,16 @@ Base: Crystalys, com 625% do casco; não tem arma, e o escudo e a velocidade sã
 | Honra | 624 | 1.248 | 1.872 |
 | Pontos PvE por abate | 42 | 42 | 42 |
 
-**Saque**: uma caixa, para o piloto que mais causou dano.
+**Saque para cada piloto que o abate paga**: uma caixa para cada um, só para ele, com a parte dele destas quantidades.
 
 | Item | Chance | Quantidade |
 | :--- | ---: | ---: |
-| Power Core | 70% | 1–2 |
-| Ancient Control Unit | 35% | 1 |
-| Dark Matter | 2,5% | 1 |
-
-**Saque para cada piloto que o abate paga**: mais uma caixa para cada um, só para ele, com a parte dele destas quantidades.
-
-| Item | Chance | Quantidade |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100% | 1–2 |
-| Velkonite Reinforced Plate | 60% | 3–6 |
-| Orvium Reinforced Plate | 40% | 1–2 |
+| Reinforced Hull Plate | 100% | 3–10 |
+| Velkonite Reinforced Plate | 66% | 7–12 |
+| Orvium Reinforced Plate | 50% | 3–5 |
+| Power Core | 66% | 4–7 |
+| Ancient Control Unit | 100% | 1–4 |
+| Dark Matter | 100% | 10–20, no máximo 5 por piloto |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Base: Seeker, com 2.500% do casco e 309% do dano dos lasers; o escudo, a velocid
 | Velocidade | 750 | 750 | 750 |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
-| Créditos | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| Experiência (XP) | 0 | 0 | 0 |
-| Honra | 0 | 0 | 0 |
+| Créditos | 3.000 | 6.000 | 9.000 |
+| Thulium | 12 | 24 | 36 |
+| Experiência (XP) | 300 | 600 | 900 |
+| Honra | 6 | 12 | 18 |
 | Pontos PvE por abate | 0 | 0 | 0 |
 
-**Saque**: nenhum. O abate não paga nada.
+**Saque**: nenhum. O abate paga só os seus créditos, Thulium, XP e honra.
 
 <!-- tesseract-members:end -->

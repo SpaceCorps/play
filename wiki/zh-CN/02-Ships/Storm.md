@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Storm 是一艘玻璃大炮型战斗舰：基础速度和激光数量（14 个�
 
 ## 研究 {#research}
 
-- **装甲槽位。** 这艘舰船有 7 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。7 个槽位全部装上 Hull Plating III，可增加 105,000 点船体。
+- **装甲槽位。** 这艘舰船有 7 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。7 个槽位全部装上 Hull Plating III，可增加 175,000 点船体。
 - **设计。** 这艘舰船有 3 种[设计](/wiki/03-Mechanics/Ship-Designs.md)。研究其中一种（10 小时和 10 个 Dark Matter），然后在装配站把你的 Storm 改装成它：改装无法撤销。
 
 | 设计 | 改变了什么 |

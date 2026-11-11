@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Förmågor -->
 # Skeppets aktiva förmågor {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ Engine II och sköldar och motorer av rang III (Heavy Shield Core, Engine III) s
 - **Varje förmåga har sin egen återhämtning.** Att använda en låser inte de andra.
 - **En pågående effekt behåller de värden den startade med.** Att ta av föremålet eller byta konfiguration ändrar eller avslutar den inte. Ett hopp eller en återanslutning avslutar den inte heller; att logga ut gör det, och dess återhämtning finns kvar.
 - Andra piloter ser dina förmågors timers på kartan, som de alltid gjort: en förbrukad Surge talar om för dem att de närmaste minuterna är öppna.
+
+## Pilotfärdigheter {#pilot-skills}
+
+Tre av dina [pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md) ändrar hur förmågor går, även förmågan `F` hos ditt skepps design:
+
+- **Reflexer** får återhämtningen att ta slut tidigare, lite mer för varje nivå. En återhämtning börjar fortfarande när du trycker och omfattar förmågans varaktighet.
+- **Taktik** får en förmåga att vara längre. En Shield Surge eller en Emergency Repair ger samma poäng per sekund under den längre tiden, så den ger tillbaka mer sammanlagt, och en Afterburner går längre. Återhämtningen växer inte med den, så väntan efter att förmågan tagit slut blir kortare.
+- **Sabotage** förstärker gifter, som Venom hos en Wraith RAPTOR, i skada och varaktighet, ovanpå Taktik.
+
+Siffrorna för varje nivå finns i tabellen på [Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ## Tangenter och knappar {#keys-and-buttons}
 

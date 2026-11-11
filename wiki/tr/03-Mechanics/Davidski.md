@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça 
 | Ekstralar | bir Repair Drone IV, bir Auto-Repair CPU ve bir Base CPU II |
 | Gövde | 15 Hull Plating III |
 
-Alpha gücünde **858.750 gövde**, **1.309.534 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %86,3 soğurma, 98 hız, 945 menzil ve saniyede **4.324** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,2 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on üç dakika kesintisiz ateş ister; on Wraith ise yaklaşık 77 saniye.
+Alpha gücünde **931.250 gövde**, **1.559.486 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %90,9 soğurma, 102 hız, 945 menzil ve saniyede **4.440** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,5 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on dört dakika kesintisiz ateş ister; on Wraith ise yaklaşık 86 saniye.
 
 ## Ona karşı savaşmak {#fighting-him}
 
@@ -38,10 +38,10 @@ Bir patron gibi öder, her pilotun verdiği hasara göre (hasarın %5’inin alt
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Kredi | 1.590.000 | 3.180.000 | 4.770.000 |
-| Thulium | 4.275 | 8.550 | 12.825 |
-| Deneyim | 255.000 | 510.000 | 765.000 |
-| Onur | 1.110 | 2.220 | 3.330 |
+| Kredi | 1.830.000 | 3.660.000 | 5.490.000 |
+| Thulium | 4.875 | 9.750 | 14.625 |
+| Deneyim | 292.500 | 585.000 | 877.500 |
+| Onur | 1.275 | 2.550 | 3.825 |
 
 Kutuda 40 ile 60 Ship Fragment, 10 ile 20 Power Core ve 3.000 ile 6.000 Advanced Plasma bulunur; bazen de Ancient Control Unit ya da Dark Matter çıkar. Bir öldürme PvE sıralamana **hiç puan eklemez** (o hiçbir sıralamada yer almaz, aşağıya bak); ödediği deneyim her deneyim gibi sayılır ve öldürme, öldürme istatistiklerinde Davidski adıyla görünür.
 

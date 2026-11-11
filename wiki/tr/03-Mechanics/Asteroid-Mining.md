@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Asteroit madenciliği -->
 # Asteroit madenciliği {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Bir asteroit kırıldığında hiçbir şey ödenmez. Moloz hâlinde dağılır 
 
 Daha büyük bir asteroit daha fazla parça bırakır (Türler bölümündeki Nakit parçalar sütunu: kredi ve Thulium o kadar parçada gelir, cevher ise bir parça fazlasında). Bir toplamadan sonra gemin kendiliğinden yakındaki, alabileceğin bir asteroitin sonraki parçasına gider; herhangi bir hareket emrin onu durdurur.
 
-Kayaların 2. kademesinden itibaren, bir kırılma en çok hasarı veren pilotun ya da grubun cevher parçasında bütün bir **Cluster Chunk** da bırakabilir: 2. kademeden itibaren bir **Regular Cluster Chunk**, 3. kademeden itibaren bir **Mythical Cluster Chunk**, 4. kademeden itibaren bir **Legendary Cluster Chunk**; Motherlode bunları en sık verir. Olasılıklar [Kaynaklar](/wiki/06-Items/Resources.md#regular-cluster-chunk) sayfasındadır. Şans bunları değiştirmez, bir P.E.T.’in şansı da. Bir Orvium Reinforced Plate ile bir parça, hangardaki Beşik’te bir [P.E.T.](/wiki/03-Mechanics/Pets.md) olur.
+Bir kırılma, en çok hasarı veren pilotun ya da grubun cevher parçasında bütün bir **Cluster Chunk** da bırakabilir: 1. kademeden itibaren bir **Regular Cluster Chunk**, 3. kademeden itibaren bir **Mythical Cluster Chunk**, 4. kademeden itibaren bir **Legendary Cluster Chunk**; Motherlode bunları en sık verir. Olasılıklar [Kaynaklar](/wiki/06-Items/Resources.md#regular-cluster-chunk) sayfasındadır. Şans bunları değiştirmez, bir P.E.T.’in şansı da. Bir Orvium Reinforced Plate ile bir parça, hangardaki Beşik’te bir [P.E.T.](/wiki/03-Mechanics/Pets.md) olur.
 
 ## Parçaları kim alır {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Aşağıdaki tablolar Alpha dünyasındaki asteroitlerin rakamlarını verir. **
 
 Bir asteroitin **kademesi**, türünün ait olduğu sektör halkasıdır: 1. ila 4. kademeler üç şirketin x-1 ile x-4 sektörleri, 5. kademe ise Tehlike Sektörleri’dir. Kademe boyutla birlikte yükselir: asteroit ne kadar büyükse kademesi o kadar yüksektir. Yine de ikisi aynı şey değildir: çoğu kademe, tablonun verdiği iki boyuttan oluşur. Hedef penceresi ve bir asteroitin üzerine gelince açılan ipucu ailesini, boyutunu ve kademesini gösterir.
 
-Kademe ayrıca kendine ait bir buluntuyu da belirler: bir **P.E.T. parçası**, yani [P.E.T.](/wiki/03-Mechanics/Pets.md) görünümündeki Beşik’in aldığı bir Cluster Chunk. Tablo, kırılan bir asteroitin her dereceyi bırakma şansını gösterir (tire: asla). 1. kademe asteroitler hiç bırakmaz. Her derece, kırılan her asteroit için bir kez denenir, en çok hasar veren pilot parçayı bütün olarak alır ve Şans bu olasılıkları değiştirmez. Motherlode’un kendine ait olasılıkları vardır. Bir asteroit seç; Hedef penceresi türünün P.E.T. parçalarını listeler.
+Kademe ayrıca kendine ait bir buluntuyu da belirler: bir **P.E.T. parçası**, yani [P.E.T.](/wiki/03-Mechanics/Pets.md) görünümündeki Beşik’in aldığı bir Cluster Chunk. Tablo, kırılan bir asteroitin her dereceyi bırakma şansını gösterir (tire: asla). kademe asteroitler hiç bırakmaz. Her derece, kırılan her asteroit için bir kez denenir, en çok hasar veren pilot parçayı bütün olarak alır ve Şans bu olasılıkları değiştirmez. Motherlode’un kendine ait olasılıkları vardır. Bir asteroit seç; Hedef penceresi türünün P.E.T. parçalarını listeler.
 
 | Kademe | Sektörler | Boyut | Türler | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Minik, Küçük | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Küçük, Orta | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | %0,4 | – | – |
-| 3 | `x-3` | Orta | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | %0,8 | %0,15 | – |
-| 4 | `x-4` | Orta, Büyük | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | %1 | %0,25 | %0,03 |
-| 5 | Tehlike Sektörleri | Büyük | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | %1,2 | %0,3 | %0,1 |
-| 5 | Tehlike Sektörleri | Devasa | Motherlode | %25 | %8 | %3 |
+| 1 | `x-1` | Minik, Küçük | Pebble, Cobble, Glimmer, Rime, Cache Pod | %0,5 | – | – |
+| 2 | `x-2` | Küçük, Orta | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | %1 | – | – |
+| 3 | `x-3` | Orta | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | %2,5 | %0,35 | – |
+| 4 | `x-4` | Orta, Büyük | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | %5 | %0,5 | %0,1 |
+| 5 | Tehlike Sektörleri | Büyük | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | %10 | %1 | %0,5 |
+| 5 | Tehlike Sektörleri | Devasa | Motherlode | %20 | %5 | %3 |
 
 8 ailede 27 asteroit türü vardır. **Uygun roket**, bir türün hangi roket için dengelendiğini ve Alpha dünyasında bir kırılmanın bundan yaklaşık kaç tane aldığını gösterir. **Buluntular**, bir kırılmanın çektiği ve parçalarının paylaştığı cevher ve nadir buluntulardır: bir yüzde o satırın şansıdır, diğer satırlar her zaman bulunur. Kredi ve Thulium, bir kırılmanın Alpha miktarlarıdır.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ Le Module Défense combat pour votre Skylab. Il abrite les lasers qui tirent sur
 
 | Niveau | Lasers | Chargeur (munitions) | Budget d’éliminations (points par heure) | Difficulté maximale |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 300 | 108 | 1 |
-| 2 | 2 | 3 600 | 293 | 2 |
-| 3 | 3 | 14 000 | 476 | 3 |
-| 4 | 4 | 23 000 | 548 | 4 |
-| 5 | 5 | 35 000 | 630 | 5 |
+| 1 | 1 | 1 600 | 108 | 1 |
+| 2 | 2 | 4 300 | 293 | 2 |
+| 3 | 3 | 16 000 | 476 | 3 |
+| 4 | 4 | 28 000 | 548 | 4 |
+| 5 | 5 | 42 000 | 630 | 5 |
 
 | Niveau | Crédits | Thulium | Plaques | Durée |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ En tout, les cinq niveaux coûtent 24 400 000 crédits, 97 600 Thulium, 26 pl
 
 Le Module Radar lève le brouillard de la carte de l’univers (voir [Brouillard et scan](#fog-and-scanning)). Il a les niveaux 1 à 3, et un niveau plus élevé scanne une cellule plus vite.
 
-- **Ce qu’il fait** : il scanne **une cellule à la fois**, parmi les cellules voisines d’une cellule que vous connaissez, et garde une **file de trois** : la première est scannée, les autres attendent. Quand un scan est terminé, vous connaissez la cellule, et votre Skylab peut y voler.
+- **Ce qu’il fait** : il scanne **une cellule à la fois**, parmi les cellules voisines d’une cellule que vous connaissez, et garde une **file** : la première est scannée, les autres attendent. Quand un scan est terminé, vous connaissez la cellule, et votre Skylab peut y voler.
+- **File** : la file contient **3 cellules au niveau 1** et **2 de plus à chaque niveau au-dessus** : 5 au niveau 2 et 7 au niveau 3. Une amélioration ajoute seulement de la place, et les cellules déjà dans la file gardent leur rang. Tant que le module est éteint, en amélioration ou sans énergie, la file est conservée mais n’accepte aucune nouvelle cellule.
 - **Durée** : 90 minutes par cellule au niveau 1, 40 au niveau 2 et 15 au niveau 3. Un scan suit l’horloge du serveur, même quand vous êtes absent et pendant que le Skylab vole. Il s’arrête, et le temps n’est pas rattrapé, tant que le module est éteint, en amélioration ou sans énergie et tant que le Skylab est détruit. Un scan coûte du temps et rien d’autre.
 - **Tout cartographier** : pour cartographier une à une les 131 cellules que vous ne connaissez pas au départ, il faut 8 j 4 h au niveau 1, 3 j 15 h au niveau 2 et 1 j 9 h au niveau 3.
 - **Recherche** : chaque niveau demande sa propre technologie, Module Radar I à III (voir le tableau plus haut).
@@ -386,18 +387,18 @@ Chaque module pèse quelque chose, en **unités de masse (MU)**, et une station 
 Le niveau maximal est 20, sauf pour le Centre de recherche (10), les modules Moteurs et Défense (5) et le module Radar (3). La station entière pèse 2 353 MU au niveau 15 du Noyau et 2 734 MU au niveau 20.
 
 - **La poussée** est le calcul des moteurs des vaisseaux, sans vitesse de base : un moteur apporte sa vitesse de base plus la vitesse fixe de ses propulseurs, multipliée par leurs multiplicateurs ; les moteurs sont classés du meilleur au moins bon, les quatre premiers comptent pour 100 % et le cinquième pour 85 % (le module en abrite cinq au plus) ; et les quatre meilleurs bonus de vitesse s’y ajoutent. Une station sans moteur n’a pas de poussée.
-- **La vitesse** vaut 60 fois la poussée divisée par le poids de la station, en unités par seconde, et un saut entre deux cellules voisines fait 15 000 unités. Sous l’énergie, la page du Skylab affiche la ligne « Poids 2 353 MU, vitesse 7,5 unités/s, un saut 33 min ».
+- **La vitesse** vaut 60 fois la poussée divisée par le poids de la station, en unités par seconde, et un saut entre deux cellules voisines fait 15 000 unités. Sous l’énergie, la page du Skylab affiche la ligne « Poids 2 353 MU, vitesse 8,9 unités/s, un saut 28 min ».
 - **Fixée au départ** : la vitesse d’un voyage est calculée à son départ, d’après le poids et la poussée de cet instant. Une amélioration qui se termine en route, ou un moteur que vous changez pendant que le Skylab est stationné, compte pour le voyage suivant.
 
 Ce que font les moteurs pour une station dont tous les modules sont au niveau 15 (le Module Moteurs au niveau qui abrite les moteurs) :
 
 | Moteurs montés | Poids (MU) | Poussée | Vitesse (unités par seconde) | Un saut | À travers la carte (14 sauts) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Module Moteurs niveau 1) | 2 289 | 2,0 | 0,05 | 3 j 6 h | 45 j 11 h |
-| 3 Engine II, chacun avec 2 Impulse Thruster II (niveau 3) | 2 321 | 71,6 | 1,85 | 2 h 15 min | 1 j 8 h |
-| 5 Engine III, chacun avec 3 Impulse Thruster IV (niveau 5) | 2 353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
+| 1 Engine I (Module Moteurs niveau 1) | 2 289 | 5,1 | 0,13 | 1 j 7 h | 18 j 4 h |
+| 3 Engine II, chacun avec 2 Impulse Thruster II (niveau 3) | 2 321 | 92,1 | 2,38 | 1 h 45 min | 1 j |
+| 5 Engine III, chacun avec 3 Impulse Thruster IV (niveau 5) | 2 353 | 350,6 | 8,94 | 28 min | 6 h 32 min |
 
-Au niveau 20 du Noyau, la station pèse 16 % de plus, et les meilleurs moteurs mettent 39 minutes par saut et 9 h pour traverser la carte.
+Au niveau 20 du Noyau, la station pèse 16 % de plus, et les meilleurs moteurs mettent 32 minutes par saut et 7 h 35 min pour traverser la carte.
 
 ## Expéditions {#expeditions}
 
@@ -434,7 +435,7 @@ Vous ne voyez que les cellules que vous connaissez.
 - **Une cellule que vous ne connaissez pas** ne montre rien d’elle-même : ni son type, ni sa difficulté, ni son nom, ni ses aliens. Une cellule voisine d’une cellule connue est marquée d’un **?** et peut être scannée ; toute autre cellule inconnue est sombre.
 - **Une cellule connue** montre dans son panneau son code, son type, sa difficulté, son nom et ses aliens.
 - **On ne vole** que vers des cellules connues.
-- **Scanner** : choisissez une cellule **?** et appuyez sur **Scanner cette cellule**. Le radar scanne une cellule à la fois et garde une file de trois ; on peut retirer une cellule de la file, et **Tout annuler** la vide. La durée d’un scan est indiquée au [Module Radar](#radar-module).
+- **Scanner** : choisissez une cellule **?** et appuyez sur **Scanner cette cellule**. Le radar scanne une cellule à la fois et garde une file (3 cellules au niveau 1, 2 de plus à chaque niveau) ; on peut retirer une cellule de la file, et **Tout annuler** la vide. La durée d’un scan est indiquée au [Module Radar](#radar-module).
 
 ### Le voyage {#the-trip}
 
@@ -682,6 +683,7 @@ Chaque ferme et chaque collecteur a un réservoir pour environ 72 heures de sa p
 - **Fonderie** : les plaques vont dans votre inventaire, quand votre vaisseau est amarré.
 - **Imprimante à munitions et Usine à roquettes** : les munitions et les roquettes vont dans votre inventaire, quand votre vaisseau est amarré. Chacune ne garde que 24 heures de production (voir [Imprimante à munitions](#ammo-printer) et [Usine à roquettes](#rocket-factory)).
 - **Baie à minerai** : rien à récupérer. Elle verse le minerai de votre inventaire dans l’Entrepôt de ressources quand vous appuyez sur **Transférer**, vaisseau amarré, jusqu’à son quota (voir [Baie à minerai](#ore-bay)).
+- **Compétences de pilote** : une collecte paie ce que valent les heures avec les compétences que vous avez à ce moment-là. **Extraction** augmente ce que produisent les fermes, les collecteurs, l’Imprimante à munitions et l’Usine à roquettes, **Instinct** augmente encore le minerai des deux collecteurs, et **Logistics** agrandit ce que peut contenir l’Entrepôt de ressources.
 - **Baie des trophées** : récupérée dans la fenêtre Univers, vaisseau amarré : les crédits et le Thulium vont sur votre compte, l’expérience et l’honneur à votre pilote et le butin dans votre inventaire. Elle garde ce qu’elle contient jusqu’à ce que vous la récupériez, mais une baie pleine fait cesser le feu au Skylab (voir [Baie des trophées](#trophies-bay)).
 - **Tout récupérer** prend tout d’un coup, y compris les modules éteints ou en amélioration, mais pas la Baie des trophées, que vous récupérez dans la fenêtre Univers.
 - Un badge **(!)** signale un réservoir plein que vous pouvez vider, et des plaques qui attendent dans la Fonderie, sur la page Skylab et sur la ligne Skylab de la barre latérale.

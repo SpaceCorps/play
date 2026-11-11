@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Enchères -->
 # Enchères {#auction}
 
@@ -134,6 +134,8 @@ Une annonce coûte un **dépôt**, payé à la mise en vente et jamais rembours�
 | Helios Beam : niveau 12, 504 h, pendant les derniers jours d’une saison | 2 500 000 crédits | 0 crédits | 0 crédits | 2 500 000 crédits |
 
 <!-- market-fees:end -->
+
+Votre compétence **Commerce** retire jusqu’à la moitié du dépôt de vos annonces et de vos ordres d’achat (arrondi à l’unité supérieure, jamais à zéro). La taxe est la même pour tout le monde, et le tableau ci-dessus donne le chiffre d’un pilote du premier niveau. Chaque vente et chaque ordre d’achat exécuté entraîne la compétence, chez le vendeur comme chez l’acheteur.
 
 ## Acheter {#buying}
 
@@ -284,8 +286,8 @@ Les Enchères suivent la saison (voir [Chronologie des réinitialisations](/wiki
 Les Enchères servent à échanger ce que vous gagnez, et elles sont honnêtes sur leurs limites.
 
 - **Vendre du butin n’est pas un grind.** Le butin brut des aliens n’est composé que de ressources et vaut de 0,4 à 0,9 pour cent de ce que paient en kills la même heure de chasse au niveau 5. Ce que le Marché donne à un nouveau pilote, c’est l’équipement que lui paient ses missions et dont il n’a pas besoin (une fois), les ressources des missions Défi, les caisses des boss d’essaim et ce qu’il fabrique.
-- **Il n’y a pas de revendeur.** Un ordre d’achat est celui d’un pilote et se couvre avec son propre argent : le jeu ne vous achète rien, à aucun prix. Les ordres d’achat, où un pilote dit ce qu’il veut acheter et pour combien, donnent au vendeur un acheteur toujours là, et à l’artisan, qui achète des matériaux, fabrique de l’équipement dans l’Assemblage et le vend, un moyen de les demander ; un ordre peut aussi attendre un vendeur, ou expirer et détruire son dépôt. Ils ne changent rien au premier point.
-- **L’équipement de la Boutique n’est pas fait pour être revendu.** L’équipement que vous avez acheté en Boutique ne peut pas être revendu : cela comprend le Quantum Laser I et II, le Light et le Basic Shield Core, Engine I et II, le premier rang de cellules et de propulseurs, les amplis que vend la Boutique et les munitions achetées. Le seul Quantum Laser II vendable d’un pilote est celui qu’une mission paie une fois.
+- **Il n’y a pas de revendeur.** Un ordre d’achat est celui d’un pilote et se couvre avec son propre argent : les Enchères ne vous achètent rien, à aucun prix. Les ordres d’achat, où un pilote dit ce qu’il veut acheter et pour combien, donnent au vendeur un acheteur toujours là, et à l’artisan, qui achète des matériaux, fabrique de l’équipement dans l’Assemblage et le vend, un moyen de les demander ; un ordre peut aussi attendre un vendeur, ou expirer et détruire son dépôt. Ils ne changent rien au premier point.
+- **L’équipement de la Boutique n’est pas fait pour être revendu.** L’équipement que vous avez acheté en Boutique ne peut pas être revendu aux Enchères : cela comprend le Quantum Laser I et II, le Light et le Basic Shield Core, Engine I et II, le premier rang de cellules et de propulseurs, les amplis que vend la Boutique et les munitions achetées. Le seul Quantum Laser II vendable d’un pilote est celui qu’une mission paie une fois. La Boutique elle-même reprend les unités que vous y avez achetées et que vous détenez encore sans les avoir équipées, pour une fraction de son prix (un peu plus avec votre compétence **Commerce**), et rien d’autre : ce que vous avez gagné, fabriqué, acheté à d’autres pilotes ou reçu en cadeau n’est pas repris.
 - **Les plaques viennent des missions.** Les Velkonite et Orvium Reinforced Plates du Marché sont celles que paient les missions Défi. Les plaques de la Fonderie restent dehors, sinon elles seraient la plus grosse marchandise du Marché.
 
 Si une annonce vous semble anormale, signalez-la de la façon habituelle : les administrateurs du jeu peuvent suspendre une annonce, la rendre, mettre les Enchères en pause ou en exclure un pilote, et chacune de ces actions est enregistrée.

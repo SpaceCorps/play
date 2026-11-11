@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: 小惑星採掘 -->
 # 小惑星採掘 {#asteroid-mining}
 
@@ -45,7 +45,7 @@
 
 大きな小惑星ほど破片が多く残ります（「種類一覧」の「金銭の破片」列。クレジットと Thulium はその数に分かれ、鉱石はもう1つ加わります）。回収後は、近くにある自分が取れる小惑星の次の破片へ艦が自動で向かいます。自分の移動命令を出すと止まります。
 
-岩のティア2以上では、破壊時に**Cluster Chunk**がそのまま1つ、最もダメージを与えたパーティの鉱石チャンクの中に残ることがあります。**Regular Cluster Chunk**はティア2から、**Mythical Cluster Chunk**はティア3から、**Legendary Cluster Chunk**はティア4から出て、最もよく出すのは Motherlode です。確率は[資源](/wiki/06-Items/Resources.md#regular-cluster-chunk)にあります。運では変わらず、P.E.T. の運でも変わりません。Orvium Reinforced Plate と合わせて、ハンガーのゆりかごで [P.E.T.](/wiki/03-Mechanics/Pets.md) になります。
+破壊時に**Cluster Chunk**がそのまま1つ、最もダメージを与えたパーティの鉱石チャンクの中に残ることがあります。**Regular Cluster Chunk**はティア1から、**Mythical Cluster Chunk**はティア3から、**Legendary Cluster Chunk**はティア4から出て、最もよく出すのは Motherlode です。確率は[資源](/wiki/06-Items/Resources.md#regular-cluster-chunk)にあります。運では変わらず、P.E.T. の運でも変わりません。Orvium Reinforced Plate と合わせて、ハンガーのゆりかごで [P.E.T.](/wiki/03-Mechanics/Pets.md) になります。
 
 ## 破片を受け取る人 {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Alpha、Beta、Gamma の各ワールドには、同じ場所にそれぞれ独�
 
 小惑星の**ティア**は、その種類が属するセクター帯のことです。ティア1〜4は3つの企業のセクター x-1〜x-4、ティア5は危険セクターです。ティアは大きさとともに上がり、小惑星が大きいほどティアも高くなります。ただし両者は同じではなく、ほとんどのティアには2つの大きさがあります（表を参照）。ターゲット画面とホバーカードには、小惑星のファミリー、サイズ、ティアが表示されます。
 
-ティアは、もうひとつの戦利品も決めます。**P.E.T. パーツ**です。これは [P.E.T.](/wiki/03-Mechanics/Pets.md) ゆりかごが使う Cluster Chunk のことです。表には、壊れた小惑星が各グレードを残す確率が載っています（ダッシュ：残さない）。ティア1の小惑星は何も残しません。各グレードは、小惑星が1つ壊れるたびに1回ずつ抽選され、最もダメージを与えたパイロットがチャンクをそのまま受け取り、運で確率は変わりません。Motherlode だけは独自の確率です。小惑星を選ぶと、ターゲット画面にその種類の P.E.T. パーツが一覧表示されます。
+ティアは、もうひとつの戦利品も決めます。**P.E.T. パーツ**です。これは [P.E.T.](/wiki/03-Mechanics/Pets.md) ゆりかごが使う Cluster Chunk のことです。表には、壊れた小惑星が各グレードを残す確率が載っています（ダッシュ：残さない）。各グレードは、小惑星が1つ壊れるたびに1回ずつ抽選され、最もダメージを与えたパイロットがチャンクをそのまま受け取り、運で確率は変わりません。Motherlode だけは独自の確率です。小惑星を選ぶと、ターゲット画面にその種類の P.E.T. パーツが一覧表示されます。
 
 | ティア | セクター | サイズ | 種類 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | 極小, 小 | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | 小, 中 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
-| 3 | `x-3` | 中 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
-| 4 | `x-4` | 中, 大 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
-| 5 | 危険セクター | 大 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
-| 5 | 危険セクター | 巨大 | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | 極小, 小 | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0.5% | – | – |
+| 2 | `x-2` | 小, 中 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | 中 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2.5% | 0.35% | – |
+| 4 | `x-4` | 中, 大 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0.5% | 0.1% |
+| 5 | 危険セクター | 大 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0.5% |
+| 5 | 危険セクター | 巨大 | Motherlode | 20% | 5% | 3% |
 
 小惑星には 8 個のファミリーに分かれた 27 種類があります。**対応ロケット**は、その種類がバランスされているロケットと、Alpha で壊すのにおよそ何発かかるかです。**獲得物**は、壊れたときに抽選される鉱石とレアな獲得物で、その破片が分け合います。パーセントはその行の確率で、ほかの行は必ず手に入ります。クレジットと Thulium は、壊れたときの Alpha の量です。
 

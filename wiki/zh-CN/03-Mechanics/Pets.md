@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -17,7 +17,7 @@
 ## 一分钟了解 {#in-one-minute}
 
 - **拿到 Station。** 在研究中心研究一座 **P.E.T. Station**，并在装配站制造。它有三级，分别能容纳 **2、3 和 5** 只 P.E.T.。把它装备到你所驾驶飞船的附加槽位中。摇篮没有它也能用：在你拥有 Station 之前就可以孵 P.E.T.。
-- **找到晶簇块。** 从第二等级起击碎小行星：**Regular**、**Mythical** 或 **Legendary Cluster Chunk** 可能整块留在造成最多伤害的队伍的矿石块里。
+- **找到晶簇块。** 击碎小行星，越大越好：**Regular**、**Mythical** 或 **Legendary Cluster Chunk** 可能整块留在造成最多伤害的队伍的矿石块里。
 - **孵化。** 在机库的 **P.E.T.** 视图里，摇篮为每只 P.E.T. 取用一块晶簇块和一块 Orvium Reinforced Plate，队列有四个位置。晶簇块的品级决定 P.E.T. 有几个加成：**1、2 或 3 个**。
 - **对接与飞行。** 飞船降落时，对接你想要的 P.E.T.。Station 装备并开启时，它们提供加成，并在你狩猎、采矿和飞行时获得经验，最高到 20 级。
 - **开启与关闭。** 快捷栏的 **PET** 槽位切换 Station，飞行中也可以，更改立即生效：关闭时，你的 P.E.T. 不提供加成、不获得经验，也不工作；开启后它们就回来了。你从未切换过的 Station 是开启的。
@@ -37,7 +37,7 @@ Station 是一种**附加装置**。**P.E.T. Station I、II 和 III** 三件物�
 
 ## Cluster Chunk {#cluster-chunks}
 
-Cluster Chunk 是岩石里的晶体簇。它们有三个品级，**普通（Regular）**、**神话（Mythical）**和**传说（Legendary）**，一次击碎每个品级最多留下一块。从[岩石](/wiki/03-Mechanics/Asteroid-Mining.md)的等级 2 起，击碎可能留下 Regular Cluster Chunk，等级 3 起可能留下 Mythical，等级 4 起可能留下 Legendary；Motherlode 最常给出。概率见[资源](/wiki/06-Items/Resources.md#regular-cluster-chunk)。晶簇块不属于击碎的奖励：它整块放在矿石块里，归造成最多伤害的队伍，任何幸运都不会改变它的概率，P.E.T. 的幸运也一样。
+Cluster Chunk 是岩石里的晶体簇。它们有三个品级，**普通（Regular）**、**神话（Mythical）**和**传说（Legendary）**，一次击碎每个品级最多留下一块。击碎任何[岩石](/wiki/03-Mechanics/Asteroid-Mining.md)都可能留下 Regular Cluster Chunk，等级 3 起可能留下 Mythical，等级 4 起可能留下 Legendary；Motherlode 最常给出。概率见[资源](/wiki/06-Items/Resources.md#regular-cluster-chunk)。晶簇块不属于击碎的奖励：它整块放在矿石块里，归造成最多伤害的队伍，任何幸运都不会改变它的概率，P.E.T. 的幸运也一样。
 
 晶簇块是一种资源：不能出售，如果你没有把它放进[运输储藏库](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)带过去，重置会把它删除。
 

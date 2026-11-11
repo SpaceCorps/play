@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Buco nero -->
 # Il buco nero {#the-black-hole}
 
@@ -65,12 +65,13 @@ Tra due righe il danno cresce in modo lineare. In punti al secondo, per gli alle
 | Paragon | 162.500 | 894 | 1.300 | 3.250 | 8.125 | 17.875 |
 | Storm | 228.000 | 1.254 | 1.824 | 4.560 | 11.400 | 25.080 |
 | Wraith | 304.000 | 1.672 | 2.432 | 6.080 | 15.200 | 33.440 |
-| Ironclad | 673.200 | 3.703 | 5.386 | 13.464 | 33.660 | 74.052 |
+| Ironclad | 573.200 | 3.153 | 4.586 | 11.464 | 28.660 | 63.052 |
 
 - **Prima lo subisce lo scudo**, poi lo scafo. Non è un colpo: l’assorbimento dello scudo non entra in gioco, e non si può schivare.
 - Le radiazioni contano come **danno subito**: il tuo scudo non si ricarica, un Repair Drone si ferma (“Riparazioni interrotte: radiazioni.”) e non si può avviare, e una zona sicura non ti proteggerebbe prima che siano passati 5 secondi dall’ultima dose.
 - Booster e potenziamenti cambiano quanto è grande il tuo totale, non quanto resisti: il danno ne è una quota.
 - Niente rende una nave immune. Le radiazioni non sono un colpo, quindi niente le assorbe; ma le abilità continuano a funzionare: uno Shield Surge continua a ripristinare il tuo scudo e un Emergency Repair continua a curare il tuo scafo per i loro dieci secondi (non sono le riparazioni naturali che la dose interrompe). L’occultamento non nasconde la nave alle radiazioni.
+- La **Tecnica delle radiazioni**, un’abilità del pilota, abbassa la dose: la quota del tuo totale che perdi al secondo scende in linea retta dall’intero al livello 1 a 0,40 di esso al livello 100, e l’indicatore mostra la dose che subisci davvero.
 
 ## L’attrazione {#the-pull}
 
@@ -97,20 +98,20 @@ Il tuo **punto di non ritorno** è la distanza in cui l’attrazione eguaglia la
 
 | Nave (allestimento di serie) | Velocità | Punto di non ritorno |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1.826 |
-| Protos | 188 | 1.462 |
-| Kitefin | 202 | 1.388 |
-| Nomad | 221 | 1.294 |
-| Wraith | 223 | 1.281 |
-| Ostirion | 231 | 1.220 |
-| Paragon | 242 | 1.141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1.755 |
+| Protos | 194 | 1.431 |
+| Kitefin | 211 | 1.346 |
+| Nomad | 229 | 1.233 |
+| Wraith | 235 | 1.189 |
+| Ostirion | 240 | 1.160 |
+| Paragon | 252 | 1.071 |
+| Storm | 284 | 906 |
 
 Un design di nave cambia la velocità della sua nave, e con essa il suo punto di non ritorno: un DUMA è più lento di una Ironclad, un NOTSUM più veloce di una Storm.
 
 Una nave più veloce di 272 unità al secondo (un allestimento da fuga, o una Wraith di serie con un Afterburner attivo) ha il suo punto di non ritorno dove è sempre stato: a velocità 300 è a 885, a 432 è a 747.
 
-Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 46,8, con il punto di non ritorno a circa 2.500). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (quindici secondi con un motore, 22,5 con due, trenta con tre; l’Afterburner III porta quello di una Protos di serie da 1.462 a 994 e quello di una Wraith di serie da 1.281 a 869). Niente può uscire da meno di circa 440 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,46); una nave non incantata costruita per la velocità (Engine III e Adaptive Core III con tre Impulse Thruster IV ciascuno), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 475.
+Punta sulla velocità e potrai uscire da più in profondità; caricati di scudi pesanti e non potrai (un’Ironclad, la nave più lenta, con un Heavy Shield Core in tutti i suoi 14 slot vola a 46,8, con il punto di non ritorno a circa 2.500). Solo uno scatto di velocità può far tornare indietro una nave appena all’interno del suo punto di non ritorno: un [Afterburner](/wiki/03-Mechanics/Abilities.md) attivo vale, e sposta il punto di non ritorno più in profondità finché resta attivo (quindici secondi con un motore, 22,5 con due, trenta con tre; l’Afterburner III porta quello di una Protos di serie da 1.431 a 928 e quello di una Wraith di serie da 1.189 a 847). Niente può uscire da meno di circa 410 unità, nemmeno una nave costruita per la velocità con ogni statistica di velocità incantata al massimo e lo scatto più forte attivo (un Afterburner III incantato fino al limite, x1,46); una nave non incantata costruita per la velocità (Engine III con tre Momentum Thruster IV ciascuno e Adaptive Core III con tre Impulse Thruster IV ciascuno), con un Afterburner III, esce, nel migliore dei casi, solo da oltre 453.
 
 La caduta dal punto di non ritorno comincia lentamente: una nave poche unità al suo interno, a piena potenza, viene risucchiata in venti secondi o più, poi sempre più in fretta. L’attrazione non è volo: non conta come distanza percorsa.
 

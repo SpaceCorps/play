@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: 技能 -->
 # 舰船主动技能 {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ Engine II 以及 III 级的护盾和引擎（Heavy Shield Core、Engine III）�
 - **每个技能都有自己的冷却。**使用其中一个，不会锁定其他技能。
 - **正在运行的效果保持它开始时的数值。**卸下物品或切换配置，不会改变或结束它。跃迁或重新连接同样不会结束它；下线则会结束它，而它的冷却会保留。
 - 其他飞行员能在地图上看到你技能的计时器，一直都是如此：用掉的 Surge 会告诉他们，接下来的几分钟是可乘之机。
+
+## 飞行员专长 {#pilot-skills}
+
+你的[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md)中有三项会改变技能的运作方式，包括你的舰船设计所带的 `F` 技能：
+
+- **反射**让冷却更早结束，每升一级就多快一点。冷却仍然从你按下时开始，并包含该技能的持续时间。
+- **战术**让技能持续更久。Shield Surge 或 Emergency Repair 在更长的时间里每秒给出同样的点数，所以总共恢复得更多；Afterburner 则运行更久。冷却不会随之变长，所以技能结束后的等待会变短。
+- **破坏**会强化毒素，例如 Wraith RAPTOR 的 Venom，在战术之外提高伤害和持续时间。
+
+每一级的数值见[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md#the-stats)的表格。
 
 ## 按键与按钮 {#keys-and-buttons}
 

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 32b893f12261ffc4 -->
+<!-- wiki-i18n source: 97e289c94edbe6a9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter 与 Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; 暗物质; dark matter plate; dark matter plates; plate; plates; 板; 强化板; dark matter socket; dark matter sockets; socket; sockets; 插槽; dark matter 插槽 -->
 
-**Dark Matter** 是科技树顶端、锻造炉最高两级以及每条升级链最后一阶背后的资源。它不能购买，不能开采，普通外星人也不会掉落：你要向**黑洞（black hole）**发射 **N.I.K.E.** 火箭来**制造**它，再拾取黑洞抛回的货箱。**Dark Matter Plate** 在装配站由 Dark Matter 压制而成，前提是你已研究了它的配方。本页说明两者各自从哪里来、有什么用，以及该按什么顺序去做。从赛季第 11 天起，Dark Matter 也是**巨型挖掘机的燃料**（[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)），[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的少数外星人也会掉落一点。
+**Dark Matter** 是科技树顶端、锻造炉最高两级以及每条升级链最后一阶背后的资源。它不能购买，不能开采，普通外星人也不会掉落：你要向**黑洞（black hole）**发射 **N.I.K.E.** 火箭来**制造**它，再拾取黑洞抛回的货箱。**Dark Matter Plate** 在装配站由 Dark Matter 压制而成，前提是你已研究了它的配方。本页说明两者各自从哪里来、有什么用，以及该按什么顺序去做。从赛季第 11 天起，Dark Matter 也是**巨型挖掘机的燃料**（[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)），[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的少数外星人也会掉落一点，[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) 则会给非常大的队伍更多。
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
@@ -12,7 +12,7 @@
 ## 一分钟了解 {#in-one-minute}
 
 - **Dark Matter 是一种资源，在任何地方都只叫 Dark Matter。** 危险星区 4（`DS-4`）中央的黑洞会产出它：每枚抵达黑洞的 N.I.K.E. 火箭会返还 1 到 3 个 Dark Matter（平均 2 个），装在黑洞区域边缘的小货箱里。
-- **有什么用。** 研究中心的 108 项科技需要它，每项 5 到 60 个，共 1,364 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。在 Beta 和 Gamma，巨型挖掘机从赛季第一天起就立在那里。
+- **有什么用。** 研究中心的 109 项科技需要它，每项 5 到 60 个，共 1,374 个；装配站还把它压制成 Dark Matter Plate。从赛季第 11 天起，[巨型挖掘机](/wiki/03-Mechanics/Giant-Excavator.md)也会把它当燃料烧：一箱只是几个 Dark Matter，挖掘机被摧毁就会丢失。在 Beta 和 Gamma，巨型挖掘机从赛季第一天起就立在那里。
 - **在研究中心**，你在按下开始之前，从货舱里添加 Dark Matter（舰船须已降落）。研究开始时会取用它。
 - **Dark Matter Plate 是另一种物品。** 先研究它的配方（科技树的资源组：1 天和 10 个 Dark Matter），再到装配站用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 制造它。
 - **板有什么用。** 每条升级链的最后一阶需要 **4 块** 和至少 1 个 Ancient Control Unit：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II（共 13 件）。锻造炉要求 2 块，才能把物品从神圣提升到裂变，再要 2 块，才能从裂变提升到永恒。Skylab 的引擎模块、防御模块和雷达模块建造和升级时也需要 Dark Matter Plate（[资源](/wiki/06-Items/Resources.md#dark-matter-plate)）。
@@ -25,9 +25,9 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **是什么** | 史诗资源 | 神话资源 |
-| **从哪里来** | 危险星区 4 的黑洞，对射入其中的 N.I.K.E. 火箭；少量来自 Dormant 虫群和 Dormant Swamp 的 Inert Mass | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
+| **从哪里来** | 危险星区 4 的黑洞，对射入其中的 N.I.K.E. 火箭；少量来自 Dormant 虫群和 Dormant Swamp 的 Inert Mass，危险星区 4 的 Tesseract 则多得多 | 装配站，用 5 个 Dark Matter、1 块 Velkonite Reinforced Plate、1 块 Orvium Reinforced Plate 和 250 Thulium 压制 |
 | **先做什么** | 研究 N.I.K.E.（3 小时，不需要 Dark Matter）并制造一些 | 研究板的配方（1 天，10 个 Dark Matter） |
-| **有什么用** | 研究的花费（108 项科技，共 1,364 个）和板 | 每条升级链的最后一阶：13 件部件各需 4 块；Master Drone 的升级：10 块；锻造炉：最高两级各需 2 块 |
+| **有什么用** | 研究的花费（109 项科技，共 1,374 个）和板 | 每条升级链的最后一阶：13 件部件各需 4 块；Master Drone 的升级：10 块；锻造炉：最高两级各需 2 块 |
 
 ## 如何获得 Dark Matter {#how-to-get-dark-matter}
 
@@ -38,18 +38,18 @@
 5. **拾取货箱。** 每枚抵达黑洞的 N.I.K.E. 会返还 **1、2 或 3 个 Dark Matter**（四次中有一次是 1 个，两次是 2 个，一次是 3 个），装在一两个最多容纳 2 个的货箱里。货箱落在黑洞区域边缘，距中心 3,050 到 3,950 单位，靠近你射击的那条线。靠近每个货箱到 200 单位以内：拾取需要半秒。
 6. **带回去。** Dark Matter 会进入你的物品栏。在空间站里，舰船降落后，你可以把它添加到研究中心，或在装配站使用。
 
-大约 **5 枚火箭能得到 10 个 Dark Matter**。Resource Magnet Booster 不会增加任何数量，所以对所有人都一样。
+大约 **5 枚火箭能得到 10 个 Dark Matter**。Resource Magnet Booster 不会增加任何数量，所以对没有训练 Antimatter 技能的人都一样；该技能在 100 级时最多增加 +25%。
 
 ### 如何保命 {#keeping-it-safe}
 
 - **货箱在 60 秒内归你**，也归你的战队。之后地图上的任何人都可以拾取，240 秒后它们会消失。一张地图最多容纳 32 个 Dark Matter 货箱，新的会把其中最旧的挤掉。
 - **边缘位于辐射之中。** 那里每秒会消耗你舰船最大 HP 的 0.3% 到 0.8%，越靠近黑洞越多。满状态的舰船大约能撑 2 到 5 分钟；在这条带中间待一分钟会耗掉三分之一。引力在 3,000 单位处结束，所以没有什么会把你或货箱带走。
 - **危险星区 4 是 PvP。** 对手可能在你的射线上守着：N.I.K.E. 会击中它碰到的第一艘舰船（67,500 到 75,000 伤害），黑洞什么也得不到。对手也可能在你的 60 秒结束后来等货箱。从边缘开火，按射击顺序拾取货箱，并结伴而行。
-- **第二个、较小的来源。** [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)的 Dormant Pulse 有五分之一的几率为对它造成最多伤害的飞行员掉落 1 到 5 个 Dark Matter。这个虫群需要一个大队伍。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的 Inert Mass 偶尔也会掉落一些，但它生活在沼泽炮台之下。
+- **其他来源。** [Dormant 虫群](/wiki/05-Swarms/Dormant-Swarm.md)的 Dormant Pulse 有五分之一的几率为对它造成最多伤害的飞行员掉落 1 到 5 个 Dark Matter。这个虫群需要一个大队伍。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) 的 Inert Mass 偶尔也会掉落一些，但它生活在沼泽炮台之下。大的来源是危险星区 4 的 [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)：击杀所支付的每名飞行员都会得到一个私有货箱，击杀的 10 到 20 个 Dark Matter 按伤害分给他们，每名飞行员最多 5 个，所以四人或更多的队伍每次击杀大约带回 15 个。它需要在 PvP 星区里有一个非常大的队伍，被摧毁 30 分钟后回来。
 
 ## 研究中心里的 Dark Matter {#in-the-research-centre}
 
-科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 16 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。Hull Plating 的两项研究需要 **25 个和 40 个**，舰船科技（13 种设计和 37 个装甲槽位）每项 **10 个**。Skylab 的引擎模块、防御模块和雷达模块从第二级起每级需要 **5、10、15 或 20**，合计 115（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。其余的都列在[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格里。
+科技树顶端的科技，除了科研点数，还需要 Dark Matter：最高的 17 项科技每项 **10 个**，16 个无人机编队每个 **5、13 或 20 个**（编队越强，需要越多）。Hull Plating 的两项研究需要 **25 个和 40 个**，舰船科技（13 种设计和 37 个装甲槽位）每项 **10 个**。Skylab 的引擎模块、防御模块和雷达模块从第二级起每级需要 **5、10、15 或 20**，合计 115（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。其余的都列在[研究](/wiki/03-Mechanics/Research.md#dark-matter)页的表格里。
 
 1. **在空间站打开 Skylab 的研究视图**，选择科技。它的卡片上有一行 **Dark Matter**：研究中心里有多少，它需要多少（例如 3 / 10）。
 2. **按下添加。** 它把 Dark Matter 从你的货舱移到研究中心，补上缺的部分，以你携带的数量为限。你的舰船必须已降落。**取回**会把它退回货舱。
@@ -107,7 +107,7 @@ Paragon 的 44 件部件是它的 9 把激光、这些激光上的 27 个增幅�
 | 一块 Dark Matter Plate | 5 | 2.5 |
 | 锻造炉一步所需的两块板 | 10 | 5 |
 | 一件最后一阶部件的四块板 | 20 | 10 |
-| 所有需要 Dark Matter 的科技 | 1,364 | 682 |
+| 所有需要 Dark Matter 的科技 | 1,374 | 687 |
 
 从零开始的第一次升级是配方（10 个）加两块板（10 个）：20 个 Dark Matter，约 10 枚 N.I.K.E. 火箭，也就是两次制造。从零开始的第一个 IV 阶增幅器是这块板的配方（10 个）、增幅器自己的科技（10 个）加 4 块板（20 个）：40 个 Dark Matter，约 20 枚 N.I.K.E. 火箭。
 

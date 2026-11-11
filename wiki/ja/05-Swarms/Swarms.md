@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: 群れ -->
 # 群れ {#swarms}
 
@@ -87,8 +87,8 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys、Tesseract の群れは、ボ�
 通常のエイリアンは、最初に攻撃したパイロットに報酬を払います（[戦闘](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)）。群れのリーダーと各 Dormant Pulse は、代わりに**与えたダメージに応じて**報酬を払います。
 
 - **報酬はダメージに応じて分けられます。** 上のルールで示された割合以上のダメージを与えたパイロットが、与えたダメージに比例して報酬を受け取ります。撃破のクレジット、Thulium、経験値、名誉は、その人たちの間で分けられます。割合に届かなかったパイロットには何も支払われません。
-- **積荷コンテナは最もダメージを与えたパイロットのものになります。** 通常のエイリアンと同じく、30秒間はそのパイロット（とそのクラン）のもので、その後は誰でも取れます（[積荷](/wiki/03-Mechanics/Cargo.md)）。Dormant の各艦には、それぞれ独自のダメージ集計と独自のコンテナがあります。
-- **配下はいつもどおりに支払います。** Pirate Scout、Seeker Slave、そして Phantasm、Goombah、Crystalys の群れの Guard は最初に攻撃したパイロットに報酬を払い、その報酬はボスに比べて少額です。
+- **積荷コンテナは最もダメージを与えたパイロットのものになります。** 通常のエイリアンと同じく、30秒間はそのパイロット（とそのクラン）のもので、その後は誰でも取れます（[積荷](/wiki/03-Mechanics/Cargo.md)）。Dormant の各艦には、それぞれ独自のダメージ集計と独自のコンテナがあります。Tesseract は例外で、コンテナを残さず、撃破で報酬を受け取るパイロットは全員、自分専用のプライベートコンテナを受け取ります（[Tesseract の群れ](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)）。
+- **配下はいつもどおりに支払います。** Pirate Scout、Seeker Slave、Phantasm、Goombah、Crystalys の群れの Guard、そして Tesseract の群れの Facet は最初に攻撃したパイロットに報酬を払い、その報酬はボスに比べて少額です。
 - **ボスの報酬は、周囲のエイリアンを上回るように作られています。** Pirate Boss、Boss Phantasm、Boss Goombah と戦う1分は、Goombah と戦う1分より多く報酬を払い、Dormant の群れや Boss Crystalys と戦う1分は Crystalys と戦う1分より多く払います。Boss Seeker の報酬は、ちょうど Seeker 10体分です。
 - **Dormant Swamp のエイリアン**（Slumbering Void、Inert Mass、Unwakened）は、ボスと同じくダメージに応じて報酬が支払われ、ランキングの PvE ポイントに加わります。数値は [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)にあります。
 

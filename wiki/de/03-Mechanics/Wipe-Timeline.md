@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Alles Folgende gehört nach dem Wipe weiter dir.
 * **Dein ganzes [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: Module, Level, das im Ressourcenlager eingelagerte Erz und **die Triebwerke und Laser, die im Triebwerks- und im Verteidigungsmodul eingebaut sind**, weiterhin dort eingebaut, mit den Schubdüsen und Amps, die in ihnen stecken. Eingelagertes Erz ist kein Gegenstand und zählt nicht gegen den Cache; die eingebauten Teile brauchen dort ebenfalls keinen Platz.
 * **Deine Wipe-Punkte und deine dauerhaften Buffs** ([der Shop](#the-permanent-buff-store)).
 * **Erfahrung, Level und Ehre.**
+* **Dein Piloten-Fertigkeitenbaum.** Jede Fertigkeit behält ihr Level und ihre XP.
 * **Credits bis 5.000.000.000 und Thulium bis 10.000.000.** Was darüber liegt, geht verloren: siehe [die Obergrenzen](#the-caps).
 * **Deinen Quest-Fortschritt.** Erledigte und laufende Missionen bleiben. Die erledigten kannst du für ihre volle Belohnung noch einmal machen (eine Wiederholung, die beim Wipe noch läuft, entfällt).
+* **Deine Teile der Solo-Tore**, der Zähler der Garantie und die Aufzeichnung dessen, was du für Scans ausgegeben hast und was die Tore zurückgezahlt haben ([Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Deine Looks** (Skins, Auren und Abgaseffekte), die ebenfalls keine Gegenstände sind ([Kosmetik](/wiki/06-Items/Cosmetics.md)).
 * **Was in deinem Transport-Cache liegt**, siehe unten.
 
@@ -67,14 +69,17 @@ Deine ungeöffneten Container, deine [Spezialgegenstände](/wiki/06-Items/Specia
 
 ## Chrono-Gate & Energie-Materialisator {#chrono-gate-energy-materializer}
 
-Das **Chrono-Gate** (auch Galaxietor genannt) ist ein gewaltiges Saisonbauwerk, das als Brücke zwischen den Saisons dient. Dieses Tor zu bauen und zu stabilisieren ist die Voraussetzung dafür, dass du deine Transportrechte für die Mitnahme freischaltest.
+Das **Chrono-Gate** (auch Galaxietor genannt) ist ein gewaltiges Saisonbauwerk, das als Brücke zwischen den Saisons dient. Dieses Tor zu bauen und zu stabilisieren ist die Voraussetzung dafür, dass du deine Transportrechte für die Mitnahme freischaltest. Es ist eines der sechs Tore der Seite Galaxietore: Die anderen fünf sind die [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md), Orte, in die du fliegst, und ihre Teile kommen aus demselben Energie-Materialisator.
 
 ### Torbau {#gate-assembly}
-Um das Chrono-Gate vollständig zu stabilisieren, musst du genau **100 Chrono-Gate-Teile** sammeln.
+Um das Chrono-Gate vollständig zu stabilisieren, musst du genau **2 Chrono-Gate-Teile** sammeln. Auf der Seite [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) steht, was jedes der sechs Tore braucht und was seine Teile im Schnitt kosten.
 
 ### Der Energie-Materialisator {#the-energy-materializer}
 Teile bekommst du über die Oberfläche des Energie-Materialisators, der lokale Energiesektoren scannt, um Torteile aufzuspüren. Er arbeitet nur mit **Thulium** (ein Scan mit Credits ist geschlossen):
-* **Thulium-Scan** (5 Thulium): Hat eine **Chance von 10 %**, ein Torteil zu liefern.
+* **Thulium-Scan**: **100 Thulium** pro Scan, mit einer **Chance von 13 %**, ein Torteil zu liefern. Das Teil gehört zu einem der sechs Tore, per Zufall gewählt, und ist deshalb nicht immer ein Teil des Chrono-Gates.
+* **Die Garantie.** Eine lange Serie von Scans ohne Teil kann nicht ewig weitergehen: Nach einigen leeren Scans steigt die Chance, und dann ist ein Teil sicher ([Details](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Ein Scan ohne Teil** zahlt trotzdem einen Preis ([Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Die Scans gehen weiter, wenn das Chrono-Gate komplett ist.** Jeder Scan wird berechnet, und die Teile, die er findet, gehören dann zu den Solo-Toren. Die Chance auf ein Teil ist um ein Sechstel niedriger, weil der Anteil des Chrono-Gates daran wegfällt.
 
 *Profi-Tipp: Mit Multiplikatoren (1x, 5x, 10x, 100x) kannst du mehrere Scans auf einmal durchführen und den Torbau beschleunigen.*
 
@@ -82,7 +87,7 @@ Teile bekommst du über die Oberfläche des Energie-Materialisators, der lokale 
 
 ## Transport-Cache (Reisekapsel) {#transport-cache-travel-capsule-}
 
-Sobald alle 100 Teile gesammelt sind und das Chrono-Gate vollständig stabilisiert ist, öffnet das Portal den Zugang zu deinem persönlichen **Transport-Cache** (auch Mitnahmewagen oder Reisekapsel genannt). Diese Taschendimension schützt deinen Besitz davor, beim Wipe gelöscht zu werden. Gegenstände, die du in der [Auktion](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) eingestellt hast, kommen beim Wipe als lose Gegenstände zu dir zurück und werden vom Wipe wie alles andere gelöscht, wenn du sie nicht in den Cache legst; die Gebote, die du in Losen hältst, werden erstattet.
+Sobald alle Teile gesammelt sind und das Chrono-Gate vollständig stabilisiert ist, öffnet das Portal den Zugang zu deinem persönlichen **Transport-Cache** (auch Mitnahmewagen oder Reisekapsel genannt). Diese Taschendimension schützt deinen Besitz davor, beim Wipe gelöscht zu werden. Gegenstände, die du in der [Auktion](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) eingestellt hast, kommen beim Wipe als lose Gegenstände zu dir zurück und werden vom Wipe wie alles andere gelöscht, wenn du sie nicht in den Cache legst; die Gebote, die du in Losen hältst, werden erstattet.
 
 ### Das Cache-Schiff {#the-cache-ship}
 
@@ -140,7 +145,7 @@ Die Schaltfläche **Inhalt einfrieren** auf dem Reiter Transport-Cache ist eine 
 * **Alien-Abschüsse.** Sie zählen für den Wipe, in dem du bist, und deine Gesamtzahlen bleiben.
 * **Jeder Gegenstand, der nicht erhalten bleibt**: Ressourcen, Booster, Ersatzausrüstung, Platten, Cluster Chunks und der Rest. Ein Triebwerk oder Laser, den du aus einem Modul deines Skylab herausgenommen hast, ist Ersatz wie jeder andere; die Teile, die noch eingebaut sind, bleiben erhalten. Was der Wipe dir zuerst zurückgibt (siehe unten), ist ein Gegenstand wie jeder andere.
 * **Clans.** Jeder Clan wird aufgelöst, mit seiner Flottenkasse, seinen Beiträgen, Verträgen, Punkten und Boni-Stufen ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **Die Chrono-Gate-Teile**: Das Tor beginnt von vorn, und dein Materialisator auch.
+* **Die Chrono-Gate-Teile**: Das Tor beginnt von vorn, und du findest seine Teile neu. Ein offener Lauf eines Solo-Tors endet und gibt seine Teile zurück; die Teile der Solo-Tore, die du hältst, bleiben ([Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Deine Skylab-Expedition** endet: Eine laufende Reise ist zu Ende, und die Trophäenhalle zahlt ihre Credits, ihr Thulium, ihre Erfahrung und ihre Ehre aus und wird geleert ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Deine Herstellungen.** Jede Herstellung in deiner Produktionswarteschlange in der Assembly wird abgebrochen und zurückerstattet, egal was sie ergibt: ein Gegenstand, ein Schiff, ein Schiffsumbau, eine Drohne oder eine Drohnen-Aufwertung, eine Drohnenformation, eine P.E.T. Station oder eine Extra Slots CPU. Die Credits und das Thulium, die sie gekostet hat, kommen vor den Obergrenzen auf dein Konto zurück. Das Material kommt als lose Gegenstände zurück und geht mit den übrigen verloren, es sei denn, du brichst den Auftrag vorher selbst ab und legst es in den Cache. Eine Herstellung, die fertig ist und auf Abholung wartet, wird ebenfalls zurückerstattet, und was sie ergeben hätte, wird nie hergestellt: Hole deine fertigen Herstellungen also vor dem Wipe ab. Die Aufträge der Wiege sind keine Herstellungen: Deine P.E.T.-Aufträge laufen weiter.
 
@@ -221,7 +226,7 @@ Deine angesammelten WP kannst du für dauerhafte Buffs ausgeben, die für immer 
 * **Ehren-Boost**: +0,1 % gewonnene Ehre pro Level (max. 50 % / 500 Level) - *Kosten: 10 WP*
 * **Trefferpunkte-Boost**: +0,1 % maximale HP pro Level (max. 50 % / 500 Level) - *Kosten: 15 WP*
 * **Schildkapazitäts-Boost**: +0,1 % maximale Schilde (Schild-**Kapazität**) pro Level (max. 50 % / 500 Level) - *Kosten: 10 WP*
-* **Schildabsorptions-Boost**: +0,1 Punkte deiner Schild-**Absorption** pro Level (max. +10 Punkte / 100 Level) - *Kosten: 25 WP*. Absorption ist der Anteil jedes Treffers, den deine Schilde nehmen (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); der Buff fügt ihr feste Punkte hinzu: 100 Wipe-Punkte kaufen 4 Level (+0,4 Punkte), 300 kaufen 12 (+1,2), 500 kaufen 20 (+2,0), und alle 1.105 Wipe-Punkte, die die Quellen in einem Wipe zahlen, kaufen 44 (+4,4 Punkte). Am Maximum (100 Level, 2.500 WP: ein Ziel für mehrere Wipes, denn die Quellen zahlen höchstens 1.105 in einem Wipe und dein Rang bringt 5 bis 400 dazu) würden aus 85 % (dem Besten ab Werk) 95 % und aus den 45 % eines Light Shield Core 55 %. Der Wert ist nicht auf 100 % begrenzt: Die *Schilddurchdringung* des Angreifers wird davon abgezogen, was über 100 % liegt, ist also ein Spielraum. Mit den Wipe-Punkten eines Wipes in diesem Buff und einem voll geschmiedeten Set aus Schilden und Zellen der Stufe Ewig erreicht ein Schiff etwa 99 % bis 102 %. (Bis 0.4.5 fügte dieser Buff einen Anteil der Absorption selbst hinzu, 0,1 % davon pro Level, zum gleichen Preis; die Punkte sind bei jeder Absorption gleich viel oder mehr wert, bereits gekaufte Level haben also nichts verloren; bis 0.4.2 erhöhte er stattdessen die *Aufladerate* der Schilde; heute erhöht kein dauerhafter Buff die Aufladung.)
+* **Schildabsorptions-Boost**: +0,1 Punkte deiner Schild-**Absorption** pro Level (max. +10 Punkte / 100 Level) - *Kosten: 25 WP*. Absorption ist der Anteil jedes Treffers, den deine Schilde nehmen (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); der Buff fügt ihr feste Punkte hinzu: 100 Wipe-Punkte kaufen 4 Level (+0,4 Punkte), 300 kaufen 12 (+1,2), 500 kaufen 20 (+2,0), und alle 1.105 Wipe-Punkte, die die Quellen in einem Wipe zahlen, kaufen 44 (+4,4 Punkte). Am Maximum (100 Level, 2.500 WP: ein Ziel für mehrere Wipes, denn die Quellen zahlen höchstens 1.105 in einem Wipe und dein Rang bringt 5 bis 400 dazu) würden aus 91 % (dem Besten ab Werk) 101 % und aus den 45 % eines Light Shield Core 55 %. Der Wert ist nicht auf 100 % begrenzt: Die *Schilddurchdringung* des Angreifers wird davon abgezogen, was über 100 % liegt, ist also ein Spielraum. Mit den Wipe-Punkten eines Wipes in diesem Buff und einem voll geschmiedeten Set aus Schilden und Zellen der Stufe Ewig erreicht ein Schiff etwa 104 % bis 109 %. (Bis 0.4.5 fügte dieser Buff einen Anteil der Absorption selbst hinzu, 0,1 % davon pro Level, zum gleichen Preis; die Punkte sind bei jeder Absorption gleich viel oder mehr wert, bereits gekaufte Level haben also nichts verloren; bis 0.4.2 erhöhte er stattdessen die *Aufladerate* der Schilde; heute erhöht kein dauerhafter Buff die Aufladung.)
 * **Glücks-Boost**: +0,1 % Beutechance von Aliens pro Level (max. 10 % / 100 Level) - *Kosten: 15 WP*
 
 ### Wipe-Punkte verdienen {#earning-wipe-points}

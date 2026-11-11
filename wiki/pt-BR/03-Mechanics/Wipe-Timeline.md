@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Tudo o que vem a seguir continua seu depois do reset.
 * **Todo o seu [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: módulos, níveis, o minério guardado no Depósito de recursos e **os motores e lasers montados nos módulos de motores e de defesa**, que continuam montados onde estão, com os propulsores e amplificadores que levam dentro. O minério guardado não é um item e não conta no Cache; as peças montadas também não ocupam espaço nele.
 * **Os seus pontos de reset e os seus bônus permanentes** ([a loja](#the-permanent-buff-store)).
 * **Experiência, nível e honra.**
+* **Sua Árvore de habilidades do piloto.** Cada habilidade mantém o nível e o XP.
 * **Créditos até 5.000.000.000 e Thulium até 10.000.000.** O que passar disso se perde: veja [os tetos](#the-caps).
 * **O seu progresso nas missões.** As missões concluídas e em andamento ficam. As concluídas podem ser refeitas pela recompensa completa (uma Repetição ainda em andamento no wipe é descartada).
+* **Suas peças dos portões solo**, a contagem da garantia e o registro do que você gastou em giros e do que os portões devolveram ([Portões solo](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Os seus visuais** (skins, auras e escapamentos), que também não são itens ([Cosméticos](/wiki/06-Items/Cosmetics.md)).
 * **O que está no seu Cache de Transporte**, mais abaixo.
 
@@ -67,14 +69,17 @@ Os seus contêineres fechados, os seus [itens especiais](/wiki/06-Items/Special-
 
 ## Chrono-Gate e Materializador de Energia {#chrono-gate-energy-materializer}
 
-O **Chrono-Gate** (também chamado de Portão Galáctico) é uma estrutura sazonal colossal que funciona como ponte entre temporadas. Construir e estabilizar esse portão é essencial para desbloquear os seus privilégios de transporte para a próxima temporada.
+O **Chrono-Gate** (também chamado de Portão Galáctico) é uma estrutura sazonal colossal que funciona como ponte entre temporadas. Construir e estabilizar esse portão é essencial para desbloquear os seus privilégios de transporte para a próxima temporada. Ele é um dos seis portões da página Portões Galácticos: os outros cinco são os [portões solo](/wiki/03-Mechanics/Solo-Gates.md), lugares em que você voa, e as peças deles saem do mesmo Materializador de Energia.
 
 ### Montagem do portão {#gate-assembly}
-Para estabilizar totalmente o Chrono-Gate, você precisa coletar exatamente **100 peças do Chrono-Gate**.
+Para estabilizar totalmente o Chrono-Gate, você precisa coletar exatamente **2 peças do Chrono-Gate**. A página [Portões solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) diz do que cada um dos seis portões precisa e quanto custam, em média, as peças dele.
 
 ### O Materializador de Energia {#the-energy-materializer}
 Você obtém peças usando a interface do Materializador de Energia, que gira setores de energia locais para localizar peças do portão. Ele gira apenas com **Thulium** (o giro com créditos está encerrado):
-* **Giro com Thulium** (5 Thulium): tem **10% de chance** de produzir uma peça do portão.
+* **Giro com Thulium**: **100 Thulium** por giro, com **13% de chance** de produzir uma peça de portão. A peça pertence a um dos seis portões, escolhido ao acaso, então nem sempre é uma peça do Chrono-Gate.
+* **A garantia.** Uma longa sequência de giros sem peça não pode durar para sempre: depois de alguns giros em branco a chance sobe, e então uma peça é certa ([detalhes](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Um giro sem peça** ainda paga um prêmio ([Portões solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Os giros continuam quando o Chrono-Gate está completo.** Cada giro é cobrado, e as peças que ele encontra são então dos portões solo. A chance de uma peça é um sexto menor, porque a parte do Chrono-Gate nela deixa de existir.
 
 *Dica profissional: você pode usar multiplicadores (1x, 5x, 10x, 100x) para fazer giros em lote e acelerar a construção do portão.*
 
@@ -82,7 +87,7 @@ Você obtém peças usando a interface do Materializador de Energia, que gira se
 
 ## Cache de Transporte (cápsula de viagem) {#transport-cache-travel-capsule-}
 
-Quando as 100 peças são coletadas e o Chrono-Gate está totalmente estabilizado, o portal abre o acesso ao seu **Cache de Transporte** pessoal (também conhecido como carrinho de transferência ou cápsula de viagem). Essa dimensão de bolso protege os seus pertences de serem apagados durante o reset. Os itens que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) voltam para você no reset como itens soltos, que o reset apaga como o resto se você não os puser no Cache; os lances que você mantém em lotes são devolvidos.
+Quando todas as peças são coletadas e o Chrono-Gate está totalmente estabilizado, o portal abre o acesso ao seu **Cache de Transporte** pessoal (também conhecido como carrinho de transferência ou cápsula de viagem). Essa dimensão de bolso protege os seus pertences de serem apagados durante o reset. Os itens que você anunciou no [Leilão](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) voltam para você no reset como itens soltos, que o reset apaga como o resto se você não os puser no Cache; os lances que você mantém em lotes são devolvidos.
 
 ### A nave do cache {#the-cache-ship}
 
@@ -140,7 +145,7 @@ O botão **Congelar conteúdo** na aba Cache de Transporte é uma trava de segur
 * **Os abates de alienígenas.** Contam para o reset em que você está, e os seus números totais ficam.
 * **Todo item que não é mantido**: recursos, boosters, equipamento reserva, placas, Cluster Chunks e o resto. Um motor ou laser que você retirou de um módulo do seu Skylab é um reserva como qualquer outro; os que continuam montados são mantidos. O que o reset devolve primeiro (veja abaixo) é um item como qualquer outro.
 * **Os clãs.** Todo clã é dissolvido, com o Tesouro da frota, os avisos, os tratados, os pontos e os níveis de bônus dele ([Clãs](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **As peças do Chrono-Gate**: o portão recomeça, e o seu Materializador também.
+* **As peças do Chrono-Gate**: o portão recomeça, e você encontra as peças dele de novo. Uma partida aberta de um portão solo termina e devolve as peças dela; as peças dos portões solo que você tem ficam ([Portões solo](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **A sua expedição do Skylab** termina: uma viagem em andamento acaba, e a Baía de troféus paga os créditos, o Thulium, a experiência e a honra e é esvaziada ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **As suas fabricações.** Toda fabricação da sua fila de produção na Montagem é cancelada e reembolsada, seja o que for que ela produza: um item, uma nave, uma conversão de nave, um drone ou a melhoria de um drone, uma formação de drones, uma P.E.T. Station ou uma Extra Slots CPU. Os créditos e o Thulium que custou voltam para a sua carteira antes dos tetos. Os materiais voltam como itens soltos e se vão com o resto, a menos que você cancele o trabalho por conta própria antes e os ponha no Cache. Uma fabricação já pronta que espera para ser coletada também é reembolsada, e o que ela teria produzido nunca é produzido: colete as suas fabricações prontas antes do reset. Os trabalhos do Berço não são fabricações: os seus trabalhos de P.E.T. continuam.
 
@@ -221,7 +226,7 @@ Você pode gastar os seus PR acumulados em bônus permanentes que passam por tod
 * **Honor Boost**: +0,1% de honra ganha por nível (máx. 50% / 500 níveis) - *Custo: 10 PR*
 * **Hitpoints Boost**: +0,1% de HP máximos por nível (máx. 50% / 500 níveis) - *Custo: 15 PR*
 * **Shield Capacity Boost**: +0,1% de escudos máximos (a **capacidade** de escudo) por nível (máx. 50% / 500 níveis) - *Custo: 10 PR*
-* **Shield Absorbance Boost**: +0,1 ponto da **absorção** do seu escudo por nível (máx. +10 pontos / 100 níveis) - *Custo: 25 PR*. A absorção é a parte de cada impacto que os seus escudos recebem (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); o bônus soma pontos fixos a ela: 100 pontos de reset compram 4 níveis (+0,4 ponto), 300 compram 12 (+1,2 ponto), 500 compram 20 (+2,0 pontos) e todos os 1.105 pontos de reset que as fontes pagam num reset compram 44 (+4,4 pontos). No máximo (100 níveis, 2.500 PR: uma meta para vários resets, porque as fontes pagam no máximo 1.105 num reset e a sua patente soma de 5 a 400), 85% (o melhor de fábrica) viraria 95%, e os 45% de um Light Shield Core, 55%. O atributo não tem teto de 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que passa de 100% é uma margem. Com os pontos de reset de um reset neste bônus e um conjunto Eterno de escudos e células totalmente forjado, uma nave chega a cerca de 99% a 102%. (Até a versão 0.4.5, este bônus somava uma parte da própria absorção, 0,1% dela por nível, pelo mesmo preço; os pontos valem o mesmo ou mais em qualquer absorção, então os níveis já comprados não perderam nada; até a versão 0.4.2, ele aumentava a taxa de *recarga* do escudo; nenhum bônus permanente aumenta a recarga agora.)
+* **Shield Absorbance Boost**: +0,1 ponto da **absorção** do seu escudo por nível (máx. +10 pontos / 100 níveis) - *Custo: 25 PR*. A absorção é a parte de cada impacto que os seus escudos recebem (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); o bônus soma pontos fixos a ela: 100 pontos de reset compram 4 níveis (+0,4 ponto), 300 compram 12 (+1,2 ponto), 500 compram 20 (+2,0 pontos) e todos os 1.105 pontos de reset que as fontes pagam num reset compram 44 (+4,4 pontos). No máximo (100 níveis, 2.500 PR: uma meta para vários resets, porque as fontes pagam no máximo 1.105 num reset e a sua patente soma de 5 a 400), 91% (o melhor de fábrica) viraria 101%, e os 45% de um Light Shield Core, 55%. O atributo não tem teto de 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que passa de 100% é uma margem. Com os pontos de reset de um reset neste bônus e um conjunto Eterno de escudos e células totalmente forjado, uma nave chega a cerca de 104% a 109%. (Até a versão 0.4.5, este bônus somava uma parte da própria absorção, 0,1% dela por nível, pelo mesmo preço; os pontos valem o mesmo ou mais em qualquer absorção, então os níveis já comprados não perderam nada; até a versão 0.4.2, ele aumentava a taxa de *recarga* do escudo; nenhum bônus permanente aumenta a recarga agora.)
 * **Luck Boost**: +0,1% de chance de saque dos alienígenas por nível (máx. 10% / 100 níveis) - *Custo: 15 PR*
 
 ### Como ganhar pontos de reset {#earning-wipe-points}

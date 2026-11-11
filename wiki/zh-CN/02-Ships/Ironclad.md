@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 
 ## 属性 {#stats}
 
-- **生命值（HP）**：600,000
+- **生命值（HP）**：500,000
 - **基础速度**：110
 - **激光槽位**：8
 - **附加槽位**：3
@@ -27,7 +27,7 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 
 ## 研究 {#research}
 
-- **装甲槽位。** 这艘舰船有 15 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。15 个槽位全部装上 Hull Plating III，可增加 225,000 点船体。
+- **装甲槽位。** 这艘舰船有 15 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。每个槽位都是 Skylab 里独立的一项科技，需要 1 小时和 10 个 Dark Matter，从第一个起依次研究；研究后，这个槽位会在这艘舰船及其所有设计上开启。15 个槽位全部装上 Hull Plating III，可增加 375,000 点船体。
 - **设计。** 这艘舰船有 2 种[设计](/wiki/03-Mechanics/Ship-Designs.md)。研究其中一种（10 小时和 10 个 Dark Matter），然后在装配站把你的 Ironclad 改装成它：改装无法撤销。
 
 | 设计 | 改变了什么 |

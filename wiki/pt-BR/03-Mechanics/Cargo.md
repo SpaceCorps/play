@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **Pilotos de corporação** não deixam caixa quando são destruídos, seja quem ou o que for que os destrua. Veja [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md).
 - **Naves de pilotos** não deixam destroços nem caixa quando são destruídas, seja quem ou o que for que as destrua, e nada é tirado do inventário do piloto.
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) (exceto o Tesseract) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
 - **Um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** não larga uma caixa assim: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](#private-boxes) só dele, com a sua parte do saque.
+- **O [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** também não larga uma caixa nos destroços: cada piloto que o abate paga recebe uma [caixa privada](#private-boxes) só dele, com a sua parte de Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units e Dark Matter.
 - Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra. Um fragmento é coletado como uma caixa, e fica reservado para os pilotos que o mereceram e depois livre, como uma caixa.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
@@ -42,14 +43,14 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 
 ## Caixas privadas {#private-boxes}
 
-O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) não é uma caixa para um piloto só: **cada piloto que causou pelo menos 5% do dano recebe uma caixa só dele**, sorteada para a sua parte (para 20% do dano, cerca de um quinto de cada quantidade; [os detalhes](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) não é uma caixa para um piloto só: **cada piloto que causou pelo menos 5% do dano recebe uma caixa só dele**, sorteada para a sua parte (para 20% do dano, cerca de um quinto de cada quantidade; [os detalhes](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). O saque do [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) funciona do mesmo jeito: cada piloto que o abate paga recebe uma.
 
 - **Só você a vê e só você pode pegá-la.** O seu clã e o seu grupo não a veem e não podem pegá-la; para todos os outros ela simplesmente não existe. Na sua tela, ela tem um anel fino embaixo.
-- **Ela fica 10 minutos** a partir do abate, e durante todo esse tempo é sua: não há espera de 30 segundos. Depois ela vai à deriva como qualquer caixa. O Registro do jogo mostra a sua parte do saque quando o Guardião cai.
+- **Ela fica 10 minutos** a partir do abate, e durante todo esse tempo é sua: não há espera de 30 segundos. Depois ela vai à deriva como qualquer caixa. O Registro do jogo mostra a sua parte do saque quando o Guardião ou o Tesseract cai.
 - **Ela não empurra outras caixas para fora.** As caixas privadas têm uma reserva própria ao lado das 64 de um mapa (no máximo 32), então o abate de um Guardião nunca toma o lugar de outra caixa, e um mapa cheio nunca faz você perder a sua.
 - Pegar é como com qualquer caixa ([acima](#collecting)): a sua nave voa até ela e a coleta leva meio segundo. O seu Retriever também pega as suas caixas privadas, e as de mais ninguém.
 
 ## Boosters
 
-- **Loot Luck Booster** (e o bônus permanente Luck Boost, e a sorte dos seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate.
-- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, à mão ou com um Retriever, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela, então cinco N.I.K.E. dão dez Dark Matter para todos.
+- **Loot Luck Booster** (e o bônus permanente Luck Boost, e a sorte dos seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate. A sua perícia [Instinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) também soma a essa chance, além da do booster.
+- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, à mão ou com um Retriever, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela. Só a sua própria habilidade Antimatter soma Dark Matter (até +25% no nível 100); sem ela, cinco N.I.K.E. dão dez Dark Matter.

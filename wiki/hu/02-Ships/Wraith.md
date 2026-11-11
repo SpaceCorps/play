@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 
 ## Kutatás {#research}
 
-- **Páncélzatfoglalatok.** Ennek a hajónak 10 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (10 darab) 150 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** Ennek a hajónak 10 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (10 darab) 250 000 hajótestet ad hozzá.
 - **Dizájnok.** Ennek a hajónak 5 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
 
 | Dizájn | Mit változtat |

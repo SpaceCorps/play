@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -6,7 +6,7 @@ Extras sind die Gadgets in den **Extra-Slots** eines Schiffs (zwei auf Protos, K
 
 | Extra | Wirkung | Nutzungen | Preis |
 | :---- | :------ | :-------- | :---- |
-| **Repair Drone I bis IV** | Repariert deine Hülle, 1,5 %, 2,25 %, 3,5 % und 5 % des Maximums pro Sekunde | unbegrenzt | 5.000 / 15.000 / 35.000 Credits, 2.000 Thulium |
+| **Repair Drone I bis IV** | Repariert deine Hülle, 2 %, 3 %, 4 % und 5 % des Maximums pro Sekunde | unbegrenzt | 5.000 / 15.000 / 35.000 Credits, 2.000 Thulium |
 | **Cloaking CPU S** | Verbirgt dein Schiff | 10 | 5.000 Thulium |
 | **Cloaking CPU M** | Verbirgt dein Schiff | 25 | 11.250 Thulium |
 | **Cloaking CPU L** | Verbirgt dein Schiff | 50 | 20.000 Thulium |
@@ -96,13 +96,24 @@ Drücke den Slot WAL, und eine **Plasmawand** steht **an deinem Mauszeiger**, qu
 
 - **Was sie aufhält.** Jeder Schuss, der sie kreuzt, trifft stattdessen die Wand, egal wer ihn abgegeben hat und von welcher Seite: eine Laser-Salve, eine Rakete, die Salve eines Aliens. Was dahinter steht, nimmt nichts, und die Trefferpunkte der Wand nehmen den Schaden. Die Explosion einer Rakete, die an der Wand losgeht, trifft die Schiffe auf ihrer nahen Seite und nicht die dahinter. Auch deine eigenen Schüsse: Durch deine eigene Wand kannst du nicht hinausschießen. Die N.I.K.E. und die Geschütze des Dormant Swamp fliegen darüber hinweg, wie über Asteroiden.
 - **Was sie verbrennt.** Jedes Schiff, dessen Hülle den Streifen berührt, nimmt **2.500 Schaden pro Sekunde**, zuerst am Schild, auch dein eigenes, auch Aliens und Konzernpiloten. Ein Schiff in einer Schutzzone oder unter dem Schutz eines Respawns wird nicht verbrannt, und zwei Streifen auf einem Schiff addieren sich nicht.
-- **Wie lange sie hält.** Eine Wand der Stufe 1 hat **30.000 Trefferpunkte**, eine der Stufe 2 **90.000**. Eine Wand verliert von selbst jede Sekunde ein Sechzigstel davon, also ist eine, auf die niemand schießt, nach **60 Sekunden** weg. Schüsse verkürzen das: Eine Wraith mit dreizehn Helios Beams auf x4-Munition bringt eine Wand der Stufe 1 in etwa 4 Sekunden zu Fall.
+- **Wie lange sie hält.** Eine Wand der Stufe 1 hat **100.000 Trefferpunkte**, eine der Stufe 2 **250.000**. Eine Wand verliert von selbst jede Sekunde ein Sechzigstel davon, also ist eine, auf die niemand schießt, nach **60 Sekunden** weg. Schüsse verkürzen das: Eine Wraith mit dreizehn Helios Beams auf x4-Munition bringt eine Wand der Stufe 1 in etwa 11 Sekunden zu Fall und eine der Stufe 2 in etwa 22.
 - **Immer nur eine, ein Druck eine Wand.** Eine neue Wand ersetzt deine alte. Nach einem Druck lädt der Gegenstand **90 Sekunden** nach; die Wartezeit gehört dir, nicht dem Schiff: Sterben oder Ausloggen verkürzt sie nicht. Ein Druck verbraucht **eine Wand der Stufe, die der Slot hält**, und nur, wenn die Wand steht: Ein Druck, den das Spiel abweist (siehe unten), verbraucht nichts und startet keine Wartezeit. Ist von dieser Stufe keine mehr da, sagt es „Keine Energetic Wall mehr.“, und die andere Stufe wird nie an ihrer Stelle benutzt.
 - **Wo nicht.** Nicht, solange dich eine Schutzzone oder ein Respawn schützt, nicht, wo der Streifen eine Schutzzone oder ein Tor berühren würde, nicht getarnt und nicht, wo die Mitte des Streifens außerhalb der Karte läge. Das Spiel sagt dir, welcher Fall es ist.
 - **Abschüsse.** Ein Schiff, das die Wand zerstört, stirbt an Strahlung, und der Abschuss geht an den letzten feindlichen Piloten, der es innerhalb von 15 Sekunden getroffen hat, falls es einen gab. Wer die Wand aufgestellt hat, bekommt nichts gutgeschrieben, was er nicht selbst geschossen hat. Ein Alien, das die Wand zerstört, zahlt nichts: keine Belohnung, keine Beute.
 - **Aliens umfliegen sie nicht.** Sie fliegen hindurch und verbrennen, oder sie bleiben auf ihrer Seite stehen und schießen auf die Wand.
 - **Was du siehst.** Ein Streifen blauweißen Lichts mit hellen Strichen, die an ihm entlanglaufen, und einem Lichtpfosten an jedem Ende; er blitzt auf, wo ein Schuss einschlägt, und flackert, wenn er fast aufgebraucht ist. Eine Wand der Stufe 2 leuchtet stattdessen gelb, mit einem dickeren, helleren Kern und einem stärkeren Leuchten, ihr Streifen ist aber genauso 10 Einheiten breit wie bei einer Wand der Stufe 1. Eine dünne Lebensleiste daneben wird kürzer und färbt sich bernsteinfarben, dann rot; dein Slot zeigt die verbleibende Lebensdauer deiner Wand als Bogen und die Wartezeit als Schatten. Eine aufgestellte Wand flammt auf, eine abgeschossene bricht in Funken zusammen, und eine, deren Zeit ablief, verblasst. Auf deinem Slot steht außerdem die Zahl der Wände seiner Stufe, die dir bleiben.
 - **Wie du sie bekommst und trägst.** Die Energetic Wall I gibt es im Shop für **250 Thulium** je Wand, und du trägst bis zu **20** davon in einem Stapel (was du in der [Auktion](/wiki/03-Mechanics/Auction.md) eingestellt hast, zählt mit). Die Energetic Wall II stellt die Montage her, **eine Wand je Herstellung**, für **600 Thulium**, 5 Ship Fragments und eine Power Core, sobald das Forschungszentrum sie erforscht hat (6 Stunden bei normaler Geschwindigkeit: [Forschung](/wiki/03-Mechanics/Research.md)); davon trägst du bis zu **10**. Anders als bei den zwölf Raketen, von denen je 1.000 von selbst übernommen werden, gehen die Wände, die du trägst, mit der Saison verloren, wenn du sie nicht in den Transport-Cache legst; Wände im Transport-Cache lassen sich nicht benutzen. Eine selbst hergestellte Energetic Wall II kannst du in der Auktion verkaufen, eine Energetic Wall I, die der Shop verkauft, nie.
+
+## Mine
+
+Eine **Mine** ist eine Falle zum Werfen. Drücke ihren Slot mit dem Mauszeiger auf einem Punkt, und dein Schiff wirft die Mine dorthin, **so weit, wie deine Laser reichen**: Ein weiter entfernter Mauszeiger setzt sie auf dieser Linie an die Grenze der Reichweite, und ohne Mauszeiger fällt sie unter das Schiff. Sie fliegt einen Augenblick, landet und ist **3 Sekunden später scharf**. Von da an geht sie **einmal, mit ihrem ganzen Schaden, unter dem ersten Schiff los, das über sie fliegt**, und ist weg: Es gibt weder Schaden über Zeit noch eine Druckwelle. Eine Mine ist ein **Verbrauchsgut**, wie die [Energetic Wall](#energetic-wall): ein Stapel in deinem Inventar, der auf keinem Schiff **einen Slot** belegt. Ziehe sie aus den Verbrauchsgütern der Aktionsleiste auf einen Slot, um sie zu benutzen; die drei Stufen sind drei Einträge, ein Slot hält also eine Stufe.
+
+- **Wen sie trifft.** Jedes Schiff, das über sie fliegt: einen feindlichen Piloten, ein Alien, einen Konzernpiloten, deine Konzernkameraden, deine Gruppe und **dich selbst**. Eine Mine kennt keine Freunde. Was ein Schiff verschont, verschont es vor jeder Waffe: eine Schutzzone, der Schutz eines Respawns, eine Tarnung oder ein EMP-Fenster.
+- **Wegfliegen.** Ein Schiff, das in der Reichweite einer Mine ist, wenn sie landet, wird verschont, bis es diese Reichweite einmal verlassen hat, und du bist der Erste, den sie verschont: Du kannst eine Mine unter dein Schiff fallen lassen und wegfliegen. Danach geht die Mine unter diesem Schiff los wie unter jedem anderen, auch wenn es später zurückkommt.
+- **Wie viel.** Der Schaden wächst mit der Stufe: **8.000, 20.000 und 50.000**. Deine Fertigkeit Sabotage erhöht ihn um bis zu 30 %, und deine Treffsicherheit lässt die Mine schneller und weiter fliegen.
+- **Grenzen.** Du kannst **drei** Minen gleichzeitig draußen haben (eine vierte ersetzt die älteste), jede ist **3 Minuten** nach der Landung weg, und zwischen zwei Würfen wartest du **8 Sekunden**; die Wartezeit gehört dir, nicht dem Schiff. Verlässt du die Karte, gehen deine Minen mit dir.
+- **Wo nicht.** Nicht, wo Piloten nicht gegeneinander kämpfen können (unter dem Friedensprotokoll oder in einem Sektor oder Tor, dessen Regeln das verbieten), nicht, solange dich eine Schutzzone oder ein Respawn schützt, nicht, wo die Mine eine Schutzzone oder ein Tor berühren würde, und nicht getarnt. Das Spiel sagt dir, welcher Fall es ist; ein abgewiesener Wurf verbraucht nichts und startet keine Wartezeit.
+- **Wie du sie bekommst und trägst.** Die Mine I gibt es im Shop für **100 Thulium**, und du trägst bis zu **20** davon in einem Stapel. Die Mine II stellt die Montage her, **eine Mine je Herstellung**, aus zwei Minen I, 3 Ship Fragments und einer Power Core für **200 Thulium** (bis zu **10** im Stapel); die Mine III aus zwei Minen II, 8 Ship Fragments, 2 Power Cores und einer Reinforced Hull Plate für **400 Thulium** (bis zu **5**). Beide lassen sich herstellen, sobald das Forschungszentrum sie erforscht hat: 3 Stunden für die II und 6 Stunden für die III bei normaler Rate (siehe [Forschung](/wiki/03-Mechanics/Research.md)). Die Minen, die du trägst, gehen mit der Saison verloren, wenn du sie nicht in den Transport-Cache legst; Minen im Cache lassen sich nicht benutzen. Minen kannst du nicht in der [Auktion](/wiki/03-Mechanics/Auction.md) verkaufen.
 
 ## CPUs des Forschungszentrums {#research-cpus}
 
@@ -122,6 +133,8 @@ Zwei der CPUs verlangen Dark Matter Plates, wie die letzte Stufe jeder Aufwertun
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Keine davon wird im Shop verkauft: Erforsche die Technologie und stelle die CPU dann in der Montage her. Zeige im Baum auf eine CPU, um zu sehen, was die Montage dafür verlangt.
 

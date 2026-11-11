@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 10 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 10 cheios de Hull Plating III, somam-se 150.000 de casco.
+- **Slots de blindagem.** Esta nave tem 10 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 10 cheios de Hull Plating III, somam-se 250.000 de casco.
 - **Designs.** Esta nave tem 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Wraith nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |

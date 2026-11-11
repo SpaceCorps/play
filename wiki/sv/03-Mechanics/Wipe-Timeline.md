@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Allt nedan är ditt efter wipen.
 * **Hela din [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: moduler, nivåer, malmen som är inlagrad i Resurslagret och **motorerna och lasrarna som är monterade i Motor- och Försvarsmodulen**, som sitter kvar där de är, med de thrusters och förstärkare som sitter i dem. Inlagrad malm är inte ett föremål och räknas inte mot förrådet; de monterade delarna tar heller ingen plats där.
 * **Dina wipepoäng och dina permanenta buffar** ([butiken](#the-permanent-buff-store)).
 * **Erfarenhet, nivå och heder.**
+* **Pilotens färdighetsträd.** Varje färdighet behåller sin nivå och sin XP.
 * **Krediter upp till 5 000 000 000 och Thulium upp till 10 000 000.** Det som ligger över går förlorat: se [taken](#the-caps).
 * **Dina uppdrag.** Slutförda och pågående uppdrag finns kvar. De slutförda kan du göra om för deras fulla belöning (en Upprepning som fortfarande pågår vid wipen slängs).
+* **Dina delar till soloportarna**, garantins räknare och uppgiften om vad du spenderat på snurr och vad portarna betalat tillbaka ([Soloportar](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Ditt utseende** (skinn, auror och avgaseffekter), som inte heller är föremål ([Kosmetik](/wiki/06-Items/Cosmetics.md)).
 * **Det som ligger i ditt transportförråd**, se nedan.
 
@@ -67,14 +69,17 @@ Dina oöppnade containrar, dina [specialföremål](/wiki/06-Items/Special-Items.
 
 ## Chrono-Gate och energimaterialiserare {#chrono-gate-energy-materializer}
 
-**Chrono-Gate** (kallas också Galaxporten) är en gigantisk säsongsstruktur som fungerar som en bro mellan säsongerna. Att bygga och stabilisera den här porten är avgörande för att låsa upp dina transportprivilegier för överföring.
+**Chrono-Gate** (kallas också Galaxporten) är en gigantisk säsongsstruktur som fungerar som en bro mellan säsongerna. Att bygga och stabilisera den här porten är avgörande för att låsa upp dina transportprivilegier för överföring. Den är en av de sex portarna på sidan Galaxportar: de andra fem är [soloportarna](/wiki/03-Mechanics/Solo-Gates.md), platser du flyger in i, och deras delar kommer ur samma Energimaterialiserare.
 
 ### Portmontering {#gate-assembly}
-För att stabilisera Chrono-Gate helt måste du samla exakt **100 delar till Chrono-Gate**.
+För att stabilisera Chrono-Gate helt måste du samla exakt **2 delar till Chrono-Gate**. På sidan [Soloportar](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) står vad var och en av de sex portarna kräver och vad delarna kostar i genomsnitt.
 
 ### Energimaterialiseraren {#the-energy-materializer}
 Du får delar genom att använda gränssnittet Energimaterialiserare, som snurrar lokala energisektorer för att hitta portdelar. Den snurrar bara för **Thulium** (snurr för krediter är stängt):
-* **Thuliumsnurr** (5 Thulium): Har **10 % chans** att ge en portdel.
+* **Thuliumsnurr**: **100 Thulium** per snurr, med **13 % chans** att ge en portdel. Delen tillhör en av de sex portarna, vald på måfå, så det är inte alltid en del till Chrono-Gate.
+* **Garantin.** En lång följd av snurr utan del kan inte fortsätta för alltid: efter några tomma snurr stiger chansen, och sedan är en del säker ([detaljer](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Ett snurr utan del** betalar ändå ett pris ([Soloportar](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Snurren fortsätter när Chrono-Gate är klar.** Varje snurr debiteras, och delarna den hittar tillhör då soloportarna. Chansen för en del är en sjättedel lägre, eftersom Chrono-Gates andel av den försvinner.
 
 *Proffstips: Du kan använda multiplikatorer (1×, 5×, 10×, 100×) för att köra många snurr på en gång och påskynda portbygget.*
 
@@ -82,7 +87,7 @@ Du får delar genom att använda gränssnittet Energimaterialiserare, som snurra
 
 ## Transportförråd (reskapsel) {#transport-cache-travel-capsule-}
 
-När alla 100 delar är samlade och Chrono-Gate är helt stabiliserad öppnar portalen åtkomst till ditt personliga **transportförråd** (kallas också överföringsvagnen eller reskapseln). Den här fickdimensionen skyddar dina tillhörigheter från att raderas under wipen. Föremål du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) kommer tillbaka till dig vid wipen som lösa föremål, som wipen raderar som allt annat om du inte lägger dem i Transportförrådet; buden du håller i lotter betalas tillbaka.
+När alla delar är samlade och Chrono-Gate är helt stabiliserad öppnar portalen åtkomst till ditt personliga **transportförråd** (kallas också överföringsvagnen eller reskapseln). Den här fickdimensionen skyddar dina tillhörigheter från att raderas under wipen. Föremål du har lagt ut i [Auktionen](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) kommer tillbaka till dig vid wipen som lösa föremål, som wipen raderar som allt annat om du inte lägger dem i Transportförrådet; buden du håller i lotter betalas tillbaka.
 
 ### Förrådsskeppet {#the-cache-ship}
 
@@ -140,7 +145,7 @@ Knappen **Frys innehållet** på fliken Transportförråd är en säkring för f
 * **Nedskjutningar av utomjordingar.** De räknas för den wipe du befinner dig i, och dina totalsiffror finns kvar.
 * **Varje föremål som inte behålls**: resurser, boosters, reservutrustning, plåtar, Cluster Chunks och resten. En motor eller laser som du har tagit ut ur en modul i din Skylab är reserv som all annan; de som fortfarande sitter i behålls. Det wipen först ger tillbaka till dig (se nedan) är ett föremål som alla andra.
 * **Klaner.** Varje klan upplöses, med sin Flottans kassa, sina inlägg, avtal, poäng och bonusnivåer ([Klaner](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **Delarna till Chrono-Gate**: porten börjar om, och det gör din Materialiserare också.
+* **Delarna till Chrono-Gate**: porten börjar om, och du hittar dess delar på nytt. En öppen omgång i en soloport tar slut och ger tillbaka sina delar; de delar du har till soloportarna blir kvar ([Soloportar](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Din Skylab-expedition** tar slut: en resa som pågår är över, och Trofélagret betalar ut sina krediter, sitt Thulium, sin erfarenhet och sin heder och töms ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Dina tillverkningar.** Varje tillverkning i din produktionskö i Assembly avbryts och återbetalas, vad den än gör: ett föremål, ett skepp, en skeppsombyggnad, en drönare eller en drönaruppgradering, en drönarformation, en P.E.T. Station eller en Extra Slots CPU. Krediterna och Thuliumet den kostade går tillbaka till din plånbok före taken. Materialet kommer tillbaka som lösa föremål och försvinner med resten, om du inte avbryter jobbet själv i förväg och lägger det i förrådet. En färdig tillverkning som väntar på att hämtas återbetalas också, och det den skulle ha gjort görs aldrig: hämta dina färdiga tillverkningar före wipen. Vaggans jobb är inte tillverkningar: dina P.E.T.-jobb fortsätter.
 
@@ -221,7 +226,7 @@ Du kan spendera dina intjänade WP på permanenta buffar som följer med över a
 * **Honor Boost**: +0,1 % erhållen heder per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
 * **Hitpoints Boost**: +0,1 % maximala HP per nivå (max 50 % / 500 nivåer) - *Kostnad: 15 WP*
 * **Shield Capacity Boost**: +0,1 % maximala sköldar (sköldens **kapacitet**) per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
-* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 105 wipepoäng som källorna betalar i en wipe köper 44 (+4,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 105 i en wipe och din grad lägger till 5 till 400) skulle 85 % (det bästa rakt ur lådan) bli 95 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 99 % till 102 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
+* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 105 wipepoäng som källorna betalar i en wipe köper 44 (+4,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 105 i en wipe och din grad lägger till 5 till 400) skulle 91 % (det bästa rakt ur lådan) bli 101 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 104 % till 109 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
 * **Luck Boost**: +0,1 % chans till byte från utomjordingar per nivå (max 10 % / 100 nivåer) - *Kostnad: 15 WP*
 
 ### Tjäna wipepoäng {#earning-wipe-points}

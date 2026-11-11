@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -17,7 +17,7 @@ Un **P.E.T.** (Personal Escort Technology) es un pequeño compañero que vuela j
 ## En un minuto {#in-one-minute}
 
 - **Consigue la Station.** Investiga una **P.E.T. Station** en el centro de investigación y fabrícala en el Ensamblaje. Tiene tres niveles, con sitio para **2, 3 y 5** P.E.T.s. Equípala en una ranura de extras de la nave que pilotas. La Cuna funciona sin ella: puedes hacer nacer P.E.T.s antes de tener una Station.
-- **Encuentra chunks.** Rompe asteroides desde el segundo nivel: un **Regular**, un **Mythical** o un **Legendary Cluster Chunk** puede quedar entero en el trozo de mineral del grupo que más daño hizo.
+- **Encuentra chunks.** Rompe asteroides, cuanto más grandes mejor: un **Regular**, un **Mythical** o un **Legendary Cluster Chunk** puede quedar entero en el trozo de mineral del grupo que más daño hizo.
 - **Hazlos nacer.** En la vista **P.E.T.** del hangar, la Cuna toma un chunk y una Orvium Reinforced Plate por cada P.E.T. y tiene cuatro plazas en su cola. La calidad del chunk decide cuántas bonificaciones tiene el P.E.T.: **1, 2 o 3**.
 - **Acopla y vuela.** Acopla los P.E.T.s que quieras mientras tu nave está aterrizada. Con una Station equipada y en ON suman sus bonificaciones y ganan experiencia mientras cazas, minas y vuelas, hasta el nivel 20.
 - **ON y OFF.** La ranura **PET** de la barra rápida cambia la Station, también en vuelo, y el cambio cuenta al instante: en OFF, tus P.E.T.s no dan bonificaciones, no ganan experiencia y no trabajan; en ON, vuelven. Una Station que no has cambiado está en ON.
@@ -37,7 +37,7 @@ La vista P.E.T. del hangar dice qué Station tienes, dónde está equipada y si 
 
 ## Cluster Chunks
 
-Los Cluster Chunks son racimos de cristal que guardan las rocas. Vienen en tres calidades, **Normal (Regular)**, **Mítico (Mythical)** y **Legendario (Legendary)**, y una rotura deja como mucho uno de cada. Desde el nivel 2 de las [rocas](/wiki/03-Mechanics/Asteroid-Mining.md) una rotura puede dejar un Regular Cluster Chunk, desde el nivel 3 uno Mythical y desde el nivel 4 uno Legendary; la Motherlode los da más a menudo. Las probabilidades están en [Recursos](/wiki/06-Items/Resources.md#regular-cluster-chunk). El chunk no forma parte del pago de la rotura: va entero, en el trozo de mineral, al grupo que más daño hizo, y ninguna suerte cambia su probabilidad, tampoco la de un P.E.T.
+Los Cluster Chunks son racimos de cristal que guardan las rocas. Vienen en tres calidades, **Normal (Regular)**, **Mítico (Mythical)** y **Legendario (Legendary)**, y una rotura deja como mucho uno de cada. Una rotura de cualquier [roca](/wiki/03-Mechanics/Asteroid-Mining.md) puede dejar un Regular Cluster Chunk, desde el nivel 3 uno Mythical y desde el nivel 4 uno Legendary; la Motherlode los da más a menudo. Las probabilidades están en [Recursos](/wiki/06-Items/Resources.md#regular-cluster-chunk). El chunk no forma parte del pago de la rotura: va entero, en el trozo de mineral, al grupo que más daño hizo, y ninguna suerte cambia su probabilidad, tampoco la de un P.E.T.
 
 Un chunk es un recurso: no se puede vender, y el reinicio lo borra si no lo llevas en el [Alijo de Transporte](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-).
 

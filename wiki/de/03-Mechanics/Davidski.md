@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jed
 | Extras | ein Repair Drone IV, ein Auto-Repair CPU und ein Base CPU II |
 | Hülle | 15 Hull Plating III |
 
-In Alpha-Stärke hat er **858.750 Hülle**, **1.309.534 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 86,3 % Absorption, Tempo 98, 945 Reichweite und eine Salve von **4.324 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,2 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa dreizehn Minuten Dauerfeuer, zehn von ihnen etwa 77 Sekunden.
+In Alpha-Stärke hat er **931.250 Hülle**, **1.559.486 Schild** (lädt 67.614 pro Sekunde nach 15 Sekunden ohne Treffer), 90,9 % Absorption, Tempo 102, 945 Reichweite und eine Salve von **4.440 pro Sekunde**. Beta hat das 1,5-Fache dieser Werte und Gamma das 2-Fache, wie jeder Alien. Das sind in Alpha etwa 2,5 Millionen Punkte, die es zu durchkauen gilt: Eine Wraith mit denselben Lasern braucht allein etwa vierzehn Minuten Dauerfeuer, zehn von ihnen etwa 86 Sekunden.
 
 ## Der Kampf gegen ihn {#fighting-him}
 
@@ -38,10 +38,10 @@ Er zahlt wie ein Boss, nach dem Schaden, den jeder Pilot angerichtet hat (ein An
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Credits | 1.590.000 | 3.180.000 | 4.770.000 |
-| Thulium | 4.275 | 8.550 | 12.825 |
-| Erfahrung | 255.000 | 510.000 | 765.000 |
-| Ehre | 1.110 | 2.220 | 3.330 |
+| Credits | 1.830.000 | 3.660.000 | 5.490.000 |
+| Thulium | 4.875 | 9.750 | 14.625 |
+| Erfahrung | 292.500 | 585.000 | 877.500 |
+| Ehre | 1.275 | 2.550 | 3.825 |
 
 Die Kiste enthält 40 bis 60 Ship Fragments, 10 bis 20 Power Cores und 3.000 bis 6.000 Advanced Plasma, manchmal auch Ancient Control Units oder Dark Matter. Ein Abschuss bringt **keine PvE-Punkte** für dein Ranking (er steht in keiner Rangliste, siehe unten); die Erfahrung, die er einbringt, zählt wie jede andere Erfahrung, und der Abschuss wird unter dem Namen Davidski in deiner Abschussstatistik gezählt.
 

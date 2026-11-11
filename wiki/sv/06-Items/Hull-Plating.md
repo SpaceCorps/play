@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Skrovpansar -->
 # Skrovpansar {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Föremål | Skrov som läggs till | Varifrån det kommer |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5 000 | Butiken, 5 000 Thulium |
-| **Hull Plating II** | 10 000 | Monteringen, från en Hull Plating I |
-| **Hull Plating III** | 15 000 | Monteringen, från en Hull Plating II |
+| **Hull Plating I** | 8 000 | Butiken, 5 000 Thulium |
+| **Hull Plating II** | 15 000 | Monteringen, från en Hull Plating I |
+| **Hull Plating III** | 25 000 | Monteringen, från en Hull Plating II |
 
 Hull Plating I köps. **II och III är uppgraderingar**: Monteringen förbrukar ett pansar från nivån under (löst i ditt inventarie) och kräver Thulium, material och **Dark Matter Plates**, 5 för II och 8 för III, medan sista nivån på varje annan utrustningsdel kräver 4 och en Ancient Control Unit. Var och en behöver först sin teknologi, i Hull Plating-trädet på sidan [Forskning](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 dag och 25 Dark Matter för II, 2 dagar och 40 för III, utöver teknologin för själva Dark Matter Plate. Trädet ovan visar priserna, materialen och tiderna.
 
-[Smedjan](/wiki/06-Items/Forge.md) tar emot alla pansar, och en uppgradering behåller smidesnivån och bonusen hos pansaret den förbrukade. Ett pansar har bara ett värde, skrovet, och rymmer därför en bonus, +2 % till +15 % efter nivå: en Hull Plating III på Evig nivå ger upp till 17 250. På [Auktionen](/wiki/03-Mechanics/Auction.md) kan Hull Plating II och III läggas ut, aldrig Hull Plating I, som butiken säljer.
+[Smedjan](/wiki/06-Items/Forge.md) tar emot alla pansar, och en uppgradering behåller smidesnivån och bonusen hos pansaret den förbrukade. Ett pansar har bara ett värde, skrovet, och rymmer därför en bonus, +2 % till +15 % efter nivå: en Hull Plating III på Evig nivå ger upp till 28 750. På [Auktionen](/wiki/03-Mechanics/Auction.md) kan Hull Plating II och III läggas ut, aldrig Hull Plating I, som butiken säljer.
 
 ## Pansarplatser {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Skrovpansar passar bara i **pansarplatser**, en egen sorts plats som de fyra ske
 
 | Skepp | Pansarplatser | En full uppsättning Hull Plating III ger |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75 000 |
-| **Storm** | 7 | 105 000 |
-| **Ironclad** | 15 | 225 000 |
-| **Wraith** | 10 | 150 000 |
+| **Paragon** | 5 | 125 000 |
+| **Storm** | 7 | 175 000 |
+| **Ironclad** | 15 | 375 000 |
+| **Wraith** | 10 | 250 000 |
 
 - **Alla låsta från början.** En plats öppnas när du forskar fram den i Skylab: en teknologi för varje plats, 1 timme och 10 Dark Matter, i ordning från den första. Vyn [Forskning](/wiki/03-Mechanics/Research.md#ship-technologies) visar ett skepps platser som ett enda kort med en prick för varje.
 - **En sorts skepp, inte ett enda skepp.** Platserna du har öppnat för Paragon är öppna också på varje Paragon-design ([Skeppsdesigner](/wiki/03-Mechanics/Ship-Designs.md)). En teknologi är din för alltid: wipen behåller den.

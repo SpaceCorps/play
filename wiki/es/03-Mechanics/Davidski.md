@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Una **Ironclad TITANIC** pintada de oro, del tamaño propio de la TITANIC, con l
 | Extras | un Repair Drone IV, una Auto-Repair CPU y una Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Con la fuerza de Alpha tiene **858.750 de casco**, **1.309.534 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 86,3 % de absorbancia, velocidad 98, alcance 945 y una salva de **4.324 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,2 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos trece minutos de fuego continuo él solo; diez de ellos, 77 segundos.
+Con la fuerza de Alpha tiene **931.250 de casco**, **1.559.486 de escudo** (se recarga 67.614 por segundo tras 15 segundos sin recibir un impacto), un 90,9 % de absorbancia, velocidad 102, alcance 945 y una salva de **4.440 por segundo**. Beta tiene 1,5 veces esas cifras y Gamma 2 veces, como todo alien. Son unos 2,5 millones de puntos que desgastar en Alpha: un Wraith con los mismos láseres necesita unos catorce minutos de fuego continuo él solo; diez de ellos, 86 segundos.
 
 ## Combatirlo {#fighting-him}
 
@@ -38,10 +38,10 @@ Paga como un jefe, según el daño que infligió cada piloto (una parte inferior
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Créditos | 1.590.000 | 3.180.000 | 4.770.000 |
-| Thulium | 4.275 | 8.550 | 12.825 |
-| Experiencia | 255.000 | 510.000 | 765.000 |
-| Honor | 1.110 | 2.220 | 3.330 |
+| Créditos | 1.830.000 | 3.660.000 | 5.490.000 |
+| Thulium | 4.875 | 9.750 | 14.625 |
+| Experiencia | 292.500 | 585.000 | 877.500 |
+| Honor | 1.275 | 2.550 | 3.825 |
 
 La caja contiene de 40 a 60 Ship Fragments, de 10 a 20 Power Cores y de 3.000 a 6.000 Advanced Plasma, y a veces Ancient Control Units o Dark Matter. Una baja no suma **ningún punto PvE** a tu clasificación (él está fuera de las clasificaciones, ver abajo); la experiencia que paga cuenta como cualquier otra experiencia, y la baja se cuenta con el nombre Davidski en tus estadísticas de bajas.
 

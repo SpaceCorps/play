@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ Savunma Modülü Skylab’ın için savaşır. Skylab’ının uçtuğu hücrele
 
 | Seviye | Lazer | Şarjör (mermi) | Öldürme bütçesi (saatte puan) | En yüksek zorluk |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.300 | 108 | 1 |
-| 2 | 2 | 3.600 | 293 | 2 |
-| 3 | 3 | 14.000 | 476 | 3 |
-| 4 | 4 | 23.000 | 548 | 4 |
-| 5 | 5 | 35.000 | 630 | 5 |
+| 1 | 1 | 1.600 | 108 | 1 |
+| 2 | 2 | 4.300 | 293 | 2 |
+| 3 | 3 | 16.000 | 476 | 3 |
+| 4 | 4 | 28.000 | 548 | 4 |
+| 5 | 5 | 42.000 | 630 | 5 |
 
 | Seviye | Kredi | Thulium | Plaka | Süre |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ Beş seviye toplamda 24.400.000 kredi, 97.600 Thulium, 26 plaka ve 5 g yükselt
 
 Radar Modülü evren haritasının sisini kaldırır (bkz. [Sis ve tarama](#fog-and-scanning)). 1’den 3’e kadar seviyeleri vardır ve yüksek seviye bir hücreyi daha hızlı tarar.
 
-- **Ne yapar**: bildiğin bir hücrenin yanındaki hücreler arasından **aynı anda tek hücre** tarar ve **üçlük bir kuyruk** tutar: ilki taranır, diğerleri bekler. Bir tarama bitince o hücreyi bilirsin ve Skylab’ın oraya uçabilir.
+- **Ne yapar**: bildiğin bir hücrenin yanındaki hücreler arasından **aynı anda tek hücre** tarar ve **bir kuyruk** tutar: ilki taranır, diğerleri bekler. Bir tarama bitince o hücreyi bilirsin ve Skylab’ın oraya uçabilir.
+- **Kuyruk**: kuyruk 1. seviyede **3 hücre** alır ve üstündeki her seviyede **2 hücre daha**: 2. seviyede 5, 3. seviyede 7. Yükseltme yalnızca yer ekler; kuyruktaki hücreler yerlerini korur. Modül kapalıyken, yükseltilirken ya da gücü yokken kuyruk korunur ama yeni hücre kabul etmez.
 - **Süre**: hücre başına 1. seviyede 90 dakika, 2. seviyede 40, 3. seviyede 15. Tarama sunucunun saatiyle işler: sen yokken ve Skylab uçarken de. Modül kapalıyken, yükseltilirken ya da gücü yokken ve Skylab yok edilmişken durur ve geçen süre telafi edilmez. Bir tarama zamandan başka bir şeye mal olmaz.
 - **Hepsini haritaya işlemek**: başlangıçta bilmediğin 131 hücreyi art arda haritaya işlemek 1. seviyede 8 g 4 sa, 2. seviyede 3 g 15 sa, 3. seviyede 1 g 9 sa sürer.
 - **Araştırma**: her seviye kendi teknolojisini ister: Radar Module I ile III arası (bkz. yukarıdaki tablo).
@@ -386,18 +387,18 @@ Her modülün bir ağırlığı vardır, **kütle birimi (MU)** cinsinden, ve da
 En üst seviye 20’dir; yalnızca Araştırma Merkezi (10), Motor ve Savunma Modülleri (5) ve Radar Modülü (3) farklıdır. Tüm istasyon Çekirdek 15. seviyede 2.353 MU, 20. seviyede 2.734 MU çeker.
 
 - **İtki**, gemilerin motor hesabıdır, temel hız olmadan: bir motor temel hızını ve iticilerinin sabit hızını, çarpanlarıyla çarparak ekler; motorlar en iyiden başlayarak sıralanır ve ilk dördü %100, beşincisi %85 sayılır (modül en fazla beş tane taşır); en iyi dört hız bonusu da üstüne eklenir. Motoru olmayan bir istasyonun itkisi yoktur.
-- **Hız**, itkinin istasyonun ağırlığına oranının 60 katıdır, saniyede birim cinsinden; iki komşu hücre arasındaki bir sıçrama 15.000 birimdir. Skylab sayfası, gücün altında “Ağırlık 2.353 MU, hız 7,5 birim/sn, bir sıçrama 33dk sürer” satırını gösterir.
+- **Hız**, itkinin istasyonun ağırlığına oranının 60 katıdır, saniyede birim cinsinden; iki komşu hücre arasındaki bir sıçrama 15.000 birimdir. Skylab sayfası, gücün altında “Ağırlık 2.353 MU, hız 8,9 birim/sn, bir sıçrama 28dk sürer” satırını gösterir.
 - **Kalkışta sabitlenir**: bir seferin hızı yola çıkarken, o andaki ağırlık ve itkiden hesaplanır. Yolda biten bir yükseltme ya da Skylab konuşluyken değiştirdiğin bir motor bir sonraki sefer için geçerlidir.
 
 Her modülü 15. seviyede olan bir istasyon için motorların yaptığı (Motor Modülü motorları taşıyan seviyede):
 
 | Takılı motorlar | Ağırlık (MU) | İtki | Hız (saniyede birim) | Bir sıçrama | Haritayı geçmek (14 sıçrama) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Motor Modülü 1. seviye) | 2.289 | 2,0 | 0,05 | 3 g 6 sa | 45 g 11 sa |
-| 3 Engine II, her biri 2 Impulse Thruster II ile (3. seviye) | 2.321 | 71,6 | 1,85 | 2 sa 15 dk | 1 g 8 sa |
-| 5 Engine III, her biri 3 Impulse Thruster IV ile (5. seviye) | 2.353 | 295,3 | 7,53 | 33 dk | 7 sa 45 dk |
+| 1 Engine I (Motor Modülü 1. seviye) | 2.289 | 5,1 | 0,13 | 1 g 7 sa | 18 g 4 sa |
+| 3 Engine II, her biri 2 Impulse Thruster II ile (3. seviye) | 2.321 | 92,1 | 2,38 | 1 sa 45 dk | 1 g |
+| 5 Engine III, her biri 3 Impulse Thruster IV ile (5. seviye) | 2.353 | 350,6 | 8,94 | 28 dk | 6 sa 32 dk |
 
-Çekirdek 20. seviyede istasyon %16 daha ağırdır ve en iyi motorlarla bir sıçrama 39 dakika, haritayı geçmek 9 sa sürer.
+Çekirdek 20. seviyede istasyon %16 daha ağırdır ve en iyi motorlarla bir sıçrama 32 dakika, haritayı geçmek 7 sa 35 dk sürer.
 
 ## Seferler {#expeditions}
 
@@ -434,7 +435,7 @@ Yalnızca bildiğin hücreleri görürsün.
 - **Bilmediğin bir hücre** kendisi hakkında hiçbir şey göstermez: ne türünü, ne zorluğunu, ne adını ne de uzaylılarını. Bilinen bir hücrenin yanındaki hücre **?** ile işaretlenir ve taranabilir; bilinmeyen diğer her hücre karanlıktır.
 - **Bilinen bir hücre** kodunu, türünü, zorluğunu, adını ve uzaylılarını panelinde gösterir.
 - **Uçuş** yalnızca bilinen hücrelere yapılır.
-- **Tarama**: **?** işaretli bir hücre seç ve **Bu hücreyi tara** düğmesine bas. Radar aynı anda tek hücre tarar ve üçlük bir kuyruk tutar; bir hücre kuyruktan yeniden çıkarılabilir ve **Tümünü iptal et** kuyruğu boşaltır. Bir taramanın süresi [Radar Modülü](#radar-module) bölümündedir.
+- **Tarama**: **?** işaretli bir hücre seç ve **Bu hücreyi tara** düğmesine bas. Radar aynı anda tek hücre tarar ve bir kuyruk tutar (1. seviyede 3 hücre, her seviyede 2 fazla); bir hücre kuyruktan yeniden çıkarılabilir ve **Tümünü iptal et** kuyruğu boşaltır. Bir taramanın süresi [Radar Modülü](#radar-module) bölümündedir.
 
 ### Sefer {#the-trip}
 
@@ -682,6 +683,7 @@ Her çiftlik ve toplayıcının ürettiğinin yaklaşık 72 saati için bir hazn
 - **Dökümhane**: plakalar, geminin park halindeyken envanterine gider.
 - **Cephane Yazıcısı ve Roket Fabrikası**: cephane ve roketler, geminin park halindeyken envanterine gider. Her biri yalnızca 24 saatlik üretim saklar (bkz. [Cephane Yazıcısı](#ammo-printer) ve [Roket Fabrikası](#rocket-factory)).
 - **Cevher Bölmesi**: toplanacak bir şey yok. Taşı düğmesine bastığında, geminin park halindeyken, envanterindeki cevheri kotası kadarıyla Kaynak Deposu’na taşır (bkz. [Cevher Bölmesi](#ore-bay)).
+- **Pilot becerileri**: bir toplama, topladığın anda sahip olduğun becerilerle saatlerin değeri kadar öder. **Extraction**, çiftliklerin, toplayıcıların, Cephane Yazıcısı’nın ve Roket Fabrikası’nın ürettiğini artırır, **Instinct**, iki toplayıcının cevherini daha da artırır, **Logistics** ise Kaynak Deposu’nun bankasının alabildiğini artırır.
 - **Trofe Bölmesi**: Evren penceresinde, geminin park halindeyken toplanır: kredi ve Thulium hesabına, deneyim ve onur pilotuna, ganimet envanterine gider. Tuttuklarını sen toplayana kadar saklar, ama dolu bir Bölme Skylab’ın ateşi kesmesine yol açar (bkz. [Trofe Bölmesi](#trophies-bay)).
 - **Hepsini topla** her şeyi tek seferde alır, kapalı ve yükseltilen modüller dahil; ama Evren penceresinde topladığın Trofe Bölmesi’ni almaz.
 - Bir **(!)** rozeti, Skylab sayfasında ve kenar çubuğundaki Skylab satırında, boşaltabileceğin dolu bir hazneyi ve Dökümhane’de bekleyen plakaları gösterir.

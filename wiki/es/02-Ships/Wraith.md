@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ La Wraith es la nave definitiva de clase acorazado: una potencia de fuego sin ig
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Wraith tiene 10 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Wraith y en todos sus diseños. Con las 10 llenas de Hull Plating III se suman 150.000 de casco.
+- **Ranuras de blindaje.** La Wraith tiene 10 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Wraith y en todos sus diseños. Con las 10 llenas de Hull Plating III se suman 250.000 de casco.
 - **Diseños.** La Wraith tiene 5 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Wraith en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |

@@ -52,8 +52,10 @@ Everything below is yours after the wipe.
 * **Your whole [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)**: modules, levels, the ore banked in the Resource Storage and **the engines and lasers fitted in the Engine and Defense Modules**, still fitted where they are, with the thrusters and amps fitted into them. Banked ore is not an item and does not count against the Cache; neither do the fitted pieces, which take no room in it.
 * **Your Wipe Points and your permanent buffs** ([the store](#the-permanent-buff-store)).
 * **Experience, level and honor.**
+* **Your Pilot Skill Tree.** Every skill keeps its level and its XP.
 * **Credits up to 5,000,000,000 and Thulium up to 10,000,000.** Above that is lost: see [the caps](#the-caps).
 * **Your quest progress.** Missions done and in progress stay, and the ones you completed can be redone for their full rewards (a Repeat still running at the wipe is dropped).
+* **Your solo-gate parts**, the guarantee's count and the record of what you spent on spins and what the gates paid back ([Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Your looks** (skins, auras and exhausts), which are not items either ([Cosmetics](/wiki/06-Items/Cosmetics.md)).
 * **What is in your Transport Cache**, below.
 
@@ -65,14 +67,17 @@ Your unopened containers, your [special items](/wiki/06-Items/Special-Items.md) 
 
 ## Chrono-Gate & Energy Materializer
 
-The **Chrono-Gate** (also referred to as the Galaxy Gate) is a massive seasonal structure that acts as a bridge between seasons. Building and stabilizing this gate is essential to unlocking your carry-over transport privileges.
+The **Chrono-Gate** (also referred to as the Galaxy Gate) is a massive seasonal structure that acts as a bridge between seasons. Building and stabilizing this gate is essential to unlocking your carry-over transport privileges. It is one of the six gates of the Galaxy Gates page: the other five are the [solo gates](/wiki/03-Mechanics/Solo-Gates.md), places you fly in, and their parts come out of the same Energy Materializer.
 
 ### Gate Assembly
-To fully stabilize the Chrono-Gate, you must collect exactly **100 Chrono-Gate parts**.
+To fully stabilize the Chrono-Gate, you must collect exactly **2 Chrono-Gate parts**. [Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) has what each of the six gates needs and what its parts cost on average.
 
 ### The Energy Materializer
 You obtain parts by using the Energy Materializer interface, which spins local energy sectors to locate gate parts. It spins for **Thulium** only (a spin for Credits is closed):
-* **Thulium Spin** (5 Thulium): Has a **10% chance** to produce a gate part.
+* **Thulium Spin**: **100 Thulium** a spin, with a **13% chance** to produce a gate part. The part belongs to one of the six gates, picked by chance, so it is not always a Chrono-Gate part.
+* **The guarantee.** A long run of spins without a part cannot go on for ever: after a number of dry spins the chance rises, and then a part is certain ([details](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **A spin without a part** still pays a prize ([Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Spins go on after the Chrono-Gate is complete.** Every spin is charged, and the parts it finds are then parts of the solo gates. The chance of a part is a sixth lower, because the Chrono-Gate's share of it is gone.
 
 *Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x) to perform bulk spins and accelerate gate construction.*
 
@@ -80,7 +85,7 @@ You obtain parts by using the Energy Materializer interface, which spins local e
 
 ## Transport Cache (Travel Capsule)
 
-Once all 100 parts are collected and the Chrono-Gate is fully stabilized, the portal opens access to your personal **Transport Cache** (also known as the carry-over cart or travel capsule). This pocket dimension shields your belongings from being deleted during the wipe. Items you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) come back to you at the wipe as loose items, which the wipe deletes like the rest unless you put them in the Cache; the bids you hold in lots are refunded.
+Once all the parts are collected and the Chrono-Gate is fully stabilized, the portal opens access to your personal **Transport Cache** (also known as the carry-over cart or travel capsule). This pocket dimension shields your belongings from being deleted during the wipe. Items you have listed on the [Auction](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) come back to you at the wipe as loose items, which the wipe deletes like the rest unless you put them in the Cache; the bids you hold in lots are refunded.
 
 ### The cache ship
 
@@ -138,7 +143,7 @@ The **Freeze contents** button on the Transport Cache tab is a safety catch for 
 * **Alien kills.** They are counted for the wipe you are in, and your all-time numbers stay.
 * **Every item that is not kept**: resources, boosters, spare gear, plates, Cluster Chunks and the rest. An engine or a laser that you have taken out of your Skylab's module is a spare like any other; the ones still fitted in it are kept. Whatever the wipe returns to you first (see below) is an item like any other.
 * **Clans.** Every clan is disbanded with its Fleet Treasury, posts, treaties, points and boost levels ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **The Chrono-Gate parts**: the gate starts again, and so does your Materializer.
+* **The Chrono-Gate parts**: the gate starts again, and you find its parts again. A solo-gate run under way ends and gives its parts back; the parts you hold of the solo gates stay ([Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Your Skylab expedition** ends: a trip under way is over and the Trophies Bay pays out its Credits, Thulium, experience and honor and is emptied ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Your crafts.** Every craft in your Production Queue in Assembly is cancelled and refunded, whatever it makes: an item, a ship, a ship conversion, a drone or a drone upgrade, a drone formation, a P.E.T. Station or an Extra Slots CPU. The credits and Thulium it cost come back to your wallet before the caps. The materials come back as loose items and go with the rest of them, unless you cancel the job yourself earlier and put them in the Cache. A craft that has finished but waits to be collected is refunded too, and what it would have made is never made: collect your finished crafts before the wipe. The jobs in the Cradle are not crafts: your P.E.T. jobs go on.
 
@@ -219,7 +224,7 @@ You can spend your accrued WP on permanent buffs that carry over across all seas
 * **Honor Boost**: +0.1% Honor gained per level (Max 50% / 500 levels) - *Cost: 10 WP*
 * **Hitpoints Boost**: +0.1% maximum HP per level (Max 50% / 500 levels) - *Cost: 15 WP*
 * **Shield Capacity Boost**: +0.1% maximum Shields (shield **capacity**) per level (Max 50% / 500 levels) - *Cost: 10 WP*
-* **Shield Absorbance Boost**: +0.1 points of your shield **absorbance** per level (Max +10 points / 100 levels) - *Cost: 25 WP*. Absorbance is the share of every hit your shields take (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); the buff adds flat points to it: 100 Wipe Points buy 4 levels (+0.4 points), 300 buy 12 (+1.2), 500 buy 20 (+2.0) and all the 1,105 Wipe Points that the sources pay in one wipe buy 44 (+4.4 points). At the maximum (100 levels, 2,500 WP: a goal for several wipes, since the sources pay 1,105 at most in a wipe and your rank adds 5 to 400) 85% (the best out of the box) would become 95% and a Light Shield Core's 45% 55%. The stat is not capped at 100%: the attacker's *shield penetration* is taken off it, so what passes 100% is a margin. With a wipe's Wipe Points in this buff and a fully forged Eternal set of shields and cells a ship reaches about 99% to 102%. (Up to 0.4.5 this buff added a share of the absorbance itself, 0.1% of it a level, at the same price; the points are worth the same or more at every absorbance, so levels already bought lost nothing; up to 0.4.2 it raised the shield *recharge* rate instead; no permanent buff raises recharge now.)
+* **Shield Absorbance Boost**: +0.1 points of your shield **absorbance** per level (Max +10 points / 100 levels) - *Cost: 25 WP*. Absorbance is the share of every hit your shields take (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); the buff adds flat points to it: 100 Wipe Points buy 4 levels (+0.4 points), 300 buy 12 (+1.2), 500 buy 20 (+2.0) and all the 1,105 Wipe Points that the sources pay in one wipe buy 44 (+4.4 points). At the maximum (100 levels, 2,500 WP: a goal for several wipes, since the sources pay 1,105 at most in a wipe and your rank adds 5 to 400) 91% (the best out of the box) would become 101% and a Light Shield Core's 45% 55%. The stat is not capped at 100%: the attacker's *shield penetration* is taken off it, so what passes 100% is a margin. With a wipe's Wipe Points in this buff and a fully forged Eternal set of shields and cells a ship reaches about 104% to 109%. (Up to 0.4.5 this buff added a share of the absorbance itself, 0.1% of it a level, at the same price; the points are worth the same or more at every absorbance, so levels already bought lost nothing; up to 0.4.2 it raised the shield *recharge* rate instead; no permanent buff raises recharge now.)
 * **Luck Boost**: +0.1% chance of loot from aliens per level (Max 10% / 100 levels) - *Cost: 15 WP*
 
 ### Earning Wipe Points

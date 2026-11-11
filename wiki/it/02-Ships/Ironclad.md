@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 
 ## Statistiche {#stats}
 
-- **Punti scafo (HP)**: 600.000
+- **Punti scafo (HP)**: 500.000
 - **Velocità di base**: 110
 - **Slot laser**: 8
 - **Slot extra**: 3
@@ -27,7 +27,7 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 
 ## Ricerca {#research}
 
-- **Slot corazza.** Questa nave ha 15 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 15 riempiti di Hull Plating III aggiungono 225.000 di scafo.
+- **Slot corazza.** Questa nave ha 15 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 15 riempiti di Hull Plating III aggiungono 375.000 di scafo.
 - **Design.** Questa nave ha 2 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercane uno (10 h e 10 Dark Matter), poi converti la tua Ironclad in quel design nell’Assemblaggio: il cambiamento non si può annullare.
 
 | Design | Cosa cambia |

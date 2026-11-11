@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Aşağıdakilerin hepsi sıfırlamadan sonra da senindir.
 * **Bütün [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)’ın**: modüller, seviyeler, Kaynak Deposu’nda biriktirilmiş cevher ve **Motor ve Savunma Modüllerine takılı motorlar ile lazerler**: olduğu yerde takılı kalırlar, içlerine takılanlarla (iticiler, amfiler) birlikte. Biriktirilmiş cevher bir eşya değildir ve Depo’nun kapasitesinden sayılmaz; takılı parçalar da orada yer kaplamaz.
 * **Sıfırlama puanların ve kalıcı güçlendirmelerin** ([mağaza](#the-permanent-buff-store)).
 * **Deneyim, seviye ve onur.**
+* **Pilot Yetenek Ağacın.** Her yetenek seviyesini ve XP’sini korur.
 * **5.000.000.000’a kadar kredi ve 10.000.000’a kadar Thulium.** Üstü kaybolur: bkz. [üst sınırlar](#the-caps).
 * **Görev ilerlemen.** Tamamlanmış ve süren görevler kalır. Tamamladıklarını tam ödülleri için yeniden yapabilirsin (sıfırlamada hâlâ süren bir Tekrar bırakılır).
+* **Solo geçit parçaların**, garantinin sayacı ve çevirmelere harcadığın ile geçitlerin geri ödediği tutarların kaydı ([Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Görünümlerin** (skinler, auralar ve egzoz efektleri), onlar da eşya değildir ([Kozmetik](/wiki/06-Items/Cosmetics.md)).
 * **Nakliye Deposu’ndakiler**, aşağıda.
 
@@ -67,14 +69,17 @@ Açılmamış konteynerlerine, [özel eşyalarına](/wiki/06-Items/Special-Items
 
 ## Chrono-Gate ve Enerji Maddeleştirici {#chrono-gate-energy-materializer}
 
-**Chrono-Gate** (Galaksi Geçidi olarak da anılır), sezonlar arasında köprü işlevi gören devasa bir sezonluk yapıdır. Bu geçidi inşa etmek ve dengelemek, sezonlar arası taşıma ayrıcalıklarının kilidini açmak için şarttır.
+**Chrono-Gate** (Galaksi Geçidi olarak da anılır), sezonlar arasında köprü işlevi gören devasa bir sezonluk yapıdır. Bu geçidi inşa etmek ve dengelemek, sezonlar arası taşıma ayrıcalıklarının kilidini açmak için şarttır. Galaksi Geçitleri sayfasındaki altı geçitten biridir; diğer beşi içine uçtuğun yerlerdir ([solo geçitler](/wiki/03-Mechanics/Solo-Gates.md)) ve parçaları aynı Enerji Maddeleştirici’den çıkar.
 
 ### Geçit montajı {#gate-assembly}
-Chrono-Gate geçidini tamamen dengelemek için tam **100 Chrono-Gate parçası** toplaman gerekir.
+Chrono-Gate geçidini tamamen dengelemek için tam **2 Chrono-Gate parçası** toplaman gerekir. [Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) sayfası, altı geçidin her birinin neye ihtiyaç duyduğunu ve parçalarının ortalama maliyetini söyler.
 
 ### Enerji Maddeleştirici {#the-energy-materializer}
 Parçaları, yerel enerji sektörlerini çevirerek geçit parçalarını bulan Enerji Maddeleştirici arayüzüyle elde edersin. Yalnızca **Thulium** ile çalışır (kredi ile çevirme kapatıldı):
-* **Thulium çevirmesi** (5 Thulium): **%10 şansla** bir geçit parçası üretir.
+* **Thulium çevirmesi**: çevirme başına **100 Thulium**, **%13 şansla** bir geçit parçası üretir. Parça, rastgele seçilen altı geçitten birine aittir; bu yüzden her zaman bir Chrono-Gate parçası olmaz.
+* **Garanti.** Parçasız çevirmelerden oluşan uzun bir dizi sonsuza kadar sürmez: birkaç boş çevirmeden sonra şans artar, ardından bir parça kesinleşir ([ayrıntılar](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Parçasız bir çevirme** de bir ödül verir ([Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Chrono-Gate tamamlandıktan sonra da çevirmeler sürer.** Her çevirme ücretlendirilir ve bulduğu parçalar artık solo geçitlerin parçalarıdır. Parça şansı altıda bir düşer, çünkü Chrono-Gate’in payı ondan çıkar.
 
 *İpucu: Toplu çevirme yapmak ve geçit inşasını hızlandırmak için çarpanları (1x, 5x, 10x, 100x) kullanabilirsin.*
 
@@ -82,7 +87,7 @@ Parçaları, yerel enerji sektörlerini çevirerek geçit parçalarını bulan E
 
 ## Nakliye Deposu (seyahat kapsülü) {#transport-cache-travel-capsule-}
 
-100 parçanın hepsi toplandığında ve Chrono-Gate geçidi tamamen dengelendiğinde portal, kişisel **Nakliye Deposu**’na erişimi açar (taşıma arabası ya da seyahat kapsülü olarak da bilinir). Bu cep boyutu, eşyalarını sıfırlama sırasında silinmekten korur. [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe)’da ilana koyduğun eşyalar sıfırlamada sana boşta duran eşyalar olarak geri döner; sıfırlama bunları, depoya koymadıysan, diğerleri gibi siler; lotlarda tuttuğun teklifler iade edilir.
+Tüm parçalar toplandığında ve Chrono-Gate geçidi tamamen dengelendiğinde portal, kişisel **Nakliye Deposu**’na erişimi açar (taşıma arabası ya da seyahat kapsülü olarak da bilinir). Bu cep boyutu, eşyalarını sıfırlama sırasında silinmekten korur. [Açık Artırma](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe)’da ilana koyduğun eşyalar sıfırlamada sana boşta duran eşyalar olarak geri döner; sıfırlama bunları, depoya koymadıysan, diğerleri gibi siler; lotlarda tuttuğun teklifler iade edilir.
 
 ### Depo gemisi {#the-cache-ship}
 
@@ -140,7 +145,7 @@ Nakliye Deposu sekmesindeki **İçeriği dondur** düğmesi, bölmeler ve kargo 
 * **Uzaylı öldürmeleri.** İçinde bulunduğun sıfırlama için sayılır ve toplam sayıların kalır.
 * **Korunmayan her eşya**: kaynaklar, güçlendiriciler, yedek teçhizat, plakalar, Cluster Chunk’lar ve gerisi. Skylab’ındaki bir modülden çıkardığın motor ya da lazer diğer yedekler gibidir; hâlâ takılı olanlar korunur. Sıfırlamanın önce sana geri verdiği şey (aşağıya bak) diğerleri gibi bir eşyadır.
 * **Klanlar.** Her klan, filo hazinesi, gönderileri, antlaşmaları, puanları ve güçlendirme seviyeleriyle birlikte dağıtılır ([Klanlar](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **Chrono-Gate parçaları**: geçit baştan başlar, Maddeleştiricin de.
+* **Chrono-Gate parçaları**: geçit baştan başlar ve parçalarını yeniden bulursun. Açık bir solo geçit turu sona erer ve parçalarını geri verir; elindeki solo geçit parçaları kalır ([Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Skylab seferin** biter: süren bir sefer sona erer, Trofe Bölmesi kredi, Thulium, deneyim ve onurunu öder ve boşaltılır ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Üretimlerin.** Montaj’daki üretim kuyruğunda bulunan her üretim, ne yapıyor olursa olsun iptal edilir ve iade edilir: bir eşya, bir gemi, bir gemi dönüşümü, bir dron ya da dron yükseltmesi, bir dron formasyonu, bir P.E.T. Station veya bir Extra Slots CPU. Ona harcanan kredi ve Thulium, üst sınırlardan önce cüzdanına geri döner. Malzemeler boşta duran eşyalar olarak geri gelir ve geri kalanlarla birlikte kaybolur; işi önceden kendin iptal edip onları depoya koyarsan başka. Bitmiş ama henüz teslim alınmamış üretim de iade edilir ve yapacağı şey hiç yapılmaz: bitenleri sıfırlamadan önce teslim al. Beşik’in işleri üretim değildir: P.E.T. işlerin devam eder.
 
@@ -221,7 +226,7 @@ Biriktirdiğin WP’yi, tüm sezonlar boyunca sonsuza dek taşınan kalıcı gü
 * **Honor Boost**: seviye başına kazanılan onura +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 10 WP*
 * **Hitpoints Boost**: seviye başına en yüksek HP’ye +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 15 WP*
 * **Shield Capacity Boost**: seviye başına en yüksek kalkana (kalkan **kapasitesi**) +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 10 WP*
-* **Shield Absorbance Boost**: seviye başına kalkan **soğurmasına** +0,1 puan (en fazla +10 puan / 100 seviye) - *Maliyet: 25 WP*. Soğurma, kalkanlarının her vuruştan aldığı paydır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) sayfasına bak); güçlendirme ona sabit puan ekler: 100 sıfırlama puanı 4 seviye alır (+0,4 puan), 300 puan 12 (+1,2), 500 puan 20 (+2,0) ve kaynakların bir sıfırlamada ödediği 1.105 sıfırlama puanının tamamı 44 (+4,4 puan) alır. En üst düzeyde (100 seviye, 2.500 WP: birkaç sıfırlamalık bir hedef, çünkü kaynaklar bir sıfırlamada en fazla 1.105 öder ve rütben 5 ile 400 arası ekler) %85 (bonussuz en iyi) %95 olur, Light Shield Core için %45 olan değer ise %55 olur. Özellik %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür, bu yüzden %100’ü aşan kısım bir paydır. Bir sıfırlamanın puanlarının hepsi bu güçlendirmede ve tam dövülmüş Ebedi bir kalkan ve hücre setiyle bir gemi yaklaşık %99 ile %102’ye ulaşır. (0.4.5’e kadar bu güçlendirme soğurmanın kendisinin bir payını ekliyordu, seviye başına %0,1, aynı fiyata; puanlar her soğurmada aynı ya da daha fazla değerdedir, bu yüzden daha önce alınan seviyeler hiçbir şey kaybetmedi; 0.4.2’ye kadar bunun yerine kalkan *dolum* hızını artırıyordu; hiçbir kalıcı güçlendirme artık dolumu artırmaz.)
+* **Shield Absorbance Boost**: seviye başına kalkan **soğurmasına** +0,1 puan (en fazla +10 puan / 100 seviye) - *Maliyet: 25 WP*. Soğurma, kalkanlarının her vuruştan aldığı paydır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) sayfasına bak); güçlendirme ona sabit puan ekler: 100 sıfırlama puanı 4 seviye alır (+0,4 puan), 300 puan 12 (+1,2), 500 puan 20 (+2,0) ve kaynakların bir sıfırlamada ödediği 1.105 sıfırlama puanının tamamı 44 (+4,4 puan) alır. En üst düzeyde (100 seviye, 2.500 WP: birkaç sıfırlamalık bir hedef, çünkü kaynaklar bir sıfırlamada en fazla 1.105 öder ve rütben 5 ile 400 arası ekler) %91 (bonussuz en iyi) %101 olur, Light Shield Core için %45 olan değer ise %55 olur. Özellik %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür, bu yüzden %100’ü aşan kısım bir paydır. Bir sıfırlamanın puanlarının hepsi bu güçlendirmede ve tam dövülmüş Ebedi bir kalkan ve hücre setiyle bir gemi yaklaşık %104 ile %109’ye ulaşır. (0.4.5’e kadar bu güçlendirme soğurmanın kendisinin bir payını ekliyordu, seviye başına %0,1, aynı fiyata; puanlar her soğurmada aynı ya da daha fazla değerdedir, bu yüzden daha önce alınan seviyeler hiçbir şey kaybetmedi; 0.4.2’ye kadar bunun yerine kalkan *dolum* hızını artırıyordu; hiçbir kalıcı güçlendirme artık dolumu artırmaz.)
 * **Luck Boost**: seviye başına uzaylılardan ganimet çıkma şansına +%0,1 (en fazla %10 / 100 seviye) - *Maliyet: 15 WP*
 
 ### Sıfırlama puanı kazanmak {#earning-wipe-points}

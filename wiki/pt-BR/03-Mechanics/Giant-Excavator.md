@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Escavadeira gigante -->
 # Escavadeira gigante {#giant-excavator}
 
@@ -120,6 +120,7 @@ A mineração soma calor segundo a segundo. O calor é **cumulativo e nunca esfr
 
 <!-- excavator-radiation:end -->
 
+- **Tecnologia de radiação.** Uma habilidade de piloto que reduz a dose nos círculos como no buraco negro, até 0,40 dela no nível 100; os círculos e os tempos não mudam.
 - **O aviso.** Duas vezes antes do superaquecimento (os tempos estão na lista acima) o mapa é avisado, uma nave dentro dos círculos vê um alerta, e os círculos são desenhados no chão durante o voo e no minimapa. Quando irradiam, os círculos ficam vermelhos e o medidor de Radiação mostra a dose.
 - **Sair.** Toda nave de série consegue sair da borda do painel ou da caixa mais distante que ainda esteja lá, exceto a Ironclad, que é lenta: ela sai durante o aviso, ou não sai. Não fique em cima de uma caixa quando o calor chegar ao limite.
 - **Espólio nos círculos.** As caixas soltas antes do superaquecimento ficam, na radiação: uma caixa que está lá quando ela começa é pega ao preço da dose.

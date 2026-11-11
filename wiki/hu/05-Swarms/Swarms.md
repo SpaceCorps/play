@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Rajok -->
 # Rajok {#swarms}
 
@@ -87,8 +87,8 @@ A Seeker-, a Pirate-, a Phantasm-, a Goombah-, a Crystalys- és a Tesseract-raj 
 A közönséges idegen annak a pilótának fizet, aki először eltalálta ([Harc](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). A raj vezére és minden Dormant Pulse ehelyett **a leadott sebzés szerint** fizet:
 
 - **A fizetést a sebzés szerint osztják el.** Minden pilóta, aki legalább a fenti szabályokban megadott részt okozta, fizetést kap, a leadott sebzéssel arányosan: a kilövés kreditjét, Thuliumát, XP-jét és becsületét elosztják köztük. Aki a rész alatt marad, semmit sem kap.
-- **A rakományláda annak a pilótának jár, aki a legtöbb sebzést okozta.** Az övé (és a klánjáé) 30 másodpercig, mint minden idegennél, utána bárki elviheti ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Minden Dormant-hajónak saját sebzésszámlálója és saját ládája van.
-- **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok, a Seeker Slave-ek, valamint a Phantasm-, a Goombah- és a Crystalys-raj Guardjai annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
+- **A rakományláda annak a pilótának jár, aki a legtöbb sebzést okozta.** Az övé (és a klánjáé) 30 másodpercig, mint minden idegennél, utána bárki elviheti ([Rakomány](/wiki/03-Mechanics/Cargo.md)). Minden Dormant-hajónak saját sebzésszámlálója és saját ládája van. A Tesseract a kivétel: nem ejt ládát, és minden pilóta, akit a megölése kifizet, saját privát ládát kap ([Tesseract-raj](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **A kísérők a megszokott módon fizetnek**: a Pirate Scoutok, a Seeker Slave-ek, a Phantasm-, a Goombah- és a Crystalys-raj Guardjai, valamint a Tesseract-raj Facetjei annak a pilótának fizetnek, aki először eltalálta őket, és a fizetésük kicsi egy boss fizetéséhez képest.
 - **Egy boss fizetése úgy van megszabva, hogy felülmúlja a körülötte lévő idegeneket.** Egy perc harc egy Pirate Bossszal, egy Boss Phantasmmal vagy egy Boss Goombával többet fizet, mint egy perc harc egy Goombah ellen, egy perc harc a Dormant-rajjal vagy egy Boss Crystalysszal pedig többet, mint egy perc harc egy Crystalys ellen; a Boss Seeker pontosan tíz Seekert fizet.
 - **A Dormant Swamp idegenei** (a Slumbering Void, az Inert Mass és az Unwakened) úgy fizetnek, mint egy főellenség, a sebzés szerint, és PvE-pontokat adnak a rangsorodhoz; a számaik itt vannak: [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

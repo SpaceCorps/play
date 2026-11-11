@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Excavadora gigante -->
 # Excavadora gigante {#giant-excavator}
 
@@ -120,6 +120,7 @@ La minería añade calor segundo a segundo. El calor es **acumulativo y nunca se
 
 <!-- excavator-radiation:end -->
 
+- **Tecnología de radiación.** Una habilidad de piloto que baja la dosis en los círculos igual que en el agujero negro, hasta 0,40 de ella en el nivel 100; los círculos y los tiempos no cambian.
 - **El aviso.** Dos veces antes del sobrecalentamiento (los tiempos están en la lista de arriba) se avisa al mapa, una nave dentro de los círculos ve una advertencia y los círculos se dibujan en el suelo durante el vuelo y en el minimapa. Cuando irradian, los círculos son rojos y el indicador de Radiación muestra la dosis.
 - **Salir.** Toda nave de serie puede salir desde el borde del panel o desde la caja más lejana que quede, salvo la Ironclad, que es lenta: sale durante el aviso, o no sale. No te quedes sobre una caja cuando se acabe el calor.
 - **Botín en los círculos.** Las cajas soltadas antes del sobrecalentamiento se quedan en la radiación: una caja que está allí cuando empieza se recoge al precio de la dosis.

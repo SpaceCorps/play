@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Hüllenpanzerung -->
 # Hüllenpanzerung {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Gegenstand | Hinzugefügte Hülle | Woher er kommt |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5.000 | Shop, 5.000 Thulium |
-| **Hull Plating II** | 10.000 | Montage, aus einer Hull Plating I |
-| **Hull Plating III** | 15.000 | Montage, aus einer Hull Plating II |
+| **Hull Plating I** | 8.000 | Shop, 5.000 Thulium |
+| **Hull Plating II** | 15.000 | Montage, aus einer Hull Plating I |
+| **Hull Plating III** | 25.000 | Montage, aus einer Hull Plating II |
 
 Hull Plating I wird gekauft. **II und III sind Aufwertungen**: Die Montage verbraucht eine Panzerung der Stufe darunter (lose in deinem Inventar) und verlangt Thulium, Materialien und **Dark Matter Plates**, 5 für die II und 8 für die III, wo die letzte Stufe jedes anderen Ausrüstungsstücks 4 und eine Ancient Control Unit verlangt. Jede braucht zuerst ihre Technologie, im Hull-Plating-Baum der Seite [Forschung](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 Tag und 25 Dark Matter für die II, 2 Tage und 40 für die III, zusätzlich zur Technologie der Dark Matter Plate selbst. Der Baum oben zeigt die Preise, die Materialien und die Zeiten.
 
-Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe und den Bonus der verbrauchten Panzerung. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Ewig fügt bis zu 17.250 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
+Die [Schmiede](/wiki/06-Items/Forge.md) nimmt jede Panzerung an, und eine Aufwertung behält die Schmiedestufe und den Bonus der verbrauchten Panzerung. Eine Panzerung hat nur einen Wert, ihre Hülle, und fasst deshalb einen Bonus, +2 % bis +15 % je nach Stufe: Eine Hull Plating III auf Ewig fügt bis zu 28.750 hinzu. Die [Auktion](/wiki/03-Mechanics/Auction.md) listet Hull Plating II und III, nie Hull Plating I, die der Shop verkauft.
 
 ## Panzerungs-Slots {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Hüllenpanzerung passt nur in **Panzerungs-Slots**, eine eigene Art von Slot, di
 
 | Schiff | Panzerungs-Slots | Ein voller Satz Hull Plating III fügt hinzu |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75.000 |
-| **Storm** | 7 | 105.000 |
-| **Ironclad** | 15 | 225.000 |
-| **Wraith** | 10 | 150.000 |
+| **Paragon** | 5 | 125.000 |
+| **Storm** | 7 | 175.000 |
+| **Ironclad** | 15 | 375.000 |
+| **Wraith** | 10 | 250.000 |
 
 - **Anfangs alle gesperrt.** Ein Slot öffnet sich, wenn du ihn im Skylab erforschst: eine Technologie für jeden Slot, 1 Stunde und 10 Dark Matter, der Reihe nach vom ersten an. Die Ansicht [Forschung](/wiki/03-Mechanics/Research.md#ship-technologies) zeigt die Slots eines Schiffs als eine Karte mit einem Punkt für jeden.
 - **Eine Schiffsart, nicht ein Schiff.** Die Slots, die du für die Paragon geöffnet hast, sind auch an jedem Paragon-Design offen ([Schiffsdesigns](/wiki/03-Mechanics/Ship-Designs.md)). Eine Technologie gehört dir für immer: Der Wipe lässt sie dir.

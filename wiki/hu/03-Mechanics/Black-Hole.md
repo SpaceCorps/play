@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Feketelyuk -->
 # A feketelyuk {#the-black-hole}
 
@@ -65,12 +65,13 @@ Két sor között a sebzés egyenes vonalban nő. Életerőpontban másodpercenk
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
 | Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
 | Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
+| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
 
 - A **pajzs veszi fel először**, utána a hajótest. Nem találat: a pajzs elnyelése nem számít bele, és kitérni sem lehet előle.
 - A sugárzás **elszenvedett sebzésnek** számít: a pajzsod nem töltődik, a Repair Drone leáll („Javítás megszakítva: sugárzás.”), és nem is indítható, a biztonságos zóna pedig az utolsó adag után még 5 másodpercig nem védene meg.
 - A boosterek és a fejlesztések az összesített életerőd nagyságát módosítják, nem azt, mennyi ideig bírod: a sebzés ennek egy hányada.
 - Semmi sem tesz egy hajót immunissá. A sugárzás nem találat, ezért nincs, ami felszívná; de a képességek tovább működnek benne: a Shield Surge tovább állítja vissza a pajzsodat, az Emergency Repair pedig tovább gyógyítja a hajótestedet a tíz másodpercük alatt (ezek nem a természetes javítások, amelyeket az adag leállít). Az álcázás nem rejti el előle a hajót.
+- A **Sugárzástechnika**, egy pilótaképesség, csökkenti az adagot: a teljes értékednek az a másodpercenkénti része, amelyet elveszítesz, egyenes vonalban csökken az 1. szint teljes értékéről a 100. szinten annak 0,40-szeresére, és a mérő azt az adagot mutatja, amelyet valóban kapsz.
 
 ## A vonzás {#the-pull}
 
@@ -97,20 +98,20 @@ A **nincs visszaút pontja** a hajód számára az a távolság, ahol a vonzás 
 
 | Hajó (alap felszerelés) | Sebesség | A nincs visszaút pontja |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1 826 |
-| Protos | 188 | 1 462 |
-| Kitefin | 202 | 1 388 |
-| Nomad | 221 | 1 294 |
-| Wraith | 223 | 1 281 |
-| Ostirion | 231 | 1 220 |
-| Paragon | 242 | 1 141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1 755 |
+| Protos | 194 | 1 431 |
+| Kitefin | 211 | 1 346 |
+| Nomad | 229 | 1 233 |
+| Wraith | 235 | 1 189 |
+| Ostirion | 240 | 1 160 |
+| Paragon | 252 | 1 071 |
+| Storm | 284 | 906 |
 
 A hajódizájn megváltoztatja a hajója sebességét, és vele a nincs visszaút pontját is: a DUMA lassabb az Ironcladnél, a NOTSUM gyorsabb a Stormnál.
 
 A 272 egység/mp-nél gyorsabb hajónál (futó összeállítás, vagy működő Afterburnerrel repülő alap Wraith) a nincs visszaút pontja ott van, ahol mindig is volt: 300-as sebességnél ez 885, 432-nél 747.
 
-Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 46,8-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 500 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tizenöt, kettővel 22,5, hárommal harminc másodpercig; az Afterburner III egy alap Protosét 1 462-ről 994-re, egy alap Wraithét 1 281-ről 869-ra viszi). Nagyjából 440 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,46); egy bűvöletlen, sebességre épített hajó (Engine III-ak és Adaptive Core III-ak három-három Impulse Thruster IV-gyel) Afterburner III-mal a legjobb esetben is csak 475 egységen kívülről jut ki.
+Építs a sebességre, és mélyebbről is kijuthatsz; pakold tele nehéz pajzsokkal, és nem (egy Ironclad, a leglassabb hajó, amelynek mind a 14 foglalatában Heavy Shield Core van, 46,8-es sebességgel repül, és a nincs visszaút pontja nagyjából 2 500 egységnél van). Csak egy sebességlöket fordíthat vissza egy hajót közvetlenül a nincs visszaút pontján belülről: a működő [Afterburner](/wiki/03-Mechanics/Abilities.md) számít, és amíg fut, mélyebbre tolja a nincs visszaút pontját (egy hajtóművel tizenöt, kettővel 22,5, hárommal harminc másodpercig; az Afterburner III egy alap Protosét 1 431-ről 928-re, egy alap Wraithét 1 189-ről 847-ra viszi). Nagyjából 410 egységen belülről semmi sem jut ki, még egy sebességre épített hajó sem, amelynek minden sebességértéke a csúcsig van bűvölve, és a legerősebb löket fut (a korlátig bűvölt Afterburner III, ×1,46); egy bűvöletlen, sebességre épített hajó (Engine III-ak három-három Momentum Thruster IV-gyel és Adaptive Core III-ak három-három Impulse Thruster IV-gyel) Afterburner III-mal a legjobb esetben is csak 453 egységen kívülről jut ki.
 
 A zuhanás a nincs visszaút pontjától lassan indul: egy hajó, amely néhány egységgel belülre került, teljes tolóerővel is húsz másodperc vagy több alatt húzódik be, aztán egyre gyorsabban. A vonzás nem repülés: egy megtett távolságba sem számít bele.
 

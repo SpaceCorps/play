@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Gövde Kaplaması -->
 # Gövde Kaplaması {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Eşya | Eklediği gövde | Nereden gelir |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5.000 | Mağaza, 5.000 Thulium |
-| **Hull Plating II** | 10.000 | Montaj, bir Hull Plating I kullanılarak |
-| **Hull Plating III** | 15.000 | Montaj, bir Hull Plating II kullanılarak |
+| **Hull Plating I** | 8.000 | Mağaza, 5.000 Thulium |
+| **Hull Plating II** | 15.000 | Montaj, bir Hull Plating I kullanılarak |
+| **Hull Plating III** | 25.000 | Montaj, bir Hull Plating II kullanılarak |
 
 Hull Plating I satın alınır. **II ve III yükseltmedir**: Montaj bir alt kademeden bir kaplamayı harcar (envanterinde boşta olan) ve Thulium, malzeme ve **Dark Matter Plate** ister: II için 5, III için 8; başka her ekipman parçasının son kademesi ise 4 tane ve bir Ancient Control Unit ister. Her birinin önce teknolojisi gerekir; bu teknoloji [Araştırma](/wiki/03-Mechanics/Research.md#tree-hull-plating) sayfasındaki Gövde Kaplaması ağacındadır: II için 1 gün ve 25 Dark Matter, III için 2 gün ve 40, Dark Matter Plate teknolojisine ek olarak. Yukarıdaki ağaç fiyatları, malzemeleri ve süreleri gösterir.
 
-[Demirhane](/wiki/06-Items/Forge.md) her kaplamayı kabul eder; bir yükseltme, harcadığı kaplamanın Demirhane kademesini ve bonusunu korur. Bir kaplamanın tek bir özelliği vardır, gövdesi; bu yüzden tek bir bonus taşır, kademeye göre +%2 ile +%15 arası: Ebedi kademedeki bir Hull Plating III en fazla 17.250 gövde puanı ekler. [Açık Artırma](/wiki/03-Mechanics/Auction.md) yalnızca Hull Plating II ve Hull Plating III eşyalarını listeler; Mağaza’nın sattığı Hull Plating I eşyasını asla.
+[Demirhane](/wiki/06-Items/Forge.md) her kaplamayı kabul eder; bir yükseltme, harcadığı kaplamanın Demirhane kademesini ve bonusunu korur. Bir kaplamanın tek bir özelliği vardır, gövdesi; bu yüzden tek bir bonus taşır, kademeye göre +%2 ile +%15 arası: Ebedi kademedeki bir Hull Plating III en fazla 28.750 gövde puanı ekler. [Açık Artırma](/wiki/03-Mechanics/Auction.md) yalnızca Hull Plating II ve Hull Plating III eşyalarını listeler; Mağaza’nın sattığı Hull Plating I eşyasını asla.
 
 ## Gövde plakası yuvaları {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Gövde kaplaması yalnızca **gövde plakası yuvalarına** takılır; Montaj’
 
 | Gemi | Gövde plakası yuvaları | Tam bir Hull Plating III seti şunu ekler |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75.000 |
-| **Storm** | 7 | 105.000 |
-| **Ironclad** | 15 | 225.000 |
-| **Wraith** | 10 | 150.000 |
+| **Paragon** | 5 | 125.000 |
+| **Storm** | 7 | 175.000 |
+| **Ironclad** | 15 | 375.000 |
+| **Wraith** | 10 | 250.000 |
 
 - **Başta hepsi kilitli.** Bir yuva, Skylab’da araştırdığında açılır: her yuva için bir teknoloji, 1 saat ve 10 Dark Matter, ilkinden başlayarak sırayla. [Araştırma](/wiki/03-Mechanics/Research.md#ship-technologies) görünümü bir geminin yuvalarını, her biri için bir nokta bulunan tek bir kart olarak gösterir.
 - **Tek bir gemi değil, bir gemi türü.** Paragon için açtığın yuvalar her Paragon tasarımında da açıktır ([Gemi tasarımları](/wiki/03-Mechanics/Ship-Designs.md)). Bir teknoloji kalıcı olarak senindir: sıfırlama onu korur.

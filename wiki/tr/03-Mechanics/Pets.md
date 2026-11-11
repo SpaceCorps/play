@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -17,7 +17,7 @@ Bir **P.E.T.** (Personal Escort Technology), geminin yanında uçan ve ona bonus
 ## Bir dakikada {#in-one-minute}
 
 - **Bir P.E.T. Station elde et.** Araştırma Merkezi’nde bir **P.E.T. Station** araştır ve Montaj’da üret. Üç seviyesi vardır; **2, 3 ve 5** P.E.T. için yer sağlar. Uçtuğun geminin bir ekstra yuvasına tak. Beşik, o olmadan da çalışır: P.E.T. Station sahibi olmadan da P.E.T. üretebilirsin.
-- **Parça bul.** İkinci kademeden itibaren asteroit kır: bir **Regular Cluster Chunk**, bir **Mythical Cluster Chunk** ya da bir **Legendary Cluster Chunk**, en çok hasarı veren tarafın cevher parçasında bütün olarak kalabilir.
+- **Parça bul.** Asteroit kır, ne kadar büyükse o kadar iyi: bir **Regular Cluster Chunk**, bir **Mythical Cluster Chunk** ya da bir **Legendary Cluster Chunk**, en çok hasarı veren tarafın cevher parçasında bütün olarak kalabilir.
 - **Yumurtadan çıkar.** Hangarın **P.E.T.** görünümünde Beşik, her P.E.T. için bir parça ve bir Orvium Reinforced Plate alır ve kuyruğunda dört yer vardır. Parçanın derecesi P.E.T.’in kaç bonusu olacağını belirler: **1, 2 veya 3**.
 - **Yanaştır ve uç.** İstediğin P.E.T.’leri geminin park halindeyken yanaştır. Station takılı ve **AÇIK** iken bonuslarını eklerler ve sen avlanırken, madencilik yaparken ve uçarken deneyim kazanırlar, 20. seviyeye kadar.
 - **AÇIK ve KAPALI.** Anahtar, kısayol çubuğundaki **PET** yuvasıdır ve uçuşta çalışır; değişiklik hemen sayılır: **KAPALI** iken P.E.T.’lerin bonus vermez, deneyim kazanmaz ve çalışmaz; **AÇIK** olunca geri gelirler. Hiç değiştirmediğin bir Station açık sayılır.
@@ -37,7 +37,7 @@ Hangarın P.E.T. görünümü hangi Station eşyasına sahip olduğunu, nerede t
 
 ## Cluster Chunk {#cluster-chunks}
 
-Cluster Chunk, kayaların taşıdığı kristal kümeleridir. Üç derecesi vardır, **Normal**, **Mitik** ve **Efsanevi**, ve bir kayanın kırılması her birinden en çok bir tane bırakır. [Kayaların](/wiki/03-Mechanics/Asteroid-Mining.md) 2. kademesinden itibaren bir kırılma Normal bir parça, 3. kademeden itibaren Mitik, 4. kademeden itibaren Efsanevi bir parça bırakabilir; en sık Motherlode verir. Olasılıklar [Kaynaklar](/wiki/06-Items/Resources.md#regular-cluster-chunk) sayfasındadır. Parça, kırılmanın ödemesinin bir parçası değildir: cevher parçasında bütün olarak en çok hasar veren tarafa gider ve hiçbir şans bonusu, bir P.E.T.’inki dahil, bu olasılığı değiştirmez.
+Cluster Chunk, kayaların taşıdığı kristal kümeleridir. Üç derecesi vardır, **Normal**, **Mitik** ve **Efsanevi**, ve bir kayanın kırılması her birinden en çok bir tane bırakır. Herhangi bir [kayanın](/wiki/03-Mechanics/Asteroid-Mining.md) kırılması Normal bir parça, 3. kademeden itibaren Mitik, 4. kademeden itibaren Efsanevi bir parça bırakabilir; en sık Motherlode verir. Olasılıklar [Kaynaklar](/wiki/06-Items/Resources.md#regular-cluster-chunk) sayfasındadır. Parça, kırılmanın ödemesinin bir parçası değildir: cevher parçasında bütün olarak en çok hasar veren tarafa gider ve hiçbir şans bonusu, bir P.E.T.’inki dahil, bu olasılığı değiştirmez.
 
 Bir Cluster Chunk bir kaynaktır: satılamaz ve [Nakliye Deposu](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)’nda taşımadıkça sıfırlamada silinir.
 

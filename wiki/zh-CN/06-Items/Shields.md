@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾与防御 {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 **Heavy Shield Core** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Basic Shield Core 制成，另需 4,000 Thulium、30 个 Cataclysite、12 块 Reinforced Hull Plate、2 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。它沿用被消耗核心的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把 Basic Shield Core 从你的舰船上取下（并把其中的电池取出）：已装备或装有电池的核心不会被消耗。
 
-**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 55%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **85%**，这是一艘舰船开箱即有的最高值。有三项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）、锻造炉的吸收率加成，以及飞行员研究 Field Theory（+4、+7 或 +10 点）。重置点数的来源（每次重置最多 1,105 点，并在每次重置时重新开始）在第一次重置里就可以买下这 100 级中的 44 级（+4.4 点），配上完全锻造的永恒套装，约为 **100%**，加上 Field Theory III 约为 **110%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
+**吸收率**是你的护盾承受每次攻击的份额，其余由船体承受。单靠护盾本身是 **45% 到 55%**，其余由它的电池补上：最强的护盾配最强的电池（一个 Heavy Shield Core 加三个 Absorption Shield Cell IV）是 **91%**，这是一艘舰船开箱即有的最高值。有三项永久提升可以在此基础上叠加：赛季商店的 Shield Absorbance Boost（每级 +0.1 点，共 100 级，每级 25 重置点数）、锻造炉的吸收率加成，以及飞行员研究 Field Theory（+4、+7 或 +10 点）。重置点数的来源（每次重置最多 1,105 点，并在每次重置时重新开始）在第一次重置里就可以买下这 100 级中的 44 级（+4.4 点），配上完全锻造的永恒套装，约为 **106%**，加上 Field Theory III 约为 **116%**。不过这项属性并不以 100% 为上限：攻击方的*护盾穿透*会从中扣除，所以一艘舰船超出 100% 的部分，就是它抵御穿透的余量。见[护盾机制](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)。
 
 ---
 
@@ -56,9 +56,9 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 | 名称 | 稀有度 | 护盾加成 % | 速度加成 % | 槽位 | 特殊效果 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | 劣质 | +4% | +1.2% | 1 | — | 100,000 信用点 |
-| **Adaptive Core II** | 普通 | +6.4% | +1.6% | 2 | — | 仅可制造 |
-| **Adaptive Core III** | 稀有 | +8% | +2% | 3 | — | 仅可制造 |
+| **Adaptive Core I** | 劣质 | +4% | +1.5% | 1 | — | 100,000 信用点 |
+| **Adaptive Core II** | 普通 | +6.4% | +2.5% | 2 | — | 仅可制造 |
+| **Adaptive Core III** | 稀有 | +8% | +3% | 3 | — | 仅可制造 |
 
 **Adaptive Core II** 在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中由一个 Adaptive Core I 制成，另需 2,000 Thulium、60 个 Ship Fragment、1 个 Power Core 和 4 块 Velkonite Reinforced Plate。**Adaptive Core III** 在装配站中由一个 Adaptive Core II 制成，另需 4,000 Thulium、110 个 Ship Fragment、5 个 Power Core、1 个 Ancient Control Unit 和 4 块 Dark Matter Plate（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。两者都沿用被消耗核心的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。请先把要消耗的核心从你的舰船上取下（并把其中的推进器和电池取出）：已装备或带有模块的核心不会被消耗。
 
@@ -66,17 +66,17 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 ## 护盾电池 {#shield-cells}
 
-护盾电池安装在护盾核心或自适应核心内部（数量等于核心的槽位数），用来强化该核心。在护盾核心中，它们还会以点数提升其吸收率，从而提高你的护盾承受每次攻击的份额。电池分为两个系列，每个系列有四阶：**Capacity Shield Cell** 提供最多的护盾和充能，**Absorption Shield Cell** 提供最多的吸收率（每一阶都是同阶 Capacity 的两倍吸收率、一半护盾和充能）。Capacity 适合护盾决定胜负的舰船，Absorption 适合船体决定胜负的舰船。当一个核心的所有槽位都装满同一种电池时：Light Shield Core（1 个槽位）是 47% 到 55%，Basic Shield Core（2 个槽位）是 52% 到 68%，Heavy Shield Core（3 个槽位）是 56% 到 80%，范围从 I 阶 Capacity 电池到 IV 阶 Absorption 电池。卸下核心，或把它作为[锻造炉](/wiki/06-Items/Forge.md)合并的素材消耗掉，其中的电池会回到物品栏。
+护盾电池安装在护盾核心或自适应核心内部（数量等于核心的槽位数），用来强化该核心。在护盾核心中，它们还会以点数提升其吸收率，从而提高你的护盾承受每次攻击的份额。电池分为两个系列，每个系列有四阶：**Capacity Shield Cell** 提供最多的护盾和充能，**Absorption Shield Cell** 提供最多的吸收率（每一阶都是同阶 Capacity 的两倍吸收率、一半护盾和充能）。Capacity 适合护盾决定胜负的舰船，Absorption 适合船体决定胜负的舰船。当一个核心的所有槽位都装满同一种电池时：Light Shield Core（1 个槽位）是 48% 到 57%，Basic Shield Core（2 个槽位）是 56% 到 74%，Heavy Shield Core（3 个槽位）是 64% 到 91%，范围从 I 阶 Capacity 电池到 IV 阶 Absorption 电池。卸下核心，或把它作为[锻造炉](/wiki/06-Items/Forge.md)合并的素材消耗掉，其中的电池会回到物品栏。
 
 | 名称 | 稀有度 | 容量提升 | 充能提升 | 吸收率提升 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | 劣质 | +3,000 | +250/秒 | +2% | 30,000 信用点 |
-| **Capacity Shield Cell II** | 普通 | +6,000 | +500/秒 | +3% | 仅可制造 |
-| **Capacity Shield Cell III** | 稀有 | +9,000 | +750/秒 | +4% | 仅可制造 |
-| **Capacity Shield Cell IV** | 史诗 | +12,000 | +1,000/秒 | +5% | 仅可制造 |
-| **Absorption Shield Cell I** | 劣质 | +1,500 | +125/秒 | +4% | 30,000 信用点 |
-| **Absorption Shield Cell II** | 普通 | +3,000 | +250/秒 | +6% | 仅可制造 |
-| **Absorption Shield Cell III** | 稀有 | +4,500 | +375/秒 | +8% | 仅可制造 |
-| **Absorption Shield Cell IV** | 史诗 | +6,000 | +500/秒 | +10% | 仅可制造 |
+| **Capacity Shield Cell I** | 劣质 | +4,000 | +250/秒 | +3% | 30,000 信用点 |
+| **Capacity Shield Cell II** | 普通 | +8,000 | +500/秒 | +4% | 仅可制造 |
+| **Capacity Shield Cell III** | 稀有 | +12,000 | +750/秒 | +5% | 仅可制造 |
+| **Capacity Shield Cell IV** | 史诗 | +16,000 | +1,000/秒 | +6% | 仅可制造 |
+| **Absorption Shield Cell I** | 劣质 | +2,000 | +125/秒 | +6% | 30,000 信用点 |
+| **Absorption Shield Cell II** | 普通 | +4,000 | +250/秒 | +8% | 仅可制造 |
+| **Absorption Shield Cell III** | 稀有 | +6,000 | +375/秒 | +10% | 仅可制造 |
+| **Absorption Shield Cell IV** | 史诗 | +8,000 | +500/秒 | +12% | 仅可制造 |
 
 每个系列的 I 阶以 30,000 信用点出售。II 至 IV 阶在[装配站](/wiki/06-Items/Overview.md#upgrading-modules)中制成，每一阶都由同系列低一阶的电池升级而来（Capacity Shield Cell II 由一个 Capacity Shield Cell I 制成，III 由 II，IV 由 III），另需 Thulium、掉落物和板：II 阶或 III 阶需要来自你 Skylab 的 4 块 Velkonite Reinforced Plate，IV 阶需要 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit。电池不会更换系列：Capacity 还是 Absorption，在购买 I 阶时选择。新电池沿用被消耗电池的附魔等级和加成（[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。电池不能装进[技能槽位](/wiki/03-Mechanics/Abilities.md)；它们属于护盾和自适应核心的内部。

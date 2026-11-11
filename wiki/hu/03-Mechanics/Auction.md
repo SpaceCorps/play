@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -134,6 +134,8 @@ Egy hirdetésnek **letétje** van, amelyet hirdetéskor kell kifizetni, és soha
 | Helios Beam: 12. szint, 504 óra, a szezon utolsó napjaiban | 2 500 000 kredit | 0 kredit | 0 kredit | 2 500 000 kredit |
 
 <!-- market-fees:end -->
+
+A **Commerce** képességed akár a felével csökkenti a hirdetéseid és vételi megbízásaid letétjét (felfelé kerekítve, soha nem nullára). Az adó mindenkinek ugyanannyi, a fenti táblázat pedig egy első szintű pilóta értékét mutatja. Minden eladás és minden teljesített vételi megbízás edzi a képességet, az eladónál és a vevőnél is.
 
 ## Vásárlás {#buying}
 
@@ -284,8 +286,8 @@ A wipe-kor **minden nyitott hirdetés visszakerül az eladójához** laza tárgy
 Az Aukció arra való, hogy kereskedj azzal, amit megszerzel, és őszinte a korlátairól.
 
 - **A zsákmány eladása nem grind.** A nyers idegenzsákmány csak erőforrás, és annak 0,4–0,9 százalékát éri, amit ugyanaz az 5. szintű vadászóra a lelövésekért kifizet. Amit a Piac egy új pilótának ad, az a felszerelés, amelyet a küldetései kifizetnek, és amelyre nincs szüksége (egyszer), a Kihívás-küldetések erőforrásai, a rajvezérek dobozai és amit maga gyárt.
-- **Nincs kereskedő.** A vételi megbízás egy pilótáé, és a saját pénzével van fedezve: a játék semmilyen áron nem vesz tőled. A vételi megbízások, amelyekben a pilóta megmondja, mit akar venni és mennyiért, az eladónak olyan vevőt adnak, aki mindig ott van, a kézművesnek pedig, aki anyagot vesz, a Gyártásban felszerelést készít, és eladja, módot arra, hogy megrendelje őket; egy megbízás várhat is egy eladóra, vagy lejárhat, és akkor a letéte megsemmisül. Az első ponton nem változtatnak.
-- **A Bolt felszerelése nem továbbeladásra való.** A Boltban vásárolt felszerelés nem adható el újra: idetartozik a Quantum Laser I és II, a Light és a Basic Shield Core, az Engine I és II, a cellák és fúvókák első fokozata, a Bolt által árult amp-ok és a vásárolt lőszer. Egy pilóta egyetlen eladható Quantum Laser II-je az, amelyet egy küldetés egyszer kifizet.
+- **Nincs kereskedő.** A vételi megbízás egy pilótáé, és a saját pénzével van fedezve: az Aukció semmilyen áron nem vesz tőled. A vételi megbízások, amelyekben a pilóta megmondja, mit akar venni és mennyiért, az eladónak olyan vevőt adnak, aki mindig ott van, a kézművesnek pedig, aki anyagot vesz, a Gyártásban felszerelést készít, és eladja, módot arra, hogy megrendelje őket; egy megbízás várhat is egy eladóra, vagy lejárhat, és akkor a letéte megsemmisül. Az első ponton nem változtatnak.
+- **A Bolt felszerelése nem továbbeladásra való.** A Boltban vásárolt felszerelés nem adható el újra az Aukción: idetartozik a Quantum Laser I és II, a Light és a Basic Shield Core, az Engine I és II, a cellák és fúvókák első fokozata, a Bolt által árult amp-ok és a vásárolt lőszer. Egy pilóta egyetlen eladható Quantum Laser II-je az, amelyet egy küldetés egyszer kifizet. Maga a Bolt visszaveszi azokat az egységeket, amelyeket benne vettél, és még nincsenek beépítve, az árának egy törtrészéért (egy kicsivel többért a **Commerce** képességeddel), és semmi mást: amit megszereztél, legyártottál, más pilótától vettél vagy ajándékba kaptál, azt nem veszi vissza.
 - **A lemezek küldetésekből jönnek.** A Piacon lévő Velkonite és Orvium Reinforced Plate-ek azok, amelyeket a Kihívás-küldetések fizetnek ki. A Kovácsműhely lemezei kimaradnak, különben ők lennének a Piac legnagyobb árucikke.
 
 Ha egy hirdetés furcsának tűnik, jelezd a szokásos módon: a játék adminisztrátorai felfüggeszthetnek egy hirdetést, visszaadhatják, szüneteltethetik az Aukciót vagy kitilthatnak belőle egy pilótát, és minden ilyen műveletet rögzítenek.

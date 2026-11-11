@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Kargo -->
 # Kargo kutuları {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Yok edilen uzaylılar ganimetlerini uzayda parlayan kargo kutuları olarak bıra
 - **Şirket pilotları** yok edildiklerinde, onları kim ya da ne yok ederse etsin, kutu bırakmaz. Bkz. [Şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md).
 - **Oyuncu gemileri** yok edildiklerinde, onları kim ya da ne yok ederse etsin, ne enkaz ne de kutu bırakır; pilotun envanterinden de hiçbir şey alınmaz.
 - **Kara delik**, içine ateşlenen her N.I.K.E. roketi için bölgesinin kenarına **Dark Matter** kutuları bırakır (bkz. [Kara delik](/wiki/03-Mechanics/Black-Hole.md)). Deliğin halkasının içinde duran tek kutu türü bunlardır.
-- **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil.
+- **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri (Tesseract hariç) ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil.
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** böyle bir kutu bırakmaz: hasarın %5’ini veya fazlasını veren her pilot, ganimetten payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
+- **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** da enkazında kutu bırakmaz: öldürülmesinin ödediği her pilot, Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit ve Dark Matter’dan payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
 - **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir. Parça bir kutu gibi toplanır; önce onu kazanan pilotlara ayrılır, sonra bir kutuda olduğu gibi herkese açılır.
 
 Bir şirket pilotunun bitirdiği uzaylı, ganimetini öldürmenin sayıldığı pilot için bırakır (sahiplenmeyi elinde tutan pilot, yoksa ona karşı savaşan, şirketinden olan pilot); bir şirket pilotunun tek başına savaştığı uzaylı ise hiçbir şey bırakmaz, çünkü şirket pilotları asla toplamaz.
@@ -42,14 +43,14 @@ Kutunun ışıkları, içindeki en nadir eşyanın rengini alır: sıradan ganim
 
 ## Özel kutular {#private-boxes}
 
-[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ganimeti tek bir pilot için tek bir kutu değildir: **hasarın en az %5’ini veren her pilot kendine ait bir kutu alır**; kutu, o pilotun payı için ayrıca belirlenir (hasarın %20’si için her miktarın yaklaşık beşte biri; [ayrıntılar](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ganimeti tek bir pilot için tek bir kutu değildir: **hasarın en az %5’ini veren her pilot kendine ait bir kutu alır**; kutu, o pilotun payı için ayrıca belirlenir (hasarın %20’si için her miktarın yaklaşık beşte biri; [ayrıntılar](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) ganimeti de aynı şekilde işler: öldürülmesinin ödediği her pilot bir tane alır.
 
 - **Onu yalnızca sen görürsün ve yalnızca sen alabilirsin.** Klanın ve grubun onu görmez ve alamaz; başkaları için kutu yok gibidir. Senin ekranında altında ince bir halkayla görünür.
-- **Öldürmeden sonra 10 dakika durur** ve bu sürenin tamamında senindir: 30 saniyelik bir bekleme yoktur. Sonra her kutu gibi sürüklenip gider. Warden yok edildiğinde Oyun Günlüğü sana ganimetten payını gösterir.
+- **Öldürmeden sonra 10 dakika durur** ve bu sürenin tamamında senindir: 30 saniyelik bir bekleme yoktur. Sonra her kutu gibi sürüklenip gider. Warden ya da Tesseract yok edildiğinde Oyun Günlüğü sana ganimetten payını gösterir.
 - **Başka kutuları dışarı itmez.** Özel kutuların, bir haritanın 64’ünün yanında kendilerine ait bir havuzu vardır (en fazla 32); bu yüzden bir Warden öldürmek başka hiçbir kutunun yerini almaz ve dolu bir harita sana kendi kutunu asla kaybettirmez.
 - Toplama her kutuda olduğu gibidir ([yukarıda](#collecting)): gemin ona uçar ve toplama yarım saniye sürer. Retriever birimi senin özel kutularını da alır, başkasınınkine hiç dokunmaz.
 
 ## Boosterlar {#boosters}
 
-- **Loot Luck Booster** (ayrıca kalıcı Luck Boost güçlendirmesi ve yanaştırdığın [P.E.T.’lerin](/wiki/03-Mechanics/Pets.md) şansı), öldürmeyi yaptığında her ganimet kaleminin düşme şansını artırır.
-- **Resource Magnet Booster**, öldürmeyi kim yapmış olursa olsun, elinle ya da Retriever birimiyle topladığın her kutudaki kaynaklara **%25** ekler. Dark Matter bunun dışındadır: ona hiçbir şey eklenmez, bu yüzden beş N.I.K.E. herkes için on Dark Matter eder.
+- **Loot Luck Booster** (ayrıca kalıcı Luck Boost güçlendirmesi ve yanaştırdığın [P.E.T.’lerin](/wiki/03-Mechanics/Pets.md) şansı), öldürmeyi yaptığında her ganimet kaleminin düşme şansını artırır. [İçgüdü](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) becerin de bu şansa eklenir, boosterınkinin üstüne.
+- **Resource Magnet Booster**, öldürmeyi kim yapmış olursa olsun, elinle ya da Retriever birimiyle topladığın her kutudaki kaynaklara **%25** ekler. Dark Matter bunun dışındadır: Magnet ona hiçbir şey eklemez. Ona yalnızca kendi Antimatter yeteneğin ekleme yapar (100. seviyede en çok %25); o olmadan beş N.I.K.E. on Dark Matter eder.

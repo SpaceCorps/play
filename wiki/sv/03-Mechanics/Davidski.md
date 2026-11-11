@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av 
 | Extra | en Repair Drone IV, en Auto-Repair CPU och en Base CPU II |
 | Skrov | 15 Hull Plating III |
 
-På Alphas styrka har han **858 750 skrov**, **1 309 534 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 86,3 % absorbering, hastighet 98, räckvidd 945 och en salva på **4 324 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,2 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tretton minuters ihållande eld, tio av dem omkring 77 sekunder.
+På Alphas styrka har han **931 250 skrov**, **1 559 486 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 90,9 % absorbering, hastighet 102, räckvidd 945 och en salva på **4 440 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,5 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring fjorton minuters ihållande eld, tio av dem omkring 86 sekunder.
 
 ## Att bekämpa honom {#fighting-him}
 
@@ -38,10 +38,10 @@ Han betalar som en boss, efter skadan varje pilot gjorde (en andel under 5 % av 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Krediter | 1 590 000 | 3 180 000 | 4 770 000 |
-| Thulium | 4 275 | 8 550 | 12 825 |
-| Erfarenhet | 255 000 | 510 000 | 765 000 |
-| Heder | 1 110 | 2 220 | 3 330 |
+| Krediter | 1 830 000 | 3 660 000 | 5 490 000 |
+| Thulium | 4 875 | 9 750 | 14 625 |
+| Erfarenhet | 292 500 | 585 000 | 877 500 |
+| Heder | 1 275 | 2 550 | 3 825 |
 
 Lådan innehåller 40 till 60 Ship Fragments, 10 till 20 Power Cores och 3 000 till 6 000 Advanced Plasma, och ibland Ancient Control Units eller Dark Matter. En nedskjutning ger **inga PvE-poäng** i din ranking (han finns i ingen ranking, se nedan); erfarenheten den ger räknas som all annan erfarenhet, och nedskjutningen räknas under namnet Davidski i din nedskjutningsstatistik.
 

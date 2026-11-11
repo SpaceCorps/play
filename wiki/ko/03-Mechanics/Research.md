@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97e5ffd31b68d936 -->
+<!-- wiki-i18n source: 27da9216daf781fe -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -79,6 +79,8 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 마지막 열은 부스트 없이 연구 1시간을 돌리는 데 필요한 개수이며 올림한 값입니다. 부스트를 쓰면 2배가 필요합니다.
 
 <!-- research-fuel:end -->
+
+스킬 **Science**는 투입한 유닛마다의 과학을 늘리고, 탱크도 같은 수치로 과학을 셉니다. 위 표는 첫 레벨 파일럿의 수치입니다. 연구 센터가 완료하는 기술은 모두 이 스킬을 단련합니다.
 
 ## Thulium 부스트 {#the-thulium-boost}
 
@@ -284,9 +286,16 @@ Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 6048
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
-Rivet II => Rivet III
+Lancet III => Freeze Rocket
+Lancet III => EMP Rocket
+Lancet III => Toxic Rocket
+Lancet III => Marking Rocket
+Lancet III => Cooldown Rocket
+Rivet II => Rivet III => Shield Breaker
 Ember II => Ember III
-Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter II => Scatter III
+Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter III => Support Rocket
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
 ```
 
@@ -302,9 +311,12 @@ Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 sc
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
+Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
+Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
+Mine II => Mine III
 ```
 
 ### 방어 {#tree-defence}
@@ -524,30 +536,32 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Ember III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
 | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30분 | 1,800 | – |
 | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3시간 | 10,800 | – |
-| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
-| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
-| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6시간 | 21,600 | – |
-| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
-| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4시간 | 14,400 | – |
-| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | C | 8시간 | 28,800 | – |
+| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4시간 | 14,400 | – |
+| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4시간 | 14,400 | – |
+| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6시간 | 21,600 | – |
+| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4시간 | 14,400 | – |
+| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4시간 | 14,400 | – |
+| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | C | 8시간 | 28,800 | – |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | D | 1일 | 86,400 | 10 |
-| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6시간 | 21,600 | – |
+| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6시간 | 21,600 | – |
 | [Rocket Launcher II](/wiki/06-Items/Extras.md) | – | D | 2일 | 172,800 | – |
 | [Rocket Launcher III](/wiki/06-Items/Extras.md) | [Rocket Launcher II](/wiki/06-Items/Extras.md) | D | 4일 | 345,600 | – |
 | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | [Rocket Launcher III](/wiki/06-Items/Extras.md) | D | 7일 | 604,800 | – |
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10일 | 864,000 | – |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3시간 | 10,800 | – |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6시간 | 21,600 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30분~1시간 | 17 | 9시간 30분 | 34,200 | 0 |
-| B | 3시간~6시간 | 33 | 5일 2시간 | 439,200 | 0 |
+| B | 3시간~6시간 | 35 | 5일 11시간 | 471,600 | 0 |
 | C | 8시간~10시간 | 19 | 7일 18시간 | 669,600 | 95 |
 | D | 1일~10일 | 28 | 52일 | 4,492,800 | 329 |
-| 전체 |  | 97 | 65일 5시간 30분 | 5,635,800 | 424 |
+| 전체 |  | 99 | 65일 14시간 30분 | 5,668,200 | 424 |
 
-하나씩 차례로 연구하면 트리 전체에 65일 5시간 30분이 걸립니다. 부스트를 계속 켜 두면 32일 14시간 45분이 걸리며, 부스트 33개와 Thulium 165,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 65일 14시간 30분이 걸립니다. 부스트를 계속 켜 두면 32일 19시간 15분이 걸리며, 부스트 33개와 Thulium 165,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 
@@ -569,6 +583,8 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6시간 | – | 15,000 | 10분 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6시간 | – | 600 | 2분 |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10시간 | – | 20,000 | 15분 |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3시간 | – | 200 | 2분 |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6시간 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5분 |
 
 어느 것도 상점에서 팔지 않습니다. 기술을 연구한 뒤 어셈블리에서 CPU를 제작합니다. 트리에서 CPU에 마우스를 올리면 어셈블리가 무엇을 요구하는지 볼 수 있습니다.
 

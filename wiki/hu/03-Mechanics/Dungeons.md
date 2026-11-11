@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Kazamaták -->
 # Kazamaták {#dungeons}
 
@@ -6,7 +6,9 @@
 
 A **kazamata** zárt labirintus, amelynek végén egy **Hadúr** vár (a 0.5.2 előtt a játék KAPUNAK hívta). Egy [klán](/wiki/03-Mechanics/Clans.md) alvezére vagy vezére nyit egyet, és a klánbankból fizeti ki, a klán tagjai pedig egyetlen [csoportként](/wiki/03-Mechanics/Groups.md) együtt repülnek be. Végigverekszik magukat a labirintus idegenjein, zsákmányzónákat nyitnak, hogy mindegyikből választhassanak egy kártyát, és legyőzik a Hadúrt. Minden pilótát, aki részt vett a harcban, kifizetnek, amikor a Hadúr elesik, az alábbi korlátokon belül. A kazamaták a klán oldalának **Kazamaták** lapján vannak.
 
-A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat vagy bárki mást. Az idegenek nem fizetnek semmit. A fizetség egyedül a Hadúré, ezért csak az kap fizetést, aki a harcban van, amikor az elesik.
+A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat vagy bárki mást. Az idegenek elesésükkor fizetnek, mint a játék idegenei, amelyekről mintázták őket ([mit fizetnek az idegenek](#what-the-aliens-pay)). A teljesítés a Hadúré, ezért érte csak az kap fizetést, aki a harcban van, amikor az elesik.
+
+A kazamata nem [szólókapu](/wiki/03-Mechanics/Solo-Gates.md). A szólókapu egy aréna, ahová csak te repülsz be, és az Energiamaterializálóval talált alkatrészekkel nyílik; a kettőnek külön szabályai, kifizetései és korlátai vannak.
 
 ## Dióhéjban {#at-a-glance}
 
@@ -22,10 +24,10 @@ A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat 
 - **Labirintusok**: 8; a kazamata megnyitásakor az egyiket választja a játék
 - **Főellenség terme**: Akkor nyílik meg, ha a Crystalysok és a Twinjeik 75%-a megsemmisült, felfelé kerekítve
 - **Gyülekezés**: 10 perc a gyülekezésre és az indításra. Az a kazamata, amelyet senki sem indít el, bezárul, és az ára visszakerül a klánbankba
-- **Időkorlát**: 1. fokozat: 95 perc, 2. fokozat: 130 perc, 3. fokozat: 165 perc az indítástól. Ha lejár, a kazamata elbukik, és semmit sem fizet
+- **Időkorlát**: 1. fokozat: 95 perc, 2. fokozat: 130 perc, 3. fokozat: 165 perc az indítástól. Ha lejár, a kazamata elbukik, és a teljesítés semmit sem fizet
 - **Üresen**: Az a kazamata, amelyben 3 perc ideig senki sincs, elbukik
 - **Miután a Hadúr elesik**: A kazamata 2 perc ideig nyitva marad a bent lévő pilótáknak
-- **Visszatérés**: Az a pilóta, aki kilépett vagy megsemmisült, 3 alkalommal repülhet vissza, köztük 20 mp várakozással
+- **Visszatérés**: Az a pilóta, aki kilépett vagy megsemmisült, akárhányszor visszarepülhet, két visszatérés között legalább 20 mp várakozással
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ A kazamata csak az idegenek elleni harc: senki sem támadhat benne klántársat 
 1. **Megidézés.** A Kazamaták lapon egy [alvezér vagy a vezér](/wiki/03-Mechanics/Clans.md#hierarchy-roles) kiválaszt egy fokozatot, és megnyomja a **Megidézés** gombot. Az ár a [klánbankból](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) fogy, a kazamata pedig a fent felsorolt térképek egyikét kapja. Az a kazamata, amelyet senki sem indít el, bezárul, és az ár visszakerül a bankba.
 2. **Belépés.** A klán tagjai repülés közben a Klán ablakban a **Belépés** gombot nyomják meg, átugranak a klánportálon, vagy a **Csatlakozás** gombot nyomják meg a riasztókártyán (lásd Belépés). Mindenki a kezdőteremben landol, és a bent lévő pilóták a kazamata csoportja.
 3. **Indítás.** A kezdőterem egy kis terem a labirintus egyik végén, és az ajtaja zárva marad, amíg a kazamata gyülekezik. Nincsenek benne idegenek, így biztonságosan lehet várakozni. A kazamata **magától elindul**, ha minden pilóta bent van, akire vár, és a csoport elég nagy. A klán azon tagjaira vár, akik online vannak, nincsenek távol, és egy bejutott pilóta csoportjában vannak, és azonnal elindul, ha a csoport megtelt. A pilóta, aki a kazamatát megnyitotta, vagy egy tiszt megnyomhatja az **Indítás** gombot, hogy korábban kezdjenek azokkal a pilótákkal, akik bent vannak, ha elegen vannak. Aki kilép, arra többé nem várnak. Amikor a kazamata elindul, az ajtó végleg kinyílik, és ezután csak azok a pilóták térhetnek vissza, akik már bent voltak.
-4. **Át a labirintuson.** A labirintus egyik végén lépsz be, a másikon vár a Hadúr egy lezárt teremben. A labirintus sötét: csak azt látod, amit a csoport felfedezett, és ami a hajói közelében van. Az idegenek falkákban alszanak a folyosókon, és az a falka, amelyik felébred, végigüldözi a csoportot a labirintuson.
+4. **Át a labirintuson.** A labirintus egyik végén lépsz be, a másikon vár a Hadúr egy lezárt teremben. A labirintus sötét: csak azt látod, amit a csoport felfedezett, és ami a hajói közelében van. Az idegenek falkákban várakoznak a folyosókon, és egy falka abban a pillanatban kijön, amikor egy pilóta berepül a folyosószakaszba, ahol vár, majd végigüldözi a csoportot a labirintuson.
 5. **A zsákmányzónák megnyitása.** A labirintusban gyűrűk jelölik a zónákat. Tarts meg egyet, és a csoport szavaz egy kártyára, amelyet a Hadúr fizetségével együtt fizetnek ki.
 6. **A főnökterem feloldása.** Pusztítsd el a labirintus Crystalysainak és Twinjeinek háromnegyedét, és a Hadúr termének ajtaja kinyílik. Addig a Hadúr nem sebezhető. A többi idegen marad, ahol van, és őket is elpusztíthatod.
 7. **A Hadúr legyőzése.** Törd át a pajzsát és a hajótestét, és válaszolj a képességeire. Amikor elesik, a kazamata teljesítve van.
@@ -46,7 +48,7 @@ A kazamatába lépéshez **repülő hajó** kell, tehát előbb szállj fel, és
 
 Egy alvezér vagy a vezér nyit kazamatát, a klánnak egyszerre csak egyet, és legfeljebb napi kazamataszámig. A klánbanknak rendelkeznie kell az árral. Egy klán csak akkor nyithat meg egy fokozatot, ha az előzőt már teljesítette.
 
-A kazamatában nem válthatsz világot, és a Jump CPU és a Base CPU nem működik. A **Klánkazamata** ablak **Kilépés** gombja kivisz. Előbb megerősítést kér, kivéve ha a Hadúr már elesett: ilyenkor azonnal távozol. Az a pilóta, aki kilépett vagy megsemmisült, néhányszor visszarepülhet, rövid várakozással közöttük.
+A kazamatában nem válthatsz világot, és a Jump CPU és a Base CPU nem működik. A **Klánkazamata** ablak **Kilépés** gombja kivisz. Előbb megerősítést kér, kivéve ha a Hadúr már elesett: ilyenkor azonnal távozol. Az a pilóta, aki kilépett vagy megsemmisült, visszarepülhet; hogy hányszor, és két visszatérés között mennyit kell várnia, azt a **Dióhéjban** alatti lista mondja meg.
 
 ### A klánportál és a riasztás {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Minden kazamata egy zárt labirintus egy saját térképen, a fenti lista egyik 
 
 ## Az idegenek {#the-aliens}
 
-Négyféle idegen őrzi a labirintust. Falkákban alszanak a folyosókon, soha nem egy teremben, és egy falka felébred, amikor egy pilóta a közelébe ér. Az ébren lévő falka nem vár rád: végigüldözi a csoportot a labirintuson, és az a falka, amelyik mindenkit elveszít, visszamegy oda, ahol aludt, és meggyógyul. Néhány falka az első másodperctől ébren van, a folyosókon áll a bejárattól távol, amíg egy pilóta a közelébe nem ér. A kazamata egyszerre csak annyi idegent tart a levegőben, és ez a szám a csoport méretével nő, így egy falkának, amely felébred, várnia kell a helyre, és egy falka, amelyet elpusztítasz, beengedi a következőt. Egy nagyobb csoport arányosan több idegennel találkozik, egy kisebb kevesebbel, és az idegenek egy fajtája soha nem esik egy alá. Az a falka, amelyik még a helyre vár, amikor minden pilóta eltávolodott, visszaalszik, és újra felébred, amikor egy pilóta a közelébe ér.
+Négyféle idegen őrzi a labirintust. Falkákban várakoznak a folyosókon, soha nem egy teremben, és egy falka abban a pillanatban kijön, amikor egy pilóta berepül a folyosószakaszba, ahol vár. Ahol még nem járt pilóta, ott semmi sincs a térképen, így egyetlen falka sem áll a falak mögött, mélyen a labirintusban, mielőtt odaérnél. Egy falka nem vár helyre: ugyanabban a pillanatban a térképen van, akárhány idegen van már kint. Egy folyosószakaszban egyetlen falka áll, így abban a szakaszban, ahová beröpülsz, egy falkával találkozol, nem több falka összegével (egy tízfős csoportnak több falkája van, mint ahány szakasz, és ott egy szakaszban két falka áll, mindkettő kijön). A kint lévő falka nem vár rád: végigüldözi a csoportot a labirintuson, és az a falka, amelyik mindenkit elveszít, visszamegy oda, ahol kijött, és meggyógyul. Egy falka csak egyszer jön ki: amelyiket elpusztítod, az nem tér vissza, és amelyiktől elrepülsz, az a térképen marad. A zsákmányzónák hullámai mások: a kazamata egyszerre csak annyi idegent tart a levegőben, és ez a szám a csoport méretével nő, így egy hullám, amely túllépné, helyre vár, és egy falka, amelyet elpusztítasz, beengedi a következő hullámot. Egy nagyobb csoport arányosan több idegennel találkozik, egy kisebb kevesebbel, és az idegenek egy fajtája soha nem esik egy alá.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Négyféle idegen őrzi a labirintust. Falkákban alszanak a folyosókon, soha n
 | A főellenség termének megnyitásához | 34 | 34 | 34 |
 | Egy zsákmányzóna hulláma | 12 × Dungeon Goombah és 1 × Dungeon Crystalys | 12 × Dungeon Goombah és 1 × Dungeon Crystalys | 12 × Dungeon Goombah és 1 × Dungeon Crystalys |
 
-- **Egyszerre életben**: Legfeljebb 10 a csoport minden pilótájára, és összesen 70
+- **Egy zsákmányzóna hulláma helyre vár**: Amint a csoport minden pilótájára 10 él, vagy összesen 70
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 - **Úgy néz ki, mint**: Goombah
 - **Falkaméret**: 6
+- **Jutalma és zsákmánya, mint**: Goombah
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 | Sebesség | 180 | 180 | 180 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | 1 800 | 1 800 | 1 800 |
+| Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
+| Kredit megsemmisítésenként | 15 000 | 22 500 | 30 000 |
+| Thulium megsemmisítésenként | 75 | 113 | 150 |
+| Tapasztalat megsemmisítésenként | 3 000 | 4 500 | 6 000 |
+| Becsület megsemmisítésenként | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Úgy néz ki, mint**: Pirate Boss
 - **Falkaméret**: 2
+- **Jutalma és zsákmánya, mint**: Pirate Boss
 - **Rakéta**: Egyenes rakéta 5 mp időközönként, hatótávolsága 1 000 egység
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
-| Hajótest | 300 000 | 450 000 | 600 000 |
+| Hajótest | 250 000 | 375 000 | 500 000 |
 | Pajzs | 50 100 | 75 150 | 100 200 |
 | Lézersebzés (másodpercenként egy sorozat) | 200 | 300 | 400 |
 | Rakétasebzés | 5 000 | 7 500 | 10 000 |
 | Sebesség | 110 | 110 | 110 |
 | Lézer hatótávja | 700 | 700 | 700 |
 | Aggrósugár | 1 800 | 1 800 | 1 800 |
+| Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
+| Kredit megsemmisítésenként | 145 000 | 217 500 | 290 000 |
+| Thulium megsemmisítésenként | 725 | 1 088 | 1 450 |
+| Tapasztalat megsemmisítésenként | 29 000 | 43 500 | 58 000 |
+| Becsület megsemmisítésenként | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Úgy néz ki, mint**: Crystalys
 - **Falkaméret**: 2
+- **Jutalma és zsákmánya, mint**: Crystalys
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 | Sebesség | 230 | 230 | 230 |
 | Lézer hatótávja | 900 | 900 | 900 |
 | Aggrósugár | 2 400 | 2 400 | 2 400 |
+| Jutalom és zsákmány, az eredeti többszöröse | ×1 | ×1,5 | ×2 |
+| Kredit megsemmisítésenként | 75 000 | 112 500 | 150 000 |
+| Thulium megsemmisítésenként | 200 | 300 | 400 |
+| Tapasztalat megsemmisítésenként | 12 000 | 18 000 | 24 000 |
+| Becsület megsemmisítésenként | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Úgy néz ki, mint**: Crystalys, 1,4-szor akkora
 - **Falkaméret**: 1
+- **Jutalma és zsákmánya, mint**: Crystalys
 
 |  | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 | Sebesség | 230 | 230 | 230 |
 | Lézer hatótávja | 900 | 900 | 900 |
 | Aggrósugár | 2 400 | 2 400 | 2 400 |
+| Jutalom és zsákmány, az eredeti többszöröse | ×2 | ×3 | ×4 |
+| Kredit megsemmisítésenként | 150 000 | 225 000 | 300 000 |
+| Thulium megsemmisítésenként | 400 | 600 | 800 |
+| Tapasztalat megsemmisítésenként | 24 000 | 36 000 | 48 000 |
+| Becsület megsemmisítésenként | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## A Hadúr {#the-warlord}
 
-A Hadúr a labirintus túlsó végén lévő teremben vár, és ő az egyetlen dolog a kazamatában, ami fizet. Hatalmasra nőtt Crystalys. A hajótestét és a pajzsát a csoport mérete növeli: minél több pilóta lép be, annál szívósabb, arányosan. Soha nem hagyja el a termét, akár zárva van az ajtó, akár nyitva: a terem falai között marad, és nem üldöz a folyosókon. Egy kívül álló pilóta legfeljebb a terem széléig csalhatja ki, és nyitott ajtón át így is lő mindenre, amit a lézere elér. A képességeit egyenként használja, véletlen sorrendben, mindegyiket a saját újratöltési idejével.
+A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fizeti ki a teljesítést. Saját megsemmisítésért nem fizet, ahogy a többi idegen igen. Hatalmasra nőtt Crystalys. A hajótestét és a pajzsát a csoport mérete növeli: minél több pilóta lép be, annál szívósabb, arányosan. Soha nem hagyja el a termét, akár zárva van az ajtó, akár nyitva: a terem falai között marad, és nem üldöz a folyosókon. Egy kívül álló pilóta legfeljebb a terem széléig csalhatja ki, és nyitott ajtón át így is lő mindenre, amit a lézere elér. A képességeit egyenként használja, véletlen sorrendben, mindegyiket a saját újratöltési idejével.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ A fenti hajótest és pajzs 5 fős csoportra vonatkozik. A csoporttal együtt n�
 
 ### A lezárt terem {#the-locked-room}
 
-A Hadúr termének ajtaja attól a pillanattól zárva van, hogy a kazamatát megnyitják, és amíg zárva van, a Hadúr nem sebezhető: semmilyen lézer, rakéta vagy robbanás nem éri, és egyetlen képességet sem használ. Az ajtó végleg kinyílik, amikor megsemmisült **a Crystalysok és a Twinjeik háromnegyede**, amelyekkel a kazamatát létrehozták, felfelé kerekítve (a fenti idegentáblázat egy 5 fős csoportra számolja őket, és az utolsó sora megmondja, mennyi kell). A labirintus falkáiban lévő Crystalysok és Twinek számítanak, köztük azok is, amelyek az első másodperctől a folyosókon álló falkákban vannak, és mindegy, ki semmisíti meg őket. A többi idegen, a zsákmányzónák hullámai, a Goombahok, amelyeket a Hadúr hív, és maga a Hadúr nem számítanak az ajtó felé.
+A Hadúr termének ajtaja attól a pillanattól zárva van, hogy a kazamatát megnyitják, és amíg zárva van, a Hadúr nem sebezhető: semmilyen lézer, rakéta vagy robbanás nem éri, és egyetlen képességet sem használ. Az ajtó végleg kinyílik, amikor megsemmisült **a Crystalysok és a Twinjeik háromnegyede**, amelyekkel a kazamatát létrehozták, felfelé kerekítve (a fenti idegentáblázat egy 5 fős csoportra számolja őket, és az utolsó sora megmondja, mennyi kell). A labirintus falkáiban lévő Crystalysok és Twinek számítanak, és mindegy, ki semmisíti meg őket. Egy falka csak akkor jön ki, amikor egy pilóta berepül a folyosószakaszába, ezért a csoportnak elég sokat meg kell találnia, hogy az ajtó kinyíljon. A többi idegen, a zsákmányzónák hullámai, a Goombahok, amelyeket a Hadúr hív, és maga a Hadúr nem számítanak az ajtó felé.
 
-A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem megnyitásához, és egy jelzésben megmondja, hogy a Hadúr nem sebezhető, egy üzenet pedig szól, amikor a terem feloldódik. Egy falka, amely még alszik, teljes egészében számít, így a csoportnak meg kell találnia a labirintusban a Crystalysokat és a Twinjeiket. **A többi idegen nem tűnik el, amikor az ajtó kinyílik.** Maradnak a labirintusban, felébrednek, amikor egy pilóta a közelükbe ér, és ugyanúgy megsemmisíthetők, mint addig, így a csoport, ha akarja, mindet elpusztíthatja, mielőtt a Hadúrral harcol: az ablakban az idegenek száma egészen az összes idegenig megy, amellyel a kazamatát létrehozták, és tele van, amikor egy sem maradt. Nem fizetnek semmit, és akik még élnek, amikor a Hadúr elesik, a kazamatával együtt eltűnnek. A minitérképen az ajtó piros vonal, amíg zárva van, és zöld, amikor nyitva. Egy kazamata soha nem csapda: az időkorlát akkor is véget vet egy kazamatának, amelynek ajtaja zárva marad, és egy adminisztrátor feloldhatja egy elakadt kazamata termét.
+A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem megnyitásához, és egy jelzésben megmondja, hogy a Hadúr nem sebezhető, egy üzenet pedig szól, amikor a terem feloldódik. Egy falka, amely még nem jött ki, teljes egészében számít, így a csoportnak meg kell találnia a labirintusban a Crystalysokat és a Twinjeiket, és be kell repülnie a folyosószakaszaikba. **A többi idegen nem tűnik el, amikor az ajtó kinyílik.** Maradnak a labirintusban, kijönnek, amikor egy pilóta berepül a folyosószakaszukba, és ugyanúgy megsemmisíthetők, mint addig, így a csoport, ha akarja, mindet elpusztíthatja, mielőtt a Hadúrral harcol: az ablakban az idegenek száma egészen az összes idegenig megy, amellyel a kazamatát létrehozták, és tele van, amikor egy sem maradt. Elesésükkor fizetnek ([mit fizetnek az idegenek](#what-the-aliens-pay)), és akik még élnek, amikor a Hadúr elesik, a kazamatával együtt eltűnnek. A minitérképen az ajtó piros vonal, amíg zárva van, és zöld, amikor nyitva. Egy kazamata soha nem csapda: az időkorlát akkor is véget vet egy kazamatának, amelynek ajtaja zárva marad, és egy adminisztrátor feloldhatja egy elakadt kazamata termét.
 
 ### A képességei {#its-abilities}
 
@@ -314,7 +340,7 @@ Az egy példányos kártyák **felszerelések**, és csak egy 3. fokozatú kazam
 
 Amikor a Hadúr elesik, minden pilóta, aki kiérdemelte, egyszer kap fizetséget a menetért. A csoport által választott kártyák a fokozat fizetségén felül járnak. Nincs világszorzó: a fizetség minden világban ugyanaz.
 
-Az **Orvium Reinforced Plates** nem a szavazás kártyája. A fokozat fizetségének része, és minden kifizetett pilóta egyszer kapja meg a teljesítésért. A tárgyak, amelyeket egy kazamata fizet, nem eladhatók: nem [adhatod el őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
+Az **Orvium Reinforced Plates** nem a szavazás kártyája. A fokozat fizetségének része, és minden kifizetett pilóta egyszer kapja meg a teljesítésért. A tárgyak, amelyeket a teljesítés fizet, nem eladhatók: nem [adhatod el őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ Az **Orvium Reinforced Plates** nem a szavazás kártyája. A fokozat fizetség�
 
 ### Ki kap fizetséget {#who-is-paid}
 
-Az idegenek sosem fizetnek. Egy menetet akkor is végig lehet játszani, ha nem fizet semmit, és az eredményképernyő megmondja, miért. A belépést soha nem tagadják meg amiatt, hogy egy fokozatért már fizettek neked: az a menet egyszerűen nem fizet.
+Ezek a szabályok azt döntik el, ki kap fizetést **a teljesítésért**. Egy menetet akkor is végig lehet játszani, ha nem fizet semmit, és az eredményképernyő megmondja, miért. A belépést soha nem tagadják meg amiatt, hogy egy fokozatért már fizettek neked: a teljesítés egyszerűen nem fizet. Az idegenek ugyanezeket a szabályokat olvassák, megsemmisítésenként, a harcban való részesedés kivételével ([mit fizetnek az idegenek](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ Egy kifizetett teljesítés tapasztalata beleszámít a PvE-ranglistapontjaidba:
 
 <!-- dungeons-totals:end -->
 
+### Mit fizetnek az idegenek {#what-the-aliens-pay}
+
+A kazamata minden idegene fizet, amikor elesik, és zsákmányt hullat, mint a játék idegene, amelyről mintázták: egy Dungeon Goombah mint egy [Goombah](/wiki/04-Aliens/Goombah.md), egy Dungeon Crystalys és a Twinje mint egy [Crystalys](/wiki/04-Aliens/Crystalys.md), egy Dungeon Pirate mint a Pirate Boss ([Pirate-raj](/wiki/05-Swarms/Pirate-Swarm.md)). Amit egy idegen megsemmisítése fizet és hullat, az az eredetié **szorozva a hajótestük és pajzsuk együttes arányával**: az az idegen, amely ugyanolyan szívós, mint az eredetije, annyit fizet, amennyit az eredeti; a kétszer olyan szívós kétszer annyit fizet, és minden tárgyból kétszer annyit hullat, és így tovább. Az idegenek minden fajtájának szakasza [Az idegenek](#the-aliens) alatt megadja az arányt és egy megsemmisítés fizetségét minden fokozatban.
+
+- **Ki kap fizetést.** Azok a pilóták, akik megsebezték az idegent, az okozott sebzésük szerint, ahogy a rajok idegeneinél: az a pilóta vagy csoport, amely csak súrolta, semmit sem kap, a csoport egyként kap fizetést, a csoporton belül pedig a roncs közelében lévő, a közelmúltban lőtt tagok szint szerint osztoznak a kifizetésen. Az a pilóta, aki nem sebezte az idegent, semmit sem kap érte, bármilyen közel repült is, és az az idegen, akit egy pilóta sem sebzett meg, senkinek sem fizet. Csak azok a pilóták tartoznak bele, akiket a fenti szabályok fizetnek: aki kilépett, nem volt bent elég ideje, ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért semmit sem kap, és a többiek kapják az ő részét. A megsemmisítés nem kéri a harcban való részesedést: az idegen megsebzése a részesedés. Ha egy csoport legtöbb sebzést okozó tagja megsemmisült vagy már nincs a térképen, a roncs közelében lévő, a közelmúltban lőtt tagok nélküle osztoznak.
+- **Mit fizet.** Kreditet, Thuliumot, tapasztalatot és becsületet, megsemmisítésenként egyszer. A fizetség az, amit az eredeti Alphában fizet, minden világban: a kazamatának nincs világszorzója. A boostereid, a Premium, a formáció és a klánod bónuszai úgy számítanak, mint bármely megsemmisítésnél, a tapasztalat pedig a [PvE-pontjaidhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) számít, mint a teljesítésé.
+- **A zsákmány.** Az eredeti esélyeivel kisorsolják, majd minden mennyiséget megszoroznak az aránnyal (egy egység töredéke esély még egyre). Ládaként hullik a roncsnál, előbb a legtöbb sebzést okozó pilótának és a klánjának, később a térképen bárkinek, aztán eltűnik. A térkép egyszerre csak bizonyos számú ládát bír el, ezért szedd fel őket menet közben, és ami a térképen marad, amikor a kazamata bezár, azzal együtt elvész. A teljesítés tárgyaival ellentétben ezek egy idegen közönséges zsákmányai: [eladhatod őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), ha a tárgy eladható.
+- **Ami nem fizet.** A Hadúr nem fizet megsemmisítésért, csak a teljesítésért. A Goombahok, amelyeket hív, semmit sem fizetnek, mert a hívás addig újra jön, amíg a harc tart.
+- **Nem a játék megsemmisítése.** A kazamatában elért megsemmisítés nem számít bele a küldetésekbe, az eredményekbe, a megsemmisítés-számlálókba, a wipe-pontokba, egy megsemmisítés PvE-pontjaiba, a drónokba és a P.E.T.-ekbe: egy Dungeon Goombah nem a játék Goombahja.
+- **A korlátok.** A fenti napi és heti korlátok az idegenek fizetségét is ugyanúgy visszatartják, mint a teljesítését: aki ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért sem kap semmit, és egy megsemmisítés összegét a többiek kapják. Az a kazamata, amelyet nem teljesítenek, a megsemmisítéseket azoknak a pilótáknak fizeti, akiket a szabályok fizetnek, a teljesítésért pedig semmit.
+
 ## A klánbank jutalma {#clan-bank-reward}
 
 A klánbank is kap fizetséget, kreditben és nem Thuliumban, amikor a klán egy szezonban először teljesít egy fokozatot. A klánnak elég réginek kell lennie, és a menet elég pilótáját ki kell fizetni. A bank fokozatonként szezononként egyszer kap fizetséget.
@@ -383,4 +420,4 @@ A klánbank is kap fizetséget, kreditben és nem Thuliumban, amikor a klán egy
 - Használd a falakat: a lézerek nem hatolnak át rajtuk, a Hadúr aurái piros gyűrűi megállnak náluk, és egy fal a Hadúr rakétáit is megállítja.
 - Tarts meg egy EMP Charge-ot a Rakétazáporra.
 - Amikor a Hadúr hívja a Goombahjait, előbb azokat pusztítsd el: nem sebezhető, amíg el nem tűntek. A Káoszzónában lépj ki a gyűrűből, mielőtt lősz.
-- Figyeld az órát a Klánkazamata ablakban. Ha lejár az idő, a kazamata kudarcot vall, és nem fizet semmit.
+- Figyeld az órát a Klánkazamata ablakban. Ha lejár az idő, a kazamata kudarcot vall, és a teljesítés nem fizet semmit.

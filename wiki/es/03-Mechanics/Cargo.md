@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Los alienígenas destruidos dejan su botín en el espacio en forma de cajas de c
 - Los **pilotos de corporación** no dejan caja cuando los destruyen, sea quien sea o lo que sea lo que los destruye. Consulta [Pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md).
 - Las **naves de los jugadores** no dejan restos ni caja cuando las destruyen, sea quien sea o lo que sea lo que las destruye, y no se quita nada del inventario del piloto.
 - El **agujero negro** deja cajas de **Dark Matter** en el borde de su zona por cada cohete N.I.K.E. que se dispara contra él (consulta [El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Son el único tipo de caja que queda dentro del anillo del agujero.
-- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
+- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) (salvo el Tesseract) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** no suelta una caja así: cada piloto que causó el 5 % del daño o más recibe una [caja privada](#private-boxes) propia, con su parte del botín.
+- **El [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** tampoco deja una caja en sus restos: cada piloto al que paga su derribo recibe una [caja privada](#private-boxes) propia, con su parte de Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units y Dark Matter.
 - **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. Un fragmento se recoge como una caja, y está reservado para los pilotos que lo ganaron y después libre, como una caja.
 
 Un alienígena al que remata un piloto de corporación suelta su botín para el piloto al que cuenta el derribo (el que tiene su reclamación o, si no, el piloto de su corporación que lo está combatiendo); uno que un piloto de corporación combatió en solitario no suelta nada, porque los pilotos de corporación nunca recogen.
@@ -42,14 +43,14 @@ Las luces de la caja toman el color del objeto más raro que contiene: turquesa 
 
 ## Cajas privadas {#private-boxes}
 
-El botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) no es una caja para un solo piloto: **cada piloto que causó al menos el 5 % del daño recibe una caja propia**, sorteada para su parte (para el 20 % del daño, más o menos una quinta parte de cada cantidad; [los detalles](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+El botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) no es una caja para un solo piloto: **cada piloto que causó al menos el 5 % del daño recibe una caja propia**, sorteada para su parte (para el 20 % del daño, más o menos una quinta parte de cada cantidad; [los detalles](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). El botín del [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) funciona igual: cada piloto al que paga su derribo recibe una.
 
 - **Solo tú la ves y solo tú puedes recogerla.** Tu clan y tu grupo no la ven ni pueden cogerla; para todos los demás, simplemente no está. En tu pantalla tiene un anillo fino debajo.
-- **Dura 10 minutos** desde el derribo, y todo ese tiempo es tuya: no hay espera de 30 segundos. Después se aleja a la deriva como cualquier caja. El Registro de juego te dice tu parte del botín cuando cae el guardián.
+- **Dura 10 minutos** desde el derribo, y todo ese tiempo es tuya: no hay espera de 30 segundos. Después se aleja a la deriva como cualquier caja. El Registro de juego te dice tu parte del botín cuando cae el guardián o el Tesseract.
 - **No expulsa otras cajas.** Las cajas privadas tienen un grupo propio junto a las 64 de un mapa (32 como máximo), así que la muerte de un guardián nunca ocupa el sitio de otra caja y un mapa lleno nunca te cuesta tu caja.
 - Recogerla es igual que con cualquier caja ([arriba](#collecting)): tu nave vuela hasta ella y la recogida dura medio segundo. Tu Retriever también toma tus cajas privadas, y las de nadie más.
 
 ## Potenciadores {#boosters}
 
-- **Loot Luck Booster** (y la mejora permanente Luck Boost, y la suerte de tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentan la probabilidad de cada entrada del botín en el momento en que el piloto logra el derribo.
-- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, a mano o con un Retriever, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada, así que cinco N.I.K.E. son diez Dark Matter para todos.
+- **Loot Luck Booster** (y la mejora permanente Luck Boost, y la suerte de tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentan la probabilidad de cada entrada del botín en el momento en que el piloto logra el derribo. Tu destreza [Instinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) también suma a esa probabilidad, además de la del booster.
+- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, a mano o con un Retriever, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada. Solo tu propia habilidad Antimatter suma Dark Matter (hasta +25 % en el nivel 100); sin ella, cinco N.I.K.E. son diez Dark Matter.

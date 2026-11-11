@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevé
 
 ## Recherche {#research}
 
-- **Emplacements de blindage.** Ce vaisseau a 7 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 7 remplis de Hull Plating III ajoutent 105 000 de coque.
+- **Emplacements de blindage.** Ce vaisseau a 7 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 7 remplis de Hull Plating III ajoutent 175 000 de coque.
 - **Designs.** Ce vaisseau a 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-en un (10 h et 10 Dark Matter), puis transformez votre Storm en l’un d’eux dans l’Assemblage : le changement est définitif.
 
 | Design | Ce qu’il change |

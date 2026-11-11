@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0096209c8f6660f0 -->
+<!-- wiki-i18n source: 5b87e9167b265780 -->
 <!-- wiki-i18n title: Piloti di corporazione -->
 # Piloti di corporazione {#company-pilots}
 
@@ -11,7 +11,7 @@ Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base 
 
 - **Squadra**: 3 piloti per settore della corporazione in ogni mondo (Alpha, Beta e Gamma hanno ciascuno le proprie squadre), ognuno chiamato con la sigla della corporazione e un nominativo, ad es. **[M] Vesper**. Accanto al loro nome c’è un piccolo simbolo di robot e il colore della corporazione.
 - **Nave**: un’[Ostirion](/wiki/02-Ships/Ostirion.md) con tre **Quantum Laser II**, due **Light Shield Core**, un **Engine I** e un **Repair Drone I**:
-  - 64.000 punti scafo, 22.000 punti scudo, velocità 222
+  - 64.000 punti scafo, 22.000 punti scudo, velocità 225
   - assorbimento 45%: i loro scudi prendono il 45% di ogni colpo, lo scafo il 55%
   - 195 di danno base per raffica (munizioni x1), probabilità critica dell’1%, portata 700
 - **Sulla minimappa**: un rombo verde per i piloti della tua corporazione, uno ambra per quelli di un’altra.
@@ -24,7 +24,7 @@ Ogni corporazione tiene una piccola squadra di piloti NPC nei suoi settori base 
 - **Aiutano**: quando un pilota della loro corporazione a meno di 1.500 unità da loro viene attaccato da un alieno, o apre il fuoco su un alieno che potrebbero gestire, si uniscono allo scontro. Restano fuori da uno scontro che un compagno ha iniziato con un alieno che non potrebbero battere (un Goombah a cui un pilota ha sparato, o un Bulwark); un alieno aggressivo che attacca un compagno viene respinto qualunque sia. Un alieno che finiscono paga il pilota che ne detiene la rivendicazione (il primo a colpirlo, vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); se nessuno la detiene, conta per il pilota della loro corporazione più vicino che gli sta sparando (agganciato, a portata, con una raffica negli ultimi 2,5 secondi). In ogni caso le ricompense sono di quel pilota, e la cassa di [carico](/wiki/03-Mechanics/Cargo.md) dell’alieno gli è riservata come se avesse fatto lui l’abbattimento. I piloti di corporazione non rivendicano mai un alieno e non guadagnano né raccolgono mai nulla per sé: un alieno che combattono da soli non lascia nessuna cassa. Agganciare da lontano, o limitarsi a essere colpiti, non frutta nulla.
 - **Ignorano gli [sciami](/wiki/05-Swarms/Swarms.md)**: una nave di sciame non è affar loro. Non le danno la caccia, non si uniscono a uno scontro contro di loro e non vengono mai in tuo aiuto in uno.
 - **Rispondono al fuoco** quando vengono attaccati dagli alieni, e dai piloti di altre corporazioni quando il PvP è aperto e dove il loro [mondo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) lo consente: nessun PvP in Alpha da `x-1` a `x-3`, né in Beta in `x-1`.
-- **Si riparano** con il loro drone ogni volta che lo scafo è danneggiato: l’1,5% dello scafo al secondo, a partire da 10 secondi dopo l’ultimo colpo.
+- **Si riparano** con il loro drone ogni volta che lo scafo è danneggiato: l’2% dello scafo al secondo, a partire da 10 secondi dopo l’ultimo colpo.
 - **Si ritirano** al 30% dello scafo verso la zona sicura più vicina e lì si riparano fino al 90%.
 - **Fanno respawn** alla stazione del settore (o al suo primo portale) 60 secondi dopo essere stati distrutti.
 

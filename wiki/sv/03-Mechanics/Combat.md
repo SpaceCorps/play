@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6032abb12d3d13a5 -->
+<!-- wiki-i18n source: 00e6e072226a1f45 -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -32,12 +32,17 @@ Varje salva har en chans att bli en kritisk träff.
 Till sist tillämpas globala multiplikatorer (som aktiva boosters, till exempel en Laser Damage Boosters +10 %, eller multiplikatorer för laserammunition som x2, x3, x4) för att få den slutliga skadan:
 - Formel: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - En buren [drönarformation](/wiki/03-Mechanics/Formations.md) kan multiplicera resultatet en gång till: till exempel Auger +21 % laserskada, Gyre −11 % och, mot utomjordingar, Culler +12 % (en egen faktor, inte en del av boosterprocenten).
+- En pilots [Laserteknik](#laser-tech) multiplicerar salvan en gång till: grundskadan och, med den, den fasta skadan hos en kritisk träff.
 - Ammunitionen **Siphon Battery** har multiplikatorn x1 men ett annat mål: dess skada tas enbart ur målets sköld (aldrig skrovet, oavsett absorption) och går in i din egen sköld, upp till ditt maximum. Se [Lasrar och ammunition](/wiki/06-Items/Lasers.md).
 - **Dark Matter Ammo** (0.5.0) ändrar själva salvan: Dark Matter Ammo I slumpar sin multiplikator (x1,5 till x5) för varje salva, och Dark Matter Ammo II träffar med x6 bara var 1,5:e sekund och ger dig en fjärdedel av den skada som målets sköld tog. **Antimatter Battery**-ammunition tränger igenom 20 % av målets absorption. Se [Antimatter- och Dark Matter-ammunition](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Raketer {#3b-rockets}
 
-En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **3 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och hälften av det vid kanten. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) är det enda som ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar skada av raketer och av lasrar med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av); drönare gör ingenting med dem, och en asteroid i vägen för ett skott tar träffen i stället för skeppet bakom den ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), och det gör en [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) också.
+En [raket](/wiki/06-Items/Rockets.md) har sin egen skada (en Lancet I gör 1 700 till 2 100, en Lancet III 5 200 till 6 200, en N.U.K.E. 45 000 till 50 000), som slumpas fram en gång när den avfyras och är densamma för alla skepp: dina lasrar, förstärkare, boosters och ammunition ändrar den inte, och den har ingen kritisk träff. Alla raketer delar en enda omladdningstid på **3 sekunder**. En enkelmålsraket har en **sköldgenomträngning**: den dras av från ditt måls absorption (se Att ta skada och säkra zoner nedan); en explosion skadar varje skepp inom sin radie, hela talet i mitten och vid kanten 66 % av det för en Ember eller en Scatter och hälften av det för en N.U.K.E. Ingenting begränsar vad en raket tar från en pilots skepp: först skölden, sedan skrovet. Raketer skadar aldrig din egen koncern eller din egen [grupp](/wiki/03-Mechanics/Groups.md), oavsett vilka koncerner som ingår i den. En buren [drönarformation](/wiki/03-Mechanics/Formations.md) ändrar båda: en raketformation höjer skadan hos varje raket (upp till +55 %), och några gör timern längre eller kortare. Din [Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech), en pilotförmåga, skalar också skadan (0,80 på nivå 1, 1,10 på nivå 100) och en raket kan bli en blindgångare. [Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) tar skada av raketer och av lasrar med 5 % av vad en salva gör mot ett skepp (dina förstärkare, boosters, ammunition och kritiska träffar räknas, och därefter dras asteroidens pansar av); drönare gör ingenting med dem, och en asteroid i vägen för ett skott tar träffen i stället för skeppet bakom den ([Skydd](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), och det gör en [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) också.
+
+### 3c. Laserteknik {#laser-tech}
+
+Din **Laserteknik**, en [pilotfärdighet](/wiki/03-Mechanics/Pilot-Skills.md), ändrar två saker hos en salva mot ett skepp. Den multiplicerar salvans skada med en faktor som är under 1 på nivå 1 och stiger med nivån (både grundskadan och den fasta skadan hos en kritisk träff). Och den sätter chansen att salvan alls träffar. En salva som går vid sidan om visar ett flytande ”Miss” över målet, gör ingen skada och **förbrukar ändå sin ammunition**; den prövas inte dessutom mot målets egen chans att undvika. Faktorn och chansen på varje nivå finns i tabellen på [Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md#the-stats). [Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech) gör detsamma för raketer.
 
 ### 4. Att vända sig mot målet {#4-facing-the-target}
 
@@ -51,7 +56,7 @@ Ett skepp avfyrar en salva i sekunden medan dess mål är inom dess **räckvidd*
 
 En träff visas som en siffra som svävar över skeppet den träffar. **Dina egna siffror** visas alltid: skadan du gör, skadan du tar och dina egna reparationer. **Skeppet under din målfixering** visar mer: varje träff och varje läkning det får, **från vilken källa som helst**. Det betyder andra pilotes lasrar, raketer och drönare, utomjordingar, Clan Wardens samt skeppets egna reparationer och sköldregenerering. När någon annan skjuter på ditt mål ser du deras skada.
 
-- **Färger.** Guld: skada på en utomjording eller en fientlig pilot. Rött med ett minustecken: skada på ett skepp du skyddar (en pilot i din egen koncern eller grupp) och skadan du själv tar. Grönt med ett plustecken: en läkning, till exempel en Emergency Repair, en Repair Drone eller en sköld som kommer tillbaka. Blekt silver ”Miss”: en direktträff som en formations undanmanöver avledde. En kritisk salva är större och slutar på ett ”!” (isblå när den träffar en utomjording eller en fiende).
+- **Färger.** Guld: skada på en utomjording eller en fientlig pilot. Rött med ett minustecken: skada på ett skepp du skyddar (en pilot i din egen koncern eller grupp) och skadan du själv tar. Grönt med ett plustecken: en läkning, till exempel en Emergency Repair, en Repair Drone eller en sköld som kommer tillbaka. Blekt silver ”Miss”: en direktträff som inte gjorde någon skada, för att din salva gick vid sidan om ([Laserteknik](#laser-tech)) eller för att målet undvek den (en formations undanmanöver, pilotens [Undanmanöver](#grit-and-evasion)). En kritisk salva är större och slutar på ett ”!” (isblå när den träffar en utomjording eller en fiende).
 - **Dina förblir ljusare.** Andras siffror på ditt mål är lite mindre och svagare och står i en kolumn till höger om skeppet, så att de aldrig täcker dina.
 - **En siffra för en folkmassa.** Träffar som landar samtidigt läggs ihop till en siffra med ett antal efter sig (`×35`). Fyrtio piloter som skjuter på ett skepp ger ungefär två siffror i sekunden, och aldrig fler än sju. Läkningar visas en gång i sekunden.
 - **Bara skeppet under ringen.** Varje annat skepp visar bara dina egna träffar och träffarna på dig. Svarta hålets strålning och en formations sköldavtappning har inga siffror: de syns på staplarna.
@@ -116,8 +121,8 @@ När ditt skepp träffas av en fiende eller en NPC hanteras skadan så här:
 ### 1. Sköldabsorption {#1-shield-absorption}
 
 Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **genomsnittliga absorption**: medelvärdet av dina sköldars absorption, var och en med sina sköldcellers, plus Shield Absorbance Boost från säsongsbutiken (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md)). Den har **inget tak vid 100 %**: det sköldarna tar av en träff är din absorption **minus angriparens sköldgenomträngning**, mellan 0 % och 100 %.
-- **Absorption** (t.ex. 85 % för den bästa skölden med de bästa cellerna, 58 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 50 % på sköldarna hos ett skepp med 85 %, och resten (50 % där) träffar HP direkt.
-- **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+3 % till +12 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
+- **Absorption** (t.ex. 91 % för den bästa skölden med de bästa cellerna, 62 % för en Basic Shield Core med två Absorption Shield Cell I) av varje träff tas av sköldarna, minus träffens genomträngning: en Lancet IIIs 35 % lämnar 56 % på sköldarna hos ett skepp med 91 %, och resten (44 % där) träffar HP direkt.
+- **Sköldgenomträngning** kommer från enkelmålsraketer (10 till 35 %) och x3- och x4-laserammunitionen (5 % och 10 %); utomjordingar har ingen. Ett skepp över 100 % (112 %, till exempel) tål en hel träff mot genomträngning upp till skillnaden (12 % där). Penetration Amps i skyttens lasrar (+5 % till +20 % per plats) och en drönarformation läggs till, och inget sätter tak för summan.
 - En sköld som är för låg för sin andel för över skillnaden till HP; om sköldarna är helt tömda träffar **100 %** av all återstående skada HP.
 - Utomjordingar har inget absorptionsvärde: deras sköldar tar 80 % av varje träff (minus träffens genomträngning), deras skrov resten.
 - **Drönarformationer.** Rampart höjer din absorption med 17 % (Shrike sänker den med 10 %), och Asterism ger varje direkt träff på dig 7 % chans att inte göra någon skada alls (ett flytande ”Miss” visas), och de träffar som landar delas av sköld och skrov som vanligt. Gemini (+15 poäng) lägger genomträngning till din egen ammunition och direkta raketer, och Stiletto (+35 poäng raketgenomträngning) bara till direkta raketer, utan tak ([Drönarformationer](/wiki/03-Mechanics/Formations.md)). För en laser räknas även dess förstärkare.
@@ -133,6 +138,15 @@ Varje fraktions hembas (X-1-kartor) innehåller säkra zoner.
 ### 3. Under attack i en farosektor {#3-under-attack-in-a-danger-sector}
 
 Ett hopp genom en portal tar 3 sekunder (se [Resor på rymdkartan](/wiki/01-General/Spacemap%20Travel.md)). I farosektorerna (`DS-1` till `DS-4`) kan en pilot vars skepp träffades av en annan pilot eller en utomjording under de senaste **10 sekunderna** inte starta ett hopp, och en träff avbryter ett hopp som pågår. Överallt annars avbryter attacker aldrig ett hopp, och ingenting avbryter upplockningen av en [lastlåda](/wiki/03-Mechanics/Cargo.md).
+
+### 4. Seghet och Undanmanöver {#grit-and-evasion}
+
+Två [pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md) ändrar vad en träff gör med dig, utöver dina sköldar och din formation:
+
+- **Seghet** tar en andel av skadan från varje träff du tar, innan skölden och skrovet delar den mellan sig, så den minskar båda. Andelen växer med färdighetens nivå.
+- **Undanmanöver** lägger till chansen att en direktträff inte gör någon skada alls (ett flytande ”Miss” visas). Varje pilots skepp har redan en liten chans av sig själv; Undanmanöver läggs till den, och en [drönarformation](/wiki/03-Mechanics/Formations.md) med undanmanöver läggs till båda. Chansen kan inte bli över 100 %. En områdesexplosion har inget sikte och undviks aldrig.
+
+Siffrorna för varje nivå finns i tabellen på [Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ---
 
@@ -154,9 +168,9 @@ Ammunitionen [Siphon Battery](/wiki/06-Items/Lasers.md) lägger den sköld den d
 
 - **Funktion**: Om du utrustar en Repair Drone (under Hangarens extrautrustning) slår du på den från snabbfältet (dra den från väljaren Extra till en plats) och den reparerar ditt skrov (HP). Varje träff stänger av den, och den stannar vid fullt skrov. Med en [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) monterad behöver du inte slå på den igen: CPU:n skickar ut drönaren själv så fort fördröjningen nedan har gått, om du inte stoppade den för hand.
 - **Reparationstakt**: Återställer en procentandel av dina maximala träffpoäng per sekund (bara den bästa drönaren som är monterad räknas, de adderas inte):
-  - **Repair Drone I**: 1,5 % av max HP / s
-  - **Repair Drone II**: 2,25 % av max HP / s
-  - **Repair Drone III**: 3,5 % av max HP / s
+  - **Repair Drone I**: 2 % av max HP / s
+  - **Repair Drone II**: 3 % av max HP / s
+  - **Repair Drone III**: 4 % av max HP / s
   - **Repair Drone IV**: 5 % av max HP / s
 - **Fördröjning**: Reparationsdrönare börjar laga skrovet först efter **10 sekunder** utan skada.
 - **I en förmågeplats** reparerar en Repair Drone inte av sig själv: den ger dig **Emergency Repair**, en knapp som läker en andel av dina maximala träffpoäng under tio sekunder, även under eld (se [Förmågor](/wiki/03-Mechanics/Abilities.md)).

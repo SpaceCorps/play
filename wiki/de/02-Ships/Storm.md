@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser all
 
 ## Forschung {#research}
 
-- **Panzerungs-Slots.** Die Storm hat 7 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Storm und an jedem ihrer Designs. Alle 7 mit Hull Plating III gefüllt ergeben 105.000 Hülle.
+- **Panzerungs-Slots.** Die Storm hat 7 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Storm und an jedem ihrer Designs. Alle 7 mit Hull Plating III gefüllt ergeben 175.000 Hülle.
 - **Designs.** Die Storm hat 3 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Storm dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
 
 | Design | Was es ändert |

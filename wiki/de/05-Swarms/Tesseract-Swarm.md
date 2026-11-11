@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 554085379d2ae5df -->
+<!-- wiki-i18n source: 4e3f459fc0966372 -->
 <!-- wiki-i18n title: Tesseract-Schwarm -->
 # Tesseract-Schwarm {#tesseract-swarm}
 
@@ -32,17 +32,17 @@ Der Tesseract-Schwarm besteht aus einem einzigen riesigen Mutterschiff, dem **Te
 ## Wie der Kampf verläuft {#how-the-fight-goes}
 
 - **Bring eine sehr große Gruppe mit und schlagt gemeinsam zu.** Hülle und Schild des Tesseract sind ein Vorrat von Millionen Punkten, der Kampf dauert also selbst mit einer großen Gruppe starker Schiffe lange, und die Bezahlung wird nach Schaden aufgeteilt: Jeder anwesende Pilot zählt.
-- **Lass ihn nie in Ruhe.** Hat ihn die Zeit aus der Liste *Auf einen Blick* lang niemand verletzt, heilt er erst seine Hülle und dann seinen Schild in dieser Geschwindigkeit; eine Pause von wenigen Sekunden kann also eine lange Minute Arbeit zunichtemachen. Ein Tesseract, der vollständig geheilt ist, vergisst, wer ihn verletzt hat: Bezahlung und Kiste richten sich nach dem Schaden des Kampfes, der ihn zerstört.
+- **Lass ihn nie in Ruhe.** Hat ihn die Zeit aus der Liste *Auf einen Blick* lang niemand verletzt, heilt er erst seine Hülle und dann seinen Schild in dieser Geschwindigkeit; eine Pause von wenigen Sekunden kann also eine lange Minute Arbeit zunichtemachen. Ein Tesseract, der vollständig geheilt ist, vergisst, wer ihn verletzt hat: Bezahlung und Beute richten sich nach dem Schaden des Kampfes, der ihn zerstört.
 - **Jeder Treffer ruft die Facets.** Solange der Tesseract getroffen wird, erscheint alle paar Sekunden ein Schub Facets in seiner Nähe, bis zur Höchstzahl aus der Liste *Auf einen Blick*. Wird er nicht getroffen, kommt keiner, und die schon vorhandenen warten und ziehen ab.
-- **Die Facets fliegen rund um den Tesseract und feuern auf jeden in Reichweite.** Sie jagen weder den Piloten mit dem meisten Schaden noch sonst einen einzelnen: Jeder Facet fliegt eigene kurze Strecken zu zufälligen Orten eines weiten Rings um den Tesseract, in alle Richtungen, und sobald ein Pilot, der den Tesseract getroffen hat, in seiner Reichweite ist, feuert er auf den nächsten dieser Piloten. Eine Gruppe, die dicht beisammen bleibt, ist für weniger Facets gleichzeitig in Reichweite und teilt sich deren Feuer, anders als eine Gruppe, die rund um den Tesseract verteilt ist. Ein Facet hat wenig Hülle und Schild, und ihn abzuschießen zahlt nichts, nimmt aber den Piloten in seiner Nähe eine Salve ab. Ein Pilot, der den Tesseract nicht getroffen hat, ist nicht ihr Ziel.
+- **Die Facets fliegen rund um den Tesseract und feuern auf jeden in Reichweite.** Sie jagen weder den Piloten mit dem meisten Schaden noch sonst einen einzelnen: Jeder Facet fliegt eigene kurze Strecken zu zufälligen Orten eines weiten Rings um den Tesseract, in alle Richtungen, und sobald ein Pilot, der den Tesseract getroffen hat, in seiner Reichweite ist, feuert er auf den nächsten dieser Piloten. Eine Gruppe, die dicht beisammen bleibt, ist für weniger Facets gleichzeitig in Reichweite und teilt sich deren Feuer, anders als eine Gruppe, die rund um den Tesseract verteilt ist. Ein Facet hat wenig Hülle und Schild, und ihn abzuschießen zahlt so viel wie ein [Phantasm](/wiki/04-Aliens/Phantasm.md), nimmt aber den Piloten in seiner Nähe eine Salve ab. Ein Pilot, der den Tesseract nicht getroffen hat, ist nicht ihr Ziel.
 - **Wer weit genug wegbleibt, wird in Ruhe gelassen.** Die Facets entfernen sich nie weiter vom Tesseract als die Entfernung aus der Liste *Auf einen Blick*; wer jenseits davon und der Laserreichweite eines Facets bleibt, wird nicht beschossen, wie viel Schaden er auch gemacht hat. Ein Facet ohne Ziel fliegt weiter um den Tesseract und zieht ab, wenn der Tesseract in Ruhe gelassen wird.
 - **Beta und Gamma sind härter.** Die Schwärme dieser Welten sind stärker ([Welten](/wiki/05-Swarms/Swarms.md#the-worlds)), und das gilt auch für die Selbstheilung des Tesseract und die Salve jedes Facets.
-- **Die Gefahrensektoren sind PvP.** Ein Rivale kann die Gruppe mitten im Kampf angreifen und auf die Kiste warten: Sie gehört 30 Sekunden lang dem Piloten mit dem meisten Schaden (und seinem Clan), danach jedem ([Frachtkisten](/wiki/03-Mechanics/Cargo.md)). Komm nicht allein.
+- **Die Gefahrensektoren sind PvP.** Ein Rivale kann die Gruppe mitten im Kampf angreifen. Am Wrack liegt keine Kiste, auf die er warten könnte: Die Beute ist für jeden Piloten, den der Abschuss bezahlt, eine [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes), die nur dieser Pilot sehen und nehmen kann. Komm nicht allein.
 - **Der Tesseract kommt zurück**, nach der Zeit aus der Liste *Auf einen Blick*, mit voller Stärke und an seinem Heimatplatz.
 
 ## Belohnungen und Beute {#rewards-and-drops}
 
-Der Tesseract zahlt für den Kampf, der er ist: so viel wie viele Crystalys zusammen, und für den Schaden, den er einsteckt, mehr als ein Crystalys, das bestbezahlte Alien. Die Bezahlung wird nach Schaden unter den Piloten aufgeteilt, die ihn bekämpft haben ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Seine Kiste gehört dem Piloten mit dem meisten Schaden und enthält Power Cores und Ancient Control Units, hin und wieder Dark Matter. Die Hüllenplatten liegen nicht darin: Jeder Pilot, den der Abschuss bezahlt, bekommt seine eigene [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes) mit Platten, die nur er sehen und nehmen kann, 10 Minuten lang. Sie wird für seinen Schadensanteil ausgewürfelt, wie die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): Wer ein Fünftel des Schadens gemacht hat, bekommt etwa ein Fünftel der Mengen aus der Tabelle, und in einer Gruppe bekommt jeder Pilot seinen Teil vom Anteil der Gruppe, so wie die Bezahlung geteilt wird. Die Facets zahlen nichts, lassen nichts fallen und bringen keine PvE-Punkte: Sie abzuschießen ist kein Farmen.
+Der Tesseract zahlt für den Kampf, der er ist: so viel wie viele Crystalys zusammen, und für den Schaden, den er einsteckt, mehr als ein Crystalys, das bestbezahlte Alien. Die Bezahlung wird nach Schaden unter den Piloten aufgeteilt, die ihn bekämpft haben ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Für den Piloten mit dem meisten Schaden gibt es keine Kiste. Jeder Pilot, den der Abschuss bezahlt, bekommt eine eigene [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes), die nur er sehen und nehmen kann, 10 Minuten lang, mit Reinforced Hull Plates, Velkonite und Orvium Reinforced Plates, Power Cores, Ancient Control Units und Dark Matter. Sie wird für seinen Schadensanteil ausgewürfelt, wie die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot): Wer ein Fünftel des Schadens gemacht hat, bekommt etwa ein Fünftel der Mengen aus der Tabelle, und in einer Gruppe bekommt jeder Pilot seinen Teil vom Anteil der Gruppe, so wie die Bezahlung geteilt wird. Das Dark Matter hat je Pilot eine Obergrenze: Aus einem Abschuss bekommt er höchstens 5, wie groß sein Anteil auch ist (in einer Gruppe wird zuerst der Teil jedes Mitglieds abgeteilt, und die Obergrenze gilt für jeden Piloten einzeln), und was darüber liegt, geht verloren und wird nicht an die anderen verteilt. Ein Facet zahlt so viel wie ein [Phantasm](/wiki/04-Aliens/Phantasm.md) in Credits, Thulium, EP und Ehre, und sein Abschuss zählt als Abschuss (in deiner Statistik, für Erfolge und für die Erfahrung deiner Drohnen und P.E.T.s), lässt aber nichts fallen und bringt keine PvE-Punkte.
 
 ## Die Werte {#the-numbers}
 
@@ -70,21 +70,16 @@ Basis: Crystalys mit 625 % der Hülle; ohne Waffe, Schild und Tempo sind eigene
 | Ehre | 624 | 1.248 | 1.872 |
 | PvE-Punkte pro Abschuss | 42 | 42 | 42 |
 
-**Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.
+**Beute für jeden Piloten, den der Abschuss bezahlt**: je eine Kiste, nur für ihn, mit seinem Anteil an diesen Mengen.
 
 | Gegenstand | Chance | Menge |
 | :--- | ---: | ---: |
-| Power Core | 70 % | 1–2 |
-| Ancient Control Unit | 35 % | 1 |
-| Dark Matter | 2,5 % | 1 |
-
-**Beute für jeden Piloten, den der Abschuss bezahlt**: je eine weitere Kiste, nur für ihn, mit seinem Anteil an diesen Mengen.
-
-| Gegenstand | Chance | Menge |
-| :--- | ---: | ---: |
-| Reinforced Hull Plate | 100 % | 1–2 |
-| Velkonite Reinforced Plate | 60 % | 3–6 |
-| Orvium Reinforced Plate | 40 % | 1–2 |
+| Reinforced Hull Plate | 100 % | 3–10 |
+| Velkonite Reinforced Plate | 66 % | 7–12 |
+| Orvium Reinforced Plate | 50 % | 3–5 |
+| Power Core | 66 % | 4–7 |
+| Ancient Control Unit | 100 % | 1–4 |
+| Dark Matter | 100 % | 10–20, höchstens 5 je Pilot |
 
 ### Facet
 
@@ -98,12 +93,12 @@ Basis: Seeker mit 2.500 % der Hülle und 309 % des Laserschadens; Schild, Temp
 | Tempo | 750 | 750 | 750 |
 | Laserreichweite | 600 | 600 | 600 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
-| Credits | 0 | 0 | 0 |
-| Thulium | 0 | 0 | 0 |
-| Erfahrung (EP) | 0 | 0 | 0 |
-| Ehre | 0 | 0 | 0 |
+| Credits | 3.000 | 6.000 | 9.000 |
+| Thulium | 12 | 24 | 36 |
+| Erfahrung (EP) | 300 | 600 | 900 |
+| Ehre | 6 | 12 | 18 |
 | PvE-Punkte pro Abschuss | 0 | 0 | 0 |
 
-**Beute**: keine. Der Abschuss zahlt nichts.
+**Beute**: keine. Der Abschuss zahlt nur seine Credits, sein Thulium, seine EP und seine Ehre.
 
 <!-- tesseract-members:end -->

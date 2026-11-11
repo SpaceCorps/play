@@ -291,11 +291,11 @@ The Defense Module fights for your Skylab. It holds the lasers that shoot the al
 
 | Level | Lasers | Magazine (rounds) | Kill budget (points an hour) | Highest difficulty |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1,300 | 108 | 1 |
-| 2 | 2 | 3,600 | 293 | 2 |
-| 3 | 3 | 14,000 | 476 | 3 |
-| 4 | 4 | 23,000 | 548 | 4 |
-| 5 | 5 | 35,000 | 630 | 5 |
+| 1 | 1 | 1,600 | 108 | 1 |
+| 2 | 2 | 4,300 | 293 | 2 |
+| 3 | 3 | 16,000 | 476 | 3 |
+| 4 | 4 | 28,000 | 548 | 4 |
+| 5 | 5 | 42,000 | 630 | 5 |
 
 | Level | Credits | Thulium | Plates | Time |
 | :--- | ---: | ---: | ---: | ---: |
@@ -311,7 +311,8 @@ In all the five levels take 24,400,000 Credits, 97,600 Thulium, 26 plates and 5 
 
 The Radar Module lifts the fog of the universe map (see [Fog and scanning](#fog-and-scanning)). It has levels 1 to 3, and a higher level scans a cell faster.
 
-- **What it does**: it scans **one cell at a time**, among the cells next to a cell you know, and keeps a **line of three**: the first is being scanned and the others wait. When a scan is done you know the cell, and your Skylab may fly there.
+- **What it does**: it scans **one cell at a time**, among the cells next to a cell you know, and keeps a **line**: the first is being scanned and the others wait. When a scan is done you know the cell, and your Skylab may fly there.
+- **Line**: the line holds **3 cells at level 1** and **2 more with every level above it**: 5 at level 2 and 7 at level 3. An upgrade only adds room, and the cells already in the line keep their places. While the module is switched off, being upgraded or without power, the line is kept but takes no new cell.
 - **Time**: 90 minutes a cell at level 1, 40 at level 2 and 15 at level 3. A scan runs on the server's clock, also while you are away and while the Skylab flies. It stands still, and the time is not made up, while the module is switched off, being upgraded or without power and while the Skylab is destroyed. A scan costs time and nothing else.
 - **Charting everything**: to chart the 131 cells you do not know at the start, one after the other, takes 8 d 4 h at level 1, 3 d 15 h at level 2 and 1 d 9 h at level 3.
 - **Research**: every level needs its own technology, Radar Module I to III (see the table above).
@@ -384,18 +385,18 @@ Every module weighs something, in **mass units (MU)**, and a heavier station fli
 The top level is 20, but for the Research Centre (10), the Engine and Defense Modules (5) and the Radar Module (3). The whole station weighs 2,353 MU at Core level 15 and 2,734 MU at level 20.
 
 - **Thrust** is the engines' own arithmetic of the ships, without a base speed: an engine adds its base speed plus the flat speed of its thrusters, times their multipliers; the engines are ranked best first and the first four count 100% and the fifth 85% (the module holds five at most); and the four best speed bonuses are added on top. A station with no engine has no thrust.
-- **Speed** is 60 times the thrust over the weight of the station, in units a second, and a hop between two neighbouring cells is 15,000 units. Under the power, the Skylab page shows the line "Weight 2,353 MU, speed 7.5 units/s, a hop 33 min".
+- **Speed** is 60 times the thrust over the weight of the station, in units a second, and a hop between two neighbouring cells is 15,000 units. Under the power, the Skylab page shows the line "Weight 2,353 MU, speed 8.9 units/s, a hop 28 min".
 - **Fixed at departure**: a trip's speed is worked out when it leaves, from the weight and thrust of that moment. An upgrade that ends on the way, or an engine you change while the Skylab is stationed, counts for the next trip.
 
 What engines do for a station with every module at level 15 (the Engine Module at the level that holds the engines):
 
 | Engines fitted | Weight (MU) | Thrust | Speed (units a second) | One hop | Across the map (14 hops) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Engine Module level 1) | 2,289 | 2.0 | 0.05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, each with 2 Impulse Thruster II (level 3) | 2,321 | 71.6 | 1.85 | 2 h 15 min | 1 d 8 h |
-| 5 Engine III, each with 3 Impulse Thruster IV (level 5) | 2,353 | 295.3 | 7.53 | 33 min | 7 h 45 min |
+| 1 Engine I (Engine Module level 1) | 2,289 | 5.1 | 0.13 | 1 d 7 h | 18 d 4 h |
+| 3 Engine II, each with 2 Impulse Thruster II (level 3) | 2,321 | 92.1 | 2.38 | 1 h 45 min | 1 d |
+| 5 Engine III, each with 3 Impulse Thruster IV (level 5) | 2,353 | 350.6 | 8.94 | 28 min | 6 h 32 min |
 
-At Core level 20 the station weighs 16% more, and the best engines take 39 minutes a hop and 9 h across the map.
+At Core level 20 the station weighs 16% more, and the best engines take 32 minutes a hop and 7 h 35 min across the map.
 
 ## Expeditions
 
@@ -432,7 +433,7 @@ You see only the cells you know.
 - **A cell you do not know** shows nothing of itself: not its kind, its difficulty, its name or its aliens. A cell next to a known cell is marked with a **?** and can be scanned; any other unknown cell is dark.
 - **A known cell** shows its code, kind, difficulty, name and aliens in its panel.
 - **Flying** is only into known cells.
-- **Scanning**: pick a **?** cell and press **Scan this cell**. The Radar scans one cell at a time and keeps a line of three; a cell can be taken out of the line again, and **Cancel all** empties it. The time of a scan is on the [Radar Module](#radar-module).
+- **Scanning**: pick a **?** cell and press **Scan this cell**. The Radar scans one cell at a time and keeps a line (3 cells at level 1, 2 more with every level); a cell can be taken out of the line again, and **Cancel all** empties it. The time of a scan is on the [Radar Module](#radar-module).
 
 ### The trip
 
@@ -680,6 +681,7 @@ Every farm and collector has a hopper for about 72 hours of what it makes. You c
 - **Forgery**: the plates go to your inventory, when your ship is landed.
 - **Ammo Printer and Rocket Factory**: the ammo and the rockets go to your inventory, when your ship is landed. Each keeps only 24 hours of production (see [Ammo Printer](#ammo-printer) and [Rocket Factory](#rocket-factory)).
 - **Ore Bay**: nothing to collect. It moves the ore of your inventory into the Resource Storage when you press Move, with your ship landed, up to its allowance (see [Ore Bay](#ore-bay)).
+- **Pilot skills**: a collection pays what the hours are worth with the skills you have when you collect. **Extraction** raises what the farms, the collectors, the Ammo Printer and the Rocket Factory make, **Instinct** raises the ore of the two collectors further, and **Logistics** enlarges what the Resource Storage's bank holds.
 - **Trophies Bay**: collected in the Universe window, with your ship landed: Credits and Thulium go to your account, experience and honor to your pilot and the loot to your inventory. It keeps what it holds until you collect it, but a full Bay makes the Skylab hold fire (see [Trophies Bay](#trophies-bay)).
 - **Collect All** takes everything at once, switched-off and upgrading modules included, but not the Trophies Bay, which you collect in the Universe window.
 - A **(!)** badge points out a full hopper you can empty, and plates waiting in the Forgery, on the Skylab page and on the sidebar's Skylab row.

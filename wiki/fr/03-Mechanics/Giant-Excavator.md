@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Excavatrice géante -->
 # Excavatrice géante {#giant-excavator}
 
@@ -120,6 +120,7 @@ L’extraction ajoute de la chaleur seconde après seconde. La chaleur est **cum
 
 <!-- excavator-radiation:end -->
 
+- **Technique de radiation.** Une compétence de pilote qui réduit la dose dans les cercles comme au trou noir, jusqu’à 0,40 de celle-ci au niveau 100 ; les cercles et les durées ne changent pas.
 - **L’avertissement.** Deux fois avant la surchauffe (les durées sont dans la liste ci-dessus), la carte est prévenue, un vaisseau dans les cercles voit un avertissement, et les cercles sont dessinés au sol en vol et sur la minicarte. Quand ils irradient, les cercles sont rouges et la jauge de Radiation montre la dose.
 - **Partir.** Tout vaisseau de série peut sortir depuis le bord du panneau ou depuis la caisse la plus éloignée encore là, sauf l’Ironclad, qui est lent : il part pendant l’avertissement, ou il ne part pas. Ne restez pas sur une caisse quand la chaleur arrive à sa limite.
 - **Le butin dans les cercles.** Les caisses déposées avant la surchauffe restent, dans la radiation : une caisse qui s’y trouve quand elle commence se prend au prix de la dose.

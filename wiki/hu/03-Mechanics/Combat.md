@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6032abb12d3d13a5 -->
+<!-- wiki-i18n source: 00e6e072226a1f45 -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -32,12 +32,17 @@ Minden sortűz kritikus találat is lehet.
 Végül a globális szorzók (például az aktív boosterek, mint a Laser Damage Booster +10%-a, vagy a lézerlőszer szorzói, mint az x2, x3, x4) érvényesülnek, hogy kijöjjön a végső sebzés:
 - Képlet: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) még egyszer szorozhatja az eredményt: például az Auger +21% lézersebzéssel, a Gyre −11%-kal, idegenek ellen a Culler +12%-kal (külön tényező, nem része a booster-százaléknak).
+- A pilóta [Lézertechnikája](#laser-tech) még egyszer szorozza a sortüzet: az alapsebzést, és vele együtt a kritikus találat fix sebzését.
 - A **Siphon Battery** lőszer szorzója x1, de a célpontja más: a sebzése kizárólag a célpont pajzsából jön (sosem a hajótestből, bármekkora is az elnyelés), és a saját pajzsodba kerül, a maximumodig. Lásd: [Lézerek és lőszer](/wiki/06-Items/Lasers.md).
 - A **Dark Matter Ammo** (0.5.0) magát a sortüzet változtatja meg: a Dark Matter Ammo I minden sortűznél újra sorsolja a szorzóját (x1,5-től x5-ig), a Dark Matter Ammo II x6-tal csap le, de csak 1,5 másodpercenként egyszer, és visszaadja neked a célpont pajzsa által elszenvedett sebzés negyedét. Az **Antimatter Battery** lőszer a célpont elnyelésének 20%-át áthatolja. Lásd: [Antimatter és Dark Matter lőszer](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Rakéták {#3b-rockets}
 
-Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 700–2 100, egy Lancet III 5 200–6 200, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **3 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a középpontban a teljes számmal, a szélén annak a felével. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók. A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) az egyetlen, ami mindkettőt megváltoztatja: egy rakétaformáció növeli minden rakéta sebzését (legfeljebb +55%), néhány pedig hosszabbá vagy rövidebbé teszi az időzítőt. Az [aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md) a rakétáktól sérülnek, a lézerektől pedig annak az 5%-ától, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja); a drónok nem ártanak nekik, és a lövés útjába eső aszteroida kapja el a találatot a mögötte lévő hajó helyett ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), és egy [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) is.
+Egy [rakéta](/wiki/06-Items/Rockets.md) saját sebzéssel rendelkezik (egy Lancet I 1 700–2 100, egy Lancet III 5 200–6 200, egy N.U.K.E. 45 000–50 000), amelyet kilövéskor egyszer sorsol a rendszer, és amely minden hajónál ugyanannyi: a lézereid, az erősítőid, a boosterek és a lőszer nem változtatják meg, és nincs kritikus találata. Az összes rakéta egyetlen **3 másodperces** időzítőn osztozik. Az egycélpontos rakétának **pajzsáthatolása** van: ez levonódik a célpontod elnyeléséből (lásd lent: Sebzés és biztonságos zónák); a robbanás a sugarán belül minden hajót megsebez, a középpontban a teljes számmal, a szélén egy Ember vagy egy Scatter esetén annak 66%-ával, a N.U.K.E. esetén annak a felével. Semmi sem korlátozza, mennyit vesz el egy rakéta egy pilóta hajójától: előbb a pajzsot, aztán a hajótestet. A rakéták sosem sebzik a saját vállalatodat vagy a saját [csoportodat](/wiki/03-Mechanics/Groups.md), akkor sem, ha a csoport tagjai különböző vállalatokból valók. A viselt [drónformáció](/wiki/03-Mechanics/Formations.md) mindkettőt megváltoztatja: egy rakétaformáció növeli minden rakéta sebzését (legfeljebb +55%), néhány pedig hosszabbá vagy rövidebbé teszi az időzítőt. A [Rakétatechnikád](/wiki/06-Items/Rockets.md#rocket-tech), egy pilótakészség, a sebzést is szorozza (az 1. szinten 0,80-nal, a 100. szinten 1,10-zel), és előfordulhat, hogy egy rakéta nem gyullad be. Az [aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md) a rakétáktól sérülnek, a lézerektől pedig annak az 5%-ától, amit egy sortűz egy hajónak okoz (az erősítőid, a boostereid, a lőszered és a kritikus találataid számítanak, utána vonódik le az aszteroida páncélja); a drónok nem ártanak nekik, és a lövés útjába eső aszteroida kapja el a találatot a mögötte lévő hajó helyett ([Fedezék](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), és egy [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall) is.
+
+### 3c. Lézertechnika {#laser-tech}
+
+A **Lézertechnikád**, egy [pilótakészség](/wiki/03-Mechanics/Pilot-Skills.md), két dolgot változtat egy hajóra leadott sortűzön. A sortűz sebzését egy olyan tényezővel szorozza, amely az 1. szinten 1 alatt van, és a szinttel nő (az alapsebzést és a kritikus találat fix sebzését egyaránt). És meghatározza, hogy a sortűz egyáltalán eltalál-e. A mellément sortűz lebegő „Miss” feliratot mutat a célpont fölött, nem okoz sebzést, és **a lőszerét mégis elhasználja**; a célpont saját kitérési esélyével szemben nem próbálják ki még egyszer. A tényező és az esély minden szinten a [Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) táblázatában áll. A [Rakétatechnika](/wiki/06-Items/Rockets.md#rocket-tech) ugyanezt teszi a rakétákkal.
 
 ### 4. Szembefordulás a célponttal {#4-facing-the-target}
 
@@ -51,7 +56,7 @@ Egy hajó másodpercenként egy sortüzet ad le, amíg a célpontja a **hatótá
 
 Egy találat a hajó fölött lebegő számként jelenik meg, amelyet eltalál. **A saját számaid** mindig látszanak: a sebzés, amelyet okozol, a sebzés, amelyet kapsz, és a saját javításaid. **A célzás alatt álló hajó** többet mutat: minden találatot és minden gyógyulást, amelyet kap, **bármilyen forrásból**. Ez a többi pilóta lézereit, rakétáit és drónjait, az idegeneket, a Clan Wardeneket, valamint a hajó saját javításait és pajzsregenerálódását jelenti. Ha valaki más lő a célpontodra, látod az ő sebzését.
 
-- **Színek.** Arany: sebzés egy idegenen vagy egy ellenséges pilótán. Piros mínusszal: sebzés egy hajón, amelyet véded (a saját vállalatod vagy csoportod pilótája), és a sebzés, amelyet te magad kapsz. Zöld pluszjellel: gyógyulás, például egy Emergency Repair, egy Repair Drone vagy visszatérő pajzs. Halvány ezüst „Miss”: egy közvetlen találat, amelyet egy formáció kitérése elhárított. Egy kritikus sortűz nagyobb, és „!”-ra végződik (jégkék, ha egy idegent vagy ellenséget talál el).
+- **Színek.** Arany: sebzés egy idegenen vagy egy ellenséges pilótán. Piros mínusszal: sebzés egy hajón, amelyet véded (a saját vállalatod vagy csoportod pilótája), és a sebzés, amelyet te magad kapsz. Zöld pluszjellel: gyógyulás, például egy Emergency Repair, egy Repair Drone vagy visszatérő pajzs. Halvány ezüst „Miss”: egy közvetlen találat, amely nem okozott sebzést, mert a sortűzed mellément ([Lézertechnika](#laser-tech)), vagy a célpont kitért előle (egy formáció kitérése, egy pilóta [Kitérése](#grit-and-evasion)). Egy kritikus sortűz nagyobb, és „!”-ra végződik (jégkék, ha egy idegent vagy ellenséget talál el).
 - **A tieid fényesebbek maradnak.** A mások számai a célpontodon kicsit kisebbek és halványabbak, és a hajótól jobbra egy oszlopban állnak, így sosem takarják el a tieidet.
 - **Egy szám egy tömegnek.** Az együtt érkező találatok egyetlen számmá adódnak össze, mögötte a darabszámmal (`×35`). Negyven pilóta, aki egy hajóra lő, másodpercenként nagyjából két számot ad, és soha nem többet hétnél. A gyógyulások másodpercenként egyszer jelennek meg.
 - **Csak a kör alatti hajó.** Minden más hajó csak a saját találataidat és a rád érkező találatokat mutatja. A fekete lyuk sugárzásának és egy formáció pajzselszívásának nincs száma: a sávokon látszanak.
@@ -116,8 +121,8 @@ Amikor a hajódat egy ellenség vagy NPC eltalálja, a sebzés a következőkép
 ### 1. Pajzselnyelés {#1-shield-absorption}
 
 A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **átlagos elnyelése** szerint: a pajzsaid elnyelésének átlaga, mindegyik a pajzscelláival együtt, plusz a Szezonbolt Shield Absorbance Boost buffja (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md)). **Nincs 100%-ra korlátozva**: az, amit a pajzsok egy találatból felfognak, az elnyelésed **mínusz a támadó pajzsáthatolása**, 0% és 100% között.
-- Minden találatnak az **elnyelés** (pl. 85% a legjobb pajzsnál a legjobb cellákkal, 58% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 50%-ot hagy a pajzsokon egy 85%-os hajónál, a többi (itt 50%) pedig közvetlenül az életerőt éri.
-- A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+3% és +12% között foglalatonként) és egy drónformáció hozzáadódnak, és semmi sem korlátozza az összeget.
+- Minden találatnak az **elnyelés** (pl. 91% a legjobb pajzsnál a legjobb cellákkal, 62% egy Basic Shield Core-nál két Absorption Shield Cell I-gyel) szerinti részét a pajzsok fogják fel, levonva a találat áthatolását: egy Lancet III 35%-a 56%-ot hagy a pajzsokon egy 91%-os hajónál, a többi (itt 44%) pedig közvetlenül az életerőt éri.
+- A **pajzsáthatolás** az egycélpontos rakétákból (10–35%) és az x3 és x4 lézerlőszerből (5% és 10%) származik; az idegeneknek nincs. Egy 100% fölötti hajó (mondjuk 112%) a különbségig (itt 12%) terjedő áthatolás ellen is egész találatot tart. A lövő lézereinek Penetration Amp-jei (+5% és +20% között foglalatonként) és egy drónformáció hozzáadódnak, és semmi sem korlátozza az összeget.
 - Ha egy pajzs túl alacsony az arányához, a különbséget az életerőre engedi át; ha a pajzsok teljesen kiürültek, a maradék sebzés **100%-a** közvetlenül az életerőt éri.
 - Az idegeneknek nincs elnyelési értékük: a pajzsuk minden találat 80%-át fogja fel (levonva a találat áthatolását), a hajótestük a többit.
 - **Drónformációk.** A Rampart 17%-kal növeli az elnyelésedet (a Shrike 10%-kal csökkenti), az Asterism pedig a rád érkező minden közvetlen találatot 7% eséllyel hatástalanná tesz (egy lebegő „Mellé” felirat jelenik meg), a célba érő találatokon pedig a pajzs és a hajótest a szokásos módon osztozik. A Gemini (+15 pont) átütést ad a saját lőszeredhez és a közvetlen rakétákhoz, a Stiletto (+35 pont rakétaátütés) csak a közvetlen rakétákhoz, felső határ nélkül ([Drónformációk](/wiki/03-Mechanics/Formations.md)). Lézer esetén az erősítői is beleszámítanak.
@@ -133,6 +138,15 @@ Minden vállalat otthoni bázisa (az X-1 térképek) biztonságos zónákat tart
 ### 3. Támadás alatt egy veszélyes szektorban {#3-under-attack-in-a-danger-sector}
 
 A portálon át történő ugrás 3 másodpercig tart (lásd [Utazás az űrtérképen](/wiki/01-General/Spacemap%20Travel.md)). A veszélyes szektorokban (`DS-1`–`DS-4`) az a pilóta, akinek a hajóját az elmúlt **10 másodpercben** egy másik pilóta vagy egy idegen eltalálta, nem indíthat ugrást, és egy találat megszakítja a folyamatban lévőt. Máshol a támadások sosem szakítják meg az ugrást, és semmi sem szakítja meg a [rakományláda](/wiki/03-Mechanics/Cargo.md) felvételét.
+
+### 4. Szívósság és Kitérés {#grit-and-evasion}
+
+Két [pilótakészség](/wiki/03-Mechanics/Pilot-Skills.md) változtatja meg, mit tesz veled egy találat, a pajzsaidon és a formációdon felül:
+
+- A **Szívósság** levon egy részt minden találat sebzéséből, mielőtt a pajzs és a hajótest szétosztaná egymás közt, így mindkettőből levon. A rész a készség szintjével nő.
+- A **Kitérés** növeli az esélyét, hogy egy közvetlen találat egyáltalán nem okoz sebzést (lebegő „Miss” jelenik meg). Minden pilóta hajójának van már egy kis saját esélye; a Kitérés ehhez adódik, a kitéréssel bíró [drónformáció](/wiki/03-Mechanics/Formations.md) pedig mindkettőhöz. Az esély nem mehet 100% fölé. A területi robbanás nem céloz, és soha nem lehet kitérni előle.
+
+Az egyes szintek értékei a [Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) táblázatában vannak.
 
 ---
 
@@ -154,9 +168,9 @@ A [Siphon Battery](/wiki/06-Items/Lasers.md) lőszer a célpontból elszívott p
 
 - **Működés**: ha felszerelsz egy Repair Drone-t (a hangár Extrák között), a gyorssávról kapcsolod be (húzd az Extrák menüjéből egy helyre), és javítja a hajótestedet (HP). Bármilyen találat kikapcsolja, és teli hajótestnél leáll. Ha fel van szerelve egy [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu), nem kell újra bekapcsolnod: a CPU magától kiküldi, amint letelt az alábbi késleltetés, hacsak kézzel le nem állítottad.
 - **Javítási ütem**: másodpercenként a maximális életerőd egy százalékát állítja vissza (csak a legjobb felszerelt drón számít, nem adódnak össze):
-  - **Repair Drone I**: 1,5% max. HP / mp
-  - **Repair Drone II**: 2,25% max. HP / mp
-  - **Repair Drone III**: 3,5% max. HP / mp
+  - **Repair Drone I**: 2% max. HP / mp
+  - **Repair Drone II**: 3% max. HP / mp
+  - **Repair Drone III**: 4% max. HP / mp
   - **Repair Drone IV**: 5% max. HP / mp
 - **Késleltetés**: a javítódrónok csak **10 másodpercnyi** sebzésmentesség után kezdik foltozni a hajótestet.
 - **Képességfoglalatban** a Repair Drone nem javít magától: egy **Emergency Repair** nevű gombot ad, amely tíz másodperc alatt gyógyítja a maximális életerőd egy részét, még tűz alatt is (lásd [Képességek](/wiki/03-Mechanics/Abilities.md)).

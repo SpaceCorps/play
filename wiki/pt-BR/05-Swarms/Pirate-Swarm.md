@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9070ca3143eddf92 -->
+<!-- wiki-i18n source: aace02deb18f7c01 -->
 <!-- wiki-i18n title: Enxame Pirate -->
 # Enxame Pirate {#pirate-swarm}
 
@@ -32,7 +32,7 @@ O enxame Pirate é um **Pirate Boss** com seus **Pirate Scouts**: uma nave enorm
 - **Atire no chefe, não nos Scouts.** Os Scouts curam o chefe, mas a cura é pequena perto do casco dele, e um novo Scout chega com a frequência que a lista *Resumo rápido* indica: um grupo que mata os Scouts primeiro nunca passa à frente deles, e só um grupo muito grande consegue eliminá-los e ainda assim leva mais tempo para acabar com o chefe do que um que os deixou em paz. Os Scouts custam tempo, não decidem a luta.
 - **Afaste os Scouts.** Um Scout só cura enquanto está ao alcance do chefe, então um Scout que segue você para fora desse alcance não cura nada, e uma Ostirion é mais rápida que um Scout.
 - **Não pare de se mover.** O foguete do chefe é reto e não guiado: uma nave que não para de se mover o esquiva, uma parada é atingida.
-- **Leve um grupo.** Três pilotos em Ostirions com munição x2 perdem em `x-3` mesmo enquanto os acertos são divididos, mas o derrubam em `x-2` sem perder nenhuma nave; quatro o derrubam em cerca de quatro minutos em Alpha. Com munição x4, três bastam também em `x-3` (cerca de dois minutos e meio). Cinco o derrubam em cerca de três minutos quando os acertos são divididos e em cerca de quatro quando um piloto leva todo o fogo, e então perdem duas naves: um grupo que deixa um piloto levar todo o fogo precisa de cinco. Em Beta são necessários cinco pilotos e em Gamma sete, com os acertos divididos (o chefe é maior lá e seus Scouts curam mais). Em Alpha, em `x-3` e com munição x2, uma Ostirion sozinha não consegue, e uma Paragon sozinha também não: duas Paragons conseguem com segurança. Em Beta e Gamma, em `x-3`, uma Paragon sozinha é destruída, tanto com munição x2 quanto com x4. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
+- **Leve um grupo.** Três pilotos em Ostirions com munição x2 o derrubam em `x-2` sem perder nenhuma nave, e em `x-3` também enquanto os acertos são divididos, embora por pouco; quatro o derrubam em cerca de três minutos e meio em Alpha. Com munição x4, três o derrubam em `x-3` em cerca de dois minutos. Cinco o derrubam em cerca de dois minutos e meio quando os acertos são divididos e em cerca de três quando um piloto leva todo o fogo, e então perdem duas naves: um grupo que deixa um piloto levar todo o fogo precisa de quatro. Em Beta são necessários cinco pilotos e em Gamma seis, com os acertos divididos (o chefe é maior lá e seus Scouts curam mais). Em Alpha, em `x-3` e com munição x2, uma Ostirion sozinha não consegue, uma Paragon sozinha consegue por pouco, e duas Paragons conseguem com segurança. Em Beta e Gamma, em `x-3`, uma Paragon sozinha é destruída com munição x2; com munição x4 ela vence em Beta e é destruída em Gamma. O chefe responde ao primeiro piloto que o acertou, então deixe a nave mais resistente começar, e use suas habilidades (Emergency Repair, Shield Surge: [Habilidades](/wiki/03-Mechanics/Abilities.md)) numa luta tão longa. Pilotos que ainda são de nível 2 ou 3 são fracos demais para ele, mesmo onde voam: fique longe até estar mais forte.
 - **O chefe volta** depois do tempo da lista *Resumo rápido*, no mesmo setor.
 
 ## Recompensas e saque {#rewards-and-drops}
@@ -52,7 +52,7 @@ Base: Ironclad, com 50% de casco, escudo e dano; a velocidade e o alcance são o
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Casco | 300.000 | 450.000 | 600.000 |
+| Casco | 250.000 | 375.000 | 500.000 |
 | Escudo | 50.100 | 75.150 | 100.200 |
 | Dano dos lasers (uma salva por segundo) | nenhum | nenhum | nenhum |
 | Velocidade | 110 | 110 | 110 |

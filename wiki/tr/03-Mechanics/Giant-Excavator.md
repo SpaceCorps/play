@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Dev ekskavatör -->
 # Dev ekskavatör {#giant-excavator}
 
@@ -120,6 +120,7 @@ Kazı saniye saniye ısı ekler. Isı **birikimlidir ve ekskavatör beklerken as
 
 <!-- excavator-radiation:end -->
 
+- **Radyasyon tekniği.** Karadelikte olduğu gibi dairelerdeki dozu düşüren bir pilot yeteneği; 100. seviyede dozun 0,40 katına iner. Daireler ve süreler değişmez.
 - **Uyarı.** Aşırı ısınmadan önce iki kez (süreler yukarıdaki listede) haritaya haber verilir, dairelerin içindeki bir gemi bir uyarı görür ve daireler uçuşta yere, mini haritaya da çizilir. Radyasyon yaydıklarında daireler kırmızıdır ve Radyasyon göstergesi dozu gösterir.
 - **Ayrılmak.** Yavaş olan Ironclad dışında her standart gemi, panelin kenarından ya da hayattaki en uzak kutudan çıkabilir: Ironclad uyarı sırasında çıkar, yoksa çıkamaz. Isı çubuğu dolduğunda bir kutunun üzerinde durma.
 - **Dairelerdeki ganimet.** Aşırı ısınmadan önce bırakılan kutular radyasyonun içinde kalır: o başladığında orada yatan bir kutu dozun bedeliyle alınır.

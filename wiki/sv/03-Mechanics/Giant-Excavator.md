@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Jättegrävmaskin -->
 # Jättegrävmaskin {#giant-excavator}
 
@@ -120,6 +120,7 @@ Brytningen lägger på värme sekund för sekund. Värmen är **kumulativ och sv
 
 <!-- excavator-radiation:end -->
 
+- **Strålningsteknik.** En pilotförmåga som sänker dosen i cirklarna precis som vid det svarta hålet, till 0,40 av den på nivå 100; cirklarna och tiderna ändras inte.
 - **Varningen.** Två gånger före överhettningen (tiderna står i listan ovan) får kartan veta det, ett skepp inom cirklarna ser en varning, och cirklarna ritas på marken under flygning och på minikartan. När de strålar är cirklarna röda och Strålningsmätaren visar dosen.
 - **Att lämna området.** Alla standardskepp kan ta sig ut från panelens kant eller från den längst bort belägna låda som finns kvar, utom den långsamma Ironclad: den lämnar under varningen, eller så lämnar den inte. Stå inte på en låda när värmen tar slut.
 - **Byte i cirklarna.** Lådor som lagts före överhettningen ligger kvar i strålningen: en låda som ligger där när den börjar tas till priset av dosen.

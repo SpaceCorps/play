@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97e5ffd31b68d936 -->
+<!-- wiki-i18n source: 27da9216daf781fe -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -79,6 +79,8 @@ Você alimenta o Centro com recursos, e cada unidade vira ciência na hora. Quan
 A última coluna é o número de unidades que sustentam uma hora de pesquisa sem o boost, arredondado para cima; com o boost são 2 vezes mais.
 
 <!-- research-fuel:end -->
+
+Sua habilidade **Science** aumenta a ciência de cada unidade que você coloca, e o tanque conta a ciência com o mesmo número. A tabela acima mostra o número de um piloto do primeiro nível. Cada tecnologia que o Centro de Pesquisa conclui treina a habilidade.
 
 ## O boost de Thulium {#the-thulium-boost}
 
@@ -284,9 +286,16 @@ Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 6048
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
-Rivet II => Rivet III
+Lancet III => Freeze Rocket
+Lancet III => EMP Rocket
+Lancet III => Toxic Rocket
+Lancet III => Marking Rocket
+Lancet III => Cooldown Rocket
+Rivet II => Rivet III => Shield Breaker
 Ember II => Ember III
-Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter II => Scatter III
+Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter III => Support Rocket
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
 ```
 
@@ -302,9 +311,12 @@ Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 sc
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
+Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
+Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
+Mine II => Mine III
 ```
 
 ### Defesa {#tree-defence}
@@ -524,30 +536,32 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 | [Ember III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10.800 | – |
 | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 min | 1.800 | – |
 | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 h | 10.800 | – |
-| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14.400 | – |
-| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14.400 | – |
-| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 h | 21.600 | – |
-| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14.400 | – |
-| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 h | 14.400 | – |
-| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | C | 8 h | 28.800 | – |
+| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 h | 14.400 | – |
+| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 h | 14.400 | – |
+| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6 h | 21.600 | – |
+| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 h | 14.400 | – |
+| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 h | 14.400 | – |
+| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | C | 8 h | 28.800 | – |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | D | 1 d | 86.400 | 10 |
-| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 h | 21.600 | – |
+| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6 h | 21.600 | – |
 | [Rocket Launcher II](/wiki/06-Items/Extras.md) | – | D | 2 d | 172.800 | – |
 | [Rocket Launcher III](/wiki/06-Items/Extras.md) | [Rocket Launcher II](/wiki/06-Items/Extras.md) | D | 4 d | 345.600 | – |
 | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | [Rocket Launcher III](/wiki/06-Items/Extras.md) | D | 7 d | 604.800 | – |
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 d | 864.000 | – |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 h | 10.800 | – |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 h | 21.600 | – |
 
 As classes, por tempo de pesquisa:
 
 | Classe | Tempo de pesquisa | Tecnologias | Uma após a outra | Ciência | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min a 1 h | 17 | 9 h 30 min | 34.200 | 0 |
-| B | 3 h a 6 h | 33 | 5 d 2 h | 439.200 | 0 |
+| B | 3 h a 6 h | 35 | 5 d 11 h | 471.600 | 0 |
 | C | 8 h a 10 h | 19 | 7 d 18 h | 669.600 | 95 |
 | D | 1 d a 10 d | 28 | 52 d | 4.492.800 | 329 |
-| Todas |  | 97 | 65 d 5 h 30 min | 5.635.800 | 424 |
+| Todas |  | 99 | 65 d 14 h 30 min | 5.668.200 | 424 |
 
-Pesquisada uma após a outra, a árvore inteira leva 65 d 5 h 30 min. Com o boost ligado o tempo todo, leva 32 d 14 h 45 min, o que dá 33 boosts e 165.000 Thulium; a ciência é a mesma.
+Pesquisada uma após a outra, a árvore inteira leva 65 d 14 h 30 min. Com o boost ligado o tempo todo, leva 32 d 19 h 15 min, o que dá 33 boosts e 165.000 Thulium; a ciência é a mesma.
 
 <!-- research-technologies:end -->
 
@@ -569,6 +583,8 @@ As novas CPUs também são pesquisadas aqui e depois criadas na Montagem. A mesm
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15.000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20.000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Nenhuma é vendida na Loja: pesquise a tecnologia e depois crie a CPU na Montagem. Passe o mouse sobre uma CPU na árvore dela para ver o que a Montagem pede para criá-la.
 

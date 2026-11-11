@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 ## Värden {#stats}
 
-- **Träffpoäng (HP)**: 600 000
+- **Träffpoäng (HP)**: 500 000
 - **Grundhastighet**: 110
 - **Laserplatser**: 8
 - **Extraplatser**: 3
@@ -27,7 +27,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 15 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 15 fyllda med Hull Plating III ger 225 000 skrov.
+- **Pansarplatser.** Det här skeppet har 15 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 15 fyllda med Hull Plating III ger 375 000 skrov.
 - **Designer.** Skeppet har 2 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |

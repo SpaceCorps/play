@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: 虫群 -->
 # 虫群 {#swarms}
 
@@ -87,8 +87,8 @@ Seeker、Pirate、Phantasm、Goombah、Crystalys 和 Tesseract 虫群会在 Boss
 普通外星人把奖励付给第一个击中它的飞行员（[战斗](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)）。虫群的头领和每个 Dormant Pulse 则改为**按造成的伤害**支付：
 
 - **奖励按伤害分配。** 每个造成了不低于上面规则所给比例的伤害的飞行员都会获得奖励，与其造成的伤害成比例：这次击杀的信用点、Thulium、经验值和荣誉在他们之间分配。低于该比例的飞行员什么都得不到。
-- **货箱归造成伤害最多的飞行员。** 和任何外星人一样，它在 30 秒内属于该飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。Dormant 的每艘舰船都有自己的伤害统计和自己的货箱。
-- **随从照常支付**：Pirate Scout、Seeker Slave，以及 Phantasm、Goombah 和 Crystalys 虫群的 Guard，把奖励付给第一个击中它们的飞行员，它们的奖励与 Boss 相比很少。
+- **货箱归造成伤害最多的飞行员。** 和任何外星人一样，它在 30 秒内属于该飞行员（及其战队），之后任何人都可以拾取（[货箱](/wiki/03-Mechanics/Cargo.md)）。Dormant 的每艘舰船都有自己的伤害统计和自己的货箱。Tesseract 是例外：它不掉落货箱，击杀所支付的每名飞行员都会得到属于自己的私人货箱（[Tesseract 虫群](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)）。
+- **随从照常支付**：Pirate Scout、Seeker Slave、Phantasm、Goombah 和 Crystalys 虫群的 Guard，以及 Tesseract 虫群的 Facet，把奖励付给第一个击中它们的飞行员，它们的奖励与 Boss 相比很少。
 - **Boss 的奖励被设计得高于它周围的外星人。** 与 Pirate Boss、Boss Phantasm 或 Boss Goombah 战斗一分钟的收益高于与 Goombah 战斗一分钟，与 Dormant 虫群或 Boss Crystalys 战斗一分钟的收益则高于与 Crystalys 战斗一分钟；Boss Seeker 的奖励恰好是十只 Seeker。
 - **Dormant Swamp 的外星人**（Slumbering Void、Inert Mass 和 Unwakened）像首领一样按伤害支付奖励，并为你的排名增加 PvE 积分；它们的数字见 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens)。
 

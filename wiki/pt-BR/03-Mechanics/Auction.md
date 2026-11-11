@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Leilão -->
 # Leilão {#auction}
 
@@ -134,6 +134,8 @@ Um anúncio custa um **depósito**, pago ao anunciar e nunca devolvido, e uma ve
 | Helios Beam: nível 12, 504 h, nos últimos dias de uma temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 
 <!-- market-fees:end -->
+
+Sua habilidade **Commerce** tira até metade do depósito dos seus anúncios e ordens de compra (arredondado para cima, nunca a zero). O imposto é igual para todos, e a tabela acima mostra o número de um piloto do primeiro nível. Cada venda e cada ordem de compra atendida treina a habilidade, tanto do vendedor quanto do comprador.
 
 ## Comprar {#buying}
 
@@ -284,8 +286,8 @@ No reset, **todo anúncio aberto volta para o vendedor** como itens soltos, e o 
 O Leilão serve para negociar o que você ganha, e é honesto sobre os seus limites.
 
 - **Vender drops não é grind.** Os drops brutos de alienígenas são só recursos e valem de 0,4 a 0,9 por cento do que a mesma hora de caça no nível 5 paga em abates. O que o Mercado dá a um piloto novo é o equipamento que as missões dele pagam e de que ele não precisa (uma vez), os recursos das missões de Desafio, as caixas dos chefes de enxame e o que ele cria.
-- **Não há comerciante.** Uma ordem de compra é de um piloto e é coberta com o dinheiro dele: o jogo não compra de você por preço nenhum. As ordens de compra, em que um piloto diz o que quer comprar e por quanto, dão a quem vende um comprador sempre presente, e ao artesão, que compra materiais, cria equipamento na Montagem e o vende, um jeito de pedi-los; uma ordem também pode esperar um vendedor, ou expirar e queimar o depósito. Elas não mudam o primeiro ponto.
-- **O equipamento da Loja não é para revenda.** O equipamento que você comprou na Loja não pode ser vendido de novo: isso inclui a Quantum Laser I e II, o Light e o Basic Shield Core, Engine I e II, o primeiro grau de células e propulsores, os amps que a Loja vende e a munição comprada. A única Quantum Laser II vendável de um piloto é a que uma missão paga uma vez.
+- **Não há comerciante.** Uma ordem de compra é de um piloto e é coberta com o dinheiro dele: o Leilão não compra de você por preço nenhum. As ordens de compra, em que um piloto diz o que quer comprar e por quanto, dão a quem vende um comprador sempre presente, e ao artesão, que compra materiais, cria equipamento na Montagem e o vende, um jeito de pedi-los; uma ordem também pode esperar um vendedor, ou expirar e queimar o depósito. Elas não mudam o primeiro ponto.
+- **O equipamento da Loja não é para revenda.** O equipamento que você comprou na Loja não pode ser vendido de novo no Leilão: isso inclui a Quantum Laser I e II, o Light e o Basic Shield Core, Engine I e II, o primeiro grau de células e propulsores, os amps que a Loja vende e a munição comprada. A única Quantum Laser II vendável de um piloto é a que uma missão paga uma vez. A própria Loja recompra as unidades que você comprou nela e ainda tem sem instalar, por uma fração do preço dela (um pouco mais com a sua habilidade **Commerce**), e nada além disso: o que você ganhou, criou, comprou de outros pilotos ou recebeu de presente ela não recompra.
 - **As placas vêm de missões.** As Velkonite e Orvium Reinforced Plates do Mercado são as que as missões de Desafio pagam. As placas da Forja ficam de fora; senão seriam a maior mercadoria do Mercado.
 
 Se um anúncio parecer errado, avise do jeito de sempre: os administradores do jogo podem deixar um anúncio em espera, devolvê-lo, pausar o Leilão ou banir um piloto dele, e toda ação assim é registrada.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -6,7 +6,9 @@
 
 Ein **Dungeon** ist ein geschlossenes Labyrinth mit einem **Kriegsherrn** an seinem Ende (vor 0.5.2 hieß er im Spiel Tor). Ein Stellvertreter oder der Anführer eines [Clans](/wiki/03-Mechanics/Clans.md) öffnet eines und bezahlt es aus der Clan-Bank, und Mitglieder des Clans fliegen gemeinsam als eine [Gruppe](/wiki/03-Mechanics/Groups.md) hinein. Sie kämpfen sich durch die Aliens des Labyrinths, öffnen Beutezonen, um aus jeder eine Karte zu wählen, und bringen den Kriegsherrn zu Fall. Jeder Pilot, der am Kampf teilgenommen hat, wird bezahlt, wenn der Kriegsherr fällt, im Rahmen der Grenzen weiter unten. Die Dungeons findest du im Reiter **Dungeons** der Clan-Seite.
 
-Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clankameraden oder sonst jemanden angreifen. Die Aliens zahlen nichts. Die Belohnung kommt allein vom Kriegsherrn, du wirst also nur bezahlt, wenn du im Kampf dabei bist, während er fällt.
+Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clankameraden oder sonst jemanden angreifen. Die Aliens zahlen, wenn sie fallen, wie die Aliens des Spiels, nach denen sie gebaut sind ([was die Aliens zahlen](#what-the-aliens-pay)). Der Durchgang gehört dem Kriegsherrn, du wirst dafür also nur bezahlt, wenn du im Kampf dabei bist, während er fällt.
+
+Ein Dungeon ist kein [Solo-Tor](/wiki/03-Mechanics/Solo-Gates.md). Ein Solo-Tor ist eine Arena, in die nur du fliegst, geöffnet mit Teilen, die du mit dem Energie-Materialisator findest; beide haben getrennte Regeln, Auszahlungen und Grenzen.
 
 ## Auf einen Blick {#at-a-glance}
 
@@ -22,10 +24,10 @@ Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clan
 - **Labyrinthe**: 8; beim Öffnen eines Dungeons wird einer ausgewählt
 - **Boss-Raum**: Öffnet sich, wenn 75 % der Crystalys und ihrer Twins zerstört sind, aufgerundet
 - **Sammeln**: 10 min zum Sammeln und Starten. Ein Dungeon, den niemand startet, schließt sich, und sein Preis geht an die Clan-Bank zurück
-- **Zeitlimit**: Stufe 1: 95 min, Stufe 2: 130 min, Stufe 3: 165 min ab dem Start. Läuft sie ab, scheitert der Dungeon und zahlt nichts
+- **Zeitlimit**: Stufe 1: 95 min, Stufe 2: 130 min, Stufe 3: 165 min ab dem Start. Läuft sie ab, scheitert der Dungeon und der Durchgang zahlt nichts
 - **Leer**: Ein Dungeon, in dem 3 min lang niemand ist, scheitert
 - **Nachdem der Kriegsherr gefallen ist**: Der Dungeon bleibt 2 min lang für die Piloten darin offen
-- **Rückkehr**: Ein Pilot, der gegangen oder zerstört wurde, kann 3 Mal wieder hineinfliegen, mit 20 s Abstand dazwischen
+- **Rückkehr**: Ein Pilot, der gegangen oder zerstört wurde, kann beliebig oft wieder hineinfliegen, mit mindestens 20 s Abstand zwischen zwei Rückkehren
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ Ein Dungeon ist ein Kampf allein gegen die Aliens: Niemand kann darin einen Clan
 1. **Rufen.** Im Reiter Dungeons wählt ein [Stellvertreter oder der Anführer](/wiki/03-Mechanics/Clans.md#hierarchy-roles) eine Stufe und drückt **Rufen**. Der Preis wird der [Clan-Bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) entnommen, und der Dungeon erhält eine der oben aufgeführten Instanzen. Ein Dungeon, den niemand startet, schließt sich, und der Preis geht an die Bank zurück.
 2. **Betreten.** Mitglieder des Clans drücken im Clan-Fenster **Betreten**, während sie fliegen, springen durch das Clan-Portal oder drücken auf der Hinweiskarte **Beitreten** (siehe Betreten). Alle landen im Startraum, und die Piloten im Inneren sind die Gruppe des Dungeons.
 3. **Starten.** Der Startraum ist ein kleiner Raum an einem Ende des Labyrinths, und seine Tür bleibt zu, solange sich der Dungeon sammelt. Es gibt dort keine Aliens, du kannst also sicher warten. Der Dungeon **startet von selbst**, sobald jeder Pilot, auf den es wartet, drin ist und die Gruppe groß genug ist. Es wartet auf die Mitglieder des Clans, die online und nicht abwesend sind und in der Gruppe eines Piloten sind, der hineingekommen ist, und es startet sofort, wenn die Gruppe voll ist. Der Pilot, der den Dungeon geöffnet hat, oder ein Offizier kann **Starten** drücken, um früher mit den Piloten zu beginnen, die drin sind, wenn es genug sind. Ein Pilot, der geht, wird nicht mehr erwartet. Wenn der Dungeon startet, öffnet sich die Tür für immer, und danach können nur noch Piloten zurückkehren, die schon drin waren.
-4. **Durchs Labyrinth kämpfen.** Du kommst an einem Ende des Labyrinths hinein, und am anderen wartet der Kriegsherr in einem verschlossenen Raum. Das Labyrinth ist dunkel: Du siehst nur, was die Gruppe erkundet hat und was nahe an ihren Schiffen liegt. Die Aliens schlafen in Rudeln in den Gängen, und ein Rudel, das aufwacht, jagt die Gruppe durchs Labyrinth.
+4. **Durchs Labyrinth kämpfen.** Du kommst an einem Ende des Labyrinths hinein, und am anderen wartet der Kriegsherr in einem verschlossenen Raum. Das Labyrinth ist dunkel: Du siehst nur, was die Gruppe erkundet hat und was nahe an ihren Schiffen liegt. Die Aliens warten in Rudeln in den Gängen, und ein Rudel kommt heraus, sobald ein Pilot in den Gangabschnitt fliegt, in dem es wartet, und jagt dann die Gruppe durchs Labyrinth.
 5. **Beutezonen öffnen.** Ringe im Labyrinth markieren die Zonen. Halte eine, und die Gruppe stimmt über eine Karte ab, die zusammen mit der Belohnung des Kriegsherrn ausgezahlt wird.
 6. **Den Raum des Kriegsherrn entsperren.** Zerstöre drei Viertel der Crystalys und ihrer Twins des Labyrinths, und die Tür zum Raum des Kriegsherrn öffnet sich. Bis dahin kann der Kriegsherr nicht verletzt werden. Die übrigen Aliens bleiben, wo sie sind, und du kannst sie auch zerstören.
 7. **Den Kriegsherrn besiegen.** Brich seinen Schild und seine Hülle und antworte auf seine Fähigkeiten. Wenn er fällt, ist der Dungeon geschafft.
@@ -46,7 +48,7 @@ Um einen Dungeon zu betreten, brauchst du ein **Schiff im Flug**, starte also zu
 
 Ein Stellvertreter oder der Anführer öffnet einen Dungeon, für den Clan immer nur eines auf einmal und nur bis zur Zahl der Dungeons pro Tag. Die Clan-Bank muss den Preis haben. Ein Clan kann eine Stufe erst öffnen, wenn er die Stufe davor geschafft hat.
 
-In einem Dungeon kannst du die Welt nicht wechseln, und die Jump CPU und die Base CPU funktionieren nicht. Mit der Schaltfläche **Verlassen** im Fenster Clan-Dungeon kommst du hinaus. Sie fragt vorher nach einer Bestätigung, außer wenn der Kriegsherr schon gefallen ist: Dann gehst du sofort. Ein Pilot, der gegangen ist oder zerstört wurde, kann einige Male wieder hineinfliegen, mit einer kurzen Wartezeit dazwischen.
+In einem Dungeon kannst du die Welt nicht wechseln, und die Jump CPU und die Base CPU funktionieren nicht. Mit der Schaltfläche **Verlassen** im Fenster Clan-Dungeon kommst du hinaus. Sie fragt vorher nach einer Bestätigung, außer wenn der Kriegsherr schon gefallen ist: Dann gehst du sofort. Ein Pilot, der gegangen ist oder zerstört wurde, kann wieder hineinfliegen; die Liste unter **Auf einen Blick** sagt, wie oft und wie lange er zwischen zwei Rückkehren warten muss.
 
 ### Das Clan-Portal und der Hinweis {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Jeder Dungeon ist ein geschlossenes Labyrinth auf einer eigenen Instanz, einer d
 
 ## Die Aliens {#the-aliens}
 
-Vier Arten von Aliens bewachen das Labyrinth. Sie schlafen in Rudeln in den Gängen, nie in einem Raum, und ein Rudel wacht auf, wenn ein Pilot näher kommt. Ein wachendes Rudel wartet nicht auf dich: Es jagt die Gruppe durchs Labyrinth, und ein Rudel, das alle verliert, geht dorthin zurück, wo es geschlafen hat, und heilt sich. Ein paar Rudel sind von der ersten Sekunde an wach und stehen abseits des Eingangs in den Gängen, bis ein Pilot näher kommt. Der Dungeon hält nur eine bestimmte Zahl von Aliens gleichzeitig in der Luft, und diese Zahl wächst mit der Größe der Gruppe, sodass ein Rudel, das aufwacht, auf Platz warten muss und ein zerstörtes Rudel das nächste hereinlässt. Eine größere Gruppe trifft im selben Verhältnis auf mehr Aliens, eine kleinere auf weniger, und eine Alienart fällt nie unter eins. Ein Rudel, das noch auf Platz wartet, wenn alle Piloten weggeflogen sind, legt sich wieder schlafen und wacht auf, wenn ein Pilot näher kommt.
+Vier Arten von Aliens bewachen das Labyrinth. Sie warten in Rudeln in den Gängen, nie in einem Raum, und ein Rudel kommt heraus, sobald ein Pilot in den Gangabschnitt fliegt, in dem es wartet. Wo noch kein Pilot war, ist nichts auf der Karte, also steht kein Rudel hinter den Wänden tief im Labyrinth, bevor du dort ankommst. Ein Rudel wartet nicht auf Platz: Es ist im selben Augenblick auf der Karte, egal wie viele Aliens schon draußen sind. Ein Gangabschnitt hält ein Rudel, also triffst du in dem Abschnitt, in den du fliegst, auf ein Rudel und nicht auf die Summe mehrerer (eine Gruppe von zehn hat mehr Rudel als Abschnitte, und dort hält ein Abschnitt zwei, die beide herauskommen). Ein Rudel, das draußen ist, wartet nicht auf dich: Es jagt die Gruppe durchs Labyrinth, und ein Rudel, das alle verliert, geht dorthin zurück, wo es herausgekommen ist, und heilt sich. Ein Rudel kommt nur einmal heraus: Eines, das du zerstörst, kommt nicht wieder, und eines, von dem du wegfliegst, bleibt auf der Karte. Die Wellen der Beutezonen sind anders: Der Dungeon hält nur eine bestimmte Zahl von Aliens gleichzeitig in der Luft, und diese Zahl wächst mit der Größe der Gruppe, sodass eine Welle, die sie überschreiten würde, auf Platz wartet und ein zerstörtes Rudel die nächste Welle hereinlässt. Eine größere Gruppe trifft im selben Verhältnis auf mehr Aliens, eine kleinere auf weniger, und eine Alienart fällt nie unter eins.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Vier Arten von Aliens bewachen das Labyrinth. Sie schlafen in Rudeln in den Gän
 | Zum Öffnen des Boss-Raums | 34 | 34 | 34 |
 | Die Welle einer Beutezone | 12 × Dungeon Goombah und 1 × Dungeon Crystalys | 12 × Dungeon Goombah und 1 × Dungeon Crystalys | 12 × Dungeon Goombah und 1 × Dungeon Crystalys |
 
-- **Gleichzeitig am Leben**: Höchstens 10 je Pilot der Gruppe und 70 insgesamt
+- **Die Welle einer Beutezone wartet auf Platz**: Sobald 10 je Pilot der Gruppe am Leben sind oder 70 insgesamt
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 - **Sieht aus wie**: Goombah
 - **Fliegt in Rudeln zu**: 6
+- **Zahlt und lässt fallen wie**: Goombah
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 | Tempo | 180 | 180 | 180 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | 1.800 | 1.800 | 1.800 |
+| Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
+| Credits pro Zerstörung | 15.000 | 22.500 | 30.000 |
+| Thulium pro Zerstörung | 75 | 113 | 150 |
+| Erfahrung pro Zerstörung | 3.000 | 4.500 | 6.000 |
+| Ehre pro Zerstörung | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Sieht aus wie**: Pirate Boss
 - **Fliegt in Rudeln zu**: 2
+- **Zahlt und lässt fallen wie**: Pirate Boss
 - **Rakete**: Alle 5 s eine gerade Rakete, Reichweite 1.000 Einheiten
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
-| Hülle | 300.000 | 450.000 | 600.000 |
+| Hülle | 250.000 | 375.000 | 500.000 |
 | Schild | 50.100 | 75.150 | 100.200 |
 | Laserschaden (eine Salve pro Sekunde) | 200 | 300 | 400 |
 | Raketenschaden | 5.000 | 7.500 | 10.000 |
 | Tempo | 110 | 110 | 110 |
 | Laserreichweite | 700 | 700 | 700 |
 | Aggro-Radius | 1.800 | 1.800 | 1.800 |
+| Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
+| Credits pro Zerstörung | 145.000 | 217.500 | 290.000 |
+| Thulium pro Zerstörung | 725 | 1.088 | 1.450 |
+| Erfahrung pro Zerstörung | 29.000 | 43.500 | 58.000 |
+| Ehre pro Zerstörung | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Sieht aus wie**: Crystalys
 - **Fliegt in Rudeln zu**: 2
+- **Zahlt und lässt fallen wie**: Crystalys
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 | Tempo | 230 | 230 | 230 |
 | Laserreichweite | 900 | 900 | 900 |
 | Aggro-Radius | 2.400 | 2.400 | 2.400 |
+| Belohnung und Beute, Vielfaches des Originals | ×1 | ×1,5 | ×2 |
+| Credits pro Zerstörung | 75.000 | 112.500 | 150.000 |
+| Thulium pro Zerstörung | 200 | 300 | 400 |
+| Erfahrung pro Zerstörung | 12.000 | 18.000 | 24.000 |
+| Ehre pro Zerstörung | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Sieht aus wie**: Crystalys, 1,4-mal so groß
 - **Fliegt in Rudeln zu**: 1
+- **Zahlt und lässt fallen wie**: Crystalys
 
 |  | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 | Tempo | 230 | 230 | 230 |
 | Laserreichweite | 900 | 900 | 900 |
 | Aggro-Radius | 2.400 | 2.400 | 2.400 |
+| Belohnung und Beute, Vielfaches des Originals | ×2 | ×3 | ×4 |
+| Credits pro Zerstörung | 150.000 | 225.000 | 300.000 |
+| Thulium pro Zerstörung | 400 | 600 | 800 |
+| Erfahrung pro Zerstörung | 24.000 | 36.000 | 48.000 |
+| Ehre pro Zerstörung | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## Der Kriegsherr {#the-warlord}
 
-Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und er ist das Einzige in einem Dungeon, der zahlt. Er ist ein riesig gewachsener Crystalys. Seine Hülle und sein Schild wachsen mit der Größe der Gruppe: Je mehr Piloten hineingehen, desto zäher ist er, im selben Verhältnis. Er verlässt seinen Raum nie, ob die Tür zu ist oder offen: Er bleibt innerhalb der Wände des Raums und jagt nicht durch die Gänge. Ein Pilot draußen kann ihn nur bis an den Rand des Raums locken, und durch eine offene Tür schießt er trotzdem auf alles, was sein Laser erreicht. Er setzt seine Fähigkeiten nacheinander in zufälliger Reihenfolge ein, jede mit eigener Abklingzeit.
+Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt den Durchgang aus. Er zahlt keine eigene Zerstörung, wie es die anderen Aliens tun. Er ist ein riesig gewachsener Crystalys. Seine Hülle und sein Schild wachsen mit der Größe der Gruppe: Je mehr Piloten hineingehen, desto zäher ist er, im selben Verhältnis. Er verlässt seinen Raum nie, ob die Tür zu ist oder offen: Er bleibt innerhalb der Wände des Raums und jagt nicht durch die Gänge. Ein Pilot draußen kann ihn nur bis an den Rand des Raums locken, und durch eine offene Tür schießt er trotzdem auf alles, was sein Laser erreicht. Er setzt seine Fähigkeiten nacheinander in zufälliger Reihenfolge ein, jede mit eigener Abklingzeit.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ Hülle und Schild oben gelten für eine Gruppe von 5. Sie wachsen mit der Gruppe
 
 ### Der verschlossene Raum {#the-locked-room}
 
-Die Tür zum Raum des Kriegsherrn ist ab dem Moment verschlossen, in dem der Dungeon geöffnet wird, und solange sie zu ist, kann der Kriegsherr nicht verletzt werden: Kein Laser, keine Rakete und keine Explosion trifft ihn, und er setzt keine Fähigkeit ein. Die Tür öffnet sich für immer, wenn **drei Viertel der Crystalys und ihrer Twins** zerstört sind, mit denen der Dungeon gebaut wurde, aufgerundet (die Tabelle der Aliens oben zählt sie für eine Gruppe von 5, und ihre letzte Zeile sagt, wie viele es braucht). Es zählen die Crystalys und die Twins in den Rudeln des Labyrinths, auch in den Rudeln, die von der ersten Sekunde an in den Gängen stehen, und gleich, wer sie zerstört. Die übrigen Aliens, die Wellen der Beutezonen, die Goombahs, die der Kriegsherr ruft, und der Kriegsherr selbst zählen für die Tür nicht.
+Die Tür zum Raum des Kriegsherrn ist ab dem Moment verschlossen, in dem der Dungeon geöffnet wird, und solange sie zu ist, kann der Kriegsherr nicht verletzt werden: Kein Laser, keine Rakete und keine Explosion trifft ihn, und er setzt keine Fähigkeit ein. Die Tür öffnet sich für immer, wenn **drei Viertel der Crystalys und ihrer Twins** zerstört sind, mit denen der Dungeon gebaut wurde, aufgerundet (die Tabelle der Aliens oben zählt sie für eine Gruppe von 5, und ihre letzte Zeile sagt, wie viele es braucht). Es zählen die Crystalys und die Twins in den Rudeln des Labyrinths, gleich, wer sie zerstört. Ein Rudel kommt erst heraus, wenn ein Pilot in seinen Gangabschnitt fliegt; die Gruppe muss also genug von ihnen finden, um die Tür zu öffnen. Die übrigen Aliens, die Wellen der Beutezonen, die Goombahs, die der Kriegsherr ruft, und der Kriegsherr selbst zählen für die Tür nicht.
 
-Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, um den Raum zu öffnen, und sagt in einem kleinen Feld, dass der Kriegsherr nicht verletzt werden kann, und eine Meldung sagt dir, wann der Raum entsperrt ist. Ein Rudel, das noch schläft, zählt voll, also muss die Gruppe die Crystalys und ihre Twins im Labyrinth finden. **Die übrigen Aliens verschwinden nicht, wenn die Tür sich öffnet.** Sie bleiben im Labyrinth, wachen auf, wenn ein Pilot näher kommt, und können wie zuvor zerstört werden; eine Gruppe, die das will, kann also alle zerstören, bevor sie gegen den Kriegsherrn kämpft: Die Zahl der Aliens im Fenster läuft weiter bis zu allen Aliens, mit denen der Dungeon gebaut wurde, und steht auf voll, wenn keiner mehr übrig ist. Sie bringen nichts ein, und die, die noch leben, wenn der Kriegsherr fällt, verschwinden mit dem Dungeon. Auf der Minikarte ist die Tür eine rote Linie, solange sie verschlossen ist, und eine grüne, wenn sie offen ist. Ein Dungeon ist nie eine Falle: Das Zeitlimit beendet auch einen Dungeon, dessen Tür verschlossen bleibt, und ein Administrator kann den Raum eines festgefahrenen Dungeons entsperren.
+Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, um den Raum zu öffnen, und sagt in einem kleinen Feld, dass der Kriegsherr nicht verletzt werden kann, und eine Meldung sagt dir, wann der Raum entsperrt ist. Ein Rudel, das noch nicht herausgekommen ist, zählt voll, also muss die Gruppe die Crystalys und ihre Twins im Labyrinth finden und in ihre Gangabschnitte fliegen. **Die übrigen Aliens verschwinden nicht, wenn die Tür sich öffnet.** Sie bleiben im Labyrinth, kommen heraus, wenn ein Pilot in ihren Gangabschnitt fliegt, und können wie zuvor zerstört werden; eine Gruppe, die das will, kann also alle zerstören, bevor sie gegen den Kriegsherrn kämpft: Die Zahl der Aliens im Fenster läuft weiter bis zu allen Aliens, mit denen der Dungeon gebaut wurde, und steht auf voll, wenn keiner mehr übrig ist. Sie zahlen, wenn sie fallen ([was die Aliens zahlen](#what-the-aliens-pay)), und die, die noch leben, wenn der Kriegsherr fällt, verschwinden mit dem Dungeon. Auf der Minikarte ist die Tür eine rote Linie, solange sie verschlossen ist, und eine grüne, wenn sie offen ist. Ein Dungeon ist nie eine Falle: Das Zeitlimit beendet auch einen Dungeon, dessen Tür verschlossen bleibt, und ein Administrator kann den Raum eines festgefahrenen Dungeons entsperren.
 
 ### Seine Fähigkeiten {#its-abilities}
 
@@ -314,7 +340,7 @@ Die Karten mit einem Exemplar sind **Ausrüstung**, und nur ein Dungeon der Stuf
 
 Wenn der Kriegsherr fällt, wird jeder Pilot, der es verdient hat, einmal für den Durchgang bezahlt. Die Karten, die die Gruppe gewählt hat, kommen zur Belohnung der Stufe hinzu. Es gibt keinen Weltfaktor: Die Belohnung ist in jeder Welt gleich.
 
-Die **Orvium Reinforced Plates** sind keine Karte der Abstimmung. Sie gehören zur Belohnung der Stufe, und jeder bezahlte Pilot bekommt sie einmal für den Durchgang. Die Gegenstände, die ein Dungeon auszahlt, sind nicht Handelbar: Du kannst sie nicht [in der Auktion verkaufen](/wiki/03-Mechanics/Auction.md#marketable-items).
+Die **Orvium Reinforced Plates** sind keine Karte der Abstimmung. Sie gehören zur Belohnung der Stufe, und jeder bezahlte Pilot bekommt sie einmal für den Durchgang. Die Gegenstände, die der Durchgang auszahlt, sind nicht Handelbar: Du kannst sie nicht [in der Auktion verkaufen](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ Die **Orvium Reinforced Plates** sind keine Karte der Abstimmung. Sie gehören z
 
 ### Wer bezahlt wird {#who-is-paid}
 
-Die Aliens zahlen nie. Ein Durchgang wird auch dann vollständig gespielt, wenn er nichts zahlt, und der Ergebnisbildschirm sagt, warum. Der Zutritt wird nie verweigert, weil du für eine Stufe schon bezahlt wurdest: Dieser Durchgang zahlt dann nur nichts.
+Diese Regeln entscheiden, wer **für den Durchgang** bezahlt wird. Ein Durchgang wird auch dann vollständig gespielt, wenn er nichts zahlt, und der Ergebnisbildschirm sagt, warum. Der Zutritt wird nie verweigert, weil du für eine Stufe schon bezahlt wurdest: Der Durchgang zahlt dann nur nichts. Die Aliens lesen dieselben Regeln, Zerstörung für Zerstörung, außer dem Anteil am Kampf ([was die Aliens zahlen](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ Die Erfahrung eines bezahlten Abschlusses zählt für deine PvE-Rangpunkte: ein 
 
 <!-- dungeons-totals:end -->
 
+### Was die Aliens zahlen {#what-the-aliens-pay}
+
+Jedes Alien eines Dungeons zahlt, wenn es fällt, und lässt Beute fallen, wie das Alien des Spiels, nach dem es gebaut ist: ein Dungeon Goombah wie ein [Goombah](/wiki/04-Aliens/Goombah.md), ein Dungeon Crystalys und sein Twin wie ein [Crystalys](/wiki/04-Aliens/Crystalys.md), ein Dungeon Pirate wie der Pirate Boss aus dem [Pirate-Schwarm](/wiki/05-Swarms/Pirate-Swarm.md). Was die Zerstörung eines Aliens zahlt und fallen lässt, ist das, was das Original zahlt und fallen lässt, **mal dem Verhältnis ihrer Hülle und ihres Schilds zusammen**: Ein Alien, das so zäh ist wie sein Original, zahlt, was das Original zahlt; eines, das doppelt so zäh ist, zahlt doppelt so viel und lässt von jedem Gegenstand doppelt so viel fallen, und so weiter. Der Abschnitt jeder Alien-Art unter [Die Aliens](#the-aliens) nennt das Verhältnis und die Belohnung einer Zerstörung in jeder Stufe.
+
+- **Wer bezahlt wird.** Die Piloten, die das Alien verletzt haben, nach dem Schaden, den sie angerichtet haben, wie bei den Aliens der Schwärme: Ein Pilot oder eine Gruppe, die es nur gestreift hat, bekommt nichts, eine Gruppe wird als eine bezahlt, und innerhalb einer Gruppe teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, das Bezahlte nach Level. Ein Pilot, der dem Alien keinen Schaden zugefügt hat, bekommt nichts dafür, egal wie nah er flog, und ein Alien, das kein Pilot verletzt hat, zahlt niemandem. Nur Piloten, die die Regeln oben bezahlen, sind dabei: Wer den Dungeon verlassen hat, noch nicht lange genug drin war, für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt für die Aliens nichts, und die anderen haben seinen Teil. Eine Zerstörung verlangt keinen Anteil am Kampf: Das Alien verletzt zu haben ist der Anteil. Ist das Mitglied einer Gruppe, das am meisten Schaden angerichtet hat, zerstört oder nicht mehr auf der Karte, teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, ohne es.
+- **Was bezahlt wird.** Credits, Thulium, Erfahrung und Ehre, einmal pro zerstörtem Alien. Bezahlt wird, was das Original in Alpha zahlt, in jeder Welt: Ein Dungeon hat keinen Welt-Multiplikator. Deine Booster, Premium, Formation und die Boni deines Clans zählen wie bei jeder Zerstörung, und die Erfahrung zählt wie die des Durchgangs für deine [PvE-Punkte](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points).
+- **Die Beute.** Sie wird mit den Chancen des Originals gewürfelt, danach wird jede Menge mit dem Verhältnis multipliziert (ein Bruchteil einer Einheit ist eine Chance auf eine weitere). Sie fällt als Kiste am Wrack, zuerst für den Piloten mit dem meisten Schaden und seinen Clan, später für jeden auf der Karte, und dann ist sie weg. Die Karte fasst nur eine bestimmte Zahl von Kisten auf einmal, hol sie also ab, während du kämpfst; was auf der Karte liegt, wenn der Dungeon schließt, verschwindet mit ihm. Anders als die Gegenstände des Durchgangs ist das gewöhnliche Beute eines Aliens: Sie kann [in der Auktion verkauft](/wiki/03-Mechanics/Auction.md#marketable-items) werden, wenn der Gegenstand Handelbar ist.
+- **Was nicht zahlt.** Der Kriegsherr zahlt keine Zerstörung, nur den Durchgang. Die Goombahs, die er ruft, zahlen nichts, weil der Ruf wiederkehrt, solange der Kampf dauert.
+- **Keine Zerstörung des Spiels.** Eine Zerstörung in einem Dungeon zählt nicht für Quests, Erfolge, Zerstörungszähler, Wipe-Punkte, die PvE-Punkte einer Zerstörung, Drohnen oder P.E.T.s: Ein Dungeon Goombah ist kein Goombah des Spiels.
+- **Die Grenzen.** Die Tages- und Wochengrenzen oben halten die Belohnung der Aliens ebenso zurück wie die des Durchgangs: Wer für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt auch für die Aliens nichts, und der Topf einer Zerstörung geht an die anderen. Ein Dungeon, der nicht abgeschlossen wird, zahlt seine Zerstörungen an die Piloten, die die Regeln bezahlen, und für den Durchgang nichts.
+
 ## Die Belohnung der Clan-Bank {#clan-bank-reward}
 
 Auch die Clan-Bank wird bezahlt, in Credits und nicht in Thulium, wenn der Clan eine Stufe zum ersten Mal in einer Saison schafft. Der Clan muss alt genug sein, und genug Piloten dieses Durchgangs müssen bezahlt werden. Die Bank wird pro Stufe einmal in einer Saison bezahlt.
@@ -383,4 +420,4 @@ Auch die Clan-Bank wird bezahlt, in Credits und nicht in Thulium, wenn der Clan 
 - Nutze die Wände: Laser durchqueren sie nicht, die roten Ringe der Auren des Kriegsherrn enden an ihnen, und eine Wand stoppt auch die Raketen des Kriegsherrn.
 - Spare eine EMP Charge für die Raketensalve auf.
 - Ruft der Kriegsherr seine Goombahs, zerstöre sie zuerst: Er kann nicht verletzt werden, bis sie weg sind. Tritt in der Zone des Chaos aus dem Ring, bevor du schießt.
-- Behalte die Uhr im Fenster Clan-Dungeon im Blick. Läuft die Zeit ab, scheitert der Dungeon und zahlt nichts.
+- Behalte die Uhr im Fenster Clan-Dungeon im Blick. Läuft die Zeit ab, scheitert der Dungeon und der Durchgang zahlt nichts.

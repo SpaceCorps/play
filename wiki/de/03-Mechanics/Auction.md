@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -134,6 +134,8 @@ Ein Angebot kostet eine **Einstellgebühr**, die beim Einstellen fällig wird un
 | Helios Beam: Level 12, 504 h, in den letzten Tagen einer Saison | 2.500.000 Credits | 0 Credits | 0 Credits | 2.500.000 Credits |
 
 <!-- market-fees:end -->
+
+Deine Fähigkeit **Commerce** nimmt bis zur Hälfte von der Einstellgebühr deiner Angebote und Kaufaufträge ab (aufgerundet, nie auf null). Die Steuer ist für alle gleich, und die Tabelle oben zeigt den Wert eines Piloten auf dem ersten Level. Jeder Verkauf und jeder erfüllte Kaufauftrag trainiert die Fähigkeit, beim Verkäufer wie beim Käufer.
 
 ## Kaufen {#buying}
 
@@ -284,8 +286,8 @@ Beim Wipe **kommt jedes offene Angebot zu seinem Verkäufer zurück** als lose G
 Die Auktion dient dem Handel mit dem, was du verdienst, und sie ist ehrlich über ihre Grenzen.
 
 - **Beute zu verkaufen ist kein Grind.** Rohe Alien-Beute besteht nur aus Ressourcen und ist 0,4 bis 0,9 Prozent dessen wert, was dieselbe Jagdstunde auf Level 5 an Abschüssen auszahlt. Was der Markt einem neuen Piloten gibt, ist die Ausrüstung, die seine Missionen auszahlen und die er nicht braucht (einmalig), die Ressourcen der Herausforderungs-Missionen, die Kisten der Schwarm-Bosse und das, was er herstellt.
-- **Es gibt keinen Händler.** Ein Kaufauftrag gehört einem Piloten und wird mit seinem eigenen Geld gedeckt: Das Spiel kauft zu keinem Preis von dir. Kaufaufträge, bei denen ein Pilot sagt, was er kaufen will und für wie viel, geben einem Verkäufer einen Käufer, der immer da ist, und dem Handwerker, der Materialien kauft, in der Montage Ausrüstung herstellt und sie verkauft, eine Möglichkeit, sie zu bestellen; ein Auftrag kann auch auf einen Verkäufer warten oder ablaufen, und dann ist seine Einstellgebühr vernichtet. Am ersten Punkt ändern sie nichts.
-- **Shop-Ausrüstung ist nicht zum Weiterverkauf da.** Ausrüstung, die du im Shop gekauft hast, kann nicht wieder verkauft werden: Dazu gehören der Quantum Laser I und II, der Light und der Basic Shield Core, Engine I und II, die erste Stufe der Zellen und Schubdüsen, die Amps, die der Shop verkauft, und gekaufte Munition. Der eine handelbare Quantum Laser II eines Piloten ist der, den eine Mission einmal auszahlt.
+- **Es gibt keinen Händler.** Ein Kaufauftrag gehört einem Piloten und wird mit seinem eigenen Geld gedeckt: Die Auktion kauft zu keinem Preis von dir. Kaufaufträge, bei denen ein Pilot sagt, was er kaufen will und für wie viel, geben einem Verkäufer einen Käufer, der immer da ist, und dem Handwerker, der Materialien kauft, in der Montage Ausrüstung herstellt und sie verkauft, eine Möglichkeit, sie zu bestellen; ein Auftrag kann auch auf einen Verkäufer warten oder ablaufen, und dann ist seine Einstellgebühr vernichtet. Am ersten Punkt ändern sie nichts.
+- **Shop-Ausrüstung ist nicht zum Weiterverkauf da.** Ausrüstung, die du im Shop gekauft hast, kann nicht wieder in der Auktion verkauft werden: Dazu gehören der Quantum Laser I und II, der Light und der Basic Shield Core, Engine I und II, die erste Stufe der Zellen und Schubdüsen, die Amps, die der Shop verkauft, und gekaufte Munition. Der eine handelbare Quantum Laser II eines Piloten ist der, den eine Mission einmal auszahlt. Der Shop selbst nimmt die Einheiten zurück, die du in ihm gekauft hast und die noch nicht eingebaut sind, für einen Bruchteil seines Preises (etwas mehr mit deiner Fähigkeit **Commerce**), und sonst nichts: Was du verdient, hergestellt, von anderen Piloten gekauft oder geschenkt bekommen hast, nimmt er nicht zurück.
 - **Platten kommen aus Missionen.** Die Velkonite und Orvium Reinforced Plates auf dem Markt sind die, die die Herausforderungs-Missionen auszahlen. Die Platten der Schmiede bleiben draußen, sonst wären sie die größte Ware des Markts.
 
 Wenn ein Angebot nicht stimmt, melde es auf dem üblichen Weg: Die Admins des Spiels können ein Angebot anhalten, es zurückgeben, die Auktion pausieren oder einen Piloten davon ausschließen, und jede solche Handlung wird aufgezeichnet.

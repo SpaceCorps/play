@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 55f9f2a76d559850 -->
+<!-- wiki-i18n source: 399d8fb97e54710e -->
 <!-- wiki-i18n title: Svart hål -->
 # Det svarta hålet {#the-black-hole}
 
@@ -65,12 +65,13 @@ Mellan två rader ökar skadan längs en rät linje. I träffpoäng per sekund, 
 | Paragon | 162 500 | 894 | 1 300 | 3 250 | 8 125 | 17 875 |
 | Storm | 228 000 | 1 254 | 1 824 | 4 560 | 11 400 | 25 080 |
 | Wraith | 304 000 | 1 672 | 2 432 | 6 080 | 15 200 | 33 440 |
-| Ironclad | 673 200 | 3 703 | 5 386 | 13 464 | 33 660 | 74 052 |
+| Ironclad | 573 200 | 3 153 | 4 586 | 11 464 | 28 660 | 63 052 |
 
 - **Skölden tar skadan först**, sedan skrovet. Det är ingen träff: sköldens absorption kommer inte in i bilden, och strålningen går inte att väja undan.
 - Strålning räknas som **skada du tar**: din sköld laddas inte om, en Repair Drone stannar (”Reparationer avbrutna: strålning.”) och går inte att starta, och en säker zon skyddar dig inte förrän 5 sekunder efter den sista dosen.
 - Boosters och uppgraderingar ändrar hur stor din totalsumma är, inte hur länge du håller: skadan är en andel av den.
 - Inget gör ett skepp immunt. Strålning är ingen träff, så ingenting suger upp den; men förmågorna fortsätter att fungera i den: en Shield Surge fortsätter att återställa din sköld och en Emergency Repair fortsätter att läka ditt skrov under sina tio sekunder (de är inte de naturliga reparationer som dosen stoppar). Kamouflage döljer inte skeppet för den.
+- **Strålningsteknik**, en pilotförmåga, sänker dosen: den andel av din totalsumma du förlorar per sekund sjunker i rak linje från hela på nivå 1 till 0,40 av den på nivå 100, och mätaren visar den dos du verkligen får.
 
 ## Dragningen {#the-pull}
 
@@ -97,20 +98,20 @@ Din **punkt utan återvändo** är avståndet där dragningen är lika stark som
 
 | Skepp (grundutrustning) | Fart | Punkt utan återvändo |
 | :--- | ---: | ---: |
-| Ironclad | 117 | 1 826 |
-| Protos | 188 | 1 462 |
-| Kitefin | 202 | 1 388 |
-| Nomad | 221 | 1 294 |
-| Wraith | 223 | 1 281 |
-| Ostirion | 231 | 1 220 |
-| Paragon | 242 | 1 141 |
-| Storm | 273 | 924 |
+| Ironclad | 129 | 1 755 |
+| Protos | 194 | 1 431 |
+| Kitefin | 211 | 1 346 |
+| Nomad | 229 | 1 233 |
+| Wraith | 235 | 1 189 |
+| Ostirion | 240 | 1 160 |
+| Paragon | 252 | 1 071 |
+| Storm | 284 | 906 |
 
 En skeppsdesign ändrar farten hos sitt skepp, och därmed dess punkt utan återvändo: en DUMA är långsammare än en Ironclad, en NOTSUM snabbare än en Storm.
 
 Ett skepp som är snabbare än 272 enheter i sekunden (en utrustning byggd för fart, eller en Wraith med grundutrustning och en pågående Afterburner) har sin punkt utan återvändo kvar där den alltid låg: vid fart 300 är den 885, vid 432 är den 747.
 
-Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 46,8, med punkten utan återvändo vid ungefär 2 500). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (femton sekunder med en motor, 22,5 med två, trettio med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 462 till 994 och för en Wraith med grundutrustning från 1 281 till 869). Ingenting tar sig ut inifrån ungefär 440 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,46); ett oförtrollat skepp byggt för fart (Engine III och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 475.
+Bygg för fart så kan du ta dig ut från djupare; lasta på tunga sköldar så kan du inte (en Ironclad, det långsammaste skeppet, med en Heavy Shield Core i alla sina 14 platser flyger med fart 46,8, med punkten utan återvändo vid ungefär 2 500). Bara ett fartutbrott kan vända ett skepp som just kommit innanför sin punkt utan återvändo: en pågående [Afterburner](/wiki/03-Mechanics/Abilities.md) räknas, och flyttar punkten utan återvändo djupare så länge den varar (femton sekunder med en motor, 22,5 med två, trettio med tre; Afterburner III flyttar punkten för en Protos med grundutrustning från 1 431 till 928 och för en Wraith med grundutrustning från 1 189 till 847). Ingenting tar sig ut inifrån ungefär 410 enheter, inte ens ett skepp byggt för fart med varje fartvärde förtrollat till max och det starkaste fartutbrottet igång (en Afterburner III förtrollad till taket, x1,46); ett oförtrollat skepp byggt för fart (Engine III med tre Momentum Thruster IV vardera och Adaptive Core III med tre Impulse Thruster IV vardera), med en Afterburner III, tar sig i bästa fall ut från utanför 453.
 
 Fallet från punkten utan återvändo börjar långsamt: ett skepp som ligger några enheter innanför den dras in på tjugo sekunder eller mer, även med full kraft, och sedan allt snabbare. Dragningen är ingen flygning: den räknas inte som flugen sträcka.
 

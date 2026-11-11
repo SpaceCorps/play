@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 6032abb12d3d13a5 -->
+<!-- wiki-i18n source: 00e6e072226a1f45 -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -32,12 +32,17 @@ Ogni raffica ha una probabilità di essere un colpo critico.
 Infine si applicano i moltiplicatori globali (come i booster attivi, per esempio il +10% di un Laser Damage Booster, o i moltiplicatori delle munizioni laser, per esempio x2, x3, x4) per ottenere il danno finale:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata può moltiplicare ancora il risultato: per esempio Auger +21% di danno laser, Gyre −11% e, contro gli alieni, Culler +12% (un fattore a parte, non compreso nella percentuale dei booster).
+- La [Tecnica laser](#laser-tech) di un pilota moltiplica ancora la raffica: il danno base e, con esso, il danno fisso di un colpo critico.
 - Le munizioni **Siphon Battery** hanno il moltiplicatore x1 ma un bersaglio diverso: il loro danno esce solo dallo scudo del bersaglio (mai dallo scafo, qualunque sia l’assorbimento) e va nel tuo scudo, fino al tuo massimo. Vedi [Laser e munizioni](/wiki/06-Items/Lasers.md).
 - Le **Dark Matter Ammo** (0.5.0) cambiano la raffica stessa: la Dark Matter Ammo I estrae il suo moltiplicatore (da x1,5 a x5) a ogni raffica, e la Dark Matter Ammo II colpisce a x6 solo una volta ogni 1,5 secondi e ti restituisce un quarto del danno subito dallo scudo del bersaglio. Le **Antimatter Battery** perforano il 20% dell’assorbimento del bersaglio. Vedi [Munizioni Antimatter e Dark Matter](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Razzi {#3b-rockets}
 
-Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.700 a 2.100, un Lancet III da 5.200 a 6.200, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **3 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, il numero intero al centro e la metà al bordo. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata è l’unica cosa che cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer. Gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md) subiscono danni dai razzi e dai laser al 5% di quello che una raffica fa a una nave (contano i tuoi amp, booster, munizioni e colpi critici, poi si toglie la corazza dell’asteroide); i droni non fanno nulla, e un asteroide sulla traiettoria di un colpo prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), e così fa una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall).
+Un [razzo](/wiki/06-Items/Rockets.md) ha un proprio danno (un Lancet I fa da 1.700 a 2.100, un Lancet III da 5.200 a 6.200, un N.U.K.E. da 45.000 a 50.000), stabilito a caso una volta quando lo lanci e uguale per ogni nave: i tuoi laser, amp, booster e munizioni non lo cambiano, e non ha colpo critico. Tutti i razzi condividono un’unica ricarica di **3 secondi**. Un razzo a bersaglio singolo ha una **penetrazione dello scudo**: viene tolta dall’assorbimento del tuo bersaglio (vedi Subire danni più sotto); un’esplosione danneggia ogni nave nel suo raggio, il numero intero al centro e, al bordo, il 66% per un Ember o uno Scatter e la metà per il N.U.K.E. Niente limita ciò che un razzo toglie alla nave di un pilota: prima lo scudo, poi lo scafo. I razzi non colpiscono mai la tua corporazione né il tuo [gruppo](/wiki/03-Mechanics/Groups.md), di qualunque corporazione siano i suoi membri. Una [formazione di droni](/wiki/03-Mechanics/Formations.md) indossata cambia entrambe: una formazione per razzi aumenta il danno di ogni razzo (fino a +55%), e alcune allungano o accorciano il timer. La tua [Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech), un’abilità del pilota, scala anche il danno (0,80 al livello 1, 1,10 al livello 100) e può far sì che un razzo non parta. Gli [asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md) subiscono danni dai razzi e dai laser al 5% di quello che una raffica fa a una nave (contano i tuoi amp, booster, munizioni e colpi critici, poi si toglie la corazza dell’asteroide); i droni non fanno nulla, e un asteroide sulla traiettoria di un colpo prende il colpo al posto della nave che sta dietro ([Copertura](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), e così fa una [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall).
+
+### 3c. Tecnica laser {#laser-tech}
+
+La tua **Tecnica laser**, un’[abilità del pilota](/wiki/03-Mechanics/Pilot-Skills.md), cambia due cose di una raffica contro una nave. Moltiplica il danno della raffica per un fattore che è inferiore a 1 al livello 1 e sale con il livello (il danno base e il danno fisso di un colpo critico, entrambi). E stabilisce la probabilità che la raffica colpisca. Una raffica che va a vuoto mostra un “Miss” fluttuante sopra il bersaglio, non fa danno e **consuma comunque le sue munizioni**; non viene sottoposta anche alla probabilità di schivata del bersaglio. Il fattore e la probabilità a ogni livello sono nella tabella delle [Competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md#the-stats). La [Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech) fa lo stesso per i razzi.
 
 ### 4. Voltarsi verso il bersaglio {#4-facing-the-target}
 
@@ -51,7 +56,7 @@ Una nave spara una raffica al secondo finché il suo bersaglio è entro la sua *
 
 Un colpo appare come un numero che fluttua sopra la nave che colpisce. **I tuoi numeri** si vedono sempre: il danno che infliggi, il danno che subisci e le tue riparazioni. **La nave sotto il tuo cerchio di aggancio** ne mostra di più: ogni colpo e ogni cura che riceve, **da qualsiasi fonte**. Cioè i laser, i razzi e i droni di altri piloti, gli alieni, i Clan Warden e le riparazioni e la rigenerazione dello scudo della nave stessa. Quando un altro spara al tuo bersaglio, vedi il suo danno.
 
-- **Colori.** Oro: danno a un alieno o a un pilota nemico. Rosso con un meno: danno a una nave che proteggi (un pilota della tua corporazione o del tuo gruppo) e il danno che subisci tu. Verde con un più: una cura, come una Emergency Repair, un Repair Drone o uno scudo che torna. “Miss” in argento chiaro: un colpo diretto che la schivata di una formazione ha deviato. Una raffica critica è più grande e finisce con un “!” (azzurro ghiaccio quando colpisce un alieno o un nemico).
+- **Colori.** Oro: danno a un alieno o a un pilota nemico. Rosso con un meno: danno a una nave che proteggi (un pilota della tua corporazione o del tuo gruppo) e il danno che subisci tu. Verde con un più: una cura, come una Emergency Repair, un Repair Drone o uno scudo che torna. “Miss” in argento chiaro: un colpo diretto che non ha fatto danno, perché la tua raffica è andata a vuoto ([Tecnica laser](#laser-tech)) o perché il bersaglio l’ha schivato (la schivata di una formazione, l’[Evasione](#grit-and-evasion) di un pilota). Una raffica critica è più grande e finisce con un “!” (azzurro ghiaccio quando colpisce un alieno o un nemico).
 - **I tuoi restano più luminosi.** I numeri degli altri sul tuo bersaglio sono un po’ più piccoli e più tenui, e stanno in una colonna a destra della nave, così non coprono mai i tuoi.
 - **Un numero per una folla.** I colpi che arrivano insieme si sommano in un solo numero con un conteggio dopo (`×35`). Quaranta piloti che sparano a una nave fanno circa due numeri al secondo, e mai più di sette. Le cure compaiono una volta al secondo.
 - **Solo la nave sotto il cerchio.** Ogni altra nave mostra solo i tuoi colpi e i colpi che subisci. Le radiazioni del buco nero e il drenaggio di scudo di una formazione non hanno numeri: si vedono sulle barre.
@@ -116,8 +121,8 @@ Quando la tua nave viene colpita da un nemico o da un NPC, il danno viene elabor
 ### 1. Assorbimento dello scudo {#1-shield-absorption}
 
 Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbimento medio** della tua nave: la media dell’assorbimento dei tuoi scudi, ciascuno con quello delle sue celle scudo, più lo Shield Absorbance Boost dell’Emporio (vedi [Meccaniche degli scudi](/wiki/03-Mechanics/Shields.md)). **Non ha un tetto del 100%**: ciò che gli scudi prendono di un colpo è il tuo assorbimento **meno la penetrazione dello scudo dell’attaccante**, tra 0% e 100%.
-- L’**assorbimento** (ad es. 85% per il miglior scudo con le migliori celle, 58% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 50% agli scudi di una nave all’85%, e il resto (il 50% in questo caso) colpisce direttamente i punti scafo.
-- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +3% a +12% per slot) e una formazione di droni si sommano, e niente limita il totale.
+- L’**assorbimento** (ad es. 91% per il miglior scudo con le migliori celle, 62% per un Basic Shield Core con due Absorption Shield Cell I) di ogni colpo viene preso dagli scudi, meno la penetrazione del colpo: il 35% di un Lancet III lascia il 56% agli scudi di una nave all’91%, e il resto (il 44% in questo caso) colpisce direttamente i punti scafo.
+- La **penetrazione dello scudo** viene dai razzi diretti (dal 10 al 35%) e dalle munizioni laser x3 e x4 (5% e 10%); gli alieni non ne hanno. Una nave oltre il 100% (il 112%, per esempio) regge un colpo intero contro una penetrazione fino alla differenza (qui il 12%). I Penetration Amp dei laser di chi spara (da +5% a +20% per slot) e una formazione di droni si sommano, e niente limita il totale.
 - Uno scudo troppo basso per la sua quota passa la differenza ai punti scafo; se gli scudi sono completamente esauriti, il **100%** di tutto il danno restante colpisce i punti scafo.
 - Gli alieni non hanno una statistica di assorbimento: i loro scudi prendono l’80% di ogni colpo (meno la penetrazione del colpo), il loro scafo il resto.
 - **Formazioni di droni.** Rampart aumenta il tuo assorbimento del 17% (Shrike lo riduce del 10%), e Asterism dà a ogni colpo diretto contro di te il 7% di probabilità di non fare alcun danno (compare un “Mancato” fluttuante), e i colpi che arrivano si dividono tra scudo e scafo come al solito. Gemini (+15 punti) aggiunge penetrazione alle tue munizioni e ai razzi diretti, e Stiletto (+35 punti di penetrazione dei razzi) solo ai razzi diretti, senza tetto ([Formazioni di droni](/wiki/03-Mechanics/Formations.md)). Per un laser contano anche i suoi amp.
@@ -133,6 +138,15 @@ La base di ogni fazione (le mappe X-1) contiene zone sicure.
 ### 3. Sotto attacco in un settore pericoloso {#3-under-attack-in-a-danger-sector}
 
 Un salto attraverso un portale dura 3 secondi (vedi [Viaggiare sulla mappa spaziale](/wiki/01-General/Spacemap%20Travel.md)). Nei settori pericolosi (da `DS-1` a `DS-4`) un pilota la cui nave è stata colpita da un altro pilota o da un alieno negli ultimi **10 secondi** non può avviarne uno, e un colpo annulla un salto in corso. Ovunque altrove gli attacchi non interrompono mai un salto, e nulla interrompe la raccolta di una cassa di [carico](/wiki/03-Mechanics/Cargo.md).
+
+### 4. Tenacia ed Evasione {#grit-and-evasion}
+
+Due [competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md) cambiano quello che un colpo ti fa, oltre ai tuoi scudi e alla tua formazione:
+
+- **Tenacia** toglie una parte del danno di ogni colpo che subisci, prima che scudo e scafo se lo dividano, e quindi riduce entrambi. La parte cresce con il livello della competenza.
+- **Evasione** si somma alla probabilità che un colpo diretto non faccia alcun danno (compare un “Miss” fluttuante). La nave di ogni pilota ha già una piccola probabilità propria; l’Evasione si aggiunge a quella, e una [formazione di droni](/wiki/03-Mechanics/Formations.md) con evasione si aggiunge a entrambe. La probabilità non può superare il 100%. Un’esplosione ad area non ha una mira e non si schiva mai.
+
+Le cifre di ogni livello sono nella tabella delle [Competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ---
 
@@ -154,9 +168,9 @@ Le munizioni [Siphon Battery](/wiki/06-Items/Lasers.md) aggiungono subito al tuo
 
 - **Funzionamento**: se equipaggi un Repair Drone (negli Extra dell’Hangar), lo attivi dalla barra rapida (trascinalo dal selettore Extra su uno slot) e ripara il tuo scafo. Qualsiasi colpo lo disattiva, e si ferma a scafo pieno. Con una [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) montata non devi riattivarlo: la CPU lo lancia da sola appena è passato il ritardo indicato più sotto, a meno che tu non l’abbia fermato a mano.
 - **Velocità di riparazione**: ripristina ogni secondo una percentuale dei tuoi punti scafo massimi (conta solo il miglior drone montato, non si sommano):
-  - **Repair Drone I**: 1,5% dei punti scafo massimi / s
-  - **Repair Drone II**: 2,25% dei punti scafo massimi / s
-  - **Repair Drone III**: 3,5% dei punti scafo massimi / s
+  - **Repair Drone I**: 2% dei punti scafo massimi / s
+  - **Repair Drone II**: 3% dei punti scafo massimi / s
+  - **Repair Drone III**: 4% dei punti scafo massimi / s
   - **Repair Drone IV**: 5% dei punti scafo massimi / s
 - **Ritardo**: i Repair Drone iniziano a riparare lo scafo solo dopo **10 secondi** senza subire danni.
 - **In uno slot abilità** un Repair Drone non ripara da solo: ti dà **Emergency Repair**, un pulsante che cura una quota dei tuoi punti scafo massimi nell’arco di dieci secondi, anche sotto il fuoco (vedi [Abilità](/wiki/03-Mechanics/Abilities.md)).

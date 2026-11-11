@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las na
 
 ## Estadísticas {#stats}
 
-- **Puntos de vida (HP)**: 600.000
+- **Puntos de vida (HP)**: 500.000
 - **Velocidad base**: 110
 - **Ranuras de láser**: 8
 - **Ranuras de extra**: 3
@@ -27,7 +27,7 @@ La Ironclad es un tanque pesado y blindado: el casco más grueso de todas las na
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Ironclad tiene 15 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Ironclad y en todos sus diseños. Con las 15 llenas de Hull Plating III se suman 225.000 de casco.
+- **Ranuras de blindaje.** La Ironclad tiene 15 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Ironclad y en todos sus diseños. Con las 15 llenas de Hull Plating III se suman 375.000 de casco.
 - **Diseños.** La Ironclad tiene 2 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Ironclad en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |

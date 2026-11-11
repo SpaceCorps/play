@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Compétences -->
 # Compétences actives du vaisseau {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ L’Engine II et les boucliers et moteurs de rang III (le Heavy Shield Core, l�
 - **Chaque compétence a son propre temps de recharge.** En utiliser une ne bloque pas les autres.
 - **Un effet en cours garde les valeurs avec lesquelles il a commencé.** Désinstaller l’objet ou changer de configuration ne le modifie pas et n’y met pas fin. Un saut ou une reconnexion n’y met pas fin non plus ; une déconnexion, si, et son temps de recharge reste.
 - Les autres pilotes voient les minuteurs de vos compétences sur la carte, comme toujours : un Surge épuisé leur indique que la voie est libre pour les prochaines minutes.
+
+## Aptitudes de pilote {#pilot-skills}
+
+Trois de vos [aptitudes de pilote](/wiki/03-Mechanics/Pilot-Skills.md) changent le déroulement des compétences, y compris la compétence `F` du modèle de votre vaisseau :
+
+- **Réflexes** fait terminer les temps de recharge plus tôt, un peu plus à chaque niveau. Un temps de recharge démarre toujours quand vous appuyez et comprend la durée de la compétence.
+- **Tactique** fait durer une compétence plus longtemps. Un Shield Surge ou une Emergency Repair donne les mêmes points par seconde sur la durée allongée, donc il rend davantage au total, et un Afterburner dure plus longtemps. Le temps de recharge n’augmente pas avec elle : l’attente après la fin de la compétence devient plus courte.
+- **Sabotage** renforce les poisons, comme le Venom d’un Wraith RAPTOR, en dégâts et en durée, en plus de la Tactique.
+
+Les chiffres de chaque niveau figurent dans le tableau des [Aptitudes de pilote](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ## Touches et boutons {#keys-and-buttons}
 

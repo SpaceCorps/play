@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
@@ -18,8 +18,8 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 | **Storm NOTSUM** | -10% de casco base, +50 de velocidade base, +2% de velocidade, Blink | 162.000 | 310 | 14 |
 | **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -25% de capacidade de escudo, +10% de penetração de escudo, Heal Pod | 180.000 | 210 | 16 |
 | **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon | 144.000 | 260 | 13 |
-| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 720.000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink | 600.000 | 110 | 10 |
+| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 600.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink | 500.000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 307.200 | 230 | 13 |
@@ -63,7 +63,7 @@ A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDE
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **As quatro** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Juntas, elas pedem 500 Dark Matter, além dos 749 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.364 para todas as tecnologias do jogo.
+Juntas, elas pedem 500 Dark Matter, além dos 759 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.374 para todas as tecnologias do jogo.
 
 ## O que acontece com a sua nave {#what-happens-to-your-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Objeto | Casco que añade | De dónde sale |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5.000 | Tienda, 5.000 Thulium |
-| **Hull Plating II** | 10.000 | Ensamblaje, a partir de un Hull Plating I |
-| **Hull Plating III** | 15.000 | Ensamblaje, a partir de un Hull Plating II |
+| **Hull Plating I** | 8.000 | Tienda, 5.000 Thulium |
+| **Hull Plating II** | 15.000 | Ensamblaje, a partir de un Hull Plating I |
+| **Hull Plating III** | 25.000 | Ensamblaje, a partir de un Hull Plating II |
 
 El Hull Plating I se compra. **El II y el III son mejoras**: Ensamblaje consume un blindaje del nivel inferior (suelto en tu inventario) y pide Thulium, materiales y **Dark Matter Plates**, 5 para el II y 8 para el III, cuando el último nivel de cualquier otra pieza de equipo pide 4 y una Ancient Control Unit. Cada uno necesita antes su tecnología, en el árbol del Hull Plating de la página [Investigación](/wiki/03-Mechanics/Research.md#tree-hull-plating): 1 día y 25 Dark Matter para el II, 2 días y 40 para el III, además de la tecnología de la propia Dark Matter Plate. El árbol de arriba tiene los precios, los materiales y los tiempos.
 
-La [Forja](/wiki/06-Items/Forge.md) acepta todos los blindajes, y una mejora conserva el grado de forja y la bonificación del blindaje que consumió. Un blindaje tiene una sola estadística, su casco, así que lleva una sola bonificación, de +2 % a +15 % según el grado: un Hull Plating III en Eterno suma hasta 17.250. La [Subasta](/wiki/03-Mechanics/Auction.md) lista el Hull Plating II y el III, nunca el Hull Plating I, que vende la tienda.
+La [Forja](/wiki/06-Items/Forge.md) acepta todos los blindajes, y una mejora conserva el grado de forja y la bonificación del blindaje que consumió. Un blindaje tiene una sola estadística, su casco, así que lleva una sola bonificación, de +2 % a +15 % según el grado: un Hull Plating III en Eterno suma hasta 28.750. La [Subasta](/wiki/03-Mechanics/Auction.md) lista el Hull Plating II y el III, nunca el Hull Plating I, que vende la tienda.
 
 ## Ranuras de blindaje {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ El blindaje de casco solo encaja en las **ranuras de blindaje**, una clase de ra
 
 | Nave | Ranuras de blindaje | Un juego completo de Hull Plating III suma |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75.000 |
-| **Storm** | 7 | 105.000 |
-| **Ironclad** | 15 | 225.000 |
-| **Wraith** | 10 | 150.000 |
+| **Paragon** | 5 | 125.000 |
+| **Storm** | 7 | 175.000 |
+| **Ironclad** | 15 | 375.000 |
+| **Wraith** | 10 | 250.000 |
 
 - **Todas bloqueadas al principio.** Una ranura se abre cuando la investigas en el Skylab: una tecnología por cada ranura, 1 hora y 10 Dark Matter, en orden desde la primera. La vista de [Investigación](/wiki/03-Mechanics/Research.md#ship-technologies) muestra las ranuras de una nave como una sola tarjeta con un punto por ranura.
 - **Una clase de nave, no una sola nave.** Las ranuras que abriste para la Paragon están abiertas también en todos los diseños de la Paragon ([Diseños de naves](/wiki/03-Mechanics/Ship-Designs.md)). Una tecnología es tuya para siempre: el reinicio la conserva.

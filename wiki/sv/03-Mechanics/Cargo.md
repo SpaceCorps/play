@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -12,8 +12,9 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 - **Koncernpiloter** lämnar ingen låda när de förstörs, vem eller vad som än förstör dem. Se [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md).
 - **Spelarskepp** lämnar inget vrak och ingen låda när de förstörs, vem eller vad som än förstör dem, och ingenting tas från pilotens inventarie.
 - **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare (utom Tesseract) och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
 - **En [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar ingen sådan låda: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](#private-boxes) med sin del av bytet.
+- **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** lämnar heller ingen låda vid vraket: varje pilot som dess nedskjutning betalar får en egen [privat låda](#private-boxes) med sin del av Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units och Dark Matter.
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. En bit plockas upp som en låda, och den är reserverad för piloterna som förtjänade den och sedan fri, som en låda.
 
 En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
@@ -42,14 +43,14 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 
 ## Privata lådor {#private-boxes}
 
-Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är inte en låda åt en pilot: **varje pilot som gjort minst 5 % av skadan får en egen låda**, slumpad för sin del (för 20 % av skadan ungefär en femtedel av varje mängd; [detaljerna](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är inte en låda åt en pilot: **varje pilot som gjort minst 5 % av skadan får en egen låda**, slumpad för sin del (för 20 % av skadan ungefär en femtedel av varje mängd; [detaljerna](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). Bytet från [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) fungerar likadant: varje pilot som dess nedskjutning betalar får en.
 
 - **Bara du ser den och bara du kan ta den.** Din klan och din grupp ser den inte och kan inte ta den; för alla andra finns den helt enkelt inte. På din skärm har den en tunn ring under sig.
-- **Den ligger kvar i 10 minuter** från nedskjutningen, och hela tiden är den din: det finns ingen väntan på 30 sekunder. Sedan driver den iväg som vilken låda som helst. Spelloggen berättar din del av bytet när väktaren faller.
+- **Den ligger kvar i 10 minuter** från nedskjutningen, och hela tiden är den din: det finns ingen väntan på 30 sekunder. Sedan driver den iväg som vilken låda som helst. Spelloggen berättar din del av bytet när väktaren eller Tesseract faller.
 - **Den knuffar inte ut andra lådor.** Privata lådor har en egen pool vid sidan av kartans 64 (högst 32), så en väktares nedskjutning tar aldrig platsen från en annan låda, och en full karta kostar dig aldrig din låda.
 - Att plocka upp den fungerar som med vilken låda som helst ([ovan](#collecting)): ditt skepp flyger till den, och upplockningen tar en halv sekund. Din Retriever tar också dina privata lådor, och ingen annans.
 
 ## Boosters
 
-- **Loot Luck Booster** (och den permanenta buffen Luck Boost, och turen hos dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md)) höjer chansen för varje bytespost när piloten gör nedskjutningen.
-- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, för hand eller med en Retriever, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den, så fem N.I.K.E.-raketer blir tio Dark Matter för alla.
+- **Loot Luck Booster** (och den permanenta buffen Luck Boost, och turen hos dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md)) höjer chansen för varje bytespost när piloten gör nedskjutningen. Din färdighet [Instinkt](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) lägger också till den chansen, utöver boosterns.
+- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, för hand eller med en Retriever, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den. Bara din egen färdighet Antimatter lägger till Dark Matter (upp till +25 % på nivå 100); utan den blir fem N.I.K.E.-raketer tio Dark Matter.

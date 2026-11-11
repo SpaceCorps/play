@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Sürüler -->
 # Sürüler {#swarms}
 
@@ -87,8 +87,8 @@ Seeker, Pirate, Phantasm, Goombah, Crystalys ve Tesseract sürüleri, bir patron
 Sıradan bir uzaylı, ona ilk vuran pilota öder ([Savaş](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Bir sürünün lideri ve her Dormant Pulse ise bunun yerine **verilen hasara göre** öder:
 
 - **Ödeme hasara göre bölüşülür.** Yukarıdaki kurallarda belirtilen payı veya daha fazlasını veren her pilot, verdiği hasarla orantılı olarak ödenir: öldürmenin kredisi, Thulium’u, XP’si ve onuru aralarında bölüşülür. Payın altında kalan pilota hiçbir şey ödenmez.
-- **Kargo kutusu en çok hasar veren pilota gider.** Her uzaylıda olduğu gibi 30 saniye boyunca o pilotun (ve klanının) olur, sonra herkes alabilir ([Kargo](/wiki/03-Mechanics/Cargo.md)). Her Dormant gemisinin kendi hasar sayımı ve kendi kutusu vardır.
-- **Takipçiler olağan biçimde öder**: Pirate Scout ve Seeker Slave gemileri ile Phantasm, Goombah ve Crystalys sürülerinin Guard gemileri kendilerine ilk vuran pilota öder ve ödemeleri bir patronunkinin yanında küçüktür.
+- **Kargo kutusu en çok hasar veren pilota gider.** Her uzaylıda olduğu gibi 30 saniye boyunca o pilotun (ve klanının) olur, sonra herkes alabilir ([Kargo](/wiki/03-Mechanics/Cargo.md)). Her Dormant gemisinin kendi hasar sayımı ve kendi kutusu vardır. Tesseract istisnadır: kutu bırakmaz ve öldürülmesinin ödediği her pilot kendine ait bir özel kutu alır ([Tesseract sürüsü](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Takipçiler olağan biçimde öder**: Pirate Scout ve Seeker Slave gemileri, Phantasm, Goombah ve Crystalys sürülerinin Guard gemileri ile Tesseract sürüsünün Facet gemileri kendilerine ilk vuran pilota öder ve ödemeleri bir patronunkinin yanında küçüktür.
 - **Bir patronun ödemesi, çevresindeki uzaylıları geçecek biçimde ayarlanmıştır.** Bir Pirate Boss, bir Boss Phantasm ya da bir Boss Goombah ile bir dakikalık savaş, bir Goombah ile bir dakikalık savaştan daha çok öder; Dormant sürüsüyle ya da bir Boss Crystalys ile bir dakikalık savaş ise bir Crystalys ile bir dakikalık savaştan daha çok öder; Boss Seeker tam olarak on Seeker öder.
 - **Dormant Swamp bölgesinin uzaylıları** (Slumbering Void, Inert Mass ve The Unwakened) bir patron gibi, hasara göre öder ve sıralamana PvE puanı ekler; değerleri [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens) sayfasındadır.
 

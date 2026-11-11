@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@ Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengon
 
 - **Slumbering Void.** Il cacciatore snello, l’alieno più veloce del gioco (più veloce di una Storm con Afterburner III). Alcuni pattugliano sempre i dintorni della palude, e altri arrivano a ondate agli escavatori. È aggressivo, dà la caccia al pilota più vicino che riesce a vedere e non vede mai una nave occultata.
 - **Inert Mass.** Un relitto morto con crepe viola, grande come una piccola stazione. Restano entro una distanza fissa dal centro della palude e per ora non lo lasciano. Lancia **Dormant Lance**: razzi guidati con una portata lunghissima che seguono una nave finché non si occulta, non apre una finestra EMP, non entra in un anello sicuro, non salta o non muore. È più veloce di qualsiasi nave, quindi servono solo queste interruzioni. Un asteroide sulla traiettoria di una Dormant Lance la ferma, e la Lance lo danneggia con il proprio danno (nessuno viene pagato per questo): una roccia ripara da una Inert Mass quindi solo per pochi colpi.
-- **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. È **immune**: colpi e razzi lo raggiungono e non fanno nulla, la finestra del bersaglio mostra le barre piene e la parola Immune. Un evento successivo permetterà di combatterlo; le sue ricompense qui sotto sono scritte e non si possono ancora ottenere.
+- **L’Unwakened.** Un monolite che dorme al centro della palude, la cosa più grande di qualsiasi mappa, così lento da non raggiungere mai una nave. Non lancia nulla, ma ogni nave dentro la sua aura brucia, **occultata o no**. È **immune**: colpi e razzi lo raggiungono e non fanno nulla, la finestra del bersaglio mostra le barre piene e la parola Immune. Un evento successivo permetterà di combatterlo; le sue ricompense qui sotto sono scritte e non si possono ancora ottenere. La **Tecnica delle radiazioni** di un pilota ne riduce la bruciatura, fino a 0,40 al livello 100.
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Ingenting betalas ut när en asteroid spricker. Den brister i spillror och kasta
 
 En större asteroid lämnar fler delar (kolumnen Kreditbitar i Sorterna: krediterna och Thulium kommer i så många delar, och malmen i en till). Efter en upplockning går ditt skepp på egen hand vidare till nästa bit av en närliggande asteroid som du får ta; varje flyttkommando från dig stoppar det.
 
-Från nivå 2 av klipporna kan ett sönderfall också lämna en **Cluster Chunk** hel, i malmbiten åt den grupp som gjorde mest skada: en **Regular Cluster Chunk** från nivå 2, en **Mythical Cluster Chunk** från nivå 3 och en **Legendary Cluster Chunk** från nivå 4; Motherlode ger dem oftast. Chanserna står i [Resurser](/wiki/06-Items/Resources.md#regular-cluster-chunk). Tur ändrar dem inte, inte heller en P.E.T.s tur. Med en Orvium Reinforced Plate blir en chunk en [P.E.T.](/wiki/03-Mechanics/Pets.md) i hangarens Vagga.
+Ett sönderfall kan också lämna en **Cluster Chunk** hel, i malmbiten åt den grupp som gjorde mest skada: en **Regular Cluster Chunk** från nivå 1, en **Mythical Cluster Chunk** från nivå 3 och en **Legendary Cluster Chunk** från nivå 4; Motherlode ger dem oftast. Chanserna står i [Resurser](/wiki/06-Items/Resources.md#regular-cluster-chunk). Tur ändrar dem inte, inte heller en P.E.T.s tur. Med en Orvium Reinforced Plate blir en chunk en [P.E.T.](/wiki/03-Mechanics/Pets.md) i hangarens Vagga.
 
 ## Vem som får bitarna {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Varje hemsektor för de tre koncernerna och farosektorerna har asteroider, i en 
 
 En asteroids **nivå** är den ring av sektorer som dess sort tillhör: nivå 1 till 4 är sektorerna x-1 till x-4 hos de tre koncernerna och nivå 5 farosektorerna. Nivån stiger med storleken: ju större asteroid, desto högre nivå. De två är dock inte samma sak: de flesta nivåer rymmer två storlekar, som tabellen anger. Målfönstret och kortet som visas när du pekar på en asteroid visar dess familj, storlek och nivå.
 
-Nivån avgör också ett eget fynd: en **P.E.T.-del**, en Cluster Chunk som [P.E.T.](/wiki/03-Mechanics/Pets.md)-vaggan tar emot. Tabellen anger chansen att en sönderslagen asteroid lämnar varje grad (ett streck: aldrig). Asteroider på nivå 1 lämnar inga. Varje grad slumpas en gång per sönderslagen asteroid, piloten som gjorde mest skada får chunken hel, och tur ändrar inte chanserna. Motherlode har egna chanser. Markera en asteroid, så listar målfönstret P.E.T.-delarna för dess sort.
+Nivån avgör också ett eget fynd: en **P.E.T.-del**, en Cluster Chunk som [P.E.T.](/wiki/03-Mechanics/Pets.md)-vaggan tar emot. Tabellen anger chansen att en sönderslagen asteroid lämnar varje grad (ett streck: aldrig). Varje grad slumpas en gång per sönderslagen asteroid, piloten som gjorde mest skada får chunken hel, och tur ändrar inte chanserna. Motherlode har egna chanser. Markera en asteroid, så listar målfönstret P.E.T.-delarna för dess sort.
 
 | Nivå | Sektorer | Storlek | Sorter | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Pytteliten, Liten | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Liten, Medelstor | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4 % | – | – |
-| 3 | `x-3` | Medelstor | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8 % | 0,15 % | – |
-| 4 | `x-4` | Medelstor, Stor | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1 % | 0,25 % | 0,03 % |
-| 5 | Farosektorer | Stor | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2 % | 0,3 % | 0,1 % |
-| 5 | Farosektorer | Enorm | Motherlode | 25 % | 8 % | 3 % |
+| 1 | `x-1` | Pytteliten, Liten | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0,5 % | – | – |
+| 2 | `x-2` | Liten, Medelstor | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1 % | – | – |
+| 3 | `x-3` | Medelstor | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2,5 % | 0,35 % | – |
+| 4 | `x-4` | Medelstor, Stor | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5 % | 0,5 % | 0,1 % |
+| 5 | Farosektorer | Stor | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10 % | 1 % | 0,5 % |
+| 5 | Farosektorer | Enorm | Motherlode | 20 % | 5 % | 3 % |
 
 Det finns 27 sorters asteroider, i 8 familjer. **Gjord för** namnger raketen en sort är balanserad för och ungefär hur många av den en sprängning tar i Alpha. **Fynd** är malmen och de sällsynta fynden som en sprängning slumpar fram och som dess bitar delar på: en procentsats är chansen för den raden, de andra raderna hittas alltid. Krediterna och Thulium är Alpha-beloppen för en sprängning.
 

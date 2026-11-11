@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Enxames -->
 # Enxames {#swarms}
 
@@ -87,8 +87,8 @@ Os enxames Seeker, Pirate, Phantasm, Goombah, Crystalys e Tesseract avisam os pi
 Um alienígena comum paga o piloto que o acertou primeiro ([Combate](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). O líder de um enxame, e cada Dormant Pulse, pagam em vez disso **pelo dano causado**:
 
 - **O pagamento é dividido pelo dano.** Todo piloto que causou pelo menos a parte indicada nas regras acima é pago, em proporção ao dano causado: os créditos, o Thulium, a XP e a honra do abate são divididos entre eles. Um piloto abaixo dessa parte não recebe nada.
-- **A caixa de carga vai para o piloto que mais causou dano.** Ela é desse piloto (e do clã dele) por 30 segundos, como com qualquer alienígena, e depois qualquer um pode pegá-la ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tem a sua própria contagem de dano e a sua própria caixa.
-- **Os seguidores pagam como de costume**: os Pirate Scouts, os Seeker Slaves e os Guards dos enxames Phantasm, Goombah e Crystalys pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
+- **A caixa de carga vai para o piloto que mais causou dano.** Ela é desse piloto (e do clã dele) por 30 segundos, como com qualquer alienígena, e depois qualquer um pode pegá-la ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tem a sua própria contagem de dano e a sua própria caixa. O Tesseract é a exceção: ele não larga caixa nenhuma, e cada piloto que o abate paga recebe uma caixa privada só dele ([Enxame Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Os seguidores pagam como de costume**: os Pirate Scouts, os Seeker Slaves, os Guards dos enxames Phantasm, Goombah e Crystalys e os Facets do enxame Tesseract pagam o piloto que os acertou primeiro, e o pagamento deles é pequeno perto do de um chefe.
 - **O pagamento de um chefe é feito para superar os alienígenas ao redor.** Um minuto de luta contra um Pirate Boss, um Boss Phantasm ou um Boss Goombah paga mais do que um minuto de luta contra um Goombah, e um minuto contra o enxame Dormant ou um Boss Crystalys paga mais do que um minuto contra um Crystalys; o Boss Seeker paga exatamente dez Seekers.
 - **Os alienígenas do Dormant Swamp** (o Slumbering Void, a Inert Mass e o Unwakened) são pagos como um chefe, pelo dano, e somam pontos PvE ao seu ranking; os números deles estão em [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ La Paragon è un pesante incrociatore da combattimento progettato con un equilib
 
 ## Ricerca {#research}
 
-- **Slot corazza.** Questa nave ha 5 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 5 riempiti di Hull Plating III aggiungono 75.000 di scafo.
+- **Slot corazza.** Questa nave ha 5 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 5 riempiti di Hull Plating III aggiungono 125.000 di scafo.
 - **Design.** Questa nave ha 3 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercane uno (10 h e 10 Dark Matter), poi converti la tua Paragon in quel design nell’Assemblaggio: il cambiamento non si può annullare.
 
 | Design | Cosa cambia |

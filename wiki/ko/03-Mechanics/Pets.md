@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -17,7 +17,7 @@
 ## 1분 요약 {#in-one-minute}
 
 - **Station 얻기.** 연구 센터에서 **P.E.T. Station**을 연구하고 어셈블리에서 제작합니다. 3단계가 있고 각각 **2, 3, 5**마리 자리를 줍니다. 조종하는 함선의 부가 장비 슬롯에 장착합니다. 요람은 Station 없이도 작동하므로, Station이 생기기 전에도 P.E.T.를 부화시킬 수 있습니다.
-- **청크 찾기.** 티어 2 이상의 소행성을 부수면, 가장 많은 피해를 준 파티의 광석 덩어리에 **Regular**, **Mythical**, **Legendary Cluster Chunk**가 통째로 남을 수 있습니다.
+- **청크 찾기.** 소행성을 부수면(클수록 유리합니다), 가장 많은 피해를 준 파티의 광석 덩어리에 **Regular**, **Mythical**, **Legendary Cluster Chunk**가 통째로 남을 수 있습니다.
 - **부화시키기.** 격납고의 **P.E.T.** 보기에서 요람은 P.E.T. 하나당 청크 하나와 Orvium Reinforced Plate 하나를 쓰며 대기열은 네 자리입니다. 청크의 등급이 P.E.T.의 부스트 수를 정합니다: **1, 2, 3**.
 - **도킹하고 날기.** 함선이 착륙해 있는 동안 원하는 P.E.T.를 도킹합니다. Station을 장착하고 ON으로 둔 동안은 부스트를 주고, 사냥하고 채굴하고 비행하는 동안 경험치를 얻어 레벨 20까지 자랍니다.
 - **ON과 OFF.** 퀵슬롯의 **PET** 슬롯이 Station을 전환하며, 비행 중에도 되고 바로 적용됩니다. OFF에서는 P.E.T.가 부스트를 주지 않고, 경험치를 얻지 않고, 일하지 않습니다. ON으로 돌리면 다시 돌아옵니다. 전환한 적 없는 Station은 ON입니다.
@@ -37,7 +37,7 @@ Station은 **부가 장비**입니다. **P.E.T. Station I, II, III** 세 아이�
 
 ## Cluster Chunk {#cluster-chunks}
 
-Cluster Chunk는 바위가 품고 있는 수정 덩어리입니다. **일반(Regular)**, **신화(Mythical)**, **전설(Legendary)** 세 등급이 있으며, 한 번 부수면 등급마다 최대 하나가 남습니다. [바위](/wiki/03-Mechanics/Asteroid-Mining.md)의 티어 2부터는 Regular Cluster Chunk가, 티어 3부터는 Mythical이, 티어 4부터는 Legendary가 남을 수 있고, Motherlode가 가장 자주 줍니다. 확률은 [자원](/wiki/06-Items/Resources.md#regular-cluster-chunk)에 있습니다. 청크는 파괴 보상에 포함되지 않습니다. 광석 덩어리 안에 통째로 들어가 가장 많은 피해를 준 파티의 것이 되며, 행운은 그 확률을 바꾸지 않습니다. P.E.T.의 행운도 마찬가지입니다.
+Cluster Chunk는 바위가 품고 있는 수정 덩어리입니다. **일반(Regular)**, **신화(Mythical)**, **전설(Legendary)** 세 등급이 있으며, 한 번 부수면 등급마다 최대 하나가 남습니다. 어느 [바위](/wiki/03-Mechanics/Asteroid-Mining.md)를 부숴도 Regular Cluster Chunk가, 티어 3부터는 Mythical이, 티어 4부터는 Legendary가 남을 수 있고, Motherlode가 가장 자주 줍니다. 확률은 [자원](/wiki/06-Items/Resources.md#regular-cluster-chunk)에 있습니다. 청크는 파괴 보상에 포함되지 않습니다. 광석 덩어리 안에 통째로 들어가 가장 많은 피해를 준 파티의 것이 되며, 행운은 그 확률을 바꾸지 않습니다. P.E.T.의 행운도 마찬가지입니다.
 
 청크는 자원이라 팔 수 없고, [수송 보관함](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-)에 넣어 가져가지 않으면 초기화 때 삭제됩니다.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0096209c8f6660f0 -->
+<!-- wiki-i18n source: 5b87e9167b265780 -->
 <!-- wiki-i18n title: Pilotos de corporación -->
 # Pilotos de corporación {#company-pilots}
 
@@ -11,7 +11,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
 
 - **Escuadrón**: 3 pilotos por sector de corporación en cada mundo (Alpha, Beta y Gamma tienen sus propios escuadrones), cada uno con la etiqueta de la corporación y un indicativo, p. ej., **[M] Vesper**. Sus etiquetas de nombre llevan una pequeña marca de robot y el color de la corporación.
 - **Nave**: una [Ostirion](/wiki/02-Ships/Ostirion.md) con tres **Quantum Laser II**, dos **Light Shield Cores**, un **Engine I** y un **Repair Drone I**:
-  - 64.000 puntos de vida, 22.000 puntos de escudo, velocidad 222
+  - 64.000 puntos de vida, 22.000 puntos de escudo, velocidad 225
   - absorción del 45 %: sus escudos reciben el 45 % de cada impacto y el casco, el 55 %
   - 195 de daño base por andanada (munición x1), 1 % de probabilidad de crítico, alcance 700
 - **En el minimapa**: un rombo verde para los pilotos de tu corporación y uno ámbar para los de otra corporación.
@@ -24,7 +24,7 @@ Cada corporación mantiene un pequeño escuadrón de pilotos NPC en sus sectores
 - **Ayudan**: cuando un alienígena ataca a un piloto de su corporación que está a menos de 1.500 de ellos, o cuando ese piloto abre fuego contra un alienígena que ellos podrían vencer, se unen a ese combate. Se mantienen al margen de un combate que un compañero empezó con un alienígena al que no podrían vencer (un Goombah al que un piloto disparó, o un Bulwark); a un alienígena agresivo que va a por un compañero lo combaten, sea cual sea. Un alienígena que rematan paga al piloto que tiene su reclamación (el primero que lo impactó; consulta [Combate](/wiki/03-Mechanics/Combat.md)); si nadie la tiene, cuenta para el piloto de su corporación más cercano que le esté disparando (con fijación, a su alcance y con una andanada en los últimos 2,5 segundos). En ambos casos, las recompensas son de ese piloto, y su [caja de carga](/wiki/03-Mechanics/Cargo.md) queda reservada para él como si hubiera hecho el derribo. Los pilotos de corporación nunca reclaman un alienígena ni ganan o recogen nada ellos mismos: un alienígena contra el que luchan solos no deja caja. Fijar un alienígena desde lejos, o solo recibir sus disparos, no da nada.
 - **Ignoran los [enjambres](/wiki/05-Swarms/Swarms.md)**: una nave de enjambre no es asunto suyo. No la cazan ni se suman a un combate contra ella, y nunca acuden en tu ayuda en uno.
 - **Se defienden** cuando les disparan alienígenas, y también pilotos de otras corporaciones una vez abierto el PvP y donde su [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite el PvP: no en `x-1` a `x-3` de Alpha, ni en `x-1` de Beta.
-- **Reparan** con su dron siempre que su casco está dañado: un 1,5 % de él por segundo, a partir de 10 segundos después del último impacto.
+- **Reparan** con su dron siempre que su casco está dañado: un 2 % de él por segundo, a partir de 10 segundos después del último impacto.
 - **Se retiran** al 30 % de casco a la zona segura más cercana y reparan allí hasta el 90 %.
 - **Reaparecen** en la estación del sector (o en su primer portal) 60 segundos después de ser destruidos.
 

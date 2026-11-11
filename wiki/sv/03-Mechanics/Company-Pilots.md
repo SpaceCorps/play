@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0096209c8f6660f0 -->
+<!-- wiki-i18n source: 5b87e9167b265780 -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
@@ -11,7 +11,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 
 - **Skvadron**: 3 piloter per koncernsektor i varje värld (Alpha, Beta och Gamma har var sin skvadron), var och en med koncernens tagg och en anropssignal i namnet, t.ex. **[M] Vesper**. Deras namnskyltar har ett litet robotmärke och koncernens färg.
 - **Skepp**: en [Ostirion](/wiki/02-Ships/Ostirion.md) med tre **Quantum Laser II**, två **Light Shield Core**, en **Engine I** och en **Repair Drone I**:
-  - 64 000 träffpoäng, 22 000 sköldpoäng, hastighet 222
+  - 64 000 träffpoäng, 22 000 sköldpoäng, hastighet 225
   - absorption 45 %: deras sköldar tar 45 % av varje träff, skrovet 55 %
   - 195 grundskada per salva (x1-ammunition), 1 % kritisk chans, räckvidd 700
 - **På minikartan**: en grön romb för din koncerns piloter, en bärnstensfärgad för en annan koncerns.
@@ -24,7 +24,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 - **Hjälper till**: när en pilot i deras koncern inom 1 500 från dem attackeras av en utomjording, eller öppnar eld mot en utomjording som de klarar av, går de med i den striden. De håller sig utanför en strid som en kamrat har startat mot en utomjording de inte skulle klara (en Goombah som en pilot har skjutit på, eller en Bulwark); en aggressiv utomjording som går på en kamrat bekämpas oavsett vad den är. En utomjording som de gör slut på betalar piloten som har paxet på den (den som träffade först, se [Strid](/wiki/03-Mechanics/Combat.md)); om ingen har något pax räknas den för den närmaste piloten i deras koncern som skjuter på den (med målfixering, inom räckvidd, en salva under de senaste 2,5 sekunderna). I båda fallen är belöningarna den pilotens, och dess [lastlåda](/wiki/03-Mechanics/Cargo.md) reserveras åt piloten som om denne hade gjort nedskjutningen. Koncernpiloter paxar aldrig en utomjording och tjänar eller plockar aldrig upp något själva: en utomjording de bekämpar ensamma lämnar ingen lastlåda. Att låsa på den från långt håll, eller bara bli beskjuten, ger ingenting.
 - **Ignorerar [svärmarna](/wiki/05-Swarms/Swarms.md)**: ett svärmskepp är inte deras sak. De jagar det inte, ansluter sig inte till en strid mot det och kommer aldrig till din hjälp i en sådan.
 - **Slår tillbaka** när de beskjuts av utomjordingar, och av andra koncerners piloter när PvP är öppet och där deras [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) tillåter PvP: ingen i Alphas `x-1` till `x-3`, inte heller i Betas `x-1`.
-- **Reparerar** med sin drönare så fort skrovet är skadat: 1,5 % av det per sekund, från 10 sekunder efter den senaste träffen.
+- **Reparerar** med sin drönare så fort skrovet är skadat: 2 % av det per sekund, från 10 sekunder efter den senaste träffen.
 - **Drar sig tillbaka** vid 30 % skrov till närmaste säkra zon och reparerar där till 90 %.
 - **Återvänder** vid sektorns station (eller dess första portal) 60 sekunder efter att de har förstörts.
 

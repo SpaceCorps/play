@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Óriás kotrógép -->
 # Óriás kotrógép {#giant-excavator}
 
@@ -120,6 +120,7 @@ A bányászat másodpercről másodpercre hőt ad hozzá. A hő **halmozódik, �
 
 <!-- excavator-radiation:end -->
 
+- **Sugárzástechnika.** Egy pilótaképesség, amely a köröknél is úgy csökkenti az adagot, mint a fekete lyuknál: a 100. szinten annak 0,40-szeresére; a körök és az idők nem változnak.
 - **A figyelmeztetés.** A túlmelegedés előtt kétszer (az idők a fenti listában vannak) értesül a térkép, a körökben lévő hajó figyelmeztetést lát, és a köröket repülés közben a talajra és a minitérképre rajzolja a játék. Amikor sugároznak, a körök pirosak, és a Sugárzás-mérő mutatja az adagot.
 - **Távozás.** Minden sorozatgyártású hajó el tud menni a vezérlőpult széléről vagy a legtávolabbi még meglévő ládától, kivéve a lassú Ironclad-et: az a figyelmeztetés alatt távozik, vagy nem távozik. Ne állj ládán, amikor a hő a határra ér.
 - **Zsákmány a körökben.** A túlmelegedés előtt lerakott ládák a sugárzásban maradnak: az ott fekvő, amikor az elkezdődik, az adag árán vehető fel.

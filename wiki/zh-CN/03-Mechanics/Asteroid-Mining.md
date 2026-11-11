@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: 小行星采矿 -->
 # 小行星采矿 {#asteroid-mining}
 
@@ -45,7 +45,7 @@
 
 更大的小行星会留下更多块（“种类”里的“钱币碎块”一列：信用点和 Thulium 会分成这么多块，矿石再多一块）。拾取之后，你的舰船会自己前往附近小行星上你可以拿的下一块碎块；你下达任何移动命令都会让它停下。
 
-从岩石的等级 2 起，击碎时还可能整块留下一个 **Cluster Chunk**，放进造成最多伤害的队伍的矿石块里：**Regular Cluster Chunk** 从等级 2 起，**Mythical Cluster Chunk** 从等级 3 起，**Legendary Cluster Chunk** 从等级 4 起，Motherlode 最常给出。概率见[资源](/wiki/06-Items/Resources.md#regular-cluster-chunk)。幸运不会改变它们，P.E.T. 的幸运也一样。配上一块 Orvium Reinforced Plate，一个 chunk 就能在机库的摇篮里变成 [P.E.T.](/wiki/03-Mechanics/Pets.md)。
+击碎时还可能整块留下一个 **Cluster Chunk**，放进造成最多伤害的队伍的矿石块里：**Regular Cluster Chunk** 从等级 1 起，**Mythical Cluster Chunk** 从等级 3 起，**Legendary Cluster Chunk** 从等级 4 起，Motherlode 最常给出。概率见[资源](/wiki/06-Items/Resources.md#regular-cluster-chunk)。幸运不会改变它们，P.E.T. 的幸运也一样。配上一块 Orvium Reinforced Plate，一个 chunk 就能在机库的摇篮里变成 [P.E.T.](/wiki/03-Mechanics/Pets.md)。
 
 ## 谁拿到碎块 {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@
 
 小行星的**等级**是它所属种类所在的星区环：等级 1 到 4 是三个企业的 x-1 到 x-4 星区，等级 5 是危险星区。等级随大小升高：小行星越大，等级越高。但两者并不相同：大多数等级包含两种大小，表中已列出。目标窗口和悬停卡片会显示小行星的系列、大小和等级。
 
-等级还决定另一种收获：**P.E.T. 部件**，即由 [P.E.T.](/wiki/03-Mechanics/Pets.md) 摇篮接收的 Cluster Chunk。表中给出被击碎的小行星留下每一种（普通、神话、传说）的概率（破折号：永远不会）。等级 1 的小行星不会留下任何部件。每一种在每颗被击碎的小行星上各掷一次，造成伤害最多的飞行员整块获得，幸运不会改变概率。Motherlode 有自己的概率。选中一颗小行星，目标窗口就会列出它所属种类的 P.E.T. 部件。
+等级还决定另一种收获：**P.E.T. 部件**，即由 [P.E.T.](/wiki/03-Mechanics/Pets.md) 摇篮接收的 Cluster Chunk。表中给出被击碎的小行星留下每一种（普通、神话、传说）的概率（破折号：永远不会）。每一种在每颗被击碎的小行星上各掷一次，造成伤害最多的飞行员整块获得，幸运不会改变概率。Motherlode 有自己的概率。选中一颗小行星，目标窗口就会列出它所属种类的 P.E.T. 部件。
 
 | 等级 | 星区 | 大小 | 种类 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | 极小, 小型 | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | 小型, 中型 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
-| 3 | `x-3` | 中型 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
-| 4 | `x-4` | 中型, 大型 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
-| 5 | 危险星区 | 大型 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
-| 5 | 危险星区 | 巨型 | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | 极小, 小型 | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0.5% | – | – |
+| 2 | `x-2` | 小型, 中型 | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | 中型 | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2.5% | 0.35% | – |
+| 4 | `x-4` | 中型, 大型 | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0.5% | 0.1% |
+| 5 | 危险星区 | 大型 | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0.5% |
+| 5 | 危险星区 | 巨型 | Motherlode | 20% | 5% | 3% |
 
 小行星共有 27 种，分属 8 个系列。**针对火箭**写出该种类是按哪种火箭平衡的，以及在 Alpha 里大约需要多少枚才能击碎。**产出**是一次击碎抽取出的矿石和稀有产出，由它的碎块分着拿：百分比是那一行的几率，其他行一定会出。信用点和 Thulium 是一次击碎的 Alpha 数额。
 

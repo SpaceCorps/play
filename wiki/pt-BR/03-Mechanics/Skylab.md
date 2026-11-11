@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ O Módulo de defesa luta pelo seu Skylab. Ele abriga os lasers que atiram nos al
 
 | Nível | Lasers | Carregador (tiros) | Orçamento de abates (pontos por hora) | Dificuldade máxima |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.300 | 108 | 1 |
-| 2 | 2 | 3.600 | 293 | 2 |
-| 3 | 3 | 14.000 | 476 | 3 |
-| 4 | 4 | 23.000 | 548 | 4 |
-| 5 | 5 | 35.000 | 630 | 5 |
+| 1 | 1 | 1.600 | 108 | 1 |
+| 2 | 2 | 4.300 | 293 | 2 |
+| 3 | 3 | 16.000 | 476 | 3 |
+| 4 | 4 | 28.000 | 548 | 4 |
+| 5 | 5 | 42.000 | 630 | 5 |
 
 | Nível | Créditos | Thulium | Placas | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ No total, os cinco níveis custam 24.400.000 créditos, 97.600 Thulium, 26 placa
 
 O Módulo de radar dissipa a névoa do mapa do universo (veja [Névoa e escaneamento](#fog-and-scanning)). Tem os níveis 1 a 3, e um nível mais alto escaneia uma célula mais rápido.
 
-- **O que faz**: escaneia **uma célula por vez**, entre as células ao lado de uma que você conhece, e mantém uma **fila de três**: a primeira está sendo escaneada e as outras esperam. Quando um escaneamento termina, você conhece a célula, e o seu Skylab pode voar até lá.
+- **O que faz**: escaneia **uma célula por vez**, entre as células ao lado de uma que você conhece, e mantém uma **fila**: a primeira está sendo escaneada e as outras esperam. Quando um escaneamento termina, você conhece a célula, e o seu Skylab pode voar até lá.
+- **Fila**: a fila comporta **3 células no nível 1** e **2 a mais a cada nível acima**: 5 no nível 2 e 7 no nível 3. Uma melhoria só acrescenta espaço, e as células que já estão na fila mantêm o lugar. Enquanto o módulo está desligado, em melhoria ou sem energia, a fila é mantida, mas não aceita nenhuma célula nova.
 - **Tempo**: 90 minutos por célula no nível 1, 40 no nível 2 e 15 no nível 3. Um escaneamento corre no relógio do servidor, também enquanto você está fora e enquanto o Skylab voa. Ele para, e o tempo não é recuperado, enquanto o módulo está desligado, em melhoria ou sem energia e enquanto o Skylab está destruído. Um escaneamento custa tempo e mais nada.
 - **Mapear tudo**: mapear as 131 células que você não conhece no início, uma depois da outra, leva 8 d 4 h no nível 1, 3 d 15 h no nível 2 e 1 d 9 h no nível 3.
 - **Pesquisa**: cada nível exige a própria tecnologia, Módulo de radar I a III (veja a tabela acima).
@@ -386,18 +387,18 @@ Todo módulo pesa alguma coisa, em **unidades de massa (MU)**, e uma estação m
 O nível máximo é 20, exceto para o Centro de Pesquisa (10), os módulos de motores e de defesa (5) e o módulo de radar (3). A estação inteira pesa 2.353 MU no nível 15 do Núcleo e 2.734 MU no nível 20.
 
 - **O empuxo** é a aritmética de motores das naves, sem velocidade base: um motor soma a velocidade base dele mais a velocidade fixa dos propulsores, vezes os multiplicadores deles; os motores são ordenados do melhor ao pior, os quatro primeiros contam 100% e o quinto 85% (o módulo comporta cinco, no máximo); e os quatro melhores bônus de velocidade são somados por cima. Uma estação sem motor não tem empuxo.
-- **A velocidade** é 60 vezes o empuxo dividido pelo peso da estação, em unidades por segundo, e um salto entre duas células vizinhas é de 15.000 unidades. Abaixo da energia, a página do Skylab mostra a linha “Peso 2.353 MU, velocidade 7,5 unidades/s, um salto 33 min”.
+- **A velocidade** é 60 vezes o empuxo dividido pelo peso da estação, em unidades por segundo, e um salto entre duas células vizinhas é de 15.000 unidades. Abaixo da energia, a página do Skylab mostra a linha “Peso 2.353 MU, velocidade 8,9 unidades/s, um salto 28 min”.
 - **Fixada na saída**: a velocidade de uma viagem é calculada na saída, a partir do peso e do empuxo daquele momento. Uma melhoria que termina no caminho, ou um motor que você troca enquanto o Skylab está estacionado, vale para a próxima viagem.
 
 O que os motores fazem por uma estação com todos os módulos no nível 15 (o Módulo de motores no nível que comporta os motores):
 
 | Motores montados | Peso (MU) | Empuxo | Velocidade (unidades por segundo) | Um salto | Atravessar o mapa (14 saltos) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Módulo de motores nível 1) | 2.289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, cada um com 2 Impulse Thruster II (nível 3) | 2.321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
-| 5 Engine III, cada um com 3 Impulse Thruster IV (nível 5) | 2.353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
+| 1 Engine I (Módulo de motores nível 1) | 2.289 | 5,1 | 0,13 | 1 d 7 h | 18 d 4 h |
+| 3 Engine II, cada um com 2 Impulse Thruster II (nível 3) | 2.321 | 92,1 | 2,38 | 1 h 45 min | 1 d |
+| 5 Engine III, cada um com 3 Impulse Thruster IV (nível 5) | 2.353 | 350,6 | 8,94 | 28 min | 6 h 32 min |
 
-No nível 20 do Núcleo a estação pesa 16% a mais, e os melhores motores levam 39 minutos por salto e 9 h para atravessar o mapa.
+No nível 20 do Núcleo a estação pesa 16% a mais, e os melhores motores levam 32 minutos por salto e 7 h 35 min para atravessar o mapa.
 
 ## Expedições {#expeditions}
 
@@ -434,7 +435,7 @@ Você só vê as células que conhece.
 - **Uma célula que você não conhece** não mostra nada de si: nem o tipo, nem a dificuldade, nem o nome, nem os alienígenas. Uma célula ao lado de uma conhecida é marcada com um **?** e pode ser escaneada; qualquer outra célula desconhecida fica escura.
 - **Uma célula conhecida** mostra no painel o código, o tipo, a dificuldade, o nome e os alienígenas.
 - **Voa-se** só para células conhecidas.
-- **Escanear**: escolha uma célula **?** e aperte **Escanear esta célula**. O radar escaneia uma célula por vez e mantém uma fila de três; uma célula pode ser tirada da fila de novo, e **Cancelar tudo** a esvazia. O tempo de um escaneamento está no [Módulo de radar](#radar-module).
+- **Escanear**: escolha uma célula **?** e aperte **Escanear esta célula**. O radar escaneia uma célula por vez e mantém uma fila (3 células no nível 1, 2 a mais a cada nível); uma célula pode ser tirada da fila de novo, e **Cancelar tudo** a esvazia. O tempo de um escaneamento está no [Módulo de radar](#radar-module).
 
 ### A viagem {#the-trip}
 
@@ -682,6 +683,7 @@ Cada mina e cada coletor tem um armazenamento para cerca de 72 horas do que prod
 - **Forja**: as placas vão para o seu inventário, quando a sua nave está pousada.
 - **Impressora de munição e Fábrica de foguetes**: a munição e os foguetes vão para o seu inventário, quando a sua nave está pousada. Cada uma guarda só 24 horas de produção (veja [Impressora de munição](#ammo-printer) e [Fábrica de foguetes](#rocket-factory)).
 - **Baía de minério**: nada a coletar. Ela move o minério do seu inventário para o Depósito de recursos quando você aperta **Mover**, com a nave pousada, até a sua cota (veja [Baía de minério](#ore-bay)).
+- **Habilidades de piloto**: uma coleta paga o que as horas valem com as habilidades que você tem na hora de coletar. **Extraction** aumenta o que as minas, os coletores, a Impressora de munição e a Fábrica de foguetes produzem, **Instinct** aumenta ainda mais o minério dos dois coletores, e **Logistics** amplia o que o banco do Depósito de recursos comporta.
 - **Baía de troféus**: coletada na janela Universo, com a nave pousada: créditos e Thulium vão para a sua conta, experiência e honra para o seu piloto e o espólio para o seu inventário. Ela guarda o que contém até você coletar, mas uma baía cheia faz o Skylab parar de atirar (veja [Baía de troféus](#trophies-bay)).
 - **Coletar tudo** leva tudo de uma vez, também de módulos desligados ou em melhoria, mas não a Baía de troféus, que você coleta na janela Universo.
 - Um selo **(!)** aponta um armazenamento cheio que você pode esvaziar, e as placas que esperam na Forja, na página do Skylab e na linha do Skylab da barra lateral.

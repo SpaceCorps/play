@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ Die Paragon ist ein schwerer Kampfkreuzer mit ausgewogener Verteidigung und Offe
 
 ## Forschung {#research}
 
-- **Panzerungs-Slots.** Die Paragon hat 5 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Paragon und an jedem ihrer Designs. Alle 5 mit Hull Plating III gefüllt ergeben 75.000 Hülle.
+- **Panzerungs-Slots.** Die Paragon hat 5 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Paragon und an jedem ihrer Designs. Alle 5 mit Hull Plating III gefüllt ergeben 125.000 Hülle.
 - **Designs.** Die Paragon hat 3 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Paragon dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
 
 | Design | Was es ändert |

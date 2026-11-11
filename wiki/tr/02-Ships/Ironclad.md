@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 
 ## Özellikler {#stats}
 
-- **Gövde puanı (HP)**: 600.000
+- **Gövde puanı (HP)**: 500.000
 - **Temel hız**: 110
 - **Lazer yuvaları**: 8
 - **Ekstra yuvalar**: 3
@@ -27,7 +27,7 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Ironclad gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 15 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Ironclad gemisinde ve tüm tasarımlarında açar. 15 yuvanın hepsi Hull Plating III ile dolduğunda 225.000 gövde ekler.
+- **Gövde plakası yuvaları.** Ironclad gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 15 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Ironclad gemisinde ve tüm tasarımlarında açar. 15 yuvanın hepsi Hull Plating III ile dolduğunda 375.000 gövde ekler.
 - **Tasarımlar.** Ironclad gemisinin 2 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Ironclad gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |

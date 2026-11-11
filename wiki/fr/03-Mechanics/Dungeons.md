@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Donjons -->
 # Donjons {#dungeons}
 
@@ -6,7 +6,9 @@
 
 Un **donjon** est un labyrinthe fermé avec un **Seigneur de guerre** au bout (avant la 0.5.2, le jeu l’appelait une porte). Un chef adjoint ou le chef d’un [clan](/wiki/03-Mechanics/Clans.md) en ouvre une et la paie avec la banque du clan, et les membres du clan y volent ensemble en un seul [groupe](/wiki/03-Mechanics/Groups.md). Ils se frayent un chemin parmi les aliens du labyrinthe, ouvrent des zones de butin pour choisir une carte dans chacune, et abattent le Seigneur de guerre. Tout pilote qui a pris part au combat est payé à la chute du Seigneur de guerre, dans les limites plus bas. Les donjons se trouvent dans l’onglet **Donjons** de la page du clan.
 
-Un donjon est un combat contre les aliens uniquement : personne ne peut y attaquer un camarade de clan, ni qui que ce soit d’autre. Les aliens ne paient rien. La paie vient du seul Seigneur de guerre, donc la seule façon d’être payé est d’être dans le combat quand il tombe.
+Un donjon est un combat contre les aliens uniquement : personne ne peut y attaquer un camarade de clan, ni qui que ce soit d’autre. Les aliens paient en tombant, comme les aliens du jeu dont ils s’inspirent ([ce que paient les aliens](#what-the-aliens-pay)). La réussite appartient au Seigneur de guerre : la seule façon d’être payé pour elle est d’être dans le combat quand il tombe.
+
+Un donjon n’est pas une [porte solo](/wiki/03-Mechanics/Solo-Gates.md). Une porte solo est une arène où vous êtes seul, ouverte avec des pièces que vous trouvez avec le Matérialiseur d’énergie : les deux ont des règles, des paiements et des limites séparés.
 
 ## En un coup d’œil {#at-a-glance}
 
@@ -22,10 +24,10 @@ Un donjon est un combat contre les aliens uniquement : personne ne peut y attaq
 - **Labyrinthes** : 8 ; l’un est tiré à l’ouverture d’un donjon
 - **Salle du boss** : S’ouvre quand 75 % des Crystalys et de leurs Twins sont détruits, arrondi à l’entier supérieur
 - **Rassemblement** : 10 min pour se rassembler et lancer. Un donjon que personne ne lance se ferme, et son prix retourne à la banque du clan
-- **Limite de temps** : Étape 1: 95 min, Étape 2: 130 min, Étape 3: 165 min à partir du lancement. Si le temps s’écoule, le donjon échoue et ne paie rien
+- **Limite de temps** : Étape 1: 95 min, Étape 2: 130 min, Étape 3: 165 min à partir du lancement. Si le temps s’écoule, le donjon échoue et la réussite ne paie rien
 - **Laissée vide** : Un donjon où personne ne reste pendant 3 min échoue
 - **Après la chute du Seigneur de guerre** : Le donjon reste ouvert 2 min pour les pilotes à l’intérieur
-- **Retour** : Un pilote qui est parti ou a été détruit peut revenir 3 fois, avec 20 s d’écart
+- **Retour** : Un pilote qui est parti ou a été détruit peut revenir aussi souvent qu’il le veut, avec au moins 20 s entre deux retours
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ Un donjon est un combat contre les aliens uniquement : personne ne peut y attaq
 1. **Invoquer.** Dans l’onglet Donjons, un [chef adjoint ou le chef](/wiki/03-Mechanics/Clans.md#hierarchy-roles) choisit une étape et appuie sur **Invoquer**. Le prix est prélevé sur la [banque du clan](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), et le donjon prend l’une des cartes listées plus haut. Un donjon que personne ne lance se ferme, et le prix retourne à la banque.
 2. **Entrer.** Les membres du clan appuient sur **Entrer** dans la fenêtre du Clan pendant qu’ils volent, sautent par le portail du clan ou appuient sur **Rejoindre** sur la carte d’alerte (voir Entrer). Tout le monde atterrit dans la salle de départ, et les pilotes à l’intérieur forment le groupe du donjon.
 3. **Lancer.** La salle de départ est une petite salle à une extrémité du labyrinthe, et son sas reste fermé tant que le donjon se rassemble. Il n’y a pas d’aliens dedans, on peut donc y attendre en sécurité. Le donjon **se lance toute seule** quand chaque pilote qu’elle attend est à l’intérieur et que le groupe est assez grand. Elle attend les membres du clan qui sont en ligne, pas absents, et dans le groupe d’un pilote qui est entré, et elle se lance aussitôt quand le groupe est plein. Le pilote qui a ouvert le donjon, ou un officier, peut appuyer sur **Lancer** pour commencer plus tôt avec les pilotes qui sont à l’intérieur, s’ils sont assez nombreux. Un pilote qui part n’est plus attendu. Quand le donjon se lance, le sas s’ouvre pour de bon, et ensuite seuls les pilotes qui étaient déjà à l’intérieur peuvent revenir.
-4. **Traverser le labyrinthe.** Vous entrez par une extrémité du labyrinthe et le Seigneur de guerre attend à l’autre, dans une salle verrouillée. Le labyrinthe est sombre : vous ne voyez que ce que le groupe a exploré et ce qui est proche de ses vaisseaux. Les aliens dorment en meutes dans les couloirs, et une meute qui se réveille traque le groupe à travers le labyrinthe.
+4. **Traverser le labyrinthe.** Vous entrez par une extrémité du labyrinthe et le Seigneur de guerre attend à l’autre, dans une salle verrouillée. Le labyrinthe est sombre : vous ne voyez que ce que le groupe a exploré et ce qui est proche de ses vaisseaux. Les aliens attendent en meutes dans les couloirs, et une meute sort dès qu’un pilote vole dans le tronçon de couloir où elle attend, puis traque le groupe à travers le labyrinthe.
 5. **Ouvrir les zones de butin.** Des anneaux dans le labyrinthe marquent les zones. Tenez-en une et le groupe vote pour une carte, qui est versée avec la paie du Seigneur de guerre.
 6. **Déverrouiller la salle du boss.** Détruisez les trois quarts des Crystalys et de leurs Twins du labyrinthe, et le sas de la salle du Seigneur de guerre s’ouvre. Jusque-là, le Seigneur de guerre ne peut pas être blessé. Les autres aliens restent où ils sont, et vous pouvez aussi les détruire.
 7. **Vaincre le Seigneur de guerre.** Brisez son bouclier et sa coque, et répondez à ses compétences. Quand il tombe, le donjon est terminé.
@@ -46,7 +48,7 @@ Pour entrer dans un donjon, il vous faut un **vaisseau en vol**, donc décollez 
 
 Un chef adjoint ou le chef ouvre un donjon, un seul à la fois pour le clan, et seulement jusqu’au nombre de donjons par jour. La banque du clan doit avoir le prix. Un clan ne peut ouvrir une étape qu’après avoir terminé la précédente.
 
-Dans un donjon, vous ne pouvez pas changer de monde, et la Jump CPU et la Base CPU ne fonctionnent pas. Le bouton **Quitter** de la fenêtre Donjon de clan vous fait sortir. Il demande d’abord une confirmation, sauf si le Seigneur de guerre est déjà tombé : vous partez alors aussitôt. Un pilote qui est parti, ou qui a été détruit, peut revenir quelques fois, avec une courte attente entre deux.
+Dans un donjon, vous ne pouvez pas changer de monde, et la Jump CPU et la Base CPU ne fonctionnent pas. Le bouton **Quitter** de la fenêtre Donjon de clan vous fait sortir. Il demande d’abord une confirmation, sauf si le Seigneur de guerre est déjà tombé : vous partez alors aussitôt. Un pilote qui est parti, ou qui a été détruit, peut revenir ; la liste sous **En un coup d’œil** dit combien de fois, et combien de temps il attend entre deux retours.
 
 ### Le portail du clan et l’alerte {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Chaque donjon est un labyrinthe fermé sur une carte à part, l’une des cartes
 
 ## Les aliens {#the-aliens}
 
-Quatre sortes d’aliens gardent le labyrinthe. Ils dorment en meutes dans les couloirs, jamais dans une salle, et une meute se réveille quand un pilote approche. Une meute réveillée ne vous attend pas : elle traque le groupe à travers le labyrinthe, et une meute qui perd tout le monde retourne là où elle dormait et se soigne. Quelques meutes sont réveillées dès la première seconde, postées dans les couloirs loin de l’entrée, jusqu’à ce qu’un pilote approche. Le donjon ne garde en l’air qu’un certain nombre d’aliens à la fois, et ce nombre grandit avec la taille du groupe : une meute qui se réveille peut donc devoir attendre de la place, et une meute que vous détruisez laisse entrer la suivante. Un groupe plus grand rencontre plus d’aliens, en proportion, un groupe plus petit moins, et une sorte d’alien ne descend jamais sous un. Une meute qui attend encore de la place quand tous les pilotes se sont éloignés se rendort, et se réveille quand un pilote approche à nouveau.
+Quatre sortes d’aliens gardent le labyrinthe. Ils attendent en meutes dans les couloirs, jamais dans une salle, et une meute sort dès qu’un pilote vole dans le tronçon de couloir où elle attend. Il n’y a rien sur la carte là où aucun pilote n’est allé, donc aucune meute ne se tient derrière les murs, au fond du labyrinthe, avant que vous n’y arriviez. Une meute n’attend pas de place : elle est sur la carte à ce même instant, quel que soit le nombre d’aliens déjà sortis. Un tronçon de couloir ne contient qu’une meute, donc le tronçon dans lequel vous volez n’a qu’une meute à affronter, et non la somme de plusieurs (un groupe de dix a plus de meutes que de tronçons, et là un tronçon en contient deux, qui sortent toutes les deux). Une meute sortie ne vous attend pas : elle traque le groupe à travers le labyrinthe, et une meute qui perd tout le monde retourne là où elle est sortie et se soigne. Une meute ne sort qu’une fois : celle que vous détruisez ne revient pas, et celle que vous quittez en volant reste sur la carte. Les vagues des zones de butin sont différentes : le donjon ne garde en l’air qu’un certain nombre d’aliens à la fois, et ce nombre grandit avec la taille du groupe, donc une vague qui le dépasserait attend de la place, et une meute que vous détruisez laisse entrer la vague suivante. Un groupe plus grand rencontre plus d’aliens, en proportion, un groupe plus petit moins, et une sorte d’alien ne descend jamais sous un.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Quatre sortes d’aliens gardent le labyrinthe. Ils dorment en meutes dans les c
 | Pour ouvrir la salle du boss | 34 | 34 | 34 |
 | La vague d’une zone de butin | 12 × Dungeon Goombah et 1 × Dungeon Crystalys | 12 × Dungeon Goombah et 1 × Dungeon Crystalys | 12 × Dungeon Goombah et 1 × Dungeon Crystalys |
 
-- **Vivants en même temps** : Au plus 10 par pilote du groupe, et 70 en tout
+- **La vague d’une zone de butin attend de la place** : Dès que 10 par pilote du groupe sont en vie, ou 70 en tout
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 - **Ressemble à** : Goombah
 - **Vole en meutes de** : 6
+- **Rapporte et lâche comme** : Goombah
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 | Vitesse | 180 | 180 | 180 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | 1 800 | 1 800 | 1 800 |
+| Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
+| Crédits par destruction | 15 000 | 22 500 | 30 000 |
+| Thulium par destruction | 75 | 113 | 150 |
+| Expérience par destruction | 3 000 | 4 500 | 6 000 |
+| Honneur par destruction | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Ressemble à** : Pirate Boss
 - **Vole en meutes de** : 2
+- **Rapporte et lâche comme** : Pirate Boss
 - **Roquette** : Une roquette droite toutes les 5 s, portée de 1 000 unités
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
-| Coque | 300 000 | 450 000 | 600 000 |
+| Coque | 250 000 | 375 000 | 500 000 |
 | Bouclier | 50 100 | 75 150 | 100 200 |
 | Dégâts des lasers (une salve par seconde) | 200 | 300 | 400 |
 | Dégâts de roquette | 5 000 | 7 500 | 10 000 |
 | Vitesse | 110 | 110 | 110 |
 | Portée des lasers | 700 | 700 | 700 |
 | Rayon d’aggro | 1 800 | 1 800 | 1 800 |
+| Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
+| Crédits par destruction | 145 000 | 217 500 | 290 000 |
+| Thulium par destruction | 725 | 1 088 | 1 450 |
+| Expérience par destruction | 29 000 | 43 500 | 58 000 |
+| Honneur par destruction | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Ressemble à** : Crystalys
 - **Vole en meutes de** : 2
+- **Rapporte et lâche comme** : Crystalys
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 | Vitesse | 230 | 230 | 230 |
 | Portée des lasers | 900 | 900 | 900 |
 | Rayon d’aggro | 2 400 | 2 400 | 2 400 |
+| Gains et butin, multiples de l’original | ×1 | ×1,5 | ×2 |
+| Crédits par destruction | 75 000 | 112 500 | 150 000 |
+| Thulium par destruction | 200 | 300 | 400 |
+| Expérience par destruction | 12 000 | 18 000 | 24 000 |
+| Honneur par destruction | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Ressemble à** : Crystalys, 1,4 fois plus grand
 - **Vole en meutes de** : 1
+- **Rapporte et lâche comme** : Crystalys
 
 |  | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 | Vitesse | 230 | 230 | 230 |
 | Portée des lasers | 900 | 900 | 900 |
 | Rayon d’aggro | 2 400 | 2 400 | 2 400 |
+| Gains et butin, multiples de l’original | ×2 | ×3 | ×4 |
+| Crédits par destruction | 150 000 | 225 000 | 300 000 |
+| Thulium par destruction | 400 | 600 | 800 |
+| Expérience par destruction | 24 000 | 36 000 | 48 000 |
+| Honneur par destruction | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## Le Seigneur de guerre {#the-warlord}
 
-Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est la seule chose dans un donjon qui paie. C’est un Crystalys devenu énorme. Sa coque et son bouclier grandissent avec la taille du groupe : plus il entre de pilotes, plus il est résistant, en proportion. Il ne quitte jamais sa salle, porte fermée ou ouverte : il reste entre les murs de la salle et ne traque pas dans les couloirs. Un pilote à l’extérieur ne peut l’attirer que jusqu’au bord de la salle, et il tire quand même par une porte ouverte sur tout ce que son laser atteint. Il utilise ses compétences une à la fois, dans un ordre aléatoire, chacune avec son propre temps de recharge.
+Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa chute qui paie la réussite. Il ne paie pas de destruction à lui seul, contrairement aux autres aliens. C’est un Crystalys devenu énorme. Sa coque et son bouclier grandissent avec la taille du groupe : plus il entre de pilotes, plus il est résistant, en proportion. Il ne quitte jamais sa salle, porte fermée ou ouverte : il reste entre les murs de la salle et ne traque pas dans les couloirs. Un pilote à l’extérieur ne peut l’attirer que jusqu’au bord de la salle, et il tire quand même par une porte ouverte sur tout ce que son laser atteint. Il utilise ses compétences une à la fois, dans un ordre aléatoire, chacune avec son propre temps de recharge.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ La coque et le bouclier ci-dessus valent pour un groupe de 5. Ils croissent avec
 
 ### La salle verrouillée {#the-locked-room}
 
-Le sas de la salle du Seigneur de guerre est fermé dès l’ouverture du donjon, et tant qu’il l’est, le Seigneur de guerre ne peut pas être blessé  aucun laser, aucune roquette, aucune explosion ne le touche, et il n’utilise aucune compétence. Le sas s’ouvre pour de bon quand **les trois quarts des Crystalys et de leurs Twins** avec lesquels le donjon a été fait sont détruits, arrondis à l’entier supérieur (le tableau des aliens ci-dessus les compte pour un groupe de 5, et sa dernière ligne dit combien il en faut). Comptent les Crystalys et les Twins des meutes du labyrinthe, y compris ceux des meutes qui se tiennent dans les couloirs dès la première seconde, et quel que soit celui qui les détruit. Ne comptent pas pour le sas les autres aliens, les vagues des zones de butin, les Goombahs que le Seigneur de guerre appelle, ni le Seigneur de guerre lui-même.
+Le sas de la salle du Seigneur de guerre est fermé dès l’ouverture du donjon, et tant qu’il l’est, le Seigneur de guerre ne peut pas être blessé  aucun laser, aucune roquette, aucune explosion ne le touche, et il n’utilise aucune compétence. Le sas s’ouvre pour de bon quand **les trois quarts des Crystalys et de leurs Twins** avec lesquels le donjon a été fait sont détruits, arrondis à l’entier supérieur (le tableau des aliens ci-dessus les compte pour un groupe de 5, et sa dernière ligne dit combien il en faut). Comptent les Crystalys et les Twins des meutes du labyrinthe, et quel que soit celui qui les détruit. Une meute ne sort que lorsqu’un pilote vole dans son tronçon de couloir : le groupe doit donc en trouver assez pour ouvrir le sas. Ne comptent pas pour le sas les autres aliens, les vagues des zones de butin, les Goombahs que le Seigneur de guerre appelle, ni le Seigneur de guerre lui-même.
 
-La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire pour ouvrir la salle et dit, dans une pastille, que le Seigneur de guerre ne peut pas être blessé, et un message vous prévient quand la salle est déverrouillée. Une meute qui dort encore compte en entier, le groupe doit donc trouver les Crystalys et leurs Twins dans le labyrinthe. **Les autres aliens ne disparaissent pas quand le sas s’ouvre.** Ils restent dans le labyrinthe, se réveillent quand un pilote approche et peuvent être détruits comme avant  un groupe qui le veut peut donc tous les détruire avant d’affronter le Seigneur de guerre, le compte d’aliens de la fenêtre va alors jusqu’à tous les aliens avec lesquels le donjon a été fait et affiche le total quand il n’en reste plus. Ils ne rapportent rien, et ceux qui sont encore en vie quand le Seigneur de guerre tombe partent avec le donjon. Sur la mini-carte, le sas est une ligne rouge tant qu’il est verrouillé et une ligne verte quand il est ouvert. Un donjon n’est jamais un piège : la limite de temps met quand même fin à un donjon dont le sas reste fermé, et un administrateur peut déverrouiller la salle d’un donjon bloqué.
+La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire pour ouvrir la salle et dit, dans une pastille, que le Seigneur de guerre ne peut pas être blessé, et un message vous prévient quand la salle est déverrouillée. Une meute qui n’est pas encore sortie compte en entier, le groupe doit donc trouver les Crystalys et leurs Twins dans le labyrinthe et voler dans leurs tronçons de couloir. **Les autres aliens ne disparaissent pas quand le sas s’ouvre.** Ils restent dans le labyrinthe, sortent quand un pilote vole dans leur tronçon de couloir et peuvent être détruits comme avant  un groupe qui le veut peut donc tous les détruire avant d’affronter le Seigneur de guerre, le compte d’aliens de la fenêtre va alors jusqu’à tous les aliens avec lesquels le donjon a été fait et affiche le total quand il n’en reste plus. Ils paient en tombant ([ce que paient les aliens](#what-the-aliens-pay)), et ceux qui sont encore en vie quand le Seigneur de guerre tombe partent avec le donjon. Sur la mini-carte, le sas est une ligne rouge tant qu’il est verrouillé et une ligne verte quand il est ouvert. Un donjon n’est jamais un piège : la limite de temps met quand même fin à un donjon dont le sas reste fermé, et un administrateur peut déverrouiller la salle d’un donjon bloqué.
 
 ### Ses compétences {#its-abilities}
 
@@ -314,7 +340,7 @@ Les cartes à un seul exemplaire sont de l’**équipement**, et seul un donjon 
 
 À la chute du Seigneur de guerre, tout pilote qui l’a mérité est payé, une fois par partie. Les cartes choisies par le groupe s’ajoutent à la paie de l’étape. Il n’y a pas de multiplicateur de monde : la paie est la même dans tous les mondes.
 
-Les **Orvium Reinforced Plates** ne sont pas une carte du vote. Elles font partie de la paie de l’étape, et chaque pilote payé les reçoit une fois pour la réussite. Les objets qu’un donjon paie ne sont pas vendables : vous ne pouvez pas [les vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
+Les **Orvium Reinforced Plates** ne sont pas une carte du vote. Elles font partie de la paie de l’étape, et chaque pilote payé les reçoit une fois pour la réussite. Les objets que paie la réussite ne sont pas vendables : vous ne pouvez pas [les vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ Les **Orvium Reinforced Plates** ne sont pas une carte du vote. Elles font parti
 
 ### Qui est payé {#who-is-paid}
 
-Les aliens ne paient jamais. Une partie se joue en entier même quand elle ne paie rien, et l’écran de résultat dit pourquoi. L’entrée n’est jamais refusée parce que vous avez déjà été payé pour une étape : cette partie ne paie simplement rien.
+Ces règles décident qui est payé **pour la réussite**. Une partie se joue en entier même quand elle ne paie rien, et l’écran de résultat dit pourquoi. L’entrée n’est jamais refusée parce que vous avez déjà été payé pour une étape : la réussite ne paie simplement rien. Les aliens lisent les mêmes règles, destruction par destruction, sauf la part au combat ([ce que paient les aliens](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ L’expérience d’une étape terminée et payée compte pour vos points de cla
 
 <!-- dungeons-totals:end -->
 
+### Ce que paient les aliens {#what-the-aliens-pay}
+
+Chaque alien d’un donjon paie en tombant, et lâche du butin, comme l’alien du jeu dont il s’inspire : un Dungeon Goombah comme un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys et son Twin comme un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate comme le Pirate Boss de l’[Essaim Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Ce que paie et lâche une destruction est ce que paie et lâche l’original, **multiplié par le rapport de leur coque et de leur bouclier réunis** : un alien aussi résistant que son original paie ce que paie l’original, un alien deux fois plus résistant paie deux fois plus et lâche deux fois plus de chaque objet, et ainsi de suite. La section de chaque sorte d’alien sous [Les aliens](#the-aliens) donne le rapport et la paie d’une destruction à chaque étape.
+
+- **Qui est payé.** Les pilotes qui ont blessé l’alien, selon les dégâts infligés, comme pour les aliens des essaims : un pilote ou un groupe qui l’a seulement effleuré ne reçoit rien, un groupe est payé comme un seul, et dans un groupe les membres proches de l’épave qui ont tiré récemment se partagent la paie selon leur niveau. Un pilote qui n’a infligé aucun dégât à l’alien ne reçoit rien pour lui, même s’il volait tout près, et un alien qu’aucun pilote n’a blessé ne paie personne. Seuls entrent les pilotes que les règles ci-dessus paient. Celui qui est parti, qui n’est pas resté assez longtemps, qui a déjà été payé pour l’étape aujourd’hui ou qui a eu toutes les réussites payées de la semaine ne reçoit rien pour les aliens, et les autres ont sa part. Une destruction ne demande pas la part au combat, car avoir blessé l’alien en est la part. Si le membre d’un groupe qui a infligé le plus de dégâts a été détruit ou n’est plus sur la carte, les membres proches de l’épave qui ont tiré récemment se partagent la paie sans lui.
+- **Ce qui est payé.** Crédits, Thulium, expérience et honneur, une fois par destruction. La paie est celle de l’original en Alpha, dans tous les mondes : un donjon n’a pas de multiplicateur de monde. Vos boosters, Premium, formation et les bonus de votre clan comptent comme pour toute destruction, et l’expérience compte pour vos [points PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) comme celle de la réussite.
+- **Le butin.** Il est tiré avec les chances de l’original, puis chaque quantité est multipliée par le rapport (une fraction d’unité est une chance d’en avoir une de plus). Il tombe dans une caisse sur l’épave, d’abord pour le pilote qui a infligé le plus de dégâts et son clan, puis pour n’importe qui sur la carte, et ensuite il disparaît. La carte ne tient qu’un certain nombre de caisses à la fois : ramassez-les au fil du combat, et ce qui reste sur la carte à la fermeture du donjon part avec lui. Contrairement aux objets de la réussite, ce sont des butins ordinaires d’alien : on peut les [vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items) quand l’objet est vendable.
+- **Ce qui ne paie pas.** Le Seigneur de guerre ne paie pas de destruction, seulement la réussite. Les Goombahs qu’il appelle ne paient rien, car l’appel revient tant que le combat dure.
+- **Pas une destruction du jeu.** Une destruction dans un donjon ne compte ni pour les quêtes, ni pour les succès, ni pour les compteurs de destructions, ni pour les points de réinitialisation, ni pour les points PvE d’une destruction, ni pour les drones ou les P.E.T.s : un Dungeon Goombah n’est pas un Goombah du jeu.
+- **Les limites.** Les limites du jour et de la semaine ci-dessus retiennent la paie des aliens comme celle de la réussite. Un pilote déjà payé pour l’étape aujourd’hui, ou qui a eu toutes les réussites payées de la semaine, ne reçoit rien non plus pour ses aliens, et la cagnotte d’une destruction va aux autres. Un donjon qui n’est pas réussi paie ses destructions aux pilotes que les règles paient, et rien pour la réussite.
+
 ## La récompense de la banque du clan {#clan-bank-reward}
 
 La banque du clan est payée aussi, en crédits et non en Thulium, la première fois que le clan termine une étape pendant une saison. Le clan doit être assez ancien, et assez de pilotes de cette partie doivent être payés. La banque est payée une fois par étape et par saison.
@@ -383,4 +420,4 @@ La banque du clan est payée aussi, en crédits et non en Thulium, la première 
 - Servez-vous des murs : les lasers ne les traversent pas, les anneaux rouges des auras du Seigneur de guerre s’y arrêtent, et un mur arrête aussi ses roquettes.
 - Gardez une EMP Charge pour la Salve de roquettes.
 - Quand le Seigneur de guerre appelle ses Goombahs, détruisez-les d’abord : il ne peut pas être blessé tant qu’ils ne sont pas partis. Dans la Zone du Chaos, sortez de l’anneau avant de tirer.
-- Surveillez l’horloge de la fenêtre Donjon de clan. Quand le temps est écoulé, le donjon échoue et ne paie rien.
+- Surveillez l’horloge de la fenêtre Donjon de clan. Quand le temps est écoulé, le donjon échoue et la réussite ne paie rien.

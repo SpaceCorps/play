@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Die Wraith ist das ultimative Schiff der Schlachtschiffklasse, mit unerreichter 
 
 ## Forschung {#research}
 
-- **Panzerungs-Slots.** Die Wraith hat 10 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Wraith und an jedem ihrer Designs. Alle 10 mit Hull Plating III gefüllt ergeben 150.000 Hülle.
+- **Panzerungs-Slots.** Die Wraith hat 10 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Wraith und an jedem ihrer Designs. Alle 10 mit Hull Plating III gefüllt ergeben 250.000 Hülle.
 - **Designs.** Die Wraith hat 5 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Wraith dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
 
 | Design | Was es ändert |

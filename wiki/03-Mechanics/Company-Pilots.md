@@ -9,7 +9,7 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
 
 - **Squad**: 3 pilots per company sector in each world (Alpha, Beta and Gamma have squads of their own), each named with the company's tag and a callsign, e.g. **[M] Vesper**. Their name tags carry a small robot mark and the company's colour.
 - **Ship**: an [Ostirion](/wiki/02-Ships/Ostirion.md) with three **Quantum Laser II**, two **Light Shield Cores**, an **Engine I** and a **Repair Drone I**:
-  - 64,000 hitpoints, 22,000 shield points, speed 222
+  - 64,000 hitpoints, 22,000 shield points, speed 225
   - absorbance 45%: their shields take 45% of each hit, the hull 55%
   - 195 base damage per volley (x1 ammo), 1% critical chance, 700 range
 - **On the minimap**: a green diamond for your company's pilots, an amber one for another company's.
@@ -22,7 +22,7 @@ Every company keeps a small squad of NPC pilots on its home sectors (`M-1` to `M
 - **Help**: when a pilot of their company within 1,500 of them is attacked by an alien, or opens fire on an alien they could take, they join that fight. They keep out of a fight a mate started with an alien they could not win (a Goombah a pilot shot at, or a Bulwark); an aggressive alien that goes after a mate is fought off whatever it is. An alien they finish pays the pilot holding its claim (the first to hit it, see [Combat](/wiki/03-Mechanics/Combat.md)); if nobody holds one, it counts for the nearest pilot of their company firing at it (locked on, within range, a volley in the last 2.5 seconds). Either way the rewards are that pilot's, and its [cargo](/wiki/03-Mechanics/Cargo.md) crate is reserved for them as if they had made the kill. Company pilots never claim an alien and never earn or collect anything themselves: an alien they fight alone leaves no crate. Locking on from afar, or only being shot at, earns nothing.
 - **Ignore the [swarms](/wiki/05-Swarms/Swarms.md)**: a swarm ship is none of their business. They neither hunt it nor join a fight against it, and they never come to your help in one.
 - **Fight back** when shot by aliens, and by other companies' pilots once PvP is open and where their [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) allows PvP: none in Alpha's `x-1` to `x-3`, nor in Beta's `x-1`.
-- **Repair** with their drone whenever their hull is down: 1.5% of it per second, from 10 seconds after the last hit.
+- **Repair** with their drone whenever their hull is down: 2% of it per second, from 10 seconds after the last hit.
 - **Retreat** at 30% hull to the nearest safe zone and repair there until 90%.
 - **Respawn** at the sector's station (or its first portal) 60 seconds after being destroyed.
 

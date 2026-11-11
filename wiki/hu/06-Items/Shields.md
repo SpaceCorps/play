@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsok és védelem {#shields-defense}
 
@@ -46,7 +46,7 @@ Szereld fel a pajzsmagokat aktív védőgátak létrehozásához, a hajód gener
 
 A **Heavy Shield Core** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Basic Shield Core-ból, 4 000 Thuliummal, 30 Cataclysite-tal, 12 Reinforced Hull Plate-tel, 2 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Megtartja az elhasznált mag bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a Basic Shield Core-t a hajóról (és a celláit is vedd ki belőle): az a mag, amely fel van szerelve, vagy cellákat hordoz, nem használódik el.
 
-Az **elnyelés** a találatoknak az a része, amelyet a pajzsaid felfognak; a többit a hajótest kapja. Egy pajzs önmagában **45–55%**, a többit a cellái adják: a legjobb pajzs a legjobb cellákkal (egy Heavy Shield Core három Absorption Shield Cell IV-gyel) **85%**, ennyi a legtöbb, amit egy hajó külön boostok nélkül elér. Ezt három állandó boost növeli tovább: a Szezonbolt Shield Absorbance Boost buffja (szintenként +0,1 pont, 100 szint, szintenként 25 wipe-pont), a Kovácsműhely elnyelési bónuszai és a Pilóta-kutatás Field Theory (+4, +7 vagy +10 pont). A wipe-pontok forrásai (wipe-onként legfeljebb 1 105, és minden wipe-nál újra indulnak) az első wipe-ban a 100 szintből 44-at vesznek meg (+4,4 pont), ami egy teljesen kikovácsolt Örök fokozatú összeállítással körülbelül **100%**, a Field Theory III-mal pedig körülbelül **110%**. A jellemzőnek azonban nincs 100%-nál felső határa: a támadó *pajzsáthatolását* levonják belőle, ezért ami egy hajónál 100% fölött van, az a tartaléka az áthatolással szemben. Lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+Az **elnyelés** a találatoknak az a része, amelyet a pajzsaid felfognak; a többit a hajótest kapja. Egy pajzs önmagában **45–55%**, a többit a cellái adják: a legjobb pajzs a legjobb cellákkal (egy Heavy Shield Core három Absorption Shield Cell IV-gyel) **91%**, ennyi a legtöbb, amit egy hajó külön boostok nélkül elér. Ezt három állandó boost növeli tovább: a Szezonbolt Shield Absorbance Boost buffja (szintenként +0,1 pont, 100 szint, szintenként 25 wipe-pont), a Kovácsműhely elnyelési bónuszai és a Pilóta-kutatás Field Theory (+4, +7 vagy +10 pont). A wipe-pontok forrásai (wipe-onként legfeljebb 1 105, és minden wipe-nál újra indulnak) az első wipe-ban a 100 szintből 44-at vesznek meg (+4,4 pont), ami egy teljesen kikovácsolt Örök fokozatú összeállítással körülbelül **106%**, a Field Theory III-mal pedig körülbelül **116%**. A jellemzőnek azonban nincs 100%-nál felső határa: a támadó *pajzsáthatolását* levonják belőle, ezért ami egy hajónál 100% fölött van, az a tartaléka az áthatolással szemben. Lásd: [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Az adaptív magok hibridgenerátorként működnek, a pajzs és a sebesség kép
 
 | Név | Ritkaság | Pajzsbónusz % | Sebességbónusz % | Foglalatok | Különleges hatás | Ár |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Silány | +4% | +1,2% | 1 | — | 100 000 kredit |
-| **Adaptive Core II** | Gyakori | +6,4% | +1,6% | 2 | — | Csak gyártható |
-| **Adaptive Core III** | Ritka | +8% | +2% | 3 | — | Csak gyártható |
+| **Adaptive Core I** | Silány | +4% | +1,5% | 1 | — | 100 000 kredit |
+| **Adaptive Core II** | Gyakori | +6,4% | +2,5% | 2 | — | Csak gyártható |
+| **Adaptive Core III** | Ritka | +8% | +3% | 3 | — | Csak gyártható |
 
 Az **Adaptive Core II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készül egy Adaptive Core I-ből, 2 000 Thuliummal, 60 Ship Fragmenttel, 1 Power Core-ral és 4 Velkonite Reinforced Plate-tel. Az **Adaptive Core III** ott készül egy Adaptive Core II-ből, 4 000 Thuliummal, 110 Ship Fragmenttel, 5 Power Core-ral, 1 Ancient Control Unittal és 4 Dark Matter Plate-tel ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)). Mindkettő megtartja az elhasznált mag bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Előbb vedd le a hajóról az elhasználandó magot (és a fúvókáit és celláit is vedd ki belőle): az a mag, amely fel van szerelve, vagy modulokat hordoz, nem használódik el.
 
@@ -66,17 +66,17 @@ Az **Adaptive Core II** a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-mo
 
 ## Pajzscellák {#shield-cells}
 
-A pajzscellákat pajzsmagokba vagy adaptív magokba szereled (annyit, ahány foglalata a magnak van), hogy erősítsék az adott magot. Egy pajzsmagban az elnyelését is növelik, pontokban, és vele azt a részt, amelyet a pajzsaid fognak fel minden találatból. Két család van, mindkettő négy szintből áll: a **Capacity** cellák adják a legtöbb pajzsot és töltődést, az **Absorption** cellák a legtöbb elnyelést (minden szinten kétszer annyi elnyelést és feleannyi pajzsot és töltődést, mint az azonos szintű Capacity). A Capacity azoknak a hajóknak segít, amelyeknél a pajzs dönti el a harcot, az Absorption azoknak, amelyeknél a hajótest. Egy mag, amelynek minden foglalatát ugyanolyan cella tölti ki: egy Light Shield Core (1 foglalat) 47–55%, egy Basic Shield Core (2 foglalat) 52–68%, egy Heavy Shield Core (3 foglalat) 56–80%, az I. szintű Capacity celláktól a IV. szintű Absorption cellákig. Ha leszereled a magot, vagy a [Kovácsműhely](/wiki/06-Items/Forge.md) összevonásánál donorként elhasználod, a cellái visszakerülnek a leltárba.
+A pajzscellákat pajzsmagokba vagy adaptív magokba szereled (annyit, ahány foglalata a magnak van), hogy erősítsék az adott magot. Egy pajzsmagban az elnyelését is növelik, pontokban, és vele azt a részt, amelyet a pajzsaid fognak fel minden találatból. Két család van, mindkettő négy szintből áll: a **Capacity** cellák adják a legtöbb pajzsot és töltődést, az **Absorption** cellák a legtöbb elnyelést (minden szinten kétszer annyi elnyelést és feleannyi pajzsot és töltődést, mint az azonos szintű Capacity). A Capacity azoknak a hajóknak segít, amelyeknél a pajzs dönti el a harcot, az Absorption azoknak, amelyeknél a hajótest. Egy mag, amelynek minden foglalatát ugyanolyan cella tölti ki: egy Light Shield Core (1 foglalat) 48–57%, egy Basic Shield Core (2 foglalat) 56–74%, egy Heavy Shield Core (3 foglalat) 64–91%, az I. szintű Capacity celláktól a IV. szintű Absorption cellákig. Ha leszereled a magot, vagy a [Kovácsműhely](/wiki/06-Items/Forge.md) összevonásánál donorként elhasználod, a cellái visszakerülnek a leltárba.
 
 | Név | Ritkaság | Kapacitásnövelés | Töltődésnövelés | Elnyelésnövelés | Ár |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | Silány | +3 000 | +250/mp | +2% | 30 000 kredit |
-| **Capacity Shield Cell II** | Gyakori | +6 000 | +500/mp | +3% | Csak gyártható |
-| **Capacity Shield Cell III** | Ritka | +9 000 | +750/mp | +4% | Csak gyártható |
-| **Capacity Shield Cell IV** | Epikus | +12 000 | +1 000/mp | +5% | Csak gyártható |
-| **Absorption Shield Cell I** | Silány | +1 500 | +125/mp | +4% | 30 000 kredit |
-| **Absorption Shield Cell II** | Gyakori | +3 000 | +250/mp | +6% | Csak gyártható |
-| **Absorption Shield Cell III** | Ritka | +4 500 | +375/mp | +8% | Csak gyártható |
-| **Absorption Shield Cell IV** | Epikus | +6 000 | +500/mp | +10% | Csak gyártható |
+| **Capacity Shield Cell I** | Silány | +4 000 | +250/mp | +3% | 30 000 kredit |
+| **Capacity Shield Cell II** | Gyakori | +8 000 | +500/mp | +4% | Csak gyártható |
+| **Capacity Shield Cell III** | Ritka | +12 000 | +750/mp | +5% | Csak gyártható |
+| **Capacity Shield Cell IV** | Epikus | +16 000 | +1 000/mp | +6% | Csak gyártható |
+| **Absorption Shield Cell I** | Silány | +2 000 | +125/mp | +6% | 30 000 kredit |
+| **Absorption Shield Cell II** | Gyakori | +4 000 | +250/mp | +8% | Csak gyártható |
+| **Absorption Shield Cell III** | Ritka | +6 000 | +375/mp | +10% | Csak gyártható |
+| **Absorption Shield Cell IV** | Epikus | +8 000 | +500/mp | +12% | Csak gyártható |
 
 Az egyes családok I. szintjét 30 000 kreditért árulják. A II–IV. szintet a [Gyártásban](/wiki/06-Items/Overview.md#upgrading-modules) készíted el, mindegyiket az azonos család eggyel alacsonyabb szintű cellájából (egy Capacity Shield Cell II-t egy Capacity Shield Cell I-ből, a III-at a II-ből, a IV-et a III-ból), Thuliumból, zsákmányból és lemezekből: a II. vagy a III. szinthez 4 Velkonite Reinforced Plate a Skylabodból, a IV. szinthez 4 Dark Matter Plate és egy Ancient Control Unit. Egy cella soha nem vált családot: a Capacity és az Absorption között az I. szint megvásárlásakor döntesz. Az új cella megtartja az elhasznált cella bűvölési fokozatát és bónuszait ([Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). A cellák nem illenek [képességfoglalatba](/wiki/03-Mechanics/Abilities.md); pajzsokba és adaptív magokba valók.

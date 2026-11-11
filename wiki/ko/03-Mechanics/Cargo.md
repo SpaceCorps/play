@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0cb22a8f44e00c81 -->
+<!-- wiki-i18n source: a6623c51908c09d0 -->
 <!-- wiki-i18n title: 화물 -->
 # 화물 상자 {#cargo-boxes}
 
@@ -12,8 +12,9 @@
 - **기업 파일럿**은 누가 또는 무엇이 파괴하든 파괴될 때 상자를 남기지 않습니다. [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)을 참고하세요.
 - **플레이어 함선**은 누가 또는 무엇이 파괴하든 파괴될 때 잔해도 상자도 남기지 않으며, 파일럿의 인벤토리에서 빼앗기는 것도 없습니다.
 - **블랙홀**은 자신에게 발사된 N.I.K.E. 로켓 한 발마다 영역 가장자리에 **Dark Matter** 상자를 놓습니다([블랙홀](/wiki/03-Mechanics/Black-Hole.md) 참고). 이 상자는 블랙홀의 링 안쪽에 놓이는 유일한 종류의 상자입니다.
-- **[무리](/wiki/05-Swarms/Swarms.md)의 리더와 Dormant Pulse**는 탄약, 로켓, 자원이 든 전용 상자를 떨어뜨립니다. 이 상자는 처음 명중시킨 파일럿이 아니라 그 함선에 가장 많은 피해를 입힌 파일럿(과 그 클랜)의 몫으로 확보됩니다.
+- **[무리](/wiki/05-Swarms/Swarms.md)의 리더(Tesseract 제외)와 Dormant Pulse**는 탄약, 로켓, 자원이 든 전용 상자를 떨어뜨립니다. 이 상자는 처음 명중시킨 파일럿이 아니라 그 함선에 가장 많은 피해를 입힌 파일럿(과 그 클랜)의 몫으로 확보됩니다.
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)**은 그런 상자를 떨어뜨리지 않습니다. 피해의 5% 이상을 준 파일럿은 모두 자기 몫의 전리품이 든 [개인 상자](#private-boxes)를 받습니다.
+- **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)**도 잔해에 상자를 남기지 않습니다. 처치로 보상을 받는 파일럿은 모두 Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit, Dark Matter 중 자기 몫이 든 [개인 상자](#private-boxes)를 받습니다.
 - **[소행성](/wiki/03-Mechanics/Asteroid-Mining.md)**은 상자 하나 대신 **조각**을 남깁니다. 크레딧과 Thulium가 든 작은 덩어리와 수정, 광석이 든 돌입니다. 크레딧과 Thulium는 소행성이 부서질 때가 아니라 조각을 회수할 때 지급됩니다. 조각은 상자처럼 회수하고, 얻을 자격이 있는 파일럿에게 예약되었다가 상자처럼 모두에게 열립니다.
 
 기업 파일럿이 마무리한 외계인은 그 처치가 인정되는 파일럿(선점을 가진 파일럿, 없으면 그 기업 소속으로 그 외계인과 싸우는 파일럿)을 위해 전리품을 드롭하며, 기업 파일럿이 혼자 싸운 외계인은 기업 파일럿이 절대 회수하지 않으므로 아무것도 드롭하지 않습니다.
@@ -42,14 +43,14 @@
 
 ## 개인 상자 {#private-boxes}
 
-[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)의 전리품은 한 파일럿을 위한 상자 하나가 아닙니다. **피해의 5% 이상을 준 파일럿은 모두 자기만의 상자를 받으며**, 그 파일럿의 몫으로 추첨됩니다(피해의 20%라면 각 양의 약 5분의 1입니다. [자세한 내용](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)).
+[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)의 전리품은 한 파일럿을 위한 상자 하나가 아닙니다. **피해의 5% 이상을 준 파일럿은 모두 자기만의 상자를 받으며**, 그 파일럿의 몫으로 추첨됩니다(피해의 20%라면 각 양의 약 5분의 1입니다. [자세한 내용](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)의 전리품도 같은 방식으로, 처치로 보상을 받는 파일럿은 모두 하나씩 받습니다.
 
 - **나만 볼 수 있고, 나만 가져갈 수 있습니다.** 클랜과 그룹은 보지 못하고 가져갈 수도 없습니다. 다른 모두에게는 그냥 없는 상자입니다. 내 화면에서는 아래에 가는 고리가 보입니다.
-- **처치 후 10분** 동안 남아 있고, 그동안 내내 내 것입니다. 30초 대기는 없습니다. 그다음에는 다른 상자처럼 떠내려갑니다. 워든이 쓰러지면 게임 로그가 전리품 중 내 몫을 알려 줍니다.
+- **처치 후 10분** 동안 남아 있고, 그동안 내내 내 것입니다. 30초 대기는 없습니다. 그다음에는 다른 상자처럼 떠내려갑니다. 워든이나 Tesseract가 쓰러지면 게임 로그가 전리품 중 내 몫을 알려 줍니다.
 - **다른 상자를 밀어내지 않습니다.** 개인 상자는 맵의 64개와 별도로 자기만의 칸(최대 32개)을 가지므로, 워든을 처치해도 다른 상자의 자리를 빼앗지 않고, 맵이 가득 차도 내 상자를 잃지 않습니다.
 - 가져가는 방법은 다른 상자와 같습니다([위](#collecting)). 내 함선이 날아가고, 회수에는 0.5초가 걸립니다. Retriever는 내 개인 상자도 줍지만, 다른 누구의 것도 줍지 않습니다.
 
 ## 부스터 {#boosters}
 
-- **Loot Luck Booster**과 영구 버프인 행운 부스트, 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)의 행운은 처치한 사람이 처치할 때 각 전리품 항목의 확률을 높입니다.
-- **Resource Magnet Booster**은 누가 처치했든 내가 직접 또는 Retriever로 회수하는 모든 상자의 자원에 **25%**를 더합니다. Dark Matter는 예외입니다. Magnet은 Dark Matter에는 아무것도 더하지 않으므로, N.I.K.E. 5발은 누구에게나 Dark Matter 10개입니다.
+- **Loot Luck Booster**과 영구 버프인 행운 부스트, 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)의 행운은 처치한 사람이 처치할 때 각 전리품 항목의 확률을 높입니다. 당신의 [직감](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) 스킬도 이 확률에 더해지며, 부스터의 확률 위에 얹힙니다.
+- **Resource Magnet Booster**은 누가 처치했든 내가 직접 또는 Retriever로 회수하는 모든 상자의 자원에 **25%**를 더합니다. Dark Matter는 예외입니다. Magnet은 Dark Matter에는 아무것도 더하지 않습니다. Dark Matter를 늘려 주는 것은 내 Antimatter 스킬뿐이며(100레벨에서 최대 +25%), 이 스킬이 없으면 N.I.K.E. 5발은 Dark Matter 10개입니다.

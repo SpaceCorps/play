@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0096209c8f6660f0 -->
+<!-- wiki-i18n source: 5b87e9167b265780 -->
 <!-- wiki-i18n title: Pilotes de corporation -->
 # Pilotes de corporation {#company-pilots}
 
@@ -11,7 +11,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 
 - **Escadrille** : 3 pilotes par secteur de corporation dans chaque monde (Alpha, Beta et Gamma ont chacun leurs propres escadrilles), chacun nommé avec le tag de la corporation et un indicatif, par ex. **[M] Vesper**. Leur nom affiché porte une petite icône de robot et la couleur de la corporation.
 - **Vaisseau** : un [Ostirion](/wiki/02-Ships/Ostirion.md) équipé de trois **Quantum Laser II**, de deux **Light Shield Cores**, d’un **Engine I** et d’un **Repair Drone I** :
-  - 64 000 points de vie, 22 000 points de bouclier, vitesse 222
+  - 64 000 points de vie, 22 000 points de bouclier, vitesse 225
   - absorption de 45 % : leurs boucliers prennent 45 % de chaque tir, la coque 55 %
   - 195 de dégâts de base par salve (munitions x1), 1 % de taux critique, portée de 700
 - **Sur la mini-carte** : un losange vert pour les pilotes de votre corporation, un losange ambre pour ceux d’une autre corporation.
@@ -24,7 +24,7 @@ Chaque corporation entretient une petite escadrille de pilotes PNJ dans ses sect
 - **Aident** : quand un pilote de leur corporation situé à moins de 1 500 unités d’eux est attaqué par un alien, ou ouvre le feu sur un alien qu’ils pourraient battre, ils rejoignent ce combat. Ils restent à l’écart d’un combat qu’un coéquipier a engagé avec un alien qu’ils ne pourraient pas vaincre (un Goombah sur lequel un pilote a tiré, ou un Bulwark) ; un alien agressif qui s’en prend à un coéquipier est repoussé, quel qu’il soit. Un alien qu’ils achèvent rapporte au pilote qui détient sa revendication (le premier à l’avoir touché, voir [Combat](/wiki/03-Mechanics/Combat.md)) ; si personne n’en détient une, il compte pour le pilote de leur corporation le plus proche qui tire dessus (verrouillé, à portée, avec une salve dans les 2,5 dernières secondes). Dans les deux cas, les récompenses reviennent à ce pilote, et la caisse de [cargaison](/wiki/03-Mechanics/Cargo.md) lui est réservée comme s’il avait fait l’élimination. Les pilotes de corporation ne revendiquent jamais un alien et ne gagnent ni ne récupèrent jamais rien eux-mêmes : un alien qu’ils combattent seuls ne laisse aucune caisse. Verrouiller de loin, ou seulement être visé, ne rapporte rien.
 - **Ignorent les [essaims](/wiki/05-Swarms/Swarms.md)** : un vaisseau d’essaim ne les concerne pas. Ils ne le chassent pas, ne se joignent pas à un combat contre lui et ne viennent jamais vous aider dans un tel combat.
 - **Ripostent** quand des aliens leur tirent dessus, et quand des pilotes d’autres corporations le font, une fois le PvP ouvert et là où leur [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) autorise le PvP : pas en `x-1` à `x-3` dans Alpha, ni en `x-1` dans Beta.
-- **Se réparent** avec leur drone dès que leur coque est entamée : 1,5 % par seconde, à partir de 10 secondes après le dernier coup reçu.
+- **Se réparent** avec leur drone dès que leur coque est entamée : 2 % par seconde, à partir de 10 secondes après le dernier coup reçu.
 - **Se replient** à 30 % de coque vers la zone sûre la plus proche et s’y réparent jusqu’à 90 %.
 - **Réapparaissent** à la station du secteur (ou à son premier portail) 60 secondes après avoir été détruits.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9780998c76023357 -->
+<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Uma **Ironclad TITANIC** pintada de dourado, no tamanho próprio da TITANIC, com
 | Extras | um Repair Drone IV, uma Auto-Repair CPU e uma Base CPU II |
 | Casco | 15 Hull Plating III |
 
-Na força de Alpha ele tem **858.750 de casco**, **1.309.534 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 86,3% de absorção, velocidade 98, alcance 945 e uma salva de **4.324 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,2 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de treze minutos de tiro contínuo sozinho; dez deles, cerca de 77 segundos.
+Na força de Alpha ele tem **931.250 de casco**, **1.559.486 de escudo** (recarrega 67.614 por segundo após 15 segundos sem levar um tiro), 90,9% de absorção, velocidade 102, alcance 945 e uma salva de **4.440 por segundo**. Beta tem 1,5 vez esses números e Gamma 2 vezes, como todo alienígena. São cerca de 2,5 milhões de pontos para derrubar em Alpha: um Wraith com os mesmos lasers precisa de cerca de catorze minutos de tiro contínuo sozinho; dez deles, cerca de 86 segundos.
 
 ## Combatê-lo {#fighting-him}
 
@@ -38,10 +38,10 @@ Ele paga como um chefe, pelo dano que cada piloto causou (uma parcela abaixo de 
 
 | | Alpha | Beta | Gamma |
 |---|---:|---:|---:|
-| Créditos | 1.590.000 | 3.180.000 | 4.770.000 |
-| Thulium | 4.275 | 8.550 | 12.825 |
-| Experiência | 255.000 | 510.000 | 765.000 |
-| Honra | 1.110 | 2.220 | 3.330 |
+| Créditos | 1.830.000 | 3.660.000 | 5.490.000 |
+| Thulium | 4.875 | 9.750 | 14.625 |
+| Experiência | 292.500 | 585.000 | 877.500 |
+| Honra | 1.275 | 2.550 | 3.825 |
 
 A caixa tem de 40 a 60 Ship Fragments, de 10 a 20 Power Cores e de 3.000 a 6.000 Advanced Plasma, e às vezes Ancient Control Units ou Dark Matter. Uma destruição **não soma nenhum ponto PvE** ao seu ranking (ele está fora dos rankings, veja abaixo); a experiência que ela paga conta como qualquer outra experiência, e a destruição é registrada com o nome Davidski nas suas estatísticas de abates.
 

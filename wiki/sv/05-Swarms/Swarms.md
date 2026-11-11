@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Svärmar -->
 # Svärmar {#swarms}
 
@@ -87,8 +87,8 @@ Seeker-, Pirate-, Phantasm-, Goombah-, Crystalys- och Tesseract-svärmarna medde
 En vanlig utomjording betalar piloten som träffade den först ([Strid](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). En svärms ledare, och varje Dormant Pulse, betalar i stället **efter den skada som gjorts**:
 
 - **Betalningen delas efter skada.** Varje pilot som gjort minst den andel som anges i reglerna ovan får betalt, i proportion till skadan: nedskjutningens krediter, Thulium, XP och heder delas mellan dem. En pilot under andelen får ingenting.
-- **Lastlådan går till piloten som gjorde mest skada.** Den är den pilotens (och dess klans) i 30 sekunder, som för varje utomjording, och sedan kan vem som helst ta den ([Last](/wiki/03-Mechanics/Cargo.md)). Varje Dormant-skepp har sin egen skaderäkning och sin egen låda.
-- **Följeslagare betalar som vanligt**: Pirate Scouts, Seeker Slaves och Guards i Phantasm-, Goombah- och Crystalys-svärmarna betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
+- **Lastlådan går till piloten som gjorde mest skada.** Den är den pilotens (och dess klans) i 30 sekunder, som för varje utomjording, och sedan kan vem som helst ta den ([Last](/wiki/03-Mechanics/Cargo.md)). Varje Dormant-skepp har sin egen skaderäkning och sin egen låda. Tesseract är undantaget: den lämnar ingen låda, och varje pilot som dess nedskjutning betalar får en egen privat låda ([Tesseract-svärm](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Följeslagare betalar som vanligt**: Pirate Scouts, Seeker Slaves, Guards i Phantasm-, Goombah- och Crystalys-svärmarna och Facets i Tesseract-svärmen betalar piloten som träffade dem först, och deras betalning är liten jämfört med en boss.
 - **Betalningen för en boss är gjord för att slå utomjordingarna omkring den.** En minuts strid mot en Pirate Boss, en Boss Phantasm eller en Boss Goombah betalar mer än en minuts strid mot en Goombah, och en minut mot Dormant-svärmen eller en Boss Crystalys betalar mer än en minut mot en Crystalys; Boss Seeker betalar exakt tio Seekers.
 - **Dormant Swamps utomjordingar** (Slumbering Void, Inert Mass och Unwakened) betalas som en boss, efter skada, och ger PvE-poäng till din ranking; deras siffror finns i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

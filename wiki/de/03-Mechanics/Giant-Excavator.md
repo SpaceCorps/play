@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 51b0bedfae57b91b -->
+<!-- wiki-i18n source: e3fa08f52459090c -->
 <!-- wiki-i18n title: Riesenbagger -->
 # Riesenbagger {#giant-excavator}
 
@@ -120,6 +120,7 @@ Der Abbau erzeugt Hitze, Sekunde für Sekunde. Die Hitze **summiert sich und kü
 
 <!-- excavator-radiation:end -->
 
+- **Strahlungstechnik.** Eine Pilotenfähigkeit, die die Dosis in den Kreisen genauso senkt wie beim Schwarzen Loch, auf das 0,40-Fache auf Stufe 100; die Kreise und die Zeiten ändern sich nicht.
 - **Die Warnung.** Zweimal vor der Überhitzung (die Zeiten stehen in der Liste oben) wird die Karte informiert, ein Schiff in den Kreisen sieht eine Warnung, und die Kreise werden im Flug auf den Boden und auf die Minikarte gezeichnet. Wenn sie strahlen, sind die Kreise rot, und die Strahlungsanzeige zeigt die Dosis.
 - **Verlassen.** Jedes Serienschiff kann vom Rand des Bedienfelds oder von der entferntesten noch liegenden Kiste aus herausfliegen, außer der langsamen Ironclad: Sie verlässt das Gebiet während der Warnung, oder sie verlässt es nicht. Steh nicht auf einer Kiste, wenn die Hitze ausgeht.
 - **Beute in den Kreisen.** Kisten, die vor der Überhitzung gelegt wurden, bleiben in der Strahlung liegen: Eine Kiste, die dort liegt, wenn sie beginnt, kostet beim Aufnehmen die Dosis.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Açık Artırma -->
 # Açık Artırma {#auction}
 
@@ -134,6 +134,8 @@ Bir ilanın bedeli, ilan verirken ödenen ve asla iade edilmeyen bir **ilan ücr
 | Helios Beam: 12. seviye, 504 sa, bir sezonun son günlerinde | 2.500.000 kredi | 0 kredi | 0 kredi | 2.500.000 kredi |
 
 <!-- market-fees:end -->
+
+**Commerce** becerin, ilanlarının ve alım emirlerinin ilan ücretinden en fazla yarısını düşer (yukarı yuvarlanır, asla sıfıra inmez). Vergi herkes için aynıdır; yukarıdaki tablo ilk seviyedeki bir pilotun değeridir. Her satış ve yerine getirilen her alım emri, hem satıcının hem alıcının bu becerisini geliştirir.
 
 ## Satın almak {#buying}
 
@@ -284,8 +286,8 @@ Sıfırlamada **her açık ilan satıcısına geri döner**, boşta duran eşyal
 Açık Artırma kazandığın şeylerle ticaret yapmak içindir ve sınırları konusunda dürüsttür.
 
 - **Ganimet satmak bir grind değildir.** Ham uzaylı ganimetleri yalnızca kaynaktır ve aynı 5. seviye avcılık saatinin öldürmelerde ödediğinin %0,4 ila %0,9’u değerindedir. Pilot pazarının yeni bir pilota verdiği şeyler şunlardır: görevlerinin ödediği ve ihtiyaç duymadığı teçhizat (bir kez), meydan okuma görevlerinin kaynakları, sürü patronlarının kutuları ve kendi ürettikleridir.
-- **Alıcı tüccar yok.** Bir alım emri bir pilota aittir ve onun kendi parasıyla karşılanır: oyun senden hiçbir fiyata almaz. Bir pilotun ne almak istediğini ve ne kadara almak istediğini söylediği alım emirleri, satıcıya hep orada olan bir alıcı, malzeme alıp Montaj’da teçhizat üreten ve satan üreticiye de onları sipariş etmenin bir yolunu verir; bir emir ayrıca bir satıcıyı bekleyebilir ya da süresi dolup ilan ücretini yakabilir. İlk noktayı değiştirmezler.
-- **Mağaza teçhizatı yeniden satış için değildir.** Mağaza’dan satın aldığın teçhizat bir daha satılamaz: buna Quantum Laser I ve II, Light ve Basic Shield Core, Engine I ve II, hücre ve iticilerin ilk kademesi, Mağaza’nın sattığı amfiler ve satın alınmış cephane dahildir. Bir pilotun sahip olduğu tek satılabilir Quantum Laser II, bir görevin bir kez ödediğidir.
+- **Alıcı tüccar yok.** Bir alım emri bir pilota aittir ve onun kendi parasıyla karşılanır: Açık Artırma senden hiçbir fiyata almaz. Bir pilotun ne almak istediğini ve ne kadara almak istediğini söylediği alım emirleri, satıcıya hep orada olan bir alıcı, malzeme alıp Montaj’da teçhizat üreten ve satan üreticiye de onları sipariş etmenin bir yolunu verir; bir emir ayrıca bir satıcıyı bekleyebilir ya da süresi dolup ilan ücretini yakabilir. İlk noktayı değiştirmezler.
+- **Mağaza teçhizatı yeniden satış için değildir.** Mağaza’dan satın aldığın teçhizat Açık Artırma’da bir daha satılamaz: buna Quantum Laser I ve II, Light ve Basic Shield Core, Engine I ve II, hücre ve iticilerin ilk kademesi, Mağaza’nın sattığı amfiler ve satın alınmış cephane dahildir. Bir pilotun sahip olduğu tek satılabilir Quantum Laser II, bir görevin bir kez ödediğidir. Mağaza’nın kendisi, orada satın aldığın ve henüz takmadığın birimleri fiyatının bir kısmına geri alır (**Commerce** becerinle biraz daha fazlasına) ve başka hiçbir şeyi almaz: kazandığın, ürettiğin, başka pilotlardan satın aldığın ya da hediye aldığın şeyler geri alınmaz.
 - **Plakalar görevlerden gelir.** Pilot pazarındaki Velkonite Reinforced Plate ve Orvium Reinforced Plate eşyaları, meydan okuma görevlerinin ödediği olanlardır. Dökümhane’nin plakaları dışarıda kalır; yoksa pazarın en büyük malı onlar olurdu.
 
 Bir ilan sana yanlış görünüyorsa her zamanki yolla bildir: oyunun yöneticileri bir ilanı beklemeye alabilir, iade edebilir, Açık Artırma’yı duraklatabilir ya da bir pilotu ondan yasaklayabilir ve böyle her eylem kaydedilir.

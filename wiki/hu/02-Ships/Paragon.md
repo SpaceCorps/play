@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ A Paragon nehéz harci cirkáló, amelyet kiegyensúlyozott védelemre és táma
 
 ## Kutatás {#research}
 
-- **Páncélzatfoglalatok.** Ennek a hajónak 5 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (5 darab) 75 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** Ennek a hajónak 5 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (5 darab) 125 000 hajótestet ad hozzá.
 - **Dizájnok.** Ennek a hajónak 3 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
 
 | Dizájn | Mit változtat |

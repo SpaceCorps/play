@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: afbfba0feace9790 -->
+<!-- wiki-i18n source: 809ea3e03a845d94 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -6,7 +6,7 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 
 ## Értékek {#stats}
 
-- **Életerő (HP)**: 600 000
+- **Életerő (HP)**: 500 000
 - **Alapsebesség**: 110
 - **Lézerfoglalatok**: 8
 - **Extrafoglalatok**: 3
@@ -27,7 +27,7 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 
 ## Kutatás {#research}
 
-- **Páncélzatfoglalatok.** Ennek a hajónak 15 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (15 darab) 225 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** Ennek a hajónak 15 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (15 darab) 375 000 hajótestet ad hozzá.
 - **Dizájnok.** Ennek a hajónak 2 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
 
 | Dizájn | Mit változtat |

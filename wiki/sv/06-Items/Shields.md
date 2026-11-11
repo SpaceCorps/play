@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldar och försvar {#shields-defense}
 
@@ -46,7 +46,7 @@ Utrusta sköldkärnor för att skapa aktiva defensiva barriärer, i skeppets gen
 
 **Heavy Shield Core** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Basic Shield Core, med 4 000 Thulium, 30 Cataclysite, 12 Reinforced Hull Plates, 2 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Den behåller förtrollningsnivån och bonusarna hos den kärna den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av Basic Shield Core från ditt skepp (och ta ut dess celler ur den): en kärna som sitter på ett skepp eller bär celler förbrukas inte.
 
-**Absorption** är den andel av varje träff som dina sköldar tar; skrovet tar resten. En sköld ensam ger **45 till 55 %**, och dess celler lägger till resten: den bästa skölden med de bästa cellerna (en Heavy Shield Core med tre Absorption Shield Cell IV) ger **85 %**, det mest ett skepp har från start. Tre permanenta förstärkningar lägger till det: säsongsbutikens Shield Absorbance Boost (+0,1 punkter per nivå, 100 nivåer, 25 wipepoäng var), Smedjans absorptionsbonusar och Pilot-forskningen Field Theory (+4, +7 eller +10 punkter). Källorna till wipepoäng (upp till 1 105 per wipe, och de börjar om vid varje wipe) räcker i den första wipen till 44 av de 100 nivåerna (+4,4 punkter), vilket med en fullt smidd uppsättning på nivån Evig blir ungefär **100 %**, och ungefär **110 %** med Field Theory III. Värdet är dock inte begränsat till 100 %: en angripares *sköldgenomträngning* dras av från det, så det ett skepp har över 100 % är dess marginal mot genomträngning. Se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
+**Absorption** är den andel av varje träff som dina sköldar tar; skrovet tar resten. En sköld ensam ger **45 till 55 %**, och dess celler lägger till resten: den bästa skölden med de bästa cellerna (en Heavy Shield Core med tre Absorption Shield Cell IV) ger **91 %**, det mest ett skepp har från start. Tre permanenta förstärkningar lägger till det: säsongsbutikens Shield Absorbance Boost (+0,1 punkter per nivå, 100 nivåer, 25 wipepoäng var), Smedjans absorptionsbonusar och Pilot-forskningen Field Theory (+4, +7 eller +10 punkter). Källorna till wipepoäng (upp till 1 105 per wipe, och de börjar om vid varje wipe) räcker i den första wipen till 44 av de 100 nivåerna (+4,4 punkter), vilket med en fullt smidd uppsättning på nivån Evig blir ungefär **106 %**, och ungefär **116 %** med Field Theory III. Värdet är dock inte begränsat till 100 %: en angripares *sköldgenomträngning* dras av från det, så det ett skepp har över 100 % är dess marginal mot genomträngning. Se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-).
 
 ---
 
@@ -56,9 +56,9 @@ Adaptiva kärnor fungerar som hybridgeneratorer och kombinerar sköld- och fartf
 
 | Namn | Sällsynthet | Sköldbonus % | Fartbonus % | Platser | Specialeffekt | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | Skral | +4 % | +1,2 % | 1 | — | 100 000 krediter |
-| **Adaptive Core II** | Vanlig | +6,4 % | +1,6 % | 2 | — | Kan bara tillverkas |
-| **Adaptive Core III** | Sällsynt | +8 % | +2 % | 3 | — | Kan bara tillverkas |
+| **Adaptive Core I** | Skral | +4 % | +1,5 % | 1 | — | 100 000 krediter |
+| **Adaptive Core II** | Vanlig | +6,4 % | +2,5 % | 2 | — | Kan bara tillverkas |
+| **Adaptive Core III** | Sällsynt | +8 % | +3 % | 3 | — | Kan bara tillverkas |
 
 **Adaptive Core II** tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av en Adaptive Core I, med 2 000 Thulium, 60 Ship Fragments, 1 Power Core och 4 Velkonite Reinforced Plates. **Adaptive Core III** tillverkas där av en Adaptive Core II, med 4 000 Thulium, 110 Ship Fragments, 5 Power Cores, 1 Ancient Control Unit och 4 Dark Matter Plates ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)). Var och en behåller förtrollningsnivån och bonusarna hos den kärna den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Ta först av kärnan som ska förbrukas från ditt skepp (och ta ut dess styrraketer och celler ur den): en kärna som sitter på ett skepp eller bär moduler förbrukas inte.
 
@@ -66,17 +66,17 @@ Adaptiva kärnor fungerar som hybridgeneratorer och kombinerar sköld- och fartf
 
 ## Sköldceller {#shield-cells}
 
-Sköldceller monteras inuti sköldkärnor eller adaptiva kärnor (lika många som kärnans platser) för att förstärka den kärnan. I en sköldkärna höjer de också dess absorption, i punkter, och därmed den andel av varje träff som dina sköldar tar. Det finns två familjer med fyra nivåer var: **Capacity Shield Cell** ger mest sköld och laddning, **Absorption Shield Cell** mest absorption (på varje nivå dubbelt så mycket absorption och hälften så mycket sköld och laddning som Capacity på samma nivå). Capacity hjälper ett skepp där skölden avgör striden, Absorption ett skepp där skrovet gör det. En kärna med alla platser fyllda med samma cell: en Light Shield Core (1 plats) ger 47 till 55 %, en Basic Shield Core (2 platser) 52 till 68 % och en Heavy Shield Core (3 platser) 56 till 80 %, från Capacity-celler på nivå I till Absorption-celler på nivå IV. Att ta av kärnan, eller förbruka den som givare i en sammanslagning i [Smedjan](/wiki/06-Items/Forge.md), för tillbaka dess celler till inventariet.
+Sköldceller monteras inuti sköldkärnor eller adaptiva kärnor (lika många som kärnans platser) för att förstärka den kärnan. I en sköldkärna höjer de också dess absorption, i punkter, och därmed den andel av varje träff som dina sköldar tar. Det finns två familjer med fyra nivåer var: **Capacity Shield Cell** ger mest sköld och laddning, **Absorption Shield Cell** mest absorption (på varje nivå dubbelt så mycket absorption och hälften så mycket sköld och laddning som Capacity på samma nivå). Capacity hjälper ett skepp där skölden avgör striden, Absorption ett skepp där skrovet gör det. En kärna med alla platser fyllda med samma cell: en Light Shield Core (1 plats) ger 48 till 57 %, en Basic Shield Core (2 platser) 56 till 74 % och en Heavy Shield Core (3 platser) 64 till 91 %, från Capacity-celler på nivå I till Absorption-celler på nivå IV. Att ta av kärnan, eller förbruka den som givare i en sammanslagning i [Smedjan](/wiki/06-Items/Forge.md), för tillbaka dess celler till inventariet.
 
 | Namn | Sällsynthet | Kapacitetsökning | Laddningsökning | Absorptionsökning | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | Skral | +3 000 | +250/s | +2 % | 30 000 krediter |
-| **Capacity Shield Cell II** | Vanlig | +6 000 | +500/s | +3 % | Kan bara tillverkas |
-| **Capacity Shield Cell III** | Sällsynt | +9 000 | +750/s | +4 % | Kan bara tillverkas |
-| **Capacity Shield Cell IV** | Episk | +12 000 | +1 000/s | +5 % | Kan bara tillverkas |
-| **Absorption Shield Cell I** | Skral | +1 500 | +125/s | +4 % | 30 000 krediter |
-| **Absorption Shield Cell II** | Vanlig | +3 000 | +250/s | +6 % | Kan bara tillverkas |
-| **Absorption Shield Cell III** | Sällsynt | +4 500 | +375/s | +8 % | Kan bara tillverkas |
-| **Absorption Shield Cell IV** | Episk | +6 000 | +500/s | +10 % | Kan bara tillverkas |
+| **Capacity Shield Cell I** | Skral | +4 000 | +250/s | +3 % | 30 000 krediter |
+| **Capacity Shield Cell II** | Vanlig | +8 000 | +500/s | +4 % | Kan bara tillverkas |
+| **Capacity Shield Cell III** | Sällsynt | +12 000 | +750/s | +5 % | Kan bara tillverkas |
+| **Capacity Shield Cell IV** | Episk | +16 000 | +1 000/s | +6 % | Kan bara tillverkas |
+| **Absorption Shield Cell I** | Skral | +2 000 | +125/s | +6 % | 30 000 krediter |
+| **Absorption Shield Cell II** | Vanlig | +4 000 | +250/s | +8 % | Kan bara tillverkas |
+| **Absorption Shield Cell III** | Sällsynt | +6 000 | +375/s | +10 % | Kan bara tillverkas |
+| **Absorption Shield Cell IV** | Episk | +8 000 | +500/s | +12 % | Kan bara tillverkas |
 
 Nivå I i varje familj säljs för 30 000 krediter. Nivå II till IV tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules), var och en av cellen i samma familj en nivå under (en Capacity Shield Cell II av en Capacity Shield Cell I, en III av en II, en IV av en III), med Thulium, byte och plåtar: 4 Velkonite Reinforced Plates från din Skylab för nivå II eller III, och 4 Dark Matter Plates och en Ancient Control Unit för nivå IV. En cell byter aldrig familj: du väljer Capacity eller Absorption när du köper nivå I. Den nya cellen behåller förtrollningsnivån och bonusarna hos den cell den förbrukar ([Modulupgraderingar](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Celler passar inte i en [förmågeplats](/wiki/03-Mechanics/Abilities.md); de hör hemma inuti sköldar och adaptiva kärnor.

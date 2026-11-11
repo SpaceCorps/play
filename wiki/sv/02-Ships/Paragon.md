@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 778c5b5caba86532 -->
+<!-- wiki-i18n source: a4b46b95ef14ebec -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -27,7 +27,7 @@ Paragon är en tung stridskryssare med balanserat försvar och balanserad eldkra
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 5 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 5 fyllda med Hull Plating III ger 75 000 skrov.
+- **Pansarplatser.** Det här skeppet har 5 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 5 fyllda med Hull Plating III ger 125 000 skrov.
 - **Designer.** Skeppet har 3 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |

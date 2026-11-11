@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b3d904b8eec2cf43 -->
+<!-- wiki-i18n source: d45d89b7b19e66a5 -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -6,7 +6,7 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på
 
 | Extra | Vad den gör | Användningar | Pris |
 | :---- | :---------- | :----------- | :--- |
-| **Repair Drone I till IV** | Reparerar ditt skrov, 1,5 %, 2,25 %, 3,5 % och 5 % av maxvärdet per sekund | obegränsat | 5 000 / 15 000 / 35 000 krediter, 2 000 Thulium |
+| **Repair Drone I till IV** | Reparerar ditt skrov, 2 %, 3 %, 4 % och 5 % av maxvärdet per sekund | obegränsat | 5 000 / 15 000 / 35 000 krediter, 2 000 Thulium |
 | **Cloaking CPU S** | Döljer ditt skepp | 10 | 5 000 Thulium |
 | **Cloaking CPU M** | Döljer ditt skepp | 25 | 11 250 Thulium |
 | **Cloaking CPU L** | Döljer ditt skepp | 50 | 20 000 Thulium |
@@ -96,13 +96,24 @@ Tryck på platsen WAL, så står en **plasmavägg** **vid din markör**, tvärs 
 
 - **Vad den stoppar.** Varje skott som korsar den träffar väggen i stället, vem som än sköt det och från vilken sida: en lasersalva, en raket, en utomjordings salva. Det som står bakom tar ingenting och väggens livspoäng tar skadan. Explosionen från en raket som går av vid väggen träffar skeppen på dess nära sida och inte de bakom den. Dina egna skott också: du kan inte skjuta ut genom din egen vägg. N.I.K.E. och Dormant Swamps kanontorn flyger över den, som de flyger över asteroider.
 - **Vad den bränner.** Varje skepp vars skrov rör vid bandet tar **2 500 i skada per sekund**, först på skölden, ditt eget också, och utomjordingar och koncernpiloter. Ett skepp i en säker zon eller under skydd av en återkomst brinner inte, och två band på ett skepp läggs inte ihop.
-- **Hur länge den håller.** En vägg på nivå 1 har **30 000 livspoäng**, en på nivå 2 **90 000**. En vägg förlorar en sextiondel av dem varje sekund av sig själv, så en som ingen skjuter på är borta efter **60 sekunder**. Skott förkortar det: en Wraith med tretton Helios Beam på x4-ammunition fäller en nivå 1-vägg på ungefär 4 sekunder.
+- **Hur länge den håller.** En vägg på nivå 1 har **100 000 livspoäng**, en på nivå 2 **250 000**. En vägg förlorar en sextiondel av dem varje sekund av sig själv, så en som ingen skjuter på är borta efter **60 sekunder**. Skott förkortar det: en Wraith med tretton Helios Beam på x4-ammunition fäller en nivå 1-vägg på ungefär 11 sekunder och en nivå 2-vägg på ungefär 22.
 - **En i taget, en vägg per tryck.** En ny vägg tar den gamlas plats. Efter ett tryck laddas föremålet i **90 sekunder**; väntan är din, inte skeppets: att dö eller logga ut förkortar den inte. Ett tryck förbrukar **en vägg av den nivå platsen rymmer**, och bara när väggen står: ett tryck som spelet nekar (nedan) förbrukar ingenting och startar ingen väntan. Finns ingen kvar av den nivån säger det ”Inga Energetic Wall kvar.”, och den andra nivån förbrukas aldrig i dess ställe.
 - **Var inte.** Inte medan en säker zon eller en återkomst skyddar dig, inte där bandet skulle röra en säker zon eller en port, inte kamouflerad och inte där bandets mitt skulle hamna utanför kartan. Spelet säger vilket fall det är.
 - **Nedskjutningar.** Ett skepp som väggen förstör dör av strålning, och nedskjutningen går till den sista fientliga piloten som träffade det inom 15 sekunder, om det fanns någon. Den som satte upp väggen får inget tillgodo för det den inte sköt själv. En utomjording som väggen förstör betalar ingenting: ingen belöning, inget byte.
 - **Utomjordingar går inte runt den.** De flyger igenom och brinner, eller blir stående på sin sida och skjuter på väggen.
 - **Vad du ser.** Ett band av blåvitt ljus med ljusa streck som löper längs det och en ljuspelare i varje ände; det blixtrar där ett skott slår in och flimrar när det nästan är slut. En vägg på nivå 2 lyser i stället gult, med en tjockare, ljusare kärna och ett starkare sken, men dess band är lika brett som på nivå 1: 10 enheter. En tunn livsmätare bredvid blir kortare och går över i bärnsten och sedan rött; din plats visar väggens återstående liv som en båge och väntan som en skugga. En uppsatt vägg blixtrar till, en nedskjuten rasar i gnistor och en vars tid gått ut bleknar bort. Siffran på platsen räknar också de väggar av dess nivå som du har kvar.
 - **Hur du får den och bär den.** Energetic Wall I säljs i butiken för **250 Thulium** per vägg, och du bär upp till **20** i en hög (det du har lagt ut på [Auktionen](/wiki/03-Mechanics/Auction.md) räknas med). Energetic Wall II tillverkas i Monteringen, **en vägg per tillverkning**, för **600 Thulium**, 5 Ship Fragments och en Power Core, när Forskningscentrumet har forskat fram den (6 timmar i normal takt: [Forskning](/wiki/03-Mechanics/Research.md)); av den bär du upp till **10**. Till skillnad från de tolv raketerna, av vilka 1 000 av varje följer med av sig själva, går väggarna du bär förlorade med säsongen om du inte lägger dem i transportförrådet, och väggar i förrådet kan inte användas. En Energetic Wall II som du har tillverkat kan säljas på Auktionen; en Energetic Wall I, som butiken säljer, aldrig.
+
+## Mine
+
+En **Mine** är en fälla som du kastar. Tryck på dess plats med muspekaren på en punkt, så kastar ditt skepp Minen dit, **så långt dina lasrar når**: en pekare längre bort lägger den på den räckvidden längs linjen, och utan pekarpunkt faller den under skeppet. Den flyger ett ögonblick, landar och är **laddad 3 sekunder senare**. Därefter går den av **en enda gång, med hela sin skada, under det första skepp som flyger över den**, och är borta: ingen skada över tid och ingen tryckvåg. En Mine är en **förbrukningsvara**, som [Energetic Wall](#energetic-wall): en hög i ditt inventarie som inte tar **någon plats** på något skepp. Dra den från snabbfältets Förbrukningsvaror till en plats för att använda den; de tre nivåerna är tre poster, så en plats rymmer en nivå.
+
+- **Vem den träffar.** Varje skepp som flyger över den: en fientlig pilot, en utomjording, en koncernpilot, dina koncernkamrater, din grupp och **du själv**. En Mine har inga vänner. Det som skonar ett skepp är det som skonar det från alla vapen: en säker zon, skydd av en återkomst, kamouflage eller ett EMP-fönster.
+- **Flyga bort.** Ett skepp som är inom en Mines räckvidd när den landar skonas tills det har lämnat räckvidden en gång, och du är den första den skonar: du kan släppa en Mine under ditt skepp och flyga iväg. Därefter går Minen av under det skeppet som under vilket annat som helst, även om det kommer tillbaka senare.
+- **Hur mycket.** Skadan växer med nivån: **8 000, 20 000 och 50 000**. Din förmåga Sabotage lägger till upp till 30 %, och din Skicklighet med vapen får Minen att flyga snabbare och längre.
+- **Gränser.** Du kan ha **tre** Minor ute åt gången (en fjärde tar den äldstas plats), var och en är borta **3 minuter** efter landningen, och du väntar **8 sekunder** mellan två kast; väntan är din, inte skeppets. När du lämnar kartan försvinner dina Minor med dig.
+- **Var inte.** Inte där piloter inte kan strida mot varandra (under Fredsprotokollet, eller i en sektor eller port vars regler förbjuder det), inte medan en säker zon eller en återkomst skyddar dig, inte där Minen skulle röra en säker zon eller en port, och inte kamouflerad. Spelet säger vilket fall det är; ett nekat kast förbrukar ingenting och startar ingen väntan.
+- **Hur du får den och bär den.** Mine I säljs i butiken för **100 Thulium**, och du bär upp till **20** i en hög. Mine II tillverkas i Monteringen, **en Mine per tillverkning**, av två Mine I, 3 Ship Fragments och en Power Core för **200 Thulium** (upp till **10** i en hög); Mine III av två Mine II, 8 Ship Fragments, 2 Power Cores och en Reinforced Hull Plate för **400 Thulium** (upp till **5**). Båda tillverkas när Forskningscentrumet har forskat fram dem: 3 timmar för II och 6 timmar för III i normal takt (se [Forskning](/wiki/03-Mechanics/Research.md)). Minorna du bär går förlorade med säsongen om du inte lägger dem i transportförrådet, och Minor i förrådet kan inte användas. Minor kan inte säljas på [Auktionen](/wiki/03-Mechanics/Auction.md).
 
 ## Forskningscentrumets CPU:er {#research-cpus}
 
@@ -122,6 +133,8 @@ Två av CPU:erna kräver Dark Matter Plates, liksom sista nivån i varje uppgrad
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 h | – | 15 000 | 10 min |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 h | – | 600 | 2 min |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 h | – | 20 000 | 15 min |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 h | – | 200 | 2 min |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 h | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 min |
 
 Ingen av dem säljs i butiken: forska fram teknologin och tillverka sedan CPU:n i Monteringen. Håll pekaren över en CPU i trädet för att se vad Monteringen kräver för den.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Beim Zerbrechen eines Asteroiden wird nichts ausgezahlt. Er zerfällt in Trümme
 
 Ein größerer Asteroid hinterlässt mehr Stücke (die Spalte Geldbrocken unter Die Arten: Die Credits und das Thulium kommen in so vielen Stücken, und das Erz in einem weiteren). Nach dem Einsammeln fliegt dein Schiff von selbst zum nächsten Brocken eines nahen Asteroiden, den du nehmen darfst; jeder Bewegungsbefehl von dir stoppt das.
 
-Ab Stufe 2 der Felsen kann ein Bruch außerdem einen **Cluster Chunk** unzerteilt hinterlassen, im Erzbrocken der Gruppe, die den meisten Schaden gemacht hat: einen **Regular Cluster Chunk** ab Stufe 2, einen **Mythical Cluster Chunk** ab Stufe 3 und einen **Legendary Cluster Chunk** ab Stufe 4; der Motherlode gibt sie am häufigsten her. Die Chancen stehen in [Ressourcen](/wiki/06-Items/Resources.md#regular-cluster-chunk). Glück ändert sie nicht, auch das eines P.E.T. nicht. Mit einer Orvium Reinforced Plate wird ein Chunk in der Wiege des Hangars zu einem [P.E.T.](/wiki/03-Mechanics/Pets.md).
+Ein Bruch kann außerdem einen **Cluster Chunk** unzerteilt hinterlassen, im Erzbrocken der Gruppe, die den meisten Schaden gemacht hat: einen **Regular Cluster Chunk** ab Stufe 1, einen **Mythical Cluster Chunk** ab Stufe 3 und einen **Legendary Cluster Chunk** ab Stufe 4; der Motherlode gibt sie am häufigsten her. Die Chancen stehen in [Ressourcen](/wiki/06-Items/Resources.md#regular-cluster-chunk). Glück ändert sie nicht, auch das eines P.E.T. nicht. Mit einer Orvium Reinforced Plate wird ein Chunk in der Wiege des Hangars zu einem [P.E.T.](/wiki/03-Mechanics/Pets.md).
 
 ## Wer die Brocken bekommt {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ Jeder Sektor der Heimatsektoren der drei Konzerne und der Gefahrensektoren hat A
 
 Die **Stufe** eines Asteroiden ist der Ring von Sektoren, zu dem seine Art gehört: Die Stufen 1 bis 4 sind die Sektoren x-1 bis x-4 der drei Konzerne, Stufe 5 die Gefahrensektoren. Die Stufe steigt mit der Größe: Je größer der Asteroid, desto höher seine Stufe. Beides ist aber nicht dasselbe: Die meisten Stufen umfassen zwei Größen, die die Tabelle nennt. Das Zielfenster und die Karte beim Daraufzeigen zeigen Familie, Größe und Stufe eines Asteroiden.
 
-Die Stufe entscheidet auch über einen eigenen Fund: ein **P.E.T.-Teil**, ein Cluster Chunk, den die [P.E.T.](/wiki/03-Mechanics/Pets.md)-Wiege nimmt. Die Tabelle nennt die Chance, dass ein zerbrochener Asteroid die jeweilige Sorte hinterlässt (ein Strich: nie). Asteroiden der Stufe 1 hinterlassen keine. Jede Sorte wird für jeden zerbrochenen Asteroiden einmal gewürfelt, der Pilot mit dem meisten Schaden bekommt den Chunk ganz, und Glück ändert die Chancen nicht. Der Motherlode hat eigene Chancen. Wähle einen Asteroiden, und das Zielfenster listet die P.E.T.-Teile seiner Art auf.
+Die Stufe entscheidet auch über einen eigenen Fund: ein **P.E.T.-Teil**, ein Cluster Chunk, den die [P.E.T.](/wiki/03-Mechanics/Pets.md)-Wiege nimmt. Die Tabelle nennt die Chance, dass ein zerbrochener Asteroid die jeweilige Sorte hinterlässt (ein Strich: nie). Jede Sorte wird für jeden zerbrochenen Asteroiden einmal gewürfelt, der Pilot mit dem meisten Schaden bekommt den Chunk ganz, und Glück ändert die Chancen nicht. Der Motherlode hat eigene Chancen. Wähle einen Asteroiden, und das Zielfenster listet die P.E.T.-Teile seiner Art auf.
 
 | Stufe | Sektoren | Größe | Arten | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Winzig, Klein | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Klein, Mittel | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4 % | – | – |
-| 3 | `x-3` | Mittel | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8 % | 0,15 % | – |
-| 4 | `x-4` | Mittel, Groß | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1 % | 0,25 % | 0,03 % |
-| 5 | Gefahrensektoren | Groß | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2 % | 0,3 % | 0,1 % |
-| 5 | Gefahrensektoren | Riesig | Motherlode | 25 % | 8 % | 3 % |
+| 1 | `x-1` | Winzig, Klein | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0,5 % | – | – |
+| 2 | `x-2` | Klein, Mittel | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1 % | – | – |
+| 3 | `x-3` | Mittel | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2,5 % | 0,35 % | – |
+| 4 | `x-4` | Mittel, Groß | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5 % | 0,5 % | 0,1 % |
+| 5 | Gefahrensektoren | Groß | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10 % | 1 % | 0,5 % |
+| 5 | Gefahrensektoren | Riesig | Motherlode | 20 % | 5 % | 3 % |
 
 Es gibt 27 Arten von Asteroiden in 8 Familien. **Gemacht für** nennt die Rakete, auf die eine Art abgestimmt ist, und etwa wie viele davon ein Zerbrechen in Alpha braucht. **Funde** sind das Erz und die seltenen Funde, die ein Zerbrechen auswürfelt und die seine Brocken unter sich aufteilen: Eine Prozentangabe ist die Chance dieser Zeile, die anderen Zeilen findet man immer. Die Credits und das Thulium sind die Alpha-Beträge eines Zerbrechens.
 

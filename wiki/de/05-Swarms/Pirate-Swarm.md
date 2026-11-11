@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9070ca3143eddf92 -->
+<!-- wiki-i18n source: aace02deb18f7c01 -->
 <!-- wiki-i18n title: Pirate-Schwarm -->
 # Pirate-Schwarm {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Der Pirate-Schwarm besteht aus einem **Pirate Boss** mit seinen **Pirate Scouts*
 - **Schieß auf den Boss, nicht auf die Scouts.** Die Scouts heilen den Boss, aber die Heilung ist klein gegen seine Hülle, und ein neuer Scout kommt so oft, wie die Liste *Auf einen Blick* sagt: Eine Gruppe, die zuerst die Scouts abschießt, holt sie nie ein, und nur eine sehr große Gruppe kann sie beseitigen und braucht dann trotzdem länger für den Boss als eine, die sie in Ruhe gelassen hat. Die Scouts kosten dich Zeit, sie entscheiden den Kampf nicht.
 - **Lenke die Scouts ab.** Ein Scout heilt nur, solange er in Reichweite des Bosses ist; ein Scout, der dir aus der Reichweite folgt, heilt nichts, und eine Ostirion ist schneller als ein Scout.
 - **Bleib in Bewegung.** Die Rakete des Bosses ist gerade und ungelenkt: Ein Schiff, das in Bewegung bleibt, weicht ihr aus, eines, das stillsteht, wird getroffen.
-- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition verlieren auf `x-3` auch dann, wenn sich die Treffer verteilen, schaffen ihn aber auf `x-2`, ohne ein Schiff zu verlieren; vier schaffen ihn in Alpha in etwa vier Minuten. Mit x4-Munition reichen auch auf `x-3` drei (etwa zweieinhalb Minuten). Fünf schaffen ihn in etwa drei Minuten, wenn sich die Treffer verteilen, und in etwa vier, wenn ein Pilot das ganze Feuer abbekommt, und verlieren dann zwei Schiffe: Eine Gruppe, bei der ein Pilot das ganze Feuer abbekommt, braucht fünf. In Beta braucht es fünf Piloten und in Gamma sieben, bei verteilten Treffern (der Boss ist dort größer und seine Scouts heilen mehr). In Alpha schafft es eine Ostirion allein auf `x-3` mit x2-Munition nicht, und eine Paragon allein schafft es auch nicht: Zwei Paragons schaffen es sicher. In Beta und Gamma wird eine einzelne Paragon auf `x-3` zerstört, mit x2- wie mit x4-Munition. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
+- **Bring eine Gruppe mit.** Drei Piloten in Ostirions mit x2-Munition schaffen ihn auf `x-2`, ohne ein Schiff zu verlieren, und auf `x-3` auch, solange sich die Treffer verteilen, wenn auch nur knapp; vier schaffen ihn in Alpha in etwa dreieinhalb Minuten. Mit x4-Munition schaffen ihn auf `x-3` drei in etwa zwei Minuten. Fünf schaffen ihn in etwa zweieinhalb Minuten, wenn sich die Treffer verteilen, und in etwa drei, wenn ein Pilot das ganze Feuer abbekommt, und verlieren dann zwei Schiffe: Eine Gruppe, bei der ein Pilot das ganze Feuer abbekommt, braucht vier. In Beta braucht es fünf Piloten und in Gamma sechs, bei verteilten Treffern (der Boss ist dort größer und seine Scouts heilen mehr). In Alpha schafft es eine Ostirion allein auf `x-3` mit x2-Munition nicht, eine Paragon allein schafft es knapp, und zwei Paragons schaffen es sicher. In Beta und Gamma wird eine einzelne Paragon auf `x-3` mit x2-Munition zerstört; mit x4-Munition schafft sie es in Beta und wird in Gamma zerstört. Der Boss wehrt sich gegen den ersten Piloten, der ihn getroffen hat, also soll das robusteste Schiff anfangen; setze in einem so langen Kampf deine Fähigkeiten ein (Emergency Repair, Shield Surge: [Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Piloten, die noch Level 2 oder 3 sind, sind ihm zu schwach, auch dort, wo sie fliegen: Halte dich fern, bis du stärker bist.
 - **Der Boss kehrt zurück**, nach der Zeit in der Liste *Auf einen Blick*, im selben Sektor.
 
 ## Belohnungen und Beute {#rewards-and-drops}
@@ -52,7 +52,7 @@ Basis: Ironclad mit 50 % von Hülle, Schild und Schaden; Tempo und Reichweite b
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
-| Hülle | 300.000 | 450.000 | 600.000 |
+| Hülle | 250.000 | 375.000 | 500.000 |
 | Schild | 50.100 | 75.150 | 100.200 |
 | Laserschaden (eine Salve pro Sekunde) | keiner | keiner | keiner |
 | Tempo | 110 | 110 | 110 |

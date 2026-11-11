@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: Hajótest-páncélzat -->
 # Hajótest-páncélzat {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | Tárgy | Hozzáadott hajótest | Honnan származik |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5 000 | Bolt, 5 000 Thulium |
-| **Hull Plating II** | 10 000 | Gyártás, Hull Plating I-ből |
-| **Hull Plating III** | 15 000 | Gyártás, Hull Plating II-ből |
+| **Hull Plating I** | 8 000 | Bolt, 5 000 Thulium |
+| **Hull Plating II** | 15 000 | Gyártás, Hull Plating I-ből |
+| **Hull Plating III** | 25 000 | Gyártás, Hull Plating II-ből |
 
 A Hull Plating I-et megveszik. **A II és a III fejlesztés**: a Gyártás elhasznál egy eggyel alacsonyabb szintű páncélzatot (a leltáradban szabadon), és Thuliumot, nyersanyagot és **Dark Matter Plate-et** kér, a II-höz 5-öt, a III-hoz 8-at, miközben bármely más felszerelés utolsó szintje 4-et és egy Ancient Control Unitot kér. Mindegyikhez előbb a technológiája kell, a [Kutatás](/wiki/03-Mechanics/Research.md#tree-hull-plating) oldal Hull Plating fájában: a II-höz 1 nap és 25 Dark Matter, a III-hoz 2 nap és 40, magának a Dark Matter Plate-nek a technológiáján felül. A fenti fa mutatja az árakat, az anyagokat és az időket.
 
-A [Kovácsműhely](/wiki/06-Items/Forge.md) minden páncélzatot elfogad, a fejlesztés megtartja az elhasznált páncélzat kovácsolási fokozatát és bónuszát. A páncélzatnak egyetlen értéke van, a hajóteste, ezért egyetlen bónuszt hordoz, fokozattól függően +2%-tól +15%-ig: egy Örök fokozatú Hull Plating III legfeljebb 17 250-et ad. Az [Aukció](/wiki/03-Mechanics/Auction.md) a Hull Plating II-t és III-at listázza, a Hull Plating I-et soha, mert azt a Bolt árulja.
+A [Kovácsműhely](/wiki/06-Items/Forge.md) minden páncélzatot elfogad, a fejlesztés megtartja az elhasznált páncélzat kovácsolási fokozatát és bónuszát. A páncélzatnak egyetlen értéke van, a hajóteste, ezért egyetlen bónuszt hordoz, fokozattól függően +2%-tól +15%-ig: egy Örök fokozatú Hull Plating III legfeljebb 28 750-et ad. Az [Aukció](/wiki/03-Mechanics/Auction.md) a Hull Plating II-t és III-at listázza, a Hull Plating I-et soha, mert azt a Bolt árulja.
 
 ## Páncélzatfoglalatok {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ A hajótest-páncélzat csak **páncélzatfoglalatba** illik, egy önálló fogl
 
 | Hajó | Páncélzatfoglalatok | Egy teljes Hull Plating III készlet hozzáad |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75 000 |
-| **Storm** | 7 | 105 000 |
-| **Ironclad** | 15 | 225 000 |
-| **Wraith** | 10 | 150 000 |
+| **Paragon** | 5 | 125 000 |
+| **Storm** | 7 | 175 000 |
+| **Ironclad** | 15 | 375 000 |
+| **Wraith** | 10 | 250 000 |
 
 - **Kezdetben mind zárolva.** Egy foglalat akkor nyílik meg, ha a Skylabben kikutatod: foglalatonként egy technológia, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban. A [Kutatás](/wiki/03-Mechanics/Research.md#ship-technologies) nézet egy hajó foglalatait egyetlen kártyaként mutatja, foglalatonként egy ponttal.
 - **Hajófajta, nem egy hajó.** A foglalatok, amelyeket a Paragonhoz kinyitottál, a Paragon minden dizájnján is nyitva vannak ([Hajódizájnok](/wiki/03-Mechanics/Ship-Designs.md)). A technológia örökre a tiéd: a wipe megtartja.

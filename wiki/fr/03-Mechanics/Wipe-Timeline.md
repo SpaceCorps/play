@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 15776400c516fb14 -->
+<!-- wiki-i18n source: 1d82752d05f62aea -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -54,8 +54,10 @@ Tout ce qui suit reste à vous après la réinitialisation.
 * **Tout votre [Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)** : modules, niveaux, minerai en réserve dans l’Entrepôt de ressources et **les moteurs et lasers montés dans les modules Moteurs et Défense**, qui restent montés là où ils sont, avec les propulseurs et amplificateurs qu’ils contiennent. Le minerai en réserve n’est pas un objet et ne compte pas dans la cache ; les pièces montées n’y prennent pas de place non plus.
 * **Vos points de réinitialisation et vos bonus permanents** ([la boutique](#the-permanent-buff-store)).
 * **Expérience, niveau et honneur.**
+* **Votre Arbre de compétences du pilote.** Chaque compétence garde son niveau et son XP.
 * **Des crédits jusqu’à 5 000 000 000 et du Thulium jusqu’à 10 000 000.** Ce qui dépasse est perdu : voir [les plafonds](#the-caps).
 * **Votre progression dans les missions.** Les missions accomplies et en cours restent. Celles que vous avez accomplies peuvent être refaites pour leur récompense complète (une Répétition encore en cours au wipe est écartée).
+* **Vos pièces des portes solo**, le compteur de la garantie et le relevé de ce que vous avez dépensé en tirages et de ce que les portes ont rendu ([Portes solo](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Vos looks** (skins, auras et échappements), qui ne sont pas des objets non plus ([Cosmétiques](/wiki/06-Items/Cosmetics.md)).
 * **Ce qui se trouve dans votre cache de transport**, plus bas.
 
@@ -67,14 +69,17 @@ Vos conteneurs non ouverts, vos [objets spéciaux](/wiki/06-Items/Special-Items.
 
 ## Chrono-Gate et Matérialiseur d’énergie {#chrono-gate-energy-materializer}
 
-Le **Chrono-Gate** (aussi appelé Porte galactique) est une immense structure saisonnière qui sert de pont entre les saisons. Construire et stabiliser cette porte est indispensable pour débloquer vos privilèges de transport d’une saison à l’autre.
+Le **Chrono-Gate** (aussi appelé Porte galactique) est une immense structure saisonnière qui sert de pont entre les saisons. Construire et stabiliser cette porte est indispensable pour débloquer vos privilèges de transport d’une saison à l’autre. C’est l’une des six portes de la page Portes galactiques : les cinq autres sont les [portes solo](/wiki/03-Mechanics/Solo-Gates.md), des lieux où vous volez, et leurs pièces sortent du même Matérialiseur d’énergie.
 
 ### Assemblage de la porte {#gate-assembly}
-Pour stabiliser entièrement le Chrono-Gate, vous devez rassembler exactement **100 pièces du Chrono-Gate**.
+Pour stabiliser entièrement le Chrono-Gate, vous devez rassembler exactement **2 pièces du Chrono-Gate**. La page [Portes solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) dit ce dont chacune des six portes a besoin et ce que coûtent ses pièces en moyenne.
 
 ### Le Matérialiseur d’énergie {#the-energy-materializer}
 Vous obtenez des pièces avec l’interface du Matérialiseur d’énergie, qui fait tourner des secteurs d’énergie locaux pour localiser des pièces de la porte. Il ne tourne qu’avec du **Thulium** (le scan en crédits est fermé) :
-* **Scan** (5 Thulium) : a **10 % de chances** de produire une pièce de la porte.
+* **Scan** : **100 Thulium** par tirage, avec **13 % de chances** de produire une pièce de porte. La pièce appartient à l’une des six portes, tirée au hasard : ce n’est donc pas toujours une pièce du Chrono-Gate.
+* **La garantie.** Une longue série de tirages sans pièce ne peut pas durer toujours : après quelques tirages à vide la chance monte, puis une pièce est certaine ([détails](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
+* **Un tirage sans pièce** paie tout de même un lot ([Portes solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
+* **Les tirages continuent quand le Chrono-Gate est complet.** Chaque tirage est facturé, et les pièces qu’il trouve sont alors celles des portes solo. La chance d’une pièce est inférieure d’un sixième, parce que la part du Chrono-Gate en disparaît.
 
 *Astuce de pro : vous pouvez utiliser les multiplicateurs (1×, 5×, 10×, 100×) pour lancer des scans en série et accélérer la construction de la porte.*
 
@@ -82,7 +87,7 @@ Vous obtenez des pièces avec l’interface du Matérialiseur d’énergie, qui 
 
 ## Cache de transport (capsule de voyage) {#transport-cache-travel-capsule-}
 
-Une fois les 100 pièces rassemblées et le Chrono-Gate entièrement stabilisé, le portail ouvre l’accès à votre **cache de transport** personnelle (aussi appelée chariot de transfert ou capsule de voyage). Cette dimension de poche empêche vos possessions d’être effacées lors de la réinitialisation. Les objets que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vous reviennent à la réinitialisation comme objets en vrac, que la réinitialisation supprime comme le reste si vous ne les mettez pas dans le Cache ; les enchères que vous détenez dans des lots sont remboursées.
+Une fois toutes les pièces rassemblées et le Chrono-Gate entièrement stabilisé, le portail ouvre l’accès à votre **cache de transport** personnelle (aussi appelée chariot de transfert ou capsule de voyage). Cette dimension de poche empêche vos possessions d’être effacées lors de la réinitialisation. Les objets que vous avez mis aux [Enchères](/wiki/03-Mechanics/Auction.md#the-season-and-the-wipe) vous reviennent à la réinitialisation comme objets en vrac, que la réinitialisation supprime comme le reste si vous ne les mettez pas dans le Cache ; les enchères que vous détenez dans des lots sont remboursées.
 
 ### Le vaisseau de la cache {#the-cache-ship}
 
@@ -140,7 +145,7 @@ Le bouton **Figer le contenu** de l’onglet Cache de transport est une sécurit
 * **Les éliminations d’aliens.** Elles comptent pour la réinitialisation dans laquelle vous êtes, et vos totaux restent.
 * **Tout objet qui n’est pas conservé** : ressources, boosters, équipement de rechange, plaques, Cluster Chunks et le reste. Un moteur ou un laser que vous avez retiré d’un module de votre Skylab est une pièce de rechange comme une autre ; ceux qui y sont encore montés sont conservés. Ce que la réinitialisation vous rend d’abord (voir plus bas) est un objet comme les autres.
 * **Les clans.** Chaque clan est dissous, avec son Trésor de la flotte, ses annonces, ses traités, ses points et ses niveaux de bonus ([Clans](/wiki/03-Mechanics/Clans.md#the-wipe-disbands-every-clan)).
-* **Les pièces du Chrono-Gate** : la porte recommence, et votre Matérialiseur aussi.
+* **Les pièces du Chrono-Gate** : la porte recommence, et vous retrouvez ses pièces. Une partie ouverte d’une porte solo prend fin et vous rend ses pièces ; les pièces des portes solo que vous détenez sont conservées ([Portes solo](/wiki/03-Mechanics/Solo-Gates.md#gates-and-the-wipe)).
 * **Votre expédition du Skylab** prend fin : un voyage en cours est terminé, et la Baie des trophées verse ses crédits, son Thulium, son expérience et son honneur et est vidée ([Skylab](/wiki/03-Mechanics/Skylab.md#the-wipe)).
 * **Vos fabrications.** Chaque fabrication de votre file de production dans l’Assemblage est annulée et remboursée, quoi qu’elle produise : un objet, un vaisseau, une conversion de vaisseau, un drone ou son amélioration, une formation de drones, une P.E.T. Station ou une Extra Slots CPU. Les crédits et le Thulium qu’elle a coûtés reviennent dans votre portefeuille avant les plafonds. Les matériaux reviennent comme objets en vrac et partent avec le reste, sauf si vous annulez le travail vous-même avant et les mettez dans la cache. Une fabrication terminée qui attend d’être récupérée est remboursée elle aussi, et ce qu’elle aurait produit n’est jamais produit : récupérez vos fabrications terminées avant la réinitialisation. Les travaux du Berceau ne sont pas des fabrications : vos travaux de P.E.T. continuent.
 
@@ -221,7 +226,7 @@ Vous pouvez dépenser vos PR accumulés en bonus permanents qui se conservent d�
 * **Honor Boost** : +0,1 % d’honneur gagné par niveau (max. 50 % / 500 niveaux) - *Coût : 10 PR*
 * **Hitpoints Boost** : +0,1 % de PV maximum par niveau (max. 50 % / 500 niveaux) - *Coût : 15 PR*
 * **Shield Capacity Boost** : +0,1 % de bouclier maximum (**capacité** de bouclier) par niveau (max. 50 % / 500 niveaux) - *Coût : 10 PR*
-* **Shield Absorbance Boost** : +0,1 point d’**absorption** de bouclier par niveau (max. +10 points / 100 niveaux) - *Coût : 25 PR*. L’absorption est la part de chaque tir que prennent vos boucliers (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)) ; le bonus y ajoute des points fixes : 100 points de réinitialisation achètent 4 niveaux (+0,4 point), 300 en achètent 12 (+1,2), 500 en achètent 20 (+2,0) et la totalité des 1 105 points de réinitialisation que rapportent les sources en une réinitialisation en achète 44 (+4,4 points). Au maximum (100 niveaux, 2 500 PR : un objectif pour plusieurs réinitialisations, puisque les sources rapportent 1 105 au plus par réinitialisation et que votre grade en ajoute de 5 à 400), les 85 % (le maximum sans bonus) deviendraient 95 % et les 45 % d’un Light Shield Core, 55 %. La statistique n’est pas plafonnée à 100 % : la *pénétration de bouclier* de l’attaquant en est retranchée, donc ce qui dépasse 100 % est une marge. Avec les points de réinitialisation d’une réinitialisation dans ce bonus et un ensemble de boucliers et de cellules Éternels entièrement forgés, un vaisseau atteint environ 99 % à 102 %. (Jusqu’à la version 0.4.5, ce bonus ajoutait une part de l’absorption elle-même, 0,1 % de celle-ci par niveau, au même prix ; les points valent autant ou plus à toute absorption, donc les niveaux déjà achetés n’ont rien perdu ; jusqu’à la version 0.4.2, il augmentait à la place la vitesse de *recharge* du bouclier ; aucun bonus permanent n’augmente la recharge aujourd’hui.)
+* **Shield Absorbance Boost** : +0,1 point d’**absorption** de bouclier par niveau (max. +10 points / 100 niveaux) - *Coût : 25 PR*. L’absorption est la part de chaque tir que prennent vos boucliers (voir [Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)) ; le bonus y ajoute des points fixes : 100 points de réinitialisation achètent 4 niveaux (+0,4 point), 300 en achètent 12 (+1,2), 500 en achètent 20 (+2,0) et la totalité des 1 105 points de réinitialisation que rapportent les sources en une réinitialisation en achète 44 (+4,4 points). Au maximum (100 niveaux, 2 500 PR : un objectif pour plusieurs réinitialisations, puisque les sources rapportent 1 105 au plus par réinitialisation et que votre grade en ajoute de 5 à 400), les 91 % (le maximum sans bonus) deviendraient 101 % et les 45 % d’un Light Shield Core, 55 %. La statistique n’est pas plafonnée à 100 % : la *pénétration de bouclier* de l’attaquant en est retranchée, donc ce qui dépasse 100 % est une marge. Avec les points de réinitialisation d’une réinitialisation dans ce bonus et un ensemble de boucliers et de cellules Éternels entièrement forgés, un vaisseau atteint environ 104 % à 109 %. (Jusqu’à la version 0.4.5, ce bonus ajoutait une part de l’absorption elle-même, 0,1 % de celle-ci par niveau, au même prix ; les points valent autant ou plus à toute absorption, donc les niveaux déjà achetés n’ont rien perdu ; jusqu’à la version 0.4.2, il augmentait à la place la vitesse de *recharge* du bouclier ; aucun bonus permanent n’augmente la recharge aujourd’hui.)
 * **Luck Boost** : +0,1 % de chances de butin des aliens par niveau (max. 10 % / 100 niveaux) - *Coût : 15 PR*
 
 ### Gagner des points de réinitialisation {#earning-wipe-points}

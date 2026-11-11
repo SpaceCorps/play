@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Asta -->
 # Asta {#auction}
 
@@ -134,6 +134,8 @@ Un’inserzione costa un **deposito**, pagato quando la metti in vendita e mai r
 | Helios Beam: livello 12, 504 h, negli ultimi giorni di una stagione | 2.500.000 crediti | 0 crediti | 0 crediti | 2.500.000 crediti |
 
 <!-- market-fees:end -->
+
+La tua abilità **Commerce** toglie fino alla metà del deposito delle tue inserzioni e dei tuoi ordini di acquisto (arrotondato per eccesso, mai a zero). L’imposta è uguale per tutti, e la tabella qui sopra mostra la cifra di un pilota al primo livello. Ogni vendita e ogni ordine di acquisto evaso allena l’abilità, sia del venditore sia dell’acquirente.
 
 ## Comprare {#buying}
 
@@ -284,8 +286,8 @@ Al reset **ogni inserzione aperta torna al suo venditore** come oggetti sfusi, e
 L’Asta serve a scambiare ciò che guadagni, ed è onesta sui suoi limiti.
 
 - **Vendere bottino non è un grind.** Il bottino grezzo degli alieni è fatto solo di risorse e vale dallo 0,4 allo 0,9 per cento di ciò che la stessa ora di caccia al livello 5 paga in uccisioni. Ciò che il Mercato dà a un pilota nuovo è l’equipaggiamento che le sue missioni pagano e di cui non ha bisogno (una volta), le risorse delle missioni Sfida, le casse dei boss degli sciami e ciò che crea.
-- **Non c’è un commerciante.** Un ordine di acquisto è di un pilota ed è coperto dal suo denaro: il gioco non compra da te a nessun prezzo. Gli ordini di acquisto, in cui un pilota dice che cosa vuole comprare e a quanto, danno a chi vende un acquirente sempre presente, e all’artigiano, che compra materiali, crea equipaggiamento nell’Assemblaggio e lo vende, un modo per ordinarli; un ordine può anche aspettare un venditore, oppure scadere e distruggere il suo deposito. Sul primo punto non cambiano nulla.
-- **L’equipaggiamento del Negozio non è fatto per la rivendita.** L’equipaggiamento che hai comprato al Negozio non si può rivendere: ne fanno parte il Quantum Laser I e II, il Light e il Basic Shield Core, Engine I e II, il primo grado di celle e propulsori, gli amp che vende il Negozio e le munizioni comprate. L’unico Quantum Laser II vendibile di un pilota è quello che una missione paga una volta.
+- **Non c’è un commerciante.** Un ordine di acquisto è di un pilota ed è coperto dal suo denaro: l’Asta non compra da te a nessun prezzo. Gli ordini di acquisto, in cui un pilota dice che cosa vuole comprare e a quanto, danno a chi vende un acquirente sempre presente, e all’artigiano, che compra materiali, crea equipaggiamento nell’Assemblaggio e lo vende, un modo per ordinarli; un ordine può anche aspettare un venditore, oppure scadere e distruggere il suo deposito. Sul primo punto non cambiano nulla.
+- **L’equipaggiamento del Negozio non è fatto per la rivendita.** L’equipaggiamento che hai comprato al Negozio non si può rivendere all’Asta: ne fanno parte il Quantum Laser I e II, il Light e il Basic Shield Core, Engine I e II, il primo grado di celle e propulsori, gli amp che vende il Negozio e le munizioni comprate. L’unico Quantum Laser II vendibile di un pilota è quello che una missione paga una volta. Il Negozio stesso riacquista le unità che hai comprato lì e che hai ancora, non montate, per una frazione del suo prezzo (un po’ di più con la tua abilità **Commerce**), e nient’altro: ciò che hai guadagnato, creato, comprato da altri piloti o ricevuto in regalo non viene riacquistato.
 - **Le piastre vengono dalle missioni.** Le Velkonite e Orvium Reinforced Plate sul Mercato sono quelle che pagano le missioni Sfida. Le piastre della Fucina restano fuori, altrimenti sarebbero la merce più grande del Mercato.
 
 Se un’inserzione ti sembra sbagliata, segnalala nel modo consueto: gli amministratori del gioco possono sospendere un’inserzione, restituirla, mettere in pausa l’Asta o escludere un pilota, e ogni azione di questo tipo viene registrata.

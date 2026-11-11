@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Yetenekler -->
 # Aktif gemi yetenekleri {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ Engine II ile III. kademe kalkan ve motorlar (Heavy Shield Core, Engine III) sat
 - **Her yeteneğin kendi bekleme süresi vardır.** Birini kullanmak diğerlerini kilitlemez.
 - **Çalışan bir etki, başladığı değerleri korur.** Eşyayı çıkarmak veya konfigürasyon değiştirmek onu değiştirmez ya da bitirmez. Sıçrama veya yeniden bağlanma da bitirmez; oyundan çıkmak bitirir ve bekleme süresi kalır.
 - Diğer pilotlar yeteneklerinin sayaçlarını haritada görür, hep olduğu gibi: harcanmış bir Surge onlara sonraki dakikaların açık olduğunu söyler.
+
+## Pilot Becerileri {#pilot-skills}
+
+[Pilot Becerilerinden](/wiki/03-Mechanics/Pilot-Skills.md) üçü yeteneklerin nasıl çalıştığını değiştirir; geminin tasarımının `F` yeteneği de buna dahildir:
+
+- **Refleks**, bekleme sürelerinin daha erken bitmesini sağlar, her seviyede biraz daha fazla. Bekleme süresi yine bastığında başlar ve yeteneğin süresini içerir.
+- **Taktik**, bir yeteneğin daha uzun sürmesini sağlar. Bir Shield Surge ya da bir Emergency Repair uzayan süre boyunca saniyede aynı puanı verir, yani toplamda daha fazla geri koyar; Afterburner ise daha uzun çalışır. Bekleme süresi onunla uzamaz, bu yüzden yetenek bittikten sonraki bekleyiş kısalır.
+- **Sabotaj**, bir Wraith RAPTOR’un Venom’u gibi zehirleri, Taktik’in üstüne hasar ve süre bakımından güçlendirir.
+
+Her seviyenin değerleri [Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) tablosundadır.
 
 ## Tuşlar ve düğmeler {#keys-and-buttons}
 

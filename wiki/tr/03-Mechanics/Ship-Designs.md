@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
@@ -18,8 +18,8 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 | **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, Blink | 162.000 | 310 | 14 |
 | **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, Heal Pod | 180.000 | 210 | 16 |
 | **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon | 144.000 | 260 | 13 |
-| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire | 720.000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink | 600.000 | 110 | 10 |
+| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire | 600.000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink | 500.000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 lazer yuvası, +%5 tüm hasar, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher | 268.800 | 210 | 13 |
 | **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod | 307.200 | 230 | 13 |
@@ -63,7 +63,7 @@ Dönüştürülecek gemi, o türden sahip olduğun gemidir (THUNDER, BUCKY veya 
 | **Wraith** | 10 | 10 sa | 100 | 5 | 50 sa | 50 |
 | **Dördü birden** | 37 | 37 sa | 370 | 13 | 130 sa | 130 |
 
-Birlikte, diğer tüm teknolojilerin istediği 749’e ek olarak 500 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.364.
+Birlikte, diğer tüm teknolojilerin istediği 759’e ek olarak 500 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.374.
 
 ## Geminin başına ne gelir {#what-happens-to-your-ship}
 

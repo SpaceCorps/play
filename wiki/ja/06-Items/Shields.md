@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d742becd05e610b -->
+<!-- wiki-i18n source: 140f0928c03971e1 -->
 <!-- wiki-i18n title: シールド -->
 # シールドと防御 {#shields-defense}
 
@@ -46,7 +46,7 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 **Heavy Shield Core** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Basic Shield Core から作ります。4,000 Thulium、Cataclysite 30個、Reinforced Hull Plate 12枚、Power Core 2個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。消費したコアのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に Basic Shield Core を艦から外してください（中のセルも取り出します）。装備されたままのコアや、セルが入ったままのコアは消費されません。
 
-**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～55%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**85%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+4、+7、+10ポイント）です。ワイプポイントの入手元は、1回のワイプで最大1,105ポイント（ワイプのたびにやり直しになります）で、最初のワイプで100レベルのうち44レベル（+4.4ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**100%**、Field Theory III を加えると約**110%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
+**吸収率**は、各攻撃のうちシールドが受ける割合で、残りは船体が受けます。シールド単体では**45～55%**で、残りはシールドセルが加えます。最高のシールドに最高のセルを組み合わせた場合（Heavy Shield Core に Absorption Shield Cell IV を3個）は**91%**で、これが艦が初期状態で持てる最大値です。さらに3つの永続的な強化が上乗せされます。シーズンストアの Shield Absorbance Boost（1レベルにつき +0.1ポイント、100レベル、各25ワイプポイント）、鍛冶場の吸収率ボーナス、そしてパイロットの研究 Field Theory（+4、+7、+10ポイント）です。ワイプポイントの入手元は、1回のワイプで最大1,105ポイント（ワイプのたびにやり直しになります）で、最初のワイプで100レベルのうち44レベル（+4.4ポイント）を購入できます。これに鍛冶場で永遠まで鍛え上げた装備一式を合わせると、約**106%**、Field Theory III を加えると約**116%**になります。ただし、このステータスに100%の上限はありません。攻撃側の*シールド貫通*が差し引かれるため、艦が100%を超えて持つ分は、貫通に対する余裕になります。詳しくは[シールドの仕組み](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)をご覧ください。
 
 ---
 
@@ -56,9 +56,9 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 | 名前 | レアリティ | シールドボーナス% | 速度ボーナス% | スロット | 特殊効果 | コスト |
 | :--- | :--- | :---: | :---: | :---: | :--- | :--- |
-| **Adaptive Core I** | 粗悪 | +4% | +1.2% | 1 | — | 100,000クレジット |
-| **Adaptive Core II** | コモン | +6.4% | +1.6% | 2 | — | 製作専用 |
-| **Adaptive Core III** | レア | +8% | +2% | 3 | — | 製作専用 |
+| **Adaptive Core I** | 粗悪 | +4% | +1.5% | 1 | — | 100,000クレジット |
+| **Adaptive Core II** | コモン | +6.4% | +2.5% | 2 | — | 製作専用 |
+| **Adaptive Core III** | レア | +8% | +3% | 3 | — | 製作専用 |
 
 **Adaptive Core II** は、[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で Adaptive Core I から作ります。2,000 Thulium、Ship Fragment 60個、Power Core 1個、Velkonite Reinforced Plate 4枚が必要です。**Adaptive Core III** は、同じくアセンブリで Adaptive Core II から作ります。4,000 Thulium、Ship Fragment 110個、Power Core 5個、Ancient Control Unit 1個、そして Dark Matter Plate 4枚（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）が必要です。どちらも、消費したコアのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。先に、消費するコアを艦から外してください（中のスラスターとセルも取り出します）。装備されたままのコアや、モジュールが入ったままのコアは消費されません。
 
@@ -66,17 +66,17 @@ Capacity Shield Cell I => Capacity Shield Cell II => Capacity Shield Cell III =>
 
 ## シールドセル {#shield-cells}
 
-シールドセルは、シールドコアまたはアダプティブコアの中に（そのコアのスロット数まで）装着して、そのコアを強化します。シールドコアの中では吸収率もポイント単位で上げ、それに伴って、シールドが受ける各攻撃の割合も上がります。セルには、4ティアずつの2つの系統があります。**Capacity Shield Cell** はシールド容量とリチャージ速度を最も伸ばし、**Absorption Shield Cell** は吸収率を最も伸ばします（各ティアで、同じティアの Capacity の2倍の吸収率と、半分の容量・リチャージ速度）。シールドで勝負が決まる艦には Capacity、船体で勝負が決まる艦には Absorption が有効です。1種類のセルでスロットをすべて埋めたコアの吸収率は、ティアIの Capacity セルからティアIVの Absorption セルまでで、Light Shield Core（1スロット）が47～55%、Basic Shield Core（2スロット）が52～68%、Heavy Shield Core（3スロット）が56～80%です。コアを外したとき、またはコアが[鍛冶場](/wiki/06-Items/Forge.md)の統合で提供アイテムとして消費されたとき、装着していたセルはインベントリに戻ります。
+シールドセルは、シールドコアまたはアダプティブコアの中に（そのコアのスロット数まで）装着して、そのコアを強化します。シールドコアの中では吸収率もポイント単位で上げ、それに伴って、シールドが受ける各攻撃の割合も上がります。セルには、4ティアずつの2つの系統があります。**Capacity Shield Cell** はシールド容量とリチャージ速度を最も伸ばし、**Absorption Shield Cell** は吸収率を最も伸ばします（各ティアで、同じティアの Capacity の2倍の吸収率と、半分の容量・リチャージ速度）。シールドで勝負が決まる艦には Capacity、船体で勝負が決まる艦には Absorption が有効です。1種類のセルでスロットをすべて埋めたコアの吸収率は、ティアIの Capacity セルからティアIVの Absorption セルまでで、Light Shield Core（1スロット）が48～57%、Basic Shield Core（2スロット）が56～74%、Heavy Shield Core（3スロット）が64～91%です。コアを外したとき、またはコアが[鍛冶場](/wiki/06-Items/Forge.md)の統合で提供アイテムとして消費されたとき、装着していたセルはインベントリに戻ります。
 
 | 名前 | レアリティ | 容量ブースト | リチャージブースト | 吸収率ブースト | コスト |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Capacity Shield Cell I** | 粗悪 | +3,000 | +250/秒 | +2% | 30,000クレジット |
-| **Capacity Shield Cell II** | コモン | +6,000 | +500/秒 | +3% | 製作専用 |
-| **Capacity Shield Cell III** | レア | +9,000 | +750/秒 | +4% | 製作専用 |
-| **Capacity Shield Cell IV** | エピック | +12,000 | +1,000/秒 | +5% | 製作専用 |
-| **Absorption Shield Cell I** | 粗悪 | +1,500 | +125/秒 | +4% | 30,000クレジット |
-| **Absorption Shield Cell II** | コモン | +3,000 | +250/秒 | +6% | 製作専用 |
-| **Absorption Shield Cell III** | レア | +4,500 | +375/秒 | +8% | 製作専用 |
-| **Absorption Shield Cell IV** | エピック | +6,000 | +500/秒 | +10% | 製作専用 |
+| **Capacity Shield Cell I** | 粗悪 | +4,000 | +250/秒 | +3% | 30,000クレジット |
+| **Capacity Shield Cell II** | コモン | +8,000 | +500/秒 | +4% | 製作専用 |
+| **Capacity Shield Cell III** | レア | +12,000 | +750/秒 | +5% | 製作専用 |
+| **Capacity Shield Cell IV** | エピック | +16,000 | +1,000/秒 | +6% | 製作専用 |
+| **Absorption Shield Cell I** | 粗悪 | +2,000 | +125/秒 | +6% | 30,000クレジット |
+| **Absorption Shield Cell II** | コモン | +4,000 | +250/秒 | +8% | 製作専用 |
+| **Absorption Shield Cell III** | レア | +6,000 | +375/秒 | +10% | 製作専用 |
+| **Absorption Shield Cell IV** | エピック | +8,000 | +500/秒 | +12% | 製作専用 |
 
 各系統のティアIは30,000クレジットで販売されています。ティアII～IVは[アセンブリ](/wiki/06-Items/Overview.md#upgrading-modules)で、同じ系統の1つ下のティアのセルから作ります（Capacity Shield Cell I から Capacity Shield Cell II、II から III、III から IV）。Thulium、ドロップ品、そしてプレートが必要です。ティアIIとIIIには Skylab で作る Velkonite Reinforced Plate（どちらも4枚）、ティアIVには Dark Matter Plate 4枚と Ancient Control Unit 1個です。セルが系統を変えることはありません。Capacity にするか Absorption にするかは、ティアIを買うときに選びます。消費したセルのエンチャント段階とボーナスが引き継がれます（[アセンブリでの部品の強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)）。セルは[アビリティスロット](/wiki/03-Mechanics/Abilities.md)には装着できません。シールドとアダプティブコアの中に装着するものです。

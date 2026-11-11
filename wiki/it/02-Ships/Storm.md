@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ La Storm è un caccia a cannone di vetro: la velocità di base più alta e il ma
 
 ## Ricerca {#research}
 
-- **Slot corazza.** Questa nave ha 7 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 7 riempiti di Hull Plating III aggiungono 105.000 di scafo.
+- **Slot corazza.** Questa nave ha 7 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 7 riempiti di Hull Plating III aggiungono 175.000 di scafo.
 - **Design.** Questa nave ha 3 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercane uno (10 h e 10 Dark Matter), poi converti la tua Storm in quel design nell’Assemblaggio: il cambiamento non si può annullare.
 
 | Design | Cosa cambia |

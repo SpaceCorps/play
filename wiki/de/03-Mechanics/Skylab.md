@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 87be9fb5c6f3da19 -->
+<!-- wiki-i18n source: d5c4c080d0457d1d -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ Das Verteidigungsmodul kämpft für dein Skylab. Es enthält die Laser, die die 
 
 | Level | Laser | Magazin (Schuss) | Abschussbudget (Punkte pro Stunde) | Höchste Schwierigkeit |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.300 | 108 | 1 |
-| 2 | 2 | 3.600 | 293 | 2 |
-| 3 | 3 | 14.000 | 476 | 3 |
-| 4 | 4 | 23.000 | 548 | 4 |
-| 5 | 5 | 35.000 | 630 | 5 |
+| 1 | 1 | 1.600 | 108 | 1 |
+| 2 | 2 | 4.300 | 293 | 2 |
+| 3 | 3 | 16.000 | 476 | 3 |
+| 4 | 4 | 28.000 | 548 | 4 |
+| 5 | 5 | 42.000 | 630 | 5 |
 
 | Level | Credits | Thulium | Plates | Zeit |
 | :--- | ---: | ---: | ---: | ---: |
@@ -313,7 +313,8 @@ Alle fünf Level zusammen kosten 24.400.000 Credits, 97.600 Thulium, 26 Plates u
 
 Das Radarmodul lichtet den Nebel der Universumkarte (siehe [Nebel und Scannen](#fog-and-scanning)). Es hat die Level 1 bis 3, und ein höheres Level scannt eine Zelle schneller.
 
-- **Was es tut**: Es scannt **eine Zelle auf einmal**, unter den Zellen neben einer Zelle, die du kennst, und hält eine **Warteschlange von drei**: Die erste wird gescannt, die anderen warten. Ist ein Scan fertig, kennst du die Zelle, und dein Skylab darf dorthin fliegen.
+- **Was es tut**: Es scannt **eine Zelle auf einmal**, unter den Zellen neben einer Zelle, die du kennst, und hält eine **Warteschlange**: Die erste wird gescannt, die anderen warten. Ist ein Scan fertig, kennst du die Zelle, und dein Skylab darf dorthin fliegen.
+- **Warteschlange**: Die Warteschlange fasst **3 Zellen auf Level 1** und **2 mehr mit jedem Level darüber**: 5 auf Level 2 und 7 auf Level 3. Ein Ausbau schafft nur mehr Platz, und die Zellen, die schon in der Warteschlange stehen, behalten ihren Platz. Solange das Modul ausgeschaltet, im Ausbau oder ohne Energie ist, bleibt die Warteschlange erhalten, nimmt aber keine neue Zelle an.
 - **Zeit**: 90 Minuten pro Zelle auf Level 1, 40 auf Level 2 und 15 auf Level 3. Ein Scan läuft nach der Uhr des Servers, auch während du weg bist und während das Skylab fliegt. Er steht still, und die Zeit wird nicht nachgeholt, solange das Modul ausgeschaltet, im Ausbau oder ohne Energie ist und solange das Skylab zerstört ist. Ein Scan kostet Zeit und sonst nichts.
 - **Alles kartieren**: Um die 131 Zellen, die du zu Beginn nicht kennst, nacheinander zu kartieren, braucht es 8 d 4 h auf Level 1, 3 d 15 h auf Level 2 und 1 d 9 h auf Level 3.
 - **Forschung**: Jedes Level braucht seine eigene Technologie, Radarmodul I bis III (siehe die Tabelle oben).
@@ -386,18 +387,18 @@ Jedes Modul wiegt etwas, in **Masseneinheiten (MU)**, und eine schwerere Station
 Das höchste Level ist 20, außer beim Forschungszentrum (10), beim Triebwerks- und beim Verteidigungsmodul (5) und beim Radarmodul (3). Die ganze Station wiegt 2.353 MU auf Kern-Level 15 und 2.734 MU auf Level 20.
 
 - **Der Schub** ist die Triebwerksrechnung der Schiffe, ohne Grundgeschwindigkeit: Ein Triebwerk liefert seine Grundgeschwindigkeit plus die feste Geschwindigkeit seiner Schubdüsen, mal deren Multiplikatoren; die Triebwerke werden nach Güte geordnet, die ersten vier zählen zu 100 % und das fünfte zu 85 % (das Modul fasst höchstens fünf); dazu kommen die vier besten Geschwindigkeitsboni. Eine Station ohne Triebwerk hat keinen Schub.
-- **Die Geschwindigkeit** ist das 60-Fache des Schubs geteilt durch das Gewicht der Station, in Einheiten pro Sekunde, und ein Sprung zwischen zwei benachbarten Zellen sind 15.000 Einheiten. Unter der Energie zeigt die Skylab-Seite die Zeile „Gewicht 2.353 MU, Geschwindigkeit 7,5 Einheiten/s, ein Sprung 33 min“.
+- **Die Geschwindigkeit** ist das 60-Fache des Schubs geteilt durch das Gewicht der Station, in Einheiten pro Sekunde, und ein Sprung zwischen zwei benachbarten Zellen sind 15.000 Einheiten. Unter der Energie zeigt die Skylab-Seite die Zeile „Gewicht 2.353 MU, Geschwindigkeit 8,9 Einheiten/s, ein Sprung 28 min“.
 - **Beim Start festgelegt**: Die Geschwindigkeit einer Reise wird beim Start aus dem Gewicht und dem Schub dieses Moments berechnet. Ein Ausbau, der unterwegs endet, oder ein Triebwerk, das du wechselst, während das Skylab stationiert ist, zählt erst für die nächste Reise.
 
 Was Triebwerke für eine Station bewirken, in der jedes Modul auf Level 15 ist (das Triebwerksmodul auf dem Level, das die Triebwerke fasst):
 
 | Eingebaute Triebwerke | Gewicht (MU) | Schub | Geschwindigkeit (Einheiten pro Sekunde) | Ein Sprung | Quer über die Karte (14 Sprünge) |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 Engine I (Triebwerksmodul Level 1) | 2.289 | 2,0 | 0,05 | 3 d 6 h | 45 d 11 h |
-| 3 Engine II, jeweils mit 2 Impulse Thruster II (Level 3) | 2.321 | 71,6 | 1,85 | 2 h 15 min | 1 d 8 h |
-| 5 Engine III, jeweils mit 3 Impulse Thruster IV (Level 5) | 2.353 | 295,3 | 7,53 | 33 min | 7 h 45 min |
+| 1 Engine I (Triebwerksmodul Level 1) | 2.289 | 5,1 | 0,13 | 1 d 7 h | 18 d 4 h |
+| 3 Engine II, jeweils mit 2 Impulse Thruster II (Level 3) | 2.321 | 92,1 | 2,38 | 1 h 45 min | 1 d |
+| 5 Engine III, jeweils mit 3 Impulse Thruster IV (Level 5) | 2.353 | 350,6 | 8,94 | 28 min | 6 h 32 min |
 
-Auf Kern-Level 20 wiegt die Station 16 % mehr, und die besten Triebwerke brauchen 39 Minuten für einen Sprung und 9 h quer über die Karte.
+Auf Kern-Level 20 wiegt die Station 16 % mehr, und die besten Triebwerke brauchen 32 Minuten für einen Sprung und 7 h 35 min quer über die Karte.
 
 ## Expeditionen {#expeditions}
 
@@ -434,7 +435,7 @@ Du siehst nur die Zellen, die du kennst.
 - **Eine Zelle, die du nicht kennst**, zeigt nichts von sich: weder Art noch Schwierigkeit, Namen oder Aliens. Eine Zelle neben einer bekannten ist mit einem **?** markiert und kann gescannt werden; jede andere unbekannte Zelle ist dunkel.
 - **Eine bekannte Zelle** zeigt in ihrem Fenster Code, Art, Schwierigkeit, Namen und Aliens.
 - **Geflogen** wird nur in bekannte Zellen.
-- **Scannen**: Wähle eine **?**-Zelle und drücke **Zelle scannen**. Das Radar scannt eine Zelle auf einmal und hält eine Warteschlange von drei; eine Zelle lässt sich wieder aus der Warteschlange nehmen, und **Alle abbrechen** leert sie. Die Dauer eines Scans steht beim [Radarmodul](#radar-module).
+- **Scannen**: Wähle eine **?**-Zelle und drücke **Zelle scannen**. Das Radar scannt eine Zelle auf einmal und hält eine Warteschlange (3 Zellen auf Level 1, 2 mehr mit jedem Level); eine Zelle lässt sich wieder aus der Warteschlange nehmen, und **Alle abbrechen** leert sie. Die Dauer eines Scans steht beim [Radarmodul](#radar-module).
 
 ### Die Reise {#the-trip}
 
@@ -682,6 +683,7 @@ Jede Farm und jeder Kollektor hat einen Speicher für etwa 72 Stunden der eigene
 - **Schmiede**: Die Platten gehen in dein Inventar, wenn dein Schiff gelandet ist.
 - **Munitionsdrucker und Raketenfabrik**: Die Munition und die Raketen gehen in dein Inventar, wenn dein Schiff gelandet ist. Jeder speichert nur 24 Stunden Produktion (siehe [Munitionsdrucker](#ammo-printer) und [Raketenfabrik](#rocket-factory)).
 - **Erzbucht**: nichts abzuholen. Sie verlädt das Erz deines Inventars ins Ressourcenlager, wenn du **Verladen** drückst und dein Schiff gelandet ist, bis zu ihrem Kontingent (siehe [Erzbucht](#ore-bay)).
+- **Pilotfähigkeiten**: Beim Abholen wird ausgezahlt, was die gespeicherten Stunden mit den Fähigkeiten wert sind, die du in diesem Moment hast. **Extraction** erhöht die Ausbeute der Farmen, der Kollektoren, des Munitionsdruckers und der Raketenfabrik, **Instinct** legt auf das Erz der beiden Kollektoren noch etwas obendrauf, und **Logistics** vergrößert die Bank des Ressourcenlagers.
 - **Trophäenhalle**: im Universum-Fenster abgeholt, bei gelandetem Schiff: Credits und Thulium gehen auf dein Konto, Erfahrung und Ehre zu deinem Piloten und die Beute in dein Inventar. Sie behält, was sie hält, bis du abholst, aber eine volle Halle lässt das Skylab das Feuer einstellen (siehe [Trophäenhalle](#trophies-bay)).
 - **Alles abholen** nimmt alles auf einmal, auch von ausgeschalteten Modulen und von Modulen im Ausbau, aber nicht die Trophäenhalle, die du im Universum-Fenster abholst.
 - Ein **(!)**-Abzeichen weist auf einen vollen Speicher hin, den du leeren kannst, und auf Platten, die in der Schmiede warten, auf der Skylab-Seite und in der Skylab-Zeile der Seitenleiste.

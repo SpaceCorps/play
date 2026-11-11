@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97e5ffd31b68d936 -->
+<!-- wiki-i18n source: 27da9216daf781fe -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -79,6 +79,8 @@
 最后一列是不加速时维持 1 小时研究所需的单位数（向上取整）；加速时需要 2 倍。
 
 <!-- research-fuel:end -->
+
+你的 **Science** 技能会提高你投入的每个单位的科研点，储罐也按同样的数值计算科研点。上表是处于第一级的飞行员的数值。研究中心完成的每项技术都会锻炼该技能。
 
 ## Thulium 加速 {#the-thulium-boost}
 
@@ -284,9 +286,16 @@ Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 6048
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
-Rivet II => Rivet III
+Lancet III => Freeze Rocket
+Lancet III => EMP Rocket
+Lancet III => Toxic Rocket
+Lancet III => Marking Rocket
+Lancet III => Cooldown Rocket
+Rivet II => Rivet III => Shield Breaker
 Ember II => Ember III
-Scatter II => Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter II => Scatter III
+Scatter III => N.U.K.E. => Gravitational N.U.K.E.
+Scatter III => Support Rocket
 Rocket Launcher II => Rocket Launcher III => Rocket Launcher IV => Rocket Launcher V
 ```
 
@@ -302,9 +311,12 @@ Jump CPU | extra, epic | craft 40000 Thulium, 900 s | research 86400 s, 86400 sc
 Auto-Repair CPU | extra, rare | craft 15000 Thulium, 600 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-repair-cpu
 Energetic Wall II | consumable, rare | craft 600 Thulium, 120 s | research 21600 s, 21600 science | 5 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#energetic-wall
 Auto-Rocket CPU | extra, rare | craft 20000 Thulium, 900 s | research 36000 s, 36000 science | 100 Ship Fragment, 10 Reinforced Hull Plate, 5 Power Core, 1 Ancient Control Unit, 8 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#auto-rocket-cpu
+Mine II | consumable, rare | craft 200 Thulium, 120 s | research 10800 s, 10800 science | 2 Mine I, 3 Ship Fragment, 1 Power Core | /wiki/06-Items/Extras.md#mine
+Mine III | consumable, epic | craft 400 Thulium, 300 s | research 21600 s, 21600 science | 2 Mine II, 8 Ship Fragment, 1 Reinforced Hull Plate, 2 Power Core | /wiki/06-Items/Extras.md#mine
 
 Extra Slots CPU I => Extra Slots CPU II => Extra Slots CPU III
 Base CPU I => Base CPU II => Jump CPU
+Mine II => Mine III
 ```
 
 ### 防御 {#tree-defence}
@@ -524,30 +536,32 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Ember III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Ember II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 小时 | 10,800 | – |
 | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | A | 30 分钟 | 1,800 | – |
 | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter II](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 3 小时 | 10,800 | – |
-| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 小时 | 14,400 | – |
-| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 小时 | 14,400 | – |
-| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 小时 | 21,600 | – |
-| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 小时 | 14,400 | – |
-| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 4 小时 | 14,400 | – |
-| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | C | 8 小时 | 28,800 | – |
+| [Freeze Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 小时 | 14,400 | – |
+| [EMP Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 小时 | 14,400 | – |
+| [Shield Breaker](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Rivet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6 小时 | 21,600 | – |
+| [Toxic Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 小时 | 14,400 | – |
+| [Marking Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 4 小时 | 14,400 | – |
+| [Cooldown Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Lancet III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | C | 8 小时 | 28,800 | – |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | D | 1 天 | 86,400 | 10 |
-| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | – | B | 6 小时 | 21,600 | – |
+| [Support Rocket](/wiki/06-Items/Rockets.md#the-twelve-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | B | 6 小时 | 21,600 | – |
 | [Rocket Launcher II](/wiki/06-Items/Extras.md) | – | D | 2 天 | 172,800 | – |
 | [Rocket Launcher III](/wiki/06-Items/Extras.md) | [Rocket Launcher II](/wiki/06-Items/Extras.md) | D | 4 天 | 345,600 | – |
 | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | [Rocket Launcher III](/wiki/06-Items/Extras.md) | D | 7 天 | 604,800 | – |
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 天 | 864,000 | – |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 小时 | 10,800 | – |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 小时 | 21,600 | – |
 
 按研究时间划分的类别：
 
 | 类别 | 研究时间 | 科技数 | 逐项研究合计 | 科研点 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 分钟 至 1 小时 | 17 | 9 小时 30 分钟 | 34,200 | 0 |
-| B | 3 小时 至 6 小时 | 33 | 5 天 2 小时 | 439,200 | 0 |
+| B | 3 小时 至 6 小时 | 35 | 5 天 11 小时 | 471,600 | 0 |
 | C | 8 小时 至 10 小时 | 19 | 7 天 18 小时 | 669,600 | 95 |
 | D | 1 天 至 10 天 | 28 | 52 天 | 4,492,800 | 329 |
-| 全部 |  | 97 | 65 天 5 小时 30 分钟 | 5,635,800 | 424 |
+| 全部 |  | 99 | 65 天 14 小时 30 分钟 | 5,668,200 | 424 |
 
-逐项依次研究，整棵科技树共需 65 天 5 小时 30 分钟。若全程开着加速，需要 32 天 14 小时 45 分钟，即 33 次加速和 165,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 65 天 14 小时 30 分钟。若全程开着加速，需要 32 天 19 小时 15 分钟，即 33 次加速和 165,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 
@@ -569,6 +583,8 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) | 6 小时 | – | 15,000 | 10 分钟 |
 | [Energetic Wall II](/wiki/06-Items/Extras.md#energetic-wall) | 6 小时 | – | 600 | 2 分钟 |
 | [Auto-Rocket CPU](/wiki/06-Items/Extras.md#auto-rocket-cpu) | 10 小时 | – | 20,000 | 15 分钟 |
+| [Mine II](/wiki/06-Items/Extras.md#mine) | 3 小时 | – | 200 | 2 分钟 |
+| [Mine III](/wiki/06-Items/Extras.md#mine) | 6 小时 | [Mine II](/wiki/06-Items/Extras.md#mine) | 400 | 5 分钟 |
 
 它们都不在商店出售：先研究科技，再在装配站制造 CPU。将指针悬停在物品树中的 CPU 上，可查看装配站制造它需要什么。
 

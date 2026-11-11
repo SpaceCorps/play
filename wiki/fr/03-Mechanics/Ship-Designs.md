@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f7bdf2e998ae581b -->
+<!-- wiki-i18n source: 5b1349c235aad6a2 -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -18,8 +18,8 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, Blink | 162 000 | 310 | 14 |
 | **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, Heal Pod | 180 000 | 210 | 16 |
 | **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon | 144 000 | 260 | 13 |
-| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 720 000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink | 600 000 | 110 | 10 |
+| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 600 000 | 90 | 5 |
+| **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink | 500 000 | 110 | 10 |
 | **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 13 |
 | **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 307 200 | 230 | 13 |
@@ -63,7 +63,7 @@ Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Les quatre** | 37 | 37 h | 370 | 13 | 130 h | 130 |
 
-Ensemble, elles demandent 500 Dark Matter, en plus des 749 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 364 pour toutes les technologies du jeu.
+Ensemble, elles demandent 500 Dark Matter, en plus des 759 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 374 pour toutes les technologies du jeu.
 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 

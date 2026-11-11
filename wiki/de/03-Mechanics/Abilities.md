@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fdf67ad887f06846 -->
+<!-- wiki-i18n source: 9e646be42904bb8c -->
 <!-- wiki-i18n title: Fähigkeiten -->
 # Aktive Schiffsfähigkeiten {#active-ship-abilities}
 
@@ -119,6 +119,16 @@ Das Engine II und die Schilde und Triebwerke von Rang III (der Heavy Shield Core
 - **Jede Fähigkeit hat ihre eigene Abklingzeit.** Wenn du eine einsetzt, sperrt das die anderen nicht.
 - **Ein laufender Effekt behält die Werte, mit denen er gestartet ist.** Den Gegenstand abzulegen oder die Konfiguration zu wechseln ändert oder beendet ihn nicht. Auch ein Sprung oder ein erneutes Verbinden beendet ihn nicht; Ausloggen schon, und seine Abklingzeit bleibt.
 - Andere Piloten sehen die Timer deiner Fähigkeiten auf der Karte, wie schon immer: Ein verbrauchter Surge verrät ihnen, dass die nächsten Minuten offen sind.
+
+## Pilotenfertigkeiten {#pilot-skills}
+
+Drei deiner [Pilotenfertigkeiten](/wiki/03-Mechanics/Pilot-Skills.md) verändern, wie Fähigkeiten laufen, auch die `F`-Fähigkeit des Designs deines Schiffs:
+
+- **Reflexe** lassen Abklingzeiten schneller ablaufen, mit jeder Stufe etwas mehr. Eine Abklingzeit beginnt weiterhin, wenn du drückst, und schließt die Dauer der Fähigkeit ein.
+- **Taktik** lässt eine Fähigkeit länger wirken. Ein Shield Surge oder eine Emergency Repair gibt über die längere Zeit dieselben Punkte pro Sekunde, stellt also insgesamt mehr wieder her, und ein Afterburner läuft länger. Die Abklingzeit wächst dadurch nicht, die Wartezeit nach dem Ende der Fähigkeit wird also kürzer.
+- **Sabotage** verstärkt Gifte, etwa das Venom eines Wraith RAPTOR, in Schaden und Dauer, zusätzlich zur Taktik.
+
+Die Werte jeder Stufe stehen in der Tabelle der [Pilotenfertigkeiten](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ## Tasten und Schaltflächen {#keys-and-buttons}
 

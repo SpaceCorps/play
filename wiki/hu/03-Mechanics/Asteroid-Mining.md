@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 697f915771fec50f -->
+<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
@@ -45,7 +45,7 @@ Semmit sem fizetnek ki, amikor egy aszteroida szétesik. Törmelékre robban, é
 
 A nagyobb aszteroida több darabot hagy hátra (A fajták táblájának Pénzdarabok oszlopa: a kredit és a Thulium ennyi darabban jön, az érc eggyel többben). Egy felvétel után a hajód magától átmegy a közeli aszteroida következő darabjára, amelyet felvehetsz; bármelyik mozgásparancsod megállítja.
 
-A sziklák 2. szintjétől felfelé egy széttörés egy **Cluster Chunkot** is hagyhat egészben, a legtöbb sebzést okozó csoport ércdarabjában: **Regular Cluster Chunkot** a 2. szinttől, **Mythical Cluster Chunkot** a 3. szinttől és **Legendary Cluster Chunkot** a 4. szinttől; a Motherlode adja őket a leggyakrabban. Az esélyek a [Erőforrások](/wiki/06-Items/Resources.md#regular-cluster-chunk) cikkben vannak. A szerencse nem változtat rajtuk, a P.E.T.-é sem. Egy Orvium Reinforced Plate-tel a chunkból a hangár Bölcsőjében [P.E.T.](/wiki/03-Mechanics/Pets.md) lesz.
+Egy széttörés egy **Cluster Chunkot** is hagyhat egészben, a legtöbb sebzést okozó csoport ércdarabjában: **Regular Cluster Chunkot** az 1. szinttől, **Mythical Cluster Chunkot** a 3. szinttől és **Legendary Cluster Chunkot** a 4. szinttől; a Motherlode adja őket a leggyakrabban. Az esélyek a [Erőforrások](/wiki/06-Items/Resources.md#regular-cluster-chunk) cikkben vannak. A szerencse nem változtat rajtuk, a P.E.T.-é sem. Egy Orvium Reinforced Plate-tel a chunkból a hangár Bölcsőjében [P.E.T.](/wiki/03-Mechanics/Pets.md) lesz.
 
 ## Kié a darab {#who-gets-the-chunks}
 
@@ -133,16 +133,16 @@ A három vállalat otthoni szektorainak és a veszélyes szektoroknak mindegyik�
 
 Az aszteroida **szintje** az a szektorgyűrű, amelyhez a fajtája tartozik: a szintek 1-től 4-ig a három vállalat x-1–x-4 szektorai, az 5. szint pedig a veszélyes szektorok. A szint a mérettel nő: minél nagyobb az aszteroida, annál magasabb a szintje. A kettő mégsem ugyanaz: a legtöbb szint két méretet foglal magában, ezeket a táblázat adja meg. A célpontablak és az egérrel rámutatáskor megjelenő kártya megmutatja az aszteroida családját, méretét és szintjét.
 
-A szint egy saját leletről is dönt: a **P.E.T.-alkatrészről**, egy Cluster Chunkról, amelyet a [P.E.T.](/wiki/03-Mechanics/Pets.md)-bölcső vesz el. A táblázat megadja, mekkora eséllyel hagy egy széttört aszteroida az egyes fokozatokból (kötőjel: soha). Az 1. szintű aszteroidák egyet sem hagynak. Minden fokozatot aszteroidánként egyszer sorsol a játék, a legtöbb sebzést okozó pilóta egészben kapja meg a chunkot, a szerencse pedig nem változtat az esélyeken. A Motherlode-nak saját esélyei vannak. Jelölj ki egy aszteroidát, és a célpontablak felsorolja a fajtája P.E.T.-alkatrészeit.
+A szint egy saját leletről is dönt: a **P.E.T.-alkatrészről**, egy Cluster Chunkról, amelyet a [P.E.T.](/wiki/03-Mechanics/Pets.md)-bölcső vesz el. A táblázat megadja, mekkora eséllyel hagy egy széttört aszteroida az egyes fokozatokból (kötőjel: soha). szintű aszteroidák egyet sem hagynak. Minden fokozatot aszteroidánként egyszer sorsol a játék, a legtöbb sebzést okozó pilóta egészben kapja meg a chunkot, a szerencse pedig nem változtat az esélyeken. A Motherlode-nak saját esélyei vannak. Jelölj ki egy aszteroidát, és a célpontablak felsorolja a fajtája P.E.T.-alkatrészeit.
 
 | Szint | Szektorok | Méret | Fajták | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Apró, Kicsi | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Kicsi, Közepes | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0,4% | – | – |
-| 3 | `x-3` | Közepes | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0,8% | 0,15% | – |
-| 4 | `x-4` | Közepes, Nagy | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0,25% | 0,03% |
-| 5 | Veszélyes szektorok | Nagy | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1,2% | 0,3% | 0,1% |
-| 5 | Veszélyes szektorok | Hatalmas | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | Apró, Kicsi | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0,5% | – | – |
+| 2 | `x-2` | Kicsi, Közepes | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | Közepes | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2,5% | 0,35% | – |
+| 4 | `x-4` | Közepes, Nagy | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0,5% | 0,1% |
+| 5 | Veszélyes szektorok | Nagy | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0,5% |
+| 5 | Veszélyes szektorok | Hatalmas | Motherlode | 20% | 5% | 3% |
 
 27 fajta aszteroida van, 8 családban. A **Méretezve erre** megnevezi a rakétát, amelyre a fajta ki van egyensúlyozva, és nagyjából hány kell belőle a szétlövéséhez az Alphában. A **Leletek** az érc és a ritka leletek, amelyeket a szétlövés kisorsol, és amelyeken a darabjai osztoznak: a százalék az adott sor esélye, a többi sort mindig megtalálják. A kredit és a Thulium a szétlövés Alpha-összege.
 

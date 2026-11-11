@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8f997e494738815b -->
+<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
@@ -134,6 +134,8 @@ Un anuncio cuesta un **depósito**, que se paga al publicar y nunca se devuelve,
 | Helios Beam: nivel 12, 504 h, en los últimos días de una temporada | 2.500.000 créditos | 0 créditos | 0 créditos | 2.500.000 créditos |
 
 <!-- market-fees:end -->
+
+Tu habilidad **Commerce** rebaja hasta la mitad el depósito de tus anuncios y órdenes de compra (redondeado hacia arriba, nunca a cero). El impuesto es el mismo para todos, y la tabla de arriba muestra la cifra de un piloto del primer nivel. Cada venta y cada orden de compra cumplida entrena la habilidad, tanto del vendedor como del comprador.
 
 ## Comprar {#buying}
 
@@ -284,8 +286,8 @@ Con el reinicio, **cada anuncio abierto vuelve a su vendedor** como objetos suel
 La Subasta sirve para comerciar con lo que ganas, y es honesta sobre sus límites.
 
 - **Vender botín no es un grind.** Los botines en bruto de los alienígenas son solo recursos y valen entre el 0,4 y el 0,9 por ciento de lo que paga en bajas la misma hora de caza a nivel 5. Lo que el Mercado da a un piloto nuevo es el equipo que le pagan sus misiones y que no necesita (una vez), los recursos de las misiones de Desafío, las cajas de los jefes de enjambre y lo que fabrica.
-- **No hay comerciante.** Una orden de compra es de un piloto y se cubre con su propio dinero: el juego no te compra a ningún precio. Las órdenes de compra, en las que un piloto dice qué quiere comprar y por cuánto, dan al vendedor un comprador que siempre está ahí, y al artesano, que compra materiales, fabrica equipo en el Ensamblaje y lo vende, una forma de pedirlos; una orden también puede esperar a un vendedor, o caducar y quemar su depósito. No cambian el primer punto.
-- **El equipo de la Tienda no es para revender.** El equipo que has comprado en la Tienda no se puede volver a vender: eso incluye el Quantum Laser I y II, los Light y Basic Shield Core, Engine I y II, el primer grado de células y propulsores, los amps que vende la Tienda y la munición comprada. El único Quantum Laser II comercializable de un piloto es el que paga una misión una vez.
+- **No hay comerciante.** Una orden de compra es de un piloto y se cubre con su propio dinero: la Subasta no te compra a ningún precio. Las órdenes de compra, en las que un piloto dice qué quiere comprar y por cuánto, dan al vendedor un comprador que siempre está ahí, y al artesano, que compra materiales, fabrica equipo en el Ensamblaje y lo vende, una forma de pedirlos; una orden también puede esperar a un vendedor, o caducar y quemar su depósito. No cambian el primer punto.
+- **El equipo de la Tienda no es para revender.** El equipo que has comprado en la Tienda no se puede volver a vender en la Subasta: eso incluye el Quantum Laser I y II, los Light y Basic Shield Core, Engine I y II, el primer grado de células y propulsores, los amps que vende la Tienda y la munición comprada. El único Quantum Laser II comercializable de un piloto es el que paga una misión una vez. La propia Tienda recompra las unidades que compraste en ella y que sigues teniendo sin instalar, por una fracción de su precio (algo más con tu habilidad **Commerce**), y nada más: lo que has ganado, fabricado, comprado a otros pilotos o recibido de regalo no lo recompra.
 - **Las placas vienen de misiones.** Las Velkonite y Orvium Reinforced Plates del Mercado son las que pagan las misiones de Desafío. Las placas de la Forja se quedan fuera; si no, serían el mayor producto del Mercado.
 
 Si un anuncio te parece raro, avísalo de la forma habitual: los administradores del juego pueden poner un anuncio en espera, devolverlo, pausar la Subasta o prohibir a un piloto usarla, y cada una de esas acciones queda registrada.

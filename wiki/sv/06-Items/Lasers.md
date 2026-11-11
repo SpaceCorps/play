@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa5ab1afb62faea7 -->
+<!-- wiki-i18n source: dab929535f6b591d -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -62,7 +62,7 @@ Utrusta lasrar direkt i skeppets laserplatser eller i drönare för att öka din
 | **Quantum Laser II** | Vanlig | 65 | 1 % | 700 | 2 | 80 000 krediter |
 | **Quantum Laser III** | Sällsynt | 80 | 10 % | 800 | 3 | Kan bara tillverkas |
 | **Starfire-III** | Mytisk | 135 | 15 % | 850 | 3 | Kan bara tillverkas |
-| **Helios Beam** | Mytisk | 150 | 20 % | 900 | 3 | Kan bara tillverkas |
+| **Helios Beam** | Mytisk | 155 | 20 % | 900 | 3 | Kan bara tillverkas |
 
 Kolumnen Räckvidd är varje lasers egen. **Ditt skepp skjuter på medelvärdet av sina lasrars räckvidder** (lasrarna i dina drönare räknas också), avrundat till närmaste enhet, och varje laser avfyras så fort målet är inom det avståndet. En Starfire-III bredvid två Quantum Laser II ger skeppet räckvidden 750, inte 850; tre Starfire-III behåller 850, och lasrar som alla är lika ändrar ingenting. En räckviddsbonus från Smedjan räknas på sin egen laser innan medelvärdet tas. Utan laser visar hangaren ingen räckvidd (ett streck) och inga lasrar kan skjuta, men dina raketer kan det ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). I hangaren står det ”Medelräckvidd” på rutan där dina lasrar skiljer sig åt, och när du pekar på den listas varje lasers räckvidd.
 
@@ -117,10 +117,10 @@ Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det f
 
 | Namn | Sällsynthet | Sköldgenomträngning | Kostnad |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Skral | +3 % | 15 000 krediter |
-| **Penetration Amp II** | Ovanlig | +6 % | Kan bara tillverkas |
-| **Penetration Amp III** | Sällsynt | +9 % | Kan bara tillverkas |
-| **Penetration Amp IV** | Episk | +12 % | Kan bara tillverkas |
+| **Penetration Amp I** | Skral | +5 % | 15 000 krediter |
+| **Penetration Amp II** | Ovanlig | +10 % | Kan bara tillverkas |
+| **Penetration Amp III** | Sällsynt | +15 % | Kan bara tillverkas |
+| **Penetration Amp IV** | Episk | +20 % | Kan bara tillverkas |
 
 **Bara den första nivån i varje serie säljs**, i butiken. De andra tre tillverkas i [Monteringen](/wiki/06-Items/Overview.md#upgrading-modules) av förstärkaren på nivån under, när du har forskat fram deras teknologi i Skylab ([Forskning](/wiki/03-Mechanics/Research.md)). Varje steg kräver Thulium, utomjordingarnas byte och plåtar (Velkonite Reinforced Plates från din Skylab för nivå II och III, 4 Dark Matter Plates och en Ancient Control Unit för nivå IV), och den nya förstärkaren behåller förtrollningsnivån och bonusarna hos den förstärkare den förbrukar ([Modulupgraderingar i Monteringen](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Penetration-stegen lägger till en kristalllins. Varje förstärkare av nivå IV kräver 4 [Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) (liksom sista nivån i de andra uppgraderingskedjorna), så teknologin för en förstärkare av nivå IV kräver först plattans.
 
@@ -137,9 +137,9 @@ En Helios Beam med sina 3 Amp av nivå IV rymmer 4 delar av sista nivån: 16 Dar
 
 ### Vilken förstärkare som passar var {#which-amp-goes-where}
 
-En skadeförstärkare ger samma skada åt vilken laser som helst, så den är värd mest på **Quantum-lasrarna**. En kritförstärkare multiplicerar det lasern redan gör, så ju hårdare lasern träffar, desto mer är den värd: den drar jämnt med skadeserien på **Starfire-III** och hamnar ungefär 1 % före på **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III eller Crit Amp IV tar en Helios Beam (som har 20 % själv) till 95 %. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
+En skadeförstärkare ger samma skada åt vilken laser som helst, så den är värd mest på **Quantum-lasrarna**. En kritförstärkare multiplicerar det lasern redan gör, så ju hårdare lasern träffar, desto mer är den värd: den drar jämnt med skadeserien på **Starfire-III** och hamnar ungefär 1,5 % före på **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III eller Crit Amp IV tar en Helios Beam (som har 20 % själv) till 95 %. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
 
-Fylld med samma förstärkare är en laser alltid starkare än den under sig, så en bättre förstärkare väger bara upp en del av en bättre laser: en Quantum Laser III med tre Damage Amp IV gör mer skada än en Helios Beam med tre Damage Amp I, men mindre än en med tre Damage Amp III (med delar på samma förtrollningsnivå: en Quantum Laser III och Damage Amp IV som smitts till Evig, med de bästa slumpvärdena, kan gå förbi en osmidd Helios Beam i Damage Amp III, med knapp marginal).
+Fylld med samma förstärkare är en laser alltid starkare än den under sig, så en bättre förstärkare väger bara upp en del av en bättre laser: en Quantum Laser III med tre Damage Amp IV gör mer skada än en Helios Beam med tre Damage Amp I, men mindre än en med tre Damage Amp III, och smide stänger inte glappet (en Quantum Laser III och Damage Amp IV som smitts till Evig hamnar, även med de bästa slumpvärdena, fortfarande en bit under en osmidd Helios Beam i Damage Amp III).
 
 
 ---
@@ -163,7 +163,7 @@ Förbrukningsbara batterier som multiplicerar skadan i dina lasersalvor:
 
 **Varifrån den nya ammunitionen kommer.** Sedan 0.5.0 säljs Experimental Fusion Core inte längre: du tillverkar den, 1 000 åt gången, i [Monteringen](/wiki/06-Items/Overview.md#the-production-queue), efter att du har forskat fram **Military Grade Ammo II** i Skylabs forskningscentrum. Ultra Core går fortfarande att köpa och kan också tillverkas (**Military Grade Ammo I**, 30 minuters forskning). Fem nya ammunitionstyper kan bara tillverkas, var och en bakom en teknik i familjen **Laser Ammo** och var och en gjord av ammunitionen under den: **Siphon Battery II** (av Siphon Battery), **Antimatter Battery I** (av Siphon Battery II) och **II** (av Antimatter Battery I och lite [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (av råvaror och en Dark Matter) och **II** (av Dark Matter Ammo I och Dark Matter). En tillverkning är 1 000 enheter, 5 till 15 minuter, och en enhet kostar ungefär vad den är värd. [Ammunitionsskrivaren](/wiki/03-Mechanics/Skylab.md) gör också Ultra Core och Experimental Fusion Core, när du väl har forskat fram dem.
 
-**Sköldgenomträngning** dras av från målets absorption för varje träff i dina salvor: sköldarna tar målets absorption minus genomträngningen (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Dina Penetration Amps och en drönarformation läggs till ammunitionens, och hela summan står [längre ned på sidan](#shield-penetration-of-a-laser-hit). Mot ett skepp på 85 % (den bästa skölden med de bästa cellerna) lämnar x4-ammunitionens 10 % sköldarna 75 % av träffen och skrovet 25 %, och Antimatter-ammunitionens 20 % lämnar dem 65 % och skrovet 35 %. Det spelar störst roll mot skepp vars skrov är litet jämfört med deras sköld; ett mycket stort skepp på 85 % klarar sig lika bra med eller utan genomträngning. Utomjordingar har knappast något absorptionsvärde att tala om (deras sköldar tar 80 % av en träff), och genomträngningen dras av från det också.
+**Sköldgenomträngning** dras av från målets absorption för varje träff i dina salvor: sköldarna tar målets absorption minus genomträngningen (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Dina Penetration Amps och en drönarformation läggs till ammunitionens, och hela summan står [längre ned på sidan](#shield-penetration-of-a-laser-hit). Mot ett skepp på 91 % (den bästa skölden med de bästa cellerna) lämnar x4-ammunitionens 10 % sköldarna 81 % av träffen och skrovet 19 %, och Antimatter-ammunitionens 20 % lämnar dem 71 % och skrovet 29 %. Det spelar störst roll mot skepp vars skrov är litet jämfört med deras sköld; ett mycket stort skepp på 91 % klarar sig lika bra med eller utan genomträngning. Utomjordingar har knappast något absorptionsvärde att tala om (deras sköldar tar 80 % av en träff), och genomträngningen dras av från det också.
 
 ### Siphon Battery
 
@@ -194,41 +194,41 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 
 Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 36 %; en Penetration Amp IV i en av tretton lasrar ger ungefär 1 %. En Wraith har 13 lasrar och 39 förstärkarplatser, och alla 39 måste fyllas för att nå 36 %.
+- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 60 %; en Penetration Amp IV i en av tretton lasrar ger ungefär 1,5 %. En Wraith har 13 lasrar och 39 förstärkarplatser, och alla 39 måste fyllas för att nå 60 %.
 - **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
-- **Den bästa lasern ger 61 % med x4 och 71 % med Antimatter.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (36 %) ger 61 %; en Antimatter Battery (20 %) i dess ställe ger 71 %, vid x3 skada i stället för x4.
-- **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 13,1 till 13,8 punkter i stället för 12. I den bästa uppsättningen blir tre eviga 66,4 %, och varje punkt räknas.
+- **Den bästa lasern ger 85 % med x4 och 95 % med Antimatter.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (60 %) ger 85 %; en Antimatter Battery (20 %) i dess ställe ger 95 %, vid x3 skada i stället för x4.
+- **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 21,8 till 23 punkter i stället för 20. I den bästa uppsättningen blir tre eviga 94 %, och varje punkt räknas.
 
 | Lasersalva | Ammunition | Förstärkare (3 platser) | Formation | Summa |
 |---|---|---|---|---|
 | Experimental Fusion Core ensam | 10 % | – | – | **10 %** |
 | Fusion Core + Gemini (det bästa före Penetration Amps) | 10 % | – | 15 % | **25 %** |
-| Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
-| Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
-| Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
-| Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
-| Ultra Core + 3 Penetration Amp IV + Gemini (det bästa till vardags) | 5 % | 36 % | 15 % | **56 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini (den bästa lasern) | 10 % | 36 % | 15 % | **61 %** |
+| Fusion Core + 3 Penetration Amp I | 10 % | 15 % | – | **25 %** |
+| Fusion Core + 3 Penetration Amp II | 10 % | 30 % | – | **40 %** |
+| Fusion Core + 3 Penetration Amp III | 10 % | 45 % | – | **55 %** |
+| Fusion Core + 3 Penetration Amp IV | 10 % | 60 % | – | **70 %** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (det bästa till vardags) | 5 % | 60 % | 15 % | **80 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (den bästa lasern) | 10 % | 60 % | 15 % | **85 %** |
 
 Vad det gör med målets sköldar: varje ruta är den andel av en träff som **sköldarna tar / skrovet tar**.
 
-| Försvarare (absorption) | Utan förstärkare | Fusion Core ensam (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Den bästa lasern (61 %) |
+| Försvarare (absorption) | Utan förstärkare | Fusion Core ensam (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (70 %) | Den bästa lasern (85 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, ingen cell (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, ingen cell (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
-| Den bästa skölden rakt ur lådan (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
-| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
-| Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| Heavy Shield Core, ingen cell (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 0 / 100 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (57 %) | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (73 %) | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
+| Den bästa skölden rakt ur lådan (91 %) | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och 44 nivåer i säsongsbutiken (109 %) | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
+| Den bästa skölden, Evig smedja (bästa slumpen) och säsongsbutiken på sin gräns (114,7 %) | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
+| Vilken utomjording som helst (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
 
-Den bästa lasern tömmer en sköldkärna utan cell och en Light Shield Core med sin bästa cell (skrovet tar hela träffen); en Heavy Shield Core med tre Capacity-celler behåller 9 % av varje träff, och den bästa skölden behåller 24 % av den (41 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (70 %) gör det.
+Den bästa lasern tömmer varje sköldkärna, med sin bästa cell eller utan, och en Heavy Shield Core med tre Capacity-celler också (skrovet tar hela träffen); den bästa skölden behåller 6 % av varje träff (24 % med förstärkningarna). En raket ensam tömmer aldrig en sköld (högst 35 %), men en Lancet III eller en Rivet III med en Stiletto (70 %) gör det.
 
 ### När är en Penetration Amp värd en plats? {#when-is-a-penetration-amp-worth-a-slot}
 
-**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 101 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 2,6 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (85 %) tar en trio Penetration Amps ungefär 19 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den nästan ingenting.**
+**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 108 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 12 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (91 %) tar en trio Penetration Amps ungefär 50 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den upp till 20 % mot en Phantasm eller en Goombah och ingenting mot en Bulwark eller en Crystalys.**
 
-- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 149 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 308 och tre Crit Amp IV 312: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig bara där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad, vars stora skrov klarar sig ändå, är en enkel Damage- eller Crit-uppsättning ungefär lika snabb (en Penetration Amp i en laser vinner högst 5 %).
-- **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, så den fungerar på dem också, men en Damage Amp eller Crit Amp på nivån dödar dem lika snabbt eller snabbare, utom en Phantasm eller en Goombah som bekämpas med en formation, där en Penetration Amp i en laser vinner upp till 5 %.
+- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 153 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 314 och tre Crit Amp IV 319: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig mest där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad på den bästa skölden rakt ur lådan, vars stora skrov håller längre, vinner den upp till 38 %, och en Ironclad vars sköldar är förstärkta över 100 % möter man fortfarande bäst med en enkel Crit-uppsättning.
+- **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, och den bästa lasern (85 %) tränger igenom dem helt, så den fungerar på dem också: en Penetration Amp ingår i den bästa uppsättningen mot en Phantasm eller en Goombah, med formation eller utan (den vinner 11 till 20 %), och mot en Seeker med en Gemini (8 %). En Damage Amp eller Crit Amp på nivån dödar fortfarande en Bulwark eller en Crystalys lika snabbt eller snabbare.
 - **Vad den kostar.** Varje Penetration Amp IV kräver 4 Dark Matter Plates (20 Dark Matter), liksom varje förstärkare av nivå IV, så en Wraith som fyller sina 39 platser behöver 156 plattor, 780 Dark Matter.

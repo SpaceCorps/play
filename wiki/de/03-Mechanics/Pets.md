@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f5852ee08aded325 -->
+<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -17,7 +17,7 @@ Ein **P.E.T.** (Personal Escort Technology) ist ein kleiner Begleiter, der neben
 ## In einer Minute {#in-one-minute}
 
 - **Die Station besorgen.** Erforsche im Forschungszentrum eine **P.E.T. Station** und stelle sie in der Montage her. Sie hat drei Stufen mit Platz für **2, 3 und 5** P.E.T.s. Rüste sie in einem Extra-Slot des Schiffs aus, das du fliegst. Die Wiege funktioniert auch ohne sie: Du kannst P.E.T.s schlüpfen lassen, bevor du eine Station besitzt.
-- **Chunks finden.** Zerstöre Asteroiden ab der zweiten Stufe: Ein **Regular**, ein **Mythical** oder ein **Legendary Cluster Chunk** kann im Erzbrocken der Gruppe liegen bleiben, die den meisten Schaden gemacht hat.
+- **Chunks finden.** Zerstöre Asteroiden, je größer, desto besser: Ein **Regular**, ein **Mythical** oder ein **Legendary Cluster Chunk** kann im Erzbrocken der Gruppe liegen bleiben, die den meisten Schaden gemacht hat.
 - **Schlüpfen lassen.** In der Ansicht **P.E.T.** des Hangars nimmt die Wiege für jedes P.E.T. einen Chunk und eine Orvium Reinforced Plate und hat vier Plätze in der Warteschlange. Die Stufe des Chunks bestimmt, wie viele Boosts das P.E.T. hat: **1, 2 oder 3**.
 - **Andocken und fliegen.** Docke die P.E.T.s an, die du willst, solange dein Schiff gelandet ist. Mit einer ausgerüsteten Station, die AN ist, geben sie ihre Boosts und sammeln Erfahrung, während du jagst, abbaust und fliegst, bis Level 20.
 - **AN und AUS.** Der Slot **PET** der Aktionsleiste schaltet die Station, auch im Flug, und die Änderung gilt sofort: AUS, und deine P.E.T.s geben keine Boosts, sammeln keine Erfahrung und arbeiten nicht; AN, und sie sind wieder da. Eine Station, die du nie umgeschaltet hast, ist AN.
@@ -37,7 +37,7 @@ Die Ansicht P.E.T. des Hangars sagt, welche Station du besitzt, wo sie ausgerüs
 
 ## Cluster Chunks
 
-Cluster Chunks sind Kristallcluster, die Felsen enthalten. Sie gibt es in drei Stufen, **Normal (Regular)**, **Mythisch (Mythical)** und **Legendär (Legendary)**, und ein Bruch hinterlässt höchstens einen von jeder. Ab Stufe 2 der [Felsen](/wiki/03-Mechanics/Asteroid-Mining.md) kann ein Bruch einen Regular Chunk hinterlassen, ab Stufe 3 einen Mythical und ab Stufe 4 einen Legendary; der Motherlode gibt sie am häufigsten her. Die Chancen stehen in [Ressourcen](/wiki/06-Items/Resources.md#regular-cluster-chunk). Der Chunk gehört nicht zur Auszahlung des Bruchs: Er geht unzerteilt, im Erzbrocken, an die Gruppe, die den meisten Schaden gemacht hat, und kein Glück ändert seine Chance, auch das eines P.E.T. nicht.
+Cluster Chunks sind Kristallcluster, die Felsen enthalten. Sie gibt es in drei Stufen, **Normal (Regular)**, **Mythisch (Mythical)** und **Legendär (Legendary)**, und ein Bruch hinterlässt höchstens einen von jeder. Bei jedem [Felsen](/wiki/03-Mechanics/Asteroid-Mining.md) kann ein Bruch einen Regular Chunk hinterlassen, ab Stufe 3 einen Mythical und ab Stufe 4 einen Legendary; der Motherlode gibt sie am häufigsten her. Die Chancen stehen in [Ressourcen](/wiki/06-Items/Resources.md#regular-cluster-chunk). Der Chunk gehört nicht zur Auszahlung des Bruchs: Er geht unzerteilt, im Erzbrocken, an die Gruppe, die den meisten Schaden gemacht hat, und kein Glück ändert seine Chance, auch das eines P.E.T. nicht.
 
 Ein Chunk ist eine Ressource: Er kann nicht verkauft werden, und der Wipe löscht ihn, wenn du ihn nicht im [Transport-Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) mitnimmst.
 

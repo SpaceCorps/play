@@ -1,34 +1,34 @@
-<!-- wiki-i18n source: eb868ee753081e77 -->
+<!-- wiki-i18n source: ac7ece9cd18ca13a -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 
-Başarımlar, bir pilotun tüm kariyerinin hedefleridir: ilk uzaylını yok et, 21. seviyeye ulaş, bir milyar krediye sahip ol, bir sıfırlamadan sağ çık. Oyun bunları senin için sayar. Bunlardan **42** tane var; **8** grupta ve **5** kademede. Her biri **hesap başına bir kez, ömür boyu** ödeme yapar: hepsi için kredi, çoğu için de adının yanında taşıyabileceğin bir **unvan**. Sıfırlama bir başarımı, ödülünü veya unvanını asla senden geri almaz.
+Başarımlar, bir pilotun tüm kariyerinin hedefleridir: ilk uzaylını yok et, 21. seviyeye ulaş, bir milyar krediye sahip ol, bir sıfırlamadan sağ çık. Oyun bunları senin için sayar. Bunlardan **50** tane var; **8** grupta ve **5** kademede. Her biri **hesap başına bir kez, ömür boyu** ödeme yapar: hepsi için kredi, çoğu için de adının yanında taşıyabileceğin bir **unvan**. Sıfırlama bir başarımı, ödülünü veya unvanını asla senden geri almaz.
 
 **Bir dakikada**
 
 - İstasyonda **Topluluk › Başarımlar** sayfasını aç: her hedefi, ne kadar ilerlediğini ve ne ödediğini görürsün.
 - Kademe (Sıradan, Seyrek, Nadir, Destansı ya da Efsanevi) kredi miktarını belirler: hedef ne kadar zorsa kademe o kadar yüksektir.
 - Bir hedefe ulaştığın anda, uçuşta da istasyonda da ödeme yapılır. Bir kart başarımı ve ödülünü gösterir, Oyun Günlüğü de bir satır tutar.
-- 42 başarımdan **5** tanesi gizlidir: sayfa onları, sen açana kadar kapalı kartlar olarak gösterir. Bu 42 başarımın içinde sayılırlar ve burada adlarıyla anılmazlar.
+- 50 başarımdan **5** tanesi gizlidir: sayfa onları, sen açana kadar kapalı kartlar olarak gösterir. Bu 50 başarımın içinde sayılırlar ve burada adlarıyla anılmazlar.
 - Steam sürümünde, hesabını bağladıktan sonra başarımların Steam profilinde de görünür (aşağıya bak).
 
 ## Kademeler ve ödüller {#tiers-and-rewards}
 
-Beş kademe, içindeki her başarım için aynı ödemeyi yapar, bir kez. Tablo, gizli olanlar dahil 42 başarımın hepsini sayar.
+Beş kademe, içindeki her başarım için aynı ödemeyi yapar, bir kez. Tablo, gizli olanlar dahil 50 başarımın hepsini sayar.
 
 | Kademe | Başarımlar | Başarım başına kredi |
 | :--- | ---: | ---: |
-| Sıradan | 10 | 50.000 |
-| Seyrek | 8 | 150.000 |
-| Nadir | 12 | 500.000 |
-| Destansı | 7 | 2.000.000 |
-| Efsanevi | 5 | 5.000.000 |
+| Sıradan | 11 | 50.000 |
+| Seyrek | 9 | 150.000 |
+| Nadir | 16 | 500.000 |
+| Destansı | 8 | 2.000.000 |
+| Efsanevi | 6 | 5.000.000 |
 
-42 başarımın hepsi birlikte **46.700.000** kredi öder; bu, bir pilotun hayatında bir kez olur.
+50 başarımın hepsi birlikte **55.900.000** kredi öder; bu, bir pilotun hayatında bir kez olur.
 
 ## Başarım listesi {#the-achievements}
 
-Gizli olmayan 37 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm kariyerin boyunca sayar.
+Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm kariyerin boyunca sayar.
 
 ### Savaş {#group-combat}
 
@@ -40,6 +40,14 @@ Gizli olmayan 37 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | Boşluğun Belası | 100.000 uzaylı yok et. | Efsanevi |
 | Sürü Kıran | 500 sürü üyesi yok et. | Nadir |
 | As | 100 pilotu yok et. | Nadir |
+| Yarık kapatıldı | Alpha Rift’i tek başına tamamla. | Sıradan |
+| Gedik mühürlendi | Beta Breach’i tek başına tamamla. | Seyrek |
+| Döküm hanesi durdu | Gamma Foundry’yi tek başına tamamla. | Nadir |
+| Kuşatma kırıldı | Delta Siege’i tek başına kır. | Nadir |
+| Kasa açıldı | Omega Vault’u tek başına aç. | Destansı |
+| Geçit Bekçisi | Beş solo geçidin hepsini tamamla: Alpha, Beta, Gamma, Delta ve Omega. | Efsanevi |
+| Dokunulmaz | Bir solo geçidi can kaybetmeden tamamla. | Nadir |
+| Zamana karşı | Bir solo geçidi en kısa süresi içinde ya da daha hızlı tamamla: Alpha’dan Omega’ya 10, 15, 25, 35 veya 50 dakika. | Nadir |
 
 ### Pilot {#group-pilot}
 
@@ -69,7 +77,7 @@ Gizli olmayan 37 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | İstasyon Kurucu | 5 farklı Skylab modülü inşa et. | Sıradan |
 | Tam Donanımlı | 16 Skylab modülünün hepsini inşa et. | Destansı |
 | Bilgin | 50 teknoloji araştır. | Seyrek |
-| Arşivci | 179 teknolojinin hepsini araştır. | Efsanevi |
+| Arşivci | 181 teknolojinin hepsini araştır. | Efsanevi |
 
 ### Filo {#group-fleet}
 
@@ -115,7 +123,7 @@ Hâlâ kilitli gizli bir başarım, hedefi ve çubuğu olmayan kapalı bir kartt
 
 ## Unvanlar {#titles}
 
-**Unvan**, bir pilotun adının yanındaki kısa bir yazı satırıdır. 42 başarımın 32 tanesi bir unvan verir; başarımı açtığın anda ömür boyu senindir. Unvanlar ayrıca bir sezonun sonundan (rütben, her şirketin en iyi pilotu ve en çok PvE puanı olan pilot) ve oyunun ekibinden gelir; örneğin oyunun Steam’de çıktığı gün var olan her hesaba verilen **Pioneer** unvanı.
+**Unvan**, bir pilotun adının yanındaki kısa bir yazı satırıdır. 50 başarımın 32 tanesi bir unvan verir; başarımı açtığın anda ömür boyu senindir. Unvanlar ayrıca bir sezonun sonundan (rütben, her şirketin en iyi pilotu ve en çok PvE puanı olan pilot) ve oyunun ekibinden gelir; örneğin oyunun Steam’de çıktığı gün var olan her hesaba verilen **Pioneer** unvanı.
 
 - Çok sayıda unvanın olabilir ama aynı anda **birini taşırsın**. Onu **pilot profilinde** seçersin ve yeniden çıkarabilirsin.
 - Unvanın **profilinde**, **Sıralamalar** sayfasında, **Grup** penceresinde ve **sohbette** adının üzerine geldiğinde görünür. 0.4.27’den beri haritada da görünür: unvanın nadirlik renginde küçük, soluk bir satır olarak **her pilotun gemisinin adının üstünde**, seninkinde de. Uzun bir unvan üç noktayla (…) kısaltılır. Kalabalıkta (ekranda sekizden fazla pilot varsa) ekran okunur kalsın diye yalnızca arkadaşlarının, hedefinin ve seçtiğin geminin unvanı kalır. Hedef penceresinde ve mini haritada görünmez.

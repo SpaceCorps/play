@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9d2c509b4765edc2 -->
+<!-- wiki-i18n source: 664f33363a18d973 -->
 <!-- wiki-i18n title: Dormant Swamp -->
 # Dormant Swamp
 
@@ -61,7 +61,7 @@
 
 - **Slumbering Void。** 修长的猎手，游戏中最快的外星人（比装了 Afterburner III 的 Storm 更快）。一些总在沼泽周围巡逻，另一些成波来到挖掘机。它具有攻击性，追猎它能看到的最近的飞行员，并且永远看不到隐形的飞船。
 - **Inert Mass。** 带紫色裂纹的死寂巨体，有一座小空间站那么大。它们待在距沼泽中心固定的距离内，目前不会离开。它发射 **Dormant Lance**：射程极远的制导火箭，会一直追着飞船，直到它隐形、打开 EMP 窗口、进入安全环、跳跃或死亡。它比任何飞船都快，所以只有这些中断才管用。 挡在 Dormant Lance 路径上的小行星会拦下它，而 Lance 会用自身的伤害损伤该小行星（没有人为此获得报酬），因此岩石只能让你在几次命中之内免受 Inert Mass 的伤害。
-- **Unwakened。** 沉睡在沼泽中央的巨碑，是任何地图上最大的东西，慢到永远追不上飞船。它什么也不发射，但它光环内的每艘飞船都会被烧伤，**无论是否隐形**。它**免疫**：射击和火箭会命中却毫无作用，目标窗口显示满格条和“免疫”一词。之后的活动会让它可以被战斗；下面它的奖励只是写下来了，现在还无法获得。
+- **Unwakened。** 沉睡在沼泽中央的巨碑，是任何地图上最大的东西，慢到永远追不上飞船。它什么也不发射，但它光环内的每艘飞船都会被烧伤，**无论是否隐形**。它**免疫**：射击和火箭会命中却毫无作用，目标窗口显示满格条和“免疫”一词。之后的活动会让它可以被战斗；下面它的奖励只是写下来了，现在还无法获得。飞行员的**辐射技术**会降低它的灼烧，100 级时降到 0.40 倍。
 
 <!-- swamp-members:begin -->
 <!-- Generated from server/Resources/Excavator.json and DormantSwamp.json (and Rockets.json, Values/ranking-config.json) by scripts/dormant-wiki.sh: don't edit by hand. -->

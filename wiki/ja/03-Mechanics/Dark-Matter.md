@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 32b893f12261ffc4 -->
+<!-- wiki-i18n source: 97e289c94edbe6a9 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter と Dark Matter Plate {#dark-matter-and-dark-matter-plates}
 
 <!-- wiki-search: dm; ダークマター; dark matter plate; dark matter plates; plate; plates; プレート; dark matter socket; dark matter sockets; socket; sockets; ソケット; dark matter ソケット -->
 
-**Dark Matter** は、技術ツリーの最上位、鍛冶場の最も高い2段階、そして各強化系統の最終ティアの背後にある資源です。買うことも掘ることもできず、通常のエイリアンも落としません。**ブラックホール（black hole）**に **N.I.K.E.** ロケットを撃ち込んで**作り出し**、ブラックホールが投げ返すコンテナを拾います。**Dark Matter Plate** は、その製作レシピを研究したあと、アセンブリで Dark Matter から圧縮して作ります。このページでは、それぞれがどこから来るのか、何に使うのか、どの順で進めるのかを説明します。シーズン11日目からは、Dark Matter は**巨大掘削機の燃料**でもあり（[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)）、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) の一部のエイリアンも少し落とします。
+**Dark Matter** は、技術ツリーの最上位、鍛冶場の最も高い2段階、そして各強化系統の最終ティアの背後にある資源です。買うことも掘ることもできず、通常のエイリアンも落としません。**ブラックホール（black hole）**に **N.I.K.E.** ロケットを撃ち込んで**作り出し**、ブラックホールが投げ返すコンテナを拾います。**Dark Matter Plate** は、その製作レシピを研究したあと、アセンブリで Dark Matter から圧縮して作ります。このページでは、それぞれがどこから来るのか、何に使うのか、どの順で進めるのかを説明します。シーズン11日目からは、Dark Matter は**巨大掘削機の燃料**でもあり（[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)）、[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) の一部のエイリアンも少し落とし、[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) は非常に大人数のグループにより多く与えます。
 
 ![The Research view with a technology that needs Dark Matter picked: its Dark Matter row, the Add and Take back buttons, where Dark Matter comes from and the Wiki button](../../img/wiki-img/shots/research-dark-matter.jpg)
 ![The Research view with technologies queued behind the running one: the Dark Matter all of them need, what the Research Centre holds and the Add button that gives the rest](../../img/wiki-img/shots/research-queue.jpg)
@@ -12,7 +12,7 @@
 ## 1分でわかる要点 {#in-one-minute}
 
 - **Dark Matter は資源で、どこでも単に Dark Matter と呼ばれます。** 危険セクター 4（`DS-4`）の中心にあるブラックホールが作ります。ブラックホールに届いた N.I.K.E. ロケット1発につき Dark Matter が1～3個（平均2個）、その領域の縁にある小さなコンテナに入って返ってきます。
-- **何に使うか。** 研究センターの108の技術が要求し、1つにつき5～60個、合計1,364個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
+- **何に使うか。** 研究センターの109の技術が要求し、1つにつき5～60個、合計1,374個です。また、アセンブリがこれを圧縮して Dark Matter Plate にします。シーズン11日目からは、[巨大掘削機](/wiki/03-Mechanics/Giant-Excavator.md)も燃料として燃やします。タンク1つ分は数個の Dark Matter で、掘削機が破壊されると失われます。Beta と Gamma では、巨大掘削機はシーズン初日から立っています。
 - **研究センターでは**、開始を押す前に、貨物から Dark Matter を追加します（艦を着陸させた状態で）。研究は開始時にそれを受け取ります。
 - **Dark Matter Plate は別のアイテムです。** まずそのレシピを研究し（ツリーの資源グループ：1日と Dark Matter 10個）、そのあとアセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から製作します。
 - **プレートの使い道。** 各強化系統の最終ティアは **4枚** と Ancient Control Unit 1個以上を要求します。ティアIVのアンプ、セル、スラスター、Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III、Base CPU II です（13個）。鍛冶場は、アイテムを神級から破裂に上げるのに2枚、破裂から永遠にさらに2枚を要求します。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールも、建設とアップグレードにプレートを必要とします（[資源](/wiki/06-Items/Resources.md#dark-matter-plate)）。
@@ -25,9 +25,9 @@
 | | Dark Matter | Dark Matter Plate |
 | :--- | :--- | :--- |
 | **何か** | エピックの資源 | ミシカルの資源 |
-| **入手元** | 危険セクター4のブラックホール（撃ち込んだ N.I.K.E. ロケットに対して）。Dormant の群れと、Dormant Swamp の Inert Mass からも少し | アセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮 |
+| **入手元** | 危険セクター4のブラックホール（撃ち込んだ N.I.K.E. ロケットに対して）。Dormant の群れと、Dormant Swamp の Inert Mass からも少し。危険セクター4の Tesseract からはずっと多く | アセンブリで、Dark Matter 5個、Velkonite Reinforced Plate 1枚、Orvium Reinforced Plate 1枚、250 Thulium から圧縮 |
 | **先にやること** | N.I.K.E. を研究し（3時間、Dark Matter は不要）、いくつか製作する | プレートのレシピを研究する（1日、Dark Matter 10個） |
-| **使い道** | 研究のコスト（108の技術、合計1,364個）とプレート | 各強化系統の最終ティア：13個の部品それぞれに4枚；Master Drone の強化：10枚；鍛冶場：最上位の2段階それぞれに2枚 |
+| **使い道** | 研究のコスト（109の技術、合計1,374個）とプレート | 各強化系統の最終ティア：13個の部品それぞれに4枚；Master Drone の強化：10枚；鍛冶場：最上位の2段階それぞれに2枚 |
 
 ## Dark Matter の入手方法 {#how-to-get-dark-matter}
 
@@ -38,18 +38,18 @@
 5. **コンテナを拾います。** ブラックホールに届いた N.I.K.E. 1発につき、**Dark Matter が1、2、3個**（4回に1回が1個、2回に1回が2個、4回に1回が3個）、最大2個入りのコンテナ1つか2つに入って返ってきます。コンテナは、ブラックホール領域の縁、中心から3,050～3,950ユニットの、撃った線の近くに落ちます。それぞれに200ユニット以内まで近づいてください。回収には0.5秒かかります。
 6. **持ち帰ります。** Dark Matter はインベントリに入ります。ステーションで艦を着陸させれば、研究センターに追加したり、アセンブリで使ったりできます。
 
-**ロケット約5発で Dark Matter 10個**になります。Resource Magnet Booster は何も加えないので、誰でも同じです。
+**ロケット約5発で Dark Matter 10個**になります。Resource Magnet Booster は何も加えないので、Antimatter スキルを鍛えていない人は誰でも同じです。このスキルはレベル100で最大+25%を加えます。
 
 ### 無事に済ませるには {#keeping-it-safe}
 
 - **コンテナは60秒間あなたのもの**で、クランのものでもあります。その後はマップ上の誰でも取れ、240秒後に消えます。1つのマップに置ける Dark Matter のコンテナは最大32個で、新しいものは、そのうち最も古いものを押し出します。
 - **縁は放射線の中にあります。** そこでは毎秒、艦の最大 HP の0.3～0.8%を失い、ブラックホールに近いほど多くなります。満タンの艦は約2～5分もちます。帯域の真ん中で1分過ごすと3分の1を失います。引力は3,000ユニットで終わるので、あなたもコンテナも、何かに運ばれることはありません。
 - **危険セクター 4 は PvP です。** ライバルがあなたの射線上で待ち構えていることがあります。N.I.K.E. は最初に触れた艦に命中し（ダメージ67,500～75,000）、ブラックホールは何も得られません。60秒が過ぎたあとにコンテナを待たれることもあります。縁から撃ち、撃った順にコンテナを拾い、仲間と行きましょう。
-- **2つ目の、小さな入手元。** [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)の Dormant Pulse は、5回に1回、最も多くのダメージを与えたパイロットに Dark Matter を1～5個落とします。この群れには大人数のグループが必要です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) の Inert Mass もたまに落としますが、沼の砲台の下にいます。
+- **ほかの入手元。** [Dormant の群れ](/wiki/05-Swarms/Dormant-Swarm.md)の Dormant Pulse は、5回に1回、最も多くのダメージを与えたパイロットに Dark Matter を1～5個落とします。この群れには大人数のグループが必要です。[Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) の Inert Mass もたまに落としますが、沼の砲台の下にいます。大きいのは危険セクター4の [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) です。撃破で報酬を受け取るパイロットはそれぞれ専用のボックスを受け取り、撃破の Dark Matter（10～20個）はダメージに応じて分けられ、1人あたり最大5個までなので、4人以上のグループは1回の撃破で約15個を持ち帰ります。PvP セクターで非常に大人数のグループが必要で、撃破の30分後に戻ってきます。
 
 ## 研究センターでの Dark Matter {#in-the-research-centre}
 
-ツリーの上位にある技術は、科学ポイントに加えて Dark Matter を要求します。最上位の16の技術はそれぞれ **10個**、16のドローン編成はそれぞれ **5、13、20個** です（編成が強いほど多くなります）。Hull Plating の2つの研究は **25個と40個**、艦の技術（13のデザインと37の装甲スロット）はそれぞれ **10個** です。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールは、二段階目から1段階ごとに **5、10、15、20** のいずれかを求め、合計は115です（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。それ以外はすべて[研究](/wiki/03-Mechanics/Research.md#dark-matter)の表に載っています。
+ツリーの上位にある技術は、科学ポイントに加えて Dark Matter を要求します。最上位の17の技術はそれぞれ **10個**、16のドローン編成はそれぞれ **5、13、20個** です（編成が強いほど多くなります）。Hull Plating の2つの研究は **25個と40個**、艦の技術（13のデザインと37の装甲スロット）はそれぞれ **10個** です。Skylab のエンジンモジュール、防衛モジュール、レーダーモジュールは、二段階目から1段階ごとに **5、10、15、20** のいずれかを求め、合計は115です（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。それ以外はすべて[研究](/wiki/03-Mechanics/Research.md#dark-matter)の表に載っています。
 
 1. **ステーションで Skylab の研究表示を開き**、技術を選びます。そのカードには **Dark Matter** の行があり、研究センターにある数と、必要な数が表示されます（たとえば 3 / 10）。
 2. **追加を押します。** 貨物から研究センターに、足りない分を、持っている範囲で移します。艦は着陸している必要があります。**戻す**を押すと貨物に戻ります。
@@ -107,7 +107,7 @@ Paragon の44個は、レーザー9基、そのアンプ27個、ジェネレー�
 | Dark Matter Plate 1枚 | 5 | 2.5 |
 | 鍛冶場の1段階ぶんの2枚 | 10 | 5 |
 | 最終ティアの部品1つの4枚のプレート | 20 | 10 |
-| Dark Matter を要求するすべての技術 | 1,364 | 682 |
+| Dark Matter を要求するすべての技術 | 1,374 | 687 |
 
 何もない状態からの最初の強化は、レシピ（10個）とプレート2枚（10個）で、Dark Matter 20個、N.I.K.E. ロケット約10発、つまり2回の製作です。何もない状態からの最初のティアIVのアンプは、プレートのレシピ（10個）、アンプ自身の技術（10個）、プレート4枚（20個）で、Dark Matter 40個、N.I.K.E. ロケット約20発です。
 

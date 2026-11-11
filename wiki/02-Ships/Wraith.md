@@ -25,7 +25,7 @@ The Wraith is the ultimate battleship-class vessel, boasting unmatched firepower
 
 ## Research
 
-- **Hull plate slots.** The Wraith has 10 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Wraith and on every one of its designs. All 10 filled with Hull Plating III add 150,000 hull.
+- **Hull plate slots.** The Wraith has 10 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Wraith and on every one of its designs. All 10 filled with Hull Plating III add 250,000 hull.
 - **Designs.** The Wraith has 5 [designs](/wiki/03-Mechanics/Ship-Designs.md). Research one (10 h and 10 Dark Matter), then convert your Wraith into it in Assembly: the change cannot be undone.
 
 | Design | What it changes |

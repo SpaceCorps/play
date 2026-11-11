@@ -4,7 +4,9 @@
 
 A **dungeon** is a closed maze with a **Warlord** at its end (before 0.5.2 the game called it a gate). A co-leader or the leader of a [clan](/wiki/03-Mechanics/Clans.md) opens one and pays for it from the clan bank, and members of the clan fly in together as one [group](/wiki/03-Mechanics/Groups.md). They fight through the aliens of the maze, open loot zones to choose a card from each, and bring the Warlord down. Every pilot who took part in the fight is paid when the Warlord falls, within the limits further down. The dungeons are on the **Dungeons** tab of the clan page.
 
-A dungeon is a fight against the aliens only: nobody can attack a clan mate, or anyone else, inside one. The aliens pay nothing. The pay is the Warlord's alone, so the only way to be paid is to be in the fight when it falls.
+A dungeon is a fight against the aliens only: nobody can attack a clan mate, or anyone else, inside one. The aliens pay as they fall, like the aliens of the game they are modelled on ([what the aliens pay](#what-the-aliens-pay)). The clear is the Warlord's, so the only way to be paid for it is to be in the fight when it falls.
+
+A dungeon is not a [solo gate](/wiki/03-Mechanics/Solo-Gates.md). A solo gate is an arena that only you fly in, opened with parts you find with the Energy Materializer; the two have separate rules, pay and limits.
 
 ## At a glance
 
@@ -20,10 +22,10 @@ A dungeon is a fight against the aliens only: nobody can attack a clan mate, or 
 - **Mazes**: 8; one is picked when a dungeon is opened
 - **Boss room**: Opens when 75% of the Crystalys and their Twins are destroyed, rounded up
 - **Gathering**: 10 min to gather and start. A dungeon nobody starts closes, and its price goes back to the clan bank
-- **Time limit**: Stage 1: 95 min, Stage 2: 130 min, Stage 3: 165 min from the start. When it runs out the dungeon fails and pays nothing
+- **Time limit**: Stage 1: 95 min, Stage 2: 130 min, Stage 3: 165 min from the start. When it runs out the dungeon fails and the clear pays nothing
 - **Left empty**: A dungeon with nobody inside for 3 min fails
 - **After the Warlord falls**: The dungeon stays open for 2 min, for the pilots inside
-- **Coming back**: A pilot who left or was destroyed can fly back in 3 times, 20 s apart
+- **Coming back**: A pilot who left or was destroyed can fly back in as often as he likes, with at least 20 s between two returns
 
 <!-- dungeons-glance:end -->
 
@@ -32,7 +34,7 @@ A dungeon is a fight against the aliens only: nobody can attack a clan mate, or 
 1. **Summon.** On the Dungeons tab a [co-leader or the leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) picks a stage and presses **Summon**. The price comes out of the [clan bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), and the dungeon takes one of the maps listed above. A dungeon that nobody starts closes, and the price goes back to the bank.
 2. **Enter.** Members of the clan press **Enter** in the Clan window while they are flying, jump through the clan portal, or press **Join** on the call card (see Entering). Everyone lands in the start room, and the pilots inside are the dungeon's party.
 3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the dungeon gathers. There are no aliens in it, so it is safe to wait there. The dungeon **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the dungeon, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more. When the dungeon starts, the door opens for good, and after that only the pilots who were already inside can come back.
-4. **Fight through the maze.** You come in at one end of the maze and the Warlord waits at the other, in a locked room. The maze is dark: you see only what the party has explored and what is close to its ships. The aliens sleep in packs in the corridors, and a pack that wakes hunts the party through the maze.
+4. **Fight through the maze.** You come in at one end of the maze and the Warlord waits at the other, in a locked room. The maze is dark: you see only what the party has explored and what is close to its ships. The aliens wait in packs in the corridors, and a pack comes out the moment a pilot flies into the stretch of corridor where it waits, then hunts the party through the maze.
 5. **Open the loot zones.** Rings in the maze mark the zones. Hold one and the party votes for a card, which is paid out with the Warlord's pay.
 6. **Unlock the boss room.** Destroy three quarters of the Crystalys and their Twins of the maze, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt. The other aliens stay where they are, and you can destroy them too.
 7. **Defeat the Warlord.** Break its shield and hull, and answer its abilities. When it falls the dungeon is cleared.
@@ -44,7 +46,7 @@ To enter a dungeon you need a **ship in flight**, so launch first and then open 
 
 A co-leader or the leader opens a dungeon, one at a time for the clan, and only up to the number of dungeons a day. The clan bank has to hold the price. A clan can open a stage only after it has cleared the stage before it.
 
-Inside a dungeon you cannot change world, and the Jump CPU and the Base CPU do not work. The **Leave** button in the Clan dungeon window takes you out. It asks you to confirm first, unless the Warlord has already fallen: then you go at once. A pilot who left, or who was destroyed, can fly back in a few times, with a short wait between them.
+Inside a dungeon you cannot change world, and the Jump CPU and the Base CPU do not work. The **Leave** button in the Clan dungeon window takes you out. It asks you to confirm first, unless the Warlord has already fallen: then you go at once. A pilot who left, or who was destroyed, can fly back in; the list under **At a glance** says how often, and how long he waits between two returns.
 
 ### The clan portal and the call
 
@@ -81,7 +83,7 @@ Each dungeon is a closed maze on a map of its own, one of the maps in the list a
 
 ## The aliens
 
-Four kinds of alien guard the maze. They sleep in packs in the corridors, never in a room, and a pack wakes when a pilot comes near. A pack that is awake does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it slept and heals. A few packs are awake from the first second, standing in the corridors away from the entrance until a pilot comes near. The dungeon keeps only so many aliens in the air at once, and that number grows with the size of the party, so a pack that wakes may have to wait for room, and a pack that you destroy lets the next one in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one. A pack that still waits for room when every pilot has moved away goes back to sleep, and wakes again when a pilot comes near.
+Four kinds of alien guard the maze. They wait in packs in the corridors, never in a room, and a pack comes out the moment a pilot flies into the stretch of corridor where it waits. Nothing is on the map where no pilot has been, so no pack stands behind the walls, deep in the maze, before you get there. A pack does not wait for room: it is on the map in that same moment, however many aliens are already out. A stretch of corridor holds one pack, so the stretch you fly into has one pack to meet and not the sum of several (a party of ten has more packs than stretches, and there one stretch holds two, which both come out). A pack that is out does not wait for you: it hunts the party through the maze, and a pack that loses everyone goes back to where it came out and heals. A pack comes out once: one that you destroy does not come back, and one that you fly away from stays on the map. The waves of the loot zones are different: the dungeon keeps only so many aliens in the air at once, and that number grows with the size of the party, so a wave that would pass it waits for room, and a pack that you destroy lets the next wave in. A bigger party meets more aliens in proportion, a smaller party fewer, and a kind of alien never drops below one.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -96,7 +98,7 @@ Four kinds of alien guard the maze. They sleep in packs in the corridors, never 
 | To open the boss room | 34 | 34 | 34 |
 | The wave of a loot zone | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys | 12 × Dungeon Goombah and 1 × Dungeon Crystalys |
 
-- **Alive at once**: At most 10 for each pilot of the party, and 70 in all
+- **A loot zone's wave waits for room**: Once 10 for each pilot of the party are alive, or 70 in all
 
 <!-- dungeons-population:end -->
 
@@ -109,6 +111,7 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 
 - **Looks like**: Goombah
 - **Flies in packs of**: 6
+- **Pays and drops like**: Goombah
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -118,27 +121,39 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Speed | 180 | 180 | 180 |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | 1,800 | 1,800 | 1,800 |
+| Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
+| Credits for a kill | 15,000 | 22,500 | 30,000 |
+| Thulium for a kill | 75 | 113 | 150 |
+| Experience for a kill | 3,000 | 4,500 | 6,000 |
+| Honor for a kill | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Looks like**: Pirate Boss
 - **Flies in packs of**: 2
+- **Pays and drops like**: Pirate Boss
 - **Rocket**: A straight rocket every 5 s, range 1,000 units
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
-| Hull | 300,000 | 450,000 | 600,000 |
+| Hull | 250,000 | 375,000 | 500,000 |
 | Shield | 50,100 | 75,150 | 100,200 |
 | Laser damage (a volley a second) | 200 | 300 | 400 |
 | Rocket damage | 5,000 | 7,500 | 10,000 |
 | Speed | 110 | 110 | 110 |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | 1,800 | 1,800 | 1,800 |
+| Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
+| Credits for a kill | 145,000 | 217,500 | 290,000 |
+| Thulium for a kill | 725 | 1,088 | 1,450 |
+| Experience for a kill | 29,000 | 43,500 | 58,000 |
+| Honor for a kill | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Looks like**: Crystalys
 - **Flies in packs of**: 2
+- **Pays and drops like**: Crystalys
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -148,11 +163,17 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Speed | 230 | 230 | 230 |
 | Laser range | 900 | 900 | 900 |
 | Aggro radius | 2,400 | 2,400 | 2,400 |
+| Pay and loot, times the original's | ×1 | ×1.5 | ×2 |
+| Credits for a kill | 75,000 | 112,500 | 150,000 |
+| Thulium for a kill | 200 | 300 | 400 |
+| Experience for a kill | 12,000 | 18,000 | 24,000 |
+| Honor for a kill | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Looks like**: Crystalys, 1.4 times as big
 - **Flies in packs of**: 1
+- **Pays and drops like**: Crystalys
 
 |  | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
@@ -162,12 +183,17 @@ Each kind in turn. The hull and shield are the usual ones times the multiplier o
 | Speed | 230 | 230 | 230 |
 | Laser range | 900 | 900 | 900 |
 | Aggro radius | 2,400 | 2,400 | 2,400 |
+| Pay and loot, times the original's | ×2 | ×3 | ×4 |
+| Credits for a kill | 150,000 | 225,000 | 300,000 |
+| Thulium for a kill | 400 | 600 | 800 |
+| Experience for a kill | 24,000 | 36,000 | 48,000 |
+| Honor for a kill | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## The Warlord
 
-The Warlord waits in the room at the far end of the maze, and it is the only thing in a dungeon that pays. It is a Crystalys grown huge. Its hull and shield grow with the size of the party: the more pilots enter, the tougher it is, in proportion. It never leaves its room, whether the door is shut or open: it keeps inside the room's walls and does not hunt through the corridors. A pilot outside can draw it only to the edge of the room, and it still shoots through an open door at whatever its laser reaches. It uses its abilities one at a time, in a random order, each with a cooldown of its own.
+The Warlord waits in the room at the far end of the maze, and its fall is what pays the clear. It pays no kill of its own, as the other aliens do. It is a Crystalys grown huge. Its hull and shield grow with the size of the party: the more pilots enter, the tougher it is, in proportion. It never leaves its room, whether the door is shut or open: it keeps inside the room's walls and does not hunt through the corridors. A pilot outside can draw it only to the edge of the room, and it still shoots through an open door at whatever its laser reaches. It uses its abilities one at a time, in a random order, each with a cooldown of its own.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -199,9 +225,9 @@ The hull and shield above are for a party of 5. They grow with the party: these 
 
 ### The locked room
 
-The door of the Warlord's room is shut from the moment the dungeon is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when **three quarters of the Crystalys and their Twins** that the dungeon was made with are destroyed, rounded up (the table of the aliens above counts them for a party of 5, and its last row says how many it takes). The aliens that count are the Crystalys and the Twins in the packs of the maze, the packs that stand in the corridors from the first second among them, and whoever destroys them. The other aliens, the waves of the loot zones, the Goombahs that the Warlord calls and the Warlord itself do not count toward the door.
+The door of the Warlord's room is shut from the moment the dungeon is opened, and while it is shut the Warlord cannot be hurt: no laser, rocket or blast touches it, and it uses no ability. The door opens, for good, when **three quarters of the Crystalys and their Twins** that the dungeon was made with are destroyed, rounded up (the table of the aliens above counts them for a party of 5, and its last row says how many it takes). The aliens that count are the Crystalys and the Twins in the packs of the maze, and whoever destroys them. A pack comes out only when a pilot flies into its stretch of corridor, so the party has to find enough of them to open the door. The other aliens, the waves of the loot zones, the Goombahs that the Warlord calls and the Warlord itself do not count toward the door.
 
-The Clan dungeon window counts how many more of them have to be destroyed to open the room and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack that still sleeps counts in full, so the party has to find the Crystalys and their Twins in the maze. **The other aliens do not go away when the door opens.** They stay in the maze, wake when a pilot comes near and can be destroyed as before, so a party that wants to can destroy all of them before it fights the Warlord: the count of aliens in the window goes on to all the aliens the dungeon was made with, and reads full when none is left. They pay nothing, and the ones that are still alive when the Warlord falls leave with the dungeon. On the minimap the door is a red line while it is locked and a green one when it is open. A dungeon is never a trap: the time limit still ends a dungeon whose door stays shut, and an administrator can unlock the room of a stuck dungeon.
+The Clan dungeon window counts how many more of them have to be destroyed to open the room and says, in a chip, that the Warlord cannot be hurt, and a message tells you when the room is unlocked. A pack that has not come out yet counts in full, so the party has to find the Crystalys and their Twins in the maze and fly into their stretches of corridor. **The other aliens do not go away when the door opens.** They stay in the maze, come out when a pilot flies into their stretch of corridor and can be destroyed as before, so a party that wants to can destroy all of them before it fights the Warlord: the count of aliens in the window goes on to all the aliens the dungeon was made with, and reads full when none is left. They pay as they fall ([what the aliens pay](#what-the-aliens-pay)), and the ones that are still alive when the Warlord falls leave with the dungeon. On the minimap the door is a red line while it is locked and a green one when it is open. A dungeon is never a trap: the time limit still ends a dungeon whose door stays shut, and an administrator can unlock the room of a stuck dungeon.
 
 ### Its abilities
 
@@ -312,7 +338,7 @@ The cards with one copy are **gear**, and only a stage 3 dungeon can offer them.
 
 When the Warlord falls, every pilot who earned it is paid, once for the clear. The cards that the party chose come on top of the pay of the stage. There is no world multiplier: the pay is the same in every world.
 
-The **Orvium Reinforced Plates** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The items that a dungeon pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
+The **Orvium Reinforced Plates** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The items that the clear pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -327,7 +353,7 @@ The **Orvium Reinforced Plates** are not a card of the vote. They are part of th
 
 ### Who is paid
 
-The aliens never pay. A clear is played in full even when it pays nothing, and the result screen says why. Entering is never refused because you were paid for a stage already: that clear just pays nothing.
+These rules decide who is paid **for the clear**. A clear is played in full even when it pays nothing, and the result screen says why. Entering is never refused because you were paid for a stage already: the clear just pays nothing. The aliens read the same rules, one kill at a time, except the share in the fight ([what the aliens pay](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -355,6 +381,17 @@ The experience of a paid clear counts for your PvE ranking points: one point for
 
 <!-- dungeons-totals:end -->
 
+### What the aliens pay
+
+Every alien of a dungeon pays when it falls, and drops loot, like the alien of the game it is modelled on: a Dungeon Goombah like a [Goombah](/wiki/04-Aliens/Goombah.md), a Dungeon Crystalys and its Twin like a [Crystalys](/wiki/04-Aliens/Crystalys.md), a Dungeon Pirate like the Pirate Boss of the [Pirate Swarm](/wiki/05-Swarms/Pirate-Swarm.md). What a kill pays and drops is the original's **times the ratio of their hull and shield together**: an alien that is as tough as its original pays what the original pays, one that is twice as tough pays twice as much and drops twice as much of each item, and so on. The section of each kind of alien under [The aliens](#the-aliens) gives the ratio and the pay of one kill in each stage.
+
+- **Who is paid.** The pilots who hurt the alien, by the damage they dealt, as for the aliens of the Swarms: a pilot or a group that only grazed it gets nothing, a group is paid as one, and inside a group the members who are near the wreck and have fired lately share what is paid by level. A pilot who dealt no damage to the alien is paid nothing for it, however close he flew, and an alien that no pilot hurt pays nobody. Only the pilots the rules above pay are in it: a pilot who left, who has not been inside long enough, who was paid for the stage today or who has had all the paid clears of the week is paid nothing for the aliens, and the others have his part. A kill does not ask for the share in the fight: having hurt the alien is the share. If the member of a group who dealt the most has been destroyed or is no longer on the map, the members who are near the wreck and have fired lately share it without him.
+- **What is paid.** Credits, Thulium, experience and honor, once for the kill. The pay is what the original pays in Alpha, in every world: a dungeon has no world multiplier. Your boosters, Premium, formation and your clan's bonuses count as they do for any kill, and the experience counts for your [PvE ranking points](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) like the experience of the clear.
+- **The loot.** Rolled with the original's chances, and then every quantity is multiplied by the ratio (a part of a unit is a chance of one more). It falls as a box at the wreck, first for the pilot who dealt the most and his clan, later for anyone on the map, and then it is gone. The map holds only so many boxes at once, so pick them up as you go, and what lies on the map when the dungeon closes goes with it. Unlike the items of the clear, these are ordinary drops of an alien: they can be [sold at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items) when the item is Marketable.
+- **What does not pay.** The Warlord pays no kill, only the clear. The Goombahs it calls pay nothing, because the call comes back for as long as the fight lasts.
+- **Not a kill of the game.** A kill in a dungeon does not count for quests, achievements, kill counts, the Wipe Points, the PvE points of a kill, drones or P.E.T.s: a Dungeon Goombah is not a Goombah of the game.
+- **The limits.** The day and week limits above hold the aliens' pay back as they hold the clear's: a pilot who was paid for the stage today, or has had all the paid clears of the week, is paid nothing for its aliens either, and the pot of a kill goes to the others. A dungeon that is not cleared pays its kills to the pilots the rules pay, and nothing for the clear.
+
 ## The clan bank's reward {#clan-bank-reward}
 
 The clan bank is paid too, in credits and not in Thulium, the first time the clan clears a stage in a season. The clan has to be old enough, and enough pilots of that clear have to be paid. The bank is paid once for each stage in a season.
@@ -381,4 +418,4 @@ The clan bank is paid too, in credits and not in Thulium, the first time the cla
 - Use the walls: lasers do not cross them, the red rings of the Warlord's auras stop at them, and a wall stops the Warlord's rockets too.
 - Keep an EMP Charge for the Rocket barrage.
 - When the Warlord calls its Goombahs, destroy them first: it cannot be hurt until they are gone. In the Zone of Chaos, step out of the ring before you shoot.
-- Watch the clock in the Clan dungeon window. When the time runs out the dungeon fails and pays nothing.
+- Watch the clock in the Clan dungeon window. When the time runs out the dungeon fails and the clear pays nothing.

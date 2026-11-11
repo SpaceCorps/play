@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aa5ab1afb62faea7 -->
+<!-- wiki-i18n source: dab929535f6b591d -->
 <!-- wiki-i18n title: Laser -->
 # Laser & Munition {#lasers-ammo}
 
@@ -62,7 +62,7 @@ Rüste Laser direkt in den Laser-Slots des Schiffs oder in Drohnen aus, um deine
 | **Quantum Laser II** | Gewöhnlich | 65 | 1 % | 700 | 2 | 80.000 Credits |
 | **Quantum Laser III** | Selten | 80 | 10 % | 800 | 3 | Nur herstellbar |
 | **Starfire-III** | Mythisch | 135 | 15 % | 850 | 3 | Nur herstellbar |
-| **Helios Beam** | Mythisch | 150 | 20 % | 900 | 3 | Nur herstellbar |
+| **Helios Beam** | Mythisch | 155 | 20 % | 900 | 3 | Nur herstellbar |
 
 Die Spalte Reichweite ist die jedes einzelnen Lasers. **Dein Schiff feuert mit dem Durchschnitt der Reichweiten seiner Laser** (die Laser in deinen Drohnen zählen mit), auf die nächste ganze Einheit gerundet, und jeder Laser feuert, sobald das Ziel innerhalb dieser Entfernung liegt. Ein Starfire-III neben zwei Quantum Laser II gibt einem Schiff die Reichweite 750, nicht 850; drei Starfire-III behalten 850, und lauter gleiche Laser ändern nichts. Ein Reichweiten-Bonus aus der Schmiede zählt auf seinem eigenen Laser, bevor der Durchschnitt gebildet wird. Ohne Laser zeigt der Hangar keine Reichweite (einen Strich), und die Laser können nicht feuern, deine Raketen aber schon, jede mit ihrer eigenen Reichweite (siehe [Raketen](/wiki/06-Items/Rockets.md)). Im Hangar steht auf der Kachel „Ø Reichweite“, wo sich deine Laser unterscheiden, und fährst du mit der Maus darüber, werden die Reichweiten der einzelnen Laser aufgelistet.
 
@@ -117,10 +117,10 @@ Setze sie direkt in den Slot eines Lasers ein, um seine Eigenschaften zu verstä
 
 | Name | Seltenheit | Schilddurchdringung | Kosten |
 | :--- | :--- | :---: | :--- |
-| **Penetration Amp I** | Minderwertig | +3 % | 15.000 Credits |
-| **Penetration Amp II** | Ungewöhnlich | +6 % | Nur herstellbar |
-| **Penetration Amp III** | Selten | +9 % | Nur herstellbar |
-| **Penetration Amp IV** | Episch | +12 % | Nur herstellbar |
+| **Penetration Amp I** | Minderwertig | +5 % | 15.000 Credits |
+| **Penetration Amp II** | Ungewöhnlich | +10 % | Nur herstellbar |
+| **Penetration Amp III** | Selten | +15 % | Nur herstellbar |
+| **Penetration Amp IV** | Episch | +20 % | Nur herstellbar |
 
 **Nur die erste Stufe jeder Linie wird verkauft**, im Shop. Die anderen drei stellst du in der [Montage](/wiki/06-Items/Overview.md#upgrading-modules) aus dem Amp eine Stufe darunter her, sobald du ihre Technologie im Skylab erforscht hast ([Forschung](/wiki/03-Mechanics/Research.md)). Jeder Schritt braucht Thulium, Beute der Aliens und Platten (Velkonite Reinforced Plates aus deinem Skylab für die Stufen II und III, 4 Dark Matter Plates und eine Ancient Control Unit für Stufe IV), und der neue Amp behält die Verzauberungsstufe und die Boni des Amps, den er verbraucht ([Modul-Upgrades](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)). Die Penetration-Schritte fügen eine Kristalllinse hinzu. Jeder Amp der Stufe IV braucht 4 [Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) (wie die letzte Stufe der anderen Aufwertungsketten); deshalb verlangt die Technologie eines Amps der Stufe IV zuerst die der Plate.
 
@@ -137,9 +137,9 @@ Ein Helios Beam mit seinen 3 Amps der Stufe IV enthält 4 Teile der letzten Stuf
 
 ### Welcher Verstärker wohin gehört {#which-amp-goes-where}
 
-Ein Schadensverstärker gibt jedem Laser denselben Schaden dazu, ist also auf den **Quantum Lasern** am meisten wert. Ein Krit-Verstärker vervielfacht, was der Laser ohnehin leistet, ist also umso mehr wert, je härter der Laser trifft: Auf dem **Starfire-III** zieht er mit der Schadenslinie gleich, und auf dem **Helios Beam** liegt er etwa 1 % vorn. Die Krit-Chance eines Lasers endet bei 100 %: Drei Crit Amp III oder Crit Amp IV bringen einen Helios Beam (20 % hat er selbst) auf 95 %. Ein Penetration Amp gibt weder Schaden noch Krit-Chance: Er ist für Schiffe, deren Schilde sonst den größten Teil deines Treffers nehmen würden ([unten](#when-is-a-penetration-amp-worth-a-slot)).
+Ein Schadensverstärker gibt jedem Laser denselben Schaden dazu, ist also auf den **Quantum Lasern** am meisten wert. Ein Krit-Verstärker vervielfacht, was der Laser ohnehin leistet, ist also umso mehr wert, je härter der Laser trifft: Auf dem **Starfire-III** zieht er mit der Schadenslinie gleich, und auf dem **Helios Beam** liegt er etwa 1,5 % vorn. Die Krit-Chance eines Lasers endet bei 100 %: Drei Crit Amp III oder Crit Amp IV bringen einen Helios Beam (20 % hat er selbst) auf 95 %. Ein Penetration Amp gibt weder Schaden noch Krit-Chance: Er ist für Schiffe, deren Schilde sonst den größten Teil deines Treffers nehmen würden ([unten](#when-is-a-penetration-amp-worth-a-slot)).
 
-Mit demselben Verstärker bestückt, ist ein Laser immer stärker als der unter ihm, ein besserer Verstärker gleicht also nur einen Teil eines besseren Lasers aus: Ein Quantum Laser III mit drei Damage Amp IV leistet mehr als ein Helios Beam mit drei Damage Amp I, aber weniger als einer mit drei Damage Amp III (bei Teilen derselben Verzauberungsstufe: Ein Quantum Laser III und Damage Amp IV, die auf Ewig geschmiedet wurden, können mit den besten Würfen einen schlichten Helios Beam in Damage Amp III überholen, um Haaresbreite).
+Mit demselben Verstärker bestückt, ist ein Laser immer stärker als der unter ihm, ein besserer Verstärker gleicht also nur einen Teil eines besseren Lasers aus: Ein Quantum Laser III mit drei Damage Amp IV leistet mehr als ein Helios Beam mit drei Damage Amp I, aber weniger als einer mit drei Damage Amp III, und das Schmieden schließt die Lücke nicht (ein Quantum Laser III und Damage Amp IV, die auf Ewig geschmiedet wurden, bleiben auch mit den besten Würfen noch ein Stück hinter einem schlichten Helios Beam in Damage Amp III zurück).
 
 
 ---
@@ -163,7 +163,7 @@ Verbrauchsbatterien, die den Schaden deiner Laser-Salven vervielfachen:
 
 **Woher die neue Munition kommt.** Seit 0.5.0 wird der Experimental Fusion Core nicht mehr verkauft: Du stellst ihn in der [Montage](/wiki/06-Items/Overview.md#the-production-queue) her, 1.000 auf einmal, nachdem du **Military Grade Ammo II** im Forschungszentrum des Skylab erforscht hast. Den Ultra Core kannst du weiter kaufen, und er lässt sich auch herstellen (**Military Grade Ammo I**, 30 Minuten Forschung). Fünf neue Munitionssorten sind nur herstellbar, jede hinter einer Technologie der Familie **Laser Ammo** und jede aus der Munition unter ihr gebaut: **Siphon Battery II** (aus Siphon Battery), **Antimatter Battery I** (aus Siphon Battery II) und **II** (aus Antimatter Battery I und ein wenig [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)), **Dark Matter Ammo I** (aus Rohstoffen und einem Dark Matter) und **II** (aus Dark Matter Ammo I und Dark Matter). Ein Auftrag sind 1.000 Einheiten, 5 bis 15 Minuten, und eine Einheit kostet ungefähr so viel, wie sie wert ist. Der [Munitionsdrucker](/wiki/03-Mechanics/Skylab.md) stellt den Ultra Core und den Experimental Fusion Core ebenfalls her, sobald du sie erforscht hast.
 
-Die **Schilddurchdringung** wird bei jedem Treffer deiner Salven von der Absorption deines Ziels abgezogen: Die Schilde nehmen die Absorption des Ziels abzüglich der Durchdringung (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Deine Penetration Amps und eine Drohnenformation kommen zur Durchdringung der Munition dazu, die ganze Summe steht [weiter unten auf dieser Seite](#shield-penetration-of-a-laser-hit). Gegen ein Schiff mit 85 % (der beste Schild mit den besten Zellen) lassen die 10 % der x4-Munition den Schilden 75 % des Treffers und der Hülle 25 %, und die 20 % der Antimatter-Munition lassen ihnen 65 % und der Hülle 35 %. Sie zählt am meisten gegen Schiffe, deren Hülle neben ihrem Schild klein ist; ein sehr großes Schiff mit 85 % hält so oder so gleich viel aus. Aliens haben keinen nennenswerten Absorptionswert (ihre Schilde nehmen 80 % eines Treffers), und die Durchdringung wird auch davon abgezogen.
+Die **Schilddurchdringung** wird bei jedem Treffer deiner Salven von der Absorption deines Ziels abgezogen: Die Schilde nehmen die Absorption des Ziels abzüglich der Durchdringung (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)). Deine Penetration Amps und eine Drohnenformation kommen zur Durchdringung der Munition dazu, die ganze Summe steht [weiter unten auf dieser Seite](#shield-penetration-of-a-laser-hit). Gegen ein Schiff mit 91 % (der beste Schild mit den besten Zellen) lassen die 10 % der x4-Munition den Schilden 81 % des Treffers und der Hülle 19 %, und die 20 % der Antimatter-Munition lassen ihnen 71 % und der Hülle 29 %. Sie zählt am meisten gegen Schiffe, deren Hülle neben ihrem Schild klein ist; ein sehr großes Schiff mit 91 % hält so oder so gleich viel aus. Aliens haben keinen nennenswerten Absorptionswert (ihre Schilde nehmen 80 % eines Treffers), und die Durchdringung wird auch davon abgezogen.
 
 ### Siphon Battery
 
@@ -194,41 +194,41 @@ Die Siphon Battery ist Munition, um Schilde zu rauben, statt Hüllen zu brechen.
 
 Jeder Lasertreffer zieht Punkte von der Absorption deines Ziels ab, aus bis zu drei Quellen, die sich addieren: deine **Munition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), deine **Penetration Amps** und eine **Drohnenformation** (Gemini +15 %; [Drohnenformationen](/wiki/03-Mechanics/Formations.md)). **Nichts begrenzt die Summe** (eine direkte Rakete addiert ihre eigene Durchdringung und die der Formation ebenso: [Raketen](/wiki/06-Items/Rockets.md)). Die Schilde nehmen dann die Absorption des Ziels abzüglich der Durchdringung des Treffers, die Hülle den Rest ([Schildmechanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Deine Amps zählen als Mittelwert deiner Laser.** Eine Salve ist ein Treffer, also addiert das Spiel die Durchdringung der Amps jedes Lasers (die Laser in deinen Drohnen zählen mit) und nimmt den Mittelwert über deine Laser, jeden nach seinem Schaden gewichtet, wie bei der Krit-Chance. Drei Penetration Amp IV in jedem Laser ergeben 36 %; ein Penetration Amp IV in einem von dreizehn Lasern ergibt etwa 1 %. Eine Wraith hat 13 Laser und 39 Amp-Slots, und alle 39 müssen gefüllt sein, um 36 % zu erreichen.
+- **Deine Amps zählen als Mittelwert deiner Laser.** Eine Salve ist ein Treffer, also addiert das Spiel die Durchdringung der Amps jedes Lasers (die Laser in deinen Drohnen zählen mit) und nimmt den Mittelwert über deine Laser, jeden nach seinem Schaden gewichtet, wie bei der Krit-Chance. Drei Penetration Amp IV in jedem Laser ergeben 60 %; ein Penetration Amp IV in einem von dreizehn Lasern ergibt etwa 1,5 %. Eine Wraith hat 13 Laser und 39 Amp-Slots, und alle 39 müssen gefüllt sein, um 60 % zu erreichen.
 - **Der Hangar zeigt es.** Die Kampfwerte des Hangars haben auf jedem Schiff eine Kachel **Durchdringung** mit dem Wert der Laserverstärker der gezeigten Konfiguration (0,0 % ohne Penetration Amp); Munition und Formation sind nicht darin. Das Fenster **Schiff** im Flug hat am Ende seiner unteren Zeile einen Chip **Durchdringung** (die Chips für Konfiguration und Geschwindigkeit zeigen dafür nur ein Symbol und eine Zahl): Er zeigt die Summe eines Lasertreffers, deine Amps, die getragene Formation und die abgefeuerte Munition, zusammengezählt, sobald du etwas wechselst, und sein Tooltip nennt die drei Teile.
-- **Der beste Laser ergibt 61 % mit x4, 71 % mit Antimatter.** Ein Experimental Fusion Core (10 %), ein Gemini (15 %) und drei Penetration Amp IV in jedem Laser (36 %) ergeben 61 %; eine Antimatter Battery (20 %) an dessen Stelle ergibt 71 %, bei x3 statt x4 Schaden.
-- **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 13,1 bis 13,8 Punkten statt 12. Im besten Aufbau kommen drei ewige zusammen auf 66,4 %, und jeder Punkt davon zählt.
+- **Der beste Laser ergibt 85 % mit x4, 95 % mit Antimatter.** Ein Experimental Fusion Core (10 %), ein Gemini (15 %) und drei Penetration Amp IV in jedem Laser (60 %) ergeben 85 %; eine Antimatter Battery (20 %) an dessen Stelle ergibt 95 %, bei x3 statt x4 Schaden.
+- **Ein Schmiede-Bonus auf einem Penetration Amp IV zählt.** Ein Penetration Amp lässt sich wie die anderen Amps schmieden, und sein einziger Bonus multipliziert die Durchdringung: Ein ewiger Bonus (+9 % bis +15 %) macht einen Penetration Amp IV zu 21,8 bis 23 Punkten statt 20. Im besten Aufbau kommen drei ewige zusammen auf 94 %, und jeder Punkt davon zählt.
 
 | Lasersalve | Munition | Amps (3 Slots) | Formation | Summe |
 |---|---|---|---|---|
 | Experimental Fusion Core allein | 10 % | – | – | **10 %** |
 | Fusion Core + Gemini (das Beste vor den Penetration Amps) | 10 % | – | 15 % | **25 %** |
-| Fusion Core + 3 Penetration Amp I | 10 % | 9 % | – | **19 %** |
-| Fusion Core + 3 Penetration Amp II | 10 % | 18 % | – | **28 %** |
-| Fusion Core + 3 Penetration Amp III | 10 % | 27 % | – | **37 %** |
-| Fusion Core + 3 Penetration Amp IV | 10 % | 36 % | – | **46 %** |
-| Ultra Core + 3 Penetration Amp IV + Gemini (das Beste für jeden Tag) | 5 % | 36 % | 15 % | **56 %** |
-| Fusion Core + 3 Penetration Amp IV + Gemini (der beste Laser) | 10 % | 36 % | 15 % | **61 %** |
+| Fusion Core + 3 Penetration Amp I | 10 % | 15 % | – | **25 %** |
+| Fusion Core + 3 Penetration Amp II | 10 % | 30 % | – | **40 %** |
+| Fusion Core + 3 Penetration Amp III | 10 % | 45 % | – | **55 %** |
+| Fusion Core + 3 Penetration Amp IV | 10 % | 60 % | – | **70 %** |
+| Ultra Core + 3 Penetration Amp IV + Gemini (das Beste für jeden Tag) | 5 % | 60 % | 15 % | **80 %** |
+| Fusion Core + 3 Penetration Amp IV + Gemini (der beste Laser) | 10 % | 60 % | 15 % | **85 %** |
 
 Was das mit den Schilden des Ziels macht: Jede Zelle ist der Anteil eines Treffers, den **die Schilde nehmen / die Hülle nimmt**.
 
-| Verteidiger (Absorption) | Ohne Amps | Fusion Core allein (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (46 %) | Der beste Laser (61 %) |
+| Verteidiger (Absorption) | Ohne Amps | Fusion Core allein (10 %) | Fusion Core + Gemini (25 %) | Fusion Core + 3 Penetration Amp IV (70 %) | Der beste Laser (85 %) |
 |---|---|---|---|---|---|
 | Light Shield Core, keine Zelle (45 %) | 45 / 55 | 35 / 65 | 20 / 80 | 0 / 100 | 0 / 100 |
-| Heavy Shield Core, keine Zelle (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Light Shield Core + Absorption Shield Cell IV (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 9 / 91 | 0 / 100 |
-| Heavy Shield Core + 3 Capacity Shield Cell IV (70 %) | 70 / 30 | 60 / 40 | 45 / 55 | 24 / 76 | 9 / 91 |
-| Der beste Schild ab Werk (85 %) | 85 / 15 | 75 / 25 | 60 / 40 | 39 / 61 | 24 / 76 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (102,2 %) | 100 / 0 | 92 / 8 | 77 / 23 | 56 / 44 | 41 / 59 |
-| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (107,8 %) | 100 / 0 | 98 / 2 | 83 / 17 | 62 / 38 | 47 / 53 |
-| Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 34 / 66 | 19 / 81 |
+| Heavy Shield Core, keine Zelle (55 %) | 55 / 45 | 45 / 55 | 30 / 70 | 0 / 100 | 0 / 100 |
+| Light Shield Core + Absorption Shield Cell IV (57 %) | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
+| Heavy Shield Core + 3 Capacity Shield Cell IV (73 %) | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
+| Der beste Schild ab Werk (91 %) | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und 44 Saison-Shop-Level (109 %) | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
+| Der beste Schild, ewige Schmiede (Höchstwurf) und der Saison-Shop am Limit (114,7 %) | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
+| Jeder Alien (80 %) | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
 
-Der beste Laser leert einen Schildkern ohne Zelle und einen Light Shield Core mit seiner besten Zelle (die Hülle nimmt den ganzen Treffer); ein Heavy Shield Core mit drei Capacity-Zellen behält 9 % jedes Treffers, und der beste Schild behält 24 % davon (41 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (70 %) schon.
+Der beste Laser leert jeden Schildkern, mit seiner besten Zelle oder ohne, und auch einen Heavy Shield Core mit drei Capacity-Zellen (die Hülle nimmt den ganzen Treffer); der beste Schild behält 6 % jedes Treffers (24 % mit den Buffs). Eine Rakete allein leert nie einen Schild (höchstens 35 %), aber eine Lancet III oder eine Rivet III mit einer Stiletto (70 %) schon.
 
 ### Wann lohnt sich ein Penetration Amp für einen Slot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Ein Penetration Amp kontert Absorption, und je höher sie ist, desto mehr: Gegen ein Schiff mit kleiner Hülle bei etwa 101 % (Aufbauten mit Saison-Shop, Schmiede und Rampart) tötet ein Penetration-Aufbau etwa 2,6-mal schneller als der beste schlichte, und gegen den besten Schild ab Werk (85 %) braucht ein Trio Penetration Amps etwa 19 % weniger Zeit als ein Trio Crit Amps derselben Stufe. Gegen Aliens bringt er fast nichts.**
+**Ein Penetration Amp kontert Absorption, und je höher sie ist, desto mehr: Gegen ein Schiff mit kleiner Hülle bei etwa 108 % (Aufbauten mit Saison-Shop, Schmiede und Rampart) tötet ein Penetration-Aufbau etwa 12-mal schneller als der beste schlichte, und gegen den besten Schild ab Werk (91 %) braucht ein Trio Penetration Amps etwa 50 % weniger Zeit als ein Trio Crit Amps derselben Stufe. Gegen Aliens bringt er bei einem Phantasm oder einem Goombah bis zu 20 % und bei einem Bulwark oder einem Crystalys nichts.**
 
-- **Er gibt keinen Schaden.** Auf einem Helios Beam machen drei Penetration Amp IV 149 Schaden pro Salve (Munition x1, der Mittelwert aus Wurf und Krits), wo drei Damage Amp IV 308 und drei Crit Amp IV 312 machen: etwa die Hälfte. Was er zurückholt, ist der Anteil des Schilds, er lohnt sich also nur, wo die Hülle neben dem Schild klein und die Absorption hoch ist; gegen eine Wraith oder einen Ironclad, deren große Hülle ohnehin hält, ist ein schlichtes Damage- oder Crit-Set etwa ebenso schnell (ein Penetration Amp in einem Laser bringt höchstens 5 %).
-- **Aliens.** Ihre Schilde nehmen 80 % eines Treffers abzüglich deiner Durchdringung, es wirkt also auch bei ihnen, aber ein Damage oder Crit Amp der Stufe tötet sie ebenso schnell oder schneller, außer bei einem Phantasm oder einem Goombah, die mit einer Formation bekämpft werden: Dort bringt ein Penetration Amp in einem Laser bis zu 5 %.
+- **Er gibt keinen Schaden.** Auf einem Helios Beam machen drei Penetration Amp IV 153 Schaden pro Salve (Munition x1, der Mittelwert aus Wurf und Krits), wo drei Damage Amp IV 314 und drei Crit Amp IV 319 machen: etwa die Hälfte. Was er zurückholt, ist der Anteil des Schilds, er lohnt sich also am meisten dort, wo die Hülle neben dem Schild klein und die Absorption hoch ist; gegen eine Wraith oder einen Ironclad auf dem besten Schild ab Werk, deren große Hülle länger hält, bringt er bis zu 38 %, und einen Ironclad, dessen Schilde über 100 % hinaus gebufft sind, bekämpft man weiterhin am besten mit einem schlichten Crit-Set.
+- **Aliens.** Ihre Schilde nehmen 80 % eines Treffers abzüglich deiner Durchdringung, und der beste Laser (85 %) durchschlägt sie ganz, also wirkt es auch bei ihnen: Ein Penetration Amp gehört bei einem Phantasm oder einem Goombah in den besten Aufbau, mit Formation oder ohne (er bringt 11 bis 20 %), und bei einem Seeker mit einem Gemini (8 %). Ein Damage oder Crit Amp der Stufe tötet einen Bulwark oder einen Crystalys weiterhin ebenso schnell oder schneller.
 - **Was er kostet.** Jeder Penetration Amp IV braucht 4 Dark Matter Plates (20 Dark Matter), wie jeder Amp der Stufe IV, eine Wraith, die ihre 39 Slots füllt, braucht also 156 Plates, 780 Dark Matter.

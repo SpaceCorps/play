@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Masmorras -->
 # Masmorras {#dungeons}
 
@@ -6,7 +6,9 @@
 
 Uma **masmorra** é um labirinto fechado com um **Senhor da guerra** no fim (antes da 0.5.2 o jogo a chamava de portão). Um vice-líder ou o líder de um [clã](/wiki/03-Mechanics/Clans.md) abre uma e a paga com o banco do clã, e os membros do clã voam juntos para dentro como um único [grupo](/wiki/03-Mechanics/Groups.md). Eles abrem caminho entre os alienígenas do labirinto, abrem zonas de saque para escolher uma carta em cada uma e derrubam o Senhor da guerra. Todo piloto que participou da luta é pago quando o Senhor da guerra cai, dentro dos limites mais abaixo. As masmorras ficam na aba **Masmorras** da página do clã.
 
-Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro dele um colega de clã nem qualquer outra pessoa. Os alienígenas não pagam nada. O pagamento é só do Senhor da guerra, então a única maneira de ser pago é estar na luta quando ele cai.
+Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro dele um colega de clã nem qualquer outra pessoa. Os alienígenas pagam ao cair, como os alienígenas do jogo em que são baseados ([o que os alienígenas pagam](#what-the-aliens-pay)). A conclusão é do Senhor da guerra, então a única maneira de ser pago por ela é estar na luta quando ele cai.
+
+Uma masmorra não é um [portão solo](/wiki/03-Mechanics/Solo-Gates.md). Um portão solo é uma arena em que só você voa, aberta com peças que você encontra no Materializador de Energia; os dois têm regras, pagamentos e limites separados.
 
 ## Em resumo {#at-a-glance}
 
@@ -22,10 +24,10 @@ Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro
 - **Labirintos**: 8; uma é sorteada quando uma masmorra é aberta
 - **Sala do chefe**: Abre quando 75% dos Crystalys e de seus Twins são destruídos, arredondado para cima
 - **Reunião**: 10 min para reunir e iniciar. Uma masmorra que ninguém inicia se fecha, e o preço volta ao banco do clã
-- **Limite de tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min a partir do início. Quando esgota, a masmorra falha e não paga nada
+- **Limite de tempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min a partir do início. Quando esgota, a masmorra falha e a conclusão não paga nada
 - **Vazio**: Uma masmorra sem ninguém dentro por 3 min falha
 - **Depois que o Senhor da guerra cai**: A masmorra fica aberta por 2 min, para os pilotos que estão dentro
-- **Voltar**: Um piloto que saiu ou foi destruído pode voltar a entrar voando 3 vezes, com 20 s entre elas
+- **Voltar**: Um piloto que saiu ou foi destruído pode voltar a entrar voando quantas vezes quiser, com pelo menos 20 s entre duas voltas
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ Uma masmorra é uma luta só contra os alienígenas: ninguém pode atacar dentro
 1. **Invocar.** Na aba Masmorras, um [vice-líder ou o líder](/wiki/03-Mechanics/Clans.md#hierarchy-roles) escolhe uma fase e aperta **Invocar**. O preço sai do [banco do clã](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), e a masmorra recebe um dos mapas listados acima. Uma masmorra que ninguém inicia se fecha, e o preço volta ao banco.
 2. **Entrar.** Os membros do clã apertam **Entrar** na janela do Clã enquanto estão voando, saltam pelo portal do clã ou apertam **Entrar** no cartão de aviso (veja Entrar). Todos pousam na sala inicial, e os pilotos lá dentro formam o grupo da masmorra.
 3. **Iniciar.** A sala inicial é uma sala pequena numa ponta do labirinto, e a porta dela fica fechada enquanto a masmorra se reúne. Não há alienígenas nela, então é seguro esperar ali. A masmorra **inicia sozinha** quando todos os pilotos que ela espera estão dentro e o grupo é grande o bastante. Ele espera os membros do clã que estão online, não ausentes e no grupo de um piloto que entrou, e inicia na hora quando o grupo está cheio. O piloto que abriu a masmorra, ou um oficial, pode apertar **Iniciar** para começar mais cedo com os pilotos que estiverem dentro, se forem o bastante. Um piloto que sai deixa de ser esperado. Quando a masmorra inicia, a porta se abre para sempre, e depois disso só podem voltar os pilotos que já estavam dentro.
-4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra, numa sala trancada. O labirinto é escuro: você só vê o que o grupo explorou e o que está perto das naves dele. Os alienígenas dormem em bandos nos corredores, e um bando que acorda caça o grupo pelo labirinto.
+4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra, numa sala trancada. O labirinto é escuro: você só vê o que o grupo explorou e o que está perto das naves dele. Os alienígenas esperam em bandos nos corredores, e um bando sai no momento em que um piloto voa para o trecho de corredor onde ele espera, e então caça o grupo pelo labirinto.
 5. **Abrir as zonas de saque.** Anéis no labirinto marcam as zonas. Segure uma e o grupo vota numa carta, que é paga junto com o pagamento do Senhor da guerra.
 6. **Destrancar a sala do chefe.** Destrua três quartos dos Crystalys e de seus Twins do labirinto, e a porta da sala do Senhor da guerra se abre. Até lá, o Senhor da guerra não pode ser ferido. Os outros alienígenas ficam onde estão, e você também pode destruí-los.
 7. **Derrotar o Senhor da guerra.** Quebre seu escudo e seu casco e responda às suas habilidades. Quando ele cai, a masmorra está concluída.
@@ -46,7 +48,7 @@ Para entrar em uma masmorra você precisa de uma **nave em voo**, então decole 
 
 Um vice-líder ou o líder abre uma masmorra, uma de cada vez para o clã, e só até o número de masmorras por dia. O banco do clã precisa ter o preço. Um clã só pode abrir uma fase depois de concluir a anterior.
 
-Dentro de uma masmorra você não pode trocar de mundo, e a Jump CPU e a Base CPU não funcionam. O botão **Sair** da janela Masmorra do clã leva você para fora. Ele pede confirmação antes, a não ser que o Senhor da guerra já tenha caído: aí você sai na hora. Um piloto que saiu, ou que foi destruído, pode voltar algumas vezes, com uma curta espera entre elas.
+Dentro de uma masmorra você não pode trocar de mundo, e a Jump CPU e a Base CPU não funcionam. O botão **Sair** da janela Masmorra do clã leva você para fora. Ele pede confirmação antes, a não ser que o Senhor da guerra já tenha caído: aí você sai na hora. Um piloto que saiu, ou que foi destruído, pode voltar a entrar; a lista em **Em resumo** diz quantas vezes e quanto ele espera entre duas voltas.
 
 ### O portal do clã e o aviso {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Cada masmorra é um labirinto fechado num mapa próprio, um dos mapas da lista a
 
 ## Os alienígenas {#the-aliens}
 
-Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corredores, nunca numa sala, e um bando acorda quando um piloto se aproxima. Um bando acordado não espera por você: ele caça o grupo pelo labirinto, e um bando que perde todo mundo volta para onde dormia e se cura. Alguns bandos estão acordados desde o primeiro segundo, parados nos corredores longe da entrada, até um piloto se aproximar. A masmorra mantém só um certo número de alienígenas no ar de cada vez, e esse número cresce com o tamanho do grupo, então um bando que acorda pode ter de esperar vaga, e um bando que você destrói deixa o próximo entrar. Um grupo maior encontra mais alienígenas, em proporção, um menor encontra menos, e um tipo de alienígena nunca cai abaixo de um. Um bando que ainda espera vaga quando todos os pilotos se afastaram volta a dormir, e acorda de novo quando um piloto se aproxima.
+Quatro tipos de alienígenas guardam o labirinto. Eles esperam em bandos nos corredores, nunca numa sala, e um bando sai no momento em que um piloto voa para o trecho de corredor onde ele espera. Não há nada no mapa onde nenhum piloto esteve, então nenhum bando fica atrás das paredes, no fundo do labirinto, antes de você chegar. Um bando não espera vaga: ele está no mapa nesse mesmo momento, por mais alienígenas que já estejam fora. Um trecho de corredor guarda um bando só, então no trecho para onde você voa há um bando para enfrentar e não a soma de vários (um grupo de dez tem mais bandos do que trechos, e ali um trecho guarda dois, que saem os dois). Um bando que saiu não espera por você: ele caça o grupo pelo labirinto, e um bando que perde todo mundo volta para onde saiu e se cura. Um bando sai uma vez só: o que você destrói não volta, e o que você deixa para trás voando continua no mapa. As ondas das zonas de saque são diferentes: a masmorra mantém só um certo número de alienígenas no ar de cada vez, e esse número cresce com o tamanho do grupo, então uma onda que passaria dele espera vaga, e um bando que você destrói deixa a próxima onda entrar. Um grupo maior encontra mais alienígenas, em proporção, um menor encontra menos, e um tipo de alienígena nunca cai abaixo de um.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Quatro tipos de alienígenas guardam o labirinto. Eles dormem em bandos nos corr
 | Para abrir a sala do chefe | 34 | 34 | 34 |
 | A onda de uma zona de saque | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys | 12 × Dungeon Goombah e 1 × Dungeon Crystalys |
 
-- **Vivos ao mesmo tempo**: No máximo 10 por piloto do grupo, e 70 no total
+- **A onda de uma zona de saque espera vaga**: Quando há 10 vivos por piloto do grupo, ou 70 no total
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 
 - **Parece com**: Goombah
 - **Voa em bandos de**: 6
+- **Recompensa e saque como**: Goombah
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 | Velocidade | 180 | 180 | 180 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | 1.800 | 1.800 | 1.800 |
+| Recompensa e saque, múltiplo do original | ×1 | ×1,5 | ×2 |
+| Créditos por destruição | 15.000 | 22.500 | 30.000 |
+| Thulium por destruição | 75 | 113 | 150 |
+| Experiência por destruição | 3.000 | 4.500 | 6.000 |
+| Honra por destruição | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Parece com**: Pirate Boss
 - **Voa em bandos de**: 2
+- **Recompensa e saque como**: Pirate Boss
 - **Foguete**: Um foguete reto a cada 5 s, alcance de 1.000 unidades
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 300.000 | 450.000 | 600.000 |
+| Casco | 250.000 | 375.000 | 500.000 |
 | Escudo | 50.100 | 75.150 | 100.200 |
 | Dano dos lasers (uma salva por segundo) | 200 | 300 | 400 |
 | Dano do foguete | 5.000 | 7.500 | 10.000 |
 | Velocidade | 110 | 110 | 110 |
 | Alcance dos lasers | 700 | 700 | 700 |
 | Raio de agressão | 1.800 | 1.800 | 1.800 |
+| Recompensa e saque, múltiplo do original | ×1 | ×1,5 | ×2 |
+| Créditos por destruição | 145.000 | 217.500 | 290.000 |
+| Thulium por destruição | 725 | 1.088 | 1.450 |
+| Experiência por destruição | 29.000 | 43.500 | 58.000 |
+| Honra por destruição | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Parece com**: Crystalys
 - **Voa em bandos de**: 2
+- **Recompensa e saque como**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 | Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 900 | 900 | 900 |
 | Raio de agressão | 2.400 | 2.400 | 2.400 |
+| Recompensa e saque, múltiplo do original | ×1 | ×1,5 | ×2 |
+| Créditos por destruição | 75.000 | 112.500 | 150.000 |
+| Thulium por destruição | 200 | 300 | 400 |
+| Experiência por destruição | 12.000 | 18.000 | 24.000 |
+| Honra por destruição | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Parece com**: Crystalys, 1,4 vezes maior
 - **Voa em bandos de**: 1
+- **Recompensa e saque como**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Cada tipo por vez. O casco e o escudo são os valores de sempre vezes o multipli
 | Velocidade | 230 | 230 | 230 |
 | Alcance dos lasers | 900 | 900 | 900 |
 | Raio de agressão | 2.400 | 2.400 | 2.400 |
+| Recompensa e saque, múltiplo do original | ×2 | ×3 | ×4 |
+| Créditos por destruição | 150.000 | 225.000 | 300.000 |
+| Thulium por destruição | 400 | 600 | 800 |
+| Experiência por destruição | 24.000 | 36.000 | 48.000 |
+| Honra por destruição | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## O Senhor da guerra {#the-warlord}
 
-O Senhor da guerra espera na sala do fim do labirinto, e é a única coisa numa masmorra que paga. É um Crystalys que cresceu enorme. O casco e o escudo dele crescem com o tamanho do grupo: quanto mais pilotos entram, mais resistente ele é, em proporção. Ele nunca sai da sala dele, com a porta fechada ou aberta: fica dentro das paredes da sala e não caça pelos corredores. Um piloto do lado de fora só consegue atraí-lo até a borda da sala, e por uma porta aberta ele ainda atira em tudo que o laser dele alcança. Ele usa as habilidades uma de cada vez, em ordem aleatória, cada uma com a sua própria recarga.
+O Senhor da guerra espera na sala do fim do labirinto, e a queda dele é o que paga a conclusão. Ele não paga por uma destruição própria, como os outros alienígenas pagam. É um Crystalys que cresceu enorme. O casco e o escudo dele crescem com o tamanho do grupo: quanto mais pilotos entram, mais resistente ele é, em proporção. Ele nunca sai da sala dele, com a porta fechada ou aberta: fica dentro das paredes da sala e não caça pelos corredores. Um piloto do lado de fora só consegue atraí-lo até a borda da sala, e por uma porta aberta ele ainda atira em tudo que o laser dele alcança. Ele usa as habilidades uma de cada vez, em ordem aleatória, cada uma com a sua própria recarga.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ O casco e o escudo acima são para um grupo de 5. Eles crescem com o grupo: são
 
 ### A sala trancada {#the-locked-room}
 
-A porta da sala do Senhor da guerra fica fechada desde o momento em que a masmorra é aberta, e enquanto está fechada o Senhor da guerra não pode ser ferido: nenhum laser, foguete ou explosão o atinge, e ele não usa habilidade nenhuma. A porta se abre para sempre quando **três quartos dos Crystalys e de seus Twins** com os quais a masmorra foi feita são destruídos, arredondados para cima (a tabela dos alienígenas acima os conta para um grupo de 5, e a última linha diz quantos são necessários). Contam os Crystalys e os Twins dos bandos do labirinto, inclusive os dos bandos que ficam nos corredores desde o primeiro segundo, e quem quer que os destrua. Para a porta não contam os outros alienígenas, as ondas das zonas de saque, os Goombahs que o Senhor da guerra chama nem o próprio Senhor da guerra.
+A porta da sala do Senhor da guerra fica fechada desde o momento em que a masmorra é aberta, e enquanto está fechada o Senhor da guerra não pode ser ferido: nenhum laser, foguete ou explosão o atinge, e ele não usa habilidade nenhuma. A porta se abre para sempre quando **três quartos dos Crystalys e de seus Twins** com os quais a masmorra foi feita são destruídos, arredondados para cima (a tabela dos alienígenas acima os conta para um grupo de 5, e a última linha diz quantos são necessários). Contam os Crystalys e os Twins dos bandos do labirinto, e quem quer que os destrua. Um bando só sai quando um piloto voa para o seu trecho de corredor, então o grupo precisa achar bandos suficientes para abrir a porta. Para a porta não contam os outros alienígenas, as ondas das zonas de saque, os Goombahs que o Senhor da guerra chama nem o próprio Senhor da guerra.
 
-A janela Masmorra do clã conta quantos deles ainda faltam destruir para abrir a sala e diz, numa etiqueta, que o Senhor da guerra não pode ser ferido, e uma mensagem avisa quando a sala é destrancada. Um bando que ainda dorme conta por inteiro, então o grupo precisa achar os Crystalys e seus Twins no labirinto. **Os outros alienígenas não somem quando a porta se abre.** Eles ficam no labirinto, acordam quando um piloto se aproxima e podem ser destruídos como antes, então um grupo que quiser pode destruir todos antes de enfrentar o Senhor da guerra: a contagem de alienígenas na janela vai até todos os alienígenas com que a masmorra foi feita e aparece cheia quando não sobra nenhum. Eles não pagam nada, e os que ainda estão vivos quando o Senhor da guerra cai vão embora com a masmorra. No minimapa a porta é uma linha vermelha enquanto está trancada e uma verde quando está aberta. Uma masmorra nunca é uma armadilha: o limite de tempo ainda encerra uma masmorra cuja porta continua fechada, e um administrador pode destrancar a sala de uma masmorra travada.
+A janela Masmorra do clã conta quantos deles ainda faltam destruir para abrir a sala e diz, numa etiqueta, que o Senhor da guerra não pode ser ferido, e uma mensagem avisa quando a sala é destrancada. Um bando que ainda não saiu conta por inteiro, então o grupo precisa achar os Crystalys e seus Twins no labirinto e voar para os trechos de corredor deles. **Os outros alienígenas não somem quando a porta se abre.** Eles ficam no labirinto, saem quando um piloto voa para o trecho de corredor deles e podem ser destruídos como antes, então um grupo que quiser pode destruir todos antes de enfrentar o Senhor da guerra: a contagem de alienígenas na janela vai até todos os alienígenas com que a masmorra foi feita e aparece cheia quando não sobra nenhum. Eles pagam ao cair ([o que os alienígenas pagam](#what-the-aliens-pay)), e os que ainda estão vivos quando o Senhor da guerra cai vão embora com a masmorra. No minimapa a porta é uma linha vermelha enquanto está trancada e uma verde quando está aberta. Uma masmorra nunca é uma armadilha: o limite de tempo ainda encerra uma masmorra cuja porta continua fechada, e um administrador pode destrancar a sala de uma masmorra travada.
 
 ### Suas habilidades {#its-abilities}
 
@@ -314,7 +340,7 @@ As cartas com uma única cópia são **equipamento**, e só uma masmorra de fase
 
 Quando o Senhor da guerra cai, todo piloto que mereceu é pago, uma vez por partida. As cartas escolhidas pelo grupo vêm além do pagamento da fase. Não há multiplicador de mundo: o pagamento é o mesmo em todos os mundos.
 
-As **Orvium Reinforced Plates** não são uma carta da votação. Elas fazem parte do pagamento da fase, e cada piloto pago as recebe uma vez pela conclusão. Os itens que uma masmorra paga não são vendáveis: você não pode [vendê-los no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
+As **Orvium Reinforced Plates** não são uma carta da votação. Elas fazem parte do pagamento da fase, e cada piloto pago as recebe uma vez pela conclusão. Os itens que a conclusão paga não são vendáveis: você não pode [vendê-los no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ As **Orvium Reinforced Plates** não são uma carta da votação. Elas fazem par
 
 ### Quem é pago {#who-is-paid}
 
-Os alienígenas nunca pagam. Uma partida é jogada por inteiro mesmo quando não paga nada, e a tela de resultado diz por quê. A entrada nunca é recusada porque você já foi pago por uma fase: essa partida simplesmente não paga.
+Estas regras decidem quem é pago **pela conclusão**. Uma partida é jogada por inteiro mesmo quando não paga nada, e a tela de resultado diz por quê. A entrada nunca é recusada porque você já foi pago por uma fase: a conclusão simplesmente não paga. Os alienígenas leem as mesmas regras, destruição por destruição, menos a parte na luta ([o que os alienígenas pagam](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ A experiência de uma fase concluída e paga conta para os seus pontos de rankin
 
 <!-- dungeons-totals:end -->
 
+### O que os alienígenas pagam {#what-the-aliens-pay}
+
+Cada alienígena de uma masmorra paga ao cair e solta saque, como o alienígena do jogo em que é baseado: um Dungeon Goombah como um [Goombah](/wiki/04-Aliens/Goombah.md), um Dungeon Crystalys e seu Twin como um [Crystalys](/wiki/04-Aliens/Crystalys.md), um Dungeon Pirate como o Pirate Boss do [Enxame Pirate](/wiki/05-Swarms/Pirate-Swarm.md). O que uma destruição paga e solta é o do original **vezes a proporção entre o casco e o escudo dos dois juntos**: um alienígena tão resistente quanto o original paga o que o original paga, um duas vezes mais resistente paga o dobro e solta o dobro de cada item, e assim por diante. A seção de cada tipo de alienígena em [Os alienígenas](#the-aliens) traz a proporção e o pagamento de uma destruição em cada fase.
+
+- **Quem é pago.** Os pilotos que feriram o alienígena, conforme o dano que causaram, como nos alienígenas dos enxames: um piloto ou grupo que só o raspou não recebe nada, um grupo é pago como um só, e dentro de um grupo os membros que estão perto dos destroços e atiraram há pouco dividem por nível o que é pago. Um piloto que não causou dano ao alienígena não recebe nada por ele, por mais perto que tenha voado, e um alienígena que nenhum piloto feriu não paga ninguém. Só entram os pilotos que as regras acima pagam: quem saiu, não ficou dentro por tempo suficiente, já foi pago hoje pela fase ou já teve todas as conclusões pagas da semana não recebe nada pelos alienígenas, e os outros ficam com a parte dele. Uma destruição não pede a parte na luta: ter ferido o alienígena é a parte. Se o membro de um grupo que mais causou dano foi destruído ou não está mais no mapa, os membros que estão perto dos destroços e atiraram há pouco dividem o pagamento sem ele.
+- **O que é pago.** Créditos, Thulium, experiência e honra, uma vez por destruição. O pagamento é o que o original paga em Alpha, em todos os mundos: uma masmorra não tem multiplicador de mundo. Seus boosters, o Premium, a formação e os bônus do seu clã valem como em qualquer destruição, e a experiência conta para seus [pontos PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) como a da conclusão.
+- **O saque.** É sorteado com as chances do original, e depois cada quantidade é multiplicada pela proporção (uma fração de unidade é uma chance de mais uma). Cai como uma caixa nos destroços, primeiro para o piloto que mais causou dano e seu clã, depois para qualquer um no mapa, e então some. O mapa comporta só um certo número de caixas por vez, então pegue-as pelo caminho, e o que ficar no mapa quando a masmorra fechar vai embora com ela. Ao contrário dos itens da conclusão, são drops comuns de alienígena: podem ser [vendidos no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items) quando o item é vendável.
+- **O que não paga.** O Senhor da guerra não paga destruição, só a conclusão. Os Goombahs que ele chama não pagam nada, porque o chamado volta enquanto a luta durar.
+- **Não é uma destruição do jogo.** Uma destruição numa masmorra não conta para missões, conquistas, contadores de destruições, pontos de reset, os pontos PvE de uma destruição, drones nem P.E.T.s: um Dungeon Goombah não é um Goombah do jogo.
+- **Os limites.** Os limites do dia e da semana acima seguram o pagamento dos alienígenas como seguram o da conclusão: quem já foi pago hoje pela fase, ou já teve todas as conclusões pagas da semana, também não recebe nada pelos alienígenas dela, e o bolo de uma destruição vai para os outros. Uma masmorra que não é concluída paga suas destruições aos pilotos que as regras pagam, e nada pela conclusão.
+
 ## A recompensa do banco do clã {#clan-bank-reward}
 
 O banco do clã também é pago, em créditos e não em Thulium, na primeira vez que o clã conclui uma fase em uma temporada. O clã precisa ser antigo o bastante, e pilotos suficientes dessa partida precisam ser pagos. O banco é pago uma vez por fase em uma temporada.
@@ -383,4 +420,4 @@ O banco do clã também é pago, em créditos e não em Thulium, na primeira vez
 - Use as paredes: os lasers não as atravessam, os anéis vermelhos das auras do Senhor da guerra param nelas, e uma parede detém também os foguetes dele.
 - Guarde uma EMP Charge para a Barragem de foguetes.
 - Quando o Senhor da guerra chamar seus Goombahs, destrua-os primeiro: ele não pode ser ferido até eles sumirem. Na Zona do Caos, saia do anel antes de atirar.
-- Fique de olho no relógio da janela Masmorra do clã. Quando o tempo acaba, a masmorra fracassa e não paga nada.
+- Fique de olho no relógio da janela Masmorra do clã. Quando o tempo acaba, a masmorra fracassa e a conclusão não paga nada.

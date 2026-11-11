@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3cb48a66eac99d6 -->
+<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -27,7 +27,7 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 ## Kutatás {#research}
 
-- **Páncélzatfoglalatok.** Ennek a hajónak 7 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (7 darab) 105 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** Ennek a hajónak 7 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (7 darab) 175 000 hajótestet ad hozzá.
 - **Dizájnok.** Ennek a hajónak 3 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
 
 | Dizájn | Mit változtat |

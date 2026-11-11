@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cbcea4d9d74c1d6c -->
+<!-- wiki-i18n source: 1c8450dd23b59a24 -->
 <!-- wiki-i18n title: 선체 장갑 -->
 # 선체 장갑 {#hull-plating}
 
@@ -28,13 +28,13 @@ Hull Plating I => Hull Plating II => Hull Plating III
 
 | 아이템 | 늘어나는 선체 | 얻는 방법 |
 | :--- | ---: | :--- |
-| **Hull Plating I** | 5,000 | 상점, 5,000 Thulium |
-| **Hull Plating II** | 10,000 | 어셈블리, Hull Plating I에서 |
-| **Hull Plating III** | 15,000 | 어셈블리, Hull Plating II에서 |
+| **Hull Plating I** | 8,000 | 상점, 5,000 Thulium |
+| **Hull Plating II** | 15,000 | 어셈블리, Hull Plating I에서 |
+| **Hull Plating III** | 25,000 | 어셈블리, Hull Plating II에서 |
 
 Hull Plating I은 구매합니다. **II와 III는 업그레이드입니다.** 어셈블리는 한 단계 아래 장갑 하나(인벤토리에 그냥 있는 것)를 소모하고, Thulium, 재료, **Dark Matter Plate**를 요구합니다. II는 5개, III는 8개로, 다른 장비의 마지막 티어가 요구하는 4개(와 Ancient Control Unit 1개)보다 많습니다. 둘 다 먼저 기술이 필요하며, [연구](/wiki/03-Mechanics/Research.md#tree-hull-plating) 페이지의 Hull Plating 트리에 있습니다. II는 1일과 Dark Matter 25개, III는 2일과 Dark Matter 40개가 들며, Dark Matter Plate 자체의 기술에 더해 필요합니다. 위의 트리에 가격, 재료, 시간이 나와 있습니다.
 
-[대장간](/wiki/06-Items/Forge.md)은 모든 장갑을 다룹니다. 업그레이드하면 소모한 장갑의 단련 등급과 보너스가 이어집니다. 장갑의 능력치는 선체 하나뿐이므로 보너스도 하나만 가지며, 등급에 따라 +2%에서 +15%입니다. 영원한 등급의 Hull Plating III는 최대 17,250을 더합니다. [경매장](/wiki/03-Mechanics/Auction.md)에는 Hull Plating II와 III를 올릴 수 있고, 상점에서 파는 Hull Plating I은 올릴 수 없습니다.
+[대장간](/wiki/06-Items/Forge.md)은 모든 장갑을 다룹니다. 업그레이드하면 소모한 장갑의 단련 등급과 보너스가 이어집니다. 장갑의 능력치는 선체 하나뿐이므로 보너스도 하나만 가지며, 등급에 따라 +2%에서 +15%입니다. 영원한 등급의 Hull Plating III는 최대 28,750을 더합니다. [경매장](/wiki/03-Mechanics/Auction.md)에는 Hull Plating II와 III를 올릴 수 있고, 상점에서 파는 Hull Plating I은 올릴 수 없습니다.
 
 ## 장갑 슬롯 {#hull-plate-slots}
 
@@ -42,10 +42,10 @@ Hull Plating I은 구매합니다. **II와 III는 업그레이드입니다.** �
 
 | 함선 | 장갑 슬롯 | Hull Plating III 한 벌이 더하는 선체 |
 | :--- | ---: | ---: |
-| **Paragon** | 5 | 75,000 |
-| **Storm** | 7 | 105,000 |
-| **Ironclad** | 15 | 225,000 |
-| **Wraith** | 10 | 150,000 |
+| **Paragon** | 5 | 125,000 |
+| **Storm** | 7 | 175,000 |
+| **Ironclad** | 15 | 375,000 |
+| **Wraith** | 10 | 250,000 |
 
 - **처음에는 모두 잠겨 있습니다.** 슬롯은 Skylab에서 연구하면 열립니다. 슬롯마다 기술이 하나이며, 1시간과 Dark Matter 10개로 첫 번째부터 순서대로 연구합니다. [연구](/wiki/03-Mechanics/Research.md#ship-technologies) 화면에서는 함선의 슬롯이 슬롯마다 점이 하나씩 붙은 카드 한 장으로 보입니다.
 - **함선 한 척이 아니라 함선의 종류입니다.** Paragon을 위해 연 슬롯은 Paragon의 모든 디자인에서도 열려 있습니다([함선 디자인](/wiki/03-Mechanics/Ship-Designs.md)). 기술은 영구히 내 것입니다. 초기화 뒤에도 남습니다.

@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: eb868ee753081e77 -->
+<!-- wiki-i18n source: ac7ece9cd18ca13a -->
 <!-- wiki-i18n title: Logros -->
 # Logros {#achievements}
 
-Los logros son las metas de toda la carrera de un piloto: destruir a tu primer alienígena, alcanzar el nivel 21, tener mil millones de créditos, sobrevivir a un reinicio. El juego los cuenta por ti. Hay **42**, repartidos en **8** grupos y **5** categorías. Cada uno paga **una vez por cuenta, para siempre**: créditos por todos y, por la mayoría, un **título** que llevar junto a tu nombre. Un reinicio nunca te quita un logro, su recompensa ni su título.
+Los logros son las metas de toda la carrera de un piloto: destruir a tu primer alienígena, alcanzar el nivel 21, tener mil millones de créditos, sobrevivir a un reinicio. El juego los cuenta por ti. Hay **50**, repartidos en **8** grupos y **5** categorías. Cada uno paga **una vez por cuenta, para siempre**: créditos por todos y, por la mayoría, un **título** que llevar junto a tu nombre. Un reinicio nunca te quita un logro, su recompensa ni su título.
 
 **En un minuto**
 
 - Abre **Comunidad › Logros** en la estación para ver cada meta, cuánto llevas y qué paga.
 - La categoría (Común, Poco común, Raro, Épico o Legendario) fija los créditos: cuanto más difícil es la meta, más alta es la categoría.
 - Cobras en el momento en que alcanzas una meta, en vuelo o en la estación. Una tarjeta muestra el logro y su recompensa, y el Registro de juego guarda una línea.
-- **5** de los 42 están ocultos: la página los muestra como tarjetas cerradas hasta que los desbloqueas. Cuentan entre los 42 y aquí no se nombran.
+- **5** de los 50 están ocultos: la página los muestra como tarjetas cerradas hasta que los desbloqueas. Cuentan entre los 50 y aquí no se nombran.
 - En la versión de Steam tus logros también aparecen en tu perfil de Steam, una vez que hayas vinculado tu cuenta (mira más abajo).
 
 ## Categorías y recompensas {#tiers-and-rewards}
@@ -18,17 +18,17 @@ Las cinco categorías pagan lo mismo por cada logro que contienen, una sola vez.
 
 | Categoría | Logros | Créditos por logro |
 | :--- | ---: | ---: |
-| Común | 10 | 50.000 |
-| Poco común | 8 | 150.000 |
-| Raro | 12 | 500.000 |
-| Épico | 7 | 2.000.000 |
-| Legendario | 5 | 5.000.000 |
+| Común | 11 | 50.000 |
+| Poco común | 9 | 150.000 |
+| Raro | 16 | 500.000 |
+| Épico | 8 | 2.000.000 |
+| Legendario | 6 | 5.000.000 |
 
-Los 42 juntos pagan **46.700.000** créditos, una vez en la vida de un piloto.
+Los 50 juntos pagan **55.900.000** créditos, una vez en la vida de un piloto.
 
 ## Los logros {#the-achievements}
 
-Los 37 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo cuenta a lo largo de toda tu carrera.
+Los 45 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo cuenta a lo largo de toda tu carrera.
 
 ### Combate {#group-combat}
 
@@ -40,6 +40,14 @@ Los 37 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Azote del vacío | Destruye 100.000 alienígenas. | Legendario |
 | Rompeenjambres | Destruye 500 miembros de enjambres. | Raro |
 | As | Destruye a 100 pilotos. | Raro |
+| Grieta cerrada | Completa la Alpha Rift en solitario. | Común |
+| Brecha sellada | Completa la Beta Breach en solitario. | Poco común |
+| Fundición clausurada | Completa la Gamma Foundry en solitario. | Raro |
+| Asedio roto | Rompe el Delta Siege en solitario. | Raro |
+| Cámara acorazada abierta | Abre la Omega Vault en solitario. | Épico |
+| Guardián de las puertas | Completa las cinco puertas en solitario: Alpha, Beta, Gamma, Delta y Omega. | Legendario |
+| Intocable | Completa una puerta en solitario sin perder una vida. | Raro |
+| Contra el reloj | Completa una puerta en solitario en su tiempo más corto o menos: 10, 15, 25, 35 o 50 minutos, de Alpha a Omega. | Raro |
 
 ### Piloto {#group-pilot}
 
@@ -69,7 +77,7 @@ Los 37 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Constructor de estaciones | Construye 5 módulos distintos del Skylab. | Común |
 | Equipo completo | Construye los 16 módulos del Skylab. | Épico |
 | Erudito | Investiga 50 tecnologías. | Poco común |
-| Archivista | Investiga las 179 tecnologías. | Legendario |
+| Archivista | Investiga las 181 tecnologías. | Legendario |
 
 ### Flota {#group-fleet}
 
@@ -115,7 +123,7 @@ Un logro oculto que sigue bloqueado es una tarjeta cerrada, sin meta y sin barra
 
 ## Títulos {#titles}
 
-Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de los 42 logros dan uno, tuyo para siempre cuando desbloqueas el logro. Los títulos también llegan al final de una temporada (tu rango, el mejor piloto de cada corporación y el piloto con más puntos PvE) y del equipo del juego, como el título **Pioneer** para todas las cuentas que existían el día del lanzamiento del juego en Steam.
+Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de los 50 logros dan uno, tuyo para siempre cuando desbloqueas el logro. Los títulos también llegan al final de una temporada (tu rango, el mejor piloto de cada corporación y el piloto con más puntos PvE) y del equipo del juego, como el título **Pioneer** para todas las cuentas que existían el día del lanzamiento del juego en Steam.
 
 - Tienes muchos títulos y **llevas uno** a la vez. Lo eliges en tu **perfil de piloto** y puedes quitártelo de nuevo.
 - Tu título aparece en tu **perfil**, en las **Clasificaciones**, en la ventana de **Grupo** y cuando pasas el cursor por tu nombre en el **chat**. Desde la 0.4.27 también aparece en el mapa: una línea pequeña y tenue, del color de la rareza del título, **sobre el nombre de la nave de cada piloto**, la tuya incluida. Un título largo se corta con puntos suspensivos. En una multitud (más de ocho pilotos en la pantalla) solo tus amigos, tu objetivo y la nave que has seleccionado conservan el suyo, para que la pantalla siga siendo legible. No aparece en la ventana Objetivo ni en el minimapa.

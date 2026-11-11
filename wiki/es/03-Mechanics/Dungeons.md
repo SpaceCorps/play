@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9421722a69e53475 -->
+<!-- wiki-i18n source: c3506248209cf351 -->
 <!-- wiki-i18n title: Mazmorras -->
 # Mazmorras {#dungeons}
 
@@ -6,7 +6,9 @@
 
 Una **mazmorra** es un laberinto cerrado con un **Señor de la guerra** al final (antes de la 0.5.2 el juego la llamaba mazmorra). Un colíder o el líder de un [clan](/wiki/03-Mechanics/Clans.md) abre una y la paga con el banco del clan, y los miembros del clan vuelan juntos hacia dentro como un solo [grupo](/wiki/03-Mechanics/Groups.md). Abren camino entre los alienígenas del laberinto, abren zonas de botín para elegir una carta en cada una y derrotan al Señor de la guerra. Todo piloto que participó en el combate cobra cuando cae el Señor de la guerra, dentro de los límites más abajo. Las mazmorras están en la pestaña **Mazmorras** de la página del clan.
 
-Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dentro a un compañero de clan ni a nadie más. Los alienígenas no pagan nada. El pago es solo del Señor de la guerra, así que la única manera de cobrar es estar en el combate cuando cae.
+Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dentro a un compañero de clan ni a nadie más. Los alienígenas pagan al caer, como los alienígenas del juego en los que se basan ([lo que pagan los alienígenas](#what-the-aliens-pay)). El pago de la partida es del Señor de la guerra, así que la única manera de cobrarlo es estar en el combate cuando cae.
+
+Una mazmorra no es una [puerta en solitario](/wiki/03-Mechanics/Solo-Gates.md). Una puerta en solitario es una arena en la que solo vuelas tú, abierta con piezas que encuentras con el Materializador de Energía; las dos tienen reglas, pagos y límites separados.
 
 ## De un vistazo {#at-a-glance}
 
@@ -22,10 +24,10 @@ Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dent
 - **Laberintos**: 8; se elige una al abrir una mazmorra
 - **Sala del jefe**: Se abre cuando se destruye el 75 % de los Crystalys y sus Twins, redondeando hacia arriba
 - **Reunión**: 10 min para reunirse y empezar. Una mazmorra que nadie inicia se cierra, y su precio vuelve al banco del clan
-- **Límite de tiempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min desde el inicio. Si se agota, la mazmorra fracasa y no paga nada
+- **Límite de tiempo**: Fase 1: 95 min, Fase 2: 130 min, Fase 3: 165 min desde el inicio. Si se agota, la mazmorra fracasa y la partida no paga nada
 - **Vacía**: Una mazmorra sin nadie dentro durante 3 min fracasa
 - **Cuando cae el Señor de la guerra**: La mazmorra sigue abierta 2 min para los pilotos que están dentro
-- **Volver**: Un piloto que salió o fue destruido puede volver a entrar volando 3 veces, con 20 s entre una y otra
+- **Volver**: Un piloto que salió o fue destruido puede volver a entrar volando tantas veces como quiera, con al menos 20 s entre dos regresos
 
 <!-- dungeons-glance:end -->
 
@@ -34,7 +36,7 @@ Una mazmorra es un combate solo contra los alienígenas: nadie puede atacar dent
 1. **Invocar.** En la pestaña Mazmorras, un [colíder o el líder](/wiki/03-Mechanics/Clans.md#hierarchy-roles) elige una fase y pulsa **Invocar**. El precio sale del [banco del clan](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), y la mazmorra toma uno de los mapas de la lista de arriba. Una mazmorra que nadie inicia se cierra, y el precio vuelve al banco.
 2. **Entrar.** Los miembros del clan pulsan **Entrar** en la ventana del Clan mientras vuelan, saltan por el portal del clan o pulsan **Unirse** en la tarjeta de aviso (consulta Entrar). Todos aparecen en la sala de inicio, y los pilotos de dentro son el grupo de la mazmorra.
 3. **Iniciar.** La sala de inicio es una sala pequeña en un extremo del laberinto, y su compuerta está cerrada mientras la mazmorra espera a los pilotos. No hay alienígenas dentro, así que se puede esperar con seguridad. La mazmorra **se inicia sola** cuando están dentro todos los pilotos a los que espera y el grupo es lo bastante grande. Espera a los miembros del clan que están conectados, no ausentes y en el grupo de un piloto que ha entrado, y se inicia de inmediato cuando el grupo está lleno. El piloto que abrió la mazmorra, o un oficial, puede pulsar **Iniciar** para empezar antes con los pilotos que estén dentro, si son suficientes. Un piloto que se va deja de ser esperado. Cuando la mazmorra se inicia, la compuerta se abre para siempre, y después solo pueden volver los pilotos que ya estaban dentro.
-4. **Abrirse paso por el laberinto.** Entras por un extremo del laberinto y el Señor de la guerra espera en el otro, en una sala bloqueada. El laberinto está a oscuras: solo ves lo que el grupo ha explorado y lo que está cerca de sus naves. Los alienígenas duermen en manadas en los pasillos, y una manada que despierta persigue al grupo por el laberinto.
+4. **Abrirse paso por el laberinto.** Entras por un extremo del laberinto y el Señor de la guerra espera en el otro, en una sala bloqueada. El laberinto está a oscuras: solo ves lo que el grupo ha explorado y lo que está cerca de sus naves. Los alienígenas esperan en manadas en los pasillos, y una manada sale en cuanto un piloto vuela al tramo de pasillo donde espera, y luego persigue al grupo por el laberinto.
 5. **Abrir las zonas de botín.** Unos anillos en el laberinto marcan las zonas. Mantén una y el grupo vota una carta, que se paga junto con el pago del Señor de la guerra.
 6. **Desbloquear la sala del Señor de la guerra.** Destruye tres cuartas partes de los Crystalys y sus Twins del laberinto, y la compuerta de su sala se abre. Hasta entonces el Señor de la guerra no puede ser dañado. Los demás alienígenas se quedan donde están, y también puedes destruirlos.
 7. **Derrotar al Señor de la guerra.** Rompe su escudo y su casco, y responde a sus habilidades. Cuando cae, la mazmorra queda superada.
@@ -46,7 +48,7 @@ Para entrar en una mazmorra necesitas una **nave en vuelo**, así que despega pr
 
 Un colíder o el líder abre una mazmorra, de una en una para el clan, y solo hasta el número de mazmorras al día. El banco del clan tiene que tener el precio. Un clan solo puede abrir una fase después de haber superado la anterior.
 
-Dentro de una mazmorra no puedes cambiar de mundo, y la Jump CPU y la Base CPU no funcionan. El botón **Salir** de la ventana Mazmorra de clan te saca. Antes pide confirmación, salvo que el Señor de la guerra ya haya caído: entonces sales de inmediato. Un piloto que se fue, o que fue destruido, puede volver a entrar unas pocas veces, con una breve espera entre ellas.
+Dentro de una mazmorra no puedes cambiar de mundo, y la Jump CPU y la Base CPU no funcionan. El botón **Salir** de la ventana Mazmorra de clan te saca. Antes pide confirmación, salvo que el Señor de la guerra ya haya caído: entonces sales de inmediato. Un piloto que se fue, o que fue destruido, puede volver a entrar; la lista de **De un vistazo** dice cuántas veces y cuánto espera entre dos regresos.
 
 ### El portal del clan y el aviso {#the-clan-portal-and-the-call}
 
@@ -83,7 +85,7 @@ Cada mazmorra es un laberinto cerrado en un mapa propio, uno de los mapas de la 
 
 ## Los alienígenas {#the-aliens}
 
-Cuatro tipos de alienígenas guardan el laberinto. Duermen en manadas en los pasillos, nunca en una sala, y una manada despierta cuando un piloto se acerca. Una manada despierta no te espera: persigue al grupo por el laberinto, y una manada que pierde a todos vuelve a donde dormía y se cura. Unas pocas manadas están despiertas desde el primer segundo, en los pasillos lejos de la entrada, hasta que un piloto se acerca. La mazmorra mantiene en el aire solo un número limitado de alienígenas a la vez, y ese número crece con el tamaño del grupo, así que una manada que despierta puede tener que esperar sitio, y una manada que destruyes deja entrar a la siguiente. Un grupo más grande se encuentra con más alienígenas en proporción, uno más pequeño con menos, y un tipo de alienígena nunca baja de uno. Una manada que sigue esperando sitio cuando todos los pilotos se han alejado vuelve a dormirse, y despierta de nuevo cuando un piloto se acerca.
+Cuatro tipos de alienígenas guardan el laberinto. Esperan en manadas en los pasillos, nunca en una sala, y una manada sale en cuanto un piloto vuela al tramo de pasillo donde espera. No hay nada en el mapa donde no ha estado ningún piloto, así que ninguna manada espera tras los muros, en lo profundo del laberinto, antes de que llegues. Una manada no espera sitio: está en el mapa en ese mismo instante, por muchos alienígenas que ya haya fuera. Un tramo de pasillo tiene una sola manada, así que en el tramo al que vuelas te espera una manada y no la suma de varias (un grupo de diez tiene más manadas que tramos, y allí un tramo tiene dos, y salen las dos). Una manada que ha salido no te espera: persigue al grupo por el laberinto, y una manada que pierde a todos vuelve a donde salió y se cura. Una manada sale una sola vez: la que destruyes no vuelve, y aquella de la que te alejas volando se queda en el mapa. Las oleadas de las zonas de botín son distintas: la mazmorra mantiene en el aire solo un número limitado de alienígenas a la vez, y ese número crece con el tamaño del grupo, así que una oleada que lo superaría espera sitio, y una manada que destruyes deja entrar a la siguiente oleada. Un grupo más grande se encuentra con más alienígenas en proporción, uno más pequeño con menos, y un tipo de alienígena nunca baja de uno.
 
 <!-- dungeons-population:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -98,7 +100,7 @@ Cuatro tipos de alienígenas guardan el laberinto. Duermen en manadas en los pas
 | Para abrir la sala del jefe | 34 | 34 | 34 |
 | La oleada de una zona de botín | 12 × Dungeon Goombah y 1 × Dungeon Crystalys | 12 × Dungeon Goombah y 1 × Dungeon Crystalys | 12 × Dungeon Goombah y 1 × Dungeon Crystalys |
 
-- **Vivos a la vez**: Como máximo 10 por cada piloto del grupo, y 70 en total
+- **La oleada de una zona de botín espera sitio**: Cuando hay 10 vivos por cada piloto del grupo, o 70 en total
 
 <!-- dungeons-population:end -->
 
@@ -111,6 +113,7 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 - **Se parece a**: Goombah
 - **Vuela en manadas de**: 6
+- **Paga y suelta como**: Goombah
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -120,27 +123,39 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 | Velocidad | 180 | 180 | 180 |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | 1.800 | 1.800 | 1.800 |
+| Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
+| Créditos por baja | 15.000 | 22.500 | 30.000 |
+| Thulium por baja | 75 | 113 | 150 |
+| Experiencia por baja | 3.000 | 4.500 | 6.000 |
+| Honor por baja | 24 | 36 | 48 |
 
 ### Dungeon Pirate
 
 - **Se parece a**: Pirate Boss
 - **Vuela en manadas de**: 2
+- **Paga y suelta como**: Pirate Boss
 - **Cohete**: Un cohete recto cada 5 s, alcance de 1.000 unidades
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
-| Casco | 300.000 | 450.000 | 600.000 |
+| Casco | 250.000 | 375.000 | 500.000 |
 | Escudo | 50.100 | 75.150 | 100.200 |
 | Daño de los láseres (una salva por segundo) | 200 | 300 | 400 |
 | Daño de cohete | 5.000 | 7.500 | 10.000 |
 | Velocidad | 110 | 110 | 110 |
 | Alcance de los láseres | 700 | 700 | 700 |
 | Radio de agresión | 1.800 | 1.800 | 1.800 |
+| Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
+| Créditos por baja | 145.000 | 217.500 | 290.000 |
+| Thulium por baja | 725 | 1.088 | 1.450 |
+| Experiencia por baja | 29.000 | 43.500 | 58.000 |
+| Honor por baja | 232 | 348 | 464 |
 
 ### Dungeon Crystalys
 
 - **Se parece a**: Crystalys
 - **Vuela en manadas de**: 2
+- **Paga y suelta como**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -150,11 +165,17 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 | Velocidad | 230 | 230 | 230 |
 | Alcance de los láseres | 900 | 900 | 900 |
 | Radio de agresión | 2.400 | 2.400 | 2.400 |
+| Pago y botín, veces el del original | ×1 | ×1,5 | ×2 |
+| Créditos por baja | 75.000 | 112.500 | 150.000 |
+| Thulium por baja | 200 | 300 | 400 |
+| Experiencia por baja | 12.000 | 18.000 | 24.000 |
+| Honor por baja | 52 | 78 | 104 |
 
 ### Dungeon Crystalys Twin
 
 - **Se parece a**: Crystalys, 1,4 veces más grande
 - **Vuela en manadas de**: 1
+- **Paga y suelta como**: Crystalys
 
 |  | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
@@ -164,12 +185,17 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 | Velocidad | 230 | 230 | 230 |
 | Alcance de los láseres | 900 | 900 | 900 |
 | Radio de agresión | 2.400 | 2.400 | 2.400 |
+| Pago y botín, veces el del original | ×2 | ×3 | ×4 |
+| Créditos por baja | 150.000 | 225.000 | 300.000 |
+| Thulium por baja | 400 | 600 | 800 |
+| Experiencia por baja | 24.000 | 36.000 | 48.000 |
+| Honor por baja | 104 | 156 | 208 |
 
 <!-- dungeons-enemies:end -->
 
 ## El Señor de la guerra {#the-warlord}
 
-El Señor de la guerra espera en la sala del extremo lejano del laberinto, y es lo único de una mazmorra que paga. Es un Crystalys gigantesco. Su casco y su escudo crecen con el tamaño del grupo: cuantos más pilotos entran, más resistente es, en proporción. No sale nunca de su sala, con la mazmorra cerrada o abierta: se mantiene dentro de las paredes de la sala y no sale a cazar por los pasillos. Un piloto de fuera solo puede atraerlo hasta el borde de la sala, y aun así dispara por una mazmorra abierta a todo lo que alcanza su láser. Usa sus habilidades una a una, en orden aleatorio, cada una con su propia recarga.
+El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su caída es lo que paga la partida. No paga una baja propia, como sí hacen los demás alienígenas. Es un Crystalys gigantesco. Su casco y su escudo crecen con el tamaño del grupo: cuantos más pilotos entran, más resistente es, en proporción. No sale nunca de su sala, con la mazmorra cerrada o abierta: se mantiene dentro de las paredes de la sala y no sale a cazar por los pasillos. Un piloto de fuera solo puede atraerlo hasta el borde de la sala, y aun así dispara por una mazmorra abierta a todo lo que alcanza su láser. Usa sus habilidades una a una, en orden aleatorio, cada una con su propia recarga.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -201,9 +227,9 @@ El casco y el escudo de arriba son para un grupo de 5. Crecen con el grupo: son 
 
 ### La sala bloqueada {#the-locked-room}
 
-La compuerta de la sala del Señor de la guerra está cerrada desde el momento en que se abre la mazmorra, y mientras lo está el Señor de la guerra no puede ser dañado: ningún láser, cohete ni explosión lo toca, y no usa ninguna habilidad. La compuerta se abre para siempre cuando se han destruido **tres cuartas partes de los Crystalys y sus Twins** con los que se creó la mazmorra, redondeando hacia arriba (la tabla de los alienígenas de arriba los cuenta para un grupo de 5, y su última fila dice cuántos hacen falta). Cuentan los Crystalys y los Twins de las manadas del laberinto, también los de las manadas que están en los pasillos desde el primer segundo, y quien los destruya. No cuentan para la compuerta los demás alienígenas, las oleadas de las zonas de botín, los Goombahs que llama el Señor de la guerra ni el propio Señor de la guerra.
+La compuerta de la sala del Señor de la guerra está cerrada desde el momento en que se abre la mazmorra, y mientras lo está el Señor de la guerra no puede ser dañado: ningún láser, cohete ni explosión lo toca, y no usa ninguna habilidad. La compuerta se abre para siempre cuando se han destruido **tres cuartas partes de los Crystalys y sus Twins** con los que se creó la mazmorra, redondeando hacia arriba (la tabla de los alienígenas de arriba los cuenta para un grupo de 5, y su última fila dice cuántos hacen falta). Cuentan los Crystalys y los Twins de las manadas del laberinto, y quien los destruya. Una manada sale solo cuando un piloto vuela a su tramo de pasillo, así que el grupo tiene que encontrar suficientes para abrir la compuerta. No cuentan para la compuerta los demás alienígenas, las oleadas de las zonas de botín, los Goombahs que llama el Señor de la guerra ni el propio Señor de la guerra.
 
-La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para abrir la sala y dice, en una etiqueta, que el Señor de la guerra no puede ser dañado, y un mensaje te avisa cuando la sala se desbloquea. Una manada que sigue dormida cuenta entera, así que el grupo tiene que encontrar a los Crystalys y sus Twins en el laberinto. **Los demás alienígenas no desaparecen cuando se abre la compuerta.** Se quedan en el laberinto, despiertan cuando un piloto se acerca y se pueden destruir como antes, así que un grupo que quiera puede destruirlos todos antes de combatir al Señor de la guerra: la cuenta de alienígenas de la ventana sigue hasta todos los alienígenas con los que se creó la mazmorra, y se ve completa cuando no queda ninguno. No pagan nada, y los que siguen vivos cuando cae el Señor de la guerra se van con la mazmorra. En el minimapa la compuerta es una línea roja mientras está bloqueada y una verde cuando está abierta. Una mazmorra nunca es una trampa: el límite de tiempo sigue terminando una mazmorra cuya compuerta sigue cerrada, y un administrador puede desbloquear la sala de una mazmorra atascada.
+La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para abrir la sala y dice, en una etiqueta, que el Señor de la guerra no puede ser dañado, y un mensaje te avisa cuando la sala se desbloquea. Una manada que aún no ha salido cuenta entera, así que el grupo tiene que encontrar a los Crystalys y sus Twins en el laberinto y volar a sus tramos de pasillo. **Los demás alienígenas no desaparecen cuando se abre la compuerta.** Se quedan en el laberinto, salen cuando un piloto vuela a su tramo de pasillo y se pueden destruir como antes, así que un grupo que quiera puede destruirlos todos antes de combatir al Señor de la guerra: la cuenta de alienígenas de la ventana sigue hasta todos los alienígenas con los que se creó la mazmorra, y se ve completa cuando no queda ninguno. Pagan al caer ([lo que pagan los alienígenas](#what-the-aliens-pay)), y los que siguen vivos cuando cae el Señor de la guerra se van con la mazmorra. En el minimapa la compuerta es una línea roja mientras está bloqueada y una verde cuando está abierta. Una mazmorra nunca es una trampa: el límite de tiempo sigue terminando una mazmorra cuya compuerta sigue cerrada, y un administrador puede desbloquear la sala de una mazmorra atascada.
 
 ### Sus habilidades {#its-abilities}
 
@@ -314,7 +340,7 @@ Las cartas con una sola copia son **equipo**, y solo una mazmorra de fase 3 pued
 
 Cuando cae el Señor de la guerra, todo piloto que se lo ha ganado cobra, una vez por partida. Las cartas que eligió el grupo se suman al pago de la fase. No hay multiplicador de mundo: el pago es el mismo en todos los mundos.
 
-Las **Orvium Reinforced Plates** no son una carta de la votación. Forman parte del pago de la fase, y cada piloto que cobra las recibe una vez por partida. Los objetos que paga una mazmorra no son Comercializables: no puedes [venderlos en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
+Las **Orvium Reinforced Plates** no son una carta de la votación. Forman parte del pago de la fase, y cada piloto que cobra las recibe una vez por partida. Los objetos que paga la partida no son Comercializables: no puedes [venderlos en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -329,7 +355,7 @@ Las **Orvium Reinforced Plates** no son una carta de la votación. Forman parte 
 
 ### Quién cobra {#who-is-paid}
 
-Los alienígenas nunca pagan. Una partida se juega entera aunque no pague nada, y la pantalla de resultados dice por qué. Nunca se te niega la entrada por haber cobrado ya una fase: esa partida simplemente no paga.
+Estas reglas deciden quién cobra **la partida**. Una partida se juega entera aunque no pague nada, y la pantalla de resultados dice por qué. Nunca se te niega la entrada por haber cobrado ya una fase: esa partida simplemente no paga. Los alienígenas leen las mismas reglas, baja por baja, salvo la parte en el combate ([lo que pagan los alienígenas](#what-the-aliens-pay)).
 
 <!-- dungeons-rules:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -357,6 +383,17 @@ La experiencia de una fase completada y pagada cuenta para tus puntos de ranking
 
 <!-- dungeons-totals:end -->
 
+### Lo que pagan los alienígenas {#what-the-aliens-pay}
+
+Cada alienígena de una mazmorra paga al caer, y suelta botín, como el alienígena del juego en el que se basa: un Dungeon Goombah como un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys y su Twin como un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate como el Pirate Boss del [Enjambre Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Lo que paga y suelta una baja es lo del original **multiplicado por la proporción entre el casco y el escudo de ambos juntos**: un alienígena tan resistente como su original paga lo que paga el original, uno el doble de resistente paga el doble y suelta el doble de cada objeto, y así sucesivamente. La sección de cada tipo de alienígena en [Los alienígenas](#the-aliens) da la proporción y el pago de una baja en cada fase.
+
+- **Quién cobra.** Los pilotos que dañaron al alienígena, según el daño que hicieron, como con los alienígenas de los enjambres: un piloto o un grupo que apenas lo rozó no recibe nada, un grupo cobra como uno solo, y dentro de un grupo los miembros que están cerca de los restos y han disparado hace poco se reparten por nivel lo que se paga. Un piloto que no hizo daño al alienígena no cobra nada por él, por cerca que haya volado, y un alienígena al que ningún piloto dañó no paga a nadie. Solo entran los pilotos a los que pagan las reglas de arriba: quien se fue, no lleva dentro el tiempo suficiente, ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana no cobra nada por los alienígenas, y los demás se quedan con su parte. Una baja no pide la parte en el combate: haber dañado al alienígena es la parte. Si el miembro de un grupo que más daño hizo ha sido destruido o ya no está en el mapa, los miembros que están cerca de los restos y han disparado hace poco se reparten el pago sin él.
+- **Qué se paga.** Créditos, Thulium, experiencia y honor, una vez por baja. El pago es lo que paga el original en Alpha, en todos los mundos: una mazmorra no tiene multiplicador de mundo. Tus potenciadores, Premium, formación y las bonificaciones de tu clan cuentan como en cualquier baja, y la experiencia cuenta para tus [puntos PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) como la de la partida.
+- **El botín.** Se tira con las probabilidades del original y después cada cantidad se multiplica por la proporción (una fracción de unidad es una probabilidad de una más). Cae como una caja en los restos, primero para el piloto que más daño hizo y su clan, después para cualquiera en el mapa, y luego desaparece. El mapa admite solo cierto número de cajas a la vez, así que recógelas sobre la marcha, y lo que quede en el mapa cuando se cierra la mazmorra se va con ella. A diferencia de los objetos de la partida, son botín corriente de un alienígena: se pueden [vender en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items) si el objeto es Comercializable.
+- **Lo que no paga.** El Señor de la guerra no paga baja, solo la partida. Los Goombahs que llama no pagan nada, porque la llamada se repite mientras dura el combate.
+- **No es una baja del juego.** Una baja en una mazmorra no cuenta para misiones, logros, contadores de bajas, puntos de reinicio, los puntos PvE de una baja, drones ni P.E.T.s: un Dungeon Goombah no es un Goombah del juego.
+- **Los límites.** Los límites diarios y semanales de arriba frenan el pago de los alienígenas igual que el de la partida: quien ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana tampoco cobra nada por sus alienígenas, y el bote de cada baja va a los demás. Una mazmorra que no se supera paga sus bajas a los pilotos a los que pagan las reglas, y nada por la partida.
+
 ## La recompensa del banco del clan {#clan-bank-reward}
 
 El banco del clan también cobra, en créditos y no en Thulium, la primera vez que el clan supera una fase en una temporada. El clan tiene que tener suficiente antigüedad, y deben cobrar suficientes pilotos de esa partida. El banco cobra una vez por fase en una temporada.
@@ -383,4 +420,4 @@ El banco del clan también cobra, en créditos y no en Thulium, la primera vez q
 - Usa las paredes: los láseres no las cruzan, los anillos rojos de las auras del Señor de la guerra se detienen en ellas, y una pared también detiene sus cohetes.
 - Guarda una EMP Charge para la Andanada de cohetes.
 - Cuando el Señor de la guerra llame a sus Goombahs, destrúyelos primero: no puede ser dañado hasta que desaparezcan. En la Zona del Caos, sal del anillo antes de disparar.
-- Vigila el reloj de la ventana Mazmorra de clan. Cuando se acaba el tiempo, la mazmorra fracasa y no paga nada.
+- Vigila el reloj de la ventana Mazmorra de clan. Cuando se acaba el tiempo, la mazmorra fracasa y la partida no paga nada.

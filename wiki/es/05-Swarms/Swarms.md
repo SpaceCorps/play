@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Enjambres -->
 # Enjambres {#swarms}
 
@@ -87,8 +87,8 @@ Los enjambres Seeker, Pirate, Phantasm, Goombah, Crystalys y Tesseract avisan a 
 Un alienígena normal paga al piloto que lo impactó primero ([Combate](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). El líder de un enjambre, y cada Dormant Pulse, pagan en cambio **según el daño causado**:
 
 - **La paga se reparte según el daño.** Cada piloto que causó al menos la parte indicada en las reglas de arriba cobra, en proporción al daño causado: los créditos, el Thulium, la XP y el honor del derribo se reparten entre ellos. Un piloto por debajo de esa parte no cobra nada.
-- **La caja de carga es para el piloto que más daño causó.** Es suya (y de su clan) durante 30 segundos, como con cualquier alienígena, y después puede cogerla cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tiene su propio recuento de daño y su propia caja.
-- **Los seguidores pagan como siempre**: los Pirate Scouts, los Seeker Slaves y los Guards de los enjambres Phantasm, Goombah y Crystalys pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
+- **La caja de carga es para el piloto que más daño causó.** Es suya (y de su clan) durante 30 segundos, como con cualquier alienígena, y después puede cogerla cualquiera ([Carga](/wiki/03-Mechanics/Cargo.md)). Cada nave Dormant tiene su propio recuento de daño y su propia caja. El Tesseract es la excepción: no suelta ninguna caja, y cada piloto al que paga su derribo recibe una caja privada propia ([Enjambre Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Los seguidores pagan como siempre**: los Pirate Scouts, los Seeker Slaves, los Guards de los enjambres Phantasm, Goombah y Crystalys y los Facets del enjambre Tesseract pagan al piloto que los impactó primero, y su paga es pequeña comparada con la de un jefe.
 - **La paga de un jefe está hecha para superar a los alienígenas de su entorno.** Un minuto de combate contra un Pirate Boss, un Boss Phantasm o un Boss Goombah paga más que un minuto contra un Goombah, y un minuto contra el enjambre Dormant o un Boss Crystalys paga más que un minuto contra un Crystalys; el Boss Seeker paga exactamente diez Seekers.
 - **Los alienígenas del Dormant Swamp** (el Slumbering Void, la Inert Mass y el Unwakened) se pagan como un jefe, según el daño, y suman puntos PvE a tu clasificación; sus cifras están en [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 

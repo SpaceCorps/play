@@ -30,12 +30,17 @@ Every volley has a chance to be a Critical Hit.
 Finally, global multipliers (such as active boosters, for example a Laser Damage Booster's +10%, or laser ammunition multipliers like x2, x3, x4) are applied to obtain the final damage output:
 - Formula: `FinalDamage = Damage * AmmoMultiplier * (1.0 + BoosterDamagePercent)`
 - A worn [drone formation](/wiki/03-Mechanics/Formations.md) can multiply the result once more: for example Auger +21% laser damage, Gyre −11%, and against aliens Culler +12% (a separate factor, not part of the booster percent).
+- A pilot's [Laser tech](#laser-tech) multiplies the volley once more: the base damage, and the fixed damage of a critical hit with it.
 - **Siphon Battery** ammo has the x1 multiplier but a different target: its damage comes out of the target's shield alone (never the hull, whatever the absorbance) and goes into your own shield, up to your maximum. See [Lasers & Ammo](/wiki/06-Items/Lasers.md).
 - **Dark Matter Ammo** (0.5.0) changes the volley itself: Dark Matter Ammo I draws its multiplier (x1.5 to x5) for every volley, and Dark Matter Ammo II hits for x6 once every 1.5 seconds and gives you a quarter of the damage your target's shield took. **Antimatter Battery** ammo pierces 20% of the target's absorbance. See [Antimatter and Dark Matter ammo](/wiki/06-Items/Lasers.md#antimatter-and-dark-matter-ammo).
 
 ### 3b. Rockets
 
-A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,700 to 2,100, a Lancet III 5,200 to 6,200, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **3 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, the full number at the centre and half of it at the edge. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it. A worn [drone formation](/wiki/03-Mechanics/Formations.md) is the one thing that changes both: a rocket formation raises the damage of every rocket (up to +55%), and a few lengthen or shorten the timer. [Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md) take damage from rockets, and from lasers at 5% of what a volley does to a ship (your amps, boosters, ammo and critical hits count, and the asteroid's armour comes off after); drones do nothing to them, and an asteroid in the way of a shot takes the hit instead of the ship behind it ([Cover](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), and so does an [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall).
+A [rocket](/wiki/06-Items/Rockets.md) has its own damage (a Lancet I deals 1,700 to 2,100, a Lancet III 5,200 to 6,200, a N.U.K.E. 45,000 to 50,000), rolled once when you fire it and the same for every ship: your lasers, amps, boosters and ammo do not change it, and it has no critical hit. All rockets share one **3 second** timer. A single-target rocket has a **shield penetration**: it comes off your target's absorbance (see Taking Damage below); a blast hurts every ship in its radius, the full number at the centre and, at the edge, 66% of it for an Ember or Scatter rocket and half of it for the N.U.K.E. Nothing caps what a rocket takes from a pilot's ship: the shield first, then the hull. Rockets never hurt your own company or your own [group](/wiki/03-Mechanics/Groups.md), whatever the companies in it. A worn [drone formation](/wiki/03-Mechanics/Formations.md) changes both: a rocket formation raises the damage of every rocket (up to +55%), and a few lengthen or shorten the timer. Your [Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech), a pilot skill, scales the damage too (0.80 at level 1, 1.10 at level 100) and can make a rocket misfire. [Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md) take damage from rockets, and from lasers at 5% of what a volley does to a ship (your amps, boosters, ammo and critical hits count, and the asteroid's armour comes off after); drones do nothing to them, and an asteroid in the way of a shot takes the hit instead of the ship behind it ([Cover](/wiki/03-Mechanics/Asteroid-Mining.md#cover)), and so does an [Energetic Wall](/wiki/06-Items/Extras.md#energetic-wall).
+
+### 3c. Laser tech {#laser-tech}
+
+Your **Laser tech**, a [pilot skill](/wiki/03-Mechanics/Pilot-Skills.md), changes two things about a volley at a ship. It multiplies the volley's damage by a factor that is below 1 at level 1 and rises with the level (the base damage and the fixed damage of a critical hit both). And it sets the chance that the volley hits at all. A volley that goes wide shows a floating "Miss" over the target, does no damage and **still uses its ammo**; it is not also tried against the target's own chance to dodge. The factor and the chance at each level are in the table of [Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md#the-stats). [Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech) does the same for rockets.
 
 ### 4. Facing the Target
 
@@ -49,7 +54,7 @@ A ship fires one volley a second while its target is inside its **range**, and h
 
 A hit shows as a number floating over the ship it lands on. **Your own numbers** always show: the damage you deal, the damage you take and your own repairs. **The ship under your lock-on circle** shows more: every hit and every heal it receives, **from any source**. That means other pilots' lasers, rockets and drones, aliens, Clan Wardens, and the ship's own repairs and shield regeneration. When somebody else is shooting your target, you see their damage.
 
-- **Colours.** Gold: damage on an alien or an enemy pilot. Red with a minus: damage on a ship you protect (a pilot of your own company or your group) and the damage you take yourself. Green with a plus: a heal, such as an Emergency Repair, a Repair Drone or a shield coming back. Pale silver "Miss": a direct hit that a formation's evasion turned aside. A critical volley is larger and ends in "!" (ice cyan when it hits an alien or an enemy).
+- **Colours.** Gold: damage on an alien or an enemy pilot. Red with a minus: damage on a ship you protect (a pilot of your own company or your group) and the damage you take yourself. Green with a plus: a heal, such as an Emergency Repair, a Repair Drone or a shield coming back. Pale silver "Miss": a direct hit that did no damage, because your volley went wide ([Laser tech](#laser-tech)) or because the target dodged it (a formation's evasion, a pilot's [Evasion](#grit-and-evasion)). A critical volley is larger and ends in "!" (ice cyan when it hits an alien or an enemy).
 - **Yours stay brighter.** The numbers of others on your target are a little smaller and fainter, and stand in a column to the right of the ship, so they never cover yours.
 - **One number for a crowd.** Hits that land together are added into one number with a count after it (`×35`). Forty pilots firing at one ship make about two numbers a second, and never more than seven. Heals show once a second.
 - **Only the ship under the circle.** Every other ship shows only your own hits and the hits on you. The radiation of the black hole and the shield drain of a formation have no numbers: they show on the bars.
@@ -114,8 +119,8 @@ When your ship is hit by an enemy or NPC, damage is processed as follows:
 ### 1. Shield Absorption
 
 Incoming damage is divided between shields and hitpoints by your ship's **Average Absorbance**: the average of your shields' absorbance, each with its Shield Cells', plus the Season Store's Shield Absorbance Boost (see [Shield Mechanics](/wiki/03-Mechanics/Shields.md)). It is **not capped at 100%**: what the shields take of a hit is your absorbance **less the attacker's shield penetration**, between 0% and 100%.
-- **Absorbance** (e.g. 85% for the best shield with the best cells, 58% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 50% on the shields of an 85% ship, and the rest (50% there) hits HP directly.
-- **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there). The Penetration Amps of the shooter's lasers (+3% to +12% a slot) and a drone formation add to it, and nothing caps the total.
+- **Absorbance** (e.g. 91% for the best shield with the best cells, 62% for a Basic Shield Core with two Absorption Shield Cell Is) of each hit is taken by the shields, less the penetration of the hit: a Lancet III's 35% leaves 56% on the shields of a 91% ship, and the rest (44% there) hits HP directly.
+- **Shield penetration** comes from direct rockets (10 to 35%) and the x3 and x4 laser ammo (5% and 10%); aliens have none. A ship over 100% (112%, say) holds a whole hit against penetration up to the difference (12% there). The Penetration Amps of the shooter's lasers (+5% to +20% a slot) and a drone formation add to it, and nothing caps the total.
 - A shield too low for its share passes the difference to HP; if shields are fully depleted, **100%** of all remaining damage hits HP.
 - Aliens have no absorbance stat: their shields take 80% of each hit (less the hit's penetration), their hull the rest.
 - **Drone formations.** Rampart raises your absorbance by 17% (Shrike lowers it by 10%), and Asterism gives every direct hit on you a 7% chance to do no damage at all (a floating "Miss" shows), and the hits that land are split between shield and hull as usual. Gemini (+15 points) adds penetration to your own ammo and direct rockets, and Stiletto (+35 points of rocket penetration) to direct rockets alone, with no cap ([Drone Formations](/wiki/03-Mechanics/Formations.md)). For a laser its amps count too.
@@ -131,6 +136,15 @@ Each faction's home base (X-1 maps) contains safe zones.
 ### 3. Under Attack in a Danger Sector
 
 A jump through a portal takes 3 seconds (see [Spacemap Travel](/wiki/01-General/Spacemap%20Travel.md)). In the Danger Sectors (`DS-1` to `DS-4`) a pilot whose ship was hit by another pilot or an alien in the last **10 seconds** cannot start one, and a hit cancels a jump under way. Everywhere else, attacks never interrupt a jump, and nothing interrupts collecting a [cargo](/wiki/03-Mechanics/Cargo.md) crate.
+
+### 4. Grit and Evasion {#grit-and-evasion}
+
+Two [pilot skills](/wiki/03-Mechanics/Pilot-Skills.md) change what a hit does to you, on top of your shields and your formation:
+
+- **Grit** takes a share off the damage of every hit you take, before the shield and the hull divide it between them, so it cuts both. The share grows with the skill's level.
+- **Evasion** adds to the chance that a direct hit does no damage at all (a floating "Miss" shows). Every pilot's ship already has a small chance of its own; Evasion adds to it, and a [drone formation](/wiki/03-Mechanics/Formations.md) with evasion adds to both. The chance can't pass 100%. An area blast has no aim and is never dodged.
+
+The figures of each level are in the table of [Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md#the-stats).
 
 ---
 
@@ -152,9 +166,9 @@ To recover from combat, pilots can rely on passive regeneration and active utili
 
 - **Operation**: If you equip a Repair Drone (under Hangar extras), you switch it on from the hotbar (drag it from the Extras picker onto a slot) and it repairs your hull (HP). Any hit switches it off, and it stops at a full hull. With an [Auto-Repair CPU](/wiki/06-Items/Extras.md#auto-repair-cpu) fitted you do not have to switch it on again: it sends the drone out by itself as soon as the delay below has passed, unless you stopped it by hand.
 - **Repair Rate**: Restores a percentage of your maximum hitpoints per second (only the best drone fitted counts, they do not add up):
-  - **Repair Drone I**: 1.5% max HP / s
-  - **Repair Drone II**: 2.25% max HP / s
-  - **Repair Drone III**: 3.5% max HP / s
+  - **Repair Drone I**: 2% max HP / s
+  - **Repair Drone II**: 3% max HP / s
+  - **Repair Drone III**: 4% max HP / s
   - **Repair Drone IV**: 5% max HP / s
 - **Delay**: Repair drones will only begin patching the hull after **10 seconds** of taking no damage.
 - **In an ability slot** a Repair Drone does not repair by itself: it gives you **Emergency Repair**, a button that heals a share of your maximum hitpoints over ten seconds, even under fire (see [Abilities](/wiki/03-Mechanics/Abilities.md)).

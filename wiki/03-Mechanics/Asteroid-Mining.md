@@ -43,7 +43,7 @@ Nothing is paid when an asteroid breaks. It bursts into rubble and throws a few 
 
 A bigger asteroid leaves more pieces (the Cash chunks column of The kinds: the Credits and the Thulium come in that many pieces, and the ore in one more). After a pickup your ship goes on by itself to the next chunk of an asteroid that is close by and yours to take; any move order of yours stops it.
 
-From tier 2 of the rocks up, a break can also leave a **Cluster Chunk** whole, in the ore chunk of the party that dealt the most damage: a **Regular Cluster Chunk** from tier 2, a **Mythical Cluster Chunk** from tier 3 and a **Legendary Cluster Chunk** from tier 4, and the Motherlode gives them most often. The chances are in [Resources](/wiki/06-Items/Resources.md#regular-cluster-chunk). Luck does not change them, a P.E.T.'s included. With an Orvium Reinforced Plate a chunk becomes a [P.E.T.](/wiki/03-Mechanics/Pets.md) in the Hangar's Cradle.
+A break can also leave a **Cluster Chunk** whole, in the ore chunk of the party that dealt the most damage: a **Regular Cluster Chunk** from tier 1, a **Mythical Cluster Chunk** from tier 3 and a **Legendary Cluster Chunk** from tier 4, and the Motherlode gives them most often. The chances are in [Resources](/wiki/06-Items/Resources.md#regular-cluster-chunk). Luck does not change them, a P.E.T.'s included. With an Orvium Reinforced Plate a chunk becomes a [P.E.T.](/wiki/03-Mechanics/Pets.md) in the Hangar's Cradle.
 
 ## Who gets the chunks
 
@@ -131,16 +131,16 @@ Every sector of the three companies' home sectors and of the Danger Sectors has 
 
 An asteroid's **tier** is the ring of sectors its kind belongs to: tiers 1 to 4 are the x-1 to x-4 sectors of the three companies and tier 5 the Danger Sectors. The tier goes up with the size: the bigger the asteroid, the higher its tier. The two are not the same, though: most tiers hold two sizes, which the table gives. The Target window and the hover card of an asteroid show its family, its size and its tier.
 
-The tier also decides a find of its own: a **P.E.T. part**, a Cluster Chunk that the [P.E.T.](/wiki/03-Mechanics/Pets.md) Cradle takes. The table gives the chance that a broken asteroid leaves each grade (a dash: never). Asteroids of tier 1 leave none. Each grade is rolled once for every asteroid broken, the pilot who dealt the most damage gets the chunk whole, and Luck does not change the chances. The Motherlode has chances of its own. Select an asteroid and the Target window lists the P.E.T. parts of its kind.
+The tier also decides a find of its own: a **P.E.T. part**, a Cluster Chunk that the [P.E.T.](/wiki/03-Mechanics/Pets.md) Cradle takes. The table gives the chance that a broken asteroid leaves each grade (a dash: never). Each grade is rolled once for every asteroid broken, the pilot who dealt the most damage gets the chunk whole, and Luck does not change the chances. The Motherlode has chances of its own. Select an asteroid and the Target window lists the P.E.T. parts of its kind.
 
 | Tier | Sectors | Size | Kinds | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) |
 | :--- | :--- | :--- | :--- | ---: | ---: | ---: |
-| 1 | `x-1` | Tiny, Small | Pebble, Cobble, Glimmer, Rime, Cache Pod | – | – | – |
-| 2 | `x-2` | Small, Medium | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 0.4% | – | – |
-| 3 | `x-3` | Medium | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 0.8% | 0.15% | – |
-| 4 | `x-4` | Medium, Large | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 1% | 0.25% | 0.03% |
-| 5 | Danger Sectors | Large | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 1.2% | 0.3% | 0.1% |
-| 5 | Danger Sectors | Huge | Motherlode | 25% | 8% | 3% |
+| 1 | `x-1` | Tiny, Small | Pebble, Cobble, Glimmer, Rime, Cache Pod | 0.5% | – | – |
+| 2 | `x-2` | Small, Medium | Dark Chondrite, Ironhide, Vein Rock, Nyx Geode, Scrap Hulk | 1% | – | – |
+| 3 | `x-3` | Medium | Slag Block, Plateback, Cataclast, Lode Rock, Derelict Hulk, Thulium Geode | 2.5% | 0.35% | – |
+| 4 | `x-4` | Medium, Large | Quorvium Boulder, Cataclysite Mass, Anvil, Derelict Cruiser, Thulium Cluster, Vault Rock | 5% | 0.5% | 0.1% |
+| 5 | Danger Sectors | Large | Rich Lode, Prism Cluster, Ancient Husk, Star Crystal | 10% | 1% | 0.5% |
+| 5 | Danger Sectors | Huge | Motherlode | 20% | 5% | 3% |
 
 There are 27 kinds of asteroid, in 8 families. **Made for** names the rocket a kind is balanced for and about how many of it a break takes in Alpha. **Finds** are the ore and rare finds a break rolls, which its chunks share out: a percentage is the chance of that line, the other lines are always found. The Credits and the Thulium are the Alpha amounts of a break.
 

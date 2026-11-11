@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 163cf9cc9439d6a5 -->
+<!-- wiki-i18n source: 9a37517663b28a4d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -27,7 +27,7 @@ Wraith är det ultimata slagskeppet, med oöverträffad eldkraft, enorm sköldka
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 10 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 10 fyllda med Hull Plating III ger 150 000 skrov.
+- **Pansarplatser.** Det här skeppet har 10 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 10 fyllda med Hull Plating III ger 250 000 skrov.
 - **Designer.** Skeppet har 5 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fc4e75309862b3af -->
+<!-- wiki-i18n source: 0ec4a87b4ef8d367 -->
 <!-- wiki-i18n title: Essaims -->
 # Essaims {#swarms}
 
@@ -87,8 +87,8 @@ Les essaims Seeker, Pirate, Phantasm, Goombah, Crystalys et Tesseract avertissen
 Un alien ordinaire paie le pilote qui l’a touché en premier ([Combat](/wiki/03-Mechanics/Combat.md#kill-rewards-first-hit-claims)). Le meneur d’un essaim, et chaque Dormant Pulse, paient plutôt **selon les dégâts infligés** :
 
 - **Le gain est réparti selon les dégâts.** Tout pilote qui a infligé au moins la part indiquée dans les règles ci-dessus est payé, en proportion des dégâts infligés : les crédits, le Thulium, l’XP et l’honneur de l’élimination sont répartis entre eux. Un pilote sous cette part ne reçoit rien.
-- **La caisse de cargaison va au pilote qui a infligé le plus de dégâts.** Elle est à lui (et à son clan) pendant 30 secondes, comme pour tout alien, puis n’importe qui peut la prendre ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Chaque vaisseau Dormant a son propre décompte de dégâts et sa propre caisse.
-- **Les suivants paient comme d’habitude** : les Pirate Scouts, les Seeker Slaves et les Guards des essaims Phantasm, Goombah et Crystalys paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
+- **La caisse de cargaison va au pilote qui a infligé le plus de dégâts.** Elle est à lui (et à son clan) pendant 30 secondes, comme pour tout alien, puis n’importe qui peut la prendre ([Cargaison](/wiki/03-Mechanics/Cargo.md)). Chaque vaisseau Dormant a son propre décompte de dégâts et sa propre caisse. Le Tesseract fait exception : il ne laisse aucune caisse, et chaque pilote que son élimination paie reçoit une caisse privée à lui ([Essaim Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md#rewards-and-drops)).
+- **Les suivants paient comme d’habitude** : les Pirate Scouts, les Seeker Slaves, les Guards des essaims Phantasm, Goombah et Crystalys et les Facets de l’essaim Tesseract paient le pilote qui les a touchés en premier, et leur gain est faible à côté de celui d’un boss.
 - **Le gain d’un boss est fait pour battre les aliens qui l’entourent.** Une minute de combat contre un Pirate Boss, un Boss Phantasm ou un Boss Goombah paie plus qu’une minute de combat contre un Goombah, et une minute contre l’essaim Dormant ou un Boss Crystalys paie plus qu’une minute contre un Crystalys ; le Boss Seeker paie exactement dix Seekers.
 - **Les aliens du Dormant Swamp** (le Slumbering Void, l’Inert Mass et l’Unwakened) sont payés comme un boss, selon les dégâts, et ajoutent des points PvE à votre classement ; leurs chiffres sont dans [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md#the-aliens).
 
