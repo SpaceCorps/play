@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.’ler -->
 # P.E.T.’ler {#pets}
 
@@ -115,7 +115,7 @@ On türün sekizi yalnızca bonus verir. **Retriever** ve **Mole** de bonus veri
 Yanaştırılmış bir Retriever, **menzili** içindeki en yakın kargo kutusunu alır; her seferinde bir kutu ve her biri yarım saniyede, kendi toplamanın aldığı sürede: elle toplamaktan asla daha hızlı değildir. Dronu kutuya uçar, etrafını bir ışık halkası kapatır ve kutunun durduğu yerde küçük bir bip sesi çalar.
 
 - **Menzil.** Geminin ortasından kutunun ortasına. Kendi toplaman 200 birime ulaşır; bir Retriever bunun üstünde başlar ve derecesi ve seviyesiyle büyür, 20. seviye Efsanevi derecede 880 birime (8 gemi boyu) kadar. Bir gemi yaklaşık 110 birim uzunluğundadır.
-- **Hangi kutular.** Yalnızca senin de alabileceğin kutular: seninkiler ve klanınınkiler, ayrılma süresi bitince de herkesinkiler. Hâlâ başka bir pilota ya da klana ayrılmış bir kutuyu asla almaz, başka bir pilotun [özel kutusunu](/wiki/03-Mechanics/Cargo.md#private-boxes) da; senin kendi özel kutularını alır. Bir öldürmenin ganimeti, bir asteroitin parçaları, Dark Matter kutuları ve bir dev ekskavatörün kutularının hepsi kutudur. Elinle topladığın bir kutu sana bırakılır ve sen ve Retriever birimi aynı kutuya birlikte uzandığında kutuyu tam olarak biri alır.
+- **Hangi kutular.** Yalnızca senin de alabileceğin kutular: seninkiler ve klanınınkiler (bir klan arkadaşı için bırakılmış asteroit parçaları hariç: onlar 30 saniye boyunca yalnızca onundur), ayrılma süresi bitince de herkesinkiler. Hâlâ başka bir pilota ya da klana ayrılmış bir kutuyu asla almaz, başka bir pilotun [özel kutusunu](/wiki/03-Mechanics/Cargo.md#private-boxes) da; senin kendi özel kutularını alır. Bir öldürmenin ganimeti, bir asteroitin parçaları, Dark Matter kutuları ve bir dev ekskavatörün kutularının hepsi kutudur. Elinle topladığın bir kutu sana bırakılır ve sen ve Retriever birimi aynı kutuya birlikte uzandığında kutuyu tam olarak biri alır.
 - **Ne alırsın.** Kendi toplamanın vereceği neyse onu: eşyalar hangar envanterine gider, [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) payını ekler ve bir parçanın kredi ve Thulium ödemesi, kendin topladığında olduğu gibi yapılır.
 
 ### Mole {#the-mole}

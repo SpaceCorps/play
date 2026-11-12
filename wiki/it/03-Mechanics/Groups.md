@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -47,18 +47,21 @@ Un abbattimento vale anche per le **missioni di abbattimento** di ogni altro mem
 
 ## Canali della chat {#chat-channels}
 
-La chat ha una fila di schede in alto: **Globale**, **Locale**, **Gruppo** (finché fai parte di un gruppo) e, per ultima, **Sistema**. La riga che scrivi va alla scheda in vista, e l’ultima scheda usata viene ricordata. Ogni canale ha il suo colore e una breve sigla su ogni riga (GLB, LOC, GRP), una scheda conta le righe che non hai letto, e il pulsante della chat nella barra degli strumenti mostra il conteggio mentre la finestra è chiusa. Oppure inizia una riga con un comando:
+La chat ha una fila di schede in alto: **Globale**, **Locale**, **Gruppo** (finché fai parte di un gruppo), **Clan** (finché fai parte di un clan) e, per ultima, **Sistema**. La riga che scrivi va alla scheda in vista, e l’ultima scheda usata viene ricordata. Ogni canale ha il suo colore e una breve sigla su ogni riga (GLB, LOC, GRP), una scheda conta le righe che non hai letto, e il pulsante della chat nella barra degli strumenti mostra il conteggio mentre la finestra è chiusa. Oppure inizia una riga con un comando:
 
 | Canale | Chi lo sente | Comando |
 | :--- | :--- | :--- |
 | **Locale** | i piloti sulla tua mappa | `/l` o `/local` |
 | **Globale** | ogni pilota di ogni server e di ogni mondo | `/g` o `/global` |
 | **Gruppo** | il tuo gruppo sul tuo server, ovunque si trovi | `/p`, `/party` o `/group` |
+| **Clan** | i piloti del tuo clan sul server di origine; ciò che si dice resta per chi non è connesso | `/c` o `/clan` |
 | **Privato** | un solo pilota del tuo server, ovunque si trovi | `/m`, `/msg` o `/w`, poi il nome e il messaggio ([più sotto](#private-messages)) |
 
 Un comando cambia anche la scheda, e scritto da solo (`/g`) cambia soltanto quella. La chat di gruppo richiede un gruppo. Su un server di gioco precedente ai canali la chat è l’unico elenco di sempre, e non si può formare un gruppo.
 
 **Globale** è un’unica chat per tutto il gioco: la tua riga la sente ogni pilota di ogni server e di ogni mondo, in volo o alla stazione. Una riga che arriva da un altro server può giungere un attimo dopo l’invio, e i piloti di server diversi possono vedere due righe quasi simultanee in ordine diverso. Lascia il puntatore sul nome di un pilota: la scheda che si apre dice anche su quale server vola, quando non è il tuo. Gli altri canali restano sul server in cui ti trovi: **Locale** sono i piloti della tua mappa, la chat di gruppo e i messaggi privati raggiungono solo i piloti del tuo server, e il [kill feed](#the-kill-feed) e le righe **Sistema** (gli annunci del server) appartengono a ciascun server. Se un server perde il collegamento con gli altri, il suo Globale si riduce ai suoi piloti finché il collegamento non torna; un’interruzione breve viene recuperata in ritardo, mentre ciò che è stato detto durante una più lunga non viene riferito dopo.
+
+**Clan** è l’unico canale che il gioco conserva. Una riga che scrivi lì arriva a ogni membro del tuo clan online sul server di origine, a una stazione o in volo, e il server conserva le ultime **200 righe** del clan, nessuna più vecchia di **14 giorni**. Chi accede, entra nel clan o apre la scheda Clan le riceve, la più vecchia per prima, sotto una riga che dice per quanto tempo la chat viene conservata; una riga di un giorno precedente mostra la sua data insieme all’ora, e le righe lette così non contano come non lette. Chi lascia il clan o viene espulso non ne riceve più nulla, e quando il clan viene sciolto, dal suo Leader o dal [reset](/wiki/03-Mechanics/Wipe-Timeline.md), le sue righe vengono cancellate con lui. Le regole della chat ([Le regole della chat](#the-chat-rules)) sono le stesse degli altri canali, ignorare un pilota nasconde le sue righe del clan, e una riga del clan si può segnalare come ogni altra. Su un server regionale non c’è la scheda Clan, e `/c` dice che la chat del clan è disponibile solo sul server di origine.
 
 La scheda **Sistema** è dorata e di sola lettura, con un elenco tutto suo: contiene ciò che il server dice di sua iniziativa (il benvenuto, gli avvisi di riavvio, di aggiornamento e di reset, gli annunci degli sciami) e ciò che riferisce la tua nave (riparazioni, occultamento, EMP, razzi). Quelle righe non stanno in nessun’altra scheda, quindi un Globale molto movimentato non può spingerle fuori, e le altre schede contengono ciò che dicono i piloti. Il conteggio della scheda riguarda solo gli annunci; il conto alla rovescia di un riavvio o di un aggiornamento e gli avvisi del reset compaiono anche per un momento come notifica. Il [kill feed](#the-kill-feed) resta in **Globale**, con il suo interruttore, e le righe sui piloti che entrano nel tuo gruppo o lo lasciano sono in **Gruppo**.
 
@@ -114,7 +117,7 @@ La tua lista degli ignorati e l’interruttore Nascondi Globale sono salvati con
 
 ## Regole d’ingaggio {#rules-of-engagement}
 
-**I membri di uno stesso gruppo non possono farsi del male a vicenda**, qualunque sia la loro corporazione: non puoi agganciare un compagno di gruppo (laser o razzi), i tuoi colpi e le tue esplosioni lo attraversano, e nulla di ciò che fai a uno di loro conta come un abbattimento, un abbattimento PvP o un abbattimento da buco nero per nessuno. I compagni di corporazione che **non** sono nello stesso gruppo valgono come prima: colpirne uno costa **100 onore** quando viene distrutto. Lascia il gruppo e un ex compagno, nemico o no, torna subito un bersaglio lecito (dove il settore e la stagione permettono di combattere). Chiunque sia fuori dal tuo gruppo viene trattato come sempre, e le zone sicure, il Protocollo di pace e le regole PvP dei settori non cambiano per nessuno.
+**I membri di uno stesso gruppo non possono farsi del male a vicenda**, qualunque sia la loro corporazione: non puoi agganciare un compagno di gruppo (laser o razzi), i tuoi colpi e le tue esplosioni lo attraversano, e nulla di ciò che fai a uno di loro conta come un abbattimento, un abbattimento PvP o un abbattimento da buco nero per nessuno. I compagni di corporazione che **non** sono nello stesso gruppo valgono come prima: colpirne uno con un laser o un razzo costa **100 onore** quando viene distrutto. Lascia il gruppo e un ex compagno, nemico o no, torna subito un bersaglio lecito (dove il settore e la stagione permettono di combattere). Chiunque sia fuori dal tuo gruppo viene trattato come sempre, e le zone sicure, il Protocollo di pace e le regole PvP dei settori non cambiano per nessuno.
 
 ## Portare un amico {#bringing-a-friend}
 

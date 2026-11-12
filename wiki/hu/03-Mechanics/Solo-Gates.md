@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Szólókapuk -->
 # Szólókapuk {#solo-gates}
 
@@ -84,13 +84,15 @@ A legtöbb pörgetés nem talál alkatrészt. Mindegyik egy nyereményt fizet, a
 
 ## Belépés {#going-in}
 
-A kaput a Galaxiskapuk oldalon **építed meg**, és a portálján **ugrasz be**. Az építés az állomásról megy, dokkolt hajóval: nem kell repülnöd. Ehhez kell:
+A kaput a Galaxiskapuk oldalon **építed meg**, és a portálján **ugrasz be**. Az építés az állomásról megy, dokkolt hajóval, és repülés közben is: a **Galaxiskapuk ablak**, amelyet az eszköztár kapu gombja nyit meg, ugyanúgy pörget, épít és választ úti célt, mint az oldal. Ehhez kell:
 
 - a kapu alkatrészei: **egyszer, az építéskor** veszik el őket, az elutasított építés semmit sem vesz el;
 - nincs más nyitott szólómenet: egyszerre egy menetet játszol, és az elhagyott menetbe a portálján át lépsz vissza, vagy fel kell adnod, mielőtt másik kaput építesz;
 - a fő szerver (a regionális szervereken nincsenek kapuk).
 
 A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz.
+
+**A regionális szervereken (Singapore, US East).** Maga a kapu a fő szerveren marad: regionális szerveren semmit sem építenek, játszanak vagy fizetnek ki. Az épített kapu ott sem merül feledésbe: érkezéskor szólnak róla, és a kapud portálja ott is a bázisszektorodban áll. Ugorj át rajta, és visszakerülsz a fő szerverre, ahol a fent leírtak szerint indulsz a kapuba.
 
 Egy üres aréna közepén landolsz, egyedül. Senki sem támadhat meg benne, és a Jump CPU és a Base CPU nem működik.
 
@@ -110,16 +112,18 @@ Minden világ ugyanazt a kaput vívja: az idegenek ereje és fizetése nem függ
 
 Az idegenek a játék idegenei (Seeker, Phantasm, Bulwark, Goombah és Crystalys), a kapu által keményebbre vagy puhábbra téve. A tervezett idő az, amennyit a kapu egy pilótának a Lézertechnika kezdő szintjén vesz igénybe ([Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md)); aki feljebb fejlesztette a Lézertechnikát, hamarabb végez.
 
+Egyes hullámok **rajt** hoznak: a játék egy boss NPC-jét (Boss Seeker, Boss Phantasm, Boss Goombah vagy Boss Crystalys) az őreivel, akik egy csoportként támadnak. A raj minden hajója a hullámához tartozik, és a hullám akkor ér véget, amikor az utolsó is elpusztult. Úgy fizetnek, mint a hullám többi hajója, [az idegenek táblázatának](#the-aliens) értékeivel. **A boss NPC elejti a zsákmányát, ahogy a játék szektoraiban is**: érc, lemezek, lőszer és rakéták (hogy melyik mit ejt, azt [a rajok oldalain](/wiki/05-Swarms/Swarms.md) találod). Egy kapuban nincs felvehető láda: a zsákmány a fizetéssel jön, közvetlenül a készletedbe, és a fizetéshez hasonlóan menetenként csak egyszer. Az őrei nem ejtenek semmit, a kapuban sem, a szektorokban sem, és nem gyógyítják a bossukat, és nem térnek vissza. Az alábbi táblázat megmondja, hogy az egyes kapuk mely hullámai hoznak rajt.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Kapu | Hullámok, a boss hulláma is | Idegenek a hullámokban | Boss | Tervezett idő |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10–15 perc |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15–25 perc |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25–35 perc |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35–45 perc |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50–60 perc |
+| Kapu | Hullámok, a boss hulláma is | Idegenek a hullámokban | Boss NPC-k és rajok | Boss | Tervezett idő |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | 5. hullám: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10–15 perc |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | 4. hullám: 2 Seeker Swarm; 9. hullám: 1 Phantasm Swarm | Enhanced Bulwark | 15–25 perc |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | 4. hullám: 1 Phantasm Swarm; 9. hullám: 1 Goombah Swarm; 14. hullám: 1 Goombah Swarm | Elite Crystalys | 25–35 perc |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | 5. hullám: 2 Phantasm Swarm; 10. hullám: 2 Goombah Swarm; 15. hullám: 1 Goombah Swarm; 20. hullám: 1 Crystalys Swarm | Siege Construct | 35–45 perc |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | 6. hullám: 1 Goombah Swarm; 11. hullám: 2 Goombah Swarm; 16. hullám: 1 Crystalys Swarm; 22. hullám: 1 Phantasm Swarm | Omega Guardian | 50–60 perc |
 
 - **Delta Siege**: 18. hullám (250 Seeker): választható, átugorhatod, amíg a visszaszámlálása fut, és nem fizet semmit
 - **Omega Vault**: 17. hullám (250 Seeker): választható, átugorhatod, amíg a visszaszámlálása fut, és nem fizet semmit; a 22–24. hullámok elitek, ×1,5 hajótesttel, pajzzsal és sebzéssel
@@ -182,7 +186,7 @@ A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, 
 
 ### Az idegenek {#the-aliens}
 
-Minden idegen, amelyet egy kapuban megölsz, az Alphában érvényes számokkal fizet, bármelyik világban repülsz: semmilyen világszorzó, booster vagy Prémium bónusz nem változtatja őket. Egy hullám az idegeneiért **egyszer** fizet menetenként, akárhányszor lépsz ki és vissza. A fizetés a menet minden szakaszának végén jön: amikor kilépsz, meghalsz, elfogynak az életeid, feladod vagy teljesíted. Egy szakasz kilövései csak a wipe-nál és a szerver újraindításakor maradnak kifizetetlenül, ha éppen bent vagy (a meneted nyitva marad, de annak a szakasznak a kilövései elvesznek). A kapu kilövései másra nem számítanak: nem a küldetésekre, a kilövési statisztikákra, az eredmények számlálóira, a kill feedre és a drónjaid meg P.E.T.-jeid tapasztalatára sem. A tapasztalat, amelyet fizetnek, viszont beleszámít a PvE-rangpontjaidba, ahogy egy teljesítés tapasztalata is. Az idegenek zsákmánya a fizetéssel jön, közvetlenül a készletedbe.
+Minden idegen, amelyet egy kapuban megölsz, az Alphában érvényes számokkal fizet, bármelyik világban repülsz: semmilyen világszorzó, booster vagy Prémium bónusz nem változtatja őket. Egy hullám az idegeneiért **egyszer** fizet menetenként, akárhányszor lépsz ki és vissza. A fizetés a menet minden szakaszának végén jön: amikor kilépsz, meghalsz, elfogynak az életeid, feladod vagy teljesíted. Egy szakasz kilövései csak a wipe-nál és a szerver újraindításakor maradnak kifizetetlenül, ha éppen bent vagy (a meneted nyitva marad, de annak a szakasznak a kilövései elvesznek). A kapu kilövései beleszámítanak a [küldetésekbe](/wiki/03-Mechanics/Quests.md#where-it-counts), amelyek nem neveznek meg szektort (például a Kihívások sorának nagy vadászatai), mégpedig abban a pillanatban, ahogy megtörténnek (egy hullám menetenként **egyszer** számít bele, ahogy egyszer fizet is), másra viszont nem számítanak: nem a kilövési statisztikákra, az eredmények számlálóira, a kill feedre és a drónjaid meg P.E.T.-jeid tapasztalatára sem. A tapasztalat, amelyet fizetnek, viszont beleszámít a PvE-rangpontjaidba, ahogy egy teljesítés tapasztalata is. Az idegenek zsákmánya a fizetéssel jön, közvetlenül a készletedbe.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Minden idegen, amelyet egy kapuban megölsz, az Alphában érvényes számokkal 
 | **Bulwark** | 5 000 | 25 | 800 | 10 |
 | **Goombah** | 15 000 | 75 | 3 000 | 24 |
 | **Crystalys** | 75 000 | 200 | 12 000 | 52 |
+| **Boss Seeker** | 10 000 | 40 | 1 000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39 000 | 195 | 7 800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120 000 | 600 | 24 000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Kapu | Kredit | Thulium | XP | Becsület |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540 000 | 2 160 | 54 000 | 1 080 |
-| **Beta Breach** | 1 320 000 | 5 980 | 186 000 | 2 520 |
-| **Gamma Foundry** | 3 000 000 | 13 300 | 522 000 | 4 616 |
-| **Delta Siege** | 4 975 000 | 21 400 | 829 000 | 7 640 |
-| **Omega Vault** | 6 875 000 | 29 000 | 1 160 000 | 10 100 |
+| **Alpha Rift** | 514 000 | 2 099 | 55 296 | 1 018 |
+| **Beta Breach** | 1 298 500 | 5 939 | 187 744 | 2 470 |
+| **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
+| **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
+| **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
 
 <!-- solo-kills:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Eredmények -->
 # Eredmények {#achievements}
 
@@ -77,7 +77,7 @@ A 45 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Állomásépítő | Építs 5 különböző Skylab-modult. | Gyakori |
 | Teljes felszereltség | Építsd meg mind a 16 Skylab-modult. | Epikus |
 | Tudós | Fejezd be 50 technológia kutatását. | Szokatlan |
-| Levéltáros | Fejezd be mind a 181 technológia kutatását. | Legendás |
+| Levéltáros | Fejezd be mind a 187 technológia kutatását. | Legendás |
 
 ### Flotta {#group-fleet}
 
@@ -134,10 +134,11 @@ A **cím** egy rövid szövegsor a pilóta neve mellett. A 50 eredményből 32 a
 A **Steames változatban** összekötheted a játékfiókodat a Steam-fiókoddal, és akkor az eredményeid a Steamen is beállítódnak. A közvetlen letöltéseknek nincs Steamjük, ezért nincs összekötésük sem; a játék saját eredményei, jutalmai és címei minden változatban ugyanúgy működnek.
 
 - **Kösd össze** a **Beállítások › Fiók** oldal Steam-kártyáján. Az összekötés indításához újra megadod a játék jelszavadat. A játék ezután megkéri a Steamet, hogy igazolja, ki vagy, és a szerver csak a Steam válaszának hisz: semmi, amit beírsz, nem nevezhet meg Steam-fiókot.
+- **Az új fiók magától összekapcsolódik.** Ha a Steames változatban regisztrálsz, az űrlapon van egy **Összekapcsolás a Steam-fiókommal** kapcsoló, alapból bekapcsolva. A fiók az első bejelentkezéskor kapcsolódik össze, azzal a jelszóval, amelyet az imént beírtál, és ugyanazok az ellenőrzések érvényesek (a Steam igazolja, ki vagy; egy az egyhez). A már meglévő fiókokat a játék sosem köti össze magától.
 - **Egy az egyhez.** Egy játékfiókhoz legfeljebb egy Steam-fiók tartozik, és egy Steam-fiók egyetlen játékfiókhoz köthető. Ha egy Steam-fiók már egy másik pilótához van kötve, a játék ezt jelzi, és semmit sem köt össze. Egy admin kézzel áthelyezhet egy összekötést, ha két fiók ugyanazt a Steam-fiókot igényli.
 - **A szerver** a Steam-azonosítódat, a Steam-fiókod nyilvános számát és az összekötés időpontját **őrzi meg**. A Steamből mást nem tárol: sem a Steam-nevedet, sem a barátaidat, sem a játékaidat, sem a jelszavadat. Az azonosítót csak te és a játék adminisztrátorai láthatják, más pilóta soha.
 - **Szétkötés** ugyanazon a kártyán, a jelszavaddal: a tárolt Steam-azonosító rögtön törlődik. Szétkötés után csak 24 óra múlva köthetsz össze másik Steam-fiókot; ugyanazt újra azonnal összeköthetsz. Erre a 24 órára a szerver rövid feljegyzést tart meg a szétkötésről (az időpontot és az azonosítóból képzett kuszált kódot, csak annak eldöntésére, hogy ugyanazt a fiókot kötöd-e újra össze), aztán törli.
-- **Az eredmények akkor érnek el a Steamre, amikor a Steames változattal jelentkezel be**, amíg a futó Steam-fiók az, amelyet összekötöttél. A játék megnézi, mi hiányzik a Steamnek, és beállítja, így a közvetlen letöltésben vagy zárt Steam mellett szerzett eredmény a következő Steames bejelentkezéskor érkezik meg. Offline semmi sem vész el: a játék megőrzi a bejegyzést, és a Steam később értesül róla.
+- **Az eredmények a megszerzésük után azonnal elérnek a Steamre**, amíg a futó Steam-fiók az, amelyet összekötöttél: a Steam a játékéhez képest néhány másodperccel később mutatja a saját felugró ablakát. A játék minden bejelentkezéskor is megnézi, mi hiányzik a Steamnek, és beállítja, így a közvetlen letöltésben vagy zárt Steam mellett szerzett eredmény ekkor érkezik meg, a sikertelen kísérletet pedig a játék magától megismétli. Amíg másik szerveren (regionális csomóponton) repülsz, ott semmit sem szerzel és semmi sem megy el; az állomásra visszatérve a játék pótolja. Offline semmi sem vész el: a játék megőrzi a bejegyzést, és a Steam később értesül róla.
 - Egy eredmény kreditjei és címei a játékszerver saját nyilvántartásából jönnek, soha nem a Steamből.
 
 ## Mióta számolunk {#when-counting-began}

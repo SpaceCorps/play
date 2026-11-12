@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 - **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare (utom Tesseract) och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
 - **En [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar ingen sådan låda: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](#private-boxes) med sin del av bytet.
 - **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** lämnar heller ingen låda vid vraket: varje pilot som dess nedskjutning betalar får en egen [privat låda](#private-boxes) med sin del av Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units och Dark Matter.
-- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. En bit plockas upp som en låda, och den är reserverad för piloterna som förtjänade den och sedan fri, som en låda.
+- **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. En bit plockas upp som en låda, och den är reserverad för piloten som den lades ut åt: i 30 sekunder kan bara den piloten ta den, inte dennes klankamrater, och sedan är den fri, som en låda.
 
 En utomjording som en koncernpilot gör slut på tappar sitt byte åt den pilot som nedskjutningen räknas för (den som har paxet på den, annars en pilot i samma koncern som slåss mot den); en som en koncernpilot bekämpade ensam tappar ingenting, eftersom koncernpiloter aldrig plockar upp något.
 
@@ -35,7 +35,7 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 
 ## Vem som får den {#who-gets-it}
 
-- Piloten som får betalt för nedskjutningen, och medlemmarna i den pilotens **klan**, har lådan för sig själva i **30 sekunder**. För en utomjording är det piloten som har paxet på den, den som träffade den först (se [Strid](/wiki/03-Mechanics/Combat.md)), oavsett vem som gjorde slut på den. Andra piloter ser den nedtonad och kan inte ta den än; ett skepp som skickats till den väntar i närheten tills tiden är ute.
+- Piloten som får betalt för nedskjutningen, och medlemmarna i den pilotens **klan**, har lådan för sig själva i **30 sekunder**. För en utomjording är det piloten som har paxet på den, den som träffade den först (se [Strid](/wiki/03-Mechanics/Combat.md)), oavsett vem som gjorde slut på den. Andra piloter ser den nedtonad och kan inte ta den än; ett skepp som skickats till den väntar i närheten tills tiden är ute. Bitarna från en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) är undantaget: under de 30 sekunderna kan bara piloten de lades ut åt ta dem, inte dennes klankamrater.
 - Därefter får **vem som helst** på kartan ta den.
 - Bara ett skepp på lådans karta kan ta den: om du förstörs, hoppar eller loggar ut på vägen (eller under den halva sekund upplockningen tar), blir lådan kvar åt de andra.
 - Om två piloter plockar upp samma låda samtidigt får den vars upplockning blir klar först den, exakt en gång; den andra får veta att den är borta.

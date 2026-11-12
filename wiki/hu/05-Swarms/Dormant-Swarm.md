@@ -57,7 +57,7 @@ Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebesség
 | :--- | ---: | ---: | ---: |
 | Hajótest | 256 000 | 384 000 | 512 000 |
 | Pajzs | 83 400 | 125 100 | 166 800 |
-| Lézersebzés (másodpercenként egy sorozat) | 3 120 | 4 680 | 6 240 |
+| Lézersebzés (másodpercenként egy sorozat) | 3 570 | 5 355 | 7 140 |
 | Sebesség | 210 | 210 | 210 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
@@ -84,8 +84,8 @@ Alapja: Paragon, hajótestének 100%-a és lézersebzésének 600%-a; a sebessé
 | :--- | ---: | ---: | ---: |
 | Hajótest | 128 000 | 192 000 | 256 000 |
 | Pajzs | 64 570 | 96 855 | 129 140 |
-| Lézersebzés (másodpercenként egy sorozat) | 4 320 | 6 480 | 8 640 |
-| Sebesség | 230 | 230 | 230 |
+| Lézersebzés (másodpercenként egy sorozat) | 5 100 | 7 650 | 10 200 |
+| Sebesség | 270 | 270 | 270 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
 | Rakétasebzés, legfeljebb | 5 000 | 7 500 | 10 000 |

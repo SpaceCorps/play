@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b87e9167b265780 -->
+<!-- wiki-i18n source: 507ead340cbae2bd -->
 <!-- wiki-i18n title: Konzernpiloten -->
 # Konzernpiloten {#company-pilots}
 
@@ -13,7 +13,7 @@ Jeder Konzern hält in seinen Heimatsektoren (`M-1` bis `M-4`, `T-1` bis `T-4`, 
 - **Schiff**: eine [Ostirion](/wiki/02-Ships/Ostirion.md) mit drei **Quantum Laser II**, zwei **Light Shield Cores**, einem **Engine I** und einer **Repair Drone I**:
   - 64.000 Trefferpunkte, 22.000 Schildpunkte, Tempo 225
   - Absorption 45 %: Ihre Schilde nehmen 45 % jedes Treffers, die Hülle 55 %
-  - 195 Grundschaden pro Salve (x1-Munition), 1 % Krit-Chance, Reichweite 700
+  - 210 Grundschaden pro Salve (x1-Munition), 1 % Krit-Chance, Reichweite 700
 - **Auf der Minikarte**: eine grüne Raute für die Piloten deines Konzerns, eine bernsteinfarbene für die eines anderen Konzerns.
 - **Kein Rang**: Das kleine Symbol vor dem Namen eines Piloten im Flug ist sein [Rang](/wiki/03-Mechanics/Ranks.md) und gehört echten Piloten. Konzernpiloten haben keins und stehen nicht in der Rangliste deines Konzerns. Die Konzernseite listet die echten Piloten deines Konzerns mit den meisten PvE-Punkten zuerst, und der Rang eines Piloten ergibt sich aus seinen PvE-Punkten in dieser Liste und, bei den sechs besten Rängen, aus den Plätzen des Konzerns.
 

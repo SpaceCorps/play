@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Escudos -->
 # Mecânica dos escudos {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 - **Shield Absorbance Boost**: um bônus permanente da Loja de PR, comprado com pontos de reset, de **+0,1 ponto por nível, no máximo +10 pontos** (100 níveis, 25 PR cada). Ele soma pontos fixos à absorção da sua nave, igual em qualquer nave com escudo: 91% viram 91,4% com 4 níveis (100 PR), e os 45% de um Light Shield Core viram 46,2% com 12 níveis (300 PR). Uma nave sem escudo equipado continua em 0%. Os 100 níveis custam 2.500 PR, uma meta para vários resets: as fontes de pontos de reset (os marcos de abates, as missões e as cinco pesquisas Dormant Knowledge) pagam até 1.105 PR por reset e recomeçam a cada reset, a sua patente soma de 5 a 400 no reset, e 1.105 compram 44 níveis, +4,4 pontos. Veja [Temporada e pontos de reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Forja**: escudos e células de escudo podem sortear um bônus de **Absorção**, que multiplica o atributo: +5% em um escudo de 55% são +2,75 pontos. Um conjunto Eterno do melhor tipo, totalmente forjado (núcleo e três células, todos os bônus sorteados no máximo, +15%), soma até 13,65 pontos, cerca de 11 em média (veja [A Forja](/wiki/06-Items/Forge.md)).
 - **Field Theory**: a pesquisa de Piloto Field Theory I, II e III ([Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies)) soma **+4, +7 e +10 pontos** à absorção de todas as suas naves, no total e não cada nível por cima do anterior, em troca de créditos, Thulium e Dark Matter. Como o bônus da Loja de PR, são pontos fixos em qualquer nave com escudo, e permanecem depois do reset.
+- **Absorção de escudo**: a [perícia do piloto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) soma até **+5 pontos** no nível 100 à absorção que a sua nave tem de tudo o que está acima, sem limite para o total: uma nave com 119% chega a 124%, e uma nave sem escudo equipado continua em 0%. Ela não está nas contas de **Juntos**.
 - **Juntos**: 91% de fábrica, +4,4 pontos de bônus (os 1.105 pontos de reset de um reset), até +13,65 pontos de bônus da Forja e +10 pontos do Field Theory III chegam a **119,05%** no máximo depois de um reset em uma nave simples, sem [design](/wiki/03-Mechanics/Ship-Designs.md) nem [formação](/wiki/03-Mechanics/Formations.md); com todos os 100 níveis do bônus (+10 pontos, 2.500 PR) seriam 124,65%. Um design com +10% de absorção de escudo (o Paragon BUCKY, o Ironclad DUMA, o Wraith ATARAXIS) e a formação Rampart (+17%) multiplicam a absorção dos escudos antes que os pontos fixos do bônus e do Field Theory sejam somados; a mesma nave com os dois chega a **149,1%** depois de um reset (154,7% com todos os 100 níveis). Cada um dos três passa de 100% sozinho: o bônus no limite e o Field Theory III dão 101%, um conjunto Eterno com todos os sorteios no máximo, 104,65%; um conjunto Eterno junto com o Field Theory III chega a 109 a 115%, e os níveis do bônus vêm por cima. Todos esses números contam apenas as fontes de pontos de reset, não os 5 a 400 pontos de reset que a sua patente paga no reset e que compram mais níveis do bônus.
 
 ### Bônus de escudo: capacidade, absorção, recarga {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Alguns ataques têm uma **penetração de escudo**: pontos que são descontados 
 Todo bônus de escudo aumenta um dos três atributos e aparece na janela Boosters sob a sua própria categoria:
 
 - **Capacidade** (pontos de escudo máximos): os boosters Shield Wall Booster I e II e o Shield Capacity Boost permanente.
-- **Absorção** (a parte de um impacto que os seus escudos recebem): o Shield Absorbance Boost permanente (+0,1 ponto por nível, no máximo +10 pontos).
+- **Absorção** (a parte de um impacto que os seus escudos recebem): o Shield Absorbance Boost permanente (+0,1 ponto por nível, no máximo +10 pontos) e a perícia do piloto Absorção de escudo (até +5 pontos).
 - **Recarga** (pontos de escudo restaurados por segundo): o Shield Regen Booster.
 
 Veja [Boosters](/wiki/06-Items/Boosters.md) para os números.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Perícias do piloto -->
 # Perícias do piloto {#pilot-skills}
 
@@ -15,11 +15,11 @@ Um piloto novo não está com força total. No nível 1, um laser e um foguete c
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estatísticas**: 18 estatísticas: 4 atributos e 14 perícias em 5 grupos
+- **Estatísticas**: 19 estatísticas: 4 atributos e 15 perícias em 5 grupos
 - **Níveis**: De 1 a 100. Todo piloto começa toda estatística no nível 1, e não há nada para gastar nem para refazer
 - **Custo de um nível**: 40 XP do nível 1 ao 2, 875 XP do nível 50 ao 51, 19.157 XP do nível 99 ao 100; 313.258 XP no total
 - **O que um nível dá**: Um bônus cresce em linha reta do valor dele no nível 1 ao valor dele no nível 100. Nada tem limite
-- **O seu laser no nível 1**: Causa 80% do dano dele e acerta 80% das vezes, ou seja, 64% do dano que as páginas de itens indicam
+- **O seu laser no nível 1**: Causa 100% do dano dele e acerta 80% das vezes, ou seja, 80% do dano que as páginas de itens indicam
 - **O seu foguete no nível 1**: Causa 100% do dano dele e falha ao acender 10% das vezes, ou seja, 90% do dano que as páginas de itens indicam
 - **Esquiva**: A nave de todo piloto esquiva 3% dos golpes que podem ser esquivados, antes de qualquer perícia ou formação somar
 - **Nível de casco**: A raridade da sua nave o define, como mostra a tabela abaixo. O tamanho do seu porão e o XP da Massa o acompanham
@@ -50,20 +50,20 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 
 | Estatística | O que muda | Nível 1 | Nível 100 |
 | :--- | :--- | ---: | ---: |
-| **Massa** | Casco | +0% | +10% |
-| **Tenacidade** | Dano sofrido | ×1 | ×0,9 |
-| **Reflexos** | Velocidade de recarga das habilidades | ×1 | ×1,11 |
-| **Instinto** | Chance de cada linha de saque | +0 pontos | +5 pontos |
+| **Massa** | Casco | +0% | +20% |
+| **Tenacidade** | Dano sofrido | ×1 | ×0,92 |
+| **Reflexos** | Velocidade de recarga das habilidades | ×1 | ×1,1 |
+| **Instinto** | Chance de cada linha de saque | +0 pontos | +7,5 pontos |
 |  | Orvium e Velkonite dos coletores | ×1 | ×1,5 |
 
 ### Armas {#weapons}
 
 | Estatística | O que muda | Nível 1 | Nível 100 |
 | :--- | :--- | ---: | ---: |
-| **Tecnologia laser** (Reflexos) | Dano do laser | ×0,8 | ×1,1 |
-|  | Chance de uma rajada de laser acertar | 80% | 90% |
+| **Tecnologia laser** (Reflexos) | Dano do laser | ×1 | ×1,3 |
+|  | Chance de uma rajada de laser acertar | 80% | 89% |
 | **Tecnologia de foguetes** (Reflexos) | Dano do foguete | ×1 | ×1,3 |
-|  | Chance de um foguete falhar ao acender | 10% | 0% |
+|  | Chance de um foguete falhar ao acender | 10% | 1% |
 | **Antimatéria** (Instinto) | Dark Matter das coletas | ×1 | ×1,25 |
 
 ### Combate {#combat}
@@ -76,13 +76,14 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 |  | Duração dos venenos | ×1 | ×1,2 |
 | **Evasão** (Reflexos) | Chance de esquivar de um golpe, somada à da própria nave | 0% | 15% |
 | **Tática** (Reflexos) | Duração das habilidades | ×1 | ×1,2 |
+| **Absorção de escudo** (Tenacidade) | Absorção dos seus escudos | +0 pontos | +5 pontos |
 
 ### Controle da nave {#ship-control}
 
 | Estatística | O que muda | Nível 1 | Nível 100 |
 | :--- | :--- | ---: | ---: |
 | **Tecnologia de radiação** (Tenacidade) | Dose de radiação | ×1 | ×0,4 |
-| **Teoria de propulsores** (Massa) | Velocidade | +0% | +15% |
+| **Teoria de propulsores** (Massa) | Velocidade | +0% | +10% |
 | **Ciência** (Instinto) | Ciência por unidade de combustível | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 
 - **Lasers.** A Tecnologia laser muda o dano de cada rajada e a chance de ela acertar; uma rajada que erra mostra um “Miss” flutuante e gasta a munição do mesmo jeito ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). O alcance dos seus lasers é o da sua nave: a Pontaria sobe com os seus acertos com munição diferente da simples x1, mas só age sobre as Mines (abaixo).
 - **Foguetes.** A Tecnologia de foguetes muda o dano de cada foguete e a chance de um falhar ao acender ([Tecnologia de foguetes](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, e a Evasão aumenta a chance de um acerto direto não fazer nada ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
+- **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, a Evasão aumenta a chance de um acerto direto não fazer nada e a Absorção de escudo aumenta a parte de um acerto que os seus escudos recebem ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
 - **Habilidades.** Os Reflexos encurtam o tempo de recarga das suas habilidades e a Tática as faz durar mais ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Sabotagem fortalece os venenos.
 - **Mines.** A Sabotagem aumenta o dano de uma Mine, e a Pontaria a lança mais rápido e mais longe ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidade.** A Teoria de propulsores soma à sua velocidade, além dos motores e de um Afterburner ([Velocidade](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ A tabela lista o que paga XP, estatística por estatística. O XP é por cada un
 |  | A cada rajada que acerta uma nave | 0,1 |  |
 | **Tecnologia de foguetes** (Reflexos) | A cada foguete que você lança | 0,15 | 130 foguetes por hora |
 |  | A cada foguete que acerta uma nave (uma vez por foguete, por mais naves que a explosão atinja) | 0,3 |  |
-| **Antimatéria** (Instinto) | A cada unidade de Dark Matter que você recebe numa coleta | 0,1 | Nenhum |
+| **Antimatéria** (Instinto) | A cada unidade de Dark Matter que você recebe numa coleta | 2,2 | Nenhum |
 | **Pontaria** (Reflexos) | A cada acerto de uma rajada disparada com munição diferente da simples x1 (×1,5 nos primeiros 10 min de cada tipo de munição em uma hora do relógio) | 0,1 | 3.000 acertos por hora |
 |  | A cada acerto de uma Mine, e a cada segundo que um inimigo passa na sua Energetic Wall | 0,1 |  |
 | **Sabotagem** (Reflexos) | A cada acerto de uma Mine, e a cada segundo que um inimigo passa na sua Energetic Wall | 0,5 | 1.200 XP por hora |
 |  | A cada segundo em que um veneno seu age sobre um inimigo | 0,05 |  |
 | **Evasão** (Reflexos) | A cada ataque hostil contra você que erra ou é esquivado | 1 | 600 XP por hora |
 | **Tática** (Reflexos) | A cada habilidade que você aciona com um hostil ao alcance do laser | 2 | 600 XP por hora |
+| **Absorção de escudo** (Tenacidade) | A cada 1% do seu escudo máximo consumido por acertos de inimigos | 0,1 | 300 XP por hora |
 | **Tecnologia de radiação** (Tenacidade) | A cada segundo dentro de uma faixa de radiação | 0,2 | Nenhum |
 |  | A cada 1% do seu casco máximo que a radiação tira | 1 |  |
 | **Teoria de propulsores** (Massa) | A cada segundo voado acima de 80% da velocidade da sua nave, o dobro sob um Afterburner | 0,1 | Nenhum |
@@ -184,7 +186,9 @@ Um nível custa mais XP que o anterior, por uma proporção fixa, então os prim
 
 ## A página Perícias do piloto {#the-pilot-skills-page}
 
-A página **Perícias do piloto** é uma página da estação, com uma linha própria na barra lateral. Ela mostra a árvore inteira: os atributos e as perícias nos seus grupos, cada um com o seu nível. Selecione uma estatística para ver o que ela faz, qual atributo a rege, quais perícias ela treina, a sua barra de XP e o que a faz crescer, e use o controle deslizante para pré-visualizar qualquer nível do 1 ao último: uma pequena tabela dá o que a estatística muda no nível pré-visualizado e no seu nível atual. Uma estatística que ainda não ganhou XP aparece como não usada, com um traço no lugar do nível. A linha da barra lateral ganha um selo quando uma estatística subiu de nível desde a última vez que você abriu a página, e um cartão da janela de Boosters resume o que as suas perícias mudam.
+A página **Perícias do piloto** é uma página da estação, com uma linha própria na barra lateral. É uma folha compacta de toda a árvore: os atributos e os cinco grupos de perícias ficam lado a lado em colunas (três em uma tela larga, menos em uma estreita), com uma linha por estatística, o seu nível na borda direita e uma barra de XP fina embaixo. Uma estatística que ainda não ganhou XP fica cinza, com um traço no lugar do nível. Deixe o ponteiro sobre uma linha para ver o que a estatística faz, qual atributo a rege ou quais perícias ela treina, o seu XP e o que a faz crescer. Clique em uma linha para abrir os detalhes dela embaixo da sua fileira de colunas: as mesmas palavras, a barra de XP e um controle deslizante para pré-visualizar qualquer nível do 1 ao último, com uma pequena tabela do que a estatística muda no nível 1, no seu nível atual, no nível pré-visualizado e no último nível. Só uma estatística fica aberta por vez; clique de novo na linha, use o botão de fechar ou pressione Esc para guardá-la. A linha da barra lateral ganha um selo quando uma estatística subiu de nível desde a última vez que você abriu a página, e um cartão da janela de Boosters resume o que as suas perícias mudam.
+
+Em voo, a mesma folha é a janela **Perícias do piloto**. Abra-a com o botão Perícias do piloto da barra de ferramentas (em uma tela larga) ou com a sua tecla, K por padrão (Configurações, Controles). É uma janela como as outras: mova-a, redimensione-a, e ela lembra o seu lugar e se estava aberta. Ela só mostra as suas perícias: os níveis avançam conforme chegam as linhas de XP do voo, e um clique em uma linha abre os mesmos detalhes dentro da janela.
 
 ## O que se mantém {#what-is-kept}
 

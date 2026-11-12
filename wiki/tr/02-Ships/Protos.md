@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Protos, SpaceCorps’ta tüm yeni pilotlara verilen temel başlangıç gemisidir
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 8.000
-- **Temel hız**: 180
+- **Temel hız**: 190
 - **Lazer yuvaları**: 2
 - **Ekstra yuvalar**: 2
 

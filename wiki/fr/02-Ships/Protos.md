@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Le Protos est le vaisseau de départ de base remis à chaque nouveau pilote de S
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 8 000
-- **Vitesse de base** : 180
+- **Vitesse de base** : 190
 - **Emplacements laser** : 2
 - **Emplacements extras** : 2
 

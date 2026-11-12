@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevée et le plus grand nombre de lasers de tous les vaisseaux (14) sur une coque légère pour sa classe. D’après le classement du jeu (plus de 10 emplacements laser), c’est un cuirassé de classe IV. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
+Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevée et le plus grand nombre de lasers de tous les vaisseaux (15) sur une coque légère pour sa classe. D’après le classement du jeu (plus de 10 emplacements laser), c’est un cuirassé de classe IV. Il se fabrique à l’Assemblage une fois sa technologie recherchée au Centre de recherche, et à lasers égaux il perd en duel contre un Wraith ou un Ironclad.
 
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 180 000
-- **Vitesse de base** : 260
-- **Emplacements laser** : 14
+- **Vitesse de base** : 350
+- **Emplacements laser** : 15
 - **Emplacements extras** : 3
-- **Emplacements de blindage**: 7
+- **Emplacements de blindage**: 8
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}
 
-- **Emplacements principaux (efficacité de 100 %)** : 4
+- **Emplacements principaux (efficacité de 100 %)** : 3
 - **Emplacements de soutien (efficacité de 75 %)** : 4
 - **Emplacements auxiliaires (efficacité de 50 %)** : 2
 
@@ -27,7 +27,7 @@ Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevé
 
 ## Recherche {#research}
 
-- **Emplacements de blindage.** Ce vaisseau a 7 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 7 remplis de Hull Plating III ajoutent 175 000 de coque.
+- **Emplacements de blindage.** Ce vaisseau a 8 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md), tous verrouillés quand vous le fabriquez. Chacun est une technologie à part dans le Skylab, 1 h et 10 Dark Matter, à rechercher dans l’ordre à partir du premier ; elle ouvre cet emplacement sur ce vaisseau et sur chacun de ses designs. Les 8 remplis de Hull Plating III ajoutent 200 000 de coque.
 - **Designs.** Ce vaisseau a 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Recherchez-en un (10 h et 10 Dark Matter), puis transformez votre Storm en l’un d’eux dans l’Assemblage : le changement est définitif.
 
 | Design | Ce qu’il change |
@@ -48,4 +48,4 @@ Une fois sa technologie recherchée, fabriquer un Storm à l’Assemblage coûte
 
 ## Histoire {#lore}
 
-Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage gris clair sur une ossature plus sombre, avec des bandes lumineuses blanches, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix bouches bien visibles, par lesquelles tirent quatorze lasers. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ sept dixièmes de celle d’un Wraith et environ trois dixièmes de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.
+Le Storm est ce que les chantiers construisent quand le seul ordre est la vitesse. Un fuselage en aiguille avec une verrière sombre se tient entre deux anneaux en croissant ouverts, chacun un arc blindé autour d’un creux et terminé par une corne dressée, une nacelle moteur traversant l’ouverture : l’essentiel du vaisseau est de la propulsion. Un blindage gris clair sur une ossature plus sombre, avec des bandes lumineuses blanches, le rend facile à repérer, et il veut qu’on le repère. Deux longs canons portent sur les lames avant et huit petits émetteurs sur les anneaux et les ailerons d’épaule, dix bouches bien visibles, par lesquelles tirent quinze lasers. Ce qu’il n’a pas, c’est la place pour un blindage. Sa coque fait environ sept dixièmes de celle d’un Wraith et environ trois dixièmes de celle d’un Ironclad : ses pilotes frappent donc les premiers, frappent fort et repartent avant que quelque chose de plus gros ne se retourne.

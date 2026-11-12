@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Porte solo -->
 # Porte solo {#solo-gates}
 
@@ -84,13 +84,15 @@ La maggior parte dei giri non trova alcun pezzo. Ognuno di essi paga un premio, 
 
 ## Entrare {#going-in}
 
-**Costruisci** una porta dalla pagina delle Porte galattiche e **salti** dentro dal suo portale. Si costruisce dalla stazione, con la nave attraccata: non devi essere in volo. Servono:
+**Costruisci** una porta dalla pagina delle Porte galattiche e **salti** dentro dal suo portale. Si costruisce dalla stazione, con la nave attraccata, e anche in volo: la **finestra delle Porte galattiche**, che il pulsante delle porte della barra degli strumenti apre, gira, costruisce e sceglie la destinazione come la pagina. Servono:
 
 - i pezzi della porta: vengono presi **una sola volta, quando la costruisci**, e una costruzione rifiutata non toglie nulla;
 - nessun’altra partita solo aperta: hai una partita alla volta, e una partita che hai lasciato si rientra dal suo portale o si abbandona prima che tu costruisca un’altra porta;
 - il server principale (i server regionali non hanno porte).
 
 La porta costruita sta nel tuo **settore base** (`M-1`, `T-1` o `G-1`, secondo la tua corporazione) come un portale che porta il suo nome, e la pagina delle Porte galattiche dice dove si trova. **Decolla, vola fino al portale e salta** come in qualsiasi portale. Un varco deve essere libero nel tuo mondo quando entri: ogni mondo ne ha un certo numero, e quando sono tutti occupati aspetti.
+
+**Sui server regionali (Singapore, US East).** La porta in sé resta sul server principale: su un server regionale non si costruisce, non si gioca e non si paga nulla. Una porta costruita però lì non viene dimenticata: te lo dicono quando arrivi, e il portale della tua porta sta anche lì nel tuo settore base. Salta dentro e vieni riportato al server principale, dove decolli verso la tua porta come sopra.
 
 Atterri da solo in mezzo a un’arena vuota. Nessuno può attaccarti al suo interno, e la Jump CPU e la Base CPU non funzionano.
 
@@ -110,16 +112,18 @@ Ogni mondo combatte la stessa porta: la forza e il pagamento degli alieni non di
 
 Gli alieni sono quelli del gioco (Seeker, Phantasm, Bulwark, Goombah e Crystalys), resi più duri o più morbidi dalla porta. Il tempo previsto è quello che la porta è costruita per richiedere a un pilota al livello iniziale della Tecnica laser ([Competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md)); un pilota che ha fatto salire la Tecnica laser finisce prima.
 
+Alcune ondate portano uno **sciame**: un boss NPC del gioco (un Boss Seeker, Boss Phantasm, Boss Goombah o Boss Crystalys) con le sue guardie, che attaccano come un unico gruppo. Ogni nave di uno sciame fa parte della sua ondata, e l’ondata finisce quando l’ultima di loro è morta. Pagano come le altre navi dell’ondata, con le cifre della [tabella degli alieni](#the-aliens). **Un boss NPC lascia il suo bottino come nei settori del gioco**: minerale, piastre, munizioni e razzi (cosa lascia ciascuno è nelle [pagine degli sciami](/wiki/05-Swarms/Swarms.md)). In una porta non c’è nessuna cassa da raccogliere: il bottino arriva con il pagamento, direttamente nel tuo inventario, e una sola volta per partita, come il pagamento. Le sue guardie non lasciano nulla, nella porta come nei settori, e non lo curano né tornano. La tabella qui sotto dice quali ondate di ogni porta portano uno sciame.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Porta | Ondate, quella del boss compresa | Alieni nelle ondate | Boss | Tempo previsto |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | da 10 a 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | da 15 a 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | da 25 a 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | da 35 a 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | da 50 a 60 min |
+| Porta | Ondate, quella del boss compresa | Alieni nelle ondate | Boss NPC e sciami | Boss | Tempo previsto |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | ondata 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | da 10 a 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | ondata 4: 2 Seeker Swarm; ondata 9: 1 Phantasm Swarm | Enhanced Bulwark | da 15 a 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | ondata 4: 1 Phantasm Swarm; ondata 9: 1 Goombah Swarm; ondata 14: 1 Goombah Swarm | Elite Crystalys | da 25 a 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | ondata 5: 2 Phantasm Swarm; ondata 10: 2 Goombah Swarm; ondata 15: 1 Goombah Swarm; ondata 20: 1 Crystalys Swarm | Siege Construct | da 35 a 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | ondata 6: 1 Goombah Swarm; ondata 11: 2 Goombah Swarm; ondata 16: 1 Crystalys Swarm; ondata 22: 1 Phantasm Swarm | Omega Guardian | da 50 a 60 min |
 
 - **Delta Siege**: l’ondata 18 (250 Seeker) è facoltativa: puoi saltarla mentre corre il suo conto alla rovescia, e non paga nulla
 - **Omega Vault**: l’ondata 17 (250 Seeker) è facoltativa: puoi saltarla mentre corre il suo conto alla rovescia, e non paga nulla; le ondate da 22 a 24 sono d’élite, con ×1,5 di scafo, scudo e danno
@@ -182,7 +186,7 @@ Una vittoria paga la sua tabella **una volta**, in un colpo solo, nel momento in
 
 ### Gli alieni {#the-aliens}
 
-Ogni alieno che uccidi in una porta paga alle cifre che ha in Alpha, qualunque mondo tu stia volando: nessun moltiplicatore del mondo, nessun booster e nessun bonus Premium le cambia. Un’ondata paga per i suoi alieni **una volta** per partita, per quante volte tu esca e rientri. Il pagamento arriva alla fine di ogni tratto della partita: quando esci, muori, finisci le vite, abbandoni o vinci. Le uccisioni di un tratto restano non pagate solo con il reset e con un riavvio del server mentre sei dentro (la tua partita resta aperta, ma le uccisioni di quel tratto vanno perse). Le uccisioni di una porta non contano per nient’altro: non per le missioni, le statistiche delle uccisioni, i contatori degli obiettivi, il kill feed o l’esperienza dei tuoi droni e P.E.T. L’esperienza che pagano conta invece per i tuoi punti classifica PvE, come quella di una vittoria. Il bottino degli alieni arriva con il pagamento, direttamente nel tuo inventario.
+Ogni alieno che uccidi in una porta paga alle cifre che ha in Alpha, qualunque mondo tu stia volando: nessun moltiplicatore del mondo, nessun booster e nessun bonus Premium le cambia. Un’ondata paga per i suoi alieni **una volta** per partita, per quante volte tu esca e rientri. Il pagamento arriva alla fine di ogni tratto della partita: quando esci, muori, finisci le vite, abbandoni o vinci. Le uccisioni di un tratto restano non pagate solo con il reset e con un riavvio del server mentre sei dentro (la tua partita resta aperta, ma le uccisioni di quel tratto vanno perse). Le uccisioni di una porta contano per le [missioni](/wiki/03-Mechanics/Quests.md#where-it-counts) che non indicano alcun settore (come le grandi cacce della linea delle Sfide), nel momento in cui avvengono (un’ondata conta per loro **una volta** per partita, come paga una volta sola), e per nient’altro: non per le statistiche delle uccisioni, i contatori degli obiettivi, il kill feed o l’esperienza dei tuoi droni e P.E.T. L’esperienza che pagano conta invece per i tuoi punti classifica PvE, come quella di una vittoria. Il bottino degli alieni arriva con il pagamento, direttamente nel tuo inventario.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Ogni alieno che uccidi in una porta paga alle cifre che ha in Alpha, qualunque m
 | **Bulwark** | 5.000 | 25 | 800 | 10 |
 | **Goombah** | 15.000 | 75 | 3.000 | 24 |
 | **Crystalys** | 75.000 | 200 | 12.000 | 52 |
+| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Porta | Crediti | Thulium | XP | Onore |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540.000 | 2.160 | 54.000 | 1.080 |
-| **Beta Breach** | 1.320.000 | 5.980 | 186.000 | 2.520 |
-| **Gamma Foundry** | 3.000.000 | 13.300 | 522.000 | 4.616 |
-| **Delta Siege** | 4.975.000 | 21.400 | 829.000 | 7.640 |
-| **Omega Vault** | 6.875.000 | 29.000 | 1.160.000 | 10.100 |
+| **Alpha Rift** | 514.000 | 2.099 | 55.296 | 1.018 |
+| **Beta Breach** | 1.298.500 | 5.939 | 187.744 | 2.470 |
+| **Gamma Foundry** | 3.064.500 | 13.693 | 541.944 | 4.696 |
+| **Delta Siege** | 5.239.625 | 22.338 | 882.676 | 7.850 |
+| **Omega Vault** | 7.088.125 | 29.196 | 1.196.828 | 10.022 |
 
 <!-- solo-kills:end -->
 

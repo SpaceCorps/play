@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Competenze del pilota -->
 # Competenze del pilota {#pilot-skills}
 
@@ -15,11 +15,11 @@ Un pilota nuovo non è a piena forza. Al livello 1 un laser e un razzo fanno men
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Statistiche**: 18 statistiche: 4 attributi e 14 competenze in 5 gruppi
+- **Statistiche**: 19 statistiche: 4 attributi e 15 competenze in 5 gruppi
 - **Livelli**: Da 1 a 100. Ogni pilota parte con ogni statistica al livello 1, e non c’è nulla da spendere né da azzerare
 - **Costo di un livello**: 40 XP dal livello 1 al 2, 875 XP dal livello 50 al 51, 19.157 XP dal livello 99 al 100; 313.258 XP in tutto
 - **Cosa dà un livello**: Un bonus cresce in linea retta dal suo valore al livello 1 al suo valore al livello 100. Nulla è limitato
-- **Il tuo laser al livello 1**: Fa il 80% del suo danno e colpisce il 80% delle volte, quindi il 64% del danno indicato dalle pagine degli oggetti
+- **Il tuo laser al livello 1**: Fa il 100% del suo danno e colpisce il 80% delle volte, quindi il 80% del danno indicato dalle pagine degli oggetti
 - **Il tuo razzo al livello 1**: Fa il 100% del suo danno ed è un fallimento il 10% delle volte, quindi il 90% del danno indicato dalle pagine degli oggetti
 - **Schivata**: La nave di ogni pilota schiva il 3% dei colpi che si possono schivare, prima che qualsiasi competenza o formazione vi aggiunga
 - **Livello dello scafo**: La rarità della tua nave lo fissa, come mostra la tabella qui sotto. La dimensione della tua stiva e gli XP della Massa lo seguono
@@ -50,20 +50,20 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 
 | Statistica | Cosa cambia | Livello 1 | Livello 100 |
 | :--- | :--- | ---: | ---: |
-| **Massa** | Scafo | +0% | +10% |
-| **Tenacia** | Danni subiti | ×1 | ×0,9 |
-| **Riflessi** | Velocità di ricarica delle abilità | ×1 | ×1,11 |
-| **Istinto** | Probabilità di ogni riga di bottino | +0 punti | +5 punti |
+| **Massa** | Scafo | +0% | +20% |
+| **Tenacia** | Danni subiti | ×1 | ×0,92 |
+| **Riflessi** | Velocità di ricarica delle abilità | ×1 | ×1,1 |
+| **Istinto** | Probabilità di ogni riga di bottino | +0 punti | +7,5 punti |
 |  | Orvium e Velkonite dai collettori | ×1 | ×1,5 |
 
 ### Armi {#weapons}
 
 | Statistica | Cosa cambia | Livello 1 | Livello 100 |
 | :--- | :--- | ---: | ---: |
-| **Tecnica laser** (Riflessi) | Danno laser | ×0,8 | ×1,1 |
-|  | Probabilità che una raffica laser colpisca | 80% | 90% |
+| **Tecnica laser** (Riflessi) | Danno laser | ×1 | ×1,3 |
+|  | Probabilità che una raffica laser colpisca | 80% | 89% |
 | **Tecnica dei razzi** (Riflessi) | Danno dei razzi | ×1 | ×1,3 |
-|  | Probabilità che un razzo sia un fallimento | 10% | 0% |
+|  | Probabilità che un razzo sia un fallimento | 10% | 1% |
 | **Antimateria** (Istinto) | Dark Matter dalle raccolte | ×1 | ×1,25 |
 
 ### Combattimento {#combat}
@@ -76,13 +76,14 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 |  | Durata dei veleni | ×1 | ×1,2 |
 | **Evasione** (Riflessi) | Probabilità di schivare un colpo, aggiunta a quella della nave | 0% | 15% |
 | **Tattica** (Riflessi) | Durata delle abilità | ×1 | ×1,2 |
+| **Assorbimento scudo** (Tenacia) | Assorbimento dei tuoi scudi | +0 punti | +5 punti |
 
 ### Controllo della nave {#ship-control}
 
 | Statistica | Cosa cambia | Livello 1 | Livello 100 |
 | :--- | :--- | ---: | ---: |
 | **Tecnica antiradiazioni** (Tenacia) | Dose di radiazioni | ×1 | ×0,4 |
-| **Teoria dei propulsori** (Massa) | Velocità | +0% | +15% |
+| **Teoria dei propulsori** (Massa) | Velocità | +0% | +10% |
 | **Scienza** (Istinto) | Scienza per ogni unità di carburante | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 
 - **Laser.** La Tecnica laser cambia il danno di ogni raffica e la probabilità che colpisca; una raffica che va a vuoto mostra un “Miss” fluttuante e consuma comunque le munizioni ([Combattimento](/wiki/03-Mechanics/Combat.md#laser-tech)). La portata dei tuoi laser è quella della tua nave: la Mira sale con i tuoi colpi a segno con munizioni diverse dalle semplici x1, ma agisce solo sulle Mine (sotto).
 - **Razzi.** La Tecnica dei razzi cambia il danno di ogni razzo e la probabilità che uno sia un fallimento ([Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Subire colpi.** La Tenacia toglie una parte a ogni colpo che subisci, e l’Evasione aumenta la probabilità che un colpo diretto non faccia nulla ([Combattimento](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Massa aumenta il tuo scafo.
+- **Subire colpi.** La Tenacia toglie una parte a ogni colpo che subisci, l’Evasione aumenta la probabilità che un colpo diretto non faccia nulla e l’Assorbimento scudo aumenta la quota di un colpo che prendono i tuoi scudi ([Combattimento](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Massa aumenta il tuo scafo.
 - **Abilità.** I Riflessi accorciano il tempo di ricarica delle tue abilità e la Tattica le fa durare di più ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Il Sabotaggio rafforza i veleni.
 - **Mine.** Il Sabotaggio aumenta il danno di una Mine, e la Mira la lancia più veloce e più lontano ([Extra](/wiki/06-Items/Extras.md#mine)).
 - **Velocità.** La Teoria dei propulsori si aggiunge alla tua velocità, oltre ai motori e a un Afterburner ([Velocità](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ La tabella elenca cosa paga XP, statistica per statistica. L’XP è per ogni un
 |  | Ogni raffica che colpisce una nave | 0,1 |  |
 | **Tecnica dei razzi** (Riflessi) | Ogni razzo che lanci | 0,15 | 130 razzi all’ora |
 |  | Ogni razzo che colpisce una nave (una volta per razzo, quante navi ferisca la sua esplosione) | 0,3 |  |
-| **Antimateria** (Istinto) | Ogni unità di Dark Matter che ricevi a una raccolta | 0,1 | Nessuno |
+| **Antimateria** (Istinto) | Ogni unità di Dark Matter che ricevi a una raccolta | 2,2 | Nessuno |
 | **Mira** (Riflessi) | Ogni colpo di una raffica sparata con munizioni diverse dalle semplici x1 (×1,5 per i primi 10 min di ogni tipo di munizioni in un’ora dell’orologio) | 0,1 | 3.000 colpi all’ora |
 |  | Ogni colpo di una Mine, e ogni secondo che un nemico passa nel tuo Energetic Wall | 0,1 |  |
 | **Sabotaggio** (Riflessi) | Ogni colpo di una Mine, e ogni secondo che un nemico passa nel tuo Energetic Wall | 0,5 | 1.200 XP all’ora |
 |  | Ogni secondo in cui un tuo veleno agisce su un nemico | 0,05 |  |
 | **Evasione** (Riflessi) | Ogni attacco ostile contro di te che manca o viene schivato | 1 | 600 XP all’ora |
 | **Tattica** (Riflessi) | Ogni abilità che premi con un ostile nella portata del laser | 2 | 600 XP all’ora |
+| **Assorbimento scudo** (Tenacia) | Ogni 1 % del tuo scudo massimo consumato dai colpi nemici | 0,1 | 300 XP all’ora |
 | **Tecnica antiradiazioni** (Tenacia) | Ogni secondo dentro una banda di radiazioni | 0,2 | Nessuno |
 |  | Ogni 1 % del tuo scafo massimo che le radiazioni tolgono | 1 |  |
 | **Teoria dei propulsori** (Massa) | Ogni secondo volato oltre il 80% della velocità della tua nave, il doppio sotto un Afterburner | 0,1 | Nessuno |
@@ -184,7 +186,9 @@ Un livello costa più XP del precedente, di una quota fissa, quindi i primi live
 
 ## La pagina Competenze del pilota {#the-pilot-skills-page}
 
-La pagina **Competenze del pilota** è una pagina della stazione, con una riga tutta sua nella barra laterale. Mostra tutto l’albero: gli attributi e le competenze nei loro gruppi, ciascuno col suo livello. Scegli una statistica per vedere cosa fa, quale attributo la governa, quali competenze allena, la sua barra dell’XP e cosa la fa crescere, e usa il cursore per vedere in anteprima qualsiasi livello dal 1 all’ultimo: una piccola tabella dà ciò che la statistica cambia al livello in anteprima e al tuo livello attuale. Una statistica che non ha ancora guadagnato XP è segnata come non usata, con un trattino al posto del livello. La riga nella barra laterale porta un badge quando una statistica è salita di livello da quando hai aperto la pagina l’ultima volta, e una scheda della finestra dei Booster riassume ciò che le tue competenze cambiano.
+La pagina **Competenze del pilota** è una pagina della stazione, con una riga tutta sua nella barra laterale. È un foglio compatto di tutto l’albero: gli attributi e i cinque gruppi di competenze stanno affiancati in colonne (tre su uno schermo largo, meno su uno stretto), con una riga per statistica, il suo livello al bordo destro e una sottile barra dell’XP sotto. Una statistica che non ha ancora guadagnato XP è grigia, con un trattino al posto del livello. Fermati con il puntatore su una riga per vedere cosa fa la statistica, quale attributo la governa o quali competenze allena, il suo XP e cosa la fa crescere. Fai clic su una riga per aprire i suoi dettagli sotto la sua fila di colonne: le stesse parole, la barra dell’XP e un cursore per vedere in anteprima qualsiasi livello dal 1 all’ultimo, con una piccola tabella di ciò che la statistica cambia al livello 1, al tuo livello attuale, al livello in anteprima e all’ultimo livello. Una sola statistica è aperta alla volta; fai di nuovo clic sulla riga, usa il pulsante di chiusura o premi Esc per metterla via. La riga nella barra laterale porta un badge quando una statistica è salita di livello da quando hai aperto la pagina l’ultima volta, e una scheda della finestra dei Booster riassume ciò che le tue competenze cambiano.
+
+In volo lo stesso foglio è la finestra **Competenze del pilota**. Aprila con il pulsante Competenze del pilota della barra degli strumenti (su uno schermo largo) o con il suo tasto, K per impostazione predefinita (Impostazioni, Comandi). È una finestra come le altre: spostala, ridimensionala, e ricorda la sua posizione e se era aperta. Mostra solo le tue competenze: i livelli avanzano man mano che arrivano le righe di XP del volo, e un clic su una riga apre gli stessi dettagli nella finestra.
 
 ## Cosa si conserva {#what-is-kept}
 

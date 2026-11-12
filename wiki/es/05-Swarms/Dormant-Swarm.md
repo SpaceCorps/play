@@ -57,7 +57,7 @@ Base: Wraith, con 100 % del casco y 300 % del daño de los láseres; la veloci
 | :--- | ---: | ---: | ---: |
 | Casco | 256.000 | 384.000 | 512.000 |
 | Escudo | 83.400 | 125.100 | 166.800 |
-| Daño de los láseres (una salva por segundo) | 3.120 | 4.680 | 6.240 |
+| Daño de los láseres (una salva por segundo) | 3.570 | 5.355 | 7.140 |
 | Velocidad | 210 | 210 | 210 |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
@@ -84,8 +84,8 @@ Base: Paragon, con 100 % del casco y 600 % del daño de los láseres; la veloc
 | :--- | ---: | ---: | ---: |
 | Casco | 128.000 | 192.000 | 256.000 |
 | Escudo | 64.570 | 96.855 | 129.140 |
-| Daño de los láseres (una salva por segundo) | 4.320 | 6.480 | 8.640 |
-| Velocidad | 230 | 230 | 230 |
+| Daño de los láseres (una salva por segundo) | 5.100 | 7.650 | 10.200 |
+| Velocidad | 270 | 270 | 270 |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
 | Daño de los cohetes, como máximo | 5.000 | 7.500 | 10.000 |

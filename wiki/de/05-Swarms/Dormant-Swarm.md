@@ -57,7 +57,7 @@ Basis: Wraith mit 100 % der Hülle und 300 % des Laserschadens; Tempo und Reic
 | :--- | ---: | ---: | ---: |
 | Hülle | 256.000 | 384.000 | 512.000 |
 | Schild | 83.400 | 125.100 | 166.800 |
-| Laserschaden (eine Salve pro Sekunde) | 3.120 | 4.680 | 6.240 |
+| Laserschaden (eine Salve pro Sekunde) | 3.570 | 5.355 | 7.140 |
 | Tempo | 210 | 210 | 210 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
@@ -84,8 +84,8 @@ Basis: Paragon mit 100 % der Hülle und 600 % des Laserschadens; Tempo und Rei
 | :--- | ---: | ---: | ---: |
 | Hülle | 128.000 | 192.000 | 256.000 |
 | Schild | 64.570 | 96.855 | 129.140 |
-| Laserschaden (eine Salve pro Sekunde) | 4.320 | 6.480 | 8.640 |
-| Tempo | 230 | 230 | 230 |
+| Laserschaden (eine Salve pro Sekunde) | 5.100 | 7.650 | 10.200 |
+| Tempo | 270 | 270 | 270 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
 | Raketenschaden, höchstens | 5.000 | 7.500 | 10.000 |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b87e9167b265780 -->
+<!-- wiki-i18n source: 507ead340cbae2bd -->
 <!-- wiki-i18n title: Koncernpiloter -->
 # Koncernpiloter {#company-pilots}
 
@@ -13,7 +13,7 @@ Varje koncern har en liten skvadron NPC-piloter i sina hemsektorer (`M-1` till `
 - **Skepp**: en [Ostirion](/wiki/02-Ships/Ostirion.md) med tre **Quantum Laser II**, två **Light Shield Core**, en **Engine I** och en **Repair Drone I**:
   - 64 000 träffpoäng, 22 000 sköldpoäng, hastighet 225
   - absorption 45 %: deras sköldar tar 45 % av varje träff, skrovet 55 %
-  - 195 grundskada per salva (x1-ammunition), 1 % kritisk chans, räckvidd 700
+  - 210 grundskada per salva (x1-ammunition), 1 % kritisk chans, räckvidd 700
 - **På minikartan**: en grön romb för din koncerns piloter, en bärnstensfärgad för en annan koncerns.
 - **Ingen grad**: den lilla symbolen framför en pilots namn under flygning är pilotens [grad](/wiki/03-Mechanics/Ranks.md) och tillhör riktiga piloter. Koncernpiloter har ingen och står inte på din koncerns lista. Koncernsidan listar de riktiga piloterna i din koncern med flest PvE-poäng först, och pilotens grad kommer från hans eller hennes PvE-poäng i den listan och, för de sex bästa graderna, från koncernens platser.
 

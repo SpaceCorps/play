@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: 研究 -->
 # 研究 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics。** 如果科技的研究耗时不超过 24 小时，[Schematics](/wiki/06-Items/Special-Items.md#schematics) 会立即完成正在进行的研究（159 项科技中的 143 项）。研究的费用在开始时已支付，不会退还；它还没烧掉的科研点留在你的储罐里；队列里的下一项科技立即开始。
+**Schematics。** 一个 [Schematics](/wiki/06-Items/Special-Items.md#schematics) 会从正在进行的研究中扣除 24 小时：如果剩余不超过 24 小时，研究会立即完成，更长的则减少 24 小时并继续（187 项科技中有 167 项耗时不超过 24 小时，所以一个就能从头完成它们；其余 20 项需要 2 到 10 个）。研究的费用在开始时已支付，不会退还；被跳过的时间本来会烧掉的科研点留在你的储罐里；研究完成后，队列里的下一项科技立即开始。
 
 **激光增幅器与最后一阶。** II 至 IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp 与其他可制造的东西一样需要研究。增幅器系列推出时持有或排队制作了增幅器的飞行员，获得了这些增幅器各自的科技，以及更低阶的科技。有十三项科技需要另一棵树中的科技，即资源树中 Dark Matter Plate 的科技，因为每条升级链的最后一阶需要四块板和 1 个 Ancient Control Unit：IV 阶的 Damage Amp、Crit Amp 和 Penetration Amp，IV 阶的 Absorption Shield Cell 和 Capacity Shield Cell，IV 阶的 Impulse Thruster 和 Momentum Thruster，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。以前研究过其中某一项的飞行员会保留它，但要制作它所需的板，需要先研究这块板的科技。下面的树没有为它画箭头，但表格列出了它，游戏里的卡片也会写出它的名字（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)）。
 
@@ -103,6 +103,7 @@
 | 6 小时 | 3 小时 | 1 | 5,000 |
 | 8 小时 | 4 小时 | 1 | 5,000 |
 | 10 小时 | 5 小时 | 1 | 5,000 |
+| 16 小时 | 8 小时 | 1 | 5,000 |
 | 1 天 | 12 小时 | 1 | 5,000 |
 | 2 天 | 1 天 | 1 | 5,000 |
 | 4 天 | 2 天 | 2 | 10,000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### 增益 {#tree-boosters}
@@ -550,18 +557,23 @@ Skylab 研究视图的“舰船”分类里有两种不是制造的科技。上�
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 天 | 864,000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 小时 | 10,800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 小时 | 21,600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 小时 | 10,800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 小时 | 21,600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 小时 | 36,000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 小时 | 57,600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 天 | 86,400 | – |
 
 按研究时间划分的类别：
 
 | 类别 | 研究时间 | 科技数 | 逐项研究合计 | 科研点 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 分钟 至 1 小时 | 17 | 9 小时 30 分钟 | 34,200 | 0 |
-| B | 3 小时 至 6 小时 | 35 | 5 天 11 小时 | 471,600 | 0 |
-| C | 8 小时 至 10 小时 | 19 | 7 天 18 小时 | 669,600 | 95 |
-| D | 1 天 至 10 天 | 28 | 52 天 | 4,492,800 | 329 |
-| 全部 |  | 99 | 65 天 14 小时 30 分钟 | 5,668,200 | 424 |
+| B | 3 小时 至 6 小时 | 37 | 5 天 20 小时 | 504,000 | 0 |
+| C | 8 小时 至 10 小时 | 20 | 8 天 4 小时 | 705,600 | 95 |
+| D | 16 小时 至 10 天 | 30 | 53 天 16 小时 | 4,636,800 | 329 |
+| 全部 |  | 104 | 68 天 1 小时 30 分钟 | 5,880,600 | 424 |
 
-逐项依次研究，整棵科技树共需 65 天 14 小时 30 分钟。若全程开着加速，需要 32 天 19 小时 15 分钟，即 33 次加速和 165,000 Thulium；消耗的科研点相同。
+逐项依次研究，整棵科技树共需 68 天 1 小时 30 分钟。若全程开着加速，需要 34 天 45 分钟，即 35 次加速和 175,000 Thulium；消耗的科研点相同。
 
 <!-- research-technologies:end -->
 

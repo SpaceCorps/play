@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Pilot Becerileri -->
 # Pilot Becerileri {#pilot-skills}
 
@@ -15,11 +15,11 @@ Yeni bir pilot tam güçte değildir. 1. seviyede bir lazer ve bir roket, eşya 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Değerler**: 18 değer: 5 grupta 4 nitelik ve 14 beceri
+- **Değerler**: 19 değer: 5 grupta 4 nitelik ve 15 beceri
 - **Seviyeler**: 1’den 100’e kadar. Her pilot her değere 1. seviyeden başlar ve harcanacak ya da sıfırlanacak bir şey yoktur
 - **Bir seviyenin maliyeti**: 1. seviyeden 2’ye 40 XP, 50. seviyeden 51’e 875 XP, 99. seviyeden 100’e 19.157 XP; toplam 313.258 XP
 - **Bir seviyenin verdiği**: Bir buff, 1. seviyedeki değerinden 100. seviyedeki değerine düz bir çizgide artar. Hiçbir şeyin sınırı yoktur
-- **1. seviyede lazerin**: Hasarının %80 kadarını verir ve zamanın %80 kadarında isabet eder; yani eşya sayfalarında yazan hasarın %64 kadarı
+- **1. seviyede lazerin**: Hasarının %100 kadarını verir ve zamanın %80 kadarında isabet eder; yani eşya sayfalarında yazan hasarın %80 kadarı
 - **1. seviyede roketin**: Hasarının %100 kadarını verir ve zamanın %10 kadarında ateşlenmez; yani eşya sayfalarında yazan hasarın %90 kadarı
 - **Kaçınma**: Her pilotun gemisi, kaçınılabilir darbelerin %3 kadarını, herhangi bir beceri ya da diziliş eklemeden önce savuşturur
 - **Gövde kademesi**: Geminin nadirliği belirler, aşağıdaki tablonun gösterdiği gibi. Kargo bölmesinin boyutu ve Kütle’nin XP’si buna uyar
@@ -50,20 +50,20 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 
 | Değer | Neyi değiştirir | Seviye 1 | Seviye 100 |
 | :--- | :--- | ---: | ---: |
-| **Kütle** | Gövde | +%0 | +%10 |
-| **Dayanıklılık** | Alınan hasar | ×1 | ×0,9 |
-| **Refleks** | Yeteneklerin dolum hızı | ×1 | ×1,11 |
-| **İçgüdü** | Her ganimet satırının şansı | +0 puan | +5 puan |
+| **Kütle** | Gövde | +%0 | +%20 |
+| **Dayanıklılık** | Alınan hasar | ×1 | ×0,92 |
+| **Refleks** | Yeteneklerin dolum hızı | ×1 | ×1,1 |
+| **İçgüdü** | Her ganimet satırının şansı | +0 puan | +7,5 puan |
 |  | Toplayıcılardan Orvium ve Velkonite | ×1 | ×1,5 |
 
 ### Silahlar {#weapons}
 
 | Değer | Neyi değiştirir | Seviye 1 | Seviye 100 |
 | :--- | :--- | ---: | ---: |
-| **Lazer teknolojisi** (Refleks) | Lazer hasarı | ×0,8 | ×1,1 |
-|  | Bir lazer salvosunun isabet şansı | %80 | %90 |
+| **Lazer teknolojisi** (Refleks) | Lazer hasarı | ×1 | ×1,3 |
+|  | Bir lazer salvosunun isabet şansı | %80 | %89 |
 | **Roket teknolojisi** (Refleks) | Roket hasarı | ×1 | ×1,3 |
-|  | Bir roketin ateşlenmeme şansı | %10 | %0 |
+|  | Bir roketin ateşlenmeme şansı | %10 | %1 |
 | **Antimadde** (İçgüdü) | Toplamalardan Dark Matter | ×1 | ×1,25 |
 
 ### Savaş {#combat}
@@ -76,13 +76,14 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 |  | Zehirlerin süresi | ×1 | ×1,2 |
 | **Kaçınma** (Refleks) | Bir darbeden kaçınma şansı, geminin kendi şansına eklenir | %0 | %15 |
 | **Taktik** (Refleks) | Yeteneklerin süresi | ×1 | ×1,2 |
+| **Kalkan soğurması** (Dayanıklılık) | Kalkanlarının soğurması | +0 puan | +5 puan |
 
 ### Gemi kontrolü {#ship-control}
 
 | Değer | Neyi değiştirir | Seviye 1 | Seviye 100 |
 | :--- | :--- | ---: | ---: |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Radyasyon dozu | ×1 | ×0,4 |
-| **İtici teorisi** (Kütle) | Hız | +%0 | +%15 |
+| **İtici teorisi** (Kütle) | Hız | +%0 | +%10 |
 | **Bilim** (İçgüdü) | Her yakıt birimi başına bilim | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 
 - **Lazerler.** Lazer teknolojisi her salvonun hasarını ve isabet şansını değiştirir; ıskalayan bir salvo uçuşan bir “Miss” gösterir ve yine de cephanesini harcar ([Savaş](/wiki/03-Mechanics/Combat.md#laser-tech)). Lazerlerinin menzili geminin kendi menzilidir: Nişancılık, düz x1 dışındaki cephaneyle yaptığın isabetlerle seviye atlar, ancak yalnızca Mine’lara etki eder (aşağıda).
 - **Roketler.** Roket teknolojisi her roketin hasarını ve bir roketin ateşlenmeme şansını değiştirir ([Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma da doğrudan bir darbenin hiçbir şey yapmama şansını artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
+- **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma doğrudan bir darbenin hiçbir şey yapmama şansını artırır, Kalkan soğurması da bir vuruşun kalkanlarının aldığı payı artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
 - **Yetenekler.** Refleks yeteneklerinin bekleme süresini kısaltır, Taktik de onları daha uzun sürdürür ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotaj zehirleri güçlendirir.
 - **Mine.** Sabotaj bir Mine’ın hasarını artırır, Nişancılık da onu daha hızlı ve daha uzağa fırlatır ([Ekstralar](/wiki/06-Items/Extras.md#mine)).
 - **Hız.** İtici teorisi hızına, motorların ve bir Afterburner’ın üstüne ekler ([Hız](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ Tablo, XP’yi neyin ödediğini değer değer sıralar. XP, ikinci sütunda ad�
 |  | Bir gemiye isabet eden her salvo için | 0,1 |  |
 | **Roket teknolojisi** (Refleks) | Fırlattığın her roket için | 0,15 | saatte 130 roket |
 |  | Bir gemiye isabet eden her roket için (patlaması kaç gemiye zarar verirse versin roket başına bir kez) | 0,3 |  |
-| **Antimadde** (İçgüdü) | Bir toplamada aldığın her Dark Matter birimi için | 0,1 | Yok |
+| **Antimadde** (İçgüdü) | Bir toplamada aldığın her Dark Matter birimi için | 2,2 | Yok |
 | **Nişancılık** (Refleks) | Düz x1 dışındaki cephaneyle ateşlenen bir salvonun her isabeti için (bir saat içinde her cephane türünün ilk 10 dk süresinde ×1,5) | 0,1 | saatte 3.000 isabet |
 |  | Bir Mine’ın her isabeti ve bir düşmanın Energetic Wall’unda geçirdiği her saniye için | 0,1 |  |
 | **Sabotaj** (Refleks) | Bir Mine’ın her isabeti ve bir düşmanın Energetic Wall’unda geçirdiği her saniye için | 0,5 | saatte 1.200 XP |
 |  | Senin bir zehrinin bir düşman üzerinde işlediği her saniye için | 0,05 |  |
 | **Kaçınma** (Refleks) | Sana yönelik, ıskalayan ya da kaçınılan her düşman saldırısı için | 1 | saatte 600 XP |
 | **Taktik** (Refleks) | Lazer menzilinde bir düşman varken bastığın her yetenek için | 2 | saatte 600 XP |
+| **Kalkan soğurması** (Dayanıklılık) | Düşman vuruşlarının aldığı azami kalkanın her %1’i için | 0,1 | saatte 300 XP |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Bir radyasyon bandının içindeki her saniye için | 0,2 | Yok |
 |  | Radyasyonun aldığı azami gövdenin her %1’i için | 1 |  |
 | **İtici teorisi** (Kütle) | Geminin hızının %80 kadarını aşarak uçulan her saniye için, Afterburner altında iki katı | 0,1 | Yok |
@@ -184,7 +186,9 @@ Bir seviye, öncekinden sabit bir oranda daha fazla XP’ye mal olur; böylece i
 
 ## Pilot Becerileri sayfası {#the-pilot-skills-page}
 
-**Pilot Becerileri** sayfası istasyonun bir sayfasıdır ve kenar çubuğunda kendi satırı vardır. Bütün ağacı gösterir: nitelikleri ve becerileri gruplarında, her biri seviyesiyle. Ne yaptığını, hangi niteliğin yönettiğini, hangi becerileri eğittiğini, XP çubuğunu ve neyle büyüdüğünü görmek için bir değer seç; 1’den sonuncuya kadar herhangi bir seviyeyi önizlemek için kaydırıcıyı kullan: küçük bir tablo, değerin önizlediğin seviyede ve şimdiki seviyende neyi değiştirdiğini verir. Henüz XP kazanmamış bir değer kullanılmamış olarak işaretlenir, seviyesi yerinde bir çizgi görünür. Sayfayı en son açtığından beri bir değer seviye atladıysa kenar çubuğundaki satır bir rozet alır, Boosterlar penceresindeki bir kart da becerilerinin neyi değiştirdiğini özetler.
+**Pilot Becerileri** sayfası istasyonun bir sayfasıdır ve kenar çubuğunda kendi satırı vardır. Bütün ağacı tek bir derli toplu sayfada gösterir: nitelikler ve beceriler beş grup halinde sütunlar boyunca yan yana durur (geniş ekranda üç, dar ekranda daha az), her değer için bir satır vardır; seviyesi sağ kenardadır ve altında ince bir XP çubuğu bulunur. Henüz XP kazanmamış bir değer gridir, seviyesi yerinde bir çizgi görünür. Değerin ne yaptığını, hangi niteliğin yönettiğini ya da hangi becerileri eğittiğini, XP’sini ve neyle büyüdüğünü görmek için işaretçiyi bir satırın üzerinde beklet. Ayrıntılarını sütun sırasının altında açmak için bir satıra tıkla: aynı sözcükler, XP çubuğu ve 1’den sonuncuya kadar herhangi bir seviyeyi önizlemek için bir kaydırıcı; yanında değerin 1. seviyede, şimdiki seviyende, önizlediğin seviyede ve son seviyede neyi değiştirdiğini gösteren küçük bir tablo vardır. Aynı anda yalnızca bir değer açıktır; kapatmak için satıra yeniden tıkla, kapatma düğmesini kullan ya da Esc’ye bas. Sayfayı en son açtığından beri bir değer seviye atladıysa kenar çubuğundaki satır bir rozet alır, Boosterlar penceresindeki bir kart da becerilerinin neyi değiştirdiğini özetler.
+
+Uçuşta aynı sayfa **Pilot Becerileri** penceresidir. Araç çubuğundaki Pilot Becerileri düğmesiyle (geniş bir ekranda) ya da varsayılanı K olan tuşuyla (Ayarlar, Kontroller) aç. Diğerleri gibi bir penceredir: taşıyabilir, boyutunu değiştirebilirsin; yerini ve açık olup olmadığını hatırlar. Yalnızca becerilerini gösterir: uçuşun XP satırları geldikçe seviyeler ilerler, bir satıra tıklamak da aynı ayrıntıları pencerenin içinde açar.
 
 ## Nelerin korunduğu {#what-is-kept}
 

@@ -108,7 +108,7 @@ Kayıp uygarlığın üç uzaylısı burada yaşar, her birinin kendi sayıları
 | Kredi | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Deneyim (XP) | 20.200 | 40.400 | 60.600 |
-| Onur | 88 | 176 | 264 |
+| Onur | 87 | 174 | 261 |
 | Öldürme başına PvE puanı | 15 | 15 | 15 |
 
 **Ganimet**: tek bir kutu, en çok hasar veren pilota ait.

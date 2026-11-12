@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c3506248209cf351 -->
+<!-- wiki-i18n source: fe0e51ce5e04b430 -->
 <!-- wiki-i18n title: Zindanlar -->
 # Zindanlar {#dungeons}
 
@@ -58,7 +58,7 @@ Klanının zindanı toplanırken ve sen başka bir yerde uçarken sana bir **uya
 
 ### Klan zindanı penceresi {#the-clan-dungeon-window}
 
-Bir zindanın içinde tura ait ayrı bir pencere vardır: **Klan zindanı**. Geçen süreyi ve kalanı, kaç uzaylının uçtuğunu ve kaçının yok edildiğini, grubun şimdi ne yapması gerektiğini (labirenti keşfetmek, bir bölgeyi tutmak, patronu bulmak, Crystalys’lerin ve Twin’lerinin dörtte üçünü yok etmek, Savaş Lordu'nu yenmek), bir bölgede dururken tutma çubuğunu, Savaş Lordu'nun yeteneğini geri sayımıyla ve **Ayrıl** düğmesini gösterir. Diğerleri gibi bir penceredir: başlık çubuğundan sürükle ve köşesindeki kırmızı ışıkla kapat. Bir zindana girdiğinde kendiliğinden açılır, her zindan için bir kez: kapatırsan bir sonraki zindana kadar kapalı kalır. Bir zindandayken araç çubuğunda onun için bir **Klan zindanı** düğmesi bulunur. Pencere kapalıyken, Savaş Lordu'nun başlamak üzere olan ya da etkin olan bir yeteneği, adı ve geri sayımıyla tek satırlık bir şerit olarak görünür. Pencereyi yeniden açmak için şeride tıkla.
+Bir zindanın içinde tura ait ayrı bir pencere vardır: **Klan zindanı**. Geçen süreyi ve kalanı, kaç uzaylının uçtuğunu ve kaçının yok edildiğini, grubun şimdi ne yapması gerektiğini (labirenti keşfetmek, bir bölgeyi tutmak, patronu bulmak, Crystalys’lerin ve Twin’lerinin dörtte üçünü yok etmek, Savaş Lordu'nu yenmek), bir bölgede dururken tutma çubuğunu, Savaş Lordu'nun yeteneğini geri sayımıyla ve **Ayrıl** düğmesini gösterir. Diğerleri gibi bir penceredir: başlık çubuğundan sürükle ve köşesindeki kırmızı ışıkla kapat. Bir zindana girdiğinde kendiliğinden açılır, her zindan için bir kez: kapatırsan bir sonraki zindana kadar kapalı kalır. Bir zindandayken araç çubuğunda onun için bir **Klan zindanı** düğmesi bulunur. Pencere kapalıyken, Savaş Lordu'nun başlamak üzere olan ya da etkin olan bir yeteneği, adı ve geri sayımıyla tek satırlık bir şerit olarak görünür. Pencereyi yeniden açmak için şeride tıkla. Bir ödül oylaması ya da booster seçimi açıkken ve penceresi kapalıyken, Klan zindanı penceresinde onun için geri sayımıyla birlikte bir satır ve onu yeniden açan bir **Seç** düğmesi bulunur.
 
 ## Aşamalar {#the-stages}
 
@@ -142,7 +142,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 | Kalkan | 50.100 | 75.150 | 100.200 |
 | Lazer hasarı (saniyede bir salvo) | 200 | 300 | 400 |
 | Roket hasarı | 5.000 | 7.500 | 10.000 |
-| Hız | 110 | 110 | 110 |
+| Hız | 100 | 100 | 100 |
 | Lazer menzili | 700 | 700 | 700 |
 | Aggro yarıçapı | 1.800 | 1.800 | 1.800 |
 | Ödül ve ganimet, orijinalin katı | ×1 | ×1,5 | ×2 |
@@ -267,7 +267,7 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 
 ## Ganimet bölgeleri {#loot-zones}
 
-Labirentin zemindeki bir halka, grup bulur bulmaz her ganimet bölgesini işaretler. Bir süre içinde dur, bölge uyanır ve ona doğru bir uzaylı dalgası gelir. Sonra grubun bölgeyi **tutması** gerekir: çubuk dolana kadar içeride bir pilotu tut. Halkada ne kadar çok pilot varsa çubuk o kadar hızlı dolar: çubuğun yanındaki sayı kaç kat daha hızlı olduğunu söyler, aşağıdaki tablo da süreleri verir. Halkadaki yeterince uzaylı çubuğu durdurur (aşağıdaki liste kaç tane olduğunu söyler) ve içeride kimse yokken çubuk geri gider; bu yüzden önce dalgayı temizle. Bölge açıldığında grup üç farklı kart görür ve birine **oy verir**. Bir bölge yalnızca bir kez açılır ve dalgası bir daha gelmez.
+Labirentin zemindeki bir halka, grup bulur bulmaz her ganimet bölgesini işaretler. Bir süre içinde dur, bölge uyanır ve ona doğru bir uzaylı dalgası gelir. Sonra grubun bölgeyi **tutması** gerekir: çubuk dolana kadar içeride bir pilotu tut. Halkada ne kadar çok pilot varsa çubuk o kadar hızlı dolar: çubuğun yanındaki sayı kaç kat daha hızlı olduğunu söyler, aşağıdaki tablo da süreleri verir. Halkadaki yeterince uzaylı çubuğu durdurur (aşağıdaki liste kaç tane olduğunu söyler) ve içeride kimse yokken çubuk geri gider; bu yüzden önce dalgayı temizle. Bölge açıldığında grup üç farklı kart görür ve birine **oy verir**. Bir bölge yalnızca bir kez açılır ve dalgası bir daha gelmez. Oylama, ekranın sağ tarafında, her ödül için bir satır içeren ayrı küçük bir pencere: resmi, adı, kaç tane alacağın ve kaç oyu olduğu. Ne olduğunu ve kimin aldığını okumak için bir satırın üzerine gel, oy vermek için bir satıra bas (oyunu değiştirmek için başka bir satıra bas). Pencere her oylamada kendiliğinden açılır ve savaşı örtmez, böylece grup seçerken uçmaya devam edebilirsin. İstediğin yere sürükle ya da kırmızı ışıkla kapat; Klan zindanı penceresindeki **Seç** düğmesi onu yeniden açar. Pencere kapalıyken de oyun sayılır ve geri sayım işlemeye devam eder.
 
 <!-- dungeons-zones:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -292,7 +292,7 @@ Halkada ne kadar çok pilot varsa bölge o kadar hızlı tutulur. Bir bölgeyi t
 
 ### Boosterlar {#boosters}
 
-Aşama 2 ve 3'te grup, zindanın uzaylılarını yok ederek booster kazanır. Her onda birlerinde bir booster düşer: uzaylıların onda biri yok edildiğinde, sonra onda ikisi, ve böyle hepsine kadar, toplam on düşüş. Zindanın yapıldığı her uzaylı sayılır, kim yok ederse etsin (bu, Klan zindanı penceresindeki yok edilen uzaylı sayısıdır); ganimet bölgelerinin dalgaları ve Savaş Lordu'nun çağırdığı uzaylılar sayılmaz, bu yüzden bir bölge booster getirmez. Her düşüşte her pilot, oyunun beşten rastgele çektiği üç booster arasından kendisi için geçici bir booster seçmek üzere yarım dakikalık bir pencere alır: **Hasar** (lazerlerin daha sert vurur), **Gövde** (geminin daha çok gövde taşır), **Kalkan** (kalkanın daha çok dayanır), **Hız** (geminin daha hızlı uçar) ve **Kalkan dolumu** (kalkanın daha hızlı dolar). Seçmek için bir karta bas. Zamanında cevap vermezsen oyun senin yerine Gövde seçer; Gövde üçünün arasında değilse ilkini seçer. Bir seçim aşama 3'te %3, aşama 2'de %1,5 değerindedir, bu yüzden on seçim, hangi türler olursa olsun, aşama 3'te en çok yüzde otuza, aşama 2'de yüzde on beşe kadar birikir. Aşama 1'de booster yoktur.
+Aşama 2 ve 3'te grup, zindanın uzaylılarını yok ederek booster kazanır. Her onda birlerinde bir booster düşer: uzaylıların onda biri yok edildiğinde, sonra onda ikisi, ve böyle hepsine kadar, toplam on düşüş. Zindanın yapıldığı her uzaylı sayılır, kim yok ederse etsin (bu, Klan zindanı penceresindeki yok edilen uzaylı sayısıdır); ganimet bölgelerinin dalgaları ve Savaş Lordu'nun çağırdığı uzaylılar sayılmaz, bu yüzden bir bölge booster getirmez. Her düşüşte her pilot, oyunun beşten rastgele çektiği üç booster arasından kendisi için geçici bir booster seçmek üzere yarım dakikalık bir pencere alır: **Hasar** (lazerlerin daha sert vurur), **Gövde** (geminin daha çok gövde taşır), **Kalkan** (kalkanın daha çok dayanır), **Hız** (geminin daha hızlı uçar) ve **Kalkan dolumu** (kalkanın daha hızlı dolar). Seçmek için bir karta bas. Zamanında cevap vermezsen oyun senin yerine Gövde seçer; Gövde üçünün arasında değilse ilkini seçer. Bir seçim aşama 3'te %3, aşama 2'de %1,5 değerindedir, bu yüzden on seçim, hangi türler olursa olsun, aşama 3'te en çok yüzde otuza, aşama 2'de yüzde on beşe kadar birikir. Aşama 1'de booster yoktur. Üç booster, ödül oylamasındaki gibi ayrı küçük bir pencerenin satırlarıdır: her düşüşte ekranın sağ tarafında kendiliğinden açılır ve yarım dakika onun geri sayımıdır. Türün ne yaptığını ve ondan şimdiden ne kadar sahip olduğunu okumak için bir satırın üzerine gel. Pencereyi sürükle, kırmızı ışıkla kapat ya da Klan zindanı penceresindeki **Seç** düğmesiyle yeniden aç.
 
 Onuncu düşüş son uzaylıyla gelir. Savaş Lordu ile savaşmadan önce her uzaylıyı yok eden grup on düşüşün hepsini alır; Savaş Lordu'nun odasını açıp yoluna devam eden grup, o ana kadar yok ettiği uzaylıların düşüşlerini alır ve geriye kalan uzaylılar kalır, yine de yok edilebilir. Savaş Lordu ile savaş başladıktan sonra artık hiç booster düşmez.
 

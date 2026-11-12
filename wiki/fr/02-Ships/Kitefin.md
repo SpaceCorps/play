@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la plupart des pilotes : un troisième laser, trois fois la coque du Protos et une propulsion plus rapide, le tout payé en Thulium.
+Le Kitefin est une canonnière légère et le premier vaisseau qu’achètent la plupart des pilotes : quatre lasers, trois fois la coque du Protos et une propulsion plus rapide, le tout payé en Thulium.
 
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 24 000
-- **Vitesse de base** : 190
-- **Emplacements laser** : 3
+- **Vitesse de base** : 220
+- **Emplacements laser** : 4
 - **Emplacements extras** : 2
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}

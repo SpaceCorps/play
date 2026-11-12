@@ -57,7 +57,7 @@ Base: Wraith; rispetto all’originale, scafo 100% e danno dei laser 300%; veloc
 | :--- | ---: | ---: | ---: |
 | Scafo | 256.000 | 384.000 | 512.000 |
 | Scudo | 83.400 | 125.100 | 166.800 |
-| Danno dei laser (una raffica al secondo) | 3.120 | 4.680 | 6.240 |
+| Danno dei laser (una raffica al secondo) | 3.570 | 5.355 | 7.140 |
 | Velocità | 210 | 210 | 210 |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
@@ -84,8 +84,8 @@ Base: Paragon; rispetto all’originale, scafo 100% e danno dei laser 600%; velo
 | :--- | ---: | ---: | ---: |
 | Scafo | 128.000 | 192.000 | 256.000 |
 | Scudo | 64.570 | 96.855 | 129.140 |
-| Danno dei laser (una raffica al secondo) | 4.320 | 6.480 | 8.640 |
-| Velocità | 230 | 230 | 230 |
+| Danno dei laser (una raffica al secondo) | 5.100 | 7.650 | 10.200 |
+| Velocità | 270 | 270 | 270 |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
 | Danno dei razzi, al massimo | 5.000 | 7.500 | 10.000 |

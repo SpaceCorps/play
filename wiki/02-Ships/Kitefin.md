@@ -1,12 +1,12 @@
 # Kitefin
 
-The Kitefin is a light gunship and the first ship most pilots buy: a third laser, three times the hull of the Protos and a quicker drive, bought with Thulium.
+The Kitefin is a light gunship and the first ship most pilots buy: four lasers, three times the hull of the Protos and a quicker drive, bought with Thulium.
 
 ## Stats
 
 - **Hitpoints (HP)**: 24,000
-- **Base Speed**: 190
-- **Laser Slots**: 3
+- **Base Speed**: 220
+- **Laser Slots**: 4
 - **Extra Slots**: 2
 
 ### Generator & Support Slots

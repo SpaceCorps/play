@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -23,7 +23,7 @@ Os **itens especiais** são seis itens de uso único que poupam tempo no [Skylab
 | Item | Raridade | Máximo que você pode ter | O que faz |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Lendário | 5 | Conclui na hora uma melhoria do Skylab |
-| **Schematics** | Raro | 20 | Conclui a pesquisa em andamento, se ela levar 24 horas ou menos |
+| **Schematics** | Raro | 20 | Tira 24 horas da pesquisa em andamento; conclui se restarem 24 horas ou menos |
 | **Philosopher's Stone** | Épico | 10 | Sua Mina de créditos e sua Mina de Thulium produzem o dobro por 10 horas |
 | **Tinkerer's Badge** | Épico | 10 | Eleva um equipamento em um grau da Forja, de Maculado para cima |
 | **Forger's Seal** | Incomum | 99 | Pula até 30 minutos da fila de produção |
@@ -44,12 +44,13 @@ Conclui **uma melhoria do Skylab na hora**: escolha o módulo que está sendo me
 
 ### Schematics
 
-Conclui **a pesquisa em andamento agora**, se a tecnologia leva **24 horas ou menos** para ser pesquisada. 143 das 159 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) se enquadram. As 16 que levam 48 ou 72 horas não: o Wraith, três formações de drones, Hull Plating III, os níveis 4 e 5 do Módulo de motores e do Módulo de defesa e sete tecnologias de Piloto.
+Tira **24 horas da pesquisa em andamento agora**. Se restarem **24 horas ou menos**, a pesquisa é **concluída** na hora; se restar mais, ela perde 24 horas e continua, e você pode usar outro Schematics nela. 167 das 187 tecnologias do [Centro de Pesquisa](/wiki/03-Mechanics/Research.md) levam 24 horas ou menos, então um Schematics as conclui desde o começo. As outras 20 levam mais, 48 ou 72 horas na maioria e 96, 168 e 240 horas os Rocket Launcher III, IV e V, e precisam de 2 a 10 Schematics.
 
-- **Conta o tempo de pesquisa, não o que resta.** Uma tecnologia de 48 horas a que falta uma hora ainda é recusada: Schematics olha quanto a tecnologia leva no total.
-- **O preço continua pago.** O Dark Matter, os créditos e o Thulium foram cobrados quando a pesquisa começou e não voltam. A ciência que a pesquisa ainda não queimou fica no seu tanque.
-- **A pesquisa termina como uma que acabou sozinha.** A tecnologia é sua, os avisos aparecem e **a próxima tecnologia da sua fila começa na hora**, se puder.
-- **É recusado** sem Centro de Pesquisa, sem nenhuma pesquisa em andamento ou quando a tecnologia leva mais de 24 horas.
+- **Horas da tecnologia, não do relógio.** As 24 horas são o tempo de pesquisa próprio da tecnologia, o do seu cartão. O boost de Thulium faz uma pesquisa correr mais rápido, mas não muda o que um uso tira; se um boost cobrisse o fim da pesquisa, um uso poupa menos horas de espera (em velocidade dupla, um dia de pesquisa são 12 horas de espera). A confirmação diz o que o cronômetro vai mostrar.
+- **A pesquisa continua como estava.** Uma pesquisa que perde 24 horas mantém o seu lugar: o boost continua correndo, a fila não é tocada e nada começa atrás dela. Uma pesquisa que espera ciência continua esperando: Schematics dá tempo, não combustível.
+- **O preço continua pago.** O Dark Matter, os créditos e o Thulium foram cobrados quando a pesquisa começou e não voltam. A ciência que o tempo pulado teria queimado fica no seu tanque.
+- **Uma pesquisa concluída termina como uma que acabou sozinha.** A tecnologia é sua, os avisos aparecem e **a próxima tecnologia da sua fila começa na hora**, se puder.
+- **É recusado** sem Centro de Pesquisa ou sem nenhuma pesquisa em andamento (uma pesquisa que acabou sozinha antes do seu clique já não está em andamento, e nada é gasto).
 - Nunca inicia uma pesquisa nem escolhe uma por você.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ O Hauler só levanta a cota. Todo o resto da [Baía de minério](/wiki/03-Mechan
 - **Uma contagem, não um item.** O inventário do Hangar é o único lugar que os lista, como blocos entre os consumíveis; um tipo de que você não tem nenhum não tem bloco. Um bloco não é um item, então não pode ser arrastado, selecionado, excluído nem vendido. Eles não têm peso, nem espaço na barra de atalhos, nem lugar na carga ou no Cache de Transporte; nunca caem quando a sua nave é destruída.
 - **Através do reset.** Os seus itens especiais e uma Philosopher's Stone ou um contrato em andamento são mantidos, como o Skylab, a pesquisa e o seu visual.
 - **Nunca negociados.** Nem no [Leilão](/wiki/03-Mechanics/Auction.md), nem a outro piloto, nem por créditos.
-- **Só o Hammer pode mudar o seu ritmo**, e você só pode ter 5. Os outros cinco são pequenos de propósito: 10 horas de duas minas, 1 hora de um trabalhador, um grau, 30 minutos de uma fila, uma pesquisa de no máximo 24 horas.
+- **Só o Hammer pode mudar o seu ritmo**, e você só pode ter 5. Os outros cinco são pequenos de propósito: 10 horas de duas minas, 1 hora de um trabalhador, um grau, 30 minutos de uma fila, 24 horas de uma pesquisa.
 - **Um uso, uma confirmação, um som.** Cada uso toca o seu próprio sinal discreto.
 
 ## Erros comuns {#common-mistakes}
 
 - **O Hammer precisa de uma melhoria em andamento.** Inicie primeiro a melhoria. Um módulo cujo cronômetro já terminou não tem mais nada a concluir.
-- **Schematics olha o tempo de pesquisa inteiro.** Uma tecnologia de 48 ou 72 horas não pode ser concluída com eles, por pouco que falte.
+- **Uma pesquisa longa precisa de vários Schematics.** Um tira 24 horas, não mais: uma tecnologia de 240 horas precisa de dez. A folha diz quanto vai sobrar antes de você confirmar.
 - **A Stone não estica o armazenamento.** Colete antes que uma mina encha, ou o bônus se perde.
 - **O Badge é para Maculado e acima.** O primeiro passo da Forja não precisa de Badge.
 - **Um contrato precisa de trabalho a fazer.** Construa antes um produtor, uma Baía de minério ou um módulo, depois contrate o trabalhador.

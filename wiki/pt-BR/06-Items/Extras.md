@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: Extras -->
 # Extras
 
@@ -12,6 +12,7 @@ Os extras são os equipamentos utilitários dos **slots extras** de uma nave (do
 | **Cloaking CPU L** | Esconde sua nave | 50 | 20.000 Thulium |
 | **P.E.T. Station I a III** | Em ON, deixa 2, 3 ou 5 [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) acoplados darem bônus à sua nave, ganharem experiência e trabalharem; em OFF, eles não fazem nada disso | ON / OFF | Montagem, depois da pesquisa (a árvore de itens abaixo) |
 | **Auto-Rocket CPU** | Em ON, dispara sozinha o seu foguete ativo no alvo de um combate | ON / OFF | Montagem, depois da pesquisa (a árvore de itens abaixo) |
+| **Laser Optics I a V** | Equipadas, somam 2, 4, 6, 8 ou 10 pontos à chance de as suas rajadas de laser acertarem (só vale a melhor equipada) | equipadas, nada a ligar | Montagem, depois da pesquisa (a árvore de itens abaixo) |
 
 As Cloaking CPUs são vendidas só na Loja. Elas não podem ser fundidas, e nada as dá de graça. A **EMP Charge** não é mais um extra: desde a 0.4.21 é um consumível, levado em uma pilha como um foguete e sem equipar em slot nenhum, então não ocupa nenhum dos seus slots de extra (veja [Foguetes](/wiki/06-Items/Rockets.md#emp-charge)). As duas **Energetic Walls** também não são mais extras: desde a 0.4.22 também são consumíveis, levadas em uma pilha e sem ocupar nenhum slot (veja [Energetic Wall](#energetic-wall)).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ Pressione o slot WAL e uma **parede de plasma** se ergue **no seu cursor**, atra
 - **Abates.** Uma nave que a parede destrói morre de radiação, e o abate vai para o último piloto inimigo que a acertou nos 15 segundos anteriores, se houve algum. Quem ergueu a parede não recebe crédito por nada que não tenha atirado ele mesmo. Um alienígena que a parede destrói não paga nada: nem recompensa nem espólio.
 - **Os alienígenas não a contornam.** Eles passam por ela e queimam, ou ficam do lado deles e atiram na parede.
 - **O que você vê.** Uma faixa de luz azul-esbranquiçada com traços brilhantes correndo por ela e um poste de luz em cada ponta, que lampeja onde um tiro acerta e treme quando está quase no fim. Uma parede de nível 2 brilha em amarelo, com um núcleo mais grosso e brilhante e um halo mais forte, mas a faixa dela tem as mesmas 10 unidades de largura que a de nível 1. Uma barra de vida fina ao lado encurta e passa para âmbar e depois para vermelho; o seu slot mostra a vida restante da sua parede como arco e a espera como sombra. Uma parede recém-erguida lampeja ao acender, uma derrubada desaba em faíscas e uma cujo tempo acabou se apaga. No seu slot, um número também conta as paredes do nível dele que restam.
-- **Como conseguir e levar.** A Energetic Wall I é vendida na loja por **250 Thulium** a parede, e você leva até **20** em uma pilha (o que você colocou no [Leilão](/wiki/03-Mechanics/Auction.md) conta). A Energetic Wall II é feita na Montagem, **uma parede por produção**, por **600 Thulium**, 5 Ship Fragments e um Power Core, depois que o Centro de Pesquisa a pesquisa (6 horas na velocidade normal: [Pesquisa](/wiki/03-Mechanics/Research.md)); você leva até **10**. Ao contrário dos doze foguetes, dos quais 1.000 de cada passam por conta própria, as paredes que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte, e as do Cache não podem ser usadas. Uma Energetic Wall II que você fez pode ser vendida no Leilão; uma Energetic Wall I, que a loja vende, nunca.
+- **Como conseguir e levar.** A Energetic Wall I é vendida na loja por **10.000 créditos** a parede, e você leva até **20** em uma pilha (o que você colocou no [Leilão](/wiki/03-Mechanics/Auction.md) conta). A Energetic Wall II é feita na Montagem, **uma parede por produção**, por **600 Thulium**, 5 Ship Fragments e um Power Core, depois que o Centro de Pesquisa a pesquisa (6 horas na velocidade normal: [Pesquisa](/wiki/03-Mechanics/Research.md)); você leva até **10**. Ao contrário dos doze foguetes, dos quais 1.000 de cada passam por conta própria, as paredes que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte, e as do Cache não podem ser usadas. Uma Energetic Wall II que você fez pode ser vendida no Leilão; uma Energetic Wall I, que a loja vende, nunca.
 
 ## Mine
 
@@ -111,9 +118,26 @@ Uma **Mine** é uma armadilha que se lança. Aperte o slot dela com o cursor sob
 - **Quem ela atinge.** Toda nave que passa por cima: um piloto inimigo, um alienígena, um piloto de corporação, os seus colegas de corporação, o seu grupo e **você mesmo**. Uma Mine não tem amigos. O que poupa uma nave é o que a poupa de qualquer arma: uma zona segura, a proteção de um reaparecimento, uma camuflagem ou uma janela de EMP.
 - **Afastar-se.** Uma nave que está dentro do alcance de uma Mine quando ela pousa é poupada até sair desse alcance uma vez, e você é o primeiro que ela poupa: você pode largar uma Mine sob a sua nave e se afastar. Depois disso, a Mine explode sob essa nave como sob qualquer outra, mesmo que ela volte mais tarde.
 - **Quanto.** O dano cresce com o nível: **8.000, 20.000 e 50.000**. A sua habilidade Sabotagem soma até 30 % a ele, e a sua Pontaria faz a Mine voar mais rápido e mais longe.
-- **Limites.** Você pode ter **três** Mines fora ao mesmo tempo (a quarta toma o lugar da mais antiga), cada uma some **3 minutos** depois de pousar, e você espera **8 segundos** entre dois lançamentos; a espera é sua, não da nave. Se você sai do mapa, as suas Mines saem com você.
+- **Limites.** Uma Mine **não tem um fim próprio**: fica onde pousou até uma nave detoná-la ou o servidor reiniciar, e continua ali quando você sai do jogo, morre ou deixa o mapa. Você **não tem um limite próprio**, só a espera de **8 segundos** entre dois lançamentos (a espera é sua, não da nave). Duas regras protegem o mapa: duas Mines não podem ficar a menos de **365 unidades** uma da outra, não importa quem as lançou (um pouco mais de duas vezes o comprimento da maior nave), e um mapa comporta no máximo **150** Mines. Um lançamento que quebraria uma delas é recusado, não gasta nada e não inicia espera; enquanto você mira, o anel do cursor fica vermelho onde o lançamento seria recusado.
 - **Onde não.** Não onde os pilotos não podem lutar entre si (durante o Protocolo de Paz, ou em um setor ou portão cujas regras proíbem), não enquanto uma zona segura ou um reaparecimento protege você, não onde a Mine tocaria uma zona segura ou um portão, e não camuflado. O jogo diz qual é o caso; um lançamento recusado não gasta nada e não inicia espera.
 - **Como conseguir e levar.** A Mine I é vendida na loja por **100 Thulium**, e você leva até **20** em uma pilha. A Mine II é feita na Montagem, **uma Mine por produção**, com duas Mine I, 3 Ship Fragments e um Power Core por **200 Thulium** (até **10** em uma pilha); a Mine III com duas Mine II, 8 Ship Fragments, 2 Power Cores e uma Reinforced Hull Plate por **400 Thulium** (até **5**). As duas são feitas depois que o Centro de Pesquisa as pesquisa: 3 horas para a II e 6 horas para a III no ritmo normal (veja [Pesquisa](/wiki/03-Mechanics/Research.md)). As Mines que você leva se perdem com a temporada, a menos que você as ponha no Cache de Transporte, e as do Cache não podem ser usadas. As Mines não podem ser vendidas no [Leilão](/wiki/03-Mechanics/Auction.md).
+
+## Laser Optics
+
+Cinco itens que fazem os seus lasers acertarem mais vezes. Não são vendidos: a Montagem os fabrica quando o Centro de Pesquisa da Skylab os pesquisou, um depois do outro (a família Lasers, veja [Pesquisa](/wiki/03-Mechanics/Research.md)).
+
+- **O que fazem.** Equipe uma em um slot de extras e ela soma pontos à chance de as suas rajadas de laser acertarem, além do que a sua [Tecnologia laser](/wiki/03-Mechanics/Combat.md#laser-tech) dá, sem nunca passar de 100%. A Laser Optics I soma 2 pontos, a II soma 4, a III soma 6, a IV soma 8 e a V soma 10. Uma rajada que erra gasta a munição do mesmo jeito, então cada ponto é dano que você deixa de desperdiçar.
+- **Só vale a melhor.** Duas Laser Optics não se somam: vale a melhor que você tem equipada. Uma que você só carrega, ou equipa na outra configuração, não faz nada até você voar com essa configuração.
+- **Nada para apertar.** Não têm slot na barra de atalhos nem interruptor: funcionam enquanto estiverem equipadas e ocupam um dos seus slots de extras, como os outros Extras.
+- **Onde ler.** O cartão de um laser e o bloco de dano do seu Hangar mostram a chance total, a da sua Tecnologia laser e a das Optics juntas.
+
+| Item | Soma | Tempo de pesquisa | Thulium para fabricar | Tempo de fabricação |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 pontos | 3 h | 8.000 | 5 min |
+| Laser Optics II | +4 pontos | 6 h | 15.000 | 7,5 min |
+| Laser Optics III | +6 pontos | 10 h | 30.000 | 10 min |
+| Laser Optics IV | +8 pontos | 16 h | 50.000 | 12,5 min |
+| Laser Optics V | +10 pontos | 24 h | 75.000 | 15 min |
 
 ## CPUs do Centro de Pesquisa {#research-cpus}
 

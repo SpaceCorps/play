@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: 护盾 -->
 # 护盾机制 {#shield-mechanics}
 
@@ -63,6 +63,7 @@
 - **Shield Absorbance Boost**：一种用重置点数购买的赛季商店永久加成，**每级 +0.1 点，最多 +10 点**（100 级，每级 25 重置点数）。它会给你舰船的吸收率增加固定点数，对任何装有护盾的舰船都一样：4 级（100 重置点数）可以把 91% 变成 91.4%，12 级（300 重置点数）可以把 Light Shield Core 的 45% 变成 46.2%。没有装备护盾的舰船仍然是 0%。100 级共需 2,500 重置点数，是需要跨越数次重置的目标：重置点数的来源（击杀里程碑、任务和五项 Dormant Knowledge 研究）每次重置最多发放 1,105 重置点数，并在每次重置时重新开始，你的军衔在重置时再加 5 到 400，而 1,105 重置点数能买到 44 级，即 +4.4 点。参见[赛季与重置点数](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-)。
 - **锻造炉**：护盾和护盾电池可以随机获得**吸收率**加成，它会按比例放大该属性：55% 的护盾上 +5% 就是 +2.75 点。一套完全锻造的永恒级最佳组合（一个核心加三个电池，每项加成都随机到最高值，+15%）最多增加 13.65 点，平均约 11 点（见[锻造炉](/wiki/06-Items/Forge.md)）。
 - **Field Theory**：飞行员研究 Field Theory I、II、III（[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)）会为你所有舰船的吸收率增加 **+4、+7、+10 点**，是累计总数，而不是每一级在上一级之上再叠加，需要消耗信用点、Thulium 和 Dark Matter。和赛季商店的加成一样，它是固定点数，对任何装有护盾的舰船都一样，重置后依然保留。
+- **护盾吸收**：[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md#the-stats)会在 100 级时给你的舰船在以上各项之外已有的吸收率最多增加 **+5 点**，总数没有上限：119% 的舰船会达到 124%，没有装备护盾的舰船则保持 0%。它不在**合计**的数字里。
 - **合计**：开箱即用的 91%，加上 +4.4 点的加成（一次重置的 1,105 重置点数）、最多 +13.65 点的锻造炉加成和 Field Theory III 的 +10 点，一次重置之后最高可达 **119.05%**（指没有[设计](/wiki/03-Mechanics/Ship-Designs.md)也没有[编队](/wiki/03-Mechanics/Formations.md)的普通舰船）；如果拿满该加成的全部 100 级（+10 点，2,500 重置点数），则会是 124.65%。带有 +10% 护盾吸收率的设计（Paragon BUCKY、Ironclad DUMA、Wraith ATARAXIS）和 Rampart 编队（+17%）会在加成与 Field Theory 的固定点数加上之前，乘在护盾的吸收率上，所以同时具备两者的同一艘舰船在一次重置之后可达 **149.1%**（拿满全部 100 级则为 154.7%）。这三者每一个单独都能超过 100%：达到上限的加成和 Field Theory III 各自是 101%，一套随机到最佳数值的永恒级组合是 104.65%；一套永恒级组合再加上 Field Theory III 可达 109% 到 115%，而该加成的各级还会叠在这之上。以上数字只计入重置点数的来源，不含你的军衔在重置时发放的 5 到 400 重置点数，这些点数可以再买下该加成的更多级。
 
 ### 护盾增益：容量、吸收率、充能 {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@
 每种护盾增益都会提高三项属性之一，并在增益窗口中按各自的类别列出：
 
 - **容量**（最大护盾值）：Shield Wall Booster I 和 II 增益，以及永久的 Shield Capacity Boost。
-- **吸收率**（护盾承受每次攻击的份额）：永久的 Shield Absorbance Boost（每级 +0.1 点，最多 +10 点）。
+- **吸收率**（护盾承受每次攻击的份额）：永久的 Shield Absorbance Boost（每级 +0.1 点，最多 +10 点），以及飞行员专长护盾吸收（最多 +5 点）。
 - **充能**（每秒恢复的护盾值）：Shield Regen Booster。
 
 具体数值请见[增益](/wiki/06-Items/Boosters.md)。

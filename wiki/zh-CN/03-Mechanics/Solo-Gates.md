@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: 单人星门 -->
 # 单人星门 {#solo-gates}
 
@@ -84,13 +84,15 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 ## 进入 {#going-in}
 
-你在星系之门页面**建造**星门，再通过它的传送门**跃迁进入**。建造在空间站里进行，飞船停靠即可，不需要在飞行中。需要：
+你在星系之门页面**建造**星门，再通过它的传送门**跃迁进入**。建造可以在空间站里进行，飞船停靠即可，飞行中也可以：点击工具栏里的星门按钮打开**星系之门窗口**，就能像在页面上一样扫描、建造星门并选择目的地。需要：
 
 - 星门的部件：它们在**你建造时一次性**扣除，被拒绝的建造不会扣除任何东西；
 - 没有其他未结束的单人对局：同一时间只能有一局，离开的对局要先通过传送门重新进入或放弃，才能建造另一座星门；
 - 你在主服务器上（区域服务器没有星门）。
 
 建好的星门以一个以它命名的传送门的形式立在你的**主星区**（`M-1`、`T-1` 或 `G-1`，取决于你的企业），星系之门页面会告诉你它在哪里。**出击，飞到传送门并跃迁**，和穿过任何传送门一样。进入时你的世界里必须有空闲的裂隙：每个世界有一定数量的裂隙，全部被占用时你需要等待。
+
+**在区域服务器上（Singapore、US East）。**星门本身留在主服务器：在区域服务器上不会建造、游玩或结算任何东西。但已建好的星门在那里不会被忘记：你到达时会收到提示，你的星门的传送门在那里同样立在你的主星区。跃迁穿过它，你会被带回主服务器，在那里按上文所述出击进入你的星门。
 
 你独自降落在一个空旷竞技场的中央。里面没有人能攻击你，Jump CPU 和 Base CPU 也无法使用。
 
@@ -110,16 +112,18 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 外星人就是游戏里的那些（Seeker、Phantasm、Bulwark、Goombah 和 Crystalys），由星门调得更硬或更软。预计时间是星门为处于激光技术起始等级的飞行员设计的耗时（[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md)）；把激光技术升上去的飞行员会更快完成。
 
+有些波次会带来一支**虫群**：游戏中的 Boss NPC（Boss Seeker、Boss Phantasm、Boss Goombah 或 Boss Crystalys）带着它的护卫，作为一个整体发起攻击。虫群的每艘飞船都属于它所在的波次，最后一艘被击毁时这一波才结束。它们的报酬和该波次的其他飞船一样，数值见[外星人表](#the-aliens)。**Boss NPC 会像在游戏的星区里一样掉落战利品**：矿石、装甲板、弹药和火箭（每个会掉落什么，见[虫群的页面](/wiki/05-Swarms/Swarms.md)）。星门里没有需要拾取的箱子：战利品随奖励一起直接进入你的背包，并且和奖励一样每局只有一次。它的护卫无论在星门还是在星区都不掉落任何东西，既不会为 Boss 治疗，也不会再回来。下面的表格说明了每个星门的哪些波次会带来虫群。
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| 星门 | 波次数（含 Boss 那一波） | 各波中的外星人 | Boss | 预计时间 |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 到 15 分钟 |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 到 25 分钟 |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 到 35 分钟 |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 到 45 分钟 |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 到 60 分钟 |
+| 星门 | 波次数（含 Boss 那一波） | 各波中的外星人 | Boss NPC 与虫群 | Boss | 预计时间 |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | 第 5 波：1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 到 15 分钟 |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | 第 4 波：2 Seeker Swarm; 第 9 波：1 Phantasm Swarm | Enhanced Bulwark | 15 到 25 分钟 |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | 第 4 波：1 Phantasm Swarm; 第 9 波：1 Goombah Swarm; 第 14 波：1 Goombah Swarm | Elite Crystalys | 25 到 35 分钟 |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | 第 5 波：2 Phantasm Swarm; 第 10 波：2 Goombah Swarm; 第 15 波：1 Goombah Swarm; 第 20 波：1 Crystalys Swarm | Siege Construct | 35 到 45 分钟 |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | 第 6 波：1 Goombah Swarm; 第 11 波：2 Goombah Swarm; 第 16 波：1 Crystalys Swarm; 第 22 波：1 Phantasm Swarm | Omega Guardian | 50 到 60 分钟 |
 
 - **Delta Siege**：第 18 波（250 Seeker）是可选的：倒计时期间你可以跳过它，它不发放任何东西
 - **Omega Vault**：第 17 波（250 Seeker）是可选的：倒计时期间你可以跳过它，它不发放任何东西; 第 22 到 24 波是精英波，船体、护盾和伤害为 ×1.5
@@ -182,7 +186,7 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 
 ### 外星人 {#the-aliens}
 
-你在星门中击杀的每个外星人，无论你在哪个世界飞行，都按它在 Alpha 的数字发放：世界倍率、增益和高级会员加成都不会改变它们。一波对它的外星人每局**只发放一次**，不管你离开再回来多少次。奖励在这一局每一段结束时到账：当你离开、死亡、生命用尽、放弃或通关时。只有重置，以及你在星门内时服务器重启，才会让一段中的击杀得不到发放（这一局仍保持开启，但那一段的击杀会丢失）。星门中的击杀不计入其他任何东西：不计入任务、击杀统计、成就计数器、击杀播报，也不计入你的无人机和 P.E.T. 的经验值。不过它们发放的经验值会像通关的经验值一样计入你的 PvE 排名积分。外星人的战利品随奖励一起直接进入你的背包。
+你在星门中击杀的每个外星人，无论你在哪个世界飞行，都按它在 Alpha 的数字发放：世界倍率、增益和高级会员加成都不会改变它们。一波对它的外星人每局**只发放一次**，不管你离开再回来多少次。奖励在这一局每一段结束时到账：当你离开、死亡、生命用尽、放弃或通关时。只有重置，以及你在星门内时服务器重启，才会让一段中的击杀得不到发放（这一局仍保持开启，但那一段的击杀会丢失）。星门中的击杀会在发生的当下计入**没有指明星区**的[任务](/wiki/03-Mechanics/Quests.md#where-it-counts)（例如挑战任务线中的大型猎杀）（一波对这些任务每局**只计一次**，就像它只发放一次一样），除此之外不计入其他任何东西：不计入击杀统计、成就计数器、击杀播报，也不计入你的无人机和 P.E.T. 的经验值。不过它们发放的经验值会像通关的经验值一样计入你的 PvE 排名积分。外星人的战利品随奖励一起直接进入你的背包。
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 | **Bulwark** | 5,000 | 25 | 800 | 10 |
 | **Goombah** | 15,000 | 75 | 3,000 | 24 |
 | **Crystalys** | 75,000 | 200 | 12,000 | 52 |
+| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | 星门 | 信用点 | Thulium | 经验值 | 荣誉 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540,000 | 2,160 | 54,000 | 1,080 |
-| **Beta Breach** | 1,320,000 | 5,980 | 186,000 | 2,520 |
-| **Gamma Foundry** | 3,000,000 | 13,300 | 522,000 | 4,616 |
-| **Delta Siege** | 4,975,000 | 21,400 | 829,000 | 7,640 |
-| **Omega Vault** | 6,875,000 | 29,000 | 1,160,000 | 10,100 |
+| **Alpha Rift** | 514,000 | 2,099 | 55,296 | 1,018 |
+| **Beta Breach** | 1,298,500 | 5,939 | 187,744 | 2,470 |
+| **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
+| **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
+| **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
 
 <!-- solo-kills:end -->
 

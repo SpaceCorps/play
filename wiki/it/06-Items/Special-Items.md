@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Oggetti speciali -->
 # Oggetti speciali {#special-items}
 
@@ -23,7 +23,7 @@ Gli **oggetti speciali** sono sei oggetti monouso che ti fanno risparmiare tempo
 | Oggetto | Rarità | Quanti puoi tenere | Cosa fa |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Leggendario | 5 | Completa subito un potenziamento dello Skylab |
-| **Schematics** | Raro | 20 | Completa la ricerca in corso, se dura 24 ore o meno |
+| **Schematics** | Raro | 20 | Toglie 24 ore alla ricerca in corso; la completa se ne restano 24 o meno |
 | **Philosopher’s Stone** | Epico | 10 | La tua Fattoria crediti e la tua Fattoria Thulium producono il doppio per 10 ore |
 | **Tinkerer’s Badge** | Epico | 10 | Fa salire un pezzo di equipaggiamento di un grado della Forgia, da Corrotto in su |
 | **Forger’s Seal** | Non comune | 99 | Salta fino a 30 minuti della coda di produzione |
@@ -44,12 +44,13 @@ Completa **un potenziamento dello Skylab subito**: scegli il modulo che si sta p
 
 ### Schematics
 
-Completa **la ricerca in corso adesso**, se la tecnologia richiede **24 ore o meno** per essere ricercata. 143 delle 159 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) rientrano. Le 16 che richiedono 48 o 72 ore no: il Wraith, tre formazioni di droni, Hull Plating III, i livelli 4 e 5 del Modulo Motori e del Modulo Difesa e sette tecnologie del Pilota.
+Toglie **24 ore alla ricerca in corso adesso**. Se ne restano **24 ore o meno**, la ricerca viene **completata** subito; se ne restano di più, perde 24 ore e continua, e puoi usare su di essa un altro Schematics. 167 delle 187 tecnologie del [Centro ricerche](/wiki/03-Mechanics/Research.md) richiedono 24 ore o meno, quindi uno Schematics le completa fin dall’inizio. Le altre 20 richiedono di più, 48 o 72 ore per la maggior parte e 96, 168 e 240 ore per i Rocket Launcher III, IV e V, e servono da 2 a 10 Schematics.
 
-- **Conta il tempo di ricerca, non quello che resta.** Una tecnologia da 48 ore a cui manca un’ora viene rifiutata comunque: Schematics guarda quanto dura la tecnologia in tutto.
-- **Il prezzo resta pagato.** La Dark Matter, i crediti e il Thulium sono stati prelevati quando la ricerca è partita e non vengono restituiti. La scienza che la ricerca non ha ancora bruciato resta nel tuo serbatoio.
-- **La ricerca finisce come una ricerca conclusa.** La tecnologia è tua, compaiono gli avvisi e **la tecnologia successiva della tua coda parte subito**, se può.
-- **Viene rifiutato** senza Centro ricerche, senza nessuna ricerca in corso o quando la tecnologia dura più di 24 ore.
+- **Ore della tecnologia, non dell’orologio.** Le 24 ore sono il tempo di ricerca proprio della tecnologia, quello della sua scheda. Il boost di Thulium fa correre una ricerca più in fretta, ma non cambia ciò che toglie un uso; se un boost coprirebbe la fine della ricerca, un uso fa risparmiare meno ore di attesa (a velocità doppia, un giorno di ricerca sono 12 ore di attesa). La conferma dice cosa mostrerà il timer.
+- **La ricerca prosegue com’era.** Una ricerca che perde 24 ore tiene il suo posto: il boost continua, la coda non viene toccata e dietro non parte nulla. Una ricerca che aspetta la scienza continua ad aspettare: Schematics dà tempo, non carburante.
+- **Il prezzo resta pagato.** La Dark Matter, i crediti e il Thulium sono stati prelevati quando la ricerca è partita e non vengono restituiti. La scienza che il tempo saltato avrebbe bruciato resta nel tuo serbatoio.
+- **Una ricerca completata finisce come una conclusa.** La tecnologia è tua, compaiono gli avvisi e **la tecnologia successiva della tua coda parte subito**, se può.
+- **Viene rifiutato** senza Centro ricerche o senza nessuna ricerca in corso (una ricerca finita da sola prima del tuo clic non è più in corso, e non si spende nulla).
 - Non avvia mai una ricerca e non ne sceglie mai una per te.
 
 ### Philosopher’s Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ L’Hauler toglie solo la quota. Tutto il resto della [Baia del minerale](/wiki/
 - **Un conteggio, non un oggetto.** L’inventario dell’Hangar è l’unico posto che li elenca, come caselle tra i consumabili; un tipo di cui non hai nulla non ha casella. Una casella non è un oggetto, quindi non si può trascinare, selezionare, eliminare né vendere. Non hanno peso, né slot nella barra rapida, né posto nel carico o nel Deposito di trasporto; non cadono mai quando la tua nave viene distrutta.
 - **Attraverso il reset.** I tuoi oggetti speciali e una Philosopher’s Stone o un contratto in corso vengono conservati, come lo Skylab, la ricerca e il tuo look.
 - **Mai scambiati.** Non all’[Asta](/wiki/03-Mechanics/Auction.md), non a un altro pilota, non per crediti.
-- **Solo l’Hammer può spostare il tuo ritmo**, e puoi tenerne solo 5. Gli altri cinque sono piccoli per scelta: 10 ore di due fattorie, 1 ora di un lavoratore, un grado, 30 minuti di una coda, una ricerca di 24 ore al massimo.
+- **Solo l’Hammer può spostare il tuo ritmo**, e puoi tenerne solo 5. Gli altri cinque sono piccoli per scelta: 10 ore di due fattorie, 1 ora di un lavoratore, un grado, 30 minuti di una coda, 24 ore di una ricerca.
 - **Un uso, una conferma, un suono.** Ogni uso riproduce il suo segnale sommesso.
 
 ## Errori comuni {#common-mistakes}
 
 - **L’Hammer richiede un potenziamento in corso.** Avvia prima il potenziamento. Un modulo il cui timer è già scaduto non ha più nulla da completare.
-- **Schematics guarda tutto il tempo di ricerca.** Una tecnologia da 48 o 72 ore non si può completare con loro, per poco che manchi.
+- **Una ricerca lunga richiede più Schematics.** Uno toglie 24 ore, non di più: una tecnologia da 240 ore ne richiede dieci. La scheda ti dice quanto resterà prima che tu confermi.
 - **La Stone non allarga la tramoggia.** Raccogli prima che una fattoria si riempia, o il bonus va perso.
 - **Il Badge è per Corrotto e oltre.** Il primo passo della Forgia non ha bisogno di Badge.
 - **Un contratto ha bisogno di lavoro da fare.** Costruisci prima un produttore, una Baia del minerale o un modulo, poi assumi il lavoratore.

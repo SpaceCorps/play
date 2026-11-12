@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
+<!-- wiki-i18n source: 38baebcbfc5e575a -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -7,8 +7,8 @@ A Ostirion é um interceptador sólido de nível intermediário, que traz uma me
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 64.000
-- **Velocidade base**: 220
-- **Slots de laser**: 3
+- **Velocidade base**: 260
+- **Slots de laser**: 5
 - **Slots extras**: 2
 
 ### Slots de gerador e suporte {#generator-support-slots}

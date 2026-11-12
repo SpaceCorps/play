@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; aussehen; lackierung; garderobe; triebwerksspur -->
 
-Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** (die Lackierung des Rumpfs), eine **Aura** (ein weiches Leuchten um das Schiff), eine **Triebwerksspur** (Farbe und Form der Spur hinter den Triebwerken) und die **Lackierung** deiner Drohnen. Ein Look ist nur zum Anschauen: Er bringt keinen Schaden, keine Hülle und keine Geschwindigkeit, belegt keinen Slot und ändert nichts, was ein Schuss treffen kann.
+Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** (die Lackierung des Rumpfs), eine **Aura** (ein weiches Leuchten und ein Lichtring um das Schiff), eine **Triebwerksspur** (Farbe und Form der Spur hinter den Triebwerken) und die **Lackierung** deiner Drohnen. Ein Look ist nur zum Anschauen: Er bringt keinen Schaden, keine Hülle und keine Geschwindigkeit, belegt keinen Slot und ändert nichts, was ein Schuss treffen kann.
 
 > [!NOTE]
 > **Looks können nicht gekauft werden.** Der Wipe vergibt die Saison-Looks der obersten Ränge ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Manche Looks findest du im [Chroma-Archiv (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), einem Container; die übrigen vergibt ein Admin. Wenn ein Admin dir einen Look gibt, sagt es dir ein Hinweis und ein sanfter Gong ertönt; einen Look, den du im Container gewinnst, zeigt die Ergebniskarte.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ Die acht gewöhnlichen Farben gehören zum Slot: Jeder Pilot hat sie. Ion Blue i
 | Effekt | Seltenheit | Was er zeichnet |
 | :--- | :--- | :--- |
 | **None** | Gewöhnlich | Keine Aura. Gehört zum Slot |
-| **Glow** | Gewöhnlich | Ein weiches Leuchten um das Schiff |
-| **Breath** | Ungewöhnlich | Ein Leuchten, das langsam atmet |
-| **Motes** | Selten | Ein Leuchten mit vier kreisenden kleinen Lichtern |
-| **Shimmer** | Selten | Ein Leuchten, das funkelt |
-| **Sparkle** | Episch | Sechs kreisende Lichter, die funkeln |
-| **Wreath** | Episch | Acht Lichter in langsamer Umlaufbahn |
-| **Halo** | Mythisch | Ein atmendes Leuchten mit acht kreisenden Lichtern |
-| **Laurel** | Legendär | Zehn Lichter, die langsam in einem atmenden Leuchten kreisen |
-| **Crown** | Ewig | Zehn Lichter, die in einem atmenden, funkelnden Leuchten kreisen |
+| **Glow** | Gewöhnlich | Ein weiches Leuchten mit einem dünnen Lichtring am Rand |
+| **Breath** | Ungewöhnlich | Ein Leuchten und ein Lichtring, die langsam atmen |
+| **Motes** | Selten | Ein Lichtring, in dem vier kleine Kometen kreisen |
+| **Shimmer** | Selten | Eine langsame Spirale mit zwei Armen in einem schwachen Ring, funkelnd |
+| **Sparkle** | Episch | Sechs kreisende Kometen, die funkeln, in einem Lichtring |
+| **Wreath** | Episch | Acht Kometen in langsamer Umlaufbahn, in einem Lichtring mit einem feineren Ring darin |
+| **Halo** | Mythisch | Ein heller, atmender Lichtring mit zwei feineren Ringen darin und sechs kreisenden Kometen |
+| **Laurel** | Legendär | Ein atmender Lichtring um eine langsame Spirale mit drei Armen, mit acht langsam kreisenden Kometen |
+| **Crown** | Ewig | Ein heller Lichtring mit zwei feineren Ringen und einer Spirale mit vier Armen darin und acht kreisenden Kometen, atmend und funkelnd |
+| **Event Horizon** | Mythisch | Ein dunkles Band, das abdunkelt, was dahinter liegt, in einem hellen Lichtring, der auf einer Seite brennt |
+| **Accretion** | Mythisch | Eine langsame Spirale mit drei Armen in einem Lichtring, mit acht nach innen fallenden Kometen |
+| **Singularity** | Legendär | Ein dunkles Band in einem hellen Lichtring, eine Spirale mit zwei Armen und sechs funkelnde, nach innen fallende Kometen |
+| **Gravity Well** | Mythisch | Ein schwaches dunkles Band und drei feinere Ringe in einem atmenden Lichtring |
 
-Eine Aura bleibt innerhalb des Rings, der eine Zielerfassung markiert, und wird unter allem anderen um ein Schiff gezeichnet.
+Eine Aura bleibt innerhalb des Rings, der eine Zielerfassung markiert, und wird unter allem anderen um ein Schiff gezeichnet. Ihr eigener Lichtring ist dünn, hat die Farbe der Aura und einen hellen Bogen, der an ihm entlangwandert; der Ring der Zielerfassung liegt außerhalb davon und ist ruhig. Ein Komet ist ein kleines Licht mit kurzem Schweif.
+
+**Event Horizon**, **Accretion**, **Singularity** und **Gravity Well** sind nicht im Chroma-Archiv: Ein Admin vergibt sie.
 
 ## Die Garderobe {#the-wardrobe}
 

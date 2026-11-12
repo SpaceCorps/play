@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Protos는 SpaceCorps의 모든 신규 파일럿에게 주어지는 기본 시작
 ## 능력치 {#stats}
 
 - **내구도(HP)**: 8,000
-- **기본 속도**: 180
+- **기본 속도**: 190
 - **레이저 슬롯**: 2
 - **부가 슬롯**: 2
 

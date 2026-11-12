@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-A Nomad olyan cirkáló, amelynek közel kétszer akkora a hajóteste és kétszer annyi a fegyvere, mint egy Ostirioné: kalapácsfejű hajó az Ostirion és a Paragon között, a Boltban kreditért és Thuliumért együtt vásárolható. Bármelyik pilóta megveheti.
+A Nomad olyan cirkáló, amelynek közel kétszer akkora a hajóteste, mint egy Ostirioné, és két fegyverrel több van rajta: kalapácsfejű hajó az Ostirion és a Paragon között, a Boltban kreditért és Thuliumért együtt vásárolható. Bármelyik pilóta megveheti.
 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 111 000
-- **Alapsebesség**: 210
-- **Lézerfoglalatok**: 6
+- **Alapsebesség**: 240
+- **Lézerfoglalatok**: 7
 - **Extrafoglalatok**: 2
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}

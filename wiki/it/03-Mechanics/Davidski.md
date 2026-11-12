@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
+<!-- wiki-i18n source: 5840847853041fa0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Una **Ironclad TITANIC** dipinta d’oro, della grandezza propria della TITANIC,
 | Extra | un Repair Drone IV, una Auto-Repair CPU e una Base CPU II |
 | Scafo | 15 Hull Plating III |
 
-Con la forza di Alpha ha **931.250 di scafo**, **1.559.486 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento del 90,9%, velocità 102, portata 945 e una salva di **4.440 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,5 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa quattordici minuti di fuoco continuo, dieci di loro di circa 86 secondi.
+Con la forza di Alpha ha **931.250 di scafo**, **1.559.486 di scudo** (si ricarica di 67.614 al secondo dopo 15 secondi senza colpi), assorbimento del 90,9%, velocità 97, portata 945 e una salva di **5.014 al secondo**. Beta ha 1,5 volte quei valori e Gamma 2 volte, come ogni alieno. Sono circa 2,5 milioni di punti da consumare in Alpha: un Wraith con gli stessi laser ha bisogno da solo di circa dodici minuti di fuoco continuo, dieci di loro di circa 71 secondi.
 
 ## Combatterlo {#fighting-him}
 

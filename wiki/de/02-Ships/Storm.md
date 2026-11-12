@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser aller Schiffe (14) auf einer Hülle, die für ihre Klasse leicht ist. Nach der Bewertung des Spiels (mehr als 10 Laser-Slots) ist sie ein Schlachtschiff der Klasse IV. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
+Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser aller Schiffe (15) auf einer Hülle, die für ihre Klasse leicht ist. Nach der Bewertung des Spiels (mehr als 10 Laser-Slots) ist sie ein Schlachtschiff der Klasse IV. Sie wird in der Montage gebaut, sobald das Forschungszentrum sie erforscht hat, und bei gleichen Lasern verliert sie im Einzelkampf gegen eine Wraith oder eine Ironclad.
 
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 180.000
-- **Grundtempo**: 260
-- **Laser-Slots**: 14
+- **Grundtempo**: 350
+- **Laser-Slots**: 15
 - **Extra-Slots**: 3
-- **Panzerungs-Slots**: 7
+- **Panzerungs-Slots**: 8
 
 ### Generator- und Support-Slots {#generator-support-slots}
 
-- **Kern-Slots (100 % Wirkungsgrad)**: 4
+- **Kern-Slots (100 % Wirkungsgrad)**: 3
 - **Support-Slots (75 % Wirkungsgrad)**: 4
 - **Hilfs-Slots (50 % Wirkungsgrad)**: 2
 
@@ -27,7 +27,7 @@ Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser all
 
 ## Forschung {#research}
 
-- **Panzerungs-Slots.** Die Storm hat 7 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Storm und an jedem ihrer Designs. Alle 7 mit Hull Plating III gefüllt ergeben 175.000 Hülle.
+- **Panzerungs-Slots.** Die Storm hat 8 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md), alle gesperrt, wenn du sie baust. Jeder ist eine eigene Technologie im Skylab, 1 h und 10 Dark Matter, die du der Reihe nach vom ersten an erforschst; sie öffnet diesen Slot an der Storm und an jedem ihrer Designs. Alle 8 mit Hull Plating III gefüllt ergeben 200.000 Hülle.
 - **Designs.** Die Storm hat 3 [Designs](/wiki/03-Mechanics/Ship-Designs.md). Erforsche eines (10 h und 10 Dark Matter) und baue deine Storm dann in der Montage darauf um: Die Änderung lässt sich nicht rückgängig machen.
 
 | Design | Was es ändert |
@@ -48,4 +48,4 @@ Sobald seine Technologie erforscht ist, kostet der Bau eines Storm in der Montag
 
 ## Hintergrund {#lore}
 
-Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Blassgraue Panzerung über einem dunkleren Gerüst, mit weißen Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Mündungen in voller Sicht, durch die vierzehn Laser feuern. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa sieben Zehntel so stark wie die einer Wraith und etwa drei Zehntel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.
+Die Storm ist das, was die Werften bauen, wenn der einzige Auftrag Geschwindigkeit lautet. Ein nadelförmiger Rumpf mit dunkler Kanzel sitzt zwischen zwei offenen Sichelringen, jeder ein gepanzerter Bogen um eine Öffnung, in einem aufgerichteten Horn endend, und durch die Öffnung läuft eine Triebwerksgondel: Der größte Teil des Schiffs ist Antrieb. Blassgraue Panzerung über einem dunkleren Gerüst, mit weißen Lichtstreifen, macht sie gut sichtbar, und sie will gesehen werden. Zwei lange Kanonen sitzen auf den vorderen Klingen, und acht kleine Emitter sitzen auf den Ringen und den Schulterflossen, zusammen zehn Mündungen in voller Sicht, durch die fünfzehn Laser feuern. Für Panzerung hat sie keinen Platz. Ihre Hülle ist etwa sieben Zehntel so stark wie die einer Wraith und etwa drei Zehntel so stark wie die einer Ironclad, also schlagen ihre Piloten zuerst zu, schlagen hart zu und verschwinden, bevor sich etwas Größeres umdreht.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4b46b95ef14ebec -->
+<!-- wiki-i18n source: aec634be3b6e5524 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ La Paragon è un pesante incrociatore da combattimento progettato con un equilib
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 128.000
-- **Velocità di base**: 230
-- **Slot laser**: 9
+- **Velocità di base**: 270
+- **Slot laser**: 10
 - **Slot extra**: 3
 - **Slot corazza**: 5
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
+<!-- wiki-i18n source: f16e7d6d09501326 -->
 <!-- wiki-i18n title: Açık Artırma -->
 # Açık Artırma {#auction}
 
@@ -16,7 +16,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Pazarı kullanmak (ilan vermek, satın almak ve teklif vermek) için **5. seviye** gerekir.
 - Bir ilan lot başına fiyatlanır, tam sayı kredi ya da tam sayı Thulium cinsinden (ikisi birden değil) ve asla türün en düşük fiyatının altında olamaz. **En yüksek fiyat yoktur**.
 - Thulium cinsinden bir fiyat, kredi cinsinden en düşük fiyatın 1.000 değerine bölünüp yukarı yuvarlanmış hâlinden az olamaz; bu yalnızca en düşük fiyatı 1 Thulium ya da daha fazla eden türler için geçerlidir. Oranın yaptığı tek şey budur: **1 Thulium = 1.000 kredi, en düşük fiyat için bir kuraldır, döviz kuru değildir.** Hiçbir şey takas edilmez, hiçbir değer gösterilmez ve kredi ile Thulium asla toplanmaz.
-- 102 tür ilana konabilir ve bunlardan 101 tanesi Thulium cinsinden de fiyatlanabilir.
+- 107 tür ilana konabilir ve bunlardan 106 tanesi Thulium cinsinden de fiyatlanabilir.
 - Bir ilan, seçtiğin gibi 168 / 336 / 504 saat sürer: seçenekler her seviyede aynıdır.
 - **İlan ücreti**, ilanın sürdüğü her 24 saat için fiyatın %0,25 kadarıdır, en az 50 kredi ya da 1 Thulium. Bunu ilan verirken ödersin; asla iade edilmez, iptal etsen bile.
 - Seviye 10 ve üzerinde ilan ücreti %0,4 olur.
@@ -26,7 +26,7 @@ Açık Artırma, istasyon menüsünün tek bir sayfasında hem pilotların pazar
 - Sezonun 28. gününden sıfırlamaya kadar ilan ücreti ve vergi yoktur.
 - Sezonun 30. gününden itibaren pazar, yeni sezon başlayana kadar kapalıdır: hiçbir şey ilana konamaz, satın alınamaz ya da teklif verilemez. İlanlarını yine de iptal edebilirsin.
 - Her para biriminin, 24 saat içinde satabileceğin ve satın alabileceğin tutar için kendi sınırı vardır (aşağıdaki seviye tablosu). Lot kazanımları sayılmaz.
-- İki pilot arasında, biri diğerinden alırken, 24 saatte en fazla 8.000.000 kredi ya da 40.000 Thulium geçebilir.
+- İki pilot arasında, biri diğerinden alırken, 24 saatte en fazla 16.000.000 kredi ya da 80.000 Thulium geçebilir.
 
 <!-- market-glance:end -->
 
@@ -57,7 +57,7 @@ Açık Artırma geldiğinde (0.4.12), Mağaza’nın satmadığı ve elinde zate
 | **Lazer Cephanesi** | Standard Battery (lot başına 100 adet), Siphon Battery (lot başına 10 adet), Advanced Plasma (lot başına 10 adet), Siphon Battery II (lot başına 10 adet), Antimatter Battery I (lot başına 10 adet), Ultra Core (lot başına 10 adet), Dark Matter Ammo I (lot başına 10 adet), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Roketler** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Sarf Malzemeleri** | EMP Charge, Energetic Wall II | 2 |
-| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Ekstralar** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Gövde Kaplaması** | Hull Plating II, Hull Plating III | 2 |
 | **Kaynaklar** | Cataclysite (lot başına 100 adet), Ship Fragment (lot başına 100 adet), Daraxium (lot başına 100 adet), Nyxite (lot başına 100 adet), Quorvium (lot başına 10 adet), Reinforced Hull Plate (lot başına 10 adet), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -100,22 +100,22 @@ Thulium cinsinden bir fiyat tek bir kurala uyar: kredi cinsinden en düşük fiy
 
 | Seviye | Açık ilanlar | En uzun ilan | Günlük, kredi | Günlük, Thulium | 24 saat başına ilan ücreti |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 sa | 4.500.000 | 22.500 | %0,25 |
-| 6 | 40 | 504 sa | 6.000.000 | 30.000 | %0,25 |
-| 7 | 70 | 504 sa | 7.500.000 | 37.500 | %0,25 |
-| 8 | 100 | 504 sa | 8.500.000 | 42.500 | %0,25 |
-| 9 | 100 | 504 sa | 10.000.000 | 50.000 | %0,25 |
-| 10 | 100 | 504 sa | 15.000.000 | 75.000 | %0,4 |
-| 11 | 100 | 504 sa | 15.000.000 | 75.000 | %0,4 |
-| 12 | 100 | 504 sa | 15.000.000 | 75.000 | %0,4 |
-| 13 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 14 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 15 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 16 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 17 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 18 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 19 | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
-| 20 ve üzeri | 100 | 504 sa | 20.000.000 | 100.000 | %0,4 |
+| 5 | 20 | 504 sa | 9.000.000 | 45.000 | %0,25 |
+| 6 | 40 | 504 sa | 12.000.000 | 60.000 | %0,25 |
+| 7 | 70 | 504 sa | 15.000.000 | 75.000 | %0,25 |
+| 8 | 100 | 504 sa | 17.000.000 | 85.000 | %0,25 |
+| 9 | 100 | 504 sa | 20.000.000 | 100.000 | %0,25 |
+| 10 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
+| 11 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
+| 12 | 100 | 504 sa | 30.000.000 | 150.000 | %0,4 |
+| 13 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 14 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 15 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 16 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 17 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 18 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 19 | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
+| 20 ve üzeri | 100 | 504 sa | 40.000.000 | 200.000 | %0,4 |
 
 <!-- market-limits:end -->
 
@@ -175,7 +175,7 @@ Bir şey satıldığında ya da emrin karşılandığında haberin olur: bir bil
 
 ## Saatlik Lotlar {#the-hourly-lots}
 
-Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç lot (aynı anda on iki lot açıktır), teklif için. Mağaza’nın istediğinden daha ucuza cephane almanın bir yoludur ve aynı zamanda ekonomiden para çeker: kazanan teklif yakılır. Yalnızca aşağıdaki gün tablosunda yazılı lotlar açılır (asla x1 ya da x4 cephane, asla Siphon Battery, asla özel bir roket). **Her lota kredi ile teklif verilir**, Mağaza mallarını ne cinsinden satarsa satsın: Mağaza’nın Thulium karşılığı sattığı bir mal lotu (örneğin x2 ve x3 cephane ile EMP Charge), o Thulium fiyatının kredi karşılığı olan değerle, Thulium başına 200 kredi hesabıyla açılır; böylece hiç Thulium’un olmadan her lota teklif verebilirsin. Elinde ne taşıdığına bakmadan herhangi bir lota teklif verebilirsin: kazandığın lot bütünüyle senindir, Mağaza’nın satın almana izin verdiği yığını aşsan bile.
+Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç lot (aynı anda on iki lot açıktır), teklif için. Mağaza’nın istediğinden daha ucuza cephane almanın bir yoludur ve aynı zamanda ekonomiden para çeker: kazanan teklif yakılır. Yalnızca aşağıdaki gün tablosunda yazılı lotlar açılır (asla x1 ya da x4 cephane, asla Siphon Battery, asla Mağaza’nın sattığı I. kademe bir roket ve asla özel bir roket). Roket lotları, Mağaza’nın satmadığı II. ve III. kademe roketlerdir. **Her lota kredi ile teklif verilir**, Mağaza mallarını ne cinsinden satarsa satsın: Mağaza’nın Thulium karşılığı sattığı bir mal lotu (örneğin x2 ve x3 cephane ile EMP Charge), o Thulium fiyatının kredi karşılığı olan değerle, Thulium başına 200 kredi hesabıyla açılır; böylece hiç Thulium’un olmadan her lota teklif verebilirsin. Elinde ne taşıdığına bakmadan herhangi bir lota teklif verebilirsin: kazandığın lot bütünüyle senindir, Mağaza’nın satın almana izin verdiği yığını aşsan bile.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -183,6 +183,7 @@ Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç l
 - Her UTC saatinin başında 3 yeni lot açılır, her biri farklı mallardan oluşur ve her biri 4 saat açık kalır; böylece aynı anda 12 lot açıktır.
 - Her dünyanın kendi lotları vardır: Alpha, Beta ve Gamma bu lotları her saat alır, aynı saatte farklı mallarla, büyüklüğü o dünyanın pilotlarına göre belirlenerek. Yalnızca uçtuğun dünyanın lotlarını görür, onlara teklif verir ve onları kazanırsın. Pilot pazarı ve alım emirleri üç dünya için ortaktır.
 - Açılış teklifi, malların Mağaza fiyatının %20 kadarıdır. Bundan sonraki bir teklif, en yüksek tekliften en az %5 ve en az 100 kredi daha fazla olmalıdır.
+- Mağaza’nın satmadığı II. veya III. kademe bir roketin açılış teklifi, değerinin, yani yapım maliyetinin %20 kadarıdır.
 - Teklifin hemen ödenir ve tutulur. Biri teklifini aşarsa hemen sana geri döner.
 - Bir lotun son 2 dk içinde verilen teklif, lotun bitişini tekliften 2 dk sonrasına taşır, en fazla 5 kez.
 - Kazandığın şey uçmak içindir, ticaret için değil: asla satılabilir olmaz. Kazanan teklif yakılır. Kimsenin teklif vermediği bir lot satılmaz ve kimseye bir maliyet getirmez.
@@ -196,78 +197,78 @@ Lotlar oyunun kendi teklifleridir: cephane, roket ve EMP Charge; her saat üç l
 
 | UTC saati | Lot | Tam büyüklük | Tam büyüklükte açılış teklifi |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1.250 | 125.000 kredi |
+| 00:00 | Scatter II | 450 | 126.180 kredi |
 | 00:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 00:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 01:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 01:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 01:00 | Scatter I | 1.250 | 125.000 kredi |
-| 02:00 | Lancet I | 12.500 | 1.250.000 kredi |
+| 01:00 | Scatter II | 450 | 126.180 kredi |
+| 02:00 | Lancet II | 4.450 | 1.247.780 kredi |
 | 02:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 02:00 | EMP Charge | 5 | 100.000 kredi |
 | 03:00 | EMP Charge | 5 | 100.000 kredi |
 | 03:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 03:00 | Lancet I | 12.500 | 1.250.000 kredi |
+| 03:00 | Lancet II | 4.450 | 1.247.780 kredi |
 | 04:00 | Ultra Core | 25.000 | 1.000.000 kredi |
 | 04:00 | Advanced Plasma | 25.000 | 500.000 kredi |
-| 04:00 | Rivet I | 12.500 | 1.250.000 kredi |
-| 05:00 | Rivet I | 5.000 | 500.000 kredi |
+| 04:00 | Rivet II | 4.450 | 1.247.780 kredi |
+| 05:00 | Rivet III | 550 | 495.880 kredi |
 | 05:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 05:00 | EMP Charge | 5 | 100.000 kredi |
 | 06:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 06:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 06:00 | Ember I | 5.000 | 500.000 kredi |
+| 06:00 | Ember III | 550 | 495.660 kredi |
 | 07:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 07:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 07:00 | Rivet I | 5.000 | 500.000 kredi |
-| 08:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 07:00 | Rivet III | 550 | 495.880 kredi |
+| 08:00 | Ember II | 4.450 | 1.247.780 kredi |
 | 08:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 08:00 | EMP Charge | 5 | 100.000 kredi |
 | 09:00 | Ultra Core | 50.000 | 2.000.000 kredi |
 | 09:00 | Advanced Plasma | 25.000 | 500.000 kredi |
-| 09:00 | Lancet I | 1.250 | 125.000 kredi |
-| 10:00 | Scatter I | 5.000 | 500.000 kredi |
+| 09:00 | Lancet III | 150 | 135.240 kredi |
+| 10:00 | Scatter III | 550 | 495.880 kredi |
 | 10:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 10:00 | EMP Charge | 5 | 100.000 kredi |
 | 11:00 | EMP Charge | 5 | 100.000 kredi |
 | 11:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 11:00 | Lancet I | 12.500 | 1.250.000 kredi |
+| 11:00 | Lancet II | 4.450 | 1.247.780 kredi |
 | 12:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 12:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 12:00 | Scatter I | 5.000 | 500.000 kredi |
-| 13:00 | Lancet I | 1.250 | 125.000 kredi |
+| 12:00 | Scatter III | 550 | 495.880 kredi |
+| 13:00 | Lancet III | 150 | 135.240 kredi |
 | 13:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 13:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 14:00 | Ultra Core | 10.000 | 400.000 kredi |
 | 14:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 14:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 14:00 | Ember II | 4.450 | 1.247.780 kredi |
 | 15:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 15:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 15:00 | Lancet I | 1.250 | 125.000 kredi |
+| 15:00 | Lancet III | 150 | 135.240 kredi |
 | 16:00 | Ultra Core | 50.000 | 2.000.000 kredi |
 | 16:00 | Advanced Plasma | 10.000 | 200.000 kredi |
-| 16:00 | Ember I | 5.000 | 500.000 kredi |
-| 17:00 | Rivet I | 12.500 | 1.250.000 kredi |
+| 16:00 | Ember III | 550 | 495.660 kredi |
+| 17:00 | Rivet II | 4.450 | 1.247.780 kredi |
 | 17:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 17:00 | EMP Charge | 5 | 100.000 kredi |
 | 18:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
 | 18:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 18:00 | Scatter I | 5.000 | 500.000 kredi |
-| 19:00 | Ember I | 5.000 | 500.000 kredi |
+| 18:00 | Scatter III | 550 | 495.880 kredi |
+| 19:00 | Ember III | 550 | 495.660 kredi |
 | 19:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 19:00 | EMP Charge | 5 | 100.000 kredi |
 | 20:00 | Ultra Core | 25.000 | 1.000.000 kredi |
 | 20:00 | Advanced Plasma | 25.000 | 500.000 kredi |
-| 20:00 | Rivet I | 12.500 | 1.250.000 kredi |
+| 20:00 | Rivet II | 4.450 | 1.247.780 kredi |
 | 21:00 | Advanced Plasma | 25.000 | 500.000 kredi |
 | 21:00 | Ultra Core | 25.000 | 1.000.000 kredi |
-| 21:00 | Rivet I | 5.000 | 500.000 kredi |
+| 21:00 | Rivet III | 550 | 495.880 kredi |
 | 22:00 | Advanced Plasma | 10.000 | 200.000 kredi |
 | 22:00 | Ultra Core | 50.000 | 2.000.000 kredi |
-| 22:00 | Scatter I | 1.250 | 125.000 kredi |
+| 22:00 | Scatter II | 450 | 126.180 kredi |
 | 23:00 | EMP Charge | 5 | 100.000 kredi |
 | 23:00 | Advanced Plasma | 50.000 | 1.000.000 kredi |
-| 23:00 | Ember I | 12.500 | 1.250.000 kredi |
+| 23:00 | Ember II | 4.450 | 1.247.780 kredi |
 
 <!-- market-day:end -->
 

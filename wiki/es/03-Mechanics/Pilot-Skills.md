@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Destrezas de piloto -->
 # Destrezas de piloto {#pilot-skills}
 
@@ -15,11 +15,11 @@ Un piloto nuevo no tiene toda su fuerza. En el nivel 1 un láser y un cohete hac
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estadísticas**: 18 estadísticas: 4 atributos y 14 destrezas en 5 grupos
+- **Estadísticas**: 19 estadísticas: 4 atributos y 15 destrezas en 5 grupos
 - **Niveles**: De 1 a 100. Todo piloto empieza cada estadística en el nivel 1, y no hay nada que gastar ni que reasignar
 - **Coste de un nivel**: 40 XP del nivel 1 al 2, 875 XP del nivel 50 al 51, 19.157 XP del nivel 99 al 100; 313.258 XP en total
 - **Lo que da un nivel**: Un bonificador crece en línea recta desde su valor en el nivel 1 hasta su valor en el nivel 100. Nada tiene límite
-- **Tu láser en el nivel 1**: Hace el 80 % de su daño y acierta el 80 % de las veces, es decir, el 64 % del daño que indican las páginas de objetos
+- **Tu láser en el nivel 1**: Hace el 100 % de su daño y acierta el 80 % de las veces, es decir, el 80 % del daño que indican las páginas de objetos
 - **Tu cohete en el nivel 1**: Hace el 100 % de su daño y falla al encenderse el 10 % de las veces, es decir, el 90 % del daño que indican las páginas de objetos
 - **Esquiva**: La nave de todo piloto esquiva el 3 % de los impactos que se pueden esquivar, antes de que ninguna destreza o formación sume
 - **Nivel de casco**: La rareza de tu nave lo fija, como muestra la tabla de abajo. El tamaño de tu bodega y la XP de la Masa lo siguen
@@ -50,20 +50,20 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 
 | Estadística | Qué cambia | Nivel 1 | Nivel 100 |
 | :--- | :--- | ---: | ---: |
-| **Masa** | Casco | +0 % | +10 % |
-| **Temple** | Daño recibido | ×1 | ×0,9 |
-| **Reflejos** | Velocidad de recarga de habilidades | ×1 | ×1,11 |
-| **Instinto** | Probabilidad de cada línea de botín | +0 puntos | +5 puntos |
+| **Masa** | Casco | +0 % | +20 % |
+| **Temple** | Daño recibido | ×1 | ×0,92 |
+| **Reflejos** | Velocidad de recarga de habilidades | ×1 | ×1,1 |
+| **Instinto** | Probabilidad de cada línea de botín | +0 puntos | +7,5 puntos |
 |  | Orvium y Velkonite de los colectores | ×1 | ×1,5 |
 
 ### Armas {#weapons}
 
 | Estadística | Qué cambia | Nivel 1 | Nivel 100 |
 | :--- | :--- | ---: | ---: |
-| **Tecnología láser** (Reflejos) | Daño láser | ×0,8 | ×1,1 |
-|  | Probabilidad de que una ráfaga láser acierte | 80 % | 90 % |
+| **Tecnología láser** (Reflejos) | Daño láser | ×1 | ×1,3 |
+|  | Probabilidad de que una ráfaga láser acierte | 80 % | 89 % |
 | **Tecnología de cohetes** (Reflejos) | Daño de cohete | ×1 | ×1,3 |
-|  | Probabilidad de que un cohete falle al encenderse | 10 % | 0 % |
+|  | Probabilidad de que un cohete falle al encenderse | 10 % | 1 % |
 | **Antimateria** (Instinto) | Dark Matter de las recogidas | ×1 | ×1,25 |
 
 ### Combate {#combat}
@@ -76,13 +76,14 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 |  | Duración de los venenos | ×1 | ×1,2 |
 | **Evasión** (Reflejos) | Probabilidad de esquivar un golpe, sumada a la propia de la nave | 0 % | 15 % |
 | **Táctica** (Reflejos) | Duración de las habilidades | ×1 | ×1,2 |
+| **Absorción de escudo** (Temple) | Absorción de tus escudos | +0 puntos | +5 puntos |
 
 ### Control de la nave {#ship-control}
 
 | Estadística | Qué cambia | Nivel 1 | Nivel 100 |
 | :--- | :--- | ---: | ---: |
 | **Tecnología de radiación** (Temple) | Dosis de radiación | ×1 | ×0,4 |
-| **Teoría de propulsores** (Masa) | Velocidad | +0 % | +15 % |
+| **Teoría de propulsores** (Masa) | Velocidad | +0 % | +10 % |
 | **Ciencia** (Instinto) | Ciencia por cada unidad de combustible | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 
 - **Láseres.** La Tecnología láser cambia el daño de cada ráfaga y la probabilidad de que acierte; una ráfaga que se desvía muestra un «Miss» flotante y gasta igualmente su munición ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). El alcance de tus láseres es el de tu nave: la Puntería sube con tus impactos con munición distinta de la simple x1, pero solo actúa sobre las Mines (abajo).
 - **Cohetes.** La Tecnología de cohetes cambia el daño de cada cohete y la probabilidad de que uno falle al encenderse ([Tecnología de cohetes](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, y la Evasión aumenta la probabilidad de que un impacto directo no haga nada ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
+- **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, la Evasión aumenta la probabilidad de que un impacto directo no haga nada y la Absorción de escudo aumenta la parte de un impacto que se llevan tus escudos ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
 - **Habilidades.** Los Reflejos acortan el enfriamiento de tus habilidades y la Táctica hace que duren más ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). El Sabotaje refuerza los venenos.
 - **Mines.** El Sabotaje aumenta el daño de una Mine, y la Puntería la lanza más rápido y más lejos ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidad.** La Teoría de propulsores suma a tu velocidad, además de los motores y un Afterburner ([Velocidad](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ La tabla indica qué paga XP, estadística por estadística. La XP es por cada u
 |  | Cada ráfaga que alcanza a una nave | 0,1 |  |
 | **Tecnología de cohetes** (Reflejos) | Cada cohete que lanzas | 0,15 | 130 cohetes por hora |
 |  | Cada cohete que alcanza a una nave (una vez por cohete, a cuantas naves hiera su explosión) | 0,3 |  |
-| **Antimateria** (Instinto) | Cada unidad de Dark Matter que recibes al recoger | 0,1 | Ninguno |
+| **Antimateria** (Instinto) | Cada unidad de Dark Matter que recibes al recoger | 2,2 | Ninguno |
 | **Puntería** (Reflejos) | Cada impacto de una ráfaga disparada con munición distinta de la simple x1 (×1,5 durante los primeros 10 min de cada tipo de munición en una hora del reloj) | 0,1 | 3.000 impactos por hora |
 |  | Cada impacto de una Mine y cada segundo que un enemigo pasa en tu Energetic Wall | 0,1 |  |
 | **Sabotaje** (Reflejos) | Cada impacto de una Mine y cada segundo que un enemigo pasa en tu Energetic Wall | 0,5 | 1.200 XP por hora |
 |  | Cada segundo que un veneno tuyo actúa sobre un enemigo | 0,05 |  |
 | **Evasión** (Reflejos) | Cada ataque hostil contra ti que falla o es esquivado | 1 | 600 XP por hora |
 | **Táctica** (Reflejos) | Cada habilidad que pulsas con un hostil al alcance del láser | 2 | 600 XP por hora |
+| **Absorción de escudo** (Temple) | Cada 1 % de tu escudo máximo que absorben los impactos enemigos | 0,1 | 300 XP por hora |
 | **Tecnología de radiación** (Temple) | Cada segundo dentro de una banda de radiación | 0,2 | Ninguno |
 |  | Cada 1 % de tu casco máximo que quita la radiación | 1 |  |
 | **Teoría de propulsores** (Masa) | Cada segundo volado por encima del 80 % de la velocidad de tu nave, el doble con un Afterburner | 0,1 | Ninguno |
@@ -184,7 +186,9 @@ Un nivel cuesta más XP que el anterior, en una proporción fija, así que los p
 
 ## La página Destrezas de piloto {#the-pilot-skills-page}
 
-La página **Destrezas de piloto** es una página de la estación, con una fila propia en la barra lateral. Muestra todo el árbol: los atributos y las destrezas en sus grupos, cada una con su nivel. Elige una estadística para ver qué hace, qué atributo la rige, qué destrezas entrena, su barra de XP y qué la hace crecer, y usa el control deslizante para previsualizar cualquier nivel del 1 al último: una pequeña tabla da lo que la estadística cambia en el nivel que previsualizas y en tu nivel actual. Una estadística que aún no ha ganado XP aparece como sin usar, con un guion como nivel. La fila de la barra lateral lleva una insignia cuando una estadística ha subido de nivel desde la última vez que abriste la página, y una tarjeta de la ventana de Potenciadores resume lo que cambian tus destrezas.
+La página **Destrezas de piloto** es una página de la estación, con una fila propia en la barra lateral. Es una hoja compacta de todo el árbol: los atributos y los cinco grupos de destrezas están uno junto a otro en columnas (tres en una pantalla ancha, menos en una estrecha), con una línea por estadística, su nivel en el borde derecho y una fina barra de XP debajo. Una estadística que aún no ha ganado XP aparece en gris, con un guion como nivel. Deja el puntero sobre una línea para ver qué hace la estadística, qué atributo la rige o qué destrezas entrena, su XP y qué la hace crecer. Haz clic en una línea para abrir sus detalles bajo su fila de columnas: las mismas palabras, la barra de XP y un control deslizante para previsualizar cualquier nivel del 1 al último, con una pequeña tabla de lo que la estadística cambia en el nivel 1, en tu nivel actual, en el nivel que previsualizas y en el último nivel. Solo hay una estadística abierta a la vez; haz clic otra vez en la línea, usa el botón de cerrar o pulsa Esc para guardarla. La fila de la barra lateral lleva una insignia cuando una estadística ha subido de nivel desde la última vez que abriste la página, y una tarjeta de la ventana de Potenciadores resume lo que cambian tus destrezas.
+
+En vuelo, la misma hoja es la ventana **Destrezas de piloto**. Ábrela con el botón Destrezas de piloto de la barra de herramientas (en una pantalla ancha) o con su tecla, K por defecto (Configuración, Controles). Es una ventana como las demás: muévela, cambia su tamaño, y recuerda su lugar y si estaba abierta. Solo muestra tus destrezas: los niveles avanzan a medida que llegan las líneas de XP del vuelo, y un clic en una línea abre los mismos detalles dentro de la ventana.
 
 ## Qué se conserva {#what-is-kept}
 

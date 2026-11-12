@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b1349c235aad6a2 -->
+<!-- wiki-i18n source: 4916e76f267d67da -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -12,19 +12,19 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 
 | Design | Was es ändert | Hülle | Grundtempo | Laser-Slots |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % Basis-Hülle, +40 Basis-Tempo, +1 Laser-Slot | 96.000 | 270 | 10 |
-| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, -1 Laser-Slot, +10 % Schildabsorption, +20 % Modellgröße | 160.000 | 210 | 8 |
-| **Paragon LICH** | +1 % Schildregeneration pro Sekunde | 128.000 | 230 | 9 |
-| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink | 162.000 | 310 | 14 |
-| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod | 180.000 | 210 | 16 |
-| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon | 144.000 | 260 | 13 |
-| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 600.000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 500.000 | 110 | 10 |
-| **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 14 |
-| **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 13 |
-| **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 13 |
-| **Wraith ATARAXIS** | -1 Laser-Slot, +1 Support-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser | 256.000 | 210 | 15 |
+| **Paragon THUNDER** | -25 % Basis-Hülle, +40 Basis-Tempo, +1 Laser-Slot | 96.000 | 310 | 11 |
+| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, -1 Laser-Slot, +10 % Schildabsorption, +20 % Modellgröße | 160.000 | 250 | 9 |
+| **Paragon LICH** | +1 % Schildregeneration pro Sekunde | 128.000 | 270 | 10 |
+| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink | 162.000 | 400 | 15 |
+| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod | 180.000 | 300 | 17 |
+| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon | 144.000 | 350 | 14 |
+| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 600.000 | 80 | 5 |
+| **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 500.000 | 100 | 10 |
+| **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 15 |
+| **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 14 |
+| **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 14 |
+| **Wraith ATARAXIS** | -1 Laser-Slot, +1 Support-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff | 256.000 | 210 | 13 |
+| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser | 256.000 | 210 | 16 |
 
 ## Ein Design bekommen {#getting-a-design}
 
@@ -35,10 +35,10 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 5 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100.000 | 20 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100.000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100.000 | 24 | 50 | 100 | 15 | 5 |
@@ -58,12 +58,12 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | Schiff | Panzerungs-Slots | Zeit für die Slots | Dark Matter für die Slots | Designs | Zeit für die Designs | Dark Matter für die Designs |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
-| **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
+| **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Alle vier** | 37 | 37 h | 370 | 13 | 130 h | 130 |
+| **Alle vier** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Zusammen verlangen sie 500 Dark Matter zusätzlich zu den 759, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.374 für jede Technologie des Spiels.
+Zusammen verlangen sie 510 Dark Matter zusätzlich zu den 789, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.384 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97e289c94edbe6a9 -->
+<!-- wiki-i18n source: c73b28d296c8468b -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 ## Egy percben {#in-one-minute}
 
 - **A Dark Matter erőforrás, és mindenhol egyszerűen Dark Matternek hívják.** A Veszélyes szektor 4 (`DS-4`) közepén lévő feketelyuk állítja elő: minden N.I.K.E. rakéta, amely eléri a lyukat, 1–3 Dark Mattert ad vissza (átlagosan 2-t), kis ládákban a zónája szélén.
-- **Mire jó.** A Kutatóközpont 109 technológiája kéri, egyenként 5–60-at, összesen 1 374-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
+- **Mire jó.** A Kutatóközpont 110 technológiája kéri, egyenként 5–60-at, összesen 1 384-et, és a Gyártás ebből sajtolja a Dark Matter Plate-et. A szezon 11. napjától egy [óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md) is égeti, üzemanyagként: egy tartály néhány Dark Matter, és elvész, ha a kotrógép megsemmisül. A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 - **A Kutatóközpontban** a raktérből adsz hozzá Dark Mattert (leszállt hajóval), mielőtt az Indítás gombra nyomnál. A kutatás induláskor elveszi.
 - **A Dark Matter Plate más tárgy.** Előbb kutasd ki a receptjét (a fa Erőforrások csoportja: 1 nap és 10 Dark Matter), aztán gyárts belőle a Gyártásban 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból.
 - **Mire jó egy plate.** Minden fejlesztési lánc utolsó szintje **4-et** kér, és legalább egy Ancient Control Unitot. Ezek a IV. szintű amp-ok, pajzscellák és fúvókák, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II (13 darab). A Kovácsműhely 2-t kér belőle ahhoz, hogy egy tárgy az Isteni fokozatról a Repesztőre lépjen, és újabb 2-t a Repesztőről az Örökre. A Skylab hajtómű-, védelmi és radarmodulja is kér lemezeket az építéshez és a fejlesztéshez ([Erőforrások](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 | **Mi ez** | Egy Epikus erőforrás | Egy Mitikus erőforrás |
 | **Honnan jön** | A feketelyuk a 4. veszélyes szektorban, a belelőtt N.I.K.E. rakétákért; egy kevés a Dormant-rajtól és a Dormant Swamp Inert Masseitől, sokkal több a 4. veszélyes szektor Tesseractjától | A Gyártás, 5 Dark Matterből, egy Velkonite Reinforced Plate-ből, egy Orvium Reinforced Plate-ből és 250 Thuliumból sajtolva |
 | **Mit teszel előbb** | Kikutatod a N.I.K.E.-t (3 óra, Dark Matter nélkül), és gyártasz belőle | Kikutatod a plate receptjét (1 nap, 10 Dark Matter) |
-| **Mire jó** | A kutatások költsége (109 technológia, összesen 1 374) és a plate | Minden fejlesztési lánc utolsó szintje: 4 a 13 darab mindegyikéhez; a Master Drone fejlesztése: 10; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
+| **Mire jó** | A kutatások költsége (110 technológia, összesen 1 384) és a plate | Minden fejlesztési lánc utolsó szintje: 4 a 13 darab mindegyikéhez; a Master Drone fejlesztése: 10; a Kovácsműhely: 2 a két legfelső lépcsője mindegyikéhez |
 
 ## Hogyan szerezz Dark Mattert {#how-to-get-dark-matter}
 
@@ -49,7 +49,7 @@ Nagyjából **5 rakéta ad 10 Dark Mattert**. A Resource Magnet Booster nem tesz
 
 ## Dark Matter a Kutatóközpontban {#in-the-research-centre}
 
-A fa csúcsán lévő technológiák a tudományuk mellett Dark Mattert is kérnek: **10-et** a 17 legfelső technológia mindegyikéhez, és **5-öt, 13-at vagy 20-at** a 16 drónformáció mindegyikéhez (minél erősebb a formáció, annál többet). A Hull Plating két kutatása **25-öt és 40-et** kér, a hajótechnológiák, a 13 dizájn és a 37 páncélzatfoglalat pedig egyenként **10-et**. A Skylab hajtómű-, védelmi és radarmodulja a második szinttől kezdve szintenként **5, 10, 15 vagy 20** Dark Mattert kér, összesen 115-öt ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). A [Kutatás](/wiki/03-Mechanics/Research.md#dark-matter) táblázatai az összes többit felsorolják.
+A fa csúcsán lévő technológiák a tudományuk mellett Dark Mattert is kérnek: **10-et** a 17 legfelső technológia mindegyikéhez, és **5-öt, 13-at vagy 20-at** a 16 drónformáció mindegyikéhez (minél erősebb a formáció, annál többet). A Hull Plating két kutatása **25-öt és 40-et** kér, a hajótechnológiák, a 13 dizájn és a 38 páncélzatfoglalat pedig egyenként **10-et**. A Skylab hajtómű-, védelmi és radarmodulja a második szinttől kezdve szintenként **5, 10, 15 vagy 20** Dark Mattert kér, összesen 115-öt ([Kutatás](/wiki/03-Mechanics/Research.md#module-technologies)). A [Kutatás](/wiki/03-Mechanics/Research.md#dark-matter) táblázatai az összes többit felsorolják.
 
 1. **Nyisd meg a Kutatás nézetet** a Skylabodban az állomáson, és válaszd ki a technológiát. A kártyáján van egy **Dark Matter** sor: mennyi van a Központban, mennyiből, amennyit kér (például 3 / 10).
 2. **Nyomj a Hozzáadás gombra.** A raktérből Dark Mattert visz a Kutatóközpontba, annyit, amennyi hiányzik, amennyire nálad van. A hajódnak le kell szállnia. A **Visszavétel** visszaadja a raktérbe.
@@ -93,11 +93,11 @@ Egy plate-et 5 Dark Matterből, egy Velkonite és egy Orvium Reinforced Plate-b�
 | Amit építesz | Utolsó szintű darabok | Plate-ek | Dark Matter | N.I.K.E. rakéták, átlagosan |
 | :--- | ---: | ---: | ---: | ---: |
 | Egy utolsó szintű darab | 1 | 4 | 20 | 10 |
-| Egy Helios Beam a 3 IV. szintű ampjával | 4 | 16 | 80 | 40 |
-| Egy Paragon | 44 | 176 | 880 | 440 |
-| Egy Wraith | 64 | 256 | 1 280 | 640 |
+| Egy Helios Beam a 4 IV. szintű ampjával | 5 | 20 | 100 | 50 |
+| Egy Paragon | 58 | 232 | 1 160 | 580 |
+| Egy Wraith | 82 | 328 | 1 640 | 820 |
 
-Egy Paragon 44 darabja a 9 lézere, azok 27 erősítője és a 8 generátor- és támogató foglalata (3 + 3 + 2); egy Wraith 64 darabja a 13 lézere, azok 39 erősítője és a 12 generátor- és támogató foglalata (4 + 4 + 4).
+Egy Paragon 58 darabja a 10 lézere, azok 40 erősítője és a 8 generátor- és támogató foglalata (3 + 3 + 2); egy Wraith 82 darabja a 14 lézere, azok 56 erősítője és a 12 generátor- és támogató foglalata (4 + 4 + 4).
 
 ## Mennyi kell {#how-much-you-need}
 
@@ -107,7 +107,7 @@ Egy Paragon 44 darabja a 9 lézere, azok 27 erősítője és a 8 generátor- és
 | Egy Dark Matter Plate | 5 | 2,5 |
 | Egy Kovácsműhely-lépés két plate-je | 10 | 5 |
 | Egy utolsó szintű darab négy plate-je | 20 | 10 |
-| Minden technológia, amely Dark Mattert kér | 1 374 | 687 |
+| Minden technológia, amely Dark Mattert kér | 1 384 | 692 |
 
 Egy első fejlesztés a semmiből a recept (10) és két plate (10): 20 Dark Matter, nagyjából 10 N.I.K.E. rakéta, vagyis két gyártás. Egy első IV. szintű erősítő a semmiből a plate receptje (10), az erősítő saját technológiája (10) és 4 plate (20): 40 Dark Matter, nagyjából 20 N.I.K.E. rakéta.
 

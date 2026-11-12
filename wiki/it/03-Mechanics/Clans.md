@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Clan -->
 # Clan {#clans}
 
@@ -66,6 +66,8 @@ Il Leader e i Co-leader possono chiedere due cose a un pilota che vuole entrare:
 - **Un grado minimo**: una fascia dei gradi di corporazione, da **Pilota** (nessun requisito) ad **Ammiraglio**: Pilota, Sergente, Tenente, Capitano, Maggiore, Colonnello, Generale, Ammiraglio ([Gradi](/wiki/03-Mechanics/Ranks.md)). Una fascia conta dal suo grado più basso: un clan che chiede Capitano accetta un Capitano junior e ogni pilota sopra di lui. È il grado che hai adesso nella classifica della tua corporazione, non il mondo in cui voli.
 
 Vengono controllati quando un pilota **si candida o entra**. L’**invito** di un ufficiale li salta, come anche una richiesta che un ufficiale accetta. Il registro delle flotte li mostra come piccole capsule sotto il nome del clan, in rosso quella che non soddisfi; un clan che non ha impostato nulla non chiede nulla.
+
+**Una richiesta alla volta.** Una richiesta in attesa compare come **Inviata** nel **registro delle flotte** e sulla pagina del clan, anche dopo aver chiuso e riaperto il menu, e il suo pulsante resta grigio. Una seconda richiesta allo stesso clan risponde «Richiesta già in sospeso» e non invia nulla. Se un ufficiale del clan rifiuta la tua, puoi fare di nuovo richiesta a quel clan dopo **60 secondi**, e puoi inviare al massimo **5 richieste** in qualsiasi arco di 10 minuti, a tutti i clan insieme.
 
 ---
 
@@ -193,6 +195,12 @@ Il pulsante **Chi è online** nella barra degli strumenti di sistema (in alto a 
 - **Ricerca.** Scrivi una parte di un nome o di un tag di clan; la finestra interroga di nuovo il server quando l’elenco era stato tagliato.
 - **Invita.** Il pulsante **Invita** di una riga è l’invito proprio della finestra Gruppo ([Gruppi](/wiki/03-Mechanics/Groups.md)), con le stesse risposte e gli stessi rifiuti (il pilota è in un gruppo, il gruppo è pieno, Non disturbare è attivo). Il pulsante è grigio, con il motivo al passaggio del mouse, quando il gioco sa già che l’invito verrebbe rifiutato.
 - L’elenco viene riletto ogni 10 secondi finché la finestra è aperta.
+
+---
+
+## Chat del clan {#clan-chat}
+
+La scheda **Clan** della chat ([Canali della chat](/wiki/03-Mechanics/Groups.md#chat-channels), il comando `/c`) è solo per i membri del tuo clan. Il server ne conserva le ultime **200 righe**, nessuna più vecchia di **14 giorni**, così un membro che non era online le trova quando accede o entra: la più vecchia per prima, sotto una riga che dice per quanto tempo la chat viene conservata, con la data sulle righe dei giorni precedenti. Chi lascia il clan o viene espulso non ne riceve più nulla. Quando il clan viene sciolto, dal suo Leader o con [il reset](#the-wipe-disbands-every-clan), le sue righe vengono cancellate con lui.
 
 ---
 

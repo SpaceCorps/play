@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Sköldar -->
 # Sköldmekanik {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 - **Shield Absorbance Boost**: en permanent buff i säsongsbutiken som köps med wipepoäng, **+0,1 punkter per nivå, högst +10 punkter** (100 nivåer, 25 WP var). Den lägger fasta punkter på ditt skepps absorption, lika på alla skepp med sköld: 91 % blir 91,4 % med 4 nivåer (100 WP), och de 45 % som en Light Shield Core har blir 46,2 % med 12 nivåer (300 WP). Ett skepp utan sköld utrustad stannar på 0 %. De 100 nivåerna kostar 2 500 WP, ett mål för flera wipes: källorna till wipepoäng (milstolparna för nedskjutningar, uppdragen och de fem Dormant Knowledge-forskningarna) betalar upp till 1 105 WP i en wipe och börjar om vid varje wipe, din grad lägger till 5 till 400 vid wipen, och 1 105 köper 44 nivåer, +4,4 punkter. Se [Säsong och wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Smedjan**: sköldar och sköldceller kan få en bonus på **absorption**, som multiplicerar värdet: +5 % på en sköld med 55 % är +2,75 punkter. En fullt smidd bästa uppsättning på nivån Evig (kärna och tre celler, varje bonus slumpad till högsta nivå, +15 %) ger upp till 13,65 punkter, i snitt omkring 11 (se [Smedjan](/wiki/06-Items/Forge.md)).
 - **Field Theory**: Pilot-forskningen Field Theory I, II och III ([Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies)) lägger **+4, +7 och +10 punkter** på absorptionen hos alla dina skepp, sammanlagt och inte varje nivå ovanpå den förra, mot krediter, Thulium och Dark Matter. Liksom säsongsbutikens buff är det fasta punkter på alla skepp med sköld, och de finns kvar efter wipen.
+- **Sköldabsorption**: [pilotfärdigheten](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) lägger på nivå 100 upp till **+5 punkter** på den absorption som ditt skepp har av allt ovan, utan tak för summan: ett skepp på 119 % hamnar på 124 %, och ett skepp utan utrustad sköld stannar på 0 %. Den ingår inte i siffrorna under **Tillsammans**.
 - **Tillsammans**: 91 % rakt ur lådan, +4,4 punkters buff (en wipes 1 105 wipepoäng), upp till +13,65 punkter i bonusar från Smedjan och +10 punkter från Field Theory III blir som mest **119,05 %** efter en wipe på ett vanligt skepp, utan [design](/wiki/03-Mechanics/Ship-Designs.md) och utan [formation](/wiki/03-Mechanics/Formations.md); med alla buffens 100 nivåer (+10 punkter, 2 500 WP) skulle det bli 124,65 %. En design med +10 % sköldabsorption (Paragon BUCKY, Ironclad DUMA, Wraith ATARAXIS) och formationen Rampart (+17 %) multiplicerar sköldarnas absorption innan buffens och Field Theorys fasta punkter läggs till; samma skepp med båda når därför **149,1 %** efter en wipe (154,7 % med alla 100 nivåer). Var och en av de tre går förbi 100 % på egen hand: buffen vid sin gräns och Field Theory III ger 101 %, en uppsättning på nivån Evig med de bästa slumpvärdena 104,65 %; en uppsättning på nivån Evig tillsammans med Field Theory III når 109 till 115 %, och buffens nivåer kommer ovanpå. Alla dessa siffror räknar bara källorna till wipepoäng, inte de 5 till 400 wipepoäng som din grad betalar vid wipen och som köper fler nivåer av buffen.
 
 ### Sköldförstärkningar: kapacitet, absorption, laddning {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Vissa attacker har en **sköldgenomträngning**: punkter som dras av från din a
 Varje sköldförstärkning höjer ett av de tre värdena och listas under sin egen sort i fönstret Boosters:
 
 - **Kapacitet** (maximala sköldpoäng): Shield Wall Booster I och II och den permanenta förstärkningen Shield Capacity Boost.
-- **Absorption** (den andel av en träff som dina sköldar tar): den permanenta förstärkningen Shield Absorbance Boost (+0,1 punkter per nivå, högst +10 punkter).
+- **Absorption** (den andel av en träff som dina sköldar tar): den permanenta förstärkningen Shield Absorbance Boost (+0,1 punkter per nivå, högst +10 punkter) och pilotfärdigheten Sköldabsorption (upp till +5 punkter).
 - **Laddning** (sköldpoäng som återställs per sekund): Shield Regen Booster.
 
 Se [Boosters](/wiki/06-Items/Boosters.md) för siffrorna.

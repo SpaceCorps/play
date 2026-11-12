@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -47,18 +47,21 @@ Une élimination compte aussi pour les **missions d’élimination** de tous les
 
 ## Canaux de chat {#chat-channels}
 
-Le chat a une rangée d’onglets en haut : **Global**, **Local**, **Groupe** (tant que vous êtes dans un groupe) et, en dernier, **Système**. La ligne que vous saisissez part vers l’onglet affiché, et le dernier onglet utilisé est mémorisé. Chaque canal a sa couleur et un court tag sur chaque ligne (GLB, LOC, GRP), un onglet compte les lignes non lues, et le bouton du chat dans la barre d’outils affiche ce compte tant que la fenêtre est fermée. Ou commencez une ligne par une commande :
+Le chat a une rangée d’onglets en haut : **Global**, **Local**, **Groupe** (tant que vous êtes dans un groupe), **Clan** (tant que vous êtes dans un clan) et, en dernier, **Système**. La ligne que vous saisissez part vers l’onglet affiché, et le dernier onglet utilisé est mémorisé. Chaque canal a sa couleur et un court tag sur chaque ligne (GLB, LOC, GRP), un onglet compte les lignes non lues, et le bouton du chat dans la barre d’outils affiche ce compte tant que la fenêtre est fermée. Ou commencez une ligne par une commande :
 
 | Canal | Qui l’entend | Commande |
 | :--- | :--- | :--- |
 | **Local** | les pilotes de votre carte | `/l` ou `/local` |
 | **Global** | tous les pilotes de tous les serveurs et de tous les mondes | `/g` ou `/global` |
 | **Groupe** | votre groupe sur votre serveur, où qu’il soit | `/p`, `/party` ou `/group` |
+| **Clan** | les pilotes de votre clan sur le serveur d’origine ; ce qui se dit est conservé pour ceux qui ne sont pas connectés | `/c` ou `/clan` |
 | **Privé** | un seul pilote de votre serveur, où qu’il soit | `/m`, `/msg` ou `/w`, puis le nom et le message ([plus bas](#private-messages)) |
 
 Une commande change aussi d’onglet, et saisie seule (`/g`) elle ne fait que changer d’onglet. Le chat de groupe nécessite un groupe. Sur un serveur de jeu antérieur aux canaux, le chat reste la liste unique qu’il était, et on ne peut pas former de groupe.
 
 **Global** est un seul chat pour tout le jeu : votre ligne est entendue de tous les pilotes de tous les serveurs et de tous les mondes, en vol comme à la station. Une ligne venue d’un autre serveur peut arriver un instant après son envoi, et des pilotes de serveurs différents peuvent voir deux lignes presque simultanées dans un ordre différent. Laissez le pointeur sur le nom d’un pilote : la carte qui s’ouvre dit aussi sur quel serveur il vole, quand ce n’est pas le vôtre. Les autres canaux restent sur le serveur où vous êtes : **Local** désigne les pilotes de votre carte, le chat de groupe et les messages privés n’atteignent que les pilotes de votre serveur, et le [fil des éliminations](#the-kill-feed) et les lignes **Système** (les annonces du serveur) appartiennent à chaque serveur. Si un serveur perd sa liaison avec les autres, son Global se réduit à ses propres pilotes jusqu’au retour de la liaison ; une courte coupure est rattrapée avec retard, et ce qui a été dit pendant une plus longue n’est pas redit ensuite.
+
+**Clan** est le seul canal que le jeu conserve. Une ligne que vous y écrivez atteint tous les membres de votre clan connectés au serveur d’origine, à une station ou en vol, et le serveur garde les **200** dernières lignes du clan, aucune de plus de **14 jours**. Celui qui se connecte, rejoint le clan ou ouvre l’onglet Clan les reçoit, la plus ancienne d’abord, sous une ligne qui dit combien de temps le chat est conservé ; une ligne d’un jour précédent affiche sa date avec l’heure, et les lignes lues ainsi ne comptent pas comme non lues. Celui qui quitte le clan ou en est renvoyé n’en reçoit plus rien, et quand le clan est dissous, par son Chef ou par la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md), ses lignes sont supprimées avec lui. Les règles du chat ([Les règles du chat](#the-chat-rules)) sont les mêmes que dans les autres canaux, ignorer un pilote masque ses lignes de clan, et une ligne de clan peut être signalée comme n’importe quelle autre. Sur un serveur régional, il n’y a pas d’onglet Clan, et `/c` indique que le chat du clan n’est disponible que sur le serveur d’origine.
 
 L’onglet **Système** est doré et en lecture seule, avec sa propre liste : il contient ce que le serveur dit de lui-même (l’accueil, les avertissements de redémarrage, de mise à jour et de réinitialisation, les annonces d’essaims) et ce que signale votre vaisseau (réparations, occultation, EMP, roquettes). Ces lignes ne figurent dans aucun autre onglet : un Global très animé ne peut donc pas les repousser, et les autres onglets contiennent ce que disent les pilotes. Le compteur de l’onglet ne compte que les annonces ; un compte à rebours de redémarrage ou de mise à jour et les avertissements de réinitialisation s’affichent aussi un instant sous forme de notification. Le [fil des éliminations](#the-kill-feed) reste dans **Global**, avec son propre réglage, et les lignes indiquant qu’un pilote rejoint ou quitte votre groupe sont dans **Groupe**.
 
@@ -114,7 +117,7 @@ Votre liste d’ignorés et le réglage Masquer Global sont conservés avec votr
 
 ## Règles d’engagement {#rules-of-engagement}
 
-**Les membres d’un même groupe ne peuvent pas se blesser**, quelles que soient leurs corporations : vous ne pouvez pas verrouiller un coéquipier (lasers ou roquettes), vos tirs et vos explosions le traversent, et rien de ce que vous lui faites ne compte comme une élimination, une élimination PvP ou une élimination par le trou noir pour qui que ce soit. Les membres de votre corporation qui ne sont **pas** dans le même groupe restent comme avant : en toucher un coûte **100 points d’honneur** quand il est détruit. Quittez le groupe et un ancien coéquipier, ennemi ou non, redevient aussitôt une cible légitime (là où le secteur et la saison permettent de se battre). Tous ceux qui ne sont pas dans votre groupe sont traités comme toujours, et les zones sûres, le Protocole de paix et les règles PvP des secteurs ne changent pour personne.
+**Les membres d’un même groupe ne peuvent pas se blesser**, quelles que soient leurs corporations : vous ne pouvez pas verrouiller un coéquipier (lasers ou roquettes), vos tirs et vos explosions le traversent, et rien de ce que vous lui faites ne compte comme une élimination, une élimination PvP ou une élimination par le trou noir pour qui que ce soit. Les membres de votre corporation qui ne sont **pas** dans le même groupe restent comme avant : en toucher un avec un laser ou une roquette coûte **100 points d’honneur** quand il est détruit. Quittez le groupe et un ancien coéquipier, ennemi ou non, redevient aussitôt une cible légitime (là où le secteur et la saison permettent de se battre). Tous ceux qui ne sont pas dans votre groupe sont traités comme toujours, et les zones sûres, le Protocole de paix et les règles PvP des secteurs ne changent pour personne.
 
 ## Amener un ami {#bringing-a-friend}
 

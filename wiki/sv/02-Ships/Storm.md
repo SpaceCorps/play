@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest lasrar av alla skepp (14) på ett skrov som är lätt för sin klass. Enligt spelets klassning (fler än 10 laserplatser) är den ett slagskepp av klass IV. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
+Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest lasrar av alla skepp (15) på ett skrov som är lätt för sin klass. Enligt spelets klassning (fler än 10 laserplatser) är den ett slagskepp av klass IV. Den tillverkas i Monteringen när forskningscentrumet har forskat fram dess teknologi, och med lika lasrar förlorar den en mot en mot en Wraith eller en Ironclad.
 
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 180 000
-- **Grundhastighet**: 260
-- **Laserplatser**: 14
+- **Grundhastighet**: 350
+- **Laserplatser**: 15
 - **Extraplatser**: 3
-- **Pansarplatser**: 7
+- **Pansarplatser**: 8
 
 ### Generator- och stödplatser {#generator-support-slots}
 
-- **Kärnplatser (100 % verkningsgrad)**: 4
+- **Kärnplatser (100 % verkningsgrad)**: 3
 - **Stödplatser (75 % verkningsgrad)**: 4
 - **Hjälpplatser (50 % verkningsgrad)**: 2
 
@@ -27,7 +27,7 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 ## Forskning {#research}
 
-- **Pansarplatser.** Det här skeppet har 7 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 7 fyllda med Hull Plating III ger 175 000 skrov.
+- **Pansarplatser.** Det här skeppet har 8 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md), alla låsta när du tillverkar det. Var och en är en egen teknologi i Skylab, 1 h och 10 Dark Matter, som du forskar fram i ordning från den första; den öppnar den platsen på skeppet och på var och en av dess designer. Alla 8 fyllda med Hull Plating III ger 200 000 skrov.
 - **Designer.** Skeppet har 3 [designer](/wiki/03-Mechanics/Ship-Designs.md). Forska fram en (10 h och 10 Dark Matter) och bygg sedan om ditt skepp till den i Monteringen: ändringen kan inte ångras.
 
 | Design | Vad den ändrar |
@@ -48,4 +48,4 @@ När du har forskat fram dess teknologi kostar det 3 [Ancient Control Units](/wi
 
 ## Bakgrund {#lore}
 
-Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Ljusgrå plätering över ett mörkare skelett, med vita ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka fjorton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär sju tiondelar av en Wraiths och ungefär tre tiondelar av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.
+Storm är det varven bygger när den enda beställningen är fart. En nålformad skrovkropp med en mörk kabinkåpa ligger mellan två öppna halvmåneringar, var och en en pansrad båge runt ett hålrum som slutar i ett rest horn, med en motorgondol som löper genom öppningen: det mesta av skeppet är drivning. Ljusgrå plätering över ett mörkare skelett, med vita ljusremsor, gör den lätt att se, och den vill synas. Två långa kanoner sitter på de främre bladen och åtta små emittrar på ringarna och axelfenorna, tio mynningar i öppen dager, genom vilka femton lasrar skjuter. Det den saknar är plats för pansar. Skrovet är ungefär sju tiondelar av en Wraiths och ungefär tre tiondelar av en Ironclads, så dess piloter slår till först, slår hårt och försvinner innan något större hinner vända sig om.

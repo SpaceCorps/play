@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ A Protos az egyszerű kezdőhajó, amelyet minden új pilóta megkap a SpaceCorp
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 8 000
-- **Alapsebesség**: 180
+- **Alapsebesség**: 190
 - **Lézerfoglalatok**: 2
 - **Extrafoglalatok**: 2
 

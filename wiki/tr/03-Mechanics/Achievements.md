@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Başarımlar -->
 # Başarımlar {#achievements}
 
@@ -77,7 +77,7 @@ Gizli olmayan 45 başarım, gruplara göre. Bir hedef bir şey sayıyorsa, tüm 
 | İstasyon Kurucu | 5 farklı Skylab modülü inşa et. | Sıradan |
 | Tam Donanımlı | 16 Skylab modülünün hepsini inşa et. | Destansı |
 | Bilgin | 50 teknoloji araştır. | Seyrek |
-| Arşivci | 181 teknolojinin hepsini araştır. | Efsanevi |
+| Arşivci | 187 teknolojinin hepsini araştır. | Efsanevi |
 
 ### Filo {#group-fleet}
 
@@ -134,10 +134,11 @@ Hâlâ kilitli gizli bir başarım, hedefi ve çubuğu olmayan kapalı bir kartt
 **Steam sürümünde** oyun hesabını Steam hesabına bağlayabilirsin; bağladığında başarımların Steam’de de işaretlenir. Doğrudan indirmelerde Steam yoktur, bu yüzden bağlantı da yoktur; oyunun kendi başarımları, ödülleri ve unvanları her sürümde aynı çalışır.
 
 - **Bağlamak için** **Ayarlar › Hesap** altındaki Steam kartını kullan. Bağlantıyı başlatmak için oyun parolanı yeniden yazarsın. Ardından oyun, Steam’den kim olduğunu doğrulamasını ister ve sunucu yalnızca Steam’in yanıtına güvenir: yazdığın hiçbir şey bir Steam hesabını belirleyemez.
+- **Yeni bir hesap kendiliğinden bağlanır.** Steam sürümünde kayıt olduğunda formda varsayılan olarak açık bir **Steam hesabıma bağla** anahtarı vardır. Hesap ilk girişinde, az önce yazdığın parolayla bağlanır ve aynı kontroller geçerlidir (Steam kim olduğunu doğrular; bire bir). Zaten var olan hesaplar asla kendiliğinden bağlanmaz.
 - **Bire bir.** Bir oyun hesabı en fazla bir Steam hesabı tutar ve bir Steam hesabı tek bir oyun hesabına bağlanır. Bir Steam hesabı zaten başka bir pilota bağlıysa oyun bunu söyler ve hiçbir şey bağlamaz. İki hesap aynı Steam hesabını talep ederse bir yönetici bağlantıyı elle taşıyabilir.
 - **Sunucunun sakladığı**, Steam hesabının herkese açık numarası olan Steam kimliğin ve bağlantıyı kurduğun zamandır. Steam’den başka hiçbir şey saklamaz: Steam adını, arkadaşlarını, oyunlarını ve parolanı da saklamaz. Kimliği yalnızca sen ve oyunun yöneticileri görebilir, diğer pilotlar asla göremez.
 - **Bağlantıyı kaldırmak için** aynı kartta parolanı gir; saklanan Steam kimliği derhal silinir. Kaldırdıktan sonra başka bir Steam hesabını ancak 24 saat sonra bağlayabilirsin; aynı hesabı yeniden bağlamak hemen çalışır. Bu 24 saat boyunca sunucu, bağlantının kaldırıldığına dair kısa bir not tutar (zamanı ve kimlikten üretilmiş karıştırılmış bir kod; yalnızca aynı hesabı yeniden bağlayıp bağlamadığını anlamak için) ve sonra siler.
-- **Başarımlar, Steam sürümüyle giriş yaptığında Steam’e ulaşır**; yeter ki çalışan Steam hesabı senin bağladığın olsun. Oyun Steam’de eksik olanı kontrol eder ve işaretler; bu yüzden doğrudan indirmede ya da Steam kapalıyken kazandığın bir başarım bir sonraki Steam girişinde gelir. Çevrimdışıyken hiçbir şey kaybolmaz: oyun kaydı tutar, Steam’e sonra haber verilir.
+- **Başarımlar, kazandığın anda Steam’e ulaşır**; yeter ki çalışan Steam hesabı senin bağladığın olsun: Steam kendi açılır penceresini oyunun penceresinden birkaç saniye sonra gösterir. Oyun her girişte ayrıca Steam’de eksik olanı kontrol eder ve işaretler; bu yüzden doğrudan indirmede ya da Steam kapalıyken kazandığın bir başarım o zaman gelir, başarısız bir deneme de kendiliğinden yinelenir. Başka bir sunucuda (bölgesel bir düğümde) uçarken orada hiçbir şey kazanılmaz ya da gönderilmez; istasyona dönünce oyun yetişir. Çevrimdışıyken hiçbir şey kaybolmaz: oyun kaydı tutar, Steam’e sonra haber verilir.
 - Bir başarımın kredisi ve unvanı, oyun sunucusunun kendi kaydından gelir; asla Steam’den gelmez.
 
 ## Sayım ne zaman başladı {#when-counting-began}

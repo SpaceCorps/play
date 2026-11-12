@@ -13,11 +13,11 @@ A new pilot is not at full strength. At level 1 a laser and a rocket do less tha
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Stats**: 18 stats: 4 attributes and 14 skills in 5 groups
+- **Stats**: 19 stats: 4 attributes and 15 skills in 5 groups
 - **Levels**: 1 to 100. Every pilot starts every stat at level 1, and there is nothing to spend and nothing to respec
 - **Cost of a level**: 40 XP from level 1 to 2, 875 XP from level 50 to 51, 19,157 XP from level 99 to 100; 313,258 XP in all
 - **What a level gives**: A buff grows in a straight line from its value at level 1 to its value at level 100. Nothing is capped
-- **Your laser at level 1**: It deals 80% of its damage and hits 80% of the time, so 64% of the damage the item pages list
+- **Your laser at level 1**: It deals 100% of its damage and hits 80% of the time, so 80% of the damage the item pages list
 - **Your rocket at level 1**: It deals 100% of its damage and is a dud 10% of the time, so 90% of the damage the item pages list
 - **Dodging**: Every pilot's ship dodges 3% of the hits that can be dodged, before any skill or formation adds to it
 - **Hull tier**: The rarity of your ship sets it, as the table below shows. The size of your hold and the XP of Heft follow it
@@ -48,20 +48,20 @@ The tables give every buff at level 1 and at the last level; between them a buff
 
 | Stat | What it changes | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Heft** | Hull | +0% | +10% |
-| **Grit** | Damage you take | ×1 | ×0.9 |
-| **Reflex** | Speed at which abilities cool down | ×1 | ×1.11 |
-| **Instinct** | Chance of every loot line | +0 points | +5 points |
+| **Heft** | Hull | +0% | +20% |
+| **Grit** | Damage you take | ×1 | ×0.92 |
+| **Reflex** | Speed at which abilities cool down | ×1 | ×1.1 |
+| **Instinct** | Chance of every loot line | +0 points | +7.5 points |
 |  | Orvium and Velkonite from the collectors | ×1 | ×1.5 |
 
 ### Weapons
 
 | Stat | What it changes | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Laser tech** (Reflex) | Laser damage | ×0.8 | ×1.1 |
-|  | Chance a laser volley hits | 80% | 90% |
+| **Laser tech** (Reflex) | Laser damage | ×1 | ×1.3 |
+|  | Chance a laser volley hits | 80% | 89% |
 | **Rocket tech** (Reflex) | Rocket damage | ×1 | ×1.3 |
-|  | Chance a rocket is a dud | 10% | 0% |
+|  | Chance a rocket is a dud | 10% | 1% |
 | **Antimatter** (Instinct) | Dark Matter from pick-ups | ×1 | ×1.25 |
 
 ### Combat
@@ -74,13 +74,14 @@ The tables give every buff at level 1 and at the last level; between them a buff
 |  | Duration of poisons | ×1 | ×1.2 |
 | **Evasion** (Reflex) | Chance to dodge a hit, added to the ship's own | 0% | 15% |
 | **Tactics** (Reflex) | Duration of abilities | ×1 | ×1.2 |
+| **Shield absorption** (Grit) | Absorbance of your shields | +0 points | +5 points |
 
 ### Ship control
 
 | Stat | What it changes | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
 | **Radiation tech** (Grit) | Dose of radiation | ×1 | ×0.4 |
-| **Thruster theory** (Heft) | Speed | +0% | +15% |
+| **Thruster theory** (Heft) | Speed | +0% | +10% |
 | **Science** (Instinct) | Science from each unit of fuel | ×1 | ×1.25 |
 
 ### Skylab
@@ -106,7 +107,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 
 - **Lasers.** Laser tech changes the damage of every volley and the chance that it hits; a volley that goes wide shows a floating "Miss" and still uses its ammo ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). The range of your lasers is the ship's own: Marksmanship levels from your hits with ammo other than plain x1, but it only works on Mines (below).
 - **Rockets.** Rocket tech changes the damage of every rocket and the chance that one is a dud ([Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Taking hits.** Grit takes a share off every hit you take, and Evasion adds to the chance that a direct hit does nothing ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
+- **Taking hits.** Grit takes a share off every hit you take, Evasion adds to the chance that a direct hit does nothing, and Shield absorption adds to the share of a hit that your shields take ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
 - **Abilities.** Reflex shortens the cooldown of your abilities and Tactics makes them last longer ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage strengthens the poisons.
 - **Mines.** Sabotage adds to the damage of a Mine, and Marksmanship throws it faster and farther ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Speed.** Thruster theory adds to your speed, on top of the engines and an Afterburner ([Speed](/wiki/03-Mechanics/Speed.md)).
@@ -141,13 +142,14 @@ The table lists what pays XP, stat by stat. The XP is for each unit of what is n
 |  | Each volley that lands on a ship | 0.1 |  |
 | **Rocket tech** (Reflex) | Each rocket you launch | 0.15 | 130 rockets an hour |
 |  | Each rocket that hits a ship (once for each rocket, however many ships its blast hurts) | 0.3 |  |
-| **Antimatter** (Instinct) | Each Dark Matter you receive at a pick-up | 0.1 | None |
+| **Antimatter** (Instinct) | Each Dark Matter you receive at a pick-up | 2.2 | None |
 | **Marksmanship** (Reflex) | Each hit of a volley fired with ammo other than plain x1 (×1.5 for the first 10 min of each kind of ammo in a clock hour) | 0.1 | 3,000 hits an hour |
 |  | Each hit of a Mine, and each second an enemy spends in your Energetic Wall | 0.1 |  |
 | **Sabotage** (Reflex) | Each hit of a Mine, and each second an enemy spends in your Energetic Wall | 0.5 | 1,200 XP an hour |
 |  | Each second a poison of yours runs on an enemy | 0.05 |  |
 | **Evasion** (Reflex) | Each hostile attack on you that misses or is dodged | 1 | 600 XP an hour |
 | **Tactics** (Reflex) | Each ability you press with a hostile in laser range | 2 | 600 XP an hour |
+| **Shield absorption** (Grit) | Each 1% of your maximum shield that enemy hits take | 0.1 | 300 XP an hour |
 | **Radiation tech** (Grit) | Each second inside a radiation band | 0.2 | None |
 |  | Each 1% of your maximum hull the radiation takes | 1 |  |
 | **Thruster theory** (Heft) | Each second flown above 80% of your ship's speed, twice as much under an Afterburner | 0.1 | None |
@@ -182,7 +184,9 @@ A level costs more XP than the one before it, by a fixed share, so the first lev
 
 ## The Pilot Skills page
 
-The **Pilot Skills** page is a page of the station, with a row of its own in the sidebar. It shows the whole tree: the attributes and the skills in their groups, each with its level. Select a stat to see what it does, which attribute governs it, which skills it trains, its XP bar and what makes it grow, and use the slider to preview any level from 1 to the last: a small table gives what the stat changes at the level you preview and at your level now. A stat that has earned no XP yet is marked as not used, with a dash for its level. The row in the sidebar carries a badge when a stat has levelled since you last opened the page, and a card in the Boosters window sums up what your skills change.
+The **Pilot Skills** page is a page of the station, with a row of its own in the sidebar. It is one compact sheet of the whole tree: the attributes and the five groups of skills stand side by side in columns (three on a wide screen, fewer on a narrow one), a line for each stat with its level at the right edge and a thin XP bar under it. A stat that has earned no XP yet is grey, with a dash for its level. Rest the pointer on a line to see what the stat does, which attribute governs it or which skills it trains, its XP and what makes it grow. Click a line to open its details under its row of columns: the same words, the XP bar, and a slider to preview any level from 1 to the last, with a small table of what the stat changes at level 1, at your level now, at the level you preview and at the last level. One stat is open at a time; click the line again, use the close button or press Esc to put it away. The row in the sidebar carries a badge when a stat has levelled since you last opened the page, and a card in the Boosters window sums up what your skills change.
+
+In flight the same sheet is the **Pilot Skills** window. Open it with the Pilot Skills button of the toolbar (on a wide screen) or with its key, K by default (Settings, Controls). It is a window like the others: move it, resize it, and it remembers its place and whether it was open. It only shows your skills: the levels move as the XP lines of the flight arrive, and a click on a line opens the same details inside the window.
 
 ## What is kept
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: ソロゲート -->
 # ソロゲート {#solo-gates}
 
@@ -84,13 +84,15 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ## 入る {#going-in}
 
-ゲートはギャラクシーゲートのページで**建設**し、そのポータルから**ジャンプして入ります**。建設はステーションから、船をドッキングしたままできます。飛行中である必要はありません。必要なのは次のものです。
+ゲートはギャラクシーゲートのページで**建設**し、そのポータルから**ジャンプして入ります**。建設はステーションから、船をドッキングしたままできるほか、飛行中にもできます。ツールバーのゲートのボタンで開く**ギャラクシーゲートのウィンドウ**で、ページと同じようにスピン、建設、目的地の選択ができます。必要なのは次のものです。
 
 - ゲートのパーツ：パーツは**建設するときに1度だけ**取られ、拒否された建設では何も取られません。
 - ほかのソロのランが開いていないこと：同時に持てるランは1つで、離れたランは、別のゲートを建設する前にポータルから入り直すか放棄します。
 - ホームサーバー（地域サーバーにはゲートがありません）。
 
 建設したゲートは、あなたの**基地セクター**（企業に応じて`M-1`、`T-1`、`G-1`のいずれか）に、ゲート名のついたポータルとして立ちます。どこにあるかはギャラクシーゲートのページに表示されます。**出撃してポータルまで飛び、ジャンプ**して通ります。ほかのポータルと同じです。入るときはワールドにリフトが空いている必要があります。各ワールドには一定数のリフトがあり、すべて使用中のときは待ちます。
+
+**地域サーバーで（Singapore、US East）。**ゲート自体はホームサーバーに残ります。地域サーバーでは、建設も、プレイも、支払いも行われません。ただし、建設したゲートはそこでも忘れられません。到着したときにそのことが知らされ、ゲートのポータルはそこでもあなたの基地セクターに立ちます。そのポータルにジャンプするとホームサーバーに戻され、上記のとおりゲートへ出撃できます。
 
 空っぽのアリーナの中央に、1人で降り立ちます。中ではほかの誰もあなたを攻撃できず、Jump CPUとBase CPUは動きません。
 
@@ -110,16 +112,18 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 エイリアンはゲートのものと同じ（Seeker、Phantasm、Bulwark、Goombah、Crystalys）で、ゲートによって強くも弱くもなります。計画時間は、レーザー技術の初期レベルのパイロットにゲートが要求するように作られた時間です（[パイロットスキル](/wiki/03-Mechanics/Pilot-Skills.md)）。レーザー技術を育てたパイロットはもっと早く終わります。
 
+一部のウェーブには**群れ**が来ます。ゲームのボスNPC（Boss Seeker、Boss Phantasm、Boss Goombah、Boss Crystalys）が護衛を連れ、ひとつの集団で攻めてきます。群れの船はすべてそのウェーブの一部で、最後の1隻が倒れたときにウェーブが終わります。報酬はウェーブの他の船と同じで、[エイリアンの表](#the-aliens)の数値のとおりです。**ボスNPCは、ゲームのセクターと同じように戦利品を落とします**。鉱石、プレート、弾薬、ロケットです（何を落とすかは[群れのページ](/wiki/05-Swarms/Swarms.md)にあります）。ゲートには拾う箱はありません。戦利品は報酬と一緒に、そのままインベントリに入り、報酬と同じくランごとに1度だけです。護衛は、ゲートでもセクターでも何も落とさず、ボスを回復せず、戻ってもきません。どのゲートのどのウェーブに群れが来るかは、下の表に載っています。
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| ゲート | ウェーブ数（ボスを含む） | ウェーブのエイリアン | ボス | 計画時間 |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10～15 分 |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15～25 分 |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25～35 分 |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35～45 分 |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50～60 分 |
+| ゲート | ウェーブ数（ボスを含む） | ウェーブのエイリアン | ボスNPCと群れ | ボス | 計画時間 |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | ウェーブ5：1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10～15 分 |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | ウェーブ4：2 Seeker Swarm; ウェーブ9：1 Phantasm Swarm | Enhanced Bulwark | 15～25 分 |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | ウェーブ4：1 Phantasm Swarm; ウェーブ9：1 Goombah Swarm; ウェーブ14：1 Goombah Swarm | Elite Crystalys | 25～35 分 |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | ウェーブ5：2 Phantasm Swarm; ウェーブ10：2 Goombah Swarm; ウェーブ15：1 Goombah Swarm; ウェーブ20：1 Crystalys Swarm | Siege Construct | 35～45 分 |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | ウェーブ6：1 Goombah Swarm; ウェーブ11：2 Goombah Swarm; ウェーブ16：1 Crystalys Swarm; ウェーブ22：1 Phantasm Swarm | Omega Guardian | 50～60 分 |
 
 - **Delta Siege**：ウェーブ18（250 Seeker）は任意です：カウントダウン中にスキップでき、報酬は何もありません
 - **Omega Vault**：ウェーブ17（250 Seeker）は任意です：カウントダウン中にスキップでき、報酬は何もありません; ウェーブ22～24はエリートで、船体、シールド、ダメージが×1.5です
@@ -182,7 +186,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ### エイリアン {#the-aliens}
 
-ゲートで倒したエイリアンは、飛んでいるワールドに関係なく、Alphaでの数値で支払われます。ワールド倍率、ブースター、Premiumボーナスは影響しません。ウェーブはそのエイリアンの分を、ランごとに**1度だけ**支払います。何度離れて戻っても同じです。報酬はランの各区間の終わりに支払われます。退出、死亡、ライフ切れ、放棄、クリアのときです。区間の撃破が未払いになるのは、ワイプのときと、中にいる間にサーバーが再起動されたときだけです（ランは開いたままですが、その区間の撃破は失われます）。ゲートでの撃破はほかには数えられません。ミッション、撃破統計、実績のカウンター、キルフィード、ドローンやP.E.T.の経験値のどれにも入りません。ただし撃破が支払う経験値は、クリアの経験値と同じようにPvEランキングポイントに数えられます。エイリアンの戦利品は報酬と一緒に、そのままインベントリに入ります。
+ゲートで倒したエイリアンは、飛んでいるワールドに関係なく、Alphaでの数値で支払われます。ワールド倍率、ブースター、Premiumボーナスは影響しません。ウェーブはそのエイリアンの分を、ランごとに**1度だけ**支払います。何度離れて戻っても同じです。報酬はランの各区間の終わりに支払われます。退出、死亡、ライフ切れ、放棄、クリアのときです。区間の撃破が未払いになるのは、ワイプのときと、中にいる間にサーバーが再起動されたときだけです（ランは開いたままですが、その区間の撃破は失われます）。ゲートでの撃破は、**セクターを指定しない**[ミッション](/wiki/03-Mechanics/Quests.md#where-it-counts)（チャレンジラインの大きな狩りなど）に、倒したその場で数えられます（ウェーブは、報酬が1度だけ支払われるのと同じように、ランごとに**1度だけ**数えられます）。それ以外には数えられません。撃破統計、実績のカウンター、キルフィード、ドローンやP.E.T.の経験値のどれにも入りません。ただし撃破が支払う経験値は、クリアの経験値と同じようにPvEランキングポイントに数えられます。エイリアンの戦利品は報酬と一緒に、そのままインベントリに入ります。
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 | **Bulwark** | 5,000 | 25 | 800 | 10 |
 | **Goombah** | 15,000 | 75 | 3,000 | 24 |
 | **Crystalys** | 75,000 | 200 | 12,000 | 52 |
+| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | ゲート | クレジット | Thulium | 経験値 | 名誉 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540,000 | 2,160 | 54,000 | 1,080 |
-| **Beta Breach** | 1,320,000 | 5,980 | 186,000 | 2,520 |
-| **Gamma Foundry** | 3,000,000 | 13,300 | 522,000 | 4,616 |
-| **Delta Siege** | 4,975,000 | 21,400 | 829,000 | 7,640 |
-| **Omega Vault** | 6,875,000 | 29,000 | 1,160,000 | 10,100 |
+| **Alpha Rift** | 514,000 | 2,099 | 55,296 | 1,018 |
+| **Beta Breach** | 1,298,500 | 5,939 | 187,744 | 2,470 |
+| **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
+| **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
+| **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
 
 <!-- solo-kills:end -->
 

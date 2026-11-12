@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-A Nomad é um cruzador com quase o dobro do casco e o dobro dos canhões de uma Ostirion: uma cabeça de martelo entre a Ostirion e a Paragon, comprada na Loja com Créditos e Thulium juntos. Qualquer piloto pode comprá-la.
+A Nomad é um cruzador com quase o dobro do casco de uma Ostirion e dois canhões a mais: uma cabeça de martelo entre a Ostirion e a Paragon, comprada na Loja com Créditos e Thulium juntos. Qualquer piloto pode comprá-la.
 
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 111.000
-- **Velocidade base**: 210
-- **Slots de laser**: 6
+- **Velocidade base**: 240
+- **Slots de laser**: 7
 - **Slots extras**: 2
 
 ### Slots de gerador e suporte {#generator-support-slots}

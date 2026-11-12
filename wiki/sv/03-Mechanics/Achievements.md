@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Prestationer -->
 # Prestationer {#achievements}
 
@@ -14,7 +14,7 @@ Prestationer är målen för en pilots hela karriär: förstör din första utom
 
 ## Klasser och belöningar {#tiers-and-rewards}
 
-De fem klasserna betalar lika mycket för varje prestation i dem, en gång. Tabellen räknar alla 40, även de dolda.
+De fem klasserna betalar lika mycket för varje prestation i dem, en gång. Tabellen räknar alla 50, även de dolda.
 
 | Klass | Prestationer | Krediter per prestation |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ De 45 prestationer som inte är dolda, per grupp. Där ett mål räknar något r
 | Stationsbyggare | Bygg 5 olika Skylab-moduler. | Vanlig |
 | Fullt utrustad | Bygg alla 16 Skylab-moduler. | Episk |
 | Lärd | Forska fram 50 tekniker. | Ovanlig |
-| Arkivarie | Forska fram alla 181 tekniker. | Legendarisk |
+| Arkivarie | Forska fram alla 187 tekniker. | Legendarisk |
 
 ### Flotta {#group-fleet}
 
@@ -134,10 +134,11 @@ En **titel** är en kort textrad bredvid en pilots namn. 32 av de 50 prestatione
 I **Steam-versionen** kan du länka ditt spelkonto till ditt Steam-konto, och då sätts dina prestationer även på Steam. De direkta nedladdningarna har inget Steam och därför ingen länk; spelets egna prestationer, belöningar och titlar fungerar likadant i alla versioner.
 
 - **Länka** i **Inställningar › Konto**, på Steam-kortet. Du skriver in ditt spellösenord igen för att starta länkningen. Spelet ber sedan Steam gå i god för vem du är, och servern litar bara på Steams svar: inget du skriver kan peka ut ett Steam-konto.
+- **Ett nytt konto länkas av sig självt.** När du registrerar dig i Steam-versionen har formuläret ett reglage, **Länka till mitt Steam-konto**, på som standard. Kontot länkas vid din första inloggning, med lösenordet du just skrev in, och samma kontroller gäller (Steam går i god för vem du är; ett till ett). Konton som redan finns länkas aldrig av sig själva.
 - **Ett till ett.** Ett spelkonto har högst ett Steam-konto, och ett Steam-konto länkas till ett enda spelkonto. Om ett Steam-konto redan är länkat till en annan pilot säger spelet det och länkar ingenting. En admin kan flytta en länk för hand när två konton gör anspråk på samma Steam-konto.
 - **Det servern sparar** är ditt Steam-ID, det offentliga numret på ditt Steam-konto, och tidpunkten då du länkade. Den sparar inget annat från Steam: varken ditt Steam-namn, dina vänner, dina spel eller ditt lösenord. ID:t kan bara du och spelets administratörer se, andra piloter aldrig.
 - **Avlänka** på samma kort, med ditt lösenord: det sparade Steam-ID:t raderas genast. Efter en avlänkning kan du länka ett annat Steam-konto först efter 24 timmar; att länka samma konto igen fungerar direkt. Under de 24 timmarna sparar servern en kort anteckning om avlänkningen (tidpunkten och en förvrängd kod gjord av ID:t, bara för att se om du länkar samma konto igen) och raderar den sedan.
-- **Prestationer når Steam när du loggar in med Steam-versionen**, så länge det Steam-konto som körs är det du länkat. Spelet kontrollerar vad Steam saknar och sätter det, så en prestation du fått i en direkt nedladdning, eller medan Steam var stängt, kommer fram vid din nästa Steam-inloggning. Offline går inget förlorat: spelet behåller registret och Steam får veta det senare.
+- **Prestationer når Steam så fort du får dem**, så länge det Steam-konto som körs är det du länkat: Steam visar sin egen ruta några sekunder efter spelets. Vid varje inloggning kontrollerar spelet också vad Steam saknar och sätter det, så en prestation du fått i en direkt nedladdning, eller medan Steam var stängt, kommer fram då, och ett misslyckat försök görs om av sig självt. Medan du flyger på en annan server (en regional nod) tjänas eller skickas inget där; tillbaka vid stationen hämtar spelet in det. Offline går inget förlorat: spelet behåller registret och Steam får veta det senare.
 - Krediterna och titlarna för en prestation kommer från spelserverns egen post, aldrig från Steam.
 
 ## Sedan när det räknas {#when-counting-began}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -43,7 +43,7 @@ Hull Plating I は購入します。**II と III は強化品です**。アセ�
 | 艦 | 装甲スロット | Hull Plating III のフルセットで増える船体 |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125,000 |
-| **Storm** | 7 | 175,000 |
+| **Storm** | 8 | 200,000 |
 | **Ironclad** | 15 | 375,000 |
 | **Wraith** | 10 | 250,000 |
 

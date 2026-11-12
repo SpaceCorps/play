@@ -108,7 +108,7 @@ Az elveszett civilizáció három idegene él itt, mindegyiknek megvannak a saj�
 | Kredit | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Tapasztalat (XP) | 20 200 | 40 400 | 60 600 |
-| Becsület | 88 | 176 | 264 |
+| Becsület | 87 | 174 | 261 |
 | PvE-pont kilövésenként | 15 | 15 | 15 |
 
 **Zsákmány**: egy láda, annak a pilótának, aki a legtöbb sebzést okozta.

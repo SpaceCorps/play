@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Protos 是 SpaceCorps 发给每位新飞行员的基础初始舰船。它机身�
 ## 属性 {#stats}
 
 - **生命值（HP）**：8,000
-- **基础速度**：180
+- **基础速度**：190
 - **激光槽位**：2
 - **附加槽位**：2
 

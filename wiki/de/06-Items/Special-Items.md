@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -23,7 +23,7 @@
 | Gegenstand | Seltenheit | Maximal im Besitz | Was er tut |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Legendär | 5 | Schließt einen Skylab-Ausbau sofort ab |
-| **Schematics** | Selten | 20 | Schließt die laufende Forschung ab, wenn sie höchstens 24 Stunden dauert |
+| **Schematics** | Selten | 20 | Nimmt 24 Stunden von der laufenden Forschung ab; schließt sie ab, wenn höchstens 24 Stunden fehlen |
 | **Philosopher's Stone** | Episch | 10 | Deine Credit-Farm und deine Thulium-Farm produzieren 10 Stunden lang doppelt so viel |
 | **Tinkerer's Badge** | Episch | 10 | Hebt ein Ausrüstungsstück um eine Schmiede-Stufe an, ab Verdorben |
 | **Forger's Seal** | Ungewöhnlich | 99 | Überspringt bis zu 30 Minuten der Produktionswarteschlange |
@@ -44,12 +44,13 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 ### Schematics
 
-Schließt **die Forschung ab, die gerade läuft**, wenn die Technologie **höchstens 24 Stunden** zum Erforschen braucht. 143 der 159 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) kommen infrage. Die 16, die 48 oder 72 Stunden dauern, nicht: der Wraith, drei Drohnenformationen, Hull Plating III, die Stufen 4 und 5 des Triebwerks- und des Verteidigungsmoduls und sieben Piloten-Technologien.
+Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchstens 24 Stunden**, wird die Forschung sofort **abgeschlossen**; fehlt mehr, verliert sie 24 Stunden und läuft weiter, und du kannst ein weiteres Schematics darauf anwenden. 167 der 187 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab. Die übrigen 20 dauern länger, bei den meisten 48 oder 72 Stunden und bei den Rocket Launchern III, IV und V 96, 168 und 240 Stunden, und brauchen 2 bis 10 Schematics.
 
-- **Nach der Forschungszeit, nicht nach der Restzeit.** Eine 48-Stunden-Technologie mit noch einer Stunde Rest wird trotzdem abgelehnt: Schematics sehen darauf, wie lange die Technologie insgesamt dauert.
-- **Der Preis bleibt bezahlt.** Das Dark Matter, die Credits und das Thulium wurden beim Start der Forschung abgezogen und werden nicht zurückgegeben. Die Wissenschaft, die die Forschung noch nicht verbrannt hat, bleibt in deinem Tank.
-- **Die Forschung endet so, wie eine fertige endet.** Die Technologie gehört dir, die Meldungen erscheinen, und die **nächste Technologie deiner Warteschlange startet sofort**, wenn sie kann.
-- **Abgelehnt** wird ohne Forschungszentrum, ohne laufende Forschung oder wenn die Technologie länger als 24 Stunden dauert.
+- **Stunden der Technologie, nicht der Uhr.** Die 24 Stunden sind die eigene Forschungszeit der Technologie, die auf ihrer Karte steht. Der Thulium-Boost lässt eine Forschung schneller laufen, ändert aber nicht, was ein Einsatz abzieht; deckt ein Boost das Ende der Forschung ab, spart ein Einsatz also weniger Wartezeit (bei doppelter Geschwindigkeit entspricht ein Tag Forschung 12 Stunden Wartezeit). Die Bestätigung nennt die Zeit, die der Timer danach zeigt.
+- **Die Forschung läuft weiter wie bisher.** Eine Forschung, die 24 Stunden verliert, behält ihren Platz: Der Boost läuft weiter, die Warteschlange bleibt unberührt, und dahinter startet nichts. Wartet eine Forschung auf Wissenschaft, wartet sie weiter: Schematics geben Zeit, keinen Treibstoff.
+- **Der Preis bleibt bezahlt.** Das Dark Matter, die Credits und das Thulium wurden beim Start der Forschung abgezogen und werden nicht zurückgegeben. Die Wissenschaft, die die übersprungene Zeit verbrannt hätte, bleibt in deinem Tank.
+- **Eine abgeschlossene Forschung endet wie eine fertige.** Die Technologie gehört dir, die Meldungen erscheinen, und die **nächste Technologie deiner Warteschlange startet sofort**, wenn sie kann.
+- **Abgelehnt** wird ohne Forschungszentrum oder ohne laufende Forschung (eine Forschung, die vor deinem Klick von selbst endete, läuft nicht mehr, und es wird nichts verbraucht).
 - Schematics starten nie eine Forschung und wählen nie eine für dich.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-
 - **Ein Zähler, kein Gegenstand.** Das Inventar im Hangar ist der einzige Ort, der sie auflistet, als Kacheln unter den Verbrauchsgütern; von einer Sorte, die du nicht besitzt, gibt es keine Kachel. Eine Kachel ist kein Gegenstand, daher lässt sie sich nicht ziehen, auswählen, löschen oder verkaufen. Sie haben kein Gewicht, keinen Hotbar-Platz und keinen Platz in der Fracht oder im Transport-Cache; sie fallen nie, wenn dein Schiff zerstört wird.
 - **Über den Wipe hinaus.** Deine Spezialgegenstände und ein laufender Philosopher's Stone oder Vertrag bleiben erhalten, wie das Skylab, die Forschung und dein Look.
 - **Nie gehandelt.** Nicht in der [Auktion](/wiki/03-Mechanics/Auction.md), nicht an einen anderen Piloten, nicht gegen Credits.
-- **Nur der Hammer kann dein Tempo verschieben**, und du kannst nur 5 davon besitzen. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, eine Forschung von höchstens 24 Stunden.
+- **Nur der Hammer kann dein Tempo verschieben**, und du kannst nur 5 davon besitzen. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, 24 Stunden einer Forschung.
 - **Eine Verwendung, eine Bestätigung, ein Klang.** Jede Verwendung spielt ihren eigenen leisen Ton.
 
 ## Häufige Fehler {#common-mistakes}
 
 - **Der Hammer braucht einen laufenden Ausbau.** Starte zuerst den Ausbau. Ein Modul, dessen Zeitgeber schon abgelaufen ist, hat nichts mehr zu beenden.
-- **Schematics sehen auf die ganze Forschungszeit.** Eine Technologie von 48 oder 72 Stunden lässt sich damit nicht beenden, wie wenig auch fehlt.
+- **Eine lange Forschung braucht mehrere Schematics.** Eines nimmt 24 Stunden ab, nicht mehr: Eine Technologie von 240 Stunden braucht zehn. Das Fenster sagt dir vor der Bestätigung, wie viel übrig bleibt.
 - **Der Stone dehnt den Speicher nicht.** Hole ab, bevor eine Farm voll ist, sonst geht der Bonus verloren.
 - **Das Badge ist für Verdorben und höher.** Der erste Schritt der Schmiede braucht kein Badge.
 - **Ein Vertrag braucht Arbeit.** Baue zuerst einen Produzenten, eine Erzbucht oder ein Modul, dann heuere den Arbeiter an.

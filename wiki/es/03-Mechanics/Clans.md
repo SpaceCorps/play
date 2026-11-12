@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Clanes -->
 # Clanes {#clans}
 
@@ -66,6 +66,8 @@ El líder y los colíderes pueden pedir dos cosas a un piloto que quiere entrar:
 - **Un rango mínimo**: una categoría de rango de corporación, desde **Piloto** (sin requisito) hasta **Almirante**: Piloto, Sargento, Teniente, Capitán, Mayor, Coronel, General, Almirante ([Rangos](/wiki/03-Mechanics/Ranks.md)). Una categoría cuenta desde su grado más bajo: un clan que pide Capitán admite a un Capitán júnior y a todos los pilotos por encima. Es el rango que tienes ahora en la clasificación de tu corporación, no el mundo en el que vuelas.
 
 Se comprueban cuando un piloto **solicita el ingreso o se une**. La **invitación** de un oficial se los salta, y también una solicitud que un oficial acepta. El registro de flotas los muestra como pequeñas cápsulas bajo el nombre del clan, en rojo la que no cumples, y un clan que no ha fijado nada no pide nada.
+
+**Una solicitud cada vez.** Una solicitud que espera aparece como **Solicitado** en el **registro de flotas** y en la página del clan, también después de cerrar el menú y abrirlo de nuevo, y su botón sigue gris. Una segunda solicitud al mismo clan responde «Ya hay una solicitud pendiente» y no envía nada. Si un oficial del clan rechaza la tuya, puedes volver a solicitar a ese clan pasados **60 segundos**, y puedes enviar como máximo **5 solicitudes** en cualquier intervalo de 10 minutos, a todos los clanes juntos.
 
 ---
 
@@ -193,6 +195,12 @@ El botón **Quién está conectado** de la barra de herramientas del sistema (ar
 - **Búsqueda.** Escribe parte de un nombre o de una etiqueta de clan; la ventana vuelve a preguntar al servidor cuando la lista estaba recortada.
 - **Invitar.** El botón **Invitar** de una fila es la invitación propia de la ventana Grupo ([Grupos](/wiki/03-Mechanics/Groups.md)), con las mismas respuestas y rechazos (el piloto está en un grupo, el grupo está lleno, No molestar está activado). El botón sale en gris, con el motivo al pasar el ratón, cuando el juego ya sabe que la invitación se rechazaría.
 - La lista se vuelve a leer cada 10 segundos mientras la ventana está abierta.
+
+---
+
+## Chat del clan {#clan-chat}
+
+La pestaña **Clan** del chat ([Canales de chat](/wiki/03-Mechanics/Groups.md#chat-channels), el comando `/c`) es solo para los miembros de tu clan. El servidor guarda sus últimas **200 líneas**, ninguna de más de **14 días**, de modo que un miembro que no estaba conectado las encuentra al iniciar sesión o al entrar: la más antigua primero, bajo una línea que dice cuánto tiempo se guarda el chat, con la fecha en las líneas de días anteriores. Quien deja el clan o es expulsado no recibe nada más. Cuando el clan se disuelve, por su Líder o con [el reinicio](#the-wipe-disbands-every-clan), sus líneas se borran con él.
 
 ---
 

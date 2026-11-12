@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Asteroidenabbau -->
 # Asteroidenabbau {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Ein Bruch kann außerdem einen **Cluster Chunk** unzerteilt hinterlassen, im Erz
 
 ## Wer die Brocken bekommt {#who-gets-the-chunks}
 
-Ein Asteroid ist gemeinsame Arbeit: Beliebig viele Piloten können ihn mit Raketen, Lasern oder den Impulsen eines Mole treffen, und die Brocken gehen nach dem Schaden, den jeder angerichtet hat, nicht danach, wer zuerst oder zuletzt feuert. Die Schadenszeile im Zielfenster zeigt, wer wie viel angerichtet hat und was schon vor deiner Ankunft angerichtet wurde. Die Credits und das Thulium eines Zerbrechens werden einmal ausgewürfelt und nach Schaden aufgeteilt; das Erz teilen sich die Piloten mit dem meisten Schaden; die seltenen Funde gehen an den mit dem meisten Schaden. Ein Pilot, der weniger als den Anteil unter Die Regeln angerichtet hat, bekommt nichts, und das Spielprotokoll sagt es ihm. Die Brocken werden für jeden bezahlten Piloten angelegt, und sie sind eine Weile für ihn und seinen Clan reserviert, dann frei für alle.
+Ein Asteroid ist gemeinsame Arbeit: Beliebig viele Piloten können ihn mit Raketen, Lasern oder den Impulsen eines Mole treffen, und die Brocken gehen nach dem Schaden, den jeder angerichtet hat, nicht danach, wer zuerst oder zuletzt feuert. Die Schadenszeile im Zielfenster zeigt, wer wie viel angerichtet hat und was schon vor deiner Ankunft angerichtet wurde. Die Credits und das Thulium eines Zerbrechens werden einmal ausgewürfelt und nach Schaden aufgeteilt; das Erz teilen sich die Piloten mit dem meisten Schaden; die seltenen Funde gehen an den mit dem meisten Schaden. Ein Pilot, der weniger als den Anteil unter Die Regeln angerichtet hat, bekommt nichts, und das Spielprotokoll sagt es ihm. Die Brocken werden für jeden bezahlten Piloten angelegt. Eine Weile kann nur dieser Pilot sie nehmen, nicht seine Clanmitglieder; dann sind sie frei für alle.
 
 ## Das Mole-P.E.T. {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Ein angedockter **Mole** (ein [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-Typ)
 
 - Ein Pilot, der mindestens 5 % des Schadens an einem Asteroiden angerichtet hat, bekommt einen Anteil an seinen Brocken, im Verhältnis zum angerichteten Schaden. Erreicht niemand 5 %, bekommt der Pilot mit dem meisten Schaden alle.
 - Eine [Gruppe](/wiki/03-Mechanics/Groups.md#sharing-kills) zählt als ein Pilot, und ihr Anteil wird nach Level auf die Gruppenmitglieder aufgeteilt, die nah dran sind und schießen.
-- Die Brocken eines Zerbrechens sind 30 s lang für den Piloten reserviert, für den sie angelegt wurden, und für seinen Clan. Danach kann sie jeder auf der Karte nehmen. Ein Brocken, den niemand nimmt, verschwindet nach 3 min.
+- Die Brocken eines Zerbrechens kann 30 s lang nur der Pilot nehmen, für den sie angelegt wurden, nicht die Mitglieder seines Clans. Danach kann sie jeder auf der Karte nehmen. Ein Brocken, den niemand nimmt, verschwindet nach 3 min.
 - Eine Karte fasst höchstens 36 Brocken, innerhalb der 64 Kisten, die sie halten kann: Brocken verdrängen nie die Kisten der Aliens, und diese verdrängen nie einen Brocken. Hat die Karte keinen Platz für einen Brocken, wird der Pilot, für den er gedacht war, sofort bezahlt.
 - Credits und Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden. Es gibt kein Tageslimit dafür, was dir ausgezahlt wird: Jeder Brocken zahlt seine Credits und sein Thulium voll aus, egal wie viele du an einem Tag einsammelst.
 - Die Bezahlung ist für alle gleich: Kein Premium-Bonus, Saison-Shop-Boost, Clan-Boost, Loot Luck und kein Booster ändert die Credits, das Thulium oder die Funde. Der [Resource Magnet Booster](/wiki/06-Items/Boosters.md) erhöht beim Einsammeln die Ressourcen eines Erzbrockens, wie bei jeder Kiste.

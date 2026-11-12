@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: 外观装饰 -->
 # 外观装饰 {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 外观; 皮肤; 涂装; 衣橱; 尾焰; 光环 -->
 
-**外观**就是你的飞船穿在身上的东西。它有四个部分：**皮肤**（船体的涂装）、**光环**（飞船周围的柔和光晕）、**尾焰**（引擎后面拖出的轨迹的颜色和形状）和你的无人机的**涂装**。外观只是装饰：它不增加伤害、船体或速度，不占用槽位，也不改变弹药能命中的任何东西。
+**外观**就是你的飞船穿在身上的东西。它有四个部分：**皮肤**（船体的涂装）、**光环**（飞船周围的柔和光晕和一道光圈）、**尾焰**（引擎后面拖出的轨迹的颜色和形状）和你的无人机的**涂装**。外观只是装饰：它不增加伤害、船体或速度，不占用槽位，也不改变弹药能命中的任何东西。
 
 > [!NOTE]
 > **外观无法购买。** 重置会向最高的几个军衔发放赛季外观（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)）。 部分外观可以在容器“[色彩档案库 (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)”中找到，其余由管理员发放。管理员给你外观时，会有提示，并响起一声轻柔的提示音；你在容器中得到的外观会显示在结果卡片上。
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@
 | 特效 | 稀有度 | 画出什么 |
 | :--- | :--- | :--- |
 | **None** | 普通 | 没有光环。随栏位附带 |
-| **Glow** | 普通 | 飞船周围的柔和光晕 |
-| **Breath** | 优秀 | 缓缓起伏的光晕 |
-| **Motes** | 稀有 | 光晕里有四个绕行的小光点 |
-| **Shimmer** | 稀有 | 闪烁的光晕 |
-| **Sparkle** | 史诗 | 六个绕行并闪烁的光点 |
-| **Wreath** | 史诗 | 沿缓慢轨道运行的八个光点 |
-| **Halo** | 神话 | 起伏的光晕，带八个绕行的光点 |
-| **Laurel** | 传说 | 十个光点在起伏的光晕中缓缓绕行 |
-| **Crown** | 永恒 | 十个光点在起伏而闪烁的光晕中绕行 |
+| **Glow** | 普通 | 柔和的光晕，边缘有一道纤细的光圈 |
+| **Breath** | 优秀 | 缓缓起伏的光晕和光圈 |
+| **Motes** | 稀有 | 一道光圈，里面有四个绕行的小光点 |
+| **Shimmer** | 稀有 | 淡淡的光圈里有一道缓慢的双臂螺旋，不停闪烁 |
+| **Sparkle** | 史诗 | 光圈里有六个绕行并闪烁的光点 |
+| **Wreath** | 史诗 | 沿缓慢轨道运行的八个光点，外面是一道光圈，里面还有一道更细的光圈 |
+| **Halo** | 神话 | 明亮而起伏的光圈，里面有两道更细的光圈，带六个绕行的光点 |
+| **Laurel** | 传说 | 起伏的光圈环绕着一道缓慢的三臂螺旋，带八个缓缓绕行的光点 |
+| **Crown** | 永恒 | 明亮的光圈，里面有两道更细的光圈和一道四臂螺旋，带八个绕行的光点，起伏而闪烁 |
+| **Event Horizon** | 神话 | 一条暗带，会让它后面的东西变暗，外面是一道一侧格外炽亮的明亮光圈 |
+| **Accretion** | 神话 | 光圈里有一道缓慢的三臂螺旋，带八个向内坠入的光点 |
+| **Singularity** | 传说 | 明亮的光圈里有一条暗带、一道双臂螺旋和六个向内坠入的闪烁光点 |
+| **Gravity Well** | 神话 | 起伏的光圈里有一条淡淡的暗带和三道更细的光圈 |
 
-光环停留在标记锁定的圆环之内，并画在飞船周围其他一切东西的下面。
+光环停留在标记锁定的圆环之内，并画在飞船周围其他一切东西的下面。光环自己的光圈很细，颜色与光环相同，上面有一段明亮的弧光绕着它移动；锁定圆环在它的外面，稳定不动。这里说的光点，是一个拖着短尾的小亮点。
+
+**Event Horizon**、**Accretion**、**Singularity** 和 **Gravity Well** 不在色彩档案库里：它们由管理员发放。
 
 ## 衣橱 {#the-wardrobe}
 

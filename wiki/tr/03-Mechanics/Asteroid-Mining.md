@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Asteroit madenciliği -->
 # Asteroit madenciliği {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Bir kırılma, en çok hasarı veren pilotun ya da grubun cevher parçasında b�
 
 ## Parçaları kim alır {#who-gets-the-chunks}
 
-Bir asteroit ortak bir iştir: kaç pilot olursa olsun ona roketle, lazerle ya da bir Mole P.E.T.’in darbeleriyle vurabilir ve parçalar, kimin önce ya da son ateş ettiğine göre değil, herkesin verdiği hasara göre dağıtılır. Hedef penceresinin hasar satırı kimin ne kadar hasar verdiğini ve sen gelmeden önce ne kadar verildiğini gösterir. Bir kırılmanın kredi ve Thulium miktarı bir kez belirlenir ve hasara göre bölüştürülür; cevher en çok hasar veren pilotlar arasında paylaştırılır; nadir buluntular en çok hasar verene gider. Kurallar bölümündeki paydan daha azını veren bir pilot hiçbir şey almaz ve Oyun Günlüğü bunu söyler. Parçalar ödeme alan her pilot için bırakılır ve bir süre o pilota ve klanına ayrılır, sonra herkese açılır.
+Bir asteroit ortak bir iştir: kaç pilot olursa olsun ona roketle, lazerle ya da bir Mole P.E.T.’in darbeleriyle vurabilir ve parçalar, kimin önce ya da son ateş ettiğine göre değil, herkesin verdiği hasara göre dağıtılır. Hedef penceresinin hasar satırı kimin ne kadar hasar verdiğini ve sen gelmeden önce ne kadar verildiğini gösterir. Bir kırılmanın kredi ve Thulium miktarı bir kez belirlenir ve hasara göre bölüştürülür; cevher en çok hasar veren pilotlar arasında paylaştırılır; nadir buluntular en çok hasar verene gider. Kurallar bölümündeki paydan daha azını veren bir pilot hiçbir şey almaz ve Oyun Günlüğü bunu söyler. Parçalar ödeme alan her pilot için bırakılır. Bir süre yalnızca o pilot alabilir, klan arkadaşları alamaz; sonra herkese açılır.
 
 ## Mole P.E.T. {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Yanaştırılmış bir **Mole** ([P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) t
 
 - Bir asteroit için verilen hasarın en az %5 kadarını veren pilot, verdiği hasarla orantılı olarak parçalarından pay alır. Kimse %5 kadarına ulaşmazsa en çok hasar veren pilot hepsini alır.
 - Bir [grup](/wiki/03-Mechanics/Groups.md#sharing-kills) tek pilot sayılır ve payı, yakında olan ve ateş eden grup arkadaşları arasında seviyeye göre bölüşülür.
-- Bir kırılmanın parçaları, 30 sn boyunca kendileri için bırakıldığı pilota ve o pilotun klanına ayrılır. Sonrasında haritadaki herkes alabilir. Kimsenin almadığı bir parça 3 dk sonra yok olur.
+- Bir kırılmanın parçalarını 30 sn boyunca yalnızca kendileri için bırakıldığı pilot alabilir, o pilotun klan arkadaşları alamaz. Sonrasında haritadaki herkes alabilir. Kimsenin almadığı bir parça 3 dk sonra yok olur.
 - Bir harita en fazla 36 parça tutar; bu, haritanın tutabildiği 64 sandığın içindedir: parçalar uzaylıların sandıklarını asla dışarı itmez, onlar da bir parçayı asla dışarı itmez. Haritada bir parça için yer kalmadığında, parçanın ait olduğu pilota hemen ödeme yapılır.
 - Kredi ve Thulium, asteroit kırıldığında değil, bir parça toplandığında ödenir. Ödenebilecek miktarın günlük bir sınırı yoktur: her parça, bir günde kaç tane toplarsan topla, kredi ve Thulium’unu tam öder.
 - Ödeme herkes için aynıdır: hiçbir Premium bonusu, Sezon Mağazası güçlendirmesi, klan güçlendirmesi, Loot Luck ya da booster krediyi, Thulium miktarını ya da buluntuları değiştirmez. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ise bir cevher parçasını topladığında, her sandıkta olduğu gibi, kaynaklarına ekleme yapar.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Solo-Tore -->
 # Solo-Tore {#solo-gates}
 
@@ -84,13 +84,15 @@ Die meisten Scans finden kein Teil. Jeder von ihnen zahlt eine Belohnung, gewäh
 
 ## Hineingehen {#going-in}
 
-Du **baust** ein Tor auf der Seite Galaxietore und **springst** durch sein Portal hinein. Das Bauen geht von der Station aus, mit angedocktem Schiff: Du musst nicht fliegen. Es braucht:
+Du **baust** ein Tor auf der Seite Galaxietore und **springst** durch sein Portal hinein. Das Bauen geht von der Station aus, mit angedocktem Schiff, und auch im Flug: Das **Galaxietore-Fenster**, das die Tore-Schaltfläche der Werkzeugleiste öffnet, scannt, baut und wählt das Ziel wie die Seite. Es braucht:
 
 - die Teile des Tors: Sie werden **einmal beim Bauen** genommen, und ein abgelehntes Bauen nimmt nichts;
 - keinen anderen offenen Solo-Lauf: Du hast einen Lauf zugleich, und ein Lauf, den du verlassen hast, wird wieder durch sein Portal betreten oder aufgegeben, bevor du ein anderes Tor baust;
 - den Heimserver (die regionalen Server haben keine Tore).
 
 Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du.
+
+**Auf den regionalen Servern (Singapore, US East).** Das Tor selbst bleibt auf dem Heimserver: Auf einem regionalen Server wird nichts gebaut, gespielt oder ausgezahlt. Ein gebautes Tor wird dort aber nicht vergessen: Du wirst bei der Ankunft darauf hingewiesen, und das Portal deines Tors steht auch dort in deinem Heimatsektor. Springe hindurch, und du wirst zum Heimserver zurückgebracht, wo du wie oben in dein Tor startest.
 
 Du landest allein in der Mitte einer leeren Arena. Niemand kann dich darin angreifen, und die Jump CPU und die Base CPU funktionieren nicht.
 
@@ -110,16 +112,18 @@ Jede Welt kämpft dasselbe Tor: Stärke und Auszahlung der Aliens hängen nicht 
 
 Die Aliens sind die des Spiels (Seeker, Phantasm, Bulwark, Goombah und Crystalys), vom Tor härter oder weicher gemacht. Die geplante Zeit ist die, die das Tor für einen Piloten auf dem Startlevel der Lasertechnik vorsieht ([Pilotenfertigkeiten](/wiki/03-Mechanics/Pilot-Skills.md)); ein Pilot, der seine Lasertechnik gesteigert hat, ist früher fertig.
 
+Manche Wellen bringen einen **Schwarm**: einen Boss-NPC des Spiels (Boss Seeker, Boss Phantasm, Boss Goombah oder Boss Crystalys) mit seinen Wächtern, die als eine Gruppe angreifen. Jedes Schiff eines Schwarms gehört zu seiner Welle, und die Welle endet, wenn das letzte davon tot ist. Sie zahlen wie die anderen Schiffe der Welle, mit den Werten aus [der Tabelle der Aliens](#the-aliens). **Ein Boss-NPC lässt seine Beute fallen wie in den Sektoren des Spiels**: Erz, Platten, Munition und Raketen (was jeder fallen lässt, steht auf [den Seiten der Schwärme](/wiki/05-Swarms/Swarms.md)). In einem Tor gibt es keine Kiste zum Aufsammeln: Die Beute kommt mit der Auszahlung, direkt in dein Inventar, und wie die Auszahlung nur einmal je Lauf. Seine Wächter lassen nichts fallen, im Tor wie in den Sektoren, und sie heilen ihren Boss weder noch kommen sie zurück. Die Tabelle unten sagt, welche Wellen jedes Tores einen Schwarm bringen.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Tor | Wellen, die des Bosses eingeschlossen | Aliens in den Wellen | Boss | Geplante Zeit |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 bis 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 bis 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 bis 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 bis 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 bis 60 min |
+| Tor | Wellen, die des Bosses eingeschlossen | Aliens in den Wellen | Boss-NPCs und Schwärme | Boss | Geplante Zeit |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | Welle 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 bis 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | Welle 4: 2 Seeker Swarm; Welle 9: 1 Phantasm Swarm | Enhanced Bulwark | 15 bis 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | Welle 4: 1 Phantasm Swarm; Welle 9: 1 Goombah Swarm; Welle 14: 1 Goombah Swarm | Elite Crystalys | 25 bis 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | Welle 5: 2 Phantasm Swarm; Welle 10: 2 Goombah Swarm; Welle 15: 1 Goombah Swarm; Welle 20: 1 Crystalys Swarm | Siege Construct | 35 bis 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | Welle 6: 1 Goombah Swarm; Welle 11: 2 Goombah Swarm; Welle 16: 1 Crystalys Swarm; Welle 22: 1 Phantasm Swarm | Omega Guardian | 50 bis 60 min |
 
 - **Delta Siege**: Welle 18 (250 Seeker) ist optional: Du kannst sie überspringen, solange ihr Countdown läuft, und sie zahlt nichts
 - **Omega Vault**: Welle 17 (250 Seeker) ist optional: Du kannst sie überspringen, solange ihr Countdown läuft, und sie zahlt nichts; die Wellen 22 bis 24 sind Elite, mit ×1,5 Hülle, Schild und Schaden
@@ -182,7 +186,7 @@ Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, i
 
 ### Die Aliens {#the-aliens}
 
-Jedes Alien, das du in einem Tor tötest, zahlt mit den Zahlen, die es in Alpha hat, in welcher Welt du auch fliegst: Kein Weltmultiplikator, kein Booster und kein Premium-Bonus ändert sie. Eine Welle zahlt für ihre Aliens **einmal** je Lauf, wie oft du auch gehst und zurückkommst. Die Auszahlung kommt mit dem Ende jedes Abschnitts des Laufs: wenn du gehst, stirbst, keine Leben mehr hast, aufgibst oder abschließt. Die Abschüsse eines Abschnitts bleiben nur beim Wipe und bei einem Neustart des Servers unbezahlt, während du drin bist (dein Lauf bleibt offen, aber die Abschüsse dieses Abschnitts gehen verloren). Die Abschüsse in einem Tor zählen für nichts anderes: nicht für die Missionen, die Abschussstatistik, die Zähler der Erfolge, den Kill-Feed oder die Erfahrung deiner Drohnen und P.E.T.s. Die Erfahrung, die sie zahlen, zählt dagegen für deine PvE-Rangpunkte, wie die Erfahrung eines Abschlusses. Die Beute der Aliens kommt mit der Auszahlung, direkt in dein Inventar.
+Jedes Alien, das du in einem Tor tötest, zahlt mit den Zahlen, die es in Alpha hat, in welcher Welt du auch fliegst: Kein Weltmultiplikator, kein Booster und kein Premium-Bonus ändert sie. Eine Welle zahlt für ihre Aliens **einmal** je Lauf, wie oft du auch gehst und zurückkommst. Die Auszahlung kommt mit dem Ende jedes Abschnitts des Laufs: wenn du gehst, stirbst, keine Leben mehr hast, aufgibst oder abschließt. Die Abschüsse eines Abschnitts bleiben nur beim Wipe und bei einem Neustart des Servers unbezahlt, während du drin bist (dein Lauf bleibt offen, aber die Abschüsse dieses Abschnitts gehen verloren). Die Abschüsse in einem Tor zählen für die [Missionen](/wiki/03-Mechanics/Quests.md#where-it-counts), die keinen Sektor nennen (etwa die großen Jagden der Linie der Herausforderungen), und zwar sobald sie geschehen (eine Welle zählt dafür **einmal** je Lauf, so wie sie nur einmal zahlt), und für nichts anderes: nicht für die Abschussstatistik, die Zähler der Erfolge, den Kill-Feed oder die Erfahrung deiner Drohnen und P.E.T.s. Die Erfahrung, die sie zahlen, zählt dagegen für deine PvE-Rangpunkte, wie die Erfahrung eines Abschlusses. Die Beute der Aliens kommt mit der Auszahlung, direkt in dein Inventar.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Jedes Alien, das du in einem Tor tötest, zahlt mit den Zahlen, die es in Alpha 
 | **Bulwark** | 5.000 | 25 | 800 | 10 |
 | **Goombah** | 15.000 | 75 | 3.000 | 24 |
 | **Crystalys** | 75.000 | 200 | 12.000 | 52 |
+| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Tor | Credits | Thulium | EP | Ehre |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540.000 | 2.160 | 54.000 | 1.080 |
-| **Beta Breach** | 1.320.000 | 5.980 | 186.000 | 2.520 |
-| **Gamma Foundry** | 3.000.000 | 13.300 | 522.000 | 4.616 |
-| **Delta Siege** | 4.975.000 | 21.400 | 829.000 | 7.640 |
-| **Omega Vault** | 6.875.000 | 29.000 | 1.160.000 | 10.100 |
+| **Alpha Rift** | 514.000 | 2.099 | 55.296 | 1.018 |
+| **Beta Breach** | 1.298.500 | 5.939 | 187.744 | 2.470 |
+| **Gamma Foundry** | 3.064.500 | 13.693 | 541.944 | 4.696 |
+| **Delta Siege** | 5.239.625 | 22.338 | 882.676 | 7.850 |
+| **Omega Vault** | 7.088.125 | 29.196 | 1.196.828 | 10.022 |
 
 <!-- solo-kills:end -->
 

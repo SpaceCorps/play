@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 500 000
-- **Grundhastighet**: 110
+- **Grundhastighet**: 100
 - **Laserplatser**: 8
 - **Extraplatser**: 3
 - **Pansarplatser**: 15

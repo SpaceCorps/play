@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 399d8fb97e54710e -->
+<!-- wiki-i18n source: 6c27b5458be32962 -->
 <!-- wiki-i18n title: 黑洞 -->
 # 黑洞 {#the-black-hole}
 
@@ -17,7 +17,7 @@
 | :--- | ---: | :--- |
 | **辐射** | 4,000 | 你的舰船每秒都会受到伤害，伤害是其最大生命值总量的一个比例。越近，伤害越大。 |
 | **引力** | 3,000 | 黑洞把你的舰船拉向中心，离得越近拉得越猛。不在飞行的舰船会被带着走。 |
-| **不归点** | 约 900 到 2,500 | 引力等于你舰船速度的位置。在它以内，即使全速前进，你也会被吸进去。它取决于你的速度。 |
+| **不归点** | 约 800 到 2,600 | 引力等于你舰船速度的位置。在它以内，即使全速前进，你也会被吸进去。它取决于你的速度。 |
 | **事件视界** | 300 | 任何到达这里的舰船都会立刻被摧毁，无论船体和护盾如何。 |
 
 危险星区 4 的传送门，以及它们之间的航线，都远在辐射范围之外，所以你在途经时绝不会无意间撞上它。从赛季第 11 天起，同一星区的左上角、远离黑洞的地方还有 [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md)；那里的外星人永远不会进入黑洞的环。赛季的最后几天是例外：见[重置前会变大](#growing-before-the-wipe)。
@@ -98,20 +98,20 @@
 
 | 舰船（标准配置） | 速度 | 不归点 |
 | :--- | ---: | ---: |
-| Ironclad | 129 | 1,755 |
-| Protos | 194 | 1,431 |
-| Kitefin | 211 | 1,346 |
-| Nomad | 229 | 1,233 |
+| Ironclad | 119 | 1,808 |
+| Protos | 204 | 1,380 |
 | Wraith | 235 | 1,189 |
-| Ostirion | 240 | 1,160 |
-| Paragon | 252 | 1,071 |
-| Storm | 284 | 906 |
+| Kitefin | 242 | 1,143 |
+| Nomad | 260 | 1,014 |
+| Ostirion | 281 | 912 |
+| Paragon | 293 | 894 |
+| Storm | 380 | 793 |
 
 舰船设计会改变其舰船的速度，不归点也随之改变：DUMA 比 Ironclad 慢，NOTSUM 比 Storm 快。
 
 速度超过每秒 272 单位的舰船（追求极速的配置，或开着 Afterburner 的标准 Wraith），不归点仍在它一贯所在的位置：速度为 300 时是 885，速度为 432 时是 747。
 
-为速度而配置，你就能从更深处脱身；装满重型护盾，则做不到（一艘 Ironclad，也是最慢的舰船，14 个槽位全装 Heavy Shield Core 时，速度只有 46.8，不归点约在 2,500）。只有一阵爆发的速度，才能把一艘刚越过不归点不远的舰船拉回来：运行中的 [Afterburner](/wiki/03-Mechanics/Abilities.md) 就算数，并且在它运行期间会让不归点更靠近中心（一台引擎十五秒，两台 22.5 秒，三台三十秒；Afterburner III 会把标准 Protos 的不归点从 1,431 降到 928，把标准 Wraith 的从 1,189 降到 847）。在大约 410 单位以内，没有任何东西能脱身，哪怕是为速度而配置、所有速度属性都附魔到顶、并且最强爆发正在运行的舰船（附魔到上限的 Afterburner III，x1.46）；一艘未附魔、为速度而配置的舰船（Engine III 各装三个 Momentum Thruster IV，Adaptive Core III 各装三个 Impulse Thruster IV），带 Afterburner III，最好的情况下也只能从 453 以外脱身。
+为速度而配置，你就能从更深处脱身；装满重型护盾，则做不到（一艘 Ironclad，也是最慢的舰船，14 个槽位全装 Heavy Shield Core 时，速度只有 42.5，不归点约在 2,550）。只有一阵爆发的速度，才能把一艘刚越过不归点不远的舰船拉回来：运行中的 [Afterburner](/wiki/03-Mechanics/Abilities.md) 就算数，并且在它运行期间会让不归点更靠近中心（一台引擎十五秒，两台 22.5 秒，三台三十秒；Afterburner III 会把标准 Protos 的不归点从 1,431 降到 928，把标准 Wraith 的从 1,189 降到 847）。在大约 410 单位以内，没有任何东西能脱身，哪怕是为速度而配置、所有速度属性都附魔到顶、并且最强爆发正在运行的舰船（附魔到上限的 Afterburner III，x1.46）；一艘未附魔、为速度而配置的舰船（Engine III 各装三个 Momentum Thruster IV，Adaptive Core III 各装三个 Impulse Thruster IV），带 Afterburner III，最好的情况下也只能从 453 以外脱身。
 
 从不归点坠落的过程一开始很缓慢：一艘在不归点内几个单位处、全力飞行的舰船，会在二十秒甚至更久的时间里被吸进去，然后越来越快。引力不算飞行：它不计入飞行距离。
 
@@ -156,10 +156,10 @@
 
 黑洞会为抵达它的 **N.I.K.E.** 火箭归还 **Dark Matter**。N.I.K.E. 是一枚伤害 67,500 到 75,000 的火箭，它会命中遇到的第一艘它可以伤害的舰船，并在其上耗尽；如果路上没有阻挡，它就会飞向黑洞，并在越过事件视界时耗尽。研究出科技后（[研究](/wiki/03-Mechanics/Research.md)），[装配站](/wiki/06-Items/Rockets.md)可以制造 N.I.K.E.，每次制造五枚（100,000 信用点、1,500 Thulium、20 Ship Fragment、4 Reinforced Hull Plate、40 Cataclysite）。
 
-- **发射。** N.I.K.E. 在 4.5 秒内飞过 4,050 单位（每秒 900），径直飞向你瞄准的位置：没有选中目标时，把光标放在黑洞上（或让你的舰船朝向它）。从辐射边缘（4,000 单位）到距中心 4,380 单位之间的任何位置发射，它都能抵达视界。再远一些就会射程不足，白白浪费。和所有火箭一样，它使用所有火箭共用的装填计时，发射后要等 4.6 秒才能发射下一枚（不需要装备激光）；发射它会结束你的安全区保护和你的隐形。**航线上的舰船会替黑洞承受它**：在边缘守候的对手，或在途中拾取货箱的其他企业的飞行员，会被打出 67,500 到 75,000 的伤害，而黑洞什么也得不到。外星人和企业飞行员从不进入环内，所以航线是否畅通，要靠你自己保证；它会穿过你自己企业的飞行员，也会穿过对你而言处于安全状态的舰船。如果你在开火后离开地图，它会继续飞行而不伤害任何人，并且仍然会为你产出 Dark Matter。无人机编队可以改变命中的伤害，但改变不了 N.I.K.E. 之后的等待时间（见[无人机编队与火箭](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)）。
+- **发射。** N.I.K.E. 在 4.5 秒内飞过 4,050 单位（每秒 900），径直飞向你瞄准的位置：没有选中目标时，把光标放在黑洞上（或让你的舰船朝向它）。从辐射边缘（4,000 单位）到距中心 4,380 单位之间的任何位置发射，它都能抵达视界。再远一些就会射程不足，白白浪费。和所有火箭一样，它使用所有火箭共用的装填计时，发射后要等 4.6 秒才能发射下一枚（不需要装备激光）；发射它会结束你的安全区保护和你的隐形。**航线上的舰船会替黑洞承受它**：在边缘守候的对手，或在途中拾取货箱的其他企业的飞行员，会被打出 67,500 到 75,000 的伤害，而黑洞什么也得不到。外星人和企业飞行员从不进入环内，所以航线是否畅通，要靠你自己保证；它会穿过你自己小队的舰船，也会穿过对你而言处于安全状态的舰船；在 PvP 开启的地方，不在你小队里的本企业飞行员和其他舰船一样会被它击中。如果你在开火后离开地图，它会继续飞行而不伤害任何人，并且仍然会为你产出 Dark Matter。无人机编队可以改变命中的伤害，但改变不了 N.I.K.E. 之后的等待时间（见[无人机编队与火箭](/wiki/06-Items/Rockets.md#drone-formations-and-rockets)）。
 - **产出什么。**每枚抵达视界的 N.I.K.E. 会产出 **1、2 或 3 个 Dark Matter**（平均 2 个，所以大约五枚 N.I.K.E. 能产出十个），装在一两个小货箱中，出现在黑洞区域的边缘，**距中心 3,050 到 3,950 单位**，靠近你那一发射入的路线。引力在 3,000 处结束，所以货箱和前来拾取它们的舰船不会被拉扯，而那里的辐射是每秒舰船生命值的 0.3% 到 0.8%：在这条带的中间待一分钟，会耗掉你舰船的三分之一。满状态的舰船在那里能撑三分钟。
 - **归谁所有。**从射击起 **60 秒**内，这些货箱归你和你的战队所有。之后地图上的任何人都可以拾取它们，并且它们会在 **4 分钟**后飘走。危险星区是 PvP 星区，所以要做好有人来抢的准备。在开火后下线的飞行员，仍然拥有它的货箱。
 - **数量上限。**一张地图最多容纳 32 个 Dark Matter 货箱；新的货箱会把其中最旧的挤掉，而绝不会挤掉其他种类的货箱。[Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md) 不会给 Dark Matter 增加任何东西。
 - **你会看到什么。**当 N.I.K.E. 越过视界时，它会被拉长并扯入黑洞，空间从它进入的地方泛起涟漪，吸积盘和光子环会闪耀约一秒半（在**减弱动态效果**下是其三分之一的时间、一半的亮度）。片刻之后，货箱从黑洞中飞出，飘向它们在边缘上的位置：每个都是一颗带明亮边缘和闪光的紫黑色球体，从远处就很容易看见，悬停时标题为 **Dark Matter**。属于你的货箱上方会显示你剩余的秒数，并在小地图上显示为一个小小的紫罗兰色标记，你的战队也一样；其他飞行员的货箱，要等他们的那一分钟过去之后才会显示在小地图上。
 - **你会听到什么。**黑洞制造 Dark Matter 时会发出轻柔低沉的声音：先是一声吸气般的声响，随后第一个货箱飞出时响起两个冷冽的钟音。你自己的 N.I.K.E. 产生的声音，无论你在地图上的什么位置都能听到；其他飞行员的，则在他们的货箱出现在距你的舰船 3,200 单位以内时才能听到，距离越远越轻。无论有多少枚 N.I.K.E. 飞行，它最多每三秒响一次，音量跟随**音效**设置。
-- **有什么用。**装配站可以把 5 个 Dark Matter 连同一块 Velkonite Reinforced Plate 和一块 Orvium Reinforced Plate 压制成一块 **Dark Matter Plate**，而[锻造炉](/wiki/06-Items/Forge.md)需要两块这样的板，才能把物品从神圣提升到裂变，再从裂变提升到永恒：每一步需要十个 Dark Matter。每条升级链的最后一阶需要 4 块板，即每件 20 个 Dark Matter，另需至少 1 个 Ancient Control Unit：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。Skylab 的[研究中心](/wiki/03-Mechanics/Research.md#dark-matter)同样需要 Dark Matter：科技树顶端的 17 项科技每项 10 个，共 170 个，须在研究开始前添加到研究中心。无人机编队同样需要 Dark Matter，按强度为 5、13 或 20 个：另外 189 个，共 359 个。Hull Plating 的两项研究另外需要 65 个，舰船设计和装甲栏位另外需要 490 个（[研究](/wiki/03-Mechanics/Research.md#ship-technologies)）。Skylab 引擎模块、防御模块和雷达模块的各级另外需要 115 个（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。一个带有三个 IV 阶 Amp 的 Helios Beam 含有 80 个 Dark Matter，全部用最后一阶部件的 Wraith 则含有 1,280 个（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+- **有什么用。**装配站可以把 5 个 Dark Matter 连同一块 Velkonite Reinforced Plate 和一块 Orvium Reinforced Plate 压制成一块 **Dark Matter Plate**，而[锻造炉](/wiki/06-Items/Forge.md)需要两块这样的板，才能把物品从神圣提升到裂变，再从裂变提升到永恒：每一步需要十个 Dark Matter。每条升级链的最后一阶需要 4 块板，即每件 20 个 Dark Matter，另需至少 1 个 Ancient Control Unit：IV 阶的 Amp、护盾电池和推进器，以及 Heavy Shield Core、Engine III、Adaptive Core III、Helios Beam、Extra Slots CPU III 和 Base CPU II。Skylab 的[研究中心](/wiki/03-Mechanics/Research.md#dark-matter)同样需要 Dark Matter：科技树顶端的 17 项科技每项 10 个，共 170 个，须在研究开始前添加到研究中心。无人机编队同样需要 Dark Matter，按强度为 5、13 或 20 个：另外 189 个，共 359 个。Hull Plating 的两项研究另外需要 65 个，舰船设计和装甲栏位另外需要 490 个（[研究](/wiki/03-Mechanics/Research.md#ship-technologies)）。Skylab 引擎模块、防御模块和雷达模块的各级另外需要 115 个（[研究](/wiki/03-Mechanics/Research.md#module-technologies)）。一个带有四个 IV 阶 Amp 的 Helios Beam 含有 100 个 Dark Matter，全部用最后一阶部件的 Wraith 则含有 1,640 个（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。

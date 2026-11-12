@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -23,7 +23,7 @@
 | Eşya | Nadirlik | En çok kaç tane taşıyabilirsin | Ne yapar |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Efsanevi | 5 | Bir Skylab yükseltmesini hemen bitirir |
-| **Schematics** | Nadir | 20 | Süren araştırmayı, en fazla 24 saat sürüyorsa bitirir |
+| **Schematics** | Nadir | 20 | Süren araştırmadan 24 saat götürür; 24 saat ya da daha azı kalmışsa bitirir |
 | **Philosopher’s Stone** | Destansı | 10 | Kredi Çiftliğin ve Thulium Çiftliğin 10 saat boyunca iki kat fazla üretir |
 | **Tinkerer’s Badge** | Destansı | 10 | Bir ekipmanı Demirhane’de bir kademe yükseltir, Lekeli’den başlayarak |
 | **Forger’s Seal** | Seyrek | 99 | Üretim kuyruğundan en fazla 30 dakikayı atlar |
@@ -44,12 +44,13 @@ Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise
 
 ### Schematics
 
-**Şu an süren araştırmayı**, o teknoloji araştırılması **en fazla 24 saat** sürüyorsa bitirir. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 159 teknolojisinden 143’i uygundur. 48 ya da 72 saat süren 16’sı değildir: Wraith, üç dron formasyonu, Hull Plating III, Motor Modülü ile Savunma Modülü’nün 4. ve 5. seviyeleri ve yedi Pilot teknolojisi.
+**Şu an süren araştırmadan 24 saat götürür.** Geriye **24 saat ya da daha azı** kalmışsa araştırma hemen **bitirilir**; daha fazlası kalmışsa 24 saat kaybeder ve sürer, onun üzerine bir Schematics daha kullanabilirsin. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 187 teknolojisinden 167’i 24 saat ya da daha kısa sürer, bu yüzden bir Schematics onları baştan bitirir. Diğer 20’i daha uzun sürer; çoğu 48 ya da 72 saat, Rocket Launcher III, IV ve V ise 96, 168 ve 240 saat sürer ve 2 ila 10 Schematics gerekir.
 
-- **Kalan süre değil, araştırma süresi sayılır.** Bir saati kalmış 48 saatlik bir teknoloji de reddedilir: Schematics teknolojinin toplamda ne kadar sürdüğüne bakar.
-- **Bedel ödenmiş kalır.** Dark Matter, kredi ve Thulium araştırma başlarken alınmıştı ve geri verilmez. Araştırmanın henüz yakmadığı bilim puanı tankında kalır.
-- **Araştırma, kendiliğinden bitmiş gibi biter.** Teknoloji senindir, bildirimler çıkar ve **kuyruğundaki sıradaki teknoloji**, başlayabiliyorsa **hemen başlar**.
-- **Reddedilir**: Araştırma Merkezi yoksa, süren bir araştırma yoksa ya da teknoloji 24 saatten uzun sürüyorsa.
+- **Teknolojinin saatleri, saatin kendisi değil.** 24 saat, teknolojinin kartında yazan kendi araştırma süresidir. Thulium hızlandırması araştırmayı daha hızlı yürütür ama bir kullanımın götürdüğünü değiştirmez; bir hızlandırma araştırmanın sonunu kapsıyorsa bir kullanım daha az bekleme saati kazandırır (iki kat hızda bir günlük araştırma 12 saatlik beklemedir). Onay penceresi sayacın ne göstereceğini söyler.
+- **Araştırma olduğu gibi sürer.** 24 saat kaybeden araştırma yerini korur: hızlandırma işlemeye devam eder, kuyruğa dokunulmaz ve arkasında hiçbir şey başlamaz. Bilim bekleyen bir araştırma beklemeye devam eder: Schematics zaman verir, yakıt vermez.
+- **Bedel ödenmiş kalır.** Dark Matter, kredi ve Thulium araştırma başlarken alınmıştı ve geri verilmez. Atlanan sürenin yakacağı bilim puanı tankında kalır.
+- **Biten araştırma her zamanki gibi biter.** Teknoloji senindir, bildirimler çıkar ve **kuyruğundaki sıradaki teknoloji**, başlayabiliyorsa **hemen başlar**.
+- **Reddedilir**: Araştırma Merkezi yoksa ya da süren bir araştırma yoksa (tıklamandan önce kendiliğinden bitmiş bir araştırma artık sürmez ve hiçbir şey harcanmaz).
 - Asla bir araştırma başlatmaz ve senin yerine bir tane seçmez.
 
 ### Philosopher’s Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab
 - **Eşya değil, sayaç.** Hangar’daki envanter onları sarf malzemeleri arasında kutucuklar olarak listeleyen tek yerdir; hiç sahip olmadığın bir türün kutucuğu yoktur. Kutucuk bir eşya değildir, bu yüzden sürüklenemez, seçilemez, silinemez ya da satılamaz. Ağırlıkları, kısayol çubuğunda yerleri, kargoda ya da Nakliye Deposu’nda yerleri yoktur; gemin yok edildiğinde asla düşmezler.
 - **Sıfırlamadan sonra da.** Özel eşyaların ve süren bir Philosopher’s Stone ya da sözleşme, Skylab, araştırma ve görünümlerin gibi korunur.
 - **Asla takas edilmez.** [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da, başka bir pilota, krediyle de olmaz.
-- **Temponu yalnızca Hammer değiştirebilir** ve yalnızca 5 tane taşıyabilirsin. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, en fazla 24 saatlik bir araştırma.
+- **Temponu yalnızca Hammer değiştirebilir** ve yalnızca 5 tane taşıyabilirsin. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, bir araştırmanın 24 saati.
 - **Bir kullanım, bir onay, bir ses.** Her kullanım kendi kısık sesli işaretini çalar.
 
 ## Sık yapılan hatalar {#common-mistakes}
 
 - **Hammer için süren bir yükseltme gerekir.** Önce yükseltmeyi başlat. Sayacı çoktan dolmuş bir modülde bitirilecek bir şey kalmamıştır.
-- **Schematics tüm araştırma süresine bakar.** 48 ya da 72 saatlik bir teknoloji, ne kadar az kalmış olursa olsun onlarla bitirilemez.
+- **Uzun bir araştırma birkaç Schematics ister.** Bir tanesi 24 saat götürür, fazlasını değil: 240 saatlik bir teknoloji on tane ister. Onaylamadan önce sayfa ne kadar kalacağını söyler.
 - **Stone hazneyi büyütmez.** Bir çiftlik dolmadan topla, yoksa bonus kaybolur.
 - **Badge, Lekeli ve üstü içindir.** Demirhane’nin ilk adımı için Badge gerekmez.
 - **Sözleşmenin yapacak işe ihtiyacı vardır.** Önce bir üretici, bir Cevher Bölmesi ya da bir modül kur, sonra işçiyi tut.

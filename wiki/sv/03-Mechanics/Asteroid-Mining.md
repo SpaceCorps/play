@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Asteroidbrytning -->
 # Asteroidbrytning {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Ett sönderfall kan också lämna en **Cluster Chunk** hel, i malmbiten åt den 
 
 ## Vem som får bitarna {#who-gets-the-chunks}
 
-En asteroid är gemensamt arbete: hur många piloter som helst kan träffa den, med raketer, lasrar eller en Moles pulser, och bitarna går efter skadan var och en gjorde, inte efter vem som skjuter först eller sist. Skaderaden i målfönstret visar vem som gjort hur mycket och vad som gjordes innan du kom. Krediterna och Thulium från en sprängning slumpas en gång och delas efter skada; malmen delas mellan piloterna som gjorde mest skada; de sällsynta fynden går till den som gjorde mest. En pilot som gjorde mindre än andelen under Reglerna får ingenting, och Spellogg säger det. Bitarna läggs ut för varje betald pilot och är en tid reserverade för den och dess klan, sedan fria för alla.
+En asteroid är gemensamt arbete: hur många piloter som helst kan träffa den, med raketer, lasrar eller en Moles pulser, och bitarna går efter skadan var och en gjorde, inte efter vem som skjuter först eller sist. Skaderaden i målfönstret visar vem som gjort hur mycket och vad som gjordes innan du kom. Krediterna och Thulium från en sprängning slumpas en gång och delas efter skada; malmen delas mellan piloterna som gjorde mest skada; de sällsynta fynden går till den som gjorde mest. En pilot som gjorde mindre än andelen under Reglerna får ingenting, och Spellogg säger det. Bitarna läggs ut för varje betald pilot. En tid kan bara den piloten ta dem, inte klankamraterna; sedan är de fria för alla.
 
 ## Mole-P.E.T.n {#the-mole-pet}
 
@@ -67,7 +67,7 @@ En dockad **Mole** (en [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-typ) arbeta
 
 - En pilot som gjorde minst 5 % av skadan på en asteroid får en del av dess bitar, i proportion till skadan. När ingen når 5 % får piloten som gjorde mest skada alla.
 - En [grupp](/wiki/03-Mechanics/Groups.md#sharing-kills) räknas som en pilot, och dess del delas efter nivå mellan gruppmedlemmarna som är nära och skjuter.
-- Bitarna från en sprängning är reserverade i 30 s för piloten de lades ut åt och för dennes klan. Efter det kan vem som helst på kartan ta dem. En bit som ingen tar försvinner efter 3 min.
+- Under 30 s kan bitarna från en sprängning bara tas av piloten de lades ut åt, inte av dennes klankamrater. Efter det kan vem som helst på kartan ta dem. En bit som ingen tar försvinner efter 3 min.
 - En karta rymmer högst 36 bitar, inom de 64 lådor den kan rymma: bitar trycker aldrig bort utomjordingarnas lådor, och de trycker aldrig bort en bit. När kartan inte har plats för en bit betalas piloten den var till ut direkt.
 - Krediter och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. Det finns ingen daglig gräns för vad du kan få betalt: varje bit betalar ut alla sina krediter och sitt Thulium, oavsett hur många du plockar upp på en dag.
 - Betalningen är densamma för alla: ingen Premium-bonus, säsongsbutiksboost, klanboost, Loot Luck eller booster ändrar krediterna, Thulium eller fynden. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) lägger till resurserna i en malmbit när du plockar upp den, som i vilken låda som helst.

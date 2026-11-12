@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: Extrautrustning -->
 # Extrautrustning {#extras}
 
@@ -12,6 +12,7 @@ Extrautrustning är de prylar som sitter i ett skepps **extraplatser** (två på
 | **Cloaking CPU L** | Döljer ditt skepp | 50 | 20 000 Thulium |
 | **P.E.T. Station I till III** | När den är PÅ ger 2, 3 eller 5 dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) boosts åt ditt skepp, samlar erfarenhet och arbetar; när den är AV gör de inget av det | PÅ / AV | Monteringen, efter sin forskning (föremålsträdet nedan) |
 | **Auto-Rocket CPU** | När den är PÅ avfyrar den din aktiva raket av sig själv mot målet i en strid | PÅ / AV | Monteringen, efter sin forskning (föremålsträdet nedan) |
+| **Laser Optics I till V** | Monterade lägger de till 2, 4, 6, 8 eller 10 poäng till chansen att dina laservolleyer träffar (bara den bästa monterade räknas) | monterade, inget att slå om | Monteringen, efter sin forskning (föremålsträdet nedan) |
 
 Cloaking CPU säljs bara i butiken. De kan inte slås ihop, och ingenting ger dig dem gratis. **EMP Charge** är inte längre extrautrustning: sedan 0.4.21 är den en förbrukningsvara som bärs i en hög, som en raket, och inte sätts i någon plats, så den tar ingen av dina extraplatser (se [Raketer](/wiki/06-Items/Rockets.md#emp-charge)). De två **Energetic Wall** är inte heller extrautrustning längre: sedan 0.4.22 är de förbrukningsvaror också, bärs i en hög och sätts inte i någon plats (se [Energetic Wall](#energetic-wall)).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ Tryck på platsen WAL, så står en **plasmavägg** **vid din markör**, tvärs 
 - **Nedskjutningar.** Ett skepp som väggen förstör dör av strålning, och nedskjutningen går till den sista fientliga piloten som träffade det inom 15 sekunder, om det fanns någon. Den som satte upp väggen får inget tillgodo för det den inte sköt själv. En utomjording som väggen förstör betalar ingenting: ingen belöning, inget byte.
 - **Utomjordingar går inte runt den.** De flyger igenom och brinner, eller blir stående på sin sida och skjuter på väggen.
 - **Vad du ser.** Ett band av blåvitt ljus med ljusa streck som löper längs det och en ljuspelare i varje ände; det blixtrar där ett skott slår in och flimrar när det nästan är slut. En vägg på nivå 2 lyser i stället gult, med en tjockare, ljusare kärna och ett starkare sken, men dess band är lika brett som på nivå 1: 10 enheter. En tunn livsmätare bredvid blir kortare och går över i bärnsten och sedan rött; din plats visar väggens återstående liv som en båge och väntan som en skugga. En uppsatt vägg blixtrar till, en nedskjuten rasar i gnistor och en vars tid gått ut bleknar bort. Siffran på platsen räknar också de väggar av dess nivå som du har kvar.
-- **Hur du får den och bär den.** Energetic Wall I säljs i butiken för **250 Thulium** per vägg, och du bär upp till **20** i en hög (det du har lagt ut på [Auktionen](/wiki/03-Mechanics/Auction.md) räknas med). Energetic Wall II tillverkas i Monteringen, **en vägg per tillverkning**, för **600 Thulium**, 5 Ship Fragments och en Power Core, när Forskningscentrumet har forskat fram den (6 timmar i normal takt: [Forskning](/wiki/03-Mechanics/Research.md)); av den bär du upp till **10**. Till skillnad från de tolv raketerna, av vilka 1 000 av varje följer med av sig själva, går väggarna du bär förlorade med säsongen om du inte lägger dem i transportförrådet, och väggar i förrådet kan inte användas. En Energetic Wall II som du har tillverkat kan säljas på Auktionen; en Energetic Wall I, som butiken säljer, aldrig.
+- **Hur du får den och bär den.** Energetic Wall I säljs i butiken för **10 000 krediter** per vägg, och du bär upp till **20** i en hög (det du har lagt ut på [Auktionen](/wiki/03-Mechanics/Auction.md) räknas med). Energetic Wall II tillverkas i Monteringen, **en vägg per tillverkning**, för **600 Thulium**, 5 Ship Fragments och en Power Core, när Forskningscentrumet har forskat fram den (6 timmar i normal takt: [Forskning](/wiki/03-Mechanics/Research.md)); av den bär du upp till **10**. Till skillnad från de tolv raketerna, av vilka 1 000 av varje följer med av sig själva, går väggarna du bär förlorade med säsongen om du inte lägger dem i transportförrådet, och väggar i förrådet kan inte användas. En Energetic Wall II som du har tillverkat kan säljas på Auktionen; en Energetic Wall I, som butiken säljer, aldrig.
 
 ## Mine
 
@@ -111,9 +118,26 @@ En **Mine** är en fälla som du kastar. Tryck på dess plats med muspekaren på
 - **Vem den träffar.** Varje skepp som flyger över den: en fientlig pilot, en utomjording, en koncernpilot, dina koncernkamrater, din grupp och **du själv**. En Mine har inga vänner. Det som skonar ett skepp är det som skonar det från alla vapen: en säker zon, skydd av en återkomst, kamouflage eller ett EMP-fönster.
 - **Flyga bort.** Ett skepp som är inom en Mines räckvidd när den landar skonas tills det har lämnat räckvidden en gång, och du är den första den skonar: du kan släppa en Mine under ditt skepp och flyga iväg. Därefter går Minen av under det skeppet som under vilket annat som helst, även om det kommer tillbaka senare.
 - **Hur mycket.** Skadan växer med nivån: **8 000, 20 000 och 50 000**. Din förmåga Sabotage lägger till upp till 30 %, och din Skicklighet med vapen får Minen att flyga snabbare och längre.
-- **Gränser.** Du kan ha **tre** Minor ute åt gången (en fjärde tar den äldstas plats), var och en är borta **3 minuter** efter landningen, och du väntar **8 sekunder** mellan två kast; väntan är din, inte skeppets. När du lämnar kartan försvinner dina Minor med dig.
+- **Gränser.** En Mine **har inget eget slut**: den ligger kvar där den landade tills ett skepp utlöser den eller servern startas om, och den ligger kvar när du loggar ut, dör eller lämnar kartan. Du har **ingen egen gräns**, bara väntan på **8 sekunder** mellan två kast (väntan är din, inte skeppets). Två regler skyddar kartan: inga två Minor får ligga närmare varandra än **365 enheter**, vem som än kastade dem (drygt två längder av det största skeppet), och en karta rymmer högst **150** Minor. Ett kast som skulle bryta mot någon av dem nekas, kostar ingenting och startar ingen väntan; medan du siktar blir ringen vid muspekaren röd där kastet skulle nekas.
 - **Var inte.** Inte där piloter inte kan strida mot varandra (under Fredsprotokollet, eller i en sektor eller port vars regler förbjuder det), inte medan en säker zon eller en återkomst skyddar dig, inte där Minen skulle röra en säker zon eller en port, och inte kamouflerad. Spelet säger vilket fall det är; ett nekat kast förbrukar ingenting och startar ingen väntan.
 - **Hur du får den och bär den.** Mine I säljs i butiken för **100 Thulium**, och du bär upp till **20** i en hög. Mine II tillverkas i Monteringen, **en Mine per tillverkning**, av två Mine I, 3 Ship Fragments och en Power Core för **200 Thulium** (upp till **10** i en hög); Mine III av två Mine II, 8 Ship Fragments, 2 Power Cores och en Reinforced Hull Plate för **400 Thulium** (upp till **5**). Båda tillverkas när Forskningscentrumet har forskat fram dem: 3 timmar för II och 6 timmar för III i normal takt (se [Forskning](/wiki/03-Mechanics/Research.md)). Minorna du bär går förlorade med säsongen om du inte lägger dem i transportförrådet, och Minor i förrådet kan inte användas. Minor kan inte säljas på [Auktionen](/wiki/03-Mechanics/Auction.md).
+
+## Laser Optics
+
+Fem föremål som gör att dina lasrar träffar oftare. De säljs inte: Monteringen tillverkar dem när Skylabbets forskningscentrum har forskat fram dem, en efter en (familjen Lasers, se [Forskning](/wiki/03-Mechanics/Research.md)).
+
+- **Vad de gör.** Montera en i en extraplats så lägger den poäng till chansen att dina laservolleyer träffar, utöver det din [Laserteknik](/wiki/03-Mechanics/Combat.md#laser-tech) ger, aldrig över 100%. Laser Optics I lägger till 2 poäng, II lägger till 4, III 6, IV 8 och V 10. En volley som går fel förbrukar ändå sin ammunition, så varje poäng är skada du inte längre slösar bort.
+- **Bara den bästa räknas.** Två Laser Optics läggs inte ihop: den bästa du har monterad räknas. En som du bara bär med dig, eller monterar i den andra konfigurationen, gör ingenting förrän du flyger den konfigurationen.
+- **Inget att trycka på.** De har ingen plats i snabbfältet och ingen strömbrytare: de verkar så länge de är monterade och tar en av dina extraplatser, som de andra Extrorna.
+- **Var du läser det.** Ett lasers kort och skadeplattan i din Hangar visar den sammanlagda chansen, din Laserteknik och Optics tillsammans.
+
+| Föremål | Lägger till | Forskningstid | Thulium för tillverkning | Tillverkningstid |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 poäng | 3 h | 8 000 | 5 min |
+| Laser Optics II | +4 poäng | 6 h | 15 000 | 7,5 min |
+| Laser Optics III | +6 poäng | 10 h | 30 000 | 10 min |
+| Laser Optics IV | +8 poäng | 16 h | 50 000 | 12,5 min |
+| Laser Optics V | +10 poäng | 24 h | 75 000 | 15 min |
 
 ## Forskningscentrumets CPU:er {#research-cpus}
 

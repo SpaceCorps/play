@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Solo Geçitler -->
 # Solo Geçitler {#solo-gates}
 
@@ -84,13 +84,15 @@ Chrono-Gate’in parçaları sıfırlamada sıfıra döner ve her sezon yeniden 
 
 ## İçeri girmek {#going-in}
 
-Bir geçidi Galaksi Geçitleri sayfasında **inşa edersin** ve portalından **sıçrayarak** girersin. İnşa istasyondan yapılır, gemin kenetliyken: uçuyor olmana gerek yok. Şunlar gerekir:
+Bir geçidi Galaksi Geçitleri sayfasında **inşa edersin** ve portalından **sıçrayarak** girersin. İnşa istasyondan yapılır, gemin kenetliyken, uçuş sırasında da: araç çubuğundaki geçit düğmesinin açtığı **Galaksi Geçitleri penceresi** sayfa gibi çevirir, inşa eder ve hedefi seçer. Şunlar gerekir:
 
 - geçidin parçaları: bunlar **inşa ederken bir kez** alınır ve reddedilen bir inşa hiçbir şey almaz;
 - açık başka bir solo turun olmaması: aynı anda tek turun olur ve bıraktığın bir tura, başka bir geçit inşa etmeden önce portalından yeniden girilir ya da tur bırakılır;
 - ana sunucu (bölgesel sunucularda geçit yoktur).
 
 İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin.
+
+**Bölgesel sunucularda (Singapore, US East).** Geçidin kendisi ana sunucuda kalır: bölgesel bir sunucuda hiçbir şey inşa edilmez, oynanmaz ya da ödenmez. Yine de inşa edilmiş bir geçit orada unutulmaz: vardığında sana haber verilir ve geçidinin portalı orada da ana sektöründe durur. Ondan sıçra, ana sunucuya geri götürülürsün; orada yukarıdaki gibi geçidine uçuşa çıkarsın.
 
 Boş bir arenanın ortasına tek başına inersin. İçeride kimse sana saldıramaz; Jump CPU ve Base CPU çalışmaz.
 
@@ -110,16 +112,18 @@ Her dünya aynı geçitle savaşır: uzaylıların gücü ve ödemesi uçtuğun 
 
 Uzaylılar oyundakilerdir (Seeker, Phantasm, Bulwark, Goombah ve Crystalys), geçit tarafından daha sert ya da daha yumuşak yapılmıştır. Planlanan süre, geçidin Lazer teknolojisi başlangıç seviyesindeki bir pilotu ne kadar uğraştıracak biçimde kurulduğudur ([Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md)); Lazer teknolojisini geliştirmiş bir pilot daha erken bitirir.
 
+Bazı dalgalar bir **sürü** getirir: oyunun bir patron NPC'si (Boss Seeker, Boss Phantasm, Boss Goombah ya da Boss Crystalys) ve muhafızları, tek bir grup olarak saldırır. Bir sürünün her gemisi kendi dalgasının parçasıdır ve son gemi ölünce dalga biter. Dalganın diğer gemileri gibi öderler, [uzaylılar tablosundaki](#the-aliens) rakamlarla. **Bir patron NPC, oyunun sektörlerinde olduğu gibi ganimetini düşürür**: cevher, plaka, cephane ve roketler (her birinin ne düşürdüğü [sürülerin sayfalarında](/wiki/05-Swarms/Swarms.md) yazar). Bir geçitte toplanacak kutu yoktur: ganimet ödemeyle birlikte doğrudan envanterine gelir ve ödeme gibi tur başına yalnızca bir kez gelir. Muhafızları geçitte de sektörlerde de hiçbir şey düşürmez, patronlarını iyileştirmez ve geri gelmez. Aşağıdaki tablo, her geçidin hangi dalgalarının sürü getirdiğini söyler.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Geçit | Patronunki dahil dalgalar | Dalgalardaki uzaylılar | Patron | Planlanan süre |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 ile 15 dk |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 ile 25 dk |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 ile 35 dk |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 ile 45 dk |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 ile 60 dk |
+| Geçit | Patronunki dahil dalgalar | Dalgalardaki uzaylılar | Patron NPC'ler ve sürüler | Patron | Planlanan süre |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | 5. dalga: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 ile 15 dk |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | 4. dalga: 2 Seeker Swarm; 9. dalga: 1 Phantasm Swarm | Enhanced Bulwark | 15 ile 25 dk |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | 4. dalga: 1 Phantasm Swarm; 9. dalga: 1 Goombah Swarm; 14. dalga: 1 Goombah Swarm | Elite Crystalys | 25 ile 35 dk |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | 5. dalga: 2 Phantasm Swarm; 10. dalga: 2 Goombah Swarm; 15. dalga: 1 Goombah Swarm; 20. dalga: 1 Crystalys Swarm | Siege Construct | 35 ile 45 dk |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | 6. dalga: 1 Goombah Swarm; 11. dalga: 2 Goombah Swarm; 16. dalga: 1 Crystalys Swarm; 22. dalga: 1 Phantasm Swarm | Omega Guardian | 50 ile 60 dk |
 
 - **Delta Siege**: 18. dalga (250 Seeker) isteğe bağlıdır: geri sayımı sürerken atlayabilirsin ve hiçbir şey ödemez
 - **Omega Vault**: 17. dalga (250 Seeker) isteğe bağlıdır: geri sayımı sürerken atlayabilirsin ve hiçbir şey ödemez; 22. ile 24. dalgalar elittir; gövde, kalkan ve hasar ×1,5
@@ -182,7 +186,7 @@ Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: k
 
 ### Uzaylılar {#the-aliens}
 
-Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’daki rakamlarıyla öder: hiçbir dünya çarpanı, booster ve Premium bonusu bunları değiştirmez. Bir dalga uzaylıları için bir tur boyunca **bir kez** öder, kaç kez çıkıp girersen gir. Ödeme, turun her kesiminin sonunda gelir: ayrıldığında, öldüğünde, canların bittiğinde, pes ettiğinde ya da tamamladığında. Bir kesimin öldürmeleri yalnızca sıfırlamada ve sen içerideyken sunucunun yeniden başlatılmasında ödenmeden kalır (turun açık kalır, ama o kesimin öldürmeleri kaybolur). Bir geçitteki öldürmeler başka hiçbir şeye sayılmaz: görevlere, öldürme istatistiklerine, başarımların sayaçlarına, öldürme akışına ya da dronelarının ve P.E.T.’lerinin deneyimine. Ama ödedikleri deneyim, bir tamamlamanın deneyimi gibi PvE sıralama puanlarına sayılır. Uzaylıların ganimeti ödemeyle birlikte doğrudan envanterine gelir.
+Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’daki rakamlarıyla öder: hiçbir dünya çarpanı, booster ve Premium bonusu bunları değiştirmez. Bir dalga uzaylıları için bir tur boyunca **bir kez** öder, kaç kez çıkıp girersen gir. Ödeme, turun her kesiminin sonunda gelir: ayrıldığında, öldüğünde, canların bittiğinde, pes ettiğinde ya da tamamladığında. Bir kesimin öldürmeleri yalnızca sıfırlamada ve sen içerideyken sunucunun yeniden başlatılmasında ödenmeden kalır (turun açık kalır, ama o kesimin öldürmeleri kaybolur). Bir geçitteki öldürmeler, hiçbir sektör adlandırmayan [görevlere](/wiki/03-Mechanics/Quests.md#where-it-counts) (meydan okuma hattının büyük avları gibi) gerçekleştikleri anda sayılır (bir dalga bir tur boyunca onlara **bir kez** sayılır, tıpkı bir kez ödediği gibi) ve başka hiçbir şeye sayılmaz: öldürme istatistiklerine, başarımların sayaçlarına, öldürme akışına ya da dronelarının ve P.E.T.’lerinin deneyimine. Ama ödedikleri deneyim, bir tamamlamanın deneyimi gibi PvE sıralama puanlarına sayılır. Uzaylıların ganimeti ödemeyle birlikte doğrudan envanterine gelir.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’d
 | **Bulwark** | 5.000 | 25 | 800 | 10 |
 | **Goombah** | 15.000 | 75 | 3.000 | 24 |
 | **Crystalys** | 75.000 | 200 | 12.000 | 52 |
+| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Geçit | Kredi | Thulium | XP | Onur |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540.000 | 2.160 | 54.000 | 1.080 |
-| **Beta Breach** | 1.320.000 | 5.980 | 186.000 | 2.520 |
-| **Gamma Foundry** | 3.000.000 | 13.300 | 522.000 | 4.616 |
-| **Delta Siege** | 4.975.000 | 21.400 | 829.000 | 7.640 |
-| **Omega Vault** | 6.875.000 | 29.000 | 1.160.000 | 10.100 |
+| **Alpha Rift** | 514.000 | 2.099 | 55.296 | 1.018 |
+| **Beta Breach** | 1.298.500 | 5.939 | 187.744 | 2.470 |
+| **Gamma Foundry** | 3.064.500 | 13.693 | 541.944 | 4.696 |
+| **Delta Siege** | 5.239.625 | 22.338 | 882.676 | 7.850 |
+| **Omega Vault** | 7.088.125 | 29.196 | 1.196.828 | 10.022 |
 
 <!-- solo-kills:end -->
 

@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper: en tredje laser, tre gånger Protos skrov och en snabbare drivning, köpt med Thulium.
+Kitefin är ett lätt kanonskepp och det första skepp de flesta piloter köper: fyra lasrar, tre gånger Protos skrov och en snabbare drivning, köpt med Thulium.
 
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 24 000
-- **Grundhastighet**: 190
-- **Laserplatser**: 3
+- **Grundhastighet**: 220
+- **Laserplatser**: 4
 - **Extraplatser**: 2
 
 ### Generator- och stödplatser {#generator-support-slots}

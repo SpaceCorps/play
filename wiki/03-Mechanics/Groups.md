@@ -45,18 +45,21 @@ A kill also counts for the **kill missions** of every other member who is on the
 
 ## Chat Channels
 
-The chat has a row of tabs on top: **Global**, **Local**, **Group** (while you are in a group) and, last, **System**. The line you type goes to the tab in view, and the tab you last used is remembered. Each channel has its colour and a short tag on every line (GLB, LOC, GRP), a tab counts the lines you have not read, and the chat's button in the toolbar carries the count while the window is closed. Or start a line with a command:
+The chat has a row of tabs on top: **Global**, **Local**, **Group** (while you are in a group), **Clan** (while you are in a clan) and, last, **System**. The line you type goes to the tab in view, and the tab you last used is remembered. Each channel has its colour and a short tag on every line (GLB, LOC, GRP), a tab counts the lines you have not read, and the chat's button in the toolbar carries the count while the window is closed. Or start a line with a command:
 
 | Channel | Who hears it | Command |
 | :--- | :--- | :--- |
 | **Local** | pilots on your map | `/l` or `/local` |
 | **Global** | every pilot on every server and in every world | `/g` or `/global` |
 | **Group** | your group on your server, wherever they are | `/p`, `/party` or `/group` |
+| **Clan** | your clan's pilots on the home server; what is said is kept for those who are not on | `/c` or `/clan` |
 | **Private** | one pilot on your server, wherever they are | `/m`, `/msg` or `/w`, then the name and the message ([below](#private-messages)) |
 
 A command switches the tab too, and typed alone (`/g`) it only switches. Group chat needs a group. On a game server from before the channels the chat is the one list it was, and a group cannot be formed.
 
 **Global** is one chat for the whole game: every pilot on every server and in every world hears your line, in flight or at the station. A line from another server can arrive a moment after it was sent, and pilots on different servers may see two near-simultaneous lines in a different order. Rest the pointer on a pilot's name and the card that opens also says which server he flies on, when it is not yours. The other channels stay on the server you are on: **Local** is the pilots on your map, **Group** chat and private messages reach only pilots on your server, and the [kill feed](#the-kill-feed) and the **System** lines (the server's announcements) belong to each server. If a server loses its link to the rest, its Global shrinks to its own pilots until the link is back; a short break is made up late, and what was said during a longer one is not told afterwards.
+
+**Clan** is the one channel the game keeps. A line you write in it reaches every member of your clan who is online on the home server, at a station or in flight, and the server keeps the clan's last **200 lines**, none older than **14 days**. Whoever logs in, joins the clan or opens the Clan tab gets them, oldest first, under a line that says how long the chat is kept; a line from an earlier day shows its date with the time, and the lines you read this way do not count as unread. Someone who leaves the clan or is dismissed gets nothing more of it, and when the clan is disbanded, by its Leader or by the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md), its lines are deleted with it. The rules of the chat ([The Chat Rules](#the-chat-rules)) are the same as in the other channels, ignoring a pilot hides his clan lines, and a clan line can be reported like any other. On a regional server there is no Clan tab, and `/c` says that clan chat is only available on the home server.
 
 **System** is gold and read-only, with a list of its own: it holds what the server says on its own (the welcome, the restart, update and wipe warnings, the swarm announcements) and what your ship reports (repairs, cloaking, EMPs, rockets). Those lines are in no other tab, so a busy Global cannot push them out, and the pilots' tabs hold what pilots say. The tab's count is for the announcements; a restart or update countdown and the wipe warnings also pop up as a notice. The [kill feed](#the-kill-feed) stays in **Global**, with its own switch, and the lines about pilots joining or leaving your group are in **Group**.
 
@@ -112,7 +115,7 @@ Your ignored list and the Hide Global switch are kept with your account, so they
 
 ## Rules of Engagement
 
-**Members of one group cannot hurt each other**, whatever their companies: you cannot lock on to a groupmate (lasers or rockets), your shots and blasts pass through them, and nothing you do to one counts as a kill, a PvP kill or a black hole kill for anyone. Company mates who are **not** in the same group are as before: hitting one costs **100 Honor** when it is destroyed. Leave the group and a former mate, enemy or not, is fair game again at once (where the sector and the season allow fighting at all). Everyone outside your group is treated as ever, and safe zones, the Peace Protocol and the sectors' PvP rules do not change for anyone.
+**Members of one group cannot hurt each other**, whatever their companies: you cannot lock on to a groupmate (lasers or rockets), your shots and blasts pass through them, and nothing you do to one counts as a kill, a PvP kill or a black hole kill for anyone. Company mates who are **not** in the same group are as before: hitting one with a laser or a rocket costs **100 Honor** when it is destroyed. Leave the group and a former mate, enemy or not, is fair game again at once (where the sector and the season allow fighting at all). Everyone outside your group is treated as ever, and safe zones, the Peace Protocol and the sectors' PvP rules do not change for anyone.
 
 ## Bringing a Friend
 

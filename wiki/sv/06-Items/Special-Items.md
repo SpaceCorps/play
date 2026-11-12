@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -23,7 +23,7 @@
 | Föremål | Sällsynthet | Så många kan du ha | Vad det gör |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Legendarisk | 5 | Slutför en Skylab-uppgradering direkt |
-| **Schematics** | Sällsynt | 20 | Slutför den pågående forskningen om den tar 24 timmar eller mindre |
+| **Schematics** | Sällsynt | 20 | Tar bort 24 timmar från den pågående forskningen; slutför den om 24 timmar eller mindre återstår |
 | **Philosopher's Stone** | Episk | 10 | Din Kreditfarm och din Thuliumfarm producerar dubbelt så mycket i 10 timmar |
 | **Tinkerer's Badge** | Episk | 10 | Höjer en utrustningsdel en nivå i Smedjan, från Befläckad och uppåt |
 | **Forger's Seal** | Ovanlig | 99 | Hoppar över upp till 30 minuter av produktionskön |
@@ -44,12 +44,13 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 ### Schematics
 
-Slutför **forskningen som pågår just nu**, om tekniken tar **24 timmar eller mindre** att forska fram. 143 av de 159 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) uppfyller det. De 16 som tar 48 eller 72 timmar gör det inte: Wraith, tre drönarformationer, Hull Plating III, nivå 4 och 5 av Motormodulen och Försvarsmodulen och sju pilotteknikter.
+Tar bort **24 timmar från forskningen som pågår just nu**. Om **24 timmar eller mindre** återstår, **slutförs** forskningen direkt; om mer återstår förlorar den 24 timmar och fortsätter, och du kan använda ett till Schematics på den. 167 av de 187 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) tar 24 timmar eller mindre, så ett Schematics slutför dem från början. De andra 20 tar längre tid, de flesta 48 eller 72 timmar och Rocket Launcher III, IV och V 96, 168 och 240 timmar, och kräver 2 till 10 Schematics.
 
-- **Forskningstiden räknas, inte tiden som återstår.** En teknik på 48 timmar med en timme kvar nekas ändå: Schematics tittar på hur lång tid tekniken tar totalt.
-- **Priset förblir betalt.** Dark Matter, krediter och Thulium drogs när forskningen startade och ges inte tillbaka. Vetenskapen som forskningen ännu inte brunnit stannar kvar i din tank.
-- **Forskningen slutar som en som blivit klar själv.** Tekniken är din, meddelandena visas och **nästa teknik i din kö startar direkt**, om den kan.
-- **Nekas** utan Forskningscenter, utan pågående forskning eller när tekniken tar mer än 24 timmar.
+- **Teknikens timmar, inte klockans.** De 24 timmarna är teknikens egen forskningstid, den som står på dess kort. Thulium-boosten får en forskning att gå snabbare men ändrar inte vad en användning tar bort; om en boost skulle täcka forskningens slut sparar en användning färre väntetimmar (vid dubbel hastighet är ett dygn av forskning 12 timmars väntan). Bekräftelsen säger vad timern kommer att visa.
+- **Forskningen fortsätter som förut.** En forskning som förlorar 24 timmar behåller sin plats: boosten fortsätter, kön rörs inte och inget startar bakom den. En forskning som väntar på vetenskap väntar fortfarande: Schematics ger tid, inte bränsle.
+- **Priset förblir betalt.** Dark Matter, krediter och Thulium drogs när forskningen startade och ges inte tillbaka. Vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank.
+- **En slutförd forskning slutar på vanligt sätt.** Tekniken är din, meddelandena visas och **nästa teknik i din kö startar direkt**, om den kan.
+- **Nekas** utan Forskningscenter eller utan pågående forskning (en forskning som tog slut av sig själv före ditt klick pågår inte längre, och inget förbrukas).
 - Det startar aldrig en forskning och väljer aldrig en åt dig.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.
 - **Ett antal, inte ett föremål.** Inventariet i Hangaren är den enda platsen som listar dem, som rutor bland förbrukningsvarorna; ett slag du inte har något av har ingen ruta. En ruta är inget föremål, så den kan inte dras, markeras, raderas eller säljas. De har ingen vikt, ingen snabbfältsplats och ingen plats i lasten eller transportförrådet; de tappas aldrig när ditt skepp förstörs.
 - **Genom wipen.** Dina specialföremål och en pågående Philosopher's Stone eller ett pågående kontrakt behålls, som Skylab, forskningen och ditt utseende.
 - **Handlas aldrig.** Inte på [Auktionen](/wiki/03-Mechanics/Auction.md), inte till en annan pilot, inte mot krediter.
-- **Bara Hammer kan flytta ditt tempo**, och du kan bara ha 5. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, en forskning på högst 24 timmar.
+- **Bara Hammer kan flytta ditt tempo**, och du kan bara ha 5. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, 24 timmar av en forskning.
 - **En användning, en bekräftelse, ett ljud.** Varje användning spelar sin egen diskreta signal.
 
 ## Vanliga misstag {#common-mistakes}
 
 - **Hammer behöver en pågående uppgradering.** Starta uppgraderingen först. En modul vars timer redan gått ut har inget kvar att slutföra.
-- **Schematics tittar på hela forskningstiden.** En teknik på 48 eller 72 timmar kan inte slutföras med dem, hur lite som än återstår.
+- **En lång forskning behöver flera Schematics.** Ett tar bort 24 timmar, inte mer: en teknik på 240 timmar behöver tio. Bladet visar hur mycket som blir kvar innan du bekräftar.
 - **Stone töjer inte lagret.** Hämta innan en farm blir full, annars går bonusen förlorad.
 - **Badge är för Befläckad och uppåt.** Smedjans första steg behöver inget Badge.
 - **Ett kontrakt behöver arbete att göra.** Bygg först en producent, en Malmvik eller en modul, anlita sedan arbetaren.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T. -->
 # P.E.T. {#pets}
 
@@ -115,7 +115,7 @@ Otto dei dieci tipi danno solo boost. Il **Retriever** e il **Mole** li danno an
 Un Retriever agganciato prende la cassa di carico più vicina nella sua **portata**, una cassa alla volta e ognuna in mezzo secondo, il tempo che richiede la tua raccolta: non è mai più veloce di una mano. Il suo drone vola verso la cassa, un anello di luce le si chiude intorno e, dove giaceva la cassa, suona un piccolo bip.
 
 - **Portata.** Dal centro della tua nave al centro della cassa. La tua raccolta arriva a 200 unità; un Retriever parte sopra e cresce con il suo grado e il suo livello, fino a 880 unità (8 lunghezze di nave) per un Legendary di livello 20. Una nave è lunga circa 110 unità.
-- **Quali casse.** Solo casse che potresti prendere da solo: le tue e quelle del tuo clan, e quelle di tutti quando la loro riserva è finita. Mai una cassa ancora riservata a un altro pilota o clan, e mai la [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) di un altro pilota; le tue casse private le prende. Il bottino di un abbattimento, i frammenti di un asteroide, le casse di Dark Matter e le casse di un escavatore gigante sono tutte casse. Una cassa che stai raccogliendo a mano resta a te, e se tu e il tuo Retriever raggiungete una cassa insieme, solo uno dei due la ottiene.
+- **Quali casse.** Solo casse che potresti prendere da solo: le tue e quelle del tuo clan (non i frammenti di un asteroide posati per un compagno di clan: per 30 secondi sono solo suoi), e quelle di tutti quando la loro riserva è finita. Mai una cassa ancora riservata a un altro pilota o clan, e mai la [cassa privata](/wiki/03-Mechanics/Cargo.md#private-boxes) di un altro pilota; le tue casse private le prende. Il bottino di un abbattimento, i frammenti di un asteroide, le casse di Dark Matter e le casse di un escavatore gigante sono tutte casse. Una cassa che stai raccogliendo a mano resta a te, e se tu e il tuo Retriever raggiungete una cassa insieme, solo uno dei due la ottiene.
 - **Cosa ottieni.** Ciò che darebbe la tua raccolta: gli oggetti vanno nell’inventario del tuo hangar, il [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) aggiunge la sua parte e i crediti e il Thulium di un frammento vengono pagati come quando lo raccogli tu.
 
 ### Il Mole {#the-mole}

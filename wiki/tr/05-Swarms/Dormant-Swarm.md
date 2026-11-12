@@ -57,7 +57,7 @@ Wraith temel alınarak, gövdesinin %100 kadarıyla ve lazer hasarının %300 ka
 | :--- | ---: | ---: | ---: |
 | Gövde | 256.000 | 384.000 | 512.000 |
 | Kalkan | 83.400 | 125.100 | 166.800 |
-| Lazer hasarı (saniyede bir salvo) | 3.120 | 4.680 | 6.240 |
+| Lazer hasarı (saniyede bir salvo) | 3.570 | 5.355 | 7.140 |
 | Hız | 210 | 210 | 210 |
 | Lazer menzili | 800 | 800 | 800 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
@@ -84,8 +84,8 @@ Paragon temel alınarak, gövdesinin %100 kadarıyla ve lazer hasarının %600 k
 | :--- | ---: | ---: | ---: |
 | Gövde | 128.000 | 192.000 | 256.000 |
 | Kalkan | 64.570 | 96.855 | 129.140 |
-| Lazer hasarı (saniyede bir salvo) | 4.320 | 6.480 | 8.640 |
-| Hız | 230 | 230 | 230 |
+| Lazer hasarı (saniyede bir salvo) | 5.100 | 7.650 | 10.200 |
+| Hız | 270 | 270 | 270 |
 | Lazer menzili | 800 | 800 | 800 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Roket hasarı, en fazla | 5.000 | 7.500 | 10.000 |

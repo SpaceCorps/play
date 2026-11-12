@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -47,18 +47,21 @@ Um abate também conta para as **missões de abate** de todos os outros membros 
 
 ## Canais de chat {#chat-channels}
 
-O chat tem uma fileira de abas no alto: **Global**, **Local**, **Grupo** (enquanto você está em um grupo) e, por último, **Sistema**. A linha que você digita vai para a aba em vista, e a aba que você usou por último é lembrada. Cada canal tem a sua cor e uma tag curta em cada linha (GLB, LOC, GRP), cada aba conta as linhas que você não leu, e o botão do chat na barra de ferramentas mostra a contagem enquanto a janela está fechada. Ou comece uma linha com um comando:
+O chat tem uma fileira de abas no alto: **Global**, **Local**, **Grupo** (enquanto você está em um grupo), **Clã** (enquanto você está em um clã) e, por último, **Sistema**. A linha que você digita vai para a aba em vista, e a aba que você usou por último é lembrada. Cada canal tem a sua cor e uma tag curta em cada linha (GLB, LOC, GRP), cada aba conta as linhas que você não leu, e o botão do chat na barra de ferramentas mostra a contagem enquanto a janela está fechada. Ou comece uma linha com um comando:
 
 | Canal | Quem ouve | Comando |
 | :--- | :--- | :--- |
 | **Local** | os pilotos do seu mapa | `/l` ou `/local` |
 | **Global** | todos os pilotos de todos os servidores e de todos os mundos | `/g` ou `/global` |
 | **Grupo** | o seu grupo no seu servidor, onde quer que esteja | `/p`, `/party` ou `/group` |
+| **Clã** | os pilotos do seu clã no servidor de origem; o que se diz fica guardado para quem não está online | `/c` ou `/clan` |
 | **Privado** | um único piloto do seu servidor, onde quer que esteja | `/m`, `/msg` ou `/w`, depois o nome e a mensagem ([abaixo](#private-messages)) |
 
 Um comando também muda a aba e, digitado sozinho (`/g`), só muda a aba. O chat do grupo precisa de um grupo. Em um servidor de jogo anterior aos canais, o chat é a lista única que sempre foi, e não é possível formar um grupo.
 
 O **Global** é um único chat para o jogo todo: sua linha é ouvida por todos os pilotos de todos os servidores e de todos os mundos, em voo ou na estação. Uma linha de outro servidor pode chegar um instante depois de enviada, e pilotos de servidores diferentes podem ver duas linhas quase simultâneas em ordem diferente. Deixe o ponteiro sobre o nome de um piloto: o cartão que abre diz também em qual servidor ele voa, quando não é o seu. Os outros canais ficam no servidor em que você está: o **Local** são os pilotos do seu mapa, o chat de grupo e as mensagens privadas alcançam só pilotos do seu servidor, e o [registro de baixas](#the-kill-feed) e as linhas do **Sistema** (os avisos do servidor) são de cada servidor. Se um servidor perde a ligação com os outros, o seu Global encolhe para os próprios pilotos até a ligação voltar; uma pausa curta é recuperada com atraso, e o que foi dito durante uma mais longa não é contado depois.
+
+**Clã** é o único canal que o jogo guarda. Uma linha que você escreve nele chega a todos os membros do seu clã que estejam online no servidor de origem, em uma estação ou em voo, e o servidor guarda as últimas **200 linhas** do clã, nenhuma com mais de **14 dias**. Quem entra no jogo, entra no clã ou abre a aba Clã as recebe, a mais antiga primeiro, sob uma linha que diz por quanto tempo o chat é guardado; uma linha de um dia anterior mostra a data junto com a hora, e as linhas lidas assim não contam como não lidas. Quem sai do clã ou é expulso não recebe mais nada, e quando o clã é dissolvido, pelo seu Líder ou pelo [reset](/wiki/03-Mechanics/Wipe-Timeline.md), as linhas são apagadas com ele. As regras do chat ([As regras do chat](#the-chat-rules)) são as mesmas dos outros canais, ignorar um piloto esconde as linhas dele no clã, e uma linha do clã pode ser denunciada como qualquer outra. Em um servidor regional não há aba Clã, e `/c` diz que o chat do clã só está disponível no servidor de origem.
 
 A aba **Sistema** é dourada e somente de leitura, com uma lista própria: nela ficam as mensagens que o servidor dá por conta própria (as boas-vindas, os avisos de reinício, de atualização e de reset, os anúncios de enxame) e o que a sua nave informa (reparos, camuflagem, EMPs, foguetes). Essas linhas não estão em nenhuma outra aba, então um Global movimentado não consegue empurrá-las para fora, e as outras abas guardam o que os pilotos dizem. A contagem da aba é só dos anúncios; a contagem regressiva de um reinício ou de uma atualização e os avisos de reset também aparecem por um instante como notificação. O [registro de baixas](#the-kill-feed) fica no **Global**, com o seu próprio interruptor, e as linhas sobre pilotos que entram no seu grupo ou saem dele estão em **Grupo**.
 
@@ -114,7 +117,7 @@ A sua lista de ignorados e a opção de ocultar o Global ficam guardadas na sua 
 
 ## Regras de engajamento {#rules-of-engagement}
 
-**Os membros de um mesmo grupo não podem se ferir**, sejam quais forem as corporações: você não pode travar um colega de grupo como alvo (lasers ou foguetes), seus disparos e explosões passam por ele, e nada do que você faz a um deles conta como abate, abate PvP ou abate do buraco negro para ninguém. Os colegas de corporação que **não** estão no mesmo grupo continuam como antes: atingir um custa **100 de honra** quando ele é destruído. Saia do grupo e um ex-colega, inimigo ou não, volta a ser alvo legítimo na hora (onde o setor e a temporada permitem lutar). Todos fora do seu grupo são tratados como sempre, e as zonas seguras, o Protocolo de Paz e as regras PvP dos setores não mudam para ninguém.
+**Os membros de um mesmo grupo não podem se ferir**, sejam quais forem as corporações: você não pode travar um colega de grupo como alvo (lasers ou foguetes), seus disparos e explosões passam por ele, e nada do que você faz a um deles conta como abate, abate PvP ou abate do buraco negro para ninguém. Os colegas de corporação que **não** estão no mesmo grupo continuam como antes: atingir um com um laser ou um foguete custa **100 de honra** quando ele é destruído. Saia do grupo e um ex-colega, inimigo ou não, volta a ser alvo legítimo na hora (onde o setor e a temporada permitem lutar). Todos fora do seu grupo são tratados como sempre, e as zonas seguras, o Protocolo de Paz e as regras PvP dos setores não mudam para ninguém.
 
 ## Convidando um amigo {#bringing-a-friend}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: Investigación -->
 # Investigación {#research}
 
@@ -30,7 +30,7 @@ Esta página reúne el árbol de tecnologías completo con el tiempo de cada una
 
 <!-- research-centre:end -->
 
-**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) termina al instante la investigación que está en marcha, si su tecnología tarda 24 horas o menos en investigarse (143 de las 159 tecnologías). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que aún no ha quemado se queda en tu depósito y la siguiente tecnología de tu cola empieza al instante.
+**Schematics.** Un [Schematics](/wiki/06-Items/Special-Items.md#schematics) quita 24 horas a la investigación que está en marcha: si quedan 24 horas o menos, se termina al instante, y una más larga pierde 24 horas y sigue (167 de las 187 tecnologías tardan 24 horas o menos, así que uno las termina desde el principio; las otras 20 necesitan de 2 a 10). Lo que costó la investigación se pagó al empezar y no se devuelve, la ciencia que habría quemado el tiempo saltado se queda en tu depósito y, cuando la investigación termina, la siguiente tecnología de tu cola empieza al instante.
 
 **Los amplificadores láser y el último nivel.** Los Damage, Crit y Penetration Amps de los niveles II a IV se investigan como el resto de fabricaciones. Los pilotos que tenían o habían puesto en cola amps al llegar las líneas de amps recibieron la tecnología de cada uno de ellos y la de los niveles inferiores. Trece tecnologías necesitan una tecnología de otro árbol, la de la Dark Matter Plate, del árbol Recursos, porque el último nivel de cada cadena de mejora pide cuatro plates y una Ancient Control Unit: los Damage, Crit y Penetration Amps del nivel IV, las Absorption y Capacity Shield Cells del nivel IV, los Impulse y Momentum Thrusters del nivel IV, el Heavy Shield Core, el Engine III, el Adaptive Core III, el Helios Beam, el Extra Slots CPU III y el Base CPU II. Un piloto que investigó una de ellas antes la conserva, y necesita la tecnología de la plate para fabricar sus plates. El árbol de abajo no dibuja ninguna flecha para ella, pero la tabla la lista y la tarjeta del juego la nombra ([Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@ Lo que hace un impulso con el tiempo de una investigación, con impulso desde su
 | 6 h | 3 h | 1 | 5.000 |
 | 8 h | 4 h | 1 | 5.000 |
 | 10 h | 5 h | 1 | 5.000 |
+| 16 h | 8 h | 1 | 5.000 |
 | 1 d | 12 h | 1 | 5.000 |
 | 2 d | 1 d | 1 | 5.000 |
 | 4 d | 2 d | 2 | 10.000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Potenciadores {#tree-boosters}
@@ -550,18 +557,23 @@ La familia Piloto de la vista de investigación tiene tecnologías que no son un
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 d | 864.000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 h | 10.800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 h | 21.600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 h | 10.800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 h | 21.600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 h | 36.000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 h | 57.600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 d | 86.400 | – |
 
 Las clases, por tiempo de investigación:
 
 | Clase | Tiempo de investigación | Tecnologías | Una tras otra | Ciencia | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min a 1 h | 17 | 9 h 30 min | 34.200 | 0 |
-| B | 3 h a 6 h | 35 | 5 d 11 h | 471.600 | 0 |
-| C | 8 h a 10 h | 19 | 7 d 18 h | 669.600 | 95 |
-| D | 1 d a 10 d | 28 | 52 d | 4.492.800 | 329 |
-| Todas |  | 99 | 65 d 14 h 30 min | 5.668.200 | 424 |
+| B | 3 h a 6 h | 37 | 5 d 20 h | 504.000 | 0 |
+| C | 8 h a 10 h | 20 | 8 d 4 h | 705.600 | 95 |
+| D | 16 h a 10 d | 30 | 53 d 16 h | 4.636.800 | 329 |
+| Todas |  | 104 | 68 d 1 h 30 min | 5.880.600 | 424 |
 
-Investigado una tecnología tras otra, el árbol entero tarda 65 d 14 h 30 min. Con el impulso activo todo el tiempo tarda 32 d 19 h 15 min, que son 33 impulsos y 165.000 Thulium; la ciencia es la misma.
+Investigado una tecnología tras otra, el árbol entero tarda 68 d 1 h 30 min. Con el impulso activo todo el tiempo tarda 34 d 45 min, que son 35 impulsos y 175.000 Thulium; la ciencia es la misma.
 
 <!-- research-technologies:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.-ek -->
 # P.E.T.-ek {#pets}
 
@@ -115,7 +115,7 @@ A tíz típusból nyolc csak bónuszt ad. A **Retriever** és a **Mole** is ad b
 Egy dokkolt Retriever felveszi a **hatótávján** belüli legközelebbi rakományládát, egyszerre egyet, és mindegyiket fél másodperc alatt, annyi idő alatt, amennyi a te saját felvételed: soha nem gyorsabb egy kéznél. A drónja a ládához repül, egy fénygyűrű zárul köré, és ott, ahol a láda volt, egy kis csippanás hallatszik.
 
 - **Hatótáv.** A hajód közepétől a láda közepéig. A saját felvételed 200 egységre ér el; a Retriever efölött kezd, és a fokozatával és szintjével nő, egy 20. szintű Legendarynél 880 egységre (8 hajóhossz). Egy hajó nagyjából 110 egység hosszú.
-- **Mely ládákat.** Csak olyat, amelyet te magad is felvehetnél: a tieidet és a klánodét, és mindenkiét, miután a foglalás lejárt. Soha nem olyat, amely még más pilótának vagy klánnak van lefoglalva, és soha nem más pilóta [privát ládáját](/wiki/03-Mechanics/Cargo.md#private-boxes); a saját privát ládáidat felveszi. Egy kilövés zsákmánya, egy aszteroida darabjai, a Dark Matter-ládák és egy óriás kotrógép ládái mind ládák. Azt a ládát, amelyet kézzel veszel fel, rád hagyja, és ha te és a Retrievered egyszerre érik el ugyanazt a ládát, pontosan egyikőtök kapja meg.
+- **Mely ládákat.** Csak olyat, amelyet te magad is felvehetnél: a tieidet és a klánodét (az aszteroida-darabokat nem, ha egy klántársnak rakták le őket: azok 30 másodpercig csak az övéi), és mindenkiét, miután a foglalás lejárt. Soha nem olyat, amely még más pilótának vagy klánnak van lefoglalva, és soha nem más pilóta [privát ládáját](/wiki/03-Mechanics/Cargo.md#private-boxes); a saját privát ládáidat felveszi. Egy kilövés zsákmánya, egy aszteroida darabjai, a Dark Matter-ládák és egy óriás kotrógép ládái mind ládák. Azt a ládát, amelyet kézzel veszel fel, rád hagyja, és ha te és a Retrievered egyszerre érik el ugyanazt a ládát, pontosan egyikőtök kapja meg.
 - **Mit kapsz.** Azt, amit a saját felvételed adna: a tárgyak a hangárod leltárába kerülnek, a [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) hozzáadja a részét, és egy darab kreditjét és Thuliumát úgy fizetik ki, ahogy akkor is, amikor te magad veszed fel.
 
 ### A Mole {#the-mole}

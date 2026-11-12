@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
@@ -14,7 +14,7 @@ Gli obiettivi sono le mete di un’intera carriera da pilota: distruggere il tuo
 
 ## Fasce e ricompense {#tiers-and-rewards}
 
-Le cinque fasce pagano lo stesso per ogni obiettivo che contengono, una sola volta. La tabella conta tutti e 40, anche quelli nascosti.
+Le cinque fasce pagano lo stesso per ogni obiettivo che contengono, una sola volta. La tabella conta tutti e 50, anche quelli nascosti.
 
 | Fascia | Obiettivi | Crediti ciascuno |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ I 45 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 181 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 187 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 
@@ -134,10 +134,11 @@ Un **titolo** è una breve riga di testo accanto al nome di un pilota. 32 dei 50
 Nella **versione Steam** puoi collegare il tuo account di gioco al tuo account Steam, e allora i tuoi obiettivi vengono segnati anche su Steam. I download diretti non hanno Steam, quindi nemmeno il collegamento; gli obiettivi, le ricompense e i titoli del gioco funzionano allo stesso modo in ogni versione.
 
 - **Collegalo** in **Impostazioni › Account**, sulla scheda Steam. Inserisci di nuovo la password del gioco per avviare il collegamento. Il gioco chiede poi a Steam di garantire chi sei, e il server si fida solo della risposta di Steam: nulla di ciò che digiti può indicare un account Steam.
+- **Un nuovo account si collega da solo.** Quando ti registri nella versione Steam, il modulo ha un interruttore **Collega al mio account Steam**, attivo per impostazione predefinita. L’account viene collegato al tuo primo accesso, con la password che hai appena digitato, e valgono gli stessi controlli (Steam garantisce chi sei; uno a uno). Gli account che esistono già non vengono mai collegati da soli.
 - **Uno a uno.** Un account di gioco ha al massimo un account Steam, e un account Steam si collega a un solo account di gioco. Se un account Steam è già collegato a un altro pilota, il gioco te lo dice e non collega nulla. Un admin può spostare un collegamento a mano quando due account rivendicano lo stesso account Steam.
 - **Ciò che il server conserva** è il tuo ID Steam, il numero pubblico del tuo account Steam, e il momento del collegamento. Non conserva nient’altro di Steam: né il tuo nome Steam, né gli amici, né i giochi, né la password. L’ID lo vedono solo tu e gli amministratori del gioco, mai gli altri piloti.
 - **Scollegalo** sulla stessa scheda, con la tua password: l’ID Steam conservato viene cancellato all’istante. Dopo uno scollegamento puoi collegare un altro account Steam solo dopo 24 ore; ricollegare lo stesso funziona subito. Per quelle 24 ore il server tiene una breve nota dello scollegamento (l’ora e un codice rimescolato ricavato dall’ID, solo per capire se ricolleghi lo stesso account) e poi la cancella.
-- **Gli obiettivi arrivano su Steam quando accedi con la versione Steam**, finché l’account Steam in esecuzione è quello che hai collegato. Il gioco controlla che cosa manca a Steam e lo segna, così un obiettivo ottenuto in un download diretto, o mentre Steam era chiuso, arriva al tuo prossimo accesso con Steam. Offline non si perde nulla: il gioco conserva il registro e Steam lo viene a sapere dopo.
+- **Gli obiettivi arrivano su Steam appena li ottieni**, finché l’account Steam in esecuzione è quello che hai collegato: Steam mostra il proprio avviso pochi secondi dopo quello del gioco. A ogni accesso il gioco controlla anche che cosa manca a Steam e lo segna, così un obiettivo ottenuto in un download diretto, o mentre Steam era chiuso, arriva in quel momento, e un tentativo fallito viene ripetuto da solo. Mentre voli su un altro server (un nodo regionale) lì non si ottiene né si invia nulla; tornato alla stazione, il gioco recupera. Offline non si perde nulla: il gioco conserva il registro e Steam lo viene a sapere dopo.
 - I crediti e i titoli di un obiettivo vengono dal registro del server di gioco, mai da Steam.
 
 ## Da quando si conta {#when-counting-began}

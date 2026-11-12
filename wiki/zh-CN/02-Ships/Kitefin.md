@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-Kitefin 是一艘轻型炮艇，也是大多数飞行员买下的第一艘舰船：第三门激光，三倍于 Protos 的船体，更快的驱动，用 Thulium 购买。
+Kitefin 是一艘轻型炮艇，也是大多数飞行员买下的第一艘舰船：四门激光，三倍于 Protos 的船体，更快的驱动，用 Thulium 购买。
 
 ## 属性 {#stats}
 
 - **生命值（HP）**：24,000
-- **基础速度**：190
-- **激光槽位**：3
+- **基础速度**：220
+- **激光槽位**：4
 - **附加槽位**：2
 
 ### 发生器与支援槽位 {#generator-support-slots}

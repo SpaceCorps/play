@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior número de lasers de todas as naves (14) em um casco leve para a sua classe. Pela classificação do jogo (mais de 10 slots de laser), é um Encouraçado Classe IV. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
+A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior número de lasers de todas as naves (15) em um casco leve para a sua classe. Pela classificação do jogo (mais de 10 slots de laser), é um Encouraçado Classe IV. Ela é fabricada na Montagem depois que o Centro de Pesquisa pesquisa a tecnologia dela, e, com lasers iguais, perde em combate individual para uma Wraith ou uma Ironclad.
 
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 180.000
-- **Velocidade base**: 260
-- **Slots de laser**: 14
+- **Velocidade base**: 350
+- **Slots de laser**: 15
 - **Slots extras**: 3
-- **Slots de blindagem**: 7
+- **Slots de blindagem**: 8
 
 ### Slots de gerador e suporte {#generator-support-slots}
 
-- **Slots de núcleo (100% de eficiência)**: 4
+- **Slots de núcleo (100% de eficiência)**: 3
 - **Slots de suporte (75% de eficiência)**: 4
 - **Slots auxiliares (50% de eficiência)**: 2
 
@@ -27,7 +27,7 @@ A Storm é um caça de canhão de vidro: a velocidade base mais alta e o maior n
 
 ## Pesquisa {#research}
 
-- **Slots de blindagem.** Esta nave tem 7 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 7 cheios de Hull Plating III, somam-se 175.000 de casco.
+- **Slots de blindagem.** Esta nave tem 8 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md), todos bloqueados quando você a fabrica. Cada um é uma tecnologia própria no Skylab, 1 h e 10 Dark Matter, pesquisada em ordem a partir do primeiro; ela abre aquele slot nesta nave e em cada um dos seus designs. Com os 8 cheios de Hull Plating III, somam-se 200.000 de casco.
 - **Designs.** Esta nave tem 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Pesquise um (10 h e 10 Dark Matter) e depois converta a sua Storm nele na Montagem: a mudança não pode ser desfeita.
 
 | Design | O que muda |
@@ -48,4 +48,4 @@ Depois que você pesquisar a tecnologia dela, fabricar uma Storm na Montagem cus
 
 ## História {#lore}
 
-A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem cinza-clara sobre uma estrutura mais escura, com faixas de luz brancas, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam catorze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de sete décimos do de uma Wraith e cerca de três décimos do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.
+A Storm é o que os estaleiros constroem quando a única encomenda é velocidade. Uma fuselagem em forma de agulha, com uma cabine escura, fica entre dois anéis em crescente abertos, cada um um arco blindado em volta de um vazio e terminado em um chifre erguido, com uma nacele de motor atravessando a abertura: a maior parte da nave é propulsão. Blindagem cinza-clara sobre uma estrutura mais escura, com faixas de luz brancas, torna-a fácil de ver, e ela quer ser vista. Dois canhões longos ficam nas lâminas dianteiras e oito pequenos emissores nos anéis e nas aletas dos ombros, dez bocas bem à vista, por onde disparam quinze lasers. O que não tem é espaço para blindagem. O casco dela tem cerca de sete décimos do de uma Wraith e cerca de três décimos do de uma Ironclad, então seus pilotos atacam primeiro, atacam forte e vão embora antes que algo maior se vire.

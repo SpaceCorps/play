@@ -106,7 +106,7 @@ Three aliens of the lost civilisation live here, each with its own numbers. They
 | Credits | 125,000 | 250,000 | 375,000 |
 | Thulium | 335 | 670 | 1,005 |
 | Experience (XP) | 20,200 | 40,400 | 60,600 |
-| Honor | 88 | 176 | 264 |
+| Honor | 87 | 174 | 261 |
 | PvE points per kill | 15 | 15 | 15 |
 
 **Drop**: one box, for the pilot who dealt the most damage.

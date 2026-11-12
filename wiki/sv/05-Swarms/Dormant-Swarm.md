@@ -57,7 +57,7 @@ Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och
 | :--- | ---: | ---: | ---: |
 | Skrov | 256 000 | 384 000 | 512 000 |
 | Sköld | 83 400 | 125 100 | 166 800 |
-| Laserskada (en salva per sekund) | 3 120 | 4 680 | 6 240 |
+| Laserskada (en salva per sekund) | 3 570 | 5 355 | 7 140 |
 | Hastighet | 210 | 210 | 210 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
@@ -84,8 +84,8 @@ Bygger på Paragon med 100 % av skrovet och 600 % av laserskadan; hastighet oc
 | :--- | ---: | ---: | ---: |
 | Skrov | 128 000 | 192 000 | 256 000 |
 | Sköld | 64 570 | 96 855 | 129 140 |
-| Laserskada (en salva per sekund) | 4 320 | 6 480 | 8 640 |
-| Hastighet | 230 | 230 | 230 |
+| Laserskada (en salva per sekund) | 5 100 | 7 650 | 10 200 |
+| Hastighet | 270 | 270 | 270 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 5 000 | 7 500 | 10 000 |

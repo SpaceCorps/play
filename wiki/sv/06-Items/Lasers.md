@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dab929535f6b591d -->
+<!-- wiki-i18n source: 7c4b5382a5618e1a -->
 <!-- wiki-i18n title: Lasrar -->
 # Lasrar och ammunition {#lasers-ammo}
 
@@ -58,11 +58,11 @@ Utrusta lasrar direkt i skeppets laserplatser eller i drönare för att öka din
 
 | Namn | Sällsynthet | Grundskada | Kritisk chans | Räckvidd | Förstärkarplatser | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser I** | Skral | 55 | 1 % | 600 | 1 | 8 000 krediter |
-| **Quantum Laser II** | Vanlig | 65 | 1 % | 700 | 2 | 80 000 krediter |
-| **Quantum Laser III** | Sällsynt | 80 | 10 % | 800 | 3 | Kan bara tillverkas |
-| **Starfire-III** | Mytisk | 135 | 15 % | 850 | 3 | Kan bara tillverkas |
-| **Helios Beam** | Mytisk | 155 | 20 % | 900 | 3 | Kan bara tillverkas |
+| **Quantum Laser I** | Skral | 60 | 1 % | 600 | 1 | 8 000 krediter |
+| **Quantum Laser II** | Vanlig | 70 | 1 % | 700 | 2 | 80 000 krediter |
+| **Quantum Laser III** | Sällsynt | 85 | 10 % | 800 | 3 | Kan bara tillverkas |
+| **Starfire-III** | Mytisk | 140 | 15 % | 850 | 3 | Kan bara tillverkas |
+| **Helios Beam** | Mytisk | 160 | 20 % | 900 | 4 | Kan bara tillverkas |
 
 Kolumnen Räckvidd är varje lasers egen. **Ditt skepp skjuter på medelvärdet av sina lasrars räckvidder** (lasrarna i dina drönare räknas också), avrundat till närmaste enhet, och varje laser avfyras så fort målet är inom det avståndet. En Starfire-III bredvid två Quantum Laser II ger skeppet räckvidden 750, inte 850; tre Starfire-III behåller 850, och lasrar som alla är lika ändrar ingenting. En räckviddsbonus från Smedjan räknas på sin egen laser innan medelvärdet tas. Utan laser visar hangaren ingen räckvidd (ett streck) och inga lasrar kan skjuta, men dina raketer kan det ändå, var och en med sin egen räckvidd (se [Raketer](/wiki/06-Items/Rockets.md)). I hangaren står det ”Medelräckvidd” på rutan där dina lasrar skiljer sig åt, och när du pekar på den listas varje lasers räckvidd.
 
@@ -102,7 +102,7 @@ Ship Fragments, Cataclysite, Power Cores och Reinforced Hull Plates släpps av u
 
 ## Laserförstärkare (Amps) {#laser-amplifiers-amps-}
 
-Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det finns **tre serier med fyra nivåer vardera**, namngivna som sköldcellerna: **Damage Amp** ger ett fast tillägg i skada, **Crit Amp** ger kritisk chans och fast kritisk skada, och **Penetration Amp** drar poäng av målets absorption ([nedan](#shield-penetration-of-a-laser-hit)). De är inte [boosters](/wiki/06-Items/Boosters.md): **Laser Damage Booster I** och **Laser Damage Booster II** är boosters med tidsgräns (+10 % laserskada i 10 timmar), med inget att montera.
+Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det finns **tre serier med fyra nivåer vardera**, namngivna som sköldcellerna: **Damage Amp** ger ett fast tillägg i skada, **Crit Amp** ger kritisk chans, fast kritisk skada och lite fast skada, och **Penetration Amp** drar poäng av målets absorption ([nedan](#shield-penetration-of-a-laser-hit)). De är inte [boosters](/wiki/06-Items/Boosters.md): **Laser Damage Booster I** och **Laser Damage Booster II** är boosters med tidsgräns (+10 % laserskada i 10 timmar), med inget att montera.
 
 | Namn | Sällsynthet | Skadeökning | Ökad kritisk chans | Fast kritisk skada | Kostnad |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -110,10 +110,10 @@ Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det f
 | **Damage Amp II** | Ovanlig | +16 | +5 % | +8 | Kan bara tillverkas |
 | **Damage Amp III** | Sällsynt | +26 | +6 % | +13 | Kan bara tillverkas |
 | **Damage Amp IV** | Episk | +38 | +7 % | +20 | Kan bara tillverkas |
-| **Crit Amp I** | Skral | +0 | +15 % | +0 | 15 000 krediter |
-| **Crit Amp II** | Ovanlig | +0 | +20 % | +14 | Kan bara tillverkas |
-| **Crit Amp III** | Sällsynt | +0 | +25 % | +24 | Kan bara tillverkas |
-| **Crit Amp IV** | Episk | +0 | +25 % | +44 | Kan bara tillverkas |
+| **Crit Amp I** | Skral | +5 | +15 % | +0 | 15 000 krediter |
+| **Crit Amp II** | Ovanlig | +10 | +20 % | +14 | Kan bara tillverkas |
+| **Crit Amp III** | Sällsynt | +15 | +25 % | +24 | Kan bara tillverkas |
+| **Crit Amp IV** | Episk | +20 | +30 % | +44 | Kan bara tillverkas |
 
 | Namn | Sällsynthet | Sköldgenomträngning | Kostnad |
 | :--- | :--- | :---: | :--- |
@@ -133,11 +133,11 @@ Montera dem direkt i en lasers plats för att förstärka dess egenskaper. Det f
 | Penetration Amp III | 2 000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2 400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-En Helios Beam med sina 3 Amp av nivå IV rymmer 4 delar av sista nivån: 16 Dark Matter Plates, 80 Dark Matter, i genomsnitt 40 N.I.K.E.-raketer. En Wraith med sista nivån på alla platser rymmer 1 280 Dark Matter ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+En Helios Beam med sina 4 Amp av nivå IV rymmer 5 delar av sista nivån: 20 Dark Matter Plates, 100 Dark Matter, i genomsnitt 50 N.I.K.E.-raketer. En Wraith med sista nivån på alla platser rymmer 1 640 Dark Matter ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Vilken förstärkare som passar var {#which-amp-goes-where}
 
-En skadeförstärkare ger samma skada åt vilken laser som helst, så den är värd mest på **Quantum-lasrarna**. En kritförstärkare multiplicerar det lasern redan gör, så ju hårdare lasern träffar, desto mer är den värd: den drar jämnt med skadeserien på **Starfire-III** och hamnar ungefär 1,5 % före på **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III eller Crit Amp IV tar en Helios Beam (som har 20 % själv) till 95 %. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
+En skadeförstärkare ger samma fasta skada åt vilken laser som helst. En kritförstärkare ger lite fast skada själv (5 till 20) och multiplicerar det lasern gör med sin kritiska chans, så med samma nivå i varje plats slår den skadeförstärkaren från nivå II och uppåt, på varje laser: med ungefär 19 % på nivå II, 25 % på nivå III och 30 till 43 % på nivå IV (Quantum-lasrarna vinner mest). På nivå I ligger de två nära: **Damage Amp I** är lite bättre på **Quantum-lasrarna** och **Crit Amp I** lite bättre på **Starfire-III** och **Helios Beam**. En lasers kritiska chans stannar på 100 %: tre Crit Amp III tar en Helios Beam (som har 20 % själv) till 95 % och tre Crit Amp IV till 110 %, tio punkter mer än den kan använda. En Penetration Amp ger varken skada eller kritisk chans: den är till för skepp vars sköldar annars skulle ta största delen av din träff ([nedan](#when-is-a-penetration-amp-worth-a-slot)).
 
 Fylld med samma förstärkare är en laser alltid starkare än den under sig, så en bättre förstärkare väger bara upp en del av en bättre laser: en Quantum Laser III med tre Damage Amp IV gör mer skada än en Helios Beam med tre Damage Amp I, men mindre än en med tre Damage Amp III, och smide stänger inte glappet (en Quantum Laser III och Damage Amp IV som smitts till Evig hamnar, även med de bästa slumpvärdena, fortfarande en bit under en osmidd Helios Beam i Damage Amp III).
 
@@ -194,9 +194,9 @@ Siphon Battery är ammunition för att stjäla sköldar i stället för att bryt
 
 Varje laserträff drar poäng av målets absorption, från upp till tre källor som läggs ihop: din **ammunition** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), dina **Penetration Amps** och en **drönarformation** (Gemini +15 %; [Drönarformationer](/wiki/03-Mechanics/Formations.md)). **Inget sätter tak för summan** (en direktraket lägger på samma sätt till sin egen genomträngning och formationens: [Raketer](/wiki/06-Items/Rockets.md)). Sköldarna tar sedan målets absorption minus träffens genomträngning, och skrovet resten ([Sköldmekanik](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser ger 60 %; en Penetration Amp IV i en av tretton lasrar ger ungefär 1,5 %. En Wraith har 13 lasrar och 39 förstärkarplatser, och alla 39 måste fyllas för att nå 60 %.
+- **Dina förstärkare räknas som medelvärdet över dina lasrar.** En salva är en träff, så spelet lägger ihop genomträngningen hos varje lasers förstärkare (lasrarna i dina drönare räknas också) och tar medelvärdet över dina lasrar, var och en vägd efter sin skada, som för kritisk chans. Tre Penetration Amp IV i varje laser med tre platser ger 60 % (fyra i varje Helios Beam ger 80 %); en Penetration Amp IV i en av fjorton lasrar ger ungefär 1,4 %. En Wraith har 14 laserplatser, alltså 42 förstärkarplatser med lasrar på tre och 56 med Helios Beam, och varenda en måste fyllas för att nå 60 % (80 % med Helios Beam).
 - **Hangaren visar det.** Hangarens stridsvärden har en ruta **Genomträngning** på varje skepp, med värdet från förstärkarna i den konfiguration som visas (0,0 % utan Penetration Amp); ammunition och formation ingår inte i den. Fönstret **Skepp** under flygning har en bricka **Genomträngning** i slutet av sin nedre rad (brickorna för konfiguration och fart visar bara en ikon och ett tal för att ge plats): den visar summan för en lasträff, dina förstärkare, formationen du bär och ammunitionen du skjuter med, hopräknade så fort du byter något, och dess verktygstips räknar upp de tre delarna.
-- **Den bästa lasern ger 85 % med x4 och 95 % med Antimatter.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (60 %) ger 85 %; en Antimatter Battery (20 %) i dess ställe ger 95 %, vid x3 skada i stället för x4.
+- **Den bästa lasern ger 85 % med x4 och 95 % med Antimatter, med tre förstärkare i varje laser.** En Experimental Fusion Core (10 %), en Gemini (15 %) och tre Penetration Amp IV i varje laser (60 %) ger 85 %; en Antimatter Battery (20 %) i dess ställe ger 95 %, vid x3 skada i stället för x4. En Helios Beam har en fjärde plats: fyra Penetration Amp IV i varje Helios Beam ger med Fusion Core och Gemini 105 %, mer än någon sköld har att ge.
 - **En smedjebonus på en Penetration Amp IV räknas.** En Penetration Amp kan smidas som de andra förstärkarna, och dess enda bonus multiplicerar genomträngningen: en Evig bonus (+9 % till +15 %) gör en Penetration Amp IV till 21,8 till 23 punkter i stället för 20. I den bästa uppsättningen blir tre eviga 94 %, och varje punkt räknas.
 
 | Lasersalva | Ammunition | Förstärkare (3 platser) | Formation | Summa |
@@ -227,8 +227,8 @@ Den bästa lasern tömmer varje sköldkärna, med sin bästa cell eller utan, oc
 
 ### När är en Penetration Amp värd en plats? {#when-is-a-penetration-amp-worth-a-slot}
 
-**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 108 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 12 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (91 %) tar en trio Penetration Amps ungefär 50 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den upp till 20 % mot en Phantasm eller en Goombah och ingenting mot en Bulwark eller en Crystalys.**
+**En Penetration Amp motverkar absorption, och ju högre den är, desto mer: mot ett skepp med litet skrov vid ungefär 108 % (uppsättningar med säsongsbutik, smedja och Rampart) dödar en Penetration-uppsättning ungefär 10 gånger snabbare än den bästa vanliga, och mot den bästa skölden rakt ur lådan (91 %) tar en trio Penetration Amps ungefär 37 % kortare tid än en trio Crit Amps på samma nivå. Mot utomjordingar vinner den ungefär 10 % mot en Phantasm eller en Goombah med en Gemini och ingenting mot en Seeker, en Bulwark eller en Crystalys.**
 
-- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 153 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 314 och tre Crit Amp IV 319: ungefär hälften. Det den vinner tillbaka är sköldens andel, så den lönar sig mest där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad på den bästa skölden rakt ur lådan, vars stora skrov håller längre, vinner den upp till 38 %, och en Ironclad vars sköldar är förstärkta över 100 % möter man fortfarande bäst med en enkel Crit-uppsättning.
-- **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, och den bästa lasern (85 %) tränger igenom dem helt, så den fungerar på dem också: en Penetration Amp ingår i den bästa uppsättningen mot en Phantasm eller en Goombah, med formation eller utan (den vinner 11 till 20 %), och mot en Seeker med en Gemini (8 %). En Damage Amp eller Crit Amp på nivån dödar fortfarande en Bulwark eller en Crystalys lika snabbt eller snabbare.
-- **Vad den kostar.** Varje Penetration Amp IV kräver 4 Dark Matter Plates (20 Dark Matter), liksom varje förstärkare av nivå IV, så en Wraith som fyller sina 39 platser behöver 156 plattor, 780 Dark Matter.
+- **Den ger ingen skada.** På en Helios Beam ger tre Penetration Amp IV 158 skada per salva (ammunition x1, medelvärdet av slumpen och kritiska träffar), där tre Damage Amp IV ger 319 och tre Crit Amp IV 416: hälften av den förra och inte mycket mer än en tredjedel av den senare. Det den vinner tillbaka är sköldens andel, så den lönar sig mest där skrovet är litet jämfört med skölden och absorptionen hög; mot en Wraith eller en Ironclad på den bästa skölden rakt ur lådan, vars stora skrov håller längre, vinner den upp till 20 %, och en Ironclad vars sköldar är förstärkta över 100 % möter man fortfarande bäst med en enkel Crit-uppsättning.
+- **Utomjordingar.** Deras sköldar tar 80 % av en träff minus din genomträngning, och den bästa lasern (85 %) tränger igenom dem helt, så den fungerar på dem också: en Penetration Amp ingår i den bästa uppsättningen mot en Phantasm eller en Goombah när du bär en Gemini (den vinner ungefär 10 %). Mot en Seeker, en Bulwark eller en Crystalys dödar en uppsättning Crit Amps på nivån lika snabbt eller snabbare.
+- **Vad den kostar.** Varje Penetration Amp IV kräver 4 Dark Matter Plates (20 Dark Matter), liksom varje förstärkare av nivå IV, så en Wraith som fyller sina 56 platser behöver 224 plattor, 1 120 Dark Matter.

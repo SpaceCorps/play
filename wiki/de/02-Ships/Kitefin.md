@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten Piloten kaufen: ein dritter Laser, die dreifache Hülle der Protos und ein schnellerer Antrieb, bezahlt mit Thulium.
+Die Kitefin ist ein leichtes Kanonenboot und das erste Schiff, das die meisten Piloten kaufen: vier Laser, die dreifache Hülle der Protos und ein schnellerer Antrieb, bezahlt mit Thulium.
 
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 24.000
-- **Grundtempo**: 190
-- **Laser-Slots**: 3
+- **Grundtempo**: 220
+- **Laser-Slots**: 4
 - **Extra-Slots**: 2
 
 ### Generator- und Support-Slots {#generator-support-slots}

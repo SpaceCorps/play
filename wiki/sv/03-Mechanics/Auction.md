@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
+<!-- wiki-i18n source: f16e7d6d09501326 -->
 <!-- wiki-i18n title: Auktionen -->
 # Auktionen {#auction}
 
@@ -16,7 +16,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Du behöver **nivå 5** för att använda auktionen: för att lägga ut, köpa och buda.
 - En annons prissätts per parti, i hela krediter eller hela Thulium (inte båda), och aldrig under föremålets lägsta pris. Det finns **inget högsta pris**.
 - Ett pris i Thulium är minst det lägsta priset i krediter delat med kursen (1 000), avrundat uppåt, och bara för föremål vars lägsta pris kommer upp i 1 Thulium eller mer. Det är allt kursen gör: **1 Thulium = 1 000 krediter är en regel för det lägsta priset, inte en växelkurs.** Inget byts, inget värde visas, och krediter och Thulium läggs aldrig ihop.
-- 102 föremål kan läggas ut, och 101 av dem kan även prissättas i Thulium.
+- 107 föremål kan läggas ut, och 106 av dem kan även prissättas i Thulium.
 - En annons löper 168 / 336 / 504 timmar, som du väljer: valen är desamma på alla nivåer.
 - **Depositionen** är 0,25 % av priset för varje 24 timmar annonsen löper, minst 50 krediter eller 1 Thulium. Du betalar den när du lägger ut annonsen; den betalas aldrig tillbaka, inte ens om du avbryter.
 - Från nivå 10 är depositionen 0,4 %.
@@ -26,7 +26,7 @@ Auktionen är piloternas marknad och samtidigt spelets egna lotter varje timme, 
 - Från säsongsdag 28 till wipen är det varken deposition eller skatt.
 - Från säsongsdag 30 är auktionen stängd tills den nya säsongen börjar: inget kan läggas ut, köpas eller budas på. Du kan fortfarande avbryta dina annonser.
 - Varje valuta har sin egen gräns för hur mycket du kan sälja och hur mycket du kan köpa på 24 timmar (nivåtabellen nedan). Vunna lotter räknas inte.
-- Mellan två piloter, där en köper av den andra, går högst 8 000 000 krediter eller 40 000 Thulium igenom på 24 timmar.
+- Mellan två piloter, där en köper av den andra, går högst 16 000 000 krediter eller 80 000 Thulium igenom på 24 timmar.
 
 <!-- market-glance:end -->
 
@@ -57,7 +57,7 @@ När Auktionen kom (0.4.12) märktes den utrustning du redan hade och som Butike
 | **Laseramunition** | Standard Battery (i partier om 100), Siphon Battery (i partier om 10), Advanced Plasma (i partier om 10), Siphon Battery II (i partier om 10), Antimatter Battery I (i partier om 10), Ultra Core (i partier om 10), Dark Matter Ammo I (i partier om 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Raketer** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Förbrukningsvaror** | EMP Charge, Energetic Wall II | 2 |
-| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Extrautrustning** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Skrovpansar** | Hull Plating II, Hull Plating III | 2 |
 | **Resurser** | Cataclysite (i partier om 100), Ship Fragment (i partier om 100), Daraxium (i partier om 100), Nyxite (i partier om 100), Quorvium (i partier om 10), Reinforced Hull Plate (i partier om 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -100,22 +100,22 @@ Dina **öppna annonser** (och en annons som en admin har pausat) tar upp platser
 
 | Nivå | Öppna annonser | Längsta tid | Per dygn, krediter | Per dygn, Thulium | Deposition per 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 4 500 000 | 22 500 | 0,25 % |
-| 6 | 40 | 504 h | 6 000 000 | 30 000 | 0,25 % |
-| 7 | 70 | 504 h | 7 500 000 | 37 500 | 0,25 % |
-| 8 | 100 | 504 h | 8 500 000 | 42 500 | 0,25 % |
-| 9 | 100 | 504 h | 10 000 000 | 50 000 | 0,25 % |
-| 10 | 100 | 504 h | 15 000 000 | 75 000 | 0,4 % |
-| 11 | 100 | 504 h | 15 000 000 | 75 000 | 0,4 % |
-| 12 | 100 | 504 h | 15 000 000 | 75 000 | 0,4 % |
-| 13 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 14 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 15 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 16 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 17 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 18 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 19 | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
-| 20 och uppåt | 100 | 504 h | 20 000 000 | 100 000 | 0,4 % |
+| 5 | 20 | 504 h | 9 000 000 | 45 000 | 0,25 % |
+| 6 | 40 | 504 h | 12 000 000 | 60 000 | 0,25 % |
+| 7 | 70 | 504 h | 15 000 000 | 75 000 | 0,25 % |
+| 8 | 100 | 504 h | 17 000 000 | 85 000 | 0,25 % |
+| 9 | 100 | 504 h | 20 000 000 | 100 000 | 0,25 % |
+| 10 | 100 | 504 h | 30 000 000 | 150 000 | 0,4 % |
+| 11 | 100 | 504 h | 30 000 000 | 150 000 | 0,4 % |
+| 12 | 100 | 504 h | 30 000 000 | 150 000 | 0,4 % |
+| 13 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 14 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 15 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 16 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 17 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 18 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 19 | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
+| 20 och uppåt | 100 | 504 h | 40 000 000 | 200 000 | 0,4 % |
 
 <!-- market-limits:end -->
 
@@ -175,7 +175,7 @@ Du får veta när något säljs eller när din order fylls: genom ett meddelande
 
 ## Lotterna varje timme {#the-hourly-lots}
 
-Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre lotter varje timme (tolv är öppna samtidigt), att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en särskild raket). **Varje lott bjuds på i krediter**, vad Butiken än begär för varorna: en lott med varor som Butiken säljer för Thulium (till exempel x2- och x3-ammunitionen och EMP Charge) öppnar till värdet av det Thulium-priset i krediter, med 200 krediter per Thulium, så du kan buda på vilken lott som helst utan en enda Thulium. Du kan buda på vilken lott som helst, vad du än redan bär: en lott du vinner är din hel, även om den tar dig över den hög som Butiken låter dig köpa.
+Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre lotter varje timme (tolv är öppna samtidigt), att buda på. De är ett sätt att köpa ammunition billigare än Butiken begär, och en sänka: det vinnande budet förbränns. Bara lotterna i dagstabellen nedan öppnas (aldrig x1- eller x4-ammunition, aldrig Siphon Batteries, aldrig en raket av nivå I, som Butiken säljer, och aldrig en särskild raket). Raketlotterna är raketer av nivå II och III, som Butiken inte säljer. **Varje lott bjuds på i krediter**, vad Butiken än begär för varorna: en lott med varor som Butiken säljer för Thulium (till exempel x2- och x3-ammunitionen och EMP Charge) öppnar till värdet av det Thulium-priset i krediter, med 200 krediter per Thulium, så du kan buda på vilken lott som helst utan en enda Thulium. Du kan buda på vilken lott som helst, vad du än redan bär: en lott du vinner är din hel, även om den tar dig över den hög som Butiken låter dig köpa.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -183,6 +183,7 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre 
 - I början av varje UTC-timme öppnas 3 nya lotter, var och en med olika varor, och var och en är öppen i 4 timmar, så att 12 är öppna samtidigt.
 - Varje värld har sina egna lotter: Alpha, Beta och Gamma får dessa lotter varje timme, med olika varor samma timme, i en storlek som styrs av piloterna i den världen. Du ser, bjuder på och vinner bara lotterna i den värld du flyger i. Marknaden och köporder delas av alla tre världarna.
 - Startbudet är 20 % av butikspriset på varorna. Varje bud därefter måste ligga minst 5 % över det högsta budet, och minst 100 krediter mer.
+- En raket av nivå II eller III, som Butiken inte säljer, öppnar på 20 % av sitt värde, vad det kostar att tillverka den.
 - Ditt bud betalas direkt och hålls kvar. Om någon överbjuder dig kommer det tillbaka direkt.
 - Ett bud under de sista 2 min av en lott flyttar dess slut till 2 min efter budet, högst 5 gånger.
 - Det du vinner är till för att flyga, inte för att handla med: det är aldrig säljbart. Det vinnande budet förbränns. En lott som ingen bjuder på säljs inte och kostar ingen något.
@@ -196,78 +197,78 @@ Lotterna är spelets egna erbjudanden: ammunition, raketer och EMP Charges, tre 
 
 | UTC-timme | Lott | Full storlek | Startbud vid full storlek |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1 250 | 125 000 krediter |
+| 00:00 | Scatter II | 450 | 126 180 krediter |
 | 00:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 00:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 01:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 01:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 01:00 | Scatter I | 1 250 | 125 000 krediter |
-| 02:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 01:00 | Scatter II | 450 | 126 180 krediter |
+| 02:00 | Lancet II | 4 450 | 1 247 780 krediter |
 | 02:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 02:00 | EMP Charge | 5 | 100 000 krediter |
 | 03:00 | EMP Charge | 5 | 100 000 krediter |
 | 03:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 03:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 03:00 | Lancet II | 4 450 | 1 247 780 krediter |
 | 04:00 | Ultra Core | 25 000 | 1 000 000 krediter |
 | 04:00 | Advanced Plasma | 25 000 | 500 000 krediter |
-| 04:00 | Rivet I | 12 500 | 1 250 000 krediter |
-| 05:00 | Rivet I | 5 000 | 500 000 krediter |
+| 04:00 | Rivet II | 4 450 | 1 247 780 krediter |
+| 05:00 | Rivet III | 550 | 495 880 krediter |
 | 05:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 05:00 | EMP Charge | 5 | 100 000 krediter |
 | 06:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 06:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 06:00 | Ember I | 5 000 | 500 000 krediter |
+| 06:00 | Ember III | 550 | 495 660 krediter |
 | 07:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 07:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 07:00 | Rivet I | 5 000 | 500 000 krediter |
-| 08:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 07:00 | Rivet III | 550 | 495 880 krediter |
+| 08:00 | Ember II | 4 450 | 1 247 780 krediter |
 | 08:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 08:00 | EMP Charge | 5 | 100 000 krediter |
 | 09:00 | Ultra Core | 50 000 | 2 000 000 krediter |
 | 09:00 | Advanced Plasma | 25 000 | 500 000 krediter |
-| 09:00 | Lancet I | 1 250 | 125 000 krediter |
-| 10:00 | Scatter I | 5 000 | 500 000 krediter |
+| 09:00 | Lancet III | 150 | 135 240 krediter |
+| 10:00 | Scatter III | 550 | 495 880 krediter |
 | 10:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 10:00 | EMP Charge | 5 | 100 000 krediter |
 | 11:00 | EMP Charge | 5 | 100 000 krediter |
 | 11:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 11:00 | Lancet I | 12 500 | 1 250 000 krediter |
+| 11:00 | Lancet II | 4 450 | 1 247 780 krediter |
 | 12:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 12:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 12:00 | Scatter I | 5 000 | 500 000 krediter |
-| 13:00 | Lancet I | 1 250 | 125 000 krediter |
+| 12:00 | Scatter III | 550 | 495 880 krediter |
+| 13:00 | Lancet III | 150 | 135 240 krediter |
 | 13:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 13:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 14:00 | Ultra Core | 10 000 | 400 000 krediter |
 | 14:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 14:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 14:00 | Ember II | 4 450 | 1 247 780 krediter |
 | 15:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 15:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 15:00 | Lancet I | 1 250 | 125 000 krediter |
+| 15:00 | Lancet III | 150 | 135 240 krediter |
 | 16:00 | Ultra Core | 50 000 | 2 000 000 krediter |
 | 16:00 | Advanced Plasma | 10 000 | 200 000 krediter |
-| 16:00 | Ember I | 5 000 | 500 000 krediter |
-| 17:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 16:00 | Ember III | 550 | 495 660 krediter |
+| 17:00 | Rivet II | 4 450 | 1 247 780 krediter |
 | 17:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 17:00 | EMP Charge | 5 | 100 000 krediter |
 | 18:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
 | 18:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 18:00 | Scatter I | 5 000 | 500 000 krediter |
-| 19:00 | Ember I | 5 000 | 500 000 krediter |
+| 18:00 | Scatter III | 550 | 495 880 krediter |
+| 19:00 | Ember III | 550 | 495 660 krediter |
 | 19:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 19:00 | EMP Charge | 5 | 100 000 krediter |
 | 20:00 | Ultra Core | 25 000 | 1 000 000 krediter |
 | 20:00 | Advanced Plasma | 25 000 | 500 000 krediter |
-| 20:00 | Rivet I | 12 500 | 1 250 000 krediter |
+| 20:00 | Rivet II | 4 450 | 1 247 780 krediter |
 | 21:00 | Advanced Plasma | 25 000 | 500 000 krediter |
 | 21:00 | Ultra Core | 25 000 | 1 000 000 krediter |
-| 21:00 | Rivet I | 5 000 | 500 000 krediter |
+| 21:00 | Rivet III | 550 | 495 880 krediter |
 | 22:00 | Advanced Plasma | 10 000 | 200 000 krediter |
 | 22:00 | Ultra Core | 50 000 | 2 000 000 krediter |
-| 22:00 | Scatter I | 1 250 | 125 000 krediter |
+| 22:00 | Scatter II | 450 | 126 180 krediter |
 | 23:00 | EMP Charge | 5 | 100 000 krediter |
 | 23:00 | Advanced Plasma | 50 000 | 1 000 000 krediter |
-| 23:00 | Ember I | 12 500 | 1 250 000 krediter |
+| 23:00 | Ember II | 4 450 | 1 247 780 krediter |
 
 <!-- market-day:end -->
 

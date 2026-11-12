@@ -291,11 +291,11 @@ The Defense Module fights for your Skylab. It holds the lasers that shoot the al
 
 | Level | Lasers | Magazine (rounds) | Kill budget (points an hour) | Highest difficulty |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1,600 | 108 | 1 |
-| 2 | 2 | 4,300 | 293 | 2 |
+| 1 | 1 | 1,500 | 108 | 1 |
+| 2 | 2 | 4,200 | 293 | 2 |
 | 3 | 3 | 16,000 | 476 | 3 |
-| 4 | 4 | 28,000 | 548 | 4 |
-| 5 | 5 | 42,000 | 630 | 5 |
+| 4 | 4 | 27,000 | 548 | 4 |
+| 5 | 5 | 41,000 | 630 | 5 |
 
 | Level | Credits | Thulium | Plates | Time |
 | :--- | ---: | ---: | ---: | ---: |

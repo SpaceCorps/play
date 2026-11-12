@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
+<!-- wiki-i18n source: f16e7d6d09501326 -->
 <!-- wiki-i18n title: Aukció -->
 # Aukció {#auction}
 
@@ -16,7 +16,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - Az aukció használatához **5. szint** kell: hirdetéshez, vásárláshoz és licitáláshoz.
 - A hirdetés ára csomagonként értendő, egész kreditben vagy egész Thuliumban (nem mindkettőben), és sosem lehet a tárgy legkisebb ára alatt. **Legmagasabb ár nincs.**
 - A Thulium-ár legalább a kreditben megadott legkisebb ár osztva az árfolyammal (1 000 kredit Thuliumonként), felfelé kerekítve, és csak azoknál a tárgyaknál, amelyeknél a legkisebb ár legalább 1 Thulium. Az árfolyam csak ennyit csinál: **az 1 Thulium = 1 000 kredit a legkisebb ár szabálya, nem átváltási árfolyam.** Semmi nem cserélődik, értéket sem mutat a játék, és a kreditet meg a Thuliumot soha nem adja össze.
-- 102 tárgy hirdethető meg, és 101 közülük Thuliumban is árazható.
+- 107 tárgy hirdethető meg, és 106 közülük Thuliumban is árazható.
 - Egy hirdetés 168 / 336 / 504 órán át fut, ahogy te választod: a lehetőségek minden szinten ugyanazok.
 - A **letét**: az ár 0,25%, a hirdetés minden 24 órájára, legalább 50 kredit vagy 1 Thulium. Hirdetéskor fizeted ki; soha nem jár vissza, akkor sem, ha visszavonod a hirdetést.
 - 10. szinttől a letét 0,4%.
@@ -26,7 +26,7 @@ Az aukció a pilóták piaca és egyben a játék saját óránkénti tételei, 
 - A szezon 28. napjától a wipe-ig nincs letét és nincs adó.
 - A szezon 30. napjától az aukció zárva van az új szezon kezdetéig: semmit nem lehet meghirdetni, megvenni vagy licitálni. A hirdetéseidet továbbra is visszavonhatod.
 - Minden pénznemnek külön korlátja van arra, mennyit adhatsz el és mennyit vehetsz 24 óra alatt (lásd lent a szinttáblázatot). A megnyert tételek nem számítanak.
-- Két pilóta között, ha az egyik a másiktól vásárol, 24 óra alatt legfeljebb 8 000 000 kredit vagy 40 000 Thulium mehet át.
+- Két pilóta között, ha az egyik a másiktól vásárol, 24 óra alatt legfeljebb 16 000 000 kredit vagy 80 000 Thulium mehet át.
 
 <!-- market-glance:end -->
 
@@ -57,7 +57,7 @@ Amikor az Aukció megérkezett (0.4.12), a már meglévő felszerelésedet, amel
 | **Lézerlőszer** | Standard Battery (100 darabos csomagokban), Siphon Battery (10 darabos csomagokban), Advanced Plasma (10 darabos csomagokban), Siphon Battery II (10 darabos csomagokban), Antimatter Battery I (10 darabos csomagokban), Ultra Core (10 darabos csomagokban), Dark Matter Ammo I (10 darabos csomagokban), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Rakéták** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Fogyóeszközök** | EMP Charge, Energetic Wall II | 2 |
-| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Extrák** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Hajótest-páncélzat** | Hull Plating II, Hull Plating III | 2 |
 | **Erőforrások** | Cataclysite (100 darabos csomagokban), Ship Fragment (100 darabos csomagokban), Daraxium (100 darabos csomagokban), Nyxite (100 darabos csomagokban), Quorvium (10 darabos csomagokban), Reinforced Hull Plate (10 darabos csomagokban), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -100,22 +100,22 @@ A **nyitott hirdetéseid** (és az a hirdetés, amelyet egy admin felfüggesztet
 
 | Szint | Nyitott hirdetések | Leghosszabb futamidő | Naponta, kredit | Naponta, Thulium | Letét 24 óránként |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 óra | 4 500 000 | 22 500 | 0,25% |
-| 6 | 40 | 504 óra | 6 000 000 | 30 000 | 0,25% |
-| 7 | 70 | 504 óra | 7 500 000 | 37 500 | 0,25% |
-| 8 | 100 | 504 óra | 8 500 000 | 42 500 | 0,25% |
-| 9 | 100 | 504 óra | 10 000 000 | 50 000 | 0,25% |
-| 10 | 100 | 504 óra | 15 000 000 | 75 000 | 0,4% |
-| 11 | 100 | 504 óra | 15 000 000 | 75 000 | 0,4% |
-| 12 | 100 | 504 óra | 15 000 000 | 75 000 | 0,4% |
-| 13 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 14 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 15 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 16 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 17 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 18 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 19 | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
-| 20. szinttől | 100 | 504 óra | 20 000 000 | 100 000 | 0,4% |
+| 5 | 20 | 504 óra | 9 000 000 | 45 000 | 0,25% |
+| 6 | 40 | 504 óra | 12 000 000 | 60 000 | 0,25% |
+| 7 | 70 | 504 óra | 15 000 000 | 75 000 | 0,25% |
+| 8 | 100 | 504 óra | 17 000 000 | 85 000 | 0,25% |
+| 9 | 100 | 504 óra | 20 000 000 | 100 000 | 0,25% |
+| 10 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
+| 11 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
+| 12 | 100 | 504 óra | 30 000 000 | 150 000 | 0,4% |
+| 13 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 14 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 15 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 16 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 17 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 18 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 19 | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
+| 20. szinttől | 100 | 504 óra | 40 000 000 | 200 000 | 0,4% |
 
 <!-- market-limits:end -->
 
@@ -175,7 +175,7 @@ Arról, hogy valami elkelt, vagy hogy a megbízásod teljesült, értesítést k
 
 ## Az óránkénti tételek {#the-hourly-lots}
 
-A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként három tétel (egyszerre tizenkettő nyitott), licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem különleges rakéta). **Minden tételre kreditben licitálsz**, bármit kér is a Bolt az áruiért: az a tétel, amelynek áruját a Bolt Thuliumért árulja (például az x2 és x3 lőszer és az EMP Charge), ennek a Thulium-árnak az értékén nyílik meg kreditben, 200 kredit/Thulium árfolyamon, így bármelyik tételre licitálhatsz egyetlen Thulium nélkül is. Bármelyik tételre licitálhatsz, bármit viszel is már: a megnyert tétel egészében a tiéd, még ha a Bolt által engedett köteg fölé is visz.
+A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, óránként három tétel (egyszerre tizenkettő nyitott), licitre. Arra jók, hogy lőszert olcsóbban szerezz, mint a Bolt kéri, és nyelőként is szolgálnak: a nyertes licit megsemmisül. Csak az alábbi napi táblázat tételei nyílnak meg (soha nem x1 vagy x4 lőszer, soha nem Siphon Battery, soha nem I. fokozatú rakéta, amelyet a Bolt árul, és soha nem különleges rakéta). A rakétatételek II. és III. fokozatú rakéták, amelyeket a Bolt nem árul. **Minden tételre kreditben licitálsz**, bármit kér is a Bolt az áruiért: az a tétel, amelynek áruját a Bolt Thuliumért árulja (például az x2 és x3 lőszer és az EMP Charge), ennek a Thulium-árnak az értékén nyílik meg kreditben, 200 kredit/Thulium árfolyamon, így bármelyik tételre licitálhatsz egyetlen Thulium nélkül is. Bármelyik tételre licitálhatsz, bármit viszel is már: a megnyert tétel egészében a tiéd, még ha a Bolt által engedett köteg fölé is visz.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -183,6 +183,7 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 - Minden UTC-óra elején 3 új tétel nyílik, mindegyik más árucikk, és mindegyik 4 órán át nyitva marad, így egyszerre 12 van nyitva.
 - Minden világnak megvannak a saját tételei: az Alpha, a Beta és a Gamma minden órában megkapja ezeket a tételeket, ugyanabban az órában más árucikkekkel, a méretüket az adott világ pilótái szabják meg. Csak annak a világnak a tételeit látod, azokra licitálhatsz és azokat nyerheted meg, amelyben repülsz. A Piac és a vételi megbízások mind a három világban közösek.
 - A kikiáltási ár az áru bolti árának 20%. Minden további licitnek legalább 5% értékkel meg kell haladnia a legmagasabb ajánlatot, és legalább 100 kredit többnek kell lennie.
+- A Bolt által nem árult II. vagy III. fokozatú rakéta kikiáltási ára az értékének (az elkészítés költségének) 20%.
 - Az ajánlatod azonnal kifizetődik és zárolva marad. Ha valaki túllicitál, azonnal visszakapod.
 - Ha egy tétel utolsó 2 perc idejében licitálsz, a tétel vége a licit után 2 perc múlva lesz, legfeljebb 5 alkalommal.
 - Amit nyersz, repülésre való, nem kereskedésre: sosem eladható. A nyertes licit megsemmisül. Az a tétel, amelyre senki nem licitál, nem kel el, és senkinek nem kerül semmibe.
@@ -196,78 +197,78 @@ A Tételek a játék saját ajánlatai: lőszer, rakéták és EMP Charge-ok, ó
 
 | UTC-óra | Tétel | Teljes méret | Kikiáltási ár teljes méretnél |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1 250 | 125 000 kredit |
+| 00:00 | Scatter II | 450 | 126 180 kredit |
 | 00:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
 | 00:00 | Ultra Core | 10 000 | 400 000 kredit |
 | 01:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 01:00 | Ultra Core | 50 000 | 2 000 000 kredit |
-| 01:00 | Scatter I | 1 250 | 125 000 kredit |
-| 02:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 01:00 | Scatter II | 450 | 126 180 kredit |
+| 02:00 | Lancet II | 4 450 | 1 247 780 kredit |
 | 02:00 | Advanced Plasma | 10 000 | 200 000 kredit |
 | 02:00 | EMP Charge | 5 | 100 000 kredit |
 | 03:00 | EMP Charge | 5 | 100 000 kredit |
 | 03:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
-| 03:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 03:00 | Lancet II | 4 450 | 1 247 780 kredit |
 | 04:00 | Ultra Core | 25 000 | 1 000 000 kredit |
 | 04:00 | Advanced Plasma | 25 000 | 500 000 kredit |
-| 04:00 | Rivet I | 12 500 | 1 250 000 kredit |
-| 05:00 | Rivet I | 5 000 | 500 000 kredit |
+| 04:00 | Rivet II | 4 450 | 1 247 780 kredit |
+| 05:00 | Rivet III | 550 | 495 880 kredit |
 | 05:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 05:00 | EMP Charge | 5 | 100 000 kredit |
 | 06:00 | Advanced Plasma | 10 000 | 200 000 kredit |
 | 06:00 | Ultra Core | 50 000 | 2 000 000 kredit |
-| 06:00 | Ember I | 5 000 | 500 000 kredit |
+| 06:00 | Ember III | 550 | 495 660 kredit |
 | 07:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
 | 07:00 | Ultra Core | 25 000 | 1 000 000 kredit |
-| 07:00 | Rivet I | 5 000 | 500 000 kredit |
-| 08:00 | Ember I | 12 500 | 1 250 000 kredit |
+| 07:00 | Rivet III | 550 | 495 880 kredit |
+| 08:00 | Ember II | 4 450 | 1 247 780 kredit |
 | 08:00 | Advanced Plasma | 10 000 | 200 000 kredit |
 | 08:00 | EMP Charge | 5 | 100 000 kredit |
 | 09:00 | Ultra Core | 50 000 | 2 000 000 kredit |
 | 09:00 | Advanced Plasma | 25 000 | 500 000 kredit |
-| 09:00 | Lancet I | 1 250 | 125 000 kredit |
-| 10:00 | Scatter I | 5 000 | 500 000 kredit |
+| 09:00 | Lancet III | 150 | 135 240 kredit |
+| 10:00 | Scatter III | 550 | 495 880 kredit |
 | 10:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 10:00 | EMP Charge | 5 | 100 000 kredit |
 | 11:00 | EMP Charge | 5 | 100 000 kredit |
 | 11:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
-| 11:00 | Lancet I | 12 500 | 1 250 000 kredit |
+| 11:00 | Lancet II | 4 450 | 1 247 780 kredit |
 | 12:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
 | 12:00 | Ultra Core | 25 000 | 1 000 000 kredit |
-| 12:00 | Scatter I | 5 000 | 500 000 kredit |
-| 13:00 | Lancet I | 1 250 | 125 000 kredit |
+| 12:00 | Scatter III | 550 | 495 880 kredit |
+| 13:00 | Lancet III | 150 | 135 240 kredit |
 | 13:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
 | 13:00 | Ultra Core | 10 000 | 400 000 kredit |
 | 14:00 | Ultra Core | 10 000 | 400 000 kredit |
 | 14:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
-| 14:00 | Ember I | 12 500 | 1 250 000 kredit |
+| 14:00 | Ember II | 4 450 | 1 247 780 kredit |
 | 15:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 15:00 | Ultra Core | 50 000 | 2 000 000 kredit |
-| 15:00 | Lancet I | 1 250 | 125 000 kredit |
+| 15:00 | Lancet III | 150 | 135 240 kredit |
 | 16:00 | Ultra Core | 50 000 | 2 000 000 kredit |
 | 16:00 | Advanced Plasma | 10 000 | 200 000 kredit |
-| 16:00 | Ember I | 5 000 | 500 000 kredit |
-| 17:00 | Rivet I | 12 500 | 1 250 000 kredit |
+| 16:00 | Ember III | 550 | 495 660 kredit |
+| 17:00 | Rivet II | 4 450 | 1 247 780 kredit |
 | 17:00 | Advanced Plasma | 10 000 | 200 000 kredit |
 | 17:00 | EMP Charge | 5 | 100 000 kredit |
 | 18:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
 | 18:00 | Ultra Core | 25 000 | 1 000 000 kredit |
-| 18:00 | Scatter I | 5 000 | 500 000 kredit |
-| 19:00 | Ember I | 5 000 | 500 000 kredit |
+| 18:00 | Scatter III | 550 | 495 880 kredit |
+| 19:00 | Ember III | 550 | 495 660 kredit |
 | 19:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 19:00 | EMP Charge | 5 | 100 000 kredit |
 | 20:00 | Ultra Core | 25 000 | 1 000 000 kredit |
 | 20:00 | Advanced Plasma | 25 000 | 500 000 kredit |
-| 20:00 | Rivet I | 12 500 | 1 250 000 kredit |
+| 20:00 | Rivet II | 4 450 | 1 247 780 kredit |
 | 21:00 | Advanced Plasma | 25 000 | 500 000 kredit |
 | 21:00 | Ultra Core | 25 000 | 1 000 000 kredit |
-| 21:00 | Rivet I | 5 000 | 500 000 kredit |
+| 21:00 | Rivet III | 550 | 495 880 kredit |
 | 22:00 | Advanced Plasma | 10 000 | 200 000 kredit |
 | 22:00 | Ultra Core | 50 000 | 2 000 000 kredit |
-| 22:00 | Scatter I | 1 250 | 125 000 kredit |
+| 22:00 | Scatter II | 450 | 126 180 kredit |
 | 23:00 | EMP Charge | 5 | 100 000 kredit |
 | 23:00 | Advanced Plasma | 50 000 | 1 000 000 kredit |
-| 23:00 | Ember I | 12 500 | 1 250 000 kredit |
+| 23:00 | Ember II | 4 450 | 1 247 780 kredit |
 
 <!-- market-day:end -->
 

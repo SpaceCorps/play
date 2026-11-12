@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Portes solo -->
 # Portes solo {#solo-gates}
 
@@ -84,13 +84,15 @@ La plupart des tirages ne trouvent aucune pièce. Chacun d’eux paie un lot, ti
 
 ## Y entrer {#going-in}
 
-Vous **construisez** une porte sur la page des Portes galactiques et vous y **sautez** par son portail. On construit depuis la station, vaisseau amarré : inutile d’être en vol. Il faut :
+Vous **construisez** une porte sur la page des Portes galactiques et vous y **sautez** par son portail. On construit depuis la station, vaisseau amarré, et aussi en vol : la **fenêtre des Portes galactiques**, qu’ouvre le bouton des portes de la barre d’outils, lance les scans, construit et choisit la destination comme la page. Il faut :
 
 - les pièces de la porte : elles sont prises **une seule fois, à la construction**, et une construction refusée ne prend rien ;
 - aucune autre partie solo ouverte : vous avez une partie à la fois, et une partie que vous avez quittée est reprise par son portail ou abandonnée avant que vous construisiez une autre porte ;
 - le serveur principal (les serveurs régionaux n’ont pas de portes).
 
 La porte construite se dresse dans votre **secteur d’origine** (`M-1`, `T-1` ou `G-1`, selon votre corporation) sous la forme d’un portail qui porte son nom, et la page des Portes galactiques dit où elle se trouve. **Décollez, volez jusqu’au portail et sautez** comme par n’importe quel portail. Une faille doit être libre dans votre monde quand vous entrez : chaque monde en a un certain nombre, et quand toutes sont occupées, vous attendez.
+
+**Sur les serveurs régionaux (Singapore, US East).** La porte elle-même reste sur le serveur principal : sur un serveur régional, rien n’est construit, joué ni payé. Une porte construite n’y est pourtant pas oubliée : on vous le dit à votre arrivée, et le portail de votre porte se dresse aussi dans votre secteur d’origine. Sautez par ce portail et vous êtes ramené au serveur principal, où vous décollez vers votre porte comme ci-dessus.
 
 Vous atterrissez seul au milieu d’une arène vide. Personne ne peut vous y attaquer, et la Jump CPU et la Base CPU ne fonctionnent pas.
 
@@ -110,16 +112,18 @@ Chaque monde affronte la même porte : la force et le paiement des aliens ne d�
 
 Les aliens sont ceux du jeu (Seeker, Phantasm, Bulwark, Goombah et Crystalys), rendus plus durs ou plus tendres par la porte. Le temps prévu est ce que la porte est conçue pour prendre à un pilote au niveau de départ de la Technique laser ([Aptitudes de pilote](/wiki/03-Mechanics/Pilot-Skills.md)) ; un pilote qui a fait monter sa Technique laser finit plus tôt.
 
+Certaines vagues amènent un **essaim** : un boss PNJ du jeu (un Boss Seeker, Boss Phantasm, Boss Goombah ou Boss Crystalys) avec ses gardes, qui attaquent en un seul groupe. Chaque vaisseau d’un essaim fait partie de sa vague, et la vague se termine quand le dernier d’entre eux est mort. Ils paient comme les autres vaisseaux de la vague, aux chiffres de [la table des aliens](#the-aliens). **Un boss PNJ laisse son butin comme dans les secteurs du jeu** : minerai, plaques, munitions et roquettes (ce que chacun laisse figure sur [les pages des essaims](/wiki/05-Swarms/Swarms.md)). Dans une porte, il n’y a pas de caisse à ramasser : le butin arrive avec le paiement, directement dans votre inventaire, et une seule fois par partie, comme le paiement. Ses gardes ne laissent rien, dans la porte comme dans les secteurs, et ils ne soignent pas leur boss et ne reviennent pas. La table ci-dessous dit quelles vagues de chaque porte amènent un essaim.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Porte | Vagues, celle du boss comprise | Aliens dans les vagues | Boss | Temps prévu |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 à 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 à 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 à 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 à 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 à 60 min |
+| Porte | Vagues, celle du boss comprise | Aliens dans les vagues | Boss PNJ et essaims | Boss | Temps prévu |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | vague 5 : 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 à 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | vague 4 : 2 Seeker Swarm; vague 9 : 1 Phantasm Swarm | Enhanced Bulwark | 15 à 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | vague 4 : 1 Phantasm Swarm; vague 9 : 1 Goombah Swarm; vague 14 : 1 Goombah Swarm | Elite Crystalys | 25 à 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | vague 5 : 2 Phantasm Swarm; vague 10 : 2 Goombah Swarm; vague 15 : 1 Goombah Swarm; vague 20 : 1 Crystalys Swarm | Siege Construct | 35 à 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | vague 6 : 1 Goombah Swarm; vague 11 : 2 Goombah Swarm; vague 16 : 1 Crystalys Swarm; vague 22 : 1 Phantasm Swarm | Omega Guardian | 50 à 60 min |
 
 - **Delta Siege** : la vague 18 (250 Seeker) est facultative : vous pouvez la passer pendant son compte à rebours, et elle ne paie rien
 - **Omega Vault** : la vague 17 (250 Seeker) est facultative : vous pouvez la passer pendant son compte à rebours, et elle ne paie rien; les vagues 22 à 24 sont d’élite, avec ×1,5 de coque, de bouclier et de dégâts
@@ -182,7 +186,7 @@ Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le b
 
 ### Les aliens {#the-aliens}
 
-Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha, quel que soit le monde où vous volez : aucun multiplicateur de monde, aucun booster et aucun bonus Premium ne les change. Une vague paie ses aliens **une fois** par partie, autant de fois que vous partiez et reveniez. Le paiement arrive à la fin de chaque tronçon de la partie : quand vous partez, mourez, n’avez plus de vies, abandonnez ou gagnez. Les éliminations d’un tronçon ne restent impayées que lors de la réinitialisation et lors d’un redémarrage du serveur pendant que vous êtes dedans (votre partie reste ouverte, mais les éliminations de ce tronçon sont perdues). Les éliminations d’une porte ne comptent pour rien d’autre : ni pour les missions, ni pour les statistiques d’éliminations, ni pour les compteurs des succès, ni pour le fil des éliminations, ni pour l’expérience de vos drones et P.E.T.s. L’expérience qu’elles paient compte en revanche pour vos points PvE, comme celle d’une victoire. Le butin des aliens arrive avec le paiement, directement dans votre inventaire.
+Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha, quel que soit le monde où vous volez : aucun multiplicateur de monde, aucun booster et aucun bonus Premium ne les change. Une vague paie ses aliens **une fois** par partie, autant de fois que vous partiez et reveniez. Le paiement arrive à la fin de chaque tronçon de la partie : quand vous partez, mourez, n’avez plus de vies, abandonnez ou gagnez. Les éliminations d’un tronçon ne restent impayées que lors de la réinitialisation et lors d’un redémarrage du serveur pendant que vous êtes dedans (votre partie reste ouverte, mais les éliminations de ce tronçon sont perdues). Les éliminations d’une porte comptent pour les [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) qui ne nomment aucun secteur (comme les grandes chasses de la ligne des Défis), au moment où elles ont lieu (une vague compte pour elles **une fois** par partie, comme elle ne paie qu’une fois), et pour rien d’autre : ni pour les statistiques d’éliminations, ni pour les compteurs des succès, ni pour le fil des éliminations, ni pour l’expérience de vos drones et P.E.T.s. L’expérience qu’elles paient compte en revanche pour vos points PvE, comme celle d’une victoire. Le butin des aliens arrive avec le paiement, directement dans votre inventaire.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha
 | **Bulwark** | 5 000 | 25 | 800 | 10 |
 | **Goombah** | 15 000 | 75 | 3 000 | 24 |
 | **Crystalys** | 75 000 | 200 | 12 000 | 52 |
+| **Boss Seeker** | 10 000 | 40 | 1 000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39 000 | 195 | 7 800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120 000 | 600 | 24 000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Porte | Crédits | Thulium | XP | Honneur |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540 000 | 2 160 | 54 000 | 1 080 |
-| **Beta Breach** | 1 320 000 | 5 980 | 186 000 | 2 520 |
-| **Gamma Foundry** | 3 000 000 | 13 300 | 522 000 | 4 616 |
-| **Delta Siege** | 4 975 000 | 21 400 | 829 000 | 7 640 |
-| **Omega Vault** | 6 875 000 | 29 000 | 1 160 000 | 10 100 |
+| **Alpha Rift** | 514 000 | 2 099 | 55 296 | 1 018 |
+| **Beta Breach** | 1 298 500 | 5 939 | 187 744 | 2 470 |
+| **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
+| **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
+| **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
 
 <!-- solo-kills:end -->
 

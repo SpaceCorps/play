@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Kozmetikler -->
 # Kozmetikler {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; görünüm; görünümler; kaplama; gardırop; egzoz; boya; koleksiyon; kozmetik -->
 
-Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **skin** (gövdenin boyası), bir **aura** (geminin çevresinde yumuşak bir parıltı), bir **egzoz** (motorlarının arkasındaki izin rengi ve biçimi) ve dronlarının **kaplaması**. Görünüm yalnızca gösteriş içindir: hasar, gövde ya da hız eklemez, yuva kaplamaz ve bir merminin isabet edebileceği hiçbir şeyi değiştirmez.
+Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **skin** (gövdenin boyası), bir **aura** (geminin çevresinde yumuşak bir parıltı ve bir ışık halkası), bir **egzoz** (motorlarının arkasındaki izin rengi ve biçimi) ve dronlarının **kaplaması**. Görünüm yalnızca gösteriş içindir: hasar, gövde ya da hız eklemez, yuva kaplamaz ve bir merminin isabet edebileceği hiçbir şeyi değiştirmez.
 
 > [!NOTE]
 > **Görünümler satın alınamaz.** Sıfırlama en yüksek rütbelere sezon görünümlerini verir ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Bazı görünümler bir konteyner olan [Kroma Arşivi (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)’nde bulunur, diğerlerini bir yönetici verir. Bir yönetici sana bir görünüm verdiğinde bir bildirim haber verir ve yumuşak bir zil sesi çalar; konteynerde kazandığın görünüm sonuç kartında gösterilir.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ Sekiz Sıradan renk yuvayla birlikte gelir: her pilotta vardır. Ion Blue, motor
 | Efekt | Nadirlik | Ne çizer |
 | :--- | :--- | :--- |
 | **None** | Sıradan | Aura yok. Yuvayla birlikte gelir |
-| **Glow** | Sıradan | Geminin çevresinde yumuşak bir parıltı |
-| **Breath** | Seyrek | Yavaşça nefes alan bir parıltı |
-| **Motes** | Nadir | Çevresinde dört küçük ışığın döndüğü bir parıltı |
-| **Shimmer** | Nadir | Göz kırpan bir parıltı |
-| **Sparkle** | Destansı | Göz kırparak dönen altı ışık |
-| **Wreath** | Destansı | Yavaş bir yörüngede sekiz ışık |
-| **Halo** | Mitik | Çevresinde sekiz ışığın döndüğü, nefes alan bir parıltı |
-| **Laurel** | Efsanevi | Nefes alan bir parıltı içinde yavaşça dönen on ışık |
-| **Crown** | Ebedi | Nefes alan, göz kırpan bir parıltı içinde dönen on ışık |
+| **Glow** | Sıradan | Kenarında ince bir ışık halkası olan yumuşak bir parıltı |
+| **Breath** | Seyrek | Yavaşça nefes alan bir parıltı ve bir ışık halkası |
+| **Motes** | Nadir | İçinde dört küçük kuyruklu yıldızın döndüğü bir ışık halkası |
+| **Shimmer** | Nadir | Soluk bir halkanın içinde göz kırpan, iki kollu yavaş bir sarmal |
+| **Sparkle** | Destansı | Bir ışık halkasının içinde göz kırparak dönen altı kuyruklu yıldız |
+| **Wreath** | Destansı | İçinde daha ince bir halka bulunan bir ışık halkasında, yavaş bir yörüngede sekiz kuyruklu yıldız |
+| **Halo** | Mitik | İçinde iki ince halka bulunan ve altı kuyruklu yıldızın döndüğü, parlak, nefes alan bir ışık halkası |
+| **Laurel** | Efsanevi | Üç kollu yavaş bir sarmalın çevresinde nefes alan bir ışık halkası ve yavaşça dönen sekiz kuyruklu yıldız |
+| **Crown** | Ebedi | İçinde iki ince halka ve dört kollu bir sarmal bulunan, sekiz kuyruklu yıldızın döndüğü parlak bir ışık halkası; nefes alır ve göz kırpar |
+| **Event Horizon** | Mitik | Bir yanı alev alev yanan parlak bir ışık halkasının içinde, arkasındakini karartan karanlık bir kuşak |
+| **Accretion** | Mitik | Bir ışık halkasının içinde üç kollu yavaş bir sarmal ve içe süzülen sekiz kuyruklu yıldız |
+| **Singularity** | Efsanevi | Parlak bir ışık halkasının içinde karanlık bir kuşak, iki kollu bir sarmal ve içe süzülen, göz kırpan altı kuyruklu yıldız |
+| **Gravity Well** | Mitik | Nefes alan bir ışık halkasının içinde soluk bir karanlık kuşak ve üç ince halka |
 
-Aura, kilitlenmeyi işaretleyen çemberin içinde kalır ve bir geminin çevresinde diğer her şeyin altına çizilir.
+Aura, kilitlenmeyi işaretleyen çemberin içinde kalır ve bir geminin çevresinde diğer her şeyin altına çizilir. Auranın kendi ışık halkası incedir, auranın rengini taşır ve üzerinde dolaşan parlak bir yayı vardır; kilitlenme çemberi onun dışında kalır ve sabittir. Kuyruklu yıldız, kısa kuyruklu küçük bir ışıktır.
+
+**Event Horizon**, **Accretion**, **Singularity** ve **Gravity Well** Kroma Arşivi’nde yoktur: bunları bir yönetici verir.
 
 ## Gardırop {#the-wardrobe}
 

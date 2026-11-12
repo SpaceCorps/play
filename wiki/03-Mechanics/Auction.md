@@ -14,7 +14,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - You need **level 5** to use the Auction: to list, to buy and to bid.
 - A listing is priced per lot, in whole Credits or whole Thulium (not both), and never under the kind's least price. There is **no highest price**.
 - A price in Thulium is at least the least price in Credits divided by 1,000, rounded up, and only for kinds whose least price comes to 1 Thulium or more. That is all the rate does: **1 Thulium = 1,000 Credits is a rule for the least price, not an exchange rate.** Nothing is swapped, no worth is shown, and Credits and Thulium are never added together.
-- 102 kinds can be listed, and 101 of them can also be priced in Thulium.
+- 107 kinds can be listed, and 106 of them can also be priced in Thulium.
 - A listing runs for 168 / 336 / 504 hours, as you choose: the choice is the same at every level.
 - The **deposit** is 0.25% of the price for every 24 hours the listing runs, at least 50 Credits or 1 Thulium. You pay it when you list; it is never returned, not even if you cancel.
 - From level 10 the deposit is 0.4%.
@@ -24,7 +24,7 @@ The Auction is the pilots' market and the game's own hourly lots, on one page of
 - From season day 28 until the wipe there is no deposit and no tax.
 - From season day 30 the Auction is closed until the new season starts: nothing can be listed, bought or bid on. You can still cancel your listings.
 - Each currency has its own limit on what you can sell and on what you can buy in 24 hours (the level table below). Lot wins do not count.
-- Between two pilots, one buying from the other, at most 8,000,000 Credits or 40,000 Thulium pass in 24 hours.
+- Between two pilots, one buying from the other, at most 16,000,000 Credits or 80,000 Thulium pass in 24 hours.
 
 <!-- market-glance:end -->
 
@@ -55,7 +55,7 @@ When the Auction came (0.4.12) the gear you already held that the Shop does not 
 | **Laser ammo** | Standard Battery (in lots of 100), Siphon Battery (in lots of 10), Advanced Plasma (in lots of 10), Siphon Battery II (in lots of 10), Antimatter Battery I (in lots of 10), Ultra Core (in lots of 10), Dark Matter Ammo I (in lots of 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Rockets** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Consumables** | EMP Charge, Energetic Wall II | 2 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Hull plating** | Hull Plating II, Hull Plating III | 2 |
 | **Resources** | Cataclysite (in lots of 100), Ship Fragment (in lots of 100), Daraxium (in lots of 100), Nyxite (in lots of 100), Quorvium (in lots of 10), Reinforced Hull Plate (in lots of 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -98,22 +98,22 @@ Your **open listings** (and a listing an admin has put on hold) use up slots. As
 
 | Level | Open listings | Longest listing | A day, Credits | A day, Thulium | Deposit per 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 4,500,000 | 22,500 | 0.25% |
-| 6 | 40 | 504 h | 6,000,000 | 30,000 | 0.25% |
-| 7 | 70 | 504 h | 7,500,000 | 37,500 | 0.25% |
-| 8 | 100 | 504 h | 8,500,000 | 42,500 | 0.25% |
-| 9 | 100 | 504 h | 10,000,000 | 50,000 | 0.25% |
-| 10 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
-| 11 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
-| 12 | 100 | 504 h | 15,000,000 | 75,000 | 0.4% |
-| 13 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 14 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 15 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 16 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 17 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 18 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 19 | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
-| 20 and up | 100 | 504 h | 20,000,000 | 100,000 | 0.4% |
+| 5 | 20 | 504 h | 9,000,000 | 45,000 | 0.25% |
+| 6 | 40 | 504 h | 12,000,000 | 60,000 | 0.25% |
+| 7 | 70 | 504 h | 15,000,000 | 75,000 | 0.25% |
+| 8 | 100 | 504 h | 17,000,000 | 85,000 | 0.25% |
+| 9 | 100 | 504 h | 20,000,000 | 100,000 | 0.25% |
+| 10 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
+| 11 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
+| 12 | 100 | 504 h | 30,000,000 | 150,000 | 0.4% |
+| 13 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 14 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 15 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 16 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 17 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 18 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 19 | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
+| 20 and up | 100 | 504 h | 40,000,000 | 200,000 | 0.4% |
 
 <!-- market-limits:end -->
 
@@ -173,7 +173,7 @@ You are told when something sells or when your order is filled: a toast, the Auc
 
 ## The hourly Lots
 
-The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots every hour (twelve are open at once), for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a special rocket). **Every lot is bid in Credits**, whatever the Shop asks for its goods: a lot of goods that the Shop sells for Thulium (the x2 and x3 ammo and the EMP Charge, for example) opens at the worth of that Thulium price in Credits, at 200 Credits to a Thulium, so you can bid on any lot with no Thulium at all. You can bid on any lot whatever you already carry: a lot you win is yours whole, even when it takes you above the stack the Shop lets you buy.
+The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots every hour (twelve are open at once), for bids. They are a way to buy ammo for less than the Shop asks, and a sink: the winning bid is burned. Only the lots listed in the day table below ever open (never x1 or x4 ammo, never Siphon Batteries, never a Tier I rocket, which the Shop sells, and never a special rocket). The rocket lots are Tier II and Tier III rockets, which the Shop does not sell. **Every lot is bid in Credits**, whatever the Shop asks for its goods: a lot of goods that the Shop sells for Thulium (the x2 and x3 ammo and the EMP Charge, for example) opens at the worth of that Thulium price in Credits, at 200 Credits to a Thulium, so you can bid on any lot with no Thulium at all. You can bid on any lot whatever you already carry: a lot you win is yours whole, even when it takes you above the stack the Shop lets you buy.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -181,6 +181,7 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots ev
 - 3 new lots open at the start of every UTC hour, each of different goods, and each stays open for 4 hours, so 12 are open at once.
 - Every world has its own lots: Alpha, Beta and Gamma each get these lots at every hour, with different goods at the same hour, sized by the pilots of that world. You see, bid on and win only the lots of the world you fly in. The Market and the buy orders are shared by all three worlds.
 - The opening bid is 20% of the Shop price of the goods. A bid after that must be at least 5% over the high bid, and at least 100 Credits more.
+- A Tier II or III rocket, which the Shop does not sell, opens at 20% of its worth, what it costs to make it.
 - Your bid is paid at once and held. If someone outbids you, it comes back to you at once.
 - A bid in the last 2 min of a lot moves its end to 2 min after the bid, at most 5 times.
 - What you win is for flying, not for trading: it is never Marketable. The winning bid is burned. A lot nobody bids on is not sold and costs nobody anything.
@@ -194,78 +195,78 @@ The Lots are the game's own offers: ammo, rockets and EMP Charges, three lots ev
 
 | UTC hour | Lot | Full size | Opening bid at full size |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1,250 | 125,000 Credits |
+| 00:00 | Scatter II | 450 | 126,180 Credits |
 | 00:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 00:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 01:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 01:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 01:00 | Scatter I | 1,250 | 125,000 Credits |
-| 02:00 | Lancet I | 12,500 | 1,250,000 Credits |
+| 01:00 | Scatter II | 450 | 126,180 Credits |
+| 02:00 | Lancet II | 4,450 | 1,247,780 Credits |
 | 02:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 02:00 | EMP Charge | 5 | 100,000 Credits |
 | 03:00 | EMP Charge | 5 | 100,000 Credits |
 | 03:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 03:00 | Lancet I | 12,500 | 1,250,000 Credits |
+| 03:00 | Lancet II | 4,450 | 1,247,780 Credits |
 | 04:00 | Ultra Core | 25,000 | 1,000,000 Credits |
 | 04:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 04:00 | Rivet I | 12,500 | 1,250,000 Credits |
-| 05:00 | Rivet I | 5,000 | 500,000 Credits |
+| 04:00 | Rivet II | 4,450 | 1,247,780 Credits |
+| 05:00 | Rivet III | 550 | 495,880 Credits |
 | 05:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 05:00 | EMP Charge | 5 | 100,000 Credits |
 | 06:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 06:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 06:00 | Ember I | 5,000 | 500,000 Credits |
+| 06:00 | Ember III | 550 | 495,660 Credits |
 | 07:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 07:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 07:00 | Rivet I | 5,000 | 500,000 Credits |
-| 08:00 | Ember I | 12,500 | 1,250,000 Credits |
+| 07:00 | Rivet III | 550 | 495,880 Credits |
+| 08:00 | Ember II | 4,450 | 1,247,780 Credits |
 | 08:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 08:00 | EMP Charge | 5 | 100,000 Credits |
 | 09:00 | Ultra Core | 50,000 | 2,000,000 Credits |
 | 09:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 09:00 | Lancet I | 1,250 | 125,000 Credits |
-| 10:00 | Scatter I | 5,000 | 500,000 Credits |
+| 09:00 | Lancet III | 150 | 135,240 Credits |
+| 10:00 | Scatter III | 550 | 495,880 Credits |
 | 10:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 10:00 | EMP Charge | 5 | 100,000 Credits |
 | 11:00 | EMP Charge | 5 | 100,000 Credits |
 | 11:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 11:00 | Lancet I | 12,500 | 1,250,000 Credits |
+| 11:00 | Lancet II | 4,450 | 1,247,780 Credits |
 | 12:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 12:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 12:00 | Scatter I | 5,000 | 500,000 Credits |
-| 13:00 | Lancet I | 1,250 | 125,000 Credits |
+| 12:00 | Scatter III | 550 | 495,880 Credits |
+| 13:00 | Lancet III | 150 | 135,240 Credits |
 | 13:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 13:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 14:00 | Ultra Core | 10,000 | 400,000 Credits |
 | 14:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 14:00 | Ember I | 12,500 | 1,250,000 Credits |
+| 14:00 | Ember II | 4,450 | 1,247,780 Credits |
 | 15:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 15:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 15:00 | Lancet I | 1,250 | 125,000 Credits |
+| 15:00 | Lancet III | 150 | 135,240 Credits |
 | 16:00 | Ultra Core | 50,000 | 2,000,000 Credits |
 | 16:00 | Advanced Plasma | 10,000 | 200,000 Credits |
-| 16:00 | Ember I | 5,000 | 500,000 Credits |
-| 17:00 | Rivet I | 12,500 | 1,250,000 Credits |
+| 16:00 | Ember III | 550 | 495,660 Credits |
+| 17:00 | Rivet II | 4,450 | 1,247,780 Credits |
 | 17:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 17:00 | EMP Charge | 5 | 100,000 Credits |
 | 18:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
 | 18:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 18:00 | Scatter I | 5,000 | 500,000 Credits |
-| 19:00 | Ember I | 5,000 | 500,000 Credits |
+| 18:00 | Scatter III | 550 | 495,880 Credits |
+| 19:00 | Ember III | 550 | 495,660 Credits |
 | 19:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 19:00 | EMP Charge | 5 | 100,000 Credits |
 | 20:00 | Ultra Core | 25,000 | 1,000,000 Credits |
 | 20:00 | Advanced Plasma | 25,000 | 500,000 Credits |
-| 20:00 | Rivet I | 12,500 | 1,250,000 Credits |
+| 20:00 | Rivet II | 4,450 | 1,247,780 Credits |
 | 21:00 | Advanced Plasma | 25,000 | 500,000 Credits |
 | 21:00 | Ultra Core | 25,000 | 1,000,000 Credits |
-| 21:00 | Rivet I | 5,000 | 500,000 Credits |
+| 21:00 | Rivet III | 550 | 495,880 Credits |
 | 22:00 | Advanced Plasma | 10,000 | 200,000 Credits |
 | 22:00 | Ultra Core | 50,000 | 2,000,000 Credits |
-| 22:00 | Scatter I | 1,250 | 125,000 Credits |
+| 22:00 | Scatter II | 450 | 126,180 Credits |
 | 23:00 | EMP Charge | 5 | 100,000 Credits |
 | 23:00 | Advanced Plasma | 50,000 | 1,000,000 Credits |
-| 23:00 | Ember I | 12,500 | 1,250,000 Credits |
+| 23:00 | Ember II | 4,450 | 1,247,780 Credits |
 
 <!-- market-day:end -->
 

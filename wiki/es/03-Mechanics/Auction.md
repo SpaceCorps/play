@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
+<!-- wiki-i18n source: f16e7d6d09501326 -->
 <!-- wiki-i18n title: Subasta -->
 # Subasta {#auction}
 
@@ -16,7 +16,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 - Necesitas el **nivel 5** para usar la subasta: para publicar, comprar y pujar.
 - Un anuncio se pone a precio por lote, en créditos enteros o en Thulium entero (no los dos), y nunca por debajo del precio mínimo del objeto. **No hay precio máximo.**
 - Un precio en Thulium es como mínimo el precio mínimo en créditos dividido entre 1.000, redondeado hacia arriba, y solo para los objetos cuyo precio mínimo llega a 1 Thulium o más. Eso es todo lo que hace la tasa: **1 Thulium = 1.000 créditos es una regla para el precio mínimo, no un tipo de cambio.** No se cambia nada, no se muestra ningún valor y los créditos y el Thulium nunca se suman.
-- Se pueden publicar 102 objetos distintos, y 101 de ellos también se pueden poner a precio en Thulium.
+- Se pueden publicar 107 objetos distintos, y 106 de ellos también se pueden poner a precio en Thulium.
 - Un anuncio dura 168 / 336 / 504 horas, a tu elección: las opciones son las mismas en todos los niveles.
 - El **depósito** es el 0,25 % del precio por cada 24 horas que dura el anuncio, con un mínimo de 50 créditos o 1 Thulium. Lo pagas al publicar; nunca se devuelve, ni siquiera si cancelas el anuncio.
 - Desde el nivel 10, el depósito es el 0,4 %.
@@ -26,7 +26,7 @@ La subasta es el mercado de los pilotos y, a la vez, los lotes de cada hora del 
 - Desde el día 28 de la temporada hasta el reinicio no hay depósito ni impuesto.
 - Desde el día 30 de la temporada la subasta está cerrada hasta que empieza la nueva temporada: no se puede publicar, comprar ni pujar nada. Aun así puedes cancelar tus anuncios.
 - Cada moneda tiene su propio límite de lo que puedes vender y de lo que puedes comprar en 24 horas (tabla de niveles más abajo). Lo que ganas en los Lotes no cuenta.
-- Entre dos pilotos, uno que compra al otro, pasan como máximo 8.000.000 créditos o 40.000 Thulium en 24 horas.
+- Entre dos pilotos, uno que compra al otro, pasan como máximo 16.000.000 créditos o 80.000 Thulium en 24 horas.
 
 <!-- market-glance:end -->
 
@@ -57,7 +57,7 @@ Cuando llegó la Subasta (0.4.12), el equipo que ya tenías y que la Tienda no v
 | **Munición láser** | Standard Battery (en lotes de 100), Siphon Battery (en lotes de 10), Advanced Plasma (en lotes de 10), Siphon Battery II (en lotes de 10), Antimatter Battery I (en lotes de 10), Ultra Core (en lotes de 10), Dark Matter Ammo I (en lotes de 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Cohetes** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Consumibles** | EMP Charge, Energetic Wall II | 2 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Blindaje de casco** | Hull Plating II, Hull Plating III | 2 |
 | **Recursos** | Cataclysite (en lotes de 100), Ship Fragment (en lotes de 100), Daraxium (en lotes de 100), Nyxite (en lotes de 100), Quorvium (en lotes de 10), Reinforced Hull Plate (en lotes de 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -100,22 +100,22 @@ Tus **anuncios abiertos** (y un anuncio que un admin haya puesto en espera) ocup
 
 | Nivel | Anuncios abiertos | Duración máxima | Al día, créditos | Al día, Thulium | Depósito por 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 4.500.000 | 22.500 | 0,25 % |
-| 6 | 40 | 504 h | 6.000.000 | 30.000 | 0,25 % |
-| 7 | 70 | 504 h | 7.500.000 | 37.500 | 0,25 % |
-| 8 | 100 | 504 h | 8.500.000 | 42.500 | 0,25 % |
-| 9 | 100 | 504 h | 10.000.000 | 50.000 | 0,25 % |
-| 10 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 11 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 12 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 13 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 14 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 15 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 16 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 17 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 18 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 19 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 20 o más | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
+| 5 | 20 | 504 h | 9.000.000 | 45.000 | 0,25 % |
+| 6 | 40 | 504 h | 12.000.000 | 60.000 | 0,25 % |
+| 7 | 70 | 504 h | 15.000.000 | 75.000 | 0,25 % |
+| 8 | 100 | 504 h | 17.000.000 | 85.000 | 0,25 % |
+| 9 | 100 | 504 h | 20.000.000 | 100.000 | 0,25 % |
+| 10 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 11 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 12 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 13 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 14 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 15 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 16 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 17 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 18 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 19 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 20 o más | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
 
 <!-- market-limits:end -->
 
@@ -175,7 +175,7 @@ Te enteras de que algo se vende, o de que se cumple tu orden, por un aviso emerg
 
 ## Los Lotes de cada hora {#the-hourly-lots}
 
-Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, tres lotes cada hora (doce están abiertos a la vez), para pujar. Son una forma de comprar munición por menos de lo que pide la Tienda, y un sumidero: la puja ganadora se quema. Solo se abren los lotes de la tabla del día de abajo (nunca munición x1 ni x4, nunca Siphon Batteries, nunca un cohete especial). **Las pujas por todos los lotes son en créditos**, pida lo que pida la Tienda por sus artículos: un lote de artículos que la Tienda vende por Thulium (por ejemplo, la munición x2 y x3 y la EMP Charge) se abre con el valor de ese precio en Thulium expresado en créditos, a 200 créditos por Thulium, de modo que puedes pujar por cualquier lote sin tener nada de Thulium. Puedes pujar por cualquier lote, lleves lo que lleves ya: un lote que ganas es tuyo entero, aunque te lleve por encima de la pila que la Tienda te deja comprar.
+Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, tres lotes cada hora (doce están abiertos a la vez), para pujar. Son una forma de comprar munición por menos de lo que pide la Tienda, y un sumidero: la puja ganadora se quema. Solo se abren los lotes de la tabla del día de abajo (nunca munición x1 ni x4, nunca Siphon Batteries, nunca un cohete de gama I, que vende la Tienda, ni nunca un cohete especial). Los lotes de cohetes son cohetes de gama II y III, que la Tienda no vende. **Las pujas por todos los lotes son en créditos**, pida lo que pida la Tienda por sus artículos: un lote de artículos que la Tienda vende por Thulium (por ejemplo, la munición x2 y x3 y la EMP Charge) se abre con el valor de ese precio en Thulium expresado en créditos, a 200 créditos por Thulium, de modo que puedes pujar por cualquier lote sin tener nada de Thulium. Puedes pujar por cualquier lote, lleves lo que lleves ya: un lote que ganas es tuyo entero, aunque te lleve por encima de la pila que la Tienda te deja comprar.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -183,6 +183,7 @@ Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, tr
 - Al comienzo de cada hora UTC se abren 3 lotes nuevos, cada uno de un artículo distinto, y cada uno sigue abierto 4 horas, así que hay 12 abiertos a la vez.
 - Cada mundo tiene sus propios lotes: Alpha, Beta y Gamma reciben estos lotes cada hora, con artículos distintos a la misma hora, con un tamaño que depende de los pilotos de ese mundo. Solo ves, pujas y ganas los lotes del mundo en el que vuelas. El Mercado y las órdenes de compra son comunes a los tres mundos.
 - La puja inicial es el 20 % del precio de la tienda de lo que se ofrece. Cada puja posterior debe superar la puja más alta en al menos un 5 %, y en al menos 100 créditos.
+- Un cohete de gama II o III, que la tienda no vende, abre al 20 % de su valor, lo que cuesta fabricarlo.
 - Tu puja se paga al instante y queda retenida. Si alguien te supera, te la devuelven al instante.
 - Una puja en los últimos 2 min de un lote mueve su final a 2 min después de la puja, como máximo 5 veces.
 - Lo que ganas es para volar, no para comerciar: nunca es comercializable. La puja ganadora se quema. Un lote en el que nadie puja no se vende y no le cuesta nada a nadie.
@@ -196,78 +197,78 @@ Los Lotes son las ofertas del propio juego: munición, cohetes y EMP Charges, tr
 
 | Hora UTC | Lote | Tamaño completo | Puja inicial con tamaño completo |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1.250 | 125.000 créditos |
+| 00:00 | Scatter II | 450 | 126.180 créditos |
 | 00:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
 | 00:00 | Ultra Core | 10.000 | 400.000 créditos |
 | 01:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 01:00 | Ultra Core | 50.000 | 2.000.000 créditos |
-| 01:00 | Scatter I | 1.250 | 125.000 créditos |
-| 02:00 | Lancet I | 12.500 | 1.250.000 créditos |
+| 01:00 | Scatter II | 450 | 126.180 créditos |
+| 02:00 | Lancet II | 4.450 | 1.247.780 créditos |
 | 02:00 | Advanced Plasma | 10.000 | 200.000 créditos |
 | 02:00 | EMP Charge | 5 | 100.000 créditos |
 | 03:00 | EMP Charge | 5 | 100.000 créditos |
 | 03:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
-| 03:00 | Lancet I | 12.500 | 1.250.000 créditos |
+| 03:00 | Lancet II | 4.450 | 1.247.780 créditos |
 | 04:00 | Ultra Core | 25.000 | 1.000.000 créditos |
 | 04:00 | Advanced Plasma | 25.000 | 500.000 créditos |
-| 04:00 | Rivet I | 12.500 | 1.250.000 créditos |
-| 05:00 | Rivet I | 5.000 | 500.000 créditos |
+| 04:00 | Rivet II | 4.450 | 1.247.780 créditos |
+| 05:00 | Rivet III | 550 | 495.880 créditos |
 | 05:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 05:00 | EMP Charge | 5 | 100.000 créditos |
 | 06:00 | Advanced Plasma | 10.000 | 200.000 créditos |
 | 06:00 | Ultra Core | 50.000 | 2.000.000 créditos |
-| 06:00 | Ember I | 5.000 | 500.000 créditos |
+| 06:00 | Ember III | 550 | 495.660 créditos |
 | 07:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
 | 07:00 | Ultra Core | 25.000 | 1.000.000 créditos |
-| 07:00 | Rivet I | 5.000 | 500.000 créditos |
-| 08:00 | Ember I | 12.500 | 1.250.000 créditos |
+| 07:00 | Rivet III | 550 | 495.880 créditos |
+| 08:00 | Ember II | 4.450 | 1.247.780 créditos |
 | 08:00 | Advanced Plasma | 10.000 | 200.000 créditos |
 | 08:00 | EMP Charge | 5 | 100.000 créditos |
 | 09:00 | Ultra Core | 50.000 | 2.000.000 créditos |
 | 09:00 | Advanced Plasma | 25.000 | 500.000 créditos |
-| 09:00 | Lancet I | 1.250 | 125.000 créditos |
-| 10:00 | Scatter I | 5.000 | 500.000 créditos |
+| 09:00 | Lancet III | 150 | 135.240 créditos |
+| 10:00 | Scatter III | 550 | 495.880 créditos |
 | 10:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 10:00 | EMP Charge | 5 | 100.000 créditos |
 | 11:00 | EMP Charge | 5 | 100.000 créditos |
 | 11:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
-| 11:00 | Lancet I | 12.500 | 1.250.000 créditos |
+| 11:00 | Lancet II | 4.450 | 1.247.780 créditos |
 | 12:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
 | 12:00 | Ultra Core | 25.000 | 1.000.000 créditos |
-| 12:00 | Scatter I | 5.000 | 500.000 créditos |
-| 13:00 | Lancet I | 1.250 | 125.000 créditos |
+| 12:00 | Scatter III | 550 | 495.880 créditos |
+| 13:00 | Lancet III | 150 | 135.240 créditos |
 | 13:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
 | 13:00 | Ultra Core | 10.000 | 400.000 créditos |
 | 14:00 | Ultra Core | 10.000 | 400.000 créditos |
 | 14:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
-| 14:00 | Ember I | 12.500 | 1.250.000 créditos |
+| 14:00 | Ember II | 4.450 | 1.247.780 créditos |
 | 15:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 15:00 | Ultra Core | 50.000 | 2.000.000 créditos |
-| 15:00 | Lancet I | 1.250 | 125.000 créditos |
+| 15:00 | Lancet III | 150 | 135.240 créditos |
 | 16:00 | Ultra Core | 50.000 | 2.000.000 créditos |
 | 16:00 | Advanced Plasma | 10.000 | 200.000 créditos |
-| 16:00 | Ember I | 5.000 | 500.000 créditos |
-| 17:00 | Rivet I | 12.500 | 1.250.000 créditos |
+| 16:00 | Ember III | 550 | 495.660 créditos |
+| 17:00 | Rivet II | 4.450 | 1.247.780 créditos |
 | 17:00 | Advanced Plasma | 10.000 | 200.000 créditos |
 | 17:00 | EMP Charge | 5 | 100.000 créditos |
 | 18:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
 | 18:00 | Ultra Core | 25.000 | 1.000.000 créditos |
-| 18:00 | Scatter I | 5.000 | 500.000 créditos |
-| 19:00 | Ember I | 5.000 | 500.000 créditos |
+| 18:00 | Scatter III | 550 | 495.880 créditos |
+| 19:00 | Ember III | 550 | 495.660 créditos |
 | 19:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 19:00 | EMP Charge | 5 | 100.000 créditos |
 | 20:00 | Ultra Core | 25.000 | 1.000.000 créditos |
 | 20:00 | Advanced Plasma | 25.000 | 500.000 créditos |
-| 20:00 | Rivet I | 12.500 | 1.250.000 créditos |
+| 20:00 | Rivet II | 4.450 | 1.247.780 créditos |
 | 21:00 | Advanced Plasma | 25.000 | 500.000 créditos |
 | 21:00 | Ultra Core | 25.000 | 1.000.000 créditos |
-| 21:00 | Rivet I | 5.000 | 500.000 créditos |
+| 21:00 | Rivet III | 550 | 495.880 créditos |
 | 22:00 | Advanced Plasma | 10.000 | 200.000 créditos |
 | 22:00 | Ultra Core | 50.000 | 2.000.000 créditos |
-| 22:00 | Scatter I | 1.250 | 125.000 créditos |
+| 22:00 | Scatter II | 450 | 126.180 créditos |
 | 23:00 | EMP Charge | 5 | 100.000 créditos |
 | 23:00 | Advanced Plasma | 50.000 | 1.000.000 créditos |
-| 23:00 | Ember I | 12.500 | 1.250.000 créditos |
+| 23:00 | Ember II | 4.450 | 1.247.780 créditos |
 
 <!-- market-day:end -->
 

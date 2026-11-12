@@ -108,7 +108,7 @@ Tre utomjordingar från den försvunna civilisationen lever här, var och en med
 | Krediter | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Erfarenhet (XP) | 20 200 | 40 400 | 60 600 |
-| Heder | 88 | 176 | 264 |
+| Heder | 87 | 174 | 261 |
 | PvE-poäng per nedskjutning | 15 | 15 | 15 |
 
 **Byte**: en låda, för piloten som gjorde mest skada.

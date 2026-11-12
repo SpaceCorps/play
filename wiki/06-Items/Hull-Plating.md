@@ -41,7 +41,7 @@ Hull Plating fits only in **hull plate slots**, a kind of slot of its own that t
 | Ship | Hull plate slots | A full set of Hull Plating III adds |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125,000 |
-| **Storm** | 7 | 175,000 |
+| **Storm** | 8 | 200,000 |
 | **Ironclad** | 15 | 375,000 |
 | **Wraith** | 10 | 250,000 |
 

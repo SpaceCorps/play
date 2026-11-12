@@ -21,7 +21,7 @@
 | Item | Rarity | You can hold | What it does |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Legendary | 5 | Finishes one Skylab upgrade at once |
-| **Schematics** | Rare | 20 | Finishes the research that is running, if it takes 24 hours or less |
+| **Schematics** | Rare | 20 | Takes 24 hours off the research that is running; finishes it if 24 hours or less are left |
 | **Philosopher's Stone** | Epic | 10 | Your Credit Farm and Thulium Farm make twice as much for 10 hours |
 | **Tinkerer's Badge** | Epic | 10 | Raises a piece of equipment one Forge tier, from Tainted up |
 | **Forger's Seal** | Uncommon | 99 | Skips up to 30 minutes of the Production Queue |
@@ -42,12 +42,13 @@ Finishes **one Skylab upgrade at once**: pick the module that is being upgraded 
 
 ### Schematics
 
-Finishes **the research that is running now**, if the technology takes **24 hours or less** to research. 143 of the 159 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) qualify. The 16 that take 48 or 72 hours do not: the Wraith, three drone formations, Hull Plating III, levels 4 and 5 of the Engine and Defense Modules and seven Pilot technologies.
+Takes **24 hours off the research that is running now**. If **24 hours or less** are left, the research is **finished** at once; if more is left, it loses 24 hours and goes on, and you can use another Schematics on it. 167 of the 187 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) take 24 hours or less, so one Schematics finishes them from the start. The other 20 take longer, 48 or 72 hours for most and 96, 168 and 240 hours for the Rocket Launchers III, IV and V, and need 2 to 10 Schematics.
 
-- **By research time, not time left.** A 48-hour technology with one hour to go is still refused: Schematics look at how long the technology takes in all.
-- **The price stays paid.** The Dark Matter, Credits and Thulium were taken when the research started and are not given back. The science the research has not burned stays in your tank.
-- **The research finishes the way a finished one does.** The technology is yours, the notices appear, and the **next technology of your queue starts at once** if it can.
-- **Refused** without a Research Centre, with no research running, or when the technology takes longer than 24 hours.
+- **Hours of the technology, not of the clock.** The 24 hours are the technology's own research time, the one on its card. The Thulium boost makes a research run faster but does not change what a use takes off, so when a boost would have covered the end of the research, a use saves fewer hours of waiting (at double speed a day of research is 12 hours of waiting). The confirmation says what the timer will show.
+- **The research goes on as it was.** A research that loses 24 hours keeps its place: the boost keeps running, the queue is untouched and nothing starts behind it. A research that is waiting for science still waits: Schematics give time, not fuel.
+- **The price stays paid.** The Dark Matter, Credits and Thulium were taken when the research started and are not given back. The science the skipped time would have burned stays in your tank.
+- **A finished research is finished the usual way.** The technology is yours, the notices appear, and the **next technology of your queue starts at once** if it can.
+- **Refused** without a Research Centre or with no research running (a research that ended by itself before you clicked is not running any more, and nothing is spent).
 - It never starts a research and never picks one for you.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -96,13 +97,13 @@ The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/0
 - **A count, not an item.** The Hangar's inventory is the only place that lists them, as tiles among the consumables; a kind you hold none of has no tile. A tile is not an item, so it can't be dragged, selected, deleted or sold. They have no weight, no hotbar slot and no place in cargo or the Transport Cache; they never drop when your ship is destroyed.
 - **Through the wipe.** Your special items and a running Philosopher's Stone or contract are kept, like the Skylab, the research and your looks.
 - **Never traded.** Not on the [Auction](/wiki/03-Mechanics/Auction.md), not to another pilot, not for Credits.
-- **Only the Hammer can move your pace**, and you can hold only 5. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, one research of at most 24 hours.
+- **Only the Hammer can move your pace**, and you can hold only 5. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, 24 hours of one research.
 - **One use, one confirmation, one sound.** Each use plays its own quiet cue.
 
 ## Common mistakes
 
 - **The Hammer needs a running upgrade.** Start the upgrade first. A module whose timer has already ended has nothing left to finish.
-- **Schematics look at the whole research time.** A technology of 48 or 72 hours can't be finished by them, however little is left.
+- **A long research needs several Schematics.** One takes 24 hours off, not more: a technology of 240 hours takes ten. The sheet tells you how much will be left before you confirm.
 - **The Stone does not stretch the hopper.** Collect before a farm fills, or the bonus is lost.
 - **The Badge is for Tainted and up.** The first step of the Forge needs no Badge.
 - **A contract needs work to do.** Build a producer, an Ore Bay or a module first, then hire the worker.

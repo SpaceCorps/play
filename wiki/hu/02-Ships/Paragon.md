@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4b46b95ef14ebec -->
+<!-- wiki-i18n source: aec634be3b6e5524 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ A Paragon nehéz harci cirkáló, amelyet kiegyensúlyozott védelemre és táma
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 128 000
-- **Alapsebesség**: 230
-- **Lézerfoglalatok**: 9
+- **Alapsebesség**: 270
+- **Lézerfoglalatok**: 10
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 5
 

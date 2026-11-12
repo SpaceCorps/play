@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 6ae1b6fb82141b3d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -8,7 +8,7 @@ A Wraith a csatahajó-osztály csúcsa, páratlan tűzerővel, hatalmas pajzskap
 
 - **Életerő (HP)**: 256 000
 - **Alapsebesség**: 210
-- **Lézerfoglalatok**: 13
+- **Lézerfoglalatok**: 14
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 10
 

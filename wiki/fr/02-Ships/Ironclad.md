@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ L’Ironclad est un tank lourdement blindé : la coque la plus épaisse de tous
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 500 000
-- **Vitesse de base** : 110
+- **Vitesse de base** : 100
 - **Emplacements laser** : 8
 - **Emplacements extras** : 3
 - **Emplacements de blindage**: 15

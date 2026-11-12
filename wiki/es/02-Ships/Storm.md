@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayor cantidad de láseres de todas las naves (14) sobre un casco ligero para su clase. Según la clasificación del juego (más de 10 ranuras de láser) es un acorazado de clase IV. Se fabrica en Ensamblaje cuando el Centro de investigación la ha investigado, y con láseres iguales pierde uno contra uno frente a una Wraith o una Ironclad.
+La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayor cantidad de láseres de todas las naves (15) sobre un casco ligero para su clase. Según la clasificación del juego (más de 10 ranuras de láser) es un acorazado de clase IV. Se fabrica en Ensamblaje cuando el Centro de investigación la ha investigado, y con láseres iguales pierde uno contra uno frente a una Wraith o una Ironclad.
 
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 180.000
-- **Velocidad base**: 260
-- **Ranuras de láser**: 14
+- **Velocidad base**: 350
+- **Ranuras de láser**: 15
 - **Ranuras de extra**: 3
-- **Ranuras de blindaje**: 7
+- **Ranuras de blindaje**: 8
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}
 
-- **Ranuras principales (100 % de eficiencia)**: 4
+- **Ranuras principales (100 % de eficiencia)**: 3
 - **Ranuras de apoyo (75 % de eficiencia)**: 4
 - **Ranuras auxiliares (50 % de eficiencia)**: 2
 
@@ -27,7 +27,7 @@ La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayo
 
 ## Investigación {#research}
 
-- **Ranuras de blindaje.** La Storm tiene 7 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Storm y en todos sus diseños. Con las 7 llenas de Hull Plating III se suman 175.000 de casco.
+- **Ranuras de blindaje.** La Storm tiene 8 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md), todas bloqueadas cuando la fabricas. Cada una es una tecnología propia del Skylab, 1 h y 10 Dark Matter, que se investiga en orden desde la primera; abre esa ranura en la Storm y en todos sus diseños. Con las 8 llenas de Hull Plating III se suman 200.000 de casco.
 - **Diseños.** La Storm tiene 3 [diseños](/wiki/03-Mechanics/Ship-Designs.md). Investiga uno (10 h y 10 Dark Matter) y convierte después tu Storm en él en Ensamblaje: el cambio no se puede deshacer.
 
 | Diseño | Qué cambia |
@@ -48,4 +48,4 @@ Una vez investigada su tecnología, fabricar una Storm en Ensamblaje cuesta 3 [A
 
 ## Historia {#lore}
 
-La Storm es lo que construyen los astilleros cuando la única orden es la velocidad. Un fuselaje en forma de aguja con una cabina oscura se sitúa entre dos anillos abiertos en media luna, cada uno un arco blindado alrededor de un hueco y rematado por un cuerno erguido, con una góndola de motor que atraviesa la abertura: casi toda la nave es propulsión. El blindaje gris claro sobre una estructura más oscura, con tiras de luz blancas, la hace fácil de ver, y quiere que la vean. Dos cañones largos van en las palas delanteras y ocho pequeños emisores en los anillos y las aletas de los hombros, diez bocas bien a la vista, por las que disparan catorce láseres. Lo que no tiene es sitio para el blindaje. Su casco es aproximadamente siete décimas del de una Wraith y aproximadamente tres décimas del de una Ironclad, así que sus pilotos atacan primero, golpean fuerte y se van antes de que algo más grande se dé la vuelta.
+La Storm es lo que construyen los astilleros cuando la única orden es la velocidad. Un fuselaje en forma de aguja con una cabina oscura se sitúa entre dos anillos abiertos en media luna, cada uno un arco blindado alrededor de un hueco y rematado por un cuerno erguido, con una góndola de motor que atraviesa la abertura: casi toda la nave es propulsión. El blindaje gris claro sobre una estructura más oscura, con tiras de luz blancas, la hace fácil de ver, y quiere que la vean. Dos cañones largos van en las palas delanteras y ocho pequeños emisores en los anillos y las aletas de los hombros, diez bocas bien a la vista, por las que disparan quince láseres. Lo que no tiene es sitio para el blindaje. Su casco es aproximadamente siete décimas del de una Wraith y aproximadamente tres décimas del de una Ironclad, así que sus pilotos atacan primero, golpean fuerte y se van antes de que algo más grande se dé la vuelta.

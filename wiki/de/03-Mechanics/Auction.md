@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f2f1295c4ef8ca1c -->
+<!-- wiki-i18n source: f16e7d6d09501326 -->
 <!-- wiki-i18n title: Auktion -->
 # Auktion {#auction}
 
@@ -16,7 +16,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Du brauchst **Level 5**, um die Auktion zu nutzen: zum Einstellen, Kaufen und Bieten.
 - Ein Angebot wird je Posten in ganzen Credits oder in ganzem Thulium bepreist (nicht beides) und nie unter dem Mindestpreis der Sorte. Einen **Höchstpreis gibt es nicht**.
 - Ein Preis in Thulium beträgt mindestens den Mindestpreis in Credits geteilt durch 1.000, aufgerundet, und gilt nur für Sorten, deren Mindestpreis 1 Thulium oder mehr ergibt. Mehr macht der Kurs nicht: **1 Thulium = 1.000 Credits ist eine Regel für den Mindestpreis, kein Wechselkurs.** Nichts wird getauscht, kein Wert wird angezeigt, und Credits und Thulium werden nie zusammengezählt.
-- 102 Sorten lassen sich einstellen, und 101 davon können auch in Thulium bepreist werden.
+- 107 Sorten lassen sich einstellen, und 106 davon können auch in Thulium bepreist werden.
 - Ein Angebot läuft 168 / 336 / 504 Stunden, wie du es wählst: Die Auswahl ist auf jedem Level dieselbe.
 - Die **Einstellgebühr** beträgt 0,25 % des Preises für jeweils 24 Stunden Laufzeit, mindestens 50 Credits oder 1 Thulium. Du zahlst sie beim Einstellen; sie wird nie erstattet, auch nicht, wenn du das Angebot zurückziehst.
 - Ab Level 10 beträgt die Einstellgebühr 0,4 %.
@@ -26,7 +26,7 @@ Die Auktion ist der Markt der Piloten und zugleich die stündlichen Lose des Spi
 - Ab Saisontag 28 bis zum Wipe gibt es weder Einstellgebühr noch Steuer.
 - Ab Saisontag 30 ist die Auktion bis zum Start der neuen Saison geschlossen: Nichts kann eingestellt, gekauft oder mit Geboten belegt werden. Deine Angebote kannst du weiterhin zurückziehen.
 - Jede Währung hat ein eigenes Limit dafür, wie viel du in 24 Stunden verkaufen und wie viel du kaufen kannst (Leveltabelle unten). Gewonnene Lose zählen nicht mit.
-- Zwischen zwei Piloten, von denen einer vom anderen kauft, gehen in 24 Stunden höchstens 8.000.000 Credits oder 40.000 Thulium über.
+- Zwischen zwei Piloten, von denen einer vom anderen kauft, gehen in 24 Stunden höchstens 16.000.000 Credits oder 80.000 Thulium über.
 
 <!-- market-glance:end -->
 
@@ -57,7 +57,7 @@ Als die Auktion kam (0.4.12), wurden die Ausrüstung, die du schon besaßt und d
 | **Lasermunition** | Standard Battery (in Posten zu 100), Siphon Battery (in Posten zu 10), Advanced Plasma (in Posten zu 10), Siphon Battery II (in Posten zu 10), Antimatter Battery I (in Posten zu 10), Ultra Core (in Posten zu 10), Dark Matter Ammo I (in Posten zu 10), Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **Raketen** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **Verbrauchsgüter** | EMP Charge, Energetic Wall II | 2 |
-| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 15 |
+| **Extras** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **Hüllenpanzerung** | Hull Plating II, Hull Plating III | 2 |
 | **Ressourcen** | Cataclysite (in Posten zu 100), Ship Fragment (in Posten zu 100), Daraxium (in Posten zu 100), Nyxite (in Posten zu 100), Quorvium (in Posten zu 10), Reinforced Hull Plate (in Posten zu 10), Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -100,22 +100,22 @@ Deine **offenen Angebote** (und ein Angebot, das ein Admin angehalten hat) beleg
 
 | Level | Offene Angebote | Längste Laufzeit | Pro Tag, Credits | Pro Tag, Thulium | Einstellgebühr je 24 h |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 5 | 20 | 504 h | 4.500.000 | 22.500 | 0,25 % |
-| 6 | 40 | 504 h | 6.000.000 | 30.000 | 0,25 % |
-| 7 | 70 | 504 h | 7.500.000 | 37.500 | 0,25 % |
-| 8 | 100 | 504 h | 8.500.000 | 42.500 | 0,25 % |
-| 9 | 100 | 504 h | 10.000.000 | 50.000 | 0,25 % |
-| 10 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 11 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 12 | 100 | 504 h | 15.000.000 | 75.000 | 0,4 % |
-| 13 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 14 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 15 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 16 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 17 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 18 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 19 | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
-| 20 und höher | 100 | 504 h | 20.000.000 | 100.000 | 0,4 % |
+| 5 | 20 | 504 h | 9.000.000 | 45.000 | 0,25 % |
+| 6 | 40 | 504 h | 12.000.000 | 60.000 | 0,25 % |
+| 7 | 70 | 504 h | 15.000.000 | 75.000 | 0,25 % |
+| 8 | 100 | 504 h | 17.000.000 | 85.000 | 0,25 % |
+| 9 | 100 | 504 h | 20.000.000 | 100.000 | 0,25 % |
+| 10 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 11 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 12 | 100 | 504 h | 30.000.000 | 150.000 | 0,4 % |
+| 13 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 14 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 15 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 16 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 17 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 18 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 19 | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
+| 20 und höher | 100 | 504 h | 40.000.000 | 200.000 | 0,4 % |
 
 <!-- market-limits:end -->
 
@@ -175,7 +175,7 @@ Du erfährst, wenn etwas verkauft wird oder dein Auftrag erfüllt wird: durch ei
 
 ## Die stündlichen Lose {#the-hourly-lots}
 
-Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, drei Lose jede Stunde (zwölf sind gleichzeitig offen), auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine besondere Rakete). **Auf jedes Los wird in Credits geboten**, was auch immer der Shop für die Ware verlangt: Ein Los mit Waren, die der Shop für Thulium verkauft (zum Beispiel die x2- und x3-Munition und die EMP Charge), öffnet mit dem Wert dieses Thulium-Preises in Credits, zu 200 Credits pro Thulium, sodass du auf jedes Los ganz ohne Thulium bieten kannst. Du kannst auf jedes Los bieten, egal was du schon trägst: Ein gewonnenes Los gehört dir ganz, auch wenn es dich über den Stapel hebt, den dir der Shop zu kaufen erlaubt.
+Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges, drei Lose jede Stunde (zwölf sind gleichzeitig offen), auf Gebote. Sie sind eine Möglichkeit, Munition günstiger zu bekommen, als der Shop sie verlangt, und eine Senke: Das Gewinngebot wird vernichtet. Es öffnen nur die Lose aus der Tagestabelle unten (nie x1- oder x4-Munition, nie Siphon Batteries, nie eine Rakete der Stufe I, die der Shop verkauft, und nie eine besondere Rakete). Die Raketenlose sind Raketen der Stufen II und III, die der Shop nicht verkauft. **Auf jedes Los wird in Credits geboten**, was auch immer der Shop für die Ware verlangt: Ein Los mit Waren, die der Shop für Thulium verkauft (zum Beispiel die x2- und x3-Munition und die EMP Charge), öffnet mit dem Wert dieses Thulium-Preises in Credits, zu 200 Credits pro Thulium, sodass du auf jedes Los ganz ohne Thulium bieten kannst. Du kannst auf jedes Los bieten, egal was du schon trägst: Ein gewonnenes Los gehört dir ganz, auch wenn es dich über den Stapel hebt, den dir der Shop zu kaufen erlaubt.
 
 <!-- market-lots:begin -->
 <!-- Generated from server/Resources/Market.json and Auction.json (and the item seeds, Rockets.json) by scripts/market-wiki.sh: don't edit by hand. -->
@@ -183,6 +183,7 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 - Zu Beginn jeder UTC-Stunde öffnen 3 neue Lose, jedes mit anderer Ware, und jedes bleibt 4 Stunden offen, sodass 12 gleichzeitig offen sind.
 - Jede Welt hat ihre eigenen Lose: Alpha, Beta und Gamma bekommen diese Lose zu jeder Stunde, zur selben Stunde mit anderen Waren, in einer Größe, die sich nach den Piloten der jeweiligen Welt richtet. Du siehst, bietest auf und gewinnst nur die Lose der Welt, in der du fliegst. Der Markt und die Kaufaufträge sind für alle drei Welten gemeinsam.
 - Das Startgebot beträgt 20 % des Shop-Preises der Ware. Jedes weitere Gebot muss mindestens 5 % über dem Höchstgebot liegen und mindestens 100 Credits mehr betragen.
+- Eine Rakete der Stufe II oder III, die der Shop nicht verkauft, beginnt bei 20 % ihres Werts, dem Preis ihrer Herstellung.
 - Dein Gebot wird sofort bezahlt und gehalten. Wirst du überboten, bekommst du es sofort zurück.
 - Ein Gebot in den letzten 2 min eines Loses verschiebt dessen Ende auf 2 min nach dem Gebot, höchstens 5-mal.
 - Was du gewinnst, ist zum Fliegen da, nicht zum Handeln: Es ist nie handelbar. Das Gewinngebot wird vernichtet. Auf ein Los, auf das niemand bietet, wird nichts verkauft, und es kostet niemanden etwas.
@@ -196,78 +197,78 @@ Die Lose sind die eigenen Angebote des Spiels: Munition, Raketen und EMP Charges
 
 | UTC-Stunde | Los | Volle Größe | Startgebot bei voller Größe |
 | :--- | :--- | ---: | ---: |
-| 00:00 | Scatter I | 1.250 | 125.000 Credits |
+| 00:00 | Scatter II | 450 | 126.180 Credits |
 | 00:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
 | 00:00 | Ultra Core | 10.000 | 400.000 Credits |
 | 01:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 01:00 | Ultra Core | 50.000 | 2.000.000 Credits |
-| 01:00 | Scatter I | 1.250 | 125.000 Credits |
-| 02:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 01:00 | Scatter II | 450 | 126.180 Credits |
+| 02:00 | Lancet II | 4.450 | 1.247.780 Credits |
 | 02:00 | Advanced Plasma | 10.000 | 200.000 Credits |
 | 02:00 | EMP Charge | 5 | 100.000 Credits |
 | 03:00 | EMP Charge | 5 | 100.000 Credits |
 | 03:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
-| 03:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 03:00 | Lancet II | 4.450 | 1.247.780 Credits |
 | 04:00 | Ultra Core | 25.000 | 1.000.000 Credits |
 | 04:00 | Advanced Plasma | 25.000 | 500.000 Credits |
-| 04:00 | Rivet I | 12.500 | 1.250.000 Credits |
-| 05:00 | Rivet I | 5.000 | 500.000 Credits |
+| 04:00 | Rivet II | 4.450 | 1.247.780 Credits |
+| 05:00 | Rivet III | 550 | 495.880 Credits |
 | 05:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 05:00 | EMP Charge | 5 | 100.000 Credits |
 | 06:00 | Advanced Plasma | 10.000 | 200.000 Credits |
 | 06:00 | Ultra Core | 50.000 | 2.000.000 Credits |
-| 06:00 | Ember I | 5.000 | 500.000 Credits |
+| 06:00 | Ember III | 550 | 495.660 Credits |
 | 07:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
 | 07:00 | Ultra Core | 25.000 | 1.000.000 Credits |
-| 07:00 | Rivet I | 5.000 | 500.000 Credits |
-| 08:00 | Ember I | 12.500 | 1.250.000 Credits |
+| 07:00 | Rivet III | 550 | 495.880 Credits |
+| 08:00 | Ember II | 4.450 | 1.247.780 Credits |
 | 08:00 | Advanced Plasma | 10.000 | 200.000 Credits |
 | 08:00 | EMP Charge | 5 | 100.000 Credits |
 | 09:00 | Ultra Core | 50.000 | 2.000.000 Credits |
 | 09:00 | Advanced Plasma | 25.000 | 500.000 Credits |
-| 09:00 | Lancet I | 1.250 | 125.000 Credits |
-| 10:00 | Scatter I | 5.000 | 500.000 Credits |
+| 09:00 | Lancet III | 150 | 135.240 Credits |
+| 10:00 | Scatter III | 550 | 495.880 Credits |
 | 10:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 10:00 | EMP Charge | 5 | 100.000 Credits |
 | 11:00 | EMP Charge | 5 | 100.000 Credits |
 | 11:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
-| 11:00 | Lancet I | 12.500 | 1.250.000 Credits |
+| 11:00 | Lancet II | 4.450 | 1.247.780 Credits |
 | 12:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
 | 12:00 | Ultra Core | 25.000 | 1.000.000 Credits |
-| 12:00 | Scatter I | 5.000 | 500.000 Credits |
-| 13:00 | Lancet I | 1.250 | 125.000 Credits |
+| 12:00 | Scatter III | 550 | 495.880 Credits |
+| 13:00 | Lancet III | 150 | 135.240 Credits |
 | 13:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
 | 13:00 | Ultra Core | 10.000 | 400.000 Credits |
 | 14:00 | Ultra Core | 10.000 | 400.000 Credits |
 | 14:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
-| 14:00 | Ember I | 12.500 | 1.250.000 Credits |
+| 14:00 | Ember II | 4.450 | 1.247.780 Credits |
 | 15:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 15:00 | Ultra Core | 50.000 | 2.000.000 Credits |
-| 15:00 | Lancet I | 1.250 | 125.000 Credits |
+| 15:00 | Lancet III | 150 | 135.240 Credits |
 | 16:00 | Ultra Core | 50.000 | 2.000.000 Credits |
 | 16:00 | Advanced Plasma | 10.000 | 200.000 Credits |
-| 16:00 | Ember I | 5.000 | 500.000 Credits |
-| 17:00 | Rivet I | 12.500 | 1.250.000 Credits |
+| 16:00 | Ember III | 550 | 495.660 Credits |
+| 17:00 | Rivet II | 4.450 | 1.247.780 Credits |
 | 17:00 | Advanced Plasma | 10.000 | 200.000 Credits |
 | 17:00 | EMP Charge | 5 | 100.000 Credits |
 | 18:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
 | 18:00 | Ultra Core | 25.000 | 1.000.000 Credits |
-| 18:00 | Scatter I | 5.000 | 500.000 Credits |
-| 19:00 | Ember I | 5.000 | 500.000 Credits |
+| 18:00 | Scatter III | 550 | 495.880 Credits |
+| 19:00 | Ember III | 550 | 495.660 Credits |
 | 19:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 19:00 | EMP Charge | 5 | 100.000 Credits |
 | 20:00 | Ultra Core | 25.000 | 1.000.000 Credits |
 | 20:00 | Advanced Plasma | 25.000 | 500.000 Credits |
-| 20:00 | Rivet I | 12.500 | 1.250.000 Credits |
+| 20:00 | Rivet II | 4.450 | 1.247.780 Credits |
 | 21:00 | Advanced Plasma | 25.000 | 500.000 Credits |
 | 21:00 | Ultra Core | 25.000 | 1.000.000 Credits |
-| 21:00 | Rivet I | 5.000 | 500.000 Credits |
+| 21:00 | Rivet III | 550 | 495.880 Credits |
 | 22:00 | Advanced Plasma | 10.000 | 200.000 Credits |
 | 22:00 | Ultra Core | 50.000 | 2.000.000 Credits |
-| 22:00 | Scatter I | 1.250 | 125.000 Credits |
+| 22:00 | Scatter II | 450 | 126.180 Credits |
 | 23:00 | EMP Charge | 5 | 100.000 Credits |
 | 23:00 | Advanced Plasma | 50.000 | 1.000.000 Credits |
-| 23:00 | Ember I | 12.500 | 1.250.000 Credits |
+| 23:00 | Ember II | 4.450 | 1.247.780 Credits |
 
 <!-- market-day:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 6ae1b6fb82141b3d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -8,7 +8,7 @@ Wraith, savaş gemisi sınıfının zirvesindeki araçtır: eşsiz ateş gücü,
 
 - **Gövde puanı (HP)**: 256.000
 - **Temel hız**: 210
-- **Lazer yuvaları**: 13
+- **Lazer yuvaları**: 14
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 10
 

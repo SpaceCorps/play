@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) azonnal befejezi a most futó kutatást, ha a technológiája legfeljebb 24 órát vesz igénybe (a 159 technológiából 143). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet még nem égetett el, a tartályodban marad, a sorod következő technológiája pedig azonnal elindul.
+**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 187 technológiából 167 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 20-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@ Mit tesz a boost egy kutatás idejével, ha az elejétől fogva működik:
 | 6 óra | 3 óra | 1 | 5 000 |
 | 8 óra | 4 óra | 1 | 5 000 |
 | 10 óra | 5 óra | 1 | 5 000 |
+| 16 óra | 8 óra | 1 | 5 000 |
 | 1 nap | 12 óra | 1 | 5 000 |
 | 2 nap | 1 nap | 1 | 5 000 |
 | 4 nap | 2 nap | 2 | 10 000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Boosterek {#tree-boosters}
@@ -550,18 +557,23 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 nap | 864 000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 óra | 10 800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 óra | 21 600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 óra | 10 800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 óra | 21 600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 óra | 36 000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 óra | 57 600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 nap | 86 400 | – |
 
 Az osztályok kutatási idő szerint:
 
 | Osztály | Kutatási idő | Technológiák | Egymás után | Tudomány | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 perc–1 óra | 17 | 9 óra 30 perc | 34 200 | 0 |
-| B | 3 óra–6 óra | 35 | 5 nap 11 óra | 471 600 | 0 |
-| C | 8 óra–10 óra | 19 | 7 nap 18 óra | 669 600 | 95 |
-| D | 1 nap–10 nap | 28 | 52 nap | 4 492 800 | 329 |
-| Összesen |  | 99 | 65 nap 14 óra 30 perc | 5 668 200 | 424 |
+| B | 3 óra–6 óra | 37 | 5 nap 20 óra | 504 000 | 0 |
+| C | 8 óra–10 óra | 20 | 8 nap 4 óra | 705 600 | 95 |
+| D | 16 óra–10 nap | 30 | 53 nap 16 óra | 4 636 800 | 329 |
+| Összesen |  | 104 | 68 nap 1 óra 30 perc | 5 880 600 | 424 |
 
-Egymás után kutatva a teljes fa 65 nap 14 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 32 nap 19 óra 15 perc alatt, ami 33 boost és 165 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 68 nap 1 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 34 nap 45 perc alatt, ami 35 boost és 175 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 

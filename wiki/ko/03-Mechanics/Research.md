@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: 연구 -->
 # 연구 {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구를, 그 기술의 연구 시간이 24시간 이하라면 즉시 완료합니다(기술 159개 중 143개). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 아직 태우지 않은 과학 포인트는 탱크에 남으며, 대기열의 다음 기술이 바로 시작됩니다.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics)는 진행 중인 연구에서 24시간을 줄여 줍니다. 남은 시간이 24시간 이하면 즉시 완료되고, 더 긴 연구는 24시간이 줄어든 채 계속됩니다(기술 187개 중 167개는 24시간 이하이므로 하나로 처음부터 완료할 수 있고, 나머지 20개는 2~10개가 필요합니다). 연구에 든 비용은 시작할 때 이미 지불되어 돌려받지 못하고, 건너뛴 시간이 태웠을 과학 포인트는 탱크에 남으며, 연구가 끝나면 대기열의 다음 기술이 바로 시작됩니다.
 
 **레이저 증폭기와 마지막 티어.** 티어 II~IV의 Damage Amp, Crit Amp, Penetration Amp는 다른 제작품과 똑같이 연구합니다. 증폭기 계열이 나왔을 때 증폭기를 가지고 있었거나 제작 대기 중이던 파일럿은 그 증폭기 각각의 기술과 그 아래 티어의 기술을 받았습니다. 다른 트리의 기술을 필요로 하는 기술은 13개입니다. 자원 트리에 있는 Dark Matter Plate의 기술입니다. 모든 강화 계열의 마지막 티어가 플레이트 4개와 Ancient Control Unit 1개를 요구하기 때문이며, 티어 IV의 Damage Amp, Crit Amp, Penetration Amp, 티어 IV의 Absorption Shield Cell, Capacity Shield Cell, 티어 IV의 Impulse Thruster, Momentum Thruster, 그리고 Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III, Base CPU II가 여기에 해당합니다. 이미 그중 하나를 연구했다면 그 기술은 그대로 남지만, 거기에 필요한 플레이트를 만들려면 Dark Matter Plate의 기술이 필요합니다. 아래 트리에는 그것을 위한 화살표가 그려지지 않지만, 표에는 나와 있고 게임 안의 카드에도 이름이 나옵니다([Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@ Skylab의 **연구** 보기에서는 기술이 아래 트리의 상자보다 더
 | 6시간 | 3시간 | 1 | 5,000 |
 | 8시간 | 4시간 | 1 | 5,000 |
 | 10시간 | 5시간 | 1 | 5,000 |
+| 16시간 | 8시간 | 1 | 5,000 |
 | 1일 | 12시간 | 1 | 5,000 |
 | 2일 | 1일 | 1 | 5,000 |
 | 4일 | 2일 | 2 | 10,000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### 부스터 {#tree-boosters}
@@ -550,18 +557,23 @@ Skylab 연구 화면의 함선 계열에는 제작이 아닌 두 종류의 기�
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10일 | 864,000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3시간 | 10,800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6시간 | 21,600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3시간 | 10,800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6시간 | 21,600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10시간 | 36,000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16시간 | 57,600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1일 | 86,400 | – |
 
 연구 시간별 등급:
 
 | 등급 | 연구 시간 | 기술 수 | 차례로 연구한 합계 | 과학 | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30분~1시간 | 17 | 9시간 30분 | 34,200 | 0 |
-| B | 3시간~6시간 | 35 | 5일 11시간 | 471,600 | 0 |
-| C | 8시간~10시간 | 19 | 7일 18시간 | 669,600 | 95 |
-| D | 1일~10일 | 28 | 52일 | 4,492,800 | 329 |
-| 전체 |  | 99 | 65일 14시간 30분 | 5,668,200 | 424 |
+| B | 3시간~6시간 | 37 | 5일 20시간 | 504,000 | 0 |
+| C | 8시간~10시간 | 20 | 8일 4시간 | 705,600 | 95 |
+| D | 16시간~10일 | 30 | 53일 16시간 | 4,636,800 | 329 |
+| 전체 |  | 104 | 68일 1시간 30분 | 5,880,600 | 424 |
 
-하나씩 차례로 연구하면 트리 전체에 65일 14시간 30분이 걸립니다. 부스트를 계속 켜 두면 32일 19시간 15분이 걸리며, 부스트 33개와 Thulium 165,000이 듭니다. 과학은 같습니다.
+하나씩 차례로 연구하면 트리 전체에 68일 1시간 30분이 걸립니다. 부스트를 계속 켜 두면 34일 45분이 걸리며, 부스트 35개와 Thulium 175,000이 듭니다. 과학은 같습니다.
 
 <!-- research-technologies:end -->
 

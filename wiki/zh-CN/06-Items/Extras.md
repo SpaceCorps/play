@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: 附加装置 -->
 # 附加装置 {#extras}
 
@@ -12,6 +12,7 @@
 | **Cloaking CPU L** | 隐藏你的舰船 | 50 | 20,000 Thulium |
 | **P.E.T. Station I 至 III** | 开启时，2、3 或 5 只已对接的 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 为你的飞船提供加成、获得经验并工作；关闭时，它们什么都不做 | 开 / 关 | 装配站，研究后（见下面的物品树） |
 | **Auto-Rocket CPU** | 开启时，自动向战斗目标发射你的当前火箭 | 开 / 关 | 装配站，研究后（见下面的物品树） |
+| **Laser Optics I 至 V** | 装备后，激光齐射的命中几率增加 2、4、6、8 或 10 个百分点（只有装备中最好的一个生效） | 装备即可，无需切换 | 装配站，研究后（见下面的物品树） |
 
 Cloaking CPU 只在商店出售。它们无法融合，也没有任何渠道会免费赠送。**EMP Charge** 不再是附加装置：从 0.4.21 起它是消耗品，像火箭一样以堆叠方式携带，不装在任何槽位里，所以不占用你的附加槽位（见[火箭](/wiki/06-Items/Rockets.md#emp-charge)）。两道 **Energetic Wall** 也不再是附加装置：从 0.4.22 起它们同样是消耗品，以堆叠方式携带，不装在任何槽位里（见 [Energetic Wall](#energetic-wall)）。
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 - **击杀。** 被墙摧毁的舰船死于辐射，击杀记在 15 秒内最后击中它的敌方飞行员头上（如果有的话）。立墙的人不会因为并非自己射出的伤害而得到击杀记录。被墙摧毁的外星人不产出任何东西：没有奖励，也没有战利品。
 - **外星人不会绕开它。** 它们要么穿过去被灼烧，要么待在自己一侧朝墙射击。
 - **你看到的样子。** 一条蓝白色的光带，上面有明亮的线条沿着它跑动，两端各有一根光柱；射击命中的地方会闪光，快耗尽时会闪烁。2 级墙则发出黄色的光，核心更粗更亮，光晕也更强，但它的光带和 1 级墙一样宽，都是 10 单位。旁边一条细细的生命条会变短，并变成琥珀色，再变成红色；你的槽位用弧线显示墙的剩余寿命，用阴影显示等待时间。刚立起的墙会闪光亮起，被击毁的墙会化作火花崩塌，时间耗尽的墙会逐渐消散。槽位上的数字也是该等级剩余的墙数。
-- **怎么得到和携带。** Energetic Wall I 在商店里每道售价 **250 Thulium**，一个堆叠最多携带 **20** 道（你在[拍卖行](/wiki/03-Mechanics/Auction.md)挂出的也算在内）。Energetic Wall II 在研究中心研究完成后，在装配站制造，**每次制造一道**，需要 **600 Thulium**、5 个 Ship Fragment 和 1 个 Power Core（正常速度下 6 小时：[研究](/wiki/03-Mechanics/Research.md)），最多携带 **10** 道。与每种有 1,000 枚会自动保留的十二种火箭不同，携带的墙会随赛季丢失，除非放进运输储藏库；储藏库里的墙无法使用。你自己制造的 Energetic Wall II 可以在拍卖行出售；商店出售的 Energetic Wall I 则永远不能。
+- **怎么得到和携带。** Energetic Wall I 在商店里每道售价 **10,000 信用点**，一个堆叠最多携带 **20** 道（你在[拍卖行](/wiki/03-Mechanics/Auction.md)挂出的也算在内）。Energetic Wall II 在研究中心研究完成后，在装配站制造，**每次制造一道**，需要 **600 Thulium**、5 个 Ship Fragment 和 1 个 Power Core（正常速度下 6 小时：[研究](/wiki/03-Mechanics/Research.md)），最多携带 **10** 道。与每种有 1,000 枚会自动保留的十二种火箭不同，携带的墙会随赛季丢失，除非放进运输储藏库；储藏库里的墙无法使用。你自己制造的 Energetic Wall II 可以在拍卖行出售；商店出售的 Energetic Wall I 则永远不能。
 
 ## Mine
 
@@ -111,9 +118,26 @@ S、M、L 型号的行为完全相同：更大的型号只是每次使用更便�
 - **它打谁。** 每一艘从它上方飞过的舰船：敌方飞行员、外星人、企业飞行员、你的企业同伴、你的小队，以及**你自己**。Mine 没有朋友。保护一艘舰船的，就是保护它不受任何武器伤害的东西：安全区、重生保护、隐形或 EMP 窗口。
 - **离开。** Mine 落地时处于其范围内的舰船，在离开该范围一次之前不会被它波及，而它最先放过的就是你：你可以把 Mine 丢在自己飞船下面然后飞走。此后，Mine 会像对待其他任何舰船一样在这艘舰船下方爆炸，哪怕它稍后又回来。
 - **多少伤害。** 伤害随等级增长：**8,000、20,000 和 50,000**。你的破坏技能最多为它增加 30%，你的射击技能让 Mine 飞得更快、更远。
-- **限制。** 你同时最多能放出**三枚** Mine（第四枚会顶替最早的那枚），每枚在落地后 **3 分钟**消失，两次投掷之间要等待 **8 秒**；等待算在你身上，而不是飞船上。你离开地图时，你的 Mine 也随你消失。
+- **限制。** Mine **没有自己的寿命**：它会留在落地的位置，直到被某艘飞船触发或服务器重启，你下线、阵亡或离开地图时它也不会消失。你**没有个人上限**，只有两次投掷之间 **8 秒** 的等待（等待算在你身上，而不是飞船上）。有两条规则保护地图：无论是谁投掷的，两枚 Mine 之间的距离都不能小于 **365 单位**（略多于最大飞船长度的两倍），一张地图最多容纳 **150** 枚。会违反其中任何一条的投掷会被拒绝，不消耗任何东西，也不会开始等待；瞄准时，光标处的圆环会在将被拒绝的位置变红。
 - **哪里不行。** 飞行员之间无法交战的地方不行（和平协议期间，或规则禁止的星区与星系之门），安全区或重生保护期间不行，Mine 会碰到安全区或星系之门的地方不行，隐形时也不行。游戏会告诉你是哪种情况；被拒绝的投掷不消耗任何东西，也不开始等待。
 - **怎么得到和携带。** Mine I 在商店里售价 **100 Thulium**，一个堆叠最多携带 **20** 枚。Mine II 在装配站制造，**每次制造一枚**，需要两枚 Mine I、3 个 Ship Fragment 和 1 个 Power Core，外加 **200 Thulium**（一个堆叠最多 **10** 枚）；Mine III 需要两枚 Mine II、8 个 Ship Fragment、2 个 Power Core 和 1 个 Reinforced Hull Plate，外加 **400 Thulium**（最多 **5** 枚）。两者都要等研究中心研究完成后才能制造：按正常速度，II 需要 3 小时，III 需要 6 小时（见[研究](/wiki/03-Mechanics/Research.md)）。携带的 Mine 会随赛季丢失，除非放进运输储藏库；储藏库里的 Mine 无法使用。Mine 不能在[拍卖行](/wiki/03-Mechanics/Auction.md)出售。
+
+## Laser Optics
+
+五件能让你的激光更常命中的物品。商店不出售：附加装置的研究中心（天空实验室）研究完成后，由装配站制造，一件接一件（Lasers 系列，见[研究](/wiki/03-Mechanics/Research.md)）。
+
+- **效果。** 装进附加装置槽后，会在[激光技术](/wiki/03-Mechanics/Combat.md#laser-tech)给出的几率之外，再增加激光齐射的命中几率，上限为 100%。Laser Optics I 增加 2 个百分点，II 增加 4 个，III 增加 6 个，IV 增加 8 个，V 增加 10 个。打偏的齐射照样消耗弹药，所以每一个百分点都是你不再浪费的伤害。
+- **只有最好的一个生效。** 两个 Laser Optics 不会叠加：装备中最好的那个生效。只带在身上、或装在另一套配置里的，在你驾驶那套配置之前不起任何作用。
+- **无需按键。** 它们在快捷栏上没有栏位，也没有开关：只要装备着就一直生效，并像其他附加装置一样占用一个附加装置槽。
+- **在哪里看。** 激光的卡片和机库的伤害图块会写出总几率，即你的激光技术和 Optics 合在一起的几率。
+
+| 物品 | 增加 | 研究时间 | 制造所需 Thulium | 制造时间 |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 个百分点 | 3 小时 | 8,000 | 5 分钟 |
+| Laser Optics II | +4 个百分点 | 6 小时 | 15,000 | 7.5 分钟 |
+| Laser Optics III | +6 个百分点 | 10 小时 | 30,000 | 10 分钟 |
+| Laser Optics IV | +8 个百分点 | 16 小时 | 50,000 | 12.5 分钟 |
+| Laser Optics V | +10 个百分点 | 24 小时 | 75,000 | 15 分钟 |
 
 ## 研究中心的 CPU {#research-cpus}
 

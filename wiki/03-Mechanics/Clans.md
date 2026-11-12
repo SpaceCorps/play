@@ -65,6 +65,8 @@ The Leader and the Co-Leaders can ask two things of a pilot who wants in:
 
 They are checked when a pilot **applies or joins**. An officer's **invitation** skips them, and so does an application that an officer accepts. The Find list shows them as small capsules under the clan's name, red for the one you miss, and a clan that has set nothing asks nothing.
 
+**One application at a time.** An application that waits shows as **Applied** in the Find list and on the clan's page, also after you close the menu and open it again, and its button stays grey. A second application to the same clan answers "Application already pending" and sends nothing. If one of the clan's officers declines yours, you can apply to that clan again after **60 seconds**, and you can send at most **5 applications** in any 10 minutes, to all clans together.
+
 ---
 
 ## Clan Progression
@@ -191,6 +193,12 @@ The **Who is online** button in the system toolbar (top right) or the key **H** 
 - **Search.** Type part of a name or of a clan tag; the window asks the server again when the list was cut.
 - **Invite.** A row's **Invite** button is the Group window's own invitation ([Groups](/wiki/03-Mechanics/Groups.md)), with the same answers and refusals (the pilot is in a group, the group is full, Do Not Disturb is on). The button is grey, with the reason on hover, when the game already knows it will be refused.
 - The list is read again every 10 seconds while the window is open.
+
+---
+
+## Clan Chat
+
+The **Clan** tab of the chat ([Chat Channels](/wiki/03-Mechanics/Groups.md#chat-channels), the command `/c`) is only for the members of your clan. The server keeps its last **200 lines**, none older than **14 days**, so a member who was not online finds them when he logs in or joins: oldest first, under a line that says how long the chat is kept, with the date on the lines of earlier days. Someone who leaves or is dismissed gets nothing more of it. When the clan is disbanded, by its Leader or at [the wipe](#the-wipe-disbands-every-clan), its lines are deleted with it.
 
 ---
 

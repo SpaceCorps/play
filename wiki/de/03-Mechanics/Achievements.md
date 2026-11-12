@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
@@ -14,7 +14,7 @@ Erfolge sind die Ziele einer ganzen Pilotenlaufbahn: Zerstöre deinen ersten Ali
 
 ## Stufen und Belohnungen {#tiers-and-rewards}
 
-Die fünf Stufen zahlen für jeden Erfolg darin gleich viel, einmalig. Die Tabelle zählt alle 40, auch die versteckten.
+Die fünf Stufen zahlen für jeden Erfolg darin gleich viel, einmalig. Die Tabelle zählt alle 50, auch die versteckten.
 
 | Stufe | Erfolge | Credits je Erfolg |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 181 Technologien. | Legendär |
+| Archivar | Erforsche alle 187 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 
@@ -134,10 +134,11 @@ Ein **Titel** ist eine kurze Textzeile neben dem Namen eines Piloten. 32 der 50 
 Im **Steam-Build** kannst du dein Spielkonto mit deinem Steam-Konto verknüpfen, und dann werden deine Erfolge auch bei Steam gesetzt. Die direkten Downloads haben kein Steam und damit keine Verknüpfung; die Erfolge, Belohnungen und Titel des Spiels funktionieren in jedem Build gleich.
 
 - **Verknüpfen** in **Einstellungen › Konto**, auf der Steam-Karte. Du gibst dein Spielpasswort noch einmal ein, um die Verknüpfung zu starten. Das Spiel lässt dann Steam für dich bürgen, und der Server vertraut nur der Antwort von Steam: Nichts, was du eintippst, kann ein Steam-Konto benennen.
+- **Ein neues Konto verknüpft sich selbst.** Wenn du dich im Steam-Build registrierst, hat das Formular einen Schalter **Mit meinem Steam-Konto verknüpfen**, standardmäßig an. Das Konto wird bei deiner ersten Anmeldung verknüpft, mit dem Passwort, das du gerade eingegeben hast, und es gelten dieselben Prüfungen (Steam bürgt für dich; eins zu eins). Bereits bestehende Konten werden nie von selbst verknüpft.
 - **Eins zu eins.** Ein Spielkonto hält höchstens ein Steam-Konto, und ein Steam-Konto lässt sich mit einem Spielkonto verknüpfen. Ist ein Steam-Konto schon mit einem anderen Piloten verknüpft, sagt das Spiel es dir und verknüpft nichts. Ein Admin kann eine Verknüpfung von Hand verschieben, wenn zwei Konten dasselbe Steam-Konto beanspruchen.
 - **Was der Server speichert**, ist deine Steam-ID, die öffentliche Nummer deines Steam-Kontos, und der Zeitpunkt der Verknüpfung. Sonst speichert er nichts von Steam: weder deinen Steam-Namen noch Freunde, Spiele oder dein Passwort. Die ID sehen nur du und die Administratoren des Spiels, andere Piloten nie.
 - **Trennen** auf derselben Karte, mit deinem Passwort: Die gespeicherte Steam-ID wird sofort gelöscht. Nach einer Trennung kannst du erst nach 24 Stunden ein anderes Steam-Konto verknüpfen; dasselbe wieder zu verknüpfen geht sofort. In diesen 24 Stunden behält der Server eine kurze Notiz zur Trennung (den Zeitpunkt und einen verwürfelten Code aus der ID, nur um zu erkennen, ob du dasselbe Konto wieder verknüpfst) und löscht sie dann.
-- **Erfolge erreichen Steam, wenn du dich mit dem Steam-Build anmeldest**, solange das laufende Steam-Konto das verknüpfte ist. Das Spiel prüft, was Steam fehlt, und setzt es. Ein Erfolg aus einem direkten Download oder aus einer Zeit, in der Steam geschlossen war, kommt also bei deiner nächsten Steam-Anmeldung an. Offline geht nichts verloren: Das Spiel behält den Eintrag, und Steam erfährt es später.
+- **Erfolge erreichen Steam, sobald du sie freischaltest**, solange das laufende Steam-Konto das verknüpfte ist: Steam zeigt sein eigenes Pop-up ein paar Sekunden nach dem des Spiels. Bei jeder Anmeldung prüft das Spiel außerdem, was Steam fehlt, und setzt es; ein Erfolg aus einem direkten Download oder aus einer Zeit, in der Steam geschlossen war, kommt also dann an, und ein fehlgeschlagener Versuch wird von selbst wiederholt. Solange du auf einem anderen Server (einem regionalen Knoten) fliegst, wird dort nichts verdient oder gesendet; zurück an der Station holt das Spiel es nach. Offline geht nichts verloren: Das Spiel behält den Eintrag, und Steam erfährt es später.
 - Die Credits und Titel eines Erfolgs stammen aus dem eigenen Eintrag des Spielservers, nie von Steam.
 
 ## Seit wann gezählt wird {#when-counting-began}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
+<!-- wiki-i18n source: 5840847853041fa0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av 
 | Extra | en Repair Drone IV, en Auto-Repair CPU och en Base CPU II |
 | Skrov | 15 Hull Plating III |
 
-På Alphas styrka har han **931 250 skrov**, **1 559 486 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 90,9 % absorbering, hastighet 102, räckvidd 945 och en salva på **4 440 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,5 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring fjorton minuters ihållande eld, tio av dem omkring 86 sekunder.
+På Alphas styrka har han **931 250 skrov**, **1 559 486 sköld** (laddar 67 614 per sekund efter 15 sekunder utan träff), 90,9 % absorbering, hastighet 97, räckvidd 945 och en salva på **5 014 per sekund**. Beta har 1,5 gånger de värdena och Gamma 2 gånger, som varje utomjording. Det är omkring 2,5 miljoner poäng att tugga igenom i Alpha: en Wraith med samma lasrar behöver ensam omkring tolv minuters ihållande eld, tio av dem omkring 71 sekunder.
 
 ## Att bekämpa honom {#fighting-him}
 

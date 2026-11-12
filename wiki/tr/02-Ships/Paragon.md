@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4b46b95ef14ebec -->
+<!-- wiki-i18n source: aec634be3b6e5524 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ Paragon, dengeli bir savunma ve saldırı için tasarlanmış ağır bir muhareb
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 128.000
-- **Temel hız**: 230
-- **Lazer yuvaları**: 9
+- **Temel hız**: 270
+- **Lazer yuvaları**: 10
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 5
 

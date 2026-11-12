@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -115,7 +115,7 @@ Huit des dix types ne font qu’apporter des boosts. Le **Retriever** et le **Mo
 Un Retriever arrimé prend la caisse de cargaison la plus proche dans sa **portée**, une caisse à la fois et chacune en une demi-seconde, le temps que prend votre propre récupération : il n’est jamais plus rapide qu’une main. Son drone vole jusqu’à la caisse, un anneau de lumière se referme autour d’elle et, là où la caisse se trouvait, un petit bip retentit.
 
 - **Portée.** Du milieu de votre vaisseau au milieu de la caisse. Votre propre récupération porte à 200 unités ; un Retriever commence au-dessus et grandit avec son grade et son niveau, jusqu’à 880 unités (8 longueurs de vaisseau) pour un Legendary de niveau 20. Un vaisseau fait environ 110 unités de long.
-- **Quelles caisses.** Seulement celles que vous pourriez prendre vous-même : les vôtres et celles de votre clan, et celles de tous une fois leur réservation terminée. Jamais une caisse encore réservée à un autre pilote ou clan, et jamais la [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) d’un autre pilote ; vos propres caisses privées, il les prend. Le butin d’une élimination, les fragments d’un astéroïde, les caisses de Dark Matter et celles d’une excavatrice géante sont toutes des caisses. Une caisse que vous récupérez à la main vous est laissée, et si vous et votre Retriever atteignez une caisse en même temps, un seul des deux l’obtient.
+- **Quelles caisses.** Seulement celles que vous pourriez prendre vous-même : les vôtres et celles de votre clan (pas les fragments d’un astéroïde posés pour un membre du clan : ils sont à lui seul pendant 30 secondes), et celles de tous une fois leur réservation terminée. Jamais une caisse encore réservée à un autre pilote ou clan, et jamais la [caisse privée](/wiki/03-Mechanics/Cargo.md#private-boxes) d’un autre pilote ; vos propres caisses privées, il les prend. Le butin d’une élimination, les fragments d’un astéroïde, les caisses de Dark Matter et celles d’une excavatrice géante sont toutes des caisses. Une caisse que vous récupérez à la main vous est laissée, et si vous et votre Retriever atteignez une caisse en même temps, un seul des deux l’obtient.
 - **Ce que vous obtenez.** Ce que donnerait votre propre récupération : les objets vont dans l’inventaire de votre hangar, le [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) ajoute sa part, et les crédits et le Thulium d’un fragment sont payés comme quand vous le récupérez vous-même.
 
 ### Le Mole {#the-mole}

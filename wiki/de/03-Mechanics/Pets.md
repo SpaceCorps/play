@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -115,7 +115,7 @@ Acht der zehn Typen geben nur Boosts. Der **Retriever** und der **Mole** geben a
 Ein angedockter Retriever nimmt die nächste Frachtkiste in seiner **Reichweite** auf, eine Kiste nach der anderen und jede in einer halben Sekunde, der Zeit, die dein eigenes Einsammeln braucht: Er ist nie schneller als eine Hand. Seine Drohne fliegt zur Kiste, ein Lichtring schließt sich um sie, und dort, wo die Kiste lag, ertönt ein kleiner Piepton.
 
 - **Reichweite.** Von der Mitte deines Schiffs zur Mitte der Kiste. Dein eigenes Einsammeln reicht 200 Einheiten weit; ein Retriever beginnt darüber und wächst mit Stufe und Level, bis auf 880 Einheiten (8 Schiffslängen) bei einem Legendary auf Level 20. Ein Schiff ist etwa 110 Einheiten lang.
-- **Welche Kisten.** Nur Kisten, die du selbst nehmen dürftest: deine und die deines Clans und, sobald ihre Reservierung abgelaufen ist, die von allen. Nie eine Kiste, die noch für einen anderen Piloten oder Clan reserviert ist, und nie die [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes) eines anderen Piloten; deine eigenen privaten Kisten nimmt er. Die Beute eines Abschusses, die Brocken eines Asteroiden, Dark-Matter-Kisten und die Kisten eines Riesenbaggers sind alle Kisten. Eine Kiste, die du gerade von Hand einsammelst, überlässt er dir, und erreichen du und dein Retriever eine Kiste zugleich, bekommt sie genau einer von euch.
+- **Welche Kisten.** Nur Kisten, die du selbst nehmen dürftest: deine und die deines Clans (nicht aber die Brocken eines Asteroiden, die für ein Clanmitglied angelegt wurden: Die gehören 30 Sekunden lang nur ihm) und, sobald ihre Reservierung abgelaufen ist, die von allen. Nie eine Kiste, die noch für einen anderen Piloten oder Clan reserviert ist, und nie die [private Kiste](/wiki/03-Mechanics/Cargo.md#private-boxes) eines anderen Piloten; deine eigenen privaten Kisten nimmt er. Die Beute eines Abschusses, die Brocken eines Asteroiden, Dark-Matter-Kisten und die Kisten eines Riesenbaggers sind alle Kisten. Eine Kiste, die du gerade von Hand einsammelst, überlässt er dir, und erreichen du und dein Retriever eine Kiste zugleich, bekommt sie genau einer von euch.
 - **Was du bekommst.** Was dein eigenes Einsammeln gäbe: Die Gegenstände gehen in dein Hangar-Inventar, der [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) fügt seinen Teil hinzu, und die Credits und das Thulium eines Brockens werden so ausgezahlt, wie wenn du ihn selbst einsammelst.
 
 ### Der Mole {#the-mole}

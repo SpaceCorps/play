@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9a37517663b28a4d -->
+<!-- wiki-i18n source: 6ae1b6fb82141b3d -->
 <!-- wiki-i18n title: Wraith -->
 # Wraith
 
@@ -8,7 +8,7 @@ A Wraith é a nave definitiva da classe dos encouraçados, com poder de fogo inc
 
 - **Pontos de vida (HP)**: 256.000
 - **Velocidade base**: 210
-- **Slots de laser**: 13
+- **Slots de laser**: 14
 - **Slots extras**: 3
 - **Slots de blindagem**: 10
 

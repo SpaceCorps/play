@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-A Kitefin é uma canhoneira leve e a primeira nave que a maioria dos pilotos compra: um terceiro laser, o triplo de casco da Protos e uma propulsão mais rápida, tudo comprado com Thulium.
+A Kitefin é uma canhoneira leve e a primeira nave que a maioria dos pilotos compra: quatro lasers, o triplo de casco da Protos e uma propulsão mais rápida, tudo comprado com Thulium.
 
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 24.000
-- **Velocidade base**: 190
-- **Slots de laser**: 3
+- **Velocidade base**: 220
+- **Slots de laser**: 4
 - **Slots extras**: 2
 
 ### Slots de gerador e suporte {#generator-support-slots}

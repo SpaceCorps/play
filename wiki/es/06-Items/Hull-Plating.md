@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: Blindaje de casco -->
 # Blindaje de casco {#hull-plating}
 
@@ -43,7 +43,7 @@ El blindaje de casco solo encaja en las **ranuras de blindaje**, una clase de ra
 | Nave | Ranuras de blindaje | Un juego completo de Hull Plating III suma |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125.000 |
-| **Storm** | 7 | 175.000 |
+| **Storm** | 8 | 200.000 |
 | **Ironclad** | 15 | 375.000 |
 | **Wraith** | 10 | 250.000 |
 

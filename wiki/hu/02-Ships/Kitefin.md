@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először: egy harmadik lézer, a Protos hajótestének háromszorosa és gyorsabb hajtómű – Thuliumért.
+A Kitefin könnyű ágyúshajó, és a legtöbb pilóta ezt veszi meg először: négy lézer, a Protos hajótestének háromszorosa és gyorsabb hajtómű – Thuliumért.
 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 24 000
-- **Alapsebesség**: 190
-- **Lézerfoglalatok**: 3
+- **Alapsebesség**: 220
+- **Lézerfoglalatok**: 4
 - **Extrafoglalatok**: 2
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}

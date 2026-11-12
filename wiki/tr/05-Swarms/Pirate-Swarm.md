@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aace02deb18f7c01 -->
+<!-- wiki-i18n source: f826327f8cdbd39f -->
 <!-- wiki-i18n title: Pirate sürüsü -->
 # Pirate sürüsü {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Pirate sürüsü, bir **Pirate Boss** ve onun **Pirate Scout** gemileridir: kims
 - **Patrona ateş et, Scout gemilerine değil.** Scout gemileri patronu onarır, ama onarım patronun gövdesinin yanında küçüktür ve *Bir bakışta* listesinin söylediği sıklıkta yeni bir Scout gelir: Scout gemilerini önce öldüren bir grup onların önüne asla geçemez; yalnızca çok büyük bir grup onları temizleyebilir ve yine de patronu bitirmesi, onları rahat bırakan bir gruptan daha uzun sürer. Scout gemileri sana zaman kaybettirir, savaşı belirlemez.
 - **Scout gemilerini uzağa çek.** Bir Scout yalnızca patronun erişimi içindeyken onarır; bu yüzden seni erişim dışına kadar izleyen bir Scout hiçbir şeyi onarmaz ve bir Ostirion bir Scout gemisinden hızlıdır.
 - **Hareket etmeye devam et.** Patronun roketi düzdür ve güdümsüzdür: hareket etmeye devam eden gemi ondan kaçar, olduğu yerde duran vurulur.
-- **Bir grup getir.** x2 cephaneli Ostirion gemilerindeki üç pilot, `x-2` sektöründe tek gemi kaybetmeden onu indirir; darbeler paylaşıldığı sürece `x-3` sektöründe de indirir, ama ancak zar zor; dört pilot Alpha dünyasında onu yaklaşık üç buçuk dakikada indirir. x4 cephaneyle `x-3` sektöründe üç pilot onu yaklaşık iki dakikada indirir. Beş pilot, darbeler paylaşıldığında yaklaşık iki buçuk dakikada, tüm ateşi tek pilot aldığında yaklaşık üç dakikada indirir; o durumda iki gemi kaybederler: tüm ateşi tek pilotun almasına izin veren bir grubun dört kişi olması gerekir. Beta dünyasında beş, Gamma dünyasında altı pilot gerekir; darbeler paylaşılmış olmalıdır (patron orada daha büyüktür ve Scout gemileri daha çok onarır). Alpha dünyasında `x-3` sektöründe x2 cephaneyle tek bir Ostirion tek başına başaramaz, tek bir Paragon ise zar zor başarır, iki Paragon güvenle başarır. Beta ve Gamma dünyalarında `x-3` sektöründe tek bir Paragon x2 cephaneyle tek başına yok edilir; x4 cephaneyle Beta dünyasında kazanır, Gamma dünyasında yok edilir. Patron ona ilk vuran pilota karşılık verir, bu yüzden işe en sağlam gemi başlasın ve bu kadar uzun bir savaşta yeteneklerini (Emergency Repair, Shield Surge: [Yetenekler](/wiki/03-Mechanics/Abilities.md)) kullan. Hâlâ 2. ya da 3. seviyede olan pilotlar, uçtukları yerde bile, bunun için fazla zayıftır: daha güçlenene kadar uzak dur.
+- **Bir grup getir.** x2 cephaneli Ostirion gemilerindeki üç pilot, `x-2` sektöründe tek gemi kaybetmeden onu indirir, ama ancak zar zor; `x-3` sektöründe ise darbeler paylaşıldığı sürece bile yok edilir; dört pilot Alpha dünyasında onu yaklaşık üç dakikada indirir. x4 cephaneyle `x-3` sektöründe üç pilot onu yaklaşık iki dakikada indirir. Beş pilot, darbeler paylaşıldığında yaklaşık iki buçuk dakikada, tüm ateşi tek pilot aldığında üç dakikanın biraz üstünde indirir; o durumda iki gemi kaybederler: tüm ateşi tek pilotun almasına izin veren bir grubun beş kişi olması gerekir. Beta dünyasında beş, Gamma dünyasında yedi pilot gerekir; darbeler paylaşılmış olmalıdır (patron orada daha büyüktür ve Scout gemileri daha çok onarır). Alpha dünyasında `x-3` sektöründe x2 cephaneyle tek bir Ostirion tek başına başaramaz, tek bir Paragon da başaramaz, iki Paragon güvenle başarır. Beta ve Gamma dünyalarında `x-3` sektöründe tek bir Paragon x2 cephaneyle de x4 cephaneyle de tek başına yok edilir. Patron ona ilk vuran pilota karşılık verir, bu yüzden işe en sağlam gemi başlasın ve bu kadar uzun bir savaşta yeteneklerini (Emergency Repair, Shield Surge: [Yetenekler](/wiki/03-Mechanics/Abilities.md)) kullan. Hâlâ 2. ya da 3. seviyede olan pilotlar, uçtukları yerde bile, bunun için fazla zayıftır: daha güçlenene kadar uzak dur.
 - **Patron geri gelir**: *Bir bakışta* listesindeki süreden sonra, aynı sektörde.
 
 ## Ödüller ve ganimet {#rewards-and-drops}
@@ -55,7 +55,7 @@ Ironclad temel alınarak, gövdesinin, kalkanının ve hasarının %50 kadarıyl
 | Gövde | 250.000 | 375.000 | 500.000 |
 | Kalkan | 50.100 | 75.150 | 100.200 |
 | Lazer hasarı (saniyede bir salvo) | yok | yok | yok |
-| Hız | 110 | 110 | 110 |
+| Hız | 100 | 100 | 100 |
 | Lazer menzili | – | – | – |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |
 | Roket hasarı, en fazla | 2.500 (Rivet I) / 5.000 (Rivet II) | 3.750 (Rivet I) / 7.500 (Rivet II) | 5.000 (Rivet I) / 10.000 (Rivet II) |
@@ -81,8 +81,8 @@ Kitefin temel alınarak, gövdesinin %50 kadarıyla ve lazer hasarının %113 ka
 | :--- | ---: | ---: | ---: |
 | Gövde | 12.000 | 18.000 | 24.000 |
 | Kalkan | 9.818 | 14.727 | 19.636 |
-| Lazer hasarı (saniyede bir salvo) | 221 | 332 | 442 |
-| Hız | 190 | 190 | 190 |
+| Lazer hasarı (saniyede bir salvo) | 315 | 473 | 630 |
+| Hız | 220 | 220 | 220 |
 | Lazer menzili | 700 | 700 | 700 |
 | Aggro yarıçapı | 700 | 700 | 700 |
 | Lideri onarır (her biri, saniyede; yalnızca gövde) | 40 | 60 | 80 |

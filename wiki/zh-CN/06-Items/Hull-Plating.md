@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: 船体装甲 -->
 # 船体装甲 {#hull-plating}
 
@@ -43,7 +43,7 @@ Hull Plating I 是买来的。**II 和 III 是升级**：装配站会消耗一�
 | 舰船 | 装甲槽位 | 一整套 Hull Plating III 增加 |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125,000 |
-| **Storm** | 7 | 175,000 |
+| **Storm** | 8 | 200,000 |
 | **Ironclad** | 15 | 375,000 |
 | **Wraith** | 10 | 250,000 |
 

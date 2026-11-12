@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Logros -->
 # Logros {#achievements}
 
@@ -14,7 +14,7 @@ Los logros son las metas de toda la carrera de un piloto: destruir a tu primer a
 
 ## Categorías y recompensas {#tiers-and-rewards}
 
-Las cinco categorías pagan lo mismo por cada logro que contienen, una sola vez. La tabla cuenta los 40, también los ocultos.
+Las cinco categorías pagan lo mismo por cada logro que contienen, una sola vez. La tabla cuenta los 50, también los ocultos.
 
 | Categoría | Logros | Créditos por logro |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ Los 45 logros que no están ocultos, por grupo. Donde una meta cuenta algo, lo c
 | Constructor de estaciones | Construye 5 módulos distintos del Skylab. | Común |
 | Equipo completo | Construye los 16 módulos del Skylab. | Épico |
 | Erudito | Investiga 50 tecnologías. | Poco común |
-| Archivista | Investiga las 181 tecnologías. | Legendario |
+| Archivista | Investiga las 187 tecnologías. | Legendario |
 
 ### Flota {#group-fleet}
 
@@ -134,10 +134,11 @@ Un **título** es una línea corta de texto junto al nombre de un piloto. 32 de 
 En la **versión de Steam** puedes vincular tu cuenta del juego con tu cuenta de Steam, y entonces tus logros también se marcan en Steam. Las descargas directas no tienen Steam, así que no tienen vínculo; los logros, recompensas y títulos del propio juego funcionan igual en todas las versiones.
 
 - **Vincúlala** en **Configuración › Cuenta**, en la tarjeta de Steam. Escribes de nuevo tu contraseña del juego para empezar el vínculo. Después el juego pide a Steam que responda por quién eres, y el servidor solo se fía de la respuesta de Steam: nada de lo que escribas puede nombrar una cuenta de Steam.
+- **Una cuenta nueva se vincula sola.** Si te registras en la versión de Steam, el formulario tiene un interruptor **Vincular a mi cuenta de Steam**, activado por defecto. La cuenta se vincula en tu primer inicio de sesión, con la contraseña que acabas de escribir, y valen las mismas comprobaciones (Steam responde por quién eres; uno a uno). Las cuentas que ya existen nunca se vinculan solas.
 - **Uno a uno.** Una cuenta del juego tiene como máximo una cuenta de Steam, y una cuenta de Steam se vincula a una sola cuenta del juego. Si una cuenta de Steam ya está vinculada a otro piloto, el juego te lo dice y no vincula nada. Un administrador puede mover un vínculo a mano cuando dos cuentas reclaman la misma cuenta de Steam.
 - **Lo que guarda el servidor** es tu ID de Steam, el número público de tu cuenta de Steam, y el momento en que la vinculaste. No guarda nada más de Steam: ni tu nombre de Steam, ni amigos, ni juegos, ni tu contraseña. Solo tú y los administradores del juego pueden ver el ID; otros pilotos, nunca.
 - **Desvincúlala** en la misma tarjeta, con tu contraseña: el ID de Steam guardado se borra de inmediato. Después de desvincular, solo puedes vincular otra cuenta de Steam pasadas 24 horas; volver a vincular la misma funciona al instante. Durante esas 24 horas el servidor guarda una nota breve de la desvinculación (la hora y un código ofuscado hecho a partir del ID, solo para saber si vuelves a vincular la misma cuenta) y luego la borra.
-- **Los logros llegan a Steam cuando inicias sesión con la versión de Steam**, mientras la cuenta de Steam que está en marcha sea la que vinculaste. El juego comprueba qué le falta a Steam y lo marca, así que un logro conseguido en una descarga directa, o con Steam cerrado, llega en tu siguiente inicio de sesión con Steam. Sin conexión no se pierde nada: el juego guarda el registro y Steam se entera más tarde.
+- **Los logros llegan a Steam en cuanto los consigues**, mientras la cuenta de Steam que está en marcha sea la que vinculaste: Steam muestra su propio aviso unos segundos después del del juego. En cada inicio de sesión el juego además comprueba qué le falta a Steam y lo marca, así que un logro conseguido en una descarga directa, o con Steam cerrado, llega entonces, y un intento fallido se repite solo. Mientras vuelas en otro servidor (un nodo regional) allí no se gana ni se envía nada; de vuelta en la estación, el juego se pone al día. Sin conexión no se pierde nada: el juego guarda el registro y Steam se entera más tarde.
 - Los créditos y los títulos de un logro salen del registro del propio servidor del juego, nunca de Steam.
 
 ## Desde cuándo se cuenta {#when-counting-began}

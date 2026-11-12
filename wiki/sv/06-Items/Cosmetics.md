@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; utseende; lackering; garderob; avgasspår -->
 
-Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrovets lackering), en **aura** (ett mjukt sken runt skeppet), ett **avgasspår** (färgen och formen på spåret bakom motorerna) och dina drönares **lackering**. Ett utseende är bara till för syns skull: det ger ingen skada, inget skrov och ingen fart, tar ingen plats och ändrar ingenting som ett skott kan träffa.
+Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrovets lackering), en **aura** (ett mjukt sken och en ljusring runt skeppet), ett **avgasspår** (färgen och formen på spåret bakom motorerna) och dina drönares **lackering**. Ett utseende är bara till för syns skull: det ger ingen skada, inget skrov och ingen fart, tar ingen plats och ändrar ingenting som ett skott kan träffa.
 
 > [!NOTE]
 > **Utseenden kan inte köpas.** Wipen ger säsongsutseendena till de högsta graderna ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Vissa utseenden finns i [Kromaarkivet (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), en container; resten delar en admin ut. När en admin ger dig ett utseende säger ett meddelande det och en mjuk klang ljuder; ett utseende du vinner i containern visas på dess resultatkort.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ De åtta vanliga färgerna följer med platsen: varje pilot har dem. Ion Blue ä
 | Effekt | Sällsynthet | Vad den ritar |
 | :--- | :--- | :--- |
 | **None** | Vanlig | Ingen aura. Följer med platsen |
-| **Glow** | Vanlig | Ett mjukt sken runt skeppet |
-| **Breath** | Ovanlig | Ett sken som långsamt andas |
-| **Motes** | Sällsynt | Ett sken med fyra små ljus som kretsar |
-| **Shimmer** | Sällsynt | Ett sken som glittrar |
-| **Sparkle** | Episk | Sex ljus som kretsar och glittrar |
-| **Wreath** | Episk | Åtta ljus i en långsam bana |
-| **Halo** | Mytisk | Ett andande sken med åtta ljus som kretsar |
-| **Laurel** | Legendarisk | Tio ljus som kretsar långsamt i ett andande sken |
-| **Crown** | Evig | Tio ljus som kretsar i ett andande, glittrande sken |
+| **Glow** | Vanlig | Ett mjukt sken med en tunn ljusring i kanten |
+| **Breath** | Ovanlig | Ett sken och en ljusring som långsamt andas |
+| **Motes** | Sällsynt | En ljusring med fyra små kometer som kretsar inuti den |
+| **Shimmer** | Sällsynt | En långsam spiral med två armar i en svag ring, som glittrar |
+| **Sparkle** | Episk | Sex kretsande kometer som glittrar, i en ljusring |
+| **Wreath** | Episk | Åtta kometer i en långsam bana, i en ljusring med en finare ring inuti |
+| **Halo** | Mytisk | En stark, andande ljusring med två finare ringar inuti och sex kometer som kretsar |
+| **Laurel** | Legendarisk | En andande ljusring runt en långsam spiral med tre armar, med åtta kometer som kretsar långsamt |
+| **Crown** | Evig | En stark ljusring med två finare ringar och en spiral med fyra armar inuti och åtta kometer som kretsar; den andas och glittrar |
+| **Event Horizon** | Mytisk | Ett mörkt band som dämpar det som ligger bakom, inuti en stark ljusring som brinner på ena sidan |
+| **Accretion** | Mytisk | En långsam spiral med tre armar i en ljusring, med åtta kometer som faller inåt |
+| **Singularity** | Legendarisk | Ett mörkt band inuti en stark ljusring, en spiral med två armar och sex glittrande kometer som faller inåt |
+| **Gravity Well** | Mytisk | Ett svagt mörkt band och tre finare ringar inuti en andande ljusring |
 
-En aura stannar inom ringen som markerar en målfixering och ritas under allt annat runt ett skepp.
+En aura stannar inom ringen som markerar en målfixering och ritas under allt annat runt ett skepp. Dess egen ljusring är tunn, har aurans färg och en ljus båge som vandrar runt den; målfixeringsringen ligger utanför den och är stilla. En komet är en liten ljuspunkt med en kort svans.
+
+**Event Horizon**, **Accretion**, **Singularity** och **Gravity Well** finns inte i Kromaarkivet: en admin delar ut dem.
 
 ## Garderoben {#the-wardrobe}
 

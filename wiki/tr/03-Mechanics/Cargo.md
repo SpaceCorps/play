@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Kargo -->
 # Kargo kutuları {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Yok edilen uzaylılar ganimetlerini uzayda parlayan kargo kutuları olarak bıra
 - **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri (Tesseract hariç) ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil.
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** böyle bir kutu bırakmaz: hasarın %5’ini veya fazlasını veren her pilot, ganimetten payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
 - **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** da enkazında kutu bırakmaz: öldürülmesinin ödediği her pilot, Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit ve Dark Matter’dan payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
-- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir. Parça bir kutu gibi toplanır; önce onu kazanan pilotlara ayrılır, sonra bir kutuda olduğu gibi herkese açılır.
+- **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir. Parça bir kutu gibi toplanır; kendisi için bırakıldığı pilota ayrılır: 30 saniye boyunca yalnızca o pilot alabilir, klan arkadaşları alamaz; sonra bir kutuda olduğu gibi herkese açılır.
 
 Bir şirket pilotunun bitirdiği uzaylı, ganimetini öldürmenin sayıldığı pilot için bırakır (sahiplenmeyi elinde tutan pilot, yoksa ona karşı savaşan, şirketinden olan pilot); bir şirket pilotunun tek başına savaştığı uzaylı ise hiçbir şey bırakmaz, çünkü şirket pilotları asla toplamaz.
 
@@ -35,7 +35,7 @@ Kutunun ışıkları, içindeki en nadir eşyanın rengini alır: sıradan ganim
 
 ## Kutuyu kim alır {#who-gets-it}
 
-- Kutuyu **30 saniye** boyunca yalnızca öldürmenin ödemesini alan pilot ve o pilotun **klanının** üyeleri alabilir. Bir uzaylıda bu, onu bitiren kim olursa olsun sahiplenmeyi elinde tutan, yani ona ilk vuran pilottur (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)). Diğer pilotlar kutuyu karartılmış görür ve henüz alamaz; ona gönderilen bir gemi süre dolana kadar yakında bekler.
+- Kutuyu **30 saniye** boyunca yalnızca öldürmenin ödemesini alan pilot ve o pilotun **klanının** üyeleri alabilir. Bir uzaylıda bu, onu bitiren kim olursa olsun sahiplenmeyi elinde tutan, yani ona ilk vuran pilottur (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)). Diğer pilotlar kutuyu karartılmış görür ve henüz alamaz; ona gönderilen bir gemi süre dolana kadar yakında bekler. [Asteroitlerin](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) parçaları bunun dışındadır: o 30 saniye boyunca onları yalnızca kendileri için bırakıldığı pilot alabilir, klan arkadaşları alamaz.
 - Bundan sonra haritadaki **herkes** onu alabilir.
 - Kutuyu yalnızca kutunun bulunduğu haritadaki bir gemi alabilir: yolda (ya da toplamanın aldığı yarım saniye içinde) yok edilirsen, sıçrarsan ya da oyundan çıkarsan kutu başkaları için kalır.
 - İki pilot aynı kutuyu aynı anda toplarsa toplaması önce biten alır, tam bir kez; diğerine kutunun gittiği söylenir.

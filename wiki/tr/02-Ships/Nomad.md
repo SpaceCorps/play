@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad, bir Ostirion gemisinin neredeyse iki katı gövdeye ve iki katı topa sahip bir kruvazördür: Ostirion ile Paragon arasında duran çekiç başlı bir gemi; Mağaza’dan kredi ve Thulium birlikte ödenerek satın alınır. Her pilot satın alabilir.
+Nomad, bir Ostirion gemisinin neredeyse iki katı gövdeye ve iki top fazlasına sahip bir kruvazördür: Ostirion ile Paragon arasında duran çekiç başlı bir gemi; Mağaza’dan kredi ve Thulium birlikte ödenerek satın alınır. Her pilot satın alabilir.
 
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 111.000
-- **Temel hız**: 210
-- **Lazer yuvaları**: 6
+- **Temel hız**: 240
+- **Lazer yuvaları**: 7
 - **Ekstra yuvalar**: 2
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}

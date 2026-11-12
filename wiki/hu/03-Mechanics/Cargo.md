@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -15,7 +15,7 @@ A megsemmisített idegenek a zsákmányukat izzó rakományládákként hagyják
 - **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei (a Tesseract kivételével) és a Dormant Pulse-ok** saját ládát ejtenek, lőszerrel, rakétákkal és nyersanyagokkal. Ahhoz a pilótához tartozik (és a klánjához), aki a hajónak a legtöbb sebzést okozta, nem ahhoz, aki először eltalálta.
 - **Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** nem ejt ilyen ládát: minden pilóta, aki a sebzés legalább 5%-át okozta, saját [privát ládát](#private-boxes) kap a zsákmányból járó részével.
 - **A [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** a roncsánál sem hagy ládát: minden pilóta, akit a megölése kifizet, saját [privát ládát](#private-boxes) kap a Hull Plate-ek, Reinforced Plate-ek, Power Core-ok, Ancient Control Unitok és a Dark Matter rá eső részével.
-- Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. A darabot úgy veszik fel, mint egy ládát, és azoknak a pilótáknak van fenntartva, akik kiérdemelték, utána szabad, mint egy láda.
+- Az **[aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)** egy láda helyett **darabokat** hagynak: apró rögöket és kristályokat, amelyekben kredit és Thulium van, és egy követ, amelyben érc. A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. A darabot úgy veszik fel, mint egy ládát, és annak a pilótának van fenntartva, akinek lerakták: 30 másodpercig csak ő veheti fel, a klánjának tagjai nem, utána szabad, mint egy láda.
 
 Az az idegen, amelyet egy vállalati pilóta fejez be, a zsákmányát annak a pilótának dobja, akinek a kilövés számít (aki a foglalását tartja, különben a vállalatának az ellene harcoló pilótája); az az idegen, amellyel egy vállalati pilóta egyedül harcolt, semmit sem dob, mert a vállalati pilóták sosem gyűjtenek.
 
@@ -35,7 +35,7 @@ A láda fényei a benne lévő legritkább tárgy színét öltik: kékeszöld a
 
 ## Kié {#who-gets-it}
 
-- A kilövésért fizetett pilóta és a pilóta **klánjának** tagjai **30 másodpercig** egyedül vehetik fel a ládát. Egy idegennél ez az a pilóta, aki a foglalását tartja, az első, aki eltalálta (lásd: [Harc](/wiki/03-Mechanics/Combat.md)), bárki fejezte is be. A többi pilóta halványnak látja, és még nem veheti fel; a hozzá küldött hajó a közelben vár, amíg le nem telik az idő.
+- A kilövésért fizetett pilóta és a pilóta **klánjának** tagjai **30 másodpercig** egyedül vehetik fel a ládát. Egy idegennél ez az a pilóta, aki a foglalását tartja, az első, aki eltalálta (lásd: [Harc](/wiki/03-Mechanics/Combat.md)), bárki fejezte is be. A többi pilóta halványnak látja, és még nem veheti fel; a hozzá küldött hajó a közelben vár, amíg le nem telik az idő. Az [aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) darabjai kivételek: ebben a 30 másodpercben csak az a pilóta veheti fel őket, akinek lerakták őket, a klánjának tagjai nem.
 - Ezután a térképen **bárki** felveheti.
 - Csak a láda térképén lévő hajó veheti fel: ha megsemmisülsz, ugrasz vagy kijelentkezel útközben (vagy a felvétel fél másodpercében), a láda a többieknek marad.
 - Ha két pilóta egyszerre gyűjti ugyanazt a ládát, az kapja meg, akinek a felvétele hamarabb ér véget, pontosan egyszer; a másiknak azt mondják, hogy már nincs meg.

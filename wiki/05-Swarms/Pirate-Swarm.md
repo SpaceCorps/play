@@ -30,7 +30,7 @@ The Pirate Swarm is a **Pirate Boss** with its **Pirate Scouts**: a huge, slow s
 - **Shoot the boss, not the scouts.** The scouts heal the boss, but the heal is small next to the boss's hull, and a new scout comes as often as the *At a glance* list says: a group that kills the scouts first never gets ahead of them, and only a very large group can clear them and still takes longer to finish the boss than one that left them alone. The scouts cost you time, they do not decide the fight.
 - **Lead the scouts away.** A scout heals only while it is within reach of the boss, so a scout that follows you out of reach heals nothing, and an Ostirion is faster than a scout.
 - **Keep moving.** The boss's rocket is straight and unguided: a ship that keeps moving sidesteps it, a ship that stands still is hit.
-- **Bring a group.** Three pilots in Ostirions with x2 ammo take it on `x-2` without losing a ship, and on `x-3` too while the hits are shared, though only just; four take it in about three and a half minutes in Alpha. With x4 ammo three take it on `x-3` in about two minutes. Five take it in about two and a half minutes when the hits are shared and in about three when one pilot takes all the fire, and then they lose two ships: a group that lets one pilot take all the fire needs four. In Beta it takes five pilots and in Gamma six, with the hits shared (the boss is bigger there and its scouts heal more). In Alpha on `x-3` with x2 ammo, one Ostirion alone cannot win it, one Paragon alone wins it narrowly, and two Paragons win it safely. In Beta and Gamma on `x-3`, one Paragon alone is destroyed with x2 ammo; with x4 ammo it wins in Beta and is destroyed in Gamma. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
+- **Bring a group.** Three pilots in Ostirions with x2 ammo take `x-2` without losing a ship, though only just, and are destroyed on `x-3` even while the hits are shared; four take it in about three minutes in Alpha. With x4 ammo three take it on `x-3` in about two minutes. Five take it in about two and a half minutes when the hits are shared and in a little over three when one pilot takes all the fire, and then they lose two ships: a group that lets one pilot take all the fire needs five. In Beta it takes five pilots and in Gamma seven, with the hits shared (the boss is bigger there and its scouts heal more). In Alpha on `x-3` with x2 ammo, one Ostirion alone cannot win it, one Paragon alone cannot either, and two Paragons win it safely. In Beta and Gamma on `x-3`, one Paragon alone is destroyed with x2 and with x4 ammo. The boss answers the first pilot who hit it, so let the sturdiest ship start, and use your abilities (Emergency Repair, Shield Surge: [Abilities](/wiki/03-Mechanics/Abilities.md)) in a fight that long. Pilots who are still level 2 or 3 are too weak for it, even where they fly: keep away until you are stronger.
 - **The boss comes back** after the time in the *At a glance* list, in the same sector.
 
 ## Rewards and drops
@@ -53,7 +53,7 @@ Built from the Ironclad at 50% of its hull, shield and damage; its speed and ran
 | Hull | 250,000 | 375,000 | 500,000 |
 | Shield | 50,100 | 75,150 | 100,200 |
 | Laser damage (a volley a second) | none | none | none |
-| Speed | 110 | 110 | 110 |
+| Speed | 100 | 100 | 100 |
 | Laser range | – | – | – |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Rocket damage, at most | 2,500 (Rivet I) / 5,000 (Rivet II) | 3,750 (Rivet I) / 7,500 (Rivet II) | 5,000 (Rivet I) / 10,000 (Rivet II) |
@@ -79,8 +79,8 @@ Built from the Kitefin at 50% of its hull and 113% of its laser damage; its spee
 | :--- | ---: | ---: | ---: |
 | Hull | 12,000 | 18,000 | 24,000 |
 | Shield | 9,818 | 14,727 | 19,636 |
-| Laser damage (a volley a second) | 221 | 332 | 442 |
-| Speed | 190 | 190 | 190 |
+| Laser damage (a volley a second) | 315 | 473 | 630 |
+| Speed | 220 | 220 | 220 |
 | Laser range | 700 | 700 | 700 |
 | Aggro radius | 700 | 700 | 700 |
 | Heals the leader, each, per second (hull only) | 40 | 60 | 80 |

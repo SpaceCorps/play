@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4b46b95ef14ebec -->
+<!-- wiki-i18n source: aec634be3b6e5524 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre de
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 128.000
-- **Velocidad base**: 230
-- **Ranuras de láser**: 9
+- **Velocidad base**: 270
+- **Ranuras de láser**: 10
 - **Ranuras de extra**: 3
 - **Ranuras de blindaje**: 5
 

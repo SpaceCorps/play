@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-La Storm è un caccia a cannone di vetro: la velocità di base più alta e il maggior numero di laser di tutte le navi (14) su uno scafo leggero per la sua classe. Secondo la classificazione del gioco (più di 10 slot laser) è un Dreadnought classe IV. Si crea nell’Assemblaggio dopo che il Centro ricerche ne ha ricercato la tecnologia, e a parità di laser perde uno contro uno contro una Wraith o una Ironclad.
+La Storm è un caccia a cannone di vetro: la velocità di base più alta e il maggior numero di laser di tutte le navi (15) su uno scafo leggero per la sua classe. Secondo la classificazione del gioco (più di 10 slot laser) è un Dreadnought classe IV. Si crea nell’Assemblaggio dopo che il Centro ricerche ne ha ricercato la tecnologia, e a parità di laser perde uno contro uno contro una Wraith o una Ironclad.
 
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 180.000
-- **Velocità di base**: 260
-- **Slot laser**: 14
+- **Velocità di base**: 350
+- **Slot laser**: 15
 - **Slot extra**: 3
-- **Slot corazza**: 7
+- **Slot corazza**: 8
 
 ### Slot dei generatori e di supporto {#generator-support-slots}
 
-- **Slot principali (100% di efficienza)**: 4
+- **Slot principali (100% di efficienza)**: 3
 - **Slot di supporto (75% di efficienza)**: 4
 - **Slot ausiliari (50% di efficienza)**: 2
 
@@ -27,7 +27,7 @@ La Storm è un caccia a cannone di vetro: la velocità di base più alta e il ma
 
 ## Ricerca {#research}
 
-- **Slot corazza.** Questa nave ha 7 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 7 riempiti di Hull Plating III aggiungono 175.000 di scafo.
+- **Slot corazza.** Questa nave ha 8 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md), tutti bloccati quando la costruisci. Ciascuno è una tecnologia a sé nello Skylab, 1 h e 10 Dark Matter, da ricercare in ordine a partire dal primo; apre quello slot su questa nave e su ognuno dei suoi design. Tutti e 8 riempiti di Hull Plating III aggiungono 200.000 di scafo.
 - **Design.** Questa nave ha 3 [design](/wiki/03-Mechanics/Ship-Designs.md). Ricercane uno (10 h e 10 Dark Matter), poi converti la tua Storm in quel design nell’Assemblaggio: il cambiamento non si può annullare.
 
 | Design | Cosa cambia |
@@ -48,4 +48,4 @@ Una volta ricercata la sua tecnologia, creare una Storm nell’Assemblaggio rich
 
 ## Storia {#lore}
 
-La Storm è ciò che i cantieri costruiscono quando l’unico ordine è la velocità. Una fusoliera ad ago con un abitacolo scuro sta tra due anelli a mezzaluna aperti, ciascuno un arco corazzato attorno a un vuoto che termina con un corno rialzato, mentre una gondola motore attraversa l’apertura: la maggior parte della nave è propulsione. La corazza grigio chiaro su un telaio più scuro, con strisce luminose bianche, la rende facile da vedere, e vuole essere vista. Due lunghi cannoni stanno sulle lame anteriori e otto piccoli emettitori sugli anelli e sulle pinne alle spalle, dieci bocche in piena vista, attraverso cui sparano quattordici laser. Non ha spazio per la corazza. Il suo scafo è circa sette decimi di quello di una Wraith e circa tre decimi di quello di una Ironclad, perciò i suoi piloti colpiscono per primi, colpiscono forte e se ne vanno prima che qualcosa di più grosso si giri.
+La Storm è ciò che i cantieri costruiscono quando l’unico ordine è la velocità. Una fusoliera ad ago con un abitacolo scuro sta tra due anelli a mezzaluna aperti, ciascuno un arco corazzato attorno a un vuoto che termina con un corno rialzato, mentre una gondola motore attraversa l’apertura: la maggior parte della nave è propulsione. La corazza grigio chiaro su un telaio più scuro, con strisce luminose bianche, la rende facile da vedere, e vuole essere vista. Due lunghi cannoni stanno sulle lame anteriori e otto piccoli emettitori sugli anelli e sulle pinne alle spalle, dieci bocche in piena vista, attraverso cui sparano quindici laser. Non ha spazio per la corazza. Il suo scafo è circa sette decimi di quello di una Wraith e circa tre decimi di quello di una Ironclad, perciò i suoi piloti colpiscono per primi, colpiscono forte e se ne vanno prima che qualcosa di più grosso si giri.

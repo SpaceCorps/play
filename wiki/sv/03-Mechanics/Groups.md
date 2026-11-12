@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -47,18 +47,21 @@ En nedskjutning räknas också för **nedskjutningsuppdragen** hos varje annan m
 
 ## Chattkanaler {#chat-channels}
 
-Chatten har en rad med flikar överst: **Global**, **Lokal**, **Grupp** (medan du är med i en grupp) och sist **System**. Raden du skriver går till fliken som visas, och den flik du senast använde sparas. Varje kanal har sin färg och en kort tagg på varje rad (GLB, LOK, GRP), en flik räknar de rader du inte har läst, och chattens knapp i verktygsfältet visar antalet medan fönstret är stängt. Eller börja en rad med ett kommando:
+Chatten har en rad med flikar överst: **Global**, **Lokal**, **Grupp** (medan du är med i en grupp), **Klan** (medan du är med i en klan) och sist **System**. Raden du skriver går till fliken som visas, och den flik du senast använde sparas. Varje kanal har sin färg och en kort tagg på varje rad (GLB, LOK, GRP), en flik räknar de rader du inte har läst, och chattens knapp i verktygsfältet visar antalet medan fönstret är stängt. Eller börja en rad med ett kommando:
 
 | Kanal | Vem som hör den | Kommando |
 | :--- | :--- | :--- |
 | **Lokal** | piloter på din karta | `/l` eller `/local` |
 | **Global** | alla piloter på alla servrar och i alla världar | `/g` eller `/global` |
 | **Grupp** | din grupp på din server, var den än är | `/p`, `/party` eller `/group` |
+| **Klan** | piloterna i din klan på hemservern; det som sägs sparas åt dem som inte är online | `/c` eller `/clan` |
 | **Privat** | en enda pilot på din server, var den än är | `/m`, `/msg` eller `/w`, sedan namnet och meddelandet ([nedan](#private-messages)) |
 
 Ett kommando byter också flik, och skrivet ensamt (`/g`) byter det bara flik. Gruppchatten kräver en grupp. På en spelserver från före kanalerna är chatten den enda lista den var, och en grupp kan inte bildas.
 
 **Global** är en enda chatt för hela spelet: din rad hörs av alla piloter på alla servrar och i alla världar, under flygning och på stationen. En rad från en annan server kan komma fram en stund efter att den skickats, och piloter på olika servrar kan se två nästan samtidiga rader i olika ordning. Låt pekaren vila på en pilots namn: kortet som öppnas anger också vilken server piloten flyger på, när det inte är din. De andra kanalerna stannar på den server du är på: **Lokal** är piloterna på din karta, gruppchatten och privata meddelanden når bara piloter på din server, och [dödsloggen](#the-kill-feed) och **System**-raderna (serverns meddelanden) tillhör varje server för sig. Förlorar en server förbindelsen med de andra krymper dess Global till dess egna piloter tills förbindelsen är tillbaka; ett kort avbrott tas igen i efterhand, och det som sades under ett längre berättas inte efteråt.
+
+**Klan** är den enda kanalen som spelet sparar. En rad du skriver där når varje medlem i din klan som är online på hemservern, vid en station eller under flygning, och servern sparar klanens senaste **200 rader**, ingen äldre än **14 dagar**. Den som loggar in, går med i klanen eller öppnar fliken Klan får dem, äldsta först, under en rad som säger hur länge chatten sparas; en rad från en tidigare dag visar sitt datum tillsammans med klockslaget, och rader som läses så räknas inte som olästa. Den som lämnar klanen eller blir utkastad får inget mer av den, och när klanen upplöses, av sin ledare eller av [wipen](/wiki/03-Mechanics/Wipe-Timeline.md), raderas dess rader med den. Chattens regler ([Chattreglerna](#the-chat-rules)) är desamma som i de andra kanalerna, att ignorera en pilot döljer hans klanrader, och en klanrad kan rapporteras som vilken annan rad som helst. På en regional server finns ingen flik Klan, och `/c` säger att klanchatten bara finns på hemservern.
 
 Fliken **System** är guldfärgad och skrivskyddad, med en egen lista: där hamnar det servern säger av sig själv (välkomsten, varningarna för omstart, uppdatering och wipe, svärmmeddelandena) och det ditt skepp rapporterar (reparationer, kamouflage, EMP, raketer). De raderna finns i ingen annan flik, så en livlig Global kan inte tränga undan dem, och de andra flikarna innehåller det piloter säger. Flikens räknare gäller bara meddelandena; en nedräkning till omstart eller uppdatering och wipe-varningarna dyker dessutom upp en kort stund på skärmen. [Dödsloggen](#the-kill-feed) stannar i **Global**, med sin egen knapp, och raderna om piloter som går med i din grupp eller lämnar den finns i **Grupp**.
 
@@ -114,7 +117,7 @@ Din ignoreringslista och reglaget Dölj Global sparas med ditt konto, så de fö
 
 ## Stridsregler {#rules-of-engagement}
 
-**Medlemmar i samma grupp kan inte skada varandra**, oavsett koncern: du kan inte låsa på en gruppmedlem (lasrar eller raketer), dina skott och explosioner går rakt igenom dem, och ingenting du gör mot en räknas som en nedskjutning, en PvP-nedskjutning eller en nedskjutning genom det svarta hålet för någon. Koncernkamrater som **inte** är i samma grupp gäller som förut: att träffa en kostar **100 heder** när den förstörs. Lämna gruppen så är en tidigare kamrat, fiende eller inte, fritt villebråd igen direkt (där sektorn och säsongen över huvud taget tillåter strid). Alla utanför din grupp behandlas som alltid, och säkra zoner, Fredsprotokollet och sektorernas PvP-regler ändras inte för någon.
+**Medlemmar i samma grupp kan inte skada varandra**, oavsett koncern: du kan inte låsa på en gruppmedlem (lasrar eller raketer), dina skott och explosioner går rakt igenom dem, och ingenting du gör mot en räknas som en nedskjutning, en PvP-nedskjutning eller en nedskjutning genom det svarta hålet för någon. Koncernkamrater som **inte** är i samma grupp gäller som förut: att träffa en med en laser eller en raket kostar **100 heder** när den förstörs. Lämna gruppen så är en tidigare kamrat, fiende eller inte, fritt villebråd igen direkt (där sektorn och säsongen över huvud taget tillåter strid). Alla utanför din grupp behandlas som alltid, och säkra zoner, Fredsprotokollet och sektorernas PvP-regler ändras inte för någon.
 
 ## Ta med en vän {#bringing-a-friend}
 

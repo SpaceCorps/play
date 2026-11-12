@@ -57,7 +57,7 @@ Base : Wraith, avec 100 % de sa coque et 300 % de ses dégâts laser ; la vi
 | :--- | ---: | ---: | ---: |
 | Coque | 256 000 | 384 000 | 512 000 |
 | Bouclier | 83 400 | 125 100 | 166 800 |
-| Dégâts des lasers (une salve par seconde) | 3 120 | 4 680 | 6 240 |
+| Dégâts des lasers (une salve par seconde) | 3 570 | 5 355 | 7 140 |
 | Vitesse | 210 | 210 | 210 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
@@ -84,8 +84,8 @@ Base : Paragon, avec 100 % de sa coque et 600 % de ses dégâts laser ; la v
 | :--- | ---: | ---: | ---: |
 | Coque | 128 000 | 192 000 | 256 000 |
 | Bouclier | 64 570 | 96 855 | 129 140 |
-| Dégâts des lasers (une salve par seconde) | 4 320 | 6 480 | 8 640 |
-| Vitesse | 230 | 230 | 230 |
+| Dégâts des lasers (une salve par seconde) | 5 100 | 7 650 | 10 200 |
+| Vitesse | 270 | 270 | 270 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
 | Dégâts des roquettes, au maximum | 5 000 | 7 500 | 10 000 |

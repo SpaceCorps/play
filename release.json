@@ -1,14 +1,14 @@
 {
-  "version": "0.5.5",
-  "date": "2026-11-11",
+  "version": "0.5.6",
+  "date": "2026-11-12",
   "server": "https://spacecorps-game.sliplane.app",
   "assets": [
-    {"name": "SpaceCorps2027-macos-universal.dmg", "os": "macos", "arch": "universal", "kind": "dmg", "size": 174552344, "sha256": "2dfdfbbe1aca16e3ab3f4c8b9435d8eb9c24c52e31f3adca12b2af4a0162bab0"},
-    {"name": "SpaceCorps2027-windows-x86_64.zip", "os": "windows", "arch": "x86_64", "kind": "zip", "size": 167664708, "sha256": "fcc12efbfce8e35541ffef1e2974be20bbffc0509acbb807abb0da886be3a029"},
-    {"name": "SpaceCorps2027-linux-x86_64.AppImage", "os": "linux", "arch": "x86_64", "kind": "appimage", "size": 161954296, "sha256": "e20899f956e0ebe5fdf4fbd2802fdd81067d8ca408e85734ef9f3a1517177bfd"},
-    {"name": "SpaceCorps2027-linux-x86_64.tar.gz", "os": "linux", "arch": "x86_64", "kind": "tar.gz", "size": 168549228, "sha256": "b900e14124d528c334c7f9dc8d61da3388e4699102e0092994b18aa371595399"},
-    {"name": "SpaceCorps2027-windows-aarch64.zip", "os": "windows", "arch": "aarch64", "kind": "zip", "size": 165880086, "sha256": "d9c09eabdbce099a57faf628d3101e51172accf06914792004041f5a5b0bffb0"},
-    {"name": "SpaceCorps2027-linux-aarch64.AppImage", "os": "linux", "arch": "aarch64", "kind": "appimage", "size": 160451080, "sha256": "0c3c88493006a6585ec6db3373823f8d3104c8abf20ab4526910a491c7dcc6a1"},
-    {"name": "SpaceCorps2027-linux-aarch64.tar.gz", "os": "linux", "arch": "aarch64", "kind": "tar.gz", "size": 166824460, "sha256": "733afa8d6c189c663a1c6e2ffd4a82af2d25879b8b1c17d6edce771be2648218"}
+    {"name": "SpaceCorps2027-macos-universal.dmg", "os": "macos", "arch": "universal", "kind": "dmg", "size": 174995936, "sha256": "04a203b03a034904671118e87ffdca1e9edc6e95e7fa88816cab73f5bc8af2fd"},
+    {"name": "SpaceCorps2027-windows-x86_64.zip", "os": "windows", "arch": "x86_64", "kind": "zip", "size": 168047876, "sha256": "ce9d35d3626abd4f7fff5cd588f8e035bbc27c9ecfefc8d5f1ab5eae846c512c"},
+    {"name": "SpaceCorps2027-linux-x86_64.AppImage", "os": "linux", "arch": "x86_64", "kind": "appimage", "size": 162339320, "sha256": "fe01fdcb1455fd4807bf55ee6825c357edfe43d720d7dc921ebde3e0d889e3b1"},
+    {"name": "SpaceCorps2027-linux-x86_64.tar.gz", "os": "linux", "arch": "x86_64", "kind": "tar.gz", "size": 168949945, "sha256": "84f87b8bfb9100c89fc6eee52eb9163990fd0b79d05fa1ae33eb8574b46ecbde"},
+    {"name": "SpaceCorps2027-windows-aarch64.zip", "os": "windows", "arch": "aarch64", "kind": "zip", "size": 166247706, "sha256": "129ded3261f363e04fc587ffbfda3dc401aa3d4ac19736c795d7f57ca532a3ef"},
+    {"name": "SpaceCorps2027-linux-aarch64.AppImage", "os": "linux", "arch": "aarch64", "kind": "appimage", "size": 160766472, "sha256": "b8ed438b1f51056dfbd7ce937d443bdec09cadc0eb20ab582d83844e8d4f3a12"},
+    {"name": "SpaceCorps2027-linux-aarch64.tar.gz", "os": "linux", "arch": "aarch64", "kind": "tar.gz", "size": 167191858, "sha256": "9086bb78cfc470597c7626bc99a4bbbe98b8cf5767023bfdc4d13d424e737c65"}
   ]
 }

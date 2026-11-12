@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Cosmetici -->
 # Cosmetici {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; aspetto; livrea; guardaroba; scia -->
 
-Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la vernice dello scafo), un’**aura** (un morbido bagliore attorno alla nave), una **scia** (il colore e la forma della scia dietro i motori) e la **livrea** dei tuoi droni. Un look è solo per bellezza: non dà danno, scafo né velocità, non occupa uno slot e non cambia nulla di ciò che un colpo può raggiungere.
+Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la vernice dello scafo), un’**aura** (un morbido bagliore e un anello di luce attorno alla nave), una **scia** (il colore e la forma della scia dietro i motori) e la **livrea** dei tuoi droni. Un look è solo per bellezza: non dà danno, scafo né velocità, non occupa uno slot e non cambia nulla di ciò che un colpo può raggiungere.
 
 > [!NOTE]
 > **I look non si possono comprare.** Il reset assegna i look di stagione dei gradi più alti ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Alcuni look si trovano nell’[Archivio cromatico (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), un contenitore; gli altri li rilascia un admin. Quando un admin ti dà un look te lo dice un avviso e suona un morbido tocco; un look che vinci nel contenitore compare sulla sua scheda del risultato.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ Gli otto colori comuni sono inclusi nello slot: ce l’hanno tutti i piloti. Ion
 | Effetto | Rarità | Cosa disegna |
 | :--- | :--- | :--- |
 | **None** | Comune | Nessuna aura. È inclusa nello slot |
-| **Glow** | Comune | Un morbido bagliore attorno alla nave |
-| **Breath** | Non comune | Un bagliore che respira lentamente |
-| **Motes** | Raro | Un bagliore con quattro piccole luci che girano |
-| **Shimmer** | Raro | Un bagliore che scintilla |
-| **Sparkle** | Epico | Sei luci che girano e scintillano |
-| **Wreath** | Epico | Otto luci in un’orbita lenta |
-| **Halo** | Mitico | Un bagliore che respira con otto luci che girano |
-| **Laurel** | Leggendario | Dieci luci che girano lentamente in un bagliore che respira |
-| **Crown** | Eterno | Dieci luci che girano in un bagliore che respira e scintilla |
+| **Glow** | Comune | Un morbido bagliore con un sottile anello di luce al bordo |
+| **Breath** | Non comune | Un bagliore e un anello di luce che respirano lentamente |
+| **Motes** | Raro | Un anello di luce con quattro piccole comete che girano al suo interno |
+| **Shimmer** | Raro | Una spirale lenta a due bracci in un anello tenue, che scintilla |
+| **Sparkle** | Epico | Sei comete che girano e scintillano, in un anello di luce |
+| **Wreath** | Epico | Otto comete in un’orbita lenta, in un anello di luce con un anello più sottile al suo interno |
+| **Halo** | Mitico | Un anello di luce brillante che respira, con due anelli più sottili al suo interno e sei comete che girano |
+| **Laurel** | Leggendario | Un anello di luce che respira attorno a una spirale lenta a tre bracci, con otto comete che girano lentamente |
+| **Crown** | Eterno | Un anello di luce brillante con due anelli più sottili e una spirale a quattro bracci al suo interno e otto comete che girano, il tutto che respira e scintilla |
+| **Event Horizon** | Mitico | Una fascia scura che attenua ciò che le sta dietro, dentro un anello di luce brillante che arde su un lato |
+| **Accretion** | Mitico | Una spirale lenta a tre bracci in un anello di luce, con otto comete che cadono verso l’interno |
+| **Singularity** | Leggendario | Una fascia scura dentro un anello di luce brillante, una spirale a due bracci e sei comete scintillanti che cadono verso l’interno |
+| **Gravity Well** | Mitico | Una tenue fascia scura e tre anelli più sottili dentro un anello di luce che respira |
 
-Un’aura resta dentro l’anello che segna un aggancio e viene disegnata sotto tutto il resto attorno a una nave.
+Un’aura resta dentro l’anello che segna un aggancio e viene disegnata sotto tutto il resto attorno a una nave. Il suo anello di luce è sottile, ha il colore dell’aura e un arco brillante che lo percorre; l’anello di aggancio sta all’esterno ed è fisso. Una cometa è una piccola luce con una coda corta.
+
+**Event Horizon**, **Accretion**, **Singularity** e **Gravity Well** non sono nell’Archivio cromatico: li rilascia un admin.
 
 ## Il Guardaroba {#the-wardrobe}
 

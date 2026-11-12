@@ -21,7 +21,7 @@ An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best
 | Extras | a Repair Drone IV, an Auto-Repair CPU and a Base CPU II |
 | Hull | 15 Hull Plating III |
 
-At Alpha strength he has **931,250 hull**, **1,559,486 shield** (recharging 67,614 a second after 15 seconds without a hit), 90.9% absorbance, speed 102, 945 range and a volley of **4,440 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.5 million points to chew through in Alpha: one Wraith with the same lasers needs about fourteen minutes of steady fire on its own, ten of them about 86 seconds.
+At Alpha strength he has **931,250 hull**, **1,559,486 shield** (recharging 67,614 a second after 15 seconds without a hit), 90.9% absorbance, speed 97, 945 range and a volley of **5,014 a second**. Beta has 1.5 times those numbers and Gamma 2 times, as every alien does. That is about 2.5 million points to chew through in Alpha: one Wraith with the same lasers needs about twelve minutes of steady fire on its own, ten of them about 71 seconds.
 
 ## Fighting Him
 

@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-La Nomad es un crucero con casi el doble de casco y el doble de cañones que una Ostirion: una cabeza de martillo entre la Ostirion y la Paragon, que se compra en la tienda con créditos y Thulium a la vez. Cualquier piloto puede comprarla.
+La Nomad es un crucero con casi el doble de casco que una Ostirion y dos cañones más: una cabeza de martillo entre la Ostirion y la Paragon, que se compra en la tienda con créditos y Thulium a la vez. Cualquier piloto puede comprarla.
 
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 111.000
-- **Velocidad base**: 210
-- **Ranuras de láser**: 6
+- **Velocidad base**: 240
+- **Ranuras de láser**: 7
 - **Ranuras de extra**: 2
 
 ### Ranuras de generador y de apoyo {#generator-support-slots}

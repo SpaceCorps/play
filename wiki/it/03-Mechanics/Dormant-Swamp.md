@@ -108,7 +108,7 @@ Qui vivono tre alieni della civiltà perduta, ciascuno con i suoi numeri. Vengon
 | Crediti | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Esperienza (XP) | 20.200 | 40.400 | 60.600 |
-| Onore | 88 | 176 | 264 |
+| Onore | 87 | 174 | 261 |
 | Punti PvE per abbattimento | 15 | 15 | 15 |
 
 **Bottino**: una cassa, per il pilota che ha inflitto più danno.

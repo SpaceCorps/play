@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -115,7 +115,7 @@ Nivå 1 kräver 810 erfarenhet, nivå 20 kräver 40 000 totalt. Med en och en h
 En dockad Retriever tar närmaste lastlåda inom sin **räckvidd**, en låda i taget och var och en på en halv sekund, den tid din egen upplockning tar: den är aldrig snabbare än en hand. Dess drönare flyger till lådan, en ljusring sluter sig runt den, och där lådan låg hörs ett litet pip.
 
 - **Räckvidd.** Från mitten av ditt skepp till mitten av lådan. Din egen upplockning når 200 enheter; en Retriever börjar över det och växer med grad och nivå, till 880 enheter (8 skeppslängder) för en Legendary på nivå 20. Ett skepp är ungefär 110 enheter långt.
-- **Vilka lådor.** Bara lådor som du själv kunde ta: dina och din klans, och allas när reservationen är slut. Aldrig en låda som fortfarande är reserverad åt en annan pilot eller klan, och aldrig en annan pilots [privata låda](/wiki/03-Mechanics/Cargo.md#private-boxes); dina egna privata lådor tar den. Bytet från en nedskjutning, en asteroids bitar, Dark Matter-lådor och en jättegrävmaskins lådor är alla lådor. En låda som du plockar upp för hand lämnar den åt dig, och når du och din Retriever samma låda samtidigt får bara en av er den.
+- **Vilka lådor.** Bara lådor som du själv kunde ta: dina och din klans (inte bitarna från en asteroid som lagts ut åt en klankamrat: de är bara hans i 30 sekunder), och allas när reservationen är slut. Aldrig en låda som fortfarande är reserverad åt en annan pilot eller klan, och aldrig en annan pilots [privata låda](/wiki/03-Mechanics/Cargo.md#private-boxes); dina egna privata lådor tar den. Bytet från en nedskjutning, en asteroids bitar, Dark Matter-lådor och en jättegrävmaskins lådor är alla lådor. En låda som du plockar upp för hand lämnar den åt dig, och når du och din Retriever samma låda samtidigt får bara en av er den.
 - **Vad du får.** Vad din egen upplockning skulle ge: föremålen går till din hangars inventarie, [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) lägger till sin del, och en bits krediter och Thulium betalas ut som när du plockar upp den själv.
 
 ### Mole {#the-mole}

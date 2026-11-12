@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Aszteroidabányászat -->
 # Aszteroidabányászat {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Egy széttörés egy **Cluster Chunkot** is hagyhat egészben, a legtöbb sebzé
 
 ## Kié a darab {#who-gets-the-chunks}
 
-Az aszteroida közös munka: bármennyi pilóta eltalálhatja rakétákkal, lézerekkel vagy egy Mole impulzusaival, és a darabok aszerint járnak, ki mennyi sebzést okozott, nem aszerint, ki lő először vagy utoljára. A célpontablak sebzés-sora megmutatja, ki mennyit okozott, és mennyit okoztak, mielőtt megérkeztél. A szétlövés kreditjét és Thuliumát egyszer sorsolják ki, és a sebzés arányában osztják szét; az ércen azok a pilóták osztoznak, akik a legtöbb sebzést okozták; a ritka leletek ahhoz járnak, aki a legtöbbet okozta. Az a pilóta, aki kevesebbet okozott, mint A szabályok részben szereplő arány, nem kap semmit, és a Játéknapló ezt megmondja. A darabokat minden kifizetett pilótának külön rakják le, és egy ideig neki és a klánjának vannak fenntartva, azután mindenkié.
+Az aszteroida közös munka: bármennyi pilóta eltalálhatja rakétákkal, lézerekkel vagy egy Mole impulzusaival, és a darabok aszerint járnak, ki mennyi sebzést okozott, nem aszerint, ki lő először vagy utoljára. A célpontablak sebzés-sora megmutatja, ki mennyit okozott, és mennyit okoztak, mielőtt megérkeztél. A szétlövés kreditjét és Thuliumát egyszer sorsolják ki, és a sebzés arányában osztják szét; az ércen azok a pilóták osztoznak, akik a legtöbb sebzést okozták; a ritka leletek ahhoz járnak, aki a legtöbbet okozta. Az a pilóta, aki kevesebbet okozott, mint A szabályok részben szereplő arány, nem kap semmit, és a Játéknapló ezt megmondja. A darabokat minden kifizetett pilótának külön rakják le. Egy ideig csak az a pilóta veheti fel őket, a klánjának tagjai nem; azután mindenkié.
 
 ## A Mole P.E.T. {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Egy dokkolt **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)-ek egyik t
 
 - Az a pilóta kap részt egy aszteroida darabjaiból, a sebzés arányában, aki az aszteroidán okozott sebzés legalább 5%-át okozta. Ha senki sem éri el a sebzés 5%-át, a legtöbb sebzést okozó pilóta kapja mindet.
 - Egy [csoport](/wiki/03-Mechanics/Groups.md#sharing-kills) egy pilótának számít, és a része szint szerint oszlik el a közeli, lövő csoporttársak között.
-- Egy szétlövés darabjai 30 mp ideig annak a pilótának és a klánjának vannak fenntartva, akinek lerakták őket. Utána bárki felveheti őket a térképen. Az a darab, amelyet senki sem vesz fel, 3 perc múlva eltűnik.
+- Egy szétlövés darabjait 30 mp ideig csak az a pilóta veheti fel, akinek lerakták őket, a klánjának tagjai nem. Utána bárki felveheti őket a térképen. Az a darab, amelyet senki sem vesz fel, 3 perc múlva eltűnik.
 - Egy térképen legfeljebb 36 darab lehet, a térképen elférő 64 láda keretében: a darabok sosem szorítják ki az idegenek ládáit, azok pedig sosem szorítanak ki darabot. Ha a térképen nincs hely egy darabnak, annak a pilótának azonnal kifizetik, akinek szánták.
 - A kreditet és a Thuliumot a darab felvételekor fizetik ki, nem az aszteroida szétlövésekor. Nincs napi korlát arra, mennyit fizethetnek ki neked: minden darab teljes egészében kifizeti a kreditjét és a Thuliumát, akárhányat veszel fel egy nap alatt.
 - A fizetés mindenkinek ugyanannyi: sem Prémium-bónusz, sem Szezonbolt-boost, sem klánboost, sem Loot Luck, sem booster nem változtatja meg a kreditet, a Thuliumot vagy a leleteket. A [Resource Magnet Booster](/wiki/06-Items/Boosters.md) felvételkor növeli egy ércdarab nyersanyagait, mint bármelyik ládáét.

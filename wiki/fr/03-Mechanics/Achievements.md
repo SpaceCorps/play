@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Succès -->
 # Succès {#achievements}
 
@@ -14,7 +14,7 @@ Les succès sont les objectifs de toute la carrière d’un pilote : détruire 
 
 ## Paliers et récompenses {#tiers-and-rewards}
 
-Les cinq paliers paient la même chose pour chaque succès qu’ils contiennent, une seule fois. Le tableau compte les 40, les cachés aussi.
+Les cinq paliers paient la même chose pour chaque succès qu’ils contiennent, une seule fois. Le tableau compte les 50, les cachés aussi.
 
 | Palier | Succès | Crédits par succès |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ Les 45 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Bâtisseur de station | Construisez 5 modules différents du Skylab. | Commun |
 | Pleinement équipé | Construisez les 16 modules du Skylab. | Épique |
 | Érudit | Recherchez 50 technologies. | Peu commun |
-| Archiviste | Recherchez les 181 technologies. | Légendaire |
+| Archiviste | Recherchez les 187 technologies. | Légendaire |
 
 ### Flotte {#group-fleet}
 
@@ -134,10 +134,11 @@ Un **titre** est une courte ligne de texte à côté du nom d’un pilote. 32 de
 Dans la **version Steam**, vous pouvez lier votre compte du jeu à votre compte Steam, et vos succès sont alors aussi validés sur Steam. Les téléchargements directs n’ont pas Steam, donc pas de lien ; les succès, récompenses et titres du jeu fonctionnent de la même façon dans toutes les versions.
 
 - **Liez-le** dans **Paramètres › Compte**, sur la carte Steam. Vous saisissez de nouveau votre mot de passe du jeu pour démarrer la liaison. Le jeu demande ensuite à Steam de se porter garant de votre identité, et le serveur ne croit que la réponse de Steam : rien de ce que vous saisissez ne peut désigner un compte Steam.
+- **Un nouveau compte se lie tout seul.** Quand vous vous inscrivez dans la version Steam, le formulaire a un interrupteur **Lier à mon compte Steam**, activé par défaut. Le compte est lié à votre première connexion, avec le mot de passe que vous venez de saisir, et les mêmes contrôles s’appliquent (Steam se porte garant de votre identité ; un pour un). Les comptes qui existent déjà ne sont jamais liés d’eux-mêmes.
 - **Un pour un.** Un compte du jeu détient au plus un compte Steam, et un compte Steam se lie à un seul compte du jeu. Si un compte Steam est déjà lié à un autre pilote, le jeu vous le dit et ne lie rien. Un administrateur peut déplacer un lien à la main quand deux comptes revendiquent le même compte Steam.
 - **Ce que garde le serveur**, c’est votre identifiant Steam, le numéro public de votre compte Steam, et le moment de la liaison. Il ne garde rien d’autre de Steam : ni votre nom Steam, ni vos amis, ni vos jeux, ni votre mot de passe. Seuls vous et les administrateurs du jeu pouvez voir cet identifiant ; les autres pilotes, jamais.
 - **Déliez-le** sur la même carte, avec votre mot de passe : l’identifiant Steam enregistré est supprimé aussitôt. Après une déliaison, vous ne pouvez lier un autre compte Steam qu’au bout de 24 heures ; relier le même compte fonctionne tout de suite. Pendant ces 24 heures, le serveur garde une courte note de la déliaison (l’heure, et un code brouillé fabriqué à partir de l’identifiant, seulement pour savoir si vous reliez le même compte) puis la supprime.
-- **Les succès arrivent sur Steam quand vous vous connectez avec la version Steam**, tant que le compte Steam en cours est celui que vous avez lié. Le jeu vérifie ce qui manque à Steam et le valide : un succès obtenu dans un téléchargement direct, ou pendant que Steam était fermé, arrive donc à votre prochaine connexion Steam. Hors ligne, rien n’est perdu : le jeu garde l’enregistrement et Steam l’apprend plus tard.
+- **Les succès arrivent sur Steam dès que vous les obtenez**, tant que le compte Steam en cours est celui que vous avez lié : Steam affiche son propre pop-up quelques secondes après celui du jeu. À chaque connexion, le jeu vérifie aussi ce qui manque à Steam et le valide ; un succès obtenu dans un téléchargement direct, ou pendant que Steam était fermé, arrive donc à ce moment-là, et une tentative qui échoue est refaite d’elle-même. Pendant que vous volez sur un autre serveur (un nœud régional), rien n’y est gagné ni envoyé ; de retour à la station, le jeu rattrape le retard. Hors ligne, rien n’est perdu : le jeu garde l’enregistrement et Steam l’apprend plus tard.
 - Les crédits et les titres d’un succès viennent de l’enregistrement du serveur du jeu, jamais de Steam.
 
 ## Depuis quand on compte {#when-counting-began}

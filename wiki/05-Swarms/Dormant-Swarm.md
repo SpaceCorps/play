@@ -55,7 +55,7 @@ Built from the Wraith at 100% of its hull and 300% of its laser damage; its spee
 | :--- | ---: | ---: | ---: |
 | Hull | 256,000 | 384,000 | 512,000 |
 | Shield | 83,400 | 125,100 | 166,800 |
-| Laser damage (a volley a second) | 3,120 | 4,680 | 6,240 |
+| Laser damage (a volley a second) | 3,570 | 5,355 | 7,140 |
 | Speed | 210 | 210 | 210 |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
@@ -82,8 +82,8 @@ Built from the Paragon at 100% of its hull and 600% of its laser damage; its spe
 | :--- | ---: | ---: | ---: |
 | Hull | 128,000 | 192,000 | 256,000 |
 | Shield | 64,570 | 96,855 | 129,140 |
-| Laser damage (a volley a second) | 4,320 | 6,480 | 8,640 |
-| Speed | 230 | 230 | 230 |
+| Laser damage (a volley a second) | 5,100 | 7,650 | 10,200 |
+| Speed | 270 | 270 | 270 |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
 | Rocket damage, at most | 5,000 | 7,500 | 10,000 |

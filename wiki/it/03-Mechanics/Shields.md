@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Scudi -->
 # Meccaniche degli scudi {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 - **Shield Absorbance Boost**: un potenziamento permanente dell’Emporio acquistato con i punti reset, **+0,1 punti per livello, al massimo +10 punti** (100 livelli, 25 PR ciascuno). Aggiunge punti fissi all’assorbimento della tua nave, gli stessi su qualsiasi nave con uno scudo: l’91% diventa 91,4% con 4 livelli (100 PR), e il 45% di un Light Shield Core diventa 46,2% con 12 livelli (300 PR). Una nave senza scudo equipaggiato resta allo 0%. I 100 livelli costano 2.500 PR, un obiettivo da più reset: le fonti di punti reset (i traguardi degli abbattimenti, le missioni e le cinque ricerche Dormant Knowledge) pagano fino a 1.105 PR per reset e ricominciano a ogni reset, il tuo grado ne aggiunge da 5 a 400 al reset, e 1.105 comprano 44 livelli, +4,4 punti. Vedi [Stagione e punti reset](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Forgia**: scudi e celle scudo possono ricevere un bonus di **assorbimento**, che moltiplica la statistica: +5% su uno scudo al 55% sono +2,75 punti. Il miglior set Eterno forgiato al massimo (nucleo e tre celle, ogni bonus uscito al valore più alto, +15%) aggiunge fino a 13,65 punti, circa 11 in media (vedi [La Forgia](/wiki/06-Items/Forge.md)).
 - **Field Theory**: la ricerca Pilota Field Theory I, II e III ([Ricerca](/wiki/03-Mechanics/Research.md#pilot-technologies)) aggiunge **+4, +7 e +10 punti** all’assorbimento di tutte le tue navi, in tutto e non ogni livello sopra il precedente, in cambio di crediti, Thulium e Dark Matter. Come il potenziamento dell’Emporio, sono punti fissi su qualsiasi nave con uno scudo, e restano dopo il reset.
+- **Assorbimento scudo**: la [competenza del pilota](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) aggiunge fino a **+5 punti** al livello 100 all’assorbimento che la tua nave ha da tutto quanto sopra, senza alcun tetto sul totale: una nave al 119% arriva al 124%, e una nave senza scudo equipaggiato resta allo 0%. Non è nelle cifre di **Insieme**.
 - **Insieme**: l’91% di serie, +4,4 punti di potenziamento (i 1.105 punti reset di un reset), fino a +13,65 punti di bonus della Forgia e +10 punti di Field Theory III fanno **119,05%** al massimo dopo un reset su una nave semplice, senza [design](/wiki/03-Mechanics/Ship-Designs.md) né [formazione](/wiki/03-Mechanics/Formations.md); con tutti i 100 livelli del potenziamento (+10 punti, 2.500 PR) sarebbe il 124,65%. Un design con +10% di assorbimento dello scudo (il Paragon BUCKY, l’Ironclad DUMA, il Wraith ATARAXIS) e la formazione Rampart (+17%) moltiplicano l’assorbimento degli scudi prima che si sommino i punti fissi del potenziamento e di Field Theory; la stessa nave con entrambi arriva quindi al **149,1%** dopo un reset (154,7% con tutti i 100 livelli). Ciascuno dei tre supera da solo il 100%: il potenziamento al limite e Field Theory III fanno 101%, un set Eterno con tutti i valori al massimo il 104,65%; un set Eterno insieme a Field Theory III arriva al 109–115%, e i livelli del potenziamento si aggiungono sopra. Tutte queste cifre contano solo le fonti dei punti reset, non i punti reset (da 5 a 400) che il tuo grado paga al reset e con cui si comprano altri livelli del potenziamento.
 
 ### Bonus agli scudi: capacità, assorbimento, ricarica {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Alcuni attacchi hanno una **penetrazione dello scudo**: punti che vengono tolti 
 Ogni bonus agli scudi aumenta una delle tre statistiche e compare sotto il proprio tipo nella finestra Booster:
 
 - **Capacità** (punti scudo massimi): Shield Wall Booster I e II e lo Shield Capacity Boost permanente.
-- **Assorbimento** (la quota di un colpo che prendono i tuoi scudi): lo Shield Absorbance Boost permanente (+0,1 punti per livello, al massimo +10 punti).
+- **Assorbimento** (la quota di un colpo che prendono i tuoi scudi): lo Shield Absorbance Boost permanente (+0,1 punti per livello, al massimo +10 punti) e la competenza del pilota Assorbimento scudo (fino a +5 punti).
 - **Ricarica** (punti scudo ripristinati al secondo): lo Shield Regen Booster.
 
 Per i numeri vedi [Booster](/wiki/06-Items/Boosters.md).

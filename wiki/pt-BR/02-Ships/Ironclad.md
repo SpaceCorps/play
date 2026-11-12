@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 ## Atributos {#stats}
 
 - **Pontos de vida (HP)**: 500.000
-- **Velocidade base**: 110
+- **Velocidade base**: 100
 - **Slots de laser**: 8
 - **Slots extras**: 3
 - **Slots de blindagem**: 15

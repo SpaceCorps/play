@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Klánok -->
 # Klánok {#clans}
 
@@ -66,6 +66,8 @@ A Vezér és az Alvezérek két dolgot kérhetnek attól a pilótától, aki be 
 - **Minimális rangot**: a vállalati rangok egy fokozatát, a **Pilótától** (nincs követelmény) az **Admirálisig**: Pilóta, Őrmester, Hadnagy, Százados, Őrnagy, Ezredes, Tábornok, Admirális ([Rangok](/wiki/03-Mechanics/Ranks.md)). A fokozat a legalacsonyabb fokától számít: az a klán, amelyik Századost kér, felvesz egy Junior századost és minden pilótát fölötte. Az a rang számít, amelyet most a vállalatod ranglistáján viselsz, nem az a világ, amelyben repülsz.
 
 Ezeket akkor ellenőrzik, amikor egy pilóta **jelentkezik vagy csatlakozik**. A tiszt **meghívása** átugorja őket, és az a jelentkezés is, amelyet egy tiszt elfogad. A flottanyilvántartás kis kapszulákként mutatja őket a klán neve alatt, pirossal azt, amelyet nem teljesítesz; az a klán, amely nem állított be semmit, nem kér semmit.
+
+**Egyszerre egy jelentkezés.** A várakozó jelentkezés a **flottanyilvántartásban** és a klán oldalán **Jelentkeztél** felirattal látszik, akkor is, ha bezárod a menüt és újra megnyitod, a gombja pedig szürke marad. Ugyanahhoz a klánhoz küldött második jelentkezés a „Már van folyamatban lévő jelentkezés” választ kapja, és nem küld semmit. Ha a klán egyik tisztje elutasítja a tiédet, **60 másodperc** után újra jelentkezhetsz ahhoz a klánhoz, és bármely 10 percben legfeljebb **5 jelentkezést** küldhetsz, az összes klánnak együtt.
 
 ---
 
@@ -193,6 +195,12 @@ A rendszereszköztár **Ki van online** gombja (jobb felül) vagy a **H** billen
 - **Keresés.** Írd be egy név vagy klán-címke egy részét; az ablak újra megkérdezi a szervert, ha a lista le volt vágva.
 - **Meghívás.** A sor **Meghívás** gombja a Csoport ablak saját meghívása ([Csoportok](/wiki/03-Mechanics/Groups.md)), ugyanazokkal a válaszokkal és elutasításokkal (a pilóta csoportban van, a csoport tele van, a Ne zavarjanak be van kapcsolva). A gomb szürke, az okkal együtt, ha rámutatsz, ha a játék már tudja, hogy a meghívást elutasítanák.
 - A listát 10 másodpercenként újraolvassa, amíg az ablak nyitva van.
+
+---
+
+## Klánchat {#clan-chat}
+
+A chat **Klán** lapja ([Chatcsatornák](/wiki/03-Mechanics/Groups.md#chat-channels), a `/c` parancs) csak a klánod tagjainak szól. A szerver megőrzi az utolsó **200 sorát**, egyik sem régebbi **14 napnál**, így az a tag, aki nem volt online, bejelentkezéskor vagy belépéskor megtalálja őket: a legrégebbi elöl, egy sor alatt, amely megmondja, meddig őrzi meg a chatet, a korábbi napok soraihoz kiírt dátummal. Aki kilép a klánból vagy kiteszik, többé nem kap belőle semmit. Ha a klánt feloszlatják, a Vezére vagy [a wipe](#the-wipe-disbands-every-clan), a sorai is törlődnek vele.
 
 ---
 

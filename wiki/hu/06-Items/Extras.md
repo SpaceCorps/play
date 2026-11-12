@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: Extrák -->
 # Extrák {#extras}
 
@@ -12,6 +12,7 @@ Az extrák a hajó **extrafoglalataiban** lévő kütyük (a Protoson, a Kitefin
 | **Cloaking CPU L** | Elrejti a hajódat | 50 | 20 000 Thulium |
 | **P.E.T. Station I–III** | BE kapcsolva 2, 3 vagy 5 dokkolt [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) ad bónuszt a hajódnak, szerez tapasztalatot és dolgozik; KI kapcsolva ezek közül egyiket sem teszik | BE / KI | Gyártás, a kutatása után (az alábbi tárgyfa) |
 | **Auto-Rocket CPU** | BE kapcsolva magától kilövi az aktív rakétádat a harc célpontjára | BE / KI | Gyártás, a kutatása után (az alábbi tárgyfa) |
+| **Laser Optics I–V** | Felszerelve 2, 4, 6, 8 vagy 10 ponttal növelik annak az esélyét, hogy a lézersorozataid eltalálnak (csak a legjobb felszerelt számít) | felszerelve, nincs mit kapcsolni | Gyártás, a kutatásuk után (az alábbi tárgyfa) |
 
 A Cloaking CPU-kat csak a Boltban árulják. Nem vonhatók össze, és semmi sem adja őket ingyen. Az **EMP Charge** már nem extra: a 0.4.21 óta fogyóeszköz, amelyet a rakétákhoz hasonlóan kötegben viszel magaddal, és egyetlen foglalatba sem kerül, így egyik extrafoglalatodat sem foglalja (lásd [Rakéták](/wiki/06-Items/Rockets.md#emp-charge)). A két **Energetic Wall** sem extra már: a 0.4.22 óta ők is fogyóeszközök, kötegben viszed őket, és egyetlen foglalatba sem kerülnek (lásd [Energetic Wall](#energetic-wall)).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ Nyomd meg a WAL helyet, és egy **plazmafal** áll fel **a kurzorodnál**, merő
 - **Kilövések.** A hajó, amelyet a fal megsemmisít, sugárzásban hal meg, és a kilövés az utolsó ellenséges pilótáé, aki 15 másodpercen belül eltalálta, ha volt ilyen. Aki a falat felállította, nem kap jóváírást olyanért, amit nem ő lőtt. Az idegen, amelyet a fal megsemmisít, semmit sem fizet: se jutalom, se zsákmány.
 - **Az idegenek nem kerülik meg.** Átrepülnek rajta és égnek, vagy a saját oldalukon állva lőnek a falra.
 - **Mit látsz.** Egy kékesfehér fénysáv, amelyen fényes vonások futnak végig, mindkét végén egy fényoszloppal; felvillan, ahol lövés ér, és vibrál, ha majdnem kimerült. A 2. szintű fal ehelyett sárgán világít, vastagabb, fényesebb maggal és erősebb fénnyel, de a sávja ugyanúgy 10 egység széles, mint az 1. szintű falé. Mellette egy vékony életerősáv rövidül, és borostyánsárgára, majd pirosra vált; a helyed ívként mutatja a falad hátralévő életét, árnyékként a várakozást. A felállított fal felvillan, a lelőtt szikrákra hullik szét, az, amelynek lejárt az ideje, elhalványul. A helyeden egy szám a szintjének megmaradt falait is számolja.
-- **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **250 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A tizenkét rakétával ellentétben, amelyekből típusonként 1 000 magától átkerül, a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
+- **Hogyan szerezhető és viszed.** Az Energetic Wall I a Boltban falanként **10 000 kreditért** kapható, és legfeljebb **20**-at viszel egy kötegben (amit az [Aukción](/wiki/03-Mechanics/Auction.md) kínálsz, az is beleszámít). Az Energetic Wall II-t a Gyártás készíti, **gyártásonként egy falat**, **600 Thuliumért**, 5 Ship Fragmentből és egy Power Core-ból, miután a Kutatóközpont kikutatta (6 óra normál sebességnél: [Kutatás](/wiki/03-Mechanics/Research.md)); ebből legfeljebb **10**-et viszel. A tizenkét rakétával ellentétben, amelyekből típusonként 1 000 magától átkerül, a nálad lévő falak elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Az általad elkészített Energetic Wall II eladható az Aukción; az Energetic Wall I, amelyet a Bolt árul, soha.
 
 ## Mine
 
@@ -111,9 +118,26 @@ A **Mine** eldobható csapda. Nyomd meg a helyét a kurzorral egy ponton, és a 
 - **Kit talál el.** Minden hajót, amely átrepül fölötte: ellenséges pilótát, idegent, vállalati pilótát, a vállalati társaidat, a csoportodat és **téged magadat**. A Mine-nak nincsenek barátai. Egy hajót az kímél, ami minden fegyvertől megkíméli: a biztonságos zóna, az újraéledés védelme, az álcázás vagy az EMP-ablak.
 - **Távolodás.** Az a hajó, amely a Mine elérésén belül van, amikor az leszáll, addig kíméletben marad, amíg egyszer el nem hagyta ezt az elérést, és te vagy az első, akit kímél: eldobhatsz egy Mine-t a hajód alá, és elrepülhetsz. Ezután a Mine ugyanúgy felrobban az adott hajó alatt, mint bármelyik másik alatt, akkor is, ha később visszatér.
 - **Mennyit.** A sebzés a szinttel nő: **8 000, 20 000 és 50 000**. A Szabotázs képességed legfeljebb 30 %-ot ad hozzá, a Lövészet pedig gyorsabban és messzebbre repíti a Mine-t.
-- **Korlátok.** Egyszerre **három** Mine lehet kint (a negyedik a legrégebbi helyét veszi át), mindegyik **3 perccel** a leszállás után eltűnik, és két dobás között **8 másodpercet** vársz; a várakozás a tiéd, nem a hajóé. Ha elhagyod a térképet, a Mine-jaid veled mennek.
+- **Korlátok.** A Mine-nak **nincs saját vége**: ott marad, ahol leérkezett, amíg egy hajó fel nem robbantja vagy a szerver újra nem indul, és akkor is marad, ha kilépsz, meghalsz vagy elhagyod a térképet. Neked **nincs saját korlátod**, csak a két dobás közti **8 másodperces** várakozás (a várakozás a tiéd, nem a hajóé). Két szabály védi a térképet: két Mine nem lehet **365 egységnél** közelebb egymáshoz, akárki dobta is őket (valamivel több, mint a legnagyobb hajó hosszának kétszerese), és egy térképen legfeljebb **150** Mine lehet. Az a dobás, amely megsértené valamelyiket, elutasításra kerül, nem költ el semmit, és nem indít várakozást; célzás közben a kurzornál lévő gyűrű pirosra vált ott, ahol elutasítanák.
 - **Hol nem.** Nem ott, ahol a pilóták nem harcolhatnak egymással (a Békeprotokoll alatt, vagy olyan szektorban vagy kapuban, ahol a szabályok tiltják), nem, amíg biztonságos zóna vagy újraéledés véd, nem ott, ahol a Mine biztonságos zónához vagy kapuhoz érne, és nem álcázva. A játék megmondja, melyik eset; az elutasított dobás nem használ el semmit, és nem indít várakozást.
 - **Hogyan szerezhető és viszed.** A Mine I a Boltban **100 Thuliumért** kapható, és legfeljebb **20**-at viszel egy kötegben. A Mine II-t a Gyártás készíti, **gyártásonként egy Mine-t**, két Mine I-ből, 3 Ship Fragmentből és egy Power Core-ból **200 Thuliumért** (kötegenként legfeljebb **10**); a Mine III-at két Mine II-ből, 8 Ship Fragmentből, 2 Power Core-ból és egy Reinforced Hull Plate-ből **400 Thuliumért** (legfeljebb **5**). Mindkettőt akkor lehet legyártani, ha a Kutatóközpont már kikutatta: a II 3 órába, a III 6 órába kerül normál ütemben (lásd: [Kutatás](/wiki/03-Mechanics/Research.md)). A nálad lévő Mine-ok elvesznek a szezonnal, ha nem teszed őket a tranzittárolóba, a tárolóban lévők pedig nem használhatók. Mine-t nem lehet eladni az [Aukción](/wiki/03-Mechanics/Auction.md).
+
+## Laser Optics
+
+Öt tárgy, amitől a lézereid gyakrabban találnak. Nem kaphatók boltban: a Gyártás készíti őket, miután a Skylab Kutatóközpontja kikutatta őket, egymás után (a Lasers család, lásd: [Kutatás](/wiki/03-Mechanics/Research.md)).
+
+- **Mit tesznek.** Szereld fel egyet egy extrafoglalatba, és pontokat ad hozzá annak az esélyéhez, hogy a lézersorozataid eltalálnak, a [Lézertechnika](/wiki/03-Mechanics/Combat.md#laser-tech) adta esély tetejére, de soha nem viszi 100% fölé. A Laser Optics I 2 pontot ad, a II 4-et, a III 6-ot, a IV 8-at, az V pedig 10-et. A mellément sorozat is elhasználja a lőszerét, így minden pont olyan sebzés, amit már nem pazarolsz el.
+- **Csak a legjobb számít.** Két Laser Optics nem adódik össze: a legjobb felszerelt számít. Az, amelyiket csak magaddal hordod, vagy a másik konfigurációba szerelted fel, nem csinál semmit, amíg azzal a konfigurációval nem repülsz.
+- **Nincs mit nyomni.** Nincs foglalatuk a gyorssávon és kapcsolójuk sincs: addig működnek, amíg fel vannak szerelve, és egy extrafoglalatot foglalnak el, mint a többi Extra.
+- **Hol látod.** A lézer kártyája és a Hangár Sebzés csempéje az összesített esélyt mutatja, a Lézertechnikádét és az Opticsét együtt.
+
+| Tárgy | Hozzáad | Kutatási idő | Thulium a gyártáshoz | Gyártási idő |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 pont | 3 óra | 8 000 | 5 perc |
+| Laser Optics II | +4 pont | 6 óra | 15 000 | 7,5 perc |
+| Laser Optics III | +6 pont | 10 óra | 30 000 | 10 perc |
+| Laser Optics IV | +8 pont | 16 óra | 50 000 | 12,5 perc |
+| Laser Optics V | +10 pont | 24 óra | 75 000 | 15 perc |
 
 ## A Kutatóközpont CPU-i {#research-cpus}
 

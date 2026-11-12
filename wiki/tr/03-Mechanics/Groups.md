@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -47,18 +47,21 @@ Bir öldürme, aynı haritada olan ve **son 15 saniyede herhangi bir şeye lazer
 
 ## Sohbet kanalları {#chat-channels}
 
-Sohbetin üstünde bir sıra sekme vardır: **Genel**, **Yerel**, **Grup** (bir gruptayken) ve en sonda **Sistem**. Yazdığın satır görünen sekmeye gider ve en son kullandığın sekme hatırlanır. Her kanalın kendi rengi ve her satırda kısa bir etiketi vardır (GLB, LOC, GRP), bir sekme okumadığın satırları sayar ve pencere kapalıyken araç çubuğundaki sohbet düğmesi sayıyı taşır. Ya da bir satıra bir komutla başla:
+Sohbetin üstünde bir sıra sekme vardır: **Genel**, **Yerel**, **Grup** (bir gruptayken), **Klan** (bir klandayken) ve en sonda **Sistem**. Yazdığın satır görünen sekmeye gider ve en son kullandığın sekme hatırlanır. Her kanalın kendi rengi ve her satırda kısa bir etiketi vardır (GLB, LOC, GRP), bir sekme okumadığın satırları sayar ve pencere kapalıyken araç çubuğundaki sohbet düğmesi sayıyı taşır. Ya da bir satıra bir komutla başla:
 
 | Kanal | Kimler duyar | Komut |
 | :--- | :--- | :--- |
 | **Yerel** | haritandaki pilotlar | `/l` veya `/local` |
 | **Genel** | tüm sunuculardaki ve tüm dünyalardaki her pilot | `/g` veya `/global` |
 | **Grup** | sunucundaki grubun, nerede olurlarsa olsunlar | `/p`, `/party` veya `/group` |
+| **Klan** | klanındaki pilotlar, ana sunucuda; söylenenler çevrimdışı olanlar için saklanır | `/c` veya `/clan` |
 | **Özel** | sunucundaki tek bir pilot, nerede olursa olsun | `/m`, `/msg` veya `/w`, ardından ad ve mesaj ([aşağıda](#private-messages)) |
 
 Bir komut sekmeyi de değiştirir; tek başına yazılırsa (`/g`) yalnızca sekmeyi değiştirir. Grup sohbeti için bir grup gerekir. Kanallardan önceki bir oyun sunucusunda sohbet eskiden olduğu gibi tek bir listedir ve grup kurulamaz.
 
 **Genel**, tüm oyun için tek bir sohbettir: satırını tüm sunuculardaki ve tüm dünyalardaki her pilot duyar, uçuşta da istasyonda da. Başka bir sunucudan gelen satır, gönderildikten bir an sonra ulaşabilir; farklı sunuculardaki pilotlar neredeyse aynı anda gönderilmiş iki satırı farklı sırada görebilir. İşaretçiyi bir pilotun adı üzerinde beklet: açılan kart, senin sunucun değilse pilotun hangi sunucuda uçtuğunu da söyler. Diğer kanallar bulunduğun sunucuda kalır: **Yerel** haritandaki pilotlardır, grup sohbeti ile özel mesajlar yalnızca sunucundaki pilotlara ulaşır, [öldürme akışı](#the-kill-feed) ile **Sistem** satırları (sunucunun duyuruları) ise her sunucunun kendisine aittir. Bir sunucunun diğerleriyle bağlantısı kopunca, bağlantı dönene kadar o sunucunun Genel’i yalnızca kendi pilotlarına daralır; kısa bir kesinti sonradan telafi edilir, daha uzun bir kesintide söylenenler ise sonradan aktarılmaz.
+
+**Klan**, oyunun sakladığı tek kanaldır. Orada yazdığın satır, klanının ana sunucuda çevrimiçi olan her üyesine ulaşır, istasyonda da uçuşta da, ve sunucu klanın son **200 satırını** saklar, hiçbiri **14 günden** eski olmaz. Giriş yapan, klana katılan veya Klan sekmesini açan kişi bunları en eskiden başlayarak alır, sohbetin ne kadar süre saklandığını söyleyen bir satırın altında; önceki bir güne ait satır saatin yanında tarihini de gösterir ve bu şekilde okunan satırlar okunmamış sayılmaz. Klandan ayrılan veya atılan kişi artık hiçbir şey almaz ve klan Lideri tarafından ya da [sıfırlamayla](/wiki/03-Mechanics/Wipe-Timeline.md) dağıtıldığında satırları da onunla birlikte silinir. Sohbetin kuralları ([Sohbet kuralları](#the-chat-rules)) diğer kanallardakiyle aynıdır, bir pilotu yok saymak onun klan satırlarını da gizler ve bir klan satırı da diğerleri gibi bildirilebilir. Bölgesel sunucuda Klan sekmesi yoktur ve `/c`, klan sohbetinin yalnızca ana sunucuda kullanılabildiğini söyler.
 
 **Sistem** altın rengidir ve salt okunurdur, kendi listesi vardır: sunucunun kendiliğinden söylediklerini (karşılama, yeniden başlatma, güncelleme ve sıfırlama uyarıları, sürü duyuruları) ve geminin bildirdiklerini (onarımlar, gizlenme, EMP patlamaları, roketler) barındırır. Bu satırlar başka hiçbir sekmede yoktur; bu yüzden kalabalık bir Genel onları dışarı itemez, pilotların sekmeleri de pilotların söylediklerini tutar. Sekmenin sayacı duyurular içindir; yeniden başlatma ya da güncelleme geri sayımı ve sıfırlama uyarıları ayrıca bir bildirim olarak da belirir. [Öldürme akışı](#the-kill-feed) kendi anahtarıyla **Genel** sekmesinde kalır; grubuna giren ya da ayrılan pilotlarla ilgili satırlar **Grup** sekmesindedir.
 
@@ -114,7 +117,7 @@ Yoksayma listen ve Genel sohbeti gizleme anahtarı hesabınla birlikte saklanır
 
 ## Çatışma kuralları {#rules-of-engagement}
 
-**Aynı grubun üyeleri birbirine zarar veremez**, şirketleri ne olursa olsun: bir grup arkadaşına kilitlenemezsin (lazerler ya da roketler), atışların ve patlamaların onların içinden geçer ve ona yaptığın hiçbir şey kimse için bir öldürme, bir PvP öldürmesi ya da bir kara delik öldürmesi sayılmaz. Aynı grupta **olmayan** şirket arkadaşları eskisi gibidir: birine vurmak, yok edildiğinde **100 onur** kaybettirir. Gruptan ayrılırsan eski bir arkadaş, düşman olsun olmasın, hemen yeniden hedef olur (sektör ve sezon savaşa izin veriyorsa). Grubunun dışındaki herkese her zamanki gibi davranılır; güvenli bölgeler, Barış Protokolü ve sektörlerin PvP kuralları kimse için değişmez.
+**Aynı grubun üyeleri birbirine zarar veremez**, şirketleri ne olursa olsun: bir grup arkadaşına kilitlenemezsin (lazerler ya da roketler), atışların ve patlamaların onların içinden geçer ve ona yaptığın hiçbir şey kimse için bir öldürme, bir PvP öldürmesi ya da bir kara delik öldürmesi sayılmaz. Aynı grupta **olmayan** şirket arkadaşları eskisi gibidir: birine lazerle ya da roketle vurmak, yok edildiğinde **100 onur** kaybettirir. Gruptan ayrılırsan eski bir arkadaş, düşman olsun olmasın, hemen yeniden hedef olur (sektör ve sezon savaşa izin veriyorsa). Grubunun dışındaki herkese her zamanki gibi davranılır; güvenli bölgeler, Barış Protokolü ve sektörlerin PvP kuralları kimse için değişmez.
 
 ## Arkadaş getirme {#bringing-a-friend}
 

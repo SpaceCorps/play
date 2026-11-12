@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad är en kryssare med nästan dubbelt så stort skrov och dubbelt så många kanoner som en Ostirion: ett hammarhuvud mellan Ostirion och Paragon, som köps i butiken med krediter och Thulium tillsammans. Alla piloter får köpa den.
+Nomad är en kryssare med nästan dubbelt så stort skrov som en Ostirion och två kanoner fler: ett hammarhuvud mellan Ostirion och Paragon, som köps i butiken med krediter och Thulium tillsammans. Alla piloter får köpa den.
 
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 111 000
-- **Grundhastighet**: 210
-- **Laserplatser**: 6
+- **Grundhastighet**: 240
+- **Laserplatser**: 7
 - **Extraplatser**: 2
 
 ### Generator- och stödplatser {#generator-support-slots}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: Blindagem de casco -->
 # Blindagem de casco {#hull-plating}
 
@@ -43,7 +43,7 @@ A blindagem de casco só entra em **slots de blindagem**, um tipo de slot própr
 | Nave | Slots de blindagem | Um conjunto completo de Hull Plating III soma |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125.000 |
-| **Storm** | 7 | 175.000 |
+| **Storm** | 8 | 200.000 |
 | **Ironclad** | 15 | 375.000 |
 | **Wraith** | 10 | 250.000 |
 

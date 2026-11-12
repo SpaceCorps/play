@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Pilótakészségek -->
 # Pilótakészségek {#pilot-skills}
 
@@ -15,11 +15,11 @@ Az új pilóta nem teljes erejű. Az 1. szinten a lézer és a rakéta kevesebb 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Értékek**: 18 érték: 4 attribútum és 14 készség 5 csoportban
+- **Értékek**: 19 érték: 4 attribútum és 15 készség 5 csoportban
 - **Szintek**: 1-től 100-ig. Minden pilóta minden értéket az 1. szinten kezd, és nincs mit elkölteni, sem újraosztani
 - **Egy szint ára**: 1. szint → 2. szint: 40 XP; 50. szint → 51. szint: 875 XP; 99. szint → 100. szint: 19 157 XP; összesen 313 258 XP
 - **Mit ad egy szint**: A buff egyenesen nő az 1. szinten felvett értékétől a 100. szinten felvett értékéig. Semmi sem korlátozott
-- **A lézered az 1. szinten**: A sebzésének 80%-át okozza, és az idő 80%-ában talál, vagyis a tárgyoldalak által megadott sebzés 64%-át
+- **A lézered az 1. szinten**: A sebzésének 100%-át okozza, és az idő 80%-ában talál, vagyis a tárgyoldalak által megadott sebzés 80%-át
 - **A rakétád az 1. szinten**: A sebzésének 100%-át okozza, és az idő 10%-ában hibás gyújtású, vagyis a tárgyoldalak által megadott sebzés 90%-át
 - **Kitérés**: Minden pilóta hajója kikerüli a kitérhető találatok 3%-át, mielőtt bármely készség vagy formáció hozzátenne
 - **Hajótestszint**: A hajód ritkasága határozza meg, ahogy az alábbi táblázat mutatja. A raktéred mérete és a Tömeg XP-je ezt követi
@@ -50,20 +50,20 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 
 | Érték | Mit változtat | 1. szint | 100. szint |
 | :--- | :--- | ---: | ---: |
-| **Tömeg** | Hajótest | +0% | +10% |
-| **Szívósság** | Elszenvedett sebzés | ×1 | ×0,9 |
-| **Reflexek** | A képességek töltődési sebessége | ×1 | ×1,11 |
-| **Ösztön** | Minden zsákmánysor esélye | +0 pont | +5 pont |
+| **Tömeg** | Hajótest | +0% | +20% |
+| **Szívósság** | Elszenvedett sebzés | ×1 | ×0,92 |
+| **Reflexek** | A képességek töltődési sebessége | ×1 | ×1,1 |
+| **Ösztön** | Minden zsákmánysor esélye | +0 pont | +7,5 pont |
 |  | Orvium és Velkonite a gyűjtőkből | ×1 | ×1,5 |
 
 ### Fegyverek {#weapons}
 
 | Érték | Mit változtat | 1. szint | 100. szint |
 | :--- | :--- | ---: | ---: |
-| **Lézertechnika** (Reflexek) | Lézersebzés | ×0,8 | ×1,1 |
-|  | Az esély, hogy egy lézersorozat talál | 80% | 90% |
+| **Lézertechnika** (Reflexek) | Lézersebzés | ×1 | ×1,3 |
+|  | Az esély, hogy egy lézersorozat talál | 80% | 89% |
 | **Rakétatechnika** (Reflexek) | Rakétasebzés | ×1 | ×1,3 |
-|  | Az esély, hogy egy rakéta hibás gyújtású | 10% | 0% |
+|  | Az esély, hogy egy rakéta hibás gyújtású | 10% | 1% |
 | **Antianyag** (Ösztön) | Dark Matter a felvételekből | ×1 | ×1,25 |
 
 ### Harc {#combat}
@@ -76,13 +76,14 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 |  | A mérgek időtartama | ×1 | ×1,2 |
 | **Kitérés** (Reflexek) | A találat elől kitérés esélye, a hajó sajátjához adva | 0% | 15% |
 | **Taktika** (Reflexek) | A képességek időtartama | ×1 | ×1,2 |
+| **Pajzselnyelés** (Szívósság) | A pajzsaid elnyelése | +0 pont | +5 pont |
 
 ### Hajóvezetés {#ship-control}
 
 | Érték | Mit változtat | 1. szint | 100. szint |
 | :--- | :--- | ---: | ---: |
 | **Sugárzásvédelem** (Szívósság) | Sugárzási dózis | ×1 | ×0,4 |
-| **Hajtóműelmélet** (Tömeg) | Sebesség | +0% | +15% |
+| **Hajtóműelmélet** (Tömeg) | Sebesség | +0% | +10% |
 | **Tudomány** (Ösztön) | Tudomány az üzemanyag minden egységéből | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 
 - **Lézerek.** A Lézertechnika megváltoztatja minden sorozat sebzését és találati esélyét; a mellémenő sorozat lebegő „Miss” feliratot mutat, és a lőszerét így is elhasználja ([Harc](/wiki/03-Mechanics/Combat.md#laser-tech)). A lézereid hatótávja a hajód sajátja: a Lövészet az egyszerű x1-től eltérő lőszerrel elért találataidtól lép szintet, de csak a Mine-ra hat (lent).
 - **Rakéták.** A Rakétatechnika megváltoztatja minden rakéta sebzését és az esélyt, hogy egy rakéta hibás gyújtású lesz ([Rakétatechnika](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Találatok elviselése.** A Szívósság levesz egy részt minden találatból, amelyet kapsz, a Kitérés pedig növeli az esélyt, hogy egy egyenes találat semmit sem tesz ([Harc](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Tömeg növeli a hajótestedet.
+- **Találatok elviselése.** A Szívósság levesz egy részt minden találatból, amelyet kapsz, a Kitérés növeli az esélyt, hogy egy egyenes találat semmit sem tesz, a Pajzselnyelés pedig növeli a találatnak azt a részét, amelyet a pajzsaid felfognak ([Harc](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Tömeg növeli a hajótestedet.
 - **Képességek.** A Reflexek rövidítik a képességeid töltődési idejét, a Taktika pedig tovább tartja őket ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Szabotázs erősíti a mérgeket.
 - **Mine.** A Szabotázs növeli a Mine sebzését, a Lövészet pedig gyorsabban és messzebbre dobja ([Extrák](/wiki/06-Items/Extras.md#mine)).
 - **Sebesség.** A Hajtóműelmélet hozzátesz a sebességedhez, a hajtóművek és az Afterburner mellett ([Sebesség](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ A táblázat felsorolja, mi fizet XP-t, értékenként. Az XP a második oszlopb
 |  | Minden sorozat, amely hajót talál el | 0,1 |  |
 | **Rakétatechnika** (Reflexek) | Minden rakéta, amelyet kilősz | 0,15 | 130 rakéta óránként |
 |  | Minden rakéta, amely hajót talál el (rakétánként egyszer, akárhány hajót sebez a robbanása) | 0,3 |  |
-| **Antianyag** (Ösztön) | Minden Dark Matter egység, amelyet egy felvételnél kapsz | 0,1 | Nincs |
+| **Antianyag** (Ösztön) | Minden Dark Matter egység, amelyet egy felvételnél kapsz | 2,2 | Nincs |
 | **Lövészet** (Reflexek) | Minden találat egy olyan sorozatból, amelyet az egyszerű x1-től eltérő lőszerrel lőttek (×1,5 minden lőszerfajta első 10 perc idejére egy óra szerinti órában) | 0,1 | 3 000 találat óránként |
 |  | A Mine minden találata és minden másodperc, amelyet egy ellenség az Energetic Wallodban tölt | 0,1 |  |
 | **Szabotázs** (Reflexek) | A Mine minden találata és minden másodperc, amelyet egy ellenség az Energetic Wallodban tölt | 0,5 | 1 200 XP óránként |
 |  | Minden másodperc, amíg egy méregod hat egy ellenségen | 0,05 |  |
 | **Kitérés** (Reflexek) | Minden rád irányuló ellenséges támadás, amely célt téveszt, vagy amely elől kitérsz | 1 | 600 XP óránként |
 | **Taktika** (Reflexek) | Minden képesség, amelyet lézerhatótávon belüli ellenséggel nyomsz meg | 2 | 600 XP óránként |
+| **Pajzselnyelés** (Szívósság) | A maximális pajzsodból minden 1%, amelyet az ellenséges találatok elvisznek | 0,1 | 300 XP óránként |
 | **Sugárzásvédelem** (Szívósság) | Minden másodperc egy sugárzási sávban | 0,2 | Nincs |
 |  | A maximális hajótestedből minden 1%, amelyet a sugárzás elvesz | 1 |  |
 | **Hajtóműelmélet** (Tömeg) | Minden másodperc a hajód sebességének 80%-a fölötti repülésből, Afterburner alatt kétszer annyi | 0,1 | Nincs |
@@ -184,7 +186,9 @@ Egy szint több XP-be kerül, mint az előző, egy rögzített aránnyal, így a
 
 ## A Pilótakészségek oldal {#the-pilot-skills-page}
 
-A **Pilótakészségek** oldal az állomás egyik oldala, saját sorral az oldalsávban. Az egész fát mutatja: az attribútumokat és a készségeket a csoportjaikban, mindegyiket a szintjével. Válassz ki egy értéket, hogy lásd, mit csinál, melyik attribútum irányítja, mely készségeket edzi, az XP-sávját és mitől nő, és a csúszkával megnézheted bármelyik szintet az 1-től az utolsóig: egy kis táblázat megadja, mit változtat az érték az előnézett szinten és a mostani szintedén. Az az érték, amely még nem keresett XP-t, nem használtként van jelölve, a szintje helyén kötőjellel. Az oldalsáv sora jelvényt kap, ha egy érték szintet lépett azóta, hogy utoljára megnyitottad az oldalt, és a Boosterek ablak egy kártyája összegzi, mit változtatnak a készségeid.
+A **Pilótakészségek** oldal az állomás egyik oldala, saját sorral az oldalsávban. Az egész fát egyetlen tömör lapon mutatja: az attribútumok és a készségek öt csoportja egymás mellett áll oszlopokban (széles képernyőn három, keskenyen kevesebb), értékenként egy sor a szintjével a jobb szélen és alatta egy vékony XP-sáv. Az az érték, amely még nem keresett XP-t, szürke, a szintje helyén kötőjellel. Tartsd az egérmutatót egy soron, hogy lásd, mit csinál az érték, melyik attribútum irányítja vagy mely készségeket edzi, az XP-jét és mitől nő. Kattints egy sorra, hogy a részletei megnyíljanak az oszlopsora alatt: ugyanazok a szavak, az XP-sáv és egy csúszka, amellyel bármelyik szintet megnézheted az 1-től az utolsóig, egy kis táblázattal arról, mit változtat az érték az 1. szinten, a mostani szintedén, az előnézett szinten és az utolsón. Egyszerre egy érték van nyitva; kattints újra a sorra, használd a bezárás gombot, vagy nyomd meg az Esc-et az elrakásához. Az oldalsáv sora jelvényt kap, ha egy érték szintet lépett azóta, hogy utoljára megnyitottad az oldalt, és a Boosterek ablak egy kártyája összegzi, mit változtatnak a készségeid.
+
+Repülés közben ugyanez a lap a **Pilótakészségek** ablak. Nyisd meg az eszköztár Pilótakészségek gombjával (széles képernyőn) vagy a billentyűjével, alapesetben a K-val (Beállítások, Irányítás). Olyan ablak, mint a többi: mozgathatod, átméretezheted, és megjegyzi a helyét és azt, hogy nyitva volt-e. Csak a készségeidet mutatja: a szintek akkor lépnek, amikor megérkeznek a repülés XP-sorai, és egy sorra kattintva ugyanezek a részletek nyílnak meg az ablakban.
 
 ## Mi marad meg {#what-is-kept}
 

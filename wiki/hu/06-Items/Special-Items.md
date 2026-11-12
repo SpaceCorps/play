@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -23,7 +23,7 @@ A **különleges tárgyak** hat egyszer használatos tárgy, amelyek időt spór
 | Tárgy | Ritkaság | Legfeljebb ennyi lehet nálad | Mit csinál |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Legendás | 5 | Azonnal befejez egy Skylab-fejlesztést |
-| **Schematics** | Ritka | 20 | Befejezi a futó kutatást, ha legfeljebb 24 órát vesz igénybe |
+| **Schematics** | Ritka | 20 | 24 órát levesz a futó kutatásból; befejezi, ha legfeljebb 24 óra van hátra |
 | **Philosopher's Stone** | Epikus | 10 | A Kreditfarmod és a Thuliumfarmod 10 órán át kétszer annyit termel |
 | **Tinkerer's Badge** | Epikus | 10 | Egy felszerelést egy Kovácsműhely-fokozattal feljebb emel, Fertőzöttől fölfelé |
 | **Forger's Seal** | Szokatlan | 99 | Legfeljebb 30 percet átugrik a gyártási sorból |
@@ -44,12 +44,13 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 ### Schematics
 
-**Befejezi a most futó kutatást**, ha a technológia kutatása **legfeljebb 24 órát** vesz igénybe. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 159 technológiájából 143 megfelel. A 16, amely 48 vagy 72 órát vesz igénybe, nem: a Wraith, három drónformáció, a Hull Plating III, a Hajtóműmodul és a Védelmi modul 4. és 5. szintje és hét Pilóta-technológia.
+**24 órát levesz a most futó kutatásból.** Ha **legfeljebb 24 óra** van hátra, a kutatás azonnal **befejeződik**; ha több, 24 órát veszít, és fut tovább, és még egy Schematics használható rajta. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 187 technológiájából 167 legfeljebb 24 órát vesz igénybe, ezért egyetlen Schematics az elejétől befejezi őket. A másik 20 tovább tart, a legtöbb 48 vagy 72 órát, a Rocket Launcher III, IV és V pedig 96, 168 és 240 órát, és 2–10 Schematics kell hozzájuk.
 
-- **A kutatási idő számít, nem a hátralévő.** Egy 48 órás technológia, amelyből még egy óra van hátra, ugyanúgy elutasítva marad: a Schematics azt nézi, mennyi ideig tart a technológia összesen.
-- **Az ár marad kifizetve.** A Dark Mattert, a krediteket és a Thuliumot a kutatás indításakor levonták, és nem adják vissza. A tudomány, amelyet a kutatás még nem égetett el, a tartályodban marad.
-- **A kutatás úgy fejeződik be, mint egy lejárt kutatás.** A technológia a tiéd, megjelennek az értesítések, és **a sorod következő technológiája azonnal elindul**, ha tud.
-- **Elutasítja** a rendszer, ha nincs Kutatóközpontod, ha nem fut kutatás, vagy ha a technológia 24 óránál tovább tart.
+- **A technológia saját idejét veszi le, nem a falióráét.** A 24 óra a technológia saját kutatási ideje, az, amelyik a kártyáján áll. A Thulium-boost gyorsabban futtat egy kutatást, de nem változtatja meg, mennyit vesz le egy használat; ha egy boost lefedné a kutatás végét, egy használat kevesebb várakozási órát spórol (dupla sebességnél egy nap kutatás 12 óra várakozás). A megerősítés megmondja, mit fog mutatni az időzítő.
+- **A kutatás úgy megy tovább, ahogy volt.** A kutatás, amely 24 órát veszít, megtartja a helyét: a boost tovább fut, a sor érintetlen marad, és mögötte semmi sem indul el. A tudományra váró kutatás továbbra is vár: a Schematics időt ad, nem üzemanyagot.
+- **Az ár marad kifizetve.** A Dark Mattert, a krediteket és a Thuliumot a kutatás indításakor levonták, és nem adják vissza. A tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad.
+- **A befejezett kutatás úgy ér véget, mint egy lejárt kutatás.** A technológia a tiéd, megjelennek az értesítések, és **a sorod következő technológiája azonnal elindul**, ha tud.
+- **Elutasítja** a rendszer, ha nincs Kutatóközpontod, vagy ha nem fut kutatás (az a kutatás, amely a kattintásod előtt magától véget ért, már nem fut, és semmi sem fogy el).
 - Soha nem indít kutatást, és soha nem választ ki egyet helyetted.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md
 - **Darabszám, nem tárgy.** A Hangar leltára az egyetlen hely, amely felsorolja őket, csempékként a fogyóeszközök között; ha egy fajtából nincs semmid, nincs hozzá csempe. A csempe nem tárgy, ezért nem húzható, nem jelölhető ki, nem törölhető és nem adható el. Nincs súlyuk, nincs gyorsgomb-helyük, és nincs helyük a rakományban vagy a tranzittárolóban; soha nem esnek el, ha a hajód megsemmisül.
 - **A wipe-on át.** A különleges tárgyaid és egy futó Philosopher's Stone vagy szerződés megmarad, mint a Skylab, a kutatás és a kinézeted.
 - **Soha nem kereskednek velük.** Nem az [Aukción](/wiki/03-Mechanics/Auction.md), nem másik pilótának, nem krediteért.
-- **Csak a Hammer mozdíthatja el a tempódat**, és csak 5-öt tarthatsz belőle nálad. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy legfeljebb 24 órás kutatás.
+- **Csak a Hammer mozdíthatja el a tempódat**, és csak 5-öt tarthatsz belőle nálad. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy kutatás 24 órája.
 - **Egy használat, egy megerősítés, egy hang.** Minden használat saját, halk hangjelzést játszik le.
 
 ## Gyakori hibák {#common-mistakes}
 
 - **A Hammerhez futó fejlesztés kell.** Előbb indítsd el a fejlesztést. Az a modul, amelynek időzítője már lejárt, nem tud mit befejezni.
-- **A Schematics a teljes kutatási időt nézi.** Egy 48 vagy 72 órás technológiát nem lehet vele befejezni, bármilyen kevés is van hátra.
+- **A hosszú kutatáshoz több Schematics kell.** Egy 24 órát vesz le, többet nem: egy 240 órás technológiához tíz kell. A lap megmondja, mennyi marad hátra, mielőtt megerősítenéd.
 - **A Stone nem nagyítja a tárolót.** Gyűjts be, mielőtt egy farm megtelik, különben a bónusz elvész.
 - **A Badge Fertőzöttől fölfelé való.** A Kovácsműhely első lépéséhez nem kell Badge.
 - **A szerződéshez munka kell.** Előbb építs egy termelőt, egy Ércrakodót vagy egy modult, és utána fogadd fel a munkást.

@@ -16,32 +16,195 @@ The full text of a release (updating, platforms, first launch, known issues, che
 ---
 
 <!-- patchnotes:list -->
-## 0.5.5 · 2026-11-11
+## 0.5.6 · 2026-11-12
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.5)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.6)
 
-SpaceCorps 2027 0.5.5 is a quick patch for 0.5.4: the five solo Galaxy Gates can be entered now. In 0.5.4 the Gates page opened only in the station menu and the server wanted a flying ship, so no solo gate could be entered. A solo gate is **built** now: press Build on a gate's card (docked or flying), its parts are taken, and a portal to the gate stands on your home map, only for you. The patch also makes the Rocket tech skill kinder (a rocket deals 100 % at level 1, goes up to 130 % at level 100, and is a dud one time in ten at level 1), halves the price of the four Tier I rockets and pays much more laser ammo (Experimental Fusion Core, x4) when a solo gate is cleared.
+SpaceCorps 2027 0.5.6 is a big patch. It brings a compact Pilot Skills sheet that also opens as a window in flight, a Galaxy Gates window for flight (spin, build and choose your destination without docking), Laser Optics (five craftable Extras that raise your laser hit chance), bosses and swarms inside the waves of the solo gates with their loot, Mines that never expire, rockets that follow the same PvP rules as lasers, a 19th skill (Shield absorption), trade limits twice as high, a graphics update, and the ten achievements that were missing from the Steam list added (they are on Steam's list now). It is also a balance patch: eight ships get new speeds or laser slots, the lasers, the Crit Amps and the Helios Beam hit harder, seven Pilot Skills are retuned, and Antimatter pays about twenty times more XP.
 
 ### What's new
 
-**Highlights**
-- **Solo gates are built, and you jump into them.** Open Galaxy Gates › Solo gates: every gate has a **Build** button (it said Enter in 0.5.4). It works when you are docked or flying, and it takes all the gate's parts at once (Alpha 11, Beta 26, Gamma 54, Delta 87, Omega 108) and opens your run with three lives. A portal named "Solo Gate -> Alpha Rift" (or the gate you built) stands **on your home map** while you fly there (x-1 for your company), at a spot of its own near the base, outside the station's safe ring: if you built it docked, it is there when you launch. Fly to it and press the Jump key like at any portal: you land in your arena and the run goes on from its saved wave. Only you can use your portal: other pilots on the map can see it, and the Jump key near it tells them "This gate belongs to" its owner.
-- **The portal comes back after everything but an end.** If you Leave the arena, die, log off or the server restarts, your run is still open and your portal is on the home map again; Abandon (it asks first, and the parts are forfeited as before) and a cleared gate take it away, and so does an admin ending the run. If every arena is busy, the portal stays and you jump in a little later.
-- **Resume stays for a pilot who is flying** (the result sheet's button); a docked pilot goes in through the portal. The open-run card of the Solo gates tab says where the portal is.
-- **Rocket tech: a rocket deals 100 % of its damage at level 1 and 130 % at level 100** (80 % and 110 % in 0.5.4), and **is a dud one time in ten at level 1** (one in five), with no dud at level 100 as before. A level 1 pilot's rocket is 0.90 of the output of the item pages (0.64 in 0.5.4); the laser stays at 0.64. At level 100 a rocket is 1.30 of it.
-- **The Tier I rockets cost 500 Credits again** (1,000 since 0.5.3): Lancet I, Rivet I, Ember I and Scatter I. Tier II and III keep their prices. The Auction's reference values follow the rockets' recipes: Tier I 500 (1,000) with a floor of 200 (400), Tier II 1,402 (1,902) and Tier III about 4,508 (about 5,008).
-- **A cleared solo gate pays much more x4 ammo.** The Experimental Fusion Core in the completion is **20,000 / 30,000 / 50,000 / 75,000 / 100,000** for Alpha, Beta, Gamma, Delta and Omega (none / 3,000 / 20,000 / 50,000 / 85,000). Nothing else in a completion changed: credits, XP, honor, Thulium, items, the other ammunition and the prizes of a spin that finds no part are as in 0.5.4.
-- **The magic item chance of a spin stays 1 % (0.2 % for each of the five kinds).** It was not changed; it only felt low.
+**New**
+- **Pilot Skills: one compact sheet, and a window in flight.** The page is one dark sheet now, with up to three columns, each headed by its group, and one line per skill: the name on the left, the level on the right, a thin XP bar under the skills you train, and grey with a dash for the ones you never used. There is no second sidebar. Hover a skill for its card; click it to open a strip under its row with the XP bar, what it grows from, the preview slider and the table of numbers (Esc or a second click closes it). The same sheet opens in flight as a read-only **Pilot Skills window**: a toolbar button from 1280 points of screen width (once your skills are known) and the **K** key (you can rebind it). It follows your XP as you fight and is closed until you open it.
+- **Galaxy Gates window in flight.** A toolbar button (atom icon, after Auction) opens a movable window with three tabs: **Materializer** (multiplier, cost, Spin, chance, guarantee, result and the scan log; your Thulium sits in the title bar), **Solo gates** (the five gates with their parts, Build, Abandon with the page's own question, and where your portal is) and **Chrono-Gate** (progress, the Destination list with Choose, and the Transport Cache with Freeze and Unfreeze). It uses the page's own requests, so spinning, building and choosing a destination work while you fly; moving items in and out of the cache still needs the station (the window says so). Build in flight says "Gate built. Fly to the portal in" and the map's name "and jump in." On Singapore and US East the window shows a card that the gates are at the main server, with Return to Base. To make room for the button, the toolbar loses its small gaps on screens narrower than 1280 points (the strip is 4 points narrower).
+- **Laser Optics I to V (new Skylab research and five craftable Extras).** Fit one in an Extras slot and it adds points to your laser hit chance: **+2 / +4 / +6 / +8 / +10 points**, held at 100 %. Only the best one you have fitted counts (they do not stack), and the points apply when you fire (the Hangar's laser tip says "Laser Optics: 86.0 % hit chance in all (+6 points)" for a pilot at 80 % with Optics III). The price of the points is an Extras slot, which the Repair Drone, Cloaking, Auto-Repair and Auto-Rocket CPUs and the P.E.T. Station share. Research is a chain in series (I needs nothing) in the Lasers family; costs follow the Extras CPUs:
+
+  | Item | Points | Research | Crafting (Assembly) |
+  |---|---|---|---|
+  | Laser Optics I | +2 | 3 h | 300 s, 8,000 Thulium, 40 Ship Fragments, 2 Power Cores, 4 Velkonite Reinforced Plates |
+  | Laser Optics II | +4 | 6 h | 450 s, 15,000 Thulium, 80 Ship Fragments, 8 Reinforced Hull Plates, 4 Power Cores, 6 Velkonite Reinforced Plates |
+  | Laser Optics III | +6 | 10 h | 600 s, 30,000 Thulium, 120 Ship Fragments, 10 Reinforced Hull Plates, 6 Power Cores, 12 Velkonite Reinforced Plates, 2 Orvium Reinforced Plates |
+  | Laser Optics IV | +8 | 16 h | 750 s, 50,000 Thulium, 180 Ship Fragments, 18 Reinforced Hull Plates, 9 Power Cores, 2 Ancient Control Units, 14 Velkonite Reinforced Plates, 6 Orvium Reinforced Plates |
+  | Laser Optics V | +10 | 24 h | 900 s, 75,000 Thulium, 240 Ship Fragments, 25 Reinforced Hull Plates, 12 Power Cores, 3 Ancient Control Units, 15 Velkonite Reinforced Plates, 10 Orvium Reinforced Plates |
+
+  The tree has **187 technologies** (181 before): the five Optics and the Storm's new plate slot research (see Balance, Ships). A pilot who had all 181 now shows 181/187 and **keeps the Archivist achievement** he earned. Until their art is rendered the five items use plain drawn tiles. They have Market floors of 0.84 to 7.9 million Credits like the other crafted Extras.
+- **Boss NPCs and swarms in the waves of the solo gates, with their loot.** A swarm is a boss NPC with four guards, as on the maps. 14 of the existing waves now hold swarms **in place of** some of their ordinary aliens; **no wave was added** (Alpha 10, Beta 14, Gamma 18, Delta 22, Omega 26 waves as before). The boss NPC drops what it drops on a map; the guards drop nothing (their map tables are empty). The loot goes into your hold with the pay at the end of your stint and shows on the result sheet (no box lies in the arena); a leave, a resume, a death or an abandon never repeats or loses a drop (a server restart or a crash loses the stint's loot together with its pay, as before).
+
+  | Gate and wave | What the wave is now | Ships | Boss loot (Thulium at Market value) |
+  |---|---|---|---|
+  | Alpha 5 | 1 Seeker Swarm, 1 Phantasm Swarm, 4 Seekers (was 20 Seekers and 20 Phantasms) | 14 | 117 |
+  | Beta 4 | 2 Seeker Swarms, 24 Seekers | 34 | 50 |
+  | Beta 9 | 1 Phantasm Swarm, 8 Phantasms | 13 | 92 |
+  | Gamma 4 | 1 Phantasm Swarm, 3 Phantasms | 8 | 92 |
+  | Gamma 9 | 1 Goombah Swarm, 10 Goombahs | 15 | 253 |
+  | Gamma 14 | 1 Goombah Swarm, 10 Bulwarks, 6 Goombahs | 21 | 253 |
+  | Delta 5 | 2 Phantasm Swarms, 11 Bulwarks | 21 | 185 |
+  | Delta 10 | 2 Goombah Swarms, 10 Goombahs | 20 | 507 |
+  | Delta 15 | 1 Goombah Swarm, 5 Bulwarks | 10 | 253 |
+  | Delta 20 | 1 Crystalys Swarm, 5 Bulwarks, 2 Crystalys | 11 | 1,550 |
+  | Omega 6 | 1 Goombah Swarm, 10 Bulwarks | 15 | 253 |
+  | Omega 11 | 2 Goombah Swarms, 15 Goombahs | 25 | 507 |
+  | Omega 16 | 1 Crystalys Swarm, 10 Bulwarks, 9 Goombahs | 23 | 1,550 |
+  | Omega 22 (elite) | 1 Phantasm Swarm, 3 Phantasms | 8 | 92 |
+
+  A Boss Crystalys carries the best loot: Ultra Cores and Experimental Fusion Cores, Epic rockets, a 4 % chance of Dark Matter and 15 % of an Ancient Control Unit. All the boss loot of a clear is worth 117 / 142 / 599 / 2,494 / 2,402 Thulium at Market value for Alpha to Omega, which moves a gate's "everything it returns against what it costs" by +0.1 to +0.6 points (Alpha 140.0 %, Beta 119.4 %, Gamma 104.3 %, Delta 101.2 %, Omega 109.9 %). The ordinary aliens' loot is unchanged.
+- **Kills in a solo gate count for missions that name no sector.** These are the big hunts of the Challenge line: Seeker Plague, Phantasm Tide, Bulwark Wall, Goombah Hunt, Crystalys Trial and the like. A mission that names a sector (x-1 to x-4, Danger Sectors) takes nothing in a gate. A kill counts when you make it, a wave counts **once per run** however often you leave and resume, the gate's own last boss counts once as the alien it is drawn from (Alpha's as a Phantasm, Beta's as a Bulwark, Delta's as a Goombah, Gamma's and Omega's as a Crystalys), and the boss NPCs and guards of the swarms inside the waves and anything a boss summons count for nothing: only the ordinary Seekers, Phantasms, Bulwarks, Goombahs and Crystalys of a wave do. Kill statistics, achievements' counters and the kill feed are as before. See Known limits for what this pays.
+- **Mines never expire.** A thrown Mine lies until it goes off or the server restarts (it lasted 180 seconds, and only 3 per pilot). There is one big limit now: **150 Mines per map** for all pilots together, and no limit per pilot. Two Mines must be **365 units apart** (twice a Mine's trigger range plus the radius of the biggest pilot ship, so one pilot ship cannot set off two at once). A throw that is too close ("Too close to another Mine.") or onto a full map ("This map has too many Mines.") spends nothing and does not start the 8-second wait between throws. A Mine whose owner has left the map still hurts any ship, credits nobody and spares clan-summoned swarm. The game draws Mines within 4,000 units (the nearest 48), the aiming ring turns red with a cross when a Mine lies within 365 of the spot, and the hotbar tip says how many lie on the map.
+- **Rockets follow the lasers' PvP rules.** A rocket may hit whatever a laser may hit where PvP is on, **your own company included** (the "Rockets can't hit your own company" rule is gone): the guided lock, a straight rocket's contact, blasts (Ember, Scatter, N.U.K.E., N.I.K.E.), Ricochet jumps and the status rockets (Freeze, EMP, Shield Breaker, Toxic, Marking, Cooldown). Group mates, safe zones, the Peace Protocol and sectors without PvP spare everyone as before; the Support Rocket, Flares, Mines and aliens are as before. **A rocket that destroys a company mate costs you 100 honor, like a laser kill** (and the same for anyone who hit him in the 15 seconds before); blasts are not exempt. The Auto-Rocket CPU follows your lasers' target, so it fires at a company mate only when you ordered your lasers on him (attack key or ammo slot); a merely selected mate is still not fired at.
+- **A misfired rocket has its own look and sound.** A dud (Rocket tech) shows a dim orange fizzle, a few weak sparks and grey smoke at the muzzle, with a dull "pfft" and "clunk" sound, quieter than the launch, for you and for every pilot who sees the ship. The toast stays. **Aliens never dodge rockets:** the game files give no alien an evasion chance, so nothing changes in fights; this is now a written rule with tests. If a rocket seemed to miss an alien, a dud (10 % at Rocket tech level 1) is the likely reason.
+- **Tier I rockets leave the Auction.** The 24 rocket lots the Auction opens every day are **12 Tier II and 12 Tier III** now (Tier I before): nine Tier II lots of 4,450 and three of 450, nine Tier III lots of 550 and three of 150 (sizes shown for a full day; the Auction scales stacks by how many pilots are active). The day's rocket value is 82.4 million credits at Shop value (82.5 million before). Tier II and III have no Shop price, so their lots open at 20 % of their reference value (1,402 for Tier II, about 4,507 for Tier III); the biggest rocket lot opens at 1,247,780 credits. Players' own listings are unchanged.
+- **Shield absorption: a 19th Pilot Skill.** It sits in the Combat group, trained by taking hits on your shield: 0.1 XP for every percent of your ship's maximum shield that enemy hits take (a whole bar is 10 XP), with Grit's soft cap of 300 XP an hour. It adds **+0 / +2.5 / +5 points of shield absorbance at level 1 / 50 / 100**, on top of everything else, **with no ceiling** (a ship at 119 % absorbance reads 124 % at level 100, the best shield out of the box 96 %); a ship with no shield stays at 0, and the Hangar tile, the pilot sheet and the flight agree. Nothing is paid for a company mate's hit or for an empty shield. On paper, at the best possible rate (489 XP an hour) level 50 takes about 26 hours and level 100 about 640 hours.
+- **Clan chat that stays.** A Clan tab (and `/c` or `/clan`) is for your clan's members only. The server keeps the last **200 lines for 14 days** and sends them when you connect, join or open the tab, so you read what was said while you were away (lines older than today show their date). A pilot who leaves gets no more lines; deleting a clan or a wipe deletes its lines. A clan line can be reported and Ignore hides a pilot's clan lines; there is no moderation tool. Clan chat is on the main server only: on Singapore and US East `/c` says it is only available on the home server.
+- **Clan applications cannot be spammed.** A second application to a clan that is already waiting is refused ("Application already pending"); after an officer rejects you, you wait **60 seconds** before applying to that clan again, and you may send at most **5 applications in 10 minutes** across clans. "Applied" shows again when you close and reopen the clan menu.
+- **Schematics skip a day of research.** One Schematics now takes **24 hours of research time** off the research that is running (it finished only researches of 24 hours or less, and refused every research of 48 to 240 hours). If 24 hours or less is left, it finishes the research as before; if more is left, it moves it forward by 24 hours, and uses stack: a 100-hour research is down to 76, 52, 28 and 4 hours and the fifth use finishes it. A use that went through is spent; a refusal spends nothing. With a Thulium boost running, the sheet and the toast say how much your timer drops.
+- **Solo gates on Singapore and US East.** The gate and its parts stay at the main server. If you fly on a regional server with a built gate, you now see a portal on your home map there; jumping through it docks you at the main server ("Your gate is built: launch to enter it."). A leftover flight lease that blocked your station now has a **Bring my ship home** button (it stays on screen until you press it or the write goes through), and a pilot who closed the game on a regional server is ended there after a minute by itself. The server list says **why** a server cannot be reached (name not found, no answer in time, refused) and that the main server is the way to fly meanwhile.
+
+**Balance**
+
+*Ships* (base values; 0.5.5 in brackets). The numbers are our balance list of 2026-11-12.
+
+| Ship | Speed | Laser slots | Best build a pilot can make | Stock build (Light cores, Engine I) |
+|---|---|---|---|---|
+| Protos | **190** (180) | unchanged | 501.8 (490.3) | 204 (194) |
+| Kitefin | **220** (190) | **4** (3) | 587.5 (552.2) | 242 (211) |
+| Ostirion | **260** (220) | **5** (3) | 713.0 (664.6) | 281 (240) |
+| Nomad | **240** (210) | **7** (6) | 688.8 (652.5) | 260 (229) |
+| Paragon | **270** (230) | **10** (9) | 762.2 (713.2) | 293 (252) |
+| Storm | **350** (260) | **15** (14) | 912.8 (875.1) | 380 (284) |
+| Ironclad | **100** (110) | unchanged | 858.2 (870.9) | 119 (129) |
+| Wraith | 210 (unchanged) | **14** (13) | 858.7 (unchanged) | 235 (unchanged) |
+
+- **The Storm** has **3 core slots** (4) and **8 plate slots** (7); the eighth plate slot is unlocked by a new research, **Storm Hull Plate Slot VIII**. With one core fewer the preset Storm builds have about 10 % less shield and fly 20 to 25 % faster. The Storm's best build (912.8) is the fastest of the eight ships, and the Ironclad's best build (858.2) is now 0.5 behind the Wraith's (858.7); it was ahead.
+- By lasers times damage survived, the Wraith is the strongest of Paragon, Ironclad and Wraith again; the Ostirion with 5 lasers rates as a Class II Cruiser (it was a Class I Scout). The black hole's help card now says "about 800 to 2,600" units. Davidski's pay is unchanged and his speed is 97 (102); a lone Wraith needs about 13 minutes against him (14). The swarm ships follow their designs: Pirate Scouts have 4 lasers and speed 220, the Pirate Boss and the dungeon pirates fly at 100, the Dormant Force and Pulse follow their ships.
+
+*Lasers, Crit Amps, Helios Beam, Energetic Wall*
+
+| Item | Before | Now |
+|---|---|---|
+| Quantum Laser I / II / III base damage | 55 / 65 / 80 | **60 / 70 / 85** |
+| Starfire-III base damage | 135 | **140** |
+| Helios Beam base damage | 155 | **160** |
+| Helios Beam amp slots | 3 | **4** |
+| Crit Amp I / II / III / IV damage (flat base damage, like a Damage Amp) | 0 / 0 / 0 / 0 | **5 / 10 / 15 / 20** |
+| Crit Amp I / II / III / IV critical chance | 15 / 20 / 25 / 25 % | 15 / 20 / 25 / **30 %** |
+| Energetic Wall I (Shop) | 250 Thulium | **10,000 Credits** |
+
+- **The Crit line now beats the Damage line.** From tier II up, three Crit Amps do 1.19 to 1.34 times what three Damage Amps do on a Starfire-III or a Helios Beam (1.19 to 1.41 on a Quantum Laser III), and Crit Amp I already beats Damage Amp I on those two by about 1 %. The lead shrinks with the laser's amp slots: on a Quantum Laser II (two slots) it is 1.10 to 1.21, on a Quantum Laser I (one slot) only 1.01 to 1.02, and on the Quantum Lasers a Crit Amp I is still a little behind a Damage Amp I. Three Crit Amp IV on a Helios Beam make 110 % critical chance; each laser is held at 100 % on its own, so the extra 10 points are wasted and do not help your other lasers. Against the best shield out of the box three Penetration Amp IV kill 37 % faster than three Crit Amp IV (50 % before). With four Penetration Amp IV a Helios Beam pierces 80 points of a shield (60 with three), 105 with the Fusion Core and the Gemini.
+- **The ships the game flies against you got stronger with the new lasers and ships.** The swarm ships follow the lasers they are built on (about 6 to 7 % per laser for the Quantum Laser rise) and also the new laser slots and speeds of the ships they copy, so the Pirate Scout, the Dormant Force and the Dormant Pulse hit much harder than the per-laser rise alone says (volley a shot, all lasers together, x1):
+
+  | Swarm ship | Volley before | Volley now | Speed before | Speed now |
+  |---|---|---|---|---|
+  | Pirate Scout (copies the Kitefin: 4 lasers) | 221 | **315** (+43 %) | 190 | **220** |
+  | Pirate Boss (laser, never fired) | 260 | **280** | 110 | **100** |
+  | Dormant Force (copies the Wraith: 14 lasers) | 3,120 | **3,570** (+14 %) | 210 | 210 |
+  | Dormant Pulse (copies the Paragon: 10 lasers) | 4,320 | **5,100** (+18 %) | 230 | **270** |
+
+  The squad Ostirions of the company missions fly three Quantum Laser II of 70 each: 210 base damage in all (195 before). The Clan Wardens' own numbers did not change; with the pilots' lasers 6 to 7 % stronger the model finds them 3 to 6 % less work to beat (that figure is the laser rise alone; the new ships shift Warden fights further, and nobody has fought them yet). A stock Wraith facing the strongest coherent attack (three Crit Amp IV with the Gemini, from a Wraith with its 14 Helios Beams) now holds **about 13.7 seconds** (19.7 before); with a fourth amp in each Helios Beam it is about 11 seconds (scaled by hand from the model's run, not run for 14 lasers).
+- **Energetic Wall I** is now about five times cheaper per hit point than Wall II (and twelve times per charge) and becomes the default wall. Wall II's price is unchanged.
+
+*Pilot Skills* (level 100 unless said; 0.5.5 in brackets; levels in between are on a straight line)
+
+| Skill | Effect | Before | Now |
+|---|---|---|---|
+| Heft | hull | +10 % | **+20 %** |
+| Grit | damage taken | x0.90 | **x0.92** |
+| Reflex | cooldown pace (faster recharge) | x1.11 | **x1.10** |
+| Instinct | loot chance | +5 points | **+7.5 points** |
+| Laser tech | damage (level 1 to 100) | 0.80 to 1.10 | **1.00 to 1.30** |
+| Laser tech | hit chance (level 1 to 100) | 80 to 90 % | 80 to **89 %** |
+| Rocket tech | dud (misfire) chance (level 1 to 100) | 10 % to 0 | 10 % to **1 %** |
+| Thruster theory | speed (an Afterburner multiplies on top) | +15 % | **+10 %** |
+| Antimatter | XP per Dark Matter received | 0.1 | **2.2** |
+| Shield absorption (new) | shield absorbance points | n/a | **+5** |
+
+- **Laser output (damage times hit chance) at levels 1 / 50 / 100: 0.800 / 0.970 / 1.157** (0.640 / 0.806 / 0.990). A new pilot's laser does 0.80 of the item pages' damage now (0.64), and a level 100 laser is above 1.0 (from about level 59). Rocket output is 0.900 / 1.085 / 1.287 (0.900 / 1.090 / 1.300): a rocket still does 100 % at level 1 and 130 % at level 100, and a level 100 rocket misfires one time in a hundred.
+- **Antimatter:** a N.I.K.E. that goes into a black hole pays about 4.4 XP and a shot at level 1 about 4 (one shot in ten is a dud); 25 shots pay about 100 XP (about 5 before). Level 50 needs about 3,250 shots and level 100 about 79,000 (about 6.3 billion credits' worth of N.I.K.E.s), so level 100 by shooting alone is still very far. The Production Queue gives at most 238 XP an hour and the Tesseract 22.
+- **Thruster theory:** a level 100 pilot with an Afterburner I (x1.40) is x1.54 of his base speed (x1.61).
+
+*Solo gates for a new pilot.* The higher Laser tech numbers make every gate faster for a pilot who starts at level 1. We did not retune the gates: they ship as they are. Model figures for a level 1 pilot (whole run, minutes, with the swarm waves counted and the optional N.U.K.E. wave fought with lasers; the 0.5.5 column is the gates as they were, without swarm waves):
+
+| Gate | The gate's window | 0.5.5 | 0.5.6 | Speedrun (clear within) and the Laser tech level that earns it |
+|---|---|---|---|---|
+| Alpha Rift | 10 to 15 | 10.4 | **10.1** | 10 minutes, level 26 |
+| Beta Breach | 15 to 25 | 19.3 | **16.7** | 15 minutes, level 44 |
+| Gamma Foundry | 25 to 35 | 30.1 | **25.1** | 25 minutes, level 3 |
+| Delta Siege | 35 to 45 | 42.2 | **35.6** | 35 minutes, level 8 |
+| Omega Vault | 50 to 60 | 57.1 | **47.3** | 50 minutes, level 1 |
+
+Omega's run is now under its own window, and the speedrun achievements of Gamma, Delta and Omega (a clear within 25 / 35 / 50 minutes) are earned within the first levels of Laser tech (Omega's from level 1); Alpha's and Beta's still need a trained laser. The swarm waves moved two gates' ordinary aliens: **Alpha's aliens arrive 11.5 % more slowly** (0.52 to 0.46 a second, which keeps the run above its 10-minute minimum) and **Beta's ordinary aliens are 3.2 % tougher** (a factor of 1.60 instead of 1.55). The figures are the model's: nobody has cleared a gate on them.
+
+*Trade limits x2.* The Market's anti-abuse limits are exactly twice what they were, in Credits and in Thulium (Thulium is the Credits figure divided by 200): the daily sale and purchase limits of every level, and the limit for one pair of pilots in 24 hours.
+
+| Level | Daily limit before (Credits) | Now (Credits) | Now (Thulium) |
+|---|---|---|---|
+| 5 | 4.5 million | **9 million** | 45,000 |
+| 6 | 6 million | **12 million** | 60,000 |
+| 7 | 7.5 million | **15 million** | 75,000 |
+| 8 | 8.5 million | **17 million** | 85,000 |
+| 9 | 10 million | **20 million** | 100,000 |
+| 10 to 12 | 15 million | **30 million** | 150,000 |
+| 13 to 20 | 20 million | **40 million** | 200,000 |
+| One pair of pilots, 24 h | 8 million Credits, 40,000 Thulium | **16 million Credits, 80,000 Thulium** | |
+
+The limits are read when the server starts and counted over a rolling 24 hours, so a pilot who has already traded part of his old limit has the new room at once. Slots, times, fees, free listings, the price band, rocket limits, Davidski and the clan bank and payout limits are unchanged.
+
+**Fixes**
+- **Cloaked enemies:** a cloaked ship was already hidden from strangers since 0.4.4 (the server sends only a red dot with a ring on the minimap, twice a second: no ship, name or lock). 0.5.6 adds a safety rule in the game so that a cloaked ship you may not see (not your own, not a company mate's, not a group mate's) is dropped from what the game draws, even if a server sent it. **Company mates and group mates still see each other's cloaked ships as ghosts**, and the **Chameleon stays fully invisible** (no dot). If a "visible enemy" report was a cloaked company mate, that is by design.
+- **Asteroid chunks are the damager's alone for 30 seconds.** A rock's chunks were reserved for the pilot they were laid for **and his clan**, so a clan mate who dealt no damage could take them and be paid. Now only the pilot they were laid for can take them for 30 seconds, then anybody can, and they are gone after 180 seconds as before. The Tesseract's private "Shared loot: your share N %" box was already the owner's alone for 10 minutes and is unchanged. Alien crates and swarm leaders' boxes keep the killer's clan right for 30 seconds, and a group mate who was in reach but dealt no damage is still paid a level share, by the group design.
+- **Clan dungeon choice windows no longer cover the fight.** "The zone is open: choose the reward" (three cards, a timer) and "Choose a temporary booster" are two small windows (232 points wide, one line a row: picture, name, amount, votes, your tick) on the right margin under the system toolbar; they are movable and closable, take no keys, and open by themselves once per vote or drop. While one is shut, the Clan dungeon window has a line with its clock and a Choose button. Long names are cut with an ellipsis (the full name is in the tip). French titles are shorter.
+- **The Skylab fits on the screen in 13 languages.** The upgrade, build and cost tables no longer push the Upgrade button out of the panel (French, German, Russian and Hungarian checked at 1024x576 and 1280x720); the module sheet's title is cut with an ellipsis and the details scroll between a fixed header and footer. About 15 other pages draw word tables the same old way and were not audited.
+- **Solo gate Build, after 0.5.5:** the tip of a Build button that waits for your built gate now says where to go ("You already have a gate built. Go in through its portal in your home sector, or abandon it first."); the jump through your portal trains Reflex's Jump like any portal; and the line "This gate belongs to" with the owner's name shows on any map, not only the portal's.
+- **The Ranking window** on a regional server says "The ranking could not be read from the main server." with Retry when the main server gives no answer (it showed a bare network error). We found no route that makes the Hall of Fame work only on Helsinki (the in-flight Ranking window has asked the main server since 0.5.4; a game older than that is the probable cause of that report).
+- **Regional servers:** the servers now report how many monsters each world holds, so we can compare Helsinki, Singapore and US East live. On a pair of test servers the counts were identical. We found nothing on our side for the "Asia server not reachable" report (it is the same program as US East, and the check got an answer) and nothing that makes swarms or monster counts differ between servers; the server list now names the cause of a failed connection.
+- **Auto link for Steam and the Steam achievement list:** see Steam.
+
+**Graphics**
+- **Auras are redrawn, with four new black hole auras;** exhaust trails are redrawn; skins are richer; laser bolts light the hulls they pass.
+- **The Auto graphics preset follows the frame rate.**
+- **Crowds are cheaper:** far ships are drawn as one mesh, drones are batched, and there are fewer stalls when many ships arrive at once. A ship may show a plain tint for a moment before its skin.
+- **Measured in a real window on a busy Windows PC (100 % CPU: the worst case):** the middle frame took 9.6 ms in a still view (95 % under 14.9 ms) and 15.6 ms (95 % under 21.7 ms) while ships kept arriving and leaving, with 219 frames over 25 ms in 55 seconds and one 17-second hitch we think came from a disk write on that PC. On a calm Mac mini (Metal) the same two tests took 2.9 and 3.7 ms. The 200-Seeker wave work and the mobile version are **not** in this release.
+
+**Steam**
+- **Ten achievements were never in the Steam list.** The Steam app was set up with 40 achievements (0.4.26) and the game awards 50. The missing ten are two hidden N.U.K.E. achievements and the eight Galaxy Gates achievements of 0.5.4. They were added to the base set and published on Steam on 12 November, so they are on Steam's list now (the two hidden ones show as hidden until earned). Before that the game could not set them in Steam. Nobody has yet watched one of them pop up in a real Steam client. The mirror now logs the name Steam refused and skips it for the run, retries a failed flow by itself (after 3, 10, 30, 60 and 120 seconds, then every 5 minutes, at most 12 times), and while you fly on a regional server it waits and catches up when the flight ends. Unlocks were already sent to Steam at once, in flight too; an unlinked account sends nothing, by design.
+- **A new account made in the Steam build links itself.** The registration form has a switch "Link to my Steam account" (on by default, shown only in the Steam build with Steam running) with a sentence saying what the server keeps; the first sign-in after the registration runs the link with the password you just typed (it is not stored). Existing accounts are never linked automatically; Settings > Account still has Unlink.
+- **Not verified:** all of the Steam behaviour was tested with a **fake Steam**. Real achievements against Steam, Steam's pop-up and the whole link typed through the form on a server were not run.
+
+**Things you might notice**
+- New pilots clear the solo gates faster (table above) and a level 1 laser does 0.80 instead of 0.64.
+- Antimatter pays about 4 XP per N.I.K.E. shot (about 100 per 25).
+- Clan chat is kept 14 days (200 lines) and you read it when you connect.
+- Mines never expire: 150 a map, 365 units apart.
+- A misfired rocket looks and sounds different; aliens never dodge rockets (they never did).
+- Tier I rockets are gone from the Auction's own lots; Tier II and III replace them.
+- A rocket can hit a company mate where a laser could, and a destroyed mate costs 100 honor.
+- Ships are faster and carry more lasers; a Storm has one core slot fewer; the Ironclad is slower.
+- Trade limits are twice as high; gate kills count for the big Challenge hunts; the Skills sheet has no sidebar.
+
+**Already fixed since 0.5.5 by the server hotfix of 2026-11-12**
+
+Two server fixes went live on 12 November (Helsinki, Singapore and US East; the game version stayed 0.5.5). They are part of this release's code, so nothing changes for you at the release. (1) **A N.U.K.E. into the 250-Seeker wave of Delta or Omega, or any burst that kills about 200 ships in one tick, no longer cuts everybody on the map off** ("Connection lost"): the server gave up the connections of every pilot on the map when 750 messages arrived in one tick; it now gives up only a backlog that stays for 5 seconds or passes ten times the limit at once. The server itself never crashed. (2) **The login calendar's old gifts are replaced.** The running season's plan still held gifts of the old pool (for example Power Core x250 and x150 and Forge kits) on days not yet collected; the server replaced them from today on with a gift of the same size band (day 9's Power Core x250 became Experimental Fusion Core x200) and checks again at every start and every 15 minutes, so a later pool change cannot leave old gifts in a running calendar. Days you already collected are untouched.
 
 **If you already play**
-- Update the game; the server and the game go live together. A game from before 0.5.5 shows the old Enter button, which the server still refuses to a docked pilot: update.
-- Nothing is moved, paid or removed. A run that is already open (you entered in 0.5.4 and left) is shown with its portal on your home map; the parts you already paid stay paid.
-- Rockets already crafted or bought are not touched; the new prices are for the Shop and the Auction's reference values only.
+- Update the game; the server and the game go live together. A game from before 0.5.6 has neither new window, and its straight rockets and blasts can hit a company mate while its own lock still refuses one: update.
+- Nothing is moved, paid or removed: no Credits, Thulium or items. Your items take the new numbers (lasers, Crit Amps, Helios Beam slots) and your Skill levels stay; Shield absorption starts at level 1 for everybody. A pilot who had all 181 technologies shows 181/187 and keeps the Archivist achievement.
+- Mines lying on a map are cleared by the server restart. The Auction lots already made for the hour of the deploy (Tier I included) stay open and settle; the next hour follows the new day table.
+- Clan chat starts empty and fills as your clan talks.
 
 ## All releases
 
 Each line links the full notes of that release as Markdown (patchnotes/v<version>.md); its HTML page is patchnotes-v<version>.html.
 
+- [0.5.6](https://spacecorps.github.io/play/patchnotes/v0.5.6.md) · 2026-11-12 · A big patch.
 - [0.5.5](https://spacecorps.github.io/play/patchnotes/v0.5.5.md) · 2026-11-11 · A quick patch for 0.5.4: the five solo Galaxy Gates can be entered now.
 - [0.5.4](https://spacecorps.github.io/play/patchnotes/v0.5.4.md) · 2026-11-11 · The balance patch and the first release of the Pilot Skill Tree, the six Galaxy Gates and Mines.
 - [0.5.3](https://spacecorps.github.io/play/patchnotes/v0.5.3.md) · 2026-11-09 · The patch for the regional servers.

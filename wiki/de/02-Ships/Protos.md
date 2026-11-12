@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Die Protos ist das einfache Startschiff, das jeder neue Pilot in SpaceCorps beko
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 8.000
-- **Grundtempo**: 180
+- **Grundtempo**: 190
 - **Laser-Slots**: 2
 - **Extra-Slots**: 2
 

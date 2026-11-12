@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: 선체 장갑 -->
 # 선체 장갑 {#hull-plating}
 
@@ -43,7 +43,7 @@ Hull Plating I은 구매합니다. **II와 III는 업그레이드입니다.** �
 | 함선 | 장갑 슬롯 | Hull Plating III 한 벌이 더하는 선체 |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125,000 |
-| **Storm** | 7 | 175,000 |
+| **Storm** | 8 | 200,000 |
 | **Ironclad** | 15 | 375,000 |
 | **Wraith** | 10 | 250,000 |
 

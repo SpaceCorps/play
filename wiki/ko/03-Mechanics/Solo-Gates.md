@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
@@ -84,13 +84,15 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ## 들어가기 {#going-in}
 
-게이트는 갤럭시 게이트 페이지에서 **건설**하고, 그 포털로 **점프해 들어갑니다**. 건설은 스테이션에서, 함선을 도킹한 채로 할 수 있으며 비행 중일 필요가 없습니다. 다음이 필요합니다.
+게이트는 갤럭시 게이트 페이지에서 **건설**하고, 그 포털로 **점프해 들어갑니다**. 건설은 스테이션에서 함선을 도킹한 채로 할 수 있고, 비행 중에도 할 수 있습니다. 툴바의 게이트 버튼으로 여는 **갤럭시 게이트 창**에서 페이지와 똑같이 스핀, 건설, 목적지 선택을 할 수 있습니다. 다음이 필요합니다.
 
 - 게이트의 부품이 있어야 합니다. 부품은 **건설할 때 한 번** 가져가며, 거부된 건설은 아무것도 가져가지 않습니다.
 - 열려 있는 다른 솔로 런이 없어야 합니다. 런은 한 번에 하나만 가질 수 있고, 떠난 런은 다른 게이트를 건설하기 전에 포털로 다시 들어가거나 포기해야 합니다.
 - 홈 서버에 있어야 합니다(지역 서버에는 게이트가 없습니다).
 
 건설한 게이트는 당신의 **기지 섹터**(기업에 따라 `M-1`, `T-1`, `G-1`)에 게이트 이름이 붙은 포털로 서 있으며, 어디에 있는지는 갤럭시 게이트 페이지가 알려 줍니다. **출격해서 포털까지 날아가 점프**하면 됩니다. 다른 포털과 같습니다. 들어갈 때 월드에 빈 균열이 있어야 합니다. 월드마다 균열이 일정 수 있으며, 모두 사용 중이면 기다립니다.
+
+**지역 서버에서 (Singapore, US East).** 게이트 자체는 홈 서버에 남습니다. 지역 서버에서는 아무것도 건설하거나 플레이하거나 보상받지 않습니다. 그래도 건설한 게이트는 그곳에서도 잊히지 않습니다. 도착할 때 그 사실을 알려 주고, 게이트의 포털은 그곳에서도 당신의 기지 섹터에 서 있습니다. 그 포털로 점프하면 홈 서버로 돌아가며, 거기서 위와 같이 게이트로 출격하면 됩니다.
 
 텅 빈 경기장 한가운데에 혼자 내립니다. 안에서는 누구도 당신을 공격할 수 없고, Jump CPU와 Base CPU는 작동하지 않습니다.
 
@@ -110,16 +112,18 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 외계인은 게임의 그 외계인(Seeker, Phantasm, Bulwark, Goombah, Crystalys)이며 게이트에 따라 더 단단하게 또는 더 무르게 조정됩니다. 계획 시간은 레이저 기술이 시작 레벨인 파일럿에게 게이트가 걸리도록 만들어진 시간입니다([파일럿 스킬](/wiki/03-Mechanics/Pilot-Skills.md)). 레이저 기술을 올린 파일럿은 더 일찍 끝냅니다.
 
+일부 웨이브에는 **무리**가 나옵니다. 게임의 보스 NPC(Boss Seeker, Boss Phantasm, Boss Goombah 또는 Boss Crystalys)가 호위대를 거느리고 하나의 집단으로 공격합니다. 무리의 모든 함선은 그 웨이브의 일부이며, 마지막 함선이 파괴되면 웨이브가 끝납니다. 보상은 웨이브의 다른 함선과 같이 [외계인 표](#the-aliens)의 수치대로 지급됩니다. **보스 NPC는 게임의 섹터에서와 똑같이 전리품을 떨어뜨립니다**. 광석, 플레이트, 탄약, 로켓입니다(무엇을 떨어뜨리는지는 [무리의 페이지](/wiki/05-Swarms/Swarms.md)에 있습니다). 게이트에는 주워야 할 상자가 없습니다. 전리품은 보상과 함께 바로 인벤토리로 들어오며, 보상처럼 런마다 한 번만 들어옵니다. 호위대는 게이트에서도 섹터에서도 아무것도 떨어뜨리지 않고, 보스를 치료하지도 돌아오지도 않습니다. 각 게이트의 어느 웨이브에 무리가 나오는지는 아래의 표에 나와 있습니다.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| 게이트 | 웨이브 수(보스 포함) | 웨이브의 외계인 | 보스 | 계획 시간 |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10~15 분 |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15~25 분 |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25~35 분 |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35~45 분 |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50~60 분 |
+| 게이트 | 웨이브 수(보스 포함) | 웨이브의 외계인 | 보스 NPC와 무리 | 보스 | 계획 시간 |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | 웨이브 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10~15 분 |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | 웨이브 4: 2 Seeker Swarm; 웨이브 9: 1 Phantasm Swarm | Enhanced Bulwark | 15~25 분 |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | 웨이브 4: 1 Phantasm Swarm; 웨이브 9: 1 Goombah Swarm; 웨이브 14: 1 Goombah Swarm | Elite Crystalys | 25~35 분 |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | 웨이브 5: 2 Phantasm Swarm; 웨이브 10: 2 Goombah Swarm; 웨이브 15: 1 Goombah Swarm; 웨이브 20: 1 Crystalys Swarm | Siege Construct | 35~45 분 |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | 웨이브 6: 1 Goombah Swarm; 웨이브 11: 2 Goombah Swarm; 웨이브 16: 1 Crystalys Swarm; 웨이브 22: 1 Phantasm Swarm | Omega Guardian | 50~60 분 |
 
 - **Delta Siege**: 웨이브 18(250 Seeker)은 선택입니다. 카운트다운 중에 건너뛸 수 있으며 아무것도 지급하지 않습니다
 - **Omega Vault**: 웨이브 17(250 Seeker)은 선택입니다. 카운트다운 중에 건너뛸 수 있으며 아무것도 지급하지 않습니다; 웨이브 22~24은 엘리트이며 선체, 실드, 피해가 ×1.5입니다
@@ -182,7 +186,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ### 외계인 {#the-aliens}
 
-게이트에서 처치한 외계인은 어느 월드를 날든 Alpha에서의 수치로 지급합니다. 월드 배율, 부스터, 프리미엄 보너스는 영향을 주지 않습니다. 웨이브는 외계인에 대한 보상을 런마다 **한 번만** 지급하며, 몇 번을 떠났다 돌아와도 같습니다. 보상은 런의 각 구간이 끝날 때 지급됩니다. 떠날 때, 죽을 때, 목숨이 다할 때, 포기할 때, 클리어할 때입니다. 구간의 처치가 지급되지 않는 경우는 초기화와, 안에 있는 동안 서버가 재시작될 때뿐입니다(런은 열린 채로 남지만 그 구간의 처치는 사라집니다). 게이트에서의 처치는 다른 어디에도 집계되지 않습니다. 미션, 처치 통계, 도전 과제 카운터, 킬 피드, 드론과 P.E.T.의 경험치 어디에도 들어가지 않습니다. 다만 처치가 지급하는 경험치는 클리어의 경험치처럼 PvE 랭킹 포인트에 들어갑니다. 외계인의 전리품은 보상과 함께 바로 인벤토리로 들어옵니다.
+게이트에서 처치한 외계인은 어느 월드를 날든 Alpha에서의 수치로 지급합니다. 월드 배율, 부스터, 프리미엄 보너스는 영향을 주지 않습니다. 웨이브는 외계인에 대한 보상을 런마다 **한 번만** 지급하며, 몇 번을 떠났다 돌아와도 같습니다. 보상은 런의 각 구간이 끝날 때 지급됩니다. 떠날 때, 죽을 때, 목숨이 다할 때, 포기할 때, 클리어할 때입니다. 구간의 처치가 지급되지 않는 경우는 초기화와, 안에 있는 동안 서버가 재시작될 때뿐입니다(런은 열린 채로 남지만 그 구간의 처치는 사라집니다). 게이트에서의 처치는 **섹터를 지정하지 않는** [미션](/wiki/03-Mechanics/Quests.md#where-it-counts)(도전 과제 라인의 큰 사냥 등)에 처치하는 순간 집계됩니다(웨이브는 보상이 한 번만 지급되듯이 런마다 **한 번만** 집계됩니다). 그 밖의 어디에도 집계되지 않습니다. 처치 통계, 도전 과제 카운터, 킬 피드, 드론과 P.E.T.의 경험치 어디에도 들어가지 않습니다. 다만 처치가 지급하는 경험치는 클리어의 경험치처럼 PvE 랭킹 포인트에 들어갑니다. 외계인의 전리품은 보상과 함께 바로 인벤토리로 들어옵니다.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Bulwark** | 5,000 | 25 | 800 | 10 |
 | **Goombah** | 15,000 | 75 | 3,000 | 24 |
 | **Crystalys** | 75,000 | 200 | 12,000 | 52 |
+| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | 게이트 | 크레딧 | Thulium | 경험치 | 명예 |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540,000 | 2,160 | 54,000 | 1,080 |
-| **Beta Breach** | 1,320,000 | 5,980 | 186,000 | 2,520 |
-| **Gamma Foundry** | 3,000,000 | 13,300 | 522,000 | 4,616 |
-| **Delta Siege** | 4,975,000 | 21,400 | 829,000 | 7,640 |
-| **Omega Vault** | 6,875,000 | 29,000 | 1,160,000 | 10,100 |
+| **Alpha Rift** | 514,000 | 2,099 | 55,296 | 1,018 |
+| **Beta Breach** | 1,298,500 | 5,939 | 187,744 | 2,470 |
+| **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
+| **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
+| **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
 
 <!-- solo-kills:end -->
 

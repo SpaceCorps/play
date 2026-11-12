@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Escudos -->
 # Mecánicas de los escudos {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 - **Shield Absorbance Boost**: una mejora permanente de la Tienda de temporada que se compra con puntos de reinicio, **+0,1 puntos por nivel, como mucho +10 puntos** (100 niveles, 25 PR cada uno). Suma puntos fijos a la absorción de tu nave, los mismos en cualquier nave con escudo: el 91 % pasa a 91,4 % con 4 niveles (100 PR), y el 45 % de un Light Shield Core pasa a 46,2 % con 12 niveles (300 PR). Una nave sin escudo equipado se queda en el 0 %. Los 100 niveles cuestan 2.500 PR, una meta para varios reinicios: las fuentes de puntos de reinicio (los hitos de derribos, las misiones y las cinco investigaciones Dormant Knowledge) pagan hasta 1.105 PR por reinicio y empiezan de nuevo en cada reinicio, tu rango suma de 5 a 400 en el reinicio, y 1.105 compran 44 niveles, +4,4 puntos. Consulta [Temporada y puntos de reinicio](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Forja**: los escudos y las células de escudo pueden obtener una bonificación de **Absorción**, que multiplica la estadística: +5 % en un escudo del 55 % son +2,75 puntos. El mejor juego Eterno forjado al máximo (núcleo y tres células, con todas las bonificaciones en su valor más alto, +15 %) suma hasta 13,65 puntos, unos 11 de media (consulta [La Forja](/wiki/06-Items/Forge.md)).
 - **Field Theory**: la investigación de Piloto Field Theory I, II y III ([Investigación](/wiki/03-Mechanics/Research.md#pilot-technologies)) suma **+4, +7 y +10 puntos** a la absorción de todas tus naves, en total y no cada nivel encima del anterior, a cambio de créditos, Thulium y Dark Matter. Como la mejora de la Tienda de temporada, son puntos fijos en cualquier nave con escudo, y se conserva tras el reinicio.
+- **Absorción de escudo**: la [destreza de piloto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) suma hasta **+5 puntos** en el nivel 100 a la absorción que tu nave tiene por todo lo anterior, sin límite para el total: una nave con 119 % llega a 124 %, y una nave sin escudo equipado se queda en 0 %. No está en las cifras de **En conjunto**.
 - **En conjunto**: 91 % de serie, +4,4 puntos de la mejora (los 1.105 puntos de reinicio de un reinicio), hasta +13,65 puntos de bonificaciones de la Forja y +10 puntos de Field Theory III dan **119,05 %** como máximo tras un reinicio en una nave sencilla, sin [diseño](/wiki/03-Mechanics/Ship-Designs.md) ni [formación](/wiki/03-Mechanics/Formations.md); con los 100 niveles de la mejora (+10 puntos, 2.500 PR) sería un 124,65 %. Un diseño con +10 % de absorción de escudo (el Paragon BUCKY, el Ironclad DUMA y el Wraith ATARAXIS) y la formación Rampart (+17 %) multiplican la absorción de los escudos antes de sumar los puntos fijos de la mejora y de Field Theory, así que esa misma nave con ambos llega a **149,1 %** tras un reinicio (154,7 % con los 100 niveles). Cada una de las tres supera por sí sola el 100 %: la mejora en su límite y Field Theory III dan 101 %, un juego Eterno con todas las tiradas al máximo 104,65 %; un juego Eterno junto con Field Theory III llega a 109 a 115 %, y los niveles de la mejora se suman encima. Todas estas cifras cuentan solo las fuentes de puntos de reinicio, no los 5 a 400 puntos de reinicio que te paga tu rango en el reinicio y que compran más niveles de la mejora.
 
 ### Aumentos de escudo: capacidad, absorción y recarga {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Algunos ataques tienen **penetración de escudo**: puntos que se restan de tu ab
 Cada aumento de escudo sube una de las tres estadísticas y aparece en su propia categoría en la ventana Potenciadores:
 
 - **Capacidad** (puntos de escudo máximos): los potenciadores Shield Wall Booster I y II y la mejora permanente Shield Capacity Boost.
-- **Absorción** (la parte de un impacto que se llevan tus escudos): la mejora permanente Shield Absorbance Boost (+0,1 puntos por nivel, como mucho +10 puntos).
+- **Absorción** (la parte de un impacto que se llevan tus escudos): la mejora permanente Shield Absorbance Boost (+0,1 puntos por nivel, como mucho +10 puntos) y la destreza de piloto Absorción de escudo (hasta +5 puntos).
 - **Recarga** (puntos de escudo restaurados por segundo): el Shield Regen Booster.
 
 Consulta [Potenciadores](/wiki/06-Items/Boosters.md) para ver las cifras.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Soloportar -->
 # Soloportar {#solo-gates}
 
@@ -84,13 +84,15 @@ De flesta snurr hittar ingen del. Vart och ett betalar ett pris, valt efter chan
 
 ## Att gå in {#going-in}
 
-Du **bygger** en port på sidan Galaxportar och **hoppar in** genom dess portal. Man bygger från stationen, med skeppet dockat: du behöver inte flyga. Det krävs:
+Du **bygger** en port på sidan Galaxportar och **hoppar in** genom dess portal. Man bygger från stationen, med skeppet dockat, och även under flygning: **Galaxportar-fönstret**, som portknappen i verktygsfältet öppnar, snurrar, bygger och väljer destination som sidan gör. Det krävs:
 
 - portens delar: de tas **en gång, när du bygger den**, och ett nekat bygge tar ingenting;
 - ingen annan solo-omgång öppen: du har en omgång åt gången, och en omgång du lämnat går du in i igen genom dess portal eller ger upp innan du bygger en annan port;
 - hemservern (de regionala servrarna har inga portar).
 
 Den byggda porten står i din **hemsektor** (`M-1`, `T-1` eller `G-1`, efter din koncern) som en portal med dess namn, och sidan Galaxportar säger var den står. **Flyg ut, flyg till portalen och hoppa** genom den som genom vilken portal som helst. En spricka måste vara ledig i din värld när du går in: varje värld har ett antal av dem, och när alla är upptagna väntar du.
+
+**På de regionala servrarna (Singapore, US East).** Själva porten stannar på hemservern: på en regional server byggs, spelas och betalas ingenting. En byggd port glöms ändå inte där: du får veta det när du kommer, och portalen till din port står också där i din hemsektor. Hoppa genom den så förs du tillbaka till hemservern, där du flyger ut mot din port som ovan.
 
 Du landar ensam mitt i en tom arena. Ingen kan attackera dig i den, och Jump CPU och Base CPU fungerar inte.
 
@@ -110,16 +112,18 @@ Varje värld möter samma port: utomjordingarnas styrka och utbetalning beror in
 
 Utomjordingarna är spelets (Seeker, Phantasm, Bulwark, Goombah och Crystalys), gjorda hårdare eller mjukare av porten. Den planerade tiden är vad porten är byggd för att ta för en pilot på startnivån av Laserteknik ([Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md)); en pilot som har höjt Laserteknik blir klar tidigare.
 
+Vissa vågor för med sig en **svärm**: en boss-NPC från spelet (en Boss Seeker, Boss Phantasm, Boss Goombah eller Boss Crystalys) med sina vakter, som anfaller som en enda grupp. Varje skepp i en svärm hör till sin våg, och vågen tar slut när det sista av dem är dött. De betalar som vågens övriga skepp, med siffrorna i [tabellen över utomjordingarna](#the-aliens). **En boss-NPC tappar sitt byte som i spelets sektorer**: malm, plåtar, ammunition och raketer (vad var och en tappar står på [svärmarnas sidor](/wiki/05-Swarms/Swarms.md)). I en port finns ingen låda att plocka upp: bytet kommer med utbetalningen, rakt in i ditt inventarium, och bara en gång per omgång, som utbetalningen. Dess vakter tappar ingenting, varken i en port eller i sektorerna, och de varken läker sin boss eller kommer tillbaka. Tabellen nedan säger vilka vågor i varje port som för med sig en svärm.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Port | Vågor, bossens inräknad | Utomjordingar i vågorna | Boss | Planerad tid |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 till 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 till 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 till 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 till 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 till 60 min |
+| Port | Vågor, bossens inräknad | Utomjordingar i vågorna | Boss-NPC:er och svärmar | Boss | Planerad tid |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | våg 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 till 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | våg 4: 2 Seeker Swarm; våg 9: 1 Phantasm Swarm | Enhanced Bulwark | 15 till 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | våg 4: 1 Phantasm Swarm; våg 9: 1 Goombah Swarm; våg 14: 1 Goombah Swarm | Elite Crystalys | 25 till 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | våg 5: 2 Phantasm Swarm; våg 10: 2 Goombah Swarm; våg 15: 1 Goombah Swarm; våg 20: 1 Crystalys Swarm | Siege Construct | 35 till 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | våg 6: 1 Goombah Swarm; våg 11: 2 Goombah Swarm; våg 16: 1 Crystalys Swarm; våg 22: 1 Phantasm Swarm | Omega Guardian | 50 till 60 min |
 
 - **Delta Siege**: våg 18 (250 Seeker) är valfri: du kan hoppa över den medan dess nedräkning pågår, och den betalar ingenting
 - **Omega Vault**: våg 17 (250 Seeker) är valfri: du kan hoppa över den medan dess nedräkning pågår, och den betalar ingenting; vågorna 22 till 24 är elit, med ×1,5 skrov, sköld och skada
@@ -182,7 +186,7 @@ En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen 
 
 ### Utomjordingarna {#the-aliens}
 
-Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken värld du än flyger i: ingen världsmultiplikator, ingen booster och ingen Premium-bonus ändrar dem. En våg betalar för sina utomjordingar **en gång** per omgång, hur ofta du än går och kommer tillbaka. Utbetalningen kommer när varje avsnitt av omgången tar slut: när du lämnar, dör, får slut på liv, ger upp eller klarar den. Nedgörningarna i ett avsnitt förblir obetalda bara vid wipen och vid en omstart av servern medan du är inne (din omgång förblir öppen, men nedgörningarna i det avsnittet går förlorade). Nedgörningar i en port räknas för inget annat: inte för uppdragen, nedgörningsstatistiken, prestationernas räknare, dödsloggen eller dina drönares och P.E.T.s erfarenhet. Erfarenheten de betalar räknas däremot för dina PvE-rankingpoäng, som erfarenheten av en seger. Utomjordingarnas byte kommer med utbetalningen, rakt in i ditt inventarium.
+Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken värld du än flyger i: ingen världsmultiplikator, ingen booster och ingen Premium-bonus ändrar dem. En våg betalar för sina utomjordingar **en gång** per omgång, hur ofta du än går och kommer tillbaka. Utbetalningen kommer när varje avsnitt av omgången tar slut: när du lämnar, dör, får slut på liv, ger upp eller klarar den. Nedgörningarna i ett avsnitt förblir obetalda bara vid wipen och vid en omstart av servern medan du är inne (din omgång förblir öppen, men nedgörningarna i det avsnittet går förlorade). Nedgörningar i en port räknas för de [uppdrag](/wiki/03-Mechanics/Quests.md#where-it-counts) som inte anger någon sektor (som de stora jakterna i Utmaningslinjen), i samma stund som de sker (en våg räknas för dem **en gång** per omgång, så som den också betalar en gång), och för inget annat: inte för nedgörningsstatistiken, prestationernas räknare, dödsloggen eller dina drönares och P.E.T.s erfarenhet. Erfarenheten de betalar räknas däremot för dina PvE-rankingpoäng, som erfarenheten av en seger. Utomjordingarnas byte kommer med utbetalningen, rakt in i ditt inventarium.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken
 | **Bulwark** | 5 000 | 25 | 800 | 10 |
 | **Goombah** | 15 000 | 75 | 3 000 | 24 |
 | **Crystalys** | 75 000 | 200 | 12 000 | 52 |
+| **Boss Seeker** | 10 000 | 40 | 1 000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39 000 | 195 | 7 800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120 000 | 600 | 24 000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Port | Krediter | Thulium | XP | Heder |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540 000 | 2 160 | 54 000 | 1 080 |
-| **Beta Breach** | 1 320 000 | 5 980 | 186 000 | 2 520 |
-| **Gamma Foundry** | 3 000 000 | 13 300 | 522 000 | 4 616 |
-| **Delta Siege** | 4 975 000 | 21 400 | 829 000 | 7 640 |
-| **Omega Vault** | 6 875 000 | 29 000 | 1 160 000 | 10 100 |
+| **Alpha Rift** | 514 000 | 2 099 | 55 296 | 1 018 |
+| **Beta Breach** | 1 298 500 | 5 939 | 187 744 | 2 470 |
+| **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
+| **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
+| **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
 
 <!-- solo-kills:end -->
 

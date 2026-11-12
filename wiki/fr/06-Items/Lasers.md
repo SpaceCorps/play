@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dab929535f6b591d -->
+<!-- wiki-i18n source: 7c4b5382a5618e1a -->
 <!-- wiki-i18n title: Lasers -->
 # Lasers et munitions {#lasers-ammo}
 
@@ -58,11 +58,11 @@ Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Batter
 
 | Nom | Rareté | Dégâts de base | Taux critique | Portée | Empl. ampli | Coût |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser I** | Médiocre | 55 | 1 % | 600 | 1 | 8 000 crédits |
-| **Quantum Laser II** | Commun | 65 | 1 % | 700 | 2 | 80 000 crédits |
-| **Quantum Laser III** | Rare | 80 | 10 % | 800 | 3 | À fabriquer |
-| **Starfire-III** | Mythique | 135 | 15 % | 850 | 3 | À fabriquer |
-| **Helios Beam** | Mythique | 155 | 20 % | 900 | 3 | À fabriquer |
+| **Quantum Laser I** | Médiocre | 60 | 1 % | 600 | 1 | 8 000 crédits |
+| **Quantum Laser II** | Commun | 70 | 1 % | 700 | 2 | 80 000 crédits |
+| **Quantum Laser III** | Rare | 85 | 10 % | 800 | 3 | À fabriquer |
+| **Starfire-III** | Mythique | 140 | 15 % | 850 | 3 | À fabriquer |
+| **Helios Beam** | Mythique | 160 | 20 % | 900 | 4 | À fabriquer |
 
 La colonne Portée est celle de chaque laser. **Votre vaisseau tire à la moyenne des portées de ses lasers** (les lasers de vos drones comptent aussi), arrondie à l’unité la plus proche, et chaque laser tire dès que la cible se trouve à l’intérieur de cette distance. Un Starfire-III à côté de deux Quantum Laser II donne au vaisseau une portée de 750, et non de 850 ; trois Starfire-III gardent 850, et des lasers tous identiques ne changent rien. Un bonus de portée de la Forge compte sur son propre laser avant que la moyenne ne soit calculée. Sans laser, le hangar n’affiche aucune portée (un tiret) et les lasers ne peuvent pas tirer, mais vos roquettes le peuvent toujours, chacune avec sa propre portée (voir [Roquettes](/wiki/06-Items/Rockets.md)). Dans le hangar, la tuile indique « Portée moy. » quand vos lasers diffèrent, et son survol liste la portée de chaque laser.
 
@@ -102,7 +102,7 @@ Ce sont les aliens qui lâchent les Ship Fragments, la Cataclysite, les Power Co
 
 ## Amplificateurs laser (amplis) {#laser-amplifiers-amps-}
 
-Installez-les directement dans l’emplacement d’un laser pour augmenter ses caractéristiques. Il y a **trois gammes de quatre paliers**, nommées comme les cellules de bouclier : le **Damage Amp** ajoute un montant fixe de dégâts, le **Crit Amp** ajoute du taux critique et des dégâts critiques fixes, et le **Penetration Amp** retranche des points à l’absorption de votre cible ([plus bas](#shield-penetration-of-a-laser-hit)). Ce ne sont pas les [boosters](/wiki/06-Items/Boosters.md) : le **Laser Damage Booster I** et le **Laser Damage Booster II** sont des boosters à durée limitée (+10 % de dégâts laser pendant 10 heures), sans rien à installer.
+Installez-les directement dans l’emplacement d’un laser pour augmenter ses caractéristiques. Il y a **trois gammes de quatre paliers**, nommées comme les cellules de bouclier : le **Damage Amp** ajoute un montant fixe de dégâts, le **Crit Amp** ajoute du taux critique, des dégâts critiques fixes et un peu de dégâts fixes, et le **Penetration Amp** retranche des points à l’absorption de votre cible ([plus bas](#shield-penetration-of-a-laser-hit)). Ce ne sont pas les [boosters](/wiki/06-Items/Boosters.md) : le **Laser Damage Booster I** et le **Laser Damage Booster II** sont des boosters à durée limitée (+10 % de dégâts laser pendant 10 heures), sans rien à installer.
 
 | Nom | Rareté | Boost de dégâts | Boost de critique | Dégâts critiques fixes | Coût |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -110,10 +110,10 @@ Installez-les directement dans l’emplacement d’un laser pour augmenter ses c
 | **Damage Amp II** | Peu commun | +16 | +5 % | +8 | À fabriquer |
 | **Damage Amp III** | Rare | +26 | +6 % | +13 | À fabriquer |
 | **Damage Amp IV** | Épique | +38 | +7 % | +20 | À fabriquer |
-| **Crit Amp I** | Médiocre | +0 | +15 % | +0 | 15 000 crédits |
-| **Crit Amp II** | Peu commun | +0 | +20 % | +14 | À fabriquer |
-| **Crit Amp III** | Rare | +0 | +25 % | +24 | À fabriquer |
-| **Crit Amp IV** | Épique | +0 | +25 % | +44 | À fabriquer |
+| **Crit Amp I** | Médiocre | +5 | +15 % | +0 | 15 000 crédits |
+| **Crit Amp II** | Peu commun | +10 | +20 % | +14 | À fabriquer |
+| **Crit Amp III** | Rare | +15 | +25 % | +24 | À fabriquer |
+| **Crit Amp IV** | Épique | +20 | +30 % | +44 | À fabriquer |
 
 | Nom | Rareté | Pénétration de bouclier | Coût |
 | :--- | :--- | :---: | :--- |
@@ -133,11 +133,11 @@ Installez-les directement dans l’emplacement d’un laser pour augmenter ses c
 | Penetration Amp III | 2 000 | 60 s | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2 400 | 90 s | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-Un Helios Beam avec ses 3 amps du palier IV contient 4 pièces du dernier palier : 16 Dark Matter Plates, 80 Dark Matter, 40 roquettes N.I.K.E. en moyenne. Un Wraith avec le dernier palier dans chaque emplacement contient 1 280 Dark Matter ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Un Helios Beam avec ses 4 amps du palier IV contient 5 pièces du dernier palier : 20 Dark Matter Plates, 100 Dark Matter, 50 roquettes N.I.K.E. en moyenne. Un Wraith avec le dernier palier dans chaque emplacement contient 1 640 Dark Matter ([Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Quel ampli où {#which-amp-goes-where}
 
-Un ampli de dégâts ajoute les mêmes dégâts à n’importe quel laser, c’est donc sur les **lasers Quantum** qu’il vaut le plus. Un ampli critique multiplie ce que le laser fait déjà, il vaut donc d’autant plus que le laser frappe fort : il égale la gamme dégâts sur le **Starfire-III** et la devance d’environ 1,5 % sur le **Helios Beam**. Le taux critique d’un laser s’arrête à 100 % : trois Crit Amp III ou Crit Amp IV portent un Helios Beam (20 % en propre) à 95 %. Un Penetration Amp n’ajoute ni dégâts ni taux critique : il est pour les vaisseaux dont les boucliers prendraient sinon la plus grande part de votre tir ([plus bas](#when-is-a-penetration-amp-worth-a-slot)).
+Un ampli de dégâts ajoute les mêmes dégâts fixes à n’importe quel laser. Un ampli critique ajoute un peu de dégâts fixes en propre (de 5 à 20) et multiplie ce que le laser fait avec son taux critique ; à palier égal dans chaque emplacement, il l’emporte donc sur l’ampli de dégâts dès le palier II, sur tous les lasers : d’environ 19 % au palier II, 25 % au palier III et 30 à 43 % au palier IV (les lasers Quantum gagnent le plus). Au palier I, les deux sont proches : le **Damage Amp I** est un peu meilleur sur les **lasers Quantum** et le **Crit Amp I** un peu meilleur sur le **Starfire-III** et le **Helios Beam**. Le taux critique d’un laser s’arrête à 100 % : trois Crit Amp III portent un Helios Beam (20 % en propre) à 95 % et trois Crit Amp IV à 110 %, dix points de plus qu’il ne peut en utiliser. Un Penetration Amp n’ajoute ni dégâts ni taux critique : il est pour les vaisseaux dont les boucliers prendraient sinon la plus grande part de votre tir ([plus bas](#when-is-a-penetration-amp-worth-a-slot)).
 
 Garni du même ampli, un laser est toujours plus fort que celui du dessous, si bien qu’un meilleur ampli ne compense qu’une partie d’un meilleur laser : un Quantum Laser III avec trois Damage Amp IV fait plus de dégâts qu’un Helios Beam avec trois Damage Amp I, mais moins qu’un Helios Beam avec trois Damage Amp III, et la forge ne comble pas l’écart (un Quantum Laser III et des Damage Amp IV forgés au rang Éternel, avec les meilleurs tirages, restent un peu en dessous d’un Helios Beam ordinaire garni de Damage Amp III).
 
@@ -194,9 +194,9 @@ La **Dark Matter Ammo II** frappe à **x6**, mais seulement **une salve toutes l
 
 Chaque tir laser retranche des points à l’absorption de votre cible, de trois sources au plus qui s’additionnent : vos **munitions** (Ultra Core 5 %, Experimental Fusion Core 10 %, Antimatter Battery 20 %), vos **Penetration Amps** et une **formation de drones** (Gemini +15 % ; [Formations de drones](/wiki/03-Mechanics/Formations.md)). **Rien ne plafonne le total** (une roquette directe ajoute sa propre pénétration et celle de la formation de la même façon : [Roquettes](/wiki/06-Items/Rockets.md)). Les boucliers encaissent alors l’absorption de la cible moins la pénétration du tir, la coque le reste ([Mécaniques des boucliers](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser font 60 % ; un Penetration Amp IV dans un laser sur treize fait environ 1,5 %. Un Wraith a 13 lasers et 39 emplacements d’ampli, et il faut remplir les 39 pour atteindre 60 %.
+- **Vos amplis comptent comme la moyenne de vos lasers.** Une salve est un seul tir : le jeu additionne la pénétration des amplis de chaque laser (les lasers de vos drones comptent aussi) et prend la moyenne de vos lasers, chacun pesant selon ses dégâts, comme pour le taux critique. Trois Penetration Amp IV dans chaque laser à trois emplacements font 60 % (quatre dans chaque Helios Beam font 80 %) ; un Penetration Amp IV dans un laser sur quatorze fait environ 1,4 %. Un Wraith a 14 emplacements de laser, soit 42 emplacements d’ampli avec des lasers à trois et 56 avec des Helios Beams, et il faut tous les remplir pour atteindre 60 % (80 % avec des Helios Beams).
 - **Le Hangar l’affiche.** Les stats de combat du Hangar ont sur chaque vaisseau une tuile **Pénétration** avec le chiffre des amplis laser de la configuration affichée (0,0 % sans Penetration Amp) ; les munitions et la formation n’y figurent pas. La fenêtre **Vaisseau** en vol a une pastille **Pénétration** au bout de sa ligne du bas (les pastilles de configuration et de vitesse n’affichent qu’une icône et un chiffre pour lui faire de la place) : elle affiche le total d’un tir laser, vos amplis, la formation portée et les munitions tirées, additionnés dès que vous changez quelque chose, et son info-bulle liste les trois parts.
-- **Le meilleur laser fait 85 % avec du x4, 95 % avec de l’Antimatter.** Un Experimental Fusion Core (10 %), un Gemini (15 %) et trois Penetration Amp IV dans chaque laser (60 %) font 85 % ; une Antimatter Battery (20 %) à sa place fait 95 %, à x3 de dégâts au lieu de x4.
+- **Le meilleur laser fait 85 % avec du x4, 95 % avec de l’Antimatter, avec trois amplis dans chaque laser.** Un Experimental Fusion Core (10 %), un Gemini (15 %) et trois Penetration Amp IV dans chaque laser (60 %) font 85 % ; une Antimatter Battery (20 %) à sa place fait 95 %, à x3 de dégâts au lieu de x4. Un Helios Beam a un quatrième emplacement : quatre Penetration Amp IV dans chaque Helios Beam, avec le Fusion Core et le Gemini, font 105 %, plus que ce qu’un bouclier peut offrir.
 - **Un bonus de Forge sur un Penetration Amp IV compte.** Un Penetration Amp se forge comme les autres amplis, et son unique bonus multiplie la pénétration : un bonus Éternel (+9 % à +15 %) fait d’un Penetration Amp IV 21,8 à 23 points au lieu de 20. Dans la meilleure configuration, trois amplis Éternels font 94 %, et chaque point compte.
 
 | Salve laser | Munitions | Amplis (3 emplacements) | Formation | Total |
@@ -227,8 +227,8 @@ Le meilleur laser vide tous les noyaux de bouclier, avec leur meilleure cellule 
 
 ### Quand un Penetration Amp vaut-il un emplacement ? {#when-is-a-penetration-amp-worth-a-slot}
 
-**Un Penetration Amp contre l’absorption, et plus elle est haute, plus il compte : face à un vaisseau à petite coque vers 108 % (configurations Boutique de saison, Forge et Rampart), un jeu de Penetration tue environ 12 fois plus vite que le meilleur jeu simple, et face au meilleur bouclier de série (91 %), un trio de Penetration Amps met environ 50 % de temps en moins qu’un trio de Crit Amps du même palier. Face aux aliens, il gagne jusqu’à 20 % contre un Phantasm ou un Goombah et rien contre un Bulwark ou un Crystalys.**
+**Un Penetration Amp contre l’absorption, et plus elle est haute, plus il compte : face à un vaisseau à petite coque vers 108 % (configurations Boutique de saison, Forge et Rampart), un jeu de Penetration tue environ 10 fois plus vite que le meilleur jeu simple, et face au meilleur bouclier de série (91 %), un trio de Penetration Amps met environ 37 % de temps en moins qu’un trio de Crit Amps du même palier. Face aux aliens, il gagne environ 10 % contre un Phantasm ou un Goombah avec un Gemini et rien contre un Seeker, un Bulwark ou un Crystalys.**
 
-- **Il ne donne aucun dégât.** Sur un Helios Beam, trois Penetration Amp IV font 153 dégâts par salve (munitions x1, la moyenne du tirage et des critiques), là où trois Damage Amp IV en font 314 et trois Crit Amp IV 319 : environ la moitié. Ce qu’il rachète, c’est la part du bouclier ; il rapporte donc le plus là où la coque est petite à côté du bouclier et l’absorption élevée ; face à un Wraith ou un Ironclad sur le meilleur bouclier de série, dont la grande coque tient plus longtemps, il gagne jusqu’à 38 %, et un Ironclad dont les boucliers dépassent 100 % grâce aux bonus se combat toujours mieux avec un jeu simple de Crit.
-- **Aliens.** Leurs boucliers encaissent 80 % d’un tir moins votre pénétration, et le meilleur laser (85 %) les traverse en entier, donc il agit aussi sur eux : un Penetration Amp fait partie du meilleur jeu contre un Phantasm ou un Goombah, avec une formation ou sans (il gagne de 11 à 20 %), et contre un Seeker avec un Gemini (8 %). Un Damage Amp ou un Crit Amp du palier tue toujours un Bulwark ou un Crystalys aussi vite ou plus vite.
-- **Ce qu’il coûte.** Chaque Penetration Amp IV prend 4 Dark Matter Plates (20 Dark Matter), comme tout ampli du palier IV ; un Wraith qui remplit ses 39 emplacements demande donc 156 plates, 780 Dark Matter.
+- **Il ne donne aucun dégât.** Sur un Helios Beam, trois Penetration Amp IV font 158 dégâts par salve (munitions x1, la moyenne du tirage et des critiques), là où trois Damage Amp IV en font 319 et trois Crit Amp IV 416 : la moitié du premier et un peu plus d’un tiers du second. Ce qu’il rachète, c’est la part du bouclier ; il rapporte donc le plus là où la coque est petite à côté du bouclier et l’absorption élevée ; face à un Wraith ou un Ironclad sur le meilleur bouclier de série, dont la grande coque tient plus longtemps, il gagne jusqu’à 20 %, et un Ironclad dont les boucliers dépassent 100 % grâce aux bonus se combat toujours mieux avec un jeu simple de Crit.
+- **Aliens.** Leurs boucliers encaissent 80 % d’un tir moins votre pénétration, et le meilleur laser (85 %) les traverse en entier, donc il agit aussi sur eux : un Penetration Amp fait partie du meilleur jeu contre un Phantasm ou un Goombah quand vous portez un Gemini (il gagne environ 10 %). Contre un Seeker, un Bulwark ou un Crystalys, un jeu de Crit Amps du palier tue aussi vite ou plus vite.
+- **Ce qu’il coûte.** Chaque Penetration Amp IV prend 4 Dark Matter Plates (20 Dark Matter), comme tout ampli du palier IV ; un Wraith qui remplit ses 56 emplacements demande donc 224 plates, 1 120 Dark Matter.

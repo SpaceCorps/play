@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Le Nomad est un croiseur avec presque deux fois la coque et deux fois les canons d’un Ostirion : une tête de marteau entre l’Ostirion et le Paragon, qui s’achète à la boutique avec des crédits et du Thulium à la fois. Tout pilote peut l’acheter.
+Le Nomad est un croiseur avec presque deux fois la coque d’un Ostirion et deux canons de plus : une tête de marteau entre l’Ostirion et le Paragon, qui s’achète à la boutique avec des crédits et du Thulium à la fois. Tout pilote peut l’acheter.
 
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 111 000
-- **Vitesse de base** : 210
-- **Emplacements laser** : 6
+- **Vitesse de base** : 240
+- **Emplacements laser** : 7
 - **Emplacements extras** : 2
 
 ### Emplacements de générateur et de soutien {#generator-support-slots}

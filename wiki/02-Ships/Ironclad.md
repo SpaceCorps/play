@@ -5,7 +5,7 @@ The Ironclad is a heavy armored tank: the thickest hull of any ship and the most
 ## Stats
 
 - **Hitpoints (HP)**: 500,000
-- **Base Speed**: 110
+- **Base Speed**: 100
 - **Laser Slots**: 8
 - **Extra Slots**: 3
 - **Hull Plate Slots**: 15

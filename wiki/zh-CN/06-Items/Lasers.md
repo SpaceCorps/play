@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dab929535f6b591d -->
+<!-- wiki-i18n source: 7c4b5382a5618e1a -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -58,11 +58,11 @@ Siphon Battery => Siphon Battery II => Antimatter Battery I => Antimatter Batter
 
 | 名称 | 稀有度 | 基础伤害 | 暴击率 | 射程 | 增幅器槽位 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser I** | 劣质 | 55 | 1% | 600 | 1 | 8,000 信用点 |
-| **Quantum Laser II** | 普通 | 65 | 1% | 700 | 2 | 80,000 信用点 |
-| **Quantum Laser III** | 稀有 | 80 | 10% | 800 | 3 | 仅可制造 |
-| **Starfire-III** | 神话 | 135 | 15% | 850 | 3 | 仅可制造 |
-| **Helios Beam** | 神话 | 155 | 20% | 900 | 3 | 仅可制造 |
+| **Quantum Laser I** | 劣质 | 60 | 1% | 600 | 1 | 8,000 信用点 |
+| **Quantum Laser II** | 普通 | 70 | 1% | 700 | 2 | 80,000 信用点 |
+| **Quantum Laser III** | 稀有 | 85 | 10% | 800 | 3 | 仅可制造 |
+| **Starfire-III** | 神话 | 140 | 15% | 850 | 3 | 仅可制造 |
+| **Helios Beam** | 神话 | 160 | 20% | 900 | 4 | 仅可制造 |
 
 “射程”一列是每把激光自己的射程。**你的舰船以所有激光射程的平均值开火**（无人机中的激光也计入），四舍五入取整，目标一进入这个距离，每把激光就会开火。一把 Starfire-III 加两把 Quantum Laser II，舰船的射程是 750，而不是 850；三把 Starfire-III 则保持 850，而全都相同的激光不会带来任何变化。锻造炉的射程加成会在取平均值之前先计入其所在的那把激光。没有激光时，机库不显示射程（只有一条短横线），激光无法开火，但你的火箭仍然可以，每枚各有自己的射程（见[火箭](/wiki/06-Items/Rockets.md)）。在机库中，当你的激光射程不一致时，对应的图块会写着“平均射程”，把鼠标悬停在上面会列出每把激光的射程。
 
@@ -102,7 +102,7 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 
 ## 激光增幅器（Amp） {#laser-amplifiers-amps-}
 
-把它们直接装入激光的槽位，以增强激光的特性。共有**三个系列，每个四阶**，命名方式和护盾电池一样：**Damage Amp** 增加固定数值的伤害，**Crit Amp** 增加暴击率和固定暴击伤害，**Penetration Amp** 则从目标的吸收率中扣除点数（[见下文](#shield-penetration-of-a-laser-hit)）。它们不是[增益](/wiki/06-Items/Boosters.md)：**Laser Damage Booster I** 和 **Laser Damage Booster II** 是有时限的增益（10 小时内 +10% 激光伤害），没有东西可装。
+把它们直接装入激光的槽位，以增强激光的特性。共有**三个系列，每个四阶**，命名方式和护盾电池一样：**Damage Amp** 增加固定数值的伤害，**Crit Amp** 增加暴击率、固定暴击伤害和少量固定伤害，**Penetration Amp** 则从目标的吸收率中扣除点数（[见下文](#shield-penetration-of-a-laser-hit)）。它们不是[增益](/wiki/06-Items/Boosters.md)：**Laser Damage Booster I** 和 **Laser Damage Booster II** 是有时限的增益（10 小时内 +10% 激光伤害），没有东西可装。
 
 | 名称 | 稀有度 | 基础伤害提升 | 暴击率提升 | 固定暴击伤害 | 费用 |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -110,10 +110,10 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 | **Damage Amp II** | 优秀 | +16 | +5% | +8 | 仅可制造 |
 | **Damage Amp III** | 稀有 | +26 | +6% | +13 | 仅可制造 |
 | **Damage Amp IV** | 史诗 | +38 | +7% | +20 | 仅可制造 |
-| **Crit Amp I** | 劣质 | +0 | +15% | +0 | 15,000 信用点 |
-| **Crit Amp II** | 优秀 | +0 | +20% | +14 | 仅可制造 |
-| **Crit Amp III** | 稀有 | +0 | +25% | +24 | 仅可制造 |
-| **Crit Amp IV** | 史诗 | +0 | +25% | +44 | 仅可制造 |
+| **Crit Amp I** | 劣质 | +5 | +15% | +0 | 15,000 信用点 |
+| **Crit Amp II** | 优秀 | +10 | +20% | +14 | 仅可制造 |
+| **Crit Amp III** | 稀有 | +15 | +25% | +24 | 仅可制造 |
+| **Crit Amp IV** | 史诗 | +20 | +30% | +44 | 仅可制造 |
 
 | 名称 | 稀有度 | 护盾穿透 | 费用 |
 | :--- | :--- | :---: | :--- |
@@ -133,11 +133,11 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 | Penetration Amp III | 2,000 | 60 秒 | 30 个 Nyxite、20 个 Cataclysite、2 个 Power Core、50 个 Ship Fragment、2 块 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2,400 | 90 秒 | 40 个 Quorvium、30 个 Cataclysite、1 个 Power Core、1 个 Ancient Control Unit、4 块 Dark Matter Plate |
 
-一把带有 3 个 IV 阶增幅器的 Helios Beam 含有 4 件最后一阶的部件：16 块 Dark Matter Plate、80 个 Dark Matter，平均相当于 40 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,280 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+一把带有 4 个 IV 阶增幅器的 Helios Beam 含有 5 件最后一阶的部件：20 块 Dark Matter Plate、100 个 Dark Matter，平均相当于 50 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,640 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
 
 ### 哪种增幅器装在哪里 {#which-amp-goes-where}
 
-伤害增幅器给任何激光增加的伤害都一样，所以装在 **Quantum 系列激光**上最划算。暴击增幅器放大的是激光本来的输出，所以激光打得越重，它就越值：在 **Starfire-III** 上它与伤害系持平，在 **Helios Beam** 上则领先约 1.5%。激光的暴击率上限是 100%：三个 Crit Amp III 或 Crit Amp IV 能把本身有 20% 的 Helios Beam 推到 95%。Penetration Amp 既不增加伤害也不增加暴击率：它是给那些护盾本会承受你大部分命中的舰船用的（[见下文](#when-is-a-penetration-amp-worth-a-slot)）。
+伤害增幅器给任何激光增加的固定伤害都一样，所以装在 **Quantum 系列激光**上最划算。暴击增幅器自带少量固定伤害（5 到 20），还会用暴击率放大激光本来的输出，所以每个槽位阶数相同时，从 II 阶起它在每把激光上都胜过伤害增幅器：II 阶约领先 19%，III 阶 25%，IV 阶 30% 到 43%（Quantum 系列激光获益最多）。I 阶时两者接近：**Damage Amp I** 在 **Quantum 系列激光**上稍好，**Crit Amp I** 在 **Starfire-III** 和 **Helios Beam** 上稍好。激光的暴击率上限是 100%：三个 Crit Amp III 能把本身有 20% 的 Helios Beam 推到 95%，三个 Crit Amp IV 则是 110%，多出的 10 个百分点用不上。Penetration Amp 既不增加伤害也不增加暴击率：它是给那些护盾本会承受你大部分命中的舰船用的（[见下文](#when-is-a-penetration-amp-worth-a-slot)）。
 
 装上同样的增幅器时，一把激光总是比低一级的那把更强，所以更好的增幅器只能弥补更好激光的一部分：装了三个 Damage Amp IV 的 Quantum Laser III，输出高于装了三个 Damage Amp I 的 Helios Beam，但低于装了三个 Damage Amp III 的 Helios Beam，而且锻造也无法弥补这个差距（锻造到永恒的 Quantum Laser III 和 Damage Amp IV，即使随机到最佳数值，也仍略低于装着 Damage Amp III 的普通 Helios Beam）。
 
@@ -194,9 +194,9 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 每一次激光命中都会从目标的吸收率中扣除点数，来源最多三个，彼此相加：你的**弹药**（Ultra Core 5%，Experimental Fusion Core 10%，Antimatter Battery 20%）、你的 **Penetration Amp**，以及**无人机编队**（Gemini +15%；[无人机编队](/wiki/03-Mechanics/Formations.md)）。**总和没有上限**（直接火箭也以同样的方式把自己的穿透和编队的穿透相加：[火箭](/wiki/06-Items/Rockets.md)）。然后护盾承受目标吸收率减去该次命中穿透后的份额，船体承受其余部分（[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
-- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把激光上三个 Penetration Amp IV 是 60%；十三把激光里只有一把装一个 Penetration Amp IV 约是 1.5%。Wraith 有 13 把激光和 39 个增幅槽位，要凑到 60% 必须把 39 个槽位全部装满。
+- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把三槽激光上三个 Penetration Amp IV 是 60%（每把 Helios Beam 上四个是 80%）；十四把激光里只有一把装一个 Penetration Amp IV 约是 1.4%。Wraith 有 14 个激光槽位，所以三槽激光对应 42 个增幅槽位，Helios Beam 对应 56 个，要凑到 60%（Helios Beam 为 80%）必须把它们全部装满。
 - **机库会显示它。** 机库的战斗属性中，每艘飞船都有一个显示所示配置的激光增幅器数值的**穿透**图块（没有 Penetration Amp 时为 0.0%）；弹药和编队不计入其中。飞行中的**舰船**窗口在下方一行的末尾有一个**穿透**标签（为腾出位置，配置和速度标签只显示一个图标和一个数字），显示激光命中的总穿透：你的增幅器、所穿戴的编队和所用的弹药相加，一换就更新，它的悬停提示会列出这三部分。
-- **最强的激光用 x4 是 85%，用 Antimatter 是 95%。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（60%）加起来是 85%；换成一块 Antimatter Battery（20%）则是 95%，伤害为 x3 而不是 x4。
+- **最强的激光用 x4 是 85%，用 Antimatter 是 95%（每把激光上装三个增幅器）。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（60%）加起来是 85%；换成一块 Antimatter Battery（20%）则是 95%，伤害为 x3 而不是 x4。Helios Beam 有第四个槽位：每把 Helios Beam 上装四个 Penetration Amp IV，加上 Fusion Core 和 Gemini，是 105%，比任何护盾能给出的都多。
 - **Penetration Amp IV 上的锻造加成会计入。** Penetration Amp 和其他增幅器一样可以锻造，它唯一的一条加成会成倍提高穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 达到 21.8 至 23 点，而不是 20 点。在最强的配置里，三个永恒级的加起来是 94%，每一点都会计入。
 
 | 激光齐射 | 弹药 | 增幅器（3 个槽位） | 编队 | 合计 |
@@ -227,8 +227,8 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 ### 什么时候值得为 Penetration Amp 腾一个槽位？ {#when-is-a-penetration-amp-worth-a-slot}
 
-**Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 108%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 12 倍；面对出厂最好的护盾（91%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 50% 的时间。面对外星人，对 Phantasm 或 Goombah 最多多出 20%，对 Bulwark 或 Crystalys 则毫无收益。**
+**Penetration Amp 能克制吸收率，吸收率越高越有用：面对船体较小的舰船，在约 108%（赛季商店、锻造炉和 Rampart 的配置）时，Penetration 配置击杀速度约为最好的普通配置的 10 倍；面对出厂最好的护盾（91%），三个 Penetration Amp 比三个同阶的 Crit Amp 约少用 37% 的时间。面对外星人，装备 Gemini 时对 Phantasm 或 Goombah 约多出 10%，对 Seeker、Bulwark 或 Crystalys 则毫无收益。**
 
-- **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 153 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 314，三个 Crit Amp IV 是 319：大约一半。它夺回的是护盾的份额，所以在船体相对护盾较小、吸收率较高的时候最划算；面对出厂最好护盾的 Wraith 或 Ironclad，它们庞大的船体撑得更久，最多多出 38%，而护盾被加成提到 100% 以上的 Ironclad，仍然最适合用普通的 Crit 组合来对付。
-- **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，而最好的激光（85%）能把它们整个穿透，所以对它们也有效：面对 Phantasm 或 Goombah，不管有没有编队，Penetration Amp 都在最佳配置里（收益 11% 到 20%），面对 Seeker 则要配 Gemini（8%）。同阶的 Damage Amp 或 Crit Amp 杀 Bulwark 或 Crystalys 依然一样快或更快。
-- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 39 个槽位的 Wraith 需要 156 块板，共 780 个 Dark Matter。
+- **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 158 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 319，三个 Crit Amp IV 是 416：前者的一半，后者的三分之一多一点。它夺回的是护盾的份额，所以在船体相对护盾较小、吸收率较高的时候最划算；面对出厂最好护盾的 Wraith 或 Ironclad，它们庞大的船体撑得更久，最多多出 20%，而护盾被加成提到 100% 以上的 Ironclad，仍然最适合用普通的 Crit 组合来对付。
+- **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，而最好的激光（85%）能把它们整个穿透，所以对它们也有效：面对 Phantasm 或 Goombah，装备 Gemini 时 Penetration Amp 在最佳配置里（收益约 10%）。面对 Seeker、Bulwark 或 Crystalys，同阶的 Crit Amp 组合杀起来一样快或更快。
+- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 56 个槽位的 Wraith 需要 224 块板，共 1,120 个 Dark Matter。

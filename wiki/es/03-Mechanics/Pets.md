@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -115,7 +115,7 @@ Ocho de los diez tipos solo dan bonificaciones. El **Retriever** y el **Mole** t
 Un Retriever acoplado toma la caja de carga más cercana dentro de su **alcance**, una caja a la vez y cada una en medio segundo, el tiempo que tarda tu propia recogida: nunca es más rápido que una mano. Su dron vuela hasta la caja, un anillo de luz se cierra a su alrededor y, donde estaba la caja, suena un pequeño pitido.
 
 - **Alcance.** Del centro de tu nave al centro de la caja. Tu propia recogida llega a 200 unidades; un Retriever empieza por encima y crece con su calidad y su nivel, hasta 880 unidades (8 longitudes de nave) para un Legendary de nivel 20. Una nave mide unas 110 unidades.
-- **Qué cajas.** Solo las cajas que tú podrías tomar: las tuyas y las de tu clan, y las de todos cuando su reserva ha terminado. Nunca una caja que sigue reservada para otro piloto o clan, y nunca la [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes) de otro piloto; tus propias cajas privadas sí las toma. El botín de una baja, los fragmentos de un asteroide, las cajas de Dark Matter y las cajas de una excavadora gigante son todas cajas. Una caja que estás recogiendo a mano se te deja a ti, y si tú y tu Retriever llegáis a la vez a una caja, solo uno de los dos se la queda.
+- **Qué cajas.** Solo las cajas que tú podrías tomar: las tuyas y las de tu clan (no los fragmentos de un asteroide colocados para un miembro del clan: son solo suyos durante 30 segundos), y las de todos cuando su reserva ha terminado. Nunca una caja que sigue reservada para otro piloto o clan, y nunca la [caja privada](/wiki/03-Mechanics/Cargo.md#private-boxes) de otro piloto; tus propias cajas privadas sí las toma. El botín de una baja, los fragmentos de un asteroide, las cajas de Dark Matter y las cajas de una excavadora gigante son todas cajas. Una caja que estás recogiendo a mano se te deja a ti, y si tú y tu Retriever llegáis a la vez a una caja, solo uno de los dos se la queda.
 - **Qué recibes.** Lo que daría tu propia recogida: los objetos van al inventario de tu hangar, el [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) suma su parte y los créditos y el Thulium de un fragmento se pagan como cuando lo recoges tú.
 
 ### El Mole {#the-mole}

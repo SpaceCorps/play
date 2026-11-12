@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1c8450dd23b59a24 -->
+<!-- wiki-i18n source: 90ce9516c19a0bc6 -->
 <!-- wiki-i18n title: Corazza dello scafo -->
 # Corazza dello scafo {#hull-plating}
 
@@ -43,7 +43,7 @@ La corazza dello scafo entra solo negli **slot corazza**, un tipo di slot a sé 
 | Nave | Slot corazza | Un set completo di Hull Plating III aggiunge |
 | :--- | ---: | ---: |
 | **Paragon** | 5 | 125.000 |
-| **Storm** | 7 | 175.000 |
+| **Storm** | 8 | 200.000 |
 | **Ironclad** | 15 | 375.000 |
 | **Wraith** | 10 | 250.000 |
 

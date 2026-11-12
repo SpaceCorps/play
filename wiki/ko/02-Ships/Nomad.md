@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad는 Ostirion의 거의 2배 선체와 2배 화기를 갖춘 순양함입니다. Ostirion과 Paragon 사이에 놓이는 해머헤드형 함선으로, 상점에서 크레딧과 Thulium을 함께 내고 구매합니다. 어떤 파일럿이든 구매할 수 있습니다.
+Nomad는 Ostirion의 거의 2배 선체에 화기가 두 문 더 많은 순양함입니다. Ostirion과 Paragon 사이에 놓이는 해머헤드형 함선으로, 상점에서 크레딧과 Thulium을 함께 내고 구매합니다. 어떤 파일럿이든 구매할 수 있습니다.
 
 ## 능력치 {#stats}
 
 - **내구도(HP)**: 111,000
-- **기본 속도**: 210
-- **레이저 슬롯**: 6
+- **기본 속도**: 240
+- **레이저 슬롯**: 7
 - **부가 슬롯**: 2
 
 ### 발전기 및 지원 슬롯 {#generator-support-slots}

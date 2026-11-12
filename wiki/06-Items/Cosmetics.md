@@ -2,12 +2,12 @@
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins -->
 
-A **look** is what your ship wears. It has four parts: a **skin** (the paint of the hull), an **aura** (a soft glow round the ship), an **exhaust** (the colour and the shape of the trail behind its engines) and the **livery** of your drones. A look is only for show: it adds no damage, no hull and no speed, takes no slot and changes nothing a shot can hit.
+A **look** is what your ship wears. It has four parts: a **skin** (the paint of the hull), an **aura** (a soft glow and a ring of light round the ship), an **exhaust** (the colour and the shape of the trail behind its engines) and the **livery** of your drones. A look is only for show: it adds no damage, no hull and no speed, takes no slot and changes nothing a shot can hit.
 
 > [!NOTE]
 > **Looks can not be bought.** The wipe gives the season looks of the top ranks ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)); other looks can be found in the [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive), a container, and an admin issues the rest. When an admin gives you a look a toast tells you and a soft chime plays; a look you win in the container is shown on its result card.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -78,17 +78,23 @@ The eight Common colours come with the slot: every pilot has them. Ion Blue is t
 | Effect | Rarity | What it draws |
 | :--- | :--- | :--- |
 | **None** | Common | No aura. It comes with the slot |
-| **Glow** | Common | A soft glow round the ship |
-| **Breath** | Uncommon | A glow that slowly breathes |
-| **Motes** | Rare | A glow with four small lights circling |
-| **Shimmer** | Rare | A glow that twinkles |
-| **Sparkle** | Epic | Six circling lights that twinkle |
-| **Wreath** | Epic | Eight lights in a slow orbit |
-| **Halo** | Mythical | A breathing glow with eight lights circling |
-| **Laurel** | Legendary | Ten lights circling slowly in a breathing glow |
-| **Crown** | Eternal | Ten lights circling in a breathing, twinkling glow |
+| **Glow** | Common | A soft glow with a thin ring of light at its edge |
+| **Breath** | Uncommon | A glow and a ring of light that slowly breathe |
+| **Motes** | Rare | A ring of light with four small comets circling inside it |
+| **Shimmer** | Rare | A slow spiral of two arms in a faint ring, twinkling |
+| **Sparkle** | Epic | Six circling comets that twinkle, in a ring of light |
+| **Wreath** | Epic | Eight comets in a slow orbit, in a ring of light with a finer ring inside it |
+| **Halo** | Mythical | A bright, breathing ring of light with two finer rings inside it and six comets circling |
+| **Laurel** | Legendary | A breathing ring of light round a slow spiral of three arms, with eight comets circling slowly |
+| **Crown** | Eternal | A bright ring of light with two finer rings and a spiral of four arms inside it and eight comets circling, breathing and twinkling |
+| **Event Horizon** | Mythical | A dark band that dims what is behind it, inside a bright ring of light that burns on one side |
+| **Accretion** | Mythical | A slow spiral of three arms in a ring of light, with eight comets falling inward |
+| **Singularity** | Legendary | A dark band inside a bright ring of light, a spiral of two arms and six twinkling comets falling inward |
+| **Gravity Well** | Mythical | A faint dark band and three finer rings inside a breathing ring of light |
 
-An aura stays inside the ring that marks a lock-on and is drawn under everything else round a ship.
+An aura stays inside the ring that marks a lock-on and is drawn under everything else round a ship. Its own ring of light is thin, has the aura's colour and a bright arc that travels round it; the lock-on ring is outside it and steady. A comet is a small light with a short tail.
+
+**Event Horizon**, **Accretion**, **Singularity** and **Gravity Well** are not in the Chroma Archive: an admin issues them.
 
 ## The Wardrobe
 

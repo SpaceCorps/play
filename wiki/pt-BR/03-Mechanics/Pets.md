@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0c5ddd9da574aca7 -->
+<!-- wiki-i18n source: 5d86cd9d177fee45 -->
 <!-- wiki-i18n title: P.E.T.s -->
 # P.E.T.s {#pets}
 
@@ -115,7 +115,7 @@ Oito dos dez tipos só dão bônus. O **Retriever** e o **Mole** também dão, e
 Um Retriever acoplado pega a caixa de carga mais próxima dentro do seu **alcance**, uma caixa de cada vez e cada uma em meio segundo, o tempo que a sua própria coleta leva: ele nunca é mais rápido que uma mão. O drone dele voa até a caixa, um anel de luz se fecha em volta dela e, onde a caixa estava, soa um pequeno bipe.
 
 - **Alcance.** Do centro da sua nave ao centro da caixa. A sua própria coleta alcança 200 unidades; um Retriever começa acima disso e cresce com o grau e o nível, até 880 unidades (8 comprimentos de nave) para um Legendary de nível 20. Uma nave tem cerca de 110 unidades de comprimento.
-- **Quais caixas.** Só as caixas que você poderia pegar: as suas e as do seu clã, e as de todos quando a reserva acaba. Nunca uma caixa ainda reservada para outro piloto ou clã, e nunca a [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) de outro piloto; as suas caixas privadas ele pega. O espólio de um abate, os fragmentos de um asteroide, as caixas de Dark Matter e as caixas de uma escavadeira gigante são todos caixas. Uma caixa que você está coletando à mão fica para você, e se você e o seu Retriever chegam juntos a uma caixa, só um dos dois fica com ela.
+- **Quais caixas.** Só as caixas que você poderia pegar: as suas e as do seu clã (não os fragmentos de um asteroide colocados para um colega de clã: ficam só com ele por 30 segundos), e as de todos quando a reserva acaba. Nunca uma caixa ainda reservada para outro piloto ou clã, e nunca a [caixa privada](/wiki/03-Mechanics/Cargo.md#private-boxes) de outro piloto; as suas caixas privadas ele pega. O espólio de um abate, os fragmentos de um asteroide, as caixas de Dark Matter e as caixas de uma escavadeira gigante são todos caixas. Uma caixa que você está coletando à mão fica para você, e se você e o seu Retriever chegam juntos a uma caixa, só um dos dois fica com ela.
 - **O que você recebe.** O que a sua própria coleta daria: os itens vão para o inventário do seu hangar, o [Resource Magnet Booster](/wiki/03-Mechanics/Cargo.md#boosters) soma a parte dele e os créditos e o Thulium de um fragmento são pagos como quando você mesmo o coleta.
 
 ### O Mole {#the-mole}

@@ -5,7 +5,7 @@ The Protos is the basic starter ship given to all new pilots in SpaceCorps. It i
 ## Stats
 
 - **Hitpoints (HP)**: 8,000
-- **Base Speed**: 180
+- **Base Speed**: 190
 - **Laser Slots**: 2
 - **Extra Slots**: 2
 

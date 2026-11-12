@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: Устройства -->
 # Устройства {#extras}
 
@@ -12,6 +12,7 @@
 | **Cloaking CPU L** | Скрывает ваш корабль | 50 | 20 000 Thulium |
 | **P.E.T. Station I–III** | Включённая, она позволяет 2, 3 или 5 пристыкованным [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) давать бонусы кораблю, получать опыт и работать; выключенная — они ничего этого не делают | ВКЛ / ВЫКЛ | Сборочный цех после исследования (дерево предметов ниже) |
 | **Auto-Rocket CPU** | Когда включена, сама выпускает вашу активную ракету по цели боя | ВКЛ / ВЫКЛ | Сборочный цех после исследования (дерево предметов ниже) |
+| **Laser Optics I–V** | Установленные, они добавляют 2, 4, 6, 8 или 10 пунктов к шансу попадания лазерных залпов (учитывается только лучшая) | установлены, переключать нечего | Сборочный цех после исследования (дерево предметов ниже) |
 
 Cloaking CPU продаются только в магазине. Их нельзя объединять, и бесплатно их нигде не выдают. **EMP Charge** больше не устройство: с 0.4.21 это расходник, который носят стопкой, как ракеты, и не устанавливают ни в какой слот, поэтому он не занимает ваши слоты устройств (см. [Ракеты](/wiki/06-Items/Rockets.md#emp-charge)). Две **Energetic Wall** тоже больше не устройства: с 0.4.22 это тоже расходники, их носят стопкой, и в слот они не устанавливаются (см. [Energetic Wall](#energetic-wall)).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ S, M и L работают одинаково: большие наборы ли�
 - **Убийства.** Корабль, уничтоженный стеной, погибает от излучения, и убийство засчитывается последнему вражескому пилоту, который попал по нему за 15 секунд, если такой был. Тот, кто поставил стену, не получает ничего за то, что не отстрелял сам. Пришелец, уничтоженный стеной, ничего не приносит: ни награды, ни добычи.
 - **Пришельцы её не обходят.** Они пролетают сквозь неё и горят либо стоят со своей стороны и стреляют по стене.
 - **Что вы видите.** Полоса бело-голубого света с яркими штрихами, бегущими вдоль неё, и столбом света на каждом конце; она вспыхивает там, где попал выстрел, и мерцает, когда почти исчерпана. Стена 2-го уровня светится жёлтым, с более толстой и яркой сердцевиной и более сильным свечением, но её полоса шириной те же 10 единиц, что и у стены 1-го уровня. Рядом тонкая полоска жизни укорачивается и становится янтарной, а затем красной; ваш слот показывает оставшуюся жизнь стены дугой, а ожидание тенью. Поставленная стена вспыхивает, сбитая рассыпается искрами, а та, у которой вышло время, угасает. Число на слоте показывает и сколько стен его уровня у вас осталось.
-- **Как получить и носить.** Energetic Wall I продаётся в магазине по **250 Thulium** за стену, и вы носите до **20** в одной стопке (то, что вы выставили на [Аукционе](/wiki/03-Mechanics/Auction.md), тоже считается). Energetic Wall II делают в Сборочном цехе, **по одной стене за изготовление**, за **600 Thulium**, 5 Ship Fragment и 1 Power Core, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)); её вы носите до **10**. В отличие от двенадцати ракет, из которых по 1 000 каждого вида переносятся сами, стены, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а стены в тайнике использовать нельзя. Energetic Wall II, сделанную вами, можно продать на Аукционе; Energetic Wall I, которую продаёт магазин, — никогда.
+- **Как получить и носить.** Energetic Wall I продаётся в магазине по **10 000 кредитов** за стену, и вы носите до **20** в одной стопке (то, что вы выставили на [Аукционе](/wiki/03-Mechanics/Auction.md), тоже считается). Energetic Wall II делают в Сборочном цехе, **по одной стене за изготовление**, за **600 Thulium**, 5 Ship Fragment и 1 Power Core, когда её изучил Исследовательский центр (6 часов при обычной скорости: [Исследования](/wiki/03-Mechanics/Research.md)); её вы носите до **10**. В отличие от двенадцати ракет, из которых по 1 000 каждого вида переносятся сами, стены, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а стены в тайнике использовать нельзя. Energetic Wall II, сделанную вами, можно продать на Аукционе; Energetic Wall I, которую продаёт магазин, — никогда.
 
 ## Mine
 
@@ -111,9 +118,26 @@ S, M и L работают одинаково: большие наборы ли�
 - **Кого она поражает.** Любой корабль, пролетающий над ней: вражеского пилота, пришельца, корпоративного пилота, ваших товарищей по корпорации, вашу группу и **вас самих**. У Mine нет друзей. Корабль спасает то же, что спасает его от любого оружия: безопасная зона, защита возрождения, маскировка или окно EMP.
 - **Отлёт.** Корабль, который в момент приземления Mine находится в её радиусе, остаётся нетронутым, пока хотя бы раз не выйдет из этого радиуса, и первым она щадит вас: можно сбросить Mine под свой корабль и улететь. После этого Mine срабатывает под этим кораблём так же, как под любым другим, даже если он вернётся позже.
 - **Сколько.** Урон растёт с уровнем: **8 000, 20 000 и 50 000**. Навык «Саботаж» прибавляет к нему до 30 %, а «Меткость» заставляет Mine лететь быстрее и дальше.
-- **Ограничения.** Одновременно можно иметь **три** Mine (четвёртая занимает место самой старой), каждая исчезает через **3 минуты** после приземления, а между двумя бросками нужно ждать **8 секунд**; ожидание — ваше, а не корабля. Когда вы покидаете карту, ваши Mine исчезают вместе с вами.
+- **Ограничения.** У Mine **нет собственного срока жизни**: она лежит там, где приземлилась, пока её не подорвёт корабль или не перезапустится сервер, и остаётся, когда вы выходите из игры, погибаете или покидаете карту. **Собственного лимита у вас нет**, есть только ожидание в **8 секунд** между двумя бросками (ожидание — ваше, а не корабля). Карту защищают два правила: две Mine не могут лежать ближе **365 единиц** друг к другу, кто бы их ни бросил (чуть больше двух длин самого большого корабля), и на одной карте их не больше **150**. Бросок, нарушающий одно из них, отклоняется, ничего не тратит и не запускает ожидание; пока вы целитесь, кольцо у курсора краснеет там, где бросок был бы отклонён.
 - **Где нельзя.** Нельзя там, где пилоты не могут сражаться друг с другом (при протоколе мира, а также в секторе или на вратах, где это запрещают правила), пока вас защищает безопасная зона или возрождение, там, где Mine коснулась бы безопасной зоны или врат, и в маскировке. Игра говорит, какой это случай; отклонённый бросок ничего не расходует и не запускает ожидание.
 - **Как получить и носить.** Mine I продаётся в магазине за **100 Thulium**, и вы носите до **20** в одной стопке. Mine II делают в Сборочном цехе, **по одной за изготовление**, из двух Mine I, 3 Ship Fragment и 1 Power Core за **200 Thulium** (до **10** в стопке); Mine III — из двух Mine II, 8 Ship Fragment, 2 Power Core и 1 Reinforced Hull Plate за **400 Thulium** (до **5**). Обе делают после того, как Исследовательский центр их изучит: 3 часа для II и 6 часов для III в обычном темпе ([Исследования](/wiki/03-Mechanics/Research.md)). Mine, которые вы носите, теряются вместе с сезоном, если не положить их в транспортный тайник, а Mine в тайнике использовать нельзя. Mine нельзя продать на [Аукционе](/wiki/03-Mechanics/Auction.md).
+
+## Laser Optics
+
+Пять предметов, благодаря которым ваши лазеры попадают чаще. В магазине их не продают: Сборочный цех делает их после того, как Исследовательский центр Скайлаба их изучил, один за другим (семейство Lasers, см. [Исследования](/wiki/03-Mechanics/Research.md)).
+
+- **Что они дают.** Установите одну в слот устройств, и она добавит пункты к шансу попадания ваших лазерных залпов — сверх того, что даёт ваша [Лазерная техника](/wiki/03-Mechanics/Combat.md#laser-tech), — но не выше 100%. Laser Optics I добавляет 2 пункта, II — 4, III — 6, IV — 8, а V — 10. Залп, ушедший мимо, всё равно тратит боеприпасы, так что каждый пункт — это урон, который вы больше не тратите впустую.
+- **Учитывается только лучшая.** Две Laser Optics не суммируются: учитывается лучшая из установленных. Та, что у вас лишь в трюме или установлена в другой конфигурации, ничего не делает, пока вы не полетите на этой конфигурации.
+- **Нажимать нечего.** У них нет слота на панели быстрого доступа и нет переключателя: они работают, пока установлены, и занимают один из ваших слотов устройств, как и остальные устройства.
+- **Где это видно.** Карточка лазера и плитка урона вашего ангара показывают итоговый шанс — вашей Лазерной техники и Optics вместе.
+
+| Предмет | Добавляет | Время исследования | Тулий на создание | Время создания |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 пункта | 3 ч | 8 000 | 5 мин |
+| Laser Optics II | +4 пункта | 6 ч | 15 000 | 7,5 мин |
+| Laser Optics III | +6 пунктов | 10 ч | 30 000 | 10 мин |
+| Laser Optics IV | +8 пунктов | 16 ч | 50 000 | 12,5 мин |
+| Laser Optics V | +10 пунктов | 24 ч | 75 000 | 15 мин |
 
 ## CPU Исследовательского центра {#research-cpus}
 

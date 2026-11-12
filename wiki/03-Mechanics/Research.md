@@ -28,7 +28,7 @@ This page has the whole technology tree with the time each technology takes, the
 
 <!-- research-centre:end -->
 
-**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) finishes the research that is running now, at once, if its technology takes 24 hours or less to research (143 of the 159 technologies). What the research cost was paid when it started and is not given back, the science it has not burned stays in your tank, and the next technology of your queue starts at once.
+**Schematics.** A [Schematics](/wiki/06-Items/Special-Items.md#schematics) takes 24 hours off the research that is running now: a research with 24 hours or less left is finished at once, and a longer one loses 24 hours and goes on (167 of the 187 technologies take 24 hours or less, so one finishes them from the start; the other 20 need 2 to 10). What the research cost was paid when it started and is not given back, the science the skipped time would have burned stays in your tank, and when the research is finished the next technology of your queue starts at once.
 
 **The laser amps and the last tier.** The Damage, Crit and Penetration Amps of tiers II to IV are researched crafts like the rest. Pilots who held or had queued amps when the amp families came received the technology of each of those amps and of the tiers below them. Thirteen technologies need a technology of another tree, the Dark Matter Plate's of the Resources tree, because the last tier of every upgrade chain asks for four plates and an Ancient Control Unit: the tier IV Damage, Crit and Penetration Amps, the tier IV Absorption and Capacity Shield Cells, the tier IV Impulse and Momentum Thrusters, the Heavy Shield Core, the Engine III, the Adaptive Core III, the Helios Beam, the Extra Slots CPU III and the Base CPU II. A pilot who researched one of them earlier keeps it, and needs the plate's technology to craft its plates. The tree below draws no arrow for it, but the table lists it and the card in the game names it ([Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -101,6 +101,7 @@ What a boost does to the time of a research, boosted from its start:
 | 6 h | 3 h | 1 | 5,000 |
 | 8 h | 4 h | 1 | 5,000 |
 | 10 h | 5 h | 1 | 5,000 |
+| 16 h | 8 h | 1 | 5,000 |
 | 1 d | 12 h | 1 | 5,000 |
 | 2 d | 1 d | 1 | 5,000 |
 | 4 d | 2 d | 2 | 10,000 |
@@ -221,11 +222,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Boosters {#tree-boosters}
@@ -548,18 +555,23 @@ The Pilot family of the Research view holds technologies that are not crafts: th
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 d | 864,000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 h | 10,800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 h | 21,600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 h | 10,800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 h | 21,600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 h | 36,000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 h | 57,600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 d | 86,400 | – |
 
 The classes, by research time:
 
 | Class | Research time | Technologies | One after another | Science | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min to 1 h | 17 | 9 h 30 min | 34,200 | 0 |
-| B | 3 h to 6 h | 35 | 5 d 11 h | 471,600 | 0 |
-| C | 8 h to 10 h | 19 | 7 d 18 h | 669,600 | 95 |
-| D | 1 d to 10 d | 28 | 52 d | 4,492,800 | 329 |
-| All |  | 99 | 65 d 14 h 30 min | 5,668,200 | 424 |
+| B | 3 h to 6 h | 37 | 5 d 20 h | 504,000 | 0 |
+| C | 8 h to 10 h | 20 | 8 d 4 h | 705,600 | 95 |
+| D | 16 h to 10 d | 30 | 53 d 16 h | 4,636,800 | 329 |
+| All |  | 104 | 68 d 1 h 30 min | 5,880,600 | 424 |
 
-Researched one after another, the whole tree takes 65 d 14 h 30 min. With the boost on all the time it takes 32 d 19 h 15 min, which is 33 boosts and 165,000 Thulium; the science is the same.
+Researched one after another, the whole tree takes 68 d 1 h 30 min. With the boost on all the time it takes 34 d 45 min, which is 35 boosts and 175,000 Thulium; the science is the same.
 
 <!-- research-technologies:end -->
 

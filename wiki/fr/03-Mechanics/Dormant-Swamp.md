@@ -108,7 +108,7 @@ Trois aliens de la civilisation perdue vivent ici, chacun avec ses propres chiff
 | Crédits | 125 000 | 250 000 | 375 000 |
 | Thulium | 335 | 670 | 1 005 |
 | Expérience (XP) | 20 200 | 40 400 | 60 600 |
-| Honneur | 88 | 176 | 264 |
+| Honneur | 87 | 174 | 261 |
 | Points PvE par élimination | 15 | 15 | 15 |
 
 **Butin** : une caisse, pour le pilote qui a infligé le plus de dégâts.

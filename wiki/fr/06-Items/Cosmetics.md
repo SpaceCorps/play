@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Cosmétiques -->
 # Cosmétiques {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; apparence; livrée; garde-robe; traînée -->
 
-Un **look** est ce que porte votre vaisseau. Il a quatre parties : un **skin** (la peinture de la coque), une **aura** (une lueur douce autour du vaisseau), une **traînée** (la couleur et la forme du sillage derrière ses moteurs) et la **livrée** de vos drones. Un look n’est que pour le coup d’œil : il n’ajoute ni dégâts, ni coque, ni vitesse, ne prend aucun emplacement et ne change rien de ce qu’un tir peut toucher.
+Un **look** est ce que porte votre vaisseau. Il a quatre parties : un **skin** (la peinture de la coque), une **aura** (une lueur douce et un anneau de lumière autour du vaisseau), une **traînée** (la couleur et la forme du sillage derrière ses moteurs) et la **livrée** de vos drones. Un look n’est que pour le coup d’œil : il n’ajoute ni dégâts, ni coque, ni vitesse, ne prend aucun emplacement et ne change rien de ce qu’un tir peut toucher.
 
 > [!NOTE]
 > **Les looks ne peuvent pas être achetés.** La réinitialisation attribue les looks de saison des grades les plus hauts ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Certains looks se trouvent dans l’[Archive chromatique (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), un conteneur ; un admin délivre les autres. Quand un admin vous donne un look, un message vous le dit et une douce note retentit ; un look que vous gagnez dans le conteneur apparaît sur sa carte de résultat.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ Les huit couleurs communes viennent avec l’emplacement : tous les pilotes les
 | Effet | Rareté | Ce qu’il dessine |
 | :--- | :--- | :--- |
 | **None** | Commun | Pas d’aura. Elle vient avec l’emplacement |
-| **Glow** | Commun | Une lueur douce autour du vaisseau |
-| **Breath** | Peu commun | Une lueur qui respire lentement |
-| **Motes** | Rare | Une lueur avec quatre petites lumières qui tournent |
-| **Shimmer** | Rare | Une lueur qui scintille |
-| **Sparkle** | Épique | Six lumières qui tournent et scintillent |
-| **Wreath** | Épique | Huit lumières sur une orbite lente |
-| **Halo** | Mythique | Une lueur qui respire avec huit lumières qui tournent |
-| **Laurel** | Légendaire | Dix lumières qui tournent lentement dans une lueur qui respire |
-| **Crown** | Éternel | Dix lumières qui tournent dans une lueur qui respire et scintille |
+| **Glow** | Commun | Une lueur douce avec un fin anneau de lumière sur son bord |
+| **Breath** | Peu commun | Une lueur et un anneau de lumière qui respirent lentement |
+| **Motes** | Rare | Un anneau de lumière avec quatre petites comètes qui tournent à l’intérieur |
+| **Shimmer** | Rare | Une spirale lente à deux bras dans un anneau pâle, qui scintille |
+| **Sparkle** | Épique | Six comètes qui tournent et scintillent, dans un anneau de lumière |
+| **Wreath** | Épique | Huit comètes sur une orbite lente, dans un anneau de lumière qui en renferme un plus fin |
+| **Halo** | Mythique | Un anneau de lumière vif qui respire, avec deux anneaux plus fins à l’intérieur et six comètes qui tournent |
+| **Laurel** | Légendaire | Un anneau de lumière qui respire autour d’une spirale lente à trois bras, avec huit comètes qui tournent lentement |
+| **Crown** | Éternel | Un anneau de lumière vif qui renferme deux anneaux plus fins et une spirale à quatre bras, avec huit comètes qui tournent, le tout respirant et scintillant |
+| **Event Horizon** | Mythique | Une bande sombre qui assombrit ce qui se trouve derrière elle, dans un anneau de lumière vif qui brûle d’un côté |
+| **Accretion** | Mythique | Une spirale lente à trois bras dans un anneau de lumière, avec huit comètes aspirées vers le centre |
+| **Singularity** | Légendaire | Une bande sombre dans un anneau de lumière vif, une spirale à deux bras et six comètes scintillantes aspirées vers le centre |
+| **Gravity Well** | Mythique | Une bande sombre à peine visible et trois anneaux plus fins dans un anneau de lumière qui respire |
 
-Une aura reste à l’intérieur de l’anneau qui marque un verrouillage et se dessine sous tout le reste autour d’un vaisseau.
+Une aura reste à l’intérieur de l’anneau qui marque un verrouillage et se dessine sous tout le reste autour d’un vaisseau. Son propre anneau de lumière est fin, a la couleur de l’aura et porte un arc brillant qui en fait le tour ; l’anneau de verrouillage est à l’extérieur et reste fixe. Une comète est une petite lumière avec une courte queue.
+
+**Event Horizon**, **Accretion**, **Singularity** et **Gravity Well** ne sont pas dans l’Archive chromatique : un admin les délivre.
 
 ## La Garde-robe {#the-wardrobe}
 

@@ -108,7 +108,7 @@ Drei Aliens der verlorenen Zivilisation leben hier, jedes mit eigenen Zahlen. Si
 | Credits | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Erfahrung (EP) | 20.200 | 40.400 | 60.600 |
-| Ehre | 88 | 176 | 264 |
+| Ehre | 87 | 174 | 261 |
 | PvE-Punkte pro Abschuss | 15 | 15 | 15 |
 
 **Beute**: eine Kiste, für den Piloten mit dem meisten Schaden.

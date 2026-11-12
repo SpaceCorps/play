@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dab929535f6b591d -->
+<!-- wiki-i18n source: 7c4b5382a5618e1a -->
 <!-- wiki-i18n title: Lézerek -->
 # Lézerek és lőszer {#lasers-ammo}
 
@@ -58,11 +58,11 @@ Szerelj lézereket közvetlenül a hajó lézerfoglalataiba vagy drónokba, hogy
 
 | Név | Ritkaság | Alapsebzés | Kritikus esély | Hatótáv | Erősítőfoglalatok | Ár |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Quantum Laser I** | Silány | 55 | 1% | 600 | 1 | 8 000 kredit |
-| **Quantum Laser II** | Gyakori | 65 | 1% | 700 | 2 | 80 000 kredit |
-| **Quantum Laser III** | Ritka | 80 | 10% | 800 | 3 | Csak gyártható |
-| **Starfire-III** | Mitikus | 135 | 15% | 850 | 3 | Csak gyártható |
-| **Helios Beam** | Mitikus | 155 | 20% | 900 | 3 | Csak gyártható |
+| **Quantum Laser I** | Silány | 60 | 1% | 600 | 1 | 8 000 kredit |
+| **Quantum Laser II** | Gyakori | 70 | 1% | 700 | 2 | 80 000 kredit |
+| **Quantum Laser III** | Ritka | 85 | 10% | 800 | 3 | Csak gyártható |
+| **Starfire-III** | Mitikus | 140 | 15% | 850 | 3 | Csak gyártható |
+| **Helios Beam** | Mitikus | 160 | 20% | 900 | 4 | Csak gyártható |
 
 A Hatótáv oszlop az egyes lézerek saját értéke. **A hajód a lézerei hatótávjának átlagával tüzel** (a drónokban lévő lézerek is számítanak), a legközelebbi egységre kerekítve, és minden lézer akkor tüzel, amint a célpont ezen a távolságon belülre kerül. Egy Starfire-III két Quantum Laser II mellett 750-es hajóhatótávot ad, nem 850-et; három Starfire-III megtartja a 850-et, az egyforma lézerek pedig semmin sem változtatnak. Egy Kovácsműhely-hatótávbónusz a saját lézerén számít, mielőtt az átlagot kiszámolják. Lézer nélkül a hangár nem mutat hatótávot (egy gondolatjelet), és a lézerek nem tudnak tüzelni, de a rakétáid igen, mindegyik a saját hatótávjával (lásd: [Rakéták](/wiki/06-Items/Rockets.md)). A hangárban a csempe „Átl. hatótáv” feliratot kap, ha a lézereid eltérnek, és ha fölé viszed az egeret, felsorolja az egyes lézerek hatótávját.
 
@@ -102,7 +102,7 @@ A Ship Fragmenteket, a Cataclysite-ot, a Power Core-okat és a Reinforced Hull P
 
 ## Lézererősítők (Amp-ek) {#laser-amplifiers-amps-}
 
-Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. **Három vonal van, mindegyikben négy szint**, a pajzscellákhoz hasonló nevekkel: a **Damage Amp** fix mennyiségű sebzést ad, a **Crit Amp** kritikus esélyt és fix kritikus sebzést, a **Penetration Amp** pedig pontokat von le a célpont elnyeléséből ([lejjebb](#shield-penetration-of-a-laser-hit)). Nem azonosak a [boosterekkel](/wiki/06-Items/Boosters.md): a **Laser Damage Booster I** és a **Laser Damage Booster II** időzített boosterek (+10% lézersebzés 10 órára), amelyekbe nincs mit szerelni.
+Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. **Három vonal van, mindegyikben négy szint**, a pajzscellákhoz hasonló nevekkel: a **Damage Amp** fix mennyiségű sebzést ad, a **Crit Amp** kritikus esélyt, fix kritikus sebzést és egy kevés fix sebzést, a **Penetration Amp** pedig pontokat von le a célpont elnyeléséből ([lejjebb](#shield-penetration-of-a-laser-hit)). Nem azonosak a [boosterekkel](/wiki/06-Items/Boosters.md): a **Laser Damage Booster I** és a **Laser Damage Booster II** időzített boosterek (+10% lézersebzés 10 órára), amelyekbe nincs mit szerelni.
 
 | Név | Ritkaság | Alapsebzés-növelés | Kritikus esély növelése | Fix kritikus sebzés | Ár |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -110,10 +110,10 @@ Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. 
 | **Damage Amp II** | Szokatlan | +16 | +5% | +8 | Csak gyártható |
 | **Damage Amp III** | Ritka | +26 | +6% | +13 | Csak gyártható |
 | **Damage Amp IV** | Epikus | +38 | +7% | +20 | Csak gyártható |
-| **Crit Amp I** | Silány | +0 | +15% | +0 | 15 000 kredit |
-| **Crit Amp II** | Szokatlan | +0 | +20% | +14 | Csak gyártható |
-| **Crit Amp III** | Ritka | +0 | +25% | +24 | Csak gyártható |
-| **Crit Amp IV** | Epikus | +0 | +25% | +44 | Csak gyártható |
+| **Crit Amp I** | Silány | +5 | +15% | +0 | 15 000 kredit |
+| **Crit Amp II** | Szokatlan | +10 | +20% | +14 | Csak gyártható |
+| **Crit Amp III** | Ritka | +15 | +25% | +24 | Csak gyártható |
+| **Crit Amp IV** | Epikus | +20 | +30% | +44 | Csak gyártható |
 
 | Név | Ritkaság | Pajzsáthatolás | Ár |
 | :--- | :--- | :---: | :--- |
@@ -133,11 +133,11 @@ Ezeket közvetlenül a lézer foglalatába szereld, hogy növeld a jellemzőit. 
 | Penetration Amp III | 2 000 | 60 mp | 30 Nyxite, 20 Cataclysite, 2 Power Core, 50 Ship Fragment, 2 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2 400 | 90 mp | 40 Quorvium, 30 Cataclysite, 1 Power Core, 1 Ancient Control Unit, 4 Dark Matter Plate |
 
-Egy Helios Beam a 3 IV. szintű ampjával 4 utolsó szintű darabot tartalmaz: 16 Dark Matter Plate-et, 80 Dark Mattert, átlagosan 40 N.I.K.E. rakétányit. Egy Wraith, amelyben minden foglalatban az utolsó szint van, 1 280 Dark Mattert tartalmaz ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
+Egy Helios Beam a 4 IV. szintű ampjával 5 utolsó szintű darabot tartalmaz: 20 Dark Matter Plate-et, 100 Dark Mattert, átlagosan 50 N.I.K.E. rakétányit. Egy Wraith, amelyben minden foglalatban az utolsó szint van, 1 640 Dark Mattert tartalmaz ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)).
 
 ### Melyik erősítő hova való {#which-amp-goes-where}
 
-A sebzéserősítő bármelyik lézerhez ugyanannyi sebzést ad, ezért a **Quantum lézereken** ér a legtöbbet. A kritikus erősítő megsokszorozza azt, amit a lézer már tud, ezért annál többet ér, minél erősebben üt a lézer: a **Starfire-III**-on egyenlő a sebzésvonallal, a **Helios Beamen** pedig körülbelül 1,5%-kal előzi meg azt. A lézer kritikus esélye 100%-nál megáll: három Crit Amp III vagy Crit Amp IV a Helios Beamet (amelynek saját 20%-a van) 95%-ra viszi. A Penetration Amp nem ad sem sebzést, sem kritikus esélyt: azoknak a hajóknak való, amelyeknek a pajzsa különben a találatod nagy részét felfogná ([lejjebb](#when-is-a-penetration-amp-worth-a-slot)).
+A sebzéserősítő bármelyik lézerhez ugyanannyi fix sebzést ad. A kritikus erősítő egy kevés saját fix sebzést ad (5-től 20-ig), és megsokszorozza azt, amit a lézer a kritikus esélyével tud, ezért azonos szinttel minden foglalatban a II. szinttől minden lézeren megelőzi a sebzéserősítőt: nagyjából 19%-kal a II. szinten, 25%-kal a III. szinten és 30–43%-kal a IV. szinten (a Quantum lézerek nyernek a legtöbbet). Az I. szinten a kettő közel van: a **Damage Amp I** valamivel jobb a **Quantum lézereken**, a **Crit Amp I** pedig valamivel jobb a **Starfire-III**-on és a **Helios Beamen**. A lézer kritikus esélye 100%-nál megáll: három Crit Amp III a Helios Beamet (amelynek saját 20%-a van) 95%-ra viszi, három Crit Amp IV pedig 110%-ra, tíz ponttal többre, mint amennyit felhasználhat. A Penetration Amp nem ad sem sebzést, sem kritikus esélyt: azoknak a hajóknak való, amelyeknek a pajzsa különben a találatod nagy részét felfogná ([lejjebb](#when-is-a-penetration-amp-worth-a-slot)).
 
 Ugyanazzal az erősítővel feltöltve egy lézer mindig erősebb, mint az alatta lévő, így egy jobb erősítő a jobb lézernek csak egy részét pótolja: egy Quantum Laser III három Damage Amp IV-gyel többet sebez, mint egy Helios Beam három Damage Amp I-gyel, de kevesebbet, mint egy három Damage Amp III-mal, és a kovácsolás sem zárja be a rést (egy Örök fokozatra kovácsolt Quantum Laser III és Damage Amp IV a legjobb kisorsolt bónuszokkal is egy kicsit elmarad egy sima, Damage Amp III-as Helios Beamtől).
 
@@ -194,9 +194,9 @@ A **Dark Matter Ammo II** **x6**-tal csap le, de csak **1,5 másodpercenként eg
 
 Minden lézertalálat pontokat von le a célpont elnyeléséből, legfeljebb három, összeadódó forrásból: a **lőszeredből** (Ultra Core 5%, Experimental Fusion Core 10%, Antimatter Battery 20%), a **Penetration Amp-jeidből** és egy **drónformációból** (Gemini +15%; [Drónformációk](/wiki/03-Mechanics/Formations.md)). **Semmi sem korlátozza az összeget** (egy egycélpontos rakéta ugyanígy hozzáadja a saját áthatolását és a formációét: [Rakéták](/wiki/06-Items/Rockets.md)). A pajzsok ezután a célpont elnyelésének és a találat áthatolásának a különbségét fogják fel, a hajótest a többit ([Pajzsmechanika](/wiki/03-Mechanics/Shields.md#shield-penetration)).
 
-- **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden lézerben 60%; egy Penetration Amp IV tizenhárom lézerből egyben körülbelül 1,5%. Egy Wraithnek 13 lézere és 39 erősítőfoglalata van, és mind a 39-et meg kell tölteni a 60%-hoz.
+- **Az erősítőid a lézereid átlagaként számítanak.** Egy sortűz egyetlen találat, ezért a játék összeadja az egyes lézerek erősítőinek áthatolását (a drónjaidban lévő lézerek is számítanak), és átlagot vesz a lézereid fölött, mindegyiket a sebzésével súlyozva, ahogy a kritikus esélynél. Három Penetration Amp IV minden háromfoglalatú lézerben 60% (négy minden Helios Beamben 80%); egy Penetration Amp IV tizennégy lézerből egyben körülbelül 1,4%. Egy Wraithnek 14 lézerfoglalata van, vagyis 42 erősítőfoglalata a hármas lézerekkel és 56 a Helios Beamekkel, és mindet meg kell tölteni a 60%-hoz (Helios Beamekkel a 80%-hoz).
 - **A Hangár mutatja.** A Hangár harci értékei között minden hajón megjelenik egy **Áthatolás** csempe a mutatott konfiguráció lézererősítőinek értékével (0,0%, ha nincs Penetration Amp); a lőszer és a formáció nincs benne. A repülés közbeni **Hajó** ablak alsó sorának végén van egy **Áthatolás** chip (a konfiguráció és a sebesség chipje helyet csinálva csak egy ikont és egy számot mutat): egy lézertalálat összegét mutatja, az erősítőidet, a viselt formációt és a kilőtt lőszert, összeadva, amint bármit váltasz, a súgója pedig felsorolja a három részt.
-- **A legjobb lézer x4-gyel 85%-ot, Antimatterrel 95%-ot ad.** Egy Experimental Fusion Core (10%), egy Gemini (15%) és három Penetration Amp IV minden lézerben (60%) együtt 85%; ha az Experimental Fusion Core helyén egy Antimatter Battery (20%) áll, az 95%, x4 helyett x3 sebzéssel.
+- **A legjobb lézer x4-gyel 85%-ot, Antimatterrel 95%-ot ad, minden lézerben három erősítővel.** Egy Experimental Fusion Core (10%), egy Gemini (15%) és három Penetration Amp IV minden lézerben (60%) együtt 85%; ha az Experimental Fusion Core helyén egy Antimatter Battery (20%) áll, az 95%, x4 helyett x3 sebzéssel. Egy Helios Beamnek negyedik foglalata is van: négy Penetration Amp IV minden Helios Beamben az Experimental Fusion Core-ral és a Gemini-vel 105%-ot ad, többet, mint amennyit bármelyik pajzs kínál.
 - **Egy kovácsműhelyes buff egy Penetration Amp IV-en számít.** A Penetration Amp is kovácsolható, mint a többi erősítő, és az egyetlen buffja megszorozza az áthatolását: egy Örök buff (+9%-tól +15%-ig) egy Penetration Amp IV-et 20-ról 21,8–23 pontra viszi. A legjobb felállásban három Örök együtt 94%, és minden pontja számít.
 
 | Lézersortűz | Lőszer | Erősítők (3 foglalat) | Formáció | Összesen |
@@ -227,8 +227,8 @@ A legjobb lézer minden pajzsmagot kiürít, a legjobb cellájával vagy anélk�
 
 ### Mikor ér meg egy Penetration Amp egy foglalatot? {#when-is-a-penetration-amp-worth-a-slot}
 
-**A Penetration Amp az elnyelést ellensúlyozza, és minél magasabb az, annál többet ér: egy kis hajótestű hajó ellen nagyjából 108%-nál (Szezonbolt-, Kovácsműhely- és Rampart-felállások) egy Penetration-készlet nagyjából 12-szor gyorsabban öl, mint a legjobb sima készlet, a gyárilag legjobb pajzs (91%) ellen pedig három Penetration Amp nagyjából 50%-kal kevesebb időt vesz igénybe, mint három azonos szintű Crit Amp. Idegenek közül egy Phantasm vagy egy Goombah ellen legfeljebb 20%-ot nyer, egy Bulwark vagy Crystalys ellen semmit.**
+**A Penetration Amp az elnyelést ellensúlyozza, és minél magasabb az, annál többet ér: egy kis hajótestű hajó ellen nagyjából 108%-nál (Szezonbolt-, Kovácsműhely- és Rampart-felállások) egy Penetration-készlet nagyjából 10-szer gyorsabban öl, mint a legjobb sima készlet, a gyárilag legjobb pajzs (91%) ellen pedig három Penetration Amp nagyjából 37%-kal kevesebb időt vesz igénybe, mint három azonos szintű Crit Amp. Idegenek közül egy Phantasm vagy egy Goombah ellen Gemini-vel nagyjából 10%-ot nyer, egy Seeker, Bulwark vagy Crystalys ellen semmit.**
 
-- **Nem ad sebzést.** Egy Helios Beamen három Penetration Amp IV 153 sebzést ad sortűzenként (x1 lőszerrel, a dobás és a kritikusok átlaga), ahol három Damage Amp IV 314-at, három Crit Amp IV 319-t: nagyjából a felét. Amit visszahoz, az a pajzs része, ezért ott éri meg a legjobban, ahol a hajótest kicsi a pajzshoz képest és magas az elnyelés; egy Wraith vagy Ironclad ellen a gyárilag legjobb pajzson, amelyek nagy hajótestje tovább kitart, legfeljebb 38%-ot nyer, egy olyan Ironclad ellen pedig, amelynek a pajzsait a buffok 100% fölé emelték, továbbra is egy sima Crit készlet a legjobb.
-- **Idegenek.** A pajzsuk a találat 80%-át fogja fel, levonva az áthatolásodat, a legjobb lézer (85%) pedig teljesen átüti őket, tehát rajtuk is működik: egy Penetration Amp ott van a legjobb felállásban egy Phantasm vagy egy Goombah ellen, formációval vagy anélkül (11–20%-ot nyer), és egy Seeker ellen egy Gemini-vel (8%). Az adott szint Damage vagy Crit Ampja egy Bulwarkot vagy egy Crystalyst továbbra is ugyanolyan gyorsan vagy gyorsabban öl meg.
-- **Amibe kerül.** Minden Penetration Amp IV 4 Dark Matter Plate-et kér (20 Dark Matter), mint minden IV. szintű erősítő, ezért egy Wraithnek, amely mind a 39 foglalatát megtölti, 156 plate kell, 780 Dark Matter.
+- **Nem ad sebzést.** Egy Helios Beamen három Penetration Amp IV 158 sebzést ad sortűzenként (x1 lőszerrel, a dobás és a kritikusok átlaga), ahol három Damage Amp IV 319-et, három Crit Amp IV 416-ot: az elsőnek a felét, a másodiknak alig valamivel több mint a harmadát. Amit visszahoz, az a pajzs része, ezért ott éri meg a legjobban, ahol a hajótest kicsi a pajzshoz képest és magas az elnyelés; egy Wraith vagy Ironclad ellen a gyárilag legjobb pajzson, amelyek nagy hajótestje tovább kitart, legfeljebb 20%-ot nyer, egy olyan Ironclad ellen pedig, amelynek a pajzsait a buffok 100% fölé emelték, továbbra is egy sima Crit készlet a legjobb.
+- **Idegenek.** A pajzsuk a találat 80%-át fogja fel, levonva az áthatolásodat, a legjobb lézer (85%) pedig teljesen átüti őket, tehát rajtuk is működik: egy Penetration Amp ott van a legjobb felállásban egy Phantasm vagy egy Goombah ellen, ha Gemini-t viselsz (nagyjából 10%-ot nyer). Egy Seeker, egy Bulwark vagy egy Crystalys ellen az adott szint Crit Ampjainak készlete ugyanolyan gyorsan vagy gyorsabban öl.
+- **Amibe kerül.** Minden Penetration Amp IV 4 Dark Matter Plate-et kér (20 Dark Matter), mint minden IV. szintű erősítő, ezért egy Wraithnek, amely mind az 56 foglalatát megtölti, 224 plate kell, 1 120 Dark Matter.

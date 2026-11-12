@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; visual; aparência; pintura; guarda-roupa; rastro -->
 
-Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a pintura do casco), uma **aura** (um brilho suave em volta da nave), um **rastro** (a cor e a forma do rastro atrás dos motores) e a **pintura** dos seus drones. Um visual é só para enfeitar: não dá dano, casco nem velocidade, não ocupa slot e não muda nada do que um tiro pode acertar.
+Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a pintura do casco), uma **aura** (um brilho suave e um anel de luz em volta da nave), um **rastro** (a cor e a forma do rastro atrás dos motores) e a **pintura** dos seus drones. Um visual é só para enfeitar: não dá dano, casco nem velocidade, não ocupa slot e não muda nada do que um tiro pode acertar.
 
 > [!NOTE]
 > **Os visuais não podem ser comprados.** O reset concede os visuais de temporada das patentes mais altas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Alguns visuais podem ser encontrados no [Arquivo Cromático (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), um contêiner; os outros, um administrador emite. Quando um administrador dá um visual a você, um aviso conta e toca um sino suave; um visual que você ganha no contêiner aparece no cartão de resultado dele.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ As oito cores comuns vêm com o slot: todo piloto as tem. Ion Blue é a cor dos 
 | Efeito | Raridade | O que desenha |
 | :--- | :--- | :--- |
 | **None** | Comum | Sem aura. Vem com o slot |
-| **Glow** | Comum | Um brilho suave em volta da nave |
-| **Breath** | Incomum | Um brilho que respira devagar |
-| **Motes** | Raro | Um brilho com quatro luzinhas girando |
-| **Shimmer** | Raro | Um brilho que cintila |
-| **Sparkle** | Épico | Seis luzes que giram e cintilam |
-| **Wreath** | Épico | Oito luzes em órbita lenta |
-| **Halo** | Mítico | Um brilho que respira com oito luzes girando |
-| **Laurel** | Lendário | Dez luzes girando devagar em um brilho que respira |
-| **Crown** | Eterno | Dez luzes girando em um brilho que respira e cintila |
+| **Glow** | Comum | Um brilho suave com um fino anel de luz na borda |
+| **Breath** | Incomum | Um brilho e um anel de luz que respiram devagar |
+| **Motes** | Raro | Um anel de luz com quatro pequenos cometas girando dentro dele |
+| **Shimmer** | Raro | Uma espiral lenta de dois braços em um anel tênue, cintilando |
+| **Sparkle** | Épico | Seis cometas que giram e cintilam, em um anel de luz |
+| **Wreath** | Épico | Oito cometas em órbita lenta, em um anel de luz com um anel mais fino dentro dele |
+| **Halo** | Mítico | Um anel de luz brilhante que respira, com dois anéis mais finos dentro dele e seis cometas girando |
+| **Laurel** | Lendário | Um anel de luz que respira em volta de uma espiral lenta de três braços, com oito cometas girando devagar |
+| **Crown** | Eterno | Um anel de luz brilhante com dois anéis mais finos e uma espiral de quatro braços dentro dele e oito cometas girando, que respira e cintila |
+| **Event Horizon** | Mítico | Uma faixa escura que escurece o que está atrás dela, dentro de um anel de luz brilhante que arde de um lado |
+| **Accretion** | Mítico | Uma espiral lenta de três braços em um anel de luz, com oito cometas caindo para dentro |
+| **Singularity** | Lendário | Uma faixa escura dentro de um anel de luz brilhante, uma espiral de dois braços e seis cometas cintilantes caindo para dentro |
+| **Gravity Well** | Mítico | Uma faixa escura tênue e três anéis mais finos dentro de um anel de luz que respira |
 
-Uma aura fica dentro do anel que marca uma trava e é desenhada por baixo de todo o resto em volta de uma nave.
+Uma aura fica dentro do anel que marca uma trava e é desenhada por baixo de todo o resto em volta de uma nave. O anel de luz dela é fino, tem a cor da aura e um arco brilhante que percorre a sua volta; o anel de trava fica por fora dele e é fixo. Um cometa é uma luzinha com uma cauda curta.
+
+**Event Horizon**, **Accretion**, **Singularity** e **Gravity Well** não estão no Arquivo Cromático: um administrador os emite.
 
 ## O Guarda-roupa {#the-wardrobe}
 

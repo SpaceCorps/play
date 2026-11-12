@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
+<!-- wiki-i18n source: 38baebcbfc5e575a -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -7,8 +7,8 @@ Ostirion は中堅クラスの堅実なインターセプターで、基本の P
 ## ステータス {#stats}
 
 - **ヒットポイント（HP）**：64,000
-- **基本速度**：220
-- **レーザースロット**：3
+- **基本速度**：260
+- **レーザースロット**：5
 - **エクストラスロット**：2
 
 ### ジェネレーターとサポートのスロット {#generator-support-slots}

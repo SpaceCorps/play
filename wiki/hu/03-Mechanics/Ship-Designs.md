@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b1349c235aad6a2 -->
+<!-- wiki-i18n source: 4916e76f267d67da -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -12,19 +12,19 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 
 | Dizájn | Mit változtat | Hajótest | Alapsebesség | Lézerfoglalatok |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% alap hajótest, +40 alap sebesség, +1 lézerfoglalat | 96 000 | 270 | 10 |
-| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, -1 lézerfoglalat, +10% pajzselnyelés, +20% modellméret | 160 000 | 210 | 8 |
-| **Paragon LICH** | +1% pajzsregeneráció másodpercenként | 128 000 | 230 | 9 |
-| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink | 162 000 | 310 | 14 |
-| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod | 180 000 | 210 | 16 |
-| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon | 144 000 | 260 | 13 |
-| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 600 000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 500 000 | 110 | 10 |
-| **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 14 |
-| **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 13 |
-| **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod | 307 200 | 230 | 13 |
-| **Wraith ATARAXIS** | -1 lézerfoglalat, +1 támogató foglalat, +25% pajzskapacitás, +10% pajzselnyelés, Shield Buff | 256 000 | 210 | 12 |
-| **Wraith MATT** | +2 lézerfoglalat, -20% pajzskapacitás, +10% lézeres pajzsáthatolás | 256 000 | 210 | 15 |
+| **Paragon THUNDER** | -25% alap hajótest, +40 alap sebesség, +1 lézerfoglalat | 96 000 | 310 | 11 |
+| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, -1 lézerfoglalat, +10% pajzselnyelés, +20% modellméret | 160 000 | 250 | 9 |
+| **Paragon LICH** | +1% pajzsregeneráció másodpercenként | 128 000 | 270 | 10 |
+| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink | 162 000 | 400 | 15 |
+| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod | 180 000 | 300 | 17 |
+| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon | 144 000 | 350 | 14 |
+| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 600 000 | 80 | 5 |
+| **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 500 000 | 100 | 10 |
+| **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 15 |
+| **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 14 |
+| **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod | 307 200 | 230 | 14 |
+| **Wraith ATARAXIS** | -1 lézerfoglalat, +1 támogató foglalat, +25% pajzskapacitás, +10% pajzselnyelés, Shield Buff | 256 000 | 210 | 13 |
+| **Wraith MATT** | +2 lézerfoglalat, -20% pajzskapacitás, +10% lézeres pajzsáthatolás | 256 000 | 210 | 16 |
 
 ## Dizájnt szerezni {#getting-a-design}
 
@@ -35,10 +35,10 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 | Dizájn | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50 000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 5 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100 000 | 25 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100 000 | 20 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100 000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100 000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100 000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100 000 | 24 | 50 | 100 | 15 | 5 |
@@ -58,12 +58,12 @@ Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a T
 | Hajó | Páncélzatfoglalatok | A foglalatok ideje | A foglalatok Dark Mattere | Dizájnok | A dizájnok ideje | A dizájnok Dark Mattere |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon** | 5 | 5 óra | 50 | 3 | 30 óra | 30 |
-| **Storm** | 7 | 7 óra | 70 | 3 | 30 óra | 30 |
+| **Storm** | 8 | 8 óra | 80 | 3 | 30 óra | 30 |
 | **Ironclad** | 15 | 15 óra | 150 | 2 | 20 óra | 20 |
 | **Wraith** | 10 | 10 óra | 100 | 5 | 50 óra | 50 |
-| **Mind a négy** | 37 | 37 óra | 370 | 13 | 130 óra | 130 |
+| **Mind a négy** | 38 | 38 óra | 380 | 13 | 130 óra | 130 |
 
-Együtt 500 Dark Mattert kérnek, az összes többi technológia 759-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 374 a játék összes technológiájára.
+Együtt 510 Dark Mattert kérnek, az összes többi technológia 789-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 384 a játék összes technológiájára.
 
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 

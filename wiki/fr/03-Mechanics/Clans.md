@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -66,6 +66,8 @@ Le chef et les chefs adjoints peuvent demander deux choses à un pilote qui veut
 - **Un grade minimum** : un palier de grade de corporation, de **Pilote** (aucune condition) à **Amiral** : Pilote, Sergent, Lieutenant, Capitaine, Commandant, Colonel, Général, Amiral ([Grades](/wiki/03-Mechanics/Ranks.md)). Un palier compte à partir de son grade le plus bas : un clan qui demande Capitaine accepte un Capitaine junior et tous les pilotes au-dessus. C’est le grade que vous avez maintenant dans le classement de votre corporation, pas le monde dans lequel vous volez.
 
 Elles sont vérifiées quand un pilote **postule ou rejoint**. L’**invitation** d’un officier les ignore, de même qu’une candidature qu’un officier accepte. Le registre des flottes les montre sous forme de petites pastilles sous le nom du clan, en rouge pour celle que vous ne remplissez pas ; un clan qui n’a rien réglé n’exige rien.
+
+**Une candidature à la fois.** Une candidature en attente s’affiche **Postulé** dans le **registre des flottes** et sur la page du clan, y compris après avoir fermé le menu et l’avoir rouvert, et son bouton reste grisé. Une deuxième candidature au même clan répond « Candidature déjà en attente » et n’envoie rien. Si un officier du clan refuse la vôtre, vous pouvez postuler de nouveau à ce clan après **60 secondes**, et vous pouvez envoyer au plus **5 candidatures** en 10 minutes, tous clans confondus.
 
 ---
 
@@ -193,6 +195,12 @@ Le bouton **Qui est en ligne** de la barre d’outils système (en haut à droit
 - **Recherche.** Tapez une partie d’un nom ou d’un tag de clan ; la fenêtre interroge de nouveau le serveur quand la liste a été coupée.
 - **Inviter.** Le bouton **Inviter** d’une ligne est l’invitation propre de la fenêtre Groupe ([Groupes](/wiki/03-Mechanics/Groups.md)), avec les mêmes réponses et les mêmes refus (le pilote est dans un groupe, le groupe est plein, Ne pas déranger est activé). Le bouton est grisé, avec la raison au survol, quand le jeu sait déjà que l’invitation sera refusée.
 - La liste est relue toutes les 10 secondes tant que la fenêtre est ouverte.
+
+---
+
+## Chat du clan {#clan-chat}
+
+L’onglet **Clan** du chat ([Canaux de chat](/wiki/03-Mechanics/Groups.md#chat-channels), la commande `/c`) est réservé aux membres de votre clan. Le serveur en garde les **200** dernières lignes, aucune de plus de **14 jours**, pour qu’un membre qui n’était pas connecté les trouve à sa connexion ou à son arrivée : la plus ancienne d’abord, sous une ligne qui dit combien de temps le chat est conservé, avec la date sur les lignes des jours précédents. Celui qui quitte le clan ou en est renvoyé n’en reçoit plus rien. Quand le clan est dissous, par son Chef ou à [la réinitialisation](#the-wipe-disbands-every-clan), ses lignes sont supprimées avec lui.
 
 ---
 

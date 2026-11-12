@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Estrazione di asteroidi -->
 # Estrazione di asteroidi {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Una rottura può lasciare anche un **Cluster Chunk** intero, nel blocco di miner
 
 ## Chi riceve i frammenti {#who-gets-the-chunks}
 
-Un asteroide è un lavoro condiviso: qualsiasi numero di piloti può colpirlo, con razzi, con laser o con gli impulsi di un Mole, e i frammenti vanno in base al danno inflitto da ciascuno, non a chi spara per primo o per ultimo. La riga dei danni nella finestra bersaglio mostra chi ha inflitto quanto e che cosa era già stato inflitto prima del tuo arrivo. I crediti e il Thulium di una rottura vengono estratti una volta e divisi in base al danno; il minerale si divide tra i piloti che hanno inflitto più danno; i ritrovamenti rari vanno a chi ne ha inflitto di più. Un pilota che ha inflitto meno della quota indicata in Le regole non riceve nulla, e il Registro di gioco lo dice. I frammenti vengono posati per ogni pilota pagato e restano per un po’ riservati a lui e al suo clan, poi liberi per tutti.
+Un asteroide è un lavoro condiviso: qualsiasi numero di piloti può colpirlo, con razzi, con laser o con gli impulsi di un Mole, e i frammenti vanno in base al danno inflitto da ciascuno, non a chi spara per primo o per ultimo. La riga dei danni nella finestra bersaglio mostra chi ha inflitto quanto e che cosa era già stato inflitto prima del tuo arrivo. I crediti e il Thulium di una rottura vengono estratti una volta e divisi in base al danno; il minerale si divide tra i piloti che hanno inflitto più danno; i ritrovamenti rari vanno a chi ne ha inflitto di più. Un pilota che ha inflitto meno della quota indicata in Le regole non riceve nulla, e il Registro di gioco lo dice. I frammenti vengono posati per ogni pilota pagato. Per un po’ solo quel pilota può prenderli, non i compagni del suo clan; poi sono liberi per tutti.
 
 ## Il P.E.T. Mole {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Un **Mole** agganciato (un tipo di [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)
 
 - Un pilota che ha inflitto almeno 5% dei danni a un asteroide riceve una parte dei suoi frammenti, in proporzione ai danni inflitti. Se nessuno arriva a 5%, il pilota che ha inflitto di più li riceve tutti.
 - Un [gruppo](/wiki/03-Mechanics/Groups.md#sharing-kills) conta come un solo pilota, e la sua parte è divisa per livello tra i compagni vicini che sparano.
-- I frammenti di una rottura restano riservati per 30 s al pilota per cui sono stati posati e al suo clan. Dopo, chiunque sulla mappa può prenderli. Un frammento che nessuno prende sparisce dopo 3 min.
+- Per 30 s i frammenti di una rottura possono essere presi solo dal pilota per cui sono stati posati, non dai compagni del suo clan. Dopo, chiunque sulla mappa può prenderli. Un frammento che nessuno prende sparisce dopo 3 min.
 - Una mappa contiene al massimo 36 frammenti, entro il limite di 64 casse per mappa: i frammenti non scacciano mai le casse degli alieni, e queste non scacciano mai un frammento. Quando la mappa non ha posto per un frammento, il pilota a cui era destinato viene pagato subito.
 - I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza. Non c’è un limite giornaliero a ciò che ti può essere pagato: ogni frammento paga per intero i suoi crediti e il suo Thulium, indipendentemente da quanti ne raccogli in un giorno.
 - La ricompensa è uguale per tutti: nessun bonus Premium, potenziamento dell’Emporio, potenziamento del clan, Loot Luck o booster cambia i crediti, il Thulium o i ritrovamenti. Il [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aggiunge alle risorse di un frammento di minerale quando lo raccogli, come a qualsiasi cassa.

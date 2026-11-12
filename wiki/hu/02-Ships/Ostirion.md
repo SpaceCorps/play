@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 39ec35bf0fb32c89 -->
+<!-- wiki-i18n source: 38baebcbfc5e575a -->
 <!-- wiki-i18n title: Ostirion -->
 # Ostirion
 
@@ -7,8 +7,8 @@ Az Ostirion szilárd középkategóriás elfogó, amely jelentős előrelépést
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 64 000
-- **Alapsebesség**: 220
-- **Lézerfoglalatok**: 3
+- **Alapsebesség**: 260
+- **Lézerfoglalatok**: 5
 - **Extrafoglalatok**: 2
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}

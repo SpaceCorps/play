@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -23,7 +23,7 @@ Les **objets spéciaux** sont six objets à usage unique qui vous font gagner du
 | Objet | Rareté | Vous pouvez en garder | Ce qu’il fait |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Légendaire | 5 | Termine une amélioration du Skylab sur-le-champ |
-| **Schematics** | Rare | 20 | Termine la recherche en cours, si elle dure 24 heures ou moins |
+| **Schematics** | Rare | 20 | Retire 24 heures à la recherche en cours ; la termine s’il en reste 24 heures ou moins |
 | **Philosopher’s Stone** | Épique | 10 | Votre Ferme à crédits et votre Ferme à Thulium produisent le double pendant 10 heures |
 | **Tinkerer’s Badge** | Épique | 10 | Fait monter une pièce d’équipement d’un rang de Forge, à partir de Souillé |
 | **Forger’s Seal** | Peu commun | 99 | Saute jusqu’à 30 minutes de la file de production |
@@ -44,12 +44,13 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 ### Schematics
 
-Termine **la recherche en cours**, si la technologie demande **24 heures ou moins** de recherche. 143 des 159 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) y sont admises. Les 16 qui demandent 48 ou 72 heures ne le sont pas : le Wraith, trois formations de drones, Hull Plating III, les niveaux 4 et 5 du Module Moteurs et du Module Défense et sept technologies de Pilote.
+Retire **24 heures à la recherche en cours**. S’il en reste **24 heures ou moins**, la recherche est **terminée** sur-le-champ ; s’il en reste plus, elle perd 24 heures et continue, et vous pouvez utiliser un autre Schematics dessus. 167 des 187 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) demandent 24 heures ou moins : un Schematics les termine donc dès le départ. Les 20 autres demandent plus, 48 ou 72 heures pour la plupart et 96, 168 et 240 heures pour les Rocket Launcher III, IV et V, et exigent de 2 à 10 Schematics.
 
-- **Selon la durée de recherche, pas le temps restant.** Une technologie de 48 heures à laquelle il reste une heure est quand même refusée : Schematics regarde combien de temps la technologie demande en tout.
-- **Le prix reste payé.** La Dark Matter, les crédits et le Thulium ont été prélevés au début de la recherche et ne sont pas rendus. La science que la recherche n’a pas encore brûlée reste dans votre réservoir.
-- **La recherche se termine comme une recherche achevée.** La technologie est à vous, les avis apparaissent et **la technologie suivante de votre file démarre aussitôt**, si elle le peut.
-- **Refusé** sans Centre de recherche, sans recherche en cours, ou quand la technologie demande plus de 24 heures.
+- **Des heures de la technologie, pas de l’horloge.** Les 24 heures sont le temps de recherche propre à la technologie, celui de sa fiche. Le boost de Thulium fait avancer une recherche plus vite, mais ne change pas ce qu’une utilisation retire ; si un boost couvrirait la fin de la recherche, une utilisation fait donc gagner moins d’heures d’attente (à double vitesse, une journée de recherche vaut 12 heures d’attente). La confirmation indique ce que le compte à rebours affichera.
+- **La recherche continue comme avant.** Une recherche qui perd 24 heures garde sa place : le boost continue, la file n’est pas touchée et rien ne démarre derrière elle. Une recherche qui attend de la science attend toujours : Schematics donne du temps, pas du carburant.
+- **Le prix reste payé.** La Dark Matter, les crédits et le Thulium ont été prélevés au début de la recherche et ne sont pas rendus. La science que le temps sauté aurait brûlée reste dans votre réservoir.
+- **Une recherche terminée finit comme une recherche achevée.** La technologie est à vous, les avis apparaissent et **la technologie suivante de votre file démarre aussitôt**, si elle le peut.
+- **Refusé** sans Centre de recherche ou sans recherche en cours (une recherche qui s’est terminée seule avant votre clic n’est plus en cours, et rien n’est dépensé).
 - Il ne lance jamais une recherche et n’en choisit jamais une pour vous.
 
 ### Philosopher’s Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-
 - **Un compteur, pas un objet.** L’inventaire du Hangar est le seul endroit qui les liste, sous forme de cases parmi les consommables ; une sorte dont vous ne possédez aucun exemplaire n’a pas de case. Une case n’est pas un objet : on ne peut ni la glisser, ni la sélectionner, ni la supprimer, ni la vendre. Ils n’ont ni poids, ni emplacement de barre rapide, ni place dans la cargaison ou le cache de transport ; ils ne tombent jamais quand votre vaisseau est détruit.
 - **À travers la réinitialisation.** Vos objets spéciaux et une Philosopher’s Stone ou un contrat en cours sont conservés, comme le Skylab, la recherche et votre look.
 - **Jamais échangés.** Ni aux [Enchères](/wiki/03-Mechanics/Auction.md), ni à un autre pilote, ni contre des crédits.
-- **Seul le Hammer peut changer votre rythme**, et vous ne pouvez en garder que 5. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, une recherche de 24 heures au plus.
+- **Seul le Hammer peut changer votre rythme**, et vous ne pouvez en garder que 5. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, 24 heures d’une recherche.
 - **Un usage, une confirmation, un son.** Chaque utilisation joue son propre signal discret.
 
 ## Erreurs courantes {#common-mistakes}
 
 - **Le Hammer exige une amélioration en cours.** Lancez d’abord l’amélioration. Un module dont le minuteur est déjà terminé n’a plus rien à terminer.
-- **Schematics regarde toute la durée de recherche.** Une technologie de 48 ou 72 heures ne peut pas être terminée par lui, si peu qu’il en reste.
+- **Une longue recherche demande plusieurs Schematics.** Un seul retire 24 heures, pas plus : une technologie de 240 heures en demande dix. La fiche vous dit ce qu’il restera avant que vous confirmiez.
 - **La Stone n’agrandit pas le réservoir.** Récupérez avant qu’une ferme ne se remplisse, sinon le bonus est perdu.
 - **Le Badge est pour Souillé et au-dessus.** La première étape de la Forge n’a pas besoin de Badge.
 - **Un contrat a besoin de travail à faire.** Construisez d’abord un producteur, une Baie à minerai ou un module, puis engagez l’ouvrier.

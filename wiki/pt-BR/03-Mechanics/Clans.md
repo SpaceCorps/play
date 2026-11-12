@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -66,6 +66,8 @@ O Líder e os Vice-líderes podem pedir duas coisas a um piloto que quer entrar:
 - **Uma patente mínima**: uma faixa das patentes da corporação, de **Piloto** (sem requisito) a **Almirante**: Piloto, Sargento, Tenente, Capitão, Major, Coronel, General, Almirante ([Patentes](/wiki/03-Mechanics/Ranks.md)). Uma faixa conta a partir do grau mais baixo dela: um clã que pede Capitão aceita um Capitão júnior e todos os pilotos acima dele. É a patente que você tem agora no ranking da sua corporação, não o mundo em que você voa.
 
 Eles são verificados quando um piloto **se candidata ou entra**. O **convite** de um oficial os dispensa, e também uma candidatura que um oficial aceita. O registro de frotas os mostra como pequenas cápsulas sob o nome do clã, em vermelho aquele que você não cumpre; um clã que não definiu nada não pede nada.
+
+**Um pedido de cada vez.** Um pedido que está esperando aparece como **Pedido enviado** no **registro de frotas** e na página do clã, também depois de você fechar o menu e abri-lo de novo, e o botão dele continua cinza. Um segundo pedido ao mesmo clã responde “Já existe uma candidatura pendente” e não envia nada. Se um oficial do clã recusar o seu, você pode pedir de novo a esse clã depois de **60 segundos**, e pode enviar no máximo **5 pedidos** em quaisquer 10 minutos, a todos os clãs juntos.
 
 ---
 
@@ -193,6 +195,12 @@ O botão **Quem está online** na barra de ferramentas do sistema (no alto, à d
 - **Busca.** Digite parte de um nome ou de uma tag de clã; a janela pergunta de novo ao servidor quando a lista foi cortada.
 - **Convidar.** O botão **Convidar** de uma linha é o convite próprio da janela Grupo ([Grupos](/wiki/03-Mechanics/Groups.md)), com as mesmas respostas e recusas (o piloto está em um grupo, o grupo está cheio, o Não perturbe está ativado). O botão fica cinza, com o motivo ao passar o mouse, quando o jogo já sabe que o convite seria recusado.
 - A lista é lida de novo a cada 10 segundos enquanto a janela está aberta.
+
+---
+
+## Chat do clã {#clan-chat}
+
+A aba **Clã** do chat ([Canais de chat](/wiki/03-Mechanics/Groups.md#chat-channels), o comando `/c`) é só para os membros do seu clã. O servidor guarda as últimas **200 linhas** dele, nenhuma com mais de **14 dias**, para que um membro que não estava online as encontre ao entrar no jogo ou no clã: a mais antiga primeiro, sob uma linha que diz por quanto tempo o chat é guardado, com a data nas linhas de dias anteriores. Quem sai do clã ou é expulso não recebe mais nada. Quando o clã é dissolvido, pelo seu Líder ou no [reset](#the-wipe-disbands-every-clan), as linhas são apagadas com ele.
 
 ---
 

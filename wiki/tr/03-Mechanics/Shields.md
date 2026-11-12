@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Kalkanlar -->
 # Kalkan mekaniği {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 - **Shield Absorbance Boost**: sıfırlama puanıyla satın alınan kalıcı bir Sezon Mağazası güçlendirmesi, **seviye başına +0,1 puan, en fazla +10 puan** (100 seviye, her biri 25 WP). Geminin soğurmasına sabit puan ekler, kalkanı olan her gemide aynıdır: %91, 4 seviyeyle (100 WP) %91,4 olur; Light Shield Core için %45 olan soğurma 12 seviyeyle (300 WP) %46,2 olur. Kalkan takılı olmayan bir gemi %0’da kalır. 100 seviye 2.500 WP tutar, birkaç sıfırlamalık bir hedeftir: sıfırlama puanı kaynakları (öldürme kilometre taşları, görevler ve beş Dormant Knowledge araştırması) bir sıfırlamada en fazla 1.105 WP öder ve her sıfırlamada yeniden başlar, rütben sıfırlamada 5 ile 400 arası ekler ve 1.105 WP 44 seviye, +4,4 puan alır. Bkz. [Sezon ve sıfırlama puanları](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Demirhane**: kalkanlar ve kalkan hücreleri, özelliği çarpan bir **Soğurma** bonusu alabilir: %55’lik bir kalkanda +%5, +2,75 puandır. Tam dövülmüş Ebedi bir en iyi set (bir çekirdek ve üç hücre, her bonus en üst değerde, +%15) 13,65 puana kadar ekler, ortalama yaklaşık 11 (bkz. [Demirhane](/wiki/06-Items/Forge.md)).
 - **Field Theory**: Pilot araştırması Field Theory I, II ve III ([Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies)) bütün gemilerinin soğurmasına, her seviye bir öncekinin üstüne eklenmeden, toplamda **+4, +7 ve +10 puan** ekler; bedeli kredi, Thulium ve Dark Matter’dır. Sezon Mağazası güçlendirmesi gibi kalkanı olan her gemide sabit puandır ve sıfırlamadan sonra da kalır.
+- **Kalkan soğurması**: [pilot becerisi](/wiki/03-Mechanics/Pilot-Skills.md#the-stats), geminin yukarıdaki her şeyden sahip olduğu soğurmaya 100. seviyede en fazla **+5 puan** ekler; toplam için bir üst sınır yoktur: %119’daki bir gemi %124’e çıkar, kalkan takılı olmayan bir gemi ise %0’da kalır. **Birlikte** maddesindeki rakamlara girmez.
 - **Birlikte**: bonussuz %91, +4,4 puan güçlendirme (bir sıfırlamanın 1.105 sıfırlama puanı), en fazla +13,65 puan Demirhane bonusu ve Field Theory III’ten +10 puan bir sıfırlamadan sonra en fazla **%119,05** eder; bu, [tasarım](/wiki/03-Mechanics/Ship-Designs.md) ve [formasyon](/wiki/03-Mechanics/Formations.md) kullanmayan sade bir gemi için geçerlidir; güçlendirmenin 100 seviyesinin hepsiyle (+10 puan, 2.500 WP) %124,65 olurdu. %10 kalkan soğurması veren bir tasarım (Paragon BUCKY, Ironclad DUMA, Wraith ATARAXIS) ile Rampart formasyonu (%17), güçlendirmenin ve Field Theory’nin sabit puanları eklenmeden önce kalkanların soğurmasıyla çarpılır; ikisini de taşıyan aynı gemi bir sıfırlamadan sonra **%149,1** eder (100 seviyenin hepsiyle %154,7). Üçünün her biri tek başına %100’ü aşar: sınırındaki güçlendirme ve Field Theory III %101 yapar, en iyi değerleri alan tam bir Ebedi set %104,65; Ebedi bir set Field Theory III ile birlikte %109 ile %115 arasına ulaşır ve güçlendirmenin seviyeleri bunun üstüne gelir. Bu rakamların hepsi yalnızca sıfırlama puanı kaynaklarını sayar; rütbenin sıfırlamada ödediği 5 ile 400 sıfırlama puanını saymaz, bu puanlarla güçlendirmenin daha fazla seviyesi alınır.
 
 ### Kalkan güçlendirmeleri: kapasite, soğurma, dolum {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Bazı saldırıların bir **kalkan delmesi** vardır: o vuruş için soğurmanda
 Her kalkan güçlendirmesi üç özellikten birini yükseltir ve Boosterlar penceresinde kendi türünün altında listelenir:
 
 - **Kapasite** (en yüksek kalkan puanı): Shield Wall Booster I ve II ile kalıcı kalkan kapasitesi güçlendirmesi.
-- **Soğurma** (kalkanlarının aldığı vuruş payı): kalıcı kalkan soğurması güçlendirmesi (seviye başına +0,1 puan, en fazla +10 puan).
+- **Soğurma** (kalkanlarının aldığı vuruş payı): kalıcı kalkan soğurması güçlendirmesi (seviye başına +0,1 puan, en fazla +10 puan) ve Kalkan soğurması pilot becerisi (en fazla +5 puan).
 - **Dolum** (saniyede geri gelen kalkan puanı): Shield Regen Booster.
 
 Sayılar için [Boosterlar](/wiki/06-Items/Boosters.md) sayfasına bak.

@@ -13,7 +13,7 @@ Destroyed aliens leave their loot in space as glowing cargo crates. Fly over and
 - **The leaders of the [swarms](/wiki/05-Swarms/Swarms.md) (the Tesseract excepted) and the Dormant Pulses** drop a box of their own, with ammo, rockets and resources. It is reserved for the pilot who dealt the most damage to the ship (and that pilot's clan), not for the first to hit it.
 - **A [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lays no such box: every pilot who dealt 5% or more of the damage gets a [private box](#private-boxes) of his own, with his share of the loot.
 - **The [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** lays no box at its wreck either: every pilot its kill pays gets a [private box](#private-boxes) of his own, with his share of its Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units and Dark Matter.
-- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)** leave **chunks** instead of one crate: small nuggets and crystals that hold Credits and Thulium, and a stone that holds ore. The Credits and Thulium are paid when you collect a chunk, not when the asteroid breaks. A chunk is collected like a crate, and it is reserved for the pilots who earned it and then free, as a crate is.
+- **[Asteroids](/wiki/03-Mechanics/Asteroid-Mining.md)** leave **chunks** instead of one crate: small nuggets and crystals that hold Credits and Thulium, and a stone that holds ore. The Credits and Thulium are paid when you collect a chunk, not when the asteroid breaks. A chunk is collected like a crate, and it is reserved for the pilot it was laid for: for 30 seconds only he can take it, not his clan mates, and then it is free, as a crate is.
 
 An alien a company pilot finishes drops its loot for the pilot the kill counts for (the one holding its claim, else the pilot of its company fighting it); one a company pilot fought alone drops nothing, since company pilots never collect.
 
@@ -33,7 +33,7 @@ The crate's lights take the colour of the rarest item inside: teal for common lo
 
 ## Who Gets It
 
-- The pilot paid for the kill, and the members of that pilot's **clan**, have the crate to themselves for **30 seconds**. For an alien that is the pilot holding its claim, the first to hit it (see [Combat](/wiki/03-Mechanics/Combat.md)), whoever finished it. Other pilots see it dimmed and can't take it yet; a ship sent to it waits nearby until the time is up.
+- The pilot paid for the kill, and the members of that pilot's **clan**, have the crate to themselves for **30 seconds**. For an alien that is the pilot holding its claim, the first to hit it (see [Combat](/wiki/03-Mechanics/Combat.md)), whoever finished it. Other pilots see it dimmed and can't take it yet; a ship sent to it waits nearby until the time is up. The chunks of an [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) are the exception: for those 30 seconds only the pilot they were laid for can take them, not his clan mates.
 - After that, **anyone** on the map may take it.
 - Only a ship on the crate's map can take it: if you are destroyed, jump or log off on the way (or during the half second the pickup takes), the crate stays for the others.
 - If two pilots collect the same crate at once, the one whose pickup finishes first gets it, exactly once; the other is told it is gone.

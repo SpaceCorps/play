@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-Kitefin hafif bir saldırı gemisidir ve çoğu pilotun satın aldığı ilk gemidir: üçüncü bir lazer, Protos gemisinin üç katı gövde ve daha hızlı bir itki sistemi; Thulium ile satın alınır.
+Kitefin hafif bir saldırı gemisidir ve çoğu pilotun satın aldığı ilk gemidir: dört lazer, Protos gemisinin üç katı gövde ve daha hızlı bir itki sistemi; Thulium ile satın alınır.
 
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 24.000
-- **Temel hız**: 190
-- **Lazer yuvaları**: 3
+- **Temel hız**: 220
+- **Lazer yuvaları**: 4
 - **Ekstra yuvalar**: 2
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}

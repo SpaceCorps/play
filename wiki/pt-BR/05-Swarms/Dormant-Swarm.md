@@ -57,7 +57,7 @@ Base: Wraith, com 100% do casco e 300% do dano dos lasers; a velocidade e o alca
 | :--- | ---: | ---: | ---: |
 | Casco | 256.000 | 384.000 | 512.000 |
 | Escudo | 83.400 | 125.100 | 166.800 |
-| Dano dos lasers (uma salva por segundo) | 3.120 | 4.680 | 6.240 |
+| Dano dos lasers (uma salva por segundo) | 3.570 | 5.355 | 7.140 |
 | Velocidade | 210 | 210 | 210 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
@@ -84,8 +84,8 @@ Base: Paragon, com 100% do casco e 600% do dano dos lasers; a velocidade e o alc
 | :--- | ---: | ---: | ---: |
 | Casco | 128.000 | 192.000 | 256.000 |
 | Escudo | 64.570 | 96.855 | 129.140 |
-| Dano dos lasers (uma salva por segundo) | 4.320 | 6.480 | 8.640 |
-| Velocidade | 230 | 230 | 230 |
+| Dano dos lasers (uma salva por segundo) | 5.100 | 7.650 | 10.200 |
+| Velocidade | 270 | 270 | 270 |
 | Alcance dos lasers | 800 | 800 | 800 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |
 | Dano dos foguetes, no máximo | 5.000 | 7.500 | 10.000 |

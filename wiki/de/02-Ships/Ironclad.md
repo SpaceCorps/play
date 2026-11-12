@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 500.000
-- **Grundtempo**: 110
+- **Grundtempo**: 100
 - **Laser-Slots**: 8
 - **Extra-Slots**: 3
 - **Panzerungs-Slots**: 15

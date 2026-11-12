@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -66,6 +66,8 @@ Ledaren och vice ledarna kan kräva två saker av en pilot som vill in:
 - **En lägsta grad**: en gradnivå i koncernens grader, från **Pilot** (inget krav) till **Amiral**: Pilot, Sergeant, Löjtnant, Kapten, Major, Överste, General, Amiral ([Grader](/wiki/03-Mechanics/Ranks.md)). En nivå räknas från sin lägsta grad: en klan som kräver Kapten tar emot en Junior kapten och varje pilot över hen. Det är graden du har just nu på din koncerns lista, inte världen du flyger i.
 
 De kontrolleras när en pilot **ansöker eller går med**. En officers **inbjudan** hoppar över dem, och det gör också en ansökan som en officer godkänner. Flottregistret visar dem som små kapslar under klanens namn, röd för den du inte uppfyller; en klan som inte har ställt in något kräver inget.
+
+**En ansökan i taget.** En ansökan som väntar visas som **Ansökt** i **flottregistret** och på klanens sida, även efter att du stängt menyn och öppnat den igen, och dess knapp förblir grå. En andra ansökan till samma klan får svaret ”En ansökan väntar redan” och skickar ingenting. Om en av klanens officerare avslår din kan du ansöka till den klanen igen efter **60 sekunder**, och du kan skicka högst **5 ansökningar** under vilka 10 minuter som helst, till alla klaner tillsammans.
 
 ---
 
@@ -193,6 +195,12 @@ Knappen **Vem är online** i systemverktygsfältet (uppe till höger) eller tang
 - **Sök.** Skriv en del av ett namn eller av en klantagg; fönstret frågar servern igen när listan var avkortad.
 - **Bjud in.** Radens knapp **Bjud in** är gruppfönstrets egen inbjudan ([Grupper](/wiki/03-Mechanics/Groups.md)), med samma svar och avslag (piloten är med i en grupp, gruppen är full, Stör ej är på). Knappen är grå, med orsaken när du håller muspekaren över den, när spelet redan vet att inbjudan skulle avvisas.
 - Listan läses om var 10:e sekund medan fönstret är öppet.
+
+---
+
+## Klanchatt {#clan-chat}
+
+Fliken **Klan** i chatten ([Chattkanaler](/wiki/03-Mechanics/Groups.md#chat-channels), kommandot `/c`) är bara för medlemmarna i din klan. Servern sparar de senaste **200 raderna**, ingen äldre än **14 dagar**, så att en medlem som inte var online hittar dem vid inloggningen eller vid inträdet: äldsta först, under en rad som säger hur länge chatten sparas, med datumet på raderna från tidigare dagar. Den som lämnar klanen eller blir utkastad får inget mer av den. När klanen upplöses, av sin ledare eller av [wipen](#the-wipe-disbands-every-clan), raderas dess rader med den.
 
 ---
 

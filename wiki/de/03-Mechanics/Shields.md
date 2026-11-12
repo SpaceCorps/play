@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Schilde -->
 # Schildmechanik {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 - **Schildabsorptions-Boost**: ein dauerhafter Buff aus dem Saison-Shop, mit Wipe-Punkten gekauft, **+0,1 Punkte pro Level, höchstens +10 Punkte** (100 Level, je 25 WP). Er fügt der Absorption deines Schiffs feste Punkte hinzu, auf jedem Schiff mit Schild gleich: 91 % werden mit 4 Leveln (100 WP) zu 91,4 %, und die 45 % eines Light Shield Core werden mit 12 Leveln (300 WP) zu 46,2 %. Ein Schiff ohne ausgerüsteten Schild bleibt bei 0 %. Die 100 Level kosten 2.500 WP, ein Ziel für mehrere Wipes: Die Quellen für Wipe-Punkte (die Abschuss-Meilensteine, die Missionen und die fünf Dormant-Knowledge-Forschungen) zahlen bis zu 1.105 WP pro Wipe und beginnen bei jedem Wipe von vorn, dein Rang bringt beim Wipe 5 bis 400 dazu, und 1.105 kaufen 44 Level, +4,4 Punkte. Siehe [Saison & Wipe-Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Schmiede**: Schilde und Schildzellen können einen **Absorptions**-Buff würfeln, der den Wert multipliziert: +5 % auf einen Schild mit 55 % sind +2,75 Punkte. Ein voll geschmiedetes bestes Set der Stufe Ewig (Kern und drei Zellen, jeder Buff am oberen Rand gewürfelt, +15 %) bringt bis zu 13,65 Punkte, im Durchschnitt etwa 11 (siehe [Die Schmiede](/wiki/06-Items/Forge.md)).
 - **Field Theory**: Die Pilot-Forschung Field Theory I, II und III ([Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies)) fügt der Absorption all deiner Schiffe **+4, +7 und +10 Punkte** hinzu, insgesamt und nicht jede Stufe obendrauf, für Credits, Thulium und Dark Matter. Wie der Buff des Saison-Shops sind es feste Punkte auf jedem Schiff mit Schild, und sie bleiben über den Wipe hinweg erhalten.
+- **Schildabsorption**: Die [Pilotenfertigkeit](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) fügt der Absorption, die dein Schiff aus allem Obigen hat, auf Stufe 100 bis zu **+5 Punkte** hinzu, ohne Obergrenze für die Summe: Ein Schiff mit 119 % kommt auf 124 %, und ein Schiff ohne ausgerüsteten Schild bleibt bei 0 %. In den Zahlen unter **Zusammen** ist sie nicht enthalten.
 - **Zusammen**: 91 % ab Werk, +4,4 Punkte Buff (die 1.105 Wipe-Punkte eines Wipes), bis zu +13,65 Punkte aus Schmiede-Buffs und +10 Punkte aus Field Theory III ergeben nach einem Wipe höchstens **119,05 %** auf einem schlichten Schiff, also ohne [Design](/wiki/03-Mechanics/Ship-Designs.md) und ohne [Formation](/wiki/03-Mechanics/Formations.md); mit allen 100 Leveln des Buffs (+10 Punkte, 2.500 WP) wären es 124,65 %. Ein Design mit +10 % Schildabsorption (Paragon BUCKY, Ironclad DUMA, Wraith ATARAXIS) und die Formation Rampart (+17 %) wirken als Faktor auf die Absorption der Schilde, noch bevor die festen Punkte von Buff und Field Theory hinzukommen; dasselbe Schiff mit beiden erreicht daher nach einem Wipe **149,1 %** (154,7 % mit allen 100 Leveln). Jedes der drei überschreitet 100 % für sich allein: der Buff am Limit und Field Theory III ergeben 101 %, ein voll gewürfeltes Set der Stufe Ewig 104,65 %; ein Set der Stufe Ewig zusammen mit Field Theory III erreicht 109 bis 115 %, und die Level des Buffs kommen noch obendrauf. Alle diese Werte zählen nur die Quellen der Wipe-Punkte, nicht die 5 bis 400 Wipe-Punkte, die dein Rang beim Wipe zahlt und die weitere Level des Buffs kaufen.
 
 ### Schild-Boosts: Kapazität, Absorption, Aufladung {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Manche Angriffe haben eine **Schilddurchdringung**: Punkte, die für diesen Tref
 Jeder Schild-Boost erhöht einen der drei Werte und steht im Fenster Booster unter seiner eigenen Art:
 
 - **Kapazität** (maximale Schildpunkte): Shield Wall Booster I und II und der dauerhafte Schildkapazitäts-Boost.
-- **Absorption** (der Anteil eines Treffers, den deine Schilde nehmen): der dauerhafte Schildabsorptions-Boost (+0,1 Punkte pro Level, höchstens +10 Punkte).
+- **Absorption** (der Anteil eines Treffers, den deine Schilde nehmen): der dauerhafte Schildabsorptions-Boost (+0,1 Punkte pro Level, höchstens +10 Punkte) und die Pilotenfertigkeit Schildabsorption (bis zu +5 Punkte).
 - **Aufladung** (pro Sekunde wiederhergestellte Schildpunkte): der Shield Regen Booster.
 
 Die Zahlen stehen unter [Booster](/wiki/06-Items/Boosters.md).

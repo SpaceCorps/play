@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Portões solo -->
 # Portões solo {#solo-gates}
 
@@ -84,13 +84,15 @@ A maioria dos giros não encontra peça. Cada um deles paga um prêmio, escolhid
 
 ## Entrar {#going-in}
 
-Você **constrói** um portão na página dos Portões Galácticos e **salta** para dentro pelo portal dele. Construir é feito pela estação, com a nave atracada: você não precisa estar voando. É preciso:
+Você **constrói** um portão na página dos Portões Galácticos e **salta** para dentro pelo portal dele. Construir é feito pela estação, com a nave atracada, e também em voo: a **janela dos Portões Galácticos**, que o botão dos portões da barra de ferramentas abre, gira, constrói e escolhe o destino como a página. É preciso:
 
 - as peças do portão: elas são tiradas **uma só vez, quando você o constrói**, e uma construção recusada não tira nada;
 - nenhuma outra partida solo aberta: você tem uma partida por vez, e uma partida que você deixou é retomada pelo portal dela ou abandonada antes de você construir outro portão;
 - o servidor principal (os servidores regionais não têm portões).
 
 O portão construído fica no seu **setor-base** (`M-1`, `T-1` ou `G-1`, conforme a sua corporação) como um portal com o nome dele, e a página dos Portões Galácticos diz onde ele está. **Decole, voe até o portal e salte** por ele como por qualquer portal. É preciso haver uma fenda livre no seu mundo quando você entrar: cada mundo tem um número delas, e quando todas estão ocupadas você espera.
+
+**Nos servidores regionais (Singapore, US East).** O portão em si fica no servidor principal: em um servidor regional nada é construído, jogado nem pago. Mas um portão construído não é esquecido ali: você é avisado quando chega, e o portal do seu portão também fica no seu setor-base. Salte por ele e você volta ao servidor principal, onde decola para o seu portão como descrito acima.
 
 Você pousa sozinho no meio de uma arena vazia. Ninguém pode atacar você nela, e a Jump CPU e a Base CPU não funcionam.
 
@@ -110,16 +112,18 @@ Todo mundo enfrenta o mesmo portão: a força e o pagamento dos alienígenas nã
 
 Os alienígenas são os do jogo (Seeker, Phantasm, Bulwark, Goombah e Crystalys), feitos mais duros ou mais moles pelo portão. O tempo previsto é o que o portão é construído para levar com um piloto no nível inicial de Tecnologia laser ([Perícias do piloto](/wiki/03-Mechanics/Pilot-Skills.md)); um piloto que subiu a Tecnologia laser termina antes.
 
+Algumas ondas trazem um **enxame**: um NPC chefe do jogo (um Boss Seeker, Boss Phantasm, Boss Goombah ou Boss Crystalys) com os seus guardas, que atacam como um só grupo. Cada nave de um enxame faz parte da sua onda, e a onda termina quando a última delas morre. Elas pagam como as outras naves da onda, com os valores da [tabela dos alienígenas](#the-aliens). **Um NPC chefe larga o seu saque como nos setores do jogo**: minério, placas, munição e foguetes (o que cada um larga está nas [páginas dos enxames](/wiki/05-Swarms/Swarms.md)). Em um portão não há caixa para pegar: o saque chega com o pagamento, direto no seu inventário, e uma só vez por partida, como o pagamento. Os seus guardas não largam nada, no portão como nos setores, e nem curam o chefe nem voltam. A tabela abaixo diz quais ondas de cada portão trazem um enxame.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Portão | Ondas, a do chefe incluída | Alienígenas nas ondas | Chefe | Tempo previsto |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 a 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 a 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 a 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 a 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 a 60 min |
+| Portão | Ondas, a do chefe incluída | Alienígenas nas ondas | Chefes NPC e enxames | Chefe | Tempo previsto |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | onda 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 a 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | onda 4: 2 Seeker Swarm; onda 9: 1 Phantasm Swarm | Enhanced Bulwark | 15 a 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | onda 4: 1 Phantasm Swarm; onda 9: 1 Goombah Swarm; onda 14: 1 Goombah Swarm | Elite Crystalys | 25 a 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | onda 5: 2 Phantasm Swarm; onda 10: 2 Goombah Swarm; onda 15: 1 Goombah Swarm; onda 20: 1 Crystalys Swarm | Siege Construct | 35 a 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | onda 6: 1 Goombah Swarm; onda 11: 2 Goombah Swarm; onda 16: 1 Crystalys Swarm; onda 22: 1 Phantasm Swarm | Omega Guardian | 50 a 60 min |
 
 - **Delta Siege**: a onda 18 (250 Seeker) é opcional: você pode pulá-la enquanto a contagem regressiva dela corre, e ela não paga nada
 - **Omega Vault**: a onda 17 (250 Seeker) é opcional: você pode pulá-la enquanto a contagem regressiva dela corre, e ela não paga nada; as ondas 22 a 24 são de elite, com ×1,5 de casco, escudo e dano
@@ -182,7 +186,7 @@ Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o 
 
 ### Os alienígenas {#the-aliens}
 
-Todo alienígena que você mata em um portão paga com os números que tem no Alpha, em qualquer mundo em que você voe: nenhum multiplicador de mundo, nenhum booster e nenhum bônus Premium os muda. Uma onda paga pelos seus alienígenas **uma vez** por partida, por mais vezes que você saia e volte. O pagamento chega no fim de cada trecho da partida: quando você sai, morre, fica sem vidas, abandona ou vence. As baixas de um trecho ficam sem pagamento apenas no reset e em um reinício do servidor enquanto você está dentro (a sua partida continua aberta, mas as baixas desse trecho se perdem). As baixas de um portão não contam para mais nada: nem para as missões, nem para as estatísticas de baixas, nem para os contadores das conquistas, nem para o registro de baixas, nem para a experiência dos seus drones e P.E.T.s. A experiência que elas pagam, porém, conta para os seus pontos PvE, como a de uma vitória. O saque dos alienígenas chega com o pagamento, direto no seu inventário.
+Todo alienígena que você mata em um portão paga com os números que tem no Alpha, em qualquer mundo em que você voe: nenhum multiplicador de mundo, nenhum booster e nenhum bônus Premium os muda. Uma onda paga pelos seus alienígenas **uma vez** por partida, por mais vezes que você saia e volte. O pagamento chega no fim de cada trecho da partida: quando você sai, morre, fica sem vidas, abandona ou vence. As baixas de um trecho ficam sem pagamento apenas no reset e em um reinício do servidor enquanto você está dentro (a sua partida continua aberta, mas as baixas desse trecho se perdem). As baixas de um portão contam para as [missões](/wiki/03-Mechanics/Quests.md#where-it-counts) que não indicam nenhum setor (como as grandes caçadas da linha de Desafios), no momento em que acontecem (uma onda conta para elas **uma vez** por partida, assim como paga uma vez só), e para mais nada: nem para as estatísticas de baixas, nem para os contadores das conquistas, nem para o registro de baixas, nem para a experiência dos seus drones e P.E.T.s. A experiência que elas pagam, porém, conta para os seus pontos PvE, como a de uma vitória. O saque dos alienígenas chega com o pagamento, direto no seu inventário.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Todo alienígena que você mata em um portão paga com os números que tem no Al
 | **Bulwark** | 5.000 | 25 | 800 | 10 |
 | **Goombah** | 15.000 | 75 | 3.000 | 24 |
 | **Crystalys** | 75.000 | 200 | 12.000 | 52 |
+| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Portão | Créditos | Thulium | XP | Honra |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540.000 | 2.160 | 54.000 | 1.080 |
-| **Beta Breach** | 1.320.000 | 5.980 | 186.000 | 2.520 |
-| **Gamma Foundry** | 3.000.000 | 13.300 | 522.000 | 4.616 |
-| **Delta Siege** | 4.975.000 | 21.400 | 829.000 | 7.640 |
-| **Omega Vault** | 6.875.000 | 29.000 | 1.160.000 | 10.100 |
+| **Alpha Rift** | 514.000 | 2.099 | 55.296 | 1.018 |
+| **Beta Breach** | 1.298.500 | 5.939 | 187.744 | 2.470 |
+| **Gamma Foundry** | 3.064.500 | 13.693 | 541.944 | 4.696 |
+| **Delta Siege** | 5.239.625 | 22.338 | 882.676 | 7.850 |
+| **Omega Vault** | 7.088.125 | 29.196 | 1.196.828 | 10.022 |
 
 <!-- solo-kills:end -->
 

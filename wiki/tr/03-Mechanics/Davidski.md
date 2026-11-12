@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4f7a0fd89c5542b0 -->
+<!-- wiki-i18n source: 5840847853041fa0 -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -23,7 +23,7 @@ Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça 
 | Ekstralar | bir Repair Drone IV, bir Auto-Repair CPU ve bir Base CPU II |
 | Gövde | 15 Hull Plating III |
 
-Alpha gücünde **931.250 gövde**, **1.559.486 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %90,9 soğurma, 102 hız, 945 menzil ve saniyede **4.440** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,5 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on dört dakika kesintisiz ateş ister; on Wraith ise yaklaşık 86 saniye.
+Alpha gücünde **931.250 gövde**, **1.559.486 kalkan** (15 saniye vuruş almazsa saniyede 67.614 yenilenir), %90,9 soğurma, 97 hız, 945 menzil ve saniyede **5.014** değerinde bir salvosu vardır. Beta bu sayıların 1,5 katını, Gamma 2 katını taşır; her uzaylı gibi. Alpha’da eritmen gereken yaklaşık 2,5 milyon puan var: aynı lazerlere sahip tek bir Wraith kendi başına yaklaşık on iki dakika kesintisiz ateş ister; on Wraith ise yaklaşık 71 saniye.
 
 ## Ona karşı savaşmak {#fighting-him}
 

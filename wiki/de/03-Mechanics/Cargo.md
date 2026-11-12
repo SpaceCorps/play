@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Zerstörte Aliens hinterlassen ihre Beute im Weltraum als leuchtende Frachtkiste
 - **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md) (außer dem Tesseract) und die Dormant Pulses** lassen eine eigene Kiste mit Munition, Raketen und Ressourcen fallen. Sie ist für den Piloten reserviert, der dem Schiff den meisten Schaden zugefügt hat (und für dessen Clan), nicht für den, der es als Erster getroffen hat.
 - **Ein [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** lässt keine solche Kiste fallen: Jeder Pilot, der mindestens 5 % des Schadens verursacht hat, bekommt eine eigene [private Kiste](#private-boxes) mit seinem Anteil an der Beute.
 - **Der [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** lässt auch an seinem Wrack keine Kiste fallen: Jeder Pilot, den sein Abschuss bezahlt, bekommt eine eigene [private Kiste](#private-boxes) mit seinem Anteil an Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units und Dark Matter.
-- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)** hinterlassen **Brocken** statt einer Kiste: kleine Nuggets und Kristalle mit Credits und Thulium und einen Stein mit Erz. Die Credits und das Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden. Ein Brocken wird eingesammelt wie eine Kiste, und er ist für die Piloten reserviert, die ihn verdient haben, und dann frei, wie eine Kiste.
+- **[Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md)** hinterlassen **Brocken** statt einer Kiste: kleine Nuggets und Kristalle mit Credits und Thulium und einen Stein mit Erz. Die Credits und das Thulium werden beim Einsammeln eines Brockens ausgezahlt, nicht beim Zerbrechen des Asteroiden. Ein Brocken wird eingesammelt wie eine Kiste, und er ist für den Piloten reserviert, für den er angelegt wurde: 30 Sekunden lang kann nur er ihn nehmen, nicht seine Clanmitglieder, dann ist er frei, wie eine Kiste.
 
 Ein Alien, das ein Konzernpilot erledigt, lässt seine Beute für den Piloten fallen, dem der Abschuss zählt (den, der seinen Anspruch hält, sonst den Piloten seines Konzerns, der es bekämpft); ein Alien, gegen das ein Konzernpilot allein gekämpft hat, lässt nichts fallen, da Konzernpiloten nie einsammeln.
 
@@ -35,7 +35,7 @@ Die Lichter der Kiste nehmen die Farbe des seltensten Gegenstands darin an: Tür
 
 ## Wer sie bekommt {#who-gets-it}
 
-- Der Pilot, dem der Abschuss ausgezahlt wird, und die Mitglieder seines **Clans** haben die Kiste **30 Sekunden** lang für sich allein. Bei einem Alien ist das der Pilot, der den Anspruch hält, also der, der es als Erster getroffen hat (siehe [Kampf](/wiki/03-Mechanics/Combat.md)), egal wer es erledigt hat. Andere Piloten sehen sie abgedunkelt und können sie noch nicht nehmen; ein Schiff, das zu ihr geschickt wurde, wartet in der Nähe, bis die Zeit um ist.
+- Der Pilot, dem der Abschuss ausgezahlt wird, und die Mitglieder seines **Clans** haben die Kiste **30 Sekunden** lang für sich allein. Bei einem Alien ist das der Pilot, der den Anspruch hält, also der, der es als Erster getroffen hat (siehe [Kampf](/wiki/03-Mechanics/Combat.md)), egal wer es erledigt hat. Andere Piloten sehen sie abgedunkelt und können sie noch nicht nehmen; ein Schiff, das zu ihr geschickt wurde, wartet in der Nähe, bis die Zeit um ist. Die Brocken eines [Asteroiden](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) sind die Ausnahme: In diesen 30 Sekunden kann sie nur der Pilot nehmen, für den sie angelegt wurden, nicht seine Clanmitglieder.
 - Danach darf **jeder** auf der Karte sie nehmen.
 - Nur ein Schiff auf der Karte der Kiste kann sie nehmen: Wirst du auf dem Weg (oder in der halben Sekunde, die das Einsammeln dauert) zerstört, springst du oder loggst du dich aus, bleibt die Kiste für die anderen liegen.
 - Sammeln zwei Piloten dieselbe Kiste gleichzeitig ein, bekommt sie der, dessen Einsammeln zuerst fertig ist, genau einmal; der andere erfährt, dass sie weg ist.

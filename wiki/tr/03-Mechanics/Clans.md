@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -66,6 +66,8 @@ Lider ve Yardımcı liderler, katılmak isteyen bir pilottan iki şey isteyebili
 - **En düşük rütbe**: bir şirket rütbe kademesi; **Pilot** (gereksinim yok) ile **Amiral** arası: Pilot, Çavuş, Teğmen, Yüzbaşı, Binbaşı, Albay, General, Amiral ([Rütbeler](/wiki/03-Mechanics/Ranks.md)). Bir kademe en alt derecesinden itibaren sayılır: Yüzbaşı isteyen bir klan, Genç Yüzbaşı rütbesindeki pilotu ve onun üstündeki her pilotu alır. Bu, şirketinin sıralamasında şu an sahip olduğun rütbedir, uçtuğun dünya değil.
 
 Bunlar, bir pilot **başvurduğunda veya katıldığında** kontrol edilir. Bir yetkilinin **daveti** bunları atlar, bir yetkilinin kabul ettiği başvuru da. Filo bul listesi bunları klanın adının altında küçük kapsüller olarak gösterir; karşılamadığın kırmızıdır. Hiçbir şey belirlememiş bir klan hiçbir şey istemez.
+
+**Aynı anda tek başvuru.** Bekleyen bir başvuru, **Filo bul listesinde** ve klanın sayfasında **Başvuruldu** olarak görünür, menüyü kapatıp yeniden açtıktan sonra da, ve düğmesi gri kalır. Aynı klana ikinci bir başvuru “Başvuru zaten bekliyor” yanıtını alır ve hiçbir şey göndermez. Klanın bir subayı seninkini reddederse **60 saniye** sonra o klana yeniden başvurabilirsin ve herhangi bir 10 dakikada, tüm klanlar birlikte, en fazla **5 başvuru** gönderebilirsin.
 
 ---
 
@@ -193,6 +195,12 @@ Sistem araç çubuğundaki (sağ üst) **Kim çevrimiçi** düğmesi ya da **H**
 - **Arama.** Bir adın ya da klan etiketinin bir kısmını yaz; liste kesilmişse pencere sunucuya yeniden sorar.
 - **Davet.** Bir satırın **Davet et** düğmesi, Grup penceresinin kendi davetidir ([Gruplar](/wiki/03-Mechanics/Groups.md)); aynı yanıtlar ve ret nedenleri geçerlidir (pilot bir grupta, grup dolu, Rahatsız etme açık). Oyun reddedileceğini zaten biliyorsa düğme gri olur ve nedeni üzerine gelince yazar.
 - Liste, pencere açıkken her 10 saniyede bir yeniden okunur.
+
+---
+
+## Klan sohbeti {#clan-chat}
+
+Sohbetin **Klan** sekmesi ([Sohbet kanalları](/wiki/03-Mechanics/Groups.md#chat-channels), `/c` komutu) yalnızca klanının üyeleri içindir. Sunucu son **200 satırını**, hiçbiri **14 günden** eski olmayacak şekilde saklar; böylece çevrimiçi olmayan bir üye bunları giriş yaptığında ya da klana katıldığında bulur: en eskiden başlayarak, sohbetin ne kadar süre saklandığını söyleyen bir satırın altında ve önceki günlerin satırlarında tarihle birlikte. Klandan ayrılan veya atılan kişi artık hiçbir şey almaz. Klan Lideri tarafından ya da [sıfırlamada](#the-wipe-disbands-every-clan) dağıtıldığında satırları da onunla birlikte silinir.
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Minería de asteroides -->
 # Minería de asteroides {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Una rotura también puede dejar un **Cluster Chunk** entero, en el trozo de mine
 
 ## Quién se queda los fragmentos {#who-gets-the-chunks}
 
-Un asteroide es trabajo compartido: cualquier número de pilotos puede golpearlo, con cohetes, con láseres o con los pulsos de un Mole, y los fragmentos van según el daño que hizo cada uno, no según quién dispara primero o último. La línea de daño de la ventana objetivo muestra quién ha hecho cuánto y lo que se hizo antes de que llegaras. Los créditos y el Thulium de una rotura se sortean una vez y se reparten por daño; el mineral se reparte entre los pilotos que más daño hicieron; los hallazgos raros van al que más daño hizo. Un piloto que hizo menos que la parte de Las reglas no recibe nada, y el Registro de juego lo dice. Los fragmentos se colocan para cada piloto pagado y quedan reservados un tiempo para él y su clan, y después libres para todos.
+Un asteroide es trabajo compartido: cualquier número de pilotos puede golpearlo, con cohetes, con láseres o con los pulsos de un Mole, y los fragmentos van según el daño que hizo cada uno, no según quién dispara primero o último. La línea de daño de la ventana objetivo muestra quién ha hecho cuánto y lo que se hizo antes de que llegaras. Los créditos y el Thulium de una rotura se sortean una vez y se reparten por daño; el mineral se reparte entre los pilotos que más daño hicieron; los hallazgos raros van al que más daño hizo. Un piloto que hizo menos que la parte de Las reglas no recibe nada, y el Registro de juego lo dice. Los fragmentos se colocan para cada piloto pagado. Durante un tiempo solo ese piloto puede tomarlos, no los miembros de su clan; después quedan libres para todos.
 
 ## El P.E.T. Mole {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Un **Mole** acoplado (un tipo de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) 
 
 - Un piloto que hizo al menos el 5 % del daño a un asteroide recibe una parte de sus fragmentos, en proporción al daño hecho. Si nadie llega al 5 %, el piloto que más daño hizo se lleva todos.
 - Un [grupo](/wiki/03-Mechanics/Groups.md#sharing-kills) cuenta como un solo piloto, y su parte se reparte por nivel entre los compañeros del grupo que están cerca y disparan.
-- Los fragmentos de una rotura quedan reservados durante 30 s para el piloto para el que se colocaron y para su clan. Después, cualquiera en el mapa puede tomarlos. Un fragmento que nadie toma desaparece a los 3 min.
+- Durante 30 s, los fragmentos de una rotura solo los puede tomar el piloto para el que se colocaron, no los miembros de su clan. Después, cualquiera en el mapa puede tomarlos. Un fragmento que nadie toma desaparece a los 3 min.
 - Un mapa admite como máximo 36 fragmentos, dentro de las 64 cajas que puede tener: los fragmentos nunca expulsan las cajas de los alienígenas, y estas nunca expulsan un fragmento. Cuando el mapa no tiene sitio para un fragmento, se paga de inmediato al piloto para el que era.
 - Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. No hay límite diario para lo que se te paga: cada fragmento paga por completo sus créditos y su Thulium, recojas los que recojas en un día.
 - La paga es igual para todos: ningún bono Premium, mejora de la tienda de temporada, mejora de clan, Loot Luck ni potenciador cambia los créditos, el Thulium ni los hallazgos. El [Resource Magnet Booster](/wiki/06-Items/Boosters.md) aumenta, al recogerlo, los recursos de un fragmento de mineral, como en cualquier caja.

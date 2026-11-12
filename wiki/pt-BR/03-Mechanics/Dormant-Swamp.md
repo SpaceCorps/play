@@ -108,7 +108,7 @@ Três alienígenas da civilização perdida vivem aqui, cada um com seus própri
 | Créditos | 125.000 | 250.000 | 375.000 |
 | Thulium | 335 | 670 | 1.005 |
 | Experiência (XP) | 20.200 | 40.400 | 60.600 |
-| Honra | 88 | 176 | 264 |
+| Honra | 87 | 174 | 261 |
 | Pontos PvE por abate | 15 | 15 | 15 |
 
 **Saque**: uma caixa, para o piloto que mais causou dano.

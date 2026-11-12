@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 500 000
-- **Alapsebesség**: 110
+- **Alapsebesség**: 100
 - **Lézerfoglalatok**: 8
 - **Extrafoglalatok**: 3
 - **Páncélzatfoglalatok**: 15

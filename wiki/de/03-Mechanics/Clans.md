@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 861b3768d176ca3e -->
+<!-- wiki-i18n source: dd3d3fd86dec6831 -->
 <!-- wiki-i18n title: Clans -->
 # Clans
 
@@ -66,6 +66,8 @@ Der Anführer und die Stellvertreter können von einem Piloten, der hinein will,
 - **Einen Mindestrang**: eine Rangstufe der Konzernränge, von **Pilot** (keine Voraussetzung) bis **Admiral**: Pilot, Sergeant, Leutnant, Hauptmann, Major, Oberst, General, Admiral ([Ränge](/wiki/03-Mechanics/Ranks.md)). Eine Stufe zählt ab ihrem niedrigsten Grad: Ein Clan, der Hauptmann verlangt, nimmt einen Junior-Hauptmann und jeden Piloten darüber. Gemeint ist der Rang, den du jetzt auf der Rangliste deines Konzerns hast, nicht die Welt, in der du fliegst.
 
 Geprüft wird, wenn sich ein Pilot **bewirbt oder beitritt**. Die **Einladung** eines Offiziers überspringt sie, ebenso eine Bewerbung, die ein Offizier annimmt. Das Flottenregister zeigt sie als kleine Kapseln unter dem Namen des Clans, rot für die, die du nicht erfüllst; ein Clan, der nichts festgelegt hat, verlangt nichts.
+
+**Eine Bewerbung nach der anderen.** Eine wartende Bewerbung steht im **Flottenregister** und auf der Seite des Clans als **Beworben**, auch nachdem du das Menü geschlossen und wieder geöffnet hast, und ihre Schaltfläche bleibt grau. Eine zweite Bewerbung an denselben Clan antwortet „Es gibt bereits eine offene Bewerbung“ und sendet nichts. Lehnt ein Offizier des Clans deine Bewerbung ab, kannst du dich nach **60 Sekunden** wieder bei diesem Clan bewerben, und du kannst in jeweils 10 Minuten höchstens **5 Bewerbungen** senden, an alle Clans zusammen.
 
 ---
 
@@ -193,6 +195,12 @@ Die Schaltfläche **Wer ist online** in der System-Symbolleiste (oben rechts) od
 - **Suche.** Tippe einen Teil eines Namens oder eines Clan-Tags; das Fenster fragt den Server erneut, wenn die Liste gekürzt war.
 - **Einladen.** Die Schaltfläche **Einladen** in einer Zeile ist die eigene Einladung des Gruppenfensters ([Gruppen](/wiki/03-Mechanics/Groups.md)), mit denselben Antworten und Ablehnungen (der Pilot ist in einer Gruppe, die Gruppe ist voll, Bitte nicht stören ist an). Die Schaltfläche ist grau, mit dem Grund beim Darüberfahren, wenn das Spiel schon weiß, dass die Einladung abgelehnt würde.
 - Die Liste wird alle 10 Sekunden neu gelesen, solange das Fenster offen ist.
+
+---
+
+## Clan-Chat
+
+Der **Clan**-Tab des Chats ([Chatkanäle](/wiki/03-Mechanics/Groups.md#chat-channels), der Befehl `/c`) ist nur für die Mitglieder deines Clans. Der Server behält seine letzten **200 Zeilen**, keine älter als **14 Tage**, damit ein Mitglied, das nicht online war, sie beim Anmelden oder Beitreten findet: die älteste zuerst, unter einer Zeile, die sagt, wie lange der Chat aufbewahrt wird, mit dem Datum bei den Zeilen früherer Tage. Wer den Clan verlässt oder hinausgeworfen wird, bekommt nichts mehr davon. Wird der Clan aufgelöst, vom Anführer oder durch [den Wipe](#the-wipe-disbands-every-clan), werden seine Zeilen mit ihm gelöscht.
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: Исследования -->
 # Исследования {#research}
 
@@ -30,7 +30,7 @@
 
 <!-- research-centre:end -->
 
-**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) мгновенно завершают идущее исследование, если его технология изучается не более 24 часов (143 из 159 технологий). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую оно ещё не сожгло, остаётся в вашем баке, а следующая технология из вашей очереди начинается сразу.
+**Schematics.** [Schematics](/wiki/06-Items/Special-Items.md#schematics) убирают 24 часа из идущего исследования: если осталось не более 24 часов, оно завершается мгновенно, а более длинное теряет 24 часа и продолжается (167 из 187 технологий занимают не более 24 часов, так что один Schematics завершает их с самого начала; остальным 20 нужно от 2 до 10). То, что стоило исследование, было оплачено в начале и не возвращается, наука, которую сожгло бы пропущенное время, остаётся в вашем баке, а когда исследование завершено, следующая технология из вашей очереди начинается сразу.
 
 **Лазерные усилители и последняя ступень.** Damage, Crit и Penetration Amp ступеней II–IV исследуются, как и всё остальное, что создаётся. Пилоты, у которых к выходу линеек усилителей были усилители или они стояли в очереди, получили технологию каждого из них и технологии ступеней ниже. Тринадцати технологиям нужна технология из другого дерева — пластины Dark Matter Plate, из дерева «Ресурсы», потому что последняя ступень каждой цепочки улучшений требует четыре пластины и одну Ancient Control Unit: Damage, Crit и Penetration Amp ступени IV, Absorption и Capacity Shield Cell ступени IV, Impulse и Momentum Thruster ступени IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III и Base CPU II. Пилот, который изучил одну из них раньше, сохраняет её, но чтобы делать нужные ей пластины, ему нужна технология пластины. Дерево ниже не рисует для неё стрелку, но таблица её перечисляет, а карточка в игре называет ([Dark Matter и Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@
 | 6 ч | 3 ч | 1 | 5 000 |
 | 8 ч | 4 ч | 1 | 5 000 |
 | 10 ч | 5 ч | 1 | 5 000 |
+| 16 ч | 8 ч | 1 | 5 000 |
 | 1 д | 12 ч | 1 | 5 000 |
 | 2 д | 1 д | 1 | 5 000 |
 | 4 д | 2 д | 2 | 10 000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Бустеры {#tree-boosters}
@@ -550,18 +557,23 @@ Dark Matter Ammo I => Dark Matter Ammo II
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 д | 864 000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 ч | 10 800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 ч | 21 600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 ч | 10 800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 ч | 21 600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 ч | 36 000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 ч | 57 600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 д | 86 400 | – |
 
 Классы по времени исследования:
 
 | Класс | Время исследования | Технологий | Одна за другой | Наука | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | от 30 мин до 1 ч | 17 | 9 ч 30 мин | 34 200 | 0 |
-| B | от 3 ч до 6 ч | 35 | 5 д 11 ч | 471 600 | 0 |
-| C | от 8 ч до 10 ч | 19 | 7 д 18 ч | 669 600 | 95 |
-| D | от 1 д до 10 д | 28 | 52 д | 4 492 800 | 329 |
-| Все |  | 99 | 65 д 14 ч 30 мин | 5 668 200 | 424 |
+| B | от 3 ч до 6 ч | 37 | 5 д 20 ч | 504 000 | 0 |
+| C | от 8 ч до 10 ч | 20 | 8 д 4 ч | 705 600 | 95 |
+| D | от 16 ч до 10 д | 30 | 53 д 16 ч | 4 636 800 | 329 |
+| Все |  | 104 | 68 д 1 ч 30 мин | 5 880 600 | 424 |
 
-Если исследовать одну за другой, всё дерево займёт 65 д 14 ч 30 мин. С бустом, включённым всё время, — 32 д 19 ч 15 мин; для этого нужно бустов: 33, Thulium: 165 000. Науки уходит столько же.
+Если исследовать одну за другой, всё дерево займёт 68 д 1 ч 30 мин. С бустом, включённым всё время, — 34 д 45 мин; для этого нужно бустов: 35, Thulium: 175 000. Науки уходит столько же.
 
 <!-- research-technologies:end -->
 

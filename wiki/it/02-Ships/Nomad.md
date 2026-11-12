@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-La Nomad è un incrociatore con quasi il doppio dello scafo e il doppio dei cannoni di un’Ostirion: una testa di martello tra l’Ostirion e la Paragon, che si compra nel Negozio con crediti e Thulium insieme. Ogni pilota può acquistarla.
+La Nomad è un incrociatore con quasi il doppio dello scafo di un’Ostirion e due cannoni in più: una testa di martello tra l’Ostirion e la Paragon, che si compra nel Negozio con crediti e Thulium insieme. Ogni pilota può acquistarla.
 
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 111.000
-- **Velocità di base**: 210
-- **Slot laser**: 6
+- **Velocità di base**: 240
+- **Slot laser**: 7
 - **Slot extra**: 2
 
 ### Slot dei generatori e di supporto {#generator-support-slots}

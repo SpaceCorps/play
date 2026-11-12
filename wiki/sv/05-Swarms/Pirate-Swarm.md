@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aace02deb18f7c01 -->
+<!-- wiki-i18n source: f826327f8cdbd39f -->
 <!-- wiki-i18n title: Pirate-svärm -->
 # Pirate-svärm {#pirate-swarm}
 
@@ -32,7 +32,7 @@ Pirate-svärmen är en **Pirate Boss** med sina **Pirate Scouts**: ett stort, l�
 - **Skjut på bossen, inte på Scouts.** Scouts läker bossen, men läkningen är liten jämfört med dess skrov, och en ny Scout kommer så ofta som listan *I korthet* säger: en grupp som skjuter Scouts först kommer aldrig före dem, och bara en mycket stor grupp kan röja dem och behöver ändå längre tid på bossen än en grupp som lät dem vara. Scouts kostar dig tid, de avgör inte striden.
 - **Led bort Scouts.** En Scout läker bara så länge den är inom bossens räckhåll, så en Scout som följer dig utanför det läker ingenting, och en Ostirion är snabbare än en Scout.
 - **Fortsätt röra dig.** Bossens raket är rak och ostyrd: ett skepp som håller sig i rörelse undviker den, ett som står still blir träffat.
-- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 fäller den på `x-2` utan att förlora något skepp, och på `x-3` också medan träffarna fördelas, om än med knapp nöd; fyra fäller den på ungefär tre och en halv minut i Alpha. Med ammunition x4 fäller tre den på `x-3` på ungefär två minuter. Fem fäller den på ungefär två och en halv minut när träffarna fördelas och på ungefär tre när en pilot tar all eld, och förlorar då två skepp: en grupp där en pilot tar all eld behöver fyra. I Beta krävs fem piloter och i Gamma sex, med fördelade träffar (bossen är större där och dess Scouts läker mer). I Alpha, på `x-3` med ammunition x2, klarar en Ostirion ensam det inte, en Paragon ensam klarar det med knapp nöd, och två Paragon klarar det med god marginal. I Beta och Gamma, på `x-3`, förstörs en Paragon ensam med ammunition x2; med ammunition x4 vinner den i Beta och förstörs i Gamma. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
+- **Ta med en grupp.** Tre piloter i Ostirion med ammunition x2 fäller den på `x-2` utan att förlora något skepp, om än med knapp nöd, och förstörs på `x-3`, även medan träffarna fördelas; fyra fäller den på ungefär tre minuter i Alpha. Med ammunition x4 fäller tre den på `x-3` på ungefär två minuter. Fem fäller den på ungefär två och en halv minut när träffarna fördelas och på drygt tre när en pilot tar all eld, och förlorar då två skepp: en grupp där en pilot tar all eld behöver fem. I Beta krävs fem piloter och i Gamma sju, med fördelade träffar (bossen är större där och dess Scouts läker mer). I Alpha, på `x-3` med ammunition x2, klarar en Ostirion ensam det inte, en Paragon ensam klarar det inte heller, och två Paragon klarar det med god marginal. I Beta och Gamma, på `x-3`, förstörs en Paragon ensam med ammunition x2 och med ammunition x4. Bossen går mot den första piloten som träffade den, så låt det tåligaste skeppet börja, och använd dina förmågor (Emergency Repair, Shield Surge: [Förmågor](/wiki/03-Mechanics/Abilities.md)) i en så lång strid. Piloter som fortfarande är nivå 2 eller 3 är för svaga för den, även där de flyger: håll dig borta tills du är starkare.
 - **Bossen kommer tillbaka** efter tiden i listan *I korthet*, i samma sektor.
 
 ## Belöningar och byte {#rewards-and-drops}
@@ -55,7 +55,7 @@ Bygger på Ironclad med 50 % av skrov, sköld och skada; hastighet och räckvid
 | Skrov | 250 000 | 375 000 | 500 000 |
 | Sköld | 50 100 | 75 150 | 100 200 |
 | Laserskada (en salva per sekund) | ingen | ingen | ingen |
-| Hastighet | 110 | 110 | 110 |
+| Hastighet | 100 | 100 | 100 |
 | Laserräckvidd | – | – | – |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
 | Raketskada, högst | 2 500 (Rivet I) / 5 000 (Rivet II) | 3 750 (Rivet I) / 7 500 (Rivet II) | 5 000 (Rivet I) / 10 000 (Rivet II) |
@@ -81,8 +81,8 @@ Bygger på Kitefin med 50 % av skrovet och 113 % av laserskadan; hastighet och
 | :--- | ---: | ---: | ---: |
 | Skrov | 12 000 | 18 000 | 24 000 |
 | Sköld | 9 818 | 14 727 | 19 636 |
-| Laserskada (en salva per sekund) | 221 | 332 | 442 |
-| Hastighet | 190 | 190 | 190 |
+| Laserskada (en salva per sekund) | 315 | 473 | 630 |
+| Hastighet | 220 | 220 | 220 |
 | Laserräckvidd | 700 | 700 | 700 |
 | Aggroradie | 700 | 700 | 700 |
 | Läker ledaren, var och en, per sekund (bara skrovet) | 40 | 60 | 80 |

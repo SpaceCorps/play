@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Nomad 是一艘巡洋舰，船体接近 Ostirion 的两倍，火炮是它的两倍：一艘介于 Ostirion 与 Paragon 之间的锤头型舰船，在商店里同时用信用点和 Thulium 购买。任何飞行员都可以购买。
+Nomad 是一艘巡洋舰，船体接近 Ostirion 的两倍，火炮多出两门：一艘介于 Ostirion 与 Paragon 之间的锤头型舰船，在商店里同时用信用点和 Thulium 购买。任何飞行员都可以购买。
 
 ## 属性 {#stats}
 
 - **生命值（HP）**：111,000
-- **基础速度**：210
-- **激光槽位**：6
+- **基础速度**：240
+- **激光槽位**：7
 - **附加槽位**：2
 
 ### 发生器与支援槽位 {#generator-support-slots}

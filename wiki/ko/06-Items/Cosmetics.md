@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: 코스메틱 -->
 # 코스메틱 {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 외형; 스킨; 도색; 옷장; 배기; 오라 -->
 
-**외형**은 함선이 입고 있는 것입니다. 네 부분이 있습니다. **스킨**(선체의 도색), **오라**(함선 둘레의 부드러운 빛), **배기**(엔진 뒤로 이어지는 궤적의 색과 모양), 그리고 드론의 **도색**입니다. 외형은 보여 주기용일 뿐입니다. 피해도, 선체도, 속도도 더하지 않고, 슬롯을 차지하지 않으며, 탄이 맞히는 것에는 아무것도 바꾸지 않습니다.
+**외형**은 함선이 입고 있는 것입니다. 네 부분이 있습니다. **스킨**(선체의 도색), **오라**(함선 둘레의 부드러운 빛과 빛의 고리), **배기**(엔진 뒤로 이어지는 궤적의 색과 모양), 그리고 드론의 **도색**입니다. 외형은 보여 주기용일 뿐입니다. 피해도, 선체도, 속도도 더하지 않고, 슬롯을 차지하지 않으며, 탄이 맞히는 것에는 아무것도 바꾸지 않습니다.
 
 > [!NOTE]
 > **외형은 구매할 수 없습니다.** 초기화는 상위 계급에 시즌 외형을 지급합니다([시즌과 보상](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). 일부 외형은 컨테이너인 [크로마 기록보관소 (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)에서 얻을 수 있고, 나머지는 관리자가 발급합니다. 관리자가 외형을 주면 알림이 뜨고 부드러운 차임이 울리며, 컨테이너에서 얻은 외형은 결과 카드에 표시됩니다.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@
 | 이펙트 | 희귀도 | 그리는 것 |
 | :--- | :--- | :--- |
 | **None** | 일반 | 오라 없음. 슬롯에 포함됩니다 |
-| **Glow** | 일반 | 함선 둘레의 부드러운 빛 |
-| **Breath** | 고급 | 천천히 숨 쉬는 빛 |
-| **Motes** | 희귀 | 작은 빛 네 개가 도는 빛 |
-| **Shimmer** | 희귀 | 반짝이는 빛 |
-| **Sparkle** | 영웅 | 돌면서 반짝이는 빛 여섯 개 |
-| **Wreath** | 영웅 | 느린 궤도를 도는 빛 여덟 개 |
-| **Halo** | 신화 | 빛 여덟 개가 도는, 숨 쉬는 빛 |
-| **Laurel** | 전설 | 숨 쉬는 빛 속을 천천히 도는 빛 열 개 |
-| **Crown** | 영원 | 숨 쉬며 반짝이는 빛 속을 도는 빛 열 개 |
+| **Glow** | 일반 | 가장자리에 가는 빛의 고리가 있는 부드러운 빛 |
+| **Breath** | 고급 | 천천히 숨 쉬는 빛과 빛의 고리 |
+| **Motes** | 희귀 | 작은 혜성 네 개가 안쪽을 도는 빛의 고리 |
+| **Shimmer** | 희귀 | 희미한 고리 안에서 반짝이는, 팔이 두 개인 느린 소용돌이 |
+| **Sparkle** | 영웅 | 빛의 고리 안에서 돌면서 반짝이는 혜성 여섯 개 |
+| **Wreath** | 영웅 | 안쪽에 더 가는 고리가 하나 있는 빛의 고리 안에서 느린 궤도를 도는 혜성 여덟 개 |
+| **Halo** | 신화 | 안쪽에 더 가는 고리가 두 개 있고 혜성 여섯 개가 도는, 밝게 숨 쉬는 빛의 고리 |
+| **Laurel** | 전설 | 팔이 세 개인 느린 소용돌이를 두른 숨 쉬는 빛의 고리와 천천히 도는 혜성 여덟 개 |
+| **Crown** | 영원 | 안쪽에 더 가는 고리 두 개와 팔이 네 개인 소용돌이가 있고 혜성 여덟 개가 도는, 숨 쉬며 반짝이는 밝은 빛의 고리 |
+| **Event Horizon** | 신화 | 한쪽이 타오르는 밝은 빛의 고리 안쪽에서 뒤에 있는 것을 어둡게 만드는 어두운 띠 |
+| **Accretion** | 신화 | 빛의 고리 안에서 도는, 팔이 세 개인 느린 소용돌이와 안쪽으로 빨려드는 혜성 여덟 개 |
+| **Singularity** | 전설 | 밝은 빛의 고리 안쪽의 어두운 띠, 팔이 두 개인 소용돌이, 안쪽으로 빨려드는 반짝이는 혜성 여섯 개 |
+| **Gravity Well** | 신화 | 숨 쉬는 빛의 고리 안쪽의 희미한 어두운 띠와 더 가는 고리 세 개 |
 
-오라는 락온을 표시하는 고리 안쪽에 머물며, 함선 둘레의 다른 모든 것보다 아래에 그려집니다.
+오라는 락온을 표시하는 고리 안쪽에 머물며, 함선 둘레의 다른 모든 것보다 아래에 그려집니다. 오라 자체의 빛의 고리는 가늘고 오라의 색을 띠며, 밝은 호 하나가 고리를 따라 돕니다. 락온 고리는 그 바깥에 있고 움직이지 않습니다. 혜성은 짧은 꼬리가 달린 작은 빛입니다.
+
+**Event Horizon**, **Accretion**, **Singularity**, **Gravity Well**은 크로마 기록보관소에 들어 있지 않으며, 관리자가 발급합니다.
 
 ## 옷장 {#the-wardrobe}
 

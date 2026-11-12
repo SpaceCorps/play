@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fb052da5a08f1ff5 -->
+<!-- wiki-i18n source: d3d6deaaac542e2e -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -23,7 +23,7 @@ Los **objetos especiales** son seis objetos de un solo uso que te ahorran tiempo
 | Objeto | Rareza | Máximo que puedes tener | Qué hace |
 | :--- | :--- | ---: | :--- |
 | **Magic Hammer** | Legendario | 5 | Termina una mejora del Skylab al instante |
-| **Schematics** | Raro | 20 | Termina la investigación en curso, si dura 24 horas o menos |
+| **Schematics** | Raro | 20 | Quita 24 horas a la investigación en marcha; la termina si quedan 24 horas o menos |
 | **Philosopher's Stone** | Épico | 10 | Tu Granja de créditos y tu Granja de Thulium producen el doble durante 10 horas |
 | **Tinkerer's Badge** | Épico | 10 | Sube una pieza de equipo un grado de la Forja, a partir de Corrupto |
 | **Forger's Seal** | Poco común | 99 | Salta hasta 30 minutos de la cola de producción |
@@ -44,12 +44,13 @@ Termina **una mejora del Skylab al instante**: elige el módulo que se está mej
 
 ### Schematics
 
-Termina **la investigación que está en marcha**, si la tecnología tarda **24 horas o menos** en investigarse. 143 de las 159 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) cumplen. Las 16 que tardan 48 o 72 horas no: el Wraith, tres formaciones de drones, Hull Plating III, los niveles 4 y 5 del Módulo de motores y del Módulo de defensa y siete tecnologías de Piloto.
+Quita **24 horas a la investigación que está en marcha**. Si quedan **24 horas o menos**, la investigación se **termina** al instante; si queda más, pierde 24 horas y sigue, y puedes usar otro Schematics sobre ella. 167 de las 187 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) tardan 24 horas o menos, así que un Schematics las termina desde el principio. Las otras 20 tardan más, 48 o 72 horas la mayoría y 96, 168 y 240 horas los Rocket Launcher III, IV y V, y necesitan de 2 a 10 Schematics.
 
-- **Cuenta el tiempo de investigación, no el que queda.** Una tecnología de 48 horas a la que le falta una hora se rechaza igualmente: Schematics mira cuánto tarda la tecnología en total.
-- **El precio sigue pagado.** El Dark Matter, los créditos y el Thulium se cobraron cuando empezó la investigación y no se devuelven. La ciencia que la investigación no ha quemado se queda en tu depósito.
-- **La investigación termina como una que acaba sola.** La tecnología es tuya, aparecen los avisos y **la siguiente tecnología de tu cola empieza al instante**, si puede.
-- **Se rechaza** sin Centro de investigación, sin ninguna investigación en marcha o cuando la tecnología tarda más de 24 horas.
+- **Horas de la tecnología, no del reloj.** Las 24 horas son el tiempo de investigación propio de la tecnología, el de su tarjeta. El impulso de Thulium hace que una investigación corra más deprisa, pero no cambia lo que quita un uso; si un impulso cubriría el final de la investigación, un uso ahorra menos horas de espera (a doble velocidad, un día de investigación son 12 horas de espera). La confirmación indica lo que mostrará el temporizador.
+- **La investigación sigue como estaba.** Una investigación que pierde 24 horas conserva su sitio: el impulso sigue corriendo, la cola no se toca y no empieza nada detrás. Una investigación que espera ciencia sigue esperando: Schematics da tiempo, no combustible.
+- **El precio sigue pagado.** El Dark Matter, los créditos y el Thulium se cobraron cuando empezó la investigación y no se devuelven. La ciencia que habría quemado el tiempo saltado se queda en tu depósito.
+- **Una investigación terminada acaba como una que acaba sola.** La tecnología es tuya, aparecen los avisos y **la siguiente tecnología de tu cola empieza al instante**, si puede.
+- **Se rechaza** sin Centro de investigación o sin ninguna investigación en marcha (una investigación que acabó sola antes de tu clic ya no está en marcha, y no se gasta nada).
 - Nunca inicia una investigación ni elige una por ti.
 
 ### Philosopher's Stone {#philosophers-stone}
@@ -98,13 +99,13 @@ El Hauler solo levanta el cupo. Todo lo demás de la [Bahía de mineral](/wiki/0
 - **Un contador, no un objeto.** El inventario del Hangar es el único lugar que los enumera, como casillas entre los consumibles; de una clase que no tienes no hay casilla. Una casilla no es un objeto, así que no se puede arrastrar, seleccionar, eliminar ni vender. No tienen peso, ni hueco en la barra de acceso, ni sitio en la carga ni en el Alijo de Transporte; nunca se sueltan cuando destruyen tu nave.
 - **A través del reinicio.** Tus objetos especiales y una Philosopher's Stone o un contrato en marcha se conservan, como el Skylab, la investigación y tu aspecto.
 - **Nunca se intercambian.** Ni en la [Subasta](/wiki/03-Mechanics/Auction.md), ni a otro piloto, ni a cambio de créditos.
-- **Solo el Hammer puede cambiar tu ritmo**, y solo puedes tener 5. Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, una investigación de 24 horas como máximo.
+- **Solo el Hammer puede cambiar tu ritmo**, y solo puedes tener 5. Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, 24 horas de una investigación.
 - **Un uso, una confirmación, un sonido.** Cada uso reproduce su propio aviso sonoro, discreto.
 
 ## Errores comunes {#common-mistakes}
 
 - **El Hammer necesita una mejora en marcha.** Empieza antes la mejora. Un módulo cuyo temporizador ya terminó no tiene nada que terminar.
-- **Schematics mira todo el tiempo de investigación.** Una tecnología de 48 o 72 horas no se puede terminar con ellas, por poco que falte.
+- **Una investigación larga necesita varios Schematics.** Uno quita 24 horas, no más: una tecnología de 240 horas necesita diez. La hoja te dice cuánto quedará antes de confirmar.
 - **La Stone no agranda la tolva.** Recoge antes de que se llene una granja, o la bonificación se pierde.
 - **La Badge es para Corrupto y superiores.** El primer paso de la Forja no necesita Badge.
 - **Un contrato necesita trabajo que hacer.** Construye antes un productor, una Bahía de mineral o un módulo, y luego contrata al trabajador.

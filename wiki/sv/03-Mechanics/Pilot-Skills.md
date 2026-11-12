@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Pilotfärdigheter -->
 # Pilotfärdigheter {#pilot-skills}
 
@@ -15,11 +15,11 @@ En ny pilot är inte på full styrka. På nivå 1 gör en laser och en raket min
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Värden**: 18 värden: 4 attribut och 14 färdigheter i 5 grupper
+- **Värden**: 19 värden: 4 attribut och 15 färdigheter i 5 grupper
 - **Nivåer**: 1 till 100. Varje pilot startar varje värde på nivå 1, och det finns inget att spendera och inget att nollställa
 - **Kostnad för en nivå**: 40 XP från nivå 1 till 2, 875 XP från nivå 50 till 51, 19 157 XP från nivå 99 till 100; 313 258 XP totalt
 - **Vad en nivå ger**: En buff växer i rät linje från sitt värde på nivå 1 till sitt värde på nivå 100. Inget har tak
-- **Din laser på nivå 1**: Den gör 80 % av sin skada och träffar 80 % av gångerna, alltså 64 % av den skada föremålssidorna anger
+- **Din laser på nivå 1**: Den gör 100 % av sin skada och träffar 80 % av gångerna, alltså 80 % av den skada föremålssidorna anger
 - **Din raket på nivå 1**: Den gör 100 % av sin skada och är en blindgångare 10 % av gångerna, alltså 90 % av den skada föremålssidorna anger
 - **Undanmanöver**: Varje pilots skepp viker undan för 3 % av de träffar som går att väja för, innan någon färdighet eller formation lägger till
 - **Skrovnivå**: Skeppets sällsynthet avgör den, som tabellen nedan visar. Lastrummets storlek och Tyngds XP följer den
@@ -50,20 +50,20 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 
 | Värde | Vad det ändrar | Nivå 1 | Nivå 100 |
 | :--- | :--- | ---: | ---: |
-| **Tyngd** | Skrov | +0 % | +10 % |
-| **Seghet** | Skada du tar | ×1 | ×0,9 |
-| **Reflexer** | Uppladdningsfart för förmågor | ×1 | ×1,11 |
-| **Instinkt** | Chans för varje bytesrad | +0 punkter | +5 punkter |
+| **Tyngd** | Skrov | +0 % | +20 % |
+| **Seghet** | Skada du tar | ×1 | ×0,92 |
+| **Reflexer** | Uppladdningsfart för förmågor | ×1 | ×1,1 |
+| **Instinkt** | Chans för varje bytesrad | +0 punkter | +7,5 punkter |
 |  | Orvium och Velkonite från samlarna | ×1 | ×1,5 |
 
 ### Vapen {#weapons}
 
 | Värde | Vad det ändrar | Nivå 1 | Nivå 100 |
 | :--- | :--- | ---: | ---: |
-| **Laserteknik** (Reflexer) | Laserskada | ×0,8 | ×1,1 |
-|  | Chans att en lasersalva träffar | 80 % | 90 % |
+| **Laserteknik** (Reflexer) | Laserskada | ×1 | ×1,3 |
+|  | Chans att en lasersalva träffar | 80 % | 89 % |
 | **Raketteknik** (Reflexer) | Raketskada | ×1 | ×1,3 |
-|  | Chans att en raket blir en blindgångare | 10 % | 0 % |
+|  | Chans att en raket blir en blindgångare | 10 % | 1 % |
 | **Antimateria** (Instinkt) | Dark Matter från plock | ×1 | ×1,25 |
 
 ### Strid {#combat}
@@ -76,13 +76,14 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 |  | Giftens varaktighet | ×1 | ×1,2 |
 | **Undanmanöver** (Reflexer) | Chans att väja för en träff, lagd till skeppets egen | 0 % | 15 % |
 | **Taktik** (Reflexer) | Förmågornas varaktighet | ×1 | ×1,2 |
+| **Sköldabsorption** (Seghet) | Absorption hos dina sköldar | +0 punkter | +5 punkter |
 
 ### Skeppsstyrning {#ship-control}
 
 | Värde | Vad det ändrar | Nivå 1 | Nivå 100 |
 | :--- | :--- | ---: | ---: |
 | **Strålningsteknik** (Seghet) | Strålningsdos | ×1 | ×0,4 |
-| **Thrusterteori** (Tyngd) | Hastighet | +0 % | +15 % |
+| **Thrusterteori** (Tyngd) | Hastighet | +0 % | +10 % |
 | **Vetenskap** (Instinkt) | Vetenskap från varje enhet bränsle | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 
 - **Lasrar.** Laserteknik ändrar skadan i varje salva och chansen att den träffar; en salva som går fel visar ett svävande ”Miss” och förbrukar ändå sin ammunition ([Strid](/wiki/03-Mechanics/Combat.md#laser-tech)). Räckvidden på dina lasrar är skeppets egen: Skytte stiger av dina träffar med annan ammunition än vanlig x1, men verkar bara på Mine (nedan).
 - **Raketer.** Raketteknik ändrar skadan i varje raket och chansen att en blir en blindgångare ([Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Att ta träffar.** Seghet tar en andel av varje träff du får, och Undanmanöver ökar chansen att en direktträff inte gör något ([Strid](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Tyngd ökar ditt skrov.
+- **Att ta träffar.** Seghet tar en andel av varje träff du får, Undanmanöver ökar chansen att en direktträff inte gör något, och Sköldabsorption ökar den andel av en träff som dina sköldar tar ([Strid](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Tyngd ökar ditt skrov.
 - **Förmågor.** Reflexer förkortar nedkylningen av dina förmågor och Taktik får dem att vara längre ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage förstärker gifterna.
 - **Mine.** Sabotage ökar skadan av en Mine, och Skytte kastar den snabbare och längre ([Extrautrustning](/wiki/06-Items/Extras.md#mine)).
 - **Hastighet.** Thrusterteori lägger till din hastighet, utöver motorerna och en Afterburner ([Hastighet](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ Tabellen listar vad som betalar XP, värde för värde. XP:n gäller för varje 
 |  | Varje salva som träffar ett skepp | 0,1 |  |
 | **Raketteknik** (Reflexer) | Varje raket du skjuter upp | 0,15 | 130 raketer i timmen |
 |  | Varje raket som träffar ett skepp (en gång för varje raket, hur många skepp dess explosion än skadar) | 0,3 |  |
-| **Antimateria** (Instinkt) | Varje enhet Dark Matter du får vid ett plock | 0,1 | Ingen |
+| **Antimateria** (Instinkt) | Varje enhet Dark Matter du får vid ett plock | 2,2 | Ingen |
 | **Skytte** (Reflexer) | Varje träff av en salva avfyrad med annan ammunition än vanlig x1 (×1,5 under de första 10 min av varje ammunitionstyp i en klocktimme) | 0,1 | 3 000 träffar i timmen |
 |  | Varje träff av en Mine, och varje sekund en fiende tillbringar i din Energetic Wall | 0,1 |  |
 | **Sabotage** (Reflexer) | Varje träff av en Mine, och varje sekund en fiende tillbringar i din Energetic Wall | 0,5 | 1 200 XP i timmen |
 |  | Varje sekund ett gift från dig verkar på en fiende | 0,05 |  |
 | **Undanmanöver** (Reflexer) | Varje fientlig attack mot dig som missar eller väjs för | 1 | 600 XP i timmen |
 | **Taktik** (Reflexer) | Varje förmåga du trycker på med en fiende inom laserräckvidd | 2 | 600 XP i timmen |
+| **Sköldabsorption** (Seghet) | Varje 1 % av din maximala sköld som fiendens träffar tar | 0,1 | 300 XP i timmen |
 | **Strålningsteknik** (Seghet) | Varje sekund inne i ett strålningsband | 0,2 | Ingen |
 |  | Varje 1 % av ditt maximala skrov som strålningen tar | 1 |  |
 | **Thrusterteori** (Tyngd) | Varje sekund flugen över 80 % av ditt skepps hastighet, dubbelt så mycket under en Afterburner | 0,1 | Ingen |
@@ -184,7 +186,9 @@ En nivå kostar mer XP än den förra, med en fast andel, så de första nivåer
 
 ## Sidan Pilotfärdigheter {#the-pilot-skills-page}
 
-Sidan **Pilotfärdigheter** är en sida i stationen, med en egen rad i sidofältet. Den visar hela trädet: attributen och färdigheterna i sina grupper, var och en med sin nivå. Välj ett värde för att se vad det gör, vilket attribut som styr det, vilka färdigheter det tränar, dess XP-fält och vad som får det att växa, och använd reglaget för att förhandsvisa vilken nivå som helst från 1 till den sista: en liten tabell anger vad värdet ändrar på nivån du förhandsvisar och på din nivå nu. Ett värde som ännu inte har tjänat någon XP är markerat som oanvänt, med ett streck som nivå. Raden i sidofältet får ett märke när ett värde har stigit i nivå sedan du senast öppnade sidan, och ett kort i Boosters-fönstret sammanfattar vad dina färdigheter ändrar.
+Sidan **Pilotfärdigheter** är en sida i stationen, med en egen rad i sidofältet. Den är ett kompakt blad över hela trädet: attributen och de fem grupperna av färdigheter står bredvid varandra i kolumner (tre på en bred skärm, färre på en smal), med en rad för varje värde, dess nivå vid högra kanten och ett tunt XP-fält under. Ett värde som ännu inte har tjänat någon XP är grått, med ett streck som nivå. Håll pekaren över en rad för att se vad värdet gör, vilket attribut som styr det eller vilka färdigheter det tränar, dess XP och vad som får det att växa. Klicka på en rad för att öppna dess detaljer under dess kolumnrad: samma ord, XP-fältet och ett reglage för att förhandsvisa vilken nivå som helst från 1 till den sista, med en liten tabell över vad värdet ändrar på nivå 1, på din nivå nu, på nivån du förhandsvisar och på den sista nivån. Bara ett värde är öppet åt gången; klicka på raden igen, använd stängknappen eller tryck på Esc för att lägga undan det. Raden i sidofältet får ett märke när ett värde har stigit i nivå sedan du senast öppnade sidan, och ett kort i Boosters-fönstret sammanfattar vad dina färdigheter ändrar.
+
+I flykten är samma blad fönstret **Pilotfärdigheter**. Öppna det med knappen Pilotfärdigheter i verktygsfältet (på en bred skärm) eller med dess tangent, som standard K (Inställningar, Styrning). Det är ett fönster som de andra: flytta det, ändra dess storlek, och det kommer ihåg sin plats och om det var öppet. Det visar bara dina färdigheter: nivåerna ändras när flygningens XP-rader kommer in, och ett klick på en rad öppnar samma detaljer i fönstret.
 
 ## Vad som behålls {#what-is-kept}
 

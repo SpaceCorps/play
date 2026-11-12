@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ac7ece9cd18ca13a -->
+<!-- wiki-i18n source: dd9c581d9c3cc64d -->
 <!-- wiki-i18n title: Conquistas -->
 # Conquistas {#achievements}
 
@@ -14,7 +14,7 @@ As conquistas são as metas de toda a carreira de um piloto: destruir seu primei
 
 ## Categorias e recompensas {#tiers-and-rewards}
 
-As cinco categorias pagam o mesmo por cada conquista que contêm, uma única vez. A tabela conta as 40, as ocultas também.
+As cinco categorias pagam o mesmo por cada conquista que contêm, uma única vez. A tabela conta as 50, as ocultas também.
 
 | Categoria | Conquistas | Créditos por conquista |
 | :--- | ---: | ---: |
@@ -77,7 +77,7 @@ As 45 conquistas que não são ocultas, por grupo. Quando uma meta conta algo, e
 | Construtor de estações | Construa 5 módulos diferentes do Skylab. | Comum |
 | Totalmente equipado | Construa os 16 módulos do Skylab. | Épico |
 | Erudito | Pesquise 50 tecnologias. | Incomum |
-| Arquivista | Pesquise as 181 tecnologias. | Lendário |
+| Arquivista | Pesquise as 187 tecnologias. | Lendário |
 
 ### Frota {#group-fleet}
 
@@ -134,10 +134,11 @@ Um **título** é uma linha curta de texto ao lado do nome de um piloto. 32 das 
 Na **versão da Steam** você pode vincular sua conta do jogo à sua conta da Steam, e então suas conquistas também são registradas na Steam. Os downloads diretos não têm Steam, então não têm vínculo; as conquistas, recompensas e títulos do próprio jogo funcionam igual em todas as versões.
 
 - **Vincule** em **Configurações › Conta**, no cartão da Steam. Você digita de novo a senha do jogo para iniciar o vínculo. Depois o jogo pede à Steam que confirme quem você é, e o servidor confia apenas na resposta da Steam: nada que você digite pode indicar uma conta da Steam.
+- **Uma conta nova se vincula sozinha.** Quando você se cadastra na versão da Steam, o formulário tem um interruptor **Vincular à minha conta Steam**, ligado por padrão. A conta é vinculada no seu primeiro login, com a senha que você acabou de digitar, e valem as mesmas verificações (a Steam confirma quem você é; um para um). Contas que já existem nunca são vinculadas sozinhas.
 - **Um para um.** Uma conta do jogo tem no máximo uma conta da Steam, e uma conta da Steam se vincula a uma só conta do jogo. Se uma conta da Steam já está vinculada a outro piloto, o jogo avisa e não vincula nada. Um administrador pode mover um vínculo à mão quando duas contas reivindicam a mesma conta da Steam.
 - **O que o servidor guarda** é o seu ID da Steam, o número público da sua conta da Steam, e o momento do vínculo. Ele não guarda mais nada da Steam: nem o seu nome na Steam, nem amigos, jogos ou senha. Só você e os administradores do jogo podem ver o ID; outros pilotos, nunca.
 - **Desvincule** no mesmo cartão, com a sua senha: o ID da Steam guardado é apagado imediatamente. Depois de desvincular, você só pode vincular outra conta da Steam após 24 horas; vincular a mesma de novo funciona na hora. Durante essas 24 horas o servidor guarda uma nota curta da desvinculação (o momento e um código embaralhado feito a partir do ID, só para saber se você vincula a mesma conta de novo) e depois a apaga.
-- **As conquistas chegam à Steam quando você entra com a versão da Steam**, desde que a conta da Steam em uso seja a que você vinculou. O jogo confere o que falta à Steam e registra, então uma conquista obtida em um download direto, ou com a Steam fechada, chega no seu próximo login pela Steam. Offline, nada se perde: o jogo guarda o registro e a Steam fica sabendo depois.
+- **As conquistas chegam à Steam assim que você as consegue**, desde que a conta da Steam em uso seja a que você vinculou: a Steam mostra o próprio aviso alguns segundos depois do aviso do jogo. A cada login o jogo também confere o que falta à Steam e registra, então uma conquista obtida em um download direto, ou com a Steam fechada, chega nessa hora, e uma tentativa que falha é repetida sozinha. Enquanto você voa em outro servidor (um nó regional), nada é ganho nem enviado lá; de volta à estação, o jogo se atualiza. Offline, nada se perde: o jogo guarda o registro e a Steam fica sabendo depois.
 - Os créditos e os títulos de uma conquista saem do registro do próprio servidor do jogo, nunca da Steam.
 
 ## Desde quando se conta {#when-counting-began}

@@ -10,6 +10,7 @@ Extras are the gadgets in a ship's **extra slots** (two on the Protos, Kitefin, 
 | **Cloaking CPU L** | Hides your ship | 50 | 20,000 Thulium |
 | **P.E.T. Station I to III** | Switched ON, it lets 2, 3 or 5 docked [P.E.T.s](/wiki/03-Mechanics/Pets.md#the-station) boost your ship, earn experience and work; OFF, they do none of it | ON / OFF | Assembly, after its research (the item tree below) |
 | **Auto-Rocket CPU** | Switched ON, it fires your armed rocket by itself at the target of a fight | ON / OFF | Assembly, after its research (the item tree below) |
+| **Laser Optics I to V** | Fitted, they add 2, 4, 6, 8 or 10 points to the chance that your laser volleys hit (only the best one fitted counts) | fitted, nothing to switch | Assembly, after its research (the item tree below) |
 
 The Cloaking CPUs are sold in the Shop only. They cannot be fused, and nothing gives them away. The **EMP Charge** is not an extra any more: since 0.4.21 it is a consumable, carried as a stack like a rocket and fitted in no slot, so it takes none of your extra slots (see [Rockets](/wiki/06-Items/Rockets.md#emp-charge)). The two **Energetic Walls** are not extras any more either: since 0.4.22 they are consumables too, carried as a stack and fitted in no slot (see [Energetic Wall](#energetic-wall)).
 
@@ -41,6 +42,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -51,6 +54,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -61,6 +67,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -100,7 +107,7 @@ Press the WAL slot and a **wall of plasma** stands **at your cursor**, across th
 - **Kills.** A ship the wall destroys dies of radiation, and the kill goes to the last enemy pilot who hit it within 15 seconds, if there was one. Whoever put the wall down is credited with nothing it did not shoot itself. An alien the wall destroys pays nothing: no reward, no loot.
 - **Aliens do not go round it.** They fly through it and burn, or stand on their side and shoot the wall.
 - **What you see.** A strip of blue-white light with bright dashes running along it and a post of light at each end, flaring where a shot lands and flickering when it is nearly spent. A level 2 wall glows yellow instead, with a thicker, brighter core and a stronger glow, but its strip is the same 10 units wide as a level 1 wall's. A thin life bar beside it shortens and turns amber and then red; your slot shows the wall's remaining life as its arc, the wait as its shade and the walls of its level you have left as its number. A wall put down flares in, a wall shot down collapses in sparks, and one whose time ran out fades.
-- **Getting it and carrying it.** The Energetic Wall I is sold in the Shop for **250 Thulium** a wall, and you carry up to **20** of it in one stack (what you have listed on the [Auction](/wiki/03-Mechanics/Auction.md) counts). The Energetic Wall II is made in Assembly, **one wall a craft**, for **600 Thulium**, 5 Ship Fragments and a Power Core, once the Research Centre has researched it (6 hours at the normal rate: [Research](/wiki/03-Mechanics/Research.md)); you carry up to **10** of it. Unlike the twelve rockets, of which 1,000 of each carry over by themselves, the walls you carry are lost with the season unless you put them in the Transport Cache, and walls in the cache cannot be used. An Energetic Wall II you made can be sold on the Auction; an Energetic Wall I, which the Shop sells, never.
+- **Getting it and carrying it.** The Energetic Wall I is sold in the Shop for **10,000 Credits** a wall, and you carry up to **20** of it in one stack (what you have listed on the [Auction](/wiki/03-Mechanics/Auction.md) counts). The Energetic Wall II is made in Assembly, **one wall a craft**, for **600 Thulium**, 5 Ship Fragments and a Power Core, once the Research Centre has researched it (6 hours at the normal rate: [Research](/wiki/03-Mechanics/Research.md)); you carry up to **10** of it. Unlike the twelve rockets, of which 1,000 of each carry over by themselves, the walls you carry are lost with the season unless you put them in the Transport Cache, and walls in the cache cannot be used. An Energetic Wall II you made can be sold on the Auction; an Energetic Wall I, which the Shop sells, never.
 
 ## Mine
 
@@ -109,9 +116,26 @@ A **Mine** is a trap you throw. Press its slot with the cursor on a point and yo
 - **Who it hits.** Every ship that flies over it: an enemy pilot, an alien, a company pilot, your company mates, your group and **you**. A Mine has no friends. What spares a ship is what spares it from every weapon: a safe zone, the protection of a respawn, a cloak or an EMP window.
 - **Moving away.** A ship that is inside a Mine's reach when it lands is spared until it has left that reach once, and you are the first one it spares: you can drop a Mine under your ship and fly away. After that the Mine goes off under that ship like under any other, even if it comes back later.
 - **How much.** The damage grows with the level: **8,000, 20,000 and 50,000**. Your Sabotage skill adds up to 30 % to it, and your Marksmanship makes the Mine fly faster and farther.
-- **Limits.** You can have **three** Mines out at a time (a fourth takes the oldest one's place), each is gone **3 minutes** after it landed, and you wait **8 seconds** between two throws; the wait is yours, not the ship's. When you leave the map your Mines leave with you.
+- **Limits.** A Mine **has no end of its own**: it lies where it landed until a ship sets it off or the server restarts, and it stays when you log off, die or leave the map. You have **no limit of your own**, only the wait of **8 seconds** between two throws (the wait is yours, not the ship's). Two rules protect the map: no two Mines may lie closer than **365 units** (a little over twice the length of the biggest ship), whoever threw them, and a map keeps at most **150** Mines. A throw that would break one of them is refused, uses nothing and starts no wait; while you aim, the ring at the cursor turns red where it would be refused.
 - **Where not.** Not where pilots cannot fight each other (under the Peace Protocol, or in a sector or a gate whose rules forbid it), not while a safe zone or a respawn protects you, not where the Mine would touch a safe zone or a gate, and not while cloaked. The game says which; a refused throw uses nothing and starts no wait.
 - **Getting it and carrying it.** Mine I is sold in the Shop for **100 Thulium**, and you carry up to **20** of it in one stack. Mine II is made in Assembly, **one Mine a craft**, out of two Mine I, 3 Ship Fragments and a Power Core for **200 Thulium** (up to **10** in a stack); Mine III out of two Mine II, 8 Ship Fragments, 2 Power Cores and a Reinforced Hull Plate for **400 Thulium** (up to **5**). Both are made once the Research Centre has researched them: 3 hours for the II and 6 hours for the III at the normal rate ([Research](/wiki/03-Mechanics/Research.md)). The Mines you carry are lost with the season unless you put them in the Transport Cache, and Mines in the cache cannot be used. Mines cannot be sold on the [Auction](/wiki/03-Mechanics/Auction.md).
+
+## Laser Optics
+
+Five items that make your lasers hit more often. They are not sold: Assembly makes them once the Skylab's Research Centre has researched them, one after the other (the Lasers family, see [Research](/wiki/03-Mechanics/Research.md)).
+
+- **What they do.** Fit one in an extra slot and it adds points to the chance that your laser volleys hit, on top of what your [Laser tech](/wiki/03-Mechanics/Combat.md#laser-tech) gives, never above 100%. Laser Optics I adds 2 points, II adds 4, III adds 6, IV adds 8 and V adds 10. A volley that goes wide still uses its ammo, so every point is damage you no longer waste.
+- **Only the best one counts.** Two Laser Optics do not add up: the best one you have fitted counts. One that you only carry, or fit in the other configuration, does nothing until you fly that configuration.
+- **Nothing to press.** They have no slot on the hotbar and no switch: they work as long as they are fitted, and they take one of your extra slots, like the other Extras.
+- **Where you read it.** A laser's card and the Damage tile of your Hangar say the chance in all, your Laser tech's and the Optics' together.
+
+| Item | Adds | Research time | Thulium to craft | Crafting time |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 points | 3 h | 8,000 | 5 min |
+| Laser Optics II | +4 points | 6 h | 15,000 | 7.5 min |
+| Laser Optics III | +6 points | 10 h | 30,000 | 10 min |
+| Laser Optics IV | +8 points | 16 h | 50,000 | 12.5 min |
+| Laser Optics V | +10 points | 24 h | 75,000 | 15 min |
 
 ## CPUs of the Research Centre {#research-cpus}
 

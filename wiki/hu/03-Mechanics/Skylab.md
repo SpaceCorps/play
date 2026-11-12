@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d5c4c080d0457d1d -->
+<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -293,11 +293,11 @@ A Védelmi modul harcol a Skylabodért. Tartalmazza a lézereket, amelyek a cell
 
 | Szint | Lézerek | Tár (lövés) | Lelövési keret (pont óránként) | Legnagyobb nehézség |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 600 | 108 | 1 |
-| 2 | 2 | 4 300 | 293 | 2 |
+| 1 | 1 | 1 500 | 108 | 1 |
+| 2 | 2 | 4 200 | 293 | 2 |
 | 3 | 3 | 16 000 | 476 | 3 |
-| 4 | 4 | 28 000 | 548 | 4 |
-| 5 | 5 | 42 000 | 630 | 5 |
+| 4 | 4 | 27 000 | 548 | 4 |
+| 5 | 5 | 41 000 | 630 | 5 |
 
 | Szint | Kredit | Thulium | Lemez | Idő |
 | :--- | ---: | ---: | ---: | ---: |

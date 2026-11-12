@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Pilotenfertigkeiten -->
 # Pilotenfertigkeiten {#pilot-skills}
 
@@ -15,11 +15,11 @@ Ein neuer Pilot ist nicht bei voller Stärke. Auf Level 1 machen ein Laser und e
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Werte**: 18 Werte: 4 Attribute und 14 Fertigkeiten in 5 Gruppen
+- **Werte**: 19 Werte: 4 Attribute und 15 Fertigkeiten in 5 Gruppen
 - **Level**: 1 bis 100. Jeder Pilot beginnt jeden Wert auf Level 1, und es gibt nichts zu verteilen und nichts zurückzusetzen
 - **Kosten eines Levels**: 40 EP von Level 1 auf 2, 875 EP von Level 50 auf 51, 19.157 EP von Level 99 auf 100; 313.258 EP insgesamt
 - **Was ein Level bringt**: Ein Buff wächst geradlinig von seinem Wert auf Level 1 bis zu seinem Wert auf Level 100. Nichts ist gedeckelt
-- **Dein Laser auf Level 1**: Er macht 80 % seines Schadens und trifft zu 80 %, also 64 % des Schadens, den die Gegenstandsseiten nennen
+- **Dein Laser auf Level 1**: Er macht 100 % seines Schadens und trifft zu 80 %, also 80 % des Schadens, den die Gegenstandsseiten nennen
 - **Deine Rakete auf Level 1**: Sie macht 100 % ihres Schadens und ist zu 10 % ein Blindgänger, also 90 % des Schadens, den die Gegenstandsseiten nennen
 - **Ausweichen**: Jedes Pilotenschiff weicht 3 % der Treffer aus, denen man ausweichen kann, bevor eine Fertigkeit oder Formation etwas hinzufügt
 - **Hüllenstufe**: Die Seltenheit deines Schiffs legt sie fest, wie die Tabelle unten zeigt. Die Größe deines Frachtraums und die EP von Masse folgen ihr
@@ -50,20 +50,20 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 
 | Wert | Was er ändert | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Masse** | Hülle | +0 % | +10 % |
-| **Zähigkeit** | Erlittener Schaden | ×1 | ×0,9 |
-| **Reflexe** | Aufladetempo der Fähigkeiten | ×1 | ×1,11 |
-| **Instinkt** | Chance jeder Beutezeile | +0 Punkte | +5 Punkte |
+| **Masse** | Hülle | +0 % | +20 % |
+| **Zähigkeit** | Erlittener Schaden | ×1 | ×0,92 |
+| **Reflexe** | Aufladetempo der Fähigkeiten | ×1 | ×1,1 |
+| **Instinkt** | Chance jeder Beutezeile | +0 Punkte | +7,5 Punkte |
 |  | Orvium und Velkonite aus den Kollektoren | ×1 | ×1,5 |
 
 ### Waffen {#weapons}
 
 | Wert | Was er ändert | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Lasertechnik** (Reflexe) | Laserschaden | ×0,8 | ×1,1 |
-|  | Chance, dass eine Lasersalve trifft | 80 % | 90 % |
+| **Lasertechnik** (Reflexe) | Laserschaden | ×1 | ×1,3 |
+|  | Chance, dass eine Lasersalve trifft | 80 % | 89 % |
 | **Raketentechnik** (Reflexe) | Raketenschaden | ×1 | ×1,3 |
-|  | Chance, dass eine Rakete ein Blindgänger ist | 10 % | 0 % |
+|  | Chance, dass eine Rakete ein Blindgänger ist | 10 % | 1 % |
 | **Antimaterie** (Instinkt) | Dark Matter beim Aufsammeln | ×1 | ×1,25 |
 
 ### Kampf {#combat}
@@ -76,13 +76,14 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 |  | Dauer von Giften | ×1 | ×1,2 |
 | **Ausweichen** (Reflexe) | Chance, einem Treffer auszuweichen, zusätzlich zu der des Schiffs | 0 % | 15 % |
 | **Taktik** (Reflexe) | Dauer der Fähigkeiten | ×1 | ×1,2 |
+| **Schildabsorption** (Zähigkeit) | Absorption deiner Schilde | +0 Punkte | +5 Punkte |
 
 ### Schiffssteuerung {#ship-control}
 
 | Wert | Was er ändert | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
 | **Strahlungstechnik** (Zähigkeit) | Strahlungsdosis | ×1 | ×0,4 |
-| **Triebwerkstheorie** (Masse) | Geschwindigkeit | +0 % | +15 % |
+| **Triebwerkstheorie** (Masse) | Geschwindigkeit | +0 % | +10 % |
 | **Forschung** (Instinkt) | Forschungspunkte je Einheit Treibstoff | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 
 - **Laser.** Lasertechnik ändert den Schaden jeder Salve und die Chance, dass sie trifft; eine Salve, die danebengeht, zeigt ein schwebendes „Miss“ und verbraucht trotzdem ihre Munition ([Kampf](/wiki/03-Mechanics/Combat.md#laser-tech)). Die Reichweite deiner Laser ist die deines Schiffs: Treffsicherheit steigt durch deine Treffer mit anderer Munition als dem einfachen x1, wirkt aber nur auf Minen (unten).
 - **Raketen.** Raketentechnik ändert den Schaden jeder Rakete und die Chance, dass eine ein Blindgänger ist ([Raketentechnik](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Treffer einstecken.** Zähigkeit nimmt von jedem Treffer, den du einsteckst, einen Anteil ab, und Ausweichen erhöht die Chance, dass ein direkter Treffer nichts bewirkt ([Kampf](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Masse erhöht deine Hülle.
+- **Treffer einstecken.** Zähigkeit nimmt von jedem Treffer, den du einsteckst, einen Anteil ab, Ausweichen erhöht die Chance, dass ein direkter Treffer nichts bewirkt, und Schildabsorption erhöht den Anteil eines Treffers, den deine Schilde nehmen ([Kampf](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Masse erhöht deine Hülle.
 - **Fähigkeiten.** Reflexe verkürzen die Abklingzeit deiner Fähigkeiten, und Taktik lässt sie länger wirken ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage verstärkt die Gifte.
 - **Minen.** Sabotage erhöht den Schaden einer Mine, und Treffsicherheit wirft sie schneller und weiter ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Tempo.** Triebwerkstheorie erhöht dein Tempo, zusätzlich zu den Triebwerken und einem Afterburner ([Tempo](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ Die Tabelle nennt, was EP bringt, Wert für Wert. Die EP gelten für jede Einhei
 |  | Je Salve, die ein Schiff trifft | 0,1 |  |
 | **Raketentechnik** (Reflexe) | Je Rakete, die du startest | 0,15 | 130 Raketen pro Stunde |
 |  | Je Rakete, die ein Schiff trifft (einmal je Rakete, wie viele Schiffe ihre Explosion auch trifft) | 0,3 |  |
-| **Antimaterie** (Instinkt) | Je Einheit Dark Matter, die du beim Aufsammeln erhältst | 0,1 | Keine |
+| **Antimaterie** (Instinkt) | Je Einheit Dark Matter, die du beim Aufsammeln erhältst | 2,2 | Keine |
 | **Treffsicherheit** (Reflexe) | Je Treffer einer Salve mit anderer Munition als dem einfachen x1 (×1,5 in den ersten 10 min jeder Munitionsart in einer Uhrzeitstunde) | 0,1 | 3.000 Treffer pro Stunde |
 |  | Je Treffer einer Mine und je Sekunde, die ein Feind in deiner Energetic Wall verbringt | 0,1 |  |
 | **Sabotage** (Reflexe) | Je Treffer einer Mine und je Sekunde, die ein Feind in deiner Energetic Wall verbringt | 0,5 | 1.200 EP pro Stunde |
 |  | Je Sekunde, die ein Gift von dir auf einem Feind wirkt | 0,05 |  |
 | **Ausweichen** (Reflexe) | Je feindlichen Angriff auf dich, der danebengeht oder dem du ausweichst | 1 | 600 EP pro Stunde |
 | **Taktik** (Reflexe) | Je Fähigkeit, die du mit einem Feind in Laserreichweite drückst | 2 | 600 EP pro Stunde |
+| **Schildabsorption** (Zähigkeit) | Je 1 % deiner maximalen Schildpunkte, die Treffer von Feinden aufnehmen | 0,1 | 300 EP pro Stunde |
 | **Strahlungstechnik** (Zähigkeit) | Je Sekunde in einem Strahlungsband | 0,2 | Keine |
 |  | Je 1 % deiner maximalen Hülle, den die Strahlung nimmt | 1 |  |
 | **Triebwerkstheorie** (Masse) | Je Sekunde Flug über 80 % der Geschwindigkeit deines Schiffs, doppelt so viel unter einem Afterburner | 0,1 | Keine |
@@ -184,7 +186,9 @@ Ein Level kostet mehr EP als das davor, um einen festen Anteil, die ersten Level
 
 ## Die Seite Pilotenfertigkeiten {#the-pilot-skills-page}
 
-Die Seite **Pilotenfertigkeiten** ist eine Seite der Station mit einer eigenen Zeile in der Seitenleiste. Sie zeigt den ganzen Baum: die Attribute und die Fertigkeiten in ihren Gruppen, jeweils mit ihrem Level. Wähle einen Wert, um zu sehen, was er tut, welches Attribut ihn bestimmt, welche Fertigkeiten er trainiert, seine EP-Leiste und was ihn wachsen lässt, und nutze den Regler, um jedes Level von 1 bis zum letzten vorab anzusehen: Eine kleine Tabelle gibt, was der Wert auf dem Level ändert, das du ansiehst, und auf deinem Level jetzt. Ein Wert, der noch keine EP verdient hat, ist als nicht benutzt markiert, mit einem Strich als Level. Die Zeile in der Seitenleiste trägt ein Abzeichen, wenn ein Wert aufgestiegen ist, seit du die Seite zuletzt geöffnet hast, und eine Karte im Booster-Fenster fasst zusammen, was deine Fertigkeiten ändern.
+Die Seite **Pilotenfertigkeiten** ist eine Seite der Station mit einer eigenen Zeile in der Seitenleiste. Sie ist ein kompaktes Blatt für den ganzen Baum: Die Attribute und die fünf Gruppen von Fertigkeiten stehen nebeneinander in Spalten (drei auf einem breiten Bildschirm, weniger auf einem schmalen), je Wert eine Zeile mit seinem Level am rechten Rand und einer dünnen EP-Leiste darunter. Ein Wert, der noch keine EP verdient hat, ist grau und hat einen Strich als Level. Halte den Mauszeiger auf eine Zeile, um zu sehen, was der Wert tut, welches Attribut ihn bestimmt oder welche Fertigkeiten er trainiert, seine EP und was ihn wachsen lässt. Klicke auf eine Zeile, um ihre Details unter ihrer Spaltenreihe zu öffnen: dieselben Worte, die EP-Leiste und einen Regler, um jedes Level von 1 bis zum letzten vorab anzusehen, mit einer kleinen Tabelle, was der Wert auf Level 1, auf deinem Level jetzt, auf dem Level, das du ansiehst, und auf dem letzten Level ändert. Es ist immer nur ein Wert geöffnet; klicke die Zeile erneut an, nutze die Schaltfläche zum Schließen oder drücke Esc, um ihn wegzulegen. Die Zeile in der Seitenleiste trägt ein Abzeichen, wenn ein Wert aufgestiegen ist, seit du die Seite zuletzt geöffnet hast, und eine Karte im Booster-Fenster fasst zusammen, was deine Fertigkeiten ändern.
+
+Im Flug ist dasselbe Blatt das Fenster **Pilotenfertigkeiten**. Öffne es mit der Schaltfläche Pilotenfertigkeiten der Werkzeugleiste (auf einem breiten Bildschirm) oder mit seiner Taste, standardmäßig K (Einstellungen, Steuerung). Es ist ein Fenster wie die anderen: Du kannst es verschieben und in der Größe ändern, und es merkt sich seinen Platz und ob es offen war. Es zeigt nur deine Fertigkeiten: Die Level ändern sich, wenn die EP-Zeilen des Flugs eintreffen, und ein Klick auf eine Zeile öffnet dieselben Details im Fenster.
 
 ## Was bleibt {#what-is-kept}
 

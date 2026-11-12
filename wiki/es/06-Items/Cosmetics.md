@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; aspecto; pintura; guardarropa; estela -->
 
-Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin** (la pintura del casco), un **aura** (un resplandor suave alrededor de la nave), una **estela** (el color y la forma del rastro tras sus motores) y la **pintura** de tus drones. Un aspecto es solo de adorno: no da daño, ni casco, ni velocidad, no ocupa ranura y no cambia nada de lo que un disparo puede alcanzar.
+Un **aspecto** es lo que lleva puesta tu nave. Tiene cuatro partes: una **skin** (la pintura del casco), un **aura** (un resplandor suave y un anillo de luz alrededor de la nave), una **estela** (el color y la forma del rastro tras sus motores) y la **pintura** de tus drones. Un aspecto es solo de adorno: no da daño, ni casco, ni velocidad, no ocupa ranura y no cambia nada de lo que un disparo puede alcanzar.
 
 > [!NOTE]
 > **Los aspectos no se pueden comprar.** El reinicio entrega los aspectos de temporada de los rangos más altos ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Algunos aspectos se encuentran en el [Archivo cromático (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive), un contenedor; los demás los concede un administrador. Cuando un administrador te da un aspecto, te lo dice un aviso y suena un tintineo suave; un aspecto que ganas en el contenedor aparece en su tarjeta de resultado.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ Los ocho colores comunes vienen con la ranura: todos los pilotos los tienen. Ion
 | Efecto | Rareza | Qué dibuja |
 | :--- | :--- | :--- |
 | **None** | Común | Sin aura. Viene con la ranura |
-| **Glow** | Común | Un resplandor suave alrededor de la nave |
-| **Breath** | Poco común | Un resplandor que respira despacio |
-| **Motes** | Raro | Un resplandor con cuatro lucecitas que giran |
-| **Shimmer** | Raro | Un resplandor que centellea |
-| **Sparkle** | Épico | Seis luces que giran y centellean |
-| **Wreath** | Épico | Ocho luces en una órbita lenta |
-| **Halo** | Mítico | Un resplandor que respira con ocho luces que giran |
-| **Laurel** | Legendario | Diez luces que giran despacio en un resplandor que respira |
-| **Crown** | Eterno | Diez luces que giran en un resplandor que respira y centellea |
+| **Glow** | Común | Un resplandor suave con un fino anillo de luz en su borde |
+| **Breath** | Poco común | Un resplandor y un anillo de luz que respiran despacio |
+| **Motes** | Raro | Un anillo de luz con cuatro cometas pequeños que giran en su interior |
+| **Shimmer** | Raro | Una espiral lenta de dos brazos en un anillo tenue, que centellea |
+| **Sparkle** | Épico | Seis cometas que giran y centellean, en un anillo de luz |
+| **Wreath** | Épico | Ocho cometas en una órbita lenta, en un anillo de luz con otro más fino dentro |
+| **Halo** | Mítico | Un anillo de luz brillante que respira, con dos anillos más finos dentro y seis cometas que giran |
+| **Laurel** | Legendario | Un anillo de luz que respira alrededor de una espiral lenta de tres brazos, con ocho cometas que giran despacio |
+| **Crown** | Eterno | Un anillo de luz brillante con dos anillos más finos y una espiral de cuatro brazos dentro y ocho cometas que giran; respira y centellea |
+| **Event Horizon** | Mítico | Una banda oscura que atenúa lo que hay detrás, dentro de un anillo de luz brillante que arde por un lado |
+| **Accretion** | Mítico | Una espiral lenta de tres brazos en un anillo de luz, con ocho cometas que caen hacia dentro |
+| **Singularity** | Legendario | Una banda oscura dentro de un anillo de luz brillante, una espiral de dos brazos y seis cometas que centellean y caen hacia dentro |
+| **Gravity Well** | Mítico | Una banda oscura tenue y tres anillos más finos dentro de un anillo de luz que respira |
 
-Un aura se queda dentro del anillo que marca una fijación y se dibuja debajo de todo lo demás alrededor de una nave.
+Un aura se queda dentro del anillo que marca una fijación y se dibuja debajo de todo lo demás alrededor de una nave. Su propio anillo de luz es fino, tiene el color del aura y un arco brillante que lo recorre; el anillo de fijación queda por fuera y no se mueve. Un cometa es una lucecita con una cola corta.
+
+**Event Horizon**, **Accretion**, **Singularity** y **Gravity Well** no están en el Archivo cromático: las concede un administrador.
 
 ## El Guardarropa {#the-wardrobe}
 

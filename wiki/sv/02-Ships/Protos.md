@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Protos är det enkla startskeppet som alla nya piloter i SpaceCorps får. Det ä
 ## Värden {#stats}
 
 - **Träffpoäng (HP)**: 8 000
-- **Grundhastighet**: 180
+- **Grundhastighet**: 190
 - **Laserplatser**: 2
 - **Extraplatser**: 2
 

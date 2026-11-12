@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -47,18 +47,21 @@ Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds
 
 ## Chatkanäle {#chat-channels}
 
-Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal**, **Gruppe** (solange du in einer Gruppe bist) und ganz hinten **System**. Die Zeile, die du tippst, geht an den sichtbaren Tab, und der zuletzt genutzte Tab wird gemerkt. Jeder Kanal hat seine Farbe und ein kurzes Kürzel in jeder Zeile (GLB, LOK, GRP), ein Tab zählt die Zeilen, die du noch nicht gelesen hast, und die Chat-Schaltfläche in der Symbolleiste zeigt die Zahl, solange das Fenster geschlossen ist. Oder beginne eine Zeile mit einem Befehl:
+Der Chat hat oben eine Reihe von Tabs: **Global**, **Lokal**, **Gruppe** (solange du in einer Gruppe bist), **Clan** (solange du in einem Clan bist) und ganz hinten **System**. Die Zeile, die du tippst, geht an den sichtbaren Tab, und der zuletzt genutzte Tab wird gemerkt. Jeder Kanal hat seine Farbe und ein kurzes Kürzel in jeder Zeile (GLB, LOK, GRP), ein Tab zählt die Zeilen, die du noch nicht gelesen hast, und die Chat-Schaltfläche in der Symbolleiste zeigt die Zahl, solange das Fenster geschlossen ist. Oder beginne eine Zeile mit einem Befehl:
 
 | Kanal | Wer es hört | Befehl |
 | :--- | :--- | :--- |
 | **Lokal** | Piloten auf deiner Karte | `/l` oder `/local` |
 | **Global** | jeder Pilot auf jedem Server und in jeder Welt | `/g` oder `/global` |
 | **Gruppe** | deine Gruppe auf deinem Server, wo auch immer sie ist | `/p`, `/party` oder `/group` |
+| **Clan** | die Piloten deines Clans auf dem Heimatserver; was gesagt wird, bleibt für alle erhalten, die nicht online sind | `/c` oder `/clan` |
 | **Privat** | ein einzelner Pilot auf deinem Server, wo auch immer er ist | `/m`, `/msg` oder `/w`, dann Name und Nachricht ([unten](#private-messages)) |
 
 Ein Befehl wechselt auch den Tab, und allein getippt (`/g`) wechselt er nur. Der Gruppenchat braucht eine Gruppe. Auf einem Spielserver aus der Zeit vor den Kanälen ist der Chat die eine Liste, die er war, und eine Gruppe lässt sich nicht bilden.
 
 **Global** ist ein Chat für das ganze Spiel: Deine Zeile hört jeder Pilot auf jedem Server und in jeder Welt, im Flug und an der Station. Eine Zeile von einem anderen Server kann einen Moment nach dem Senden eintreffen, und Piloten auf verschiedenen Servern sehen zwei fast gleichzeitige Zeilen unter Umständen in anderer Reihenfolge. Lass den Mauszeiger auf dem Namen eines Piloten ruhen: Die Karte, die sich öffnet, nennt auch den Server, auf dem er fliegt, wenn es nicht deiner ist. Die anderen Kanäle bleiben auf dem Server, auf dem du bist: **Lokal** sind die Piloten auf deiner Karte, Gruppenchat und private Nachrichten erreichen nur Piloten auf deinem Server, und der [Kill-Feed](#the-kill-feed) und die **System**-Zeilen (die Ansagen des Servers) gehören jedem Server selbst. Verliert ein Server die Verbindung zu den anderen, schrumpft sein Global auf seine eigenen Piloten, bis sie wieder steht; eine kurze Unterbrechung wird nachträglich ausgeglichen, was während einer längeren gesagt wurde, wird danach nicht mehr zugestellt.
+
+**Clan** ist der eine Kanal, den das Spiel aufbewahrt. Eine Zeile, die du dort schreibst, erreicht jedes Mitglied deines Clans, das auf dem Heimatserver online ist, an einer Station oder im Flug, und der Server behält die letzten **200 Zeilen** des Clans, keine älter als **14 Tage**. Wer sich anmeldet, dem Clan beitritt oder den Clan-Tab öffnet, bekommt sie, die älteste zuerst, unter einer Zeile, die sagt, wie lange der Chat aufbewahrt wird; eine Zeile von einem früheren Tag zeigt ihr Datum zur Uhrzeit, und die Zeilen, die du so liest, zählen nicht als ungelesen. Wer den Clan verlässt oder hinausgeworfen wird, bekommt nichts mehr davon, und wenn der Clan aufgelöst wird, vom Anführer oder durch den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md), werden seine Zeilen mit ihm gelöscht. Für die Regeln des Chats ([Die Chat-Regeln](#the-chat-rules)) gilt dasselbe wie in den anderen Kanälen, einen Piloten zu ignorieren blendet seine Clan-Zeilen aus, und eine Clan-Zeile lässt sich wie jede andere melden. Auf einem regionalen Server gibt es keinen Clan-Tab, und `/c` sagt, dass der Clan-Chat nur auf dem Heimatserver verfügbar ist.
 
 **System** ist golden und nur zum Lesen, mit einer eigenen Liste: Dort stehen die Meldungen, die der Server von sich aus macht (die Begrüßung, die Warnungen vor Neustart, Update und Wipe, die Schwarm-Ansagen), und was dein Schiff meldet (Reparaturen, Tarnung, EMPs, Raketen). Diese Zeilen stehen in keinem anderen Tab, ein vielbeschäftigtes Global kann sie also nicht verdrängen, und die anderen Tabs enthalten, was Piloten sagen. Die Zahl am Tab zählt nur die Ansagen; ein Countdown bis zu einem Neustart oder Update und die Wipe-Warnungen erscheinen außerdem kurz als Hinweis. Der [Kill-Feed](#the-kill-feed) bleibt in **Global**, mit eigenem Schalter, und die Zeilen darüber, dass Piloten deiner Gruppe beitreten oder sie verlassen, stehen in **Gruppe**.
 
@@ -114,7 +117,7 @@ Deine Ignorierliste und der Schalter Global-Chat ausblenden werden bei deinem Ko
 
 ## Einsatzregeln {#rules-of-engagement}
 
-**Mitglieder einer Gruppe können einander nicht verletzen**, egal welcher Konzerne: Du kannst ein Gruppenmitglied nicht anvisieren (Laser oder Raketen), deine Schüsse und Explosionen gehen durch es hindurch, und nichts, was du einem antust, zählt für irgendjemanden als Abschuss, PvP-Abschuss oder Abschuss durch das Schwarze Loch. Konzernkameraden, die **nicht** in derselben Gruppe sind, sind wie zuvor: Einen zu treffen kostet **100 Ehre**, wenn er zerstört wird. Verlässt du die Gruppe, ist ein früheres Mitglied, ob Feind oder nicht, sofort wieder Freiwild (wo der Sektor und die Saison Kämpfe überhaupt erlauben). Alle außerhalb deiner Gruppe werden behandelt wie immer, und Schutzzonen, das Friedensprotokoll und die PvP-Regeln der Sektoren ändern sich für niemanden.
+**Mitglieder einer Gruppe können einander nicht verletzen**, egal welcher Konzerne: Du kannst ein Gruppenmitglied nicht anvisieren (Laser oder Raketen), deine Schüsse und Explosionen gehen durch es hindurch, und nichts, was du einem antust, zählt für irgendjemanden als Abschuss, PvP-Abschuss oder Abschuss durch das Schwarze Loch. Konzernkameraden, die **nicht** in derselben Gruppe sind, sind wie zuvor: Einen mit einem Laser oder einer Rakete zu treffen kostet **100 Ehre**, wenn er zerstört wird. Verlässt du die Gruppe, ist ein früheres Mitglied, ob Feind oder nicht, sofort wieder Freiwild (wo der Sektor und die Saison Kämpfe überhaupt erlauben). Alle außerhalb deiner Gruppe werden behandelt wie immer, und Schutzzonen, das Friedensprotokoll und die PvP-Regeln der Sektoren ändern sich für niemanden.
 
 ## Einen Freund mitbringen {#bringing-a-friend}
 

@@ -1,18 +1,18 @@
 # Storm
 
-The Storm is a glass-cannon fighter: the highest base speed and the most lasers of any ship (14), on a hull that is light for its class. By the game's rating (more than 10 laser slots) it is a Class IV Dreadnought. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
+The Storm is a glass-cannon fighter: the highest base speed and the most lasers of any ship (15), on a hull that is light for its class. By the game's rating (more than 10 laser slots) it is a Class IV Dreadnought. It is made in Assembly once the Research Centre has researched it, and on equal lasers it loses to a Wraith or an Ironclad one on one.
 
 ## Stats
 
 - **Hitpoints (HP)**: 180,000
-- **Base Speed**: 260
-- **Laser Slots**: 14
+- **Base Speed**: 350
+- **Laser Slots**: 15
 - **Extra Slots**: 3
-- **Hull Plate Slots**: 7
+- **Hull Plate Slots**: 8
 
 ### Generator & Support Slots
 
-- **Core Slots (100% efficiency)**: 4
+- **Core Slots (100% efficiency)**: 3
 - **Support Slots (75% efficiency)**: 4
 - **Auxiliary Slots (50% efficiency)**: 2
 
@@ -25,7 +25,7 @@ The Storm is a glass-cannon fighter: the highest base speed and the most lasers 
 
 ## Research
 
-- **Hull plate slots.** The Storm has 7 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Storm and on every one of its designs. All 7 filled with Hull Plating III add 175,000 hull.
+- **Hull plate slots.** The Storm has 8 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md), all locked when you make it. Each one is a technology of its own in the Skylab, 1 h and 10 Dark Matter, researched in order from the first; it opens that slot on the Storm and on every one of its designs. All 8 filled with Hull Plating III add 200,000 hull.
 - **Designs.** The Storm has 3 [designs](/wiki/03-Mechanics/Ship-Designs.md). Research one (10 h and 10 Dark Matter), then convert your Storm into it in Assembly: the change cannot be undone.
 
 | Design | What it changes |
@@ -46,4 +46,4 @@ Once it is researched, crafting a Storm in Assembly takes 3 [Ancient Control Uni
 
 ## Lore
 
-The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Pale grey plating over a darker frame, with white light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten muzzles in plain view, and fourteen lasers fire through them. What it has no room for is armor. Its hull is about seven tenths of a Wraith's and about three tenths of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.
+The Storm is what the yards build when the only order is speed. A needle of a fuselage with a dark canopy sits between two open crescent rings, each a plated arc round a hollow, ending in a raised horn, with an engine nacelle running through the opening: most of the ship is drive. Pale grey plating over a darker frame, with white light strips, makes it easy to see, and it wants to be seen. Two long cannons ride the forward blades and eight small emitters sit on the rings and the shoulder fins, ten muzzles in plain view, and fifteen lasers fire through them. What it has no room for is armor. Its hull is about seven tenths of a Wraith's and about three tenths of an Ironclad's, so its pilots strike first, strike hard and leave before anything bigger turns around.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 97e289c94edbe6a9 -->
+<!-- wiki-i18n source: c73b28d296c8468b -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter et Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -12,7 +12,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 ## En une minute {#in-one-minute}
 
 - **La Dark Matter est une ressource, et elle s’appelle simplement Dark Matter partout.** Le trou noir au centre du Secteur dangereux 4 (`DS-4`) la fabrique : chaque roquette N.I.K.E. qui atteint le trou rend de 1 à 3 Dark Matter (2 en moyenne), dans de petites caisses au bord de sa zone.
-- **À quoi elle sert.** 109 technologies du Centre de recherche en demandent, de 5 à 60 chacune et 1 374 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite. Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
+- **À quoi elle sert.** 110 technologies du Centre de recherche en demandent, de 5 à 60 chacune et 1 384 en tout, et l’Assemblage la presse pour faire la Dark Matter Plate. Dès le jour 11 de la saison, une [excavatrice géante](/wiki/03-Mechanics/Giant-Excavator.md) en brûle aussi, comme carburant : un réservoir, c’est quelques Dark Matter, et il est perdu si l’excavatrice est détruite. Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
 - **Dans le Centre de recherche**, vous ajoutez de la Dark Matter depuis votre soute (vaisseau posé) avant d’appuyer sur Lancer. La recherche la prend à son début.
 - **Une Dark Matter Plate est un autre objet.** Recherchez d’abord sa recette (le groupe Ressources de l’arbre : 1 jour et 10 Dark Matter), puis fabriquez-la à l’Assemblage avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium.
 - **À quoi sert une plate.** Le dernier palier de chaque chaîne d’amélioration en demande **4** et au moins une Ancient Control Unit : les amps, cellules de bouclier et propulseurs du palier IV, le Heavy Shield Core, l’Engine III, l’Adaptive Core III, le Helios Beam, l’Extra Slots CPU III et le Base CPU II (13 pièces). La Forge en demande 2 pour faire passer un objet de Divin à Fracturant, et 2 de plus de Fracturant à Éternel. Les modules Moteurs, Défense et Radar du Skylab demandent aussi des plaques, pour être construits et améliorés ([Ressources](/wiki/06-Items/Resources.md#dark-matter-plate)).
@@ -27,7 +27,7 @@ La **Dark Matter** est la ressource qui se cache derrière le haut de l’arbre 
 | **Ce que c’est** | Une ressource Épique | Une ressource Mythique |
 | **D’où elle vient** | Le trou noir du secteur dangereux 4, pour les roquettes N.I.K.E. tirées dedans ; un peu de l’Essaim Dormant et des Inert Masses du Dormant Swamp, beaucoup plus du Tesseract du secteur dangereux 4 | L’Assemblage, pressée avec 5 Dark Matter, une Velkonite Reinforced Plate, une Orvium Reinforced Plate et 250 Thulium |
 | **Ce qu’on fait d’abord** | Rechercher la N.I.K.E. (3 h, sans Dark Matter) et en fabriquer | Rechercher la recette de la plate (1 j, 10 Dark Matter) |
-| **À quoi elle sert** | Les coûts de recherche (109 technologies, 1 374 en tout) et la plate | Le dernier palier de chaque chaîne d’amélioration : 4 pour chacune des 13 pièces ; l’amélioration du Master Drone : 10 ; la Forge : 2 pour chacun de ses deux paliers les plus hauts |
+| **À quoi elle sert** | Les coûts de recherche (110 technologies, 1 384 en tout) et la plate | Le dernier palier de chaque chaîne d’amélioration : 4 pour chacune des 13 pièces ; l’amélioration du Master Drone : 10 ; la Forge : 2 pour chacun de ses deux paliers les plus hauts |
 
 ## Comment obtenir de la Dark Matter {#how-to-get-dark-matter}
 
@@ -49,7 +49,7 @@ Environ **5 roquettes font 10 Dark Matter**. Le Resource Magnet Booster n’y aj
 
 ## La Dark Matter dans le Centre de recherche {#in-the-research-centre}
 
-Les technologies du haut de l’arbre demandent de la Dark Matter en plus de leur science : **10** pour chacune des 17 technologies du sommet, et **5, 13 ou 20** pour chacune des 16 formations de drones (plus la formation est forte, plus il en faut). Les deux recherches du Hull Plating en demandent **25 et 40**, et les technologies de vaisseaux, les 13 designs et les 37 emplacements de blindage, **10** chacune. Les modules Moteurs, Défense et Radar du Skylab demandent **5, 10, 15 ou 20** par niveau à partir du deuxième, 115 en tout ([Recherche](/wiki/03-Mechanics/Research.md#module-technologies)). Les tableaux de [Recherche](/wiki/03-Mechanics/Research.md#dark-matter) énumèrent toutes les autres.
+Les technologies du haut de l’arbre demandent de la Dark Matter en plus de leur science : **10** pour chacune des 17 technologies du sommet, et **5, 13 ou 20** pour chacune des 16 formations de drones (plus la formation est forte, plus il en faut). Les deux recherches du Hull Plating en demandent **25 et 40**, et les technologies de vaisseaux, les 13 designs et les 38 emplacements de blindage, **10** chacune. Les modules Moteurs, Défense et Radar du Skylab demandent **5, 10, 15 ou 20** par niveau à partir du deuxième, 115 en tout ([Recherche](/wiki/03-Mechanics/Research.md#module-technologies)). Les tableaux de [Recherche](/wiki/03-Mechanics/Research.md#dark-matter) énumèrent toutes les autres.
 
 1. **Ouvrez la vue Recherche** de votre Skylab à la station et choisissez la technologie. Sa fiche a une ligne **Dark Matter** : combien il y en a dans le Centre, sur combien elle en demande (par exemple 3 / 10).
 2. **Appuyez sur Ajouter.** Cela déplace de la Dark Matter de votre soute vers le Centre de recherche, ce qui manque, dans la limite de ce que vous portez. Votre vaisseau doit être posé. **Reprendre** la rend à votre soute.
@@ -93,11 +93,11 @@ Une plate est pressée à partir de 5 Dark Matter, d’une Velkonite Reinforced 
 | Ce que vous construisez | Pièces du dernier palier | Plates | Dark Matter | Roquettes N.I.K.E., en moyenne |
 | :--- | ---: | ---: | ---: | ---: |
 | Une pièce du dernier palier | 1 | 4 | 20 | 10 |
-| Un Helios Beam avec ses 3 amps du palier IV | 4 | 16 | 80 | 40 |
-| Un Paragon | 44 | 176 | 880 | 440 |
-| Un Wraith | 64 | 256 | 1 280 | 640 |
+| Un Helios Beam avec ses 4 amps du palier IV | 5 | 20 | 100 | 50 |
+| Un Paragon | 58 | 232 | 1 160 | 580 |
+| Un Wraith | 82 | 328 | 1 640 | 820 |
 
-Les 44 pièces d’un Paragon sont ses 9 lasers, leurs 27 amps et ses 8 emplacements de générateur et de soutien (3 + 3 + 2) ; les 64 d’un Wraith sont ses 13 lasers, leurs 39 amps et ses 12 emplacements de générateur et de soutien (4 + 4 + 4).
+Les 58 pièces d’un Paragon sont ses 10 lasers, leurs 40 amps et ses 8 emplacements de générateur et de soutien (3 + 3 + 2) ; les 82 d’un Wraith sont ses 14 lasers, leurs 56 amps et ses 12 emplacements de générateur et de soutien (4 + 4 + 4).
 
 ## Combien il vous en faut {#how-much-you-need}
 
@@ -107,7 +107,7 @@ Les 44 pièces d’un Paragon sont ses 9 lasers, leurs 27 amps et ses 8 emplacem
 | Une Dark Matter Plate | 5 | 2,5 |
 | Les deux plates d’une étape de la Forge | 10 | 5 |
 | Les quatre plates d’une pièce du dernier palier | 20 | 10 |
-| Toute technologie qui demande de la Dark Matter | 1 374 | 687 |
+| Toute technologie qui demande de la Dark Matter | 1 384 | 692 |
 
 Une première amélioration à partir de rien, c’est la recette (10) et deux plates (10) : 20 Dark Matter, environ 10 roquettes N.I.K.E., soit deux fabrications. Un premier ampli de palier IV à partir de rien, c’est la recette de la plate (10), la technologie propre de l’ampli (10) et 4 plates (20) : 40 Dark Matter, environ 20 roquettes N.I.K.E.
 

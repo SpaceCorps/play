@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: Forskning -->
 # Forskning {#research}
 
@@ -30,7 +30,7 @@ Den här sidan har hela teknologiträdet med tiden för varje teknologi, vetensk
 
 <!-- research-centre:end -->
 
-**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) slutför den pågående forskningen direkt, om dess teknik tar 24 timmar eller mindre att forska fram (143 av de 159 teknikerna). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen den ännu inte brunnit stannar kvar i din tank, och nästa teknik i din kö startar direkt.
+**Schematics.** Ett [Schematics](/wiki/06-Items/Special-Items.md#schematics) tar bort 24 timmar från den pågående forskningen: om 24 timmar eller mindre återstår slutförs den direkt, och en längre förlorar 24 timmar och fortsätter (167 av de 187 teknikerna tar 24 timmar eller mindre, så ett Schematics slutför dem från början; de andra 20 behöver 2 till 10). Vad forskningen kostade betalades vid starten och ges inte tillbaka, vetenskapen som den överhoppade tiden hade bränt stannar kvar i din tank, och när forskningen är slutförd startar nästa teknik i din kö direkt.
 
 **Laserförstärkarna och sista nivån.** Damage Amp, Crit Amp och Penetration Amp på nivå II till IV forskas fram som allt annat som kan tillverkas. Piloter som hade eller hade köat förstärkare när förstärkarserierna kom fick teknologin för var och en av dem och för nivåerna under. Tretton teknologier kräver en teknologi i ett annat träd, Dark Matter Plates, i trädet Resurser, eftersom sista nivån i varje uppgraderingskedja kräver fyra plattor och en Ancient Control Unit: Damage Amp, Crit Amp och Penetration Amp av nivå IV, Absorption Shield Cell och Capacity Shield Cell av nivå IV, Impulse Thruster och Momentum Thruster av nivå IV, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III och Base CPU II. En pilot som har forskat fram en av dem tidigare behåller den, men behöver plattans teknologi för att tillverka dess plattor. Trädet nedan ritar ingen pil för den, men tabellen listar den och kortet i spelet nämner den ([Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@ Vad en boost gör med tiden för en forskning, med boosten på från start:
 | 6 h | 3 h | 1 | 5 000 |
 | 8 h | 4 h | 1 | 5 000 |
 | 10 h | 5 h | 1 | 5 000 |
+| 16 h | 8 h | 1 | 5 000 |
 | 1 d | 12 h | 1 | 5 000 |
 | 2 d | 1 d | 1 | 5 000 |
 | 4 d | 2 d | 2 | 10 000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Boosters {#tree-boosters}
@@ -550,18 +557,23 @@ Familjen Pilot i forskningsvyn innehåller teknologier som inte är tillverkning
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 d | 864 000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 h | 10 800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 h | 21 600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 h | 10 800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 h | 21 600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 h | 36 000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 h | 57 600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 d | 86 400 | – |
 
 Klasserna efter forskningstid:
 
 | Klass | Forskningstid | Teknologier | En efter en | Vetenskap | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 min till 1 h | 17 | 9 h 30 min | 34 200 | 0 |
-| B | 3 h till 6 h | 35 | 5 d 11 h | 471 600 | 0 |
-| C | 8 h till 10 h | 19 | 7 d 18 h | 669 600 | 95 |
-| D | 1 d till 10 d | 28 | 52 d | 4 492 800 | 329 |
-| Alla |  | 99 | 65 d 14 h 30 min | 5 668 200 | 424 |
+| B | 3 h till 6 h | 37 | 5 d 20 h | 504 000 | 0 |
+| C | 8 h till 10 h | 20 | 8 d 4 h | 705 600 | 95 |
+| D | 16 h till 10 d | 30 | 53 d 16 h | 4 636 800 | 329 |
+| Alla |  | 104 | 68 d 1 h 30 min | 5 880 600 | 424 |
 
-Framforskat en efter en tar hela trädet 65 d 14 h 30 min. Med boosten på hela tiden tar det 32 d 19 h 15 min, alltså 33 boostar och 165 000 Thulium; vetenskapen är densamma.
+Framforskat en efter en tar hela trädet 68 d 1 h 30 min. Med boosten på hela tiden tar det 34 d 45 min, alltså 35 boostar och 175 000 Thulium; vetenskapen är densamma.
 
 <!-- research-technologies:end -->
 

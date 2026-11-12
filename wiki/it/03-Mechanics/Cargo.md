@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Gli alieni distrutti lasciano il loro bottino nello spazio sotto forma di casse 
 - **I capi degli [sciami](/wiki/05-Swarms/Swarms.md) (tranne il Tesseract) e le Dormant Pulse** lasciano una cassa tutta loro, con munizioni, razzi e risorse. È riservata al pilota che ha inflitto più danno alla nave (e al clan di quel pilota), non al primo che l’ha colpita.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** non lascia una cassa del genere: ogni pilota che ha inflitto almeno il 5% dei danni riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte del bottino.
 - **Il [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** non lascia una cassa nemmeno sul suo relitto: ogni pilota pagato dal suo abbattimento riceve una [cassa privata](#private-boxes) tutta sua, con la sua parte di Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit e Dark Matter.
-- Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza. Un frammento si raccoglie come una cassa, ed è riservato ai piloti che l’hanno meritato e poi libero, come una cassa.
+- Gli **[asteroidi](/wiki/03-Mechanics/Asteroid-Mining.md)** lasciano **frammenti** invece di una cassa: piccole pepite e cristalli che contengono crediti e Thulium, e una pietra che contiene minerale. I crediti e il Thulium vengono pagati quando si raccoglie un frammento, non quando l’asteroide si spezza. Un frammento si raccoglie come una cassa, ed è riservato al pilota per cui è stato posato: per 30 secondi solo lui può prenderlo, non i compagni del suo clan, e poi è libero, come una cassa.
 
 Un alieno finito da un pilota di corporazione rilascia il suo bottino per il pilota a cui l’abbattimento viene attribuito (chi ne detiene la rivendicazione, altrimenti il pilota della stessa corporazione che lo sta combattendo); uno combattuto da un pilota di corporazione da solo non rilascia nulla, perché i piloti di corporazione non raccolgono mai.
 
@@ -35,7 +35,7 @@ Le luci della cassa prendono il colore dell’oggetto più raro al suo interno: 
 
 ## A chi spetta {#who-gets-it}
 
-- Il pilota pagato per l’abbattimento, e i membri del **clan** di quel pilota, hanno la cassa tutta per sé per **30 secondi**. Per un alieno è il pilota che ne detiene la rivendicazione, il primo a colpirlo (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)), chiunque l’abbia finito. Gli altri piloti la vedono attenuata e non possono ancora prenderla; una nave mandata verso di essa attende nelle vicinanze finché il tempo non scade.
+- Il pilota pagato per l’abbattimento, e i membri del **clan** di quel pilota, hanno la cassa tutta per sé per **30 secondi**. Per un alieno è il pilota che ne detiene la rivendicazione, il primo a colpirlo (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)), chiunque l’abbia finito. Gli altri piloti la vedono attenuata e non possono ancora prenderla; una nave mandata verso di essa attende nelle vicinanze finché il tempo non scade. I frammenti di un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) sono l’eccezione: per quei 30 secondi solo il pilota per cui sono stati posati può prenderli, non i compagni del suo clan.
 - Dopo, **chiunque** sulla mappa può prenderla.
 - Solo una nave presente sulla mappa della cassa può prenderla: se vieni distrutto, salti o ti disconnetti lungo la strada (o durante il mezzo secondo che la raccolta richiede), la cassa resta agli altri.
 - Se due piloti raccolgono la stessa cassa contemporaneamente, la ottiene quello la cui raccolta finisce per prima, una sola volta; all’altro viene detto che non c’è più.

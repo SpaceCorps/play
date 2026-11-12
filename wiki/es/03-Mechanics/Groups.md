@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -47,18 +47,21 @@ Un derribo también cuenta para las **misiones de derribo** de todos los demás 
 
 ## Canales de chat {#chat-channels}
 
-El chat tiene una fila de pestañas arriba: **Global**, **Local**, **Grupo** (mientras estás en un grupo) y, al final, **Sistema**. La línea que escribes va a la pestaña que ves, y se recuerda la última pestaña que usaste. Cada canal tiene su color y una etiqueta corta en cada línea (GLB, LOC, GRP), una pestaña cuenta las líneas que no has leído, y el botón del chat en la barra de herramientas muestra la cuenta mientras la ventana está cerrada. O empieza una línea con un comando:
+El chat tiene una fila de pestañas arriba: **Global**, **Local**, **Grupo** (mientras estás en un grupo), **Clan** (mientras estás en un clan) y, al final, **Sistema**. La línea que escribes va a la pestaña que ves, y se recuerda la última pestaña que usaste. Cada canal tiene su color y una etiqueta corta en cada línea (GLB, LOC, GRP), una pestaña cuenta las líneas que no has leído, y el botón del chat en la barra de herramientas muestra la cuenta mientras la ventana está cerrada. O empieza una línea con un comando:
 
 | Canal | Quién lo oye | Comando |
 | :--- | :--- | :--- |
 | **Local** | los pilotos de tu mapa | `/l` o `/local` |
 | **Global** | todos los pilotos de todos los servidores y de todos los mundos | `/g` o `/global` |
 | **Grupo** | tu grupo en tu servidor, esté donde esté | `/p`, `/party` o `/group` |
+| **Clan** | los pilotos de tu clan en el servidor de origen; lo que se dice se guarda para quien no está conectado | `/c` o `/clan` |
 | **Privado** | un solo piloto de tu servidor, esté donde esté | `/m`, `/msg` o `/w`, y luego el nombre y el mensaje ([más abajo](#private-messages)) |
 
 Un comando también cambia de pestaña, y si se escribe solo (`/g`) únicamente cambia de pestaña. El chat de grupo necesita un grupo. En un servidor de juego anterior a los canales, el chat es la única lista que era, y no se puede formar un grupo.
 
 **Global** es un solo chat para todo el juego: tu línea la oye todo piloto de cualquier servidor y de cualquier mundo, en vuelo o en la estación. Una línea de otro servidor puede llegar un instante después de enviarse, y los pilotos de servidores distintos pueden ver dos líneas casi simultáneas en distinto orden. Deja el puntero sobre el nombre de un piloto: la tarjeta que se abre dice también en qué servidor vuela, cuando no es el tuyo. Los demás canales se quedan en el servidor en el que estás: **Local** son los pilotos de tu mapa, el chat de grupo y los mensajes privados llegan solo a pilotos de tu servidor, y el [registro de bajas](#the-kill-feed) y las líneas de **Sistema** (los anuncios del servidor) son de cada servidor. Si un servidor pierde el enlace con los demás, su Global se reduce a sus propios pilotos hasta que vuelva; una interrupción corta se recupera con retraso, y lo que se diga durante una más larga no se transmite después.
+
+**Clan** es el único canal que el juego guarda. Una línea que escribes en él llega a todos los miembros de tu clan que estén conectados al servidor de origen, en una estación o en vuelo, y el servidor guarda las últimas **200 líneas** del clan, ninguna de más de **14 días**. Quien inicia sesión, entra en el clan o abre la pestaña Clan las recibe, la más antigua primero, bajo una línea que dice cuánto tiempo se guarda el chat; una línea de un día anterior muestra su fecha junto con la hora, y las líneas que lees así no cuentan como no leídas. Quien deja el clan o es expulsado no recibe nada más, y cuando el clan se disuelve, por su Líder o por el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md), sus líneas se borran con él. Las reglas del chat ([Las reglas del chat](#the-chat-rules)) son las mismas que en los demás canales, ignorar a un piloto oculta sus líneas del clan, y una línea del clan se puede denunciar como cualquier otra. En un servidor regional no hay pestaña Clan, y `/c` dice que el chat del clan solo está disponible en el servidor de origen.
 
 La pestaña **Sistema** es dorada y de solo lectura, con una lista propia: recoge lo que el servidor dice por su cuenta (la bienvenida, los avisos de reinicio, de actualización y de reinicio de temporada, los anuncios de enjambres) y lo que informa tu nave (reparaciones, camuflaje, EMP, cohetes). Esas líneas no están en ninguna otra pestaña, así que un Global muy movido no puede desplazarlas, y las demás pestañas contienen lo que dicen los pilotos. El contador de la pestaña cuenta solo los anuncios; la cuenta atrás de un reinicio o de una actualización y los avisos del reinicio de temporada además aparecen un momento como aviso emergente. El [registro de bajas](#the-kill-feed) se queda en **Global**, con su propio interruptor, y las líneas sobre pilotos que entran en tu grupo o lo dejan están en **Grupo**.
 
@@ -114,7 +117,7 @@ Tu lista de ignorados y el interruptor de ocultar el chat Global se guardan con 
 
 ## Reglas de enfrentamiento {#rules-of-engagement}
 
-**Los miembros de un mismo grupo no pueden hacerse daño**, sean cuales sean sus corporaciones: no puedes fijar a un compañero de grupo (láseres o cohetes), tus disparos y explosiones lo atraviesan, y nada de lo que le hagas cuenta como derribo, derribo PvP o derribo por agujero negro para nadie. Los compañeros de corporación que **no** están en el mismo grupo siguen como antes: golpear a uno cuesta **100 de honor** cuando es destruido. Sal del grupo y un antiguo compañero, enemigo o no, vuelve a ser objetivo legítimo al instante (allí donde el sector y la temporada permitan combatir). Todos los que no están en tu grupo se tratan como siempre, y las zonas seguras, el Protocolo de paz y las reglas PvP de los sectores no cambian para nadie.
+**Los miembros de un mismo grupo no pueden hacerse daño**, sean cuales sean sus corporaciones: no puedes fijar a un compañero de grupo (láseres o cohetes), tus disparos y explosiones lo atraviesan, y nada de lo que le hagas cuenta como derribo, derribo PvP o derribo por agujero negro para nadie. Los compañeros de corporación que **no** están en el mismo grupo siguen como antes: golpear a uno con un láser o un cohete cuesta **100 de honor** cuando es destruido. Sal del grupo y un antiguo compañero, enemigo o no, vuelve a ser objetivo legítimo al instante (allí donde el sector y la temporada permitan combatir). Todos los que no están en tu grupo se tratan como siempre, y las zonas seguras, el Protocolo de paz y las reglas PvP de los sectores no cambian para nadie.
 
 ## Trae a un amigo {#bringing-a-friend}
 

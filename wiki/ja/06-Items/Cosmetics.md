@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: コスメティック -->
 # コスメティック {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 外観; スキン; 塗装; ワードローブ; 排気; オーラ -->
 
-**外観**とは、あなたの艦が身にまとうものです。4つの部分があります。**スキン**（船体の塗装）、**オーラ**（艦のまわりのやわらかな輝き）、**排気**（エンジンの後ろに伸びる航跡の色と形）、そしてドローンの**塗装**です。外観は見た目だけのものです。ダメージも船体も速度も増えず、スロットも使わず、弾が当たるものは何も変わりません。
+**外観**とは、あなたの艦が身にまとうものです。4つの部分があります。**スキン**（船体の塗装）、**オーラ**（艦のまわりのやわらかな輝きと光の輪）、**排気**（エンジンの後ろに伸びる航跡の色と形）、そしてドローンの**塗装**です。外観は見た目だけのものです。ダメージも船体も速度も増えず、スロットも使わず、弾が当たるものは何も変わりません。
 
 > [!NOTE]
 > **外観は購入できません。** ワイプは上位の階級にシーズンの外観を付与します（[シーズンと報酬](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)）。 一部の外観はコンテナの[クロマ・アーカイブ (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive)で入手でき、そのほかは管理者が発行します。管理者から外観を受け取ったときは通知が出て、やわらかなチャイムが鳴ります。コンテナで手に入れた外観は、結果カードに表示されます。
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@
 | エフェクト | レアリティ | 描くもの |
 | :--- | :--- | :--- |
 | **None** | コモン | オーラなし。スロットに付属します |
-| **Glow** | コモン | 艦のまわりのやわらかな輝き |
-| **Breath** | アンコモン | ゆっくり呼吸する輝き |
-| **Motes** | レア | 4つの小さな光が周回する輝き |
-| **Shimmer** | レア | きらめく輝き |
-| **Sparkle** | エピック | 周回してきらめく6つの光 |
-| **Wreath** | エピック | ゆっくりした軌道を回る8つの光 |
-| **Halo** | ミシカル | 8つの光が周回する、呼吸する輝き |
-| **Laurel** | レジェンダリー | 呼吸する輝きの中をゆっくり周回する10の光 |
-| **Crown** | エターナル | 呼吸してきらめく輝きの中を周回する10の光 |
+| **Glow** | コモン | 縁に細い光の輪がある、やわらかな輝き |
+| **Breath** | アンコモン | ゆっくり呼吸する輝きと光の輪 |
+| **Motes** | レア | 光の輪と、その内側を周回する4つの小さな彗星 |
+| **Shimmer** | レア | かすかな輪の中できらめく、2本の腕を持つゆるやかな渦 |
+| **Sparkle** | エピック | 光の輪の中を周回してきらめく6つの彗星 |
+| **Wreath** | エピック | 内側にさらに細い輪を持つ光の輪の中で、ゆっくりした軌道を回る8つの彗星 |
+| **Halo** | ミシカル | 明るく呼吸する光の輪。内側にさらに細い輪が2本あり、6つの彗星が周回します |
+| **Laurel** | レジェンダリー | 3本の腕を持つゆるやかな渦を囲む、呼吸する光の輪。8つの彗星がゆっくり周回します |
+| **Crown** | エターナル | 明るい光の輪。内側にさらに細い輪が2本と4本の腕を持つ渦があり、8つの彗星が周回し、呼吸してきらめきます |
+| **Event Horizon** | ミシカル | 背後にあるものを暗くする暗い帯と、それを囲む、片側が燃えるように輝く明るい光の輪 |
+| **Accretion** | ミシカル | 光の輪の中の、3本の腕を持つゆるやかな渦。8つの彗星が内側へ吸い込まれていきます |
+| **Singularity** | レジェンダリー | 明るい光の輪の内側の暗い帯と、2本の腕を持つ渦。きらめく6つの彗星が内側へ吸い込まれていきます |
+| **Gravity Well** | ミシカル | 呼吸する光の輪の内側に、かすかな暗い帯とさらに細い輪が3本 |
 
-オーラはロックオンを示すリングの内側にとどまり、艦のまわりのほかのすべてより下に描かれます。
+オーラはロックオンを示すリングの内側にとどまり、艦のまわりのほかのすべてより下に描かれます。オーラ自身の光の輪は細く、オーラの色をしていて、明るい弧がその上を巡ります。ロックオンのリングはその外側にあり、変化しません。彗星とは、短い尾を引く小さな光のことです。
+
+**Event Horizon**、**Accretion**、**Singularity**、**Gravity Well** はクロマ・アーカイブでは出ません。管理者が発行します。
 
 ## ワードローブ {#the-wardrobe}
 

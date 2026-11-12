@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Los alienígenas destruidos dejan su botín en el espacio en forma de cajas de c
 - **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md) (salvo el Tesseract) y los Dormant Pulses** sueltan una caja propia, con munición, cohetes y recursos. Está reservada para el piloto que más daño causó a la nave (y para el clan de ese piloto), no para el primero que la impactó.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** no suelta una caja así: cada piloto que causó el 5 % del daño o más recibe una [caja privada](#private-boxes) propia, con su parte del botín.
 - **El [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** tampoco deja una caja en sus restos: cada piloto al que paga su derribo recibe una [caja privada](#private-boxes) propia, con su parte de Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units y Dark Matter.
-- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. Un fragmento se recoge como una caja, y está reservado para los pilotos que lo ganaron y después libre, como una caja.
+- **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** dejan **fragmentos** en lugar de una caja: pepitas y cristales pequeños que contienen créditos y Thulium, y una piedra que contiene mineral. Los créditos y el Thulium se pagan al recoger un fragmento, no al romperse el asteroide. Un fragmento se recoge como una caja, y está reservado para el piloto para el que se colocó: durante 30 segundos solo él puede tomarlo, no los miembros de su clan, y después queda libre, como una caja.
 
 Un alienígena al que remata un piloto de corporación suelta su botín para el piloto al que cuenta el derribo (el que tiene su reclamación o, si no, el piloto de su corporación que lo está combatiendo); uno que un piloto de corporación combatió en solitario no suelta nada, porque los pilotos de corporación nunca recogen.
 
@@ -35,7 +35,7 @@ Las luces de la caja toman el color del objeto más raro que contiene: turquesa 
 
 ## Quién se la queda {#who-gets-it}
 
-- El piloto al que se paga el derribo, y los miembros del **clan** de ese piloto, tienen la caja para ellos solos durante **30 segundos**. En el caso de un alienígena, es el piloto que tiene su reclamación, el primero que lo golpeó (consulta [Combate](/wiki/03-Mechanics/Combat.md)), sea quien sea el que lo remató. Los demás pilotos la ven atenuada y aún no pueden tomarla; una nave enviada hacia ella espera cerca hasta que se acaba el tiempo.
+- El piloto al que se paga el derribo, y los miembros del **clan** de ese piloto, tienen la caja para ellos solos durante **30 segundos**. En el caso de un alienígena, es el piloto que tiene su reclamación, el primero que lo golpeó (consulta [Combate](/wiki/03-Mechanics/Combat.md)), sea quien sea el que lo remató. Los demás pilotos la ven atenuada y aún no pueden tomarla; una nave enviada hacia ella espera cerca hasta que se acaba el tiempo. Los fragmentos de un [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) son la excepción: durante esos 30 segundos solo puede tomarlos el piloto para el que se colocaron, no los miembros de su clan.
 - Pasado ese tiempo, **cualquiera** que esté en el mapa puede tomarla.
 - Solo puede tomarla una nave que esté en el mapa de la caja: si te destruyen, saltas o te desconectas por el camino (o durante el medio segundo que dura la recogida), la caja se queda para los demás.
 - Si dos pilotos recogen la misma caja a la vez, se la lleva aquel cuya recogida termina primero, una sola vez; al otro se le avisa de que ya no está.

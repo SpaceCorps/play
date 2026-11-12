@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: 부가 장비 -->
 # 부가 장비 {#extras}
 
@@ -12,6 +12,7 @@
 | **Cloaking CPU L** | 함선을 숨깁니다 | 50 | 20,000 Thulium |
 | **P.E.T. Station I~III** | ON이면 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) 2, 3, 5마리가 함선에 부스트를 주고, 경험치를 얻고, 일합니다. OFF이면 그중 아무것도 하지 않습니다 | ON / OFF | 어셈블리: 연구 후 (아래 아이템 트리) |
 | **Auto-Rocket CPU** | ON이면 전투 대상에게 활성 로켓을 자동으로 발사 | ON / OFF | 어셈블리: 연구 후 (아래 아이템 트리) |
+| **Laser Optics I~V** | 장착하면 레이저 일제 사격의 명중 확률이 2, 4, 6, 8, 10포인트 올라감(장착한 것 중 가장 좋은 것만 적용) | 장착만, 전환 없음 | 어셈블리: 연구 후 (아래 아이템 트리) |
 
 Cloaking CPU는 상점에서만 판매합니다. 병합할 수 없고, 무상으로 지급되지도 않습니다. **EMP Charge**는 더 이상 부가 장비가 아닙니다. 0.4.21부터 소모품이라 로켓처럼 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않으므로 부가 슬롯을 차지하지 않습니다([로켓](/wiki/06-Items/Rockets.md#emp-charge) 참고). 두 **Energetic Wall**도 더 이상 부가 장비가 아닙니다. 0.4.22부터 소모품이라 묶음으로 가지고 다니며 어떤 슬롯에도 장착하지 않습니다([Energetic Wall](#energetic-wall) 참고).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선�
 - **격파.** 벽이 파괴한 함선은 방사선으로 죽으며, 격파는 15초 안에 그 함선을 마지막으로 맞힌 적 파일럿에게 돌아갑니다(있다면). 벽을 세운 사람은 자기가 쏘지 않은 것에 대해서는 아무것도 얻지 못합니다. 벽이 파괴한 외계인은 아무것도 주지 않습니다. 보상도 전리품도 없습니다.
 - **외계인은 벽을 돌아가지 않습니다.** 벽을 뚫고 지나가며 타거나, 자기 쪽에 서서 벽을 쏩니다.
 - **보이는 모습.** 청백색 빛의 띠에 밝은 줄이 따라 흐르고 양쪽 끝에 빛의 기둥이 섭니다. 사격이 맞은 곳에서 번쩍이고 거의 다 닳으면 깜박입니다. 레벨 2 벽은 대신 노랗게 빛나며 중심이 더 굵고 밝고 광채도 더 강하지만, 띠의 너비는 레벨 1 벽과 같은 10 유닛입니다. 옆의 가는 체력 막대는 짧아지며 호박색, 이어서 빨간색으로 바뀝니다. 슬롯은 벽의 남은 수명을 호로, 대기 시간을 그림자로 보여 줍니다. 세운 벽은 번쩍이며 켜지고, 격파된 벽은 불꽃이 되어 무너지며, 시간이 다 된 벽은 서서히 사라집니다. 슬롯의 숫자는 해당 등급의 남은 벽 수이기도 합니다.
-- **얻는 방법과 가지고 다니는 방법.** Energetic Wall I은 상점에서 벽 하나에 **250 Thulium**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다([경매장](/wiki/03-Mechanics/Auction.md)에 올려 둔 것도 셉니다). Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 **제작 한 번에 벽 하나**를 **600 Thulium**, Ship Fragment 5개, Power Core 1개로 만들며 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)), 최대 **10**개까지 가질 수 있습니다. 종류별로 1,000개가 자동으로 이월되는 12종의 로켓과 달리, 가지고 있는 벽은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 벽은 쓸 수 없습니다. 직접 만든 Energetic Wall II는 경매장에서 팔 수 있지만, 상점에서 파는 Energetic Wall I은 팔 수 없습니다.
+- **얻는 방법과 가지고 다니는 방법.** Energetic Wall I은 상점에서 벽 하나에 **10,000 크레딧**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다([경매장](/wiki/03-Mechanics/Auction.md)에 올려 둔 것도 셉니다). Energetic Wall II는 연구 센터에서 연구한 뒤 어셈블리에서 **제작 한 번에 벽 하나**를 **600 Thulium**, Ship Fragment 5개, Power Core 1개로 만들며 (기본 속도로 6시간: [연구](/wiki/03-Mechanics/Research.md)), 최대 **10**개까지 가질 수 있습니다. 종류별로 1,000개가 자동으로 이월되는 12종의 로켓과 달리, 가지고 있는 벽은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 벽은 쓸 수 없습니다. 직접 만든 Energetic Wall II는 경매장에서 팔 수 있지만, 상점에서 파는 Energetic Wall I은 팔 수 없습니다.
 
 ## Mine
 
@@ -111,9 +118,26 @@ WAL 슬롯을 누르면 **커서 위치**에, 함선에서 커서로 그은 선�
 - **누구를 맞히는가.** 그 위를 지나가는 모든 함선입니다. 적 파일럿, 외계인, 기업 파일럿, 같은 기업의 동료, 내 그룹, 그리고 **나 자신**. Mine에는 아군이 없습니다. 함선을 보호하는 것은 모든 무기로부터 보호하는 것과 같습니다. 안전 지대, 리스폰 보호, 은폐, EMP 시간입니다.
 - **멀어지기.** Mine이 착지할 때 그 범위 안에 있던 함선은 그 범위를 한 번 벗어날 때까지 보호받으며, 가장 먼저 보호받는 것은 나 자신입니다. 내 함선 아래에 Mine을 떨어뜨리고 떠날 수 있습니다. 그 뒤에는 나중에 돌아오더라도 그 함선 아래에서 다른 어떤 함선 아래에서와 똑같이 터집니다.
 - **피해량.** 등급에 따라 늘어납니다: **8,000, 20,000, 50,000**. 사보타주 스킬이 최대 30%를 더하고, 사격술은 Mine이 더 빠르고 더 멀리 날아가게 합니다.
-- **제한.** 한 번에 **세 개**까지 놓을 수 있고(네 번째는 가장 오래된 것의 자리를 대신합니다), 각각 착지 **3분** 뒤에 사라지며, 던지는 사이에는 **8초**를 기다립니다. 대기 시간은 함선이 아니라 내 것입니다. 지도를 떠나면 내 Mine도 함께 사라집니다.
+- **제한.** Mine에는 **자체 수명이 없습니다**. 착지한 자리에 함선이 터뜨리거나 서버가 재시작될 때까지 남아 있으며, 로그아웃하거나 죽거나 지도를 떠나도 남습니다. **개인별 한도는 없고** 두 번 던지는 사이의 **8초** 대기만 있습니다(대기 시간은 함선이 아니라 내 것입니다). 지도를 지키는 규칙은 둘입니다. 누가 던졌든 두 Mine은 **365 유닛**보다 가깝게 놓을 수 없고(가장 큰 함선 길이의 두 배를 조금 넘는 거리), 한 지도에는 최대 **150개**까지만 놓을 수 있습니다. 둘 중 하나를 어기는 던지기는 거부되고, 아무것도 소모되지 않으며 대기 시간도 시작되지 않습니다. 조준하는 동안에는 거부될 자리에서 커서의 링이 빨갛게 변합니다.
 - **쓸 수 없는 곳.** 파일럿끼리 싸울 수 없는 곳(평화 프로토콜 중이거나 규칙이 금지하는 섹터·게이트), 안전 지대나 리스폰 보호를 받는 동안, Mine이 안전 지대나 게이트에 닿는 곳, 은폐 중에는 쓸 수 없습니다. 어느 경우인지는 게임이 알려 줍니다. 거부된 투척은 아무것도 소모하지 않고 대기 시간도 시작하지 않습니다.
 - **얻는 방법과 가지고 다니는 방법.** Mine I은 상점에서 **100 Thulium**에 팔며, 한 묶음에 최대 **20**개까지 가질 수 있습니다. Mine II는 어셈블리에서 **제작 한 번에 하나**를 Mine I 두 개, Ship Fragment 3개, Power Core 1개와 **200 Thulium**으로 만들며(한 묶음 최대 **10**개), Mine III는 Mine II 두 개, Ship Fragment 8개, Power Core 2개, Reinforced Hull Plate 1개와 **400 Thulium**으로 만듭니다(최대 **5**개). 둘 다 연구 센터가 연구를 마치면 만들 수 있습니다. 일반 속도로 II는 3시간, III는 6시간입니다([연구](/wiki/03-Mechanics/Research.md) 참고). 가지고 있는 Mine은 수송 보관함에 넣지 않으면 시즌이 끝날 때 사라지며, 보관함 안의 Mine은 쓸 수 없습니다. Mine은 [경매장](/wiki/03-Mechanics/Auction.md)에서 팔 수 없습니다.
+
+## Laser Optics
+
+레이저가 더 자주 맞게 해 주는 아이템 다섯 개입니다. 판매하지 않으며, 스카이랩의 연구 센터에서 연구를 마치면 어셈블리에서 만들 수 있습니다(차례로 하나씩. Lasers 계열, [연구](/wiki/03-Mechanics/Research.md) 참조).
+
+- **효과.** 부가 장비 슬롯에 장착하면 [레이저 기술](/wiki/03-Mechanics/Combat.md#laser-tech)이 주는 확률에 더해 레이저 일제 사격의 명중 확률이 포인트만큼 오르며, 100%를 넘지 않습니다. Laser Optics I은 2포인트, II는 4, III는 6, IV는 8, V는 10포인트를 더합니다. 빗나간 일제 사격도 탄약은 소모되므로, 1포인트마다 낭비하지 않게 되는 피해가 늘어납니다.
+- **가장 좋은 것만 적용됩니다.** Laser Optics 두 개는 합쳐지지 않으며, 장착한 것 중 가장 좋은 것이 적용됩니다. 가지고만 있거나 다른 구성에 장착한 것은 그 구성으로 비행할 때까지 아무 일도 하지 않습니다.
+- **누를 것은 없습니다.** 퀵슬롯의 슬롯도 스위치도 없고, 장착해 두는 동안 계속 작동하며, 다른 부가 장비처럼 부가 장비 슬롯을 하나 차지합니다.
+- **확인하는 곳.** 레이저 카드와 격납고의 피해 타일에 레이저 기술과 Optics를 합친 합계 명중률이 표시됩니다.
+
+| 아이템 | 증가 | 연구 시간 | 제작 툴륨 | 제작 시간 |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2포인트 | 3시간 | 8,000 | 5분 |
+| Laser Optics II | +4포인트 | 6시간 | 15,000 | 7.5분 |
+| Laser Optics III | +6포인트 | 10시간 | 30,000 | 10분 |
+| Laser Optics IV | +8포인트 | 16시간 | 50,000 | 12.5분 |
+| Laser Optics V | +10포인트 | 24시간 | 75,000 | 15분 |
 
 ## 연구 센터의 CPU {#research-cpus}
 

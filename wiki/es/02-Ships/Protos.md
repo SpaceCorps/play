@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ La Protos es la nave inicial básica que reciben todos los pilotos nuevos de Spa
 ## Estadísticas {#stats}
 
 - **Puntos de vida (HP)**: 8000
-- **Velocidad base**: 180
+- **Velocidad base**: 190
 - **Ranuras de láser**: 2
 - **Ranuras de extra**: 2
 

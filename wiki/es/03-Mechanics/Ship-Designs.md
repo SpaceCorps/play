@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b1349c235aad6a2 -->
+<!-- wiki-i18n source: 4916e76f267d67da -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
@@ -12,19 +12,19 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 
 | Diseño | Qué cambia | Casco | Velocidad base | Ranuras de láser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % de casco base, +40 de velocidad base, +1 ranura de láser | 96.000 | 270 | 10 |
-| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, -1 ranura de láser, +10 % de absorción de escudo, +20 % de tamaño del modelo | 160.000 | 210 | 8 |
-| **Paragon LICH** | +1 % de regeneración de escudo por segundo | 128.000 | 230 | 9 |
-| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, Blink | 162.000 | 310 | 14 |
-| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, Heal Pod | 180.000 | 210 | 16 |
-| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon | 144.000 | 260 | 13 |
-| **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire | 600.000 | 90 | 5 |
-| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink | 500.000 | 110 | 10 |
-| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 256.000 | 210 | 14 |
-| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 13 |
-| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 13 |
-| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 12 |
-| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 15 |
+| **Paragon THUNDER** | -25 % de casco base, +40 de velocidad base, +1 ranura de láser | 96.000 | 310 | 11 |
+| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, -1 ranura de láser, +10 % de absorción de escudo, +20 % de tamaño del modelo | 160.000 | 250 | 9 |
+| **Paragon LICH** | +1 % de regeneración de escudo por segundo | 128.000 | 270 | 10 |
+| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, Blink | 162.000 | 400 | 15 |
+| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, Heal Pod | 180.000 | 300 | 17 |
+| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon | 144.000 | 350 | 14 |
+| **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire | 600.000 | 80 | 5 |
+| **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink | 500.000 | 100 | 10 |
+| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 256.000 | 210 | 15 |
+| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 14 |
+| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 14 |
+| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 13 |
+| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 16 |
 
 ## Conseguir un diseño {#getting-a-design}
 
@@ -35,10 +35,10 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 | Diseño | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50.000 | 4 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 5 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
-| **Storm BRATAN** | 100.000 | 20 | 250 | 45 | 15 | 3 |
+| **Storm BRATAN** | 100.000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm RECON** | 100.000 | 15 | 250 | 45 | 15 | 3 |
 | **Ironclad DUMA** | 100.000 | 9 | 50 | 100 | 15 | 5 |
 | **Ironclad TITANIC** | 100.000 | 24 | 50 | 100 | 15 | 5 |
@@ -58,12 +58,12 @@ La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER
 | Nave | Ranuras de blindaje | Tiempo de las ranuras | Dark Matter de las ranuras | Diseños | Tiempo de los diseños | Dark Matter de los diseños |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | **Paragon** | 5 | 5 h | 50 | 3 | 30 h | 30 |
-| **Storm** | 7 | 7 h | 70 | 3 | 30 h | 30 |
+| **Storm** | 8 | 8 h | 80 | 3 | 30 h | 30 |
 | **Ironclad** | 15 | 15 h | 150 | 2 | 20 h | 20 |
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
-| **Las cuatro** | 37 | 37 h | 370 | 13 | 130 h | 130 |
+| **Las cuatro** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Juntas piden 500 Dark Matter, además de los 759 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.374 por todas las tecnologías del juego.
+Juntas piden 510 Dark Matter, además de los 789 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.384 por todas las tecnologías del juego.
 
 ## Qué le pasa a tu nave {#what-happens-to-your-ship}
 

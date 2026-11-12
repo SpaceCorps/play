@@ -47,7 +47,7 @@ A break can also leave a **Cluster Chunk** whole, in the ore chunk of the party 
 
 ## Who gets the chunks
 
-An asteroid is shared work: any number of pilots can hit one, with rockets, lasers or a Mole's pulses, and the chunks go by the damage each dealt, not by who fires first or last. The Target window's damage line shows who has dealt how much, and what was dealt before you came. The Credits and Thulium of a break are rolled once and split by damage; the ore is shared out between the pilots who dealt the most; the rare finds go to the one who dealt the most. A pilot who dealt less than the share in The rules gets nothing, and the Game Log says so. The chunks are laid for each pilot paid, and they are kept for that pilot and its clan for a while, then free for everyone.
+An asteroid is shared work: any number of pilots can hit one, with rockets, lasers or a Mole's pulses, and the chunks go by the damage each dealt, not by who fires first or last. The Target window's damage line shows who has dealt how much, and what was dealt before you came. The Credits and Thulium of a break are rolled once and split by damage; the ore is shared out between the pilots who dealt the most; the rare finds go to the one who dealt the most. A pilot who dealt less than the share in The rules gets nothing, and the Game Log says so. The chunks are laid for each pilot paid. For a while only that pilot can take them, not his clan mates; then they are free for everyone.
 
 ## The Mole P.E.T. {#the-mole-pet}
 
@@ -65,7 +65,7 @@ A docked **Mole** (a [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole) type) works f
 
 - A pilot who dealt at least 5% of the damage done to an asteroid gets a share of its chunks, in proportion to the damage dealt. When nobody reaches 5%, the pilot who dealt the most gets all of them.
 - A [group](/wiki/03-Mechanics/Groups.md#sharing-kills) counts as one pilot, and its part is split by level between the group mates who are close and shooting.
-- The chunks of a break are kept for the pilot they were laid for, and that pilot's clan, for 30 s. After that anyone on the map can take them. A chunk nobody takes is gone after 3 min.
+- For 30 s, the chunks of a break can be taken only by the pilot they were laid for, not by that pilot's clan mates. After that anyone on the map can take them. A chunk nobody takes is gone after 3 min.
 - A map holds at most 36 chunks, inside the 64 crates it can hold: chunks never push the aliens' crates out, and those never push a chunk out. When the map has no room for a chunk, the pilot it was for is paid at once.
 - Credits and Thulium are paid when a chunk is collected, not when the asteroid breaks. There is no daily limit on what you can be paid: every chunk pays the whole of its Credits and Thulium, however many you collect in a day.
 - The pay is the same for everybody: no Premium bonus, Season Store boost, clan boost, Loot Luck or booster changes the Credits, the Thulium or the finds. The [Resource Magnet Booster](/wiki/06-Items/Boosters.md) adds to the resources of an ore chunk when you collect it, as it does to any crate.

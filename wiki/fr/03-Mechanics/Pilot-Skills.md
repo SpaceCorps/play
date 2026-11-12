@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d75ffd5e6e894c46 -->
+<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
 <!-- wiki-i18n title: Aptitudes de pilote -->
 # Aptitudes de pilote {#pilot-skills}
 
@@ -15,11 +15,11 @@ Un nouveau pilote n’est pas à pleine puissance. Au niveau 1, un laser et une 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Statistiques** : 18 statistiques : 4 attributs et 14 aptitudes en 5 groupes
+- **Statistiques** : 19 statistiques : 4 attributs et 15 aptitudes en 5 groupes
 - **Niveaux** : De 1 à 100. Chaque pilote commence chaque statistique au niveau 1, et il n’y a rien à dépenser ni à réinitialiser
 - **Coût d’un niveau** : 40 XP du niveau 1 au 2, 875 XP du niveau 50 au 51, 19 157 XP du niveau 99 au 100 ; 313 258 XP en tout
 - **Ce que donne un niveau** : Un bonus croît en ligne droite de sa valeur au niveau 1 à sa valeur au niveau 100. Rien n’est plafonné
-- **Votre laser au niveau 1** : Il fait 80 % de ses dégâts et touche 80 % du temps, soit 64 % des dégâts qu’indiquent les pages d’objets
+- **Votre laser au niveau 1** : Il fait 100 % de ses dégâts et touche 80 % du temps, soit 80 % des dégâts qu’indiquent les pages d’objets
 - **Votre roquette au niveau 1** : Elle fait 100 % de ses dégâts et est un raté 10 % du temps, soit 90 % des dégâts qu’indiquent les pages d’objets
 - **Esquive** : Le vaisseau de chaque pilote esquive 3 % des coups qui peuvent être esquivés, avant qu’aucune aptitude ou formation n’y ajoute
 - **Niveau de coque** : La rareté de votre vaisseau le fixe, comme le montre le tableau ci-dessous. La taille de votre soute et l’XP de la Masse le suivent
@@ -50,20 +50,20 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 
 | Statistique | Ce qu’elle change | Niveau 1 | Niveau 100 |
 | :--- | :--- | ---: | ---: |
-| **Masse** | Coque | +0 % | +10 % |
-| **Ténacité** | Dégâts subis | ×1 | ×0,9 |
-| **Réflexes** | Vitesse de recharge des compétences | ×1 | ×1,11 |
-| **Instinct** | Chance de chaque ligne de butin | +0 points | +5 points |
+| **Masse** | Coque | +0 % | +20 % |
+| **Ténacité** | Dégâts subis | ×1 | ×0,92 |
+| **Réflexes** | Vitesse de recharge des compétences | ×1 | ×1,1 |
+| **Instinct** | Chance de chaque ligne de butin | +0 points | +7,5 points |
 |  | Orvium et Velkonite des collecteurs | ×1 | ×1,5 |
 
 ### Armes {#weapons}
 
 | Statistique | Ce qu’elle change | Niveau 1 | Niveau 100 |
 | :--- | :--- | ---: | ---: |
-| **Technique laser** (Réflexes) | Dégâts laser | ×0,8 | ×1,1 |
-|  | Chance qu’une salve laser touche | 80 % | 90 % |
+| **Technique laser** (Réflexes) | Dégâts laser | ×1 | ×1,3 |
+|  | Chance qu’une salve laser touche | 80 % | 89 % |
 | **Technique des roquettes** (Réflexes) | Dégâts de roquette | ×1 | ×1,3 |
-|  | Chance qu’une roquette soit un raté | 10 % | 0 % |
+|  | Chance qu’une roquette soit un raté | 10 % | 1 % |
 | **Antimatière** (Instinct) | Dark Matter des ramassages | ×1 | ×1,25 |
 
 ### Combat
@@ -76,13 +76,14 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 |  | Durée des poisons | ×1 | ×1,2 |
 | **Esquive** (Réflexes) | Chance d’esquiver un coup, ajoutée à celle du vaisseau | 0 % | 15 % |
 | **Tactique** (Réflexes) | Durée des compétences | ×1 | ×1,2 |
+| **Absorption du bouclier** (Ténacité) | Absorption de vos boucliers | +0 points | +5 points |
 
 ### Pilotage {#ship-control}
 
 | Statistique | Ce qu’elle change | Niveau 1 | Niveau 100 |
 | :--- | :--- | ---: | ---: |
 | **Technique anti-radiations** (Ténacité) | Dose de radiation | ×1 | ×0,4 |
-| **Théorie des propulseurs** (Masse) | Vitesse | +0 % | +15 % |
+| **Théorie des propulseurs** (Masse) | Vitesse | +0 % | +10 % |
 | **Science** (Instinct) | Science par unité de carburant | ×1 | ×1,25 |
 
 ### Skylab
@@ -108,7 +109,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 
 - **Lasers.** La Technique laser change les dégâts de chaque salve et sa chance de toucher ; une salve qui part à côté affiche un « Miss » flottant et consomme quand même ses munitions ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). La portée de vos lasers est celle de votre vaisseau : la Précision de tir progresse grâce à vos coups portés avec une autre munition que le x1 simple, mais elle n’agit que sur les Mines (ci-dessous).
 - **Roquettes.** La Technique des roquettes change les dégâts de chaque roquette et la chance qu’une soit un raté ([Technique des roquettes](/wiki/06-Items/Rockets.md#rocket-tech)).
-- **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, et l’Esquive augmente la chance qu’un coup direct ne fasse rien ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
+- **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, l’Esquive augmente la chance qu’un coup direct ne fasse rien, et l’Absorption du bouclier augmente la part d’un coup que prennent vos boucliers ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
 - **Compétences.** Les Réflexes raccourcissent le temps de recharge de vos compétences et la Tactique les fait durer plus longtemps ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Le Sabotage renforce les poisons.
 - **Mines.** Le Sabotage augmente les dégâts d’une Mine, et la Précision de tir la lance plus vite et plus loin ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Vitesse.** La Théorie des propulseurs s’ajoute à votre vitesse, en plus des moteurs et d’un Afterburner ([Vitesse](/wiki/03-Mechanics/Speed.md)).
@@ -143,13 +144,14 @@ Le tableau liste ce qui paie de l’XP, statistique par statistique. L’XP vaut
 |  | Chaque salve qui touche un vaisseau | 0,1 |  |
 | **Technique des roquettes** (Réflexes) | Chaque roquette que vous lancez | 0,15 | 130 roquettes par heure |
 |  | Chaque roquette qui touche un vaisseau (une fois par roquette, quel que soit le nombre de vaisseaux que son explosion blesse) | 0,3 |  |
-| **Antimatière** (Instinct) | Chaque unité de Dark Matter que vous recevez à un ramassage | 0,1 | Aucun |
+| **Antimatière** (Instinct) | Chaque unité de Dark Matter que vous recevez à un ramassage | 2,2 | Aucun |
 | **Précision de tir** (Réflexes) | Chaque coup d’une salve tirée avec une autre munition que le x1 simple (×1,5 pendant les 10 min premières de chaque sorte de munition dans une heure d’horloge) | 0,1 | 3 000 coups par heure |
 |  | Chaque coup d’une Mine, et chaque seconde qu’un ennemi passe dans votre Energetic Wall | 0,1 |  |
 | **Sabotage** (Réflexes) | Chaque coup d’une Mine, et chaque seconde qu’un ennemi passe dans votre Energetic Wall | 0,5 | 1 200 XP par heure |
 |  | Chaque seconde qu’un poison à vous agit sur un ennemi | 0,05 |  |
 | **Esquive** (Réflexes) | Chaque attaque hostile contre vous qui rate ou est esquivée | 1 | 600 XP par heure |
 | **Tactique** (Réflexes) | Chaque compétence que vous activez avec un hostile à portée du laser | 2 | 600 XP par heure |
+| **Absorption du bouclier** (Ténacité) | Chaque 1 % de votre bouclier maximal pris par les tirs ennemis | 0,1 | 300 XP par heure |
 | **Technique anti-radiations** (Ténacité) | Chaque seconde dans une bande de radiation | 0,2 | Aucun |
 |  | Chaque 1 % de votre coque maximale que prend la radiation | 1 |  |
 | **Théorie des propulseurs** (Masse) | Chaque seconde de vol au-dessus de 80 % de la vitesse de votre vaisseau, le double sous un Afterburner | 0,1 | Aucun |
@@ -184,7 +186,9 @@ Un niveau coûte plus d’XP que le précédent, d’une part fixe, si bien que 
 
 ## La page Aptitudes de pilote {#the-pilot-skills-page}
 
-La page **Aptitudes de pilote** est une page de la station, avec sa propre ligne dans la barre latérale. Elle montre tout l’arbre : les attributs et les aptitudes dans leurs groupes, chacun avec son niveau. Choisissez une statistique pour voir ce qu’elle fait, quel attribut la régit, quelles aptitudes elle entraîne, sa barre d’XP et ce qui la fait croître, et utilisez le curseur pour prévisualiser n’importe quel niveau, du 1 au dernier : un petit tableau donne ce que la statistique change au niveau prévisualisé et à votre niveau actuel. Une statistique qui n’a pas encore gagné d’XP est marquée comme non utilisée, avec un tiret pour niveau. La ligne de la barre latérale porte un badge quand une statistique est montée de niveau depuis votre dernière ouverture de la page, et une carte de la fenêtre des Boosters résume ce que vos aptitudes changent.
+La page **Aptitudes de pilote** est une page de la station, avec sa propre ligne dans la barre latérale. C’est une feuille compacte de tout l’arbre : les attributs et les cinq groupes d’aptitudes se tiennent côte à côte en colonnes (trois sur un écran large, moins sur un écran étroit), avec une ligne par statistique, son niveau au bord droit et une fine barre d’XP dessous. Une statistique qui n’a pas encore gagné d’XP est grise, avec un tiret pour niveau. Posez le pointeur sur une ligne pour voir ce que fait la statistique, quel attribut la régit ou quelles aptitudes elle entraîne, son XP et ce qui la fait croître. Cliquez sur une ligne pour ouvrir ses détails sous sa rangée de colonnes : les mêmes mots, la barre d’XP et un curseur pour prévisualiser n’importe quel niveau, du 1 au dernier, avec un petit tableau de ce que la statistique change au niveau 1, à votre niveau actuel, au niveau prévisualisé et au dernier niveau. Une seule statistique est ouverte à la fois ; cliquez de nouveau sur la ligne, utilisez le bouton de fermeture ou appuyez sur Échap pour la ranger. La ligne de la barre latérale porte un badge quand une statistique est montée de niveau depuis votre dernière ouverture de la page, et une carte de la fenêtre des Boosters résume ce que vos aptitudes changent.
+
+En vol, la même feuille est la fenêtre **Aptitudes de pilote**. Ouvrez-la avec le bouton Aptitudes de pilote de la barre d’outils (sur un écran large) ou avec sa touche, K par défaut (Paramètres, Commandes). C’est une fenêtre comme les autres : déplacez-la, redimensionnez-la, et elle se souvient de sa place et de son état ouvert. Elle ne fait que montrer vos aptitudes : les niveaux avancent à mesure que les lignes d’XP du vol arrivent, et un clic sur une ligne ouvre les mêmes détails dans la fenêtre.
 
 ## Ce qui est conservé {#what-is-kept}
 

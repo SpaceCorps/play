@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: cc2f76b003a4f3c1 -->
+<!-- wiki-i18n source: da0d6b34db13c112 -->
 <!-- wiki-i18n title: Extraction d’astéroïdes -->
 # Extraction d’astéroïdes {#asteroid-mining}
 
@@ -49,7 +49,7 @@ Une rupture peut aussi laisser un **Cluster Chunk** entier, dans le morceau de m
 
 ## Qui reçoit les fragments {#who-gets-the-chunks}
 
-Un astéroïde est un travail partagé : autant de pilotes que l’on veut peuvent le toucher, avec des roquettes, des lasers ou les impulsions d’un Mole, et les fragments vont selon les dégâts infligés par chacun, non selon qui tire en premier ou en dernier. La ligne de dégâts de la fenêtre cible montre qui a infligé quelle part et ce qui l’a été avant votre arrivée. Les crédits et le Thulium d’une destruction sont tirés une fois et répartis selon les dégâts ; le minerai est partagé entre les pilotes qui ont infligé le plus ; les trouvailles rares vont à celui qui a infligé le plus. Un pilote qui a infligé moins que la part indiquée dans Les règles ne reçoit rien, et le Journal de jeu le dit. Les fragments sont posés pour chaque pilote payé, ils lui sont réservés, ainsi qu’à son clan, pendant un temps, puis libres pour tous.
+Un astéroïde est un travail partagé : autant de pilotes que l’on veut peuvent le toucher, avec des roquettes, des lasers ou les impulsions d’un Mole, et les fragments vont selon les dégâts infligés par chacun, non selon qui tire en premier ou en dernier. La ligne de dégâts de la fenêtre cible montre qui a infligé quelle part et ce qui l’a été avant votre arrivée. Les crédits et le Thulium d’une destruction sont tirés une fois et répartis selon les dégâts ; le minerai est partagé entre les pilotes qui ont infligé le plus ; les trouvailles rares vont à celui qui a infligé le plus. Un pilote qui a infligé moins que la part indiquée dans Les règles ne reçoit rien, et le Journal de jeu le dit. Les fragments sont posés pour chaque pilote payé. Pendant un temps, seul ce pilote peut les prendre, pas les membres de son clan ; puis ils sont libres pour tous.
 
 ## Le P.E.T. Mole {#the-mole-pet}
 
@@ -67,7 +67,7 @@ Un **Mole** arrimé (un type de [P.E.T.](/wiki/03-Mechanics/Pets.md#the-mole)) t
 
 - Un pilote qui a infligé au moins 5 % des dégâts à un astéroïde reçoit une part de ses fragments, proportionnelle aux dégâts infligés. Quand personne n’atteint 5 %, le pilote qui a infligé le plus reçoit tout.
 - Un [groupe](/wiki/03-Mechanics/Groups.md#sharing-kills) compte comme un seul pilote, et sa part est répartie selon le niveau entre les équipiers proches qui tirent.
-- Les fragments d’une destruction sont réservés pendant 30 s au pilote pour qui ils ont été posés, et à son clan. Ensuite, n’importe qui sur la carte peut les prendre. Un fragment que personne ne prend disparaît au bout de 3 min.
+- Pendant 30 s, les fragments d’une destruction ne peuvent être pris que par le pilote pour qui ils ont été posés, pas par les membres de son clan. Ensuite, n’importe qui sur la carte peut les prendre. Un fragment que personne ne prend disparaît au bout de 3 min.
 - Une carte contient au plus 36 fragments, dans les 64 caisses qu’elle peut contenir : les fragments ne chassent jamais les caisses des aliens, et celles-ci ne chassent jamais un fragment. Quand la carte n’a plus de place pour un fragment, le pilote pour qui il était est payé aussitôt.
 - Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Il n’y a pas de limite journalière à ce que vous pouvez recevoir : chaque fragment paie en entier ses crédits et son Thulium, quel que soit le nombre que vous en ramassez en une journée.
 - Le gain est le même pour tout le monde : aucun bonus Premium, bonus de la boutique de saison, bonus de clan, Loot Luck ni booster ne change les crédits, le Thulium ni les trouvailles. Le [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ajoute aux ressources d’un fragment de minerai quand vous le ramassez, comme à n’importe quelle caisse.

@@ -82,13 +82,15 @@ Most spins find no part. Each of them pays one prize, picked by the chances belo
 
 ## Going in
 
-You **build** a gate on the Galaxy Gates page and **jump in** through its portal. Building works from the station, with your ship docked: you do not have to be flying. It needs:
+You **build** a gate on the Galaxy Gates page and **jump in** through its portal. Building works from the station, with your ship docked, and in flight too: the **Galaxy Gates window**, which the gates button of the toolbar opens, spins, builds and picks the destination as the page does. It needs:
 
 - the parts of the gate: they are taken **once, when you build it**, and a refused build takes nothing;
 - no other solo run open: you have one run at a time, and a run that you left is entered again through its portal or abandoned before you build another gate;
 - the home server (the regional servers have no gates).
 
 The built gate stands in your **home sector** (`M-1`, `T-1` or `G-1`, by your company) as a portal named after it, and the Galaxy Gates page says where it stands. **Launch, fly to the portal and jump** through it as through any portal. A rift has to be free in your world when you go in: each world has a number of them, and when all are busy you wait.
+
+**On the regional servers (Singapore, US East).** The gate itself stays at the home server: nothing is built, played or paid on a regional server. A built gate is not forgotten there, though: you are told about it when you arrive, and the portal of your gate stands in your home sector there too. Jump through it and you are taken back to the home server, where you launch into your gate as above.
 
 You land in the middle of an empty arena, alone. Nobody can attack you in it, and the Jump and Base CPUs do not work.
 
@@ -108,16 +110,18 @@ Every world fights the same gate: the aliens' strength and pay do not depend on 
 
 The aliens are the ones of the game (the Seeker, the Phantasm, the Bulwark, the Goombah and the Crystalys), made harder or softer by the gate. The planned time is what the gate is built to take a pilot at the starting level of Laser tech ([Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md)); a pilot who has levelled up Laser tech finishes sooner.
 
+Some waves bring a **swarm**: a boss NPC of the game (a Boss Seeker, Boss Phantasm, Boss Goombah or Boss Crystalys) with its guards, who attack as one group. Every ship of a swarm is part of its wave, and the wave ends when the last of them is dead. They pay like the other ships of the wave, at the figures in [the table of the aliens](#the-aliens). **A boss NPC drops its loot as it does in the sectors of the game**: ore, plates, ammo and rockets (what each one drops is on [the pages of the swarms](/wiki/05-Swarms/Swarms.md)). There is no box to pick up in a gate: the loot comes with the pay, straight into your inventory, and once for a run like the pay. Its guards drop nothing, in a gate as in the sectors, and they neither heal their boss nor come back. The table below says which waves of each gate bring a swarm.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Gate | Waves, the boss's included | Aliens in the waves | Boss | Planned time |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 to 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 to 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 to 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 to 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 to 60 min |
+| Gate | Waves, the boss's included | Aliens in the waves | Boss NPCs and swarms | Boss | Planned time |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | wave 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 to 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | wave 4: 2 Seeker Swarm; wave 9: 1 Phantasm Swarm | Enhanced Bulwark | 15 to 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | wave 4: 1 Phantasm Swarm; wave 9: 1 Goombah Swarm; wave 14: 1 Goombah Swarm | Elite Crystalys | 25 to 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | wave 5: 2 Phantasm Swarm; wave 10: 2 Goombah Swarm; wave 15: 1 Goombah Swarm; wave 20: 1 Crystalys Swarm | Siege Construct | 35 to 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | wave 6: 1 Goombah Swarm; wave 11: 2 Goombah Swarm; wave 16: 1 Crystalys Swarm; wave 22: 1 Phantasm Swarm | Omega Guardian | 50 to 60 min |
 
 - **Delta Siege**: wave 18 (250 Seeker) is optional: you may skip it while its countdown runs, and it pays nothing
 - **Omega Vault**: wave 17 (250 Seeker) is optional: you may skip it while its countdown runs, and it pays nothing; waves 22 to 24 are elite, with ×1.5 the hull, shield and damage
@@ -180,7 +184,7 @@ A clear pays its table **once**, in one go, the moment the boss dies: the Credit
 
 ### The aliens
 
-Every alien you kill in a gate pays, at the figures it has in Alpha whichever world you fly in: no world multiplier, no booster and no Premium bonus changes them. A wave pays for its aliens **once** for a run, however often you leave and come back. The pay comes with the end of each stretch of the run: when you leave, die, run out of lives, abandon or clear it. The kills of a stretch go unpaid only in the wipe and in a restart of the server while you are inside (your run stays open, but the kills of that stretch are lost). The kills of a gate count for nothing else: not for the missions, the kill statistics, the achievements' counters, the kill feed or the experience of your drones and P.E.T.s. The experience they pay does count for your PvE ranking points, as the experience of a clear does. The loot of the aliens comes with the pay, straight into your inventory.
+Every alien you kill in a gate pays, at the figures it has in Alpha whichever world you fly in: no world multiplier, no booster and no Premium bonus changes them. A wave pays for its aliens **once** for a run, however often you leave and come back. The pay comes with the end of each stretch of the run: when you leave, die, run out of lives, abandon or clear it. The kills of a stretch go unpaid only in the wipe and in a restart of the server while you are inside (your run stays open, but the kills of that stretch are lost). The kills of a gate count for the [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) that name no sector, such as the big hunts of the Challenge line, as they happen (a wave counts for them **once** for a run, as it pays once), and for nothing else: not for the kill statistics, the achievements' counters, the kill feed or the experience of your drones and P.E.T.s. The experience they pay does count for your PvE ranking points, as the experience of a clear does. The loot of the aliens comes with the pay, straight into your inventory.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -192,14 +196,22 @@ Every alien you kill in a gate pays, at the figures it has in Alpha whichever wo
 | **Bulwark** | 5,000 | 25 | 800 | 10 |
 | **Goombah** | 15,000 | 75 | 3,000 | 24 |
 | **Crystalys** | 75,000 | 200 | 12,000 | 52 |
+| **Boss Seeker** | 10,000 | 40 | 1,000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39,000 | 195 | 7,800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120,000 | 600 | 24,000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Gate | Credits | Thulium | XP | Honor |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540,000 | 2,160 | 54,000 | 1,080 |
-| **Beta Breach** | 1,320,000 | 5,980 | 186,000 | 2,520 |
-| **Gamma Foundry** | 3,000,000 | 13,300 | 522,000 | 4,616 |
-| **Delta Siege** | 4,975,000 | 21,400 | 829,000 | 7,640 |
-| **Omega Vault** | 6,875,000 | 29,000 | 1,160,000 | 10,100 |
+| **Alpha Rift** | 514,000 | 2,099 | 55,296 | 1,018 |
+| **Beta Breach** | 1,298,500 | 5,939 | 187,744 | 2,470 |
+| **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
+| **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
+| **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
 
 <!-- solo-kills:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a19ca2c434d33d24 -->
+<!-- wiki-i18n source: d64f7bbe1a7fadf7 -->
 <!-- wiki-i18n title: Protos -->
 # Protos
 
@@ -7,7 +7,7 @@ Protos は、SpaceCorps で新規パイロット全員に支給される基本�
 ## ステータス {#stats}
 
 - **ヒットポイント（HP）**：8,000
-- **基本速度**：180
+- **基本速度**：190
 - **レーザースロット**：2
 - **エクストラスロット**：2
 

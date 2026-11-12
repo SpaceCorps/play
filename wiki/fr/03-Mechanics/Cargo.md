@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Les aliens détruits laissent leur butin dans l’espace, sous forme de caisses 
 - **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md) (hors le Tesseract) et les Dormant Pulses** laissent une caisse à eux, avec des munitions, des roquettes et des ressources. Elle est réservée au pilote qui a infligé le plus de dégâts au vaisseau (et au clan de ce pilote), pas au premier qui l’a touché.
 - **Un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** ne laisse pas une caisse de ce genre : chaque pilote qui a infligé 5 % des dégâts ou plus reçoit une [caisse privée](#private-boxes) à lui, avec sa part du butin.
 - **Le [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** ne laisse pas non plus de caisse sur son épave : chaque pilote que son élimination paie reçoit une [caisse privée](#private-boxes) à lui, avec sa part de Hull Plates, de Reinforced Plates, de Power Cores, d’Ancient Control Units et de Dark Matter.
-- **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Un fragment se ramasse comme une caisse, et il est réservé aux pilotes qui l’ont mérité, puis libre, comme une caisse.
+- **[Les astéroïdes](/wiki/03-Mechanics/Asteroid-Mining.md)** laissent des **fragments** au lieu d’une caisse : de petites pépites et de petits cristaux qui contiennent des crédits et du Thulium, et une pierre qui contient du minerai. Les crédits et le Thulium sont payés quand on ramasse un fragment, pas quand l’astéroïde se brise. Un fragment se ramasse comme une caisse, et il est réservé au pilote pour qui il a été posé : pendant 30 secondes, lui seul peut le prendre, pas les membres de son clan, puis il est libre, comme une caisse.
 
 Un alien qu’un pilote de corporation achève laisse son butin au pilote à qui l’élimination est attribuée (celui qui détient sa revendication ; à défaut, le pilote de la même corporation qui combat l’alien) ; un alien qu’un pilote de corporation a combattu seul ne laisse rien, puisque les pilotes de corporation ne ramassent jamais rien.
 
@@ -35,7 +35,7 @@ Les lumières de la caisse prennent la couleur de l’objet le plus rare qu’el
 
 ## Qui l’obtient {#who-gets-it}
 
-- Le pilote qui perçoit la récompense de l’élimination, et les membres de son **clan**, ont la caisse pour eux seuls pendant **30 secondes**. Pour un alien, c’est le pilote qui détient sa revendication, le premier à l’avoir touché (voir [Combat](/wiki/03-Mechanics/Combat.md)), quel que soit celui qui l’a achevé. Les autres pilotes la voient atténuée et ne peuvent pas encore la prendre ; un vaisseau envoyé vers elle attend à proximité jusqu’à la fin du délai.
+- Le pilote qui perçoit la récompense de l’élimination, et les membres de son **clan**, ont la caisse pour eux seuls pendant **30 secondes**. Pour un alien, c’est le pilote qui détient sa revendication, le premier à l’avoir touché (voir [Combat](/wiki/03-Mechanics/Combat.md)), quel que soit celui qui l’a achevé. Les autres pilotes la voient atténuée et ne peuvent pas encore la prendre ; un vaisseau envoyé vers elle attend à proximité jusqu’à la fin du délai. Les fragments d’un [astéroïde](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) font exception : pendant ces 30 secondes, seul le pilote pour qui ils ont été posés peut les prendre, pas les membres de son clan.
 - Passé ce délai, **n’importe qui** sur la carte peut la prendre.
 - Seul un vaisseau présent sur la carte de la caisse peut la prendre : si vous êtes détruit, si vous sautez ou si vous vous déconnectez en chemin (ou pendant la demi-seconde que dure la récupération), la caisse reste pour les autres.
 - Si deux pilotes récupèrent la même caisse en même temps, celui dont la récupération s’achève en premier l’obtient, une seule fois ; l’autre est prévenu qu’elle a disparu.

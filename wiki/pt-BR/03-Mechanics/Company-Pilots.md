@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5b87e9167b265780 -->
+<!-- wiki-i18n source: 507ead340cbae2bd -->
 <!-- wiki-i18n title: Pilotos de corporação -->
 # Pilotos de corporação {#company-pilots}
 
@@ -13,7 +13,7 @@ Toda corporação mantém um pequeno esquadrão de pilotos NPC nos seus setores 
 - **Nave**: uma [Ostirion](/wiki/02-Ships/Ostirion.md) com três **Quantum Laser II**, dois **Light Shield Cores**, um **Engine I** e um **Repair Drone I**:
   - 64.000 pontos de vida, 22.000 pontos de escudo, velocidade 225
   - absorção de 45%: os escudos deles recebem 45% de cada impacto, e o casco, 55%
-  - 195 de dano base por rajada (munição x1), 1% de chance de crítico, alcance de 700
+  - 210 de dano base por rajada (munição x1), 1% de chance de crítico, alcance de 700
 - **No minimapa**: um losango verde para os pilotos da sua corporação, um âmbar para os de outra corporação.
 - **Sem patente**: o pequeno símbolo antes do nome de um piloto em voo é a [patente](/wiki/03-Mechanics/Ranks.md) dele e pertence a pilotos de verdade. Os pilotos de corporação não têm nenhuma e não estão no ranking da sua corporação. A página Corporação lista os pilotos de verdade da sua corporação, com mais pontos PvE primeiro, e a patente de um piloto vem dos pontos PvE dele nessa lista e, nas seis melhores patentes, das vagas da corporação.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 500.000
-- **Velocità di base**: 110
+- **Velocità di base**: 100
 - **Slot laser**: 8
 - **Slot extra**: 3
 - **Slot corazza**: 15

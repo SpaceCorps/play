@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 2171d83ccb169853 -->
+<!-- wiki-i18n source: dff7327a9780c393 -->
 <!-- wiki-i18n title: Nomad -->
 # Nomad
 
-Die Nomad ist ein Kreuzer mit fast der doppelten Hülle und den doppelten Geschützen einer Ostirion: ein Hammerkopf zwischen der Ostirion und der Paragon, im Shop mit Credits und Thulium zusammen zu kaufen. Jeder Pilot darf sie kaufen.
+Die Nomad ist ein Kreuzer mit fast der doppelten Hülle einer Ostirion und zwei Geschützen mehr: ein Hammerkopf zwischen der Ostirion und der Paragon, im Shop mit Credits und Thulium zusammen zu kaufen. Jeder Pilot darf sie kaufen.
 
 ## Werte {#stats}
 
 - **Trefferpunkte (HP)**: 111.000
-- **Grundtempo**: 210
-- **Laser-Slots**: 6
+- **Grundtempo**: 240
+- **Laser-Slots**: 7
 - **Extra-Slots**: 2
 
 ### Generator- und Support-Slots {#generator-support-slots}

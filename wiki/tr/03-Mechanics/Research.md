@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 27da9216daf781fe -->
+<!-- wiki-i18n source: 314633d7fdaa8d6f -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmayı, teknolojisi en fazla 24 saat sürüyorsa hemen bitirir (159 teknolojiden 143’ü). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, henüz yakmadığı bilim puanı tankında kalır ve kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (187 teknolojiden 167’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 20’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -103,6 +103,7 @@ Bir hızlandırmanın, başından itibaren hızlandırılmış bir araştırman�
 | 6 sa | 3 sa | 1 | 5.000 |
 | 8 sa | 4 sa | 1 | 5.000 |
 | 10 sa | 5 sa | 1 | 5.000 |
+| 16 sa | 8 sa | 1 | 5.000 |
 | 1 g | 12 sa | 1 | 5.000 |
 | 2 g | 1 g | 1 | 5.000 |
 | 4 g | 2 g | 2 | 10.000 |
@@ -223,11 +224,17 @@ Crit Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10
 Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 1800 s, 1800 science | 1 Penetration Amp I, 50 Ship Fragment, 20 Daraxium, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
 Crit Amp II => Crit Amp III => Crit Amp IV
 Penetration Amp II => Penetration Amp III => Penetration Amp IV
+Laser Optics I => Laser Optics II => Laser Optics III => Laser Optics IV => Laser Optics V
 ```
 
 ### Boosterlar {#tree-boosters}
@@ -550,18 +557,23 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | [Rocket Launcher V](/wiki/06-Items/Extras.md) | [Rocket Launcher IV](/wiki/06-Items/Extras.md) | D | 10 g | 864.000 | – |
 | [Mine II](/wiki/06-Items/Extras.md#mine) | – | B | 3 sa | 10.800 | – |
 | [Mine III](/wiki/06-Items/Extras.md#mine) | [Mine II](/wiki/06-Items/Extras.md#mine) | B | 6 sa | 21.600 | – |
+| [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | – | B | 3 sa | 10.800 | – |
+| [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics I](/wiki/06-Items/Extras.md#laser-optics) | B | 6 sa | 21.600 | – |
+| [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 sa | 36.000 | – |
+| [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 sa | 57.600 | – |
+| [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 g | 86.400 | – |
 
 Sınıflar, araştırma süresine göre:
 
 | Sınıf | Araştırma süresi | Teknolojiler | Art arda | Bilim puanı | Dark Matter |
 | :--- | :--- | ---: | ---: | ---: | ---: |
 | A | 30 dk – 1 sa | 17 | 9 sa 30 dk | 34.200 | 0 |
-| B | 3 sa – 6 sa | 35 | 5 g 11 sa | 471.600 | 0 |
-| C | 8 sa – 10 sa | 19 | 7 g 18 sa | 669.600 | 95 |
-| D | 1 g – 10 g | 28 | 52 g | 4.492.800 | 329 |
-| Tümü |  | 99 | 65 g 14 sa 30 dk | 5.668.200 | 424 |
+| B | 3 sa – 6 sa | 37 | 5 g 20 sa | 504.000 | 0 |
+| C | 8 sa – 10 sa | 20 | 8 g 4 sa | 705.600 | 95 |
+| D | 16 sa – 10 g | 30 | 53 g 16 sa | 4.636.800 | 329 |
+| Tümü |  | 104 | 68 g 1 sa 30 dk | 5.880.600 | 424 |
 
-Art arda araştırılırsa tüm ağaç 65 g 14 sa 30 dk sürer. Hızlandırma her zaman açıkken 32 g 19 sa 15 dk sürer, bu da 33 hızlandırma ve 165.000 Thulium eder; bilim puanı aynıdır.
+Art arda araştırılırsa tüm ağaç 68 g 1 sa 30 dk sürer. Hızlandırma her zaman açıkken 34 g 45 dk sürer, bu da 35 hızlandırma ve 175.000 Thulium eder; bilim puanı aynıdır.
 
 <!-- research-technologies:end -->
 

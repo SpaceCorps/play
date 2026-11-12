@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb lézer (14) az összes hajó közül egy olyan hajótesten, amely az osztályához képest könnyű. A játék besorolása szerint (10-nél több lézerhely) IV. osztályú csatahajó. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
+A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb lézer (15) az összes hajó közül egy olyan hajótesten, amely az osztályához képest könnyű. A játék besorolása szerint (10-nél több lézerhely) IV. osztályú csatahajó. A Gyártásban készül, miután a Kutatóközpont kikutatta, és egyenlő lézerek mellett egy az egy ellen alulmarad egy Wraith-tel vagy egy Ironclad-del szemben.
 
 ## Értékek {#stats}
 
 - **Életerő (HP)**: 180 000
-- **Alapsebesség**: 260
-- **Lézerfoglalatok**: 14
+- **Alapsebesség**: 350
+- **Lézerfoglalatok**: 15
 - **Extrafoglalatok**: 3
-- **Páncélzatfoglalatok**: 7
+- **Páncélzatfoglalatok**: 8
 
 ### Generátor- és támogató foglalatok {#generator-support-slots}
 
-- **Magfoglalatok (100%-os hatásfok)**: 4
+- **Magfoglalatok (100%-os hatásfok)**: 3
 - **Támogató foglalatok (75%-os hatásfok)**: 4
 - **Segédfoglalatok (50%-os hatásfok)**: 2
 
@@ -27,7 +27,7 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 ## Kutatás {#research}
 
-- **Páncélzatfoglalatok.** Ennek a hajónak 7 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (7 darab) 175 000 hajótestet ad hozzá.
+- **Páncélzatfoglalatok.** Ennek a hajónak 8 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md), mind zárolva, amikor elkészíted. Mindegyik külön technológia a Skylabben, 1 óra és 10 Dark Matter, az elsőtől kezdve sorban kutatod ki; ezt a foglalatot nyitja meg ezen a hajón és minden dizájnján. Egy teljes készlet Hull Plating III (8 darab) 200 000 hajótestet ad hozzá.
 - **Dizájnok.** Ennek a hajónak 3 [dizájnja](/wiki/03-Mechanics/Ship-Designs.md) van. Kutass ki egyet (10 óra és 10 Dark Matter), aztán alakítsd át a hajódat a Gyártásban erre a dizájnra: a változtatás nem vonható vissza.
 
 | Dizájn | Mit változtat |
@@ -48,4 +48,4 @@ Miután kikutattad a technológiáját, egy Storm elkészítéséhez a Gyártás
 
 ## Háttértörténet {#lore}
 
-A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Halványszürke páncél sötétebb váz fölött, fehér fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizennégy lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából hét tizede egy Wraith-ének és nagyjából három tizede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.
+A Storm az, amit a hajógyárak akkor építenek, amikor az egyetlen megrendelés a sebesség. Tűszerű törzs sötét kabinnal áll két nyitott sarlógyűrű között; mindegyik páncélozott ív egy üreg körül, felálló szarvban végződik, és a nyíláson egy hajtóműgondola fut át: a hajó nagy része hajtómű. Halványszürke páncél sötétebb váz fölött, fehér fénycsíkokkal, jól látható, és azt akarja, hogy lássák. Két hosszú ágyú ül az elülső pengéken, és nyolc kis kibocsátó a gyűrűkön és a vállúszókon, összesen tíz torkolat tisztán látszik, és tizenöt lézer lő rajtuk át. Páncélra nincs helye. A hajóteste nagyjából hét tizede egy Wraith-ének és nagyjából három tizede egy Ironclad-ének, ezért a pilótái először csapnak le, keményen ütnek, és elvonulnak, mielőtt bármi nagyobb megfordulna.

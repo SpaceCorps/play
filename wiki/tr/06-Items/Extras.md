@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d45d89b7b19e66a5 -->
+<!-- wiki-i18n source: c05d07129937fdd5 -->
 <!-- wiki-i18n title: Ekstralar -->
 # Ekstralar {#extras}
 
@@ -12,6 +12,7 @@ Ekstralar, geminin **ekstra yuvalarındaki** aletlerdir (başladığın ya da sa
 | **Cloaking CPU L** | Gemini gizler | 50 | 20.000 Thulium |
 | **P.E.T. Station I–III** | **AÇIK** iken yanaştırılmış 2, 3 ya da 5 [P.E.T.](/wiki/03-Mechanics/Pets.md#the-station) gemiye bonus verir, deneyim kazanır ve çalışır; **KAPALI** iken hiçbiri yapmaz | AÇIK / KAPALI | Montaj, araştırmasından sonra (aşağıdaki eşya ağacı) |
 | **Auto-Rocket CPU** | AÇIK iken aktif roketini bir çatışmanın hedefine kendisi fırlatır | AÇIK / KAPALI | Montaj, araştırmasından sonra (aşağıdaki eşya ağacı) |
+| **Laser Optics I–V** | Takılınca lazer salvolarının isabet şansına 2, 4, 6, 8 veya 10 puan ekler (yalnızca takılı olan en iyisi sayılır) | takılı, açılıp kapanmaz | Montaj, araştırmasından sonra (aşağıdaki eşya ağacı) |
 
 Cloaking CPU paketleri yalnızca Mağaza’da satılır. Birleştirilemezler ve hiçbir şey onları ödül olarak vermez. **EMP Charge** artık bir ekstra değildir: 0.4.21 sürümünden beri bir sarf malzemesidir; roket gibi bir yığın olarak taşınır ve hiçbir yuvaya takılmaz, bu yüzden ekstra yuvalarından hiçbirini kaplamaz (bkz. [Roketler](/wiki/06-Items/Rockets.md#emp-charge)). İki **Energetic Wall** da artık ekstra değildir: 0.4.22 sürümünden beri onlar da sarf malzemesidir; bir yığın olarak taşınır ve hiçbir yuvaya takılmaz (bkz. [Energetic Wall](#energetic-wall)).
 
@@ -43,6 +44,8 @@ Repair Drone III | extra, common | buy 35000 Credits | /wiki/06-Items/Extras.md#
 Extra Slots CPU I | extra, uncommon | craft 12000 Thulium, 300 s | research 1800 s, 1800 science | 60 Ship Fragment, 3 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#base-cpus
 P.E.T. Station II | extra, uncommon | craft 300000 Credits, 4000 Thulium, 600 s | research 36000 s, 36000 science | 1 P.E.T. Station I, 35 Ship Fragment, 6 Reinforced Hull Plate, 2 Power Core, 4 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md
+Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Cloaking CPU M | extra, uncommon | buy 11250 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU II | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
 Base CPU II | extra, rare | craft 20000 Thulium, 600 s | research 36000 s, 36000 science | 100 Ship Fragment, 5 Power Core, 1 Ancient Control Unit, 2 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#base-cpus
@@ -53,6 +56,9 @@ Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 1728
 Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
 Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 Repair Drone IV | extra, rare | buy 2000 Thulium | /wiki/06-Items/Extras.md#repair-drones
 Cloaking CPU L | extra, rare | buy 20000 Thulium | /wiki/06-Items/Extras.md#cloaking-cpu
 Extra Slots CPU III | extra, epic | craft 75000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 4 Dark Matter Plate | /wiki/06-Items/Extras.md#extra-slots-cpus
@@ -63,6 +69,7 @@ Cloaking CPU S -> Cloaking CPU M -> Cloaking CPU L
 Repair Drone I -> Repair Drone II -> Repair Drone III -> Repair Drone IV
 Extra Slots CPU I -> Extra Slots CPU II -> Extra Slots CPU III
 Base CPU I -> Base CPU II
+Laser Optics I -> Laser Optics II -> Laser Optics III -> Laser Optics IV -> Laser Optics V
 Rocket Launcher II -> Rocket Launcher III -> Rocket Launcher IV -> Rocket Launcher V
 ```
 <!-- item-tree:end -->
@@ -102,7 +109,7 @@ WAL yuvasına bas; **imlecinin olduğu yerde**, geminden ona uzanan hattı dik k
 - **Öldürmeler.** Duvarın yok ettiği bir gemi radyasyondan ölür ve öldürme, varsa, ona 15 saniye içinde vuran son düşman pilota yazılır. Duvarı kurana, kendisinin ateş etmediği hiçbir şey yazılmaz. Duvarın yok ettiği bir uzaylı hiçbir şey ödemez: ne ödül ne ganimet.
 - **Uzaylılar etrafından dolanmaz.** İçinden uçup yanarlar ya da kendi tarafında durup duvara ateş ederler.
 - **Ne görürsün.** Boyunca parlak çizgilerin aktığı, iki ucunda birer ışık direği olan mavi-beyaz bir ışık şeridi; atış isabet ettiği yerde parlar, tükenmeye yakınken titrer. 2. seviye bir duvar bunun yerine sarı parlar; çekirdeği daha kalın ve parlak, ışıltısı daha güçlüdür, ama şeridi 1. seviye duvarınki kadar, yani 10 birim genişliğindedir. Yanındaki ince bir can çubuğu kısalır, kehribar rengine sonra kırmızıya döner; yuvan duvarın kalan canını yay olarak, beklemeyi gölge olarak, o seviyeden kalan duvar sayısını da bir sayı olarak gösterir. Kurulan bir duvar parlayarak belirir, vurulup yıkılan bir duvar kıvılcımlar içinde çöker, süresi dolan ise solar.
-- **Nasıl edinilir ve taşınır.** Energetic Wall I, Mağaza’da duvar başına **250 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın ([Açık Artırma](/wiki/03-Mechanics/Auction.md)’da listelediklerin de sayılır). Energetic Wall II, Araştırma Merkezi onu araştırdıktan sonra (normal hızda 6 saat: [Araştırma](/wiki/03-Mechanics/Research.md)) Montaj’da, **üretim başına bir duvar** olarak, **600 Thulium**, 5 Ship Fragment ve bir Power Core ile üretilir; en fazla **10** tane taşırsın. Kendiliğinden aktarılan on iki roketin (her birinden 1.000) aksine, taşıdığın duvarlar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki duvarlar kullanılamaz. Yaptığın bir Energetic Wall II Açık Artırma’da satılabilir; Mağaza’nın sattığı Energetic Wall I asla.
+- **Nasıl edinilir ve taşınır.** Energetic Wall I, Mağaza’da duvar başına **10.000 kredi** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın ([Açık Artırma](/wiki/03-Mechanics/Auction.md)’da listelediklerin de sayılır). Energetic Wall II, Araştırma Merkezi onu araştırdıktan sonra (normal hızda 6 saat: [Araştırma](/wiki/03-Mechanics/Research.md)) Montaj’da, **üretim başına bir duvar** olarak, **600 Thulium**, 5 Ship Fragment ve bir Power Core ile üretilir; en fazla **10** tane taşırsın. Kendiliğinden aktarılan on iki roketin (her birinden 1.000) aksine, taşıdığın duvarlar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki duvarlar kullanılamaz. Yaptığın bir Energetic Wall II Açık Artırma’da satılabilir; Mağaza’nın sattığı Energetic Wall I asla.
 
 ## Mine
 
@@ -111,9 +118,26 @@ WAL yuvasına bas; **imlecinin olduğu yerde**, geminden ona uzanan hattı dik k
 - **Kime çarpar.** Üzerinden geçen her gemiye: düşman pilota, uzaylıya, şirket pilotuna, şirket arkadaşlarına, grubuna ve **sana**. Mine’ın dostu yoktur. Bir gemiyi koruyan şey onu her silahtan koruyan şeydir: güvenli bölge, doğma koruması, gizlenme ya da EMP penceresi.
 - **Uzaklaşmak.** Mine indiği anda menzilinin içinde olan gemi, o menzilden bir kez çıkana kadar korunur ve onun ilk koruduğu sensin: gemin altına bir Mine bırakıp uzaklaşabilirsin. Sonrasında Mine, o geminin altında da diğer her geminin altında olduğu gibi patlar; sonradan geri gelse bile.
 - **Ne kadar.** Hasar seviyeyle artar: **8.000, 20.000 ve 50.000**. Sabotaj becerin ona yüzde 30’a kadar ekler, Nişancılık becerin de Mine’ın daha hızlı ve daha uzağa uçmasını sağlar.
-- **Sınırlar.** Aynı anda **üç** Mine dışarıda olabilir (dördüncüsü en eskisinin yerini alır), her biri indikten **3 dakika** sonra yok olur ve iki atış arasında **8 saniye** beklersin; bekleme geminin değil senindir. Haritadan ayrıldığında Mine’ların seninle birlikte gider.
+- **Sınırlar.** Bir Mine’ın **kendi bir sonu yoktur**: indiği yerde, bir gemi onu patlatana ya da sunucu yeniden başlayana kadar durur; oyundan çıksan, ölsen ya da haritadan ayrılsan da kalır. **Sana özgü bir sınır yoktur**, yalnızca iki atış arasındaki **8 saniyelik** bekleme vardır (bekleme geminin değil senindir). Haritayı iki kural korur: onları kim attıysa atsın, iki Mine arasında **365 birimden** az mesafe olamaz (en büyük geminin boyunun iki katından biraz fazla) ve bir haritada en fazla **150** Mine bulunabilir. Bu kurallardan birini çiğneyecek bir atış reddedilir, hiçbir şey harcamaz ve bekleme başlatmaz; nişan alırken kürsörün halkası reddedileceği yerde kırmızıya döner.
 - **Nerede olmaz.** Pilotların birbiriyle savaşamadığı yerlerde olmaz (Barış Protokolü sırasında ya da kuralları bunu yasaklayan bir sektörde veya geçitte), bir güvenli bölge ya da doğma koruması seni korurken olmaz, Mine’ın bir güvenli bölgeye ya da geçide değeceği yerde olmaz ve gizliyken olmaz. Hangisi olduğunu oyun söyler; reddedilen bir atış hiçbir şey harcamaz ve bekleme başlatmaz.
 - **Nasıl edinilir ve taşınır.** Mine I, Mağaza’da **100 Thulium** karşılığında satılır ve bir yığında en fazla **20** tane taşırsın. Mine II, Montaj’da, **üretim başına bir Mine** olarak, iki Mine I, 3 Ship Fragment ve bir Power Core ile **200 Thulium** karşılığında üretilir (yığında en fazla **10**); Mine III, iki Mine II, 8 Ship Fragment, 2 Power Core ve bir Reinforced Hull Plate ile **400 Thulium** karşılığında (en fazla **5**). İkisi de Araştırma Merkezi araştırdıktan sonra üretilir: normal hızda II için 3 saat, III için 6 saat ([Araştırma](/wiki/03-Mechanics/Research.md)). Taşıdığın Mine’lar Nakliye Deposu’na koymazsan sezonla birlikte kaybolur ve depodaki Mine’lar kullanılamaz. Mine’lar [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da satılamaz.
+
+## Laser Optics
+
+Liderlerinin daha sık isabet etmesini sağlayan beş eşya. Satılmazlar: Skylab’ın Araştırma Merkezi onları araştırınca Montaj üretir, birbiri ardına (Lasers ailesi, bkz. [Araştırma](/wiki/03-Mechanics/Research.md)).
+
+- **Ne yaparlar.** Birini ekstra yuvaya tak; [Lazer teknolojisi](/wiki/03-Mechanics/Combat.md#laser-tech)nin verdiğine ek olarak lazer salvolarının isabet etme şansına puan ekler, hiçbir zaman %100’ü geçmez. Laser Optics I 2 puan, II 4, III 6, IV 8, V ise 10 puan ekler. Iskalayan bir salvo yine de mermisini harcar; yani her puan artık boşa harcamadığın hasardır.
+- **Yalnızca en iyisi sayılır.** İki Laser Optics toplanmaz: taktığın en iyisi sayılır. Sadece yanında taşıdığın ya da diğer konfigürasyona taktığın, o konfigürasyonla uçana kadar hiçbir şey yapmaz.
+- **Basacak bir şey yok.** Kısayol çubuğunda yuvaları ve anahtarları yoktur: takılı oldukları sürece çalışır ve diğer Ekstralar gibi ekstra yuvalarından birini kullanır.
+- **Nerede görürsün.** Bir lazerin kartı ve Hangar’ındaki Hasar karosu, Lazer teknolojinin ve Optics’in birlikte verdiği toplam şansı gösterir.
+
+| Eşya | Ekler | Araştırma süresi | Üretim için Thulium | Üretim süresi |
+| :--- | ---: | :--- | ---: | ---: |
+| Laser Optics I | +2 puan | 3 sa | 8.000 | 5 dk |
+| Laser Optics II | +4 puan | 6 sa | 15.000 | 7,5 dk |
+| Laser Optics III | +6 puan | 10 sa | 30.000 | 10 dk |
+| Laser Optics IV | +8 puan | 16 sa | 50.000 | 12,5 dk |
+| Laser Optics V | +10 puan | 24 sa | 75.000 | 15 dk |
 
 ## Araştırma Merkezi CPU’ları {#research-cpus}
 

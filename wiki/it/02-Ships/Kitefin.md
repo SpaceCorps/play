@@ -1,14 +1,14 @@
-<!-- wiki-i18n source: 7f2c4faab5c9f47c -->
+<!-- wiki-i18n source: 2803f28f4597c776 -->
 <!-- wiki-i18n title: Kitefin -->
 # Kitefin
 
-La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte dei piloti: un terzo laser, uno scafo tre volte più resistente di quello della Protos e una propulsione più veloce, il tutto da acquistare con Thulium.
+La Kitefin è una cannoniera leggera e la prima nave che compra la maggior parte dei piloti: quattro laser, uno scafo tre volte più resistente di quello della Protos e una propulsione più veloce, il tutto da acquistare con Thulium.
 
 ## Statistiche {#stats}
 
 - **Punti scafo (HP)**: 24.000
-- **Velocità di base**: 190
-- **Slot laser**: 3
+- **Velocità di base**: 220
+- **Slot laser**: 4
 - **Slot extra**: 2
 
 ### Slot dei generatori e di supporto {#generator-support-slots}

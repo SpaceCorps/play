@@ -1,12 +1,12 @@
 # Nomad
 
-The Nomad is a cruiser with nearly twice the hull and twice the guns of an Ostirion: a hammerhead between the Ostirion and the Paragon, bought in the Shop with Credits and Thulium together. Every pilot may buy it.
+The Nomad is a cruiser with nearly twice the hull of an Ostirion and two more guns: a hammerhead between the Ostirion and the Paragon, bought in the Shop with Credits and Thulium together. Every pilot may buy it.
 
 ## Stats
 
 - **Hitpoints (HP)**: 111,000
-- **Base Speed**: 210
-- **Laser Slots**: 6
+- **Base Speed**: 240
+- **Laser Slots**: 7
 - **Extra Slots**: 2
 
 ### Generator & Support Slots

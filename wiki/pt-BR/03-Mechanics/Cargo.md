@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a6623c51908c09d0 -->
+<!-- wiki-i18n source: e80e094ebed5e1fc -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -15,7 +15,7 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 - **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) (exceto o Tesseract) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
 - **Um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** não larga uma caixa assim: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](#private-boxes) só dele, com a sua parte do saque.
 - **O [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** também não larga uma caixa nos destroços: cada piloto que o abate paga recebe uma [caixa privada](#private-boxes) só dele, com a sua parte de Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units e Dark Matter.
-- Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra. Um fragmento é coletado como uma caixa, e fica reservado para os pilotos que o mereceram e depois livre, como uma caixa.
+- Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra. Um fragmento é coletado como uma caixa, e fica reservado para o piloto para quem foi colocado: por 30 segundos só ele pode pegá-lo, não os colegas de clã dele, e depois fica livre, como uma caixa.
 
 Um alienígena que um piloto de corporação termina de abater deixa o saque para o piloto a quem o abate é creditado (quem detém a reivindicação sobre ele ou, na falta dela, o piloto, da mesma corporação, que o enfrentava); um alienígena que um piloto de corporação enfrentou sozinho não deixa nada, já que pilotos de corporação nunca coletam.
 
@@ -35,7 +35,7 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 
 ## Quem fica com a caixa {#who-gets-it}
 
-- O piloto pago pelo abate, e os membros do **clã** desse piloto, ficam com a caixa só para si durante **30 segundos**. No caso de um alienígena, esse piloto é quem detém a reivindicação dele, o primeiro a atingi-lo (veja [Combate](/wiki/03-Mechanics/Combat.md)), seja quem for que o termine. Os outros pilotos a veem esmaecida e ainda não podem pegá-la; uma nave enviada até ela espera por perto até o tempo acabar.
+- O piloto pago pelo abate, e os membros do **clã** desse piloto, ficam com a caixa só para si durante **30 segundos**. No caso de um alienígena, esse piloto é quem detém a reivindicação dele, o primeiro a atingi-lo (veja [Combate](/wiki/03-Mechanics/Combat.md)), seja quem for que o termine. Os outros pilotos a veem esmaecida e ainda não podem pegá-la; uma nave enviada até ela espera por perto até o tempo acabar. Os fragmentos de um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) são a exceção: nesses 30 segundos só o piloto para quem foram colocados pode pegá-los, não os colegas de clã dele.
 - Depois disso, **qualquer um** no mapa pode pegá-la.
 - Só uma nave que esteja no mapa da caixa pode pegá-la: se você for destruído, saltar ou se desconectar no caminho (ou durante o meio segundo que a coleta leva), a caixa fica para os outros.
 - Se dois pilotos coletam a mesma caixa ao mesmo tempo, quem terminar a coleta primeiro fica com ela, uma única vez; o outro é avisado de que ela sumiu.

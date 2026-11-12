@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4d2749864875137f -->
+<!-- wiki-i18n source: 9b254c924e79c7e8 -->
 <!-- wiki-i18n title: Puertas en solitario -->
 # Puertas en solitario {#solo-gates}
 
@@ -84,13 +84,15 @@ La mayoría de los giros no encuentran pieza. Cada uno de ellos paga un premio, 
 
 ## Entrar {#going-in}
 
-**Construyes** una puerta en la página de las Puertas Galácticas y **saltas** dentro por su portal. Construir se hace desde la estación, con la nave atracada: no hace falta estar volando. Hace falta:
+**Construyes** una puerta en la página de las Puertas Galácticas y **saltas** dentro por su portal. Construir se hace desde la estación, con la nave atracada, y también en vuelo: la **ventana de las Puertas Galácticas**, que abre el botón de las puertas de la barra de herramientas, gira, construye y elige el destino como la página. Hace falta:
 
 - las piezas de la puerta: se toman **una sola vez, al construirla**, y una construcción rechazada no quita nada;
 - ninguna otra partida en solitario abierta: tienes una partida a la vez, y una partida que dejaste se vuelve a entrar por su portal o se abandona antes de que construyas otra puerta;
 - el servidor principal (los servidores regionales no tienen puertas).
 
 La puerta construida está en tu **sector base** (`M-1`, `T-1` o `G-1`, según tu corporación) como un portal con su nombre, y la página de las Puertas Galácticas dice dónde está. **Despega, vuela hasta el portal y salta** por él como por cualquier portal. Tiene que haber una grieta libre en tu mundo cuando entres: cada mundo tiene un número de ellas, y cuando todas están ocupadas esperas.
+
+**En los servidores regionales (Singapore, US East).** La puerta en sí se queda en el servidor principal: en un servidor regional no se construye, no se juega ni se paga nada. Pero una puerta construida no se olvida allí: se te avisa al llegar, y el portal de tu puerta también está en tu sector base. Salta por él y te llevan de vuelta al servidor principal, donde despegas hacia tu puerta como se explica arriba.
 
 Aterrizas en medio de una arena vacía, solo. Nadie puede atacarte en ella, y la Jump CPU y la Base CPU no funcionan.
 
@@ -110,16 +112,18 @@ Todos los mundos combaten la misma puerta: la fuerza y el pago de los alienígen
 
 Los alienígenas son los del juego (Seeker, Phantasm, Bulwark, Goombah y Crystalys), hechos más duros o más blandos por la puerta. El tiempo previsto es lo que la puerta está construida para durar con un piloto en el nivel inicial de Tecnología láser ([Destrezas de piloto](/wiki/03-Mechanics/Pilot-Skills.md)); un piloto que ha subido su Tecnología láser termina antes.
 
+Algunas oleadas traen un **enjambre**: un NPC jefe del juego (un Boss Seeker, Boss Phantasm, Boss Goombah o Boss Crystalys) con sus guardias, que atacan como un solo grupo. Cada nave de un enjambre forma parte de su oleada, y la oleada termina cuando muere la última de ellas. Pagan como las demás naves de la oleada, con las cifras de [la tabla de los alienígenas](#the-aliens). **Un NPC jefe suelta su botín como en los sectores del juego**: mineral, placas, munición y cohetes (lo que suelta cada uno está en [las páginas de los enjambres](/wiki/05-Swarms/Swarms.md)). En una puerta no hay caja que recoger: el botín llega con el pago, directo a tu inventario, y una sola vez por partida, como el pago. Sus guardias no sueltan nada, en la puerta como en los sectores, y ni curan a su jefe ni vuelven. La tabla de abajo dice qué oleadas de cada puerta traen un enjambre.
+
 <!-- solo-waves:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-| Puerta | Oleadas, la del jefe incluida | Alienígenas en las oleadas | Jefe | Tiempo previsto |
-| :--- | ---: | :--- | :--- | :--- |
-| **Alpha Rift** | 10 | 60 Seeker, 160 Phantasm | Enhanced Phantasm | 10 a 15 min |
-| **Beta Breach** | 14 | 80 Seeker, 180 Phantasm, 80 Bulwark, 20 Goombah | Enhanced Bulwark | 15 a 25 min |
-| **Gamma Foundry** | 18 | 100 Phantasm, 120 Bulwark, 100 Goombah, 8 Crystalys | Elite Crystalys | 25 a 35 min |
-| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 180 Bulwark, 140 Goombah, 15 Crystalys | Siege Construct | 35 a 45 min |
-| **Omega Vault** | 26 | 250 Seeker, 250 Phantasm, 200 Bulwark, 200 Goombah, 25 Crystalys | Omega Guardian | 50 a 60 min |
+| Puerta | Oleadas, la del jefe incluida | Alienígenas en las oleadas | Jefes NPC y enjambres | Jefe | Tiempo previsto |
+| :--- | ---: | :--- | :--- | :--- | :--- |
+| **Alpha Rift** | 10 | 44 Seeker, 140 Phantasm | oleada 5: 1 Seeker Swarm, 1 Phantasm Swarm | Enhanced Phantasm | 10 a 15 min |
+| **Beta Breach** | 14 | 64 Seeker, 158 Phantasm, 80 Bulwark, 20 Goombah | oleada 4: 2 Seeker Swarm; oleada 9: 1 Phantasm Swarm | Enhanced Bulwark | 15 a 25 min |
+| **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | oleada 4: 1 Phantasm Swarm; oleada 9: 1 Goombah Swarm; oleada 14: 1 Goombah Swarm | Elite Crystalys | 25 a 35 min |
+| **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | oleada 5: 2 Phantasm Swarm; oleada 10: 2 Goombah Swarm; oleada 15: 1 Goombah Swarm; oleada 20: 1 Crystalys Swarm | Siege Construct | 35 a 45 min |
+| **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | oleada 6: 1 Goombah Swarm; oleada 11: 2 Goombah Swarm; oleada 16: 1 Crystalys Swarm; oleada 22: 1 Phantasm Swarm | Omega Guardian | 50 a 60 min |
 
 - **Delta Siege**: la oleada 18 (250 Seeker) es opcional: puedes saltarla mientras corre su cuenta atrás, y no paga nada
 - **Omega Vault**: la oleada 17 (250 Seeker) es opcional: puedes saltarla mientras corre su cuenta atrás, y no paga nada; las oleadas 22 a 24 son de élite, con ×1,5 de casco, escudo y daño
@@ -182,7 +186,7 @@ Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el 
 
 ### Los alienígenas {#the-aliens}
 
-Cada alienígena que matas en una puerta paga con las cifras que tiene en Alpha, en el mundo que sea en el que vueles: ningún multiplicador de mundo, ningún booster ni ninguna bonificación Premium las cambia. Una oleada paga por sus alienígenas **una vez** por partida, por muchas veces que salgas y vuelvas. El pago llega con el final de cada tramo de la partida: cuando sales, mueres, te quedas sin vidas, abandonas o la ganas. Las bajas de un tramo solo quedan sin pagar en el reinicio de temporada y en un reinicio del servidor mientras estás dentro (tu partida sigue abierta, pero las bajas de ese tramo se pierden). Las bajas de una puerta no cuentan para nada más: ni para las misiones, ni para las estadísticas de bajas, ni para los contadores de los logros, ni para el registro de bajas, ni para la experiencia de tus drones y P.E.T.s. La experiencia que pagan sí cuenta para tus puntos PvE, como la de una victoria. El botín de los alienígenas llega con el pago, directo a tu inventario.
+Cada alienígena que matas en una puerta paga con las cifras que tiene en Alpha, en el mundo que sea en el que vueles: ningún multiplicador de mundo, ningún booster ni ninguna bonificación Premium las cambia. Una oleada paga por sus alienígenas **una vez** por partida, por muchas veces que salgas y vuelvas. El pago llega con el final de cada tramo de la partida: cuando sales, mueres, te quedas sin vidas, abandonas o la ganas. Las bajas de un tramo solo quedan sin pagar en el reinicio de temporada y en un reinicio del servidor mientras estás dentro (tu partida sigue abierta, pero las bajas de ese tramo se pierden). Las bajas de una puerta cuentan para las [misiones](/wiki/03-Mechanics/Quests.md#where-it-counts) que no nombran ningún sector (por ejemplo, las grandes cacerías de la línea de Desafíos), en cuanto ocurren (una oleada cuenta para ellas **una vez** por partida, igual que paga una sola vez), y para nada más: ni para las estadísticas de bajas, ni para los contadores de los logros, ni para el registro de bajas, ni para la experiencia de tus drones y P.E.T.s. La experiencia que pagan sí cuenta para tus puntos PvE, como la de una victoria. El botín de los alienígenas llega con el pago, directo a tu inventario.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -194,14 +198,22 @@ Cada alienígena que matas en una puerta paga con las cifras que tiene en Alpha,
 | **Bulwark** | 5.000 | 25 | 800 | 10 |
 | **Goombah** | 15.000 | 75 | 3.000 | 24 |
 | **Crystalys** | 75.000 | 200 | 12.000 | 52 |
+| **Boss Seeker** | 10.000 | 40 | 1.000 | 20 |
+| **Seeker Slave** | 125 | 1 | 12 | 1 |
+| **Boss Phantasm** | 39.000 | 195 | 7.800 | 62 |
+| **Phantasm Guard** | 125 | 1 | 12 | 1 |
+| **Boss Goombah** | 120.000 | 600 | 24.000 | 192 |
+| **Goombah Guard** | 125 | 1 | 12 | 1 |
+| **Boss Crystalys** | 393.750 | 1.050 | 63.000 | 273 |
+| **Crystalys Guard** | 125 | 1 | 12 | 1 |
 
 | Puerta | Créditos | Thulium | XP | Honor |
 | :--- | ---: | ---: | ---: | ---: |
-| **Alpha Rift** | 540.000 | 2.160 | 54.000 | 1.080 |
-| **Beta Breach** | 1.320.000 | 5.980 | 186.000 | 2.520 |
-| **Gamma Foundry** | 3.000.000 | 13.300 | 522.000 | 4.616 |
-| **Delta Siege** | 4.975.000 | 21.400 | 829.000 | 7.640 |
-| **Omega Vault** | 6.875.000 | 29.000 | 1.160.000 | 10.100 |
+| **Alpha Rift** | 514.000 | 2.099 | 55.296 | 1.018 |
+| **Beta Breach** | 1.298.500 | 5.939 | 187.744 | 2.470 |
+| **Gamma Foundry** | 3.064.500 | 13.693 | 541.944 | 4.696 |
+| **Delta Siege** | 5.239.625 | 22.338 | 882.676 | 7.850 |
+| **Omega Vault** | 7.088.125 | 29.196 | 1.196.828 | 10.022 |
 
 <!-- solo-kills:end -->
 

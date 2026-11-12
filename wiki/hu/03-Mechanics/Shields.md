@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 56a2c4ba8cf1ac01 -->
+<!-- wiki-i18n source: 8df4cadc9772c73c -->
 <!-- wiki-i18n title: Pajzsok -->
 # Pajzsmechanika {#shield-mechanics}
 
@@ -63,6 +63,7 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 - **Shield Absorbance Boost**: egy állandó Szezonbolt-buff, amelyet wipe-pontokkal vásárolsz, **szintenként +0,1 pont, legfeljebb +10 pont** (100 szint, egyenként 25 WP). Fix pontokat ad a hajód elnyeléséhez, bármely pajzzsal rendelkező hajón ugyanannyit: a 91% 4 szinttel (100 WP) 91,4%-ra nő, egy Light Shield Core 45%-a pedig 12 szinttel (300 WP) 46,2%-ra. A pajzs nélküli hajó 0%-on marad. A 100 szint 2 500 WP-ba kerül, ami több wipe-ra szóló cél: a wipe-pontok forrásai (a kilövési mérföldkövek, a küldetések és az öt Dormant Knowledge kutatás) wipe-onként legfeljebb 1 105 WP-t fizetnek, és minden wipe-nál újra indulnak, a rangod a wipe-nál 5-től 400-ig ad hozzá, az 1 105 pedig 44 szintet ér, vagyis +4,4 pontot. Lásd: [Szezon és wipe-pontok](/wiki/03-Mechanics/Wipe-Timeline.md#cross-season-progression-permanent-buffs-).
 - **Kovácsműhely**: a pajzsok és a pajzscellák kaphatnak **Elnyelésnövelés** buffot, amely megszorozza az értéket: egy 55%-os pajzson a +5% +2,75 pont. Egy teljesen kovácsolt, Örök ritkaságú legjobb szett (mag és három cella, minden buff a maximumon, +15%) legfeljebb 13,65 pontot ad, átlagosan körülbelül 11-et (lásd [A Kovácsműhely](/wiki/06-Items/Forge.md)).
 - **Field Theory**: a Pilóta-kutatás Field Theory I, II és III ([Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies)) **+4, +7 és +10 pontot** ad az összes hajód elnyeléséhez, összesen, és nem minden szint az előző tetejére, kreditért, Thuliumért és Dark Matterért. Mint a Szezonbolt buffja, ez is fix pont bármely pajzzsal rendelkező hajón, és a wipe-on át megmarad.
+- **Pajzselnyelés**: a [pilótakészség](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) a 100. szinten legfeljebb **+5 pontot** ad ahhoz az elnyeléshez, amelyet a hajód a fentiek mindegyikétől kap, az összegnek nincs felső határa: egy 119%-os hajó 124%-ot ér el, a pajzs nélküli hajó pedig 0%-on marad. Az **Együtt** számaiban nincs benne.
 - **Együtt**: alapból 91%, +4,4 pont buff (egy wipe 1 105 wipe-pontja), legfeljebb +13,65 pont Kovácsműhely-buff és +10 pont Field Theory III együtt egy wipe után legfeljebb **119,05%**-ot tesz ki egy sima hajón, vagyis [dizájn](/wiki/03-Mechanics/Ship-Designs.md) és [formáció](/wiki/03-Mechanics/Formations.md) nélkül; a buff mind a 100 szintjével (+10 pont, 2 500 WP) ez 124,65% lenne. A +10% pajzselnyelést adó dizájn (a Paragon BUCKY, az Ironclad DUMA, a Wraith ATARAXIS) és a Rampart formáció (+17%) szorzóként hat a pajzsok elnyelésére, mielőtt a buff és a Field Theory fix pontjai hozzáadódnának; ugyanez a hajó mindkettővel egy wipe után **149,1%**-ot ér el (154,7% mind a 100 szinttel). A három közül mindegyik önmagában átlépi a 100%-ot: a buff a határán és a Field Theory III 101%-ot ad, egy Örök ritkaságú szett csupa legjobb dobással 104,65%-ot; egy Örök ritkaságú szett a Field Theory III-mal együtt 109–115%-ot ér el, és a buff szintjei még ráadásul jönnek. Mindezek az értékek csak a wipe-pontok forrásait számolják, nem azt az 5–400 wipe-pontot, amelyet a rangod fizet a wipe-kor, és amely a buff további szintjeit veszi meg.
 
 ### Pajzsboostok: kapacitás, elnyelés, töltődés {#shield-boosts-capacity-absorbance-recharge}
@@ -70,7 +71,7 @@ Egyes támadásoknak van **pajzsáthatolásuk**: annyi pontot vonnak le az elnye
 Minden pajzsboost a három érték egyikét növeli, és a Boosterek ablakban a saját fajtája alatt szerepel:
 
 - **Kapacitás** (a pajzspontok maximuma): a Shield Wall Booster I és II, valamint az állandó Shield Capacity Boost.
-- **Elnyelés** (a találatnak az a része, amelyet a pajzsaid felfognak): az állandó Shield Absorbance Boost (szintenként +0,1 pont, legfeljebb +10 pont).
+- **Elnyelés** (a találatnak az a része, amelyet a pajzsaid felfognak): az állandó Shield Absorbance Boost (szintenként +0,1 pont, legfeljebb +10 pont) és a Pajzselnyelés pilótakészség (legfeljebb +5 pont).
 - **Töltődés** (a másodpercenként visszatöltődő pajzspontok): a Shield Regen Booster.
 
 A számokat lásd: [Boosterek](/wiki/06-Items/Boosters.md).

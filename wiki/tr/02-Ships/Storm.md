@@ -1,20 +1,20 @@
-<!-- wiki-i18n source: 1b984f234ad9f5c5 -->
+<!-- wiki-i18n source: bd0d692d35eb54e3 -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
-Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek temel hıza ve en çok lazere (14) sahiptir, ama sınıfına göre hafif bir gövdeye oturur. Oyunun derecelendirmesine göre (10’dan fazla lazer yuvası) IV. sınıf dretnottur. Araştırma Merkezi’nde araştırıldıktan sonra Montaj’da üretilir ve eşit lazer sayısında bire bir savaşta bir Wraith ya da Ironclad karşısında kaybeder.
+Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek temel hıza ve en çok lazere (15) sahiptir, ama sınıfına göre hafif bir gövdeye oturur. Oyunun derecelendirmesine göre (10’dan fazla lazer yuvası) IV. sınıf dretnottur. Araştırma Merkezi’nde araştırıldıktan sonra Montaj’da üretilir ve eşit lazer sayısında bire bir savaşta bir Wraith ya da Ironclad karşısında kaybeder.
 
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 180.000
-- **Temel hız**: 260
-- **Lazer yuvaları**: 14
+- **Temel hız**: 350
+- **Lazer yuvaları**: 15
 - **Ekstra yuvalar**: 3
-- **Gövde plakası yuvaları**: 7
+- **Gövde plakası yuvaları**: 8
 
 ### Jeneratör ve destek yuvaları {#generator-support-slots}
 
-- **Çekirdek yuvaları (%100 verimlilik)**: 4
+- **Çekirdek yuvaları (%100 verimlilik)**: 3
 - **Destek yuvaları (%75 verimlilik)**: 4
 - **Yardımcı yuvalar (%50 verimlilik)**: 2
 
@@ -27,7 +27,7 @@ Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek tem
 
 ## Araştırma {#research}
 
-- **Gövde plakası yuvaları.** Storm gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 7 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Storm gemisinde ve tüm tasarımlarında açar. 7 yuvanın hepsi Hull Plating III ile dolduğunda 175.000 gövde ekler.
+- **Gövde plakası yuvaları.** Storm gemisinin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için 8 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. Her biri Skylab’da kendi başına bir teknolojidir (1 sa ve 10 Dark Matter) ve ilkinden başlayarak sırayla araştırılır; araştırıldığında o yuvayı Storm gemisinde ve tüm tasarımlarında açar. 8 yuvanın hepsi Hull Plating III ile dolduğunda 200.000 gövde ekler.
 - **Tasarımlar.** Storm gemisinin 3 [tasarımı](/wiki/03-Mechanics/Ship-Designs.md) vardır. Birini araştır (10 sa ve 10 Dark Matter), sonra Montaj’da Storm gemini o tasarıma dönüştür: değişiklik geri alınamaz.
 
 | Tasarım | Neyi değiştirir |
@@ -48,4 +48,4 @@ Araştırıldıktan sonra Montaj’da bir Storm üretmek 3 [Ancient Control Unit
 
 ## Hikâye {#lore}
 
-Storm, tek emrin hız olduğu zaman tersanelerin yaptığı gemidir. İğne gibi ince bir gövde ve koyu renkli bir kanopi, iki açık hilal halkanın arasında durur; her halka içi boş bir çevrenin etrafında zırhlı bir yaydır ve yükselmiş bir boynuzla biter, açıklığın içinden bir motor kapsülü geçer: geminin büyük kısmı itki sistemidir. Koyu bir iskeletin üstündeki soluk gri zırh ve beyaz ışık şeritleri onu kolay görünür kılar; o da görünmek ister. İki uzun top öndeki kanatçıklara biner, sekiz küçük yayıcı da halkalara ve omuz yüzgeçlerine yerleşir: on namlu açıkça ortadadır ve on dört lazer bunların içinden ateşlenir. Sığmayan tek şey zırhtır. Gövdesi, Wraith gemisinin gövdesinin kabaca onda yedisi, Ironclad gemisinin gövdesinin ise kabaca onda üçü kadardır; bu yüzden pilotları önce vurur, sert vurur ve daha büyük bir şey dönmeden çekilir.
+Storm, tek emrin hız olduğu zaman tersanelerin yaptığı gemidir. İğne gibi ince bir gövde ve koyu renkli bir kanopi, iki açık hilal halkanın arasında durur; her halka içi boş bir çevrenin etrafında zırhlı bir yaydır ve yükselmiş bir boynuzla biter, açıklığın içinden bir motor kapsülü geçer: geminin büyük kısmı itki sistemidir. Koyu bir iskeletin üstündeki soluk gri zırh ve beyaz ışık şeritleri onu kolay görünür kılar; o da görünmek ister. İki uzun top öndeki kanatçıklara biner, sekiz küçük yayıcı da halkalara ve omuz yüzgeçlerine yerleşir: on namlu açıkça ortadadır ve on beş lazer bunların içinden ateşlenir. Sığmayan tek şey zırhtır. Gövdesi, Wraith gemisinin gövdesinin kabaca onda yedisi, Ironclad gemisinin gövdesinin ise kabaca onda üçü kadardır; bu yüzden pilotları önce vurur, sert vurur ve daha büyük bir şey dönmeden çekilir.

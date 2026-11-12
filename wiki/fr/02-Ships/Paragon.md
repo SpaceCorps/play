@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a4b46b95ef14ebec -->
+<!-- wiki-i18n source: aec634be3b6e5524 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -7,8 +7,8 @@ Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, a
 ## Caractéristiques {#stats}
 
 - **Points de vie (PV)** : 128 000
-- **Vitesse de base** : 230
-- **Emplacements laser** : 9
+- **Vitesse de base** : 270
+- **Emplacements laser** : 10
 - **Emplacements extras** : 3
 - **Emplacements de blindage**: 5
 

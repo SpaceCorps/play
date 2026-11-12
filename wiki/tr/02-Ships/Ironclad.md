@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 809ea3e03a845d94 -->
+<!-- wiki-i18n source: b55105fb2734e319 -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -7,7 +7,7 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 ## Özellikler {#stats}
 
 - **Gövde puanı (HP)**: 500.000
-- **Temel hız**: 110
+- **Temel hız**: 100
 - **Lazer yuvaları**: 8
 - **Ekstra yuvalar**: 3
 - **Gövde plakası yuvaları**: 15

@@ -12,7 +12,7 @@ Achievements are the goals of a pilot's whole career: destroy your first alien, 
 
 ## Tiers and rewards
 
-The five tiers pay the same for every achievement in them, once. The table counts all 40, the hidden ones too.
+The five tiers pay the same for every achievement in them, once. The table counts all 50, the hidden ones too.
 
 | Tier | Achievements | Credits each |
 | :--- | ---: | ---: |
@@ -75,7 +75,7 @@ The 45 achievements that are not hidden, by group. Where a goal counts something
 | Station Builder | Build 5 different Skylab modules. | Common |
 | Fully Fitted | Build all 16 Skylab modules. | Epic |
 | Scholar | Research 50 technologies. | Uncommon |
-| Archivist | Research all 181 technologies. | Legendary |
+| Archivist | Research all 187 technologies. | Legendary |
 
 ### Fleet {#group-fleet}
 
@@ -132,10 +132,11 @@ A **title** is a short line of text beside a pilot's name. 32 of the 50 achievem
 In the **Steam build** you can link your game account to your Steam account, and then your achievements are set on Steam too. The direct downloads have no Steam, so they have no link; the game's own achievements, rewards and titles work the same in every build.
 
 - **Link it** in **Settings › Account**, on the Steam card. You type your game password again to start the link. The game then asks Steam to vouch for who you are, and the server trusts only Steam's answer: nothing you type can name a Steam account.
+- **A new account links itself.** When you register in the Steam build, the form has a switch, **Link to my Steam account**, on by default. The account is linked at your first log-in, with the password you have just typed, and the same checks apply (Steam vouches for who you are; one to one). Accounts that already exist are never linked by themselves.
 - **One to one.** One game account holds at most one Steam account, and one Steam account links to one game account. If a Steam account is already linked to another pilot, the game says so and links nothing. An admin can move a link by hand when two accounts claim the same Steam account.
 - **What the server keeps** is your Steam ID, the public number of your Steam account, and the time you linked it. It keeps nothing else from Steam: not your Steam name, friends, games or password. Only you and the game's administrators can see the ID; other pilots never do.
 - **Unlink** on the same card, with your password; the stored Steam ID is deleted at once. After an unlink you can link a different Steam account only after 24 hours; linking the same one again works at once. For those 24 hours the server keeps a short note of the unlink (the time, and a scrambled code made from the ID, used only to tell whether you link the same account again), then deletes it.
-- **Achievements reach Steam when you sign in with the Steam build** while the Steam account that is running is the one you linked. The game checks what Steam lacks and sets it, so an achievement you earned in a direct download, or while Steam was closed, arrives at your next Steam sign-in. Offline, nothing is lost: the game keeps the record, and Steam is told later.
+- **Achievements reach Steam as you unlock them**, while the Steam account that is running is the one you linked: Steam shows its own pop-up a few seconds after the game's. The game also checks what Steam lacks at every sign-in and sets it, so an achievement you earned in a direct download, or while Steam was closed, arrives then, and an attempt that fails is tried again by itself. While you fly on another server (a regional node) nothing is earned or sent there; back at the station the game catches up. Offline, nothing is lost: the game keeps the record, and Steam is told later.
 - The credits and titles of an achievement come from the game server's own record, never from Steam.
 
 ## When counting began

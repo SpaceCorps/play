@@ -1,15 +1,15 @@
-<!-- wiki-i18n source: 4ce8099d9dcbb29c -->
+<!-- wiki-i18n source: deb5b10a8ab7288f -->
 <!-- wiki-i18n title: Kozmetika -->
 # Kozmetika {#cosmetics}
 
 <!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; kinézet; festés; ruhatár; kipufogó -->
 
-A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs festése), egy **aura** (puha fény a hajó körül), egy **kipufogó** (a hajtóművek mögötti csóva színe és alakja) és a drónjaid **festése**. A kinézet csak látvány: nem ad sebzést, páncélt vagy sebességet, nem foglal helyet, és semmin nem változtat, amit egy lövés eltalálhat.
+A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs festése), egy **aura** (lágy ragyogás és egy fénygyűrű a hajó körül), egy **kipufogó** (a hajtóművek mögötti csóva színe és alakja) és a drónjaid **festése**. A kinézet csak látvány: nem ad sebzést, páncélt vagy sebességet, nem foglal helyet, és semmin nem változtat, amit egy lövés eltalálhat.
 
 > [!NOTE]
 > **A kinézeteket nem lehet megvenni.** A wipe a legmagasabb rangok szezonális kinézeteit adja ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md#season-looks)). Néhány kinézet a [Króma-archívum (Chroma Archive)](/wiki/06-Items/Containers.md#chroma-archive) nevű konténerben található, a többit egy admin adja ki. Amikor egy admin ad neked egy kinézetet, egy üzenet szól róla, és egy halk csengés hallatszik; amit a konténerben nyersz, azt az eredménykártya mutatja.
 
-![Every aura effect on a standing ship (ten Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
+![Every aura effect on a standing ship (fourteen Wraiths with no trail) and every exhaust effect in flight (nine Wraiths with a trail)](../../img/wiki-img/shots/looks-effects.jpg)
 ![The Look section of the Hangar's Spaceship view: the Skin, Aura and Exhaust the ship wears, each a box that opens the Wardrobe](../../img/wiki-img/shots/looks-section.jpg)
 ![The Wardrobe on its Skin tab: the ship turns in the look under the pointer, and a tile says Worn, Yours or Can't be obtained yet](../../img/wiki-img/shots/looks-wardrobe.jpg)
 
@@ -80,17 +80,23 @@ A nyolc gyakori szín a foglalattal jár: minden pilótának megvan. Az Ion Blue
 | Effekt | Ritkaság | Mit rajzol |
 | :--- | :--- | :--- |
 | **None** | Gyakori | Nincs aura. A foglalattal jár |
-| **Glow** | Gyakori | Puha fény a hajó körül |
-| **Breath** | Szokatlan | Egy lassan lélegző fény |
-| **Motes** | Ritka | Egy fény négy körbe keringő kis fénypöttyel |
-| **Shimmer** | Ritka | Egy fény, amely csillog |
-| **Sparkle** | Epikus | Hat keringő fény, amely csillog |
-| **Wreath** | Epikus | Nyolc fény lassú pályán |
-| **Halo** | Mitikus | Egy lélegző fény nyolc keringő fénnyel |
-| **Laurel** | Legendás | Tíz fény, amely lassan kering egy lélegző fényben |
-| **Crown** | Örök | Tíz fény, amely egy lélegző, csillogó fényben kering |
+| **Glow** | Gyakori | Lágy ragyogás, a szélén vékony fénygyűrűvel |
+| **Breath** | Szokatlan | Ragyogás és fénygyűrű, amely lassan lélegzik |
+| **Motes** | Ritka | Fénygyűrű, benne négy keringő kis üstökössel |
+| **Shimmer** | Ritka | Lassú, kétkarú spirál egy halvány gyűrűben, csillogva |
+| **Sparkle** | Epikus | Hat keringő, csillogó üstökös egy fénygyűrűben |
+| **Wreath** | Epikus | Nyolc üstökös lassú pályán egy fénygyűrűben, amelyen belül egy finomabb gyűrű van |
+| **Halo** | Mitikus | Fényes, lélegző fénygyűrű, benne két finomabb gyűrűvel és hat keringő üstökössel |
+| **Laurel** | Legendás | Lélegző fénygyűrű egy lassú, háromkarú spirál körül, nyolc lassan keringő üstökössel |
+| **Crown** | Örök | Fényes fénygyűrű, benne két finomabb gyűrűvel és egy négykarú spirállal, nyolc keringő üstökössel; lélegzik és csillog |
+| **Event Horizon** | Mitikus | Sötét sáv, amely elhalványítja, ami mögötte van, egy fényes fénygyűrűn belül, amely az egyik oldalán lángol |
+| **Accretion** | Mitikus | Lassú, háromkarú spirál egy fénygyűrűben, nyolc behulló üstökössel |
+| **Singularity** | Legendás | Sötét sáv egy fényes fénygyűrűn belül, kétkarú spirállal és hat csillogó, behulló üstökössel |
+| **Gravity Well** | Mitikus | Halvány sötét sáv és három finomabb gyűrű egy lélegző fénygyűrűn belül |
 
-Az aura a célbavételt jelző gyűrűn belül marad, és minden másnál alulra rajzolódik a hajó körül.
+Az aura a célbavételt jelző gyűrűn belül marad, és minden másnál alulra rajzolódik a hajó körül. Saját fénygyűrűje vékony, az aura színét viseli, és egy fényes ív jár rajta körbe; a célbavételt jelző gyűrű ezen kívül van, és egyenletes. Az üstökös egy kis fény rövid csóvával.
+
+Az **Event Horizon**, az **Accretion**, a **Singularity** és a **Gravity Well** nincs benne a Króma-archívumban: ezeket egy admin adja ki.
 
 ## A Ruhatár {#the-wardrobe}
 

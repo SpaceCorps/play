@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9af3260b49f04aba -->
+<!-- wiki-i18n source: 0a7091768e0a8ab1 -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -47,18 +47,21 @@ Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is
 
 ## Chatcsatornák {#chat-channels}
 
-A chat tetején lapok sora van: **Globális**, **Helyi**, **Csoport** (amíg csoportban vagy) és legutolsónak a **Rendszer**. Az általad beírt sor a látható lapra megy, és az utoljára használt lapot megjegyzi a játék. Minden csatornának megvan a színe és egy rövid címkéje minden soron (GLB, HLY, CSP), a lap számolja az olvasatlan sorokat, és a chat eszköztárbeli gombja viseli a számot, amíg az ablak zárva van. Vagy kezdj egy sort paranccsal:
+A chat tetején lapok sora van: **Globális**, **Helyi**, **Csoport** (amíg csoportban vagy), **Klán** (amíg klánban vagy) és legutolsónak a **Rendszer**. Az általad beírt sor a látható lapra megy, és az utoljára használt lapot megjegyzi a játék. Minden csatornának megvan a színe és egy rövid címkéje minden soron (GLB, HLY, CSP), a lap számolja az olvasatlan sorokat, és a chat eszköztárbeli gombja viseli a számot, amíg az ablak zárva van. Vagy kezdj egy sort paranccsal:
 
 | Csatorna | Ki hallja | Parancs |
 | :--- | :--- | :--- |
 | **Helyi** | a térképeden lévő pilóták | `/l` vagy `/local` |
 | **Globális** | minden szerveren és minden világban minden pilóta | `/g` vagy `/global` |
 | **Csoport** | a csoportod a szervereden, bárhol is vannak | `/p`, `/party` vagy `/group` |
+| **Klán** | a klánod pilótái a saját szerveren; amit mondanak, megmarad azoknak, akik nincsenek fent | `/c` vagy `/clan` |
 | **Privát** | egyetlen pilóta a szervereden, bárhol is van | `/m`, `/msg` vagy `/w`, majd a név és az üzenet ([lent](#private-messages)) |
 
 A parancs a lapot is átváltja, és egyedül beírva (`/g`) csak vált. A csoportchathez csoport kell. A csatornák előtti játékszerveren a chat az az egy lista, ami volt, és csoportot nem lehet alakítani.
 
 A **Globális** az egész játék közös chatje: a soraidat minden szerveren és minden világban minden pilóta hallja, repülés közben és az állomáson is. Egy másik szerverről érkező sor egy pillanattal a küldése után ér ide, és a különböző szervereken lévő pilóták két majdnem egyidejű sort eltérő sorrendben láthatnak. Tartsd az egérmutatót egy pilóta nevén: a megnyíló kártya azt is megmondja, melyik szerveren repül, ha az nem a tiéd. A többi csatorna azon a szerveren marad, ahol vagy: a **Helyi** a térképeden lévő pilóták, a csoportchat és a privát üzenetek csak a szervereden lévő pilótákhoz jutnak el, a [kill feed](#the-kill-feed) és a **Rendszer** sorai (a szerver közleményei) pedig az egyes szerverek sajátjai. Ha egy szerver elveszti a kapcsolatot a többivel, a Globálisa addig csak a saját pilótáira szűkül, amíg a kapcsolat vissza nem áll; egy rövid kiesést utólag pótol, de ami egy hosszabb kiesés alatt elhangzott, azt utána nem közvetíti.
+
+A **Klán** az egyetlen csatorna, amelyet a játék megőriz. Az itt írt sorodat a klánod minden tagja megkapja, aki a saját szerveren online van, állomáson vagy repülés közben, a szerver pedig megőrzi a klán utolsó **200 sorát**, de egyik sem lehet **14 napnál** régebbi. Aki bejelentkezik, belép a klánba vagy megnyitja a Klán lapot, megkapja őket, a legrégebbit elöl, egy sor alatt, amely megmondja, meddig őrzi meg a chatet; a korábbi napról származó sor az időpont mellett a dátumát is mutatja, és az így olvasott sorok nem számítanak olvasatlannak. Aki kilép a klánból vagy kiteszik, többé nem kap belőle semmit, és amikor a klánt feloszlatják, a Vezére vagy a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md), a sorai is törlődnek vele. A chat szabályai ([A chat szabályai](#the-chat-rules)) ugyanazok, mint a többi csatornán, egy pilóta figyelmen kívül hagyása elrejti a klánsorait, és a klánsort is be lehet jelenteni, mint bármelyiket. Regionális szerveren nincs Klán lap, és a `/c` azt mondja, hogy a klánchat csak a saját szerveren érhető el.
 
 A **Rendszer** lap arany színű és csak olvasható, saját listával: ide kerül, amit a szerver magától mond (az üdvözlés, az újraindítás, a frissítés és a wipe figyelmeztetései, a rajok bejelentései), és amit a hajód jelent (javítások, álcázás, EMP-k, rakéták). Ezek a sorok egyetlen másik lapon sincsenek, így egy forgalmas Globális nem tudja kiszorítani őket, a többi lapon pedig az van, amit a pilóták mondanak. A lap számlálója a bejelentéseket számolja; az újraindítás vagy a frissítés visszaszámlálása és a wipe figyelmeztetései ezenfelül rövid időre értesítésként is felbukkannak. A [kill feed](#the-kill-feed) a **Globális** lapon marad, saját kapcsolóval, a csoportodhoz csatlakozó vagy azt elhagyó pilótákról szóló sorok pedig a **Csoport** lapon vannak.
 
@@ -114,7 +117,7 @@ A mellőzési listád és a Globális elrejtése kapcsoló a fiókoddal együtt 
 
 ## Harci szabályok {#rules-of-engagement}
 
-**Egy csoport tagjai nem sebezhetik egymást**, bármelyik vállalatból valók is: nem vehetsz célba csoporttársat (lézerrel vagy rakétával), a lövéseid és a robbanásaid átmennek rajtuk, és semmi, amit egyikükkel teszel, nem számít kilövésnek, PvP-kilövésnek vagy feketelyuk-kilövésnek senki számára. Azok a vállalattársak, akik **nincsenek** ugyanabban a csoportban, a régi szabály szerint vannak: egyikük eltalálása **100 becsületbe** kerül, amikor megsemmisül. Lépj ki a csoportból, és egy volt társ, ellenség vagy sem, azonnal újra támadható (ahol a szektor és a szezon egyáltalán engedi a harcot). Mindenki, aki kívül van a csoportodon, a megszokott módon kezelendő, és a biztonságos zónák, a Békeprotokoll és a szektorok PvP-szabályai senkinek sem változnak.
+**Egy csoport tagjai nem sebezhetik egymást**, bármelyik vállalatból valók is: nem vehetsz célba csoporttársat (lézerrel vagy rakétával), a lövéseid és a robbanásaid átmennek rajtuk, és semmi, amit egyikükkel teszel, nem számít kilövésnek, PvP-kilövésnek vagy feketelyuk-kilövésnek senki számára. Azok a vállalattársak, akik **nincsenek** ugyanabban a csoportban, a régi szabály szerint vannak: egyikük eltalálása lézerrel vagy rakétával **100 becsületbe** kerül, amikor megsemmisül. Lépj ki a csoportból, és egy volt társ, ellenség vagy sem, azonnal újra támadható (ahol a szektor és a szezon egyáltalán engedi a harcot). Mindenki, aki kívül van a csoportodon, a megszokott módon kezelendő, és a biztonságos zónák, a Békeprotokoll és a szektorok PvP-szabályai senkinek sem változnak.
 
 ## Barát hozása {#bringing-a-friend}
 
