@@ -242,7 +242,7 @@
       setToken(value);
       $('pass').value = '';
       return refresh().then(function (ok) { if (ok) return afterSignIn(); });
-    }, function (err) {
+    }).catch(function (err) {
       if (err instanceof ApiError && err.status === 400) signinMsg('Wrong user name or password.');
       else if (err instanceof ApiError && err.status === 403) signinMsg(err.text || 'This account cannot sign in.');
       else signinMsg(explain(err));
