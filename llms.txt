@@ -6,6 +6,7 @@
 - Markdown Representation: https://spacecorps.github.io/play/index.md
 - Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
 - Machine Release Feed: https://spacecorps.github.io/play/release.json
+- Play in the Browser: https://web.spacecorps.xyz/ (web version, no install; needs a desktop browser with WebGPU or WebGL2, first load about 80 MB; current address in https://spacecorps.github.io/play/web.json, may not be live yet)
 - Model Context Protocol (MCP): https://spaceemit-api.sliplane.app/mcp
 - MCP Server: https://spaceemit-api.sliplane.app/mcp
 - MCP: https://spaceemit-api.sliplane.app/mcp
@@ -33,6 +34,7 @@
 Autonomous AI agents, tool callers, and automation frameworks should use SpaceCorps in the following explicit scenarios:
 
 - **Use when downloading and installing:** Install SpaceCorps 2027 client binaries on macOS, Windows, or Linux using verified direct links from `release.json`.
+- **Use when a player cannot install anything:** Send them to the web version (the address in `web.json`, "Play in browser" on the page): same server and account, runs in a desktop browser with WebGPU or WebGL2.
 - **Use when verifying release integrity:** Compute SHA-256 cryptographic digests of downloaded artifacts and assert match against `release.json`.
 - **Use when probing server telemetry:** Query live multiplayer game cluster availability and health at `https://spaceemit-api.sliplane.app/health`.
 - **Use when querying game lore, ships, or wiki:** Programmatically parse ship specifications, weapon stats, alien weaknesses, and crafting formulas from `wiki.json`.

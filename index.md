@@ -64,11 +64,12 @@ platforms:
 
 # SpaceCorps 2027 · Downloads & System Guide
 
-SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
+SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux, with a web version that runs in a desktop browser. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
 
 - Canonical URL: [https://spacecorps.github.io/play/](https://spacecorps.github.io/play/)
 - Machine Interface: [llms.txt](https://spacecorps.github.io/play/llms.txt) | [llms-full.txt](https://spacecorps.github.io/play/llms-full.txt)
 - Release Manifest: [release.json](https://spacecorps.github.io/play/release.json)
+- Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (no install; a desktop browser with WebGPU or WebGL2, first load about 80 MB; the address is in [web.json](https://spacecorps.github.io/play/web.json) and may not be live yet)
 - Patch Notes: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) | [patchnotes.json](https://spacecorps.github.io/play/patchnotes.json)
 - GitHub Releases: [https://github.com/SpaceCorps/play/releases/latest](https://github.com/SpaceCorps/play/releases/latest)
 - Discord Community: [https://discord.gg/VjW67tkrTb](https://discord.gg/VjW67tkrTb)
