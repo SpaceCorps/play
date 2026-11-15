@@ -14,6 +14,7 @@ also update `release.json` (version, sizes and SHA-256 of every package) that th
 |---|---|
 | `index.html`, `style.css`, `app.js` | the page: no frameworks, no trackers, no cookies |
 | `i18n.js`, `i18n/<language>.json` | the game's ten languages: `?lang=de`, the menu, else the browser's; see [i18n/README.md](i18n/README.md), check with `python3 i18n/check.py` |
+| `premium/index.html`, `premium.js`, `premium.css`, `terms/` | the Premium page (sign in with the game account, buy Premium through Stripe Checkout) and its terms of sale; no build step, no cookies. `scripts/mock-premium-api.py` is a local stand-in for the game server's payment routes to try it: its docstring has the commands |
 | `release.json` | the latest release's packages, written at release time |
 | `patchnotes.html`, `patchnotes.md`, `patchnotes.json` | every release's patch notes, newest first; the latest one is also on the main page (`index.html`, `index.md`). Written at release time by the game repository's `scripts/release/patchnotes.py`, between `<!-- patchnotes:… -->` markers: edit the notes there (`docs/releases/v<version>.md`), not here |
 | `img/` | screenshots taken headless from the game (WebP) and icons |
