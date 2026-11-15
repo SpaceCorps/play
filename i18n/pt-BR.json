@@ -33,8 +33,10 @@
 
   "hero.eyebrow": "MMO espacial · Beta fechado",
   "hero.lede": "Voe por uma corporação, cace alienígenas com seu clã e suba no ranking da temporada. Um jogo nativo para macOS, Windows e Linux.",
-  "hero.download": "Baixar",
-  "hero.download-for": "Baixar para {platform}",
+  "hero.download": "Baixar agora",
+  "hero.play-web": "Jogar no navegador",
+  "hero.play-web-sub": "Abre em uma nova aba",
+  "hero.play-web-note": "Requer um navegador de computador com WebGPU ou WebGL2. O primeiro carregamento tem cerca de 80 MB, sem instalação.",
   "hero.download-mobile": "Baixe no seu computador",
   "hero.sub.macos": "Apple Silicon e Intel",
   "hero.sub.windows": "Windows 10 e 11, x64",

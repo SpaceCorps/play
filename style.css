@@ -174,11 +174,17 @@ p, li, figcaption, td { text-wrap: pretty; }
   mask-image: linear-gradient(to right, transparent 0%, #000 34%), linear-gradient(to bottom, #000 70%, transparent 100%);
   mask-composite: intersect;
 }
-.hero-copy { position: relative; z-index: 1; max-width: 520px; }
+.hero-copy { position: relative; z-index: 1; max-width: 560px; }
 .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-2); margin-bottom: 14px; }
 .hero h1 { font-size: clamp(44px, 7vw, 72px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.02; }
 .lede { margin-top: 18px; font-size: clamp(17px, 2vw, 20px); line-height: 1.5; color: var(--text-2); }
-.cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; align-items: center; }
+.cta { display: flex; flex-wrap: wrap; gap: 14px 12px; margin-top: 32px; align-items: flex-start; }
+/* Two choices side by side: Download now and Play in browser, each with its line underneath. */
+.cta-choice { flex: 1 1 230px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.cta-choice .btn-big { width: 100%; }
+.cta-hint { font-size: 13px; line-height: 1.45; color: var(--text-3); padding: 0 2px; }
+.cta-link { align-self: flex-start; color: var(--text-2); text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 3px; }
+.cta-link:hover { color: var(--text); text-decoration-color: currentColor; }
 .fineprint { margin-top: 16px; font-size: 13px; color: var(--text-3); }
 
 /* ---------- buttons (kit::primary / secondary) ---------- */
@@ -195,6 +201,11 @@ p, li, figcaption, td { text-wrap: pretty; }
 .btn-primary:active { background: var(--accent-pressed); }
 .btn-secondary { background: rgba(255, 255, 255, 0.07); color: var(--text); border-color: var(--border); }
 .btn-secondary:hover { background: rgba(255, 255, 255, 0.11); color: var(--text); }
+/* Play in browser: as big as the download, outlined in the accent so the two read as equals. */
+.btn-play { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
+.btn-play:hover { background: rgba(217, 119, 87, 0.26); color: var(--text); }
+.btn-play:active { background: rgba(217, 119, 87, 0.34); }
+.btn-play .icon { color: var(--accent-hover); }
 .btn-big { min-height: 60px; padding: 10px 24px 10px 20px; border-radius: 12px; justify-content: flex-start; }
 .btn-big .icon { width: 22px; height: 22px; stroke-width: 2; }
 .btn-stack { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
@@ -372,6 +383,7 @@ p, li, figcaption, td { text-wrap: pretty; }
   .lang { margin-left: 0; }
   .hero-art { height: 260px; }
   .cta { flex-direction: column; align-items: stretch; }
+  .cta-choice { flex: none; } /* the 230px basis would be a height in a column */
   .btn-big { justify-content: flex-start; }
   .section { padding-top: 56px; }
   .shot-grid, .features, .platforms { grid-template-columns: minmax(0, 1fr); }

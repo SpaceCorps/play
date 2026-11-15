@@ -32,8 +32,10 @@
 
   "hero.eyebrow": "太空 MMO · 封闭测试",
   "hero.lede": "为企业而飞，与战队一起猎杀外星人，冲击赛季排行榜。原生支持 macOS、Windows 和 Linux。",
-  "hero.download": "下载",
-  "hero.download-for": "下载 {platform} 版",
+  "hero.download": "立即下载",
+  "hero.play-web": "在浏览器中玩",
+  "hero.play-web-sub": "在新标签页中打开",
+  "hero.play-web-note": "需要支持 WebGPU 或 WebGL2 的桌面浏览器。首次加载约 80 MB，无需安装。",
   "hero.download-mobile": "请在电脑上游玩",
   "hero.sub.macos": "支持 Apple 芯片和 Intel",
   "hero.sub.windows": "Windows 10 和 11，x64",

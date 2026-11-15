@@ -342,6 +342,7 @@ if (typeof document !== 'undefined') {
   <symbol id="i-portal" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="2"/></symbol>
   <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
   <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="13.5" rx="2"/><path d="M10 8v5.5l4.5-2.75zM8 20.5h8"/></symbol>
   <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
 </svg>
 
@@ -418,14 +419,26 @@ if (typeof document !== 'undefined') {
       <h1 id="hero-title">SpaceCorps 2027</h1>
       <p class="lede" data-i18n="hero.lede">Fly for a corporation, hunt aliens with your clan and climb the season ranking. A native game for macOS, Windows and Linux.</p>
       <div class="cta">
-        <a class="btn btn-primary btn-big" id="dl-main" href="#download">
-          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
-          <span class="btn-stack">
-            <span class="btn-label" id="dl-main-label" data-i18n="hero.download">Download</span>
-            <span class="btn-sub" id="dl-main-sub">macOS · Windows · Linux</span>
-          </span>
-        </a>
-        <a class="btn btn-secondary" href="#download" id="dl-other" data-i18n="hero.all-platforms">All platforms</a>
+        <div class="cta-choice">
+          <a class="btn btn-primary btn-big" id="dl-main" href="#download">
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg>
+            <span class="btn-stack">
+              <span class="btn-label" id="dl-main-label" data-i18n="hero.download">Download now</span>
+              <span class="btn-sub" id="dl-main-sub">macOS · Windows · Linux</span>
+            </span>
+          </a>
+          <a class="cta-hint cta-link" href="#download" id="dl-other" data-i18n="hero.all-platforms">All platforms</a>
+        </div>
+        <div class="cta-choice">
+          <a class="btn btn-play btn-big" id="play-web" href="https://web.spacecorps.xyz/" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
+            <span class="btn-stack">
+              <span class="btn-label" data-i18n="hero.play-web">Play in browser</span>
+              <span class="btn-sub" data-i18n="hero.play-web-sub">Starts in a new tab</span>
+            </span>
+          </a>
+          <p class="cta-hint" id="play-web-note" data-i18n="hero.play-web-note">Needs a desktop browser with WebGPU or WebGL2. First load about 80&nbsp;MB, no install.</p>
+        </div>
       </div>
       <p class="fineprint" id="dl-note" data-i18n="hero.note">Free download. Needs an internet connection: the game plays on the SpaceCorps server.</p>
     </div>

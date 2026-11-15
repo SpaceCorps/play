@@ -33,8 +33,10 @@
 
   "hero.eyebrow": "Weltraum-MMO · Geschlossene Beta",
   "hero.lede": "Fliege für einen Konzern, jage mit deinem Clan Aliens und steige in der Saisonwertung auf. Ein natives Spiel für macOS, Windows und Linux.",
-  "hero.download": "Herunterladen",
-  "hero.download-for": "Für {platform} herunterladen",
+  "hero.download": "Jetzt herunterladen",
+  "hero.play-web": "Im Browser spielen",
+  "hero.play-web-sub": "Startet in einem neuen Tab",
+  "hero.play-web-note": "Braucht einen Desktop-Browser mit WebGPU oder WebGL2. Der erste Start lädt etwa 80 MB, keine Installation.",
   "hero.download-mobile": "Auf dem Computer spielen",
   "hero.sub.macos": "Apple Silicon und Intel",
   "hero.sub.windows": "Windows 10 und 11, x64",
