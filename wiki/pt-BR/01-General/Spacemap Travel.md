@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Viagem pelo mapa espacial -->
 # Viagem pelo mapa espacial {#spacemap-travel}
 
@@ -29,10 +29,10 @@ O universo é formado por três setores principais de corporações (Mars, Terra
 
 - **x-1 (Base de origem)**: O mapa inicial de cada corporação (M-1, T-1, G-1). A zona mais segura.
 - **x-2 -> x-3**: Zonas de expansão com alienígenas cada vez mais fortes.
-- **x-4 (Fronteira)**: A porta de entrada para o setor PvP e para o `x-3` de outra corporação (o Anel, abaixo).
+- **x-4 (Fronteira)**: A porta de entrada para o setor PvP e para o `x-3` de outra corporação (o Anel, abaixo). Tem uma estação do Mission Control no meio.
 - **DS-x (Setores de perigo)**: A zona PvP central que conecta todas as corporações: DS-1 a DS-4. Ele contém um pulsar em cada um de DS-1 a DS-3 desde o primeiro dia da temporada e, a partir do dia 11, uma escavadeira gigante ao lado de cada um e o Dormant Swamp ([Setores de perigo](/wiki/01-General/Danger-Sectors.md)). No Beta e no Gamma, as escavadeiras gigantes ficam de pé desde o primeiro dia da temporada.
 
-Só as bases de origem têm uma estação. É nela que abre **Mission Control**, e a zona segura dela alcança 1.600 unidades ao redor. Os setores de perigo não têm estação, nem o `DS-1`: as únicas zonas seguras ali são os anéis de 660 unidades ao redor dos portais de salto, e **Mission Control** não pode ser aberto ali; volte voando à sua base para ver as suas missões.
+Só as bases de origem (`x-1`) e as fronteiras (`x-4`) têm uma estação. É nela que abre **Mission Control** e onde você aceita e resgata missões, a até 1.600 unidades dela. A estação de uma base de origem tem uma zona segura desse raio. A de uma fronteira, no meio do setor, **não tem nenhuma**: é só um ponto do Mission Control, e os pilotos ali ainda podem ser atacados. É um posto pequeno, uma única peça da cidade da base de origem: um convés hexagonal com a torre de controle, as cúpulas de radar, uma plataforma de pouso e um mastro de comunicações. Os setores de perigo não têm estação, nem o `DS-1`: as únicas zonas seguras ali são os anéis de 660 unidades ao redor dos portais de salto, e **Mission Control** não pode ser aberto ali; volte voando a uma estação para ver as suas missões.
 
 Cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) tem a sua própria cópia de todo este mapa, e onde os pilotos podem lutar entre si depende do mundo: em Alpha apenas em `x-4` e `DS-x`, em Beta em qualquer lugar, exceto `x-1`, em Gamma em qualquer lugar. O mapa da galáxia colore os setores conforme a regra do seu mundo.
 
@@ -52,7 +52,7 @@ A viagem pelo mapa espacial é feita por **portais de salto**. A [Jump CPU](/wik
 
 1. **Encontre um portal**: Os portais ficam, em geral, nos cantos ou nas bordas de um mapa.
 2. **Navegação**: Voe com a sua nave até perto da estrutura do portal.
-3. **Ativação**: Pressione **'J'** a até 500 unidades do portal para iniciar o salto.
+3. **Ativação**: Pressione **'J'** a até 500 unidades do portal para iniciar o salto, ou clique no **ícone de salto** que fica sobre o portal. Ao alcance, o ícone inicia o salto como a tecla; fora do alcance ele fica esmaecido, e um clique faz sua nave voar até o portal e inicia o salto quando você chega (qualquer outra ordem sua o cancela).
 4. **Aguarde**: O salto **leva 3 segundos**. Enquanto isso, uma barra acima da sua barra de atalhos (“Saltando…”) se enche, e o portal brilha mais forte conforme se carrega; os outros pilotos veem a mesma carga no portal quando você salta. Sua nave continua voando, mas você precisa ficar a até 500 unidades do portal até o tempo acabar: se sair do alcance, o salto é cancelado (“Portal longe demais para saltar.”, e a barra fica vermelha). Pressionar **'J'** de novo durante o salto não faz nada, só avisa você disso.
 5. **Destino**: Você chega ao portal correspondente no mapa de destino.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
@@ -20,11 +20,11 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 | **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon | 144 000 | 350 | 14 |
 | **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 600 000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 500 000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 15 |
-| **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 14 |
-| **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod | 307 200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 lézerfoglalat, +1 támogató foglalat, +25% pajzskapacitás, +10% pajzselnyelés, Shield Buff | 256 000 | 210 | 13 |
-| **Wraith MATT** | +2 lézerfoglalat, -20% pajzskapacitás, +10% lézeres pajzsáthatolás | 256 000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 14 |
+| **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 13 |
+| **Wraith MENATI** | +20% alap hajótest, +20 alap sebesség, +5% pajzselnyelés, Heal Pod | 307 200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 lézerfoglalat, +1 támogató foglalat, +25% pajzskapacitás, +10% pajzselnyelés, Shield Buff | 256 000 | 210 | 12 |
+| **Wraith MATT** | +2 lézerfoglalat, -20% pajzskapacitás, +10% lézeres pajzsáthatolás | 256 000 | 210 | 15 |
 
 ## Dizájnt szerezni {#getting-a-design}
 
@@ -63,7 +63,7 @@ Az átalakítandó hajó az, amelyet az adott fajtából birtokolsz (Paragon a T
 | **Wraith** | 10 | 10 óra | 100 | 5 | 50 óra | 50 |
 | **Mind a négy** | 38 | 38 óra | 380 | 13 | 130 óra | 130 |
 
-Együtt 510 Dark Mattert kérnek, az összes többi technológia 789-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 384 a játék összes technológiájára.
+Együtt 510 Dark Mattert kérnek, az összes többi technológia 979-én felül, a Skylab modulszintjei pedig további 115-öt kérnek: 1 604 a játék összes technológiájára.
 
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 

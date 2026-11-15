@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -26,7 +26,7 @@ Una skin es un esquema de pintura hecho a partir del propio casco de la nave: su
 
 Las skins pertenecen a tu **cuenta**, no a una nave, y se quedan tras el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); tus naves llevan lo que llevaban.
 
-El [Archivo cromático](/wiki/06-Items/Containers.md#chroma-archive) puede dar cualquier colección salvo Bloody R.E.D, y da la colección entera de una vez: todas sus skins que aún no tienes.
+El [Archivo cromático](/wiki/06-Items/Containers.md#chroma-archive) puede dar cualquier colección salvo Bloody R.E.D, una skin cada vez: un premio de colección da una skin de ella, para un modelo de nave. Es la skin de tu nave activa si la colección tiene una para ella y aún no la tienes; si no, la skin de otra nave que tengas; si no, la primera skin de la colección que te falte. Así que vuela la nave para la que quieres la skin cuando abras un Archivo. La colección puede volver a salir hasta que tengas todas sus skins. Una colección que llegó entera antes de la 0.5.7 sigue siendo tuya, con todas sus skins.
 
 | Colección | Naves | Rareza | Cómo es |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Un aura se queda dentro del anillo que marca una fijación y se dibuja debajo de
 ## El Guardarropa {#the-wardrobe}
 
 - **Pestañas.** Skin, Aura, Estela y Drones. Un chip de rareza filtra una pestaña a una sola rareza, y **Solo los míos** lista lo que puedes llevar.
-- **Una casilla dice cómo estás con ese aspecto.** **Puesto** (la nave lo lleva), **Lo tienes** (lo posees), **Viene con la ranura** (todos los pilotos lo tienen) o **Aún no se puede conseguir**, con un tic sordo al hacer clic.
+- **Una casilla dice cómo estás con ese aspecto.** **Puesto** (la nave lo lleva), **Lo tienes** (lo posees), **Viene con la ranura** (todos los pilotos lo tienen) o **Aún no se puede conseguir**, con un tic sordo al hacer clic. La casilla de una skin también muestra cuántas skins de nave de su colección tienes, por ejemplo 1/4.
 - **Quitarse un aspecto.** La casilla **Liso** de la pestaña Skin devuelve a la nave su pintura lisa, y **Ninguna** quita el aura.
 - **Más de una nave.** El interruptor al pie de la hoja, **Aplicar también a mis otras naves de este modelo** para una skin y **Aplicar también a mis otras naves** para un aura o una estela, hace que un clic ponga el aspecto en todas.
 - **Dónde puedes cambiarlo.** Donde puedes cambiar tu equipo: atracado, o en una zona segura con la protección activa, como en [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

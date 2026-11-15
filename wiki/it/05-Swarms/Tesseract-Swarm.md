@@ -80,6 +80,7 @@ Base: Crystalys, con 625% dello scafo; non ha armi, e scudo e velocità sono pro
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20, al massimo 5 per pilota |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

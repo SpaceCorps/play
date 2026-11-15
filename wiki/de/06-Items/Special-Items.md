@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -12,7 +12,7 @@
 ## In einer Minute {#in-one-minute}
 
 - **Sechs Sorten.** Der Magic Hammer, Schematics, der Philosopher's Stone, das Tinkerer's Badge, das Forger's Seal und der Workforce Contract. Jede ist weiter unten mit ihren Zahlen beschrieben.
-- **Wo.** Das Inventar im Hangar zeigt für jede Sorte, die du besitzt, eine Kachel unter den Verbrauchsgütern, mit der Anzahl. Halte den Mauszeiger über eine Kachel, um zu lesen, was der Gegenstand tut, und klicke darauf, um ihn zu verwenden (beim Workforce Contract wählst du zuerst den Arbeiter). Der Magic Hammer und das Tinkerer's Badge wirken auf etwas, das du auswählst, daher tut ein Klick nichts und ihre Kachel sagt, wo du sie einsetzt: im Skylab und in der Schmiede. Die Seite, auf der der Gegenstand wirkt, zeigt ebenfalls einen Knopf, sobald du einen besitzt: das Modul eines Ausbaus im Skylab, die laufende Forschung, das Aufwerten-Fenster der Schmiede und die Produktionswarteschlange.
+- **Wo.** Das Inventar im Hangar zeigt für jede Sorte, die du besitzt, eine Kachel unter den Verbrauchsgütern, mit der Anzahl. Halte den Mauszeiger über eine Kachel, um zu lesen, was der Gegenstand tut, und klicke darauf, um ihn zu verwenden (beim Workforce Contract wählst du zuerst den Arbeiter und die Zahl der Verträge). Der Magic Hammer und das Tinkerer's Badge wirken auf etwas, das du auswählst, daher tut ein Klick nichts und ihre Kachel sagt, wo du sie einsetzt: im Skylab und in der Schmiede. Die Seite, auf der der Gegenstand wirkt, zeigt ebenfalls einen Knopf, sobald du einen besitzt: das Modul eines Ausbaus im Skylab, die laufende Forschung, das Aufwerten-Fenster der Schmiede und die Produktionswarteschlange.
 - **Er fragt zuerst.** Jede Verwendung öffnet ein Fenster, das genau sagt, was geschehen wird und was dabei verbraucht wird. Die Verwendung ist endgültig: Sie lässt sich nicht rückgängig machen. Wird eine Verwendung abgelehnt, wird nichts verbraucht.
 - **Sie bleiben.** Deine Spezialgegenstände und der laufende Philosopher's Stone oder Vertrag bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinaus erhalten.
 - **Überall.** Du kannst sie im Flug verwenden: Keiner von ihnen verlangt, dass dein Schiff gelandet ist.
@@ -20,16 +20,16 @@
 
 ## Die sechs im Überblick {#the-six-at-a-glance}
 
-| Gegenstand | Seltenheit | Maximal im Besitz | Was er tut |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Legendär | 5 | Schließt einen Skylab-Ausbau sofort ab |
-| **Schematics** | Selten | 20 | Nimmt 24 Stunden von der laufenden Forschung ab; schließt sie ab, wenn höchstens 24 Stunden fehlen |
-| **Philosopher's Stone** | Episch | 10 | Deine Credit-Farm und deine Thulium-Farm produzieren 10 Stunden lang doppelt so viel |
-| **Tinkerer's Badge** | Episch | 10 | Hebt ein Ausrüstungsstück um eine Schmiede-Stufe an, ab Verdorben |
-| **Forger's Seal** | Ungewöhnlich | 99 | Überspringt bis zu 30 Minuten der Produktionswarteschlange |
-| **Workforce Contract** | Gewöhnlich | 99 | Heuert einen Foreman, einen Engineer oder einen Hauler für 1 Stunde an |
+| Gegenstand | Seltenheit | Was er tut |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Legendär | Schließt einen Skylab-Ausbau sofort ab |
+| **Schematics** | Selten | Nimmt 24 Stunden von der laufenden Forschung ab; schließt sie ab, wenn höchstens 24 Stunden fehlen |
+| **Philosopher's Stone** | Episch | Deine Credit-Farm und deine Thulium-Farm produzieren 10 Stunden lang doppelt so viel |
+| **Tinkerer's Badge** | Episch | Hebt ein Ausrüstungsstück um eine Schmiede-Stufe an, ab Standard |
+| **Forger's Seal** | Ungewöhnlich | Überspringt bis zu 30 Minuten der Produktionswarteschlange |
+| **Workforce Contract** | Gewöhnlich | Heuert einen Foreman, einen Engineer oder einen Hauler für 1 Stunde an |
 
-Die Seltenheit folgt der üblichen Skala des Spiels, und **Maximal im Besitz** ist die größte Menge einer Sorte, die dein Konto hält: Eine Gabe, die darüber hinausginge, wird ganz abgelehnt, nicht gekürzt.
+Die Seltenheit folgt der üblichen Skala des Spiels. Wie viele einer Sorte dein Konto hält, ist **nicht begrenzt**: Eine Gabe wird nie abgelehnt, weil du schon viele hast.
 
 ## Die sechs {#the-six}
 
@@ -39,12 +39,12 @@ Schließt **einen Skylab-Ausbau sofort ab**: Wähle das Modul, das gerade ausgeb
 
 - **Der Preis bleibt bezahlt.** Was der Ausbau gekostet hat, wurde beim Start abgezogen. Der Hammer erstattet davon nichts und verlangt nichts dazu.
 - **Nur ein laufender Ausbau.** Ein Modul, das nicht ausgebaut wird oder dessen Ausbau gerade von selbst geendet hat, wird abgelehnt („Nichts zu beenden: Dieses Modul wird nicht ausgebaut.“), und der Hammer bleibt bei dir.
-- **Extrem selten.** Das Skylab behält seine Level über den Wipe hinweg, daher ist ein Hammer die Zeit eines Schritts wert, auf dem Kern bis zu 6 Tage. Zwischen zwei Hammern gibt es keine Wartezeit, und du kannst 5 besitzen.
+- **Extrem selten.** Das Skylab behält seine Level über den Wipe hinweg, daher ist ein Hammer die Zeit eines Schritts wert, auf dem Kern bis zu 6 Tage. Zwischen zwei Hammern gibt es keine Wartezeit, und wie viele du besitzen kannst, ist nicht begrenzt.
 - **Der Engineer** (ein [Workforce Contract](#workforce-contract)) verkürzt Ausbauten um bis zu 1 Stunde; der Hammer nimmt alles, was noch fehlt.
 
 ### Schematics
 
-Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchstens 24 Stunden**, wird die Forschung sofort **abgeschlossen**; fehlt mehr, verliert sie 24 Stunden und läuft weiter, und du kannst ein weiteres Schematics darauf anwenden. 167 der 187 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab. Die übrigen 20 dauern länger, bei den meisten 48 oder 72 Stunden und bei den Rocket Launchern III, IV und V 96, 168 und 240 Stunden, und brauchen 2 bis 10 Schematics.
+Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchstens 24 Stunden**, wird die Forschung sofort **abgeschlossen**; fehlt mehr, verliert sie 24 Stunden und läuft weiter, und du kannst ein weiteres Schematics darauf anwenden. 187 der 209 Technologien des [Forschungszentrums](/wiki/03-Mechanics/Research.md) dauern höchstens 24 Stunden, ein Schematics schließt sie also von Anfang an ab. Die übrigen 22 dauern länger, bei den meisten 48 oder 72 Stunden und bei den Rocket Launchern III, IV und V 96, 168 und 240 Stunden, und brauchen 2 bis 10 Schematics.
 
 - **Stunden der Technologie, nicht der Uhr.** Die 24 Stunden sind die eigene Forschungszeit der Technologie, die auf ihrer Karte steht. Der Thulium-Boost lässt eine Forschung schneller laufen, ändert aber nicht, was ein Einsatz abzieht; deckt ein Boost das Ende der Forschung ab, spart ein Einsatz also weniger Wartezeit (bei doppelter Geschwindigkeit entspricht ein Tag Forschung 12 Stunden Wartezeit). Die Bestätigung nennt die Zeit, die der Timer danach zeigt.
 - **Die Forschung läuft weiter wie bisher.** Eine Forschung, die 24 Stunden verliert, behält ihren Platz: Der Boost läuft weiter, die Warteschlange bleibt unberührt, und dahinter startet nichts. Wartet eine Forschung auf Wissenschaft, wartet sie weiter: Schematics geben Zeit, keinen Treibstoff.
@@ -64,12 +64,12 @@ Nimmt **24 Stunden von der Forschung ab, die gerade läuft**. Fehlen **höchsten
 
 ### Tinkerer's Badge {#tinkerers-badge}
 
-Hebt **ein Ausrüstungsstück um eine Schmiede-Stufe** an. Es **gelingt immer** und kostet **keine Credits, kein Thulium und keine Materialien**. Es ist das Aufwerten der [Schmiede](/wiki/06-Items/Forge.md), nur ohne Würfel und ohne Preis.
+Hebt **ein Ausrüstungsstück um eine Schmiede-Stufe** an. Es **gelingt immer** und kostet **keine Credits, kein Thulium und keine Materialien**. Es ist das Aufwerten der [Schmiede](/wiki/06-Items/Forge.md), nur ohne Preis.
 
-- **Ab Verdorben.** Das Stück muss schon **Verdorben oder besser** sein (Stufe 2 und höher von Standard, Verdorben, Göttlich, Berstend und Ewig). Ein Standard-Stück wird abgelehnt, weil der erste Schritt der Schmiede ohnehin immer gelingt.
-- **Ein Schritt.** Ein Badge macht aus einem verdorbenen Stück ein göttliches, aus einem göttlichen ein berstendes, aus einem berstenden ein ewiges.
-- **Die Boni werden wie in der Schmiede gewürfelt.** Dieselben Bereiche und dieselben Chancen, einen neuen Platz zu füllen, ein Badge-Stück ist also wie ein Schmiede-Stück.
-- **Die übrigen Regeln der Schmiede gelten.** Ein einzelnes Stück, das Boni tragen kann; nicht im Transport-Cache; nicht schon Ewig. Ein Stück auf einem Schiff wirkt sofort mit seiner neuen Stufe, und es behält sein Handelbar-Zeichen.
+- **Ab Standard.** Das Stück darf auf jeder Stufe unterhalb von Aufgestiegen stehen: Schon der erste Schritt, von Standard auf Erwacht, nimmt ein Badge.
+- **Ein Schritt.** Ein Badge macht aus einem Standard-Stück ein erwachtes, aus einem erwachten ein resonantes, aus einem resonanten ein strahlendes, aus einem strahlenden ein aufgestiegenes.
+- **Die Boni werden wie in der Schmiede gewürfelt.** Jeder Bonus, den das Stück trägt, wird im Bereich der neuen Stufe neu gewürfelt und der bessere Wert bleibt, dazu wird ein Sockel geweckt: Ein Badge-Stück ist also wie ein Schmiede-Stück.
+- **Die übrigen Regeln der Schmiede gelten.** Ein einzelnes Stück, das Boni tragen kann; nicht im Transport-Cache; nicht schon Aufgestiegen. Ein Stück auf einem Schiff wirkt sofort mit seiner neuen Stufe, und es behält sein Handelbar-Zeichen.
 - Du findest es als zweiten Knopf neben **Aufwerten** in der Schmiede, sichtbar, wenn du ein Badge besitzt und das gewählte Stück infrage kommt.
 
 ### Forger's Seal {#forgers-seal}
@@ -84,12 +84,12 @@ Hebt **ein Ausrüstungsstück um eine Schmiede-Stufe** an. Es **gelingt immer** 
 
 ### Workforce Contract
 
-Heuert **einen von drei Skylab-Arbeitern für 1 Stunde** an. Den Arbeiter wählst du, wenn du den Vertrag verwendest. **Immer nur ein Vertrag:** Ein zweiter wird abgelehnt, solange einer läuft, und er wird nicht verbraucht. Ein Arbeiter, der noch nichts zu tun hat (kein Produzent, keine Erzbucht, kein Modul gebaut), wird ebenfalls abgelehnt, und der Vertrag bleibt bei dir.
+Heuert **einen von drei Skylab-Arbeitern für 1 Stunde** an. Den Arbeiter wählst du, wenn du den Vertrag verwendest, und dazu **wie viele Verträge du einsetzt**: Gib eine Zahl ein oder drücke **Alle**. Mehrere Verträge ergeben **einen Zeitraum** von so vielen Stunden für genau diesen einen Arbeiter (12 Verträge sind 12 Stunden des Foreman), und die Tabelle unten gilt für jede Stunde davon. **Immer nur ein Zeitraum:** Eine zweite Verwendung wird abgelehnt, solange einer läuft, sie verlängert ihn nicht, und es wird nichts verbraucht. Ein Arbeiter, der noch nichts zu tun hat (kein Produzent, keine Erzbucht, kein Modul gebaut), wird ebenfalls abgelehnt, und die Verträge bleiben bei dir.
 
 | Arbeiter | Für 1 Stunde |
 | :--- | :--- |
 | **Foreman** | Jeder Produzent produziert doppelt so viel: die Credit-Farm, die Thulium-Farm, die Velkonite- und Orvium-Kollektoren, der Munitionsdrucker und die Raketenfabrik. Es zählt wie beim Stone: nur solange ein Modul produziert, und ein voller Speicher verschwendet es. Die Schmiede und die Erzbucht sind in diesem Sinn keine Produzenten |
-| **Engineer** | Skylab-Ausbauten laufen mit doppelter Geschwindigkeit: Jeder laufende Ausbau endet früher, um höchstens 1 Stunde und nie um mehr als die Hälfte der Restzeit; ein Ausbau, den du innerhalb der Stunde startest, wird um höchstens den Rest der Stunde verkürzt und nie um mehr als die Hälfte |
+| **Engineer** | Skylab-Ausbauten laufen mit doppelter Geschwindigkeit: Jeder laufende Ausbau endet früher, um höchstens 1 Stunde je eingesetztem Vertrag und nie um mehr als die Hälfte der Restzeit; ein Ausbau, den du innerhalb des Zeitraums startest, wird um höchstens den Rest des Zeitraums verkürzt und nie um mehr als die Hälfte |
 | **Hauler** | Die Erzbucht hat keine Kontingentgrenze: Sie verlädt so viel, wie deine Fracht und der Platz im Ressourcenlager zulassen. Das gespeicherte Kontingent bleibt danach unberührt |
 
 Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-Mechanics/Skylab.md#ore-bay) bleibt: Sie muss gebaut, eingeschaltet, nicht im Ausbau und mit Energie versorgt sein, und dein Schiff muss gelandet sein.
@@ -99,7 +99,7 @@ Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-
 - **Ein Zähler, kein Gegenstand.** Das Inventar im Hangar ist der einzige Ort, der sie auflistet, als Kacheln unter den Verbrauchsgütern; von einer Sorte, die du nicht besitzt, gibt es keine Kachel. Eine Kachel ist kein Gegenstand, daher lässt sie sich nicht ziehen, auswählen, löschen oder verkaufen. Sie haben kein Gewicht, keinen Hotbar-Platz und keinen Platz in der Fracht oder im Transport-Cache; sie fallen nie, wenn dein Schiff zerstört wird.
 - **Über den Wipe hinaus.** Deine Spezialgegenstände und ein laufender Philosopher's Stone oder Vertrag bleiben erhalten, wie das Skylab, die Forschung und dein Look.
 - **Nie gehandelt.** Nicht in der [Auktion](/wiki/03-Mechanics/Auction.md), nicht an einen anderen Piloten, nicht gegen Credits.
-- **Nur der Hammer kann dein Tempo verschieben**, und du kannst nur 5 davon besitzen. Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, 24 Stunden einer Forschung.
+- **Nur der Hammer kann dein Tempo verschieben.** Die anderen fünf sind absichtlich klein: 10 Stunden zweier Farmen, 1 Stunde eines Arbeiters, eine Stufe, 30 Minuten einer Warteschlange, 24 Stunden einer Forschung.
 - **Eine Verwendung, eine Bestätigung, ein Klang.** Jede Verwendung spielt ihren eigenen leisen Ton.
 
 ## Häufige Fehler {#common-mistakes}
@@ -107,7 +107,7 @@ Der Hauler hebt nur das Kontingent auf. Alles andere an der [Erzbucht](/wiki/03-
 - **Der Hammer braucht einen laufenden Ausbau.** Starte zuerst den Ausbau. Ein Modul, dessen Zeitgeber schon abgelaufen ist, hat nichts mehr zu beenden.
 - **Eine lange Forschung braucht mehrere Schematics.** Eines nimmt 24 Stunden ab, nicht mehr: Eine Technologie von 240 Stunden braucht zehn. Das Fenster sagt dir vor der Bestätigung, wie viel übrig bleibt.
 - **Der Stone dehnt den Speicher nicht.** Hole ab, bevor eine Farm voll ist, sonst geht der Bonus verloren.
-- **Das Badge ist für Verdorben und höher.** Der erste Schritt der Schmiede braucht kein Badge.
+- **Ein aufgestiegenes Stück nimmt kein Badge.** Es steht schon auf der höchsten Stufe: Es gibt nichts mehr anzuheben.
 - **Ein Vertrag braucht Arbeit.** Baue zuerst einen Produzenten, eine Erzbucht oder ein Modul, dann heuere den Arbeiter an.
 - **Prüfe das Fenster.** Es nennt den Gegenstand und was er verbraucht; die Verwendung ist endgültig.
 

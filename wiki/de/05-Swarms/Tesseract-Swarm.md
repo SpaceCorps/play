@@ -80,6 +80,7 @@ Basis: Crystalys mit 625 % der Hülle; ohne Waffe, Schild und Tempo sind eigene
 | Power Core | 66 % | 4–7 |
 | Ancient Control Unit | 100 % | 1–4 |
 | Dark Matter | 100 % | 10–20, höchstens 5 je Pilot |
+| Heartshard | 5 % | 1 |
 
 ### Facet
 

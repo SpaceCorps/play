@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 440dd341e5b80c44 -->
+<!-- wiki-i18n source: 52ee2498afd5ee6c -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,6 +32,7 @@ Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/
 - **Cataclysite**: 100% esély (min. 2, max. 2)
 - **Reinforced Hull Plate**: 30% esély (min. 1, max. 1)
 - **Nyxite**: 40% esély (min. 1, max. 2)
+- **Echo Shard**: 2% esély (min. 1, max. 1)
 
 ## Háttértörténet {#lore}
 

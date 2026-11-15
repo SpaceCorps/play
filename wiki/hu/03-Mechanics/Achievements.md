@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd9c581d9c3cc64d -->
+<!-- wiki-i18n source: 56ff9739379ad0a6 -->
 <!-- wiki-i18n title: Eredmények -->
 # Eredmények {#achievements}
 
@@ -77,7 +77,7 @@ A 45 nem rejtett eredmény csoportonként. Ahol egy cél valamit számol, ott a 
 | Állomásépítő | Építs 5 különböző Skylab-modult. | Gyakori |
 | Teljes felszereltség | Építsd meg mind a 16 Skylab-modult. | Epikus |
 | Tudós | Fejezd be 50 technológia kutatását. | Szokatlan |
-| Levéltáros | Fejezd be mind a 187 technológia kutatását. | Legendás |
+| Levéltáros | Fejezd be mind a 209 technológia kutatását. | Legendás |
 
 ### Flotta {#group-fleet}
 
@@ -138,7 +138,7 @@ A **Steames változatban** összekötheted a játékfiókodat a Steam-fiókoddal
 - **Egy az egyhez.** Egy játékfiókhoz legfeljebb egy Steam-fiók tartozik, és egy Steam-fiók egyetlen játékfiókhoz köthető. Ha egy Steam-fiók már egy másik pilótához van kötve, a játék ezt jelzi, és semmit sem köt össze. Egy admin kézzel áthelyezhet egy összekötést, ha két fiók ugyanazt a Steam-fiókot igényli.
 - **A szerver** a Steam-azonosítódat, a Steam-fiókod nyilvános számát és az összekötés időpontját **őrzi meg**. A Steamből mást nem tárol: sem a Steam-nevedet, sem a barátaidat, sem a játékaidat, sem a jelszavadat. Az azonosítót csak te és a játék adminisztrátorai láthatják, más pilóta soha.
 - **Szétkötés** ugyanazon a kártyán, a jelszavaddal: a tárolt Steam-azonosító rögtön törlődik. Szétkötés után csak 24 óra múlva köthetsz össze másik Steam-fiókot; ugyanazt újra azonnal összeköthetsz. Erre a 24 órára a szerver rövid feljegyzést tart meg a szétkötésről (az időpontot és az azonosítóból képzett kuszált kódot, csak annak eldöntésére, hogy ugyanazt a fiókot kötöd-e újra össze), aztán törli.
-- **Az eredmények a megszerzésük után azonnal elérnek a Steamre**, amíg a futó Steam-fiók az, amelyet összekötöttél: a Steam a játékéhez képest néhány másodperccel később mutatja a saját felugró ablakát. A játék minden bejelentkezéskor is megnézi, mi hiányzik a Steamnek, és beállítja, így a közvetlen letöltésben vagy zárt Steam mellett szerzett eredmény ekkor érkezik meg, a sikertelen kísérletet pedig a játék magától megismétli. Amíg másik szerveren (regionális csomóponton) repülsz, ott semmit sem szerzel és semmi sem megy el; az állomásra visszatérve a játék pótolja. Offline semmi sem vész el: a játék megőrzi a bejegyzést, és a Steam később értesül róla.
+- **Az eredmények a megszerzésük után azonnal elérnek a Steamre**, amíg a futó Steam-fiók az, amelyet összekötöttél: a Steam a játékéhez képest néhány másodperccel később mutatja a saját felugró ablakát. A játék minden bejelentkezéskor is megnézi, mi hiányzik a Steamnek, és beállítja, így a közvetlen letöltésben vagy zárt Steam mellett szerzett eredmény ekkor érkezik meg, a sikertelen kísérletet pedig a játék magától megismétli. Amíg másik szerveren (regionális csomóponton) repülsz, ott semmi sem oldódik fel, és semmi sem megy a Steamnek; az ott elért ölések beleszámítanak az ölésekkel kapcsolatos eredményekbe, amikor a saját szerver elmenti a repülést (a csoportoddal megosztott ölés ott csak annak a pilótának számít, aki leadta, a csoporttársainak nem, ellentétben a saját szerverrel), az állomásra visszatérve pedig a játék pótolja a többit. Offline semmi sem vész el: a játék megőrzi a bejegyzést, és a Steam később értesül róla. Hogy mi más működik regionális szerveren, azt a [Szerverek](/wiki/03-Mechanics/Servers.md) írja le.
 - Egy eredmény kreditjei és címei a játékszerver saját nyilvántartásából jönnek, soha nem a Steamből.
 
 ## Mióta számolunk {#when-counting-began}

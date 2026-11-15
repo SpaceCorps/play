@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Navigation spatiale -->
 # Navigation sur la carte spatiale {#spacemap-travel}
 
@@ -29,10 +29,10 @@ L’univers comprend trois grands secteurs de corporation (Mars, Terra, Galactic
 
 - **x-1 (base d’origine)** : la carte de départ de chaque corporation (M-1, T-1, G-1). La zone la plus sûre.
 - **x-2 -> x-3** : des zones d’expansion aux aliens de plus en plus coriaces.
-- **x-4 (frontière)** : la porte d’entrée du secteur PvP et du `x-3` d’une autre corporation (l’Anneau, plus bas).
+- **x-4 (frontière)** : la porte d’entrée du secteur PvP et du `x-3` d’une autre corporation (l’Anneau, plus bas). Une station Mission Control se trouve en son milieu.
 - **DS-x (secteurs dangereux)** : la zone PvP centrale qui relie toutes les corporations : DS-1 à DS-4. Il contient un pulsar dans chacun de DS-1 à DS-3 dès le premier jour de la saison et, dès le jour 11, une excavatrice géante à côté de chacun et le Dormant Swamp ([Secteurs dangereux](/wiki/01-General/Danger-Sectors.md)). Dans Beta et Gamma, les excavatrices géantes se dressent dès le premier jour de la saison.
 
-Seules les bases d’origine ont une station. C’est là que s’ouvre **Mission Control**, et sa zone sûre s’étend sur 1 600 unités autour d’elle. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez votre base en vol pour vos missions.
+Seules les bases d’origine (`x-1`) et les frontières (`x-4`) ont une station. C’est là que s’ouvre **Mission Control** et que vous acceptez et réclamez des missions, à moins de 1 600 unités d’elle. La station d’une base d’origine a une zone sûre de ce rayon. Celle d’une frontière, au milieu du secteur, n’en a **aucune** : ce n’est qu’un point de Mission Control, et les pilotes qui s’y trouvent peuvent toujours être attaqués. C’est un petit poste, un seul îlot de la ville de la base d’origine : une plateforme hexagonale avec la tour de contrôle, les dômes radar, une aire d’atterrissage et un mât de communication. Les secteurs dangereux n’ont pas de station, `DS-1` compris : les seules zones sûres y sont les anneaux de 660 unités autour des portes de saut, et Mission Control ne peut pas s’y ouvrir ; regagnez une station en vol pour vos missions.
 
 Chaque [monde](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) possède sa propre copie de toute cette carte, et c’est lui qui décide où les pilotes peuvent s’affronter : dans Alpha seulement en `x-4` et `DS-x`, dans Beta partout sauf en `x-1`, dans Gamma partout. La carte de la galaxie colore les secteurs selon la règle de votre monde.
 
@@ -52,7 +52,7 @@ Les déplacements sur la carte spatiale passent par les **portes de saut** (les 
 
 1. **Trouvez un portail** : les portails se trouvent généralement dans les coins ou sur les bords d’une carte.
 2. **Navigation** : approchez votre vaisseau de la structure du portail.
-3. **Activation** : appuyez sur **'J'** à moins de 500 unités du portail pour lancer le saut.
+3. **Activation** : appuyez sur **'J'** à moins de 500 unités du portail pour lancer le saut, ou cliquez sur l’**icône de saut** qui flotte au-dessus du portail. À portée, l’icône lance le saut comme la touche ; hors de portée, elle est atténuée, et un clic fait voler votre vaisseau jusqu’au portail et lance le saut à votre arrivée (tout autre ordre de votre part l’annule).
 4. **Patientez** : le saut **dure 3 secondes**. Pendant ce temps, une barre au-dessus de votre barre rapide (« Saut en cours… ») se remplit, et le portail brille de plus en plus fort à mesure qu’il se charge ; les autres pilotes voient la même charge sur le portail quand vous sautez. Votre vaisseau continue de voler, mais vous devez rester à moins de 500 unités du portail jusqu’à la fin du délai : sortez de la portée et le saut est annulé (« Portail trop éloigné pour sauter. », et la barre devient rouge). Appuyer de nouveau sur **'J'** pendant le saut ne fait rien, sinon vous le signaler.
 5. **Destination** : vous arrivez au portail correspondant de la carte de destination.
 

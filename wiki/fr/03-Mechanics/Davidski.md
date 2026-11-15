@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski est un marchand qui vole. C’est un vaisseau PNJ pacifique qui sort un
 
 ## Son vaisseau {#his-ship}
 
-Un **Ironclad TITANIC** peint en or, à la taille propre du TITANIC, équipé du meilleur de chaque sorte de pièce, forgé au niveau Eternal :
+Un **Ironclad TITANIC** peint en or, à la taille propre du TITANIC, équipé du meilleur de chaque sorte de pièce, forgé au niveau Ascendant :
 
 | Quoi | Objet |
 |---|---|

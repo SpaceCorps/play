@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
@@ -20,11 +20,11 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 | **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon | 144.000 | 350 | 14 |
 | **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 600.000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 500.000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 15 |
-| **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 14 |
-| **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 Laser-Slot, +1 Support-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff | 256.000 | 210 | 13 |
-| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser | 256.000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20 % Basis-Hülle, +20 Basis-Tempo, +5 % Schildabsorption, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 Laser-Slot, +1 Support-Slot, +25 % Schildkapazität, +10 % Schildabsorption, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 Laser-Slots, -20 % Schildkapazität, +10 % Schilddurchdringung der Laser | 256.000 | 210 | 15 |
 
 ## Ein Design bekommen {#getting-a-design}
 
@@ -63,7 +63,7 @@ Das Schiff, das umgebaut wird, ist das, das du von dieser Art besitzt (eine Para
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Alle vier** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Zusammen verlangen sie 510 Dark Matter zusätzlich zu den 789, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.384 für jede Technologie des Spiels.
+Zusammen verlangen sie 510 Dark Matter zusätzlich zu den 979, die alle anderen Technologien verlangen, und die Modul-Level des Skylab verlangen 115 mehr: 1.604 für jede Technologie des Spiels.
 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 

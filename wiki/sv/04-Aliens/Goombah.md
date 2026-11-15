@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Vad varje föremål används till, och var du annars hittar det: [Resurser](/wik
 - **Quorvium**: 100 % chans (Min: 2, Max: 4)
 - **Reinforced Hull Plate**: 60 % chans (Min: 1, Max: 1)
 - **Power Core**: 25 % chans (Min: 1, Max: 1)
+- **Echo Shard**: 5 % chans (Min: 1, Max: 1)
 
 ## Bakgrund {#lore}
 

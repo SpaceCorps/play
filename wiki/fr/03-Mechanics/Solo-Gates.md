@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Portes solo -->
 # Portes solo {#solo-gates}
 
@@ -50,7 +50,7 @@ Les pièces du Chrono-Gate retombent à zéro à la réinitialisation, et vous l
 
 ### Un tirage sans pièce {#a-spin-without-a-part}
 
-La plupart des tirages ne trouvent aucune pièce. Chacun d’eux paie un lot, tiré selon les chances ci-dessous : des munitions laser du deuxième multiplicateur ou mieux, un lot de roquettes du deuxième ou du troisième niveau et, de temps en temps, un [objet spécial](/wiki/06-Items/Special-Items.md) ou un [conteneur](/wiki/06-Items/Containers.md). Un lot qui ne peut pas être donné (vous avez déjà le maximum de cet objet spécial, par exemple) devient un lot de munitions ou de roquettes par le même tirage, si bien qu’un tirage ne paie jamais moins que son tableau. Le lot vaut nettement moins que ce que coûte le tirage : les portes sont un puits à Thulium.
+La plupart des tirages ne trouvent aucune pièce. Chacun d’eux paie un lot, tiré selon les chances ci-dessous : des munitions laser du deuxième multiplicateur ou mieux, un lot de roquettes du deuxième ou du troisième niveau et, de temps en temps, un [objet spécial](/wiki/06-Items/Special-Items.md) ou un [conteneur](/wiki/06-Items/Containers.md). Un lot qui ne peut pas être donné (les objets spéciaux ou les conteneurs sont désactivés, par exemple) devient un lot de munitions ou de roquettes par le même tirage, si bien qu’un tirage ne paie jamais moins que son tableau. Le lot vaut nettement moins que ce que coûte le tirage : les portes sont un puits à Thulium.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Vous **construisez** une porte sur la page des Portes galactiques et vous y **sa
 
 - les pièces de la porte : elles sont prises **une seule fois, à la construction**, et une construction refusée ne prend rien ;
 - aucune autre partie solo ouverte : vous avez une partie à la fois, et une partie que vous avez quittée est reprise par son portail ou abandonnée avant que vous construisiez une autre porte ;
-- le serveur principal (les serveurs régionaux n’ont pas de portes).
+- le serveur principal (une porte ne se construit que sur le serveur principal : sur un serveur régional, vous retournez d’abord à la base).
 
-La porte construite se dresse dans votre **secteur d’origine** (`M-1`, `T-1` ou `G-1`, selon votre corporation) sous la forme d’un portail qui porte son nom, et la page des Portes galactiques dit où elle se trouve. **Décollez, volez jusqu’au portail et sautez** comme par n’importe quel portail. Une faille doit être libre dans votre monde quand vous entrez : chaque monde en a un certain nombre, et quand toutes sont occupées, vous attendez.
+La porte construite se dresse dans votre **secteur d’origine** (`M-1`, `T-1` ou `G-1`, selon votre corporation) sous la forme d’un portail qui porte son nom, et la page des Portes galactiques dit où elle se trouve. **Décollez, volez jusqu’au portail et sautez** comme par n’importe quel portail. Une faille doit être libre dans votre monde quand vous entrez : chaque monde en a un certain nombre, et quand toutes sont occupées, vous attendez. Vous ne voyez que **votre propre** porte : les portails des portes d’autres pilotes dans le même secteur ne vous sont pas montrés.
 
-**Sur les serveurs régionaux (Singapore, US East).** La porte elle-même reste sur le serveur principal : sur un serveur régional, rien n’est construit, joué ni payé. Une porte construite n’y est pourtant pas oubliée : on vous le dit à votre arrivée, et le portail de votre porte se dresse aussi dans votre secteur d’origine. Sautez par ce portail et vous êtes ramené au serveur principal, où vous décollez vers votre porte comme ci-dessus.
+**Sur les serveurs régionaux (Singapore, US East).** Une porte construite s’y joue aussi. Son portail se dresse dans votre secteur d’origine sur un serveur régional comme sur le serveur principal, et on vous le dit à votre arrivée. **Sautez par ce portail et vous entrez dans une arène de ce serveur**, avec sa latence plutôt que celle du serveur principal. Un serveur régional n’a que **deux arènes par monde**, contre bien plus sur le serveur principal : quand les deux sont occupées, vous attendez, comme vous attendez une faille libre sur le serveur principal. Le serveur principal reste le seul endroit qui garde votre partie, vos pièces et votre paiement : le paiement arrive dans votre portefeuille quand le serveur principal a compté la partie, quelques secondes après sa fin, et le **portefeuille de votre fenêtre de vol se met à jour quand vous vous amarrez**. Vous n’entrez dans votre partie suivante qu’une fois la dernière comptée. Une partie que vous quittez dans l’arène se reprend par le portail ; pour l’abandonner, vous le faites dans l’arène ou à la station. Si l’arène d’un serveur régional est désactivée, son portail vous ramène au serveur principal, où vous décollez vers votre porte comme ci-dessus. Ce qui fonctionne d’autre sur un serveur régional est décrit dans [Serveurs](/wiki/03-Mechanics/Servers.md).
 
 Vous atterrissez seul au milieu d’une arène vide. Personne ne peut vous y attaquer, et la Jump CPU et la Base CPU ne fonctionnent pas.
 
@@ -161,7 +161,7 @@ Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une
 
 ## Ce que paie une victoire {#what-a-clear-pays}
 
-Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le boss meurt : les Credits, le Thulium, l’expérience et l’honneur, le minerai, les plaques et les Power Cores, et les munitions. L’expérience compte pour vos points PvE, comme celle d’un donjon.
+Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le boss meurt : les Credits, le Thulium, l’expérience et l’honneur, le minerai, les plaques et les Power Cores, et les munitions. L’expérience et l’honneur comptent pour vos points PvE, comme ceux d’un donjon.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le b
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift** : Ship Fragment ×300, Nyxite ×300, Daraxium ×400 ; munitions : Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
-- **Beta Breach** : Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100 ; munitions : Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
-- **Gamma Foundry** : Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15 ; munitions : Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
-- **Delta Siege** : Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3 ; munitions : Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
-- **Omega Vault** : Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10 ; munitions : Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Alpha Rift** : Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6 ; munitions : Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
+- **Beta Breach** : Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13 ; munitions : Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
+- **Gamma Foundry** : Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27 ; munitions : Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
+- **Delta Siege** : Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44 ; munitions : Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
+- **Omega Vault** : Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54 ; munitions : Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Heartshards** : 1 à la première réussite de chaque porte d’une saison, et 5 % de chances d’en obtenir 1 de plus à chaque réussite.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le b
 
 ### Les aliens {#the-aliens}
 
-Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha, quel que soit le monde où vous volez : aucun multiplicateur de monde, aucun booster et aucun bonus Premium ne les change. Une vague paie ses aliens **une fois** par partie, autant de fois que vous partiez et reveniez. Le paiement arrive à la fin de chaque tronçon de la partie : quand vous partez, mourez, n’avez plus de vies, abandonnez ou gagnez. Les éliminations d’un tronçon ne restent impayées que lors de la réinitialisation et lors d’un redémarrage du serveur pendant que vous êtes dedans (votre partie reste ouverte, mais les éliminations de ce tronçon sont perdues). Les éliminations d’une porte comptent pour les [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) qui ne nomment aucun secteur (comme les grandes chasses de la ligne des Défis), au moment où elles ont lieu (une vague compte pour elles **une fois** par partie, comme elle ne paie qu’une fois), et pour rien d’autre : ni pour les statistiques d’éliminations, ni pour les compteurs des succès, ni pour le fil des éliminations, ni pour l’expérience de vos drones et P.E.T.s. L’expérience qu’elles paient compte en revanche pour vos points PvE, comme celle d’une victoire. Le butin des aliens arrive avec le paiement, directement dans votre inventaire.
+Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha, quel que soit le monde où vous volez : aucun multiplicateur de monde, aucun booster et aucun bonus Premium ne les change. Une vague paie ses aliens **une fois** par partie, autant de fois que vous partiez et reveniez. Le paiement arrive à la fin de chaque tronçon de la partie : quand vous partez, mourez, n’avez plus de vies, abandonnez ou gagnez. Les éliminations d’un tronçon ne restent impayées que lors de la réinitialisation et lors d’un redémarrage du serveur pendant que vous êtes dedans (votre partie reste ouverte, mais les éliminations de ce tronçon sont perdues). Les éliminations d’une porte comptent pour les [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) qui ne nomment aucun secteur (comme les grandes chasses de la ligne des Défis), au moment où elles ont lieu (une vague compte pour elles **une fois** par partie, comme elle ne paie qu’une fois), et pour rien d’autre : ni pour les statistiques d’éliminations, ni pour les compteurs des succès, ni pour le fil des éliminations, ni pour l’expérience de vos drones et P.E.T.s. L’expérience et l’honneur qu’elles paient comptent en revanche pour vos points PvE, comme ceux d’une victoire. Le butin des aliens arrive avec le paiement, directement dans votre inventaire.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -12,7 +12,7 @@
 ## På en minut {#in-one-minute}
 
 - **Sex sorter.** Magic Hammer, Schematics, Philosopher's Stone, Tinkerer's Badge, Forger's Seal och Workforce Contract. Var och en beskrivs längre ner med sina siffror.
-- **Var.** Inventariet i Hangaren visar en ruta för varje slag du har, bland förbrukningsvarorna, med antalet. Håll muspekaren över en ruta för att läsa vad föremålet gör och klicka på den för att använda det (med Workforce Contract väljer du arbetare först). Magic Hammer och Tinkerer's Badge verkar på något du väljer, så ett klick gör ingenting och deras ruta säger var de används: i Skylab och i Smedjan. Sidan där föremålet verkar visar också en knapp när du har ett: modulen med en pågående uppgradering i Skylab, den pågående forskningen, Smedjans panel för att höja nivå och produktionskön.
+- **Var.** Inventariet i Hangaren visar en ruta för varje slag du har, bland förbrukningsvarorna, med antalet. Håll muspekaren över en ruta för att läsa vad föremålet gör och klicka på den för att använda det (med Workforce Contract väljer du först arbetare och hur många kontrakt som ska användas). Magic Hammer och Tinkerer's Badge verkar på något du väljer, så ett klick gör ingenting och deras ruta säger var de används: i Skylab och i Smedjan. Sidan där föremålet verkar visar också en knapp när du har ett: modulen med en pågående uppgradering i Skylab, den pågående forskningen, Smedjans panel för att höja nivå och produktionskön.
 - **Det frågar först.** Varje användning öppnar ett blad som säger exakt vad som kommer att hända och vad det förbrukar. Användningen är slutgiltig: den kan inte ångras. Om en användning nekas förbrukas ingenting.
 - **De stannar kvar.** Dina specialföremål, och en pågående Philosopher's Stone eller ett pågående kontrakt, finns kvar efter [wipen](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Var som helst.** Du kan använda dem under flygning: inget av dem kräver att ditt skepp är landat.
@@ -20,16 +20,16 @@
 
 ## De sex i korthet {#the-six-at-a-glance}
 
-| Föremål | Sällsynthet | Så många kan du ha | Vad det gör |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Legendarisk | 5 | Slutför en Skylab-uppgradering direkt |
-| **Schematics** | Sällsynt | 20 | Tar bort 24 timmar från den pågående forskningen; slutför den om 24 timmar eller mindre återstår |
-| **Philosopher's Stone** | Episk | 10 | Din Kreditfarm och din Thuliumfarm producerar dubbelt så mycket i 10 timmar |
-| **Tinkerer's Badge** | Episk | 10 | Höjer en utrustningsdel en nivå i Smedjan, från Befläckad och uppåt |
-| **Forger's Seal** | Ovanlig | 99 | Hoppar över upp till 30 minuter av produktionskön |
-| **Workforce Contract** | Vanlig | 99 | Anlitar en Foreman, en Engineer eller en Hauler i 1 timme |
+| Föremål | Sällsynthet | Vad det gör |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Legendarisk | Slutför en Skylab-uppgradering direkt |
+| **Schematics** | Sällsynt | Tar bort 24 timmar från den pågående forskningen; slutför den om 24 timmar eller mindre återstår |
+| **Philosopher's Stone** | Episk | Din Kreditfarm och din Thuliumfarm producerar dubbelt så mycket i 10 timmar |
+| **Tinkerer's Badge** | Episk | Höjer en utrustningsdel en nivå i Smedjan, från Standard och uppåt |
+| **Forger's Seal** | Ovanlig | Hoppar över upp till 30 minuter av produktionskön |
+| **Workforce Contract** | Vanlig | Anlitar en Foreman, en Engineer eller en Hauler i 1 timme |
 
-Sällsyntheten följer spelets vanliga skala, och **Så många kan du ha** är det mesta av en sort som ditt konto behåller: en gåva som skulle gå över det nekas helt, inte kortas.
+Sällsyntheten följer spelets vanliga skala. Hur många av en sort ditt konto behåller är **inte begränsat**: en gåva nekas aldrig för att du redan har många.
 
 ## De sex {#the-six}
 
@@ -39,12 +39,12 @@ Slutför **en Skylab-uppgradering direkt**: välj modulen som uppgraderas så av
 
 - **Priset förblir betalt.** Vad uppgraderingen kostade drogs när du startade den. Hammer återbetalar inget av det och ber inte om något mer.
 - **Bara en pågående uppgradering.** En modul som inte uppgraderas, eller vars uppgradering just tagit slut av sig själv, nekas («Inget att avsluta: den modulen uppgraderas inte.») och Hammer stannar hos dig.
-- **Extremt sällsynt.** Skylab behåller sina nivåer genom wipen, så en Hammer är värd tiden för ett steg, upp till 6 dagar på Kärnan. Det finns ingen väntetid mellan två Hammer, och du kan ha 5.
+- **Extremt sällsynt.** Skylab behåller sina nivåer genom wipen, så en Hammer är värd tiden för ett steg, upp till 6 dagar på Kärnan. Det finns ingen väntetid mellan två Hammer, och det finns ingen gräns för hur många du kan ha.
 - **Engineer** (ett [Workforce Contract](#workforce-contract)) kortar uppgraderingar med upp till 1 timme; Hammer tar allt som återstår.
 
 ### Schematics
 
-Tar bort **24 timmar från forskningen som pågår just nu**. Om **24 timmar eller mindre** återstår, **slutförs** forskningen direkt; om mer återstår förlorar den 24 timmar och fortsätter, och du kan använda ett till Schematics på den. 167 av de 187 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) tar 24 timmar eller mindre, så ett Schematics slutför dem från början. De andra 20 tar längre tid, de flesta 48 eller 72 timmar och Rocket Launcher III, IV och V 96, 168 och 240 timmar, och kräver 2 till 10 Schematics.
+Tar bort **24 timmar från forskningen som pågår just nu**. Om **24 timmar eller mindre** återstår, **slutförs** forskningen direkt; om mer återstår förlorar den 24 timmar och fortsätter, och du kan använda ett till Schematics på den. 187 av de 209 teknikerna i [Forskningscentrumet](/wiki/03-Mechanics/Research.md) tar 24 timmar eller mindre, så ett Schematics slutför dem från början. De andra 22 tar längre tid, de flesta 48 eller 72 timmar och Rocket Launcher III, IV och V 96, 168 och 240 timmar, och kräver 2 till 10 Schematics.
 
 - **Teknikens timmar, inte klockans.** De 24 timmarna är teknikens egen forskningstid, den som står på dess kort. Thulium-boosten får en forskning att gå snabbare men ändrar inte vad en användning tar bort; om en boost skulle täcka forskningens slut sparar en användning färre väntetimmar (vid dubbel hastighet är ett dygn av forskning 12 timmars väntan). Bekräftelsen säger vad timern kommer att visa.
 - **Forskningen fortsätter som förut.** En forskning som förlorar 24 timmar behåller sin plats: boosten fortsätter, kön rörs inte och inget startar bakom den. En forskning som väntar på vetenskap väntar fortfarande: Schematics ger tid, inte bränsle.
@@ -64,12 +64,12 @@ I **10 timmar** realtid producerar din **Kreditfarm och Thuliumfarm dubbelt så 
 
 ### Tinkerer's Badge {#tinkerers-badge}
 
-Höjer **en utrustningsdel en nivå i Smedjan**. Det **lyckas alltid** och kostar **varken krediter, Thulium eller material**. Det är [Smedjans](/wiki/06-Items/Forge.md) nivåhöjning utan tärningen och utan priset.
+Höjer **en utrustningsdel en nivå i Smedjan**. Det **lyckas alltid** och kostar **varken krediter, Thulium eller material**. Det är [Smedjans](/wiki/06-Items/Forge.md) nivåhöjning utan priset.
 
-- **Från Befläckad och uppåt.** Delen måste redan vara **Befläckad eller bättre** (nivå 2 och uppåt av Standard, Befläckad, Gudomlig, Rämnande och Evig). En Standard-del nekas, eftersom Smedjans första steg alltid lyckas ändå.
-- **Ett steg.** Ett Badge gör en Befläckad del Gudomlig, en Gudomlig del Rämnande, en Rämnande del Evig.
-- **Bonusarna slumpas som i Smedjan.** Samma intervall och samma chanser att fylla en ny plats, så en Badge-del är som en Smedje-del.
-- **Smedjans övriga regler gäller.** En enda del som kan bära bonusar; inte i transportförrådet; inte redan Evig. En del på ett skepp verkar direkt med sin nya nivå och behåller sin Säljbar-etikett.
+- **Från Standard och uppåt.** Delen kan ha vilken nivå som helst under Uppstigen: redan det första steget, från Standard till Vaknad, tar ett Badge.
+- **Ett steg.** Ett Badge gör en Standard-del Vaknad, en Vaknad del Resonant, en Resonant del Strålande, en Strålande del Uppstigen.
+- **Bonusarna slumpas som i Smedjan.** Varje bonus delen bär slumpas om i den nya nivåns intervall och det bättre värdet behålls, och en sockel väcks, så en Badge-del är som en Smedje-del.
+- **Smedjans övriga regler gäller.** En enda del som kan bära bonusar; inte i transportförrådet; inte redan Uppstigen. En del på ett skepp verkar direkt med sin nya nivå och behåller sin Säljbar-etikett.
 - Du hittar det som en andra knapp bredvid **Höj nivå** i Smedjan, synlig när du har ett Badge och den valda delen uppfyller kraven.
 
 ### Forger's Seal {#forgers-seal}
@@ -84,12 +84,12 @@ Hoppar över **upp till 30 minuter** av din **produktionskö**: kön rör sig fr
 
 ### Workforce Contract
 
-Anlitar **en av tre Skylab-arbetare i 1 timme**. Du väljer arbetare när du använder kontraktet. **Ett kontrakt i taget:** ett andra nekas medan ett pågår och förbrukas inte. En arbetare som ännu inte har något att göra (ingen producent, ingen Malmvik, ingen byggd modul) nekas också, och kontraktet stannar hos dig.
+Anlitar **en av tre Skylab-arbetare i 1 timme**. Du väljer arbetare när du använder kontraktet, och även **hur många kontrakt som ska användas**: skriv ett tal eller tryck på **Alla**. Flera kontrakt ger **en period** på lika många timmar för just den arbetaren (12 kontrakt är 12 timmar av Foreman), och tabellen nedan gäller för varje timme av den. **En period i taget:** en andra användning nekas medan en pågår, lägger inte till någon tid och ingenting förbrukas. En arbetare som ännu inte har något att göra (ingen producent, ingen Malmvik, ingen byggd modul) nekas också, och kontrakten stannar hos dig.
 
 | Arbetare | I 1 timme |
 | :--- | :--- |
 | **Foreman** | Varje producent producerar dubbelt så mycket: Kreditfarmen, Thuliumfarmen, Velkonite- och Orvium-samlarna, Ammunitionsskrivaren och Raketfabriken. Det räknas som Stone: bara medan en modul producerar, och ett fullt lager slösar bort det. Smedjan och Malmviken är inte producenter i den meningen |
-| **Engineer** | Skylab-uppgraderingar går dubbelt så snabbt: varje pågående uppgradering blir klar tidigare, med högst 1 timme och aldrig med mer än hälften av vad den hade kvar; en uppgradering du startar inom timmen kortas med högst vad som återstår av timmen, och aldrig med mer än hälften |
+| **Engineer** | Skylab-uppgraderingar går dubbelt så snabbt: varje pågående uppgradering blir klar tidigare, med högst 1 timme per använt kontrakt och aldrig med mer än hälften av vad den hade kvar; en uppgradering du startar inom perioden kortas med högst vad som återstår av perioden, och aldrig med mer än hälften |
 | **Hauler** | Malmviken har ingen kvotgräns: den flyttar så mycket som din last och platsen i Resurslagret tillåter. Kvoten den hade sparad är orörd efteråt |
 
 Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.md#ore-bay) gäller: den måste vara byggd, påslagen, inte under uppgradering och ha energi, och ditt skepp måste vara landat.
@@ -99,7 +99,7 @@ Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.
 - **Ett antal, inte ett föremål.** Inventariet i Hangaren är den enda platsen som listar dem, som rutor bland förbrukningsvarorna; ett slag du inte har något av har ingen ruta. En ruta är inget föremål, så den kan inte dras, markeras, raderas eller säljas. De har ingen vikt, ingen snabbfältsplats och ingen plats i lasten eller transportförrådet; de tappas aldrig när ditt skepp förstörs.
 - **Genom wipen.** Dina specialföremål och en pågående Philosopher's Stone eller ett pågående kontrakt behålls, som Skylab, forskningen och ditt utseende.
 - **Handlas aldrig.** Inte på [Auktionen](/wiki/03-Mechanics/Auction.md), inte till en annan pilot, inte mot krediter.
-- **Bara Hammer kan flytta ditt tempo**, och du kan bara ha 5. De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, 24 timmar av en forskning.
+- **Bara Hammer kan flytta ditt tempo.** De andra fem är små med flit: 10 timmar av två farmar, 1 timme av en arbetare, en nivå, 30 minuter av en kö, 24 timmar av en forskning.
 - **En användning, en bekräftelse, ett ljud.** Varje användning spelar sin egen diskreta signal.
 
 ## Vanliga misstag {#common-mistakes}
@@ -107,7 +107,7 @@ Hauler lyfter bara kvoten. Allt annat med [Malmviken](/wiki/03-Mechanics/Skylab.
 - **Hammer behöver en pågående uppgradering.** Starta uppgraderingen först. En modul vars timer redan gått ut har inget kvar att slutföra.
 - **En lång forskning behöver flera Schematics.** Ett tar bort 24 timmar, inte mer: en teknik på 240 timmar behöver tio. Bladet visar hur mycket som blir kvar innan du bekräftar.
 - **Stone töjer inte lagret.** Hämta innan en farm blir full, annars går bonusen förlorad.
-- **Badge är för Befläckad och uppåt.** Smedjans första steg behöver inget Badge.
+- **En Uppstigen del tar inget Badge.** Den är redan på högsta nivån: det finns inget kvar att höja.
 - **Ett kontrakt behöver arbete att göra.** Bygg först en producent, en Malmvik eller en modul, anlita sedan arbetaren.
 - **Kontrollera bladet.** Det nämner föremålet och vad det förbrukar; användningen är slutgiltig.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f16e7d6d09501326 -->
+<!-- wiki-i18n source: 9c45f1e16ed8f12d -->
 <!-- wiki-i18n title: 拍卖行 -->
 # 拍卖行 {#auction}
 
@@ -34,7 +34,7 @@
 
 只有你**赚来的**物品才能出售。你赚到的一切在[机库](/wiki/03-Mechanics/Inventory.md#marketable-items)里都带有一个小小的**可交易**标记：你在太空中拾取的东西（外星人、虫群、Warden 和黑洞的掉落：[货箱](/wiki/03-Mechanics/Cargo.md)）、任务发放的东西（[任务](/wiki/03-Mechanics/Quests.md#rewards)），以及装配站和锻造炉制作的一切。你在商店**购买**的、在拍品中赢得的、在市场上买到的、从 [Davidski](/wiki/03-Mechanics/Davidski.md) 买到的、通过奖励码、邀请礼包或新手套装获得的、或作为退款拿回的东西都不可交易，也永远不能再次出售，所以没有什么东西是为了转手而买的。Skylab 锻造厂制作的板材同样不可交易；任务发放的 Reinforced Plate 则可以交易。Skylab 弹药打印机和火箭工厂制造的弹药和火箭同样不可交易。任务的重复所发放的物品同样不可交易。
 
-标记是单位数量，不是开关：一叠弹药里可以既有买来的也有赚来的，卡片上会写“可交易（3/5）”。当你用掉一叠中的一部分（射击、制作）时，普通单位先用掉，所以可交易的单位留得最久。在[锻造炉](/wiki/06-Items/Forge.md#merge)里合并两件物品时，只有两件都带标记，标记才会保留，预览会显示这一点；失败的锻造炉步骤会把材料以普通单位退还。
+标记是单位数量，不是开关：一叠弹药里可以既有买来的也有赚来的，卡片上会写“可交易（3/5）”。当你用掉一叠中的一部分（射击、制作）时，普通单位先用掉，所以可交易的单位留得最久。在[锻造炉](/wiki/06-Items/Forge.md#merge)里合并两件物品时，只有两件都带标记，标记才会保留，预览会显示这一点。
 
 机库里的**仅可交易**按钮只显示你能卖的东西，带标记物品的垃圾桶旁的**拍卖槌**会为它打开拍卖行的出售窗口。在装配站里，结果可交易的配方会这样标明，缺少的材料旁有一个链接，会用它的名字打开拍卖行的搜索。
 
@@ -57,7 +57,7 @@
 | **激光弹药** | Standard Battery（每组 100 个）, Siphon Battery（每组 10 个）, Advanced Plasma（每组 10 个）, Siphon Battery II（每组 10 个）, Antimatter Battery I（每组 10 个）, Ultra Core（每组 10 个）, Dark Matter Ammo I（每组 10 个）, Antimatter Battery II, Experimental Fusion Core, Dark Matter Ammo II | 10 |
 | **火箭** | Ember I, Lancet I, Rivet I, Scatter I, Ember II, Lancet II, Rivet II, Scatter II, Ricochet, Ember III, Lancet III, Rivet III, Scatter III, Flares, Marking Rocket, Freeze Rocket, Toxic Rocket, EMP Rocket, Shield Breaker, Support Rocket, Cooldown Rocket | 21 |
 | **消耗品** | EMP Charge, Energetic Wall II | 2 |
-| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Laser Optics II, Cloaking CPU L, Auto-Rocket CPU, Base CPU II, Laser Optics III, Laser Optics IV, Laser Optics V, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
+| **附加装置** | Repair Drone I, Repair Drone II, Repair Drone III, Repair Drone IV, Cloaking CPU S, Base CPU I, Laser Optics I, Cloaking CPU M, Auto-Repair CPU, Cloaking CPU L, Auto-Rocket CPU, Laser Optics II, Base CPU II, Laser Optics III, Laser Optics IV, Rocket Launcher II, Laser Optics V, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V | 20 |
 | **船体装甲** | Hull Plating II, Hull Plating III | 2 |
 | **资源** | Cataclysite（每组 100 个）, Ship Fragment（每组 100 个）, Daraxium（每组 100 个）, Nyxite（每组 100 个）, Quorvium（每组 10 个）, Reinforced Hull Plate（每组 10 个）, Power Core, Velkonite Reinforced Plate, Dark Matter, Orvium Reinforced Plate | 10 |
 
@@ -67,7 +67,7 @@
 
 ## 出售 {#selling}
 
-按下**出售物品**（或机库里的拍卖槌），选择你赚来的东西（分类下拉菜单可以缩小列表，分类与市场相同），选择信用点或 Thulium，设定每组的价格和挂单时长：7 天、14 天或 21 天（窗口从 7 天开始）。窗口会显示最低价、三个自动填价的按钮（**最低价**；**快速出售**，比当前最便宜的挂单低一点；**公允价**，即上一次成交价），以及挂单前就能看到的押金、税和你的所得。价格下方的**相似挂单**会用图表显示其他飞行员对同一物品、同一附魔的要价，使用你选择的货币：你的价格是图上的一条线，其他挂单的最低价和中位数、最低限价、上一次成交价和商店价格都有标记，一行文字说明你的价格会排在哪里，下面还列出最便宜的三个挂单（其他挂单少于三个时，图表会换成一个简单的列表）。**我的挂单**里开放挂单的**图表按钮**会为该挂单打开同样的图表。一件物品就是一组；弹药和部分资源按 10 或 100 一组出售，你出售的是整数组。你挂出的东西会离开你的物品栏，由服务器保管，直到售出、你取消或到期；之后它带着标记回来。你随时可以取消，赛季最后几天也一样。挂单是一张快照：要改价格，就取消挂单再重新挂出（押金要再付一次）。
+按下**出售物品**（或机库里的拍卖槌），选择你赚来的东西（分类下拉菜单可以缩小列表，分类与市场相同），选择信用点或 Thulium，设定每组的价格和挂单时长：7 天、14 天或 21 天（窗口从 7 天开始）。窗口会显示最低价、三个自动填价的按钮（**最低价**；**快速出售**，比当前最便宜的挂单低一点；**公允价**，即上一次成交价），以及挂单前就能看到的押金、税和你的所得。价格下方的**相似挂单**会用图表显示其他飞行员对同一物品、同一附魔的要价，使用你选择的货币：你的价格是图上的一条线，其他挂单的最低价和中位数、最低限价、上一次成交价和商店价格都有标记，一行文字说明你的价格会排在哪里，下面还列出最便宜的三个挂单（其他挂单少于三个时，图表会换成一个简单的列表）。**我的挂单**里开放挂单的**图表按钮**会为该挂单打开同样的图表。一件物品就是一组；弹药和部分资源按 10 或 100 一组出售，你出售的是整数组。你挂出的东西会离开你的物品栏，由服务器保管，直到售出、你取消或到期；之后它带着标记回来。你随时可以取消，赛季最后几天也一样。挂单是一张快照：要改价格，就取消挂单再重新挂出（押金要再付一次）。锻造过的物品会按挂单将呈现的样子显示在窗口中：插槽里的加成、其上的裂痕，以及完整度。
 
 每种物品都有**最低价**，而且**没有最高价**：想要多少就要多少。下表是几种物品的最低价。
 
@@ -149,7 +149,7 @@ Thulium 定价只有一条规则：信用点最低价除以汇率，向上取整
 
 **发布求购单。** 按**新建求购单**，选择种类、组数、信用点或 Thulium、一组的价格，以及求购单持续多久：7、14 或 21 天。价格不会低于该种类的最低价，也没有最高价；Thulium 对哪些种类开放，和挂单一样。发布前，窗口会显示它要花多少：**全部价款会被冻结**，立刻从你的钱包中扣除（页面把它算作**求购中**），并支付与挂单相同的**押金**，押金会被销毁。每个 UTC 日的前十次发布（挂单和求购单合计）不收押金。窗口会用文字提醒你：已经有价格等于或低于你的挂单时（直接买一个更便宜），你的价格远高于最便宜的挂单时，钱包太小或挂单位已满时；大额求购单会再让你确认一次。求购单和挂单一样有挂单位，各等级的数量相同（见“出售”下面的表格），与你的挂单分开计算，一张求购单的价值不能超过你全部的每日购买上限。
 
-**只收标准物品。** 求购单只要标准物品：未经锻造，也就是没有腐化、神圣、裂变或永恒的部件，也没有随机出的加成。一个价格只能指一种东西，而锻造过的部件每次都不一样。锻造过的部件仍然作为挂单出售，附魔和加成清清楚楚地显示出来。
+**只收标准物品。** 求购单只要标准物品：未经锻造，也就是没有觉醒、共鸣、辉耀或升华的部件，也没有随机出的加成。一个价格只能指一种东西，而锻造过的部件每次都不一样。锻造过的部件仍然作为挂单出售，附魔和加成清清楚楚地显示出来。挂单上也会显示完整度；带有未决锻造炉候选的装备，在你从候选里选定之前不能上架；搁置了好几天的候选，会在你于锻造炉里选中这件装备时决定，拍卖行本身从不决定（[锻造炉](/wiki/06-Items/Forge.md#sockets)）。
 
 **被满足时。** 卖给你的求购单的飞行员立刻收到款项，你也立刻收到物品，并有一条提示和专属的声音；连续的满足只算一条提示。这些物品和你买的一切一样**不可交易**。求购单会一直为仍然需要的组数保持开放，直到被满足、你取消它或它到期。你可以随时取消，赛季的最后几天也可以：剩余组数的价款全额退回。押金不退，也没有人收到：它被销毁。
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Cosmétiques -->
 # Cosmétiques {#cosmetics}
 
@@ -26,7 +26,7 @@ Un skin est un schéma de peinture fait à partir de la coque même du vaisseau�
 
 Les skins appartiennent à votre **compte**, pas à un vaisseau, et ils restent à travers la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) ; vos vaisseaux portent ce qu’ils portaient.
 
-L’[Archive chromatique](/wiki/06-Items/Containers.md#chroma-archive) peut donner n’importe quelle collection sauf Bloody R.E.D, et elle donne toute une collection d’un coup : tous ses skins que vous n’avez pas encore.
+L’[Archive chromatique](/wiki/06-Items/Containers.md#chroma-archive) peut donner n’importe quelle collection sauf Bloody R.E.D, un skin à la fois : une collection gagnée donne un skin de celle-ci, pour un modèle de vaisseau. C’est le skin de votre vaisseau actif si la collection en a un pour lui et que vous ne l’avez pas encore ; sinon le skin d’un autre vaisseau que vous possédez ; sinon le premier skin de la collection qui vous manque. Pilotez donc le vaisseau pour lequel vous voulez le skin quand vous ouvrez une Archive. La collection peut sortir de nouveau tant que vous n’avez pas tous ses skins. Une collection reçue entière avant la 0.5.7 reste à vous, avec tous ses skins.
 
 | Collection | Vaisseaux | Rareté | Son aspect |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Une aura reste à l’intérieur de l’anneau qui marque un verrouillage et se 
 ## La Garde-robe {#the-wardrobe}
 
 - **Onglets.** Skin, Aura, Traînée et Drones. Une puce de rareté filtre un onglet sur une seule rareté, et **Les miens seulement** liste ce que vous pouvez porter.
-- **Une tuile dit où vous en êtes avec le look.** **Équipé** (le vaisseau le porte), **Possédé** (vous l’avez), **Fourni avec l’emplacement** (tous les pilotes l’ont) ou **Pas encore disponible**, avec un tic sourd quand vous cliquez.
+- **Une tuile dit où vous en êtes avec le look.** **Équipé** (le vaisseau le porte), **Possédé** (vous l’avez), **Fourni avec l’emplacement** (tous les pilotes l’ont) ou **Pas encore disponible**, avec un tic sourd quand vous cliquez. La tuile d’un skin montre aussi combien de skins de vaisseau de sa collection vous possédez, par exemple 1/4.
 - **Retirer un look.** La tuile **D’origine** de l’onglet Skin rend au vaisseau sa peinture d’origine, et **Aucune** retire l’aura.
 - **Plus d’un vaisseau.** L’interrupteur au bas de la feuille, **Appliquer aussi à mes autres vaisseaux de ce modèle** pour un skin et **Appliquer aussi à mes autres vaisseaux** pour une aura ou une traînée, fait qu’un clic met le look sur tous.
 - **Où vous pouvez le changer.** Là où vous pouvez changer votre équipement : à quai, ou dans une zone sûre avec la protection active, comme dans [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

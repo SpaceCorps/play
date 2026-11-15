@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 29c709ca04a786fc -->
+<!-- wiki-i18n source: 72522485c9bdce9a -->
 <!-- wiki-i18n title: Görevler -->
 # Görevler {#quests}
 
-Görevler seviye atlamanın ana yoludur. Onları Mission Control verir: her görev kendi şirketinin bir subayından gelir ([şirket değiştirirsen](/wiki/01-General/Getting-Started.md#changing-your-company) subaylar yeni şirketinin subayları olur ve `rival x-4` adımları da onu izler) ve her biri, ödülünü aldığında deneyim, kredi, Thulium ve onur öder. **1. ile 8. seviyeler için 88 görev** vardır, seviye başına on bir tane; birlikte seni yepyeni bir Protos gemisinden PvP merkezinin cephe hattına taşırlar. On **istasyon görevi** sana [Skylab](/wiki/03-Mechanics/Skylab.md) üssünü öğretir ve onu geliştirdiğin için sana öder; 3. pilot seviyesinden itibaren de ayrı bir hat, elli çok zor **meydan okuma görevi**, büyük ödüller verir. İstasyon ve meydan okuma görevleri seviye görevleri gibi öder: tablolardaki sayılar **temeldir** ve dünyan, boosterların ve klan güçlendirmelerin onları çarpar ([Ödüller](#rewards)).
+<!-- wiki-search: geçit hattı; geçit hattı görevleri; 11-14. seviyeler; seviye 11; seviye 12; seviye 13; seviye 14; boss season; the breach; the foundry; omega; rift yürüyücüsü; zindan müdavimi; dokunulmamış rift; dokunulmamış gedik; dökümhane sprinti; dokunulmamış dökümhane; kuşatma sprinti; muhafızın lütfu; gate line; görevler; quests; mission control -->
+
+Görevler seviye atlamanın ana yoludur. Onları Mission Control verir: her görev kendi şirketinin bir subayından gelir ([şirket değiştirirsen](/wiki/01-General/Getting-Started.md#changing-your-company) subaylar yeni şirketinin subayları olur ve `rival x-4` adımları da onu izler) ve her biri, ödülünü aldığında deneyim, kredi, Thulium ve onur öder. **1-8 ve 11-14. seviyeler için 132 görev** vardır, seviye başına on bir tane; birlikte seni yepyeni bir Protos gemisinden PvP merkezinin cephe hattına taşırlar. On **istasyon görevi** sana [Skylab](/wiki/03-Mechanics/Skylab.md) üssünü öğretir ve onu geliştirdiğin için sana öder; 3. pilot seviyesinden itibaren de ayrı bir hat, elli çok zor **meydan okuma görevi**, büyük ödüller verir. İstasyon ve meydan okuma görevleri seviye görevleri gibi öder: tablolardaki sayılar **temeldir** ve dünyan, boosterların ve klan güçlendirmelerin onları çarpar ([Ödüller](#rewards)). 12. pilot seviyesinden itibaren **Geçit hattı**nın sekiz görevi seni [solo geçitlerden](/wiki/03-Mechanics/Solo-Gates.md) ve [klan zindanlarından](/wiki/03-Mechanics/Dungeons.md) geçirir ([Geçit hattı](#gate-line)).
 
 Görevlerin çoğu artık “şundan şu kadar yok et” değildir: kısa **zincirlerdir**. Birkaç uzaylı yok edersin, bir noktaya uçarsın, bir sektörde birkaç dakika kalırsın ya da bir eşya bulup onu Mission Control penceresine götürürsün. Bazıları bir kural ekler: en fazla şu kadar gövde puanı kaybet ya da ölme.
 
@@ -13,9 +15,10 @@ Görevlerin çoğu artık “şundan şu kadar yok et” değildir: kısa **zinc
 
 ## Bir dakikada {#in-one-minute}
 
-- **Onları Mission Control penceresinde al.** Aynı anda 5 seviye görevi, ayrıca 3 istasyon görevi ve 3 meydan okuma görevi yürütebilirsin.
+- **Onları Mission Control penceresinde al.** Aynı anda 5 seviye görevi, ayrıca 3 istasyon görevi ve 3 meydan okuma görevi yürütebilirsin. Geçit hattının kendine ait 3 yuvası vardır.
 - **Zincirler.** **Sırayla** etiketli bir görevin adımları birbiri ardına açılır ve yalnızca açık olan adım sayılır.
 - **Öldürmeler dışında dört tür adım.** Yalnızca senin için düşen ve Mission Control penceresine götürdüğün bir **görev eşyası**, ziyaret edilecek bir **nokta**, bir sektörde birkaç dakikalık bir **kalış** ve sezonun 4. gününden itibaren avlanacak bir **sürü**.
+- **Geçitler ve zindanlar.** 11. seviyeden itibaren bir adım, bir solo geçidi ya da bir klan zindanının bir aşamasını tamamlamanı isteyebilir; Geçit hattının sekiz görevi de bu tür adımlardan oluşur ([Geçitler ve zindanlar](#gates-and-dungeons)).
 - **Koşullar.** Bir adım ya da bütün bir görev “gövde kaybı en fazla N puan” veya “ölmeden” diyebilir. Bozarsan o adım ya da görev baştan başlar. Kalıcı olarak hiçbir şey kaybolmaz.
 - **Meydan okuma hattı.** 3. pilot seviyesinden itibaren, her biri on görevlik beş kademede elli çok zor görev. Emeğe göre öderler: bir öldürme, I. kademenin ona ödediği kadar değerlidir, her üst kademede %10 daha fazla; ve tek bir ödül en fazla 200.000 Thulium öder. I. kademe toplamda, temel değerler olarak, 9.355.000 kredi, 70.125 Thulium ve 2.177.500 XP öder ([meydan okuma hattı](#challenge-line)).
 - **0.4.10 güncellemesinde yeniden düzenlendi.** Seviye görevlerinin 64 tanesi yeni sürümlerdir. Birini yaptıysan yeniden sunulur, tam ödülüyle ([ayrıntılar](#reworked-missions)).
@@ -25,9 +28,10 @@ Görevlerin çoğu artık “şundan şu kadar yok et” değildir: kısa **zinc
 
 
 
-- **Mission Control** penceresini bir istasyonun güvenli bölgesinin içinde araç çubuğundan aç ya da ana sektöründeki istasyonun üzerindeki **Mission Control** balonuna tıkla (haritada istasyonu izler; bu yüzden istasyon görünene kadar uç ya da uzaklaştır). **Normal görevler** sekmesi görevlerini seviyeye göre listeler, **Meydan okumalar** sekmesi [meydan okuma hattını](#challenge-line) tutar ve **Tamamlanan görevler** ödülünü almanı bekleyenleri tutar.
+- **Mission Control** penceresini bir Mission Control istasyonuna en fazla **1.600 birim** uzaklıktayken araç çubuğundan aç ya da istasyonun üzerindeki **Mission Control** balonuna tıkla (haritada istasyonu izler; bu yüzden istasyon görünene kadar uç ya da uzaklaştır). Her şirketin ana sektörü `x-1`’de güvenli bölgesinin içinde bir istasyon, her şirketin sınır sektörü `x-4`’ün ortasında da **güvenli bölgesi olmayan** bir istasyon vardır: orada bir pilota yine de saldırılabilir. Küçük bir karakoldur, tek bir kareden oluşur; ana üssün şehri değildir. **Görev kabul etmek ve ödül almak yalnızca orada çalışır.** Daha uzakta uçuyorsan açık bıraktığın pencere hiçbir işe yaramaz: sunucu “Görev kabul etmek veya ödülünü almak için bir Mission Control istasyonuna uç” diyerek reddeder. Görevi **bırakmak** ve **takip etmek** her yerde çalışır; gemin uçmuyorken istasyon menüsünden Mission Control eskisi gibi açılır. **Normal görevler** sekmesi görevlerini seviyeye göre listeler, **Meydan okumalar** sekmesi [meydan okuma hattını](#challenge-line) tutar ve **Tamamlanan görevler** ödülünü almanı bekleyenleri tutar.
 - Bir görevi başlatmak için **Görevi kabul et**. Aynı anda **5 görev** yürütebilirsin; [istasyon görevlerinin](#station-missions) kendi 3 yuvası, [meydan okuma görevlerinin](#challenge-line) de 3 yuvası daha vardır. En son kabul ettiğin görev **takip ettiğin** görevdir (bir istasyon görevi yalnızca hiçbir şeyi takip etmiyorsan ve görevlerinden hiçbiri uçarak ilerletilebilen bir görev değilse): **Aktif Görevler** penceresinde görünür ve öldürmeler ile uçuş önce ona sayılır. Pencerenin başlık çubuğundaki noktalarla başka birini seç.
 - Mission Control düğmesinde ve başka bir sekmedeyken **Normal görevler** ile **Meydan okumalar** sekmelerinde, kabul edilebilir bir görev ya da meydan okuma olduğu sürece sayılı bir **rozet** durur. Her yeni görevle birlikte bir bildirim ve sessiz bir ses gelir.
+- **Geçit hattı**nın kendi sekmesi vardır; 5 seviye görevinin, 3 istasyon görevinin ve 3 meydan okuma görevinin yanında 3 yuvası bulunur. Kaç görevin etkin olduğunu (“1 / 3 etkin”) gösterir ve sekiz görevin hepsini listeler; henüz alamadıkların, açıldıkları seviyeyi söyleyen kilitli önizlemeler olarak görünür. 11-14. seviyelerin görevleri ve Geçit hattı bu güncellemenin oyununu ister: eski bir oyun “Bu özelliği kullanmak için oyunu güncelle.” der.
 - Bazı görevler **sırayla** yapılmalıdır. **Sırayla** etiketi taşırlar ve adımları numaralıdır: bkz. [Zincirleme görevler](#chained-missions).
 - Görev eşyası, kalış ya da koşul içeren bir görev, durumunu Aktif Görevler penceresinde canlı gösterir: **Taşınıyor** ve Mission Control penceresine olan mesafe, kaldığın süre, kaybettiğin gövde puanları (**Gövde hasarı: 1.240 / 3.000**), **Ölme**. Görevin kartında aynı kurallar küçük etiketler olarak görünür: **Gövde sınırı 3.000 HP**, **Ölmeden**, **Sırayla** ve süreli bir görevin saati.
 - Bir görevi ve ilerlemesini bırakmak için **Görevi bırak**. Görev hemen listeye geri döner ve yeniden alabilirsin. Onun için taşıdığın eşya gider.
@@ -37,8 +41,10 @@ Görevlerin çoğu artık “şundan şu kadar yok et” değildir: kısa **zinc
 ## Seviyeler {#levels}
 
 - 1’den 8’e her seviyenin **on görevi ve bir Özel görevi** vardır. Bir seviyenin görevleri o seviyeye ulaşınca açılır ve üstündeki her seviyede açık kalır.
+- **11-14. seviyelerin** de on görevi ve bir Özel görevi vardır; 9. ve 10. seviyelerin yoktur. Mission Control penceresi 11. seviyenin görevlerini daha 10. pilot seviyesinden itibaren kilitli gösterir.
 - **Hangi sırayla istersen al.** On görevin hiçbiri diğerini beklemez. (Bir görevin içindeki adımların sırası olabilir.)
 - Her seviyenin karışımı aynıdır: görev eşyalı **üç** görev, seni haritadaki noktalara gönderen **iki** görev, bir sektörde kalmanı isteyen **iki** görev ve **üç** düz av. Bir görevin bir ile dört arası adımı vardır ve bir av bir tür ya da birkaç tür uzaylı ister.
+- **11-14. seviyelerin görevleri uzun zincirlerdir.** Hepsi sırayla ilerler ve 3 ila 23 adımdan oluşur (en çok adım **Büyük Keşif**tedir): isimle öldürmeler, ziyaretler, kalışlar, bir solo geçidin ya da bir klan zindanı aşamasının tamamlanması ve görev eşyaları; bazılarında süre sınırı ya da ölmeme kuralı vardır. Mission Control, yaptığın adımları “7 adım tamamlandı” diyen tek bir satıra katlar; tıklayınca açılır. Öldürme adımlarının yaklaşık dörtte biri sektör belirtmez; solo geçitlerde ve Skylab seferlerinde yaptığın öldürmeler bunlar için sayılır, [Nerede sayılır](#where-it-counts) bölümünün anlattığı gibi. Diğer öldürme adımları sektörlerini belirtir (`x-3`, `x-4`, Tehlike Sektörleri ya da rakip bir şirketin `x-4` sektörü) ve yalnızca orada sayılır. Asteroit görevleri yoktur.
 - Bir seviyenin görevleri bir sonraki seviyeye kadar gereken **deneyimin %85 kadarını** öder. Yok ettirdikleri uzaylılar geri kalanını öder, düşük seviyelerde epeyce fazlasını: genellikle bir set bitmeden bir sonraki seviyeye ulaşırsın.
 - **Her seviye için bir Asteroit görevi.** On görevi ve Özel görevinin yanı sıra her seviyede, seviyeler yükseldikçe daha iyi haritalarda yaşayan türden bir miktar [asteroit](/wiki/03-Mechanics/Asteroid-Mining.md) kırmanı isteyen bir görev vardır (ilki 60 Rivet I öder; 7. ve 8. seviyelerinkiler sezonun 4. gününde açılır). Bir kırılış, sana bir pay ödediğinde sayılır (asteroitin aldığı hasarın en az %5 kadarı), roketle de lazerle de. On görevden biri değildir, bu yüzden Özel görev onu beklemez, ama 5 görev yuvandan birini alır. Mission Control onu Özel görevden sonra **Asteroitler** işaretiyle listeler; bu sayfanın sonundaki tablolar listelemez. Beta ve Gamma’da Tehlike Sektörleri’nin asteroitleri ilk günden itibaren vardır ve onları isteyen iki görev de onlarla birlikte açılır.
 
@@ -70,7 +76,7 @@ Bir görev eşyası, Mission Control penceresine getirmen gereken bir şeydir. E
 
 1. **Bul.** Düşen eşya uzaylının öldüğü yerde **120 saniye** boyunca görünür; son 12 saniyede yanıp söner. Kaçırırsan bir sonraki uygun öldürme onu hemen yeniden düşürür. Eşyayı dünyada camgöbeği bir fener (bir halkanın içinde dönen bir veri çekirdeği, üzerinden yükselen bir ışınla) ve mini haritada camgöbeği bir elmas olarak görürsün.
 2. **Al.** Ona **200 birim** yaklaş. Bir mesaj eşyanın gemide olduğunu söyler ve Aktif Görevler penceresi **Taşınıyor** ile Mission Control penceresine olan mesafeyi gösterir.
-3. **Eve götür.** **Kendi şirketinin** Mission Control istasyonunun güvenli bölgesine uç: ana sektörün `x-1` istasyonu, çevresindeki 1.600 birimlik halka. Ekranda ve mini haritada yeşil bir halka onu gösterir. Eşya hemen teslim edilir ve adım biter.
+3. **Eve götür.** **Kendi şirketinin** Mission Control istasyonuna en fazla **1.600 birim** kala uç: ana sektörün `x-1` istasyonu (güvenli bölgesinin içinde) ya da sınır sektörün `x-4` istasyonu (aynı mesafe, ama orada güvenli bölge yoktur). Ekranda ve mini haritada yeşil bir halka onu gösterir. Eşya hemen teslim edilir ve adım biter.
 
 Taşımayı durduran şeyler:
 
@@ -94,12 +100,22 @@ Taşımayı durduran şeyler:
 - **her güvenli bölgenin dışındasın** (bir istasyonun ya da bir geçidin halkası: halkada geçen süre sayılmaz);
 - geminin **aktif**: son 30 saniyede 300 birim uçmuş ya da bir atış yapmış. Park halindeki bir gemi hiçbir şey kazanmaz.
 
-İki tür vardır. **Biriken** bir kalış, sahip olduğunu korur: ayrılırsın, ölürsün, geri dönersin ve dakikalar hâlâ oradadır; ancak kalışın ya da görevinin bir gövde sınırı veya ölmeden kuralı varsa durum değişir: o zaman geminin kaybedilmesi ya da sınırın aşılması kalışı yeniden başlatır (bkz. [Koşullar](#conditions)). **Kesintisiz** bir kalış sen ölünce, sıçrayınca ya da sektörden ayrılınca sıfırdan başlar (bir halkada geçen süre ya da yerinde durmak onu yalnızca duraklatır) ve bir bildirim bunu söyler.
+İki tür vardır. **Biriken** bir kalış, sahip olduğunu korur: ayrılırsın, ölürsün, geri dönersin ve dakikalar hâlâ oradadır; ancak kalışın ya da görevinin bir gövde sınırı veya ölmeden kuralı varsa durum değişir: o zaman geminin kaybedilmesi ya da sınırın aşılması kalışı yeniden başlatır (bkz. [Koşullar](#conditions)). **Kesintisiz** bir kalış sen ölünce, sıçrayınca ya da sektörden ayrılınca sıfırdan başlar (bir halkada geçen süre ya da yerinde durmak onu yalnızca duraklatır) ve bir bildirim bunu söyler. Bir istisna var: `DS-x` içindeki, yani herhangi bir Tehlike Sektörü’ndeki kesintisiz bir kalış, bir Tehlike Sektörü’nden diğerine uçtuğunda sürer; yalnızca ölürsen, oturumu kapatırsan ya da Tehlike Sektörleri’nden ayrılırsan yeniden başlar.
 
 Kalışlar ve ziyaretler yarışmaz: açık olanların hepsi, başka ne yapıyor olursan ol, aynı anda sayılır. Öldürmeler farklıdır: bir öldürme yalnızca bir seviye görevi için sayılır (bkz. [Nerede sayılır](#where-it-counts)).
 
 > [!NOTE]
 > Ziyaretler ve kalışlar seni Tehlike Sektörleri’ne götürebilir (Merkez Keşfi, Merkez Nöbeti ve Merkez Savunması götürür); orada başka şirketlerin pilotları sana saldırabilir. Görev eşyaları asla götürmez. `DS-x` sektöründeki bir ziyaret noktası herhangi bir Tehlike Sektörü’nde sayılır: sezonun 11. gününden itibaren `DS-4` sektörünün sol üst köşesine yakın noktaları, örneğin **Dört Köşe** görevinin köşesini, `DS-1`, `DS-2` ya da `DS-3` sektöründe yap; çünkü `DS-4` sektörünün o köşesi [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) taretlerinin menzilindedir.
+
+## Geçitler ve zindanlar {#gates-and-dungeons}
+
+11. seviyeden itibaren bir adım, bir [solo geçidi](/wiki/03-Mechanics/Solo-Gates.md) ya da bir [klan zindanının](/wiki/03-Mechanics/Dungeons.md) bir aşamasını tamamlamanı isteyebilir. Tablolar bunları “Alpha Rift tamamla” ve “Klan zindanı 3. aşamayı tamamla (ödüllü tamamlama)” diye yazar.
+
+- **Bir geçidi tamamlamak.** Adım açıkken o geçidi (Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege ya da Omega Vault) tamamladığında sayılır. Adım açılmadan önceki bir tamamlama sayılmaz. Tamamlama, bir tamamlamanın ödediğini öder ve adım üstüne tamamlanır.
+- **Koşunun bir kuralıyla.** “Ölmeden”, hiç can kaybetmediğin bir koşuyu; “25 dakika veya daha kısa sürede”, arena süresi geçidin speedrun süresi içinde kalan bir koşuyu ister. Kuralı bozan bir koşu yine de tamamlamasını öder, ama adım açık kalır ve geçide yeniden uçarsın.
+- **Bir zindan aşamasını tamamlamak.** “Ödüllü tamamlama”, aşamanın tamamlanması sana ödeme yaptığında sayılır. Bir aşama bir pilota günde bir kez öder ve bir pilota haftada en fazla 10 aşama tamamlaması için ödeme yapılır ([Ödeme](/wiki/03-Mechanics/Dungeons.md#pay)); bu yüzden sana hiçbir şey ödemeyen bir tamamlama sayılmaz. “3 kez”, üç ödüllü tamamlama ister.
+- **Sana verilen bir görev eşyası.** Bazı görev eşyaları için öldürülecek ya da bulunacak bir şey yoktur: **Omega Komutanlığı**, Omega Vault’u tamamladığında sana Omega Seal’i verir ve son adımı onu Mission Control penceresine götürmektir. Gemini kaybetmek onu elinden almaz.
+- **Evde.** Geçitler ve klan zindanları ana sunucunda çalışır, bu yüzden bu adımlar yalnızca orada ilerler. Bölgesel bir sunucuda beklerler: onları evde oyna.
 
 ## Sürü görevleri {#swarm-missions}
 
@@ -199,9 +215,19 @@ Elli görevin tamamı birlikte temelde 428.325.000 kredi, 2.847.085 Thulium ve 4
 > [!TIP]
 > Büyük avları 3. seviyeye ulaşır ulaşmaz kabul et: Seeker Vebası ve Phantasm Seli, kabul ettiğin andan itibaren her öldürmeyi, herhangi bir sektörde, seviye görevlerinin yanında sayar.
 
+## Geçit hattı {#gate-line}
+
+Mission Control’ün **Geçit hattı** sekmesi, [solo geçitler](/wiki/03-Mechanics/Solo-Gates.md) ve [klan zindanları](/wiki/03-Mechanics/Dungeons.md) hakkında sekiz görev listeler; bunlar hiçbir seviyenin onunun arasında değildir. 12 ila 14. pilot seviyelerinde açılırlar ve o zamana kadar kilitli önizleme olarak görünür; her sayı bu sayfanın sonundaki [tabloda](#gate-line-missions-table) yer alır.
+
+- **Bir tamamlamanın altı çeşidi.** **Dokunulmamış Rift**, **Dokunulmamış Gedik**, **Dokunulmamış Dökümhane** ve **Muhafızın Lütfu** ölmeden bir tamamlama ister (Alpha Rift, Beta Breach, Gamma Foundry, Omega Vault). **Dökümhane Sprinti** ve **Kuşatma Sprinti**, Gamma Foundry’yi 25 dakika veya daha kısa sürede, Delta Siege’i 35 dakikada ister ([Geçitler ve zindanlar](#gates-and-dungeons)).
+- **Bir sezonluk iki görev.** **Rift Yürüyücüsü** beş geçidin hepsini, **Zindan Müdavimi** 3. aşamanın üç ödüllü tamamlamasını ister; sıra serbesttir. İkisi de tek bir sezonu sayar: sıfırlama, hâlâ süren birini düşürür.
+- **Aynı anda üç.** Geçit hattının seviye, istasyon ve meydan okuma görevlerinin yanında kendine ait 3 yeri vardır. Sekme kaç görevin etkin olduğunu (“1 / 3 etkin”) söyler; henüz alamadığın görevler, açıldıkları seviyeyle birlikte kilitli önizlemeler olarak görünür.
+- **Koşunun ödediğini öderler.** Bir görev, istediği tamamlamanın deneyimini, kredisini ve onurunu öder. Altı çeşit, oyunun kendi meydan okumaları gibi Thulium ödemez; Rift Yürüyücüsü ve Zindan Müdavimi, istedikleri koşuların Thulium’unun dörtte birini öder. Tablodaki sayılar **temeldir**: dünyan, güçlendirmeler ve klan güçlendirmeleri [Ödüller](#rewards) bölümünün anlattığı gibi uygulanır.
+- **Tekrarlanırlar.** Sıfırlamadan sonra onları tam ödemeyle [tekrarlayabilirsin](#repeating-missions). İstatistikler sayfasında da görevlerin sıfırlama puanlarında da sayılmazlar.
+
 ## Nerede sayılır {#where-it-counts}
 
-Adımların çoğu saydıkları sektörü adlandırır ve onlara yalnızca **orada** yapılan öldürmeler ve uçulan mesafe sayılır. Bir ziyaret, bir kalış ve bir eşya sektörünü aynı şekilde adlandırır, ama daha katıdırlar: yalnızca **kendi şirketinin** haritasında sayılırlar. Bir görevin `G-2` sektörüne koyduğu eşya `G-2` sektöründe durur, başka hiçbir yerde değil; bir Galactic şirketi pilotu ondan Mars şirketinin `M-2` ya da Terra şirketinin `T-2` sektöründe hiçbir şey bulamaz. Öldürmeler ve uçulan mesafe, o sektörün herhangi bir şirkete ait olanında sayılır. Birkaç öldürme adımı hiçbirini adlandırmaz ve **her** sektörde sayılır: Kovan Kırıcı ve Kovan Temizliği görevlerinin sürü gemileri ve meydan okuma hattının büyük avları (Seeker Vebası, Phantasm Seli, Bulwark Duvarı, Kovan Ayıklama, Gözcü Ayıklama ve I. kademeden sonraki kademelerin büyük avları). İstasyon adımları Skylab üssüne bakar ve onların da sektörü yoktur. Sektör, bir adımın yanında kendi haritalarından biri olarak görünür:
+Adımların çoğu saydıkları sektörü adlandırır ve onlara yalnızca **orada** yapılan öldürmeler ve uçulan mesafe sayılır. Bir ziyaret, bir kalış ve bir eşya sektörünü aynı şekilde adlandırır, ama daha katıdırlar: yalnızca **kendi şirketinin** haritasında sayılırlar. Bir görevin `G-2` sektörüne koyduğu eşya `G-2` sektöründe durur, başka hiçbir yerde değil; bir Galactic şirketi pilotu ondan Mars şirketinin `M-2` ya da Terra şirketinin `T-2` sektöründe hiçbir şey bulamaz. Öldürmeler ve uçulan mesafe, o sektörün herhangi bir şirkete ait olanında sayılır. Bazı öldürme adımları hiçbirini adlandırmaz ve **her** sektörde sayılır: Kovan Kırıcı ve Kovan Temizliği görevlerinin sürü gemileri ve meydan okuma hattının büyük avları (Seeker Vebası, Phantasm Seli, Bulwark Duvarı, Kovan Ayıklama, Gözcü Ayıklama ve I. kademeden sonraki kademelerin büyük avları). 11-14. seviye görevlerinin öldürme adımlarının yaklaşık dörtte biri de böyledir. İstasyon adımları Skylab üssüne bakar ve onların da sektörü yoktur. Sektör, bir adımın yanında kendi haritalarından biri olarak görünür:
 
 | Tablolarda | Anlamı | Görürsün (bir Mars pilotu) |
 | :--- | :--- | :--- |
@@ -221,6 +247,7 @@ Görevler seviyenle birlikte sektörlerde yükselir:
 | 6 | sınır (`x-4`) | – |
 | 7 | sınır | PvP merkezine (`DS-x`) uzanan koşular |
 | 8 | sınır | merkez ve diğer şirketlerin sınırları |
+| 11-14 | üçüncü sektör ve sınır, merkez ve diğer şirketlerin sınırları, ardından solo geçitler ve klan zindanları | – |
 
 - **Bir adımın yanındaki etiket** haritasını adlandırır, örneğin `G-2`. Üzerine gel: bir eşya, ziyaret ya da kalış için “Yalnızca G-2 sektöründe sayılır” der; bir öldürme ya da uçuş için “veya başka bir şirketin `x-2` sektöründe” ekler.
 - **Devriyeler yalnızca güvenli bölgelerin dışında sayılır.** Bir geçidin halkasında daire çizmek bir sektörde devriye gezmek sayılmaz.
@@ -241,7 +268,7 @@ Görevler seviyenle birlikte sektörlerde yükselir:
 ## Ödüller {#rewards}
 
 - Deneyim, kredi, Thulium ve onur, ödülünü aldığında uçtuğun [dünyayla](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) çarpılır: Alpha Dünyası’nda x1, Beta Dünyası’nda x2, Gamma Dünyası’nda x3. Boosterların (Experience Booster, Honor Booster) bunlara eklenir ve Premium deneyimi iki katına çıkarır. [Klanının](/wiki/03-Mechanics/Clans.md) Thulium ve kredi güçlendirmeleri, ödülünü aldığın her görevin kredisine ve Thulium miktarına eklenir: seviye, istasyon ve meydan okuma.
-- **İstasyon ve meydan okuma görevleri seviye görevleri gibi öder.** Tablolarında yazan sayılar **temeldir**; ödülünü aldığında uçtuğun dünya, tıpkı bir seviye görevinde olduğu gibi bunları çarpar.
+- **İstasyon ve meydan okuma görevleri seviye görevleri gibi öder.** Tablolarında yazan sayılar **temeldir**; ödülünü aldığında uçtuğun dünya, tıpkı bir seviye görevinde olduğu gibi bunları çarpar. Geçit hattının görevleri de aynısını yapar.
 - **Sıfırlamadan önceki görevler.** Bir görev, ödülünü aldığında uçtuğun dünyaya göre öder. Bir sıfırlamadan önce tamamlayıp henüz ödülünü almadığın ya da sıfırlamadan önce başlattığın bir görev bu yüzden sıfırlamadan sonra uçtuğun dünyaya göre ödenir: Alpha’da tamamlanıp Gamma’dan alınırsa 3 kat öder, hemen alsan da sonra alsan da. Şu an uçtuğun dünyadan daha yüksek bir dünyada tamamladığın görev yüksek çarpanı korur (Gamma’da tamamlanıp Alpha’dan alınırsa: 3 kat). Yüksek bir dünyada başlayıp düşük bir dünyada bitirdiğin görev, düşük dünyada yapılmış sayılır.
 - **Bir örnek.** **Seeker Vebası** (meydan okuma) 1.100.000 kredi, 8.260 Thulium, 157.500 XP ve 3.060 onur temeline sahiptir. Gamma Dünyası’nda hiçbir güçlendirme etkin değilken yapılıp ödülü alınırsa 3.300.000 kredi, 24.780 Thulium, 472.500 XP ve 9.180 onur öder. Klanının kredi ve Thulium güçlendirmeleri en üstteyken (her biri +%10) 3.630.000 kredi ve 27.258 Thulium öder.
 - **Klan bankası sınırı.** Bir ödül ne kadar büyük olursa olsun, bir pilot herhangi bir 24 saatte [klanlara](/wiki/03-Mechanics/Clans.md#2-donations) en fazla 1.000.000 kredi gönderebilir.
@@ -252,12 +279,12 @@ Görevler seviyenle birlikte sektörlerde yükselir:
 
 Taze bir sıfırlamadan sonra tamamladığın görevleri yeniden yapabilirsin ve bir Tekrar görevi **tam olarak** öder: ilk seferde ödediği her şeyi.
 
-- **Hangileri.** Tamamladığın seviye görevleri, Özel görevler, Asteroit görevleri ve meydan okuma görevleri. İstasyon görevleri tekrarlanamaz.
+- **Hangileri.** Tamamladığın seviye görevleri (11-14. seviyelerinkiler de), Özel görevler, Asteroit görevleri, meydan okuma görevleri ve Geçit hattı görevleri. İstasyon görevleri tekrarlanamaz.
 - **Görev ve sezon başına bir kez.** Sıfırlamadan sonra tamamladığın her görev yeniden açıktır ve her biri bir kez tekrarlanabilir. Mission Control onu “Tekrar: tam ödül” satırıyla işaretler. Onları açan sıfırlamadır: son sıfırlamadan beri tamamladığın ya da tekrarladığın görev bir sonrakine kadar kapalı kalır ve 0.5.0 güncellemesinden sonraki ilk sıfırlama o zamana kadar tamamladığın tüm görevleri açar.
 - **Görev gibi oynanır.** Aynı adımlar, aynı süre sınırı, aynı koşullar. Onu herhangi biri gibi Mission Control penceresinden alırsın ve sürdüğü sürece 5 yuvandan birini kullanır. Bir meydan okuma görevinin Tekrarı bunun yerine meydan okuma görevlerinin 3 yuvasından birini kullanır.
 - **Ne öder.** Görevin ödediği her şeyi: deneyim, onur, kredi, Thulium, eşya ve booster süresi. İlk ödül alışındaki gibi ödenir: dünyanın bonusu, boosterların, Premium XP ve klanının kredi ile Thulium güçlendirmeleri geçerlidir; [Ödüller](#rewards) bunu açıklar. Mission Control’deki kart ilk seferki ödülleri aynen gösterir. Bir Tekrar’ın eşyaları [pazarda](/wiki/03-Mechanics/Auction.md#marketable-items) satılamaz: satılabilir değildir.
-- **Bir sezonun değeri.** Temel değerle, dünyan ve güçlendirmelerin çarpmadan önce: 88 seviye görevi ile 8 Asteroit görevi birlikte 6.869.000 kredi ve 52.585 Thulium öder, 50 meydan okuma görevi 428.325.000 kredi ve 2.847.085 Thulium. Hepsini tekrarlayan bir pilot 435.194.000 kredi ve 2.899.670 Thulium alır.
-- **Sıfırlama puanları.** Bir **seviye görevinin** Tekrarı, görevlerin [sıfırlama puanlarına](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) ilk tamamlama gibi sayılır, görev ve sezon başına bir kez. İlk kez yaptığın görevlerle birlikte hiçbir zaman 100 görevden, yani görevlerin sıfırlama puanlarının ödediği en fazla olan 105 sıfırlama puanından fazla sayılmaz: 88 seviye görevinin hepsini yapmış olan (90 sıfırlama puanı) bunları tekrarlayarak 15 sıfırlama puanı kazanır. Asteroit görevlerinin ve meydan okuma görevlerinin Tekrarları sayılmaz.
+- **Bir sezonun değeri.** Temel değerle, dünyan ve güçlendirmelerin çarpmadan önce: 1-8. seviyelerin 88 seviye görevi ile 8 Asteroit görevi birlikte 6.828.000 kredi ve 52.265 Thulium öder, 11-14. seviyelerin 44 seviye görevi 326.400.000 kredi ve 1.305.600 Thulium öder, 50 meydan okuma görevi de 428.325.000 kredi ve 2.847.085 Thulium. Geçit hattının 8 görevi 79.400.000 kredi ve 39.250 Thulium ekler. Hepsini tekrarlayan bir pilot 840.953.000 kredi ve 4.244.200 Thulium alır.
+- **Sıfırlama puanları.** Bir **seviye görevinin** Tekrarı, görevlerin [sıfırlama puanlarına](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) ilk tamamlama gibi sayılır, görev ve sezon başına bir kez. İlk kez yaptığın görevlerle birlikte hiçbir zaman 100 görevden, yani görevlerin sıfırlama puanlarının ödediği en fazla olan 105 sıfırlama puanından fazla sayılmaz: 88 seviye görevinin hepsini yapmış olan (90 sıfırlama puanı) bunları tekrarlayarak 15 sıfırlama puanı kazanır. Asteroit görevlerinin ve meydan okuma görevlerinin Tekrarları sayılmaz. 11-14. seviyelerin 44 seviye görevi de diğerleri gibi sıfırlama puanlarında ve İstatistikler sayfasında sayılır, aynı 100 görev sınırının altında; Geçit hattının görevleri ikisinde de sayılmaz.
 - **Ne yapmaz.** Bir Tekrar yeni bir görev değildir: başarımlara ve unvanlarına ve İstatistikler sayfasına sayılmaz, Günlük’e satır eklemez ve hiçbir şeyin kilidini açmaz. Görev tamamlanmış kalır.
 - **Başarısız olursa.** Süre dolarsa ya da bırakırsan, görev yeniden bir Tekrar için açıktır. Hiçbir şey kaybolmaz.
 - **Bir sonraki sıfırlamada.** Bitirdiğin ama henüz almadığın bir Tekrar seni bekler ve aldığında tam öder. Sıfırlama geldiğinde hâlâ süren bir Tekrar bırakılır. Almak, o görevin yeni sezondaki Tekrarı olarak sayılır: aldıktan sonra görev yeniden kapanır.
@@ -438,6 +465,78 @@ Bir görev eşyası “düşürebilir: her öldürmede %15 şansla, 10. öldürm
 | Merkez Savunması | Operasyon | Bulwark yok et ×8 (x-4) → Goombah yok et ×3 (x-4) → 8 dk kesintisiz kal (DS-x) | 35 dk | 94.000 | 235.000 | 1.880 | 470 | – |
 | **Cephe Komutanı** (Özel) | Operasyon | Bulwark yok et ×10 (x-4) → 10.000 birim devriye gez (DS-x) → Goombah yok et ×4 (rival x-4) | – | 218.000 | 545.000 | 4.360 | 1.090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster I, 10 sa |
 
+### 11. seviye: Patron Sezonu {#level-11-boss-season}
+
+10 görev ve bir özel görev, toplam 8.704.000 XP.
+
+| Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Boss Goombah Ödülü | Savaş | Goombah yok et ×60 (x-3) → Boss Goombah yok et ×1 (x-3) → Goombah yok et ×60 (x-4) → Boss Goombah yok et ×1 (x-4) → Boss Goombah yok et ×2 (x-3) (sezonun 4. gününden itibaren) | – | 760.000 | 1.900.000 | 7.600 | 3.800 | – |
+| Korsan Sarayı | Savaş | Pirate Boss yok et ×3 (x-2) → 3.500 / 6.200 noktasına uç (x-3) → 4.000 / 4.800 noktasına uç (x-3) → 13.400 / 5.000 noktasına uç (x-3) → Pirate Boss yok et ×6 (x-3) → Pirate Boss yok et ×3 (rival x-3) → Boss Phantasm yok et ×1 (x-4) (sezonun 4. gününden itibaren) | – | 560.000 | 1.400.000 | 5.600 | 2.800 | – |
+| Rift Yemi | Savaş | Phantasm yok et ×400 → Bulwark yok et ×150 → Goombah yok et ×60 → Boss Goombah yok et ×1 (x-4) (sezonun 4. gününden itibaren) | – | 760.000 | 1.900.000 | 7.600 | 3.800 | – |
+| Rift’i Aç | Savaş | Seeker yok et ×100 → 1.500 / 3.900 noktasına uç (x-1) → Alpha Rift tamamla → Boss Phantasm yok et ×1 (x-3) (sezonun 4. gününden itibaren) | – | 760.000 | 1.900.000 | 7.600 | 3.800 | – |
+| Tesseract Keşfi | Keşif | 28.400 / 6.100 noktasına uç (DS-4) → 25.900 / 8.600 noktasına uç (DS-4) → 23.400 / 6.100 noktasına uç (DS-4) → 5 dk kesintisiz kal (DS-4) → Facet yok et ×40 (DS-4) → 25.900 / 3.600 noktasına uç (DS-4) → 27.668 / 7.868 noktasına uç (DS-4) → 24.132 / 4.332 noktasına uç (DS-4) → 5 dk kesintisiz kal (DS-4) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 754.000 | 1.875.000 | 7.540 | 3.770 | – |
+| Uzun Dolambaç | Keşif | 20.000 birim devriye gez (x-3) → Boss Phantasm yok et ×1 (x-3) → 20.000 birim devriye gez (x-4) → Boss Phantasm yok et ×1 (x-4) → 20.000 birim devriye gez (rival x-4) → Boss Phantasm yok et ×1 (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) (sezonun 4. gününden itibaren) | – | 750.000 | 1.875.000 | 7.500 | 3.750 | – |
+| Sınır Fenerleri | Keşif | 6.500 / 2.200 noktasına uç (x-4) → 11.500 / 6.800 noktasına uç (x-4) → 12.500 / 6.000 noktasına uç (x-4) → 13.000 / 3.000 noktasına uç (x-4) → Goombah yok et ×20 (x-4) → 6.500 / 2.200 noktasına uç (rival x-4) → 11.500 / 6.800 noktasına uç (rival x-4) → 12.500 / 6.000 noktasına uç (rival x-4) → 13.000 / 3.000 noktasına uç (rival x-4) → Goombah yok et ×20 (rival x-4) → 10 dk kal (x-4) (tüm görev boyunca ölmeden) | 1 sa 30 dk | 560.000 | 1.400.000 | 5.600 | 2.800 | – |
+| Facet Fırtınası | Operasyon | Facet yok et ×40 (DS-4) → 5 dk kal (DS-4) → Facet yok et ×40 (DS-4) → Boss Crystalys yok et ×1 (DS-x) (sezonun 4. gününden itibaren) | 1 sa 30 dk | 750.000 | 1.875.000 | 7.500 | 3.750 | – |
+| Patronun Mührü | Operasyon | Goombah yok et ×40 (x-4) → Goombah Seal eşyasını Mission Control penceresine götür (x-4 sektöründeki Boss Goombah taşır) → Second Seal eşyasını Mission Control penceresine götür (x-3 sektöründeki Boss Goombah taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 750.000 | 1.875.000 | 7.500 | 3.750 | – |
+| Zamana Karşı Korsanlar | Operasyon | Pirate Boss yok et ×3 (x-2) → Pirate Boss yok et ×3 (x-3) → Pirate Boss yok et ×3 (rival x-2) → Boss Phantasm yok et ×1 (x-3) → Boss Goombah yok et ×1 (x-4) (sezonun 4. gününden itibaren) | 1 sa 15 dk | 560.000 | 1.400.000 | 5.600 | 2.800 | – |
+| **Rift Anahtarı** (Özel) | Operasyon | Boss Goombah yok et ×2 (x-3) → Boss Phantasm yok et ×2 (x-4) → Boss Goombah yok et ×2 (rival x-3) → Pirate Boss yok et ×6 (x-3) → Rift Key eşyasını Mission Control penceresine götür (x-2 sektöründeki Boss Seeker taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 1.740.000 | 4.350.000 | 17.400 | 8.700 | – |
+
+### 12. seviye: Gedik {#level-12-the-breach}
+
+10 görev ve bir özel görev, toplam 17.408.000 XP.
+
+| Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Goombah Tasfiyesi | Savaş | Goombah yok et ×80 (x-3) → Boss Goombah yok et ×3 (x-3) → Goombah yok et ×80 (x-4) → Boss Goombah yok et ×3 (x-4) → Boss Goombah yok et ×3 (rival x-3) → Boss Crystalys yok et ×1 (DS-x) (sezonun 4. gününden itibaren) | – | 1.525.000 | 3.800.000 | 15.250 | 7.625 | – |
+| Crystalys Öşrü | Savaş | Crystalys yok et ×20 → Boss Crystalys yok et ×1 (DS-1) → 16.000 / 9.000 noktasına uç (DS-2) → Boss Crystalys yok et ×1 (DS-2) → 5 dk kesintisiz kal (DS-2) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 1.525.000 | 3.800.000 | 15.250 | 7.625 | – |
+| Gedik Açıcı | Savaş | Bulwark yok et ×60 → Pirate Boss yok et ×4 (rival x-3) → Beta Breach tamamla → Boss Crystalys yok et ×1 (DS-x) (sezonun 4. gününden itibaren) | – | 1.533.000 | 3.850.000 | 15.330 | 7.665 | – |
+| Breach Core | Keşif | 6.500 / 2.200 noktasına uç (x-4) → 11.500 / 6.800 noktasına uç (x-4) → 12.500 / 6.000 noktasına uç (x-4) → Breach Core eşyasını Mission Control penceresine götür (x-4 sektöründeki Boss Goombah taşır) → 6.500 / 2.200 noktasına uç (rival x-4) → 11.500 / 6.800 noktasına uç (rival x-4) → 12.500 / 6.000 noktasına uç (rival x-4) → Breach Core II eşyasını Mission Control penceresine götür (rival x-4 sektöründeki Boss Goombah taşır) (sezonun 4. gününden itibaren) | 1 sa | 1.250.000 | 3.100.000 | 12.500 | 6.250 | – |
+| Davidski’nin Borcu | Keşif | 16.000 / 9.000 noktasına uç (DS-1) → 16.000 / 9.000 noktasına uç (DS-2) → 16.000 / 9.000 noktasına uç (DS-3) → Davidski yok et ×1 (DS-x) → 5 dk kal (DS-x) → Boss Crystalys yok et ×1 (DS-x) (sezonun 4. gününden itibaren) | – | 1.550.000 | 3.900.000 | 15.500 | 7.750 | – |
+| Sınır Haritacısı | Keşif | 6.500 / 2.200 noktasına uç (x-4) → 13.000 / 3.000 noktasına uç (x-4) → 6.500 / 2.200 noktasına uç (rival x-4) → 13.000 / 3.000 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 6.000 / 13.500 noktasına uç (DS-x) → Boss Phantasm yok et ×2 (x-4) → Boss Phantasm yok et ×2 (rival x-4) → 6.000 / 13.500 noktasına uç (DS-x) → 26.000 / 4.500 noktasına uç (DS-x) → 13.000 / 3.000 noktasına uç (rival x-4) → 6.500 / 2.200 noktasına uç (rival x-4) → 13.000 / 3.000 noktasına uç (x-4) → 6.500 / 2.200 noktasına uç (x-4) → 10 dk kesintisiz kal (DS-x) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | 1 sa 30 dk | 1.250.000 | 3.100.000 | 12.500 | 6.250 | – |
+| Bataklık Nöbeti | Keşif | 15 dk kesintisiz kal (DS-x) → Boss Crystalys yok et ×1 (DS-x) → 15 dk kesintisiz kal (DS-x) → Boss Crystalys yok et ×1 (DS-x) → 15 dk kesintisiz kal (DS-x) (sezonun 4. gününden itibaren) | – | 1.250.000 | 3.100.000 | 12.500 | 6.250 | – |
+| Gamma Hurdası | Operasyon | Bulwark yok et ×20 → Goombah yok et ×10 (rival x-4) → Crystalys yok et ×4 → Boss Crystalys yok et ×1 (sezonun 4. gününden itibaren) | 2 sa | 1.250.000 | 3.100.000 | 12.500 | 6.250 | – |
+| Üçlü Taç | Operasyon | Boss Crystalys yok et ×1 (DS-x) → Boss Goombah yok et ×1 (x-3) → Boss Phantasm yok et ×1 (x-4) → Pirate Boss yok et ×1 (x-3) → Boss Goombah yok et ×1 (rival x-4) (sezonun 4. gününden itibaren) | 1 sa 15 dk | 1.250.000 | 3.100.000 | 12.500 | 6.250 | – |
+| İlk Zindan | Operasyon | Goombah yok et ×60 → Klan zindanı 1. aşamayı tamamla (ödüllü tamamlama) → Boss Goombah yok et ×3 (x-3) (sezonun 4. gününden itibaren) | – | 1.550.000 | 3.900.000 | 15.500 | 7.750 | – |
+| **Gedik Komutanlığı** (Özel) | Operasyon | Boss Goombah yok et ×3 (x-4) → Boss Goombah yok et ×3 (rival x-4) → Boss Crystalys yok et ×3 (DS-x) → Pirate Boss yok et ×3 (x-3) → Breach Seal eşyasını Mission Control penceresine getir (x-4 sektöründe 3 Boss Goombah yok et: sonuncusu taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 3.475.000 | 8.700.000 | 34.750 | 17.375 | – |
+
+### 13. seviye: Dökümhane {#level-13-the-foundry}
+
+10 görev ve bir özel görev, toplam 34.816.000 XP.
+
+| Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Crystalys Tacı | Savaş | Boss Crystalys yok et ×1 (DS-1) → Boss Crystalys yok et ×1 (DS-2) → Boss Crystalys yok et ×1 (DS-3) → Crystalys yok et ×20 → Boss Crystalys yok et ×1 (DS-1) (sezonun 4. gününden itibaren) | – | 3.000.000 | 7.500.000 | 30.000 | 15.000 | – |
+| Tesseract Yıkıldı | Savaş | 28.400 / 6.100 noktasına uç (DS-4) → Facet yok et ×100 (DS-4) → Tesseract yok et ×1 (DS-4) → Boss Crystalys yok et ×1 (DS-3) → 10 dk kesintisiz kal (DS-4) (sezonun 4. gününden itibaren) | – | 3.000.000 | 7.500.000 | 30.000 | 15.000 | – |
+| Dökümhane Ateşi | Savaş | Goombah yok et ×150 → Crystalys yok et ×8 → Gamma Foundry tamamla → Boss Crystalys yok et ×2 (DS-x) (sezonun 4. gününden itibaren) | – | 3.000.000 | 7.500.000 | 30.000 | 15.000 | – |
+| Crystalys Temizliği | Savaş | Crystalys yok et ×40 → Boss Crystalys yok et ×1 (DS-x) → Crystalys yok et ×40 → Boss Crystalys yok et ×2 (DS-x) (sezonun 4. gününden itibaren) | – | 2.966.000 | 7.400.000 | 29.660 | 14.830 | – |
+| Kuşatma Koşusu | Keşif | 6.500 / 2.200 noktasına uç (x-4) → 13.000 / 3.000 noktasına uç (x-4) → 9.000 / 4.500 noktasına uç (rival x-1) → 12.500 / 6.000 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 6.000 / 13.500 noktasına uç (DS-x) → Boss Crystalys yok et ×1 (DS-x) → 6.000 / 13.500 noktasına uç (DS-x) → 26.000 / 4.500 noktasına uç (DS-x) → 12.500 / 6.000 noktasına uç (rival x-4) → 9.000 / 4.500 noktasına uç (rival x-1) → 13.000 / 3.000 noktasına uç (x-4) → 6.500 / 2.200 noktasına uç (x-4) → Boss Goombah yok et ×1 (rival x-4) → Boss Phantasm yok et ×1 (rival x-3) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | 1 sa 50 dk | 2.350.000 | 5.900.000 | 23.500 | 11.750 | – |
+| Diskin Kenarı | Keşif | 10 dk kesintisiz kal (DS-4) → Facet yok et ×60 (DS-4) → 10 dk kesintisiz kal (DS-4) → 25.900 / 3.600 noktasına uç (DS-4) → 28.400 / 6.100 noktasına uç (DS-4) → 25.900 / 8.600 noktasına uç (DS-4) → 23.400 / 6.100 noktasına uç (DS-4) → 10 dk kesintisiz kal (DS-4) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 2.350.000 | 5.900.000 | 23.500 | 11.750 | – |
+| Üçlü Görüş | Keşif | 16.000 / 9.000 noktasına uç (DS-1) → Boss Crystalys yok et ×1 (DS-1) → 16.000 / 9.000 noktasına uç (DS-2) → Boss Crystalys yok et ×1 (DS-2) → 16.000 / 9.000 noktasına uç (DS-3) → Boss Crystalys yok et ×1 (DS-3) (sezonun 4. gününden itibaren) | 2 sa 30 dk | 2.950.000 | 7.400.000 | 29.500 | 14.750 | – |
+| Siege Core | Operasyon | Crystalys yok et ×20 → Siege Core eşyasını Mission Control penceresine götür (x-4 sektöründeki Boss Phantasm taşır) → Core II eşyasını Mission Control penceresine götür (x-4 sektöründeki Boss Goombah taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 2.950.000 | 7.400.000 | 29.500 | 14.750 | – |
+| İkinci Zindan | Operasyon | Goombah yok et ×100 (rival x-4) → Klan zindanı 2. aşamayı tamamla (ödüllü tamamlama) → Boss Crystalys yok et ×2 (sezonun 4. gününden itibaren) | – | 2.950.000 | 7.400.000 | 29.500 | 14.750 | – |
+| Büyük Temizlik | Operasyon | Goombah yok et ×20 (x-4) → Crystalys yok et ×8 (x-4) → Boss Goombah yok et ×1 → Goombah yok et ×20 (rival x-4) → Crystalys yok et ×8 (rival x-4) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 2.350.000 | 5.900.000 | 23.500 | 11.750 | – |
+| **Dökümhane Komutanlığı** (Özel) | Operasyon | Boss Crystalys yok et ×1 (DS-1) → Boss Crystalys yok et ×1 (DS-2) → Boss Crystalys yok et ×1 (DS-3) → Boss Phantasm yok et ×2 (rival x-3) → Facet yok et ×100 (DS-4) → Tesseract yok et ×1 (DS-4) → Crystalys yok et ×19 (x-4) → Foundry Key eşyasını Mission Control penceresine götür (x-4 sektöründeki Crystalys taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 6.950.000 | 17.400.000 | 69.500 | 34.750 | – |
+
+### 14. seviye: Omega {#level-14-omega}
+
+10 görev ve bir özel görev, toplam 69.632.000 XP.
+
+| Görev | Görevi veren | Adımlar | Süre sınırı | XP | Kredi | Thulium | Onur | Eşyalar |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Boss Crystalys Kıyımı | Savaş | Boss Crystalys yok et ×1 (DS-1) → Boss Crystalys yok et ×1 (DS-2) → Boss Crystalys yok et ×1 (DS-3) → Boss Crystalys yok et ×1 (DS-1) → Boss Crystalys yok et ×1 (DS-2) → Boss Crystalys yok et ×1 (DS-3) → Crystalys yok et ×40 → Tesseract yok et ×1 (DS-4) → Boss Crystalys yok et ×1 (sezonun 4. gününden itibaren) | – | 5.800.000 | 14.500.000 | 58.000 | 29.000 | – |
+| Kuşatma Ustası | Savaş | Goombah yok et ×200 → Crystalys yok et ×15 → Delta Siege tamamla → Goombah yok et ×40 (rival x-4) → Boss Crystalys yok et ×3 (sezonun 4. gününden itibaren) | – | 5.800.000 | 14.500.000 | 58.000 | 29.000 | – |
+| Dormant Saltanatı | Savaş | Dormant Force yok et ×2 → Boss Crystalys yok et ×3 → Dormant Force yok et ×2 (sezonun 4. gününden itibaren) | – | 5.832.000 | 14.500.000 | 58.320 | 29.160 | – |
+| Büyük Keşif | Keşif | 9.000 / 4.500 noktasına uç (x-1) → 4.000 / 6.500 noktasına uç (x-2) → 3.500 / 6.200 noktasına uç (x-3) → 6.500 / 2.200 noktasına uç (x-4) → 9.000 / 4.500 noktasına uç (rival x-1) → 4.000 / 6.500 noktasına uç (rival x-2) → 3.500 / 6.200 noktasına uç (rival x-3) → 6.500 / 2.200 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 6.000 / 13.500 noktasına uç (DS-x) → Boss Goombah yok et ×1 (rival x-3) → Boss Crystalys yok et ×2 → 6.000 / 13.500 noktasına uç (DS-x) → 26.000 / 4.500 noktasına uç (DS-x) → 6.500 / 2.200 noktasına uç (rival x-4) → 3.500 / 6.200 noktasına uç (rival x-3) → 4.000 / 6.500 noktasına uç (rival x-2) → 9.000 / 4.500 noktasına uç (rival x-1) → 6.500 / 2.200 noktasına uç (x-4) → 3.500 / 6.200 noktasına uç (x-3) → 4.000 / 6.500 noktasına uç (x-2) → 9.000 / 4.500 noktasına uç (x-1) → 15 dk kesintisiz kal (DS-x) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 4.900.000 | 12.250.000 | 49.000 | 24.500 | – |
+| Karanlığı Tut | Keşif | 60 dk kesintisiz kal (DS-x) → Boss Crystalys yok et ×2 → 60 dk kesintisiz kal (DS-x) (sezonun 4. gününden itibaren) | – | 5.900.000 | 14.750.000 | 59.000 | 29.500 | – |
+| Fener Hattı II | Keşif | 60.000 birim devriye gez (x-3) → Boss Goombah yok et ×1 (x-3) → 60.000 birim devriye gez (x-4) → 60.000 birim devriye gez (rival x-4) → 60.000 birim devriye gez (DS-x) → Boss Crystalys yok et ×1 (sezonun 4. gününden itibaren) | – | 4.900.000 | 12.250.000 | 49.000 | 24.500 | – |
+| Köşeler İki Kez | Keşif | 3.000 / 3.000 noktasına uç (DS-x) → 29.000 / 3.000 noktasına uç (DS-x) → 29.000 / 15.000 noktasına uç (DS-x) → 3.000 / 15.000 noktasına uç (DS-x) → Crystalys yok et ×8 → 3.000 / 15.000 noktasına uç (DS-x) → 29.000 / 15.000 noktasına uç (DS-x) → 29.000 / 3.000 noktasına uç (DS-x) → 3.000 / 3.000 noktasına uç (DS-x) → 15 dk kesintisiz kal (DS-x) (tüm görev boyunca ölmeden) | 2 sa | 4.900.000 | 12.250.000 | 49.000 | 24.500 | – |
+| Crystalys Meydan Okuması | Operasyon | Crystalys yok et ×10 → Boss Crystalys yok et ×1 → Crystalys yok et ×10 (rival x-4) → Boss Crystalys yok et ×1 (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 5.900.000 | 14.750.000 | 59.000 | 29.500 | – |
+| Omega Konvoyu | Operasyon | Crystalys yok et ×10 (rival x-4) → Omega Core eşyasını Mission Control penceresine götür (rival x-4 sektöründeki Boss Goombah taşır) → Core II eşyasını Mission Control penceresine götür (x-4 sektöründeki Boss Phantasm taşır) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | 2 sa | 5.900.000 | 14.750.000 | 59.000 | 29.500 | – |
+| Savaş Lordu Yıkıldı | Operasyon | Goombah yok et ×200 → Klan zindanı 3. aşamayı tamamla (ödüllü tamamlama) → Boss Crystalys yok et ×3 (sezonun 4. gününden itibaren) | – | 5.900.000 | 14.750.000 | 59.000 | 29.500 | – |
+| **Omega Komutanlığı** (Özel) | Operasyon | Boss Crystalys yok et ×6 (DS-x) → Boss Goombah yok et ×6 (rival x-3) → Tesseract yok et ×1 (DS-4) → Omega Vault tamamla → Omega Seal eşyasını Mission Control penceresine götür (önceki adım sana verir) (tüm görev boyunca ölmeden) (sezonun 4. gününden itibaren) | – | 13.900.000 | 34.750.000 | 139.000 | 69.500 | – |
+
 ### İstasyon görevleri {#station-missions-table}
 
 Skylab üssünle ilgili 10 görev, toplam 8.300 XP. Sayılar temeldir: bulunduğun dünyanın bonusu, boosterlar, Premium XP ve klan güçlendirmeleri, seviye görevlerinde olduğu gibi bunlara eklenir.
@@ -544,5 +643,20 @@ On görev, istediğin sırayla. Bu son kademe.
 | Çiziksiz Sıfır | Operasyon | Goombah yok et ×20 (x-4) (gövde kaybı en fazla 556.000 puan) | – | 672.500 | 3.480.000 | 26.105 | 0 | Orvium Reinforced Plate ×14, Laser Damage Booster II, 22 sa |
 | Hattın Muhafızı | Operasyon | Goombah yok et ×400 (x-4) → Crystalys yok et ×30 (x-4) → 60 dk kesintisiz kal (x-4) → 8.000 / 4.500 noktasına uç (rival x-4) → 26.000 / 4.500 noktasına uç (DS-x) → 1.500 / 1.500 noktasına uç (x-1) | – | 1.782.500 | 30.440.000 | 200.000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×596, Hull Plating Booster II, 22 sa |
 
+
+### Geçit hattı görevleri {#gate-line-missions-table}
+
+Solo geçitler ve klan zindanları hakkında 8 görev, toplam 8.700.000 DP. Her biri, istediği koşunun ödediğini öder. Sayılar temeldir: dünyanın bonusu, güçlendiriciler, Premium DP ve klan güçlendirmeleri bir seviye görevinde olduğu gibi bunlara eklenir.
+
+| Görev | Görevi veren | Açılma | Adımlar | XP | Kredi | Thulium | Onur |
+| :--- | :--- | :--- | :--- | --: | --: | --: | --: |
+| Dokunulmamış Rift | Operasyon | 12. seviye | Alpha Rift ölmeden tamamla | 70.000 | 450.000 | 0 | 1.000 |
+| Dokunulmamış Gedik | Operasyon | 12. seviye | Beta Breach ölmeden tamamla | 180.000 | 1.500.000 | 0 | 2.500 |
+| Dökümhane Sprinti | Operasyon | 13. seviye | Gamma Foundry 25 dk veya daha kısa sürede tamamla | 400.000 | 4.000.000 | 0 | 5.500 |
+| Dokunulmamış Dökümhane | Operasyon | 13. seviye | Gamma Foundry ölmeden tamamla | 400.000 | 4.000.000 | 0 | 5.500 |
+| Kuşatma Sprinti | Operasyon | 14. seviye | Delta Siege 35 dk veya daha kısa sürede tamamla | 800.000 | 8.000.000 | 0 | 10.000 |
+| Muhafızın Lütfu | Operasyon | 14. seviye | Omega Vault ölmeden tamamla | 1.500.000 | 15.000.000 | 0 | 20.000 |
+| Rift Yürüyücüsü | Operasyon | 14. seviye | Alpha Rift tamamla; Beta Breach tamamla; Gamma Foundry tamamla; Delta Siege tamamla; Omega Vault tamamla (tek bir sezon içinde) | 2.950.000 | 28.950.000 | 35.500 | 39.000 |
+| Zindan Müdavimi | Operasyon | 14. seviye | Klan zindanı 3. aşamayı tamamla (ödüllü tamamlama), 3 kez (tek bir sezon içinde) | 2.400.000 | 17.500.000 | 3.750 | 100.000 |
 
 <!-- quests:end -->

@@ -78,6 +78,7 @@ Built from the Crystalys at 625% of its hull; it has no weapon, and its shield a
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20, at most 5 for each pilot |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

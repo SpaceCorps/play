@@ -57,7 +57,7 @@ Base: Wraith; rispetto all’originale, scafo 100% e danno dei laser 300%; veloc
 | :--- | ---: | ---: | ---: |
 | Scafo | 256.000 | 384.000 | 512.000 |
 | Scudo | 83.400 | 125.100 | 166.800 |
-| Danno dei laser (una raffica al secondo) | 3.570 | 5.355 | 7.140 |
+| Danno dei laser (una raffica al secondo) | 3.315 | 4.973 | 6.630 |
 | Velocità | 210 | 210 | 210 |
 | Portata dei laser | 800 | 800 | 800 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |
@@ -75,6 +75,7 @@ Base: Wraith; rispetto all’originale, scafo 100% e danno dei laser 300%; veloc
 | Ultra Core e Experimental Fusion Core, divisi in parti uguali | 100% | 2.000–3.000 in tutto |
 | Uno dei 4 [razzi](/wiki/06-Items/Rockets.md) Epici, scelto a caso | 100% | 30–50 |
 | Uno tra [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) e [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), scelto a caso | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

@@ -80,6 +80,7 @@ Base : Crystalys, avec 625 % de sa coque ; sans arme, avec un bouclier et une
 | Power Core | 66 % | 4–7 |
 | Ancient Control Unit | 100 % | 1–4 |
 | Dark Matter | 100 % | 10–20, au plus 5 par pilote |
+| Heartshard | 5 % | 1 |
 
 ### Facet
 

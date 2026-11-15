@@ -57,7 +57,7 @@ Base : Wraith, avec 100 % de sa coque et 300 % de ses dégâts laser ; la vi
 | :--- | ---: | ---: | ---: |
 | Coque | 256 000 | 384 000 | 512 000 |
 | Bouclier | 83 400 | 125 100 | 166 800 |
-| Dégâts des lasers (une salve par seconde) | 3 570 | 5 355 | 7 140 |
+| Dégâts des lasers (une salve par seconde) | 3 315 | 4 973 | 6 630 |
 | Vitesse | 210 | 210 | 210 |
 | Portée des lasers | 800 | 800 | 800 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |
@@ -75,6 +75,7 @@ Base : Wraith, avec 100 % de sa coque et 300 % de ses dégâts laser ; la vi
 | Ultra Core et Experimental Fusion Core, répartis à parts égales | 100 % | 2 000–3 000 en tout |
 | L’une des 4 [roquettes](/wiki/06-Items/Rockets.md) Épiques, tirée au hasard | 100 % | 30–50 |
 | L’un de [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) et [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), tiré au hasard | 50 % | 1 |
+| Heartshard | 5 % | 1 |
 
 ### Dormant Pulse
 

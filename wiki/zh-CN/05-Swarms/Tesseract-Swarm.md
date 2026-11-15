@@ -80,6 +80,7 @@ Tesseract 的奖励与这场战斗的分量相称：相当于许多 Crystalys �
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20，每名飞行员最多 5 |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

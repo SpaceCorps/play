@@ -47,7 +47,7 @@ AI agents, automated test suites, and scripting environments should invoke this 
 ---
 
 <!-- release:packages -->
-## 3. Package Inventory & Release Artifacts (v0.5.6)
+## 3. Package Inventory & Release Artifacts (v0.5.7)
 
 Every release published to `https://github.com/SpaceCorps/play/releases` updates `release.json` with cryptographic digests:
 
@@ -56,50 +56,50 @@ Every release published to `https://github.com/SpaceCorps/play/releases` updates
 1. **macOS Universal:**
    - Filename: `SpaceCorps2027-macos-universal.dmg`
    - Target Architectures: `aarch64` (Apple Silicon M1/M2/M3/M4) + `x86_64` (Intel)
-   - Size: 174,995,936 bytes (175.0 MB)
-   - SHA-256: `04a203b03a034904671118e87ffdca1e9edc6e95e7fa88816cab73f5bc8af2fd`
+   - Size: 173,815,650 bytes (173.8 MB)
+   - SHA-256: `d5d6a2a02154e57841fbfb8a9670711593215214b914d74e685cb40617dab8bc`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg`
 
 2. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-x86_64.zip`
    - Target Architectures: `x86_64` (AMD64 / Intel 64)
-   - Size: 168,047,876 bytes (168.0 MB)
-   - SHA-256: `ce9d35d3626abd4f7fff5cd588f8e035bbc27c9ecfefc8d5f1ab5eae846c512c`
+   - Size: 165,440,186 bytes (165.4 MB)
+   - SHA-256: `b0b5daadeacc106bc82d6aef2eb15fa128174991a53cbe9412a67a6a265cb9df`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip`
 
 3. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-x86_64.AppImage`
    - Target Architectures: `x86_64`
-   - Size: 162,339,320 bytes (162.3 MB)
-   - SHA-256: `fe01fdcb1455fd4807bf55ee6825c357edfe43d720d7dc921ebde3e0d889e3b1`
+   - Size: 159,885,816 bytes (159.9 MB)
+   - SHA-256: `8449b78139a47455be1e626b6aaa23028e86d931968238a04a28c65b6168ef0a`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage`
 
 4. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-x86_64.tar.gz`
    - Target Architectures: `x86_64`
-   - Size: 168,949,945 bytes (168.9 MB)
-   - SHA-256: `84f87b8bfb9100c89fc6eee52eb9163990fd0b79d05fa1ae33eb8574b46ecbde`
+   - Size: 166,347,443 bytes (166.3 MB)
+   - SHA-256: `efcf799a107611de73697c37bfd0550a63cdb87dc060f647019e7e0ba409dc63`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz`
 
 5. **Windows x86_64:**
    - Filename: `SpaceCorps2027-windows-aarch64.zip`
    - Target Architectures: `aarch64`
-   - Size: 166,247,706 bytes (166.2 MB)
-   - SHA-256: `129ded3261f363e04fc587ffbfda3dc401aa3d4ac19736c795d7f57ca532a3ef`
+   - Size: 163,618,938 bytes (163.6 MB)
+   - SHA-256: `07d05d41e4eee09345e4941953fcb6a00b425b2f8ff0fbe660eee74b66042a6b`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip`
 
 6. **Linux AppImage:**
    - Filename: `SpaceCorps2027-linux-aarch64.AppImage`
    - Target Architectures: `aarch64`
-   - Size: 160,766,472 bytes (160.8 MB)
-   - SHA-256: `b8ed438b1f51056dfbd7ce937d443bdec09cadc0eb20ab582d83844e8d4f3a12`
+   - Size: 158,304,776 bytes (158.3 MB)
+   - SHA-256: `192c836577abf29d59bb54de943da70abf244d9193e0a8575aa4eaa9105a5b70`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage`
 
 7. **Linux Tarball:**
    - Filename: `SpaceCorps2027-linux-aarch64.tar.gz`
    - Target Architectures: `aarch64`
-   - Size: 167,191,858 bytes (167.2 MB)
-   - SHA-256: `9086bb78cfc470597c7626bc99a4bbbe98b8cf5767023bfdc4d13d424e737c65`
+   - Size: 164,579,084 bytes (164.6 MB)
+   - SHA-256: `178af7a45c7e36cd37f3abfcc3cd15c72b819a31aab51bd5074d3a9d091b7353`
    - URL: `https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz`
 
 Signed checksums: each release also carries `SHA256SUMS` (the SHA-256 of every package above,
@@ -208,10 +208,10 @@ The complete SpaceCorps 2027 knowledge base is programmatically synchronized fro
 - **Raw Markdown Archive:** `https://spacecorps.github.io/play/wiki/`
 
 <!-- release:wiki -->
-The catalog contains 74 articles in 6 modules:
+The catalog contains 76 articles in 6 modules:
 1. `01-General`: Danger Sectors, Getting Started in SpaceCorps, Recipe Book and Builds, Spacemap Travel.
-2. `02-Ships`: Ironclad, Kitefin, Nomad, Ostirion, Paragon, Protos, Storm, Wraith.
-3. `03-Mechanics`: Active Ship Abilities, Achievements, Asteroid Mining, Auction, The Black Hole, Cargo Boxes, Clans, Combat Mechanics, Company Pilots, Daily Rewards, Dark Matter and Dark Matter Plates, Davidski, Dormant Swamp, Drone Mechanics, Dungeons, Drone Formations, Giant Excavator, Groups, The Hangar in Flight, Inventory & Equipment, Invite Friends, P.E.T.s, Pilot Skills, Quests, Ranks, Research, Seasons and Rewards, Shield Mechanics, Ship Designs, Skylab, Solo Gates, Speed Calculation, Statistics, Wipe Timeline & Seasons.
+2. `02-Ships`: Ironclad, Kitefin, Miyuki, Nomad, Ostirion, Paragon, Protos, Storm, Wraith.
+3. `03-Mechanics`: Active Ship Abilities, Achievements, Asteroid Mining, Auction, The Black Hole, Cargo Boxes, Clans, Combat Mechanics, Company Pilots, Daily Rewards, Dark Matter and Dark Matter Plates, Davidski, Dormant Swamp, Drone Mechanics, Dungeons, Drone Formations, Giant Excavator, Groups, The Hangar in Flight, Inventory & Equipment, Invite Friends, P.E.T.s, Pilot Skills, Quests, Ranks, Research, Seasons and Rewards, Servers, Shield Mechanics, Ship Designs, Skylab, Solo Gates, Speed Calculation, Statistics, Wipe Timeline & Seasons.
 4. `04-Aliens`: Bulwark, Crystalys, Goombah, Phantasm, Seeker.
 5. `05-Swarms`: Crystalys Swarm, Dormant Swarm, Goombah Swarm, Phantasm Swarm, Pirate Swarm, Seeker Swarm, Swarms, Tesseract Swarm.
 6. `06-Items`: Boosters, Containers, Cosmetics, Drones, Extras, The Forge, Hull Plating, Item Trees, Lasers & Ammo, Items Overview, Propulsion & Speed, Resources, Rockets, Shields & Defense, Special Items.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -26,7 +26,7 @@ En skin är ett färgschema gjort av skeppets eget skrov: panellinjer, nummer oc
 
 Skins hör till ditt **konto**, inte till ett skepp, och de finns kvar över [wipen](/wiki/03-Mechanics/Wipe-Timeline.md); dina skepp bär det de bar.
 
-[Kromaarkivet](/wiki/06-Items/Containers.md#chroma-archive) kan ge varje kollektion utom Bloody R.E.D, och det ger en hel kollektion på en gång: alla dess skins som du inte har.
+[Kromaarkivet](/wiki/06-Items/Containers.md#chroma-archive) kan ge varje kollektion utom Bloody R.E.D, en skin åt gången: en kollektion som pris ger en skin ur den, för en skeppsmodell. Det är skinen för ditt aktiva skepp om kollektionen har en för det och du inte har den än; annars skinen för ett annat skepp du äger; annars den första skinen i kollektionen som du saknar. Flyg alltså det skepp du vill ha skinen till när du öppnar ett arkiv. Kollektionen kan komma igen tills du har alla dess skins. En kollektion som kom hel före 0.5.7 förblir din, med varje skin.
 
 | Kollektion | Skepp | Sällsynthet | Hur den ser ut |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ En aura stannar inom ringen som markerar en målfixering och ritas under allt an
 ## Garderoben {#the-wardrobe}
 
 - **Flikar.** Skin, Aura, Avgasspår och Drönare. Ett sällsynthetschip filtrerar en flik till en enda sällsynthet, och **Bara mina** listar det du kan bära.
-- **En ruta säger hur du står till med utseendet.** **Bärs** (skeppet har det på sig), **Ägs** (du har det), **Följer med platsen** (varje pilot har det) eller **Går inte att få ännu**, med ett dovt tick när du klickar.
+- **En ruta säger hur du står till med utseendet.** **Bärs** (skeppet har det på sig), **Ägs** (du har det), **Följer med platsen** (varje pilot har det) eller **Går inte att få ännu**, med ett dovt tick när du klickar. En skins ruta visar också hur många av kollektionens skeppsskins du äger, till exempel 1/4.
 - **Ta av ett utseende.** Rutan **Vanlig** på fliken Skin ger skeppet tillbaka dess vanliga lackering, och **Ingen** tar av auran.
 - **Mer än ett skepp.** Reglaget längst ned på bladet, **Använd även på mina andra skepp av den här modellen** för en skin och **Använd även på mina andra skepp** för en aura eller ett avgasspår, gör att ett klick lägger utseendet på alla.
 - **Var du kan ändra det.** Där du kan ändra din utrustning: dockad, eller i en säker zon med skyddet på, som i [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

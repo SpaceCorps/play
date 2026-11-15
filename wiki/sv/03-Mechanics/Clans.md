@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd3d3fd86dec6831 -->
+<!-- wiki-i18n source: 01fdc9ec2ce02960 -->
 <!-- wiki-i18n title: Klaner -->
 # Klaner {#clans}
 
@@ -200,7 +200,7 @@ Knappen **Vem är online** i systemverktygsfältet (uppe till höger) eller tang
 
 ## Klanchatt {#clan-chat}
 
-Fliken **Klan** i chatten ([Chattkanaler](/wiki/03-Mechanics/Groups.md#chat-channels), kommandot `/c`) är bara för medlemmarna i din klan. Servern sparar de senaste **200 raderna**, ingen äldre än **14 dagar**, så att en medlem som inte var online hittar dem vid inloggningen eller vid inträdet: äldsta först, under en rad som säger hur länge chatten sparas, med datumet på raderna från tidigare dagar. Den som lämnar klanen eller blir utkastad får inget mer av den. När klanen upplöses, av sin ledare eller av [wipen](#the-wipe-disbands-every-clan), raderas dess rader med den.
+Fliken **Klan** i chatten ([Chattkanaler](/wiki/03-Mechanics/Groups.md#chat-channels), kommandot `/c`) är bara för medlemmarna i din klan. Servern sparar de senaste **200 raderna**, ingen äldre än **14 dagar**, så att en medlem som inte var online hittar dem vid inloggningen eller vid inträdet: äldsta först, under en rad som säger hur länge chatten sparas, med datumet på raderna från tidigare dagar. Den som lämnar klanen eller blir utkastad får inget mer av den. När klanen upplöses, av sin ledare eller av [wipen](#the-wipe-disbands-every-clan), raderas dess rader med den. Chatten fungerar på alla servrar: en rad du skriver medan du flyger på en regional server når din klan var medlemmarna än är, och de sparade raderna skickas till dig där också.
 
 ---
 
@@ -262,7 +262,7 @@ Linjerna går i en cykel om sju: linjen för dag *d* har nummer 1 + ((*d* − 1)
 | Long Haul | 3, 10, 17, 24 | 290 000 / 385 000 / 460 000 enheter | 90 / 180 / 260 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah |
 | Swarm Break I | 4, 11, 18, 25 | 75 / 150 / 220 Seeker | 3 Boss Seeker / 3 Boss Seeker / 2 Pirate Boss | 26 / 85 / 170 Phantasm | 30 Phantasm / 18 Bulwark / 21 Goombah |
 | Heavy Iron | 5, 12, 19, 26 | 40 Phantasm / 24 Bulwark / 28 Goombah | 21 / 70 / 130 Phantasm | 175 000 / 230 000 / 275 000 enheter | 75 / 150 / 220 Seeker |
-| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 1 Pirate Boss / 3 Pirate Boss | 350 000 / 460 000 / 550 000 enheter |
+| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 2 Pirate Boss / 3 Pirate Boss | 350 000 / 460 000 / 550 000 enheter |
 | Grand Round | 7, 14, 21, 28 | 100 / 210 / 300 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah | 230 000 / 305 000 / 365 000 enheter |
 
 ### Din belöning {#the-reward-for-you}
@@ -279,7 +279,7 @@ När linjen är klar, alltså när väktaren är förgjord, får varje medlem so
 
 ## Klanväktare {#clan-wardens}
 
-En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)). Sedan 0.4.16 har Brood Warden III **hälften** så mycket skrov och sköld, dess drönare läker hälften så mycket och kommer hälften så ofta, och varje väktare tar med sig [vågor av utomjordingar](#waves-of-aliens) så länge den står.
+En **klanväktare** är bossen i slutet av dagslinjen. Den är ingen av de publika [svärmarna](/wiki/05-Swarms/Swarms.md) som ströftar omkring i en sektor: din klan **kallar fram den** och **bara din klan kan skada den**. Tre väktare turas om, en per dag: dag 1 **Brood**, dag 2 **Siege**, dag 3 **Wrath**, dag 4 Brood igen, och så vidare (dag 15 är en Wrath-dag). Var och en finns i tre styrkor, **I, II och III**, som klanens nivå bestämmer. En väktare är en utomjording av en egen sort, som svärmarnas skepp: den räknas inte som Seeker, Phantasm eller någon annan utomjording. En väktare är mycket stark: den har fem gånger så mycket skrov, sköld och laserskada som före 0.4.13, så den är en strid för den största besättning som din klan kan få ihop ([hur stor besättning som behövs](#how-big-a-crew)). Sedan 0.4.16 har Brood Warden III **hälften** så mycket skrov och sköld, dess drönare läker hälften så mycket och kommer hälften så ofta, och varje väktare tar med sig [vågor av utomjordingar](#waves-of-aliens) så länge den står. Sedan 0.5.7 är en väktare bara så stark som den besättning som är på plats när den blir stridsberedd ([en väktare är så stark som besättningen](#strength-by-the-crew)).
 Under halva skrovet har en väktares vågor också [en Crystalys](#crystalys-waves).
 Sedan 0.4.20 **går en Wrath Warden på den pilot som träffade den** i stället för att stå där den kallades fram, Wrath Warden III tar med fler utomjordingar oftare och en Crystalys när den har mindre än halva skrovet kvar, och allt en väktare tar med sig kommer riktat mot de piloter som träffade den.
 Sedan 0.4.22 **går varje väktare på den pilot som träffade den**, som Wrath Warden har gjort sedan 0.4.20, i stället för att stå där den kallades fram eller ströva omkring.
@@ -298,13 +298,13 @@ Sedan 0.4.22 **går varje väktare på den pilot som träffade den**, som Wrath 
 - **Var den dyker upp.** 3 000 till 4 500 enheter från ditt skepp, i din värld: bara piloter i den världen kan nå den. Fliken rekommenderar **x-2 för en Rekryt-klan, x-3 för Veteran och x-4 för Elit**. De vanliga [PvP-reglerna](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) för sektorn du väljer gäller fortfarande.
 - **Uppvärmning.** Den står **90 sekunder** skärmad och passiv (»startar upp«), och varje klanpilot som är online får veta var. Flyg dit medan den startar upp: när de 90 sekunderna är över är den aktiv. En kapsel under skyddszonsmärket på flygskärmen följer den: dess namn, ”startar upp” med tiden som är kvar, sedan ”aktiv” med dess sektor och tiden tills den drar sig tillbaka, och ”rasande” när en Wrath Warden har under halva skrovet.
 - **Bara din klan.** Skott från andra klaners piloter ignoreras och får den inte att slå tillbaka.
-- **Hur det tar slut.** När den förgörs. Den **drar sig tillbaka** 40 minuter efter att den aktiverades, när dagen tar slut, när ingen pilot i din klan har varit ute i flygning på dess karta på 2 minuter, eller när servern startar om (den frammaningen ges tillbaka). En väktare som drar sig tillbaka kostar en frammaning, och nästa anrop är samma väktare med full styrka.
+- **Hur det tar slut.** När den förgörs. Den **drar sig tillbaka** 40 minuter efter att den aktiverades, när dagen tar slut, när ingen pilot i din klan har varit ute i flygning på dess karta på 2 minuter, eller när servern startar om (den frammaningen ges tillbaka). En väktare som drar sig tillbaka kostar en frammaning, och nästa anrop för tillbaka den med den styrka som besättningen på plats då ger den ([en väktare är så stark som besättningen](#strength-by-the-crew)).
 
 ### Strida mot en väktare {#fighting-a-warden}
 
 - **En väktare strider mot den pilot som träffade den först**, som varje boss: låt besättningens kraftigaste skepp börja och använd [Shield Surge och Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 17 till 26 piloter med x2-ammunition och 26 till 39 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen.
-- **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem förlorar, även en stor. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder (efter 16 för Brood Warden III). Sedan 0.4.22 flyger Brood Warden på den pilot som träffade den, och dess drönare följer med och fortsätter läka den.
+- **Ta med den största besättning du kan, med x2-ammunition** ([Lasrar](/wiki/06-Items/Lasers.md#laser-ammunition)). Besättningarna som vann före 0.4.13, ungefär sju piloter, förlorar nu. Tabellen nedan är en beräkning och bästa fallet: även i den förlorar tio piloter mot varje väktare, och den minsta besättning som kan vinna har 15 till 25 piloter med x2-ammunition och 23 till 38 med x1-ammunition. Vågorna nedan ingår inte i den beräkningen. Tabellen nedan gäller en väktare med full styrka: en mindre besättning möter en mindre väktare ([en väktare är så stark som besättningen](#strength-by-the-crew)).
+- **Brood:** drönarna läker dess skrov, och en besättning som struntar i dem behöver ungefär en tredjedel fler piloter. Skjut dem först och fortsätt skjuta dem: en ny kommer efter 8 sekunder (efter 16 för Brood Warden III). Sedan 0.4.22 flyger Brood Warden på den pilot som träffade den, och dess drönare följer med och fortsätter läka den.
 - **Siege:** dess raketer är raka och ostyrda, så ett skepp som fortsätter röra sig väjer för de flesta. Fortsätt röra dig och turas om att vara måltavla. Sedan 0.4.22 ströftar den inte längre omkring: den flyger på den första pilot som träffade den och avfyrar sin Rivet mot honom från upp till 1 000 enheter.
 - **Wrath:** när dess skrov är under hälften träffar varje salva en och en halv gång så hårt, så stridens andra hälft är den farliga. Ta ned första hälften snabbt, håll sköldarna uppe och spara Emergency Repair till raseriet. Sedan 0.4.20 står den inte stilla: den flyger på den första pilot som träffade den, 90 enheter i sekunden, tills den är inom sina lasrars räckvidd (700, 800 eller 900 enheter efter styrka) och skjuter därifrån, så ett vapen med längre räckvidd skjuter inte längre på den utan svar.
 - **Alla nio flyger på den pilot som träffade dem (0.4.22).** Brood och Siege Warden gör vad Wrath Warden har gjort sedan 0.4.20, var och en med sin egen fart (90 enheter i sekunden för Brood och Wrath Warden, 110 för Siege Warden), tills de är inom sina lasrars räckvidd (600, 700 eller 800 enheter för Brood och Siege Warden efter styrka, 700, 800 eller 900 för Wrath Warden), så ett vapen med längre räckvidd skjuter inte längre på dem utan svar. När ingen har träffat en på 10 sekunder släpper den piloten och blir stående där den är: den flyger inte tillbaka dit den kallades fram. En pilot som är skyddad, i en säker zon eller av en återuppståndelses skydd, släpps genast.
@@ -324,7 +324,7 @@ Sedan 0.4.16 står en väktare inte ensam. Från det ögonblick den är **beväp
 - **Högst tre vågor lever.** En våg lever så länge en av dess utomjordingar gör det. En våg som ska komma när tre lever hoppas över och sparas inte till senare; nästa kommer en minut senare.
 - **Det är vanliga utomjordingar**, gjorda så som kartan gör dem: en starkare värld ger dem mer skrov, sköld och skada ([Världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), vilken styrka väktaren själv än har. Bulwark och Goombah kommer till varje karta, också till en x-2-sektor där ingen av dem annars lever. De kommer 500 till 1 200 enheter från väktaren, utspridda runt den.
 - **De ingår inte i striden om väktaren.** De läker ingenting, och att skjuta på dem ger ingenting till din andel av skadan på väktaren. Vilken pilot på kartan som helst kan döda dem. Var och en betalar sin utomjordings vanliga betalning i din värld och ger PvE-poäng: en hel våg ur tabellen betalar 29 000 krediter i Alpha på x-2 (5 utomjordingar) och 60 000 på x-3 och x-4 (10 utomjordingar), en våg från en Warden I 17 000 och 34 000, under 2 % av vad den egna väktaren betalar.
-- **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler; utomjordingarna som redan är ute blir kvar och är kartans vanliga utomjordingar (en sort som sektorn inte har av sig själv, till exempel Bulwark och Goombah i en x-2-sektor, lämnar den fem minuter efter väktaren om inte piloter fortfarande strider mot den). En omstart av servern avslutar dem tillsammans med väktaren.
+- **De upphör med väktaren.** När den förstörs eller drar sig tillbaka kommer inga fler, och utomjordingarna som redan är ute **lämnar kartan 20 sekunder senare**, av vilken sort de än är och vare sig de strider eller inte: gör dig av med dem på den tiden eller led bort dem. (Fram till 0.5.6 blev de kvar i fem minuter eller mer, och en pilot som kom senare mötte dem.) De går tyst, utan nedskjutning och utan betalning. En omstart av servern avslutar dem tillsammans med väktaren.
 - **Klanen får veta.** Varje våg annonseras på chattens flik System och i Spelloggen, med en rad för varje sort utomjording i den: »Brood Warden II kallar på förstärkning i M-3: 5 Phantasm.«, »Brood Warden II kallar på förstärkning i M-3: 3 Bulwark.« och »Brood Warden II kallar på förstärkning i M-3: 2 Goombah.« (en Warden I berättar med två rader, eftersom den inte har någon Goombah)
 - **De kommer riktade (0.4.20).** Utomjordingarna i en våg kommer med vetskap om vem väktaren strider mot: de går på de piloter som träffade den, den första först, från det ögonblick de dyker upp, och håller sig efter dem så länge väktaren träffas. En väktare som ingen strider mot skickar utomjordingar som ströftar omkring: Phantasm och Bulwark drar till sig den som kommer nära, som förut, och en Goombah, som aldrig börjar en strid, ströftar omkring tills någon skjuter på den.
 
@@ -339,15 +339,15 @@ Sedan 0.4.22 gör **varje väktare** det Wrath Warden III gjorde från 0.4.20: u
 
 | Väktare | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 44 | 47 | 47 |
-| Siege Warden I | 40 | 43 | 43 |
-| Wrath Warden I | 45 | 48 | 48 |
-| Brood Warden II | 43 | 48 | 48 |
-| Siege Warden II | 35 | 39 | 39 |
-| Wrath Warden II | 40 | 45 | 45 |
-| Brood Warden III | 22 | 23 | 23 |
-| Siege Warden III | 26 | 28 | 28 |
-| Wrath Warden III | 36 | 40 | 40 |
+| Brood Warden I | 41 | 44 | 44 |
+| Siege Warden I | 37 | 40 | 40 |
+| Wrath Warden I | 42 | 45 | 45 |
+| Brood Warden II | 39 | 44 | 44 |
+| Siege Warden II | 31 | 35 | 35 |
+| Wrath Warden II | 35 | 40 | 40 |
+| Brood Warden III | 21 | 22 | 22 |
+| Siege Warden III | 26 | 27 | 27 |
+| Wrath Warden III | 34 | 39 | 39 |
 
 #### Wrath Warden III:s vågor {#wrath-iii-waves}
 
@@ -361,7 +361,13 @@ Sedan 0.4.20 tar **Wrath Warden III** med mer, och oftare: en våg var **40:e se
 
 - **Högst fyra vågor är levande.** En våg som är förfallen när fyra lever hoppas över, som hos de andra väktarna.
 - **Vad de betalar.** En hel våg av 15 utomjordingar betalar 101 000 krediter i Alpha, och med sin Crystalys 176 000: ungefär 2 % av de 7 200 000 som väktaren själv betalar.
-- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **36 piloter på x-2, 40 på x-3 och 40 på x-4** med x2-ammunition (26 utan vågor), och 46, 52 och 52 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så på x-3 och x-4 i Gamma kan den inte skicka tillräckligt många; en klan på nivå 5 rymmer 100. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
+- **Vad de kräver av besättningen.** Beräkningen i [hur stor besättning som behövs](#how-big-a-crew), med de här vågorna och Crystalys, ger **34 piloter på x-2, 39 på x-3 och 39 på x-4** med x2-ammunition (25 utan vågor), och 45, 51 och 51 i Gamma, där vågornas utomjordingar är dubbelt så starka. En klan på nivå 3 rymmer 50 medlemmar, så på x-3 och x-4 i Gamma kan den inte skicka tillräckligt många; en klan på nivå 5 rymmer 100. Liksom tabellen där är det beräknat och inte mätt, och det bästa fallet.
+
+### En väktare är så stark som besättningen {#strength-by-the-crew}
+
+Sedan 0.5.7 är en väktare **bara så stark som den besättning som är på plats när den blir stridsberedd**. När dess uppvärmning på 90 sekunder är slut räknar spelet de piloter i din klan som **flyger utanför säkerhetszonerna på väktarens karta**: piloter från andra klaner, piloter i en säkerhetszon och piloter på andra kartor räknas inte. Väktaren strider sedan **hela striden** med den del av sin styrka som dess tabell ger för det antalet: den som kommer senare ändrar ingenting, så samlas under uppvärmningen. Allt den består av och gör skalas ihop: skrov och sköld hos väktaren och dess hjälpare, deras laserskada, deras läkning, Siege Wardens raket och hur många utomjordingar som kommer i varje [våg](#waves-of-aliens), Crystalys inräknad, som bara kommer från halva styrkan och uppåt. Belöning, byte och alla tider förblir som de är.
+
+Tabellerna är beräknade med samma strider som [hur stor besättning som behövs](#how-big-a-crew), för en besättning av väktarens egen nivå: en klan med 5 piloter på plats möter den väktare som en femtedel färre piloter besegrar i beräkningen, eftersom beräkningen är bästa fallet och en riktig strid är hårdare. En klan med **5 piloter** möter en väktare med **12 till 23 %** av sin fulla styrka, en klan med **8 piloter** en med **16 till 29 %**, och full styrka kommer med **28 till 72 piloter**, beroende på väktare; däremellan stiger styrkan längs en rak linje från ett steg i tabellen till nästa, och färre än 3 piloter möter det som 3 möter. När väktaren blir stridsberedd läser din klan en rad i chatten: ”Besättning på plats: 5. Brood Warden II strider med 16 % av sin fulla styrka.”
 
 ### Hur stor besättning som behövs {#how-big-a-crew}
 
@@ -372,16 +378,16 @@ Tabellen visar bästa fallet; i spelet, ta med så många du kan.
 
 | Besättning | Med x2-ammunition | Med x1-ammunition |
 | :--- | :--- | :--- |
-| 5 piloter | förlorar mot varje väktare; väktaren behåller 88 till 96 % av sitt skrov och sin sköld | förlorar |
-| 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 86 % av sitt skrov och sin sköld | förlorar |
-| 20 piloter | vinner bara mot Siege Warden I och II, på 7,2 till 7,3 minuter, och förlorar 6 skepp, samt mot Brood Warden III, på 3,7 minuter, och förlorar 8 skepp | förlorar |
-| 30 piloter | vinner mot alla väktare på 2,0 till 5,2 minuter och förlorar 3 till 11 skepp | vinner bara mot Siege Warden I och II, på 10,4 till 10,5 minuter, och förlorar 9 skepp, samt mot Brood Warden III, på 5,1 minuter, och förlorar 11 skepp |
+| 5 piloter | förlorar mot varje väktare; väktaren behåller 84 till 96 % av sitt skrov och sin sköld | förlorar |
+| 10 piloter | förlorar mot varje väktare; väktaren behåller 55 till 84 % av sitt skrov och sin sköld | förlorar |
+| 20 piloter | vinner bara mot Siege Warden I och II, på 6,2 till 6,4 minuter, och förlorar 4 till 5 skepp, samt mot Brood Warden III, på 3,5 minuter, och förlorar 8 skepp | förlorar |
+| 30 piloter | vinner mot alla väktare på 1,9 till 4,9 minuter och förlorar 2 till 10 skepp | vinner bara mot Siege Warden I och II, på 8,8 till 9,2 minuter, och förlorar 6 till 8 skepp, samt mot Brood Warden III, på 4,8 minuter, och förlorar 11 skepp |
 
-I beräkningen har den minsta besättning som vinner med x2-ammunition **17 till 26 piloter** (som minst mot Siege Warden I och II) och förlorar **10 till 17** skepp på köpet; med x1-ammunition har den **26 till 39** piloter och förlorar 12 till 25. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 55 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
+I beräkningen har den minsta besättning som vinner med x2-ammunition **15 till 25 piloter** (som minst mot Siege Warden I och II) och förlorar **7 till 18** skepp på köpet; med x1-ammunition har den **23 till 38** piloter och förlorar 11 till 25. En väktares lasrar slår med hundratals per salva i styrka I (240 till 645) och tusentals i styrka III (9 225 till 15 450), och dess hjälpare läggs till: skeppet den slåss mot faller på 18 till 70 sekunder, och sedan vänder den sig mot nästa, så även en besättning som vinner förlorar många skepp.
 
 Tabellen gäller en besättning med utrustning för väktarens egen nivå. Svagare skepp klarar sig sämre. **Din** klans väktare matchar alltid **din** nivå, som klanens fem bästa piloter bestämmer, så ta med dem.
 
-**En klan som är för liten för sin väktare** är inte utestängd. De fyra uppdragen betalar sina **70 poäng** vad som än händer med väktaren, poängen köper bonusar, och klanen kan kalla fram väktaren igen om den har en frammaning kvar (det finns två per dag): faller besättningen och håller sig borta drar sig väktaren tillbaka, vilket kostar en frammaning, och nästa anrop för tillbaka den med full styrka. Men linjen blir inte klar, så ingen får [belöningen till dig](#the-reward-for-you), och en klan som aldrig dödar sin väktare har alla 30 bonusnivåer tidigast på dag 18, inte på dag 12 ([hur lång tid det tar](#how-long-it-takes)).
+**En klan som är för liten för sin väktare** är inte utestängd. De fyra uppdragen betalar sina **70 poäng** vad som än händer med väktaren, poängen köper bonusar, och klanen kan kalla fram väktaren igen om den har en frammaning kvar (det finns två per dag): faller besättningen och håller sig borta drar sig väktaren tillbaka, vilket kostar en frammaning, och nästa anrop för tillbaka den med den styrka som besättningen på plats då ger den. Men linjen blir inte klar, så ingen får [belöningen till dig](#the-reward-for-you), och en klan som aldrig dödar sin väktare har alla 30 bonusnivåer tidigast på dag 18, inte på dag 12 ([hur lång tid det tar](#how-long-it-takes)).
 
 ### Väktarnas siffror {#warden-numbers}
 
@@ -392,9 +398,9 @@ Väktarna har samma siffror i varje värld (Alpha-siffrorna), och det har deras 
 | Brood Warden I | 830 000 | 680 000 | 645 | 90 | 600 | – | – |
 | Brood Warden II | 1 440 000 | 1 180 000 | 3 885 | 90 | 700 | – | – |
 | Brood Warden III | 2 650 000 | 2 175 000 | 15 450 | 90 | 800 | – | – |
-| Siege Warden I | 715 000 | 585 000 | 240 | 110 | 600 | 1 075 | Rivet I: 24 |
-| Siege Warden II | 1 240 000 | 1 015 000 | 1 455 | 110 | 700 | 1 875 | Rivet II: 12 |
-| Siege Warden III | 4 575 000 | 3 725 000 | 9 225 | 110 | 800 | 6 925 | Rivet III: 8 |
+| Siege Warden I | 715 000 | 585 000 | 240 | 110 | 600 | 1 075 | Warden Rivet I: 24 |
+| Siege Warden II | 1 240 000 | 1 015 000 | 1 455 | 110 | 700 | 1 875 | Warden Rivet II: 12 |
+| Siege Warden III | 4 575 000 | 3 725 000 | 9 225 | 110 | 800 | 6 925 | Warden Rivet III: 8 |
 | Wrath Warden I | 815 000 | 665 000 | 480 | 90 | 700 | 1 075 | – |
 | Wrath Warden II | 1 410 000 | 1 155 000 | 2 910 | 90 | 800 | 1 875 | – |
 | Wrath Warden III | 5 200 000 | 4 250 000 | 12 300 | 90 | 900 | 6 925 | – |

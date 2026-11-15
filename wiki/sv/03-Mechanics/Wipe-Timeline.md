@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d82752d05f62aea -->
+<!-- wiki-i18n source: 78857435732fea9b -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -179,7 +179,7 @@ Vid wipen **går krediter över 5 000 000 000 (5 miljarder)** och **Thulium �
 
 ## Färska poäng {#fresh-points}
 
-Dina **rankingpoäng** räknar det du har tjänat **sedan den senaste wipen**: de nivåer du har gått upp, erfarenheten och nedskjutningarna av utomjordingar den här säsongen. Vid wipen börjar de om från noll, och din gamla grad hamnar i din säsongshistorik. **Heder avgör inte din grad**, och dina totalsiffror (nivå, erfarenhet, heder, nedskjutningar) ligger kvar som de är. Se [Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
+Dina **rankingpoäng** räknar det du har tjänat **sedan den senaste wipen**: de nivåer du har gått upp, erfarenheten, hedern och nedskjutningarna av utomjordingar den här säsongen. Vid wipen börjar de om från noll, och din gamla grad hamnar i din säsongshistorik. Dina totalsiffror (nivå, erfarenhet, heder, nedskjutningar) ligger kvar som de är. Se [Grader](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
 Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så: wipen som stängde säsong 1 betalade ut den säsongens grader efter poängen för hela din karriär.
 
@@ -226,7 +226,7 @@ Du kan spendera dina intjänade WP på permanenta buffar som följer med över a
 * **Honor Boost**: +0,1 % erhållen heder per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
 * **Hitpoints Boost**: +0,1 % maximala HP per nivå (max 50 % / 500 nivåer) - *Kostnad: 15 WP*
 * **Shield Capacity Boost**: +0,1 % maximala sköldar (sköldens **kapacitet**) per nivå (max 50 % / 500 nivåer) - *Kostnad: 10 WP*
-* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 105 wipepoäng som källorna betalar i en wipe köper 44 (+4,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 105 i en wipe och din grad lägger till 5 till 400) skulle 91 % (det bästa rakt ur lådan) bli 101 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Evig når ett skepp ungefär 104 % till 109 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
+* **Shield Absorbance Boost**: +0,1 punkter på dina sköldars **absorption** per nivå (max +10 punkter / 100 nivåer) - *Kostnad: 25 WP*. Absorption är den andel av varje träff som dina sköldar tar (se [Sköldmekanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); buffen lägger fasta punkter på den: 100 wipepoäng köper 4 nivåer (+0,4 punkter), 300 köper 12 (+1,2), 500 köper 20 (+2,0) och alla de 1 105 wipepoäng som källorna betalar i en wipe köper 44 (+4,4 punkter). Vid maximum (100 nivåer, 2 500 WP: ett mål för flera wipes, eftersom källorna betalar högst 1 105 i en wipe och din grad lägger till 5 till 400) skulle 91 % (det bästa rakt ur lådan) bli 101 % och de 45 % som en Light Shield Core har bli 55 %. Värdet har inget tak vid 100 %: angriparens *sköldgenomträngning* dras av från det, så det som går över 100 % är en marginal. Med en wipes wipepoäng i den här buffen och en fullt smidd uppsättning sköldar och celler på nivån Uppstigen når ett skepp ungefär 104 % till 109 %. (Till och med 0.4.5 lade den här buffen på en andel av själva absorptionen, 0,1 % av den per nivå, till samma pris; punkterna är värda lika mycket eller mer vid varje absorption, så nivåer som redan köpts förlorade ingenting; till och med 0.4.2 höjde den sköldens *laddningstakt* i stället; ingen permanent buff höjer laddningen nu.)
 * **Luck Boost**: +0,1 % chans till byte från utomjordingar per nivå (max 10 % / 100 nivåer) - *Kostnad: 15 WP*
 
 ### Tjäna wipepoäng {#earning-wipe-points}

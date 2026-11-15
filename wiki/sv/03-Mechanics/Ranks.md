@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Grader -->
 # Grader {#ranks}
 
@@ -106,9 +106,11 @@ Om du byter koncern följer dina poäng med och du hamnar på den nya koncernens
 
 ## Så får du PvE-poäng {#how-you-earn-pve-points}
 
-Dina PvE-poäng räknas ut av tre saker:
+Dina PvE-poäng räknas ut av fyra saker:
 
-**nivå × 100 + erfarenhet ÷ 1 000 (avrundat nedåt) + poängen för varje utomjording du förgjort**
+**nivå × 100 + erfarenhet ÷ 1 000 (avrundat nedåt) + heder ÷ 100 (avrundat nedåt) + poängen för varje utomjording du förgjort**
+
+Varje 100 **heder** ger en poäng, oavsett varifrån den kommer; efter en wipe räknas bara den heder du tjänar under den nya säsongen. Ett saldo under 0 räknas som ingenting.
 
 En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket skada det krävs för att förgöra utomjordingen. Svärmarnas skepp och klanväktarna räknas efter samma regel, så en Pirate Scout är värd lika mycket som en Bulwark. Varje nedskjutning räknas under utomjordingens eget namn i din nedskjutningsstatistik.
 
@@ -144,7 +146,7 @@ En segare utomjording är värd mer: en nedskjutning ger poäng efter hur mycket
 
 De fem första raderna är de vanliga utomjordingarna, de tolv nästa de sex svärmarnas skepp och de tre nästa utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (från säsongsdag 11). Sist kommer klanväktarna, ledarna i en klanväktarstrid, och deras besättningar, Brood Drone, Siege Escort och Wrath Guard: I, II och III är väktarens styrka, och poängen står i den ordningen.
 
-Till exempel har en pilot på nivå 4 med 12 500 erfarenhet som har förstört 300 Seeker, 80 Phantasm och 10 Bulwark 400 + 12 + 300 + 160 + 40 = **912** poäng. Det gör honom eller henne till Sergeant: minimum är 800, och nästa grad, Senior sergeant, kräver 1 000. Upp till Senior överste räknas bara poängen.
+Till exempel har en pilot på nivå 4 med 12 500 erfarenhet och 900 heder som har förstört 300 Seeker, 80 Phantasm och 10 Bulwark 400 + 12 + 9 + 300 + 160 + 40 = **921** poäng. Det gör honom eller henne till Sergeant: minimum är 800, och nästa grad, Senior sergeant, kräver 1 000. Upp till Senior överste räknas bara poängen.
 
 Sidan **Ranking** (Gemenskap › Ranking) visar hur dina egna poäng är sammansatta, och **Hedersgalleriet** där listar de bästa piloterna. **(i)** vid PvE-poängen där nämner de fem utomjordingarna, vad en nedskjutning i var och en av [svärmarna](/wiki/05-Swarms/Swarms.md) är värd, från det minsta skeppet till bossen, detsamma för utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), och [klanväktarna](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) finns i ingen ranking: en nedskjutning av honom ger inga poäng, han har ingen rad i Hedersgalleriet och han tillhör ingen koncern och finns därför på ingen av stegarna.
 
@@ -202,7 +204,7 @@ Under flygning ser du **bara symbolen**, aldrig orden. Den står framför pilote
 
 ## Grader och wipe {#ranks-and-the-wipe}
 
-Vid wipen börjar dina PvE-poäng om från noll, så din koncerns lista börjar om och varje säsong är en ny klättring. Det som räknas är bara det du tjänar efter en wipe: de nivåer du går upp, erfarenheten och nedskjutningarna av utomjordingar i den nya säsongen ([Färska poäng](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Din nivå, din erfarenhet och din nedskjutningsstatistik ligger kvar i dina totalsiffror. **Heder avgör inte din grad.** Graden du hade i wipens ögonblick hamnar, med din plats på listan, i din säsongshistorik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Din grad gäller inte heller för alltid: de sex bästa graderna rör sig med de andra piloterna i din koncern, och en pilot som är borta i 30 dagar lämnar listan tills han eller hon flyger igen.
+Vid wipen börjar dina PvE-poäng om från noll, så din koncerns lista börjar om och varje säsong är en ny klättring. Det som räknas är bara det du tjänar efter en wipe: de nivåer du går upp, erfarenheten, hedern och nedskjutningarna av utomjordingar i den nya säsongen ([Färska poäng](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Din nivå, din erfarenhet och din nedskjutningsstatistik ligger kvar i dina totalsiffror. Graden du hade i wipens ögonblick hamnar, med din plats på listan, i din säsongshistorik och ger sina belöningar ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Din grad gäller inte heller för alltid: de sex bästa graderna rör sig med de andra piloterna i din koncern, och en pilot som är borta i 30 dagar lämnar listan tills han eller hon flyger igen.
 
 Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så: dess poäng räknas från den wipen. Wipen som stängde säsong 1 betalade ut graderna för säsong 1 efter poängen för hela din karriär.
 

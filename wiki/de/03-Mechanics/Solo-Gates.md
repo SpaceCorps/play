@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Solo-Tore -->
 # Solo-Tore {#solo-gates}
 
@@ -50,7 +50,7 @@ Die Teile des Chrono-Gates fallen beim Wipe auf null zurück, und du findest sie
 
 ### Ein Scan ohne Teil {#a-spin-without-a-part}
 
-Die meisten Scans finden kein Teil. Jeder von ihnen zahlt eine Belohnung, gewählt nach den Chancen unten: Laser-Munition des zweiten Multiplikators oder besser, einen Raketenstapel der zweiten oder dritten Stufe und hin und wieder einen [Spezialgegenstand](/wiki/06-Items/Special-Items.md) oder einen [Container](/wiki/06-Items/Containers.md). Eine Belohnung, die nicht gegeben werden kann (du besitzt zum Beispiel schon die Höchstzahl dieses Spezialgegenstands), wird mit demselben Wurf zu einem Stapel Munition oder Raketen, ein Scan zahlt also nie weniger als seine Tabelle. Die Belohnung ist deutlich weniger wert, als der Scan kostet: Die Tore sind eine Thulium-Senke.
+Die meisten Scans finden kein Teil. Jeder von ihnen zahlt eine Belohnung, gewählt nach den Chancen unten: Laser-Munition des zweiten Multiplikators oder besser, einen Raketenstapel der zweiten oder dritten Stufe und hin und wieder einen [Spezialgegenstand](/wiki/06-Items/Special-Items.md) oder einen [Container](/wiki/06-Items/Containers.md). Eine Belohnung, die nicht gegeben werden kann (zum Beispiel, weil die Spezialgegenstände oder die Container abgeschaltet sind), wird mit demselben Wurf zu einem Stapel Munition oder Raketen, ein Scan zahlt also nie weniger als seine Tabelle. Die Belohnung ist deutlich weniger wert, als der Scan kostet: Die Tore sind eine Thulium-Senke.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Du **baust** ein Tor auf der Seite Galaxietore und **springst** durch sein Porta
 
 - die Teile des Tors: Sie werden **einmal beim Bauen** genommen, und ein abgelehntes Bauen nimmt nichts;
 - keinen anderen offenen Solo-Lauf: Du hast einen Lauf zugleich, und ein Lauf, den du verlassen hast, wird wieder durch sein Portal betreten oder aufgegeben, bevor du ein anderes Tor baust;
-- den Heimserver (die regionalen Server haben keine Tore).
+- den Heimserver (ein Tor wird nur auf dem Heimserver gebaut: Auf einem regionalen Server kehrst du zuerst zur Basis zurück).
 
-Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du.
+Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du. Du siehst nur **dein eigenes** Tor: Die Portale der Tore anderer Piloten im selben Sektor werden dir nicht angezeigt.
 
-**Auf den regionalen Servern (Singapore, US East).** Das Tor selbst bleibt auf dem Heimserver: Auf einem regionalen Server wird nichts gebaut, gespielt oder ausgezahlt. Ein gebautes Tor wird dort aber nicht vergessen: Du wirst bei der Ankunft darauf hingewiesen, und das Portal deines Tors steht auch dort in deinem Heimatsektor. Springe hindurch, und du wirst zum Heimserver zurückgebracht, wo du wie oben in dein Tor startest.
+**Auf den regionalen Servern (Singapore, US East).** Ein gebautes Tor wird auch dort gespielt. Das Portal deines Tors steht auf einem regionalen Server wie auf dem Heimserver in deinem Heimatsektor, und du wirst bei der Ankunft darauf hingewiesen. **Springe hindurch, und du gehst in eine Arena dieses Servers**, mit dessen Latenz statt der des Heimservers. Ein regionaler Server hat nur **zwei Arenen pro Welt**, der Heimserver dagegen weit mehr: Sind beide belegt, wartest du, wie du auf dem Heimserver auf einen freien Rift wartest. Der Heimserver bleibt der einzige Ort, der deinen Lauf, deine Teile und deine Auszahlung führt: Die Auszahlung erreicht dein Konto, sobald der Heimserver den Lauf gezählt hat, wenige Sekunden nach seinem Ende, und das **Guthaben in deinem Flugfenster zieht beim Andocken nach**. In deinen nächsten Lauf gehst du erst, wenn der letzte gezählt ist. Einen Lauf, den du in der Arena verlässt, betrittst du wieder durch das Portal; willst du ihn aufgeben, tust du das in der Arena oder an der Station. Ist die Arena eines regionalen Servers ausgeschaltet, bringt dich sein Portal stattdessen zum Heimserver zurück, wo du wie oben in dein Tor startest. Was sonst auf einem Regionalserver funktioniert, steht unter [Server](/wiki/03-Mechanics/Servers.md).
 
 Du landest allein in der Mitte einer leeren Arena. Niemand kann dich darin angreifen, und die Jump CPU und die Base CPU funktionieren nicht.
 
@@ -161,7 +161,7 @@ Ein Boss ist das Schiff eines Aliens, vergrößert, mit einer eigenen Hülle, ei
 
 ## Was ein Abschluss zahlt {#what-a-clear-pays}
 
-Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, in dem der Boss stirbt: die Credits, das Thulium, die Erfahrung und die Ehre, das Erz, die Platten und Power Cores und die Munition. Die Erfahrung zählt für deine PvE-Rangpunkte, wie die eines Dungeons.
+Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, in dem der Boss stirbt: die Credits, das Thulium, die Erfahrung und die Ehre, das Erz, die Platten und Power Cores und die Munition. Erfahrung und Ehre zählen für deine PvE-Rangpunkte, wie die eines Dungeons.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, i
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; Munition: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; Munition: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; Munition: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; Munition: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; Munition: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; Munition: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; Munition: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; Munition: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; Munition: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; Munition: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Heartshards**: 1 beim ersten Abschluss jedes Tors in einer Saison und mit 5 % Wahrscheinlichkeit 1 weitere bei jedem Abschluss.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, i
 
 ### Die Aliens {#the-aliens}
 
-Jedes Alien, das du in einem Tor tötest, zahlt mit den Zahlen, die es in Alpha hat, in welcher Welt du auch fliegst: Kein Weltmultiplikator, kein Booster und kein Premium-Bonus ändert sie. Eine Welle zahlt für ihre Aliens **einmal** je Lauf, wie oft du auch gehst und zurückkommst. Die Auszahlung kommt mit dem Ende jedes Abschnitts des Laufs: wenn du gehst, stirbst, keine Leben mehr hast, aufgibst oder abschließt. Die Abschüsse eines Abschnitts bleiben nur beim Wipe und bei einem Neustart des Servers unbezahlt, während du drin bist (dein Lauf bleibt offen, aber die Abschüsse dieses Abschnitts gehen verloren). Die Abschüsse in einem Tor zählen für die [Missionen](/wiki/03-Mechanics/Quests.md#where-it-counts), die keinen Sektor nennen (etwa die großen Jagden der Linie der Herausforderungen), und zwar sobald sie geschehen (eine Welle zählt dafür **einmal** je Lauf, so wie sie nur einmal zahlt), und für nichts anderes: nicht für die Abschussstatistik, die Zähler der Erfolge, den Kill-Feed oder die Erfahrung deiner Drohnen und P.E.T.s. Die Erfahrung, die sie zahlen, zählt dagegen für deine PvE-Rangpunkte, wie die Erfahrung eines Abschlusses. Die Beute der Aliens kommt mit der Auszahlung, direkt in dein Inventar.
+Jedes Alien, das du in einem Tor tötest, zahlt mit den Zahlen, die es in Alpha hat, in welcher Welt du auch fliegst: Kein Weltmultiplikator, kein Booster und kein Premium-Bonus ändert sie. Eine Welle zahlt für ihre Aliens **einmal** je Lauf, wie oft du auch gehst und zurückkommst. Die Auszahlung kommt mit dem Ende jedes Abschnitts des Laufs: wenn du gehst, stirbst, keine Leben mehr hast, aufgibst oder abschließt. Die Abschüsse eines Abschnitts bleiben nur beim Wipe und bei einem Neustart des Servers unbezahlt, während du drin bist (dein Lauf bleibt offen, aber die Abschüsse dieses Abschnitts gehen verloren). Die Abschüsse in einem Tor zählen für die [Missionen](/wiki/03-Mechanics/Quests.md#where-it-counts), die keinen Sektor nennen (etwa die großen Jagden der Linie der Herausforderungen), und zwar sobald sie geschehen (eine Welle zählt dafür **einmal** je Lauf, so wie sie nur einmal zahlt), und für nichts anderes: nicht für die Abschussstatistik, die Zähler der Erfolge, den Kill-Feed oder die Erfahrung deiner Drohnen und P.E.T.s. Die Erfahrung und die Ehre, die sie zahlen, zählen dagegen für deine PvE-Rangpunkte, wie Erfahrung und Ehre eines Abschlusses. Die Beute der Aliens kommt mit der Auszahlung, direkt in dein Inventar.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

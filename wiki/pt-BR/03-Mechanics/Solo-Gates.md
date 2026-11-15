@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Portões solo -->
 # Portões solo {#solo-gates}
 
@@ -50,7 +50,7 @@ As peças do Chrono-Gate voltam a zero no reset, e você as encontra de novo a c
 
 ### Um giro sem peça {#a-spin-without-a-part}
 
-A maioria dos giros não encontra peça. Cada um deles paga um prêmio, escolhido pelas chances abaixo: munição laser do segundo multiplicador ou melhor, um lote de foguetes do segundo ou terceiro nível e, de vez em quando, um [item especial](/wiki/06-Items/Special-Items.md) ou um [contêiner](/wiki/06-Items/Containers.md). Um prêmio que não pode ser dado (você já tem o máximo daquele item especial, por exemplo) vira um lote de munição ou de foguetes pelo mesmo sorteio, então um giro nunca paga menos que a sua tabela. O prêmio vale claramente menos do que o giro custa: os portões são um ralo de Thulium.
+A maioria dos giros não encontra peça. Cada um deles paga um prêmio, escolhido pelas chances abaixo: munição laser do segundo multiplicador ou melhor, um lote de foguetes do segundo ou terceiro nível e, de vez em quando, um [item especial](/wiki/06-Items/Special-Items.md) ou um [contêiner](/wiki/06-Items/Containers.md). Um prêmio que não pode ser dado (os itens especiais ou os contêineres estão desativados, por exemplo) vira um lote de munição ou de foguetes pelo mesmo sorteio, então um giro nunca paga menos que a sua tabela. O prêmio vale claramente menos do que o giro custa: os portões são um ralo de Thulium.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Você **constrói** um portão na página dos Portões Galácticos e **salta** p
 
 - as peças do portão: elas são tiradas **uma só vez, quando você o constrói**, e uma construção recusada não tira nada;
 - nenhuma outra partida solo aberta: você tem uma partida por vez, e uma partida que você deixou é retomada pelo portal dela ou abandonada antes de você construir outro portão;
-- o servidor principal (os servidores regionais não têm portões).
+- o servidor principal (um portão só é construído no servidor principal: em um servidor regional você volta primeiro à base).
 
-O portão construído fica no seu **setor-base** (`M-1`, `T-1` ou `G-1`, conforme a sua corporação) como um portal com o nome dele, e a página dos Portões Galácticos diz onde ele está. **Decole, voe até o portal e salte** por ele como por qualquer portal. É preciso haver uma fenda livre no seu mundo quando você entrar: cada mundo tem um número delas, e quando todas estão ocupadas você espera.
+O portão construído fica no seu **setor-base** (`M-1`, `T-1` ou `G-1`, conforme a sua corporação) como um portal com o nome dele, e a página dos Portões Galácticos diz onde ele está. **Decole, voe até o portal e salte** por ele como por qualquer portal. É preciso haver uma fenda livre no seu mundo quando você entrar: cada mundo tem um número delas, e quando todas estão ocupadas você espera. Você vê apenas o **seu próprio** portão: os portais dos portões de outros pilotos no mesmo setor não são mostrados a você.
 
-**Nos servidores regionais (Singapore, US East).** O portão em si fica no servidor principal: em um servidor regional nada é construído, jogado nem pago. Mas um portão construído não é esquecido ali: você é avisado quando chega, e o portal do seu portão também fica no seu setor-base. Salte por ele e você volta ao servidor principal, onde decola para o seu portão como descrito acima.
+**Nos servidores regionais (Singapore, US East).** Um portão construído também é jogado ali. O portal dele fica no seu setor-base em um servidor regional como no servidor principal, e você é avisado quando chega. **Salte por ele e você entra em uma arena daquele servidor**, com a latência dele em vez da do servidor principal. Um servidor regional tem só **duas arenas em cada mundo**, contra muito mais no servidor principal: quando as duas estão ocupadas, você espera, como espera uma fenda livre no servidor principal. O servidor principal continua sendo o único lugar que guarda a sua partida, as suas peças e o seu pagamento: o pagamento chega à sua carteira quando o servidor principal contou a partida, poucos segundos depois do fim, e a **carteira da sua janela de voo se atualiza quando você atraca**. Você só entra na partida seguinte depois que a última foi contada. Uma partida que você deixa na arena é retomada pelo portal; para desistir dela, você o faz na arena ou na estação. Se a arena de um servidor regional estiver desativada, o portal dele leva você de volta ao servidor principal, onde você decola para o seu portão como descrito acima. O que mais funciona em um servidor regional está em [Servidores](/wiki/03-Mechanics/Servers.md).
 
 Você pousa sozinho no meio de uma arena vazia. Ninguém pode atacar você nela, e a Jump CPU e a Base CPU não funcionam.
 
@@ -161,7 +161,7 @@ Um chefe é a nave de um alienígena aumentada, com um casco, um escudo e uma ra
 
 ## O que uma vitória paga {#what-a-clear-pays}
 
-Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o chefe morre: os Créditos, o Thulium, a experiência e a honra, o minério, as placas e os Power Cores, e a munição. A experiência conta para os seus pontos PvE, como a de uma masmorra.
+Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o chefe morre: os Créditos, o Thulium, a experiência e a honra, o minério, as placas e os Power Cores, e a munição. A experiência e a honra contam para os seus pontos PvE, como as de uma masmorra.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o 
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munição: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munição: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munição: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munição: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munição: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; munição: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; munição: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; munição: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; munição: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; munição: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Heartshards**: 1 na primeira conclusão de cada portão na temporada, e 5% de chance de 1 a mais a cada conclusão.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o 
 
 ### Os alienígenas {#the-aliens}
 
-Todo alienígena que você mata em um portão paga com os números que tem no Alpha, em qualquer mundo em que você voe: nenhum multiplicador de mundo, nenhum booster e nenhum bônus Premium os muda. Uma onda paga pelos seus alienígenas **uma vez** por partida, por mais vezes que você saia e volte. O pagamento chega no fim de cada trecho da partida: quando você sai, morre, fica sem vidas, abandona ou vence. As baixas de um trecho ficam sem pagamento apenas no reset e em um reinício do servidor enquanto você está dentro (a sua partida continua aberta, mas as baixas desse trecho se perdem). As baixas de um portão contam para as [missões](/wiki/03-Mechanics/Quests.md#where-it-counts) que não indicam nenhum setor (como as grandes caçadas da linha de Desafios), no momento em que acontecem (uma onda conta para elas **uma vez** por partida, assim como paga uma vez só), e para mais nada: nem para as estatísticas de baixas, nem para os contadores das conquistas, nem para o registro de baixas, nem para a experiência dos seus drones e P.E.T.s. A experiência que elas pagam, porém, conta para os seus pontos PvE, como a de uma vitória. O saque dos alienígenas chega com o pagamento, direto no seu inventário.
+Todo alienígena que você mata em um portão paga com os números que tem no Alpha, em qualquer mundo em que você voe: nenhum multiplicador de mundo, nenhum booster e nenhum bônus Premium os muda. Uma onda paga pelos seus alienígenas **uma vez** por partida, por mais vezes que você saia e volte. O pagamento chega no fim de cada trecho da partida: quando você sai, morre, fica sem vidas, abandona ou vence. As baixas de um trecho ficam sem pagamento apenas no reset e em um reinício do servidor enquanto você está dentro (a sua partida continua aberta, mas as baixas desse trecho se perdem). As baixas de um portão contam para as [missões](/wiki/03-Mechanics/Quests.md#where-it-counts) que não indicam nenhum setor (como as grandes caçadas da linha de Desafios), no momento em que acontecem (uma onda conta para elas **uma vez** por partida, assim como paga uma vez só), e para mais nada: nem para as estatísticas de baixas, nem para os contadores das conquistas, nem para o registro de baixas, nem para a experiência dos seus drones e P.E.T.s. A experiência e a honra que elas pagam, porém, contam para os seus pontos PvE, como as de uma vitória. O saque dos alienígenas chega com o pagamento, direto no seu inventário.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Goombah 是令人生畏的巡洋舰级外星舰船。它们拥有高护盾容量
 - **Quorvium**：100% 几率（最少 2，最多 4）
 - **Reinforced Hull Plate**：60% 几率（最少 1，最多 1）
 - **Power Core**：25% 几率（最少 1，最多 1）
+- **Echo Shard**：5% 几率（最少 1，最多 1）
 
 ## 背景故事 {#lore}
 

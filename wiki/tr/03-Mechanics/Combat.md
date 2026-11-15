@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -132,8 +132,8 @@ Gelen hasar, kalkanlar ile gövde puanları arasında geminin **ortalama soğurm
 Her şirketin ana üssü (X-1 haritaları) güvenli bölgeler içerir.
 - Bir güvenli bölgeye girmek geminin hasara karşı tamamen bağışık olmasını sağlar.
 - **Koruma kaybı**: Bir düşmana saldırmak, fiziksel olarak bir güvenli bölgenin içinde olsan bile güvenli bölge bağışıklığını hemen kaldırır.
-- Her istasyonun ve portalın çevresindeki bir halka, vurulmandan 5, ateş etmenden 15 saniye geçtikten sonra seni korur. Seni korurken ve çatışmadan çıkmışken Hangar penceresi, oyundan çıkmadan gemini değiştirmene izin verir: bkz. [Uçuşta Hangar](/wiki/03-Mechanics/Hangar.md).
-- İstasyonlar yalnızca ana üslerde (`x-1`) bulunur. Tehlike Sektörleri’nde (`DS-1` ile `DS-4`) hiç yoktur: orada sıçrama geçitlerinin çevresindeki halkalar tek güvenli bölgelerdir.
+- Her ana üssün istasyonunun ve her portalın çevresindeki bir halka, vurulmandan 5, ateş etmenden 15 saniye geçtikten sonra seni korur. Seni korurken ve çatışmadan çıkmışken Hangar penceresi, oyundan çıkmadan gemini değiştirmene izin verir: bkz. [Uçuşta Hangar](/wiki/03-Mechanics/Hangar.md).
+- İstasyonlar ana üslerde (`x-1`) ve sınırlarda (`x-4`) bulunur, ama halkası yalnızca bir ana üssün istasyonunun vardır: bir sınırın Mission Control istasyonu kimseyi korumaz. Tehlike Sektörleri’nde (`DS-1` ile `DS-4`) hiç yoktur: orada sıçrama geçitlerinin çevresindeki halkalar tek güvenli bölgelerdir.
 
 ### 3. Bir Tehlike Sektörü’nde saldırı altında {#3-under-attack-in-a-danger-sector}
 

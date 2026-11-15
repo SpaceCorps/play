@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
+<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,6 +39,7 @@ Vad varje föremål används till, och var du annars hittar det: [Resurser](/wik
 
 - **Ship Fragment**: 20 % chans (Min: 1, Max: 1)
 - **Daraxium**: 50 % chans (Min: 1, Max: 2)
+- **Echo Shard**: 0,4 % chans (Min: 1, Max: 1)
 
 ## Bakgrund {#lore}
 

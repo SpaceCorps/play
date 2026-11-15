@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Res
 - **Quorvium**: 100% de chance (Mín.: 2, Máx.: 4)
 - **Reinforced Hull Plate**: 60% de chance (Mín.: 1, Máx.: 1)
 - **Power Core**: 25% de chance (Mín.: 1, Máx.: 1)
+- **Echo Shard**: 5% de chance (Mín.: 1, Máx.: 1)
 
 ## História {#lore}
 

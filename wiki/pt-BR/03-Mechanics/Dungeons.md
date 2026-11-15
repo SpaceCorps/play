@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Masmorras -->
 # Masmorras {#dungeons}
 
@@ -17,7 +17,7 @@ Uma masmorra não é um [portão solo](/wiki/03-Mechanics/Solo-Gates.md). Um por
 
 - **Abre**: A partir do dia 1 da temporada
 - **Quem abre uma masmorra**: Um vice-líder ou o líder, que paga o preço com o banco do clã
-- **Grupo**: De 4 a 10 membros do clã, em um só grupo
+- **Grupo**: De 3 a 10 membros do clã, em um só grupo
 - **Masmorras por dia**: 3 por clã em um dia UTC, um aberto por vez
 - **Masmorras ao mesmo tempo**: 6 em um mundo
 - **Mapas**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ Uma masmorra não é um [portão solo](/wiki/03-Mechanics/Solo-Gates.md). Um por
 
 1. **Invocar.** Na aba Masmorras, um [vice-líder ou o líder](/wiki/03-Mechanics/Clans.md#hierarchy-roles) escolhe uma fase e aperta **Invocar**. O preço sai do [banco do clã](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), e a masmorra recebe um dos mapas listados acima. Uma masmorra que ninguém inicia se fecha, e o preço volta ao banco.
 2. **Entrar.** Os membros do clã apertam **Entrar** na janela do Clã enquanto estão voando, saltam pelo portal do clã ou apertam **Entrar** no cartão de aviso (veja Entrar). Todos pousam na sala inicial, e os pilotos lá dentro formam o grupo da masmorra.
-3. **Iniciar.** A sala inicial é uma sala pequena numa ponta do labirinto, e a porta dela fica fechada enquanto a masmorra se reúne. Não há alienígenas nela, então é seguro esperar ali. A masmorra **inicia sozinha** quando todos os pilotos que ela espera estão dentro e o grupo é grande o bastante. Ele espera os membros do clã que estão online, não ausentes e no grupo de um piloto que entrou, e inicia na hora quando o grupo está cheio. O piloto que abriu a masmorra, ou um oficial, pode apertar **Iniciar** para começar mais cedo com os pilotos que estiverem dentro, se forem o bastante. Um piloto que sai deixa de ser esperado. Quando a masmorra inicia, a porta se abre para sempre, e depois disso só podem voltar os pilotos que já estavam dentro.
+3. **Iniciar.** A sala inicial é uma sala pequena numa ponta do labirinto, e a porta dela fica fechada enquanto a masmorra se reúne. Não há alienígenas nela, então é seguro esperar ali. A masmorra **inicia sozinha** quando todos os pilotos que ela espera estão dentro e o grupo é grande o bastante. Ele espera os membros do clã que estão online, não ausentes e no grupo de um piloto que entrou, e inicia na hora quando o grupo está cheio. O piloto que abriu a masmorra, ou um oficial, pode apertar **Iniciar** para começar mais cedo com os pilotos que estiverem dentro, se forem o bastante. Um piloto que sai deixa de ser esperado, e o mesmo vale para quem ainda não entrou e saiu do grupo ou ficou offline. Quando a masmorra inicia, a porta se abre para sempre, e depois disso só podem voltar os pilotos que já estavam dentro.
 4. **Abrir caminho pelo labirinto.** Você entra por uma ponta do labirinto e o Senhor da guerra espera na outra, numa sala trancada. O labirinto é escuro: você só vê o que o grupo explorou e o que está perto das naves dele. Os alienígenas esperam em bandos nos corredores, e um bando sai no momento em que um piloto voa para o trecho de corredor onde ele espera, e então caça o grupo pelo labirinto.
 5. **Abrir as zonas de saque.** Anéis no labirinto marcam as zonas. Segure uma e o grupo vota numa carta, que é paga junto com o pagamento do Senhor da guerra.
 6. **Destrancar a sala do chefe.** Destrua três quartos dos Crystalys e de seus Twins do labirinto, e a porta da sala do Senhor da guerra se abre. Até lá, o Senhor da guerra não pode ser ferido. Os outros alienígenas ficam onde estão, e você também pode destruí-los.
@@ -215,6 +215,7 @@ O casco e o escudo acima são para um grupo de 5. Eles crescem com o grupo: são
 
 | Pilotos no grupo | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
 | 4 | 14.400.000 | 21.600.000 | 36.000.000 |
 | 5 | 18.000.000 | 27.000.000 | 45.000.000 |
 | 6 | 21.600.000 | 32.400.000 | 54.000.000 |
@@ -334,22 +335,24 @@ As cartas são sorteadas uma a uma do conjunto abaixo. A chance é a de uma cart
 
 <!-- dungeons-cards:end -->
 
-As cartas com uma única cópia são **equipamento**, e só uma masmorra de fase 3 pode oferecê-las. Uma peça de equipamento é forjada para cada piloto pago na hora do pagamento: cada um sorteia o seu [grau de encantamento](/wiki/06-Items/Overview.md#item-enchants) com as mesmas chances de uma peça que você constrói na Montagem, então a maioria sai Padrão, e um grau mais alto, até Eterno, com bônus, é um achado raro.
+As cartas com uma única cópia são **equipamento**, e só uma masmorra de fase 3 pode oferecê-las. Uma peça de equipamento é forjada para cada piloto pago na hora do pagamento: cada um sorteia o seu [grau de encantamento](/wiki/06-Items/Overview.md#item-enchants) com as mesmas chances de uma peça que você constrói na Montagem, então a maioria sai Padrão, e um grau mais alto, até Ascendente, com bônus, é um achado raro. Cada peça também sorteia a sua [integridade](/wiki/06-Items/Forge.md#integrity-and-fractures), como uma peça fabricada.
 
 ## Pagamento {#pay}
 
 Quando o Senhor da guerra cai, todo piloto que mereceu é pago, uma vez por partida. As cartas escolhidas pelo grupo vêm além do pagamento da fase. Não há multiplicador de mundo: o pagamento é o mesmo em todos os mundos.
 
-As **Orvium Reinforced Plates** não são uma carta da votação. Elas fazem parte do pagamento da fase, e cada piloto pago as recebe uma vez pela conclusão. Os itens que a conclusão paga não são vendáveis: você não pode [vendê-los no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
+As **Orvium Reinforced Plates** e as **Echo Shards** e **Lattice Shards** da Forja não são uma carta da votação. Elas fazem parte do pagamento da fase, e cada piloto pago as recebe uma vez pela conclusão. As **Heartshards** são pagas de outro modo: a linha abaixo da tabela explica como. Os itens que a conclusão paga não são vendáveis: você não pode [vendê-los no Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Fase | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Pontos de ranking PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 600 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 1.500 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2.400 |
+| Fase | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Pontos de ranking PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+
+- **Heartshards**: 1 na primeira conclusão paga de cada etapa na temporada, e 5% de chance de mais um a cada conclusão paga.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ O que um piloto pode receber em um dia e na melhor semana que os limites permite
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Pagamento por piloto | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Pontos de ranking PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Um dia, cada fase uma vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 4.500 |
-| A melhor semana: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 21.300 |
+| Pagamento por piloto | Honra | Experiência | Créditos | Thulium | Munição x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Pontos de ranking PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Um dia, cada fase uma vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
+| A melhor semana: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
 
-A experiência de uma fase concluída e paga conta para os seus pontos de ranking PvE: um ponto a cada 1.000 de experiência.
+A experiência e a honra de uma fase concluída e paga contam para os seus pontos de ranking PvE: um ponto a cada 1.000 de experiência e um a cada 100 de honra.
 
 <!-- dungeons-totals:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
@@ -20,11 +20,11 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 | **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon | 144.000 | 350 | 14 |
 | **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 600.000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink | 500.000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 256.000 | 210 | 15 |
-| **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 14 |
-| **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 307.200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff | 256.000 | 210 | 13 |
-| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser | 256.000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20% de casco base, +20 de velocidade base, +5% de absorção de escudo, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 slot de laser, +1 slot de suporte, +25% de capacidade de escudo, +10% de absorção de escudo, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 slots de laser, -20% de capacidade de escudo, +10% de penetração de laser | 256.000 | 210 | 15 |
 
 ## Conseguir um design {#getting-a-design}
 
@@ -63,7 +63,7 @@ A nave a converter é a que você possui daquele tipo (uma Paragon para o THUNDE
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **As quatro** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Juntas, elas pedem 510 Dark Matter, além dos 789 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.384 para todas as tecnologias do jogo.
+Juntas, elas pedem 510 Dark Matter, além dos 979 que todas as outras tecnologias pedem, e os níveis de módulo do Skylab pedem mais 115: 1.604 para todas as tecnologias do jogo.
 
 ## O que acontece com a sua nave {#what-happens-to-your-ship}
 

@@ -55,7 +55,7 @@ Built from the Wraith at 100% of its hull and 300% of its laser damage; its spee
 | :--- | ---: | ---: | ---: |
 | Hull | 256,000 | 384,000 | 512,000 |
 | Shield | 83,400 | 125,100 | 166,800 |
-| Laser damage (a volley a second) | 3,570 | 5,355 | 7,140 |
+| Laser damage (a volley a second) | 3,315 | 4,973 | 6,630 |
 | Speed | 210 | 210 | 210 |
 | Laser range | 800 | 800 | 800 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |
@@ -73,6 +73,7 @@ Built from the Wraith at 100% of its hull and 300% of its laser damage; its spee
 | Ultra Core and Experimental Fusion Core, shared evenly | 100% | 2,000–3,000 in all |
 | One of the 4 Epic [rockets](/wiki/06-Items/Rockets.md), picked at random | 100% | 30–50 |
 | One of [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) and [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), picked at random | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
+<!-- wiki-i18n source: c83f8d8564862f06 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,6 +31,7 @@ Phantasm — агрессивные дроны спектрального кла
 - **Ship Fragment**: шанс 100% (мин.: 1, макс.: 1)
 - **Daraxium**: шанс 60% (мин.: 1, макс.: 2)
 - **Nyxite**: шанс 60% (мин.: 1, макс.: 2)
+- **Echo Shard**: шанс 1% (мин.: 1, макс.: 1)
 
 ## История {#lore}
 

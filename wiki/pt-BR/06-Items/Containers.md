@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Contêineres -->
 # Contêineres {#containers}
 
@@ -225,7 +225,7 @@ As naves aparecem com suas chances base. Uma nave que você já tem nunca sai, e
 
 *Os Dormant construíam em cristal negro-violeta com veios violeta, e seus arquivistas guardavam a cor em finas placas de vidro que repintam tudo em que são pressionadas. Cada Arquivo Cromático é uma pilha lacrada dessas placas, indexada pelos coloristas da Mission Control e lida por ninguém até um piloto abri-la.*
 
-O Arquivo Cromático sorteia primeiro a categoria e depois um visual dessa categoria que você ainda não tem, cada visual com a mesma chance. Uma coleção é um prêmio só: ela dá todas as skins dela que você não tem. A chance da tabela vale para um piloto que não tem nenhum dos visuais da categoria. Ela sobe conforme você coleciona, porque sobram menos visuais no sorteio. Os visuais em si estão em [Cosméticos](/wiki/06-Items/Cosmetics.md).
+O Arquivo Cromático sorteia primeiro a categoria e depois um visual dessa categoria que você ainda não tem, cada visual com a mesma chance. Uma coleção é um prêmio só: ela dá uma skin dela, para um modelo de nave: a da sua nave ativa, se você não a tiver; senão, a de outra nave que você tem; senão, a primeira que faltar. Para qual nave ela é, quem decide é uma regra, não um sorteio, então nada mais é sorteado. A chance da tabela vale para um piloto que não tem nenhum dos visuais da categoria. Ela sobe conforme você coleciona, porque sobram menos visuais no sorteio. Os visuais em si estão em [Cosméticos](/wiki/06-Items/Cosmetics.md).
 
 ### Chances das categorias {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Duplicatas e reaproveitamento {#duplicates-and-salvage}
 
-- Um **visual** que você tem não é sorteado enquanto a categoria ainda tiver um visual que você não tem. Uma coleção conta como sua quando você tem todas as skins dela.
+- Um **visual** que você tem não é sorteado enquanto a categoria ainda tiver um visual que você não tem. Uma coleção conta como sua quando você tem todas as skins dela. Até lá ela pode sair de novo, cada vez com uma skin que falta para você.
 - Quando você tem todos os visuais da categoria, o prêmio paga **reaproveitamento** no lugar: Thulium, por categoria. Ele conta como um prêmio dessa categoria para a garantia.
 - **Itens** nunca viram Thulium: eles se acumulam ou chegam como são.
 - **Naves** nunca são dadas duas vezes nem pagas como reaproveitamento (veja [As naves](#the-ships)).

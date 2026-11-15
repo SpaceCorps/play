@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Pilot Becerileri -->
 # Pilot Becerileri {#pilot-skills}
 
@@ -15,7 +15,7 @@ Yeni bir pilot tam güçte değildir. 1. seviyede bir lazer ve bir roket, eşya 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Değerler**: 19 değer: 5 grupta 4 nitelik ve 15 beceri
+- **Değerler**: 20 değer: 5 grupta 4 nitelik ve 16 beceri
 - **Seviyeler**: 1’den 100’e kadar. Her pilot her değere 1. seviyeden başlar ve harcanacak ya da sıfırlanacak bir şey yoktur
 - **Bir seviyenin maliyeti**: 1. seviyeden 2’ye 40 XP, 50. seviyeden 51’e 875 XP, 99. seviyeden 100’e 19.157 XP; toplam 313.258 XP
 - **Bir seviyenin verdiği**: Bir buff, 1. seviyedeki değerinden 100. seviyedeki değerine düz bir çizgide artar. Hiçbir şeyin sınırı yoktur
@@ -77,6 +77,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | **Kaçınma** (Refleks) | Bir darbeden kaçınma şansı, geminin kendi şansına eklenir | %0 | %15 |
 | **Taktik** (Refleks) | Yeteneklerin süresi | ×1 | ×1,2 |
 | **Kalkan soğurması** (Dayanıklılık) | Kalkanlarının soğurması | +0 puan | +5 puan |
+| **İyileştirme** (Kütle) | Kendi onarımlarının ve iyileştirmelerinin gücü | ×1 | ×1,3 |
 
 ### Gemi kontrolü {#ship-control}
 
@@ -93,12 +94,13 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | **Çıkarma** (İçgüdü) | Skylab’ın ürettiği | ×1 | ×1,3 |
 | **Lojistik** (Kütle) | Kaynak Deposu’nun bankasının tuttuğu | ×1 | ×1,4 |
 | **İmalat** (Refleks) | Bir üretimin süresi | ×1 | ×0,65 |
+|  | Yeniden düzenlemenin bütünlük maliyeti | ×1 | ×0,7 |
 
 ### Ticaret {#trading}
 
 | Değer | Neyi değiştirir | Seviye 1 | Seviye 100 |
 | :--- | :--- | ---: | ---: |
-| **Ticaret** (İçgüdü) | Mağaza’daki fiyatlar | ×1 | ×0,85 |
+| **Ticaret** (İçgüdü) | Mağaza’daki fiyatlar ile bir üretimin veya Demirhane’nin kredisi ve Thulium’u | ×1 | ×0,85 |
 |  | Mağaza’nın geri alırken ödediği | ×1 | ×1,1 |
 |  | Bir Açık Artırma ilanının teminatı | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 - **Lazerler.** Lazer teknolojisi her salvonun hasarını ve isabet şansını değiştirir; ıskalayan bir salvo uçuşan bir “Miss” gösterir ve yine de cephanesini harcar ([Savaş](/wiki/03-Mechanics/Combat.md#laser-tech)). Lazerlerinin menzili geminin kendi menzilidir: Nişancılık, düz x1 dışındaki cephaneyle yaptığın isabetlerle seviye atlar, ancak yalnızca Mine’lara etki eder (aşağıda).
 - **Roketler.** Roket teknolojisi her roketin hasarını ve bir roketin ateşlenmeme şansını değiştirir ([Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma doğrudan bir darbenin hiçbir şey yapmama şansını artırır, Kalkan soğurması da bir vuruşun kalkanlarının aldığı payı artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
+- **İyileştirme.** İyileştirme, kendi ekipmanının iyileştirmelerini güçlendirir: Repair Drone’unun onarımı, bir Emergency Repair ve bıraktığın Heal Pod ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). İyileştirmelerinin geri getirdiği gövdeyle gelişir; güvenli bölgedeki bir gemiyi iyileştirmek sayılmaz. Support Rocket her seviyede hep aynı sabit miktarı iyileştirir ve yine de İyileştirme XP’si verir.
 - **Yetenekler.** Refleks yeteneklerinin bekleme süresini kısaltır, Taktik de onları daha uzun sürdürür ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotaj zehirleri güçlendirir.
 - **Mine.** Sabotaj bir Mine’ın hasarını artırır, Nişancılık da onu daha hızlı ve daha uzağa fırlatır ([Ekstralar](/wiki/06-Items/Extras.md#mine)).
 - **Hız.** İtici teorisi hızına, motorların ve bir Afterburner’ın üstüne ekler ([Hız](/wiki/03-Mechanics/Speed.md)).
 - **Toplama.** İçgüdü her ganimet satırının şansını bir Loot Luck Booster gibi artırır ve ikisi toplanır; Antimadde topladığın Dark Matter’ı artırır ([Kargo](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radyasyon.** Radyasyon teknolojisi kara deliğin, ekskavatörlerin dairelerinin, pulsarların ve Unwakened’in aurasının dozunu düşürür ([Kara delik](/wiki/03-Mechanics/Black-Hole.md)).
-- **Ev.** Çıkarma ve Lojistik [Skylab](/wiki/03-Mechanics/Skylab.md)’ın ürettiğini ve tuttuğunu değiştirir, İçgüdü iki toplayıcısını artırır, İmalat Montaj’ın üretimlerini kısaltır, Bilim [Araştırma](/wiki/03-Mechanics/Research.md) Merkezi’ni daha hızlı doldurur, Ticaret de Mağaza’nın fiyatlarını düşürür, geri alırken ödediğini artırır ve bir [Açık Artırma](/wiki/03-Mechanics/Auction.md) ilanının teminatını düşürür.
+- **Ev.** Çıkarma ve Lojistik [Skylab](/wiki/03-Mechanics/Skylab.md)’ın ürettiğini ve tuttuğunu değiştirir, İçgüdü iki toplayıcısını artırır, İmalat Montaj’ın üretimlerini kısaltır, Bilim [Araştırma](/wiki/03-Mechanics/Research.md) Merkezi’ni daha hızlı doldurur, Ticaret de Mağaza’nın fiyatlarını ve Montaj’ın üretimlerinin kredi ile Thulium bedelini düşürür, Mağaza’nın geri alırken ödediğini artırır ve bir [Açık Artırma](/wiki/03-Mechanics/Auction.md) ilanının teminatını düşürür. [Demirhane](/wiki/06-Items/Forge.md)’de Ticaret, bir adımın kredisini ve Thulium’unu ve bir birleştirmenin kredisini düşürür ([Kademe yükselt](/wiki/06-Items/Forge.md#tier-up)); İmalat ise bir yeniden düzenlemenin bir parçadan aldığı bütünlüğü düşürür ([Bütünlük ve çatlaklar](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## XP nasıl ödenir {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ Tablo, XP’yi neyin ödediğini değer değer sıralar. XP, ikinci sütunda ad�
 | **Kaçınma** (Refleks) | Sana yönelik, ıskalayan ya da kaçınılan her düşman saldırısı için | 1 | saatte 600 XP |
 | **Taktik** (Refleks) | Lazer menzilinde bir düşman varken bastığın her yetenek için | 2 | saatte 600 XP |
 | **Kalkan soğurması** (Dayanıklılık) | Düşman vuruşlarının aldığı azami kalkanın her %1’i için | 0,1 | saatte 300 XP |
+| **İyileştirme** (Kütle) | Senin bir iyileştirmenin geri getirdiği geminin azami gövdesinin her %1’i için | 0,1 | saatte 300 XP |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Bir radyasyon bandının içindeki her saniye için | 0,2 | Yok |
 |  | Radyasyonun aldığı azami gövdenin her %1’i için | 1 |  |
 | **İtici teorisi** (Kütle) | Geminin hızının %80 kadarını aşarak uçulan her saniye için, Afterburner altında iki katı | 0,1 | Yok |
@@ -186,14 +190,16 @@ Bir seviye, öncekinden sabit bir oranda daha fazla XP’ye mal olur; böylece i
 
 ## Pilot Becerileri sayfası {#the-pilot-skills-page}
 
-**Pilot Becerileri** sayfası istasyonun bir sayfasıdır ve kenar çubuğunda kendi satırı vardır. Bütün ağacı tek bir derli toplu sayfada gösterir: nitelikler ve beceriler beş grup halinde sütunlar boyunca yan yana durur (geniş ekranda üç, dar ekranda daha az), her değer için bir satır vardır; seviyesi sağ kenardadır ve altında ince bir XP çubuğu bulunur. Henüz XP kazanmamış bir değer gridir, seviyesi yerinde bir çizgi görünür. Değerin ne yaptığını, hangi niteliğin yönettiğini ya da hangi becerileri eğittiğini, XP’sini ve neyle büyüdüğünü görmek için işaretçiyi bir satırın üzerinde beklet. Ayrıntılarını sütun sırasının altında açmak için bir satıra tıkla: aynı sözcükler, XP çubuğu ve 1’den sonuncuya kadar herhangi bir seviyeyi önizlemek için bir kaydırıcı; yanında değerin 1. seviyede, şimdiki seviyende, önizlediğin seviyede ve son seviyede neyi değiştirdiğini gösteren küçük bir tablo vardır. Aynı anda yalnızca bir değer açıktır; kapatmak için satıra yeniden tıkla, kapatma düğmesini kullan ya da Esc’ye bas. Sayfayı en son açtığından beri bir değer seviye atladıysa kenar çubuğundaki satır bir rozet alır, Boosterlar penceresindeki bir kart da becerilerinin neyi değiştirdiğini özetler.
+**Pilot Becerileri** sayfası istasyonun bir sayfasıdır ve kenar çubuğunda kendi satırı vardır. Bütün ağacı tek bir sayfada gösterir: nitelikler ve beceriler beş grup halinde yan yana duran **kartlardır** (geniş ekranda üç, dar ekranda daha az; sayfada dört sütuna yer olduğunda Savaş’ın altı becerisi kartının içinde iki sütunda durur). Bir beceri, solda bir kutucuğun içinde bir simge, adı ve sağ kenarda seviyesi olan bir satırdır; seviye, o seviyenin XP’si büyüdükçe dolan bir **halkanın** içindedir. Kutucuk ve halka, becerinin bağlı olduğu niteliğin rengini taşır (Kütle yeşil, Dayanıklılık mavi, Refleks altın, İçgüdü mor); böylece ağaç renklerinden okunur. Henüz XP kazanmamış bir beceri gridir, boş bir halkanın içinde seviyesi yerinde bir çizgi görünür (Lazer teknolojisi ve Roket teknolojisi seviyelerini her zaman gösterir). Becerinin ne yaptığını, hangi niteliğin yönettiğini ya da hangi becerileri eğittiğini, XP’sini ve neyle büyüdüğünü görmek için işaretçiyi bir satırın üzerinde beklet; bu sırada onu yöneten nitelik ya da eğittiği beceriler aydınlanır.
+
+Bir becerinin ayrıntıları aynı sözcükler, XP çubuğu ve 1’den sonuncuya kadar herhangi bir seviyeyi önizlemek için bir kaydırıcıdır; yanında becerinin 1. seviyede, şimdiki seviyende, önizlediğin seviyede ve son seviyede neyi değiştirdiğini gösteren küçük bir tablo vardır. **Yeterince geniş bir sayfada** (ayrıntıların iki yarısı o zaman yan yana durur) seçili becerinin ayrıntıları her zaman sayfanın altında durur: sayfanın ilk becerisi, sen başka birine tıklayana kadar, sonra tıkladığın. Bir tık seçer, kapatma düğmesi yoktur ve Esc onları kapatmaz. **Daha dar bir sayfada ve uçuş penceresinde** bir satıra tıklamak ayrıntıları bunun yerine kart sırasının altında bir şerit olarak açar, aynı anda tek bir beceri için: kapatmak için satıra yeniden tıkla, kapatma düğmesini kullan ya da Esc’ye bas. Sayfayı en son açtığından beri bir beceri seviye atladıysa kenar çubuğundaki satır bir rozet alır, Boosterlar penceresindeki bir kart da becerilerinin neyi değiştirdiğini özetler.
 
 Uçuşta aynı sayfa **Pilot Becerileri** penceresidir. Araç çubuğundaki Pilot Becerileri düğmesiyle (geniş bir ekranda) ya da varsayılanı K olan tuşuyla (Ayarlar, Kontroller) aç. Diğerleri gibi bir penceredir: taşıyabilir, boyutunu değiştirebilirsin; yerini ve açık olup olmadığını hatırlar. Yalnızca becerilerini gösterir: uçuşun XP satırları geldikçe seviyeler ilerler, bir satıra tıklamak da aynı ayrıntıları pencerenin içinde açar.
 
 ## Nelerin korunduğu {#what-is-kept}
 
 - **Her sıfırlamada.** Ağaç hesabının bir parçasıdır: bir sıfırlama hiçbir seviyeyi ya da XP’yi değiştirmez ve Nakliye Deposu’nun bununla bir ilgisi yoktur ([Neleri korursun](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **Bölgesel sunucularda.** Singapore ya da US East’te uçarken kazandığın XP, eve döndüğünde becerilerine eklenir; orada ilk kez kullandığın değer de dahildir, orada tükettiğin saatlik sınır da seninle gelir. Orada uçan bir pilotun Pilot Becerileri sayfası bölgesel sunucunun sayılarını okur, gemisinin son kaydından beri kazandığı XP ile birlikte.
+- **Bölgesel sunucularda.** Singapore ya da US East’te uçarken kazandığın XP, eve döndüğünde becerilerine eklenir; orada ilk kez kullandığın değer de dahildir, orada tükettiğin saatlik sınır da seninle gelir. Orada uçan bir pilotun Pilot Becerileri sayfası bölgesel sunucunun sayılarını okur, gemisinin son kaydından beri kazandığı XP ile birlikte. Bölgesel bir sunucuda başka nelerin çalıştığı [Sunucular](/wiki/03-Mechanics/Servers.md) sayfasında.
 - **Hesap silinene kadar.** Bir hesabı silmek seviyelerini siler.
 
 Buff’ların son seviyeden başka bir tavanı yoktur: her şeyi geliştirmiş bir pilot, tabloların söylediği kadar güçlüdür.

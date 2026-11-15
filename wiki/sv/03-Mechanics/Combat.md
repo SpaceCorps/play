@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -132,8 +132,8 @@ Inkommande skada delas mellan sköldar och träffpoäng efter ditt skepps **geno
 Varje fraktions hembas (X-1-kartor) innehåller säkra zoner.
 - Att gå in i en säker zon gör ditt skepp helt immunt mot skada.
 - **Aggrobrott**: Att attackera en fiende tar omedelbart bort din immunitet i säker zon, även om du fysiskt befinner dig inne i en.
-- En ring runt varje station och portal skyddar dig när 5 sekunder har gått sedan du träffades och 15 sedan du sköt. Medan den skyddar dig och du inte är i strid låter Hangarfönstret dig byta skepp utan att lämna spelet: se [Hangaren under flygning](/wiki/03-Mechanics/Hangar.md).
-- Stationer finns bara i hembaserna (`x-1`). Farosektorerna (`DS-1` till `DS-4`) har inga: där är ringarna runt portalerna de enda säkra zonerna.
+- En ring runt varje hembas station och runt varje portal skyddar dig när 5 sekunder har gått sedan du träffades och 15 sedan du sköt. Medan den skyddar dig och du inte är i strid låter Hangarfönstret dig byta skepp utan att lämna spelet: se [Hangaren under flygning](/wiki/03-Mechanics/Hangar.md).
+- Stationer finns i hembaserna (`x-1`) och i gränserna (`x-4`), men bara en hembas station har en ring: Mission Control-stationen i en gräns skyddar ingen. Farosektorerna (`DS-1` till `DS-4`) har inga: där är ringarna runt portalerna de enda säkra zonerna.
 
 ### 3. Under attack i en farosektor {#3-under-attack-in-a-danger-sector}
 

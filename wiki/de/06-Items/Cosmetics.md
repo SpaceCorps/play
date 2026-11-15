@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
@@ -26,7 +26,7 @@ Ein Skin ist ein Farbschema, gemacht aus dem eigenen Rumpf des Schiffs: Plattenf
 
 Skins gehören zu deinem **Konto**, nicht zu einem Schiff, und sie bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinweg; deine Schiffe tragen, was sie getragen haben.
 
-Das [Chroma-Archiv](/wiki/06-Items/Containers.md#chroma-archive) kann jede Kollektion außer Bloody R.E.D ergeben, und zwar eine ganze Kollektion auf einmal: alle ihre Skins, die du noch nicht hast.
+Das [Chroma-Archiv](/wiki/06-Items/Containers.md#chroma-archive) kann jede Kollektion außer Bloody R.E.D ergeben, immer einen Skin auf einmal: Eine Kollektion als Belohnung gibt einen Skin davon, für ein Schiffsmodell. Es ist der Skin für dein aktives Schiff, wenn die Kollektion einen dafür hat und du ihn noch nicht besitzt; sonst der Skin für ein anderes Schiff, das du besitzt; sonst der erste Skin der Kollektion, der dir fehlt. Flieg also das Schiff, für das du den Skin willst, wenn du ein Archiv öffnest. Die Kollektion kann erneut kommen, bis du alle ihre Skins hast. Eine Kollektion, die vor 0.5.7 als Ganzes kam, bleibt deine, mit jedem Skin.
 
 | Kollektion | Schiffe | Seltenheit | Wie sie aussieht |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Eine Aura bleibt innerhalb des Rings, der eine Zielerfassung markiert, und wird 
 ## Die Garderobe {#the-wardrobe}
 
 - **Reiter.** Skin, Aura, Triebwerksspur und Drohnen. Ein Seltenheits-Chip filtert einen Reiter auf eine Seltenheit, und **Nur meine** listet, was du tragen kannst.
-- **Eine Kachel sagt, wie du zu dem Look stehst.** **Getragen** (das Schiff trägt ihn), **Im Besitz** (du hast ihn), **Gehört zum Slot** (jeder Pilot hat ihn) oder **Noch nicht erhältlich**, mit einem dumpfen Tick beim Klick.
+- **Eine Kachel sagt, wie du zu dem Look stehst.** **Getragen** (das Schiff trägt ihn), **Im Besitz** (du hast ihn), **Gehört zum Slot** (jeder Pilot hat ihn) oder **Noch nicht erhältlich**, mit einem dumpfen Tick beim Klick. Die Kachel eines Skins zeigt auch, wie viele Schiffs-Skins seiner Kollektion du besitzt, zum Beispiel 1/4.
 - **Einen Look ablegen.** Die Kachel **Schlicht** im Reiter Skin gibt dem Schiff seine schlichte Lackierung zurück, und **Keine** nimmt die Aura ab.
 - **Mehr als ein Schiff.** Der Schalter am Fuß des Blatts, **Auch auf meine anderen Schiffe dieses Modells anwenden** für einen Skin und **Auch auf meine anderen Schiffe anwenden** für eine Aura oder eine Triebwerksspur, lässt einen Klick den Look auf alle anlegen.
 - **Wo du ihn ändern kannst.** Wo du deine Ausrüstung ändern kannst: angedockt oder in einer Schutzzone mit Schutz, wie in [Hangar im Flug](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

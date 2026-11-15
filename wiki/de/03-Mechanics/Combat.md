@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -132,8 +132,8 @@ Eingehender Schaden wird nach der **durchschnittlichen Absorption** deines Schif
 Die Heimatbasis jedes Konzerns (X-1-Karten) enthält Schutzzonen.
 - Betrittst du eine Schutzzone, ist dein Schiff vollständig immun gegen Schaden.
 - **Aggro-Bruch**: Wenn du einen Feind angreifst, verlierst du sofort deine Schutzzonen-Immunität, auch wenn du dich tatsächlich in einer befindest.
-- Ein Ring um jede Station und jedes Portal schützt dich, sobald seit deinem letzten Treffer 5 Sekunden und seit deinem letzten Schuss 15 vergangen sind. Solange er dich schützt und du nicht im Kampf bist, lässt dich das Hangar-Fenster dein Schiff wechseln, ohne das Spiel zu verlassen: siehe [Der Hangar im Flug](/wiki/03-Mechanics/Hangar.md).
-- Stationen gibt es nur in den Heimatbasen (`x-1`). Die Gefahrensektoren (`DS-1` bis `DS-4`) haben keine: Dort sind die Ringe um die Portale die einzigen Schutzzonen.
+- Ein Ring um die Station jeder Heimatbasis und um jedes Portal schützt dich, sobald seit deinem letzten Treffer 5 Sekunden und seit deinem letzten Schuss 15 vergangen sind. Solange er dich schützt und du nicht im Kampf bist, lässt dich das Hangar-Fenster dein Schiff wechseln, ohne das Spiel zu verlassen: siehe [Der Hangar im Flug](/wiki/03-Mechanics/Hangar.md).
+- Stationen gibt es in den Heimatbasen (`x-1`) und in den Grenzsektoren (`x-4`), aber nur die Station einer Heimatbasis hat einen Ring: Die Mission-Control-Station eines Grenzsektors schützt niemanden. Die Gefahrensektoren (`DS-1` bis `DS-4`) haben keine: Dort sind die Ringe um die Portale die einzigen Schutzzonen.
 
 ### 3. Unter Beschuss in einem Gefahrensektor {#3-under-attack-in-a-danger-sector}
 

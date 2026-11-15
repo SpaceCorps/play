@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -12,7 +12,7 @@ Los **objetos especiales** son seis objetos de un solo uso que te ahorran tiempo
 ## En un minuto {#in-one-minute}
 
 - **Seis tipos.** El Magic Hammer, Schematics, la Philosopher's Stone, la Tinkerer's Badge, el Forger's Seal y el Workforce Contract. Cada uno se describe más abajo con sus cifras.
-- **Dónde.** El inventario del Hangar muestra una casilla por cada clase que tienes, entre los consumibles, con la cantidad. Pasa el cursor sobre una casilla para leer lo que hace el objeto y haz clic para usarlo (con el Workforce Contract eliges antes al trabajador). El Magic Hammer y el Tinkerer's Badge actúan sobre algo que eliges, así que un clic no hace nada y su casilla dice dónde se usan: en el Skylab y en la Forja. La página sobre la que actúa el objeto muestra también un botón cuando tienes uno: el módulo de una mejora en el Skylab, la investigación en curso, el panel de subida de grado de la Forja y la cola de producción.
+- **Dónde.** El inventario del Hangar muestra una casilla por cada clase que tienes, entre los consumibles, con la cantidad. Pasa el cursor sobre una casilla para leer lo que hace el objeto y haz clic para usarlo (con el Workforce Contract eliges antes al trabajador y cuántos contratos gastar). El Magic Hammer y el Tinkerer's Badge actúan sobre algo que eliges, así que un clic no hace nada y su casilla dice dónde se usan: en el Skylab y en la Forja. La página sobre la que actúa el objeto muestra también un botón cuando tienes uno: el módulo de una mejora en el Skylab, la investigación en curso, el panel de subida de grado de la Forja y la cola de producción.
 - **Pregunta primero.** Cada uso abre una hoja que dice exactamente qué va a pasar y qué gasta. Usarlo es definitivo: no se puede deshacer. Si se rechaza un uso, no se gasta nada.
 - **Se quedan.** Tus objetos especiales, y la Philosopher's Stone o el contrato que esté en marcha, se conservan tras el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **En cualquier sitio.** Puedes usarlos mientras vuelas: ninguno necesita que tu nave esté aterrizada.
@@ -20,16 +20,16 @@ Los **objetos especiales** son seis objetos de un solo uso que te ahorran tiempo
 
 ## Los seis de un vistazo {#the-six-at-a-glance}
 
-| Objeto | Rareza | Máximo que puedes tener | Qué hace |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Legendario | 5 | Termina una mejora del Skylab al instante |
-| **Schematics** | Raro | 20 | Quita 24 horas a la investigación en marcha; la termina si quedan 24 horas o menos |
-| **Philosopher's Stone** | Épico | 10 | Tu Granja de créditos y tu Granja de Thulium producen el doble durante 10 horas |
-| **Tinkerer's Badge** | Épico | 10 | Sube una pieza de equipo un grado de la Forja, a partir de Corrupto |
-| **Forger's Seal** | Poco común | 99 | Salta hasta 30 minutos de la cola de producción |
-| **Workforce Contract** | Común | 99 | Contrata a un Foreman, un Engineer o un Hauler durante 1 hora |
+| Objeto | Rareza | Qué hace |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Legendario | Termina una mejora del Skylab al instante |
+| **Schematics** | Raro | Quita 24 horas a la investigación en marcha; la termina si quedan 24 horas o menos |
+| **Philosopher's Stone** | Épico | Tu Granja de créditos y tu Granja de Thulium producen el doble durante 10 horas |
+| **Tinkerer's Badge** | Épico | Sube una pieza de equipo un grado de la Forja, a partir de Estándar |
+| **Forger's Seal** | Poco común | Salta hasta 30 minutos de la cola de producción |
+| **Workforce Contract** | Común | Contrata a un Foreman, un Engineer o un Hauler durante 1 hora |
 
-La rareza sigue la escala habitual del juego, y **Máximo que puedes tener** es lo máximo de un tipo que guarda tu cuenta: un regalo que lo superaría se rechaza entero, no se recorta.
+La rareza sigue la escala habitual del juego. **No hay límite** de cuántos de un tipo guarda tu cuenta: un regalo nunca se rechaza por tener ya muchos.
 
 ## Los seis {#the-six}
 
@@ -39,12 +39,12 @@ Termina **una mejora del Skylab al instante**: elige el módulo que se está mej
 
 - **El precio sigue pagado.** Lo que costó la mejora se cobró al empezarla. El Hammer no devuelve nada de eso ni pide nada más.
 - **Solo una mejora en marcha.** Un módulo que no se está mejorando, o cuya mejora acaba de terminar sola, se rechaza («Nada que terminar: ese módulo no se está mejorando.») y el Hammer se queda contigo.
-- **Extremadamente raro.** El Skylab conserva sus niveles a través del reinicio, así que un Hammer vale el tiempo de un paso, hasta 6 días en el Núcleo. No hay tiempo de espera entre dos Hammer, y puedes tener 5.
+- **Extremadamente raro.** El Skylab conserva sus niveles a través del reinicio, así que un Hammer vale el tiempo de un paso, hasta 6 días en el Núcleo. No hay tiempo de espera entre dos Hammer, y no hay límite de cuántos puedes tener.
 - **El Engineer** (un [Workforce Contract](#workforce-contract)) acorta las mejoras hasta 1 hora; el Hammer se lleva todo lo que queda.
 
 ### Schematics
 
-Quita **24 horas a la investigación que está en marcha**. Si quedan **24 horas o menos**, la investigación se **termina** al instante; si queda más, pierde 24 horas y sigue, y puedes usar otro Schematics sobre ella. 167 de las 187 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) tardan 24 horas o menos, así que un Schematics las termina desde el principio. Las otras 20 tardan más, 48 o 72 horas la mayoría y 96, 168 y 240 horas los Rocket Launcher III, IV y V, y necesitan de 2 a 10 Schematics.
+Quita **24 horas a la investigación que está en marcha**. Si quedan **24 horas o menos**, la investigación se **termina** al instante; si queda más, pierde 24 horas y sigue, y puedes usar otro Schematics sobre ella. 187 de las 209 tecnologías del [Centro de investigación](/wiki/03-Mechanics/Research.md) tardan 24 horas o menos, así que un Schematics las termina desde el principio. Las otras 22 tardan más, 48 o 72 horas la mayoría y 96, 168 y 240 horas los Rocket Launcher III, IV y V, y necesitan de 2 a 10 Schematics.
 
 - **Horas de la tecnología, no del reloj.** Las 24 horas son el tiempo de investigación propio de la tecnología, el de su tarjeta. El impulso de Thulium hace que una investigación corra más deprisa, pero no cambia lo que quita un uso; si un impulso cubriría el final de la investigación, un uso ahorra menos horas de espera (a doble velocidad, un día de investigación son 12 horas de espera). La confirmación indica lo que mostrará el temporizador.
 - **La investigación sigue como estaba.** Una investigación que pierde 24 horas conserva su sitio: el impulso sigue corriendo, la cola no se toca y no empieza nada detrás. Una investigación que espera ciencia sigue esperando: Schematics da tiempo, no combustible.
@@ -64,12 +64,12 @@ Durante **10 horas** de tiempo real, tu **Granja de créditos y tu Granja de Thu
 
 ### Tinkerer's Badge {#tinkerers-badge}
 
-Sube **una pieza de equipo un grado de la Forja**. **Siempre funciona** y no cuesta **ni créditos, ni Thulium, ni materiales**. Es la subida de grado de la [Forja](/wiki/06-Items/Forge.md) sin los dados y sin el precio.
+Sube **una pieza de equipo un grado de la Forja**. **Siempre funciona** y no cuesta **ni créditos, ni Thulium, ni materiales**. Es la subida de grado de la [Forja](/wiki/06-Items/Forge.md) sin el precio.
 
-- **A partir de Corrupto.** La pieza debe ser ya **Corrupto o mejor** (grado 2 y superiores entre Estándar, Corrupto, Divino, Rompedor y Eterno). Una pieza Estándar se rechaza, porque el primer paso de la Forja funciona siempre de todos modos.
-- **Un paso.** Una Badge sobre una pieza Corrupto la deja Divino, sobre una Divino, Rompedor, y sobre una Rompedor, Eterno.
-- **Las bonificaciones se tiran como en la Forja.** Los mismos rangos y las mismas probabilidades de llenar una ranura nueva, así que una pieza de Badge es como una de la Forja.
-- **Siguen las demás reglas de la Forja.** Una sola pieza que pueda llevar bonificaciones; no en el Alijo de Transporte; no ya Eterno. Una pieza montada en una nave funciona con su nuevo grado al instante, y conserva su etiqueta de Comerciable.
+- **A partir de Estándar.** La pieza puede estar en cualquier grado por debajo de Ascendido: incluso el primer paso, de Estándar a Despierto, admite una Badge.
+- **Un paso.** Una Badge sobre una pieza Estándar la deja Despierto, sobre una pieza Despierto la deja Resonante, sobre una Resonante, Radiante, y sobre una Radiante, Ascendido.
+- **Las bonificaciones se tiran como en la Forja.** Cada bonificación que tiene la pieza se vuelve a tirar en el rango del nuevo grado y se queda el mejor valor, y se despierta una ranura: una pieza de Badge es como una de la Forja.
+- **Siguen las demás reglas de la Forja.** Una sola pieza que pueda llevar bonificaciones; no en el Alijo de Transporte; no ya Ascendido. Una pieza montada en una nave funciona con su nuevo grado al instante, y conserva su etiqueta de Comerciable.
 - La encuentras como un segundo botón junto a **Subir grado** en la Forja, visible cuando tienes una Badge y la pieza elegida cumple.
 
 ### Forger's Seal {#forgers-seal}
@@ -84,12 +84,12 @@ Salta **hasta 30 minutos** de tu **cola de producción**: la cola avanza esa can
 
 ### Workforce Contract
 
-Contrata a **uno de tres trabajadores del Skylab durante 1 hora**. Eliges al trabajador cuando usas el contrato. **Un contrato a la vez:** un segundo se rechaza mientras hay uno en marcha y no se gasta. Un trabajador que aún no tiene nada que hacer (ningún productor, ninguna Bahía de mineral, ningún módulo construido) también se rechaza, y el contrato se queda contigo.
+Contrata a **uno de tres trabajadores del Skylab durante 1 hora**. Eliges al trabajador cuando usas el contrato, y también **cuántos contratos gastar**: escribe un número o pulsa **Todos**. Varios contratos forman **un periodo** de tantas horas de ese único trabajador (12 contratos son 12 horas del Foreman), y la tabla de abajo vale para cada hora de él. **Un periodo a la vez:** un segundo uso se rechaza mientras hay uno en marcha, no le añade tiempo y no se gasta nada. Un trabajador que aún no tiene nada que hacer (ningún productor, ninguna Bahía de mineral, ningún módulo construido) también se rechaza, y los contratos se quedan contigo.
 
 | Trabajador | Durante 1 hora |
 | :--- | :--- |
 | **Foreman** | Cada productor produce el doble: la Granja de créditos, la Granja de Thulium, los Colectores de Velkonite y de Orvium, la Impresora de munición y la Fábrica de cohetes. Cuenta como la Stone: solo mientras un módulo produce, y una tolva llena lo desperdicia. La Forja y la Bahía de mineral no son productores en este sentido |
-| **Engineer** | Las mejoras del Skylab avanzan al doble de velocidad: cada mejora en marcha termina antes, como mucho 1 hora y nunca más de la mitad de lo que le quedaba; una mejora que empiezas dentro de la hora se acorta como mucho lo que quede de la hora, y nunca más de la mitad |
+| **Engineer** | Las mejoras del Skylab avanzan al doble de velocidad: cada mejora en marcha termina antes, como mucho 1 hora por cada contrato gastado y nunca más de la mitad de lo que le quedaba; una mejora que empiezas dentro del periodo se acorta como mucho lo que quede del periodo, y nunca más de la mitad |
 | **Hauler** | La Bahía de mineral no tiene límite de cupo: mueve todo lo que permitan tu carga y el sitio del Almacén de recursos. El cupo que tenía guardado queda intacto después |
 
 El Hauler solo levanta el cupo. Todo lo demás de la [Bahía de mineral](/wiki/03-Mechanics/Skylab.md#ore-bay) sigue igual: debe estar construida, encendida, sin mejora en curso y con energía, y tu nave debe estar aterrizada.
@@ -99,7 +99,7 @@ El Hauler solo levanta el cupo. Todo lo demás de la [Bahía de mineral](/wiki/0
 - **Un contador, no un objeto.** El inventario del Hangar es el único lugar que los enumera, como casillas entre los consumibles; de una clase que no tienes no hay casilla. Una casilla no es un objeto, así que no se puede arrastrar, seleccionar, eliminar ni vender. No tienen peso, ni hueco en la barra de acceso, ni sitio en la carga ni en el Alijo de Transporte; nunca se sueltan cuando destruyen tu nave.
 - **A través del reinicio.** Tus objetos especiales y una Philosopher's Stone o un contrato en marcha se conservan, como el Skylab, la investigación y tu aspecto.
 - **Nunca se intercambian.** Ni en la [Subasta](/wiki/03-Mechanics/Auction.md), ni a otro piloto, ni a cambio de créditos.
-- **Solo el Hammer puede cambiar tu ritmo**, y solo puedes tener 5. Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, 24 horas de una investigación.
+- **Solo el Hammer puede cambiar tu ritmo.** Los otros cinco son pequeños por diseño: 10 horas de dos granjas, 1 hora de un trabajador, un grado, 30 minutos de una cola, 24 horas de una investigación.
 - **Un uso, una confirmación, un sonido.** Cada uso reproduce su propio aviso sonoro, discreto.
 
 ## Errores comunes {#common-mistakes}
@@ -107,7 +107,7 @@ El Hauler solo levanta el cupo. Todo lo demás de la [Bahía de mineral](/wiki/0
 - **El Hammer necesita una mejora en marcha.** Empieza antes la mejora. Un módulo cuyo temporizador ya terminó no tiene nada que terminar.
 - **Una investigación larga necesita varios Schematics.** Uno quita 24 horas, no más: una tecnología de 240 horas necesita diez. La hoja te dice cuánto quedará antes de confirmar.
 - **La Stone no agranda la tolva.** Recoge antes de que se llene una granja, o la bonificación se pierde.
-- **La Badge es para Corrupto y superiores.** El primer paso de la Forja no necesita Badge.
+- **Una pieza Ascendido no admite Badge.** Ya está en el grado más alto: no queda nada que subir.
 - **Un contrato necesita trabajo que hacer.** Construye antes un productor, una Bahía de mineral o un módulo, y luego contrata al trabajador.
 - **Mira la hoja.** Nombra el objeto y lo que gasta; usarlo es definitivo.
 

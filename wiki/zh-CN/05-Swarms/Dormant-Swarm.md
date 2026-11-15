@@ -57,7 +57,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 | :--- | ---: | ---: | ---: |
 | 船体 | 256,000 | 384,000 | 512,000 |
 | 护盾 | 83,400 | 125,100 | 166,800 |
-| 激光伤害 （每秒一轮齐射） | 3,570 | 5,355 | 7,140 |
+| 激光伤害 （每秒一轮齐射） | 3,315 | 4,973 | 6,630 |
 | 速度 | 210 | 210 | 210 |
 | 激光射程 | 800 | 800 | 800 |
 | 仇恨范围 | 被攻击时 | 被攻击时 | 被攻击时 |
@@ -75,6 +75,7 @@ Dormant 虫群由一个 **Dormant Force** 和它的 **Dormant Pulse** 组成：�
 | Ultra Core 和 Experimental Fusion Core， 平均分配 | 100% | 共 2,000–3,000 |
 | 4 种史诗级 [火箭](/wiki/06-Items/Rockets.md) 中随机一种 | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 和 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 中随机一种 | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

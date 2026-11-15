@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Rangos -->
 # Rangos {#ranks}
 
@@ -106,9 +106,11 @@ Si cambias de corporación, tus puntos van contigo y entras en la clasificación
 
 ## Cómo se ganan los puntos PvE {#how-you-earn-pve-points}
 
-Tus puntos PvE se calculan con tres cosas:
+Tus puntos PvE se calculan con cuatro cosas:
 
-**nivel × 100 + experiencia ÷ 1.000 (redondeado hacia abajo) + los puntos de cada alienígena que has destruido**
+**nivel × 100 + experiencia ÷ 1.000 (redondeado hacia abajo) + honor ÷ 100 (redondeado hacia abajo) + los puntos de cada alienígena que has destruido**
+
+Cada 100 de **honor** valen un punto, sin importar de dónde vengan; tras un reinicio solo cuenta el honor que ganas en la nueva temporada. Un saldo por debajo de 0 cuenta como nada.
 
 Un alienígena más duro vale más: un derribo da puntos según el daño que cuesta destruirlo. Las naves de los enjambres y los guardianes del clan cuentan con la misma regla, así que un Pirate Scout vale lo mismo que un Bulwark. Cada derribo se cuenta con el nombre propio del alienígena en tus estadísticas de derribos.
 
@@ -144,7 +146,7 @@ Un alienígena más duro vale más: un derribo da puntos según el daño que cue
 
 Las cinco primeras filas son los alienígenas normales, las doce siguientes las naves de los seis enjambres y las tres siguientes los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (desde el día 11 de la temporada). Al final van los guardianes del clan, los líderes de un combate contra un guardián, y sus tripulaciones, los Brood Drones, Siege Escorts y Wrath Guards: I, II y III son la fuerza del guardián, y los puntos van en ese orden.
 
-Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia que ha destruido 300 Seekers, 80 Phantasm y 10 Bulwarks tiene 400 + 12 + 300 + 160 + 40 = **912** puntos. Eso lo hace Sargento: el mínimo es 800, y el siguiente rango, Sargento sénior, pide 1.000. Hasta Coronel sénior solo cuentan los puntos.
+Por ejemplo, un piloto de nivel 4 con 12.500 de experiencia y 900 de honor que ha destruido 300 Seekers, 80 Phantasm y 10 Bulwarks tiene 400 + 12 + 9 + 300 + 160 + 40 = **921** puntos. Eso lo hace Sargento: el mínimo es 800, y el siguiente rango, Sargento sénior, pide 1.000. Hasta Coronel sénior solo cuentan los puntos.
 
 La página **Clasificaciones** (Comunidad › Clasificaciones) muestra cómo se componen tus puntos, y el **Salón de la Fama** de esa página lista a los mejores pilotos. La **(i)** junto a los puntos PvE de esa página nombra los cinco alienígenas, lo que vale un derribo en cada uno de los [enjambres](/wiki/05-Swarms/Swarms.md), de su nave más pequeña a su jefe, lo mismo para los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), y los [guardianes del clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) no figura en ninguna clasificación: una baja suya no vale ningún punto, no tiene fila en el Salón de la Fama y no pertenece a ninguna corporación, así que no está en ninguna de las escalas.
 
@@ -202,7 +204,7 @@ Abre **Economía › Corporación**. Su sección **Clasificación de la corporac
 
 ## Rangos y reinicio {#ranks-and-the-wipe}
 
-En el reinicio tus puntos PvE vuelven a empezar de cero, así que la clasificación de tu corporación empieza de nuevo y cada temporada es una nueva escalada. Solo cuenta lo que ganas después de un reinicio: los niveles que subes, la experiencia y los derribos de alienígenas de la nueva temporada ([Puntos nuevos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Tu nivel, tu experiencia y tus estadísticas de derribos se quedan en tus totales. **El honor no determina tu rango.** El rango que tenías en el instante del reinicio pasa al historial de tus temporadas, con tu puesto en la clasificación, y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Tu rango tampoco es para siempre: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
+En el reinicio tus puntos PvE vuelven a empezar de cero, así que la clasificación de tu corporación empieza de nuevo y cada temporada es una nueva escalada. Solo cuenta lo que ganas después de un reinicio: los niveles que subes, la experiencia, el honor y los derribos de alienígenas de la nueva temporada ([Puntos nuevos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Tu nivel, tu experiencia y tus estadísticas de derribos se quedan en tus totales. El rango que tenías en el instante del reinicio pasa al historial de tus temporadas, con tu puesto en la clasificación, y da sus recompensas ([Temporadas y recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Tu rango tampoco es para siempre: los seis mejores rangos se mueven con los demás pilotos de tu corporación, y un piloto que se ausenta 30 días sale de la clasificación hasta que vuelve a volar.
 
 La temporada 2, que empezó con el reinicio del 6 de noviembre de 2026, fue la primera que cuenta así: sus puntos cuentan desde ese reinicio. El reinicio que cerró la temporada 1 pagó los rangos de la temporada 1 según los puntos de toda tu trayectoria.
 

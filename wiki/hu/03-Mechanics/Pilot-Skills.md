@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Pilótakészségek -->
 # Pilótakészségek {#pilot-skills}
 
@@ -15,7 +15,7 @@ Az új pilóta nem teljes erejű. Az 1. szinten a lézer és a rakéta kevesebb 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Értékek**: 19 érték: 4 attribútum és 15 készség 5 csoportban
+- **Értékek**: 20 érték: 4 attribútum és 16 készség 5 csoportban
 - **Szintek**: 1-től 100-ig. Minden pilóta minden értéket az 1. szinten kezd, és nincs mit elkölteni, sem újraosztani
 - **Egy szint ára**: 1. szint → 2. szint: 40 XP; 50. szint → 51. szint: 875 XP; 99. szint → 100. szint: 19 157 XP; összesen 313 258 XP
 - **Mit ad egy szint**: A buff egyenesen nő az 1. szinten felvett értékétől a 100. szinten felvett értékéig. Semmi sem korlátozott
@@ -77,6 +77,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | **Kitérés** (Reflexek) | A találat elől kitérés esélye, a hajó sajátjához adva | 0% | 15% |
 | **Taktika** (Reflexek) | A képességek időtartama | ×1 | ×1,2 |
 | **Pajzselnyelés** (Szívósság) | A pajzsaid elnyelése | +0 pont | +5 pont |
+| **Gyógyítás** (Tömeg) | A saját javításaid és gyógyításaid ereje | ×1 | ×1,3 |
 
 ### Hajóvezetés {#ship-control}
 
@@ -93,12 +94,13 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | **Kitermelés** (Ösztön) | Mit termel a Skylab | ×1 | ×1,3 |
 | **Logisztika** (Tömeg) | Mennyit tart az Erőforrás-raktár bankja | ×1 | ×1,4 |
 | **Gyártás** (Reflexek) | Egy gyártás ideje | ×1 | ×0,65 |
+|  | Egy újrarendezés integritásköltsége | ×1 | ×0,7 |
 
 ### Kereskedelem {#trading}
 
 | Érték | Mit változtat | 1. szint | 100. szint |
 | :--- | :--- | ---: | ---: |
-| **Kereskedelem** (Ösztön) | Árak a Boltban | ×1 | ×0,85 |
+| **Kereskedelem** (Ösztön) | Árak a Boltban, valamint egy gyártás vagy a Kovácsműhely kreditje és Thuliuma | ×1 | ×0,85 |
 |  | Mit fizet a Bolt visszavásárláskor | ×1 | ×1,1 |
 |  | Egy aukciós hirdetés letétje | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 - **Lézerek.** A Lézertechnika megváltoztatja minden sorozat sebzését és találati esélyét; a mellémenő sorozat lebegő „Miss” feliratot mutat, és a lőszerét így is elhasználja ([Harc](/wiki/03-Mechanics/Combat.md#laser-tech)). A lézereid hatótávja a hajód sajátja: a Lövészet az egyszerű x1-től eltérő lőszerrel elért találataidtól lép szintet, de csak a Mine-ra hat (lent).
 - **Rakéták.** A Rakétatechnika megváltoztatja minden rakéta sebzését és az esélyt, hogy egy rakéta hibás gyújtású lesz ([Rakétatechnika](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Találatok elviselése.** A Szívósság levesz egy részt minden találatból, amelyet kapsz, a Kitérés növeli az esélyt, hogy egy egyenes találat semmit sem tesz, a Pajzselnyelés pedig növeli a találatnak azt a részét, amelyet a pajzsaid felfognak ([Harc](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Tömeg növeli a hajótestedet.
+- **Gyógyítás.** A Gyógyítás erősebbé teszi a saját felszerelésed gyógyításait: a Repair Drone javítását, egy Emergency Repairt és az általad ledobott Heal Podot ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Azzal a hajótesttel edződik, amit a gyógyításaid helyreállítanak; biztonságos zónában lévő hajó gyógyítása nem számít. A Support Rocket minden szinten ugyanazt a fix mennyiséget gyógyítja, és mégis ad Gyógyítás-XP-t.
 - **Képességek.** A Reflexek rövidítik a képességeid töltődési idejét, a Taktika pedig tovább tartja őket ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Szabotázs erősíti a mérgeket.
 - **Mine.** A Szabotázs növeli a Mine sebzését, a Lövészet pedig gyorsabban és messzebbre dobja ([Extrák](/wiki/06-Items/Extras.md#mine)).
 - **Sebesség.** A Hajtóműelmélet hozzátesz a sebességedhez, a hajtóművek és az Afterburner mellett ([Sebesség](/wiki/03-Mechanics/Speed.md)).
 - **Felvétel.** Az Ösztön növeli minden zsákmánysor esélyét, ahogy egy Loot Luck Booster is, és a kettő összeadódik; az Antianyag növeli a felvett Dark Mattert ([Rakomány](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Sugárzás.** A Sugárzásvédelem csökkenti a sugárzás dózisát a fekete lyuknál, a kotrók köreiben, a pulzároknál és az Unwakened aurájában ([Feketelyuk](/wiki/03-Mechanics/Black-Hole.md)).
-- **Otthon.** A Kitermelés és a Logisztika megváltoztatja, mit termel és mennyit tárol a [Skylab](/wiki/03-Mechanics/Skylab.md), az Ösztön növeli a két gyűjtőjét, a Gyártás rövidíti az állomáson zajló gyártásokat, a Tudomány gyorsabban tölti a [Kutatóközpontot](/wiki/03-Mechanics/Research.md), a Kereskedelem pedig csökkenti a Bolt árait, növeli, amennyit visszavásárláskor fizet, és csökkenti egy hirdetés letétjét az [Aukción](/wiki/03-Mechanics/Auction.md).
+- **Otthon.** A Kitermelés és a Logisztika megváltoztatja, mit termel és mennyit tárol a [Skylab](/wiki/03-Mechanics/Skylab.md), az Ösztön növeli a két gyűjtőjét, a Gyártás rövidíti az állomáson zajló gyártásokat, a Tudomány gyorsabban tölti a [Kutatóközpontot](/wiki/03-Mechanics/Research.md), a Kereskedelem pedig csökkenti a Bolt árait, valamint az állomáson zajló gyártások kredit- és Thulium-költségét, növeli, amennyit a Bolt visszavásárláskor fizet, és csökkenti egy hirdetés letétjét az [Aukción](/wiki/03-Mechanics/Auction.md). A [Kovácsműhelyben](/wiki/06-Items/Forge.md) a Kereskedelem csökkenti egy lépés kreditjét és Thuliumát, valamint egy összevonás kreditjét ([Fokozatemelés](/wiki/06-Items/Forge.md#tier-up)), a Gyártás pedig csökkenti az integritást, amelyet egy újrarendezés elvesz egy darabból ([Integritás és repedések](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Hogyan fizet az XP {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ A táblázat felsorolja, mi fizet XP-t, értékenként. Az XP a második oszlopb
 | **Kitérés** (Reflexek) | Minden rád irányuló ellenséges támadás, amely célt téveszt, vagy amely elől kitérsz | 1 | 600 XP óránként |
 | **Taktika** (Reflexek) | Minden képesség, amelyet lézerhatótávon belüli ellenséggel nyomsz meg | 2 | 600 XP óránként |
 | **Pajzselnyelés** (Szívósság) | A maximális pajzsodból minden 1%, amelyet az ellenséges találatok elvisznek | 0,1 | 300 XP óránként |
+| **Gyógyítás** (Tömeg) | Egy hajó maximális hajótestéből minden 1%, amelyet egy gyógyításod helyreállít | 0,1 | 300 XP óránként |
 | **Sugárzásvédelem** (Szívósság) | Minden másodperc egy sugárzási sávban | 0,2 | Nincs |
 |  | A maximális hajótestedből minden 1%, amelyet a sugárzás elvesz | 1 |  |
 | **Hajtóműelmélet** (Tömeg) | Minden másodperc a hajód sebességének 80%-a fölötti repülésből, Afterburner alatt kétszer annyi | 0,1 | Nincs |
@@ -186,14 +190,16 @@ Egy szint több XP-be kerül, mint az előző, egy rögzített aránnyal, így a
 
 ## A Pilótakészségek oldal {#the-pilot-skills-page}
 
-A **Pilótakészségek** oldal az állomás egyik oldala, saját sorral az oldalsávban. Az egész fát egyetlen tömör lapon mutatja: az attribútumok és a készségek öt csoportja egymás mellett áll oszlopokban (széles képernyőn három, keskenyen kevesebb), értékenként egy sor a szintjével a jobb szélen és alatta egy vékony XP-sáv. Az az érték, amely még nem keresett XP-t, szürke, a szintje helyén kötőjellel. Tartsd az egérmutatót egy soron, hogy lásd, mit csinál az érték, melyik attribútum irányítja vagy mely készségeket edzi, az XP-jét és mitől nő. Kattints egy sorra, hogy a részletei megnyíljanak az oszlopsora alatt: ugyanazok a szavak, az XP-sáv és egy csúszka, amellyel bármelyik szintet megnézheted az 1-től az utolsóig, egy kis táblázattal arról, mit változtat az érték az 1. szinten, a mostani szintedén, az előnézett szinten és az utolsón. Egyszerre egy érték van nyitva; kattints újra a sorra, használd a bezárás gombot, vagy nyomd meg az Esc-et az elrakásához. Az oldalsáv sora jelvényt kap, ha egy érték szintet lépett azóta, hogy utoljára megnyitottad az oldalt, és a Boosterek ablak egy kártyája összegzi, mit változtatnak a készségeid.
+A **Pilótakészségek** oldal az állomás egyik oldala, saját sorral az oldalsávban. Az egész fát egyetlen lapon mutatja: az attribútumok és a készségek öt csoportja **kártyák**, egymás mellett (széles képernyőn három, keskenyen kevesebb; ha a lapon négy oszlopnak van hely, a Harc hat készsége két oszlopban áll a kártyáján belül). Egy készség egy sor: bal oldalt egy ikon egy csempén, a neve, a jobb szélen pedig a szintje egy **gyűrűben**, amely az adott szint XP-jével töltődik. A csempe és a gyűrű a készséget irányító attribútum színét viseli (Tömeg zöld, Szívósság kék, Reflexek arany, Ösztön lila), így a fa a színekről leolvasható. Az a készség, amely még nem keresett XP-t, szürke, a szintje helyén kötőjellel, üres gyűrűben (a Lézertechnika és a Rakétatechnika mindig mutatja a sajátját). Tartsd az egérmutatót egy soron, hogy lásd, mit csinál a készség, melyik attribútum irányítja vagy mely készségeket edzi, az XP-jét és mitől nő; eközben kivilágosodik az attribútum, amely irányítja, vagy a készségek, amelyeket edz.
+
+Egy készség részletei ugyanazok a szavak, az XP-sáv és egy csúszka, amellyel bármelyik szintet megnézheted az 1-től az utolsóig, egy kis táblázattal arról, mit változtat a készség az 1. szinten, a mostani szintedén, az előnézett szinten és az utolsón. **Elég széles oldalon** (a részletek két fele ilyenkor egymás mellett áll) a kiválasztott készség részletei mindig az oldal alján állnak: a lap első készségéé, amíg másikra nem kattintasz, aztán azé, amelyre kattintottál. A kattintás kiválaszt, nincs bezárás gomb, és az Esc nem zárja be. **Keskenyebb oldalon és a repülési ablakban** egy sorra kattintva a részletek ehelyett csíkként nyílnak meg a kártyasora alatt, egyszerre egy készségé: kattints újra a sorra, használd a bezárás gombot, vagy nyomd meg az Esc-et az elrakásához. Az oldalsáv sora jelvényt kap, ha egy készség szintet lépett azóta, hogy utoljára megnyitottad az oldalt, és a Boosterek ablak egy kártyája összegzi, mit változtatnak a készségeid.
 
 Repülés közben ugyanez a lap a **Pilótakészségek** ablak. Nyisd meg az eszköztár Pilótakészségek gombjával (széles képernyőn) vagy a billentyűjével, alapesetben a K-val (Beállítások, Irányítás). Olyan ablak, mint a többi: mozgathatod, átméretezheted, és megjegyzi a helyét és azt, hogy nyitva volt-e. Csak a készségeidet mutatja: a szintek akkor lépnek, amikor megérkeznek a repülés XP-sorai, és egy sorra kattintva ugyanezek a részletek nyílnak meg az ablakban.
 
 ## Mi marad meg {#what-is-kept}
 
 - **Minden wipe-on át.** A fa a fiókod része: a wipe nem változtat egyetlen szinten és XP-n sem, és a Tranzittárolónak semmi köze hozzá ([Amit megtartasz](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **A regionális szervereken.** Az XP, amelyet a Singaporen vagy az US Easten repülve keresel, hazatértedkor hozzáadódik a készségeidhez, az ott először használt érték is, és az ott felhasznált óránkénti plafon veled jön. Az ott repülő pilóta Pilótakészségek oldala a regionális szerver számait olvassa, azzal az XP-vel, amelyet a hajója az utolsó mentése óta keresett.
+- **A regionális szervereken.** Az XP, amelyet a Singaporen vagy az US Easten repülve keresel, hazatértedkor hozzáadódik a készségeidhez, az ott először használt érték is, és az ott felhasznált óránkénti plafon veled jön. Az ott repülő pilóta Pilótakészségek oldala a regionális szerver számait olvassa, azzal az XP-vel, amelyet a hajója az utolsó mentése óta keresett. Hogy mi más működik regionális szerveren, azt a [Szerverek](/wiki/03-Mechanics/Servers.md) írja le.
 - **A fiók törléséig.** Egy fiók törlése törli a szintjeit.
 
 A buffoknak nincs más plafonjuk, mint az utolsó szint: aki mindent felfejlesztett, olyan erős, mint ahogy a táblázatok mondják.

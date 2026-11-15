@@ -15,7 +15,7 @@ A dungeon is not a [solo gate](/wiki/03-Mechanics/Solo-Gates.md). A solo gate is
 
 - **Opens**: From season day 1
 - **Who opens a dungeon**: A co-leader or the leader, who pays the price from the clan bank
-- **Party**: 4 to 10 members of the clan, in one group
+- **Party**: 3 to 10 members of the clan, in one group
 - **Dungeons a day**: 3 for each clan in a UTC day, one open at a time
 - **Dungeons at once**: 6 in a world
 - **Maps**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -33,7 +33,7 @@ A dungeon is not a [solo gate](/wiki/03-Mechanics/Solo-Gates.md). A solo gate is
 
 1. **Summon.** On the Dungeons tab a [co-leader or the leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) picks a stage and presses **Summon**. The price comes out of the [clan bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), and the dungeon takes one of the maps listed above. A dungeon that nobody starts closes, and the price goes back to the bank.
 2. **Enter.** Members of the clan press **Enter** in the Clan window while they are flying, jump through the clan portal, or press **Join** on the call card (see Entering). Everyone lands in the start room, and the pilots inside are the dungeon's party.
-3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the dungeon gathers. There are no aliens in it, so it is safe to wait there. The dungeon **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the dungeon, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more. When the dungeon starts, the door opens for good, and after that only the pilots who were already inside can come back.
+3. **Start.** The start room is a small room at one end of the maze, and its door is shut while the dungeon gathers. There are no aliens in it, so it is safe to wait there. The dungeon **starts by itself** when every pilot it is waiting for is inside and the party is big enough. It waits for the members of the clan who are online, not away and in the group of a pilot who has come in, and it starts at once when the party is full. The pilot who opened the dungeon, or an officer, can press **Start** to begin sooner with the pilots who are inside, if there are enough of them. A pilot who leaves is not waited for any more, and neither is one who has not come in and has left the group or gone offline. When the dungeon starts, the door opens for good, and after that only the pilots who were already inside can come back.
 4. **Fight through the maze.** You come in at one end of the maze and the Warlord waits at the other, in a locked room. The maze is dark: you see only what the party has explored and what is close to its ships. The aliens wait in packs in the corridors, and a pack comes out the moment a pilot flies into the stretch of corridor where it waits, then hunts the party through the maze.
 5. **Open the loot zones.** Rings in the maze mark the zones. Hold one and the party votes for a card, which is paid out with the Warlord's pay.
 6. **Unlock the boss room.** Destroy three quarters of the Crystalys and their Twins of the maze, and the door of the Warlord's room opens. Until then the Warlord cannot be hurt. The other aliens stay where they are, and you can destroy them too.
@@ -213,6 +213,7 @@ The hull and shield above are for a party of 5. They grow with the party: these 
 
 | Pilots in the party | Stage 1 | Stage 2 | Stage 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10,800,000 | 16,200,000 | 27,000,000 |
 | 4 | 14,400,000 | 21,600,000 | 36,000,000 |
 | 5 | 18,000,000 | 27,000,000 | 45,000,000 |
 | 6 | 21,600,000 | 32,400,000 | 54,000,000 |
@@ -332,22 +333,24 @@ The cards are drawn one by one from the pool below. The chance is that of a card
 
 <!-- dungeons-cards:end -->
 
-The cards with one copy are **gear**, and only a stage 3 dungeon can offer them. A piece of gear is forged for every paid pilot as it is paid out: each of them rolls an [enchant tier](/wiki/06-Items/Overview.md#item-enchants) of his own with the same chances as a piece you build in the Assembly, so most come as Standard, and a higher tier, up to Eternal, with buffs, is a rare find.
+The cards with one copy are **gear**, and only a stage 3 dungeon can offer them. A piece of gear is forged for every paid pilot as it is paid out: each of them rolls an [enchant tier](/wiki/06-Items/Overview.md#item-enchants) of his own with the same chances as a piece you build in the Assembly, so most come as Standard, and a higher tier, up to Ascendant, with buffs, is a rare find. Each piece also rolls its [integrity](/wiki/06-Items/Forge.md#integrity-and-fractures), the way a piece you craft does.
 
 ## Pay
 
 When the Warlord falls, every pilot who earned it is paid, once for the clear. The cards that the party chose come on top of the pay of the stage. There is no world multiplier: the pay is the same in every world.
 
-The **Orvium Reinforced Plates** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The items that the clear pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
+The **Orvium Reinforced Plates** and the Forge's **Echo Shards** and **Lattice Shards** are not a card of the vote. They are part of the pay of the stage, and each paid pilot gets them once for the clear. The **Heartshards** are paid differently: the line under the table says how. The items that the clear pays are not Marketable: you cannot [sell them at the Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Stage | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | PvE ranking points |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 4,000 | 4,000 | 5 | 600 |
-| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 9,000 | 9,000 | 10 | 1,500 |
-| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 15,000 | 15,000 | 15 | 2,400 |
+| Stage | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Stage 1** | 25,000 | 600,000 | 5,000,000 | 4,000 | 4,000 | 5 | 3 | 5 | 850 |
+| **Stage 2** | 50,000 | 1,500,000 | 10,000,000 | 9,000 | 9,000 | 10 | 2 | 6 | 2,000 |
+| **Stage 3** | 100,000 | 2,400,000 | 17,500,000 | 15,000 | 15,000 | 15 | 2 | 7 | 3,400 |
+
+- **Heartshards**: 1 with the first paid clear of each stage in a season, and a 5% chance of one more with every paid clear.
 
 <!-- dungeons-pay:end -->
 
@@ -372,12 +375,12 @@ What a pilot can be paid in one day, and in the best week that the limits allow.
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Pay for each pilot | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | PvE ranking points |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 28,000 | 28,000 | 30 | 4,500 |
-| The best week: 7 × Stage 3 and 3 × Stage 2 | 850,000 | 21,300,000 | 152,500,000 | 132,000 | 132,000 | 135 | 21,300 |
+| Pay for each pilot | Honor | Experience | Credits | Thulium | x4 ammo | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE ranking points |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| One day, every stage once | 175,000 | 4,500,000 | 32,500,000 | 28,000 | 28,000 | 30 | 7 | 18 | 6,250 |
+| The best week: 7 × Stage 3 and 3 × Stage 2 | 850,000 | 21,300,000 | 152,500,000 | 132,000 | 132,000 | 135 | 20 | 67 | 29,800 |
 
-The experience of a paid clear counts for your PvE ranking points: one point for every 1,000 experience.
+The experience and the honor of a paid clear count for your PvE ranking points: one point for every 1,000 experience and one for every 100 honor.
 
 <!-- dungeons-totals:end -->
 

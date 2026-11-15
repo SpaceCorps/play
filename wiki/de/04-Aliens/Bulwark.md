@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 440dd341e5b80c44 -->
+<!-- wiki-i18n source: 52ee2498afd5ee6c -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,6 +32,7 @@ Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wi
 - **Cataclysite**: 100 % Chance (Min.: 2, Max.: 2)
 - **Reinforced Hull Plate**: 30 % Chance (Min.: 1, Max.: 1)
 - **Nyxite**: 40 % Chance (Min.: 1, Max.: 2)
+- **Echo Shard**: 2 % Chance (Min.: 1, Max.: 1)
 
 ## Hintergrund {#lore}
 

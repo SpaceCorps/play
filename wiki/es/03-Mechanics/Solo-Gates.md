@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Puertas en solitario -->
 # Puertas en solitario {#solo-gates}
 
@@ -50,7 +50,7 @@ Las piezas del Chrono-Gate vuelven a cero en el reinicio, y las encuentras de nu
 
 ### Un giro sin pieza {#a-spin-without-a-part}
 
-La mayoría de los giros no encuentran pieza. Cada uno de ellos paga un premio, elegido según las probabilidades de abajo: munición láser del segundo multiplicador o mejor, un lote de cohetes del segundo o tercer nivel y, de vez en cuando, un [objeto especial](/wiki/06-Items/Special-Items.md) o un [contenedor](/wiki/06-Items/Containers.md). Un premio que no se puede dar (por ejemplo, ya tienes el máximo de ese objeto especial) se convierte en un lote de munición o de cohetes con la misma tirada, así que un giro nunca paga menos que su tabla. El premio vale claramente menos de lo que cuesta el giro: las puertas son un sumidero de Thulium.
+La mayoría de los giros no encuentran pieza. Cada uno de ellos paga un premio, elegido según las probabilidades de abajo: munición láser del segundo multiplicador o mejor, un lote de cohetes del segundo o tercer nivel y, de vez en cuando, un [objeto especial](/wiki/06-Items/Special-Items.md) o un [contenedor](/wiki/06-Items/Containers.md). Un premio que no se puede dar (por ejemplo, porque los objetos especiales o los contenedores están desactivados) se convierte en un lote de munición o de cohetes con la misma tirada, así que un giro nunca paga menos que su tabla. El premio vale claramente menos de lo que cuesta el giro: las puertas son un sumidero de Thulium.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ La mayoría de los giros no encuentran pieza. Cada uno de ellos paga un premio, 
 
 - las piezas de la puerta: se toman **una sola vez, al construirla**, y una construcción rechazada no quita nada;
 - ninguna otra partida en solitario abierta: tienes una partida a la vez, y una partida que dejaste se vuelve a entrar por su portal o se abandona antes de que construyas otra puerta;
-- el servidor principal (los servidores regionales no tienen puertas).
+- el servidor principal (una puerta se construye solo en el servidor principal: en un servidor regional vuelves primero a la base).
 
-La puerta construida está en tu **sector base** (`M-1`, `T-1` o `G-1`, según tu corporación) como un portal con su nombre, y la página de las Puertas Galácticas dice dónde está. **Despega, vuela hasta el portal y salta** por él como por cualquier portal. Tiene que haber una grieta libre en tu mundo cuando entres: cada mundo tiene un número de ellas, y cuando todas están ocupadas esperas.
+La puerta construida está en tu **sector base** (`M-1`, `T-1` o `G-1`, según tu corporación) como un portal con su nombre, y la página de las Puertas Galácticas dice dónde está. **Despega, vuela hasta el portal y salta** por él como por cualquier portal. Tiene que haber una grieta libre en tu mundo cuando entres: cada mundo tiene un número de ellas, y cuando todas están ocupadas esperas. Solo ves **tu propia** puerta: los portales de las puertas de otros pilotos en el mismo sector no se te muestran.
 
-**En los servidores regionales (Singapore, US East).** La puerta en sí se queda en el servidor principal: en un servidor regional no se construye, no se juega ni se paga nada. Pero una puerta construida no se olvida allí: se te avisa al llegar, y el portal de tu puerta también está en tu sector base. Salta por él y te llevan de vuelta al servidor principal, donde despegas hacia tu puerta como se explica arriba.
+**En los servidores regionales (Singapore, US East).** Una puerta construida también se juega allí. Su portal está en tu sector base en un servidor regional igual que en el servidor principal, y se te avisa al llegar. **Salta por él y entras en una arena de ese servidor**, con su latencia en lugar de la del servidor principal. Un servidor regional tiene solo **dos arenas en cada mundo**, frente a muchas más en el servidor principal: cuando ambas están ocupadas esperas, como esperas una grieta libre en el servidor principal. El servidor principal sigue siendo el único lugar que guarda tu partida, tus piezas y tu pago: el pago llega a tu cartera cuando el servidor principal ha contado la partida, unos segundos después de que termine, y la **cartera de tu ventana de vuelo se pone al día cuando atracas**. No entras en tu siguiente partida hasta que la última se haya contado. Una partida que dejas en la arena se retoma por el portal; si quieres abandonarla, lo haces en la arena o en la estación. Si la arena de un servidor regional está desactivada, su portal te lleva de vuelta al servidor principal, donde despegas hacia tu puerta como se explica arriba. Qué más funciona en un servidor regional está en [Servidores](/wiki/03-Mechanics/Servers.md).
 
 Aterrizas en medio de una arena vacía, solo. Nadie puede atacarte en ella, y la Jump CPU y la Base CPU no funcionan.
 
@@ -161,7 +161,7 @@ Un jefe es la nave de un alienígena agrandada, con un casco, un escudo y una r�
 
 ## Lo que paga una victoria {#what-a-clear-pays}
 
-Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el jefe: los Credits, el Thulium, la experiencia y el honor, el mineral, las placas y los Power Cores, y la munición. La experiencia cuenta para tus puntos PvE, como la de una mazmorra.
+Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el jefe: los Credits, el Thulium, la experiencia y el honor, el mineral, las placas y los Power Cores, y la munición. La experiencia y el honor cuentan para tus puntos PvE, como los de una mazmorra.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el 
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; munición: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; munición: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; munición: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; munición: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; munición: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; munición: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; munición: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; munición: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; munición: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; munición: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Heartshards**: 1 la primera vez que completas cada puerta en una temporada, y un 5 % de probabilidad de 1 más cada vez que completas una.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Una victoria paga su tabla **una vez**, de golpe, en el momento en que muere el 
 
 ### Los alienígenas {#the-aliens}
 
-Cada alienígena que matas en una puerta paga con las cifras que tiene en Alpha, en el mundo que sea en el que vueles: ningún multiplicador de mundo, ningún booster ni ninguna bonificación Premium las cambia. Una oleada paga por sus alienígenas **una vez** por partida, por muchas veces que salgas y vuelvas. El pago llega con el final de cada tramo de la partida: cuando sales, mueres, te quedas sin vidas, abandonas o la ganas. Las bajas de un tramo solo quedan sin pagar en el reinicio de temporada y en un reinicio del servidor mientras estás dentro (tu partida sigue abierta, pero las bajas de ese tramo se pierden). Las bajas de una puerta cuentan para las [misiones](/wiki/03-Mechanics/Quests.md#where-it-counts) que no nombran ningún sector (por ejemplo, las grandes cacerías de la línea de Desafíos), en cuanto ocurren (una oleada cuenta para ellas **una vez** por partida, igual que paga una sola vez), y para nada más: ni para las estadísticas de bajas, ni para los contadores de los logros, ni para el registro de bajas, ni para la experiencia de tus drones y P.E.T.s. La experiencia que pagan sí cuenta para tus puntos PvE, como la de una victoria. El botín de los alienígenas llega con el pago, directo a tu inventario.
+Cada alienígena que matas en una puerta paga con las cifras que tiene en Alpha, en el mundo que sea en el que vueles: ningún multiplicador de mundo, ningún booster ni ninguna bonificación Premium las cambia. Una oleada paga por sus alienígenas **una vez** por partida, por muchas veces que salgas y vuelvas. El pago llega con el final de cada tramo de la partida: cuando sales, mueres, te quedas sin vidas, abandonas o la ganas. Las bajas de un tramo solo quedan sin pagar en el reinicio de temporada y en un reinicio del servidor mientras estás dentro (tu partida sigue abierta, pero las bajas de ese tramo se pierden). Las bajas de una puerta cuentan para las [misiones](/wiki/03-Mechanics/Quests.md#where-it-counts) que no nombran ningún sector (por ejemplo, las grandes cacerías de la línea de Desafíos), en cuanto ocurren (una oleada cuenta para ellas **una vez** por partida, igual que paga una sola vez), y para nada más: ni para las estadísticas de bajas, ni para los contadores de los logros, ni para el registro de bajas, ni para la experiencia de tus drones y P.E.T.s. La experiencia y el honor que pagan sí cuentan para tus puntos PvE, como los de una victoria. El botín de los alienígenas llega con el pago, directo a tu inventario.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

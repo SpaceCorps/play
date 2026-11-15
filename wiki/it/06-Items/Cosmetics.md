@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Cosmetici -->
 # Cosmetici {#cosmetics}
 
@@ -26,7 +26,7 @@ Una skin è uno schema di vernice fatto a partire dallo scafo stesso della nave:
 
 Le skin appartengono al tuo **account**, non a una nave, e restano attraverso il [reset](/wiki/03-Mechanics/Wipe-Timeline.md); le tue navi indossano ciò che indossavano.
 
-L’[Archivio cromatico](/wiki/06-Items/Containers.md#chroma-archive) può dare qualsiasi collezione tranne Bloody R.E.D, e dà un’intera collezione in una volta: tutte le sue skin che non hai ancora.
+L’[Archivio cromatico](/wiki/06-Items/Containers.md#chroma-archive) può dare qualsiasi collezione tranne Bloody R.E.D, una skin alla volta: una collezione come premio dà una sua skin, per un modello di nave. È la skin della tua nave attiva se la collezione ne ha una per lei e non la possiedi ancora; altrimenti la skin di un’altra nave che possiedi; altrimenti la prima skin della collezione che ti manca. Quindi pilota la nave per cui vuoi la skin quando apri un Archivio. La collezione può uscire di nuovo finché non hai tutte le sue skin. Una collezione arrivata intera prima della 0.5.7 resta tua, con ogni sua skin.
 
 | Collezione | Navi | Rarità | Com’è |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Un’aura resta dentro l’anello che segna un aggancio e viene disegnata sotto 
 ## Il Guardaroba {#the-wardrobe}
 
 - **Schede.** Skin, Aura, Scia e Droni. Un chip di rarità filtra una scheda su una sola rarità, e **Solo i miei** elenca ciò che puoi indossare.
-- **Una tessera dice a che punto sei con il look.** **Indossato** (la nave lo porta), **Posseduto** (lo hai), **Incluso nello slot** (ce l’hanno tutti i piloti) o **Non ancora ottenibile**, con un tic sordo quando ci fai clic.
+- **Una tessera dice a che punto sei con il look.** **Indossato** (la nave lo porta), **Posseduto** (lo hai), **Incluso nello slot** (ce l’hanno tutti i piloti) o **Non ancora ottenibile**, con un tic sordo quando ci fai clic. La tessera di una skin mostra anche quante skin per nave della sua collezione possiedi, per esempio 1/4.
 - **Togliere un look.** La tessera **Di serie** della scheda Skin rimette alla nave la sua vernice di serie, e **Nessuna** toglie l’aura.
 - **Più di una nave.** L’interruttore in fondo al foglio, **Applica anche alle mie altre navi di questo modello** per una skin e **Applica anche alle mie altre navi** per un’aura o una scia, fa sì che un clic metta il look su tutte.
 - **Dove puoi cambiarlo.** Dove puoi cambiare il tuo equipaggiamento: attraccato, o in una zona sicura con la protezione attiva, come in [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

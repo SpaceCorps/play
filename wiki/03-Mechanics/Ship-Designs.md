@@ -18,11 +18,11 @@ The last three columns are what the converted ship has: its own hull and base sp
 | **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon | 144,000 | 350 | 14 |
 | **Ironclad DUMA** | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire | 600,000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 laser slots, +1 core slot, +20% shields, +20% model size, Blink | 500,000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom | 256,000 | 210 | 15 |
-| **Wraith BILLY** | +5% base hull, +10% shields, Diminisher | 268,800 | 210 | 14 |
-| **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 307,200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 laser slot, +1 support slot, +25% shields, +10% shield absorption, Shield Buff | 256,000 | 210 | 13 |
-| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration | 256,000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom | 256,000 | 210 | 14 |
+| **Wraith BILLY** | +5% base hull, +10% shields, Diminisher | 268,800 | 210 | 13 |
+| **Wraith MENATI** | +20% base hull, +20 base speed, +5% shield absorption, Heal Pod | 307,200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 laser slot, +1 support slot, +25% shields, +10% shield absorption, Shield Buff | 256,000 | 210 | 12 |
+| **Wraith MATT** | +2 laser slots, -20% shields, +10% laser penetration | 256,000 | 210 | 15 |
 
 ## Getting a design
 
@@ -61,7 +61,7 @@ The ship to convert is the one you own of that kind (a Paragon for THUNDER, BUCK
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **All four** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Together they ask 510 Dark Matter on top of the 759 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,384 for every technology of the game.
+Together they ask 510 Dark Matter on top of the 979 that every other technology asks, and the module levels of the Skylab ask 115 more: 1,604 for every technology of the game.
 
 ## What happens to your ship
 

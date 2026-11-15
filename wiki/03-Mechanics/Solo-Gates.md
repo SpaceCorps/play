@@ -48,7 +48,7 @@ The parts of the Chrono-Gate go back to nothing at the wipe, and you find them a
 
 ### A spin without a part
 
-Most spins find no part. Each of them pays one prize, picked by the chances below: laser ammo of the second multiplier or better, a rocket stack of the second or third tier, and now and then a [special item](/wiki/06-Items/Special-Items.md) or a [container](/wiki/06-Items/Containers.md). A prize that cannot be given (you already hold the most of that special item, say) becomes a stack of ammo or rockets by the same roll, so a spin never pays less than its table. The prize is worth clearly less than the spin costs: the gates are a Thulium sink.
+Most spins find no part. Each of them pays one prize, picked by the chances below: laser ammo of the second multiplier or better, a rocket stack of the second or third tier, and now and then a [special item](/wiki/06-Items/Special-Items.md) or a [container](/wiki/06-Items/Containers.md). A prize that cannot be given (the special items or the containers are switched off, say) becomes a stack of ammo or rockets by the same roll, so a spin never pays less than its table. The prize is worth clearly less than the spin costs: the gates are a Thulium sink.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -86,11 +86,11 @@ You **build** a gate on the Galaxy Gates page and **jump in** through its portal
 
 - the parts of the gate: they are taken **once, when you build it**, and a refused build takes nothing;
 - no other solo run open: you have one run at a time, and a run that you left is entered again through its portal or abandoned before you build another gate;
-- the home server (the regional servers have no gates).
+- the home server (a gate is built at the home server only: on a regional server you return to base first).
 
-The built gate stands in your **home sector** (`M-1`, `T-1` or `G-1`, by your company) as a portal named after it, and the Galaxy Gates page says where it stands. **Launch, fly to the portal and jump** through it as through any portal. A rift has to be free in your world when you go in: each world has a number of them, and when all are busy you wait.
+The built gate stands in your **home sector** (`M-1`, `T-1` or `G-1`, by your company) as a portal named after it, and the Galaxy Gates page says where it stands. **Launch, fly to the portal and jump** through it as through any portal. A rift has to be free in your world when you go in: each world has a number of them, and when all are busy you wait. You see only **your own** gate: the portals of other pilots' gates standing in the same sector are not shown to you.
 
-**On the regional servers (Singapore, US East).** The gate itself stays at the home server: nothing is built, played or paid on a regional server. A built gate is not forgotten there, though: you are told about it when you arrive, and the portal of your gate stands in your home sector there too. Jump through it and you are taken back to the home server, where you launch into your gate as above.
+**On the regional servers (Singapore, US East).** A built gate is played there too. Its portal stands in your home sector on a regional server as it does at the home server, and you are told about it when you arrive. **Jump through it and you go into an arena of that server**, at its latency instead of the home server's. A regional server holds only **two arenas in each world**, where the home server has many more: when both are busy you wait, as you do for a free rift at the home server. The home server stays the one place that keeps your run, your parts and your pay: the pay reaches your wallet when the home server has counted the run, a few seconds after it ends, and the **wallet in your flight window catches up when you dock**. You enter your next run only after the last one has been counted. A run you leave in the arena is entered again through the portal; one you want to give up is abandoned in the arena or at the station. If the arena of a regional server is switched off, its portal takes you back to the home server instead, where you launch into your gate as above. What else works on a regional server is in [Servers](/wiki/03-Mechanics/Servers.md).
 
 You land in the middle of an empty arena, alone. Nobody can attack you in it, and the Jump and Base CPUs do not work.
 
@@ -159,7 +159,7 @@ A boss is an alien's ship made larger, with a hull, a shield and a volley of its
 
 ## What a clear pays
 
-A clear pays its table **once**, in one go, the moment the boss dies: the Credits, the Thulium, the experience and the honor, the ore, plates and Power Cores, and the ammo. The experience counts for your PvE ranking points, as a dungeon's does.
+A clear pays its table **once**, in one go, the moment the boss dies: the Credits, the Thulium, the experience and the honor, the ore, plates and Power Cores, and the ammo. The experience and the honor count for your PvE ranking points, as a dungeon's do.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -172,11 +172,12 @@ A clear pays its table **once**, in one go, the moment the boss dies: the Credit
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammo: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammo: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
-- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammo: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
-- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammo: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
-- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammo: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; ammo: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; ammo: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; ammo: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; ammo: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammo: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Heartshards**: 1 with the first clear of each gate in a season, and a 5% chance of 1 more with every clear.
 
 <!-- solo-pay:end -->
 
@@ -184,7 +185,7 @@ A clear pays its table **once**, in one go, the moment the boss dies: the Credit
 
 ### The aliens
 
-Every alien you kill in a gate pays, at the figures it has in Alpha whichever world you fly in: no world multiplier, no booster and no Premium bonus changes them. A wave pays for its aliens **once** for a run, however often you leave and come back. The pay comes with the end of each stretch of the run: when you leave, die, run out of lives, abandon or clear it. The kills of a stretch go unpaid only in the wipe and in a restart of the server while you are inside (your run stays open, but the kills of that stretch are lost). The kills of a gate count for the [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) that name no sector, such as the big hunts of the Challenge line, as they happen (a wave counts for them **once** for a run, as it pays once), and for nothing else: not for the kill statistics, the achievements' counters, the kill feed or the experience of your drones and P.E.T.s. The experience they pay does count for your PvE ranking points, as the experience of a clear does. The loot of the aliens comes with the pay, straight into your inventory.
+Every alien you kill in a gate pays, at the figures it has in Alpha whichever world you fly in: no world multiplier, no booster and no Premium bonus changes them. A wave pays for its aliens **once** for a run, however often you leave and come back. The pay comes with the end of each stretch of the run: when you leave, die, run out of lives, abandon or clear it. The kills of a stretch go unpaid only in the wipe and in a restart of the server while you are inside (your run stays open, but the kills of that stretch are lost). The kills of a gate count for the [missions](/wiki/03-Mechanics/Quests.md#where-it-counts) that name no sector, such as the big hunts of the Challenge line, as they happen (a wave counts for them **once** for a run, as it pays once), and for nothing else: not for the kill statistics, the achievements' counters, the kill feed or the experience of your drones and P.E.T.s. The experience and the honor they pay do count for your PvE ranking points, as the experience and the honor of a clear do. The loot of the aliens comes with the pay, straight into your inventory.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

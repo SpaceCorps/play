@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Kozmetika -->
 # Kozmetika {#cosmetics}
 
@@ -26,7 +26,7 @@ A skin a hajó saját törzséből készült festési séma: a panelvonalak, a s
 
 A skinek a **fiókodhoz** tartoznak, nem egy hajóhoz, és átvészelik a [wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md); a hajóid azt viselik, amit viseltek.
 
-A [Króma-archívum](/wiki/06-Items/Containers.md#chroma-archive) bármelyik gyűjteményt adhatja a Bloody R.E.D kivételével, és egy egész gyűjteményt ad egyszerre: annak minden skinjét, amely még nincs meg neked.
+A [Króma-archívum](/wiki/06-Items/Containers.md#chroma-archive) bármelyik gyűjteményt adhatja a Bloody R.E.D kivételével, egyszerre egy skint: a gyűjtemény nyereményként egy skint ad belőle, egy hajótípusra. Ez az aktív hajód skinje, ha a gyűjteményben van hozzá skin, és még nincs meg neked; különben egy másik saját hajód skinje; különben a gyűjtemény első skinje, amely még hiányzik. Repülj tehát azzal a hajóval, amelyikre a skint szeretnéd, amikor archívumot nyitsz. A gyűjtemény újra eshet, amíg minden skinje meg nem lesz. A 0.5.7 előtt egészben kapott gyűjtemény a tiéd marad, minden skinjével.
 
 | Kollekció | Hajók | Ritkaság | Hogy néz ki |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Az **Event Horizon**, az **Accretion**, a **Singularity** és a **Gravity Well**
 ## A Ruhatár {#the-wardrobe}
 
 - **Fülek.** Skin, Aura, Kipufogó és Drónok. Egy ritkaság-chip egyetlen ritkaságra szűri a fület, a **Csak a meglévők** pedig azt listázza, amit viselhetsz.
-- **Egy csempe megmondja, hogyan állsz a kinézettel.** **Viselve** (a hajón van), **Megvan** (birtoklod), **A foglalattal jár** (minden pilótának megvan) vagy **Még nem szerezhető meg**, kattintásra tompa kattanással.
+- **Egy csempe megmondja, hogyan állsz a kinézettel.** **Viselve** (a hajón van), **Megvan** (birtoklod), **A foglalattal jár** (minden pilótának megvan) vagy **Még nem szerezhető meg**, kattintásra tompa kattanással. Egy skin csempéje azt is mutatja, hogy a gyűjteménye hajóskinjei közül hány van meg neked, például 1/4.
 - **Kinézet levétele.** A Skin fül **Alap** csempéje visszaadja a hajó sima festését, a **Nincs** pedig leveszi az aurát.
 - **Több hajó.** A lap alján a kapcsoló, a skinnél az **Alkalmazás a többi ilyen típusú hajómra is**, az auránál vagy a kipufogónál az **Alkalmazás a többi hajómra is**, egyetlen kattintással mindegyikre felteszi a kinézetet.
 - **Hol változtathatod.** Ahol a felszerelésedet is: dokkolva, vagy biztonságos zónában bekapcsolt védelemmel, mint a [Hangár](/wiki/03-Mechanics/Hangar.md#when-it-is-open) cikkben.

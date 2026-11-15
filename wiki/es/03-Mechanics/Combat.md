@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -132,8 +132,8 @@ El daño entrante se reparte entre los escudos y los puntos de vida según la **
 La base de cada facción (los mapas X-1) contiene zonas seguras.
 - Entrar en una zona segura hace tu nave completamente inmune al daño.
 - **Romper la inmunidad**: atacar a un enemigo elimina al instante tu inmunidad de zona segura, aunque estés físicamente dentro de una.
-- Un anillo alrededor de cada estación y cada portal te protege cuando han pasado 5 segundos desde que te impactaron y 15 desde que disparaste. Mientras te protege y estás fuera de combate, la ventana del hangar te permite cambiar de nave sin salir del juego: consulta [El hangar en vuelo](/wiki/03-Mechanics/Hangar.md).
-- Las estaciones solo están en las bases de origen (`x-1`). Los sectores de peligro (de `DS-1` a `DS-4`) no tienen ninguna: allí los anillos alrededor de los portales son las únicas zonas seguras.
+- Un anillo alrededor de la estación de cada base de origen y de cada portal te protege cuando han pasado 5 segundos desde que te impactaron y 15 desde que disparaste. Mientras te protege y estás fuera de combate, la ventana del hangar te permite cambiar de nave sin salir del juego: consulta [El hangar en vuelo](/wiki/03-Mechanics/Hangar.md).
+- Las estaciones están en las bases de origen (`x-1`) y en las fronteras (`x-4`), pero solo la estación de una base de origen tiene anillo: la estación de Mission Control de una frontera no protege a nadie. Los sectores de peligro (de `DS-1` a `DS-4`) no tienen ninguna: allí los anillos alrededor de los portales son las únicas zonas seguras.
 
 ### 3. Bajo ataque en un sector de peligro {#3-under-attack-in-a-danger-sector}
 

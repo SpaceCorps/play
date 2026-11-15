@@ -1,6 +1,8 @@
 # Quests
 
-Missions are the main way to level up. Mission Control hands them out: every mission comes from an officer of your own company (if you [change company](/wiki/01-General/Getting-Started.md#changing-your-company), the officers become your new company's, and the `rival x-4` tasks follow it), and each pays experience, credits, Thulium and honor when you claim it. There are **88 missions for levels 1 to 8**, eleven a level, and together they carry you from a fresh Protos to the frontline of the PvP centre. Ten **Station missions** teach you the [Skylab](/wiki/03-Mechanics/Skylab.md) and pay you for building it up, and from pilot level 3 a separate line of fifty very hard **Challenge missions** pays large rewards. Station and Challenge missions pay like the level missions: the numbers in the tables are the **base**, and your world, boosters and clan boosts multiply them ([Rewards](#rewards)).
+<!-- wiki-search: gate line; the gate line; gate line missions; levels 11 to 14; level 11; level 12; level 13; level 14; boss season; the breach; the foundry; omega; rift walker; dungeon regular; untouched rift; breach untouched; foundry sprint; foundry untouched; siege sprint; guardian's grace; missions; quests; mission control -->
+
+Missions are the main way to level up. Mission Control hands them out: every mission comes from an officer of your own company (if you [change company](/wiki/01-General/Getting-Started.md#changing-your-company), the officers become your new company's, and the `rival x-4` tasks follow it), and each pays experience, credits, Thulium and honor when you claim it. There are **132 missions for levels 1 to 8 and 11 to 14**, eleven a level, and together they carry you from a fresh Protos to the frontline of the PvP centre. Ten **Station missions** teach you the [Skylab](/wiki/03-Mechanics/Skylab.md) and pay you for building it up, and from pilot level 3 a separate line of fifty very hard **Challenge missions** pays large rewards. Station and Challenge missions pay like the level missions: the numbers in the tables are the **base**, and your world, boosters and clan boosts multiply them ([Rewards](#rewards)). From pilot level 12, eight **Gate Line** missions send you through the [solo gates](/wiki/03-Mechanics/Solo-Gates.md) and the [clan dungeons](/wiki/03-Mechanics/Dungeons.md) ([The Gate Line](#gate-line)).
 
 Most missions are no longer "destroy so many of these": they are short **chains**. You destroy a few aliens, fly to a point, stay in a sector for some minutes, or find an item and drive it home to Mission Control. Some add a rule: lose no more than so many hull points, or do not die.
 
@@ -11,9 +13,10 @@ Most missions are no longer "destroy so many of these": they are short **chains*
 
 ## In one minute
 
-- **Take them at Mission Control.** You can run 5 level missions at once, plus 3 Station missions and 3 Challenge missions.
+- **Take them at Mission Control.** You can run 5 level missions at once, plus 3 Station missions and 3 Challenge missions. The Gate Line has 3 slots of its own.
 - **Chains.** The steps of a mission with an **In order** tag open one after the other, and only the open step counts.
 - **Four kinds of step besides kills.** A **quest item** that drops only for you and that you drive to Mission Control, a **point to visit**, a **stay** of some minutes in a sector and, from season day 4, a **swarm** to hunt.
+- **Gates and dungeons.** From level 11 a step can ask you to clear a solo gate or a stage of a clan dungeon, and the eight Gate Line missions are made of such steps ([Gates and dungeons](#gates-and-dungeons)).
 - **Conditions.** A step or a whole mission may say "hull loss at most N points" or "no death". Break it and that step, or the mission, starts again. Nothing is lost for good.
 - **The Challenge line.** Fifty very hard missions in five tiers of ten, from pilot level 3. They pay by the work: a kill is worth what tier I pays for it, and 10% more for every tier up, and one claim pays at most 200,000 Thulium. Tier I pays 9,355,000 credits, 70,125 Thulium and 2,177,500 XP in all, as base values ([The Challenge line](#challenge-line)).
 - **Reworked in 0.4.10.** 64 of the level missions are new versions. If you had done one, it is offered again, with its full reward ([details](#reworked-missions)).
@@ -23,9 +26,10 @@ Most missions are no longer "destroy so many of these": they are short **chains*
 
 
 
-- Open **Mission Control** from the toolbar inside a station's safe zone, or click the **Mission Control** bubble above the station in your base sector (it follows the station on the map, so fly or zoom out until the station is in view). The **Normal Missions** tab lists your missions by level, the **Challenges** tab holds the [Challenge line](#challenge-line), and **Completed Missions** holds the ones waiting for you to claim their reward.
+- Open **Mission Control** from the toolbar within **1,600 units** of a Mission Control station, or click the **Mission Control** bubble above the station (it follows the station on the map, so fly or zoom out until the station is in view). There is a station in the base sector `x-1` of each company, inside its safe zone, and one in the middle of each company's border sector `x-4`, with **no safe zone**: a pilot there can still be attacked. It is a small post of a single tile, not the city of the base. **Accepting and claiming a mission work only there.** Flying farther away, a window you left open does nothing: the server refuses with "Fly to a Mission Control station to accept or claim missions." **Abandoning** and **tracking** a mission work anywhere, and from the station menu, where your ship is not flying, Mission Control opens as before. The **Normal Missions** tab lists your missions by level, the **Challenges** tab holds the [Challenge line](#challenge-line), and **Completed Missions** holds the ones waiting for you to claim their reward.
 - **Accept** a mission to start it. You can run **5 missions at once**; the [Station missions](#station-missions) have 3 slots of their own and the [Challenge missions](#challenge-line) 3 more. The mission you accepted last is the one you're **tracking** (a Station mission only when you track nothing and none of your missions is one that flying can advance): it shows in the **Active Quests** window, and kills and flight count toward it first. Pick another with the dots in the window's title bar.
 - A **badge** with a count sits on the Mission Control button, and on its **Normal Missions** and **Challenges** tabs while you are on another tab, as long as a mission or a Challenge can be accepted. Each new one comes with one toast and a quiet sound.
+- The **Gate Line** has a tab of its own, with 3 slots besides your 5 level missions, 3 Station missions and 3 Challenge missions. It says how many are active ("1 of 3 active") and lists all eight missions, the ones you cannot take yet as locked previews that name the level they open at. The missions of levels 11 to 14 and the Gate Line need the game of this update: an older game says "Update the game to use this feature."
 - Some missions must be done **in order**. They carry an **In order** tag, and their steps are numbered: see [Chained missions](#chained-missions).
 - A mission with a quest item, a stay or a condition shows its state live in Active Quests: **Carrying** with the distance to Mission Control, the time you have stayed, the hull points you have lost (**Hull damage: 1,240 / 3,000**), **Do not die**. On the mission's card the same rules show as small pills: **Hull limit 3,000 HP**, **No death**, **In order**, and the clock of a timed mission.
 - **Abandon** a mission to drop it and its progress. It is back in the list at once, and you can take it again. An item you were carrying for it is gone.
@@ -35,8 +39,10 @@ Most missions are no longer "destroy so many of these": they are short **chains*
 ## Levels
 
 - Each level from 1 to 8 has **ten missions and a Special**. A level's missions open when you reach it and stay open at every level above it.
+- **Levels 11 to 14** have ten missions and a Special as well; levels 9 and 10 have none. Mission Control shows the missions of level 11, locked, from pilot level 10.
 - **Take them in any order.** None of the ten waits for another. (The steps inside one mission may have an order.)
 - Every level has the same mix: **three** missions with a quest item, **two** that send you to points on the map, **two** that make you stay in a sector and **three** plain hunts. A mission has one to four steps, and a hunt asks for one kind of alien or for several.
+- **The missions of levels 11 to 14 are long chains.** Every one goes in order and has 3 to 23 steps (**The Grand Survey** has the most): kills by name, visits, stays, a clear of a solo gate or of a clan dungeon stage, and quest items; some carry a time limit or a no-death rule. Mission Control folds the steps you have done into one row, "7 steps done", that opens with a click. About a quarter of their kill steps name no sector, and the kills you make in solo gates and on Skylab expeditions count for those, as [Where it counts](#where-it-counts) says. The other kill steps name their sector (`x-3`, `x-4`, the Danger Sectors or a rival company's `x-4`) and count only there. They have no Asteroids mission.
 - The missions of a level pay **85% of the experience** to the next level. The aliens they have you destroy pay the rest, and at low levels quite a bit more: you usually reach the next level before a set is finished.
 - **One Asteroids mission for each level.** Besides its ten and the Special, every level has a mission that asks you to break a number of [asteroids](/wiki/03-Mechanics/Asteroid-Mining.md) of kinds that live on better maps as the levels rise (the first pays 60 Rivet I; those of levels 7 and 8 open on season day 4). A break counts when it pays you a share (at least 5% of the damage the asteroid takes), with rockets or lasers. It is not one of the ten, so the Special does not wait for it, but it takes one of your 5 mission slots. Mission Control lists it after the Special, marked **Asteroids**; the tables at the end of this page do not. In Beta and Gamma the Danger Sectors' asteroids are there from the first day, and the two missions that ask for them open with them.
 
@@ -68,7 +74,7 @@ A quest item is something you have to bring to Mission Control. It is not an inv
 
 1. **Find it.** A drop appears where the alien died, for **120 seconds**; it blinks in the last 12. If you miss it, the next qualifying kill drops it again at once. You see the item as a cyan beacon in the world (a spinning data core in a ring, with a beam rising from it) and as a cyan diamond on the minimap.
 2. **Pick it up.** Fly within **200 units** of it. A message says it is on board, and Active Quests shows **Carrying** and the distance to Mission Control.
-3. **Drive it home.** Fly into the safe zone of **your own company's** Mission Control: the station of your base sector `x-1`, the ring of 1,600 units around it. A green ring on the screen and on the minimap shows it. The item is delivered at once and the step is done.
+3. **Drive it home.** Fly within **1,600 units** of **your own company's** Mission Control: the station of your base sector `x-1` (inside its safe zone) or of your border sector `x-4` (the same distance, but no safe zone there). A green ring on the screen and on the minimap shows it. The item is delivered at once and the step is done.
 
 Things that stop the carry:
 
@@ -92,12 +98,22 @@ Things that stop the carry:
 - you are **outside every safe zone** (a station's or a gate's ring: time in a ring does not count);
 - your ship is **active**: it has flown 300 units or fired a shot in the last 30 seconds. A parked ship earns nothing.
 
-There are two kinds. A stay that **adds up** keeps what you have: leave, die, come back, and the minutes are still there, unless the stay or its mission has a hull limit or a no-death rule: then losing your ship or passing the limit starts the stay again (see [Conditions](#conditions)). A stay **in one stretch** starts again from zero when you die, jump or leave the sector (time in a ring or standing still only pauses it), and a toast says so.
+There are two kinds. A stay that **adds up** keeps what you have: leave, die, come back, and the minutes are still there, unless the stay or its mission has a hull limit or a no-death rule: then losing your ship or passing the limit starts the stay again (see [Conditions](#conditions)). A stay **in one stretch** starts again from zero when you die, jump or leave the sector (time in a ring or standing still only pauses it), and a toast says so. One exception: a stay in one stretch in `DS-x`, any Danger Sector, goes on when you fly from one Danger Sector to another; it starts again only when you die, log out or leave the Danger Sectors.
 
 Stays and visits do not compete: every open one counts at once, whatever else you are doing. Kills are different: a kill counts for one level mission only (see [Where it counts](#where-it-counts)).
 
 > [!NOTE]
 > Visits and stays may lead into the Danger Sectors (Centre Recon, Centre Vigil and Centre Hold do), where other companies' pilots can attack you. Quest items never do. A visit point in `DS-x` counts in any Danger Sector: from season day 11 do the points near the top-left corner of `DS-4`, such as the corner of **Four Corners**, in `DS-1`, `DS-2` or `DS-3`, because that corner of `DS-4` is inside the guns of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+
+## Gates and dungeons
+
+From level 11 a step can ask you to clear a [solo gate](/wiki/03-Mechanics/Solo-Gates.md) or a stage of a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). The tables write them as "Clear the Alpha Rift" and "Clear clan dungeon stage 3 (a paid clear)".
+
+- **Clear a gate.** The step counts when you clear that gate while the step is open: the Alpha Rift, the Beta Breach, the Gamma Foundry, the Delta Siege or the Omega Vault. A clear you made before the step opened does not count. The clear pays what a clear pays, and the step is done on top of it.
+- **With a rule of the run.** "With no death" asks for a run in which you lost no life, "in 25 minutes or less" for a run whose arena time was within the gate's speedrun time. A run that breaks the rule still pays its clear, but the step stays open and you fly the gate again.
+- **Clear a dungeon stage.** A "paid clear" counts when the stage's clear pays you. A stage pays a pilot once a day, and a pilot is paid for at most 10 stage clears in a week ([Pay](/wiki/03-Mechanics/Dungeons.md#pay)), so a clear that pays you nothing does not count. "3 times" asks for three paid clears.
+- **A quest item you are given.** Some quest items have nothing to kill or find: **Omega Command** gives you the Omega Seal when you clear the Omega Vault, and its last step is to bring it to Mission Control. A lost ship does not take it.
+- **At Home.** Gates and clan dungeons run on your home server, so these steps advance only there. On a regional server they wait: run them at home.
 
 ## Swarm missions
 
@@ -197,9 +213,19 @@ All fifty together pay 428,325,000 credits, 2,847,085 Thulium and 47,380,000 XP 
 > [!TIP]
 > Accept the big hunts as soon as you reach level 3: Seeker Plague and Phantasm Tide count every kill, in any sector, from the moment you accept them, beside your level missions.
 
+## The Gate Line {#gate-line}
+
+The **Gate Line** tab of Mission Control lists eight missions about the [solo gates](/wiki/03-Mechanics/Solo-Gates.md) and the [clan dungeons](/wiki/03-Mechanics/Dungeons.md), outside the ten of any level. They open at pilot levels 12 to 14 and show as locked previews until then, and [the table](#gate-line-missions-table) at the end of this page has every number.
+
+- **Six variants of a clear.** **Untouched Rift**, **Breach, Untouched**, **Foundry, Untouched** and **Guardian's Grace** ask for a clear with no death (Alpha Rift, Beta Breach, Gamma Foundry, Omega Vault). **Foundry Sprint** and **Siege Sprint** ask for the Gamma Foundry in 25 minutes or less and the Delta Siege in 35 ([Gates and dungeons](#gates-and-dungeons)).
+- **Two for a season.** **Rift Walker** asks for all five gates and **Dungeon Regular** for three paid clears of stage 3, in any order. Both count one season: a wipe drops one that is still running.
+- **Three at once.** The Gate Line has 3 places of its own, besides your level, Station and Challenge missions. The tab says how many are active ("1 of 3 active"), and the missions you cannot take yet show as locked previews with the level they open at.
+- **They pay what the run pays.** A mission pays the experience, credits and honor of the clear it asks for. The six variants pay no Thulium, as the game's own challenges do not; Rift Walker and Dungeon Regular pay a quarter of the Thulium of the runs they ask for. The numbers in the table are the **base**: your world, boosters and clan boosts apply as [Rewards](#rewards) explains.
+- **They repeat.** After a wipe you can [repeat](#repeating-missions) them for full pay. They count for neither the Statistics page nor the Wipe Points of missions.
+
 ## Where it counts
 
-Most steps name the sector where they count, and only kills and distance flown **there** count toward them. A visit, a stay and an item name their sector the same way, but they are stricter: they count only on **your own company's** map. An item that a mission puts in `G-2` lies on `G-2` and nowhere else, and a Galactic pilot finds nothing of it on Mars' `M-2` or Terra's `T-2`. Kills and distance flown count in that sector of any company. A few kill steps name none and count in **every** sector: the swarm ships of Hive Breaker and Hive Purge, and the big hunts of the Challenge line (Seeker Plague, Phantasm Tide, Bulwark Wall, Hive Cull, Scout Cull and the big hunts of the tiers after tier I). The Station steps read your Skylab and have no sector either. The sector shows next to a step as one of your own maps:
+Most steps name the sector where they count, and only kills and distance flown **there** count toward them. A visit, a stay and an item name their sector the same way, but they are stricter: they count only on **your own company's** map. An item that a mission puts in `G-2` lies on `G-2` and nowhere else, and a Galactic pilot finds nothing of it on Mars' `M-2` or Terra's `T-2`. Kills and distance flown count in that sector of any company. Some kill steps name none and count in **every** sector: the swarm ships of Hive Breaker and Hive Purge, and the big hunts of the Challenge line (Seeker Plague, Phantasm Tide, Bulwark Wall, Hive Cull, Scout Cull and the big hunts of the tiers after tier I). So do about a quarter of the kill steps of the missions of levels 11 to 14. The Station steps read your Skylab and have no sector either. The sector shows next to a step as one of your own maps:
 
 | In the tables | Means | You see (a Mars pilot) |
 | :--- | :--- | :--- |
@@ -219,6 +245,7 @@ The missions climb the sectors with your level:
 | 6 | the border (`x-4`) | – |
 | 7 | the border | runs into the PvP centre (`DS-x`) |
 | 8 | the border | the centre, and other companies' borders |
+| 11 to 14 | the third sector and the border, the centre and other companies' borders, then the solo gates and the clan dungeons | – |
 
 - **The pill beside a step** names its map, for example `G-2`. Point at it: for an item, a visit or a stay it says "Counts only in G-2"; for a kill or a flight it adds "or another company's `x-2`".
 - **Patrols count outside safe zones only.** Circling a gate's ring doesn't patrol a sector.
@@ -239,7 +266,7 @@ The missions climb the sectors with your level:
 ## Rewards
 
 - Experience, credits, Thulium and honor are multiplied by the [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) you fly in when you claim the mission: 1x in Alpha, 2x in Beta, 3x in Gamma. Your boosters (the Experience Booster, the Honor Booster) add to them, and premium doubles the experience. The Thulium and credits boosts of your [clan](/wiki/03-Mechanics/Clans.md) add to the credits and the Thulium of every mission you claim: level, Station and Challenge.
-- **Station and Challenge missions pay like level missions.** The numbers printed in their tables are the **base**, and the world you fly in when you claim them multiplies them, as for a level mission.
+- **Station and Challenge missions pay like level missions.** The numbers printed in their tables are the **base**, and the world you fly in when you claim them multiplies them, as for a level mission. The Gate Line missions do the same.
 - **Missions from before a wipe.** A mission pays the world you fly in when you claim it. One you finished before a wipe and have not claimed yet, or began before it, is therefore paid the world you fly in after it: done in Alpha and claimed from Gamma, it pays 3x, whether you claim it at once or later. A mission you finished in a higher world than the one you fly in now keeps the higher multiplier (done in Gamma, claimed from Alpha: 3x). A mission you began in a higher world and finish in a lower one counts as done in the lower one.
 - **An example.** **Seeker Plague** (Challenge) has a base of 1,100,000 credits, 8,260 Thulium, 157,500 XP and 3,060 honor. Done and claimed in Gamma with nothing switched on, it pays 3,300,000 credits, 24,780 Thulium, 472,500 XP and 9,180 honor. With your clan's Credits and Thulium boosts at their top (+10% each) it pays 3,630,000 credits and 27,258 Thulium.
 - **The clan bank cap.** However big a claim is, a pilot can send at most 1,000,000 credits into [clans](/wiki/03-Mechanics/Clans.md#2-donations) in any 24 hours.
@@ -250,12 +277,12 @@ The missions climb the sectors with your level:
 
 On a fresh wipe you can redo the missions you completed, and a Repeat pays the mission **in full**: everything it paid the first time.
 
-- **Which ones.** The level missions, the Specials, the Asteroids missions and the Challenge missions you have completed. Station missions cannot be repeated.
+- **Which ones.** The level missions (levels 11 to 14 too), the Specials, the Asteroids missions, the Challenge missions and the Gate Line missions you have completed. Station missions cannot be repeated.
 - **Once per mission and season.** After a wipe every mission you have completed is open again, and each can be repeated once. Mission Control marks it with the line "Repeat: full rewards". A wipe is what opens them: a mission you completed or repeated since the last wipe stays closed until the next one, and the first wipe after update 0.5.0 opens every mission you have completed so far.
 - **It plays like the mission.** The same steps, the same time limit and the same conditions. You take it at Mission Control like any other, and it uses one of your 5 slots while it runs. A Challenge Repeat uses one of the 3 places of the Challenge line instead.
 - **What it pays.** Everything the mission pays: experience, honor, credits, Thulium, items and booster time. It is paid like a first claim: your world's bonus, boosters, Premium XP and your clan's Credits and Thulium boosts apply as [Rewards](#rewards) explains. The card in Mission Control shows the same rewards as the first time. The items of a Repeat cannot be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items): they are not Marketable.
-- **What a season of it is worth.** At base, before your world and your boosts: the 88 level missions and the 8 Asteroids missions pay 6,869,000 credits and 52,585 Thulium together, and the 50 Challenge missions 428,325,000 credits and 2,847,085 Thulium. A pilot who repeats everything gets 435,194,000 credits and 2,899,670 Thulium.
-- **Wipe Points.** A Repeat of a **level** mission counts for the missions' [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) like a first completion, once per mission and season. Together with the missions you did for the first time it never counts for more than 100 missions, the most the missions' Wipe Points pay for, which are 105 Wipe Points: a pilot who has all 88 level missions (90 Wipe Points) gains 15 Wipe Points by repeating them. Repeats of Asteroids and Challenge missions do not count.
+- **What a season of it is worth.** At base, before your world and your boosts: the 88 level missions of levels 1 to 8 and the 8 Asteroids missions pay 6,828,000 credits and 52,265 Thulium together, the 44 level missions of levels 11 to 14 pay 326,400,000 credits and 1,305,600 Thulium, and the 50 Challenge missions 428,325,000 credits and 2,847,085 Thulium. The 8 Gate Line missions add 79,400,000 credits and 39,250 Thulium. A pilot who repeats everything gets 840,953,000 credits and 4,244,200 Thulium.
+- **Wipe Points.** A Repeat of a **level** mission counts for the missions' [Wipe Points](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) like a first completion, once per mission and season. Together with the missions you did for the first time it never counts for more than 100 missions, the most the missions' Wipe Points pay for, which are 105 Wipe Points: a pilot who has all 88 level missions (90 Wipe Points) gains 15 Wipe Points by repeating them. Repeats of Asteroids and Challenge missions do not count. The 44 level missions of levels 11 to 14 count for it and for the Statistics page like the others, under the same cap of 100 missions; the Gate Line missions count for neither.
 - **What it does not do.** A Repeat is not a new mission: it does not count for achievements and their titles or for the Statistics page, it adds no line to the Logbook, and it unlocks nothing. The mission stays completed.
 - **If it fails.** Run out of time or abandon it, and the mission is open again for a Repeat. Nothing is lost.
 - **Across the next wipe.** A Repeat you finished and have not claimed waits for you and pays in full when you claim it. A Repeat still running when the wipe comes is dropped. Claiming it counts as that mission's Repeat of the new season: the mission is closed again once you have claimed it.
@@ -436,6 +463,78 @@ A quest item reads "may drop it: 15% a kill, for certain at kill 10": every kill
 | Centre Hold | Ops | Destroy 8 Bulwarks in x-4 → Destroy 3 Goombahs in x-4 → Stay 8 min in one stretch in DS-x | 35 min | 94,000 | 235,000 | 1,880 | 470 | – |
 | **Frontline Command** (Special) | Ops | Destroy 10 Bulwarks in x-4 → Patrol 10,000 units in DS-x → Destroy 4 Goombahs in rival x-4 | – | 218,000 | 545,000 | 4,360 | 1,090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster I, 10 h |
 
+### Level 11: Boss Season
+
+10 missions and a Special, 8,704,000 XP in all.
+
+| Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Boss Goombah Bounty | Combat | Destroy 60 Goombahs in x-3 → Destroy 1 Boss Goombah in x-3 → Destroy 60 Goombahs in x-4 → Destroy 1 Boss Goombah in x-4 → Destroy 2 Boss Goombahs in x-3 (from season day 4) | – | 760,000 | 1,900,000 | 7,600 | 3,800 | – |
+| Pirate Court | Combat | Destroy 3 Pirate Bosses in x-2 → Fly to the point 3,500 / 6,200 in x-3 → Fly to the point 4,000 / 4,800 in x-3 → Fly to the point 13,400 / 5,000 in x-3 → Destroy 6 Pirate Bosses in x-3 → Destroy 3 Pirate Bosses in rival x-3 → Destroy 1 Boss Phantasm in x-4 (from season day 4) | – | 560,000 | 1,400,000 | 5,600 | 2,800 | – |
+| Rift Fodder | Combat | Destroy 400 Phantasm → Destroy 150 Bulwarks → Destroy 60 Goombahs → Destroy 1 Boss Goombah in x-4 (from season day 4) | – | 760,000 | 1,900,000 | 7,600 | 3,800 | – |
+| Open the Rift | Combat | Destroy 100 Seekers → Fly to the point 1,500 / 3,900 in x-1 → Clear the Alpha Rift → Destroy 1 Boss Phantasm in x-3 (from season day 4) | – | 760,000 | 1,900,000 | 7,600 | 3,800 | – |
+| Tesseract Survey | Recon | Fly to the point 28,400 / 6,100 in DS-4 → Fly to the point 25,900 / 8,600 in DS-4 → Fly to the point 23,400 / 6,100 in DS-4 → Stay 5 min in one stretch in DS-4 → Destroy 40 Facets in DS-4 → Fly to the point 25,900 / 3,600 in DS-4 → Fly to the point 27,668 / 7,868 in DS-4 → Fly to the point 24,132 / 4,332 in DS-4 → Stay 5 min in one stretch in DS-4 (whole mission: no death) (from season day 4) | – | 754,000 | 1,875,000 | 7,540 | 3,770 | – |
+| The Long Way Round | Recon | Patrol 20,000 units in x-3 → Destroy 1 Boss Phantasm in x-3 → Patrol 20,000 units in x-4 → Destroy 1 Boss Phantasm in x-4 → Patrol 20,000 units in rival x-4 → Destroy 1 Boss Phantasm in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x (from season day 4) | – | 750,000 | 1,875,000 | 7,500 | 3,750 | – |
+| Border Beacons | Recon | Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 11,500 / 6,800 in x-4 → Fly to the point 12,500 / 6,000 in x-4 → Fly to the point 13,000 / 3,000 in x-4 → Destroy 20 Goombahs in x-4 → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 11,500 / 6,800 in rival x-4 → Fly to the point 12,500 / 6,000 in rival x-4 → Fly to the point 13,000 / 3,000 in rival x-4 → Destroy 20 Goombahs in rival x-4 → Stay 10 min in x-4 (whole mission: no death) | 1 h 30 min | 560,000 | 1,400,000 | 5,600 | 2,800 | – |
+| Facet Storm | Ops | Destroy 40 Facets in DS-4 → Stay 5 min in DS-4 → Destroy 40 Facets in DS-4 → Destroy 1 Boss Crystalys in DS-x (from season day 4) | 1 h 30 min | 750,000 | 1,875,000 | 7,500 | 3,750 | – |
+| Seal of the Boss | Ops | Destroy 40 Goombahs in x-4 → Bring the Goombah Seal to Mission Control (Boss Goombah in x-4 carries it) → Bring the Second Seal to Mission Control (Boss Goombah in x-3 carries it) (whole mission: no death) (from season day 4) | – | 750,000 | 1,875,000 | 7,500 | 3,750 | – |
+| Clock the Pirates | Ops | Destroy 3 Pirate Bosses in x-2 → Destroy 3 Pirate Bosses in x-3 → Destroy 3 Pirate Bosses in rival x-2 → Destroy 1 Boss Phantasm in x-3 → Destroy 1 Boss Goombah in x-4 (from season day 4) | 1 h 15 min | 560,000 | 1,400,000 | 5,600 | 2,800 | – |
+| **The Rift Key** (Special) | Ops | Destroy 2 Boss Goombahs in x-3 → Destroy 2 Boss Phantasms in x-4 → Destroy 2 Boss Goombahs in rival x-3 → Destroy 6 Pirate Bosses in x-3 → Bring the Rift Key to Mission Control (Boss Seeker in x-2 carries it) (whole mission: no death) (from season day 4) | – | 1,740,000 | 4,350,000 | 17,400 | 8,700 | – |
+
+### Level 12: The Breach
+
+10 missions and a Special, 17,408,000 XP in all.
+
+| Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Goombah Purge | Combat | Destroy 80 Goombahs in x-3 → Destroy 3 Boss Goombahs in x-3 → Destroy 80 Goombahs in x-4 → Destroy 3 Boss Goombahs in x-4 → Destroy 3 Boss Goombahs in rival x-3 → Destroy 1 Boss Crystalys in DS-x (from season day 4) | – | 1,525,000 | 3,800,000 | 15,250 | 7,625 | – |
+| Crystalys Tithe | Combat | Destroy 20 Crystalys → Destroy 1 Boss Crystalys in DS-1 → Fly to the point 16,000 / 9,000 in DS-2 → Destroy 1 Boss Crystalys in DS-2 → Stay 5 min in one stretch in DS-2 (whole mission: no death) (from season day 4) | – | 1,525,000 | 3,800,000 | 15,250 | 7,625 | – |
+| Breach Opener | Combat | Destroy 60 Bulwarks → Destroy 4 Pirate Bosses in rival x-3 → Clear the Beta Breach → Destroy 1 Boss Crystalys in DS-x (from season day 4) | – | 1,533,000 | 3,850,000 | 15,330 | 7,665 | – |
+| Breach Core | Recon | Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 11,500 / 6,800 in x-4 → Fly to the point 12,500 / 6,000 in x-4 → Bring the Breach Core to Mission Control (Boss Goombah in x-4 carries it) → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 11,500 / 6,800 in rival x-4 → Fly to the point 12,500 / 6,000 in rival x-4 → Bring the Breach Core II to Mission Control (Boss Goombah in rival x-4 carries it) (from season day 4) | 1 h | 1,250,000 | 3,100,000 | 12,500 | 6,250 | – |
+| Davidski's Debt | Recon | Fly to the point 16,000 / 9,000 in DS-1 → Fly to the point 16,000 / 9,000 in DS-2 → Fly to the point 16,000 / 9,000 in DS-3 → Destroy 1 Davidski in DS-x → Stay 5 min in DS-x → Destroy 1 Boss Crystalys in DS-x (from season day 4) | – | 1,550,000 | 3,900,000 | 15,500 | 7,750 | – |
+| Border Cartographer | Recon | Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 13,000 / 3,000 in x-4 → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 13,000 / 3,000 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 6,000 / 13,500 in DS-x → Destroy 2 Boss Phantasms in x-4 → Destroy 2 Boss Phantasms in rival x-4 → Fly to the point 6,000 / 13,500 in DS-x → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 13,000 / 3,000 in rival x-4 → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 13,000 / 3,000 in x-4 → Fly to the point 6,500 / 2,200 in x-4 → Stay 10 min in one stretch in DS-x (whole mission: no death) (from season day 4) | 1 h 30 min | 1,250,000 | 3,100,000 | 12,500 | 6,250 | – |
+| Swamp Vigil | Recon | Stay 15 min in one stretch in DS-x → Destroy 1 Boss Crystalys in DS-x → Stay 15 min in one stretch in DS-x → Destroy 1 Boss Crystalys in DS-x → Stay 15 min in one stretch in DS-x (from season day 4) | – | 1,250,000 | 3,100,000 | 12,500 | 6,250 | – |
+| Gamma Scrap | Ops | Destroy 20 Bulwarks → Destroy 10 Goombahs in rival x-4 → Destroy 4 Crystalys → Destroy 1 Boss Crystalys (from season day 4) | 2 h | 1,250,000 | 3,100,000 | 12,500 | 6,250 | – |
+| Triple Crown | Ops | Destroy 1 Boss Crystalys in DS-x → Destroy 1 Boss Goombah in x-3 → Destroy 1 Boss Phantasm in x-4 → Destroy 1 Pirate Boss in x-3 → Destroy 1 Boss Goombah in rival x-4 (from season day 4) | 1 h 15 min | 1,250,000 | 3,100,000 | 12,500 | 6,250 | – |
+| First Dungeon | Ops | Destroy 60 Goombahs → Clear clan dungeon stage 1 (a paid clear) → Destroy 3 Boss Goombahs in x-3 (from season day 4) | – | 1,550,000 | 3,900,000 | 15,500 | 7,750 | – |
+| **Breach Command** (Special) | Ops | Destroy 3 Boss Goombahs in x-4 → Destroy 3 Boss Goombahs in rival x-4 → Destroy 3 Boss Crystalys in DS-x → Destroy 3 Pirate Bosses in x-3 → Bring the Breach Seal to Mission Control (destroy 3 Boss Goombah in x-4: the last one carries it) (whole mission: no death) (from season day 4) | – | 3,475,000 | 8,700,000 | 34,750 | 17,375 | – |
+
+### Level 13: The Foundry
+
+10 missions and a Special, 34,816,000 XP in all.
+
+| Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Crystalys Crown | Combat | Destroy 1 Boss Crystalys in DS-1 → Destroy 1 Boss Crystalys in DS-2 → Destroy 1 Boss Crystalys in DS-3 → Destroy 20 Crystalys → Destroy 1 Boss Crystalys in DS-1 (from season day 4) | – | 3,000,000 | 7,500,000 | 30,000 | 15,000 | – |
+| Tesseract Down | Combat | Fly to the point 28,400 / 6,100 in DS-4 → Destroy 100 Facets in DS-4 → Destroy 1 Tesseract in DS-4 → Destroy 1 Boss Crystalys in DS-3 → Stay 10 min in one stretch in DS-4 (from season day 4) | – | 3,000,000 | 7,500,000 | 30,000 | 15,000 | – |
+| Foundry Fire | Combat | Destroy 150 Goombahs → Destroy 8 Crystalys → Clear the Gamma Foundry → Destroy 2 Boss Crystalys in DS-x (from season day 4) | – | 3,000,000 | 7,500,000 | 30,000 | 15,000 | – |
+| Crystalys Clearance | Combat | Destroy 40 Crystalys → Destroy 1 Boss Crystalys in DS-x → Destroy 40 Crystalys → Destroy 2 Boss Crystalys in DS-x (from season day 4) | – | 2,966,000 | 7,400,000 | 29,660 | 14,830 | – |
+| The Siege Run | Recon | Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 13,000 / 3,000 in x-4 → Fly to the point 9,000 / 4,500 in rival x-1 → Fly to the point 12,500 / 6,000 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 6,000 / 13,500 in DS-x → Destroy 1 Boss Crystalys in DS-x → Fly to the point 6,000 / 13,500 in DS-x → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 12,500 / 6,000 in rival x-4 → Fly to the point 9,000 / 4,500 in rival x-1 → Fly to the point 13,000 / 3,000 in x-4 → Fly to the point 6,500 / 2,200 in x-4 → Destroy 1 Boss Goombah in rival x-4 → Destroy 1 Boss Phantasm in rival x-3 (whole mission: no death) (from season day 4) | 1 h 50 min | 2,350,000 | 5,900,000 | 23,500 | 11,750 | – |
+| Rim of the Disc | Recon | Stay 10 min in one stretch in DS-4 → Destroy 60 Facets in DS-4 → Stay 10 min in one stretch in DS-4 → Fly to the point 25,900 / 3,600 in DS-4 → Fly to the point 28,400 / 6,100 in DS-4 → Fly to the point 25,900 / 8,600 in DS-4 → Fly to the point 23,400 / 6,100 in DS-4 → Stay 10 min in one stretch in DS-4 (whole mission: no death) (from season day 4) | – | 2,350,000 | 5,900,000 | 23,500 | 11,750 | – |
+| Triple Sighting | Recon | Fly to the point 16,000 / 9,000 in DS-1 → Destroy 1 Boss Crystalys in DS-1 → Fly to the point 16,000 / 9,000 in DS-2 → Destroy 1 Boss Crystalys in DS-2 → Fly to the point 16,000 / 9,000 in DS-3 → Destroy 1 Boss Crystalys in DS-3 (from season day 4) | 2 h 30 min | 2,950,000 | 7,400,000 | 29,500 | 14,750 | – |
+| Siege Core | Ops | Destroy 20 Crystalys → Bring the Siege Core to Mission Control (Boss Phantasm in x-4 carries it) → Bring the Core II to Mission Control (Boss Goombah in x-4 carries it) (whole mission: no death) (from season day 4) | – | 2,950,000 | 7,400,000 | 29,500 | 14,750 | – |
+| Second Dungeon | Ops | Destroy 100 Goombahs in rival x-4 → Clear clan dungeon stage 2 (a paid clear) → Destroy 2 Boss Crystalys (from season day 4) | – | 2,950,000 | 7,400,000 | 29,500 | 14,750 | – |
+| Clean Sweep | Ops | Destroy 20 Goombahs in x-4 → Destroy 8 Crystalys in x-4 → Destroy 1 Boss Goombah → Destroy 20 Goombahs in rival x-4 → Destroy 8 Crystalys in rival x-4 (whole mission: no death) (from season day 4) | – | 2,350,000 | 5,900,000 | 23,500 | 11,750 | – |
+| **Foundry Command** (Special) | Ops | Destroy 1 Boss Crystalys in DS-1 → Destroy 1 Boss Crystalys in DS-2 → Destroy 1 Boss Crystalys in DS-3 → Destroy 2 Boss Phantasms in rival x-3 → Destroy 100 Facets in DS-4 → Destroy 1 Tesseract in DS-4 → Destroy 19 Crystalys in x-4 → Bring the Foundry Key to Mission Control (Crystalys in x-4 carries it) (whole mission: no death) (from season day 4) | – | 6,950,000 | 17,400,000 | 69,500 | 34,750 | – |
+
+### Level 14: Omega
+
+10 missions and a Special, 69,632,000 XP in all.
+
+| Mission | Giver | Tasks | Time limit | XP | Credits | Thulium | Honor | Items |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Boss Crystalys Hecatomb | Combat | Destroy 1 Boss Crystalys in DS-1 → Destroy 1 Boss Crystalys in DS-2 → Destroy 1 Boss Crystalys in DS-3 → Destroy 1 Boss Crystalys in DS-1 → Destroy 1 Boss Crystalys in DS-2 → Destroy 1 Boss Crystalys in DS-3 → Destroy 40 Crystalys → Destroy 1 Tesseract in DS-4 → Destroy 1 Boss Crystalys (from season day 4) | – | 5,800,000 | 14,500,000 | 58,000 | 29,000 | – |
+| Siege Master | Combat | Destroy 200 Goombahs → Destroy 15 Crystalys → Clear the Delta Siege → Destroy 40 Goombahs in rival x-4 → Destroy 3 Boss Crystalys (from season day 4) | – | 5,800,000 | 14,500,000 | 58,000 | 29,000 | – |
+| Dormant Reign | Combat | Destroy 2 Dormant Force → Destroy 3 Boss Crystalys → Destroy 2 Dormant Force (from season day 4) | – | 5,832,000 | 14,500,000 | 58,320 | 29,160 | – |
+| The Grand Survey | Recon | Fly to the point 9,000 / 4,500 in x-1 → Fly to the point 4,000 / 6,500 in x-2 → Fly to the point 3,500 / 6,200 in x-3 → Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 9,000 / 4,500 in rival x-1 → Fly to the point 4,000 / 6,500 in rival x-2 → Fly to the point 3,500 / 6,200 in rival x-3 → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 6,000 / 13,500 in DS-x → Destroy 1 Boss Goombah in rival x-3 → Destroy 2 Boss Crystalys → Fly to the point 6,000 / 13,500 in DS-x → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 6,500 / 2,200 in rival x-4 → Fly to the point 3,500 / 6,200 in rival x-3 → Fly to the point 4,000 / 6,500 in rival x-2 → Fly to the point 9,000 / 4,500 in rival x-1 → Fly to the point 6,500 / 2,200 in x-4 → Fly to the point 3,500 / 6,200 in x-3 → Fly to the point 4,000 / 6,500 in x-2 → Fly to the point 9,000 / 4,500 in x-1 → Stay 15 min in one stretch in DS-x (whole mission: no death) (from season day 4) | – | 4,900,000 | 12,250,000 | 49,000 | 24,500 | – |
+| Hold the Dark | Recon | Stay 60 min in one stretch in DS-x → Destroy 2 Boss Crystalys → Stay 60 min in one stretch in DS-x (from season day 4) | – | 5,900,000 | 14,750,000 | 59,000 | 29,500 | – |
+| Beacon Line II | Recon | Patrol 60,000 units in x-3 → Destroy 1 Boss Goombah in x-3 → Patrol 60,000 units in x-4 → Patrol 60,000 units in rival x-4 → Patrol 60,000 units in DS-x → Destroy 1 Boss Crystalys (from season day 4) | – | 4,900,000 | 12,250,000 | 49,000 | 24,500 | – |
+| Corners Twice | Recon | Fly to the point 3,000 / 3,000 in DS-x → Fly to the point 29,000 / 3,000 in DS-x → Fly to the point 29,000 / 15,000 in DS-x → Fly to the point 3,000 / 15,000 in DS-x → Destroy 8 Crystalys → Fly to the point 3,000 / 15,000 in DS-x → Fly to the point 29,000 / 15,000 in DS-x → Fly to the point 29,000 / 3,000 in DS-x → Fly to the point 3,000 / 3,000 in DS-x → Stay 15 min in one stretch in DS-x (whole mission: no death) | 2 h | 4,900,000 | 12,250,000 | 49,000 | 24,500 | – |
+| Crystalys Gauntlet | Ops | Destroy 10 Crystalys → Destroy 1 Boss Crystalys → Destroy 10 Crystalys in rival x-4 → Destroy 1 Boss Crystalys (whole mission: no death) (from season day 4) | – | 5,900,000 | 14,750,000 | 59,000 | 29,500 | – |
+| Omega Convoy | Ops | Destroy 10 Crystalys in rival x-4 → Bring the Omega Core to Mission Control (Boss Goombah in rival x-4 carries it) → Bring the Core II to Mission Control (Boss Phantasm in x-4 carries it) (whole mission: no death) (from season day 4) | 2 h | 5,900,000 | 14,750,000 | 59,000 | 29,500 | – |
+| Warlord Down | Ops | Destroy 200 Goombahs → Clear clan dungeon stage 3 (a paid clear) → Destroy 3 Boss Crystalys (from season day 4) | – | 5,900,000 | 14,750,000 | 59,000 | 29,500 | – |
+| **Omega Command** (Special) | Ops | Destroy 6 Boss Crystalys in DS-x → Destroy 6 Boss Goombahs in rival x-3 → Destroy 1 Tesseract in DS-4 → Clear the Omega Vault → Bring the Omega Seal to Mission Control (the step before gives it to you) (whole mission: no death) (from season day 4) | – | 13,900,000 | 34,750,000 | 139,000 | 69,500 | – |
+
 ### Station missions {#station-missions-table}
 
 10 missions about your Skylab, 8,300 XP in all. The numbers are the base: your world's bonus, boosters, Premium XP and clan boosts add to them, as for a level mission.
@@ -542,5 +641,20 @@ Ten missions, in any order. This is the last tier.
 | Untouched Zero | Ops | Destroy 20 Goombahs in x-4 (hull loss at most 556,000 points) | – | 672,500 | 3,480,000 | 26,105 | 0 | Orvium Reinforced Plate ×14, Laser Damage Booster II, 22 h |
 | Warden of the Line | Ops | Destroy 400 Goombahs in x-4 → Destroy 30 Crystalys in x-4 → Stay 60 min in one stretch in x-4 → Fly to the point 8,000 / 4,500 in rival x-4 → Fly to the point 26,000 / 4,500 in DS-x → Fly to the point 1,500 / 1,500 in x-1 | – | 1,782,500 | 30,440,000 | 200,000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×596, Hull Plating Booster II, 22 h |
 
+
+### Gate Line missions {#gate-line-missions-table}
+
+8 missions about the solo gates and the clan dungeons, 8,700,000 XP in all. Each pays what its run pays. The numbers are the base: your world's bonus, boosters, Premium XP and clan boosts add to them, as for a level mission.
+
+| Mission | Giver | Opens | Tasks | XP | Credits | Thulium | Honor |
+| :--- | :--- | :--- | :--- | --: | --: | --: | --: |
+| Untouched Rift | Ops | level 12 | Clear the Alpha Rift with no death | 70,000 | 450,000 | 0 | 1,000 |
+| Breach, Untouched | Ops | level 12 | Clear the Beta Breach with no death | 180,000 | 1,500,000 | 0 | 2,500 |
+| Foundry Sprint | Ops | level 13 | Clear the Gamma Foundry in 25 min or less | 400,000 | 4,000,000 | 0 | 5,500 |
+| Foundry, Untouched | Ops | level 13 | Clear the Gamma Foundry with no death | 400,000 | 4,000,000 | 0 | 5,500 |
+| Siege Sprint | Ops | level 14 | Clear the Delta Siege in 35 min or less | 800,000 | 8,000,000 | 0 | 10,000 |
+| Guardian's Grace | Ops | level 14 | Clear the Omega Vault with no death | 1,500,000 | 15,000,000 | 0 | 20,000 |
+| Rift Walker | Ops | level 14 | Clear the Alpha Rift; Clear the Beta Breach; Clear the Gamma Foundry; Clear the Delta Siege; Clear the Omega Vault (within one season) | 2,950,000 | 28,950,000 | 35,500 | 39,000 |
+| Dungeon Regular | Ops | level 14 | Clear clan dungeon stage 3 (a paid clear), 3 times (within one season) | 2,400,000 | 17,500,000 | 3,750 | 100,000 |
 
 <!-- quests:end -->

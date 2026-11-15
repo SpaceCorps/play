@@ -20,10 +20,10 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 
 | Material | Sällsynthet | Kommer från | Används till |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Vanlig | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroider, Special-uppdrag | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Smedjan, Skylab-byggen, Forskningscentrum |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Vanlig | Goombah, Bulwark, asteroider, uppdrag | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Smedjan, Forskningscentrum |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Ovanlig | Crystalys, Goombah, asteroider, uppdrag | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Smedjan, Forskningscentrum |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Sällsynt | Crystalys, uppdrag | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Cooldown Rocket, Gravitational N.U.K.E., Forskningscentrum |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Vanlig | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroider, Special-uppdrag | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Smedjan, Skylab-byggen, Forskningscentrum |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Vanlig | Goombah, Bulwark, asteroider, uppdrag | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Smedjan, Forskningscentrum |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Ovanlig | Crystalys, Goombah, asteroider, uppdrag | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Smedjan, Forskningscentrum |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Sällsynt | Crystalys, uppdrag | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., Forskningscentrum |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Vanlig | Phantasm, Seeker, asteroider | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, Smedjan, Forskningscentrum |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Vanlig | Phantasm, Bulwark, asteroider | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, Smedjan, Forskningscentrum |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Vanlig | Crystalys, Goombah, Bulwark, asteroider, jättegrävmaskin, uppdrag | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, Smedjan, Forskningscentrum |
@@ -33,10 +33,13 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Sällsynt | uppdrag, Skylabs smedjemodul | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Episk | uppdrag, Skylabs smedjemodul | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, P.E.T.-vaggan |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Episk | det svarta hålet (en uppslukad N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Forskningscentrum |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mytisk | Monteringen | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Smedjan |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mytisk | Monteringen | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Smedjan |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Episk | asteroider, Special-uppdrag | P.E.T.-vaggan |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mytisk | asteroider, Special-uppdrag | P.E.T.-vaggan |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendarisk | asteroider | P.E.T.-vaggan |
+| [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | Ovanlig | Crystalys, Goombah, Bulwark, Phantasm, Seeker, soloportar, klandungeons | smedjans uttag |
+| [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | Sällsynt | soloportar, klandungeons | smedjans uttag |
+| [Heartshard](/wiki/06-Items/Resources.md#heartshard) | Episk | soloportar, klandungeons, sällsynta NPC:er | smedjans uttag |
 
 ## Material {#materials}
 
@@ -121,16 +124,21 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 - P.E.T. Station III: **60** (med 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1 100 000 krediter, 12 000 Thulium)
 - Auto-Rocket CPU: **100** (med 1 Ancient Control Unit, 5 Power Core, 10 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **300** (med 5 Ancient Control Unit, 30 Power Core, 50 Reinforced Hull Plate, 150 000 Thulium)
-- Rocket Launcher III: **800** (med 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 400 000 Thulium)
-- Rocket Launcher IV: **1 800** (med 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 900 000 Thulium)
-- Rocket Launcher V: **4 000** (med 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 2 000 000 Thulium)
+- Rocket Launcher III: **800** (med 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 400 000 Thulium)
+- Rocket Launcher IV: **1 800** (med 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 900 000 Thulium)
+- Rocket Launcher V: **4 000** (med 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 2 000 000 Thulium)
 - Mine II: **3** (med 2 Mine I, 1 Power Core, 200 Thulium)
 - Mine III: **8** (med 2 Mine II, 2 Power Core, 1 Reinforced Hull Plate, 400 Thulium)
 - Laser Optics I: **40** (med 2 Power Core, 4 Velkonite Reinforced Plate, 8 000 Thulium)
-- Laser Optics II: **80** (med 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **120** (med 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **180** (med 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **240** (med 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **80** (med 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **120** (med 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **180** (med 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **240** (med 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **160** (med 1 Ancient Control Unit, 10 Power Core, 25 Reinforced Hull Plate, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **80** (med 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (med 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (med 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (med 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 75 000 Thulium)
 - [Lancet II](/wiki/06-Items/Rockets.md) (ger 100): **5** (med 100 Lancet I, 10 Nyxite, 50 000 krediter, 200 Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (ger 100): **15** (med 100 Lancet II, 20 Nyxite, 2 Reinforced Hull Plate, 150 000 krediter, 800 Thulium)
 - [Rivet II](/wiki/06-Items/Rockets.md) (ger 100): **5** (med 10 Daraxium, 100 Rivet I, 50 000 krediter, 200 Thulium)
@@ -148,15 +156,13 @@ Varje utbyte på den här sidan gäller **per nedskjutning, i genomsnitt**: chan
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5): **10** (med 30 Daraxium, 10 Nyxite, 50 000 krediter, 800 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3): **20** (med 1 Ancient Control Unit, 3 Power Core, 40 Quorvium, 100 000 krediter, 2 500 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3): **20** (med 40 Nyxite, 2 Power Core, 20 Quorvium, 90 000 krediter, 2 000 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Standard till Befläckad: **5** (med 15 Daraxium, 10 000 krediter; 100 % chans)
-- [Smedjan](/wiki/06-Items/Forge.md), Befläckad till Gudomlig: **30** (med 45 Nyxite, 50 000 krediter; 90 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Standard till Vaknad: **5** (med 15 Daraxium, 10 000 krediter)
+- [Smedjan](/wiki/06-Items/Forge.md), Vaknad till Resonant: **32** (med 48 Nyxite, 56 000 krediter)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **10** vardera för Ammunitionsskrivare, Smedja, Malmviken, Orvium-samlare, Resurslager, Trofélager, Velkonite-samlare (från ditt inventarie, inte från transportförrådet)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **15** vardera för Radarmodul, Raketfabrik (från ditt inventarie, inte från transportförrådet)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **20** vardera för Motormodul (från ditt inventarie, inte från transportförrådet)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), bygge av en modul: **25** vardera för Försvarsmodul, Forskningscentrum (från ditt inventarie, inte från transportförrådet)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **5** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 6 per nedskjutning; den närmaste källan är [Seeker](/wiki/04-Aliens/Seeker.md) i sektor 1, 0,2 per nedskjutning.
 
@@ -216,14 +222,19 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - P.E.T. Station III: **6** (med 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 krediter, 12 000 Thulium)
 - Auto-Rocket CPU: **10** (med 1 Ancient Control Unit, 5 Power Core, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **50** (med 5 Ancient Control Unit, 30 Power Core, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **120** (med 15 Ancient Control Unit, 80 Power Core, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **250** (med 30 Ancient Control Unit, 160 Power Core, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **500** (med 60 Ancient Control Unit, 300 Power Core, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Rocket Launcher III: **120** (med 15 Ancient Control Unit, 80 Power Core, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **250** (med 30 Ancient Control Unit, 160 Power Core, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **500** (med 60 Ancient Control Unit, 300 Power Core, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
 - Mine III: **1** (med 2 Mine II, 2 Power Core, 8 Ship Fragment, 400 Thulium)
-- Laser Optics II: **8** (med 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **10** (med 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **18** (med 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **25** (med 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **8** (med 1 Laser Optics I, 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **10** (med 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **18** (med 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **25** (med 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **25** (med 1 Ancient Control Unit, 10 Power Core, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (med 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **10** (med 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **18** (med 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **25** (med 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 240 Ship Fragment, 75 000 Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (ger 100): **2** (med 100 Lancet II, 20 Nyxite, 15 Ship Fragment, 150 000 krediter, 800 Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (ger 100): **2** (med 20 Daraxium, 100 Rivet II, 15 Ship Fragment, 150 000 krediter, 800 Thulium)
 - [Ember III](/wiki/06-Items/Rockets.md) (ger 100): **2** (med 20 Cataclysite, 100 Ember II, 15 Ship Fragment, 150 000 krediter, 800 Thulium)
@@ -231,10 +242,8 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (med 80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150 000 krediter, 3 000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5): **4** (med 40 Cataclysite, 20 Ship Fragment, 100 000 krediter, 1 500 Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (ger 5): **3** (med 40 Cataclysite, 15 Ship Fragment, 80 000 krediter, 1 500 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Gudomlig till Rämnande: **20** (med 120 Cataclysite, 2 Dark Matter Plate, 200 000 krediter; 75 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Resonant till Strålande: **23** (med 140 Cataclysite, 2 Dark Matter Plate, 267 000 krediter)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **33** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Goombah](/wiki/04-Aliens/Goombah.md) (sektorerna 3, 4): i genomsnitt 0,6 per nedskjutning.
 
@@ -312,26 +321,29 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - P.E.T. Station III: **4** (med 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 krediter, 12 000 Thulium)
 - Auto-Rocket CPU: **5** (med 1 Ancient Control Unit, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **30** (med 5 Ancient Control Unit, 50 Reinforced Hull Plate, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **80** (med 15 Ancient Control Unit, 120 Reinforced Hull Plate, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **160** (med 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **300** (med 60 Ancient Control Unit, 500 Reinforced Hull Plate, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Rocket Launcher III: **80** (med 15 Ancient Control Unit, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **160** (med 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **300** (med 60 Ancient Control Unit, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
 - Mine II: **1** (med 2 Mine I, 3 Ship Fragment, 200 Thulium)
 - Mine III: **2** (med 2 Mine II, 1 Reinforced Hull Plate, 8 Ship Fragment, 400 Thulium)
 - Laser Optics I: **2** (med 40 Ship Fragment, 4 Velkonite Reinforced Plate, 8 000 Thulium)
-- Laser Optics II: **4** (med 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **6** (med 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **9** (med 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **12** (med 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **4** (med 1 Laser Optics I, 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **6** (med 1 Laser Optics II, 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **9** (med 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **12** (med 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **10** (med 1 Ancient Control Unit, 25 Reinforced Hull Plate, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **4** (med 8 Dark Matter Plate, 1 Miyuki, 8 Reinforced Hull Plate, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (med 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (med 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (med 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (med 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150 000 krediter, 3 000 Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (ger 5): **1** (med 30 Cataclysite, 10 Ship Fragment, 50 000 krediter, 1 000 Thulium)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (ger 5): **2** (med 20 Quorvium, 10 Ship Fragment, 60 000 krediter, 1 200 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3): **3** (med 1 Ancient Control Unit, 40 Quorvium, 20 Ship Fragment, 100 000 krediter, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (med 2 Ancient Control Unit, 1 N.U.K.E., 40 Quorvium, 150 000 krediter, 3 000 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3): **2** (med 40 Nyxite, 20 Quorvium, 20 Ship Fragment, 90 000 krediter, 2 000 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Rämnande till Evig: **8** (med 240 Quorvium, 2 Dark Matter Plate, 500 000 krediter, 2 000 Thulium; 60 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Strålande till Uppstigen: **11** (med 320 Quorvium, 2 Dark Matter Plate, 833 000 krediter, 2 667 Thulium)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **100** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 0,5 per nedskjutning; den närmaste källan är [Goombah](/wiki/04-Aliens/Goombah.md) i sektor 3, 0,25 per nedskjutning.
 
@@ -375,11 +387,15 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - P.E.T. Station III: **2** (med 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 krediter, 12 000 Thulium)
 - Auto-Rocket CPU: **1** (med 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **5** (med 30 Power Core, 50 Reinforced Hull Plate, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **15** (med 80 Power Core, 120 Reinforced Hull Plate, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **30** (med 160 Power Core, 250 Reinforced Hull Plate, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **60** (med 300 Power Core, 500 Reinforced Hull Plate, 4 000 Ship Fragment, 2 000 000 Thulium)
-- Laser Optics IV: **2** (med 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **3** (med 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Rocket Launcher III: **15** (med 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **30** (med 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **60** (med 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Laser Optics IV: **2** (med 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **3** (med 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **1** (med 10 Power Core, 25 Reinforced Hull Plate, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (med 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (med 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (med 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3): **1** (med 3 Power Core, 40 Quorvium, 20 Ship Fragment, 100 000 krediter, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (med 1 N.U.K.E., 4 Power Core, 40 Quorvium, 150 000 krediter, 3 000 Thulium)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **650** vetenskap per enhet
@@ -388,7 +404,7 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 
 ### Daraxium
 
-*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Befläckad.
+*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Vaknad.
 
 **Så får du det**
 
@@ -406,16 +422,14 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - [Rivet II](/wiki/06-Items/Rockets.md) (ger 100): **10** (med 100 Rivet I, 5 Ship Fragment, 50 000 krediter, 200 Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (ger 100): **20** (med 2 Reinforced Hull Plate, 100 Rivet II, 15 Ship Fragment, 150 000 krediter, 800 Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5): **30** (med 10 Nyxite, 10 Ship Fragment, 50 000 krediter, 800 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Standard till Befläckad: **15** (med 5 Ship Fragment, 10 000 krediter; 100 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Standard till Vaknad: **15** (med 5 Ship Fragment, 10 000 krediter)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **7** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Phantasm](/wiki/04-Aliens/Phantasm.md) (sektorerna 2, 3): i genomsnitt 0,9 per nedskjutning; den närmaste källan är [Seeker](/wiki/04-Aliens/Seeker.md) i sektor 1, 0,75 per nedskjutning.
 
 ### Nyxite
 
-*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Gudomlig.
+*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Resonant.
 
 **Så får du det**
 
@@ -435,16 +449,14 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - [Toxic Rocket](/wiki/06-Items/Rockets.md) (ger 5): **30** (med 10 Quorvium, 10 Ship Fragment, 60 000 krediter, 1 000 Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5): **10** (med 30 Daraxium, 10 Ship Fragment, 50 000 krediter, 800 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3): **40** (med 2 Power Core, 20 Quorvium, 20 Ship Fragment, 90 000 krediter, 2 000 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Befläckad till Gudomlig: **45** (med 30 Ship Fragment, 50 000 krediter; 90 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Vaknad till Resonant: **48** (med 32 Ship Fragment, 56 000 krediter)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **7** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Phantasm](/wiki/04-Aliens/Phantasm.md) (sektorerna 2, 3): i genomsnitt 0,9 per nedskjutning.
 
 ### Cataclysite
 
-*Vanlig resurs.* Släpps av NPC:er och asteroider. Används för att bygga de starkaste lasrarna och, i Smedjan, för att höja utrustning till Rämnande.
+*Vanlig resurs.* Släpps av NPC:er och asteroider. Används för att bygga de starkaste lasrarna och, i Smedjan, för att höja utrustning till Strålande.
 
 **Så får du det**
 
@@ -487,16 +499,14 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5): **40** (med 4 Reinforced Hull Plate, 20 Ship Fragment, 100 000 krediter, 1 500 Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (ger 5): **30** (med 1 Power Core, 10 Ship Fragment, 50 000 krediter, 1 000 Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (ger 5): **40** (med 3 Reinforced Hull Plate, 15 Ship Fragment, 80 000 krediter, 1 500 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Gudomlig till Rämnande: **120** (med 20 Reinforced Hull Plate, 2 Dark Matter Plate, 200 000 krediter; 75 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Resonant till Strålande: **140** (med 23 Reinforced Hull Plate, 2 Dark Matter Plate, 267 000 krediter)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **5** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 8 per nedskjutning; den närmaste källan är [Goombah](/wiki/04-Aliens/Goombah.md) i sektor 3, 4 per nedskjutning.
 
 ### Quorvium
 
-*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Evig.
+*Vanlig resurs.* Släpps av NPC:er och asteroider. Används i Smedjan för att höja utrustning till Uppstigen.
 
 **Så får du det**
 
@@ -522,10 +532,8 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3): **40** (med 1 Ancient Control Unit, 3 Power Core, 20 Ship Fragment, 100 000 krediter, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (med 2 Ancient Control Unit, 1 N.U.K.E., 4 Power Core, 150 000 krediter, 3 000 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3): **20** (med 40 Nyxite, 2 Power Core, 20 Ship Fragment, 90 000 krediter, 2 000 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Rämnande till Evig: **240** (med 8 Power Core, 2 Dark Matter Plate, 500 000 krediter, 2 000 Thulium; 60 % chans)
+- [Smedjan](/wiki/06-Items/Forge.md), Strålande till Uppstigen: **320** (med 11 Power Core, 2 Dark Matter Plate, 833 000 krediter, 2 667 Thulium)
 - [Forskningscentrum](/wiki/03-Mechanics/Research.md#fuel), bränsle: **8** vetenskap per enhet
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 8 per nedskjutning; den närmaste källan är [Goombah](/wiki/04-Aliens/Goombah.md) i sektor 3, 3 per nedskjutning.
 
@@ -650,10 +658,10 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 - [Ultra Core](/wiki/06-Items/Lasers.md) (ger 1 000): **4** (med 120 Cataclysite, 90 Quorvium, 320 krediter, 687 Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (ger 1 000): **8** (med 140 Cataclysite, 1 Orvium Reinforced Plate, 105 Quorvium, 9 058 krediter, 1 315 Thulium)
 - Laser Optics I: **4** (med 2 Power Core, 40 Ship Fragment, 8 000 Thulium)
-- Laser Optics II: **6** (med 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15 000 Thulium)
-- Laser Optics III: **12** (med 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30 000 Thulium)
-- Laser Optics IV: **14** (med 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
-- Laser Optics V: **15** (med 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- Laser Optics II: **6** (med 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15 000 Thulium)
+- Laser Optics III: **12** (med 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30 000 Thulium)
+- Laser Optics IV: **14** (med 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- Laser Optics V: **15** (med 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 
 **Modulupgraderingar**: Monteringen uppgraderar Quantum Laser II till Quantum Laser III, Quantum Laser III till Starfire-III, Impulse Thruster II till Impulse Thruster III, Absorption Shield Cell I till Absorption Shield Cell II, Absorption Shield Cell II till Absorption Shield Cell III, Capacity Shield Cell I till Capacity Shield Cell II, Capacity Shield Cell II till Capacity Shield Cell III, Impulse Thruster I till Impulse Thruster II, Momentum Thruster I till Momentum Thruster II, Momentum Thruster II till Momentum Thruster III, Damage Amp I till Damage Amp II, Damage Amp II till Damage Amp III, Crit Amp I till Crit Amp II, Crit Amp II till Crit Amp III, Penetration Amp I till Penetration Amp II, Penetration Amp II till Penetration Amp III, Engine I till Engine II och Adaptive Core I till Adaptive Core II. Varje uppgradering förbrukar delen den utgår från och kräver de här plåtarna utöver sina andra material. Den nya delen behåller förtrollningsnivån och bonusarna hos den del du lägger i. Se [Modulupgraderingar i Monteringen](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -701,9 +709,9 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 - P.E.T. Station II: **2** (med 1 P.E.T. Station I, 2 Power Core, 6 Reinforced Hull Plate, 35 Ship Fragment, 4 Velkonite Reinforced Plate, 300 000 krediter, 4 000 Thulium)
 - P.E.T. Station III: **2** (med 2 Ancient Control Unit, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 krediter, 12 000 Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (ger 1 000): **1** (med 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 9 058 krediter, 1 315 Thulium)
-- Laser Optics III: **2** (med 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **6** (med 2 Ancient Control Unit, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **10** (med 3 Ancient Control Unit, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics III: **2** (med 1 Laser Optics II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **6** (med 2 Ancient Control Unit, 1 Laser Optics III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **10** (med 3 Ancient Control Unit, 1 Laser Optics IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
 - **P.E.T.-vaggan** (Hangaren): 1 för varje monterad P.E.T., med 1 Cluster Chunk av P.E.T.:ns grad.
 
 **Modulupgraderingar**: Monteringen uppgraderar Starfire-III till Helios Beam. Varje uppgradering förbrukar delen den utgår från och kräver de här plåtarna utöver sina andra material. Den nya delen behåller förtrollningsnivån och bonusarna hos den del du lägger i. Se [Modulupgraderingar i Monteringen](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -727,7 +735,7 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 - [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (ger 1 000): **1** (med 120 Cataclysite, 90 Quorvium, 4 873 krediter, 987 Thulium)
 - [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (ger 1 000): **4** (med 1 000 Dark Matter Ammo I, 200 Thulium)
 - [Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md), bränsle: en brinner i **10** minuters brytning, och tanken rymmer 3
-- [Forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter), de översta teknologierna: **10** för var och en av 35 av dem
+- [Forskningscentrum](/wiki/03-Mechanics/Research.md#dark-matter), de översta teknologierna: **10** för var och en av 40 av dem
 
 **Så farmar du det**: avfyra [N.I.K.E.](/wiki/06-Items/Rockets.md)-raketer in i det svarta hålet (Monteringen tillverkar dem) och ta lådorna vid randen av dess zon innan någon annan gör det. Hela vägen finns i [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
 
@@ -758,13 +766,15 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 - Hull Plating II: **5** (med 1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 150 Ship Fragment, 2 500 Thulium)
 - Hull Plating III: **8** (med 1 Ancient Control Unit, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4 000 Thulium)
 - Adaptive Core III: **4** (med 1 Adaptive Core II, 1 Ancient Control Unit, 5 Power Core, 110 Ship Fragment, 4 000 Thulium)
-- [Smedjan](/wiki/06-Items/Forge.md), Gudomlig till Rämnande: **2** (med 20 Reinforced Hull Plate, 120 Cataclysite, 200 000 krediter; 75 % chans)
-- [Smedjan](/wiki/06-Items/Forge.md), Rämnande till Evig: **2** (med 8 Power Core, 240 Quorvium, 500 000 krediter, 2 000 Thulium; 60 % chans)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (med 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **8** (med 1 Ancient Control Unit, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **8** (med 2 Ancient Control Unit, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **8** (med 3 Ancient Control Unit, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- [Smedjan](/wiki/06-Items/Forge.md), Resonant till Strålande: **2** (med 23 Reinforced Hull Plate, 140 Cataclysite, 267 000 krediter)
+- [Smedjan](/wiki/06-Items/Forge.md), Strålande till Uppstigen: **2** (med 11 Power Core, 320 Quorvium, 833 000 krediter, 2 667 Thulium)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Motormodul: **1** för att bygga den, sedan 2, 3, 5 och 8 för nivå 2 till 5
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Försvarsmodul: **1** för att bygga den, sedan 2, 4, 7 och 12 för nivå 2 till 5
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Radarmodul: inga för att bygga den, sedan 1 och 3 för nivå 2 till 3
-
-Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat nedåt.
 
 **Så farmar du det**: den pressas, den hittas inte: samla Dark Matter (ovan) och de två plåtar som Skylabs smedjemodul gör, och starta sedan tillverkningen i Monteringen. Forska först fram receptet: [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) har hela vägen.
 
@@ -815,6 +825,66 @@ Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sina material, avrundat 
 
 **Så farmar du det**: bryt asteroider, ju större desto bättre: gruppen som gjorde mest skada tar chunken, och Motherlode ger den oftast.
 
+### Echo Shard
+
+*Ovanlig resurs.* Ett resonansskärva från fällda aliens, avklarade portar och klandungeons. Smedjan förbrukar Echo Shards för att stämma ett uttag på en utrustningsdel. Det kan inte handlas.
+
+**Så får du det**
+
+| Utomjording | Sektorer | Byte | Per nedskjutning, i genomsnitt |
+| :--- | :---: | :--- | --: |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 % för 1 | 0,2 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 % för 1 | 0,05 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 % för 1 | 0,02 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 % för 1 | 0,01 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 % för 1 | 0 |
+
+- **Soloportar**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 vid varje avklarning.
+- **Klandungeons**: 3, 2 och 2 vid en betald avklarning av etapp 1, 2 och 3.
+- **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
+- **I övrigt**: säljs inte i butiken.
+
+**Vad det används till**
+
+- Smedjans uttag: att stämma ett tomt uttag kostar Echo Shards.
+
+**Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 0,2 per nedskjutning; den närmaste källan är [Seeker](/wiki/04-Aliens/Seeker.md) i sektor 1, 0 per nedskjutning.
+
+### Lattice Shard
+
+*Sällsynt resurs.* Ett gitterskärva från avklarade portar och klandungeons. Smedjan förbrukar Lattice Shards för att lägga om ett stämt uttag och reparera en sliten del. Det kan inte handlas.
+
+**Så får du det**
+
+- **Soloportar**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 vid varje avklarning.
+- **Klandungeons**: 5, 6 och 7 vid en betald avklarning av etapp 1, 2 och 3.
+- **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
+- **I övrigt**: säljs inte i butiken.
+
+**Vad det används till**
+
+- Smedjans uttag: att lägga om ett uttag och reparera en pjäs kostar Lattice Shards.
+
+**Så farmar du det**: klara soloportar och klandungeons: båda ger det vid varje avklarning.
+
+### Heartshard
+
+*Episk resurs.* En sällsynt skärva: den första avklarningen av varje port och varje klandungeon-etapp under en säsong ger en, och det gör några av de sällsyntaste bossarna också. Lägg den i Smedjan till en stämning eller en omläggning för att välja stat och slå i den övre halvan av intervallet. Det kan inte handlas.
+
+**Så får du det**
+
+- **Soloportar**: 1 vid första avklarningen av varje port under en säsong, och 5 % chans till 1 till vid varje avklarning.
+- **Klandungeons**: 1 vid första betalda avklarningen av varje etapp under en säsong, och 5 % chans till ytterligare ett vid varje betald avklarning.
+- **Sällsynta NPC:er**: Davidski 10 %, Dormant Force 5 %, Tesseract 5 % per nedskjutning.
+- **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
+- **I övrigt**: säljs inte i butiken.
+
+**Vad det används till**
+
+- Smedjans uttag: lagd till en stämning eller en omläggning erbjuder en Heartshard alla lediga stats och slår värdet i den övre halvan av intervallet.
+
+**Så farmar du det**: det är sällsynt: klara varje soloport och varje etapp i klandungeon en gång per säsong och besegra de långsamma sällsynta NPC:erna.
+
 ## Valutor {#currencies}
 
 Krediter och Thulium samlas in som material och spenderas på samma ställen. De finns på ditt konto, inte i ditt inventarie.
@@ -831,7 +901,7 @@ Krediter och Thulium samlas in som material och spenderas på samma ställen. De
 
 Det här är siffrorna för världen **Alpha** (1×). En nedskjutning betalar **2×** så mycket i Beta och **3×** i Gamma, och ett avklarat uppdrag betalar efter den högre av världen du gjorde det i och världen du flyger i ([världar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); bytet är detsamma i varje värld. Dessutom höjer säsongsbutikens permanenta Credit Boost (upp till +50 %) och Thulium Boost (upp till +30 %) vad nedskjutningar och uppdrag betalar i de två valutorna.
 
-Erfarenhet och heder är poäng, inte pengar: inget köps med dem. Erfarenhet höjer din nivå, som räknas mot din grad; heder spelar ingen roll för din grad. Bara ett koncernbyte tar något av dem, och då bara hälften av din heder; din erfarenhet spenderas aldrig.
+Erfarenhet och heder är poäng, inte pengar: inget köps med dem. Erfarenhet höjer din nivå, som räknas mot din grad; heder räknas också mot din grad: 100 heder är en PvE-poäng. Bara ett koncernbyte tar något av dem, och då bara hälften av din heder; din erfarenhet spenderas aldrig.
 
 ### Krediter {#credits}
 
@@ -842,7 +912,7 @@ Erfarenhet och heder är poäng, inte pengar: inget köps med dem. Erfarenhet h�
 - **Vid start**: en ny pilots konto har 10 000 krediter.
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den.
-- **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 6 664 500 krediter över de 88 uppdragen i Alpha, från 86 000 på nivå 1 till 2 720 000 på nivå 8.
+- **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 333 064 500 krediter över de 132 uppdragen i Alpha, från 86 000 på nivå 1 till 174 000 000 på nivå 14.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Kreditfarm producerar den medan du är borta, in i ett lager för 72 timmar.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -853,14 +923,13 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 
 - **[Klanens](/wiki/03-Mechanics/Clans.md) utbetalningar**: en klans ledare kan betala ut krediter från klanbanken till dess medlemmar.
 - **Bonuskoder**: en kod som delas ut vid ett event eller på vår Discord kan ge krediter, och dessutom material, utrustning, boosters eller ett skepp. Skriv in den i kortet Bonuskod på sidan Thulium; varje kod fungerar en gång per pilot.
-- Ett steg i Smedjan som misslyckas behåller sina krediter: bara 50 % av dess material och Thulium kommer tillbaka.
 
 **Vad det används till**
 
 - **Butiken**: 27 föremål har pris i krediter (deras sidor anger priset: [Föremål](/wiki/06-Items/Overview.md) och [Raketer](/wiki/06-Items/Rockets.md)).
 - **Monteringen**, per tillverkning: [Master Drone](/wiki/06-Items/Drones.md) 1 000 000, [Starfire-III](/wiki/06-Items/Lasers.md) 100 000, P.E.T. Station I 100 000, P.E.T. Station II 300 000, P.E.T. Station III 1 100 000, [Ultra Core](/wiki/06-Items/Lasers.md) (ger 1 000) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (ger 1 000) 9 058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (ger 1 000) 4 740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (ger 1 000) 4 873, [Lancet II](/wiki/06-Items/Rockets.md) (ger 100) 50 000, [Lancet III](/wiki/06-Items/Rockets.md) (ger 100) 150 000, [Rivet II](/wiki/06-Items/Rockets.md) (ger 100) 50 000, [Rivet III](/wiki/06-Items/Rockets.md) (ger 100) 150 000, [Ember II](/wiki/06-Items/Rockets.md) (ger 100) 50 000, [Ember III](/wiki/06-Items/Rockets.md) (ger 100) 150 000, [Scatter II](/wiki/06-Items/Rockets.md) (ger 100) 50 000, [Scatter III](/wiki/06-Items/Rockets.md) (ger 100) 150 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5) 100 000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (ger 5) 50 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (ger 5) 60 000, [Shield Breaker](/wiki/06-Items/Rockets.md) (ger 5) 80 000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (ger 5) 60 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5) 50 000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3) 100 000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3) 90 000.
-- **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Standard till Befläckad 10 000, Befläckad till Gudomlig 50 000, Gudomlig till Rämnande 200 000, Rämnande till Evig 500 000.
-- **Sammanslagningar i Smedjan**, efter den nivå de ger: Befläckad 5 000, Gudomlig 25 000, Rämnande 100 000, Evig 250 000.
+- **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Standard till Vaknad 10 000, Vaknad till Resonant 56 000, Resonant till Strålande 267 000, Strålande till Uppstigen 833 000.
+- **Sammanslagningar i Smedjan**, efter den nivå de ger: Vaknad 5 000, Resonant 25 000, Strålande 100 000, Uppstigen 250 000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 20 000 på nivå 1, 5 600 000 på nivå 20, Kreditfarm 0 på nivå 1, 7 000 000 på nivå 20, Försvarsmodul 500 000 på nivå 1, 14 000 000 på nivå 5, Motormodul 375 000 på nivå 1, 8 750 000 på nivå 5, Smedja 5 000 på nivå 1, 9 000 000 på nivå 20, Malmviken 5 000 på nivå 1, 4 500 000 på nivå 20, Orvium-samlare 20 000 på nivå 1, 5 500 000 på nivå 20, Radarmodul 250 000 på nivå 1, 2 250 000 på nivå 3, Forskningscentrum 25 000 (x1,5 per nivå), Raketfabrik 20 000 på nivå 1, 1 400 000 på nivå 20, Solkraft 500 på nivå 1, 9 000 000 på nivå 20, Resurslager 5 000 på nivå 1, 4 500 000 på nivå 20, Thuliumfarm 5 000 på nivå 1, 8 500 000 på nivå 20, Trofélager 100 000 på nivå 1, 2 325 000 på nivå 20, Velkonite-samlare 20 000 på nivå 1, 5 500 000 på nivå 20. Kärnan finns alltid, så det första pris du betalar för den är det för nivå 2: 1 500 (därefter x1,5 per nivå).
 - **[Klan](/wiki/03-Mechanics/Clans.md)**: donationer till klanbanken (högst 1 000 000 krediter per pilot under valfria 24 timmar) och klanens dagliga skatt, en andel av dina krediter som dess ledare bestämmer.
 
@@ -876,7 +945,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 - **Utomjordingar**: varje nedskjutning betalar den (tabellen ovan).
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)**: bitarna från en sprängd asteroid betalar den.
 - **[Jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md)**: från säsongsdag 11 (Beta och Gamma: från säsongsdag 1) ger en full körning 9 643 av den i Alfa (mer i Beta och Gamma), i lådor som vem som helst får ta; på kontrollpanelen väljer man vad den bryter.
-- **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 51 010 Thulium över de 88 uppdragen i Alpha, från 170 på nivå 1 till 21 760 på nivå 8.
+- **[Uppdrag](/wiki/03-Mechanics/Quests.md)**: 1 356 610 Thulium över de 132 uppdragen i Alpha, från 170 på nivå 1 till 696 320 på nivå 14.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: modulen Thuliumfarm producerar den medan du är borta, in i ett lager för 72 timmar.
 
 | Modulnivå | 1 | 5 | 10 | 15 | 20 |
@@ -886,13 +955,12 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 Det här är takterna för en station med energi: ett energiunderskott stoppar varje farm och samlare, och en modul kan inte uppgraderas över Kärnan, som stannar på nivå 20 (se [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
 - **Bonuskoder**: en kod som delas ut vid ett event eller på vår Discord kan ge Thulium, och dessutom material, utrustning, boosters eller ett skepp. Skriv in den i kortet Bonuskod på sidan Thulium; varje kod fungerar en gång per pilot.
-- Ett steg i Smedjan som misslyckas ger tillbaka 50 % av sitt Thulium, avrundat nedåt.
 
 **Vad det används till**
 
 - **Butiken**: 20 föremål har pris i Thulium (deras sidor anger priset: [Föremål](/wiki/06-Items/Overview.md)).
-- **Monteringen**, per tillverkning: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (ger 1 000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (ger 1 000) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (ger 1 000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (ger 1 000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (ger 1 000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (ger 1 000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (ger 1 000) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Lancet II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (ger 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (ger 5) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3) 2 000.
-- **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Rämnande till Evig 2 000.
+- **Monteringen**, per tillverkning: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (ger 1 000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (ger 1 000) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (ger 1 000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (ger 1 000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (ger 1 000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (ger 1 000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (ger 1 000) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6 000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20 000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35 000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50 000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75 000, [Lancet II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (ger 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (ger 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (ger 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (ger 5) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (ger 5) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (ger 5) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (ger 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (ger 3) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (ger 3) 2 000.
+- **[Smedjan](/wiki/06-Items/Forge.md)**, per nivåsteg: Strålande till Uppstigen 2 667.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**-byggen och -uppgraderingar, priset för varje modul (nivå 1 är bygget, varje nivå över har sitt eget pris): Ammunitionsskrivare 500 på nivå 1, 11 000 på nivå 20, Kreditfarm 0 på nivå 1, 550 på nivå 20, Försvarsmodul 2 000 på nivå 1, 56 000 på nivå 5, Motormodul 1 500 på nivå 1, 35 000 på nivå 5, Smedja 500 på nivå 1, 10 000 på nivå 20, Malmviken 250 på nivå 1, 550 på nivå 20, Orvium-samlare 500 på nivå 1, 12 500 på nivå 20, Radarmodul 1 000 på nivå 1, 9 000 på nivå 3, Forskningscentrum 500 (x1,5 per nivå), Raketfabrik 500 på nivå 1, 2 800 på nivå 20, Solkraft 50 på nivå 1, 10 000 på nivå 20, Resurslager 250 på nivå 1, 550 på nivå 20, Thuliumfarm 500 på nivå 1, 16 000 på nivå 20, Trofélager 400 på nivå 1, 9 300 på nivå 20, Velkonite-samlare 500 på nivå 1, 12 500 på nivå 20.
 - **[Forskning](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: en boost för forskningscentrumet kostar 5 000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium per hopp.
@@ -905,7 +973,7 @@ Det här är takterna för en station med energi: ett energiunderskott stoppar v
 
 - **Lådor**: en utomjordings byte hamnar i en låda där den sprängdes, reserverad för den pilot som fällde den och dennes klan i 30 sekunder. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) ger 25 % mer i det en låda innehåller. Se [Lastlådor](/wiki/03-Mechanics/Cargo.md).
 - **Vrak**: en förstörd [koncernpilot](/wiki/03-Mechanics/Company-Pilots.md) lämnar ingen låda och inga delar, oavsett vem eller vad som förstör den, så piloternas skepp är ingen källa till material. Du kan skjuta ner en annan koncerns piloter när Fredsprotokollet är över, där din [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) tillåter PvP; att förstöra en pilot i din egen koncern kostar 100 heder.
-- **Modulupgraderingar**: Monteringen tillverkar Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II och Adaptive Core III genom att uppgradera delen ett steg under, som den förbrukar. En uppgradering kräver Velkonite Reinforced Plate, Dark Matter Plate och Orvium Reinforced Plate, liksom Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV och Laser Optics V. Den nya delen behåller förtrollningsnivån och bonusarna hos den del du lägger i. Se [Modulupgraderingar i Monteringen](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Modulupgraderingar**: Monteringen tillverkar Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II och Adaptive Core III genom att uppgradera delen ett steg under, som den förbrukar. En uppgradering kräver Velkonite Reinforced Plate, Dark Matter Plate och Orvium Reinforced Plate, liksom Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV och Miyuki V. Den nya delen behåller förtrollningsnivån och bonusarna hos den del du lägger i. Se [Modulupgraderingar i Monteringen](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Var de förvaras**: lösa högar i inventariet är det som Monteringen, Smedjan och Skylab-byggen använder. Högar på ett skepp eller i transportförrådet gör det inte.
 - **Wipen**: material i ditt inventarie följer [wipereglerna](/wiki/03-Mechanics/Wipe-Timeline.md); malm som är inlagrad i Skylabs Resurslager finns kvar.
 

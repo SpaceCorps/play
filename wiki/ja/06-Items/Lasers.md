@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7c4b5382a5618e1a -->
+<!-- wiki-i18n source: eef162a0237c03ac -->
 <!-- wiki-i18n title: レーザー -->
 # レーザーと弾薬 {#lasers-ammo}
 
@@ -82,11 +82,11 @@ Quantum Laser I と II には、固有のクリティカル率が1%あります�
 
 アセンブリのページには、所持しているものとレシピに必要なものが並べて表示され、「製作」ボタンには足りないものが表示されます。 レシピの画像や名前、またはその材料にカーソルを合わせると、アイテムの説明全文とステータスが表示されます。
 
-**Quantum Laser III は Quantum Laser II から作ります。**Quantum Laser II はショップのレーザー（80,000クレジット）で、Quantum Laser III はそれを消費します。そのため、レシピの Ship Fragment 10個、Velkonite Reinforced Plate 3枚、1,500 Thulium は、ショップで支払う Quantum Laser II に上乗せされます。ルールは、下の Starfire-III と同じです。Quantum Laser III は、消費した Quantum Laser II のエンチャント段階とボーナスを引き継ぎます（神級の Quantum Laser II からは、同じボーナスが付いた神級の Quantum Laser III ができます）。どの Quantum Laser II を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser II は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIを外してください」と表示されます。
+**Quantum Laser III は Quantum Laser II から作ります。**Quantum Laser II はショップのレーザー（80,000クレジット）で、Quantum Laser III はそれを消費します。そのため、レシピの Ship Fragment 10個、Velkonite Reinforced Plate 3枚、1,500 Thulium は、ショップで支払う Quantum Laser II に上乗せされます。ルールは、下の Starfire-III と同じです。Quantum Laser III は、消費した Quantum Laser II のエンチャント段階とボーナスを引き継ぎます（共鳴の Quantum Laser II からは、同じボーナスが付いた共鳴の Quantum Laser III ができます）。どの Quantum Laser II を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser II は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIを外してください」と表示されます。
 
-**Starfire-III は Quantum Laser III から作ります。**まず Quantum Laser III を作り、Starfire-III はそれを消費します。Quantum Laser III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、3,000 Thulium、100,000クレジット、Ship Fragment 25個、Velkonite Reinforced Plate 11枚、Reinforced Hull Plate 1枚、そして2分に、Quantum Laser III が消費する Quantum Laser II を加えたものです。すでに Quantum Laser III を持っているなら、支払うのは Starfire-III 自身の分だけです。ルールは、下の Helios Beam と同じです。Starfire-III は、消費した Quantum Laser III のエンチャント段階とボーナスを引き継ぎます（神級の Quantum Laser III からは、同じボーナスが付いた神級の Starfire-III ができます）。どの Quantum Laser III を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIIを外してください」と表示されます。
+**Starfire-III は Quantum Laser III から作ります。**まず Quantum Laser III を作り、Starfire-III はそれを消費します。Quantum Laser III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、3,000 Thulium、100,000クレジット、Ship Fragment 25個、Velkonite Reinforced Plate 11枚、Reinforced Hull Plate 1枚、そして2分に、Quantum Laser III が消費する Quantum Laser II を加えたものです。すでに Quantum Laser III を持っているなら、支払うのは Starfire-III 自身の分だけです。ルールは、下の Helios Beam と同じです。Starfire-III は、消費した Quantum Laser III のエンチャント段階とボーナスを引き継ぎます（共鳴の Quantum Laser III からは、同じボーナスが付いた共鳴の Starfire-III ができます）。どの Quantum Laser III を使うかは選べ、標準より上の段階のものを使うときは、カードが先に確認します。Quantum Laser III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にQuantum Laser IIIを外してください」と表示されます。
 
-**Helios Beam は Starfire-III から作ります。**まず Starfire-III を作り（Quantum Laser III を含めて3,000 Thulium と100,000クレジット。Quantum Laser III は Quantum Laser II を消費します）、Helios Beam はそれを消費します。[Master Drone](/wiki/06-Items/Drones.md) が Slave Drone を消費するのと同じです。Starfire-III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Helios Beam が単独で要求していた5,000 Thulium、Cataclysite、Power Core、Reinforced Hull Plate と、20枚ではなく18枚の Orvium プレート（Starfire-III の Velkonite プレート11枚が、不足する2枚の代わりになります）、そして Helios Beam は系統の最終ティアなので Dark Matter Plate 4枚と Ancient Control Unit 1個です。これ以外にかかるのは、Starfire-III の100,000クレジットと Ship Fragment 25個、そして系統の最初にある Quantum Laser II 1基です。ルールは[モジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)と同じです。Helios Beam は、消費した Starfire-III のエンチャント段階とボーナスを引き継ぎます（神級の Starfire-III からは、同じボーナスが付いた神級の Helios Beam ができます）。複数持っている場合はどの Starfire-III を使うか選べ、標準より上の段階のものを使うときは、カードが先に確認します。Starfire-III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にStarfire-IIIを外してください」と表示されます。
+**Helios Beam は Starfire-III から作ります。**まず Starfire-III を作り（Quantum Laser III を含めて3,000 Thulium と100,000クレジット。Quantum Laser III は Quantum Laser II を消費します）、Helios Beam はそれを消費します。[Master Drone](/wiki/06-Items/Drones.md) が Slave Drone を消費するのと同じです。Starfire-III がすでに使ったものは、改めて要求されません。そのため、2つを合わせたコストは、Helios Beam が単独で要求していた5,000 Thulium、Cataclysite、Power Core、Reinforced Hull Plate と、20枚ではなく18枚の Orvium プレート（Starfire-III の Velkonite プレート11枚が、不足する2枚の代わりになります）、そして Helios Beam は系統の最終ティアなので Dark Matter Plate 4枚と Ancient Control Unit 1個です。これ以外にかかるのは、Starfire-III の100,000クレジットと Ship Fragment 25個、そして系統の最初にある Quantum Laser II 1基です。ルールは[モジュールの強化](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)と同じです。Helios Beam は、消費した Starfire-III のエンチャント段階とボーナスを引き継ぎます（共鳴の Starfire-III からは、同じボーナスが付いた共鳴の Helios Beam ができます）。複数持っている場合はどの Starfire-III を使うか選べ、標準より上の段階のものを使うときは、カードが先に確認します。Starfire-III は外れた状態でなければなりません。**先に艦から外し**（装着していたアンプはインベントリに戻ります）、トランスポートキャッシュからも取り出してください。艦に装備されているときは、「製作」ボタンに「先にStarfire-IIIを外してください」と表示されます。
 
 プレートの入手元：
 
@@ -133,13 +133,13 @@ Ship Fragment、Cataclysite、Power Core、Reinforced Hull Plate はエイリア
 | Penetration Amp III | 2,000 | 60秒 | Nyxite 30個、Cataclysite 20個、Power Core 2個、Ship Fragment 50個、Velkonite Reinforced Plate 2枚 |
 | Penetration Amp IV | 2,400 | 90秒 | Quorvium 40個、Cataclysite 30個、Power Core 1個、Ancient Control Unit 1個、Dark Matter Plate 4枚 |
 
-Helios Beam とティアIVのアンプ4つの組は、最終ティアの部品5つで、Dark Matter Plate 20枚、Dark Matter 100個、N.I.K.E. ロケット平均50発分です。すべてのスロットを最終ティアにした Wraith には Dark Matter 1,640個が入っています（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+Helios Beam とティアIVのアンプ4つの組は、最終ティアの部品5つで、Dark Matter Plate 20枚、Dark Matter 100個、N.I.K.E. ロケット平均50発分です。すべてのスロットを最終ティアにした Wraith には Dark Matter 1,540個が入っています（[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
 
 ### どのアンプをどこに載せるか {#which-amp-goes-where}
 
 ダメージアンプは、どのレーザーにも同じ固定ダメージを加えます。クリティカルアンプは、固有の少しの固定ダメージ（5～20）を加え、さらにレーザーが出すダメージをクリティカル率で増幅するので、全スロットが同じティアなら、ティアII以上ではどのレーザーでもダメージアンプを上回ります。ティアIIで約19%、ティアIIIで25%、ティアIVで30～43%です（Quantum Laser 系の伸びが最大）。ティアIでは両者は拮抗し、**Damage Amp I** は **Quantum Laser 系**でわずかに優れ、**Crit Amp I** は **Starfire-III** と **Helios Beam** でわずかに優れます。レーザーのクリティカル率は100%で頭打ちです。Crit Amp III を3個載せた Helios Beam は（自前の20%に加えて）95%、Crit Amp IV を3個なら110%となり、使い切れない10ポイントが余ります。Penetration Amp はダメージもクリティカル率も加えません。シールドが命中の大半を受け止めてしまう艦に対するものです（[下記](#when-is-a-penetration-amp-worth-a-slot)）。
 
-同じアンプを載せた場合、レーザーは常に1つ下のレーザーより強くなります。そのため、良いアンプは良いレーザーの一部しか埋め合わせられません。Damage Amp IV を3個載せた Quantum Laser III のダメージは、Damage Amp I を3個載せた Helios Beam を上回りますが、Damage Amp III を3個載せた Helios Beam には及びません。鍛造してもこの差は埋まりません（永遠まで鍛えた Quantum Laser III と Damage Amp IV が最高の値を引いても、Damage Amp III を載せた標準の Helios Beam にわずかに及びません）。
+同じアンプを載せた場合、レーザーは常に1つ下のレーザーより強くなります。そのため、良いアンプは良いレーザーの一部しか埋め合わせられません。Damage Amp IV を3個載せた Quantum Laser III のダメージは、Damage Amp I を3個載せた Helios Beam を上回りますが、Damage Amp III を3個載せた Helios Beam には及びません。鍛造してもこの差は埋まりません（昇華まで鍛えた Quantum Laser III と Damage Amp IV が最高の値を引いても、Damage Amp III を載せた標準の Helios Beam にわずかに及びません）。
 
 
 ---
@@ -194,10 +194,10 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 
 レーザーの命中はどれも、ターゲットの吸収率からポイントを差し引きます。差し引くものは最大3つあり、足し合わされます。あなたの**弾薬**（Ultra Core 5%、Experimental Fusion Core 10%、Antimatter Battery 20%）、あなたの **Penetration Amp**、そして**ドローン編成**（Gemini +15%、[ドローン編成](/wiki/03-Mechanics/Formations.md)）です。**合計に上限はありません**（直撃ロケットも、自身の貫通と編成の貫通を同じように足します：[ロケット](/wiki/06-Items/Rockets.md)）。シールドは、ターゲットの吸収率から命中の貫通を引いた割合を受け、残りを船体が受けます（[シールドの仕組み](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
-- **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。スロットが3つのレーザーそれぞれに Penetration Amp IV を3つずつ載せれば60%（Helios Beam に4つずつ載せれば80%）、14本のレーザーのうち1本に Penetration Amp IV を1つ載せても約1.4%です。Wraith のレーザースロットは14個で、アンプスロットは3スロットのレーザーなら42個、Helios Beam なら56個あり、60%（Helios Beam なら80%）にするにはそのすべてを埋める必要があります。
+- **アンプはレーザーの平均として数えられます。** 斉射は1回の命中なので、ゲームは各レーザーのアンプの貫通を足し合わせ（ドローンの中のレーザーも数えます）、クリティカル率と同じように、ダメージで重みを付けてレーザー全体の平均を取ります。スロットが3つのレーザーそれぞれに Penetration Amp IV を3つずつ載せれば60%（Helios Beam に4つずつ載せれば80%）、13本のレーザーのうち1本に Penetration Amp IV を1つ載せても約1.5%です。Wraith のレーザースロットは13個で、アンプスロットは3スロットのレーザーなら39個、Helios Beam なら52個あり、60%（Helios Beam なら80%）にするにはそのすべてを埋める必要があります。
 - **ハンガーに表示されます。** ハンガーの戦闘ステータスには、どの機体でも、表示中の構成のレーザーアンプの値を示す**貫通**タイルがあります（Penetration Amp がなければ0.0%）。弾薬と編成はそこに含まれません。飛行中の**艦船**ウィンドウには、下の行の端に**貫通**チップがあります（場所を空けるため、構成と速度のチップはアイコンと数字だけを表示します）。レーザーの命中の合計、つまりアンプ、装着中の編成、撃っている弾薬を、切り替えるたびに足し合わせた値を示し、ツールチップに3つの内訳が並びます。
 - **最強のレーザーは x4 で85%、Antimatter で95%になります（どちらも各レーザーにアンプ3つの場合）。** Experimental Fusion Core（10%）、Gemini（15%）、各レーザーに Penetration Amp IV を3つ（60%）で、合計は85%です。その代わりに Antimatter Battery（20%）を使うと95%になり、ダメージは x4 ではなく x3 です。Helios Beam には4つ目のスロットがあり、各 Helios Beam に Penetration Amp IV を4つ載せると、Fusion Core と Gemini を合わせて105%になり、どのシールドの吸収率をも上回ります。
-- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「永遠」のボーナス（+9%～+15%）なら、Penetration Amp IV は20ではなく21.8～23ポイントになります。最強の構成では、「永遠」が3つなら合計は94%になり、そのすべてのポイントが効きます。
+- **Penetration Amp IV への鍛冶場のボーナスは効きます。** Penetration Amp も、ほかのアンプと同じように鍛造できます。ステータスは1つだけで、そのボーナスが貫通を倍化します。「昇華」のボーナス（+9%～+15%）なら、Penetration Amp IV は20ではなく21.8～23ポイントになります。最強の構成では、「昇華」が3つなら合計は94%になり、そのすべてのポイントが効きます。
 
 | レーザーの斉射 | 弾薬 | アンプ（3スロット） | 編成 | 合計 |
 |---|---|---|---|---|
@@ -219,8 +219,8 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 | Light Shield Core + Absorption Shield Cell IV（57%） | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
 | Heavy Shield Core + Capacity Shield Cell IV 3つ（73%） | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
 | 標準で最高のシールド（91%） | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストア44レベル（109%） | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
-| 最高のシールド、「永遠」の鍛冶場（最高の引き）とシーズンストアの上限（114.7%） | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
+| 最高のシールド、「昇華」の鍛冶場（最高の引き）とシーズンストア44レベル（109%） | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
+| 最高のシールド、「昇華」の鍛冶場（最高の引き）とシーズンストアの上限（114.7%） | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
 | どのエイリアンでも（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
 
 最強のレーザーは、最良のセルを入れてもセルがなくても、どのシールドコアも空にします。Capacity セル3つの Heavy Shield Core も同様です（船体が命中を丸ごと受けます）。最高のシールドが保つのは命中の6%です（バフがあれば24%）。ロケット単体がシールドを空にすることはありません（最大35%）が、Lancet III か Rivet III に Stiletto を合わせた場合（70%）は空になります。
@@ -231,4 +231,4 @@ Siphon Battery は、船体を壊す代わりにシールドを奪うための�
 
 - **ダメージは与えません。** Helios Beam では、Penetration Amp IV を3つ載せると1回の斉射で158ダメージ（弾薬x1、ダメージの振れ幅とクリティカルの平均）です。Damage Amp IV を3つなら319、Crit Amp IV を3つなら416で、前者の半分、後者の3分の1を少し上回る程度です。取り戻すのはシールドの割合なので、シールドに比べて船体が小さく、吸収率が高い場合に最も見合います。標準で最高のシールドを積んだ、大きな船体が長く持ちこたえる Wraith や Ironclad に対しては、得られるのは最大20%です。シールドがバフで100%を超えた Ironclad には、素朴な Crit の組み合わせで当たるのが今でも最善です。
 - **エイリアン。** そのシールドは命中の80%からあなたの貫通を引いた分を受けますが、最強のレーザー（85%）はそれを丸ごと貫くので、エイリアンにも効きます。Gemini を装備していれば、Phantasm や Goombah には Penetration Amp が最良の構成に入ります（約10%得られます）。Seeker、Bulwark、Crystalys に対しては、同じティアの Crit Amp の組み合わせのほうが同じ速さかそれ以上に速く倒せます。
-- **コスト。** Penetration Amp IV 1つにつき Dark Matter Plate が4枚（Dark Matter 20個）必要です。ティアIVのアンプはどれも同じなので、56スロットすべてを埋める Wraith には、プレート224枚、Dark Matter 1,120個が必要です。
+- **コスト。** Penetration Amp IV 1つにつき Dark Matter Plate が4枚（Dark Matter 20個）必要です。ティアIVのアンプはどれも同じなので、52スロットすべてを埋める Wraith には、プレート208枚、Dark Matter 1,040個が必要です。

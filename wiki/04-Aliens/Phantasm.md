@@ -29,6 +29,7 @@ What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Res
 - **Ship Fragment**: 100% chance (Min: 1, Max: 1)
 - **Daraxium**: 60% chance (Min: 1, Max: 2)
 - **Nyxite**: 60% chance (Min: 1, Max: 2)
+- **Echo Shard**: 1% chance (Min: 1, Max: 1)
 
 ## Lore
 

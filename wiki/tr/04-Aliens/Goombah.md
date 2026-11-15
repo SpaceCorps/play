@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](
 - **Quorvium**: %100 şans (En az: 2, En çok: 4)
 - **Reinforced Hull Plate**: %60 şans (En az: 1, En çok: 1)
 - **Power Core**: %25 şans (En az: 1, En çok: 1)
+- **Echo Shard**: %5 şans (En az: 1, En çok: 1)
 
 ## Hikâye {#lore}
 

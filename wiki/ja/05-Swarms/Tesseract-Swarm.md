@@ -80,6 +80,7 @@ Tesseract の報酬は、その戦いの重さに見合っています。多数�
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20、1人あたり最大 5 |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

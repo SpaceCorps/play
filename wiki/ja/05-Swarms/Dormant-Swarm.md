@@ -57,7 +57,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 | :--- | ---: | ---: | ---: |
 | 船体 | 256,000 | 384,000 | 512,000 |
 | シールド | 83,400 | 125,100 | 166,800 |
-| レーザーのダメージ （毎秒1斉射） | 3,570 | 5,355 | 7,140 |
+| レーザーのダメージ （毎秒1斉射） | 3,315 | 4,973 | 6,630 |
 | 速度 | 210 | 210 | 210 |
 | レーザーの射程 | 800 | 800 | 800 |
 | 索敵範囲 | 攻撃時のみ | 攻撃時のみ | 攻撃時のみ |
@@ -75,6 +75,7 @@ Dormant の群れは、**Dormant Force** とその **Dormant Pulse** からな�
 | Ultra Core と Experimental Fusion Core （均等に分配） | 100% | 合計 2,000–3,000 |
 | 4 種のエピック [ロケット](/wiki/06-Items/Rockets.md) のうち 1種 （ランダム） | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) と [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) のうち 1つ （ランダム） | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

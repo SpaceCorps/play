@@ -223,7 +223,7 @@ The ships are listed with their base chances. A ship you already own never drops
 
 *The Dormant built in purple-black crystal with violet seams, and their archivists stored colour in thin glass plates that repaint whatever they are pressed to. Each Chroma Archive is a sealed stack of those plates, indexed by Mission Control's colourists and read by no one until a pilot opens it.*
 
-The Chroma Archive draws the grade first, and then one look of that grade that you do not own yet, each look equally likely. A collection is one prize: it gives you every skin of it that you do not have. The chance in the table is for a pilot who owns none of the looks of the grade. It rises as you collect, because fewer looks are left in the draw. See [Cosmetics](/wiki/06-Items/Cosmetics.md) for the looks themselves.
+The Chroma Archive draws the grade first, and then one look of that grade that you do not own yet, each look equally likely. A collection is one prize: it gives you one skin of it, for one ship model: your active ship's if you lack it, else another ship you own, else the first one you lack. Which ship it is for is a rule, not a draw, so nothing more is rolled. The chance in the table is for a pilot who owns none of the looks of the grade. It rises as you collect, because fewer looks are left in the draw. See [Cosmetics](/wiki/06-Items/Cosmetics.md) for the looks themselves.
 
 ### Chances of the grades {#chroma-archive-grades}
 
@@ -498,7 +498,7 @@ and better are in play.
 
 ## Duplicates and salvage
 
-- A **look** you own is not drawn while the grade still has a look you do not own. A collection counts as owned when you hold every skin of it.
+- A **look** you own is not drawn while the grade still has a look you do not own. A collection counts as owned when you hold every skin of it. Until then it can drop again, each time with one skin you lack.
 - When you own every look of the grade, the prize pays **salvage** instead: Thulium, by grade. It counts as a prize of that grade for the guarantee.
 - **Items** are never turned into Thulium: they stack, or arrive as they are.
 - **Ships** are never given twice and never paid as salvage (see [The ships](#the-ships)).

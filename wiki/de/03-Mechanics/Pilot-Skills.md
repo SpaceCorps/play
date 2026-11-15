@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Pilotenfertigkeiten -->
 # Pilotenfertigkeiten {#pilot-skills}
 
@@ -15,7 +15,7 @@ Ein neuer Pilot ist nicht bei voller Stärke. Auf Level 1 machen ein Laser und e
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Werte**: 19 Werte: 4 Attribute und 15 Fertigkeiten in 5 Gruppen
+- **Werte**: 20 Werte: 4 Attribute und 16 Fertigkeiten in 5 Gruppen
 - **Level**: 1 bis 100. Jeder Pilot beginnt jeden Wert auf Level 1, und es gibt nichts zu verteilen und nichts zurückzusetzen
 - **Kosten eines Levels**: 40 EP von Level 1 auf 2, 875 EP von Level 50 auf 51, 19.157 EP von Level 99 auf 100; 313.258 EP insgesamt
 - **Was ein Level bringt**: Ein Buff wächst geradlinig von seinem Wert auf Level 1 bis zu seinem Wert auf Level 100. Nichts ist gedeckelt
@@ -77,6 +77,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | **Ausweichen** (Reflexe) | Chance, einem Treffer auszuweichen, zusätzlich zu der des Schiffs | 0 % | 15 % |
 | **Taktik** (Reflexe) | Dauer der Fähigkeiten | ×1 | ×1,2 |
 | **Schildabsorption** (Zähigkeit) | Absorption deiner Schilde | +0 Punkte | +5 Punkte |
+| **Heilung** (Masse) | Stärke deiner eigenen Reparaturen und Heilungen | ×1 | ×1,3 |
 
 ### Schiffssteuerung {#ship-control}
 
@@ -93,12 +94,13 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | **Gewinnung** (Instinkt) | Was das Skylab herstellt | ×1 | ×1,3 |
 | **Logistik** (Masse) | Was die Bank des Ressourcenlagers fasst | ×1 | ×1,4 |
 | **Fertigung** (Reflexe) | Zeit einer Herstellung | ×1 | ×0,65 |
+|  | Integritätskosten einer Neubelegung | ×1 | ×0,7 |
 
 ### Handel {#trading}
 
 | Wert | Was er ändert | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Handel** (Instinkt) | Preise im Shop | ×1 | ×0,85 |
+| **Handel** (Instinkt) | Preise im Shop sowie Credits und Thulium einer Herstellung oder der Schmiede | ×1 | ×0,85 |
 |  | Was der Shop beim Rückkauf zahlt | ×1 | ×1,1 |
 |  | Einstellgebühr eines Auktionsangebots | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 - **Laser.** Lasertechnik ändert den Schaden jeder Salve und die Chance, dass sie trifft; eine Salve, die danebengeht, zeigt ein schwebendes „Miss“ und verbraucht trotzdem ihre Munition ([Kampf](/wiki/03-Mechanics/Combat.md#laser-tech)). Die Reichweite deiner Laser ist die deines Schiffs: Treffsicherheit steigt durch deine Treffer mit anderer Munition als dem einfachen x1, wirkt aber nur auf Minen (unten).
 - **Raketen.** Raketentechnik ändert den Schaden jeder Rakete und die Chance, dass eine ein Blindgänger ist ([Raketentechnik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Treffer einstecken.** Zähigkeit nimmt von jedem Treffer, den du einsteckst, einen Anteil ab, Ausweichen erhöht die Chance, dass ein direkter Treffer nichts bewirkt, und Schildabsorption erhöht den Anteil eines Treffers, den deine Schilde nehmen ([Kampf](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Masse erhöht deine Hülle.
+- **Heilung.** Heilung macht die Heilungen deiner eigenen Ausrüstung stärker: die Reparatur deiner Repair Drone, eine Emergency Repair und den Heal Pod, den du abwirfst ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sie trainiert an der Hülle, die deine Heilungen wiederherstellen; die Heilung eines Schiffs in einer Schutzzone zählt nicht. Die Support Rocket heilt auf jedem Level immer dieselbe feste Menge und zahlt trotzdem EP für Heilung.
 - **Fähigkeiten.** Reflexe verkürzen die Abklingzeit deiner Fähigkeiten, und Taktik lässt sie länger wirken ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage verstärkt die Gifte.
 - **Minen.** Sabotage erhöht den Schaden einer Mine, und Treffsicherheit wirft sie schneller und weiter ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Tempo.** Triebwerkstheorie erhöht dein Tempo, zusätzlich zu den Triebwerken und einem Afterburner ([Tempo](/wiki/03-Mechanics/Speed.md)).
 - **Aufsammeln.** Instinkt erhöht die Chance jeder Beutezeile, so wie es ein Loot Luck Booster tut, und beide addieren sich; Antimaterie erhöht das Dark Matter, das du aufsammelst ([Frachtkisten](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Strahlung.** Strahlungstechnik senkt die Dosis des Schwarzen Lochs, der Kreise der Bagger, der Pulsare und der Aura der Unwakened ([Schwarzes Loch](/wiki/03-Mechanics/Black-Hole.md)).
-- **Zuhause.** Gewinnung und Logistik ändern, was das [Skylab](/wiki/03-Mechanics/Skylab.md) herstellt und fasst, Instinkt erhöht seine beiden Kollektoren, Fertigung verkürzt die Herstellungen in der Montage, Forschung füllt das [Forschungszentrum](/wiki/03-Mechanics/Research.md) schneller, und Handel senkt die Preise im Shop, erhöht, was er beim Rückkauf zahlt, und senkt die Einstellgebühr eines Angebots in der [Auktion](/wiki/03-Mechanics/Auction.md).
+- **Zuhause.** Gewinnung und Logistik ändern, was das [Skylab](/wiki/03-Mechanics/Skylab.md) herstellt und fasst, Instinkt erhöht seine beiden Kollektoren, Fertigung verkürzt die Herstellungen in der Montage, Forschung füllt das [Forschungszentrum](/wiki/03-Mechanics/Research.md) schneller, und Handel senkt die Preise im Shop und die Credits und das Thulium der Herstellungen in der Montage, erhöht, was der Shop beim Rückkauf zahlt, und senkt die Einstellgebühr eines Angebots in der [Auktion](/wiki/03-Mechanics/Auction.md). In der [Schmiede](/wiki/06-Items/Forge.md) senkt Handel die Credits und das Thulium eines Schritts und die Credits eines Zusammenführens ([Aufwerten](/wiki/06-Items/Forge.md#tier-up)), und Fertigung senkt die Integrität, die eine Neubelegung einem Stück nimmt ([Integrität und Risse](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Wie EP ausgezahlt werden {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ Die Tabelle nennt, was EP bringt, Wert für Wert. Die EP gelten für jede Einhei
 | **Ausweichen** (Reflexe) | Je feindlichen Angriff auf dich, der danebengeht oder dem du ausweichst | 1 | 600 EP pro Stunde |
 | **Taktik** (Reflexe) | Je Fähigkeit, die du mit einem Feind in Laserreichweite drückst | 2 | 600 EP pro Stunde |
 | **Schildabsorption** (Zähigkeit) | Je 1 % deiner maximalen Schildpunkte, die Treffer von Feinden aufnehmen | 0,1 | 300 EP pro Stunde |
+| **Heilung** (Masse) | Je 1 % der maximalen Hülle eines Schiffs, die eine Heilung von dir wiederherstellt | 0,1 | 300 EP pro Stunde |
 | **Strahlungstechnik** (Zähigkeit) | Je Sekunde in einem Strahlungsband | 0,2 | Keine |
 |  | Je 1 % deiner maximalen Hülle, den die Strahlung nimmt | 1 |  |
 | **Triebwerkstheorie** (Masse) | Je Sekunde Flug über 80 % der Geschwindigkeit deines Schiffs, doppelt so viel unter einem Afterburner | 0,1 | Keine |
@@ -186,14 +190,16 @@ Ein Level kostet mehr EP als das davor, um einen festen Anteil, die ersten Level
 
 ## Die Seite Pilotenfertigkeiten {#the-pilot-skills-page}
 
-Die Seite **Pilotenfertigkeiten** ist eine Seite der Station mit einer eigenen Zeile in der Seitenleiste. Sie ist ein kompaktes Blatt für den ganzen Baum: Die Attribute und die fünf Gruppen von Fertigkeiten stehen nebeneinander in Spalten (drei auf einem breiten Bildschirm, weniger auf einem schmalen), je Wert eine Zeile mit seinem Level am rechten Rand und einer dünnen EP-Leiste darunter. Ein Wert, der noch keine EP verdient hat, ist grau und hat einen Strich als Level. Halte den Mauszeiger auf eine Zeile, um zu sehen, was der Wert tut, welches Attribut ihn bestimmt oder welche Fertigkeiten er trainiert, seine EP und was ihn wachsen lässt. Klicke auf eine Zeile, um ihre Details unter ihrer Spaltenreihe zu öffnen: dieselben Worte, die EP-Leiste und einen Regler, um jedes Level von 1 bis zum letzten vorab anzusehen, mit einer kleinen Tabelle, was der Wert auf Level 1, auf deinem Level jetzt, auf dem Level, das du ansiehst, und auf dem letzten Level ändert. Es ist immer nur ein Wert geöffnet; klicke die Zeile erneut an, nutze die Schaltfläche zum Schließen oder drücke Esc, um ihn wegzulegen. Die Zeile in der Seitenleiste trägt ein Abzeichen, wenn ein Wert aufgestiegen ist, seit du die Seite zuletzt geöffnet hast, und eine Karte im Booster-Fenster fasst zusammen, was deine Fertigkeiten ändern.
+Die Seite **Pilotenfertigkeiten** ist eine Seite der Station mit einer eigenen Zeile in der Seitenleiste. Sie ist ein Blatt für den ganzen Baum: Die Attribute und die fünf Gruppen von Fertigkeiten sind **Karten**, die nebeneinander liegen (drei auf einem breiten Bildschirm, auf einem schmalen weniger; hat das Blatt Platz für vier Spalten, stehen die sechs Fertigkeiten von Kampf in zwei Spalten innerhalb ihrer Karte). Eine Fertigkeit ist eine Zeile mit einem Symbol auf einer Kachel links, ihrem Namen und ihrem Level in einem **Ring** am rechten Rand, der sich füllt, wie die EP des Levels wachsen. Kachel und Ring tragen die Farbe des Attributs, das die Fertigkeit bestimmt (Masse grün, Zähigkeit blau, Reflexe gold, Instinkt violett), der Baum lässt sich also an den Farben ablesen. Eine Fertigkeit, die noch keine EP verdient hat, ist grau und hat einen Strich als Level in einem leeren Ring (Lasertechnik und Raketentechnik zeigen ihr Level immer). Halte den Mauszeiger auf eine Zeile, um zu sehen, was die Fertigkeit tut, welches Attribut sie bestimmt oder welche Fertigkeiten es trainiert, ihre EP und was sie wachsen lässt; das Attribut, das sie bestimmt, oder die Fertigkeiten, die es trainiert, leuchten dabei auf.
+
+Die Details einer Fertigkeit sind dieselben Worte, die EP-Leiste und ein Regler, um jedes Level von 1 bis zum letzten vorab anzusehen, mit einer kleinen Tabelle, was die Fertigkeit auf Level 1, auf deinem Level jetzt, auf dem Level, das du ansiehst, und auf dem letzten Level ändert. **Auf einer Seite, die breit genug ist** (die beiden Hälften der Details stehen dann nebeneinander), stehen die Details der gewählten Fertigkeit immer am Fuß der Seite: die erste Fertigkeit des Blatts, bis du eine andere anklickst, dann die angeklickte. Ein Klick wählt aus, es gibt keine Schaltfläche zum Schließen, und Esc schließt sie nicht. **Auf einer schmaleren Seite und im Flugfenster** öffnet ein Klick auf eine Zeile die Details stattdessen als Streifen unter ihrer Reihe von Karten, immer nur für eine Fertigkeit: Klicke die Zeile erneut an, nutze die Schaltfläche zum Schließen oder drücke Esc, um ihn wegzulegen. Die Zeile in der Seitenleiste trägt ein Abzeichen, wenn eine Fertigkeit aufgestiegen ist, seit du die Seite zuletzt geöffnet hast, und eine Karte im Booster-Fenster fasst zusammen, was deine Fertigkeiten ändern.
 
 Im Flug ist dasselbe Blatt das Fenster **Pilotenfertigkeiten**. Öffne es mit der Schaltfläche Pilotenfertigkeiten der Werkzeugleiste (auf einem breiten Bildschirm) oder mit seiner Taste, standardmäßig K (Einstellungen, Steuerung). Es ist ein Fenster wie die anderen: Du kannst es verschieben und in der Größe ändern, und es merkt sich seinen Platz und ob es offen war. Es zeigt nur deine Fertigkeiten: Die Level ändern sich, wenn die EP-Zeilen des Flugs eintreffen, und ein Klick auf eine Zeile öffnet dieselben Details im Fenster.
 
 ## Was bleibt {#what-is-kept}
 
 - **Durch jeden Wipe.** Der Baum ist ein Teil deines Accounts: Ein Wipe ändert kein Level und keine EP, und der Transport-Cache hat damit nichts zu tun ([Was du behältst](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **Auf den regionalen Servern.** Die EP, die du beim Fliegen auf Singapore oder US East verdienst, werden deinen Fertigkeiten gutgeschrieben, wenn du heimkehrst, auch bei einem Wert, den du dort zum ersten Mal benutzt hast, und die Stundengrenze, die du dort aufgebraucht hast, geht mit dir. Die Seite Pilotenfertigkeiten eines Piloten, der dort fliegt, liest die Zahlen des regionalen Servers, mit den EP, die sein Schiff seit seiner letzten Speicherung verdient hat.
+- **Auf den regionalen Servern.** Die EP, die du beim Fliegen auf Singapore oder US East verdienst, werden deinen Fertigkeiten gutgeschrieben, wenn du heimkehrst, auch bei einem Wert, den du dort zum ersten Mal benutzt hast, und die Stundengrenze, die du dort aufgebraucht hast, geht mit dir. Die Seite Pilotenfertigkeiten eines Piloten, der dort fliegt, liest die Zahlen des regionalen Servers, mit den EP, die sein Schiff seit seiner letzten Speicherung verdient hat. Was sonst auf einem Regionalserver funktioniert, steht unter [Server](/wiki/03-Mechanics/Servers.md).
 - **Bis der Account gelöscht wird.** Wer einen Account löscht, löscht auch seine Level.
 
 Die Buffs haben keine Decke außer dem letzten Level: Ein Pilot, der alles gesteigert hat, ist so stark, wie die Tabellen sagen.

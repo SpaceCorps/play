@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Competenze del pilota -->
 # Competenze del pilota {#pilot-skills}
 
@@ -15,7 +15,7 @@ Un pilota nuovo non è a piena forza. Al livello 1 un laser e un razzo fanno men
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Statistiche**: 19 statistiche: 4 attributi e 15 competenze in 5 gruppi
+- **Statistiche**: 20 statistiche: 4 attributi e 16 competenze in 5 gruppi
 - **Livelli**: Da 1 a 100. Ogni pilota parte con ogni statistica al livello 1, e non c’è nulla da spendere né da azzerare
 - **Costo di un livello**: 40 XP dal livello 1 al 2, 875 XP dal livello 50 al 51, 19.157 XP dal livello 99 al 100; 313.258 XP in tutto
 - **Cosa dà un livello**: Un bonus cresce in linea retta dal suo valore al livello 1 al suo valore al livello 100. Nulla è limitato
@@ -77,6 +77,7 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | **Evasione** (Riflessi) | Probabilità di schivare un colpo, aggiunta a quella della nave | 0% | 15% |
 | **Tattica** (Riflessi) | Durata delle abilità | ×1 | ×1,2 |
 | **Assorbimento scudo** (Tenacia) | Assorbimento dei tuoi scudi | +0 punti | +5 punti |
+| **Guarigione** (Massa) | Forza delle tue riparazioni e cure | ×1 | ×1,3 |
 
 ### Controllo della nave {#ship-control}
 
@@ -93,12 +94,13 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 | **Estrazione** (Istinto) | Cosa produce lo Skylab | ×1 | ×1,3 |
 | **Logistica** (Massa) | Cosa contiene la banca del Magazzino risorse | ×1 | ×1,4 |
 | **Fabbricazione** (Riflessi) | Tempo di una fabbricazione | ×1 | ×0,65 |
+|  | Costo di integrità di una ridisposizione | ×1 | ×0,7 |
 
 ### Commercio {#trading}
 
 | Statistica | Cosa cambia | Livello 1 | Livello 100 |
 | :--- | :--- | ---: | ---: |
-| **Commercio** (Istinto) | Prezzi del Negozio | ×1 | ×0,85 |
+| **Commercio** (Istinto) | Prezzi del Negozio, e crediti e Thulium di una fabbricazione o della Forgia | ×1 | ×0,85 |
 |  | Cosa paga il Negozio quando ricompra | ×1 | ×1,1 |
 |  | Caparra di un annuncio all’Asta | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Le tabelle danno ogni bonus al livello 1 e all’ultimo livello; tra i due un bo
 - **Laser.** La Tecnica laser cambia il danno di ogni raffica e la probabilità che colpisca; una raffica che va a vuoto mostra un “Miss” fluttuante e consuma comunque le munizioni ([Combattimento](/wiki/03-Mechanics/Combat.md#laser-tech)). La portata dei tuoi laser è quella della tua nave: la Mira sale con i tuoi colpi a segno con munizioni diverse dalle semplici x1, ma agisce solo sulle Mine (sotto).
 - **Razzi.** La Tecnica dei razzi cambia il danno di ogni razzo e la probabilità che uno sia un fallimento ([Tecnica dei razzi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Subire colpi.** La Tenacia toglie una parte a ogni colpo che subisci, l’Evasione aumenta la probabilità che un colpo diretto non faccia nulla e l’Assorbimento scudo aumenta la quota di un colpo che prendono i tuoi scudi ([Combattimento](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Massa aumenta il tuo scafo.
+- **Guarigione.** La Guarigione rende più forti le cure del tuo equipaggiamento: la riparazione del tuo Repair Drone, una Emergency Repair e il Heal Pod che sganci ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Si allena con lo scafo che le tue cure ripristinano; curare una nave in una zona sicura non conta. Il Support Rocket cura sempre la stessa quantità fissa, a qualsiasi livello, e dà comunque XP di Guarigione.
 - **Abilità.** I Riflessi accorciano il tempo di ricarica delle tue abilità e la Tattica le fa durare di più ([Abilità](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Il Sabotaggio rafforza i veleni.
 - **Mine.** Il Sabotaggio aumenta il danno di una Mine, e la Mira la lancia più veloce e più lontano ([Extra](/wiki/06-Items/Extras.md#mine)).
 - **Velocità.** La Teoria dei propulsori si aggiunge alla tua velocità, oltre ai motori e a un Afterburner ([Velocità](/wiki/03-Mechanics/Speed.md)).
 - **Raccolte.** L’Istinto aumenta la probabilità di ogni riga di bottino, come fa un Loot Luck Booster, e i due si sommano; l’Antimateria aumenta la Dark Matter che raccogli ([Carico](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radiazioni.** La Tecnica antiradiazioni riduce la dose del buco nero, dei cerchi degli escavatori, delle pulsar e dell’aura degli Unwakened ([Buco nero](/wiki/03-Mechanics/Black-Hole.md)).
-- **A casa.** L’Estrazione e la Logistica cambiano ciò che lo [Skylab](/wiki/03-Mechanics/Skylab.md) produce e contiene, l’Istinto aumenta i suoi due collettori, la Fabbricazione accorcia le fabbricazioni dell’Assemblaggio, la Scienza riempie più in fretta il Centro [ricerche](/wiki/03-Mechanics/Research.md), e il Commercio abbassa i prezzi del Negozio, alza ciò che paga quando ricompra e abbassa la caparra di un annuncio all’[Asta](/wiki/03-Mechanics/Auction.md).
+- **A casa.** L’Estrazione e la Logistica cambiano ciò che lo [Skylab](/wiki/03-Mechanics/Skylab.md) produce e contiene, l’Istinto aumenta i suoi due collettori, la Fabbricazione accorcia le fabbricazioni dell’Assemblaggio, la Scienza riempie più in fretta il Centro [ricerche](/wiki/03-Mechanics/Research.md), e il Commercio abbassa i prezzi del Negozio e i crediti e il Thulium delle fabbricazioni dell’Assemblaggio, alza ciò che il Negozio paga quando ricompra e abbassa la caparra di un annuncio all’[Asta](/wiki/03-Mechanics/Auction.md). Nella [Forgia](/wiki/06-Items/Forge.md), il Commercio abbassa i crediti e il Thulium di un passo e i crediti di un’unione ([Sali di grado](/wiki/06-Items/Forge.md#tier-up)), e la Fabbricazione abbassa l’integrità che una ridisposizione toglie a un pezzo ([Integrità e fratture](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Come si paga l’XP {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ La tabella elenca cosa paga XP, statistica per statistica. L’XP è per ogni un
 | **Evasione** (Riflessi) | Ogni attacco ostile contro di te che manca o viene schivato | 1 | 600 XP all’ora |
 | **Tattica** (Riflessi) | Ogni abilità che premi con un ostile nella portata del laser | 2 | 600 XP all’ora |
 | **Assorbimento scudo** (Tenacia) | Ogni 1 % del tuo scudo massimo consumato dai colpi nemici | 0,1 | 300 XP all’ora |
+| **Guarigione** (Massa) | Ogni 1 % dello scafo massimo di una nave che una tua cura ripristina | 0,1 | 300 XP all’ora |
 | **Tecnica antiradiazioni** (Tenacia) | Ogni secondo dentro una banda di radiazioni | 0,2 | Nessuno |
 |  | Ogni 1 % del tuo scafo massimo che le radiazioni tolgono | 1 |  |
 | **Teoria dei propulsori** (Massa) | Ogni secondo volato oltre il 80% della velocità della tua nave, il doppio sotto un Afterburner | 0,1 | Nessuno |
@@ -186,14 +190,16 @@ Un livello costa più XP del precedente, di una quota fissa, quindi i primi live
 
 ## La pagina Competenze del pilota {#the-pilot-skills-page}
 
-La pagina **Competenze del pilota** è una pagina della stazione, con una riga tutta sua nella barra laterale. È un foglio compatto di tutto l’albero: gli attributi e i cinque gruppi di competenze stanno affiancati in colonne (tre su uno schermo largo, meno su uno stretto), con una riga per statistica, il suo livello al bordo destro e una sottile barra dell’XP sotto. Una statistica che non ha ancora guadagnato XP è grigia, con un trattino al posto del livello. Fermati con il puntatore su una riga per vedere cosa fa la statistica, quale attributo la governa o quali competenze allena, il suo XP e cosa la fa crescere. Fai clic su una riga per aprire i suoi dettagli sotto la sua fila di colonne: le stesse parole, la barra dell’XP e un cursore per vedere in anteprima qualsiasi livello dal 1 all’ultimo, con una piccola tabella di ciò che la statistica cambia al livello 1, al tuo livello attuale, al livello in anteprima e all’ultimo livello. Una sola statistica è aperta alla volta; fai di nuovo clic sulla riga, usa il pulsante di chiusura o premi Esc per metterla via. La riga nella barra laterale porta un badge quando una statistica è salita di livello da quando hai aperto la pagina l’ultima volta, e una scheda della finestra dei Booster riassume ciò che le tue competenze cambiano.
+La pagina **Competenze del pilota** è una pagina della stazione, con una riga tutta sua nella barra laterale. È un foglio di tutto l’albero: gli attributi e i cinque gruppi di competenze sono **schede** affiancate (tre su uno schermo largo, meno su uno stretto; quando il foglio ha spazio per quattro colonne, le sei competenze di Combattimento stanno su due colonne dentro la loro scheda). Una competenza è una riga con un’icona su una tessera a sinistra, il suo nome e il suo livello in un **anello** al bordo destro che si riempie man mano che cresce l’XP del livello. La tessera e l’anello portano il colore dell’attributo che governa la competenza (Massa verde, Tenacia blu, Riflessi oro, Istinto viola), così l’albero si legge dai colori. Una competenza che non ha ancora guadagnato XP è grigia, con un trattino al posto del livello in un anello vuoto (Tecnica laser e Tecnica dei razzi mostrano sempre il loro). Fermati con il puntatore su una riga per vedere cosa fa la competenza, quale attributo la governa o quali competenze allena, il suo XP e cosa la fa crescere; nel frattempo si illumina l’attributo che la governa, o le competenze che allena.
+
+I dettagli di una competenza sono le stesse parole, la barra dell’XP e un cursore per vedere in anteprima qualsiasi livello dal 1 all’ultimo, con una piccola tabella di ciò che la competenza cambia al livello 1, al tuo livello attuale, al livello in anteprima e all’ultimo livello. **In una pagina abbastanza larga** (le due metà dei dettagli stanno allora una accanto all’altra) i dettagli della competenza selezionata stanno sempre in fondo alla pagina: la prima competenza del foglio finché non ne scegli un’altra, poi quella che hai scelto. Un clic seleziona, non c’è un pulsante di chiusura e Esc non li chiude. **In una pagina più stretta e nella finestra di volo** un clic su una riga apre invece i dettagli come una striscia sotto la sua fila di schede, per una sola competenza alla volta: fai di nuovo clic sulla riga, usa il pulsante di chiusura o premi Esc per metterla via. La riga nella barra laterale porta un badge quando una competenza è salita di livello da quando hai aperto la pagina l’ultima volta, e una scheda della finestra dei Booster riassume ciò che le tue competenze cambiano.
 
 In volo lo stesso foglio è la finestra **Competenze del pilota**. Aprila con il pulsante Competenze del pilota della barra degli strumenti (su uno schermo largo) o con il suo tasto, K per impostazione predefinita (Impostazioni, Comandi). È una finestra come le altre: spostala, ridimensionala, e ricorda la sua posizione e se era aperta. Mostra solo le tue competenze: i livelli avanzano man mano che arrivano le righe di XP del volo, e un clic su una riga apre gli stessi dettagli nella finestra.
 
 ## Cosa si conserva {#what-is-kept}
 
 - **Attraverso ogni reset.** L’albero è parte del tuo account: un reset non cambia alcun livello né alcuna XP, e il Deposito di trasporto non c’entra nulla ([Cosa conservi](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **Sui server regionali.** L’XP che guadagni volando su Singapore o US East viene aggiunta alle tue competenze quando torni a casa, comprese le statistiche usate lì per la prima volta, e il limite orario che hai consumato lì viene con te. La pagina Competenze del pilota di un pilota che vola lì legge i numeri del server regionale, con l’XP che la sua nave ha guadagnato dall’ultimo salvataggio.
+- **Sui server regionali.** L’XP che guadagni volando su Singapore o US East viene aggiunta alle tue competenze quando torni a casa, comprese le statistiche usate lì per la prima volta, e il limite orario che hai consumato lì viene con te. La pagina Competenze del pilota di un pilota che vola lì legge i numeri del server regionale, con l’XP che la sua nave ha guadagnato dall’ultimo salvataggio. Che cos’altro funziona su un server regionale è descritto in [Server](/wiki/03-Mechanics/Servers.md).
 - **Fino all’eliminazione dell’account.** Eliminare un account elimina i suoi livelli.
 
 I bonus non hanno altro tetto che l’ultimo livello: un pilota che ha fatto salire tutto è forte quanto dicono le tabelle.

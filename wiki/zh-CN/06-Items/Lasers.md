@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7c4b5382a5618e1a -->
+<!-- wiki-i18n source: eef162a0237c03ac -->
 <!-- wiki-i18n title: 激光 -->
 # 激光与弹药 {#lasers-ammo}
 
@@ -82,11 +82,11 @@ Quantum Laser I 和 II 自身有 1% 的暴击率：装在它们槽位中的 Dama
 
 装配站页面会把你拥有的数量与配方所需的数量对照显示，“组装”按钮则会说明你缺少什么。 把鼠标指向配方的图片或名称，或其中的某种材料，就会显示该物品的完整描述和属性。
 
-**Quantum Laser III 由一把 Quantum Laser II 制成。** Quantum Laser II 是商店里的激光（80,000 信用点），Quantum Laser III 会把它消耗掉，所以配方里的 10 个 Ship Fragment、3 块 Velkonite Reinforced Plate 和 1,500 Thulium，要加在你在商店为 Quantum Laser II 付的钱之上。规则与下面 Starfire-III 的相同：Quantum Laser III 沿用被它消耗的 Quantum Laser II 的附魔等级和加成（神圣·Quantum Laser II 制成带有相同加成的神圣·Quantum Laser III）；由你选择用哪一把 Quantum Laser II，使用高于标准等级的一把之前，配方卡片会先询问，而且 Quantum Laser II 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Quantum Laser II”。
+**Quantum Laser III 由一把 Quantum Laser II 制成。** Quantum Laser II 是商店里的激光（80,000 信用点），Quantum Laser III 会把它消耗掉，所以配方里的 10 个 Ship Fragment、3 块 Velkonite Reinforced Plate 和 1,500 Thulium，要加在你在商店为 Quantum Laser II 付的钱之上。规则与下面 Starfire-III 的相同：Quantum Laser III 沿用被它消耗的 Quantum Laser II 的附魔等级和加成（共鸣·Quantum Laser II 制成带有相同加成的共鸣·Quantum Laser III）；由你选择用哪一把 Quantum Laser II，使用高于标准等级的一把之前，配方卡片会先询问，而且 Quantum Laser II 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Quantum Laser II”。
 
-**Starfire-III 由一把 Quantum Laser III 制成。** 你要先制造 Quantum Laser III，Starfire-III 会把它消耗掉。Quantum Laser III 已经花掉的东西不会再被要求一次，所以两者合计的花费是 3,000 Thulium、100,000 信用点、25 个 Ship Fragment、11 块 Velkonite Reinforced Plate、1 块 Reinforced Hull Plate，以及 2 分钟，再加上 Quantum Laser III 所消耗的那把 Quantum Laser II。如果你已经有一把 Quantum Laser III，只需支付 Starfire-III 自己的那一部分。规则与下面 Helios Beam 的相同：Starfire-III 沿用被它消耗的 Quantum Laser III 的附魔等级和加成（神圣·Quantum Laser III 制成带有相同加成的神圣·Starfire-III）；由你选择用哪一把 Quantum Laser III，使用高于标准等级的一把之前，配方卡片会先询问，而且 Quantum Laser III 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Quantum Laser III”。
+**Starfire-III 由一把 Quantum Laser III 制成。** 你要先制造 Quantum Laser III，Starfire-III 会把它消耗掉。Quantum Laser III 已经花掉的东西不会再被要求一次，所以两者合计的花费是 3,000 Thulium、100,000 信用点、25 个 Ship Fragment、11 块 Velkonite Reinforced Plate、1 块 Reinforced Hull Plate，以及 2 分钟，再加上 Quantum Laser III 所消耗的那把 Quantum Laser II。如果你已经有一把 Quantum Laser III，只需支付 Starfire-III 自己的那一部分。规则与下面 Helios Beam 的相同：Starfire-III 沿用被它消耗的 Quantum Laser III 的附魔等级和加成（共鸣·Quantum Laser III 制成带有相同加成的共鸣·Starfire-III）；由你选择用哪一把 Quantum Laser III，使用高于标准等级的一把之前，配方卡片会先询问，而且 Quantum Laser III 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Quantum Laser III”。
 
-**Helios Beam 由一把 Starfire-III 制成。** 你要先制造 Starfire-III（连同它的 Quantum Laser III 共 3,000 Thulium 和 100,000 信用点，而 Quantum Laser III 又会消耗一把 Quantum Laser II），Helios Beam 会把它消耗掉，就像 [Master Drone](/wiki/06-Items/Drones.md) 会消耗一台 Slave Drone 一样。Starfire-III 已经花掉的东西不会再被要求一次，所以两者合计的花费是 Helios Beam 单独制造时所需的 5,000 Thulium、Cataclysite、Power Core 和 Reinforced Hull Plate，以及 18 块 Orvium 强化板而不是 20 块（Starfire-III 的十一块 Velkonite 强化板顶替了缺少的两块），另外，由于 Helios Beam 是所在升级链的最后一阶，还要 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit；此外你还要付 Starfire-III 的 100,000 信用点和 25 个 Ship Fragment，以及升级链最开头的那一把 Quantum Laser II。规则与[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)相同：Helios Beam 沿用被它消耗的 Starfire-III 的附魔等级和加成（神圣·Starfire-III 制成带有相同加成的神圣·Helios Beam）；当你持有多把 Starfire-III 时，由你选择用哪一把，使用高于标准等级的一把之前，配方卡片会先询问。Starfire-III 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Starfire-III”。
+**Helios Beam 由一把 Starfire-III 制成。** 你要先制造 Starfire-III（连同它的 Quantum Laser III 共 3,000 Thulium 和 100,000 信用点，而 Quantum Laser III 又会消耗一把 Quantum Laser II），Helios Beam 会把它消耗掉，就像 [Master Drone](/wiki/06-Items/Drones.md) 会消耗一台 Slave Drone 一样。Starfire-III 已经花掉的东西不会再被要求一次，所以两者合计的花费是 Helios Beam 单独制造时所需的 5,000 Thulium、Cataclysite、Power Core 和 Reinforced Hull Plate，以及 18 块 Orvium 强化板而不是 20 块（Starfire-III 的十一块 Velkonite 强化板顶替了缺少的两块），另外，由于 Helios Beam 是所在升级链的最后一阶，还要 4 块 Dark Matter Plate 和 1 个 Ancient Control Unit；此外你还要付 Starfire-III 的 100,000 信用点和 25 个 Ship Fragment，以及升级链最开头的那一把 Quantum Laser II。规则与[模块升级](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly)相同：Helios Beam 沿用被它消耗的 Starfire-III 的附魔等级和加成（共鸣·Starfire-III 制成带有相同加成的共鸣·Helios Beam）；当你持有多把 Starfire-III 时，由你选择用哪一把，使用高于标准等级的一把之前，配方卡片会先询问。Starfire-III 必须是未使用状态：**请先把它从你的舰船上取下**（嵌入其中的增幅器会回到你的物品栏），并把它从运输储藏库中取出。当它装在舰船上时，“组装”按钮会显示“请先取下 Starfire-III”。
 
 强化板从哪里来：
 
@@ -133,13 +133,13 @@ Ship Fragment、Cataclysite、Power Core 和 Reinforced Hull Plate 由外星人�
 | Penetration Amp III | 2,000 | 60 秒 | 30 个 Nyxite、20 个 Cataclysite、2 个 Power Core、50 个 Ship Fragment、2 块 Velkonite Reinforced Plate |
 | Penetration Amp IV | 2,400 | 90 秒 | 40 个 Quorvium、30 个 Cataclysite、1 个 Power Core、1 个 Ancient Control Unit、4 块 Dark Matter Plate |
 
-一把带有 4 个 IV 阶增幅器的 Helios Beam 含有 5 件最后一阶的部件：20 块 Dark Matter Plate、100 个 Dark Matter，平均相当于 50 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,640 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
+一把带有 4 个 IV 阶增幅器的 Helios Beam 含有 5 件最后一阶的部件：20 块 Dark Matter Plate、100 个 Dark Matter，平均相当于 50 枚 N.I.K.E. 火箭。每个槽位都是最后一阶的 Wraith 含有 1,540 个 Dark Matter（[Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md#what-the-last-tier-asks-for)）。
 
 ### 哪种增幅器装在哪里 {#which-amp-goes-where}
 
 伤害增幅器给任何激光增加的固定伤害都一样，所以装在 **Quantum 系列激光**上最划算。暴击增幅器自带少量固定伤害（5 到 20），还会用暴击率放大激光本来的输出，所以每个槽位阶数相同时，从 II 阶起它在每把激光上都胜过伤害增幅器：II 阶约领先 19%，III 阶 25%，IV 阶 30% 到 43%（Quantum 系列激光获益最多）。I 阶时两者接近：**Damage Amp I** 在 **Quantum 系列激光**上稍好，**Crit Amp I** 在 **Starfire-III** 和 **Helios Beam** 上稍好。激光的暴击率上限是 100%：三个 Crit Amp III 能把本身有 20% 的 Helios Beam 推到 95%，三个 Crit Amp IV 则是 110%，多出的 10 个百分点用不上。Penetration Amp 既不增加伤害也不增加暴击率：它是给那些护盾本会承受你大部分命中的舰船用的（[见下文](#when-is-a-penetration-amp-worth-a-slot)）。
 
-装上同样的增幅器时，一把激光总是比低一级的那把更强，所以更好的增幅器只能弥补更好激光的一部分：装了三个 Damage Amp IV 的 Quantum Laser III，输出高于装了三个 Damage Amp I 的 Helios Beam，但低于装了三个 Damage Amp III 的 Helios Beam，而且锻造也无法弥补这个差距（锻造到永恒的 Quantum Laser III 和 Damage Amp IV，即使随机到最佳数值，也仍略低于装着 Damage Amp III 的普通 Helios Beam）。
+装上同样的增幅器时，一把激光总是比低一级的那把更强，所以更好的增幅器只能弥补更好激光的一部分：装了三个 Damage Amp IV 的 Quantum Laser III，输出高于装了三个 Damage Amp I 的 Helios Beam，但低于装了三个 Damage Amp III 的 Helios Beam，而且锻造也无法弥补这个差距（锻造到升华的 Quantum Laser III 和 Damage Amp IV，即使随机到最佳数值，也仍略低于装着 Damage Amp III 的普通 Helios Beam）。
 
 
 ---
@@ -194,10 +194,10 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 每一次激光命中都会从目标的吸收率中扣除点数，来源最多三个，彼此相加：你的**弹药**（Ultra Core 5%，Experimental Fusion Core 10%，Antimatter Battery 20%）、你的 **Penetration Amp**，以及**无人机编队**（Gemini +15%；[无人机编队](/wiki/03-Mechanics/Formations.md)）。**总和没有上限**（直接火箭也以同样的方式把自己的穿透和编队的穿透相加：[火箭](/wiki/06-Items/Rockets.md)）。然后护盾承受目标吸收率减去该次命中穿透后的份额，船体承受其余部分（[护盾机制](/wiki/03-Mechanics/Shields.md#shield-penetration)）。
 
-- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把三槽激光上三个 Penetration Amp IV 是 60%（每把 Helios Beam 上四个是 80%）；十四把激光里只有一把装一个 Penetration Amp IV 约是 1.4%。Wraith 有 14 个激光槽位，所以三槽激光对应 42 个增幅槽位，Helios Beam 对应 56 个，要凑到 60%（Helios Beam 为 80%）必须把它们全部装满。
+- **你的增幅器按你所有激光的平均值计算。** 一次齐射就是一次命中，所以游戏会把每把激光上增幅器的穿透相加（无人机里的激光也计入），再对你所有的激光取平均，每把按其伤害加权，和暴击率的算法一样。每把三槽激光上三个 Penetration Amp IV 是 60%（每把 Helios Beam 上四个是 80%）；十三把激光里只有一把装一个 Penetration Amp IV 约是 1.5%。Wraith 有 13 个激光槽位，所以三槽激光对应 39 个增幅槽位，Helios Beam 对应 52 个，要凑到 60%（Helios Beam 为 80%）必须把它们全部装满。
 - **机库会显示它。** 机库的战斗属性中，每艘飞船都有一个显示所示配置的激光增幅器数值的**穿透**图块（没有 Penetration Amp 时为 0.0%）；弹药和编队不计入其中。飞行中的**舰船**窗口在下方一行的末尾有一个**穿透**标签（为腾出位置，配置和速度标签只显示一个图标和一个数字），显示激光命中的总穿透：你的增幅器、所穿戴的编队和所用的弹药相加，一换就更新，它的悬停提示会列出这三部分。
 - **最强的激光用 x4 是 85%，用 Antimatter 是 95%（每把激光上装三个增幅器）。** Experimental Fusion Core（10%）、Gemini（15%）和每把激光上三个 Penetration Amp IV（60%）加起来是 85%；换成一块 Antimatter Battery（20%）则是 95%，伤害为 x3 而不是 x4。Helios Beam 有第四个槽位：每把 Helios Beam 上装四个 Penetration Amp IV，加上 Fusion Core 和 Gemini，是 105%，比任何护盾能给出的都多。
-- **Penetration Amp IV 上的锻造加成会计入。** Penetration Amp 和其他增幅器一样可以锻造，它唯一的一条加成会成倍提高穿透：一条永恒级加成（+9% 至 +15%）会让 Penetration Amp IV 达到 21.8 至 23 点，而不是 20 点。在最强的配置里，三个永恒级的加起来是 94%，每一点都会计入。
+- **Penetration Amp IV 上的锻造加成会计入。** Penetration Amp 和其他增幅器一样可以锻造，它唯一的一条加成会成倍提高穿透：一条升华级加成（+9% 至 +15%）会让 Penetration Amp IV 达到 21.8 至 23 点，而不是 20 点。在最强的配置里，三个升华级的加起来是 94%，每一点都会计入。
 
 | 激光齐射 | 弹药 | 增幅器（3 个槽位） | 编队 | 合计 |
 |---|---|---|---|---|
@@ -219,8 +219,8 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 | Light Shield Core + Absorption Shield Cell IV（57%） | 57 / 43 | 47 / 53 | 32 / 68 | 0 / 100 | 0 / 100 |
 | Heavy Shield Core + 3 个 Capacity Shield Cell IV（73%） | 73 / 27 | 63 / 37 | 48 / 52 | 3 / 97 | 0 / 100 |
 | 出厂最好的护盾（91%） | 91 / 9 | 81 / 19 | 66 / 34 | 21 / 79 | 6 / 94 |
-| 最好的护盾，永恒锻造（最高掷值）加 44 级赛季商店（109%） | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
-| 最好的护盾，永恒锻造（最高掷值）加赛季商店上限（114.7%） | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
+| 最好的护盾，升华锻造（最高掷值）加 44 级赛季商店（109%） | 100 / 0 | 99 / 1 | 84 / 16 | 39 / 61 | 24 / 76 |
+| 最好的护盾，升华锻造（最高掷值）加赛季商店上限（114.7%） | 100 / 0 | 100 / 0 | 90 / 10 | 45 / 55 | 30 / 70 |
 | 任何外星人（80%） | 80 / 20 | 70 / 30 | 55 / 45 | 10 / 90 | 0 / 100 |
 
 最强的激光会打空每一种护盾核心，不管配最好的电池还是不配，带三个 Capacity 电池的 Heavy Shield Core 也一样（船体承受整次命中）；最好的护盾保留每次命中的 6%（有加成时是 24%）。单独的火箭永远打不空护盾（最高 35%），但 Lancet III 或 Rivet III 配上 Stiletto（70%）就能打空。
@@ -231,4 +231,4 @@ Siphon Battery 是用来偷取护盾而不是打穿船体的弹药。它对**目
 
 - **它不提供伤害。** 在 Helios Beam 上，三个 Penetration Amp IV 每次齐射只有 158 点伤害（弹药 x1，随机波动和暴击的平均值），而三个 Damage Amp IV 是 319，三个 Crit Amp IV 是 416：前者的一半，后者的三分之一多一点。它夺回的是护盾的份额，所以在船体相对护盾较小、吸收率较高的时候最划算；面对出厂最好护盾的 Wraith 或 Ironclad，它们庞大的船体撑得更久，最多多出 20%，而护盾被加成提到 100% 以上的 Ironclad，仍然最适合用普通的 Crit 组合来对付。
 - **外星人。** 它们的护盾承受命中的 80% 减去你的穿透，而最好的激光（85%）能把它们整个穿透，所以对它们也有效：面对 Phantasm 或 Goombah，装备 Gemini 时 Penetration Amp 在最佳配置里（收益约 10%）。面对 Seeker、Bulwark 或 Crystalys，同阶的 Crit Amp 组合杀起来一样快或更快。
-- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 56 个槽位的 Wraith 需要 224 块板，共 1,120 个 Dark Matter。
+- **代价。** 每个 Penetration Amp IV 需要 4 块 Dark Matter Plate（20 个 Dark Matter），每个 IV 阶增幅器都一样，所以装满 52 个槽位的 Wraith 需要 208 块板，共 1,040 个 Dark Matter。

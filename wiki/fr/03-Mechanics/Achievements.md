@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd9c581d9c3cc64d -->
+<!-- wiki-i18n source: 56ff9739379ad0a6 -->
 <!-- wiki-i18n title: Succès -->
 # Succès {#achievements}
 
@@ -77,7 +77,7 @@ Les 45 succès qui ne sont pas cachés, par groupe. Quand un objectif compte que
 | Bâtisseur de station | Construisez 5 modules différents du Skylab. | Commun |
 | Pleinement équipé | Construisez les 16 modules du Skylab. | Épique |
 | Érudit | Recherchez 50 technologies. | Peu commun |
-| Archiviste | Recherchez les 187 technologies. | Légendaire |
+| Archiviste | Recherchez les 209 technologies. | Légendaire |
 
 ### Flotte {#group-fleet}
 
@@ -138,7 +138,7 @@ Dans la **version Steam**, vous pouvez lier votre compte du jeu à votre compte 
 - **Un pour un.** Un compte du jeu détient au plus un compte Steam, et un compte Steam se lie à un seul compte du jeu. Si un compte Steam est déjà lié à un autre pilote, le jeu vous le dit et ne lie rien. Un administrateur peut déplacer un lien à la main quand deux comptes revendiquent le même compte Steam.
 - **Ce que garde le serveur**, c’est votre identifiant Steam, le numéro public de votre compte Steam, et le moment de la liaison. Il ne garde rien d’autre de Steam : ni votre nom Steam, ni vos amis, ni vos jeux, ni votre mot de passe. Seuls vous et les administrateurs du jeu pouvez voir cet identifiant ; les autres pilotes, jamais.
 - **Déliez-le** sur la même carte, avec votre mot de passe : l’identifiant Steam enregistré est supprimé aussitôt. Après une déliaison, vous ne pouvez lier un autre compte Steam qu’au bout de 24 heures ; relier le même compte fonctionne tout de suite. Pendant ces 24 heures, le serveur garde une courte note de la déliaison (l’heure, et un code brouillé fabriqué à partir de l’identifiant, seulement pour savoir si vous reliez le même compte) puis la supprime.
-- **Les succès arrivent sur Steam dès que vous les obtenez**, tant que le compte Steam en cours est celui que vous avez lié : Steam affiche son propre pop-up quelques secondes après celui du jeu. À chaque connexion, le jeu vérifie aussi ce qui manque à Steam et le valide ; un succès obtenu dans un téléchargement direct, ou pendant que Steam était fermé, arrive donc à ce moment-là, et une tentative qui échoue est refaite d’elle-même. Pendant que vous volez sur un autre serveur (un nœud régional), rien n’y est gagné ni envoyé ; de retour à la station, le jeu rattrape le retard. Hors ligne, rien n’est perdu : le jeu garde l’enregistrement et Steam l’apprend plus tard.
+- **Les succès arrivent sur Steam dès que vous les obtenez**, tant que le compte Steam en cours est celui que vous avez lié : Steam affiche son propre pop-up quelques secondes après celui du jeu. À chaque connexion, le jeu vérifie aussi ce qui manque à Steam et le valide ; un succès obtenu dans un téléchargement direct, ou pendant que Steam était fermé, arrive donc à ce moment-là, et une tentative qui échoue est refaite d’elle-même. Pendant que vous volez sur un autre serveur (un nœud régional), rien n’y est débloqué ni envoyé à Steam, les ennemis que vous y détruisez comptent pour les succès de destruction quand le serveur d’origine enregistre le vol (une destruction partagée avec votre groupe ne compte là-bas que pour le pilote qui la réalise, et non pour les autres membres du groupe, contrairement au serveur d’origine), et de retour à la station le jeu rattrape le reste. Hors ligne, rien n’est perdu : le jeu garde l’enregistrement et Steam l’apprend plus tard. Ce qui fonctionne d’autre sur un serveur régional est décrit dans [Serveurs](/wiki/03-Mechanics/Servers.md).
 - Les crédits et les titres d’un succès viennent de l’enregistrement du serveur du jeu, jamais de Steam.
 
 ## Depuis quand on compte {#when-counting-began}

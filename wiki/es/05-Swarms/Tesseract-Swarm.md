@@ -80,6 +80,7 @@ Base: Crystalys, con 625 % del casco; no tiene arma, y su escudo y su velocidad
 | Power Core | 66 % | 4–7 |
 | Ancient Control Unit | 100 % | 1–4 |
 | Dark Matter | 100 % | 10–20, como máximo 5 por piloto |
+| Heartshard | 5 % | 1 |
 
 ### Facet
 

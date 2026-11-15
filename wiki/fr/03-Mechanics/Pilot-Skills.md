@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Aptitudes de pilote -->
 # Aptitudes de pilote {#pilot-skills}
 
@@ -15,7 +15,7 @@ Un nouveau pilote n’est pas à pleine puissance. Au niveau 1, un laser et une 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Statistiques** : 19 statistiques : 4 attributs et 15 aptitudes en 5 groupes
+- **Statistiques** : 20 statistiques : 4 attributs et 16 aptitudes en 5 groupes
 - **Niveaux** : De 1 à 100. Chaque pilote commence chaque statistique au niveau 1, et il n’y a rien à dépenser ni à réinitialiser
 - **Coût d’un niveau** : 40 XP du niveau 1 au 2, 875 XP du niveau 50 au 51, 19 157 XP du niveau 99 au 100 ; 313 258 XP en tout
 - **Ce que donne un niveau** : Un bonus croît en ligne droite de sa valeur au niveau 1 à sa valeur au niveau 100. Rien n’est plafonné
@@ -77,6 +77,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | **Esquive** (Réflexes) | Chance d’esquiver un coup, ajoutée à celle du vaisseau | 0 % | 15 % |
 | **Tactique** (Réflexes) | Durée des compétences | ×1 | ×1,2 |
 | **Absorption du bouclier** (Ténacité) | Absorption de vos boucliers | +0 points | +5 points |
+| **Soins** (Masse) | Force de vos propres réparations et soins | ×1 | ×1,3 |
 
 ### Pilotage {#ship-control}
 
@@ -93,12 +94,13 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | **Extraction** (Instinct) | Ce que produit le Skylab | ×1 | ×1,3 |
 | **Logistique** (Masse) | Ce que contient la banque de l’Entrepôt de ressources | ×1 | ×1,4 |
 | **Fabrication** (Réflexes) | Durée d’une fabrication | ×1 | ×0,65 |
+|  | Coût d’intégrité d’un réagencement | ×1 | ×0,7 |
 
 ### Commerce {#trading}
 
 | Statistique | Ce qu’elle change | Niveau 1 | Niveau 100 |
 | :--- | :--- | ---: | ---: |
-| **Commerce** (Instinct) | Prix de la boutique | ×1 | ×0,85 |
+| **Commerce** (Instinct) | Prix de la boutique, et crédits et Thulium d’une fabrication ou de la Forge | ×1 | ×0,85 |
 |  | Ce que paie la boutique au rachat | ×1 | ×1,1 |
 |  | Caution d’une annonce aux Enchères | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 - **Lasers.** La Technique laser change les dégâts de chaque salve et sa chance de toucher ; une salve qui part à côté affiche un « Miss » flottant et consomme quand même ses munitions ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). La portée de vos lasers est celle de votre vaisseau : la Précision de tir progresse grâce à vos coups portés avec une autre munition que le x1 simple, mais elle n’agit que sur les Mines (ci-dessous).
 - **Roquettes.** La Technique des roquettes change les dégâts de chaque roquette et la chance qu’une soit un raté ([Technique des roquettes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, l’Esquive augmente la chance qu’un coup direct ne fasse rien, et l’Absorption du bouclier augmente la part d’un coup que prennent vos boucliers ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
+- **Soins.** Les Soins renforcent les soins de votre propre équipement : la réparation de votre Repair Drone, une Emergency Repair et le Heal Pod que vous larguez ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ils s’entraînent avec la coque que vos soins restaurent ; soigner un vaisseau dans une zone sûre ne compte pas. Le Support Rocket soigne toujours la même quantité fixe, quel que soit le niveau, et paie quand même de l’XP de Soins.
 - **Compétences.** Les Réflexes raccourcissent le temps de recharge de vos compétences et la Tactique les fait durer plus longtemps ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Le Sabotage renforce les poisons.
 - **Mines.** Le Sabotage augmente les dégâts d’une Mine, et la Précision de tir la lance plus vite et plus loin ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Vitesse.** La Théorie des propulseurs s’ajoute à votre vitesse, en plus des moteurs et d’un Afterburner ([Vitesse](/wiki/03-Mechanics/Speed.md)).
 - **Ramassages.** L’Instinct augmente la chance de chaque ligne de butin, comme le fait un Loot Luck Booster, et les deux s’additionnent ; l’Antimatière augmente la Dark Matter que vous ramassez ([Cargaison](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radiations.** La Technique anti-radiations réduit la dose du trou noir, des cercles des excavateurs, des pulsars et de l’aura des Unwakened ([Trou noir](/wiki/03-Mechanics/Black-Hole.md)).
-- **À la maison.** L’Extraction et la Logistique changent ce que le [Skylab](/wiki/03-Mechanics/Skylab.md) produit et contient, l’Instinct augmente ses deux collecteurs, la Fabrication raccourcit les fabrications de l’Assemblage, la Science remplit plus vite le Centre de [recherche](/wiki/03-Mechanics/Research.md), et le Commerce baisse les prix de la boutique, augmente ce qu’elle paie au rachat et baisse la caution d’une annonce aux [Enchères](/wiki/03-Mechanics/Auction.md).
+- **À la maison.** L’Extraction et la Logistique changent ce que le [Skylab](/wiki/03-Mechanics/Skylab.md) produit et contient, l’Instinct augmente ses deux collecteurs, la Fabrication raccourcit les fabrications de l’Assemblage, la Science remplit plus vite le Centre de [recherche](/wiki/03-Mechanics/Research.md), et le Commerce baisse les prix de la boutique ainsi que les crédits et le Thulium des fabrications de l’Assemblage, augmente ce que la boutique paie au rachat et baisse la caution d’une annonce aux [Enchères](/wiki/03-Mechanics/Auction.md). Dans la [Forge](/wiki/06-Items/Forge.md), le Commerce baisse les crédits et le Thulium d’une étape et les crédits d’une fusion ([Monter de rang](/wiki/06-Items/Forge.md#tier-up)), et la Fabrication baisse l’intégrité qu’un réagencement retire à une pièce ([Intégrité et fractures](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Comment l’XP est payée {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ Le tableau liste ce qui paie de l’XP, statistique par statistique. L’XP vaut
 | **Esquive** (Réflexes) | Chaque attaque hostile contre vous qui rate ou est esquivée | 1 | 600 XP par heure |
 | **Tactique** (Réflexes) | Chaque compétence que vous activez avec un hostile à portée du laser | 2 | 600 XP par heure |
 | **Absorption du bouclier** (Ténacité) | Chaque 1 % de votre bouclier maximal pris par les tirs ennemis | 0,1 | 300 XP par heure |
+| **Soins** (Masse) | Chaque 1 % de la coque maximale d’un vaisseau que restaure un soin de votre part | 0,1 | 300 XP par heure |
 | **Technique anti-radiations** (Ténacité) | Chaque seconde dans une bande de radiation | 0,2 | Aucun |
 |  | Chaque 1 % de votre coque maximale que prend la radiation | 1 |  |
 | **Théorie des propulseurs** (Masse) | Chaque seconde de vol au-dessus de 80 % de la vitesse de votre vaisseau, le double sous un Afterburner | 0,1 | Aucun |
@@ -186,14 +190,16 @@ Un niveau coûte plus d’XP que le précédent, d’une part fixe, si bien que 
 
 ## La page Aptitudes de pilote {#the-pilot-skills-page}
 
-La page **Aptitudes de pilote** est une page de la station, avec sa propre ligne dans la barre latérale. C’est une feuille compacte de tout l’arbre : les attributs et les cinq groupes d’aptitudes se tiennent côte à côte en colonnes (trois sur un écran large, moins sur un écran étroit), avec une ligne par statistique, son niveau au bord droit et une fine barre d’XP dessous. Une statistique qui n’a pas encore gagné d’XP est grise, avec un tiret pour niveau. Posez le pointeur sur une ligne pour voir ce que fait la statistique, quel attribut la régit ou quelles aptitudes elle entraîne, son XP et ce qui la fait croître. Cliquez sur une ligne pour ouvrir ses détails sous sa rangée de colonnes : les mêmes mots, la barre d’XP et un curseur pour prévisualiser n’importe quel niveau, du 1 au dernier, avec un petit tableau de ce que la statistique change au niveau 1, à votre niveau actuel, au niveau prévisualisé et au dernier niveau. Une seule statistique est ouverte à la fois ; cliquez de nouveau sur la ligne, utilisez le bouton de fermeture ou appuyez sur Échap pour la ranger. La ligne de la barre latérale porte un badge quand une statistique est montée de niveau depuis votre dernière ouverture de la page, et une carte de la fenêtre des Boosters résume ce que vos aptitudes changent.
+La page **Aptitudes de pilote** est une page de la station, avec sa propre ligne dans la barre latérale. C’est une feuille de tout l’arbre : les attributs et les cinq groupes d’aptitudes sont des **cartes** posées côte à côte (trois sur un écran large, moins sur un écran étroit ; quand la feuille a la place pour quatre colonnes, les six aptitudes de Combat se rangent sur deux colonnes dans leur carte). Une aptitude est une ligne avec un pictogramme sur une pastille à gauche, son nom, et son niveau dans un **anneau** au bord droit qui se remplit à mesure que l’XP du niveau monte. La pastille et l’anneau portent la couleur de l’attribut qui régit l’aptitude (Masse vert, Ténacité bleu, Réflexes or, Instinct violet), de sorte que l’arbre se lit à ses couleurs. Une aptitude qui n’a pas encore gagné d’XP est grise, avec un tiret pour niveau dans un anneau vide (Technique laser et Technique des roquettes montrent toujours le leur). Posez le pointeur sur une ligne pour voir ce que fait l’aptitude, quel attribut la régit ou quelles aptitudes il entraîne, son XP et ce qui la fait croître ; l’attribut qui la régit, ou les aptitudes qu’il entraîne, s’éclairent pendant ce temps.
+
+Les détails d’une aptitude sont les mêmes mots, la barre d’XP et un curseur pour prévisualiser n’importe quel niveau, du 1 au dernier, avec un petit tableau de ce que l’aptitude change au niveau 1, à votre niveau actuel, au niveau prévisualisé et au dernier niveau. **Sur une page assez large** (les deux moitiés des détails se placent alors côte à côte), les détails de l’aptitude sélectionnée sont toujours au pied de la page : la première aptitude de la feuille jusqu’à ce que vous en cliquiez une autre, puis celle que vous avez cliquée. Un clic sélectionne, il n’y a pas de bouton de fermeture, et Échap ne les ferme pas. **Sur une page plus étroite et dans la fenêtre de vol**, un clic sur une ligne ouvre les détails sous la forme d’une bande sous sa rangée de cartes, pour une seule aptitude à la fois : cliquez de nouveau sur la ligne, utilisez le bouton de fermeture ou appuyez sur Échap pour la ranger. La ligne de la barre latérale porte un badge quand une aptitude est montée de niveau depuis votre dernière ouverture de la page, et une carte de la fenêtre des Boosters résume ce que vos aptitudes changent.
 
 En vol, la même feuille est la fenêtre **Aptitudes de pilote**. Ouvrez-la avec le bouton Aptitudes de pilote de la barre d’outils (sur un écran large) ou avec sa touche, K par défaut (Paramètres, Commandes). C’est une fenêtre comme les autres : déplacez-la, redimensionnez-la, et elle se souvient de sa place et de son état ouvert. Elle ne fait que montrer vos aptitudes : les niveaux avancent à mesure que les lignes d’XP du vol arrivent, et un clic sur une ligne ouvre les mêmes détails dans la fenêtre.
 
 ## Ce qui est conservé {#what-is-kept}
 
 - **À travers chaque réinitialisation.** L’arbre fait partie de votre compte : une réinitialisation ne change aucun niveau ni aucune XP, et le Cache de transport n’y est pour rien ([Ce que vous conservez](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **Sur les serveurs régionaux.** L’XP que vous gagnez en volant à Singapore ou US East est ajoutée à vos aptitudes à votre retour, y compris pour une statistique utilisée là-bas pour la première fois, et le plafond horaire que vous y avez épuisé vous suit. La page Aptitudes de pilote d’un pilote qui vole là-bas lit les chiffres du serveur régional, avec l’XP que son vaisseau a gagnée depuis sa dernière sauvegarde.
+- **Sur les serveurs régionaux.** L’XP que vous gagnez en volant à Singapore ou US East est ajoutée à vos aptitudes à votre retour, y compris pour une statistique utilisée là-bas pour la première fois, et le plafond horaire que vous y avez épuisé vous suit. La page Aptitudes de pilote d’un pilote qui vole là-bas lit les chiffres du serveur régional, avec l’XP que son vaisseau a gagnée depuis sa dernière sauvegarde. Ce qui fonctionne d’autre sur un serveur régional est décrit dans [Serveurs](/wiki/03-Mechanics/Servers.md).
 - **Jusqu’à la suppression du compte.** Supprimer un compte supprime ses niveaux.
 
 Les bonus n’ont pas d’autre plafond que le dernier niveau : un pilote qui a tout fait monter est aussi fort que le disent les tableaux.

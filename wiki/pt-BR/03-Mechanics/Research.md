@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 314633d7fdaa8d6f -->
+<!-- wiki-i18n source: 0c9164c462c27a1a -->
 <!-- wiki-i18n title: Pesquisa -->
 # Pesquisa {#research}
 
@@ -21,7 +21,7 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 - **O tanque.** O Centro guarda a ciência em um tanque que, no nível 1, comporta 12 h de pesquisa e, a cada nível, 25% a mais (veja a tabela abaixo).
 - **Do combustível à ciência.** Um recurso que você coloca vira ciência na hora, como mostra a tabela de combustível. Uma pesquisa queima 1 de ciência por segundo do seu tempo de pesquisa; com o tanque vazio ela espera, e continua quando você alimenta o Centro.
 - **Uma primeira hora de graça.** Um Centro novo começa com 3.600 de ciência no tanque, ou seja, 1 h de pesquisa.
-- **Uma de cada vez.** O Centro pesquisa uma tecnologia por vez, mas com o botão Pôr na fila você pode deixar até 5 a mais atrás dela. Cada uma começa sozinha assim que a anterior termina, mesmo com você fora. Pôr na fila não custa nada: a tecnologia usa a Dark Matter quando começa, e uma que está na fila pode ser tirada de novo de graça.
+- **Uma de cada vez.** O Centro pesquisa uma tecnologia por vez, mas com o botão Pôr na fila você pode deixar até 5 a mais atrás dela. Cada uma começa sozinha assim que a anterior termina, mesmo com você fora. Pôr na fila não custa nada: a tecnologia usa a Dark Matter quando começa, e uma que está na fila pode ser tirada de novo de graça. Você pode mudar a ordem das que esperam com as setas das linhas delas no cartão da fila: para o topo, uma posição acima, uma posição abaixo. A pesquisa em andamento nunca se move, e uma ordem que colocaria uma tecnologia antes de outra de que ela precisa é recusada.
 - **Enquanto você está fora.** Uma pesquisa corre no relógio do servidor, então continua depois que você sai, até terminar ou o tanque esvaziar. Um déficit de energia ou uma melhoria do Centro não a interrompe.
 - **Energia.** O Centro consome 25 no nível 1 e, a cada nível, 15% a mais, e não pode ser desligado.
 - **O reset mantém tudo:** suas tecnologias, a ciência do tanque, a Dark Matter inserida, uma pesquisa em andamento e o boost.
@@ -30,7 +30,7 @@ Esta página reúne a árvore de tecnologias completa com o tempo de cada uma, a
 
 <!-- research-centre:end -->
 
-**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) tira 24 horas da pesquisa em andamento: se restarem 24 horas ou menos, ela é concluída na hora, e uma mais longa perde 24 horas e continua (167 das 187 tecnologias levam 24 horas ou menos, então um só as conclui desde o começo; as outras 20 precisam de 2 a 10). O que a pesquisa custou foi pago no início e não volta, a ciência que o tempo pulado teria queimado fica no seu tanque e, quando a pesquisa é concluída, a próxima tecnologia da sua fila começa na hora.
+**Schematics.** Um [Schematics](/wiki/06-Items/Special-Items.md#schematics) tira 24 horas da pesquisa em andamento: se restarem 24 horas ou menos, ela é concluída na hora, e uma mais longa perde 24 horas e continua (187 das 209 tecnologias levam 24 horas ou menos, então um só as conclui desde o começo; as outras 22 precisam de 2 a 10). O que a pesquisa custou foi pago no início e não volta, a ciência que o tempo pulado teria queimado fica no seu tanque e, quando a pesquisa é concluída, a próxima tecnologia da sua fila começa na hora.
 
 **Os amplificadores de laser e o último nível.** Os Damage, Crit e Penetration Amps dos níveis II a IV são pesquisados como todo o resto que se cria. Os pilotos que tinham ou haviam enfileirado amps quando as linhas de amps chegaram receberam a tecnologia de cada um deles e a dos níveis abaixo. Treze tecnologias exigem uma tecnologia de outra árvore, a da Dark Matter Plate, da árvore Recursos, porque o último nível de cada cadeia de melhoria pede quatro plates e uma Ancient Control Unit: os Damage, Crit e Penetration Amps do nível IV, as Absorption e Capacity Shield Cells do nível IV, os Impulse e Momentum Thrusters do nível IV, o Heavy Shield Core, o Engine III, o Adaptive Core III, o Helios Beam, o Extra Slots CPU III e o Base CPU II. Quem pesquisou uma delas antes a mantém, e precisa da tecnologia da plate para fazer as plates dela. A árvore abaixo não traça seta para ela, mas a tabela a lista e o cartão no jogo a nomeia ([Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -58,7 +58,7 @@ Na visão **Pesquisa** do seu Skylab, uma tecnologia diz mais do que uma caixa d
 
 ## Combustível {#fuel}
 
-Você alimenta o Centro com recursos, e cada unidade vira ciência na hora. Quanto mais trabalho dá obter uma unidade, mais ciência ela rende: os valores seguem a dificuldade de obtê-la, não a etiqueta de raridade. Os minérios são a exceção: uma unidade rende mais ciência do que os segundos que um coletor leva para extraí-la, então uma hora do minério de um coletor no meio dos seus níveis alimenta cerca de duas horas de pesquisa. Os minérios vêm do Depósito de recursos do seu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); qualquer outro recurso vem do seu inventário, e a sua nave precisa estar pousada. A Velkonite Reinforced Plate, a Orvium Reinforced Plate, a Dark Matter Plate, o Dark Matter, os créditos e o Thulium não podem ser queimados; a Reinforced Hull Plate pode. O Velkonite e o Orvium que as caixas de uma escavadeira deixam no seu inventário chegam ao Depósito de recursos pela [Baía de minério](/wiki/03-Mechanics/Skylab.md#ore-bay).
+Você alimenta o Centro com recursos, e cada unidade vira ciência na hora. Quanto mais trabalho dá obter uma unidade, mais ciência ela rende: os valores seguem a dificuldade de obtê-la, não a etiqueta de raridade. Os minérios são a exceção: uma unidade rende mais ciência do que os segundos que um coletor leva para extraí-la, então uma hora do minério de um coletor no meio dos seus níveis alimenta cerca de duas horas de pesquisa. Os minérios vêm do Depósito de recursos do seu [Skylab](/wiki/03-Mechanics/Skylab.md#resource-storage); qualquer outro recurso vem do seu inventário, e a sua nave precisa estar pousada. A Velkonite Reinforced Plate, a Orvium Reinforced Plate, a Dark Matter Plate, o Dark Matter, os créditos e o Thulium não podem ser queimados; a Reinforced Hull Plate pode. O Velkonite e o Orvium que as caixas de uma escavadeira deixam no seu inventário chegam ao Depósito de recursos pela [Baía de minério](/wiki/03-Mechanics/Skylab.md#ore-bay). Abaixo dos botões +1, +10 e Máx. de cada combustível há um campo numérico: digite o número exato de unidades e pressione Abastecer ou Enter. O Centro recebe no máximo o que você tem, até onde o tanque tiver espaço, e o campo avisa quando o seu número é maior.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -119,13 +119,13 @@ As tecnologias do topo da árvore exigem também Dark Matter. Ela vem do [buraco
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- **10 Dark Matter** para cada uma das 17 tecnologias da tabela abaixo, além da ciência: insira-a no Centro de Pesquisa (do seu inventário, com a nave pousada) antes de começar, e a pesquisa a leva quando começa.
+- **10 Dark Matter** para cada uma das 22 tecnologias da tabela abaixo, além da ciência: insira-a no Centro de Pesquisa (do seu inventário, com a nave pousada) antes de começar, e a pesquisa a leva quando começa.
 - **A regra:** um item de raridade Épico ou superior cuja pesquisa leva 10 h ou mais. A N.I.K.E., com a qual a Dark Matter é obtida, nunca precisa dela.
 - **As formações de drones** ficam fora da regra: toda pesquisa de formação pede Dark Matter, 5, 13 ou 20 conforme a força, como a tabela mostra.
 - **A blindagem de casco** também fica fora da regra: suas duas pesquisas pedem mais, 25 de Dark Matter por um dia de pesquisa e 40 por dois dias, como a tabela mostra.
 - **Se você cancelar uma pesquisa,** a Dark Matter inserida para ela volta ao Centro. O progresso e a ciência já queimada, não.
 - **Uma fila inteira.** Pôr na fila não custa nada, e cada tecnologia na fila usa a sua Dark Matter quando começa; por isso insira de uma vez a Dark Matter de toda a fila. O botão Adicionar enche o Centro até o que as tecnologias da fila usam no total (e a tecnologia escolhida, se ainda não estiver na fila), não importa quanto a primeira precise, e cada tecnologia da fila mostra se a Dark Matter do Centro a cobre. Uma fila parada por falta de Dark Matter começa sozinha no momento em que você adiciona o que faltava.
-- Todas juntas pedem 424 Dark Matter.
+- Todas juntas pedem 474 Dark Matter.
 
 | Tecnologia | Raridade | Tempo de pesquisa | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -164,6 +164,11 @@ As tecnologias do topo da árvore exigem também Dark Matter. Ela vem do [buraco
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Raro | 1 d | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Épico | 2 d | 40 |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Mítico | 1 d | 10 |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | Raro | 1 d | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | Raro | 1 d | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | Épico | 1 d | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | Épico | 2 d | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | Mítico | 2 d | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -225,10 +230,10 @@ Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 18
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 1 Laser Optics I, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
@@ -258,6 +263,16 @@ Paragon | ship, rare | craft 1500 Thulium, 900 s | research 21600 s, 21600 scien
 Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
 Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Storm.md
 Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
+Miyuki | ship, rare | craft 6000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 160 Ship Fragment, 25 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Miyuki.md
+Miyuki II | ship, rare | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki III | ship, epic | craft 35000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki IV | ship, epic | craft 50000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki V | ship, mythical | craft 75000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+
+Paragon => Ironclad
+Paragon => Storm
+Paragon => Wraith
+Paragon => Miyuki => Miyuki II => Miyuki III => Miyuki IV => Miyuki V
 ```
 
 ### Recursos {#tree-resources}
@@ -288,9 +303,9 @@ Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s,
 Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 172800 s, 172800 science | 300 Ship Fragment, 50 Reinforced Hull Plate, 30 Power Core, 5 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 1 Rocket Launcher II, 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1 Rocket Launcher III, 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 1 Rocket Launcher IV, 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
 Lancet III => Freeze Rocket
@@ -482,9 +497,9 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 | [Hull Plating Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 h | 10.800 | – |
 | [Master Drone](/wiki/06-Items/Drones.md#available-drones) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 h | 36.000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 h | 21.600 | – |
-| [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 d | 86.400 | 10 |
-| [Storm](/wiki/02-Ships/Storm.md) | – | D | 1 d | 86.400 | 10 |
-| [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2 d | 172.800 | 10 |
+| [Ironclad](/wiki/02-Ships/Ironclad.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 d | 86.400 | 10 |
+| [Storm](/wiki/02-Ships/Storm.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 d | 86.400 | 10 |
+| [Wraith](/wiki/02-Ships/Wraith.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 2 d | 172.800 | 10 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1 d | 86.400 | 10 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3 h | 10.800 | – |
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | D | 1 d | 86.400 | 10 |
@@ -562,6 +577,11 @@ A família Piloto da visão de Pesquisa tem tecnologias que não são fabricaç�
 | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 h | 36.000 | – |
 | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 h | 57.600 | – |
 | [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 d | 86.400 | – |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 d | 86.400 | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki](/wiki/02-Ships/Miyuki.md) | D | 1 d | 86.400 | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 d | 86.400 | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 d | 172.800 | 10 |
 
 As classes, por tempo de pesquisa:
 
@@ -570,10 +590,10 @@ As classes, por tempo de pesquisa:
 | A | 30 min a 1 h | 17 | 9 h 30 min | 34.200 | 0 |
 | B | 3 h a 6 h | 37 | 5 d 20 h | 504.000 | 0 |
 | C | 8 h a 10 h | 20 | 8 d 4 h | 705.600 | 95 |
-| D | 16 h a 10 d | 30 | 53 d 16 h | 4.636.800 | 329 |
-| Todas |  | 104 | 68 d 1 h 30 min | 5.880.600 | 424 |
+| D | 16 h a 10 d | 35 | 60 d 16 h | 5.241.600 | 379 |
+| Todas |  | 109 | 75 d 1 h 30 min | 6.485.400 | 474 |
 
-Pesquisada uma após a outra, a árvore inteira leva 68 d 1 h 30 min. Com o boost ligado o tempo todo, leva 34 d 45 min, o que dá 35 boosts e 175.000 Thulium; a ciência é a mesma.
+Pesquisada uma após a outra, a árvore inteira leva 75 d 1 h 30 min. Com o boost ligado o tempo todo, leva 37 d 12 h 45 min, o que dá 38 boosts e 190.000 Thulium; a ciência é a mesma.
 
 <!-- research-technologies:end -->
 

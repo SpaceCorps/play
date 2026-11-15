@@ -24,7 +24,7 @@ A skin is a paint scheme made from the ship's own hull: its panel lines, numbers
 
 Skins belong to your **account**, not to a ship, and they stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md); your ships wear what they wore.
 
-The [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive) can give every collection except Bloody R.E.D, and it gives a whole collection at once: all the skins of it that you do not have.
+The [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive) can give every collection except Bloody R.E.D, one skin at a time: a collection prize gives one skin of it, for one ship model. It is the skin for your active ship if the collection has one for it and you do not hold it yet; else the skin for another ship you own; else the first skin of the collection you lack. So fly the ship you want the skin for when you open an Archive. The collection can drop again until you hold all its skins. A collection that came whole before 0.5.7 stays yours, every skin of it.
 
 | Collection | Ships | Rarity | What it looks like |
 | :--- | :--- | :--- | :--- |
@@ -99,7 +99,7 @@ An aura stays inside the ring that marks a lock-on and is drawn under everything
 ## The Wardrobe
 
 - **Tabs.** Skin, Aura, Exhaust and Drones. A rarity chip filters a tab to one rarity, and **Owned only** lists what you can wear.
-- **A tile says where you stand with the look.** **Worn** (the ship has it on), **Yours** (you hold it), **Comes with the slot** (every pilot has it) or **Can't be obtained yet**, with a dull tick when you click it.
+- **A tile says where you stand with the look.** **Worn** (the ship has it on), **Yours** (you hold it), **Comes with the slot** (every pilot has it) or **Can't be obtained yet**, with a dull tick when you click it. A skin's tile also shows how many of its collection's ship skins you hold, such as 1/4.
 - **Taking a look off.** The **Plain** tile of the Skin tab puts the ship's plain paint back, and **None** takes the aura off.
 - **More than one ship.** The switch at the foot of the sheet, **Also apply to my other ships of this model** for a skin and **Also apply to my other ships** for an aura or an exhaust, makes one click wear the look on all of them.
 - **Where you can change it.** Where you can change your gear: docked, or in a safe zone with the protection on, as in [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

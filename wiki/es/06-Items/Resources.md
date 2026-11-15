@@ -20,10 +20,10 @@ Cada rendimiento de esta página es **por derribo, de media**: la probabilidad d
 
 | Material | Rareza | Procede de | Se usa en |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Común | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroides, misiones Especiales | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Forja, Construcciones del Skylab, Centro de investigación |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Común | Goombah, Bulwark, asteroides, misiones | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Forja, Centro de investigación |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Poco común | Crystalys, Goombah, asteroides, misiones | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Forja, Centro de investigación |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Crystalys, misiones | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Cooldown Rocket, Gravitational N.U.K.E., Centro de investigación |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Común | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroides, misiones Especiales | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Forja, Construcciones del Skylab, Centro de investigación |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Común | Goombah, Bulwark, asteroides, misiones | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Forja, Centro de investigación |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Poco común | Crystalys, Goombah, asteroides, misiones | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Forja, Centro de investigación |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Raro | Crystalys, misiones | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., Centro de investigación |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Común | Phantasm, Seeker, asteroides | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, Forja, Centro de investigación |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Común | Phantasm, Bulwark, asteroides | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, Forja, Centro de investigación |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Común | Crystalys, Goombah, Bulwark, asteroides, excavadora gigante, misiones | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, Forja, Centro de investigación |
@@ -33,10 +33,13 @@ Cada rendimiento de esta página es **por derribo, de media**: la probabilidad d
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Raro | misiones, Forja del Skylab | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Épico | misiones, Forja del Skylab | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, Cuna de P.E.T. |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Épico | el agujero negro (un N.I.K.E. tragado) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Centro de investigación |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mítico | Ensamblaje | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Forja |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mítico | Ensamblaje | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Forja |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Épico | asteroides, misiones Especiales | Cuna de P.E.T. |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mítico | asteroides, misiones Especiales | Cuna de P.E.T. |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendario | asteroides | Cuna de P.E.T. |
+| [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | Poco común | Crystalys, Goombah, Bulwark, Phantasm, Seeker, puertas en solitario, mazmorras de clan | ranuras de la Forja |
+| [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | Raro | puertas en solitario, mazmorras de clan | ranuras de la Forja |
+| [Heartshard](/wiki/06-Items/Resources.md#heartshard) | Épico | puertas en solitario, mazmorras de clan, NPC raros | ranuras de la Forja |
 
 ## Materiales {#materials}
 
@@ -121,16 +124,21 @@ Cada rendimiento de esta página es **por derribo, de media**: la probabilidad d
 - P.E.T. Station III: **60** (con 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1.100.000 créditos, 12.000 de Thulium)
 - Auto-Rocket CPU: **100** (con 1 Ancient Control Unit, 5 Power Core, 10 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.000 de Thulium)
 - Rocket Launcher II: **300** (con 5 Ancient Control Unit, 30 Power Core, 50 Reinforced Hull Plate, 150.000 de Thulium)
-- Rocket Launcher III: **800** (con 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 400.000 de Thulium)
-- Rocket Launcher IV: **1.800** (con 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 900.000 de Thulium)
-- Rocket Launcher V: **4.000** (con 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 2.000.000 de Thulium)
+- Rocket Launcher III: **800** (con 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 400.000 de Thulium)
+- Rocket Launcher IV: **1.800** (con 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 900.000 de Thulium)
+- Rocket Launcher V: **4.000** (con 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 2.000.000 de Thulium)
 - Mine II: **3** (con 2 Mine I, 1 Power Core, 200 de Thulium)
 - Mine III: **8** (con 2 Mine II, 2 Power Core, 1 Reinforced Hull Plate, 400 de Thulium)
 - Laser Optics I: **40** (con 2 Power Core, 4 Velkonite Reinforced Plate, 8.000 de Thulium)
-- Laser Optics II: **80** (con 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
-- Laser Optics III: **120** (con 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
-- Laser Optics IV: **180** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
-- Laser Optics V: **240** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- Laser Optics II: **80** (con 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
+- Laser Optics III: **120** (con 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
+- Laser Optics IV: **180** (con 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
+- Laser Optics V: **240** (con 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **160** (con 1 Ancient Control Unit, 10 Power Core, 25 Reinforced Hull Plate, 6.000 de Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **80** (con 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 20.000 de Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 35.000 de Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (con 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 50.000 de Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (con 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 75.000 de Thulium)
 - [Lancet II](/wiki/06-Items/Rockets.md) (produce 100): **5** (con 100 Lancet I, 10 Nyxite, 50.000 créditos, 200 de Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (produce 100): **15** (con 100 Lancet II, 20 Nyxite, 2 Reinforced Hull Plate, 150.000 créditos, 800 de Thulium)
 - [Rivet II](/wiki/06-Items/Rockets.md) (produce 100): **5** (con 10 Daraxium, 100 Rivet I, 50.000 créditos, 200 de Thulium)
@@ -148,15 +156,13 @@ Cada rendimiento de esta página es **por derribo, de media**: la probabilidad d
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5): **10** (con 30 Daraxium, 10 Nyxite, 50.000 créditos, 800 de Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3): **20** (con 1 Ancient Control Unit, 3 Power Core, 40 Quorvium, 100.000 créditos, 2.500 de Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3): **20** (con 40 Nyxite, 2 Power Core, 20 Quorvium, 90.000 créditos, 2.000 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Estándar a Corrupto: **5** (con 15 Daraxium, 10.000 créditos; 100 % de éxito)
-- [Forja](/wiki/06-Items/Forge.md), de Corrupto a Divino: **30** (con 45 Nyxite, 50.000 créditos; 90 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Estándar a Despierto: **5** (con 15 Daraxium, 10.000 créditos)
+- [Forja](/wiki/06-Items/Forge.md), de Despierto a Resonante: **32** (con 48 Nyxite, 56.000 créditos)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), construcción de un módulo: **10** para cada uno de estos: Impresora de munición, Forja, Bahía de mineral, Colector de Orvium, Almacén de recursos, Bahía de trofeos, Colector de Velkonite (de tu inventario, no del Alijo de Transporte)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), construcción de un módulo: **15** para cada uno de estos: Módulo de radar, Fábrica de cohetes (de tu inventario, no del Alijo de Transporte)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), construcción de un módulo: **20** para cada uno de estos: Módulo de motores (de tu inventario, no del Alijo de Transporte)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), construcción de un módulo: **25** para cada uno de estos: Módulo de defensa, Centro de investigación (de tu inventario, no del Alijo de Transporte)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **5** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 6 por derribo de media; la fuente más cercana es [Seeker](/wiki/04-Aliens/Seeker.md), en sector 1, con 0,2 por derribo.
 
@@ -216,14 +222,19 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - P.E.T. Station III: **6** (con 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 créditos, 12.000 de Thulium)
 - Auto-Rocket CPU: **10** (con 1 Ancient Control Unit, 5 Power Core, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 de Thulium)
 - Rocket Launcher II: **50** (con 5 Ancient Control Unit, 30 Power Core, 300 Ship Fragment, 150.000 de Thulium)
-- Rocket Launcher III: **120** (con 15 Ancient Control Unit, 80 Power Core, 800 Ship Fragment, 400.000 de Thulium)
-- Rocket Launcher IV: **250** (con 30 Ancient Control Unit, 160 Power Core, 1.800 Ship Fragment, 900.000 de Thulium)
-- Rocket Launcher V: **500** (con 60 Ancient Control Unit, 300 Power Core, 4.000 Ship Fragment, 2.000.000 de Thulium)
+- Rocket Launcher III: **120** (con 15 Ancient Control Unit, 80 Power Core, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 de Thulium)
+- Rocket Launcher IV: **250** (con 30 Ancient Control Unit, 160 Power Core, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 de Thulium)
+- Rocket Launcher V: **500** (con 60 Ancient Control Unit, 300 Power Core, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 de Thulium)
 - Mine III: **1** (con 2 Mine II, 2 Power Core, 8 Ship Fragment, 400 de Thulium)
-- Laser Optics II: **8** (con 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
-- Laser Optics III: **10** (con 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
-- Laser Optics IV: **18** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
-- Laser Optics V: **25** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- Laser Optics II: **8** (con 1 Laser Optics I, 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
+- Laser Optics III: **10** (con 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
+- Laser Optics IV: **18** (con 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
+- Laser Optics V: **25** (con 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **25** (con 1 Ancient Control Unit, 10 Power Core, 160 Ship Fragment, 6.000 de Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (con 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 80 Ship Fragment, 20.000 de Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **10** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 120 Ship Fragment, 35.000 de Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **18** (con 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 180 Ship Fragment, 50.000 de Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **25** (con 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 240 Ship Fragment, 75.000 de Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (produce 100): **2** (con 100 Lancet II, 20 Nyxite, 15 Ship Fragment, 150.000 créditos, 800 de Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (produce 100): **2** (con 20 Daraxium, 100 Rivet II, 15 Ship Fragment, 150.000 créditos, 800 de Thulium)
 - [Ember III](/wiki/06-Items/Rockets.md) (produce 100): **2** (con 20 Cataclysite, 100 Ember II, 15 Ship Fragment, 150.000 créditos, 800 de Thulium)
@@ -231,10 +242,8 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (con 80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150.000 créditos, 3.000 de Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (produce 5): **4** (con 40 Cataclysite, 20 Ship Fragment, 100.000 créditos, 1.500 de Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (produce 5): **3** (con 40 Cataclysite, 15 Ship Fragment, 80.000 créditos, 1.500 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Divino a Rompedor: **20** (con 120 Cataclysite, 2 Dark Matter Plate, 200.000 créditos; 75 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Resonante a Radiante: **23** (con 140 Cataclysite, 2 Dark Matter Plate, 267.000 créditos)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **33** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Goombah](/wiki/04-Aliens/Goombah.md) (sectores 3, 4): 0,6 por derribo de media.
 
@@ -312,26 +321,29 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - P.E.T. Station III: **4** (con 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 créditos, 12.000 de Thulium)
 - Auto-Rocket CPU: **5** (con 1 Ancient Control Unit, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 de Thulium)
 - Rocket Launcher II: **30** (con 5 Ancient Control Unit, 50 Reinforced Hull Plate, 300 Ship Fragment, 150.000 de Thulium)
-- Rocket Launcher III: **80** (con 15 Ancient Control Unit, 120 Reinforced Hull Plate, 800 Ship Fragment, 400.000 de Thulium)
-- Rocket Launcher IV: **160** (con 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1.800 Ship Fragment, 900.000 de Thulium)
-- Rocket Launcher V: **300** (con 60 Ancient Control Unit, 500 Reinforced Hull Plate, 4.000 Ship Fragment, 2.000.000 de Thulium)
+- Rocket Launcher III: **80** (con 15 Ancient Control Unit, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 de Thulium)
+- Rocket Launcher IV: **160** (con 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 de Thulium)
+- Rocket Launcher V: **300** (con 60 Ancient Control Unit, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 de Thulium)
 - Mine II: **1** (con 2 Mine I, 3 Ship Fragment, 200 de Thulium)
 - Mine III: **2** (con 2 Mine II, 1 Reinforced Hull Plate, 8 Ship Fragment, 400 de Thulium)
 - Laser Optics I: **2** (con 40 Ship Fragment, 4 Velkonite Reinforced Plate, 8.000 de Thulium)
-- Laser Optics II: **4** (con 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
-- Laser Optics III: **6** (con 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
-- Laser Optics IV: **9** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
-- Laser Optics V: **12** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- Laser Optics II: **4** (con 1 Laser Optics I, 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 de Thulium)
+- Laser Optics III: **6** (con 1 Laser Optics II, 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
+- Laser Optics IV: **9** (con 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
+- Laser Optics V: **12** (con 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **10** (con 1 Ancient Control Unit, 25 Reinforced Hull Plate, 160 Ship Fragment, 6.000 de Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **4** (con 8 Dark Matter Plate, 1 Miyuki, 8 Reinforced Hull Plate, 80 Ship Fragment, 20.000 de Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (con 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 de Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (con 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 de Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (con 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 de Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (con 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150.000 créditos, 3.000 de Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (produce 5): **1** (con 30 Cataclysite, 10 Ship Fragment, 50.000 créditos, 1.000 de Thulium)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (produce 5): **2** (con 20 Quorvium, 10 Ship Fragment, 60.000 créditos, 1.200 de Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3): **3** (con 1 Ancient Control Unit, 40 Quorvium, 20 Ship Fragment, 100.000 créditos, 2.500 de Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (con 2 Ancient Control Unit, 1 N.U.K.E., 40 Quorvium, 150.000 créditos, 3.000 de Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3): **2** (con 40 Nyxite, 20 Quorvium, 20 Ship Fragment, 90.000 créditos, 2.000 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Rompedor a Eterno: **8** (con 240 Quorvium, 2 Dark Matter Plate, 500.000 créditos, 2.000 de Thulium; 60 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Radiante a Ascendido: **11** (con 320 Quorvium, 2 Dark Matter Plate, 833.000 créditos, 2.667 de Thulium)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **100** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0,5 por derribo de media; la fuente más cercana es [Goombah](/wiki/04-Aliens/Goombah.md), en sector 3, con 0,25 por derribo.
 
@@ -375,11 +387,15 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - P.E.T. Station III: **2** (con 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 créditos, 12.000 de Thulium)
 - Auto-Rocket CPU: **1** (con 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 de Thulium)
 - Rocket Launcher II: **5** (con 30 Power Core, 50 Reinforced Hull Plate, 300 Ship Fragment, 150.000 de Thulium)
-- Rocket Launcher III: **15** (con 80 Power Core, 120 Reinforced Hull Plate, 800 Ship Fragment, 400.000 de Thulium)
-- Rocket Launcher IV: **30** (con 160 Power Core, 250 Reinforced Hull Plate, 1.800 Ship Fragment, 900.000 de Thulium)
-- Rocket Launcher V: **60** (con 300 Power Core, 500 Reinforced Hull Plate, 4.000 Ship Fragment, 2.000.000 de Thulium)
-- Laser Optics IV: **2** (con 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
-- Laser Optics V: **3** (con 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- Rocket Launcher III: **15** (con 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 de Thulium)
+- Rocket Launcher IV: **30** (con 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 de Thulium)
+- Rocket Launcher V: **60** (con 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 de Thulium)
+- Laser Optics IV: **2** (con 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
+- Laser Optics V: **3** (con 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **1** (con 10 Power Core, 25 Reinforced Hull Plate, 160 Ship Fragment, 6.000 de Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (con 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 de Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (con 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 de Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (con 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 de Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3): **1** (con 3 Power Core, 40 Quorvium, 20 Ship Fragment, 100.000 créditos, 2.500 de Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (con 1 N.U.K.E., 4 Power Core, 40 Quorvium, 150.000 créditos, 3.000 de Thulium)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **650** de ciencia por unidad
@@ -388,7 +404,7 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 
 ### Daraxium
 
-*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Corrupto.
+*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Despierto.
 
 **Cómo conseguirlo**
 
@@ -406,16 +422,14 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - [Rivet II](/wiki/06-Items/Rockets.md) (produce 100): **10** (con 100 Rivet I, 5 Ship Fragment, 50.000 créditos, 200 de Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (produce 100): **20** (con 2 Reinforced Hull Plate, 100 Rivet II, 15 Ship Fragment, 150.000 créditos, 800 de Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5): **30** (con 10 Nyxite, 10 Ship Fragment, 50.000 créditos, 800 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Estándar a Corrupto: **15** (con 5 Ship Fragment, 10.000 créditos; 100 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Estándar a Despierto: **15** (con 5 Ship Fragment, 10.000 créditos)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **7** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Phantasm](/wiki/04-Aliens/Phantasm.md) (sectores 2, 3): 0,9 por derribo de media; la fuente más cercana es [Seeker](/wiki/04-Aliens/Seeker.md), en sector 1, con 0,75 por derribo.
 
 ### Nyxite
 
-*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Divino.
+*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Resonante.
 
 **Cómo conseguirlo**
 
@@ -435,16 +449,14 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - [Toxic Rocket](/wiki/06-Items/Rockets.md) (produce 5): **30** (con 10 Quorvium, 10 Ship Fragment, 60.000 créditos, 1.000 de Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5): **10** (con 30 Daraxium, 10 Ship Fragment, 50.000 créditos, 800 de Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3): **40** (con 2 Power Core, 20 Quorvium, 20 Ship Fragment, 90.000 créditos, 2.000 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Corrupto a Divino: **45** (con 30 Ship Fragment, 50.000 créditos; 90 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Despierto a Resonante: **48** (con 32 Ship Fragment, 56.000 créditos)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **7** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Phantasm](/wiki/04-Aliens/Phantasm.md) (sectores 2, 3): 0,9 por derribo de media.
 
 ### Cataclysite
 
-*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa para construir los láseres más fuertes y, en la Forja, para subir el equipo a Rompedor.
+*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa para construir los láseres más fuertes y, en la Forja, para subir el equipo a Radiante.
 
 **Cómo conseguirlo**
 
@@ -487,16 +499,14 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (produce 5): **40** (con 4 Reinforced Hull Plate, 20 Ship Fragment, 100.000 créditos, 1.500 de Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (produce 5): **30** (con 1 Power Core, 10 Ship Fragment, 50.000 créditos, 1.000 de Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (produce 5): **40** (con 3 Reinforced Hull Plate, 15 Ship Fragment, 80.000 créditos, 1.500 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Divino a Rompedor: **120** (con 20 Reinforced Hull Plate, 2 Dark Matter Plate, 200.000 créditos; 75 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Resonante a Radiante: **140** (con 23 Reinforced Hull Plate, 2 Dark Matter Plate, 267.000 créditos)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **5** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 por derribo de media; la fuente más cercana es [Goombah](/wiki/04-Aliens/Goombah.md), en sector 3, con 4 por derribo.
 
 ### Quorvium
 
-*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Eterno.
+*Recurso Común.* Lo sueltan los NPC y los asteroides. Se usa en la Forja para subir el equipo a Ascendido.
 
 **Cómo conseguirlo**
 
@@ -522,10 +532,8 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3): **40** (con 1 Ancient Control Unit, 3 Power Core, 20 Ship Fragment, 100.000 créditos, 2.500 de Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (con 2 Ancient Control Unit, 1 N.U.K.E., 4 Power Core, 150.000 créditos, 3.000 de Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3): **20** (con 40 Nyxite, 2 Power Core, 20 Ship Fragment, 90.000 créditos, 2.000 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Rompedor a Eterno: **240** (con 8 Power Core, 2 Dark Matter Plate, 500.000 créditos, 2.000 de Thulium; 60 % de éxito)
+- [Forja](/wiki/06-Items/Forge.md), de Radiante a Ascendido: **320** (con 11 Power Core, 2 Dark Matter Plate, 833.000 créditos, 2.667 de Thulium)
 - [Centro de investigación](/wiki/03-Mechanics/Research.md#fuel), combustible: **8** de ciencia por unidad
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 8 por derribo de media; la fuente más cercana es [Goombah](/wiki/04-Aliens/Goombah.md), en sector 3, con 3 por derribo.
 
@@ -650,10 +658,10 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 - [Ultra Core](/wiki/06-Items/Lasers.md) (produce 1.000): **4** (con 120 Cataclysite, 90 Quorvium, 320 créditos, 687 de Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (produce 1.000): **8** (con 140 Cataclysite, 1 Orvium Reinforced Plate, 105 Quorvium, 9.058 créditos, 1.315 de Thulium)
 - Laser Optics I: **4** (con 2 Power Core, 40 Ship Fragment, 8.000 de Thulium)
-- Laser Optics II: **6** (con 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15.000 de Thulium)
-- Laser Optics III: **12** (con 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30.000 de Thulium)
-- Laser Optics IV: **14** (con 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 de Thulium)
-- Laser Optics V: **15** (con 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 de Thulium)
+- Laser Optics II: **6** (con 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15.000 de Thulium)
+- Laser Optics III: **12** (con 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30.000 de Thulium)
+- Laser Optics IV: **14** (con 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 de Thulium)
+- Laser Optics V: **15** (con 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 de Thulium)
 
 **Mejoras de módulos**: el Ensamblaje mejora Quantum Laser II en Quantum Laser III, Quantum Laser III en Starfire-III, Impulse Thruster II en Impulse Thruster III, Absorption Shield Cell I en Absorption Shield Cell II, Absorption Shield Cell II en Absorption Shield Cell III, Capacity Shield Cell I en Capacity Shield Cell II, Capacity Shield Cell II en Capacity Shield Cell III, Impulse Thruster I en Impulse Thruster II, Momentum Thruster I en Momentum Thruster II, Momentum Thruster II en Momentum Thruster III, Damage Amp I en Damage Amp II, Damage Amp II en Damage Amp III, Crit Amp I en Crit Amp II, Crit Amp II en Crit Amp III, Penetration Amp I en Penetration Amp II, Penetration Amp II en Penetration Amp III, Engine I en Engine II y Adaptive Core I en Adaptive Core II. Cada mejora consume la pieza de la que parte y pide estas placas además de sus otros materiales. La pieza nueva conserva el grado de Forja y las bonificaciones de la pieza que pones. Consulta [Mejoras de módulos en el Ensamblaje](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -701,9 +709,9 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 - P.E.T. Station II: **2** (con 1 P.E.T. Station I, 2 Power Core, 6 Reinforced Hull Plate, 35 Ship Fragment, 4 Velkonite Reinforced Plate, 300.000 créditos, 4.000 de Thulium)
 - P.E.T. Station III: **2** (con 2 Ancient Control Unit, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 créditos, 12.000 de Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (produce 1.000): **1** (con 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 9.058 créditos, 1.315 de Thulium)
-- Laser Optics III: **2** (con 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
-- Laser Optics IV: **6** (con 2 Ancient Control Unit, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
-- Laser Optics V: **10** (con 3 Ancient Control Unit, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
+- Laser Optics III: **2** (con 1 Laser Optics II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 de Thulium)
+- Laser Optics IV: **6** (con 2 Ancient Control Unit, 1 Laser Optics III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 de Thulium)
+- Laser Optics V: **10** (con 3 Ancient Control Unit, 1 Laser Optics IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 de Thulium)
 - **Cuna de P.E.T.** (Hangar): 1 por cada P.E.T. ensamblado, con 1 Cluster Chunk de la calidad del P.E.T.
 
 **Mejoras de módulos**: el Ensamblaje mejora Starfire-III en Helios Beam. Cada mejora consume la pieza de la que parte y pide estas placas además de sus otros materiales. La pieza nueva conserva el grado de Forja y las bonificaciones de la pieza que pones. Consulta [Mejoras de módulos en el Ensamblaje](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -727,7 +735,7 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 - [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (produce 1.000): **1** (con 120 Cataclysite, 90 Quorvium, 4.873 créditos, 987 de Thulium)
 - [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (produce 1.000): **4** (con 1.000 Dark Matter Ammo I, 200 de Thulium)
 - [Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md), combustible: uno dura **10** minutos de minería, y el depósito admite 3
-- [Centro de investigación](/wiki/03-Mechanics/Research.md#dark-matter), las tecnologías más altas: **10** para cada una de 35 de ellas
+- [Centro de investigación](/wiki/03-Mechanics/Research.md#dark-matter), las tecnologías más altas: **10** para cada una de 40 de ellas
 
 **Cómo farmear**: dispara cohetes [N.I.K.E.](/wiki/06-Items/Rockets.md) al agujero negro (los fabrica el Ensamblaje) y recoge las cajas del borde de su zona antes que nadie. El camino entero está en [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md).
 
@@ -758,13 +766,15 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 - Hull Plating II: **5** (con 1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 150 Ship Fragment, 2.500 de Thulium)
 - Hull Plating III: **8** (con 1 Ancient Control Unit, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4.000 de Thulium)
 - Adaptive Core III: **4** (con 1 Adaptive Core II, 1 Ancient Control Unit, 5 Power Core, 110 Ship Fragment, 4.000 de Thulium)
-- [Forja](/wiki/06-Items/Forge.md), de Divino a Rompedor: **2** (con 20 Reinforced Hull Plate, 120 Cataclysite, 200.000 créditos; 75 % de éxito)
-- [Forja](/wiki/06-Items/Forge.md), de Rompedor a Eterno: **2** (con 8 Power Core, 240 Quorvium, 500.000 créditos, 2.000 de Thulium; 60 % de éxito)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (con 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 20.000 de Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **8** (con 1 Ancient Control Unit, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 de Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **8** (con 2 Ancient Control Unit, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 de Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **8** (con 3 Ancient Control Unit, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 de Thulium)
+- [Forja](/wiki/06-Items/Forge.md), de Resonante a Radiante: **2** (con 23 Reinforced Hull Plate, 140 Cataclysite, 267.000 créditos)
+- [Forja](/wiki/06-Items/Forge.md), de Radiante a Ascendido: **2** (con 11 Power Core, 320 Quorvium, 833.000 créditos, 2.667 de Thulium)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Módulo de motores: **1** para construirlo, luego 2, 3, 5 y 8 para los niveles 2 a 5
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Módulo de defensa: **1** para construirlo, luego 2, 4, 7 y 12 para los niveles 2 a 5
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Módulo de radar: ninguna para construirlo, luego 1 y 3 para los niveles 2 a 3
-
-Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia abajo.
 
 **Cómo farmear**: se prensa, no se encuentra: reúne Dark Matter (arriba) y las dos placas que fabrica la Forja del Skylab, y luego empieza la fabricación en el Ensamblaje. Investiga primero la receta: [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) tiene el camino entero.
 
@@ -815,6 +825,66 @@ Un paso de Forja que falla devuelve el 50 % de sus materiales, redondeado hacia
 
 **Cómo farmear**: rompe asteroides, cuanto más grandes mejor: el grupo que más daño hizo se lleva el chunk, y la Motherlode lo da con más frecuencia.
 
+### Echo Shard
+
+*Recurso Poco común.* Un fragmento de resonancia de aliens caídos, de puertas completadas y de mazmorras de clan. La Forja gasta Echo Shards para sintonizar una ranura de una pieza de equipo. No se puede comerciar.
+
+**Cómo conseguirlo**
+
+| Alienígena | Sectores | Botín | Por derribo, de media |
+| :--- | :---: | :--- | --: |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 %: 1 | 0,2 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 %: 1 | 0,05 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 %: 1 | 0,02 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 %: 1 | 0,01 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 %: 1 | 0 |
+
+- **Puertas en solitario**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 cada vez que se completa una.
+- **Mazmorras de clan**: 3, 2 y 2 con una finalización pagada de la etapa 1, 2 y 3.
+- **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
+- **Por lo demás**: no se vende en la tienda.
+
+**Para qué sirve**
+
+- Las ranuras de la Forja: sintonizar una ranura vacía cuesta Echo Shards.
+
+**Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0,2 por derribo de media; la fuente más cercana es [Seeker](/wiki/04-Aliens/Seeker.md), en sector 1, con 0 por derribo.
+
+### Lattice Shard
+
+*Recurso Raro.* Un fragmento de retícula de puertas y mazmorras de clan completadas. La Forja gasta Lattice Shards para volver a trazar una ranura sintonizada y reparar una pieza desgastada. No se puede comerciar.
+
+**Cómo conseguirlo**
+
+- **Puertas en solitario**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 cada vez que se completa una.
+- **Mazmorras de clan**: 5, 6 y 7 con una finalización pagada de la etapa 1, 2 y 3.
+- **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
+- **Por lo demás**: no se vende en la tienda.
+
+**Para qué sirve**
+
+- Las ranuras de la Forja: volver a trazar una ranura y reparar una pieza cuestan Lattice Shards.
+
+**Cómo farmear**: completa puertas en solitario y mazmorras de clan: ambas lo dan cada vez que se completan.
+
+### Heartshard
+
+*Recurso Épico.* Un fragmento raro: la primera vez que completas cada puerta y cada etapa de mazmorra de clan en una temporada te da uno, y también unos pocos de los jefes más raros. En la Forja, añádelo a una sintonización o a un nuevo trazado para elegir el atributo y tirar en la mitad superior del rango. No se puede comerciar.
+
+**Cómo conseguirlo**
+
+- **Puertas en solitario**: 1 la primera vez que completas cada puerta en una temporada, y un 5 % de probabilidad de 1 más cada vez que completas una.
+- **Mazmorras de clan**: 1 con la primera finalización pagada de cada etapa en una temporada, y un 5 % de probabilidad de uno más con cada finalización pagada.
+- **NPC raros**: Davidski 10 %, Dormant Force 5 %, Tesseract 5 % por baja.
+- **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
+- **Por lo demás**: no se vende en la tienda.
+
+**Para qué sirve**
+
+- Las ranuras de la Forja: añadido a una sintonización o a un nuevo trazado, un Heartshard ofrece todos los atributos libres y tira el valor en la mitad superior del rango.
+
+**Cómo farmear**: es raro: completa cada puerta en solitario y cada etapa de mazmorra de clan una vez por temporada, y derrota a los NPC raros lentos.
+
 ## Monedas {#currencies}
 
 Los créditos y el Thulium se recogen como los materiales y se gastan en los mismos sitios. Se guardan en tu cuenta, no en tu inventario.
@@ -831,7 +901,7 @@ Los créditos y el Thulium se recogen como los materiales y se gastan en los mis
 
 Estas son las cifras del mundo **Alpha** (1x). Un derribo paga **2x** estas cifras en Beta y **3x** en Gamma, y una misión terminada paga según el más alto de los dos mundos: aquel en el que se hizo y aquel en el que vuelas ([mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); el botín es igual en todos los mundos. Además, el Credit Boost permanente de la Tienda de temporada (hasta +50 %) y el Thulium Boost (hasta +30 %) aumentan lo que pagan los derribos y las misiones en esas dos monedas.
 
-La experiencia y el honor son puntuaciones, no dinero: no se compra nada con ellos. La experiencia sube tu nivel, que cuenta para tu rango; el honor no influye en tu rango. Solo cambiar de corporación se lleva algo de ellos, y solo la mitad de tu honor; tu experiencia nunca se gasta.
+La experiencia y el honor son puntuaciones, no dinero: no se compra nada con ellos. La experiencia sube tu nivel, que cuenta para tu rango; el honor también cuenta para tu rango: 100 de honor son un punto PvE. Solo cambiar de corporación se lleva algo de ellos, y solo la mitad de tu honor; tu experiencia nunca se gasta.
 
 ### Créditos {#credits}
 
@@ -842,7 +912,7 @@ La experiencia y el honor son puntuaciones, no dinero: no se compra nada con ell
 - **Al empezar**: la cuenta de un piloto nuevo tiene 10.000 créditos.
 - **Alienígenas**: todos los derribos la pagan (la tabla de arriba).
 - **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: los fragmentos de un asteroide roto la pagan.
-- **[Misiones](/wiki/03-Mechanics/Quests.md)**: las 88 misiones en Alpha pagan 6.664.500 créditos en total, desde 86.000 en el nivel 1 hasta 2.720.000 en el nivel 8.
+- **[Misiones](/wiki/03-Mechanics/Quests.md)**: las 132 misiones en Alpha pagan 333.064.500 créditos en total, desde 86.000 en el nivel 1 hasta 174.000.000 en el nivel 14.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: la Granja de créditos los produce mientras estás fuera, en una tolva de 72 horas.
 
 | Nivel del módulo | 1 | 5 | 10 | 15 | 20 |
@@ -853,14 +923,13 @@ Estas son las tasas de una estación con energía: un déficit de energía detie
 
 - **Pagos del [clan](/wiki/03-Mechanics/Clans.md)**: los líderes de un clan pueden pagar créditos del banco del clan a sus miembros.
 - **Códigos de bonificación**: un código repartido en un evento o en nuestro Discord puede dar créditos, y también materiales, equipo, potenciadores o una nave. Escríbelo en la tarjeta Código de bonificación de la página Thulium; cada código funciona una vez por piloto.
-- Un paso de Forja que falla conserva sus créditos: solo vuelve el 50 % de sus materiales y de su Thulium.
 
 **Para qué sirve**
 
 - **La tienda**: 27 objetos tienen precio en créditos (sus páginas dan el precio: [Objetos](/wiki/06-Items/Overview.md) y [Cohetes](/wiki/06-Items/Rockets.md)).
 - **Ensamblaje**, por fabricación: [Master Drone](/wiki/06-Items/Drones.md) 1.000.000, [Starfire-III](/wiki/06-Items/Lasers.md) 100.000, P.E.T. Station I 100.000, P.E.T. Station II 300.000, P.E.T. Station III 1.100.000, [Ultra Core](/wiki/06-Items/Lasers.md) (produce 1.000) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (produce 1.000) 9.058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (produce 1.000) 4.740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (produce 1.000) 4.873, [Lancet II](/wiki/06-Items/Rockets.md) (produce 100) 50.000, [Lancet III](/wiki/06-Items/Rockets.md) (produce 100) 150.000, [Rivet II](/wiki/06-Items/Rockets.md) (produce 100) 50.000, [Rivet III](/wiki/06-Items/Rockets.md) (produce 100) 150.000, [Ember II](/wiki/06-Items/Rockets.md) (produce 100) 50.000, [Ember III](/wiki/06-Items/Rockets.md) (produce 100) 150.000, [Scatter II](/wiki/06-Items/Rockets.md) (produce 100) 50.000, [Scatter III](/wiki/06-Items/Rockets.md) (produce 100) 150.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (produce 5) 100.000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (produce 5) 50.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (produce 5) 60.000, [Shield Breaker](/wiki/06-Items/Rockets.md) (produce 5) 80.000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (produce 5) 60.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5) 50.000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3) 100.000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3) 90.000.
-- **[Forja](/wiki/06-Items/Forge.md)**, por paso de grado: de Estándar a Corrupto 10.000, de Corrupto a Divino 50.000, de Divino a Rompedor 200.000, de Rompedor a Eterno 500.000.
-- **Combinaciones de la Forja**, según el grado obtenido: Corrupto 5.000, Divino 25.000, Rompedor 100.000, Eterno 250.000.
+- **[Forja](/wiki/06-Items/Forge.md)**, por paso de grado: de Estándar a Despierto 10.000, de Despierto a Resonante 56.000, de Resonante a Radiante 267.000, de Radiante a Ascendido 833.000.
+- **Combinaciones de la Forja**, según el grado obtenido: Despierto 5.000, Resonante 25.000, Radiante 100.000, Ascendido 250.000.
 - Construcciones y mejoras del **[Skylab](/wiki/03-Mechanics/Skylab.md)**, el precio de cada módulo (el nivel 1 es la construcción, cada nivel por encima tiene su propio precio): Impresora de munición 20.000 en el nivel 1, 5.600.000 en el nivel 20, Granja de créditos 0 en el nivel 1, 7.000.000 en el nivel 20, Módulo de defensa 500.000 en el nivel 1, 14.000.000 en el nivel 5, Módulo de motores 375.000 en el nivel 1, 8.750.000 en el nivel 5, Forja 5.000 en el nivel 1, 9.000.000 en el nivel 20, Bahía de mineral 5.000 en el nivel 1, 4.500.000 en el nivel 20, Colector de Orvium 20.000 en el nivel 1, 5.500.000 en el nivel 20, Módulo de radar 250.000 en el nivel 1, 2.250.000 en el nivel 3, Centro de investigación 25.000 (x1,5 por nivel), Fábrica de cohetes 20.000 en el nivel 1, 1.400.000 en el nivel 20, Solar 500 en el nivel 1, 9.000.000 en el nivel 20, Almacén de recursos 5.000 en el nivel 1, 4.500.000 en el nivel 20, Granja de Thulium 5.000 en el nivel 1, 8.500.000 en el nivel 20, Bahía de trofeos 100.000 en el nivel 1, 2.325.000 en el nivel 20, Colector de Velkonite 20.000 en el nivel 1, 5.500.000 en el nivel 20. El Núcleo siempre está ahí, así que el primer precio que pagas por él es el del nivel 2: 1.500 (x1,5 por nivel a partir de ahí).
 - **[Clan](/wiki/03-Mechanics/Clans.md)**: donaciones al banco del clan (como máximo 1.000.000 créditos por piloto en cualquier periodo de 24 horas) y el impuesto diario del clan, una parte de tus créditos que fijan sus líderes.
 
@@ -876,7 +945,7 @@ Estas son las tasas de una estación con energía: un déficit de energía detie
 - **Alienígenas**: todos los derribos la pagan (la tabla de arriba).
 - **[Asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)**: los fragmentos de un asteroide roto la pagan.
 - **[Excavadora gigante](/wiki/03-Mechanics/Giant-Excavator.md)**: desde el día 11 de la temporada (Beta y Gamma: desde el día 1), una tanda completa suelta 9.643 en Alpha (más en Beta y Gamma), en cajas que puede recoger cualquiera; en el panel de control se elige qué mina.
-- **[Misiones](/wiki/03-Mechanics/Quests.md)**: las 88 misiones en Alpha pagan 51.010 de Thulium en total, desde 170 en el nivel 1 hasta 21.760 en el nivel 8.
+- **[Misiones](/wiki/03-Mechanics/Quests.md)**: las 132 misiones en Alpha pagan 1.356.610 de Thulium en total, desde 170 en el nivel 1 hasta 696.320 en el nivel 14.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: la Granja de Thulium los produce mientras estás fuera, en una tolva de 72 horas.
 
 | Nivel del módulo | 1 | 5 | 10 | 15 | 20 |
@@ -886,13 +955,12 @@ Estas son las tasas de una estación con energía: un déficit de energía detie
 Estas son las tasas de una estación con energía: un déficit de energía detiene todas las granjas y colectores, y un módulo no puede mejorarse por encima del Núcleo, que se detiene en el nivel 20 (consulta [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
 - **Códigos de bonificación**: un código repartido en un evento o en nuestro Discord puede dar Thulium, y también materiales, equipo, potenciadores o una nave. Escríbelo en la tarjeta Código de bonificación de la página Thulium; cada código funciona una vez por piloto.
-- Un paso de Forja que falla devuelve el 50 % de su Thulium, redondeado hacia abajo.
 
 **Para qué sirve**
 
 - **La tienda**: 20 objetos tienen precio en Thulium (sus páginas dan el precio: [Objetos](/wiki/06-Items/Overview.md)).
-- **Ensamblaje**, por fabricación: [Master Drone](/wiki/06-Items/Drones.md) 50.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4.000, [Engine III](/wiki/06-Items/Propulsion.md) 4.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 15.000, Bodkin Formation 42.000, Asterism Formation 14.000, Gemini Formation 76.000, Adamant Formation 18.000, Ballista Formation 48.000, Stiletto Formation 92.000, Rampart Formation 77.000, Sanctum Formation 40.000, Shrike Formation 17.000, Culler Formation 40.000, Redoubt Formation 42.000, Auger Formation 41.000, Cordon Formation 43.000, Centurion Formation 16.000, Gyre Formation 40.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2.400, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 2.000, Adaptive Core II 2.000, Adaptive Core III 4.000, Energetic Wall II 600, P.E.T. Station I 2.000, P.E.T. Station II 4.000, P.E.T. Station III 12.000, Auto-Rocket CPU 20.000, [Ultra Core](/wiki/06-Items/Lasers.md) (produce 1.000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (produce 1.000) 1.315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (produce 1.000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (produce 1.000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (produce 1.000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (produce 1.000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (produce 1.000) 200, Rocket Launcher II 150.000, Rocket Launcher III 400.000, Rocket Launcher IV 900.000, Rocket Launcher V 2.000.000, Mine II 200, Mine III 400, Laser Optics I 8.000, Laser Optics II 15.000, Laser Optics III 30.000, Laser Optics IV 50.000, Laser Optics V 75.000, [Lancet II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (produce 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (produce 5) 1.500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.200, [Shield Breaker](/wiki/06-Items/Rockets.md) (produce 5) 1.500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3) 2.500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3) 2.000.
-- **[Forja](/wiki/06-Items/Forge.md)**, por paso de grado: de Rompedor a Eterno 2.000.
+- **Ensamblaje**, por fabricación: [Master Drone](/wiki/06-Items/Drones.md) 50.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4.000, [Engine III](/wiki/06-Items/Propulsion.md) 4.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 15.000, Bodkin Formation 42.000, Asterism Formation 14.000, Gemini Formation 76.000, Adamant Formation 18.000, Ballista Formation 48.000, Stiletto Formation 92.000, Rampart Formation 77.000, Sanctum Formation 40.000, Shrike Formation 17.000, Culler Formation 40.000, Redoubt Formation 42.000, Auger Formation 41.000, Cordon Formation 43.000, Centurion Formation 16.000, Gyre Formation 40.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2.400, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 2.000, Adaptive Core II 2.000, Adaptive Core III 4.000, Energetic Wall II 600, P.E.T. Station I 2.000, P.E.T. Station II 4.000, P.E.T. Station III 12.000, Auto-Rocket CPU 20.000, [Ultra Core](/wiki/06-Items/Lasers.md) (produce 1.000) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (produce 1.000) 1.315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (produce 1.000) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (produce 1.000) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (produce 1.000) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (produce 1.000) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (produce 1.000) 200, Rocket Launcher II 150.000, Rocket Launcher III 400.000, Rocket Launcher IV 900.000, Rocket Launcher V 2.000.000, Mine II 200, Mine III 400, Laser Optics I 8.000, Laser Optics II 15.000, Laser Optics III 30.000, Laser Optics IV 50.000, Laser Optics V 75.000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6.000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20.000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35.000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50.000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75.000, [Lancet II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Lancet III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Rivet II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Rivet III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Ember II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Ember III](/wiki/06-Items/Rockets.md) (produce 100) 800, [Scatter II](/wiki/06-Items/Rockets.md) (produce 100) 200, [Scatter III](/wiki/06-Items/Rockets.md) (produce 100) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (produce 5) 1.500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.200, [Shield Breaker](/wiki/06-Items/Rockets.md) (produce 5) 1.500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (produce 5) 1.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (produce 5) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (produce 3) 2.500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [Support Rocket](/wiki/06-Items/Rockets.md) (produce 3) 2.000.
+- **[Forja](/wiki/06-Items/Forge.md)**, por paso de grado: de Radiante a Ascendido 2.667.
 - Construcciones y mejoras del **[Skylab](/wiki/03-Mechanics/Skylab.md)**, el precio de cada módulo (el nivel 1 es la construcción, cada nivel por encima tiene su propio precio): Impresora de munición 500 en el nivel 1, 11.000 en el nivel 20, Granja de créditos 0 en el nivel 1, 550 en el nivel 20, Módulo de defensa 2.000 en el nivel 1, 56.000 en el nivel 5, Módulo de motores 1.500 en el nivel 1, 35.000 en el nivel 5, Forja 500 en el nivel 1, 10.000 en el nivel 20, Bahía de mineral 250 en el nivel 1, 550 en el nivel 20, Colector de Orvium 500 en el nivel 1, 12.500 en el nivel 20, Módulo de radar 1.000 en el nivel 1, 9.000 en el nivel 3, Centro de investigación 500 (x1,5 por nivel), Fábrica de cohetes 500 en el nivel 1, 2.800 en el nivel 20, Solar 50 en el nivel 1, 10.000 en el nivel 20, Almacén de recursos 250 en el nivel 1, 550 en el nivel 20, Granja de Thulium 500 en el nivel 1, 16.000 en el nivel 20, Bahía de trofeos 400 en el nivel 1, 9.300 en el nivel 20, Colector de Velkonite 500 en el nivel 1, 12.500 en el nivel 20.
 - **[Investigación](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: un impulso del Centro de investigación cuesta 5.000 Thulium.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 500 Thulium por salto.
@@ -905,7 +973,7 @@ Estas son las tasas de una estación con energía: un déficit de energía detie
 
 - **Cajas**: el botín de un alienígena cae en una sola caja donde explota, reservada durante 30 segundos para el piloto que lo derribó y su clan. El [Resource Magnet Booster](/wiki/06-Items/Boosters.md) suma un 25 % a lo que contiene una caja. Consulta [Carga](/wiki/03-Mechanics/Cargo.md).
 - **Restos**: un [piloto de corporación](/wiki/03-Mechanics/Company-Pilots.md) destruido no deja caja ni piezas, lo destruya quien lo destruya, así que las naves de los pilotos no son fuente de materiales. Puedes derribar a los pilotos de otra corporación cuando termina el Protocolo de paz, donde tu [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) permite el PvP; destruir a un piloto de tu propia corporación cuesta 100 de honor.
-- **Mejoras de módulos**: el Ensamblaje fabrica Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II y Adaptive Core III mejorando la pieza del escalón anterior, que se consume. Una mejora pide Velkonite Reinforced Plate, Dark Matter Plate y Orvium Reinforced Plate, igual que Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV y Laser Optics V. La pieza nueva conserva el grado de Forja y las bonificaciones de la pieza que pones. Consulta [Mejoras de módulos en el Ensamblaje](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Mejoras de módulos**: el Ensamblaje fabrica Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II y Adaptive Core III mejorando la pieza del escalón anterior, que se consume. Una mejora pide Velkonite Reinforced Plate, Dark Matter Plate y Orvium Reinforced Plate, igual que Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV y Miyuki V. La pieza nueva conserva el grado de Forja y las bonificaciones de la pieza que pones. Consulta [Mejoras de módulos en el Ensamblaje](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Dónde se guardan**: lo que usan el Ensamblaje, la Forja y las construcciones del Skylab son las pilas sueltas del inventario. Las pilas de una nave o del Alijo de Transporte no cuentan.
 - **El reinicio**: los materiales de tu inventario siguen las [reglas del reinicio](/wiki/03-Mechanics/Wipe-Timeline.md); el mineral guardado en el Almacén de recursos del Skylab se conserva.
 

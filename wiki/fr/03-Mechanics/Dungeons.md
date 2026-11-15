@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Donjons -->
 # Donjons {#dungeons}
 
@@ -17,7 +17,7 @@ Un donjon n’est pas une [porte solo](/wiki/03-Mechanics/Solo-Gates.md). Une po
 
 - **Ouverture** : À partir du jour 1 de la saison
 - **Qui ouvre un donjon** : Un chef adjoint ou le chef, qui paie le prix avec la banque du clan
-- **Groupe** : De 4 à 10 membres du clan, dans un même groupe
+- **Groupe** : De 3 à 10 membres du clan, dans un même groupe
 - **Donjons par jour** : 3 par clan et par jour UTC, une seule ouverte à la fois
 - **Donjons en même temps** : 6 dans un monde
 - **Cartes** : Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ Un donjon n’est pas une [porte solo](/wiki/03-Mechanics/Solo-Gates.md). Une po
 
 1. **Invoquer.** Dans l’onglet Donjons, un [chef adjoint ou le chef](/wiki/03-Mechanics/Clans.md#hierarchy-roles) choisit une étape et appuie sur **Invoquer**. Le prix est prélevé sur la [banque du clan](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), et le donjon prend l’une des cartes listées plus haut. Un donjon que personne ne lance se ferme, et le prix retourne à la banque.
 2. **Entrer.** Les membres du clan appuient sur **Entrer** dans la fenêtre du Clan pendant qu’ils volent, sautent par le portail du clan ou appuient sur **Rejoindre** sur la carte d’alerte (voir Entrer). Tout le monde atterrit dans la salle de départ, et les pilotes à l’intérieur forment le groupe du donjon.
-3. **Lancer.** La salle de départ est une petite salle à une extrémité du labyrinthe, et son sas reste fermé tant que le donjon se rassemble. Il n’y a pas d’aliens dedans, on peut donc y attendre en sécurité. Le donjon **se lance toute seule** quand chaque pilote qu’elle attend est à l’intérieur et que le groupe est assez grand. Elle attend les membres du clan qui sont en ligne, pas absents, et dans le groupe d’un pilote qui est entré, et elle se lance aussitôt quand le groupe est plein. Le pilote qui a ouvert le donjon, ou un officier, peut appuyer sur **Lancer** pour commencer plus tôt avec les pilotes qui sont à l’intérieur, s’ils sont assez nombreux. Un pilote qui part n’est plus attendu. Quand le donjon se lance, le sas s’ouvre pour de bon, et ensuite seuls les pilotes qui étaient déjà à l’intérieur peuvent revenir.
+3. **Lancer.** La salle de départ est une petite salle à une extrémité du labyrinthe, et son sas reste fermé tant que le donjon se rassemble. Il n’y a pas d’aliens dedans, on peut donc y attendre en sécurité. Le donjon **se lance toute seule** quand chaque pilote qu’elle attend est à l’intérieur et que le groupe est assez grand. Elle attend les membres du clan qui sont en ligne, pas absents, et dans le groupe d’un pilote qui est entré, et elle se lance aussitôt quand le groupe est plein. Le pilote qui a ouvert le donjon, ou un officier, peut appuyer sur **Lancer** pour commencer plus tôt avec les pilotes qui sont à l’intérieur, s’ils sont assez nombreux. Un pilote qui part n’est plus attendu, pas plus qu’un pilote qui n’est pas encore entré et qui a quitté le groupe ou s’est déconnecté. Quand le donjon se lance, le sas s’ouvre pour de bon, et ensuite seuls les pilotes qui étaient déjà à l’intérieur peuvent revenir.
 4. **Traverser le labyrinthe.** Vous entrez par une extrémité du labyrinthe et le Seigneur de guerre attend à l’autre, dans une salle verrouillée. Le labyrinthe est sombre : vous ne voyez que ce que le groupe a exploré et ce qui est proche de ses vaisseaux. Les aliens attendent en meutes dans les couloirs, et une meute sort dès qu’un pilote vole dans le tronçon de couloir où elle attend, puis traque le groupe à travers le labyrinthe.
 5. **Ouvrir les zones de butin.** Des anneaux dans le labyrinthe marquent les zones. Tenez-en une et le groupe vote pour une carte, qui est versée avec la paie du Seigneur de guerre.
 6. **Déverrouiller la salle du boss.** Détruisez les trois quarts des Crystalys et de leurs Twins du labyrinthe, et le sas de la salle du Seigneur de guerre s’ouvre. Jusque-là, le Seigneur de guerre ne peut pas être blessé. Les autres aliens restent où ils sont, et vous pouvez aussi les détruire.
@@ -215,6 +215,7 @@ La coque et le bouclier ci-dessus valent pour un groupe de 5. Ils croissent avec
 
 | Pilotes dans le groupe | Étape 1 | Étape 2 | Étape 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
 | 4 | 14 400 000 | 21 600 000 | 36 000 000 |
 | 5 | 18 000 000 | 27 000 000 | 45 000 000 |
 | 6 | 21 600 000 | 32 400 000 | 54 000 000 |
@@ -334,22 +335,24 @@ Les cartes sont tirées une à une dans la réserve ci-dessous. La chance est ce
 
 <!-- dungeons-cards:end -->
 
-Les cartes à un seul exemplaire sont de l’**équipement**, et seul un donjon d’étape 3 peut en proposer. Une pièce d’équipement est forgée pour chaque pilote payé au moment du paiement : chacun tire son propre [rang d’enchantement](/wiki/06-Items/Overview.md#item-enchants) avec les mêmes chances qu’une pièce que vous fabriquez à l’Assemblage, la plupart sortent donc Standard, et un rang plus élevé, jusqu’à Éternel, avec des bonus, est une trouvaille rare.
+Les cartes à un seul exemplaire sont de l’**équipement**, et seul un donjon d’étape 3 peut en proposer. Une pièce d’équipement est forgée pour chaque pilote payé au moment du paiement : chacun tire son propre [rang d’enchantement](/wiki/06-Items/Overview.md#item-enchants) avec les mêmes chances qu’une pièce que vous fabriquez à l’Assemblage, la plupart sortent donc Standard, et un rang plus élevé, jusqu’à Ascendant, avec des bonus, est une trouvaille rare. Chaque pièce tire aussi son [intégrité](/wiki/06-Items/Forge.md#integrity-and-fractures), comme le fait une pièce fabriquée.
 
 ## Paie {#pay}
 
 À la chute du Seigneur de guerre, tout pilote qui l’a mérité est payé, une fois par partie. Les cartes choisies par le groupe s’ajoutent à la paie de l’étape. Il n’y a pas de multiplicateur de monde : la paie est la même dans tous les mondes.
 
-Les **Orvium Reinforced Plates** ne sont pas une carte du vote. Elles font partie de la paie de l’étape, et chaque pilote payé les reçoit une fois pour la réussite. Les objets que paie la réussite ne sont pas vendables : vous ne pouvez pas [les vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
+Les **Orvium Reinforced Plates** et les **Echo Shards** et **Lattice Shards** de la Forge ne sont pas une carte du vote. Elles font partie de la paie de l’étape, et chaque pilote payé les reçoit une fois pour la réussite. Les **Heartshards** sont payés autrement : la ligne sous le tableau explique comment. Les objets que paie la réussite ne sont pas vendables : vous ne pouvez pas [les vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Étape | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Points de classement PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 600 |
-| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 1 500 |
-| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 400 |
+| Étape | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
+| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
+| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+
+- **Heartshards** : 1 à la première réussite payée de chaque étape d’une saison, et 5 % de chances d’en obtenir un de plus à chaque réussite payée.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Ce qu’un pilote peut toucher en un jour, et dans la meilleure semaine que perm
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Paie de chaque pilote | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Points de classement PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 4 500 |
-| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 21 300 |
+| Paie de chaque pilote | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
+| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
 
-L’expérience d’une étape terminée et payée compte pour vos points de classement PvE : un point pour chaque tranche de 1 000 d’expérience.
+L’expérience et l’honneur d’une étape terminée et payée comptent pour vos points de classement PvE : un point pour chaque tranche de 1 000 d’expérience et un pour chaque tranche de 100 d’honneur.
 
 <!-- dungeons-totals:end -->
 

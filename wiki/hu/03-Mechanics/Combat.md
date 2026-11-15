@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -132,8 +132,8 @@ A beérkező sebzés a pajzsok és az életerő között oszlik meg a hajód **�
 Minden vállalat otthoni bázisa (az X-1 térképek) biztonságos zónákat tartalmaz.
 - Ha belépsz egy biztonságos zónába, a hajód teljesen sebezhetetlenné válik.
 - **A védelem megszakadása**: ha megtámadsz egy ellenséget, azonnal megszűnik a biztonságos zóna adta sebezhetetlenséged, még akkor is, ha fizikailag egy zónán belül tartózkodsz.
-- Minden állomás és portál körül egy gyűrű véd, ha eltelt 5 másodperc azóta, hogy találat ért, és 15 azóta, hogy tüzeltél. Amíg véd, és nem vagy harcban, a hangár ablak lehetővé teszi, hogy a játék elhagyása nélkül hajót válts: lásd [A hangár repülés közben](/wiki/03-Mechanics/Hangar.md).
-- Állomások csak az otthoni bázisokon (`x-1`) vannak. A veszélyes szektorokban (`DS-1`–`DS-4`) nincs egy sem: ott a portálok körüli gyűrűk az egyetlen biztonságos zónák.
+- Minden otthoni bázis állomása és minden portál körül egy gyűrű véd, ha eltelt 5 másodperc azóta, hogy találat ért, és 15 azóta, hogy tüzeltél. Amíg véd, és nem vagy harcban, a hangár ablak lehetővé teszi, hogy a játék elhagyása nélkül hajót válts: lásd [A hangár repülés közben](/wiki/03-Mechanics/Hangar.md).
+- Állomások az otthoni bázisokon (`x-1`) és a határszektorokban (`x-4`) vannak, de gyűrűje csak az otthoni bázis állomásának van: a határszektor Mission Control-állomása senkit sem véd. A veszélyes szektorokban (`DS-1`–`DS-4`) nincs egy sem: ott a portálok körüli gyűrűk az egyetlen biztonságos zónák.
 
 ### 3. Támadás alatt egy veszélyes szektorban {#3-under-attack-in-a-danger-sector}
 

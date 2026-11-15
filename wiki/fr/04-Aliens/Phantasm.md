@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
+<!-- wiki-i18n source: c83f8d8564862f06 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,6 +31,7 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 - **Ship Fragment** : 100 % de chances (min. : 1, max. : 1)
 - **Daraxium** : 60 % de chances (min. : 1, max. : 2)
 - **Nyxite** : 60 % de chances (min. : 1, max. : 2)
+- **Echo Shard** : 1 % de chances (min. : 1, max. : 1)
 
 ## Histoire {#lore}
 

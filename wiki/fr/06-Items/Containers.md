@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Conteneurs -->
 # Conteneurs {#containers}
 
@@ -225,7 +225,7 @@ Les vaisseaux sont listés avec leurs probabilités de base. Un vaisseau que vou
 
 *Les Dormant bâtissaient en cristal violet-noir veiné de violet, et leurs archivistes rangeaient la couleur dans de fines plaques de verre qui repeignent tout ce sur quoi on les presse. Chaque Archive chromatique est une pile scellée de ces plaques, indexée par les coloristes de Mission Control et lue par personne jusqu’à ce qu’un pilote l’ouvre.*
 
-L’Archive chromatique tire d’abord la catégorie, puis un look de cette catégorie que vous ne possédez pas encore, chaque look étant également probable. Une collection est une seule récompense : elle vous donne chacun de ses skins que vous n’avez pas. La probabilité du tableau est celle d’un pilote qui ne possède aucun des looks de la catégorie. Elle monte à mesure que vous collectionnez, car il reste moins de looks dans le tirage. Les looks eux-mêmes sont sous [Cosmétiques](/wiki/06-Items/Cosmetics.md).
+L’Archive chromatique tire d’abord la catégorie, puis un look de cette catégorie que vous ne possédez pas encore, chaque look étant également probable. Une collection est une seule récompense : elle vous donne un skin de celle-ci, pour un modèle de vaisseau : celui de votre vaisseau actif s’il vous manque, sinon celui d’un autre vaisseau que vous possédez, sinon le premier qui vous manque. Le vaisseau concerné est fixé par une règle, pas par un tirage : rien d’autre n’est tiré. La probabilité du tableau est celle d’un pilote qui ne possède aucun des looks de la catégorie. Elle monte à mesure que vous collectionnez, car il reste moins de looks dans le tirage. Les looks eux-mêmes sont sous [Cosmétiques](/wiki/06-Items/Cosmetics.md).
 
 ### Probabilités des catégories {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Doublons et récupération {#duplicates-and-salvage}
 
-- Un **look** que vous possédez n’est pas tiré tant que la catégorie a encore un look que vous ne possédez pas. Une collection compte comme possédée quand vous avez chacun de ses skins.
+- Un **look** que vous possédez n’est pas tiré tant que la catégorie a encore un look que vous ne possédez pas. Une collection compte comme possédée quand vous avez chacun de ses skins. D’ici là, elle peut sortir de nouveau, chaque fois avec un skin qui vous manque.
 - Quand vous possédez chaque look de la catégorie, la récompense verse de la **récupération** à la place : du Thulium, selon la catégorie. Elle compte comme une récompense de cette catégorie pour la garantie.
 - Les **objets** ne sont jamais changés en Thulium : ils s’empilent, ou arrivent tels quels.
 - Les **vaisseaux** ne sont jamais donnés deux fois ni versés en récupération (voir [Les vaisseaux](#the-ships)).

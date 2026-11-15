@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski egy repülő kereskedő. Békés NPC-hajó, amely naponta egyszer jön 
 
 ## A hajója {#his-ship}
 
-Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden alkatrészfajta legjobbjával, Eternal szintre kovácsolva:
+Egy aranyra festett **Ironclad TITANIC**, a TITANIC saját méretében, minden alkatrészfajta legjobbjával, Felemelkedett fokozatra kovácsolva:
 
 | Mi | Tárgy |
 |---|---|

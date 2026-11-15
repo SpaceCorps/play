@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: 单人星门 -->
 # 单人星门 {#solo-gates}
 
@@ -50,7 +50,7 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 ### 没有部件的扫描 {#a-spin-without-a-part}
 
-大多数扫描找不到部件。每一次都会发放一份奖品，按下面的几率抽取：第二档倍率或更高的激光弹药、第二档或第三档的火箭堆，以及偶尔出现的[特殊物品](/wiki/06-Items/Special-Items.md)或[容器](/wiki/06-Items/Containers.md)。无法发放的奖品（比如你已经持有该特殊物品的上限）会在同一次抽取中变成一堆弹药或火箭，所以一次扫描绝不会比它的表格少发。奖品的价值明显低于一次扫描的花费：星门是 Thulium 的消耗口。
+大多数扫描找不到部件。每一次都会发放一份奖品，按下面的几率抽取：第二档倍率或更高的激光弹药、第二档或第三档的火箭堆，以及偶尔出现的[特殊物品](/wiki/06-Items/Special-Items.md)或[容器](/wiki/06-Items/Containers.md)。无法发放的奖品（比如特殊物品或容器被关闭）会在同一次抽取中变成一堆弹药或火箭，所以一次扫描绝不会比它的表格少发。奖品的价值明显低于一次扫描的花费：星门是 Thulium 的消耗口。
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Chrono-Gate 的部件会在重置时归零，你每个赛季都要重新找。**
 
 - 星门的部件：它们在**你建造时一次性**扣除，被拒绝的建造不会扣除任何东西；
 - 没有其他未结束的单人对局：同一时间只能有一局，离开的对局要先通过传送门重新进入或放弃，才能建造另一座星门；
-- 你在主服务器上（区域服务器没有星门）。
+- 你在主服务器上（星门只在主服务器上建造：在区域服务器上你要先返回基地）。
 
-建好的星门以一个以它命名的传送门的形式立在你的**主星区**（`M-1`、`T-1` 或 `G-1`，取决于你的企业），星系之门页面会告诉你它在哪里。**出击，飞到传送门并跃迁**，和穿过任何传送门一样。进入时你的世界里必须有空闲的裂隙：每个世界有一定数量的裂隙，全部被占用时你需要等待。
+建好的星门以一个以它命名的传送门的形式立在你的**主星区**（`M-1`、`T-1` 或 `G-1`，取决于你的企业），星系之门页面会告诉你它在哪里。**出击，飞到传送门并跃迁**，和穿过任何传送门一样。进入时你的世界里必须有空闲的裂隙：每个世界有一定数量的裂隙，全部被占用时你需要等待。你只会看到**自己的**星门：同一星区内其他飞行员星门的传送门不会显示给你。
 
-**在区域服务器上（Singapore、US East）。**星门本身留在主服务器：在区域服务器上不会建造、游玩或结算任何东西。但已建好的星门在那里不会被忘记：你到达时会收到提示，你的星门的传送门在那里同样立在你的主星区。跃迁穿过它，你会被带回主服务器，在那里按上文所述出击进入你的星门。
+**在区域服务器上（Singapore、US East）。**建好的星门在那里同样可以游玩。你的星门的传送门在区域服务器上和在主服务器上一样立在你的主星区，你到达时会收到提示。**跃迁穿过它，你会进入那台服务器的一个竞技场**，延迟是那台服务器的，而不是主服务器的。区域服务器每个世界只有**两个竞技场**，主服务器则多得多：两个都被占用时你需要等待，就像在主服务器上等待空闲的裂隙一样。保管你的一局、你的零件和你的报酬的，仍然只有主服务器一处：主服务器数完这一局后，报酬才会进入你的钱包，通常在结束后几秒，**飞行窗口里的钱包会在你停靠时同步**。上一局数完之后，你才能进入下一局。你留在竞技场里的一局可以通过传送门再次进入；想放弃它，就在竞技场里或在基地放弃。如果区域服务器的竞技场被关闭，它的传送门会改为把你送回主服务器，你在那里按上文所述出击进入你的星门。区域服务器上还有哪些内容可用，请见[服务器](/wiki/03-Mechanics/Servers.md)。
 
 你独自降落在一个空旷竞技场的中央。里面没有人能攻击你，Jump CPU 和 Base CPU 也无法使用。
 
@@ -161,7 +161,7 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 
 ## 通关发放什么 {#what-a-clear-pays}
 
-通关会在 Boss 死亡的那一刻**一次性**发放它的表格：信用点、Thulium、经验值和荣誉、矿石、装甲板和 Power Core，以及弹药。经验值会像地下城的一样计入你的 PvE 排名积分。
+通关会在 Boss 死亡的那一刻**一次性**发放它的表格：信用点、Thulium、经验值和荣誉、矿石、装甲板和 Power Core，以及弹药。经验值和荣誉会像地下城的一样计入你的 PvE 排名积分。
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400；弹药：Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
-- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100；弹药：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
-- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15；弹药：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
-- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3；弹药：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
-- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10；弹药：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6；弹药：Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13；弹药：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27；弹药：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44；弹药：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54；弹药：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Heartshard**：本赛季每个星门首次通关获得1个，之后每次通关有5%的几率再获得1个。
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Boss 是放大了的外星人飞船，有自己的船体、护盾和齐射，星
 
 ### 外星人 {#the-aliens}
 
-你在星门中击杀的每个外星人，无论你在哪个世界飞行，都按它在 Alpha 的数字发放：世界倍率、增益和高级会员加成都不会改变它们。一波对它的外星人每局**只发放一次**，不管你离开再回来多少次。奖励在这一局每一段结束时到账：当你离开、死亡、生命用尽、放弃或通关时。只有重置，以及你在星门内时服务器重启，才会让一段中的击杀得不到发放（这一局仍保持开启，但那一段的击杀会丢失）。星门中的击杀会在发生的当下计入**没有指明星区**的[任务](/wiki/03-Mechanics/Quests.md#where-it-counts)（例如挑战任务线中的大型猎杀）（一波对这些任务每局**只计一次**，就像它只发放一次一样），除此之外不计入其他任何东西：不计入击杀统计、成就计数器、击杀播报，也不计入你的无人机和 P.E.T. 的经验值。不过它们发放的经验值会像通关的经验值一样计入你的 PvE 排名积分。外星人的战利品随奖励一起直接进入你的背包。
+你在星门中击杀的每个外星人，无论你在哪个世界飞行，都按它在 Alpha 的数字发放：世界倍率、增益和高级会员加成都不会改变它们。一波对它的外星人每局**只发放一次**，不管你离开再回来多少次。奖励在这一局每一段结束时到账：当你离开、死亡、生命用尽、放弃或通关时。只有重置，以及你在星门内时服务器重启，才会让一段中的击杀得不到发放（这一局仍保持开启，但那一段的击杀会丢失）。星门中的击杀会在发生的当下计入**没有指明星区**的[任务](/wiki/03-Mechanics/Quests.md#where-it-counts)（例如挑战任务线中的大型猎杀）（一波对这些任务每局**只计一次**，就像它只发放一次一样），除此之外不计入其他任何东西：不计入击杀统计、成就计数器、击杀播报，也不计入你的无人机和 P.E.T. 的经验值。不过它们发放的经验值和荣誉会像通关的经验值和荣誉一样计入你的 PvE 排名积分。外星人的战利品随奖励一起直接进入你的背包。
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

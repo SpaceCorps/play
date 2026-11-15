@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
@@ -20,11 +20,11 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 | **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon | 144 000 | 350 | 14 |
 | **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire | 600 000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink | 500 000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom | 256 000 | 210 | 15 |
-| **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher | 268 800 | 210 | 14 |
-| **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod | 307 200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 laserplats, +1 stödplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff | 256 000 | 210 | 13 |
-| **Wraith MATT** | +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning | 256 000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom | 256 000 | 210 | 14 |
+| **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher | 268 800 | 210 | 13 |
+| **Wraith MENATI** | +20 % basskrov, +20 bashastighet, +5 % sköldabsorption, Heal Pod | 307 200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 laserplats, +1 stödplats, +25 % sköldkapacitet, +10 % sköldabsorption, Shield Buff | 256 000 | 210 | 12 |
+| **Wraith MATT** | +2 laserplatser, -20 % sköldkapacitet, +10 % lasrarnas sköldgenomträngning | 256 000 | 210 | 15 |
 
 ## Få en design {#getting-a-design}
 
@@ -63,7 +63,7 @@ Skeppet som byggs om är det du äger av den sorten (en Paragon för THUNDER, BU
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Alla fyra** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Tillsammans kräver de 510 Dark Matter, utöver de 789 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 384 för alla teknologier i spelet.
+Tillsammans kräver de 510 Dark Matter, utöver de 979 som alla andra teknologier kräver, och modulnivåerna i Skylab kräver 115 till: 1 604 för alla teknologier i spelet.
 
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 

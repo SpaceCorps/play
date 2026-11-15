@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar -->
 # Uçuşta Hangar {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Gemini değiştirmek için üsse dönmen gerekmez. Güvenli bir bölgenin içind
 
 Değişiklik yalnızca bunların hepsi doğruyken yapılabilir:
 
-- **Bir güvenli bölge seni koruyor.** Her istasyonun ve portalın koruyucu bir halkası vardır ([Savaş](/wiki/03-Mechanics/Combat.md) sayfasına bak). Halkanın içinde, vurulduğundan beri 5 ve ateş ettiğinden beri 15 saniye geçince korunursun.
+- **Bir güvenli bölge seni koruyor.** Her ana üssün istasyonunun ve her portalın koruyucu bir halkası vardır ([Savaş](/wiki/03-Mechanics/Combat.md) sayfasına bak); bir sınır sektörünün Mission Control istasyonunun yoktur. Halkanın içinde, vurulduğundan beri 5 ve ateş ettiğinden beri 15 saniye geçince korunursun.
 - **Çatışmanın dışında kalmış olmalısın**: birkaç saniye daha, varsayılan olarak **10**. Bir portaldan sıçrayıp arkanda bir çatışma bırakarak hemen korumalı vardığında bu önemlidir.
 - Gizlenmiş değilsin, kendi EMP süren içinde değilsin ve [kara deliğe](/wiki/03-Mechanics/Black-Hole.md) yakın değilsin; havada hâlâ sana ait bir roket de yok.
 

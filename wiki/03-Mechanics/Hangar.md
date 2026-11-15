@@ -8,7 +8,7 @@ You don't have to return to base to change your ship. From inside a safe zone yo
 
 A change is allowed only while all of these are true:
 
-- **A safe zone protects you.** Every station and portal has a protective ring (see [Combat](/wiki/03-Mechanics/Combat.md)). Inside it you're protected once 5 seconds have passed since you were hit and 15 since you fired.
+- **A safe zone protects you.** Every home base's station and every portal has a protective ring (see [Combat](/wiki/03-Mechanics/Combat.md)); the Mission Control station of a border sector has none. Inside it you're protected once 5 seconds have passed since you were hit and 15 since you fired.
 - **You have been out of combat** for a few more seconds: **10** by default. It matters when you arrive protected at once, through a portal, with a fight behind you.
 - You are not cloaked, not inside your own EMP's window and not near the [black hole](/wiki/03-Mechanics/Black-Hole.md), and you have no rocket of yours still in the air.
 

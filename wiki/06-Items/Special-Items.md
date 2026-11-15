@@ -10,7 +10,7 @@
 ## In one minute
 
 - **Six kinds.** The Magic Hammer, Schematics, the Philosopher's Stone, the Tinkerer's Badge, the Forger's Seal and the Workforce Contract. Each is described below with its numbers.
-- **Where.** The Hangar's inventory shows a tile for each kind you hold, among the consumables, with how many you have. Hover a tile to read what the item does, and click it to use it (for the Workforce Contract you pick the worker first). The Magic Hammer and the Tinkerer's Badge work on something you pick, so a click does nothing and their tile says where to use them: the Skylab and the Forge. The page the item works on shows a button too, when you hold one: the module of an upgrade in the Skylab, the running research, the Forge's Tier up panel and the Production Queue.
+- **Where.** The Hangar's inventory shows a tile for each kind you hold, among the consumables, with how many you have. Hover a tile to read what the item does, and click it to use it (for the Workforce Contract you pick the worker and how many contracts to spend first). The Magic Hammer and the Tinkerer's Badge work on something you pick, so a click does nothing and their tile says where to use them: the Skylab and the Forge. The page the item works on shows a button too, when you hold one: the module of an upgrade in the Skylab, the running research, the Forge's Tier up panel and the Production Queue.
 - **It asks first.** Every use opens a sheet that says exactly what will happen and what it uses. Using is final: it can't be undone. If a use is refused, nothing is spent.
 - **They stay.** Your special items, and the Philosopher's Stone or the contract that is running, stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Anywhere.** You can use them while you fly: none of them needs your ship landed.
@@ -18,16 +18,16 @@
 
 ## The six at a glance
 
-| Item | Rarity | You can hold | What it does |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Legendary | 5 | Finishes one Skylab upgrade at once |
-| **Schematics** | Rare | 20 | Takes 24 hours off the research that is running; finishes it if 24 hours or less are left |
-| **Philosopher's Stone** | Epic | 10 | Your Credit Farm and Thulium Farm make twice as much for 10 hours |
-| **Tinkerer's Badge** | Epic | 10 | Raises a piece of equipment one Forge tier, from Tainted up |
-| **Forger's Seal** | Uncommon | 99 | Skips up to 30 minutes of the Production Queue |
-| **Workforce Contract** | Common | 99 | Hires a Foreman, an Engineer or a Hauler for 1 hour |
+| Item | Rarity | What it does |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Legendary | Finishes one Skylab upgrade at once |
+| **Schematics** | Rare | Takes 24 hours off the research that is running; finishes it if 24 hours or less are left |
+| **Philosopher's Stone** | Epic | Your Credit Farm and Thulium Farm make twice as much for 10 hours |
+| **Tinkerer's Badge** | Epic | Raises a piece of equipment one Forge tier, from Standard on |
+| **Forger's Seal** | Uncommon | Skips up to 30 minutes of the Production Queue |
+| **Workforce Contract** | Common | Hires a Foreman, an Engineer or a Hauler for 1 hour |
 
-The rarity is the game's usual scale, and **You can hold** is the most of one kind your account keeps: a gift that would pass it is refused whole, not cut.
+The rarity is the game's usual scale. There is **no limit** on how many of one kind your account holds: a gift is never refused because you already have many.
 
 ## The six
 
@@ -37,12 +37,12 @@ Finishes **one Skylab upgrade at once**: pick the module that is being upgraded 
 
 - **The price stays paid.** What the upgrade cost was taken when you started it. The Hammer refunds none of it and asks for nothing more.
 - **Only a running upgrade.** A module that is not being upgraded, or whose upgrade has just ended by itself, is refused ("Nothing to finish: that module is not being upgraded.") and the Hammer stays with you.
-- **Extremely rare.** The Skylab keeps its levels through the wipe, so a Hammer is worth the time of a step, up to 6 days on the Core. There is no waiting time between two Hammers, and you can hold 5.
+- **Extremely rare.** The Skylab keeps its levels through the wipe, so a Hammer is worth the time of a step, up to 6 days on the Core. There is no waiting time between two Hammers, and no limit on how many you can hold.
 - **The Engineer** (a [Workforce Contract](#workforce-contract)) shortens upgrades by up to 1 hour; the Hammer takes all that is left.
 
 ### Schematics
 
-Takes **24 hours off the research that is running now**. If **24 hours or less** are left, the research is **finished** at once; if more is left, it loses 24 hours and goes on, and you can use another Schematics on it. 167 of the 187 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) take 24 hours or less, so one Schematics finishes them from the start. The other 20 take longer, 48 or 72 hours for most and 96, 168 and 240 hours for the Rocket Launchers III, IV and V, and need 2 to 10 Schematics.
+Takes **24 hours off the research that is running now**. If **24 hours or less** are left, the research is **finished** at once; if more is left, it loses 24 hours and goes on, and you can use another Schematics on it. 187 of the 209 technologies of the [Research Centre](/wiki/03-Mechanics/Research.md) take 24 hours or less, so one Schematics finishes them from the start. The other 22 take longer, 48 or 72 hours for most and 96, 168 and 240 hours for the Rocket Launchers III, IV and V, and need 2 to 10 Schematics.
 
 - **Hours of the technology, not of the clock.** The 24 hours are the technology's own research time, the one on its card. The Thulium boost makes a research run faster but does not change what a use takes off, so when a boost would have covered the end of the research, a use saves fewer hours of waiting (at double speed a day of research is 12 hours of waiting). The confirmation says what the timer will show.
 - **The research goes on as it was.** A research that loses 24 hours keeps its place: the boost keeps running, the queue is untouched and nothing starts behind it. A research that is waiting for science still waits: Schematics give time, not fuel.
@@ -62,12 +62,12 @@ For **10 hours** of real time your **Credit Farm and Thulium Farm make twice as 
 
 ### Tinkerer's Badge {#tinkerers-badge}
 
-Raises **one piece of equipment by one Forge tier**. It **always works** and costs **no Credits, no Thulium and no materials**. It is the [Forge](/wiki/06-Items/Forge.md)'s Tier up with the dice and the price taken away.
+Raises **one piece of equipment by one Forge tier**. It **always works** and costs **no Credits, no Thulium and no materials**. It is the [Forge](/wiki/06-Items/Forge.md)'s Tier up with the price taken away.
 
-- **From Tainted up.** The piece must already be **Tainted or better** (tier 2 and up of Standard, Tainted, Godly, Rupturing and Eternal). A Standard piece is refused, because the Forge's first step always works anyway.
-- **One step.** A Badge on a Tainted piece makes it Godly, on a Godly piece Rupturing, on a Rupturing piece Eternal.
-- **The buffs are rolled as in the Forge.** The same ranges and the same chances to fill a new slot, so a Badge piece is like a Forge piece.
-- **The Forge's other rules hold.** One single piece that can carry buffs; not in the Transport Cache; not already Eternal. A piece on a ship works at its new tier at once, and it keeps its Marketable label.
+- **From Standard on.** The piece may be at any tier below Ascendant: even the first step, Standard to Awakened, takes a Badge.
+- **One step.** A Badge on a Standard piece makes it Awakened, on an Awakened piece Resonant, on a Resonant piece Radiant, on a Radiant piece Ascendant.
+- **The buffs are rolled as in the Forge.** Each buff the piece holds is rolled again in the new tier's range and the better value is kept, and a socket wakes, so a Badge piece is like a Forge piece.
+- **The Forge's other rules hold.** One single piece that can carry buffs; not in the Transport Cache; not already Ascendant. A piece on a ship works at its new tier at once, and it keeps its Marketable label.
 - You find it as a second button beside **Tier up** in the Forge, shown when you hold a Badge and the picked piece qualifies.
 
 ### Forger's Seal {#forgers-seal}
@@ -82,12 +82,12 @@ Skips **up to 30 minutes** of your **Production Queue**: the queue moves up by t
 
 ### Workforce Contract
 
-Hires **one of three Skylab workers for 1 hour**. You pick the worker when you use the contract. **One contract at a time:** a second one is refused while one runs, and it is not spent. A worker with nothing to work on yet (no producer, no Ore Bay, no module built) is refused as well and the contract stays with you.
+Hires **one of three Skylab workers for 1 hour**. You pick the worker when you use the contract, and **how many contracts to spend**: type a number or press **All**. Several contracts make **one window** of that many hours of that one worker (12 contracts are 12 hours of the Foreman), and the table below is for each hour of it. **One window at a time:** a second use is refused while one runs, it does not add time to it, and nothing is spent. A worker with nothing to work on yet (no producer, no Ore Bay, no module built) is refused as well and the contracts stay with you.
 
 | Worker | For 1 hour |
 | :--- | :--- |
 | **Foreman** | Every producer makes twice as much: the Credit Farm, the Thulium Farm, the Velkonite and Orvium Collectors, the Ammo Printer and the Rocket Factory. It counts like the Stone: only while a module is producing, and a full hopper wastes it. The Forgery and the Ore Bay are not producers in this sense |
-| **Engineer** | Skylab upgrades run at double speed: every upgrade that is running ends sooner, by 1 hour at most and never by more than half of what it had left; an upgrade you start inside the hour is shortened by at most what is left of the hour, and never by more than half |
+| **Engineer** | Skylab upgrades run at double speed: every upgrade that is running ends sooner, by 1 hour at most for each contract spent and never by more than half of what it had left; an upgrade you start inside the window is shortened by at most what is left of the window, and never by more than half |
 | **Hauler** | The Ore Bay has no allowance limit: it moves as much as your cargo and the room in the Resource Storage allow. The allowance it had stored is left untouched afterwards |
 
 The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/03-Mechanics/Skylab.md#ore-bay) stays: it must be built, switched on, not upgrading and powered, and your ship must be landed.
@@ -97,7 +97,7 @@ The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/0
 - **A count, not an item.** The Hangar's inventory is the only place that lists them, as tiles among the consumables; a kind you hold none of has no tile. A tile is not an item, so it can't be dragged, selected, deleted or sold. They have no weight, no hotbar slot and no place in cargo or the Transport Cache; they never drop when your ship is destroyed.
 - **Through the wipe.** Your special items and a running Philosopher's Stone or contract are kept, like the Skylab, the research and your looks.
 - **Never traded.** Not on the [Auction](/wiki/03-Mechanics/Auction.md), not to another pilot, not for Credits.
-- **Only the Hammer can move your pace**, and you can hold only 5. The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, 24 hours of one research.
+- **Only the Hammer can move your pace.** The other five are small by design: 10 hours of two farms, 1 hour of a worker, one tier, 30 minutes of a queue, 24 hours of one research.
 - **One use, one confirmation, one sound.** Each use plays its own quiet cue.
 
 ## Common mistakes
@@ -105,7 +105,7 @@ The Hauler lifts only the allowance. Everything else about the [Ore Bay](/wiki/0
 - **The Hammer needs a running upgrade.** Start the upgrade first. A module whose timer has already ended has nothing left to finish.
 - **A long research needs several Schematics.** One takes 24 hours off, not more: a technology of 240 hours takes ten. The sheet tells you how much will be left before you confirm.
 - **The Stone does not stretch the hopper.** Collect before a farm fills, or the bonus is lost.
-- **The Badge is for Tainted and up.** The first step of the Forge needs no Badge.
+- **An Ascendant piece takes no Badge.** It is at the top tier: there is nothing left to raise.
 - **A contract needs work to do.** Build a producer, an Ore Bay or a module first, then hire the worker.
 - **Check the sheet.** It names the item and what it uses; using is final.
 

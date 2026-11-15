@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
+<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,6 +39,7 @@ Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wi
 
 - **Ship Fragment**: 20 % Chance (Min.: 1, Max.: 1)
 - **Daraxium**: 50 % Chance (Min.: 1, Max.: 2)
+- **Echo Shard**: 0,4 % Chance (Min.: 1, Max.: 1)
 
 ## Hintergrund {#lore}
 

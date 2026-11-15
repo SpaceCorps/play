@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski は飛び回る商人です。1日に1回、誰にも知らされない
 
 ## 彼の艦 {#his-ship}
 
-金色に塗られた**Ironclad TITANIC**。TITANIC本来の大きさで、あらゆる種類のパーツの最高のものを積み、Eternalまで鍛えられています。
+金色に塗られた**Ironclad TITANIC**。TITANIC本来の大きさで、あらゆる種類のパーツの最高のものを積み、昇華まで鍛えられています。
 
 | 項目 | アイテム |
 |---|---|

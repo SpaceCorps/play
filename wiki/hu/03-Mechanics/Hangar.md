@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangár -->
 # A hangár repülés közben {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ A hajód cseréjéhez nem kell visszatérned a bázisra. Biztonságos zónán be
 
 Egy módosítás csak akkor engedélyezett, amíg mindez igaz:
 
-- **Biztonságos zóna véd.** Minden állomásnak és portálnak védőgyűrűje van (lásd: [Harc](/wiki/03-Mechanics/Combat.md)). Ezen belül akkor vagy védett, ha 5 másodperc telt el azóta, hogy eltaláltak, és 15 azóta, hogy lőttél.
+- **Biztonságos zóna véd.** Minden otthoni bázis állomásának és minden portálnak védőgyűrűje van (lásd: [Harc](/wiki/03-Mechanics/Combat.md)); a határszektor Mission Control-állomásának nincs. Ezen belül akkor vagy védett, ha 5 másodperc telt el azóta, hogy eltaláltak, és 15 azóta, hogy lőttél.
 - **Harcon kívül voltál** még néhány másodpercig: alapértelmezetten **10**. Ez akkor számít, ha azonnal védetten érkezel, egy portálon át, harccal a hátad mögött.
 - Nem vagy álcázva, nem vagy a saját EMP-d ablakában, és nem vagy a [feketelyuk](/wiki/03-Mechanics/Black-Hole.md) közelében, és nincs a levegőben egyetlen saját rakétád sem.
 

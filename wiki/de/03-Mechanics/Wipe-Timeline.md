@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d82752d05f62aea -->
+<!-- wiki-i18n source: 78857435732fea9b -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -179,7 +179,7 @@ Beim Wipe gehen **Credits über 5.000.000.000 (5 Milliarden)** und **Thulium üb
 
 ## Frische Punkte {#fresh-points}
 
-Deine **Rangpunkte** zählen, was du **seit dem letzten Wipe** verdient hast: die gewonnenen Level, die Erfahrung und die Alien-Abschüsse dieser Saison. Beim Wipe fangen sie wieder bei null an, und dein alter Rang kommt in deinen Saisonverlauf. **Die Ehre bestimmt deinen Rang nicht**, und deine Gesamtzahlen (Level, Erfahrung, Ehre, Abschüsse) bleiben, wie sie sind. Siehe [Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
+Deine **Rangpunkte** zählen, was du **seit dem letzten Wipe** verdient hast: die gewonnenen Level, die Erfahrung, die Ehre und die Alien-Abschüsse dieser Saison. Beim Wipe fangen sie wieder bei null an, und dein alter Rang kommt in deinen Saisonverlauf. Deine Gesamtzahlen (Level, Erfahrung, Ehre, Abschüsse) bleiben, wie sie sind. Siehe [Ränge](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
 Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt: Der Wipe, der Saison 1 abschloss, bezahlte die Ränge der Saison 1 nach den Punkten deiner ganzen Laufbahn.
 
@@ -226,7 +226,7 @@ Deine angesammelten WP kannst du für dauerhafte Buffs ausgeben, die für immer 
 * **Ehren-Boost**: +0,1 % gewonnene Ehre pro Level (max. 50 % / 500 Level) - *Kosten: 10 WP*
 * **Trefferpunkte-Boost**: +0,1 % maximale HP pro Level (max. 50 % / 500 Level) - *Kosten: 15 WP*
 * **Schildkapazitäts-Boost**: +0,1 % maximale Schilde (Schild-**Kapazität**) pro Level (max. 50 % / 500 Level) - *Kosten: 10 WP*
-* **Schildabsorptions-Boost**: +0,1 Punkte deiner Schild-**Absorption** pro Level (max. +10 Punkte / 100 Level) - *Kosten: 25 WP*. Absorption ist der Anteil jedes Treffers, den deine Schilde nehmen (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); der Buff fügt ihr feste Punkte hinzu: 100 Wipe-Punkte kaufen 4 Level (+0,4 Punkte), 300 kaufen 12 (+1,2), 500 kaufen 20 (+2,0), und alle 1.105 Wipe-Punkte, die die Quellen in einem Wipe zahlen, kaufen 44 (+4,4 Punkte). Am Maximum (100 Level, 2.500 WP: ein Ziel für mehrere Wipes, denn die Quellen zahlen höchstens 1.105 in einem Wipe und dein Rang bringt 5 bis 400 dazu) würden aus 91 % (dem Besten ab Werk) 101 % und aus den 45 % eines Light Shield Core 55 %. Der Wert ist nicht auf 100 % begrenzt: Die *Schilddurchdringung* des Angreifers wird davon abgezogen, was über 100 % liegt, ist also ein Spielraum. Mit den Wipe-Punkten eines Wipes in diesem Buff und einem voll geschmiedeten Set aus Schilden und Zellen der Stufe Ewig erreicht ein Schiff etwa 104 % bis 109 %. (Bis 0.4.5 fügte dieser Buff einen Anteil der Absorption selbst hinzu, 0,1 % davon pro Level, zum gleichen Preis; die Punkte sind bei jeder Absorption gleich viel oder mehr wert, bereits gekaufte Level haben also nichts verloren; bis 0.4.2 erhöhte er stattdessen die *Aufladerate* der Schilde; heute erhöht kein dauerhafter Buff die Aufladung.)
+* **Schildabsorptions-Boost**: +0,1 Punkte deiner Schild-**Absorption** pro Level (max. +10 Punkte / 100 Level) - *Kosten: 25 WP*. Absorption ist der Anteil jedes Treffers, den deine Schilde nehmen (siehe [Schildmechanik](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); der Buff fügt ihr feste Punkte hinzu: 100 Wipe-Punkte kaufen 4 Level (+0,4 Punkte), 300 kaufen 12 (+1,2), 500 kaufen 20 (+2,0), und alle 1.105 Wipe-Punkte, die die Quellen in einem Wipe zahlen, kaufen 44 (+4,4 Punkte). Am Maximum (100 Level, 2.500 WP: ein Ziel für mehrere Wipes, denn die Quellen zahlen höchstens 1.105 in einem Wipe und dein Rang bringt 5 bis 400 dazu) würden aus 91 % (dem Besten ab Werk) 101 % und aus den 45 % eines Light Shield Core 55 %. Der Wert ist nicht auf 100 % begrenzt: Die *Schilddurchdringung* des Angreifers wird davon abgezogen, was über 100 % liegt, ist also ein Spielraum. Mit den Wipe-Punkten eines Wipes in diesem Buff und einem voll geschmiedeten Set aus Schilden und Zellen der Stufe Aufgestiegen erreicht ein Schiff etwa 104 % bis 109 %. (Bis 0.4.5 fügte dieser Buff einen Anteil der Absorption selbst hinzu, 0,1 % davon pro Level, zum gleichen Preis; die Punkte sind bei jeder Absorption gleich viel oder mehr wert, bereits gekaufte Level haben also nichts verloren; bis 0.4.2 erhöhte er stattdessen die *Aufladerate* der Schilde; heute erhöht kein dauerhafter Buff die Aufladung.)
 * **Glücks-Boost**: +0,1 % Beutechance von Aliens pro Level (max. 10 % / 100 Level) - *Kosten: 15 WP*
 
 ### Wipe-Punkte verdienen {#earning-wipe-points}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar -->
 # L’Hangar in volo {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Non devi tornare alla base per cambiare la tua nave. Da dentro una zona sicura p
 
 Una modifica è consentita solo finché sono vere tutte queste condizioni:
 
-- **Una zona sicura ti protegge.** Ogni stazione e ogni portale ha un anello protettivo (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)). Al suo interno la protezione scatta quando sono passati 5 secondi dall’ultimo colpo che hai subito e 15 dall’ultimo sparo.
+- **Una zona sicura ti protegge.** La stazione di ogni base e ogni portale hanno un anello protettivo (vedi [Combattimento](/wiki/03-Mechanics/Combat.md)); la stazione Mission Control di un settore di confine non ne ha. Al suo interno la protezione scatta quando sono passati 5 secondi dall’ultimo colpo che hai subito e 15 dall’ultimo sparo.
 - **Sei fuori dal combattimento** da qualche secondo in più: **10** per impostazione predefinita. Conta quando arrivi già sotto protezione, attraverso un portale, con uno scontro alle spalle.
 - Non hai l’occultamento attivo, non sei dentro la finestra del tuo EMP né vicino al [buco nero](/wiki/03-Mechanics/Black-Hole.md), e non hai ancora in aria nessun tuo razzo.
 

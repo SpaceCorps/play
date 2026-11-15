@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd9c581d9c3cc64d -->
+<!-- wiki-i18n source: 56ff9739379ad0a6 -->
 <!-- wiki-i18n title: Conquistas -->
 # Conquistas {#achievements}
 
@@ -77,7 +77,7 @@ As 45 conquistas que não são ocultas, por grupo. Quando uma meta conta algo, e
 | Construtor de estações | Construa 5 módulos diferentes do Skylab. | Comum |
 | Totalmente equipado | Construa os 16 módulos do Skylab. | Épico |
 | Erudito | Pesquise 50 tecnologias. | Incomum |
-| Arquivista | Pesquise as 187 tecnologias. | Lendário |
+| Arquivista | Pesquise as 209 tecnologias. | Lendário |
 
 ### Frota {#group-fleet}
 
@@ -138,7 +138,7 @@ Na **versão da Steam** você pode vincular sua conta do jogo à sua conta da St
 - **Um para um.** Uma conta do jogo tem no máximo uma conta da Steam, e uma conta da Steam se vincula a uma só conta do jogo. Se uma conta da Steam já está vinculada a outro piloto, o jogo avisa e não vincula nada. Um administrador pode mover um vínculo à mão quando duas contas reivindicam a mesma conta da Steam.
 - **O que o servidor guarda** é o seu ID da Steam, o número público da sua conta da Steam, e o momento do vínculo. Ele não guarda mais nada da Steam: nem o seu nome na Steam, nem amigos, jogos ou senha. Só você e os administradores do jogo podem ver o ID; outros pilotos, nunca.
 - **Desvincule** no mesmo cartão, com a sua senha: o ID da Steam guardado é apagado imediatamente. Depois de desvincular, você só pode vincular outra conta da Steam após 24 horas; vincular a mesma de novo funciona na hora. Durante essas 24 horas o servidor guarda uma nota curta da desvinculação (o momento e um código embaralhado feito a partir do ID, só para saber se você vincula a mesma conta de novo) e depois a apaga.
-- **As conquistas chegam à Steam assim que você as consegue**, desde que a conta da Steam em uso seja a que você vinculou: a Steam mostra o próprio aviso alguns segundos depois do aviso do jogo. A cada login o jogo também confere o que falta à Steam e registra, então uma conquista obtida em um download direto, ou com a Steam fechada, chega nessa hora, e uma tentativa que falha é repetida sozinha. Enquanto você voa em outro servidor (um nó regional), nada é ganho nem enviado lá; de volta à estação, o jogo se atualiza. Offline, nada se perde: o jogo guarda o registro e a Steam fica sabendo depois.
+- **As conquistas chegam à Steam assim que você as consegue**, desde que a conta da Steam em uso seja a que você vinculou: a Steam mostra o próprio aviso alguns segundos depois do aviso do jogo. A cada login o jogo também confere o que falta à Steam e registra, então uma conquista obtida em um download direto, ou com a Steam fechada, chega nessa hora, e uma tentativa que falha é repetida sozinha. Enquanto você voa em outro servidor (um nó regional), nada é desbloqueado nem enviado à Steam lá; os inimigos que você destrói lá contam para as conquistas de destruição quando o servidor de origem salva o voo (uma destruição compartilhada com o seu grupo conta lá só para o piloto que a faz, não para os colegas de grupo, ao contrário do servidor de origem), e de volta à estação o jogo se atualiza com o resto. Offline, nada se perde: o jogo guarda o registro e a Steam fica sabendo depois. O que mais funciona em um servidor regional está em [Servidores](/wiki/03-Mechanics/Servers.md).
 - Os créditos e os títulos de uma conquista saem do registro do próprio servidor do jogo, nunca da Steam.
 
 ## Desde quando se conta {#when-counting-began}

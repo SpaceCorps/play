@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
+<!-- wiki-i18n source: c83f8d8564862f06 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,6 +31,7 @@ A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-
 - **Ship Fragment**: 100% di probabilità (min. 1, max. 1)
 - **Daraxium**: 60% di probabilità (min. 1, max. 2)
 - **Nyxite**: 60% di probabilità (min. 1, max. 2)
+- **Echo Shard**: 1% di probabilità (min. 1, max. 1)
 
 ## Storia {#lore}
 

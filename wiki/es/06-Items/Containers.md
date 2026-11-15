@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Contenedores -->
 # Contenedores {#containers}
 
@@ -225,7 +225,7 @@ Las naves aparecen con sus probabilidades base. Una nave que ya tienes nunca sal
 
 *Los Dormant construían con cristal negro violáceo de vetas violetas, y sus archivistas guardaban el color en finas placas de vidrio que vuelven a pintar todo aquello sobre lo que se presionan. Cada Archivo cromático es una pila sellada de esas placas, catalogada por los coloristas de Mission Control y leída por nadie hasta que un piloto la abre.*
 
-El Archivo cromático saca primero la categoría y luego un aspecto de esa categoría que aún no tengas, cada aspecto con la misma probabilidad. Una colección es un solo premio: te da todas sus skins que no tengas. La probabilidad de la tabla es la de un piloto que no tiene ninguno de los aspectos de la categoría. Sube a medida que coleccionas, porque quedan menos aspectos en el sorteo. Los aspectos en sí están en [Cosméticos](/wiki/06-Items/Cosmetics.md).
+El Archivo cromático saca primero la categoría y luego un aspecto de esa categoría que aún no tengas, cada aspecto con la misma probabilidad. Una colección es un solo premio: te da una skin de ella, para un modelo de nave: la de tu nave activa si te falta; si no, la de otra nave que tengas; si no, la primera que te falte. Para qué nave es lo decide una regla, no un sorteo, así que no se tira nada más. La probabilidad de la tabla es la de un piloto que no tiene ninguno de los aspectos de la categoría. Sube a medida que coleccionas, porque quedan menos aspectos en el sorteo. Los aspectos en sí están en [Cosméticos](/wiki/06-Items/Cosmetics.md).
 
 ### Probabilidades de las categorías {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Duplicados y reciclaje {#duplicates-and-salvage}
 
-- Un **aspecto** que tienes no sale mientras la categoría todavía tenga un aspecto que no tienes. Una colección cuenta como tuya cuando tienes todas sus skins.
+- Un **aspecto** que tienes no sale mientras la categoría todavía tenga un aspecto que no tienes. Una colección cuenta como tuya cuando tienes todas sus skins. Hasta entonces puede volver a salir, cada vez con una skin que te falte.
 - Cuando tienes todos los aspectos de la categoría, el premio paga **reciclaje** en su lugar: Thulium, según la categoría. Cuenta como un premio de esa categoría para la garantía.
 - Los **objetos** nunca se convierten en Thulium: se apilan o llegan tal cual.
 - Las **naves** nunca se dan dos veces ni se pagan como reciclaje (mira [Las naves](#the-ships)).

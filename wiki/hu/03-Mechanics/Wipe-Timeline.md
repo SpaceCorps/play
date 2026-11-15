@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d82752d05f62aea -->
+<!-- wiki-i18n source: 78857435732fea9b -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -179,7 +179,7 @@ A wipe-nál **az 5 000 000 000 (5 milliárd) feletti kredit** és **a 10 000
 
 ## Friss pontok {#fresh-points}
 
-A **rangpontjaid** azt számolják, amit **az utolsó wipe óta** szereztél: a nyert szinteket, a tapasztalatot és a szezon idegenkilövéseit. A wipe-nál újra nulláról indulnak, a régi rangod pedig bekerül a szezonjaid előzményei közé. **A becsület nem határozza meg a rangodat**, az összesített számaid (szint, tapasztalat, becsület, kilövések) pedig úgy maradnak, ahogy vannak. Lásd: [Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
+A **rangpontjaid** azt számolják, amit **az utolsó wipe óta** szereztél: a nyert szinteket, a tapasztalatot, a becsületet és a szezon idegenkilövéseit. A wipe-nál újra nulláról indulnak, a régi rangod pedig bekerül a szezonjaid előzményei közé. Az összesített számaid (szint, tapasztalat, becsület, kilövések) úgy maradnak, ahogy vannak. Lásd: [Rangok](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
 A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol: az a wipe, amely az 1. szezont lezárta, a teljes pályafutásod pontjai alapján fizette ki az 1. szezon rangjait.
 
@@ -226,7 +226,7 @@ Az összegyűjtött WP-det állandó buffokra költheted, amelyek örökre átí
 * **Honor Boost**: +0,1% szerzett becsület szintenként (max. 50% / 500 szint) - *Ár: 10 WP*
 * **Hitpoints Boost**: +0,1% maximális életerő (HP) szintenként (max. 50% / 500 szint) - *Ár: 15 WP*
 * **Shield Capacity Boost**: +0,1% maximális pajzs (a pajzs **kapacitása**) szintenként (max. 50% / 500 szint) - *Ár: 10 WP*
-* **Shield Absorbance Boost**: szintenként +0,1 pont a pajzsod **elnyeléséhez** (max. +10 pont / 100 szint) - *Ár: 25 WP*. Az elnyelés az a rész, amelyet a pajzsaid minden találatból felfognak (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); a buff fix pontokat ad hozzá: 100 wipe-pont 4 szintet vesz (+0,4 pont), 300 12-t (+1,2), 500 20-at (+2,0), a források által egy wipe-ban fizetett mind az 1 105 wipe-pont pedig 44-at (+4,4 pont). A maximumon (100 szint, 2 500 WP: több wipe-ra szóló cél, mert a források egy wipe-ban legfeljebb 1 105-et fizetnek, a rangod pedig 5-től 400-ig ad hozzá) a 91% (az alapból elérhető legjobb) 101%-ra, egy Light Shield Core 45%-a pedig 55%-ra nőne. Az érték nincs 100%-ra korlátozva: abból levonják a támadó *pajzsáthatolását*, így ami 100% fölé jut, az tartalék. Ha egy wipe wipe-pontjait ebbe a buffba teszed, és egy teljesen kovácsolt, Örök ritkaságú pajzs- és cellaszettel játszol, egy hajó nagyjából 104–109%-ot ér el. (A 0.4.5-ös verzióig ez a buff magának az elnyelésnek egy hányadát adta hozzá, szintenként 0,1%-át, ugyanazon az áron; a pontok minden elnyelésnél ugyanannyit vagy többet érnek, így a már megvásárolt szintek nem veszítettek semmit; a 0.4.2-es verzióig ez a buff a pajzs *töltődési* sebességét növelte; ma már egyetlen állandó buff sem növeli a töltődést.)
+* **Shield Absorbance Boost**: szintenként +0,1 pont a pajzsod **elnyeléséhez** (max. +10 pont / 100 szint) - *Ár: 25 WP*. Az elnyelés az a rész, amelyet a pajzsaid minden találatból felfognak (lásd [Pajzsmechanika](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); a buff fix pontokat ad hozzá: 100 wipe-pont 4 szintet vesz (+0,4 pont), 300 12-t (+1,2), 500 20-at (+2,0), a források által egy wipe-ban fizetett mind az 1 105 wipe-pont pedig 44-at (+4,4 pont). A maximumon (100 szint, 2 500 WP: több wipe-ra szóló cél, mert a források egy wipe-ban legfeljebb 1 105-et fizetnek, a rangod pedig 5-től 400-ig ad hozzá) a 91% (az alapból elérhető legjobb) 101%-ra, egy Light Shield Core 45%-a pedig 55%-ra nőne. Az érték nincs 100%-ra korlátozva: abból levonják a támadó *pajzsáthatolását*, így ami 100% fölé jut, az tartalék. Ha egy wipe wipe-pontjait ebbe a buffba teszed, és egy teljesen kovácsolt, Felemelkedett ritkaságú pajzs- és cellaszettel játszol, egy hajó nagyjából 104–109%-ot ér el. (A 0.4.5-ös verzióig ez a buff magának az elnyelésnek egy hányadát adta hozzá, szintenként 0,1%-át, ugyanazon az áron; a pontok minden elnyelésnél ugyanannyit vagy többet érnek, így a már megvásárolt szintek nem veszítettek semmit; a 0.4.2-es verzióig ez a buff a pajzs *töltődési* sebességét növelte; ma már egyetlen állandó buff sem növeli a töltődést.)
 * **Luck Boost**: +0,1% zsákmányesély az idegenektől szintenként (max. 10% / 100 szint) - *Ár: 15 WP*
 
 ### Wipe-pontok szerzése {#earning-wipe-points}

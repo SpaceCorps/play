@@ -80,6 +80,7 @@ Tesseract의 보상은 그 전투의 무게에 걸맞습니다. 수많은 Crysta
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20, 파일럿당 최대 5 |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

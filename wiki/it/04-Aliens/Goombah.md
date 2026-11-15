@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-
 - **Quorvium**: 100% di probabilità (min. 2, max. 4)
 - **Reinforced Hull Plate**: 60% di probabilità (min. 1, max. 1)
 - **Power Core**: 25% di probabilità (min. 1, max. 1)
+- **Echo Shard**: 5% di probabilità (min. 1, max. 1)
 
 ## Storia {#lore}
 

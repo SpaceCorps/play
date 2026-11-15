@@ -57,7 +57,7 @@ Basis: Wraith mit 100 % der Hülle und 300 % des Laserschadens; Tempo und Reic
 | :--- | ---: | ---: | ---: |
 | Hülle | 256.000 | 384.000 | 512.000 |
 | Schild | 83.400 | 125.100 | 166.800 |
-| Laserschaden (eine Salve pro Sekunde) | 3.570 | 5.355 | 7.140 |
+| Laserschaden (eine Salve pro Sekunde) | 3.315 | 4.973 | 6.630 |
 | Tempo | 210 | 210 | 210 |
 | Laserreichweite | 800 | 800 | 800 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |
@@ -75,6 +75,7 @@ Basis: Wraith mit 100 % der Hülle und 300 % des Laserschadens; Tempo und Reic
 | Ultra Core und Experimental Fusion Core, gleichmäßig aufgeteilt | 100 % | 2.000–3.000 insgesamt |
 | Eine der 4 epischen [Raketen](/wiki/06-Items/Rockets.md), zufällig gewählt | 100 % | 30–50 |
 | Eines von [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) und [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), zufällig gewählt | 50 % | 1 |
+| Heartshard | 5 % | 1 |
 
 ### Dormant Pulse
 

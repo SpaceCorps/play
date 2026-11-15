@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Container -->
 # Container {#containers}
 
@@ -225,7 +225,7 @@ Die Schiffe stehen mit ihren Basischancen in der Tabelle. Ein Schiff, das du sch
 
 *Die Dormant bauten in violettschwarzem Kristall mit violetten Adern, und ihre Archivare lagerten Farbe in dünnen Glasplatten, die alles neu färben, worauf man sie presst. Jedes Chroma-Archiv ist ein versiegelter Stapel dieser Platten, von den Koloristen von Mission Control verzeichnet und von niemandem gelesen, bis ein Pilot es öffnet.*
 
-Das Chroma-Archiv zieht zuerst die Stufe und dann einen Look dieser Stufe, den du noch nicht besitzt, jeder Look gleich wahrscheinlich. Eine Kollektion ist eine Belohnung: Sie gibt dir jeden Skin davon, den du nicht hast. Die Chance in der Tabelle gilt für einen Piloten, der keinen der Looks der Stufe besitzt. Sie steigt, während du sammelst, weil weniger Looks in der Ziehung bleiben. Die Looks selbst stehen unter [Kosmetik](/wiki/06-Items/Cosmetics.md).
+Das Chroma-Archiv zieht zuerst die Stufe und dann einen Look dieser Stufe, den du noch nicht besitzt, jeder Look gleich wahrscheinlich. Eine Kollektion ist eine Belohnung: Sie gibt dir einen Skin davon, für ein Schiffsmodell: den deines aktiven Schiffs, wenn er dir fehlt, sonst den eines anderen Schiffs, das du besitzt, sonst den ersten, der dir fehlt. Für welches Schiff er ist, ist eine Regel und keine Ziehung, es wird also nichts weiter gewürfelt. Die Chance in der Tabelle gilt für einen Piloten, der keinen der Looks der Stufe besitzt. Sie steigt, während du sammelst, weil weniger Looks in der Ziehung bleiben. Die Looks selbst stehen unter [Kosmetik](/wiki/06-Items/Cosmetics.md).
 
 ### Chancen der Stufen {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Duplikate und Verwertung {#duplicates-and-salvage}
 
-- Ein **Look**, den du besitzt, wird nicht gezogen, solange die Stufe noch einen Look hat, den du nicht besitzt. Eine Kollektion gilt als besessen, wenn du jeden Skin davon hast.
+- Ein **Look**, den du besitzt, wird nicht gezogen, solange die Stufe noch einen Look hat, den du nicht besitzt. Eine Kollektion gilt als besessen, wenn du jeden Skin davon hast. Bis dahin kann sie erneut kommen, jedes Mal mit einem Skin, der dir fehlt.
 - Besitzt du jeden Look der Stufe, zahlt die Belohnung stattdessen **Verwertung**: Thulium, nach Stufe. Sie zählt für die Garantie als Belohnung dieser Stufe.
 - **Gegenstände** werden nie in Thulium verwandelt: Sie stapeln sich oder kommen, wie sie sind.
 - **Schiffe** werden nie zweimal gegeben und nie als Verwertung gezahlt (siehe [Die Schiffe](#the-ships)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -12,7 +12,7 @@ Les **objets spéciaux** sont six objets à usage unique qui vous font gagner du
 ## En une minute {#in-one-minute}
 
 - **Six sortes.** Le Magic Hammer, Schematics, la Philosopher’s Stone, le Tinkerer’s Badge, le Forger’s Seal et le Workforce Contract. Chacun est décrit plus bas avec ses chiffres.
-- **Où.** L’inventaire du Hangar montre une case pour chaque sorte que vous possédez, parmi les consommables, avec la quantité. Survolez une case pour lire ce que fait l’objet, et cliquez dessus pour l’utiliser (pour le Workforce Contract, vous choisissez d’abord l’ouvrier). Le Magic Hammer et le Tinkerer’s Badge agissent sur quelque chose que vous choisissez : un clic ne fait donc rien, et leur case dit où les utiliser, dans le Skylab et dans la Forge. La page sur laquelle l’objet agit montre aussi un bouton quand vous en possédez un : le module d’une amélioration dans le Skylab, la recherche en cours, le panneau de montée de rang de la Forge et la file de production.
+- **Où.** L’inventaire du Hangar montre une case pour chaque sorte que vous possédez, parmi les consommables, avec la quantité. Survolez une case pour lire ce que fait l’objet, et cliquez dessus pour l’utiliser (pour le Workforce Contract, vous choisissez d’abord l’ouvrier et le nombre de contrats à dépenser). Le Magic Hammer et le Tinkerer’s Badge agissent sur quelque chose que vous choisissez : un clic ne fait donc rien, et leur case dit où les utiliser, dans le Skylab et dans la Forge. La page sur laquelle l’objet agit montre aussi un bouton quand vous en possédez un : le module d’une amélioration dans le Skylab, la recherche en cours, le panneau de montée de rang de la Forge et la file de production.
 - **Il demande d’abord.** Chaque utilisation ouvre une fiche qui dit exactement ce qui va se passer et ce qu’elle consomme. L’utilisation est définitive : elle ne peut pas être annulée. Si une utilisation est refusée, rien n’est dépensé.
 - **Ils restent.** Vos objets spéciaux, et la Philosopher’s Stone ou le contrat en cours, restent après la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md).
 - **Partout.** Vous pouvez les utiliser en vol : aucun n’exige que votre vaisseau soit amarré.
@@ -20,16 +20,16 @@ Les **objets spéciaux** sont six objets à usage unique qui vous font gagner du
 
 ## Les six en un coup d’œil {#the-six-at-a-glance}
 
-| Objet | Rareté | Vous pouvez en garder | Ce qu’il fait |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Légendaire | 5 | Termine une amélioration du Skylab sur-le-champ |
-| **Schematics** | Rare | 20 | Retire 24 heures à la recherche en cours ; la termine s’il en reste 24 heures ou moins |
-| **Philosopher’s Stone** | Épique | 10 | Votre Ferme à crédits et votre Ferme à Thulium produisent le double pendant 10 heures |
-| **Tinkerer’s Badge** | Épique | 10 | Fait monter une pièce d’équipement d’un rang de Forge, à partir de Souillé |
-| **Forger’s Seal** | Peu commun | 99 | Saute jusqu’à 30 minutes de la file de production |
-| **Workforce Contract** | Commun | 99 | Engage un Foreman, un Engineer ou un Hauler pendant 1 heure |
+| Objet | Rareté | Ce qu’il fait |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Légendaire | Termine une amélioration du Skylab sur-le-champ |
+| **Schematics** | Rare | Retire 24 heures à la recherche en cours ; la termine s’il en reste 24 heures ou moins |
+| **Philosopher’s Stone** | Épique | Votre Ferme à crédits et votre Ferme à Thulium produisent le double pendant 10 heures |
+| **Tinkerer’s Badge** | Épique | Fait monter une pièce d’équipement d’un rang de Forge, dès Standard |
+| **Forger’s Seal** | Peu commun | Saute jusqu’à 30 minutes de la file de production |
+| **Workforce Contract** | Commun | Engage un Foreman, un Engineer ou un Hauler pendant 1 heure |
 
-La rareté suit l’échelle habituelle du jeu, et **Vous pouvez en garder** est le maximum d’une sorte que garde votre compte : un cadeau qui le dépasserait est refusé en entier, pas rogné.
+La rareté suit l’échelle habituelle du jeu. Le nombre d’une sorte que garde votre compte n’a **aucune limite** : un cadeau n’est jamais refusé parce que vous en avez déjà beaucoup.
 
 ## Les six {#the-six}
 
@@ -39,12 +39,12 @@ Termine **une amélioration du Skylab sur-le-champ** : choisissez le module en 
 
 - **Le prix reste payé.** Ce que l’amélioration a coûté a été prélevé quand vous l’avez lancée. Le Hammer n’en rembourse rien et ne demande rien de plus.
 - **Seulement une amélioration en cours.** Un module qui n’est pas en amélioration, ou dont l’amélioration vient de se terminer toute seule, est refusé (« Rien à terminer : ce module n’est pas en cours d’amélioration. ») et le Hammer reste chez vous.
-- **Extrêmement rare.** Le Skylab garde ses niveaux à travers la réinitialisation, donc un Hammer vaut le temps d’une étape, jusqu’à 6 jours sur le Noyau. Il n’y a aucun délai d’attente entre deux Hammer, et vous pouvez en garder 5.
+- **Extrêmement rare.** Le Skylab garde ses niveaux à travers la réinitialisation, donc un Hammer vaut le temps d’une étape, jusqu’à 6 jours sur le Noyau. Il n’y a aucun délai d’attente entre deux Hammer, et vous pouvez en garder autant que vous voulez.
 - **L’Engineer** (un [Workforce Contract](#workforce-contract)) raccourcit les améliorations d’1 heure au plus ; le Hammer prend tout ce qui reste.
 
 ### Schematics
 
-Retire **24 heures à la recherche en cours**. S’il en reste **24 heures ou moins**, la recherche est **terminée** sur-le-champ ; s’il en reste plus, elle perd 24 heures et continue, et vous pouvez utiliser un autre Schematics dessus. 167 des 187 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) demandent 24 heures ou moins : un Schematics les termine donc dès le départ. Les 20 autres demandent plus, 48 ou 72 heures pour la plupart et 96, 168 et 240 heures pour les Rocket Launcher III, IV et V, et exigent de 2 à 10 Schematics.
+Retire **24 heures à la recherche en cours**. S’il en reste **24 heures ou moins**, la recherche est **terminée** sur-le-champ ; s’il en reste plus, elle perd 24 heures et continue, et vous pouvez utiliser un autre Schematics dessus. 187 des 209 technologies du [Centre de recherche](/wiki/03-Mechanics/Research.md) demandent 24 heures ou moins : un Schematics les termine donc dès le départ. Les 22 autres demandent plus, 48 ou 72 heures pour la plupart et 96, 168 et 240 heures pour les Rocket Launcher III, IV et V, et exigent de 2 à 10 Schematics.
 
 - **Des heures de la technologie, pas de l’horloge.** Les 24 heures sont le temps de recherche propre à la technologie, celui de sa fiche. Le boost de Thulium fait avancer une recherche plus vite, mais ne change pas ce qu’une utilisation retire ; si un boost couvrirait la fin de la recherche, une utilisation fait donc gagner moins d’heures d’attente (à double vitesse, une journée de recherche vaut 12 heures d’attente). La confirmation indique ce que le compte à rebours affichera.
 - **La recherche continue comme avant.** Une recherche qui perd 24 heures garde sa place : le boost continue, la file n’est pas touchée et rien ne démarre derrière elle. Une recherche qui attend de la science attend toujours : Schematics donne du temps, pas du carburant.
@@ -64,12 +64,12 @@ Pendant **10 heures** de temps réel, votre **Ferme à crédits et votre Ferme �
 
 ### Tinkerer’s Badge {#tinkerers-badge}
 
-Fait monter **une pièce d’équipement d’un rang de Forge**. Il **réussit toujours** et ne coûte **ni crédits, ni Thulium, ni matériaux**. C’est la montée de rang de la [Forge](/wiki/06-Items/Forge.md), sans les dés et sans le prix.
+Fait monter **une pièce d’équipement d’un rang de Forge**. Il **réussit toujours** et ne coûte **ni crédits, ni Thulium, ni matériaux**. C’est la montée de rang de la [Forge](/wiki/06-Items/Forge.md), sans le prix.
 
-- **À partir de Souillé.** La pièce doit déjà être **Souillé ou mieux** (rang 2 et plus parmi Standard, Souillé, Divin, Fracturant et Éternel). Une pièce Standard est refusée, car la première étape de la Forge réussit toujours de toute façon.
-- **Une étape.** Un Badge fait passer une pièce Souillé à Divin, une pièce Divin à Fracturant, une pièce Fracturant à Éternel.
-- **Les bonus sont tirés comme à la Forge.** Les mêmes plages et les mêmes chances de remplir un nouvel emplacement : une pièce de Badge vaut une pièce de Forge.
-- **Les autres règles de la Forge s’appliquent.** Une seule pièce pouvant porter des bonus ; pas dans le cache de transport ; pas déjà Éternel. Une pièce montée sur un vaisseau agit aussitôt avec son nouveau rang, et elle garde son étiquette Commercialisable.
+- **Dès Standard.** La pièce peut être à n’importe quel rang en dessous d’Ascendant : même la première étape, de Standard à Éveillé, accepte un Badge.
+- **Une étape.** Un Badge fait passer une pièce Standard à Éveillé, une pièce Éveillé à Résonant, une pièce Résonant à Radieux, une pièce Radieux à Ascendant.
+- **Les bonus sont tirés comme à la Forge.** Chaque bonus que porte la pièce est relancé dans la plage du nouveau rang et la meilleure valeur est gardée, et un emplacement s’éveille : une pièce de Badge vaut une pièce de Forge.
+- **Les autres règles de la Forge s’appliquent.** Une seule pièce pouvant porter des bonus ; pas dans le cache de transport ; pas déjà Ascendant. Une pièce montée sur un vaisseau agit aussitôt avec son nouveau rang, et elle garde son étiquette Commercialisable.
 - Vous le trouvez sous la forme d’un second bouton à côté de **Monter de rang** dans la Forge, visible quand vous possédez un Badge et que la pièce choisie convient.
 
 ### Forger’s Seal {#forgers-seal}
@@ -84,12 +84,12 @@ Saute **jusqu’à 30 minutes** de votre **file de production** : la file avanc
 
 ### Workforce Contract
 
-Engage **l’un des trois ouvriers du Skylab pendant 1 heure**. Vous choisissez l’ouvrier quand vous utilisez le contrat. **Un seul contrat à la fois :** un second est refusé tant qu’un contrat tourne, et il n’est pas dépensé. Un ouvrier qui n’a encore rien à faire (aucun producteur, aucune Baie à minerai, aucun module construit) est refusé lui aussi, et le contrat reste chez vous.
+Engage **l’un des trois ouvriers du Skylab pendant 1 heure**. Vous choisissez l’ouvrier quand vous utilisez le contrat, et **combien de contrats dépenser** : saisissez un nombre ou appuyez sur **Tous**. Plusieurs contrats forment **une période** d’autant d’heures de cet ouvrier-là (12 contrats font 12 heures de Foreman), et le tableau ci-dessous vaut pour chaque heure de celle-ci. **Une seule période à la fois :** une seconde utilisation est refusée tant qu’une période court, elle ne lui ajoute pas de temps, et rien n’est dépensé. Un ouvrier qui n’a encore rien à faire (aucun producteur, aucune Baie à minerai, aucun module construit) est refusé lui aussi, et les contrats restent chez vous.
 
 | Ouvrier | Pendant 1 heure |
 | :--- | :--- |
 | **Foreman** | Chaque producteur produit le double : la Ferme à crédits, la Ferme à Thulium, les Collecteurs de Velkonite et d’Orvium, l’Imprimante à munitions et l’Usine à roquettes. Cela compte comme la Stone : seulement quand un module produit, et un réservoir plein le gaspille. La Fonderie et la Baie à minerai ne sont pas des producteurs en ce sens |
-| **Engineer** | Les améliorations du Skylab avancent à double vitesse : chaque amélioration en cours se termine plus tôt, d’1 heure au plus et jamais de plus de la moitié de ce qui lui restait ; une amélioration que vous lancez dans l’heure est raccourcie d’au plus ce qui reste de l’heure, et jamais de plus de la moitié |
+| **Engineer** | Les améliorations du Skylab avancent à double vitesse : chaque amélioration en cours se termine plus tôt, d’1 heure au plus par contrat dépensé et jamais de plus de la moitié de ce qui lui restait ; une amélioration que vous lancez dans la période est raccourcie d’au plus ce qui reste de la période, et jamais de plus de la moitié |
 | **Hauler** | La Baie à minerai n’a aucune limite de quota : elle transfère autant que le permettent votre cargaison et la place de l’Entrepôt de ressources. Le quota qu’elle avait en réserve reste intact ensuite |
 
 Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-Mechanics/Skylab.md#ore-bay) demeure : elle doit être construite, allumée, sans amélioration en cours et alimentée en énergie, et votre vaisseau doit être amarré.
@@ -99,7 +99,7 @@ Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-
 - **Un compteur, pas un objet.** L’inventaire du Hangar est le seul endroit qui les liste, sous forme de cases parmi les consommables ; une sorte dont vous ne possédez aucun exemplaire n’a pas de case. Une case n’est pas un objet : on ne peut ni la glisser, ni la sélectionner, ni la supprimer, ni la vendre. Ils n’ont ni poids, ni emplacement de barre rapide, ni place dans la cargaison ou le cache de transport ; ils ne tombent jamais quand votre vaisseau est détruit.
 - **À travers la réinitialisation.** Vos objets spéciaux et une Philosopher’s Stone ou un contrat en cours sont conservés, comme le Skylab, la recherche et votre look.
 - **Jamais échangés.** Ni aux [Enchères](/wiki/03-Mechanics/Auction.md), ni à un autre pilote, ni contre des crédits.
-- **Seul le Hammer peut changer votre rythme**, et vous ne pouvez en garder que 5. Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, 24 heures d’une recherche.
+- **Seul le Hammer peut changer votre rythme.** Les cinq autres sont petits par conception : 10 heures de deux fermes, 1 heure d’un ouvrier, un rang, 30 minutes d’une file, 24 heures d’une recherche.
 - **Un usage, une confirmation, un son.** Chaque utilisation joue son propre signal discret.
 
 ## Erreurs courantes {#common-mistakes}
@@ -107,7 +107,7 @@ Le Hauler ne lève que le quota. Tout le reste de la [Baie à minerai](/wiki/03-
 - **Le Hammer exige une amélioration en cours.** Lancez d’abord l’amélioration. Un module dont le minuteur est déjà terminé n’a plus rien à terminer.
 - **Une longue recherche demande plusieurs Schematics.** Un seul retire 24 heures, pas plus : une technologie de 240 heures en demande dix. La fiche vous dit ce qu’il restera avant que vous confirmiez.
 - **La Stone n’agrandit pas le réservoir.** Récupérez avant qu’une ferme ne se remplisse, sinon le bonus est perdu.
-- **Le Badge est pour Souillé et au-dessus.** La première étape de la Forge n’a pas besoin de Badge.
+- **Une pièce Ascendant n’accepte pas de Badge.** Elle est déjà au rang le plus haut : il n’y a plus rien à faire monter.
 - **Un contrat a besoin de travail à faire.** Construisez d’abord un producteur, une Baie à minerai ou un module, puis engagez l’ouvrier.
 - **Vérifiez la fiche.** Elle nomme l’objet et ce qu’il consomme ; l’utilisation est définitive.
 

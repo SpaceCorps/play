@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 440dd341e5b80c44 -->
+<!-- wiki-i18n source: 52ee2498afd5ee6c -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,6 +32,7 @@ Bulwark は重装甲の防衛プラットフォームです。きわめて攻撃
 - **Cataclysite**：100%の確率（最小：2、最大：2）
 - **Reinforced Hull Plate**：30%の確率（最小：1、最大：1）
 - **Nyxite**：40%の確率（最小：1、最大：2）
+- **Echo Shard**：2%の確率（最小：1、最大：1）
 
 ## 伝承 {#lore}
 

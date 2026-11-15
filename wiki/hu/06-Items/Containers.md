@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Konténerek -->
 # Konténerek {#containers}
 
@@ -225,7 +225,7 @@ A hajók az alapesélyükkel szerepelnek. A hajó, amely már megvan neked, soha
 
 *A Dormant lila-fekete kristályból épített, ibolyaszín erekkel, és az archivistáik a színt vékony üveglemezeken tárolták, amelyek újrafestenek mindent, amihez hozzányomják őket. Minden Króma-archívum ilyen lemezek lezárt kötege, amelyet a Mission Control koloristái katalogizáltak, és senki sem olvasott, amíg egy pilóta meg nem nyitja.*
 
-A Króma-archívum először a fokozatot húzza, majd az adott fokozat egy olyan kinézetét, amely még nincs meg neked, minden kinézet egyenlő eséllyel. A gyűjtemény egy jutalom: minden skinjét megkapod, amely még nincs meg. A táblázat esélye olyan pilótára vonatkozik, akinek a fokozat egyik kinézete sincs meg. Gyűjtés közben nő, mert kevesebb kinézet marad a húzásban. Magukat a kinézeteket a [Kozmetika](/wiki/06-Items/Cosmetics.md) írja le.
+A Króma-archívum először a fokozatot húzza, majd az adott fokozat egy olyan kinézetét, amely még nincs meg neked, minden kinézet egyenlő eséllyel. A gyűjtemény egy jutalom: egy skint ad belőle, egy hajótípusra: az aktív hajódét, ha még nincs meg, különben egy másik saját hajódét, különben az elsőt, amelyik hiányzik. Hogy melyik hajóra szól, azt szabály dönti el, nem húzás, így semmi mást nem sorsol. A táblázat esélye olyan pilótára vonatkozik, akinek a fokozat egyik kinézete sincs meg. Gyűjtés közben nő, mert kevesebb kinézet marad a húzásban. Magukat a kinézeteket a [Kozmetika](/wiki/06-Items/Cosmetics.md) írja le.
 
 ### A fokozatok esélyei {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Duplikátumok és hasznosítás {#duplicates-and-salvage}
 
-- Egy **kinézetet**, amely megvan neked, nem húz ki, amíg a fokozatban van olyan kinézet, amely még nincs meg. A gyűjtemény akkor számít megvettnek, ha minden skinje megvan.
+- Egy **kinézetet**, amely megvan neked, nem húz ki, amíg a fokozatban van olyan kinézet, amely még nincs meg. A gyűjtemény akkor számít megvettnek, ha minden skinje megvan. Addig újra eshet, minden alkalommal egy olyan skinnel, amely még hiányzik.
 - Ha a fokozat minden kinézete megvan, a jutalom helyette **hasznosítást** fizet: Thuliumot, fokozat szerint. A garancia szempontjából ennek a fokozatnak a jutalmaként számít.
 - A **tárgyakat** soha nem váltják Thuliumra: halmozódnak, vagy úgy érkeznek, ahogy vannak.
 - A **hajókat** soha nem adják kétszer, és soha nem fizetik hasznosításként (lásd [A hajók](#the-ships)).

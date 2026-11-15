@@ -130,8 +130,8 @@ Incoming damage is divided between shields and hitpoints by your ship's **Averag
 Each faction's home base (X-1 maps) contains safe zones.
 - Entering a safe zone makes your ship completely immune to damage.
 - **Aggro Break**: Attacking an enemy will immediately remove your safe zone immunity, even if you are physically located inside one.
-- A ring around every station and portal protects you once 5 seconds have passed since you were hit and 15 since you fired. While it protects you and you're out of combat, the Hangar window lets you change your ship without leaving the game: see [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md).
-- Stations stand only in the home bases (`x-1`). The Danger Sectors (`DS-1` to `DS-4`) have none: there the rings around the jump gates are the only safe zones.
+- A ring around every home base's station and every portal protects you once 5 seconds have passed since you were hit and 15 since you fired. While it protects you and you're out of combat, the Hangar window lets you change your ship without leaving the game: see [The Hangar in Flight](/wiki/03-Mechanics/Hangar.md).
+- Stations stand in the home bases (`x-1`) and in the borders (`x-4`), but only a home base's station has a ring: the Mission Control station of a border protects nobody. The Danger Sectors (`DS-1` to `DS-4`) have none: there the rings around the jump gates are the only safe zones.
 
 ### 3. Under Attack in a Danger Sector
 

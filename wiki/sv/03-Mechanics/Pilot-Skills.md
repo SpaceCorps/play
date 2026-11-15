@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Pilotfärdigheter -->
 # Pilotfärdigheter {#pilot-skills}
 
@@ -15,7 +15,7 @@ En ny pilot är inte på full styrka. På nivå 1 gör en laser och en raket min
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Värden**: 19 värden: 4 attribut och 15 färdigheter i 5 grupper
+- **Värden**: 20 värden: 4 attribut och 16 färdigheter i 5 grupper
 - **Nivåer**: 1 till 100. Varje pilot startar varje värde på nivå 1, och det finns inget att spendera och inget att nollställa
 - **Kostnad för en nivå**: 40 XP från nivå 1 till 2, 875 XP från nivå 50 till 51, 19 157 XP från nivå 99 till 100; 313 258 XP totalt
 - **Vad en nivå ger**: En buff växer i rät linje från sitt värde på nivå 1 till sitt värde på nivå 100. Inget har tak
@@ -77,6 +77,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | **Undanmanöver** (Reflexer) | Chans att väja för en träff, lagd till skeppets egen | 0 % | 15 % |
 | **Taktik** (Reflexer) | Förmågornas varaktighet | ×1 | ×1,2 |
 | **Sköldabsorption** (Seghet) | Absorption hos dina sköldar | +0 punkter | +5 punkter |
+| **Läkning** (Tyngd) | Styrka hos dina egna reparationer och läkningar | ×1 | ×1,3 |
 
 ### Skeppsstyrning {#ship-control}
 
@@ -93,12 +94,13 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | **Utvinning** (Instinkt) | Vad Skylab tillverkar | ×1 | ×1,3 |
 | **Logistik** (Tyngd) | Vad Resurslagrets bank rymmer | ×1 | ×1,4 |
 | **Tillverkning** (Reflexer) | Tid för en tillverkning | ×1 | ×0,65 |
+|  | Integritetskostnad för en omläggning | ×1 | ×0,7 |
 
 ### Handel {#trading}
 
 | Värde | Vad det ändrar | Nivå 1 | Nivå 100 |
 | :--- | :--- | ---: | ---: |
-| **Handel** (Instinkt) | Priser i butiken | ×1 | ×0,85 |
+| **Handel** (Instinkt) | Priser i butiken samt krediter och Thulium för en tillverkning eller i Smedjan | ×1 | ×0,85 |
 |  | Vad butiken betalar vid återköp | ×1 | ×1,1 |
 |  | Deposition för en annons på Auktionen | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 - **Lasrar.** Laserteknik ändrar skadan i varje salva och chansen att den träffar; en salva som går fel visar ett svävande ”Miss” och förbrukar ändå sin ammunition ([Strid](/wiki/03-Mechanics/Combat.md#laser-tech)). Räckvidden på dina lasrar är skeppets egen: Skytte stiger av dina träffar med annan ammunition än vanlig x1, men verkar bara på Mine (nedan).
 - **Raketer.** Raketteknik ändrar skadan i varje raket och chansen att en blir en blindgångare ([Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Att ta träffar.** Seghet tar en andel av varje träff du får, Undanmanöver ökar chansen att en direktträff inte gör något, och Sköldabsorption ökar den andel av en träff som dina sköldar tar ([Strid](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Tyngd ökar ditt skrov.
+- **Läkning.** Läkning gör läkningen från din egen utrustning starkare: reparationen från din Repair Drone, en Emergency Repair och den Heal Pod du släpper ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Den tränas av skrovet som dina läkningar återställer; att läka ett skepp i en säker zon räknas inte. Support Rocket läker alltid samma fasta mängd, på alla nivåer, och ger ändå XP för Läkning.
 - **Förmågor.** Reflexer förkortar nedkylningen av dina förmågor och Taktik får dem att vara längre ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage förstärker gifterna.
 - **Mine.** Sabotage ökar skadan av en Mine, och Skytte kastar den snabbare och längre ([Extrautrustning](/wiki/06-Items/Extras.md#mine)).
 - **Hastighet.** Thrusterteori lägger till din hastighet, utöver motorerna och en Afterburner ([Hastighet](/wiki/03-Mechanics/Speed.md)).
 - **Plock.** Instinkt ökar chansen för varje bytesrad, som en Loot Luck Booster gör, och de två läggs ihop; Antimateria ökar den Dark Matter du plockar upp ([Last](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Strålning.** Strålningsteknik sänker dosen från det svarta hålet, grävmaskinernas cirklar, pulsarerna och Unwakened-auran ([Svart hål](/wiki/03-Mechanics/Black-Hole.md)).
-- **Hemma.** Utvinning och Logistik ändrar vad [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar och rymmer, Instinkt ökar dess två samlare, Tillverkning förkortar tillverkningarna i Montering, Vetenskap fyller [Forskningscentrum](/wiki/03-Mechanics/Research.md) snabbare, och Handel sänker priserna i butiken, höjer vad den betalar vid återköp och sänker depositionen för en annons på [Auktionen](/wiki/03-Mechanics/Auction.md).
+- **Hemma.** Utvinning och Logistik ändrar vad [Skylab](/wiki/03-Mechanics/Skylab.md) tillverkar och rymmer, Instinkt ökar dess två samlare, Tillverkning förkortar tillverkningarna i Montering, Vetenskap fyller [Forskningscentrum](/wiki/03-Mechanics/Research.md) snabbare, och Handel sänker priserna i butiken och krediterna och Thulium för tillverkningarna i Montering, höjer vad butiken betalar vid återköp och sänker depositionen för en annons på [Auktionen](/wiki/03-Mechanics/Auction.md). I [Smedjan](/wiki/06-Items/Forge.md) sänker Handel krediterna och Thulium för ett steg och krediterna för en sammanslagning ([Nivå upp](/wiki/06-Items/Forge.md#tier-up)), och Tillverkning sänker den integritet som en omläggning tar från en del ([Integritet och sprickor](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Hur XP betalas {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ Tabellen listar vad som betalar XP, värde för värde. XP:n gäller för varje 
 | **Undanmanöver** (Reflexer) | Varje fientlig attack mot dig som missar eller väjs för | 1 | 600 XP i timmen |
 | **Taktik** (Reflexer) | Varje förmåga du trycker på med en fiende inom laserräckvidd | 2 | 600 XP i timmen |
 | **Sköldabsorption** (Seghet) | Varje 1 % av din maximala sköld som fiendens träffar tar | 0,1 | 300 XP i timmen |
+| **Läkning** (Tyngd) | Varje 1 % av ett skepps maximala skrov som en läkning av dig återställer | 0,1 | 300 XP i timmen |
 | **Strålningsteknik** (Seghet) | Varje sekund inne i ett strålningsband | 0,2 | Ingen |
 |  | Varje 1 % av ditt maximala skrov som strålningen tar | 1 |  |
 | **Thrusterteori** (Tyngd) | Varje sekund flugen över 80 % av ditt skepps hastighet, dubbelt så mycket under en Afterburner | 0,1 | Ingen |
@@ -186,14 +190,16 @@ En nivå kostar mer XP än den förra, med en fast andel, så de första nivåer
 
 ## Sidan Pilotfärdigheter {#the-pilot-skills-page}
 
-Sidan **Pilotfärdigheter** är en sida i stationen, med en egen rad i sidofältet. Den är ett kompakt blad över hela trädet: attributen och de fem grupperna av färdigheter står bredvid varandra i kolumner (tre på en bred skärm, färre på en smal), med en rad för varje värde, dess nivå vid högra kanten och ett tunt XP-fält under. Ett värde som ännu inte har tjänat någon XP är grått, med ett streck som nivå. Håll pekaren över en rad för att se vad värdet gör, vilket attribut som styr det eller vilka färdigheter det tränar, dess XP och vad som får det att växa. Klicka på en rad för att öppna dess detaljer under dess kolumnrad: samma ord, XP-fältet och ett reglage för att förhandsvisa vilken nivå som helst från 1 till den sista, med en liten tabell över vad värdet ändrar på nivå 1, på din nivå nu, på nivån du förhandsvisar och på den sista nivån. Bara ett värde är öppet åt gången; klicka på raden igen, använd stängknappen eller tryck på Esc för att lägga undan det. Raden i sidofältet får ett märke när ett värde har stigit i nivå sedan du senast öppnade sidan, och ett kort i Boosters-fönstret sammanfattar vad dina färdigheter ändrar.
+Sidan **Pilotfärdigheter** är en sida i stationen, med en egen rad i sidofältet. Den är ett blad över hela trädet: attributen och de fem grupperna av färdigheter är **kort** som ligger bredvid varandra (tre på en bred skärm, färre på en smal; när bladet har plats för fyra kolumner står Strids sex färdigheter i två kolumner inne i sitt kort). En färdighet är en rad med en symbol på en bricka till vänster, dess namn och dess nivå i en **ring** vid högra kanten som fylls på i takt med att nivåns XP växer. Brickan och ringen har färgen hos det attribut som styr färdigheten (Tyngd grön, Seghet blå, Reflexer guld, Instinkt violett), så trädet går att läsa av på färgerna. En färdighet som ännu inte har tjänat någon XP är grå, med ett streck som nivå i en tom ring (Laserteknik och Raketteknik visar alltid sin nivå). Håll pekaren över en rad för att se vad färdigheten gör, vilket attribut som styr den eller vilka färdigheter den tränar, dess XP och vad som får den att växa; under tiden lyser det attribut som styr den, eller de färdigheter den tränar, upp.
+
+Detaljerna för en färdighet är samma ord, XP-fältet och ett reglage för att förhandsvisa vilken nivå som helst från 1 till den sista, med en liten tabell över vad färdigheten ändrar på nivå 1, på din nivå nu, på nivån du förhandsvisar och på den sista nivån. **På en tillräckligt bred sida** (detaljernas två halvor står då sida vid sida) står detaljerna för den valda färdigheten alltid längst ner på sidan: bladets första färdighet tills du klickar på en annan, sedan den du klickade på. Ett klick väljer, det finns ingen stängknapp och Esc stänger dem inte. **På en smalare sida och i flygfönstret** öppnar ett klick på en rad i stället detaljerna som en remsa under dess rad av kort, för en färdighet i taget: klicka på raden igen, använd stängknappen eller tryck på Esc för att lägga undan den. Raden i sidofältet får ett märke när en färdighet har stigit i nivå sedan du senast öppnade sidan, och ett kort i Boosters-fönstret sammanfattar vad dina färdigheter ändrar.
 
 I flykten är samma blad fönstret **Pilotfärdigheter**. Öppna det med knappen Pilotfärdigheter i verktygsfältet (på en bred skärm) eller med dess tangent, som standard K (Inställningar, Styrning). Det är ett fönster som de andra: flytta det, ändra dess storlek, och det kommer ihåg sin plats och om det var öppet. Det visar bara dina färdigheter: nivåerna ändras när flygningens XP-rader kommer in, och ett klick på en rad öppnar samma detaljer i fönstret.
 
 ## Vad som behålls {#what-is-kept}
 
 - **Genom varje wipe.** Trädet är en del av ditt konto: en wipe ändrar ingen nivå och ingen XP, och Transportförrådet har inget med det att göra ([Vad du behåller](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **På de regionala servrarna.** Den XP du tjänar när du flyger på Singapore eller US East läggs till dina färdigheter när du kommer hem, ett värde du använde där för första gången inräknat, och den timgräns du förbrukade där följer med dig. Sidan Pilotfärdigheter för en pilot som flyger där läser den regionala serverns tal, med den XP skeppet har tjänat sedan sin senaste sparning.
+- **På de regionala servrarna.** Den XP du tjänar när du flyger på Singapore eller US East läggs till dina färdigheter när du kommer hem, ett värde du använde där för första gången inräknat, och den timgräns du förbrukade där följer med dig. Sidan Pilotfärdigheter för en pilot som flyger där läser den regionala serverns tal, med den XP skeppet har tjänat sedan sin senaste sparning. Vad som mer fungerar på en regional server står i [Servrar](/wiki/03-Mechanics/Servers.md).
 - **Tills kontot raderas.** Att radera ett konto raderar dess nivåer.
 
 Buffarna har inget annat tak än den sista nivån: en pilot som har höjt allt är så stark som tabellerna säger.

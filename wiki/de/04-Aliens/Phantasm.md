@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
+<!-- wiki-i18n source: c83f8d8564862f06 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,6 +31,7 @@ Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wi
 - **Ship Fragment**: 100 % Chance (Min.: 1, Max.: 1)
 - **Daraxium**: 60 % Chance (Min.: 1, Max.: 2)
 - **Nyxite**: 60 % Chance (Min.: 1, Max.: 2)
+- **Echo Shard**: 1 % Chance (Min.: 1, Max.: 1)
 
 ## Hintergrund {#lore}
 

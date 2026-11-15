@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Konteynerler -->
 # Konteynerler {#containers}
 
@@ -225,7 +225,7 @@ Gemiler temel şanslarıyla listelenir. Sende zaten olan bir gemi hiç çıkmaz,
 
 *Dormant mor-siyah kristalden, mor damarlarla inşa ederdi; arşivcileri rengi, üzerine bastırılan her şeyi yeniden boyayan ince cam plakalarda saklardı. Her Kroma Arşivi, Mission Control’ün renkçileri tarafından dizinlenmiş ve bir pilot açana kadar hiç kimse tarafından okunmamış, mühürlü bir plaka yığınıdır.*
 
-Kroma Arşivi önce sınıfı, sonra o sınıftan sende henüz olmayan bir görünümü çeker; her görünümün şansı eşittir. Bir koleksiyon tek bir ödüldür: sende olmayan tüm skinlerini verir. Tablodaki şans, sınıfın görünümlerinden hiçbirine sahip olmayan bir pilot içindir. Topladıkça yükselir, çünkü çekilişte daha az görünüm kalır. Görünümlerin kendisi [Kozmetikler](/wiki/06-Items/Cosmetics.md) sayfasındadır.
+Kroma Arşivi önce sınıfı, sonra o sınıftan sende henüz olmayan bir görünümü çeker; her görünümün şansı eşittir. Bir koleksiyon tek bir ödüldür: o koleksiyondan bir skin verir, bir gemi modeli için: sende yoksa aktif geminin skinini, yoksa sahip olduğun başka bir geminin skinini, o da yoksa sende olmayan ilk skini. Hangi gemi için olduğunu çekiliş değil bir kural belirler, bu yüzden başka bir şey çekilmez. Tablodaki şans, sınıfın görünümlerinden hiçbirine sahip olmayan bir pilot içindir. Topladıkça yükselir, çünkü çekilişte daha az görünüm kalır. Görünümlerin kendisi [Kozmetikler](/wiki/06-Items/Cosmetics.md) sayfasındadır.
 
 ### Sınıfların şansları {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Kopyalar ve geri dönüşüm {#duplicates-and-salvage}
 
-- Sahip olduğun bir **görünüm**, sınıfta sende olmayan bir görünüm kaldığı sürece çekilmez. Bir koleksiyon, tüm skinlerine sahip olduğunda sahip olunmuş sayılır.
+- Sahip olduğun bir **görünüm**, sınıfta sende olmayan bir görünüm kaldığı sürece çekilmez. Bir koleksiyon, tüm skinlerine sahip olduğunda sahip olunmuş sayılır. O zamana kadar yeniden çıkabilir ve her seferinde sende olmayan bir skin verir.
 - Sınıftaki her görünüme sahip olduğunda ödül onun yerine **geri dönüşüm** öder: sınıfa göre Thulium. Garanti için o sınıftan bir ödül sayılır.
 - **Eşyalar** asla Thulium’a çevrilmez: üst üste yığılır ya da olduğu gibi gelir.
 - **Gemiler** asla iki kez verilmez ve asla geri dönüşüm olarak ödenmez (bkz. [Gemiler](#the-ships)).

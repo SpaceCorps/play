@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 314633d7fdaa8d6f -->
+<!-- wiki-i18n source: 0c9164c462c27a1a -->
 <!-- wiki-i18n title: Araştırma -->
 # Araştırma {#research}
 
@@ -21,7 +21,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 - **Depo.** Merkez, bilim puanını 1. seviyede 12 sa araştırma alan ve her seviyede %25 daha fazlasını alan bir depoda tutar (aşağıdaki tablo).
 - **Yakıttan bilime.** Beslediğin bir kaynak, yakıt tablosunun gösterdiği gibi hemen bilim puanına dönüşür. Bir araştırma, araştırma süresinin her saniyesi için 1 bilim puanı yakar; depo boşken bekler ve Araştırma Merkezi’ni beslediğinde devam eder.
 - **Ücretsiz ilk saat.** Yeni bir Merkez, deposunda 3.600 bilim puanıyla başlar: 1 sa araştırma.
-- **Birer birer.** Merkez aynı anda tek bir teknoloji araştırır, ama Sıraya al düğmesiyle arkasına 5 tane daha ekleyebilirsin. Her biri, öncekinin bittiği anda, sen yokken bile kendiliğinden başlar. Sıraya eklerken hiçbir şey ödenmez: bir teknoloji, başladığı anda kendi Dark Matter miktarını alır ve sıradaki biri ücretsiz olarak geri çıkarılabilir.
+- **Birer birer.** Merkez aynı anda tek bir teknoloji araştırır, ama Sıraya al düğmesiyle arkasına 5 tane daha ekleyebilirsin. Her biri, öncekinin bittiği anda, sen yokken bile kendiliğinden başlar. Sıraya eklerken hiçbir şey ödenmez: bir teknoloji, başladığı anda kendi Dark Matter miktarını alır ve sıradaki biri ücretsiz olarak geri çıkarılabilir. Bekleyenlerin sırasını, sıra kartındaki satırlarında yer alan oklarla değiştirebilirsin: en üste, bir yukarı, bir aşağı. Süren araştırma hiç yer değiştirmez ve bir teknolojiyi ihtiyaç duyduğu teknolojinin önüne koyacak bir sıra reddedilir.
 - **Sen yokken.** Araştırma sunucunun saatine göre işler, bu yüzden çıkış yaptıktan sonra da, bitene ya da depo boşalana kadar sürer. Bir güç açığı ya da Merkez yükseltmesi onu durdurmaz.
 - **Güç.** Merkez 1. seviyede 25 çeker ve her seviyede %15 daha fazlasını; kapatılamaz.
 - **Sıfırlama hepsini korur:** teknolojiler, depodaki bilim puanı, Araştırma Merkezi’ndeki Dark Matter, devam eden bir araştırma ve hızlandırma.
@@ -30,7 +30,7 @@ Bu sayfada teknoloji ağacının tamamı, her teknolojinin süresi, her kaynağ�
 
 <!-- research-centre:end -->
 
-**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (187 teknolojiden 167’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 20’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
+**Schematics.** Bir [Schematics](/wiki/06-Items/Special-Items.md#schematics), süren araştırmadan 24 saat götürür: geriye 24 saat ya da daha azı kalmışsa araştırma hemen biter, daha uzun olan 24 saat kaybeder ve sürer (209 teknolojiden 187’i 24 saat ya da daha kısa sürer, bu yüzden biri onları baştan bitirir; diğer 22’i 2 ila 10 tane ister). Araştırmanın maliyeti başlarken ödenmişti ve geri verilmez, atlanan sürenin yakacağı bilim puanı tankında kalır ve araştırma bitince kuyruğundaki sıradaki teknoloji hemen başlar.
 
 **Lazer amfileri ve son kademe.** II ile IV arasındaki kademelerin Damage Amp, Crit Amp ve Penetration Amp eşyaları da diğerleri gibi araştırılan üretimlerdir. Amfi serileri oyuna geldiğinde amfilere sahip olan ya da onları kuyruğa almış olan pilotlar, bu amfilerin her birinin ve altındaki kademelerin teknolojisini aldı. On üç teknoloji başka bir ağacın teknolojisini, Kaynaklar ağacındaki Dark Matter Plate teknolojisini gerektirir, çünkü her yükseltme zincirinin son kademesi dört plaka ve bir Ancient Control Unit ister: IV. kademe Damage Amp, Crit Amp ve Penetration Amp, IV. kademe Absorption Shield Cell ve Capacity Shield Cell, IV. kademe Impulse Thruster ve Momentum Thruster, Heavy Shield Core, Engine III, Adaptive Core III, Helios Beam, Extra Slots CPU III ve Base CPU II. Bunlardan birini daha önce araştırmış bir pilot onu korur ve plakalarını üretmek için plakanın teknolojisine ihtiyaç duyar. Aşağıdaki ağaç bunun için ok çizmez, ama tablo onu listeler ve oyundaki kart onu adıyla anar ([Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -58,7 +58,7 @@ Skylab’ındaki **Araştırma** görünümünde bir teknoloji, aşağıdaki ağ
 
 ## Yakıt {#fuel}
 
-Merkez’i kaynaklarla beslersin ve her birim anında bilim puanına dönüşür. Bir birimi elde etmek ne kadar iş gerektiriyorsa o kadar çok bilim puanı verir: değerler, nadirlik etiketine değil, bir birimin elde edilmesinin ne kadar zor olduğuna bağlıdır. Cevherler bunun istisnasıdır: bir birim, bir toplayıcının onu çıkarmasının sürdüğü saniyelerden daha fazla bilim puanı verir; bu yüzden seviyelerinin ortasındaki bir toplayıcının bir saatlik cevheri yaklaşık iki saatlik araştırmayı besler. Cevherler [Skylab’ın](/wiki/03-Mechanics/Skylab.md#resource-storage) Kaynak Deposu’ndan gelir ve [Cevher Bölmesi](/wiki/03-Mechanics/Skylab.md#ore-bay) envanterindeki Velkonite ve Orvium cevherini (bir dev ekskavatörün kutuları) oraya taşır; diğer tüm kaynaklar envanterinden gelir ve geminin park halinde olması gerekir. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, kredi ve Thulium yakıt olarak kullanılamaz; Reinforced Hull Plate kullanılabilir.
+Merkez’i kaynaklarla beslersin ve her birim anında bilim puanına dönüşür. Bir birimi elde etmek ne kadar iş gerektiriyorsa o kadar çok bilim puanı verir: değerler, nadirlik etiketine değil, bir birimin elde edilmesinin ne kadar zor olduğuna bağlıdır. Cevherler bunun istisnasıdır: bir birim, bir toplayıcının onu çıkarmasının sürdüğü saniyelerden daha fazla bilim puanı verir; bu yüzden seviyelerinin ortasındaki bir toplayıcının bir saatlik cevheri yaklaşık iki saatlik araştırmayı besler. Cevherler [Skylab’ın](/wiki/03-Mechanics/Skylab.md#resource-storage) Kaynak Deposu’ndan gelir ve [Cevher Bölmesi](/wiki/03-Mechanics/Skylab.md#ore-bay) envanterindeki Velkonite ve Orvium cevherini (bir dev ekskavatörün kutuları) oraya taşır; diğer tüm kaynaklar envanterinden gelir ve geminin park halinde olması gerekir. Velkonite Reinforced Plate, Orvium Reinforced Plate, Dark Matter Plate, Dark Matter, kredi ve Thulium yakıt olarak kullanılamaz; Reinforced Hull Plate kullanılabilir. Her yakıtın +1, +10 ve Maks. düğmelerinin altında bir sayı alanı vardır: tam birim sayısını yaz ve Besle’ye ya da Enter’a bas. Merkez, depoda yer olduğu sürece en fazla elindeki kadarını alır; sayın bundan büyükse alan bunu söyler.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -119,13 +119,13 @@ Ağacın tepesindeki teknolojiler ayrıca Dark Matter ister. Dark Matter [kara d
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- Aşağıdaki tablodaki 17 teknolojinin her biri için, bilim puanının üstüne **10 Dark Matter**: başlamadan önce Araştırma Merkezi’ne ekle (envanterinden, gemin park halindeyken); araştırma başladığında onu alır.
+- Aşağıdaki tablodaki 22 teknolojinin her biri için, bilim puanının üstüne **10 Dark Matter**: başlamadan önce Araştırma Merkezi’ne ekle (envanterinden, gemin park halindeyken); araştırma başladığında onu alır.
 - **Kural:** nadirliği Destansı ya da daha yüksek olan ve araştırması 10 sa ya da daha uzun süren eşya. Dark Matter üretiminin yolu olan N.I.K.E. buna hiç ihtiyaç duymaz.
 - **Dron formasyonları** kuralın dışındadır: her formasyon araştırması, tablonun gösterdiği gibi güce göre 5, 13 ya da 20 Dark Matter ister.
 - **Gövde Kaplaması** da kuralın dışındadır: iki araştırması daha fazlasını ister; tablonun gösterdiği gibi bir günlük araştırma için 25, iki gün için 40 Dark Matter.
 - **Bir araştırmayı iptal edersen** onun için eklediğin Dark Matter Araştırma Merkezi’ne geri döner. İlerleme ve şimdiye kadar yakılan bilim puanı geri dönmez.
 - **Kuyruğun tamamı.** Sıraya alırken bir şey ödenmez ve kuyruktaki her teknoloji kendi Dark Matter’ını başlarken alır; bu yüzden tüm kuyruğun Dark Matter’ını tek seferde ekle. **Ekle** düğmesi Araştırma Merkezi’ni, kuyruktaki teknolojilerin toplamda alacağı miktara (ve henüz kuyrukta değilse seçtiğin teknolojiye) kadar doldurur; ilkinin ne kadar istediği önemli değildir. Kuyruktaki her teknoloji, Merkez’deki Dark Matter’ın ona yetip yetmediğini gösterir. Dark Matter yetmediği için duran bir kuyruk, eksik kalanı eklediğin anda kendiliğinden başlar.
-- Hepsi birlikte 424 Dark Matter ister.
+- Hepsi birlikte 474 Dark Matter ister.
 
 | Teknoloji | Nadirlik | Araştırma süresi | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -164,6 +164,11 @@ Ağacın tepesindeki teknolojiler ayrıca Dark Matter ister. Dark Matter [kara d
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Nadir | 1 g | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Destansı | 2 g | 40 |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Mitik | 1 g | 10 |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | Nadir | 1 g | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | Nadir | 1 g | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | Destansı | 1 g | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | Destansı | 2 g | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | Mitik | 2 g | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -225,10 +230,10 @@ Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 18
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 1 Laser Optics I, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
@@ -258,6 +263,16 @@ Paragon | ship, rare | craft 1500 Thulium, 900 s | research 21600 s, 21600 scien
 Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
 Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Storm.md
 Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
+Miyuki | ship, rare | craft 6000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 160 Ship Fragment, 25 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Miyuki.md
+Miyuki II | ship, rare | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki III | ship, epic | craft 35000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki IV | ship, epic | craft 50000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki V | ship, mythical | craft 75000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+
+Paragon => Ironclad
+Paragon => Storm
+Paragon => Wraith
+Paragon => Miyuki => Miyuki II => Miyuki III => Miyuki IV => Miyuki V
 ```
 
 ### Kaynaklar {#tree-resources}
@@ -288,9 +303,9 @@ Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s,
 Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 172800 s, 172800 science | 300 Ship Fragment, 50 Reinforced Hull Plate, 30 Power Core, 5 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 1 Rocket Launcher II, 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1 Rocket Launcher III, 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 1 Rocket Launcher IV, 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
 Lancet III => Freeze Rocket
@@ -482,9 +497,9 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | [Hull Plating Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 sa | 10.800 | – |
 | [Master Drone](/wiki/06-Items/Drones.md#available-drones) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 sa | 36.000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 sa | 21.600 | – |
-| [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 g | 86.400 | 10 |
-| [Storm](/wiki/02-Ships/Storm.md) | – | D | 1 g | 86.400 | 10 |
-| [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2 g | 172.800 | 10 |
+| [Ironclad](/wiki/02-Ships/Ironclad.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 g | 86.400 | 10 |
+| [Storm](/wiki/02-Ships/Storm.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 g | 86.400 | 10 |
+| [Wraith](/wiki/02-Ships/Wraith.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 2 g | 172.800 | 10 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1 g | 86.400 | 10 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3 sa | 10.800 | – |
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | D | 1 g | 86.400 | 10 |
@@ -562,6 +577,11 @@ Araştırma görünümünün Pilot grubunda, üretim olmayan teknolojiler vardı
 | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 sa | 36.000 | – |
 | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 sa | 57.600 | – |
 | [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 g | 86.400 | – |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 g | 86.400 | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki](/wiki/02-Ships/Miyuki.md) | D | 1 g | 86.400 | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 g | 86.400 | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 g | 172.800 | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 g | 172.800 | 10 |
 
 Sınıflar, araştırma süresine göre:
 
@@ -570,10 +590,10 @@ Sınıflar, araştırma süresine göre:
 | A | 30 dk – 1 sa | 17 | 9 sa 30 dk | 34.200 | 0 |
 | B | 3 sa – 6 sa | 37 | 5 g 20 sa | 504.000 | 0 |
 | C | 8 sa – 10 sa | 20 | 8 g 4 sa | 705.600 | 95 |
-| D | 16 sa – 10 g | 30 | 53 g 16 sa | 4.636.800 | 329 |
-| Tümü |  | 104 | 68 g 1 sa 30 dk | 5.880.600 | 424 |
+| D | 16 sa – 10 g | 35 | 60 g 16 sa | 5.241.600 | 379 |
+| Tümü |  | 109 | 75 g 1 sa 30 dk | 6.485.400 | 474 |
 
-Art arda araştırılırsa tüm ağaç 68 g 1 sa 30 dk sürer. Hızlandırma her zaman açıkken 34 g 45 dk sürer, bu da 35 hızlandırma ve 175.000 Thulium eder; bilim puanı aynıdır.
+Art arda araştırılırsa tüm ağaç 75 g 1 sa 30 dk sürer. Hızlandırma her zaman açıkken 37 g 12 sa 45 dk sürer, bu da 38 hızlandırma ve 190.000 Thulium eder; bilim puanı aynıdır.
 
 <!-- research-technologies:end -->
 

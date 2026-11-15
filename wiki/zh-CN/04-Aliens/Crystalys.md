@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8d402a8454b12f5b -->
+<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,6 +36,7 @@ Crystalys 是一种庞大的战列舰级外星实体。遭遇它极度危险，�
 - **Quorvium**：100% 几率（最少 6，最多 10）
 - **Power Core**：50% 几率（最少 1，最多 1）
 - **Ancient Control Unit**：20% 几率（最少 1，最多 1）
+- **Echo Shard**：20% 几率（最少 1，最多 1）
 
 ## 背景故事 {#lore}
 

@@ -20,10 +20,10 @@
 
 | 재료 | 희귀도 | 획득처 | 쓰이는 곳 |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 일반 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 소행성, 스페셜 미션 | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, 대장간, Skylab 건설, 연구 센터 |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 일반 | Goombah, Bulwark, 소행성, 미션 | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, 대장간, 연구 센터 |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | 고급 | Crystalys, Goombah, 소행성, 미션 | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, 대장간, 연구 센터 |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 희귀 | Crystalys, 미션 | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Cooldown Rocket, Gravitational N.U.K.E., 연구 센터 |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | 일반 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 소행성, 스페셜 미션 | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, 대장간, Skylab 건설, 연구 센터 |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | 일반 | Goombah, Bulwark, 소행성, 미션 | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, 대장간, 연구 센터 |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | 고급 | Crystalys, Goombah, 소행성, 미션 | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, 대장간, 연구 센터 |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | 희귀 | Crystalys, 미션 | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., 연구 센터 |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | 일반 | Phantasm, Seeker, 소행성 | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, 대장간, 연구 센터 |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | 일반 | Phantasm, Bulwark, 소행성 | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, 대장간, 연구 센터 |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | 일반 | Crystalys, Goombah, Bulwark, 소행성, 거대 굴착기, 미션 | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, 대장간, 연구 센터 |
@@ -33,10 +33,13 @@
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | 희귀 | 미션, Skylab 단조소 | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | 영웅 | 미션, Skylab 단조소 | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, P.E.T. 요람 |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | 영웅 | 블랙홀(삼켜진 N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, 연구 센터 |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 신화 | 어셈블리 | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, 대장간 |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | 신화 | 어셈블리 | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, 대장간 |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | 영웅 | 소행성, 스페셜 미션 | P.E.T. 요람 |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | 신화 | 소행성, 스페셜 미션 | P.E.T. 요람 |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | 전설 | 소행성 | P.E.T. 요람 |
+| [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | 고급 | Crystalys, Goombah, Bulwark, Phantasm, Seeker, 솔로 게이트, 클랜 던전 | 대장간 소켓 |
+| [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | 희귀 | 솔로 게이트, 클랜 던전 | 대장간 소켓 |
+| [Heartshard](/wiki/06-Items/Resources.md#heartshard) | 영웅 | 솔로 게이트, 클랜 던전, 희귀 NPC | 대장간 소켓 |
 
 ## 재료 {#materials}
 
@@ -121,16 +124,21 @@
 - P.E.T. Station III: **60** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 2개, P.E.T. Station II 1개, Power Core 4개, Reinforced Hull Plate 6개, Velkonite Reinforced Plate 4개, 크레딧 1,100,000, Thulium 12,000)
 - Auto-Rocket CPU: **100** (함께 필요: Ancient Control Unit 1개, Power Core 5개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Rocket Launcher II: **300** (함께 필요: Ancient Control Unit 5개, Power Core 30개, Reinforced Hull Plate 50개, Thulium 150,000)
-- Rocket Launcher III: **800** (함께 필요: Ancient Control Unit 15개, Power Core 80개, Reinforced Hull Plate 120개, Thulium 400,000)
-- Rocket Launcher IV: **1,800** (함께 필요: Ancient Control Unit 30개, Power Core 160개, Reinforced Hull Plate 250개, Thulium 900,000)
-- Rocket Launcher V: **4,000** (함께 필요: Ancient Control Unit 60개, Power Core 300개, Reinforced Hull Plate 500개, Thulium 2,000,000)
+- Rocket Launcher III: **800** (함께 필요: Ancient Control Unit 15개, Power Core 80개, Reinforced Hull Plate 120개, Rocket Launcher II 1개, Thulium 400,000)
+- Rocket Launcher IV: **1,800** (함께 필요: Ancient Control Unit 30개, Power Core 160개, Reinforced Hull Plate 250개, Rocket Launcher III 1개, Thulium 900,000)
+- Rocket Launcher V: **4,000** (함께 필요: Ancient Control Unit 60개, Power Core 300개, Reinforced Hull Plate 500개, Rocket Launcher IV 1개, Thulium 2,000,000)
 - Mine II: **3** (함께 필요: Mine I 2개, Power Core 1개, Thulium 200)
 - Mine III: **8** (함께 필요: Mine II 2개, Power Core 2개, Reinforced Hull Plate 1개, Thulium 400)
 - Laser Optics I: **40** (함께 필요: Power Core 2개, Velkonite Reinforced Plate 4개, Thulium 8,000)
-- Laser Optics II: **80** (함께 필요: Power Core 4개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개, Thulium 15,000)
-- Laser Optics III: **120** (함께 필요: Orvium Reinforced Plate 2개, Power Core 6개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 12개, Thulium 30,000)
-- Laser Optics IV: **180** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 14개, Thulium 50,000)
-- Laser Optics V: **240** (함께 필요: Ancient Control Unit 3개, Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- Laser Optics II: **80** (함께 필요: Laser Optics I 1개, Power Core 4개, Reinforced Hull Plate 8개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Laser Optics III: **120** (함께 필요: Laser Optics II 1개, Orvium Reinforced Plate 2개, Power Core 6개, Reinforced Hull Plate 10개, Velkonite Reinforced Plate 12개, Thulium 30,000)
+- Laser Optics IV: **180** (함께 필요: Ancient Control Unit 2개, Laser Optics III 1개, Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Velkonite Reinforced Plate 14개, Thulium 50,000)
+- Laser Optics V: **240** (함께 필요: Ancient Control Unit 3개, Laser Optics IV 1개, Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **160** (함께 필요: Ancient Control Unit 1개, Power Core 10개, Reinforced Hull Plate 25개, Thulium 6,000)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **80** (함께 필요: Dark Matter Plate 8개, Miyuki 1개, Power Core 4개, Reinforced Hull Plate 8개, Thulium 20,000)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (함께 필요: Ancient Control Unit 1개, Dark Matter Plate 8개, Miyuki II 1개, Power Core 6개, Reinforced Hull Plate 10개, Thulium 35,000)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (함께 필요: Ancient Control Unit 2개, Dark Matter Plate 8개, Miyuki III 1개, Power Core 9개, Reinforced Hull Plate 18개, Thulium 50,000)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (함께 필요: Ancient Control Unit 3개, Dark Matter Plate 8개, Miyuki IV 1개, Power Core 12개, Reinforced Hull Plate 25개, Thulium 75,000)
 - [Lancet II](/wiki/06-Items/Rockets.md) (1회 100개 제작): **5** (함께 필요: Lancet I 100개, Nyxite 10개, 크레딧 50,000, Thulium 200)
 - [Lancet III](/wiki/06-Items/Rockets.md) (1회 100개 제작): **15** (함께 필요: Lancet II 100개, Nyxite 20개, Reinforced Hull Plate 2개, 크레딧 150,000, Thulium 800)
 - [Rivet II](/wiki/06-Items/Rockets.md) (1회 100개 제작): **5** (함께 필요: Daraxium 10개, Rivet I 100개, 크레딧 50,000, Thulium 200)
@@ -148,15 +156,13 @@
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **10** (함께 필요: Daraxium 30개, Nyxite 10개, 크레딧 50,000, Thulium 800)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **20** (함께 필요: Ancient Control Unit 1개, Power Core 3개, Quorvium 40개, 크레딧 100,000, Thulium 2,500)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **20** (함께 필요: Nyxite 40개, Power Core 2개, Quorvium 20개, 크레딧 90,000, Thulium 2,000)
-- [대장간](/wiki/06-Items/Forge.md), 표준 → 오염된: **5** (함께 필요: Daraxium 15개, 크레딧 10,000; 성공 확률 100%)
-- [대장간](/wiki/06-Items/Forge.md), 오염된 → 신성한: **30** (함께 필요: Nyxite 45개, 크레딧 50,000; 성공 확률 90%)
+- [대장간](/wiki/06-Items/Forge.md), 표준 → 각성한: **5** (함께 필요: Daraxium 15개, 크레딧 10,000)
+- [대장간](/wiki/06-Items/Forge.md), 각성한 → 공명하는: **32** (함께 필요: Nyxite 48개, 크레딧 56,000)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 탄약 프린터, 단조소, 광석 베이, Orvium 수집기, 자원 창고, 트로피 격납고, Velkonite 수집기 각각 **10**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 레이더 모듈, 로켓 공장 각각 **15**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 엔진 모듈 각각 **20**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [Skylab](/wiki/03-Mechanics/Skylab.md) 모듈 건설: 방어 모듈, 연구 센터 각각 **25**개(수송 보관함이 아니라 인벤토리에서 가져감)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **5**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 6개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0.2개.
 
@@ -216,14 +222,19 @@
 - P.E.T. Station III: **6** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 2개, P.E.T. Station II 1개, Power Core 4개, Ship Fragment 60개, Velkonite Reinforced Plate 4개, 크레딧 1,100,000, Thulium 12,000)
 - Auto-Rocket CPU: **10** (함께 필요: Ancient Control Unit 1개, Power Core 5개, Ship Fragment 100개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Rocket Launcher II: **50** (함께 필요: Ancient Control Unit 5개, Power Core 30개, Ship Fragment 300개, Thulium 150,000)
-- Rocket Launcher III: **120** (함께 필요: Ancient Control Unit 15개, Power Core 80개, Ship Fragment 800개, Thulium 400,000)
-- Rocket Launcher IV: **250** (함께 필요: Ancient Control Unit 30개, Power Core 160개, Ship Fragment 1,800개, Thulium 900,000)
-- Rocket Launcher V: **500** (함께 필요: Ancient Control Unit 60개, Power Core 300개, Ship Fragment 4,000개, Thulium 2,000,000)
+- Rocket Launcher III: **120** (함께 필요: Ancient Control Unit 15개, Power Core 80개, Rocket Launcher II 1개, Ship Fragment 800개, Thulium 400,000)
+- Rocket Launcher IV: **250** (함께 필요: Ancient Control Unit 30개, Power Core 160개, Rocket Launcher III 1개, Ship Fragment 1,800개, Thulium 900,000)
+- Rocket Launcher V: **500** (함께 필요: Ancient Control Unit 60개, Power Core 300개, Rocket Launcher IV 1개, Ship Fragment 4,000개, Thulium 2,000,000)
 - Mine III: **1** (함께 필요: Mine II 2개, Power Core 2개, Ship Fragment 8개, Thulium 400)
-- Laser Optics II: **8** (함께 필요: Power Core 4개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
-- Laser Optics III: **10** (함께 필요: Orvium Reinforced Plate 2개, Power Core 6개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
-- Laser Optics IV: **18** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
-- Laser Optics V: **25** (함께 필요: Ancient Control Unit 3개, Orvium Reinforced Plate 10개, Power Core 12개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- Laser Optics II: **8** (함께 필요: Laser Optics I 1개, Power Core 4개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Laser Optics III: **10** (함께 필요: Laser Optics II 1개, Orvium Reinforced Plate 2개, Power Core 6개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
+- Laser Optics IV: **18** (함께 필요: Ancient Control Unit 2개, Laser Optics III 1개, Orvium Reinforced Plate 6개, Power Core 9개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
+- Laser Optics V: **25** (함께 필요: Ancient Control Unit 3개, Laser Optics IV 1개, Orvium Reinforced Plate 10개, Power Core 12개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **25** (함께 필요: Ancient Control Unit 1개, Power Core 10개, Ship Fragment 160개, Thulium 6,000)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (함께 필요: Dark Matter Plate 8개, Miyuki 1개, Power Core 4개, Ship Fragment 80개, Thulium 20,000)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **10** (함께 필요: Ancient Control Unit 1개, Dark Matter Plate 8개, Miyuki II 1개, Power Core 6개, Ship Fragment 120개, Thulium 35,000)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **18** (함께 필요: Ancient Control Unit 2개, Dark Matter Plate 8개, Miyuki III 1개, Power Core 9개, Ship Fragment 180개, Thulium 50,000)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **25** (함께 필요: Ancient Control Unit 3개, Dark Matter Plate 8개, Miyuki IV 1개, Power Core 12개, Ship Fragment 240개, Thulium 75,000)
 - [Lancet III](/wiki/06-Items/Rockets.md) (1회 100개 제작): **2** (함께 필요: Lancet II 100개, Nyxite 20개, Ship Fragment 15개, 크레딧 150,000, Thulium 800)
 - [Rivet III](/wiki/06-Items/Rockets.md) (1회 100개 제작): **2** (함께 필요: Daraxium 20개, Rivet II 100개, Ship Fragment 15개, 크레딧 150,000, Thulium 800)
 - [Ember III](/wiki/06-Items/Rockets.md) (1회 100개 제작): **2** (함께 필요: Cataclysite 20개, Ember II 100개, Ship Fragment 15개, 크레딧 150,000, Thulium 800)
@@ -231,10 +242,8 @@
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (함께 필요: Cataclysite 80개, Power Core 4개, Scatter III 6개, Ship Fragment 40개, 크레딧 150,000, Thulium 3,000)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작): **4** (함께 필요: Cataclysite 40개, Ship Fragment 20개, 크레딧 100,000, Thulium 1,500)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (1회 5개 제작): **3** (함께 필요: Cataclysite 40개, Ship Fragment 15개, 크레딧 80,000, Thulium 1,500)
-- [대장간](/wiki/06-Items/Forge.md), 신성한 → 파열하는: **20** (함께 필요: Cataclysite 120개, Dark Matter Plate 2개, 크레딧 200,000; 성공 확률 75%)
+- [대장간](/wiki/06-Items/Forge.md), 공명하는 → 찬란한: **23** (함께 필요: Cataclysite 140개, Dark Matter Plate 2개, 크레딧 267,000)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **33**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Goombah](/wiki/04-Aliens/Goombah.md)(섹터 3, 4) 처치, 처치당 평균 0.6개.
 
@@ -312,26 +321,29 @@
 - P.E.T. Station III: **4** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 2개, P.E.T. Station II 1개, Reinforced Hull Plate 6개, Ship Fragment 60개, Velkonite Reinforced Plate 4개, 크레딧 1,100,000, Thulium 12,000)
 - Auto-Rocket CPU: **5** (함께 필요: Ancient Control Unit 1개, Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Rocket Launcher II: **30** (함께 필요: Ancient Control Unit 5개, Reinforced Hull Plate 50개, Ship Fragment 300개, Thulium 150,000)
-- Rocket Launcher III: **80** (함께 필요: Ancient Control Unit 15개, Reinforced Hull Plate 120개, Ship Fragment 800개, Thulium 400,000)
-- Rocket Launcher IV: **160** (함께 필요: Ancient Control Unit 30개, Reinforced Hull Plate 250개, Ship Fragment 1,800개, Thulium 900,000)
-- Rocket Launcher V: **300** (함께 필요: Ancient Control Unit 60개, Reinforced Hull Plate 500개, Ship Fragment 4,000개, Thulium 2,000,000)
+- Rocket Launcher III: **80** (함께 필요: Ancient Control Unit 15개, Reinforced Hull Plate 120개, Rocket Launcher II 1개, Ship Fragment 800개, Thulium 400,000)
+- Rocket Launcher IV: **160** (함께 필요: Ancient Control Unit 30개, Reinforced Hull Plate 250개, Rocket Launcher III 1개, Ship Fragment 1,800개, Thulium 900,000)
+- Rocket Launcher V: **300** (함께 필요: Ancient Control Unit 60개, Reinforced Hull Plate 500개, Rocket Launcher IV 1개, Ship Fragment 4,000개, Thulium 2,000,000)
 - Mine II: **1** (함께 필요: Mine I 2개, Ship Fragment 3개, Thulium 200)
 - Mine III: **2** (함께 필요: Mine II 2개, Reinforced Hull Plate 1개, Ship Fragment 8개, Thulium 400)
 - Laser Optics I: **2** (함께 필요: Ship Fragment 40개, Velkonite Reinforced Plate 4개, Thulium 8,000)
-- Laser Optics II: **4** (함께 필요: Reinforced Hull Plate 8개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
-- Laser Optics III: **6** (함께 필요: Orvium Reinforced Plate 2개, Reinforced Hull Plate 10개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
-- Laser Optics IV: **9** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
-- Laser Optics V: **12** (함께 필요: Ancient Control Unit 3개, Orvium Reinforced Plate 10개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- Laser Optics II: **4** (함께 필요: Laser Optics I 1개, Reinforced Hull Plate 8개, Ship Fragment 80개, Velkonite Reinforced Plate 6개, Thulium 15,000)
+- Laser Optics III: **6** (함께 필요: Laser Optics II 1개, Orvium Reinforced Plate 2개, Reinforced Hull Plate 10개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
+- Laser Optics IV: **9** (함께 필요: Ancient Control Unit 2개, Laser Optics III 1개, Orvium Reinforced Plate 6개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
+- Laser Optics V: **12** (함께 필요: Ancient Control Unit 3개, Laser Optics IV 1개, Orvium Reinforced Plate 10개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **10** (함께 필요: Ancient Control Unit 1개, Reinforced Hull Plate 25개, Ship Fragment 160개, Thulium 6,000)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **4** (함께 필요: Dark Matter Plate 8개, Miyuki 1개, Reinforced Hull Plate 8개, Ship Fragment 80개, Thulium 20,000)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (함께 필요: Ancient Control Unit 1개, Dark Matter Plate 8개, Miyuki II 1개, Reinforced Hull Plate 10개, Ship Fragment 120개, Thulium 35,000)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (함께 필요: Ancient Control Unit 2개, Dark Matter Plate 8개, Miyuki III 1개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 50,000)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (함께 필요: Ancient Control Unit 3개, Dark Matter Plate 8개, Miyuki IV 1개, Reinforced Hull Plate 25개, Ship Fragment 240개, Thulium 75,000)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (함께 필요: Cataclysite 80개, Reinforced Hull Plate 10개, Scatter III 6개, Ship Fragment 40개, 크레딧 150,000, Thulium 3,000)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **1** (함께 필요: Cataclysite 30개, Ship Fragment 10개, 크레딧 50,000, Thulium 1,000)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **2** (함께 필요: Quorvium 20개, Ship Fragment 10개, 크레딧 60,000, Thulium 1,200)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **3** (함께 필요: Ancient Control Unit 1개, Quorvium 40개, Ship Fragment 20개, 크레딧 100,000, Thulium 2,500)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (함께 필요: Ancient Control Unit 2개, N.U.K.E. 1개, Quorvium 40개, 크레딧 150,000, Thulium 3,000)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **2** (함께 필요: Nyxite 40개, Quorvium 20개, Ship Fragment 20개, 크레딧 90,000, Thulium 2,000)
-- [대장간](/wiki/06-Items/Forge.md), 파열하는 → 영원한: **8** (함께 필요: Quorvium 240개, Dark Matter Plate 2개, 크레딧 500,000, Thulium 2,000; 성공 확률 60%)
+- [대장간](/wiki/06-Items/Forge.md), 찬란한 → 승천한: **11** (함께 필요: Quorvium 320개, Dark Matter Plate 2개, 크레딧 833,000, Thulium 2,667)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **100**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.5개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 0.25개.
 
@@ -375,11 +387,15 @@
 - P.E.T. Station III: **2** (함께 필요: Orvium Reinforced Plate 2개, P.E.T. Station II 1개, Power Core 4개, Reinforced Hull Plate 6개, Ship Fragment 60개, Velkonite Reinforced Plate 4개, 크레딧 1,100,000, Thulium 12,000)
 - Auto-Rocket CPU: **1** (함께 필요: Power Core 5개, Reinforced Hull Plate 10개, Ship Fragment 100개, Velkonite Reinforced Plate 8개, Thulium 20,000)
 - Rocket Launcher II: **5** (함께 필요: Power Core 30개, Reinforced Hull Plate 50개, Ship Fragment 300개, Thulium 150,000)
-- Rocket Launcher III: **15** (함께 필요: Power Core 80개, Reinforced Hull Plate 120개, Ship Fragment 800개, Thulium 400,000)
-- Rocket Launcher IV: **30** (함께 필요: Power Core 160개, Reinforced Hull Plate 250개, Ship Fragment 1,800개, Thulium 900,000)
-- Rocket Launcher V: **60** (함께 필요: Power Core 300개, Reinforced Hull Plate 500개, Ship Fragment 4,000개, Thulium 2,000,000)
-- Laser Optics IV: **2** (함께 필요: Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
-- Laser Optics V: **3** (함께 필요: Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- Rocket Launcher III: **15** (함께 필요: Power Core 80개, Reinforced Hull Plate 120개, Rocket Launcher II 1개, Ship Fragment 800개, Thulium 400,000)
+- Rocket Launcher IV: **30** (함께 필요: Power Core 160개, Reinforced Hull Plate 250개, Rocket Launcher III 1개, Ship Fragment 1,800개, Thulium 900,000)
+- Rocket Launcher V: **60** (함께 필요: Power Core 300개, Reinforced Hull Plate 500개, Rocket Launcher IV 1개, Ship Fragment 4,000개, Thulium 2,000,000)
+- Laser Optics IV: **2** (함께 필요: Laser Optics III 1개, Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
+- Laser Optics V: **3** (함께 필요: Laser Optics IV 1개, Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **1** (함께 필요: Power Core 10개, Reinforced Hull Plate 25개, Ship Fragment 160개, Thulium 6,000)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (함께 필요: Dark Matter Plate 8개, Miyuki II 1개, Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Thulium 35,000)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (함께 필요: Dark Matter Plate 8개, Miyuki III 1개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 50,000)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (함께 필요: Dark Matter Plate 8개, Miyuki IV 1개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Thulium 75,000)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **1** (함께 필요: Power Core 3개, Quorvium 40개, Ship Fragment 20개, 크레딧 100,000, Thulium 2,500)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (함께 필요: N.U.K.E. 1개, Power Core 4개, Quorvium 40개, 크레딧 150,000, Thulium 3,000)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **650**
@@ -388,7 +404,7 @@
 
 ### Daraxium
 
-*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 오염된 등급으로 올리는 데 쓰입니다.
+*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 각성한 등급으로 올리는 데 쓰입니다.
 
 **얻는 방법**
 
@@ -406,16 +422,14 @@
 - [Rivet II](/wiki/06-Items/Rockets.md) (1회 100개 제작): **10** (함께 필요: Rivet I 100개, Ship Fragment 5개, 크레딧 50,000, Thulium 200)
 - [Rivet III](/wiki/06-Items/Rockets.md) (1회 100개 제작): **20** (함께 필요: Reinforced Hull Plate 2개, Rivet II 100개, Ship Fragment 15개, 크레딧 150,000, Thulium 800)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **30** (함께 필요: Nyxite 10개, Ship Fragment 10개, 크레딧 50,000, Thulium 800)
-- [대장간](/wiki/06-Items/Forge.md), 표준 → 오염된: **15** (함께 필요: Ship Fragment 5개, 크레딧 10,000; 성공 확률 100%)
+- [대장간](/wiki/06-Items/Forge.md), 표준 → 각성한: **15** (함께 필요: Ship Fragment 5개, 크레딧 10,000)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **7**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Phantasm](/wiki/04-Aliens/Phantasm.md)(섹터 2, 3) 처치, 처치당 평균 0.9개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0.75개.
 
 ### Nyxite
 
-*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 신성한 등급으로 올리는 데 쓰입니다.
+*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 공명하는 등급으로 올리는 데 쓰입니다.
 
 **얻는 방법**
 
@@ -435,16 +449,14 @@
 - [Toxic Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **30** (함께 필요: Quorvium 10개, Ship Fragment 10개, 크레딧 60,000, Thulium 1,000)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **10** (함께 필요: Daraxium 30개, Ship Fragment 10개, 크레딧 50,000, Thulium 800)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **40** (함께 필요: Power Core 2개, Quorvium 20개, Ship Fragment 20개, 크레딧 90,000, Thulium 2,000)
-- [대장간](/wiki/06-Items/Forge.md), 오염된 → 신성한: **45** (함께 필요: Ship Fragment 30개, 크레딧 50,000; 성공 확률 90%)
+- [대장간](/wiki/06-Items/Forge.md), 각성한 → 공명하는: **48** (함께 필요: Ship Fragment 32개, 크레딧 56,000)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **7**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Phantasm](/wiki/04-Aliens/Phantasm.md)(섹터 2, 3) 처치, 처치당 평균 0.9개.
 
 ### Cataclysite
 
-*일반 자원.* NPC와 소행성이 드롭합니다. 가장 강한 레이저를 만들고, 대장간에서 장비를 파열하는 등급으로 올리는 데 쓰입니다.
+*일반 자원.* NPC와 소행성이 드롭합니다. 가장 강한 레이저를 만들고, 대장간에서 장비를 찬란한 등급으로 올리는 데 쓰입니다.
 
 **얻는 방법**
 
@@ -487,16 +499,14 @@
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작): **40** (함께 필요: Reinforced Hull Plate 4개, Ship Fragment 20개, 크레딧 100,000, Thulium 1,500)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작): **30** (함께 필요: Power Core 1개, Ship Fragment 10개, 크레딧 50,000, Thulium 1,000)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (1회 5개 제작): **40** (함께 필요: Reinforced Hull Plate 3개, Ship Fragment 15개, 크레딧 80,000, Thulium 1,500)
-- [대장간](/wiki/06-Items/Forge.md), 신성한 → 파열하는: **120** (함께 필요: Reinforced Hull Plate 20개, Dark Matter Plate 2개, 크레딧 200,000; 성공 확률 75%)
+- [대장간](/wiki/06-Items/Forge.md), 공명하는 → 찬란한: **140** (함께 필요: Reinforced Hull Plate 23개, Dark Matter Plate 2개, 크레딧 267,000)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **5**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 8개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 4개.
 
 ### Quorvium
 
-*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 영원한 등급으로 올리는 데 쓰입니다.
+*일반 자원.* NPC와 소행성이 드롭합니다. 대장간에서 장비를 승천한 등급으로 올리는 데 쓰입니다.
 
 **얻는 방법**
 
@@ -522,10 +532,8 @@
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **40** (함께 필요: Ancient Control Unit 1개, Power Core 3개, Ship Fragment 20개, 크레딧 100,000, Thulium 2,500)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (함께 필요: Ancient Control Unit 2개, N.U.K.E. 1개, Power Core 4개, 크레딧 150,000, Thulium 3,000)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작): **20** (함께 필요: Nyxite 40개, Power Core 2개, Ship Fragment 20개, 크레딧 90,000, Thulium 2,000)
-- [대장간](/wiki/06-Items/Forge.md), 파열하는 → 영원한: **240** (함께 필요: Power Core 8개, Dark Matter Plate 2개, 크레딧 500,000, Thulium 2,000; 성공 확률 60%)
+- [대장간](/wiki/06-Items/Forge.md), 찬란한 → 승천한: **320** (함께 필요: Power Core 11개, Dark Matter Plate 2개, 크레딧 833,000, Thulium 2,667)
 - [연구 센터](/wiki/03-Mechanics/Research.md#fuel), 연료: 1개당 과학 **8**
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 8개. 가장 가까운 획득처: 섹터 3의 [Goombah](/wiki/04-Aliens/Goombah.md), 처치당 3개.
 
@@ -650,10 +658,10 @@
 - [Ultra Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작): **4** (함께 필요: Cataclysite 120개, Quorvium 90개, 크레딧 320, Thulium 687)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작): **8** (함께 필요: Cataclysite 140개, Orvium Reinforced Plate 1개, Quorvium 105개, 크레딧 9,058, Thulium 1,315)
 - Laser Optics I: **4** (함께 필요: Power Core 2개, Ship Fragment 40개, Thulium 8,000)
-- Laser Optics II: **6** (함께 필요: Power Core 4개, Reinforced Hull Plate 8개, Ship Fragment 80개, Thulium 15,000)
-- Laser Optics III: **12** (함께 필요: Orvium Reinforced Plate 2개, Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Thulium 30,000)
-- Laser Optics IV: **14** (함께 필요: Ancient Control Unit 2개, Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 50,000)
-- Laser Optics V: **15** (함께 필요: Ancient Control Unit 3개, Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Thulium 75,000)
+- Laser Optics II: **6** (함께 필요: Laser Optics I 1개, Power Core 4개, Reinforced Hull Plate 8개, Ship Fragment 80개, Thulium 15,000)
+- Laser Optics III: **12** (함께 필요: Laser Optics II 1개, Orvium Reinforced Plate 2개, Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Thulium 30,000)
+- Laser Optics IV: **14** (함께 필요: Ancient Control Unit 2개, Laser Optics III 1개, Orvium Reinforced Plate 6개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 50,000)
+- Laser Optics V: **15** (함께 필요: Ancient Control Unit 3개, Laser Optics IV 1개, Orvium Reinforced Plate 10개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Thulium 75,000)
 
 **모듈 업그레이드**: 어셈블리에서 업그레이드할 수 있는 조합: Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II 및 Adaptive Core I → Adaptive Core II. 업그레이드할 때마다 출발 부품은 소모되며, 다른 재료와 함께 이 플레이트도 필요합니다. 새 부품은 넣은 부품의 대장간 등급과 보너스를 이어받습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -701,9 +709,9 @@
 - P.E.T. Station II: **2** (함께 필요: P.E.T. Station I 1개, Power Core 2개, Reinforced Hull Plate 6개, Ship Fragment 35개, Velkonite Reinforced Plate 4개, 크레딧 300,000, Thulium 4,000)
 - P.E.T. Station III: **2** (함께 필요: Ancient Control Unit 2개, P.E.T. Station II 1개, Power Core 4개, Reinforced Hull Plate 6개, Ship Fragment 60개, Velkonite Reinforced Plate 4개, 크레딧 1,100,000, Thulium 12,000)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작): **1** (함께 필요: Cataclysite 140개, Quorvium 105개, Velkonite Reinforced Plate 8개, 크레딧 9,058, Thulium 1,315)
-- Laser Optics III: **2** (함께 필요: Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
-- Laser Optics IV: **6** (함께 필요: Ancient Control Unit 2개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
-- Laser Optics V: **10** (함께 필요: Ancient Control Unit 3개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
+- Laser Optics III: **2** (함께 필요: Laser Optics II 1개, Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Velkonite Reinforced Plate 12개, Thulium 30,000)
+- Laser Optics IV: **6** (함께 필요: Ancient Control Unit 2개, Laser Optics III 1개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Velkonite Reinforced Plate 14개, Thulium 50,000)
+- Laser Optics V: **10** (함께 필요: Ancient Control Unit 3개, Laser Optics IV 1개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Velkonite Reinforced Plate 15개, Thulium 75,000)
 - **P.E.T. 요람**(격납고): P.E.T. 하나를 조립할 때마다 1, 그 P.E.T.의 등급에 맞는 Cluster Chunk 1개.
 
 **모듈 업그레이드**: 어셈블리에서 업그레이드할 수 있는 조합: Starfire-III → Helios Beam. 업그레이드할 때마다 출발 부품은 소모되며, 다른 재료와 함께 이 플레이트도 필요합니다. 새 부품은 넣은 부품의 대장간 등급과 보너스를 이어받습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -727,7 +735,7 @@
 - [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작): **1** (함께 필요: Cataclysite 120개, Quorvium 90개, 크레딧 4,873, Thulium 987)
 - [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작): **4** (함께 필요: Dark Matter Ammo I 1,000개, Thulium 200)
 - [거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md), 연료: 1개는 **10**분의 채굴 동안 타고, 탱크에는 3개가 들어갑니다
-- [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter), 최상위 기술: 35개 기술 각각에 **10**개
+- [연구 센터](/wiki/03-Mechanics/Research.md#dark-matter), 최상위 기술: 40개 기술 각각에 **10**개
 
 **모으는 방법**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓을 블랙홀에 쏘고(어셈블리에서 제작), 다른 누군가가 가져가기 전에 블랙홀 영역 가장자리의 상자를 회수하세요. 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
 
@@ -758,13 +766,15 @@
 - Hull Plating II: **5** (함께 필요: Hull Plating I 1개, Power Core 6개, Reinforced Hull Plate 20개, Ship Fragment 150개, Thulium 2,500)
 - Hull Plating III: **8** (함께 필요: Ancient Control Unit 1개, Hull Plating II 1개, Power Core 12개, Reinforced Hull Plate 40개, Ship Fragment 300개, Thulium 4,000)
 - Adaptive Core III: **4** (함께 필요: Adaptive Core II 1개, Ancient Control Unit 1개, Power Core 5개, Ship Fragment 110개, Thulium 4,000)
-- [대장간](/wiki/06-Items/Forge.md), 신성한 → 파열하는: **2** (함께 필요: Reinforced Hull Plate 20개, Cataclysite 120개, 크레딧 200,000; 성공 확률 75%)
-- [대장간](/wiki/06-Items/Forge.md), 파열하는 → 영원한: **2** (함께 필요: Power Core 8개, Quorvium 240개, 크레딧 500,000, Thulium 2,000; 성공 확률 60%)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (함께 필요: Miyuki 1개, Power Core 4개, Reinforced Hull Plate 8개, Ship Fragment 80개, Thulium 20,000)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **8** (함께 필요: Ancient Control Unit 1개, Miyuki II 1개, Power Core 6개, Reinforced Hull Plate 10개, Ship Fragment 120개, Thulium 35,000)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **8** (함께 필요: Ancient Control Unit 2개, Miyuki III 1개, Power Core 9개, Reinforced Hull Plate 18개, Ship Fragment 180개, Thulium 50,000)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **8** (함께 필요: Ancient Control Unit 3개, Miyuki IV 1개, Power Core 12개, Reinforced Hull Plate 25개, Ship Fragment 240개, Thulium 75,000)
+- [대장간](/wiki/06-Items/Forge.md), 공명하는 → 찬란한: **2** (함께 필요: Reinforced Hull Plate 23개, Cataclysite 140개, 크레딧 267,000)
+- [대장간](/wiki/06-Items/Forge.md), 찬란한 → 승천한: **2** (함께 필요: Power Core 11개, Quorvium 320개, 크레딧 833,000, Thulium 2,667)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), 엔진 모듈: 건설에 **1**, 이후 레벨 2~5에 2, 3, 5 및 8
 - [Skylab](/wiki/03-Mechanics/Skylab.md), 방어 모듈: 건설에 **1**, 이후 레벨 2~5에 2, 4, 7 및 12
 - [Skylab](/wiki/03-Mechanics/Skylab.md), 레이더 모듈: 건설에는 필요 없음, 이후 레벨 2~3에 1 및 3
-
-실패한 대장간 단계는 재료의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **모으는 방법**: 찾는 것이 아니라 압착해 만듭니다. Dark Matter(위 참고)와 Skylab 단조소가 만드는 플레이트 두 종류를 모은 뒤, 어셈블리에서 제작을 시작하세요. 먼저 제작법을 연구하세요. 전체 과정은 [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)에 있습니다.
 
@@ -815,6 +825,66 @@
 
 **모으는 방법**: 소행성을 부수세요. 클수록 좋으며, 가장 많은 피해를 준 파티가 청크를 가져가고 Motherlode가 가장 자주 줍니다.
 
+### Echo Shard
+
+*고급 자원.* 쓰러진 에일리언, 게이트 클리어, 클랜 던전에서 얻는 공명의 파편. 대장간은 장비의 소켓을 조율할 때 Echo Shard를 소모합니다. 거래할 수 없습니다.
+
+**얻는 방법**
+
+| 외계인 | 섹터 | 드롭 | 처치당 평균 |
+| :--- | :---: | :--- | --: |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% 확률로 1개 | 0.2 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% 확률로 1개 | 0.05 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% 확률로 1개 | 0.02 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% 확률로 1개 | 0.01 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.4% 확률로 1개 | 0 |
+
+- **솔로 게이트**: 클리어할 때마다 Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
+- **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 3, 2 및 2.
+- **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
+- **그 밖에**: 상점에서 판매하지 않습니다.
+
+**쓰이는 곳**
+
+- 대장간의 소켓: 빈 소켓을 조율하려면 Echo Shard가 필요합니다.
+
+**모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.2개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0개.
+
+### Lattice Shard
+
+*희귀 자원.* 게이트와 클랜 던전 클리어에서 얻는 격자의 파편. 대장간은 조율된 소켓을 재배열하고 닳은 장비를 수리할 때 Lattice Shard를 소모합니다. 거래할 수 없습니다.
+
+**얻는 방법**
+
+- **솔로 게이트**: 클리어할 때마다 Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54.
+- **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 5, 6 및 7.
+- **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
+- **그 밖에**: 상점에서 판매하지 않습니다.
+
+**쓰이는 곳**
+
+- 대장간의 소켓: 소켓을 재배열하고 장비를 수리하려면 Lattice Shard가 필요합니다.
+
+**모으는 방법**: 솔로 게이트와 클랜 던전을 클리어하세요. 둘 다 클리어할 때마다 줍니다.
+
+### Heartshard
+
+*영웅 자원.* 희귀한 파편: 시즌마다 각 게이트와 클랜 던전 단계를 처음 클리어하면 하나를 주고, 가장 희귀한 보스 몇 마리도 떨어뜨립니다. 대장간에서 조율이나 재배열에 더하면 스탯을 고르고 범위의 위쪽 절반에서 값을 정할 수 있습니다. 거래할 수 없습니다.
+
+**얻는 방법**
+
+- **솔로 게이트**: 시즌 중 각 게이트를 처음 클리어할 때 1개, 클리어할 때마다 5% 확률로 1개 추가.
+- **클랜 던전**: 시즌 중 각 단계를 처음 보상받고 클리어할 때 1개, 보상받고 클리어할 때마다 5% 확률로 1개 추가.
+- **희귀 NPC**: 처치할 때마다 Davidski 10%, Dormant Force 5%, Tesseract 5%.
+- **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
+- **그 밖에**: 상점에서 판매하지 않습니다.
+
+**쓰이는 곳**
+
+- 대장간의 소켓: 조율이나 재배열에 더하면 Heartshard가 모든 빈 스탯을 제시하고 범위의 위쪽 절반에서 값을 정합니다.
+
+**모으는 방법**: 희귀합니다. 시즌마다 모든 솔로 게이트와 클랜 던전 단계를 한 번씩 클리어하고, 느리게 나타나는 희귀 NPC를 처치하세요.
+
 ## 화폐 {#currencies}
 
 크레딧과 Thulium은 재료와 마찬가지로 모으며 같은 곳에 씁니다. 인벤토리가 아니라 계정에 저장됩니다.
@@ -831,7 +901,7 @@
 
 이 수치는 **Alpha** 월드(1배) 기준입니다. 처치 보상은 Beta에서 이 수치의 **2배**, Gamma에서 **3배**이며, 미션 보상은 미션을 수행한 월드와 현재 비행 중인 월드 가운데 더 높은 쪽을 기준으로 합니다([월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). 전리품 드롭은 모든 월드에서 같습니다. 여기에 시즌 상점의 영구 Credit Boost(최대 +50%)와 Thulium Boost(최대 +30%)가 처치와 미션이 주는 두 화폐의 양을 늘려 줍니다.
 
-경험치와 명예는 돈이 아니라 점수이며, 이것으로 무언가를 사지는 않습니다. 경험치는 레벨을 올려 주고 레벨은 계급에 반영되지만, 명예는 계급과 무관합니다. 기업을 변경할 때만 일부가 깎이며, 그것도 명예의 절반뿐입니다. 경험치는 소비되지 않습니다.
+경험치와 명예는 돈이 아니라 점수이며, 이것으로 무언가를 사지는 않습니다. 경험치는 레벨을 올려 주고 레벨은 계급에 반영되고, 명예도 100마다 PvE 포인트 1점으로 계급에 반영됩니다. 기업을 변경할 때만 일부가 깎이며, 그것도 명예의 절반뿐입니다. 경험치는 소비되지 않습니다.
 
 ### 크레딧 {#credits}
 
@@ -842,7 +912,7 @@
 - **시작 시**: 신규 파일럿의 계정에 들어 있는 크레딧: 10,000.
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
 - **[소행성](/wiki/03-Mechanics/Asteroid-Mining.md)**: 부서진 소행성의 조각이 지급합니다.
-- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 크레딧 합계: 6,664,500(레벨 1의 86,000부터 레벨 8의 2,720,000까지).
+- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 132개의 크레딧 합계: 333,064,500(레벨 1의 86,000부터 레벨 14의 174,000,000까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 크레딧 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -853,14 +923,13 @@
 
 - **[클랜](/wiki/03-Mechanics/Clans.md) 지급**: 클랜 리더는 클랜 은행에서 멤버에게 크레딧을 지급할 수 있습니다.
 - **보너스 코드**: 이벤트나 공식 Discord에서 나눠 주는 코드로 크레딧을 받을 수 있으며, 재료, 장비, 부스터, 함선이 함께 지급되기도 합니다. Thulium 페이지의 보너스 코드 카드에 입력하세요. 코드는 파일럿당 한 번씩 사용할 수 있습니다.
-- 실패한 대장간 단계는 크레딧을 돌려주지 않으며, 재료와 Thulium은 50%만 돌아옵니다.
 
 **쓰이는 곳**
 
 - **상점**: 아이템 27개의 가격이 크레딧으로 책정되어 있습니다(가격은 각 아이템 페이지에 나옵니다: [아이템 개요](/wiki/06-Items/Overview.md) 및 [로켓](/wiki/06-Items/Rockets.md)).
 - **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 1,000,000, [Starfire-III](/wiki/06-Items/Lasers.md) 100,000, P.E.T. Station I 100,000, P.E.T. Station II 300,000, P.E.T. Station III 1,100,000, [Ultra Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 9,058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 4,740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 4,873, [Lancet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 50,000, [Lancet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 150,000, [Rivet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 50,000, [Rivet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 150,000, [Ember II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 50,000, [Ember III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 150,000, [Scatter II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 50,000, [Scatter III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 150,000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 100,000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 50,000, [EMP Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 60,000, [Shield Breaker](/wiki/06-Items/Rockets.md) (1회 5개 제작) 80,000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 60,000, [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 50,000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 100,000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150,000, [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 90,000.
-- **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 표준 → 오염된 10,000, 오염된 → 신성한 50,000, 신성한 → 파열하는 200,000, 파열하는 → 영원한 500,000.
-- **대장간 병합**, 만들어지는 등급별: 오염된 5,000, 신성한 25,000, 파열하는 100,000, 영원한 250,000.
+- **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 표준 → 각성한 10,000, 각성한 → 공명하는 56,000, 공명하는 → 찬란한 267,000, 찬란한 → 승천한 833,000.
+- **대장간 병합**, 만들어지는 등급별: 각성한 5,000, 공명하는 25,000, 찬란한 100,000, 승천한 250,000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 20,000(레벨 1), 5,600,000(레벨 20), 크레딧 농장 0(레벨 1), 7,000,000(레벨 20), 방어 모듈 500,000(레벨 1), 14,000,000(레벨 5), 엔진 모듈 375,000(레벨 1), 8,750,000(레벨 5), 단조소 5,000(레벨 1), 9,000,000(레벨 20), 광석 베이 5,000(레벨 1), 4,500,000(레벨 20), Orvium 수집기 20,000(레벨 1), 5,500,000(레벨 20), 레이더 모듈 250,000(레벨 1), 2,250,000(레벨 3), 연구 센터 25,000(레벨마다 x1.5), 로켓 공장 20,000(레벨 1), 1,400,000(레벨 20), 태양광 500(레벨 1), 9,000,000(레벨 20), 자원 창고 5,000(레벨 1), 4,500,000(레벨 20), Thulium 농장 5,000(레벨 1), 8,500,000(레벨 20), 트로피 격납고 100,000(레벨 1), 2,325,000(레벨 20), Velkonite 수집기 20,000(레벨 1), 5,500,000(레벨 20). 코어는 처음부터 있으므로 처음 내는 가격은 레벨 2의 가격입니다: 1,500(그 뒤로는 레벨마다 x1.5).
 - **[클랜](/wiki/03-Mechanics/Clans.md)**: 클랜 은행 기부(파일럿당 24시간 동안 최대 크레딧 1,000,000)와 클랜의 일일 세금(리더가 정한 내 크레딧의 일정 비율).
 
@@ -876,7 +945,7 @@
 - **외계인**: 처치할 때마다 지급합니다(위의 표).
 - **[소행성](/wiki/03-Mechanics/Asteroid-Mining.md)**: 부서진 소행성의 조각이 지급합니다.
 - **[거대 굴착기](/wiki/03-Mechanics/Giant-Excavator.md)**: 시즌 11일차부터(베타와 감마에서는 시즌 1일차부터), 가득 찬 한 번의 가동이 알파에서 9,643개(베타와 감마에서는 더 많이)를 누구나 주울 수 있는 상자로 내놓습니다. 무엇을 채굴할지는 제어 패널에서 고릅니다.
-- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 88개의 Thulium 합계: 51,010(레벨 1의 170부터 레벨 8의 21,760까지).
+- **[미션](/wiki/03-Mechanics/Quests.md)**: Alpha 기준 미션 132개의 Thulium 합계: 1,356,610(레벨 1의 170부터 레벨 14의 696,320까지).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: 자리를 비운 동안 Thulium 농장에서 생산해 72시간분을 저장하는 저장소에 쌓습니다.
 
 | 모듈 레벨 | 1 | 5 | 10 | 15 | 20 |
@@ -886,13 +955,12 @@
 이 수치는 전력이 공급되는 정거장 기준입니다. 전력 부족이 생기면 모든 농장과 수집기가 멈추고, 모듈은 코어보다 높은 레벨로 업그레이드할 수 없으며 코어는 레벨 20에서 멈춥니다([Skylab](/wiki/03-Mechanics/Skylab.md) 참고).
 
 - **보너스 코드**: 이벤트나 공식 Discord에서 나눠 주는 코드로 Thulium을 받을 수 있으며, 재료, 장비, 부스터, 함선이 함께 지급되기도 합니다. Thulium 페이지의 보너스 코드 카드에 입력하세요. 코드는 파일럿당 한 번씩 사용할 수 있습니다.
-- 실패한 대장간 단계는 Thulium의 50%를 돌려주며, 소수점 이하는 내림합니다.
 
 **쓰이는 곳**
 
 - **상점**: 아이템 20개의 가격이 Thulium으로 책정되어 있습니다(가격은 각 아이템 페이지에 나옵니다: [아이템 개요](/wiki/06-Items/Overview.md)).
-- **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 50,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4,000, [Engine III](/wiki/06-Items/Propulsion.md) 4,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 15,000, Bodkin Formation 42,000, Asterism Formation 14,000, Gemini Formation 76,000, Adamant Formation 18,000, Ballista Formation 48,000, Stiletto Formation 92,000, Rampart Formation 77,000, Sanctum Formation 40,000, Shrike Formation 17,000, Culler Formation 40,000, Redoubt Formation 42,000, Auger Formation 41,000, Cordon Formation 43,000, Centurion Formation 16,000, Gyre Formation 40,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2,400, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 2,000, Adaptive Core II 2,000, Adaptive Core III 4,000, Energetic Wall II 600, P.E.T. Station I 2,000, P.E.T. Station II 4,000, P.E.T. Station III 12,000, Auto-Rocket CPU 20,000, [Ultra Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 1,315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 200, Rocket Launcher II 150,000, Rocket Launcher III 400,000, Rocket Launcher IV 900,000, Rocket Launcher V 2,000,000, Mine II 200, Mine III 400, Laser Optics I 8,000, Laser Optics II 15,000, Laser Optics III 30,000, Laser Optics IV 50,000, Laser Optics V 75,000, [Lancet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Lancet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Rivet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Rivet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Ember II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Ember III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Scatter II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Scatter III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,000, [EMP Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,200, [Shield Breaker](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,000, [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 2,500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 2,000.
-- **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 파열하는 → 영원한 2,000.
+- **어셈블리**, 제작 1회당: [Master Drone](/wiki/06-Items/Drones.md) 50,000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1,500, [Starfire-III](/wiki/06-Items/Lasers.md) 1,500, [Helios Beam](/wiki/06-Items/Lasers.md) 2,000, [Paragon](/wiki/02-Ships/Paragon.md) 1,500, [Wraith](/wiki/02-Ships/Wraith.md) 20,000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20,000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15,000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15,000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2,400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10,500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4,000, [Engine III](/wiki/06-Items/Propulsion.md) 4,000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2,000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3,000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5,000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2,000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3,000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4,000, [Storm](/wiki/02-Ships/Storm.md) 15,000, Extra Slots CPU I 12,000, Extra Slots CPU II 30,000, Extra Slots CPU III 75,000, Jump CPU 40,000, Base CPU I 8,000, Base CPU II 20,000, Auto-Repair CPU 15,000, Testudo Formation 15,000, Bodkin Formation 42,000, Asterism Formation 14,000, Gemini Formation 76,000, Adamant Formation 18,000, Ballista Formation 48,000, Stiletto Formation 92,000, Rampart Formation 77,000, Sanctum Formation 40,000, Shrike Formation 17,000, Culler Formation 40,000, Redoubt Formation 42,000, Auger Formation 41,000, Cordon Formation 43,000, Centurion Formation 16,000, Gyre Formation 40,000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2,000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2,000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2,400, Hull Plating II 2,500, Hull Plating III 4,000, [Engine II](/wiki/06-Items/Propulsion.md) 2,000, Adaptive Core II 2,000, Adaptive Core III 4,000, Energetic Wall II 600, P.E.T. Station I 2,000, P.E.T. Station II 4,000, P.E.T. Station III 12,000, Auto-Rocket CPU 20,000, [Ultra Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 1,315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1회 1,000개 제작) 200, Rocket Launcher II 150,000, Rocket Launcher III 400,000, Rocket Launcher IV 900,000, Rocket Launcher V 2,000,000, Mine II 200, Mine III 400, Laser Optics I 8,000, Laser Optics II 15,000, Laser Optics III 30,000, Laser Optics IV 50,000, Laser Optics V 75,000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6,000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20,000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35,000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50,000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75,000, [Lancet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Lancet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Rivet II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Rivet III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Ember II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Ember III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [Scatter II](/wiki/06-Items/Rockets.md) (1회 100개 제작) 200, [Scatter III](/wiki/06-Items/Rockets.md) (1회 100개 제작) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,000, [EMP Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,200, [Shield Breaker](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 1,000, [Marking Rocket](/wiki/06-Items/Rockets.md) (1회 5개 제작) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 2,500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3,000, [Support Rocket](/wiki/06-Items/Rockets.md) (1회 3개 제작) 2,000.
+- **[대장간](/wiki/06-Items/Forge.md)**, 등급 단계당: 찬란한 → 승천한 2,667.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** 건설과 업그레이드, 모듈별 가격(레벨 1은 건설이고, 그 위의 레벨마다 고유한 가격이 있습니다): 탄약 프린터 500(레벨 1), 11,000(레벨 20), 크레딧 농장 0(레벨 1), 550(레벨 20), 방어 모듈 2,000(레벨 1), 56,000(레벨 5), 엔진 모듈 1,500(레벨 1), 35,000(레벨 5), 단조소 500(레벨 1), 10,000(레벨 20), 광석 베이 250(레벨 1), 550(레벨 20), Orvium 수집기 500(레벨 1), 12,500(레벨 20), 레이더 모듈 1,000(레벨 1), 9,000(레벨 3), 연구 센터 500(레벨마다 x1.5), 로켓 공장 500(레벨 1), 2,800(레벨 20), 태양광 50(레벨 1), 10,000(레벨 20), 자원 창고 250(레벨 1), 550(레벨 20), Thulium 농장 500(레벨 1), 16,000(레벨 20), 트로피 격납고 400(레벨 1), 9,300(레벨 20), Velkonite 수집기 500(레벨 1), 12,500(레벨 20).
 - **[연구](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: 연구 센터의 부스트는 5,000 Thulium입니다.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: 점프 1회당 500 Thulium.
@@ -905,7 +973,7 @@
 
 - **상자**: 외계인의 드롭은 폭발한 자리에 상자 하나로 떨어지며, 처치한 파일럿과 그 클랜이 30초 동안 독점합니다. [Resource Magnet Booster](/wiki/06-Items/Boosters.md)는 상자에 든 양을 25% 늘려 줍니다. [화물](/wiki/03-Mechanics/Cargo.md)을 참고하세요.
 - **잔해**: 격파된 [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 누가 또는 무엇이 격파하든 상자도 부품도 남기지 않으므로, 파일럿의 함선은 재료를 얻는 수단이 아닙니다. 평화 프로토콜이 끝난 뒤 [월드](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)가 PvP를 허용하는 곳에서는 다른 기업의 파일럿을 격추할 수 있으며, 소속 기업의 파일럿을 격파하면 명예가 100 깎입니다.
-- **모듈 업그레이드**: 어셈블리는 한 단계 아래 부품을 업그레이드해 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II 및 Adaptive Core III 아이템을 만들며, 그 부품은 소모됩니다. 업그레이드에 필요한 플레이트: Velkonite Reinforced Plate, Dark Matter Plate 및 Orvium Reinforced Plate. Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV 및 Laser Optics V도 같은 플레이트를 요구합니다. 새 부품은 넣은 부품의 대장간 등급과 보너스를 이어받습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **모듈 업그레이드**: 어셈블리는 한 단계 아래 부품을 업그레이드해 Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II 및 Adaptive Core III 아이템을 만들며, 그 부품은 소모됩니다. 업그레이드에 필요한 플레이트: Velkonite Reinforced Plate, Dark Matter Plate 및 Orvium Reinforced Plate. Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV 및 Miyuki V도 같은 플레이트를 요구합니다. 새 부품은 넣은 부품의 대장간 등급과 보너스를 이어받습니다. 참고: [어셈블리의 모듈 업그레이드](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **보관 위치**: 어셈블리, 대장간, Skylab 건설에 쓰이는 것은 인벤토리에 장착되지 않은 채 쌓인 묶음입니다. 함선에 장착된 것이나 수송 보관함에 있는 묶음은 쓰이지 않습니다.
 - **초기화**: 인벤토리의 재료는 [초기화 규칙](/wiki/03-Mechanics/Wipe-Timeline.md)을 따르며, Skylab의 자원 창고에 보관된 광석은 남습니다.
 

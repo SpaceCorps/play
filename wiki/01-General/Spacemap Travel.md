@@ -27,10 +27,10 @@ The universe comprises three main company sectors (Mars, Terra, Galactic) and a 
 
 - **x-1 (Home Base)**: The starting map for each company (M-1, T-1, G-1). Safest zone.
 - **x-2 -> x-3**: Expansion zones with progressively tougher aliens.
-- **x-4 (Border)**: The gateway to the PvP sector, and to another company's `x-3` (the Ring, below).
+- **x-4 (Border)**: The gateway to the PvP sector, and to another company's `x-3` (the Ring, below). It has a Mission Control station in its middle.
 - **DS-x (Danger Sectors)**: The central PvP zone connecting all companies: DS-1 to DS-4. It holds a pulsar in each of DS-1 to DS-3 from the first day of the season and, from season day 11, a giant excavator beside each and the Dormant Swamp ([Danger Sectors](/wiki/01-General/Danger-Sectors.md)). In Beta and Gamma the giant excavators stand from the first day of the season.
 
-Only the home bases have a station. It is where **Mission Control** opens, and its safe zone reaches 1,600 units around it. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to your base for your missions.
+Only the home bases (`x-1`) and the borders (`x-4`) have a station. It is where **Mission Control** opens and where you accept and claim missions, within 1,600 units of it. The station of a home base has a safe zone of that radius. The station of a border, in the middle of the sector, has **none**: it is a Mission Control point only, and pilots there can still be attacked. It is a small post, a single tile of the home base's city: one hex deck with the control tower, the radar domes, a landing pad and a comms mast. The Danger Sectors have no station, `DS-1` included: the only safe zones there are the rings of 660 units around the jump gates, and Mission Control cannot be opened there; fly back to a station for your missions.
 
 Each [world](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) has its own copy of this whole map, and where pilots may fight each other depends on it: in Alpha only in `x-4` and `DS-x`, in Beta everywhere except `x-1`, in Gamma everywhere. The galaxy map colours the sectors by your world's rule.
 
@@ -50,7 +50,7 @@ Spacemap travel is conducted via **Jump Gates** (Portals). A [Jump CPU](/wiki/06
 
 1. **Locate a Portal**: Portals are typically found at the corners or edges of a map.
 2. **Navigation**: Fly your ship close to the portal structure.
-3. **Activation**: Press **'J'** within 500 units of the portal to start the jump.
+3. **Activation**: Press **'J'** within 500 units of the portal to start the jump, or click the **jump icon** that hangs over the portal. In reach the icon starts the jump just as the key does; out of reach it is dimmed, and a click flies your ship to the portal and starts the jump when you arrive (any other order you give cancels it).
 4. **Wait for it**: The jump **takes 3 seconds**. A bar over your hotbar ("Jumping…") fills meanwhile, and the portal glows brighter as it charges; other pilots see the same charge on the portal when you jump. Your ship keeps flying, but you have to stay within 500 units of the portal until the time is up: fly out of range and the jump is called off ("Portal too far to jump.", and the bar turns red). Pressing **'J'** again while you jump does nothing but tell you so.
 5. **Destination**: You will arrive at the corresponding portal in the target map.
 

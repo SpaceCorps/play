@@ -57,7 +57,7 @@ Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebesség
 | :--- | ---: | ---: | ---: |
 | Hajótest | 256 000 | 384 000 | 512 000 |
 | Pajzs | 83 400 | 125 100 | 166 800 |
-| Lézersebzés (másodpercenként egy sorozat) | 3 570 | 5 355 | 7 140 |
+| Lézersebzés (másodpercenként egy sorozat) | 3 315 | 4 973 | 6 630 |
 | Sebesség | 210 | 210 | 210 |
 | Lézer hatótávja | 800 | 800 | 800 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |
@@ -75,6 +75,7 @@ Alapja: Wraith, hajótestének 100%-a és lézersebzésének 300%-a; a sebesség
 | Ultra Core és Experimental Fusion Core, egyenlően elosztva | 100% | összesen 2 000–3 000 |
 | Egy a 4 Epikus [rakéta](/wiki/06-Items/Rockets.md) közül, véletlenszerűen | 100% | 30–50 |
 | Egy a következők közül: [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) és [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), véletlenszerűen | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

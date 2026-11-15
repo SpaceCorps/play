@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Destrezas de piloto -->
 # Destrezas de piloto {#pilot-skills}
 
@@ -15,7 +15,7 @@ Un piloto nuevo no tiene toda su fuerza. En el nivel 1 un láser y un cohete hac
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estadísticas**: 19 estadísticas: 4 atributos y 15 destrezas en 5 grupos
+- **Estadísticas**: 20 estadísticas: 4 atributos y 16 destrezas en 5 grupos
 - **Niveles**: De 1 a 100. Todo piloto empieza cada estadística en el nivel 1, y no hay nada que gastar ni que reasignar
 - **Coste de un nivel**: 40 XP del nivel 1 al 2, 875 XP del nivel 50 al 51, 19.157 XP del nivel 99 al 100; 313.258 XP en total
 - **Lo que da un nivel**: Un bonificador crece en línea recta desde su valor en el nivel 1 hasta su valor en el nivel 100. Nada tiene límite
@@ -77,6 +77,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | **Evasión** (Reflejos) | Probabilidad de esquivar un golpe, sumada a la propia de la nave | 0 % | 15 % |
 | **Táctica** (Reflejos) | Duración de las habilidades | ×1 | ×1,2 |
 | **Absorción de escudo** (Temple) | Absorción de tus escudos | +0 puntos | +5 puntos |
+| **Curación** (Masa) | Fuerza de tus propias reparaciones y curaciones | ×1 | ×1,3 |
 
 ### Control de la nave {#ship-control}
 
@@ -93,12 +94,13 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | **Extracción** (Instinto) | Lo que produce el Skylab | ×1 | ×1,3 |
 | **Logística** (Masa) | Lo que guarda el banco del Almacén de recursos | ×1 | ×1,4 |
 | **Fabricación** (Reflejos) | Tiempo de una fabricación | ×1 | ×0,65 |
+|  | Coste de integridad de una recolocación | ×1 | ×0,7 |
 
 ### Comercio {#trading}
 
 | Estadística | Qué cambia | Nivel 1 | Nivel 100 |
 | :--- | :--- | ---: | ---: |
-| **Comercio** (Instinto) | Precios de la tienda | ×1 | ×0,85 |
+| **Comercio** (Instinto) | Precios de la tienda, y créditos y Thulium de una fabricación o de la Forja | ×1 | ×0,85 |
 |  | Lo que paga la tienda al recomprar | ×1 | ×1,1 |
 |  | Tarifa de un anuncio de la Subasta | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 - **Láseres.** La Tecnología láser cambia el daño de cada ráfaga y la probabilidad de que acierte; una ráfaga que se desvía muestra un «Miss» flotante y gasta igualmente su munición ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). El alcance de tus láseres es el de tu nave: la Puntería sube con tus impactos con munición distinta de la simple x1, pero solo actúa sobre las Mines (abajo).
 - **Cohetes.** La Tecnología de cohetes cambia el daño de cada cohete y la probabilidad de que uno falle al encenderse ([Tecnología de cohetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, la Evasión aumenta la probabilidad de que un impacto directo no haga nada y la Absorción de escudo aumenta la parte de un impacto que se llevan tus escudos ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
+- **Curación.** La Curación hace más fuertes las curaciones de tu propio equipo: la reparación de tu Repair Drone, una Emergency Repair y el Heal Pod que sueltas ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Se entrena con el casco que restauran tus curaciones; curar una nave dentro de una zona segura no cuenta. El Support Rocket siempre cura la misma cantidad fija, a cualquier nivel, y aun así da XP de Curación.
 - **Habilidades.** Los Reflejos acortan el enfriamiento de tus habilidades y la Táctica hace que duren más ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). El Sabotaje refuerza los venenos.
 - **Mines.** El Sabotaje aumenta el daño de una Mine, y la Puntería la lanza más rápido y más lejos ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidad.** La Teoría de propulsores suma a tu velocidad, además de los motores y un Afterburner ([Velocidad](/wiki/03-Mechanics/Speed.md)).
 - **Recogidas.** El Instinto aumenta la probabilidad de cada línea de botín, igual que un Loot Luck Booster, y los dos se suman; la Antimateria aumenta la Dark Matter que recoges ([Carga](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radiación.** La Tecnología de radiación reduce la dosis del agujero negro, de los círculos de los excavadores, de los púlsares y del aura de los Unwakened ([Agujero negro](/wiki/03-Mechanics/Black-Hole.md)).
-- **En casa.** La Extracción y la Logística cambian lo que el [Skylab](/wiki/03-Mechanics/Skylab.md) produce y guarda, el Instinto aumenta sus dos colectores, la Fabricación acorta las fabricaciones del Ensamblaje, la Ciencia llena más rápido el Centro de [Investigación](/wiki/03-Mechanics/Research.md), y el Comercio baja los precios de la tienda, sube lo que paga al recomprar y baja la tarifa de un anuncio de la [Subasta](/wiki/03-Mechanics/Auction.md).
+- **En casa.** La Extracción y la Logística cambian lo que el [Skylab](/wiki/03-Mechanics/Skylab.md) produce y guarda, el Instinto aumenta sus dos colectores, la Fabricación acorta las fabricaciones del Ensamblaje, la Ciencia llena más rápido el Centro de [Investigación](/wiki/03-Mechanics/Research.md), y el Comercio baja los precios de la tienda y los créditos y el Thulium de las fabricaciones del Ensamblaje, sube lo que paga la tienda al recomprar y baja la tarifa de un anuncio de la [Subasta](/wiki/03-Mechanics/Auction.md). En la [Forja](/wiki/06-Items/Forge.md), el Comercio baja los créditos y el Thulium de un paso y los créditos de una combinación ([Subir grado](/wiki/06-Items/Forge.md#tier-up)), y la Fabricación baja la integridad que una recolocación le quita a una pieza ([Integridad y fracturas](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Cómo se paga la XP {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ La tabla indica qué paga XP, estadística por estadística. La XP es por cada u
 | **Evasión** (Reflejos) | Cada ataque hostil contra ti que falla o es esquivado | 1 | 600 XP por hora |
 | **Táctica** (Reflejos) | Cada habilidad que pulsas con un hostil al alcance del láser | 2 | 600 XP por hora |
 | **Absorción de escudo** (Temple) | Cada 1 % de tu escudo máximo que absorben los impactos enemigos | 0,1 | 300 XP por hora |
+| **Curación** (Masa) | Cada 1 % del casco máximo de una nave que restaura una curación tuya | 0,1 | 300 XP por hora |
 | **Tecnología de radiación** (Temple) | Cada segundo dentro de una banda de radiación | 0,2 | Ninguno |
 |  | Cada 1 % de tu casco máximo que quita la radiación | 1 |  |
 | **Teoría de propulsores** (Masa) | Cada segundo volado por encima del 80 % de la velocidad de tu nave, el doble con un Afterburner | 0,1 | Ninguno |
@@ -186,14 +190,16 @@ Un nivel cuesta más XP que el anterior, en una proporción fija, así que los p
 
 ## La página Destrezas de piloto {#the-pilot-skills-page}
 
-La página **Destrezas de piloto** es una página de la estación, con una fila propia en la barra lateral. Es una hoja compacta de todo el árbol: los atributos y los cinco grupos de destrezas están uno junto a otro en columnas (tres en una pantalla ancha, menos en una estrecha), con una línea por estadística, su nivel en el borde derecho y una fina barra de XP debajo. Una estadística que aún no ha ganado XP aparece en gris, con un guion como nivel. Deja el puntero sobre una línea para ver qué hace la estadística, qué atributo la rige o qué destrezas entrena, su XP y qué la hace crecer. Haz clic en una línea para abrir sus detalles bajo su fila de columnas: las mismas palabras, la barra de XP y un control deslizante para previsualizar cualquier nivel del 1 al último, con una pequeña tabla de lo que la estadística cambia en el nivel 1, en tu nivel actual, en el nivel que previsualizas y en el último nivel. Solo hay una estadística abierta a la vez; haz clic otra vez en la línea, usa el botón de cerrar o pulsa Esc para guardarla. La fila de la barra lateral lleva una insignia cuando una estadística ha subido de nivel desde la última vez que abriste la página, y una tarjeta de la ventana de Potenciadores resume lo que cambian tus destrezas.
+La página **Destrezas de piloto** es una página de la estación, con una fila propia en la barra lateral. Es una hoja de todo el árbol: los atributos y los cinco grupos de destrezas son **tarjetas** colocadas una junto a otra (tres en una pantalla ancha, menos en una estrecha; cuando la hoja tiene sitio para cuatro columnas, las seis destrezas de Combate se colocan en dos columnas dentro de su tarjeta). Una destreza es una línea con un icono sobre una ficha a la izquierda, su nombre y su nivel en un **anillo** en el borde derecho que se llena a medida que crece el XP del nivel. La ficha y el anillo llevan el color del atributo que rige la destreza (Masa verde, Temple azul, Reflejos dorado, Instinto violeta), así que el árbol se lee por los colores. Una destreza que aún no ha ganado XP aparece en gris, con un guion como nivel en un anillo vacío (Tecnología láser y Tecnología de cohetes muestran siempre el suyo). Deja el puntero sobre una línea para ver qué hace la destreza, qué atributo la rige o qué destrezas entrena, su XP y qué la hace crecer; el atributo que la rige, o las destrezas que entrena, se iluminan mientras tanto.
+
+Los detalles de una destreza son las mismas palabras, la barra de XP y un control deslizante para previsualizar cualquier nivel del 1 al último, con una pequeña tabla de lo que la destreza cambia en el nivel 1, en tu nivel actual, en el nivel que previsualizas y en el último nivel. **En una página lo bastante ancha** (las dos mitades de los detalles quedan entonces una al lado de la otra), los detalles de la destreza seleccionada están siempre al pie de la página: la primera destreza de la hoja hasta que haces clic en otra, y luego la que pulsaste. Un clic selecciona, no hay botón de cerrar y Esc no los cierra. **En una página más estrecha y en la ventana de vuelo**, un clic en una línea abre los detalles como una tira bajo su fila de tarjetas, de una destreza cada vez: haz clic otra vez en la línea, usa el botón de cerrar o pulsa Esc para guardarla. La fila de la barra lateral lleva una insignia cuando una destreza ha subido de nivel desde la última vez que abriste la página, y una tarjeta de la ventana de Potenciadores resume lo que cambian tus destrezas.
 
 En vuelo, la misma hoja es la ventana **Destrezas de piloto**. Ábrela con el botón Destrezas de piloto de la barra de herramientas (en una pantalla ancha) o con su tecla, K por defecto (Configuración, Controles). Es una ventana como las demás: muévela, cambia su tamaño, y recuerda su lugar y si estaba abierta. Solo muestra tus destrezas: los niveles avanzan a medida que llegan las líneas de XP del vuelo, y un clic en una línea abre los mismos detalles dentro de la ventana.
 
 ## Qué se conserva {#what-is-kept}
 
 - **En todos los reinicios.** El árbol es parte de tu cuenta: un reinicio no cambia ningún nivel ni nada de XP, y el Alijo de Transporte no tiene nada que ver con ello ([Lo que conservas](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **En los servidores regionales.** La XP que ganas volando en Singapore o US East se suma a tus destrezas cuando vuelves a casa, incluida una estadística que usaste allí por primera vez, y el límite por hora que gastaste allí te acompaña. La página Destrezas de piloto de un piloto que vuela allí lee las cifras del servidor regional, con la XP que su nave ha ganado desde su último guardado.
+- **En los servidores regionales.** La XP que ganas volando en Singapore o US East se suma a tus destrezas cuando vuelves a casa, incluida una estadística que usaste allí por primera vez, y el límite por hora que gastaste allí te acompaña. La página Destrezas de piloto de un piloto que vuela allí lee las cifras del servidor regional, con la XP que su nave ha ganado desde su último guardado. Qué más funciona en un servidor regional está en [Servidores](/wiki/03-Mechanics/Servers.md).
 - **Hasta que se elimine la cuenta.** Eliminar una cuenta elimina sus niveles.
 
 Los bonificadores no tienen más techo que el último nivel: un piloto que lo ha subido todo es tan fuerte como dicen las tablas.

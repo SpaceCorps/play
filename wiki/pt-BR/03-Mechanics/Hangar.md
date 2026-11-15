@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar -->
 # O hangar em voo {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Você não precisa voltar à base para trocar de nave. De dentro de uma zona seg
 
 Uma mudança só é permitida enquanto todas estas condições forem verdadeiras:
 
-- **Uma zona segura protege você.** Toda estação e todo portal tem um anel protetor (veja [Combate](/wiki/03-Mechanics/Combat.md)). Dentro dele você fica protegido depois de 5 segundos sem ser atingido e 15 sem disparar.
+- **Uma zona segura protege você.** A estação de cada base de origem e todo portal têm um anel protetor (veja [Combate](/wiki/03-Mechanics/Combat.md)); a estação do Mission Control de um setor de fronteira não tem. Dentro dele você fica protegido depois de 5 segundos sem ser atingido e 15 sem disparar.
 - **Você ficou fora de combate** por mais alguns segundos: **10** por padrão. Isso importa quando você chega já protegido, por um portal, com uma luta para trás.
 - Você não está camuflado, nem dentro da janela do seu próprio EMP, nem perto do [buraco negro](/wiki/03-Mechanics/Black-Hole.md), e não tem nenhum foguete seu ainda no ar.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Grades -->
 # Grades {#ranks}
 
@@ -106,9 +106,11 @@ Si vous changez de corporation, vos points vous suivent et vous entrez dans le c
 
 ## Comment gagner des points PvE {#how-you-earn-pve-points}
 
-Vos points PvE sont calculés à partir de trois choses :
+Vos points PvE sont calculés à partir de quatre choses :
 
-**niveau × 100 + expérience ÷ 1 000 (arrondie à l’inférieur) + les points de chaque alien que vous avez détruit**
+**niveau × 100 + expérience ÷ 1 000 (arrondie à l’inférieur) + honneur ÷ 100 (arrondi à l’inférieur) + les points de chaque alien que vous avez détruit**
+
+Chaque tranche de 100 d’**honneur** vaut un point, d’où qu’elle vienne ; après une réinitialisation, seul l’honneur gagné durant la nouvelle saison compte. Un solde inférieur à 0 ne compte pour rien.
 
 Un alien plus coriace vaut plus : une destruction rapporte des points selon les dégâts qu’il faut pour détruire l’alien. Les vaisseaux d’essaim et les Gardiens de clan comptent selon la même règle : un Pirate Scout vaut donc autant qu’un Bulwark. Chaque destruction est comptée sous le nom propre de l’alien dans vos statistiques de destructions.
 
@@ -144,7 +146,7 @@ Un alien plus coriace vaut plus : une destruction rapporte des points selon les
 
 Les cinq premières lignes sont les aliens ordinaires, les douze suivantes les vaisseaux des six essaims et les trois suivantes les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dès le jour 11 de la saison). Viennent enfin les Gardiens de clan, chefs d’un combat de Gardien de clan, et leurs équipages, les Brood Drones, Siege Escorts et Wrath Guards : I, II et III sont la force du Gardien, et les points sont donnés dans cet ordre.
 
-Par exemple, un pilote de niveau 4 avec 12 500 d’expérience qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 300 + 160 + 40 = **912** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
+Par exemple, un pilote de niveau 4 avec 12 500 d’expérience et 900 d’honneur qui a détruit 300 Seekers, 80 Phantasm et 10 Bulwarks a 400 + 12 + 9 + 300 + 160 + 40 = **921** points. Cela fait de lui un Sergent : le minimum est 800, et le grade suivant, Sergent sénior, en demande 1 000. Jusqu’à Colonel sénior, seuls les points comptent.
 
 La page **Classements** (Communauté › Classements) montre comment vos points se composent, et le **Panthéon** de cette page liste les meilleurs pilotes. Le **(i)** à côté des points PvE y nomme les cinq aliens, ce que vaut une destruction dans chacun des [essaims](/wiki/05-Swarms/Swarms.md), de son plus petit vaisseau à son chef, la même chose pour les aliens du [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), et les [Gardiens de clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) ne figure dans aucun classement : une destruction de lui ne vaut aucun point, il n’a pas de ligne au Panthéon et il n’appartient à aucune corporation, il n’est donc sur aucune des échelles.
 
@@ -202,7 +204,7 @@ Ouvrez **Économie › Corporation**. Sa section **Classement de la corporation*
 
 ## Grades et réinitialisation {#ranks-and-the-wipe}
 
-À la réinitialisation, vos points PvE repartent de zéro : le classement de votre corporation repart donc aussi et chaque saison est une nouvelle ascension. Seul compte ce que vous gagnez après une réinitialisation : les niveaux pris, l’expérience et les éliminations d’aliens de la nouvelle saison ([Points neufs](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Votre niveau, votre expérience et vos statistiques d’éliminations restent dans vos totaux. **L’honneur ne détermine pas votre grade.** Le grade que vous déteniez à l’instant de la réinitialisation passe dans l’historique de vos saisons, avec votre place dans le classement, et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Votre grade n’est pas non plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
+À la réinitialisation, vos points PvE repartent de zéro : le classement de votre corporation repart donc aussi et chaque saison est une nouvelle ascension. Seul compte ce que vous gagnez après une réinitialisation : les niveaux pris, l’expérience, l’honneur et les éliminations d’aliens de la nouvelle saison ([Points neufs](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Votre niveau, votre expérience et vos statistiques d’éliminations restent dans vos totaux. Le grade que vous déteniez à l’instant de la réinitialisation passe dans l’historique de vos saisons, avec votre place dans le classement, et rapporte ses récompenses ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Votre grade n’est pas non plus à vie : les six meilleurs grades bougent avec les autres pilotes de votre corporation, et un pilote qui reste absent 30 jours quitte le classement jusqu’à son prochain vol.
 
 La saison 2, qui a commencé avec la réinitialisation du 6 novembre 2026, a été la première à compter ainsi : ses points comptent à partir de cette réinitialisation. La réinitialisation qui a clos la saison 1 a payé les grades de la saison 1 d’après les points de toute votre carrière.
 

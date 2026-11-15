@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Uzay haritasında seyahat -->
 # Uzay haritasında seyahat {#spacemap-travel}
 
@@ -29,10 +29,10 @@ Evren, üç ana şirket sektöründen (Mars, Terra, Galactic) ve merkezî bir Pv
 
 - **x-1 (Ana üs)**: Her şirketin başlangıç haritası (M-1, T-1, G-1). En güvenli bölge.
 - **x-2 -> x-3**: Giderek daha sert uzaylıların bulunduğu genişleme bölgeleri.
-- **x-4 (Sınır)**: PvP sektörünün ve başka bir şirketin `x-3` sektörünün kapısı (aşağıdaki halka).
+- **x-4 (Sınır)**: PvP sektörünün ve başka bir şirketin `x-3` sektörünün kapısı (aşağıdaki halka). Ortasında bir Mission Control istasyonu vardır.
 - **DS-x (Tehlike Sektörleri)**: Tüm şirketleri birbirine bağlayan merkezî PvP bölgesi: DS-1 ile DS-4. DS-1 ile DS-3 sektörlerinin her birinde sezonun ilk gününden itibaren bir pulsar bulunur ve sezonun 11. gününden itibaren her birinin yanında bir dev ekskavatör ve ayrıca Dormant Swamp bulunur ([Tehlike Sektörleri](/wiki/01-General/Danger-Sectors.md)). Beta ve Gamma’da dev ekskavatörler sezonun ilk gününden itibaren yerindedir.
 
-İstasyon yalnızca ana üslerde bulunur. **Mission Control** orada açılır ve güvenli bölgesi çevresinde 1.600 birim uzanır. Tehlike Sektörleri’nde, `DS-1` dahil, istasyon yoktur: oradaki tek güvenli bölgeler sıçrama geçitlerinin çevresindeki 660 birimlik halkalardır ve orada Mission Control açılamaz; görevlerin için üssüne geri uç.
+İstasyon yalnızca ana üslerde (`x-1`) ve sınırlarda (`x-4`) bulunur. **Mission Control** orada açılır ve görevleri orada, istasyona en fazla 1.600 birim uzaklıktayken kabul eder ve ödüllerini alırsın. Bir ana üssün istasyonunun bu yarıçapta bir güvenli bölgesi vardır. Bir sınırın istasyonunun, sektörün ortasındakinin, **hiç yoktur**: yalnızca bir Mission Control noktasıdır ve orada pilotlara yine de saldırılabilir. Küçük bir karakoldur, ana üssün şehrinin tek bir karesi: kontrol kulesi, radar kubbeleri, bir iniş pisti ve bir haberleşme direği taşıyan altıgen bir güverte. Tehlike Sektörleri’nde, `DS-1` dahil, istasyon yoktur: oradaki tek güvenli bölgeler sıçrama geçitlerinin çevresindeki 660 birimlik halkalardır ve orada Mission Control açılamaz; görevlerin için bir istasyona geri uç.
 
 Her [dünya](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) bu haritanın tamamının kendi kopyasına sahiptir ve pilotların birbiriyle nerede savaşabileceği buna bağlıdır: Alpha dünyasında yalnızca `x-4` ve `DS-x` sektörlerinde, Beta dünyasında `x-1` dışında her yerde, Gamma dünyasında her yerde. Galaksi haritası sektörleri dünyanın kuralına göre renklendirir.
 
@@ -52,7 +52,7 @@ Uzay haritasında seyahat **sıçrama geçitleri** (portallar) üzerinden yapıl
 
 1. **Bir portal bul**: portallar genellikle bir haritanın köşelerinde ya da kenarlarında bulunur.
 2. **Seyrüsefer**: geminle portal yapısına yaklaş.
-3. **Etkinleştirme**: sıçramayı başlatmak için portalın 500 birim yakınındayken **J** tuşuna bas.
+3. **Etkinleştirme**: sıçramayı başlatmak için portalın 500 birim yakınındayken **J** tuşuna bas ya da portalın üstünde asılı duran **sıçrama simgesine** tıkla. Menzildeyken simge sıçramayı tuş gibi başlatır; menzil dışındayken soluktur ve bir tıklama gemini portala uçurur, vardığında sıçramayı başlatır (verdiğin başka herhangi bir komut bunu iptal eder).
 4. **Bekle**: sıçrama **3 saniye sürer**. Bu sırada kısayol çubuğunun üstündeki bir çubuk (“Sıçranıyor…”) dolar ve portal şarj oldukça daha parlak parlar; sen sıçradığında diğer pilotlar portalda aynı şarjı görür. Gemin uçmaya devam eder ama süre dolana kadar portalın 500 birim yakınında kalmalısın: menzilden çıkarsan sıçrama iptal edilir (“Portal sıçrama için çok uzakta.” ve çubuk kırmızıya döner). Sıçrarken tekrar **J** tuşuna basmak, bunu söylemekten başka bir şey yapmaz.
 5. **Varış**: hedef haritadaki karşılık gelen portalda belirirsin.
 

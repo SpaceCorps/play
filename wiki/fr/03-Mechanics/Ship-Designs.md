@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
@@ -20,11 +20,11 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 | **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon | 144 000 | 350 | 14 |
 | **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 600 000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink | 500 000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 256 000 | 210 | 15 |
-| **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 14 |
-| **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 307 200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 emplacement laser, +1 emplacement de soutien, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff | 256 000 | 210 | 13 |
-| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers | 256 000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 256 000 | 210 | 14 |
+| **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 13 |
+| **Wraith MENATI** | +20 % de coque de base, +20 de vitesse de base, +5 % d’absorption du bouclier, Heal Pod | 307 200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 emplacement laser, +1 emplacement de soutien, +25 % de capacité du bouclier, +10 % d’absorption du bouclier, Shield Buff | 256 000 | 210 | 12 |
+| **Wraith MATT** | +2 emplacements laser, -20 % de capacité du bouclier, +10 % de pénétration des lasers | 256 000 | 210 | 15 |
 
 ## Obtenir un design {#getting-a-design}
 
@@ -63,7 +63,7 @@ Le vaisseau transformé est celui que vous possédez de ce type (un Paragon pour
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Les quatre** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Ensemble, elles demandent 510 Dark Matter, en plus des 789 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 384 pour toutes les technologies du jeu.
+Ensemble, elles demandent 510 Dark Matter, en plus des 979 que demandent toutes les autres technologies, et les niveaux de module du Skylab en demandent 115 de plus : 1 604 pour toutes les technologies du jeu.
 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Utazás az űrtérképen -->
 # Utazás az űrtérképen {#spacemap-travel}
 
@@ -29,10 +29,10 @@ Az univerzum három fő vállalati szektorból (Mars, Terra, Galactic) és egy k
 
 - **x-1 (Otthoni bázis)**: Minden vállalat kezdőtérképe (M-1, T-1, G-1). A legbiztonságosabb zóna.
 - **x-2 -> x-3**: Terjeszkedési zónák egyre erősebb idegenekkel.
-- **x-4 (Határ)**: A PvP-szektor kapuja, és egy másik vállalat `x-3` szektoráé is (a Gyűrű, lásd lent).
+- **x-4 (Határ)**: A PvP-szektor kapuja, és egy másik vállalat `x-3` szektoráé is (a Gyűrű, lásd lent). A közepén van egy Mission Control-állomás.
 - **DS-x (Veszélyes szektorok)**: A központi PvP-zóna, amely az összes vállalatot összeköti: DS-1–DS-4. A szezon első napjától a DS-1-től a DS-3-ig mindegyikben van egy pulzár, a szezon 11. napjától pedig mindegyik mellett egy óriás kotrógép is áll, és ott van a Dormant Swamp ([Veszélyes szektorok](/wiki/01-General/Danger-Sectors.md)). A Betában és a Gammában az óriás kotrógépek a szezon első napjától állnak.
 
-Csak az otthoni bázisokon van állomás. Itt nyílik meg a **Mission Control**, az állomás biztonságos zónája pedig 1 600 egységnyire terjed ki körülötte. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza a bázisodra.
+Csak az otthoni bázisokon (`x-1`) és a határszektorokban (`x-4`) van állomás. Itt nyílik meg a **Mission Control**, és itt fogadsz el és veszel át küldetéseket, legfeljebb 1 600 egységre tőle. Az otthoni bázis állomásának ekkora sugarú biztonságos zónája van. A határszektor állomásának, a szektor közepén, **nincs**: csak egy Mission Control-pont, és az ott lévő pilótákat továbbra is megtámadhatják. Kis őrállomás, az otthoni bázis városának egyetlen mezője: egy hatszögletű platform az irányítótoronnyal, a radarkupolákkal, egy leszállóhellyel és egy távközlési árbóccal. A veszélyes szektorokban nincs állomás, a `DS-1`-ben sem: az egyetlen biztonságos zónák ott az ugrókapuk körüli 660 egység sugarú gyűrűk, és a Mission Control sem nyitható meg; a küldetéseidért repülj vissza egy állomásra.
 
 Minden [világ](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) a teljes térkép saját példányával rendelkezik, és ettől függ, hol harcolhatnak egymással a pilóták: az Alphában csak az `x-4` és a `DS-x` szektorokban, a Betában az `x-1` kivételével mindenhol, a Gammában mindenhol. A galaxistérkép a világod szabálya szerint színezi a szektorokat.
 
@@ -52,7 +52,7 @@ Az űrtérképen az utazás **ugrókapukon** (portálokon) át zajlik. A [Jump C
 
 1. **Keress egy portált**: A portálok jellemzően a térkép sarkaiban vagy szélein találhatók.
 2. **Navigáció**: Repüld a hajódat a portál szerkezetének közelébe.
-3. **Aktiválás**: Az ugrás elindításához nyomd meg a **J** gombot a portáltól 500 egységen belül.
+3. **Aktiválás**: Az ugrás elindításához nyomd meg a **J** gombot a portáltól 500 egységen belül, vagy kattints a portál felett lebegő **ugrás ikonra**. Hatótávolságon belül az ikon ugyanúgy elindítja az ugrást, mint a gomb; azon kívül halvány, és egy kattintás a portálhoz repíti a hajódat, és megérkezéskor elindítja az ugrást (bármely más parancsod megszakítja).
 4. **Várd ki**: Az ugrás **3 másodpercig tart**. A gyorssáv felett közben egy sáv („Ugrás…”) telik meg, a portál pedig egyre fényesebben ragyog, ahogy töltődik; a többi pilóta ugyanezt a töltődést látja a portálon, amikor te ugrasz. A hajód tovább repül, de az idő lejártáig a portáltól 500 egységen belül kell maradnod: ha kirepülsz a hatótávból, az ugrás megszakad („A portál túl messze van az ugráshoz.”, és a sáv pirosra vált). Ha ugrás közben újra megnyomod a **J** gombot, az semmit sem csinál, csak szól erről.
 5. **Úti cél**: A célként kijelölt térkép megfelelő portáljánál érkezel meg.
 

@@ -20,10 +20,10 @@ Bu sayfadaki her getiri **öldürme başına ortalamadır**: her ganimetin düş
 
 | Malzeme | Nadirlik | Geldiği yer | Kullanıldığı yer |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Sıradan | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroitler, özel görevler | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Demirhane, Skylab modül inşası, Araştırma Merkezi |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Sıradan | Goombah, Bulwark, asteroitler, görevler | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Demirhane, Araştırma Merkezi |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Seyrek | Crystalys, Goombah, asteroitler, görevler | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Demirhane, Araştırma Merkezi |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Nadir | Crystalys, görevler | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Cooldown Rocket, Gravitational N.U.K.E., Araştırma Merkezi |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Sıradan | Crystalys, Goombah, Bulwark, Phantasm, Seeker, asteroitler, özel görevler | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Demirhane, Skylab modül inşası, Araştırma Merkezi |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Sıradan | Goombah, Bulwark, asteroitler, görevler | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Demirhane, Araştırma Merkezi |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Seyrek | Crystalys, Goombah, asteroitler, görevler | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Demirhane, Araştırma Merkezi |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Nadir | Crystalys, görevler | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., Araştırma Merkezi |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Sıradan | Phantasm, Seeker, asteroitler | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, Demirhane, Araştırma Merkezi |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Sıradan | Phantasm, Bulwark, asteroitler | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, Demirhane, Araştırma Merkezi |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Sıradan | Crystalys, Goombah, Bulwark, asteroitler, dev ekskavatör, görevler | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, Demirhane, Araştırma Merkezi |
@@ -33,10 +33,13 @@ Bu sayfadaki her getiri **öldürme başına ortalamadır**: her ganimetin düş
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Nadir | görevler, Skylab Dökümhanesi | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Destansı | görevler, Skylab Dökümhanesi | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, P.E.T. Beşiği |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Destansı | kara delik (yutulan bir N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Araştırma Merkezi |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitik | Montaj | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Demirhane |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitik | Montaj | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Demirhane |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Destansı | asteroitler, özel görevler | P.E.T. Beşiği |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitik | asteroitler, özel görevler | P.E.T. Beşiği |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Efsanevi | asteroitler | P.E.T. Beşiği |
+| [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | Seyrek | Crystalys, Goombah, Bulwark, Phantasm, Seeker, solo geçitler, klan zindanları | Demirhane yuvaları |
+| [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | Nadir | solo geçitler, klan zindanları | Demirhane yuvaları |
+| [Heartshard](/wiki/06-Items/Resources.md#heartshard) | Destansı | solo geçitler, klan zindanları, nadir NPC’ler | Demirhane yuvaları |
 
 ## Malzemeler {#materials}
 
@@ -121,16 +124,21 @@ Bu sayfadaki her getiri **öldürme başına ortalamadır**: her ganimetin düş
 - P.E.T. Station III: **60** (2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1.100.000 kredi, 12.000 Thulium ile birlikte)
 - Auto-Rocket CPU: **100** (1 Ancient Control Unit, 5 Power Core, 10 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20.000 Thulium ile birlikte)
 - Rocket Launcher II: **300** (5 Ancient Control Unit, 30 Power Core, 50 Reinforced Hull Plate, 150.000 Thulium ile birlikte)
-- Rocket Launcher III: **800** (15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 400.000 Thulium ile birlikte)
-- Rocket Launcher IV: **1.800** (30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 900.000 Thulium ile birlikte)
-- Rocket Launcher V: **4.000** (60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 2.000.000 Thulium ile birlikte)
+- Rocket Launcher III: **800** (15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 400.000 Thulium ile birlikte)
+- Rocket Launcher IV: **1.800** (30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 900.000 Thulium ile birlikte)
+- Rocket Launcher V: **4.000** (60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 2.000.000 Thulium ile birlikte)
 - Mine II: **3** (2 Mine I, 1 Power Core, 200 Thulium ile birlikte)
 - Mine III: **8** (2 Mine II, 2 Power Core, 1 Reinforced Hull Plate, 400 Thulium ile birlikte)
 - Laser Optics I: **40** (2 Power Core, 4 Velkonite Reinforced Plate, 8.000 Thulium ile birlikte)
-- Laser Optics II: **80** (4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
-- Laser Optics III: **120** (2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
-- Laser Optics IV: **180** (2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
-- Laser Optics V: **240** (3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- Laser Optics II: **80** (1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
+- Laser Optics III: **120** (1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
+- Laser Optics IV: **180** (2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
+- Laser Optics V: **240** (3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **160** (1 Ancient Control Unit, 10 Power Core, 25 Reinforced Hull Plate, 6.000 Thulium ile birlikte)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **80** (8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 20.000 Thulium ile birlikte)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 35.000 Thulium ile birlikte)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 50.000 Thulium ile birlikte)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 75.000 Thulium ile birlikte)
 - [Lancet II](/wiki/06-Items/Rockets.md) (100 adet üretir): **5** (100 Lancet I, 10 Nyxite, 50.000 kredi, 200 Thulium ile birlikte)
 - [Lancet III](/wiki/06-Items/Rockets.md) (100 adet üretir): **15** (100 Lancet II, 20 Nyxite, 2 Reinforced Hull Plate, 150.000 kredi, 800 Thulium ile birlikte)
 - [Rivet II](/wiki/06-Items/Rockets.md) (100 adet üretir): **5** (10 Daraxium, 100 Rivet I, 50.000 kredi, 200 Thulium ile birlikte)
@@ -148,15 +156,13 @@ Bu sayfadaki her getiri **öldürme başına ortalamadır**: her ganimetin düş
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **10** (30 Daraxium, 10 Nyxite, 50.000 kredi, 800 Thulium ile birlikte)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **20** (1 Ancient Control Unit, 3 Power Core, 40 Quorvium, 100.000 kredi, 2.500 Thulium ile birlikte)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **20** (40 Nyxite, 2 Power Core, 20 Quorvium, 90.000 kredi, 2.000 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), Standart → Lekeli: **5** (15 Daraxium, 10.000 kredi ile birlikte; başarı şansı %100)
-- [Demirhane](/wiki/06-Items/Forge.md), Lekeli → İlahi: **30** (45 Nyxite, 50.000 kredi ile birlikte; başarı şansı %90)
+- [Demirhane](/wiki/06-Items/Forge.md), Standart → Uyanmış: **5** (15 Daraxium, 10.000 kredi ile birlikte)
+- [Demirhane](/wiki/06-Items/Forge.md), Uyanmış → Rezonanslı: **32** (48 Nyxite, 56.000 kredi ile birlikte)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modül inşası: Cephane Yazıcısı, Dökümhane, Cevher Bölmesi, Orvium Toplayıcı, Kaynak Deposu, Trofe Bölmesi, Velkonite Toplayıcı için her biri **10** (envanterinden; Nakliye Deposu sayılmaz)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modül inşası: Radar Modülü, Roket Fabrikası için her biri **15** (envanterinden; Nakliye Deposu sayılmaz)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modül inşası: Motor Modülü için her biri **20** (envanterinden; Nakliye Deposu sayılmaz)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modül inşası: Savunma Modülü, Araştırma Merkezi için her biri **25** (envanterinden; Nakliye Deposu sayılmaz)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **5** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 6; en yakın kaynak [Seeker](/wiki/04-Aliens/Seeker.md) (sektör 1), öldürme başına 0,2.
 
@@ -216,14 +222,19 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - P.E.T. Station III: **6** (2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 kredi, 12.000 Thulium ile birlikte)
 - Auto-Rocket CPU: **10** (1 Ancient Control Unit, 5 Power Core, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium ile birlikte)
 - Rocket Launcher II: **50** (5 Ancient Control Unit, 30 Power Core, 300 Ship Fragment, 150.000 Thulium ile birlikte)
-- Rocket Launcher III: **120** (15 Ancient Control Unit, 80 Power Core, 800 Ship Fragment, 400.000 Thulium ile birlikte)
-- Rocket Launcher IV: **250** (30 Ancient Control Unit, 160 Power Core, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
-- Rocket Launcher V: **500** (60 Ancient Control Unit, 300 Power Core, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
+- Rocket Launcher III: **120** (15 Ancient Control Unit, 80 Power Core, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 Thulium ile birlikte)
+- Rocket Launcher IV: **250** (30 Ancient Control Unit, 160 Power Core, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
+- Rocket Launcher V: **500** (60 Ancient Control Unit, 300 Power Core, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
 - Mine III: **1** (2 Mine II, 2 Power Core, 8 Ship Fragment, 400 Thulium ile birlikte)
-- Laser Optics II: **8** (4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
-- Laser Optics III: **10** (2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
-- Laser Optics IV: **18** (2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
-- Laser Optics V: **25** (3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- Laser Optics II: **8** (1 Laser Optics I, 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
+- Laser Optics III: **10** (1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
+- Laser Optics IV: **18** (2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
+- Laser Optics V: **25** (3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **25** (1 Ancient Control Unit, 10 Power Core, 160 Ship Fragment, 6.000 Thulium ile birlikte)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 80 Ship Fragment, 20.000 Thulium ile birlikte)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **10** (1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 120 Ship Fragment, 35.000 Thulium ile birlikte)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **18** (2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 180 Ship Fragment, 50.000 Thulium ile birlikte)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **25** (3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 240 Ship Fragment, 75.000 Thulium ile birlikte)
 - [Lancet III](/wiki/06-Items/Rockets.md) (100 adet üretir): **2** (100 Lancet II, 20 Nyxite, 15 Ship Fragment, 150.000 kredi, 800 Thulium ile birlikte)
 - [Rivet III](/wiki/06-Items/Rockets.md) (100 adet üretir): **2** (20 Daraxium, 100 Rivet II, 15 Ship Fragment, 150.000 kredi, 800 Thulium ile birlikte)
 - [Ember III](/wiki/06-Items/Rockets.md) (100 adet üretir): **2** (20 Cataclysite, 100 Ember II, 15 Ship Fragment, 150.000 kredi, 800 Thulium ile birlikte)
@@ -231,10 +242,8 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150.000 kredi, 3.000 Thulium ile birlikte)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 adet üretir): **4** (40 Cataclysite, 20 Ship Fragment, 100.000 kredi, 1.500 Thulium ile birlikte)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (5 adet üretir): **3** (40 Cataclysite, 15 Ship Fragment, 80.000 kredi, 1.500 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), İlahi → Patlayan: **20** (120 Cataclysite, 2 Dark Matter Plate, 200.000 kredi ile birlikte; başarı şansı %75)
+- [Demirhane](/wiki/06-Items/Forge.md), Rezonanslı → Parlak: **23** (140 Cataclysite, 2 Dark Matter Plate, 267.000 kredi ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **33** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Goombah](/wiki/04-Aliens/Goombah.md) öldür (sektörler 3, 4): öldürme başına ortalama 0,6.
 
@@ -312,26 +321,29 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - P.E.T. Station III: **4** (2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 kredi, 12.000 Thulium ile birlikte)
 - Auto-Rocket CPU: **5** (1 Ancient Control Unit, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium ile birlikte)
 - Rocket Launcher II: **30** (5 Ancient Control Unit, 50 Reinforced Hull Plate, 300 Ship Fragment, 150.000 Thulium ile birlikte)
-- Rocket Launcher III: **80** (15 Ancient Control Unit, 120 Reinforced Hull Plate, 800 Ship Fragment, 400.000 Thulium ile birlikte)
-- Rocket Launcher IV: **160** (30 Ancient Control Unit, 250 Reinforced Hull Plate, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
-- Rocket Launcher V: **300** (60 Ancient Control Unit, 500 Reinforced Hull Plate, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
+- Rocket Launcher III: **80** (15 Ancient Control Unit, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 Thulium ile birlikte)
+- Rocket Launcher IV: **160** (30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
+- Rocket Launcher V: **300** (60 Ancient Control Unit, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
 - Mine II: **1** (2 Mine I, 3 Ship Fragment, 200 Thulium ile birlikte)
 - Mine III: **2** (2 Mine II, 1 Reinforced Hull Plate, 8 Ship Fragment, 400 Thulium ile birlikte)
 - Laser Optics I: **2** (40 Ship Fragment, 4 Velkonite Reinforced Plate, 8.000 Thulium ile birlikte)
-- Laser Optics II: **4** (8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
-- Laser Optics III: **6** (2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
-- Laser Optics IV: **9** (2 Ancient Control Unit, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
-- Laser Optics V: **12** (3 Ancient Control Unit, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- Laser Optics II: **4** (1 Laser Optics I, 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15.000 Thulium ile birlikte)
+- Laser Optics III: **6** (1 Laser Optics II, 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
+- Laser Optics IV: **9** (2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
+- Laser Optics V: **12** (3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **10** (1 Ancient Control Unit, 25 Reinforced Hull Plate, 160 Ship Fragment, 6.000 Thulium ile birlikte)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **4** (8 Dark Matter Plate, 1 Miyuki, 8 Reinforced Hull Plate, 80 Ship Fragment, 20.000 Thulium ile birlikte)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 Thulium ile birlikte)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 Thulium ile birlikte)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium ile birlikte)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150.000 kredi, 3.000 Thulium ile birlikte)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **1** (30 Cataclysite, 10 Ship Fragment, 50.000 kredi, 1.000 Thulium ile birlikte)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **2** (20 Quorvium, 10 Ship Fragment, 60.000 kredi, 1.200 Thulium ile birlikte)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **3** (1 Ancient Control Unit, 40 Quorvium, 20 Ship Fragment, 100.000 kredi, 2.500 Thulium ile birlikte)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (2 Ancient Control Unit, 1 N.U.K.E., 40 Quorvium, 150.000 kredi, 3.000 Thulium ile birlikte)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **2** (40 Nyxite, 20 Quorvium, 20 Ship Fragment, 90.000 kredi, 2.000 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), Patlayan → Ebedi: **8** (240 Quorvium, 2 Dark Matter Plate, 500.000 kredi, 2.000 Thulium ile birlikte; başarı şansı %60)
+- [Demirhane](/wiki/06-Items/Forge.md), Parlak → Yücelmiş: **11** (320 Quorvium, 2 Dark Matter Plate, 833.000 kredi, 2.667 Thulium ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **100** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 0,5; en yakın kaynak [Goombah](/wiki/04-Aliens/Goombah.md) (sektör 3), öldürme başına 0,25.
 
@@ -375,11 +387,15 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - P.E.T. Station III: **2** (2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 kredi, 12.000 Thulium ile birlikte)
 - Auto-Rocket CPU: **1** (5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20.000 Thulium ile birlikte)
 - Rocket Launcher II: **5** (30 Power Core, 50 Reinforced Hull Plate, 300 Ship Fragment, 150.000 Thulium ile birlikte)
-- Rocket Launcher III: **15** (80 Power Core, 120 Reinforced Hull Plate, 800 Ship Fragment, 400.000 Thulium ile birlikte)
-- Rocket Launcher IV: **30** (160 Power Core, 250 Reinforced Hull Plate, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
-- Rocket Launcher V: **60** (300 Power Core, 500 Reinforced Hull Plate, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
-- Laser Optics IV: **2** (6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
-- Laser Optics V: **3** (10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- Rocket Launcher III: **15** (80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400.000 Thulium ile birlikte)
+- Rocket Launcher IV: **30** (160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1.800 Ship Fragment, 900.000 Thulium ile birlikte)
+- Rocket Launcher V: **60** (300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4.000 Ship Fragment, 2.000.000 Thulium ile birlikte)
+- Laser Optics IV: **2** (1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
+- Laser Optics V: **3** (1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **1** (10 Power Core, 25 Reinforced Hull Plate, 160 Ship Fragment, 6.000 Thulium ile birlikte)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 Thulium ile birlikte)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 Thulium ile birlikte)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium ile birlikte)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **1** (3 Power Core, 40 Quorvium, 20 Ship Fragment, 100.000 kredi, 2.500 Thulium ile birlikte)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (1 N.U.K.E., 4 Power Core, 40 Quorvium, 150.000 kredi, 3.000 Thulium ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **650** bilim puanı
@@ -388,7 +404,7 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 
 ### Daraxium
 
-*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı Lekeli kademesine yükseltmek için Demirhane’de kullanılır.
+*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı Uyanmış kademesine yükseltmek için Demirhane’de kullanılır.
 
 **Nasıl elde edilir**
 
@@ -406,16 +422,14 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - [Rivet II](/wiki/06-Items/Rockets.md) (100 adet üretir): **10** (100 Rivet I, 5 Ship Fragment, 50.000 kredi, 200 Thulium ile birlikte)
 - [Rivet III](/wiki/06-Items/Rockets.md) (100 adet üretir): **20** (2 Reinforced Hull Plate, 100 Rivet II, 15 Ship Fragment, 150.000 kredi, 800 Thulium ile birlikte)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **30** (10 Nyxite, 10 Ship Fragment, 50.000 kredi, 800 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), Standart → Lekeli: **15** (5 Ship Fragment, 10.000 kredi ile birlikte; başarı şansı %100)
+- [Demirhane](/wiki/06-Items/Forge.md), Standart → Uyanmış: **15** (5 Ship Fragment, 10.000 kredi ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **7** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Phantasm](/wiki/04-Aliens/Phantasm.md) öldür (sektörler 2, 3): öldürme başına ortalama 0,9; en yakın kaynak [Seeker](/wiki/04-Aliens/Seeker.md) (sektör 1), öldürme başına 0,75.
 
 ### Nyxite
 
-*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı İlahi kademesine yükseltmek için Demirhane’de kullanılır.
+*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı Rezonanslı kademesine yükseltmek için Demirhane’de kullanılır.
 
 **Nasıl elde edilir**
 
@@ -435,16 +449,14 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **30** (10 Quorvium, 10 Ship Fragment, 60.000 kredi, 1.000 Thulium ile birlikte)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **10** (30 Daraxium, 10 Ship Fragment, 50.000 kredi, 800 Thulium ile birlikte)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **40** (2 Power Core, 20 Quorvium, 20 Ship Fragment, 90.000 kredi, 2.000 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), Lekeli → İlahi: **45** (30 Ship Fragment, 50.000 kredi ile birlikte; başarı şansı %90)
+- [Demirhane](/wiki/06-Items/Forge.md), Uyanmış → Rezonanslı: **48** (32 Ship Fragment, 56.000 kredi ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **7** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Phantasm](/wiki/04-Aliens/Phantasm.md) öldür (sektörler 2, 3): öldürme başına ortalama 0,9.
 
 ### Cataclysite
 
-*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. En güçlü lazerleri üretmek için ve Demirhane’de ekipmanı Patlayan kademesine yükseltmek için kullanılır.
+*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. En güçlü lazerleri üretmek için ve Demirhane’de ekipmanı Parlak kademesine yükseltmek için kullanılır.
 
 **Nasıl elde edilir**
 
@@ -487,16 +499,14 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 adet üretir): **40** (4 Reinforced Hull Plate, 20 Ship Fragment, 100.000 kredi, 1.500 Thulium ile birlikte)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir): **30** (1 Power Core, 10 Ship Fragment, 50.000 kredi, 1.000 Thulium ile birlikte)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (5 adet üretir): **40** (3 Reinforced Hull Plate, 15 Ship Fragment, 80.000 kredi, 1.500 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), İlahi → Patlayan: **120** (20 Reinforced Hull Plate, 2 Dark Matter Plate, 200.000 kredi ile birlikte; başarı şansı %75)
+- [Demirhane](/wiki/06-Items/Forge.md), Rezonanslı → Parlak: **140** (23 Reinforced Hull Plate, 2 Dark Matter Plate, 267.000 kredi ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **5** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 8; en yakın kaynak [Goombah](/wiki/04-Aliens/Goombah.md) (sektör 3), öldürme başına 4.
 
 ### Quorvium
 
-*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı Ebedi kademesine yükseltmek için Demirhane’de kullanılır.
+*Sıradan kaynak.* NPC’lerden ve asteroitlerden düşer. Ekipmanı Yücelmiş kademesine yükseltmek için Demirhane’de kullanılır.
 
 **Nasıl elde edilir**
 
@@ -522,10 +532,8 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **40** (1 Ancient Control Unit, 3 Power Core, 20 Ship Fragment, 100.000 kredi, 2.500 Thulium ile birlikte)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (2 Ancient Control Unit, 1 N.U.K.E., 4 Power Core, 150.000 kredi, 3.000 Thulium ile birlikte)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir): **20** (40 Nyxite, 2 Power Core, 20 Ship Fragment, 90.000 kredi, 2.000 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), Patlayan → Ebedi: **240** (8 Power Core, 2 Dark Matter Plate, 500.000 kredi, 2.000 Thulium ile birlikte; başarı şansı %60)
+- [Demirhane](/wiki/06-Items/Forge.md), Parlak → Yücelmiş: **320** (11 Power Core, 2 Dark Matter Plate, 833.000 kredi, 2.667 Thulium ile birlikte)
 - [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#fuel), yakıt: her birim için **8** bilim puanı
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 8; en yakın kaynak [Goombah](/wiki/04-Aliens/Goombah.md) (sektör 3), öldürme başına 3.
 
@@ -650,10 +658,10 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 - [Ultra Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir): **4** (120 Cataclysite, 90 Quorvium, 320 kredi, 687 Thulium ile birlikte)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir): **8** (140 Cataclysite, 1 Orvium Reinforced Plate, 105 Quorvium, 9.058 kredi, 1.315 Thulium ile birlikte)
 - Laser Optics I: **4** (2 Power Core, 40 Ship Fragment, 8.000 Thulium ile birlikte)
-- Laser Optics II: **6** (4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15.000 Thulium ile birlikte)
-- Laser Optics III: **12** (2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30.000 Thulium ile birlikte)
-- Laser Optics IV: **14** (2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 Thulium ile birlikte)
-- Laser Optics V: **15** (3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium ile birlikte)
+- Laser Optics II: **6** (1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15.000 Thulium ile birlikte)
+- Laser Optics III: **12** (1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30.000 Thulium ile birlikte)
+- Laser Optics IV: **14** (2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 Thulium ile birlikte)
+- Laser Optics V: **15** (3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium ile birlikte)
 
 **Modül yükseltmeleri**: Montaj şunları yükseltir: Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II ve Adaptive Core I → Adaptive Core II. Her yükseltme başladığı parçayı harcar ve diğer malzemelerinin yanı sıra bu plakaları ister. Yeni parça, koyduğun parçanın Demirhane kademesini ve bonuslarını korur. Bkz. [Montaj’da modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -701,9 +709,9 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 - P.E.T. Station II: **2** (1 P.E.T. Station I, 2 Power Core, 6 Reinforced Hull Plate, 35 Ship Fragment, 4 Velkonite Reinforced Plate, 300.000 kredi, 4.000 Thulium ile birlikte)
 - P.E.T. Station III: **2** (2 Ancient Control Unit, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1.100.000 kredi, 12.000 Thulium ile birlikte)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir): **1** (140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 9.058 kredi, 1.315 Thulium ile birlikte)
-- Laser Optics III: **2** (6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
-- Laser Optics IV: **6** (2 Ancient Control Unit, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
-- Laser Optics V: **10** (3 Ancient Control Unit, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
+- Laser Optics III: **2** (1 Laser Optics II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30.000 Thulium ile birlikte)
+- Laser Optics IV: **6** (2 Ancient Control Unit, 1 Laser Optics III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50.000 Thulium ile birlikte)
+- Laser Optics V: **10** (3 Ancient Control Unit, 1 Laser Optics IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75.000 Thulium ile birlikte)
 - **P.E.T. Beşiği** (Hangar): üretilen her P.E.T. için 1 ve P.E.T. derecesine uygun 1 Cluster Chunk.
 
 **Modül yükseltmeleri**: Montaj şunları yükseltir: Starfire-III → Helios Beam. Her yükseltme başladığı parçayı harcar ve diğer malzemelerinin yanı sıra bu plakaları ister. Yeni parça, koyduğun parçanın Demirhane kademesini ve bonuslarını korur. Bkz. [Montaj’da modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -727,7 +735,7 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 - [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1.000 adet üretir): **1** (120 Cataclysite, 90 Quorvium, 4.873 kredi, 987 Thulium ile birlikte)
 - [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1.000 adet üretir): **4** (1.000 Dark Matter Ammo I, 200 Thulium ile birlikte)
 - [Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md), yakıt: biri **10** dakikalık kazı süresince yanar; deponun kapasitesi 3
-- [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#dark-matter), en üst teknolojiler: 35 tanesinin her biri için **10**
+- [Araştırma Merkezi](/wiki/03-Mechanics/Research.md#dark-matter), en üst teknolojiler: 40 tanesinin her biri için **10**
 
 **Nasıl toplanır**: kara deliğe [N.I.K.E.](/wiki/06-Items/Rockets.md) roketleri at (Montaj üretir) ve sandıkları, kimse almadan önce, bölgesinin kenarından topla. Tüm yol [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md) sayfasında.
 
@@ -758,13 +766,15 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 - Hull Plating II: **5** (1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 150 Ship Fragment, 2.500 Thulium ile birlikte)
 - Hull Plating III: **8** (1 Ancient Control Unit, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4.000 Thulium ile birlikte)
 - Adaptive Core III: **4** (1 Adaptive Core II, 1 Ancient Control Unit, 5 Power Core, 110 Ship Fragment, 4.000 Thulium ile birlikte)
-- [Demirhane](/wiki/06-Items/Forge.md), İlahi → Patlayan: **2** (20 Reinforced Hull Plate, 120 Cataclysite, 200.000 kredi ile birlikte; başarı şansı %75)
-- [Demirhane](/wiki/06-Items/Forge.md), Patlayan → Ebedi: **2** (8 Power Core, 240 Quorvium, 500.000 kredi, 2.000 Thulium ile birlikte; başarı şansı %60)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 20.000 Thulium ile birlikte)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **8** (1 Ancient Control Unit, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35.000 Thulium ile birlikte)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **8** (2 Ancient Control Unit, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50.000 Thulium ile birlikte)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **8** (3 Ancient Control Unit, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75.000 Thulium ile birlikte)
+- [Demirhane](/wiki/06-Items/Forge.md), Rezonanslı → Parlak: **2** (23 Reinforced Hull Plate, 140 Cataclysite, 267.000 kredi ile birlikte)
+- [Demirhane](/wiki/06-Items/Forge.md), Parlak → Yücelmiş: **2** (11 Power Core, 320 Quorvium, 833.000 kredi, 2.667 Thulium ile birlikte)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Motor Modülü: inşa için **1**, ardından 2–5. seviyeler için 2, 3, 5 ve 8
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Savunma Modülü: inşa için **1**, ardından 2–5. seviyeler için 2, 4, 7 ve 12
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Radar Modülü: inşa için gerekmez, ardından 2–3. seviyeler için 1 ve 3
-
-Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Nasıl toplanır**: bulunmaz, preslenir: Dark Matter (yukarıda) ile Skylab Dökümhanesi’nin ürettiği iki plakayı topla, sonra üretimi Montaj’da başlat. Önce tarifi araştır: tüm yol [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md) sayfasında.
 
@@ -815,6 +825,66 @@ Başarısız olan bir Demirhane adımı malzemelerinin %50 kadarını geri verir
 
 **Nasıl toplanır**: asteroitleri kır, ne kadar büyükse o kadar iyi: en çok hasar veren pilot ya da grup parçayı alır ve en sık Motherlode verir.
 
+### Echo Shard
+
+*Seyrek kaynak.* Düşen uzaylılardan, geçit tamamlamalarından ve klan zindanlarından gelen bir yankı parçası. Demirhane, bir ekipman parçasının yuvasını ayarlamak için Echo Shard harcar. Takas edilemez.
+
+**Nasıl elde edilir**
+
+| Uzaylı | Sektörler | Düşürdükleri | Öldürme başına ortalama |
+| :--- | :---: | :--- | --: |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | %20 şansla 1 | 0,2 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | %5 şansla 1 | 0,05 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | %2 şansla 1 | 0,02 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | %1 şansla 1 | 0,01 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | %0,4 şansla 1 | 0 |
+
+- **Solo geçitler**: Her tamamlamada Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
+- **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 3, 2 ve 2.
+- **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
+- **Bunun dışında**: Mağaza’da satılmaz.
+
+**Ne işe yarar**
+
+- Demirhane yuvaları: boş bir yuvayı ayarlamak Echo Shard gerektirir.
+
+**Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 0,2; en yakın kaynak [Seeker](/wiki/04-Aliens/Seeker.md) (sektör 1), öldürme başına 0.
+
+### Lattice Shard
+
+*Nadir kaynak.* Geçit ve klan zindanı tamamlamalarından gelen bir kafes parçası. Demirhane, ayarlanmış bir yuvayı yeniden döşemek ve yıpranmış bir parçayı onarmak için Lattice Shard harcar. Takas edilemez.
+
+**Nasıl elde edilir**
+
+- **Solo geçitler**: Her tamamlamada Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54.
+- **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 5, 6 ve 7.
+- **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
+- **Bunun dışında**: Mağaza’da satılmaz.
+
+**Ne işe yarar**
+
+- Demirhane yuvaları: bir yuvayı yeniden döşemek ve bir parçayı onarmak Lattice Shard gerektirir.
+
+**Nasıl toplanır**: solo geçitleri ve klan zindanlarını tamamlayın: ikisi de her tamamlamada verir.
+
+### Heartshard
+
+*Destansı kaynak.* Nadir bir parça: bir sezonda her geçidin ve her klan zindanı aşamasının ilk tamamlanması bir tane verir, en nadir birkaç patron da verir. Demirhane’de bir ayara ya da yeniden döşemeye ekleyerek özelliği seçebilir ve değeri aralığın üst yarısında belirleyebilirsin. Takas edilemez.
+
+**Nasıl elde edilir**
+
+- **Solo geçitler**: Bir sezonda her geçidin ilk tamamlanmasında 1; ayrıca her tamamlamada %5 ihtimalle 1 tane daha.
+- **Klan zindanları**: Bir sezonda her aşamanın ilk ücretli tamamlanmasında 1; ayrıca her ücretli tamamlamada %5 ihtimalle bir tane daha.
+- **Nadir NPC’ler**: Her öldürmede Davidski %10, Dormant Force %5, Tesseract %5.
+- **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
+- **Bunun dışında**: Mağaza’da satılmaz.
+
+**Ne işe yarar**
+
+- Demirhane yuvaları: bir ayara ya da yeniden döşemeye eklenen Heartshard, tüm boş özellikleri sunar ve değeri aralığın üst yarısında belirler.
+
+**Nasıl toplanır**: nadirdir: her solo geçidi ve her klan zindanı aşamasını sezonda bir kez tamamlayın ve yavaş çıkan nadir NPC’leri öldürün.
+
 ## Para birimleri {#currencies}
 
 Kredi ve Thulium malzemeler gibi toplanır ve aynı yerlerde harcanır. Hesabında tutulurlar, envanterinde değil.
@@ -831,7 +901,7 @@ Kredi ve Thulium malzemeler gibi toplanır ve aynı yerlerde harcanır. Hesabın
 
 Bunlar **Alpha** dünyasının rakamlarıdır (x1). Bir öldürme, bunların Beta dünyasında **2** katını, Gamma dünyasında **3** katını öder; tamamlanan bir görev ise, yapıldığı dünya ile uçtuğunuz dünyadan hangisi yüksekse ona göre öder ([dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); ganimetler her dünyada aynıdır. Bunun yanı sıra Sezon Mağazası’ndaki kalıcı Credit Boost (en fazla +%50) ve Thulium Boost (en fazla +%30), öldürmelerin ve görevlerin bu iki para biriminde ödediği tutarı artırır.
 
-Deneyim ve onur para değil, puandır: bunlarla hiçbir şey satın alınmaz. Deneyim seviyeni yükseltir, seviye de rütbene sayılır; onur rütbende rol oynamaz. Bunlardan yalnızca şirket değiştirmek bir miktar götürür, o da onurunun yarısıdır; deneyimin asla harcanmaz.
+Deneyim ve onur para değil, puandır: bunlarla hiçbir şey satın alınmaz. Deneyim seviyeni yükseltir, seviye de rütbene sayılır; onur da rütbene sayılır: her 100 onur bir PvE puanıdır. Bunlardan yalnızca şirket değiştirmek bir miktar götürür, o da onurunun yarısıdır; deneyimin asla harcanmaz.
 
 ### Kredi {#credits}
 
@@ -842,7 +912,7 @@ Deneyim ve onur para değil, puandır: bunlarla hiçbir şey satın alınmaz. De
 - **Başlangıçta**: yeni bir pilotun hesabında 10.000 kredi bulunur.
 - **Uzaylılar**: her öldürme bunu öder (yukarıdaki tablo).
 - **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder.
-- **[Görevler](/wiki/03-Mechanics/Quests.md)**: 88 görev, Alpha dünyasında toplam 6.664.500 kredi öder; ödemeler 1. seviyede 86.000 ile 8. seviyede 2.720.000 arasında değişir.
+- **[Görevler](/wiki/03-Mechanics/Quests.md)**: 132 görev, Alpha dünyasında toplam 333.064.500 kredi öder; ödemeler 1. seviyede 86.000 ile 14. seviyede 174.000.000 arasında değişir.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Kredi Çiftliği, sen yokken bunu üretir; 72 saatlik bir hazneye dolar.
 
 | Modül seviyesi | 1 | 5 | 10 | 15 | 20 |
@@ -853,14 +923,13 @@ Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı 
 
 - **[Klan](/wiki/03-Mechanics/Clans.md) ödemeleri**: bir klanın liderleri klan bankasından üyelerine kredi ödeyebilir.
 - **Bonus kodları**: bir etkinlikte ya da Discord sunucumuzda dağıtılan bir kod kredi, ayrıca malzeme, ekipman, booster ya da gemi de verebilir. Kodu Thulium sayfasındaki Bonus kodu kartına gir; her kod pilot başına yalnızca bir kez çalışır.
-- Başarısız olan bir Demirhane adımı kredisini geri vermez: malzemelerinin ve Thulium miktarının yalnızca %50 kadarı geri gelir.
 
 **Ne işe yarar**
 
 - **Mağaza**: 27 eşyanın fiyatı kredi cinsindendir (fiyatlar eşya sayfalarında: [Eşyalar](/wiki/06-Items/Overview.md) ve [Roketler](/wiki/06-Items/Rockets.md)).
 - **Montaj**, üretim başına: [Master Drone](/wiki/06-Items/Drones.md) 1.000.000, [Starfire-III](/wiki/06-Items/Lasers.md) 100.000, P.E.T. Station I 100.000, P.E.T. Station II 300.000, P.E.T. Station III 1.100.000, [Ultra Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 9.058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 4.740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 4.873, [Lancet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 50.000, [Lancet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 150.000, [Rivet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 50.000, [Rivet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 150.000, [Ember II](/wiki/06-Items/Rockets.md) (100 adet üretir) 50.000, [Ember III](/wiki/06-Items/Rockets.md) (100 adet üretir) 150.000, [Scatter II](/wiki/06-Items/Rockets.md) (100 adet üretir) 50.000, [Scatter III](/wiki/06-Items/Rockets.md) (100 adet üretir) 150.000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 adet üretir) 100.000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 50.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 60.000, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 adet üretir) 80.000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 60.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 50.000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 100.000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150.000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 90.000.
-- **[Demirhane](/wiki/06-Items/Forge.md)**, kademe adımı başına: Standart → Lekeli 10.000, Lekeli → İlahi 50.000, İlahi → Patlayan 200.000, Patlayan → Ebedi 500.000.
-- **Demirhane birleştirmeleri**, üretilen kademeye göre: Lekeli 5.000, İlahi 25.000, Patlayan 100.000, Ebedi 250.000.
+- **[Demirhane](/wiki/06-Items/Forge.md)**, kademe adımı başına: Standart → Uyanmış 10.000, Uyanmış → Rezonanslı 56.000, Rezonanslı → Parlak 267.000, Parlak → Yücelmiş 833.000.
+- **Demirhane birleştirmeleri**, üretilen kademeye göre: Uyanmış 5.000, Rezonanslı 25.000, Parlak 100.000, Yücelmiş 250.000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** inşası ve yükseltmeleri, her modülün fiyatı (1. seviye inşadır, üstündeki her seviyenin kendi fiyatı vardır): Cephane Yazıcısı: 1. seviyede 20.000, 20. seviyede 5.600.000, Kredi Çiftliği: 1. seviyede 0, 20. seviyede 7.000.000, Savunma Modülü: 1. seviyede 500.000, 5. seviyede 14.000.000, Motor Modülü: 1. seviyede 375.000, 5. seviyede 8.750.000, Dökümhane: 1. seviyede 5.000, 20. seviyede 9.000.000, Cevher Bölmesi: 1. seviyede 5.000, 20. seviyede 4.500.000, Orvium Toplayıcı: 1. seviyede 20.000, 20. seviyede 5.500.000, Radar Modülü: 1. seviyede 250.000, 3. seviyede 2.250.000, Araştırma Merkezi: 25.000 (seviye başına x1,5), Roket Fabrikası: 1. seviyede 20.000, 20. seviyede 1.400.000, Güneş Paneli: 1. seviyede 500, 20. seviyede 9.000.000, Kaynak Deposu: 1. seviyede 5.000, 20. seviyede 4.500.000, Thulium Çiftliği: 1. seviyede 5.000, 20. seviyede 8.500.000, Trofe Bölmesi: 1. seviyede 100.000, 20. seviyede 2.325.000, Velkonite Toplayıcı: 1. seviyede 20.000, 20. seviyede 5.500.000. Çekirdek her zaman hazırdır, bu yüzden onun için ödediğin ilk fiyat 2. seviyenin fiyatıdır: 1.500 (sonrasında seviye başına x1,5).
 - **[Klan](/wiki/03-Mechanics/Clans.md)**: klan bankasına yapılan bağışlar (herhangi bir 24 saatte pilot başına en fazla 1.000.000 kredi) ve klanın günlük vergisi (kredilerinden, liderlerinin belirlediği bir pay).
 
@@ -876,7 +945,7 @@ Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı 
 - **Uzaylılar**: her öldürme bunu öder (yukarıdaki tablo).
 - **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)**: kırılan asteroitlerin parçaları bunu öder.
 - **[Dev ekskavatör](/wiki/03-Mechanics/Giant-Excavator.md)**: sezonun 11. gününden itibaren (Beta ve Gamma dünyalarında sezonun 1. gününden itibaren) tam bir çalışma Alpha dünyasında bundan 9.643 bırakır (Beta ve Gamma dünyalarında daha fazla), herkesin alabileceği kutularda; neyi çıkaracağını kontrol paneli seçer.
-- **[Görevler](/wiki/03-Mechanics/Quests.md)**: 88 görev, Alpha dünyasında toplam 51.010 Thulium öder; ödemeler 1. seviyede 170 ile 8. seviyede 21.760 arasında değişir.
+- **[Görevler](/wiki/03-Mechanics/Quests.md)**: 132 görev, Alpha dünyasında toplam 1.356.610 Thulium öder; ödemeler 1. seviyede 170 ile 14. seviyede 696.320 arasında değişir.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: Thulium Çiftliği, sen yokken bunu üretir; 72 saatlik bir hazneye dolar.
 
 | Modül seviyesi | 1 | 5 | 10 | 15 | 20 |
@@ -886,13 +955,12 @@ Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı 
 Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı her çiftliği ve toplayıcıyı durdurur ve bir modül, Çekirdek seviyesinin üzerine yükseltilemez; Çekirdek 20. seviyede durur (bkz. [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
 - **Bonus kodları**: bir etkinlikte ya da Discord sunucumuzda dağıtılan bir kod Thulium, ayrıca malzeme, ekipman, booster ya da gemi de verebilir. Kodu Thulium sayfasındaki Bonus kodu kartına gir; her kod pilot başına yalnızca bir kez çalışır.
-- Başarısız olan bir Demirhane adımı Thulium miktarının %50 kadarını geri verir, aşağı yuvarlanır.
 
 **Ne işe yarar**
 
 - **Mağaza**: 20 eşyanın fiyatı Thulium cinsindendir (fiyatlar eşya sayfalarında: [Eşyalar](/wiki/06-Items/Overview.md)).
-- **Montaj**, üretim başına: [Master Drone](/wiki/06-Items/Drones.md) 50.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4.000, [Engine III](/wiki/06-Items/Propulsion.md) 4.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 15.000, Bodkin Formation 42.000, Asterism Formation 14.000, Gemini Formation 76.000, Adamant Formation 18.000, Ballista Formation 48.000, Stiletto Formation 92.000, Rampart Formation 77.000, Sanctum Formation 40.000, Shrike Formation 17.000, Culler Formation 40.000, Redoubt Formation 42.000, Auger Formation 41.000, Cordon Formation 43.000, Centurion Formation 16.000, Gyre Formation 40.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2.400, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 2.000, Adaptive Core II 2.000, Adaptive Core III 4.000, Energetic Wall II 600, P.E.T. Station I 2.000, P.E.T. Station II 4.000, P.E.T. Station III 12.000, Auto-Rocket CPU 20.000, [Ultra Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 1.315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 200, Rocket Launcher II 150.000, Rocket Launcher III 400.000, Rocket Launcher IV 900.000, Rocket Launcher V 2.000.000, Mine II 200, Mine III 400, Laser Optics I 8.000, Laser Optics II 15.000, Laser Optics III 30.000, Laser Optics IV 50.000, Laser Optics V 75.000, [Lancet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Lancet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Rivet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Rivet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Ember II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Ember III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Scatter II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Scatter III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.200, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 2.500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 2.000.
-- **[Demirhane](/wiki/06-Items/Forge.md)**, kademe adımı başına: Patlayan → Ebedi 2.000.
+- **Montaj**, üretim başına: [Master Drone](/wiki/06-Items/Drones.md) 50.000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1.500, [Starfire-III](/wiki/06-Items/Lasers.md) 1.500, [Helios Beam](/wiki/06-Items/Lasers.md) 2.000, [Paragon](/wiki/02-Ships/Paragon.md) 1.500, [Wraith](/wiki/02-Ships/Wraith.md) 20.000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20.000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15.000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15.000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2.400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10.500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4.000, [Engine III](/wiki/06-Items/Propulsion.md) 4.000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2.000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3.000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5.000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2.000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3.000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4.000, [Storm](/wiki/02-Ships/Storm.md) 15.000, Extra Slots CPU I 12.000, Extra Slots CPU II 30.000, Extra Slots CPU III 75.000, Jump CPU 40.000, Base CPU I 8.000, Base CPU II 20.000, Auto-Repair CPU 15.000, Testudo Formation 15.000, Bodkin Formation 42.000, Asterism Formation 14.000, Gemini Formation 76.000, Adamant Formation 18.000, Ballista Formation 48.000, Stiletto Formation 92.000, Rampart Formation 77.000, Sanctum Formation 40.000, Shrike Formation 17.000, Culler Formation 40.000, Redoubt Formation 42.000, Auger Formation 41.000, Cordon Formation 43.000, Centurion Formation 16.000, Gyre Formation 40.000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2.000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2.000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2.400, Hull Plating II 2.500, Hull Plating III 4.000, [Engine II](/wiki/06-Items/Propulsion.md) 2.000, Adaptive Core II 2.000, Adaptive Core III 4.000, Energetic Wall II 600, P.E.T. Station I 2.000, P.E.T. Station II 4.000, P.E.T. Station III 12.000, Auto-Rocket CPU 20.000, [Ultra Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 1.315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1.000 adet üretir) 200, Rocket Launcher II 150.000, Rocket Launcher III 400.000, Rocket Launcher IV 900.000, Rocket Launcher V 2.000.000, Mine II 200, Mine III 400, Laser Optics I 8.000, Laser Optics II 15.000, Laser Optics III 30.000, Laser Optics IV 50.000, Laser Optics V 75.000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6.000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20.000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35.000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50.000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75.000, [Lancet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Lancet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Rivet II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Rivet III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Ember II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Ember III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [Scatter II](/wiki/06-Items/Rockets.md) (100 adet üretir) 200, [Scatter III](/wiki/06-Items/Rockets.md) (100 adet üretir) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.200, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 1.000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 adet üretir) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 2.500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3.000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 adet üretir) 2.000.
+- **[Demirhane](/wiki/06-Items/Forge.md)**, kademe adımı başına: Parlak → Yücelmiş 2.667.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)** inşası ve yükseltmeleri, her modülün fiyatı (1. seviye inşadır, üstündeki her seviyenin kendi fiyatı vardır): Cephane Yazıcısı: 1. seviyede 500, 20. seviyede 11.000, Kredi Çiftliği: 1. seviyede 0, 20. seviyede 550, Savunma Modülü: 1. seviyede 2.000, 5. seviyede 56.000, Motor Modülü: 1. seviyede 1.500, 5. seviyede 35.000, Dökümhane: 1. seviyede 500, 20. seviyede 10.000, Cevher Bölmesi: 1. seviyede 250, 20. seviyede 550, Orvium Toplayıcı: 1. seviyede 500, 20. seviyede 12.500, Radar Modülü: 1. seviyede 1.000, 3. seviyede 9.000, Araştırma Merkezi: 500 (seviye başına x1,5), Roket Fabrikası: 1. seviyede 500, 20. seviyede 2.800, Güneş Paneli: 1. seviyede 50, 20. seviyede 10.000, Kaynak Deposu: 1. seviyede 250, 20. seviyede 550, Thulium Çiftliği: 1. seviyede 500, 20. seviyede 16.000, Trofe Bölmesi: 1. seviyede 400, 20. seviyede 9.300, Velkonite Toplayıcı: 1. seviyede 500, 20. seviyede 12.500.
 - **[Araştırma](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: Araştırma Merkezi hızlandırması 5.000 Thulium tutar.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: sıçrama başına 500 Thulium.
@@ -905,7 +973,7 @@ Bunlar yeterli güç alan bir istasyonun üretim hızlarıdır: güç açığı 
 
 - **Sandıklar**: bir uzaylının düşürdükleri, patladığı yerde tek bir sandığa düşer ve 30 saniye boyunca onu öldüren pilota ve klanına ayrılır. [Resource Magnet Booster](/wiki/06-Items/Boosters.md) bir sandığın içindekine %25 ekler. Bkz. [Kargo](/wiki/03-Mechanics/Cargo.md).
 - **Enkazlar**: yok edilen bir [şirket pilotu](/wiki/03-Mechanics/Company-Pilots.md), onu kim ya da ne yok ederse etsin ne sandık ne de parça bırakır; bu yüzden pilotların gemileri malzeme kaynağı değildir. Barış Protokolü bittikten sonra, [dünyan](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) PvP savaşına izin veriyorsa başka bir şirketin pilotlarını düşürebilirsin; kendi şirketinin bir pilotunu yok etmek 100 onur kaybettirir.
-- **Modül yükseltmeleri**: Montaj, Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II ve Adaptive Core III eşyalarını bir basamak aşağıdaki parçayı yükselterek üretir; o parça harcanır. Bir yükseltme için Velkonite Reinforced Plate, Dark Matter Plate ve Orvium Reinforced Plate gerekir, tıpkı Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV ve Laser Optics V üretimlerinde olduğu gibi. Yeni parça, koyduğun parçanın Demirhane kademesini ve bonuslarını korur. Bkz. [Montaj’da modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Modül yükseltmeleri**: Montaj, Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II ve Adaptive Core III eşyalarını bir basamak aşağıdaki parçayı yükselterek üretir; o parça harcanır. Bir yükseltme için Velkonite Reinforced Plate, Dark Matter Plate ve Orvium Reinforced Plate gerekir, tıpkı Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV ve Miyuki V üretimlerinde olduğu gibi. Yeni parça, koyduğun parçanın Demirhane kademesini ve bonuslarını korur. Bkz. [Montaj’da modül yükseltmeleri](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Nerede tutulurlar**: Montaj, Demirhane ve Skylab modül inşası envanterde boşta duran yığınları kullanır. Bir gemideki ya da Nakliye Deposu’ndaki yığınlar kullanılmaz.
 - **Sıfırlama**: envanterindeki malzemeler [sıfırlama kuralları](/wiki/03-Mechanics/Wipe-Timeline.md) uyarınca işlenir; Skylab üssünün Kaynak Deposu’nda biriken cevher kalır.
 

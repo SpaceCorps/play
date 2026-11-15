@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski는 날아다니는 상인입니다. 하루에 한 번, 아무도 알려
 
 ## 그의 함선 {#his-ship}
 
-금색으로 칠해진 **Ironclad TITANIC**으로, TITANIC 고유의 크기이며, 모든 종류의 부품 중 최고를 장착하고 Eternal 등급까지 단련되어 있습니다.
+금색으로 칠해진 **Ironclad TITANIC**으로, TITANIC 고유의 크기이며, 모든 종류의 부품 중 최고를 장착하고 승천한 등급까지 단련되어 있습니다.
 
 | 항목 | 아이템 |
 |---|---|

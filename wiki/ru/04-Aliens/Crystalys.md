@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8d402a8454b12f5b -->
+<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,6 +36,7 @@ Crystalys — гигантское существо пришельцев кла�
 - **Quorvium**: шанс 100% (мин.: 6, макс.: 10)
 - **Power Core**: шанс 50% (мин.: 1, макс.: 1)
 - **Ancient Control Unit**: шанс 20% (мин.: 1, макс.: 1)
+- **Echo Shard**: шанс 20% (мин.: 1, макс.: 1)
 
 ## История {#lore}
 

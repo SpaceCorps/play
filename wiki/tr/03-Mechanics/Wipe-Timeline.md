@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d82752d05f62aea -->
+<!-- wiki-i18n source: 78857435732fea9b -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
@@ -179,7 +179,7 @@ Sıfırlamada **5.000.000.000’u (5 milyar) aşan kredi** ve **10.000.000’u (
 
 ## Taze puanlar {#fresh-points}
 
-**Sıralama puanların**, **son sıfırlamadan beri** kazandıklarını sayar: bu sezon yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri. Sıfırlamada sıfırdan yeniden başlar ve eski rütben sezon geçmişine girer. **Onur rütbeni belirlemez**, toplam sayıların (seviye, deneyim, onur, öldürmeler) olduğu gibi kalır. Bkz. [Rütbeler](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
+**Sıralama puanların**, **son sıfırlamadan beri** kazandıklarını sayar: bu sezon yükselttiğin seviyeler, deneyim, onur ve uzaylı öldürmeleri. Sıfırlamada sıfırdan yeniden başlar ve eski rütben sezon geçmişine girer. Toplam sayıların (seviye, deneyim, onur, öldürmeler) olduğu gibi kalır. Bkz. [Rütbeler](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
 6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu: 1. sezonu kapatan sıfırlama, o sezonun rütbelerini tüm kariyerinin puanlarına göre ödedi.
 
@@ -226,7 +226,7 @@ Biriktirdiğin WP’yi, tüm sezonlar boyunca sonsuza dek taşınan kalıcı gü
 * **Honor Boost**: seviye başına kazanılan onura +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 10 WP*
 * **Hitpoints Boost**: seviye başına en yüksek HP’ye +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 15 WP*
 * **Shield Capacity Boost**: seviye başına en yüksek kalkana (kalkan **kapasitesi**) +%0,1 (en fazla %50 / 500 seviye) - *Maliyet: 10 WP*
-* **Shield Absorbance Boost**: seviye başına kalkan **soğurmasına** +0,1 puan (en fazla +10 puan / 100 seviye) - *Maliyet: 25 WP*. Soğurma, kalkanlarının her vuruştan aldığı paydır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) sayfasına bak); güçlendirme ona sabit puan ekler: 100 sıfırlama puanı 4 seviye alır (+0,4 puan), 300 puan 12 (+1,2), 500 puan 20 (+2,0) ve kaynakların bir sıfırlamada ödediği 1.105 sıfırlama puanının tamamı 44 (+4,4 puan) alır. En üst düzeyde (100 seviye, 2.500 WP: birkaç sıfırlamalık bir hedef, çünkü kaynaklar bir sıfırlamada en fazla 1.105 öder ve rütben 5 ile 400 arası ekler) %91 (bonussuz en iyi) %101 olur, Light Shield Core için %45 olan değer ise %55 olur. Özellik %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür, bu yüzden %100’ü aşan kısım bir paydır. Bir sıfırlamanın puanlarının hepsi bu güçlendirmede ve tam dövülmüş Ebedi bir kalkan ve hücre setiyle bir gemi yaklaşık %104 ile %109’ye ulaşır. (0.4.5’e kadar bu güçlendirme soğurmanın kendisinin bir payını ekliyordu, seviye başına %0,1, aynı fiyata; puanlar her soğurmada aynı ya da daha fazla değerdedir, bu yüzden daha önce alınan seviyeler hiçbir şey kaybetmedi; 0.4.2’ye kadar bunun yerine kalkan *dolum* hızını artırıyordu; hiçbir kalıcı güçlendirme artık dolumu artırmaz.)
+* **Shield Absorbance Boost**: seviye başına kalkan **soğurmasına** +0,1 puan (en fazla +10 puan / 100 seviye) - *Maliyet: 25 WP*. Soğurma, kalkanlarının her vuruştan aldığı paydır ([Kalkan mekaniği](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-) sayfasına bak); güçlendirme ona sabit puan ekler: 100 sıfırlama puanı 4 seviye alır (+0,4 puan), 300 puan 12 (+1,2), 500 puan 20 (+2,0) ve kaynakların bir sıfırlamada ödediği 1.105 sıfırlama puanının tamamı 44 (+4,4 puan) alır. En üst düzeyde (100 seviye, 2.500 WP: birkaç sıfırlamalık bir hedef, çünkü kaynaklar bir sıfırlamada en fazla 1.105 öder ve rütben 5 ile 400 arası ekler) %91 (bonussuz en iyi) %101 olur, Light Shield Core için %45 olan değer ise %55 olur. Özellik %100 ile sınırlı değildir: saldıranın *kalkan delmesi* ondan düşülür, bu yüzden %100’ü aşan kısım bir paydır. Bir sıfırlamanın puanlarının hepsi bu güçlendirmede ve tam dövülmüş Yücelmiş bir kalkan ve hücre setiyle bir gemi yaklaşık %104 ile %109’ye ulaşır. (0.4.5’e kadar bu güçlendirme soğurmanın kendisinin bir payını ekliyordu, seviye başına %0,1, aynı fiyata; puanlar her soğurmada aynı ya da daha fazla değerdedir, bu yüzden daha önce alınan seviyeler hiçbir şey kaybetmedi; 0.4.2’ye kadar bunun yerine kalkan *dolum* hızını artırıyordu; hiçbir kalıcı güçlendirme artık dolumu artırmaz.)
 * **Luck Boost**: seviye başına uzaylılardan ganimet çıkma şansına +%0,1 (en fazla %10 / 100 seviye) - *Maliyet: 15 WP*
 
 ### Sıfırlama puanı kazanmak {#earning-wipe-points}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
+<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,6 +39,7 @@ Seeker는 기본적인 정찰·수색 기체입니다. 비공격적이어서 먼
 
 - **Ship Fragment**: 확률 20% (최소 1, 최대 1)
 - **Daraxium**: 확률 50% (최소 1, 최대 2)
+- **Echo Shard**: 확률 0.4% (최소 1, 최대 1)
 
 ## 배경 설정 {#lore}
 

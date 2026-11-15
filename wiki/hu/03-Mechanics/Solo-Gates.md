@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Szólókapuk -->
 # Szólókapuk {#solo-gates}
 
@@ -50,7 +50,7 @@ A Chrono-Gate alkatrészei a wipe-nál nullára esnek vissza, és minden szezonb
 
 ### Pörgetés alkatrész nélkül {#a-spin-without-a-part}
 
-A legtöbb pörgetés nem talál alkatrészt. Mindegyik egy nyereményt fizet, az alábbi esélyek szerint: a második szorzó vagy jobb lézerlőszert, a második vagy harmadik szint rakétacsomagját, és időnként egy [különleges tárgyat](/wiki/06-Items/Special-Items.md) vagy egy [konténert](/wiki/06-Items/Containers.md). A nyeremény, amely nem adható meg (például már a legtöbb van meg abból a különleges tárgyból), ugyanazzal a dobással lőszercsomaggá vagy rakétacsomaggá válik, így a pörgetés soha nem fizet kevesebbet a táblázatánál. A nyeremény egyértelműen kevesebbet ér, mint amennyibe a pörgetés kerül: a kapuk Thulium-nyelők.
+A legtöbb pörgetés nem talál alkatrészt. Mindegyik egy nyereményt fizet, az alábbi esélyek szerint: a második szorzó vagy jobb lézerlőszert, a második vagy harmadik szint rakétacsomagját, és időnként egy [különleges tárgyat](/wiki/06-Items/Special-Items.md) vagy egy [konténert](/wiki/06-Items/Containers.md). A nyeremény, amely nem adható meg (például mert a különleges tárgyak vagy a konténerek ki vannak kapcsolva), ugyanazzal a dobással lőszercsomaggá vagy rakétacsomaggá válik, így a pörgetés soha nem fizet kevesebbet a táblázatánál. A nyeremény egyértelműen kevesebbet ér, mint amennyibe a pörgetés kerül: a kapuk Thulium-nyelők.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ A kaput a Galaxiskapuk oldalon **építed meg**, és a portálján **ugrasz be**
 
 - a kapu alkatrészei: **egyszer, az építéskor** veszik el őket, az elutasított építés semmit sem vesz el;
 - nincs más nyitott szólómenet: egyszerre egy menetet játszol, és az elhagyott menetbe a portálján át lépsz vissza, vagy fel kell adnod, mielőtt másik kaput építesz;
-- a fő szerver (a regionális szervereken nincsenek kapuk).
+- a fő szerver (kaput csak a fő szerveren építenek: regionális szerveren előbb visszatérsz a bázisra).
 
-A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz.
+A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz. Csak a **saját** kapudat látod: más pilóták kapuinak portáljai ugyanabban a szektorban nem jelennek meg számodra.
 
-**A regionális szervereken (Singapore, US East).** Maga a kapu a fő szerveren marad: regionális szerveren semmit sem építenek, játszanak vagy fizetnek ki. Az épített kapu ott sem merül feledésbe: érkezéskor szólnak róla, és a kapud portálja ott is a bázisszektorodban áll. Ugorj át rajta, és visszakerülsz a fő szerverre, ahol a fent leírtak szerint indulsz a kapuba.
+**A regionális szervereken (Singapore, US East).** Az épített kaput ott is lehet játszani. A kapud portálja regionális szerveren ugyanúgy a bázisszektorodban áll, mint a fő szerveren, és érkezéskor szólnak róla. **Ugorj át rajta, és a szerver egyik arénájába kerülsz**, a fő szerver helyett annak késleltetésével. Egy regionális szerveren világonként csak **két aréna** van, a fő szerveren jóval több: ha mindkettő foglalt, vársz, ahogy a fő szerveren is várnál egy szabad hasadékra. A fő szerver marad az egyetlen hely, amely a menetedet, az alkatrészeidet és a kifizetésedet nyilvántartja: a kifizetés akkor kerül a pénztárcádba, amikor a fő szerver megszámolta a menetet, pár másodperccel a vége után, a **repülési ablakod pénztárcája pedig dokkoláskor frissül**. A következő menetedbe csak akkor lépsz be, ha az utolsót már megszámolták. Az arénában otthagyott menetbe a portálon át lépsz vissza; ha fel akarod adni, azt az arénában vagy az állomáson teheted meg. Ha egy regionális szerver aréna-funkciója ki van kapcsolva, a portálja helyette visszavisz a fő szerverre, ahol a fent leírtak szerint indulsz a kapuba. Hogy mi más működik regionális szerveren, azt a [Szerverek](/wiki/03-Mechanics/Servers.md) írja le.
 
 Egy üres aréna közepén landolsz, egyedül. Senki sem támadhat meg benne, és a Jump CPU és a Base CPU nem működik.
 
@@ -161,7 +161,7 @@ A boss egy idegen megnövelt hajója, saját hajótesttel, pajzzsal és sorozatt
 
 ## Mit fizet egy teljesítés {#what-a-clear-pays}
 
-A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, amikor a boss meghal: a Creditet, a Thuliumot, a tapasztalatot és a becsületet, az ércet, a lemezeket és a Power Core-okat, valamint a lőszert. A tapasztalat beleszámít a PvE-rangpontjaidba, ahogy a kazamatáé is.
+A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, amikor a boss meghal: a Creditet, a Thuliumot, a tapasztalatot és a becsületet, az ércet, a lemezeket és a Power Core-okat, valamint a lőszert. A tapasztalat és a becsület beleszámít a PvE-rangpontjaidba, ahogy a kazamatáé is.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, 
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; lőszer: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; lőszer: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
-- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; lőszer: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
-- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; lőszer: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
-- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; lőszer: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; lőszer: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; lőszer: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
+- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; lőszer: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
+- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; lőszer: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
+- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; lőszer: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Heartshards**: 1 az évad során az egyes kapuk első teljesítésekor, és 5% eséllyel még 1 minden teljesítéskor.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, 
 
 ### Az idegenek {#the-aliens}
 
-Minden idegen, amelyet egy kapuban megölsz, az Alphában érvényes számokkal fizet, bármelyik világban repülsz: semmilyen világszorzó, booster vagy Prémium bónusz nem változtatja őket. Egy hullám az idegeneiért **egyszer** fizet menetenként, akárhányszor lépsz ki és vissza. A fizetés a menet minden szakaszának végén jön: amikor kilépsz, meghalsz, elfogynak az életeid, feladod vagy teljesíted. Egy szakasz kilövései csak a wipe-nál és a szerver újraindításakor maradnak kifizetetlenül, ha éppen bent vagy (a meneted nyitva marad, de annak a szakasznak a kilövései elvesznek). A kapu kilövései beleszámítanak a [küldetésekbe](/wiki/03-Mechanics/Quests.md#where-it-counts), amelyek nem neveznek meg szektort (például a Kihívások sorának nagy vadászatai), mégpedig abban a pillanatban, ahogy megtörténnek (egy hullám menetenként **egyszer** számít bele, ahogy egyszer fizet is), másra viszont nem számítanak: nem a kilövési statisztikákra, az eredmények számlálóira, a kill feedre és a drónjaid meg P.E.T.-jeid tapasztalatára sem. A tapasztalat, amelyet fizetnek, viszont beleszámít a PvE-rangpontjaidba, ahogy egy teljesítés tapasztalata is. Az idegenek zsákmánya a fizetéssel jön, közvetlenül a készletedbe.
+Minden idegen, amelyet egy kapuban megölsz, az Alphában érvényes számokkal fizet, bármelyik világban repülsz: semmilyen világszorzó, booster vagy Prémium bónusz nem változtatja őket. Egy hullám az idegeneiért **egyszer** fizet menetenként, akárhányszor lépsz ki és vissza. A fizetés a menet minden szakaszának végén jön: amikor kilépsz, meghalsz, elfogynak az életeid, feladod vagy teljesíted. Egy szakasz kilövései csak a wipe-nál és a szerver újraindításakor maradnak kifizetetlenül, ha éppen bent vagy (a meneted nyitva marad, de annak a szakasznak a kilövései elvesznek). A kapu kilövései beleszámítanak a [küldetésekbe](/wiki/03-Mechanics/Quests.md#where-it-counts), amelyek nem neveznek meg szektort (például a Kihívások sorának nagy vadászatai), mégpedig abban a pillanatban, ahogy megtörténnek (egy hullám menetenként **egyszer** számít bele, ahogy egyszer fizet is), másra viszont nem számítanak: nem a kilövési statisztikákra, az eredmények számlálóira, a kill feedre és a drónjaid meg P.E.T.-jeid tapasztalatára sem. A tapasztalat és a becsület, amelyet fizetnek, viszont beleszámít a PvE-rangpontjaidba, ahogy egy teljesítés tapasztalata és becsülete is. Az idegenek zsákmánya a fizetéssel jön, közvetlenül a készletedbe.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

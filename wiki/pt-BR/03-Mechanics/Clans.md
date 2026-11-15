@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd3d3fd86dec6831 -->
+<!-- wiki-i18n source: 01fdc9ec2ce02960 -->
 <!-- wiki-i18n title: Clãs -->
 # Clãs {#clans}
 
@@ -200,7 +200,7 @@ O botão **Quem está online** na barra de ferramentas do sistema (no alto, à d
 
 ## Chat do clã {#clan-chat}
 
-A aba **Clã** do chat ([Canais de chat](/wiki/03-Mechanics/Groups.md#chat-channels), o comando `/c`) é só para os membros do seu clã. O servidor guarda as últimas **200 linhas** dele, nenhuma com mais de **14 dias**, para que um membro que não estava online as encontre ao entrar no jogo ou no clã: a mais antiga primeiro, sob uma linha que diz por quanto tempo o chat é guardado, com a data nas linhas de dias anteriores. Quem sai do clã ou é expulso não recebe mais nada. Quando o clã é dissolvido, pelo seu Líder ou no [reset](#the-wipe-disbands-every-clan), as linhas são apagadas com ele.
+A aba **Clã** do chat ([Canais de chat](/wiki/03-Mechanics/Groups.md#chat-channels), o comando `/c`) é só para os membros do seu clã. O servidor guarda as últimas **200 linhas** dele, nenhuma com mais de **14 dias**, para que um membro que não estava online as encontre ao entrar no jogo ou no clã: a mais antiga primeiro, sob uma linha que diz por quanto tempo o chat é guardado, com a data nas linhas de dias anteriores. Quem sai do clã ou é expulso não recebe mais nada. Quando o clã é dissolvido, pelo seu Líder ou no [reset](#the-wipe-disbands-every-clan), as linhas são apagadas com ele. O chat funciona em todos os servidores: uma linha escrita enquanto você voa em um servidor regional chega ao seu clã onde quer que estejam os membros, e as linhas guardadas também chegam a você lá.
 
 ---
 
@@ -262,7 +262,7 @@ As linhas seguem um ciclo de sete: a linha do dia *d* é a de número 1 + ((*d* 
 | Long Haul | 3, 10, 17, 24 | 290.000 / 385.000 / 460.000 unidades | 90 / 180 / 260 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah |
 | Swarm Break I | 4, 11, 18, 25 | 75 / 150 / 220 Seeker | 3 Boss Seeker / 3 Boss Seeker / 2 Pirate Boss | 26 / 85 / 170 Phantasm | 30 Phantasm / 18 Bulwark / 21 Goombah |
 | Heavy Iron | 5, 12, 19, 26 | 40 Phantasm / 24 Bulwark / 28 Goombah | 21 / 70 / 130 Phantasm | 175.000 / 230.000 / 275.000 unidades | 75 / 150 / 220 Seeker |
-| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 1 Pirate Boss / 3 Pirate Boss | 350.000 / 460.000 / 550.000 unidades |
+| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 2 Pirate Boss / 3 Pirate Boss | 350.000 / 460.000 / 550.000 unidades |
 | Grand Round | 7, 14, 21, 28 | 100 / 210 / 300 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah | 230.000 / 305.000 / 365.000 unidades |
 
 ### A sua recompensa {#the-reward-for-you}
@@ -279,7 +279,7 @@ Quando a linha é concluída, isto é, quando o Guardião é destruído, cada me
 
 ## Guardiões do clã {#clan-wardens}
 
-Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos [enxames](/wiki/05-Swarms/Swarms.md) públicos que vagam por um setor: o seu clã **o invoca** e **só o seu clã pode feri-lo**. Três Guardiões se revezam, um por dia: dia 1 **Brood**, dia 2 **Siege**, dia 3 **Wrath**, dia 4 Brood de novo, e assim por diante (o dia 15 é um dia de Wrath). Cada um vem em três forças, **I, II e III**, definidas pela categoria do clã. Um Guardião é um alienígena de um tipo próprio, como as naves de um enxame: ele não conta como Seeker, Phantasm nem qualquer outro alienígena. Um Guardião é muito forte: tem cinco vezes o casco, o escudo e o dano de laser que tinha antes da 0.4.13, então é uma luta para a maior tripulação que o seu clã consiga reunir ([que tripulação é preciso](#how-big-a-crew)). Desde a 0.4.16, o Brood Warden III tem **metade** do casco e do escudo, os drones dele curam metade e chegam na metade da velocidade, e todo Guardião traz [ondas de alienígenas](#waves-of-aliens) enquanto está de pé.
+Um **Guardião do clã** é o chefe do fim da linha diária. Ele não é um dos [enxames](/wiki/05-Swarms/Swarms.md) públicos que vagam por um setor: o seu clã **o invoca** e **só o seu clã pode feri-lo**. Três Guardiões se revezam, um por dia: dia 1 **Brood**, dia 2 **Siege**, dia 3 **Wrath**, dia 4 Brood de novo, e assim por diante (o dia 15 é um dia de Wrath). Cada um vem em três forças, **I, II e III**, definidas pela categoria do clã. Um Guardião é um alienígena de um tipo próprio, como as naves de um enxame: ele não conta como Seeker, Phantasm nem qualquer outro alienígena. Um Guardião é muito forte: tem cinco vezes o casco, o escudo e o dano de laser que tinha antes da 0.4.13, então é uma luta para a maior tripulação que o seu clã consiga reunir ([que tripulação é preciso](#how-big-a-crew)). Desde a 0.4.16, o Brood Warden III tem **metade** do casco e do escudo, os drones dele curam metade e chegam na metade da velocidade, e todo Guardião traz [ondas de alienígenas](#waves-of-aliens) enquanto está de pé. Desde a 0.5.7 um Guardião só é tão forte quanto a tripulação que está presente quando ele fica pronto para combate ([um Guardião é tão forte quanto a tripulação](#strength-by-the-crew)).
 Com menos da metade do casco, as ondas de um Guardião trazem também [um Crystalys](#crystalys-waves).
 Desde a 0.4.20, um Wrath Warden **vai atrás do piloto que o acertou** em vez de ficar onde foi invocado, o Wrath Warden III traz mais alienígenas e com mais frequência, e um Crystalys quando está com menos da metade do casco, e tudo que um Guardião traz chega dirigido contra os pilotos que o acertaram.
 Desde a 0.4.22, **todo Guardião vai atrás do piloto que o acertou**, como o Wrath Warden desde a 0.4.20, em vez de ficar onde foi invocado ou de vaguear.
@@ -298,13 +298,13 @@ Desde a 0.4.22, **todo Guardião vai atrás do piloto que o acertou**, como o Wr
 - **Onde ele aparece.** De 3.000 a 4.500 unidades da sua nave, no seu mundo: só os pilotos desse mundo conseguem chegar até ele. A aba recomenda **x-2 para um clã Recruta, x-3 para Veterano e x-4 para Elite**. As [regras de PvP](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) de sempre do setor escolhido continuam valendo.
 - **Aquecimento.** Ele fica **90 segundos** blindado e passivo («carregando») e todo piloto do clã que está online é avisado de onde. Voe até lá enquanto ele carrega: passados os 90 segundos, ele está ativo. Uma cápsula sob o selo de zona segura na tela de voo o acompanha: o nome dele, «carregando» com o tempo que falta, depois «ativo» com o setor e o tempo até ele se retirar, e «furioso» quando um Wrath Warden fica abaixo da metade do casco.
 - **Só o seu clã.** Os tiros de pilotos de qualquer outro clã são ignorados e não o fazem reagir.
-- **Como termina.** Quando ele é destruído. Ele **se retira** 40 minutos depois de ativado, quando o dia acaba, quando nenhum piloto do seu clã está em voo no mapa dele há 2 minutos ou quando o servidor reinicia (essa invocação é devolvida). Um Guardião que se retira custa uma invocação, e a chamada seguinte é o mesmo Guardião com força total.
+- **Como termina.** Quando ele é destruído. Ele **se retira** 40 minutos depois de ativado, quando o dia acaba, quando nenhum piloto do seu clã está em voo no mapa dele há 2 minutos ou quando o servidor reinicia (essa invocação é devolvida). Um Guardião que se retira custa uma invocação, e a chamada seguinte o traz de volta com a força que a tripulação presente na hora lhe dá ([um Guardião é tão forte quanto a tripulação](#strength-by-the-crew)).
 
 ### Lutar contra um Guardião {#fighting-a-warden}
 
 - **Um Guardião luta contra o primeiro piloto que o acertou**, como qualquer chefe: deixe a nave mais resistente da tripulação começar e use [Shield Surge e Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Leve a maior tripulação que puder, com munição x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). As tripulações que venciam antes da 0.4.13, de cerca de sete pilotos, agora perdem. A tabela abaixo é um cálculo e o melhor caso: mesmo nele dez pilotos perdem para qualquer Guardião, e a menor tripulação que pode vencer tem de 17 a 26 pilotos com munição x2 e de 26 a 39 com munição x1. As ondas abaixo não entram nesse cálculo.
-- **Brood:** os drones curam o casco dele, e uma tripulação que os ignora perde, mesmo uma grande. Atire neles primeiro e continue atirando: um novo chega após 8 segundos (16 para o Brood Warden III). Desde a 0.4.22 o Brood Warden voa atrás do piloto que o acertou, e os drones vão com ele e continuam a curá-lo.
+- **Leve a maior tripulação que puder, com munição x2** ([Lasers](/wiki/06-Items/Lasers.md#laser-ammunition)). As tripulações que venciam antes da 0.4.13, de cerca de sete pilotos, agora perdem. A tabela abaixo é um cálculo e o melhor caso: mesmo nele dez pilotos perdem para qualquer Guardião, e a menor tripulação que pode vencer tem de 15 a 25 pilotos com munição x2 e de 23 a 38 com munição x1. As ondas abaixo não entram nesse cálculo. A tabela abaixo é para um Guardião com força total: uma tripulação menor enfrenta um Guardião menor ([um Guardião é tão forte quanto a tripulação](#strength-by-the-crew)).
+- **Brood:** os drones curam o casco dele, e uma tripulação que os ignora precisa de cerca de um terço a mais de pilotos. Atire neles primeiro e continue atirando: um novo chega após 8 segundos (16 para o Brood Warden III). Desde a 0.4.22 o Brood Warden voa atrás do piloto que o acertou, e os drones vão com ele e continuam a curá-lo.
 - **Siege:** os foguetes dele são retos e sem guia, então uma nave que não para de se mover desvia da maioria. Não pare de se mover e revezem-se como alvo. Desde a 0.4.22 ele não vagueia mais: voa atrás do primeiro piloto que o acertou e dispara o Rivet nele de até 1.000 unidades.
 - **Wrath:** quando o casco dele cai abaixo da metade, cada rajada acerta uma vez e meia mais forte, então a segunda metade da luta é a perigosa. Derrube a primeira metade rápido, mantenha os escudos de pé e guarde o Emergency Repair para a fúria. Desde a 0.4.20 ele não fica mais parado: voa atrás do primeiro piloto que o acertou, a 90 unidades por segundo, até estar dentro do alcance dos seus lasers (700, 800 ou 900 unidades conforme a força) e atira de lá, então uma arma de mais alcance já não o acerta de graça.
 - **Os nove voam atrás do piloto que os acertou (0.4.22).** Os Brood e Siege Wardens fazem o que o Wrath Warden faz desde a 0.4.20, cada um na sua própria velocidade (90 unidades por segundo o Brood e o Wrath Warden, 110 o Siege Warden), até estarem dentro do alcance dos seus lasers (600, 700 ou 800 unidades o Brood e o Siege Warden conforme a força, 700, 800 ou 900 o Wrath Warden), então uma arma de mais alcance já não os acerta de graça. Quando ninguém o acerta há 10 segundos, ele larga o piloto e fica onde está: não volta para onde foi invocado. Um piloto protegido, numa zona segura ou pela proteção de um renascimento, é largado na hora.
@@ -324,7 +324,7 @@ Desde a 0.4.16 um Guardião não fica sozinho. A partir do momento em que está 
 - **No máximo três ondas estão vivas.** Uma onda está viva enquanto um alienígena dela estiver. Uma onda que vence quando há três vivas é pulada, não guardada para depois; a próxima vence um minuto depois.
 - **São alienígenas comuns**, feitos como o mapa os faz: um mundo mais forte lhes dá mais casco, escudo e dano ([Mundos](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), seja qual for a força do próprio Guardião. Os Bulwark e os Goombah chegam a todos os mapas, também a um setor x-2, onde de outro modo não vive nenhum. Chegam a 500–1.200 unidades do Guardião, espalhados ao redor dele.
 - **Não fazem parte da luta pelo Guardião.** Não curam nada, e atirar neles não soma nada à sua parte do dano ao Guardião. Qualquer piloto do mapa pode matá-los. Cada um paga o pagamento comum do seu alienígena no seu mundo e dá pontos PvE: uma onda inteira da tabela paga 29.000 créditos em Alpha em x-2 (5 alienígenas) e 60.000 em x-3 e x-4 (10 alienígenas), a de um Warden I paga 17.000 e 34.000, menos de 2% do que paga o seu próprio Guardião.
-- **Param junto com o Guardião.** Quando ele é destruído ou se retira, não vêm mais; os alienígenas que já saíram ficam e são os alienígenas comuns do mapa (um tipo que o setor não tem por conta própria, como os Bulwark e Goombah de um setor x-2, sai cinco minutos depois do Guardião, a menos que os pilotos ainda estejam lutando contra ele). Um reinício do servidor os encerra junto com o Guardião.
+- **Param junto com o Guardião.** Quando ele é destruído ou se retira, não vêm mais, e os alienígenas que já saíram **deixam o mapa 20 segundos depois**, seja qual for o tipo e estejam lutando ou não: acabe com eles nesse tempo ou leve-os para longe. (Até a 0.5.6 eles ficavam cinco minutos ou mais, e um piloto que chegasse depois os encontrava.) Eles saem em silêncio, sem abate e sem pagamento. Um reinício do servidor os encerra junto com o Guardião.
 - **O clã é avisado.** Cada onda é anunciada na aba Sistema do chat e no Registro do jogo, com uma linha para cada tipo de alienígena nela: «Brood Warden II chama reforços em M-3: 5 Phantasm.», «Brood Warden II chama reforços em M-3: 3 Bulwark.» e «Brood Warden II chama reforços em M-3: 2 Goombah.» (um Warden I avisa em duas linhas, porque não tem Goombah)
 - **Elas chegam dirigidas (0.4.20).** Os alienígenas de uma onda chegam sabendo quem o Guardião combate: vão atrás dos pilotos que o acertaram, o primeiro deles primeiro, desde o momento em que aparecem, e continuam atrás deles enquanto o Guardião é acertado. Um Guardião que ninguém combate manda alienígenas que vagam: os Phantasm e os Bulwark atraem quem chegar perto, como antes, e um Goombah, que nunca começa uma luta, vaga até alguém atirar nele.
 
@@ -339,15 +339,15 @@ Desde a 0.4.22, **todo Guardião** faz o que o Wrath Warden III fazia desde a 0.
 
 | Guardião | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 44 | 47 | 47 |
-| Siege Warden I | 40 | 43 | 43 |
-| Wrath Warden I | 45 | 48 | 48 |
-| Brood Warden II | 43 | 48 | 48 |
-| Siege Warden II | 35 | 39 | 39 |
-| Wrath Warden II | 40 | 45 | 45 |
-| Brood Warden III | 22 | 23 | 23 |
-| Siege Warden III | 26 | 28 | 28 |
-| Wrath Warden III | 36 | 40 | 40 |
+| Brood Warden I | 41 | 44 | 44 |
+| Siege Warden I | 37 | 40 | 40 |
+| Wrath Warden I | 42 | 45 | 45 |
+| Brood Warden II | 39 | 44 | 44 |
+| Siege Warden II | 31 | 35 | 35 |
+| Wrath Warden II | 35 | 40 | 40 |
+| Brood Warden III | 21 | 22 | 22 |
+| Siege Warden III | 26 | 27 | 27 |
+| Wrath Warden III | 34 | 39 | 39 |
 
 #### As ondas do Wrath Warden III {#wrath-iii-waves}
 
@@ -361,7 +361,13 @@ Desde a 0.4.20, o **Wrath Warden III** traz mais, e com mais frequência: uma on
 
 - **No máximo quatro ondas estão vivas.** Uma onda que vence quando quatro estão vivas é pulada, como nos outros Guardiões.
 - **O que pagam.** Uma onda inteira de 15 alienígenas paga 101.000 créditos em Alpha, e com o seu Crystalys 176.000: cerca de 2% dos 7.200.000 que o próprio Guardião paga.
-- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com essas ondas e o Crystalys, dá **36 pilotos em x-2, 40 em x-3 e 40 em x-4** com munição x2 (26 sem ondas), e 46, 52 e 52 em Gamma, onde os alienígenas das ondas são duas vezes mais fortes. Um clã de nível 3 tem 50 membros, então em x-3 e x-4 em Gamma ele não consegue mandar o bastante; um de nível 5 tem 100. Como a tabela de lá, é calculado e não medido, e é o melhor caso.
+- **O que pedem da tripulação.** O cálculo de [que tripulação é preciso](#how-big-a-crew), com essas ondas e o Crystalys, dá **34 pilotos em x-2, 39 em x-3 e 39 em x-4** com munição x2 (25 sem ondas), e 45, 51 e 51 em Gamma, onde os alienígenas das ondas são duas vezes mais fortes. Um clã de nível 3 tem 50 membros, então em x-3 e x-4 em Gamma ele não consegue mandar o bastante; um de nível 5 tem 100. Como a tabela de lá, é calculado e não medido, e é o melhor caso.
+
+### Um Guardião é tão forte quanto a tripulação {#strength-by-the-crew}
+
+Desde a 0.5.7 um Guardião **só é tão forte quanto a tripulação que está presente quando ele fica pronto para combate**. Quando o aquecimento de 90 segundos termina, o jogo conta os pilotos do seu clã que **voam fora das zonas seguras no mapa do Guardião**: pilotos de outros clãs, pilotos numa zona segura e pilotos em outros mapas não contam. O Guardião passa então a lutar **durante toda a luta** com a parte da sua força que a tabela dele dá para esse número: quem chega depois não muda nada, então reúnam-se durante o aquecimento. Tudo de que ele é feito e tudo o que ele faz é reduzido junto: o casco e o escudo do Guardião e dos seus ajudantes, o dano de laser deles, o que eles curam, o foguete do Siege Warden e quantos alienígenas vêm em cada [onda](#waves-of-aliens), o Crystalys incluído, que só aparece a partir da metade da força. O pagamento, o espólio e todos os tempos continuam como estão.
+
+As tabelas são calculadas com as mesmas lutas de [que tripulação é preciso](#how-big-a-crew), para uma tripulação da categoria do Guardião: um clã com 5 pilotos presentes enfrenta o Guardião que, no cálculo, uma tripulação um quinto menor vence, porque o cálculo é o melhor caso e uma luta real é mais dura. Um clã com **5 pilotos** enfrenta um Guardião com **12 a 23%** da sua força total, um clã com **8 pilotos** um com **16 a 29%**, e a força total chega com **28 a 72 pilotos**, conforme o Guardião; no meio a força sobe em linha reta de um degrau da tabela ao seguinte, e menos de 3 pilotos enfrentam o que 3 enfrentam. Quando o Guardião fica pronto para combate, o seu clã lê uma linha no chat: “Tripulação presente: 5. Brood Warden II luta com 16% da sua força total.”
 
 ### Que tripulação é preciso {#how-big-a-crew}
 
@@ -372,16 +378,16 @@ A tabela mostra o melhor caso; no jogo, leve o máximo de gente que puder.
 
 | Tripulação | Com munição x2 | Com munição x1 |
 | :--- | :--- | :--- |
-| 5 pilotos | perdem para todos os Guardiões; o Guardião fica com 88 a 96% do casco e do escudo | perdem |
-| 10 pilotos | perdem para todos os Guardiões; o Guardião fica com 55 a 86% do casco e do escudo | perdem |
-| 20 pilotos | só vencem os Siege Warden I e II, em 7,2 a 7,3 minutos, perdendo 6 naves, e o Brood Warden III, em 3,7 minutos, perdendo 8 naves | perdem |
-| 30 pilotos | vencem todos os Guardiões em 2,0 a 5,2 minutos, perdendo de 3 a 11 naves | só vencem os Siege Warden I e II, em 10,4 a 10,5 minutos, perdendo 9 naves, e o Brood Warden III, em 5,1 minutos, perdendo 11 naves |
+| 5 pilotos | perdem para todos os Guardiões; o Guardião fica com 84 a 96% do casco e do escudo | perdem |
+| 10 pilotos | perdem para todos os Guardiões; o Guardião fica com 55 a 84% do casco e do escudo | perdem |
+| 20 pilotos | só vencem os Siege Warden I e II, em 6,2 a 6,4 minutos, perdendo 4 a 5 naves, e o Brood Warden III, em 3,5 minutos, perdendo 8 naves | perdem |
+| 30 pilotos | vencem todos os Guardiões em 1,9 a 4,9 minutos, perdendo de 2 a 10 naves | só vencem os Siege Warden I e II, em 8,8 a 9,2 minutos, perdendo 6 a 8 naves, e o Brood Warden III, em 4,8 minutos, perdendo 11 naves |
 
-No cálculo, a menor tripulação que vence com munição x2 tem **17 a 26 pilotos** (o menor número contra os Siege Warden I e II) e perde **10 a 17** naves nesse processo; com munição x1 tem **26 a 39** pilotos e perde 12 a 25. Os lasers de um Guardião batem com centenas por rajada na força I (240 a 645) e com milhares na força III (9.225 a 15.450), e os ajudantes se somam: a nave contra a qual ele luta cai em 18 a 55 segundos, e então ele se vira contra a próxima, então até uma tripulação que vence perde muitas naves.
+No cálculo, a menor tripulação que vence com munição x2 tem **15 a 25 pilotos** (o menor número contra os Siege Warden I e II) e perde **7 a 18** naves nesse processo; com munição x1 tem **23 a 38** pilotos e perde 11 a 25. Os lasers de um Guardião batem com centenas por rajada na força I (240 a 645) e com milhares na força III (9.225 a 15.450), e os ajudantes se somam: a nave contra a qual ele luta cai em 18 a 70 segundos, e então ele se vira contra a próxima, então até uma tripulação que vence perde muitas naves.
 
 A tabela vale para uma tripulação com o equipamento da própria categoria do Guardião. Naves mais fracas vão pior. O Guardião do **seu** clã sempre combina com a **sua** categoria, que os cinco melhores pilotos do clã definem, então leve-os.
 
-**Um clã pequeno demais para o seu Guardião** não fica de fora. As quatro missões pagam os seus **70 pontos** aconteça o que acontecer com o Guardião, os pontos compram bônus e o clã pode invocar o Guardião de novo se ainda tiver uma invocação (são duas por dia): se a tripulação cai e fica longe, o Guardião se retira, o que custa uma invocação, e a chamada seguinte o traz de volta com força total. Mas a linha não é concluída, então ninguém recebe [a sua recompensa](#the-reward-for-you), e um clã que nunca mata o seu Guardião tem os 30 níveis de bônus no dia 18 no mais cedo, não no dia 12 ([quanto tempo leva](#how-long-it-takes)).
+**Um clã pequeno demais para o seu Guardião** não fica de fora. As quatro missões pagam os seus **70 pontos** aconteça o que acontecer com o Guardião, os pontos compram bônus e o clã pode invocar o Guardião de novo se ainda tiver uma invocação (são duas por dia): se a tripulação cai e fica longe, o Guardião se retira, o que custa uma invocação, e a chamada seguinte o traz de volta com a força que a tripulação presente na hora lhe dá. Mas a linha não é concluída, então ninguém recebe [a sua recompensa](#the-reward-for-you), e um clã que nunca mata o seu Guardião tem os 30 níveis de bônus no dia 18 no mais cedo, não no dia 12 ([quanto tempo leva](#how-long-it-takes)).
 
 ### Os números dos Guardiões {#warden-numbers}
 
@@ -392,9 +398,9 @@ Os Guardiões têm os mesmos números em todos os mundos (os de Alpha), e o paga
 | Brood Warden I | 830.000 | 680.000 | 645 | 90 | 600 | – | – |
 | Brood Warden II | 1.440.000 | 1.180.000 | 3.885 | 90 | 700 | – | – |
 | Brood Warden III | 2.650.000 | 2.175.000 | 15.450 | 90 | 800 | – | – |
-| Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Rivet I: 24 |
-| Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Rivet II: 12 |
-| Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Rivet III: 8 |
+| Siege Warden I | 715.000 | 585.000 | 240 | 110 | 600 | 1.075 | Warden Rivet I: 24 |
+| Siege Warden II | 1.240.000 | 1.015.000 | 1.455 | 110 | 700 | 1.875 | Warden Rivet II: 12 |
+| Siege Warden III | 4.575.000 | 3.725.000 | 9.225 | 110 | 800 | 6.925 | Warden Rivet III: 8 |
 | Wrath Warden I | 815.000 | 665.000 | 480 | 90 | 700 | 1.075 | – |
 | Wrath Warden II | 1.410.000 | 1.155.000 | 2.910 | 90 | 800 | 1.875 | – |
 | Wrath Warden III | 5.200.000 | 4.250.000 | 12.300 | 90 | 900 | 6.925 | – |

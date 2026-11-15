@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8d402a8454b12f5b -->
+<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,6 +36,7 @@ Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/
 - **Quorvium**: 100% esély (min. 6, max. 10)
 - **Power Core**: 50% esély (min. 1, max. 1)
 - **Ancient Control Unit**: 20% esély (min. 1, max. 1)
+- **Echo Shard**: 20% esély (min. 1, max. 1)
 
 ## Háttértörténet {#lore}
 

@@ -42,6 +42,7 @@ What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Res
 - **Quorvium**: 100% chance (Min: 2, Max: 4)
 - **Reinforced Hull Plate**: 60% chance (Min: 1, Max: 1)
 - **Power Core**: 25% chance (Min: 1, Max: 1)
+- **Echo Shard**: 5% chance (Min: 1, Max: 1)
 
 ## Lore
 

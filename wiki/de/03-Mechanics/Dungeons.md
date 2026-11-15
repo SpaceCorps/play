@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -17,7 +17,7 @@ Ein Dungeon ist kein [Solo-Tor](/wiki/03-Mechanics/Solo-Gates.md). Ein Solo-Tor 
 
 - **Öffnet**: Ab Saisontag 1
 - **Wer einen Dungeon öffnet**: Ein Stellvertreter oder der Anführer, der den Preis aus der Clan-Bank zahlt
-- **Gruppe**: 4 bis 10 Mitglieder des Clans in einer Gruppe
+- **Gruppe**: 3 bis 10 Mitglieder des Clans in einer Gruppe
 - **Dungeons pro Tag**: 3 pro Clan und UTC-Tag, immer nur eines gleichzeitig offen
 - **Dungeons gleichzeitig**: 6 in einer Welt
 - **Instanzen**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ Ein Dungeon ist kein [Solo-Tor](/wiki/03-Mechanics/Solo-Gates.md). Ein Solo-Tor 
 
 1. **Rufen.** Im Reiter Dungeons wählt ein [Stellvertreter oder der Anführer](/wiki/03-Mechanics/Clans.md#hierarchy-roles) eine Stufe und drückt **Rufen**. Der Preis wird der [Clan-Bank](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) entnommen, und der Dungeon erhält eine der oben aufgeführten Instanzen. Ein Dungeon, den niemand startet, schließt sich, und der Preis geht an die Bank zurück.
 2. **Betreten.** Mitglieder des Clans drücken im Clan-Fenster **Betreten**, während sie fliegen, springen durch das Clan-Portal oder drücken auf der Hinweiskarte **Beitreten** (siehe Betreten). Alle landen im Startraum, und die Piloten im Inneren sind die Gruppe des Dungeons.
-3. **Starten.** Der Startraum ist ein kleiner Raum an einem Ende des Labyrinths, und seine Tür bleibt zu, solange sich der Dungeon sammelt. Es gibt dort keine Aliens, du kannst also sicher warten. Der Dungeon **startet von selbst**, sobald jeder Pilot, auf den es wartet, drin ist und die Gruppe groß genug ist. Es wartet auf die Mitglieder des Clans, die online und nicht abwesend sind und in der Gruppe eines Piloten sind, der hineingekommen ist, und es startet sofort, wenn die Gruppe voll ist. Der Pilot, der den Dungeon geöffnet hat, oder ein Offizier kann **Starten** drücken, um früher mit den Piloten zu beginnen, die drin sind, wenn es genug sind. Ein Pilot, der geht, wird nicht mehr erwartet. Wenn der Dungeon startet, öffnet sich die Tür für immer, und danach können nur noch Piloten zurückkehren, die schon drin waren.
+3. **Starten.** Der Startraum ist ein kleiner Raum an einem Ende des Labyrinths, und seine Tür bleibt zu, solange sich der Dungeon sammelt. Es gibt dort keine Aliens, du kannst also sicher warten. Der Dungeon **startet von selbst**, sobald jeder Pilot, auf den es wartet, drin ist und die Gruppe groß genug ist. Es wartet auf die Mitglieder des Clans, die online und nicht abwesend sind und in der Gruppe eines Piloten sind, der hineingekommen ist, und es startet sofort, wenn die Gruppe voll ist. Der Pilot, der den Dungeon geöffnet hat, oder ein Offizier kann **Starten** drücken, um früher mit den Piloten zu beginnen, die drin sind, wenn es genug sind. Ein Pilot, der geht, wird nicht mehr erwartet, und ebenso wenig einer, der noch nicht hereingekommen ist und die Gruppe verlassen hat oder offline gegangen ist. Wenn der Dungeon startet, öffnet sich die Tür für immer, und danach können nur noch Piloten zurückkehren, die schon drin waren.
 4. **Durchs Labyrinth kämpfen.** Du kommst an einem Ende des Labyrinths hinein, und am anderen wartet der Kriegsherr in einem verschlossenen Raum. Das Labyrinth ist dunkel: Du siehst nur, was die Gruppe erkundet hat und was nahe an ihren Schiffen liegt. Die Aliens warten in Rudeln in den Gängen, und ein Rudel kommt heraus, sobald ein Pilot in den Gangabschnitt fliegt, in dem es wartet, und jagt dann die Gruppe durchs Labyrinth.
 5. **Beutezonen öffnen.** Ringe im Labyrinth markieren die Zonen. Halte eine, und die Gruppe stimmt über eine Karte ab, die zusammen mit der Belohnung des Kriegsherrn ausgezahlt wird.
 6. **Den Raum des Kriegsherrn entsperren.** Zerstöre drei Viertel der Crystalys und ihrer Twins des Labyrinths, und die Tür zum Raum des Kriegsherrn öffnet sich. Bis dahin kann der Kriegsherr nicht verletzt werden. Die übrigen Aliens bleiben, wo sie sind, und du kannst sie auch zerstören.
@@ -215,6 +215,7 @@ Hülle und Schild oben gelten für eine Gruppe von 5. Sie wachsen mit der Gruppe
 
 | Piloten in der Gruppe | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
 | 4 | 14.400.000 | 21.600.000 | 36.000.000 |
 | 5 | 18.000.000 | 27.000.000 | 45.000.000 |
 | 6 | 21.600.000 | 32.400.000 | 54.000.000 |
@@ -334,22 +335,24 @@ Die Karten werden eine nach der anderen aus dem Pool unten gezogen. Die Chance i
 
 <!-- dungeons-cards:end -->
 
-Die Karten mit einem Exemplar sind **Ausrüstung**, und nur ein Dungeon der Stufe 3 kann sie anbieten. Ein Ausrüstungsteil wird für jeden bezahlten Piloten bei der Auszahlung geschmiedet: Jeder würfelt eine eigene [Verzauberungsstufe](/wiki/06-Items/Overview.md#item-enchants) mit denselben Chancen wie ein Teil, das du in der Montage baust, die meisten sind also Standard, und eine höhere Stufe, bis zu Ewig, mit Buffs, ist ein seltener Fund.
+Die Karten mit einem Exemplar sind **Ausrüstung**, und nur ein Dungeon der Stufe 3 kann sie anbieten. Ein Ausrüstungsteil wird für jeden bezahlten Piloten bei der Auszahlung geschmiedet: Jeder würfelt eine eigene [Verzauberungsstufe](/wiki/06-Items/Overview.md#item-enchants) mit denselben Chancen wie ein Teil, das du in der Montage baust, die meisten sind also Standard, und eine höhere Stufe, bis zu Aufgestiegen, mit Buffs, ist ein seltener Fund. Jedes Stück würfelt außerdem seine [Integrität](/wiki/06-Items/Forge.md#integrity-and-fractures), so wie ein gefertigtes Stück es tut.
 
 ## Belohnung {#pay}
 
 Wenn der Kriegsherr fällt, wird jeder Pilot, der es verdient hat, einmal für den Durchgang bezahlt. Die Karten, die die Gruppe gewählt hat, kommen zur Belohnung der Stufe hinzu. Es gibt keinen Weltfaktor: Die Belohnung ist in jeder Welt gleich.
 
-Die **Orvium Reinforced Plates** sind keine Karte der Abstimmung. Sie gehören zur Belohnung der Stufe, und jeder bezahlte Pilot bekommt sie einmal für den Durchgang. Die Gegenstände, die der Durchgang auszahlt, sind nicht Handelbar: Du kannst sie nicht [in der Auktion verkaufen](/wiki/03-Mechanics/Auction.md#marketable-items).
+Die **Orvium Reinforced Plates** und die **Echo Shards** und **Lattice Shards** der Schmiede sind keine Karte der Abstimmung. Sie gehören zur Belohnung der Stufe, und jeder bezahlte Pilot bekommt sie einmal für den Durchgang. Die **Heartshards** werden anders gezahlt: Die Zeile unter der Tabelle sagt, wie. Die Gegenstände, die der Durchgang auszahlt, sind nicht Handelbar: Du kannst sie nicht [in der Auktion verkaufen](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Stufe | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | PvE-Rangpunkte |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 600 |
-| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 1.500 |
-| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2.400 |
+| Stufe | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
+| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
+| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+
+- **Heartshards**: 1 beim ersten bezahlten Abschluss jeder Stufe in einer Saison und mit 5 % Wahrscheinlichkeit ein weiteres bei jedem bezahlten Abschluss.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Was ein Pilot an einem Tag und in der besten Woche bekommen kann, die die Grenze
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Belohnung je Pilot | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | PvE-Rangpunkte |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 4.500 |
-| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 21.300 |
+| Belohnung je Pilot | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
+| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
 
-Die Erfahrung eines bezahlten Abschlusses zählt für deine PvE-Rangpunkte: ein Punkt je 1.000 Erfahrung.
+Erfahrung und Ehre eines bezahlten Abschlusses zählen für deine PvE-Rangpunkte: ein Punkt je 1.000 Erfahrung und ein Punkt je 100 Ehre.
 
 <!-- dungeons-totals:end -->
 

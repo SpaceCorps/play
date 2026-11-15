@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Gradi -->
 # Gradi {#ranks}
 
@@ -106,9 +106,11 @@ Se cambi corporazione, i tuoi punti vengono con te e ti trovi nella classifica d
 
 ## Come si guadagnano i punti PvE {#how-you-earn-pve-points}
 
-I tuoi punti PvE si calcolano da tre cose:
+I tuoi punti PvE si calcolano da quattro cose:
 
-**livello × 100 + esperienza ÷ 1.000 (arrotondata per difetto) + i punti di ogni alieno che hai distrutto**
+**livello × 100 + esperienza ÷ 1.000 (arrotondata per difetto) + onore ÷ 100 (arrotondato per difetto) + i punti di ogni alieno che hai distrutto**
+
+Ogni 100 di **onore** valgono un punto, qualunque sia la fonte; dopo un reset conta solo l’onore che guadagni nella nuova stagione. Un saldo inferiore a 0 non conta nulla.
 
 Un alieno più duro vale di più: un abbattimento dà punti in base a quanti danni servono per distruggere l’alieno. Le navi degli sciami e i Custodi del clan contano con la stessa regola, quindi un Pirate Scout vale quanto un Bulwark. Ogni abbattimento viene contato con il nome dell’alieno nelle tue statistiche degli abbattimenti.
 
@@ -144,7 +146,7 @@ Un alieno più duro vale di più: un abbattimento dà punti in base a quanti dan
 
 Le prime cinque righe sono gli alieni normali, le dodici successive le navi dei sei sciami e le tre successive gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (dal giorno 11 della stagione). In fondo ci sono i Custodi del clan, i capi di uno scontro con un Custode, e i loro equipaggi, i Brood Drone, i Siege Escort e i Wrath Guard: I, II e III sono la forza del Custode, e i punti sono indicati in quest’ordine.
 
-Per esempio, un pilota di livello 4 con 12.500 di esperienza che ha distrutto 300 Seeker, 80 Phantasm e 10 Bulwark ha 400 + 12 + 300 + 160 + 40 = **912** punti. Questo lo rende Sergente: il minimo è 800, e il grado successivo, Sergente senior, ne chiede 1.000. Fino a Colonnello senior contano solo i punti.
+Per esempio, un pilota di livello 4 con 12.500 di esperienza e 900 di onore che ha distrutto 300 Seeker, 80 Phantasm e 10 Bulwark ha 400 + 12 + 9 + 300 + 160 + 40 = **921** punti. Questo lo rende Sergente: il minimo è 800, e il grado successivo, Sergente senior, ne chiede 1.000. Fino a Colonnello senior contano solo i punti.
 
 La pagina **Classifiche** (Comunità › Classifiche) mostra come si compongono i tuoi punti, e l’**Albo d’oro** al suo interno elenca i migliori piloti. La **(i)** accanto ai punti PvE lì elenca i cinque alieni, quanto vale un abbattimento in ciascuno degli [sciami](/wiki/05-Swarms/Swarms.md), dalla nave più piccola al boss, lo stesso per gli alieni del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e i [Custodi del clan](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) non compare in nessuna classifica: un suo abbattimento non vale nessun punto, non ha una riga nell’Albo d’oro e non appartiene a nessuna corporazione, quindi non è su nessuna delle scale.
 
@@ -202,7 +204,7 @@ Apri **Economia › Corporazione**. La sua sezione **Classifica della corporazio
 
 ## Gradi e reset {#ranks-and-the-wipe}
 
-Al reset i tuoi punti PvE ricominciano da zero, quindi la classifica della tua corporazione ricomincia da capo e ogni stagione è una nuova scalata. Conta solo ciò che guadagni dopo un reset: i livelli che sali, l’esperienza e gli abbattimenti di alieni della nuova stagione ([Punti freschi](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Il tuo livello, la tua esperienza e le tue statistiche degli abbattimenti restano nei tuoi totali. **L’onore non determina il tuo grado.** Il grado che avevi nell’istante del reset entra nella cronologia delle tue stagioni, con la tua posizione in classifica, e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Il tuo grado non è nemmeno per sempre: i sei gradi migliori si muovono con gli altri piloti della tua corporazione, e un pilota che resta lontano 30 giorni esce dalla classifica finché non vola di nuovo.
+Al reset i tuoi punti PvE ricominciano da zero, quindi la classifica della tua corporazione ricomincia da capo e ogni stagione è una nuova scalata. Conta solo ciò che guadagni dopo un reset: i livelli che sali, l’esperienza, l’onore e gli abbattimenti di alieni della nuova stagione ([Punti freschi](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Il tuo livello, la tua esperienza e le tue statistiche degli abbattimenti restano nei tuoi totali. Il grado che avevi nell’istante del reset entra nella cronologia delle tue stagioni, con la tua posizione in classifica, e paga le sue ricompense ([Stagioni e ricompense](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Il tuo grado non è nemmeno per sempre: i sei gradi migliori si muovono con gli altri piloti della tua corporazione, e un pilota che resta lontano 30 giorni esce dalla classifica finché non vola di nuovo.
 
 La stagione 2, iniziata con il reset del 6 novembre 2026, è stata la prima a contare così: i suoi punti contano da quel reset. Il reset che ha chiuso la stagione 1 ha pagato i gradi della stagione 1 in base ai punti di tutta la tua carriera.
 

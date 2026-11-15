@@ -12,7 +12,7 @@ Davidski is a trader who flies. He is a peaceful NPC ship that comes out once a 
 
 ## His Ship
 
-An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best of every kind of part, forged to Eternal:
+An **Ironclad TITANIC** painted gold, at the TITANIC's own size, flying the best of every kind of part, forged to Ascendant:
 
 | What | Item |
 |---|---|

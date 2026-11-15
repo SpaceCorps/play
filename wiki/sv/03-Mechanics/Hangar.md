@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar -->
 # Hangaren under flygning {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Du behöver inte återvända till basen för att ändra ditt skepp. Inifrån en 
 
 En ändring tillåts bara så länge allt det här stämmer:
 
-- **En säker zon skyddar dig.** Varje station och portal har en skyddsring (se [Strid](/wiki/03-Mechanics/Combat.md)). Innanför den är du skyddad när 5 sekunder har gått sedan du träffades och 15 sedan du sköt.
+- **En säker zon skyddar dig.** Varje hembas station och varje portal har en skyddsring (se [Strid](/wiki/03-Mechanics/Combat.md)); Mission Control-stationen i en gränssektor har ingen. Innanför den är du skyddad när 5 sekunder har gått sedan du träffades och 15 sedan du sköt.
 - **Du har varit utanför strid** några sekunder till: **10** som standard. Det spelar roll när du anländer skyddad direkt, genom en portal, med en strid bakom dig.
 - Du är inte kamouflerad, inte inom din egen EMP:s fönster och inte nära det [svarta hålet](/wiki/03-Mechanics/Black-Hole.md), och ingen av dina raketer är fortfarande på väg.
 

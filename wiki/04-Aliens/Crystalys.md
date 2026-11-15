@@ -34,6 +34,7 @@ What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Res
 - **Quorvium**: 100% chance (Min: 6, Max: 10)
 - **Power Core**: 50% chance (Min: 1, Max: 1)
 - **Ancient Control Unit**: 20% chance (Min: 1, Max: 1)
+- **Echo Shard**: 20% chance (Min: 1, Max: 1)
 
 ## Lore
 

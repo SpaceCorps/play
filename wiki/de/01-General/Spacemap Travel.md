@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Reisen im All -->
 # Reisen auf der Weltraumkarte {#spacemap-travel}
 
@@ -29,10 +29,10 @@ Das Universum besteht aus den drei großen Konzernsektoren (Mars, Terra, Galacti
 
 - **x-1 (Heimatbasis)**: Die Startkarte jedes Konzerns (M-1, T-1, G-1). Die sicherste Zone.
 - **x-2 -> x-3**: Expansionszonen mit immer stärkeren Aliens.
-- **x-4 (Grenze)**: Das Tor zum PvP-Sektor und zu `x-3` eines anderen Konzerns (der Ring, siehe unten).
+- **x-4 (Grenze)**: Das Tor zum PvP-Sektor und zu `x-3` eines anderen Konzerns (der Ring, siehe unten). Er hat eine Mission-Control-Station in seiner Mitte.
 - **DS-x (Gefahrensektoren)**: Die zentrale PvP-Zone, die alle Konzerne verbindet: DS-1 bis DS-4. Sie enthält ab dem ersten Tag der Saison je einen Pulsar in DS-1 bis DS-3 und ab Saisontag 11 daneben je einen Riesenbagger sowie den Dormant Swamp ([Gefahrensektoren](/wiki/01-General/Danger-Sectors.md)). In Beta und Gamma stehen die Riesenbagger ab dem ersten Tag der Saison.
 
-Nur die Heimatbasen haben eine Station. Dort öffnet sich **Mission Control**, und ihre Schutzzone reicht 1.600 Einheiten weit um sie herum. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu deiner Basis.
+Nur die Heimatbasen (`x-1`) und die Grenzsektoren (`x-4`) haben eine Station. Dort öffnet sich **Mission Control**, und dort nimmst du Missionen an und holst ihre Belohnungen ab, im Umkreis von 1.600 Einheiten um sie. Die Station einer Heimatbasis hat eine Schutzzone mit diesem Radius. Die Station eines Grenzsektors, mitten im Sektor, hat **keine**: Sie ist nur ein Mission-Control-Punkt, und Piloten dort können weiterhin angegriffen werden. Sie ist ein kleiner Posten, eine einzelne Kachel der Stadt der Heimatbasis: ein sechseckiges Deck mit dem Kontrollturm, den Radarkuppeln, einem Landeplatz und einem Funkmast. Die Gefahrensektoren haben keine Station, auch `DS-1` nicht: Die einzigen Schutzzonen dort sind die Ringe von 660 Einheiten um die Sprungtore, und Mission Control lässt sich dort nicht öffnen; fliege für deine Missionen zurück zu einer Station.
 
 Jede [Welt](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) hat ihre eigene Kopie dieser ganzen Karte, und wo Piloten gegeneinander kämpfen dürfen, hängt von ihr ab: in Alpha nur in `x-4` und `DS-x`, in Beta überall außer in `x-1`, in Gamma überall. Die Galaxiekarte färbt die Sektoren nach der Regel deiner Welt.
 
@@ -52,7 +52,7 @@ Auf der Weltraumkarte reist du über **Sprungtore** (Portale). Die [Jump CPU](/w
 
 1. **Portal finden**: Portale liegen meist in den Ecken oder an den Rändern einer Karte.
 2. **Navigation**: Flieg mit deinem Schiff nah an das Portal heran.
-3. **Aktivierung**: Drücke **'J'** im Umkreis von 500 Einheiten um das Portal, um den Sprung zu starten.
+3. **Aktivierung**: Drücke **'J'** im Umkreis von 500 Einheiten um das Portal, um den Sprung zu starten, oder klicke auf das **Sprung-Symbol**, das über dem Portal hängt. In Reichweite startet das Symbol den Sprung wie die Taste; außerhalb ist es abgedunkelt, und ein Klick fliegt dein Schiff zum Portal und startet den Sprung bei deiner Ankunft (jeder andere Befehl von dir bricht das ab).
 4. **Abwarten**: Der Sprung **dauert 3 Sekunden**. Währenddessen füllt sich ein Balken über deiner Aktionsleiste („Springe…“), und das Portal leuchtet heller, während es sich auflädt; andere Piloten sehen dieselbe Aufladung am Portal, wenn du springst. Dein Schiff fliegt weiter, aber du musst bis zum Ende der Zeit im Umkreis von 500 Einheiten um das Portal bleiben: Fliegst du aus der Reichweite, wird der Sprung abgebrochen („Das Portal ist zum Springen zu weit entfernt.“, und der Balken wird rot). Drückst du während des Sprungs noch einmal **'J'**, passiert nichts, außer dass dir das Spiel genau das sagt.
 5. **Ziel**: Du kommst am zugehörigen Portal der Zielkarte an.
 

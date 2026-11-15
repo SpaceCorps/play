@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
+<!-- wiki-i18n source: 9de320d04707c575 -->
 <!-- wiki-i18n title: Saisons et récompenses -->
 # Saisons et récompenses {#seasons-and-rewards}
 
@@ -83,7 +83,7 @@ Le Rapport de saison vous dit ce qui manquait, le cas échéant.
 
 ## Points neufs {#fresh-points}
 
-Vos **points de classement** comptent ce que vous avez gagné **depuis la dernière réinitialisation** : les niveaux pris, l’expérience et les éliminations d’aliens de cette saison. À la réinitialisation, ils repartent de zéro, votre ancien grade passe dans votre historique, et votre grade de la nouvelle saison se construit à partir de rien : chaque saison est donc une nouvelle ascension. **L’honneur ne détermine pas votre grade.** Vos totaux (niveau, expérience, honneur, éliminations) restent tels quels.
+Vos **points de classement** comptent ce que vous avez gagné **depuis la dernière réinitialisation** : les niveaux pris, l’expérience, l’honneur et les éliminations d’aliens de cette saison. À la réinitialisation, ils repartent de zéro, votre ancien grade passe dans votre historique, et votre grade de la nouvelle saison se construit à partir de rien : chaque saison est donc une nouvelle ascension. Vos totaux (niveau, expérience, honneur, éliminations) restent tels quels.
 
 La saison 2, qui a commencé avec la réinitialisation du 6 novembre 2026, a été la première à compter ainsi. La réinitialisation qui a clos la saison 1 vous a payé pour le grade que vous donnaient les points de toute votre carrière. Les points minimums des grades restent ce qu’ils sont.
 

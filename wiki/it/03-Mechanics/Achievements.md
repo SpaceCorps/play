@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd9c581d9c3cc64d -->
+<!-- wiki-i18n source: 56ff9739379ad0a6 -->
 <!-- wiki-i18n title: Obiettivi -->
 # Obiettivi {#achievements}
 
@@ -77,7 +77,7 @@ I 45 obiettivi che non sono nascosti, per gruppo. Dove una meta conta qualcosa, 
 | Costruttore di stazioni | Costruisci 5 moduli diversi dello Skylab. | Comune |
 | Equipaggiamento completo | Costruisci tutti i 16 moduli dello Skylab. | Epico |
 | Studioso | Ricerca 50 tecnologie. | Non comune |
-| Archivista | Ricerca tutte le 187 tecnologie. | Leggendario |
+| Archivista | Ricerca tutte le 209 tecnologie. | Leggendario |
 
 ### Flotta {#group-fleet}
 
@@ -138,7 +138,7 @@ Nella **versione Steam** puoi collegare il tuo account di gioco al tuo account S
 - **Uno a uno.** Un account di gioco ha al massimo un account Steam, e un account Steam si collega a un solo account di gioco. Se un account Steam è già collegato a un altro pilota, il gioco te lo dice e non collega nulla. Un admin può spostare un collegamento a mano quando due account rivendicano lo stesso account Steam.
 - **Ciò che il server conserva** è il tuo ID Steam, il numero pubblico del tuo account Steam, e il momento del collegamento. Non conserva nient’altro di Steam: né il tuo nome Steam, né gli amici, né i giochi, né la password. L’ID lo vedono solo tu e gli amministratori del gioco, mai gli altri piloti.
 - **Scollegalo** sulla stessa scheda, con la tua password: l’ID Steam conservato viene cancellato all’istante. Dopo uno scollegamento puoi collegare un altro account Steam solo dopo 24 ore; ricollegare lo stesso funziona subito. Per quelle 24 ore il server tiene una breve nota dello scollegamento (l’ora e un codice rimescolato ricavato dall’ID, solo per capire se ricolleghi lo stesso account) e poi la cancella.
-- **Gli obiettivi arrivano su Steam appena li ottieni**, finché l’account Steam in esecuzione è quello che hai collegato: Steam mostra il proprio avviso pochi secondi dopo quello del gioco. A ogni accesso il gioco controlla anche che cosa manca a Steam e lo segna, così un obiettivo ottenuto in un download diretto, o mentre Steam era chiuso, arriva in quel momento, e un tentativo fallito viene ripetuto da solo. Mentre voli su un altro server (un nodo regionale) lì non si ottiene né si invia nulla; tornato alla stazione, il gioco recupera. Offline non si perde nulla: il gioco conserva il registro e Steam lo viene a sapere dopo.
+- **Gli obiettivi arrivano su Steam appena li ottieni**, finché l’account Steam in esecuzione è quello che hai collegato: Steam mostra il proprio avviso pochi secondi dopo quello del gioco. A ogni accesso il gioco controlla anche che cosa manca a Steam e lo segna, così un obiettivo ottenuto in un download diretto, o mentre Steam era chiuso, arriva in quel momento, e un tentativo fallito viene ripetuto da solo. Mentre voli su un altro server (un nodo regionale) lì non si sblocca né si invia nulla a Steam; le uccisioni che fai lì contano per gli obiettivi sulle uccisioni quando il server di origine salva il volo (un’uccisione condivisa con il tuo gruppo lì conta solo per il pilota che la compie, non per i suoi compagni di gruppo, a differenza del server di origine), e tornato alla stazione il gioco recupera il resto. Offline non si perde nulla: il gioco conserva il registro e Steam lo viene a sapere dopo. Che cos’altro funziona su un server regionale è descritto in [Server](/wiki/03-Mechanics/Servers.md).
 - I crediti e i titoli di un obiettivo vengono dal registro del server di gioco, mai da Steam.
 
 ## Da quando si conta {#when-counting-began}

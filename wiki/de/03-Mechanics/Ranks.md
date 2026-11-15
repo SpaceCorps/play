@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Ränge -->
 # Ränge {#ranks}
 
@@ -106,9 +106,11 @@ Wenn du den Konzern wechselst, gehen deine Punkte mit, und du stehst in der Rang
 
 ## So verdienst du PvE-Punkte {#how-you-earn-pve-points}
 
-Deine PvE-Punkte werden aus drei Dingen berechnet:
+Deine PvE-Punkte werden aus vier Dingen berechnet:
 
-**Level × 100 + Erfahrung ÷ 1.000 (abgerundet) + die Punkte jedes Aliens, das du zerstört hast**
+**Level × 100 + Erfahrung ÷ 1.000 (abgerundet) + Ehre ÷ 100 (abgerundet) + die Punkte jedes Aliens, das du zerstört hast**
+
+Je 100 **Ehre** ergeben einen Punkt, gleich woher sie stammen; nach einem Wipe zählt nur die Ehre, die du in der neuen Saison verdienst. Ein Stand unter 0 zählt als nichts.
 
 Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Schaden es kostet, das Alien zu zerstören. Die Schwarmschiffe und die Clan-Wächter zählen nach derselben Regel, ein Pirate Scout ist also so viel wert wie ein Bulwark. Jeder Abschuss wird unter dem eigenen Namen des Aliens in deiner Abschussstatistik gezählt.
 
@@ -144,7 +146,7 @@ Ein zäheres Alien ist mehr wert: Ein Abschuss bringt Punkte danach, wie viel Sc
 
 Die ersten fünf Zeilen sind die gewöhnlichen Aliens, die nächsten zwölf die Schiffe der sechs Schwärme und die nächsten drei die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (ab Saisontag 11). Zuletzt kommen die Clan-Wächter, die Anführer eines Clan-Wächter-Kampfs, und ihre Besatzungen, die Brood Drones, Siege Escorts und Wrath Guards: I, II und III sind die Stärke des Wächters, und die Punkte stehen in dieser Reihenfolge.
 
-Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 300 + 160 + 40 = **912** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
+Ein Beispiel: Ein Pilot auf Level 4 mit 12.500 Erfahrung und 900 Ehre, der 300 Seeker, 80 Phantasms und 10 Bulwarks zerstört hat, hat 400 + 12 + 9 + 300 + 160 + 40 = **921** Punkte. Damit ist er Sergeant: Das Minimum liegt bei 800, und der nächste Rang, Senior-Sergeant, verlangt 1.000. Bis einschließlich Senior-Oberst zählen nur die Punkte.
 
 Die Seite **Ranglisten** (Community › Ranglisten) zeigt, woraus sich deine Punkte zusammensetzen, und die **Ruhmeshalle** dort listet die besten Piloten. Das **(i)** neben den PvE-Punkten dort nennt die fünf Aliens, was ein Abschuss in jedem der Schwärme ([Schwärme](/wiki/05-Swarms/Swarms.md)) wert ist, vom kleinsten Schiff bis zum Boss, dasselbe für die Aliens des [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), und die [Clan-Wächter](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) steht in keiner Rangliste: Ein Abschuss von ihm bringt keine Punkte, er hat keine Zeile in der Ruhmeshalle, und er gehört keinem Konzern an, also steht er auf keiner der Leitern.
 
@@ -202,7 +204,7 @@ Die **Wörter** (Junior-Sergeant, Hauptmann …) stehen auf der Konzernseite und
 
 ## Ränge und der Wipe {#ranks-and-the-wipe}
 
-Beim Wipe fangen deine PvE-Punkte wieder bei null an, die Rangliste deines Konzerns beginnt also von vorn und jede Saison ist ein neuer Aufstieg. Es zählt nur, was du nach einem Wipe verdienst: die Level, die du gewinnst, die Erfahrung und die Alien-Abschüsse der neuen Saison ([Frische Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Dein Level, deine Erfahrung und deine Abschussstatistik bleiben in deinen Gesamtzahlen. **Die Ehre bestimmt deinen Rang nicht.** Der Rang, den du im Augenblick des Wipes hieltest, kommt mit deinem Platz in der Rangliste in deinen Saisonverlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Dein Rang gilt auch nicht fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
+Beim Wipe fangen deine PvE-Punkte wieder bei null an, die Rangliste deines Konzerns beginnt also von vorn und jede Saison ist ein neuer Aufstieg. Es zählt nur, was du nach einem Wipe verdienst: die Level, die du gewinnst, die Erfahrung, die Ehre und die Alien-Abschüsse der neuen Saison ([Frische Punkte](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Dein Level, deine Erfahrung und deine Abschussstatistik bleiben in deinen Gesamtzahlen. Der Rang, den du im Augenblick des Wipes hieltest, kommt mit deinem Platz in der Rangliste in deinen Saisonverlauf und bringt seine Belohnungen ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Dein Rang gilt auch nicht fürs Leben: Die sechs besten Ränge bewegen sich mit den anderen Piloten deines Konzerns, und ein Pilot, der 30 Tage wegbleibt, verlässt die Rangliste, bis er wieder fliegt.
 
 Die Saison 2, die mit dem Wipe vom 6. November 2026 begann, war die erste, die so zählt: Ihre Punkte zählen ab diesem Wipe. Der Wipe, der Saison 1 abschloss, bezahlte die Ränge der Saison 1 nach den Punkten deiner ganzen Laufbahn.
 

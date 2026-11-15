@@ -57,7 +57,7 @@ Base: Wraith, con 100 % del casco y 300 % del daño de los láseres; la veloci
 | :--- | ---: | ---: | ---: |
 | Casco | 256.000 | 384.000 | 512.000 |
 | Escudo | 83.400 | 125.100 | 166.800 |
-| Daño de los láseres (una salva por segundo) | 3.570 | 5.355 | 7.140 |
+| Daño de los láseres (una salva por segundo) | 3.315 | 4.973 | 6.630 |
 | Velocidad | 210 | 210 | 210 |
 | Alcance de los láseres | 800 | 800 | 800 |
 | Radio de agresión | solo si lo atacan | solo si lo atacan | solo si lo atacan |
@@ -75,6 +75,7 @@ Base: Wraith, con 100 % del casco y 300 % del daño de los láseres; la veloci
 | Ultra Core y Experimental Fusion Core, repartidos a partes iguales | 100 % | 2.000–3.000 en total |
 | Uno de los 4 [cohetes](/wiki/06-Items/Rockets.md) Épicos, elegido al azar | 100 % | 30–50 |
 | Uno de [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) y [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), elegido al azar | 50 % | 1 |
+| Heartshard | 5 % | 1 |
 
 ### Dormant Pulse
 

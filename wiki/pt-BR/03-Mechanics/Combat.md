@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -132,8 +132,8 @@ O dano recebido é dividido entre os escudos e os pontos de vida pela **Absorç�
 A base de origem de cada corporação (mapas X-1) tem zonas seguras.
 - Entrar em uma zona segura deixa a sua nave completamente imune a dano.
 - **Quebra de agressão**: atacar um inimigo remove imediatamente a sua imunidade de zona segura, mesmo que você esteja fisicamente dentro de uma.
-- Um anel ao redor de cada estação e de cada portal protege você depois que se passaram 5 segundos desde que você foi atingido e 15 desde que você atirou. Enquanto ele protege você e você está fora de combate, a janela do hangar permite trocar de nave sem sair do jogo: veja [O hangar em voo](/wiki/03-Mechanics/Hangar.md).
-- As estações existem só nas bases de origem (`x-1`). Os setores de perigo (`DS-1` a `DS-4`) não têm nenhuma: ali, os anéis ao redor dos portais são as únicas zonas seguras.
+- Um anel ao redor da estação de cada base de origem e de cada portal protege você depois que se passaram 5 segundos desde que você foi atingido e 15 desde que você atirou. Enquanto ele protege você e você está fora de combate, a janela do hangar permite trocar de nave sem sair do jogo: veja [O hangar em voo](/wiki/03-Mechanics/Hangar.md).
+- As estações existem nas bases de origem (`x-1`) e nas fronteiras (`x-4`), mas só a estação de uma base de origem tem anel: a estação do Mission Control de uma fronteira não protege ninguém. Os setores de perigo (`DS-1` a `DS-4`) não têm nenhuma: ali, os anéis ao redor dos portais são as únicas zonas seguras.
 
 ### 3. Sob ataque em um setor de perigo {#3-under-attack-in-a-danger-sector}
 

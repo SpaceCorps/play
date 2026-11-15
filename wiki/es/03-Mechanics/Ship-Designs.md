@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Diseños de naves -->
 # Diseños de naves {#ship-designs}
 
@@ -20,11 +20,11 @@ Las tres últimas columnas son lo que tiene la nave convertida: su casco y su ve
 | **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon | 144.000 | 350 | 14 |
 | **Ironclad DUMA** | +20 % de casco base, -20 de velocidad base, -3 ranuras de láser, +10 % de absorción de escudo, Focus Fire | 600.000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 ranuras de láser, +1 ranura principal, +20 % de capacidad de escudo, +20 % de tamaño del modelo, Blink | 500.000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 256.000 | 210 | 15 |
-| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 14 |
-| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 13 |
-| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 ranura de láser, +5 % de daño total, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +5 % de casco base, +10 % de capacidad de escudo, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +20 % de casco base, +20 de velocidad base, +5 % de absorción de escudo, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 ranura de láser, +1 ranura de apoyo, +25 % de capacidad de escudo, +10 % de absorción de escudo, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 ranuras de láser, -20 % de capacidad de escudo, +10 % de penetración de láser | 256.000 | 210 | 15 |
 
 ## Conseguir un diseño {#getting-a-design}
 
@@ -63,7 +63,7 @@ La nave que se convierte es la que posees de esa clase (una Paragon para THUNDER
 | **Wraith** | 10 | 10 h | 100 | 5 | 50 h | 50 |
 | **Las cuatro** | 38 | 38 h | 380 | 13 | 130 h | 130 |
 
-Juntas piden 510 Dark Matter, además de los 789 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.384 por todas las tecnologías del juego.
+Juntas piden 510 Dark Matter, además de los 979 que piden todas las demás tecnologías, y los niveles de módulo del Skylab piden 115 más: 1.604 por todas las tecnologías del juego.
 
 ## Qué le pasa a tu nave {#what-happens-to-your-ship}
 

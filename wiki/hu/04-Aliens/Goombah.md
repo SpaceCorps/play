@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/
 - **Quorvium**: 100% esély (min. 2, max. 4)
 - **Reinforced Hull Plate**: 60% esély (min. 1, max. 1)
 - **Power Core**: 25% esély (min. 1, max. 1)
+- **Echo Shard**: 5% esély (min. 1, max. 1)
 
 ## Háttértörténet {#lore}
 

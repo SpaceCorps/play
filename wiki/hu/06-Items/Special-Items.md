@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -12,7 +12,7 @@ A **különleges tárgyak** hat egyszer használatos tárgy, amelyek időt spór
 ## Egy percben {#in-one-minute}
 
 - **Hat fajta.** A Magic Hammer, a Schematics, a Philosopher's Stone, a Tinkerer's Badge, a Forger's Seal és a Workforce Contract. Mindegyik lejjebb van leírva a számaival.
-- **Hol.** A Hangar leltára minden birtokolt fajtához mutat egy csempét a fogyóeszközök között, a darabszámmal. Vidd az egérmutatót egy csempe fölé, hogy elolvasd, mit tesz a tárgy, és kattints rá a használathoz (a Workforce Contract esetében előbb a munkást választod ki). A Magic Hammer és a Tinkerer's Badge olyasmire hat, amit te választasz ki, ezért a kattintás nem csinál semmit, és a csempéjük megmondja, hol használhatod őket: a Skylabban és a Kovácsműhelyben. Az oldal, amelyen a tárgy hat, szintén mutat egy gombot, ha van belőle: a Skylab fejlesztés alatt álló modulját, a futó kutatást, a Kovácsműhely fokozatemelő paneljét és a gyártási sort.
+- **Hol.** A Hangar leltára minden birtokolt fajtához mutat egy csempét a fogyóeszközök között, a darabszámmal. Vidd az egérmutatót egy csempe fölé, hogy elolvasd, mit tesz a tárgy, és kattints rá a használathoz (a Workforce Contract esetében előbb a munkást és a felhasznált szerződések számát választod ki). A Magic Hammer és a Tinkerer's Badge olyasmire hat, amit te választasz ki, ezért a kattintás nem csinál semmit, és a csempéjük megmondja, hol használhatod őket: a Skylabban és a Kovácsműhelyben. Az oldal, amelyen a tárgy hat, szintén mutat egy gombot, ha van belőle: a Skylab fejlesztés alatt álló modulját, a futó kutatást, a Kovácsműhely fokozatemelő paneljét és a gyártási sort.
 - **Előbb rákérdez.** Minden használat megnyit egy lapot, amely pontosan megmondja, mi fog történni és mit használ fel. A használat végleges: nem vonható vissza. Ha egy használatot elutasít a rendszer, semmi sem fogy el.
 - **Megmaradnak.** A különleges tárgyaid, és a futó Philosopher's Stone vagy szerződés, a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) után is megmaradnak.
 - **Bárhol.** Repülés közben is használhatod őket: egyikhez sem kell, hogy a hajód leszálljon.
@@ -20,16 +20,16 @@ A **különleges tárgyak** hat egyszer használatos tárgy, amelyek időt spór
 
 ## A hat egy pillantásra {#the-six-at-a-glance}
 
-| Tárgy | Ritkaság | Legfeljebb ennyi lehet nálad | Mit csinál |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Legendás | 5 | Azonnal befejez egy Skylab-fejlesztést |
-| **Schematics** | Ritka | 20 | 24 órát levesz a futó kutatásból; befejezi, ha legfeljebb 24 óra van hátra |
-| **Philosopher's Stone** | Epikus | 10 | A Kreditfarmod és a Thuliumfarmod 10 órán át kétszer annyit termel |
-| **Tinkerer's Badge** | Epikus | 10 | Egy felszerelést egy Kovácsműhely-fokozattal feljebb emel, Fertőzöttől fölfelé |
-| **Forger's Seal** | Szokatlan | 99 | Legfeljebb 30 percet átugrik a gyártási sorból |
-| **Workforce Contract** | Gyakori | 99 | Felfogad egy Foremant, egy Engineert vagy egy Haulert 1 órára |
+| Tárgy | Ritkaság | Mit csinál |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Legendás | Azonnal befejez egy Skylab-fejlesztést |
+| **Schematics** | Ritka | 24 órát levesz a futó kutatásból; befejezi, ha legfeljebb 24 óra van hátra |
+| **Philosopher's Stone** | Epikus | A Kreditfarmod és a Thuliumfarmod 10 órán át kétszer annyit termel |
+| **Tinkerer's Badge** | Epikus | Egy felszerelést egy Kovácsműhely-fokozattal feljebb emel, Normáltól fölfelé |
+| **Forger's Seal** | Szokatlan | Legfeljebb 30 percet átugrik a gyártási sorból |
+| **Workforce Contract** | Gyakori | Felfogad egy Foremant, egy Engineert vagy egy Haulert 1 órára |
 
-A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet nálad** pedig az a legtöbb, amennyit a fiókod egy fajtából megtart: az ezt meghaladó ajándékot egészben elutasítja, nem vágja le.
+A ritkaság a játék szokásos skáláját követi. Hogy a fiókod egy fajtából mennyit tarthat meg, **nincs korlátozva**: az ajándékot sosem utasítja el azért, mert már sok van belőle.
 
 ## A hat {#the-six}
 
@@ -39,12 +39,12 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 - **Az ár marad kifizetve.** Amibe a fejlesztés került, azt az indításkor levonták. A Hammer ebből semmit sem térít vissza, és semmi mást sem kér.
 - **Csak futó fejlesztés.** Az a modul, amelyet nem fejlesztenek, vagy amelynek fejlesztése épp magától véget ért, elutasítva marad („Nincs mit befejezni: ez a modul nincs fejlesztés alatt.”), és a Hammer nálad marad.
-- **Rendkívül ritka.** A Skylab a szintjeit a wipe-on át megtartja, ezért egy Hammer egy lépés idejét éri, a Magon akár 6 napot. Két Hammer között nincs várakozási idő, és 5-öt tarthatsz nálad.
+- **Rendkívül ritka.** A Skylab a szintjeit a wipe-on át megtartja, ezért egy Hammer egy lépés idejét éri, a Magon akár 6 napot. Két Hammer között nincs várakozási idő, és nincs korlátja, hányat tarthatsz nálad.
 - **Az Engineer** (egy [Workforce Contract](#workforce-contract)) legfeljebb 1 órával rövidíti a fejlesztéseket; a Hammer mindent elvisz, ami még hátra van.
 
 ### Schematics
 
-**24 órát levesz a most futó kutatásból.** Ha **legfeljebb 24 óra** van hátra, a kutatás azonnal **befejeződik**; ha több, 24 órát veszít, és fut tovább, és még egy Schematics használható rajta. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 187 technológiájából 167 legfeljebb 24 órát vesz igénybe, ezért egyetlen Schematics az elejétől befejezi őket. A másik 20 tovább tart, a legtöbb 48 vagy 72 órát, a Rocket Launcher III, IV és V pedig 96, 168 és 240 órát, és 2–10 Schematics kell hozzájuk.
+**24 órát levesz a most futó kutatásból.** Ha **legfeljebb 24 óra** van hátra, a kutatás azonnal **befejeződik**; ha több, 24 órát veszít, és fut tovább, és még egy Schematics használható rajta. A [Kutatóközpont](/wiki/03-Mechanics/Research.md) 209 technológiájából 187 legfeljebb 24 órát vesz igénybe, ezért egyetlen Schematics az elejétől befejezi őket. A másik 22 tovább tart, a legtöbb 48 vagy 72 órát, a Rocket Launcher III, IV és V pedig 96, 168 és 240 órát, és 2–10 Schematics kell hozzájuk.
 
 - **A technológia saját idejét veszi le, nem a falióráét.** A 24 óra a technológia saját kutatási ideje, az, amelyik a kártyáján áll. A Thulium-boost gyorsabban futtat egy kutatást, de nem változtatja meg, mennyit vesz le egy használat; ha egy boost lefedné a kutatás végét, egy használat kevesebb várakozási órát spórol (dupla sebességnél egy nap kutatás 12 óra várakozás). A megerősítés megmondja, mit fog mutatni az időzítő.
 - **A kutatás úgy megy tovább, ahogy volt.** A kutatás, amely 24 órát veszít, megtartja a helyét: a boost tovább fut, a sor érintetlen marad, és mögötte semmi sem indul el. A tudományra váró kutatás továbbra is vár: a Schematics időt ad, nem üzemanyagot.
@@ -64,12 +64,12 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 ### Tinkerer's Badge {#tinkerers-badge}
 
-**Egy felszerelést egy Kovácsműhely-fokozattal** emel feljebb. **Mindig sikerül**, és **nem kerül sem kreditbe, sem Thuliumba, sem anyagba**. Ez a [Kovácsműhely](/wiki/06-Items/Forge.md) fokozatemelése kocka és ár nélkül.
+**Egy felszerelést egy Kovácsműhely-fokozattal** emel feljebb. **Mindig sikerül**, és **nem kerül sem kreditbe, sem Thuliumba, sem anyagba**. Ez a [Kovácsműhely](/wiki/06-Items/Forge.md) fokozatemelése ár nélkül.
 
-- **Fertőzöttől fölfelé.** A darabnak már **Fertőzöttnek vagy jobbnak** kell lennie (2. fokozat és följebb a Normál, Fertőzött, Isteni, Repesztő és Örök közül). A Normál darabot elutasítja, mert a Kovácsműhely első lépése úgyis mindig sikerül.
-- **Egy lépés.** A Badge egy Fertőzött darabból Istenit, egy Istenből Repesztőt, egy Repesztőből Örököt csinál.
-- **A bónuszokat úgy dobja, mint a Kovácsműhely.** Ugyanazok a tartományok és ugyanazok az esélyek egy új hely betöltésére, így egy Badge-es darab olyan, mint egy kovácsműhelyes.
-- **A Kovácsműhely többi szabálya érvényes.** Egy darab, amely bónuszt hordozhat; nem a tranzittárolóban; nem már Örök. A hajón lévő darab azonnal az új fokozatával hat, és megtartja az Eladható címkéjét.
+- **Normáltól fölfelé.** A darab a Felemelkedett alatt bármelyik fokozaton állhat: már az első lépés, Normálról Ébredőre, is elfogad egy Badge-et.
+- **Egy lépés.** A Badge egy Normál darabból Ébredőt, egy Ébredőből Rezonánst, egy Rezonánsból Sugárzót, egy Sugárzóból Felemelkedettet csinál.
+- **A bónuszokat úgy dobja, mint a Kovácsműhely.** A darab minden bónuszát újradobja az új fokozat tartományában, és a jobbik érték marad, emellett felébreszt egy foglalatot, így egy Badge-es darab olyan, mint egy kovácsműhelyes.
+- **A Kovácsműhely többi szabálya érvényes.** Egy darab, amely bónuszt hordozhat; nem a tranzittárolóban; nem már Felemelkedett. A hajón lévő darab azonnal az új fokozatával hat, és megtartja az Eladható címkéjét.
 - Második gombként találod a **Fokozatemelés** mellett a Kovácsműhelyben, akkor látszik, ha van Badge-ed, és a kiválasztott darab megfelel.
 
 ### Forger's Seal {#forgers-seal}
@@ -84,12 +84,12 @@ A ritkaság a játék szokásos skáláját követi, a **Legfeljebb ennyi lehet 
 
 ### Workforce Contract
 
-**A Skylab három munkása közül egyet felfogad 1 órára.** A munkást a szerződés használatakor választod ki. **Egyszerre egy szerződés:** a másodikat elutasítja a rendszer, amíg egy fut, és nem fogy el. Az a munkás, akinek még nincs mit csinálnia (nincs termelő, nincs Ércrakodó, nincs megépített modul), szintén elutasítva marad, és a szerződés nálad marad.
+**A Skylab három munkása közül egyet felfogad 1 órára.** A munkást a szerződés használatakor választod ki, és azt is, **hány szerződést költesz el**: írj be egy számot, vagy nyomd meg a **Mind** gombot. Több szerződés **egyetlen időszakot** ad, annyi órát, ennek az egy munkásnak (12 szerződés a Foreman 12 órája), a lenti táblázat pedig ennek minden órájára vonatkozik. **Egyszerre egy időszak:** a második használatot elutasítja a rendszer, amíg egy fut, nem toldja meg, és semmi nem fogy el. Az a munkás, akinek még nincs mit csinálnia (nincs termelő, nincs Ércrakodó, nincs megépített modul), szintén elutasítva marad, és a szerződések nálad maradnak.
 
 | Munkás | 1 órára |
 | :--- | :--- |
 | **Foreman** | Minden termelő kétszer annyit termel: a Kreditfarm, a Thuliumfarm, a Velkonite- és az Orvium-gyűjtő, a Lőszernyomtató és a Rakétagyár. Úgy számít, mint a Stone: csak amíg egy modul termel, és a tele tároló elpazarolja. A Kovácsműhely és az Ércrakodó ebben az értelemben nem termelő |
-| **Engineer** | A Skylab fejlesztései kétszeres sebességgel futnak: minden futó fejlesztés hamarabb ér véget, legfeljebb 1 órával, és soha nem többel, mint a hátralévő idejének fele; az órán belül indított fejlesztés legfeljebb az óra hátralévő részével rövidül, és soha nem többel, mint a fele |
+| **Engineer** | A Skylab fejlesztései kétszeres sebességgel futnak: minden futó fejlesztés hamarabb ér véget, legfeljebb 1 órával elköltött szerződésenként, és soha nem többel, mint a hátralévő idejének fele; az időszakon belül indított fejlesztés legfeljebb az időszak hátralévő részével rövidül, és soha nem többel, mint a fele |
 | **Hauler** | Az Ércrakodónak nincs keretkorlátja: annyit rak át, amennyit a rakományod és az Erőforrás-raktár szabad helye enged. A tárolt keret utána érintetlen marad |
 
 A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md#ore-bay) minden másban változatlan: meg kell lennie építve, be kell lennie kapcsolva, nem lehet fejlesztés alatt, kell hozzá energia, és a hajódnak le kell szállnia.
@@ -99,7 +99,7 @@ A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md
 - **Darabszám, nem tárgy.** A Hangar leltára az egyetlen hely, amely felsorolja őket, csempékként a fogyóeszközök között; ha egy fajtából nincs semmid, nincs hozzá csempe. A csempe nem tárgy, ezért nem húzható, nem jelölhető ki, nem törölhető és nem adható el. Nincs súlyuk, nincs gyorsgomb-helyük, és nincs helyük a rakományban vagy a tranzittárolóban; soha nem esnek el, ha a hajód megsemmisül.
 - **A wipe-on át.** A különleges tárgyaid és egy futó Philosopher's Stone vagy szerződés megmarad, mint a Skylab, a kutatás és a kinézeted.
 - **Soha nem kereskednek velük.** Nem az [Aukción](/wiki/03-Mechanics/Auction.md), nem másik pilótának, nem krediteért.
-- **Csak a Hammer mozdíthatja el a tempódat**, és csak 5-öt tarthatsz belőle nálad. A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy kutatás 24 órája.
+- **Csak a Hammer mozdíthatja el a tempódat.** A másik öt szándékosan kicsi: két farm 10 órája, egy munkás 1 órája, egy fokozat, egy sor 30 perce, egy kutatás 24 órája.
 - **Egy használat, egy megerősítés, egy hang.** Minden használat saját, halk hangjelzést játszik le.
 
 ## Gyakori hibák {#common-mistakes}
@@ -107,7 +107,7 @@ A Hauler csak a keretet oldja fel. Az [Ércrakodó](/wiki/03-Mechanics/Skylab.md
 - **A Hammerhez futó fejlesztés kell.** Előbb indítsd el a fejlesztést. Az a modul, amelynek időzítője már lejárt, nem tud mit befejezni.
 - **A hosszú kutatáshoz több Schematics kell.** Egy 24 órát vesz le, többet nem: egy 240 órás technológiához tíz kell. A lap megmondja, mennyi marad hátra, mielőtt megerősítenéd.
 - **A Stone nem nagyítja a tárolót.** Gyűjts be, mielőtt egy farm megtelik, különben a bónusz elvész.
-- **A Badge Fertőzöttől fölfelé való.** A Kovácsműhely első lépéséhez nem kell Badge.
+- **Felemelkedett darabra nem jó a Badge.** Már a legfelső fokozaton van: nincs mit feljebb emelni.
 - **A szerződéshez munka kell.** Előbb építs egy termelőt, egy Ércrakodót vagy egy modult, és utána fogadd fel a munkást.
 - **Nézd meg a lapot.** Megnevezi a tárgyat és azt, mit használ fel; a használat végleges.
 

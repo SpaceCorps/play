@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Kazamaták -->
 # Kazamaták {#dungeons}
 
@@ -17,7 +17,7 @@ A kazamata nem [szólókapu](/wiki/03-Mechanics/Solo-Gates.md). A szólókapu eg
 
 - **Nyílik**: A szezon 1. napjától
 - **Ki nyithat kazamatát**: Egy alvezér vagy a vezér, aki a klánbankból fizeti az árat
-- **Csoport**: 4–10 klántag, egy csoportban
+- **Csoport**: 3–10 klántag, egy csoportban
 - **Kazamata naponta**: 3 klánonként és UTC-naponként, egyszerre csak egy nyitva
 - **Kazamata egyszerre**: 6 egy világban
 - **Térképek**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ A kazamata nem [szólókapu](/wiki/03-Mechanics/Solo-Gates.md). A szólókapu eg
 
 1. **Megidézés.** A Kazamaták lapon egy [alvezér vagy a vezér](/wiki/03-Mechanics/Clans.md#hierarchy-roles) kiválaszt egy fokozatot, és megnyomja a **Megidézés** gombot. Az ár a [klánbankból](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) fogy, a kazamata pedig a fent felsorolt térképek egyikét kapja. Az a kazamata, amelyet senki sem indít el, bezárul, és az ár visszakerül a bankba.
 2. **Belépés.** A klán tagjai repülés közben a Klán ablakban a **Belépés** gombot nyomják meg, átugranak a klánportálon, vagy a **Csatlakozás** gombot nyomják meg a riasztókártyán (lásd Belépés). Mindenki a kezdőteremben landol, és a bent lévő pilóták a kazamata csoportja.
-3. **Indítás.** A kezdőterem egy kis terem a labirintus egyik végén, és az ajtaja zárva marad, amíg a kazamata gyülekezik. Nincsenek benne idegenek, így biztonságosan lehet várakozni. A kazamata **magától elindul**, ha minden pilóta bent van, akire vár, és a csoport elég nagy. A klán azon tagjaira vár, akik online vannak, nincsenek távol, és egy bejutott pilóta csoportjában vannak, és azonnal elindul, ha a csoport megtelt. A pilóta, aki a kazamatát megnyitotta, vagy egy tiszt megnyomhatja az **Indítás** gombot, hogy korábban kezdjenek azokkal a pilótákkal, akik bent vannak, ha elegen vannak. Aki kilép, arra többé nem várnak. Amikor a kazamata elindul, az ajtó végleg kinyílik, és ezután csak azok a pilóták térhetnek vissza, akik már bent voltak.
+3. **Indítás.** A kezdőterem egy kis terem a labirintus egyik végén, és az ajtaja zárva marad, amíg a kazamata gyülekezik. Nincsenek benne idegenek, így biztonságosan lehet várakozni. A kazamata **magától elindul**, ha minden pilóta bent van, akire vár, és a csoport elég nagy. A klán azon tagjaira vár, akik online vannak, nincsenek távol, és egy bejutott pilóta csoportjában vannak, és azonnal elindul, ha a csoport megtelt. A pilóta, aki a kazamatát megnyitotta, vagy egy tiszt megnyomhatja az **Indítás** gombot, hogy korábban kezdjenek azokkal a pilótákkal, akik bent vannak, ha elegen vannak. Aki kilép, arra többé nem várnak, és arra sem, aki még nem lépett be, de elhagyta a csoportot vagy offline lett. Amikor a kazamata elindul, az ajtó végleg kinyílik, és ezután csak azok a pilóták térhetnek vissza, akik már bent voltak.
 4. **Át a labirintuson.** A labirintus egyik végén lépsz be, a másikon vár a Hadúr egy lezárt teremben. A labirintus sötét: csak azt látod, amit a csoport felfedezett, és ami a hajói közelében van. Az idegenek falkákban várakoznak a folyosókon, és egy falka abban a pillanatban kijön, amikor egy pilóta berepül a folyosószakaszba, ahol vár, majd végigüldözi a csoportot a labirintuson.
 5. **A zsákmányzónák megnyitása.** A labirintusban gyűrűk jelölik a zónákat. Tarts meg egyet, és a csoport szavaz egy kártyára, amelyet a Hadúr fizetségével együtt fizetnek ki.
 6. **A főnökterem feloldása.** Pusztítsd el a labirintus Crystalysainak és Twinjeinek háromnegyedét, és a Hadúr termének ajtaja kinyílik. Addig a Hadúr nem sebezhető. A többi idegen marad, ahol van, és őket is elpusztíthatod.
@@ -215,6 +215,7 @@ A fenti hajótest és pajzs 5 fős csoportra vonatkozik. A csoporttal együtt n�
 
 | Pilóták a csoportban | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | ---: | ---: | ---: |
+| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
 | 4 | 14 400 000 | 21 600 000 | 36 000 000 |
 | 5 | 18 000 000 | 27 000 000 | 45 000 000 |
 | 6 | 21 600 000 | 32 400 000 | 54 000 000 |
@@ -334,22 +335,24 @@ A kártyákat egyenként húzzák az alábbi készletből. Az esély egy kárty�
 
 <!-- dungeons-cards:end -->
 
-Az egy példányos kártyák **felszerelések**, és csak egy 3. fokozatú kazamata kínálhat ilyet. A felszerelést minden kifizetett pilótának kifizetéskor kovácsolják: mindegyik saját [bűvölési fokozatot](/wiki/06-Items/Overview.md#item-enchants) dob, ugyanolyan eséllyel, mint egy darab, amelyet a Gyártásban építesz, így a legtöbb Normál fokozatú, és egy magasabb fokozat, egészen az Örökig, bónuszokkal, ritka lelet.
+Az egy példányos kártyák **felszerelések**, és csak egy 3. fokozatú kazamata kínálhat ilyet. A felszerelést minden kifizetett pilótának kifizetéskor kovácsolják: mindegyik saját [bűvölési fokozatot](/wiki/06-Items/Overview.md#item-enchants) dob, ugyanolyan eséllyel, mint egy darab, amelyet a Gyártásban építesz, így a legtöbb Normál fokozatú, és egy magasabb fokozat, egészen a Felemelkedettig, bónuszokkal, ritka lelet. Minden darab az [integritását](/wiki/06-Items/Forge.md#integrity-and-fractures) is kisorsolja, ahogy egy legyártott darab.
 
 ## Fizetség {#pay}
 
 Amikor a Hadúr elesik, minden pilóta, aki kiérdemelte, egyszer kap fizetséget a menetért. A csoport által választott kártyák a fokozat fizetségén felül járnak. Nincs világszorzó: a fizetség minden világban ugyanaz.
 
-Az **Orvium Reinforced Plates** nem a szavazás kártyája. A fokozat fizetségének része, és minden kifizetett pilóta egyszer kapja meg a teljesítésért. A tárgyak, amelyeket a teljesítés fizet, nem eladhatók: nem [adhatod el őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
+Az **Orvium Reinforced Plates**, valamint a Kovácsműhely **Echo Shard** és **Lattice Shard** tárgyai nem a szavazás kártyái. A fokozat fizetségének részei, és minden kifizetett pilóta egyszer kapja meg őket a teljesítésért. A **Heartshard** fizetése más: a táblázat alatti sor megmondja, hogyan. A tárgyak, amelyeket a teljesítés fizet, nem eladhatók: nem [adhatod el őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Fokozat | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | PvE-ranglistapont |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 600 |
-| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 1 500 |
-| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 400 |
+| Fokozat | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
+| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
+| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+
+- **Heartshards**: 1 az évad során az egyes szintek első fizetett teljesítésekor, és 5% eséllyel még egy minden fizetett teljesítéskor.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Amit egy pilóta egy nap alatt kaphat, és a korlátok által megengedett legjob
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Fizetség pilótánként | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | PvE-ranglistapont |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 4 500 |
-| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 21 300 |
+| Fizetség pilótánként | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
+| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
 
-Egy kifizetett teljesítés tapasztalata beleszámít a PvE-ranglistapontjaidba: minden 1 000 tapasztalat egy pont.
+Egy kifizetett teljesítés tapasztalata és becsülete beleszámít a PvE-ranglistapontjaidba: minden 1 000 tapasztalat egy pont, és minden 100 becsület is egy pont.
 
 <!-- dungeons-totals:end -->
 

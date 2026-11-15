@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
+<!-- wiki-i18n source: 9de320d04707c575 -->
 <!-- wiki-i18n title: Säsonger och belöningar -->
 # Säsonger och belöningar {#seasons-and-rewards}
 
@@ -83,7 +83,7 @@ Säsongsrapporten säger vad som saknades, om något gjorde det.
 
 ## Färska poäng {#fresh-points}
 
-Dina **rankingpoäng** räknar det du har tjänat **sedan den senaste wipen**: de nivåer du har gått upp, erfarenheten och nedskjutningarna av utomjordingar den här säsongen. Vid wipen börjar de om från noll, din gamla grad hamnar i din historik och graden för den nya säsongen byggs upp från ingenting, så varje säsong är en ny klättring. **Heder avgör inte din grad.** Dina totalsiffror (nivå, erfarenhet, heder, nedskjutningar) ligger kvar som de är.
+Dina **rankingpoäng** räknar det du har tjänat **sedan den senaste wipen**: de nivåer du har gått upp, erfarenheten, hedern och nedskjutningarna av utomjordingar den här säsongen. Vid wipen börjar de om från noll, din gamla grad hamnar i din historik och graden för den nya säsongen byggs upp från ingenting, så varje säsong är en ny klättring. Dina totalsiffror (nivå, erfarenhet, heder, nedskjutningar) ligger kvar som de är.
 
 Säsong 2, som började med wipen den 6 november 2026, var den första som räknades så. Wipen som stängde säsong 1 betalade dig för den grad som poängen för hela din karriär gav. Gradernas minimipoäng ligger kvar som de är.
 

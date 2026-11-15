@@ -80,6 +80,7 @@ Tesseract платит соразмерно бою, которым он явля
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20, не больше 5 на пилота |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

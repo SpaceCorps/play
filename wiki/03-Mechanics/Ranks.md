@@ -104,9 +104,11 @@ If you change company, your points go with you and you stand on the ladder of th
 
 ## How you earn PvE points
 
-Your PvE points are worked out from three things:
+Your PvE points are worked out from four things:
 
-**level × 100 + experience ÷ 1,000 (rounded down) + the points of every alien you destroyed**
+**level × 100 + experience ÷ 1,000 (rounded down) + honor ÷ 100 (rounded down) + the points of every alien you destroyed**
+
+Every 100 **Honor** are one point, whatever paid it; after a wipe only the Honor you earn in the new season counts. A balance below 0 counts as nothing.
 
 A tougher alien is worth more: a kill adds points by how much damage it takes to destroy the alien. The swarm ships and the Clan Wardens count by the same rule, so a Pirate Scout is worth as much as a Bulwark. Every kill is counted under the alien's own name in your kill statistics.
 
@@ -142,7 +144,7 @@ A tougher alien is worth more: a kill adds points by how much damage it takes to
 
 The first five rows are the regular aliens, the next twelve the ships of the six swarms and the next three the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (from season day 11). Last come the Clan Wardens, the leaders of a Clan Warden fight, and their crews, the Brood Drones, Siege Escorts and Wrath Guards: I, II and III are the Warden's strength, and the points of each are listed in that order.
 
-For example, a pilot at level 4 with 12,500 experience who has destroyed 300 Seekers, 80 Phantasms and 10 Bulwarks has 400 + 12 + 300 + 160 + 40 = **912** points. That makes him a Sergeant: the minimum is 800, and the next rank, Senior Sergeant, asks 1,000. Up to Senior Colonel nothing but the points count.
+For example, a pilot at level 4 with 12,500 experience and 900 Honor who has destroyed 300 Seekers, 80 Phantasms and 10 Bulwarks has 400 + 12 + 9 + 300 + 160 + 40 = **921** points. That makes him a Sergeant: the minimum is 800, and the next rank, Senior Sergeant, asks 1,000. Up to Senior Colonel nothing but the points count.
 
 The **Rankings** page (Community › Rankings) shows how your own points are made up, and the **Hall of Fame** on it lists the best pilots. The **(i)** next to the PvE points there lists the five aliens, what a kill in each of the swarms ([Swarms](/wiki/05-Swarms/Swarms.md)) is worth, from its smallest ship to its boss, the same for the aliens of the [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), and the [Clan Wardens](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) is in none of the rankings: a kill of his is worth no points, he has no row in the Hall of Fame, and he is in no company, so he is on none of the ladders.
 
@@ -200,7 +202,7 @@ Open **Economy › Company**. Its **Company ranking** section shows, from the to
 
 ## Ranks and the wipe
 
-At the wipe your PvE points start again from zero, so the ladder of your company starts over and every season is a new climb. Only what you earn after a wipe counts: the levels you gain, the experience and the alien kills of the new season ([Fresh points](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Your level, experience and kill statistics stay in your totals. **Honor does not set your rank.** The rank you held at the instant of the wipe goes into your season history, with your place on the ladder, and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Your rank is not for life, either: the six best ranks move with the other pilots of your company, and a pilot who stays away for 30 days leaves the ladder until he flies again.
+At the wipe your PvE points start again from zero, so the ladder of your company starts over and every season is a new climb. Only what you earn after a wipe counts: the levels you gain, the experience, the honor and the alien kills of the new season ([Fresh points](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Your level, experience and kill statistics stay in your totals. The rank you held at the instant of the wipe goes into your season history, with your place on the ladder, and pays its rewards ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Your rank is not for life, either: the six best ranks move with the other pilots of your company, and a pilot who stays away for 30 days leaves the ladder until he flies again.
 
 Season 2, which began with the wipe of 6 November 2026, was the first to count this way: its points count from that wipe. The wipe that closed season 1 paid the ranks of season 1 from the points of your whole career.
 

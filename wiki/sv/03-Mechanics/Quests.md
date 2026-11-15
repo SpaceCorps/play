@@ -1,8 +1,10 @@
-<!-- wiki-i18n source: 29c709ca04a786fc -->
+<!-- wiki-i18n source: 72522485c9bdce9a -->
 <!-- wiki-i18n title: Uppdrag -->
 # Uppdrag {#quests}
 
-Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut dem: varje uppdrag kommer från en officer i din egen koncern (om du [byter koncern](/wiki/01-General/Getting-Started.md#changing-your-company) blir officerarna din nya koncerns, och uppdragen `rival x-4` följer den), och vart och ett betalar erfarenhet, krediter, Thulium och heder när du hämtar belöningen. Det finns **88 uppdrag för nivå 1 till 8**, elva per nivå, och tillsammans tar de dig från en alldeles ny Protos till frontlinjen i PvP-centrum. Tio **Station-uppdrag** lär dig [Skylab](/wiki/03-Mechanics/Skylab.md) och betalar dig för att bygga upp den, och från pilotnivå 3 betalar en särskild linje av femtio mycket svåra **Utmaningar** stora belöningar. Station-uppdrag och Utmaningar betalar som nivåuppdragen: talen i tabellerna är **grundvärdet**, och din värld, dina boosters och din klans bonusar multiplicerar dem ([Belöningar](#rewards)).
+<!-- wiki-search: portlinjen; portlinjen uppdrag; uppdrag i portlinjen; nivå 11 till 14; nivå 11; nivå 12; nivå 13; nivå 14; boss season; the breach; the foundry; omega; riftvandraren; dungeon-stammis; orörd rift; orörd bräsch; gjuterisprint; orört gjuteri; belägringssprint; väktarens nåd; gate line; uppdrag; quests; mission control -->
+
+Uppdrag är det viktigaste sättet att gå upp i nivå. Mission Control delar ut dem: varje uppdrag kommer från en officer i din egen koncern (om du [byter koncern](/wiki/01-General/Getting-Started.md#changing-your-company) blir officerarna din nya koncerns, och uppdragen `rival x-4` följer den), och vart och ett betalar erfarenhet, krediter, Thulium och heder när du hämtar belöningen. Det finns **132 uppdrag för nivå 1 till 8 och 11 till 14**, elva per nivå, och tillsammans tar de dig från en alldeles ny Protos till frontlinjen i PvP-centrum. Tio **Station-uppdrag** lär dig [Skylab](/wiki/03-Mechanics/Skylab.md) och betalar dig för att bygga upp den, och från pilotnivå 3 betalar en särskild linje av femtio mycket svåra **Utmaningar** stora belöningar. Station-uppdrag och Utmaningar betalar som nivåuppdragen: talen i tabellerna är **grundvärdet**, och din värld, dina boosters och din klans bonusar multiplicerar dem ([Belöningar](#rewards)). Från pilotnivå 12 skickar åtta uppdrag i **Portlinjen** dig genom [soloportarna](/wiki/03-Mechanics/Solo-Gates.md) och [klandungeonerna](/wiki/03-Mechanics/Dungeons.md) ([Portlinjen](#gate-line)).
 
 De flesta uppdrag är inte längre ”förstör så här många av dessa”: de är korta **kedjor**. Du förstör några utomjordingar, flyger till en punkt, stannar några minuter i en sektor eller hittar ett föremål och kör hem det till Mission Control. Vissa lägger till en regel: förlora inte mer än så här många skrovpoäng, eller dö inte.
 
@@ -13,9 +15,10 @@ De flesta uppdrag är inte längre ”förstör så här många av dessa”: de 
 
 ## På en minut {#in-one-minute}
 
-- **Ta dem vid Mission Control.** Du kan ha 5 nivåuppdrag igång samtidigt, plus 3 Station-uppdrag och 3 Utmaningar.
+- **Ta dem vid Mission Control.** Du kan ha 5 nivåuppdrag igång samtidigt, plus 3 Station-uppdrag och 3 Utmaningar. Portlinjen har 3 egna platser.
 - **Kedjor.** Stegen i ett uppdrag med märket **I ordning** öppnas ett efter ett, och bara det öppna steget räknas.
 - **Fyra sorters steg vid sidan av nedskjutningar.** Ett **uppdragsföremål** som bara tappas åt dig och som du kör till Mission Control, en **punkt att besöka**, en **vistelse** på några minuter i en sektor och, från säsongsdag 4, en **svärm** att jaga.
+- **Portar och dungeons.** Från nivå 11 kan ett steg be dig klara en soloport eller ett steg i en klandungeon, och Portlinjens åtta uppdrag består av sådana steg ([Portar och dungeons](#gates-and-dungeons)).
 - **Villkor.** Ett steg eller ett helt uppdrag kan säga ”skrovförlust högst N poäng” eller ”utan att förlora skeppet”. Bryter du det börjar det steget, eller uppdraget, om. Inget går förlorat för alltid.
 - **Utmaningslinjen.** Femtio mycket svåra uppdrag i fem steg om tio, från pilotnivå 3. De betalar efter arbetet: en nedskjutning är värd vad steg I betalar för den, och 10 % mer för varje steg upp, och ett uppdrag betalar högst 200 000 Thulium. Steg I betalar sammanlagt 9 355 000 krediter, 70 125 Thulium och 2 177 500 XP, som grundvärden ([Utmaningslinjen](#challenge-line)).
 - **Gjorda om i 0.4.10.** 64 av nivåuppdragen är nya versioner. Om du hade gjort ett av dem erbjuds det igen, med full belöning ([detaljer](#reworked-missions)).
@@ -25,9 +28,10 @@ De flesta uppdrag är inte längre ”förstör så här många av dessa”: de 
 
 
 
-- Öppna **Mission Control** från verktygsfältet inne i en stations säkra zon, eller klicka på bubblan **Mission Control** ovanför stationen i din bassektor (den följer stationen på kartan, så flyg eller zooma ut tills stationen syns). Fliken **Vanliga uppdrag** listar dina uppdrag per nivå, fliken **Utmaningar** innehåller [Utmaningslinjen](#challenge-line) och **Slutförda uppdrag** innehåller de som väntar på att du ska hämta deras belöning.
+- Öppna **Mission Control** från verktygsfältet inom **1 600 enheter** från en Mission Control-station, eller klicka på bubblan **Mission Control** ovanför stationen (den följer stationen på kartan, så flyg eller zooma ut tills stationen syns). Det finns en station i varje koncerns bassektor `x-1`, inne i dess säkra zon, och en mitt i varje koncerns gränssektor `x-4`, **utan säker zon**: en pilot där kan fortfarande bli attackerad. Den är en liten utpost av en enda ruta, inte basens stad. **Att anta uppdrag och hämta belöningar fungerar bara där.** Flyger du längre bort gör ett fönster du lämnat öppet ingenting: servern avvisar med ”Flyg till en Mission Control-station för att anta uppdrag eller hämta belöningen”. Att **avbryta** och **följa** ett uppdrag fungerar var som helst, och från stationsmenyn, där ditt skepp inte flyger, öppnas Mission Control som förut. Fliken **Vanliga uppdrag** listar dina uppdrag per nivå, fliken **Utmaningar** innehåller [Utmaningslinjen](#challenge-line) och **Slutförda uppdrag** innehåller de som väntar på att du ska hämta deras belöning.
 - **Anta** ett uppdrag för att starta det. Du kan ha **5 uppdrag igång samtidigt**; [Station-uppdragen](#station-missions) har 3 platser för sig och [Utmaningarna](#challenge-line) 3 till. Uppdraget du antog senast är det du **följer** (ett Station-uppdrag bara när du inte följer något och inget av dina uppdrag är ett som flygning kan föra framåt): det visas i fönstret **Aktiva uppdrag**, och nedskjutningar och flygning räknas mot det först. Välj ett annat med prickarna i fönstrets titelrad.
 - En **bricka** med en siffra sitter på Mission Control-knappen och på flikarna **Vanliga uppdrag** och **Utmaningar** (när du är på en annan flik) så länge ett uppdrag eller en utmaning kan accepteras. Varje nytt kommer med ett meddelande och ett lågmält ljud.
+- **Portlinjen** har en egen flik med 3 platser vid sidan av dina 5 nivåuppdrag, 3 Station-uppdrag och 3 Utmaningar. Den visar hur många som är aktiva (”1 av 3 aktiva”) och listar alla åtta uppdrag; de du ännu inte kan ta visas som låsta förhandsvisningar som anger nivån de öppnas på. Uppdragen på nivå 11 till 14 och Portlinjen kräver spelet från den här uppdateringen: ett äldre spel säger ”Uppdatera spelet för att använda den här funktionen.”
 - Vissa uppdrag måste göras **i ordning**. De har märket **I ordning**, och deras steg är numrerade: se [Uppdragskedjor](#chained-missions).
 - Ett uppdrag med uppdragsföremål, vistelse eller villkor visar sitt läge live i Aktiva uppdrag: **Ombord** med avståndet till Mission Control, tiden du har stannat, de skrovpoäng du har förlorat (**Skrovskada: 1 240 / 3 000**), **Dö inte**. På uppdragets kort visas samma regler som små märken: **Skrovgräns 3 000 HP**, **Inga dödsfall**, **I ordning** och klockan för ett tidsbegränsat uppdrag.
 - **Överge** ett uppdrag för att släppa det och dess framsteg. Det är tillbaka i listan direkt, och du kan anta det igen. Ett föremål du bar för det är borta.
@@ -37,8 +41,10 @@ De flesta uppdrag är inte längre ”förstör så här många av dessa”: de 
 ## Nivåer {#levels}
 
 - Varje nivå från 1 till 8 har **tio uppdrag och en Special**. En nivås uppdrag öppnas när du når den och förblir öppna på alla nivåer ovanför.
+- **Nivå 11 till 14** har också tio uppdrag och ett Special; nivå 9 och 10 har inga. Mission Control visar uppdragen på nivå 11, låsta, redan från pilotnivå 10.
 - **Ta dem i valfri ordning.** Inget av de tio väntar på något annat. (Stegen inuti ett uppdrag kan ha en ordning.)
 - Varje nivå har samma blandning: **tre** uppdrag med ett uppdragsföremål, **två** som skickar dig till punkter på kartan, **två** som låter dig stanna i en sektor och **tre** vanliga jakter. Ett uppdrag har ett till fyra steg, och en jakt kräver en sorts utomjording eller flera.
+- **Uppdragen på nivå 11 till 14 är långa kedjor.** Varje uppdrag går i ordning och har 3 till 23 steg (**Den stora kartläggningen** har flest): nedskjutningar efter namn, besök, vistelser, att klara en soloport eller ett dungeon-steg samt uppdragsföremål; en del har en tidsgräns eller en regel om att inte dö. Mission Control viker ihop de steg du har gjort till en rad, ”7 steg klara”, som öppnas med ett klick. Ungefär en fjärdedel av deras nedskjutningssteg nämner ingen sektor, och för dem räknas nedskjutningar i soloportar och på Skylab-expeditioner, som [Var det räknas](#where-it-counts) beskriver. De övriga nedskjutningsstegen nämner sin sektor (`x-3`, `x-4`, farosektorerna eller en rivaliserande koncerns `x-4`) och räknas bara där. De har inget asteroiduppdrag.
 - Uppdragen på en nivå betalar **85 % av erfarenheten** fram till nästa nivå. Utomjordingarna de låter dig förstöra betalar resten, och på låga nivåer en hel del mer: du når oftast nästa nivå innan en uppsättning är klar.
 - **Ett asteroiduppdrag för varje nivå.** Förutom sina tio och Specialen har varje nivå ett uppdrag som ber dig spränga ett antal [asteroider](/wiki/03-Mechanics/Asteroid-Mining.md) av slag som finns på bättre kartor ju högre nivån är (det första betalar 60 Rivet I; de på nivå 7 och 8 öppnar säsongsdag 4). En sprängning räknas när den ger dig en andel (minst 5 % av skadan asteroiden tar), med raketer eller lasrar. Det är inte ett av de tio, så Specialen väntar inte på det, men det tar en av dina 5 uppdragsplatser. Mission Control listar det efter Specialen, märkt **Asteroider**; tabellerna i slutet av den här sidan gör det inte. I Beta och Gamma finns farosektorernas asteroider där från första dagen, och de två uppdragen som kräver dem öppnas med dem.
 
@@ -70,7 +76,7 @@ Ett uppdragsföremål är något du måste föra till Mission Control. Det är i
 
 1. **Hitta det.** En tappning visas där utomjordingen dog, i **120 sekunder**; den blinkar under de sista 12. Missar du den tappar nästa nedskjutning som räknas den igen direkt. Du ser föremålet som en cyanfärgad fyr i världen (en roterande datakärna i en ring, med en stråle uppåt) och som en cyanfärgad romb på minikartan.
 2. **Plocka upp det.** Flyg inom **200 enheter** från det. Ett meddelande säger att det är ombord, och Aktiva uppdrag visar **Ombord** och avståndet till Mission Control.
-3. **Kör hem det.** Flyg in i den säkra zonen kring **din egen koncerns** Mission Control: stationen i din bassektor `x-1`, ringen på 1 600 enheter runt den. En grön ring på skärmen och på minikartan visar den. Föremålet lämnas in direkt och steget är klart.
+3. **Kör hem det.** Flyg inom **1 600 enheter** från **din egen koncerns** Mission Control: stationen i din bassektor `x-1` (inne i dess säkra zon) eller i din gränssektor `x-4` (samma avstånd, men där finns ingen säker zon). En grön ring på skärmen och på minikartan visar den. Föremålet lämnas in direkt och steget är klart.
 
 Vad som stoppar transporten:
 
@@ -94,12 +100,22 @@ Vad som stoppar transporten:
 - du är **utanför varje säker zon** (en stations eller en portals ring: tid i en ring räknas inte);
 - ditt skepp är **aktivt**: det har flugit 300 enheter eller avfyrat ett skott de senaste 30 sekunderna. Ett parkerat skepp tjänar ingenting.
 
-Det finns två sorter. En vistelse som **summeras** behåller det du har: lämna, dö, kom tillbaka, och minuterna finns kvar, om inte vistelsen eller dess uppdrag har en skrovgräns eller en regel om inga dödsfall: då börjar vistelsen om när du förlorar ditt skepp eller passerar gränsen (se [Villkor](#conditions)). En vistelse **i sträck** börjar om från noll när du dör, hoppar eller lämnar sektorn (tid i en ring eller stillastående pausar den bara), och ett meddelande säger det.
+Det finns två sorter. En vistelse som **summeras** behåller det du har: lämna, dö, kom tillbaka, och minuterna finns kvar, om inte vistelsen eller dess uppdrag har en skrovgräns eller en regel om inga dödsfall: då börjar vistelsen om när du förlorar ditt skepp eller passerar gränsen (se [Villkor](#conditions)). En vistelse **i sträck** börjar om från noll när du dör, hoppar eller lämnar sektorn (tid i en ring eller stillastående pausar den bara), och ett meddelande säger det. Ett undantag: en vistelse i sträck i `DS-x`, alltså i vilken farosektor som helst, fortsätter när du flyger från en farosektor till en annan; den börjar bara om om du dör, loggar ut eller lämnar farosektorerna.
 
 Vistelser och besök konkurrerar inte: varje öppen räknas direkt, vad du än gör. Nedskjutningar är annorlunda: en nedskjutning räknas bara för ett nivåuppdrag (se [Var det räknas](#where-it-counts)).
 
 > [!NOTE]
 > Besök och vistelser kan leda in i farosektorerna (Centrumspaning, Vaka i centrum och Håll centrum gör det), där andra koncerners piloter kan attackera dig. Uppdragsföremål gör det aldrig. En besökspunkt i `DS-x` räknas i vilken farosektor som helst: från säsongsdag 11 tar du punkterna nära det övre vänstra hörnet av `DS-4`, som hörnet i **Fyra hörn**, i `DS-1`, `DS-2` eller `DS-3`, eftersom det hörnet av `DS-4` ligger inom räckhåll för kanonerna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md).
+
+## Portar och dungeons {#gates-and-dungeons}
+
+Från nivå 11 kan ett steg be dig klara en [soloport](/wiki/03-Mechanics/Solo-Gates.md) eller ett steg i en [klandungeon](/wiki/03-Mechanics/Dungeons.md). Tabellerna skriver dem som ”Klara Alpha Rift” och ”Klara klandungeonens steg 3 (en betald genomgång)”.
+
+- **Klara en port.** Steget räknas när du klarar den porten medan steget är öppet: Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege eller Omega Vault. En genomgång du gjorde innan steget öppnades räknas inte. Genomgången betalar det en genomgång betalar, och steget blir klart ovanpå det.
+- **Med en regel för rundan.** ”Utan att dö” kräver en runda där du inte förlorade något liv, ”på 25 minuter eller mindre” en runda vars arenatid låg inom portens speedrun-tid. En runda som bryter regeln betalar ändå sin genomgång, men steget förblir öppet och du flyger porten igen.
+- **Klara ett dungeon-steg.** En ”betald genomgång” räknas när stegets genomgång betalar dig. Ett steg betalar en pilot en gång per dag, och en pilot får betalt för högst 10 stegklarningar i veckan ([Betalning](/wiki/03-Mechanics/Dungeons.md#pay)), så en genomgång som inte betalar dig något räknas inte. ”3 gånger” kräver tre betalda genomgångar.
+- **Ett uppdragsföremål du får.** Vissa uppdragsföremål har inget att skjuta ner eller hitta: **Omega-kommando** ger dig Omega Seal när du klarar Omega Vault, och dess sista steg är att föra det till Mission Control. Ett förlorat skepp tar det inte ifrån dig.
+- **Hemma.** Portar och klandungeons körs på din hemserver, så de här stegen går bara framåt där. På en regional server väntar de: kör dem hemma.
 
 ## Svärmuppdrag {#swarm-missions}
 
@@ -199,9 +215,19 @@ Alla femtio tillsammans betalar som grundvärde 428 325 000 krediter, 2 847 
 > [!TIP]
 > Anta de stora jakterna så fort du når nivå 3: Seeker-pest och Phantasm-flod räknar varje nedskjutning, i vilken sektor som helst, från det ögonblick du antar dem, vid sidan av dina nivåuppdrag.
 
+## Portlinjen {#gate-line}
+
+Fliken **Portlinjen** i Mission Control listar åtta uppdrag om [soloportarna](/wiki/03-Mechanics/Solo-Gates.md) och [klandungeonerna](/wiki/03-Mechanics/Dungeons.md), utanför de tio på någon nivå. De öppnas på pilotnivå 12 till 14 och visas som låsta förhandsvisningar fram till dess, och [tabellen](#gate-line-missions-table) i slutet av den här sidan har varje tal.
+
+- **Sex varianter av en genomgång.** **Orörd rift**, **Orörd bräsch**, **Orört gjuteri** och **Väktarens nåd** kräver en genomgång utan att dö (Alpha Rift, Beta Breach, Gamma Foundry, Omega Vault). **Gjuterisprint** och **Belägringssprint** kräver Gamma Foundry på 25 minuter eller mindre och Delta Siege på 35 ([Portar och dungeons](#gates-and-dungeons)).
+- **Två för en säsong.** **Riftvandraren** kräver alla fem portar och **Dungeon-stammis** tre betalda genomgångar av steg 3, i valfri ordning. Båda räknas en säsong: en wipe kastar bort den som fortfarande pågår.
+- **Tre åt gången.** Portlinjen har 3 egna platser vid sidan av dina nivå-, Station- och Utmaningsuppdrag. Fliken visar hur många som är aktiva (”1 av 3 aktiva”), och uppdrag du ännu inte kan ta visas som låsta förhandsvisningar med nivån de öppnas på.
+- **De betalar det rundan betalar.** Ett uppdrag betalar erfarenheten, krediterna och äran för den genomgång det kräver. De sex varianterna betalar inget Thulium, inte heller spelets egna utmaningar; Riftvandraren och Dungeon-stammis betalar en fjärdedel av Thulium för de rundor de kräver. Talen i tabellen är **grundvärdet**: din värld, bonusar och klanens boostar gäller som [Belöningar](#rewards) förklarar.
+- **De upprepas.** Efter en wipe kan du [upprepa](#repeating-missions) dem för full betalning. De räknas varken för Statistik-sidan eller för uppdragens wipepoäng.
+
 ## Var det räknas {#where-it-counts}
 
-De flesta steg anger den sektor där de räknas, och bara nedskjutningar och flugen sträcka **där** räknas för dem. Ett besök, en vistelse och ett föremål anger sin sektor på samma sätt, men de är strängare: de räknas bara på kartan för **din egen koncern**. Ett föremål som ett uppdrag placerar i `G-2` ligger i `G-2` och ingen annanstans, och en Galactic-pilot hittar inget av det på Mars `M-2` eller Terras `T-2`. Nedskjutningar och flugen sträcka räknas i den sektorn hos vilken koncern som helst. Några nedskjutningssteg anger ingen och räknas i **varje** sektor: svärmskeppen i Kupekrossaren och Kuperensning och de stora jakterna i Utmaningslinjen (Seeker-pest, Phantasm-flod, Bulwark-muren, Kupejakt, Spejarjakt och de stora jakterna i stegen efter steg I). Stegen i Station-uppdragen läser din Skylab och har inte heller någon sektor. Sektorn visas bredvid ett steg som en av dina egna kartor:
+De flesta steg anger den sektor där de räknas, och bara nedskjutningar och flugen sträcka **där** räknas för dem. Ett besök, en vistelse och ett föremål anger sin sektor på samma sätt, men de är strängare: de räknas bara på kartan för **din egen koncern**. Ett föremål som ett uppdrag placerar i `G-2` ligger i `G-2` och ingen annanstans, och en Galactic-pilot hittar inget av det på Mars `M-2` eller Terras `T-2`. Nedskjutningar och flugen sträcka räknas i den sektorn hos vilken koncern som helst. Vissa nedskjutningssteg anger ingen och räknas i **varje** sektor: svärmskeppen i Kupekrossaren och Kuperensning och de stora jakterna i Utmaningslinjen (Seeker-pest, Phantasm-flod, Bulwark-muren, Kupejakt, Spejarjakt och de stora jakterna i stegen efter steg I). Det gäller också ungefär en fjärdedel av nedskjutningsstegen i uppdragen på nivå 11 till 14. Stegen i Station-uppdragen läser din Skylab och har inte heller någon sektor. Sektorn visas bredvid ett steg som en av dina egna kartor:
 
 | I tabellerna | Betyder | Du ser (en Mars-pilot) |
 | :--- | :--- | :--- |
@@ -221,6 +247,7 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 | 6 | gränsen (`x-4`) | – |
 | 7 | gränsen | färder in i PvP-centrum (`DS-x`) |
 | 8 | gränsen | centrum, och andra koncerners gränser |
+| 11 till 14 | den tredje sektorn och gränsen, centrum och andra företags gränser, därefter soloportarna och klandungeonerna | – |
 
 - **Märket bredvid ett steg** anger dess karta, till exempel `G-2`. Peka på det: för ett föremål, ett besök eller en vistelse står det ”Räknas bara i G-2”, för en nedskjutning eller en flygning tillkommer ”eller i en annan koncerns `x-2`”.
 - **Patruller räknas bara utanför säkra zoner.** Att cirkla runt en portals ring patrullerar ingen sektor.
@@ -241,7 +268,7 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 ## Belöningar {#rewards}
 
 - Erfarenhet, krediter, Thulium och heder multipliceras med den [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) du flyger i när du hämtar uppdraget: 1× i Alpha, 2× i Beta, 3× i Gamma. Dina boosters (Experience Booster, Honor Booster) lägger till dem, och Premium fördubblar erfarenheten. Din [klans](/wiki/03-Mechanics/Clans.md) Thulium- och kreditbonusar läggs till krediterna och Thulium i varje uppdrag du hämtar: nivå-, Station- och Utmaningsuppdrag.
-- **Station-uppdrag och Utmaningar betalar som nivåuppdrag.** Talen som är tryckta i deras tabeller är **grundvärdet**, och världen du flyger i när du hämtar dem multiplicerar det, som för ett nivåuppdrag.
+- **Station-uppdrag och Utmaningar betalar som nivåuppdrag.** Talen som är tryckta i deras tabeller är **grundvärdet**, och världen du flyger i när du hämtar dem multiplicerar det, som för ett nivåuppdrag. Portlinjens uppdrag gör detsamma.
 - **Uppdrag från före en wipe.** Ett uppdrag betalar efter världen du flyger i när du hämtar det. Ett uppdrag du avklarade före en wipe och ännu inte hämtat, eller började före den, betalas därför efter världen du flyger i efter wipen: avklarat i Alpha och hämtat från Gamma betalar det 3×, oavsett om du hämtar det direkt eller senare. Ett uppdrag du avklarade i en högre värld än den du flyger i nu behåller den högre multiplikatorn (avklarat i Gamma, hämtat från Alpha: 3×). Ett uppdrag du började i en högre värld och avslutar i en lägre räknas som avklarat i den lägre.
 - **Ett exempel.** **Seeker-pest** (Utmaning) har grundvärdet 1 100 000 krediter, 8 260 Thulium, 157 500 XP och 3 060 heder. Gjord och hämtad i Gamma utan något påslaget betalar den 3 300 000 krediter, 24 780 Thulium, 472 500 XP och 9 180 heder. Med din klans kredit- och Thulium-bonusar på max (+10 % vardera) betalar den 3 630 000 krediter och 27 258 Thulium.
 - **Klanbankens tak.** Hur stor en belöning än är kan en pilot skicka högst 1 000 000 krediter till [klaner](/wiki/03-Mechanics/Clans.md#2-donations) under valfria 24 timmar.
@@ -252,12 +279,12 @@ Uppdragen klättrar upp genom sektorerna i takt med din nivå:
 
 Efter en ny wipe kan du göra om de uppdrag du har avklarat, och en Upprepning ger uppdraget **i sin helhet**: allt det gav första gången.
 
-- **Vilka.** De nivåuppdrag, Specialer, asteroiduppdrag och Utmaningar du har avklarat. Station-uppdrag kan inte upprepas.
+- **Vilka.** De nivåuppdrag (även de på nivå 11 till 14), Specialer, asteroiduppdrag, Utmaningar och Portlinje-uppdrag du har avklarat. Station-uppdrag kan inte upprepas.
 - **En gång per uppdrag och säsong.** Efter en wipe är varje avklarat uppdrag öppet igen, och vart och ett kan upprepas en gång. Mission Control markerar det med raden ”Upprepning: fulla belöningar”. Det är en wipe som öppnar dem: ett uppdrag som du har avklarat eller upprepat sedan förra wipen förblir stängt till nästa, och den första wipen efter uppdatering 0.5.0 öppnar alla uppdrag som du hittills har avklarat.
 - **Det spelas som uppdraget.** Samma steg, samma tidsgräns och samma villkor. Du tar det vid Mission Control som vilket annat som helst, och medan det pågår upptar det en av dina 5 platser. En Upprepning av en Utmaning upptar i stället en av Utmaningarnas 3 platser.
 - **Vad det ger.** Allt uppdraget ger: erfarenhet, heder, krediter, Thulium, föremål och boostertid. Det betalas som ett första uttag: din världs bonus, boosters, Premium-XP och din klans kredit- och Thulium-bonusar gäller, som [Belöningar](#rewards) förklarar. Kortet i Mission Control visar samma belöningar som första gången. Föremålen från en Upprepning kan inte säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items): de är inte säljbara.
-- **Vad en säsong är värd.** Som grundvärde, före din värld och dina bonusar: de 88 nivåuppdragen och de 8 asteroiduppdragen ger tillsammans 6 869 000 krediter och 52 585 Thulium, och de 50 Utmaningarna 428 325 000 krediter och 2 847 085 Thulium. En pilot som upprepar allt får 435 194 000 krediter och 2 899 670 Thulium.
-- **Wipepoäng.** En Upprepning av ett **nivåuppdrag** räknas för uppdragens [wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) som en första avklaring, en gång per uppdrag och säsong. Tillsammans med de uppdrag du gjorde första gången räknas den aldrig för mer än 100 uppdrag, det mesta som uppdragens wipepoäng betalar för, alltså 105 wipepoäng: den som har alla 88 nivåuppdragen (90 wipepoäng) vinner 15 wipepoäng på att upprepa dem. Upprepningar av asteroiduppdrag och Utmaningar räknas inte.
+- **Vad en säsong är värd.** Som grundvärde, före din värld och dina bonusar: de 88 nivåuppdragen på nivå 1 till 8 och de 8 asteroiduppdragen ger tillsammans 6 828 000 krediter och 52 265 Thulium, de 44 nivåuppdragen på nivå 11 till 14 ger 326 400 000 krediter och 1 305 600 Thulium, och de 50 Utmaningarna 428 325 000 krediter och 2 847 085 Thulium. Portlinjens 8 uppdrag lägger till 79 400 000 krediter och 39 250 Thulium. En pilot som upprepar allt får 840 953 000 krediter och 4 244 200 Thulium.
+- **Wipepoäng.** En Upprepning av ett **nivåuppdrag** räknas för uppdragens [wipepoäng](/wiki/03-Mechanics/Wipe-Timeline.md#earning-wipe-points) som en första avklaring, en gång per uppdrag och säsong. Tillsammans med de uppdrag du gjorde första gången räknas den aldrig för mer än 100 uppdrag, det mesta som uppdragens wipepoäng betalar för, alltså 105 wipepoäng: den som har alla 88 nivåuppdragen (90 wipepoäng) vinner 15 wipepoäng på att upprepa dem. Upprepningar av asteroiduppdrag och Utmaningar räknas inte. De 44 nivåuppdragen på nivå 11 till 14 räknas för wipepoängen och för Statistik-sidan som de andra, under samma tak på 100 uppdrag; Portlinjens uppdrag räknas för ingen av dem.
 - **Vad det inte gör.** En Upprepning är inget nytt uppdrag: den räknas inte för prestationerna och deras titlar eller för Statistik-sidan, den lägger inte till någon rad i Loggboken och den låser inte upp något. Uppdraget förblir avklarat.
 - **Om det misslyckas.** Tar tiden slut eller överger du det, är uppdraget öppet igen för en Upprepning. Inget går förlorat.
 - **Över nästa wipe.** En Upprepning som du har avslutat men inte hämtat ut väntar på dig och ger sin fulla belöning när du hämtar den. En Upprepning som fortfarande pågår när wipen kommer slängs. Att hämta ut den räknas som uppdragets Upprepning för den nya säsongen: uppdraget är stängt igen när du har hämtat ut den.
@@ -438,6 +465,78 @@ Ett uppdragsföremål står som ”kan tappa det: 15 % per nedskjutning, säker
 | Håll centrum | Operationer | Förstör Bulwark ×8 i x-4 → Förstör Goombah ×3 i x-4 → Stanna 8 min i sträck i DS-x | 35 min | 94 000 | 235 000 | 1 880 | 470 | – |
 | **Frontkommandot** (Special) | Operationer | Förstör Bulwark ×10 i x-4 → Patrullera 10 000 enheter i DS-x → Förstör Goombah ×4 i rival x-4 | – | 218 000 | 545 000 | 4 360 | 1 090 | Ancient Control Unit ×1, Power Core ×1, Ship Fragment ×25, Laser Damage Booster I, 10 h |
 
+### Nivå 11: Bossäsongen {#level-11-boss-season}
+
+10 uppdrag och en Special, sammanlagt 8 704 000 XP.
+
+| Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Prisjakt på Boss Goombah | Strid | Förstör Goombah ×60 i x-3 → Förstör Boss Goombah ×1 i x-3 → Förstör Goombah ×60 i x-4 → Förstör Boss Goombah ×1 i x-4 → Förstör Boss Goombah ×2 i x-3 (från säsongsdag 4) | – | 760 000 | 1 900 000 | 7 600 | 3 800 | – |
+| Piraternas hov | Strid | Förstör Pirate Boss ×3 i x-2 → Flyg till punkten 3 500 / 6 200 i x-3 → Flyg till punkten 4 000 / 4 800 i x-3 → Flyg till punkten 13 400 / 5 000 i x-3 → Förstör Pirate Boss ×6 i x-3 → Förstör Pirate Boss ×3 i rival x-3 → Förstör Boss Phantasm ×1 i x-4 (från säsongsdag 4) | – | 560 000 | 1 400 000 | 5 600 | 2 800 | – |
+| Riftkanonmat | Strid | Förstör Phantasm ×400 → Förstör Bulwark ×150 → Förstör Goombah ×60 → Förstör Boss Goombah ×1 i x-4 (från säsongsdag 4) | – | 760 000 | 1 900 000 | 7 600 | 3 800 | – |
+| Öppna riften | Strid | Förstör Seeker ×100 → Flyg till punkten 1 500 / 3 900 i x-1 → Klara Alpha Rift → Förstör Boss Phantasm ×1 i x-3 (från säsongsdag 4) | – | 760 000 | 1 900 000 | 7 600 | 3 800 | – |
+| Tesseract-kartläggning | Spaning | Flyg till punkten 28 400 / 6 100 i DS-4 → Flyg till punkten 25 900 / 8 600 i DS-4 → Flyg till punkten 23 400 / 6 100 i DS-4 → Stanna 5 min i sträck i DS-4 → Förstör Facet ×40 i DS-4 → Flyg till punkten 25 900 / 3 600 i DS-4 → Flyg till punkten 27 668 / 7 868 i DS-4 → Flyg till punkten 24 132 / 4 332 i DS-4 → Stanna 5 min i sträck i DS-4 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 754 000 | 1 875 000 | 7 540 | 3 770 | – |
+| Den långa vägen runt | Spaning | Patrullera 20 000 enheter i x-3 → Förstör Boss Phantasm ×1 i x-3 → Patrullera 20 000 enheter i x-4 → Förstör Boss Phantasm ×1 i x-4 → Patrullera 20 000 enheter i rival x-4 → Förstör Boss Phantasm ×1 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x (från säsongsdag 4) | – | 750 000 | 1 875 000 | 7 500 | 3 750 | – |
+| Gränsfyrar | Spaning | Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 11 500 / 6 800 i x-4 → Flyg till punkten 12 500 / 6 000 i x-4 → Flyg till punkten 13 000 / 3 000 i x-4 → Förstör Goombah ×20 i x-4 → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 11 500 / 6 800 i rival x-4 → Flyg till punkten 12 500 / 6 000 i rival x-4 → Flyg till punkten 13 000 / 3 000 i rival x-4 → Förstör Goombah ×20 i rival x-4 → Stanna 10 min i x-4 (hela uppdraget: utan att förlora skeppet) | 1 h 30 min | 560 000 | 1 400 000 | 5 600 | 2 800 | – |
+| Facet-storm | Operationer | Förstör Facet ×40 i DS-4 → Stanna 5 min i DS-4 → Förstör Facet ×40 i DS-4 → Förstör Boss Crystalys ×1 i DS-x (från säsongsdag 4) | 1 h 30 min | 750 000 | 1 875 000 | 7 500 | 3 750 | – |
+| Bossens sigill | Operationer | Förstör Goombah ×40 i x-4 → För Goombah Seal till Mission Control (Boss Goombah i x-4 bär det) → För Second Seal till Mission Control (Boss Goombah i x-3 bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 750 000 | 1 875 000 | 7 500 | 3 750 | – |
+| Pirater mot klockan | Operationer | Förstör Pirate Boss ×3 i x-2 → Förstör Pirate Boss ×3 i x-3 → Förstör Pirate Boss ×3 i rival x-2 → Förstör Boss Phantasm ×1 i x-3 → Förstör Boss Goombah ×1 i x-4 (från säsongsdag 4) | 1 h 15 min | 560 000 | 1 400 000 | 5 600 | 2 800 | – |
+| **Riftnyckeln** (Special) | Operationer | Förstör Boss Goombah ×2 i x-3 → Förstör Boss Phantasm ×2 i x-4 → Förstör Boss Goombah ×2 i rival x-3 → Förstör Pirate Boss ×6 i x-3 → För Rift Key till Mission Control (Boss Seeker i x-2 bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 1 740 000 | 4 350 000 | 17 400 | 8 700 | – |
+
+### Nivå 12: Bräschen {#level-12-the-breach}
+
+10 uppdrag och en Special, sammanlagt 17 408 000 XP.
+
+| Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Goombah-utrensning | Strid | Förstör Goombah ×80 i x-3 → Förstör Boss Goombah ×3 i x-3 → Förstör Goombah ×80 i x-4 → Förstör Boss Goombah ×3 i x-4 → Förstör Boss Goombah ×3 i rival x-3 → Förstör Boss Crystalys ×1 i DS-x (från säsongsdag 4) | – | 1 525 000 | 3 800 000 | 15 250 | 7 625 | – |
+| Crystalys-tionde | Strid | Förstör Crystalys ×20 → Förstör Boss Crystalys ×1 i DS-1 → Flyg till punkten 16 000 / 9 000 i DS-2 → Förstör Boss Crystalys ×1 i DS-2 → Stanna 5 min i sträck i DS-2 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 1 525 000 | 3 800 000 | 15 250 | 7 625 | – |
+| Brytaren | Strid | Förstör Bulwark ×60 → Förstör Pirate Boss ×4 i rival x-3 → Klara Beta Breach → Förstör Boss Crystalys ×1 i DS-x (från säsongsdag 4) | – | 1 533 000 | 3 850 000 | 15 330 | 7 665 | – |
+| Breach Core | Spaning | Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 11 500 / 6 800 i x-4 → Flyg till punkten 12 500 / 6 000 i x-4 → För Breach Core till Mission Control (Boss Goombah i x-4 bär det) → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 11 500 / 6 800 i rival x-4 → Flyg till punkten 12 500 / 6 000 i rival x-4 → För Breach Core II till Mission Control (Boss Goombah i rival x-4 bär det) (från säsongsdag 4) | 1 h | 1 250 000 | 3 100 000 | 12 500 | 6 250 | – |
+| Davidskis skuld | Spaning | Flyg till punkten 16 000 / 9 000 i DS-1 → Flyg till punkten 16 000 / 9 000 i DS-2 → Flyg till punkten 16 000 / 9 000 i DS-3 → Förstör Davidski ×1 i DS-x → Stanna 5 min i DS-x → Förstör Boss Crystalys ×1 i DS-x (från säsongsdag 4) | – | 1 550 000 | 3 900 000 | 15 500 | 7 750 | – |
+| Gränskartläggaren | Spaning | Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 13 000 / 3 000 i x-4 → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 13 000 / 3 000 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 000 / 13 500 i DS-x → Förstör Boss Phantasm ×2 i x-4 → Förstör Boss Phantasm ×2 i rival x-4 → Flyg till punkten 6 000 / 13 500 i DS-x → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 13 000 / 3 000 i rival x-4 → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 13 000 / 3 000 i x-4 → Flyg till punkten 6 500 / 2 200 i x-4 → Stanna 10 min i sträck i DS-x (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | 1 h 30 min | 1 250 000 | 3 100 000 | 12 500 | 6 250 | – |
+| Träskvakt | Spaning | Stanna 15 min i sträck i DS-x → Förstör Boss Crystalys ×1 i DS-x → Stanna 15 min i sträck i DS-x → Förstör Boss Crystalys ×1 i DS-x → Stanna 15 min i sträck i DS-x (från säsongsdag 4) | – | 1 250 000 | 3 100 000 | 12 500 | 6 250 | – |
+| Gamma-skrot | Operationer | Förstör Bulwark ×20 → Förstör Goombah ×10 i rival x-4 → Förstör Crystalys ×4 → Förstör Boss Crystalys ×1 (från säsongsdag 4) | 2 h | 1 250 000 | 3 100 000 | 12 500 | 6 250 | – |
+| Trippelkrona | Operationer | Förstör Boss Crystalys ×1 i DS-x → Förstör Boss Goombah ×1 i x-3 → Förstör Boss Phantasm ×1 i x-4 → Förstör Pirate Boss ×1 i x-3 → Förstör Boss Goombah ×1 i rival x-4 (från säsongsdag 4) | 1 h 15 min | 1 250 000 | 3 100 000 | 12 500 | 6 250 | – |
+| Första dungeonen | Operationer | Förstör Goombah ×60 → Klara klandungeonens steg 1 (en betald genomgång) → Förstör Boss Goombah ×3 i x-3 (från säsongsdag 4) | – | 1 550 000 | 3 900 000 | 15 500 | 7 750 | – |
+| **Brytkommando** (Special) | Operationer | Förstör Boss Goombah ×3 i x-4 → Förstör Boss Goombah ×3 i rival x-4 → Förstör Boss Crystalys ×3 i DS-x → Förstör Pirate Boss ×3 i x-3 → Ta Breach Seal till Mission Control (förstör 3 Boss Goombah i x-4: den sista bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 3 475 000 | 8 700 000 | 34 750 | 17 375 | – |
+
+### Nivå 13: Gjuteriet {#level-13-the-foundry}
+
+10 uppdrag och en Special, sammanlagt 34 816 000 XP.
+
+| Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Crystalys-kronan | Strid | Förstör Boss Crystalys ×1 i DS-1 → Förstör Boss Crystalys ×1 i DS-2 → Förstör Boss Crystalys ×1 i DS-3 → Förstör Crystalys ×20 → Förstör Boss Crystalys ×1 i DS-1 (från säsongsdag 4) | – | 3 000 000 | 7 500 000 | 30 000 | 15 000 | – |
+| Tesseract nere | Strid | Flyg till punkten 28 400 / 6 100 i DS-4 → Förstör Facet ×100 i DS-4 → Förstör Tesseract ×1 i DS-4 → Förstör Boss Crystalys ×1 i DS-3 → Stanna 10 min i sträck i DS-4 (från säsongsdag 4) | – | 3 000 000 | 7 500 000 | 30 000 | 15 000 | – |
+| Gjuteriets eld | Strid | Förstör Goombah ×150 → Förstör Crystalys ×8 → Klara Gamma Foundry → Förstör Boss Crystalys ×2 i DS-x (från säsongsdag 4) | – | 3 000 000 | 7 500 000 | 30 000 | 15 000 | – |
+| Crystalys-röjning | Strid | Förstör Crystalys ×40 → Förstör Boss Crystalys ×1 i DS-x → Förstör Crystalys ×40 → Förstör Boss Crystalys ×2 i DS-x (från säsongsdag 4) | – | 2 966 000 | 7 400 000 | 29 660 | 14 830 | – |
+| Belägringsloppet | Spaning | Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 13 000 / 3 000 i x-4 → Flyg till punkten 9 000 / 4 500 i rival x-1 → Flyg till punkten 12 500 / 6 000 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 000 / 13 500 i DS-x → Förstör Boss Crystalys ×1 i DS-x → Flyg till punkten 6 000 / 13 500 i DS-x → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 12 500 / 6 000 i rival x-4 → Flyg till punkten 9 000 / 4 500 i rival x-1 → Flyg till punkten 13 000 / 3 000 i x-4 → Flyg till punkten 6 500 / 2 200 i x-4 → Förstör Boss Goombah ×1 i rival x-4 → Förstör Boss Phantasm ×1 i rival x-3 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | 1 h 50 min | 2 350 000 | 5 900 000 | 23 500 | 11 750 | – |
+| Skivans kant | Spaning | Stanna 10 min i sträck i DS-4 → Förstör Facet ×60 i DS-4 → Stanna 10 min i sträck i DS-4 → Flyg till punkten 25 900 / 3 600 i DS-4 → Flyg till punkten 28 400 / 6 100 i DS-4 → Flyg till punkten 25 900 / 8 600 i DS-4 → Flyg till punkten 23 400 / 6 100 i DS-4 → Stanna 10 min i sträck i DS-4 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 2 350 000 | 5 900 000 | 23 500 | 11 750 | – |
+| Trefaldig siktning | Spaning | Flyg till punkten 16 000 / 9 000 i DS-1 → Förstör Boss Crystalys ×1 i DS-1 → Flyg till punkten 16 000 / 9 000 i DS-2 → Förstör Boss Crystalys ×1 i DS-2 → Flyg till punkten 16 000 / 9 000 i DS-3 → Förstör Boss Crystalys ×1 i DS-3 (från säsongsdag 4) | 2 h 30 min | 2 950 000 | 7 400 000 | 29 500 | 14 750 | – |
+| Siege Core | Operationer | Förstör Crystalys ×20 → För Siege Core till Mission Control (Boss Phantasm i x-4 bär det) → För Core II till Mission Control (Boss Goombah i x-4 bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 2 950 000 | 7 400 000 | 29 500 | 14 750 | – |
+| Andra dungeonen | Operationer | Förstör Goombah ×100 i rival x-4 → Klara klandungeonens steg 2 (en betald genomgång) → Förstör Boss Crystalys ×2 (från säsongsdag 4) | – | 2 950 000 | 7 400 000 | 29 500 | 14 750 | – |
+| Storstädning | Operationer | Förstör Goombah ×20 i x-4 → Förstör Crystalys ×8 i x-4 → Förstör Boss Goombah ×1 → Förstör Goombah ×20 i rival x-4 → Förstör Crystalys ×8 i rival x-4 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 2 350 000 | 5 900 000 | 23 500 | 11 750 | – |
+| **Gjuterikommando** (Special) | Operationer | Förstör Boss Crystalys ×1 i DS-1 → Förstör Boss Crystalys ×1 i DS-2 → Förstör Boss Crystalys ×1 i DS-3 → Förstör Boss Phantasm ×2 i rival x-3 → Förstör Facet ×100 i DS-4 → Förstör Tesseract ×1 i DS-4 → Förstör Crystalys ×19 i x-4 → För Foundry Key till Mission Control (Crystalys i x-4 bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 6 950 000 | 17 400 000 | 69 500 | 34 750 | – |
+
+### Nivå 14: Omega {#level-14-omega}
+
+10 uppdrag och en Special, sammanlagt 69 632 000 XP.
+
+| Uppdrag | Uppdragsgivare | Uppgifter | Tidsgräns | XP | Krediter | Thulium | Heder | Föremål |
+| :--- | :--- | :--- | --: | --: | --: | --: | --: | :--- |
+| Boss Crystalys-hekatomb | Strid | Förstör Boss Crystalys ×1 i DS-1 → Förstör Boss Crystalys ×1 i DS-2 → Förstör Boss Crystalys ×1 i DS-3 → Förstör Boss Crystalys ×1 i DS-1 → Förstör Boss Crystalys ×1 i DS-2 → Förstör Boss Crystalys ×1 i DS-3 → Förstör Crystalys ×40 → Förstör Tesseract ×1 i DS-4 → Förstör Boss Crystalys ×1 (från säsongsdag 4) | – | 5 800 000 | 14 500 000 | 58 000 | 29 000 | – |
+| Belägringsmästare | Strid | Förstör Goombah ×200 → Förstör Crystalys ×15 → Klara Delta Siege → Förstör Goombah ×40 i rival x-4 → Förstör Boss Crystalys ×3 (från säsongsdag 4) | – | 5 800 000 | 14 500 000 | 58 000 | 29 000 | – |
+| Dormant-välde | Strid | Förstör Dormant Force ×2 → Förstör Boss Crystalys ×3 → Förstör Dormant Force ×2 (från säsongsdag 4) | – | 5 832 000 | 14 500 000 | 58 320 | 29 160 | – |
+| Den stora kartläggningen | Spaning | Flyg till punkten 9 000 / 4 500 i x-1 → Flyg till punkten 4 000 / 6 500 i x-2 → Flyg till punkten 3 500 / 6 200 i x-3 → Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 9 000 / 4 500 i rival x-1 → Flyg till punkten 4 000 / 6 500 i rival x-2 → Flyg till punkten 3 500 / 6 200 i rival x-3 → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 000 / 13 500 i DS-x → Förstör Boss Goombah ×1 i rival x-3 → Förstör Boss Crystalys ×2 → Flyg till punkten 6 000 / 13 500 i DS-x → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 6 500 / 2 200 i rival x-4 → Flyg till punkten 3 500 / 6 200 i rival x-3 → Flyg till punkten 4 000 / 6 500 i rival x-2 → Flyg till punkten 9 000 / 4 500 i rival x-1 → Flyg till punkten 6 500 / 2 200 i x-4 → Flyg till punkten 3 500 / 6 200 i x-3 → Flyg till punkten 4 000 / 6 500 i x-2 → Flyg till punkten 9 000 / 4 500 i x-1 → Stanna 15 min i sträck i DS-x (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 4 900 000 | 12 250 000 | 49 000 | 24 500 | – |
+| Håll mörkret | Spaning | Stanna 60 min i sträck i DS-x → Förstör Boss Crystalys ×2 → Stanna 60 min i sträck i DS-x (från säsongsdag 4) | – | 5 900 000 | 14 750 000 | 59 000 | 29 500 | – |
+| Fyrlinje II | Spaning | Patrullera 60 000 enheter i x-3 → Förstör Boss Goombah ×1 i x-3 → Patrullera 60 000 enheter i x-4 → Patrullera 60 000 enheter i rival x-4 → Patrullera 60 000 enheter i DS-x → Förstör Boss Crystalys ×1 (från säsongsdag 4) | – | 4 900 000 | 12 250 000 | 49 000 | 24 500 | – |
+| Hörnen två gånger | Spaning | Flyg till punkten 3 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 3 000 i DS-x → Flyg till punkten 29 000 / 15 000 i DS-x → Flyg till punkten 3 000 / 15 000 i DS-x → Förstör Crystalys ×8 → Flyg till punkten 3 000 / 15 000 i DS-x → Flyg till punkten 29 000 / 15 000 i DS-x → Flyg till punkten 29 000 / 3 000 i DS-x → Flyg till punkten 3 000 / 3 000 i DS-x → Stanna 15 min i sträck i DS-x (hela uppdraget: utan att förlora skeppet) | 2 h | 4 900 000 | 12 250 000 | 49 000 | 24 500 | – |
+| Crystalys-spökgång | Operationer | Förstör Crystalys ×10 → Förstör Boss Crystalys ×1 → Förstör Crystalys ×10 i rival x-4 → Förstör Boss Crystalys ×1 (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 5 900 000 | 14 750 000 | 59 000 | 29 500 | – |
+| Omega-konvoj | Operationer | Förstör Crystalys ×10 i rival x-4 → För Omega Core till Mission Control (Boss Goombah i rival x-4 bär det) → För Core II till Mission Control (Boss Phantasm i x-4 bär det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | 2 h | 5 900 000 | 14 750 000 | 59 000 | 29 500 | – |
+| Krigsherren fälld | Operationer | Förstör Goombah ×200 → Klara klandungeonens steg 3 (en betald genomgång) → Förstör Boss Crystalys ×3 (från säsongsdag 4) | – | 5 900 000 | 14 750 000 | 59 000 | 29 500 | – |
+| **Omega-kommando** (Special) | Operationer | Förstör Boss Crystalys ×6 i DS-x → Förstör Boss Goombah ×6 i rival x-3 → Förstör Tesseract ×1 i DS-4 → Klara Omega Vault → För Omega Seal till Mission Control (steget före ger dig det) (hela uppdraget: utan att förlora skeppet) (från säsongsdag 4) | – | 13 900 000 | 34 750 000 | 139 000 | 69 500 | – |
+
 ### Station-uppdrag {#station-missions-table}
 
 10 uppdrag om din Skylab, sammanlagt 8 300 XP. Siffrorna är grunden: världsbonus, boosters, Premium-XP och flottbonusar läggs till, precis som för ett nivåuppdrag.
@@ -544,5 +643,20 @@ Tio uppdrag i valfri ordning. Det här är sista steget.
 | Orörd noll | Operationer | Förstör Goombah ×20 i x-4 (skrovförlust högst 556 000 poäng) | – | 672 500 | 3 480 000 | 26 105 | 0 | Orvium Reinforced Plate ×14, Laser Damage Booster II, 22 h |
 | Linjens väktare | Operationer | Förstör Goombah ×400 i x-4 → Förstör Crystalys ×30 i x-4 → Stanna 60 min i sträck i x-4 → Flyg till punkten 8 000 / 4 500 i rival x-4 → Flyg till punkten 26 000 / 4 500 i DS-x → Flyg till punkten 1 500 / 1 500 i x-1 | – | 1 782 500 | 30 440 000 | 200 000 | 0 | Orvium Reinforced Plate ×20, Cataclysite ×596, Hull Plating Booster II, 22 h |
 
+
+### Uppdrag i Portlinjen {#gate-line-missions-table}
+
+8 uppdrag om soloportarna och klandungeonerna, 8 700 000 XP totalt. Varje uppdrag betalar det rundan betalar. Talen är grundvärdet: din världs bonus, boostar, Premium-XP och klanens boostar läggs ovanpå, som för ett nivåuppdrag.
+
+| Uppdrag | Uppdragsgivare | Öppnas | Uppgifter | XP | Krediter | Thulium | Heder |
+| :--- | :--- | :--- | :--- | --: | --: | --: | --: |
+| Orörd rift | Operationer | nivå 12 | Klara Alpha Rift utan att dö | 70 000 | 450 000 | 0 | 1 000 |
+| Orörd bräsch | Operationer | nivå 12 | Klara Beta Breach utan att dö | 180 000 | 1 500 000 | 0 | 2 500 |
+| Gjuterisprint | Operationer | nivå 13 | Klara Gamma Foundry på 25 min eller mindre | 400 000 | 4 000 000 | 0 | 5 500 |
+| Orört gjuteri | Operationer | nivå 13 | Klara Gamma Foundry utan att dö | 400 000 | 4 000 000 | 0 | 5 500 |
+| Belägringssprint | Operationer | nivå 14 | Klara Delta Siege på 35 min eller mindre | 800 000 | 8 000 000 | 0 | 10 000 |
+| Väktarens nåd | Operationer | nivå 14 | Klara Omega Vault utan att dö | 1 500 000 | 15 000 000 | 0 | 20 000 |
+| Riftvandraren | Operationer | nivå 14 | Klara Alpha Rift; Klara Beta Breach; Klara Gamma Foundry; Klara Delta Siege; Klara Omega Vault (inom en säsong) | 2 950 000 | 28 950 000 | 35 500 | 39 000 |
+| Dungeon-stammis | Operationer | nivå 14 | Klara klandungeonens steg 3 (en betald genomgång), 3 gånger (inom en säsong) | 2 400 000 | 17 500 000 | 3 750 | 100 000 |
 
 <!-- quests:end -->

@@ -80,6 +80,7 @@ Alapja: Crystalys, hajótestének 625%-a; nincs fegyvere, a pajzsa és a sebess�
 | Power Core | 66% | 4–7 |
 | Ancient Control Unit | 100% | 1–4 |
 | Dark Matter | 100% | 10–20, pilótánként legfeljebb 5 |
+| Heartshard | 5% | 1 |
 
 ### Facet
 

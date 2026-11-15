@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Contenitori -->
 # Contenitori {#containers}
 
@@ -225,7 +225,7 @@ Le navi sono elencate con le loro probabilità di base. Una nave che possiedi gi
 
 *I Dormant costruivano in cristallo viola-nero con venature violette, e i loro archivisti conservavano il colore in sottili lastre di vetro che ridipingono qualsiasi cosa vi venga premuta. Ogni Archivio cromatico è una pila sigillata di quelle lastre, catalogata dai coloristi di Mission Control e letta da nessuno finché un pilota non lo apre.*
 
-L’Archivio cromatico estrae prima la categoria e poi un look di quella categoria che non possiedi ancora, ogni look con la stessa probabilità. Una collezione è un solo premio: ti dà ogni sua skin che non hai. La probabilità della tabella è quella di un pilota che non possiede nessun look della categoria. Sale man mano che collezioni, perché restano meno look nell’estrazione. I look stessi sono in [Cosmetici](/wiki/06-Items/Cosmetics.md).
+L’Archivio cromatico estrae prima la categoria e poi un look di quella categoria che non possiedi ancora, ogni look con la stessa probabilità. Una collezione è un solo premio: ti dà una sua skin, per un modello di nave: quella della tua nave attiva se ti manca, altrimenti quella di un’altra nave che possiedi, altrimenti la prima che ti manca. Per quale nave sia lo decide una regola, non un’estrazione, quindi non si estrae nient’altro. La probabilità della tabella è quella di un pilota che non possiede nessun look della categoria. Sale man mano che collezioni, perché restano meno look nell’estrazione. I look stessi sono in [Cosmetici](/wiki/06-Items/Cosmetics.md).
 
 ### Probabilità delle categorie {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Doppioni e recupero {#duplicates-and-salvage}
 
-- Un **look** che possiedi non viene estratto finché la categoria ha ancora un look che non possiedi. Una collezione conta come posseduta quando hai ogni sua skin.
+- Un **look** che possiedi non viene estratto finché la categoria ha ancora un look che non possiedi. Una collezione conta come posseduta quando hai ogni sua skin. Fino ad allora può uscire di nuovo, ogni volta con una skin che ti manca.
 - Quando possiedi ogni look della categoria, il premio paga invece **recupero**: Thulium, per categoria. Conta come premio di quella categoria per la garanzia.
 - Gli **oggetti** non vengono mai trasformati in Thulium: si accumulano, oppure arrivano così come sono.
 - Le **navi** non vengono mai date due volte né pagate come recupero (vedi [Le navi](#the-ships)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 261a29eb0eb0c0bc -->
+<!-- wiki-i18n source: c83f8d8564862f06 -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,6 +31,7 @@ Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Item
 - **Ship Fragment**: 100 % de probabilidad (mín.: 1, máx.: 1)
 - **Daraxium**: 60 % de probabilidad (mín.: 1, máx.: 2)
 - **Nyxite**: 60 % de probabilidad (mín.: 1, máx.: 2)
+- **Echo Shard**: 1 % de probabilidad (mín.: 1, máx.: 1)
 
 ## Historia {#lore}
 

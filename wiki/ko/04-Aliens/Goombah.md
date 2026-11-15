@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Goombah는 만만치 않은 순양함급 외계 함선입니다. 실드 용량�
 - **Quorvium**: 확률 100% (최소 2, 최대 4)
 - **Reinforced Hull Plate**: 확률 60% (최소 1, 최대 1)
 - **Power Core**: 확률 25% (최소 1, 최대 1)
+- **Echo Shard**: 확률 5% (최소 1, 최대 1)
 
 ## 배경 설정 {#lore}
 

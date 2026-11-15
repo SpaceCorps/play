@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Patentes -->
 # Patentes {#ranks}
 
@@ -106,9 +106,11 @@ Se você trocar de corporação, os seus pontos vão com você e você entra no 
 
 ## Como ganhar pontos PvE {#how-you-earn-pve-points}
 
-Os seus pontos PvE são calculados a partir de três coisas:
+Os seus pontos PvE são calculados a partir de quatro coisas:
 
-**nível × 100 + experiência ÷ 1.000 (arredondado para baixo) + os pontos de cada alienígena que você destruiu**
+**nível × 100 + experiência ÷ 1.000 (arredondado para baixo) + honra ÷ 100 (arredondado para baixo) + os pontos de cada alienígena que você destruiu**
+
+Cada 100 de **honra** vale um ponto, venha de onde vier; depois de um reset, só conta a honra que você ganha na nova temporada. Um saldo abaixo de 0 não conta nada.
 
 Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessário para destruí-lo. As naves dos enxames e os Guardiões do clã contam pela mesma regra, então um Pirate Scout vale o mesmo que um Bulwark. Cada abate é contado com o nome do próprio alienígena nas suas estatísticas de abates.
 
@@ -144,7 +146,7 @@ Um alienígena mais duro vale mais: um abate dá pontos conforme o dano necessá
 
 As cinco primeiras linhas são os alienígenas comuns, as doze seguintes as naves dos seis enxames e as três seguintes os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) (a partir do dia 11 da temporada). No fim vêm os Guardiões do clã, os líderes de uma luta contra um Guardião, e as suas tripulações, os Brood Drones, Siege Escorts e Wrath Guards: I, II e III são a força do Guardião, e os pontos aparecem nessa ordem.
 
-Por exemplo, um piloto de nível 4 com 12.500 de experiência que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 300 + 160 + 40 = **912** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
+Por exemplo, um piloto de nível 4 com 12.500 de experiência e 900 de honra que destruiu 300 Seekers, 80 Phantasm e 10 Bulwarks tem 400 + 12 + 9 + 300 + 160 + 40 = **921** pontos. Isso o torna Sargento: o mínimo é 800, e a patente seguinte, Sargento sênior, pede 1.000. Até Coronel sênior, só os pontos contam.
 
 A página **Rankings** (Comunidade › Rankings) mostra como os seus pontos são compostos, e o **Hall da Fama** dela lista os melhores pilotos. O **(i)** ao lado dos pontos PvE ali cita os cinco alienígenas, quanto vale um abate em cada um dos [enxames](/wiki/05-Swarms/Swarms.md), da menor nave ao chefe, o mesmo para os alienígenas do [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md), e os [Guardiões do clã](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) não está em nenhum ranking: uma destruição dele não vale ponto algum, ele não tem linha no Hall da Fama e não pertence a nenhuma corporação, então não está em nenhuma das escadas.
 
@@ -202,7 +204,7 @@ Abra **Economia › Corporação**. A seção **Ranking da corporação** mostra
 
 ## Patentes e o reset {#ranks-and-the-wipe}
 
-No reset os seus pontos PvE recomeçam do zero, então o ranking da sua corporação recomeça e cada temporada é uma nova subida. Só conta o que você ganha depois de um reset: os níveis que sobe, a experiência e os abates de alienígenas da nova temporada ([Pontos novos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). O seu nível, a sua experiência e as suas estatísticas de abates ficam nos seus totais. **A honra não define a sua patente.** A patente que você tinha no instante do reset vai para o histórico das suas temporadas, com a sua posição no ranking, e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A sua patente também não é para a vida toda: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias ausente sai do ranking até voar de novo.
+No reset os seus pontos PvE recomeçam do zero, então o ranking da sua corporação recomeça e cada temporada é uma nova subida. Só conta o que você ganha depois de um reset: os níveis que sobe, a experiência, a honra e os abates de alienígenas da nova temporada ([Pontos novos](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). O seu nível, a sua experiência e as suas estatísticas de abates ficam nos seus totais. A patente que você tinha no instante do reset vai para o histórico das suas temporadas, com a sua posição no ranking, e paga as suas recompensas ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A sua patente também não é para a vida toda: as seis melhores patentes se movem com os outros pilotos da sua corporação, e um piloto que fica 30 dias ausente sai do ranking até voar de novo.
 
 A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim: os pontos dela contam a partir desse reset. O reset que encerrou a temporada 1 pagou as patentes da temporada 1 pelos pontos da sua carreira inteira.
 

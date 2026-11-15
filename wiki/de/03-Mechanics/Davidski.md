@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski ist ein Händler, der fliegt. Er ist ein friedliches NPC-Schiff, das ei
 
 ## Sein Schiff {#his-ship}
 
-Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jeder Art von Teil, auf Eternal geschmiedet:
+Eine goldene **Ironclad TITANIC** in der Größe der TITANIC, mit dem Besten jeder Art von Teil, bis zur Stufe Aufgestiegen geschmiedet:
 
 | Was | Gegenstand |
 |---|---|

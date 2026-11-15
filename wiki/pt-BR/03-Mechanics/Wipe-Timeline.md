@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1d82752d05f62aea -->
+<!-- wiki-i18n source: 78857435732fea9b -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -179,7 +179,7 @@ No reset, os **créditos acima de 5.000.000.000 (5 bilhões)** e o **Thulium aci
 
 ## Pontos novos {#fresh-points}
 
-Os seus **pontos de ranking** contam o que você ganhou **desde o último reset**: os níveis que subiu, a experiência e os abates de alienígenas desta temporada. No reset eles recomeçam do zero e a sua patente antiga vai para o histórico das suas temporadas. **A honra não define a sua patente**, e os seus números totais (nível, experiência, honra, abates) ficam como estão. Veja [Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
+Os seus **pontos de ranking** contam o que você ganhou **desde o último reset**: os níveis que subiu, a experiência, a honra e os abates de alienígenas desta temporada. No reset eles recomeçam do zero e a sua patente antiga vai para o histórico das suas temporadas. Os seus números totais (nível, experiência, honra, abates) ficam como estão. Veja [Patentes](/wiki/03-Mechanics/Ranks.md#ranks-and-the-wipe).
 
 A temporada 2, que começou com o reset de 6 de novembro de 2026, foi a primeira a contar assim: o reset que encerrou a temporada 1 pagou as patentes dessa temporada pelos pontos da sua carreira inteira.
 
@@ -226,7 +226,7 @@ Você pode gastar os seus PR acumulados em bônus permanentes que passam por tod
 * **Honor Boost**: +0,1% de honra ganha por nível (máx. 50% / 500 níveis) - *Custo: 10 PR*
 * **Hitpoints Boost**: +0,1% de HP máximos por nível (máx. 50% / 500 níveis) - *Custo: 15 PR*
 * **Shield Capacity Boost**: +0,1% de escudos máximos (a **capacidade** de escudo) por nível (máx. 50% / 500 níveis) - *Custo: 10 PR*
-* **Shield Absorbance Boost**: +0,1 ponto da **absorção** do seu escudo por nível (máx. +10 pontos / 100 níveis) - *Custo: 25 PR*. A absorção é a parte de cada impacto que os seus escudos recebem (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); o bônus soma pontos fixos a ela: 100 pontos de reset compram 4 níveis (+0,4 ponto), 300 compram 12 (+1,2 ponto), 500 compram 20 (+2,0 pontos) e todos os 1.105 pontos de reset que as fontes pagam num reset compram 44 (+4,4 pontos). No máximo (100 níveis, 2.500 PR: uma meta para vários resets, porque as fontes pagam no máximo 1.105 num reset e a sua patente soma de 5 a 400), 91% (o melhor de fábrica) viraria 101%, e os 45% de um Light Shield Core, 55%. O atributo não tem teto de 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que passa de 100% é uma margem. Com os pontos de reset de um reset neste bônus e um conjunto Eterno de escudos e células totalmente forjado, uma nave chega a cerca de 104% a 109%. (Até a versão 0.4.5, este bônus somava uma parte da própria absorção, 0,1% dela por nível, pelo mesmo preço; os pontos valem o mesmo ou mais em qualquer absorção, então os níveis já comprados não perderam nada; até a versão 0.4.2, ele aumentava a taxa de *recarga* do escudo; nenhum bônus permanente aumenta a recarga agora.)
+* **Shield Absorbance Boost**: +0,1 ponto da **absorção** do seu escudo por nível (máx. +10 pontos / 100 níveis) - *Custo: 25 PR*. A absorção é a parte de cada impacto que os seus escudos recebem (veja [Mecânica dos escudos](/wiki/03-Mechanics/Shields.md#2-shield-absorbance-damage-split-)); o bônus soma pontos fixos a ela: 100 pontos de reset compram 4 níveis (+0,4 ponto), 300 compram 12 (+1,2 ponto), 500 compram 20 (+2,0 pontos) e todos os 1.105 pontos de reset que as fontes pagam num reset compram 44 (+4,4 pontos). No máximo (100 níveis, 2.500 PR: uma meta para vários resets, porque as fontes pagam no máximo 1.105 num reset e a sua patente soma de 5 a 400), 91% (o melhor de fábrica) viraria 101%, e os 45% de um Light Shield Core, 55%. O atributo não tem teto de 100%: a *penetração de escudo* de quem ataca é descontada dele, então o que passa de 100% é uma margem. Com os pontos de reset de um reset neste bônus e um conjunto Ascendente de escudos e células totalmente forjado, uma nave chega a cerca de 104% a 109%. (Até a versão 0.4.5, este bônus somava uma parte da própria absorção, 0,1% dela por nível, pelo mesmo preço; os pontos valem o mesmo ou mais em qualquer absorção, então os níveis já comprados não perderam nada; até a versão 0.4.2, ele aumentava a taxa de *recarga* do escudo; nenhum bônus permanente aumenta a recarga agora.)
 * **Luck Boost**: +0,1% de chance de saque dos alienígenas por nível (máx. 10% / 100 níveis) - *Custo: 15 PR*
 
 ### Como ganhar pontos de reset {#earning-wipe-points}

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Kozmetikler -->
 # Kozmetikler {#cosmetics}
 
@@ -26,7 +26,7 @@ Skin, geminin kendi gövdesinden yapılmış bir boya düzenidir: panel çizgile
 
 Skinler bir gemiye değil, **hesabına** aittir ve [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) boyunca kalır; gemilerin giydiklerini giymeye devam eder.
 
-[Kroma Arşivi](/wiki/06-Items/Containers.md#chroma-archive) Bloody R.E.D dışındaki her koleksiyonu verebilir ve bir koleksiyonu tek seferde bütünüyle verir: sende olmayan tüm skinleri.
+[Kroma Arşivi](/wiki/06-Items/Containers.md#chroma-archive) Bloody R.E.D dışındaki her koleksiyonu verebilir, her seferinde bir skin: koleksiyon ödülü o koleksiyondan bir skin verir, bir gemi modeli için. Koleksiyonda aktif gemin için bir skin varsa ve sende yoksa o skindir; yoksa sahip olduğun başka bir geminin skini; o da yoksa koleksiyonun sende olmayan ilk skini. Yani bir Arşiv açarken skinini istediğin gemiyi kullan. Tüm skinlerine sahip olana kadar koleksiyon yeniden çıkabilir. 0.5.7’den önce bütün olarak gelen bir koleksiyon, tüm skinleriyle senin kalır.
 
 | Koleksiyon | Gemiler | Nadirlik | Nasıl görünür |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Aura, kilitlenmeyi işaretleyen çemberin içinde kalır ve bir geminin çevresi
 ## Gardırop {#the-wardrobe}
 
 - **Sekmeler.** Skin, Aura, Egzoz ve Dronlar. Bir nadirlik filtresi sekmeyi tek bir nadirliğe indirger; **Yalnızca sahip olduklarım** ise giyebileceklerini listeler.
-- **Kutucuk, görünümün durumunu söyler.** **Giyili** (gemi onu giyiyor), **Sende** (elinde), **Yuvayla birlikte gelir** (her pilotta var) ya da **Henüz edinilemez**; ona tıklayınca donuk bir tık sesi gelir.
+- **Kutucuk, görünümün durumunu söyler.** **Giyili** (gemi onu giyiyor), **Sende** (elinde), **Yuvayla birlikte gelir** (her pilotta var) ya da **Henüz edinilemez**; ona tıklayınca donuk bir tık sesi gelir. Bir skinin kutusu, koleksiyonunun gemi skinlerinden kaçına sahip olduğunu da gösterir, örneğin 1/4.
 - **Görünümü çıkarmak.** Skin sekmesindeki **Sade** kutucuğu geminin sade boyasını geri koyar, **Yok** ise aurayı çıkarır.
 - **Birden fazla gemi.** Panelin altındaki anahtar, skin için **Bu modeldeki diğer gemilerime de uygula**, aura veya egzoz için **Diğer tüm gemilerime de uygula**, tek bir tıklamayla görünümü hepsine giydirir.
 - **Nerede değiştirebilirsin.** Ekipmanını değiştirebildiğin yerde: kenetliyken ya da koruması açık bir güvenli bölgede, [Uçuşta Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open) sayfasındaki gibi.

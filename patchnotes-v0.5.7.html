@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.5.7 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.5.7: A very big patch.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.5.7.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.5.7.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.5.7 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.5.7: A very big patch.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.5.7.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.5.7 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.5.7",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.5.7.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.5.7.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.5.7.html",
+      "name": "SpaceCorps 2027 0.5.7 Patch Notes",
+      "description": "SpaceCorps 2027 0.5.7: A very big patch.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-11-15"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.5.7.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.5.7" aria-labelledby="v0.5.7-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.5.7-title">0.5.7 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-11-15" data-date>15 November 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.5.7">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.5.7 is a very big patch. It brings Forge Sockets (tier-ups that never fail, sockets tuned with new shards, integrity that wears down), the Miyuki support ship in five levels that heals and shields friends over a link, 44 new missions for levels 11 to 14 and eight Gate Line missions, a new company base city, solo gates on Singapore and US East, a Healing skill and a Production Queue you can reorder. Nobody has flown most of the new numbers yet.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>Forge Sockets:</strong> tier-ups never fail and each wakes a socket (new tier names: Awakened, Resonant, Radiant, Ascendant). Echo Shards tune a socket, Lattice Shards re-lay it, a Heartshard lets you choose the stat. Equipment has integrity: crafted and looted gear starts at 70 to 100, and fractures cut buffs.</li><li><strong>The Miyuki:</strong> a support ship in five levels, upgraded in place, with Channel Heal and Channel Shield links to friends. The Ironclad, the Storm and the Wraith are researched after the Paragon now.</li><li><strong>44 new missions for levels 11 to 14,</strong> eight Gate Line missions and a hidden series of missions.</li><li><strong>A new company base city,</strong> Mission Control posts on the x-4 border sectors (no safe zone) and a jump icon over every portal.</li><li><strong>Solo gates, clan chat and chat reports work on Singapore and US East.</strong></li><li><strong>A Healing skill,</strong> reorderable Production and research queues, Cluster Chunks that combine, a Chroma Archive that gives one skin for one ship, and a Brightness setting.</li><li><strong>Changed rules:</strong> Commerce lowers craft and Forge prices, clan dungeons need 3 pilots, a Clan Warden is as strong as the crew present, 100 Honor is 1 PvE ranking point, and Mission Control works only within 1,600 units of a station.</li></ul>
+        <h3>New</h3>
+        <ul><li><strong>Forge Sockets: the Forge is rebuilt around sockets.</strong><ul><li><strong>New tier names, in all 13 languages:</strong> Standard, Awakened, Resonant, Radiant, Ascendant (they were Standard, Tainted, Godly, Rupturing, Eternal), with two-letter badges Aw, Rs, Rd, As, also on the Auction's tags (two letters because the initials clash). The item rarity Eternal is unchanged. The Builds API accepts the old or the new name and answers with the new one.</li><li><strong>A step never fails.</strong> Its price is what one success cost on average before:</li></ul></li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Step</th><th scope="col">Credits</th><th scope="col">Thulium</th><th scope="col">Materials</th></tr></thead><tbody><tr><th scope="row">Standard to Awakened</th><td>10,000</td><td>none</td><td>5 Ship Fragments, 15 Daraxium</td></tr><tr><th scope="row">Awakened to Resonant</th><td>56,000</td><td>none</td><td>32 Ship Fragments, 48 Nyxite</td></tr><tr><th scope="row">Resonant to Radiant</th><td>267,000</td><td>none</td><td>23 Reinforced Hull Plates, 140 Cataclysite, 2 Dark Matter Plates</td></tr><tr><th scope="row">Radiant to Ascendant</th><td>833,000</td><td>2,667</td><td>11 Power Cores, 320 Quorvium, 2 Dark Matter Plates</td></tr></tbody></table></div>
+        <ul><li><strong>A step wakes a socket.</strong> Awakened has 1 socket, Resonant 2, Radiant 3, Ascendant 4, never more than the item has stats. A step also rolls each buff the item already holds again in the new tier's range (Awakened +2 to +5 %, Resonant +4 to +8 %, Radiant +6 to +11 %, Ascendant +9 to +15 %) and keeps the better value. A step gives no buff by itself: the buff of a socket comes from a shard. Your existing items keep their tier and their buffs.</li><li><strong>Three new shards.</strong> An <strong>Echo Shard</strong> tunes an awake socket: 10, 20, 40 and 80 Echo Shards for the first to the fourth socket (150 to tune all four). The Forge then offers <strong>two</strong> of the stats that are still free, picked at random, each with the buff it would give, and you choose one. A <strong>Lattice Shard</strong> re-lays a socket that is already tuned, when you want another stat there: the first re-lay of a piece costs 2 Lattice Shards, then 3, 4, 4, 5, 7 and on (2 times 1.25 for every earlier re-lay, rounded up: 283 for the first sixteen). A re-lay offers two stats as well, with a "Keep current" button for when none beats what the socket has. A <strong>Heartshard</strong> is rare and lets you choose: add it to a tune or a re-lay and the offer lists every free stat of the piece, each rolled in the upper half of its range.</li><li><strong>An open offer holds the piece.</strong> Until you choose, nothing else works on that piece (no Auction listing, merge, tier-up or module upgrade in the Assembly). Closing the game loses nothing. An offer nobody answers is settled for you after 7 days, the next time the Forge touches the piece: a tune takes the first stat of the offer, a re-lay keeps what the socket had.</li><li><strong>Integrity and fractures.</strong> Equipment now has integrity from 0 to 100. Everything that exists today is at 100, and so is what you buy or are given; a piece you craft in the Assembly, gear you loot (the boxes of aliens, swarms, Wardens and the black hole) and the gear card of a clan dungeon start at a random 70 to 100. Every started 12 points under 100 is one <strong>fracture</strong>, up to 8 (a piece at 99 to 88 has one, at 87 to 76 two): a fracture takes 2 points off the buff of one stat and never takes it below +0 %. The inventory, the Hangar, the Auction, the Forge, the hull plates and your ship in flight (on a regional server too) all use the buffs net of fractures, and the gauge in the Forge shows where the next fracture opens and which stat took each; its numbers (for example 16 / 100) stand beside the bar, so a fracture mark never runs through them. A re-lay costs 6 integrity.</li><li><strong>Repair.</strong> A Repair gives back 12 integrity (never above 100) for twice the Lattice Shards the piece's next re-lay would cost. It does not lower the re-lay count, so the next re-lay costs what it did.</li><li><strong>Your skills count.</strong> <strong>Commerce</strong> lowers the credits and the Thulium of a Forge step, and the credits of a merge, by up to 15 % at level 100 (the last step: 833,000 becomes 708,050 credits and 2,667 becomes 2,267 Thulium; a Resonant merge 25,000 becomes 21,250). The materials do not change, and the Forge shows the price you pay. The Pilot Skills sheet says so too, in 13 languages: its price row reads "Shop, crafting and Forge prices". <strong>Fabrication</strong> has a second buff: a re-lay costs 6 integrity at levels 1 to 28, 5 at levels 29 to 83 and 4 at levels 84 to 100. A Forge click does not train Fabrication.</li><li><strong>A merge wears the piece.</strong> The result's integrity is the average of the two pieces' integrity (rounded down) minus 6, never under 0, and its re-lay count is the higher of the two: two whole pieces merge into a piece at 94. A merge that would only change the integrity is refused: a merge is not a repair.</li><li><strong>The Tinkerer's Badge</strong> now works from Standard, the first step too. It is a free step that always works and does what a paid step does, buff re-rolls included.</li><li><strong>Upgrades and the Auction keep the piece.</strong> An upgrade in the Assembly keeps the piece's integrity, its re-lays and its buffs and no longer hands you a free fresh buff, and cancelling an upgrade gives the very same piece back. Auction lot cards show a piece's integrity and its fractures, and the sell sheet shows the buffs, fractures and integrity of the piece you are listing. Buy orders for Standard items deliver the seller's piece as it is, with its integrity; the Shop's buy-back price does not depend on integrity.</li><li><strong>Where the shards come from:</strong></li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Source</th><th scope="col">Echo Shards</th><th scope="col">Lattice Shards</th><th scope="col">Heartshards</th></tr></thead><tbody><tr><th scope="row">Ordinary aliens (one shard, a small chance a kill)</th><td>Seeker 0.4 %, Phantasm 1 %, Bulwark 2 %, Goombah 5 %, Crystalys 20 %</td><td>none</td><td>none</td></tr><tr><th scope="row">Solo gate, paid with every clear</th><td>Alpha 4, Beta 9, Gamma 18, Delta 29, Omega 34</td><td>6 / 13 / 27 / 44 / 54</td><td>the first clear of each gate per season, and 5 % on every clear</td></tr><tr><th scope="row">Clan dungeon, every paid clear</th><td>3 / 2 / 2 by stage</td><td>5 / 6 / 7 by stage</td><td>the first paid clear of each stage per season, and 5 % one more</td></tr><tr><th scope="row">Rare leaders</th><td>none</td><td>none</td><td>Davidski 10 % (Home only), Dormant Force 5 %, Tesseract 5 %</td></tr></tbody></table></div>
+        <p>The Resource Magnet Booster and luck do not change shard drops. The fast-respawning boss swarms never drop a Heartshard, and Davidski appears once a day in each world, so he gives at most one roll a day a world. The dungeon's stage window and result screen show the shards.</p>
+        <ul><li><strong>The shards are loose resources:</strong> they cannot be sold, traded or listed on the Auction, only loose stacks are spent (not the Transport Cache), and a wipe takes them with the other loose stacks unless they are in the Transport Cache (1 kg each). They have their own pictures: an ice-blue crystal splinter with rings of light (Echo), a steel cube frame with amber nodes round an amber crystal (Lattice) and a heart-shaped gem in a gold setting (Heartshard).</li><li><strong>The Forge is a station activity:</strong> a game from before 0.5.7 cannot use it (it is told to update), and a pilot flying on a regional server uses it again when he is back at Home. The Forge now says why it refuses an action (no empty socket, no tuned socket, too worn to re-lay, already at full integrity), in 13 languages. The headline of a re-lay's offer names the stat after a colon in Russian and French, so it needs no case ending or elision. The Forge page of the wiki is rewritten for all of this in 13 languages.</li><li><strong>The Miyuki, a support ship in five levels.</strong> Research it in the Skylab after the Paragon (1 day, 10 Dark Matter), make level I in the Assembly (15 minutes, 6,000 Thulium, 160 Ship Fragments, 25 Reinforced Hull Plates, 10 Power Cores, 1 Ancient Control Unit), then turn that same ship in place into level II, III, IV and V: its fit, its configurations and everything installed stay on it, and a level cannot be skipped or bought.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Level</th><th scope="col">Hull</th><th scope="col">Base speed</th><th scope="col">Lasers</th><th scope="col">Hull plates</th><th scope="col">Shield capacity</th><th scope="col">Absorbance</th><th scope="col">Rarity</th><th scope="col">To make it: Thulium and research</th></tr></thead><tbody><tr><th scope="row">I</th><td>128,000</td><td>270</td><td>5</td><td>5</td><td>+0 %</td><td>+0 %</td><td>Rare</td><td>6,000 (1 day)</td></tr><tr><th scope="row">II</th><td>134,400</td><td>270</td><td>6</td><td>6</td><td>+5 %</td><td>+2 %</td><td>Rare</td><td>20,000 (1 day)</td></tr><tr><th scope="row">III</th><td>141,120</td><td>270</td><td>7</td><td>7</td><td>+10.25 %</td><td>+4.04 %</td><td>Epic</td><td>35,000 (1 day)</td></tr><tr><th scope="row">IV</th><td>148,176</td><td>320</td><td>8</td><td>8</td><td>+15.76 %</td><td>+6.12 %</td><td>Epic</td><td>50,000 (2 days)</td></tr><tr><th scope="row">V</th><td>155,585</td><td>320</td><td>9</td><td>9</td><td>+21.55 %</td><td>+8.24 %</td><td>Mythical</td><td>75,000 (2 days)</td></tr></tbody></table></div>
+        <p>The bonuses are over level I. Levels II to V also take 8 Dark Matter Plates and materials each, and every level's research costs 10 Dark Matter. Level V has 4 / 4 / 4 core, support and auxiliary generator slots (3 / 3 / 2 below). <strong>Every extra slot is a technology of its own:</strong> laser slots 6 to 9, generator slots 9 to 12 and hull plate slots 1 to 9 are 17 new Skylab technologies (1 hour and 10 Dark Matter each); a slot you have not researched shows as a locked box in the Hangar with a text that says to research it in the Skylab, and what you research stays researched on every level. The Skylab research tree has 22 more technologies for it (209 in all, 187 before). A new wiki article, Miyuki, has the levels, the costs and the abilities in 13 languages; its Levels section (the table of the five levels and what each level takes in Assembly) is drawn in the in-game wiki, and a link to it lands there.</p>
+        <ul><li><strong>The Miyuki's abilities.</strong> The Miyuki's Heal Pod lasts 7.5 s instead of 5 s, from level I. From level III it heals 30,000 + 3 % of the ship's maximum hull a second (20,000 + 2 % at levels I and II). The Heal Pod of the Storm BRATAN and the Wraith MENATI stays as it was (5 s, 20,000 + 2 %). <strong>Channel Heal</strong> (from level II, key D): select a friendly ship of your group or company within 1,200 units (not yourself) and press it: for 5 s the linked ship gets 50,000 hull a second and you get 10,000; it recharges in 120 s, and at levels IV and V the other ship gets 75,000 a second (yours stays 10,000) and the recharge is 100 s. <strong>Channel Shield</strong> (from level III, key S): linked the same way, 75,000 shield a second to the other ship and 15,000 to you, 5 s, every 120 s. Your Healing skill makes the Channel Heal stronger (not the Channel Shield), and your Tactics skill stretches both links, as it does any ability. A Miyuki now has up to six ability buttons: the two new ones stand in a second column to the left of the old one (keys D and S by default, rebindable in Settings). A link breaks if either ship is destroyed, leaves the map, moves more than 1,200 units away or is hit by an EMP; what was already paid stays paid, and you are told why it broke. A Heal Pod whose time is not a whole number of seconds (the Miyuki's 7.5 s, or any pod your Tactics skill stretches) now also heals the last part of a second as a part pulse instead of losing it, which slightly raises every stretched pod's total heal. A game from before 0.5.7 flies a Miyuki with the Heal Pod only.</li><li><strong>Ship order and slots.</strong> The Ironclad, the Storm and the Wraith are researched after the Paragon; pilots who already have one of them keep it, and keep crafting it and researching its designs and hull plate slots; in the Research tree such a ship shows as researched, and a missing Paragon is not shown to him as a lock. The Ironclad (and its DUMA and TITANIC designs) has a fourth ability slot; several modules of a kind still stack on one button, so four Afterburners run 37.5 s. The Wraith has 13 laser slots instead of 14; its designs RAPTOR, BILLY, MENATI, ATARAXIS and MATT have 14, 13, 13, 12 and 15. A laser fitted in the lost slot goes back to your inventory with its amps; nothing is deleted. Ship lists in the Shop and the item views are ordered by rarity, then hull, then name, so the Miyuki levels sit among the other ships.</li><li><strong>44 new missions for levels 11 to 14</strong> (the Quests page names the levels Boss Season, The Breach, The Foundry and Omega). Ten regular missions and one Special for each level, with 3 to 23 steps each: kills by name, visits, stays, solo gate clears and clan dungeon stage clears. The new kinds of step (clear a gate with no death or within a time, clear a clan dungeon stage, kill in a dungeon, and the Omega Seal a mission gives you) read properly in all 13 languages. A level's eleven missions pay exactly 85 % of that level's experience gap, with credits at 2.5 times the XP, honor at 0.005 times and Thulium at 0.01 times. <strong>Omega Command</strong>, the level 14 Special, is a no-death mission as a whole: a death anywhere, in the Omega Vault too, starts all five steps again. The <strong>Grand Survey</strong> (level 14) asks for fifteen minutes in one stretch on the Danger Sectors at its end. The level 11 board shows as a preview from pilot level 10. A long mission (the Grand Survey has 23 steps) shows its finished steps as one "N steps done" row you can click open, so the current step stays on screen. They count as level missions for the Stats page and the Wipe Points. A game from before 0.5.7 cannot take them and is asked to update.</li><li><strong>The Gate Line: eight missions outside the ten</strong> (Untouched Rift, Breach Untouched, Foundry Sprint, Foundry Untouched, Siege Sprint, Guardian's Grace, Rift Walker, Dungeon Regular), on a Gate Line tab of Mission Control with their own allowance of 3 active at a time ("1 of 3 active"); they open at pilot levels 12 to 14 and show as locked previews until then. Each pays the experience, credits and honor of a clear of its gate or stage: Rift Walker the sum of the five gates, Dungeon Regular (which asks for three paid stage 3 clears) the pay of one stage 3 clear. The six variants give no Thulium; Rift Walker and Dungeon Regular give a quarter of the Thulium of those clears (Rift Walker 35,500 against 142,000 for the five gates, Dungeon Regular 3,750 against 15,000 for one stage 3 clear). They repeat after a wipe and are not counted in the Stats page or in the Wipe Points. Rift Walker and Dungeon Regular count one season only: a wipe drops one that is still running. A solo gate clear counts for the missions that ask for it, with the run's own no-death and speedrun flags; a paid clan dungeon clear counts for the stage it cleared (an unpaid pilot counts nothing). The red badge on the Mission Control button now also counts Gate Line missions you can accept or claim.</li><li><strong>A stay "in one stretch" on DS-x now goes on when you fly from one Danger Sector to another.</strong> It starts again only when you die, log out or leave the Danger Sectors. A stay on one named sector (DS-4) still starts again on every jump. The tip of such a stay says so, in 13 languages. A stay step shows its length to the second.</li><li><strong>A hidden series of missions.</strong> It is in the game from this patch, for pilots who have come a little way, and Mission Control shows it once it is switched on. We say no more.</li><li><strong>The company base in flight has a new look.</strong> The station of Mission Control in every company sector is now a small space city: floating hex districts (towers, glass-dome gardens, offices, industry, a market, a shipyard, landing pads, solar farms and a comms array) round a control tower, with lit windows and streets and blinking beacons. It is about the same size and ships still fly over it. The name bubble hangs lower and shows from the farthest zoom setting. The model is 10 MB smaller in the download (6.9 MB instead of 16.9 MB) and has about 80 % fewer triangles (28,000 instead of 143,000).</li><li><strong>Mission Control on the x-4 border sectors (M-4, T-4, G-4).</strong> There is a Mission Control point in the middle of each company's x-4 sector, a small post of a single tile: one hex deck with the control tower, radar domes, a landing pad, docking cradles and a comms mast, in the style of the city; its name bubble and tag hang from the post's own outline. <strong>It has no safe zone, and a pilot there can still be attacked.</strong> A quest item you carry can be delivered at your own company's Mission Control on x-4 as well as on x-1.</li><li><strong>A jump icon hangs over every portal.</strong> Click it to jump when you are in range. Farther away it is dimmed, and a click flies your ship to the portal and jumps when you arrive. No question is asked before a Danger Sector. You see only your own solo gate's portal on the map; other pilots' solo gates are no longer shown.</li><li><strong>Solo gates are played on Singapore and US East.</strong> Build the run at home (spinning, building and choosing a destination stay at the home server), launch to a regional server and jump through the gate's portal: the run is played in an arena of that server. A regional server holds two solo arenas per world; when both are busy you wait for one to free up. The home server counts and pays a run a few seconds after it ends, and the wallet in the flight window catches up at the dock; you can start your next run only after the last one has been counted at home. When the arena is switched off (a server flag, an admin dial, or a node with no arena slots), solo gates fall back to the 0.5.6 behaviour: you dock at home. Three new server lines (arena on a node, settling, home away) are in all 13 languages and the Solo Gates page explains the arena.</li><li><strong>Clan chat and chat reports work on the regional servers.</strong> Your clan hears you wherever its members fly, the kept lines (the last 200, 14 days) are sent to you there too, and <code>/c</code> and the Clan tab work as at the home server. You can report a chat line while flying on a regional server (the report goes to the home server's admins as before, still 5 an hour). A member dismissed from or leaving a clan while flying on a regional server stops hearing the clan's chat there within a few seconds and loses the Clan tab until his next flight.</li><li><strong>Kills made on a regional server count for the kill achievements.</strong> Kills made there before this update are not counted afterwards. The death screen's Portal and Spot options work on regional servers by the same rules as at the home server. Davidski says on a regional server that he pays no rewards there (his kills pay at the home server) instead of claiming the world has paid out its day, and clan members flying there are told once that clan dungeons run at the home server.</li><li><strong>A new Pilot Skill, Healing</strong> (Combat, governed by Heft; it is the 20th stat). From level 1 (x1.00) to level 100 (x1.30) it strengthens the heals of your own gear: your Repair Drone repairs faster, your Emergency Repair heals more and the Heal Pod you drop heals more. It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket still heals a fixed 100,000. The wiki's Abilities page describes it and how it combines with Tactics, in 13 languages.</li><li><strong>The Production Queue can be reordered.</strong> Over each waiting block of the Assembly's queue there are three buttons: to the front, one place earlier, one place later. A stack of one recipe moves as one block. The running job and finished jobs never move, and the order you leave is the order the jobs run in (a moved job keeps its own length). A move costs nothing and gives nothing back: a cancel after a move refunds exactly what the job was paid. The move is refused whole, with nothing changed, if the queue changed meanwhile ("The Production Queue has changed. Try again."). It works at your Home server, like every Assembly action.</li><li><strong>The research queue can be reordered.</strong> The waiting entries of the Skylab's research queue have arrows (to the top, up, down). The research under way never moves, and an entry cannot go ahead of a technology it needs: the arrow is greyed out with the reason.</li><li><strong>Type an exact number of units for the Research Centre.</strong> In the feed rows (Ship Fragments and the like) you can type a number and press Enter or Feed. If you type more than you carry or more than the tank holds, the number is cut to the largest that fits and the next Enter feeds it. Dark Matter is unchanged.</li><li><strong>Hire a worker takes a number of contracts.</strong> The dialog asks how many Workforce Contracts to use (a number or All) and hires the worker for one longer stretch, one hour per contract, using them all at once. A second use while a worker is running is still refused. The Foreman's estimate now says it holds if you collect before the producers fill.</li><li><strong>No holding limit for magic items.</strong> Magic Hammers, Schematics, Philosopher's Stones, Tinkerer's Badges, Forger's Seals and Workforce Contracts have no holding limit any more: bonus codes, the admin's gifts, the login calendar and the Solo Gates prizes all give as many as they say (a bonus code or a gift of one kind is still at most 100 at a time).</li><li><strong>Cluster Chunks can be combined.</strong> In the Hangar's P.E.T. view, <strong>Combine chunks</strong> on the Cradle turns 10 Regular chunks into 1 Mythical chunk and 10 Mythical chunks into 1 Legendary chunk (Combine, or Combine all). It costs no Credits and no plates, and it only goes up.</li><li><strong>P.E.T. crossbreeding says what you get.</strong> The sheet now says plainly what the new P.E.T. will be (its look and work, its grade and level, the boosts it carries) and that each boost's value is set by its level. The choice of which boost kinds stay is shown only when the parents hold more kinds than the child can carry.</li><li><strong>A Chroma Archive gives one skin for one ship.</strong> Until 0.5.6 a collection prize gave every skin of the collection at once, for all 4 or 7 ships. From 0.5.7 it gives one skin, for one ship model, and the result says which ("Nature White: Wraith"). It is the skin for your active ship, if the collection has one for it and you do not hold it yet; else the skin for another ship you own (a design counts as its hull); else the first skin of the collection you lack. The chances did not change, and a collection can drop again until you hold all its skins. Every skin you got before stays yours. The Wardrobe shows how many of a collection's skins you hold ("1/4").</li><li><strong>Pilot Skills have a new look.</strong> A card for each group, a glyph and a level ring in the colour of the attribute that governs each skill (Heft green, Grit blue, Reflex gold, Instinct violet), Combat's six skills in two columns when the sheet has room, and the details of the selected skill at the foot of the page when the page is wide enough. A narrow page and the window in flight keep the strip that opens under the row. The table's labels no longer stop at one line: a long label takes a second line instead of being cut off (the re-lay integrity cost has a shorter name).</li><li><strong>Graphics: a Brightness setting and cheaper crowds.</strong> Settings, Graphics has a Brightness slider from 70 % to 150 % (100 % is the picture as before) with three squares to set it by: make the left one only just visible. It needs Post-Processing. Crowds of aliens are drawn with simpler solid meshes (a Seeker's whole-model mesh is 1,577 triangles, a Phantasm's 2,244, a Crystalys's 1,264), and the fins stay solid. Nobody has measured what this does to the frame time on a busy PC (see Known limits).</li><li><strong>Phone and tablet code.</strong> The game now has touch controls: a tap flies the ship, a drag steers, a second thumb can tap the Nearest, Rocket, Attack, Clear and Jump buttons while the first steers, two fingers zoom, turn and tilt the camera, a phone menu bar with a drawer replaces the two toolbars, Android's Back asks before leaving, the on-screen keyboard lifts the UI, and a lighter Mobile graphics tier (lower resolution, shorter bloom, no shadows, fewer particles, simpler meshes, smaller textures) is what a phone always gets. The computer's game is unchanged. <strong>The Android and iOS apps are not part of this release's downloads.</strong></li><li><strong>The game's engine is newer</strong> (it now includes the touch, wave and Brightness work). The chat's line breaking follows the engine's rules for no-break spaces and opening brackets. No change a pilot should notice on a computer.</li><li><strong>A second address for a server.</strong> A server can now have a backup route. If your computer cannot reach the server's own address, the game uses the backup route automatically, and the server's row says it was reached through its backup route. If a server's first address does not answer when you launch, the game tries the backup route once instead of failing, with a fresh launch ticket when the first attempt may have reached the server. <strong>No server has a backup route yet, so nobody is helped by this until we set one up.</strong></li><li><strong>A Servers article in the wiki (13 languages):</strong> what runs on Helsinki and on the regional servers Singapore and US East, how a flight from a regional server goes and comes home, what the server list's status words mean, what to do when a server shows Unreachable, and the Bring my ship home button.</li></ul>
+        <h3>Changed</h3>
+        <ul><li><strong>Commerce lowers craft prices too.</strong> The Commerce skill now also lowers the Assembly's craft prices: the credits and the Thulium of a craft, up to 15 % at level 100, the same discount as in the Shop. Materials and craft time are unchanged; the price is fixed when you queue the craft, and a cancel gives back exactly what you paid. (The Forge's prices follow Commerce as well.)</li><li><strong>Recipe chains for launchers and optics.</strong> Rocket Launcher III, IV and V each use up one Rocket Launcher of the level below, and Laser Optics II to V each use up one Laser Optics of the tier below, on top of their unchanged Thulium, materials and times. Rocket Launcher II and Laser Optics I are unchanged. The piece is taken when you queue the craft, not when it starts (even if it waits behind other jobs); only a loose copy qualifies (not one fitted on a ship, not one in the Transport Cache), and a cancel gives it back. Built from nothing, Rocket Launcher II to V cost 3,450,000 Thulium and 60 hours of crafting (Rocket Launcher V alone: 2,000,000 Thulium and 24 hours), and Laser Optics I to V cost 178,000 Thulium and 50 minutes (Laser Optics V alone: 75,000 Thulium). Crafts already running finish or cancel as they were paid.</li><li><strong>Clan dungeons need 3 pilots instead of 4.</strong> A group of 3 to 10 clan members can enter and start; the Warlord and the aliens scale to the party as before.</li><li><strong>A pilot who leaves the group no longer blocks the dungeon.</strong> If a pilot leaves the group, is kicked or goes offline while the group enters a clan dungeon, the dungeon no longer waits for him: once the rest of the group is inside it starts by itself, within about a second.</li><li><strong>A Clan Warden is as strong as the crew present.</strong> The pilots of its clan flying outside the safe zones on its map are counted at the end of the 90 second warm-up, and that number is fixed for the fight. 5 pilots meet a Warden at 12 to 23 % of its strength, 8 pilots at 16 to 29 %, and the full strength comes at 28 to 72 pilots (by Warden). Hull, shield, laser damage, mending, the Siege Warden's rocket and the number of aliens per wave scale together; pay and loot do not. The clan reads "Crew present: 5. Brood Warden II fights at 16% of its full strength." in the chat. After a Warden withdraws, the next call brings it back at the strength of the crew that is there then.</li><li><strong>Honor counts for your PvE ranking points.</strong> Every 100 Honor is 1 point, whatever paid it (kills, clan dungeons, solo gates, missions, the calendar), in your season points and your all-time points. Honor you lose never takes you below your starting point of the season; in a new season only the Honor earned since the wipe counts. <strong>Ranks shift at the first server restart after the update,</strong> when every pilot's points are counted again with the Honor he holds. The Rankings calculation table has an Honor row, the PvE points help card says "1 point per 100 Honor", and the clan dungeon cards and reports show the PvE ranking points a paid clear adds, Honor included (stage 1: 850 points, stage 2: 2,000, stage 3: 3,400; the Honor's own share of these is 250, 500 and 1,000 points, from 25,000, 50,000 and 100,000 Honor). Changing company, which halves your Honor, now also takes the points of that Honor with it.</li><li><strong>Wraith BILLY's Diminisher lasts 25 seconds</strong> instead of 10 (still a 2 minute cooldown; with the Tactics skill at level 100 it lasts 30 seconds).</li><li><strong>The Dormant Force fires 13 lasers.</strong> The swarm ship modelled on the Wraith follows its ship, so its damage is about 7 % lower (3,570 to 3,315 a second at the base level).</li><li><strong>Mission Control works only at a station.</strong> Accepting and claiming a mission works only within 1,600 units of a Mission Control station (the home base on x-1 or the post on x-4). A Mission Control window left open away from a station closes with a notice when you fly out of range, and the server answers "Fly to a Mission Control station to accept or claim missions." Abandoning and tracking a mission still work anywhere. The Mission Control bubble and name tag fly you to the nearest station.</li><li><strong>The Sell back block of the Shop has its own panel above the buy panel,</strong> so the Purchase button no longer jumps down when you own something you can sell back.</li><li><strong>The "Build your Skylab" tutorial step always tells you what to click.</strong> If you are on the Table view or have the station labels off, the card points at the List option of the view switch, then at the Build buttons. The step ends when both Solar and the Credit Farm stand, even if you built one earlier, and a "Skip this step" button appears after a minute.</li><li><strong>While you fly on a regional server, some things wait for Home.</strong> A research that finishes, expedition kills and the station mission list wait and settle once at your first look back at Home (research bonuses such as Efficient Snacks apply then); a solo-gate clear or a dungeon you are still in is paid when you are home; loot you pick up there arrives at Home with a rolled integrity (70 to 100) like loot found at Home. Nothing is lost.</li><li><strong>The Archivist achievement asks for all 209 technologies</strong> (187 before). A pilot who already has it keeps it.</li><li><strong>Messages from the administrators.</strong> A pilot whose account an administrator has suspended now sees "Your account is suspended." (in his language) on the connection-lost panel instead of "Connection lost", and a muted pilot who tries to chat is told "You are muted by an admin."</li><li><strong>Bonus codes</strong> that give a title say so on the success card ("Title: ...", in 13 languages) next to the Thulium.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li><strong>Wiki:</strong> a section of a ship or alien page that has no card of its own is drawn as a card now, so a link to it lands on it.</li><li><strong>Rankings and profile sheets:</strong> hovering another pilot's laser now shows that pilot's Pilot skills and Laser Optics hit chance instead of yours. Rocket cards on another pilot's profile sheet show the plain rocket values and that pilot's Rocket tech, not your formation or Sealed Backdoor bonus.</li><li><strong>Mission Control:</strong> a window left open away from a station no longer lets you accept and complete missions without returning home (see Changed).</li><li><strong>Clan dungeons:</strong> a clan can only have one open dungeon at a time, now guaranteed in the database as well; a clan that somehow held two has the older one closed and refunded at the next server start.</li><li><strong>Warden leftovers:</strong> 20 seconds after a Clan Warden is destroyed or withdraws, every alien of its waves (any kind, fighting or not) leaves quietly. Pilots who come later no longer meet leftover Crystalys and Bulwarks on x-2 maps.</li><li><strong>P.E.T. crossbreeding:</strong> when the parents offer more boost kinds than the child can carry, clicking a boost on the sheet now really changes which kinds the child keeps (before, the sheet snapped back after each click and could not be completed). While the number of ticked boosts is wrong the sheet says how many to choose and Crossbreed stays off.</li><li><strong>Wiki pages that lagged the game, now corrected in all 13 languages:</strong> the Pets page (a top Mole breaks a Pebble in 18 seconds, the weakest Mole in 2.8 minutes; it said 12 seconds and 2.1 minutes); the Clans page (the Warden crew tables follow the model: the smallest winning crew is 15 to 25 pilots with x2 ammo and 23 to 38 with x1; the Siege Wardens' rockets are Warden Rivet I to III; a crew that ignores the Brood drones needs about a third more pilots; the Gate Line table's Swarm Break II boss step is 2 Pirate Bosses, as the game has asked since 0.5.4, a change the 0.5.4 notes did not mention); the Lasers page (13 laser slots on the Wraith); the Ship Designs page (759, not 789, in 12 translations); the Forge page (the last tier of a module upgrade asks for 4 Dark Matter Plates, as the recipes do, not 3); and the Quests page (the season totals for repeating every mission are 840,953,000 credits and 4,244,200 Thulium at base, and the 88 level and 8 Asteroids missions of levels 1 to 8 pay 6,828,000 credits and 52,265 Thulium, not 6,869,000 and 52,585; about a quarter, not most, of the kill steps of the level 11 to 14 missions name no sector).</li></ul>
+        <h3>Servers and privacy</h3>
+        <ul><li><strong>The server and the game go live together, on all three servers.</strong> Home (Helsinki), Singapore and US East must run the same build: the flight data the servers exchange changed several times in this release (new item columns for the Forge, the solo arena, the administrators' table), so a mixed fleet is not supported.</li><li><strong>What a regional server receives about you is smaller.</strong> Singapore and US East no longer receive your payment history (the Stripe checkout numbers of your purchases), an expired premium, the price record of a cosmetic look, or the reference of a grant (for items handed out by an admin, that reference was the admin's account number); only what the flight needs goes over, and an active premium still gives its 2x experience there.</li><li><strong>Clan lines and chat reports pass through the regional servers.</strong> A clan line you write while flying on Singapore or US East, and a chat report you send from there, travel through that server on the way to the home server in Finland.</li><li><strong>A backup route is possible</strong> (see New): none is set up, so for now nothing about your connection changes.</li><li><strong>Solo gates, clan chat and kill achievements</strong> work on the regional servers now (see New). <strong>Clan dungeons and the Wardens still run at the home server only,</strong> and so do the Production Queue, the research queue, the Forge and every Skylab action.</li><li><strong>Asia:</strong> we still do not know why some players in Asia cannot reach the Singapore server. The server list names the cause of a failed connection since 0.5.6, and the Servers article says what to do when a server shows Unreachable; the cause itself is not fixed. See Known limits.</li></ul>
+        <h3>If you already play</h3>
+        <ul><li>Update the game; the server and the game go live together. A game from before 0.5.7 cannot take the level 11 to 14 missions, cannot use the Forge, shows a Miyuki as a ship with the Heal Pod only, and is asked to update; the Mission Control rules (a station within 1,600 units) are enforced by the server, so the client half has to be live with them.</li><li>Nothing is moved, paid or removed: no Credits, Thulium or items. Your Forge items keep their tier and buffs and start at integrity 100; you start with no shards. Pilots who hold the Ironclad, the Storm or the Wraith keep them. A pilot who had all 187 technologies shows 187/209 and keeps the Archivist achievement. Ranks shift at the first server restart (see Changed, Honor). Crafts already running finish or cancel as they were paid.</li><li>A clan that held two open dungeons has the older one closed and refunded at the next server start.</li><li>Your Commerce level now also lowers craft and Forge prices, at once.</li><li>A laser that was fitted in the Wraith's 14th slot goes back to your inventory with its amps; nothing is deleted.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.5.6.html" rel="prev">← 0.5.6</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

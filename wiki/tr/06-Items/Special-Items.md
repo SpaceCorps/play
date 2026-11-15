@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: d3d6deaaac542e2e -->
+<!-- wiki-i18n source: 00ead124f51ad40e -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -12,7 +12,7 @@
 ## Bir dakikada {#in-one-minute}
 
 - **Altı tür.** Magic Hammer, Schematics, Philosopher’s Stone, Tinkerer’s Badge, Forger’s Seal ve Workforce Contract. Her biri aşağıda sayılarıyla anlatılıyor.
-- **Nerede.** Hangar’daki envanter, sahip olduğun her tür için sarf malzemeleri arasında bir kutucuk gösterir ve kaç tane olduğunu yazar. Eşyanın ne yaptığını okumak için kutucuğun üzerine gel, kullanmak için tıkla (Workforce Contract’ta önce işçiyi seçersin). Magic Hammer ve Tinkerer’s Badge senin seçtiğin bir şeye etki eder, bu yüzden tıklamak bir şey yapmaz ve kutucukları nerede kullanılacağını söyler: Skylab’da ve Demirhane’de. Eşyanın etki ettiği sayfa da, birine sahipsen bir düğme gösterir: Skylab’da yükseltilen modül, süren araştırma, Demirhane’nin kademe yükseltme paneli ve Üretim kuyruğu.
+- **Nerede.** Hangar’daki envanter, sahip olduğun her tür için sarf malzemeleri arasında bir kutucuk gösterir ve kaç tane olduğunu yazar. Eşyanın ne yaptığını okumak için kutucuğun üzerine gel, kullanmak için tıkla (Workforce Contract’ta önce işçiyi ve kaç sözleşme harcayacağını seçersin). Magic Hammer ve Tinkerer’s Badge senin seçtiğin bir şeye etki eder, bu yüzden tıklamak bir şey yapmaz ve kutucukları nerede kullanılacağını söyler: Skylab’da ve Demirhane’de. Eşyanın etki ettiği sayfa da, birine sahipsen bir düğme gösterir: Skylab’da yükseltilen modül, süren araştırma, Demirhane’nin kademe yükseltme paneli ve Üretim kuyruğu.
 - **Önce sorar.** Her kullanım, tam olarak ne olacağını ve neyi harcadığını söyleyen bir sayfa açar. Kullanım kesindir: geri alınamaz. Bir kullanım reddedilirse hiçbir şey harcanmaz.
 - **Kalırlar.** Özel eşyaların ve süren Philosopher’s Stone ya da sözleşme, [sıfırlamadan](/wiki/03-Mechanics/Wipe-Timeline.md) sonra da kalır.
 - **Her yerde.** Uçarken de kullanabilirsin: hiçbiri geminin park halinde olmasını gerektirmez.
@@ -20,16 +20,16 @@
 
 ## Altısı bir bakışta {#the-six-at-a-glance}
 
-| Eşya | Nadirlik | En çok kaç tane taşıyabilirsin | Ne yapar |
-| :--- | :--- | ---: | :--- |
-| **Magic Hammer** | Efsanevi | 5 | Bir Skylab yükseltmesini hemen bitirir |
-| **Schematics** | Nadir | 20 | Süren araştırmadan 24 saat götürür; 24 saat ya da daha azı kalmışsa bitirir |
-| **Philosopher’s Stone** | Destansı | 10 | Kredi Çiftliğin ve Thulium Çiftliğin 10 saat boyunca iki kat fazla üretir |
-| **Tinkerer’s Badge** | Destansı | 10 | Bir ekipmanı Demirhane’de bir kademe yükseltir, Lekeli’den başlayarak |
-| **Forger’s Seal** | Seyrek | 99 | Üretim kuyruğundan en fazla 30 dakikayı atlar |
-| **Workforce Contract** | Sıradan | 99 | Bir Foreman, bir Engineer ya da bir Hauler’ı 1 saatliğine tutar |
+| Eşya | Nadirlik | Ne yapar |
+| :--- | :--- | :--- |
+| **Magic Hammer** | Efsanevi | Bir Skylab yükseltmesini hemen bitirir |
+| **Schematics** | Nadir | Süren araştırmadan 24 saat götürür; 24 saat ya da daha azı kalmışsa bitirir |
+| **Philosopher’s Stone** | Destansı | Kredi Çiftliğin ve Thulium Çiftliğin 10 saat boyunca iki kat fazla üretir |
+| **Tinkerer’s Badge** | Destansı | Bir ekipmanı Demirhane’de bir kademe yükseltir, Standart’tan başlayarak |
+| **Forger’s Seal** | Seyrek | Üretim kuyruğundan en fazla 30 dakikayı atlar |
+| **Workforce Contract** | Sıradan | Bir Foreman, bir Engineer ya da bir Hauler’ı 1 saatliğine tutar |
 
-Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise hesabının bir türden tuttuğu en yüksek sayıdır: bunu aşacak bir hediye kesilmez, bütünüyle reddedilir.
+Nadirlik oyunun olağan ölçeğidir. Hesabının bir türden kaç tane tutabileceği **sınırlı değildir**: zaten çok tane var diye hiçbir hediye reddedilmez.
 
 ## Altısı {#the-six}
 
@@ -39,12 +39,12 @@ Nadirlik oyunun olağan ölçeğidir; **En çok kaç tane taşıyabilirsin** ise
 
 - **Bedel ödenmiş kalır.** Yükseltmenin maliyeti, onu başlattığında alınmıştı. Hammer bunun hiçbirini geri vermez ve fazladan bir şey istemez.
 - **Yalnızca süren bir yükseltme.** Yükseltilmeyen bir modül ya da yükseltmesi az önce kendiliğinden biten bir modül reddedilir (“Bitirilecek bir şey yok: o modül yükseltilmiyor.”) ve Hammer sende kalır.
-- **Son derece nadir.** Skylab seviyelerini sıfırlamadan sonra da korur; bu yüzden bir Hammer bir basamağın süresi kadar değerlidir, Çekirdekte 6 güne kadar. İki Hammer arasında bekleme süresi yoktur ve sen 5 tane taşıyabilirsin.
+- **Son derece nadir.** Skylab seviyelerini sıfırlamadan sonra da korur; bu yüzden bir Hammer bir basamağın süresi kadar değerlidir, Çekirdekte 6 güne kadar. İki Hammer arasında bekleme süresi yoktur ve kaç tane taşıyabileceğin sınırlı değildir.
 - **Engineer** (bir [Workforce Contract](#workforce-contract)) yükseltmeleri en fazla 1 saat kısaltır; Hammer geriye kalan her şeyi alır.
 
 ### Schematics
 
-**Şu an süren araştırmadan 24 saat götürür.** Geriye **24 saat ya da daha azı** kalmışsa araştırma hemen **bitirilir**; daha fazlası kalmışsa 24 saat kaybeder ve sürer, onun üzerine bir Schematics daha kullanabilirsin. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 187 teknolojisinden 167’i 24 saat ya da daha kısa sürer, bu yüzden bir Schematics onları baştan bitirir. Diğer 20’i daha uzun sürer; çoğu 48 ya da 72 saat, Rocket Launcher III, IV ve V ise 96, 168 ve 240 saat sürer ve 2 ila 10 Schematics gerekir.
+**Şu an süren araştırmadan 24 saat götürür.** Geriye **24 saat ya da daha azı** kalmışsa araştırma hemen **bitirilir**; daha fazlası kalmışsa 24 saat kaybeder ve sürer, onun üzerine bir Schematics daha kullanabilirsin. [Araştırma Merkezi](/wiki/03-Mechanics/Research.md)’nin 209 teknolojisinden 187’i 24 saat ya da daha kısa sürer, bu yüzden bir Schematics onları baştan bitirir. Diğer 22’i daha uzun sürer; çoğu 48 ya da 72 saat, Rocket Launcher III, IV ve V ise 96, 168 ve 240 saat sürer ve 2 ila 10 Schematics gerekir.
 
 - **Teknolojinin saatleri, saatin kendisi değil.** 24 saat, teknolojinin kartında yazan kendi araştırma süresidir. Thulium hızlandırması araştırmayı daha hızlı yürütür ama bir kullanımın götürdüğünü değiştirmez; bir hızlandırma araştırmanın sonunu kapsıyorsa bir kullanım daha az bekleme saati kazandırır (iki kat hızda bir günlük araştırma 12 saatlik beklemedir). Onay penceresi sayacın ne göstereceğini söyler.
 - **Araştırma olduğu gibi sürer.** 24 saat kaybeden araştırma yerini korur: hızlandırma işlemeye devam eder, kuyruğa dokunulmaz ve arkasında hiçbir şey başlamaz. Bilim bekleyen bir araştırma beklemeye devam eder: Schematics zaman verir, yakıt vermez.
@@ -64,12 +64,12 @@ Gerçek zamanla **10 saat** boyunca **Kredi Çiftliğin ve Thulium Çiftliğin i
 
 ### Tinkerer’s Badge {#tinkerers-badge}
 
-**Bir ekipmanı Demirhane’de bir kademe** yükseltir. **Her zaman başarılı olur** ve **ne kredi, ne Thulium, ne de malzeme** gerektirir. [Demirhane](/wiki/06-Items/Forge.md)’nin kademe yükseltmesinin zarı ve bedeli çıkarılmış hâlidir.
+**Bir ekipmanı Demirhane’de bir kademe** yükseltir. **Her zaman başarılı olur** ve **ne kredi, ne Thulium, ne de malzeme** gerektirir. [Demirhane](/wiki/06-Items/Forge.md)’nin kademe yükseltmesinin bedeli çıkarılmış hâlidir.
 
-- **Lekeli’den başlayarak.** Parça zaten **Lekeli ya da daha iyi** olmalı (Standart, Lekeli, İlahi, Patlayan ve Ebedi arasında 2. kademe ve üstü). Standart bir parça reddedilir, çünkü Demirhane’nin ilk adımı zaten her zaman başarılı olur.
-- **Tek adım.** Bir Badge, Lekeli bir parçayı İlahi, İlahi bir parçayı Patlayan, Patlayan bir parçayı Ebedi yapar.
-- **Bonuslar Demirhane’deki gibi çekilir.** Aynı aralıklar ve yeni bir yuvayı doldurmak için aynı şanslar; yani Badge ile yükseltilmiş parça, Demirhane ile yükseltilmiş parça gibidir.
-- **Demirhane’nin diğer kuralları geçerlidir.** Bonus taşıyabilen tek bir parça; Nakliye Deposu’nda olmayan; henüz Ebedi olmayan. Gemideki bir parça yeni kademesiyle hemen çalışır ve Satılabilir etiketini korur.
+- **Standart’tan başlayarak.** Parça Yücelmiş’in altındaki herhangi bir kademede olabilir: ilk adım, Standart’tan Uyanmış’a, bile bir Badge alır.
+- **Tek adım.** Bir Badge, Standart bir parçayı Uyanmış, Uyanmış bir parçayı Rezonanslı, Rezonanslı bir parçayı Parlak, Parlak bir parçayı Yücelmiş yapar.
+- **Bonuslar Demirhane’deki gibi çekilir.** Parçanın taşıdığı her bonus yeni kademenin aralığında yeniden çekilir ve daha iyi değer kalır, bir yuva da uyanır; yani Badge ile yükseltilmiş parça, Demirhane ile yükseltilmiş parça gibidir.
+- **Demirhane’nin diğer kuralları geçerlidir.** Bonus taşıyabilen tek bir parça; Nakliye Deposu’nda olmayan; henüz Yücelmiş olmayan. Gemideki bir parça yeni kademesiyle hemen çalışır ve Satılabilir etiketini korur.
 - Demirhane’de **Kademe yükselt** düğmesinin yanında ikinci bir düğme olarak bulursun; bir Badge’in varsa ve seçilen parça uygunsa görünür.
 
 ### Forger’s Seal {#forgers-seal}
@@ -84,12 +84,12 @@ Gerçek zamanla **10 saat** boyunca **Kredi Çiftliğin ve Thulium Çiftliğin i
 
 ### Workforce Contract
 
-**Üç Skylab işçisinden birini 1 saatliğine** tutar. İşçiyi sözleşmeyi kullanırken seçersin. **Aynı anda bir sözleşme:** biri sürerken ikincisi reddedilir ve harcanmaz. Henüz yapacak işi olmayan bir işçi (üretici yok, Cevher Bölmesi yok, kurulu modül yok) de reddedilir ve sözleşme sende kalır.
+**Üç Skylab işçisinden birini 1 saatliğine** tutar. İşçiyi sözleşmeyi kullanırken seçersin, bir de **kaç sözleşme harcayacağını**: bir sayı yaz ya da **Hepsi**’ne bas. Birkaç sözleşme, o tek işçi için o kadar saatlik **tek bir dönem** olur (12 sözleşme, Foreman’in 12 saati), aşağıdaki tablo da bunun her saati için geçerlidir. **Aynı anda bir dönem:** biri sürerken ikinci kullanım reddedilir, ona süre eklemez ve hiçbir şey harcanmaz. Henüz yapacak işi olmayan bir işçi (üretici yok, Cevher Bölmesi yok, kurulu modül yok) de reddedilir ve sözleşmeler sende kalır.
 
 | İşçi | 1 saat boyunca |
 | :--- | :--- |
 | **Foreman** | Her üretici iki kat fazla üretir: Kredi Çiftliği, Thulium Çiftliği, Velkonite ve Orvium Toplayıcıları, Cephane Yazıcısı ve Roket Fabrikası. Stone gibi sayılır: yalnızca bir modül üretirken, ve dolu bir hazne bunu boşa harcar. Dökümhane ile Cevher Bölmesi bu anlamda üretici değildir |
-| **Engineer** | Skylab yükseltmeleri iki kat hızlı ilerler: süren her yükseltme en fazla 1 saat ve hiçbir zaman kalan süresinin yarısından fazla olmamak üzere erken biter; saat içinde başlattığın bir yükseltme, saatin kalan kısmı kadar ve hiçbir zaman yarısından fazla olmamak üzere kısalır |
+| **Engineer** | Skylab yükseltmeleri iki kat hızlı ilerler: süren her yükseltme harcanan her sözleşme için en fazla 1 saat ve hiçbir zaman kalan süresinin yarısından fazla olmamak üzere erken biter; dönem içinde başlattığın bir yükseltme, dönemin kalan kısmı kadar ve hiçbir zaman yarısından fazla olmamak üzere kısalır |
 | **Hauler** | Cevher Bölmesi’nin kota sınırı kalkar: kargonun ve Kaynak Deposu’ndaki yerin izin verdiği kadar taşır. Biriktirdiği kota sonrasında dokunulmamış kalır |
 
 Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab.md#ore-bay)’yle ilgili geri kalan her şey geçerlidir: kurulu, açık, yükseltilmiyor ve enerjisi var olmalı; geminin de park halinde olması gerekir.
@@ -99,7 +99,7 @@ Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab
 - **Eşya değil, sayaç.** Hangar’daki envanter onları sarf malzemeleri arasında kutucuklar olarak listeleyen tek yerdir; hiç sahip olmadığın bir türün kutucuğu yoktur. Kutucuk bir eşya değildir, bu yüzden sürüklenemez, seçilemez, silinemez ya da satılamaz. Ağırlıkları, kısayol çubuğunda yerleri, kargoda ya da Nakliye Deposu’nda yerleri yoktur; gemin yok edildiğinde asla düşmezler.
 - **Sıfırlamadan sonra da.** Özel eşyaların ve süren bir Philosopher’s Stone ya da sözleşme, Skylab, araştırma ve görünümlerin gibi korunur.
 - **Asla takas edilmez.** [Açık Artırma](/wiki/03-Mechanics/Auction.md)’da, başka bir pilota, krediyle de olmaz.
-- **Temponu yalnızca Hammer değiştirebilir** ve yalnızca 5 tane taşıyabilirsin. Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, bir araştırmanın 24 saati.
+- **Temponu yalnızca Hammer değiştirebilir.** Diğer beşi bilerek küçüktür: iki çiftliğin 10 saati, bir işçinin 1 saati, bir kademe, bir kuyruğun 30 dakikası, bir araştırmanın 24 saati.
 - **Bir kullanım, bir onay, bir ses.** Her kullanım kendi kısık sesli işaretini çalar.
 
 ## Sık yapılan hatalar {#common-mistakes}
@@ -107,7 +107,7 @@ Hauler yalnızca kotayı kaldırır. [Cevher Bölmesi](/wiki/03-Mechanics/Skylab
 - **Hammer için süren bir yükseltme gerekir.** Önce yükseltmeyi başlat. Sayacı çoktan dolmuş bir modülde bitirilecek bir şey kalmamıştır.
 - **Uzun bir araştırma birkaç Schematics ister.** Bir tanesi 24 saat götürür, fazlasını değil: 240 saatlik bir teknoloji on tane ister. Onaylamadan önce sayfa ne kadar kalacağını söyler.
 - **Stone hazneyi büyütmez.** Bir çiftlik dolmadan topla, yoksa bonus kaybolur.
-- **Badge, Lekeli ve üstü içindir.** Demirhane’nin ilk adımı için Badge gerekmez.
+- **Yücelmiş bir parça Badge almaz.** Zaten en üst kademededir: yükseltilecek bir şey kalmamıştır.
 - **Sözleşmenin yapacak işe ihtiyacı vardır.** Önce bir üretici, bir Cevher Bölmesi ya da bir modül kur, sonra işçiyi tut.
 - **Sayfaya bak.** Eşyayı ve neyi harcadığını belirtir; kullanım kesindir.
 

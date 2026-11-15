@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -17,7 +17,7 @@ En dungeon är inte en [soloport](/wiki/03-Mechanics/Solo-Gates.md). En soloport
 
 - **Öppnar**: Från säsongsdag 1
 - **Vem som öppnar en dungeon**: En vice ledare eller ledaren, som betalar priset ur klanbanken
-- **Grupp**: 4 till 10 medlemmar av klanen, i en grupp
+- **Grupp**: 3 till 10 medlemmar av klanen, i en grupp
 - **Dungeons per dag**: 3 per klan och UTC-dag, en öppen åt gången
 - **Dungeons samtidigt**: 6 i en värld
 - **Kartor**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ En dungeon är inte en [soloport](/wiki/03-Mechanics/Solo-Gates.md). En soloport
 
 1. **Kalla fram.** På fliken Dungeons väljer en [vice ledare eller ledaren](/wiki/03-Mechanics/Clans.md#hierarchy-roles) ett steg och trycker på **Kalla fram**. Priset tas ur [klanbanken](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), och dungeonen får en av kartorna som listas ovan. En dungeon som ingen startar stängs, och priset går tillbaka till banken.
 2. **Gå in.** Klanens medlemmar trycker på **Gå in** i klanfönstret medan de flyger, hoppar genom klanportalen eller trycker på **Gå med** på aviseringskortet (se Gå in). Alla landar i startrummet, och piloterna därinne är dungeonens grupp.
-3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan dungeonen samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Dungeonen **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade dungeonen, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på. När dungeonen startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
+3. **Starta.** Startrummet är ett litet rum i ena änden av labyrinten, och dess dörr är stängd medan dungeonen samlas. Det finns inga utomjordingar där, så det är säkert att vänta. Dungeonen **startar av sig själv** när varje pilot den väntar på är inne och gruppen är tillräckligt stor. Den väntar på klanens medlemmar som är online, inte borta och i gruppen hos en pilot som har gått in, och den startar genast när gruppen är full. Piloten som öppnade dungeonen, eller en officer, kan trycka på **Starta** för att börja tidigare med de piloter som är inne, om de är tillräckligt många. En pilot som lämnar väntas inte längre på, och det gör man inte heller för en pilot som inte har kommit in och har lämnat gruppen eller gått offline. När dungeonen startar öppnas dörren för gott, och därefter kan bara piloter som redan var inne komma tillbaka.
 4. **Kämpa dig genom labyrinten.** Du kommer in i ena änden av labyrinten och krigsherren väntar i den andra, i ett låst rum. Labyrinten är mörk: du ser bara det gruppen har utforskat och det som är nära dess skepp. Utomjordingarna väntar i flockar i korridorerna, och en flock kommer ut i samma ögonblick som en pilot flyger in i den korridorsträcka där den väntar, och jagar sedan gruppen genom labyrinten.
 5. **Öppna bytezonerna.** Ringar i labyrinten markerar zonerna. Håll en och gruppen röstar om ett kort, som betalas ut tillsammans med krigsherrens betalning.
 6. **Lås upp bossrummet.** Förstör tre fjärdedelar av labyrintens Crystalys och deras Twins, så öppnas dörren till krigsherrens rum. Tills dess kan krigsherren inte skadas. De andra utomjordingarna blir kvar där de är, och du kan förstöra dem också.
@@ -215,6 +215,7 @@ Skrovet och skölden ovan gäller för en grupp på 5. De växer med gruppen: de
 
 | Piloter i gruppen | Steg 1 | Steg 2 | Steg 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10 800 000 | 16 200 000 | 27 000 000 |
 | 4 | 14 400 000 | 21 600 000 | 36 000 000 |
 | 5 | 18 000 000 | 27 000 000 | 45 000 000 |
 | 6 | 21 600 000 | 32 400 000 | 54 000 000 |
@@ -334,22 +335,24 @@ Korten dras ett i taget ur poolen nedan. Chansen är ett korts chans i en dragni
 
 <!-- dungeons-cards:end -->
 
-Korten med ett exemplar är **utrustning**, och bara en dungeon av steg 3 kan erbjuda dem. Ett utrustningsstycke smids för varje pilot som får betalt när det betalas ut: var och en slår en egen [förtrollningsnivå](/wiki/06-Items/Overview.md#item-enchants) med samma chanser som ett stycke du bygger i Monteringen, så de flesta blir Standard, och en högre nivå, upp till Evig, med bonusar, är ett sällsynt fynd.
+Korten med ett exemplar är **utrustning**, och bara en dungeon av steg 3 kan erbjuda dem. Ett utrustningsstycke smids för varje pilot som får betalt när det betalas ut: var och en slår en egen [förtrollningsnivå](/wiki/06-Items/Overview.md#item-enchants) med samma chanser som ett stycke du bygger i Monteringen, så de flesta blir Standard, och en högre nivå, upp till Uppstigen, med bonusar, är ett sällsynt fynd. Varje del slumpar också sin [integritet](/wiki/06-Items/Forge.md#integrity-and-fractures), som en tillverkad del gör.
 
 ## Betalning {#pay}
 
 När krigsherren faller får varje pilot som förtjänat det betalt, en gång per genomförd omgång. Korten som gruppen valde kommer ovanpå stegets betalning. Det finns ingen världsmultiplikator: betalningen är densamma i varje värld.
 
-**Orvium Reinforced Plates** är inte ett kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. Föremålen som klarningen betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
+**Orvium Reinforced Plates** och Smedjans **Echo Shards** och **Lattice Shards** är inte kort i omröstningen. De hör till stegets betalning, och varje betald pilot får dem en gång för klarningen. **Heartshards** betalas på ett annat sätt: raden under tabellen säger hur. Föremålen som klarningen betalar är inte säljbara: du kan inte [sälja dem på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Steg | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | PvE-rankingpoäng |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 600 |
-| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 1 500 |
-| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 400 |
+| Steg | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
+| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
+| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+
+- **Heartshards**: 1 vid första betalda avklarningen av varje etapp under en säsong, och 5 % chans till ytterligare ett vid varje betald avklarning.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Vad en pilot kan få betalt på en dag, och under den bästa vecka som gränsern
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Betalning per pilot | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | PvE-rankingpoäng |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 4 500 |
-| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 21 300 |
+| Betalning per pilot | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
+| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
 
-Erfarenheten från ett betalt, avklarat steg räknas med i dina PvE-rankingpoäng: en poäng för varje 1 000 erfarenhet.
+Erfarenheten och hedern från ett betalt, avklarat steg räknas med i dina PvE-rankingpoäng: en poäng för varje 1 000 erfarenhet och en för varje 100 heder.
 
 <!-- dungeons-totals:end -->
 

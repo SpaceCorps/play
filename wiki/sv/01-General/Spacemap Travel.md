@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Spacemap-resor -->
 # Spacemap-resor {#spacemap-travel}
 
@@ -29,10 +29,10 @@ Universum består av tre huvudsektorer för koncernerna (Mars, Terra, Galactic) 
 
 - **x-1 (hembas)**: Startkartan för varje koncern (M-1, T-1, G-1). Den säkraste zonen.
 - **x-2 -> x-3**: Expansionszoner med successivt tuffare utomjordingar.
-- **x-4 (gräns)**: Porten till PvP-sektorn och till en annan koncerns `x-3` (Ringen, nedan).
+- **x-4 (gräns)**: Porten till PvP-sektorn och till en annan koncerns `x-3` (Ringen, nedan). Mitt i den finns en Mission Control-station.
 - **DS-x (farosektorer)**: Den centrala PvP-zonen som förbinder alla koncerner: DS-1 till DS-4. Den rymmer en pulsar i var och en av DS-1 till DS-3 från säsongens första dag och, från säsongsdag 11, en jättegrävmaskin bredvid varje och Dormant Swamp ([Farosektorer](/wiki/01-General/Danger-Sectors.md)). I Beta och Gamma står jättegrävmaskinerna från säsongens första dag.
 
-Bara hembaserna har en station. Det är där **Mission Control** öppnas, och dess säkra zon sträcker sig 1 600 enheter runt den. Farosektorerna har ingen station, `DS-1` inte heller: de enda säkra zonerna där är ringarna på 660 enheter runt hoppportalerna, och Mission Control kan inte öppnas där; flyg tillbaka till din bas för dina uppdrag.
+Bara hembaserna (`x-1`) och gränserna (`x-4`) har en station. Det är där **Mission Control** öppnas och där du antar och hämtar uppdrag, inom 1 600 enheter från den. Stationen i en hembas har en säker zon med den radien. Stationen i en gräns, mitt i sektorn, har **ingen**: den är bara en Mission Control-punkt, och piloter där kan fortfarande bli attackerade. Den är en liten utpost, en enda ruta av hembasens stad: ett sexkantigt däck med kontrolltornet, radarkupolerna, en landningsplatta och en kommunikationsmast. Farosektorerna har ingen station, `DS-1` inte heller: de enda säkra zonerna där är ringarna på 660 enheter runt hoppportalerna, och Mission Control kan inte öppnas där; flyg tillbaka till en station för dina uppdrag.
 
 Varje [värld](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) har sin egen kopia av hela den här kartan, och var piloter får strida mot varandra beror på den: i Alpha bara i `x-4` och `DS-x`, i Beta överallt utom `x-1`, i Gamma överallt. Galaxkartan färglägger sektorerna efter din världs regel.
 
@@ -52,7 +52,7 @@ Resor på Spacemap sker via **portaler** (hoppportaler). [Jump CPU](/wiki/06-Ite
 
 1. **Hitta en portal**: Portaler finns oftast i hörnen eller kanterna av en karta.
 2. **Navigering**: Flyg ditt skepp nära portalstrukturen.
-3. **Aktivering**: Tryck på **”J”** inom 500 enheter från portalen för att starta hoppet.
+3. **Aktivering**: Tryck på **”J”** inom 500 enheter från portalen för att starta hoppet, eller klicka på **hoppikonen** som hänger över portalen. Inom räckvidd startar ikonen hoppet precis som tangenten; utom räckhåll är den dämpad, och ett klick flyger ditt skepp till portalen och startar hoppet när du kommer fram (varje annan order du ger avbryter det).
 4. **Vänta**: Hoppet **tar 3 sekunder**. Ett fält ovanför snabbfältet (”Hoppar…”) fylls under tiden, och portalen lyser starkare när den laddas; andra piloter ser samma laddning på portalen när du hoppar. Ditt skepp fortsätter flyga, men du måste stanna inom 500 enheter från portalen tills tiden är ute: flyger du utom räckhåll avbryts hoppet (”Portalen är för långt bort för att hoppa.”, och fältet blir rött). Att trycka på **”J”** igen medan du hoppar gör ingenting annat än att tala om det för dig.
 5. **Destination**: Du kommer fram vid motsvarande portal på målkartan.
 

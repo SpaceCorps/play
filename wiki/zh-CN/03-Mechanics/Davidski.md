@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski 是一位会飞的商人。他是一艘和平的 NPC 飞船，每天出
 
 ## 他的飞船 {#his-ship}
 
-一艘涂成金色的 **Ironclad TITANIC**，保持 TITANIC 自身的尺寸，配备每种部件中最好的，并锻造至 Eternal：
+一艘涂成金色的 **Ironclad TITANIC**，保持 TITANIC 自身的尺寸，配备每种部件中最好的，并锻造至升华：
 
 | 部分 | 物品 |
 |---|---|

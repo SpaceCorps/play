@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: dd9c581d9c3cc64d -->
+<!-- wiki-i18n source: 56ff9739379ad0a6 -->
 <!-- wiki-i18n title: Erfolge -->
 # Erfolge {#achievements}
 
@@ -77,7 +77,7 @@ Die 45 Erfolge, die nicht versteckt sind, nach Gruppen. Wo ein Ziel etwas zählt
 | Stationsbauer | Baue 5 verschiedene Skylab-Module. | Gewöhnlich |
 | Voll ausgestattet | Baue alle 16 Skylab-Module. | Episch |
 | Gelehrter | Erforsche 50 Technologien. | Ungewöhnlich |
-| Archivar | Erforsche alle 187 Technologien. | Legendär |
+| Archivar | Erforsche alle 209 Technologien. | Legendär |
 
 ### Flotte {#group-fleet}
 
@@ -138,7 +138,7 @@ Im **Steam-Build** kannst du dein Spielkonto mit deinem Steam-Konto verknüpfen,
 - **Eins zu eins.** Ein Spielkonto hält höchstens ein Steam-Konto, und ein Steam-Konto lässt sich mit einem Spielkonto verknüpfen. Ist ein Steam-Konto schon mit einem anderen Piloten verknüpft, sagt das Spiel es dir und verknüpft nichts. Ein Admin kann eine Verknüpfung von Hand verschieben, wenn zwei Konten dasselbe Steam-Konto beanspruchen.
 - **Was der Server speichert**, ist deine Steam-ID, die öffentliche Nummer deines Steam-Kontos, und der Zeitpunkt der Verknüpfung. Sonst speichert er nichts von Steam: weder deinen Steam-Namen noch Freunde, Spiele oder dein Passwort. Die ID sehen nur du und die Administratoren des Spiels, andere Piloten nie.
 - **Trennen** auf derselben Karte, mit deinem Passwort: Die gespeicherte Steam-ID wird sofort gelöscht. Nach einer Trennung kannst du erst nach 24 Stunden ein anderes Steam-Konto verknüpfen; dasselbe wieder zu verknüpfen geht sofort. In diesen 24 Stunden behält der Server eine kurze Notiz zur Trennung (den Zeitpunkt und einen verwürfelten Code aus der ID, nur um zu erkennen, ob du dasselbe Konto wieder verknüpfst) und löscht sie dann.
-- **Erfolge erreichen Steam, sobald du sie freischaltest**, solange das laufende Steam-Konto das verknüpfte ist: Steam zeigt sein eigenes Pop-up ein paar Sekunden nach dem des Spiels. Bei jeder Anmeldung prüft das Spiel außerdem, was Steam fehlt, und setzt es; ein Erfolg aus einem direkten Download oder aus einer Zeit, in der Steam geschlossen war, kommt also dann an, und ein fehlgeschlagener Versuch wird von selbst wiederholt. Solange du auf einem anderen Server (einem regionalen Knoten) fliegst, wird dort nichts verdient oder gesendet; zurück an der Station holt das Spiel es nach. Offline geht nichts verloren: Das Spiel behält den Eintrag, und Steam erfährt es später.
+- **Erfolge erreichen Steam, sobald du sie freischaltest**, solange das laufende Steam-Konto das verknüpfte ist: Steam zeigt sein eigenes Pop-up ein paar Sekunden nach dem des Spiels. Bei jeder Anmeldung prüft das Spiel außerdem, was Steam fehlt, und setzt es; ein Erfolg aus einem direkten Download oder aus einer Zeit, in der Steam geschlossen war, kommt also dann an, und ein fehlgeschlagener Versuch wird von selbst wiederholt. Solange du auf einem anderen Server (einem regionalen Knoten) fliegst, wird dort nichts freigeschaltet oder an Steam gesendet; die Kills, die du dort erzielst, zählen für die Kill-Erfolge, sobald der Heimatserver den Flug speichert (ein Kill, den du mit deiner Gruppe teilst, zählt dort nur für den Piloten, der ihn erzielt, nicht für seine Gruppenmitglieder, anders als am Heimatserver), und zurück an der Station holt das Spiel den Rest nach. Offline geht nichts verloren: Das Spiel behält den Eintrag, und Steam erfährt es später. Was sonst auf einem Regionalserver funktioniert, steht unter [Server](/wiki/03-Mechanics/Servers.md).
 - Die Credits und Titel eines Erfolgs stammen aus dem eigenen Eintrag des Spielservers, nie von Steam.
 
 ## Seit wann gezählt wird {#when-counting-began}

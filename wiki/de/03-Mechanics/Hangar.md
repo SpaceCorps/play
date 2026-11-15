@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar im Flug -->
 # Der Hangar im Flug {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Du musst nicht zur Basis zurückkehren, um dein Schiff zu ändern. Aus einer Sch
 
 Eine Änderung ist nur erlaubt, solange all das zutrifft:
 
-- **Eine Schutzzone schützt dich.** Jede Station und jedes Portal hat einen Schutzring (siehe [Kampf](/wiki/03-Mechanics/Combat.md)). Darin bist du geschützt, sobald seit deinem letzten Treffer 5 Sekunden und seit deinem letzten Schuss 15 Sekunden vergangen sind.
+- **Eine Schutzzone schützt dich.** Die Station jeder Heimatbasis und jedes Portal hat einen Schutzring (siehe [Kampf](/wiki/03-Mechanics/Combat.md)); die Mission-Control-Station eines Grenzsektors hat keinen. Darin bist du geschützt, sobald seit deinem letzten Treffer 5 Sekunden und seit deinem letzten Schuss 15 Sekunden vergangen sind.
 - **Du warst noch ein paar Sekunden länger nicht im Kampf**: standardmäßig **10**. Das spielt eine Rolle, wenn du durch ein Portal sofort geschützt ankommst und ein Kampf hinter dir liegt.
 - Du bist nicht getarnt, nicht im Fenster deines eigenen EMP und nicht in der Nähe des [Schwarzen Lochs](/wiki/03-Mechanics/Black-Hole.md), und keine Rakete von dir ist noch in der Luft.
 

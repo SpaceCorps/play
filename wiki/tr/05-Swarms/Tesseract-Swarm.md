@@ -80,6 +80,7 @@ Crystalys temel alınarak, gövdesinin %625 kadarıyla yapılmıştır; silahı 
 | Power Core | %66 | 4–7 |
 | Ancient Control Unit | %100 | 1–4 |
 | Dark Matter | %100 | 10–20, pilot başına en çok 5 |
+| Heartshard | %5 | 1 |
 
 ### Facet
 

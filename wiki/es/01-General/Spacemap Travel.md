@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e7457b6f54e88fc9 -->
+<!-- wiki-i18n source: 00f154de4f7e72f2 -->
 <!-- wiki-i18n title: Viajes por el mapa espacial -->
 # Viajes por el mapa espacial {#spacemap-travel}
 
@@ -29,10 +29,10 @@ El universo consta de tres grandes sectores de corporación (Mars, Terra, Galact
 
 - **x-1 (base de origen)**: El mapa inicial de cada corporación (M-1, T-1, G-1). La zona más segura.
 - **x-2 -> x-3**: Zonas de expansión con alienígenas cada vez más duros.
-- **x-4 (frontera)**: La puerta de entrada al sector PvP y al `x-3` de otra corporación (el Anillo, más abajo).
+- **x-4 (frontera)**: La puerta de entrada al sector PvP y al `x-3` de otra corporación (el Anillo, más abajo). Tiene una estación de Mission Control en su centro.
 - **DS-x (sectores de peligro)**: La zona PvP central que conecta todas las corporaciones: de DS-1 a DS-4. Contiene un púlsar en cada uno de DS-1 a DS-3 desde el primer día de la temporada y, desde el día 11, una excavadora gigante junto a cada uno y el Dormant Swamp ([Sectores de peligro](/wiki/01-General/Danger-Sectors.md)). En Beta y Gamma, las excavadoras gigantes están desde el primer día de la temporada.
 
-Solo las bases de origen tienen una estación. Es donde se abre **Mission Control**, y su zona segura se extiende 1.600 unidades a su alrededor. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a tu base para tus misiones.
+Solo las bases de origen (`x-1`) y las fronteras (`x-4`) tienen una estación. Es donde se abre **Mission Control** y donde aceptas y reclamas misiones, a menos de 1.600 unidades de ella. La estación de una base de origen tiene una zona segura de ese radio. La de una frontera, en el centro del sector, **no tiene ninguna**: es solo un punto de Mission Control, y allí te pueden atacar. Es un puesto pequeño, una sola casilla de la ciudad de la base de origen: una cubierta hexagonal con la torre de control, las cúpulas de radar, una plataforma de aterrizaje y un mástil de comunicaciones. Los sectores de peligro no tienen estación, ni siquiera `DS-1`: las únicas zonas seguras allí son los anillos de 660 unidades alrededor de los portales de salto, y Mission Control no puede abrirse allí; vuela de vuelta a una estación para tus misiones.
 
 Cada [mundo](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) (Alpha, Beta, Gamma) tiene su propia copia de todo este mapa, y dónde pueden combatir los pilotos entre sí depende de él: en Alpha, solo en `x-4` y `DS-x`; en Beta, en todas partes excepto en `x-1`; en Gamma, en todas partes. El mapa galáctico colorea los sectores según la regla de tu mundo.
 
@@ -52,7 +52,7 @@ Los viajes por el mapa espacial se hacen a través de **portales de salto**, o s
 
 1. **Localiza un portal**: Los portales suelen estar en las esquinas o en los bordes de un mapa.
 2. **Navegación**: Acerca tu nave a la estructura del portal.
-3. **Activación**: Pulsa **'J'** a menos de 500 unidades del portal para iniciar el salto.
+3. **Activación**: Pulsa **'J'** a menos de 500 unidades del portal para iniciar el salto, o haz clic en el **icono de salto** que cuelga sobre el portal. Al alcance, el icono inicia el salto igual que la tecla; fuera del alcance aparece atenuado, y un clic hace volar tu nave hasta el portal e inicia el salto cuando llegas (cualquier otra orden tuya lo cancela).
 4. **Espera**: El salto **dura 3 segundos**. Mientras tanto se llena una barra sobre tu barra rápida («Saltando…»), y el portal brilla cada vez más a medida que se carga; los demás pilotos ven esa misma carga en el portal cuando saltas. Tu nave sigue volando, pero tienes que quedarte a menos de 500 unidades del portal hasta que se acabe el tiempo: si sales del alcance, el salto se cancela («El portal está demasiado lejos para saltar.», y la barra se vuelve roja). Volver a pulsar **'J'** mientras saltas no hace nada, salvo avisarte de ello.
 5. **Destino**: Llegarás al portal correspondiente del mapa de destino.
 

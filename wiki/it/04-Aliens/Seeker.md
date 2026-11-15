@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9633f4cf6316ffd2 -->
+<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,6 +39,7 @@ A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-
 
 - **Ship Fragment**: 20% di probabilità (min. 1, max. 1)
 - **Daraxium**: 50% di probabilità (min. 1, max. 2)
+- **Echo Shard**: 0,4% di probabilità (min. 1, max. 1)
 
 ## Storia {#lore}
 

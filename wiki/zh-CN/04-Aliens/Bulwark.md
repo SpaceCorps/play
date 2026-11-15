@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 440dd341e5b80c44 -->
+<!-- wiki-i18n source: 52ee2498afd5ee6c -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,6 +32,7 @@ Bulwark 是重装甲的防御平台。它们极具攻击性，火力凶猛：Bul
 - **Cataclysite**：100% 几率（最少 2，最多 2）
 - **Reinforced Hull Plate**：30% 几率（最少 1，最多 1）
 - **Nyxite**：40% 几率（最少 1，最多 2）
+- **Echo Shard**：2% 几率（最少 1，最多 1）
 
 ## 背景故事 {#lore}
 

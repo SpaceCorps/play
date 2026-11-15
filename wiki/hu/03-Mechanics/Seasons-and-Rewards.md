@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e210cf1e0dd2aab8 -->
+<!-- wiki-i18n source: 9de320d04707c575 -->
 <!-- wiki-i18n title: Szezonok és jutalmak -->
 # Szezonok és jutalmak {#seasons-and-rewards}
 
@@ -83,7 +83,7 @@ A Szezonjelentés megmondja, melyik hiányzott, ha hiányzott valamelyik.
 
 ## Friss pontok {#fresh-points}
 
-A **rangpontjaid** azt számolják, amit **az utolsó wipe óta** szereztél: a nyert szinteket, a tapasztalatot és a szezon idegenkilövéseit. A wipe-nál újra nulláról indulnak, a régi rangod bekerül az előzményeidbe, az új szezon rangod pedig a semmiből épül fel, így minden szezon új mászás. **A becsület nem határozza meg a rangodat.** Az összesített számaid (szint, tapasztalat, becsület, kilövések) úgy maradnak, ahogy vannak.
+A **rangpontjaid** azt számolják, amit **az utolsó wipe óta** szereztél: a nyert szinteket, a tapasztalatot, a becsületet és a szezon idegenkilövéseit. A wipe-nál újra nulláról indulnak, a régi rangod bekerül az előzményeidbe, az új szezon rangod pedig a semmiből épül fel, így minden szezon új mászás. Az összesített számaid (szint, tapasztalat, becsület, kilövések) úgy maradnak, ahogy vannak.
 
 A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol. Az a wipe, amely az 1. szezont lezárta, azért a rangért fizetett, amelyet a teljes pályafutásod pontjai adtak. A rangok minimális pontjai úgy maradnak, ahogy vannak.
 

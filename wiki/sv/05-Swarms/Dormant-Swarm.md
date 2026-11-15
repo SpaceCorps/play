@@ -57,7 +57,7 @@ Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och
 | :--- | ---: | ---: | ---: |
 | Skrov | 256 000 | 384 000 | 512 000 |
 | Sköld | 83 400 | 125 100 | 166 800 |
-| Laserskada (en salva per sekund) | 3 570 | 5 355 | 7 140 |
+| Laserskada (en salva per sekund) | 3 315 | 4 973 | 6 630 |
 | Hastighet | 210 | 210 | 210 |
 | Laserräckvidd | 800 | 800 | 800 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |
@@ -75,6 +75,7 @@ Bygger på Wraith med 100 % av skrovet och 300 % av laserskadan; hastighet och
 | Ultra Core och Experimental Fusion Core, delat lika | 100 % | 2 000–3 000 totalt |
 | En av de 4 Episka [raketerna](/wiki/06-Items/Rockets.md), slumpmässigt vald | 100 % | 30–50 |
 | En av [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) och [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets), slumpmässigt vald | 50 % | 1 |
+| Heartshard | 5 % | 1 |
 
 ### Dormant Pulse
 

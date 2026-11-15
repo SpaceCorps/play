@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Soloportar -->
 # Soloportar {#solo-gates}
 
@@ -50,7 +50,7 @@ Chrono-Gates delar går tillbaka till noll vid wipen, och du hittar dem igen var
 
 ### Ett snurr utan del {#a-spin-without-a-part}
 
-De flesta snurr hittar ingen del. Vart och ett betalar ett pris, valt efter chanserna nedan: laserammunition av andra multiplikatorn eller bättre, en raketbunt av andra eller tredje nivån och då och då ett [specialföremål](/wiki/06-Items/Special-Items.md) eller en [container](/wiki/06-Items/Containers.md). Ett pris som inte kan ges (du har till exempel redan det högsta antalet av det specialföremålet) blir en bunt ammunition eller raketer med samma slumpning, så ett snurr betalar aldrig mindre än sin tabell. Priset är tydligt mindre värt än vad snurret kostar: portarna är en Thulium-sänka.
+De flesta snurr hittar ingen del. Vart och ett betalar ett pris, valt efter chanserna nedan: laserammunition av andra multiplikatorn eller bättre, en raketbunt av andra eller tredje nivån och då och då ett [specialföremål](/wiki/06-Items/Special-Items.md) eller en [container](/wiki/06-Items/Containers.md). Ett pris som inte kan ges (till exempel att specialföremålen eller containrarna är avstängda) blir en bunt ammunition eller raketer med samma slumpning, så ett snurr betalar aldrig mindre än sin tabell. Priset är tydligt mindre värt än vad snurret kostar: portarna är en Thulium-sänka.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Du **bygger** en port på sidan Galaxportar och **hoppar in** genom dess portal.
 
 - portens delar: de tas **en gång, när du bygger den**, och ett nekat bygge tar ingenting;
 - ingen annan solo-omgång öppen: du har en omgång åt gången, och en omgång du lämnat går du in i igen genom dess portal eller ger upp innan du bygger en annan port;
-- hemservern (de regionala servrarna har inga portar).
+- hemservern (en port byggs bara på hemservern: på en regional server återvänder du först till basen).
 
-Den byggda porten står i din **hemsektor** (`M-1`, `T-1` eller `G-1`, efter din koncern) som en portal med dess namn, och sidan Galaxportar säger var den står. **Flyg ut, flyg till portalen och hoppa** genom den som genom vilken portal som helst. En spricka måste vara ledig i din värld när du går in: varje värld har ett antal av dem, och när alla är upptagna väntar du.
+Den byggda porten står i din **hemsektor** (`M-1`, `T-1` eller `G-1`, efter din koncern) som en portal med dess namn, och sidan Galaxportar säger var den står. **Flyg ut, flyg till portalen och hoppa** genom den som genom vilken portal som helst. En spricka måste vara ledig i din värld när du går in: varje värld har ett antal av dem, och när alla är upptagna väntar du. Du ser bara **din egen** port: portalerna till andra piloters portar i samma sektor visas inte för dig.
 
-**På de regionala servrarna (Singapore, US East).** Själva porten stannar på hemservern: på en regional server byggs, spelas och betalas ingenting. En byggd port glöms ändå inte där: du får veta det när du kommer, och portalen till din port står också där i din hemsektor. Hoppa genom den så förs du tillbaka till hemservern, där du flyger ut mot din port som ovan.
+**På de regionala servrarna (Singapore, US East).** En byggd port spelas också där. Portalen till din port står på en regional server i din hemsektor, precis som på hemservern, och du får veta det när du kommer. **Hoppa genom den så går du in i en arena på den servern**, med dess latens i stället för hemserverns. En regional server har bara **två arenor i varje värld**, hemservern har många fler: när båda är upptagna väntar du, som du väntar på en ledig spricka på hemservern. Hemservern är fortfarande den enda plats som håller reda på din omgång, dina delar och din utbetalning: utbetalningen når din plånbok när hemservern har räknat omgången, några sekunder efter att den tagit slut, och **plånboken i ditt flygfönster hinner ikapp när du dockar**. Du går in i nästa omgång först när den senaste har räknats. En omgång du lämnar i arenan tar du upp igen genom portalen; vill du ge upp den gör du det i arenan eller på stationen. Är arenan på en regional server avstängd tar dess portal dig i stället tillbaka till hemservern, där du flyger ut mot din port som ovan. Vad som mer fungerar på en regional server står i [Servrar](/wiki/03-Mechanics/Servers.md).
 
 Du landar ensam mitt i en tom arena. Ingen kan attackera dig i den, och Jump CPU och Base CPU fungerar inte.
 
@@ -161,7 +161,7 @@ En boss är en utomjordings skepp, förstorat, med ett eget skrov, en egen sköl
 
 ## Vad en seger betalar {#what-a-clear-pays}
 
-En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen dör: krediterna, Thulium, erfarenheten och heder, malmen, plåtarna och Power Cores, och ammunitionen. Erfarenheten räknas för dina PvE-rankingpoäng, som en dungeons.
+En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen dör: krediterna, Thulium, erfarenheten och heder, malmen, plåtarna och Power Cores, och ammunitionen. Erfarenhet och heder räknas för dina PvE-rankingpoäng, som en dungeons.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen 
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; ammunition: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; ammunition: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
-- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15; ammunition: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
-- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; ammunition: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
-- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; ammunition: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; ammunition: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; ammunition: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
+- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; ammunition: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
+- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; ammunition: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
+- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammunition: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Heartshards**: 1 vid första avklarningen av varje port under en säsong, och 5 % chans till 1 till vid varje avklarning.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen 
 
 ### Utomjordingarna {#the-aliens}
 
-Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken värld du än flyger i: ingen världsmultiplikator, ingen booster och ingen Premium-bonus ändrar dem. En våg betalar för sina utomjordingar **en gång** per omgång, hur ofta du än går och kommer tillbaka. Utbetalningen kommer när varje avsnitt av omgången tar slut: när du lämnar, dör, får slut på liv, ger upp eller klarar den. Nedgörningarna i ett avsnitt förblir obetalda bara vid wipen och vid en omstart av servern medan du är inne (din omgång förblir öppen, men nedgörningarna i det avsnittet går förlorade). Nedgörningar i en port räknas för de [uppdrag](/wiki/03-Mechanics/Quests.md#where-it-counts) som inte anger någon sektor (som de stora jakterna i Utmaningslinjen), i samma stund som de sker (en våg räknas för dem **en gång** per omgång, så som den också betalar en gång), och för inget annat: inte för nedgörningsstatistiken, prestationernas räknare, dödsloggen eller dina drönares och P.E.T.s erfarenhet. Erfarenheten de betalar räknas däremot för dina PvE-rankingpoäng, som erfarenheten av en seger. Utomjordingarnas byte kommer med utbetalningen, rakt in i ditt inventarium.
+Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken värld du än flyger i: ingen världsmultiplikator, ingen booster och ingen Premium-bonus ändrar dem. En våg betalar för sina utomjordingar **en gång** per omgång, hur ofta du än går och kommer tillbaka. Utbetalningen kommer när varje avsnitt av omgången tar slut: när du lämnar, dör, får slut på liv, ger upp eller klarar den. Nedgörningarna i ett avsnitt förblir obetalda bara vid wipen och vid en omstart av servern medan du är inne (din omgång förblir öppen, men nedgörningarna i det avsnittet går förlorade). Nedgörningar i en port räknas för de [uppdrag](/wiki/03-Mechanics/Quests.md#where-it-counts) som inte anger någon sektor (som de stora jakterna i Utmaningslinjen), i samma stund som de sker (en våg räknas för dem **en gång** per omgång, så som den också betalar en gång), och för inget annat: inte för nedgörningsstatistiken, prestationernas räknare, dödsloggen eller dina drönares och P.E.T.s erfarenhet. Erfarenhet och heder som de betalar räknas däremot för dina PvE-rankingpoäng, som erfarenhet och heder av en seger. Utomjordingarnas byte kommer med utbetalningen, rakt in i ditt inventarium.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

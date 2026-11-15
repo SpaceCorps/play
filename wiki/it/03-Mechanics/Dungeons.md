@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Dungeon -->
 # Dungeon {#dungeons}
 
@@ -17,7 +17,7 @@ Un dungeon non è una [porta solo](/wiki/03-Mechanics/Solo-Gates.md). Una porta 
 
 - **Apre**: Dal giorno 1 della stagione
 - **Chi apre un dungeon**: Un co-leader o il leader, che paga il prezzo con la banca del clan
-- **Gruppo**: Da 4 a 10 membri del clan, in un solo gruppo
+- **Gruppo**: Da 3 a 10 membri del clan, in un solo gruppo
 - **Dungeon al giorno**: 3 per clan in un giorno UTC, una sola aperta alla volta
 - **Dungeon contemporanei**: 6 in un mondo
 - **Mappe**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ Un dungeon non è una [porta solo](/wiki/03-Mechanics/Solo-Gates.md). Una porta 
 
 1. **Convoca.** Nella scheda Dungeon un [Co-leader o il Leader](/wiki/03-Mechanics/Clans.md#hierarchy-roles) sceglie una fase e preme **Convoca**. Il prezzo esce dalla [banca del clan](/wiki/03-Mechanics/Clans.md#clan-economy-taxation), e il dungeon prende una delle mappe elencate sopra. Un dungeon che nessuno avvia si chiude, e il prezzo torna alla banca.
 2. **Entra.** I membri del clan premono **Entra** nella finestra del Clan mentre sono in volo, saltano attraverso il portale del clan o premono **Unisciti** sulla scheda di avviso (vedi Entrare). Tutti atterrano nella sala di partenza, e i piloti all’interno sono il gruppo del dungeon.
-3. **Avvia.** La sala di partenza è una piccola sala a un’estremità del labirinto, e il suo portello resta chiuso mentre il dungeon si riunisce. Dentro non ci sono alieni, quindi si può aspettare in sicurezza. Il dungeon **parte da solo** quando ogni pilota che aspetta è dentro e il gruppo è abbastanza grande. Aspetta i membri del clan che sono online, non assenti e nel gruppo di un pilota che è entrato, e parte subito quando il gruppo è pieno. Il pilota che ha aperto il dungeon, o un ufficiale, può premere **Avvia** per cominciare prima con i piloti che sono dentro, se sono abbastanza. Un pilota che se ne va non viene più aspettato. Quando il dungeon parte, il portello si apre per sempre, e dopo possono tornare solo i piloti che erano già dentro.
+3. **Avvia.** La sala di partenza è una piccola sala a un’estremità del labirinto, e il suo portello resta chiuso mentre il dungeon si riunisce. Dentro non ci sono alieni, quindi si può aspettare in sicurezza. Il dungeon **parte da solo** quando ogni pilota che aspetta è dentro e il gruppo è abbastanza grande. Aspetta i membri del clan che sono online, non assenti e nel gruppo di un pilota che è entrato, e parte subito quando il gruppo è pieno. Il pilota che ha aperto il dungeon, o un ufficiale, può premere **Avvia** per cominciare prima con i piloti che sono dentro, se sono abbastanza. Un pilota che se ne va non viene più aspettato, e nemmeno uno che non è ancora entrato e ha lasciato il gruppo o è andato offline. Quando il dungeon parte, il portello si apre per sempre, e dopo possono tornare solo i piloti che erano già dentro.
 4. **Aprirsi la strada nel labirinto.** Si entra a un’estremità del labirinto e il Signore della guerra aspetta all’altra, in una sala chiusa. Il labirinto è buio: si vede solo ciò che il gruppo ha esplorato e ciò che è vicino alle sue navi. Gli alieni aspettano in branchi nei corridoi, e un branco esce nel momento in cui un pilota vola nel tratto di corridoio dove aspetta, poi dà la caccia al gruppo attraverso il labirinto.
 5. **Aprire le zone del bottino.** Degli anelli nel labirinto segnano le zone. Tienine una e il gruppo vota una carta, che viene pagata insieme alla paga del Signore della guerra.
 6. **Sbloccare la sala del boss.** Distruggi tre quarti dei Crystalys e dei loro Twin del labirinto, e il portello della sala del Signore della guerra si apre. Fino ad allora il Signore della guerra non può essere ferito. Gli altri alieni restano dove sono, e puoi distruggere anche loro.
@@ -215,6 +215,7 @@ Lo scafo e lo scudo qui sopra valgono per un gruppo di 5. Crescono con il gruppo
 
 | Piloti nel gruppo | Fase 1 | Fase 2 | Fase 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
 | 4 | 14.400.000 | 21.600.000 | 36.000.000 |
 | 5 | 18.000.000 | 27.000.000 | 45.000.000 |
 | 6 | 21.600.000 | 32.400.000 | 54.000.000 |
@@ -334,22 +335,24 @@ Le carte vengono estratte una alla volta dal mazzo qui sotto. La probabilità è
 
 <!-- dungeons-cards:end -->
 
-Le carte con una sola copia sono **equipaggiamento**, e solo un dungeon di fase 3 può offrirle. Un pezzo di equipaggiamento viene forgiato per ogni pilota pagato al momento del pagamento: ciascuno tira un proprio [grado di incantamento](/wiki/06-Items/Overview.md#item-enchants) con le stesse probabilità di un pezzo che costruisci nell’Assemblaggio, quindi la maggior parte esce Standard, e un grado più alto, fino a Eterno, con potenziamenti, è un ritrovamento raro.
+Le carte con una sola copia sono **equipaggiamento**, e solo un dungeon di fase 3 può offrirle. Un pezzo di equipaggiamento viene forgiato per ogni pilota pagato al momento del pagamento: ciascuno tira un proprio [grado di incantamento](/wiki/06-Items/Overview.md#item-enchants) con le stesse probabilità di un pezzo che costruisci nell’Assemblaggio, quindi la maggior parte esce Standard, e un grado più alto, fino a Ascendente, con potenziamenti, è un ritrovamento raro. Ogni pezzo tira anche la sua [integrità](/wiki/06-Items/Forge.md#integrity-and-fractures), come fa un pezzo fabbricato.
 
 ## Paga {#pay}
 
 Quando il Signore della guerra cade, ogni pilota che se l’è guadagnata viene pagato, una volta per partita. Le carte scelte dal gruppo si aggiungono alla paga della fase. Non c’è moltiplicatore di mondo: la paga è la stessa in ogni mondo.
 
-Le **Orvium Reinforced Plates** non sono una carta del voto. Fanno parte della paga della fase, e ogni pilota pagato le riceve una volta per il completamento. Gli oggetti che paga il completamento non sono vendibili: non puoi [venderli all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
+Le **Orvium Reinforced Plates** e gli **Echo Shard** e **Lattice Shard** della Forgia non sono una carta del voto. Fanno parte della paga della fase, e ogni pilota pagato li riceve una volta per il completamento. Gli **Heartshard** sono pagati in un altro modo: la riga sotto la tabella spiega come. Gli oggetti che paga il completamento non sono vendibili: non puoi [venderli all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Fase | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Punti classifica PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 600 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 1.500 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2.400 |
+| Fase | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+
+- **Heartshards**: 1 con il primo completamento pagato di ogni livello in una stagione, e il 5% di probabilità di uno in più a ogni completamento pagato.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Ciò che un pilota può ricevere in un giorno, e nella settimana migliore che i 
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Paga per ogni pilota | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Punti classifica PvE |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 4.500 |
-| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 21.300 |
+| Paga per ogni pilota | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
+| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
 
-L’esperienza di una fase completata e pagata conta per i tuoi punti classifica PvE: un punto ogni 1.000 di esperienza.
+L’esperienza e l’onore di una fase completata e pagata contano per i tuoi punti classifica PvE: un punto ogni 1.000 di esperienza e uno ogni 100 di onore.
 
 <!-- dungeons-totals:end -->
 

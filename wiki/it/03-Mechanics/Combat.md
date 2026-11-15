@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -132,8 +132,8 @@ Il danno in arrivo viene diviso tra scudi e punti scafo in base all’**assorbim
 La base di ogni fazione (le mappe X-1) contiene zone sicure.
 - Entrare in una zona sicura rende la tua nave completamente immune ai danni.
 - **Rottura dell’immunità**: attaccare un nemico ti toglie subito l’immunità della zona sicura, anche se ti trovi fisicamente dentro una di esse.
-- Un anello intorno a ogni stazione e portale ti protegge una volta passati 5 secondi da quando sei stato colpito e 15 da quando hai sparato. Finché ti protegge e sei fuori dal combattimento, la finestra Hangar ti permette di cambiare nave senza uscire dal gioco: vedi [L’Hangar in volo](/wiki/03-Mechanics/Hangar.md).
-- Le stazioni si trovano solo nelle basi (`x-1`). I settori pericolosi (da `DS-1` a `DS-4`) non ne hanno: lì gli anelli intorno ai portali sono le uniche zone sicure.
+- Un anello intorno alla stazione di ogni base e a ogni portale ti protegge una volta passati 5 secondi da quando sei stato colpito e 15 da quando hai sparato. Finché ti protegge e sei fuori dal combattimento, la finestra Hangar ti permette di cambiare nave senza uscire dal gioco: vedi [L’Hangar in volo](/wiki/03-Mechanics/Hangar.md).
+- Le stazioni si trovano nelle basi (`x-1`) e nei confini (`x-4`), ma solo la stazione di una base ha un anello: la stazione Mission Control di un confine non protegge nessuno. I settori pericolosi (da `DS-1` a `DS-4`) non ne hanno: lì gli anelli intorno ai portali sono le uniche zone sicure.
 
 ### 3. Sotto attacco in un settore pericoloso {#3-under-attack-in-a-danger-sector}
 

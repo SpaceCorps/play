@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 14b2fa1c997f6c0c -->
+<!-- wiki-i18n source: ccf53b95e9202a49 -->
 <!-- wiki-i18n title: Containrar -->
 # Containrar {#containers}
 
@@ -225,7 +225,7 @@ Skeppen står med sina baschanser. Ett skepp du redan äger kommer aldrig, så d
 
 *Dormant byggde i lilasvart kristall med violetta ådror, och deras arkivarier förvarade färg i tunna glasplattor som målar om allt de pressas mot. Varje Kromaarkiv är en förseglad hög av sådana plattor, indexerad av Mission Controls kolorister och läst av ingen förrän en pilot öppnar den.*
 
-Kromaarkivet drar först klassen och sedan ett utseende i den klassen som du inte äger än, varje utseende lika troligt. En kollektion är en belöning: den ger dig varje skin i den som du inte har. Chansen i tabellen gäller en pilot som inte äger något av klassens utseenden. Den stiger när du samlar, eftersom färre utseenden finns kvar i dragningen. Själva utseendena finns under [Kosmetik](/wiki/06-Items/Cosmetics.md).
+Kromaarkivet drar först klassen och sedan ett utseende i den klassen som du inte äger än, varje utseende lika troligt. En kollektion är en belöning: den ger dig en skin ur den, för en skeppsmodell: ditt aktiva skepps om du saknar den, annars ett annat skepp du äger, annars den första du saknar. Vilket skepp den är till avgörs av en regel, inte av en dragning, så inget mer dras. Chansen i tabellen gäller en pilot som inte äger något av klassens utseenden. Den stiger när du samlar, eftersom färre utseenden finns kvar i dragningen. Själva utseendena finns under [Kosmetik](/wiki/06-Items/Cosmetics.md).
 
 ### Klassernas chanser {#chroma-archive-grades}
 
@@ -500,7 +500,7 @@ and better are in play.
 
 ## Dubbletter och återvinning {#duplicates-and-salvage}
 
-- Ett **utseende** du äger dras inte så länge klassen fortfarande har ett utseende du inte äger. En kollektion räknas som ägd när du har varje skin i den.
+- Ett **utseende** du äger dras inte så länge klassen fortfarande har ett utseende du inte äger. En kollektion räknas som ägd när du har varje skin i den. Till dess kan den komma igen, varje gång med en skin du saknar.
 - När du äger varje utseende i klassen betalar belöningen i stället **återvinning**: Thulium, efter klass. Den räknas som en belöning i den klassen för garantin.
 - **Föremål** förvandlas aldrig till Thulium: de staplas eller kommer som de är.
 - **Skepp** ges aldrig två gånger och betalas aldrig som återvinning (se [Skeppen](#the-ships)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: fe0e51ce5e04b430 -->
+<!-- wiki-i18n source: b17820451440c99b -->
 <!-- wiki-i18n title: Zindanlar -->
 # Zindanlar {#dungeons}
 
@@ -17,7 +17,7 @@ Zindan, bir [solo geçit](/wiki/03-Mechanics/Solo-Gates.md) değildir. Solo geç
 
 - **Açılış**: Sezonun 1. gününden itibaren
 - **Zindanı kim açar**: Bedeli klan bankasından ödeyen bir yardımcı lider ya da lider
-- **Grup**: Klanın 4 ila 10 üyesi, tek bir grupta
+- **Grup**: Klanın 3 ila 10 üyesi, tek bir grupta
 - **Günlük zindan sayısı**: Klan başına UTC gününde 3, aynı anda yalnızca biri açık
 - **Aynı anda zindan**: Bir dünyada 6
 - **Haritalar**: Gate Delta, Gate Epsilon, Gate Zeta, Gate Eta, Gate Theta, Gate Iota
@@ -35,7 +35,7 @@ Zindan, bir [solo geçit](/wiki/03-Mechanics/Solo-Gates.md) değildir. Solo geç
 
 1. **Çağır.** Zindanlar sekmesinde bir [yardımcı lider ya da lider](/wiki/03-Mechanics/Clans.md#hierarchy-roles) bir aşama seçer ve **Çağır**'a basar. Bedel [klan bankasından](/wiki/03-Mechanics/Clans.md#clan-economy-taxation) çıkar ve zindan yukarıda sıralanan haritalardan birini alır. Kimsenin başlatmadığı bir zindan kapanır ve bedel bankaya geri döner.
 2. **Gir.** Klan üyeleri uçarken Klan penceresinde **Gir**'e basar, klan portalından sıçrar ya da uyarı kartındaki **Katıl**'a basar (bkz. Girmek). Herkes başlangıç odasına iner ve içerideki pilotlar zindanın grubudur.
-3. **Başlat.** Başlangıç odası labirentin bir ucundaki küçük bir odadır ve zindan toplanırken kapısı kapalıdır. İçinde uzaylı yoktur, bu yüzden orada beklemek güvenlidir. Zindan, beklediği her pilot içeride olduğunda ve grup yeterince büyük olduğunda **kendiliğinden başlar**. Çevrimiçi olan, uzakta olmayan ve içeri girmiş bir pilotun grubunda bulunan klan üyelerini bekler, grup dolduğunda da hemen başlar. Zindanı açan pilot ya da bir subay, içeridekiler yeterince kalabalıksa onlarla daha erken başlamak için **Başlat**'a basabilir. Ayrılan bir pilot artık beklenmez. Zindan başladığında kapı bir daha kapanmamak üzere açılır ve bundan sonra yalnızca zaten içeride olan pilotlar geri dönebilir.
+3. **Başlat.** Başlangıç odası labirentin bir ucundaki küçük bir odadır ve zindan toplanırken kapısı kapalıdır. İçinde uzaylı yoktur, bu yüzden orada beklemek güvenlidir. Zindan, beklediği her pilot içeride olduğunda ve grup yeterince büyük olduğunda **kendiliğinden başlar**. Çevrimiçi olan, uzakta olmayan ve içeri girmiş bir pilotun grubunda bulunan klan üyelerini bekler, grup dolduğunda da hemen başlar. Zindanı açan pilot ya da bir subay, içeridekiler yeterince kalabalıksa onlarla daha erken başlamak için **Başlat**'a basabilir. Ayrılan bir pilot artık beklenmez; henüz içeri girmemiş olup gruptan ayrılan ya da çevrim dışı kalan pilot da beklenmez. Zindan başladığında kapı bir daha kapanmamak üzere açılır ve bundan sonra yalnızca zaten içeride olan pilotlar geri dönebilir.
 4. **Labirentten geç.** Labirente bir uçtan girersin, Savaş Lordu diğer uçta, kilitli bir odada bekler. Labirent karanlıktır: yalnızca grubun keşfettiği yerleri ve gemilerinin yakınındakileri görürsün. Uzaylılar koridorlarda sürüler halinde bekler ve bir sürü, bir pilot beklediği koridor bölümüne uçtuğu anda çıkar, sonra grubu labirent boyunca kovalar.
 5. **Ganimet bölgelerini aç.** Labirentteki halkalar bölgeleri işaretler. Birini elinde tut, grup bir kart için oy versin; kart, Savaş Lordu'nun ödemesiyle birlikte ödenir.
 6. **Patron odasının kilidini aç.** Labirentteki Crystalys’lerin ve Twin’lerinin dörtte üçünü yok et; Savaş Lordu'nun odasının kapısı açılır. O zamana kadar Savaş Lordu'na zarar verilemez. Diğer uzaylılar oldukları yerde kalır, onları da yok edebilirsin.
@@ -215,6 +215,7 @@ Yukarıdaki gövde ve kalkan 5 kişilik bir grup içindir. Grupla birlikte büy�
 
 | Gruptaki pilotlar | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | ---: | ---: | ---: |
+| 3 | 10.800.000 | 16.200.000 | 27.000.000 |
 | 4 | 14.400.000 | 21.600.000 | 36.000.000 |
 | 5 | 18.000.000 | 27.000.000 | 45.000.000 |
 | 6 | 21.600.000 | 32.400.000 | 54.000.000 |
@@ -334,22 +335,24 @@ Kartlar, aşağıdaki havuzdan teker teker çekilir. Şans, bir kartın tek bir 
 
 <!-- dungeons-cards:end -->
 
-Tek kopyalı kartlar **ekipmandır** ve yalnızca aşama 3 bir zindan bunları sunabilir. Bir ekipman parçası, ödeme alan her pilot için ödenirken dövülür: her biri Montaj'da yaptığın bir parçayla aynı şanslarla kendi [büyüleme kademesini](/wiki/06-Items/Overview.md#item-enchants) çeker; bu yüzden çoğu Standart çıkar ve Ebedi'ye kadar daha yüksek bir kademe, bonuslarıyla, nadir bir bulgudur.
+Tek kopyalı kartlar **ekipmandır** ve yalnızca aşama 3 bir zindan bunları sunabilir. Bir ekipman parçası, ödeme alan her pilot için ödenirken dövülür: her biri Montaj'da yaptığın bir parçayla aynı şanslarla kendi [büyüleme kademesini](/wiki/06-Items/Overview.md#item-enchants) çeker; bu yüzden çoğu Standart çıkar ve Yücelmiş'ye kadar daha yüksek bir kademe, bonuslarıyla, nadir bir bulgudur. Her parça ayrıca [bütünlüğünü](/wiki/06-Items/Forge.md#integrity-and-fractures) de çeker, üretilen bir parçada olduğu gibi.
 
 ## Ödeme {#pay}
 
 Savaş Lordu düştüğünde, hak eden her pilota tamamlanan tur için bir kez ödeme yapılır. Grubun seçtiği kartlar, aşamanın ödemesinin üstüne gelir. Dünya çarpanı yoktur: ödeme her dünyada aynıdır.
 
-**Orvium Reinforced Plates** oylamadaki bir kart değildir. Aşamanın ödemesinin parçasıdır ve ödeme alan her pilot onları tamamlama başına bir kez alır. Tamamlamanın ödediği eşyalar satılabilir değildir: onları [Açık Artırma'da satamazsın](/wiki/03-Mechanics/Auction.md#marketable-items).
+**Orvium Reinforced Plates** ile Demirhane'nin **Echo Shard** ve **Lattice Shard** eşyaları oylamadaki birer kart değildir. Aşamanın ödemesinin parçalarıdır ve ödeme alan her pilot onları tamamlama başına bir kez alır. **Heartshard** farklı ödenir: tablonun altındaki satır nasıl olduğunu söyler. Tamamlamanın ödediği eşyalar satılabilir değildir: onları [Açık Artırma'da satamazsın](/wiki/03-Mechanics/Auction.md#marketable-items).
 
 <!-- dungeons-pay:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Aşama | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | PvE sıralama puanı |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 600 |
-| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 1.500 |
-| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2.400 |
+| Aşama | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
+| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
+| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+
+- **Heartshards**: Bir sezonda her aşamanın ilk ücretli tamamlanmasında 1; ayrıca her ücretli tamamlamada %5 ihtimalle bir tane daha.
 
 <!-- dungeons-pay:end -->
 
@@ -374,12 +377,12 @@ Bir pilotun bir günde ve sınırların izin verdiği en iyi haftada alabileceğ
 <!-- dungeons-totals:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
 
-| Her pilota ödeme | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | PvE sıralama puanı |
-| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 4.500 |
-| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 21.300 |
+| Her pilota ödeme | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
+| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
 
-Ödemesi yapılan bir tamamlamanın deneyimi PvE sıralama puanlarınıza sayılır: her 1.000 deneyim için bir puan.
+Ödemesi yapılan bir tamamlamanın deneyimi ve onuru PvE sıralama puanlarınıza sayılır: her 1.000 deneyim için bir puan, her 100 onur için de bir puan.
 
 <!-- dungeons-totals:end -->
 

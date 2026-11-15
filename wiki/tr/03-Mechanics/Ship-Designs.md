@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4916e76f267d67da -->
+<!-- wiki-i18n source: 55892b3d4fff5a5c -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
@@ -20,11 +20,11 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 | **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon | 144.000 | 350 | 14 |
 | **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire | 600.000 | 80 | 5 |
 | **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink | 500.000 | 100 | 10 |
-| **Wraith RAPTOR** | +1 lazer yuvası, +%5 tüm hasar, Venom | 256.000 | 210 | 15 |
-| **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher | 268.800 | 210 | 14 |
-| **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod | 307.200 | 230 | 14 |
-| **Wraith ATARAXIS** | -1 lazer yuvası, +1 destek yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff | 256.000 | 210 | 13 |
-| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme | 256.000 | 210 | 16 |
+| **Wraith RAPTOR** | +1 lazer yuvası, +%5 tüm hasar, Venom | 256.000 | 210 | 14 |
+| **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher | 268.800 | 210 | 13 |
+| **Wraith MENATI** | +%20 temel gövde, +20 temel hız, +%5 kalkan soğurması, Heal Pod | 307.200 | 230 | 13 |
+| **Wraith ATARAXIS** | -1 lazer yuvası, +1 destek yuvası, +%25 kalkan, +%10 kalkan soğurması, Shield Buff | 256.000 | 210 | 12 |
+| **Wraith MATT** | +2 lazer yuvası, -%20 kalkan, +%10 lazer delme | 256.000 | 210 | 15 |
 
 ## Tasarımı edinmek {#getting-a-design}
 
@@ -63,7 +63,7 @@ Dönüştürülecek gemi, o türden sahip olduğun gemidir (THUNDER, BUCKY veya 
 | **Wraith** | 10 | 10 sa | 100 | 5 | 50 sa | 50 |
 | **Dördü birden** | 38 | 38 sa | 380 | 13 | 130 sa | 130 |
 
-Birlikte, diğer tüm teknolojilerin istediği 789’e ek olarak 510 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.384.
+Birlikte, diğer tüm teknolojilerin istediği 979’e ek olarak 510 Dark Matter ister; Skylab’ın modül seviyeleri 115 tane daha ister: oyundaki her teknoloji için toplam 1.604.
 
 ## Geminin başına ne gelir {#what-happens-to-your-ship}
 

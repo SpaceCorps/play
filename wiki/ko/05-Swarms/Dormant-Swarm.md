@@ -57,7 +57,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 | :--- | ---: | ---: | ---: |
 | 선체 | 256,000 | 384,000 | 512,000 |
 | 실드 | 83,400 | 125,100 | 166,800 |
-| 레이저 피해량(초당 일제 사격 1회) | 3,570 | 5,355 | 7,140 |
+| 레이저 피해량(초당 일제 사격 1회) | 3,315 | 4,973 | 6,630 |
 | 속도 | 210 | 210 | 210 |
 | 레이저 사거리 | 800 | 800 | 800 |
 | 어그로 반경 | 공격받을 때만 | 공격받을 때만 | 공격받을 때만 |
@@ -75,6 +75,7 @@ Dormant 무리는 **Dormant Force**와 그 **Dormant Pulse**로 이루어진 함
 | Ultra Core와 Experimental Fusion Core(균등 분배) | 100% | 총 2,000–3,000 |
 | 4종의 영웅 등급 [로켓](/wiki/06-Items/Rockets.md) 중 무작위 하나 | 100% | 30–50 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets)와 [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) 중 무작위 하나 | 50% | 1 |
+| Heartshard | 5% | 1 |
 
 ### Dormant Pulse
 

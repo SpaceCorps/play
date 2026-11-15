@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 0d92c80e748fc9b8 -->
+<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
 <!-- wiki-i18n title: Perícias do piloto -->
 # Perícias do piloto {#pilot-skills}
 
@@ -15,7 +15,7 @@ Um piloto novo não está com força total. No nível 1, um laser e um foguete c
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estatísticas**: 19 estatísticas: 4 atributos e 15 perícias em 5 grupos
+- **Estatísticas**: 20 estatísticas: 4 atributos e 16 perícias em 5 grupos
 - **Níveis**: De 1 a 100. Todo piloto começa toda estatística no nível 1, e não há nada para gastar nem para refazer
 - **Custo de um nível**: 40 XP do nível 1 ao 2, 875 XP do nível 50 ao 51, 19.157 XP do nível 99 ao 100; 313.258 XP no total
 - **O que um nível dá**: Um bônus cresce em linha reta do valor dele no nível 1 ao valor dele no nível 100. Nada tem limite
@@ -77,6 +77,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | **Evasão** (Reflexos) | Chance de esquivar de um golpe, somada à da própria nave | 0% | 15% |
 | **Tática** (Reflexos) | Duração das habilidades | ×1 | ×1,2 |
 | **Absorção de escudo** (Tenacidade) | Absorção dos seus escudos | +0 pontos | +5 pontos |
+| **Cura** (Massa) | Força dos seus reparos e curas | ×1 | ×1,3 |
 
 ### Controle da nave {#ship-control}
 
@@ -93,12 +94,13 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | **Extração** (Instinto) | O que o Skylab produz | ×1 | ×1,3 |
 | **Logística** (Massa) | O que o banco do Depósito de recursos guarda | ×1 | ×1,4 |
 | **Fabricação** (Reflexos) | Tempo de uma criação | ×1 | ×0,65 |
+|  | Custo de integridade de uma reorganização | ×1 | ×0,7 |
 
 ### Comércio {#trading}
 
 | Estatística | O que muda | Nível 1 | Nível 100 |
 | :--- | :--- | ---: | ---: |
-| **Comércio** (Instinto) | Preços da Loja | ×1 | ×0,85 |
+| **Comércio** (Instinto) | Preços da Loja, e créditos e Thulium de uma criação ou da Forja | ×1 | ×0,85 |
 |  | O que a Loja paga na recompra | ×1 | ×1,1 |
 |  | Depósito de um anúncio no Leilão | ×1 | ×0,5 |
 
@@ -110,12 +112,13 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 - **Lasers.** A Tecnologia laser muda o dano de cada rajada e a chance de ela acertar; uma rajada que erra mostra um “Miss” flutuante e gasta a munição do mesmo jeito ([Combate](/wiki/03-Mechanics/Combat.md#laser-tech)). O alcance dos seus lasers é o da sua nave: a Pontaria sobe com os seus acertos com munição diferente da simples x1, mas só age sobre as Mines (abaixo).
 - **Foguetes.** A Tecnologia de foguetes muda o dano de cada foguete e a chance de um falhar ao acender ([Tecnologia de foguetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, a Evasão aumenta a chance de um acerto direto não fazer nada e a Absorção de escudo aumenta a parte de um acerto que os seus escudos recebem ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
+- **Cura.** A Cura fortalece as curas do seu próprio equipamento: o reparo do seu Repair Drone, um Emergency Repair e o Heal Pod que você solta ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ela treina com o casco que as suas curas restauram; curar uma nave dentro de uma zona segura não conta. O Support Rocket sempre cura a mesma quantidade fixa, em qualquer nível, e ainda assim paga XP de Cura.
 - **Habilidades.** Os Reflexos encurtam o tempo de recarga das suas habilidades e a Tática as faz durar mais ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Sabotagem fortalece os venenos.
 - **Mines.** A Sabotagem aumenta o dano de uma Mine, e a Pontaria a lança mais rápido e mais longe ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidade.** A Teoria de propulsores soma à sua velocidade, além dos motores e de um Afterburner ([Velocidade](/wiki/03-Mechanics/Speed.md)).
 - **Coletas.** O Instinto aumenta a chance de cada linha de saque, como faz um Loot Luck Booster, e os dois se somam; a Antimatéria aumenta a Dark Matter que você coleta ([Carga](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radiação.** A Tecnologia de radiação reduz a dose do buraco negro, dos círculos das escavadeiras, dos pulsares e da aura dos Unwakened ([Buraco negro](/wiki/03-Mechanics/Black-Hole.md)).
-- **Em casa.** A Extração e a Logística mudam o que o [Skylab](/wiki/03-Mechanics/Skylab.md) produz e guarda, o Instinto aumenta os seus dois coletores, a Fabricação encurta as criações da Montagem, a Ciência enche mais rápido o Centro de [Pesquisa](/wiki/03-Mechanics/Research.md), e o Comércio baixa os preços da Loja, aumenta o que ela paga na recompra e baixa o depósito de um anúncio no [Leilão](/wiki/03-Mechanics/Auction.md).
+- **Em casa.** A Extração e a Logística mudam o que o [Skylab](/wiki/03-Mechanics/Skylab.md) produz e guarda, o Instinto aumenta os seus dois coletores, a Fabricação encurta as criações da Montagem, a Ciência enche mais rápido o Centro de [Pesquisa](/wiki/03-Mechanics/Research.md), e o Comércio baixa os preços da Loja e os créditos e o Thulium das criações da Montagem, aumenta o que a Loja paga na recompra e baixa o depósito de um anúncio no [Leilão](/wiki/03-Mechanics/Auction.md). Na [Forja](/wiki/06-Items/Forge.md), o Comércio baixa os créditos e o Thulium de uma etapa e os créditos de uma combinação ([Subir de grau](/wiki/06-Items/Forge.md#tier-up)), e a Fabricação baixa a integridade que uma reorganização tira de uma peça ([Integridade e fraturas](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## Como o XP é pago {#how-xp-is-paid}
 
@@ -152,6 +155,7 @@ A tabela lista o que paga XP, estatística por estatística. O XP é por cada un
 | **Evasão** (Reflexos) | A cada ataque hostil contra você que erra ou é esquivado | 1 | 600 XP por hora |
 | **Tática** (Reflexos) | A cada habilidade que você aciona com um hostil ao alcance do laser | 2 | 600 XP por hora |
 | **Absorção de escudo** (Tenacidade) | A cada 1% do seu escudo máximo consumido por acertos de inimigos | 0,1 | 300 XP por hora |
+| **Cura** (Massa) | A cada 1% do casco máximo de uma nave que uma cura sua restaura | 0,1 | 300 XP por hora |
 | **Tecnologia de radiação** (Tenacidade) | A cada segundo dentro de uma faixa de radiação | 0,2 | Nenhum |
 |  | A cada 1% do seu casco máximo que a radiação tira | 1 |  |
 | **Teoria de propulsores** (Massa) | A cada segundo voado acima de 80% da velocidade da sua nave, o dobro sob um Afterburner | 0,1 | Nenhum |
@@ -186,14 +190,16 @@ Um nível custa mais XP que o anterior, por uma proporção fixa, então os prim
 
 ## A página Perícias do piloto {#the-pilot-skills-page}
 
-A página **Perícias do piloto** é uma página da estação, com uma linha própria na barra lateral. É uma folha compacta de toda a árvore: os atributos e os cinco grupos de perícias ficam lado a lado em colunas (três em uma tela larga, menos em uma estreita), com uma linha por estatística, o seu nível na borda direita e uma barra de XP fina embaixo. Uma estatística que ainda não ganhou XP fica cinza, com um traço no lugar do nível. Deixe o ponteiro sobre uma linha para ver o que a estatística faz, qual atributo a rege ou quais perícias ela treina, o seu XP e o que a faz crescer. Clique em uma linha para abrir os detalhes dela embaixo da sua fileira de colunas: as mesmas palavras, a barra de XP e um controle deslizante para pré-visualizar qualquer nível do 1 ao último, com uma pequena tabela do que a estatística muda no nível 1, no seu nível atual, no nível pré-visualizado e no último nível. Só uma estatística fica aberta por vez; clique de novo na linha, use o botão de fechar ou pressione Esc para guardá-la. A linha da barra lateral ganha um selo quando uma estatística subiu de nível desde a última vez que você abriu a página, e um cartão da janela de Boosters resume o que as suas perícias mudam.
+A página **Perícias do piloto** é uma página da estação, com uma linha própria na barra lateral. É uma folha de toda a árvore: os atributos e os cinco grupos de perícias são **cartões** lado a lado (três em uma tela larga, menos em uma estreita; quando a folha tem espaço para quatro colunas, as seis perícias de Combate ficam em duas colunas dentro do cartão). Uma perícia é uma linha com um ícone em uma peça à esquerda, o seu nome e o seu nível em um **anel** na borda direita que se enche conforme o XP do nível cresce. A peça e o anel têm a cor do atributo que rege a perícia (Massa verde, Tenacidade azul, Reflexos dourado, Instinto violeta), então a árvore se lê pelas cores. Uma perícia que ainda não ganhou XP fica cinza, com um traço no lugar do nível em um anel vazio (Tecnologia laser e Tecnologia de foguetes sempre mostram o seu). Deixe o ponteiro sobre uma linha para ver o que a perícia faz, qual atributo a rege ou quais perícias ele treina, o seu XP e o que a faz crescer; enquanto isso, o atributo que a rege, ou as perícias que ele treina, se acendem.
+
+Os detalhes de uma perícia são as mesmas palavras, a barra de XP e um controle deslizante para pré-visualizar qualquer nível do 1 ao último, com uma pequena tabela do que a perícia muda no nível 1, no seu nível atual, no nível pré-visualizado e no último nível. **Em uma página larga o bastante** (as duas metades dos detalhes ficam então lado a lado), os detalhes da perícia selecionada ficam sempre no pé da página: a primeira perícia da folha até você clicar em outra, e depois a que você clicou. Um clique seleciona, não há botão de fechar e o Esc não os fecha. **Em uma página mais estreita e na janela de voo**, um clique em uma linha abre os detalhes como uma faixa embaixo da sua fileira de cartões, de uma perícia por vez: clique de novo na linha, use o botão de fechar ou pressione Esc para guardá-la. A linha da barra lateral ganha um selo quando uma perícia subiu de nível desde a última vez que você abriu a página, e um cartão da janela de Boosters resume o que as suas perícias mudam.
 
 Em voo, a mesma folha é a janela **Perícias do piloto**. Abra-a com o botão Perícias do piloto da barra de ferramentas (em uma tela larga) ou com a sua tecla, K por padrão (Configurações, Controles). É uma janela como as outras: mova-a, redimensione-a, e ela lembra o seu lugar e se estava aberta. Ela só mostra as suas perícias: os níveis avançam conforme chegam as linhas de XP do voo, e um clique em uma linha abre os mesmos detalhes dentro da janela.
 
 ## O que se mantém {#what-is-kept}
 
 - **Em todos os resets.** A árvore faz parte da sua conta: um reset não muda nenhum nível nem XP, e o Cache de Transporte não tem nada a ver com ela ([O que você mantém](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **Nos servidores regionais.** O XP que você ganha voando em Singapore ou US East é somado às suas perícias quando você volta para casa, inclusive de uma estatística que você usou ali pela primeira vez, e o limite por hora que você gastou ali vai com você. A página Perícias do piloto de um piloto que está voando ali lê os números do servidor regional, com o XP que a nave dele ganhou desde o último salvamento.
+- **Nos servidores regionais.** O XP que você ganha voando em Singapore ou US East é somado às suas perícias quando você volta para casa, inclusive de uma estatística que você usou ali pela primeira vez, e o limite por hora que você gastou ali vai com você. A página Perícias do piloto de um piloto que está voando ali lê os números do servidor regional, com o XP que a nave dele ganhou desde o último salvamento. O que mais funciona em um servidor regional está em [Servidores](/wiki/03-Mechanics/Servers.md).
 - **Até a conta ser excluída.** Excluir uma conta exclui os seus níveis.
 
 Os bônus não têm outro teto além do último nível: um piloto que subiu tudo é tão forte quanto as tabelas dizem.

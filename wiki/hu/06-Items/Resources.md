@@ -20,10 +20,10 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 
 | Nyersanyag | Ritkaság | Honnan jön | Mihez kell |
 | :--- | :--- | :--- | :--- |
-| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Gyakori | Crystalys, Goombah, Bulwark, Phantasm, Seeker, aszteroidák, Különleges küldetések | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Kovácsműhely, Skylab-építések, Kutatóközpont |
-| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Gyakori | Goombah, Bulwark, aszteroidák, küldetések | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Kovácsműhely, Kutatóközpont |
-| [Power Core](/wiki/06-Items/Resources.md#power-core) | Szokatlan | Crystalys, Goombah, aszteroidák, küldetések | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Kovácsműhely, Kutatóközpont |
-| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Ritka | Crystalys, küldetések | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Cooldown Rocket, Gravitational N.U.K.E., Kutatóközpont |
+| [Ship Fragment](/wiki/06-Items/Resources.md#ship-fragment) | Gyakori | Crystalys, Goombah, Bulwark, Phantasm, Seeker, aszteroidák, Különleges küldetések | Master Drone, Quantum Laser III, Starfire-III, Paragon, Wraith, Laser Damage Booster II, Shield Wall Booster II, Hull Plating Booster II, Impulse Thruster IV, Ironclad, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet II, Lancet III, Rivet II, Rivet III, Ember II, Ember III, Scatter II, Scatter III, N.U.K.E., N.I.K.E., Freeze Rocket, EMP Rocket, Shield Breaker, Toxic Rocket, Marking Rocket, Cooldown Rocket, Support Rocket, Kovácsműhely, Skylab-építések, Kutatóközpont |
+| [Reinforced Hull Plate](/wiki/06-Items/Resources.md#reinforced-hull-plate) | Gyakori | Goombah, Bulwark, aszteroidák, küldetések | Starfire-III, Helios Beam, Paragon, Wraith, Absorption Shield Cell IV, Ironclad, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Storm, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Hull Plating II, Hull Plating III, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine III, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Lancet III, Rivet III, Ember III, Scatter III, N.U.K.E., N.I.K.E., Shield Breaker, Kovácsműhely, Kutatóközpont |
+| [Power Core](/wiki/06-Items/Resources.md#power-core) | Szokatlan | Crystalys, Goombah, aszteroidák, küldetések | Helios Beam, Paragon, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell III, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Storm, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp III, Crit Amp III, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II, Adaptive Core III, Energetic Wall II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Mine II, Mine III, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, N.U.K.E., Freeze Rocket, EMP Rocket, Cooldown Rocket, Gravitational N.U.K.E., Support Rocket, Kovácsműhely, Kutatóközpont |
+| [Ancient Control Unit](/wiki/06-Items/Resources.md#ancient-control-unit) | Ritka | Crystalys, küldetések | Master Drone, Helios Beam, Wraith, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Ironclad, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Storm, Extra Slots CPU III, Jump CPU, Base CPU II, Gemini Formation, Stiletto Formation, Rampart Formation, Penetration Amp IV, Hull Plating III, Adaptive Core III, P.E.T. Station III, Auto-Rocket CPU, Rocket Launcher II, Rocket Launcher III, Rocket Launcher IV, Rocket Launcher V, Laser Optics IV, Laser Optics V, Miyuki, Miyuki III, Miyuki IV, Miyuki V, Cooldown Rocket, Gravitational N.U.K.E., Kutatóközpont |
 | [Daraxium](/wiki/06-Items/Resources.md#daraxium) | Gyakori | Phantasm, Seeker, aszteroidák | Penetration Amp II, Rivet II, Rivet III, Marking Rocket, Kovácsműhely, Kutatóközpont |
 | [Nyxite](/wiki/06-Items/Resources.md#nyxite) | Gyakori | Phantasm, Bulwark, aszteroidák | Penetration Amp III, Lancet II, Lancet III, Toxic Rocket, Marking Rocket, Support Rocket, Kovácsműhely, Kutatóközpont |
 | [Cataclysite](/wiki/06-Items/Resources.md#cataclysite) | Gyakori | Crystalys, Goombah, Bulwark, aszteroidák, óriás kotrógép, küldetések | Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Heavy Shield Core, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Ultra Core, Experimental Fusion Core, Dark Matter Ammo I, Ember II, Ember III, N.U.K.E., N.I.K.E., Freeze Rocket, Shield Breaker, Kovácsműhely, Kutatóközpont |
@@ -33,10 +33,13 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 | [Velkonite Reinforced Plate](/wiki/06-Items/Resources.md#velkonite-reinforced-plate) | Ritka | küldetések, Skylab-kovácsműhely | Master Drone, Quantum Laser III, Starfire-III, Dark Matter Plate, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Extra Slots CPU I, Extra Slots CPU II, Jump CPU, Base CPU I, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Engine II, Adaptive Core II, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V |
 | [Orvium Reinforced Plate](/wiki/06-Items/Resources.md#orvium-reinforced-plate) | Epikus | küldetések, Skylab-kovácsműhely | Master Drone, Helios Beam, Dark Matter Plate, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU II, Bodkin Formation, Gemini Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Gyre Formation, P.E.T. Station II, P.E.T. Station III, Experimental Fusion Core, Laser Optics III, Laser Optics IV, Laser Optics V, P.E.T.-bölcső |
 | [Dark Matter](/wiki/06-Items/Resources.md#dark-matter) | Epikus | a feketelyuk (egy elnyelt N.I.K.E.) | Dark Matter Plate, Antimatter Battery II, Dark Matter Ammo I, Dark Matter Ammo II, Kutatóközpont |
-| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitikus | Gyártás | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Kovácsműhely |
+| [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | Mitikus | Gyártás | Master Drone, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Capacity Shield Cell IV, Momentum Thruster IV, Extra Slots CPU III, Base CPU II, Penetration Amp IV, Hull Plating II, Hull Plating III, Adaptive Core III, Miyuki II, Miyuki III, Miyuki IV, Miyuki V, Kovácsműhely |
 | [Regular Cluster Chunk](/wiki/06-Items/Resources.md#regular-cluster-chunk) | Epikus | aszteroidák, Különleges küldetések | P.E.T.-bölcső |
 | [Mythical Cluster Chunk](/wiki/06-Items/Resources.md#mythical-cluster-chunk) | Mitikus | aszteroidák, Különleges küldetések | P.E.T.-bölcső |
 | [Legendary Cluster Chunk](/wiki/06-Items/Resources.md#legendary-cluster-chunk) | Legendás | aszteroidák | P.E.T.-bölcső |
+| [Echo Shard](/wiki/06-Items/Resources.md#echo-shard) | Szokatlan | Crystalys, Goombah, Bulwark, Phantasm, Seeker, szólókapuk, klánkazamaták | Kovácsműhely-foglalatok |
+| [Lattice Shard](/wiki/06-Items/Resources.md#lattice-shard) | Ritka | szólókapuk, klánkazamaták | Kovácsműhely-foglalatok |
+| [Heartshard](/wiki/06-Items/Resources.md#heartshard) | Epikus | szólókapuk, klánkazamaták, ritka NPC-k | Kovácsműhely-foglalatok |
 
 ## Nyersanyagok {#materials}
 
@@ -121,16 +124,21 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 - P.E.T. Station III: **60** (emellett: 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 4 Velkonite Reinforced Plate, 1 100 000 kredit, 12 000 Thulium)
 - Auto-Rocket CPU: **100** (emellett: 1 Ancient Control Unit, 5 Power Core, 10 Reinforced Hull Plate, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **300** (emellett: 5 Ancient Control Unit, 30 Power Core, 50 Reinforced Hull Plate, 150 000 Thulium)
-- Rocket Launcher III: **800** (emellett: 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 400 000 Thulium)
-- Rocket Launcher IV: **1 800** (emellett: 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 900 000 Thulium)
-- Rocket Launcher V: **4 000** (emellett: 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 2 000 000 Thulium)
+- Rocket Launcher III: **800** (emellett: 15 Ancient Control Unit, 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 400 000 Thulium)
+- Rocket Launcher IV: **1 800** (emellett: 30 Ancient Control Unit, 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 900 000 Thulium)
+- Rocket Launcher V: **4 000** (emellett: 60 Ancient Control Unit, 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 2 000 000 Thulium)
 - Mine II: **3** (emellett: 2 Mine I, 1 Power Core, 200 Thulium)
 - Mine III: **8** (emellett: 2 Mine II, 2 Power Core, 1 Reinforced Hull Plate, 400 Thulium)
 - Laser Optics I: **40** (emellett: 2 Power Core, 4 Velkonite Reinforced Plate, 8 000 Thulium)
-- Laser Optics II: **80** (emellett: 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **120** (emellett: 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **180** (emellett: 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **240** (emellett: 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **80** (emellett: 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **120** (emellett: 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **180** (emellett: 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **240** (emellett: 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **160** (emellett: 1 Ancient Control Unit, 10 Power Core, 25 Reinforced Hull Plate, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **80** (emellett: 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **120** (emellett: 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **180** (emellett: 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **240** (emellett: 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 75 000 Thulium)
 - [Lancet II](/wiki/06-Items/Rockets.md) (100 darabot készít): **5** (emellett: 100 Lancet I, 10 Nyxite, 50 000 kredit, 200 Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (100 darabot készít): **15** (emellett: 100 Lancet II, 20 Nyxite, 2 Reinforced Hull Plate, 150 000 kredit, 800 Thulium)
 - [Rivet II](/wiki/06-Items/Rockets.md) (100 darabot készít): **5** (emellett: 10 Daraxium, 100 Rivet I, 50 000 kredit, 200 Thulium)
@@ -148,15 +156,13 @@ Az ezen az oldalon szereplő minden hozam **kilövésenként, átlagosan** érte
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **10** (emellett: 30 Daraxium, 10 Nyxite, 50 000 kredit, 800 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **20** (emellett: 1 Ancient Control Unit, 3 Power Core, 40 Quorvium, 100 000 kredit, 2 500 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **20** (emellett: 40 Nyxite, 2 Power Core, 20 Quorvium, 90 000 kredit, 2 000 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Normál → Fertőzött: **5** (emellett: 15 Daraxium, 10 000 kredit; 100% siker)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Fertőzött → Isteni: **30** (emellett: 45 Nyxite, 50 000 kredit; 90% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Normál → Ébredő: **5** (emellett: 15 Daraxium, 10 000 kredit)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Ébredő → Rezonáns: **32** (emellett: 48 Nyxite, 56 000 kredit)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modul építése: **10** mindegyikhez: Lőszernyomtató, Kovácsműhely, Ércrakodó, Orvium-gyűjtő, Erőforrás-raktár, Trófeaterem, Velkonite-gyűjtő (a leltáradból, nem a tranzittárolóból)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modul építése: **15** mindegyikhez: Radarmodul, Rakétagyár (a leltáradból, nem a tranzittárolóból)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modul építése: **20** mindegyikhez: Hajtóműmodul (a leltáradból, nem a tranzittárolóból)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), modul építése: **25** mindegyikhez: Védelmi modul, Kutatóközpont (a leltáradból, nem a tranzittárolóból)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **5** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 6; a legközelebbi forrás: [Seeker](/wiki/04-Aliens/Seeker.md) (szektor: 1), kilövésenként 0,2.
 
@@ -216,14 +222,19 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - P.E.T. Station III: **6** (emellett: 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 kredit, 12 000 Thulium)
 - Auto-Rocket CPU: **10** (emellett: 1 Ancient Control Unit, 5 Power Core, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **50** (emellett: 5 Ancient Control Unit, 30 Power Core, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **120** (emellett: 15 Ancient Control Unit, 80 Power Core, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **250** (emellett: 30 Ancient Control Unit, 160 Power Core, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **500** (emellett: 60 Ancient Control Unit, 300 Power Core, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Rocket Launcher III: **120** (emellett: 15 Ancient Control Unit, 80 Power Core, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **250** (emellett: 30 Ancient Control Unit, 160 Power Core, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **500** (emellett: 60 Ancient Control Unit, 300 Power Core, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
 - Mine III: **1** (emellett: 2 Mine II, 2 Power Core, 8 Ship Fragment, 400 Thulium)
-- Laser Optics II: **8** (emellett: 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **10** (emellett: 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **18** (emellett: 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **25** (emellett: 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **8** (emellett: 1 Laser Optics I, 4 Power Core, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **10** (emellett: 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **18** (emellett: 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **25** (emellett: 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **25** (emellett: 1 Ancient Control Unit, 10 Power Core, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (emellett: 8 Dark Matter Plate, 1 Miyuki, 4 Power Core, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **10** (emellett: 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **18** (emellett: 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **25** (emellett: 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 240 Ship Fragment, 75 000 Thulium)
 - [Lancet III](/wiki/06-Items/Rockets.md) (100 darabot készít): **2** (emellett: 100 Lancet II, 20 Nyxite, 15 Ship Fragment, 150 000 kredit, 800 Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (100 darabot készít): **2** (emellett: 20 Daraxium, 100 Rivet II, 15 Ship Fragment, 150 000 kredit, 800 Thulium)
 - [Ember III](/wiki/06-Items/Rockets.md) (100 darabot készít): **2** (emellett: 20 Cataclysite, 100 Ember II, 15 Ship Fragment, 150 000 kredit, 800 Thulium)
@@ -231,10 +242,8 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **10** (emellett: 80 Cataclysite, 4 Power Core, 6 Scatter III, 40 Ship Fragment, 150 000 kredit, 3 000 Thulium)
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 darabot készít): **4** (emellett: 40 Cataclysite, 20 Ship Fragment, 100 000 kredit, 1 500 Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (5 darabot készít): **3** (emellett: 40 Cataclysite, 15 Ship Fragment, 80 000 kredit, 1 500 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Isteni → Repesztő: **20** (emellett: 120 Cataclysite, 2 Dark Matter Plate, 200 000 kredit; 75% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Rezonáns → Sugárzó: **23** (emellett: 140 Cataclysite, 2 Dark Matter Plate, 267 000 kredit)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **33** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Goombah](/wiki/04-Aliens/Goombah.md) kilövése (szektorok: 3, 4): kilövésenként átlagosan 0,6.
 
@@ -312,26 +321,29 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - P.E.T. Station III: **4** (emellett: 2 Ancient Control Unit, 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 kredit, 12 000 Thulium)
 - Auto-Rocket CPU: **5** (emellett: 1 Ancient Control Unit, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **30** (emellett: 5 Ancient Control Unit, 50 Reinforced Hull Plate, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **80** (emellett: 15 Ancient Control Unit, 120 Reinforced Hull Plate, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **160** (emellett: 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **300** (emellett: 60 Ancient Control Unit, 500 Reinforced Hull Plate, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Rocket Launcher III: **80** (emellett: 15 Ancient Control Unit, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **160** (emellett: 30 Ancient Control Unit, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **300** (emellett: 60 Ancient Control Unit, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
 - Mine II: **1** (emellett: 2 Mine I, 3 Ship Fragment, 200 Thulium)
 - Mine III: **2** (emellett: 2 Mine II, 1 Reinforced Hull Plate, 8 Ship Fragment, 400 Thulium)
 - Laser Optics I: **2** (emellett: 40 Ship Fragment, 4 Velkonite Reinforced Plate, 8 000 Thulium)
-- Laser Optics II: **4** (emellett: 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
-- Laser Optics III: **6** (emellett: 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **9** (emellett: 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **12** (emellett: 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics II: **4** (emellett: 1 Laser Optics I, 8 Reinforced Hull Plate, 80 Ship Fragment, 6 Velkonite Reinforced Plate, 15 000 Thulium)
+- Laser Optics III: **6** (emellett: 1 Laser Optics II, 2 Orvium Reinforced Plate, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **9** (emellett: 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **12** (emellett: 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **10** (emellett: 1 Ancient Control Unit, 25 Reinforced Hull Plate, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **4** (emellett: 8 Dark Matter Plate, 1 Miyuki, 8 Reinforced Hull Plate, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **6** (emellett: 1 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki II, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **9** (emellett: 2 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki III, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **12** (emellett: 3 Ancient Control Unit, 8 Dark Matter Plate, 1 Miyuki IV, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 - [N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (emellett: 80 Cataclysite, 10 Reinforced Hull Plate, 6 Scatter III, 40 Ship Fragment, 150 000 kredit, 3 000 Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **1** (emellett: 30 Cataclysite, 10 Ship Fragment, 50 000 kredit, 1 000 Thulium)
 - [EMP Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **2** (emellett: 20 Quorvium, 10 Ship Fragment, 60 000 kredit, 1 200 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **3** (emellett: 1 Ancient Control Unit, 40 Quorvium, 20 Ship Fragment, 100 000 kredit, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **4** (emellett: 2 Ancient Control Unit, 1 N.U.K.E., 40 Quorvium, 150 000 kredit, 3 000 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **2** (emellett: 40 Nyxite, 20 Quorvium, 20 Ship Fragment, 90 000 kredit, 2 000 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Repesztő → Örök: **8** (emellett: 240 Quorvium, 2 Dark Matter Plate, 500 000 kredit, 2 000 Thulium; 60% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Sugárzó → Felemelkedett: **11** (emellett: 320 Quorvium, 2 Dark Matter Plate, 833 000 kredit, 2 667 Thulium)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **100** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 0,5; a legközelebbi forrás: [Goombah](/wiki/04-Aliens/Goombah.md) (szektor: 3), kilövésenként 0,25.
 
@@ -375,11 +387,15 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - P.E.T. Station III: **2** (emellett: 2 Orvium Reinforced Plate, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 kredit, 12 000 Thulium)
 - Auto-Rocket CPU: **1** (emellett: 5 Power Core, 10 Reinforced Hull Plate, 100 Ship Fragment, 8 Velkonite Reinforced Plate, 20 000 Thulium)
 - Rocket Launcher II: **5** (emellett: 30 Power Core, 50 Reinforced Hull Plate, 300 Ship Fragment, 150 000 Thulium)
-- Rocket Launcher III: **15** (emellett: 80 Power Core, 120 Reinforced Hull Plate, 800 Ship Fragment, 400 000 Thulium)
-- Rocket Launcher IV: **30** (emellett: 160 Power Core, 250 Reinforced Hull Plate, 1 800 Ship Fragment, 900 000 Thulium)
-- Rocket Launcher V: **60** (emellett: 300 Power Core, 500 Reinforced Hull Plate, 4 000 Ship Fragment, 2 000 000 Thulium)
-- Laser Optics IV: **2** (emellett: 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **3** (emellett: 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Rocket Launcher III: **15** (emellett: 80 Power Core, 120 Reinforced Hull Plate, 1 Rocket Launcher II, 800 Ship Fragment, 400 000 Thulium)
+- Rocket Launcher IV: **30** (emellett: 160 Power Core, 250 Reinforced Hull Plate, 1 Rocket Launcher III, 1 800 Ship Fragment, 900 000 Thulium)
+- Rocket Launcher V: **60** (emellett: 300 Power Core, 500 Reinforced Hull Plate, 1 Rocket Launcher IV, 4 000 Ship Fragment, 2 000 000 Thulium)
+- Laser Optics IV: **2** (emellett: 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **3** (emellett: 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- [Miyuki](/wiki/02-Ships/Miyuki.md): **1** (emellett: 10 Power Core, 25 Reinforced Hull Plate, 160 Ship Fragment, 6 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **1** (emellett: 8 Dark Matter Plate, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **2** (emellett: 8 Dark Matter Plate, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **3** (emellett: 8 Dark Matter Plate, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **1** (emellett: 3 Power Core, 40 Quorvium, 20 Ship Fragment, 100 000 kredit, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **2** (emellett: 1 N.U.K.E., 4 Power Core, 40 Quorvium, 150 000 kredit, 3 000 Thulium)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **650** tudomány
@@ -388,7 +404,7 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 
 ### Daraxium
 
-*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Fertőzött fokozatra a felszerelés.
+*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Ébredő fokozatra a felszerelés.
 
 **Így szerezheted meg**
 
@@ -406,16 +422,14 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - [Rivet II](/wiki/06-Items/Rockets.md) (100 darabot készít): **10** (emellett: 100 Rivet I, 5 Ship Fragment, 50 000 kredit, 200 Thulium)
 - [Rivet III](/wiki/06-Items/Rockets.md) (100 darabot készít): **20** (emellett: 2 Reinforced Hull Plate, 100 Rivet II, 15 Ship Fragment, 150 000 kredit, 800 Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **30** (emellett: 10 Nyxite, 10 Ship Fragment, 50 000 kredit, 800 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Normál → Fertőzött: **15** (emellett: 5 Ship Fragment, 10 000 kredit; 100% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Normál → Ébredő: **15** (emellett: 5 Ship Fragment, 10 000 kredit)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **7** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Phantasm](/wiki/04-Aliens/Phantasm.md) kilövése (szektorok: 2, 3): kilövésenként átlagosan 0,9; a legközelebbi forrás: [Seeker](/wiki/04-Aliens/Seeker.md) (szektor: 1), kilövésenként 0,75.
 
 ### Nyxite
 
-*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Isteni fokozatra a felszerelés.
+*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Rezonáns fokozatra a felszerelés.
 
 **Így szerezheted meg**
 
@@ -435,16 +449,14 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **30** (emellett: 10 Quorvium, 10 Ship Fragment, 60 000 kredit, 1 000 Thulium)
 - [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **10** (emellett: 30 Daraxium, 10 Ship Fragment, 50 000 kredit, 800 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **40** (emellett: 2 Power Core, 20 Quorvium, 20 Ship Fragment, 90 000 kredit, 2 000 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Fertőzött → Isteni: **45** (emellett: 30 Ship Fragment, 50 000 kredit; 90% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Ébredő → Rezonáns: **48** (emellett: 32 Ship Fragment, 56 000 kredit)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **7** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Phantasm](/wiki/04-Aliens/Phantasm.md) kilövése (szektorok: 2, 3): kilövésenként átlagosan 0,9.
 
 ### Cataclysite
 
-*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A legerősebb lézerek építéséhez kell, a Kovácsműhelyben pedig ezzel emelhető Repesztő fokozatra a felszerelés.
+*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A legerősebb lézerek építéséhez kell, a Kovácsműhelyben pedig ezzel emelhető Sugárzó fokozatra a felszerelés.
 
 **Így szerezheted meg**
 
@@ -487,16 +499,14 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 darabot készít): **40** (emellett: 4 Reinforced Hull Plate, 20 Ship Fragment, 100 000 kredit, 1 500 Thulium)
 - [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít): **30** (emellett: 1 Power Core, 10 Ship Fragment, 50 000 kredit, 1 000 Thulium)
 - [Shield Breaker](/wiki/06-Items/Rockets.md) (5 darabot készít): **40** (emellett: 3 Reinforced Hull Plate, 15 Ship Fragment, 80 000 kredit, 1 500 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Isteni → Repesztő: **120** (emellett: 20 Reinforced Hull Plate, 2 Dark Matter Plate, 200 000 kredit; 75% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Rezonáns → Sugárzó: **140** (emellett: 23 Reinforced Hull Plate, 2 Dark Matter Plate, 267 000 kredit)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **5** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 8; a legközelebbi forrás: [Goombah](/wiki/04-Aliens/Goombah.md) (szektor: 3), kilövésenként 4.
 
 ### Quorvium
 
-*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Örök fokozatra a felszerelés.
+*Gyakori nyersanyag.* NPC-k és aszteroidák dobják. A Kovácsműhelyben ezzel emelhető Felemelkedett fokozatra a felszerelés.
 
 **Így szerezheted meg**
 
@@ -522,10 +532,8 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 - [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **40** (emellett: 1 Ancient Control Unit, 3 Power Core, 20 Ship Fragment, 100 000 kredit, 2 500 Thulium)
 - [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md): **40** (emellett: 2 Ancient Control Unit, 1 N.U.K.E., 4 Power Core, 150 000 kredit, 3 000 Thulium)
 - [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít): **20** (emellett: 40 Nyxite, 2 Power Core, 20 Ship Fragment, 90 000 kredit, 2 000 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Repesztő → Örök: **240** (emellett: 8 Power Core, 2 Dark Matter Plate, 500 000 kredit, 2 000 Thulium; 60% siker)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Sugárzó → Felemelkedett: **320** (emellett: 11 Power Core, 2 Dark Matter Plate, 833 000 kredit, 2 667 Thulium)
 - [Kutatóközpont](/wiki/03-Mechanics/Research.md#fuel), üzemanyag: egységenként **8** tudomány
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 8; a legközelebbi forrás: [Goombah](/wiki/04-Aliens/Goombah.md) (szektor: 3), kilövésenként 3.
 
@@ -650,10 +658,10 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 - [Ultra Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít): **4** (emellett: 120 Cataclysite, 90 Quorvium, 320 kredit, 687 Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít): **8** (emellett: 140 Cataclysite, 1 Orvium Reinforced Plate, 105 Quorvium, 9 058 kredit, 1 315 Thulium)
 - Laser Optics I: **4** (emellett: 2 Power Core, 40 Ship Fragment, 8 000 Thulium)
-- Laser Optics II: **6** (emellett: 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15 000 Thulium)
-- Laser Optics III: **12** (emellett: 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30 000 Thulium)
-- Laser Optics IV: **14** (emellett: 2 Ancient Control Unit, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
-- Laser Optics V: **15** (emellett: 3 Ancient Control Unit, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- Laser Optics II: **6** (emellett: 1 Laser Optics I, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 15 000 Thulium)
+- Laser Optics III: **12** (emellett: 1 Laser Optics II, 2 Orvium Reinforced Plate, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 30 000 Thulium)
+- Laser Optics IV: **14** (emellett: 2 Ancient Control Unit, 1 Laser Optics III, 6 Orvium Reinforced Plate, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- Laser Optics V: **15** (emellett: 3 Ancient Control Unit, 1 Laser Optics IV, 10 Orvium Reinforced Plate, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
 
 **Modulfejlesztések**: a Gyártás ezeket fejleszti: Quantum Laser II → Quantum Laser III, Quantum Laser III → Starfire-III, Impulse Thruster II → Impulse Thruster III, Absorption Shield Cell I → Absorption Shield Cell II, Absorption Shield Cell II → Absorption Shield Cell III, Capacity Shield Cell I → Capacity Shield Cell II, Capacity Shield Cell II → Capacity Shield Cell III, Impulse Thruster I → Impulse Thruster II, Momentum Thruster I → Momentum Thruster II, Momentum Thruster II → Momentum Thruster III, Damage Amp I → Damage Amp II, Damage Amp II → Damage Amp III, Crit Amp I → Crit Amp II, Crit Amp II → Crit Amp III, Penetration Amp I → Penetration Amp II, Penetration Amp II → Penetration Amp III, Engine I → Engine II és Adaptive Core I → Adaptive Core II. Minden fejlesztés elhasználja a kiindulási darabot, és a többi nyersanyag mellett ezeket a lemezeket is kéri. Az új darab megtartja a beletett darab Kovácsműhely-fokozatát és bónuszait. Lásd: [Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 
@@ -701,9 +709,9 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 - P.E.T. Station II: **2** (emellett: 1 P.E.T. Station I, 2 Power Core, 6 Reinforced Hull Plate, 35 Ship Fragment, 4 Velkonite Reinforced Plate, 300 000 kredit, 4 000 Thulium)
 - P.E.T. Station III: **2** (emellett: 2 Ancient Control Unit, 1 P.E.T. Station II, 4 Power Core, 6 Reinforced Hull Plate, 60 Ship Fragment, 4 Velkonite Reinforced Plate, 1 100 000 kredit, 12 000 Thulium)
 - [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít): **1** (emellett: 140 Cataclysite, 105 Quorvium, 8 Velkonite Reinforced Plate, 9 058 kredit, 1 315 Thulium)
-- Laser Optics III: **2** (emellett: 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
-- Laser Optics IV: **6** (emellett: 2 Ancient Control Unit, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
-- Laser Optics V: **10** (emellett: 3 Ancient Control Unit, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
+- Laser Optics III: **2** (emellett: 1 Laser Optics II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 12 Velkonite Reinforced Plate, 30 000 Thulium)
+- Laser Optics IV: **6** (emellett: 2 Ancient Control Unit, 1 Laser Optics III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 14 Velkonite Reinforced Plate, 50 000 Thulium)
+- Laser Optics V: **10** (emellett: 3 Ancient Control Unit, 1 Laser Optics IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 15 Velkonite Reinforced Plate, 75 000 Thulium)
 - **P.E.T.-bölcső** (Hangár): 1 minden összeszerelt P.E.T.-hez, a P.E.T. fokozatának megfelelő 1 Cluster Chunkkal.
 
 **Modulfejlesztések**: a Gyártás ezeket fejleszti: Starfire-III → Helios Beam. Minden fejlesztés elhasználja a kiindulási darabot, és a többi nyersanyag mellett ezeket a lemezeket is kéri. Az új darab megtartja a beletett darab Kovácsműhely-fokozatát és bónuszait. Lásd: [Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
@@ -727,7 +735,7 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 - [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1 000 darabot készít): **1** (emellett: 120 Cataclysite, 90 Quorvium, 4 873 kredit, 987 Thulium)
 - [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1 000 darabot készít): **4** (emellett: 1 000 Dark Matter Ammo I, 200 Thulium)
 - [Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md), üzemanyag: egy **10** percnyi bányászatig ég, és a tartály 3 egységet fogad be
-- [Kutatóközpont](/wiki/03-Mechanics/Research.md#dark-matter), a legfelső technológiák: **10** 35 technológia mindegyikéhez
+- [Kutatóközpont](/wiki/03-Mechanics/Research.md#dark-matter), a legfelső technológiák: **10** 40 technológia mindegyikéhez
 
 **Így farmolhatod**: lőj [N.I.K.E.](/wiki/06-Items/Rockets.md) rakétákat a feketelyukba (a Gyártás készíti őket), és vedd fel a ládákat a zónája pereméről, mielőtt bárki más megtenné. A teljes utat a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) írja le.
 
@@ -758,13 +766,15 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 - Hull Plating II: **5** (emellett: 1 Hull Plating I, 6 Power Core, 20 Reinforced Hull Plate, 150 Ship Fragment, 2 500 Thulium)
 - Hull Plating III: **8** (emellett: 1 Ancient Control Unit, 1 Hull Plating II, 12 Power Core, 40 Reinforced Hull Plate, 300 Ship Fragment, 4 000 Thulium)
 - Adaptive Core III: **4** (emellett: 1 Adaptive Core II, 1 Ancient Control Unit, 5 Power Core, 110 Ship Fragment, 4 000 Thulium)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Isteni → Repesztő: **2** (emellett: 20 Reinforced Hull Plate, 120 Cataclysite, 200 000 kredit; 75% siker)
-- [Kovácsműhely](/wiki/06-Items/Forge.md), Repesztő → Örök: **2** (emellett: 8 Power Core, 240 Quorvium, 500 000 kredit, 2 000 Thulium; 60% siker)
+- [Miyuki II](/wiki/02-Ships/Miyuki.md): **8** (emellett: 1 Miyuki, 4 Power Core, 8 Reinforced Hull Plate, 80 Ship Fragment, 20 000 Thulium)
+- [Miyuki III](/wiki/02-Ships/Miyuki.md): **8** (emellett: 1 Ancient Control Unit, 1 Miyuki II, 6 Power Core, 10 Reinforced Hull Plate, 120 Ship Fragment, 35 000 Thulium)
+- [Miyuki IV](/wiki/02-Ships/Miyuki.md): **8** (emellett: 2 Ancient Control Unit, 1 Miyuki III, 9 Power Core, 18 Reinforced Hull Plate, 180 Ship Fragment, 50 000 Thulium)
+- [Miyuki V](/wiki/02-Ships/Miyuki.md): **8** (emellett: 3 Ancient Control Unit, 1 Miyuki IV, 12 Power Core, 25 Reinforced Hull Plate, 240 Ship Fragment, 75 000 Thulium)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Rezonáns → Sugárzó: **2** (emellett: 23 Reinforced Hull Plate, 140 Cataclysite, 267 000 kredit)
+- [Kovácsműhely](/wiki/06-Items/Forge.md), Sugárzó → Felemelkedett: **2** (emellett: 11 Power Core, 320 Quorvium, 833 000 kredit, 2 667 Thulium)
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Hajtóműmodul: **1** az építéshez, majd 2, 3, 5 és 8 a 2–5. szintekhez
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Védelmi modul: **1** az építéshez, majd 2, 4, 7 és 12 a 2–5. szintekhez
 - [Skylab](/wiki/03-Mechanics/Skylab.md), Radarmodul: az építéshez nem kell, majd 1 és 3 a 2–3. szintekhez
-
-A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé kerekítve.
 
 **Így farmolhatod**: préselik, nem találják: gyűjts Dark Mattert (lásd fent) és a két lemezt, amelyet a Skylab Kovácsműhelye készít, majd indítsd el a gyártást a Gyártásban. Előbb kutasd ki a receptet: a [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) a teljes utat leírja.
 
@@ -815,6 +825,66 @@ A sikertelen Kovácsműhely-lépés a nyersanyagai 50%-át adja vissza, lefelé 
 
 **Így farmolhatod**: törj aszteroidákat, minél nagyobbakat, annál jobb: a legtöbb sebzést okozó csoport viszi a chunkot, és a Motherlode adja a leggyakrabban.
 
+### Echo Shard
+
+*Szokatlan nyersanyag.* Az elesett alienekből, a kaputeljesítésekből és a klánkazamatákból származó rezonanciadarab. A Kovácsműhely Echo Shardokat használ el egy felszerelés foglalatának behangolásához. Nem kereskedhető.
+
+**Így szerezheted meg**
+
+| Idegen | Szektorok | Zsákmány | Kilövésenként, átlagosan |
+| :--- | :---: | :--- | --: |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% eséllyel 1 db | 0,2 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% eséllyel 1 db | 0,05 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% eséllyel 1 db | 0,02 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% eséllyel 1 db | 0,01 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4% eséllyel 1 db | 0 |
+
+- **Szólókapuk**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 minden teljesítéskor.
+- **Klánkazamaták**: 3, 2 és 2 az 1., 2. és 3. szint fizetett teljesítésekor.
+- **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
+- **Egyébként**: a Boltban nem kapható.
+
+**Mire jó**
+
+- A Kovácsműhely foglalatai: egy üres foglalat behangolása Echo Shardokba kerül.
+
+**Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 0,2; a legközelebbi forrás: [Seeker](/wiki/04-Aliens/Seeker.md) (szektor: 1), kilövésenként 0.
+
+### Lattice Shard
+
+*Ritka nyersanyag.* A kapu- és klánkazamata-teljesítésekből származó rácsdarab. A Kovácsműhely Lattice Shardokat használ el egy behangolt foglalat újrarakásához és egy kopott darab javításához. Nem kereskedhető.
+
+**Így szerezheted meg**
+
+- **Szólókapuk**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 minden teljesítéskor.
+- **Klánkazamaták**: 5, 6 és 7 az 1., 2. és 3. szint fizetett teljesítésekor.
+- **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
+- **Egyébként**: a Boltban nem kapható.
+
+**Mire jó**
+
+- A Kovácsműhely foglalatai: egy foglalat újrarakása és egy darab javítása Lattice Shardokba kerül.
+
+**Így farmolhatod**: teljesíts szólókapukat és klánkazamatákat: mindkettő minden teljesítéskor ad belőle.
+
+### Heartshard
+
+*Epikus nyersanyag.* Ritka szilánk: évadonként az egyes kapuk és klánkazamata-szintek első teljesítése egyet ad, és a legritkább főellenségek közül néhány is. A Kovácsműhelyben add hozzá egy behangoláshoz vagy újrarakáshoz, hogy kiválaszd a statot, és a tartomány felső felében dobd az értéket. Nem kereskedhető.
+
+**Így szerezheted meg**
+
+- **Szólókapuk**: 1 az évad során az egyes kapuk első teljesítésekor, és 5% eséllyel még 1 minden teljesítéskor.
+- **Klánkazamaták**: 1 az évad során az egyes szintek első fizetett teljesítésekor, és 5% eséllyel még egy minden fizetett teljesítéskor.
+- **Ritka NPC-k**: Davidski 10%, Dormant Force 5%, Tesseract 5% ölésenként.
+- **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
+- **Egyébként**: a Boltban nem kapható.
+
+**Mire jó**
+
+- A Kovácsműhely foglalatai: behangoláshoz vagy újrarakáshoz adva a Heartshard felajánlja az összes szabad statot, és a tartomány felső felében dobja az értéket.
+
+**Így farmolhatod**: ritka: évadonként egyszer teljesítsd az összes szólókaput és az összes klánkazamata-szintet, és öld meg a lassú ritka NPC-ket.
+
 ## Fizetőeszközök {#currencies}
 
 A kreditet és a Thuliumot a nyersanyagokhoz hasonlóan gyűjtöd, és ugyanazokon a helyeken költöd el. A fiókodban vannak, nem a leltáradban.
@@ -831,7 +901,7 @@ A kreditet és a Thuliumot a nyersanyagokhoz hasonlóan gyűjtöd, és ugyanazok
 
 Ezek az **Alpha** világ értékei (1×). Egy kilövés a Betában ezek **2×** annyit, a Gammában **3×** annyit fizet, egy teljesített küldetés pedig annak a két világnak a magasabbika szerint fizet, amelyben teljesítetted, illetve amelyben repülsz ([világok](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)); a zsákmány minden világban ugyanaz. Ráadásul a Szezonbolt állandó Credit Boost (legfeljebb +50%) és Thulium Boost (legfeljebb +30%) buffja növeli, mennyit fizetnek a kilövések és a küldetések ebben a két fizetőeszközben.
 
-A tapasztalat és a becsület pontszám, nem pénz: semmit nem vásárolnak velük. A tapasztalat emeli a szintedet, az pedig számít a rangodnál; a becsület nem játszik szerepet a rangodban. Csak a vállalatváltás vesz el belőlük, és abból is csak a becsületpontjaid felét; a tapasztalatod sosem költhető el.
+A tapasztalat és a becsület pontszám, nem pénz: semmit nem vásárolnak velük. A tapasztalat emeli a szintedet, az pedig számít a rangodnál; a becsület is számít a rangodnál: 100 becsület egy PvE-pontot ér. Csak a vállalatváltás vesz el belőlük, és abból is csak a becsületpontjaid felét; a tapasztalatod sosem költhető el.
 
 ### Kredit {#credits}
 
@@ -842,7 +912,7 @@ A tapasztalat és a becsület pontszám, nem pénz: semmit nem vásárolnak vel�
 - **Kezdetkor**: egy új pilóta számláján 10 000 kredit van.
 - **Idegenek**: minden kilövés fizet belőle (lásd a fenti táblázatot).
 - **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik.
-- **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 88 küldetés összesen 6 664 500 kreditet fizet az Alphában, szintenként 86 000 kredittől (1. szint) 2 720 000 kreditig (8. szint).
+- **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 132 küldetés összesen 333 064 500 kreditet fizet az Alphában, szintenként 86 000 kredittől (1. szint) 174 000 000 kreditig (14. szint).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: amíg távol vagy, a farm (Kreditfarm) termeli egy 72 órányi termelésre elegendő tárolóba.
 
 | Modul szintje | 1 | 5 | 10 | 15 | 20 |
@@ -853,14 +923,13 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 
 - **[Klán](/wiki/03-Mechanics/Clans.md)-kifizetések**: a klán vezetői kreditet fizethetnek ki a klánbankból a tagoknak.
 - **Bónuszkódok**: egy eseményen vagy a Discordunkon kiosztott kód kreditet adhat, nyersanyagot, felszerelést, boostert vagy akár hajót is. Add meg a Thulium oldal Bónuszkód kártyáján; minden kód pilótánként egyszer működik.
-- A sikertelen Kovácsműhely-lépés megtartja a krediteket: a nyersanyagokból és a Thuliumból csak ennyi jön vissza: 50%.
 
 **Mire jó**
 
 - **A Bolt**: 27 tárgy kreditért kapható (az árakat az oldalaik adják meg: [Tárgyak áttekintése](/wiki/06-Items/Overview.md) és [Rakéták](/wiki/06-Items/Rockets.md)).
 - **Gyártás**, gyártásonként: [Master Drone](/wiki/06-Items/Drones.md) 1 000 000, [Starfire-III](/wiki/06-Items/Lasers.md) 100 000, P.E.T. Station I 100 000, P.E.T. Station II 300 000, P.E.T. Station III 1 100 000, [Ultra Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 320, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 9 058, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 4 740, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 4 873, [Lancet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 50 000, [Lancet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 150 000, [Rivet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 50 000, [Rivet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 150 000, [Ember II](/wiki/06-Items/Rockets.md) (100 darabot készít) 50 000, [Ember III](/wiki/06-Items/Rockets.md) (100 darabot készít) 150 000, [Scatter II](/wiki/06-Items/Rockets.md) (100 darabot készít) 50 000, [Scatter III](/wiki/06-Items/Rockets.md) (100 darabot készít) 150 000, [N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 darabot készít) 100 000, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 50 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 60 000, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 darabot készít) 80 000, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 60 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 50 000, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 100 000, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 150 000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 90 000.
-- **[Kovácsműhely](/wiki/06-Items/Forge.md)**, fokozatlépésenként: Normál → Fertőzött 10 000, Fertőzött → Isteni 50 000, Isteni → Repesztő 200 000, Repesztő → Örök 500 000.
-- **Kovácsműhely-összevonások** a létrehozott fokozat szerint: Fertőzött 5 000, Isteni 25 000, Repesztő 100 000, Örök 250 000.
+- **[Kovácsműhely](/wiki/06-Items/Forge.md)**, fokozatlépésenként: Normál → Ébredő 10 000, Ébredő → Rezonáns 56 000, Rezonáns → Sugárzó 267 000, Sugárzó → Felemelkedett 833 000.
+- **Kovácsműhely-összevonások** a létrehozott fokozat szerint: Ébredő 5 000, Rezonáns 25 000, Sugárzó 100 000, Felemelkedett 250 000.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**-építések és fejlesztések, az egyes modulok ára (az 1. szint az építés, minden további szintnek saját ára van): Lőszernyomtató 20 000 az 1. szinten, 5 600 000 a 20. szinten, Kreditfarm 0 az 1. szinten, 7 000 000 a 20. szinten, Védelmi modul 500 000 az 1. szinten, 14 000 000 a 5. szinten, Hajtóműmodul 375 000 az 1. szinten, 8 750 000 a 5. szinten, Kovácsműhely 5 000 az 1. szinten, 9 000 000 a 20. szinten, Ércrakodó 5 000 az 1. szinten, 4 500 000 a 20. szinten, Orvium-gyűjtő 20 000 az 1. szinten, 5 500 000 a 20. szinten, Radarmodul 250 000 az 1. szinten, 2 250 000 a 3. szinten, Kutatóközpont 25 000 (szintenként ×1,5), Rakétagyár 20 000 az 1. szinten, 1 400 000 a 20. szinten, Napelem 500 az 1. szinten, 9 000 000 a 20. szinten, Erőforrás-raktár 5 000 az 1. szinten, 4 500 000 a 20. szinten, Thuliumfarm 5 000 az 1. szinten, 8 500 000 a 20. szinten, Trófeaterem 100 000 az 1. szinten, 2 325 000 a 20. szinten, Velkonite-gyűjtő 20 000 az 1. szinten, 5 500 000 a 20. szinten. A Mag mindig megvan, ezért az első ár, amelyet fizetsz érte, a 2. szint ára: 1 500 (utána szintenként ×1,5).
 - **[Klán](/wiki/03-Mechanics/Clans.md)**: adományok a klánbankba (pilótánként legfeljebb 1 000 000 kredit bármely 24 órában), valamint a klán napi adója, a kreditjeid egy része, amelyet a vezetői szabnak meg.
 
@@ -876,7 +945,7 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 - **Idegenek**: minden kilövés fizet belőle (lásd a fenti táblázatot).
 - **[Aszteroidák](/wiki/03-Mechanics/Asteroid-Mining.md)**: egy szétlőtt aszteroida darabjai fizetik.
 - **[Óriás kotrógép](/wiki/03-Mechanics/Giant-Excavator.md)**: a szezon 11. napjától (Betában és Gammában: a szezon 1. napjától) egy teljes menet 9 643 egységet ad belőle Alphában (Betában és Gammában többet), ládákban, amelyeket bárki felvehet; a vezérlőpulton lehet kiválasztani, mit bányásszon.
-- **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 88 küldetés összesen 51 010 Thuliumot fizet az Alphában, szintenként 170 Thuliumtól (1. szint) 21 760 Thuliumig (8. szint).
+- **[Küldetések](/wiki/03-Mechanics/Quests.md)**: 132 küldetés összesen 1 356 610 Thuliumot fizet az Alphában, szintenként 170 Thuliumtól (1. szint) 696 320 Thuliumig (14. szint).
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**: amíg távol vagy, a farm (Thuliumfarm) termeli egy 72 órányi termelésre elegendő tárolóba.
 
 | Modul szintje | 1 | 5 | 10 | 15 | 20 |
@@ -886,13 +955,12 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 Ezek egy energiával ellátott állomás értékei: az energiahiány minden farmot és gyűjtőt leállít, és egy modul nem fejleszthető a Mag fölé, amelynek legmagasabb szintje 20 (lásd: [Skylab](/wiki/03-Mechanics/Skylab.md)).
 
 - **Bónuszkódok**: egy eseményen vagy a Discordunkon kiosztott kód Thuliumot adhat, nyersanyagot, felszerelést, boostert vagy akár hajót is. Add meg a Thulium oldal Bónuszkód kártyáján; minden kód pilótánként egyszer működik.
-- A sikertelen Kovácsműhely-lépés a Thulium 50%-át adja vissza, lefelé kerekítve.
 
 **Mire jó**
 
 - **A Bolt**: 20 tárgy Thuliumért kapható (az árakat az oldalaik adják meg: [Tárgyak áttekintése](/wiki/06-Items/Overview.md)).
-- **Gyártás**, gyártásonként: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Lancet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Lancet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Rivet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Rivet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Ember II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Ember III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Scatter II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Scatter III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 2 000.
-- **[Kovácsműhely](/wiki/06-Items/Forge.md)**, fokozatlépésenként: Repesztő → Örök 2 000.
+- **Gyártás**, gyártásonként: [Master Drone](/wiki/06-Items/Drones.md) 50 000, [Quantum Laser III](/wiki/06-Items/Lasers.md) 1 500, [Starfire-III](/wiki/06-Items/Lasers.md) 1 500, [Helios Beam](/wiki/06-Items/Lasers.md) 2 000, [Paragon](/wiki/02-Ships/Paragon.md) 1 500, [Wraith](/wiki/02-Ships/Wraith.md) 20 000, [Laser Damage Booster II](/wiki/06-Items/Boosters.md) 20 000, [Shield Wall Booster II](/wiki/06-Items/Boosters.md) 15 000, [Hull Plating Booster II](/wiki/06-Items/Boosters.md) 15 000, [Damage Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Crit Amp IV](/wiki/06-Items/Lasers.md) 2 400, [Absorption Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, Dark Matter Plate 250, [Ironclad](/wiki/02-Ships/Ironclad.md) 10 500, [Heavy Shield Core](/wiki/06-Items/Shields.md) 4 000, [Engine III](/wiki/06-Items/Propulsion.md) 4 000, [Impulse Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Absorption Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Absorption Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell II](/wiki/06-Items/Shields.md) 2 000, [Capacity Shield Cell III](/wiki/06-Items/Shields.md) 3 000, [Capacity Shield Cell IV](/wiki/06-Items/Shields.md) 5 000, [Impulse Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster II](/wiki/06-Items/Propulsion.md) 2 000, [Momentum Thruster III](/wiki/06-Items/Propulsion.md) 3 000, [Momentum Thruster IV](/wiki/06-Items/Propulsion.md) 4 000, [Storm](/wiki/02-Ships/Storm.md) 15 000, Extra Slots CPU I 12 000, Extra Slots CPU II 30 000, Extra Slots CPU III 75 000, Jump CPU 40 000, Base CPU I 8 000, Base CPU II 20 000, Auto-Repair CPU 15 000, Testudo Formation 15 000, Bodkin Formation 42 000, Asterism Formation 14 000, Gemini Formation 76 000, Adamant Formation 18 000, Ballista Formation 48 000, Stiletto Formation 92 000, Rampart Formation 77 000, Sanctum Formation 40 000, Shrike Formation 17 000, Culler Formation 40 000, Redoubt Formation 42 000, Auger Formation 41 000, Cordon Formation 43 000, Centurion Formation 16 000, Gyre Formation 40 000, [Damage Amp II](/wiki/06-Items/Lasers.md) 500, [Damage Amp III](/wiki/06-Items/Lasers.md) 2 000, [Crit Amp II](/wiki/06-Items/Lasers.md) 500, [Crit Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp II](/wiki/06-Items/Lasers.md) 500, [Penetration Amp III](/wiki/06-Items/Lasers.md) 2 000, [Penetration Amp IV](/wiki/06-Items/Lasers.md) 2 400, Hull Plating II 2 500, Hull Plating III 4 000, [Engine II](/wiki/06-Items/Propulsion.md) 2 000, Adaptive Core II 2 000, Adaptive Core III 4 000, Energetic Wall II 600, P.E.T. Station I 2 000, P.E.T. Station II 4 000, P.E.T. Station III 12 000, Auto-Rocket CPU 20 000, [Ultra Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 687, [Experimental Fusion Core](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 1 315, [Siphon Battery II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 250, [Antimatter Battery I](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 100, [Antimatter Battery II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 75, [Dark Matter Ammo I](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 987, [Dark Matter Ammo II](/wiki/06-Items/Lasers.md) (1 000 darabot készít) 200, Rocket Launcher II 150 000, Rocket Launcher III 400 000, Rocket Launcher IV 900 000, Rocket Launcher V 2 000 000, Mine II 200, Mine III 400, Laser Optics I 8 000, Laser Optics II 15 000, Laser Optics III 30 000, Laser Optics IV 50 000, Laser Optics V 75 000, [Miyuki](/wiki/02-Ships/Miyuki.md) 6 000, [Miyuki II](/wiki/02-Ships/Miyuki.md) 20 000, [Miyuki III](/wiki/02-Ships/Miyuki.md) 35 000, [Miyuki IV](/wiki/02-Ships/Miyuki.md) 50 000, [Miyuki V](/wiki/02-Ships/Miyuki.md) 75 000, [Lancet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Lancet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Rivet II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Rivet III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Ember II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Ember III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [Scatter II](/wiki/06-Items/Rockets.md) (100 darabot készít) 200, [Scatter III](/wiki/06-Items/Rockets.md) (100 darabot készít) 800, [N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [N.I.K.E.](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 500, [Freeze Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 000, [EMP Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 200, [Shield Breaker](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 500, [Toxic Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 1 000, [Marking Rocket](/wiki/06-Items/Rockets.md) (5 darabot készít) 800, [Cooldown Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 2 500, [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md) 3 000, [Support Rocket](/wiki/06-Items/Rockets.md) (3 darabot készít) 2 000.
+- **[Kovácsműhely](/wiki/06-Items/Forge.md)**, fokozatlépésenként: Sugárzó → Felemelkedett 2 667.
 - **[Skylab](/wiki/03-Mechanics/Skylab.md)**-építések és fejlesztések, az egyes modulok ára (az 1. szint az építés, minden további szintnek saját ára van): Lőszernyomtató 500 az 1. szinten, 11 000 a 20. szinten, Kreditfarm 0 az 1. szinten, 550 a 20. szinten, Védelmi modul 2 000 az 1. szinten, 56 000 a 5. szinten, Hajtóműmodul 1 500 az 1. szinten, 35 000 a 5. szinten, Kovácsműhely 500 az 1. szinten, 10 000 a 20. szinten, Ércrakodó 250 az 1. szinten, 550 a 20. szinten, Orvium-gyűjtő 500 az 1. szinten, 12 500 a 20. szinten, Radarmodul 1 000 az 1. szinten, 9 000 a 3. szinten, Kutatóközpont 500 (szintenként ×1,5), Rakétagyár 500 az 1. szinten, 2 800 a 20. szinten, Napelem 50 az 1. szinten, 10 000 a 20. szinten, Erőforrás-raktár 250 az 1. szinten, 550 a 20. szinten, Thuliumfarm 500 az 1. szinten, 16 000 a 20. szinten, Trófeaterem 400 az 1. szinten, 9 300 a 20. szinten, Velkonite-gyűjtő 500 az 1. szinten, 12 500 a 20. szinten.
 - **[Kutatás](/wiki/03-Mechanics/Research.md#the-thulium-boost)**: a Kutatóközpont egy boostja 5 000 Thuliumba kerül.
 - **[Jump CPU](/wiki/06-Items/Extras.md#jump-cpu)**: ugrásonként 500 Thulium.
@@ -905,7 +973,7 @@ Ezek egy energiával ellátott állomás értékei: az energiahiány minden farm
 
 - **Ládák**: egy idegen zsákmánya egyetlen ládában esik le ott, ahol felrobban, és 30 másodpercig a kilövő pilótáé és a klánjáé. A [Resource Magnet Booster](/wiki/06-Items/Boosters.md) 25%-kal növeli egy láda tartalmát. Lásd: [Rakomány](/wiki/03-Mechanics/Cargo.md).
 - **Roncsok**: a megsemmisült [vállalati pilóta](/wiki/03-Mechanics/Company-Pilots.md) nem hagy ládát és alkatrészt, akárki vagy akármi semmisíti meg, így a pilóták hajói nem nyersanyagforrások. Más vállalat pilótáit a Békeprotokoll vége után lőheted le, ott, ahol a [világod](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) engedélyezi a PvP-t; a saját vállalatod egy pilótájának megsemmisítése 100 becsületbe kerül.
-- **Modulfejlesztések**: a Gyártás az eggyel lejjebb lévő darab fejlesztésével készíti el ezeket, és közben felhasználja a darabot: Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II és Adaptive Core III. Egy fejlesztés ezeket a lemezeket kéri: Velkonite Reinforced Plate, Dark Matter Plate és Orvium Reinforced Plate. Ugyanezeket kérik még: Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV és Laser Optics V. Az új darab megtartja a beletett darab Kovácsműhely-fokozatát és bónuszait. Lásd: [Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
+- **Modulfejlesztések**: a Gyártás az eggyel lejjebb lévő darab fejlesztésével készíti el ezeket, és közben felhasználja a darabot: Quantum Laser III, Starfire-III, Helios Beam, Damage Amp IV, Crit Amp IV, Absorption Shield Cell IV, Impulse Thruster IV, Heavy Shield Core, Engine III, Impulse Thruster III, Absorption Shield Cell II, Absorption Shield Cell III, Capacity Shield Cell II, Capacity Shield Cell III, Capacity Shield Cell IV, Impulse Thruster II, Momentum Thruster II, Momentum Thruster III, Momentum Thruster IV, Damage Amp II, Damage Amp III, Crit Amp II, Crit Amp III, Penetration Amp II, Penetration Amp III, Penetration Amp IV, Hull Plating II, Hull Plating III, Engine II, Adaptive Core II és Adaptive Core III. Egy fejlesztés ezeket a lemezeket kéri: Velkonite Reinforced Plate, Dark Matter Plate és Orvium Reinforced Plate. Ugyanezeket kérik még: Master Drone, Dark Matter Plate, Extra Slots CPU I, Extra Slots CPU II, Extra Slots CPU III, Jump CPU, Base CPU I, Base CPU II, Auto-Repair CPU, Testudo Formation, Bodkin Formation, Asterism Formation, Gemini Formation, Adamant Formation, Ballista Formation, Stiletto Formation, Rampart Formation, Sanctum Formation, Shrike Formation, Culler Formation, Redoubt Formation, Auger Formation, Cordon Formation, Centurion Formation, Gyre Formation, P.E.T. Station I, P.E.T. Station II, P.E.T. Station III, Auto-Rocket CPU, Ultra Core, Experimental Fusion Core, Laser Optics I, Laser Optics II, Laser Optics III, Laser Optics IV, Laser Optics V, Miyuki II, Miyuki III, Miyuki IV és Miyuki V. Az új darab megtartja a beletett darab Kovácsműhely-fokozatát és bónuszait. Lásd: [Modulfejlesztések a Gyártásban](/wiki/06-Items/Forge.md#module-upgrades-in-the-assembly).
 - **Hol vannak tárolva**: a leltárban lévő szabad kötegeket használja a Gyártás, a Kovácsműhely és a Skylab építése. A hajón vagy a tranzittárolóban lévő kötegeket nem.
 - **A wipe**: a leltáradban lévő nyersanyagokra a [wipe-szabályok](/wiki/03-Mechanics/Wipe-Timeline.md) vonatkoznak; a Skylab Erőforrás-raktárában tárolt érc megmarad.
 

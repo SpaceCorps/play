@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Rangok -->
 # Rangok {#ranks}
 
@@ -106,9 +106,11 @@ Ha vállalatot váltasz, a pontjaid veled mennek, és az új vállalat ranglist�
 
 ## Hogyan szerzel PvE-pontot {#how-you-earn-pve-points}
 
-A PvE-pontjaidat három dologból számoljuk:
+A PvE-pontjaidat négy dologból számoljuk:
 
-**szint × 100 + tapasztalat ÷ 1 000 (lefelé kerekítve) + minden általad elpusztított idegen pontja**
+**szint × 100 + tapasztalat ÷ 1 000 (lefelé kerekítve) + becsület ÷ 100 (lefelé kerekítve) + minden általad elpusztított idegen pontja**
+
+Minden 100 **becsület** egy pontot ér, bármi is adta; a wipe után csak az a becsület számít, amelyet az új szezonban szerzel. A 0 alatti egyenleg semmit sem számít.
 
 A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell okozni az idegen elpusztításához. A rajhajók és a klánőrzők ugyanezen szabály szerint számítanak, így egy Pirate Scout annyit ér, mint egy Bulwark. Minden lelövést az idegen saját neve alatt számolunk a lelövési statisztikádban.
 
@@ -144,7 +146,7 @@ A keményebb idegen többet ér: a lelövés annyi pontot ad, amennyi kárt kell
 
 Az első öt sor a hétköznapi idegen, a következő tizenkettő a hat raj hajója, a következő három pedig a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei (a szezon 11. napjától). A végén a klánőrzők, a klánőrző-harc vezetői, és a legénységük, a Brood Drone-ok, Siege Escortok és Wrath Guardok: az őrző erősségét az I, II és III jelöli, és a pontok ebben a sorrendben állnak.
 
-Például egy 4. szintű pilóta, akinek 12 500 tapasztalata van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 300 + 160 + 40 = **912** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
+Például egy 4. szintű pilóta, akinek 12 500 tapasztalata és 900 becsülete van, és 300 Seekert, 80 Phantasmot és 10 Bulwarkot semmisített meg, 400 + 12 + 9 + 300 + 160 + 40 = **921** pontot kap. Ezzel Őrmester: a minimum 800, a következő rang, a Senior őrmester pedig 1 000 pontot kér. A Senior ezredes rangig csak a pontok számítanak.
 
 A **Rangsor** oldal (Közösség › Rangsor) megmutatja, miből áll össze a pontszámod, és az ott lévő **Dicsőségcsarnok** a legjobb pilótákat sorolja fel. Az ottani PvE-pontok melletti **(i)** felsorolja az öt idegent, azt, hogy egy lelövés mennyit ér az egyes [rajokban](/wiki/05-Swarms/Swarms.md), a legkisebb hajótól a főnökig, ugyanezt a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegeneinél, valamint a [klánőrzőket](/wiki/03-Mechanics/Clans.md#clan-wardens). [Davidski](/wiki/03-Mechanics/Davidski.md#rankings) egyik rangsorban sem szerepel: a lelövése nem ér pontot, nincs sora a Dicsőségcsarnokban, és nem tartozik vállalathoz, ezért egyik ranglistán sincs rajta.
 
@@ -202,7 +204,7 @@ Nyisd meg a **Gazdaság › Vállalat** oldalt. A **Vállalati ranglista** szaka
 
 ## Rangok és a wipe {#ranks-and-the-wipe}
 
-A wipe-nál a PvE-pontjaid újra nulláról indulnak, így a vállalatod ranglistája elölről kezdődik, és minden szezon új mászás. Csak az számít, amit egy wipe után szerzel: a nyert szintek, a tapasztalat és az új szezon idegenkilövései ([Friss pontok](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). A szinted, a tapasztalatod és a kilövési statisztikád az összesítésedben marad. **A becsület nem határozza meg a rangodat.** Az a rang, amelyet a wipe pillanatában viseltél, a ranglistán elfoglalt helyezéseddel együtt bekerül a szezonjaid előzményei közé, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A rangod egyébként sem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és az a pilóta, aki 30 napig távol marad, kikerül a ranglistáról, amíg újra nem repül.
+A wipe-nál a PvE-pontjaid újra nulláról indulnak, így a vállalatod ranglistája elölről kezdődik, és minden szezon új mászás. Csak az számít, amit egy wipe után szerzel: a nyert szintek, a tapasztalat, a becsület és az új szezon idegenkilövései ([Friss pontok](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). A szinted, a tapasztalatod és a kilövési statisztikád az összesítésedben marad. Az a rang, amelyet a wipe pillanatában viseltél, a ranglistán elfoglalt helyezéseddel együtt bekerül a szezonjaid előzményei közé, és megkapod a jutalmát ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)). A rangod egyébként sem egy életre szól: a hat legjobb rang a vállalatod többi pilótájával együtt mozog, és az a pilóta, aki 30 napig távol marad, kikerül a ranglistáról, amíg újra nem repül.
 
 A 2. szezon, amely a 2026. november 6-i wipe-pal kezdődött, volt az első, amely így számol: a pontjai attól a wipe-tól számítanak. Az a wipe, amely az 1. szezont lezárta, a teljes pályafutásodnál szerzett pontok alapján fizette ki az 1. szezon rangjait.
 

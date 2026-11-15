@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 314633d7fdaa8d6f -->
+<!-- wiki-i18n source: 0c9164c462c27a1a -->
 <!-- wiki-i18n title: Kutatás -->
 # Kutatás {#research}
 
@@ -21,7 +21,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 - **A tartály.** A Kutatóközpont a tudományát egy tartályban tartja, amely az 1. szinten 12 óra kutatásnyit tárol, és minden szinttel 25%-kal többet (lásd a lenti táblázatot).
 - **Az üzemanyagból tudomány lesz.** A betáplált nyersanyag azonnal tudománnyá válik, ahogy az üzemanyag-táblázat mutatja. Egy kutatás a kutatási idejének minden másodpercében 1 tudományt éget el; üres tartálynál várakozik, és folytatódik, amint újra táplálod a Kutatóközpontot.
 - **Ingyenes első óra.** Az új Kutatóközpont 3 600 tudománnyal indul a tartályában, ami 1 óra kutatás.
-- **Egyszerre egy.** A Kutatóközpont egyszerre csak egy technológiát kutat, de a Sorba gombbal akár 5 továbbit beállíthatsz mögé. Mindegyik magától indul, amint az előtte lévő kész, akkor is, ha nem vagy ott. A sorba állítás ingyen van: a technológia az indulásakor veszi el a Dark Matter-t, a sorban álló pedig ingyen kivehető.
+- **Egyszerre egy.** A Kutatóközpont egyszerre csak egy technológiát kutat, de a Sorba gombbal akár 5 továbbit beállíthatsz mögé. Mindegyik magától indul, amint az előtte lévő kész, akkor is, ha nem vagy ott. A sorba állítás ingyen van: a technológia az indulásakor veszi el a Dark Matter-t, a sorban álló pedig ingyen kivehető. A várakozókat átrendezheted a sor kártyájában a soraik nyilaival: az elejére, egy hellyel feljebb, egy hellyel lejjebb. A futó kutatás sosem mozdul, és az a sorrend, amely egy technológiát annak elé tenne, amelyre szüksége van, el lesz utasítva.
 - **Amíg távol vagy.** A kutatás a szerver órája szerint fut, ezért kijelentkezés után is megy tovább, amíg el nem készül vagy ki nem ürül a tartály. Az energiahiány vagy a Kutatóközpont fejlesztése nem állítja meg.
 - **Energia.** A Kutatóközpont az 1. szinten 25 energiát fogyaszt, és minden szinttel 15%-kal többet, és nem kapcsolható ki.
 - **A wipe mindent megtart:** a technológiáidat, a tartály tudományát, a belehelyezett Dark Mattert, a folyamatban lévő kutatást és a boostot.
@@ -30,7 +30,7 @@ Ez az oldal tartalmazza a teljes technológiafát az egyes technológiák idejé
 
 <!-- research-centre:end -->
 
-**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 187 technológiából 167 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 20-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
+**Schematics.** Egy [Schematics](/wiki/06-Items/Special-Items.md#schematics) 24 órát levesz a most futó kutatásból: ha legfeljebb 24 óra van hátra, azonnal befejeződik, a hosszabb pedig 24 órát veszít, és fut tovább (a 209 technológiából 187 legfeljebb 24 órát vesz igénybe, így egyetlen Schematics az elejétől befejezi őket; a másik 22-nek 2–10 kell). Amibe a kutatás került, azt az elején kifizetted, és nem adják vissza, a tudomány, amelyet a kihagyott idő elégetett volna, a tartályodban marad, és amikor a kutatás befejeződött, a sorod következő technológiája azonnal elindul.
 
 **A lézererősítők és az utolsó szint.** A II–IV. szintű Damage, Crit és Penetration Amp-eket úgy kell kikutatni, mint minden mást, ami gyártható. Azok a pilóták, akik az erősítővonalak érkezésekor erősítőt birtokoltak vagy sorba állítottak, megkapták mindegyik technológiáját és az alatta lévő szintekét. Tizenhárom technológiához másik fa technológiája kell, a Dark Matter Plate-é, az Erőforrások fáról, mert minden fejlesztési lánc utolsó szintje négy plate-et és egy Ancient Control Unitot kér. Ezek: a IV. szintű Damage, Crit és Penetration Amp, a IV. szintű Absorption és Capacity Shield Cell, a IV. szintű Impulse és Momentum Thruster, a Heavy Shield Core, az Engine III, az Adaptive Core III, a Helios Beam, az Extra Slots CPU III és a Base CPU II. Aki korábban kikutatta valamelyiket, az megtartja, de a plate-jeinek elkészítéséhez szüksége van a plate technológiájára. Az alábbi fa nem rajzol hozzá nyilat, de a táblázat felsorolja, a játékbeli kártya pedig megnevezi ([Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md)).
 
@@ -58,7 +58,7 @@ A Skylabod **Kutatás** nézetében egy technológia többet mond el, mint az al
 
 ## Üzemanyag {#fuel}
 
-A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét. Az ércek kivételek: egy egység több tudományt ad, mint ahány másodperc alatt egy gyűjtő kitermeli, így egy a szintjei közepén járó gyűjtő egy óra érce nagyjából két óra kutatást táplál. Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek, minden más nyersanyag a készletedből, és a hajódnak le kell szállnia. A Velkonite Reinforced Plate, az Orvium Reinforced Plate, a Dark Matter Plate, a Dark Matter, a kredit és a Thulium nem égethető el; a Reinforced Hull Plate igen. A Velkonite-ot és az Orviumot, amelyet egy kotrógép ládái a készletedbe tesznek, az [Ércrakodó](/wiki/03-Mechanics/Skylab.md#ore-bay) juttatja az Erőforrás-raktárba.
+A Kutatóközpontot nyersanyagokkal táplálod, és minden egység azonnal tudománnyá válik. Minél több munkába kerül egy egység megszerzése, annál több tudományt ad: az értékek azt követik, mennyire nehéz megszerezni, nem a ritkasági címkét. Az ércek kivételek: egy egység több tudományt ad, mint ahány másodperc alatt egy gyűjtő kitermeli, így egy a szintjei közepén járó gyűjtő egy óra érce nagyjából két óra kutatást táplál. Az ércek a [Skylabod](/wiki/03-Mechanics/Skylab.md#resource-storage) Erőforrás-raktárából jönnek, minden más nyersanyag a készletedből, és a hajódnak le kell szállnia. A Velkonite Reinforced Plate, az Orvium Reinforced Plate, a Dark Matter Plate, a Dark Matter, a kredit és a Thulium nem égethető el; a Reinforced Hull Plate igen. A Velkonite-ot és az Orviumot, amelyet egy kotrógép ládái a készletedbe tesznek, az [Ércrakodó](/wiki/03-Mechanics/Skylab.md#ore-bay) juttatja az Erőforrás-raktárba. Minden nyersanyag +1, +10 és Max gombja alatt egy számmező van: írd be a pontos egységszámot, és nyomd meg a Betöltés gombot vagy az Entert. A Kutatóközpont legfeljebb annyit vesz fel, amennyid van, amennyi a tartályba belefér, és a mező szól, ha a számod ennél nagyobb.
 
 <!-- research-fuel:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
@@ -119,13 +119,13 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 <!-- research-dark-matter:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->
 
-- **10 Dark Matter** az alábbi táblázat 17 technológiájának mindegyikéhez, a tudományon felül: a kutatás indulása előtt helyezd be a Kutatóközpontba (a leltáradból, leszállt hajóval), és a kutatás induláskor elveszi.
+- **10 Dark Matter** az alábbi táblázat 22 technológiájának mindegyikéhez, a tudományon felül: a kutatás indulása előtt helyezd be a Kutatóközpontba (a leltáradból, leszállt hajóval), és a kutatás induláskor elveszi.
 - **A szabály:** egy Epikus vagy magasabb ritkaságú tárgy, amelynek kutatása 10 óra vagy tovább tart. Az N.I.K.E.-nek, amely a Dark Matter forrása, soha nincs rá szüksége.
 - **A drónformációk** kívül esnek a szabályon: minden formációkutatás Dark Mattert kér, erősségtől függően 5, 13 vagy 20 darabot, ahogy a táblázat mutatja.
 - **A hajótest-páncélzat** szintén kívül esik a szabályon: két kutatása többet kér, egy napnyi kutatásért 25, két napért 40 Dark Mattert, ahogy a táblázat mutatja.
 - **Ha megszakítasz egy kutatást,** a hozzá belehelyezett Dark Matter visszakerül a Kutatóközpontba. A haladás és az addig elégetett tudomány nem.
 - **Egy egész sor.** A sorba állítás ingyen van, és minden sorban álló technológia az indulásakor veszi el a saját adagját, ezért az egész sorhoz szükséges Dark Matter-t egyszerre helyezd be. A Hozzáadás gomb addig tölti fel a Kutatóközpontot, amennyit a sorban álló technológiák összesen elvisznek (és a kiválasztott technológia, ha még nincs sorban), akármennyi kell is az elsőnek, és minden sorban álló technológia mutatja, fedezi-e a Központ Dark Matter-e. A Dark Matter hiánya miatt megállt sor magától elindul, amint hozzáadod a hiányzót.
-- Együtt 424 Dark Mattert kérnek.
+- Együtt 474 Dark Mattert kérnek.
 
 | Technológia | Ritkaság | Kutatási idő | Dark Matter |
 | :--- | :--- | :--- | ---: |
@@ -164,6 +164,11 @@ A fa csúcsán lévő technológiákhoz Dark Matter is kell. A [feketelyukból](
 | [Hull Plating II](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Ritka | 1 nap | 25 |
 | [Hull Plating III](/wiki/06-Items/Hull-Plating.md#the-three-platings) | Epikus | 2 nap | 40 |
 | [Gravitational N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | Mitikus | 1 nap | 10 |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | Ritka | 1 nap | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | Ritka | 1 nap | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | Epikus | 1 nap | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | Epikus | 2 nap | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | Mitikus | 2 nap | 10 |
 
 <!-- research-dark-matter:end -->
 
@@ -225,10 +230,10 @@ Penetration Amp II | laser-amp, uncommon | craft 500 Thulium, 60 s | research 18
 Penetration Amp III | laser-amp, rare | craft 2000 Thulium, 60 s | research 10800 s, 10800 science | 1 Penetration Amp II, 50 Ship Fragment, 2 Power Core, 30 Nyxite, 20 Cataclysite, 2 Velkonite Reinforced Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Penetration Amp IV | laser-amp, epic | craft 2400 Thulium, 90 s | research 36000 s, 36000 science, 10 Dark Matter | 1 Penetration Amp III, 1 Power Core, 1 Ancient Control Unit, 30 Cataclysite, 40 Quorvium, 4 Dark Matter Plate | /wiki/06-Items/Lasers.md#laser-amplifiers-amps-
 Laser Optics I | extra, uncommon | craft 8000 Thulium, 300 s | research 10800 s, 10800 science | 40 Ship Fragment, 2 Power Core, 4 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
-Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics II | extra, uncommon | craft 15000 Thulium, 450 s | research 21600 s, 21600 science | 1 Laser Optics I, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 6 Velkonite Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics III | extra, rare | craft 30000 Thulium, 600 s | research 36000 s, 36000 science | 1 Laser Optics II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 12 Velkonite Reinforced Plate, 2 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics IV | extra, rare | craft 50000 Thulium, 750 s | research 57600 s, 57600 science | 1 Laser Optics III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 14 Velkonite Reinforced Plate, 6 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
+Laser Optics V | extra, rare | craft 75000 Thulium, 900 s | research 86400 s, 86400 science | 1 Laser Optics IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 15 Velkonite Reinforced Plate, 10 Orvium Reinforced Plate | /wiki/06-Items/Extras.md#laser-optics
 
 Quantum Laser III => Starfire-III => Helios Beam
 Damage Amp II => Damage Amp III => Damage Amp IV
@@ -258,6 +263,16 @@ Paragon | ship, rare | craft 1500 Thulium, 900 s | research 21600 s, 21600 scien
 Ironclad | ship, epic | craft 10500 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 10 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Ironclad.md
 Storm | ship, epic | craft 15000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 200 Ship Fragment, 35 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Storm.md
 Wraith | ship, mythical | craft 20000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 500 Ship Fragment, 200 Reinforced Hull Plate, 20 Power Core, 3 Ancient Control Unit | /wiki/02-Ships/Wraith.md
+Miyuki | ship, rare | craft 6000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 160 Ship Fragment, 25 Reinforced Hull Plate, 10 Power Core, 1 Ancient Control Unit | /wiki/02-Ships/Miyuki.md
+Miyuki II | ship, rare | craft 20000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki, 80 Ship Fragment, 8 Reinforced Hull Plate, 4 Power Core, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki III | ship, epic | craft 35000 Thulium, 600 s | research 86400 s, 86400 science, 10 Dark Matter | 1 Miyuki II, 120 Ship Fragment, 10 Reinforced Hull Plate, 6 Power Core, 1 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki IV | ship, epic | craft 50000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki III, 180 Ship Fragment, 18 Reinforced Hull Plate, 9 Power Core, 2 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+Miyuki V | ship, mythical | craft 75000 Thulium, 900 s | research 172800 s, 172800 science, 10 Dark Matter | 1 Miyuki IV, 240 Ship Fragment, 25 Reinforced Hull Plate, 12 Power Core, 3 Ancient Control Unit, 8 Dark Matter Plate | /wiki/02-Ships/Miyuki.md
+
+Paragon => Ironclad
+Paragon => Storm
+Paragon => Wraith
+Paragon => Miyuki => Miyuki II => Miyuki III => Miyuki IV => Miyuki V
 ```
 
 ### Erőforrások {#tree-resources}
@@ -288,9 +303,9 @@ Cooldown Rocket | rocket, legendary | craft 100000 Credits, 2500 Thulium, 600 s,
 Gravitational N.U.K.E. | rocket, mythical | craft 150000 Credits, 3000 Thulium, 900 s | research 86400 s, 86400 science, 10 Dark Matter | 1 N.U.K.E., 4 Power Core, 2 Ancient Control Unit, 40 Quorvium | /wiki/06-Items/Rockets.md#the-craft-only-rockets
 Support Rocket | rocket, epic | craft 90000 Credits, 2000 Thulium, 600 s, x3 | research 21600 s, 21600 science | 20 Ship Fragment, 2 Power Core, 40 Nyxite, 20 Quorvium | /wiki/06-Items/Rockets.md#the-twelve-rockets
 Rocket Launcher II | extra, rare | craft 150000 Thulium, 28800 s | research 172800 s, 172800 science | 300 Ship Fragment, 50 Reinforced Hull Plate, 30 Power Core, 5 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
-Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher III | extra, rare | craft 400000 Thulium, 43200 s | research 345600 s, 345600 science | 1 Rocket Launcher II, 800 Ship Fragment, 120 Reinforced Hull Plate, 80 Power Core, 15 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher IV | extra, rare | craft 900000 Thulium, 57600 s | research 604800 s, 604800 science | 1 Rocket Launcher III, 1800 Ship Fragment, 250 Reinforced Hull Plate, 160 Power Core, 30 Ancient Control Unit | /wiki/06-Items/Extras.md
+Rocket Launcher V | extra, rare | craft 2000000 Thulium, 86400 s | research 864000 s, 864000 science | 1 Rocket Launcher IV, 4000 Ship Fragment, 500 Reinforced Hull Plate, 300 Power Core, 60 Ancient Control Unit | /wiki/06-Items/Extras.md
 
 Lancet II => Lancet III
 Lancet III => Freeze Rocket
@@ -482,9 +497,9 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | [Hull Plating Booster II](/wiki/06-Items/Boosters.md#active-boosters) | – | B | 3 óra | 10 800 | – |
 | [Master Drone](/wiki/06-Items/Drones.md#available-drones) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | C | 10 óra | 36 000 | – |
 | [Paragon](/wiki/02-Ships/Paragon.md) | – | B | 6 óra | 21 600 | – |
-| [Ironclad](/wiki/02-Ships/Ironclad.md) | – | D | 1 nap | 86 400 | 10 |
-| [Storm](/wiki/02-Ships/Storm.md) | – | D | 1 nap | 86 400 | 10 |
-| [Wraith](/wiki/02-Ships/Wraith.md) | – | D | 2 nap | 172 800 | 10 |
+| [Ironclad](/wiki/02-Ships/Ironclad.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 nap | 86 400 | 10 |
+| [Storm](/wiki/02-Ships/Storm.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 nap | 86 400 | 10 |
+| [Wraith](/wiki/02-Ships/Wraith.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 2 nap | 172 800 | 10 |
 | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate) | – | D | 1 nap | 86 400 | 10 |
 | [N.I.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | – | B | 3 óra | 10 800 | – |
 | [N.U.K.E.](/wiki/06-Items/Rockets.md#the-craft-only-rockets) | [Scatter III](/wiki/06-Items/Rockets.md#the-twelve-rockets) | D | 1 nap | 86 400 | 10 |
@@ -562,6 +577,11 @@ A Kutatás nézet Pilóta családja olyan technológiákat tartalmaz, amelyek ne
 | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics II](/wiki/06-Items/Extras.md#laser-optics) | C | 10 óra | 36 000 | – |
 | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics III](/wiki/06-Items/Extras.md#laser-optics) | D | 16 óra | 57 600 | – |
 | [Laser Optics V](/wiki/06-Items/Extras.md#laser-optics) | [Laser Optics IV](/wiki/06-Items/Extras.md#laser-optics) | D | 1 nap | 86 400 | – |
+| [Miyuki](/wiki/02-Ships/Miyuki.md) | [Paragon](/wiki/02-Ships/Paragon.md) | D | 1 nap | 86 400 | 10 |
+| [Miyuki II](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki](/wiki/02-Ships/Miyuki.md) | D | 1 nap | 86 400 | 10 |
+| [Miyuki III](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki II](/wiki/02-Ships/Miyuki.md) | D | 1 nap | 86 400 | 10 |
+| [Miyuki IV](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki III](/wiki/02-Ships/Miyuki.md) | D | 2 nap | 172 800 | 10 |
+| [Miyuki V](/wiki/02-Ships/Miyuki.md) | [Dark Matter Plate](/wiki/06-Items/Resources.md#dark-matter-plate), [Miyuki IV](/wiki/02-Ships/Miyuki.md) | D | 2 nap | 172 800 | 10 |
 
 Az osztályok kutatási idő szerint:
 
@@ -570,10 +590,10 @@ Az osztályok kutatási idő szerint:
 | A | 30 perc–1 óra | 17 | 9 óra 30 perc | 34 200 | 0 |
 | B | 3 óra–6 óra | 37 | 5 nap 20 óra | 504 000 | 0 |
 | C | 8 óra–10 óra | 20 | 8 nap 4 óra | 705 600 | 95 |
-| D | 16 óra–10 nap | 30 | 53 nap 16 óra | 4 636 800 | 329 |
-| Összesen |  | 104 | 68 nap 1 óra 30 perc | 5 880 600 | 424 |
+| D | 16 óra–10 nap | 35 | 60 nap 16 óra | 5 241 600 | 379 |
+| Összesen |  | 109 | 75 nap 1 óra 30 perc | 6 485 400 | 474 |
 
-Egymás után kutatva a teljes fa 68 nap 1 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 34 nap 45 perc alatt, ami 35 boost és 175 000 Thulium; a tudomány ugyanannyi.
+Egymás után kutatva a teljes fa 75 nap 1 óra 30 perc alatt készül el. Ha a boost végig be van kapcsolva, 37 nap 12 óra 45 perc alatt, ami 38 boost és 190 000 Thulium; a tudomány ugyanannyi.
 
 <!-- research-technologies:end -->
 

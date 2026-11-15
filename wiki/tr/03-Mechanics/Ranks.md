@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4ee5fb5505e65f6b -->
+<!-- wiki-i18n source: 38daca85a103c20f -->
 <!-- wiki-i18n title: Rütbeler -->
 # Rütbeler {#ranks}
 
@@ -106,9 +106,11 @@ Listede olmayan bir pilot, rütbenin gösterildiği her yerde **Genç Pilot** sa
 
 ## PvE puanı nasıl kazanılır {#how-you-earn-pve-points}
 
-PvE puanın üç şeyden hesaplanır:
+PvE puanın dört şeyden hesaplanır:
 
-**seviye × 100 + deneyim ÷ 1.000 (aşağı yuvarlanır) + yok ettiğin her uzaylının puanı**
+**seviye × 100 + deneyim ÷ 1.000 (aşağı yuvarlanır) + onur ÷ 100 (aşağı yuvarlanır) + yok ettiğin her uzaylının puanı**
+
+Her 100 **onur** bir puandır; nereden geldiği fark etmez. Sıfırlamadan sonra yalnızca yeni sezonda kazandığın onur sayılır. 0'ın altındaki bakiye hiçbir şey saymaz.
 
 Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etmek için ne kadar hasar gerektiğine göre puan ekler. Sürü gemileri ve Clan Warden de aynı kurala göre sayılır, bu yüzden bir Pirate Scout bir Bulwark kadar değerlidir. Her öldürme, öldürme istatistiklerinde uzaylının kendi adı altında sayılır.
 
@@ -144,7 +146,7 @@ Daha dayanıklı bir uzaylı daha değerlidir: bir öldürme, uzaylıyı yok etm
 
 İlk beş satır normal uzaylılar, sonraki on iki satır altı sürünün gemileri, sonraki üç satır ise [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylılarıdır (sezonun 11. gününden itibaren). En sonda, bir Clan Warden savaşının liderleri olan Warden gemileri ve mürettebatları gelir: Brood Drone, Siege Escort ve Wrath Guard. I, II ve III Warden gücünü gösterir; her birinin puanı bu sırayla yazılmıştır.
 
-Örneğin 4. seviyede, 12.500 deneyimi olan ve 300 Seeker, 80 Phantasm ile 10 Bulwark yok etmiş bir pilotun toplam puanı 400 + 12 + 300 + 160 + 40 = **912** olur. Bu onu Çavuş yapar: en düşük puan 800 puandır; bir sonraki rütbe olan Kıdemli Çavuş ise 1.000 puan ister. Kıdemli Albay rütbesine kadar yalnızca puan sayılır.
+Örneğin 4. seviyede, 12.500 deneyimi ve 900 onuru olan ve 300 Seeker, 80 Phantasm ile 10 Bulwark yok etmiş bir pilotun toplam puanı 400 + 12 + 9 + 300 + 160 + 40 = **921** olur. Bu onu Çavuş yapar: en düşük puan 800 puandır; bir sonraki rütbe olan Kıdemli Çavuş ise 1.000 puan ister. Kıdemli Albay rütbesine kadar yalnızca puan sayılır.
 
 **Sıralamalar** sayfası (Topluluk › Sıralamalar) puanının nasıl oluştuğunu gösterir; içindeki **Şeref Salonu** en iyi pilotları listeler. Oradaki PvE puanının yanındaki **(i)** beş uzaylıyı, sürülerin ([Sürüler](/wiki/05-Swarms/Swarms.md)) her birinde bir öldürmenin en küçük gemiden patronuna kadar kaç puan ettiğini, [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylıları için aynısını ve [Clan Warden](/wiki/03-Mechanics/Clans.md#clan-wardens) için de aynısını listeler. [Davidski](/wiki/03-Mechanics/Davidski.md#rankings), hiçbir sıralamada yer almaz: onu öldürmek puan etmez, Şeref Salonu’nda satırı yoktur ve hiçbir şirkette olmadığı için listelerin hiçbirinde yoktur.
 
@@ -202,7 +204,7 @@ Uçuşta **yalnızca simgeyi** görürsün, sözcükleri asla. Simge pilotun ad�
 
 ## Rütbeler ve sıfırlama {#ranks-and-the-wipe}
 
-Sıfırlamada PvE puanların sıfırdan yeniden başlar, bu yüzden şirketinin listesi baştan başlar ve her sezon yeni bir tırmanıştır. Yalnızca bir sıfırlamadan sonra kazandıkların sayılır: yeni sezonda yükselttiğin seviyeler, deneyim ve uzaylı öldürmeleri ([Taze puanlar](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Seviyen, deneyimin ve öldürme istatistiklerin toplam sayılarında kalır. **Onur rütbeni belirlemez.** Sıfırlama anında taşıdığın rütbe, listedeki yerinle birlikte sezon geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Rütben ömür boyu da değildir: en iyi altı rütbe, şirketindeki diğer pilotlarla birlikte hareket eder ve 30 gün uzak kalan bir pilot, yeniden uçana kadar listeden çıkar.
+Sıfırlamada PvE puanların sıfırdan yeniden başlar, bu yüzden şirketinin listesi baştan başlar ve her sezon yeni bir tırmanıştır. Yalnızca bir sıfırlamadan sonra kazandıkların sayılır: yeni sezonda yükselttiğin seviyeler, deneyim, onur ve uzaylı öldürmeleri ([Taze puanlar](/wiki/03-Mechanics/Wipe-Timeline.md#fresh-points)). Seviyen, deneyimin ve öldürme istatistiklerin toplam sayılarında kalır. Sıfırlama anında taşıdığın rütbe, listedeki yerinle birlikte sezon geçmişine girer ve ödüllerini öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)). Rütben ömür boyu da değildir: en iyi altı rütbe, şirketindeki diğer pilotlarla birlikte hareket eder ve 30 gün uzak kalan bir pilot, yeniden uçana kadar listeden çıkar.
 
 6 Kasım 2026 sıfırlamasıyla başlayan 2. sezon, bu şekilde sayılan ilk sezon oldu: puanları o sıfırlamadan itibaren sayılır. 1. sezonu kapatan sıfırlama, 1. sezonun rütbelerini tüm kariyerinin puanlarına göre ödedi.
 

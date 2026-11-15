@@ -80,6 +80,7 @@ Bygger på Crystalys med 625 % av skrovet; inget vapen, och sköld och hastighe
 | Power Core | 66 % | 4–7 |
 | Ancient Control Unit | 100 % | 1–4 |
 | Dark Matter | 100 % | 10–20, högst 5 per pilot |
+| Heartshard | 5 % | 1 |
 
 ### Facet
 

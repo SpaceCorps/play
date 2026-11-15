@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8d402a8454b12f5b -->
+<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,6 +36,7 @@ Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wi
 - **Quorvium**: 100 % Chance (Min.: 6, Max.: 10)
 - **Power Core**: 50 % Chance (Min.: 1, Max.: 1)
 - **Ancient Control Unit**: 20 % Chance (Min.: 1, Max.: 1)
+- **Echo Shard**: 20 % Chance (Min.: 1, Max.: 1)
 
 ## Hintergrund {#lore}
 

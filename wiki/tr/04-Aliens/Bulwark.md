@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 440dd341e5b80c44 -->
+<!-- wiki-i18n source: 52ee2498afd5ee6c -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,6 +32,7 @@ Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](
 - **Cataclysite**: %100 şans (En az: 2, En çok: 2)
 - **Reinforced Hull Plate**: %30 şans (En az: 1, En çok: 1)
 - **Nyxite**: %40 şans (En az: 1, En çok: 2)
+- **Echo Shard**: %2 şans (En az: 1, En çok: 1)
 
 ## Hikâye {#lore}
 

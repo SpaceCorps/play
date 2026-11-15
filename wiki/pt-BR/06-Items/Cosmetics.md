@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: deb5b10a8ab7288f -->
+<!-- wiki-i18n source: 2a3c0d224bf62971 -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
@@ -26,7 +26,7 @@ Uma skin é um esquema de pintura feito a partir do próprio casco da nave: as l
 
 As skins pertencem à sua **conta**, não a uma nave, e ficam através do [reset](/wiki/03-Mechanics/Wipe-Timeline.md); as suas naves usam o que usavam.
 
-O [Arquivo Cromático](/wiki/06-Items/Containers.md#chroma-archive) pode dar qualquer coleção exceto a Bloody R.E.D, e dá uma coleção inteira de uma vez: todas as skins dela que você ainda não tem.
+O [Arquivo Cromático](/wiki/06-Items/Containers.md#chroma-archive) pode dar qualquer coleção exceto a Bloody R.E.D, uma skin por vez: um prêmio de coleção dá uma skin dela, para um modelo de nave. É a skin da sua nave ativa, se a coleção tiver uma para ela e você ainda não a tiver; senão, a skin de outra nave que você tem; senão, a primeira skin da coleção que faltar. Então pilote a nave para a qual você quer a skin quando abrir um Arquivo. A coleção pode sair de novo até você ter todas as skins dela. Uma coleção que veio inteira antes da 0.5.7 continua sua, com todas as skins.
 
 | Coleção | Naves | Raridade | Como é |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ Uma aura fica dentro do anel que marca uma trava e é desenhada por baixo de tod
 ## O Guarda-roupa {#the-wardrobe}
 
 - **Abas.** Skin, Aura, Rastro e Drones. Um chip de raridade filtra uma aba para uma só raridade, e **Só os meus** lista o que você pode vestir.
-- **Um bloco diz como você está com o visual.** **Vestido** (a nave o usa), **Você tem** (você o possui), **Vem com o slot** (todo piloto o tem) ou **Ainda não pode ser obtido**, com um tique abafado quando você clica.
+- **Um bloco diz como você está com o visual.** **Vestido** (a nave o usa), **Você tem** (você o possui), **Vem com o slot** (todo piloto o tem) ou **Ainda não pode ser obtido**, com um tique abafado quando você clica. O bloco de uma skin também mostra quantas skins de nave da coleção dela você tem, por exemplo 1/4.
 - **Tirar um visual.** O bloco **Liso** da aba Skin devolve à nave a pintura lisa, e **Nenhuma** tira a aura.
 - **Mais de uma nave.** O interruptor no pé da folha, **Aplicar também às minhas outras naves deste modelo** para uma skin e **Aplicar também às minhas outras naves** para uma aura ou um rastro, faz um clique pôr o visual em todas.
 - **Onde você pode mudá-lo.** Onde você pode mudar o seu equipamento: atracado, ou em uma zona segura com a proteção ativa, como em [Hangar](/wiki/03-Mechanics/Hangar.md#when-it-is-open).

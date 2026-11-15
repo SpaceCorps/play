@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: ソロゲート -->
 # ソロゲート {#solo-gates}
 
@@ -50,7 +50,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ### パーツのないスピン {#a-spin-without-a-part}
 
-ほとんどのスピンはパーツを見つけません。それぞれが賞品を1つ支払い、下の確率で選ばれます。2段階目以上の倍率のレーザー弾薬、2段階目か3段階目のロケットのスタック、そして時々[スペシャルアイテム](/wiki/06-Items/Special-Items.md)や[コンテナ](/wiki/06-Items/Containers.md)です。渡せない賞品（そのスペシャルアイテムをすでに上限まで持っている場合など）は、同じ抽選で弾薬かロケットのスタックになるので、スピンが表より少なく支払うことはありません。賞品の価値はスピンの費用よりはっきり低く、ゲートはThuliumの吸い込み口です。
+ほとんどのスピンはパーツを見つけません。それぞれが賞品を1つ支払い、下の確率で選ばれます。2段階目以上の倍率のレーザー弾薬、2段階目か3段階目のロケットのスタック、そして時々[スペシャルアイテム](/wiki/06-Items/Special-Items.md)や[コンテナ](/wiki/06-Items/Containers.md)です。渡せない賞品（スペシャルアイテムやコンテナが停止している場合など）は、同じ抽選で弾薬かロケットのスタックになるので、スピンが表より少なく支払うことはありません。賞品の価値はスピンの費用よりはっきり低く、ゲートはThuliumの吸い込み口です。
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 - ゲートのパーツ：パーツは**建設するときに1度だけ**取られ、拒否された建設では何も取られません。
 - ほかのソロのランが開いていないこと：同時に持てるランは1つで、離れたランは、別のゲートを建設する前にポータルから入り直すか放棄します。
-- ホームサーバー（地域サーバーにはゲートがありません）。
+- ホームサーバー（ゲートの建設はホームサーバーだけで行います。地域サーバーではまず基地に戻ります）。
 
-建設したゲートは、あなたの**基地セクター**（企業に応じて`M-1`、`T-1`、`G-1`のいずれか）に、ゲート名のついたポータルとして立ちます。どこにあるかはギャラクシーゲートのページに表示されます。**出撃してポータルまで飛び、ジャンプ**して通ります。ほかのポータルと同じです。入るときはワールドにリフトが空いている必要があります。各ワールドには一定数のリフトがあり、すべて使用中のときは待ちます。
+建設したゲートは、あなたの**基地セクター**（企業に応じて`M-1`、`T-1`、`G-1`のいずれか）に、ゲート名のついたポータルとして立ちます。どこにあるかはギャラクシーゲートのページに表示されます。**出撃してポータルまで飛び、ジャンプ**して通ります。ほかのポータルと同じです。入るときはワールドにリフトが空いている必要があります。各ワールドには一定数のリフトがあり、すべて使用中のときは待ちます。表示されるのは**自分の**ゲートだけです。同じセクターにある他のパイロットのゲートのポータルは表示されません。
 
-**地域サーバーで（Singapore、US East）。**ゲート自体はホームサーバーに残ります。地域サーバーでは、建設も、プレイも、支払いも行われません。ただし、建設したゲートはそこでも忘れられません。到着したときにそのことが知らされ、ゲートのポータルはそこでもあなたの基地セクターに立ちます。そのポータルにジャンプするとホームサーバーに戻され、上記のとおりゲートへ出撃できます。
+**地域サーバーで（Singapore、US East）。**建設したゲートはそこでもプレイできます。ゲートのポータルは、ホームサーバーと同じように、地域サーバーでもあなたの基地セクターに立ち、到着したときにそのことが知らされます。**そのポータルにジャンプすると、そのサーバーのアリーナに入ります。**遅延はホームサーバーではなく、そのサーバーのものになります。地域サーバーのアリーナは各ワールドに**2つだけ**で、ホームサーバーにははるかに多くあります。両方が使用中のときは、ホームサーバーで空きのリフトを待つのと同じように待ちます。ランとパーツと報酬を保管するのは、これまでどおりホームサーバーだけです。報酬は、ホームサーバーがランを集計した時点、つまり終了の数秒後にウォレットへ届き、**飛行ウィンドウのウォレットはドッキングしたときに追いつきます**。次のランに入れるのは、前のランが集計されてからです。アリーナで離れたランは、ポータルからもう一度入れます。あきらめたいときは、アリーナの中か、基地で放棄します。地域サーバーのアリーナが停止されている場合は、代わりにそのポータルでホームサーバーに戻され、上記のとおりゲートへ出撃できます。地域サーバーでほかに何が使えるかは、[サーバー](/wiki/03-Mechanics/Servers.md)を参照してください。
 
 空っぽのアリーナの中央に、1人で降り立ちます。中ではほかの誰もあなたを攻撃できず、Jump CPUとBase CPUは動きません。
 
@@ -161,7 +161,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ## クリア報酬 {#what-a-clear-pays}
 
-クリアは表の報酬を**1度だけ**まとめて、ボスが倒れた瞬間に支払います。クレジット、Thulium、経験値、名誉、鉱石、プレート、Power Core、弾薬です。経験値はダンジョンと同じく、PvEランキングポイントに数えられます。
+クリアは表の報酬を**1度だけ**まとめて、ボスが倒れた瞬間に支払います。クレジット、Thulium、経験値、名誉、鉱石、プレート、Power Core、弾薬です。経験値と名誉は、ダンジョンと同じくPvEランキングポイントに数えられます。
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400、弾薬：Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
-- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100、弾薬：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
-- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15、弾薬：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
-- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3、弾薬：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
-- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10、弾薬：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Alpha Rift**：Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6、弾薬：Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**：Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13、弾薬：Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**：Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27、弾薬：Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**：Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44、弾薬：Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**：Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54、弾薬：Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Heartshard**：シーズン中に各ゲートを初めてクリアしたときに1個、さらにクリアするたびに5%の確率で1個。
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Chrono-Gateのパーツはワイプでゼロに戻り、毎シーズン見つけ
 
 ### エイリアン {#the-aliens}
 
-ゲートで倒したエイリアンは、飛んでいるワールドに関係なく、Alphaでの数値で支払われます。ワールド倍率、ブースター、Premiumボーナスは影響しません。ウェーブはそのエイリアンの分を、ランごとに**1度だけ**支払います。何度離れて戻っても同じです。報酬はランの各区間の終わりに支払われます。退出、死亡、ライフ切れ、放棄、クリアのときです。区間の撃破が未払いになるのは、ワイプのときと、中にいる間にサーバーが再起動されたときだけです（ランは開いたままですが、その区間の撃破は失われます）。ゲートでの撃破は、**セクターを指定しない**[ミッション](/wiki/03-Mechanics/Quests.md#where-it-counts)（チャレンジラインの大きな狩りなど）に、倒したその場で数えられます（ウェーブは、報酬が1度だけ支払われるのと同じように、ランごとに**1度だけ**数えられます）。それ以外には数えられません。撃破統計、実績のカウンター、キルフィード、ドローンやP.E.T.の経験値のどれにも入りません。ただし撃破が支払う経験値は、クリアの経験値と同じようにPvEランキングポイントに数えられます。エイリアンの戦利品は報酬と一緒に、そのままインベントリに入ります。
+ゲートで倒したエイリアンは、飛んでいるワールドに関係なく、Alphaでの数値で支払われます。ワールド倍率、ブースター、Premiumボーナスは影響しません。ウェーブはそのエイリアンの分を、ランごとに**1度だけ**支払います。何度離れて戻っても同じです。報酬はランの各区間の終わりに支払われます。退出、死亡、ライフ切れ、放棄、クリアのときです。区間の撃破が未払いになるのは、ワイプのときと、中にいる間にサーバーが再起動されたときだけです（ランは開いたままですが、その区間の撃破は失われます）。ゲートでの撃破は、**セクターを指定しない**[ミッション](/wiki/03-Mechanics/Quests.md#where-it-counts)（チャレンジラインの大きな狩りなど）に、倒したその場で数えられます（ウェーブは、報酬が1度だけ支払われるのと同じように、ランごとに**1度だけ**数えられます）。それ以外には数えられません。撃破統計、実績のカウンター、キルフィード、ドローンやP.E.T.の経験値のどれにも入りません。ただし撃破が支払う経験値と名誉は、クリアの経験値・名誉と同じようにPvEランキングポイントに数えられます。エイリアンの戦利品は報酬と一緒に、そのままインベントリに入ります。
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

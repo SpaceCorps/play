@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a950f08cdd974585 -->
+<!-- wiki-i18n source: 6f33a77e32400fc7 -->
 <!-- wiki-i18n title: Hangar -->
 # Le hangar en vol {#the-hangar-in-flight}
 
@@ -10,7 +10,7 @@ Vous n’avez pas besoin de retourner à la base pour changer de vaisseau. Depui
 
 Une modification n’est autorisée que lorsque toutes ces conditions sont réunies :
 
-- **Une zone sûre vous protège.** Chaque station et chaque portail est entouré d’un anneau protecteur (voir [Combat](/wiki/03-Mechanics/Combat.md)). À l’intérieur, vous êtes protégé dès que 5 secondes se sont écoulées depuis votre dernier coup reçu et 15 depuis votre dernier tir.
+- **Une zone sûre vous protège.** La station de chaque base d’origine et chaque portail sont entourés d’un anneau protecteur (voir [Combat](/wiki/03-Mechanics/Combat.md)) ; la station Mission Control d’un secteur frontière n’en a pas. À l’intérieur, vous êtes protégé dès que 5 secondes se sont écoulées depuis votre dernier coup reçu et 15 depuis votre dernier tir.
 - **Vous êtes sorti du combat** depuis quelques secondes de plus : **10** par défaut. Cela compte quand vous arrivez protégé aussitôt, par un portail, avec un combat derrière vous.
 - Vous n’êtes pas occulté, pas dans la fenêtre de votre propre EMP et pas près du [trou noir](/wiki/03-Mechanics/Black-Hole.md), et aucune de vos roquettes n’est encore en vol.
 

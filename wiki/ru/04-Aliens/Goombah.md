@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Goombah — грозные корабли пришельцев класса «к
 - **Quorvium**: шанс 100% (мин.: 2, макс.: 4)
 - **Reinforced Hull Plate**: шанс 60% (мин.: 1, макс.: 1)
 - **Power Core**: шанс 25% (мин.: 1, макс.: 1)
+- **Echo Shard**: шанс 5% (мин.: 1, макс.: 1)
 
 ## История {#lore}
 

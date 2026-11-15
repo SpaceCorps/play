@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski är en handlare som flyger. Han är ett fredligt NPC-skepp som flyger u
 
 ## Hans skepp {#his-ship}
 
-Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av varje sorts del, smitt till Eternal:
+Ett guldmålat **Ironclad TITANIC** i TITANIC:s egen storlek, med det bästa av varje sorts del, smitt till Uppstigen:
 
 | Vad | Föremål |
 |---|---|

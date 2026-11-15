@@ -198,7 +198,7 @@ The **Who is online** button in the system toolbar (top right) or the key **H** 
 
 ## Clan Chat
 
-The **Clan** tab of the chat ([Chat Channels](/wiki/03-Mechanics/Groups.md#chat-channels), the command `/c`) is only for the members of your clan. The server keeps its last **200 lines**, none older than **14 days**, so a member who was not online finds them when he logs in or joins: oldest first, under a line that says how long the chat is kept, with the date on the lines of earlier days. Someone who leaves or is dismissed gets nothing more of it. When the clan is disbanded, by its Leader or at [the wipe](#the-wipe-disbands-every-clan), its lines are deleted with it.
+The **Clan** tab of the chat ([Chat Channels](/wiki/03-Mechanics/Groups.md#chat-channels), the command `/c`) is only for the members of your clan. The server keeps its last **200 lines**, none older than **14 days**, so a member who was not online finds them when he logs in or joins: oldest first, under a line that says how long the chat is kept, with the date on the lines of earlier days. Someone who leaves or is dismissed gets nothing more of it. When the clan is disbanded, by its Leader or at [the wipe](#the-wipe-disbands-every-clan), its lines are deleted with it. The chat works on every server: a line written while you fly from a regional server reaches your clan wherever its members are, and the kept lines are sent to you there too.
 
 ---
 
@@ -260,7 +260,7 @@ The lines come in a cycle of seven: the line of day *d* is number 1 + ((*d* − 
 | Long Haul | 3, 10, 17, 24 | 290,000 / 385,000 / 460,000 units | 90 / 180 / 260 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah |
 | Swarm Break I | 4, 11, 18, 25 | 75 / 150 / 220 Seeker | 3 Boss Seeker / 3 Boss Seeker / 2 Pirate Boss | 26 / 85 / 170 Phantasm | 30 Phantasm / 18 Bulwark / 21 Goombah |
 | Heavy Iron | 5, 12, 19, 26 | 40 Phantasm / 24 Bulwark / 28 Goombah | 21 / 70 / 130 Phantasm | 175,000 / 230,000 / 275,000 units | 75 / 150 / 220 Seeker |
-| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 1 Pirate Boss / 3 Pirate Boss | 350,000 / 460,000 / 550,000 units |
+| Swarm Break II | 6, 13, 20, 27 | 75 / 150 / 220 Seeker | 21 / 70 / 130 Phantasm | 4 Boss Seeker / 2 Pirate Boss / 3 Pirate Boss | 350,000 / 460,000 / 550,000 units |
 | Grand Round | 7, 14, 21, 28 | 100 / 210 / 300 Seeker | 26 / 85 / 170 Phantasm | 21 Phantasm / 12 Bulwark / 14 Goombah | 230,000 / 305,000 / 365,000 units |
 
 ### The reward for you
@@ -277,7 +277,7 @@ When the line is finished, which means the Warden is destroyed, every member who
 
 ## Clan Wardens
 
-A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands.
+A **Clan Warden** is the boss at the end of the daily line. It is not one of the public [swarms](/wiki/05-Swarms/Swarms.md) that roam a sector: your clan **calls it** and **only your clan can hurt it**. Three Wardens take turns, one a day: day 1 **Brood**, day 2 **Siege**, day 3 **Wrath**, day 4 Brood again, and so on (day 15 is a Wrath day). Each comes in three strengths, **I, II and III**, set by the clan's tier. A Warden is an alien of its own kind, like the ships of a swarm: it does not count as a Seeker, a Phantasm or any other alien. A Warden is very strong, with five times the hull, shield and laser damage it had before 0.4.13, so it is a fight for the biggest crew your clan can bring ([how big a crew](#how-big-a-crew)). Since 0.4.16 the Brood Warden III has **half** that hull and shield, its drones mend half as much and come half as fast, and every Warden brings [waves of aliens](#waves-of-aliens) while it stands. Since 0.5.7 a Warden is only as strong as the crew that is there when it arms ([a Warden is as strong as the crew](#strength-by-the-crew)).
 Under half its hull a Warden's waves also hold [a Crystalys](#crystalys-waves).
 Since 0.4.20 a Wrath Warden **goes after the pilot who hit it** instead of standing where it was called, the Wrath Warden III brings more aliens more often and a Crystalys under half its hull, and everything a Warden brings comes aimed at the pilots who hit it.
 Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Warden has since 0.4.20, instead of standing where it was called or roaming.
@@ -296,13 +296,13 @@ Since 0.4.22 **every Warden goes after the pilot who hit it**, as the Wrath Ward
 - **Where it appears.** 3,000 to 4,500 units from your ship, in your world: only pilots of that world can reach it. The tab recommends **x-2 for a Recruit clan, x-3 for Veteran and x-4 for Elite**. The usual [PvP rules](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma) of the sector you pick still hold.
 - **Warm-up.** It stands shielded and passive for **90 seconds** ("powering up") and every clan pilot who is online is told where. Fly in while it warms up: when the 90 seconds are over it is armed. A capsule under the safe-zone badge on the flight screen follows it: its name, "powering up" and the time left, then "armed" with its sector and the time until it withdraws, and "enraged" once a Wrath Warden is under half its hull.
 - **Only your clan.** The shots of any other clan's pilots are ignored and do not make it fight back.
-- **How it ends.** When it is destroyed. It **withdraws** 40 minutes after it armed, when the day ends, when none of your clan's pilots has been out in flight on its map for 2 minutes, or when the server restarts (that summon is given back). A Warden that withdraws costs one summon, and the next call is the same Warden at full strength.
+- **How it ends.** When it is destroyed. It **withdraws** 40 minutes after it armed, when the day ends, when none of your clan's pilots has been out in flight on its map for 2 minutes, or when the server restarts (that summon is given back). A Warden that withdraws costs one summon, and the next call brings it back at the strength of the crew that is there then ([a Warden is as strong as the crew](#strength-by-the-crew)).
 
 ### Fighting a Warden
 
 - **A Warden fights the first pilot who hit it**, like any boss: let the sturdiest ship of the crew start, and use [Shield Surge and Emergency Repair](/wiki/03-Mechanics/Abilities.md).
-- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 17 to 26 pilots with x2 ammo and 26 to 39 with x1 ammo. The waves below are not in that calculation.
-- **Brood:** the drones heal its hull, and a crew that ignores them loses, even a big one. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III). Since 0.4.22 the Brood Warden flies at the pilot who hit it, and its drones go with it and keep healing it.
+- **Bring the biggest crew you can, with x2 ammo** ([Lasers & Ammo](/wiki/06-Items/Lasers.md#laser-ammunition)). The crews that won before 0.4.13, about seven pilots, lose now. The table below is a calculation and the best case: even in it ten pilots lose to every Warden, and the smallest crew that can win has 15 to 25 pilots with x2 ammo and 23 to 38 with x1 ammo. The waves below are not in that calculation. The table below is for a Warden at its full strength: a smaller crew meets a smaller Warden ([a Warden is as strong as the crew](#strength-by-the-crew)).
+- **Brood:** the drones heal its hull, and a crew that ignores them needs about a third more pilots. Kill them first and keep killing them: a new one comes after 8 seconds (16 for the Brood Warden III). Since 0.4.22 the Brood Warden flies at the pilot who hit it, and its drones go with it and keep healing it.
 - **Siege:** its rockets are straight and unguided, so a ship that keeps moving sidesteps most of them. Keep moving and take turns being the target. Since 0.4.22 it no longer roams: it flies at the first pilot who hit it and fires its Rivet at him from up to 1,000 units.
 - **Wrath:** once its hull is under half, every volley hurts half again as much, so the second half of the fight is the dangerous one. Bring the first half down fast, keep the shields up and save Emergency Repair for the rage. Since 0.4.20 it does not stand still: it flies at the first pilot who hit it, at 90 units a second, until it is inside its laser range (700, 800 or 900 units by strength) and fires from there, so a weapon that reaches farther no longer shoots it for free.
 - **All nine fly at the pilot who hit them (0.4.22).** The Brood and Siege Wardens do what the Wrath Warden has done since 0.4.20, each at its own speed (90 units a second for the Brood and Wrath Wardens, 110 for the Siege Warden), until they are inside their laser range (600, 700 or 800 units for the Brood and Siege Wardens by strength, 700, 800 or 900 for the Wrath Warden), so a weapon that reaches farther no longer shoots them for free. When nobody has hit one for 10 seconds it lets go and stands where it is: it does not fly back to where it was called. A pilot who is protected, in a safe zone or by the protection of a respawn, is let go at once.
@@ -322,7 +322,7 @@ Since 0.4.16 a Warden does not stand alone. From the moment it is **armed** (the
 - **At most three waves are alive.** A wave is alive while one of its aliens is. A wave that is due when three are alive is skipped, not saved for later; the next one is due a minute after.
 - **They are ordinary aliens**, made as the map makes them: a stronger world gives them more hull, shield and damage ([Worlds](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)), whatever the Warden's own strength. The Bulwarks and Goombahs come to every map, also to an x-2 sector, where none lives otherwise. They arrive 500 to 1,200 units from the Warden, spread around it.
 - **They are not part of the fight for the Warden.** They heal nothing, and shooting them adds nothing to your share of the Warden's damage. Any pilot of the map can kill them. Each pays the ordinary pay of its alien in your world, and adds PvE points: a whole wave of the table pays 29,000 Credits in Alpha on x-2 (5 aliens) and 60,000 on x-3 and x-4 (10 aliens), a wave of a Warden I 17,000 and 34,000, under 2% of what its own Warden pays.
-- **They stop with the Warden.** When it is destroyed or withdraws, no more come; the aliens already out stay and are the map's ordinary aliens (a kind that the sector does not have of its own, such as the Bulwarks and Goombahs of an x-2 sector, leaves five minutes after the Warden unless pilots are still fighting it). A server restart ends them with the Warden.
+- **They stop with the Warden.** When it is destroyed or withdraws, no more come, and the aliens already out **leave the map 20 seconds later**, whatever their kind and whether or not they are fighting: finish them in that time or lead them away. (Until 0.5.6 they stayed five minutes or more, and a pilot who came later met them.) They leave quietly, with no kill and no pay. A server restart ends them with the Warden.
 - **The clan is told.** Each wave is announced in the chat's System tab and the Game Log, a line for each kind of alien in it: "Brood Warden II calls reinforcements on M-3: 5 Phantasm.", "Brood Warden II calls reinforcements on M-3: 3 Bulwark." and "Brood Warden II calls reinforcements on M-3: 2 Goombah." (a Warden I tells two lines, as it has no Goombah)
 - **They come aimed (0.4.20).** The aliens of a wave arrive knowing whom the Warden fights: they go for the pilots who hit it, the first of them first, from the moment they appear, and keep after them while the Warden is hit. A Warden nobody fights sends aliens that roam: the Phantasm and the Bulwarks draw whoever comes near, as before, and a Goombah, which never starts a fight, roams until somebody shoots it.
 
@@ -337,15 +337,15 @@ Since 0.4.22 **every Warden** does what the Wrath Warden III did from 0.4.20: un
 
 | Warden | x-2 | x-3 | x-4 |
 | :--- | ---: | ---: | ---: |
-| Brood Warden I | 44 | 47 | 47 |
-| Siege Warden I | 40 | 43 | 43 |
-| Wrath Warden I | 45 | 48 | 48 |
-| Brood Warden II | 43 | 48 | 48 |
-| Siege Warden II | 35 | 39 | 39 |
-| Wrath Warden II | 40 | 45 | 45 |
-| Brood Warden III | 22 | 23 | 23 |
-| Siege Warden III | 26 | 28 | 28 |
-| Wrath Warden III | 36 | 40 | 40 |
+| Brood Warden I | 41 | 44 | 44 |
+| Siege Warden I | 37 | 40 | 40 |
+| Wrath Warden I | 42 | 45 | 45 |
+| Brood Warden II | 39 | 44 | 44 |
+| Siege Warden II | 31 | 35 | 35 |
+| Wrath Warden II | 35 | 40 | 40 |
+| Brood Warden III | 21 | 22 | 22 |
+| Siege Warden III | 26 | 27 | 27 |
+| Wrath Warden III | 34 | 39 | 39 |
 
 #### The Wrath Warden III's waves {#wrath-iii-waves}
 
@@ -359,7 +359,13 @@ Since 0.4.20 the **Wrath Warden III** brings more, and more often: a wave every 
 
 - **At most four waves are alive.** A wave due while four are alive is skipped, as for the other Wardens.
 - **What they pay.** A whole wave of 15 aliens pays 101,000 Credits in Alpha, and with its Crystalys 176,000: about 2% of the 7,200,000 the Warden itself pays.
-- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **36 pilots on x-2, 40 on x-3 and 40 on x-4** with x2 ammo (26 without waves), and 46, 52 and 52 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so on x-3 and x-4 in Gamma it cannot send enough; a level 5 clan holds 100. Like the table there, it is calculated and not measured, and the best case.
+- **What they ask of the crew.** The calculation of [how big a crew](#how-big-a-crew), with these waves and the Crystalys in it, gives **34 pilots on x-2, 39 on x-3 and 39 on x-4** with x2 ammo (25 without waves), and 45, 51 and 51 in Gamma, where the aliens of the waves are twice as strong. A level 3 clan holds 50 members, so on x-3 and x-4 in Gamma it cannot send enough; a level 5 clan holds 100. Like the table there, it is calculated and not measured, and the best case.
+
+### A Warden is as strong as the crew {#strength-by-the-crew}
+
+Since 0.5.7 a Warden is **only as strong as the crew that is there when it arms**. When its 90-second warm-up ends, the game counts the pilots of your clan who are **flying outside the safe zones on the Warden's map**: pilots of other clans, pilots in a safe zone and pilots on other maps do not count. The Warden then fights at the share of its strength that its table gives for that number, **for the whole fight**: pilots who arrive later change nothing, so gather during the warm-up. Everything it is made of and does is scaled together: the hull and shield of the Warden and its helpers, their laser damage, what they mend, the Siege Warden's rocket, and how many aliens come in each [wave](#waves-of-aliens), the Crystalys included, which comes only from half the strength up. Pay, loot and every timing stay as they are.
+
+The tables are calculated with the same fights as [how big a crew](#how-big-a-crew), for a crew of the Warden's own tier: a clan with 5 pilots present meets the Warden that a fifth fewer pilots win in the calculation, because the calculation is the best case and a real fight is harder. A clan with **5 pilots** meets a Warden at **12 to 23%** of its full strength, a clan with **8 pilots** one at **16 to 29%**, and the full strength comes with **28 to 72 pilots**, by Warden; in between the strength rises in a straight line from one step of its table to the next, and fewer than 3 pilots meet what 3 do. When the Warden arms, your clan reads a line in the chat: "Crew present: 5. Brood Warden II fights at 16% of its full strength."
 
 ### How big a crew
 
@@ -370,16 +376,16 @@ The table is the best case; in play, bring everyone you can.
 
 | Crew | With x2 ammo | With x1 ammo |
 | :--- | :--- | :--- |
-| 5 pilots | lose to every Warden; the Warden keeps 88 to 96% of its hull and shield | lose |
-| 10 pilots | lose to every Warden; the Warden keeps 55 to 86% of its hull and shield | lose |
-| 20 pilots | win only against the Siege Warden I and II, in 7.2 to 7.3 minutes, losing 6 ships, and against the Brood Warden III, in 3.7 minutes, losing 8 ships | lose |
-| 30 pilots | win against every Warden in 2.0 to 5.2 minutes, losing 3 to 11 ships | win only against the Siege Warden I and II, in 10.4 to 10.5 minutes, losing 9 ships, and against the Brood Warden III, in 5.1 minutes, losing 11 ships |
+| 5 pilots | lose to every Warden; the Warden keeps 84 to 96% of its hull and shield | lose |
+| 10 pilots | lose to every Warden; the Warden keeps 55 to 84% of its hull and shield | lose |
+| 20 pilots | win only against the Siege Warden I and II, in 6.2 to 6.4 minutes, losing 4 to 5 ships, and against the Brood Warden III, in 3.5 minutes, losing 8 ships | lose |
+| 30 pilots | win against every Warden in 1.9 to 4.9 minutes, losing 2 to 10 ships | win only against the Siege Warden I and II, in 8.8 to 9.2 minutes, losing 6 to 8 ships, and against the Brood Warden III, in 4.8 minutes, losing 11 ships |
 
-In the calculation the smallest crew that wins with x2 ammo has **17 to 26 pilots** (the fewest against the Siege Warden I and II) and loses **10 to 17** ships doing it; with x1 ammo it has **26 to 39** pilots and loses 12 to 25. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 55 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
+In the calculation the smallest crew that wins with x2 ammo has **15 to 25 pilots** (the fewest against the Siege Warden I and II) and loses **7 to 18** ships doing it; with x1 ammo it has **23 to 38** pilots and loses 11 to 25. A Warden's lasers hit for hundreds a volley at strength I (240 to 645) and thousands at strength III (9,225 to 15,450), and its helpers add to it: the ship it fights falls in 18 to 70 seconds, and then it turns on the next one, so even a crew that wins loses many ships.
 
 The table is for a crew in the gear of the Warden's own tier. Weaker ships do worse. The Warden of **your** clan always matches **your** tier, which the five best pilots of the clan set, so bring them.
 
-**A clan too small for its Warden** is not shut out. The four missions pay their **70 points** whatever happens to the Warden, the points buy boosts, and the clan can call the Warden again if it has a summon left (there are two a day): if the crew falls and stays away, the Warden withdraws, which costs one summon, and the next call brings it back at full strength. But the line is not finished, so nobody gets the [reward for you](#the-reward-for-you), and a clan that never kills its Warden has all 30 boost levels on day 18 at the soonest, not on day 12 ([how long it takes](#how-long-it-takes)).
+**A clan too small for its Warden** is not shut out. The four missions pay their **70 points** whatever happens to the Warden, the points buy boosts, and the clan can call the Warden again if it has a summon left (there are two a day): if the crew falls and stays away, the Warden withdraws, which costs one summon, and the next call brings it back at the strength of the crew that is there then. But the line is not finished, so nobody gets the [reward for you](#the-reward-for-you), and a clan that never kills its Warden has all 30 boost levels on day 18 at the soonest, not on day 12 ([how long it takes](#how-long-it-takes)).
 
 ### Warden numbers
 
@@ -390,9 +396,9 @@ The Wardens have the same numbers in every world (the Alpha numbers), and so doe
 | Brood Warden I | 830,000 | 680,000 | 645 | 90 | 600 | – | – |
 | Brood Warden II | 1,440,000 | 1,180,000 | 3,885 | 90 | 700 | – | – |
 | Brood Warden III | 2,650,000 | 2,175,000 | 15,450 | 90 | 800 | – | – |
-| Siege Warden I | 715,000 | 585,000 | 240 | 110 | 600 | 1,075 | Rivet I: 24 |
-| Siege Warden II | 1,240,000 | 1,015,000 | 1,455 | 110 | 700 | 1,875 | Rivet II: 12 |
-| Siege Warden III | 4,575,000 | 3,725,000 | 9,225 | 110 | 800 | 6,925 | Rivet III: 8 |
+| Siege Warden I | 715,000 | 585,000 | 240 | 110 | 600 | 1,075 | Warden Rivet I: 24 |
+| Siege Warden II | 1,240,000 | 1,015,000 | 1,455 | 110 | 700 | 1,875 | Warden Rivet II: 12 |
+| Siege Warden III | 4,575,000 | 3,725,000 | 9,225 | 110 | 800 | 6,925 | Warden Rivet III: 8 |
 | Wrath Warden I | 815,000 | 665,000 | 480 | 90 | 700 | 1,075 | – |
 | Wrath Warden II | 1,410,000 | 1,155,000 | 2,910 | 90 | 800 | 1,875 | – |
 | Wrath Warden III | 5,200,000 | 4,250,000 | 12,300 | 90 | 900 | 6,925 | – |

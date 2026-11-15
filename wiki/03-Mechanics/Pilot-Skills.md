@@ -13,7 +13,7 @@ A new pilot is not at full strength. At level 1 a laser and a rocket do less tha
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Stats**: 19 stats: 4 attributes and 15 skills in 5 groups
+- **Stats**: 20 stats: 4 attributes and 16 skills in 5 groups
 - **Levels**: 1 to 100. Every pilot starts every stat at level 1, and there is nothing to spend and nothing to respec
 - **Cost of a level**: 40 XP from level 1 to 2, 875 XP from level 50 to 51, 19,157 XP from level 99 to 100; 313,258 XP in all
 - **What a level gives**: A buff grows in a straight line from its value at level 1 to its value at level 100. Nothing is capped
@@ -75,6 +75,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | **Evasion** (Reflex) | Chance to dodge a hit, added to the ship's own | 0% | 15% |
 | **Tactics** (Reflex) | Duration of abilities | ×1 | ×1.2 |
 | **Shield absorption** (Grit) | Absorbance of your shields | +0 points | +5 points |
+| **Healing** (Heft) | Strength of your own repairs and heals | ×1 | ×1.3 |
 
 ### Ship control
 
@@ -91,12 +92,13 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | **Extraction** (Instinct) | What the Skylab makes | ×1 | ×1.3 |
 | **Logistics** (Heft) | What the Resource Storage's bank holds | ×1 | ×1.4 |
 | **Fabrication** (Reflex) | Time of a craft | ×1 | ×0.65 |
+|  | Integrity cost of a re-lay | ×1 | ×0.7 |
 
 ### Trading
 
 | Stat | What it changes | Level 1 | Level 100 |
 | :--- | :--- | ---: | ---: |
-| **Commerce** (Instinct) | Prices in the Shop | ×1 | ×0.85 |
+| **Commerce** (Instinct) | Prices in the Shop, and the credits and Thulium of a craft or of the Forge | ×1 | ×0.85 |
 |  | What the Shop pays when it buys back | ×1 | ×1.1 |
 |  | Deposit of an Auction listing | ×1 | ×0.5 |
 
@@ -108,12 +110,13 @@ The tables give every buff at level 1 and at the last level; between them a buff
 - **Lasers.** Laser tech changes the damage of every volley and the chance that it hits; a volley that goes wide shows a floating "Miss" and still uses its ammo ([Combat](/wiki/03-Mechanics/Combat.md#laser-tech)). The range of your lasers is the ship's own: Marksmanship levels from your hits with ammo other than plain x1, but it only works on Mines (below).
 - **Rockets.** Rocket tech changes the damage of every rocket and the chance that one is a dud ([Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Taking hits.** Grit takes a share off every hit you take, Evasion adds to the chance that a direct hit does nothing, and Shield absorption adds to the share of a hit that your shields take ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
+- **Healing.** Healing makes the heals of your own gear stronger: the repair of your Repair Drone, an Emergency Repair and the Heal Pod you drop ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket always heals the same fixed amount, at any level, and still pays Healing XP.
 - **Abilities.** Reflex shortens the cooldown of your abilities and Tactics makes them last longer ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage strengthens the poisons.
 - **Mines.** Sabotage adds to the damage of a Mine, and Marksmanship throws it faster and farther ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Speed.** Thruster theory adds to your speed, on top of the engines and an Afterburner ([Speed](/wiki/03-Mechanics/Speed.md)).
 - **Pick-ups.** Instinct raises the chance of every loot line, as a Loot Luck Booster does, and the two add up; Antimatter raises the Dark Matter you pick up ([Cargo](/wiki/03-Mechanics/Cargo.md), [Dark Matter](/wiki/03-Mechanics/Dark-Matter.md)).
 - **Radiation.** Radiation tech lowers the dose of the black hole, the excavators' circles, the pulsars and the Unwakened's aura ([Black Hole](/wiki/03-Mechanics/Black-Hole.md)).
-- **Home.** Extraction and Logistics change what the [Skylab](/wiki/03-Mechanics/Skylab.md) makes and holds, Instinct adds to its two collectors, Fabrication shortens the crafts of the Assembly, Science fills the [Research](/wiki/03-Mechanics/Research.md) Centre faster, and Commerce lowers the prices of the Shop, raises what it pays when it buys back, and lowers the deposit of an [Auction](/wiki/03-Mechanics/Auction.md) listing.
+- **Home.** Extraction and Logistics change what the [Skylab](/wiki/03-Mechanics/Skylab.md) makes and holds, Instinct adds to its two collectors, Fabrication shortens the crafts of the Assembly, Science fills the [Research](/wiki/03-Mechanics/Research.md) Centre faster, and Commerce lowers the prices of the Shop and the credits and Thulium that the Assembly's crafts cost, raises what the Shop pays when it buys back, and lowers the deposit of an [Auction](/wiki/03-Mechanics/Auction.md) listing. In the [Forge](/wiki/06-Items/Forge.md), Commerce lowers the credits and Thulium of a step and the credits of a merge ([Tier up](/wiki/06-Items/Forge.md#tier-up)), and Fabrication lowers the integrity that a re-lay takes off a piece ([Integrity and fractures](/wiki/06-Items/Forge.md#integrity-and-fractures)).
 
 ## How XP is paid
 
@@ -150,6 +153,7 @@ The table lists what pays XP, stat by stat. The XP is for each unit of what is n
 | **Evasion** (Reflex) | Each hostile attack on you that misses or is dodged | 1 | 600 XP an hour |
 | **Tactics** (Reflex) | Each ability you press with a hostile in laser range | 2 | 600 XP an hour |
 | **Shield absorption** (Grit) | Each 1% of your maximum shield that enemy hits take | 0.1 | 300 XP an hour |
+| **Healing** (Heft) | Each 1% of a ship's maximum hull that a heal of yours restores | 0.1 | 300 XP an hour |
 | **Radiation tech** (Grit) | Each second inside a radiation band | 0.2 | None |
 |  | Each 1% of your maximum hull the radiation takes | 1 |  |
 | **Thruster theory** (Heft) | Each second flown above 80% of your ship's speed, twice as much under an Afterburner | 0.1 | None |
@@ -184,14 +188,16 @@ A level costs more XP than the one before it, by a fixed share, so the first lev
 
 ## The Pilot Skills page
 
-The **Pilot Skills** page is a page of the station, with a row of its own in the sidebar. It is one compact sheet of the whole tree: the attributes and the five groups of skills stand side by side in columns (three on a wide screen, fewer on a narrow one), a line for each stat with its level at the right edge and a thin XP bar under it. A stat that has earned no XP yet is grey, with a dash for its level. Rest the pointer on a line to see what the stat does, which attribute governs it or which skills it trains, its XP and what makes it grow. Click a line to open its details under its row of columns: the same words, the XP bar, and a slider to preview any level from 1 to the last, with a small table of what the stat changes at level 1, at your level now, at the level you preview and at the last level. One stat is open at a time; click the line again, use the close button or press Esc to put it away. The row in the sidebar carries a badge when a stat has levelled since you last opened the page, and a card in the Boosters window sums up what your skills change.
+The **Pilot Skills** page is a page of the station, with a row of its own in the sidebar. It is one sheet of the whole tree: the attributes and the five groups of skills are **cards** laid side by side (three on a wide screen, fewer on a narrow one; when the sheet has room for four columns, Combat's six skills stand in two columns inside their card). A skill is a line with a glyph on a tile at the left, its name, and its level in a **ring** at the right edge that fills as the XP of the level does. The tile and the ring wear the colour of the attribute that governs the skill (Heft green, Grit blue, Reflex gold, Instinct violet), so the tree can be read off the colours. A skill that has earned no XP yet is grey, with a dash for its level in an empty ring (Laser tech and Rocket tech always show theirs). Rest the pointer on a line to see what the skill does, which attribute governs it or which skills it trains, its XP and what makes it grow; the attribute that governs it, or the skills it trains, light up while you do.
+
+The details of a skill are the same words, the XP bar, and a slider to preview any level from 1 to the last, with a small table of what the skill changes at level 1, at your level now, at the level you preview and at the last level. **On a page wide enough** (the two halves of the details then stand side by side) the details of the selected skill are always at the foot of the page: the first skill of the sheet until you click another, then the one you clicked. A click selects, there is no close button, and Esc does not close it. **On a narrower page, and in the flight window,** a click on a line opens the details as a strip under its row of cards instead, one skill at a time: click the line again, use the close button or press Esc to put it away. The row in the sidebar carries a badge when a skill has levelled since you last opened the page, and a card in the Boosters window sums up what your skills change.
 
 In flight the same sheet is the **Pilot Skills** window. Open it with the Pilot Skills button of the toolbar (on a wide screen) or with its key, K by default (Settings, Controls). It is a window like the others: move it, resize it, and it remembers its place and whether it was open. It only shows your skills: the levels move as the XP lines of the flight arrive, and a click on a line opens the same details inside the window.
 
 ## What is kept
 
 - **Through every wipe.** The tree is a part of your account: a wipe changes no level and no XP, and the Transport Cache has nothing to do with it ([What you keep](/wiki/03-Mechanics/Wipe-Timeline.md#what-you-keep)).
-- **On the regional servers.** The XP you earn flying on Singapore or US East is added to your skills when you come home, a stat you used for the first time there included, and the hourly cap you used up there goes with you. The Pilot Skills page of a pilot who is flying there reads the regional server's numbers, with the XP the ship has earned since its last save.
+- **On the regional servers.** The XP you earn flying on Singapore or US East is added to your skills when you come home, a stat you used for the first time there included, and the hourly cap you used up there goes with you. The Pilot Skills page of a pilot who is flying there reads the regional server's numbers, with the XP the ship has earned since its last save. What else works on a regional server is in [Servers](/wiki/03-Mechanics/Servers.md).
 - **Until the account is deleted.** Deleting an account deletes its levels.
 
 The buffs have no ceiling but the last level: a pilot who has levelled everything is as strong as the tables say.

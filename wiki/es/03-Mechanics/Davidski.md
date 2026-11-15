@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski es un comerciante que vuela. Es una nave NPC pacífica que sale una vez
 
 ## Su nave {#his-ship}
 
-Una **Ironclad TITANIC** pintada de oro, del tamaño propio de la TITANIC, con lo mejor de cada tipo de pieza, forjado a Eternal:
+Una **Ironclad TITANIC** pintada de oro, del tamaño propio de la TITANIC, con lo mejor de cada tipo de pieza, forjado a Ascendido:
 
 | Qué | Objeto |
 |---|---|

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: Solo Geçitler -->
 # Solo Geçitler {#solo-gates}
 
@@ -50,7 +50,7 @@ Chrono-Gate’in parçaları sıfırlamada sıfıra döner ve her sezon yeniden 
 
 ### Parçasız bir çevirme {#a-spin-without-a-part}
 
-Çevirmelerin çoğu parça bulmaz. Her biri, aşağıdaki şanslara göre seçilen bir ödül öder: ikinci çarpan ya da daha iyisinin lazer cephanesi, ikinci ya da üçüncü kademenin roket destesi ve ara sıra bir [özel eşya](/wiki/06-Items/Special-Items.md) ya da bir [konteyner](/wiki/06-Items/Containers.md). Verilemeyen bir ödül (örneğin o özel eşyadan zaten en çoğuna sahipsin), aynı çekilişle bir cephane ya da roket destesine dönüşür; bu yüzden bir çevirme tablosundan asla daha az ödemez. Ödül, çevirmenin maliyetinden belirgin biçimde daha az değerlidir: geçitler bir Thulium lavabosudur.
+Çevirmelerin çoğu parça bulmaz. Her biri, aşağıdaki şanslara göre seçilen bir ödül öder: ikinci çarpan ya da daha iyisinin lazer cephanesi, ikinci ya da üçüncü kademenin roket destesi ve ara sıra bir [özel eşya](/wiki/06-Items/Special-Items.md) ya da bir [konteyner](/wiki/06-Items/Containers.md). Verilemeyen bir ödül (örneğin özel eşyalar ya da konteynerler kapalıysa), aynı çekilişle bir cephane ya da roket destesine dönüşür; bu yüzden bir çevirme tablosundan asla daha az ödemez. Ödül, çevirmenin maliyetinden belirgin biçimde daha az değerlidir: geçitler bir Thulium lavabosudur.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Bir geçidi Galaksi Geçitleri sayfasında **inşa edersin** ve portalından **s
 
 - geçidin parçaları: bunlar **inşa ederken bir kez** alınır ve reddedilen bir inşa hiçbir şey almaz;
 - açık başka bir solo turun olmaması: aynı anda tek turun olur ve bıraktığın bir tura, başka bir geçit inşa etmeden önce portalından yeniden girilir ya da tur bırakılır;
-- ana sunucu (bölgesel sunucularda geçit yoktur).
+- ana sunucu (geçit yalnızca ana sunucuda inşa edilir: bölgesel bir sunucuda önce üsse dönersin).
 
-İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin.
+İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin. Yalnızca **kendi** geçidini görürsün: aynı sektördeki diğer pilotların geçitlerinin portalları sana gösterilmez.
 
-**Bölgesel sunucularda (Singapore, US East).** Geçidin kendisi ana sunucuda kalır: bölgesel bir sunucuda hiçbir şey inşa edilmez, oynanmaz ya da ödenmez. Yine de inşa edilmiş bir geçit orada unutulmaz: vardığında sana haber verilir ve geçidinin portalı orada da ana sektöründe durur. Ondan sıçra, ana sunucuya geri götürülürsün; orada yukarıdaki gibi geçidine uçuşa çıkarsın.
+**Bölgesel sunucularda (Singapore, US East).** İnşa edilmiş bir geçit orada da oynanır. Geçidinin portalı, ana sunucuda olduğu gibi bölgesel bir sunucuda da ana sektöründe durur ve vardığında sana haber verilir. **Ondan sıçra, o sunucunun bir arenasına girersin**; gecikme ana sunucunun değil, o sunucunun gecikmesidir. Bölgesel bir sunucuda her dünyada yalnızca **iki arena** vardır, ana sunucuda çok daha fazlası var; ikisi de doluysa, ana sunucuda boş bir yarık beklediğin gibi beklersin. Turunu, parçalarını ve ödemeni tutan tek yer yine ana sunucudur: ödeme, ana sunucu turu saydığında, yani bitişinden birkaç saniye sonra cüzdanına ulaşır ve **uçuş penceresindeki cüzdan yanaştığında yetişir**. Bir sonraki tura ancak son tur sayıldıktan sonra girersin. Arenada bıraktığın tura portaldan yeniden girilir; vazgeçmek istersen bunu arenada ya da istasyonda yaparsın. Bölgesel bir sunucunun arenası kapalıysa portalı seni bunun yerine ana sunucuya geri götürür; orada yukarıdaki gibi geçidine uçuşa çıkarsın. Bölgesel bir sunucuda başka nelerin çalıştığı [Sunucular](/wiki/03-Mechanics/Servers.md) sayfasında.
 
 Boş bir arenanın ortasına tek başına inersin. İçeride kimse sana saldıramaz; Jump CPU ve Base CPU çalışmaz.
 
@@ -161,7 +161,7 @@ Bir patron, bir uzaylının büyütülmüş gemisidir; geçidin ya da dünyanın
 
 ## Bir tamamlama ne öder {#what-a-clear-pays}
 
-Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: kredi, Thulium, deneyim ve onur, cevher, plakalar ve Power Core’lar, bir de cephane. Deneyim, bir zindanınki gibi PvE sıralama puanlarına sayılır.
+Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: kredi, Thulium, deneyim ve onur, cevher, plakalar ve Power Core’lar, bir de cephane. Deneyim ve onur, bir zindanınkiler gibi PvE sıralama puanlarına sayılır.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: k
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; cephane: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; cephane: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15; cephane: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; cephane: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; cephane: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; cephane: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; cephane: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; cephane: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; cephane: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; cephane: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Heartshards**: Bir sezonda her geçidin ilk tamamlanmasında 1; ayrıca her tamamlamada %5 ihtimalle 1 tane daha.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: k
 
 ### Uzaylılar {#the-aliens}
 
-Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’daki rakamlarıyla öder: hiçbir dünya çarpanı, booster ve Premium bonusu bunları değiştirmez. Bir dalga uzaylıları için bir tur boyunca **bir kez** öder, kaç kez çıkıp girersen gir. Ödeme, turun her kesiminin sonunda gelir: ayrıldığında, öldüğünde, canların bittiğinde, pes ettiğinde ya da tamamladığında. Bir kesimin öldürmeleri yalnızca sıfırlamada ve sen içerideyken sunucunun yeniden başlatılmasında ödenmeden kalır (turun açık kalır, ama o kesimin öldürmeleri kaybolur). Bir geçitteki öldürmeler, hiçbir sektör adlandırmayan [görevlere](/wiki/03-Mechanics/Quests.md#where-it-counts) (meydan okuma hattının büyük avları gibi) gerçekleştikleri anda sayılır (bir dalga bir tur boyunca onlara **bir kez** sayılır, tıpkı bir kez ödediği gibi) ve başka hiçbir şeye sayılmaz: öldürme istatistiklerine, başarımların sayaçlarına, öldürme akışına ya da dronelarının ve P.E.T.’lerinin deneyimine. Ama ödedikleri deneyim, bir tamamlamanın deneyimi gibi PvE sıralama puanlarına sayılır. Uzaylıların ganimeti ödemeyle birlikte doğrudan envanterine gelir.
+Bir geçitte öldürdüğün her uzaylı, hangi dünyada uçarsan uç, Alpha’daki rakamlarıyla öder: hiçbir dünya çarpanı, booster ve Premium bonusu bunları değiştirmez. Bir dalga uzaylıları için bir tur boyunca **bir kez** öder, kaç kez çıkıp girersen gir. Ödeme, turun her kesiminin sonunda gelir: ayrıldığında, öldüğünde, canların bittiğinde, pes ettiğinde ya da tamamladığında. Bir kesimin öldürmeleri yalnızca sıfırlamada ve sen içerideyken sunucunun yeniden başlatılmasında ödenmeden kalır (turun açık kalır, ama o kesimin öldürmeleri kaybolur). Bir geçitteki öldürmeler, hiçbir sektör adlandırmayan [görevlere](/wiki/03-Mechanics/Quests.md#where-it-counts) (meydan okuma hattının büyük avları gibi) gerçekleştikleri anda sayılır (bir dalga bir tur boyunca onlara **bir kez** sayılır, tıpkı bir kez ödediği gibi) ve başka hiçbir şeye sayılmaz: öldürme istatistiklerine, başarımların sayaçlarına, öldürme akışına ya da dronelarının ve P.E.T.’lerinin deneyimine. Ama ödedikleri deneyim ve onur, bir tamamlamanın deneyimi ve onuru gibi PvE sıralama puanlarına sayılır. Uzaylıların ganimeti ödemeyle birlikte doğrudan envanterine gelir.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->

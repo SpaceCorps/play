@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5840847853041fa0 -->
+<!-- wiki-i18n source: 3394596d1bb1595f -->
 <!-- wiki-i18n title: Davidski -->
 # Davidski
 
@@ -14,7 +14,7 @@ Davidski, uçan bir tüccardır. Günde bir kez, kimsenin duyurmadığı bir saa
 
 ## Gemisi {#his-ship}
 
-Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça türünün en iyisini taşıyor ve her biri Ebedi kademeye dövülmüş:
+Altın renge boyanmış bir **Ironclad TITANIC**; TITANIC boyutunda, her parça türünün en iyisini taşıyor ve her biri Yücelmiş kademeye dövülmüş:
 
 | Ne | Eşya |
 |---|---|

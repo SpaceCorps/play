@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Goombah は手強いクルーザー級のエイリアン艦です。シールド
 - **Quorvium**：100%の確率（最小：2、最大：4）
 - **Reinforced Hull Plate**：60%の確率（最小：1、最大：1）
 - **Power Core**：25%の確率（最小：1、最大：1）
+- **Echo Shard**：5%の確率（最小：1、最大：1）
 
 ## 伝承 {#lore}
 

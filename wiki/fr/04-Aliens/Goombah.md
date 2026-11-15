@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ada9270855f7afe9 -->
+<!-- wiki-i18n source: 7069cd111c9ce842 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,6 +44,7 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 - **Quorvium** : 100 % de chances (min. : 2, max. : 4)
 - **Reinforced Hull Plate** : 60 % de chances (min. : 1, max. : 1)
 - **Power Core** : 25 % de chances (min. : 1, max. : 1)
+- **Echo Shard** : 5 % de chances (min. : 1, max. : 1)
 
 ## Histoire {#lore}
 

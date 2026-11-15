@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e29e78376262930a -->
+<!-- wiki-i18n source: f9745ccb7164e1cb -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -132,8 +132,8 @@ Les dégâts reçus sont répartis entre boucliers et points de vie selon l’**
 La base d’origine de chaque faction (cartes X-1) contient des zones sûres.
 - Entrer dans une zone sûre rend votre vaisseau totalement insensible aux dégâts.
 - **Rupture de l’immunité** : attaquer un ennemi vous retire immédiatement l’immunité de la zone sûre, même si vous vous trouvez physiquement à l’intérieur.
-- Un anneau autour de chaque station et de chaque portail vous protège dès que 5 secondes se sont écoulées depuis le dernier coup reçu et 15 depuis votre dernier tir. Tant qu’il vous protège et que vous êtes hors combat, la fenêtre du hangar vous permet de changer de vaisseau sans quitter le jeu : voir [Le hangar en vol](/wiki/03-Mechanics/Hangar.md).
-- Les stations n’existent que dans les bases d’origine (`x-1`). Les secteurs dangereux (`DS-1` à `DS-4`) n’en ont aucune : les anneaux autour des portails y sont les seules zones sûres.
+- Un anneau autour de la station de chaque base d’origine et de chaque portail vous protège dès que 5 secondes se sont écoulées depuis le dernier coup reçu et 15 depuis votre dernier tir. Tant qu’il vous protège et que vous êtes hors combat, la fenêtre du hangar vous permet de changer de vaisseau sans quitter le jeu : voir [Le hangar en vol](/wiki/03-Mechanics/Hangar.md).
+- Les stations existent dans les bases d’origine (`x-1`) et dans les frontières (`x-4`), mais seule la station d’une base d’origine a un anneau : la station Mission Control d’une frontière ne protège personne. Les secteurs dangereux (`DS-1` à `DS-4`) n’en ont aucune : les anneaux autour des portails y sont les seules zones sûres.
 
 ### 3. Sous le feu dans un secteur dangereux {#3-under-attack-in-a-danger-sector}
 

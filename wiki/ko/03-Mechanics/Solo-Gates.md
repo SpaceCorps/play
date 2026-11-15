@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 9b254c924e79c7e8 -->
+<!-- wiki-i18n source: a07a705b04461381 -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
@@ -50,7 +50,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ### 부품 없는 스핀 {#a-spin-without-a-part}
 
-대부분의 스핀은 부품을 찾지 못합니다. 각 스핀은 아래 확률로 정해지는 상품 하나를 지급합니다. 두 번째 배율 이상의 레이저 탄약, 두 번째 또는 세 번째 등급의 로켓 묶음, 그리고 가끔 [특수 아이템](/wiki/06-Items/Special-Items.md)이나 [컨테이너](/wiki/06-Items/Containers.md)입니다. 줄 수 없는 상품(예를 들어 그 특수 아이템을 이미 최대로 가진 경우)은 같은 추첨에서 탄약이나 로켓 묶음으로 바뀌므로, 스핀은 표보다 적게 지급하는 일이 없습니다. 상품의 가치는 스핀 비용보다 분명히 낮습니다. 게이트는 Thulium을 빨아들이는 곳입니다.
+대부분의 스핀은 부품을 찾지 못합니다. 각 스핀은 아래 확률로 정해지는 상품 하나를 지급합니다. 두 번째 배율 이상의 레이저 탄약, 두 번째 또는 세 번째 등급의 로켓 묶음, 그리고 가끔 [특수 아이템](/wiki/06-Items/Special-Items.md)이나 [컨테이너](/wiki/06-Items/Containers.md)입니다. 줄 수 없는 상품(예를 들어 특수 아이템이나 컨테이너가 꺼져 있는 경우)은 같은 추첨에서 탄약이나 로켓 묶음으로 바뀌므로, 스핀은 표보다 적게 지급하는 일이 없습니다. 상품의 가치는 스핀 비용보다 분명히 낮습니다. 게이트는 Thulium을 빨아들이는 곳입니다.
 
 <!-- solo-prizes:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -88,11 +88,11 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 - 게이트의 부품이 있어야 합니다. 부품은 **건설할 때 한 번** 가져가며, 거부된 건설은 아무것도 가져가지 않습니다.
 - 열려 있는 다른 솔로 런이 없어야 합니다. 런은 한 번에 하나만 가질 수 있고, 떠난 런은 다른 게이트를 건설하기 전에 포털로 다시 들어가거나 포기해야 합니다.
-- 홈 서버에 있어야 합니다(지역 서버에는 게이트가 없습니다).
+- 홈 서버에 있어야 합니다(게이트는 홈 서버에서만 건설합니다. 지역 서버에서는 먼저 기지로 돌아갑니다).
 
-건설한 게이트는 당신의 **기지 섹터**(기업에 따라 `M-1`, `T-1`, `G-1`)에 게이트 이름이 붙은 포털로 서 있으며, 어디에 있는지는 갤럭시 게이트 페이지가 알려 줍니다. **출격해서 포털까지 날아가 점프**하면 됩니다. 다른 포털과 같습니다. 들어갈 때 월드에 빈 균열이 있어야 합니다. 월드마다 균열이 일정 수 있으며, 모두 사용 중이면 기다립니다.
+건설한 게이트는 당신의 **기지 섹터**(기업에 따라 `M-1`, `T-1`, `G-1`)에 게이트 이름이 붙은 포털로 서 있으며, 어디에 있는지는 갤럭시 게이트 페이지가 알려 줍니다. **출격해서 포털까지 날아가 점프**하면 됩니다. 다른 포털과 같습니다. 들어갈 때 월드에 빈 균열이 있어야 합니다. 월드마다 균열이 일정 수 있으며, 모두 사용 중이면 기다립니다. 보이는 것은 **내 게이트**뿐입니다. 같은 섹터에 있는 다른 파일럿의 게이트 포털은 표시되지 않습니다.
 
-**지역 서버에서 (Singapore, US East).** 게이트 자체는 홈 서버에 남습니다. 지역 서버에서는 아무것도 건설하거나 플레이하거나 보상받지 않습니다. 그래도 건설한 게이트는 그곳에서도 잊히지 않습니다. 도착할 때 그 사실을 알려 주고, 게이트의 포털은 그곳에서도 당신의 기지 섹터에 서 있습니다. 그 포털로 점프하면 홈 서버로 돌아가며, 거기서 위와 같이 게이트로 출격하면 됩니다.
+**지역 서버에서 (Singapore, US East).** 건설한 게이트는 그곳에서도 플레이할 수 있습니다. 게이트의 포털은 홈 서버와 마찬가지로 지역 서버에서도 당신의 기지 섹터에 서 있으며, 도착할 때 그 사실을 알려 줍니다. **포털로 점프하면 그 서버의 아레나로 들어갑니다.** 지연 시간은 홈 서버가 아니라 그 서버의 것이 됩니다. 지역 서버에는 월드마다 아레나가 **두 개뿐**이고 홈 서버에는 훨씬 더 많이 있습니다. 둘 다 사용 중이면 홈 서버에서 빈 균열을 기다리듯 기다립니다. 런과 부품과 보상을 보관하는 곳은 여전히 홈 서버 한 곳뿐입니다. 보상은 홈 서버가 런을 집계했을 때, 즉 끝나고 몇 초 뒤에 지갑에 들어오고, **비행 창의 지갑은 도킹할 때 따라잡습니다**. 다음 런에는 지난 런이 집계된 뒤에야 들어갈 수 있습니다. 아레나에서 떠난 런은 포털로 다시 들어가고, 포기하려면 아레나 안이나 기지에서 포기합니다. 지역 서버의 아레나가 꺼져 있으면 그 포털은 대신 홈 서버로 돌려보내며, 거기서 위와 같이 게이트로 출격하면 됩니다. 지역 서버에서 그 밖에 무엇이 되는지는 [서버](/wiki/03-Mechanics/Servers.md)를 참고하세요.
 
 텅 빈 경기장 한가운데에 혼자 내립니다. 안에서는 누구도 당신을 공격할 수 없고, Jump CPU와 Base CPU는 작동하지 않습니다.
 
@@ -161,7 +161,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ## 클리어 보상 {#what-a-clear-pays}
 
-클리어는 표의 보상을 보스가 죽는 순간 **한 번에 모두** 지급합니다. 크레딧, Thulium, 경험치와 명예, 광석, 플레이트와 Power Core, 탄약입니다. 경험치는 던전의 경험치처럼 PvE 랭킹 포인트에 들어갑니다.
+클리어는 표의 보상을 보스가 죽는 순간 **한 번에 모두** 지급합니다. 크레딧, Thulium, 경험치와 명예, 광석, 플레이트와 Power Core, 탄약입니다. 경험치와 명예는 던전의 경험치·명예처럼 PvE 랭킹 포인트에 들어갑니다.
 
 <!-- solo-pay:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -174,11 +174,12 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400; 탄약: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100; 탄약: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
-- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15; 탄약: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
-- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3; 탄약: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
-- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10; 탄약: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; 탄약: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; 탄약: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
+- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; 탄약: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
+- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; 탄약: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
+- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; 탄약: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Heartshard**: 시즌 중 각 게이트를 처음 클리어할 때 1개, 클리어할 때마다 5% 확률로 1개 추가.
 
 <!-- solo-pay:end -->
 
@@ -186,7 +187,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 
 ### 외계인 {#the-aliens}
 
-게이트에서 처치한 외계인은 어느 월드를 날든 Alpha에서의 수치로 지급합니다. 월드 배율, 부스터, 프리미엄 보너스는 영향을 주지 않습니다. 웨이브는 외계인에 대한 보상을 런마다 **한 번만** 지급하며, 몇 번을 떠났다 돌아와도 같습니다. 보상은 런의 각 구간이 끝날 때 지급됩니다. 떠날 때, 죽을 때, 목숨이 다할 때, 포기할 때, 클리어할 때입니다. 구간의 처치가 지급되지 않는 경우는 초기화와, 안에 있는 동안 서버가 재시작될 때뿐입니다(런은 열린 채로 남지만 그 구간의 처치는 사라집니다). 게이트에서의 처치는 **섹터를 지정하지 않는** [미션](/wiki/03-Mechanics/Quests.md#where-it-counts)(도전 과제 라인의 큰 사냥 등)에 처치하는 순간 집계됩니다(웨이브는 보상이 한 번만 지급되듯이 런마다 **한 번만** 집계됩니다). 그 밖의 어디에도 집계되지 않습니다. 처치 통계, 도전 과제 카운터, 킬 피드, 드론과 P.E.T.의 경험치 어디에도 들어가지 않습니다. 다만 처치가 지급하는 경험치는 클리어의 경험치처럼 PvE 랭킹 포인트에 들어갑니다. 외계인의 전리품은 보상과 함께 바로 인벤토리로 들어옵니다.
+게이트에서 처치한 외계인은 어느 월드를 날든 Alpha에서의 수치로 지급합니다. 월드 배율, 부스터, 프리미엄 보너스는 영향을 주지 않습니다. 웨이브는 외계인에 대한 보상을 런마다 **한 번만** 지급하며, 몇 번을 떠났다 돌아와도 같습니다. 보상은 런의 각 구간이 끝날 때 지급됩니다. 떠날 때, 죽을 때, 목숨이 다할 때, 포기할 때, 클리어할 때입니다. 구간의 처치가 지급되지 않는 경우는 초기화와, 안에 있는 동안 서버가 재시작될 때뿐입니다(런은 열린 채로 남지만 그 구간의 처치는 사라집니다). 게이트에서의 처치는 **섹터를 지정하지 않는** [미션](/wiki/03-Mechanics/Quests.md#where-it-counts)(도전 과제 라인의 큰 사냥 등)에 처치하는 순간 집계됩니다(웨이브는 보상이 한 번만 지급되듯이 런마다 **한 번만** 집계됩니다). 그 밖의 어디에도 집계되지 않습니다. 처치 통계, 도전 과제 카운터, 킬 피드, 드론과 P.E.T.의 경험치 어디에도 들어가지 않습니다. 다만 처치가 지급하는 경험치와 명예는 클리어의 경험치·명예처럼 PvE 랭킹 포인트에 들어갑니다. 외계인의 전리품은 보상과 함께 바로 인벤토리로 들어옵니다.
 
 <!-- solo-kills:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
