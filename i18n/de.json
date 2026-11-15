@@ -36,6 +36,7 @@
   "hero.download": "Jetzt herunterladen",
   "hero.play-web": "Im Browser spielen",
   "hero.play-web-sub": "Startet in einem neuen Tab",
+  "hero.play-web-sub-mobile": "Auf einem Desktop-Computer",
   "hero.play-web-note": "Braucht einen Desktop-Browser mit WebGPU oder WebGL2. Der erste Start lädt etwa 80 MB, keine Installation.",
   "hero.download-mobile": "Auf dem Computer spielen",
   "hero.sub.macos": "Apple Silicon und Intel",

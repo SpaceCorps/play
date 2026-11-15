@@ -136,7 +136,11 @@
       setText($('#dl-main-sub'), 'macOS · Windows · Linux');
       setText($('#dl-other'), t('hero.all-platforms'));
     }
-    if (os === 'mobile') setText($('#dl-note'), t('hero.note-mobile'));
+    if (os === 'mobile') {
+      setText($('#dl-note'), t('hero.note-mobile'));
+      // The web version needs a desktop browser: on a phone the button stays, but quieter.
+      setText($('#play-web .btn-sub'), t('hero.play-web-sub-mobile'));
+    }
   }
 
   function renderRelease(json) {
@@ -206,6 +210,10 @@
 
     renderMain();
     $('#play-web').href = DEFAULT_WEB;
+    if (os === 'mobile') {
+      $('#play-web').classList.replace('btn-play', 'btn-secondary');
+      $('#play-web .btn-sub').setAttribute('data-i18n', 'hero.play-web-sub-mobile');
+    }
     fetch('web.json', { cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
       .then((json) => {

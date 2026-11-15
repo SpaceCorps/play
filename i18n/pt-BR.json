@@ -36,6 +36,7 @@
   "hero.download": "Baixar agora",
   "hero.play-web": "Jogar no navegador",
   "hero.play-web-sub": "Abre em uma nova aba",
+  "hero.play-web-sub-mobile": "Em um computador de mesa",
   "hero.play-web-note": "Requer um navegador de computador com WebGPU ou WebGL2. O primeiro carregamento tem cerca de 80 MB, sem instalação.",
   "hero.download-mobile": "Baixe no seu computador",
   "hero.sub.macos": "Apple Silicon e Intel",

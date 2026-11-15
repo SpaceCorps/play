@@ -36,6 +36,7 @@
   "hero.download": "Descargar ahora",
   "hero.play-web": "Jugar en el navegador",
   "hero.play-web-sub": "Se abre en una pestaña nueva",
+  "hero.play-web-sub-mobile": "En una computadora de escritorio",
   "hero.play-web-note": "Necesita un navegador de escritorio con WebGPU o WebGL2. La primera carga es de unos 80 MB, sin instalar nada.",
   "hero.download-mobile": "Juega en tu computadora",
   "hero.sub.macos": "Apple silicon e Intel",

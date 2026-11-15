@@ -36,6 +36,7 @@
   "hero.download": "Ladda ner nu",
   "hero.play-web": "Spela i webbläsaren",
   "hero.play-web-sub": "Öppnas i en ny flik",
+  "hero.play-web-sub-mobile": "På en dator",
   "hero.play-web-note": "Kräver en webbläsare på datorn med WebGPU eller WebGL2. Första laddningen är cirka 80 MB, ingen installation.",
   "hero.download-mobile": "Spela på datorn",
   "hero.sub.macos": "Apple Silicon och Intel",
