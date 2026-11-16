@@ -3,14 +3,17 @@
 // server is up, and write the patch notes' dates in the visitor's language. The patch notes
 // page (patchnotes.html) has the top bar only: no downloads there. Texts come from i18n.js (keys in i18n/<language>.json), and are written again
 // when the visitor switches languages. No cookies, no third parties: the only requests are
-// release.json, the language files and the game server's /health; the only thing kept is the
-// visitor's language pick (i18n.js).
+// release.json, web.json, the language files and the game server's /health; the only thing kept
+// is the visitor's language pick (i18n.js). The hero's second button, Play in browser, opens the
+// web version of the game: its address is web.json's "url" (DEFAULT_WEB until that file says
+// otherwise), and it always links, even while the web version isn't hosted yet.
 (() => {
   'use strict';
 
   const RELEASES = 'https://github.com/SpaceCorps/play/releases';
   const LATEST = RELEASES + '/latest/download/';
   const DEFAULT_SERVER = 'https://spacecorps-game.sliplane.app';
+  const DEFAULT_WEB = 'https://web.spacecorps.xyz/'; // placeholder until the web version is hosted
   const PLATFORMS = {
     macos: { asset: 'SpaceCorps2027-macos-universal.dmg', name: 'macOS', sub: 'hero.sub.macos', help: 'help-macos' },
     windows: { asset: 'SpaceCorps2027-windows-x86_64.zip', name: 'Windows', sub: 'hero.sub.windows', help: 'help-windows' },
@@ -122,16 +125,22 @@
     if (!texts || !downloads) return;
     const a = offered();
     if (a) {
-      setText($('#dl-main-label'), t('hero.download-for', { platform: mine.name }));
+      setText($('#dl-main-label'), t('hero.download'));
+      // The system's name first, unless the package line already starts with it (Windows 10 and 11).
       const sub = t(mine.sub);
-      setText($('#dl-main-sub'), sub && Number.isFinite(a.size) ? `${sub} · ${I18N.size(a.size)}` : sub);
+      const parts = [sub && sub.startsWith(mine.name) ? null : mine.name, sub, Number.isFinite(a.size) ? I18N.size(a.size).replace(/ /g, '\u00a0') : null];
+      setText($('#dl-main-sub'), parts.filter(Boolean).join(' · '));
       setText($('#dl-other'), t('hero.other-platforms'));
     } else {
       setText($('#dl-main-label'), os === 'mobile' ? t('hero.download-mobile') : t('hero.download'));
       setText($('#dl-main-sub'), 'macOS · Windows · Linux');
       setText($('#dl-other'), t('hero.all-platforms'));
     }
-    if (os === 'mobile') setText($('#dl-note'), t('hero.note-mobile'));
+    if (os === 'mobile') {
+      setText($('#dl-note'), t('hero.note-mobile'));
+      // The web version needs a desktop browser: on a phone the button stays, but quieter.
+      setText($('#play-web .btn-sub'), t('hero.play-web-sub-mobile'));
+    }
   }
 
   function renderRelease(json) {
@@ -200,6 +209,18 @@
     });
 
     renderMain();
+    $('#play-web').href = DEFAULT_WEB;
+    if (os === 'mobile') {
+      $('#play-web').classList.replace('btn-play', 'btn-secondary');
+      $('#play-web .btn-sub').setAttribute('data-i18n', 'hero.play-web-sub-mobile');
+    }
+    fetch('web.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
+      .then((json) => {
+        const url = json && json.url;
+        if (typeof url === 'string' && /^https:\/\//.test(url)) $('#play-web').href = url;
+      })
+      .catch(() => { /* keep DEFAULT_WEB */ });
     fetch('release.json', { cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
       .then(renderRelease)
