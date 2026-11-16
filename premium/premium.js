@@ -75,9 +75,19 @@
     try { return JSON.parse(text); } catch (e) { return {}; }
   }
 
+  // The sentence of an error body: plain text as it is, or the "message" of a JSON body ({"code": ..., "message": ...}, which some refusals of the server are).
+  // Raw JSON is never shown to the pilot.
+  function sentence(text) {
+    const t = (text || '').trim();
+    if (t.charAt(0) !== '{') return t;
+    const body = json(t);
+    return typeof body.message === 'string' ? body.message.trim() : '';
+  }
+
   // What a failed call says to the pilot, in plain words.
   function explain(err) {
     if (!(err instanceof ApiError)) return 'Something went wrong. Try again in a minute.';
+    const said = sentence(err.text);
     switch (true) {
       case err.status === 0:
         return 'The game server cannot be reached. Check your connection and try again in a minute.';
@@ -85,17 +95,19 @@
         return 'Your session ended. Please sign in again.';
       case err.status === 429:
         return 'Too many tries. Wait a few minutes and try again.';
-      case err.status === 503 && /payments are not available/i.test(err.text):
+      case err.status === 409 && /FLYING_ELSEWHERE/.test(err.text || ''):
+        return 'Your ship is still flying on another server. Bring it home in the game (Bring my ship home) and try again.';
+      case err.status === 503 && /payments are not available/i.test(said):
         return 'Payments are not available yet.';
       case err.status === 503:
         return 'The game server is busy right now, for example while a season changes. Try again in a few minutes.';
       case err.status >= 500:
         return 'Something went wrong on the game server. Try again in a minute.';
       case err.status === 404:
-        return err.text && err.text.length < 160 ? err.text : 'Not found.';
+        return said && said.length < 160 ? said : 'Not found.';
       default:
         // 400 and the like: the server's own short sentence ("You already have a subscription: ...")
-        return err.text && err.text.length < 300 ? err.text : 'That did not work. Try again in a minute.';
+        return said && said.length < 300 ? said : 'That did not work. Try again in a minute.';
     }
   }
 
@@ -266,7 +278,7 @@
     } else if (q.get('success') === 'true') {
       const id = q.get('session_id') || '';
       if (/^cs_[A-Za-z0-9_]{6,200}$/.test(id)) pendingSession = id;
-      else banner('Thank you. Your payment is on its way; Premium is added as soon as Stripe confirms it.', 'ok');
+      else banner('We could not read the payment from this address. If you paid, Premium is added as soon as Stripe confirms it. Sign in to see your Premium.', 'info');
     }
   }
 
@@ -284,7 +296,7 @@
   }
 
   function confirmPayment(id, attempt) {
-    banner('Thank you. Confirming your payment…', 'info');
+    banner('Confirming your payment…', 'info');
     return api('POST', '/api/payment/sync-session', { session_id: id }).then(function () {
       pendingSession = '';
       cleanUrl();
@@ -294,13 +306,21 @@
       });
     }, function (err) {
       if (err instanceof ApiError && err.status === 401) { signOut('Your session ended. Please sign in again.', 'info'); return; }
+      // A payment that is not this pilot's is not asked about again
+      if (err instanceof ApiError && err.status === 400 && /does not belong/i.test(err.text)) {
+        pendingSession = '';
+        cleanUrl();
+        banner(explain(err), 'error');
+        return;
+      }
       // Stripe may take a moment to say "paid": ask again a few times
       if (attempt < 4) {
         return new Promise(function (resolve) { setTimeout(resolve, 3000); }).then(function () { return confirmPayment(id, attempt + 1); });
       }
       pendingSession = '';
       cleanUrl();
-      banner('Thank you! Your payment went through, but we could not confirm it yet. Premium is added as soon as Stripe confirms it, usually within a minute. Reload this page to check.', 'ok');
+      // (nothing is known about the payment here: it may be forged, refused or just slow; some payment methods take a while to settle)
+      banner('Stripe has not confirmed this payment yet. If you paid, Premium is added to your account by itself as soon as Stripe confirms it; some payment methods take a while. Reload this page later to check.', 'info');
     });
   }
 

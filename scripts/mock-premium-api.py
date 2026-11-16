@@ -18,13 +18,15 @@ Pilots (the password of every one is "pilotpass"):
     supporter   Premium for 20 more days, subscribed  nopay      payments are not available (503 / paymentsOpen false)
     flaky       Stripe cannot be asked (subscription null)       busy       every payment call answers 503 "The Universe Wipe is running."
     banned      the login answers 403                  slow       a checkout takes three seconds
+    away        a server that still gates payments of a pilot flying elsewhere answers 409 with a JSON body (FLYING_ELSEWHERE)
 
 Run it:        python scripts/mock-premium-api.py --port 8787 --page http://127.0.0.1:8081
-Look at it:    python -m http.server 8081   (in the repository root), then open  http://127.0.0.1:8081/premium/?api=http://127.0.0.1:8787
+Look at it:    python scripts/serve-premium-page.py --port 8081   (in the repository root; it widens the page's CSP to this machine's mock), then open  http://127.0.0.1:8081/premium/?api=http://127.0.0.1:8787
 Self-test:     python scripts/mock-premium-api.py --selftest
 """
 import argparse
 import json
+import re
 import sys
 import threading
 import time
@@ -59,6 +61,7 @@ class World:
             "nopay": dict(premium_until=None, subscription=False),
             "flaky": dict(premium_until=None, subscription=None),
             "busy": dict(premium_until=None, subscription=False),
+            "away": dict(premium_until=None, subscription=False),
             "banned": dict(premium_until=None, subscription=False),
             "slow": dict(premium_until=None, subscription=False),
         }
@@ -198,6 +201,11 @@ class Handler(BaseHTTPRequestHandler):
         if name == "busy":
             self.reply(503, "The Universe Wipe is running.")
             return True
+        if name == "away":
+            # what Home's write gate answers a pilot whose ship is leased to a regional server (a JSON body, not a sentence)
+            self.reply_json(409, {"code": "FLYING_ELSEWHERE", "node": "spacecorps-sg",
+                                  "message": "Your ship is still flying on spacecorps-sg. Press Bring my ship home, or launch at the base."})
+            return True
         return False
 
     def checkout(self):
@@ -242,9 +250,13 @@ class Handler(BaseHTTPRequestHandler):
         if self.refuse_payment(name):
             return
         body = self.body_json() or {}
-        session = self.world.sessions.get(body.get("session_id"))
+        sid = body.get("session_id")
+        if not isinstance(sid, str) or not re.fullmatch(r"cs_[A-Za-z0-9_]+", sid):
+            return self.reply(400, "Invalid session")
+        session = self.world.sessions.get(sid)
         if session is None:
-            return self.reply(400, "Stripe API failed to retrieve session")
+            # the server never passes Stripe's own text on
+            return self.reply(400, "Stripe could not be reached just now. Nothing was charged. Try again in a minute.")
         if session["user"] != name:
             return self.reply(400, "This payment does not belong to your user.")
         if not session["paid"]:

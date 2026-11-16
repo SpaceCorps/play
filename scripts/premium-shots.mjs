@@ -3,7 +3,7 @@
 //
 //   node scripts/premium-shots.mjs OUTDIR            (needs Node 22+, Python 3, Edge or Chrome; run it in the repository root)
 //
-// It starts `python -m http.server` for the page (port 8081) and scripts/mock-premium-api.py (port 8787), drives the browser over the DevTools protocol
+// It starts scripts/serve-premium-page.py for the page (port 8081) and scripts/mock-premium-api.py (port 8787), drives the browser over the DevTools protocol
 // (sign in, tick, click, buy, pay at the pretend Stripe, come back) and writes one PNG per state and viewport (390x844 and 1280x800) into OUTDIR,
 // plus checks.txt: what the script asserted about the page on the way (it exits 1 when one fails).
 import { spawn } from 'node:child_process';
@@ -42,7 +42,7 @@ const children = [];
 const stop = (c) => { try { if (process.platform === 'win32') spawn('taskkill', ['/T', '/F', '/PID', String(c.pid)], { stdio: 'ignore' }); else c.kill(); } catch { /* gone */ } };
 const run = (cmd, args, opts = {}) => { const c = spawn(cmd, args, { stdio: 'ignore', ...opts }); children.push(c); return c; };
 const python = process.platform === 'win32' ? 'python' : 'python3';
-run(python, ['-m', 'http.server', String(PAGE_PORT), '--bind', '127.0.0.1']);
+run(python, ['scripts/serve-premium-page.py', '--port', String(PAGE_PORT), '--bind', '127.0.0.1']);
 // the pretend Stripe sends the browser back to the page WITH ?api=, so the page keeps talking to the mock after a payment
 let mock;
 async function startMock() {
@@ -187,6 +187,21 @@ async function scenarios() {
   await until(() => visible('banner'), 'the busy banner');
   note((await text('banner')).includes('busy'), 'busy: the 503 says the server is busy');
   await shot('08-server-busy');
+
+  // 9b. a pilot whose ship is flying on another server: the refusal is a JSON body, and the page shows its sentence, never the raw JSON
+  await open(START); await signIn('away'); await signedIn(); await tick('agree-premium');
+  await ev("document.getElementById('buy-premium').click()");
+  await until(() => visible('banner'), 'the flying-elsewhere banner');
+  const away = await text('banner');
+  note(!away.includes('{') && !away.includes('FLYING_ELSEWHERE') && away.includes('another server'), 'a 409 JSON body is not shown as JSON: ' + away.trim());
+  await shot('08b-flying-elsewhere');
+
+  // 9c. a forged return from Stripe: a payment the server does not know is never "Thank you" nor "went through"
+  await open(`${START}&success=true&session_id=cs_test_forged1`); await signIn('newbie');
+  await until(async () => (await ev("document.getElementById('banner')?.textContent || ''")).startsWith('Stripe has not confirmed'), 'the unconfirmed banner', 30000);
+  const forged = await text('banner');
+  note(!/thank you|went through/i.test(forged), 'an unconfirmed payment is not called a thank-you: ' + forged.trim());
+  await shot('08c-unconfirmed-payment');
 
   // 10. the pilot comes back from Stripe without paying
   await open(`${START}&canceled=true`);
