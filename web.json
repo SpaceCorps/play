@@ -1,0 +1,4 @@
+{
+  "url": "https://web.spacecorps.xyz/",
+  "@url": "The web version's address, opened by the download page's Play in browser button. Set it when the web game is hosted (docs/web-hosting.md in the game repository). https only."
+}

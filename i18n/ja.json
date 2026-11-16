@@ -32,8 +32,11 @@
 
   "hero.eyebrow": "宇宙 MMO · クローズドベータ",
   "hero.lede": "企業のために飛び、クランの仲間とエイリアンを狩り、シーズンランキングの頂点を目指そう。macOS、Windows、Linux 向けのネイティブゲームです。",
-  "hero.download": "ダウンロード",
-  "hero.download-for": "{platform} 版をダウンロード",
+  "hero.download": "今すぐダウンロード",
+  "hero.play-web": "ブラウザでプレイ",
+  "hero.play-web-sub": "新しいタブで開きます",
+  "hero.play-web-sub-mobile": "デスクトップパソコンで",
+  "hero.play-web-note": "WebGPU または WebGL2 に対応したパソコンのブラウザが必要です。初回の読み込みは約80 MB、インストールは不要です。",
   "hero.download-mobile": "パソコンでプレイ",
   "hero.sub.macos": "Apple シリコン・Intel 対応",
   "hero.sub.windows": "Windows 10・11、x64",

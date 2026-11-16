@@ -32,8 +32,11 @@
 
   "hero.eyebrow": "우주 MMO · 비공개 베타",
   "hero.lede": "기업을 위해 비행하고, 클랜과 함께 외계인을 사냥하며, 시즌 랭킹 정상에 도전하세요. macOS, Windows, Linux용 네이티브 게임입니다.",
-  "hero.download": "다운로드",
-  "hero.download-for": "{platform}용 다운로드",
+  "hero.download": "지금 다운로드",
+  "hero.play-web": "브라우저에서 플레이",
+  "hero.play-web-sub": "새 탭에서 열립니다",
+  "hero.play-web-sub-mobile": "데스크톱 컴퓨터에서",
+  "hero.play-web-note": "WebGPU 또는 WebGL2를 지원하는 데스크톱 브라우저가 필요합니다. 첫 로딩은 약 80 MB이며 설치는 필요 없습니다.",
   "hero.download-mobile": "컴퓨터에서 플레이하세요",
   "hero.sub.macos": "Apple 실리콘 및 Intel",
   "hero.sub.windows": "Windows 10 및 11, x64",

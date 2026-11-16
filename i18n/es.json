@@ -33,8 +33,11 @@
 
   "hero.eyebrow": "MMO espacial · Beta privada",
   "hero.lede": "Vuela para una corporación, caza alienígenas con tu clan y escala en la clasificación de la temporada. Un juego nativo para macOS, Windows y Linux.",
-  "hero.download": "Descargar",
-  "hero.download-for": "Descargar para {platform}",
+  "hero.download": "Descargar ahora",
+  "hero.play-web": "Jugar en el navegador",
+  "hero.play-web-sub": "Se abre en una pestaña nueva",
+  "hero.play-web-sub-mobile": "En una computadora de escritorio",
+  "hero.play-web-note": "Necesita un navegador de escritorio con WebGPU o WebGL2. La primera carga es de unos 80 MB, sin instalar nada.",
   "hero.download-mobile": "Juega en tu computadora",
   "hero.sub.macos": "Apple silicon e Intel",
   "hero.sub.windows": "Windows 10 y 11, x64",

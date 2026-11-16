@@ -35,8 +35,11 @@
 
   "hero.eyebrow": "Космическая MMO · Закрытая бета",
   "hero.lede": "Летайте за корпорацию, охотьтесь на пришельцев вместе с кланом и поднимайтесь в рейтинге сезона. Нативная игра для macOS, Windows и Linux.",
-  "hero.download": "Скачать",
-  "hero.download-for": "Скачать для {platform}",
+  "hero.download": "Скачать сейчас",
+  "hero.play-web": "Играть в браузере",
+  "hero.play-web-sub": "Откроется в новой вкладке",
+  "hero.play-web-sub-mobile": "На настольном компьютере",
+  "hero.play-web-note": "Нужен браузер на компьютере с WebGPU или WebGL2. Первая загрузка — около 80 МБ, без установки.",
   "hero.download-mobile": "Играйте на компьютере",
   "hero.sub.macos": "Apple Silicon и Intel",
   "hero.sub.windows": "Windows 10 и 11, x64",
