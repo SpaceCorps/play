@@ -37,7 +37,7 @@
   "hero.play-web": "Im Browser spielen",
   "hero.play-web-sub": "Startet in einem neuen Tab",
   "hero.play-web-sub-mobile": "Auf einem Desktop-Computer",
-  "hero.play-web-note": "Frühe Version, nur in Chrome auf einem Computer getestet. Braucht WebGPU oder WebGL2. Kein Gamepad. Japanische, koreanische und chinesische Texte erscheinen als Kästchen. Der erste Start lädt etwa 80 MB.",
+  "hero.play-web-note": "Frühe Version, nur in Chrome auf einem Computer getestet. Braucht WebGPU oder WebGL2. Kein Gamepad. Der erste Start lädt etwa 80 MB.",
   "hero.download-mobile": "Auf dem Computer spielen",
   "hero.sub.macos": "Apple Silicon und Intel",
   "hero.sub.windows": "Windows 10 und 11, x64",
@@ -95,7 +95,7 @@
   "download.copy-sha": "SHA-256 von {file} kopieren",
   "download.all-releases": "Alle Versionen",
   "download.phones": "SpaceCorps 2027 ist heute ein Spiel für Computer. Apps für Android und iOS sind in Entwicklung und noch nicht verfügbar.",
-  "download.web": "Eine frühe Web-Version läuft in einem Desktop-Browser unter web.spacecorps.xyz. Sie ist nicht der Hauptweg zum Spielen: Sie wurde nur in Chrome auf einem Computer getestet, hat kein Gamepad, und japanische, koreanische und chinesische Texte erscheinen dort als Kästchen.",
+  "download.web": "Eine frühe Web-Version läuft in einem Desktop-Browser unter web.spacecorps.xyz. Sie ist nicht der Hauptweg zum Spielen: Sie wurde nur in Chrome auf einem Computer getestet und hat kein Gamepad.",
 
   "reqs.title": "Systemanforderungen",
   "reqs.caption": "Mindestanforderungen je Plattform",

@@ -37,7 +37,7 @@
   "hero.play-web": "Spela i webbläsaren",
   "hero.play-web-sub": "Öppnas i en ny flik",
   "hero.play-web-sub-mobile": "På en dator",
-  "hero.play-web-note": "Tidig version, testad bara i Chrome på en dator. Kräver WebGPU eller WebGL2. Ingen handkontroll. Japanska, koreanska och kinesiska texter visas som rutor. Första laddningen är cirka 80 MB.",
+  "hero.play-web-note": "Tidig version, testad bara i Chrome på en dator. Kräver WebGPU eller WebGL2. Ingen handkontroll. Första laddningen är cirka 80 MB.",
   "hero.download-mobile": "Spela på datorn",
   "hero.sub.macos": "Apple Silicon och Intel",
   "hero.sub.windows": "Windows 10 och 11, x64",
@@ -95,7 +95,7 @@
   "download.copy-sha": "Kopiera SHA-256 för {file}",
   "download.all-releases": "Alla versioner",
   "download.phones": "SpaceCorps 2027 är i dag ett spel för datorer. Appar för Android och iOS är under utveckling och finns inte än.",
-  "download.web": "En tidig webbversion körs i en webbläsare på datorn på web.spacecorps.xyz. Den är inte det främsta sättet att spela: den har bara testats i Chrome på en dator, saknar stöd för handkontroll, och japanska, koreanska och kinesiska texter visas där som rutor.",
+  "download.web": "En tidig webbversion körs i en webbläsare på datorn på web.spacecorps.xyz. Den är inte det främsta sättet att spela: den har bara testats i Chrome på en dator och saknar stöd för handkontroll.",
 
   "reqs.title": "Systemkrav",
   "reqs.caption": "Minimikrav per plattform",
