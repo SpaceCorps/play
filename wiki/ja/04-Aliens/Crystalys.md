@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Crystalys は巨大な戦艦級のエイリアンです。遭遇するときわ�
 - **Quorvium**：100%の確率（最小：6、最大：10）
 - **Power Core**：50%の確率（最小：1、最大：1）
 - **Ancient Control Unit**：20%の確率（最小：1、最大：1）
-- **Echo Shard**：20%の確率（最小：1、最大：1）
+- **Echo Shard**：40%の確率（最小：1、最大：1）
 
 ## 伝承 {#lore}
 

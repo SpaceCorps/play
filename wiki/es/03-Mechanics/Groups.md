@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -32,10 +32,10 @@ Cuando aceptas, se abre la **ventana Grupo** (la tecla **B** o su botón de la b
 Cuando un miembro destruye a un alienígena (o cobra por él gracias a su [reclamación](/wiki/03-Mechanics/Combat.md)), las recompensas (créditos, Thulium, experiencia y honor) se reparten entre los miembros que están:
 
 - en el **mismo mapa** (en el mismo mundo),
-- **vivos** y a menos de **4000 unidades** de los restos, y
+- **vivos** y a menos de **8000 unidades** de los restos, y
 - **disparando**: han disparado un láser o un cohete contra cualquier cosa en los últimos 15 segundos.
 
-Cada uno recibe una parte proporcional a su **nivel**, sea cual sea su corporación (los créditos y el honor son de cada piloto; ninguna corporación se queda con nada): un piloto de nivel 15 con un compañero de nivel 5 se lleva el 75 % y el compañero el 25 %. Se reparte hasta el último crédito: el piloto que logró el derribo recibe lo que sobra al redondear las partes a la baja. La recompensa entera es del que derriba: se aplican sus potenciadores, el multiplicador de su mundo y su Premium, no los de un compañero. En solitario, o sin nadie más al alcance, un derribo paga lo de siempre. Un piloto que está cerca del combate sin disparar no recibe ninguna parte.
+Cada uno recibe una parte proporcional a su **nivel**, sea cual sea su corporación (los créditos y el honor son de cada piloto; ninguna corporación se queda con nada): un piloto de nivel 15 con un compañero de nivel 5 se lleva el 75 % y el compañero el 25 %. Se reparte hasta el último crédito: el piloto que logró el derribo recibe lo que sobra al redondear las partes a la baja. La recompensa entera es del que derriba: se aplican sus potenciadores y el multiplicador de su mundo, no los de un compañero. En solitario, o sin nadie más al alcance, un derribo paga lo de siempre. Un piloto que está cerca del combate sin disparar no recibe ninguna parte.
 
 El aviso del derribo lo indica: la línea de **RECOMPENSAS** del propio piloto que derriba muestra su parte, seguida de «Recompensas compartidas con 2 compañeros de grupo: tu parte es el 40%.», y un compañero al que se paga una parte lee «*Alienígena* fue derribado por *piloto*; la parte de tu grupo te lo abona» con las cantidades. Los avisos aparecen en el Registro de juego.
 
@@ -43,7 +43,7 @@ Lo que sigue siendo solo del que derriba: la **caja de carga** (botín y recurso
 
 ## Reparto de misiones {#sharing-missions}
 
-Un derribo también cuenta para las **misiones de derribo** de todos los demás miembros que están en el mismo mapa y **han disparado un láser o un cohete contra cualquier cosa en los últimos 15 segundos**, estén donde estén en él, como si ellos mismos hubieran destruido al alienígena. Las reglas propias de la misión siguen decidiendo: el alienígena debe ser del tipo de la misión y estar en el sector que esta indica. Un compañero que no disparó, o que está en otro mapa, no recibe ningún recuento. Las misiones mantienen las reglas de su propia corporación: una misión que pide un derribo en el «sector 4 de otra corporación» cuenta para el miembro para quien ese sector es de otra corporación. Cuando el derribo de un compañero cuenta para una de tus misiones, un aviso te dice para cuál. En la [línea de Desafíos](/wiki/03-Mechanics/Quests.md#where-it-counts), además, un miembro debe estar a menos de **4.000 unidades** de los restos para contar, y cada miembro que tenga una misión con un objeto de misión tira por su cuenta y ve su propio objeto: nadie puede compartir uno.
+Un derribo también cuenta para las **misiones de derribo** de todos los demás miembros que están en el mismo mapa y **han disparado un láser o un cohete contra cualquier cosa en los últimos 15 segundos**, estén donde estén en él, como si ellos mismos hubieran destruido al alienígena. Las reglas propias de la misión siguen decidiendo: el alienígena debe ser del tipo de la misión y estar en el sector que esta indica. Un compañero que no disparó, o que está en otro mapa, no recibe ningún recuento. Las misiones mantienen las reglas de su propia corporación: una misión que pide un derribo en el «sector 4 de otra corporación» cuenta para el miembro para quien ese sector es de otra corporación. Cuando el derribo de un compañero cuenta para una de tus misiones, un aviso te dice para cuál. En la [línea de Desafíos](/wiki/03-Mechanics/Quests.md#where-it-counts), además, un miembro debe estar a menos de **8.000 unidades** de los restos para contar, y cada miembro que tenga una misión con un objeto de misión tira por su cuenta y ve su propio objeto: nadie puede compartir uno.
 
 ## Canales de chat {#chat-channels}
 

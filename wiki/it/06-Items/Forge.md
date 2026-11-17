@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -30,6 +30,7 @@ Scegli un oggetto e il pannello mostra il suo grado, il grado che raggiungerebbe
 - **La tua competenza Commerce** riduce i crediti e il Thulium di un passo, e i crediti di un’unione, fino al 15% al livello 100 ([Competenze del pilota](/wiki/03-Mechanics/Pilot-Skills.md)). La tabella mostra il prezzo al primo livello e il pannello quello che paghi; i materiali non cambiano.
 - **Ogni bonus che l’oggetto ha** viene generato di nuovo nell’intervallo del nuovo grado e mantiene il valore migliore. Il risultato è mostrato sopra il pannello; l’oggetto resta selezionato, quindi il suo passo successivo è già sullo schermo.
 - Un salto di grado è istantaneo.
+- **Gli slot sono sotto il passo.** Sali di grado e [Slot](#sockets) sono una sola vista, **Potenzia**, con Sali di grado per primo: lo slot che un passo risveglia è nell’elenco subito sotto il pulsante, con il suo pulsante Sintonizza, quindi non cambi vista per usarlo.
 - **Un Tinkerer’s Badge** (un [oggetto speciale](/wiki/06-Items/Special-Items.md#tinkerers-badge)) fa salire un pezzo di un grado senza crediti, senza Thulium e senza materiali, già da Standard. È un passo che non costa nulla: risveglia uno slot e ritira i bonus che il pezzo ha, come un passo a pagamento.
 
 ### Dark Matter Plate {#dark-matter-plates}
@@ -74,7 +75,7 @@ I cristalli seguono i gradi: Daraxium è blu come Risvegliato, Nyxite giallo com
 
 ## Slot {#sockets}
 
-La vista **Slot** della Forgia è dove un bonus entra in un oggetto. Scegli un pezzo e la vista elenca i suoi slot, la sua integrità e gli shard che hai. Uno slot è **bloccato** finché un salto di grado non lo risveglia (la sua riga dice a quale grado e con il passo di quale cristallo), **vuoto** una volta sveglio e **sintonizzato** quando porta un bonus. Il pannello Sali di grado li conta: *Slot svegli 1 → 2 su 4*.
+Il blocco **Slot** della vista **Potenzia** della Forgia, sotto Sali di grado, è dove un bonus entra in un oggetto. Scegli un pezzo e il blocco elenca i suoi slot, la sua integrità e gli shard che hai. Uno slot è **bloccato** finché un salto di grado non lo risveglia (la sua riga dice a quale grado e con il passo di quale cristallo), **vuoto** una volta sveglio e **sintonizzato** quando porta un bonus. Il blocco Sali di grado li conta: *Slot svegli 1 → 2 su 4*.
 
 - **Sintonizza** uno slot vuoto con **Echo Shard**: 10 per il primo slot di un pezzo, poi 20, 40 e 80, quindi il prezzo sale a ogni slot sintonizzato (il prezzo attenuato di ogni slot vuoto successivo dice quanto costerà). Gli shard vengono spesi quando premi Sintonizza, e la Forgia ti presenta allora un’**offerta**: due delle statistiche ancora libere, estratte a caso, ciascuna con il bonus che darebbe. **Scegli** una: ottieni ciò che l’offerta mostrava. Se resta libera una sola statistica, le due righe sono due estrazioni di quella statistica e possono risultare uguali.
 - Si può aggiungere un **Heartshard** a una sintonizzazione o a una ridisposizione: attiva prima *Usa un Heartshard nella prossima sintonizzazione o ridisposizione*, e l’offerta elenca invece ogni statistica libera del pezzo, ciascuna generata nella metà alta del suo intervallo, così la statistica la scegli tu.
@@ -95,13 +96,13 @@ Sintonizzare tutti e quattro gli slot di un pezzo costa 150 Echo Shard (10 + 20 
 | Porta solo: Gamma Foundry | 18 | 27 |
 | Porta solo: Delta Siege | 29 | 44 |
 | Porta solo: Omega Vault | 34 | 54 |
-| Dungeon del clan: livello 1 | 3 | 5 |
-| Dungeon del clan: livello 2 | 2 | 6 |
-| Dungeon del clan: livello 3 | 2 | 7 |
+| Dungeon del clan: livello 1 | 12 | 5 |
+| Dungeon del clan: livello 2 | 8 | 6 |
+| Dungeon del clan: livello 3 | 8 | 7 |
 
 - Le **porte solo** pagano i loro shard a ogni completamento, i **dungeon del clan** a ogni completamento pagato di un livello.
 - Gli **Heartshard** arrivano con il primo completamento di ogni porta e di ogni livello di dungeon in una stagione (1) e con il 5% di probabilità di 1 in più a ogni completamento. Li lasciano cadere anche gli NPC rari: il 10% Davidski, il 5% Dormant Force e Tesseract. La pagina [Risorse](/wiki/06-Items/Resources.md#heartshard) ha il resto.
-- Gli **alieni** lasciano cadere solo Echo Shard, e pochi: dallo 0,4% per uccisione di un Seeker al 20% di un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- Gli **alieni** lasciano cadere solo Echo Shard, e pochi: dallo 0,8% per uccisione di un Seeker al 40% di un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Unione {#merge}
 
@@ -113,7 +114,7 @@ Due copie dello stesso oggetto (due Light Shield Core, due Quantum Laser II) div
 - **Un’unione costa crediti in base al grado che produce**: 5.000 per Risvegliato, 25.000 per Risonante, 100.000 per Radioso, 250.000 per Ascendente. Nessun materiale. La tua competenza Commerce riduce i crediti come quelli di un passo.
 - Un’unione che non cambierebbe nulla (il risultato non è migliore della base) viene rifiutata. Una migliore integrità da sola non conta: un’unione non è una riparazione.
 - **Integrità.** L’integrità del risultato è la media di quella dei due pezzi (arrotondata per difetto) meno 6, mai sotto 0, e il suo numero di ridisposizioni è il maggiore dei due: due pezzi integri si uniscono in un pezzo a 94. Il risultato mantiene l’ordine delle fratture della base: viene colpita per prima la stessa statistica. Vedi [Integrità e fratture](#integrity-and-fractures).
-- Dopo un’unione il risultato resta selezionato e lo slot del donatore è vuoto: inserisci il donatore successivo oppure torna a Sali di grado.
+- Dopo un’unione il risultato resta selezionato e lo slot del donatore è vuoto: inserisci il donatore successivo oppure torna a Potenzia.
 - **Il contrassegno**: il pezzo unito è **vendibile** (puoi venderlo all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items)) solo se lo erano sia la base sia il donatore. L’anteprima lo dice.
 
 Un’unione non moltiplica un oggetto. Il suo uso è scegliere: uno Shield Core Risonante con le statistiche che vuoi, o un grado spostato sull’oggetto della tua nave senza toglierlo.
@@ -150,4 +151,4 @@ Le ricette, i loro costi e i numeri dietro la regola sono nella [panoramica degl
 
 ## Vecchi server {#old-servers}
 
-Un server di gioco non ancora aggiornato alla Forgia mostra “La Forgia non è ancora su questo server” al posto della scheda; la Creazione funziona come prima. Un client di gioco precedente alla Forgia mostra la vecchia scheda Fusione su un server aggiornato e riceve l’invito ad aggiornarsi. Un server precedente a 0.5.7 non ha la vista Slot, e un gioco precedente a 0.5.7 può ancora aprire la Forgia e leggerla, ma un server aggiornato rifiuta ogni modifica che chiede (una salita di grado, un’unione, una sintonizzazione, una ridisposizione, una riparazione, un Tinkerer's Badge) con “Aggiorna il gioco per usare questa funzione.”
+Un server di gioco non ancora aggiornato alla Forgia mostra “La Forgia non è ancora su questo server” al posto della scheda; la Creazione funziona come prima. Un client di gioco precedente alla Forgia mostra la vecchia scheda Fusione su un server aggiornato e riceve l’invito ad aggiornarsi. Un server precedente a 0.5.7 non ha il blocco Slot, e un gioco precedente a 0.5.7 può ancora aprire la Forgia e leggerla, ma un server aggiornato rifiuta ogni modifica che chiede (una salita di grado, un’unione, una sintonizzazione, una ridisposizione, una riparazione, un Tinkerer's Badge) con “Aggiorna il gioco per usare questa funzione.”

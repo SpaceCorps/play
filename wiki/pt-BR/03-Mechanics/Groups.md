@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -32,10 +32,10 @@ Depois que você aceita, a **janela do grupo** se abre (a tecla **B** ou o botã
 Quando um membro destrói um alienígena (ou é pago por ele pela [reivindicação](/wiki/03-Mechanics/Combat.md) dele), as recompensas (créditos, Thulium, experiência e honra) são divididas entre os membros que estiverem:
 
 - no **mesmo mapa** (no mesmo mundo),
-- **vivos** e a até **4.000 unidades** dos destroços, e
+- **vivos** e a até **8.000 unidades** dos destroços, e
 - **atirando**: eles dispararam um laser ou um foguete em qualquer coisa nos últimos 15 segundos.
 
-Cada um recebe uma parte proporcional ao seu **nível**, seja qual for a corporação (os créditos e a honra são de cada piloto; nenhuma corporação fica com nada): um piloto de nível 15 com um colega de nível 5 fica com 75% e o colega com 25%. Todo crédito é distribuído: o piloto que fez o abate recebe o que sobra depois que as partes são arredondadas para baixo. A recompensa inteira é calculada com os bônus do autor do abate: valem os boosters dele, o multiplicador do mundo dele e o Premium dele, e os de um colega não valem. Sozinho, ou sem mais ninguém ao alcance, um abate paga o que sempre pagou. Um piloto parado perto da luta, sem atirar, não recebe parte.
+Cada um recebe uma parte proporcional ao seu **nível**, seja qual for a corporação (os créditos e a honra são de cada piloto; nenhuma corporação fica com nada): um piloto de nível 15 com um colega de nível 5 fica com 75% e o colega com 25%. Todo crédito é distribuído: o piloto que fez o abate recebe o que sobra depois que as partes são arredondadas para baixo. A recompensa inteira é calculada com os bônus do autor do abate: valem os boosters dele e o multiplicador do mundo dele, e os de um colega não valem. Sozinho, ou sem mais ninguém ao alcance, um abate paga o que sempre pagou. Um piloto parado perto da luta, sem atirar, não recebe parte.
 
 O aviso do abate informa isso: a linha **RECOMPENSAS** do próprio autor do abate mostra a parte dele, seguida de “Recompensas divididas com 2 colegas de grupo: sua parte é 40%.”, e um colega que recebe uma parte lê “*Alienígena* foi abatido por *piloto*; a parte do seu grupo garante o pagamento a você.” com os valores. Os avisos aparecem no Registro do jogo.
 
@@ -43,7 +43,7 @@ O que fica só com o autor do abate: a **caixa de carga** (saque e recursos; a e
 
 ## Dividindo missões {#sharing-missions}
 
-Um abate também conta para as **missões de abate** de todos os outros membros que estão no mesmo mapa e **dispararam um laser ou um foguete em qualquer coisa nos últimos 15 segundos**, onde quer que estejam nele, como se eles mesmos tivessem destruído o alienígena. As regras da própria missão continuam valendo: o alienígena precisa ser do tipo da missão e o setor, o que a missão cita. Um colega que não atirou, ou que está em outro mapa, não recebe a contagem. As missões mantêm as regras da corporação de cada um: uma missão que pede um abate no “setor 4 de outra corporação” conta para o membro para quem esse setor é de outra corporação. Quando o abate de um colega conta para uma das suas missões, um aviso informa qual. Na [linha de Desafios](/wiki/03-Mechanics/Quests.md#where-it-counts), um membro também precisa estar a até **4.000 unidades** dos destroços para contar, e cada membro que tem uma missão com um item de missão faz o seu próprio sorteio e vê o seu próprio item: ninguém pode compartilhar um.
+Um abate também conta para as **missões de abate** de todos os outros membros que estão no mesmo mapa e **dispararam um laser ou um foguete em qualquer coisa nos últimos 15 segundos**, onde quer que estejam nele, como se eles mesmos tivessem destruído o alienígena. As regras da própria missão continuam valendo: o alienígena precisa ser do tipo da missão e o setor, o que a missão cita. Um colega que não atirou, ou que está em outro mapa, não recebe a contagem. As missões mantêm as regras da corporação de cada um: uma missão que pede um abate no “setor 4 de outra corporação” conta para o membro para quem esse setor é de outra corporação. Quando o abate de um colega conta para uma das suas missões, um aviso informa qual. Na [linha de Desafios](/wiki/03-Mechanics/Quests.md#where-it-counts), um membro também precisa estar a até **8.000 unidades** dos destroços para contar, e cada membro que tem uma missão com um item de missão faz o seu próprio sorteio e vê o seu próprio item: ninguém pode compartilhar um.
 
 ## Canais de chat {#chat-channels}
 

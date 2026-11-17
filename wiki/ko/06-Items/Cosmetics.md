@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: 코스메틱 -->
 # 코스메틱 {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 외형; 스킨; 도색; 옷장; 배기; 오라 -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; 외형; 스킨; 도색; 옷장; 배기; 오라 -->
 
 **외형**은 함선이 입고 있는 것입니다. 네 부분이 있습니다. **스킨**(선체의 도색), **오라**(함선 둘레의 부드러운 빛과 빛의 고리), **배기**(엔진 뒤로 이어지는 궤적의 색과 모양), 그리고 드론의 **도색**입니다. 외형은 보여 주기용일 뿐입니다. 피해도, 선체도, 속도도 더하지 않고, 슬롯을 차지하지 않으며, 탄이 맞히는 것에는 아무것도 바꾸지 않습니다.
 
@@ -22,24 +22,25 @@
 
 ## 스킨 {#skins}
 
-스킨은 함선 자체의 선체로 만든 도색 구성입니다. 패널 선, 번호, 줄무늬는 그대로 남고 색만 바뀝니다. **함선 모델** 하나를 위한 것으로, 그 모델의 내 함선 전부와 거기서 만든 모든 [디자인](/wiki/03-Mechanics/Ship-Designs.md)이 같은 스킨을 입으며, 개조해도 외형은 유지됩니다. Protos에는 아직 스킨이 없고, Kitefin, Ostirion, Nomad에는 컬렉션이 하나 있으며, 어셈블리에서 제작하는 네 함선에는 열 가지가 모두 있습니다.
+스킨은 함선 자체의 선체로 만든 도색 구성입니다. 패널 선, 번호, 줄무늬는 그대로 남고 색만 바뀝니다. **함선 모델** 하나를 위한 것으로, 그 모델의 내 함선 전부와 거기서 만든 모든 [디자인](/wiki/03-Mechanics/Ship-Designs.md)이 같은 스킨을 입으며, 개조해도 외형은 유지됩니다. Protos에는 아직 스킨이 없고, Kitefin, Ostirion, Nomad에는 컬렉션이 하나 있으며, 어셈블리에서 제작하는 네 함선과 Miyuki에는 열한 가지가 모두 있습니다. Miyuki의 스킨은 다섯 단계 모두에서 착용됩니다.
 
 스킨은 함선이 아니라 **계정**에 속하며 [초기화](/wiki/03-Mechanics/Wipe-Timeline.md) 후에도 남습니다. 내 함선들은 입고 있던 것을 그대로 입고 있습니다.
 
-[크로마 기록보관소](/wiki/06-Items/Containers.md#chroma-archive)는 Bloody R.E.D를 제외한 모든 컬렉션을 줄 수 있으며, 한 번에 스킨 하나를 줍니다. 컬렉션 보상은 그 컬렉션의 스킨 하나를, 함선 모델 하나용으로 줍니다. 컬렉션에 활성 함선용 스킨이 있고 아직 없다면 그 스킨, 아니면 보유한 다른 함선용 스킨, 그것도 아니면 컬렉션에서 아직 없는 첫 번째 스킨입니다. 그러니 스킨을 받고 싶은 함선을 탄 채로 기록보관소를 여세요. 모든 스킨을 보유할 때까지 그 컬렉션은 다시 나올 수 있습니다. 0.5.7 이전에 통째로 받은 컬렉션은 모든 스킨이 그대로 남습니다.
+[크로마 기록보관소](/wiki/06-Items/Containers.md#chroma-archive)는 Bloody R.E.D와 LOU를 제외한 모든 컬렉션을 줄 수 있으며, 한 번에 스킨 하나를 줍니다. 컬렉션 보상은 그 컬렉션의 스킨 하나를, 함선 모델 하나용으로 줍니다. 컬렉션에 활성 함선용 스킨이 있고 아직 없다면 그 스킨, 아니면 보유한 다른 함선용 스킨, 그것도 아니면 컬렉션에서 아직 없는 첫 번째 스킨입니다. 그러니 스킨을 받고 싶은 함선을 탄 채로 기록보관소를 여세요. 모든 스킨을 보유할 때까지 그 컬렉션은 다시 나올 수 있습니다. 0.5.7 이전에 통째로 받은 컬렉션은 모든 스킨이 그대로 남습니다.
 
 | 컬렉션 | 함선 | 희귀도 | 모습 |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | 희귀 | 주황색 부품이 있는 눈처럼 하얀 선체 |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | 고급 | 선체 전체가 소속 기업의 색: Mars는 빨강, Terra는 초록, Galactic은 보라. 기업을 바꾸면 따라 바뀝니다 |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | 신화 | 검정과 핏빛 빨강, 선체 중앙의 어두운 배지에 클랜 로고 |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | 영웅 | 새해 전야와 새해: 밤빛 남색 선체에 은색과 샴페인색 트림, 샴페인 잔 |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | 영웅 | 지구의 날: 바다 파랑에 초록 대지와 작은 지구본 |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | 영웅 | 세계 여성의 날: 레몬 노랑에 보라색 트림과 꽃 |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | 영웅 | 세계 평화의 날: 하늘색에 올리브색 트림과 하얀 평화 기호 |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | 희귀 | 춘분·하지·추분·동지: 어두운 청록 선체에 황금빛 태양 |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | 영웅 | 세계 보건의 날과 세계 정신 건강의 날: 초록빛 도는 검은 선체에 네온 초록 심박 |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | 영웅 | 핼러윈: 숯빛에 주황색, 별이 있는 달 |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | 희귀 | 주황색 부품이 있는 눈처럼 하얀 선체 |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | 고급 | 선체 전체가 소속 기업의 색: Mars는 빨강, Terra는 초록, Galactic은 보라. 기업을 바꾸면 따라 바뀝니다 |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | 신화 | 검정과 핏빛 빨강, 선체 중앙의 어두운 배지에 클랜 로고 |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | 신화 | 클랜 LOU의 스킨으로, 게임 운영진이 클랜원에게 줍니다. Bloody R.E.D처럼 검은색에 짙은 보라색 부품이 있고 로고는 없습니다 |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 새해 전야와 새해: 밤빛 남색 선체에 은색과 샴페인색 트림, 샴페인 잔 |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 지구의 날: 바다 파랑에 초록 대지와 작은 지구본 |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 세계 여성의 날: 레몬 노랑에 보라색 트림과 꽃 |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 세계 평화의 날: 하늘색에 올리브색 트림과 하얀 평화 기호 |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | 희귀 | 춘분·하지·추분·동지: 어두운 청록 선체에 황금빛 태양 |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 세계 보건의 날과 세계 정신 건강의 날: 초록빛 도는 검은 선체에 네온 초록 심박 |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | 영웅 | 핼러윈: 숯빛에 주황색, 별이 있는 달 |
 
 ## 드론 도색 {#drone-liveries}
 

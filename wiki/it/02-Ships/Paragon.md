@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ La Paragon è un pesante incrociatore da combattimento progettato con un equilib
 
 | Design | Cosa cambia |
 | :--- | :--- |
-| **Paragon THUNDER** | -25% scafo base, +40 velocità base, +1 slot laser |
-| **Paragon BUCKY** | +25% scafo base, -20 velocità base, -1 slot laser, +10% assorbimento dello scudo, +20% dimensione del modello |
+| **Paragon THUNDER** | +40 velocità base, +1 slot laser |
+| **Paragon BUCKY** | +25% scafo base, -20 velocità base, +10% assorbimento dello scudo, +20% dimensione del modello |
 | **Paragon LICH** | +1% rigenerazione dello scudo al secondo |
 
 <!-- research-ship:begin -->

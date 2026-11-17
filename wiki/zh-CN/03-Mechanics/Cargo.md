@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: 货箱 -->
 # 货箱 {#cargo-boxes}
 
@@ -53,4 +53,4 @@
 ## 增益 {#boosters}
 
 - **Loot Luck Booster**（以及永久幸运加成，还有已对接 [P.E.T.](/wiki/03-Mechanics/Pets.md) 的幸运）会在击杀者完成击杀时，提高每一项战利品的掉落几率。你的[直觉](/wiki/03-Mechanics/Pilot-Skills.md#the-stats)专长也会提高这个几率，与加速器叠加。
-- **Resource Magnet Booster** 会让你拾取的每个货箱中的资源增加 **25%**，无论是亲手拾取还是由 Retriever 拾取，也无论击杀者是谁。Dark Matter 是例外：Magnet 不会给它增加任何东西。只有你自己的 Antimatter 技能能增加 Dark Matter（100 级时最多 +25%）；没有它，五枚 N.I.K.E. 就是十个 Dark Matter。
+- **Resource Magnet Booster** 会让你拾取的每个货箱中的资源增加 **25%**，无论是亲手拾取还是由 Retriever 拾取，也无论击杀者是谁。Dark Matter 是例外：Magnet 不会给它增加任何东西。只有你自己的 Antimatter 技能能增加 Dark Matter（100 级时最多 +100%）；没有它，五枚 N.I.K.E. 就是十个 Dark Matter。

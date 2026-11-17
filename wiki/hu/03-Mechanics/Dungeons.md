@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Kazamaták -->
 # Kazamaták {#dungeons}
 
@@ -195,7 +195,7 @@ Sorban az egyes fajták. A hajótest és a pajzs a szokásos érték szorozva az
 
 ## A Hadúr {#the-warlord}
 
-A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fizeti ki a teljesítést. Saját megsemmisítésért nem fizet, ahogy a többi idegen igen. Hatalmasra nőtt Crystalys. A hajótestét és a pajzsát a csoport mérete növeli: minél több pilóta lép be, annál szívósabb, arányosan. Soha nem hagyja el a termét, akár zárva van az ajtó, akár nyitva: a terem falai között marad, és nem üldöz a folyosókon. Egy kívül álló pilóta legfeljebb a terem széléig csalhatja ki, és nyitott ajtón át így is lő mindenre, amit a lézere elér. A képességeit egyenként használja, véletlen sorrendben, mindegyiket a saját újratöltési idejével.
+A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fizeti ki a teljesítést. Saját megsemmisítésért nem fizet, ahogy a többi idegen igen. Hatalmasra nőtt Crystalys. A hajótestét és a pajzsát a csoport mérete növeli: minél több pilóta lép be, annál szívósabb, arányosan. Soha nem hagyja el a termét, akár zárva van az ajtó, akár nyitva: a terem falai között marad, és nem üldöz a folyosókon. Egy kívül álló pilóta legfeljebb a terem széléig csalhatja ki, és nyitott ajtón át így is lő mindenre, amit a lézere elér. A képességeit egyenként használja, véletlen sorrendben, mindegyiket a saját újratöltési idejével. A 2. fokozattól a lézere egyszerre két pilótára lő: a két legközelebbi, akit lát, egyenként egy teljes sorozatot kap.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ A Hadúr a labirintus túlsó végén lévő teremben vár, és az ő bukása fi
 | :--- | ---: | ---: | ---: |
 | Hajótest | 10 000 000 | 15 000 000 | 25 000 000 |
 | Pajzs | 8 000 000 | 12 000 000 | 20 000 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 12 500–15 000 | 15 000–17 500 | 20 000–25 000 |
+| Lézersebzés (másodpercenként egy sorozat) | 12 500–15 000 | 2 pilóta mindegyikére 15 000–17 500 | 2 pilóta mindegyikére 20 000–25 000 |
 | Sebesség | 120 | 120 | 120 |
 | Lézer hatótávja | 1 100 | 1 100 | 1 100 |
 
@@ -237,9 +237,10 @@ A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem m
 - Az **Életszívó aura piros gyűrűje** megsebez minden pilótát a belsejében, és a sebzéssel gyógyítja a Hadúrt. A Pajzselnyelésnek is van piros gyűrűje: kiszívja a benne lévő pilóták pajzsát, és a Hadúrét tölti. Mindkét esetben hagyd el a gyűrűt, vagy állj egy fal mögé.
 - A **Meteorzápor borostyán gyűrűi** megmutatják, hol csapódnak be a meteorok egy pillanattal később. Mozogj folyamatosan, és hagyd el a gyűrűt, mielőtt becsapódik.
 - A **Fókusz a legkeresettebbre** megjelöli azt a pilótát, aki a legtöbb sebzést okozta a Hadúrnak, egy arany zárójellel a hajóján, és a Hadúr minden másodpercben egy extra lövést ad le rá, amíg tart. A célzása nem változik: tovább lő a legközelebbi pilótára, akit lát, így az a megjelölt pilóta, aki egyben a legközelebbi is, mindkettőt megkapja. Az extra lövéshez szabad rálátás és a Hadúr lézerének hatótávolsága kell, így egy fal vagy némi távolság megmenti. Nem indul el, amíg senki nem okozott sebzést.
-- A **Rakétazápor** önirányító rakétákat küld véletlen pilótákra, de csak olyan pilótákra, akiket a Hadúr lát, és az útba eső fal megállít egy rakétát. Egy gyűrű mutatja, melyik pilótát követi egy rakéta. Egy EMP Charge vagy az álca lerázza őket.
+- A **Rakétazápor** minden pilótára, akit a Hadúr lát, önirányító rakétát küld, és amíg tart, néhány másodpercenként újabb kört indít. Az útba eső fal megállít egy rakétát. Egy gyűrű mutatja, melyik pilótát követi egy rakéta. Egy EMP Charge vagy az álca lerázza őket.
 - A **Rajtámogatás** az, amikor a Hadúr hívja a Goombahjait. Amíg élnek, nem sebezhető, és nem lő, és más képességet sem használ. Pusztítsd el mindet: a szalag számolja, hány maradt. Ha eltelik egy perc, a Hadúr újra sebezhető, és a megmaradt Goombahok maradnak és tovább harcolnak. Nem számítanak a főnökterem megnyitásához, és semmit nem fizetnek.
 - A **Káoszzóna** egy lila gyűrű a földön, a Hadúr körül, és amíg tart, mindenhová megy, ahová a Hadúr. A gyűrűben senki nem támadhat, sem lézerrel, sem rakétával, a javítás, az álca és a repülés viszont működik, és a Hadúr és az idegenei úgy lőnek, mint mindig. A gyűrű egy pillanattal a hatása előtt megjelenik: lépj ki belőle, és maradj kint, mert követi a Hadúrt. A gyűrűn kívüli pilóta tovább lőhet, ameddig a fegyverei elérnek.
+- A **Fantomlándzsa** egy másodpercre eltünteti a Hadúrt. A Hadúr a termének egy másik pontján tér vissza, két illúzióval együtt. Amíg egy illúzió él, a legközelebbi pilótára lő, akit lát, a Hadúr sorozatának felével, és másodpercenként gyógyítja a Hadúr hajótestét és pajzsát (a számok a képességek táblázatában vannak). Az illúzióknak saját hajótestük van: semmisítsd meg őket, hogy a gyógyítás megszűnjön. Nem fizetnek semmit, és a Hadúrral együtt tűnnek el, amikor az elesik. A Hadúr elpusztítható, amíg ők élnek.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ A Klánkazamata ablak számolja, hány ilyet kell még megsemmisíteni a terem m
 | Képesség | Felfutás | Tartam | Töltődés | A gyűrű sugara (egység) | A Hadúr legfeljebb ennyit nyer vissza |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Életszívó aura** | 2 mp | 15 mp | 2 perc | 900 | Hajótest és pajzs: 8% |
-| **Meteorzápor** | 1,5 mp | 3 sorozat, köztük 4 mp | 2 perc | 420 | – |
+| **Meteorzápor** | 1,5 mp | 3 sorozat, köztük 4 mp | 2 perc | 546 | – |
 | **Fókusz a legkeresettebbre** | 1 mp | 20 mp | 2 perc | – | – |
 | **Rakétazápor** | 1,5 mp | 45 mp | 2 perc | – | – |
 | **Pajzselnyelés** | 2 mp | 15 mp | 2 perc | 900 | Pajzs: 6% |
 | **Rajtámogatás** | 2 mp | Legfeljebb 1 perc | 3 perc | – | – |
 | **Káoszzóna** | 2 mp | 15 mp | 2 perc | 900 | – |
+| **Fantomlándzsa** | 1,5 mp | 1 mp | 2 perc | – | – |
 
 | Képesség | 1. fokozat | 2. fokozat | 3. fokozat |
 | :--- | :--- | :--- | :--- |
 | **Életszívó aura** | 8 000 másodpercenként | 10 000 másodpercenként | 12 000 másodpercenként |
-| **Meteorzápor** | 6 meteor sorozatonként, egyenként 40 000 | 8 meteor sorozatonként, egyenként 50 000 | 10 meteor sorozatonként, egyenként 60 000 |
+| **Meteorzápor** | 6 meteor sorozatonként, egyenként 80 000 | 8 meteor sorozatonként, egyenként 100 000 | 10 meteor sorozatonként, egyenként 120 000 |
 | **Fókusz a legkeresettebbre** | 18 750–22 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 22 500–26 250 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy | 30 000–37 500 extra lövésenként a legtöbb sebzést okozó pilótára, 1 mp időközönként egy |
-| **Rakétazápor** | 26 000 rakétánként, 15 mp időközönként egy | 32 500 rakétánként, 15 mp időközönként egy | 39 000 rakétánként, 15 mp időközönként egy |
+| **Rakétazápor** | 50 000–75 000 rakétánként minden pilótára, 15 mp időközönként egy | 62 500–93 750 rakétánként minden pilótára, 15 mp időközönként egy | 75 000–112 500 rakétánként minden pilótára, 15 mp időközönként egy |
 | **Pajzselnyelés** | 10 000 pajzs másodpercenként | 12 500 pajzs másodpercenként | 15 000 pajzs másodpercenként |
 | **Rajtámogatás** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Káoszzóna** | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak | A gyűrűben lévő pilóták nem támadhatnak |
+| **Fantomlándzsa** | 2 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 2 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak | 2 illúzió, egyenként 500 000 hajótesttel; mindegyik a Hadúr sorozatának 50%-át lövi, és amíg él, másodpercenként 50 000 hajótestet és 50 000 pajzsot gyógyít a Hadúrnak |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Az **Orvium Reinforced Plates**, valamint a Kovácsműhely **Echo Shard** és **
 
 | Fokozat | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
-| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
-| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+| **1. fokozat** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **2. fokozat** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **3. fokozat** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards**: 1 az évad során az egyes szintek első fizetett teljesítésekor, és 5% eséllyel még egy minden fizetett teljesítéskor.
 
@@ -379,8 +382,8 @@ Amit egy pilóta egy nap alatt kaphat, és a korlátok által megengedett legjob
 
 | Fizetség pilótánként | Becsület | Tapasztalat | Kredit | Thulium | x4 lőszer | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-ranglistapont |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
-| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
+| Egy nap, minden fokozat egyszer | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| A legjobb hét: 7 × 3. fokozat és 3 × 2. fokozat | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 Egy kifizetett teljesítés tapasztalata és becsülete beleszámít a PvE-ranglistapontjaidba: minden 1 000 tapasztalat egy pont, és minden 100 becsület is egy pont.
 
@@ -391,8 +394,8 @@ Egy kifizetett teljesítés tapasztalata és becsülete beleszámít a PvE-rangl
 A kazamata minden idegene fizet, amikor elesik, és zsákmányt hullat, mint a játék idegene, amelyről mintázták: egy Dungeon Goombah mint egy [Goombah](/wiki/04-Aliens/Goombah.md), egy Dungeon Crystalys és a Twinje mint egy [Crystalys](/wiki/04-Aliens/Crystalys.md), egy Dungeon Pirate mint a Pirate Boss ([Pirate-raj](/wiki/05-Swarms/Pirate-Swarm.md)). Amit egy idegen megsemmisítése fizet és hullat, az az eredetié **szorozva a hajótestük és pajzsuk együttes arányával**: az az idegen, amely ugyanolyan szívós, mint az eredetije, annyit fizet, amennyit az eredeti; a kétszer olyan szívós kétszer annyit fizet, és minden tárgyból kétszer annyit hullat, és így tovább. Az idegenek minden fajtájának szakasza [Az idegenek](#the-aliens) alatt megadja az arányt és egy megsemmisítés fizetségét minden fokozatban.
 
 - **Ki kap fizetést.** Azok a pilóták, akik megsebezték az idegent, az okozott sebzésük szerint, ahogy a rajok idegeneinél: az a pilóta vagy csoport, amely csak súrolta, semmit sem kap, a csoport egyként kap fizetést, a csoporton belül pedig a roncs közelében lévő, a közelmúltban lőtt tagok szint szerint osztoznak a kifizetésen. Az a pilóta, aki nem sebezte az idegent, semmit sem kap érte, bármilyen közel repült is, és az az idegen, akit egy pilóta sem sebzett meg, senkinek sem fizet. Csak azok a pilóták tartoznak bele, akiket a fenti szabályok fizetnek: aki kilépett, nem volt bent elég ideje, ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért semmit sem kap, és a többiek kapják az ő részét. A megsemmisítés nem kéri a harcban való részesedést: az idegen megsebzése a részesedés. Ha egy csoport legtöbb sebzést okozó tagja megsemmisült vagy már nincs a térképen, a roncs közelében lévő, a közelmúltban lőtt tagok nélküle osztoznak.
-- **Mit fizet.** Kreditet, Thuliumot, tapasztalatot és becsületet, megsemmisítésenként egyszer. A fizetség az, amit az eredeti Alphában fizet, minden világban: a kazamatának nincs világszorzója. A boostereid, a Premium, a formáció és a klánod bónuszai úgy számítanak, mint bármely megsemmisítésnél, a tapasztalat pedig a [PvE-pontjaidhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) számít, mint a teljesítésé.
-- **A zsákmány.** Az eredeti esélyeivel kisorsolják, majd minden mennyiséget megszoroznak az aránnyal (egy egység töredéke esély még egyre). Ládaként hullik a roncsnál, előbb a legtöbb sebzést okozó pilótának és a klánjának, később a térképen bárkinek, aztán eltűnik. A térkép egyszerre csak bizonyos számú ládát bír el, ezért szedd fel őket menet közben, és ami a térképen marad, amikor a kazamata bezár, azzal együtt elvész. A teljesítés tárgyaival ellentétben ezek egy idegen közönséges zsákmányai: [eladhatod őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), ha a tárgy eladható.
+- **Mit fizet.** Kreditet, Thuliumot, tapasztalatot és becsületet, megsemmisítésenként egyszer. A fizetség az, amit az eredeti Alphában fizet, minden világban: a kazamatának nincs világszorzója. A boostereid, a formáció és a klánod bónuszai úgy számítanak, mint bármely megsemmisítésnél, a tapasztalat pedig a [PvE-pontjaidhoz](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) számít, mint a teljesítésé.
+- **A zsákmány.** Az eredeti esélyeivel kisorsolják, kivéve hogy az Echo Shard esélye kétszeres, majd minden mennyiséget megszoroznak az aránnyal (egy egység töredéke esély még egyre). Ládaként hullik a roncsnál, előbb a legtöbb sebzést okozó pilótának és a klánjának, később a térképen bárkinek, aztán eltűnik. A térkép egyszerre csak bizonyos számú ládát bír el, ezért szedd fel őket menet közben, és ami a térképen marad, amikor a kazamata bezár, azzal együtt elvész. A teljesítés tárgyaival ellentétben ezek egy idegen közönséges zsákmányai: [eladhatod őket az Aukción](/wiki/03-Mechanics/Auction.md#marketable-items), ha a tárgy eladható.
 - **Ami nem fizet.** A Hadúr nem fizet megsemmisítésért, csak a teljesítésért. A Goombahok, amelyeket hív, semmit sem fizetnek, mert a hívás addig újra jön, amíg a harc tart.
 - **Nem a játék megsemmisítése.** A kazamatában elért megsemmisítés nem számít bele a küldetésekbe, az eredményekbe, a megsemmisítés-számlálókba, a wipe-pontokba, egy megsemmisítés PvE-pontjaiba, a drónokba és a P.E.T.-ekbe: egy Dungeon Goombah nem a játék Goombahja.
 - **A korlátok.** A fenti napi és heti korlátok az idegenek fizetségét is ugyanúgy visszatartják, mint a teljesítését: aki ma már kapott fizetést a fokozatért, vagy megkapta a hét összes fizetett teljesítését, az idegenekért sem kap semmit, és egy megsemmisítés összegét a többiek kapják. Az a kazamata, amelyet nem teljesítenek, a megsemmisítéseket azoknak a pilótáknak fizeti, akiket a szabályok fizetnek, a teljesítésért pedig semmit.

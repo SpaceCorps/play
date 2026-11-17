@@ -724,7 +724,7 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 
 **So bekommst du es**
 
-- **Das Schwarze Loch**: Eine [N.I.K.E.](/wiki/06-Items/Rockets.md)-Rakete, die den Ereignishorizont des Schwarzen Lochs in der Mitte von Gefahrensektor 4 überquert, wird verschluckt, und das Loch gibt **1, 2 oder 3** Dark Matter zurück (im Durchschnitt 2), in Kisten zu höchstens 2 am Rand seiner Zone, 3.050 bis 3.950 Einheiten von seinem Zentrum. Die Kisten gehören 60 Sekunden lang dir und deinem Clan und bleiben 240 Sekunden liegen. Eine N.I.K.E., die unterwegs auf ein Schiff trifft, trifft stattdessen dieses und ist verbraucht. Siehe [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) und [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **Das Schwarze Loch**: Eine [N.I.K.E.](/wiki/06-Items/Rockets.md)-Rakete, die den Ereignishorizont des Schwarzen Lochs in der Mitte von Gefahrensektor 4 überquert, wird verschluckt, und das Loch gibt **1, 2 oder 3** Dark Matter zurück (im Durchschnitt 2), in Kisten zu höchstens 1 am Rand seiner Zone, 3.050 bis 3.950 Einheiten von seinem Zentrum. Die Kisten gehören 60 Sekunden lang dir und deinem Clan und bleiben 240 Sekunden liegen. Eine N.I.K.E., die unterwegs auf ein Schiff trifft, trifft stattdessen dieses und ist verbraucht. Siehe [Dark Matter und Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) und [Das Schwarze Loch](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** des Dormant Swamp: ab Saisontag 11 enthalten 5 % ihrer Kisten 1–3. Sie lebt unter den Geschützen des Sumpfs.
 - **Sonst**: nicht im Shop erhältlich.
 
@@ -833,14 +833,15 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 
 | Alien | Sektoren | Beute | Pro Abschuss, im Durchschnitt |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 % für 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 % für 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 % für 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 % für 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 % für 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40 % für 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10 % für 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4 % für 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % für 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % für 1 | 0,01 |
 
 - **Solo-Tore**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 bei jedem Abschluss.
-- **Clan-Dungeons**: 3, 2 und 2 bei einem bezahlten Abschluss von Stufe 1, 2 und 3.
+- **Clan-Dungeons**: 12, 8 und 8 bei einem bezahlten Abschluss von Stufe 1, 2 und 3.
+- **Aliens der Clan-Dungeons**: Die Chancen der Tabelle oben gelten dort 2-fach.
 - **Glück und der Resource Magnet Booster**: Beides erhöht es nicht. Es kann nie in der Auktion eingestellt werden.
 - **Sonst**: nicht im Shop erhältlich.
 
@@ -848,7 +849,7 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 
 - Die Sockel der Schmiede: Das Abstimmen eines leeren Sockels kostet Echo Shards.
 
-**So farmst du es**: Schieß [Crystalys](/wiki/04-Aliens/Crystalys.md) ab (Sektor 4): im Durchschnitt 0,2 pro Abschuss; die nächste Quelle ist der [Seeker](/wiki/04-Aliens/Seeker.md) in Sektor 1, 0 pro Abschuss.
+**So farmst du es**: Schieß [Crystalys](/wiki/04-Aliens/Crystalys.md) ab (Sektor 4): im Durchschnitt 0,4 pro Abschuss; die nächste Quelle ist der [Seeker](/wiki/04-Aliens/Seeker.md) in Sektor 1, 0,01 pro Abschuss.
 
 ### Lattice Shard
 

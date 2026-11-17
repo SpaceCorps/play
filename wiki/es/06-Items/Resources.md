@@ -724,7 +724,7 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 
 **Cómo conseguirlo**
 
-- **El agujero negro**: un cohete [N.I.K.E.](/wiki/06-Items/Rockets.md) que cruza el horizonte de sucesos del agujero negro del centro del sector de peligro 4 es tragado, y el agujero devuelve **1, 2 o 3** de Dark Matter (2 de media) en cajas de 2 como máximo en el borde de su zona, de 3.050 a 3.950 unidades de su centro. Las cajas son tuyas y de tu clan durante 60 segundos y duran 240 segundos. Un N.I.K.E. que se encuentra con una nave en su camino la golpea en su lugar y se consume. Consulta [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) y [El agujero negro](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **El agujero negro**: un cohete [N.I.K.E.](/wiki/06-Items/Rockets.md) que cruza el horizonte de sucesos del agujero negro del centro del sector de peligro 4 es tragado, y el agujero devuelve **1, 2 o 3** de Dark Matter (2 de media) en cajas de 1 como máximo en el borde de su zona, de 3.050 a 3.950 unidades de su centro. Las cajas son tuyas y de tu clan durante 60 segundos y duran 240 segundos. Un N.I.K.E. que se encuentra con una nave en su camino la golpea en su lugar y se consume. Consulta [Dark Matter y Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) y [El agujero negro](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** del Dormant Swamp: desde el día 11 de la temporada, 5 % de sus cajas contienen 1–3. Vive bajo los cañones del pantano.
 - **Por lo demás**: no se vende en la tienda.
 
@@ -833,14 +833,15 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 
 | Alienígena | Sectores | Botín | Por derribo, de media |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 %: 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 %: 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 %: 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 %: 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 %: 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40 %: 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10 %: 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4 %: 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 %: 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 %: 1 | 0,01 |
 
 - **Puertas en solitario**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 cada vez que se completa una.
-- **Mazmorras de clan**: 3, 2 y 2 con una finalización pagada de la etapa 1, 2 y 3.
+- **Mazmorras de clan**: 12, 8 y 8 con una finalización pagada de la etapa 1, 2 y 3.
+- **Alienígenas de las mazmorras de clan**: sus probabilidades son 2 veces las de la tabla de arriba.
 - **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
 - **Por lo demás**: no se vende en la tienda.
 
@@ -848,7 +849,7 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 
 - Las ranuras de la Forja: sintonizar una ranura vacía cuesta Echo Shards.
 
-**Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0,2 por derribo de media; la fuente más cercana es [Seeker](/wiki/04-Aliens/Seeker.md), en sector 1, con 0 por derribo.
+**Cómo farmear**: derriba [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0,4 por derribo de media; la fuente más cercana es [Seeker](/wiki/04-Aliens/Seeker.md), en sector 1, con 0,01 por derribo.
 
 ### Lattice Shard
 

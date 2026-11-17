@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm 是一艘玻璃大炮型战斗舰：基础速度和激光数量（15 个�
 
 | 设计 | 改变了什么 |
 | :--- | :--- |
-| **Storm NOTSUM** | 基础船体 -10%，基础速度 +50，速度 +2%，Blink |
-| **Storm BRATAN** | 基础速度 -50，激光槽位 +2，护盾容量 -25%，护盾穿透 +10%，Heal Pod |
-| **Storm RECON** | 基础船体 -20%，速度 +5%，激光槽位 -1，Chameleon |
+| **Storm NOTSUM** | 基础船体 -10%，基础速度 +50，速度 +2%，全部伤害 +5%，Blink |
+| **Storm BRATAN** | 基础速度 -50，激光槽位 +2，护盾容量 -25%，护盾穿透 +10%，全部伤害 +5%，Heal Pod |
+| **Storm RECON** | 基础船体 -20%，速度 +5%，激光槽位 -1，Chameleon，Target，Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Crystalys는 거대한 전함급 외계 존재입니다. 마주치면 극도로 
 - **Quorvium**: 확률 100% (최소 6, 최대 10)
 - **Power Core**: 확률 50% (최소 1, 최대 1)
 - **Ancient Control Unit**: 확률 20% (최소 1, 최대 1)
-- **Echo Shard**: 확률 20% (최소 1, 최대 1)
+- **Echo Shard**: 확률 40% (최소 1, 최대 1)
 
 ## 배경 설정 {#lore}
 

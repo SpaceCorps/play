@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -30,6 +30,7 @@ Choisissez un objet et le panneau affiche son rang, le rang qu’il atteindrait,
 - **Votre aptitude Commerce** réduit les crédits et le Thulium d’une étape, ainsi que les crédits d’une fusion, jusqu’à 15 % au niveau 100 ([Aptitudes de pilote](/wiki/03-Mechanics/Pilot-Skills.md)). Le tableau montre le prix au premier niveau et le panneau celui que vous payez ; les matériaux ne changent pas.
 - **Chaque bonus de l’objet** est tiré de nouveau dans la plage du nouveau rang et garde la meilleure valeur. Le résultat s’affiche au-dessus du panneau ; l’objet reste sélectionné, son étape suivante est donc déjà à l’écran.
 - Une montée de rang est instantanée.
+- **Les emplacements sont sous l’étape.** Monter de rang et [Emplacements](#sockets) forment une seule vue, **Améliorer**, avec Monter de rang en premier : l’emplacement qu’une étape éveille est dans la liste juste sous le bouton, avec son bouton Accorder, sans changer de vue pour l’utiliser.
 - **Un Tinkerer’s Badge** (un [objet spécial](/wiki/06-Items/Special-Items.md#tinkerers-badge)) fait monter une pièce d’un rang sans crédits, sans Thulium et sans matériaux, dès Standard. C’est une étape qui ne coûte rien : elle éveille un emplacement et relance les bonus de la pièce, comme une étape payée.
 
 ### Plaques de Dark Matter {#dark-matter-plates}
@@ -74,7 +75,7 @@ Les cristaux suivent les rangs : le Daraxium est bleu comme Éveillé, la Nyxit
 
 ## Emplacements {#sockets}
 
-La vue **Emplacements** de la Forge est l’endroit où un bonus entre dans un objet. Choisissez une pièce, et la vue liste ses emplacements, son intégrité et les shards que vous avez. Un emplacement est **verrouillé** tant qu’une montée de rang ne l’a pas éveillé (sa ligne dit à quel rang et avec l’étape de quel cristal), **vide** une fois éveillé et **accordé** quand il porte un bonus. Le panneau Monter de rang les compte : *Emplacements éveillés 1 → 2 sur 4*.
+Le bloc **Emplacements** de la vue **Améliorer** de la Forge, sous Monter de rang, est l’endroit où un bonus entre dans un objet. Choisissez une pièce, et le bloc liste ses emplacements, son intégrité et les shards que vous avez. Un emplacement est **verrouillé** tant qu’une montée de rang ne l’a pas éveillé (sa ligne dit à quel rang et avec l’étape de quel cristal), **vide** une fois éveillé et **accordé** quand il porte un bonus. Le bloc Monter de rang les compte : *Emplacements éveillés 1 → 2 sur 4*.
 
 - **Accordez** un emplacement vide avec des **Echo Shards** : 10 pour le premier emplacement d’une pièce, puis 20, 40 et 80, donc le prix monte à chaque emplacement accordé (le prix grisé de chaque emplacement vide suivant dit ce qu’il coûtera). Les shards sont dépensés quand vous appuyez sur Accorder, et la Forge présente alors une **offre** : deux des stats encore libres, tirées au hasard, chacune avec le bonus qu’elle donnerait. **Choisissez**-en une : vous obtenez ce que l’offre montrait. Quand il ne reste qu’une stat libre, les deux lignes sont des tirages de cette stat, et elles peuvent tomber à l’identique.
 - Un **Heartshard** peut s’ajouter à un accord ou à un réagencement : activez d’abord *Utiliser un Heartshard pour le prochain accord ou réagencement*, et l’offre liste à la place toutes les stats libres de la pièce, chacune tirée dans la moitié haute de sa plage, donc vous choisissez la stat.
@@ -95,13 +96,13 @@ Accorder les quatre emplacements d’une pièce coûte 150 Echo Shards (10 + 20 
 | Porte solo : Gamma Foundry | 18 | 27 |
 | Porte solo : Delta Siege | 29 | 44 |
 | Porte solo : Omega Vault | 34 | 54 |
-| Donjon de clan : étape 1 | 3 | 5 |
-| Donjon de clan : étape 2 | 2 | 6 |
-| Donjon de clan : étape 3 | 2 | 7 |
+| Donjon de clan : étape 1 | 12 | 5 |
+| Donjon de clan : étape 2 | 8 | 6 |
+| Donjon de clan : étape 3 | 8 | 7 |
 
 - Les **portes solo** paient leurs shards à chaque réussite, les **donjons de clan** à chaque réussite payée d’une étape.
 - Les **Heartshards** viennent avec la première réussite de chaque porte et de chaque étape de donjon d’une saison (1) et avec 5 % de chances d’en obtenir 1 de plus à chaque réussite. Les PNJ rares en lâchent aussi : 10 % pour Davidski, 5 % pour Dormant Force et pour Tesseract. La page [Ressources](/wiki/06-Items/Resources.md#heartshard) donne le reste.
-- Les **aliens** ne lâchent que des Echo Shards, et peu : de 0,4 % par élimination pour un Seeker à 20 % pour un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- Les **aliens** ne lâchent que des Echo Shards, et peu : de 0,8 % par élimination pour un Seeker à 40 % pour un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Fusion {#merge}
 
@@ -113,7 +114,7 @@ Deux exemplaires du même objet (deux Light Shield Core, deux Quantum Laser II) 
 - **Une fusion coûte des crédits selon le rang qu’elle produit** : 5 000 pour Éveillé, 25 000 pour Résonant, 100 000 pour Radieux, 250 000 pour Ascendant. Aucun matériau. Votre aptitude Commerce réduit ces crédits comme ceux d’une étape.
 - Une fusion qui ne changerait rien (le résultat n’est pas meilleur que la base) est refusée. Une meilleure intégrité seule ne compte pas : une fusion n’est pas une réparation.
 - **Intégrité.** L’intégrité du résultat est la moyenne de celle des deux pièces (arrondie à l’inférieur) moins 6, jamais en dessous de 0, et son nombre de réagencements est le plus élevé des deux : deux pièces intactes fusionnent en une pièce à 94. Le résultat garde l’ordre des fractures de la base : c’est la même stat qui est touchée en premier. Voir [Intégrité et fractures](#integrity-and-fractures).
-- Après une fusion, le résultat reste sélectionné et l’emplacement du donneur est vide : placez-y le donneur suivant, ou revenez à Monter de rang.
+- Après une fusion, le résultat reste sélectionné et l’emplacement du donneur est vide : placez-y le donneur suivant, ou revenez à Améliorer.
 - **L’étiquette** : la pièce fusionnée n’est **vendable** (vous pouvez la vendre aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items)) que si la base et le donneur l’étaient tous les deux. L’aperçu l’indique.
 
 Une fusion ne multiplie pas un objet. Son intérêt est de choisir : un cœur Résonant avec les stats que vous voulez, ou un rang reporté sur l’objet de votre vaisseau sans l’enlever.
@@ -150,4 +151,4 @@ Les recettes, leurs coûts et les chiffres derrière la règle figurent dans l�
 
 ## Anciens serveurs {#old-servers}
 
-Un serveur de jeu qui n’a pas été mis à jour pour la Forge affiche « La Forge n’est pas encore sur ce serveur » à la place de l’onglet ; la Fabrication fonctionne comme avant. Un client de jeu antérieur à la Forge affiche l’ancien onglet Fusion sur un serveur mis à jour, et il lui est demandé de se mettre à jour. Un serveur antérieur à 0.5.7 n’a pas la vue Emplacements, et un jeu antérieur à 0.5.7 peut encore ouvrir la Forge et la lire, mais un serveur mis à jour refuse chaque changement qu’il demande (une montée de rang, une fusion, un accord, un réagencement, une réparation, un Tinkerer's Badge) avec « Mettez le jeu à jour pour utiliser cette fonction. »
+Un serveur de jeu qui n’a pas été mis à jour pour la Forge affiche « La Forge n’est pas encore sur ce serveur » à la place de l’onglet ; la Fabrication fonctionne comme avant. Un client de jeu antérieur à la Forge affiche l’ancien onglet Fusion sur un serveur mis à jour, et il lui est demandé de se mettre à jour. Un serveur antérieur à 0.5.7 n’a pas le bloc Emplacements, et un jeu antérieur à 0.5.7 peut encore ouvrir la Forge et la lire, mais un serveur mis à jour refuse chaque changement qu’il demande (une montée de rang, une fusion, un accord, un réagencement, une réparation, un Tinkerer's Badge) avec « Mettez le jeu à jour pour utiliser cette fonction. »

@@ -724,7 +724,7 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 
 **Comment l’obtenir**
 
-- **Le trou noir** : une roquette [N.I.K.E.](/wiki/06-Items/Rockets.md) qui franchit l’horizon des événements du trou noir, au centre du Secteur dangereux 4, est engloutie, et le trou rend **1, 2 ou 3** Dark Matter (2 en moyenne) dans des caisses de 2 au plus, au bord de sa zone, entre 3 050 et 3 950 unités de son centre. Les caisses sont à vous et à votre clan pendant 60 secondes et durent 240 secondes. Une N.I.K.E. qui rencontre un vaisseau en chemin le touche à la place et est consumée. Voir [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) et [Le trou noir](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **Le trou noir** : une roquette [N.I.K.E.](/wiki/06-Items/Rockets.md) qui franchit l’horizon des événements du trou noir, au centre du Secteur dangereux 4, est engloutie, et le trou rend **1, 2 ou 3** Dark Matter (2 en moyenne) dans des caisses de 1 au plus, au bord de sa zone, entre 3 050 et 3 950 unités de son centre. Les caisses sont à vous et à votre clan pendant 60 secondes et durent 240 secondes. Une N.I.K.E. qui rencontre un vaisseau en chemin le touche à la place et est consumée. Voir [Dark Matter et Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) et [Le trou noir](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** du Dormant Swamp : dès le jour 11 de la saison, 5 % de ses caisses contiennent 1–3. Elle vit sous les canons du marais.
 - **Sinon** : pas en vente à la boutique.
 
@@ -833,14 +833,15 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 
 | Alien | Secteurs | Butin | Par élimination, en moyenne |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 % pour 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 % pour 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 % pour 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 % pour 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 % pour 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40 % pour 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10 % pour 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4 % pour 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % pour 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % pour 1 | 0,01 |
 
 - **Portes solo** : Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 à chaque réussite.
-- **Donjons de clan** : 3, 2 et 2 pour une réussite payée de l’étape 1, 2 et 3.
+- **Donjons de clan** : 12, 8 et 8 pour une réussite payée de l’étape 1, 2 et 3.
+- **Aliens des donjons de clan** : leurs chances sont multipliées par 2 par rapport au tableau ci-dessus.
 - **Chance et Resource Magnet Booster** : Aucun des deux ne l’augmente. Il ne peut jamais être mis aux Enchères.
 - **Sinon** : pas en vente à la boutique.
 
@@ -848,7 +849,7 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 
 - Les emplacements de la Forge : accorder un emplacement vide coûte des Echo Shards.
 
-**Comment en tirer le plus** : éliminez [Crystalys](/wiki/04-Aliens/Crystalys.md) (secteur 4) : 0,2 par élimination en moyenne ; la source la plus proche est le [Seeker](/wiki/04-Aliens/Seeker.md) (secteur 1), 0 par élimination.
+**Comment en tirer le plus** : éliminez [Crystalys](/wiki/04-Aliens/Crystalys.md) (secteur 4) : 0,4 par élimination en moyenne ; la source la plus proche est le [Seeker](/wiki/04-Aliens/Seeker.md) (secteur 1), 0,01 par élimination.
 
 ### Lattice Shard
 

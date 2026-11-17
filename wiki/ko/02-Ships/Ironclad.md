@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Ironclad는 중장갑 탱커 함선입니다. 모든 함선을 통틀어 가장 
 
 | 디자인 | 바뀌는 점 |
 | :--- | :--- |
-| **Ironclad DUMA** | 기본 선체 +20%, 기본 속도 -20, 레이저 슬롯 -3, 실드 흡수율 +10%, Focus Fire |
+| **Ironclad DUMA** | 기본 선체 +20%, 기본 속도 -20, 레이저 슬롯 -2, 실드 흡수율 +15%, Focus Fire |
 | **Ironclad TITANIC** | 레이저 슬롯 +2, 코어 슬롯 +1, 실드 용량 +20%, 모델 크기 +20%, Blink |
 
 <!-- research-ship:begin -->

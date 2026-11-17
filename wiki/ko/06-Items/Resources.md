@@ -724,7 +724,7 @@
 
 **얻는 방법**
 
-- **블랙홀**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓이 위험 섹터 4 한가운데 있는 블랙홀의 사건의 지평선을 넘으면 삼켜지고, 블랙홀은 영역 가장자리(중심에서 3,050~3,950유닛)의 상자(상자당 최대 2개)에 **1, 2 또는 3**개의 Dark Matter(평균 2개)를 돌려줍니다. 상자는 60초 동안 내 것이자 내 클랜의 것이며, 240초 동안 남아 있습니다. 도중에 함선을 만난 N.I.K.E.는 그 함선을 대신 맞히고 소모됩니다. [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)와 [블랙홀](/wiki/03-Mechanics/Black-Hole.md#dark-matter)을 참고하세요.
+- **블랙홀**: [N.I.K.E.](/wiki/06-Items/Rockets.md) 로켓이 위험 섹터 4 한가운데 있는 블랙홀의 사건의 지평선을 넘으면 삼켜지고, 블랙홀은 영역 가장자리(중심에서 3,050~3,950유닛)의 상자(상자당 최대 1개)에 **1, 2 또는 3**개의 Dark Matter(평균 2개)를 돌려줍니다. 상자는 60초 동안 내 것이자 내 클랜의 것이며, 240초 동안 남아 있습니다. 도중에 함선을 만난 N.I.K.E.는 그 함선을 대신 맞히고 소모됩니다. [Dark Matter와 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)와 [블랙홀](/wiki/03-Mechanics/Black-Hole.md#dark-matter)을 참고하세요.
 - Dormant Swamp의 **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**: 시즌 11일차부터 상자의 5%에 1–3개가 들어 있습니다. 늪의 포대 아래에 있습니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
@@ -833,14 +833,15 @@
 
 | 외계인 | 섹터 | 드롭 | 처치당 평균 |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% 확률로 1개 | 0.2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% 확률로 1개 | 0.05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% 확률로 1개 | 0.02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% 확률로 1개 | 0.01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.4% 확률로 1개 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40% 확률로 1개 | 0.4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10% 확률로 1개 | 0.1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4% 확률로 1개 | 0.04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% 확률로 1개 | 0.02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8% 확률로 1개 | 0.01 |
 
 - **솔로 게이트**: 클리어할 때마다 Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
-- **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 3, 2 및 2.
+- **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 12, 8 및 8.
+- **클랜 던전의 외계인**: 위 표의 확률의 2배로 떨어뜨립니다.
 - **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.
 
@@ -848,7 +849,7 @@
 
 - 대장간의 소켓: 빈 소켓을 조율하려면 Echo Shard가 필요합니다.
 
-**모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.2개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0개.
+**모으는 방법**: [Crystalys](/wiki/04-Aliens/Crystalys.md)(섹터 4) 처치, 처치당 평균 0.4개. 가장 가까운 획득처: 섹터 1의 [Seeker](/wiki/04-Aliens/Seeker.md), 처치당 0.01개.
 
 ### Lattice Shard
 

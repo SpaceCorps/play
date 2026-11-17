@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Le Paragon est un croiseur de combat lourd qui équilibre défense et attaque, a
 
 | Design | Ce qu’il change |
 | :--- | :--- |
-| **Paragon THUNDER** | -25 % de coque de base, +40 de vitesse de base, +1 emplacement laser |
-| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, -1 emplacement laser, +10 % d’absorption du bouclier, +20 % de taille du modèle |
+| **Paragon THUNDER** | +40 de vitesse de base, +1 emplacement laser |
+| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, +10 % d’absorption du bouclier, +20 % de taille du modèle |
 | **Paragon LICH** | +1 % de régénération du bouclier par seconde |
 
 <!-- research-ship:begin -->

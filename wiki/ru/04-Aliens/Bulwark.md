@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Bulwark — тяжелобронированные оборонительные 
 - **Cataclysite**: шанс 100% (мин.: 2, макс.: 2)
 - **Reinforced Hull Plate**: шанс 30% (мин.: 1, макс.: 1)
 - **Nyxite**: шанс 40% (мин.: 1, макс.: 2)
-- **Echo Shard**: шанс 2% (мин.: 1, макс.: 1)
+- **Echo Shard**: шанс 4% (мин.: 1, макс.: 1)
 
 ## История {#lore}
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Cosmétiques -->
 # Cosmétiques {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; apparence; livrée; garde-robe; traînée -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; apparence; livrée; garde-robe; traînée -->
 
 Un **look** est ce que porte votre vaisseau. Il a quatre parties : un **skin** (la peinture de la coque), une **aura** (une lueur douce et un anneau de lumière autour du vaisseau), une **traînée** (la couleur et la forme du sillage derrière ses moteurs) et la **livrée** de vos drones. Un look n’est que pour le coup d’œil : il n’ajoute ni dégâts, ni coque, ni vitesse, ne prend aucun emplacement et ne change rien de ce qu’un tir peut toucher.
 
@@ -22,24 +22,25 @@ Un **look** est ce que porte votre vaisseau. Il a quatre parties : un **skin** 
 
 ## Skins
 
-Un skin est un schéma de peinture fait à partir de la coque même du vaisseau : ses lignes de panneaux, ses numéros et ses bandes restent, seules les couleurs changent. Il est pour un **modèle de vaisseau**, et le même skin est porté par chacun de vos vaisseaux de ce modèle et par chaque [design](/wiki/03-Mechanics/Ship-Designs.md) qui en est issu ; une transformation garde le look. Le Protos n’a pas encore de skin, le Kitefin, l’Ostirion et le Nomad ont une collection, et les quatre vaisseaux que vous fabriquez à l’Assemblage ont les dix.
+Un skin est un schéma de peinture fait à partir de la coque même du vaisseau : ses lignes de panneaux, ses numéros et ses bandes restent, seules les couleurs changent. Il est pour un **modèle de vaisseau**, et le même skin est porté par chacun de vos vaisseaux de ce modèle et par chaque [design](/wiki/03-Mechanics/Ship-Designs.md) qui en est issu ; une transformation garde le look. Le Protos n’a pas encore de skin, le Kitefin, l’Ostirion et le Nomad ont une collection, et les quatre vaisseaux que vous fabriquez à l’Assemblage et le Miyuki ont les onze. Un skin du Miyuki est porté par ses cinq niveaux.
 
 Les skins appartiennent à votre **compte**, pas à un vaisseau, et ils restent à travers la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) ; vos vaisseaux portent ce qu’ils portaient.
 
-L’[Archive chromatique](/wiki/06-Items/Containers.md#chroma-archive) peut donner n’importe quelle collection sauf Bloody R.E.D, un skin à la fois : une collection gagnée donne un skin de celle-ci, pour un modèle de vaisseau. C’est le skin de votre vaisseau actif si la collection en a un pour lui et que vous ne l’avez pas encore ; sinon le skin d’un autre vaisseau que vous possédez ; sinon le premier skin de la collection qui vous manque. Pilotez donc le vaisseau pour lequel vous voulez le skin quand vous ouvrez une Archive. La collection peut sortir de nouveau tant que vous n’avez pas tous ses skins. Une collection reçue entière avant la 0.5.7 reste à vous, avec tous ses skins.
+L’[Archive chromatique](/wiki/06-Items/Containers.md#chroma-archive) peut donner n’importe quelle collection sauf Bloody R.E.D et LOU, un skin à la fois : une collection gagnée donne un skin de celle-ci, pour un modèle de vaisseau. C’est le skin de votre vaisseau actif si la collection en a un pour lui et que vous ne l’avez pas encore ; sinon le skin d’un autre vaisseau que vous possédez ; sinon le premier skin de la collection qui vous manque. Pilotez donc le vaisseau pour lequel vous voulez le skin quand vous ouvrez une Archive. La collection peut sortir de nouveau tant que vous n’avez pas tous ses skins. Une collection reçue entière avant la 0.5.7 reste à vous, avec tous ses skins.
 
 | Collection | Vaisseaux | Rareté | Son aspect |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Rare | Une coque blanc neige avec des parties orange |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Peu commun | Toute la coque dans la couleur de votre corporation : rouge pour Mars, vert pour Terra, violet pour Galactic. Elle vous suit si vous changez de corporation |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mythique | Noir et rouge sang, avec le logo du clan sur un badge sombre au milieu de la coque |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Épique | Nouvel An : une coque bleu nuit avec un liseré argent et champagne et une coupe de champagne |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Épique | Jour de la Terre : bleu océan avec des terres vertes et un petit globe |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Épique | Journée internationale des femmes : jaune citron avec un liseré violet et une fleur |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Épique | Journée internationale de la paix : bleu ciel avec un liseré olive et un symbole de paix blanc |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Rare | Les équinoxes et les solstices : une coque bleu-vert sombre avec un soleil doré |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Épique | Journée mondiale de la santé et de la santé mentale : une coque noir-vert avec un battement de cœur vert néon |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Épique | Halloween : anthracite avec de l’orange, et une lune avec des étoiles |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Rare | Une coque blanc neige avec des parties orange |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Peu commun | Toute la coque dans la couleur de votre corporation : rouge pour Mars, vert pour Terra, violet pour Galactic. Elle vous suit si vous changez de corporation |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythique | Noir et rouge sang, avec le logo du clan sur un badge sombre au milieu de la coque |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythique | Le skin du clan LOU, que l’équipe du jeu donne à ses membres : noir comme Bloody R.E.D, avec des pièces d’un violet profond et sans logo |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Nouvel An : une coque bleu nuit avec un liseré argent et champagne et une coupe de champagne |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Jour de la Terre : bleu océan avec des terres vertes et un petit globe |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Journée internationale des femmes : jaune citron avec un liseré violet et une fleur |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Journée internationale de la paix : bleu ciel avec un liseré olive et un symbole de paix blanc |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Rare | Les équinoxes et les solstices : une coque bleu-vert sombre avec un soleil doré |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Journée mondiale de la santé et de la santé mentale : une coque noir-vert avec un battement de cœur vert néon |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épique | Halloween : anthracite avec de l’orange, et une lune avec des étoiles |
 
 ## Livrées des drones {#drone-liveries}
 

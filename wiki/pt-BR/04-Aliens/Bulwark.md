@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Res
 - **Cataclysite**: 100% de chance (Mín.: 2, Máx.: 2)
 - **Reinforced Hull Plate**: 30% de chance (Mín.: 1, Máx.: 1)
 - **Nyxite**: 40% de chance (Mín.: 1, Máx.: 2)
-- **Echo Shard**: 2% de chance (Mín.: 1, Máx.: 1)
+- **Echo Shard**: 4% de chance (Mín.: 1, Máx.: 1)
 
 ## História {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Paragon 是一艘重型战斗巡洋舰，攻防兼备，适合舰队作战和边
 
 | 设计 | 改变了什么 |
 | :--- | :--- |
-| **Paragon THUNDER** | 基础船体 -25%，基础速度 +40，激光槽位 +1 |
-| **Paragon BUCKY** | 基础船体 +25%，基础速度 -20，激光槽位 -1，护盾吸收率 +10%，模型尺寸 +20% |
+| **Paragon THUNDER** | 基础速度 +40，激光槽位 +1 |
+| **Paragon BUCKY** | 基础船体 +25%，基础速度 -20，护盾吸收率 +10%，模型尺寸 +20% |
 | **Paragon LICH** | 每秒护盾再生 +1% |
 
 <!-- research-ship:begin -->

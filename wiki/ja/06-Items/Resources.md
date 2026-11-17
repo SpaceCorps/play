@@ -724,7 +724,7 @@
 
 **入手方法**
 
-- **ブラックホール**：危険セクター 4 の中心にあるブラックホールの事象の地平線を越えた [N.I.K.E.](/wiki/06-Items/Rockets.md) ロケットは飲み込まれ、ブラックホールは **1, 2 または 3** 個の Dark Matter（平均2個）を返します。コンテナは1つにつき最大2個で、領域の縁の、中心から3,050～3,950ユニットの地点に現れます。コンテナは60秒間はあなたとあなたのクランのもので、240秒間残ります。途中で艦に出会った N.I.K.E. は、その艦に命中し、使い切られます。[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)と[ブラックホール](/wiki/03-Mechanics/Black-Hole.md#dark-matter)を参照してください。
+- **ブラックホール**：危険セクター 4 の中心にあるブラックホールの事象の地平線を越えた [N.I.K.E.](/wiki/06-Items/Rockets.md) ロケットは飲み込まれ、ブラックホールは **1, 2 または 3** 個の Dark Matter（平均2個）を返します。コンテナは1つにつき最大1個で、領域の縁の、中心から3,050～3,950ユニットの地点に現れます。コンテナは60秒間はあなたとあなたのクランのもので、240秒間残ります。途中で艦に出会った N.I.K.E. は、その艦に命中し、使い切られます。[Dark Matter と Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md)と[ブラックホール](/wiki/03-Mechanics/Black-Hole.md#dark-matter)を参照してください。
 - Dormant Swamp の **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**：シーズン11日目から、そのコンテナの5%に1–3個入っています。沼の砲台の下にいます。
 - **それ以外**：ショップでは販売していません。
 
@@ -833,14 +833,15 @@
 
 | エイリアン | セクター | ドロップ | 1体あたりの平均 |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%で1個 | 0.2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5%で1個 | 0.05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2%で1個 | 0.02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1%で1個 | 0.01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.4%で1個 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40%で1個 | 0.4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10%で1個 | 0.1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4%で1個 | 0.04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%で1個 | 0.02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8%で1個 | 0.01 |
 
 - **ソロゲート**：クリアするたびにAlpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34。
-- **クランダンジョン**：ステージ1、2、3を報酬付きでクリアすると3, 2 と 2。
+- **クランダンジョン**：ステージ1、2、3を報酬付きでクリアすると12, 8 と 8。
+- **クランダンジョンのエイリアン**：上の表の確率の2倍でドロップします。
 - **運とResource Magnet Booster**：どちらも増やしません。オークションに出品することはできません。
 - **それ以外**：ショップでは販売していません。
 
@@ -848,7 +849,7 @@
 
 - 鍛冶場のソケット：空のソケットの調律にEcho Shardが必要です。
 
-**集め方**：[Crystalys](/wiki/04-Aliens/Crystalys.md) を倒します（セクター 4）。1体あたり平均0.2個です。最も近い入手元はセクター 1の [Seeker](/wiki/04-Aliens/Seeker.md) で、1体あたり0個です。
+**集め方**：[Crystalys](/wiki/04-Aliens/Crystalys.md) を倒します（セクター 4）。1体あたり平均0.4個です。最も近い入手元はセクター 1の [Seeker](/wiki/04-Aliens/Seeker.md) で、1体あたり0.01個です。
 
 ### Lattice Shard
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Res
 - **Quorvium**: 100% de chance (Mín.: 6, Máx.: 10)
 - **Power Core**: 50% de chance (Mín.: 1, Máx.: 1)
 - **Ancient Control Unit**: 20% de chance (Mín.: 1, Máx.: 1)
-- **Echo Shard**: 20% de chance (Mín.: 1, Máx.: 1)
+- **Echo Shard**: 40% de chance (Mín.: 1, Máx.: 1)
 
 ## História {#lore}
 

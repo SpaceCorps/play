@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Phantasm은 공격적인 유령급 드론입니다. 어그로 반경(700유닛) 
 - **Ship Fragment**: 확률 100% (최소 1, 최대 1)
 - **Daraxium**: 확률 60% (최소 1, 최대 2)
 - **Nyxite**: 확률 60% (최소 1, 최대 2)
-- **Echo Shard**: 확률 1% (최소 1, 최대 1)
+- **Echo Shard**: 확률 2% (최소 1, 최대 1)
 
 ## 배경 설정 {#lore}
 

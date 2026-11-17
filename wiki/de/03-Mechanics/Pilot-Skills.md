@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Pilotenfertigkeiten -->
 # Pilotenfertigkeiten {#pilot-skills}
 
@@ -15,7 +15,7 @@ Ein neuer Pilot ist nicht bei voller Stärke. Auf Level 1 machen ein Laser und e
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Werte**: 20 Werte: 4 Attribute und 16 Fertigkeiten in 5 Gruppen
+- **Werte**: 21 Werte: 4 Attribute und 17 Fertigkeiten in 5 Gruppen
 - **Level**: 1 bis 100. Jeder Pilot beginnt jeden Wert auf Level 1, und es gibt nichts zu verteilen und nichts zurückzusetzen
 - **Kosten eines Levels**: 40 EP von Level 1 auf 2, 875 EP von Level 50 auf 51, 19.157 EP von Level 99 auf 100; 313.258 EP insgesamt
 - **Was ein Level bringt**: Ein Buff wächst geradlinig von seinem Wert auf Level 1 bis zu seinem Wert auf Level 100. Nichts ist gedeckelt
@@ -26,6 +26,7 @@ Ein neuer Pilot ist nicht bei voller Stärke. Auf Level 1 machen ein Laser und e
 - **Frachtraum**: Er zählt die Ressourceneinheiten, die du nach dem Start aufsammelst, bis zu der Größe, die seine Hüllenstufe ihm gibt. Voll ist er ab 90 % davon, und ein voller Frachtraum lässt Masse ×1,5 zahlen. Nichts wird je abgelehnt
 - **Weiche Stundengrenze**: Die meisten Werte zahlen nur bis zu einer Obergrenze pro Stunde volle EP, gezählt in der eigenen Einheit des Werts über die UTC-Uhrzeitstunde. Darüber zahlt ein Ereignis 25 % seiner EP
 - **Training**: Die EP einer Fertigkeit zahlen auch 10 % ihrer selbst an ihr Attribut. Ein Attribut auf Level 100 trainiert seine Fertigkeiten 25 % schneller als auf Level 1
+- **Wipe-Punkte**: Ein Wert zahlt Wipe-Punkte genau einmal, wenn er zum ersten Mal Level 10 / 25 / 50 / 75 / 100 erreicht: 2 / 5 / 10 / 20 / 40, also 77 für einen Wert, der Level 100 erreicht. Löse sie auf der Saison-Seite ein
 
 | Hüllenstufe | Seltenheit des Schiffs | Größe des Frachtraums |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 |  | Chance, dass eine Lasersalve trifft | 80 % | 89 % |
 | **Raketentechnik** (Reflexe) | Raketenschaden | ×1 | ×1,3 |
 |  | Chance, dass eine Rakete ein Blindgänger ist | 10 % | 1 % |
-| **Antimaterie** (Instinkt) | Dark Matter beim Aufsammeln | ×1 | ×1,25 |
+| **Antimaterie** (Instinkt) | Dark Matter beim Aufsammeln | ×1 | ×2 |
 
 ### Kampf {#combat}
 
@@ -78,6 +79,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 | **Taktik** (Reflexe) | Dauer der Fähigkeiten | ×1 | ×1,2 |
 | **Schildabsorption** (Zähigkeit) | Absorption deiner Schilde | +0 Punkte | +5 Punkte |
 | **Heilung** (Masse) | Stärke deiner eigenen Reparaturen und Heilungen | ×1 | ×1,3 |
+| **Tarn-Aufladung** (Reflexe) | Aufladezeit deiner Tarnung | ×1 | ×0,5 |
 
 ### Schiffssteuerung {#ship-control}
 
@@ -113,6 +115,7 @@ Die Tabellen nennen jeden Buff auf Level 1 und auf dem letzten Level; dazwischen
 - **Raketen.** Raketentechnik ändert den Schaden jeder Rakete und die Chance, dass eine ein Blindgänger ist ([Raketentechnik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Treffer einstecken.** Zähigkeit nimmt von jedem Treffer, den du einsteckst, einen Anteil ab, Ausweichen erhöht die Chance, dass ein direkter Treffer nichts bewirkt, und Schildabsorption erhöht den Anteil eines Treffers, den deine Schilde nehmen ([Kampf](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Masse erhöht deine Hülle.
 - **Heilung.** Heilung macht die Heilungen deiner eigenen Ausrüstung stärker: die Reparatur deiner Repair Drone, eine Emergency Repair und den Heal Pod, den du abwirfst ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sie trainiert an der Hülle, die deine Heilungen wiederherstellen; die Heilung eines Schiffs in einer Schutzzone zählt nicht. Die Support Rocket heilt auf jedem Level immer dieselbe feste Menge und zahlt trotzdem EP für Heilung.
+- **Tarnung.** Tarn-Aufladung verkürzt die Wartezeit, nachdem eine Tarnung endet, bei einer Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) und beim Chameleon ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md)). Sie trainiert an den Sekunden, die du getarnt verbringst; in einer Schutzzone oder ohne Befehle von dir zählt keine.
 - **Fähigkeiten.** Reflexe verkürzen die Abklingzeit deiner Fähigkeiten, und Taktik lässt sie länger wirken ([Fähigkeiten](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage verstärkt die Gifte.
 - **Minen.** Sabotage erhöht den Schaden einer Mine, und Treffsicherheit wirft sie schneller und weiter ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Tempo.** Triebwerkstheorie erhöht dein Tempo, zusätzlich zu den Triebwerken und einem Afterburner ([Tempo](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ Die Tabelle nennt, was EP bringt, Wert für Wert. Die EP gelten für jede Einhei
 | **Taktik** (Reflexe) | Je Fähigkeit, die du mit einem Feind in Laserreichweite drückst | 2 | 600 EP pro Stunde |
 | **Schildabsorption** (Zähigkeit) | Je 1 % deiner maximalen Schildpunkte, die Treffer von Feinden aufnehmen | 0,1 | 300 EP pro Stunde |
 | **Heilung** (Masse) | Je 1 % der maximalen Hülle eines Schiffs, die eine Heilung von dir wiederherstellt | 0,1 | 300 EP pro Stunde |
+| **Tarn-Aufladung** (Reflexe) | Je Sekunde, die du getarnt verbringst, mit einem Befehl in den letzten 1 min, außerhalb von Schutzzonen | 0,1 | Keine |
 | **Strahlungstechnik** (Zähigkeit) | Je Sekunde in einem Strahlungsband | 0,2 | Keine |
 |  | Je 1 % deiner maximalen Hülle, den die Strahlung nimmt | 1 |  |
 | **Triebwerkstheorie** (Masse) | Je Sekunde Flug über 80 % der Geschwindigkeit deines Schiffs, doppelt so viel unter einem Afterburner | 0,1 | Keine |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a07a705b04461381 -->
+<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
 <!-- wiki-i18n title: Solo-Tore -->
 # Solo-Tore {#solo-gates}
 
@@ -15,7 +15,7 @@ Ein Solo-Tor ist kein [Clan-Dungeon](/wiki/03-Mechanics/Dungeons.md). Ein Dungeo
 
 - **Tore**: 6: das Chrono-Gate und 5 Solo-Tore, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege und Omega Vault
 - **Scan**: 100 Thulium pro Scan und 1, 5, 10 oder 100 Scans auf einmal
-- **Chance auf ein Teil**: 13 % pro Scan. Das Tor, zu dem das Teil gehört, wird per Zufall gewählt, und jedes Tor bekommt 2,17 % der Scans. Ist das Chrono-Gate komplett, scheidet sein Anteil aus dem Rad aus, und die Solo-Tore behalten je 2,17 %
+- **Chance auf ein Teil**: 13 % pro Scan, in jeder Kategorie, die du scannst. Das Teil gehört zu einem der Tore dieser Kategorie, alle gleich wahrscheinlich: Das Chrono-Gate allein bekommt alles, Alpha Rift, Beta Breach und Gamma Foundry bekommen je 4,33 % und Delta Siege und Omega Vault je 6,5 %. Ist das Chrono-Gate komplett, gibt es in seiner Kategorie nichts mehr zu scannen
 - **Garantie**: Nach 24 Scans in Folge ohne Teil steigt die Chance mit jedem Scan, und nach 47 findet der nächste Scan immer eines. Ein Teil eines beliebigen Tors beginnt die Zählung von vorn
 - **Leben**: 3 pro Versuch; jeder Tod kostet eines
 - **Countdown**: 5 s vor jeder Welle, auch vor der ersten und vor der des Bosses. Eine Welle hat keinen Timer und ein Lauf auch nicht
@@ -28,21 +28,21 @@ Ein Solo-Tor ist kein [Clan-Dungeon](/wiki/03-Mechanics/Dungeons.md). Ein Dungeo
 
 ## Torteile finden {#finding-gate-parts}
 
-Öffne die Seite **Galaxietore** und scanne mit dem Energie-Materialisator. Jeder Scan wird in Thulium bezahlt und findet höchstens ein Teil, und das Teil gehört zu einem der sechs Tore, per Zufall gewählt. Du brauchst eine Anzahl Teile eines Tors, um es zu bauen, und die Teile gehören dir, bis du sie einsetzt. Ein Scan ohne Teil ist nicht verloren: Er zahlt eine Belohnung ([unten](#a-spin-without-a-part)). Jeder Scan wird berechnet, auch bei einem fertigen Chrono-Gate. Ist das Chrono-Gate komplett, findet sein Anteil an den Scans nichts, und die Solo-Tore behalten ihre eigene Chance, ein Teil eines Solo-Tors kostet also mit oder ohne es dasselbe.
+Öffne die Seite **Galaxietore** und scanne mit dem Energie-Materialisator. Jeder Scan wird in Thulium bezahlt und findet höchstens ein Teil. Wähle zuerst eine **Kategorie**: das **Chrono-Gate**, **Alpha–Gamma** (Alpha Rift, Beta Breach und Gamma Foundry) oder **Delta–Omega** (Delta Siege und Omega Vault). Die Chance auf ein Teil ist in jeder Kategorie gleich, und das Teil gehört zu einem der Tore der gewählten Kategorie, alle gleich wahrscheinlich. Du brauchst eine Anzahl Teile eines Tors, um es zu bauen, und die Teile gehören dir, bis du sie einsetzt. Ein Scan ohne Teil ist nicht verloren: Er zahlt eine Belohnung ([unten](#a-spin-without-a-part)). Jeder Scan wird berechnet. Ist das Chrono-Gate komplett, ist sein Eintrag gesperrt, weil es darin nichts mehr zu finden gibt, und die beiden anderen Kategorien behalten ihre Chance, ein Teil eines Solo-Tors kostet also mit oder ohne es dasselbe.
 
-Die Tabelle gibt die Kosten jedes Tors in Teilen und was sie im Schnitt **mit der Garantie** kosten (ein Scan ist eine Lotterie, ein glücklicher Pilot zahlt also weniger und ein unglücklicher mehr, bis zur längsten Reihe von Scans, die die Garantie zulässt).
+Die Tabelle gibt die Kosten jedes Tors in Teilen und was sie im Schnitt **mit der Garantie** kosten, wenn du die Kategorie scannst, in der das Tor liegt (ein Scan ist eine Lotterie, ein glücklicher Pilot zahlt also weniger und ein unglücklicher mehr, bis zur längsten Reihe von Scans, die die Garantie zulässt).
 
 <!-- solo-parts:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Tor | Teile bis zum Abschluss | Chance auf ein Teil pro Scan | Scans im Schnitt | Thulium im Schnitt |
 | :--- | ---: | ---: | ---: | ---: |
-| **Chrono-Gate** | 2 | 2,17 % | 91 | 9.093 |
-| **Alpha Rift** | 11 | 2,17 % | 500 | 50.011 |
-| **Beta Breach** | 26 | 2,17 % | 1.182 | 118.208 |
-| **Gamma Foundry** | 54 | 2,17 % | 2.455 | 245.508 |
-| **Delta Siege** | 87 | 2,17 % | 3.955 | 395.541 |
-| **Omega Vault** | 108 | 2,17 % | 4.910 | 491.017 |
+| **Chrono-Gate** | 13 | 13 % | 99 | 9.851 |
+| **Alpha Rift** | 14 | 4,33 % | 318 | 31.825 |
+| **Beta Breach** | 33 | 4,33 % | 750 | 75.016 |
+| **Gamma Foundry** | 68 | 4,33 % | 1.546 | 154.579 |
+| **Delta Siege** | 96 | 6,5 % | 1.455 | 145.486 |
+| **Omega Vault** | 119 | 6,5 % | 1.803 | 180.343 |
 
 <!-- solo-parts:end -->
 
@@ -87,10 +87,10 @@ Die meisten Scans finden kein Teil. Jeder von ihnen zahlt eine Belohnung, gewäh
 Du **baust** ein Tor auf der Seite Galaxietore und **springst** durch sein Portal hinein. Das Bauen geht von der Station aus, mit angedocktem Schiff, und auch im Flug: Das **Galaxietore-Fenster**, das die Tore-Schaltfläche der Werkzeugleiste öffnet, scannt, baut und wählt das Ziel wie die Seite. Es braucht:
 
 - die Teile des Tors: Sie werden **einmal beim Bauen** genommen, und ein abgelehntes Bauen nimmt nichts;
-- keinen anderen offenen Solo-Lauf: Du hast einen Lauf zugleich, und ein Lauf, den du verlassen hast, wird wieder durch sein Portal betreten oder aufgegeben, bevor du ein anderes Tor baust;
+- das Tor selbst noch nicht gebaut: Du kannst **jedes** Tor zugleich gebaut haben, mit je einem Portal, und du spielst eines nach dem anderen; ein gebautes Tor wird durch sein Portal betreten oder aufgegeben, bevor du es noch einmal baust;
 - den Heimserver (ein Tor wird nur auf dem Heimserver gebaut: Auf einem regionalen Server kehrst du zuerst zur Basis zurück).
 
-Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du. Du siehst nur **dein eigenes** Tor: Die Portale der Tore anderer Piloten im selben Sektor werden dir nicht angezeigt.
+Das gebaute Tor steht in deinem **Heimatsektor** (`M-1`, `T-1` oder `G-1`, je nach deinem Konzern) als ein nach ihm benanntes Portal, und die Seite Galaxietore sagt dir, wo es steht. **Starte, fliege zum Portal und springe** hindurch wie durch jedes Portal. Ein Rift in deiner Welt muss frei sein, wenn du hineingehst: Jede Welt hat eine Anzahl davon, und wenn alle belegt sind, wartest du. Du siehst nur **deine eigenen** Tore: Die Portale der Tore anderer Piloten im selben Sektor werden dir nicht angezeigt. Du kannst **alle fünf Tore gleichzeitig gebaut haben**, jedes mit einem eigenen Portal, und du spielst eines nach dem anderen: **Solange du in einer Arena bist, steht keines deiner Portale**; sie kommen wieder, wenn du draußen bist.
 
 **Auf den regionalen Servern (Singapore, US East).** Ein gebautes Tor wird auch dort gespielt. Das Portal deines Tors steht auf einem regionalen Server wie auf dem Heimserver in deinem Heimatsektor, und du wirst bei der Ankunft darauf hingewiesen. **Springe hindurch, und du gehst in eine Arena dieses Servers**, mit dessen Latenz statt der des Heimservers. Ein regionaler Server hat nur **zwei Arenen pro Welt**, der Heimserver dagegen weit mehr: Sind beide belegt, wartest du, wie du auf dem Heimserver auf einen freien Rift wartest. Der Heimserver bleibt der einzige Ort, der deinen Lauf, deine Teile und deine Auszahlung führt: Die Auszahlung erreicht dein Konto, sobald der Heimserver den Lauf gezählt hat, wenige Sekunden nach seinem Ende, und das **Guthaben in deinem Flugfenster zieht beim Andocken nach**. In deinen nächsten Lauf gehst du erst, wenn der letzte gezählt ist. Einen Lauf, den du in der Arena verlässt, betrittst du wieder durch das Portal; willst du ihn aufgeben, tust du das in der Arena oder an der Station. Ist die Arena eines regionalen Servers ausgeschaltet, bringt dich sein Portal stattdessen zum Heimserver zurück, wo du wie oben in dein Tor startest. Was sonst auf einem Regionalserver funktioniert, steht unter [Server](/wiki/03-Mechanics/Servers.md).
 
@@ -104,7 +104,7 @@ Du landest allein in der Mitte einer leeren Arena. Niemand kann dich darin angre
 4. **Eine optionale Welle** ist eine riesige Welle Seeker, und Delta Siege und Omega Vault haben je eine. Während ihres Countdowns kannst du sie überspringen: Sie gilt dann als erledigt und zahlt **nichts**. Kämpfst du sie, zahlen ihre Abschüsse wie die jeder Welle.
 5. **Die letzte Welle ist der Boss.** Er wechselt die Phase, wenn seine Hülle fällt, und bei jedem Wechsel kann er einen Moment lang nicht verletzt werden. Stirbt der Boss, ist der Lauf abgeschlossen, und der Abschluss wird sofort ausgezahlt.
 
-**Leben.** Ein Tod kostet ein Leben und schickt dich wie jeder andere Tod zu deiner Basis; der Lauf wartet auf dich, ohne dass eine Uhr läuft. Solange der Lauf offen ist und du außerhalb der Arena bist, steht **das Portal deines Tors in deinem Heimatsektor**, und ein Sprung hindurch bringt dich wie **Fortsetzen** mit den Leben, die du noch hast, in der gespeicherten Welle wieder hinein; es verlangt keine neuen Teile. Ist dein letztes Leben weg, endet der Versuch, aber der Lauf bleibt bei der letzten abgeschlossenen Welle offen, und das erneute Hineingehen füllt deine Leben wieder auf. **Verlassen**, ein Abmelden oder ein Weltwechsel hält den Lauf an, ohne ein Leben zu kosten. Ein Neustart des Servers hält deinen Lauf ebenfalls offen. **Aufgeben** gibt den Lauf auf: Seine Teile sind weg, und die Aliens, die du getötet hast, werden so bezahlt, wie sie stehen. **Fortsetzen** geht nur mit einem fliegenden Schiff: Nach einem Tod wartet die Schaltfläche auf dem Ergebnisbildschirm, mit einer Zeile, die sagt warum, bis du wieder respawnt hast. Ein respawntes Schiff kehrt mit begrenzter Hülle zurück; liegt deine Hülle unter der Hälfte, warnt dich der Ergebnisbildschirm, und **Fortsetzen** bringt dich trotzdem so zurück, wie du bist. Die Reparaturschiffe an deiner Basis reparieren dich innerhalb ihrer Aura.
+**Leben.** Ein Tod kostet ein Leben und schickt dich wie jeder andere Tod zu deiner Basis; der Lauf wartet auf dich, ohne dass eine Uhr läuft. Solange der Lauf offen ist und du außerhalb der Arena bist, steht **das Portal jedes Tors, das du gebaut hast, in deinem Heimatsektor**, und ein Sprung durch eines davon bringt dich wie **Fortsetzen** mit den Leben, die du noch hast, in der gespeicherten Welle wieder hinein; es verlangt keine neuen Teile. Ist dein letztes Leben weg, endet der Versuch, aber der Lauf bleibt bei der letzten abgeschlossenen Welle offen, und das erneute Hineingehen füllt deine Leben wieder auf. **Verlassen**, ein Abmelden oder ein Weltwechsel hält den Lauf an, ohne ein Leben zu kosten. Ein Neustart des Servers hält deinen Lauf ebenfalls offen. **Aufgeben** gibt den Lauf auf: Seine Teile sind weg, und die Aliens, die du getötet hast, werden so bezahlt, wie sie stehen. **Fortsetzen** geht nur mit einem fliegenden Schiff: Nach einem Tod wartet die Schaltfläche auf dem Ergebnisbildschirm, mit einer Zeile, die sagt warum, bis du wieder respawnt hast. Ein respawntes Schiff kehrt mit begrenzter Hülle zurück; liegt deine Hülle unter der Hälfte, warnt dich der Ergebnisbildschirm, und **Fortsetzen** bringt dich trotzdem so zurück, wie du bist. Die Reparaturschiffe an deiner Basis reparieren dich innerhalb ihrer Aura.
 
 Jede Welt kämpft dasselbe Tor: Stärke und Auszahlung der Aliens hängen nicht von der Welt ab, in der du fliegst.
 
@@ -174,11 +174,11 @@ Ein Abschluss zahlt seine Tabelle **einmal**, auf einen Schlag, in dem Moment, i
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; Munition: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; Munition: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; Munition: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; Munition: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; Munition: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; Munition: Advanced Plasma ×15.000, Ultra Core ×3.750, Experimental Fusion Core ×15.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; Munition: Advanced Plasma ×37.500, Ultra Core ×15.000, Experimental Fusion Core ×22.500
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; Munition: Advanced Plasma ×22.500, Ultra Core ×45.000, Experimental Fusion Core ×37.500
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; Munition: Advanced Plasma ×30.000, Ultra Core ×67.500, Experimental Fusion Core ×56.250
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; Munition: Advanced Plasma ×37.500, Ultra Core ×75.000, Experimental Fusion Core ×75.000
 - **Heartshards**: 1 beim ersten Abschluss jedes Tors in einer Saison und mit 5 % Wahrscheinlichkeit 1 weitere bei jedem Abschluss.
 
 <!-- solo-pay:end -->

@@ -63,7 +63,7 @@ A link lasts 5 seconds and reaches a ship of your group or company within 1,200 
 
 ## Research
 
-- **Levels.** Miyuki II to V are technologies of their own in the Skylab, each behind the level below: 1 d for II and III, 2 d for IV and V, and 10 Dark Matter each.
+- **Levels.** Miyuki II to V are technologies of their own in the Skylab, each behind the level below: 1 d for II and III, 2 d for IV and V, and 10 Dark Matter each. In the Research view the five levels are drawn one under the other with an arrow from each level to the next: you research II after I, III after II, IV after III and V after IV.
 - **Slots.** The hull plate slots, the laser slots from the sixth and the generator slots from the ninth are technologies of their own in the Skylab, 1 h and 10 Dark Matter each: hull plate slots 1 to 9 in order from the first, laser slots 6 to 9 (each behind its level) and generator slots 9 to 12 (each behind level V). A slot opens on the ship, at whatever level it is, as soon as you have researched it; one you have not is shown locked in the Hangar.
 - **Hull plate slots.** The Miyuki has 5 [hull plate slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) for [Hull Plating](/wiki/06-Items/Hull-Plating.md) at level I and 9 at level V, all locked when you make it. All 9 filled with Hull Plating III add 225,000 hull.
 

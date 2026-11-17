@@ -30,7 +30,7 @@ What each drop is for, and where else to find it: [Resources](/wiki/06-Items/Res
 - **Cataclysite**: 100% chance (Min: 2, Max: 2)
 - **Reinforced Hull Plate**: 30% chance (Min: 1, Max: 1)
 - **Nyxite**: 40% chance (Min: 1, Max: 2)
-- **Echo Shard**: 2% chance (Min: 1, Max: 1)
+- **Echo Shard**: 4% chance (Min: 1, Max: 1)
 
 ## Lore
 

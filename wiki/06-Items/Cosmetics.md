@@ -1,6 +1,6 @@
 # Cosmetics
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins -->
 
 A **look** is what your ship wears. It has four parts: a **skin** (the paint of the hull), an **aura** (a soft glow and a ring of light round the ship), an **exhaust** (the colour and the shape of the trail behind its engines) and the **livery** of your drones. A look is only for show: it adds no damage, no hull and no speed, takes no slot and changes nothing a shot can hit.
 
@@ -20,24 +20,25 @@ A **look** is what your ship wears. It has four parts: a **skin** (the paint of 
 
 ## Skins
 
-A skin is a paint scheme made from the ship's own hull: its panel lines, numbers and stripes stay and only the colours change. It is for one **ship model**, and the same skin is worn by every ship of that model you own and by every [design](/wiki/03-Mechanics/Ship-Designs.md) made from it; a conversion keeps the look. The Protos has no skin yet, the Kitefin, Ostirion and Nomad have one collection, and the four ships you craft in Assembly have all ten.
+A skin is a paint scheme made from the ship's own hull: its panel lines, numbers and stripes stay and only the colours change. It is for one **ship model**, and the same skin is worn by every ship of that model you own and by every [design](/wiki/03-Mechanics/Ship-Designs.md) made from it; a conversion keeps the look. The Protos has no skin yet, the Kitefin, Ostirion and Nomad have one collection, and the four ships you craft in Assembly and the Miyuki have all eleven. One skin of the Miyuki is worn by all five of her levels.
 
 Skins belong to your **account**, not to a ship, and they stay through the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md); your ships wear what they wore.
 
-The [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive) can give every collection except Bloody R.E.D, one skin at a time: a collection prize gives one skin of it, for one ship model. It is the skin for your active ship if the collection has one for it and you do not hold it yet; else the skin for another ship you own; else the first skin of the collection you lack. So fly the ship you want the skin for when you open an Archive. The collection can drop again until you hold all its skins. A collection that came whole before 0.5.7 stays yours, every skin of it.
+The [Chroma Archive](/wiki/06-Items/Containers.md#chroma-archive) can give every collection except Bloody R.E.D and LOU, one skin at a time: a collection prize gives one skin of it, for one ship model. It is the skin for your active ship if the collection has one for it and you do not hold it yet; else the skin for another ship you own; else the first skin of the collection you lack. So fly the ship you want the skin for when you open an Archive. The collection can drop again until you hold all its skins. A collection that came whole before 0.5.7 stays yours, every skin of it.
 
 | Collection | Ships | Rarity | What it looks like |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Rare | A snow-white hull with orange parts |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Uncommon | The whole hull in your company's colour: red for Mars, green for Terra, purple for Galactic. It follows you if you change company |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mythical | Black and blood red, with the clan's logo on a dark badge in the middle of the hull |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Epic | New Year's Eve and Day: a night-navy hull with a silver and champagne trim and a champagne glass |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Epic | Earth Day: ocean blue with green land and a small globe |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Epic | International Women's Day: lemon yellow with a purple trim and a flower |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Epic | International Day of Peace: sky blue with an olive trim and a white peace sign |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Rare | The equinoxes and solstices: a dark teal hull with a golden sun |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Epic | World Health Day and World Mental Health Day: a green-black hull with a neon green heartbeat |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Epic | Halloween: charcoal with orange, and a moon with stars |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Rare | A snow-white hull with orange parts |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Uncommon | The whole hull in your company's colour: red for Mars, green for Terra, purple for Galactic. It follows you if you change company |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythical | Black and blood red, with the clan's logo on a dark badge in the middle of the hull |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythical | The skin of the clan LOU, which the game's team gives to its members: black like Bloody R.E.D, with deep violet parts and no logo |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | New Year's Eve and Day: a night-navy hull with a silver and champagne trim and a champagne glass |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | Earth Day: ocean blue with green land and a small globe |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | International Women's Day: lemon yellow with a purple trim and a flower |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | International Day of Peace: sky blue with an olive trim and a white peace sign |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Rare | The equinoxes and solstices: a dark teal hull with a golden sun |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | World Health Day and World Mental Health Day: a green-black hull with a neon green heartbeat |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epic | Halloween: charcoal with orange, and a moon with stars |
 
 ## Drone liveries
 

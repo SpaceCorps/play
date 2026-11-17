@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Phantasm 是具有攻击性的幽灵级无人机。它们会攻击进入其仇�
 - **Ship Fragment**：100% 几率（最少 1，最多 1）
 - **Daraxium**：60% 几率（最少 1，最多 2）
 - **Nyxite**：60% 几率（最少 1，最多 2）
-- **Echo Shard**：1% 几率（最少 1，最多 1）
+- **Echo Shard**：2% 几率（最少 1，最多 1）
 
 ## 背景故事 {#lore}
 

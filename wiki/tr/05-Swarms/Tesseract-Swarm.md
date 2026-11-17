@@ -84,13 +84,13 @@ Crystalys temel alınarak, gövdesinin %625 kadarıyla yapılmıştır; silahı 
 
 ### Facet
 
-Seeker temel alınarak, gövdesinin %2.500 kadarıyla ve lazer hasarının %309 kadarıyla yapılmıştır; kalkanı, hızı ve menzili kendine özgüdür.
+Seeker temel alınarak, gövdesinin %2.500 kadarıyla ve lazer hasarının %463 kadarıyla yapılmıştır; kalkanı, hızı ve menzili kendine özgüdür.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Gövde | 20.000 | 30.000 | 40.000 |
 | Kalkan | 16.000 | 24.000 | 32.000 |
-| Lazer hasarı (saniyede bir salvo) | 556 | 834 | 1.112 |
+| Lazer hasarı (saniyede bir salvo) | 834 | 1.251 | 1.668 |
 | Hız | 750 | 750 | 750 |
 | Lazer menzili | 600 | 600 | 600 |
 | Aggro yarıçapı | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca | yalnızca saldırıya uğrayınca |

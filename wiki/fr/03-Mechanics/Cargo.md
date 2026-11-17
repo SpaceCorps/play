@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Cargaison -->
 # Caisses de cargaison {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Le butin d’un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n
 ## Boosters
 
 - **Loot Luck Booster** (et le bonus permanent de chance, ainsi que la chance de vos [P.E.T.s](/wiki/03-Mechanics/Pets.md) arrimés) augmentent la probabilité de chaque entrée de butin quand l’auteur de l’élimination la réalise. Votre aptitude [Instinct](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) s’ajoute aussi à cette chance, en plus de celle du booster.
-- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, à la main ou avec un Retriever, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien. Seule votre compétence Antimatter ajoute de la Dark Matter (jusqu’à +25 % au niveau 100) ; sans elle, cinq N.I.K.E. valent dix Dark Matter.
+- **Resource Magnet Booster** ajoute **25 %** aux ressources de chaque caisse que vous récupérez, à la main ou avec un Retriever, quel que soit l’auteur de l’élimination. La Dark Matter fait exception : le Resource Magnet Booster n’y ajoute rien. Seule votre compétence Antimatter ajoute de la Dark Matter (jusqu’à +100 % au niveau 100) ; sans elle, cinq N.I.K.E. valent dix Dark Matter.

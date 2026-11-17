@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -30,6 +30,7 @@ Escolha um item e o painel mostra o grau dele, o grau que ele alcançaria, o que
 - **Sua perícia Commerce** reduz os créditos e o Thulium de uma etapa, e os créditos de uma combinação, em até 15% no nível 100 ([Perícias do piloto](/wiki/03-Mechanics/Pilot-Skills.md)). A tabela mostra o preço no primeiro nível e o painel o que você paga; os materiais não mudam.
 - **Cada bônus que o item tem** é sorteado de novo na faixa do novo grau e fica com o melhor valor. O resultado aparece acima do painel; o item continua selecionado, então a próxima etapa dele já está na tela.
 - Subir de grau é instantâneo.
+- **Os soquetes ficam sob a etapa.** Subir de grau e [Soquetes](#sockets) são uma só visão, **Melhorar**, com Subir de grau primeiro: o soquete que uma etapa desperta está na lista logo abaixo do botão, com o botão Sintonizar, então você não troca de visão para usá-lo.
 - **Um Tinkerer's Badge** (um [item especial](/wiki/06-Items/Special-Items.md#tinkerers-badge)) eleva uma peça em um grau sem créditos, sem Thulium e sem materiais, já a partir de Padrão. É uma etapa que não custa nada: desperta um soquete e sorteia de novo os bônus que a peça tem, como uma etapa paga.
 
 ### Placas de Dark Matter {#dark-matter-plates}
@@ -74,7 +75,7 @@ Os cristais seguem os graus: o Daraxium é azul como o Desperto, a Nyxite é ama
 
 ## Soquetes {#sockets}
 
-A visão **Soquetes** da Forja é onde um bônus entra em um item. Escolha uma peça e a visão lista seus soquetes, sua integridade e os shards que você tem. Um soquete fica **bloqueado** até que uma subida de grau o desperte (a linha dele diz em que grau e com a etapa de qual cristal), **vazio** depois de desperto e **sintonizado** quando leva um bônus. O painel Subir de grau os conta: *Soquetes despertos 1 → 2 de 4*.
+O bloco **Soquetes** da visão **Melhorar** da Forja, sob Subir de grau, é onde um bônus entra em um item. Escolha uma peça e o bloco lista seus soquetes, sua integridade e os shards que você tem. Um soquete fica **bloqueado** até que uma subida de grau o desperte (a linha dele diz em que grau e com a etapa de qual cristal), **vazio** depois de desperto e **sintonizado** quando leva um bônus. O bloco Subir de grau os conta: *Soquetes despertos 1 → 2 de 4*.
 
 - **Sintonize** um soquete vazio com **Echo Shards**: 10 para o primeiro soquete de uma peça, depois 20, 40 e 80, então o preço sobe a cada soquete sintonizado (o preço esmaecido de cada soquete vazio posterior mostra quanto vai custar). Os shards são gastos quando você aperta Sintonizar, e a Forja então apresenta uma **oferta**: dois dos atributos ainda livres, sorteados, cada um com o bônus que daria. **Escolha** um: você recebe o que a oferta mostrava. Quando resta só um atributo livre, as duas linhas são sorteios desse atributo, e podem sair iguais.
 - Dá para juntar um **Heartshard** a uma sintonização ou a uma reorganização: ligue primeiro *Usar um Heartshard na próxima sintonização ou reorganização*, e a oferta lista no lugar todos os atributos livres da peça, cada um sorteado na metade superior de sua faixa, então é você quem escolhe o atributo.
@@ -95,13 +96,13 @@ Sintonizar os quatro soquetes de uma peça custa 150 Echo Shards (10 + 20 + 40 +
 | Portão solo: Gamma Foundry | 18 | 27 |
 | Portão solo: Delta Siege | 29 | 44 |
 | Portão solo: Omega Vault | 34 | 54 |
-| Masmorra do clã: etapa 1 | 3 | 5 |
-| Masmorra do clã: etapa 2 | 2 | 6 |
-| Masmorra do clã: etapa 3 | 2 | 7 |
+| Masmorra do clã: etapa 1 | 12 | 5 |
+| Masmorra do clã: etapa 2 | 8 | 6 |
+| Masmorra do clã: etapa 3 | 8 | 7 |
 
 - Os **portões solo** pagam seus shards a cada conclusão, as **masmorras do clã** a cada conclusão paga de uma etapa.
 - Os **Heartshards** vêm com a primeira conclusão de cada portão e de cada etapa de masmorra na temporada (1) e com 5% de chance de mais 1 a cada conclusão. Os NPCs raros também os soltam: 10% o Davidski, 5% o Dormant Force e o Tesseract. A página [Recursos](/wiki/06-Items/Resources.md#heartshard) tem o resto.
-- Os **alienígenas** soltam apenas Echo Shards, e poucos: de 0,4% por abate num Seeker a 20% num Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- Os **alienígenas** soltam apenas Echo Shards, e poucos: de 0,8% por abate num Seeker a 40% num Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Combinar {#merge}
 
@@ -113,7 +114,7 @@ Duas cópias do mesmo item (dois Light Shield Cores, dois Quantum Laser II) vira
 - **Uma combinação custa créditos conforme o grau que gera**: 5.000 para Desperto, 25.000 para Ressonante, 100.000 para Radiante, 250.000 para Ascendente. Nenhum material. Sua perícia Commerce reduz os créditos como os de uma etapa.
 - Uma combinação que não mudaria nada (o resultado não é melhor que a base) é recusada. Uma integridade melhor sozinha não conta: uma combinação não é um reparo.
 - **Integridade.** A integridade do resultado é a média da integridade das duas peças (arredondada para baixo) menos 6, nunca abaixo de 0, e o número de reorganizações dele é o maior dos dois: duas peças inteiras se combinam numa peça com 94. O resultado mantém a ordem das fraturas da base: o mesmo atributo é atingido primeiro. Veja [Integridade e fraturas](#integrity-and-fractures).
-- Depois de uma combinação, o resultado continua selecionado e o espaço do doador fica vazio: coloque o próximo doador ou volte para Subir de grau.
+- Depois de uma combinação, o resultado continua selecionado e o espaço do doador fica vazio: coloque o próximo doador ou volte para Melhorar.
 - **A etiqueta**: a peça combinada só é **vendável** (pode ser vendida no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items)) se a base e o doador também eram. A pré-visualização avisa.
 
 Uma combinação não multiplica um item. Seu uso é escolher: um núcleo Ressonante com os atributos que você quer, ou um grau movido para o item da sua nave sem tirá-lo.
@@ -150,4 +151,4 @@ As receitas, os custos delas e os números por trás da regra estão na [Visão 
 
 ## Servidores antigos {#old-servers}
 
-Um servidor de jogo que não foi atualizado para a Forja mostra “A Forja ainda não está neste servidor” no lugar da aba; a Criação funciona como antes. Um cliente do jogo anterior à Forja mostra a antiga aba Fusão em um servidor atualizado e recebe o aviso para atualizar. Um servidor anterior à 0.5.7 não tem a visão Soquetes, e um jogo anterior à 0.5.7 ainda pode abrir a Forja e lê-la, mas um servidor atualizado recusa toda mudança que ele pede (uma subida de grau, uma combinação, uma sintonização, uma reorganização, um reparo, um Tinkerer's Badge) com “Atualize o jogo para usar esta função.”
+Um servidor de jogo que não foi atualizado para a Forja mostra “A Forja ainda não está neste servidor” no lugar da aba; a Criação funciona como antes. Um cliente do jogo anterior à Forja mostra a antiga aba Fusão em um servidor atualizado e recebe o aviso para atualizar. Um servidor anterior à 0.5.7 não tem o bloco Soquetes, e um jogo anterior à 0.5.7 ainda pode abrir a Forja e lê-la, mas um servidor atualizado recusa toda mudança que ele pede (uma subida de grau, uma combinação, uma sintonização, uma reorganização, um reparo, um Tinkerer's Badge) com “Atualize o jogo para usar esta função.”

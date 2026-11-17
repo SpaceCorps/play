@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm — истребитель-«стеклянная пушка»: самая
 
 | Вариант | Что меняет |
 | :--- | :--- |
-| **Storm NOTSUM** | -10% к базовому корпусу, +50 к базовой скорости, +2% к скорости, Blink |
-| **Storm BRATAN** | -50 к базовой скорости, +2 слота лазеров, -25% к ёмкости щита, +10% к пробитию щита, Heal Pod |
-| **Storm RECON** | -20% к базовому корпусу, +5% к скорости, -1 слот лазера, Chameleon |
+| **Storm NOTSUM** | -10% к базовому корпусу, +50 к базовой скорости, +2% к скорости, +5% ко всему урону, Blink |
+| **Storm BRATAN** | -50 к базовой скорости, +2 слота лазеров, -25% к ёмкости щита, +10% к пробитию щита, +5% ко всему урону, Heal Pod |
+| **Storm RECON** | -20% к базовому корпусу, +5% к скорости, -1 слот лазера, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

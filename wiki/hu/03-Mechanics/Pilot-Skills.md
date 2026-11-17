@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Pilótakészségek -->
 # Pilótakészségek {#pilot-skills}
 
@@ -15,7 +15,7 @@ Az új pilóta nem teljes erejű. Az 1. szinten a lézer és a rakéta kevesebb 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Értékek**: 20 érték: 4 attribútum és 16 készség 5 csoportban
+- **Értékek**: 21 érték: 4 attribútum és 17 készség 5 csoportban
 - **Szintek**: 1-től 100-ig. Minden pilóta minden értéket az 1. szinten kezd, és nincs mit elkölteni, sem újraosztani
 - **Egy szint ára**: 1. szint → 2. szint: 40 XP; 50. szint → 51. szint: 875 XP; 99. szint → 100. szint: 19 157 XP; összesen 313 258 XP
 - **Mit ad egy szint**: A buff egyenesen nő az 1. szinten felvett értékétől a 100. szinten felvett értékéig. Semmi sem korlátozott
@@ -26,6 +26,7 @@ Az új pilóta nem teljes erejű. Az 1. szinten a lézer és a rakéta kevesebb 
 - **Raktér**: Az indulás után felvett erőforrás-egységeket számolja, a hajótestszintje által adott méretig. Ennek 90%-ától tele van, és teli raktérnél a Tömeg fizetése ×1,5. Soha semmit nem utasít el
 - **Óránkénti puha plafon**: A legtöbb érték csak óránként egy plafonig fizet teljes XP-t, az érték saját egységében számolva az UTC óra szerinti órára. Fölötte egy esemény az XP-jének 25%-át fizeti
 - **Edzés**: Egy készség XP-jének 10%-át a készség az attribútumának is kifizeti. A 100. szintű attribútum 25%-kal gyorsabban edzi a készségeit, mint az 1. szinten
+- **Wipe-pont**: Egy érték egyszer fizet wipe-pontot, amikor először eléri a(z) 10 / 25 / 50 / 75 / 100 szintet: 2 / 5 / 10 / 20 / 40, vagyis 77 egy olyan értékért, amely eléri a(z) 100 szintet. Vedd át a Szezon oldalon
 
 | Hajótestszint | A hajó ritkasága | A raktér mérete |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 |  | Az esély, hogy egy lézersorozat talál | 80% | 89% |
 | **Rakétatechnika** (Reflexek) | Rakétasebzés | ×1 | ×1,3 |
 |  | Az esély, hogy egy rakéta hibás gyújtású | 10% | 1% |
-| **Antianyag** (Ösztön) | Dark Matter a felvételekből | ×1 | ×1,25 |
+| **Antianyag** (Ösztön) | Dark Matter a felvételekből | ×1 | ×2 |
 
 ### Harc {#combat}
 
@@ -78,6 +79,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 | **Taktika** (Reflexek) | A képességek időtartama | ×1 | ×1,2 |
 | **Pajzselnyelés** (Szívósság) | A pajzsaid elnyelése | +0 pont | +5 pont |
 | **Gyógyítás** (Tömeg) | A saját javításaid és gyógyításaid ereje | ×1 | ×1,3 |
+| **Álcázás újratöltése** (Reflexek) | Az álcázás újratöltési ideje | ×1 | ×0,5 |
 
 ### Hajóvezetés {#ship-control}
 
@@ -113,6 +115,7 @@ A táblázatok minden buffot az 1. és az utolsó szinten adnak meg; közöttük
 - **Rakéták.** A Rakétatechnika megváltoztatja minden rakéta sebzését és az esélyt, hogy egy rakéta hibás gyújtású lesz ([Rakétatechnika](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Találatok elviselése.** A Szívósság levesz egy részt minden találatból, amelyet kapsz, a Kitérés növeli az esélyt, hogy egy egyenes találat semmit sem tesz, a Pajzselnyelés pedig növeli a találatnak azt a részét, amelyet a pajzsaid felfognak ([Harc](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Tömeg növeli a hajótestedet.
 - **Gyógyítás.** A Gyógyítás erősebbé teszi a saját felszerelésed gyógyításait: a Repair Drone javítását, egy Emergency Repairt és az általad ledobott Heal Podot ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Azzal a hajótesttel edződik, amit a gyógyításaid helyreállítanak; biztonságos zónában lévő hajó gyógyítása nem számít. A Support Rocket minden szinten ugyanazt a fix mennyiséget gyógyítja, és mégis ad Gyógyítás-XP-t.
+- **Álcázás.** Az Álcázás újratöltése lerövidíti a várakozást, miután egy álcázás véget ért, a Cloaking CPU-nál ([Extrák](/wiki/06-Items/Extras.md#cloaking-cpu)) és a Chameleonnál ([Képességek](/wiki/03-Mechanics/Abilities.md)) is. Az álcázva töltött másodpercekből edződik; biztonságos zónában, illetve parancsok nélkül egy sem számít.
 - **Képességek.** A Reflexek rövidítik a képességeid töltődési idejét, a Taktika pedig tovább tartja őket ([Képességek](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Szabotázs erősíti a mérgeket.
 - **Mine.** A Szabotázs növeli a Mine sebzését, a Lövészet pedig gyorsabban és messzebbre dobja ([Extrák](/wiki/06-Items/Extras.md#mine)).
 - **Sebesség.** A Hajtóműelmélet hozzátesz a sebességedhez, a hajtóművek és az Afterburner mellett ([Sebesség](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ A táblázat felsorolja, mi fizet XP-t, értékenként. Az XP a második oszlopb
 | **Taktika** (Reflexek) | Minden képesség, amelyet lézerhatótávon belüli ellenséggel nyomsz meg | 2 | 600 XP óránként |
 | **Pajzselnyelés** (Szívósság) | A maximális pajzsodból minden 1%, amelyet az ellenséges találatok elvisznek | 0,1 | 300 XP óránként |
 | **Gyógyítás** (Tömeg) | Egy hajó maximális hajótestéből minden 1%, amelyet egy gyógyításod helyreállít | 0,1 | 300 XP óránként |
+| **Álcázás újratöltése** (Reflexek) | Minden álcázva töltött másodperc, ha az utolsó 1 perc alatt adtál parancsot, biztonságos zónán kívül | 0,1 | Nincs |
 | **Sugárzásvédelem** (Szívósság) | Minden másodperc egy sugárzási sávban | 0,2 | Nincs |
 |  | A maximális hajótestedből minden 1%, amelyet a sugárzás elvesz | 1 |  |
 | **Hajtóműelmélet** (Tömeg) | Minden másodperc a hajód sebességének 80%-a fölötti repülésből, Afterburner alatt kétszer annyi | 0,1 | Nincs |

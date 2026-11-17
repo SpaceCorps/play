@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Wipe-tidslinje -->
 # Wipe-tidslinje och säsonger {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ Dina oöppnade containrar, dina [specialföremål](/wiki/06-Items/Special-Items.
 **Chrono-Gate** (kallas också Galaxporten) är en gigantisk säsongsstruktur som fungerar som en bro mellan säsongerna. Att bygga och stabilisera den här porten är avgörande för att låsa upp dina transportprivilegier för överföring. Den är en av de sex portarna på sidan Galaxportar: de andra fem är [soloportarna](/wiki/03-Mechanics/Solo-Gates.md), platser du flyger in i, och deras delar kommer ur samma Energimaterialiserare.
 
 ### Portmontering {#gate-assembly}
-För att stabilisera Chrono-Gate helt måste du samla exakt **2 delar till Chrono-Gate**. På sidan [Soloportar](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) står vad var och en av de sex portarna kräver och vad delarna kostar i genomsnitt.
+För att stabilisera Chrono-Gate helt måste du samla exakt **13 delar till Chrono-Gate**. På sidan [Soloportar](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) står vad var och en av de sex portarna kräver och vad delarna kostar i genomsnitt.
 
 ### Energimaterialiseraren {#the-energy-materializer}
 Du får delar genom att använda gränssnittet Energimaterialiserare, som snurrar lokala energisektorer för att hitta portdelar. Den snurrar bara för **Thulium** (snurr för krediter är stängt):
-* **Thuliumsnurr**: **100 Thulium** per snurr, med **13 % chans** att ge en portdel. Delen tillhör en av de sex portarna, vald på måfå, så det är inte alltid en del till Chrono-Gate.
+* **Thuliumsnurr**: **100 Thulium** per snurr, med **13 % chans** att ge en portdel. Du väljer vilken kategori du snurrar (Chrono-Gate, Alpha–Gamma eller Delta–Omega), och delen tillhör en av dess portar, alla lika sannolika: delar till Chrono-Gate hittas bara i dess egen kategori.
 * **Garantin.** En lång följd av snurr utan del kan inte fortsätta för alltid: efter några tomma snurr stiger chansen, och sedan är en del säker ([detaljer](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Ett snurr utan del** betalar ändå ett pris ([Soloportar](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Snurren fortsätter när Chrono-Gate är klar.** Varje snurr debiteras, och delarna den hittar tillhör då soloportarna. Chansen för en del är en sjättedel lägre, eftersom Chrono-Gates andel av den försvinner.
+* **Snurren fortsätter när Chrono-Gate är klar.** Varje snurr debiteras, och delarna den hittar tillhör då soloportarna: valet Chrono-Gate är låst, och de två andra kategorierna behåller sin chans på 13 %.
 
 *Proffstips: Du kan använda multiplikatorer (1×, 5×, 10×, 100×) för att köra många snurr på en gång och påskynda portbygget.*
 
@@ -248,5 +248,7 @@ Bara nedskjutningar du får betalt för räknas (se [Strid](/wiki/03-Mechanics/C
 **Uppdrag.** Det första uppdraget du slutför ger 5 WP, därefter ger vart 5:e (det 5:e, 10:e, 15:e och så vidare, upp till det 100:e) 5 WP till, 105 WP sammanlagt. Bara nivåuppdragen räknas (88 sammanlagt, inte Station-uppdragen eller Utmaningslinjen, se [Uppdrag](/wiki/03-Mechanics/Quests.md)), och ett omgjort nivåuppdrag som du gör om räknas inte en andra gång. De 88, gjorda en gång, ger 90 WP. Dina uppdrag förblir slutförda genom wipen, så direkt efter den **kan de 90 WP hämtas ut igen**. En [Upprepning](/wiki/03-Mechanics/Quests.md#repeating-missions) av ett nivåuppdrag räknas som en första avklaring, en gång per uppdrag och säsong, upp till det 100:e uppdraget: den som har alla 88 får 12 Upprepningar räknade och vinner 15 WP på dem.
 
 **Dormant Knowledge.** Utöver milstolparna betalar de fem teknikerna Dormant Knowledge i [Forskning](/wiki/03-Mechanics/Research.md#pilot-technologies) 50 WP var, 250 sammanlagt. En nivå betalar när dess forskning är klar, och efter varje wipe **kan en nivå du har forskat fram hämtas ut igen** under WP-källor. En teknik som en administratör ger betalar ingenting.
+
+**Nivåer i pilotfärdigheterna.** En källa till börjar inte om vid wipen: varje färdighet i [Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md) betalar wipepoäng en enda gång, första gången den når vissa nivåer (sidan listar dem). Du hämtar dem på samma ställe som de andra, och de ingår inte i summan nedan.
 
 **Sammanlagt** betalar källorna upp till **1 105 wipepoäng** i en wipe: 750 för nedskjutningarna, 105 för uppdragen och 250 för Dormant Knowledge. Din grad betalar mer vid wipen ([Säsonger och belöningar](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

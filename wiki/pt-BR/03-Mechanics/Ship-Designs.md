@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Designs de naves -->
 # Designs de naves {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; conversão; converter; design de nave -->
 
-Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Nove dos treze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
+Um **design** é uma das quatro naves que você fabrica na Montagem com alguns números mudados de propósito: menos casco por mais velocidade, um slot de laser a menos por escudos mais duros. Nove dos treze designs vêm ainda com uma de sete [habilidades](/wiki/03-Mechanics/Abilities.md#ship-abilities) que a nave comum não tem. A Storm RECON tem, ao lado do seu Chameleon, mais dois botões: Target e Slow. Você pesquisa um design no Skylab e depois converte na Montagem uma nave que possui. **A conversão não pode ser desfeita.**
 
 ## Os treze designs {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 
 | Design | O que muda | Casco | Velocidade base | Slots de laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% de casco base, +40 de velocidade base, +1 slot de laser | 96.000 | 310 | 11 |
-| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, -1 slot de laser, +10% de absorção de escudo, +20% de tamanho do modelo | 160.000 | 250 | 9 |
+| **Paragon THUNDER** | +40 de velocidade base, +1 slot de laser | 128.000 | 310 | 11 |
+| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, +10% de absorção de escudo, +20% de tamanho do modelo | 160.000 | 250 | 10 |
 | **Paragon LICH** | +1% de regeneração de escudo por segundo | 128.000 | 270 | 10 |
-| **Storm NOTSUM** | -10% de casco base, +50 de velocidade base, +2% de velocidade, Blink | 162.000 | 400 | 15 |
-| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -25% de capacidade de escudo, +10% de penetração de escudo, Heal Pod | 180.000 | 300 | 17 |
-| **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon | 144.000 | 350 | 14 |
-| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire | 600.000 | 80 | 5 |
+| **Storm NOTSUM** | -10% de casco base, +50 de velocidade base, +2% de velocidade, +5% de dano total, Blink | 162.000 | 400 | 15 |
+| **Storm BRATAN** | -50 de velocidade base, +2 slots de laser, -25% de capacidade de escudo, +10% de penetração de escudo, +5% de dano total, Heal Pod | 180.000 | 300 | 17 |
+| **Storm RECON** | -20% de casco base, +5% de velocidade, -1 slot de laser, Chameleon, Target, Slow | 144.000 | 350 | 14 |
+| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -2 slots de laser, +15% de absorção de escudo, Focus Fire | 600.000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink | 500.000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 slot de laser, +5% de dano total, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +5% de casco base, +10% de capacidade de escudo, Diminisher | 268.800 | 210 | 13 |
@@ -34,8 +34,8 @@ As três últimas colunas são o que a nave convertida tem: o casco e a velocida
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100.000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Juntas, elas pedem 510 Dark Matter, além dos 979 que todas as outras tecnologia
 ## O que acontece com a sua nave {#what-happens-to-your-ship}
 
 - **É a mesma nave.** A conversão a muda no lugar: o equipamento, as blindagens, os seus drones e a formação que você usa ficam como estão.
-- **Lasers podem perder o slot.** Um design com menos slots de laser (BUCKY, RECON, DUMA, ATARAXIS) devolve ao seu inventário os lasers dos slots que somem, com os amps e os sorteios da Forja. Um slot novo chega vazio.
+- **Lasers podem perder o slot.** Um design com menos slots de laser (RECON, DUMA, ATARAXIS) devolve ao seu inventário os lasers dos slots que somem, com os amps e os sorteios da Forja. Um slot novo chega vazio.
 - **Casco e escudos cheios** ao terminar. Até lá a nave fica bloqueada: não pode ser ativada, equipada nem convertida de novo.
 - **Não há volta.** Para outro design, ou para ter a nave comum de novo, você fabrica a nave outra vez na Montagem. Você possui uma nave de cada tipo, então uma Paragon e um THUNDER podem ser seus ao mesmo tempo, mas dois THUNDER não.
 - **O reset** mantém um design como qualquer outra nave que você tem. Uma conversão ainda em andamento é cancelada e reembolsada, como toda fabricação da sua fila de produção: a nave continua como era.

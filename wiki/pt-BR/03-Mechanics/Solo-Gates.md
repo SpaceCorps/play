@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a07a705b04461381 -->
+<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
 <!-- wiki-i18n title: Portões solo -->
 # Portões solo {#solo-gates}
 
@@ -15,7 +15,7 @@ Um portão solo não é uma [masmorra de clã](/wiki/03-Mechanics/Dungeons.md). 
 
 - **Portões**: 6: o Chrono-Gate e 5 portões solo, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege e Omega Vault
 - **Giro**: 100 Thulium por giro, e 1, 5, 10 ou 100 giros por vez
-- **Chance de uma peça**: 13% por giro. O portão a que a peça pertence é escolhido ao acaso, e cada portão recebe 2,17% dos giros. Quando o Chrono-Gate está completo, a parte dele sai da roda, e os portões solo ficam com 2,17% cada um
+- **Chance de uma peça**: 13% por giro, em qualquer categoria que você gire. A peça pertence a um dos portões dessa categoria, todos igualmente prováveis: o Chrono-Gate sozinho fica com tudo, Alpha Rift, Beta Breach e Gamma Foundry ficam com 4,33% cada um, e Delta Siege e Omega Vault ficam com 6,5% cada um. Quando o Chrono-Gate está completo, não há mais nada a girar na categoria dele
 - **Garantia**: Depois de 24 giros seguidos sem peça, a chance sobe a cada giro, e depois de 47 o giro seguinte sempre encontra uma. Uma peça de qualquer portão reinicia a contagem
 - **Vidas**: 3 por tentativa; cada morte custa uma
 - **Contagem regressiva**: 5 s antes de cada onda, também a primeira e a do chefe. Uma onda não tem cronômetro, nem uma partida
@@ -28,21 +28,21 @@ Um portão solo não é uma [masmorra de clã](/wiki/03-Mechanics/Dungeons.md). 
 
 ## Encontrar peças de portão {#finding-gate-parts}
 
-Abra a página dos **Portões Galácticos** e gire o Materializador de Energia. Cada giro é pago em Thulium e encontra no máximo uma peça, e a peça pertence a um dos seis portões, escolhido ao acaso. Você precisa de um número de peças de um portão para construí-lo, e as peças são suas até você usá-las. Um giro que não encontra peça não se perde: ele paga um prêmio ([abaixo](#a-spin-without-a-part)). Todo giro é cobrado, mesmo com o Chrono-Gate completo. Quando o Chrono-Gate está completo, a parte dele nos giros não encontra nada, e os portões solo mantêm a própria chance, então uma peça de um portão solo custa o mesmo com ou sem ele.
+Abra a página dos **Portões Galácticos** e gire o Materializador de Energia. Cada giro é pago em Thulium e encontra no máximo uma peça. Escolha primeiro uma **categoria**: o **Chrono-Gate**, **Alpha–Gamma** (Alpha Rift, Beta Breach e Gamma Foundry) ou **Delta–Omega** (Delta Siege e Omega Vault). A chance de uma peça é a mesma em toda categoria, e a peça pertence a um dos portões da categoria escolhida, todos igualmente prováveis. Você precisa de um número de peças de um portão para construí-lo, e as peças são suas até você usá-las. Um giro que não encontra peça não se perde: ele paga um prêmio ([abaixo](#a-spin-without-a-part)). Todo giro é cobrado. Quando o Chrono-Gate está completo, a entrada dele fica fechada, porque não há mais nada a encontrar nele, e as outras duas categorias mantêm a própria chance, então uma peça de um portão solo custa o mesmo com ou sem ele.
 
-A tabela dá o custo de cada portão em peças e o que elas custam em média **com a garantia** (um giro é uma loteria, então um piloto sortudo paga menos e um azarado mais, até a mais longa sequência de giros que a garantia permite).
+A tabela dá o custo de cada portão em peças e o que elas custam em média **com a garantia** quando você gira a categoria em que o portão está (um giro é uma loteria, então um piloto sortudo paga menos e um azarado mais, até a mais longa sequência de giros que a garantia permite).
 
 <!-- solo-parts:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Portão | Peças para completá-lo | Chance de uma peça por giro | Giros em média | Thulium em média |
 | :--- | ---: | ---: | ---: | ---: |
-| **Chrono-Gate** | 2 | 2,17% | 91 | 9.093 |
-| **Alpha Rift** | 11 | 2,17% | 500 | 50.011 |
-| **Beta Breach** | 26 | 2,17% | 1.182 | 118.208 |
-| **Gamma Foundry** | 54 | 2,17% | 2.455 | 245.508 |
-| **Delta Siege** | 87 | 2,17% | 3.955 | 395.541 |
-| **Omega Vault** | 108 | 2,17% | 4.910 | 491.017 |
+| **Chrono-Gate** | 13 | 13% | 99 | 9.851 |
+| **Alpha Rift** | 14 | 4,33% | 318 | 31.825 |
+| **Beta Breach** | 33 | 4,33% | 750 | 75.016 |
+| **Gamma Foundry** | 68 | 4,33% | 1.546 | 154.579 |
+| **Delta Siege** | 96 | 6,5% | 1.455 | 145.486 |
+| **Omega Vault** | 119 | 6,5% | 1.803 | 180.343 |
 
 <!-- solo-parts:end -->
 
@@ -87,10 +87,10 @@ A maioria dos giros não encontra peça. Cada um deles paga um prêmio, escolhid
 Você **constrói** um portão na página dos Portões Galácticos e **salta** para dentro pelo portal dele. Construir é feito pela estação, com a nave atracada, e também em voo: a **janela dos Portões Galácticos**, que o botão dos portões da barra de ferramentas abre, gira, constrói e escolhe o destino como a página. É preciso:
 
 - as peças do portão: elas são tiradas **uma só vez, quando você o constrói**, e uma construção recusada não tira nada;
-- nenhuma outra partida solo aberta: você tem uma partida por vez, e uma partida que você deixou é retomada pelo portal dela ou abandonada antes de você construir outro portão;
+- o portão ainda não construído: você pode ter **todos** os portões construídos ao mesmo tempo, com um portal para cada um, e joga um de cada vez; um portão já construído é retomado pelo portal dele ou abandonado antes de você construí-lo de novo;
 - o servidor principal (um portão só é construído no servidor principal: em um servidor regional você volta primeiro à base).
 
-O portão construído fica no seu **setor-base** (`M-1`, `T-1` ou `G-1`, conforme a sua corporação) como um portal com o nome dele, e a página dos Portões Galácticos diz onde ele está. **Decole, voe até o portal e salte** por ele como por qualquer portal. É preciso haver uma fenda livre no seu mundo quando você entrar: cada mundo tem um número delas, e quando todas estão ocupadas você espera. Você vê apenas o **seu próprio** portão: os portais dos portões de outros pilotos no mesmo setor não são mostrados a você.
+O portão construído fica no seu **setor-base** (`M-1`, `T-1` ou `G-1`, conforme a sua corporação) como um portal com o nome dele, e a página dos Portões Galácticos diz onde ele está. **Decole, voe até o portal e salte** por ele como por qualquer portal. É preciso haver uma fenda livre no seu mundo quando você entrar: cada mundo tem um número delas, e quando todas estão ocupadas você espera. Você vê apenas os **seus próprios** portões: os portais dos portões de outros pilotos no mesmo setor não são mostrados a você. Você pode ter **os cinco portões construídos ao mesmo tempo**, cada um com o seu portal, e joga um de cada vez: **enquanto você está em uma arena, não há nenhum dos seus portais**, e eles voltam quando você sai.
 
 **Nos servidores regionais (Singapore, US East).** Um portão construído também é jogado ali. O portal dele fica no seu setor-base em um servidor regional como no servidor principal, e você é avisado quando chega. **Salte por ele e você entra em uma arena daquele servidor**, com a latência dele em vez da do servidor principal. Um servidor regional tem só **duas arenas em cada mundo**, contra muito mais no servidor principal: quando as duas estão ocupadas, você espera, como espera uma fenda livre no servidor principal. O servidor principal continua sendo o único lugar que guarda a sua partida, as suas peças e o seu pagamento: o pagamento chega à sua carteira quando o servidor principal contou a partida, poucos segundos depois do fim, e a **carteira da sua janela de voo se atualiza quando você atraca**. Você só entra na partida seguinte depois que a última foi contada. Uma partida que você deixa na arena é retomada pelo portal; para desistir dela, você o faz na arena ou na estação. Se a arena de um servidor regional estiver desativada, o portal dele leva você de volta ao servidor principal, onde você decola para o seu portão como descrito acima. O que mais funciona em um servidor regional está em [Servidores](/wiki/03-Mechanics/Servers.md).
 
@@ -104,7 +104,7 @@ Você pousa sozinho no meio de uma arena vazia. Ninguém pode atacar você nela,
 4. **Uma onda opcional** é uma onda enorme de Seekers, e o Delta Siege e o Omega Vault têm uma cada. Durante a contagem regressiva dela você pode pulá-la: ela passa a contar como feita, e **não paga nada**. Se você a combater, as baixas dela pagam como as de qualquer onda.
 5. **A última onda é o chefe.** Ele muda de fase conforme o casco cai, e não pode ser ferido por um instante a cada mudança. Quando o chefe morre, a partida está vencida, e a vitória é paga na hora.
 
-**Vidas.** Uma morte custa uma vida e manda você para a sua base como qualquer outra morte; a partida espera por você, sem relógio correndo. Enquanto a partida está aberta e você está fora da arena, **o portal do seu portão fica no seu setor-base**, e um salto por ele leva você de volta à onda salva com as vidas que restam, como **Retomar**; ele não pede peças novas. Quando a sua última vida acaba, a tentativa termina, mas a partida fica aberta na última onda vencida, e entrar de novo devolve as suas vidas. **Sair**, um logoff ou uma troca de mundo pausa a partida sem custar uma vida. Um reinício do servidor também mantém a sua partida aberta. **Abandonar** desiste da partida: as peças dela se perdem, e os alienígenas que você matou são pagos como estão. **Retomar** só funciona a partir de uma nave em voo: depois de uma morte, o botão dele na tela de resultado espera, com uma linha que diz por quê, até você reaparecer. Uma nave que reaparece volta com o casco limitado; por isso, quando o seu casco está abaixo da metade, a tela de resultado avisa, e **Retomar** ainda assim leva você de volta do jeito que está. As naves de reparo da sua base reparam você dentro da aura delas.
+**Vidas.** Uma morte custa uma vida e manda você para a sua base como qualquer outra morte; a partida espera por você, sem relógio correndo. Enquanto a partida está aberta e você está fora da arena, **o portal de cada portão que você construiu fica no seu setor-base**, e um salto por um deles leva você de volta à onda salva com as vidas que restam, como **Retomar**; ele não pede peças novas. Quando a sua última vida acaba, a tentativa termina, mas a partida fica aberta na última onda vencida, e entrar de novo devolve as suas vidas. **Sair**, um logoff ou uma troca de mundo pausa a partida sem custar uma vida. Um reinício do servidor também mantém a sua partida aberta. **Abandonar** desiste da partida: as peças dela se perdem, e os alienígenas que você matou são pagos como estão. **Retomar** só funciona a partir de uma nave em voo: depois de uma morte, o botão dele na tela de resultado espera, com uma linha que diz por quê, até você reaparecer. Uma nave que reaparece volta com o casco limitado; por isso, quando o seu casco está abaixo da metade, a tela de resultado avisa, e **Retomar** ainda assim leva você de volta do jeito que está. As naves de reparo da sua base reparam você dentro da aura delas.
 
 Todo mundo enfrenta o mesmo portão: a força e o pagamento dos alienígenas não dependem do mundo em que você voa.
 
@@ -174,11 +174,11 @@ Uma vitória paga a sua tabela **uma vez**, de uma só vez, no momento em que o 
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; munição: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; munição: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; munição: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; munição: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; munição: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; munição: Advanced Plasma ×15.000, Ultra Core ×3.750, Experimental Fusion Core ×15.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; munição: Advanced Plasma ×37.500, Ultra Core ×15.000, Experimental Fusion Core ×22.500
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; munição: Advanced Plasma ×22.500, Ultra Core ×45.000, Experimental Fusion Core ×37.500
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; munição: Advanced Plasma ×30.000, Ultra Core ×67.500, Experimental Fusion Core ×56.250
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; munição: Advanced Plasma ×37.500, Ultra Core ×75.000, Experimental Fusion Core ×75.000
 - **Heartshards**: 1 na primeira conclusão de cada portão na temporada, e 5% de chance de 1 a mais a cada conclusão.
 
 <!-- solo-pay:end -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Un collegamento dura 5 secondi e raggiunge una nave del tuo gruppo o della tua c
 
 ## Ricerca {#research}
 
-- **Livelli.** Miyuki II–V sono tecnologie a sé nello Skylab, ciascuna dietro il livello sotto: 1 g per II e III, 2 g per IV e V, e 10 Dark Matter ciascuna.
+- **Livelli.** Miyuki II–V sono tecnologie a sé nello Skylab, ciascuna dietro il livello sotto: 1 g per II e III, 2 g per IV e V, e 10 Dark Matter ciascuna. Nella vista Ricerca i cinque livelli sono disegnati uno sotto l’altro, con una freccia da ogni livello al successivo: ricerchi il II dopo il I, il III dopo il II, il IV dopo il III e il V dopo il IV.
 - **Slot.** Gli slot corazza, gli slot laser dal sesto in poi e gli slot generatore dal nono in poi sono tecnologie a sé nello Skylab, da 1 h e 10 Dark Matter ciascuna: slot corazza da 1 a 9 in ordine a partire dal primo, slot laser da 6 a 9 (ciascuno dietro il suo livello) e slot generatore da 9 a 12 (ciascuno dietro il livello V). Uno slot si apre sulla nave, a qualunque livello sia, appena l’hai ricercato; uno non ancora ricercato appare bloccato nell’Hangar.
 - **Slot corazza.** La Miyuki ha 5 [slot corazza](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) per la [corazza dello scafo](/wiki/06-Items/Hull-Plating.md) al livello I e 9 al livello V, tutti bloccati quando la costruisci. Tutti e 9 riempiti di Hull Plating III aggiungono 225.000 di scafo.
 

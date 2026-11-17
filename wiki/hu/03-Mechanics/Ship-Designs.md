@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Hajódizájnok -->
 # Hajódizájnok {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; dizájn; dizájnok; átalakítás; hajódizájn -->
 
-A **dizájn** egy a négy hajó közül, amelyet a Gyártásban készítesz, néhány szándékosan megváltoztatott számmal: kevesebb hajótest több sebességért, eggyel kevesebb lézerfoglalat keményebb pajzsokért. A tizenhárom dizájnból kilenc ráadásul kap egyet a hét [képesség](/wiki/03-Mechanics/Abilities.md#ship-abilities) közül, amely az alaphajónak nincs. A dizájnt a Skylabben kutatod ki, aztán a Gyártásban átalakítod rá egy hajót, amely a tiéd. **Az átalakítás nem vonható vissza.**
+A **dizájn** egy a négy hajó közül, amelyet a Gyártásban készítesz, néhány szándékosan megváltoztatott számmal: kevesebb hajótest több sebességért, eggyel kevesebb lézerfoglalat keményebb pajzsokért. A tizenhárom dizájnból kilenc ráadásul kap egyet a hét [képesség](/wiki/03-Mechanics/Abilities.md#ship-abilities) közül, amely az alaphajónak nincs. A Storm RECON a Chameleon mellett még két gombot kap: a Targetet és a Slow-t. A dizájnt a Skylabben kutatod ki, aztán a Gyártásban átalakítod rá egy hajót, amely a tiéd. **Az átalakítás nem vonható vissza.**
 
 ## A tizenhárom dizájn {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 
 | Dizájn | Mit változtat | Hajótest | Alapsebesség | Lézerfoglalatok |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% alap hajótest, +40 alap sebesség, +1 lézerfoglalat | 96 000 | 310 | 11 |
-| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, -1 lézerfoglalat, +10% pajzselnyelés, +20% modellméret | 160 000 | 250 | 9 |
+| **Paragon THUNDER** | +40 alap sebesség, +1 lézerfoglalat | 128 000 | 310 | 11 |
+| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, +10% pajzselnyelés, +20% modellméret | 160 000 | 250 | 10 |
 | **Paragon LICH** | +1% pajzsregeneráció másodpercenként | 128 000 | 270 | 10 |
-| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink | 162 000 | 400 | 15 |
-| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod | 180 000 | 300 | 17 |
-| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon | 144 000 | 350 | 14 |
-| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire | 600 000 | 80 | 5 |
+| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, +5% teljes sebzés, Blink | 162 000 | 400 | 15 |
+| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, +5% teljes sebzés, Heal Pod | 180 000 | 300 | 17 |
+| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon, Target, Slow | 144 000 | 350 | 14 |
+| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -2 lézerfoglalat, +15% pajzselnyelés, Focus Fire | 600 000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink | 500 000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 lézerfoglalat, +5% teljes sebzés, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5% alap hajótest, +10% pajzskapacitás, Diminisher | 268 800 | 210 | 13 |
@@ -34,8 +34,8 @@ Az utolsó három oszlop az, amije az átalakított hajónak van: a saját hajó
 
 | Dizájn | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100 000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100 000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Együtt 510 Dark Mattert kérnek, az összes többi technológia 979-én felül,
 ## Mi történik a hajóddal {#what-happens-to-your-ship}
 
 - **Ugyanaz a hajó marad.** Az átalakítás helyben változtatja meg: a felszerelése, a páncélzatai, a drónjaid és a viselt formáció úgy maradnak, ahogy vannak.
-- **A lézerek elveszíthetik a foglalatukat.** A kevesebb lézerfoglalatú dizájn (BUCKY, RECON, DUMA, ATARAXIS) a megszűnő foglalatok lézereit az erősítőikkel és a Kovácsműhely-sorsolásaikkal együtt visszaküldi a leltáradba. Az új foglalat üresen érkezik.
+- **A lézerek elveszíthetik a foglalatukat.** A kevesebb lézerfoglalatú dizájn (RECON, DUMA, ATARAXIS) a megszűnő foglalatok lézereit az erősítőikkel és a Kovácsműhely-sorsolásaikkal együtt visszaküldi a leltáradba. Az új foglalat üresen érkezik.
 - **Teli hajótest és teli pajzs**, amikor kész. Addig a hajó zárolva van: nem tehető aktívvá, nem szerelhető fel és nem alakítható át újra.
 - **Nincs visszaút.** Egy másik dizájnért, vagy hogy újra az alaphajód legyen, újra legyártod a hajót a Gyártásban. Fajtánként egy hajót birtokolsz, így egy Paragon és egy THUNDER egyszerre lehet a tiéd, két THUNDER nem.
 - **A wipe** a dizájnt úgy megtartja, mint bármelyik másik hajót, amely a tiéd. A még folyó átalakítást megszakítják és visszatérítik, mint a gyártási sor minden gyártását: a hajó olyan marad, amilyen volt.

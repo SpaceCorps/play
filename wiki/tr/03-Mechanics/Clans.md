@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 01fdc9ec2ce02960 -->
+<!-- wiki-i18n source: 660ffff0490bc971 -->
 <!-- wiki-i18n title: Klanlar -->
 # Klanlar {#clans}
 
@@ -184,6 +184,8 @@ Bir **gönderi**, tüm klan için kısa bir nottur; yetkililerin haberleri için
 
 Üyeler listesinin **Harita** sütunu, klanındaki her pilotun uçtuğu sektörü gösterir (“T-2”); kendi dünyan değilse önünde dünyası yazar (“Beta · T-2”). Liste açıkken her 10 saniyede bir yeniden okunur. Yalnızca **harita** gösterilir, asla koordinat değil, ve hiçbir şey saklanmaz. **İstasyonda olan ya da oturumu kapatmış** bir pilot **Çevrimdışı** görünür; gizlenmiş gemisini bir haritada göremediğin bir pilot da öyle ([Cloaking CPU](/wiki/06-Items/Extras.md#cloaking-cpu)): bir klan gizlenmeyi kaldırmaz.
 
+Yanındaki **Son görülme** sütunu, klanındaki her pilotun kaç gün önce oynadığını söyler: **Bugün**, **1 gün önce**, **12 gün önce**, sunucunun günleriyle (UTC), 14 günden itibaren kehribar, 30 günden itibaren kırmızı. Tam bir gün sayısıdır, asla bir tarih ya da saat değildir; şu an uçan pilot Bugün olarak görünür, sunucunun kaydı olmayan pilot ise tire ile. Yalnızca klanın üyeleri görür ve yalnızca kendi klanları hakkında; bunun için hiçbir şey saklanmaz (sunucu, kullanım istatistikleri ve 30 gündür görülmeyen pilotu listeden çıkaran şirket sıralaması için zaten tuttuğu günleri okur). Bir Lider ya da Kıdemli, klanda kimin hâlâ aktif olduğunu böyle anlar.
+
 Yanındaki **Skylab** sütunu, her pilotun [Skylab’ının](/wiki/03-Mechanics/Skylab.md#clan-skylabs) evren haritasında nerede olduğunu hücre koduyla gösterir: bir şirketin limanında “H3 hücresinde kenetli”, bir seferde “H3 → K7, 3sa 12dk sonra” (en son geçtiği hücre, gittiği yer ve kalan süre), avlanırken “K7 hücresinde konuşlu” ve gövdesi tükenince “H3 hücresinde yok edildi”. Harita sütunuyla birlikte okunur ve henüz evren haritası olmayan bir pilot (15. seviyenin altında bir Çekirdek) tire gösterir. Sütun, klanındaki herhangi bir pilotun evren haritası olunca görünür. Yalnızca kendi klanın görür ve gizlenme bir Skylab’ı saklamaz. Bir yok oluş, ancak pilot Skylab’a yeniden baktığında ya da ona bir emir verdiğinde görünür.
 
 ## Kim çevrimiçi {#who-is-online}
@@ -246,7 +248,7 @@ Kademe; görevlerin kaç uzaylı istediğini, “ağır” adımın hangi uzayl�
 - **Klanın toplamı sayılır.** Operasyonlar sekmesindeki çubuklar tüm klanındır.
 - **Asgari katkın.** Günün ödülünü paylaşmak için **günün işinin %5’ini** yapmalısın, yaklaşık sekiz dakikalık gerçek av. Sekme bunu “Bugünkü katkın: 312 / 469 birim” olarak gösterir. Bir iş birimi bir saniyelik oyundur: bir öldürme, o uzaylıyı bulup yok etmenin süresi kadar, bir uçuş etabı da sürdüğü süre kadar sayılır. Tecrübeli bir klan için bir Seeker yaklaşık 12 birim, bir Phantasm 22, bir Bulwark 123 eder; uçulan 1.000 birim de yaklaşık 5 eder. Asgari katkı, gün ve kademe ne olursa olsun 446 ile 480 birim arasındadır.
 - **En az üç üye** asgari katkısına ulaşmış olmalı ki bir adım bitebilsin. Bir adım doluysa ve ulaşan üye daha azsa **bekler** (“3. adım dolu ama yalnızca 2 üye asgari katkısını yaptı”); üçüncüsü gelene kadar o adımın uzaylısı için yapılan öldürmeler, onları yapan üyelerin işine yine eklenir. Üç pilottan az bir klan bir adımı bitiremez.
-- **Bir öldürmeyi kim alır.** Öldürme için ödeme alan pilot ve son 15 saniyede ateş etmiş, 4.000 birim içindeki grup arkadaşları ([Gruplar](/wiki/03-Mechanics/Groups.md#sharing-kills)). Bir klan, grupta kaç pilotu olursa olsun bir öldürmeyi **bir kez** sayar ve öldürmenin işi aralarında eşit bölüşülür. Bir grupta iki klan varsa ikisi de bir kez sayar.
+- **Bir öldürmeyi kim alır.** Öldürme için ödeme alan pilot ve son 15 saniyede ateş etmiş, 8.000 birim içindeki grup arkadaşları ([Gruplar](/wiki/03-Mechanics/Groups.md#sharing-kills)). Bir klan, grupta kaç pilotu olursa olsun bir öldürmeyi **bir kez** sayar ve öldürmenin işi aralarında eşit bölüşülür. Bir grupta iki klan varsa ikisi de bir kez sayar.
 - **Hangi öldürmeler.** Yalnızca açık adımın uzaylısı: sıradan Seeker, Phantasm, Bulwark veya Goombah. Sürü gemileri, diğer pilotlar ve Warden yardımcıları bu uzaylılar olarak sayılmaz. Bir öldürme yapıldığı dünya için sayılır ve daha güçlü bir dünyada daha çok: **Alpha’da 1, Beta’da 1,5, Gamma’da 2** ([Dünyalar](/wiki/03-Mechanics/Wipe-Timeline.md#worlds-alpha-beta-and-gamma)). Bir patron adımı [sürülerin](/wiki/05-Swarms/Swarms.md) patronlarını sayar; hasarın en az %5’ini vermiş bir pilotu olan her klan için bir.
 - **Uçuş.** Bir devriye adımı, her pilotun güvenli bölgelerin dışında uçtuğu mesafeyi sayar; birlikte uçan beş pilot mesafenin beş katını ekler.
 - **Katılma ve ayrılma.** Ayrılırsan yaptıkların sayılmaya devam eder. Katılan bir pilot o andan itibaren sayılır.

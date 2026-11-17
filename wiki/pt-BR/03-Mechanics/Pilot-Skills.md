@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Perícias do piloto -->
 # Perícias do piloto {#pilot-skills}
 
@@ -15,7 +15,7 @@ Um piloto novo não está com força total. No nível 1, um laser e um foguete c
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estatísticas**: 20 estatísticas: 4 atributos e 16 perícias em 5 grupos
+- **Estatísticas**: 21 estatísticas: 4 atributos e 17 perícias em 5 grupos
 - **Níveis**: De 1 a 100. Todo piloto começa toda estatística no nível 1, e não há nada para gastar nem para refazer
 - **Custo de um nível**: 40 XP do nível 1 ao 2, 875 XP do nível 50 ao 51, 19.157 XP do nível 99 ao 100; 313.258 XP no total
 - **O que um nível dá**: Um bônus cresce em linha reta do valor dele no nível 1 ao valor dele no nível 100. Nada tem limite
@@ -26,6 +26,7 @@ Um piloto novo não está com força total. No nível 1, um laser e um foguete c
 - **Porão**: Conta as unidades de recursos que você coleta depois de decolar, até o tamanho que o seu nível de casco lhe dá. Está cheio a partir de 90% disso, e um porão cheio faz a Massa pagar ×1,5. Nada é recusado
 - **Limite suave por hora**: A maioria das estatísticas paga o XP completo só até um limite por hora, contado na unidade própria da estatística ao longo da hora do relógio UTC. Acima dele, um evento paga 25% do XP dele
 - **Treino**: O XP de uma perícia também paga 10% de si ao atributo dela. Um atributo no nível 100 treina as perícias dele 25% mais rápido que no nível 1
+- **Pontos de reset**: Uma estatística paga pontos de reset uma única vez, na primeira vez que alcança o nível 10 / 25 / 50 / 75 / 100: 2 / 5 / 10 / 20 / 40, ou seja, 77 por uma estatística que chega ao nível 100. Resgate-os na página Temporada
 
 | Nível de casco | Raridade da nave | Tamanho do porão |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 |  | Chance de uma rajada de laser acertar | 80% | 89% |
 | **Tecnologia de foguetes** (Reflexos) | Dano do foguete | ×1 | ×1,3 |
 |  | Chance de um foguete falhar ao acender | 10% | 1% |
-| **Antimatéria** (Instinto) | Dark Matter das coletas | ×1 | ×1,25 |
+| **Antimatéria** (Instinto) | Dark Matter das coletas | ×1 | ×2 |
 
 ### Combate {#combat}
 
@@ -78,6 +79,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 | **Tática** (Reflexos) | Duração das habilidades | ×1 | ×1,2 |
 | **Absorção de escudo** (Tenacidade) | Absorção dos seus escudos | +0 pontos | +5 pontos |
 | **Cura** (Massa) | Força dos seus reparos e curas | ×1 | ×1,3 |
+| **Recarga de camuflagem** (Reflexos) | Tempo de recarga da camuflagem | ×1 | ×0,5 |
 
 ### Controle da nave {#ship-control}
 
@@ -113,6 +115,7 @@ As tabelas dão cada bônus no nível 1 e no último nível; entre os dois, o b�
 - **Foguetes.** A Tecnologia de foguetes muda o dano de cada foguete e a chance de um falhar ao acender ([Tecnologia de foguetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Levar golpes.** A Tenacidade tira uma parte de cada golpe que você leva, a Evasão aumenta a chance de um acerto direto não fazer nada e a Absorção de escudo aumenta a parte de um acerto que os seus escudos recebem ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). A Massa aumenta o seu casco.
 - **Cura.** A Cura fortalece as curas do seu próprio equipamento: o reparo do seu Repair Drone, um Emergency Repair e o Heal Pod que você solta ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ela treina com o casco que as suas curas restauram; curar uma nave dentro de uma zona segura não conta. O Support Rocket sempre cura a mesma quantidade fixa, em qualquer nível, e ainda assim paga XP de Cura.
+- **Camuflagem.** Recarga de camuflagem encurta a espera depois que uma camuflagem termina, tanto para uma Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) quanto para o Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Treina com os segundos que você passa camuflado; nenhum conta dentro de uma zona segura ou enquanto você não der ordens.
 - **Habilidades.** Os Reflexos encurtam o tempo de recarga das suas habilidades e a Tática as faz durar mais ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). A Sabotagem fortalece os venenos.
 - **Mines.** A Sabotagem aumenta o dano de uma Mine, e a Pontaria a lança mais rápido e mais longe ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidade.** A Teoria de propulsores soma à sua velocidade, além dos motores e de um Afterburner ([Velocidade](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ A tabela lista o que paga XP, estatística por estatística. O XP é por cada un
 | **Tática** (Reflexos) | A cada habilidade que você aciona com um hostil ao alcance do laser | 2 | 600 XP por hora |
 | **Absorção de escudo** (Tenacidade) | A cada 1% do seu escudo máximo consumido por acertos de inimigos | 0,1 | 300 XP por hora |
 | **Cura** (Massa) | A cada 1% do casco máximo de uma nave que uma cura sua restaura | 0,1 | 300 XP por hora |
+| **Recarga de camuflagem** (Reflexos) | A cada segundo que você passa camuflado com uma ordem dada nos últimos 1 min, fora das zonas seguras | 0,1 | Nenhum |
 | **Tecnologia de radiação** (Tenacidade) | A cada segundo dentro de uma faixa de radiação | 0,2 | Nenhum |
 |  | A cada 1% do seu casco máximo que a radiação tira | 1 |  |
 | **Teoria de propulsores** (Massa) | A cada segundo voado acima de 80% da velocidade da sua nave, o dobro sob um Afterburner | 0,1 | Nenhum |

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: 舰船设计 -->
 # 舰船设计 {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; 设计; 改装; 舰船设计 -->
 
-**设计**是你在装配站制造的四艘舰船之一，故意改动了几个数值：船体少一些换更高的速度，少一个激光槽位换更坚固的护盾。十三种设计中有九种还带有七种[技能](/wiki/03-Mechanics/Abilities.md#ship-abilities)之一，是普通舰船没有的。你在 Skylab 里研究一种设计，然后在装配站把自己拥有的一艘舰船改装成它。**改装无法撤销。**
+**设计**是你在装配站制造的四艘舰船之一，故意改动了几个数值：船体少一些换更高的速度，少一个激光槽位换更坚固的护盾。十三种设计中有九种还带有七种[技能](/wiki/03-Mechanics/Abilities.md#ship-abilities)之一，是普通舰船没有的。Storm RECON 在 Chameleon 之外还多两个按钮：Target 和 Slow。你在 Skylab 里研究一种设计，然后在装配站把自己拥有的一艘舰船改装成它。**改装无法撤销。**
 
 ## 十三种设计 {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@
 
 | 设计 | 改变了什么 | 船体 | 基础速度 | 激光槽位 |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | 基础船体 -25%，基础速度 +40，激光槽位 +1 | 96,000 | 310 | 11 |
-| **Paragon BUCKY** | 基础船体 +25%，基础速度 -20，激光槽位 -1，护盾吸收率 +10%，模型尺寸 +20% | 160,000 | 250 | 9 |
+| **Paragon THUNDER** | 基础速度 +40，激光槽位 +1 | 128,000 | 310 | 11 |
+| **Paragon BUCKY** | 基础船体 +25%，基础速度 -20，护盾吸收率 +10%，模型尺寸 +20% | 160,000 | 250 | 10 |
 | **Paragon LICH** | 每秒护盾再生 +1% | 128,000 | 270 | 10 |
-| **Storm NOTSUM** | 基础船体 -10%，基础速度 +50，速度 +2%，Blink | 162,000 | 400 | 15 |
-| **Storm BRATAN** | 基础速度 -50，激光槽位 +2，护盾容量 -25%，护盾穿透 +10%，Heal Pod | 180,000 | 300 | 17 |
-| **Storm RECON** | 基础船体 -20%，速度 +5%，激光槽位 -1，Chameleon | 144,000 | 350 | 14 |
-| **Ironclad DUMA** | 基础船体 +20%，基础速度 -20，激光槽位 -3，护盾吸收率 +10%，Focus Fire | 600,000 | 80 | 5 |
+| **Storm NOTSUM** | 基础船体 -10%，基础速度 +50，速度 +2%，全部伤害 +5%，Blink | 162,000 | 400 | 15 |
+| **Storm BRATAN** | 基础速度 -50，激光槽位 +2，护盾容量 -25%，护盾穿透 +10%，全部伤害 +5%，Heal Pod | 180,000 | 300 | 17 |
+| **Storm RECON** | 基础船体 -20%，速度 +5%，激光槽位 -1，Chameleon，Target，Slow | 144,000 | 350 | 14 |
+| **Ironclad DUMA** | 基础船体 +20%，基础速度 -20，激光槽位 -2，护盾吸收率 +15%，Focus Fire | 600,000 | 80 | 6 |
 | **Ironclad TITANIC** | 激光槽位 +2，核心槽位 +1，护盾容量 +20%，模型尺寸 +20%，Blink | 500,000 | 100 | 10 |
 | **Wraith RAPTOR** | 激光槽位 +1，全部伤害 +5%，Venom | 256,000 | 210 | 14 |
 | **Wraith BILLY** | 基础船体 +5%，护盾容量 +10%，Diminisher | 268,800 | 210 | 13 |
@@ -34,8 +34,8 @@
 
 | 设计 | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50,000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50,000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50,000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50,000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100,000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100,000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@
 ## 你的舰船会怎样 {#what-happens-to-your-ship}
 
 - **还是同一艘舰船。** 改装就地进行：它的装备、装甲、你的无人机和你所佩戴的编队都保持原样。
-- **激光可能失去槽位。** 激光槽位减少的设计（BUCKY、RECON、DUMA、ATARAXIS）会把消失的槽位里的激光连同增幅器和锻造的掷骰结果一起退回物品栏。新增的槽位是空的。
+- **激光可能失去槽位。** 激光槽位减少的设计（RECON、DUMA、ATARAXIS）会把消失的槽位里的激光连同增幅器和锻造的掷骰结果一起退回物品栏。新增的槽位是空的。
 - **完成后船体和护盾是满的。** 在此之前，舰船被锁定：不能设为活动舰船、不能装备，也不能再次改装。
 - **无法回头。** 想要另一种设计或者重新得到普通舰船，就要在装配站再制造一次舰船。每个种类你只能拥有一艘，所以 Paragon 和 THUNDER 可以同时属于你，两艘 THUNDER 却不行。
 - **重置**会像对待你拥有的其他舰船一样保留设计舰船。仍在进行的改装会被取消并退款，和生产队列里的每项制造一样：舰船保持原样。

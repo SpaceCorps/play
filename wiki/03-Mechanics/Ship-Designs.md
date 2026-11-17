@@ -2,7 +2,7 @@
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt -->
 
-A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Nine of the thirteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
+A **design** is one of the four ships you craft in Assembly with a few numbers changed on purpose: less hull for more speed, one laser slot fewer for tougher shields. Nine of the thirteen designs also come with one of seven [abilities](/wiki/03-Mechanics/Abilities.md#ship-abilities) that the plain ship does not have. The Storm RECON has two more buttons beside its Chameleon: Target and Slow. You research a design in the Skylab, then convert a ship you own into it in Assembly. **The conversion cannot be undone.**
 
 ## The thirteen designs
 
@@ -10,13 +10,13 @@ The last three columns are what the converted ship has: its own hull and base sp
 
 | Design | What it changes | Hull | Base speed | Laser slots |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25% base hull, +40 base speed, +1 laser slot | 96,000 | 310 | 11 |
-| **Paragon BUCKY** | +25% base hull, -20 base speed, -1 laser slot, +10% shield absorption, +20% model size | 160,000 | 250 | 9 |
+| **Paragon THUNDER** | +40 base speed, +1 laser slot | 128,000 | 310 | 11 |
+| **Paragon BUCKY** | +25% base hull, -20 base speed, +10% shield absorption, +20% model size | 160,000 | 250 | 10 |
 | **Paragon LICH** | +1% shield regeneration a second | 128,000 | 270 | 10 |
-| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, Blink | 162,000 | 400 | 15 |
-| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, Heal Pod | 180,000 | 300 | 17 |
-| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon | 144,000 | 350 | 14 |
-| **Ironclad DUMA** | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire | 600,000 | 80 | 5 |
+| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, +5% all damage, Blink | 162,000 | 400 | 15 |
+| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, +5% all damage, Heal Pod | 180,000 | 300 | 17 |
+| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon, Target, Slow | 144,000 | 350 | 14 |
+| **Ironclad DUMA** | +20% base hull, -20 base speed, -2 laser slots, +15% shield absorption, Focus Fire | 600,000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 laser slots, +1 core slot, +20% shields, +20% model size, Blink | 500,000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 laser slot, +5% all damage, Venom | 256,000 | 210 | 14 |
 | **Wraith BILLY** | +5% base hull, +10% shields, Diminisher | 268,800 | 210 | 13 |
@@ -32,8 +32,8 @@ The last three columns are what the converted ship has: its own hull and base sp
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50,000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50,000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50,000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50,000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50,000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100,000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100,000 | 25 | 250 | 45 | 15 | 3 |
@@ -66,7 +66,7 @@ Together they ask 510 Dark Matter on top of the 979 that every other technology 
 ## What happens to your ship
 
 - **It is the same ship.** The conversion changes it in place: its fittings, its hull plates, your drones and the formation you wear stay as they are.
-- **Lasers can lose their slot.** A design with fewer laser slots (BUCKY, RECON, DUMA, ATARAXIS) sends the lasers of the slots that go back to your inventory, with their amps and their Forge rolls. A slot that is new arrives empty.
+- **Lasers can lose their slot.** A design with fewer laser slots (RECON, DUMA, ATARAXIS) sends the lasers of the slots that go back to your inventory, with their amps and their Forge rolls. A slot that is new arrives empty.
 - **Full hull and shields** when it is done. Until then the ship is locked: it cannot be made active, fitted or converted again.
 - **There is no way back.** To get another design, or the plain ship again, craft the ship again in Assembly. You own one ship of each kind, so a Paragon and a THUNDER can be yours at once, and two THUNDERs cannot.
 - **The wipe** keeps a design like any other ship you own. A conversion still under way is cancelled and refunded, like every craft in your Production Queue: the ship stays as it was.

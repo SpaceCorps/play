@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Item
 - **Cataclysite**: 100 % de probabilidad (mín.: 2, máx.: 2)
 - **Reinforced Hull Plate**: 30 % de probabilidad (mín.: 1, máx.: 1)
 - **Nyxite**: 40 % de probabilidad (mín.: 1, máx.: 2)
-- **Echo Shard**: 2 % de probabilidad (mín.: 1, máx.: 1)
+- **Echo Shard**: 4 % de probabilidad (mín.: 1, máx.: 1)
 
 ## Historia {#lore}
 

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Cosmetici -->
 # Cosmetici {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; aspetto; livrea; guardaroba; scia -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; aspetto; livrea; guardaroba; scia -->
 
 Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la vernice dello scafo), un’**aura** (un morbido bagliore e un anello di luce attorno alla nave), una **scia** (il colore e la forma della scia dietro i motori) e la **livrea** dei tuoi droni. Un look è solo per bellezza: non dà danno, scafo né velocità, non occupa uno slot e non cambia nulla di ciò che un colpo può raggiungere.
 
@@ -22,24 +22,25 @@ Un **look** è ciò che indossa la tua nave. Ha quattro parti: una **skin** (la 
 
 ## Skin {#skins}
 
-Una skin è uno schema di vernice fatto a partire dallo scafo stesso della nave: le sue linee dei pannelli, i numeri e le strisce restano, cambiano solo i colori. È per un **modello di nave**, e la stessa skin la indossano tutte le tue navi di quel modello e ogni [design](/wiki/03-Mechanics/Ship-Designs.md) ricavato da esso; una conversione mantiene il look. Il Protos non ha ancora una skin, il Kitefin, l’Ostirion e il Nomad hanno una collezione, e le quattro navi che costruisci all’Assemblaggio le hanno tutte e dieci.
+Una skin è uno schema di vernice fatto a partire dallo scafo stesso della nave: le sue linee dei pannelli, i numeri e le strisce restano, cambiano solo i colori. È per un **modello di nave**, e la stessa skin la indossano tutte le tue navi di quel modello e ogni [design](/wiki/03-Mechanics/Ship-Designs.md) ricavato da esso; una conversione mantiene il look. Il Protos non ha ancora una skin, il Kitefin, l’Ostirion e il Nomad hanno una collezione, e le quattro navi che costruisci all’Assemblaggio e la Miyuki le hanno tutte e undici. Una skin della Miyuki è indossata da tutti i suoi cinque livelli.
 
 Le skin appartengono al tuo **account**, non a una nave, e restano attraverso il [reset](/wiki/03-Mechanics/Wipe-Timeline.md); le tue navi indossano ciò che indossavano.
 
-L’[Archivio cromatico](/wiki/06-Items/Containers.md#chroma-archive) può dare qualsiasi collezione tranne Bloody R.E.D, una skin alla volta: una collezione come premio dà una sua skin, per un modello di nave. È la skin della tua nave attiva se la collezione ne ha una per lei e non la possiedi ancora; altrimenti la skin di un’altra nave che possiedi; altrimenti la prima skin della collezione che ti manca. Quindi pilota la nave per cui vuoi la skin quando apri un Archivio. La collezione può uscire di nuovo finché non hai tutte le sue skin. Una collezione arrivata intera prima della 0.5.7 resta tua, con ogni sua skin.
+L’[Archivio cromatico](/wiki/06-Items/Containers.md#chroma-archive) può dare qualsiasi collezione tranne Bloody R.E.D e LOU, una skin alla volta: una collezione come premio dà una sua skin, per un modello di nave. È la skin della tua nave attiva se la collezione ne ha una per lei e non la possiedi ancora; altrimenti la skin di un’altra nave che possiedi; altrimenti la prima skin della collezione che ti manca. Quindi pilota la nave per cui vuoi la skin quando apri un Archivio. La collezione può uscire di nuovo finché non hai tutte le sue skin. Una collezione arrivata intera prima della 0.5.7 resta tua, con ogni sua skin.
 
 | Collezione | Navi | Rarità | Com’è |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Raro | Uno scafo bianco neve con parti arancioni |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Non comune | Tutto lo scafo nel colore della tua corporazione: rosso per Mars, verde per Terra, viola per Galactic. Ti segue se cambi corporazione |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mitico | Nero e rosso sangue, con il logo del clan su un distintivo scuro al centro dello scafo |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Epico | Capodanno: uno scafo blu notte con bordo argento e champagne e un calice di champagne |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Epico | Giornata della Terra: blu oceano con terre verdi e un piccolo globo |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Epico | Giornata internazionale della donna: giallo limone con bordo viola e un fiore |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Epico | Giornata internazionale della pace: azzurro cielo con bordo oliva e un simbolo della pace bianco |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Raro | Equinozi e solstizi: uno scafo verde acqua scuro con un sole dorato |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Epico | Giornata mondiale della salute e della salute mentale: uno scafo nero-verde con un battito verde neon |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Epico | Halloween: antracite con arancione, e una luna con stelle |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Raro | Uno scafo bianco neve con parti arancioni |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Non comune | Tutto lo scafo nel colore della tua corporazione: rosso per Mars, verde per Terra, viola per Galactic. Ti segue se cambi corporazione |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitico | Nero e rosso sangue, con il logo del clan su un distintivo scuro al centro dello scafo |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitico | La skin del clan LOU, che il team del gioco dà ai suoi membri: nera come Bloody R.E.D, con parti viola intenso e senza logo |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Capodanno: uno scafo blu notte con bordo argento e champagne e un calice di champagne |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Giornata della Terra: blu oceano con terre verdi e un piccolo globo |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Giornata internazionale della donna: giallo limone con bordo viola e un fiore |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Giornata internazionale della pace: azzurro cielo con bordo oliva e un simbolo della pace bianco |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Raro | Equinozi e solstizi: uno scafo verde acqua scuro con un sole dorato |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Giornata mondiale della salute e della salute mentale: uno scafo nero-verde con un battito verde neon |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epico | Halloween: antracite con arancione, e una luna con stelle |
 
 ## Livree dei droni {#drone-liveries}
 

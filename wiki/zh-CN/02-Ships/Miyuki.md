@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Miyuki 的能力属于舰船，而不是某件物品：不占用能力槽，也�
 
 ## 研究 {#research}
 
-- **等级。** Miyuki II 至 V 是 Skylab 里各自独立的科技，每一级都排在低一级之后：II 和 III 需要 1 天，IV 和 V 需要 2 天，每项都需要 10 个 Dark Matter。
+- **等级。** Miyuki II 至 V 是 Skylab 里各自独立的科技，每一级都排在低一级之后：II 和 III 需要 1 天，IV 和 V 需要 2 天，每项都需要 10 个 Dark Matter。在研究视图中，五个等级上下排列，每一级都有一个箭头指向下一级：II 在 I 之后研究，III 在 II 之后，IV 在 III 之后，V 在 IV 之后。
 - **槽位。** 装甲槽位、第 6 个起的激光槽位和第 9 个起的发生器槽位，都是 Skylab 里独立的科技，每项需要 1 小时和 10 个 Dark Matter：装甲槽位 1 至 9 从第一个起依次研究，激光槽位 6 至 9（各排在对应等级之后），发生器槽位 9 至 12（各排在 5 级之后）。槽位一经研究就会在舰船上开启，无论它是几级；尚未研究的槽位在机库里显示为锁定。
 - **装甲槽位。** Miyuki 在 1 级有 5 个、在 5 级有 9 个用于[船体装甲](/wiki/06-Items/Hull-Plating.md)的[装甲槽位](/wiki/06-Items/Hull-Plating.md#hull-plate-slots)，制造出来时全部锁定。9 个槽位全部装上 Hull Plating III，可增加 225,000 点船体。
 

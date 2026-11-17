@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: 積荷 -->
 # 積荷コンテナ {#cargo-boxes}
 
@@ -53,4 +53,4 @@
 ## ブースター {#boosters}
 
 - **Loot Luck Booster**（および永続バフの Luck Boost と、ドッキング中の[P.E.T.](/wiki/03-Mechanics/Pets.md)の運）は、撃破した本人が撃破した時点で、各ドロップ項目の確率を上げます。あなたの[直感](/wiki/03-Mechanics/Pilot-Skills.md#the-stats)スキルもこの確率に加わり、ブースターの分に上乗せされます。
-- **Resource Magnet Booster** は、撃破したのが誰であっても、あなたが手で、または Retriever で回収するすべてのコンテナの資源を**25%**増やします。Dark Matter は例外で、Resource Magnet Booster では増えません。増やせるのはあなた自身の Antimatter スキルだけで（レベル100で最大+25%）、これがなければ N.I.K.E. 5発は Dark Matter 10個です。
+- **Resource Magnet Booster** は、撃破したのが誰であっても、あなたが手で、または Retriever で回収するすべてのコンテナの資源を**25%**増やします。Dark Matter は例外で、Resource Magnet Booster では増えません。増やせるのはあなた自身の Antimatter スキルだけで（レベル100で最大+100%）、これがなければ N.I.K.E. 5発は Dark Matter 10個です。

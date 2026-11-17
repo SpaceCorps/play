@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ A Ironclad é um tanque pesado e blindado: o casco mais grosso de todas as naves
 
 | Design | O que muda |
 | :--- | :--- |
-| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -3 slots de laser, +10% de absorção de escudo, Focus Fire |
+| **Ironclad DUMA** | +20% de casco base, -20 de velocidade base, -2 slots de laser, +15% de absorção de escudo, Focus Fire |
 | **Ironclad TITANIC** | +2 slots de laser, +1 slot de núcleo, +20% de capacidade de escudo, +20% de tamanho do modelo, Blink |
 
 <!-- research-ship:begin -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](
 
 - **Ship Fragment**: %20 şans (En az: 1, En çok: 1)
 - **Daraxium**: %50 şans (En az: 1, En çok: 2)
-- **Echo Shard**: %0,4 şans (En az: 1, En çok: 1)
+- **Echo Shard**: %0,8 şans (En az: 1, En çok: 1)
 
 ## Hikâye {#lore}
 

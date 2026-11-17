@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](
 - **Quorvium**: %100 şans (En az: 6, En çok: 10)
 - **Power Core**: %50 şans (En az: 1, En çok: 1)
 - **Ancient Control Unit**: %20 şans (En az: 1, En çok: 1)
-- **Echo Shard**: %20 şans (En az: 1, En çok: 1)
+- **Echo Shard**: %40 şans (En az: 1, En çok: 1)
 
 ## Hikâye {#lore}
 

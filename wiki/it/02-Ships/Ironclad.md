@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ L’Ironclad è un pesante tank corazzato: lo scafo più spesso di tutte le navi
 
 | Design | Cosa cambia |
 | :--- | :--- |
-| **Ironclad DUMA** | +20% scafo base, -20 velocità base, -3 slot laser, +10% assorbimento dello scudo, Focus Fire |
+| **Ironclad DUMA** | +20% scafo base, -20 velocità base, -2 slot laser, +15% assorbimento dello scudo, Focus Fire |
 | **Ironclad TITANIC** | +2 slot laser, +1 slot principale, +20% capacità dello scudo, +20% dimensione del modello, Blink |
 
 <!-- research-ship:begin -->

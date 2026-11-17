@@ -30,8 +30,8 @@ The Paragon is a heavy combat cruiser designed with balanced defense and offense
 
 | Design | What it changes |
 | :--- | :--- |
-| **Paragon THUNDER** | -25% base hull, +40 base speed, +1 laser slot |
-| **Paragon BUCKY** | +25% base hull, -20 base speed, -1 laser slot, +10% shield absorption, +20% model size |
+| **Paragon THUNDER** | +40 base speed, +1 laser slot |
+| **Paragon BUCKY** | +25% base hull, -20 base speed, +10% shield absorption, +20% model size |
 | **Paragon LICH** | +1% shield regeneration a second |
 
 <!-- research-ship:begin -->

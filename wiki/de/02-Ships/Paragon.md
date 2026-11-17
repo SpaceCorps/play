@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Die Paragon ist ein schwerer Kampfkreuzer mit ausgewogener Verteidigung und Offe
 
 | Design | Was es ändert |
 | :--- | :--- |
-| **Paragon THUNDER** | -25 % Basis-Hülle, +40 Basis-Tempo, +1 Laser-Slot |
-| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, -1 Laser-Slot, +10 % Schildabsorption, +20 % Modellgröße |
+| **Paragon THUNDER** | +40 Basis-Tempo, +1 Laser-Slot |
+| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, +10 % Schildabsorption, +20 % Modellgröße |
 | **Paragon LICH** | +1 % Schildregeneration pro Sekunde |
 
 <!-- research-ship:begin -->

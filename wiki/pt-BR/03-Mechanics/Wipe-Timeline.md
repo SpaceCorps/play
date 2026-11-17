@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Linha do tempo do reset -->
 # Linha do tempo do reset e temporadas {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ Os seus contêineres fechados, os seus [itens especiais](/wiki/06-Items/Special-
 O **Chrono-Gate** (também chamado de Portão Galáctico) é uma estrutura sazonal colossal que funciona como ponte entre temporadas. Construir e estabilizar esse portão é essencial para desbloquear os seus privilégios de transporte para a próxima temporada. Ele é um dos seis portões da página Portões Galácticos: os outros cinco são os [portões solo](/wiki/03-Mechanics/Solo-Gates.md), lugares em que você voa, e as peças deles saem do mesmo Materializador de Energia.
 
 ### Montagem do portão {#gate-assembly}
-Para estabilizar totalmente o Chrono-Gate, você precisa coletar exatamente **2 peças do Chrono-Gate**. A página [Portões solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) diz do que cada um dos seis portões precisa e quanto custam, em média, as peças dele.
+Para estabilizar totalmente o Chrono-Gate, você precisa coletar exatamente **13 peças do Chrono-Gate**. A página [Portões solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) diz do que cada um dos seis portões precisa e quanto custam, em média, as peças dele.
 
 ### O Materializador de Energia {#the-energy-materializer}
 Você obtém peças usando a interface do Materializador de Energia, que gira setores de energia locais para localizar peças do portão. Ele gira apenas com **Thulium** (o giro com créditos está encerrado):
-* **Giro com Thulium**: **100 Thulium** por giro, com **13% de chance** de produzir uma peça de portão. A peça pertence a um dos seis portões, escolhido ao acaso, então nem sempre é uma peça do Chrono-Gate.
+* **Giro com Thulium**: **100 Thulium** por giro, com **13% de chance** de produzir uma peça de portão. Você escolhe a categoria que gira (o Chrono-Gate, Alpha–Gamma ou Delta–Omega) e a peça pertence a um dos portões dela, todos igualmente prováveis: só a categoria do Chrono-Gate encontra peças do Chrono-Gate.
 * **A garantia.** Uma longa sequência de giros sem peça não pode durar para sempre: depois de alguns giros em branco a chance sobe, e então uma peça é certa ([detalhes](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Um giro sem peça** ainda paga um prêmio ([Portões solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Os giros continuam quando o Chrono-Gate está completo.** Cada giro é cobrado, e as peças que ele encontra são então dos portões solo. A chance de uma peça é um sexto menor, porque a parte do Chrono-Gate nela deixa de existir.
+* **Os giros continuam quando o Chrono-Gate está completo.** Cada giro é cobrado, e as peças que ele encontra são então dos portões solo: a entrada do Chrono-Gate fica fechada e as outras duas categorias mantêm a chance de 13%.
 
 *Dica profissional: você pode usar multiplicadores (1x, 5x, 10x, 100x) para fazer giros em lote e acelerar a construção do portão.*
 
@@ -248,5 +248,7 @@ Só contam os abates pelos quais você é pago (veja [Combate](/wiki/03-Mechanic
 **Missões.** A primeira missão que você conclui paga 5 PR, e depois cada 5ª (a 5ª, a 10ª, a 15ª e assim por diante, até a 100ª) paga mais 5 PR, 105 PR no total. Só contam as missões de nível (88 no total, sem as missões da estação nem a linha de Desafios, veja [Missões](/wiki/03-Mechanics/Quests.md)), e uma missão de nível refeita que você faz de novo não é contada uma segunda vez. As 88, feitas uma vez, pagam 90 PR. As suas missões continuam concluídas depois do reset, então logo depois **os 90 PR podem ser resgatados de novo**. A [Repetição](/wiki/03-Mechanics/Quests.md#repeating-missions) de uma missão de nível conta como uma primeira conclusão, uma vez por missão e por temporada, até a 100ª missão: quem tem as 88 conta 12 Repetições e ganha 15 PR com elas.
 
 **Dormant Knowledge.** Além dos marcos, as cinco tecnologias Dormant Knowledge da [Pesquisa](/wiki/03-Mechanics/Research.md#pilot-technologies) pagam 50 PR cada, 250 no total. Um nível paga quando a pesquisa dele termina, e depois de cada reset **um nível que você pesquisou pode ser resgatado de novo** em Fontes de PR. Uma tecnologia concedida por um administrador não paga nada.
+
+**Níveis das perícias do piloto.** Mais uma fonte não recomeça com o reset: cada perícia das [Perícias do piloto](/wiki/03-Mechanics/Pilot-Skills.md) paga pontos de reset uma única vez, na primeira vez que alcança certos níveis (a página os lista). Você os resgata no mesmo lugar dos outros, e eles não fazem parte do total abaixo.
 
 **No total**, as fontes pagam até **1.105 pontos de reset** por reset: 750 pelos abates, 105 pelas missões e 250 por Dormant Knowledge. A sua patente paga mais no reset ([Temporadas e recompensas](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a07a705b04461381 -->
+<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
 <!-- wiki-i18n title: Szólókapuk -->
 # Szólókapuk {#solo-gates}
 
@@ -15,7 +15,7 @@ A szólókapu nem [klánkazamata](/wiki/03-Mechanics/Dungeons.md). A kazamata eg
 
 - **Kapuk**: 6: a Chrono-Gate és 5 szólókapu, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege és Omega Vault
 - **Pörgetés**: 100 Thulium pörgetésenként, és 1, 5, 10 vagy 100 pörgetés egyszerre
-- **Alkatrész esélye**: 13% pörgetésenként. Az alkatrész kapuját véletlenszerűen választják, és minden kapu a pörgetések 2,17%-át kapja. Ha a Chrono-Gate kész, a része kikerül a kerékből, és a szólókapuk egyenként megtartják a 2,17%-ot
+- **Alkatrész esélye**: 13% pörgetésenként, bármelyik kategóriát pörgeted. Az alkatrész az adott kategória kapuinak egyikéhez tartozik, mindegyik egyformán valószínű: a Chrono-Gate egyedül megkapja az egészet, Alpha Rift, Beta Breach és Gamma Foundry egyenként 4,33%-ot kap, Delta Siege és Omega Vault pedig egyenként 6,5%-ot. Ha a Chrono-Gate kész, a kategóriájában nincs mit pörgetni
 - **Garancia**: 24 egymást követő alkatrész nélküli pörgetés után az esély minden pörgetéssel nő, 47 után pedig a következő pörgetés mindig talál egyet. Bármelyik kapu alkatrésze újraindítja a számlálást
 - **Életek**: 3 kísérletenként; minden halál egyet elvesz
 - **Visszaszámlálás**: 5 mp minden hullám előtt, az első és a boss hulláma előtt is. A hullámnak nincs időzítője, a menetnek sincs
@@ -28,21 +28,21 @@ A szólókapu nem [klánkazamata](/wiki/03-Mechanics/Dungeons.md). A kazamata eg
 
 ## Kapualkatrészek megtalálása {#finding-gate-parts}
 
-Nyisd meg a **Galaxiskapuk** oldalt, és pörgesd az Energiamaterializálót. Minden pörgetést Thuliummal kell fizetni, és legfeljebb egy alkatrészt talál, az alkatrész pedig a hat kapu valamelyikéhez tartozik, véletlenszerűen kiválasztva. A kapu megépítéséhez egy bizonyos számú alkatrész kell belőle, és az alkatrészek a tieid, amíg fel nem használod őket. Az a pörgetés, amely nem talál alkatrészt, nem vész el: nyereményt fizet ([lent](#a-spin-without-a-part)). Minden pörgetésért fizetni kell, a kész Chrono-Gate mellett is. Ha a Chrono-Gate kész, a pörgetésekből rá eső rész nem talál semmit, a szólókapuk pedig megtartják a saját esélyüket, így egy szólókapu alkatrésze ugyanannyiba kerül vele vagy nélküle.
+Nyisd meg a **Galaxiskapuk** oldalt, és pörgesd az Energiamaterializálót. Minden pörgetést Thuliummal kell fizetni, és legfeljebb egy alkatrészt talál. Előbb válassz egy **kategóriát**: a **Chrono-Gate**-et, az **Alpha–Gamma**-t (Alpha Rift, Beta Breach és Gamma Foundry) vagy a **Delta–Omega**-t (Delta Siege és Omega Vault). Az alkatrész esélye minden kategóriában ugyanannyi, az alkatrész pedig a választott kategória kapuinak egyikéhez tartozik, mindegyik egyformán valószínű. A kapu megépítéséhez egy bizonyos számú alkatrész kell belőle, és az alkatrészek a tieid, amíg fel nem használod őket. Az a pörgetés, amely nem talál alkatrészt, nem vész el: nyereményt fizet ([lent](#a-spin-without-a-part)). Minden pörgetésért fizetni kell. Ha a Chrono-Gate kész, a gombja le van zárva, mert nincs benne mit találni, a másik két kategória pedig megtartja az esélyét, így egy szólókapu alkatrésze ugyanannyiba kerül vele vagy nélküle.
 
-A táblázat megadja minden kapu költségét alkatrészekben és azt, hogy **a garanciával** átlagosan mibe kerülnek (a pörgetés lottó, így a szerencsés pilóta kevesebbet fizet, a peches többet, a garancia által megengedett leghosszabb pörgetéssorozatig).
+A táblázat megadja minden kapu költségét alkatrészekben és azt, hogy **a garanciával** átlagosan mibe kerülnek, ha azt a kategóriát pörgeted, amelyben a kapu van (a pörgetés lottó, így a szerencsés pilóta kevesebbet fizet, a peches többet, a garancia által megengedett leghosszabb pörgetéssorozatig).
 
 <!-- solo-parts:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Kapu | Alkatrész a teljesítéséhez | Alkatrész esélye pörgetésenként | Pörgetés átlagosan | Thulium átlagosan |
 | :--- | ---: | ---: | ---: | ---: |
-| **Chrono-Gate** | 2 | 2,17% | 91 | 9 093 |
-| **Alpha Rift** | 11 | 2,17% | 500 | 50 011 |
-| **Beta Breach** | 26 | 2,17% | 1 182 | 118 208 |
-| **Gamma Foundry** | 54 | 2,17% | 2 455 | 245 508 |
-| **Delta Siege** | 87 | 2,17% | 3 955 | 395 541 |
-| **Omega Vault** | 108 | 2,17% | 4 910 | 491 017 |
+| **Chrono-Gate** | 13 | 13% | 99 | 9 851 |
+| **Alpha Rift** | 14 | 4,33% | 318 | 31 825 |
+| **Beta Breach** | 33 | 4,33% | 750 | 75 016 |
+| **Gamma Foundry** | 68 | 4,33% | 1 546 | 154 579 |
+| **Delta Siege** | 96 | 6,5% | 1 455 | 145 486 |
+| **Omega Vault** | 119 | 6,5% | 1 803 | 180 343 |
 
 <!-- solo-parts:end -->
 
@@ -87,10 +87,10 @@ A legtöbb pörgetés nem talál alkatrészt. Mindegyik egy nyereményt fizet, a
 A kaput a Galaxiskapuk oldalon **építed meg**, és a portálján **ugrasz be**. Az építés az állomásról megy, dokkolt hajóval, és repülés közben is: a **Galaxiskapuk ablak**, amelyet az eszköztár kapu gombja nyit meg, ugyanúgy pörget, épít és választ úti célt, mint az oldal. Ehhez kell:
 
 - a kapu alkatrészei: **egyszer, az építéskor** veszik el őket, az elutasított építés semmit sem vesz el;
-- nincs más nyitott szólómenet: egyszerre egy menetet játszol, és az elhagyott menetbe a portálján át lépsz vissza, vagy fel kell adnod, mielőtt másik kaput építesz;
+- a kapu még nincs felépítve: **minden** kaput felépíthetsz egyszerre, mindegyikhez külön portál tartozik, és egyszerre egyet játszol; a már felépített kapuba a portálján át lépsz be, vagy feladod, mielőtt újra felépítenéd;
 - a fő szerver (kaput csak a fő szerveren építenek: regionális szerveren előbb visszatérsz a bázisra).
 
-A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz. Csak a **saját** kapudat látod: más pilóták kapuinak portáljai ugyanabban a szektorban nem jelennek meg számodra.
+A felépített kapu a **bázisszektorodban** áll (`M-1`, `T-1` vagy `G-1`, a vállalatod szerint) egy róla elnevezett portálként, és a Galaxiskapuk oldal megmondja, hol. **Indulj el, repülj a portálhoz, és ugorj** át rajta, mint bármelyik portálon. Belépéskor szabad hasadéknak kell lennie a világodban: minden világban van belőlük egy bizonyos szám, és ha mind foglalt, vársz. Csak a **saját** kapuidat látod: más pilóták kapuinak portáljai ugyanabban a szektorban nem jelennek meg számodra. Mind az öt kaput **egyszerre felépítheted**, mindegyiknek saját portálja van, és egyszerre egyet játszol: **amíg arénában vagy, egyik portálod sem áll**, és ha kijössz, visszatérnek.
 
 **A regionális szervereken (Singapore, US East).** Az épített kaput ott is lehet játszani. A kapud portálja regionális szerveren ugyanúgy a bázisszektorodban áll, mint a fő szerveren, és érkezéskor szólnak róla. **Ugorj át rajta, és a szerver egyik arénájába kerülsz**, a fő szerver helyett annak késleltetésével. Egy regionális szerveren világonként csak **két aréna** van, a fő szerveren jóval több: ha mindkettő foglalt, vársz, ahogy a fő szerveren is várnál egy szabad hasadékra. A fő szerver marad az egyetlen hely, amely a menetedet, az alkatrészeidet és a kifizetésedet nyilvántartja: a kifizetés akkor kerül a pénztárcádba, amikor a fő szerver megszámolta a menetet, pár másodperccel a vége után, a **repülési ablakod pénztárcája pedig dokkoláskor frissül**. A következő menetedbe csak akkor lépsz be, ha az utolsót már megszámolták. Az arénában otthagyott menetbe a portálon át lépsz vissza; ha fel akarod adni, azt az arénában vagy az állomáson teheted meg. Ha egy regionális szerver aréna-funkciója ki van kapcsolva, a portálja helyette visszavisz a fő szerverre, ahol a fent leírtak szerint indulsz a kapuba. Hogy mi más működik regionális szerveren, azt a [Szerverek](/wiki/03-Mechanics/Servers.md) írja le.
 
@@ -104,7 +104,7 @@ Egy üres aréna közepén landolsz, egyedül. Senki sem támadhat meg benne, é
 4. **A választható hullám** Seekerek hatalmas hulláma, és a Delta Siege-nek és az Omega Vaultnak van egy-egy. A visszaszámlálása alatt átugorhatod: ekkor késznek számít, és **semmit** sem fizet. Ha megküzdesz vele, a kilövései úgy fizetnek, mint bármelyik hullámé.
 5. **Az utolsó hullám a boss.** Fázist vált, ahogy a hajóteste csökken, és minden váltásnál egy pillanatig nem sebezhető. Amikor a boss meghal, a menet teljesítve van, és a teljesítés azonnal kifizetésre kerül.
 
-**Életek.** A halál egy életbe kerül, és a bázisodra küld, mint bármelyik másik halál; a menet vár rád, járó óra nélkül. Amíg a menet nyitva van, és az arénán kívül vagy, **a kapud portálja a bázisszektorodban áll**, és egy ugrás rajta át visszavisz a mentett hullámba a megmaradt életeiddel, ahogy a **Folytatás** is; nem kér új alkatrészt. Ha az utolsó életed is elfogy, a kísérlet véget ér, de a menet nyitva marad az utolsó teljesített hullámnál, és az újbóli belépés újratölti az életeidet. A **Kilépés**, a kijelentkezés vagy a világváltás szünetelteti a menetet életbe kerülés nélkül. A szerver újraindítása is nyitva tartja a menetedet. A **Feladás** feladja a menetet: az alkatrészei elvesznek, és a megölt idegeneket úgy fizetik ki, ahogy állnak. A **Folytatás** csak repülő hajóból működik: halál után a gombja az eredményképernyőn vár, egy sorral, amely megmondja, miért, amíg újra nem éledtél. Az újraéledt hajó korlátozott hajótesttel tér vissza; ha a hajótested a fele alatt van, az eredményképernyő figyelmeztet, a **Folytatás** pedig így is úgy visz vissza, ahogy vagy. A bázisod javítóhajói az aurájukon belül megjavítanak.
+**Életek.** A halál egy életbe kerül, és a bázisodra küld, mint bármelyik másik halál; a menet vár rád, járó óra nélkül. Amíg a menet nyitva van, és az arénán kívül vagy, **minden felépített kapud portálja a bázisszektorodban áll**, és egy ugrás bármelyiken át visszavisz a mentett hullámba a megmaradt életeiddel, ahogy a **Folytatás** is; nem kér új alkatrészt. Ha az utolsó életed is elfogy, a kísérlet véget ér, de a menet nyitva marad az utolsó teljesített hullámnál, és az újbóli belépés újratölti az életeidet. A **Kilépés**, a kijelentkezés vagy a világváltás szünetelteti a menetet életbe kerülés nélkül. A szerver újraindítása is nyitva tartja a menetedet. A **Feladás** feladja a menetet: az alkatrészei elvesznek, és a megölt idegeneket úgy fizetik ki, ahogy állnak. A **Folytatás** csak repülő hajóból működik: halál után a gombja az eredményképernyőn vár, egy sorral, amely megmondja, miért, amíg újra nem éledtél. Az újraéledt hajó korlátozott hajótesttel tér vissza; ha a hajótested a fele alatt van, az eredményképernyő figyelmeztet, a **Folytatás** pedig így is úgy visz vissza, ahogy vagy. A bázisod javítóhajói az aurájukon belül megjavítanak.
 
 Minden világ ugyanazt a kaput vívja: az idegenek ereje és fizetése nem függ attól a világtól, amelyben repülsz.
 
@@ -174,11 +174,11 @@ A teljesítés a táblázatát **egyszer** fizeti, egyben, abban a pillanatban, 
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; lőszer: Advanced Plasma ×20 000, Ultra Core ×5 000, Experimental Fusion Core ×20 000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; lőszer: Advanced Plasma ×50 000, Ultra Core ×20 000, Experimental Fusion Core ×30 000
-- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; lőszer: Advanced Plasma ×30 000, Ultra Core ×60 000, Experimental Fusion Core ×50 000
-- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; lőszer: Advanced Plasma ×40 000, Ultra Core ×90 000, Experimental Fusion Core ×75 000
-- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; lőszer: Advanced Plasma ×50 000, Ultra Core ×100 000, Experimental Fusion Core ×100 000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; lőszer: Advanced Plasma ×15 000, Ultra Core ×3 750, Experimental Fusion Core ×15 000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; lőszer: Advanced Plasma ×37 500, Ultra Core ×15 000, Experimental Fusion Core ×22 500
+- **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; lőszer: Advanced Plasma ×22 500, Ultra Core ×45 000, Experimental Fusion Core ×37 500
+- **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; lőszer: Advanced Plasma ×30 000, Ultra Core ×67 500, Experimental Fusion Core ×56 250
+- **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; lőszer: Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
 - **Heartshards**: 1 az évad során az egyes kapuk első teljesítésekor, és 5% eséllyel még 1 minden teljesítéskor.
 
 <!-- solo-pay:end -->

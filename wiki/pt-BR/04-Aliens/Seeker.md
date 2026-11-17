@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Res
 
 - **Ship Fragment**: 20% de chance (Mín.: 1, Máx.: 1)
 - **Daraxium**: 50% de chance (Mín.: 1, Máx.: 2)
-- **Echo Shard**: 0,4% de chance (Mín.: 1, Máx.: 1)
+- **Echo Shard**: 0,8% de chance (Mín.: 1, Máx.: 1)
 
 ## História {#lore}
 

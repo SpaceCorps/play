@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Her ganimetin ne işe yaradığı ve başka nerede bulunabileceği: [Kaynaklar](
 - **Ship Fragment**: %100 şans (En az: 1, En çok: 1)
 - **Daraxium**: %60 şans (En az: 1, En çok: 2)
 - **Nyxite**: %60 şans (En az: 1, En çok: 2)
-- **Echo Shard**: %1 şans (En az: 1, En çok: 1)
+- **Echo Shard**: %2 şans (En az: 1, En çok: 1)
 
 ## Hikâye {#lore}
 

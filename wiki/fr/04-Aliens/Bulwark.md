@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 - **Cataclysite** : 100 % de chances (min. : 2, max. : 2)
 - **Reinforced Hull Plate** : 30 % de chances (min. : 1, max. : 1)
 - **Nyxite** : 40 % de chances (min. : 1, max. : 2)
-- **Echo Shard** : 2 % de chances (min. : 1, max. : 1)
+- **Echo Shard** : 4 % de chances (min. : 1, max. : 1)
 
 ## Histoire {#lore}
 

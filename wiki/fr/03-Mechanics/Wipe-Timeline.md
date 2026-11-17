@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Chronologie des réinitialisations -->
 # Chronologie des réinitialisations et saisons {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ Vos conteneurs non ouverts, vos [objets spéciaux](/wiki/06-Items/Special-Items.
 Le **Chrono-Gate** (aussi appelé Porte galactique) est une immense structure saisonnière qui sert de pont entre les saisons. Construire et stabiliser cette porte est indispensable pour débloquer vos privilèges de transport d’une saison à l’autre. C’est l’une des six portes de la page Portes galactiques : les cinq autres sont les [portes solo](/wiki/03-Mechanics/Solo-Gates.md), des lieux où vous volez, et leurs pièces sortent du même Matérialiseur d’énergie.
 
 ### Assemblage de la porte {#gate-assembly}
-Pour stabiliser entièrement le Chrono-Gate, vous devez rassembler exactement **2 pièces du Chrono-Gate**. La page [Portes solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) dit ce dont chacune des six portes a besoin et ce que coûtent ses pièces en moyenne.
+Pour stabiliser entièrement le Chrono-Gate, vous devez rassembler exactement **13 pièces du Chrono-Gate**. La page [Portes solo](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) dit ce dont chacune des six portes a besoin et ce que coûtent ses pièces en moyenne.
 
 ### Le Matérialiseur d’énergie {#the-energy-materializer}
 Vous obtenez des pièces avec l’interface du Matérialiseur d’énergie, qui fait tourner des secteurs d’énergie locaux pour localiser des pièces de la porte. Il ne tourne qu’avec du **Thulium** (le scan en crédits est fermé) :
-* **Scan** : **100 Thulium** par tirage, avec **13 % de chances** de produire une pièce de porte. La pièce appartient à l’une des six portes, tirée au hasard : ce n’est donc pas toujours une pièce du Chrono-Gate.
+* **Scan** : **100 Thulium** par tirage, avec **13 % de chances** de produire une pièce de porte. Vous choisissez la catégorie à scanner (le Chrono-Gate, Alpha–Gamma ou Delta–Omega) et la pièce appartient à l’une de ses portes, toutes aussi probables : seule la catégorie du Chrono-Gate trouve des pièces du Chrono-Gate.
 * **La garantie.** Une longue série de tirages sans pièce ne peut pas durer toujours : après quelques tirages à vide la chance monte, puis une pièce est certaine ([détails](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Un tirage sans pièce** paie tout de même un lot ([Portes solo](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Les tirages continuent quand le Chrono-Gate est complet.** Chaque tirage est facturé, et les pièces qu’il trouve sont alors celles des portes solo. La chance d’une pièce est inférieure d’un sixième, parce que la part du Chrono-Gate en disparaît.
+* **Les tirages continuent quand le Chrono-Gate est complet.** Chaque tirage est facturé, et les pièces qu’il trouve sont alors celles des portes solo : l’entrée du Chrono-Gate est fermée, et les deux autres catégories gardent leur chance de 13 %.
 
 *Astuce de pro : vous pouvez utiliser les multiplicateurs (1×, 5×, 10×, 100×) pour lancer des scans en série et accélérer la construction de la porte.*
 
@@ -248,5 +248,7 @@ Seules comptent les éliminations pour lesquelles vous êtes payé (voir [Combat
 **Missions.** La première mission que vous accomplissez rapporte 5 PR, puis chaque 5e (la 5e, la 10e, la 15e, etc., jusqu’à la 100e) rapporte 5 PR de plus, 105 PR en tout. Seules comptent les missions de niveau (88 en tout, pas les missions de station ni la ligne des Défis, voir [Quêtes](/wiki/03-Mechanics/Quests.md)), et une mission de niveau remaniée que vous refaites n’est pas comptée une seconde fois. Les 88, faites une fois, rapportent 90 PR. Vos missions restent accomplies après la réinitialisation : juste après, **les 90 PR peuvent être réclamés à nouveau**. La [Répétition](/wiki/03-Mechanics/Quests.md#repeating-missions) d’une mission de niveau compte comme une première réussite, une fois par mission et par saison, jusqu’à la 100e mission : qui a les 88 compte 12 Répétitions et gagne 15 PR.
 
 **Savoir dormant (Dormant Knowledge).** En plus des paliers, les cinq technologies Dormant Knowledge de la [Recherche](/wiki/03-Mechanics/Research.md#pilot-technologies) rapportent 50 PR chacune, 250 en tout. Un niveau paie quand sa recherche se termine, et après chaque réinitialisation, **un niveau que vous avez recherché peut être réclamé à nouveau** dans Sources de PR. Une technologie accordée par un administrateur ne rapporte rien.
+
+**Niveaux des aptitudes de pilote.** Une source de plus ne repart pas de zéro à la réinitialisation : chaque aptitude des [Aptitudes de pilote](/wiki/03-Mechanics/Pilot-Skills.md) rapporte des points de réinitialisation une seule fois, la première fois qu’elle atteint certains niveaux (la page les liste). Vous les réclamez au même endroit que les autres, et ils ne comptent pas dans le total ci-dessous.
 
 **En tout**, les sources rapportent jusqu’à **1 105 points de réinitialisation** par réinitialisation : 750 pour les éliminations, 105 pour les missions et 250 pour Dormant Knowledge. Votre grade rapporte davantage à la réinitialisation ([Saisons et récompenses](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

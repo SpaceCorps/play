@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Dungeon -->
 # Dungeon {#dungeons}
 
@@ -195,7 +195,7 @@ Un tipo alla volta. Scafo e scudo sono i valori usuali moltiplicati per il fatto
 
 ## Il Signore della guerra {#the-warlord}
 
-Il Signore della guerra aspetta nella sala all’estremità opposta del labirinto, e la sua caduta è ciò che paga il completamento. Non paga una distruzione propria, come invece fanno gli altri alieni. È un Crystalys diventato enorme. Il suo scafo e il suo scudo crescono con la dimensione del gruppo: più piloti entrano, più è resistente, in proporzione. Non lascia mai la sua sala, con la porta chiusa o aperta: resta tra le pareti della sala e non dà la caccia nei corridoi. Un pilota all’esterno può attirarlo solo fino al bordo della sala, e da una porta aperta spara comunque a tutto ciò che il suo laser raggiunge. Usa le sue abilità una alla volta, in ordine casuale, ognuna con il suo tempo di ricarica.
+Il Signore della guerra aspetta nella sala all’estremità opposta del labirinto, e la sua caduta è ciò che paga il completamento. Non paga una distruzione propria, come invece fanno gli altri alieni. È un Crystalys diventato enorme. Il suo scafo e il suo scudo crescono con la dimensione del gruppo: più piloti entrano, più è resistente, in proporzione. Non lascia mai la sua sala, con la porta chiusa o aperta: resta tra le pareti della sala e non dà la caccia nei corridoi. Un pilota all’esterno può attirarlo solo fino al bordo della sala, e da una porta aperta spara comunque a tutto ciò che il suo laser raggiunge. Usa le sue abilità una alla volta, in ordine casuale, ognuna con il suo tempo di ricarica. Dalla fase 2 il suo laser spara a due piloti alla volta: i due più vicini che riesce a vedere prendono ciascuno un’intera raffica.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ Il Signore della guerra aspetta nella sala all’estremità opposta del labirint
 | :--- | ---: | ---: | ---: |
 | Scafo | 10.000.000 | 15.000.000 | 25.000.000 |
 | Scudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Danno dei laser (una raffica al secondo) | 12.500–15.000 | 15.000–17.500 | 20.000–25.000 |
+| Danno dei laser (una raffica al secondo) | 12.500–15.000 | 15.000–17.500 su ciascuno di 2 piloti | 20.000–25.000 su ciascuno di 2 piloti |
 | Velocità | 120 | 120 | 120 |
 | Portata dei laser | 1.100 | 1.100 | 1.100 |
 
@@ -237,9 +237,10 @@ La finestra Dungeon del clan conta quanti di essi restano da distruggere per apr
 - **L’anello rosso** dell’Aura di furto vitale ferisce ogni pilota al suo interno e cura il Signore della guerra con il danno. Anche l’Assorbimento dello scudo ha un anello rosso: svuota gli scudi dei piloti all’interno e carica quello del Signore della guerra. In entrambi i casi, esci dall’anello o mettiti dietro una parete.
 - **Gli anelli ambra** della Pioggia di meteore mostrano dove i meteoriti cadranno un istante dopo. Continua a muoverti ed esci dall’anello prima che cada.
 - **Focus sul più ricercato** segna il pilota che ha inflitto più danno al Signore della guerra, con una parentesi dorata sulla sua nave, e il Signore della guerra gli spara un colpo in più ogni secondo finché dura. La sua mira non cambia: continua a sparare al pilota più vicino che riesce a vedere, quindi un pilota segnato che è anche il più vicino prende entrambi. Il colpo in più richiede una linea libera e la portata del laser del Signore della guerra, quindi una parete o un po’ di distanza lo salva. Non inizia finché nessuno ha inflitto danno.
-- **La Raffica di razzi** manda razzi a ricerca su piloti casuali, ma solo su piloti che il Signore della guerra può vedere, e una parete sulla strada ferma un razzo. Un anello mostra quale pilota un razzo segue. Una EMP Charge o l’occultamento li scrolla di dosso.
+- **La Raffica di razzi** manda un razzo a ricerca su ogni pilota che il Signore della guerra può vedere, e finché dura manda un altro giro ogni pochi secondi. Una parete sulla strada ferma un razzo. Un anello mostra quale pilota un razzo segue. Una EMP Charge o l’occultamento li scrolla di dosso.
 - **Il Supporto dello sciame** è il Signore della guerra che chiama i suoi Goombah. Finché vivono, non può essere ferito, e non spara né usa altre abilità. Distruggili tutti: lo striscione conta quanti ne restano. Se passa un minuto, il Signore della guerra può di nuovo essere ferito e i Goombah rimasti restano a combattere. Non contano per la sala del boss, e non pagano nulla.
 - **La Zona del Caos** è un anello viola sul terreno, attorno al Signore della guerra, e finché dura va dovunque vada il Signore della guerra. Nessuno dentro l’anello può attaccare, né con i laser né con i razzi, ma riparazioni, occultamento e volo funzionano ancora, e il Signore della guerra e i suoi alieni sparano come sempre. L’anello compare un attimo prima di fare effetto: esci da esso e resta fuori, perché segue il Signore della guerra. Un pilota fuori può ancora sparare, fin dove arrivano le sue armi.
+- **La Lancia fantasma** fa sparire il Signore della guerra per un secondo. Ricompare in un altro punto della sua stanza con due illusioni di sé stesso. Finché un’illusione vive, spara al pilota più vicino che riesce a vedere con metà della raffica del Signore della guerra e cura ogni secondo lo scafo e lo scudo del Signore della guerra (i numeri sono nella tabella delle abilità). Le illusioni hanno uno scafo proprio: distruggile per fermare la cura. Non pagano nulla e se ne vanno con il Signore della guerra quando cade. Il Signore della guerra può essere distrutto finché esse vivono.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ La finestra Dungeon del clan conta quanti di essi restano da distruggere per apr
 | Abilità | Preparazione | Durata | Ricarica | Raggio dell’anello (unità) | Il Signore della guerra recupera, al massimo |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Aura di furto vitale** | 2 s | 15 s | 2 min | 900 | 8% di scafo e scudo |
-| **Pioggia di meteore** | 1,5 s | 3 raffiche, a 4 s di distanza | 2 min | 420 | – |
+| **Pioggia di meteore** | 1,5 s | 3 raffiche, a 4 s di distanza | 2 min | 546 | – |
 | **Focus sul più ricercato** | 1 s | 20 s | 2 min | – | – |
 | **Raffica di razzi** | 1,5 s | 45 s | 2 min | – | – |
 | **Assorbimento dello scudo** | 2 s | 15 s | 2 min | 900 | 6% del suo scudo |
 | **Supporto dello sciame** | 2 s | Fino a 1 min | 3 min | – | – |
 | **Zona del Caos** | 2 s | 15 s | 2 min | 900 | – |
+| **Lancia fantasma** | 1,5 s | 1 s | 2 min | – | – |
 
 | Abilità | Fase 1 | Fase 2 | Fase 3 |
 | :--- | :--- | :--- | :--- |
 | **Aura di furto vitale** | 8.000 al secondo | 10.000 al secondo | 12.000 al secondo |
-| **Pioggia di meteore** | 6 meteoriti per raffica, 40.000 ciascuno | 8 meteoriti per raffica, 50.000 ciascuno | 10 meteoriti per raffica, 60.000 ciascuno |
+| **Pioggia di meteore** | 6 meteoriti per raffica, 80.000 ciascuno | 8 meteoriti per raffica, 100.000 ciascuno | 10 meteoriti per raffica, 120.000 ciascuno |
 | **Focus sul più ricercato** | 18.750–22.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 22.500–26.250 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s | 30.000–37.500 per colpo extra al pilota che ha inflitto più danni, uno ogni 1 s |
-| **Raffica di razzi** | 26.000 a razzo, uno ogni 15 s | 32.500 a razzo, uno ogni 15 s | 39.000 a razzo, uno ogni 15 s |
+| **Raffica di razzi** | 50.000–75.000 a razzo su ogni pilota, uno ogni 15 s | 62.500–93.750 a razzo su ogni pilota, uno ogni 15 s | 75.000–112.500 a razzo su ogni pilota, uno ogni 15 s |
 | **Assorbimento dello scudo** | 10.000 di scudo al secondo | 12.500 di scudo al secondo | 15.000 di scudo al secondo |
 | **Supporto dello sciame** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare | I piloti dentro l’anello non possono attaccare |
+| **Lancia fantasma** | 2 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 2 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo | 2 illusioni da 500.000 di scafo ciascuna; ognuna spara il 50% della raffica del Signore della guerra e, finché vive, cura il Signore della guerra di 50.000 di scafo e 50.000 di scudo al secondo |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Le **Orvium Reinforced Plates** e gli **Echo Shard** e **Lattice Shard** della F
 
 | Fase | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 con il primo completamento pagato di ogni livello in una stagione, e il 5% di probabilità di uno in più a ogni completamento pagato.
 
@@ -379,8 +382,8 @@ Ciò che un pilota può ricevere in un giorno, e nella settimana migliore che i 
 
 | Paga per ogni pilota | Onore | Esperienza | Crediti | Thulium | Munizioni x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Punti classifica PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
-| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
+| Un giorno, ogni fase una volta | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| La settimana migliore: 7 × Fase 3 e 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 L’esperienza e l’onore di una fase completata e pagata contano per i tuoi punti classifica PvE: un punto ogni 1.000 di esperienza e uno ogni 100 di onore.
 
@@ -391,8 +394,8 @@ L’esperienza e l’onore di una fase completata e pagata contano per i tuoi pu
 Ogni alieno di un dungeon paga quando cade e lascia cadere del bottino, come l’alieno del gioco su cui è modellato: un Dungeon Goombah come un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys e il suo Twin come un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate come il Pirate Boss dello [Sciame Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Ciò che paga e lascia cadere una distruzione è quello dell’originale **moltiplicato per il rapporto tra scafo e scudo di entrambi insieme**: un alieno resistente come il suo originale paga quanto paga l’originale, uno due volte più resistente paga il doppio e lascia cadere il doppio di ogni oggetto, e così via. La sezione di ogni tipo di alieno sotto [Gli alieni](#the-aliens) indica il rapporto e la paga di una distruzione in ogni fase.
 
 - **Chi viene pagato.** I piloti che hanno colpito l’alieno, in base al danno inflitto, come per gli alieni degli sciami: un pilota o un gruppo che l’ha solo sfiorato non riceve nulla, un gruppo viene pagato come uno solo, e dentro un gruppo i membri vicini al relitto che hanno sparato da poco si dividono per livello quanto viene pagato. Un pilota che non ha inflitto danni all’alieno non riceve nulla per esso, per quanto vicino abbia volato, e un alieno che nessun pilota ha colpito non paga nessuno. Contano solo i piloti che le regole qui sopra pagano: chi se n’è andato, chi non è stato dentro abbastanza a lungo, chi è già stato pagato oggi per la fase o chi ha avuto tutti i completamenti pagati della settimana non riceve nulla per gli alieni, e gli altri hanno la sua parte. Una distruzione non chiede la parte nello scontro: aver colpito l’alieno è la parte. Se il membro di un gruppo che ha inflitto più danni è stato distrutto o non è più sulla mappa, i membri vicini al relitto che hanno sparato da poco si dividono la paga senza di lui.
-- **Cosa viene pagato.** Crediti, Thulium, esperienza e onore, una volta per distruzione. La paga è quella dell’originale in Alpha, in ogni mondo: un dungeon non ha moltiplicatore di mondo. I tuoi booster, il Premium, la formazione e i bonus del tuo clan contano come per qualsiasi distruzione, e l’esperienza conta per i tuoi [punti PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) come quella del completamento.
-- **Il bottino.** Viene tirato con le probabilità dell’originale, poi ogni quantità viene moltiplicata per il rapporto (una frazione di unità è una probabilità di averne una in più). Cade come una cassa sul relitto, prima per il pilota che ha inflitto più danni e il suo clan, poi per chiunque sulla mappa, e infine sparisce. La mappa regge solo un certo numero di casse alla volta, quindi raccoglile mentre combatti, e ciò che resta sulla mappa quando il dungeon si chiude se ne va con lui. A differenza degli oggetti del completamento, sono bottini ordinari di un alieno: si possono [vendere all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items) se l’oggetto è vendibile.
+- **Cosa viene pagato.** Crediti, Thulium, esperienza e onore, una volta per distruzione. La paga è quella dell’originale in Alpha, in ogni mondo: un dungeon non ha moltiplicatore di mondo. I tuoi booster, la formazione e i bonus del tuo clan contano come per qualsiasi distruzione, e l’esperienza conta per i tuoi [punti PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) come quella del completamento.
+- **Il bottino.** Viene tirato con le probabilità dell’originale, tranne l’Echo Shard, che è due volte più probabile, poi ogni quantità viene moltiplicata per il rapporto (una frazione di unità è una probabilità di averne una in più). Cade come una cassa sul relitto, prima per il pilota che ha inflitto più danni e il suo clan, poi per chiunque sulla mappa, e infine sparisce. La mappa regge solo un certo numero di casse alla volta, quindi raccoglile mentre combatti, e ciò che resta sulla mappa quando il dungeon si chiude se ne va con lui. A differenza degli oggetti del completamento, sono bottini ordinari di un alieno: si possono [vendere all’Asta](/wiki/03-Mechanics/Auction.md#marketable-items) se l’oggetto è vendibile.
 - **Cosa non paga.** Il Signore della guerra non paga una distruzione, solo il completamento. I Goombah che chiama non pagano nulla, perché la chiamata ritorna finché dura lo scontro.
 - **Non una distruzione del gioco.** Una distruzione in un dungeon non conta per le missioni, gli obiettivi, i contatori di distruzioni, i punti reset, i punti PvE di una distruzione, i droni o i P.E.T.: un Dungeon Goombah non è un Goombah del gioco.
 - **I limiti.** I limiti del giorno e della settimana qui sopra trattengono la paga degli alieni come quella del completamento: chi è già stato pagato oggi per la fase, o ha avuto tutti i completamenti pagati della settimana, non riceve nulla nemmeno per i suoi alieni, e il montepremi di una distruzione va agli altri. Un dungeon che non viene completato paga le sue distruzioni ai piloti che le regole pagano, e nulla per il completamento.

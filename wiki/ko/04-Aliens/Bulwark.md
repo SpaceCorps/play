@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Bulwark는 중장갑을 두른 방어 플랫폼입니다. 매우 공격적이며
 - **Cataclysite**: 확률 100% (최소 2, 최대 2)
 - **Reinforced Hull Plate**: 확률 30% (최소 1, 최대 1)
 - **Nyxite**: 확률 40% (최소 1, 최대 2)
-- **Echo Shard**: 확률 2% (최소 1, 최대 1)
+- **Echo Shard**: 확률 4% (최소 1, 최대 1)
 
 ## 배경 설정 {#lore}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -32,10 +32,10 @@ Sobald du annimmst, öffnet sich das **Gruppenfenster** (die Taste **B** oder ih
 Zerstört ein Mitglied ein Alien (oder wird ihm der Abschuss durch seinen [Anspruch](/wiki/03-Mechanics/Combat.md) ausgezahlt), werden die Belohnungen (Credits, Thulium, Erfahrung und Ehre) unter den Mitgliedern geteilt, die:
 
 - auf **derselben Karte** sind (in derselben Welt),
-- **am Leben** und innerhalb von **4.000 Einheiten** vom Wrack sind und
+- **am Leben** und innerhalb von **8.000 Einheiten** vom Wrack sind und
 - **schießen**: Sie haben innerhalb der letzten 15 Sekunden einen Laser oder eine Rakete auf irgendetwas abgefeuert.
 
-Jeder bekommt einen Anteil im Verhältnis zu seinem **Level**, egal welcher Konzern (die Credits und die Ehre gehören jedem Piloten selbst; kein Konzern behält etwas): Ein Pilot auf Level 15 mit einem Mitglied auf Level 5 bekommt 75 %, das Mitglied 25 %. Jeder Credit wird verteilt: Der Pilot, der den Abschuss gemacht hat, bekommt, was übrig bleibt, wenn die Anteile abgerundet werden. Die ganze Belohnung ist die des Schützen: Seine Booster, der Multiplikator seiner Welt und sein Premium gelten, die eines Mitglieds nicht. Allein oder wenn sonst niemand in Reichweite ist, zahlt ein Abschuss, was er immer gezahlt hat. Ein Pilot, der in der Nähe des Gefechts steht, ohne zu schießen, bekommt keinen Anteil.
+Jeder bekommt einen Anteil im Verhältnis zu seinem **Level**, egal welcher Konzern (die Credits und die Ehre gehören jedem Piloten selbst; kein Konzern behält etwas): Ein Pilot auf Level 15 mit einem Mitglied auf Level 5 bekommt 75 %, das Mitglied 25 %. Jeder Credit wird verteilt: Der Pilot, der den Abschuss gemacht hat, bekommt, was übrig bleibt, wenn die Anteile abgerundet werden. Die ganze Belohnung ist die des Schützen: Seine Booster und der Multiplikator seiner Welt gelten, die eines Mitglieds nicht. Allein oder wenn sonst niemand in Reichweite ist, zahlt ein Abschuss, was er immer gezahlt hat. Ein Pilot, der in der Nähe des Gefechts steht, ohne zu schießen, bekommt keinen Anteil.
 
 Die Meldung zum Abschuss sagt das: Die eigene **BELOHNUNG**-Zeile des Schützen zeigt seinen Anteil, gefolgt von „Belohnungen mit 2 Gruppenmitgliedern geteilt: dein Anteil beträgt 40%“, und ein Mitglied, dem ein Anteil ausgezahlt wird, liest „*Alien* wurde von *Pilot* zerstört; der Anteil deiner Gruppe zahlt sich aus“ mit den Beträgen. Die Meldungen erscheinen im Spielprotokoll.
 
@@ -43,7 +43,7 @@ Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen; die
 
 ## Missionen teilen {#sharing-missions}
 
-Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds, das auf derselben Karte ist und **in den letzten 15 Sekunden einen Laser oder eine Rakete auf irgendetwas abgefeuert hat**, egal wo es dort ist, als hätte es das Alien selbst zerstört. Die eigenen Regeln der Mission entscheiden weiterhin: Das Alien muss zur Art der Mission passen und im Sektor sein, den die Mission nennt. Ein Mitglied, das nicht geschossen hat oder auf einer anderen Karte ist, bekommt nichts angerechnet. Missionen behalten die Regeln ihres eigenen Konzerns: Eine Mission, die einen Abschuss im „Sektor 4 eines anderen Konzerns“ verlangt, zählt für das Mitglied, für das dieser Sektor der eines anderen Konzerns ist. Zählt der Abschuss eines Mitglieds für eine deiner Missionen, sagt dir eine Meldung, für welche. In der [Linie der Herausforderungen](/wiki/03-Mechanics/Quests.md#where-it-counts) muss ein Mitglied außerdem im Umkreis von **4.000 Einheiten** um das Wrack sein, um zu zählen, und jedes Mitglied, das eine Mission mit einem Missionsgegenstand hat, würfelt und sieht seinen eigenen Gegenstand: Niemand kann einen teilen.
+Ein Abschuss zählt auch für die **Abschuss-Missionen** jedes anderen Mitglieds, das auf derselben Karte ist und **in den letzten 15 Sekunden einen Laser oder eine Rakete auf irgendetwas abgefeuert hat**, egal wo es dort ist, als hätte es das Alien selbst zerstört. Die eigenen Regeln der Mission entscheiden weiterhin: Das Alien muss zur Art der Mission passen und im Sektor sein, den die Mission nennt. Ein Mitglied, das nicht geschossen hat oder auf einer anderen Karte ist, bekommt nichts angerechnet. Missionen behalten die Regeln ihres eigenen Konzerns: Eine Mission, die einen Abschuss im „Sektor 4 eines anderen Konzerns“ verlangt, zählt für das Mitglied, für das dieser Sektor der eines anderen Konzerns ist. Zählt der Abschuss eines Mitglieds für eine deiner Missionen, sagt dir eine Meldung, für welche. In der [Linie der Herausforderungen](/wiki/03-Mechanics/Quests.md#where-it-counts) muss ein Mitglied außerdem im Umkreis von **8.000 Einheiten** um das Wrack sein, um zu zählen, und jedes Mitglied, das eine Mission mit einem Missionsgegenstand hat, würfelt und sieht seinen eigenen Gegenstand: Niemand kann einen teilen.
 
 ## Chatkanäle {#chat-channels}
 

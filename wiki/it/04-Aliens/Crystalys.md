@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ A cosa serve ogni oggetto del bottino e dove altro trovarlo: [Risorse](/wiki/06-
 - **Quorvium**: 100% di probabilità (min. 6, max. 10)
 - **Power Core**: 50% di probabilità (min. 1, max. 1)
 - **Ancient Control Unit**: 20% di probabilità (min. 1, max. 1)
-- **Echo Shard**: 20% di probabilità (min. 1, max. 1)
+- **Echo Shard**: 40% di probabilità (min. 1, max. 1)
 
 ## Storia {#lore}
 

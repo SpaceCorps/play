@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea5ed5b1e27718af -->
+<!-- wiki-i18n source: 3881f42052d63758 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter és Dark Matter Plate-ek {#dark-matter-and-dark-matter-plates}
 
@@ -35,14 +35,14 @@ A **Dark Matter** az az erőforrás, amely a technológiafa csúcsa, a Kovácsm�
 2. **Gyárts N.I.K.E.-ket a Gyártásban.** Egy gyártás 5 rakétát ad 5 perc alatt, 100 000 kreditért, 1 500 Thuliumért, 20 Ship Fragmentért, 4 Reinforced Hull Plate-ért és 40 Cataclysite-ért. 20-at vihetsz magaddal. Lásd: [Rakéták](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Repülj a Veszélyes szektor 4-be (`DS-4`).** Ez a galaxis közepén lévő PvP-szektor, és a feketelyuk minden világban a pontos közepén lebeg ([A feketelyuk](/wiki/03-Mechanics/Black-Hole.md)). Idegenek és vállalati pilóták sosem mennek a közelébe, más pilóták viszont igen. A szezon 11. napjától a [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) idegenei a szektor bal felső sarkában élnek, messze a lövési vonaladtól.
 4. **Lőj a feketelyukra a pereméről.** A sugárzás a középponttól 4 000 egységre kezdődik. A N.I.K.E. 4 050 egységet repül, így bárhonnan kilőheted 4 000 és 4 380 egység távolság között. Ha nincs kijelölt célpont, vidd a kurzort a lyukra. 4,6 másodpercenként lőhetsz ki egy rakétát. Messzebbről rövid marad.
-5. **Szedd fel a ládákat.** Minden N.I.K.E., amely eléri a lyukat, **1, 2 vagy 3 Dark Mattert** ad vissza (az esetek negyedében 1-et, felében 2-t, negyedében 3-at), egy vagy két, legfeljebb 2 darabos ládában. A lyuk zónájának peremén landolnak, a középponttól 3 050–3 950 egységre, a lövésed vonalának közelében. Menj mindegyikhez 200 egységen belülre: a felszedés fél másodpercig tart.
+5. **Szedd fel a ládákat.** Minden N.I.K.E., amely eléri a lyukat, **1, 2 vagy 3 Dark Mattert** ad vissza (az esetek negyedében 1-et, felében 2-t, negyedében 3-at), egységenként egy ládában, vagyis egy-három ládában. A lyuk zónájának peremén landolnak, a középponttól 3 050–3 950 egységre, a lövésed vonalának közelében. Menj mindegyikhez 200 egységen belülre: a felszedés fél másodpercig tart.
 6. **Vidd haza.** A Dark Matter a leltáradba kerül. Az állomáson, leszállt hajóval hozzáadhatod a Kutatóközponthoz, vagy felhasználhatod a Gyártásban.
 
-Nagyjából **5 rakéta ad 10 Dark Mattert**. A Resource Magnet Booster nem tesz hozzá semmit, így mindenkinek ugyanannyi, aki nem képezte az Antimatter képességet: az a 100. szinten legfeljebb +25%-ot ad hozzá.
+Nagyjából **5 rakéta ad 10 Dark Mattert**. A Resource Magnet Booster nem tesz hozzá semmit, így mindenkinek ugyanannyi, aki nem képezte az Antimatter képességet: az a 100. szinten legfeljebb +100%-ot ad hozzá.
 
 ### Hogyan maradj életben {#keeping-it-safe}
 
-- **A ládák 60 másodpercig a tieid**, és a klánodéi. Utána bárki felveheti őket a térképen, és 240 másodperc múlva eltűnnek. Egy térképen legfeljebb 32 Dark Matter-láda lehet, és egy új kiszorítja közülük a legrégebbit.
+- **A ládák 60 másodpercig a tieid**, és a klánodéi. Utána bárki felveheti őket a térképen, és 240 másodperc múlva eltűnnek. Egy térképen legfeljebb 52 Dark Matter-láda lehet, és egy új kiszorítja közülük a legrégebbit.
 - **A perem a sugárzásban van.** Ott másodpercenként a hajód teljes életerejének 0,3–0,8%-ába kerül, a lyukhoz közelebb többe. Egy teljes hajó nagyjából 2–5 percig bírja; egy perc a sáv közepén egyharmadába kerül. A vonzás 3 000 egységnél véget ér, így semmi nem visz el sem téged, sem a ládákat.
 - **A Veszélyes szektor 4 PvP.** Egy rivális várhat a vonaladon: a N.I.K.E. az első hajót találja el, amelyet érint (67 500–75 000 sebzés), és a lyuk nem kap semmit. Egy rivális a ládákra is várhat, ha lejárt a 60 másodperced. Lőj a peremről, a lövéseid sorrendjében szedd fel a ládákat, és hozz társaságot.
 - **További források.** A [Dormant-raj](/wiki/05-Swarms/Dormant-Swarm.md) egy Dormant Pulse-a öt esetből egyszer ejt 1–5 Dark Mattert, annak a pilótának, aki a legtöbb sebzést okozta neki. A rajhoz nagy csoport kell. A [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) egy Inert Mass-e is ejt néha belőle, de a mocsár lövegei alatt él. A nagy forrás a 4. veszélyes szektor [Tesseractja](/wiki/05-Swarms/Tesseract-Swarm.md): minden pilóta, akit a megölése kifizet, kap egy privát ládát, és a megölés 10–20 Dark Matteres készletét sebzés szerint osztják el köztük, pilótánként legfeljebb 5-tel, így négy vagy több pilóta csoportja megölésenként nagyjából 15-öt visz haza. Nagyon nagy csoport kell hozzá egy PvP-szektorban, és a megsemmisítése után 30 perccel tér vissza.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Paragon är en tung stridskryssare med balanserat försvar och balanserad eldkra
 
 | Design | Vad den ändrar |
 | :--- | :--- |
-| **Paragon THUNDER** | -25 % basskrov, +40 bashastighet, +1 laserplats |
-| **Paragon BUCKY** | +25 % basskrov, -20 bashastighet, -1 laserplats, +10 % sköldabsorption, +20 % modellstorlek |
+| **Paragon THUNDER** | +40 bashastighet, +1 laserplats |
+| **Paragon BUCKY** | +25 % basskrov, -20 bashastighet, +10 % sköldabsorption, +20 % modellstorlek |
 | **Paragon LICH** | +1 % sköldregeneration per sekund |
 
 <!-- research-ship:begin -->

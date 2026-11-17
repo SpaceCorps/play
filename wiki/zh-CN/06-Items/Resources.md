@@ -724,7 +724,7 @@
 
 **获取方式**
 
-- **黑洞**：一枚 [N.I.K.E.](/wiki/06-Items/Rockets.md) 火箭穿过危险星区 4 中央黑洞的事件视界后会被吞噬，黑洞会返还 **1, 2 或 3** 个 Dark Matter（平均 2 个），装在每个最多 2 个的货箱里，出现在其区域的边缘，距中心 3,050 至 3,950 单位。这些货箱在 60 秒内归你和你的战队所有，存在 240 秒。途中遇到舰船的 N.I.K.E. 会改为击中它并被消耗。参见 [Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 和 [黑洞](/wiki/03-Mechanics/Black-Hole.md#dark-matter)。
+- **黑洞**：一枚 [N.I.K.E.](/wiki/06-Items/Rockets.md) 火箭穿过危险星区 4 中央黑洞的事件视界后会被吞噬，黑洞会返还 **1, 2 或 3** 个 Dark Matter（平均 2 个），装在每个最多 1 个的货箱里，出现在其区域的边缘，距中心 3,050 至 3,950 单位。这些货箱在 60 秒内归你和你的战队所有，存在 240 秒。途中遇到舰船的 N.I.K.E. 会改为击中它并被消耗。参见 [Dark Matter 与 Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) 和 [黑洞](/wiki/03-Mechanics/Black-Hole.md#dark-matter)。
 - Dormant Swamp 的 **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**：从赛季第 11 天起，它的货箱中有 5% 装有 1–3 个。它生活在沼泽炮台之下。
 - **另外**：商店不出售。
 
@@ -833,14 +833,15 @@
 
 | 外星人 | 星区 | 掉落 | 每次击杀平均 |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%：1 | 0.2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5%：1 | 0.05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2%：1 | 0.02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1%：1 | 0.01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.4%：1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40%：1 | 0.4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10%：1 | 0.1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4%：1 | 0.04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%：1 | 0.02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8%：1 | 0.01 |
 
 - **单人星门**：每次通关获得Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34。
-- **战队地下城**：通关阶段1、2、3并获得奖励时分别获得3, 2 和 2。
+- **战队地下城**：通关阶段1、2、3并获得奖励时分别获得12, 8 和 8。
+- **战队地下城的外星人**：掉落几率是上表的2倍。
 - **运气与Resource Magnet Booster**：两者都不会增加。它永远不能在拍卖行上架。
 - **另外**：商店不出售。
 
@@ -848,7 +849,7 @@
 
 - 锻造炉的插槽：调谐一个空插槽需要Echo Shard。
 
-**刷取方法**：击杀 [Crystalys](/wiki/04-Aliens/Crystalys.md)（星区 4）：平均每次击杀 0.2；最近的来源是 [Seeker](/wiki/04-Aliens/Seeker.md)（星区 1），每次击杀 0。
+**刷取方法**：击杀 [Crystalys](/wiki/04-Aliens/Crystalys.md)（星区 4）：平均每次击杀 0.4；最近的来源是 [Seeker](/wiki/04-Aliens/Seeker.md)（星区 1），每次击杀 0.01。
 
 ### Lattice Shard
 

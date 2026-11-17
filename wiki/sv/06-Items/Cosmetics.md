@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; utseende; lackering; garderob; avgasspår -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; utseende; lackering; garderob; avgasspår -->
 
 Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrovets lackering), en **aura** (ett mjukt sken och en ljusring runt skeppet), ett **avgasspår** (färgen och formen på spåret bakom motorerna) och dina drönares **lackering**. Ett utseende är bara till för syns skull: det ger ingen skada, inget skrov och ingen fart, tar ingen plats och ändrar ingenting som ett skott kan träffa.
 
@@ -22,24 +22,25 @@ Ett **utseende** är det ditt skepp bär. Det har fyra delar: en **skin** (skrov
 
 ## Skins
 
-En skin är ett färgschema gjort av skeppets eget skrov: panellinjer, nummer och ränder blir kvar och bara färgerna ändras. Den är till för en **skeppsmodell**, och samma skin bärs av alla dina skepp av den modellen och av varje [design](/wiki/03-Mechanics/Ship-Designs.md) som gjorts av den; en ombyggnad behåller utseendet. Protos har ännu ingen skin, Kitefin, Ostirion och Nomad har en kollektion, och de fyra skepp du tillverkar i Monteringen har alla tio.
+En skin är ett färgschema gjort av skeppets eget skrov: panellinjer, nummer och ränder blir kvar och bara färgerna ändras. Den är till för en **skeppsmodell**, och samma skin bärs av alla dina skepp av den modellen och av varje [design](/wiki/03-Mechanics/Ship-Designs.md) som gjorts av den; en ombyggnad behåller utseendet. Protos har ännu ingen skin, Kitefin, Ostirion och Nomad har en kollektion, och de fyra skepp du tillverkar i Monteringen och Miyuki har alla elva. En skin för Miyuki bärs av alla hennes fem nivåer.
 
 Skins hör till ditt **konto**, inte till ett skepp, och de finns kvar över [wipen](/wiki/03-Mechanics/Wipe-Timeline.md); dina skepp bär det de bar.
 
-[Kromaarkivet](/wiki/06-Items/Containers.md#chroma-archive) kan ge varje kollektion utom Bloody R.E.D, en skin åt gången: en kollektion som pris ger en skin ur den, för en skeppsmodell. Det är skinen för ditt aktiva skepp om kollektionen har en för det och du inte har den än; annars skinen för ett annat skepp du äger; annars den första skinen i kollektionen som du saknar. Flyg alltså det skepp du vill ha skinen till när du öppnar ett arkiv. Kollektionen kan komma igen tills du har alla dess skins. En kollektion som kom hel före 0.5.7 förblir din, med varje skin.
+[Kromaarkivet](/wiki/06-Items/Containers.md#chroma-archive) kan ge varje kollektion utom Bloody R.E.D och LOU, en skin åt gången: en kollektion som pris ger en skin ur den, för en skeppsmodell. Det är skinen för ditt aktiva skepp om kollektionen har en för det och du inte har den än; annars skinen för ett annat skepp du äger; annars den första skinen i kollektionen som du saknar. Flyg alltså det skepp du vill ha skinen till när du öppnar ett arkiv. Kollektionen kan komma igen tills du har alla dess skins. En kollektion som kom hel före 0.5.7 förblir din, med varje skin.
 
 | Kollektion | Skepp | Sällsynthet | Hur den ser ut |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Sällsynt | Ett snövitt skrov med orange delar |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Ovanlig | Hela skrovet i din koncerns färg: rött för Mars, grönt för Terra, lila för Galactic. Den följer med dig om du byter koncern |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mytisk | Svart och blodrött, med klanens logga på ett mörkt märke mitt på skrovet |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Episk | Nyårsafton och nyårsdagen: ett nattblått skrov med silver- och champagnefärgad list och ett champagneglas |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Episk | Jordens dag: havsblått med grönt land och en liten jordglob |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Episk | Internationella kvinnodagen: citrongult med lila list och en blomma |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Episk | Internationella fredsdagen: himmelsblått med olivfärgad list och ett vitt fredstecken |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Sällsynt | Dagjämningarna och solstånden: ett mörkt blågrönt skrov med en gyllene sol |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Episk | Världshälsodagen och Världsdagen för psykisk hälsa: ett grönsvart skrov med en neongrön hjärtrytm |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Episk | Halloween: kolgrått med orange, och en måne med stjärnor |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Sällsynt | Ett snövitt skrov med orange delar |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Ovanlig | Hela skrovet i din koncerns färg: rött för Mars, grönt för Terra, lila för Galactic. Den följer med dig om du byter koncern |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mytisk | Svart och blodrött, med klanens logga på ett mörkt märke mitt på skrovet |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mytisk | Klanen LOU:s skin, som spelets team ger till dess medlemmar: svart som Bloody R.E.D, med djupt violetta delar och ingen logga |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Nyårsafton och nyårsdagen: ett nattblått skrov med silver- och champagnefärgad list och ett champagneglas |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Jordens dag: havsblått med grönt land och en liten jordglob |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Internationella kvinnodagen: citrongult med lila list och en blomma |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Internationella fredsdagen: himmelsblått med olivfärgad list och ett vitt fredstecken |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Sällsynt | Dagjämningarna och solstånden: ett mörkt blågrönt skrov med en gyllene sol |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Världshälsodagen och Världsdagen för psykisk hälsa: ett grönsvart skrov med en neongrön hjärtrytm |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episk | Halloween: kolgrått med orange, och en måne med stjärnor |
 
 ## Drönarnas lackering {#drone-liveries}
 

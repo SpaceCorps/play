@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Vad varje föremål används till, och var du annars hittar det: [Resurser](/wik
 - **Ship Fragment**: 100 % chans (Min: 1, Max: 1)
 - **Daraxium**: 60 % chans (Min: 1, Max: 2)
 - **Nyxite**: 60 % chans (Min: 1, Max: 2)
-- **Echo Shard**: 1 % chans (Min: 1, Max: 1)
+- **Echo Shard**: 2 % chans (Min: 1, Max: 1)
 
 ## Bakgrund {#lore}
 

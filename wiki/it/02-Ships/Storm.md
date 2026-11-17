@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ La Storm è un caccia a cannone di vetro: la velocità di base più alta e il ma
 
 | Design | Cosa cambia |
 | :--- | :--- |
-| **Storm NOTSUM** | -10% scafo base, +50 velocità base, +2% velocità, Blink |
-| **Storm BRATAN** | -50 velocità base, +2 slot laser, -25% capacità dello scudo, +10% penetrazione dello scudo, Heal Pod |
-| **Storm RECON** | -20% scafo base, +5% velocità, -1 slot laser, Chameleon |
+| **Storm NOTSUM** | -10% scafo base, +50 velocità base, +2% velocità, +5% danno totale, Blink |
+| **Storm BRATAN** | -50 velocità base, +2 slot laser, -25% capacità dello scudo, +10% penetrazione dello scudo, +5% danno totale, Heal Pod |
+| **Storm RECON** | -20% scafo base, +5% velocità, -1 slot laser, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

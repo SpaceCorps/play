@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea5ed5b1e27718af -->
+<!-- wiki-i18n source: 3881f42052d63758 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter y Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -35,14 +35,14 @@
 2. **Fabrica N.I.K.E. en el Ensamblaje.** Una fabricación hace 5 cohetes en 5 minutos por 100.000 créditos, 1.500 de Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate y 40 Cataclysite. Puedes llevar 20. Consulta [Cohetes](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Vuela al Sector de peligro 4 (`DS-4`).** Es el sector PvP del centro de la galaxia, y el agujero negro cuelga de su centro exacto en todos los mundos ([El agujero negro](/wiki/03-Mechanics/Black-Hole.md)). Ningún alienígena ni piloto de corporación se acerca a él, pero otros pilotos sí. Desde el día 11 de la temporada los alienígenas del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) viven en la esquina superior izquierda del sector, lejos de tu línea de tiro.
 4. **Dispara al agujero negro desde su borde.** La radiación empieza a 4.000 unidades del centro. Una N.I.K.E. vuela 4.050 unidades, así que puedes disparar desde cualquier punto entre 4.000 y 4.380 unidades de distancia. Sin objetivo seleccionado, pon el cursor sobre el agujero. Puedes disparar un cohete cada 4,6 segundos. Desde más lejos se queda corto.
-5. **Recoge las cajas.** Cada N.I.K.E. que llega al agujero devuelve **1, 2 o 3 Dark Matter** (1 una cuarta parte de las veces, 2 la mitad, 3 una cuarta parte), en una o dos cajas de 2 como máximo. Caen en el borde de la zona del agujero, a entre 3.050 y 3.950 unidades del centro, cerca de la línea de tu disparo. Acércate a menos de 200 unidades de cada una: recogerla tarda medio segundo.
+5. **Recoge las cajas.** Cada N.I.K.E. que llega al agujero devuelve **1, 2 o 3 Dark Matter** (1 una cuarta parte de las veces, 2 la mitad, 3 una cuarta parte), en una caja por unidad, es decir, de una a tres cajas. Caen en el borde de la zona del agujero, a entre 3.050 y 3.950 unidades del centro, cerca de la línea de tu disparo. Acércate a menos de 200 unidades de cada una: recogerla tarda medio segundo.
 6. **Llévala a casa.** La Dark Matter va a tu inventario. En la estación, con la nave aterrizada, puedes añadirla al Centro de investigación o usarla en el Ensamblaje.
 
-Unos **5 cohetes dan 10 Dark Matter**. El Resource Magnet Booster no le suma nada, así que es igual para todos los que no hayan entrenado la habilidad Antimatter: esa suma hasta +25 % en el nivel 100.
+Unos **5 cohetes dan 10 Dark Matter**. El Resource Magnet Booster no le suma nada, así que es igual para todos los que no hayan entrenado la habilidad Antimatter: esa suma hasta +100 % en el nivel 100.
 
 ### Cómo ir sobre seguro {#keeping-it-safe}
 
-- **Las cajas son tuyas durante 60 segundos**, y de tu clan. Después, cualquiera que esté en el mapa puede tomarlas, y desaparecen a los 240 segundos. Un mapa admite como máximo 32 cajas de Dark Matter, y una nueva desplaza a la más antigua de ellas.
+- **Las cajas son tuyas durante 60 segundos**, y de tu clan. Después, cualquiera que esté en el mapa puede tomarlas, y desaparecen a los 240 segundos. Un mapa admite como máximo 52 cajas de Dark Matter, y una nueva desplaza a la más antigua de ellas.
 - **El borde está dentro de la radiación.** Allí cuesta de 0,3 a 0,8 % de los HP totales de tu nave cada segundo, más cuanto más cerca del agujero. Una nave completa aguanta unos 2 a 5 minutos; un minuto en medio de la banda cuesta un tercio. La atracción termina a 3.000 unidades, así que nada te arrastra a ti ni a las cajas.
 - **El Sector de peligro 4 es PvP.** Un rival puede esperar en tu línea: una N.I.K.E. golpea la primera nave que toca (de 67.500 a 75.000 de daño) y el agujero no recibe nada. Un rival también puede esperar a las cajas cuando se acaben tus 60 segundos. Dispara desde el borde, recoge las cajas en el orden de tus disparos y ve acompañado.
 - **Otras fuentes.** Una Dormant Pulse del [Enjambre Dormant](/wiki/05-Swarms/Dormant-Swarm.md) suelta de 1 a 5 Dark Matter una vez de cada cinco, para el piloto que más daño le hizo. El enjambre exige un grupo grande. Una Inert Mass del [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) también suelta algo de vez en cuando, pero vive bajo los cañones del pantano. La grande es el [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) del sector de peligro 4: cada piloto al que paga su derribo recibe una caja privada, y el bote del derribo, de 10 a 20 Dark Matter, se reparte entre ellos según el daño, con 5 como máximo para cada piloto, así que un grupo de cuatro o más se lleva unos 15 por derribo. Exige un grupo muy grande en un sector PvP y vuelve 30 minutos después de ser destruido.

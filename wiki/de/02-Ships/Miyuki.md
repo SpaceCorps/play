@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Eine Verbindung dauert 5 Sekunden und reicht zu einem Schiff deiner Gruppe oder 
 
 ## Forschung {#research}
 
-- **Stufen.** Miyuki II bis V sind eigene Technologien im Skylab, jede hinter der Stufe darunter: 1 d für II und III, 2 d für IV und V und je 10 Dark Matter.
+- **Stufen.** Miyuki II bis V sind eigene Technologien im Skylab, jede hinter der Stufe darunter: 1 d für II und III, 2 d für IV und V und je 10 Dark Matter. In der Ansicht Forschung stehen die fünf Stufen untereinander, mit einem Pfeil von jeder Stufe zur nächsten: Du erforschst II nach I, III nach II, IV nach III und V nach IV.
 - **Slots.** Die Panzerungs-Slots, die Laser-Slots ab dem sechsten und die Generator-Slots ab dem neunten sind eigene Technologien im Skylab, je 1 h und 10 Dark Matter: Panzerungs-Slots 1 bis 9 der Reihe nach vom ersten an, Laser-Slots 6 bis 9 (jeder hinter seiner Stufe) und Generator-Slots 9 bis 12 (jeder hinter Stufe V). Ein Slot öffnet sich am Schiff, egal auf welcher Stufe es ist, sobald du ihn erforscht hast; ein noch nicht erforschter erscheint im Hangar gesperrt.
 - **Panzerungs-Slots.** Die Miyuki hat auf Stufe I 5 [Panzerungs-Slots](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) für [Hüllenpanzerung](/wiki/06-Items/Hull-Plating.md) und auf Stufe V 9, alle gesperrt, wenn du sie baust. Alle 9 mit Hull Plating III gefüllt ergeben 225.000 Hülle.
 

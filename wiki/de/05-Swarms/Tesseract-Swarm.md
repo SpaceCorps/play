@@ -84,13 +84,13 @@ Basis: Crystalys mit 625 % der Hülle; ohne Waffe, Schild und Tempo sind eigene
 
 ### Facet
 
-Basis: Seeker mit 2.500 % der Hülle und 309 % des Laserschadens; Schild, Tempo und Reichweite sind eigene Werte.
+Basis: Seeker mit 2.500 % der Hülle und 463 % des Laserschadens; Schild, Tempo und Reichweite sind eigene Werte.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hülle | 20.000 | 30.000 | 40.000 |
 | Schild | 16.000 | 24.000 | 32.000 |
-| Laserschaden (eine Salve pro Sekunde) | 556 | 834 | 1.112 |
+| Laserschaden (eine Salve pro Sekunde) | 834 | 1.251 | 1.668 |
 | Tempo | 750 | 750 | 750 |
 | Laserreichweite | 600 | 600 | 600 |
 | Aggro-Radius | nur wenn angegriffen | nur wenn angegriffen | nur wenn angegriffen |

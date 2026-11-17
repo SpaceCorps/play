@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7069cd111c9ce842 -->
+<!-- wiki-i18n source: c598c923528fc750 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,7 +44,7 @@ Para qué sirve cada botín y dónde más se encuentra: [Recursos](/wiki/06-Item
 - **Quorvium**: 100 % de probabilidad (mín.: 2, máx.: 4)
 - **Reinforced Hull Plate**: 60 % de probabilidad (mín.: 1, máx.: 1)
 - **Power Core**: 25 % de probabilidad (mín.: 1, máx.: 1)
-- **Echo Shard**: 5 % de probabilidad (mín.: 1, máx.: 1)
+- **Echo Shard**: 10 % de probabilidad (mín.: 1, máx.: 1)
 
 ## Historia {#lore}
 

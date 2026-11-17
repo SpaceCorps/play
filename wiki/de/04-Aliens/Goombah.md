@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 7069cd111c9ce842 -->
+<!-- wiki-i18n source: c598c923528fc750 -->
 <!-- wiki-i18n title: Goombah -->
 # Goombah
 
@@ -44,7 +44,7 @@ Wofür jede Beute gebraucht wird und wo es sie sonst noch gibt: [Ressourcen](/wi
 - **Quorvium**: 100 % Chance (Min.: 2, Max.: 4)
 - **Reinforced Hull Plate**: 60 % Chance (Min.: 1, Max.: 1)
 - **Power Core**: 25 % Chance (Min.: 1, Max.: 1)
-- **Echo Shard**: 5 % Chance (Min.: 1, Max.: 1)
+- **Echo Shard**: 10 % Chance (Min.: 1, Max.: 1)
 
 ## Hintergrund {#lore}
 

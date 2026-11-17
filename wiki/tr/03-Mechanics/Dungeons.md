@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Zindanlar -->
 # Zindanlar {#dungeons}
 
@@ -195,7 +195,7 @@ Her tür sırayla. Gövde ve kalkan, olağan değerlerin sütundaki aşamanın �
 
 ## Savaş Lordu {#the-warlord}
 
-Savaş Lordu, labirentin uzak ucundaki odada bekler ve düşüşü tamamlamanın ödemesini yapar. Diğer uzaylılar gibi kendi yok edilişi için ayrıca ödeme yapmaz. Devasa büyümüş bir Crystalys'tir. Gövdesi ve kalkanı grubun büyüklüğüyle büyür: ne kadar çok pilot girerse, orantılı olarak o kadar dayanıklıdır. Kapı kapalı da olsa açık da olsa odasından asla çıkmaz: odanın duvarları içinde kalır ve koridorlarda avlanmaz. Dışarıdaki bir pilot onu ancak odanın kenarına kadar çekebilir; açık bir kapıdan yine de lazerinin yettiği her şeye ateş eder. Yeteneklerini tek tek, rastgele sırayla kullanır; her birinin kendi bekleme süresi vardır.
+Savaş Lordu, labirentin uzak ucundaki odada bekler ve düşüşü tamamlamanın ödemesini yapar. Diğer uzaylılar gibi kendi yok edilişi için ayrıca ödeme yapmaz. Devasa büyümüş bir Crystalys'tir. Gövdesi ve kalkanı grubun büyüklüğüyle büyür: ne kadar çok pilot girerse, orantılı olarak o kadar dayanıklıdır. Kapı kapalı da olsa açık da olsa odasından asla çıkmaz: odanın duvarları içinde kalır ve koridorlarda avlanmaz. Dışarıdaki bir pilot onu ancak odanın kenarına kadar çekebilir; açık bir kapıdan yine de lazerinin yettiği her şeye ateş eder. Yeteneklerini tek tek, rastgele sırayla kullanır; her birinin kendi bekleme süresi vardır. 2. aşamadan itibaren lazeri aynı anda iki pilota ateş eder: görebildiği en yakın iki pilot da birer tam salvo yer.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ Savaş Lordu, labirentin uzak ucundaki odada bekler ve düşüşü tamamlamanın
 | :--- | ---: | ---: | ---: |
 | Gövde | 10.000.000 | 15.000.000 | 25.000.000 |
 | Kalkan | 8.000.000 | 12.000.000 | 20.000.000 |
-| Lazer hasarı (saniyede bir salvo) | 12.500–15.000 | 15.000–17.500 | 20.000–25.000 |
+| Lazer hasarı (saniyede bir salvo) | 12.500–15.000 | 2 pilotun her birine 15.000–17.500 | 2 pilotun her birine 20.000–25.000 |
 | Hız | 120 | 120 | 120 |
 | Lazer menzili | 1.100 | 1.100 | 1.100 |
 
@@ -237,9 +237,10 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 - Can çalma aurasının **kırmızı halkası**, içindeki her pilota zarar verir ve bu hasarla Savaş Lordu'nu iyileştirir. Kalkan emiliminin de kırmızı bir halkası vardır: içindeki pilotların kalkanını boşaltır ve Savaş Lordu'nunkini doldurur. İkisinde de halkadan çık ya da bir duvarın arkasına geç.
 - Meteor yağmurunun **kehribar halkaları**, meteorların bir an sonra nereye düşeceğini gösterir. Hareket etmeye devam et ve düşmeden önce halkadan çık.
 - **En aranana odaklan** yeteneği, Savaş Lordu'na en çok hasar vermiş pilotu geminin üzerinde altın rengi bir ayraçla işaretler ve sürdüğü sürece Savaş Lordu ona her saniye bir fazladan atış yapar. Nişanı değişmez: görebildiği en yakın pilota ateş etmeye devam eder, bu yüzden aynı zamanda en yakın olan işaretli pilot ikisini de yer. Fazladan atış için açık bir görüş hattı ve Savaş Lordu'nun lazer menzili gerekir; bir duvar ya da biraz mesafe onu kurtarır. Kimse hasar vermediği sürece başlamaz.
-- **Roket yağmuru**, rastgele pilotlara güdümlü roketler gönderir, ama yalnızca Savaş Lordu'nun görebildiği pilotlara; yoldaki bir duvar roketi durdurur. Bir halka, bir roketin hangi pilotu izlediğini gösterir. Bir EMP Charge ya da gizlenme onları atlatır.
+- **Roket yağmuru**, Savaş Lordu'nun görebildiği her pilota güdümlü bir roket gönderir ve sürdüğü müddetçe birkaç saniyede bir yeni bir tur daha gönderir. Yoldaki bir duvar roketi durdurur. Bir halka, bir roketin hangi pilotu izlediğini gösterir. Bir EMP Charge ya da gizlenme onları atlatır.
 - **Sürü desteği**, Savaş Lordu'nun Goombah'larını çağırmasıdır. Onlar yaşadığı sürece ona zarar verilemez ve ateş etmez, başka bir yetenek de kullanmaz. Hepsini yok et: afiş kaç tanesinin kaldığını sayar. Bir dakika geçerse Savaş Lordu'na yine zarar verilebilir ve kalan Goombah'lar yerinde kalıp savaşmaya devam eder. Patron odası için sayılmazlar ve hiçbir şey ödemezler.
 - **Kaos Bölgesi**, Savaş Lordu'nun çevresinde, yerde duran mor bir halkadır ve sürdüğü müddetçe Savaş Lordu nereye giderse oraya gider. Halkanın içindeki hiç kimse lazerle ya da roketle saldıramaz; ama onarım, gizlenme ve uçuş çalışmaya devam eder, Savaş Lordu ve uzaylıları her zamanki gibi ateş eder. Halka etkisini göstermeden kısa bir an önce belirir: ondan çık ve dışarıda kal, çünkü Savaş Lordu'nu izler. Halkanın dışındaki bir pilot, silahları yettiği kadar ateş etmeye devam edebilir.
+- **Hayalet Mızrak**, Savaş Lordu'nu bir saniyeliğine yok eder. Savaş Lordu odasının başka bir yerinde, kendisinin iki yanılsamasıyla birlikte geri döner. Bir yanılsama yaşadığı sürece görebildiği en yakın pilota Savaş Lordu'nun salvosunun yarısıyla ateş eder ve her saniye Savaş Lordu'nun gövdesini ve kalkanını iyileştirir (sayılar yeteneklerin tablosunda). Yanılsamaların kendi gövdesi vardır: iyileşmeyi durdurmak için onları yok et. Hiçbir şey ödemezler ve Savaş Lordu düştüğünde onunla birlikte giderler. Savaş Lordu, onlar yaşarken de yok edilebilir.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ Klan zindanı penceresi odayı açmak için bunlardan kaçının daha yok edilme
 | Yetenek | Hazırlık | Süre | Bekleme süresi | Halka yarıçapı (birim) | Savaş Lordu'nun geri kazandığı en çok |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Can çalma aurası** | 2 sn | 15 sn | 2 dk | 900 | Gövde ve kalkan: %8 |
-| **Meteor yağmuru** | 1,5 sn | 3 salvo, aralarında 4 sn | 2 dk | 420 | – |
+| **Meteor yağmuru** | 1,5 sn | 3 salvo, aralarında 4 sn | 2 dk | 546 | – |
 | **En aranana odaklan** | 1 sn | 20 sn | 2 dk | – | – |
 | **Roket yağmuru** | 1,5 sn | 45 sn | 2 dk | – | – |
 | **Kalkan emilimi** | 2 sn | 15 sn | 2 dk | 900 | Kalkan: %6 |
 | **Sürü desteği** | 2 sn | En fazla 1 dk | 3 dk | – | – |
 | **Kaos Bölgesi** | 2 sn | 15 sn | 2 dk | 900 | – |
+| **Hayalet Mızrak** | 1,5 sn | 1 sn | 2 dk | – | – |
 
 | Yetenek | Aşama 1 | Aşama 2 | Aşama 3 |
 | :--- | :--- | :--- | :--- |
 | **Can çalma aurası** | Saniyede 8.000 | Saniyede 10.000 | Saniyede 12.000 |
-| **Meteor yağmuru** | Salvo başına 6 meteor, her biri 40.000 | Salvo başına 8 meteor, her biri 50.000 | Salvo başına 10 meteor, her biri 60.000 |
+| **Meteor yağmuru** | Salvo başına 6 meteor, her biri 80.000 | Salvo başına 8 meteor, her biri 100.000 | Salvo başına 10 meteor, her biri 120.000 |
 | **En aranana odaklan** | En çok hasar veren pilota fazladan mermi başına 18.750–22.500, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 22.500–26.250, her 1 sn bir mermi | En çok hasar veren pilota fazladan mermi başına 30.000–37.500, her 1 sn bir mermi |
-| **Roket yağmuru** | Roket başına 26.000, her 15 sn bir roket | Roket başına 32.500, her 15 sn bir roket | Roket başına 39.000, her 15 sn bir roket |
+| **Roket yağmuru** | Her pilota roket başına 50.000–75.000, her 15 sn bir roket | Her pilota roket başına 62.500–93.750, her 15 sn bir roket | Her pilota roket başına 75.000–112.500, her 15 sn bir roket |
 | **Kalkan emilimi** | Saniyede 10.000 kalkan | Saniyede 12.500 kalkan | Saniyede 15.000 kalkan |
 | **Sürü desteği** | 12 Goombah | 18 Goombah | 24 Goombah |
 | **Kaos Bölgesi** | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz | Halkanın içindeki pilotlar saldıramaz |
+| **Hayalet Mızrak** | Her biri 500.000 gövdeli 2 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | Her biri 500.000 gövdeli 2 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir | Her biri 500.000 gövdeli 2 yanılsama; her biri Savaş Lordu'nun salvosunun %50 kadarını ateşler ve yaşadığı sürece Savaş Lordu'nu saniyede 50.000 gövde ve 50.000 kalkan iyileştirir |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Savaş Lordu düştüğünde, hak eden her pilota tamamlanan tur için bir kez �
 
 | Aşama | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
-| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
-| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+| **Aşama 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Aşama 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Aşama 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: Bir sezonda her aşamanın ilk ücretli tamamlanmasında 1; ayrıca her ücretli tamamlamada %5 ihtimalle bir tane daha.
 
@@ -379,8 +382,8 @@ Bir pilotun bir günde ve sınırların izin verdiği en iyi haftada alabileceğ
 
 | Her pilota ödeme | Onur | Deneyim | Kredi | Thulium | x4 cephane | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE sıralama puanı |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
-| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
+| Bir gün, her aşama bir kez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| En iyi hafta: 7 × Aşama 3 ve 3 × Aşama 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 Ödemesi yapılan bir tamamlamanın deneyimi ve onuru PvE sıralama puanlarınıza sayılır: her 1.000 deneyim için bir puan, her 100 onur için de bir puan.
 
@@ -391,8 +394,8 @@ Bir pilotun bir günde ve sınırların izin verdiği en iyi haftada alabileceğ
 Bir zindanın her uzaylısı düştüğünde ödeme yapar ve ganimet bırakır; örnek alındığı oyundaki uzaylı gibi: bir Dungeon Goombah bir [Goombah](/wiki/04-Aliens/Goombah.md) gibi, bir Dungeon Crystalys ve Twin'i bir [Crystalys](/wiki/04-Aliens/Crystalys.md) gibi, bir Dungeon Pirate ise Pirate Boss gibi ([Pirate sürüsü](/wiki/05-Swarms/Pirate-Swarm.md)). Bir uzaylının yok edilmesinin ödediği ve bıraktığı şey, orijinalinkinin **ikisinin gövde ve kalkanının birlikte oranıyla çarpılmış** halidir: orijinali kadar dayanıklı bir uzaylı orijinalin ödediğini öder, iki kat dayanıklı olan iki kat öder ve her eşyadan iki kat bırakır, böyle devam eder. [Uzaylılar](#the-aliens) başlığı altındaki her uzaylı türünün bölümü, oranı ve her aşamada bir yok edişin ödemesini verir.
 
 - **Kime ödenir.** Uzaylıya zarar veren pilotlara, verdikleri hasara göre, sürülerin uzaylılarında olduğu gibi: uzaylıya yalnızca sıyırıp geçen bir pilot ya da grup hiçbir şey almaz, bir grup tek kişi gibi ödenir ve bir grubun içinde enkaza yakın olan ve yakın zamanda ateş etmiş üyeler ödenen miktarı seviyeye göre paylaşır. Uzaylıya hasar vermemiş bir pilot, ne kadar yakından uçmuş olursa olsun, onun için hiçbir şey almaz; hiçbir pilotun zarar vermediği bir uzaylı ise kimseye ödeme yapmaz. Yalnızca yukarıdaki kuralların ödeme yaptığı pilotlar dahildir: ayrılan, yeterince uzun süre içeride kalmayan, bugün aşama için zaten ödeme alan ya da haftanın tüm ödemeli tamamlamalarını kullanan pilot uzaylılar için hiçbir şey almaz, payını diğerleri alır. Bir yok ediş savaştaki payı istemez: uzaylıya zarar vermek zaten paydır. Bir grubun en çok hasar veren üyesi yok edilmişse ya da haritada değilse, enkaza yakın olan ve yakın zamanda ateş etmiş üyeler ödemeyi onsuz paylaşır.
-- **Ne ödenir.** Kredi, Thulium, deneyim ve onur, yok ediş başına bir kez. Ödeme, orijinalin Alpha'da ödediğidir ve her dünyada aynıdır: bir zindanın dünya çarpanı yoktur. Boosterların, Premium'un, formasyonun ve klanının bonusları herhangi bir yok edişte olduğu gibi geçerlidir; deneyim de tamamlamanın deneyimi gibi [PvE puanlarına](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) sayılır.
-- **Ganimet.** Orijinalin şanslarıyla çekilir, sonra her miktar oranla çarpılır (bir birimin kesri, bir tane daha alma şansıdır). Enkazın yerinde bir kutu olarak düşer; önce en çok hasar veren pilot ve klanı için, sonra haritadaki herkes için, ardından kaybolur. Harita aynı anda yalnızca belirli sayıda kutu tutar, bu yüzden ilerlerken topla; zindan kapandığında haritada kalanlar zindanla birlikte gider. Tamamlamanın eşyalarından farklı olarak bunlar bir uzaylının olağan ganimetidir: eşya satılabilirse [Açık Artırma'da satılabilir](/wiki/03-Mechanics/Auction.md#marketable-items).
+- **Ne ödenir.** Kredi, Thulium, deneyim ve onur, yok ediş başına bir kez. Ödeme, orijinalin Alpha'da ödediğidir ve her dünyada aynıdır: bir zindanın dünya çarpanı yoktur. Boosterların, formasyonun ve klanının bonusları herhangi bir yok edişte olduğu gibi geçerlidir; deneyim de tamamlamanın deneyimi gibi [PvE puanlarına](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) sayılır.
+- **Ganimet.** Orijinalin şanslarıyla çekilir, yalnızca Echo Shard'ın şansı iki katıdır, sonra her miktar oranla çarpılır (bir birimin kesri, bir tane daha alma şansıdır). Enkazın yerinde bir kutu olarak düşer; önce en çok hasar veren pilot ve klanı için, sonra haritadaki herkes için, ardından kaybolur. Harita aynı anda yalnızca belirli sayıda kutu tutar, bu yüzden ilerlerken topla; zindan kapandığında haritada kalanlar zindanla birlikte gider. Tamamlamanın eşyalarından farklı olarak bunlar bir uzaylının olağan ganimetidir: eşya satılabilirse [Açık Artırma'da satılabilir](/wiki/03-Mechanics/Auction.md#marketable-items).
 - **Ödeme yapmayanlar.** Savaş Lordu yok ediş için ödeme yapmaz, yalnızca tamamlama için yapar. Çağırdığı Goombah'lar hiçbir şey ödemez, çünkü çağrı, savaş sürdüğü sürece geri gelir.
 - **Oyunun bir yok edişi değil.** Zindandaki bir yok ediş görevlere, başarımlara, yok etme sayaçlarına, sıfırlama puanlarına, bir yok edişin PvE puanlarına, dronlara ya da P.E.T.’lere sayılmaz: bir Dungeon Goombah, oyundaki bir Goombah değildir.
 - **Sınırlar.** Yukarıdaki günlük ve haftalık sınırlar uzaylıların ödemesini de tamamlamanınki gibi tutar: bugün aşama için zaten ödeme alan ya da haftanın tüm ödemeli tamamlamalarını kullanan pilot, uzaylıları için de bir şey almaz ve bir yok edişin havuzu diğerlerine gider. Tamamlanmayan bir zindan, yok edişlerini kuralların ödeme yaptığı pilotlara öder, tamamlama için ise hiçbir şey ödemez.

@@ -70,14 +70,14 @@ Your unopened containers, your [special items](/wiki/06-Items/Special-Items.md) 
 The **Chrono-Gate** (also referred to as the Galaxy Gate) is a massive seasonal structure that acts as a bridge between seasons. Building and stabilizing this gate is essential to unlocking your carry-over transport privileges. It is one of the six gates of the Galaxy Gates page: the other five are the [solo gates](/wiki/03-Mechanics/Solo-Gates.md), places you fly in, and their parts come out of the same Energy Materializer.
 
 ### Gate Assembly
-To fully stabilize the Chrono-Gate, you must collect exactly **2 Chrono-Gate parts**. [Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) has what each of the six gates needs and what its parts cost on average.
+To fully stabilize the Chrono-Gate, you must collect exactly **13 Chrono-Gate parts**. [Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) has what each of the six gates needs and what its parts cost on average.
 
 ### The Energy Materializer
 You obtain parts by using the Energy Materializer interface, which spins local energy sectors to locate gate parts. It spins for **Thulium** only (a spin for Credits is closed):
-* **Thulium Spin**: **100 Thulium** a spin, with a **13% chance** to produce a gate part. The part belongs to one of the six gates, picked by chance, so it is not always a Chrono-Gate part.
+* **Thulium Spin**: **100 Thulium** a spin, with a **13% chance** to produce a gate part. You pick the category to scan (the Chrono-Gate, Alpha–Gamma or Delta–Omega) and the part belongs to one of its gates, all equally likely: only the Chrono-Gate's own category finds Chrono-Gate parts.
 * **The guarantee.** A long run of spins without a part cannot go on for ever: after a number of dry spins the chance rises, and then a part is certain ([details](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **A spin without a part** still pays a prize ([Solo Gates](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Spins go on after the Chrono-Gate is complete.** Every spin is charged, and the parts it finds are then parts of the solo gates. The chance of a part is a sixth lower, because the Chrono-Gate's share of it is gone.
+* **Spins go on after the Chrono-Gate is complete.** Every spin is charged, and the parts it finds are then parts of the solo gates: the Chrono-Gate's entry is shut, and the other two categories keep their 13% chance.
 
 *Pro-Tip: You can use multipliers (1x, 5x, 10x, 100x) to perform bulk spins and accelerate gate construction.*
 
@@ -246,5 +246,7 @@ Only kills you are paid for count (see [Combat](/wiki/03-Mechanics/Combat.md)). 
 **Missions.** The first mission you complete pays 5 WP, then every 5th (the 5th, 10th, 15th and so on, up to the 100th) pays 5 WP more, 105 WP in all. Only the level missions count (88 in all: not the Station missions or the Challenge line, see [Quests](/wiki/03-Mechanics/Quests.md)), and a reworked level mission that you do again is not counted a second time. The 88 done once pay 90 WP. Your missions stay done through the wipe, so right after it **the 90 WP can be claimed again**. A [Repeat](/wiki/03-Mechanics/Quests.md#repeating-missions) of a level mission counts like a first completion, once per mission and season, up to the 100th mission: a pilot who has all 88 counts 12 Repeats and gains 15 WP.
 
 **Dormant Knowledge.** Besides the milestones, the five Dormant Knowledge technologies of the [Research](/wiki/03-Mechanics/Research.md#pilot-technologies) pay 50 WP each, 250 in all. A level pays when its research finishes, and after every wipe a level you have researched **can be claimed again** in WP Sources. A technology that an administrator grants pays none.
+
+**Pilot Skill levels.** One more source does not start again at the wipe: each skill of the [Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md) pays Wipe Points once ever, the first time it reaches certain levels (the page lists them). You claim them in the same place as the others, and they are not part of the total below.
 
 **In all** the sources pay up to **1,105 Wipe Points** in a wipe: 750 for the kills, 105 for the missions and 250 for Dormant Knowledge. Your rank pays more at the wipe ([Seasons and Rewards](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

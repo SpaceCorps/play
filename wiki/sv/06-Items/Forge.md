@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -30,6 +30,7 @@ Välj ett föremål så visar panelen dess nivå, vilken nivå det skulle nå, v
 - **Din Commerce-färdighet** sänker kreditkostnaden och Thulium-kostnaden för ett steg, och kreditkostnaden för en sammanslagning, med upp till 15 % på nivå 100 ([Pilotfärdigheter](/wiki/03-Mechanics/Pilot-Skills.md)). Tabellen visar priset på första nivån och panelen det pris du betalar; materialen ändras inte.
 - **Varje bonus som föremålet har** slumpas på nytt inom den nya nivåns spann och behåller det bättre värdet. Resultatet visas ovanför panelen; föremålet förblir valt, så dess nästa steg syns redan på skärmen.
 - En nivåhöjning sker direkt.
+- **Socklarna ligger under steget.** Nivå upp och [Socklar](#sockets) är en enda vy, **Uppgradera**, med Nivå upp först: sockeln som ett steg väcker står i listan strax under knappen, med sin knapp Stäm, så du behöver inte byta vy för att använda den.
 - **Ett Tinkerer's Badge** (ett [specialföremål](/wiki/06-Items/Special-Items.md#tinkerers-badge)) höjer en del en nivå utan krediter, utan Thulium och utan material, redan från Standard. Det är ett steg som inte kostar något: det väcker en sockel och slår om de bonusar delen har, som ett betalt steg.
 
 ### Dark Matter Plates
@@ -74,7 +75,7 @@ Kristallerna följer nivåerna: Daraxium har samma blå färg som Vaknad, Nyxite
 
 ## Socklar {#sockets}
 
-Smedjans vy **Socklar** är där en bonus hamnar i ett föremål. Välj en del så listar vyn dess socklar, dess integritet och de shards du har. En sockel är **låst** tills en nivåhöjning väcker den (dess rad säger på vilken nivå och med vilken kristalls steg), **tom** när den är vaken och **stämd** när den bär en bonus. Panelen Nivå upp räknar dem: *Vakna socklar 1 → 2 av 4*.
+Blocket **Socklar** i Smedjans vy **Uppgradera**, under Nivå upp, är där en bonus hamnar i ett föremål. Välj en del så listar blocket dess socklar, dess integritet och de shards du har. En sockel är **låst** tills en nivåhöjning väcker den (dess rad säger på vilken nivå och med vilken kristalls steg), **tom** när den är vaken och **stämd** när den bär en bonus. Blocket Nivå upp räknar dem: *Vakna socklar 1 → 2 av 4*.
 
 - **Stäm** en tom sockel med **Echo Shards**: 10 för den första sockeln på en del, sedan 20, 40 och 80, så priset stiger för varje sockel du stämmer (det nedtonade priset på varje senare tom sockel visar vad den kommer att kosta). Shards förbrukas när du trycker på Stäm, och Smedjan lägger då fram ett **erbjudande**: två av de värden som ännu är lediga, slumpade, vart och ett med den bonus det skulle ge. **Välj** ett: du får det erbjudandet visade. När bara ett värde är ledigt är båda raderna slag på det värdet, och de kan bli lika.
 - Ett **Heartshard** kan läggas till en stämning eller en omläggning: slå först på *Använd ett Heartshard vid nästa stämning eller omläggning*, så listar erbjudandet i stället alla lediga värden på delen, vart och ett slumpat i övre halvan av sitt intervall, så du väljer värdet själv.
@@ -95,13 +96,13 @@ Att stämma alla fyra socklarna på en del kostar 150 Echo Shards (10 + 20 + 40 
 | Soloport: Gamma Foundry | 18 | 27 |
 | Soloport: Delta Siege | 29 | 44 |
 | Soloport: Omega Vault | 34 | 54 |
-| Klandungeon: etapp 1 | 3 | 5 |
-| Klandungeon: etapp 2 | 2 | 6 |
-| Klandungeon: etapp 3 | 2 | 7 |
+| Klandungeon: etapp 1 | 12 | 5 |
+| Klandungeon: etapp 2 | 8 | 6 |
+| Klandungeon: etapp 3 | 8 | 7 |
 
 - **Soloportar** betalar sina shards vid varje avklarning, **klandungeons** vid varje betald avklarning av en etapp.
 - **Heartshards** kommer med första avklarningen av varje port och varje dungeonetapp under en säsong (1) och med 5 % chans till 1 till vid varje avklarning. De sällsynta NPC:erna droppar dem också: 10 % Davidski, 5 % Dormant Force och Tesseract. Sidan [Resurser](/wiki/06-Items/Resources.md#heartshard) har resten.
-- **Utomjordingar** droppar bara Echo Shards, och få: från 0,4 % per nedskjutning för en Seeker till 20 % för en Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- **Utomjordingar** droppar bara Echo Shards, och få: från 0,8 % per nedskjutning för en Seeker till 40 % för en Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Slå ihop {#merge}
 
@@ -113,7 +114,7 @@ Två exemplar av samma föremål (två Light Shield Core, två Quantum Laser II)
 - **En sammanslagning kostar krediter efter den nivå den ger**: 5 000 för Vaknad, 25 000 för Resonant, 100 000 för Strålande, 250 000 för Uppstigen. Inga material. Din Commerce-färdighet sänker kreditkostnaden som för ett steg.
 - En sammanslagning som inte skulle ändra något (resultatet är inte bättre än basen) nekas. Bättre integritet enbart räknas inte: en sammanslagning är ingen reparation.
 - **Integritet.** Resultatets integritet är medelvärdet av de två delarnas integritet (avrundat nedåt) minus 6, aldrig under 0, och dess antal omläggningar är det högsta av de två: två hela delar slås ihop till en del med 94. Resultatet behåller basens ordning av sprickor: samma värde träffas först. Se [Integritet och sprickor](#integrity-and-fractures).
-- Efter en sammanslagning förblir resultatet valt och givarplatsen är tom: lägg i nästa givare, eller byt tillbaka till Nivå upp.
+- Efter en sammanslagning förblir resultatet valt och givarplatsen är tom: lägg i nästa givare, eller byt tillbaka till Uppgradera.
 - **Etiketten**: den sammanslagna delen är bara **säljbar** (du kan sälja den i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items)) om både basen och donatorn var det. Förhandsvisningen säger det.
 
 En sammanslagning mångfaldigar inte ett föremål. Dess nytta är att välja: en sköldkärna på nivån Resonant med de värden du vill ha, eller en nivå som flyttas till föremålet på ditt skepp utan att du tar av det.
@@ -150,4 +151,4 @@ Recepten, deras kostnader och siffrorna bakom regeln finns i [Översikt över f�
 
 ## Gamla servrar {#old-servers}
 
-En spelserver som inte har uppdaterats till Smedjan visar ”Smedjan finns inte på den här servern än” i stället för fliken; Tillverkning fungerar som förut. En spelklient från före Smedjan visar den gamla Fusion-fliken på en uppdaterad server och uppmanas att uppdatera. En server från före 0.5.7 har ingen vy Socklar, och ett spel från före 0.5.7 kan fortfarande öppna Smedjan och läsa den, men en uppdaterad server avvisar varje ändring det ber om (en nivåhöjning, en sammanslagning, en stämning, en omläggning, en reparation, ett Tinkerer's Badge) med ”Uppdatera spelet för att använda den här funktionen.”
+En spelserver som inte har uppdaterats till Smedjan visar ”Smedjan finns inte på den här servern än” i stället för fliken; Tillverkning fungerar som förut. En spelklient från före Smedjan visar den gamla Fusion-fliken på en uppdaterad server och uppmanas att uppdatera. En server från före 0.5.7 har inget block Socklar, och ett spel från före 0.5.7 kan fortfarande öppna Smedjan och läsa den, men en uppdaterad server avvisar varje ändring det ber om (en nivåhöjning, en sammanslagning, en stämning, en omläggning, en reparation, ett Tinkerer's Badge) med ”Uppdatera spelet för att använda den här funktionen.”

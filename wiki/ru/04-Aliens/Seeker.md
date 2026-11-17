@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Seeker — базовые разведывательные аппараты. О�
 
 - **Ship Fragment**: шанс 20% (мин.: 1, макс.: 1)
 - **Daraxium**: шанс 50% (мин.: 1, макс.: 2)
-- **Echo Shard**: шанс 0,4% (мин.: 1, макс.: 1)
+- **Echo Shard**: шанс 0,8% (мин.: 1, макс.: 1)
 
 ## История {#lore}
 

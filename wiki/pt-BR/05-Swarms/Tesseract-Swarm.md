@@ -84,13 +84,13 @@ Base: Crystalys, com 625% do casco; não tem arma, e o escudo e a velocidade sã
 
 ### Facet
 
-Base: Seeker, com 2.500% do casco e 309% do dano dos lasers; o escudo, a velocidade e o alcance são próprios.
+Base: Seeker, com 2.500% do casco e 463% do dano dos lasers; o escudo, a velocidade e o alcance são próprios.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Casco | 20.000 | 30.000 | 40.000 |
 | Escudo | 16.000 | 24.000 | 32.000 |
-| Dano dos lasers (uma salva por segundo) | 556 | 834 | 1.112 |
+| Dano dos lasers (uma salva por segundo) | 834 | 1.251 | 1.668 |
 | Velocidade | 750 | 750 | 750 |
 | Alcance dos lasers | 600 | 600 | 600 |
 | Raio de agressão | só quando atacado | só quando atacado | só quando atacado |

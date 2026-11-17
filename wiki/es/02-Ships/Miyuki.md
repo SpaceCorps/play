@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Un enlace dura 5 segundos y llega a una nave de tu grupo o de tu corporación a 
 
 ## Investigación {#research}
 
-- **Niveles.** Miyuki II a V son tecnologías propias del Skylab, cada una detrás del nivel anterior: 1 d para II y III, 2 d para IV y V, y 10 Dark Matter cada una.
+- **Niveles.** Miyuki II a V son tecnologías propias del Skylab, cada una detrás del nivel anterior: 1 d para II y III, 2 d para IV y V, y 10 Dark Matter cada una. En la vista Investigación, los cinco niveles aparecen uno bajo otro, con una flecha de cada nivel al siguiente: investigas el II después del I, el III después del II, el IV después del III y el V después del IV.
 - **Ranuras.** Las ranuras de blindaje, las de láser a partir de la sexta y las de generador a partir de la novena son tecnologías propias del Skylab, de 1 h y 10 Dark Matter cada una: ranuras de blindaje 1 a 9 en orden desde la primera, ranuras de láser 6 a 9 (cada una detrás de su nivel) y ranuras de generador 9 a 12 (cada una detrás del nivel V). Una ranura se abre en la nave, sea cual sea su nivel, en cuanto la investigas; la que aún no has investigado aparece bloqueada en el Hangar.
 - **Ranuras de blindaje.** La Miyuki tiene 5 [ranuras de blindaje](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindaje de casco](/wiki/06-Items/Hull-Plating.md) en el nivel I y 9 en el nivel V, todas bloqueadas cuando la fabricas. Con las 9 llenas de Hull Plating III se suman 225.000 de casco.
 

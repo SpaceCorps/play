@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Carga -->
 # Cajas de carga {#cargo-boxes}
 
@@ -53,4 +53,4 @@ El botín de un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) n
 ## Potenciadores {#boosters}
 
 - **Loot Luck Booster** (y la mejora permanente Luck Boost, y la suerte de tus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentan la probabilidad de cada entrada del botín en el momento en que el piloto logra el derribo. Tu destreza [Instinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) también suma a esa probabilidad, además de la del booster.
-- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, a mano o con un Retriever, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada. Solo tu propia habilidad Antimatter suma Dark Matter (hasta +25 % en el nivel 100); sin ella, cinco N.I.K.E. son diez Dark Matter.
+- **Resource Magnet Booster** suma un **25 %** a los recursos de cada caja que recoges, a mano o con un Retriever, sea quien sea el que logró el derribo. El Dark Matter es la excepción: el Magnet no le suma nada. Solo tu propia habilidad Antimatter suma Dark Matter (hasta +100 % en el nivel 100); sin ella, cinco N.I.K.E. son diez Dark Matter.

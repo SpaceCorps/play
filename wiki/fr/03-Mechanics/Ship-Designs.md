@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Designs de vaisseaux -->
 # Designs de vaisseaux {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; transformation; transformer; design de vaisseau -->
 
-Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Neuf des treize designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
+Un **design** est l’un des quatre vaisseaux que vous fabriquez dans l’Assemblage, avec quelques chiffres changés exprès : moins de coque pour plus de vitesse, un emplacement de laser en moins pour des boucliers plus solides. Neuf des treize designs ont en plus l’une de sept [compétences](/wiki/03-Mechanics/Abilities.md#ship-abilities) que le vaisseau de base n’a pas. Le Storm RECON a, à côté de son Chameleon, deux boutons de plus : Target et Slow. Vous recherchez un design dans le Skylab, puis vous transformez dans l’Assemblage un vaisseau que vous possédez. **La transformation est définitive.**
 
 ## Les treize designs {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 
 | Design | Ce qu’il change | Coque | Vitesse de base | Emplacements de laser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % de coque de base, +40 de vitesse de base, +1 emplacement laser | 96 000 | 310 | 11 |
-| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, -1 emplacement laser, +10 % d’absorption du bouclier, +20 % de taille du modèle | 160 000 | 250 | 9 |
+| **Paragon THUNDER** | +40 de vitesse de base, +1 emplacement laser | 128 000 | 310 | 11 |
+| **Paragon BUCKY** | +25 % de coque de base, -20 de vitesse de base, +10 % d’absorption du bouclier, +20 % de taille du modèle | 160 000 | 250 | 10 |
 | **Paragon LICH** | +1 % de régénération du bouclier par seconde | 128 000 | 270 | 10 |
-| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, Blink | 162 000 | 400 | 15 |
-| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, Heal Pod | 180 000 | 300 | 17 |
-| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon | 144 000 | 350 | 14 |
-| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire | 600 000 | 80 | 5 |
+| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, +5 % de dégâts totaux, Blink | 162 000 | 400 | 15 |
+| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, +5 % de dégâts totaux, Heal Pod | 180 000 | 300 | 17 |
+| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon, Target, Slow | 144 000 | 350 | 14 |
+| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -2 emplacements laser, +15 % d’absorption du bouclier, Focus Fire | 600 000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink | 500 000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 emplacement laser, +5 % de dégâts totaux, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5 % de coque de base, +10 % de capacité du bouclier, Diminisher | 268 800 | 210 | 13 |
@@ -34,8 +34,8 @@ Les trois dernières colonnes sont ce qu’a le vaisseau transformé : sa coque
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100 000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100 000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Ensemble, elles demandent 510 Dark Matter, en plus des 979 que demandent toutes 
 ## Ce qui arrive à votre vaisseau {#what-happens-to-your-ship}
 
 - **C’est le même vaisseau.** La transformation le change sur place : son équipement, ses blindages, vos drones et la formation que vous portez restent tels quels.
-- **Des lasers peuvent perdre leur emplacement.** Un design avec moins d’emplacements de laser (BUCKY, RECON, DUMA, ATARAXIS) renvoie dans votre inventaire les lasers des emplacements qui disparaissent, avec leurs amplis et leurs tirages de la Forge. Un nouvel emplacement arrive vide.
+- **Des lasers peuvent perdre leur emplacement.** Un design avec moins d’emplacements de laser (RECON, DUMA, ATARAXIS) renvoie dans votre inventaire les lasers des emplacements qui disparaissent, avec leurs amplis et leurs tirages de la Forge. Un nouvel emplacement arrive vide.
 - **Coque et boucliers pleins** à la fin. Jusque-là, le vaisseau est verrouillé : on ne peut ni l’activer, ni l’équiper, ni le transformer de nouveau.
 - **Il n’y a pas de retour en arrière.** Pour un autre design, ou pour retrouver le vaisseau de base, vous fabriquez de nouveau le vaisseau dans l’Assemblage. Vous possédez un vaisseau de chaque type : un Paragon et un THUNDER peuvent être à vous en même temps, mais pas deux THUNDER.
 - **La réinitialisation** garde un design comme tout autre vaisseau que vous possédez. Une conversion encore en cours est annulée et remboursée, comme toute fabrication de votre file de production : le vaisseau reste tel qu’il était.

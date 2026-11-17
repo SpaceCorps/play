@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: 重置时间线 -->
 # 重置时间线与赛季 {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ SpaceCorps 的宇宙遵循循环往复的赛季周期。每隔 30 天，星系�
 **Chrono-Gate**（也称为星系之门）是一座庞大的赛季建筑，充当赛季之间的桥梁。建造并稳定这座星门，是解锁你带入下个赛季的运输特权的关键。它是星系之门页面六座星门中的一座，另外五座是你亲自飞入的[单人星门](/wiki/03-Mechanics/Solo-Gates.md)，它们的部件也出自同一台能量具现器。
 
 ### 星门组装 {#gate-assembly}
-要让 Chrono-Gate 完全稳定，你必须收集整整 **2 个 Chrono-Gate 部件**。[单人星门](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)页面写明了六座星门各自需要什么，以及它们的部件平均花费多少。
+要让 Chrono-Gate 完全稳定，你必须收集整整 **13 个 Chrono-Gate 部件**。[单人星门](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)页面写明了六座星门各自需要什么，以及它们的部件平均花费多少。
 
 ### 能量具现器 {#the-energy-materializer}
 你通过能量具现器界面获得部件，它会扫描本地的能量区域，寻找星门部件。它只能用 **Thulium** 扫描（信用点扫描已关闭）：
-* **Thulium 扫描**：每次扫描 **100 Thulium**，有 **13% 的几率**产出一个星门部件。部件属于随机选出的六座星门之一，所以并不总是 Chrono-Gate 的部件。
+* **Thulium 扫描**：每次扫描 **100 Thulium**，有 **13% 的几率**产出一个星门部件。你自己选择要扫描的类别（Chrono-Gate、Alpha–Gamma 或 Delta–Omega），部件属于该类别的某一座星门，各座星门几率均等：只有 Chrono-Gate 的类别才会找到 Chrono-Gate 的部件。
 * **保底。**连续多次没有部件的扫描不会无限持续：几次落空之后几率会上升，随后必定出一个部件（[详情](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)）。
 * **没有部件的扫描**也会给一份奖励（[单人星门](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)）。
-* **Chrono-Gate 完成后扫描仍可继续。**每次扫描都会扣费，此时找到的部件属于单人星门。部件的几率会低六分之一，因为 Chrono-Gate 的那一份已经不在了。
+* **Chrono-Gate 完成后扫描仍可继续。**每次扫描都会扣费，此时找到的部件属于单人星门。Chrono-Gate 的选项会被锁定，另外两个类别保持 13% 的几率。
 
 *小技巧：你可以使用倍数（1x、5x、10x、100x）一次进行多次扫描，加快星门的建造。*
 
@@ -248,5 +248,7 @@ SpaceCorps 运行着三个**世界**。每个世界都是整个星系的一份�
 **任务。**你完成的第一个任务发放 5 WP，之后每完成第 5 个任务（第 5、10、15 个，依此类推，直到第 100 个）再发放 5 WP，总共 105 WP。只有等级任务会计入（共 88 个，空间站任务和挑战任务线不计入，见[任务](/wiki/03-Mechanics/Quests.md)），你再次完成的重做版等级任务不会被第二次计入。88 个各完成一次共发放 90 WP。你的任务在重置之后仍然保持已完成，所以重置之后**这 90 WP 可以再领取一次**。等级任务的[重复](/wiki/03-Mechanics/Quests.md#repeating-missions)会像第一次完成一样计入，每个任务每赛季一次，最多计到第 100 个任务：已经完成全部 88 个的人会计入 12 次重复，并因此多得 15 WP。
 
 **Dormant Knowledge。**除了里程碑之外，[研究](/wiki/03-Mechanics/Research.md#pilot-technologies)中的五项 Dormant Knowledge 科技每项发放 50 WP，共 250 WP。一级在其研究完成时发放，每次重置之后，**你已研究的一级可以在重置点数来源里再领取一次**。由管理员授予的科技不发放任何点数。
+
+**飞行员专长等级。** 还有一个来源不会在重置时重新开始：[飞行员专长](/wiki/03-Mechanics/Pilot-Skills.md)中的每项专长在首次达到特定等级时，会发放一次重置点数（该页面列出了这些等级）。你在与其他来源相同的地方领取，它们不计入下面的总数。
 
 **合计**，各来源每次重置最多发放 **1,105 重置点数**：击杀 750，任务 105，Dormant Knowledge 250。你的军衔在重置时还会发放更多（[赛季与奖励](/wiki/03-Mechanics/Seasons-and-Rewards.md)）。

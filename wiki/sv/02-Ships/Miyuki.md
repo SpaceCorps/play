@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ En länk varar i 5 sekunder och når ett skepp i din grupp eller koncern inom 1�
 
 ## Forskning {#research}
 
-- **Nivåer.** Miyuki II till V är egna teknologier i Skylab, var och en bakom nivån under: 1 d för II och III, 2 d för IV och V, och 10 Dark Matter vardera.
+- **Nivåer.** Miyuki II till V är egna teknologier i Skylab, var och en bakom nivån under: 1 d för II och III, 2 d för IV och V, och 10 Dark Matter vardera. I vyn Forskning ritas de fem nivåerna under varandra med en pil från varje nivå till nästa: du forskar fram II efter I, III efter II, IV efter III och V efter IV.
 - **Platser.** Pansarplatserna, laserplatserna från den sjätte och generatorplatserna från den nionde är egna teknologier i Skylab, på 1 h och 10 Dark Matter vardera: pansarplats 1 till 9 i ordning från den första, laserplats 6 till 9 (var och en bakom sin nivå) och generatorplats 9 till 12 (var och en bakom nivå V). En plats öppnas på skeppet, på vilken nivå det än är, så fort du har forskat fram den; en plats du inte har forskat fram visas låst i Hangaren.
 - **Pansarplatser.** Miyuki har 5 [pansarplatser](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) för [skrovpansar](/wiki/06-Items/Hull-Plating.md) på nivå I och 9 på nivå V, alla låsta när du tillverkar det. Alla 9 fyllda med Hull Plating III ger 225 000 skrov.
 

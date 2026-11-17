@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Rakomány -->
 # Rakományládák {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) zsákmánya n
 ## Boosterek {#boosters}
 
 - A **Loot Luck Booster** (és az állandó Luck Boost buff, valamint a dokkolt [P.E.T.-ek](/wiki/03-Mechanics/Pets.md) szerencséje) növeli minden zsákmánybejegyzés esélyét, amikor a kilövő a kilövést végrehajtja. Az [Ösztön](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) készséged is növeli ezt az esélyt, a booster esélyén felül.
-- A **Resource Magnet Booster** **25%**-kal növeli az általad kézzel vagy Retrieverrel felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit. Csak a saját Antimatter képességed ad hozzá Dark Mattert (a 100. szinten legfeljebb +25%); nélküle öt N.I.K.E. tíz Dark Matter.
+- A **Resource Magnet Booster** **25%**-kal növeli az általad kézzel vagy Retrieverrel felvett minden ládában lévő nyersanyagokat, bárki végezte is a kilövést. A Dark Matter a kivétel: a Magnet nem ad hozzá semmit. Csak a saját Antimatter képességed ad hozzá Dark Mattert (a 100. szinten legfeljebb +100%); nélküle öt N.I.K.E. tíz Dark Matter.

@@ -724,7 +724,7 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 
 **Så får du det**
 
-- **Det svarta hålet**: en [N.I.K.E.](/wiki/06-Items/Rockets.md)-raket som korsar händelsehorisonten i det svarta hålet mitt i Farosektor 4 sväljs, och hålet ger tillbaka **1, 2 eller 3** Dark Matter (2 i genomsnitt) i lådor på högst 2 vid randen av dess zon, 3 050 till 3 950 enheter från dess mitt. Lådorna är dina, och din klans, i 60 sekunder och finns kvar i 240 sekunder. En N.I.K.E. som möter ett skepp på vägen träffar det i stället och är förbrukad. Se [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) och [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **Det svarta hålet**: en [N.I.K.E.](/wiki/06-Items/Rockets.md)-raket som korsar händelsehorisonten i det svarta hålet mitt i Farosektor 4 sväljs, och hålet ger tillbaka **1, 2 eller 3** Dark Matter (2 i genomsnitt) i lådor på högst 1 vid randen av dess zon, 3 050 till 3 950 enheter från dess mitt. Lådorna är dina, och din klans, i 60 sekunder och finns kvar i 240 sekunder. En N.I.K.E. som möter ett skepp på vägen träffar det i stället och är förbrukad. Se [Dark Matter och Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) och [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** i Dormant Swamp: från säsongsdag 11 innehåller 5 % av dess lådor 1–3. Den lever under träskets kanoner.
 - **I övrigt**: säljs inte i butiken.
 
@@ -833,14 +833,15 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 
 | Utomjording | Sektorer | Byte | Per nedskjutning, i genomsnitt |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20 % för 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5 % för 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2 % för 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1 % för 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4 % för 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40 % för 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10 % för 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4 % för 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % för 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % för 1 | 0,01 |
 
 - **Soloportar**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 vid varje avklarning.
-- **Klandungeons**: 3, 2 och 2 vid en betald avklarning av etapp 1, 2 och 3.
+- **Klandungeons**: 12, 8 och 8 vid en betald avklarning av etapp 1, 2 och 3.
+- **Utomjordingar i klandungeons**: de släpper den med 2 gånger chanserna i tabellen ovan.
 - **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
 - **I övrigt**: säljs inte i butiken.
 
@@ -848,7 +849,7 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 
 - Smedjans uttag: att stämma ett tomt uttag kostar Echo Shards.
 
-**Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 0,2 per nedskjutning; den närmaste källan är [Seeker](/wiki/04-Aliens/Seeker.md) i sektor 1, 0 per nedskjutning.
+**Så farmar du det**: skjut ner [Crystalys](/wiki/04-Aliens/Crystalys.md) (sektor 4): i genomsnitt 0,4 per nedskjutning; den närmaste källan är [Seeker](/wiki/04-Aliens/Seeker.md) i sektor 1, 0,01 per nedskjutning.
 
 ### Lattice Shard
 

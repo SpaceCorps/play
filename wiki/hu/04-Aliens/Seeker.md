@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Hogy melyik zsákmány mire jó, és hol található még: [Nyersanyagok](/wiki/
 
 - **Ship Fragment**: 20% esély (min. 1, max. 1)
 - **Daraxium**: 50% esély (min. 1, max. 2)
-- **Echo Shard**: 0,4% esély (min. 1, max. 1)
+- **Echo Shard**: 0,8% esély (min. 1, max. 1)
 
 ## Háttértörténet {#lore}
 

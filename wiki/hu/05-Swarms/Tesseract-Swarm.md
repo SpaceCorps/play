@@ -84,13 +84,13 @@ Alapja: Crystalys, hajótestének 625%-a; nincs fegyvere, a pajzsa és a sebess�
 
 ### Facet
 
-Alapja: Seeker, hajótestének 2 500%-a és lézersebzésének 309%-a; a pajzsa, a sebessége és a hatótávja saját.
+Alapja: Seeker, hajótestének 2 500%-a és lézersebzésének 463%-a; a pajzsa, a sebessége és a hatótávja saját.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hajótest | 20 000 | 30 000 | 40 000 |
 | Pajzs | 16 000 | 24 000 | 32 000 |
-| Lézersebzés (másodpercenként egy sorozat) | 556 | 834 | 1 112 |
+| Lézersebzés (másodpercenként egy sorozat) | 834 | 1 251 | 1 668 |
 | Sebesség | 750 | 750 | 750 |
 | Lézer hatótávja | 600 | 600 | 600 |
 | Aggrósugár | csak ha megtámadják | csak ha megtámadják | csak ha megtámadják |

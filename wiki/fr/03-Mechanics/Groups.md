@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -32,10 +32,10 @@ Dès que vous acceptez, la **fenêtre Groupe** s’ouvre (la touche **B** ou son
 Quand un membre détruit un alien (ou touche la récompense grâce à sa [revendication](/wiki/03-Mechanics/Combat.md)), les récompenses (crédits, Thulium, expérience et honneur) sont partagées entre les membres qui sont :
 
 - sur la **même carte** (dans le même monde),
-- **en vie** et à moins de **4 000 unités** de l’épave, et
+- **en vie** et à moins de **8 000 unités** de l’épave, et
 - **en train de tirer** : ils ont tiré un laser ou une roquette sur quoi que ce soit au cours des 15 dernières secondes.
 
-Chacun reçoit une part proportionnelle à son **niveau**, quelle que soit sa corporation (les crédits et l’honneur appartiennent à chaque pilote ; aucune corporation n’en garde) : un pilote de niveau 15 avec un coéquipier de niveau 5 prend 75 % et le coéquipier 25 %. Chaque crédit est distribué : le pilote qui a réalisé l’élimination reçoit ce qu’il reste une fois les parts arrondies à l’unité inférieure. La récompense entière est celle de l’auteur de l’élimination : ses boosters, le multiplicateur de son monde et son Premium s’appliquent, mais pas ceux d’un coéquipier. Quand vous êtes seul, ou sans personne d’autre à portée, une élimination rapporte ce qu’elle a toujours rapporté. Un pilote qui se tient près du combat sans tirer ne reçoit aucune part.
+Chacun reçoit une part proportionnelle à son **niveau**, quelle que soit sa corporation (les crédits et l’honneur appartiennent à chaque pilote ; aucune corporation n’en garde) : un pilote de niveau 15 avec un coéquipier de niveau 5 prend 75 % et le coéquipier 25 %. Chaque crédit est distribué : le pilote qui a réalisé l’élimination reçoit ce qu’il reste une fois les parts arrondies à l’unité inférieure. La récompense entière est celle de l’auteur de l’élimination : ses boosters et le multiplicateur de son monde s’appliquent, mais pas ceux d’un coéquipier. Quand vous êtes seul, ou sans personne d’autre à portée, une élimination rapporte ce qu’elle a toujours rapporté. Un pilote qui se tient près du combat sans tirer ne reçoit aucune part.
 
 La notification de l’élimination le dit : la ligne **RÉCOMPENSES** de l’auteur de l’élimination indique sa part, suivie de « Récompenses partagées avec 2 coéquipiers : votre part est de 40 % », et un coéquipier qui reçoit une part lit « *Alien* a été abattu par *pilote* ; la part de votre groupe vous rapporte » avec les montants. Les notifications s’affichent dans le Journal de jeu.
 
@@ -43,7 +43,7 @@ Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison*
 
 ## Partage des missions {#sharing-missions}
 
-Une élimination compte aussi pour les **missions d’élimination** de tous les autres membres qui sont sur la même carte et ont **tiré un laser ou une roquette sur quoi que ce soit au cours des 15 dernières secondes**, où qu’ils se trouvent sur celle-ci, comme s’ils avaient détruit l’alien eux-mêmes. Les règles propres à la mission décident toujours : l’alien doit être du type de la mission et le secteur celui que la mission nomme. Un coéquipier qui n’a pas tiré, ou qui est sur une autre carte, ne reçoit aucun décompte. Les missions gardent les règles de leur propre corporation : une mission qui demande une élimination dans « le secteur 4 d’une autre corporation » compte pour le membre pour qui ce secteur appartient à une autre corporation. Quand l’élimination d’un coéquipier compte pour l’une de vos missions, une notification vous indique laquelle. Dans la [ligne des Défis](/wiki/03-Mechanics/Quests.md#where-it-counts), un membre doit en plus se trouver à moins de **4 000 unités** de l’épave pour compter, et chaque membre qui a une mission avec un objet de mission tire et voit son propre objet : personne ne peut en partager un.
+Une élimination compte aussi pour les **missions d’élimination** de tous les autres membres qui sont sur la même carte et ont **tiré un laser ou une roquette sur quoi que ce soit au cours des 15 dernières secondes**, où qu’ils se trouvent sur celle-ci, comme s’ils avaient détruit l’alien eux-mêmes. Les règles propres à la mission décident toujours : l’alien doit être du type de la mission et le secteur celui que la mission nomme. Un coéquipier qui n’a pas tiré, ou qui est sur une autre carte, ne reçoit aucun décompte. Les missions gardent les règles de leur propre corporation : une mission qui demande une élimination dans « le secteur 4 d’une autre corporation » compte pour le membre pour qui ce secteur appartient à une autre corporation. Quand l’élimination d’un coéquipier compte pour l’une de vos missions, une notification vous indique laquelle. Dans la [ligne des Défis](/wiki/03-Mechanics/Quests.md#where-it-counts), un membre doit en plus se trouver à moins de **8 000 unités** de l’épave pour compter, et chaque membre qui a une mission avec un objet de mission tire et voit son propre objet : personne ne peut en partager un.
 
 ## Canaux de chat {#chat-channels}
 

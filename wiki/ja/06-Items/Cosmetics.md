@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: コスメティック -->
 # コスメティック {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 外観; スキン; 塗装; ワードローブ; 排気; オーラ -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; 外観; スキン; 塗装; ワードローブ; 排気; オーラ -->
 
 **外観**とは、あなたの艦が身にまとうものです。4つの部分があります。**スキン**（船体の塗装）、**オーラ**（艦のまわりのやわらかな輝きと光の輪）、**排気**（エンジンの後ろに伸びる航跡の色と形）、そしてドローンの**塗装**です。外観は見た目だけのものです。ダメージも船体も速度も増えず、スロットも使わず、弾が当たるものは何も変わりません。
 
@@ -22,24 +22,25 @@
 
 ## スキン {#skins}
 
-スキンは艦自身の船体から作られた塗装パターンです。パネルの線、番号、ストライプはそのままで、色だけが変わります。1つの**艦モデル**用で、同じスキンをそのモデルの自分の艦すべてと、そこから作ったすべての[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が着けます。改造しても外観は保たれます。Protos にはまだスキンがなく、Kitefin、Ostirion、Nomad にはコレクションが1つあり、アセンブリで作る4隻には10個すべてがあります。
+スキンは艦自身の船体から作られた塗装パターンです。パネルの線、番号、ストライプはそのままで、色だけが変わります。1つの**艦モデル**用で、同じスキンをそのモデルの自分の艦すべてと、そこから作ったすべての[デザイン](/wiki/03-Mechanics/Ship-Designs.md)が着けます。改造しても外観は保たれます。Protos にはまだスキンがなく、Kitefin、Ostirion、Nomad にはコレクションが1つあり、アセンブリで作る4隻と Miyuki には11個すべてがあります。Miyuki のスキンは、5つあるレベルのどれでも着用できます。
 
 スキンは艦ではなく**アカウント**に属し、[ワイプ](/wiki/03-Mechanics/Wipe-Timeline.md)を越えて残ります。あなたの艦は着けていたものをそのまま着けています。
 
-[クロマ・アーカイブ](/wiki/06-Items/Containers.md#chroma-archive)では、Bloody R.E.D を除くすべてのコレクションが出る可能性があり、1回に出るスキンは1つです。コレクションの報酬は、そのコレクションのスキンを1つ、1つの艦モデル用に与えます。コレクションにアクティブな艦用のスキンがあり、まだ持っていなければそのスキン、そうでなければ所持している別の艦用のスキン、それもなければコレクションの未所持の最初のスキンです。ですから、スキンが欲しい艦に乗ってアーカイブを開けてください。すべてのスキンを所持するまで、そのコレクションは再び出ます。0.5.7 より前に丸ごと手に入れたコレクションは、すべてのスキンがそのまま残ります。
+[クロマ・アーカイブ](/wiki/06-Items/Containers.md#chroma-archive)では、Bloody R.E.D と LOU を除くすべてのコレクションが出る可能性があり、1回に出るスキンは1つです。コレクションの報酬は、そのコレクションのスキンを1つ、1つの艦モデル用に与えます。コレクションにアクティブな艦用のスキンがあり、まだ持っていなければそのスキン、そうでなければ所持している別の艦用のスキン、それもなければコレクションの未所持の最初のスキンです。ですから、スキンが欲しい艦に乗ってアーカイブを開けてください。すべてのスキンを所持するまで、そのコレクションは再び出ます。0.5.7 より前に丸ごと手に入れたコレクションは、すべてのスキンがそのまま残ります。
 
 | コレクション | 艦 | レアリティ | 見た目 |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | レア | オレンジの部品がある雪のように白い船体 |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | アンコモン | 船体全体があなたの企業の色：Mars は赤、Terra は緑、Galactic は紫。企業を変えれば追従します |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | ミシカル | 黒と血のような赤で、船体の中央の暗いバッジにクランのロゴが入ります |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | エピック | 大晦日と元日：夜のような紺色の船体に、銀とシャンパン色のトリムとシャンパングラス |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | エピック | アースデー：海の青に緑の大地と小さな地球儀 |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | エピック | 国際女性デー：レモンイエローに紫のトリムと花 |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | エピック | 国際平和デー：空色にオリーブ色のトリムと白いピースマーク |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | レア | 春分・夏至・秋分・冬至：暗いティールの船体に金色の太陽 |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | エピック | 世界保健デーと世界メンタルヘルスデー：緑がかった黒の船体にネオングリーンの心拍 |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | エピック | ハロウィン：チャコールにオレンジ、月と星 |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | レア | オレンジの部品がある雪のように白い船体 |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | アンコモン | 船体全体があなたの企業の色：Mars は赤、Terra は緑、Galactic は紫。企業を変えれば追従します |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | ミシカル | 黒と血のような赤で、船体の中央の暗いバッジにクランのロゴが入ります |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | ミシカル | クラン LOU のスキンで、ゲームチームがメンバーに与えます。Bloody R.E.D のような黒に、深い紫のパーツが入り、ロゴはありません |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | 大晦日と元日：夜のような紺色の船体に、銀とシャンパン色のトリムとシャンパングラス |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | アースデー：海の青に緑の大地と小さな地球儀 |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | 国際女性デー：レモンイエローに紫のトリムと花 |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | 国際平和デー：空色にオリーブ色のトリムと白いピースマーク |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | レア | 春分・夏至・秋分・冬至：暗いティールの船体に金色の太陽 |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | 世界保健デーと世界メンタルヘルスデー：緑がかった黒の船体にネオングリーンの心拍 |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | エピック | ハロウィン：チャコールにオレンジ、月と星 |
 
 ## ドローンの塗装 {#drone-liveries}
 

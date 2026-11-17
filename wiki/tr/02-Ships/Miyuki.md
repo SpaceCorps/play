@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Bir bağlantı 5 saniye sürer ve grubundan veya şirketinden bir gemiye 1.200 b
 
 ## Araştırma {#research}
 
-- **Seviyeler.** Miyuki II–V, Skylab’da kendi başına birer teknolojidir ve her biri bir alttaki seviyenin arkasındadır: II ve III için 1 g, IV ve V için 2 g ve her biri için 10 Dark Matter.
+- **Seviyeler.** Miyuki II–V, Skylab’da kendi başına birer teknolojidir ve her biri bir alttaki seviyenin arkasındadır: II ve III için 1 g, IV ve V için 2 g ve her biri için 10 Dark Matter. Araştırma görünümünde beş seviye alt alta çizilir ve her seviyeden bir sonrakine bir ok gider: II’yi I’den sonra, III’ü II’den sonra, IV’ü III’ten sonra ve V’i IV’ten sonra araştırırsın.
 - **Yuvalar.** Gövde plakası yuvaları, altıncıdan itibaren lazer yuvaları ve dokuzuncudan itibaren jeneratör yuvaları Skylab’da kendi başına birer teknolojidir; her biri 1 sa ve 10 Dark Matter gerektirir: gövde plakası yuvaları 1–9 ilkinden başlayarak sırayla, lazer yuvaları 6–9 (her biri kendi seviyesinin arkasında) ve jeneratör yuvaları 9–12 (her biri V. seviyenin arkasında). Bir yuva, gemi hangi seviyede olursa olsun, araştırdığın anda gemide açılır; henüz araştırmadığın yuva Hangar’da kilitli görünür.
 - **Gövde plakası yuvaları.** Miyuki’nin [Gövde Kaplaması](/wiki/06-Items/Hull-Plating.md) için I. seviyede 5, V. seviyede 9 [gövde plakası yuvası](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) vardır; gemiyi ürettiğinde hepsi kilitlidir. 9 yuvanın hepsi Hull Plating III ile dolduğunda 225.000 gövde ekler.
 

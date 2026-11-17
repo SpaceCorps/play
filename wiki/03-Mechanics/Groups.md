@@ -30,10 +30,10 @@ Once you accept, the **Group window** opens (the **B** key or its button in the 
 When a member destroys an alien (or is paid for it by its [claim](/wiki/03-Mechanics/Combat.md)), the rewards (credits, Thulium, experience and honor) are shared among the members who are:
 
 - on the **same map** (in the same world),
-- **alive** and within **4,000 units** of the wreck, and
+- **alive** and within **8,000 units** of the wreck, and
 - **shooting**: they fired a laser or a rocket at anything within the last 15 seconds.
 
-Each gets a part in proportion to their **level**, whatever their company (the credits and honor are each pilot's own; no company keeps any): a level 15 pilot with a level 5 mate takes 75% and the mate 25%. Every credit is handed out: the pilot who made the kill gets what is left when the parts are rounded down. The whole reward is the killer's own: their boosters, their world's multiplier and their premium apply, and a mate's do not. Alone, or with nobody else in reach, a kill pays what it always did. A pilot standing near the fight without firing gets no part.
+Each gets a part in proportion to their **level**, whatever their company (the credits and honor are each pilot's own; no company keeps any): a level 15 pilot with a level 5 mate takes 75% and the mate 25%. Every credit is handed out: the pilot who made the kill gets what is left when the parts are rounded down. The whole reward is the killer's own: their boosters and their world's multiplier apply, and a mate's do not. Alone, or with nobody else in reach, a kill pays what it always did. A pilot standing near the fight without firing gets no part.
 
 The kill's notice says so: the killer's own **REWARDS** line shows their part, followed by "Rewards shared with 2 group mates: your part is 40%", and a mate who is paid a part reads "*Alien* was destroyed by *pilot*; your group's share pays you" with the amounts. The notices show in the Game Log.
 
@@ -41,7 +41,7 @@ What stays the killer's alone: the **cargo crate** (loot and resources; a [Clan 
 
 ## Sharing Missions
 
-A kill also counts for the **kill missions** of every other member who is on the same map and **fired a laser or rocket at anything in the last 15 seconds**, wherever they are on it, as if they had destroyed the alien themselves. The mission's own rules still decide: the alien must be the mission's kind and the sector the mission names. A mate who did not shoot, or is on another map, gets no count. Missions keep their own company's rules: a mission that asks for a kill in "another company's sector 4" counts for the member for whom that sector is another company's. When a mate's kill counts for one of your missions, a notice tells you which. In the [Challenge line](/wiki/03-Mechanics/Quests.md#where-it-counts) a member must also be within **4,000 units** of the wreck to count, and every member who has a mission with a quest item rolls and sees their own item: nobody can share one.
+A kill also counts for the **kill missions** of every other member who is on the same map and **fired a laser or rocket at anything in the last 15 seconds**, wherever they are on it, as if they had destroyed the alien themselves. The mission's own rules still decide: the alien must be the mission's kind and the sector the mission names. A mate who did not shoot, or is on another map, gets no count. Missions keep their own company's rules: a mission that asks for a kill in "another company's sector 4" counts for the member for whom that sector is another company's. When a mate's kill counts for one of your missions, a notice tells you which. In the [Challenge line](/wiki/03-Mechanics/Quests.md#where-it-counts) a member must also be within **8,000 units** of the wreck to count, and every member who has a mission with a quest item rolls and sees their own item: nobody can share one.
 
 ## Chat Channels
 

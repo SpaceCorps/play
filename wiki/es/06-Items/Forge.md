@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -30,6 +30,7 @@ Elige un objeto y el panel muestra su grado, el grado que alcanzaría, lo que ca
 - **Tu habilidad Commerce** reduce los créditos y el Thulium de un paso, y los créditos de una combinación, hasta un 15 % en el nivel 100 ([Destrezas de piloto](/wiki/03-Mechanics/Pilot-Skills.md)). La tabla muestra el precio en el primer nivel y el panel el que pagas; los materiales no cambian.
 - **Cada bonificación que tiene el objeto** se sortea de nuevo en el rango del nuevo grado y se queda con el mejor valor. El resultado se muestra encima del panel; el objeto sigue seleccionado, así que su siguiente paso ya está en pantalla.
 - Una subida de grado es instantánea.
+- **Las ranuras están bajo el paso.** Subir grado y [Ranuras](#sockets) son una sola vista, **Mejorar**, con Subir grado primero: la ranura que despierta un paso está en la lista justo debajo del botón, con su botón Sintonizar, así que no cambias de vista para usarla.
 - **Una Tinkerer's Badge** (un [objeto especial](/wiki/06-Items/Special-Items.md#tinkerers-badge)) sube una pieza un grado sin créditos, sin Thulium y sin materiales, ya desde Estándar. Es un paso que no cuesta nada: despierta una ranura y vuelve a tirar las bonificaciones que tiene la pieza, igual que un paso de pago.
 
 ### Dark Matter Plates
@@ -74,7 +75,7 @@ Los cristales siguen los grados: el Daraxium es azul como Despierto, el Nyxite a
 
 ## Ranuras {#sockets}
 
-La vista **Ranuras** de la Forja es donde una bonificación entra en un objeto. Elige una pieza y la vista enumera sus ranuras, su integridad y los shards que tienes. Una ranura está **bloqueada** hasta que una subida de grado la despierta (su fila dice en qué grado y con el paso de qué cristal), **vacía** una vez despierta y **sintonizada** cuando lleva una bonificación. El panel de Subir grado las cuenta: *Ranuras despiertas 1 → 2 de 4*.
+El bloque **Ranuras** de la vista **Mejorar** de la Forja, bajo Subir grado, es donde una bonificación entra en un objeto. Elige una pieza y el bloque enumera sus ranuras, su integridad y los shards que tienes. Una ranura está **bloqueada** hasta que una subida de grado la despierta (su fila dice en qué grado y con el paso de qué cristal), **vacía** una vez despierta y **sintonizada** cuando lleva una bonificación. El bloque de Subir grado las cuenta: *Ranuras despiertas 1 → 2 de 4*.
 
 - **Sintoniza** una ranura vacía con **Echo Shards**: 10 para la primera ranura de una pieza, luego 20, 40 y 80, así que el precio sube con cada ranura que sintonizas (el precio atenuado de cada ranura vacía posterior dice cuánto costará). Los shards se gastan al pulsar Sintonizar, y la Forja te presenta entonces una **oferta**: dos de las estadísticas que siguen libres, elegidas al azar, cada una con la bonificación que daría. **Elige** una: recibes lo que mostraba la oferta. Si solo queda libre una estadística, las dos líneas son tiradas de esa estadística y pueden salir iguales.
 - Se puede añadir un **Heartshard** a una sintonización o a una recolocación: activa primero *Usar un Heartshard en la próxima sintonización o recolocación* y la oferta enumera en su lugar todas las estadísticas libres de la pieza, cada una sorteada en la mitad superior de su rango, así que eliges tú la estadística.
@@ -95,13 +96,13 @@ Sintonizar las cuatro ranuras de una pieza cuesta 150 Echo Shards (10 + 20 + 40 
 | Puerta en solitario: Gamma Foundry | 18 | 27 |
 | Puerta en solitario: Delta Siege | 29 | 44 |
 | Puerta en solitario: Omega Vault | 34 | 54 |
-| Mazmorra de clan: etapa 1 | 3 | 5 |
-| Mazmorra de clan: etapa 2 | 2 | 6 |
-| Mazmorra de clan: etapa 3 | 2 | 7 |
+| Mazmorra de clan: etapa 1 | 12 | 5 |
+| Mazmorra de clan: etapa 2 | 8 | 6 |
+| Mazmorra de clan: etapa 3 | 8 | 7 |
 
 - Las **puertas en solitario** pagan sus shards cada vez que se completan, las **mazmorras de clan** con cada finalización pagada de una etapa.
 - Los **Heartshards** vienen con la primera vez que se completa cada puerta y cada etapa de mazmorra en una temporada (1) y con un 5 % de probabilidad de 1 más cada vez que se completa una. Los NPC raros también los sueltan: un 10 % Davidski, un 5 % Dormant Force y Tesseract. La página de [Recursos](/wiki/06-Items/Resources.md#heartshard) tiene el resto.
-- Los **alienígenas** sueltan solo Echo Shards, y pocos: desde un 0,4 % por baja en un Seeker hasta un 20 % en un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- Los **alienígenas** sueltan solo Echo Shards, y pocos: desde un 0,8 % por baja en un Seeker hasta un 40 % en un Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Combinar {#merge}
 
@@ -113,7 +114,7 @@ Dos copias del mismo objeto (dos Light Shield Core, dos Quantum Laser II) se con
 - **Una combinación cuesta créditos según el grado que genera**: 5.000 para Despierto, 25.000 para Resonante, 100.000 para Radiante, 250.000 para Ascendido. Sin materiales. Tu habilidad Commerce reduce los créditos igual que en un paso.
 - Se rechaza una combinación que no cambiaría nada (el resultado no es mejor que la base). Una mejor integridad por sí sola no cuenta: una combinación no es una reparación.
 - **Integridad.** La integridad del resultado es la media de la de las dos piezas (redondeada a la baja) menos 6, nunca por debajo de 0, y su número de recolocaciones es el mayor de los dos: dos piezas intactas se combinan en una pieza con 94. El resultado conserva el orden de fracturas de la base: se golpea primero la misma estadística. Véase [Integridad y fracturas](#integrity-and-fractures).
-- Tras una combinación, el resultado sigue seleccionado y la casilla del donante queda vacía: pon el siguiente donante, o vuelve a Subir grado.
+- Tras una combinación, el resultado sigue seleccionado y la casilla del donante queda vacía: pon el siguiente donante, o vuelve a Mejorar.
 - **La etiqueta**: la pieza combinada es **comercializable** (se puede vender en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items)) solo si lo eran tanto la base como el donante. La vista previa lo dice.
 
 Una combinación no multiplica un objeto. Su utilidad es elegir: un núcleo Resonante con las estadísticas que quieres, o un grado trasladado al objeto de tu nave sin quitarlo.
@@ -150,4 +151,4 @@ Las recetas, sus costos y los números que hay detrás de la regla están en el 
 
 ## Servidores antiguos {#old-servers}
 
-Un servidor de juego que no se ha actualizado a la Forja muestra «La Forja aún no está en este servidor» en lugar de la pestaña; la Fabricación funciona como antes. Un cliente de juego anterior a la Forja muestra la antigua pestaña de Fusión en un servidor actualizado y se le indica que se actualice. Un servidor anterior a 0.5.7 no tiene la vista de Ranuras, y un juego anterior a 0.5.7 aún puede abrir la Forja y leerla, pero un servidor actualizado rechaza cada cambio que pide (una subida de grado, una combinación, una sintonización, una recolocación, una reparación, una Tinkerer's Badge) con «Actualiza el juego para usar esta función.»
+Un servidor de juego que no se ha actualizado a la Forja muestra «La Forja aún no está en este servidor» en lugar de la pestaña; la Fabricación funciona como antes. Un cliente de juego anterior a la Forja muestra la antigua pestaña de Fusión en un servidor actualizado y se le indica que se actualice. Un servidor anterior a 0.5.7 no tiene el bloque de Ranuras, y un juego anterior a 0.5.7 aún puede abrir la Forja y leerla, pero un servidor actualizado rechaza cada cambio que pide (una subida de grado, una combinación, una sintonización, una recolocación, una reparación, una Tinkerer's Badge) con «Actualiza el juego para usar esta función.»

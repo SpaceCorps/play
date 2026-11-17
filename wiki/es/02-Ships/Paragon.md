@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ La Paragon es un crucero de combate pesado, diseñado con un equilibrio entre de
 
 | Diseño | Qué cambia |
 | :--- | :--- |
-| **Paragon THUNDER** | -25 % de casco base, +40 de velocidad base, +1 ranura de láser |
-| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, -1 ranura de láser, +10 % de absorción de escudo, +20 % de tamaño del modelo |
+| **Paragon THUNDER** | +40 de velocidad base, +1 ranura de láser |
+| **Paragon BUCKY** | +25 % de casco base, -20 de velocidad base, +10 % de absorción de escudo, +20 % de tamaño del modelo |
 | **Paragon LICH** | +1 % de regeneración de escudo por segundo |
 
 <!-- research-ship:begin -->

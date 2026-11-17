@@ -30,9 +30,9 @@ The Storm is a glass-cannon fighter: the highest base speed and the most lasers 
 
 | Design | What it changes |
 | :--- | :--- |
-| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, Blink |
-| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, Heal Pod |
-| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon |
+| **Storm NOTSUM** | -10% base hull, +50 base speed, +2% speed, +5% all damage, Blink |
+| **Storm BRATAN** | -50 base speed, +2 laser slots, -25% shields, +10% shield penetration, +5% all damage, Heal Pod |
+| **Storm RECON** | -20% base hull, +5% speed, -1 laser slot, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

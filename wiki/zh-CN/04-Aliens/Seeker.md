@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Seeker 是基础的侦察与勘察单位。它们是被动型，也就是说绝�
 
 - **Ship Fragment**：20% 几率（最少 1，最多 1）
 - **Daraxium**：50% 几率（最少 1，最多 2）
-- **Echo Shard**：0.4% 几率（最少 1，最多 1）
+- **Echo Shard**：0.8% 几率（最少 1，最多 1）
 
 ## 背景故事 {#lore}
 

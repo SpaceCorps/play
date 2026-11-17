@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Paragon, dengeli bir savunma ve saldırı için tasarlanmış ağır bir muhareb
 
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
-| **Paragon THUNDER** | -%25 temel gövde, +40 temel hız, +1 lazer yuvası |
-| **Paragon BUCKY** | +%25 temel gövde, -20 temel hız, -1 lazer yuvası, +%10 kalkan soğurması, +%20 model boyutu |
+| **Paragon THUNDER** | +40 temel hız, +1 lazer yuvası |
+| **Paragon BUCKY** | +%25 temel gövde, -20 temel hız, +%10 kalkan soğurması, +%20 model boyutu |
 | **Paragon LICH** | saniyede +%1 kalkan yenilenmesi |
 
 <!-- research-ship:begin -->

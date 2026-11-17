@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Ironclad は重装甲のタンク艦です。全艦中もっとも厚い船体�
 
 | デザイン | 変更点 |
 | :--- | :--- |
-| **Ironclad DUMA** | 基本船体 +20%、基本速度 -20、レーザースロット -3、シールド吸収率 +10%、Focus Fire |
+| **Ironclad DUMA** | 基本船体 +20%、基本速度 -20、レーザースロット -2、シールド吸収率 +15%、Focus Fire |
 | **Ironclad TITANIC** | レーザースロット +2、コアスロット +1、シールド容量 +20%、モデルサイズ +20%、Blink |
 
 <!-- research-ship:begin -->

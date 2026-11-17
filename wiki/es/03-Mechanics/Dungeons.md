@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Mazmorras -->
 # Mazmorras {#dungeons}
 
@@ -195,7 +195,7 @@ Cada tipo por turno. El casco y el escudo son los habituales multiplicados por e
 
 ## El Señor de la guerra {#the-warlord}
 
-El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su caída es lo que paga la partida. No paga una baja propia, como sí hacen los demás alienígenas. Es un Crystalys gigantesco. Su casco y su escudo crecen con el tamaño del grupo: cuantos más pilotos entran, más resistente es, en proporción. No sale nunca de su sala, con la mazmorra cerrada o abierta: se mantiene dentro de las paredes de la sala y no sale a cazar por los pasillos. Un piloto de fuera solo puede atraerlo hasta el borde de la sala, y aun así dispara por una mazmorra abierta a todo lo que alcanza su láser. Usa sus habilidades una a una, en orden aleatorio, cada una con su propia recarga.
+El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su caída es lo que paga la partida. No paga una baja propia, como sí hacen los demás alienígenas. Es un Crystalys gigantesco. Su casco y su escudo crecen con el tamaño del grupo: cuantos más pilotos entran, más resistente es, en proporción. No sale nunca de su sala, con la mazmorra cerrada o abierta: se mantiene dentro de las paredes de la sala y no sale a cazar por los pasillos. Un piloto de fuera solo puede atraerlo hasta el borde de la sala, y aun así dispara por una mazmorra abierta a todo lo que alcanza su láser. Usa sus habilidades una a una, en orden aleatorio, cada una con su propia recarga. Desde la fase 2 su láser dispara a dos pilotos a la vez: los dos más cercanos que puede ver reciben cada uno una salva completa.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ El Señor de la guerra espera en la sala del extremo lejano del laberinto, y su 
 | :--- | ---: | ---: | ---: |
 | Casco | 10.000.000 | 15.000.000 | 25.000.000 |
 | Escudo | 8.000.000 | 12.000.000 | 20.000.000 |
-| Daño de los láseres (una salva por segundo) | 12.500–15.000 | 15.000–17.500 | 20.000–25.000 |
+| Daño de los láseres (una salva por segundo) | 12.500–15.000 | 15.000–17.500 a cada uno de 2 pilotos | 20.000–25.000 a cada uno de 2 pilotos |
 | Velocidad | 120 | 120 | 120 |
 | Alcance de los láseres | 1.100 | 1.100 | 1.100 |
 
@@ -237,9 +237,10 @@ La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para ab
 - **El anillo rojo** del Aura de robo de vida hiere a todo piloto que está dentro y cura al Señor de la guerra con ese daño. La Absorción de escudo también tiene un anillo rojo: drena los escudos de los pilotos de dentro y carga el del Señor de la guerra. En ambos casos, sal del anillo o ponte detrás de una pared.
 - **Los anillos ámbar** de la Lluvia de meteoros muestran dónde caerán los meteoros un instante después. Sigue moviéndote y sal del anillo antes de que caiga.
 - **Foco en el más buscado** marca al piloto que más daño ha hecho al Señor de la guerra, con un corchete dorado en su nave, y el Señor de la guerra le dispara un tiro extra cada segundo mientras dura. Su puntería no cambia: sigue disparando al piloto más cercano que puede ver, así que un piloto marcado que además es el más cercano recibe ambos. El tiro extra necesita línea libre y el alcance del láser del Señor de la guerra, así que una pared o algo de distancia lo salva. No empieza mientras nadie haya hecho daño.
-- **La Andanada de cohetes** lanza cohetes teledirigidos contra pilotos al azar, pero solo contra pilotos que el Señor de la guerra puede ver, y una pared en el camino detiene un cohete. Un anillo muestra a qué piloto sigue un cohete. Una EMP Charge o un camuflaje los despista.
+- **La Andanada de cohetes** lanza un cohete teledirigido contra cada piloto que el Señor de la guerra puede ver, y mientras dura lanza otra ronda cada pocos segundos. Una pared en el camino detiene un cohete. Un anillo muestra a qué piloto sigue un cohete. Una EMP Charge o un camuflaje los despista.
 - **El Apoyo de enjambre** es el Señor de la guerra llamando a sus Goombahs. Mientras viven, no puede ser dañado, y no dispara ni usa otra habilidad. Destrúyelos todos: el cartel de la habilidad cuenta cuántos quedan. Si pasa un minuto, el Señor de la guerra vuelve a poder ser dañado y los Goombahs que quedan siguen luchando. No cuentan para la sala del Señor de la guerra, y no pagan nada.
 - **La Zona del Caos** es un anillo violeta en el suelo, alrededor del Señor de la guerra, y mientras dura va adonde vaya el Señor de la guerra. Nadie dentro del anillo puede atacar, ni con láseres ni con cohetes, aunque las reparaciones, el camuflaje y el vuelo siguen funcionando, y el Señor de la guerra y sus alienígenas disparan como siempre. El anillo aparece un momento antes de hacer efecto: sal de él y quédate fuera, porque sigue al Señor de la guerra. Un piloto que está fuera puede seguir disparando, hasta donde alcancen sus armas.
+- **La Lanza fantasma** hace que el Señor de la guerra desaparezca durante un segundo. Vuelve a otro lugar de su sala junto con dos ilusiones de sí mismo. Mientras una ilusión vive, dispara al piloto más cercano que puede ver con la mitad de la salva del Señor de la guerra y cura cada segundo el casco y el escudo del Señor de la guerra (los números están en la tabla de las habilidades). Las ilusiones tienen un casco propio: destrúyelas para detener la curación. No pagan nada, y se van con el Señor de la guerra cuando cae. El Señor de la guerra puede ser destruido mientras ellas viven.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ La ventana Mazmorra de clan cuenta cuántos de ellos faltan por destruir para ab
 | Habilidad | Preparación | Duración | Recarga | Radio del anillo (unidades) | El Señor de la guerra recupera, como máximo |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Aura de robo de vida** | 2 s | 15 s | 2 min | 900 | 8 % de su casco y escudo |
-| **Lluvia de meteoros** | 1,5 s | 3 salvas, con 4 s entre una y otra | 2 min | 420 | – |
+| **Lluvia de meteoros** | 1,5 s | 3 salvas, con 4 s entre una y otra | 2 min | 546 | – |
 | **Foco en el más buscado** | 1 s | 20 s | 2 min | – | – |
 | **Andanada de cohetes** | 1,5 s | 45 s | 2 min | – | – |
 | **Absorción de escudo** | 2 s | 15 s | 2 min | 900 | 6 % de su escudo |
 | **Apoyo de enjambre** | 2 s | Hasta 1 min | 3 min | – | – |
 | **Zona del Caos** | 2 s | 15 s | 2 min | 900 | – |
+| **Lanza fantasma** | 1,5 s | 1 s | 2 min | – | – |
 
 | Habilidad | Fase 1 | Fase 2 | Fase 3 |
 | :--- | :--- | :--- | :--- |
 | **Aura de robo de vida** | 8.000 por segundo | 10.000 por segundo | 12.000 por segundo |
-| **Lluvia de meteoros** | 6 meteoros por salva, 40.000 cada uno | 8 meteoros por salva, 50.000 cada uno | 10 meteoros por salva, 60.000 cada uno |
+| **Lluvia de meteoros** | 6 meteoros por salva, 80.000 cada uno | 8 meteoros por salva, 100.000 cada uno | 10 meteoros por salva, 120.000 cada uno |
 | **Foco en el más buscado** | 18.750–22.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 22.500–26.250 por disparo adicional al piloto que más daño ha causado, uno cada 1 s | 30.000–37.500 por disparo adicional al piloto que más daño ha causado, uno cada 1 s |
-| **Andanada de cohetes** | 26.000 por cohete, uno cada 15 s | 32.500 por cohete, uno cada 15 s | 39.000 por cohete, uno cada 15 s |
+| **Andanada de cohetes** | 50.000–75.000 por cohete a cada piloto, uno cada 15 s | 62.500–93.750 por cohete a cada piloto, uno cada 15 s | 75.000–112.500 por cohete a cada piloto, uno cada 15 s |
 | **Absorción de escudo** | 10.000 de escudo por segundo | 12.500 de escudo por segundo | 15.000 de escudo por segundo |
 | **Apoyo de enjambre** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zona del Caos** | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar | Los pilotos dentro del anillo no pueden atacar |
+| **Lanza fantasma** | 2 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 2 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo | 2 ilusiones de 500.000 de casco cada una; cada una dispara el 50 % de la salva del Señor de la guerra y, mientras vive, cura al Señor de la guerra 50.000 de casco y 50.000 de escudo por segundo |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Las **Orvium Reinforced Plates** y las **Echo Shards** y **Lattice Shards** de l
 
 | Fase | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
-| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
-| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+| **Fase 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Fase 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Fase 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 con la primera finalización pagada de cada etapa en una temporada, y un 5 % de probabilidad de uno más con cada finalización pagada.
 
@@ -379,8 +382,8 @@ Lo que un piloto puede cobrar en un día y en la mejor semana que permiten los l
 
 | Pago por piloto | Honor | Experiencia | Créditos | Thulium | Munición x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Puntos de ranking PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
-| La mejor semana: 7 × Fase 3 y 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
+| Un día, cada fase una vez | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| La mejor semana: 7 × Fase 3 y 3 × Fase 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 La experiencia y el honor de una fase completada y pagada cuentan para tus puntos de ranking PvE: un punto por cada 1.000 de experiencia y uno por cada 100 de honor.
 
@@ -391,8 +394,8 @@ La experiencia y el honor de una fase completada y pagada cuentan para tus punto
 Cada alienígena de una mazmorra paga al caer, y suelta botín, como el alienígena del juego en el que se basa: un Dungeon Goombah como un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys y su Twin como un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate como el Pirate Boss del [Enjambre Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Lo que paga y suelta una baja es lo del original **multiplicado por la proporción entre el casco y el escudo de ambos juntos**: un alienígena tan resistente como su original paga lo que paga el original, uno el doble de resistente paga el doble y suelta el doble de cada objeto, y así sucesivamente. La sección de cada tipo de alienígena en [Los alienígenas](#the-aliens) da la proporción y el pago de una baja en cada fase.
 
 - **Quién cobra.** Los pilotos que dañaron al alienígena, según el daño que hicieron, como con los alienígenas de los enjambres: un piloto o un grupo que apenas lo rozó no recibe nada, un grupo cobra como uno solo, y dentro de un grupo los miembros que están cerca de los restos y han disparado hace poco se reparten por nivel lo que se paga. Un piloto que no hizo daño al alienígena no cobra nada por él, por cerca que haya volado, y un alienígena al que ningún piloto dañó no paga a nadie. Solo entran los pilotos a los que pagan las reglas de arriba: quien se fue, no lleva dentro el tiempo suficiente, ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana no cobra nada por los alienígenas, y los demás se quedan con su parte. Una baja no pide la parte en el combate: haber dañado al alienígena es la parte. Si el miembro de un grupo que más daño hizo ha sido destruido o ya no está en el mapa, los miembros que están cerca de los restos y han disparado hace poco se reparten el pago sin él.
-- **Qué se paga.** Créditos, Thulium, experiencia y honor, una vez por baja. El pago es lo que paga el original en Alpha, en todos los mundos: una mazmorra no tiene multiplicador de mundo. Tus potenciadores, Premium, formación y las bonificaciones de tu clan cuentan como en cualquier baja, y la experiencia cuenta para tus [puntos PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) como la de la partida.
-- **El botín.** Se tira con las probabilidades del original y después cada cantidad se multiplica por la proporción (una fracción de unidad es una probabilidad de una más). Cae como una caja en los restos, primero para el piloto que más daño hizo y su clan, después para cualquiera en el mapa, y luego desaparece. El mapa admite solo cierto número de cajas a la vez, así que recógelas sobre la marcha, y lo que quede en el mapa cuando se cierra la mazmorra se va con ella. A diferencia de los objetos de la partida, son botín corriente de un alienígena: se pueden [vender en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items) si el objeto es Comercializable.
+- **Qué se paga.** Créditos, Thulium, experiencia y honor, una vez por baja. El pago es lo que paga el original en Alpha, en todos los mundos: una mazmorra no tiene multiplicador de mundo. Tus potenciadores, formación y las bonificaciones de tu clan cuentan como en cualquier baja, y la experiencia cuenta para tus [puntos PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) como la de la partida.
+- **El botín.** Se tira con las probabilidades del original, salvo que el Echo Shard es el doble de probable, y después cada cantidad se multiplica por la proporción (una fracción de unidad es una probabilidad de una más). Cae como una caja en los restos, primero para el piloto que más daño hizo y su clan, después para cualquiera en el mapa, y luego desaparece. El mapa admite solo cierto número de cajas a la vez, así que recógelas sobre la marcha, y lo que quede en el mapa cuando se cierra la mazmorra se va con ella. A diferencia de los objetos de la partida, son botín corriente de un alienígena: se pueden [vender en la Subasta](/wiki/03-Mechanics/Auction.md#marketable-items) si el objeto es Comercializable.
 - **Lo que no paga.** El Señor de la guerra no paga baja, solo la partida. Los Goombahs que llama no pagan nada, porque la llamada se repite mientras dura el combate.
 - **No es una baja del juego.** Una baja en una mazmorra no cuenta para misiones, logros, contadores de bajas, puntos de reinicio, los puntos PvE de una baja, drones ni P.E.T.s: un Dungeon Goombah no es un Goombah del juego.
 - **Los límites.** Los límites diarios y semanales de arriba frenan el pago de los alienígenas igual que el de la partida: quien ya cobró hoy por la fase o ya tuvo todas las partidas pagadas de la semana tampoco cobra nada por sus alienígenas, y el bote de cada baja va a los demás. Una mazmorra que no se supera paga sus bajas a los pilotos a los que pagan las reglas, y nada por la partida.

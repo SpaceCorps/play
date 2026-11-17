@@ -84,13 +84,13 @@ Base: Crystalys, con 625% dello scafo; non ha armi, e scudo e velocità sono pro
 
 ### Facet
 
-Base: Seeker, con 2.500% dello scafo e 309% del danno dei laser; scudo, velocità e portata sono propri.
+Base: Seeker, con 2.500% dello scafo e 463% del danno dei laser; scudo, velocità e portata sono propri.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Scafo | 20.000 | 30.000 | 40.000 |
 | Scudo | 16.000 | 24.000 | 32.000 |
-| Danno dei laser (una raffica al secondo) | 556 | 834 | 1.112 |
+| Danno dei laser (una raffica al secondo) | 834 | 1.251 | 1.668 |
 | Velocità | 750 | 750 | 750 |
 | Portata dei laser | 600 | 600 | 600 |
 | Raggio di aggressione | solo se attaccato | solo se attaccato | solo se attaccato |

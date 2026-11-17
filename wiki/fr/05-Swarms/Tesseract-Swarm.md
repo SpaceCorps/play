@@ -84,13 +84,13 @@ Base : Crystalys, avec 625 % de sa coque ; sans arme, avec un bouclier et une
 
 ### Facet
 
-Base : Seeker, avec 2 500 % de sa coque et 309 % de ses dégâts laser ; le bouclier, la vitesse et la portée lui sont propres.
+Base : Seeker, avec 2 500 % de sa coque et 463 % de ses dégâts laser ; le bouclier, la vitesse et la portée lui sont propres.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Coque | 20 000 | 30 000 | 40 000 |
 | Bouclier | 16 000 | 24 000 | 32 000 |
-| Dégâts des lasers (une salve par seconde) | 556 | 834 | 1 112 |
+| Dégâts des lasers (une salve par seconde) | 834 | 1 251 | 1 668 |
 | Vitesse | 750 | 750 | 750 |
 | Portée des lasers | 600 | 600 | 600 |
 | Rayon d’aggro | seulement si attaqué | seulement si attaqué | seulement si attaqué |

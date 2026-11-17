@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea5ed5b1e27718af -->
+<!-- wiki-i18n source: 3881f42052d63758 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter ve Dark Matter plakaları {#dark-matter-and-dark-matter-plates}
 
@@ -35,14 +35,14 @@
 2. **Montaj’da N.I.K.E. roketleri üret.** Bir üretim, 100.000 kredi, 1.500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate ve 40 Cataclysite karşılığında 5 dakikada 5 roket yapar. 20 tane taşıyabilirsin. Bkz. [Roketler](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Tehlike Sektörü 4’e (`DS-4`) uç.** Galaksinin ortasındaki PvP sektörüdür ve kara delik her dünyada tam merkezinde asılı durur ([Kara delik](/wiki/03-Mechanics/Black-Hole.md)). Ona hiçbir uzaylı ya da şirket pilotu yaklaşmaz, ama diğer pilotlar yaklaşır. Sezonun 11. gününden itibaren [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) uzaylıları sektörün sol üst köşesinde yaşar, senin hattından uzakta.
 4. **Kara deliğe kenarından ateş et.** Radyasyon merkezden 4.000 birimde başlar. Bir N.I.K.E. 4.050 birim uçar, bu yüzden 4.000 ile 4.380 birim arasındaki herhangi bir uzaklıktan ateş edebilirsin. Seçili hedef yokken imleci deliğin üzerine koy. 4,6 saniyede bir roket fırlatabilirsin. Daha uzaktan roket kısa kalır.
-5. **Kutuları topla.** Deliğe ulaşan her N.I.K.E. **1, 2 veya 3 Dark Matter** geri verir (zamanın dörtte birinde 1, yarısında 2, dörtte birinde 3), her biri en çok 2 içeren bir ya da iki kutuda. Kutular, deliğin bölgesinin kenarına, merkezden 3.050 ile 3.950 birim uzağa, atışının hattının yakınına düşer. Her birine 200 birimden daha yakına uç: toplama yarım saniye sürer.
+5. **Kutuları topla.** Deliğe ulaşan her N.I.K.E. **1, 2 veya 3 Dark Matter** geri verir (zamanın dörtte birinde 1, yarısında 2, dörtte birinde 3), her birim için bir kutuda, yani bir ila üç kutuda. Kutular, deliğin bölgesinin kenarına, merkezden 3.050 ile 3.950 birim uzağa, atışının hattının yakınına düşer. Her birine 200 birimden daha yakına uç: toplama yarım saniye sürer.
 6. **Eve götür.** Dark Matter envanterine girer. İstasyonda, geminin park halindeyken, onu Araştırma Merkezi’ne ekleyebilir ya da Montaj’da kullanabilirsin.
 
-Yaklaşık **5 roket 10 Dark Matter eder**. Resource Magnet Booster ona hiçbir şey eklemez, bu yüzden Antimatter yeteneğini geliştirmemiş herkes için aynıdır: bu yetenek 100. seviyede en çok %25 ekler.
+Yaklaşık **5 roket 10 Dark Matter eder**. Resource Magnet Booster ona hiçbir şey eklemez, bu yüzden Antimatter yeteneğini geliştirmemiş herkes için aynıdır: bu yetenek 100. seviyede en çok %100 ekler.
 
 ### Güvende tutmak {#keeping-it-safe}
 
-- **Kutular 60 saniye boyunca senindir**, klanınındır da. Sonra haritadaki herkes onları alabilir ve 240 saniye sonra kaybolurlar. Bir harita en fazla 32 Dark Matter kutusu tutar ve yenisi en eskisini dışarı iter.
+- **Kutular 60 saniye boyunca senindir**, klanınındır da. Sonra haritadaki herkes onları alabilir ve 240 saniye sonra kaybolurlar. Bir harita en fazla 52 Dark Matter kutusu tutar ve yenisi en eskisini dışarı iter.
 - **Kenar radyasyonun içindedir.** Orada her saniye geminin toplam gövde puanının %0,3 ile %0,8’ine mal olur, deliğe yaklaştıkça daha fazla. Dolu bir gemi yaklaşık 2 ile 5 dakika dayanır; bandın ortasında bir dakika üçte birine mal olur. Çekim 3.000 birimde biter, bu yüzden hiçbir şey seni ya da kutuları sürükleyip götürmez.
 - **Tehlike Sektörü 4 PvP’dir.** Bir rakip hattında bekleyebilir: bir N.I.K.E. dokunduğu ilk gemiye çarpar (67.500 ile 75.000 hasar) ve delikten hiçbir şey çıkmaz. Bir rakip, 60 saniyen dolunca kutuları da bekleyebilir. Kenardan ateş et, kutuları atışlarının sırasıyla topla ve yanına arkadaş getir.
 - **Diğer kaynaklar.** [Dormant sürüsünün](/wiki/05-Swarms/Dormant-Swarm.md) bir Dormant Pulse gemisi, ona en çok hasar veren pilot için beşte bir olasılıkla 1 ile 5 Dark Matter bırakır. Sürü büyük bir grup ister. [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) bölgesindeki bir Inert Mass da ara sıra biraz bırakır, ama o bataklığın silahlarının altında yaşar. Büyük olan, Tehlike Sektörü 4’teki [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) uzaylısıdır: öldürülmesinin ödediği her pilot kendine özel bir kutu alır; öldürmenin 10 ile 20 Dark Matter’lik havuzu hasara göre aralarında bölüşülür, pilot başına en çok 5, böylece dört ya da daha fazla kişilik bir grup öldürme başına yaklaşık 15 eve götürür. PvP sektöründe çok büyük bir grup ister ve yok edildikten 30 dakika sonra geri döner.

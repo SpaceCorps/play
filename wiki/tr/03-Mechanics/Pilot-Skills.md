@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Pilot Becerileri -->
 # Pilot Becerileri {#pilot-skills}
 
@@ -15,7 +15,7 @@ Yeni bir pilot tam güçte değildir. 1. seviyede bir lazer ve bir roket, eşya 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Değerler**: 20 değer: 5 grupta 4 nitelik ve 16 beceri
+- **Değerler**: 21 değer: 5 grupta 4 nitelik ve 17 beceri
 - **Seviyeler**: 1’den 100’e kadar. Her pilot her değere 1. seviyeden başlar ve harcanacak ya da sıfırlanacak bir şey yoktur
 - **Bir seviyenin maliyeti**: 1. seviyeden 2’ye 40 XP, 50. seviyeden 51’e 875 XP, 99. seviyeden 100’e 19.157 XP; toplam 313.258 XP
 - **Bir seviyenin verdiği**: Bir buff, 1. seviyedeki değerinden 100. seviyedeki değerine düz bir çizgide artar. Hiçbir şeyin sınırı yoktur
@@ -26,6 +26,7 @@ Yeni bir pilot tam güçte değildir. 1. seviyede bir lazer ve bir roket, eşya 
 - **Kargo bölmesi**: Fırlatmadan sonra topladığın kaynak birimlerini, gövde kademesinin verdiği boyuta kadar sayar. Bunun %90 kadarından itibaren doludur ve dolu bir kargo bölmesi Kütle’nin ×1,5 ödemesini sağlar. Hiçbir şey asla reddedilmez
 - **Saatlik yumuşak sınır**: Çoğu değer tam XP’yi yalnızca saatte bir sınıra kadar öder; değerin kendi biriminde, UTC saatine göre bir saat boyunca sayılır. Üstünde bir olay XP’sinin %25 kadarını öder
 - **Eğitim**: Bir becerinin XP’si, kendisinin %10 kadarını niteliğine de öder. 100. seviyedeki bir nitelik becerilerini 1. seviyedekinden %25 kadar daha hızlı eğitir
+- **Sıfırlama puanı**: Bir değer, 10 / 25 / 50 / 75 / 100. seviyeye ilk kez ulaştığında bir kez sıfırlama puanı verir: 2 / 5 / 10 / 20 / 40; yani 100. seviyeye ulaşan bir değer için toplam 77. Bunları Sezon sayfasından al
 
 | Gövde kademesi | Geminin nadirliği | Kargo bölmesi boyutu |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 |  | Bir lazer salvosunun isabet şansı | %80 | %89 |
 | **Roket teknolojisi** (Refleks) | Roket hasarı | ×1 | ×1,3 |
 |  | Bir roketin ateşlenmeme şansı | %10 | %1 |
-| **Antimadde** (İçgüdü) | Toplamalardan Dark Matter | ×1 | ×1,25 |
+| **Antimadde** (İçgüdü) | Toplamalardan Dark Matter | ×1 | ×2 |
 
 ### Savaş {#combat}
 
@@ -78,6 +79,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 | **Taktik** (Refleks) | Yeteneklerin süresi | ×1 | ×1,2 |
 | **Kalkan soğurması** (Dayanıklılık) | Kalkanlarının soğurması | +0 puan | +5 puan |
 | **İyileştirme** (Kütle) | Kendi onarımlarının ve iyileştirmelerinin gücü | ×1 | ×1,3 |
+| **Gizlenme Dolumu** (Refleks) | Gizlenme dolum süresi | ×1 | ×0,5 |
 
 ### Gemi kontrolü {#ship-control}
 
@@ -113,6 +115,7 @@ Tablolar her buff’ı 1. seviyede ve son seviyede verir; arada buff düz bir ç
 - **Roketler.** Roket teknolojisi her roketin hasarını ve bir roketin ateşlenmeme şansını değiştirir ([Roket teknolojisi](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Darbe almak.** Dayanıklılık aldığın her darbeden bir pay çıkarır, Kaçınma doğrudan bir darbenin hiçbir şey yapmama şansını artırır, Kalkan soğurması da bir vuruşun kalkanlarının aldığı payı artırır ([Savaş](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Kütle gövdeni artırır.
 - **İyileştirme.** İyileştirme, kendi ekipmanının iyileştirmelerini güçlendirir: Repair Drone’unun onarımı, bir Emergency Repair ve bıraktığın Heal Pod ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). İyileştirmelerinin geri getirdiği gövdeyle gelişir; güvenli bölgedeki bir gemiyi iyileştirmek sayılmaz. Support Rocket her seviyede hep aynı sabit miktarı iyileştirir ve yine de İyileştirme XP’si verir.
+- **Gizlenme.** Gizlenme Dolumu, bir gizlenme bittikten sonraki bekleme süresini hem Cloaking CPU için ([Ekstralar](/wiki/06-Items/Extras.md#cloaking-cpu)) hem de Chameleon için ([Yetenekler](/wiki/03-Mechanics/Abilities.md)) kısaltır. Gizlenmiş geçirdiğin saniyelerle gelişir; güvenli bölgede ya da hiç komut vermediğin sürece hiçbiri sayılmaz.
 - **Yetenekler.** Refleks yeteneklerinin bekleme süresini kısaltır, Taktik de onları daha uzun sürdürür ([Yetenekler](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotaj zehirleri güçlendirir.
 - **Mine.** Sabotaj bir Mine’ın hasarını artırır, Nişancılık da onu daha hızlı ve daha uzağa fırlatır ([Ekstralar](/wiki/06-Items/Extras.md#mine)).
 - **Hız.** İtici teorisi hızına, motorların ve bir Afterburner’ın üstüne ekler ([Hız](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ Tablo, XP’yi neyin ödediğini değer değer sıralar. XP, ikinci sütunda ad�
 | **Taktik** (Refleks) | Lazer menzilinde bir düşman varken bastığın her yetenek için | 2 | saatte 600 XP |
 | **Kalkan soğurması** (Dayanıklılık) | Düşman vuruşlarının aldığı azami kalkanın her %1’i için | 0,1 | saatte 300 XP |
 | **İyileştirme** (Kütle) | Senin bir iyileştirmenin geri getirdiği geminin azami gövdesinin her %1’i için | 0,1 | saatte 300 XP |
+| **Gizlenme Dolumu** (Refleks) | Son 1 dk içinde emir verilmişken gizlenmiş geçirilen her saniye için, güvenli bölgeler dışında | 0,1 | Yok |
 | **Radyasyon teknolojisi** (Dayanıklılık) | Bir radyasyon bandının içindeki her saniye için | 0,2 | Yok |
 |  | Radyasyonun aldığı azami gövdenin her %1’i için | 1 |  |
 | **İtici teorisi** (Kütle) | Geminin hızının %80 kadarını aşarak uçulan her saniye için, Afterburner altında iki katı | 0,1 | Yok |

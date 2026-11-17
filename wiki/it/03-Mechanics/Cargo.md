@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Carico -->
 # Casse di carico {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Il bottino di un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 
 ## Booster {#boosters}
 
 - **Loot Luck Booster** (e il potenziamento permanente Fortuna, e la fortuna dei tuoi [P.E.T.](/wiki/03-Mechanics/Pets.md) agganciati) aumentano la probabilità di ogni voce del bottino quando chi abbatte l’alieno mette a segno l’abbattimento. Anche la tua competenza [Istinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) si somma a questa probabilità, oltre a quella del booster.
-- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, a mano o con un Retriever, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla. Solo la tua abilità Antimatter aggiunge Dark Matter (fino a +25% al livello 100); senza, cinque N.I.K.E. sono dieci Dark Matter.
+- **Resource Magnet Booster** aggiunge il **25%** alle risorse di ogni cassa che raccogli, a mano o con un Retriever, chiunque abbia fatto l’abbattimento. La Dark Matter è l’eccezione: il Magnet non le aggiunge nulla. Solo la tua abilità Antimatter aggiunge Dark Matter (fino a +100% al livello 100); senza, cinque N.I.K.E. sono dieci Dark Matter.

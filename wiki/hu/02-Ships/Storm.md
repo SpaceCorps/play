@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ A Storm üvegágyú vadászgép: a legnagyobb alapsebesség és a legtöbb léze
 
 | Dizájn | Mit változtat |
 | :--- | :--- |
-| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, Blink |
-| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, Heal Pod |
-| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon |
+| **Storm NOTSUM** | -10% alap hajótest, +50 alap sebesség, +2% sebesség, +5% teljes sebzés, Blink |
+| **Storm BRATAN** | -50 alap sebesség, +2 lézerfoglalat, -25% pajzskapacitás, +10% pajzsáthatolás, +5% teljes sebzés, Heal Pod |
+| **Storm RECON** | -20% alap hajótest, +5% sebesség, -1 lézerfoglalat, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

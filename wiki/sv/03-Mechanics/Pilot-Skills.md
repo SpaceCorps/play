@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Pilotfärdigheter -->
 # Pilotfärdigheter {#pilot-skills}
 
@@ -15,7 +15,7 @@ En ny pilot är inte på full styrka. På nivå 1 gör en laser och en raket min
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Värden**: 20 värden: 4 attribut och 16 färdigheter i 5 grupper
+- **Värden**: 21 värden: 4 attribut och 17 färdigheter i 5 grupper
 - **Nivåer**: 1 till 100. Varje pilot startar varje värde på nivå 1, och det finns inget att spendera och inget att nollställa
 - **Kostnad för en nivå**: 40 XP från nivå 1 till 2, 875 XP från nivå 50 till 51, 19 157 XP från nivå 99 till 100; 313 258 XP totalt
 - **Vad en nivå ger**: En buff växer i rät linje från sitt värde på nivå 1 till sitt värde på nivå 100. Inget har tak
@@ -26,6 +26,7 @@ En ny pilot är inte på full styrka. På nivå 1 gör en laser och en raket min
 - **Lastrum**: Det räknar de resursenheter du plockar upp efter start, upp till den storlek som dess skrovnivå ger det. Det är fullt från 90 % av det, och ett fullt lastrum gör att Tyngd betalar ×1,5. Inget nekas någonsin
 - **Mjuk timgräns**: De flesta värden betalar full XP bara upp till en gräns per timme, räknad i värdets egen enhet över UTC-klockans timme. Över den betalar en händelse 25 % av sin XP
 - **Träning**: En färdighets XP betalar också 10 % av sig själv till sitt attribut. Ett attribut på nivå 100 tränar sina färdigheter 25 % snabbare än på nivå 1
+- **Wipepoäng**: Ett värde betalar wipepoäng en enda gång, första gången det når nivå 10 / 25 / 50 / 75 / 100: 2 / 5 / 10 / 20 / 40, alltså 77 för ett värde som når nivå 100. Hämta dem på sidan Säsong
 
 | Skrovnivå | Skeppets sällsynthet | Lastrummets storlek |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 |  | Chans att en lasersalva träffar | 80 % | 89 % |
 | **Raketteknik** (Reflexer) | Raketskada | ×1 | ×1,3 |
 |  | Chans att en raket blir en blindgångare | 10 % | 1 % |
-| **Antimateria** (Instinkt) | Dark Matter från plock | ×1 | ×1,25 |
+| **Antimateria** (Instinkt) | Dark Matter från plock | ×1 | ×2 |
 
 ### Strid {#combat}
 
@@ -78,6 +79,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 | **Taktik** (Reflexer) | Förmågornas varaktighet | ×1 | ×1,2 |
 | **Sköldabsorption** (Seghet) | Absorption hos dina sköldar | +0 punkter | +5 punkter |
 | **Läkning** (Tyngd) | Styrka hos dina egna reparationer och läkningar | ×1 | ×1,3 |
+| **Kamouflage-uppladdning** (Reflexer) | Kamouflagets uppladdningstid | ×1 | ×0,5 |
 
 ### Skeppsstyrning {#ship-control}
 
@@ -113,6 +115,7 @@ Tabellerna anger varje buff på nivå 1 och på sista nivån; däremellan växer
 - **Raketer.** Raketteknik ändrar skadan i varje raket och chansen att en blir en blindgångare ([Raketteknik](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Att ta träffar.** Seghet tar en andel av varje träff du får, Undanmanöver ökar chansen att en direktträff inte gör något, och Sköldabsorption ökar den andel av en träff som dina sköldar tar ([Strid](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Tyngd ökar ditt skrov.
 - **Läkning.** Läkning gör läkningen från din egen utrustning starkare: reparationen från din Repair Drone, en Emergency Repair och den Heal Pod du släpper ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Den tränas av skrovet som dina läkningar återställer; att läka ett skepp i en säker zon räknas inte. Support Rocket läker alltid samma fasta mängd, på alla nivåer, och ger ändå XP för Läkning.
+- **Kamouflage.** Kamouflage-uppladdning förkortar väntan när ett kamouflage tar slut, både för en Cloaking CPU ([Extrautrustning](/wiki/06-Items/Extras.md#cloaking-cpu)) och för Chameleon ([Förmågor](/wiki/03-Mechanics/Abilities.md)). Den tränas av de sekunder du är kamouflerad; ingen räknas i en säker zon eller medan du inte ger några order.
 - **Förmågor.** Reflexer förkortar nedkylningen av dina förmågor och Taktik får dem att vara längre ([Förmågor](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage förstärker gifterna.
 - **Mine.** Sabotage ökar skadan av en Mine, och Skytte kastar den snabbare och längre ([Extrautrustning](/wiki/06-Items/Extras.md#mine)).
 - **Hastighet.** Thrusterteori lägger till din hastighet, utöver motorerna och en Afterburner ([Hastighet](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ Tabellen listar vad som betalar XP, värde för värde. XP:n gäller för varje 
 | **Taktik** (Reflexer) | Varje förmåga du trycker på med en fiende inom laserräckvidd | 2 | 600 XP i timmen |
 | **Sköldabsorption** (Seghet) | Varje 1 % av din maximala sköld som fiendens träffar tar | 0,1 | 300 XP i timmen |
 | **Läkning** (Tyngd) | Varje 1 % av ett skepps maximala skrov som en läkning av dig återställer | 0,1 | 300 XP i timmen |
+| **Kamouflage-uppladdning** (Reflexer) | Varje sekund du är kamouflerad med en order given de senaste 1 min, utanför säkra zoner | 0,1 | Ingen |
 | **Strålningsteknik** (Seghet) | Varje sekund inne i ett strålningsband | 0,2 | Ingen |
 |  | Varje 1 % av ditt maximala skrov som strålningen tar | 1 |  |
 | **Thrusterteori** (Tyngd) | Varje sekund flugen över 80 % av ditt skepps hastighet, dubbelt så mycket under en Afterburner | 0,1 | Ingen |

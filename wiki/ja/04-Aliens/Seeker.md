@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 17c852dbf3e8ad59 -->
+<!-- wiki-i18n source: b9bfffab24f7eda8 -->
 <!-- wiki-i18n title: Seeker -->
 # Seeker
 
@@ -39,7 +39,7 @@ Seeker は基本的な斥候・偵察ユニットです。非攻撃的で、自�
 
 - **Ship Fragment**：20%の確率（最小：1、最大：1）
 - **Daraxium**：50%の確率（最小：1、最大：2）
-- **Echo Shard**：0.4%の確率（最小：1、最大：1）
+- **Echo Shard**：0.8%の確率（最小：1、最大：1）
 
 ## 伝承 {#lore}
 

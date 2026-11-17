@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -30,6 +30,7 @@ Wähle einen Gegenstand, und das Panel zeigt seine Stufe, die Stufe, die er erre
 - **Deine Commerce-Fertigkeit** senkt die Credits und das Thulium eines Schritts sowie die Credits eines Zusammenführens bei Level 100 um bis zu 15 % ([Pilotenfertigkeiten](/wiki/03-Mechanics/Pilot-Skills.md)). Die Tabelle zeigt den Preis auf dem ersten Level, das Panel den Preis, den du zahlst; die Materialien ändern sich nicht.
 - **Jeder Bonus, den der Gegenstand hat,** wird im Bereich der neuen Stufe neu ausgewürfelt und behält den besseren Wert. Das Ergebnis erscheint über dem Panel; der Gegenstand bleibt ausgewählt, sein nächster Schritt steht also schon auf dem Bildschirm.
 - Ein Aufwerten geschieht sofort.
+- **Die Sockel liegen unter dem Schritt.** Aufwerten und [Sockel](#sockets) sind eine Ansicht, **Verbessern**, mit dem Aufwerten zuerst: Der Sockel, den ein Schritt weckt, steht gleich unter der Schaltfläche in der Liste, mit seiner Schaltfläche Abstimmen, du musst also nirgends hinwechseln, um ihn zu nutzen.
 - **Ein Tinkerer's Badge** (ein [Spezialgegenstand](/wiki/06-Items/Special-Items.md#tinkerers-badge)) hebt ein Stück ohne Credits, ohne Thulium und ohne Materialien um eine Stufe an, schon ab Standard. Es ist ein Schritt, der nichts kostet: Er weckt einen Sockel und würfelt die Boni, die das Stück trägt, neu, wie ein bezahlter Schritt.
 
 ### Dark Matter Plates
@@ -74,7 +75,7 @@ Die Kristalle folgen den Stufen: Daraxium ist blau wie Erwacht, Nyxite gelb wie 
 
 ## Sockel {#sockets}
 
-Die Ansicht **Sockel** der Schmiede ist der Ort, an dem ein Bonus in einen Gegenstand kommt. Wähle ein Stück, und die Ansicht listet seine Sockel, seine Integrität und die Shards, die du besitzt. Ein Sockel ist **gesperrt**, bis ihn ein Aufwerten weckt (seine Zeile sagt, bei welcher Stufe und mit dem Schritt welches Kristalls), **leer**, sobald er wach ist, und **abgestimmt**, wenn er einen Bonus trägt. Das Aufwerten-Panel zählt sie: *Wache Sockel 1 → 2 von 4*.
+Der Block **Sockel** in der Ansicht **Verbessern** der Schmiede, unter dem Aufwerten, ist der Ort, an dem ein Bonus in einen Gegenstand kommt. Wähle ein Stück, und der Block listet seine Sockel, seine Integrität und die Shards, die du besitzt. Ein Sockel ist **gesperrt**, bis ihn ein Aufwerten weckt (seine Zeile sagt, bei welcher Stufe und mit dem Schritt welches Kristalls), **leer**, sobald er wach ist, und **abgestimmt**, wenn er einen Bonus trägt. Der Block Aufwerten zählt sie: *Wache Sockel 1 → 2 von 4*.
 
 - **Abstimmen:** Einen leeren Sockel stimmst du mit **Echo Shards** ab: 10 für den ersten Sockel eines Stücks, dann 20, 40 und 80, der Preis steigt also mit jedem Sockel, den du abstimmst (der abgedunkelte Preis bei jedem späteren leeren Sockel zeigt, was er kosten wird). Die Shards sind weg, sobald du auf Abstimmen drückst, und die Schmiede legt dir dann ein **Angebot** vor: zwei der Werte, die noch frei sind, zufällig gezogen, jeweils mit dem Bonus, den sie ergäben. **Wähle** einen: Du bekommst, was das Angebot zeigte. Ist nur noch ein Wert frei, sind beide Zeilen Würfe auf diesen Wert, und sie können gleich ausfallen.
 - **Ein Heartshard** lässt sich zu einer Abstimmung oder Neubelegung hinzufügen: Schalte zuerst *Heartshard bei der nächsten Abstimmung oder Neubelegung einsetzen* ein, dann listet das Angebot stattdessen jeden freien Wert des Stücks, jeweils in der oberen Hälfte seines Bereichs gewürfelt, du wählst den Wert also selbst.
@@ -95,13 +96,13 @@ Alle vier Sockel eines Stücks abzustimmen kostet 150 Echo Shards (10 + 20 + 40 
 | Solo-Tor: Gamma Foundry | 18 | 27 |
 | Solo-Tor: Delta Siege | 29 | 44 |
 | Solo-Tor: Omega Vault | 34 | 54 |
-| Clan-Dungeon: Stufe 1 | 3 | 5 |
-| Clan-Dungeon: Stufe 2 | 2 | 6 |
-| Clan-Dungeon: Stufe 3 | 2 | 7 |
+| Clan-Dungeon: Stufe 1 | 12 | 5 |
+| Clan-Dungeon: Stufe 2 | 8 | 6 |
+| Clan-Dungeon: Stufe 3 | 8 | 7 |
 
 - **Solo-Tore** zahlen ihre Shards bei jedem Abschluss, **Clan-Dungeons** bei jedem bezahlten Abschluss einer Stufe.
 - **Heartshards** gibt es beim ersten Abschluss jedes Tors und jeder Dungeon-Stufe in einer Saison (1) und mit 5 % Wahrscheinlichkeit 1 weiteren bei jedem Abschluss. Auch die seltenen NPCs droppen sie: 10 % bei Davidski, 5 % bei Dormant Force und bei Tesseract. Den Rest zeigt die Seite [Ressourcen](/wiki/06-Items/Resources.md#heartshard).
-- **Aliens** droppen nur Echo Shards, und wenige: von 0,4 % pro Abschuss bei einem Seeker bis 20 % bei einem Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- **Aliens** droppen nur Echo Shards, und wenige: von 0,8 % pro Abschuss bei einem Seeker bis 40 % bei einem Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Zusammenführen {#merge}
 
@@ -113,7 +114,7 @@ Zwei Exemplare desselben Gegenstands (zwei Light Shield Cores, zwei Quantum Lase
 - **Ein Zusammenführen kostet Credits je nach der Stufe, die es ergibt**: 5.000 für Erwacht, 25.000 für Resonant, 100.000 für Strahlend, 250.000 für Aufgestiegen. Keine Materialien. Deine Commerce-Fertigkeit senkt die Credits wie bei einem Schritt.
 - Ein Zusammenführen, das nichts ändern würde (das Ergebnis ist nicht besser als die Basis), wird abgelehnt. Eine bessere Integrität allein zählt nicht: Ein Zusammenführen ist keine Reparatur.
 - **Integrität.** Die Integrität des Ergebnisses ist der Durchschnitt der Integrität beider Stücke (abgerundet) minus 6, nie unter 0, und seine Zahl der Neubelegungen ist die höhere der beiden: Zwei intakte Stücke werden zu einem Stück mit 94. Das Ergebnis behält die Reihenfolge der Risse der Basis: Derselbe Wert wird zuerst getroffen. Siehe [Integrität und Risse](#integrity-and-fractures).
-- Nach einem Zusammenführen bleibt das Ergebnis ausgewählt und der Spender-Platz ist leer: Lege den nächsten Spender ein oder wechsle zurück zu Aufwerten.
+- Nach einem Zusammenführen bleibt das Ergebnis ausgewählt und der Spender-Platz ist leer: Lege den nächsten Spender ein oder wechsle zurück zu Verbessern.
 - **Das Etikett**: Das zusammengeführte Stück ist nur **handelbar** (du kannst es in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkaufen), wenn Basis und Spender es beide waren. Die Vorschau sagt es dir.
 
 Ein Zusammenführen vervielfacht einen Gegenstand nicht. Sein Nutzen ist die Auswahl: ein Kern der Stufe Resonant mit den Werten, die du willst, oder eine Stufe, die du auf den Gegenstand an deinem Schiff überträgst, ohne ihn abzunehmen.
@@ -150,4 +151,4 @@ Die Rezepte, ihre Kosten und die Zahlen hinter der Regel stehen in der [Gegensta
 
 ## Alte Server {#old-servers}
 
-Ein Spielserver, der noch nicht auf die Schmiede aktualisiert wurde, zeigt anstelle des Tabs „Die Schmiede ist auf diesem Server noch nicht verfügbar“; die Herstellung funktioniert wie bisher. Ein Spielclient von vor der Schmiede zeigt auf einem aktualisierten Server den alten Fusions-Tab und wird zum Aktualisieren aufgefordert. Ein Server von vor 0.5.7 hat keine Sockel-Ansicht, und ein Spiel von vor 0.5.7 kann die Schmiede noch öffnen und lesen, aber ein aktualisierter Server weist jede Änderung ab, die es verlangt (ein Aufwerten, ein Zusammenführen, eine Abstimmung, eine Neubelegung, eine Reparatur, ein Tinkerer's Badge): „Aktualisiere das Spiel, um diese Funktion zu nutzen.“
+Ein Spielserver, der noch nicht auf die Schmiede aktualisiert wurde, zeigt anstelle des Tabs „Die Schmiede ist auf diesem Server noch nicht verfügbar“; die Herstellung funktioniert wie bisher. Ein Spielclient von vor der Schmiede zeigt auf einem aktualisierten Server den alten Fusions-Tab und wird zum Aktualisieren aufgefordert. Ein Server von vor 0.5.7 hat keinen Sockel-Block, und ein Spiel von vor 0.5.7 kann die Schmiede noch öffnen und lesen, aber ein aktualisierter Server weist jede Änderung ab, die es verlangt (ein Aufwerten, ein Zusammenführen, eine Abstimmung, eine Neubelegung, eine Reparatur, ein Tinkerer's Badge): „Aktualisiere das Spiel, um diese Funktion zu nutzen.“

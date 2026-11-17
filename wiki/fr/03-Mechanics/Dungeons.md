@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Donjons -->
 # Donjons {#dungeons}
 
@@ -195,7 +195,7 @@ Chaque sorte à tour de rôle. La coque et le bouclier sont les valeurs habituel
 
 ## Le Seigneur de guerre {#the-warlord}
 
-Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa chute qui paie la réussite. Il ne paie pas de destruction à lui seul, contrairement aux autres aliens. C’est un Crystalys devenu énorme. Sa coque et son bouclier grandissent avec la taille du groupe : plus il entre de pilotes, plus il est résistant, en proportion. Il ne quitte jamais sa salle, porte fermée ou ouverte : il reste entre les murs de la salle et ne traque pas dans les couloirs. Un pilote à l’extérieur ne peut l’attirer que jusqu’au bord de la salle, et il tire quand même par une porte ouverte sur tout ce que son laser atteint. Il utilise ses compétences une à la fois, dans un ordre aléatoire, chacune avec son propre temps de recharge.
+Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa chute qui paie la réussite. Il ne paie pas de destruction à lui seul, contrairement aux autres aliens. C’est un Crystalys devenu énorme. Sa coque et son bouclier grandissent avec la taille du groupe : plus il entre de pilotes, plus il est résistant, en proportion. Il ne quitte jamais sa salle, porte fermée ou ouverte : il reste entre les murs de la salle et ne traque pas dans les couloirs. Un pilote à l’extérieur ne peut l’attirer que jusqu’au bord de la salle, et il tire quand même par une porte ouverte sur tout ce que son laser atteint. Il utilise ses compétences une à la fois, dans un ordre aléatoire, chacune avec son propre temps de recharge. À partir de l’étape 2, son laser tire sur deux pilotes à la fois : les deux plus proches qu’il voit prennent chacun une salve entière.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ Le Seigneur de guerre attend dans la salle au bout du labyrinthe, et c’est sa 
 | :--- | ---: | ---: | ---: |
 | Coque | 10 000 000 | 15 000 000 | 25 000 000 |
 | Bouclier | 8 000 000 | 12 000 000 | 20 000 000 |
-| Dégâts des lasers (une salve par seconde) | 12 500–15 000 | 15 000–17 500 | 20 000–25 000 |
+| Dégâts des lasers (une salve par seconde) | 12 500–15 000 | 15 000–17 500 sur chacun de 2 pilotes | 20 000–25 000 sur chacun de 2 pilotes |
 | Vitesse | 120 | 120 | 120 |
 | Portée des lasers | 1 100 | 1 100 | 1 100 |
 
@@ -237,9 +237,10 @@ La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire po
 - **L’anneau rouge** de l’Aura de vol de vie blesse tout pilote à l’intérieur et soigne le Seigneur de guerre de ces dégâts. L’Absorption de bouclier a aussi un anneau rouge : il draine les boucliers des pilotes à l’intérieur et charge celui du Seigneur de guerre. Dans les deux cas, quittez l’anneau ou mettez-vous derrière un mur.
 - **Les anneaux ambrés** de la Chute de météores montrent où les météores tomberont un instant plus tard. Bougez sans cesse et sortez de l’anneau avant l’impact.
 - **Focus sur le plus recherché** marque le pilote qui a infligé le plus de dégâts au Seigneur de guerre, d’un crochet doré sur son vaisseau, et le Seigneur de guerre tire sur lui un trait de plus chaque seconde tant que la compétence dure. Sa visée ne change pas : il continue de tirer sur le pilote le plus proche qu’il voit, un pilote marqué qui est aussi le plus proche prend donc les deux. Le trait supplémentaire demande une ligne dégagée et la portée du laser du Seigneur de guerre, donc un mur ou un peu de distance le sauve. Elle ne démarre pas tant que personne n’a infligé de dégâts.
-- **La Salve de roquettes** lance des roquettes à tête chercheuse sur des pilotes au hasard, mais seulement sur des pilotes que le Seigneur de guerre peut voir, et un mur sur le chemin arrête une roquette. Un anneau montre quel pilote une roquette suit. Une EMP Charge ou une occultation les fait lâcher prise.
+- **La Salve de roquettes** lance une roquette à tête chercheuse sur chaque pilote que le Seigneur de guerre peut voir, puis une nouvelle série toutes les quelques secondes tant qu’elle dure. Un mur sur le chemin arrête une roquette. Un anneau montre quel pilote une roquette suit. Une EMP Charge ou une occultation les fait lâcher prise.
 - **Le Renfort d’essaim** est le Seigneur de guerre qui appelle ses Goombahs. Tant qu’ils vivent, il ne peut pas être blessé, et il ne tire pas et n’utilise aucune autre compétence. Détruisez-les tous : la bannière compte combien il en reste. Si une minute passe, le Seigneur de guerre peut de nouveau être blessé et les Goombahs qui restent continuent le combat. Ils ne comptent pas pour la salle du boss, et ils ne paient rien.
 - **La Zone du Chaos** est un anneau violet au sol, autour du Seigneur de guerre, et tant qu’elle dure, il va partout où va le Seigneur de guerre. Personne dans l’anneau ne peut attaquer, ni avec des lasers ni avec des roquettes, mais les réparations, l’occultation et le vol fonctionnent toujours, et le Seigneur de guerre et ses aliens tirent comme toujours. L’anneau apparaît un instant avant de faire effet  sortez-en et restez dehors, car il suit le Seigneur de guerre. Un pilote à l’extérieur peut toujours tirer, aussi loin que portent ses armes.
+- **La Lance fantôme** fait disparaître le Seigneur de guerre pendant une seconde. Il revient ailleurs dans sa salle avec deux illusions de lui-même. Tant qu’une illusion vit, elle tire sur le pilote le plus proche qu’elle voit avec la moitié de la salve du Seigneur de guerre et soigne chaque seconde la coque et le bouclier du Seigneur de guerre (les chiffres sont dans le tableau des compétences). Les illusions ont une coque à elles : détruisez-les pour arrêter les soins. Elles ne paient rien et partent avec le Seigneur de guerre quand il tombe. Le Seigneur de guerre peut être détruit tant qu’elles vivent.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ La fenêtre Donjon de clan compte combien d’entre eux il reste à détruire po
 | Compétence | Préparation | Durée | Temps de recharge | Rayon de l’anneau (unités) | Le Seigneur de guerre regagne, au plus |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Aura de vol de vie** | 2 s | 15 s | 2 min | 900 | 8 % de sa coque et de son bouclier |
-| **Chute de météores** | 1,5 s | 3 salves, espacées de 4 s | 2 min | 420 | – |
+| **Chute de météores** | 1,5 s | 3 salves, espacées de 4 s | 2 min | 546 | – |
 | **Focus sur le plus recherché** | 1 s | 20 s | 2 min | – | – |
 | **Salve de roquettes** | 1,5 s | 45 s | 2 min | – | – |
 | **Absorption de bouclier** | 2 s | 15 s | 2 min | 900 | 6 % de son bouclier |
 | **Renfort d’essaim** | 2 s | Jusqu’à 1 min | 3 min | – | – |
 | **Zone du Chaos** | 2 s | 15 s | 2 min | 900 | – |
+| **Lance fantôme** | 1,5 s | 1 s | 2 min | – | – |
 
 | Compétence | Étape 1 | Étape 2 | Étape 3 |
 | :--- | :--- | :--- | :--- |
 | **Aura de vol de vie** | 8 000 par seconde | 10 000 par seconde | 12 000 par seconde |
-| **Chute de météores** | 6 météores par salve, 40 000 chacun | 8 météores par salve, 50 000 chacun | 10 météores par salve, 60 000 chacun |
+| **Chute de météores** | 6 météores par salve, 80 000 chacun | 8 météores par salve, 100 000 chacun | 10 météores par salve, 120 000 chacun |
 | **Focus sur le plus recherché** | 18 750–22 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 22 500–26 250 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s | 30 000–37 500 par tir supplémentaire sur le pilote ayant infligé le plus de dégâts, un toutes les 1 s |
-| **Salve de roquettes** | 26 000 par roquette, une toutes les 15 s | 32 500 par roquette, une toutes les 15 s | 39 000 par roquette, une toutes les 15 s |
+| **Salve de roquettes** | 50 000–75 000 par roquette sur chaque pilote, une toutes les 15 s | 62 500–93 750 par roquette sur chaque pilote, une toutes les 15 s | 75 000–112 500 par roquette sur chaque pilote, une toutes les 15 s |
 | **Absorption de bouclier** | 10 000 de bouclier par seconde | 12 500 de bouclier par seconde | 15 000 de bouclier par seconde |
 | **Renfort d’essaim** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone du Chaos** | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer | Les pilotes dans l’anneau ne peuvent pas attaquer |
+| **Lance fantôme** | 2 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 2 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde | 2 illusions de 500 000 de coque chacune ; chacune tire 50 % de la salve du Seigneur de guerre et, tant qu’elle vit, soigne le Seigneur de guerre de 50 000 de coque et de 50 000 de bouclier par seconde |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Les **Orvium Reinforced Plates** et les **Echo Shards** et **Lattice Shards** de
 
 | Étape | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
-| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
-| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+| **Étape 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **Étape 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **Étape 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards** : 1 à la première réussite payée de chaque étape d’une saison, et 5 % de chances d’en obtenir un de plus à chaque réussite payée.
 
@@ -379,8 +382,8 @@ Ce qu’un pilote peut toucher en un jour, et dans la meilleure semaine que perm
 
 | Paie de chaque pilote | Honneur | Expérience | Crédits | Thulium | Munitions x4 | Orvium Reinforced Plates | Echo Shards | Lattice Shards | Points de classement PvE |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
-| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
+| Un jour, chaque étape une fois | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| La meilleure semaine : 7 × Étape 3 et 3 × Étape 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 L’expérience et l’honneur d’une étape terminée et payée comptent pour vos points de classement PvE : un point pour chaque tranche de 1 000 d’expérience et un pour chaque tranche de 100 d’honneur.
 
@@ -391,8 +394,8 @@ L’expérience et l’honneur d’une étape terminée et payée comptent pour 
 Chaque alien d’un donjon paie en tombant, et lâche du butin, comme l’alien du jeu dont il s’inspire : un Dungeon Goombah comme un [Goombah](/wiki/04-Aliens/Goombah.md), un Dungeon Crystalys et son Twin comme un [Crystalys](/wiki/04-Aliens/Crystalys.md), un Dungeon Pirate comme le Pirate Boss de l’[Essaim Pirate](/wiki/05-Swarms/Pirate-Swarm.md). Ce que paie et lâche une destruction est ce que paie et lâche l’original, **multiplié par le rapport de leur coque et de leur bouclier réunis** : un alien aussi résistant que son original paie ce que paie l’original, un alien deux fois plus résistant paie deux fois plus et lâche deux fois plus de chaque objet, et ainsi de suite. La section de chaque sorte d’alien sous [Les aliens](#the-aliens) donne le rapport et la paie d’une destruction à chaque étape.
 
 - **Qui est payé.** Les pilotes qui ont blessé l’alien, selon les dégâts infligés, comme pour les aliens des essaims : un pilote ou un groupe qui l’a seulement effleuré ne reçoit rien, un groupe est payé comme un seul, et dans un groupe les membres proches de l’épave qui ont tiré récemment se partagent la paie selon leur niveau. Un pilote qui n’a infligé aucun dégât à l’alien ne reçoit rien pour lui, même s’il volait tout près, et un alien qu’aucun pilote n’a blessé ne paie personne. Seuls entrent les pilotes que les règles ci-dessus paient. Celui qui est parti, qui n’est pas resté assez longtemps, qui a déjà été payé pour l’étape aujourd’hui ou qui a eu toutes les réussites payées de la semaine ne reçoit rien pour les aliens, et les autres ont sa part. Une destruction ne demande pas la part au combat, car avoir blessé l’alien en est la part. Si le membre d’un groupe qui a infligé le plus de dégâts a été détruit ou n’est plus sur la carte, les membres proches de l’épave qui ont tiré récemment se partagent la paie sans lui.
-- **Ce qui est payé.** Crédits, Thulium, expérience et honneur, une fois par destruction. La paie est celle de l’original en Alpha, dans tous les mondes : un donjon n’a pas de multiplicateur de monde. Vos boosters, Premium, formation et les bonus de votre clan comptent comme pour toute destruction, et l’expérience compte pour vos [points PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) comme celle de la réussite.
-- **Le butin.** Il est tiré avec les chances de l’original, puis chaque quantité est multipliée par le rapport (une fraction d’unité est une chance d’en avoir une de plus). Il tombe dans une caisse sur l’épave, d’abord pour le pilote qui a infligé le plus de dégâts et son clan, puis pour n’importe qui sur la carte, et ensuite il disparaît. La carte ne tient qu’un certain nombre de caisses à la fois : ramassez-les au fil du combat, et ce qui reste sur la carte à la fermeture du donjon part avec lui. Contrairement aux objets de la réussite, ce sont des butins ordinaires d’alien : on peut les [vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items) quand l’objet est vendable.
+- **Ce qui est payé.** Crédits, Thulium, expérience et honneur, une fois par destruction. La paie est celle de l’original en Alpha, dans tous les mondes : un donjon n’a pas de multiplicateur de monde. Vos boosters, formation et les bonus de votre clan comptent comme pour toute destruction, et l’expérience compte pour vos [points PvE](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) comme celle de la réussite.
+- **Le butin.** Il est tiré avec les chances de l’original, sauf l’Echo Shard, deux fois plus probable, puis chaque quantité est multipliée par le rapport (une fraction d’unité est une chance d’en avoir une de plus). Il tombe dans une caisse sur l’épave, d’abord pour le pilote qui a infligé le plus de dégâts et son clan, puis pour n’importe qui sur la carte, et ensuite il disparaît. La carte ne tient qu’un certain nombre de caisses à la fois : ramassez-les au fil du combat, et ce qui reste sur la carte à la fermeture du donjon part avec lui. Contrairement aux objets de la réussite, ce sont des butins ordinaires d’alien : on peut les [vendre aux Enchères](/wiki/03-Mechanics/Auction.md#marketable-items) quand l’objet est vendable.
 - **Ce qui ne paie pas.** Le Seigneur de guerre ne paie pas de destruction, seulement la réussite. Les Goombahs qu’il appelle ne paient rien, car l’appel revient tant que le combat dure.
 - **Pas une destruction du jeu.** Une destruction dans un donjon ne compte ni pour les quêtes, ni pour les succès, ni pour les compteurs de destructions, ni pour les points de réinitialisation, ni pour les points PvE d’une destruction, ni pour les drones ou les P.E.T.s : un Dungeon Goombah n’est pas un Goombah du jeu.
 - **Les limites.** Les limites du jour et de la semaine ci-dessus retiennent la paie des aliens comme celle de la réussite. Un pilote déjà payé pour l’étape aujourd’hui, ou qui a eu toutes les réussites payées de la semaine, ne reçoit rien non plus pour ses aliens, et la cagnotte d’une destruction va aux autres. Un donjon qui n’est pas réussi paie ses destructions aux pilotes que les règles paient, et rien pour la réussite.

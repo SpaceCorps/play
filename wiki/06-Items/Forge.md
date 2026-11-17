@@ -14,7 +14,7 @@ A **Ship** drop-down beside the type filter shows only the pieces on one of your
 
 ## Tier up
 
-Pick an item and the panel shows its tier, the tier it would reach, what that changes (how many buffs it can hold and how big they are), and the price with what you have of each part: green when you have enough, red when you don't, and how many you are short. When you have it all, **Tier up** raises the item by exactly one tier. There is no jump: to reach Ascendant an item goes through Awakened, Resonant and Radiant, each with its own price.
+Pick an item and the **Upgrade** view shows its tier, the tier it would reach, what that changes (how many buffs it can hold and how big they are), and the price with what you have of each part: green when you have enough, red when you don't, and how many you are short. When you have it all, **Tier up** raises the item by exactly one tier. There is no jump: to reach Ascendant an item goes through Awakened, Resonant and Radiant, each with its own price.
 
 | Step | Credits | Thulium | Materials |
 | :--- | :---: | :---: | :--- |
@@ -28,6 +28,7 @@ Pick an item and the panel shows its tier, the tier it would reach, what that ch
 - **Your Commerce skill** lowers the credits and the Thulium of a step, and the credits of a merge, by up to 15% at level 100 ([Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md)). The table shows the price at the first level and the panel the price you pay; the materials do not change.
 - **Each buff the item has** is rolled again in the new tier's range and keeps the better value. The result is shown above the panel; the item stays selected, so its next step is already on screen.
 - A tier-up is instant.
+- **The sockets are under the step.** Tier up and [Sockets](#sockets) are one view, **Upgrade**, with Tier up first: the socket a step wakes is in the list right below the button, with its Tune button, so you don't switch anywhere to use it.
 - **A Tinkerer's Badge** (a [special item](/wiki/06-Items/Special-Items.md#tinkerers-badge)) raises a piece one tier with no Credits, no Thulium and no materials, from Standard on. It is a step that costs nothing: it wakes a socket and rolls the buffs the piece holds again, as a paid step does.
 
 ### Dark Matter Plates
@@ -72,7 +73,7 @@ The crystals follow the tiers: Daraxium is blue like Awakened, Nyxite yellow lik
 
 ## Sockets
 
-The Forge's **Sockets** view is where a buff goes into an item. Pick a piece and the view lists its sockets, its integrity and the shards you hold. A socket is **locked** until a tier-up wakes it (its row says at which tier and with which crystal's step), **empty** once it is awake, and **tuned** when it holds a buff. The Tier up panel counts them: *Sockets awake 1 → 2 of 4*.
+The **Sockets** block of the Forge's Upgrade view, under Tier up, is where a buff goes into an item. Pick a piece and the block lists its sockets, its integrity and the shards you hold. A socket is **locked** until a tier-up wakes it (its row says at which tier and with which crystal's step), **empty** once it is awake, and **tuned** when it holds a buff. The Tier up block counts them: *Sockets awake 1 → 2 of 4*.
 
 - **Tune** an empty socket with **Echo Shards**: 10 for the first socket of a piece, then 20, 40 and 80, so the price rises with every socket you tune (the dimmed price on each later empty socket says what it will cost). The shards are spent when you press Tune, and the Forge then lays out an **offer**: two of the stats that are still free, picked at random, each with the buff it would give. **Choose** one: you get what the offer showed. When only one stat is left free, both lines are rolls of that stat, and they can come out the same.
 - **A Heartshard** can be added to a tune or a re-lay: switch on *Use a Heartshard* first, and the offer lists every free stat of the piece instead, each rolled in the upper half of its range, so you choose the stat.
@@ -93,13 +94,13 @@ Tuning all four sockets of a piece takes 150 Echo Shards (10 + 20 + 40 + 80), an
 | Solo gate: Gamma Foundry | 18 | 27 |
 | Solo gate: Delta Siege | 29 | 44 |
 | Solo gate: Omega Vault | 34 | 54 |
-| Clan dungeon: stage 1 | 3 | 5 |
-| Clan dungeon: stage 2 | 2 | 6 |
-| Clan dungeon: stage 3 | 2 | 7 |
+| Clan dungeon: stage 1 | 12 | 5 |
+| Clan dungeon: stage 2 | 8 | 6 |
+| Clan dungeon: stage 3 | 8 | 7 |
 
 - **Solo gates** pay their shards with every clear, **clan dungeons** with every paid clear of a stage.
 - **Heartshards** come with the first clear of each gate and of each dungeon stage in a season (1) and with a 5% chance of 1 more at every clear. The rare NPCs drop them too: 10% for Davidski, 5% for Dormant Force and for Tesseract. The [Resources](/wiki/06-Items/Resources.md#heartshard) page has the rest.
-- **Aliens** drop Echo Shards only, and few: from 0.4% a kill for a Seeker to 20% for a Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- **Aliens** drop Echo Shards only, and few: from 0.8% a kill for a Seeker to 40% for a Crystalys ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Merge
 
@@ -111,7 +112,7 @@ Two copies of the same item (two Light Shield Cores, two Quantum Laser II) becom
 - **A merge costs credits by the tier it makes**: 5,000 for Awakened, 25,000 for Resonant, 100,000 for Radiant, 250,000 for Ascendant. No materials. Your Commerce skill lowers the credits like those of a step.
 - A merge that would change nothing (the result is no better than the base) is refused. A better integrity alone does not count: a merge is not a repair.
 - **Integrity.** The result's integrity is the average of the two pieces' integrity (rounded down) minus 6, never under 0, and its re-lay count is the higher of the two: two whole pieces merge into a piece at 94. The result keeps the base's order of fractures: the same stat is hit first. See [Integrity and fractures](#integrity-and-fractures).
-- After a merge the result stays selected and the donor slot is empty: put the next donor in, or switch back to Tier up.
+- After a merge the result stays selected and the donor slot is empty: put the next donor in, or switch back to Upgrade.
 - **The tag**: the merged piece is **Marketable** (it can be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items)) only if both the base and the donor were. The preview says so.
 
 A merge doesn't multiply an item. Its use is choosing: a Resonant core with the stats you want, or a tier moved onto the item on your ship without taking it off.
@@ -148,4 +149,4 @@ The recipes, their costs and the numbers behind the rule are on the [Items overv
 
 ## Old servers
 
-A game server that has not been updated to the Forge shows "The Forge is not on this server yet" in place of the tab; Crafting works as before. A game client from before the Forge shows the old Fusion tab on an updated server and is told to update. A server from before 0.5.7 has no Sockets view, and a game from before 0.5.7 can still open the Forge and read it, but an updated server turns away every change it asks for (a tier-up, a merge, a tune, a re-lay, a repair, a Tinkerer's Badge) with "Update the game to use this feature."
+A game server that has not been updated to the Forge shows "The Forge is not on this server yet" in place of the tab; Crafting works as before. A game client from before the Forge shows the old Fusion tab on an updated server and is told to update. A server from before 0.5.7 has no Sockets block, and a game from before 0.5.7 can still open the Forge and read it, but an updated server turns away every change it asks for (a tier-up, a merge, a tune, a re-lay, a repair, a Tinkerer's Badge) with "Update the game to use this feature."

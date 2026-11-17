@@ -724,7 +724,7 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 **Dove si ottiene**
 
-- **Il buco nero**: un razzo [N.I.K.E.](/wiki/06-Items/Rockets.md) che attraversa l’orizzonte degli eventi del buco nero al centro del Settore pericoloso 4 viene inghiottito, e il buco restituisce **1, 2 o 3** Dark Matter (2 in media) in casse da 2 al massimo sul bordo della sua zona, da 3.050 a 3.950 unità dal suo centro. Le casse sono tue, e del tuo clan, per 60 secondi e durano 240 secondi. Un N.I.K.E. che incontra una nave lungo il percorso colpisce quella nave e si esaurisce. Vedi [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) e [Il buco nero](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **Il buco nero**: un razzo [N.I.K.E.](/wiki/06-Items/Rockets.md) che attraversa l’orizzonte degli eventi del buco nero al centro del Settore pericoloso 4 viene inghiottito, e il buco restituisce **1, 2 o 3** Dark Matter (2 in media) in casse da 1 al massimo sul bordo della sua zona, da 3.050 a 3.950 unità dal suo centro. Le casse sono tue, e del tuo clan, per 60 secondi e durano 240 secondi. Un N.I.K.E. che incontra una nave lungo il percorso colpisce quella nave e si esaurisce. Vedi [Dark Matter e Dark Matter Plate](/wiki/03-Mechanics/Dark-Matter.md) e [Il buco nero](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** del Dormant Swamp: dal giorno 11 della stagione, 5% delle sue casse contiene 1–3. Vive sotto i cannoni della palude.
 - **Altrimenti**: non si vende nel Negozio.
 
@@ -833,14 +833,15 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 | Alieno | Settori | Drop | Per abbattimento, in media |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% per 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% per 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% per 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% per 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4% per 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40% per 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10% per 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4% per 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% per 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8% per 1 | 0,01 |
 
 - **Porte in solitaria**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 a ogni completamento.
-- **Dungeon del clan**: 3, 2 e 2 con un completamento pagato del livello 1, 2 e 3.
+- **Dungeon del clan**: 12, 8 e 8 con un completamento pagato del livello 1, 2 e 3.
+- **Alieni dei dungeon del clan**: lo rilasciano con 2 volte le probabilità della tabella qui sopra.
 - **Fortuna e il Resource Magnet Booster**: Nessuno dei due lo aumenta. Non può mai essere messo all’Asta.
 - **Altrimenti**: non si vende nel Negozio.
 
@@ -848,7 +849,7 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 - Gli slot della Forgia: accordare uno slot vuoto costa Echo Shard.
 
-**Come farmare**: abbatti [Crystalys](/wiki/04-Aliens/Crystalys.md) (settore 4): in media 0,2 per abbattimento; la fonte più vicina è [Seeker](/wiki/04-Aliens/Seeker.md) (settore 1), 0 per abbattimento.
+**Come farmare**: abbatti [Crystalys](/wiki/04-Aliens/Crystalys.md) (settore 4): in media 0,4 per abbattimento; la fonte più vicina è [Seeker](/wiki/04-Aliens/Seeker.md) (settore 1), 0,01 per abbattimento.
 
 ### Lattice Shard
 

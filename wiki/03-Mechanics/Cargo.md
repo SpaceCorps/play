@@ -51,4 +51,4 @@ A [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)'s loot is not o
 ## Boosters
 
 - **Loot Luck Booster** (and the Luck Boost permanent buff, and the Luck of your docked [P.E.T.s](/wiki/03-Mechanics/Pets.md)) raise the chance of each loot entry when the killer makes the kill. Your [Instinct](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) skill adds to that chance too, on top of the booster's.
-- **Resource Magnet Booster** adds **25%** to the resources in every crate you collect, by hand or with a Retriever, whoever made the kill. Dark Matter is the exception: the Magnet adds nothing to it. Only your own Antimatter skill adds Dark Matter (up to +25% at level 100); without it, five N.I.K.E.s are ten Dark Matter.
+- **Resource Magnet Booster** adds **25%** to the resources in every crate you collect, by hand or with a Retriever, whoever made the kill. Dark Matter is the exception: the Magnet adds nothing to it. Only your own Antimatter skill adds Dark Matter (up to +100% at level 100); without it, five N.I.K.E.s are ten Dark Matter.

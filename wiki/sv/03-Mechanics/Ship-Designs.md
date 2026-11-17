@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Skeppsdesigner -->
 # Skeppsdesigner {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; designer; ombyggnad; bygga om; skeppsdesign -->
 
-En **design** är ett av de fyra skeppen du tillverkar i Monteringen med några tal ändrade med flit: mindre skrov för mer fart, en laserplats mindre för hårdare sköldar. Nio av de tretton designerna har dessutom en av sju [förmågor](/wiki/03-Mechanics/Abilities.md#ship-abilities) som det vanliga skeppet inte har. Du forskar fram en design i Skylab och bygger sedan om ett skepp du äger till den i Monteringen. **Ombyggnaden kan inte ångras.**
+En **design** är ett av de fyra skeppen du tillverkar i Monteringen med några tal ändrade med flit: mindre skrov för mer fart, en laserplats mindre för hårdare sköldar. Nio av de tretton designerna har dessutom en av sju [förmågor](/wiki/03-Mechanics/Abilities.md#ship-abilities) som det vanliga skeppet inte har. Storm RECON har två knappar till bredvid sin Chameleon: Target och Slow. Du forskar fram en design i Skylab och bygger sedan om ett skepp du äger till den i Monteringen. **Ombyggnaden kan inte ångras.**
 
 ## De tretton designerna {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 
 | Design | Vad den ändrar | Skrov | Grundfart | Laserplatser |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % basskrov, +40 bashastighet, +1 laserplats | 96 000 | 310 | 11 |
-| **Paragon BUCKY** | +25 % basskrov, -20 bashastighet, -1 laserplats, +10 % sköldabsorption, +20 % modellstorlek | 160 000 | 250 | 9 |
+| **Paragon THUNDER** | +40 bashastighet, +1 laserplats | 128 000 | 310 | 11 |
+| **Paragon BUCKY** | +25 % basskrov, -20 bashastighet, +10 % sköldabsorption, +20 % modellstorlek | 160 000 | 250 | 10 |
 | **Paragon LICH** | +1 % sköldregeneration per sekund | 128 000 | 270 | 10 |
-| **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, Blink | 162 000 | 400 | 15 |
-| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, Heal Pod | 180 000 | 300 | 17 |
-| **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon | 144 000 | 350 | 14 |
-| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire | 600 000 | 80 | 5 |
+| **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, +5 % all skada, Blink | 162 000 | 400 | 15 |
+| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, +5 % all skada, Heal Pod | 180 000 | 300 | 17 |
+| **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon, Target, Slow | 144 000 | 350 | 14 |
+| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -2 laserplatser, +15 % sköldabsorption, Focus Fire | 600 000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink | 500 000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 laserplats, +5 % all skada, Venom | 256 000 | 210 | 14 |
 | **Wraith BILLY** | +5 % basskrov, +10 % sköldkapacitet, Diminisher | 268 800 | 210 | 13 |
@@ -34,8 +34,8 @@ De tre sista kolumnerna är vad det ombyggda skeppet har: dess eget skrov och si
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50 000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50 000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50 000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50 000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100 000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100 000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Tillsammans kräver de 510 Dark Matter, utöver de 979 som alla andra teknologie
 ## Vad som händer med ditt skepp {#what-happens-to-your-ship}
 
 - **Det är samma skepp.** Ombyggnaden ändrar det på plats: dess utrustning, dess pansar, dina drönare och formationen du bär blir kvar som de är.
-- **Lasrar kan förlora sin plats.** En design med färre laserplatser (BUCKY, RECON, DUMA, ATARAXIS) skickar tillbaka lasrarna från platserna som försvinner till ditt inventarie, med sina förstärkare och sina slumpslag från Smedjan. En ny plats kommer tom.
+- **Lasrar kan förlora sin plats.** En design med färre laserplatser (RECON, DUMA, ATARAXIS) skickar tillbaka lasrarna från platserna som försvinner till ditt inventarie, med sina förstärkare och sina slumpslag från Smedjan. En ny plats kommer tom.
 - **Fullt skrov och fulla sköldar** när det är klart. Tills dess är skeppet låst: det går inte att göra aktivt, utrusta eller bygga om igen.
 - **Det finns ingen väg tillbaka.** För en annan design, eller för att få det vanliga skeppet igen, tillverkar du skeppet på nytt i Monteringen. Du äger ett skepp av varje sort, så en Paragon och en THUNDER kan vara dina samtidigt, men inte två THUNDER.
 - **Wipen** behåller en design som vilket annat skepp som helst du äger. En ombyggnad som fortfarande pågår avbryts och återbetalas, som varje tillverkning i din produktionskö: skeppet förblir som det var.

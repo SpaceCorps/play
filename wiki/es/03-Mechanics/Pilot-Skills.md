@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Destrezas de piloto -->
 # Destrezas de piloto {#pilot-skills}
 
@@ -15,7 +15,7 @@ Un piloto nuevo no tiene toda su fuerza. En el nivel 1 un láser y un cohete hac
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Estadísticas**: 20 estadísticas: 4 atributos y 16 destrezas en 5 grupos
+- **Estadísticas**: 21 estadísticas: 4 atributos y 17 destrezas en 5 grupos
 - **Niveles**: De 1 a 100. Todo piloto empieza cada estadística en el nivel 1, y no hay nada que gastar ni que reasignar
 - **Coste de un nivel**: 40 XP del nivel 1 al 2, 875 XP del nivel 50 al 51, 19.157 XP del nivel 99 al 100; 313.258 XP en total
 - **Lo que da un nivel**: Un bonificador crece en línea recta desde su valor en el nivel 1 hasta su valor en el nivel 100. Nada tiene límite
@@ -26,6 +26,7 @@ Un piloto nuevo no tiene toda su fuerza. En el nivel 1 un láser y un cohete hac
 - **Bodega**: Cuenta las unidades de recursos que recoges después de despegar, hasta el tamaño que le da su nivel de casco. Está llena desde el 90 % de eso, y una bodega llena hace que la Masa pague ×1,5. Nunca se rechaza nada
 - **Límite blando por hora**: La mayoría de las estadísticas pagan la XP completa solo hasta un límite por hora, contado en la unidad propia de la estadística durante la hora del reloj UTC. Por encima, un evento paga el 25 % de su XP
 - **Entrenamiento**: La XP de una destreza también paga el 10 % de sí misma a su atributo. Un atributo en el nivel 100 entrena sus destrezas un 25 % más rápido que en el nivel 1
+- **Puntos de reinicio**: Una estadística paga puntos de reinicio una sola vez, la primera vez que alcanza el nivel 10 / 25 / 50 / 75 / 100: 2 / 5 / 10 / 20 / 40, es decir, 77 por una estadística que llega al nivel 100. Reclámalos en la página de Temporada
 
 | Nivel de casco | Rareza de la nave | Tamaño de la bodega |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 |  | Probabilidad de que una ráfaga láser acierte | 80 % | 89 % |
 | **Tecnología de cohetes** (Reflejos) | Daño de cohete | ×1 | ×1,3 |
 |  | Probabilidad de que un cohete falle al encenderse | 10 % | 1 % |
-| **Antimateria** (Instinto) | Dark Matter de las recogidas | ×1 | ×1,25 |
+| **Antimateria** (Instinto) | Dark Matter de las recogidas | ×1 | ×2 |
 
 ### Combate {#combat}
 
@@ -78,6 +79,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 | **Táctica** (Reflejos) | Duración de las habilidades | ×1 | ×1,2 |
 | **Absorción de escudo** (Temple) | Absorción de tus escudos | +0 puntos | +5 puntos |
 | **Curación** (Masa) | Fuerza de tus propias reparaciones y curaciones | ×1 | ×1,3 |
+| **Recarga de camuflaje** (Reflejos) | Tiempo de recarga del camuflaje | ×1 | ×0,5 |
 
 ### Control de la nave {#ship-control}
 
@@ -113,6 +115,7 @@ Las tablas dan cada bonificador en el nivel 1 y en el último nivel; entre ambos
 - **Cohetes.** La Tecnología de cohetes cambia el daño de cada cohete y la probabilidad de que uno falle al encenderse ([Tecnología de cohetes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Recibir golpes.** El Temple quita una parte de cada golpe que recibes, la Evasión aumenta la probabilidad de que un impacto directo no haga nada y la Absorción de escudo aumenta la parte de un impacto que se llevan tus escudos ([Combate](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masa aumenta tu casco.
 - **Curación.** La Curación hace más fuertes las curaciones de tu propio equipo: la reparación de tu Repair Drone, una Emergency Repair y el Heal Pod que sueltas ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Se entrena con el casco que restauran tus curaciones; curar una nave dentro de una zona segura no cuenta. El Support Rocket siempre cura la misma cantidad fija, a cualquier nivel, y aun así da XP de Curación.
+- **Camuflaje.** Recarga de camuflaje acorta la espera cuando termina un camuflaje, tanto con una Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) como con el Chameleon ([Habilidades](/wiki/03-Mechanics/Abilities.md)). Se entrena con los segundos que pasas camuflado; no cuenta ninguno dentro de una zona segura ni mientras no des órdenes.
 - **Habilidades.** Los Reflejos acortan el enfriamiento de tus habilidades y la Táctica hace que duren más ([Habilidades](/wiki/03-Mechanics/Abilities.md#pilot-skills)). El Sabotaje refuerza los venenos.
 - **Mines.** El Sabotaje aumenta el daño de una Mine, y la Puntería la lanza más rápido y más lejos ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Velocidad.** La Teoría de propulsores suma a tu velocidad, además de los motores y un Afterburner ([Velocidad](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ La tabla indica qué paga XP, estadística por estadística. La XP es por cada u
 | **Táctica** (Reflejos) | Cada habilidad que pulsas con un hostil al alcance del láser | 2 | 600 XP por hora |
 | **Absorción de escudo** (Temple) | Cada 1 % de tu escudo máximo que absorben los impactos enemigos | 0,1 | 300 XP por hora |
 | **Curación** (Masa) | Cada 1 % del casco máximo de una nave que restaura una curación tuya | 0,1 | 300 XP por hora |
+| **Recarga de camuflaje** (Reflejos) | Cada segundo que pasas camuflado con una orden dada en los últimos 1 min, fuera de las zonas seguras | 0,1 | Ninguno |
 | **Tecnología de radiación** (Temple) | Cada segundo dentro de una banda de radiación | 0,2 | Ninguno |
 |  | Cada 1 % de tu casco máximo que quita la radiación | 1 |  |
 | **Teoría de propulsores** (Masa) | Cada segundo volado por encima del 80 % de la velocidad de tu nave, el doble con un Afterburner | 0,1 | Ninguno |

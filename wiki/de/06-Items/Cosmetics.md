@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Kosmetik -->
 # Kosmetik {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; aussehen; lackierung; garderobe; triebwerksspur -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; aussehen; lackierung; garderobe; triebwerksspur -->
 
 Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** (die Lackierung des Rumpfs), eine **Aura** (ein weiches Leuchten und ein Lichtring um das Schiff), eine **Triebwerksspur** (Farbe und Form der Spur hinter den Triebwerken) und die **Lackierung** deiner Drohnen. Ein Look ist nur zum Anschauen: Er bringt keinen Schaden, keine Hülle und keine Geschwindigkeit, belegt keinen Slot und ändert nichts, was ein Schuss treffen kann.
 
@@ -22,24 +22,25 @@ Ein **Look** ist das, was dein Schiff trägt. Er hat vier Teile: einen **Skin** 
 
 ## Skins
 
-Ein Skin ist ein Farbschema, gemacht aus dem eigenen Rumpf des Schiffs: Plattenfugen, Nummern und Streifen bleiben, nur die Farben ändern sich. Er gilt für ein **Schiffsmodell**, und denselben Skin tragen alle deine Schiffe dieses Modells und jedes [Design](/wiki/03-Mechanics/Ship-Designs.md), das daraus gemacht wurde; ein Umbau behält den Look. Die Protos hat noch keinen Skin, Kitefin, Ostirion und Nomad haben eine Kollektion, und die vier Schiffe, die du in der Montage baust, haben alle zehn.
+Ein Skin ist ein Farbschema, gemacht aus dem eigenen Rumpf des Schiffs: Plattenfugen, Nummern und Streifen bleiben, nur die Farben ändern sich. Er gilt für ein **Schiffsmodell**, und denselben Skin tragen alle deine Schiffe dieses Modells und jedes [Design](/wiki/03-Mechanics/Ship-Designs.md), das daraus gemacht wurde; ein Umbau behält den Look. Die Protos hat noch keinen Skin, Kitefin, Ostirion und Nomad haben eine Kollektion, und die vier Schiffe, die du in der Montage baust, und die Miyuki haben alle elf. Ein Skin der Miyuki wird von allen fünf ihrer Stufen getragen.
 
 Skins gehören zu deinem **Konto**, nicht zu einem Schiff, und sie bleiben über den [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) hinweg; deine Schiffe tragen, was sie getragen haben.
 
-Das [Chroma-Archiv](/wiki/06-Items/Containers.md#chroma-archive) kann jede Kollektion außer Bloody R.E.D ergeben, immer einen Skin auf einmal: Eine Kollektion als Belohnung gibt einen Skin davon, für ein Schiffsmodell. Es ist der Skin für dein aktives Schiff, wenn die Kollektion einen dafür hat und du ihn noch nicht besitzt; sonst der Skin für ein anderes Schiff, das du besitzt; sonst der erste Skin der Kollektion, der dir fehlt. Flieg also das Schiff, für das du den Skin willst, wenn du ein Archiv öffnest. Die Kollektion kann erneut kommen, bis du alle ihre Skins hast. Eine Kollektion, die vor 0.5.7 als Ganzes kam, bleibt deine, mit jedem Skin.
+Das [Chroma-Archiv](/wiki/06-Items/Containers.md#chroma-archive) kann jede Kollektion außer Bloody R.E.D und LOU ergeben, immer einen Skin auf einmal: Eine Kollektion als Belohnung gibt einen Skin davon, für ein Schiffsmodell. Es ist der Skin für dein aktives Schiff, wenn die Kollektion einen dafür hat und du ihn noch nicht besitzt; sonst der Skin für ein anderes Schiff, das du besitzt; sonst der erste Skin der Kollektion, der dir fehlt. Flieg also das Schiff, für das du den Skin willst, wenn du ein Archiv öffnest. Die Kollektion kann erneut kommen, bis du alle ihre Skins hast. Eine Kollektion, die vor 0.5.7 als Ganzes kam, bleibt deine, mit jedem Skin.
 
 | Kollektion | Schiffe | Seltenheit | Wie sie aussieht |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Selten | Ein schneeweißer Rumpf mit orangefarbenen Teilen |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Ungewöhnlich | Der ganze Rumpf in der Farbe deines Konzerns: Rot für Mars, Grün für Terra, Violett für Galactic. Er folgt dir, wenn du den Konzern wechselst |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mythisch | Schwarz und blutrot, mit dem Logo des Clans auf einer dunklen Plakette in der Rumpfmitte |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Episch | Silvester und Neujahr: ein nachtblauer Rumpf mit Silber-Champagner-Zierstreifen und einem Champagnerglas |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Episch | Tag der Erde: Ozeanblau mit grünem Land und einem kleinen Globus |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Episch | Internationaler Frauentag: Zitronengelb mit violettem Zierstreifen und einer Blume |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Episch | Internationaler Tag des Friedens: Himmelblau mit olivfarbenem Zierstreifen und einem weißen Friedenszeichen |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Selten | Die Tagundnachtgleichen und Sonnenwenden: ein dunkelblaugrüner Rumpf mit einer goldenen Sonne |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Episch | Weltgesundheitstag und Welttag der seelischen Gesundheit: ein grünschwarzer Rumpf mit einem neongrünen Herzschlag |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Episch | Halloween: Anthrazit mit Orange und ein Mond mit Sternen |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Selten | Ein schneeweißer Rumpf mit orangefarbenen Teilen |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Ungewöhnlich | Der ganze Rumpf in der Farbe deines Konzerns: Rot für Mars, Grün für Terra, Violett für Galactic. Er folgt dir, wenn du den Konzern wechselst |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythisch | Schwarz und blutrot, mit dem Logo des Clans auf einer dunklen Plakette in der Rumpfmitte |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mythisch | Der Skin des Clans LOU, den das Spielteam an seine Mitglieder vergibt: schwarz wie Bloody R.E.D, mit tiefviolettem Zubehör und ohne Logo |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Silvester und Neujahr: ein nachtblauer Rumpf mit Silber-Champagner-Zierstreifen und einem Champagnerglas |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Tag der Erde: Ozeanblau mit grünem Land und einem kleinen Globus |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Internationaler Frauentag: Zitronengelb mit violettem Zierstreifen und einer Blume |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Internationaler Tag des Friedens: Himmelblau mit olivfarbenem Zierstreifen und einem weißen Friedenszeichen |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Selten | Die Tagundnachtgleichen und Sonnenwenden: ein dunkelblaugrüner Rumpf mit einer goldenen Sonne |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Weltgesundheitstag und Welttag der seelischen Gesundheit: ein grünschwarzer Rumpf mit einem neongrünen Herzschlag |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Episch | Halloween: Anthrazit mit Orange und ein Mond mit Sternen |
 
 ## Drohnenlackierungen {#drone-liveries}
 

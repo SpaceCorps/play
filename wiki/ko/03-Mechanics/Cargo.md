@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: 화물 -->
 # 화물 상자 {#cargo-boxes}
 
@@ -53,4 +53,4 @@
 ## 부스터 {#boosters}
 
 - **Loot Luck Booster**과 영구 버프인 행운 부스트, 도킹한 [P.E.T.](/wiki/03-Mechanics/Pets.md)의 행운은 처치한 사람이 처치할 때 각 전리품 항목의 확률을 높입니다. 당신의 [직감](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) 스킬도 이 확률에 더해지며, 부스터의 확률 위에 얹힙니다.
-- **Resource Magnet Booster**은 누가 처치했든 내가 직접 또는 Retriever로 회수하는 모든 상자의 자원에 **25%**를 더합니다. Dark Matter는 예외입니다. Magnet은 Dark Matter에는 아무것도 더하지 않습니다. Dark Matter를 늘려 주는 것은 내 Antimatter 스킬뿐이며(100레벨에서 최대 +25%), 이 스킬이 없으면 N.I.K.E. 5발은 Dark Matter 10개입니다.
+- **Resource Magnet Booster**은 누가 처치했든 내가 직접 또는 Retriever로 회수하는 모든 상자의 자원에 **25%**를 더합니다. Dark Matter는 예외입니다. Magnet은 Dark Matter에는 아무것도 더하지 않습니다. Dark Matter를 늘려 주는 것은 내 Antimatter 스킬뿐이며(100레벨에서 최대 +100%), 이 스킬이 없으면 N.I.K.E. 5발은 Dark Matter 10개입니다.

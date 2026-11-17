@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ A Paragon é um cruzador de combate pesado, projetado com defesa e ataque equili
 
 | Design | O que muda |
 | :--- | :--- |
-| **Paragon THUNDER** | -25% de casco base, +40 de velocidade base, +1 slot de laser |
-| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, -1 slot de laser, +10% de absorção de escudo, +20% de tamanho do modelo |
+| **Paragon THUNDER** | +40 de velocidade base, +1 slot de laser |
+| **Paragon BUCKY** | +25% de casco base, -20 de velocidade base, +10% de absorção de escudo, +20% de tamanho do modelo |
 | **Paragon LICH** | +1% de regeneração de escudo por segundo |
 
 <!-- research-ship:begin -->

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -195,7 +195,7 @@ Varje sort i tur och ordning. Skrov och sköld är de vanliga värdena gånger m
 
 ## Krigsherren {#the-warlord}
 
-Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det som betalar klarningen. Han betalar ingen egen förstörd utomjording, som de andra utomjordingarna gör. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid.
+Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det som betalar klarningen. Han betalar ingen egen förstörd utomjording, som de andra utomjordingarna gör. Han är en Crystalys som vuxit enorm. Hans skrov och sköld växer med gruppens storlek: ju fler piloter som går in, desto segare är han, i proportion. Han lämnar aldrig sitt rum, vare sig dörren är stängd eller öppen: han håller sig innanför rummets väggar och jagar inte genom korridorerna. En pilot utanför kan bara locka honom till kanten av rummet, och genom en öppen dörr skjuter han ändå på allt hans laser når. Han använder sina förmågor en i taget, i slumpmässig ordning, var och en med sin egen återhämtningstid. Från steg 2 skjuter hans laser mot två piloter samtidigt: de två närmaste han kan se får var sin hela salva.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ Krigsherren väntar i rummet i andra änden av labyrinten, och hans fall är det
 | :--- | ---: | ---: | ---: |
 | Skrov | 10 000 000 | 15 000 000 | 25 000 000 |
 | Sköld | 8 000 000 | 12 000 000 | 20 000 000 |
-| Laserskada (en salva per sekund) | 12 500–15 000 | 15 000–17 500 | 20 000–25 000 |
+| Laserskada (en salva per sekund) | 12 500–15 000 | 15 000–17 500 mot var och en av 2 piloter | 20 000–25 000 mot var och en av 2 piloter |
 | Hastighet | 120 | 120 | 120 |
 | Laserräckvidd | 1 100 | 1 100 | 1 100 |
 
@@ -237,9 +237,10 @@ Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstör
 - **Den röda ringen** för Livsstjälande aura skadar varje pilot i den och läker krigsherren med skadan. Sköldabsorptionen har också en röd ring: den dränerar sköldarna på piloterna därinne och laddar krigsherrens. I båda fallen ska du lämna ringen eller ställa dig bakom en vägg.
 - **De bärnstensfärgade ringarna** för Meteorregn visar var meteorerna slår ner ett ögonblick senare. Fortsätt röra dig och lämna ringen innan den slår ner.
 - **Fokus på mest efterlysta** markerar piloten som har gjort mest skada på krigsherren, med en guldfärgad parentes på dennes skepp, och krigsherren skjuter ett extra skott mot piloten varje sekund så länge det varar. Hans sikte ändras inte: han fortsätter skjuta på närmaste pilot han kan se, så en markerad pilot som också är närmast får båda. Det extra skottet kräver fri sikt och räckvidden hos krigsherrens laser, så en vägg eller lite avstånd räddar piloten. Förmågan börjar inte medan ingen har gjort skada.
-- **Raketsalvan** skickar målsökande raketer mot slumpmässiga piloter, men bara mot piloter som krigsherren kan se, och en vägg i vägen stoppar en raket. En ring visar vilken pilot en raket följer. En EMP Charge eller kamouflage skakar av dem.
+- **Raketsalvan** skickar en målsökande raket mot varje pilot som krigsherren kan se, och skickar en ny omgång med några sekunders mellanrum så länge den varar. En vägg i vägen stoppar en raket. En ring visar vilken pilot en raket följer. En EMP Charge eller kamouflage skakar av dem.
 - **Svärmhjälpen** är krigsherren som kallar på sina Goombahs. Medan de lever kan han inte skadas, och han skjuter inte och använder ingen annan förmåga. Förstör dem alla: banderollen räknar hur många som är kvar. Om en minut går kan krigsherren skadas igen, och de Goombahs som är kvar stannar och kämpar vidare. De räknas inte för bossrummet, och de betalar ingenting.
 - **Kaoszonen** är en violett ring på marken, runt krigsherren, och så länge den varar följer den med krigsherren vart han än går. Ingen inne i ringen kan attackera, varken med lasrar eller raketer, men reparationer, kamouflage och flygning fungerar fortfarande, och krigsherren och hans utomjordingar skjuter som vanligt. Ringen syns ett ögonblick innan den tar verkan: kliv ut ur den och håll dig utanför, eftersom den följer krigsherren. En pilot utanför kan fortfarande skjuta, så långt hans vapen når.
+- **Fantomlansen** får krigsherren att försvinna i en sekund. Han kommer tillbaka på en annan plats i sitt rum med två illusioner av sig själv. Så länge en illusion lever skjuter den mot närmaste pilot den kan se med halva krigsherrens salva och läker varje sekund krigsherrens skrov och sköld (siffrorna finns i tabellen över förmågorna). Illusionerna har ett eget skrov: förstör dem för att stoppa läkningen. De betalar ingenting och försvinner med krigsherren när han faller. Krigsherren kan förstöras medan de lever.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ Fönstret Klandungeon räknar hur många av dem som fortfarande måste förstör
 | Förmåga | Förberedelse | Varar | Återhämtning | Ringens radie (enheter) | Krigsherren återfår högst |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Livsstjälande aura** | 2 s | 15 s | 2 min | 900 | 8 % av skrov och sköld |
-| **Meteorregn** | 1,5 s | 3 salvor, 4 s emellan | 2 min | 420 | – |
+| **Meteorregn** | 1,5 s | 3 salvor, 4 s emellan | 2 min | 546 | – |
 | **Fokus på mest efterlysta** | 1 s | 20 s | 2 min | – | – |
 | **Raketsalva** | 1,5 s | 45 s | 2 min | – | – |
 | **Sköldabsorption** | 2 s | 15 s | 2 min | 900 | 6 % av skölden |
 | **Svärmhjälp** | 2 s | Upp till 1 min | 3 min | – | – |
 | **Kaoszonen** | 2 s | 15 s | 2 min | 900 | – |
+| **Fantomlansen** | 1,5 s | 1 s | 2 min | – | – |
 
 | Förmåga | Steg 1 | Steg 2 | Steg 3 |
 | :--- | :--- | :--- | :--- |
 | **Livsstjälande aura** | 8 000 per sekund | 10 000 per sekund | 12 000 per sekund |
-| **Meteorregn** | 6 meteorer per salva, 40 000 vardera | 8 meteorer per salva, 50 000 vardera | 10 meteorer per salva, 60 000 vardera |
+| **Meteorregn** | 6 meteorer per salva, 80 000 vardera | 8 meteorer per salva, 100 000 vardera | 10 meteorer per salva, 120 000 vardera |
 | **Fokus på mest efterlysta** | 18 750–22 500 per extra skott mot piloten som gjort mest skada, ett var 1 s | 22 500–26 250 per extra skott mot piloten som gjort mest skada, ett var 1 s | 30 000–37 500 per extra skott mot piloten som gjort mest skada, ett var 1 s |
-| **Raketsalva** | 26 000 per raket, en var 15 s | 32 500 per raket, en var 15 s | 39 000 per raket, en var 15 s |
+| **Raketsalva** | 50 000–75 000 per raket mot varje pilot, en var 15 s | 62 500–93 750 per raket mot varje pilot, en var 15 s | 75 000–112 500 per raket mot varje pilot, en var 15 s |
 | **Sköldabsorption** | 10 000 sköld per sekund | 12 500 sköld per sekund | 15 000 sköld per sekund |
 | **Svärmhjälp** | 12 × Goombah | 18 × Goombah | 24 × Goombah |
 | **Kaoszonen** | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera | Piloter i ringen kan inte attackera |
+| **Fantomlansen** | 2 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 2 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund | 2 illusioner med 500 000 skrov vardera; varje illusion skjuter 50 % av krigsherrens salva och läker, så länge den lever, krigsherren med 50 000 skrov och 50 000 sköld per sekund |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ När krigsherren faller får varje pilot som förtjänat det betalt, en gång pe
 
 | Steg | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 3 | 5 | 850 |
-| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 2 | 6 | 2 000 |
-| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 2 | 7 | 3 400 |
+| **Steg 1** | 25 000 | 600 000 | 5 000 000 | 4 000 | 4 000 | 5 | 12 | 5 | 850 |
+| **Steg 2** | 50 000 | 1 500 000 | 10 000 000 | 9 000 | 9 000 | 10 | 8 | 6 | 2 000 |
+| **Steg 3** | 100 000 | 2 400 000 | 17 500 000 | 15 000 | 15 000 | 15 | 8 | 7 | 3 400 |
 
 - **Heartshards**: 1 vid första betalda avklarningen av varje etapp under en säsong, och 5 % chans till ytterligare ett vid varje betald avklarning.
 
@@ -379,8 +382,8 @@ Vad en pilot kan få betalt på en dag, och under den bästa vecka som gränsern
 
 | Betalning per pilot | Heder | Erfarenhet | Krediter | Thulium | x4-ammunition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-rankingpoäng |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 7 | 18 | 6 250 |
-| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 20 | 67 | 29 800 |
+| En dag, varje steg en gång | 175 000 | 4 500 000 | 32 500 000 | 28 000 | 28 000 | 30 | 28 | 18 | 6 250 |
+| Den bästa veckan: 7 × Steg 3 och 3 × Steg 2 | 850 000 | 21 300 000 | 152 500 000 | 132 000 | 132 000 | 135 | 80 | 67 | 29 800 |
 
 Erfarenheten och hedern från ett betalt, avklarat steg räknas med i dina PvE-rankingpoäng: en poäng för varje 1 000 erfarenhet och en för varje 100 heder.
 
@@ -391,8 +394,8 @@ Erfarenheten och hedern från ett betalt, avklarat steg räknas med i dina PvE-r
 Varje utomjording i en dungeon betalar när den faller och släpper byte, som utomjordingen i spelet som den är byggd efter: en Dungeon Goombah som en [Goombah](/wiki/04-Aliens/Goombah.md), en Dungeon Crystalys och dess Twin som en [Crystalys](/wiki/04-Aliens/Crystalys.md), en Dungeon Pirate som Pirate Boss (se [Pirate-svärm](/wiki/05-Swarms/Pirate-Swarm.md)). Vad en förstörd utomjording betalar och släpper är originalets **gånger förhållandet mellan deras skrov och sköld tillsammans**: en utomjording som är lika seg som sitt original betalar vad originalet betalar, en som är dubbelt så seg betalar dubbelt så mycket och släpper dubbelt så mycket av varje föremål, och så vidare. Avsnittet för varje sorts utomjording under [Utomjordingarna](#the-aliens) anger förhållandet och betalningen för en förstörd utomjording i varje steg.
 
 - **Vem som får betalt.** Piloterna som skadade utomjordingen, efter skadan de gjorde, som med svärmarnas utomjordingar: en pilot eller grupp som bara snuddade vid den får ingenting, en grupp får betalt som en, och inom en grupp delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen efter nivå. En pilot som inte skadade utomjordingen får inget för den, hur nära han än flög, och en utomjording som ingen pilot skadade betalar ingen. Bara de piloter som reglerna ovan betalar är med: den som har lämnat, inte varit inne tillräckligt länge, redan fått betalt för steget idag eller haft alla betalda klarningar för veckan får ingenting för utomjordingarna, och de andra får hans del. En förstörd utomjording kräver inte andelen i striden: att ha skadat den är andelen. Om gruppmedlemmen som gjorde mest skada har blivit förstörd eller inte är kvar på kartan, delar de medlemmar som är nära vraket och har skjutit nyligen på betalningen utan honom.
-- **Vad som betalas.** Krediter, Thulium, erfarenhet och heder, en gång per förstörd utomjording. Betalningen är vad originalet betalar i Alpha, i alla världar: en dungeon har ingen världsmultiplikator. Dina boosters, Premium, formation och din klans bonusar räknas som vid vilken förstörd utomjording som helst, och erfarenheten räknas för dina [PvE-poäng](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) som klarningens.
-- **Bytet.** Det slumpas med originalets chanser, och sedan multipliceras varje mängd med förhållandet (en bråkdel av en enhet är en chans till en till). Det faller som en låda vid vraket, först för piloten som gjorde mest skada och hans klan, sedan för vem som helst på kartan, och sedan är det borta. Kartan rymmer bara ett visst antal lådor åt gången, så plocka upp dem under tiden, och det som ligger kvar på kartan när dungeonen stänger försvinner med den. Till skillnad från klarningens föremål är det vanligt byte från en utomjording: det kan [säljas på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) när föremålet är säljbart.
+- **Vad som betalas.** Krediter, Thulium, erfarenhet och heder, en gång per förstörd utomjording. Betalningen är vad originalet betalar i Alpha, i alla världar: en dungeon har ingen världsmultiplikator. Dina boosters, formation och din klans bonusar räknas som vid vilken förstörd utomjording som helst, och erfarenheten räknas för dina [PvE-poäng](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points) som klarningens.
+- **Bytet.** Det slumpas med originalets chanser, utom att chansen på Echo Shard är dubbelt så stor, och sedan multipliceras varje mängd med förhållandet (en bråkdel av en enhet är en chans till en till). Det faller som en låda vid vraket, först för piloten som gjorde mest skada och hans klan, sedan för vem som helst på kartan, och sedan är det borta. Kartan rymmer bara ett visst antal lådor åt gången, så plocka upp dem under tiden, och det som ligger kvar på kartan när dungeonen stänger försvinner med den. Till skillnad från klarningens föremål är det vanligt byte från en utomjording: det kan [säljas på Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items) när föremålet är säljbart.
 - **Vad som inte betalar.** Krigsherren betalar ingen förstörd utomjording, bara klarningen. Goombahs som han kallar på betalar ingenting, eftersom kallelsen kommer tillbaka så länge striden pågår.
 - **Inte en förstörd utomjording i spelet.** En förstörd utomjording i en dungeon räknas inte för uppdrag, prestationer, räknare över förstörda, wipepoäng, PvE-poängen för en förstörd, drönare eller P.E.T.s: en Dungeon Goombah är ingen Goombah i spelet.
 - **Gränserna.** Dag- och veckogränserna ovan håller tillbaka utomjordingarnas betalning precis som klarningens: den som redan fått betalt för steget idag, eller haft alla betalda klarningar för veckan, får inget heller för dess utomjordingar, och potten för en förstörd går till de andra. En dungeon som inte klaras betalar sina förstörda utomjordingar till de piloter som reglerna betalar, och ingenting för klarningen.

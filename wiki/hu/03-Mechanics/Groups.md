@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -32,10 +32,10 @@ Ha elfogadtad, megnyílik a **csoportablak** (a **B** billentyű vagy az eszköz
 Amikor egy tag megsemmisít egy idegent (vagy a [foglalása](/wiki/03-Mechanics/Combat.md) alapján kap érte jutalmat), a jutalmakat (kredit, Thulium, tapasztalat és becsület) azok a tagok osztják meg, akik:
 
 - **ugyanazon a térképen** vannak (ugyanabban a világban),
-- **életben vannak**, és a roncstól **4 000 egységen** belül tartózkodnak, és
+- **életben vannak**, és a roncstól **8 000 egységen** belül tartózkodnak, és
 - **lőnek**: az elmúlt 15 másodpercben lézerrel vagy rakétával lőttek bármire.
 
-Mindenki a **szintjével** arányos részt kap, bármelyik vállalatból való is (a kredit és a becsület mindenkinek a sajátja; egyetlen vállalat sem tart meg belőle semmit): egy 15. szintű pilóta egy 5. szintű csoporttárssal 75%-ot kap, a társ 25%-ot. Minden kreditet kiosztanak: a kilövést végző pilóta azt kapja, ami a részek lefelé kerekítése után megmarad. A teljes jutalom a kilövőé: az ő boosterei, a világa szorzója és a prémiuma érvényesül, egy csoporttársé nem. Egyedül, vagy ha nincs mellette senki elérhető közelségben, a kilövés annyit fizet, mint mindig. Az a pilóta, aki a harc közelében áll lövés nélkül, nem kap részt.
+Mindenki a **szintjével** arányos részt kap, bármelyik vállalatból való is (a kredit és a becsület mindenkinek a sajátja; egyetlen vállalat sem tart meg belőle semmit): egy 15. szintű pilóta egy 5. szintű csoporttárssal 75%-ot kap, a társ 25%-ot. Minden kreditet kiosztanak: a kilövést végző pilóta azt kapja, ami a részek lefelé kerekítése után megmarad. A teljes jutalom a kilövőé: az ő boosterei és a világa szorzója érvényesül, egy csoporttársé nem. Egyedül, vagy ha nincs mellette senki elérhető közelségben, a kilövés annyit fizet, mint mindig. Az a pilóta, aki a harc közelében áll lövés nélkül, nem kap részt.
 
 A kilövés értesítése ezt jelzi: a kilövő saját **JUTALOM** sora mutatja a részét, utána ez következik: „A jutalom megosztva 2 csoporttárssal: a te részed 40%.”, a részt kapó csoporttárs pedig ezt olvassa: „*pilóta* megsemmisített egy *Alien* idegent; a csoportod részesedése téged illet”, az összegekkel. Az értesítések a Játéknaplóban jelennek meg.
 
@@ -43,7 +43,7 @@ Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyag
 
 ## Küldetések megosztása {#sharing-missions}
 
-Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is, aki ugyanazon a térképen van, és **az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt bármire**, bárhol is van rajta, mintha ő maga semmisítette volna meg az idegent. A küldetés saját szabályai továbbra is döntenek: az idegennek a küldetés fajtájúnak kell lennie, a szektornak pedig a küldetésben megnevezettnek. Annak a csoporttársnak, aki nem lőtt, vagy másik térképen van, a kilövés nem számít be. A küldetések megtartják a saját vállalatuk szabályait: az a küldetés, amely egy kilövést kér „egy másik vállalat 4-es szektorában”, annak a tagnak számít, akinek az a szektor másik vállalaté. Amikor egy csoporttárs kilövése beszámít az egyik küldetésedbe, egy értesítés megmondja, melyikbe. A [Kihívások sorában](/wiki/03-Mechanics/Quests.md#where-it-counts) ráadásul a csoporttagnak a roncstól legfeljebb **4 000 egységre** kell lennie, hogy számítson, és minden csoporttag, akinek van küldetéstárgyas küldetése, a saját tárgyát dobja és látja: senki nem tud megosztani egyet.
+Egy kilövés beszámít minden más olyan tag **kilövéses küldetésébe** is, aki ugyanazon a térképen van, és **az elmúlt 15 másodpercben lézerrel vagy rakétával lőtt bármire**, bárhol is van rajta, mintha ő maga semmisítette volna meg az idegent. A küldetés saját szabályai továbbra is döntenek: az idegennek a küldetés fajtájúnak kell lennie, a szektornak pedig a küldetésben megnevezettnek. Annak a csoporttársnak, aki nem lőtt, vagy másik térképen van, a kilövés nem számít be. A küldetések megtartják a saját vállalatuk szabályait: az a küldetés, amely egy kilövést kér „egy másik vállalat 4-es szektorában”, annak a tagnak számít, akinek az a szektor másik vállalaté. Amikor egy csoporttárs kilövése beszámít az egyik küldetésedbe, egy értesítés megmondja, melyikbe. A [Kihívások sorában](/wiki/03-Mechanics/Quests.md#where-it-counts) ráadásul a csoporttagnak a roncstól legfeljebb **8 000 egységre** kell lennie, hogy számítson, és minden csoporttag, akinek van küldetéstárgyas küldetése, a saját tárgyát dobja és látja: senki nem tud megosztani egyet.
 
 ## Chatcsatornák {#chat-channels}
 

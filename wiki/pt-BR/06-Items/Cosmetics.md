@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Cosméticos -->
 # Cosméticos {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; visual; aparência; pintura; guarda-roupa; rastro -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; visual; aparência; pintura; guarda-roupa; rastro -->
 
 Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a pintura do casco), uma **aura** (um brilho suave e um anel de luz em volta da nave), um **rastro** (a cor e a forma do rastro atrás dos motores) e a **pintura** dos seus drones. Um visual é só para enfeitar: não dá dano, casco nem velocidade, não ocupa slot e não muda nada do que um tiro pode acertar.
 
@@ -22,24 +22,25 @@ Um **visual** é o que a sua nave veste. Ele tem quatro partes: uma **skin** (a 
 
 ## Skins
 
-Uma skin é um esquema de pintura feito a partir do próprio casco da nave: as linhas dos painéis, os números e as listras ficam, só as cores mudam. Ela é para um **modelo de nave**, e a mesma skin é usada por todas as suas naves desse modelo e por todo [design](/wiki/03-Mechanics/Ship-Designs.md) feito a partir dele; uma conversão mantém o visual. A Protos ainda não tem skin, a Kitefin, a Ostirion e a Nomad têm uma coleção, e as quatro naves que você fabrica na Montagem têm as dez.
+Uma skin é um esquema de pintura feito a partir do próprio casco da nave: as linhas dos painéis, os números e as listras ficam, só as cores mudam. Ela é para um **modelo de nave**, e a mesma skin é usada por todas as suas naves desse modelo e por todo [design](/wiki/03-Mechanics/Ship-Designs.md) feito a partir dele; uma conversão mantém o visual. A Protos ainda não tem skin, a Kitefin, a Ostirion e a Nomad têm uma coleção, e as quatro naves que você fabrica na Montagem e a Miyuki têm as onze. Uma skin da Miyuki serve nos cinco níveis dela.
 
 As skins pertencem à sua **conta**, não a uma nave, e ficam através do [reset](/wiki/03-Mechanics/Wipe-Timeline.md); as suas naves usam o que usavam.
 
-O [Arquivo Cromático](/wiki/06-Items/Containers.md#chroma-archive) pode dar qualquer coleção exceto a Bloody R.E.D, uma skin por vez: um prêmio de coleção dá uma skin dela, para um modelo de nave. É a skin da sua nave ativa, se a coleção tiver uma para ela e você ainda não a tiver; senão, a skin de outra nave que você tem; senão, a primeira skin da coleção que faltar. Então pilote a nave para a qual você quer a skin quando abrir um Arquivo. A coleção pode sair de novo até você ter todas as skins dela. Uma coleção que veio inteira antes da 0.5.7 continua sua, com todas as skins.
+O [Arquivo Cromático](/wiki/06-Items/Containers.md#chroma-archive) pode dar qualquer coleção exceto a Bloody R.E.D e a LOU, uma skin por vez: um prêmio de coleção dá uma skin dela, para um modelo de nave. É a skin da sua nave ativa, se a coleção tiver uma para ela e você ainda não a tiver; senão, a skin de outra nave que você tem; senão, a primeira skin da coleção que faltar. Então pilote a nave para a qual você quer a skin quando abrir um Arquivo. A coleção pode sair de novo até você ter todas as skins dela. Uma coleção que veio inteira antes da 0.5.7 continua sua, com todas as skins.
 
 | Coleção | Naves | Raridade | Como é |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Raro | Um casco branco como a neve com partes laranja |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Incomum | O casco inteiro na cor da sua corporação: vermelho para Mars, verde para Terra, roxo para Galactic. Ela acompanha você se mudar de corporação |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mítico | Preto e vermelho sangue, com o logotipo do clã em um emblema escuro no meio do casco |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Épico | Véspera e Dia de Ano-Novo: um casco azul-noite com friso prateado e champanhe e uma taça de champanhe |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Épico | Dia da Terra: azul-oceano com terra verde e um pequeno globo |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Épico | Dia Internacional da Mulher: amarelo-limão com friso roxo e uma flor |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Épico | Dia Internacional da Paz: azul-céu com friso oliva e um símbolo da paz branco |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Raro | Os equinócios e solstícios: um casco verde-azulado escuro com um sol dourado |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Épico | Dia Mundial da Saúde e Dia Mundial da Saúde Mental: um casco preto-esverdeado com um batimento verde neon |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Épico | Halloween: carvão com laranja, e uma lua com estrelas |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Raro | Um casco branco como a neve com partes laranja |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Incomum | O casco inteiro na cor da sua corporação: vermelho para Mars, verde para Terra, roxo para Galactic. Ela acompanha você se mudar de corporação |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mítico | Preto e vermelho sangue, com o logotipo do clã em um emblema escuro no meio do casco |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mítico | A skin do clã LOU, que a equipe do jogo dá aos membros dele: preta como a Bloody R.E.D, com partes em violeta profundo e sem logotipo |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Véspera e Dia de Ano-Novo: um casco azul-noite com friso prateado e champanhe e uma taça de champanhe |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Dia da Terra: azul-oceano com terra verde e um pequeno globo |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Dia Internacional da Mulher: amarelo-limão com friso roxo e uma flor |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Dia Internacional da Paz: azul-céu com friso oliva e um símbolo da paz branco |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Raro | Os equinócios e solstícios: um casco verde-azulado escuro com um sol dourado |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Dia Mundial da Saúde e Dia Mundial da Saúde Mental: um casco preto-esverdeado com um batimento verde neon |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Épico | Halloween: carvão com laranja, e uma lua com estrelas |
 
 ## Pinturas dos drones {#drone-liveries}
 

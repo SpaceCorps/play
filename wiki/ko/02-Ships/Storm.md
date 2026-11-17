@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm은 모든 함선 중 가장 높은 기본 속도와 가장 많은 레이�
 
 | 디자인 | 바뀌는 점 |
 | :--- | :--- |
-| **Storm NOTSUM** | 기본 선체 -10%, 기본 속도 +50, 속도 +2%, Blink |
-| **Storm BRATAN** | 기본 속도 -50, 레이저 슬롯 +2, 실드 용량 -25%, 실드 관통 +10%, Heal Pod |
-| **Storm RECON** | 기본 선체 -20%, 속도 +5%, 레이저 슬롯 -1, Chameleon |
+| **Storm NOTSUM** | 기본 선체 -10%, 기본 속도 +50, 속도 +2%, 모든 피해 +5%, Blink |
+| **Storm BRATAN** | 기본 속도 -50, 레이저 슬롯 +2, 실드 용량 -25%, 실드 관통 +10%, 모든 피해 +5%, Heal Pod |
+| **Storm RECON** | 기본 선체 -20%, 속도 +5%, 레이저 슬롯 -1, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

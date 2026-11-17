@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm bir “cam top” savaşçısıdır: tüm gemiler arasında en yüksek tem
 
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
-| **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, Blink |
-| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, Heal Pod |
-| **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon |
+| **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, +%5 tüm hasar, Blink |
+| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, +%5 tüm hasar, Heal Pod |
+| **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

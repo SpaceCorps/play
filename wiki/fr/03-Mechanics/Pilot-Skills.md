@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 36bb659cf7e84fc7 -->
+<!-- wiki-i18n source: a95170ddd6f01c2a -->
 <!-- wiki-i18n title: Aptitudes de pilote -->
 # Aptitudes de pilote {#pilot-skills}
 
@@ -15,7 +15,7 @@ Un nouveau pilote n’est pas à pleine puissance. Au niveau 1, un laser et une 
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Statistiques** : 20 statistiques : 4 attributs et 16 aptitudes en 5 groupes
+- **Statistiques** : 21 statistiques : 4 attributs et 17 aptitudes en 5 groupes
 - **Niveaux** : De 1 à 100. Chaque pilote commence chaque statistique au niveau 1, et il n’y a rien à dépenser ni à réinitialiser
 - **Coût d’un niveau** : 40 XP du niveau 1 au 2, 875 XP du niveau 50 au 51, 19 157 XP du niveau 99 au 100 ; 313 258 XP en tout
 - **Ce que donne un niveau** : Un bonus croît en ligne droite de sa valeur au niveau 1 à sa valeur au niveau 100. Rien n’est plafonné
@@ -26,6 +26,7 @@ Un nouveau pilote n’est pas à pleine puissance. Au niveau 1, un laser et une 
 - **Soute** : Elle compte les unités de ressources que vous ramassez après le lancement, jusqu’à la taille que lui donne son niveau de coque. Elle est pleine à partir de 90 % de cela, et une soute pleine fait payer la Masse ×1,5. Rien n’est jamais refusé
 - **Plafond horaire souple** : La plupart des statistiques ne paient l’XP entière que jusqu’à un plafond par heure, compté dans l’unité propre de la statistique sur l’heure d’horloge UTC. Au-delà, un événement paie 25 % de son XP
 - **Entraînement** : L’XP d’une aptitude verse aussi 10 % d’elle-même à son attribut. Un attribut au niveau 100 entraîne ses aptitudes 25 % plus vite qu’au niveau 1
+- **Points de réinitialisation** : Une statistique rapporte des points de réinitialisation une seule fois, la première fois qu’elle atteint le niveau 10 / 25 / 50 / 75 / 100 : 2 / 5 / 10 / 20 / 40, soit 77 pour une statistique qui atteint le niveau 100. Réclamez-les sur la page Saison
 
 | Niveau de coque | Rareté du vaisseau | Taille de la soute |
 | :--- | :--- | ---: |
@@ -64,7 +65,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 |  | Chance qu’une salve laser touche | 80 % | 89 % |
 | **Technique des roquettes** (Réflexes) | Dégâts de roquette | ×1 | ×1,3 |
 |  | Chance qu’une roquette soit un raté | 10 % | 1 % |
-| **Antimatière** (Instinct) | Dark Matter des ramassages | ×1 | ×1,25 |
+| **Antimatière** (Instinct) | Dark Matter des ramassages | ×1 | ×2 |
 
 ### Combat
 
@@ -78,6 +79,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 | **Tactique** (Réflexes) | Durée des compétences | ×1 | ×1,2 |
 | **Absorption du bouclier** (Ténacité) | Absorption de vos boucliers | +0 points | +5 points |
 | **Soins** (Masse) | Force de vos propres réparations et soins | ×1 | ×1,3 |
+| **Recharge d’occultation** (Réflexes) | Temps de recharge de l’occultation | ×1 | ×0,5 |
 
 ### Pilotage {#ship-control}
 
@@ -113,6 +115,7 @@ Les tableaux donnent chaque bonus au niveau 1 et au dernier niveau ; entre les 
 - **Roquettes.** La Technique des roquettes change les dégâts de chaque roquette et la chance qu’une soit un raté ([Technique des roquettes](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Encaisser les coups.** La Ténacité retire une part de chaque coup que vous encaissez, l’Esquive augmente la chance qu’un coup direct ne fasse rien, et l’Absorption du bouclier augmente la part d’un coup que prennent vos boucliers ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). La Masse augmente votre coque.
 - **Soins.** Les Soins renforcent les soins de votre propre équipement : la réparation de votre Repair Drone, une Emergency Repair et le Heal Pod que vous larguez ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Ils s’entraînent avec la coque que vos soins restaurent ; soigner un vaisseau dans une zone sûre ne compte pas. Le Support Rocket soigne toujours la même quantité fixe, quel que soit le niveau, et paie quand même de l’XP de Soins.
+- **Occultation.** Recharge d’occultation raccourcit l’attente quand une occultation prend fin, pour un Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) comme pour le Chameleon ([Compétences](/wiki/03-Mechanics/Abilities.md)). Elle s’entraîne avec les secondes passées occulté ; aucune ne compte dans une zone sûre ni quand vous ne donnez aucun ordre.
 - **Compétences.** Les Réflexes raccourcissent le temps de recharge de vos compétences et la Tactique les fait durer plus longtemps ([Compétences](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Le Sabotage renforce les poisons.
 - **Mines.** Le Sabotage augmente les dégâts d’une Mine, et la Précision de tir la lance plus vite et plus loin ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Vitesse.** La Théorie des propulseurs s’ajoute à votre vitesse, en plus des moteurs et d’un Afterburner ([Vitesse](/wiki/03-Mechanics/Speed.md)).
@@ -156,6 +159,7 @@ Le tableau liste ce qui paie de l’XP, statistique par statistique. L’XP vaut
 | **Tactique** (Réflexes) | Chaque compétence que vous activez avec un hostile à portée du laser | 2 | 600 XP par heure |
 | **Absorption du bouclier** (Ténacité) | Chaque 1 % de votre bouclier maximal pris par les tirs ennemis | 0,1 | 300 XP par heure |
 | **Soins** (Masse) | Chaque 1 % de la coque maximale d’un vaisseau que restaure un soin de votre part | 0,1 | 300 XP par heure |
+| **Recharge d’occultation** (Réflexes) | Chaque seconde passée occulté avec un ordre donné dans les 1 min précédentes, hors des zones sûres | 0,1 | Aucun |
 | **Technique anti-radiations** (Ténacité) | Chaque seconde dans une bande de radiation | 0,2 | Aucun |
 |  | Chaque 1 % de votre coque maximale que prend la radiation | 1 |  |
 | **Théorie des propulseurs** (Masse) | Chaque seconde de vol au-dessus de 80 % de la vitesse de votre vaisseau, le double sous un Afterburner | 0,1 | Aucun |

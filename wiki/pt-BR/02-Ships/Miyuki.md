@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Um vínculo dura 5 segundos e alcança uma nave do seu grupo ou da sua corporaç
 
 ## Pesquisa {#research}
 
-- **Níveis.** Miyuki II a V são tecnologias próprias no Skylab, cada uma atrás do nível anterior: 1 d para II e III, 2 d para IV e V, e 10 Dark Matter cada.
+- **Níveis.** Miyuki II a V são tecnologias próprias no Skylab, cada uma atrás do nível anterior: 1 d para II e III, 2 d para IV e V, e 10 Dark Matter cada. Na tela de Pesquisa, os cinco níveis aparecem um sob o outro, com uma seta de cada nível para o seguinte: você pesquisa o II depois do I, o III depois do II, o IV depois do III e o V depois do IV.
 - **Slots.** Os slots de blindagem, os de laser a partir do sexto e os de gerador a partir do nono são tecnologias próprias no Skylab, de 1 h e 10 Dark Matter cada: slots de blindagem 1 a 9 em ordem a partir do primeiro, slots de laser 6 a 9 (cada um atrás do seu nível) e slots de gerador 9 a 12 (cada um atrás do nível V). Um slot abre na nave, em qualquer nível, assim que você o pesquisa; o que ainda não foi pesquisado aparece bloqueado no Hangar.
 - **Slots de blindagem.** A Miyuki tem 5 [slots de blindagem](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) para [blindagem de casco](/wiki/06-Items/Hull-Plating.md) no nível I e 9 no nível V, todos bloqueados quando você a fabrica. Com os 9 cheios de Hull Plating III, somam-se 225.000 de casco.
 

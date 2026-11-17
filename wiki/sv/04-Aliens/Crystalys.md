@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Vad varje föremål används till, och var du annars hittar det: [Resurser](/wik
 - **Quorvium**: 100 % chans (Min: 6, Max: 10)
 - **Power Core**: 50 % chans (Min: 1, Max: 1)
 - **Ancient Control Unit**: 20 % chans (Min: 1, Max: 1)
-- **Echo Shard**: 20 % chans (Min: 1, Max: 1)
+- **Echo Shard**: 40 % chans (Min: 1, Max: 1)
 
 ## Bakgrund {#lore}
 

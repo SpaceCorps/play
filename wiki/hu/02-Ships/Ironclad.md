@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Az Ironclad nehéz páncélos tank: minden hajó közül ennek a legvastagabb a 
 
 | Dizájn | Mit változtat |
 | :--- | :--- |
-| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -3 lézerfoglalat, +10% pajzselnyelés, Focus Fire |
+| **Ironclad DUMA** | +20% alap hajótest, -20 alap sebesség, -2 lézerfoglalat, +15% pajzselnyelés, Focus Fire |
 | **Ironclad TITANIC** | +2 lézerfoglalat, +1 magfoglalat, +20% pajzskapacitás, +20% modellméret, Blink |
 
 <!-- research-ship:begin -->

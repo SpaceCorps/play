@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm är en jagare av glaskanonstyp: den högsta grundhastigheten och flest las
 
 | Design | Vad den ändrar |
 | :--- | :--- |
-| **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, Blink |
-| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, Heal Pod |
-| **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon |
+| **Storm NOTSUM** | -10 % basskrov, +50 bashastighet, +2 % hastighet, +5 % all skada, Blink |
+| **Storm BRATAN** | -50 bashastighet, +2 laserplatser, -25 % sköldkapacitet, +10 % sköldgenomträngning, +5 % all skada, Heal Pod |
+| **Storm RECON** | -20 % basskrov, +5 % hastighet, -1 laserplats, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

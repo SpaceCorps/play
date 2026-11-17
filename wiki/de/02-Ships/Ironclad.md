@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Die Ironclad ist ein schwer gepanzerter Tank: die dickste Hülle aller Schiffe u
 
 | Design | Was es ändert |
 | :--- | :--- |
-| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire |
+| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -2 Laser-Slots, +15 % Schildabsorption, Focus Fire |
 | **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink |
 
 <!-- research-ship:begin -->

@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Gemi tasarımları -->
 # Gemi tasarımları {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; tasarım; tasarımlar; dönüşüm; dönüştürme; dönüştürmek; gemi tasarımı -->
 
-Bir **tasarım**, Montaj’da ürettiğin dört gemiden birinin birkaç sayısı bilerek değiştirilmiş hâlidir: daha çok hız için daha az gövde, daha sağlam kalkanlar için bir lazer yuvası eksik. On üç tasarımın dokuzu, özgün geminin sahip olmadığı yedi [yetenekten](/wiki/03-Mechanics/Abilities.md#ship-abilities) biriyle de gelir. Bir tasarımı Skylab’da araştırırsın, sonra sahip olduğun bir gemiyi Montaj’da ona dönüştürürsün. **Dönüşüm geri alınamaz.**
+Bir **tasarım**, Montaj’da ürettiğin dört gemiden birinin birkaç sayısı bilerek değiştirilmiş hâlidir: daha çok hız için daha az gövde, daha sağlam kalkanlar için bir lazer yuvası eksik. On üç tasarımın dokuzu, özgün geminin sahip olmadığı yedi [yetenekten](/wiki/03-Mechanics/Abilities.md#ship-abilities) biriyle de gelir. Storm RECON’da Chameleon’un yanında iki düğme daha vardır: Target ve Slow. Bir tasarımı Skylab’da araştırırsın, sonra sahip olduğun bir gemiyi Montaj’da ona dönüştürürsün. **Dönüşüm geri alınamaz.**
 
 ## On üç tasarım {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 
 | Tasarım | Ne değiştirir | Gövde | Temel hız | Lazer yuvaları |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -%25 temel gövde, +40 temel hız, +1 lazer yuvası | 96.000 | 310 | 11 |
-| **Paragon BUCKY** | +%25 temel gövde, -20 temel hız, -1 lazer yuvası, +%10 kalkan soğurması, +%20 model boyutu | 160.000 | 250 | 9 |
+| **Paragon THUNDER** | +40 temel hız, +1 lazer yuvası | 128.000 | 310 | 11 |
+| **Paragon BUCKY** | +%25 temel gövde, -20 temel hız, +%10 kalkan soğurması, +%20 model boyutu | 160.000 | 250 | 10 |
 | **Paragon LICH** | saniyede +%1 kalkan yenilenmesi | 128.000 | 270 | 10 |
-| **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, Blink | 162.000 | 400 | 15 |
-| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, Heal Pod | 180.000 | 300 | 17 |
-| **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon | 144.000 | 350 | 14 |
-| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire | 600.000 | 80 | 5 |
+| **Storm NOTSUM** | -%10 temel gövde, +50 temel hız, +%2 hız, +%5 tüm hasar, Blink | 162.000 | 400 | 15 |
+| **Storm BRATAN** | -50 temel hız, +2 lazer yuvası, -%25 kalkan, +%10 kalkan delme, +%5 tüm hasar, Heal Pod | 180.000 | 300 | 17 |
+| **Storm RECON** | -%20 temel gövde, +%5 hız, -1 lazer yuvası, Chameleon, Target, Slow | 144.000 | 350 | 14 |
+| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -2 lazer yuvası, +%15 kalkan soğurması, Focus Fire | 600.000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink | 500.000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 lazer yuvası, +%5 tüm hasar, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +%5 temel gövde, +%10 kalkan, Diminisher | 268.800 | 210 | 13 |
@@ -34,8 +34,8 @@ Son üç sütun, dönüştürülmüş geminin sahip olduklarıdır: plakalardan,
 
 | Tasarım | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100.000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Birlikte, diğer tüm teknolojilerin istediği 979’e ek olarak 510 Dark Matter
 ## Geminin başına ne gelir {#what-happens-to-your-ship}
 
 - **Gemi aynı gemidir.** Dönüşüm onu olduğu yerde değiştirir: ekipmanı, gövde plakaları, dronların ve kuşandığın formasyon olduğu gibi kalır.
-- **Lazerler yuvasını kaybedebilir.** Daha az lazer yuvası olan bir tasarım (BUCKY, RECON, DUMA, ATARAXIS), yuvası ortadan kalkan lazerleri amfileri ve Demirhane bonuslarıyla birlikte envanterine geri gönderir. Yeni bir yuva boş gelir.
+- **Lazerler yuvasını kaybedebilir.** Daha az lazer yuvası olan bir tasarım (RECON, DUMA, ATARAXIS), yuvası ortadan kalkan lazerleri amfileri ve Demirhane bonuslarıyla birlikte envanterine geri gönderir. Yeni bir yuva boş gelir.
 - **Bittiğinde gövde ve kalkan tamdır.** O zamana kadar gemi kilitlidir: aktif yapılamaz, donatılamaz ve yeniden dönüştürülemez.
 - **Geri dönüş yok.** Başka bir tasarımı ya da özgün gemiyi yeniden elde etmek için gemiyi Montaj’da yeniden üret. Her türden yalnızca bir gemin olabilir; yani bir Paragon ile bir THUNDER aynı anda senin olabilir, iki THUNDER olamaz.
 - **Sıfırlamada** bir tasarım, sahip olduğun her gemi gibi korunur. Hâlâ süren bir dönüşüm, üretim kuyruğundaki her üretim gibi iptal edilir ve iade edilir: gemi eskisi gibi kalır.

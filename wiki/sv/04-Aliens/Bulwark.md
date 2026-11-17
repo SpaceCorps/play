@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 52ee2498afd5ee6c -->
+<!-- wiki-i18n source: a8d05ec92f87b8fa -->
 <!-- wiki-i18n title: Bulwark -->
 # Bulwark
 
@@ -32,7 +32,7 @@ Vad varje föremål används till, och var du annars hittar det: [Resurser](/wik
 - **Cataclysite**: 100 % chans (Min: 2, Max: 2)
 - **Reinforced Hull Plate**: 30 % chans (Min: 1, Max: 1)
 - **Nyxite**: 40 % chans (Min: 1, Max: 2)
-- **Echo Shard**: 2 % chans (Min: 1, Max: 1)
+- **Echo Shard**: 4 % chans (Min: 1, Max: 1)
 
 ## Bakgrund {#lore}
 

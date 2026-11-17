@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Phantasm は攻撃的なスペクトル級のドローンです。索敵範囲�
 - **Ship Fragment**：100%の確率（最小：1、最大：1）
 - **Daraxium**：60%の確率（最小：1、最大：2）
 - **Nyxite**：60%の確率（最小：1、最大：2）
-- **Echo Shard**：1%の確率（最小：1、最大：1）
+- **Echo Shard**：2%の確率（最小：1、最大：1）
 
 ## 伝承 {#lore}
 

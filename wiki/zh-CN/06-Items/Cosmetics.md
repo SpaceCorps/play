@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: 外观装饰 -->
 # 外观装饰 {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; 外观; 皮肤; 涂装; 衣橱; 尾焰; 光环 -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; 外观; 皮肤; 涂装; 衣橱; 尾焰; 光环 -->
 
 **外观**就是你的飞船穿在身上的东西。它有四个部分：**皮肤**（船体的涂装）、**光环**（飞船周围的柔和光晕和一道光圈）、**尾焰**（引擎后面拖出的轨迹的颜色和形状）和你的无人机的**涂装**。外观只是装饰：它不增加伤害、船体或速度，不占用槽位，也不改变弹药能命中的任何东西。
 
@@ -22,24 +22,25 @@
 
 ## 皮肤 {#skins}
 
-皮肤是用舰船自己的船体做出的涂装方案：面板线条、编号和条纹都保留，只有颜色改变。它适用于一种**舰船型号**，该型号的所有舰船和由它制作的每一种[设计](/wiki/03-Mechanics/Ship-Designs.md)都穿同一款皮肤；改装后外观保持不变。Protos 目前没有皮肤，Kitefin、Ostirion 和 Nomad 有一个系列，你在装配站制造的四艘舰船则拥有全部十个。
+皮肤是用舰船自己的船体做出的涂装方案：面板线条、编号和条纹都保留，只有颜色改变。它适用于一种**舰船型号**，该型号的所有舰船和由它制作的每一种[设计](/wiki/03-Mechanics/Ship-Designs.md)都穿同一款皮肤；改装后外观保持不变。Protos 目前没有皮肤，Kitefin、Ostirion 和 Nomad 有一个系列，你在装配站制造的四艘舰船和 Miyuki 则拥有全部十一个。Miyuki 的一个皮肤可由她的全部五个等级穿戴。
 
 皮肤属于你的**账号**，而不是某一艘舰船，并且能留过[重置](/wiki/03-Mechanics/Wipe-Timeline.md)；你的舰船会继续穿着它们原来穿的东西。
 
-[色彩档案库](/wiki/06-Items/Containers.md#chroma-archive)可以给出除 Bloody R.E.D 之外的所有系列，每次一个皮肤：系列奖励给出该系列的一个皮肤，对应一种舰船型号。如果该系列有你当前舰船的皮肤而你还没有，就是它；否则是你拥有的其他舰船的皮肤；再否则是该系列中你缺少的第一个皮肤。所以打开档案库时，请驾驶你想要皮肤的那艘舰船。在你拥有该系列的全部皮肤之前，它还可以再次出现。在 0.5.7 之前整套获得的系列仍然归你，所有皮肤都保留。
+[色彩档案库](/wiki/06-Items/Containers.md#chroma-archive)可以给出除 Bloody R.E.D 和 LOU 之外的所有系列，每次一个皮肤：系列奖励给出该系列的一个皮肤，对应一种舰船型号。如果该系列有你当前舰船的皮肤而你还没有，就是它；否则是你拥有的其他舰船的皮肤；再否则是该系列中你缺少的第一个皮肤。所以打开档案库时，请驾驶你想要皮肤的那艘舰船。在你拥有该系列的全部皮肤之前，它还可以再次出现。在 0.5.7 之前整套获得的系列仍然归你，所有皮肤都保留。
 
 | 系列 | 舰船 | 稀有度 | 样子 |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | 稀有 | 雪白的船体，带橙色部件 |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | 优秀 | 整个船体是你所属企业的颜色：Mars 为红色，Terra 为绿色，Galactic 为紫色。你更换企业时它会跟着变 |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | 神话 | 黑色与血红色，船体正中的深色徽章上有战队的标志 |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | 史诗 | 新年前夜与元旦：夜蓝色的船体，银色与香槟色的镶边，以及一只香槟杯 |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | 史诗 | 地球日：海洋蓝，带绿色陆地和一个小地球仪 |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | 史诗 | 国际妇女节：柠檬黄，带紫色镶边和一朵花 |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | 史诗 | 国际和平日：天蓝色，带橄榄色镶边和一个白色和平标志 |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | 稀有 | 春分、夏至、秋分和冬至：深青色的船体，带一轮金色太阳 |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | 史诗 | 世界卫生日与世界精神卫生日：墨绿近黑的船体，带霓虹绿的心跳 |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | 史诗 | 万圣节：炭黑配橙色，以及一弯月亮和星星 |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | 稀有 | 雪白的船体，带橙色部件 |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | 优秀 | 整个船体是你所属企业的颜色：Mars 为红色，Terra 为绿色，Galactic 为紫色。你更换企业时它会跟着变 |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | 神话 | 黑色与血红色，船体正中的深色徽章上有战队的标志 |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | 神话 | 战队 LOU 的皮肤，由游戏团队发给其成员：像 Bloody R.E.D 一样的黑色，带有深紫色部件，没有标志 |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 新年前夜与元旦：夜蓝色的船体，银色与香槟色的镶边，以及一只香槟杯 |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 地球日：海洋蓝，带绿色陆地和一个小地球仪 |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 国际妇女节：柠檬黄，带紫色镶边和一朵花 |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 国际和平日：天蓝色，带橄榄色镶边和一个白色和平标志 |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | 稀有 | 春分、夏至、秋分和冬至：深青色的船体，带一轮金色太阳 |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 世界卫生日与世界精神卫生日：墨绿近黑的船体，带霓虹绿的心跳 |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | 史诗 | 万圣节：炭黑配橙色，以及一弯月亮和星星 |
 
 ## 无人机涂装 {#drone-liveries}
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b17820451440c99b -->
+<!-- wiki-i18n source: 8f0711e72a965917 -->
 <!-- wiki-i18n title: Dungeons -->
 # Dungeons
 
@@ -195,7 +195,7 @@ Die Arten der Reihe nach. Hülle und Schild sind die üblichen Werte mal dem Fak
 
 ## Der Kriegsherr {#the-warlord}
 
-Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt den Durchgang aus. Er zahlt keine eigene Zerstörung, wie es die anderen Aliens tun. Er ist ein riesig gewachsener Crystalys. Seine Hülle und sein Schild wachsen mit der Größe der Gruppe: Je mehr Piloten hineingehen, desto zäher ist er, im selben Verhältnis. Er verlässt seinen Raum nie, ob die Tür zu ist oder offen: Er bleibt innerhalb der Wände des Raums und jagt nicht durch die Gänge. Ein Pilot draußen kann ihn nur bis an den Rand des Raums locken, und durch eine offene Tür schießt er trotzdem auf alles, was sein Laser erreicht. Er setzt seine Fähigkeiten nacheinander in zufälliger Reihenfolge ein, jede mit eigener Abklingzeit.
+Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt den Durchgang aus. Er zahlt keine eigene Zerstörung, wie es die anderen Aliens tun. Er ist ein riesig gewachsener Crystalys. Seine Hülle und sein Schild wachsen mit der Größe der Gruppe: Je mehr Piloten hineingehen, desto zäher ist er, im selben Verhältnis. Er verlässt seinen Raum nie, ob die Tür zu ist oder offen: Er bleibt innerhalb der Wände des Raums und jagt nicht durch die Gänge. Ein Pilot draußen kann ihn nur bis an den Rand des Raums locken, und durch eine offene Tür schießt er trotzdem auf alles, was sein Laser erreicht. Er setzt seine Fähigkeiten nacheinander in zufälliger Reihenfolge ein, jede mit eigener Abklingzeit. Ab Stufe 2 feuert sein Laser auf zwei Piloten gleichzeitig: Die beiden nächsten, die er sehen kann, bekommen jeweils eine ganze Salve ab.
 
 <!-- dungeons-boss:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -207,7 +207,7 @@ Der Kriegsherr wartet im Raum am fernen Ende des Labyrinths, und sein Fall zahlt
 | :--- | ---: | ---: | ---: |
 | Hülle | 10.000.000 | 15.000.000 | 25.000.000 |
 | Schild | 8.000.000 | 12.000.000 | 20.000.000 |
-| Laserschaden (eine Salve pro Sekunde) | 12.500–15.000 | 15.000–17.500 | 20.000–25.000 |
+| Laserschaden (eine Salve pro Sekunde) | 12.500–15.000 | 15.000–17.500 auf jeden von 2 Piloten | 20.000–25.000 auf jeden von 2 Piloten |
 | Tempo | 120 | 120 | 120 |
 | Laserreichweite | 1.100 | 1.100 | 1.100 |
 
@@ -237,9 +237,10 @@ Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, 
 - **Der rote Ring** der Lebensraub-Aura verletzt jeden Piloten darin und heilt den Kriegsherrn mit dem Schaden. Auch die Schildabsorption hat einen roten Ring: Er entzieht den Schilden der Piloten darin Energie und lädt damit den des Kriegsherrn auf. Verlasse in beiden Fällen den Ring oder stell dich hinter eine Wand.
 - **Die bernsteinfarbenen Ringe** des Meteoritenhagels zeigen, wo einen Moment später Meteore einschlagen. Bleib in Bewegung und verlasse den Ring, bevor er einschlägt.
 - **Fokus auf den Meistgesuchten** markiert den Piloten, der dem Kriegsherrn den meisten Schaden zugefügt hat, mit einer goldenen Klammer an seinem Schiff, und der Kriegsherr feuert, solange es dauert, jede Sekunde einen zusätzlichen Schuss auf ihn. Sein Ziel ändert sich nicht: Er schießt weiter auf den nächsten Piloten, den er sehen kann, ein markierter Pilot, der auch der nächste ist, kassiert also beides. Der zusätzliche Schuss braucht freie Sicht und die Reichweite des Lasers des Kriegsherrn, eine Wand oder etwas Abstand rettet ihn also. Er startet nicht, solange noch niemand Schaden verursacht hat.
-- **Die Raketensalve** schickt zielsuchende Raketen auf zufällige Piloten, aber nur auf Piloten, die der Kriegsherr sehen kann, und eine Wand im Weg stoppt eine Rakete. Ein Ring zeigt, welchem Piloten eine Rakete folgt. Eine EMP Charge oder eine Tarnung schüttelt sie ab.
+- **Die Raketensalve** schickt auf jeden Piloten, den der Kriegsherr sehen kann, eine zielsuchende Rakete und schickt, solange sie andauert, alle paar Sekunden eine neue Runde. Eine Wand im Weg stoppt eine Rakete. Ein Ring zeigt, welchem Piloten eine Rakete folgt. Eine EMP Charge oder eine Tarnung schüttelt sie ab.
 - **Die Schwarm-Unterstützung** ist der Kriegsherr, der seine Goombahs ruft. Solange sie leben, kann er nicht verletzt werden, und er feuert nicht und setzt keine andere Fähigkeit ein. Zerstöre sie alle: Das Banner zählt, wie viele übrig sind. Vergeht eine Minute, kann der Kriegsherr wieder verletzt werden, und die übrigen Goombahs bleiben und kämpfen weiter. Sie zählen nicht für den Raum des Kriegsherrn, und sie zahlen nichts.
 - **Die Zone des Chaos** ist ein violetter Ring auf dem Boden, um den Kriegsherrn herum, und solange sie andauert, geht er überallhin mit, wohin der Kriegsherr geht. Niemand im Ring kann angreifen, weder mit Lasern noch mit Raketen, doch Reparaturen, Tarnung und Fliegen funktionieren weiter, und der Kriegsherr und seine Aliens feuern wie immer. Der Ring zeigt sich einen Moment, bevor er wirkt: Tritt aus ihm heraus und bleib draußen, denn er folgt dem Kriegsherrn. Ein Pilot außerhalb kann weiter schießen, soweit seine Waffen reichen.
+- **Die Phantomlanze** lässt den Kriegsherrn für eine Sekunde verschwinden. Er kommt an anderer Stelle seines Raums zurück, zusammen mit zwei Trugbildern seiner selbst. Solange ein Trugbild lebt, feuert es mit der halben Salve des Kriegsherrn auf den nächsten Piloten, den es sehen kann, und heilt jede Sekunde Hülle und Schild des Kriegsherrn (die Zahlen stehen in der Tabelle der Fähigkeiten). Die Trugbilder haben eine eigene Hülle: Zerstöre sie, damit die Heilung aufhört. Sie zahlen nichts, und sie verschwinden mit dem Kriegsherrn, wenn er fällt. Der Kriegsherr kann zerstört werden, solange sie leben.
 
 <!-- dungeons-abilities:begin -->
 <!-- Generated from server/Resources/Dungeons.json (and DungeonMazes.json, client/locales/<language>/dungeon.toml) by scripts/dungeons-wiki.sh: don't edit by hand. -->
@@ -247,22 +248,24 @@ Das Fenster Clan-Dungeon zählt, wie viele davon noch zerstört werden müssen, 
 | Fähigkeit | Anlauf | Dauer | Abklingzeit | Ringradius (Einheiten) | Der Kriegsherr gewinnt höchstens zurück |
 | :--- | ---: | :--- | ---: | ---: | :--- |
 | **Lebensraub-Aura** | 2 s | 15 s | 2 min | 900 | 8 % seiner Hülle und seines Schilds |
-| **Meteoritenhagel** | 1,5 s | 3 Salven, 4 s Abstand | 2 min | 420 | – |
+| **Meteoritenhagel** | 1,5 s | 3 Salven, 4 s Abstand | 2 min | 546 | – |
 | **Fokus auf den Meistgesuchten** | 1 s | 20 s | 2 min | – | – |
 | **Raketensalve** | 1,5 s | 45 s | 2 min | – | – |
 | **Schildabsorption** | 2 s | 15 s | 2 min | 900 | 6 % seines Schilds |
 | **Schwarm-Unterstützung** | 2 s | Bis zu 1 min | 3 min | – | – |
 | **Zone des Chaos** | 2 s | 15 s | 2 min | 900 | – |
+| **Phantomlanze** | 1,5 s | 1 s | 2 min | – | – |
 
 | Fähigkeit | Stufe 1 | Stufe 2 | Stufe 3 |
 | :--- | :--- | :--- | :--- |
 | **Lebensraub-Aura** | 8.000 pro Sekunde | 10.000 pro Sekunde | 12.000 pro Sekunde |
-| **Meteoritenhagel** | 6 Meteore pro Salve, je 40.000 | 8 Meteore pro Salve, je 50.000 | 10 Meteore pro Salve, je 60.000 |
+| **Meteoritenhagel** | 6 Meteore pro Salve, je 80.000 | 8 Meteore pro Salve, je 100.000 | 10 Meteore pro Salve, je 120.000 |
 | **Fokus auf den Meistgesuchten** | 18.750–22.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 22.500–26.250 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s | 30.000–37.500 pro Extraschuss auf den Piloten mit dem meisten Schaden, einer alle 1 s |
-| **Raketensalve** | 26.000 pro Rakete, eine alle 15 s | 32.500 pro Rakete, eine alle 15 s | 39.000 pro Rakete, eine alle 15 s |
+| **Raketensalve** | 50.000–75.000 pro Rakete auf jeden Piloten, eine alle 15 s | 62.500–93.750 pro Rakete auf jeden Piloten, eine alle 15 s | 75.000–112.500 pro Rakete auf jeden Piloten, eine alle 15 s |
 | **Schildabsorption** | 10.000 Schild pro Sekunde | 12.500 Schild pro Sekunde | 15.000 Schild pro Sekunde |
 | **Schwarm-Unterstützung** | 12 Goombahs | 18 Goombahs | 24 Goombahs |
 | **Zone des Chaos** | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen | Piloten im Ring können nicht angreifen |
+| **Phantomlanze** | 2 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 2 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde | 2 Trugbilder mit je 500.000 Hülle; jedes feuert 50 % der Salve des Kriegsherrn und heilt, solange es lebt, den Kriegsherrn um 50.000 Hülle und 50.000 Schild pro Sekunde |
 
 <!-- dungeons-abilities:end -->
 
@@ -348,9 +351,9 @@ Die **Orvium Reinforced Plates** und die **Echo Shards** und **Lattice Shards** 
 
 | Stufe | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 3 | 5 | 850 |
-| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 2 | 6 | 2.000 |
-| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 2 | 7 | 3.400 |
+| **Stufe 1** | 25.000 | 600.000 | 5.000.000 | 4.000 | 4.000 | 5 | 12 | 5 | 850 |
+| **Stufe 2** | 50.000 | 1.500.000 | 10.000.000 | 9.000 | 9.000 | 10 | 8 | 6 | 2.000 |
+| **Stufe 3** | 100.000 | 2.400.000 | 17.500.000 | 15.000 | 15.000 | 15 | 8 | 7 | 3.400 |
 
 - **Heartshards**: 1 beim ersten bezahlten Abschluss jeder Stufe in einer Saison und mit 5 % Wahrscheinlichkeit ein weiteres bei jedem bezahlten Abschluss.
 
@@ -379,8 +382,8 @@ Was ein Pilot an einem Tag und in der besten Woche bekommen kann, die die Grenze
 
 | Belohnung je Pilot | Ehre | Erfahrung | Credits | Thulium | x4-Munition | Orvium Reinforced Plates | Echo Shards | Lattice Shards | PvE-Rangpunkte |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 7 | 18 | 6.250 |
-| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 20 | 67 | 29.800 |
+| Ein Tag, jede Stufe einmal | 175.000 | 4.500.000 | 32.500.000 | 28.000 | 28.000 | 30 | 28 | 18 | 6.250 |
+| Die beste Woche: 7 × Stufe 3 und 3 × Stufe 2 | 850.000 | 21.300.000 | 152.500.000 | 132.000 | 132.000 | 135 | 80 | 67 | 29.800 |
 
 Erfahrung und Ehre eines bezahlten Abschlusses zählen für deine PvE-Rangpunkte: ein Punkt je 1.000 Erfahrung und ein Punkt je 100 Ehre.
 
@@ -391,8 +394,8 @@ Erfahrung und Ehre eines bezahlten Abschlusses zählen für deine PvE-Rangpunkte
 Jedes Alien eines Dungeons zahlt, wenn es fällt, und lässt Beute fallen, wie das Alien des Spiels, nach dem es gebaut ist: ein Dungeon Goombah wie ein [Goombah](/wiki/04-Aliens/Goombah.md), ein Dungeon Crystalys und sein Twin wie ein [Crystalys](/wiki/04-Aliens/Crystalys.md), ein Dungeon Pirate wie der Pirate Boss aus dem [Pirate-Schwarm](/wiki/05-Swarms/Pirate-Swarm.md). Was die Zerstörung eines Aliens zahlt und fallen lässt, ist das, was das Original zahlt und fallen lässt, **mal dem Verhältnis ihrer Hülle und ihres Schilds zusammen**: Ein Alien, das so zäh ist wie sein Original, zahlt, was das Original zahlt; eines, das doppelt so zäh ist, zahlt doppelt so viel und lässt von jedem Gegenstand doppelt so viel fallen, und so weiter. Der Abschnitt jeder Alien-Art unter [Die Aliens](#the-aliens) nennt das Verhältnis und die Belohnung einer Zerstörung in jeder Stufe.
 
 - **Wer bezahlt wird.** Die Piloten, die das Alien verletzt haben, nach dem Schaden, den sie angerichtet haben, wie bei den Aliens der Schwärme: Ein Pilot oder eine Gruppe, die es nur gestreift hat, bekommt nichts, eine Gruppe wird als eine bezahlt, und innerhalb einer Gruppe teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, das Bezahlte nach Level. Ein Pilot, der dem Alien keinen Schaden zugefügt hat, bekommt nichts dafür, egal wie nah er flog, und ein Alien, das kein Pilot verletzt hat, zahlt niemandem. Nur Piloten, die die Regeln oben bezahlen, sind dabei: Wer den Dungeon verlassen hat, noch nicht lange genug drin war, für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt für die Aliens nichts, und die anderen haben seinen Teil. Eine Zerstörung verlangt keinen Anteil am Kampf: Das Alien verletzt zu haben ist der Anteil. Ist das Mitglied einer Gruppe, das am meisten Schaden angerichtet hat, zerstört oder nicht mehr auf der Karte, teilen die Mitglieder, die in der Nähe des Wracks sind und kürzlich gefeuert haben, ohne es.
-- **Was bezahlt wird.** Credits, Thulium, Erfahrung und Ehre, einmal pro zerstörtem Alien. Bezahlt wird, was das Original in Alpha zahlt, in jeder Welt: Ein Dungeon hat keinen Welt-Multiplikator. Deine Booster, Premium, Formation und die Boni deines Clans zählen wie bei jeder Zerstörung, und die Erfahrung zählt wie die des Durchgangs für deine [PvE-Punkte](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points).
-- **Die Beute.** Sie wird mit den Chancen des Originals gewürfelt, danach wird jede Menge mit dem Verhältnis multipliziert (ein Bruchteil einer Einheit ist eine Chance auf eine weitere). Sie fällt als Kiste am Wrack, zuerst für den Piloten mit dem meisten Schaden und seinen Clan, später für jeden auf der Karte, und dann ist sie weg. Die Karte fasst nur eine bestimmte Zahl von Kisten auf einmal, hol sie also ab, während du kämpfst; was auf der Karte liegt, wenn der Dungeon schließt, verschwindet mit ihm. Anders als die Gegenstände des Durchgangs ist das gewöhnliche Beute eines Aliens: Sie kann [in der Auktion verkauft](/wiki/03-Mechanics/Auction.md#marketable-items) werden, wenn der Gegenstand Handelbar ist.
+- **Was bezahlt wird.** Credits, Thulium, Erfahrung und Ehre, einmal pro zerstörtem Alien. Bezahlt wird, was das Original in Alpha zahlt, in jeder Welt: Ein Dungeon hat keinen Welt-Multiplikator. Deine Booster, Formation und die Boni deines Clans zählen wie bei jeder Zerstörung, und die Erfahrung zählt wie die des Durchgangs für deine [PvE-Punkte](/wiki/03-Mechanics/Ranks.md#how-you-earn-pve-points).
+- **Die Beute.** Sie wird mit den Chancen des Originals gewürfelt, nur der Echo Shard ist doppelt so wahrscheinlich, danach wird jede Menge mit dem Verhältnis multipliziert (ein Bruchteil einer Einheit ist eine Chance auf eine weitere). Sie fällt als Kiste am Wrack, zuerst für den Piloten mit dem meisten Schaden und seinen Clan, später für jeden auf der Karte, und dann ist sie weg. Die Karte fasst nur eine bestimmte Zahl von Kisten auf einmal, hol sie also ab, während du kämpfst; was auf der Karte liegt, wenn der Dungeon schließt, verschwindet mit ihm. Anders als die Gegenstände des Durchgangs ist das gewöhnliche Beute eines Aliens: Sie kann [in der Auktion verkauft](/wiki/03-Mechanics/Auction.md#marketable-items) werden, wenn der Gegenstand Handelbar ist.
 - **Was nicht zahlt.** Der Kriegsherr zahlt keine Zerstörung, nur den Durchgang. Die Goombahs, die er ruft, zahlen nichts, weil der Ruf wiederkehrt, solange der Kampf dauert.
 - **Keine Zerstörung des Spiels.** Eine Zerstörung in einem Dungeon zählt nicht für Quests, Erfolge, Zerstörungszähler, Wipe-Punkte, die PvE-Punkte einer Zerstörung, Drohnen oder P.E.T.s: Ein Dungeon Goombah ist kein Goombah des Spiels.
 - **Die Grenzen.** Die Tages- und Wochengrenzen oben halten die Belohnung der Aliens ebenso zurück wie die des Durchgangs: Wer für die Stufe heute schon bezahlt wurde oder alle bezahlten Durchgänge der Woche hatte, bekommt auch für die Aliens nichts, und der Topf einer Zerstörung geht an die anderen. Ein Dungeon, der nicht abgeschlossen wird, zahlt seine Zerstörungen an die Piloten, die die Regeln bezahlen, und für den Durchgang nichts.

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Paragon は、防御と攻撃のバランスを重視して設計された重戦
 
 | デザイン | 変更点 |
 | :--- | :--- |
-| **Paragon THUNDER** | 基本船体 -25%、基本速度 +40、レーザースロット +1 |
-| **Paragon BUCKY** | 基本船体 +25%、基本速度 -20、レーザースロット -1、シールド吸収率 +10%、モデルサイズ +20% |
+| **Paragon THUNDER** | 基本速度 +40、レーザースロット +1 |
+| **Paragon BUCKY** | 基本船体 +25%、基本速度 -20、シールド吸収率 +10%、モデルサイズ +20% |
 | **Paragon LICH** | シールド再生 毎秒 +1% |
 
 <!-- research-ship:begin -->

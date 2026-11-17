@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Ironclad är en tung, pansrad tank: det tjockaste skrovet av alla skepp och mest
 
 | Design | Vad den ändrar |
 | :--- | :--- |
-| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -3 laserplatser, +10 % sköldabsorption, Focus Fire |
+| **Ironclad DUMA** | +20 % basskrov, -20 bashastighet, -2 laserplatser, +15 % sköldabsorption, Focus Fire |
 | **Ironclad TITANIC** | +2 laserplatser, +1 kärnplats, +20 % sköldkapacitet, +20 % modellstorlek, Blink |
 
 <!-- research-ship:begin -->

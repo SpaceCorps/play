@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Un lien dure 5 secondes et atteint un vaisseau de votre groupe ou de votre corpo
 
 ## Recherche {#research}
 
-- **Niveaux.** Miyuki II à V sont des technologies à part dans le Skylab, chacune derrière le niveau précédent : 1 j pour II et III, 2 j pour IV et V, et 10 Dark Matter chacune.
+- **Niveaux.** Miyuki II à V sont des technologies à part dans le Skylab, chacune derrière le niveau précédent : 1 j pour II et III, 2 j pour IV et V, et 10 Dark Matter chacune. Dans la vue Recherche, les cinq niveaux sont dessinés l’un sous l’autre, avec une flèche de chaque niveau vers le suivant : on recherche le II après le I, le III après le II, le IV après le III et le V après le IV.
 - **Emplacements.** Les emplacements de blindage, les emplacements laser à partir du sixième et les emplacements de générateur à partir du neuvième sont des technologies à part dans le Skylab, de 1 h et 10 Dark Matter chacune : emplacements de blindage 1 à 9 dans l’ordre à partir du premier, emplacements laser 6 à 9 (chacun derrière son niveau) et emplacements de générateur 9 à 12 (chacun derrière le niveau V). Un emplacement s’ouvre sur le vaisseau, quel que soit son niveau, dès que vous l’avez recherché ; celui que vous n’avez pas encore recherché apparaît verrouillé dans le Hangar.
 - **Emplacements de blindage.** Le Miyuki a 5 [emplacements de blindage](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) pour du [blindage de coque](/wiki/06-Items/Hull-Plating.md) au niveau I et 9 au niveau V, tous verrouillés quand vous le fabriquez. Avec les 9 remplis de Hull Plating III, ils ajoutent 225 000 de coque.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a07a705b04461381 -->
+<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
 <!-- wiki-i18n title: Solo Geçitler -->
 # Solo Geçitler {#solo-gates}
 
@@ -15,7 +15,7 @@ Bir solo geçit bir [klan zindanı](/wiki/03-Mechanics/Dungeons.md) değildir. Z
 
 - **Geçitler**: 6: Chrono-Gate ve 5 solo geçit, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege ve Omega Vault
 - **Çevirme**: Her çevirme için 100 Thulium ve bir seferde 1, 5, 10 ya da 100 çevirme
-- **Parça şansı**: Çevirme başına %13. Parçanın ait olduğu geçit rastgele seçilir ve her geçit çevirmelerin %2,17 kadarını alır. Chrono-Gate tamamlandığında payı çarktan çıkar ve solo geçitlerin her biri %2,17 kalır
+- **Parça şansı**: Çevirme başına %13, hangi kategoriyi çevirirsen çevir. Parça o kategorinin geçitlerinden birine aittir, hepsi eşit olasılıklıdır: Chrono-Gate tek başına hepsini alır, Alpha Rift, Beta Breach ve Gamma Foundry her biri %4,33, Delta Siege ve Omega Vault her biri %6,5 alır. Chrono-Gate tamamlandığında kategorisinde çevrilecek bir şey kalmaz
 - **Garanti**: Arka arkaya 24 parçasız çevirmeden sonra şans her çevirmede artar ve 47 sonra bir sonraki çevirme her zaman bir parça bulur. Herhangi bir geçidin bir parçası sayımı yeniden başlatır
 - **Canlar**: Bir denemede 3; her ölüm bir tanesini götürür
 - **Geri sayım**: Her dalgadan önce 5 sn, ilk dalgadan ve patronunkinden önce de. Bir dalganın zamanlayıcısı yoktur, turun da yoktur
@@ -28,21 +28,21 @@ Bir solo geçit bir [klan zindanı](/wiki/03-Mechanics/Dungeons.md) değildir. Z
 
 ## Geçit parçalarını bulmak {#finding-gate-parts}
 
-**Galaksi Geçitleri** sayfasını aç ve Enerji Maddeleştirici’yi çevir. Her çevirme Thulium ile ödenir ve en çok bir parça bulur; parça altı geçitten birine aittir ve rastgele seçilir. Bir geçidi inşa etmek için ondan belli sayıda parça gerekir ve parçalar sen kullanana kadar senindir. Parça bulmayan bir çevirme boşa gitmez: bir ödül öder ([aşağıda](#a-spin-without-a-part)). Her çevirme ücretlendirilir, tamamlanmış bir Chrono-Gate’te bile. Chrono-Gate tamamlandığında çevirmelerdeki payı hiçbir şey bulmaz ve solo geçitler kendi şanslarını korur; yani bir solo geçidin parçası ona sahipken de değilken de aynı maliyettedir.
+**Galaksi Geçitleri** sayfasını aç ve Enerji Maddeleştirici’yi çevir. Her çevirme Thulium ile ödenir ve en çok bir parça bulur. Önce bir **kategori** seç: **Chrono-Gate**, **Alpha–Gamma** (Alpha Rift, Beta Breach ve Gamma Foundry) ya da **Delta–Omega** (Delta Siege ve Omega Vault). Parça bulma şansı her kategoride aynıdır ve parça, seçtiğin kategorinin geçitlerinden birine aittir; hepsi eşit olasılıklıdır. Bir geçidi inşa etmek için ondan belli sayıda parça gerekir ve parçalar sen kullanana kadar senindir. Parça bulmayan bir çevirme boşa gitmez: bir ödül öder ([aşağıda](#a-spin-without-a-part)). Her çevirme ücretlendirilir. Chrono-Gate tamamlandığında seçeneği kapanır, çünkü içinde bulunacak bir şey kalmaz; diğer iki kategori şansını korur, yani bir solo geçidin parçası Chrono-Gate varken de yokken de aynı maliyettedir.
 
-Tablo her geçidin parça olarak maliyetini ve **garantiyle** ortalama neye mal olduklarını verir (bir çevirme piyangodur, bu yüzden şanslı bir pilot daha az, şanssız biri daha çok öder; garantinin izin verdiği en uzun çevirme dizisine kadar).
+Tablo her geçidin parça olarak maliyetini ve geçidin içinde bulunduğu kategoriyi çevirdiğinde **garantiyle** ortalama neye mal olduklarını verir (bir çevirme piyangodur, bu yüzden şanslı bir pilot daha az, şanssız biri daha çok öder; garantinin izin verdiği en uzun çevirme dizisine kadar).
 
 <!-- solo-parts:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | Geçit | Tamamlamak için parça | Çevirme başına parça şansı | Ortalama çevirme | Ortalama Thulium |
 | :--- | ---: | ---: | ---: | ---: |
-| **Chrono-Gate** | 2 | %2,17 | 91 | 9.093 |
-| **Alpha Rift** | 11 | %2,17 | 500 | 50.011 |
-| **Beta Breach** | 26 | %2,17 | 1.182 | 118.208 |
-| **Gamma Foundry** | 54 | %2,17 | 2.455 | 245.508 |
-| **Delta Siege** | 87 | %2,17 | 3.955 | 395.541 |
-| **Omega Vault** | 108 | %2,17 | 4.910 | 491.017 |
+| **Chrono-Gate** | 13 | %13 | 99 | 9.851 |
+| **Alpha Rift** | 14 | %4,33 | 318 | 31.825 |
+| **Beta Breach** | 33 | %4,33 | 750 | 75.016 |
+| **Gamma Foundry** | 68 | %4,33 | 1.546 | 154.579 |
+| **Delta Siege** | 96 | %6,5 | 1.455 | 145.486 |
+| **Omega Vault** | 119 | %6,5 | 1.803 | 180.343 |
 
 <!-- solo-parts:end -->
 
@@ -87,10 +87,10 @@ Chrono-Gate’in parçaları sıfırlamada sıfıra döner ve her sezon yeniden 
 Bir geçidi Galaksi Geçitleri sayfasında **inşa edersin** ve portalından **sıçrayarak** girersin. İnşa istasyondan yapılır, gemin kenetliyken, uçuş sırasında da: araç çubuğundaki geçit düğmesinin açtığı **Galaksi Geçitleri penceresi** sayfa gibi çevirir, inşa eder ve hedefi seçer. Şunlar gerekir:
 
 - geçidin parçaları: bunlar **inşa ederken bir kez** alınır ve reddedilen bir inşa hiçbir şey almaz;
-- açık başka bir solo turun olmaması: aynı anda tek turun olur ve bıraktığın bir tura, başka bir geçit inşa etmeden önce portalından yeniden girilir ya da tur bırakılır;
+- geçidin henüz inşa edilmemiş olması: **tüm** geçitleri aynı anda inşa edilmiş tutabilirsin, her birinin bir portalı olur ve aynı anda yalnızca birini oynarsın; inşa ettiğin bir geçide portalından yeniden girilir ya da geçit bırakılır, ancak sonra yeniden inşa edilebilir;
 - ana sunucu (geçit yalnızca ana sunucuda inşa edilir: bölgesel bir sunucuda önce üsse dönersin).
 
-İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin. Yalnızca **kendi** geçidini görürsün: aynı sektördeki diğer pilotların geçitlerinin portalları sana gösterilmez.
+İnşa edilen geçit, **ana sektöründe** (şirketine göre `M-1`, `T-1` ya da `G-1`) kendi adını taşıyan bir portal olarak durur ve Galaksi Geçitleri sayfası nerede olduğunu söyler. **Uçuşa çık, portala uç ve** diğer portallar gibi **sıçra**. İçeri girerken dünyanda boş bir yarık olmalı: her dünyada belli sayıda yarık vardır ve hepsi doluyken beklersin. Yalnızca **kendi** geçitlerini görürsün: aynı sektördeki diğer pilotların geçitlerinin portalları sana gösterilmez. Beş geçidin **hepsini aynı anda inşa edilmiş** tutabilirsin; her birinin kendi portalı vardır ve aynı anda yalnızca birini oynarsın: **bir arenadayken portallarından hiçbiri durmaz**, arenadan çıkınca geri gelirler.
 
 **Bölgesel sunucularda (Singapore, US East).** İnşa edilmiş bir geçit orada da oynanır. Geçidinin portalı, ana sunucuda olduğu gibi bölgesel bir sunucuda da ana sektöründe durur ve vardığında sana haber verilir. **Ondan sıçra, o sunucunun bir arenasına girersin**; gecikme ana sunucunun değil, o sunucunun gecikmesidir. Bölgesel bir sunucuda her dünyada yalnızca **iki arena** vardır, ana sunucuda çok daha fazlası var; ikisi de doluysa, ana sunucuda boş bir yarık beklediğin gibi beklersin. Turunu, parçalarını ve ödemeni tutan tek yer yine ana sunucudur: ödeme, ana sunucu turu saydığında, yani bitişinden birkaç saniye sonra cüzdanına ulaşır ve **uçuş penceresindeki cüzdan yanaştığında yetişir**. Bir sonraki tura ancak son tur sayıldıktan sonra girersin. Arenada bıraktığın tura portaldan yeniden girilir; vazgeçmek istersen bunu arenada ya da istasyonda yaparsın. Bölgesel bir sunucunun arenası kapalıysa portalı seni bunun yerine ana sunucuya geri götürür; orada yukarıdaki gibi geçidine uçuşa çıkarsın. Bölgesel bir sunucuda başka nelerin çalıştığı [Sunucular](/wiki/03-Mechanics/Servers.md) sayfasında.
 
@@ -104,7 +104,7 @@ Boş bir arenanın ortasına tek başına inersin. İçeride kimse sana saldıra
 4. **İsteğe bağlı bir dalga** devasa bir Seeker dalgasıdır; Delta Siege ve Omega Vault’un birer tane var. Geri sayımı sırasında atlayabilirsin: o zaman yapılmış sayılır ve **hiçbir şey** ödemez. Onunla savaşırsan öldürmeleri herhangi bir dalganınki gibi öder.
 5. **Son dalga patrondur.** Gövdesi düştükçe faz değiştirir ve her değişimde bir an hasar alamaz. Patron öldüğünde tur tamamlanır ve tamamlama ödülü hemen ödenir.
 
-**Canlar.** Bir ölüm bir can götürür ve seni, diğer ölümler gibi üssüne gönderir; tur sana saat işlemeden bekler. Tur açıkken ve sen arenanın dışındayken **geçidinin portalı ana sektöründe durur**; ondan sıçramak, **Devam et** gibi seni kalan canlarınla kayıtlı dalgaya geri götürür ve yeni parça istemez. Son canın gittiğinde deneme biter ama tur son geçilen dalgada açık kalır ve yeniden girmek canlarını yeniler. **Ayrıl**, bir oturum kapatma ya da dünya değişimi turu can kaybetmeden duraklatır. Sunucunun yeniden başlatılması da turunu açık tutar. **Pes et**, turdan vazgeçmektir: parçaları gider ve öldürdüğün uzaylılar oldukları gibi ödenir. **Devam et** yalnızca uçan bir gemiyle çalışır: bir ölümden sonra sonuç ekranındaki düğmesi, nedenini söyleyen bir satırla birlikte, yeniden doğana kadar bekler. Yeniden doğan gemi sınırlı bir gövdeyle döner; gövden yarının altındaysa sonuç ekranı seni uyarır, **Devam et** yine de seni olduğun gibi geri götürür. Üssündeki onarım gemileri seni aurasının içinde onarır.
+**Canlar.** Bir ölüm bir can götürür ve seni, diğer ölümler gibi üssüne gönderir; tur sana saat işlemeden bekler. Tur açıkken ve sen arenanın dışındayken **inşa ettiğin her geçidin portalı ana sektöründe durur**; bunlardan birinden sıçramak, **Devam et** gibi seni kalan canlarınla kayıtlı dalgaya geri götürür ve yeni parça istemez. Son canın gittiğinde deneme biter ama tur son geçilen dalgada açık kalır ve yeniden girmek canlarını yeniler. **Ayrıl**, bir oturum kapatma ya da dünya değişimi turu can kaybetmeden duraklatır. Sunucunun yeniden başlatılması da turunu açık tutar. **Pes et**, turdan vazgeçmektir: parçaları gider ve öldürdüğün uzaylılar oldukları gibi ödenir. **Devam et** yalnızca uçan bir gemiyle çalışır: bir ölümden sonra sonuç ekranındaki düğmesi, nedenini söyleyen bir satırla birlikte, yeniden doğana kadar bekler. Yeniden doğan gemi sınırlı bir gövdeyle döner; gövden yarının altındaysa sonuç ekranı seni uyarır, **Devam et** yine de seni olduğun gibi geri götürür. Üssündeki onarım gemileri seni aurasının içinde onarır.
 
 Her dünya aynı geçitle savaşır: uzaylıların gücü ve ödemesi uçtuğun dünyaya bağlı değildir.
 
@@ -174,11 +174,11 @@ Bir tamamlama tablosunu **bir kez**, patron öldüğü anda tek seferde öder: k
 | **Delta Siege** | 8.000.000 | 40.000 | 800.000 | 10.000 |
 | **Omega Vault** | 15.000.000 | 60.000 | 1.500.000 | 20.000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; cephane: Advanced Plasma ×20.000, Ultra Core ×5.000, Experimental Fusion Core ×20.000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; cephane: Advanced Plasma ×50.000, Ultra Core ×20.000, Experimental Fusion Core ×30.000
-- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; cephane: Advanced Plasma ×30.000, Ultra Core ×60.000, Experimental Fusion Core ×50.000
-- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; cephane: Advanced Plasma ×40.000, Ultra Core ×90.000, Experimental Fusion Core ×75.000
-- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; cephane: Advanced Plasma ×50.000, Ultra Core ×100.000, Experimental Fusion Core ×100.000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; cephane: Advanced Plasma ×15.000, Ultra Core ×3.750, Experimental Fusion Core ×15.000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; cephane: Advanced Plasma ×37.500, Ultra Core ×15.000, Experimental Fusion Core ×22.500
+- **Gamma Foundry**: Ship Fragment ×1.150, Nyxite ×1.000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; cephane: Advanced Plasma ×22.500, Ultra Core ×45.000, Experimental Fusion Core ×37.500
+- **Delta Siege**: Ship Fragment ×2.000, Nyxite ×1.750, Cataclysite ×1.500, Quorvium ×1.000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; cephane: Advanced Plasma ×30.000, Ultra Core ×67.500, Experimental Fusion Core ×56.250
+- **Omega Vault**: Ship Fragment ×3.250, Nyxite ×2.750, Cataclysite ×2.250, Quorvium ×1.600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; cephane: Advanced Plasma ×37.500, Ultra Core ×75.000, Experimental Fusion Core ×75.000
 - **Heartshards**: Bir sezonda her geçidin ilk tamamlanmasında 1; ayrıca her tamamlamada %5 ihtimalle 1 tane daha.
 
 <!-- solo-pay:end -->

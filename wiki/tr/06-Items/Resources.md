@@ -724,7 +724,7 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 
 **Nasıl elde edilir**
 
-- **Kara delik**: Tehlike Sektörü 4’ün ortasındaki kara deliğin olay ufkunu geçen bir [N.I.K.E.](/wiki/06-Items/Rockets.md) roketi yutulur ve delik, bölgesinin kenarında, merkezinden 3.050 ile 3.950 birim uzaklıkta, her biri en fazla 2 içeren sandıklarda **1, 2 veya 3** Dark Matter geri verir (ortalama 2). Sandıklar 60 saniye boyunca senin ve klanınındır, 240 saniye kalır. Yolunda bir gemiye rastlayan N.I.K.E. onun yerine o gemiye çarpar ve harcanır. Bkz. [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md) ve [Kara Delik](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **Kara delik**: Tehlike Sektörü 4’ün ortasındaki kara deliğin olay ufkunu geçen bir [N.I.K.E.](/wiki/06-Items/Rockets.md) roketi yutulur ve delik, bölgesinin kenarında, merkezinden 3.050 ile 3.950 birim uzaklıkta, her biri en fazla 1 içeren sandıklarda **1, 2 veya 3** Dark Matter geri verir (ortalama 2). Sandıklar 60 saniye boyunca senin ve klanınındır, 240 saniye kalır. Yolunda bir gemiye rastlayan N.I.K.E. onun yerine o gemiye çarpar ve harcanır. Bkz. [Dark Matter ve Dark Matter plakaları](/wiki/03-Mechanics/Dark-Matter.md) ve [Kara Delik](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - Dormant Swamp uzaylısı **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**: sezonun 11. gününden itibaren kutularının %5 kadarında 1–3 bulunur. Bataklığın topları altında yaşar.
 - **Bunun dışında**: Mağaza’da satılmaz.
 
@@ -833,14 +833,15 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 
 | Uzaylı | Sektörler | Düşürdükleri | Öldürme başına ortalama |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | %20 şansla 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | %5 şansla 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | %2 şansla 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | %1 şansla 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | %0,4 şansla 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | %40 şansla 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | %10 şansla 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | %4 şansla 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | %2 şansla 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | %0,8 şansla 1 | 0,01 |
 
 - **Solo geçitler**: Her tamamlamada Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
-- **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 3, 2 ve 2.
+- **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 12, 8 ve 8.
+- **Klan zindanı uzaylıları**: yukarıdaki tablodaki şansların 2 katıyla düşürürler.
 - **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
 - **Bunun dışında**: Mağaza’da satılmaz.
 
@@ -848,7 +849,7 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 
 - Demirhane yuvaları: boş bir yuvayı ayarlamak Echo Shard gerektirir.
 
-**Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 0,2; en yakın kaynak [Seeker](/wiki/04-Aliens/Seeker.md) (sektör 1), öldürme başına 0.
+**Nasıl toplanır**: [Crystalys](/wiki/04-Aliens/Crystalys.md) öldür (sektör 4): öldürme başına ortalama 0,4; en yakın kaynak [Seeker](/wiki/04-Aliens/Seeker.md) (sektör 1), öldürme başına 0,01.
 
 ### Lattice Shard
 

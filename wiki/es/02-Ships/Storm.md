@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ La Storm es un caza de cañón de cristal: la velocidad base más alta y la mayo
 
 | Diseño | Qué cambia |
 | :--- | :--- |
-| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, Blink |
-| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, Heal Pod |
-| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon |
+| **Storm NOTSUM** | -10 % de casco base, +50 de velocidad base, +2 % de velocidad, +5 % de daño total, Blink |
+| **Storm BRATAN** | -50 de velocidad base, +2 ranuras de láser, -25 % de capacidad de escudo, +10 % de penetración de escudo, +5 % de daño total, Heal Pod |
+| **Storm RECON** | -20 % de casco base, +5 % de velocidad, -1 ranura de láser, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

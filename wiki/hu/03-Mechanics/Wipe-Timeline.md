@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Wipe-idővonal -->
 # Wipe-idővonal és szezonok {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ A fel nem nyitott konténereidhez, a [különleges tárgyaidhoz](/wiki/06-Items/
 A **Chrono-Gate** (Galaxiskapunak is hívják) egy hatalmas szezonális építmény, amely hidat képez a szezonok között. A kapu megépítése és stabilizálása elengedhetetlen ahhoz, hogy megkapd a szezonok közötti átvitel szállítási jogosultságait. A Galaxiskapuk oldal hat kapuja közül az egyik: a másik öt a [szólókapuk](/wiki/03-Mechanics/Solo-Gates.md), olyan helyek, ahová beröpülsz, és az alkatrészeik ugyanabból az Energiamaterializálóból jönnek.
 
 ### A kapu összeállítása {#gate-assembly}
-A Chrono-Gate teljes stabilizálásához pontosan **2 Chrono-Gate-alkatrészt** kell összegyűjtened. A [Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) oldalon látod, mire van szüksége a hat kapu mindegyikének, és átlagosan mennyibe kerülnek az alkatrészeik.
+A Chrono-Gate teljes stabilizálásához pontosan **13 Chrono-Gate-alkatrészt** kell összegyűjtened. A [Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) oldalon látod, mire van szüksége a hat kapu mindegyikének, és átlagosan mennyibe kerülnek az alkatrészeik.
 
 ### Az Energiamaterializáló {#the-energy-materializer}
 Az alkatrészeket az Energiamaterializáló felületén szerzed, amely a helyi energiaszektorokat pörgeti, hogy megtalálja a kapu alkatrészeit. Csak **Thuliummal** pörget (a kredites pörgetés megszűnt):
-* **Thuliumos pörgetés**: pörgetésenként **100 Thulium**, **13% eséllyel** ad egy kapualkatrészt. Az alkatrész a hat kapu egyikéhez tartozik, véletlenszerűen választva, ezért nem mindig Chrono-Gate-alkatrész.
+* **Thuliumos pörgetés**: pörgetésenként **100 Thulium**, **13% eséllyel** ad egy kapualkatrészt. Te választod ki a pörgetett kategóriát (Chrono-Gate, Alpha–Gamma vagy Delta–Omega), és az alkatrész az egyik kapujához tartozik, mindegyik egyformán valószínű: Chrono-Gate-alkatrészt csak a Chrono-Gate kategóriája talál.
 * **A garancia.** Az alkatrész nélküli pörgetések hosszú sora nem tarthat örökké: néhány üres pörgetés után nő az esély, aztán az alkatrész biztos ([részletek](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Az alkatrész nélküli pörgetés** is fizet egy nyereményt ([Szólókapuk](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **A pörgetések folytatódnak, amikor a Chrono-Gate kész.** Minden pörgetés pénzbe kerül, és az általa talált alkatrészek ilyenkor a szólókapukéi. Az alkatrész esélye egyhatodával kisebb, mert a Chrono-Gate része kiesik belőle.
+* **A pörgetések folytatódnak, amikor a Chrono-Gate kész.** Minden pörgetés pénzbe kerül, és az általa talált alkatrészek ilyenkor a szólókapukéi: a Chrono-Gate gombja le van zárva, a másik két kategória pedig megtartja a 13%-os esélyét.
 
 *Profi tipp: szorzókkal (1×, 5×, 10×, 100×) tömeges pörgetést végezhetsz, és felgyorsíthatod a kapu építését.*
 
@@ -248,5 +248,7 @@ Csak azok a kilövések számítanak, amelyekért fizetést kapsz (lásd [Harc](
 **Küldetések.** Az első teljesített küldetés 5 WP-t fizet, utána minden 5. (az 5., 10., 15. és így tovább, a 100.-ig) további 5 WP-t, összesen 105 WP-t. Csak a szintküldetések számítanak (összesen 88, nem az állomásküldetések és nem a Kihívás-vonal, lásd [Küldetések](/wiki/03-Mechanics/Quests.md)), és az átdolgozott szintküldetés, amelyet újra megcsinálsz, nem számít kétszer. A 88, egyszer megcsinálva, 90 WP-t fizet. A küldetéseid a wipe után is teljesítve maradnak, ezért közvetlenül utána **a 90 WP újra átvehető**. Egy szintküldetés [Ismétlése](/wiki/03-Mechanics/Quests.md#repeating-missions) úgy számít, mint egy első teljesítés, küldetésenként és szezononként egyszer, a 100. küldetésig: aki mind a 88-at megcsinálta, annak 12 Ismétlése számít, és ezzel 15 WP-t nyer.
 
 **Dormant Knowledge.** A mérföldkövek mellett a [Kutatás](/wiki/03-Mechanics/Research.md#pilot-technologies) öt Dormant Knowledge technológiája 50-50 WP-t fizet, összesen 250-et. Egy szint akkor fizet, amikor a kutatása befejeződik, és minden wipe után **az általad kutatott szint újra átvehető** a WP-forrásokban. Az adminisztrátor által adott technológia nem fizet semmit.
+
+**A pilótakészségek szintjei.** Még egy forrás nem indul újra a wipe-nál: a [Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md) minden készsége egyszer fizet wipe-pontot, amikor először elér bizonyos szinteket (az oldal felsorolja őket). Ugyanott veheted át, ahol a többit, és nem részei az alábbi összegnek.
 
 **Összesen** a források egy wipe-ban legfeljebb **1 105 wipe-pontot** fizetnek: 750-et a kilövésekért, 105-öt a küldetésekért és 250-et a Dormant Knowledge-ért. A rangod a wipe-nál többet fizet ([Szezonok és jutalmak](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Sıfırlama zaman çizelgesi -->
 # Sıfırlama zaman çizelgesi ve sezonlar {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ Açılmamış konteynerlerine, [özel eşyalarına](/wiki/06-Items/Special-Items
 **Chrono-Gate** (Galaksi Geçidi olarak da anılır), sezonlar arasında köprü işlevi gören devasa bir sezonluk yapıdır. Bu geçidi inşa etmek ve dengelemek, sezonlar arası taşıma ayrıcalıklarının kilidini açmak için şarttır. Galaksi Geçitleri sayfasındaki altı geçitten biridir; diğer beşi içine uçtuğun yerlerdir ([solo geçitler](/wiki/03-Mechanics/Solo-Gates.md)) ve parçaları aynı Enerji Maddeleştirici’den çıkar.
 
 ### Geçit montajı {#gate-assembly}
-Chrono-Gate geçidini tamamen dengelemek için tam **2 Chrono-Gate parçası** toplaman gerekir. [Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) sayfası, altı geçidin her birinin neye ihtiyaç duyduğunu ve parçalarının ortalama maliyetini söyler.
+Chrono-Gate geçidini tamamen dengelemek için tam **13 Chrono-Gate parçası** toplaman gerekir. [Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) sayfası, altı geçidin her birinin neye ihtiyaç duyduğunu ve parçalarının ortalama maliyetini söyler.
 
 ### Enerji Maddeleştirici {#the-energy-materializer}
 Parçaları, yerel enerji sektörlerini çevirerek geçit parçalarını bulan Enerji Maddeleştirici arayüzüyle elde edersin. Yalnızca **Thulium** ile çalışır (kredi ile çevirme kapatıldı):
-* **Thulium çevirmesi**: çevirme başına **100 Thulium**, **%13 şansla** bir geçit parçası üretir. Parça, rastgele seçilen altı geçitten birine aittir; bu yüzden her zaman bir Chrono-Gate parçası olmaz.
+* **Thulium çevirmesi**: çevirme başına **100 Thulium**, **%13 şansla** bir geçit parçası üretir. Çevireceğin kategoriyi (Chrono-Gate, Alpha–Gamma ya da Delta–Omega) sen seçersin ve parça onun geçitlerinden birine aittir, hepsi eşit olasılıklıdır: Chrono-Gate parçalarını yalnızca Chrono-Gate’in kategorisi bulur.
 * **Garanti.** Parçasız çevirmelerden oluşan uzun bir dizi sonsuza kadar sürmez: birkaç boş çevirmeden sonra şans artar, ardından bir parça kesinleşir ([ayrıntılar](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Parçasız bir çevirme** de bir ödül verir ([Solo Geçitler](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Chrono-Gate tamamlandıktan sonra da çevirmeler sürer.** Her çevirme ücretlendirilir ve bulduğu parçalar artık solo geçitlerin parçalarıdır. Parça şansı altıda bir düşer, çünkü Chrono-Gate’in payı ondan çıkar.
+* **Chrono-Gate tamamlandıktan sonra da çevirmeler sürer.** Her çevirme ücretlendirilir ve bulduğu parçalar artık solo geçitlerin parçalarıdır: Chrono-Gate seçeneği kapanır, diğer iki kategori %13 şansını korur.
 
 *İpucu: Toplu çevirme yapmak ve geçit inşasını hızlandırmak için çarpanları (1x, 5x, 10x, 100x) kullanabilirsin.*
 
@@ -248,5 +248,7 @@ Yalnızca karşılığını aldığın öldürmeler sayılır (bkz. [Savaş](/wi
 **Görevler.** Tamamladığın ilk görev 5 WP öder, sonra her 5. görev (5., 10., 15. ve böyle devam ederek 100.’ye kadar) 5 WP daha öder, toplam 105 WP. Yalnızca seviye görevleri sayılır (toplam 88: istasyon görevleri ve meydan okuma hattı sayılmaz, bkz. [Görevler](/wiki/03-Mechanics/Quests.md)) ve yeniden düzenlenmiş bir seviye görevini tekrar yaparsan ikinci kez sayılmaz. Her biri bir kez yapılan 88 görev 90 WP öder. Görevlerin sıfırlamadan sonra da tamamlanmış kalır, bu yüzden hemen sonrasında **90 WP yeniden alınabilir**. Bir seviye görevinin [Tekrarı](/wiki/03-Mechanics/Quests.md#repeating-missions) ilk tamamlama gibi sayılır, görev ve sezon başına bir kez, 100. göreve kadar: 88’inin hepsini yapmış olanın 12 Tekrarı sayılır ve 15 WP kazanır.
 
 **Dormant Knowledge.** Kilometre taşlarına ek olarak, [Araştırma](/wiki/03-Mechanics/Research.md#pilot-technologies) sayfasındaki beş Dormant Knowledge teknolojisi her biri 50 WP, toplam 250 WP öder. Bir seviye, araştırması bittiğinde öder ve her sıfırlamadan sonra araştırmış olduğun bir seviye WP kaynaklarında **yeniden alınabilir**. Bir yöneticinin verdiği teknoloji hiçbir şey ödemez.
+
+**Pilot becerisi seviyeleri.** Bir kaynak daha sıfırlamada baştan başlamaz: [Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md) içindeki her beceri, belirli seviyelere ilk kez ulaştığında bir kez sıfırlama puanı verir (sayfa bunları listeler). Bunları diğerleriyle aynı yerden alırsın ve aşağıdaki toplama dahil değildirler.
 
 **Toplamda** kaynaklar bir sıfırlamada en fazla **1.105 sıfırlama puanı** öder: öldürmeler için 750, görevler için 105 ve Dormant Knowledge için 250. Rütben sıfırlamada daha fazlasını öder ([Sezonlar ve ödüller](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

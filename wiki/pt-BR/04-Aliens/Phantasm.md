@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: c83f8d8564862f06 -->
+<!-- wiki-i18n source: 6d3783229000ac9d -->
 <!-- wiki-i18n title: Phantasm -->
 # Phantasm
 
@@ -31,7 +31,7 @@ Para que serve cada item e onde mais encontrá-lo: [Recursos](/wiki/06-Items/Res
 - **Ship Fragment**: 100% de chance (Mín.: 1, Máx.: 1)
 - **Daraxium**: 60% de chance (Mín.: 1, Máx.: 2)
 - **Nyxite**: 60% de chance (Mín.: 1, Máx.: 2)
-- **Echo Shard**: 1% de chance (Mín.: 1, Máx.: 1)
+- **Echo Shard**: 2% de chance (Mín.: 1, Máx.: 1)
 
 ## História {#lore}
 

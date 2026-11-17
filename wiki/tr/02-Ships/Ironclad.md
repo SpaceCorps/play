@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Ironclad, ağır zırhlı bir tanktır: tüm gemiler arasında en kalın gövdey
 
 | Tasarım | Neyi değiştirir |
 | :--- | :--- |
-| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -3 lazer yuvası, +%10 kalkan soğurması, Focus Fire |
+| **Ironclad DUMA** | +%20 temel gövde, -20 temel hız, -2 lazer yuvası, +%15 kalkan soğurması, Focus Fire |
 | **Ironclad TITANIC** | +2 lazer yuvası, +1 çekirdek yuvası, +%20 kalkan, +%20 model boyutu, Blink |
 
 <!-- research-ship:begin -->

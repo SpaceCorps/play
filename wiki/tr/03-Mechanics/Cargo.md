@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Kargo -->
 # Kargo kutuları {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Kutunun ışıkları, içindeki en nadir eşyanın rengini alır: sıradan ganim
 ## Boosterlar {#boosters}
 
 - **Loot Luck Booster** (ayrıca kalıcı Luck Boost güçlendirmesi ve yanaştırdığın [P.E.T.’lerin](/wiki/03-Mechanics/Pets.md) şansı), öldürmeyi yaptığında her ganimet kaleminin düşme şansını artırır. [İçgüdü](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) becerin de bu şansa eklenir, boosterınkinin üstüne.
-- **Resource Magnet Booster**, öldürmeyi kim yapmış olursa olsun, elinle ya da Retriever birimiyle topladığın her kutudaki kaynaklara **%25** ekler. Dark Matter bunun dışındadır: Magnet ona hiçbir şey eklemez. Ona yalnızca kendi Antimatter yeteneğin ekleme yapar (100. seviyede en çok %25); o olmadan beş N.I.K.E. on Dark Matter eder.
+- **Resource Magnet Booster**, öldürmeyi kim yapmış olursa olsun, elinle ya da Retriever birimiyle topladığın her kutudaki kaynaklara **%25** ekler. Dark Matter bunun dışındadır: Magnet ona hiçbir şey eklemez. Ona yalnızca kendi Antimatter yeteneğin ekleme yapar (100. seviyede en çok %100); o olmadan beş N.I.K.E. on Dark Matter eder.

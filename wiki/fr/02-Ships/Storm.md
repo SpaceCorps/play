@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Le Storm est un chasseur à canon de verre : la vitesse de base la plus élevé
 
 | Design | Ce qu’il change |
 | :--- | :--- |
-| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, Blink |
-| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, Heal Pod |
-| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon |
+| **Storm NOTSUM** | -10 % de coque de base, +50 de vitesse de base, +2 % de vitesse, +5 % de dégâts totaux, Blink |
+| **Storm BRATAN** | -50 de vitesse de base, +2 emplacements laser, -25 % de capacité du bouclier, +10 % de pénétration du bouclier, +5 % de dégâts totaux, Heal Pod |
+| **Storm RECON** | -20 % de coque de base, +5 % de vitesse, -1 emplacement laser, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

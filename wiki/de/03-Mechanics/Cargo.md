@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Frachtkisten -->
 # Frachtkisten {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Die Beute eines [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) i
 ## Booster {#boosters}
 
 - **Loot Luck Booster** (und der dauerhafte Buff Glücks-Boost sowie das Glück deiner angedockten [P.E.T.s](/wiki/03-Mechanics/Pets.md)) erhöhen die Chance jedes Beute-Eintrags, wenn der Schütze den Abschuss macht. Auch deine Fertigkeit [Instinkt](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) erhöht diese Chance, zusätzlich zu der des Boosters.
-- **Resource Magnet Booster** fügt den Ressourcen in jeder Kiste, die du einsammelst, **25 %** hinzu, von Hand oder mit einem Retriever, egal wer den Abschuss gemacht hat. Dark Matter ist die Ausnahme: Der Magnet fügt ihm nichts hinzu. Nur deine eigene Fähigkeit Antimatter fügt Dark Matter hinzu (bis zu +25 % auf Stufe 100); ohne sie sind fünf N.I.K.E.s zehn Dark Matter.
+- **Resource Magnet Booster** fügt den Ressourcen in jeder Kiste, die du einsammelst, **25 %** hinzu, von Hand oder mit einem Retriever, egal wer den Abschuss gemacht hat. Dark Matter ist die Ausnahme: Der Magnet fügt ihm nichts hinzu. Nur deine eigene Fähigkeit Antimatter fügt Dark Matter hinzu (bis zu +100 % auf Stufe 100); ohne sie sind fünf N.I.K.E.s zehn Dark Matter.

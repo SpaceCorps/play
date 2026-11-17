@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ Ironclad 是一艘重装甲坦克型舰船：船体是所有舰船中最厚的�
 
 | 设计 | 改变了什么 |
 | :--- | :--- |
-| **Ironclad DUMA** | 基础船体 +20%，基础速度 -20，激光槽位 -3，护盾吸收率 +10%，Focus Fire |
+| **Ironclad DUMA** | 基础船体 +20%，基础速度 -20，激光槽位 -2，护盾吸收率 +15%，Focus Fire |
 | **Ironclad TITANIC** | 激光槽位 +2，核心槽位 +1，护盾容量 +20%，模型尺寸 +20%，Blink |
 
 <!-- research-ship:begin -->

@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Kozmetikler -->
 # Kozmetikler {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; görünüm; görünümler; kaplama; gardırop; egzoz; boya; koleksiyon; kozmetik -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; görünüm; görünümler; kaplama; gardırop; egzoz; boya; koleksiyon; kozmetik -->
 
 Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **skin** (gövdenin boyası), bir **aura** (geminin çevresinde yumuşak bir parıltı ve bir ışık halkası), bir **egzoz** (motorlarının arkasındaki izin rengi ve biçimi) ve dronlarının **kaplaması**. Görünüm yalnızca gösteriş içindir: hasar, gövde ya da hız eklemez, yuva kaplamaz ve bir merminin isabet edebileceği hiçbir şeyi değiştirmez.
 
@@ -22,24 +22,25 @@ Bir **görünüm**, geminin giydiği şeydir. Dört parçası vardır: bir **ski
 
 ## Skinler {#skins}
 
-Skin, geminin kendi gövdesinden yapılmış bir boya düzenidir: panel çizgileri, numaralar ve şeritler kalır, yalnızca renkler değişir. Tek bir **gemi modeli** içindir; aynı skini o modelden sahip olduğun her gemi ve ondan yapılmış her [tasarım](/wiki/03-Mechanics/Ship-Designs.md) giyer; dönüştürme görünümü korur. Protos gemisinin henüz skini yok; Kitefin, Ostirion ve Nomad gemilerinin bir koleksiyonu var, Montaj’da ürettiğin dört geminin ise on koleksiyonun tamamı var.
+Skin, geminin kendi gövdesinden yapılmış bir boya düzenidir: panel çizgileri, numaralar ve şeritler kalır, yalnızca renkler değişir. Tek bir **gemi modeli** içindir; aynı skini o modelden sahip olduğun her gemi ve ondan yapılmış her [tasarım](/wiki/03-Mechanics/Ship-Designs.md) giyer; dönüştürme görünümü korur. Protos gemisinin henüz skini yok; Kitefin, Ostirion ve Nomad gemilerinin bir koleksiyonu var, Montaj’da ürettiğin dört geminin ve Miyuki’nin ise on bir koleksiyonun tamamı var. Miyuki’nin bir skini beş seviyesinin hepsinde giyilir.
 
 Skinler bir gemiye değil, **hesabına** aittir ve [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) boyunca kalır; gemilerin giydiklerini giymeye devam eder.
 
-[Kroma Arşivi](/wiki/06-Items/Containers.md#chroma-archive) Bloody R.E.D dışındaki her koleksiyonu verebilir, her seferinde bir skin: koleksiyon ödülü o koleksiyondan bir skin verir, bir gemi modeli için. Koleksiyonda aktif gemin için bir skin varsa ve sende yoksa o skindir; yoksa sahip olduğun başka bir geminin skini; o da yoksa koleksiyonun sende olmayan ilk skini. Yani bir Arşiv açarken skinini istediğin gemiyi kullan. Tüm skinlerine sahip olana kadar koleksiyon yeniden çıkabilir. 0.5.7’den önce bütün olarak gelen bir koleksiyon, tüm skinleriyle senin kalır.
+[Kroma Arşivi](/wiki/06-Items/Containers.md#chroma-archive) Bloody R.E.D ve LOU dışındaki her koleksiyonu verebilir, her seferinde bir skin: koleksiyon ödülü o koleksiyondan bir skin verir, bir gemi modeli için. Koleksiyonda aktif gemin için bir skin varsa ve sende yoksa o skindir; yoksa sahip olduğun başka bir geminin skini; o da yoksa koleksiyonun sende olmayan ilk skini. Yani bir Arşiv açarken skinini istediğin gemiyi kullan. Tüm skinlerine sahip olana kadar koleksiyon yeniden çıkabilir. 0.5.7’den önce bütün olarak gelen bir koleksiyon, tüm skinleriyle senin kalır.
 
 | Koleksiyon | Gemiler | Nadirlik | Nasıl görünür |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Nadir | Turuncu parçalı, kar beyazı bir gövde |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Seyrek | Tüm gövde şirketinin renginde: Mars için kırmızı, Terra için yeşil, Galactic için mor. Şirket değiştirirsen o da seninle değişir |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mitik | Siyah ve kan kırmızısı; gövdenin ortasında koyu bir rozetin üzerinde klanın logosu |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Destansı | Yılbaşı gecesi ve yılbaşı günü: gümüş ve şampanya rengi şeritli, gece laciverti bir gövde ve bir şampanya kadehi |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Destansı | Dünya Günü: okyanus mavisi üzerinde yeşil karalar ve küçük bir yerküre |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Destansı | Dünya Kadınlar Günü: mor şeritli limon sarısı ve bir çiçek |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Destansı | Uluslararası Barış Günü: zeytin yeşili şeritli gök mavisi ve beyaz bir barış işareti |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Nadir | Ekinokslar ve gündönümleri: altın rengi bir güneşli, koyu petrol mavisi bir gövde |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Destansı | Dünya Sağlık Günü ve Dünya Ruh Sağlığı Günü: neon yeşili bir kalp atışlı, yeşilimsi siyah bir gövde |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Destansı | Cadılar Bayramı: turuncu detaylı kömür grisi, yıldızlı bir ay |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Nadir | Turuncu parçalı, kar beyazı bir gövde |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Seyrek | Tüm gövde şirketinin renginde: Mars için kırmızı, Terra için yeşil, Galactic için mor. Şirket değiştirirsen o da seninle değişir |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitik | Siyah ve kan kırmızısı; gövdenin ortasında koyu bir rozetin üzerinde klanın logosu |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitik | LOU klanının skini, oyun ekibi üyelerine verir: Bloody R.E.D gibi siyah, koyu mor parçalı ve logosuz |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Yılbaşı gecesi ve yılbaşı günü: gümüş ve şampanya rengi şeritli, gece laciverti bir gövde ve bir şampanya kadehi |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Dünya Günü: okyanus mavisi üzerinde yeşil karalar ve küçük bir yerküre |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Dünya Kadınlar Günü: mor şeritli limon sarısı ve bir çiçek |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Uluslararası Barış Günü: zeytin yeşili şeritli gök mavisi ve beyaz bir barış işareti |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Nadir | Ekinokslar ve gündönümleri: altın rengi bir güneşli, koyu petrol mavisi bir gövde |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Dünya Sağlık Günü ve Dünya Ruh Sağlığı Günü: neon yeşili bir kalp atışlı, yeşilimsi siyah bir gövde |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Destansı | Cadılar Bayramı: turuncu detaylı kömür grisi, yıldızlı bir ay |
 
 ## Dron kaplamaları {#drone-liveries}
 

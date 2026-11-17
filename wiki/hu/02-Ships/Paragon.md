@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ A Paragon nehéz harci cirkáló, amelyet kiegyensúlyozott védelemre és táma
 
 | Dizájn | Mit változtat |
 | :--- | :--- |
-| **Paragon THUNDER** | -25% alap hajótest, +40 alap sebesség, +1 lézerfoglalat |
-| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, -1 lézerfoglalat, +10% pajzselnyelés, +20% modellméret |
+| **Paragon THUNDER** | +40 alap sebesség, +1 lézerfoglalat |
+| **Paragon BUCKY** | +25% alap hajótest, -20 alap sebesség, +10% pajzselnyelés, +20% modellméret |
 | **Paragon LICH** | +1% pajzsregeneráció másodpercenként |
 
 <!-- research-ship:begin -->

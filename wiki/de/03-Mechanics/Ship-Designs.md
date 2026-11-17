@@ -1,10 +1,10 @@
-<!-- wiki-i18n source: 55892b3d4fff5a5c -->
+<!-- wiki-i18n source: 522d6b0bd8a4106c -->
 <!-- wiki-i18n title: Schiffsdesigns -->
 # Schiffsdesigns {#ship-designs}
 
 <!-- wiki-search: design; designs; refit; convert; conversion; thunder; bucky; lich; notsum; bratan; recon; duma; titanic; raptor; billy; menati; ataraxis; matt; umbau; umbauen; umwandlung; schiffsdesign -->
 
-Ein **Design** ist eines der vier Schiffe, die du in der Montage baust, mit ein paar absichtlich geänderten Werten: weniger Hülle für mehr Tempo, ein Laser-Slot weniger für härtere Schilde. Neun der dreizehn Designs haben außerdem eine von sieben [Fähigkeiten](/wiki/03-Mechanics/Abilities.md#ship-abilities), die das normale Schiff nicht hat. Ein Design erforschst du im Skylab und baust dann ein Schiff, das dir gehört, in der Montage darauf um. **Der Umbau lässt sich nicht rückgängig machen.**
+Ein **Design** ist eines der vier Schiffe, die du in der Montage baust, mit ein paar absichtlich geänderten Werten: weniger Hülle für mehr Tempo, ein Laser-Slot weniger für härtere Schilde. Neun der dreizehn Designs haben außerdem eine von sieben [Fähigkeiten](/wiki/03-Mechanics/Abilities.md#ship-abilities), die das normale Schiff nicht hat. Die Storm RECON hat neben ihrem Chameleon noch zwei weitere Schaltflächen: Target und Slow. Ein Design erforschst du im Skylab und baust dann ein Schiff, das dir gehört, in der Montage darauf um. **Der Umbau lässt sich nicht rückgängig machen.**
 
 ## Die dreizehn Designs {#the-thirteen-designs}
 
@@ -12,13 +12,13 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 
 | Design | Was es ändert | Hülle | Grundtempo | Laser-Slots |
 | :--- | :--- | ---: | ---: | ---: |
-| **Paragon THUNDER** | -25 % Basis-Hülle, +40 Basis-Tempo, +1 Laser-Slot | 96.000 | 310 | 11 |
-| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, -1 Laser-Slot, +10 % Schildabsorption, +20 % Modellgröße | 160.000 | 250 | 9 |
+| **Paragon THUNDER** | +40 Basis-Tempo, +1 Laser-Slot | 128.000 | 310 | 11 |
+| **Paragon BUCKY** | +25 % Basis-Hülle, -20 Basis-Tempo, +10 % Schildabsorption, +20 % Modellgröße | 160.000 | 250 | 10 |
 | **Paragon LICH** | +1 % Schildregeneration pro Sekunde | 128.000 | 270 | 10 |
-| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink | 162.000 | 400 | 15 |
-| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod | 180.000 | 300 | 17 |
-| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon | 144.000 | 350 | 14 |
-| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -3 Laser-Slots, +10 % Schildabsorption, Focus Fire | 600.000 | 80 | 5 |
+| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, +5 % Gesamtschaden, Blink | 162.000 | 400 | 15 |
+| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, +5 % Gesamtschaden, Heal Pod | 180.000 | 300 | 17 |
+| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon, Target, Slow | 144.000 | 350 | 14 |
+| **Ironclad DUMA** | +20 % Basis-Hülle, -20 Basis-Tempo, -2 Laser-Slots, +15 % Schildabsorption, Focus Fire | 600.000 | 80 | 6 |
 | **Ironclad TITANIC** | +2 Laser-Slots, +1 Kern-Slot, +20 % Schildkapazität, +20 % Modellgröße, Blink | 500.000 | 100 | 10 |
 | **Wraith RAPTOR** | +1 Laser-Slot, +5 % Gesamtschaden, Venom | 256.000 | 210 | 14 |
 | **Wraith BILLY** | +5 % Basis-Hülle, +10 % Schildkapazität, Diminisher | 268.800 | 210 | 13 |
@@ -34,8 +34,8 @@ Die letzten drei Spalten zeigen, was das umgebaute Schiff hat: seine eigene Hül
 
 | Design | Thulium | Dark Matter Plate | Ship Fragment | Reinforced Hull Plate | Power Core | Ancient Control Unit |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
-| **Paragon THUNDER** | 50.000 | 4 | 30 | 5 | 2 | – |
-| **Paragon BUCKY** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon THUNDER** | 50.000 | 5 | 30 | 5 | 2 | – |
+| **Paragon BUCKY** | 50.000 | 6 | 30 | 5 | 2 | – |
 | **Paragon LICH** | 50.000 | 4 | 30 | 5 | 2 | – |
 | **Storm NOTSUM** | 100.000 | 25 | 250 | 45 | 15 | 3 |
 | **Storm BRATAN** | 100.000 | 25 | 250 | 45 | 15 | 3 |
@@ -68,7 +68,7 @@ Zusammen verlangen sie 510 Dark Matter zusätzlich zu den 979, die alle anderen 
 ## Was mit deinem Schiff geschieht {#what-happens-to-your-ship}
 
 - **Es bleibt dasselbe Schiff.** Der Umbau ändert es an Ort und Stelle: Seine Ausrüstung, seine Panzerungen, deine Drohnen und die Formation, die du trägst, bleiben, wie sie sind.
-- **Laser können ihren Slot verlieren.** Ein Design mit weniger Laser-Slots (BUCKY, RECON, DUMA, ATARAXIS) schickt die Laser der wegfallenden Slots samt ihren Verstärkern und ihren Schmiedewürfen zurück in dein Inventar. Ein neuer Slot kommt leer.
+- **Laser können ihren Slot verlieren.** Ein Design mit weniger Laser-Slots (RECON, DUMA, ATARAXIS) schickt die Laser der wegfallenden Slots samt ihren Verstärkern und ihren Schmiedewürfen zurück in dein Inventar. Ein neuer Slot kommt leer.
 - **Volle Hülle und volle Schilde**, wenn er fertig ist. Bis dahin ist das Schiff gesperrt: Es lässt sich nicht aktiv setzen, nicht ausrüsten und nicht noch einmal umbauen.
 - **Es gibt keinen Weg zurück.** Für ein anderes Design oder wieder das normale Schiff baust du das Schiff in der Montage noch einmal. Du besitzt ein Schiff jeder Art, also können dir eine Paragon und ein THUNDER gleichzeitig gehören, aber nicht zwei THUNDER.
 - **Der Wipe** behält ein Design wie jedes andere Schiff, das dir gehört. Ein Umbau, der noch läuft, wird abgebrochen und zurückerstattet wie jede Herstellung in deiner Produktionswarteschlange: Das Schiff bleibt, wie es war.

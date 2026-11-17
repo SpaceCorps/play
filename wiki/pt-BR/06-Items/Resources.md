@@ -724,7 +724,7 @@ O minério de um lote é calculado para o lote inteiro, arredondado para cima, e
 
 **Como obter**
 
-- **O buraco negro**: um foguete [N.I.K.E.](/wiki/06-Items/Rockets.md) que cruza o horizonte de eventos do buraco negro no meio do Setor de perigo 4 é engolido, e o buraco devolve **1, 2 ou 3** de Dark Matter (2 em média) em caixas de no máximo 2 na borda da sua zona, de 3.050 a 3.950 unidades do centro dele. As caixas são suas e do seu clã por 60 segundos e duram 240 segundos. Um N.I.K.E. que encontra uma nave no caminho a atinge em vez disso e é consumido. Veja [Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) e [O buraco negro](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **O buraco negro**: um foguete [N.I.K.E.](/wiki/06-Items/Rockets.md) que cruza o horizonte de eventos do buraco negro no meio do Setor de perigo 4 é engolido, e o buraco devolve **1, 2 ou 3** de Dark Matter (2 em média) em caixas de no máximo 1 na borda da sua zona, de 3.050 a 3.950 unidades do centro dele. As caixas são suas e do seu clã por 60 segundos e duram 240 segundos. Um N.I.K.E. que encontra uma nave no caminho a atinge em vez disso e é consumido. Veja [Dark Matter e Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) e [O buraco negro](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** do Dormant Swamp: a partir do dia 11 da temporada, 5% das suas caixas contêm 1–3. Ela vive sob os canhões do pântano.
 - **Fora isso**: não é vendido na Loja.
 
@@ -833,14 +833,15 @@ O minério de um lote é calculado para o lote inteiro, arredondado para cima, e
 
 | Alienígena | Setores | Drops | Por abate, em média |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20%: 1 | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5%: 1 | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2%: 1 | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1%: 1 | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4%: 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40%: 1 | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10%: 1 | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4%: 1 | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%: 1 | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8%: 1 | 0,01 |
 
 - **Portões solo**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 a cada conclusão.
-- **Masmorras do clã**: 3, 2 e 2 com uma conclusão paga da etapa 1, 2 e 3.
+- **Masmorras do clã**: 12, 8 e 8 com uma conclusão paga da etapa 1, 2 e 3.
+- **Alienígenas das masmorras do clã**: eles o soltam com 2 vezes as chances da tabela acima.
 - **Sorte e o Resource Magnet Booster**: Nenhum dos dois o aumenta. Nunca pode ser colocado no Leilão.
 - **Fora isso**: não é vendido na Loja.
 
@@ -848,7 +849,7 @@ O minério de um lote é calculado para o lote inteiro, arredondado para cima, e
 
 - Os encaixes da Forja: sintonizar um encaixe vazio custa Echo Shards.
 
-**Como farmar**: destrua [Crystalys](/wiki/04-Aliens/Crystalys.md) (setor 4): 0,2 por abate em média; a fonte mais próxima é [Seeker](/wiki/04-Aliens/Seeker.md), em setor 1, com 0 por abate.
+**Como farmar**: destrua [Crystalys](/wiki/04-Aliens/Crystalys.md) (setor 4): 0,4 por abate em média; a fonte mais próxima é [Seeker](/wiki/04-Aliens/Seeker.md), em setor 1, com 0,01 por abate.
 
 ### Lattice Shard
 

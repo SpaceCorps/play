@@ -724,7 +724,7 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 
 **Így szerezheted meg**
 
-- **A feketelyuk**: a Veszélyes szektor 4 közepén lévő feketelyuk eseményhorizontját átlépő [N.I.K.E.](/wiki/06-Items/Rockets.md) rakétát a lyuk elnyeli, és **1, 2 vagy 3** Dark Mattert ad vissza (átlagosan 2) a zónája peremén lévő ládákban, amelyek egyenként legfeljebb 2 Dark Mattert tartalmaznak, a középponttól 3 050–3 950 egységre. A ládák 60 másodpercig a tieid és a klánodé, és 240 másodpercig maradnak meg. Az a N.I.K.E., amely útközben hajóval találkozik, ehelyett azt találja el, és elhasználódik. Lásd: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) és [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **A feketelyuk**: a Veszélyes szektor 4 közepén lévő feketelyuk eseményhorizontját átlépő [N.I.K.E.](/wiki/06-Items/Rockets.md) rakétát a lyuk elnyeli, és **1, 2 vagy 3** Dark Mattert ad vissza (átlagosan 2) a zónája peremén lévő ládákban, amelyek egyenként legfeljebb 1 Dark Mattert tartalmaznak, a középponttól 3 050–3 950 egységre. A ládák 60 másodpercig a tieid és a klánodé, és 240 másodpercig maradnak meg. Az a N.I.K.E., amely útközben hajóval találkozik, ehelyett azt találja el, és elhasználódik. Lásd: [Dark Matter és Dark Matter Plate-ek](/wiki/03-Mechanics/Dark-Matter.md) és [A feketelyuk](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - A Dormant Swamp **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)**-e: a szezon 11. napjától ládáinak 5% része tartalmaz 1–3 egységet. A mocsár lövegei alatt él.
 - **Egyébként**: a Boltban nem kapható.
 
@@ -833,14 +833,15 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 
 | Idegen | Szektorok | Zsákmány | Kilövésenként, átlagosan |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% eséllyel 1 db | 0,2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% eséllyel 1 db | 0,05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% eséllyel 1 db | 0,02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% eséllyel 1 db | 0,01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,4% eséllyel 1 db | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40% eséllyel 1 db | 0,4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10% eséllyel 1 db | 0,1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4% eséllyel 1 db | 0,04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% eséllyel 1 db | 0,02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8% eséllyel 1 db | 0,01 |
 
 - **Szólókapuk**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 minden teljesítéskor.
-- **Klánkazamaták**: 3, 2 és 2 az 1., 2. és 3. szint fizetett teljesítésekor.
+- **Klánkazamaták**: 12, 8 és 8 az 1., 2. és 3. szint fizetett teljesítésekor.
+- **Klánkazamaták idegenjei**: a fenti táblázat esélyeinek 2-szeresével ejtik el.
 - **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
 - **Egyébként**: a Boltban nem kapható.
 
@@ -848,7 +849,7 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 
 - A Kovácsműhely foglalatai: egy üres foglalat behangolása Echo Shardokba kerül.
 
-**Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 0,2; a legközelebbi forrás: [Seeker](/wiki/04-Aliens/Seeker.md) (szektor: 1), kilövésenként 0.
+**Így farmolhatod**: [Crystalys](/wiki/04-Aliens/Crystalys.md) kilövése (szektor: 4): kilövésenként átlagosan 0,4; a legközelebbi forrás: [Seeker](/wiki/04-Aliens/Seeker.md) (szektor: 1), kilövésenként 0,01.
 
 ### Lattice Shard
 

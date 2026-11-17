@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: b55105fb2734e319 -->
+<!-- wiki-i18n source: 18ef5043e15eb94e -->
 <!-- wiki-i18n title: Ironclad -->
 # Ironclad
 
@@ -32,7 +32,7 @@ L’Ironclad est un tank lourdement blindé : la coque la plus épaisse de tous
 
 | Design | Ce qu’il change |
 | :--- | :--- |
-| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -3 emplacements laser, +10 % d’absorption du bouclier, Focus Fire |
+| **Ironclad DUMA** | +20 % de coque de base, -20 de vitesse de base, -2 emplacements laser, +15 % d’absorption du bouclier, Focus Fire |
 | **Ironclad TITANIC** | +2 emplacements laser, +1 emplacement principal, +20 % de capacité du bouclier, +20 % de taille du modèle, Blink |
 
 <!-- research-ship:begin -->

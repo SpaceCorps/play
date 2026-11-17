@@ -84,13 +84,13 @@ Bygger på Crystalys med 625 % av skrovet; inget vapen, och sköld och hastighe
 
 ### Facet
 
-Bygger på Seeker med 2 500 % av skrovet och 309 % av laserskadan; sköld, hastighet och räckvidd är egna.
+Bygger på Seeker med 2 500 % av skrovet och 463 % av laserskadan; sköld, hastighet och räckvidd är egna.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Skrov | 20 000 | 30 000 | 40 000 |
 | Sköld | 16 000 | 24 000 | 32 000 |
-| Laserskada (en salva per sekund) | 556 | 834 | 1 112 |
+| Laserskada (en salva per sekund) | 834 | 1 251 | 1 668 |
 | Hastighet | 750 | 750 | 750 |
 | Laserräckvidd | 600 | 600 | 600 |
 | Aggroradie | bara när den attackeras | bara när den attackeras | bara när den attackeras |

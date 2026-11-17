@@ -82,13 +82,13 @@ Built from the Crystalys at 625% of its hull; it has no weapon, and its shield a
 
 ### Facet
 
-Built from the Seeker at 2,500% of its hull and 309% of its laser damage; its shield, speed and range are its own.
+Built from the Seeker at 2,500% of its hull and 463% of its laser damage; its shield, speed and range are its own.
 
 | | Alpha | Beta | Gamma |
 | :--- | ---: | ---: | ---: |
 | Hull | 20,000 | 30,000 | 40,000 |
 | Shield | 16,000 | 24,000 | 32,000 |
-| Laser damage (a volley a second) | 556 | 834 | 1,112 |
+| Laser damage (a volley a second) | 834 | 1,251 | 1,668 |
 | Speed | 750 | 750 | 750 |
 | Laser range | 600 | 600 | 600 |
 | Aggro radius | only when attacked | only when attacked | only when attacked |

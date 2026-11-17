@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -30,6 +30,7 @@ Válassz egy tárgyat, és a panel megmutatja a fokozatát, az elérendő fokoza
 - **A Commerce készséged** a 100. szinten legfeljebb 15%-kal csökkenti egy lépés kreditjét és Thuliumát, valamint egy összevonás kreditjét ([Pilótakészségek](/wiki/03-Mechanics/Pilot-Skills.md)). A táblázat az első szint árát mutatja, a panel azt, amit fizetsz; az anyagok nem változnak.
 - **A tárgy minden bónusza** újra kisorsolódik az új fokozat tartományában, és megmarad a jobb érték. Az eredmény a panel fölött jelenik meg; a tárgy kijelölve marad, így a következő lépése már a képernyőn van.
 - A fokozatemelés azonnali.
+- **A foglalatok a lépés alatt vannak.** A Fokozatemelés és a [Foglalatok](#sockets) egy nézet, a **Fejlesztés**, elöl a Fokozatemeléssel: a foglalat, amelyet egy lépés felébreszt, rögtön a gomb alatt van a listában, a Behangolás gombjával, így sehová sem kell átváltanod, hogy használd.
 - **A Tinkerer's Badge** (egy [különleges tárgy](/wiki/06-Items/Special-Items.md#tinkerers-badge)) egy darabot egy fokozattal feljebb emel kredit, Thulium és anyag nélkül, már Normálról indulva. Ez egy lépés, ami semmibe sem kerül: felébreszt egy foglalatot, és újradobja a darab bónuszait, akárcsak egy fizetett lépés.
 
 ### Dark Matter Plate-ek {#dark-matter-plates}
@@ -74,7 +75,7 @@ A kristályok a fokozatokat követik: a Daraxium kék, mint az Ébredő, a Nyxit
 
 ## Foglalatok {#sockets}
 
-A Kovácsműhely **Foglalatok** nézete az a hely, ahol egy bónusz bekerül egy tárgyba. Válassz egy darabot, és a nézet felsorolja a foglalatait, az integritását és a nálad lévő shardokat. Egy foglalat **zárolt**, amíg egy fokozatemelés fel nem ébreszti (a sora megmondja, melyik fokozatnál és melyik kristály lépésével), **üres**, amint ébren van, és **behangolt**, ha bónuszt hordoz. A Fokozatemelés panel megszámolja őket: *Ébren lévő foglalatok 1 → 2 / 4*.
+A Kovácsműhely **Fejlesztés** nézetének **Foglalatok** blokkja, a Fokozatemelés alatt, az a hely, ahol egy bónusz bekerül egy tárgyba. Válassz egy darabot, és a blokk felsorolja a foglalatait, az integritását és a nálad lévő shardokat. Egy foglalat **zárolt**, amíg egy fokozatemelés fel nem ébreszti (a sora megmondja, melyik fokozatnál és melyik kristály lépésével), **üres**, amint ébren van, és **behangolt**, ha bónuszt hordoz. A Fokozatemelés blokk megszámolja őket: *Ébren lévő foglalatok 1 → 2 / 4*.
 
 - **Hangolj be** egy üres foglalatot **Echo Shardokkal**: egy darab első foglalatához 10-et, aztán 20-at, 40-et és 80-at, vagyis az ár minden behangolt foglalattal nő (minden további üres foglalat elhalványított ára megmondja, mennyibe fog kerülni). A shardok akkor fogynak el, amikor a Behangolásra nyomsz, és a Kovácsműhely ekkor egy **ajánlatot** tár eléd: a még szabad értékek közül kettőt, véletlenszerűen kihúzva, mindegyik mellett a bónusszal, amelyet adna. **Válassz** egyet: azt kapod, amit az ajánlat mutatott. Ha már csak egy érték maradt szabadon, mindkét sor ennek az értéknek egy-egy dobása, és egyformán is kijöhetnek.
 - Egy **Heartshard** hozzáadható egy behangoláshoz vagy újrarendezéshez: előbb kapcsold be a *Heartshard használata a következő behangoláskor vagy újrarendezéskor* lehetőséget, és az ajánlat helyette a darab minden szabad értékét felsorolja, mindegyiket a tartománya felső felében kisorsolva, így te választod ki az értéket.
@@ -95,13 +96,13 @@ Egy darab mind a négy foglalatának behangolása 150 Echo Shardba kerül (10 + 
 | Szólókapu: Gamma Foundry | 18 | 27 |
 | Szólókapu: Delta Siege | 29 | 44 |
 | Szólókapu: Omega Vault | 34 | 54 |
-| Klánkazamata: 1. szint | 3 | 5 |
-| Klánkazamata: 2. szint | 2 | 6 |
-| Klánkazamata: 3. szint | 2 | 7 |
+| Klánkazamata: 1. szint | 12 | 5 |
+| Klánkazamata: 2. szint | 8 | 6 |
+| Klánkazamata: 3. szint | 8 | 7 |
 
 - A **szólókapuk** minden teljesítéskor fizetik a shardjaikat, a **klánkazamaták** egy szint minden fizetett teljesítésekor.
 - A **Heartshardok** az egyes kapuk és kazamataszintek első teljesítésével járnak egy évadban (1), és 5% eséllyel még 1 jár minden teljesítéskor. A ritka NPC-k is ejtik őket: Davidski 10%, Dormant Force és Tesseract 5%. A többit az [Erőforrások](/wiki/06-Items/Resources.md#heartshard) oldal mutatja.
-- Az **idegenek** csak Echo Shardokat ejtenek, és keveset: a Seekernél 0,4%-tól a Crystalysnál 20%-ig ölésenként ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- Az **idegenek** csak Echo Shardokat ejtenek, és keveset: a Seekernél 0,8%-tól a Crystalysnál 40%-ig ölésenként ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Összevonás {#merge}
 
@@ -113,7 +114,7 @@ Ugyanannak a tárgynak két példánya (két Light Shield Core, két Quantum Las
 - **Az összevonás kreditbe kerül, a létrehozott fokozat szerint**: 5 000 az Ébredőhöz, 25 000 a Rezonánshoz, 100 000 a Sugárzóhoz, 250 000 a Felemelkedetthez. Nyersanyag nem kell. A Commerce készséged ugyanúgy csökkenti a kreditet, mint egy lépésnél.
 - Azt az összevonást, amely semmin sem változtatna (az eredmény nem jobb az alapnál), elutasítja a játék. Az önmagában jobb integritás nem számít: az összevonás nem javítás.
 - **Integritás.** Az eredmény integritása a két darab integritásának átlaga (lefelé kerekítve) mínusz 6, de sosem kevesebb 0-nál, az újrarendezéseinek száma pedig a kettő közül a nagyobb: két ép darab egy 94-es darabbá olvad össze. Az eredmény megtartja az alap repedéseinek sorrendjét: ugyanaz az érték sérül először. Lásd: [Integritás és repedések](#integrity-and-fractures).
-- Az összevonás után az eredmény kijelölve marad, a donor helye pedig üres: tedd be a következő donort, vagy válts vissza a Fokozatemelésre.
+- Az összevonás után az eredmény kijelölve marad, a donor helye pedig üres: tedd be a következő donort, vagy válts vissza a Fejlesztésre.
 - **A címke**: az összevont darab csak akkor **eladható** (eladhatod az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items)), ha az alap és az adományozó is az volt. Az előnézet jelzi.
 
 Az összevonás nem sokszorozza meg a tárgyat. A haszna a választás: egy Rezonáns fokozatú mag azokkal a jellemzőkkel, amelyeket akarsz, vagy egy fokozat, amelyet a hajódon lévő tárgyra viszel át anélkül, hogy levennéd.
@@ -150,4 +151,4 @@ A recepteket, a költségeiket és a szabály mögötti számokat a [Tárgyak á
 
 ## Régi szerverek {#old-servers}
 
-Az a játékszerver, amelyet nem frissítettek a Kovácsműhelyre, a lap helyén ezt mutatja: „A Kovácsműhely még nincs ezen a szerveren”; a gyártás a régi módon működik. A Kovácsműhely előtti játékkliens egy frissített szerveren a régi Fúzió lapot mutatja, és a játék frissítésre kéri. A 0.5.7 előtti szervernek nincs Foglalatok nézete, a 0.5.7 előtti játék pedig még megnyithatja és olvashatja a Kovácsműhelyt, de egy frissített szerver minden módosítást elutasít, amit kér (fokozatemelést, összevonást, behangolást, újrarendezést, javítást, Tinkerer's Badge-et) ezzel: „Frissítsd a játékot, hogy használhasd ezt a funkciót.”
+Az a játékszerver, amelyet nem frissítettek a Kovácsműhelyre, a lap helyén ezt mutatja: „A Kovácsműhely még nincs ezen a szerveren”; a gyártás a régi módon működik. A Kovácsműhely előtti játékkliens egy frissített szerveren a régi Fúzió lapot mutatja, és a játék frissítésre kéri. A 0.5.7 előtti szervernek nincs Foglalatok blokkja, a 0.5.7 előtti játék pedig még megnyithatja és olvashatja a Kovácsműhelyt, de egy frissített szerver minden módosítást elutasít, amit kér (fokozatemelést, összevonást, behangolást, újrarendezést, javítást, Tinkerer's Badge-et) ezzel: „Frissítsd a játékot, hogy használhasd ezt a funkciót.”

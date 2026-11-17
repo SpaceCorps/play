@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1a42c1d878ff2b15 -->
+<!-- wiki-i18n source: 75486fd4ebd908e7 -->
 <!-- wiki-i18n title: Crystalys -->
 # Crystalys
 
@@ -36,7 +36,7 @@ Le butin tombe dans une [cargaison](/wiki/03-Mechanics/Cargo.md) à l’endroit 
 - **Quorvium** : 100 % de chances (min. : 6, max. : 10)
 - **Power Core** : 50 % de chances (min. : 1, max. : 1)
 - **Ancient Control Unit** : 20 % de chances (min. : 1, max. : 1)
-- **Echo Shard** : 20 % de chances (min. : 1, max. : 1)
+- **Echo Shard** : 40 % de chances (min. : 1, max. : 1)
 
 ## Histoire {#lore}
 

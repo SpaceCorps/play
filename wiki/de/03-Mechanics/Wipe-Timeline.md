@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 78857435732fea9b -->
+<!-- wiki-i18n source: 9c01b98d8c696970 -->
 <!-- wiki-i18n title: Wipe-Zeitleiste -->
 # Wipe-Zeitleiste & Saisons {#wipe-timeline-seasons}
 
@@ -72,14 +72,14 @@ Deine ungeöffneten Container, deine [Spezialgegenstände](/wiki/06-Items/Specia
 Das **Chrono-Gate** (auch Galaxietor genannt) ist ein gewaltiges Saisonbauwerk, das als Brücke zwischen den Saisons dient. Dieses Tor zu bauen und zu stabilisieren ist die Voraussetzung dafür, dass du deine Transportrechte für die Mitnahme freischaltest. Es ist eines der sechs Tore der Seite Galaxietore: Die anderen fünf sind die [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md), Orte, in die du fliegst, und ihre Teile kommen aus demselben Energie-Materialisator.
 
 ### Torbau {#gate-assembly}
-Um das Chrono-Gate vollständig zu stabilisieren, musst du genau **2 Chrono-Gate-Teile** sammeln. Auf der Seite [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) steht, was jedes der sechs Tore braucht und was seine Teile im Schnitt kosten.
+Um das Chrono-Gate vollständig zu stabilisieren, musst du genau **13 Chrono-Gate-Teile** sammeln. Auf der Seite [Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts) steht, was jedes der sechs Tore braucht und was seine Teile im Schnitt kosten.
 
 ### Der Energie-Materialisator {#the-energy-materializer}
 Teile bekommst du über die Oberfläche des Energie-Materialisators, der lokale Energiesektoren scannt, um Torteile aufzuspüren. Er arbeitet nur mit **Thulium** (ein Scan mit Credits ist geschlossen):
-* **Thulium-Scan**: **100 Thulium** pro Scan, mit einer **Chance von 13 %**, ein Torteil zu liefern. Das Teil gehört zu einem der sechs Tore, per Zufall gewählt, und ist deshalb nicht immer ein Teil des Chrono-Gates.
+* **Thulium-Scan**: **100 Thulium** pro Scan, mit einer **Chance von 13 %**, ein Torteil zu liefern. Du wählst die Kategorie, die du scannst (das Chrono-Gate, Alpha–Gamma oder Delta–Omega), und das Teil gehört zu einem ihrer Tore, alle gleich wahrscheinlich: Teile des Chrono-Gates findet nur die Kategorie des Chrono-Gates.
 * **Die Garantie.** Eine lange Serie von Scans ohne Teil kann nicht ewig weitergehen: Nach einigen leeren Scans steigt die Chance, und dann ist ein Teil sicher ([Details](/wiki/03-Mechanics/Solo-Gates.md#finding-gate-parts)).
 * **Ein Scan ohne Teil** zahlt trotzdem einen Preis ([Solo-Tore](/wiki/03-Mechanics/Solo-Gates.md#a-spin-without-a-part)).
-* **Die Scans gehen weiter, wenn das Chrono-Gate komplett ist.** Jeder Scan wird berechnet, und die Teile, die er findet, gehören dann zu den Solo-Toren. Die Chance auf ein Teil ist um ein Sechstel niedriger, weil der Anteil des Chrono-Gates daran wegfällt.
+* **Die Scans gehen weiter, wenn das Chrono-Gate komplett ist.** Jeder Scan wird berechnet, und die Teile, die er findet, gehören dann zu den Solo-Toren: Der Eintrag des Chrono-Gates ist gesperrt, und die beiden anderen Kategorien behalten ihre Chance von 13 %.
 
 *Profi-Tipp: Mit Multiplikatoren (1x, 5x, 10x, 100x) kannst du mehrere Scans auf einmal durchführen und den Torbau beschleunigen.*
 
@@ -248,5 +248,7 @@ Es zählen nur Abschüsse, für die du bezahlt wirst (siehe [Kampf](/wiki/03-Mec
 **Missionen.** Die erste Mission, die du abschließt, zahlt 5 WP, danach zahlt jede 5. (die 5., 10., 15. und so weiter, bis zur 100.) 5 WP mehr, insgesamt 105 WP. Es zählen nur die Level-Missionen (88 insgesamt, nicht die Station-Missionen und nicht die Linie der Herausforderungen, siehe [Quests](/wiki/03-Mechanics/Quests.md)), und eine überarbeitete Level-Mission, die du erneut machst, wird nicht ein zweites Mal gezählt. Die 88, je einmal erledigt, zahlen 90 WP. Deine Missionen bleiben durch den Wipe erledigt, gleich danach **lassen sich die 90 WP wieder einlösen**. Die [Wiederholung](/wiki/03-Mechanics/Quests.md#repeating-missions) einer Level-Mission zählt wie ein erstes Erledigen, einmal pro Mission und Saison, bis zur 100. Mission: Wer alle 88 hat, zählt 12 Wiederholungen und gewinnt dadurch 15 WP.
 
 **Dormant Knowledge.** Neben den Meilensteinen zahlen die fünf Technologien Dormant Knowledge der [Forschung](/wiki/03-Mechanics/Research.md#pilot-technologies) je 50 WP, insgesamt 250. Eine Stufe zahlt, wenn ihre Forschung fertig wird, und nach jedem Wipe **lässt sich eine Stufe, die du erforscht hast, wieder einlösen**, unter WP-Quellen. Eine Technologie, die ein Administrator vergibt, zahlt nichts.
+
+**Level der Pilotenfertigkeiten.** Eine weitere Quelle beginnt beim Wipe nicht von vorn: Jede Fertigkeit der [Pilotenfertigkeiten](/wiki/03-Mechanics/Pilot-Skills.md) zahlt Wipe-Punkte genau einmal, wenn sie zum ersten Mal bestimmte Level erreicht (die Seite listet sie auf). Du löst sie an derselben Stelle ein wie die anderen, und sie gehören nicht zur Summe unten.
 
 **Insgesamt** zahlen die Quellen bis zu **1.105 Wipe-Punkte** pro Wipe: 750 für die Abschüsse, 105 für die Missionen und 250 für Dormant Knowledge. Dein Rang zahlt beim Wipe mehr ([Saisons und Belohnungen](/wiki/03-Mechanics/Seasons-and-Rewards.md)).

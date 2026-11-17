@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aaa8d36c9addaabb -->
+<!-- wiki-i18n source: 1bd2092b2dd812be -->
 <!-- wiki-i18n title: Demirhane -->
 # Demirhane {#the-forge}
 
@@ -30,6 +30,7 @@ Bir eşya seç; panel eşyanın kademesini, ulaşacağı kademeyi, bunun neyi de
 - **Commerce becerin**, bir adımın kredisini ve Thulium’unu, ayrıca bir birleştirmenin kredisini 100. seviyede %15’e kadar düşürür ([Pilot Becerileri](/wiki/03-Mechanics/Pilot-Skills.md)). Tablo ilk seviyedeki fiyatı, panel ise senin ödediğin fiyatı gösterir; malzemeler değişmez.
 - **Eşyanın sahip olduğu her bonus,** yeni kademenin aralığında yeniden belirlenir ve daha iyi değeri korur. Sonuç panelin üstünde gösterilir; eşya seçili kalır, böylece sonraki adımı zaten ekrandadır.
 - Kademe yükseltme anlıktır.
+- **Yuvalar adımın altındadır.** Kademe yükselt ve [Yuvalar](#sockets) tek bir görünümdür, **Geliştir**, önce Kademe yükselt gelir: bir adımın uyandırdığı yuva, listede düğmenin hemen altındadır ve Ayarla düğmesi de oradadır; onu kullanmak için başka yere geçmen gerekmez.
 - **Bir Tinkerer’s Badge** (bir [özel eşya](/wiki/06-Items/Special-Items.md#tinkerers-badge)) bir parçayı kredisiz, Thulium’suz ve malzemesiz bir kademe yükseltir, Standart’tan itibaren. Hiçbir şeye mal olmayan bir adımdır: bir yuvayı uyandırır ve parçanın taşıdığı bonusları, ücretli bir adım gibi, yeniden çeker.
 
 ### Dark Matter Plate {#dark-matter-plates}
@@ -74,7 +75,7 @@ Kristaller kademeleri izler: Daraxium Uyanmış gibi mavi, Nyxite Rezonanslı gi
 
 ## Yuvalar {#sockets}
 
-Demirhane’nin **Yuvalar** görünümü, bir bonusun eşyaya girdiği yerdir. Bir parça seç; görünüm onun yuvalarını, bütünlüğünü ve elindeki Shard’ları listeler. Bir yuva, bir kademe yükseltme onu uyandırana kadar **kilitlidir** (satırı hangi kademede ve hangi kristalin adımıyla uyanacağını söyler), uyanınca **boştur**, bir bonus taşıyorsa **ayarlanmıştır**. Kademe yükselt paneli onları sayar: *Uyanık yuvalar 1 → 2 / 4*.
+Demirhane’nin **Geliştir** görünümünde Kademe yükselt’in altındaki **Yuvalar** bölümü, bir bonusun eşyaya girdiği yerdir. Bir parça seç; bölüm onun yuvalarını, bütünlüğünü ve elindeki Shard’ları listeler. Bir yuva, bir kademe yükseltme onu uyandırana kadar **kilitlidir** (satırı hangi kademede ve hangi kristalin adımıyla uyanacağını söyler), uyanınca **boştur**, bir bonus taşıyorsa **ayarlanmıştır**. Kademe yükselt bölümü onları sayar: *Uyanık yuvalar 1 → 2 / 4*.
 
 - Boş bir yuvayı **Echo Shard** ile **ayarla**: bir parçanın ilk yuvası için 10, sonra 20, 40 ve 80; yani fiyat ayarladığın her yuvayla artar (sonraki her boş yuvanın soluk fiyatı, ne kadara mal olacağını söyler). Shard’lar Ayarla’ya bastığında harcanır ve Demirhane sana bir **teklif** sunar: hâlâ boş olan özelliklerden rastgele çekilmiş ikisi, her biri vereceği bonusla birlikte. Birini **seç**: teklifin gösterdiğini alırsın. Yalnızca bir özellik boş kaldıysa iki satır da o özelliğin birer çekilişidir ve aynı çıkabilirler.
 - Bir ayara ya da yeniden düzenlemeye bir **Heartshard** eklenebilir: önce *Sonraki ayarda ya da yeniden düzenlemede bir Heartshard kullan* seçeneğini aç; teklif bunun yerine parçanın boştaki her özelliğini listeler, her biri aralığının üst yarısında çekilmiş olarak; yani özelliği sen seçersin.
@@ -95,13 +96,13 @@ Bir parçanın dört yuvasını da ayarlamak 150 Echo Shard tutar (10 + 20 + 40 
 | Solo geçit: Gamma Foundry | 18 | 27 |
 | Solo geçit: Delta Siege | 29 | 44 |
 | Solo geçit: Omega Vault | 34 | 54 |
-| Klan zindanı: 1. aşama | 3 | 5 |
-| Klan zindanı: 2. aşama | 2 | 6 |
-| Klan zindanı: 3. aşama | 2 | 7 |
+| Klan zindanı: 1. aşama | 12 | 5 |
+| Klan zindanı: 2. aşama | 8 | 6 |
+| Klan zindanı: 3. aşama | 8 | 7 |
 
 - **Solo geçitler** Shard’larını her tamamlamada öder, **klan zindanları** bir aşamanın her ücretli tamamlanmasında.
 - **Heartshard’lar** her geçidin ve her zindan aşamasının bir sezondaki ilk tamamlanmasıyla gelir (1) ve her tamamlamada %5 ihtimalle 1 tane daha. Nadir NPC’ler de onları düşürür: Davidski %10, Dormant Force ve Tesseract %5. Gerisi [Kaynaklar](/wiki/06-Items/Resources.md#heartshard) sayfasında.
-- **Uzaylılar** yalnızca Echo Shard düşürür, o da az: bir Seeker için öldürme başına %0,4’ten bir Crystalys için %20’ye ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
+- **Uzaylılar** yalnızca Echo Shard düşürür, o da az: bir Seeker için öldürme başına %0,8’ten bir Crystalys için %40’ye ([Echo Shard](/wiki/06-Items/Resources.md#echo-shard)).
 
 ## Birleştirme {#merge}
 
@@ -113,7 +114,7 @@ Aynı eşyanın iki kopyası (iki Light Shield Core, iki Quantum Laser II) tek o
 - **Bir birleştirme, ortaya çıkardığı kademeye göre kredi tutar**: Uyanmış için 5.000, Rezonanslı için 25.000, Parlak için 100.000, Yücelmiş için 250.000. Malzeme yok. Commerce becerin bu krediyi de bir adımınki gibi düşürür.
 - Hiçbir şeyi değiştirmeyecek bir birleştirme (sonuç temelden daha iyi değilse) reddedilir. Yalnızca daha iyi bir bütünlük sayılmaz: birleştirme bir onarım değildir.
 - **Bütünlük.** Sonucun bütünlüğü, iki parçanın bütünlüğünün ortalamasının (aşağı yuvarlanmış) 6 eksiğidir, hiçbir zaman 0’ın altına inmez; yeniden düzenleme sayısı ise ikisinden yüksek olandır: iki sağlam parça 94 bütünlüklü tek bir parçada birleşir. Sonuç, tabanın çatlak sırasını korur: önce aynı özellik vurulur. Bkz. [Bütünlük ve çatlaklar](#integrity-and-fractures).
-- Birleştirmeden sonra sonuç seçili kalır ve donör yuvası boştur: sonraki donörü koy ya da Kademe yükselt moduna geri dön.
+- Birleştirmeden sonra sonuç seçili kalır ve donör yuvası boştur: sonraki donörü koy ya da Geliştir moduna geri dön.
 - **Etiket**: birleştirilen parça, yalnızca temel ve donör ikisi de öyleyse **satılabilir** olur ([pazarda](/wiki/03-Mechanics/Auction.md#marketable-items) satışa çıkarılabilir). Önizleme bunu söyler.
 
 Bir birleştirme bir eşyayı çoğaltmaz. Faydası seçmektir: istediğin özelliklere sahip Rezonanslı bir çekirdek ya da gemindeki eşyanın üzerine, onu çıkarmadan taşınan bir kademe.
@@ -150,4 +151,4 @@ Tarifler, maliyetleri ve kuralın arkasındaki sayılar [Eşyalara genel bakış
 
 ## Eski sunucular {#old-servers}
 
-Demirhane için güncellenmemiş bir oyun sunucusu, sekmenin yerinde “Demirhane bu sunucuda henüz yok” gösterir; Üretim eskisi gibi çalışır. Demirhane’den önceki bir oyun istemcisi, güncellenmiş bir sunucuda eski Füzyon sekmesini gösterir ve güncellemesi söylenir. 0.5.7’den önceki bir sunucuda Yuvalar görünümü yoktur ve 0.5.7’den önceki bir oyun Demirhane’yi hâlâ açıp okuyabilir, ama güncellenmiş bir sunucu istediği her değişikliği (bir kademe yükseltmeyi, bir birleştirmeyi, bir ayarı, bir yeniden düzenlemeyi, bir onarımı, bir Tinkerer's Badge’i) şu mesajla reddeder: “Bu özelliği kullanmak için oyunu güncelle.”
+Demirhane için güncellenmemiş bir oyun sunucusu, sekmenin yerinde “Demirhane bu sunucuda henüz yok” gösterir; Üretim eskisi gibi çalışır. Demirhane’den önceki bir oyun istemcisi, güncellenmiş bir sunucuda eski Füzyon sekmesini gösterir ve güncellemesi söylenir. 0.5.7’den önceki bir sunucuda Yuvalar bölümü yoktur ve 0.5.7’den önceki bir oyun Demirhane’yi hâlâ açıp okuyabilir, ama güncellenmiş bir sunucu istediği her değişikliği (bir kademe yükseltmeyi, bir birleştirmeyi, bir ayarı, bir yeniden düzenlemeyi, bir onarımı, bir Tinkerer's Badge’i) şu mesajla reddeder: “Bu özelliği kullanmak için oyunu güncelle.”

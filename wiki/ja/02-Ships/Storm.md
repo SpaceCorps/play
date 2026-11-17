@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Storm は、全艦中最高の基本速度と最多のレーザー数（15門）
 
 | デザイン | 変更点 |
 | :--- | :--- |
-| **Storm NOTSUM** | 基本船体 -10%、基本速度 +50、速度 +2%、Blink |
-| **Storm BRATAN** | 基本速度 -50、レーザースロット +2、シールド容量 -25%、シールド貫通 +10%、Heal Pod |
-| **Storm RECON** | 基本船体 -20%、速度 +5%、レーザースロット -1、Chameleon |
+| **Storm NOTSUM** | 基本船体 -10%、基本速度 +50、速度 +2%、全ダメージ +5%、Blink |
+| **Storm BRATAN** | 基本速度 -50、レーザースロット +2、シールド容量 -25%、シールド貫通 +10%、全ダメージ +5%、Heal Pod |
+| **Storm RECON** | 基本船体 -20%、速度 +5%、レーザースロット -1、Chameleon、Target、Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

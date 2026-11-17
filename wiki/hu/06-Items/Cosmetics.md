@@ -1,8 +1,8 @@
-<!-- wiki-i18n source: 2a3c0d224bf62971 -->
+<!-- wiki-i18n source: de708f46f677b42c -->
 <!-- wiki-i18n title: Kozmetika -->
 # Kozmetika {#cosmetics}
 
-<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; holiday skins; kinézet; festés; ruhatár; kipufogó -->
+<!-- wiki-search: look; looks; skin; skins; aura; exhaust; livery; wardrobe; paint; collection; nature white; company supporter; bloody red; bloody r.e.d; lou; miyuki; holiday skins; kinézet; festés; ruhatár; kipufogó -->
 
 A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs festése), egy **aura** (lágy ragyogás és egy fénygyűrű a hajó körül), egy **kipufogó** (a hajtóművek mögötti csóva színe és alakja) és a drónjaid **festése**. A kinézet csak látvány: nem ad sebzést, páncélt vagy sebességet, nem foglal helyet, és semmin nem változtat, amit egy lövés eltalálhat.
 
@@ -22,24 +22,25 @@ A **kinézet** az, amit a hajód visel. Négy része van: egy **skin** (a törzs
 
 ## Skinek {#skins}
 
-A skin a hajó saját törzséből készült festési séma: a panelvonalak, a számok és a csíkok megmaradnak, csak a színek változnak. Egy **hajótípusra** szól, és ugyanazt a skint viseli minden ilyen típusú hajód és minden belőle készült [dizájn](/wiki/03-Mechanics/Ship-Designs.md); az átalakítás megtartja a kinézetet. A Protosnak még nincs skinje, a Kitefinnek, az Ostirionnak és a Nomadnak egy kollekciója van, a négy hajónak, amelyet a Gyártásban építesz, mind a tíz.
+A skin a hajó saját törzséből készült festési séma: a panelvonalak, a számok és a csíkok megmaradnak, csak a színek változnak. Egy **hajótípusra** szól, és ugyanazt a skint viseli minden ilyen típusú hajód és minden belőle készült [dizájn](/wiki/03-Mechanics/Ship-Designs.md); az átalakítás megtartja a kinézetet. A Protosnak még nincs skinje, a Kitefinnek, az Ostirionnak és a Nomadnak egy kollekciója van, a négy hajónak, amelyet a Gyártásban építesz, és a Miyukinak mind a tizenegy. A Miyuki egy skinjét mind az öt szintje viseli.
 
 A skinek a **fiókodhoz** tartoznak, nem egy hajóhoz, és átvészelik a [wipe-ot](/wiki/03-Mechanics/Wipe-Timeline.md); a hajóid azt viselik, amit viseltek.
 
-A [Króma-archívum](/wiki/06-Items/Containers.md#chroma-archive) bármelyik gyűjteményt adhatja a Bloody R.E.D kivételével, egyszerre egy skint: a gyűjtemény nyereményként egy skint ad belőle, egy hajótípusra. Ez az aktív hajód skinje, ha a gyűjteményben van hozzá skin, és még nincs meg neked; különben egy másik saját hajód skinje; különben a gyűjtemény első skinje, amely még hiányzik. Repülj tehát azzal a hajóval, amelyikre a skint szeretnéd, amikor archívumot nyitsz. A gyűjtemény újra eshet, amíg minden skinje meg nem lesz. A 0.5.7 előtt egészben kapott gyűjtemény a tiéd marad, minden skinjével.
+A [Króma-archívum](/wiki/06-Items/Containers.md#chroma-archive) bármelyik gyűjteményt adhatja a Bloody R.E.D és a LOU kivételével, egyszerre egy skint: a gyűjtemény nyereményként egy skint ad belőle, egy hajótípusra. Ez az aktív hajód skinje, ha a gyűjteményben van hozzá skin, és még nincs meg neked; különben egy másik saját hajód skinje; különben a gyűjtemény első skinje, amely még hiányzik. Repülj tehát azzal a hajóval, amelyikre a skint szeretnéd, amikor archívumot nyitsz. A gyűjtemény újra eshet, amíg minden skinje meg nem lesz. A 0.5.7 előtt egészben kapott gyűjtemény a tiéd marad, minden skinjével.
 
 | Kollekció | Hajók | Ritkaság | Hogy néz ki |
 | :--- | :--- | :--- | :--- |
-| **Nature White** | Paragon, Storm, Ironclad, Wraith | Ritka | Hófehér törzs narancssárga részekkel |
-| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith | Szokatlan | Az egész törzs a vállalatod színében: piros a Marsnak, zöld a Terrának, lila a Galacticnak. Követ, ha vállalatot váltasz |
-| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith | Mitikus | Fekete és vérvörös, a klán logójával egy sötét jelvényen a törzs közepén |
-| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith | Epikus | Szilveszter és újév: éjkék törzs ezüst és pezsgőszínű szegéllyel és egy pezsgőspohárral |
-| **Blue Marble** | Paragon, Storm, Ironclad, Wraith | Epikus | A Föld napja: óceánkék zöld szárazfölddel és egy kis földgömbbel |
-| **Mimosa** | Paragon, Storm, Ironclad, Wraith | Epikus | Nemzetközi nőnap: citromsárga lila szegéllyel és egy virággal |
-| **Olive Branch** | Paragon, Storm, Ironclad, Wraith | Epikus | A béke nemzetközi napja: égkék olajzöld szegéllyel és egy fehér békejellel |
-| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith | Ritka | A napéjegyenlőségek és napfordulók: sötét kékeszöld törzs arany nappal |
-| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith | Epikus | Egészségügyi világnap és a mentális egészség világnapja: zöldesfekete törzs neonzöld szívveréssel |
-| **Hollow Night** | Paragon, Storm, Ironclad, Wraith | Epikus | Halloween: szénfekete narancssárgával, és egy hold csillagokkal |
+| **Nature White** | Paragon, Storm, Ironclad, Wraith, Miyuki | Ritka | Hófehér törzs narancssárga részekkel |
+| **Company Supporter** | Kitefin, Ostirion, Nomad, Paragon, Storm, Ironclad, Wraith, Miyuki | Szokatlan | Az egész törzs a vállalatod színében: piros a Marsnak, zöld a Terrának, lila a Galacticnak. Követ, ha vállalatot váltasz |
+| **Bloody R.E.D** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitikus | Fekete és vérvörös, a klán logójával egy sötét jelvényen a törzs közepén |
+| **LOU** | Paragon, Storm, Ironclad, Wraith, Miyuki | Mitikus | A LOU klán skinje, amelyet a játék csapata ad a tagjainak: fekete, mint a Bloody R.E.D, mély ibolyaszínű részekkel és logó nélkül |
+| **Midnight Gala** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | Szilveszter és újév: éjkék törzs ezüst és pezsgőszínű szegéllyel és egy pezsgőspohárral |
+| **Blue Marble** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | A Föld napja: óceánkék zöld szárazfölddel és egy kis földgömbbel |
+| **Mimosa** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | Nemzetközi nőnap: citromsárga lila szegéllyel és egy virággal |
+| **Olive Branch** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | A béke nemzetközi napja: égkék olajzöld szegéllyel és egy fehér békejellel |
+| **Sunrise Orbit** | Paragon, Storm, Ironclad, Wraith, Miyuki | Ritka | A napéjegyenlőségek és napfordulók: sötét kékeszöld törzs arany nappal |
+| **Steady Pulse** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | Egészségügyi világnap és a mentális egészség világnapja: zöldesfekete törzs neonzöld szívveréssel |
+| **Hollow Night** | Paragon, Storm, Ironclad, Wraith, Miyuki | Epikus | Halloween: szénfekete narancssárgával, és egy hold csillagokkal |
 
 ## Drónfestések {#drone-liveries}
 

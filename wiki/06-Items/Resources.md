@@ -722,7 +722,7 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 
 **How to get it**
 
-- **The black hole**: a [N.I.K.E.](/wiki/06-Items/Rockets.md) rocket that crosses the event horizon of the black hole in the middle of Danger Sector 4 is swallowed, and the hole gives back **1, 2 or 3** Dark Matter (2 on average) in crates of at most 2 on the rim of its zone, 3,050 to 3,950 units from its centre. The crates are yours and your clan's for 60 seconds and last 240 seconds. A N.I.K.E. that meets a ship on its way hits it instead and is used up. See [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) and [The Black Hole](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
+- **The black hole**: a [N.I.K.E.](/wiki/06-Items/Rockets.md) rocket that crosses the event horizon of the black hole in the middle of Danger Sector 4 is swallowed, and the hole gives back **1, 2 or 3** Dark Matter (2 on average) in crates of at most 1 on the rim of its zone, 3,050 to 3,950 units from its centre. The crates are yours and your clan's for 60 seconds and last 240 seconds. A N.I.K.E. that meets a ship on its way hits it instead and is used up. See [Dark Matter and Dark Matter Plates](/wiki/03-Mechanics/Dark-Matter.md) and [The Black Hole](/wiki/03-Mechanics/Black-Hole.md#dark-matter).
 - **[Inert Mass](/wiki/03-Mechanics/Dormant-Swamp.md#inert-mass)** of the Dormant Swamp: from season day 11, 5% of its boxes hold 1–3. It lives under the swamp's guns.
 - **Otherwise**: not sold in the Shop.
 
@@ -831,14 +831,15 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 
 | Alien | Sectors | Drops | Per kill, on average |
 | :--- | :---: | :--- | --: |
-| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 20% for 1 | 0.2 |
-| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 5% for 1 | 0.05 |
-| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 2% for 1 | 0.02 |
-| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 1% for 1 | 0.01 |
-| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.4% for 1 | 0 |
+| [Crystalys](/wiki/04-Aliens/Crystalys.md) | 4 | 40% for 1 | 0.4 |
+| [Goombah](/wiki/04-Aliens/Goombah.md) | 3, 4 | 10% for 1 | 0.1 |
+| [Bulwark](/wiki/04-Aliens/Bulwark.md) | 3, 4 | 4% for 1 | 0.04 |
+| [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% for 1 | 0.02 |
+| [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8% for 1 | 0.01 |
 
 - **Solo gates**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 with every clear.
-- **Clan dungeons**: 3, 2 and 2 with a paid clear of stage 1, 2 and 3.
+- **Clan dungeons**: 12, 8 and 8 with a paid clear of stage 1, 2 and 3.
+- **Clan dungeon aliens**: they drop it at 2 times the chances in the table above.
 - **Luck and the Resource Magnet Booster**: neither adds to it. It can never be listed on the Auction.
 - **Otherwise**: not sold in the Shop.
 
@@ -846,7 +847,7 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 
 - The Forge's sockets: tuning an empty socket takes Echo Shards.
 
-**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0.2 per kill on average; the nearest source is the [Seeker](/wiki/04-Aliens/Seeker.md) in sector 1, 0 per kill.
+**How to farm it**: kill [Crystalys](/wiki/04-Aliens/Crystalys.md) (sector 4): 0.4 per kill on average; the nearest source is the [Seeker](/wiki/04-Aliens/Seeker.md) in sector 1, 0.01 per kill.
 
 ### Lattice Shard
 

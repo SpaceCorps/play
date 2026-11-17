@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -32,10 +32,10 @@ Appena accetti, si apre la **finestra Gruppo** (il tasto **B** o il suo pulsante
 Quando un membro distrugge un alieno (o ne riceve il premio grazie alla sua [rivendicazione](/wiki/03-Mechanics/Combat.md)), le ricompense (crediti, Thulium, esperienza e onore) vengono divise tra i membri che sono:
 
 - sulla **stessa mappa** (nello stesso mondo),
-- **vivi** ed entro **4000 unità** dai resti, e
+- **vivi** ed entro **8000 unità** dai resti, e
 - **in azione**: hanno sparato con un laser o un razzo contro qualsiasi cosa negli ultimi 15 secondi.
 
-Ognuno riceve una parte in proporzione al proprio **livello**, qualunque sia la sua corporazione (i crediti e l’onore sono di ciascun pilota; nessuna corporazione ne trattiene): un pilota di livello 15 con un compagno di livello 5 prende il 75% e il compagno il 25%. Ogni credito viene distribuito: il pilota che ha fatto l’abbattimento riceve ciò che resta quando le parti vengono arrotondate per difetto. L’intera ricompensa è quella di chi ha abbattuto l’alieno: si applicano i suoi booster, il moltiplicatore del suo mondo e il suo Premium, e quelli di un compagno no. Da solo, o senza nessun altro nel raggio, un abbattimento paga quanto ha sempre pagato. Un pilota fermo vicino allo scontro senza sparare non riceve nessuna parte.
+Ognuno riceve una parte in proporzione al proprio **livello**, qualunque sia la sua corporazione (i crediti e l’onore sono di ciascun pilota; nessuna corporazione ne trattiene): un pilota di livello 15 con un compagno di livello 5 prende il 75% e il compagno il 25%. Ogni credito viene distribuito: il pilota che ha fatto l’abbattimento riceve ciò che resta quando le parti vengono arrotondate per difetto. L’intera ricompensa è quella di chi ha abbattuto l’alieno: si applicano i suoi booster e il moltiplicatore del suo mondo, e quelli di un compagno no. Da solo, o senza nessun altro nel raggio, un abbattimento paga quanto ha sempre pagato. Un pilota fermo vicino allo scontro senza sparare non riceve nessuna parte.
 
 L’avviso dell’abbattimento lo dice: la riga **RICOMPENSE** di chi ha abbattuto mostra la sua parte, seguita da “Ricompense condivise con 2 compagni di gruppo. La tua parte: 40%.”, e un compagno che riceve una parte legge “*Alieno* è stato distrutto da *pilota*; la quota del tuo gruppo ti spetta” con gli importi. Gli avvisi compaiono nel Registro di gioco.
 
@@ -43,7 +43,7 @@ Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse; l�
 
 ## Missioni condivise {#sharing-missions}
 
-Un abbattimento vale anche per le **missioni di abbattimento** di ogni altro membro che si trova sulla stessa mappa e che **ha sparato con un laser o un razzo contro qualsiasi cosa negli ultimi 15 secondi**, ovunque si trovi su di essa, come se avesse distrutto l’alieno lui stesso. Restano comunque le regole della missione: l’alieno deve essere del tipo della missione e il settore quello che la missione indica. Un compagno che non ha sparato, o è su un’altra mappa, non riceve alcun conteggio. Le missioni conservano le regole della propria corporazione: una missione che chiede un abbattimento nel “settore 4 di un’altra corporazione” vale per il membro per il quale quel settore è di un’altra corporazione. Quando l’abbattimento di un compagno vale per una delle tue missioni, un avviso ti dice quale. Nella [linea delle Sfide](/wiki/03-Mechanics/Quests.md#where-it-counts) un membro deve inoltre trovarsi entro **4.000 unità** dal relitto per contare, e ogni membro che ha una missione con un oggetto della missione ha il proprio tiro e vede il proprio oggetto: nessuno può condividerne uno.
+Un abbattimento vale anche per le **missioni di abbattimento** di ogni altro membro che si trova sulla stessa mappa e che **ha sparato con un laser o un razzo contro qualsiasi cosa negli ultimi 15 secondi**, ovunque si trovi su di essa, come se avesse distrutto l’alieno lui stesso. Restano comunque le regole della missione: l’alieno deve essere del tipo della missione e il settore quello che la missione indica. Un compagno che non ha sparato, o è su un’altra mappa, non riceve alcun conteggio. Le missioni conservano le regole della propria corporazione: una missione che chiede un abbattimento nel “settore 4 di un’altra corporazione” vale per il membro per il quale quel settore è di un’altra corporazione. Quando l’abbattimento di un compagno vale per una delle tue missioni, un avviso ti dice quale. Nella [linea delle Sfide](/wiki/03-Mechanics/Quests.md#where-it-counts) un membro deve inoltre trovarsi entro **8.000 unità** dal relitto per contare, e ogni membro che ha una missione con un oggetto della missione ha il proprio tiro e vede il proprio oggetto: nessuno può condividerne uno.
 
 ## Canali della chat {#chat-channels}
 

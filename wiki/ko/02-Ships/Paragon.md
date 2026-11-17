@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: aec634be3b6e5524 -->
+<!-- wiki-i18n source: ff5c11c45c5ccbf6 -->
 <!-- wiki-i18n title: Paragon -->
 # Paragon
 
@@ -32,8 +32,8 @@ Paragon은 방어와 공격의 균형을 갖추도록 설계된 대형 전투 �
 
 | 디자인 | 바뀌는 점 |
 | :--- | :--- |
-| **Paragon THUNDER** | 기본 선체 -25%, 기본 속도 +40, 레이저 슬롯 +1 |
-| **Paragon BUCKY** | 기본 선체 +25%, 기본 속도 -20, 레이저 슬롯 -1, 실드 흡수율 +10%, 모델 크기 +20% |
+| **Paragon THUNDER** | 기본 속도 +40, 레이저 슬롯 +1 |
+| **Paragon BUCKY** | 기본 선체 +25%, 기본 속도 -20, 실드 흡수율 +10%, 모델 크기 +20% |
 | **Paragon LICH** | 초당 실드 재생 +1% |
 
 <!-- research-ship:begin -->

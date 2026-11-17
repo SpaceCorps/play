@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -53,4 +53,4 @@ O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) nã
 ## Boosters
 
 - **Loot Luck Booster** (e o bônus permanente Luck Boost, e a sorte dos seus [P.E.T.s](/wiki/03-Mechanics/Pets.md) acoplados) aumentam a chance de cada item da tabela de saque quando o autor do abate faz o abate. A sua perícia [Instinto](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) também soma a essa chance, além da do booster.
-- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, à mão ou com um Retriever, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela. Só a sua própria habilidade Antimatter soma Dark Matter (até +25% no nível 100); sem ela, cinco N.I.K.E. dão dez Dark Matter.
+- **Resource Magnet Booster** soma **25%** aos recursos de cada caixa que você coleta, à mão ou com um Retriever, seja quem for que fez o abate. A Dark Matter é a exceção: o Magnet não soma nada a ela. Só a sua própria habilidade Antimatter soma Dark Matter (até +100% no nível 100); sem ela, cinco N.I.K.E. dão dez Dark Matter.

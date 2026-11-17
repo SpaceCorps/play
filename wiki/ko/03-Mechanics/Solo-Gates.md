@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: a07a705b04461381 -->
+<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
@@ -15,7 +15,7 @@
 
 - **게이트**: 6: Chrono-Gate와 솔로 게이트 5개, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege와 Omega Vault
 - **스핀**: 스핀 한 번에 Thulium 100, 한 번에 1, 5, 10 또는 100회 스핀
-- **부품 확률**: 스핀당 13%. 부품이 속하는 게이트는 무작위로 정해지며 각 게이트가 스핀의 2.17%를 가집니다. Chrono-Gate가 완성되면 그 몫은 휠에서 빠지고 솔로 게이트는 각각 2.17%를 유지합니다
+- **부품 확률**: 스핀당 13%, 어느 카테고리를 스핀하든 같습니다. 부품은 그 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트별 확률은 다음과 같습니다. Chrono-Gate 단독: 전부, Alpha Rift, Beta Breach와 Gamma Foundry: 각각 4.33%, Delta Siege와 Omega Vault: 각각 6.5%. Chrono-Gate가 완성되면 그 카테고리에는 스핀으로 찾을 것이 남지 않습니다
 - **보장**: 부품 없이 스핀이 24번 연속되면 스핀마다 확률이 오르고, 47번 뒤에는 다음 스핀이 반드시 부품을 찾습니다. 어느 게이트의 부품이든 횟수가 처음으로 돌아갑니다
 - **목숨**: 한 번의 도전에 3. 죽을 때마다 하나씩 줄어듭니다
 - **카운트다운**: 모든 웨이브 전에 5초. 첫 웨이브와 보스 웨이브도 마찬가지입니다. 웨이브에는 타이머가 없고 런에도 없습니다
@@ -28,21 +28,21 @@
 
 ## 게이트 부품 찾기 {#finding-gate-parts}
 
-**갤럭시 게이트** 페이지를 열고 에너지 물질화 장치를 스핀합니다. 스핀은 한 번마다 Thulium으로 지불하며 부품은 많아야 하나 찾습니다. 그 부품은 여섯 게이트 중 하나에 속하며 무작위로 정해집니다. 게이트를 건설하려면 그 게이트의 부품이 일정 수 필요하고, 부품은 쓰기 전까지 당신의 것입니다. 부품을 찾지 못한 스핀은 버려지지 않고 상품을 지급합니다([아래](#a-spin-without-a-part)). 스핀은 Chrono-Gate가 완성되어 있어도 매번 청구됩니다. Chrono-Gate가 완성되면 그 몫의 스핀은 아무것도 찾지 못하고, 솔로 게이트는 자기 확률을 유지하므로 솔로 게이트의 부품은 Chrono-Gate가 있든 없든 같은 비용입니다.
+**갤럭시 게이트** 페이지를 열고 에너지 물질화 장치를 스핀합니다. 스핀은 한 번마다 Thulium으로 지불하며 부품은 많아야 하나 찾습니다. 먼저 **카테고리**를 고릅니다. **Chrono-Gate**, **Alpha–Gamma**(Alpha Rift, Beta Breach, Gamma Foundry), **Delta–Omega**(Delta Siege, Omega Vault) 중 하나입니다. 부품이 나올 확률은 어느 카테고리에서나 같고, 부품은 고른 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트를 건설하려면 그 게이트의 부품이 일정 수 필요하고, 부품은 쓰기 전까지 당신의 것입니다. 부품을 찾지 못한 스핀은 버려지지 않고 상품을 지급합니다([아래](#a-spin-without-a-part)). 스핀은 매번 청구됩니다. Chrono-Gate가 완성되면 그 항목은 선택할 수 없습니다. 더 찾을 것이 없기 때문입니다. 나머지 두 카테고리는 확률을 유지하므로 솔로 게이트의 부품은 Chrono-Gate가 있든 없든 같은 비용입니다.
 
-표는 각 게이트의 부품 수와 **보장을 포함한** 평균 비용을 보여 줍니다(스핀은 추첨이므로 운 좋은 파일럿은 덜 내고 운 나쁜 파일럿은 더 내며, 보장이 허용하는 가장 긴 연속 스핀까지입니다).
+표는 각 게이트의 부품 수와, 그 게이트가 속한 카테고리를 스핀할 때 **보장을 포함한** 평균 비용을 보여 줍니다(스핀은 추첨이므로 운 좋은 파일럿은 덜 내고 운 나쁜 파일럿은 더 내며, 보장이 허용하는 가장 긴 연속 스핀까지입니다).
 
 <!-- solo-parts:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
 | 게이트 | 완성에 필요한 부품 | 스핀당 부품 확률 | 평균 스핀 수 | 평균 Thulium |
 | :--- | ---: | ---: | ---: | ---: |
-| **Chrono-Gate** | 2 | 2.17% | 91 | 9,093 |
-| **Alpha Rift** | 11 | 2.17% | 500 | 50,011 |
-| **Beta Breach** | 26 | 2.17% | 1,182 | 118,208 |
-| **Gamma Foundry** | 54 | 2.17% | 2,455 | 245,508 |
-| **Delta Siege** | 87 | 2.17% | 3,955 | 395,541 |
-| **Omega Vault** | 108 | 2.17% | 4,910 | 491,017 |
+| **Chrono-Gate** | 13 | 13% | 99 | 9,851 |
+| **Alpha Rift** | 14 | 4.33% | 318 | 31,825 |
+| **Beta Breach** | 33 | 4.33% | 750 | 75,016 |
+| **Gamma Foundry** | 68 | 4.33% | 1,546 | 154,579 |
+| **Delta Siege** | 96 | 6.5% | 1,455 | 145,486 |
+| **Omega Vault** | 119 | 6.5% | 1,803 | 180,343 |
 
 <!-- solo-parts:end -->
 
@@ -87,10 +87,10 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 게이트는 갤럭시 게이트 페이지에서 **건설**하고, 그 포털로 **점프해 들어갑니다**. 건설은 스테이션에서 함선을 도킹한 채로 할 수 있고, 비행 중에도 할 수 있습니다. 툴바의 게이트 버튼으로 여는 **갤럭시 게이트 창**에서 페이지와 똑같이 스핀, 건설, 목적지 선택을 할 수 있습니다. 다음이 필요합니다.
 
 - 게이트의 부품이 있어야 합니다. 부품은 **건설할 때 한 번** 가져가며, 거부된 건설은 아무것도 가져가지 않습니다.
-- 열려 있는 다른 솔로 런이 없어야 합니다. 런은 한 번에 하나만 가질 수 있고, 떠난 런은 다른 게이트를 건설하기 전에 포털로 다시 들어가거나 포기해야 합니다.
+- 같은 게이트가 아직 건설되지 않았어야 합니다. 게이트는 **전부** 동시에 건설해 둘 수 있고 각각 포털이 있으며, 한 번에 하나만 플레이합니다. 건설한 게이트는 다시 건설하기 전에 포털로 들어가거나 포기해야 합니다.
 - 홈 서버에 있어야 합니다(게이트는 홈 서버에서만 건설합니다. 지역 서버에서는 먼저 기지로 돌아갑니다).
 
-건설한 게이트는 당신의 **기지 섹터**(기업에 따라 `M-1`, `T-1`, `G-1`)에 게이트 이름이 붙은 포털로 서 있으며, 어디에 있는지는 갤럭시 게이트 페이지가 알려 줍니다. **출격해서 포털까지 날아가 점프**하면 됩니다. 다른 포털과 같습니다. 들어갈 때 월드에 빈 균열이 있어야 합니다. 월드마다 균열이 일정 수 있으며, 모두 사용 중이면 기다립니다. 보이는 것은 **내 게이트**뿐입니다. 같은 섹터에 있는 다른 파일럿의 게이트 포털은 표시되지 않습니다.
+건설한 게이트는 당신의 **기지 섹터**(기업에 따라 `M-1`, `T-1`, `G-1`)에 게이트 이름이 붙은 포털로 서 있으며, 어디에 있는지는 갤럭시 게이트 페이지가 알려 줍니다. **출격해서 포털까지 날아가 점프**하면 됩니다. 다른 포털과 같습니다. 들어갈 때 월드에 빈 균열이 있어야 합니다. 월드마다 균열이 일정 수 있으며, 모두 사용 중이면 기다립니다. 보이는 것은 **내 게이트**뿐입니다. 같은 섹터에 있는 다른 파일럿의 게이트 포털은 표시되지 않습니다. 다섯 게이트를 **모두 동시에 건설해 둘 수** 있고 각각 자기 포털이 있으며, 한 번에 하나만 플레이합니다. **아레나에 있는 동안에는 포털이 하나도 서 있지 않고**, 아레나를 나오면 돌아옵니다.
 
 **지역 서버에서 (Singapore, US East).** 건설한 게이트는 그곳에서도 플레이할 수 있습니다. 게이트의 포털은 홈 서버와 마찬가지로 지역 서버에서도 당신의 기지 섹터에 서 있으며, 도착할 때 그 사실을 알려 줍니다. **포털로 점프하면 그 서버의 아레나로 들어갑니다.** 지연 시간은 홈 서버가 아니라 그 서버의 것이 됩니다. 지역 서버에는 월드마다 아레나가 **두 개뿐**이고 홈 서버에는 훨씬 더 많이 있습니다. 둘 다 사용 중이면 홈 서버에서 빈 균열을 기다리듯 기다립니다. 런과 부품과 보상을 보관하는 곳은 여전히 홈 서버 한 곳뿐입니다. 보상은 홈 서버가 런을 집계했을 때, 즉 끝나고 몇 초 뒤에 지갑에 들어오고, **비행 창의 지갑은 도킹할 때 따라잡습니다**. 다음 런에는 지난 런이 집계된 뒤에야 들어갈 수 있습니다. 아레나에서 떠난 런은 포털로 다시 들어가고, 포기하려면 아레나 안이나 기지에서 포기합니다. 지역 서버의 아레나가 꺼져 있으면 그 포털은 대신 홈 서버로 돌려보내며, 거기서 위와 같이 게이트로 출격하면 됩니다. 지역 서버에서 그 밖에 무엇이 되는지는 [서버](/wiki/03-Mechanics/Servers.md)를 참고하세요.
 
@@ -104,7 +104,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 4. **선택 웨이브**는 Seeker의 거대한 웨이브이며 Delta Siege와 Omega Vault에 하나씩 있습니다. 카운트다운 중에 건너뛸 수 있으며, 건너뛰면 완료로 치고 **아무것도** 지급하지 않습니다. 싸우면 처치 보상은 다른 웨이브와 똑같이 지급됩니다.
 5. **마지막 웨이브는 보스입니다.** 선체가 줄어들면 페이즈가 바뀌고, 바뀔 때마다 잠깐 피해를 입지 않습니다. 보스가 죽으면 런이 클리어되고 클리어 보상이 즉시 지급됩니다.
 
-**목숨.** 죽으면 목숨 하나를 잃고 다른 죽음처럼 기지로 보내집니다. 런은 시계 없이 당신을 기다립니다. 런이 열려 있고 당신이 아레나 밖에 있는 동안에는 **게이트의 포털이 기지 섹터에 서 있고**, 그 포털로 점프하면 **이어하기**처럼 저장된 웨이브로 남은 목숨과 함께 돌려보내며 새 부품을 요구하지 않습니다. 마지막 목숨까지 잃으면 도전은 끝나지만 런은 마지막으로 클리어한 웨이브에서 열려 있고, 다시 들어가면 목숨이 다시 채워집니다. **나가기**, 로그오프, 월드 변경은 목숨을 잃지 않고 런을 일시 정지합니다. 서버를 재시작해도 런은 열려 있습니다. **포기**는 런을 포기하는 것으로, 부품은 사라지고 처치한 외계인은 그 시점 그대로 지급됩니다. **이어하기**는 비행 중인 함선에서만 됩니다. 죽은 뒤에는 결과 화면의 버튼이 이유를 알려 주는 한 줄과 함께, 리스폰할 때까지 기다립니다. 리스폰한 함선은 제한된 선체로 돌아오므로, 선체가 절반 아래이면 결과 화면이 경고합니다. 그래도 **이어하기**는 지금 상태 그대로 돌려보냅니다. 기지의 수리선은 오라 안에서 당신을 수리합니다.
+**목숨.** 죽으면 목숨 하나를 잃고 다른 죽음처럼 기지로 보내집니다. 런은 시계 없이 당신을 기다립니다. 런이 열려 있고 당신이 아레나 밖에 있는 동안에는 **건설한 각 게이트의 포털이 기지 섹터에 서 있고**, 그중 하나로 점프하면 **이어하기**처럼 저장된 웨이브로 남은 목숨과 함께 돌려보내며 새 부품을 요구하지 않습니다. 마지막 목숨까지 잃으면 도전은 끝나지만 런은 마지막으로 클리어한 웨이브에서 열려 있고, 다시 들어가면 목숨이 다시 채워집니다. **나가기**, 로그오프, 월드 변경은 목숨을 잃지 않고 런을 일시 정지합니다. 서버를 재시작해도 런은 열려 있습니다. **포기**는 런을 포기하는 것으로, 부품은 사라지고 처치한 외계인은 그 시점 그대로 지급됩니다. **이어하기**는 비행 중인 함선에서만 됩니다. 죽은 뒤에는 결과 화면의 버튼이 이유를 알려 주는 한 줄과 함께, 리스폰할 때까지 기다립니다. 리스폰한 함선은 제한된 선체로 돌아오므로, 선체가 절반 아래이면 결과 화면이 경고합니다. 그래도 **이어하기**는 지금 상태 그대로 돌려보냅니다. 기지의 수리선은 오라 안에서 당신을 수리합니다.
 
 모든 월드가 같은 게이트와 싸웁니다. 외계인의 강함과 보상은 날고 있는 월드에 따라 달라지지 않습니다.
 
@@ -174,11 +174,11 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
-- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; 탄약: Advanced Plasma ×20,000, Ultra Core ×5,000, Experimental Fusion Core ×20,000
-- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; 탄약: Advanced Plasma ×50,000, Ultra Core ×20,000, Experimental Fusion Core ×30,000
-- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; 탄약: Advanced Plasma ×30,000, Ultra Core ×60,000, Experimental Fusion Core ×50,000
-- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; 탄약: Advanced Plasma ×40,000, Ultra Core ×90,000, Experimental Fusion Core ×75,000
-- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; 탄약: Advanced Plasma ×50,000, Ultra Core ×100,000, Experimental Fusion Core ×100,000
+- **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; 탄약: Advanced Plasma ×15,000, Ultra Core ×3,750, Experimental Fusion Core ×15,000
+- **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; 탄약: Advanced Plasma ×37,500, Ultra Core ×15,000, Experimental Fusion Core ×22,500
+- **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; 탄약: Advanced Plasma ×22,500, Ultra Core ×45,000, Experimental Fusion Core ×37,500
+- **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; 탄약: Advanced Plasma ×30,000, Ultra Core ×67,500, Experimental Fusion Core ×56,250
+- **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; 탄약: Advanced Plasma ×37,500, Ultra Core ×75,000, Experimental Fusion Core ×75,000
 - **Heartshard**: 시즌 중 각 게이트를 처음 클리어할 때 1개, 클리어할 때마다 5% 확률로 1개 추가.
 
 <!-- solo-pay:end -->

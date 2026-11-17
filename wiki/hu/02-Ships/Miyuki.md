@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 4734fe19223e935e -->
+<!-- wiki-i18n source: 5ac83735773f6626 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -65,7 +65,7 @@ Egy kapcsolat 5 másodpercig tart, és a csoportod vagy a vállalatod egy hajój
 
 ## Kutatás {#research}
 
-- **Szintek.** A Miyuki II.–V. külön technológia a Skylabben, mindegyik az alatta lévő szint mögött: 1 nap a II.-hoz és a III.-hoz, 2 nap a IV.-hez és az V.-höz, és mindegyikhez 10 Dark Matter.
+- **Szintek.** A Miyuki II.–V. külön technológia a Skylabben, mindegyik az alatta lévő szint mögött: 1 nap a II.-hoz és a III.-hoz, 2 nap a IV.-hez és az V.-höz, és mindegyikhez 10 Dark Matter. A Kutatás nézetben az öt szint egymás alatt jelenik meg, minden szinttől nyíl mutat a következőre: a II.-at az I. után, a III.-at a II. után, a IV.-et a III. után, az V.-et pedig a IV. után kutatod.
 - **Foglalatok.** A páncélzatfoglalatok, a hatodiktól kezdve a lézerfoglalatok és a kilencediktől kezdve a generátorfoglalatok külön technológiák a Skylabben, egyenként 1 óra és 10 Dark Matter: az 1–9. páncélzatfoglalat az elsőtől kezdve sorban, a 6–9. lézerfoglalat (mindegyik a saját szintje mögött) és a 9–12. generátorfoglalat (mindegyik az V. szint mögött). A foglalat azonnal megnyílik a hajón, bármelyik szinten van is, amint kikutattad; amelyiket még nem, azt zárolva mutatja a Hangár.
 - **Páncélzatfoglalatok.** A Miyukinak az I. szinten 5, az V. szinten 9 [páncélzatfoglalata](/wiki/06-Items/Hull-Plating.md#hull-plate-slots) van [hajótest-páncélzatnak](/wiki/06-Items/Hull-Plating.md) számára, mind zárolva, amikor elkészíted. Mind a 9 Hull Plating III-mal megtöltve 225 000 hajótestet ad hozzá.
 

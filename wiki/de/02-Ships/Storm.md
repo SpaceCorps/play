@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: bd0d692d35eb54e3 -->
+<!-- wiki-i18n source: 4f623748df04b99c -->
 <!-- wiki-i18n title: Storm -->
 # Storm
 
@@ -32,9 +32,9 @@ Die Storm ist eine Glaskanone: das höchste Grundtempo und die meisten Laser all
 
 | Design | Was es ändert |
 | :--- | :--- |
-| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, Blink |
-| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, Heal Pod |
-| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon |
+| **Storm NOTSUM** | -10 % Basis-Hülle, +50 Basis-Tempo, +2 % Tempo, +5 % Gesamtschaden, Blink |
+| **Storm BRATAN** | -50 Basis-Tempo, +2 Laser-Slots, -25 % Schildkapazität, +10 % Schilddurchdringung, +5 % Gesamtschaden, Heal Pod |
+| **Storm RECON** | -20 % Basis-Hülle, +5 % Tempo, -1 Laser-Slot, Chameleon, Target, Slow |
 
 <!-- research-ship:begin -->
 <!-- Generated from server/Resources/{Research,CpuConfig,SkylabConfig}.json and Data/Seeds/{items,recipes}.json by scripts/research-wiki.sh: don't edit by hand. -->

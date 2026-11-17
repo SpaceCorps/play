@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: e80e094ebed5e1fc -->
+<!-- wiki-i18n source: 05a73168e3b3eb9d -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -53,4 +53,4 @@ Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ä
 ## Boosters
 
 - **Loot Luck Booster** (och den permanenta buffen Luck Boost, och turen hos dina dockade [P.E.T.s](/wiki/03-Mechanics/Pets.md)) höjer chansen för varje bytespost när piloten gör nedskjutningen. Din färdighet [Instinkt](/wiki/03-Mechanics/Pilot-Skills.md#the-stats) lägger också till den chansen, utöver boosterns.
-- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, för hand eller med en Retriever, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den. Bara din egen färdighet Antimatter lägger till Dark Matter (upp till +25 % på nivå 100); utan den blir fem N.I.K.E.-raketer tio Dark Matter.
+- **Resource Magnet Booster** lägger till **25 %** på resurserna i varje låda du plockar upp, för hand eller med en Retriever, vem som än gjorde nedskjutningen. Dark Matter är undantaget: Magneten lägger inget till den. Bara din egen färdighet Antimatter lägger till Dark Matter (upp till +100 % på nivå 100); utan den blir fem N.I.K.E.-raketer tio Dark Matter.

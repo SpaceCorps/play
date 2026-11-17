@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 751b1fcf59c005f9 -->
+<!-- wiki-i18n source: f160720381107f8f -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -32,10 +32,10 @@ Kabul ettiğinde **Grup penceresi** açılır (**B** tuşu ya da araç çubuğun
 Bir üye bir uzaylıyı yok ettiğinde (ya da uzaylının [sahiplenmesi](/wiki/03-Mechanics/Combat.md) sayesinde onun için ödeme aldığında), ödüller (kredi, Thulium, deneyim ve onur) şu üyeler arasında paylaşılır:
 
 - **aynı haritada** (aynı dünyada) olanlar,
-- **hayatta** olup enkaza **4.000 birim** mesafe içinde bulunanlar ve
+- **hayatta** olup enkaza **8.000 birim** mesafe içinde bulunanlar ve
 - **ateş edenler**: son 15 saniye içinde herhangi bir şeye lazer ya da roket ateşlemiş olanlar.
 
-Herkes, şirketi ne olursa olsun **seviyesiyle** orantılı bir pay alır (krediler ve onur her pilotun kendisinindir; hiçbir şirket pay almaz): 15. seviye bir pilotla 5. seviye bir arkadaşı varsa paylar %75 ve %25 olur. Her kredi dağıtılır: payların aşağı yuvarlanmasından sonra artan, öldürmeyi yapan pilota gider. Ödülün tamamı öldürenin kendi ödülüdür: onun boosterları, dünyasının çarpanı ve Premium durumu uygulanır; bir arkadaşınkiler uygulanmaz. Tek başına ya da menzilde başka kimse yokken bir öldürme her zaman ödediğini öder. Savaşın yakınında ateş etmeden duran pilot pay almaz.
+Herkes, şirketi ne olursa olsun **seviyesiyle** orantılı bir pay alır (krediler ve onur her pilotun kendisinindir; hiçbir şirket pay almaz): 15. seviye bir pilotla 5. seviye bir arkadaşı varsa paylar %75 ve %25 olur. Her kredi dağıtılır: payların aşağı yuvarlanmasından sonra artan, öldürmeyi yapan pilota gider. Ödülün tamamı öldürenin kendi ödülüdür: onun boosterları ve dünyasının çarpanı uygulanır; bir arkadaşınkiler uygulanmaz. Tek başına ya da menzilde başka kimse yokken bir öldürme her zaman ödediğini öder. Savaşın yakınında ateş etmeden duran pilot pay almaz.
 
 Öldürmenin bildirimi bunu söyler: öldürenin kendi **ÖDÜLLER** satırı payını gösterir, ardından “Ödüller 2 grup üyesiyle paylaşıldı: senin payın %40” gelir; pay alan bir arkadaş ise miktarlarla birlikte “*Uzaylı*, *pilot* tarafından yok edildi; grubunun payı sana ödül kazandırıyor” yazısını okur. Bildirimler Oyun Günlüğü’nde görünür.
 
@@ -43,7 +43,7 @@ Yalnızca öldürene kalanlar: **kargo kutusu** (ganimet ve kaynaklar; bir [Clan
 
 ## Görevleri paylaşma {#sharing-missions}
 
-Bir öldürme, aynı haritada olan ve **son 15 saniyede herhangi bir şeye lazer ya da roket ateşlemiş** her diğer üyenin **öldürme görevlerine** de sayılır; haritanın neresinde olurlarsa olsunlar, sanki uzaylıyı kendileri yok etmiş gibi. Kararı yine görevin kendi kuralları verir: uzaylı görevin istediği türde olmalı ve sektör görevin belirttiği sektör olmalıdır. Ateş etmeyen ya da başka bir haritada olan bir arkadaş sayım almaz. Görevler kendi şirketinin kurallarını korur: “başka bir şirketin 4. sektöründe” öldürme isteyen bir görev, o sektörün başka bir şirkete ait olduğu üyeye sayılır. Bir arkadaşının öldürmesi görevlerinden birine sayıldığında, bir bildirim hangi göreve sayıldığını söyler. [Meydan okuma hattında](/wiki/03-Mechanics/Quests.md#where-it-counts) bir üyenin sayılması için enkaza **4.000 birim** mesafe içinde de olması gerekir; görev eşyası olan bir göreve sahip her üyenin eşyası ayrı ayrı belirlenir ve yalnızca kendi eşyasını görür: hiç kimse bir eşyayı paylaşamaz.
+Bir öldürme, aynı haritada olan ve **son 15 saniyede herhangi bir şeye lazer ya da roket ateşlemiş** her diğer üyenin **öldürme görevlerine** de sayılır; haritanın neresinde olurlarsa olsunlar, sanki uzaylıyı kendileri yok etmiş gibi. Kararı yine görevin kendi kuralları verir: uzaylı görevin istediği türde olmalı ve sektör görevin belirttiği sektör olmalıdır. Ateş etmeyen ya da başka bir haritada olan bir arkadaş sayım almaz. Görevler kendi şirketinin kurallarını korur: “başka bir şirketin 4. sektöründe” öldürme isteyen bir görev, o sektörün başka bir şirkete ait olduğu üyeye sayılır. Bir arkadaşının öldürmesi görevlerinden birine sayıldığında, bir bildirim hangi göreve sayıldığını söyler. [Meydan okuma hattında](/wiki/03-Mechanics/Quests.md#where-it-counts) bir üyenin sayılması için enkaza **8.000 birim** mesafe içinde de olması gerekir; görev eşyası olan bir göreve sahip her üyenin eşyası ayrı ayrı belirlenir ve yalnızca kendi eşyasını görür: hiç kimse bir eşyayı paylaşamaz.
 
 ## Sohbet kanalları {#chat-channels}
 

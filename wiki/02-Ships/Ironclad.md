@@ -30,7 +30,7 @@ The Ironclad is a heavy armored tank: the thickest hull of any ship and the most
 
 | Design | What it changes |
 | :--- | :--- |
-| **Ironclad DUMA** | +20% base hull, -20 base speed, -3 laser slots, +10% shield absorption, Focus Fire |
+| **Ironclad DUMA** | +20% base hull, -20 base speed, -2 laser slots, +15% shield absorption, Focus Fire |
 | **Ironclad TITANIC** | +2 laser slots, +1 core slot, +20% shields, +20% model size, Blink |
 
 <!-- research-ship:begin -->

@@ -13,7 +13,7 @@ A new pilot is not at full strength. At level 1 a laser and a rocket do less tha
 <!-- skills-glance:begin -->
 <!-- Generated from server/Resources/PilotSkills.json by scripts/skills-wiki.sh: don't edit by hand. -->
 
-- **Stats**: 20 stats: 4 attributes and 16 skills in 5 groups
+- **Stats**: 21 stats: 4 attributes and 17 skills in 5 groups
 - **Levels**: 1 to 100. Every pilot starts every stat at level 1, and there is nothing to spend and nothing to respec
 - **Cost of a level**: 40 XP from level 1 to 2, 875 XP from level 50 to 51, 19,157 XP from level 99 to 100; 313,258 XP in all
 - **What a level gives**: A buff grows in a straight line from its value at level 1 to its value at level 100. Nothing is capped
@@ -24,6 +24,7 @@ A new pilot is not at full strength. At level 1 a laser and a rocket do less tha
 - **Hold**: It counts the resource units you pick up after you launch, up to the size its hull tier gives it. It is full from 90% of that, and a full hold makes Heft pay ×1.5. Nothing is ever refused
 - **Hourly soft cap**: Most stats pay full XP only up to a cap an hour, counted in the stat's own unit over the UTC clock hour. Above it an event pays 25% of its XP
 - **Training**: The XP of a skill also pays 10% of itself to its attribute. An attribute at level 100 trains its skills 25% faster than at level 1
+- **Wipe Points**: A stat pays Wipe Points once ever, the first time it reaches level 10 / 25 / 50 / 75 / 100: 2 / 5 / 10 / 20 / 40, so 77 for a stat that reaches level 100. Claim them on the Season page
 
 | Hull tier | Rarity of the ship | Size of the hold |
 | :--- | :--- | ---: |
@@ -62,7 +63,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 |  | Chance a laser volley hits | 80% | 89% |
 | **Rocket tech** (Reflex) | Rocket damage | ×1 | ×1.3 |
 |  | Chance a rocket is a dud | 10% | 1% |
-| **Antimatter** (Instinct) | Dark Matter from pick-ups | ×1 | ×1.25 |
+| **Antimatter** (Instinct) | Dark Matter from pick-ups | ×1 | ×2 |
 
 ### Combat
 
@@ -76,6 +77,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 | **Tactics** (Reflex) | Duration of abilities | ×1 | ×1.2 |
 | **Shield absorption** (Grit) | Absorbance of your shields | +0 points | +5 points |
 | **Healing** (Heft) | Strength of your own repairs and heals | ×1 | ×1.3 |
+| **Cloak Recharge** (Reflex) | Recharge time of your cloak | ×1 | ×0.5 |
 
 ### Ship control
 
@@ -111,6 +113,7 @@ The tables give every buff at level 1 and at the last level; between them a buff
 - **Rockets.** Rocket tech changes the damage of every rocket and the chance that one is a dud ([Rocket tech](/wiki/06-Items/Rockets.md#rocket-tech)).
 - **Taking hits.** Grit takes a share off every hit you take, Evasion adds to the chance that a direct hit does nothing, and Shield absorption adds to the share of a hit that your shields take ([Combat](/wiki/03-Mechanics/Combat.md#grit-and-evasion)). Heft adds to your hull.
 - **Healing.** Healing makes the heals of your own gear stronger: the repair of your Repair Drone, an Emergency Repair and the Heal Pod you drop ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). It trains on the hull your heals restore; healing a ship in a safe zone does not count. The Support Rocket always heals the same fixed amount, at any level, and still pays Healing XP.
+- **Cloaking.** Cloak Recharge shortens the wait after a cloak ends, for a Cloaking CPU ([Extras](/wiki/06-Items/Extras.md#cloaking-cpu)) and for the Chameleon ([Abilities](/wiki/03-Mechanics/Abilities.md)). It trains on the seconds you spend cloaked; none count in a safe zone or while you give no orders.
 - **Abilities.** Reflex shortens the cooldown of your abilities and Tactics makes them last longer ([Abilities](/wiki/03-Mechanics/Abilities.md#pilot-skills)). Sabotage strengthens the poisons.
 - **Mines.** Sabotage adds to the damage of a Mine, and Marksmanship throws it faster and farther ([Extras](/wiki/06-Items/Extras.md#mine)).
 - **Speed.** Thruster theory adds to your speed, on top of the engines and an Afterburner ([Speed](/wiki/03-Mechanics/Speed.md)).
@@ -154,6 +157,7 @@ The table lists what pays XP, stat by stat. The XP is for each unit of what is n
 | **Tactics** (Reflex) | Each ability you press with a hostile in laser range | 2 | 600 XP an hour |
 | **Shield absorption** (Grit) | Each 1% of your maximum shield that enemy hits take | 0.1 | 300 XP an hour |
 | **Healing** (Heft) | Each 1% of a ship's maximum hull that a heal of yours restores | 0.1 | 300 XP an hour |
+| **Cloak Recharge** (Reflex) | Each second you spend cloaked with an order given in the last 1 min, outside the safe zones | 0.1 | None |
 | **Radiation tech** (Grit) | Each second inside a radiation band | 0.2 | None |
 |  | Each 1% of your maximum hull the radiation takes | 1 |  |
 | **Thruster theory** (Heft) | Each second flown above 80% of your ship's speed, twice as much under an Afterburner | 0.1 | None |

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ea5ed5b1e27718af -->
+<!-- wiki-i18n source: 3881f42052d63758 -->
 <!-- wiki-i18n title: Dark Matter -->
 # Dark Matter och Dark Matter Plates {#dark-matter-and-dark-matter-plates}
 
@@ -35,14 +35,14 @@
 2. **Tillverka N.I.K.E. i Monteringen.** En tillverkning ger 5 raketer på 5 minuter för 100 000 krediter, 1 500 Thulium, 20 Ship Fragment, 4 Reinforced Hull Plate och 40 Cataclysite. Du kan bära 20. Se [Raketer](/wiki/06-Items/Rockets.md#the-craft-only-rockets).
 3. **Flyg till Farosektor 4 (`DS-4`).** Det är PvP-sektorn mitt i galaxen, och det svarta hålet hänger i dess exakta mitt i varje värld ([Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). Ingen utomjording och ingen koncernpilot kommer i närheten, men andra piloter gör det. Från säsongsdag 11 lever utomjordingarna i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) i sektorns övre vänstra hörn, långt från din skottlinje.
 4. **Skjut mot det svarta hålet från dess kant.** Strålningen börjar 4 000 enheter från mitten. En N.I.K.E. flyger 4 050 enheter, så du kan skjuta från var som helst mellan 4 000 och 4 380 enheters avstånd. Utan valt mål lägger du pekaren på hålet. Du kan skjuta en raket med 4,6 sekunders mellanrum. Från längre bort hamnar den för kort.
-5. **Plocka upp lådorna.** Varje N.I.K.E. som når hålet ger tillbaka **1, 2 eller 3 Dark Matter** (1 en gång av fyra, 2 varannan gång, 3 en gång av fyra), i en eller två lådor med högst 2. De landar vid kanten av hålets zon, 3 050 till 3 950 enheter från mitten, nära linjen för ditt skott. Flyg till inom 200 enheter från varje låda: upplockningen tar en halv sekund.
+5. **Plocka upp lådorna.** Varje N.I.K.E. som når hålet ger tillbaka **1, 2 eller 3 Dark Matter** (1 en gång av fyra, 2 varannan gång, 3 en gång av fyra), i en låda per enhet, alltså en till tre lådor. De landar vid kanten av hålets zon, 3 050 till 3 950 enheter från mitten, nära linjen för ditt skott. Flyg till inom 200 enheter från varje låda: upplockningen tar en halv sekund.
 6. **Ta den hem.** Dark Matter hamnar i ditt inventarie. På stationen, med landat skepp, kan du lägga till den i forskningscentrumet eller använda den i Monteringen.
 
-Ungefär **5 raketer ger 10 Dark Matter**. Resource Magnet Booster lägger inte till något, så det är lika för alla som inte har tränat färdigheten Antimatter: den lägger till upp till +25 % på nivå 100.
+Ungefär **5 raketer ger 10 Dark Matter**. Resource Magnet Booster lägger inte till något, så det är lika för alla som inte har tränat färdigheten Antimatter: den lägger till upp till +100 % på nivå 100.
 
 ### Så klarar du dig {#keeping-it-safe}
 
-- **Lådorna är dina i 60 sekunder**, och din klans. Därefter får vem som helst på kartan ta dem, och efter 240 sekunder försvinner de. En karta rymmer högst 32 lådor med Dark Matter, och en ny knuffar ut den äldsta av dem.
+- **Lådorna är dina i 60 sekunder**, och din klans. Därefter får vem som helst på kartan ta dem, och efter 240 sekunder försvinner de. En karta rymmer högst 52 lådor med Dark Matter, och en ny knuffar ut den äldsta av dem.
 - **Kanten ligger inne i strålningen.** Där kostar den 0,3 till 0,8 % av ditt skepps totala HP varje sekund, mer ju närmare hålet du är. Ett helt skepp klarar ungefär 2 till 5 minuter; en minut mitt i bandet kostar en tredjedel. Dragningen slutar vid 3 000 enheter, så ingenting drar bort varken dig eller lådorna.
 - **Farosektor 4 är PvP.** En rival kan vänta på din linje: en N.I.K.E. träffar det första skeppet den rör vid (67 500 till 75 000 skada) och hålet får ingenting. En rival kan också vänta på lådorna när dina 60 sekunder är slut. Skjut från kanten, plocka upp lådorna i den ordning du sköt och ta med sällskap.
 - **Andra källor.** En Dormant Pulse i [Dormant-svärmen](/wiki/05-Swarms/Dormant-Swarm.md) tappar 1 till 5 Dark Matter en gång av fem, åt piloten som gjorde mest skada på den. Svärmen kräver en stor grupp. En Inert Mass i [Dormant Swamp](/wiki/03-Mechanics/Dormant-Swamp.md) tappar också lite då och då, men den lever under träskets kanoner. Den stora är [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) i farosektor 4: varje pilot som dess nedskjutning betalar får en privat låda, och nedskjutningens pott på 10 till 20 Dark Matter delas mellan dem efter skada, högst 5 per pilot, så en grupp på fyra eller fler tar hem ungefär 15 per nedskjutning. Den kräver en mycket stor grupp i en PvP-sektor och kommer tillbaka 30 minuter efter att den förstörts.
