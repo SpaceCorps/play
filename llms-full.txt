@@ -18,6 +18,7 @@
 SpaceCorps 2027 is a real-time multiplayer space combat and trading simulation game client. It is built natively on the Space3d engine, engineered by SpaceCorps.
 
 - **Client Language:** Rust 2024 edition.
+- **Platforms:** A game for computers: macOS (universal, Apple silicon and Intel), Windows (x86_64 and ARM64) and Linux (x86_64 and ARM64). The Android and iOS apps are in development and are not available. An early web version for desktop browsers exists (the address is in `web.json`); it was tested only in Chrome on a computer and is not the main way to play.
 - **Rendering Technology:** Native graphics backends via Space3d:
   - macOS: Apple Metal API with native ARM64 Apple Silicon and x86_64 Intel universal binaries.
   - Windows: Direct3D 12 and Vulkan.
@@ -31,7 +32,7 @@ SpaceCorps 2027 is a real-time multiplayer space combat and trading simulation g
 
 AI agents, automated test suites, and scripting environments should invoke this manual for:
 
-1. **Automating Cross-Platform Deployments:**
+1. **Automating Cross-Platform Deployments (macOS, Windows and Linux):**
    Selecting the exact binary asset URL, extracting files, and handling OS security controls without user intervention.
 2. **Deterministic Checksum Validation:**
    Verifying SHA-256 digests against authoritative build artifacts before launching or redistributing packages.

@@ -136,7 +136,15 @@
           "name": "How do I download and install SpaceCorps 2027?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "SpaceCorps 2027 is available for macOS (Universal DMG), Windows 10/11 (ZIP), and Linux (AppImage / tar.gz). Direct download links and verified SHA-256 checksums are published on this page."
+            "text": "SpaceCorps 2027 is a game for computers. It is available for macOS (universal DMG), Windows 10 and 11 (ZIP) and Linux (AppImage and tar.gz). ARM64 packages for Windows and Linux are in the GitHub release. Direct download links and verified SHA-256 checksums for the macOS, Windows and Linux downloads are published on this page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play SpaceCorps 2027 on a phone or tablet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet. SpaceCorps 2027 is a game for computers today. Android and iOS apps are in development and are not available on Google Play or the App Store. An early web version for desktop browsers runs at https://web.spacecorps.xyz; it was tested only in Chrome on a computer and is not the main way to play."
           }
         },
         {
@@ -216,13 +224,6 @@
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "category": "Free to Play"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "ratingCount": "142",
-        "bestRating": "5",
-        "worstRating": "1"
       }
     },
     {
@@ -279,14 +280,7 @@
       "provider": {
         "@id": "https://spacecorps.github.io/#organization"
       },
-      "description": "Cross-platform real-time multiplayer space simulation, dedicated game server cluster, and automated client distribution.",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "142",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
+      "description": "Cross-platform real-time multiplayer space game with a dedicated game server cluster and client downloads for macOS, Windows and Linux.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -427,17 +421,17 @@ if (typeof document !== 'undefined') {
               <span class="btn-sub" id="dl-main-sub">macOS · Windows · Linux</span>
             </span>
           </a>
-          <a class="cta-hint cta-link" href="#download" id="dl-other" data-i18n="hero.all-platforms">All platforms</a>
+          <a class="cta-hint cta-link" href="#download" id="dl-other" data-i18n="hero.all-platforms">All downloads</a>
         </div>
         <div class="cta-choice">
-          <a class="btn btn-play btn-big" id="play-web" href="https://web.spacecorps.xyz/" target="_blank" rel="noopener">
+          <a class="btn btn-secondary" id="play-web" href="https://web.spacecorps.xyz/" target="_blank" rel="noopener">
             <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>
             <span class="btn-stack">
               <span class="btn-label" data-i18n="hero.play-web">Play in browser</span>
               <span class="btn-sub" data-i18n="hero.play-web-sub">Starts in a new tab</span>
             </span>
           </a>
-          <p class="cta-hint" id="play-web-note" data-i18n="hero.play-web-note">Needs a desktop browser with WebGPU or WebGL2. First load about 80&nbsp;MB, no install.</p>
+          <p class="cta-hint" id="play-web-note" data-i18n="hero.play-web-note">Early version, tested only in Chrome on a computer. Needs WebGPU or WebGL2. No gamepad. Japanese, Korean and Chinese texts show as boxes. First load about 80&nbsp;MB.</p>
         </div>
       </div>
       <p class="fineprint" id="dl-note" data-i18n="hero.note">Free download. Needs an internet connection: the game plays on the SpaceCorps server.</p>
@@ -528,7 +522,7 @@ if (typeof document !== 'undefined') {
   <section class="section" id="download" aria-labelledby="download-title">
     <div class="section-head">
       <h2 id="download-title" data-i18n="download.title">Download</h2>
-      <p id="release-line" data-i18n="download.lede">The latest release for every platform.</p>
+      <p id="release-line" data-i18n="download.lede">The latest release for macOS, Windows and Linux.</p>
     </div>
     <p class="notice" id="release-notice" hidden></p>
     <ul class="platforms" role="list">
@@ -578,6 +572,8 @@ if (typeof document !== 'undefined') {
       <span aria-hidden="true">·</span>
       <a href="https://github.com/SpaceCorps/play/releases" data-i18n="download.all-releases">All releases</a>
     </p>
+    <p class="fineprint" data-i18n="download.phones">SpaceCorps 2027 is for computers today. Apps for Android and iOS are in development and are not available yet.</p>
+    <p class="fineprint" data-i18n="download.web">An early web version runs in a desktop browser at web.spacecorps.xyz. It is not the main way to play: it was tested only in Chrome on a computer, has no gamepad, and Japanese, Korean and Chinese texts show as boxes there.</p>
 
     <h3 class="subhead" id="requirements" data-i18n="reqs.title">System requirements</h3>
     <div class="table-wrap card">

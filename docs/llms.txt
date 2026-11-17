@@ -10,7 +10,7 @@
 - SpaceCorps 2027 MMO: https://spacecorps.github.io/play/
 
 ## Core Systems
-1. **SpaceCorps 2027 MMO**: Cross-platform 2D space simulation, client binaries, and multiplayer telemetry.
+1. **SpaceCorps 2027 MMO**: Cross-platform 2D space simulation for macOS, Windows and Linux, client binaries, and multiplayer telemetry.
 2. **Space3d Game Engine**: Pure-Rust wgpu graphics engine with indirect rendering drawing 1,000,000+ instances.
 3. **Space3d-Molecular**: High-performance atomistic molecular dynamics (`spacemd`) and thermal-field electron emission (`spaceemit`).
 4. **Agent Tools**: 23 single-binary Rust command-line tools for multi-agent workflows.

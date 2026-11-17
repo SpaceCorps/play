@@ -201,7 +201,7 @@ p, li, figcaption, td { text-wrap: pretty; }
 .btn-primary:active { background: var(--accent-pressed); }
 .btn-secondary { background: rgba(255, 255, 255, 0.07); color: var(--text); border-color: var(--border); }
 .btn-secondary:hover { background: rgba(255, 255, 255, 0.11); color: var(--text); }
-/* Play in browser: as big as the download, outlined in the accent so the two read as equals. */
+/* Play in browser (an early version, not the main way to play): a plain secondary button, smaller than the download. Kept for the outlined variant. */
 .btn-play { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
 .btn-play:hover { background: rgba(217, 119, 87, 0.26); color: var(--text); }
 .btn-play:active { background: rgba(217, 119, 87, 0.34); }
