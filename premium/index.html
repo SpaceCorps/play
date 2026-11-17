@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Premium · SpaceCorps 2027</title>
+<meta name="description" content="Support the developers of SpaceCorps 2027 with Premium, 30 days at a time or as a monthly subscription. Sign in with your game account.">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src https://spacecorps-game.sliplane.app; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<link rel="canonical" href="https://spacecorps.github.io/play/premium/">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="premium.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../" aria-label="SpaceCorps 2027, the download page">
+      <img src="../img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="../">Download</a>
+      <a href="../privacy/">Privacy</a>
+      <a href="terms/">Terms of sale</a>
+    </nav>
+  </div>
+</header>
+
+<main class="premium" id="top">
+  <p class="eyebrow">Support the game</p>
+  <h1>Premium</h1>
+  <p class="lede">Premium is the main way to support the developers of SpaceCorps.</p>
+  <div class="rules">
+    <p>Premium features change from time to time. Premium never offers any competitive advantage.</p>
+    <p>You also get Premium for free by playing: Premium days are awarded at the end of each wipe (season) you play, depending on how far you got.</p>
+    <p>Premium currently gives no gameplay advantage and no extra features. Features may be added over time; what Premium gives is always shown in the game, on the server you are connected to.</p>
+  </div>
+
+  <noscript><p class="msg msg-error">This page needs JavaScript to sign in and to pay.</p></noscript>
+
+  <!-- the result of the last step: thank you, nothing was charged, a problem -->
+  <p class="msg" id="banner" role="status" aria-live="polite" hidden></p>
+
+  <section class="block" id="signed-out" aria-labelledby="signin-title">
+    <h2 id="signin-title">Sign in with your game account</h2>
+    <p class="intro">Use the user name and password of your SpaceCorps account. They go to the game server and nowhere else, and this page does not keep them. Don&rsquo;t have an account yet? Create one in the game first.</p>
+    <div class="card panel">
+      <form class="form" id="signin-form" novalidate>
+        <div class="field">
+          <label for="user">User name</label>
+          <input id="user" name="username" type="text" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" required>
+        </div>
+        <div class="field">
+          <label for="pass">Password</label>
+          <input id="pass" name="password" type="password" autocomplete="current-password" required>
+        </div>
+        <button class="btn btn-primary" type="submit" id="signin-btn">Sign in</button>
+        <p class="msg msg-error" id="signin-msg" role="alert" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="block" id="signed-in" aria-labelledby="account-title" hidden>
+    <h2 id="account-title">Your account</h2>
+    <div class="card panel">
+      <div class="who">
+        <div>
+          <div class="who-label">Signed in as</div>
+          <div class="who-name" id="who-name"></div>
+        </div>
+        <button class="btn btn-secondary" type="button" id="signout">Sign out</button>
+      </div>
+      <div class="state">
+        <div>Premium: <span class="badge badge-off" id="premium-badge">not running</span> <span id="premium-until"></span></div>
+        <div>Subscription: <span id="sub-state">checking&hellip;</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="buy-title">
+    <h2 id="buy-title">Get Premium</h2>
+    <p class="intro" id="buy-intro">Two ways to pay. Payment is taken by Stripe; you never type a card number on this page. Nothing else is sold.</p>
+    <ul class="products">
+      <li class="card product">
+        <h3>Premium, 30 days</h3>
+        <div class="price"><span class="price-amount">$14.99</span><span class="price-unit">one time</span></div>
+        <p class="what">30 days of Premium for one payment. Buy it again to add 30 more days on top of the days you have left.</p>
+        <p class="terms-note" id="note-premium">Purchases are processed by Stripe, the seller of record. Prices include VAT and other taxes where they apply; Stripe calculates and collects them. Refunds, receipts and cancellations are handled by Stripe under its refund policy and the consumer law that applies to you: the contact details are on your receipt.</p>
+        <label class="agree" for="agree-premium">
+          <input type="checkbox" id="agree-premium">
+          <span>I agree to the <a href="terms/" target="_blank" rel="noopener">terms of sale</a></span>
+        </label>
+        <div class="product-actions">
+          <button class="btn btn-primary" type="button" id="buy-premium" disabled>Buy 30 days for $14.99</button>
+          <p class="hint" id="hint-premium">Sign in above to buy.</p>
+        </div>
+      </li>
+      <li class="card product">
+        <h3>Premium subscription</h3>
+        <div class="price"><span class="price-amount">$9.99</span><span class="price-unit">per month, cancel any time</span></div>
+        <p class="what">A payment every month, 30 days of Premium each time. Cancel any time.</p>
+        <p class="terms-note" id="note-sub">Purchases are processed by Stripe, the seller of record. Prices include VAT and other taxes where they apply; Stripe calculates and collects them. Refunds, receipts and cancellations are handled by Stripe under its refund policy and the consumer law that applies to you: the contact details are on your receipt. A subscription renews every month until you cancel it under Manage subscription; cancelling stops future charges.</p>
+        <label class="agree" for="agree-sub">
+          <input type="checkbox" id="agree-sub">
+          <span>I agree to the <a href="terms/" target="_blank" rel="noopener">terms of sale</a></span>
+        </label>
+        <div class="product-actions">
+          <button class="btn btn-primary" type="button" id="buy-sub" disabled>Subscribe for $9.99 per month</button>
+          <p class="hint" id="hint-sub">Sign in above to subscribe.</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="card manage" id="manage" hidden>
+      <p>You have a subscription. Manage it at Stripe: cancel it, change your card, or see your invoices.</p>
+      <button class="btn btn-secondary" type="button" id="manage-btn">Manage subscription</button>
+    </div>
+  </section>
+
+  <section class="block" aria-labelledby="how-title">
+    <h2 id="how-title">Good to know</h2>
+    <ul class="facts-list">
+      <li><strong>It is for your pilot.</strong> Premium belongs to the game account you sign in with here.</li>
+      <li><strong>It ends by itself.</strong> A one-time purchase adds 30 days. A subscription adds 30 days each month it is paid, and stops when you cancel.</li>
+      <li><strong>Stripe handles the payment.</strong> Receipts, refunds and cancellations go through Stripe. Read the <a href="terms/">terms of sale</a> before you pay.</li>
+    </ul>
+  </section>
+
+  <p class="legal">Prices are in US dollars. Payments are handled by Stripe, the seller of record, who show you the full price before you pay. We never see your card number. Read the <a href="terms/">terms of sale</a> and the <a href="../privacy/">privacy policy</a>. Questions about a payment: <a href="https://discord.gg/VjW67tkrTb">our Discord</a> or an issue on <a href="https://github.com/SpaceCorps/play/issues">GitHub</a>; please don&rsquo;t post private details in public.</p>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="../img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere">
+      <a href="../">Download</a>
+      <a href="terms/">Terms of sale</a>
+      <a href="../privacy/">Privacy</a>
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="https://github.com/SpaceCorps/play/issues">Report a problem</a>
+    </nav>
+    <p class="footer-note">No cookies, no trackers. Signing in keeps a token in this tab only, and signing out or closing the tab removes it.</p>
+  </div>
+</footer>
+
+<script src="premium.js"></script>
+</body>
+</html>
