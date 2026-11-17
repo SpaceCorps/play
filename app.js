@@ -3,10 +3,17 @@
 // server is up, and write the patch notes' dates in the visitor's language. The patch notes
 // page (patchnotes.html) has the top bar only: no downloads there. Texts come from i18n.js (keys in i18n/<language>.json), and are written again
 // when the visitor switches languages. No cookies, no third parties: the only requests are
-// release.json, web.json, the language files and the game server's /health; the only thing kept
-// is the visitor's language pick (i18n.js). The hero's second button, Play in browser, opens the
-// web version of the game: its address is web.json's "url" (DEFAULT_WEB until that file says
-// otherwise), and it always links, even while the web version isn't hosted yet.
+// release.json, web.json, android.json (only when the release lists the Android package), the
+// language files and the game server's /health; the only thing kept is the visitor's language
+// pick (i18n.js). The hero's second button, Play in browser, opens the web version of the game:
+// its address is web.json's "url" (DEFAULT_WEB until that file says otherwise), and it always
+// links, even while the web version isn't hosted yet.
+//
+// Android: the early-access APK is offered only when release.json lists it (APK below). Until
+// then the page says what it said before: phone apps are in development. Nothing about Android
+// is shown, linked or claimed from the static page alone (the Android card, its help and the
+// requirements column are `hidden` in index.html and opened here), so a release without the
+// package, or a release.json that does not load, leaves no dead link behind.
 (() => {
   'use strict';
 
@@ -14,10 +21,13 @@
   const LATEST = RELEASES + '/latest/download/';
   const DEFAULT_SERVER = 'https://spacecorps-game.sliplane.app';
   const DEFAULT_WEB = 'https://web.spacecorps.xyz/'; // placeholder until the web version is hosted
+  const APK = 'SpaceCorps2027-android-aarch64.apk';
   const PLATFORMS = {
     macos: { asset: 'SpaceCorps2027-macos-universal.dmg', name: 'macOS', sub: 'hero.sub.macos', help: 'help-macos' },
     windows: { asset: 'SpaceCorps2027-windows-x86_64.zip', name: 'Windows', sub: 'hero.sub.windows', help: 'help-windows' },
     linux: { asset: 'SpaceCorps2027-linux-x86_64.AppImage', name: 'Linux', sub: 'hero.sub.linux', help: 'help-linux' },
+    // optional: a release may not have it, so nothing is offered until release.json lists it.
+    android: { asset: APK, name: 'Android', sub: 'hero.sub.android', help: 'help-android', optional: true },
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -32,13 +42,17 @@
   const setText = (el, text) => { if (el && typeof text === 'string') el.textContent = text; };
   const setLabel = (el, text) => { if (el && typeof text === 'string') el.setAttribute('aria-label', text); };
 
+  // 'android' and 'ios' are phones and tablets we know; 'mobile' is any other phone (a browser that
+  // says "mobile" and is neither). A Linux desktop with a touch screen is a Linux desktop.
   function detectOS() {
     const uaData = navigator.userAgentData;
     const platform = (uaData && uaData.platform) || navigator.platform || '';
     const ua = navigator.userAgent || '';
-    if ((uaData && uaData.mobile) || /android|iphone|ipad|ipod/i.test(ua)) return 'mobile';
+    if (/android/i.test(platform) || /android/i.test(ua)) return 'android';
+    if (/iphone|ipad|ipod/i.test(ua) || /^(iphone|ipad|ipod)/i.test(platform)) return 'ios';
     // iPadOS asks for desktop pages as a Mac with a touch screen.
-    if (/mac/i.test(platform) && navigator.maxTouchPoints > 1) return 'mobile';
+    if (/mac/i.test(platform) && navigator.maxTouchPoints > 1) return 'ios';
+    if (uaData && uaData.mobile) return 'mobile';
     if (/win/i.test(platform) || /windows nt/i.test(ua)) return 'windows';
     if (/mac/i.test(platform) || /mac os x/i.test(ua)) return 'macos';
     if (/cros/i.test(ua)) return 'other';
@@ -95,15 +109,20 @@
   // ----- platform and release -----
   const downloads = Boolean($('#dl-main')); // the main page, not patchnotes.html
   const os = detectOS();
+  const phone = os === 'android' || os === 'ios' || os === 'mobile';
   const mine = PLATFORMS[os];
   let release = null; // release.json once it is in
   let assets = null; // name -> {size, sha256}
+  let signer = null; // SHA-256 of the Android signing certificate (android.json), once known
+
+  const hasApk = () => Boolean(assets && assets[APK]);
 
   // The big button: the visitor's package when the release has it (or before release.json is
-  // in, trusting the static links), else a jump to the platform list.
+  // in, trusting the static links), else a jump to the platform list. An optional package
+  // (Android) is offered only once release.json says the release has it.
   function offered() {
     if (!mine) return null;
-    if (!assets) return {};
+    if (!assets) return mine.optional ? null : {};
     return assets[mine.asset] || null;
   }
 
@@ -121,6 +140,12 @@
     paintMain();
   }
 
+  // The line under the hero's buttons for a phone: what is true for this phone and this release.
+  function phoneNote() {
+    if (!hasApk()) return 'hero.note-mobile';
+    return os === 'android' ? 'hero.note-android' : 'hero.note-mobile-apk';
+  }
+
   function paintMain() {
     if (!texts || !downloads) return;
     const a = offered();
@@ -132,12 +157,12 @@
       setText($('#dl-main-sub'), parts.filter(Boolean).join(' · '));
       setText($('#dl-other'), t('hero.other-platforms'));
     } else {
-      setText($('#dl-main-label'), os === 'mobile' ? t('hero.download-mobile') : t('hero.download'));
+      setText($('#dl-main-label'), phone ? t('hero.download-mobile') : t('hero.download'));
       setText($('#dl-main-sub'), 'macOS · Windows · Linux');
       setText($('#dl-other'), t('hero.all-platforms'));
     }
-    if (os === 'mobile') {
-      setText($('#dl-note'), t('hero.note-mobile'));
+    if (phone) {
+      setText($('#dl-note'), t(phoneNote()));
       // The web version needs a desktop browser: on a phone the button stays, but quieter.
       setText($('#play-web .btn-sub'), t('hero.play-web-sub-mobile'));
     }
@@ -166,8 +191,50 @@
       dd.appendChild(b);
     });
     if (release.server) setServer(release.server);
+    showAndroid(hasApk());
     renderMain();
     paintRelease();
+  }
+
+  // Everything about the Android package is marked data-android and `hidden` in index.html: it
+  // appears only for a release that lists the package (and the table gets its fourth column).
+  function showAndroid(on) {
+    $$('[data-android]').forEach((el) => { el.hidden = !on; });
+    const table = $('.reqs');
+    if (table) table.classList.toggle('has-android', on);
+    if (on) loadSigner();
+  }
+
+  // The fingerprint of the key that signs the APK: a fact the site cannot read from release.json,
+  // set by hand in android.json (like web.json) once the key exists. Not there, or not a SHA-256:
+  // the rows and the sentence that show it stay hidden, and nothing is claimed.
+  let signerAsked = false;
+  function loadSigner() {
+    if (signerAsked) return;
+    signerAsked = true;
+    fetch('android.json', { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(r.status))))
+      .then((json) => {
+        const hex = json && typeof json.signer_sha256 === 'string' ? json.signer_sha256.replace(/[\s:]/g, '').toLowerCase() : '';
+        if (!/^[0-9a-f]{64}$/.test(hex)) return;
+        signer = hex;
+        paintSigner();
+      })
+      .catch(() => { /* keep the rows hidden */ });
+  }
+
+  function paintSigner() {
+    if (!signer) return;
+    $$('[data-signer]').forEach((el) => { el.hidden = false; });
+    $$('.signer-hex').forEach((el) => { el.textContent = signer; el.title = signer; });
+    const dd = $('.signer');
+    if (dd && !$('.copy', dd)) {
+      const b = copyButton();
+      wireCopy(b, () => signer, () => t('download.copy-signer'));
+      dd.appendChild(b);
+    }
+    const b = $('.signer .copy');
+    if (b && texts && !b.classList.contains('done')) setLabel(b, t('download.copy-signer'));
   }
 
   function paintRelease() {
@@ -182,6 +249,13 @@
       const n = $('#release-notice');
       setText(n, t('download.coming'));
       n.hidden = false;
+    }
+    // The line under the download cards: phone apps in development, or the early-access Android app.
+    const phones = $('#phones-line');
+    if (phones) {
+      const key = hasApk() ? 'download.phones-apk' : 'download.phones';
+      phones.setAttribute('data-i18n', key);
+      setText(phones, t(key));
     }
     $$('.platform').forEach((card) => {
       const a = assets[card.dataset.asset];
@@ -210,7 +284,7 @@
 
     renderMain();
     $('#play-web').href = DEFAULT_WEB;
-    if (os === 'mobile') {
+    if (phone) {
       $('#play-web').classList.replace('btn-play', 'btn-secondary');
       $('#play-web .btn-sub').setAttribute('data-i18n', 'hero.play-web-sub-mobile');
     }
@@ -330,6 +404,7 @@
       texts = true;
       paintMain();
       paintRelease();
+      paintSigner();
       paintStatus();
       paintDates();
     });
