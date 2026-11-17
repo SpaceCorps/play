@@ -1,6 +1,6 @@
 # SpaceCorps 2027 · Agent Integration & Download Specification
 
-> Machine-readable interface, release package telemetry, and system orchestration manual for SpaceCorps 2027, a space MMO for macOS, Windows and Linux, built on the Space3d engine.
+> Machine-readable interface, release package telemetry, and system orchestration manual for SpaceCorps 2027, a cross-platform space MMO simulator for macOS, Windows and Linux, built on the Space3d engine.
 
 - Canonical URL: https://spacecorps.github.io/play/
 - Markdown Representation: https://spacecorps.github.io/play/index.md

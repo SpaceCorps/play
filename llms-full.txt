@@ -32,7 +32,7 @@ SpaceCorps 2027 is a real-time multiplayer space combat and trading simulation g
 
 AI agents, automated test suites, and scripting environments should invoke this manual for:
 
-1. **Automating installs on macOS, Windows and Linux:**
+1. **Automating Cross-Platform Deployments (macOS, Windows and Linux):**
    Selecting the exact binary asset URL, extracting files, and handling OS security controls without user intervention.
 2. **Deterministic Checksum Validation:**
    Verifying SHA-256 digests against authoritative build artifacts before launching or redistributing packages.
