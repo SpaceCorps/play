@@ -1,7 +1,7 @@
 {
   "name": "SpaceCorps 2027",
   "short_name": "SpaceCorps",
-  "description": "Space MMO for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking.",
+  "description": "Cross-platform space MMO simulator for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking.",
   "start_url": "/play/",
   "scope": "/play/",
   "display": "standalone",
