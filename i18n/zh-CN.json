@@ -11,6 +11,7 @@
   "nav.help": "帮助",
   "nav.wiki": "维基",
   "nav.patchnotes": "更新日志",
+  "nav.support": "支持我们",
 
   "lang.button": "语言：{language}",
 
@@ -37,6 +38,8 @@
   "hero.play-web-sub": "在新标签页中打开",
   "hero.play-web-sub-mobile": "请在台式电脑上打开",
   "hero.play-web-note": "早期版本，仅在电脑的 Chrome 中测试过。需要 WebGPU 或 WebGL2。不支持手柄。首次加载约 80 MB。",
+  "hero.support": "支持本项目",
+  "hero.support-sub": "获取 Premium",
   "hero.download-mobile": "请在电脑上游玩",
   "hero.sub.macos": "支持 Apple 芯片和 Intel",
   "hero.sub.windows": "Windows 10 和 11，x64",

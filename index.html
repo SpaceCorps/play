@@ -338,6 +338,7 @@ if (typeof document !== 'undefined') {
   <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="13.5" rx="2"/><path d="M10 8v5.5l4.5-2.75zM8 20.5h8"/></symbol>
   <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5C5.5 16 3 12.6 3 9.2 3 6.6 5 4.5 7.6 4.5c1.7 0 3.4.9 4.4 2.5 1-1.6 2.7-2.5 4.4-2.5C19 4.5 21 6.6 21 9.2c0 3.4-2.5 6.8-9 11.3z"/></symbol>
 </svg>
 
 <div id="agent-mode-view" style="display: none; padding: 3rem 2rem; max-width: 900px; margin: 0 auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #f0f6fc; line-height: 1.6;">
@@ -372,6 +373,7 @@ if (typeof document !== 'undefined') {
       <a href="#help" data-i18n="nav.help">Help</a>
       <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
       <a href="patchnotes.html" data-i18n="nav.patchnotes">Patch notes</a>
+      <a class="nav-support" href="premium/" data-i18n="nav.support">Support project</a>
     </nav>
     <a class="status" href="#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
       <span class="status-dot" aria-hidden="true"></span>
@@ -432,6 +434,15 @@ if (typeof document !== 'undefined') {
             </span>
           </a>
           <p class="cta-hint" id="play-web-note" data-i18n="hero.play-web-note">Early version, tested only in Chrome on a computer. Needs WebGPU or WebGL2. No gamepad. First load about 80&nbsp;MB.</p>
+        </div>
+        <div class="cta-choice cta-support">
+          <a class="btn btn-support btn-big" id="support-main" href="premium/">
+            <svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg>
+            <span class="btn-stack">
+              <span class="btn-label" data-i18n="hero.support">Support the project</span>
+              <span class="btn-sub" data-i18n="hero.support-sub">Get Premium</span>
+            </span>
+          </a>
         </div>
       </div>
       <p class="fineprint" id="dl-note" data-i18n="hero.note">Free download. Needs an internet connection: the game plays on the SpaceCorps server.</p>
@@ -700,7 +711,7 @@ if (typeof document !== 'undefined') {
       <a href="api/keys">API Keys</a>
       <a href="developers.md">Developers</a>
       <a href="privacy/">Privacy</a>
-      <a href="premium/">Support the game</a>
+      <a href="premium/" data-i18n="nav.support">Support project</a>
       <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
       <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
       <a href="llms.txt">llms.txt</a>

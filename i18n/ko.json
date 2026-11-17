@@ -11,6 +11,7 @@
   "nav.help": "도움말",
   "nav.wiki": "위키",
   "nav.patchnotes": "패치 노트",
+  "nav.support": "후원",
 
   "lang.button": "언어: {language}",
 
@@ -37,6 +38,8 @@
   "hero.play-web-sub": "새 탭에서 열립니다",
   "hero.play-web-sub-mobile": "데스크톱 컴퓨터에서",
   "hero.play-web-note": "초기 버전이며, 컴퓨터의 Chrome에서만 테스트했습니다. WebGPU 또는 WebGL2가 필요합니다. 게임패드는 지원하지 않습니다. 첫 로딩은 약 80 MB입니다.",
+  "hero.support": "프로젝트 후원하기",
+  "hero.support-sub": "Premium 받기",
   "hero.download-mobile": "컴퓨터에서 플레이하세요",
   "hero.sub.macos": "Apple 실리콘 및 Intel",
   "hero.sub.windows": "Windows 10 및 11, x64",
