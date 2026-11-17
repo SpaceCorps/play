@@ -11,6 +11,7 @@
   "nav.help": "Hjälp",
   "nav.wiki": "Wiki",
   "nav.patchnotes": "Uppdateringar",
+  "nav.support": "Stöd oss",
 
   "lang.button": "Språk: {language}",
 
@@ -38,6 +39,8 @@
   "hero.play-web-sub": "Öppnas i en ny flik",
   "hero.play-web-sub-mobile": "På en dator",
   "hero.play-web-note": "Tidig version, testad bara i Chrome på en dator. Kräver WebGPU eller WebGL2. Ingen handkontroll. Första laddningen är cirka 80 MB.",
+  "hero.support": "Stöd projektet",
+  "hero.support-sub": "Skaffa Premium",
   "hero.download-mobile": "Spela på datorn",
   "hero.sub.macos": "Apple Silicon och Intel",
   "hero.sub.windows": "Windows 10 och 11, x64",

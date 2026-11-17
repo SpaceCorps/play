@@ -21,6 +21,8 @@
   "@nav.wiki": "Top bar link to the game wiki and pilot codex.",
   "nav.patchnotes": "Patch notes",
   "@nav.patchnotes": "Top bar link to the patch notes page (and the footer's): short, it shares the row with the other section links.",
+  "nav.support": "Support project",
+  "@nav.support": "Top bar link to the Premium page, where players can support the developers: one or two words (it shares the row with the other section links). The footer link uses the same text.",
 
   "lang.button": "Language: {language}",
   "@lang.button": "Screen reader label of the language menu button. {language} is the current language's own name (Deutsch, 日本語).",
@@ -57,6 +59,9 @@
   "hero.play-web-sub": "Starts in a new tab",
   "hero.play-web-sub-mobile": "On a desktop computer",
   "hero.play-web-note": "Early version, tested only in Chrome on a computer. Needs WebGPU or WebGL2. No gamepad. First load about 80 MB.",
+  "hero.support": "Support the project",
+  "@hero.support": "The third button under the hero text: opens the Premium page, the way to support the developers. A short call to action; the line under it says what the page is (Premium: keep the word Premium).",
+  "hero.support-sub": "Get Premium",
   "hero.download-mobile": "Get it on your computer",
   "@hero.download-mobile": "The big button on a phone or tablet: it jumps to the download list.",
   "hero.sub.macos": "Apple silicon and Intel",

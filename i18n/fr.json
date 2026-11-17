@@ -11,6 +11,7 @@
   "nav.help": "Aide",
   "nav.wiki": "Wiki",
   "nav.patchnotes": "Notes de patch",
+  "nav.support": "Soutenir",
 
   "lang.button": "Langue\u00a0: {language}",
 
@@ -38,6 +39,8 @@
   "hero.play-web-sub": "S’ouvre dans un nouvel onglet",
   "hero.play-web-sub-mobile": "Sur un ordinateur de bureau",
   "hero.play-web-note": "Version préliminaire, testée uniquement dans Chrome sur un ordinateur. Nécessite WebGPU ou WebGL2. Pas de manette. Premier chargement d’environ 80 Mo.",
+  "hero.support": "Soutenir le projet",
+  "hero.support-sub": "Obtenir Premium",
   "hero.download-mobile": "Jouez sur ordinateur",
   "hero.sub.macos": "Apple silicon et Intel",
   "hero.sub.windows": "Windows 10 et 11, x64",

@@ -11,6 +11,7 @@
   "nav.help": "ヘルプ",
   "nav.wiki": "Wiki",
   "nav.patchnotes": "パッチノート",
+  "nav.support": "支援",
 
   "lang.button": "言語：{language}",
 
@@ -37,6 +38,8 @@
   "hero.play-web-sub": "新しいタブで開きます",
   "hero.play-web-sub-mobile": "デスクトップパソコンで",
   "hero.play-web-note": "初期バージョンで、パソコンの Chrome でのみテストしています。WebGPU または WebGL2 が必要です。ゲームパッドは使えません。初回の読み込みは約80 MB です。",
+  "hero.support": "プロジェクトを支援する",
+  "hero.support-sub": "Premium を入手",
   "hero.download-mobile": "パソコンでプレイ",
   "hero.sub.macos": "Apple シリコン・Intel 対応",
   "hero.sub.windows": "Windows 10・11、x64",

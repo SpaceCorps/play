@@ -11,6 +11,7 @@
   "nav.help": "Ajuda",
   "nav.wiki": "Wiki",
   "nav.patchnotes": "Atualizações",
+  "nav.support": "Apoiar",
 
   "lang.button": "Idioma: {language}",
 
@@ -38,6 +39,8 @@
   "hero.play-web-sub": "Abre em uma nova aba",
   "hero.play-web-sub-mobile": "Em um computador de mesa",
   "hero.play-web-note": "Versão inicial, testada apenas no Chrome em um computador. Requer WebGPU ou WebGL2. Sem suporte a gamepad. O primeiro carregamento tem cerca de 80 MB.",
+  "hero.support": "Apoie o projeto",
+  "hero.support-sub": "Obter Premium",
   "hero.download-mobile": "Baixe no seu computador",
   "hero.sub.macos": "Apple Silicon e Intel",
   "hero.sub.windows": "Windows 10 e 11, x64",

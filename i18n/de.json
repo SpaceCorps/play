@@ -11,6 +11,7 @@
   "nav.help": "Hilfe",
   "nav.wiki": "Wiki",
   "nav.patchnotes": "Patchnotes",
+  "nav.support": "Unterstützen",
 
   "lang.button": "Sprache: {language}",
 
@@ -38,6 +39,8 @@
   "hero.play-web-sub": "Startet in einem neuen Tab",
   "hero.play-web-sub-mobile": "Auf einem Desktop-Computer",
   "hero.play-web-note": "Frühe Version, nur in Chrome auf einem Computer getestet. Braucht WebGPU oder WebGL2. Kein Gamepad. Der erste Start lädt etwa 80 MB.",
+  "hero.support": "Das Projekt unterstützen",
+  "hero.support-sub": "Premium holen",
   "hero.download-mobile": "Auf dem Computer spielen",
   "hero.sub.macos": "Apple Silicon und Intel",
   "hero.sub.windows": "Windows 10 und 11, x64",

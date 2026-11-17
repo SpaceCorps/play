@@ -11,6 +11,7 @@
   "nav.help": "Помощь",
   "nav.wiki": "Вики",
   "nav.patchnotes": "Обновления",
+  "nav.support": "Поддержать",
 
   "lang.button": "Язык: {language}",
 
@@ -40,6 +41,8 @@
   "hero.play-web-sub": "Откроется в новой вкладке",
   "hero.play-web-sub-mobile": "На настольном компьютере",
   "hero.play-web-note": "Ранняя версия, проверена только в Chrome на компьютере. Нужен WebGPU или WebGL2. Геймпад не поддерживается. Первая загрузка: около 80 МБ.",
+  "hero.support": "Поддержать проект",
+  "hero.support-sub": "Получить Premium",
   "hero.download-mobile": "Играйте на компьютере",
   "hero.sub.macos": "Apple Silicon и Intel",
   "hero.sub.windows": "Windows 10 и 11, x64",
