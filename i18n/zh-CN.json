@@ -36,7 +36,7 @@
   "hero.play-web": "在浏览器中玩",
   "hero.play-web-sub": "在新标签页中打开",
   "hero.play-web-sub-mobile": "请在台式电脑上打开",
-  "hero.play-web-note": "早期版本，仅在电脑的 Chrome 中测试过。需要 WebGPU 或 WebGL2。不支持手柄。日文、韩文和中文文本会显示为方框。首次加载约 80 MB。",
+  "hero.play-web-note": "早期版本，仅在电脑的 Chrome 中测试过。需要 WebGPU 或 WebGL2。不支持手柄。首次加载约 80 MB。",
   "hero.download-mobile": "请在电脑上游玩",
   "hero.sub.macos": "支持 Apple 芯片和 Intel",
   "hero.sub.windows": "Windows 10 和 11，x64",
@@ -94,7 +94,7 @@
   "download.copy-sha": "复制 {file} 的 SHA-256",
   "download.all-releases": "所有版本",
   "download.phones": "SpaceCorps 2027 目前是电脑游戏。Android 和 iOS 应用正在开发中，暂时还不能使用。",
-  "download.web": "早期的网页版可在桌面浏览器中通过 web.spacecorps.xyz 运行。它不是主要的游玩方式：仅在电脑的 Chrome 中测试过，不支持手柄，日文、韩文和中文文本在其中会显示为方框。",
+  "download.web": "早期的网页版可在桌面浏览器中通过 web.spacecorps.xyz 运行。它不是主要的游玩方式：仅在电脑的 Chrome 中测试过，不支持手柄。",
 
   "reqs.title": "系统要求",
   "reqs.caption": "各平台的最低系统要求",

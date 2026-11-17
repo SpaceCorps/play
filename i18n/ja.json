@@ -36,7 +36,7 @@
   "hero.play-web": "ブラウザでプレイ",
   "hero.play-web-sub": "新しいタブで開きます",
   "hero.play-web-sub-mobile": "デスクトップパソコンで",
-  "hero.play-web-note": "初期バージョンで、パソコンの Chrome でのみテストしています。WebGPU または WebGL2 が必要です。ゲームパッドは使えません。日本語、韓国語、中国語のテキストは四角で表示されます。初回の読み込みは約80 MB です。",
+  "hero.play-web-note": "初期バージョンで、パソコンの Chrome でのみテストしています。WebGPU または WebGL2 が必要です。ゲームパッドは使えません。初回の読み込みは約80 MB です。",
   "hero.download-mobile": "パソコンでプレイ",
   "hero.sub.macos": "Apple シリコン・Intel 対応",
   "hero.sub.windows": "Windows 10・11、x64",
@@ -94,7 +94,7 @@
   "download.copy-sha": "{file} の SHA-256 をコピー",
   "download.all-releases": "すべてのリリース",
   "download.phones": "SpaceCorps 2027 は現在、パソコン向けのゲームです。Android と iOS のアプリは開発中で、まだ利用できません。",
-  "download.web": "初期バージョンのウェブ版は、パソコンのブラウザで web.spacecorps.xyz から遊べます。メインの遊び方ではありません。パソコンの Chrome でのみテストしており、ゲームパッドは使えず、日本語、韓国語、中国語のテキストは四角で表示されます。",
+  "download.web": "初期バージョンのウェブ版は、パソコンのブラウザで web.spacecorps.xyz から遊べます。メインの遊び方ではありません。パソコンの Chrome でのみテストしており、ゲームパッドは使えません。",
 
   "reqs.title": "動作環境",
   "reqs.caption": "プラットフォーム別の最低動作環境",

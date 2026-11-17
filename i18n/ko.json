@@ -36,7 +36,7 @@
   "hero.play-web": "브라우저에서 플레이",
   "hero.play-web-sub": "새 탭에서 열립니다",
   "hero.play-web-sub-mobile": "데스크톱 컴퓨터에서",
-  "hero.play-web-note": "초기 버전이며, 컴퓨터의 Chrome에서만 테스트했습니다. WebGPU 또는 WebGL2가 필요합니다. 게임패드는 지원하지 않습니다. 일본어, 한국어, 중국어 텍스트는 네모 상자로 표시됩니다. 첫 로딩은 약 80 MB입니다.",
+  "hero.play-web-note": "초기 버전이며, 컴퓨터의 Chrome에서만 테스트했습니다. WebGPU 또는 WebGL2가 필요합니다. 게임패드는 지원하지 않습니다. 첫 로딩은 약 80 MB입니다.",
   "hero.download-mobile": "컴퓨터에서 플레이하세요",
   "hero.sub.macos": "Apple 실리콘 및 Intel",
   "hero.sub.windows": "Windows 10 및 11, x64",
@@ -94,7 +94,7 @@
   "download.copy-sha": "{file}의 SHA-256 복사",
   "download.all-releases": "모든 릴리스",
   "download.phones": "SpaceCorps 2027은 현재 컴퓨터용 게임입니다. Android와 iOS 앱은 개발 중이며 아직 제공되지 않습니다.",
-  "download.web": "초기 단계의 웹 버전을 데스크톱 브라우저에서 web.spacecorps.xyz로 실행할 수 있습니다. 주된 플레이 방법은 아닙니다. 컴퓨터의 Chrome에서만 테스트했고, 게임패드는 지원하지 않으며, 일본어, 한국어, 중국어 텍스트는 네모 상자로 표시됩니다.",
+  "download.web": "초기 단계의 웹 버전을 데스크톱 브라우저에서 web.spacecorps.xyz로 실행할 수 있습니다. 주된 플레이 방법은 아닙니다. 컴퓨터의 Chrome에서만 테스트했고, 게임패드는 지원하지 않습니다.",
 
   "reqs.title": "시스템 요구 사항",
   "reqs.caption": "플랫폼별 최소 시스템 요구 사항",
