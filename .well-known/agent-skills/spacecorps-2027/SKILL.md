@@ -1,6 +1,6 @@
 ---
 name: spacecorps-2027
-description: Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 MMO game client (macOS, Windows, Linux; no Android or iOS app yet) and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.
+description: Download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 MMO game client (macOS, Windows, Linux; an early-access Android APK only in releases that list it in release.json; no iOS app yet) and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.
 ---
 
 # SpaceCorps 2027 Agent Skill
