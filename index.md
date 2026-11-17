@@ -64,12 +64,13 @@ platforms:
 
 # SpaceCorps 2027 · Downloads & System Guide
 
-SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux, with a web version that runs in a desktop browser. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
+SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux. It is a game for computers. An early web version runs in a desktop browser. Android and iOS apps are in development and are not available yet. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
 
 - Canonical URL: [https://spacecorps.github.io/play/](https://spacecorps.github.io/play/)
 - Machine Interface: [llms.txt](https://spacecorps.github.io/play/llms.txt) | [llms-full.txt](https://spacecorps.github.io/play/llms-full.txt)
 - Release Manifest: [release.json](https://spacecorps.github.io/play/release.json)
-- Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (no install; a desktop browser with WebGPU or WebGL2, first load about 80 MB; the address is in [web.json](https://spacecorps.github.io/play/web.json) and may not be live yet)
+- Platforms: macOS (universal, Apple silicon and Intel), Windows (x86_64 and ARM64), Linux (x86_64 and ARM64). No Android or iOS app yet.
+- Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (early web version, not the main way to play; a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; the address is in [web.json](https://spacecorps.github.io/play/web.json))
 - Patch Notes: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) | [patchnotes.json](https://spacecorps.github.io/play/patchnotes.json)
 - GitHub Releases: [https://github.com/SpaceCorps/play/releases/latest](https://github.com/SpaceCorps/play/releases/latest)
 - Discord Community: [https://discord.gg/VjW67tkrTb](https://discord.gg/VjW67tkrTb)
@@ -330,7 +331,7 @@ This download page (`?lang=<code>`) is translated into 10 of them: `en`, `de`, `
 - **Graphics Backend:** Native Vulkan, Metal, and DirectX 12 via Space3d Engine.
 - **Minimum RAM:** 4 GB.
 - **Recommended RAM:** 8 GB.
-- **Storage:** 200 MB free disk space.
+- **Storage:** 400 MB free disk space.
 - **Network:** Broadband internet connection for real-time multiplayer state synchronization.
 
 ---
