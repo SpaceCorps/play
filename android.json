@@ -1,0 +1,4 @@
+{
+  "signer_sha256": "",
+  "@signer_sha256": "SHA-256 fingerprint of the certificate that signs the Android APK: 64 hexadecimal digits, as 'bash scripts/mobile/android-aab.sh init-key --direct' prints it (and 'apksigner verify --print-certs' shows it). Fill it in once, after the direct key exists. Empty or not a SHA-256: the download page shows no signing key line and says nothing about it. Only read when the release lists the Android package."
+}

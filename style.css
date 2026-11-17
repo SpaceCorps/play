@@ -64,6 +64,8 @@ body {
 }
 
 img { max-width: 100%; height: auto; display: block; }
+/* `hidden` wins over every display rule below (the Android card, its help and its column). */
+[hidden] { display: none !important; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); text-decoration: underline; text-underline-offset: 3px; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
@@ -268,11 +270,18 @@ p, li, figcaption, td { text-wrap: pretty; }
 .facts { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 12px; font-size: 13px; align-items: center; }
 .facts dt { color: var(--text-3); }
 .facts dd { margin: 0; color: var(--text-2); font-variant-numeric: tabular-nums; min-width: 0; display: flex; align-items: center; gap: 6px; }
-.facts .file code, .facts .sha code { background: none; padding: 0; font-size: 12px; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.facts .file code, .facts .sha code, .facts .signer code { background: none; padding: 0; font-size: 12px; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .copy { flex: none; display: inline-grid; place-items: center; width: 28px; height: 28px; padding: 0; border-radius: 6px; border: 1px solid transparent; background: transparent; color: var(--text-3); cursor: pointer; }
 .copy:hover { color: var(--text); background: rgba(255, 255, 255, 0.07); }
 .copy .icon { width: 15px; height: 15px; }
 .copy.done { color: var(--good); }
+/* Phones and tablets: shown only for a release that has the Android package (app.js). One card, as
+   wide as the others; the early-access line sits under it. */
+.phones .subhead { margin-top: 36px; }
+.phones .fineprint { margin-top: 14px; max-width: 760px; }
+.platform h3 .badge { margin-left: 6px; vertical-align: 2px; }
+.badge { display: inline-block; font: 600 11px/1 var(--font); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent-hover); background: var(--accent-soft); border: 1px solid rgba(217, 119, 87, 0.35); padding: 4px 8px; border-radius: 999px; white-space: nowrap; }
+:root:is(:lang(ja), :lang(ko), :lang(zh)) .badge { letter-spacing: 0; }
 .subtle-links { margin-top: 16px; font-size: 14px; color: var(--text-3); display: flex; gap: 10px; flex-wrap: wrap; }
 
 .table-wrap { overflow-x: auto; }
@@ -282,6 +291,8 @@ p, li, figcaption, td { text-wrap: pretty; }
 .reqs thead th { font-size: 13px; font-weight: 600; color: var(--text-2); }
 .reqs tbody th { font-weight: 500; color: var(--text-3); white-space: nowrap; width: 1%; }
 .reqs td { color: var(--text); }
+/* With the Android column (a release that has the package) the table needs a little more room. */
+.reqs.has-android { min-width: 760px; }
 
 /* ---------- help ---------- */
 .help { display: grid; gap: 12px; }
@@ -406,13 +417,13 @@ p, li, figcaption, td { text-wrap: pretty; }
   .reqs tbody tr:last-child { border-bottom: 0; }
   .reqs tbody th, .reqs tbody td { padding: 0; border-bottom: 0; }
   .reqs tbody th { width: auto; white-space: normal; font-size: 13px; font-weight: 600; color: var(--text-2); margin-bottom: 3px; }
-  /* A row with a cell per system: each cell gets the system's name (the column headers above). */
-  .reqs td:first-of-type:nth-last-of-type(3),
-  .reqs td:nth-of-type(2):nth-last-of-type(2),
-  .reqs td:nth-of-type(3):last-of-type { display: grid; grid-template-columns: 5.4em minmax(0, 1fr); gap: 10px; align-items: baseline; margin-top: 2px; }
-  .reqs td:first-of-type:nth-last-of-type(3)::before { content: "macOS"; }
-  .reqs td:nth-of-type(2):nth-last-of-type(2)::before { content: "Windows"; }
-  .reqs td:nth-of-type(3):last-of-type::before { content: "Linux"; }
+  /* A row with a cell per system: each cell gets the system's name (data-sys, the column headers
+     above). The cell that spans the computers (memory, disk, network) names them once the Android
+     column is there, so its value is not taken for Android's. */
+  .reqs.has-android { min-width: 0; }
+  .reqs td[data-sys] { display: grid; grid-template-columns: 5.4em minmax(0, 1fr); gap: 10px; align-items: baseline; margin-top: 2px; }
+  .reqs td[data-sys]::before { content: attr(data-sys); }
+  .reqs.has-android td[colspan]::before { content: "macOS · Windows · Linux"; display: block; margin-bottom: 1px; }
   .reqs td::before { color: var(--text-3); font-size: 13px; }
 }
 

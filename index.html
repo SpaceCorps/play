@@ -144,7 +144,7 @@
           "name": "Can I play SpaceCorps 2027 on a phone or tablet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not yet. SpaceCorps 2027 is a game for computers today. Android and iOS apps are in development and are not available on Google Play or the App Store. An early web version for desktop browsers runs at https://web.spacecorps.xyz; it was tested only in Chrome on a computer and is not the main way to play."
+            "text": "SpaceCorps 2027 is a game for computers. For Android phones and tablets (Android 9 or later, 64-bit ARM) there is an early-access app, a direct download (APK) that this page and release.json list only for releases that include it: SpaceCorps2027-android-aarch64.apk. It is not in any app store. The iPhone and iPad app is in development and is not available yet. An early web version for desktop browsers runs at https://web.spacecorps.xyz; it was tested only in Chrome on a computer and is not the main way to play."
           }
         },
         {
@@ -338,6 +338,7 @@ if (typeof document !== 'undefined') {
   <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v4.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 18.5v-11A1.5 1.5 0 0 1 5.5 6H10"/></symbol>
   <symbol id="i-play" viewBox="0 0 24 24"><rect x="2.5" y="4" width="19" height="13.5" rx="2"/><path d="M10 8v5.5l4.5-2.75zM8 20.5h8"/></symbol>
   <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.2"/><path d="M11 18.5h2"/></symbol>
 </svg>
 
 <div id="agent-mode-view" style="display: none; padding: 3rem 2rem; max-width: 900px; margin: 0 auto; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #f0f6fc; line-height: 1.6;">
@@ -567,26 +568,42 @@ if (typeof document !== 'undefined') {
         <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-linux-x86_64.tar.gz">SpaceCorps2027-linux-x86_64.tar.gz</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd></dl>
       </li>
     </ul>
+    <div class="phones" id="phones" data-android hidden>
+      <h3 class="subhead" id="phones-title" data-i18n="phones.title">Phones and tablets</h3>
+      <ul class="platforms platforms-phones" role="list">
+        <li class="card platform" data-asset="SpaceCorps2027-android-aarch64.apk" data-os="android">
+          <div class="platform-head">
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <div><h3>Android <span class="badge" data-i18n="download.early">Early access</span></h3><p data-i18n="download.android">Android 9 or later, 64-bit ARM · APK</p></div>
+          </div>
+          <a class="btn btn-secondary btn-wide dl" href="https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk">
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="download.get" data-i18n-args='{"format": ".apk"}'>Download .apk</span>
+          </a>
+          <dl class="facts"><dt data-i18n="download.file">File</dt><dd class="file"><code title="SpaceCorps2027-android-aarch64.apk">SpaceCorps2027-android-aarch64.apk</code></dd><dt data-i18n="download.size">Size</dt><dd class="size">–</dd><dt>SHA-256</dt><dd class="sha"><code>–</code></dd><dt data-signer hidden data-i18n="download.signer">Signing key</dt><dd class="signer" data-signer hidden><code class="signer-hex">–</code></dd></dl>
+        </li>
+      </ul>
+      <p class="fineprint" data-i18n="phones.limits">Early access: tested on few devices so far. At the first start the app copies about 230 MB of game data into its own storage. Typing in the game takes Latin letters, digits and punctuation only, some links in the game do not open, and there are no purchases in the app.</p>
+    </div>
     <p class="subtle-links">
       <a href="https://github.com/SpaceCorps/play/releases/latest/download/SHA256SUMS">SHA256SUMS</a>
       <span aria-hidden="true">·</span>
       <a href="https://github.com/SpaceCorps/play/releases" data-i18n="download.all-releases">All releases</a>
     </p>
-    <p class="fineprint" data-i18n="download.phones">SpaceCorps 2027 is for computers today. Apps for Android and iOS are in development and are not available yet.</p>
+    <p class="fineprint" id="phones-line" data-i18n="download.phones">SpaceCorps 2027 is for computers today. Apps for Android and iOS are in development and are not available yet.</p>
     <p class="fineprint" data-i18n="download.web">An early web version runs in a desktop browser at web.spacecorps.xyz. It is not the main way to play: it was tested only in Chrome on a computer, has no gamepad, and Japanese, Korean and Chinese texts show as boxes there.</p>
 
     <h3 class="subhead" id="requirements" data-i18n="reqs.title">System requirements</h3>
     <div class="table-wrap card">
       <table class="reqs">
         <caption class="visually-hidden" data-i18n="reqs.caption">Minimum system requirements per platform</caption>
-        <thead><tr><th scope="col"><span class="visually-hidden" data-i18n="reqs.requirement">Requirement</span></th><th scope="col">macOS</th><th scope="col">Windows</th><th scope="col">Linux</th></tr></thead>
+        <thead><tr><th scope="col"><span class="visually-hidden" data-i18n="reqs.requirement">Requirement</span></th><th scope="col">macOS</th><th scope="col">Windows</th><th scope="col">Linux</th><th scope="col" data-android hidden>Android</th></tr></thead>
         <tbody>
-          <tr><th scope="row" data-i18n="reqs.row.system">System</th><td data-i18n="reqs.system.macos">macOS 12 Monterey or later</td><td data-i18n="reqs.system.windows">Windows 10 or 11, 64-bit</td><td data-i18n="reqs.system.linux">x86_64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.cpu">Processor</th><td data-i18n="reqs.cpu.macos">Apple silicon or Intel</td><td>x86-64</td><td>x86-64</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.gpu">Graphics</th><td data-i18n="reqs.gpu.macos">Metal (every Mac that runs macOS 12)</td><td data-i18n="reqs.gpu.windows">DirectX 12 or Vulkan</td><td data-i18n="reqs.gpu.linux">Vulkan (Mesa 22 or a vendor driver)</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.memory">Memory</th><td colspan="3" data-i18n="reqs.memory">4 GB RAM, 8 GB recommended</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.disk">Disk</th><td colspan="3" data-i18n="reqs.disk">400 MB free</td></tr>
-          <tr><th scope="row" data-i18n="reqs.row.network">Network</th><td colspan="3" data-i18n="reqs.network">Broadband internet: SpaceCorps is online only</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.system">System</th><td data-sys="macOS" data-i18n="reqs.system.macos">macOS 12 Monterey or later</td><td data-sys="Windows" data-i18n="reqs.system.windows">Windows 10 or 11, 64-bit</td><td data-sys="Linux" data-i18n="reqs.system.linux">x86_64 with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Fedora 36 and later)</td><td data-sys="Android" data-android hidden data-i18n="reqs.system.android">Android 9 or later, phone or tablet</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.cpu">Processor</th><td data-sys="macOS" data-i18n="reqs.cpu.macos">Apple silicon or Intel</td><td data-sys="Windows">x86-64</td><td data-sys="Linux">x86-64</td><td data-sys="Android" data-android hidden data-i18n="reqs.cpu.android">64-bit ARM</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.gpu">Graphics</th><td data-sys="macOS" data-i18n="reqs.gpu.macos">Metal (every Mac that runs macOS 12)</td><td data-sys="Windows" data-i18n="reqs.gpu.windows">DirectX 12 or Vulkan</td><td data-sys="Linux" data-i18n="reqs.gpu.linux">Vulkan (Mesa 22 or a vendor driver)</td><td data-sys="Android" data-android hidden data-i18n="reqs.gpu.android">Vulkan</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.memory">Memory</th><td colspan="3" data-i18n="reqs.memory">4 GB RAM, 8 GB recommended</td><td data-sys="Android" data-android hidden data-i18n="reqs.memory.android">Not measured yet</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.disk">Disk</th><td colspan="3" data-i18n="reqs.disk">400 MB free</td><td data-sys="Android" data-android hidden data-i18n="reqs.disk.android">About 450 MB free: the APK and the game data the app copies at its first start</td></tr>
+          <tr><th scope="row" data-i18n="reqs.row.network">Network</th><td colspan="3" data-i18n="reqs.network">Broadband internet: SpaceCorps is online only</td><td data-sys="Android" data-android hidden data-i18n="reqs.network.android">An internet connection (Wi-Fi or mobile data): SpaceCorps is online only</td></tr>
         </tbody>
       </table>
     </div>
@@ -667,6 +684,15 @@ if (typeof document !== 'undefined') {
           <li data-i18n="help.linux.fuse">No FUSE on your system? Run it with <code data-slot="flag">--appimage-extract-and-run</code>, or take the <code data-slot="tar">.tar.gz</code>: unpack it and start <code data-slot="binary">SpaceCorps2027/spacecorps2027</code>.</li>
         </ol>
       </details>
+      <details class="card" id="help-android" data-android hidden>
+        <summary><h3 data-i18n="help.android.title">Android: install the APK</h3></summary>
+        <ol>
+          <li data-i18n="help.android.install">Download the APK on your phone or tablet and open it. When Android asks, allow <strong>Install unknown apps</strong> for the app you opened it with (your browser or file manager), then tap <strong>Install</strong>.</li>
+          <li data-i18n="help.android.update">To update, download the newest APK and open it.</li>
+          <li data-i18n="help.android.other">If an older SpaceCorps 2027 is already installed (an older test build, or an app from a test invitation), uninstall it first: Android does not let apps signed with different keys replace each other.</li>
+          <li data-signer hidden data-i18n="help.android.signer">The APK is signed with our own key. Its SHA-256 fingerprint is <code data-slot="fingerprint" class="signer-hex">–</code>.</li>
+        </ol>
+      </details>
       <details class="card" id="help-verify">
         <summary><h3 data-i18n="help.verify.title">Check a download</h3></summary>
         <p data-i18n="help.verify.text">Compare the file's SHA-256 with the one listed above:</p>
@@ -674,6 +700,8 @@ if (typeof document !== 'undefined') {
           <li>macOS: <code>shasum -a 256 SpaceCorps2027-macos-universal.dmg</code></li>
           <li>Windows (PowerShell): <code>Get-FileHash SpaceCorps2027-windows-x86_64.zip</code></li>
           <li>Linux: <code>sha256sum -c SHA256SUMS --ignore-missing</code></li>
+          <li data-android hidden>Android (on a computer): <code>sha256sum SpaceCorps2027-android-aarch64.apk</code></li>
+          <li data-signer hidden>Android, the signing key: <code>apksigner verify --print-certs SpaceCorps2027-android-aarch64.apk</code></li>
         </ul>
       </details>
       <details class="card" id="server">
