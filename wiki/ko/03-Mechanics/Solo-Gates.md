@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
+<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
 <!-- wiki-i18n title: 솔로 게이트 -->
 # 솔로 게이트 {#solo-gates}
 
@@ -13,7 +13,7 @@
 <!-- solo-glance:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-- **게이트**: 6: Chrono-Gate와 솔로 게이트 5개, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege와 Omega Vault
+- **게이트**: 7: Chrono-Gate와 솔로 게이트 6개, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault와 Davidski's Nightmare
 - **스핀**: 스핀 한 번에 Thulium 100, 한 번에 1, 5, 10 또는 100회 스핀
 - **부품 확률**: 스핀당 13%, 어느 카테고리를 스핀하든 같습니다. 부품은 그 카테고리의 게이트 중 하나에 속하며 확률은 모두 같습니다. 게이트별 확률은 다음과 같습니다. Chrono-Gate 단독: 전부, Alpha Rift, Beta Breach와 Gamma Foundry: 각각 4.33%, Delta Siege와 Omega Vault: 각각 6.5%. Chrono-Gate가 완성되면 그 카테고리에는 스핀으로 찾을 것이 남지 않습니다
 - **보장**: 부품 없이 스핀이 24번 연속되면 스핀마다 확률이 오르고, 47번 뒤에는 다음 스핀이 반드시 부품을 찾습니다. 어느 게이트의 부품이든 횟수가 처음으로 돌아갑니다
@@ -43,6 +43,7 @@
 | **Gamma Foundry** | 68 | 4.33% | 1,546 | 154,579 |
 | **Delta Siege** | 96 | 6.5% | 1,455 | 145,486 |
 | **Omega Vault** | 119 | 6.5% | 1,803 | 180,343 |
+| **Davidski's Nightmare** | 238 | 13% | 1,803 | 180,343 |
 
 <!-- solo-parts:end -->
 
@@ -124,6 +125,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | 웨이브 4: 1 Phantasm Swarm; 웨이브 9: 1 Goombah Swarm; 웨이브 14: 1 Goombah Swarm | Elite Crystalys | 25~35 분 |
 | **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | 웨이브 5: 2 Phantasm Swarm; 웨이브 10: 2 Goombah Swarm; 웨이브 15: 1 Goombah Swarm; 웨이브 20: 1 Crystalys Swarm | Siege Construct | 35~45 분 |
 | **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | 웨이브 6: 1 Goombah Swarm; 웨이브 11: 2 Goombah Swarm; 웨이브 16: 1 Crystalys Swarm; 웨이브 22: 1 Phantasm Swarm | Omega Guardian | 50~60 분 |
+| **Davidski's Nightmare** | 13 | 50 Evil Protos, 66 Evil Kitefin, 31 Evil Ostirion, 19 Evil Nomad, 22 Evil Paragon, 7 Evil Storm, 8 Evil Wraith, 2 Evil Ironclad |  | Evil Davidski | 45~60 분 |
 
 - **Delta Siege**: 웨이브 18(250 Seeker)은 선택입니다. 카운트다운 중에 건너뛸 수 있으며 아무것도 지급하지 않습니다
 - **Omega Vault**: 웨이브 17(250 Seeker)은 선택입니다. 카운트다운 중에 건너뛸 수 있으며 아무것도 지급하지 않습니다; 웨이브 22~24은 엘리트이며 선체, 실드, 피해가 ×1.5입니다
@@ -144,6 +146,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Elite Crystalys** | Gamma Foundry | 620,000 | 250,000 | 3,800–4,700 |
 | **Siege Construct** | Delta Siege | 1,150,000 | 1,730,000 | 3,400–4,200 |
 | **Omega Guardian** | Omega Vault | 1,340,000 | 840,000 | 2,600–3,200 |
+| **Evil Davidski** | Davidski's Nightmare | 550,000 | 660,000 | 2,600–3,200 |
 
 | 보스 | 페이즈 | 남은 선체 | 하는 일 |
 | :--- | :--- | :--- | :--- |
@@ -156,6 +159,8 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Omega Guardian** | Shield Fortress | 100%~70% | 실드는 보스 본래 실드의 ×1.5로 설정됩니다. 40초마다 Bulwark 6기를 부르며 동시에 최대 12기까지 살아 있습니다. 보상도 드롭도 없습니다. |
 |  | Swarm Protocol | 70%~35% | 25초마다 Phantasm 12기를 부르며 동시에 최대 24기까지 살아 있습니다. 보상도 드롭도 없습니다. 30초마다 140,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
 |  | Overload | 35%~0% | 실드는 보스 본래 실드의 ×0.1로 설정됩니다. 모든 피해가 ×2.5입니다. 페이즈에 들어간 지 2분이 지나면 모든 피해가 추가로 ×2가 됩니다. 25초마다 28,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. |
+| **Evil Davidski** | Evil Davidski | 100%~50% | Warden Rivet II 로켓 6발을 4,900씩 0.5초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 2번 떨어뜨립니다. 하나당 11,000이며 낙하 지점에서 400 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 40초마다 Evil Protos 5기를 부르며 동시에 최대 10기까지 살아 있습니다. 보상도 드롭도 없습니다. |
+|  | Angry | 50%~0% | 실드는 보스 본래 실드의 ×0.5로 설정됩니다. 모든 피해가 ×1.5입니다. 페이즈에 들어간 지 8분이 지나면 모든 피해가 추가로 ×2가 됩니다. Warden Rivet III 로켓 6발을 2,600씩 0.4초 간격으로 당신에게 쏘며, 30초마다 한 차례 일제히 발사합니다. 1분마다 메테오 8개의 일제 낙하를 3번 떨어뜨립니다. 하나당 3,400이며 낙하 지점에서 420 유닛 이내의 모든 것에 적중하고, 그중 50%는 당신을 겨냥합니다. 각 원은 낙하 3초 전에 표시됩니다. 45초마다 35,000의 폭발이 보스에서 700 유닛 이내의 모든 것에 적중합니다. 고리는 낙하 2초 전에 표시됩니다. 40초마다 Evil Kitefin 3기를 부르며 동시에 최대 6기까지 살아 있습니다. 보상도 드롭도 없습니다. |
 
 <!-- solo-bosses:end -->
 
@@ -173,12 +178,14 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Gamma Foundry** | 4,000,000 | 25,000 | 400,000 | 5,500 |
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
+| **Davidski's Nightmare** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
 - **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; 탄약: Advanced Plasma ×15,000, Ultra Core ×3,750, Experimental Fusion Core ×15,000
 - **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; 탄약: Advanced Plasma ×37,500, Ultra Core ×15,000, Experimental Fusion Core ×22,500
 - **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; 탄약: Advanced Plasma ×22,500, Ultra Core ×45,000, Experimental Fusion Core ×37,500
 - **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; 탄약: Advanced Plasma ×30,000, Ultra Core ×67,500, Experimental Fusion Core ×56,250
 - **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; 탄약: Advanced Plasma ×37,500, Ultra Core ×75,000, Experimental Fusion Core ×75,000
+- **Davidski's Nightmare**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; 탄약: Advanced Plasma ×37,500, Ultra Core ×75,000, Experimental Fusion Core ×75,000
 - **Heartshard**: 시즌 중 각 게이트를 처음 클리어할 때 1개, 클리어할 때마다 5% 확률로 1개 추가.
 
 <!-- solo-pay:end -->
@@ -207,6 +214,14 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Goombah Guard** | 125 | 1 | 12 | 1 |
 | **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
 | **Crystalys Guard** | 125 | 1 | 12 | 1 |
+| **Evil Protos** | 4,250 | 17 | 725 | 6 |
+| **Evil Kitefin** | 12,850 | 53 | 2,175 | 18 |
+| **Evil Ostirion** | 34,350 | 141 | 5,800 | 48 |
+| **Evil Nomad** | 59,600 | 245 | 10,060 | 84 |
+| **Evil Paragon** | 68,700 | 283 | 11,600 | 97 |
+| **Evil Storm** | 96,600 | 398 | 16,315 | 136 |
+| **Evil Wraith** | 137,450 | 566 | 23,205 | 194 |
+| **Evil Ironclad** | 268,450 | 1,105 | 45,330 | 379 |
 
 | 게이트 | 크레딧 | Thulium | 경험치 | 명예 |
 | :--- | ---: | ---: | ---: | ---: |
@@ -215,6 +230,7 @@ Chrono-Gate의 부품은 초기화 때 0으로 돌아가며 시즌마다 다시 
 | **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
 | **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
 | **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
+| **Davidski's Nightmare** | 7,081,950 | 29,124 | 1,196,445 | 9,968 |
 
 <!-- solo-kills:end -->
 

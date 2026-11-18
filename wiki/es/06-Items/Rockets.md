@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Cohetes -->
 # Cohetes {#rockets}
 
@@ -164,7 +164,7 @@ Los cohetes especiales hacen cosas que una cifra de daño no expresa. Comparten 
 
 ## Disparo {#firing}
 
-1. Compra los cohetes comunes en la tienda (la categoría **Cohetes**), hasta el *máximo que puedes llevar* de cada uno, con créditos; fabrica los raros y épicos en el Ensamblaje con 100 de la gama anterior.
+1. Compra los cohetes comunes en la tienda (la categoría **Cohetes**), hasta el *máximo que puedes llevar* de cada uno, con créditos; fabrica los raros y épicos en el Ensamblaje con 100 de la gama anterior. Tu kit inicial ya incluye 100 de cada uno de los cuatro cohetes comunes (400 en total; no se pueden vender, y quien se alistó antes de la 0.5.9 no tiene ninguno).
 2. Abre **Cohetes** encima de la barra rápida y arrastra los que quieras a las ranuras. El selector muestra una columna por tipo y una fila por gama, con lo que llevas de cada uno. Debajo están los **cohetes especiales**, de cuatro en cuatro por fila (un pequeño martillo marca uno solo de fabricación del que no llevas ninguno).
 3. Pulsa la tecla de la ranura. Hacer clic en la ranura de un cohete **guiado** lo dispara contra tu objetivo seleccionado; hacer clic en la ranura de un cohete **recto** lo arma, y tu siguiente clic en el espacio lo dispara allí. La tecla **Disparar cohete** (`R` por defecto, reasignable en Configuración › Controles) dispara el cohete que disparaste por última vez, o el primero de la barra.
 4. Un barrido circular cubre cada ranura de cohete durante el temporizador que ese cohete espera: 3 segundos en un cohete normal (5 con un lanzacohetes), y en uno especial el mayor entre los 5 segundos y el suyo, con los segundos que quedan en el centro. Una pulsación antes de eso solo te dice que los cohetes se están recargando (una pulsación en la última décima de segundo todavía dispara). Una formación de drones puede dejar el temporizador normal entre 2,19 y 4,05 segundos (ver abajo).

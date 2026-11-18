@@ -839,7 +839,7 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 %: 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 %: 1 | 0,01 |
 
-- **Puertas en solitario**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 cada vez que se completa una.
+- **Puertas en solitario**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 cada vez que se completa una.
 - **Mazmorras de clan**: 12, 8 y 8 con una finalización pagada de la etapa 1, 2 y 3.
 - **Alienígenas de las mazmorras de clan**: sus probabilidades son 2 veces las de la tabla de arriba.
 - **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
@@ -857,7 +857,7 @@ El mineral de un lote se calcula para el lote entero, redondeado hacia arriba, y
 
 **Cómo conseguirlo**
 
-- **Puertas en solitario**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 cada vez que se completa una.
+- **Puertas en solitario**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 cada vez que se completa una.
 - **Mazmorras de clan**: 5, 6 y 7 con una finalización pagada de la etapa 1, 2 y 3.
 - **Suerte y el Resource Magnet Booster**: Ninguno lo aumenta. Nunca se puede poner en la Subasta.
 - **Por lo demás**: no se vende en la tienda.

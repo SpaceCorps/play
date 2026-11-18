@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Razzi -->
 # Razzi {#rockets}
 
@@ -164,7 +164,7 @@ I razzi speciali fanno cose che un numero di danno non dice. Condividono **un ti
 
 ## Lancio {#firing}
 
-1. Compra i razzi Comuni nel Negozio (la categoria **Razzi**), fino al *massimo trasportabile* di ciascuno, in crediti; crea i Rari e gli Epici in Assemblaggio con 100 della fascia inferiore.
+1. Compra i razzi Comuni nel Negozio (la categoria **Razzi**), fino al *massimo trasportabile* di ciascuno, in crediti; crea i Rari e gli Epici in Assemblaggio con 100 della fascia inferiore. Il tuo kit iniziale contiene già 100 di ciascuno dei quattro razzi Comuni (400 in tutto; non si possono vendere, e chi si è arruolato prima della 0.5.9 non ne ha).
 2. Apri **Razzi** sopra la barra rapida e trascina quelli che vuoi sugli slot. Il selettore mostra una colonna per tipo e una riga per fascia, con ciò che trasporti di ciascuno. Sotto ci sono i **razzi speciali**, quattro per riga (un piccolo martello segna uno creabile solo in Assemblaggio di cui non porti nemmeno uno).
 3. Premi il tasto dello slot. Cliccare sullo slot di un razzo **guidato** lo lancia contro il bersaglio selezionato; cliccare sullo slot di un razzo **dritto** lo arma, e il clic successivo nello spazio lo lancia lì. Il tasto **Lancia razzo** (`R` per impostazione predefinita, riassegnabile in Impostazioni › Comandi) lancia l’ultimo razzo che hai lanciato, o il primo sulla barra.
 4. Un indicatore circolare gira su ogni slot dei razzi per il timer su cui quel razzo attende: 3 secondi per un razzo normale (5 con un lanciarazzi) e, per uno speciale, il più lungo tra i 5 secondi e il proprio, con i secondi rimanenti al centro. Una pressione prima di allora ti dice soltanto che i razzi si stanno ricaricando (una pressione nell’ultimo decimo di secondo lancia comunque). Una formazione di droni può portare il timer normale tra 2,19 e 4,05 secondi (vedi sotto).

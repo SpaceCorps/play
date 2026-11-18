@@ -6,59 +6,66 @@ publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
 # release:front
-version: "0.5.8"
-date: "2026-11-17"
+version: "0.5.9"
+date: "2026-11-18"
 server: "https://spacecorps-game.sliplane.app"
 platforms:
   - os: "macOS"
     arch: "universal (Apple Silicon & Intel)"
     format: "dmg"
     filename: "SpaceCorps2027-macos-universal.dmg"
-    size: 174952555
-    sha256: "fbe67b4a17af977528a5425b6f407bef5f010a240ebb814758b31210188fe551"
+    size: 174545350
+    sha256: "bcad2452723caea3ace1d28068a25620a8ab73450fc76335aa96c119a31ebbad"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg"
   - os: "Windows"
     arch: "x86_64"
     format: "zip"
     filename: "SpaceCorps2027-windows-x86_64.zip"
-    size: 166328987
-    sha256: "9bdec64915c4c37a8059f0968703549820be165729fcbbc84425c022bd99edac"
+    size: 166092077
+    sha256: "52fdf3290c40f8fe79bf1a73685b0284bffa524e2b7b91288973b07da3b12f85"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip"
   - os: "Linux"
     arch: "x86_64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-x86_64.AppImage"
-    size: 160557560
-    sha256: "226bcd98a64808d389ac1c62eb376530fda39a5765b191b67fa07605934b1abb"
+    size: 160365048
+    sha256: "2f1b2a8fa6d2946704d175bd556549b08e167dd7f2c78228b888cef8c9ee441a"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage"
   - os: "Linux"
     arch: "x86_64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-x86_64.tar.gz"
-    size: 167168178
-    sha256: "ca3eb7bb8d74890afc1918c06049d67713af6685c3f686bc8ca9d912796e7ee4"
+    size: 166926350
+    sha256: "463916e88950c6c8fffee5fa5ab86fd2e3f7bf8bf0d9a47146a97dd1d2d61d6d"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz"
   - os: "Windows"
     arch: "aarch64"
     format: "zip"
     filename: "SpaceCorps2027-windows-aarch64.zip"
-    size: 164390358
-    sha256: "c0c568a909bea3e3c648d1d45cfe298617b165af4c21128f20b44d3434d474bc"
+    size: 164162195
+    sha256: "e04783fb879aaa55e4db1d7929d20a3187d0a7d9ebe9f48f23f4310cccb1bc3a"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip"
   - os: "Linux"
     arch: "aarch64"
     format: "appimage"
     filename: "SpaceCorps2027-linux-aarch64.AppImage"
-    size: 158964232
-    sha256: "ca7a38f7c1d0afda3c089653e3f3ef9df59046617af253033e65ffc6118c6686"
+    size: 158747144
+    sha256: "ad6dee15a1d829cab4b3a512389e0ded3f4b976443f1529eb7ab87ee88ffe0fb"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage"
   - os: "Linux"
     arch: "aarch64"
     format: "tar.gz"
     filename: "SpaceCorps2027-linux-aarch64.tar.gz"
-    size: 165303685
-    sha256: "15c3f2142e655d8503cf6dd7b0fb487bbaaa1edb546ae236ec73204ee004f852"
+    size: 165064496
+    sha256: "6a8578642eb16ea35deb119a227241fb2a4265bfbef2fee408278d1dd23e1106"
     url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz"
+  - os: "Android"
+    arch: "64-bit ARM (arm64-v8a)"
+    format: "apk"
+    filename: "SpaceCorps2027-android-aarch64.apk"
+    size: 191349636
+    sha256: "0805685c38d0b64e375e66ace7307252b73c3703ae00ee56d9a99c783730a3ff"
+    url: "https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk"
 # /release:front
 ---
 
@@ -78,17 +85,18 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 ---
 
 <!-- release:downloads -->
-## Downloads (Version 0.5.8)
+## Downloads (Version 0.5.9)
 
 | Operating System | Architecture | Package Format | Download Link | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (175.0 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `fbe67b4a17af977528a5425b6f407bef5f010a240ebb814758b31210188fe551` |
-| **Windows** | x86_64 | `.zip` (166.3 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `9bdec64915c4c37a8059f0968703549820be165729fcbbc84425c022bd99edac` |
-| **Linux** | x86_64 | `.AppImage` (160.6 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `226bcd98a64808d389ac1c62eb376530fda39a5765b191b67fa07605934b1abb` |
-| **Linux** | x86_64 | `.tar.gz` (167.2 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `ca3eb7bb8d74890afc1918c06049d67713af6685c3f686bc8ca9d912796e7ee4` |
-| **Windows** | aarch64 | `.zip` (164.4 MB) | [SpaceCorps2027-windows-aarch64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip) | `c0c568a909bea3e3c648d1d45cfe298617b165af4c21128f20b44d3434d474bc` |
-| **Linux** | aarch64 | `.AppImage` (159.0 MB) | [SpaceCorps2027-linux-aarch64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage) | `ca7a38f7c1d0afda3c089653e3f3ef9df59046617af253033e65ffc6118c6686` |
-| **Linux** | aarch64 | `.tar.gz` (165.3 MB) | [SpaceCorps2027-linux-aarch64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz) | `15c3f2142e655d8503cf6dd7b0fb487bbaaa1edb546ae236ec73204ee004f852` |
+| **macOS** | Universal (Apple Silicon & Intel) | `.dmg` (174.5 MB) | [SpaceCorps2027-macos-universal.dmg](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-macos-universal.dmg) | `bcad2452723caea3ace1d28068a25620a8ab73450fc76335aa96c119a31ebbad` |
+| **Windows** | x86_64 | `.zip` (166.1 MB) | [SpaceCorps2027-windows-x86_64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-x86_64.zip) | `52fdf3290c40f8fe79bf1a73685b0284bffa524e2b7b91288973b07da3b12f85` |
+| **Linux** | x86_64 | `.AppImage` (160.4 MB) | [SpaceCorps2027-linux-x86_64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.AppImage) | `2f1b2a8fa6d2946704d175bd556549b08e167dd7f2c78228b888cef8c9ee441a` |
+| **Linux** | x86_64 | `.tar.gz` (166.9 MB) | [SpaceCorps2027-linux-x86_64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-x86_64.tar.gz) | `463916e88950c6c8fffee5fa5ab86fd2e3f7bf8bf0d9a47146a97dd1d2d61d6d` |
+| **Windows** | aarch64 | `.zip` (164.2 MB) | [SpaceCorps2027-windows-aarch64.zip](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-windows-aarch64.zip) | `e04783fb879aaa55e4db1d7929d20a3187d0a7d9ebe9f48f23f4310cccb1bc3a` |
+| **Linux** | aarch64 | `.AppImage` (158.7 MB) | [SpaceCorps2027-linux-aarch64.AppImage](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.AppImage) | `ad6dee15a1d829cab4b3a512389e0ded3f4b976443f1529eb7ab87ee88ffe0fb` |
+| **Linux** | aarch64 | `.tar.gz` (165.1 MB) | [SpaceCorps2027-linux-aarch64.tar.gz](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-linux-aarch64.tar.gz) | `6a8578642eb16ea35deb119a227241fb2a4265bfbef2fee408278d1dd23e1106` |
+| **Android** | 64-bit ARM (arm64-v8a) | `.apk` (191.3 MB) | [SpaceCorps2027-android-aarch64.apk](https://github.com/SpaceCorps/play/releases/latest/download/SpaceCorps2027-android-aarch64.apk) | `0805685c38d0b64e375e66ace7307252b73c3703ae00ee56d9a99c783730a3ff` |
 <!-- /release:downloads -->
 
 ---
@@ -98,122 +106,79 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
 
 <!-- patchnotes:latest -->
-### 0.5.8 · 2026-11-17
+### 0.5.9 · 2026-11-18
 
-[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.8)
+[GitHub release](https://github.com/SpaceCorps/play/releases/tag/v0.5.9)
 
-SpaceCorps 2027 0.5.8 is the alien tiers and Galaxy Gates update. Aliens now wear a Greek letter for their tier and pay by it, the Materializer lets you pick a category of gates and every gate needs new part counts, the clan dungeon boss hits harder and has a new ability, the Storm RECON gets Target and Slow, and your own rocket blast hurts you. It also brings controller support, a new font and skins for the Miyuki and for the clan LOU, and phone controls in the code only. The web version at web.spacecorps.xyz is live too (it has been up since 2026-11-15). Nobody has flown most of the new numbers yet.
+SpaceCorps 2027 0.5.9 brings Davidski's Nightmare, a seventh Galaxy Gate with Evil ships and an ANGRY Evil Davidski. The desktop game draws the system font again, new pilots start with 400 rockets, the Miyuki's Channel Shield is stronger, ability tooltips and quest texts show your own numbers, and the web version works better on phones and tablets and draws Chinese, Japanese and Korean. Most of it was shown by tests and screenshots, not by people playing.
 
 #### What's new
 
 **Highlights**
-- **Alien tiers:** a Greek letter in front of an alien's name shows its tier: Alpha, Beta (1.5 times as tough, pays 2 times), Gamma (2 times, 3 times) and a new Delta (4 times, 6 times). Each world rolls the tiers of its aliens from a table.
-- **Galaxy Gates:** the Materializer asks for a category: the Chrono-Gate, Alpha-Beta-Gamma or Delta-Omega. The part counts are new (Chrono-Gate 13, Alpha 14, Beta 33, Gamma 68, Delta 96, Omega 119), the completion's ammo is 75 % of what it was, and Alpha Rift's aliens are 4 times as tough as the definition (2 before) at the pace of the other gates.
-- **A harder clan dungeon boss:** from stage 2 it fires at two pilots at once, the Rocket barrage hits every pilot for 50,000 to 75,000, the Meteor drop is 30 % wider and hits twice as hard, and a new ability, Phantom's Lance, brings two illusions that heal it. Clan dungeons pay four times the Echo Shards of 0.5.7, and the five aliens that drop them do so twice as often.
-- **Storm RECON:** Target (+20 % damage taken for 5 s), Slow (60 % slower for 4 s) and a 3 second Ambush bonus when its own attack ends the cloak.
-- **Your own rocket blast hurts you** for half of what it does to others, the N.U.K.E. too.
-- **Pilot Skills:** a new skill, Cloak Recharge; Antimatter now runs up to x2.00; and Wipe Points for skill levels 10, 25, 50, 75 and 100.
-- **A cloak survives a safe zone** and a portal jump.
-- **Skins:** a Miyuki skin in every collection (63 skins in 12 collections now) and a LOU collection for the clan LOU.
-- **Phones and pads:** thumb layout and quick wheel for phones and a two-finger turn (all three are for the Android and iOS apps, which are not part of this release's downloads), Xbox and PlayStation controllers on computers. **The web version** at web.spacecorps.xyz runs the game in a browser (up since 2026-11-15). **A new font** (Ubuntu) on every system.
-- **Balance:** THUNDER, BUCKY, DUMA, NOTSUM and BRATAN change, Facets hit 1.5 times harder, and the group share radius is 8,000 units.
-- **Premium** no longer doubles experience.
+- **Davidski's Nightmare:** a seventh gate. The Materializer has a fourth category for it. 12 waves of "Evil" ships that fire rockets, then Evil Davidski, who turns ANGRY at half his hull, plays his song and calls a golden ship for each ship of the game to protect him. Davidski mocks you at every wave. 238 parts, 183,077 Thulium on average, the price of Omega Vault.
+- **The font:** the desktop game (Windows, macOS, Linux) draws the system's UI font again, as it did until 0.5.7. The web version and the phone builds keep Ubuntu Light.
+- **New pilots start with rockets:** 100 each of Lancet I, Rivet I, Ember I and Scatter I, 400 in all.
+- **Miyuki Channel Shield:** twice the shield points, 80 seconds between uses at level V, and 3, 4 and 5 % of each ship's own maximum shield a second at levels III, IV and V.
+- **Your own numbers:** ability tooltips tell what a press pays you with your Pilot Skills, and quest briefings name your world's hull allowance and time limit.
+- **The web version on phones and tablets:** a soft keyboard for the sign-in on Android, the page height on iPad, sound after the first tap and a bigger menu. None of it has been tried on a real phone.
+- **Chinese, Japanese and Korean in the web version:** it drew them as boxes. The page now downloads one font file of about 2 MB (1.4 to 1.5 MB with brotli, 1.7 MB with gzip) from its own site when it needs one, and another one if you change the interface to another of the three languages. The 5,401 most common Traditional Chinese characters draw too; rare characters of every language, and the extra characters that Hong Kong writers use for Cantonese, are still boxes.
+- **System lines on Singapore and US East:** an administrator's Say or broadcast, who was kicked, muted or banned, the restart warnings from 5 minutes down to 30 seconds and the Universe Wipe alert now reach the pilots on the regional servers too, within about 5 seconds. Not seen on a deployed regional server yet.
+- **Premium:** the Thulium page of the direct downloads and the web version links to the Premium page on our website, where Premium can be bought. Steam and the phone builds show nothing about buying.
+- **Release job:** new in 0.5.9, it can build a signed Android APK of the phone app. The job's step that sends the phone apps to the stores' internal test tracks has been there since 0.5.7. Both are off unless switched on in the job's settings. The store steps go to internal testers, never to production; the APK is an early-access file, installed by hand, with no store.
 
 **New**
-- **Alien tiers.** Every ordinary alien the sky respawns rolls a tier when it appears, from the table of the world it is in, and its name shows it: `-=α-Seeker=-` on its name tag and in the Target window. The tier multiplies its hit points, shield, shield recharge and damage (its rocket too) and what its kill pays: credits, Thulium, experience and honor, and the experience of your drones and P.E.T.s. The loot is as it was.
+- **Davidski's Nightmare.** The Materializer asks for a category, and it has a fourth: Davidski's Nightmare, which holds the gate alone. A spin finds a part with the same chance as in every category, 13 %, and a spin costs 100 Thulium. The gate needs 238 parts, which is 183,077 Thulium on average without the guarantee: Omega Vault's price.
+  - **The run** follows the other solo gates: one pilot, 3 lives, built with parts, entered through a portal named "Solo Gate -> Davidski's Nightmare" in your home sector, 5 seconds before every wave, progress saved at each wave. The plan is 45 to 60 minutes.
+  - **The waves.** 12 waves of 205 Evil ships in all, in the livery of the Dormant swarm: Evil Protos (50), Kitefin (66), Ostirion (31), Nomad (19), Paragon (22), Storm (7), Wraith (8) and Ironclad (2). The small hulls come first. Each carries lasers, a rocket (Rivet I to III) and a repair drone that mends 1 % of its hull a second once it has not been hit for 3 seconds. The drone is drawn: a small repair drone circles each Evil ship that is on your screen and not too small to show it (a small glow on the Low graphics setting) and shines a green beam on it while its hull is seen rising. Only the Evil ships mend: Evil Davidski and the golden ships have no drone. The Evil Protos and Evil Kitefin he calls mend too, but fire no rockets.
+  - **Evil Davidski** (wave 13) has 550,000 hull and 660,000 shield, flies an Ironclad in a darker gold, drawn 1.5 times as large. He fires rocket barrages, drops meteors and calls Evil Protos. **At half his hull he becomes ANGRY DAVIDSKI:** his shield is refilled to half, every hit of that phase is multiplied by 1.5, he adds a ring blast (35,000 before the factor) and calls Evil Kitefin instead of Evil Protos, and 8 minutes into that phase everything he does is multiplied by 2 on top of it. The moves of the phase have numbers of their own, and some are smaller per hit than in the first phase: the rockets are 2,600 before the factor (4,900 in the first phase) and come 0.4 seconds apart (0.5), the meteors 3,400 (11,000) in three volleys (two). His song "Gold Ironclad" plays. **26 golden ships appear, one of every ship in the game.** While any of them lives, a fifth of the damage you deal gets through to him, and the game says how many are left. They pay and drop nothing and come once.
+  - **Davidski's window.** At the start of each of the 12 waves, at the boss's entrance, at the change to ANGRY and when he falls, a window of Davidski opens and mocks you for always killing him. 15 lines, in English and the twelve other languages. It closes by itself after about 10 seconds and takes no key or click of the flight.
+  - **The map.** On the minimap Evil Davidski is marked like a boss, in his dark gold, with the number of golden ships left beside him; the 26 golden ships are gold diamonds and the Evil ships are violet ringed dots, so shape and not only colour tells them apart. No other mark on the minimap is drawn differently. Pointing at the boss or at a golden ship shows its name. Looked at in a real client at 1280x720 and 1024x640: the Evil ships' marks on wave 1 of a test server, and the boss mark, the gold diamonds and the count on ships laid by a script, because a real run reaches the boss only after about 50 minutes.
+  - **Quests.** When Evil Davidski falls it counts as one kill of Davidski for your quests, the tasks that name a Danger Sector included. It does not count for kill statistics, Wipe Points, rankings or achievements.
+  - **Pay.** The completion is Omega Vault's to the unit (60,000 Thulium, 15,000,000 Credits and the same items and ammo). By the model, with Credits at 200 to a Thulium and the items and the ammo at the Market's reference price, a run returns 250.7 % of what its parts cost, Omega Vault's 250.8 %; the Thulium alone is 48.7 % of the cost for both. These are the unplayed figures of the model.
+  - **Not counted:** no achievement counts the Nightmare, and "clear all five gates" does not need it.
+  - **Old games.** A game from before 0.5.9 does not show the fourth category or the gate.
+- **New pilots start with rockets.** The first enlistment gives 100 each of Lancet I, Rivet I, Ember I and Scatter I, the four Tier I rockets, after the rest of the starter kit. They are not marketable, like the kit's ammo. Tier I rockets need no Rocket Launcher. A pilot who enlisted before 0.5.9 gets none, and a company change or a wipe gives none again.
+- **Miyuki Channel Shield.** The shield points double: the linked ship gets 150,000 shield a second (75,000 before) and the Miyuki 30,000 (15,000), for 5 seconds. Each tick also restores a share of each ship's own maximum shield, on top of the points: 3 % at Miyuki III, 4 % at IV and 5 % at V. Miyuki V waits 80 seconds between uses (120 at III and IV). Levels I and II have no Channel Shield. The start line and the tooltip say the share.
 
-  | Tier | Letter | Tougher by | Pays |
-  |---|---|---|---|
-  | Alpha | α | 1x | 1x |
-  | Beta | β | 1.5x | 2x |
-  | Gamma | γ | 2x | 3x |
-  | Delta | δ | 4x | 6x |
+  | Level | Linked ship | Miyuki | Share of each maximum shield a second | Between uses |
+  |---|---|---|---|---|
+  | Miyuki III | 150,000 | 30,000 | 3 % | 120 s |
+  | Miyuki IV | 150,000 | 30,000 | 4 % | 120 s |
+  | Miyuki V | 150,000 | 30,000 | 5 % | 80 s |
 
-  | World | Alpha | Beta | Gamma | Delta | Whole world against before |
-  |---|---|---|---|---|---|
-  | Alpha world | 90 % | 9 % | 0.9 % | 0.1 % | 5.7 % tougher, 11.3 % more pay |
-  | Beta world | 4.9 % | 90 % | 4.9 % | 0.2 % | 0.3 % tougher, 0.4 % more pay |
-  | Gamma world | 0.1 % | 4.9 % | 90 % | 4.9 % | 3.6 % tougher, 3.2 % more pay |
-
-  The Gamma world's row adds up to 99.9 %; the game divides by the sum it finds, so the Gamma world's figures are 3.6 % and 3.2 % (3.5 % and 3.1 % without the division). The number of aliens a map holds does not change. Swarms (leaders and followers), Davidski, the Dormant, a Clan Warden's waves, the aliens of a dungeon and the admin's spawns wear no letter and keep what their world gives. The Game Log line stays `You killed Seeker. REWARDS: ...`. The Help's Worlds card says it in 13 languages. Only ordinary sky aliens wear a letter, and a solo gate's kills pay by the kind, not by the tier.
-- **The Materializer asks for a category.** Pick the **Chrono-Gate**, **Alpha-Beta-Gamma** or **Delta-Omega**. A spin still costs 100 Thulium and finds a part with 13 % in every category; the part belongs to one gate of the category, all equally likely: the Chrono-Gate alone gets all of it, Alpha Rift, Beta Breach and Gamma Foundry 4.33 % each, Delta Siege and Omega Vault 6.5 % each. The guarantee (the chance rises after 24 spins in a row without a part, certain after 47) is one counter for all categories. A complete Chrono-Gate shuts its category, and a multi-spin of it stops at the spin that completes it. A game from before 0.5.8 has no picker: a Thulium spin without a category is answered "Update the game to spin the Galaxy Gates." and charges nothing.
-- **New part counts for every gate.** The parts of a run and what they cost on average with the guarantee, when you scan the gate's own category:
-
-  | Gate | Parts (0.5.7) | Thulium on average with the guarantee (0.5.7) |
-  |---|---|---|
-  | Chrono-Gate | 13 (2) | 9,851 (9,093) |
-  | Alpha Rift | 14 (11) | 31,825 (50,011) |
-  | Beta Breach | 33 (26) | 75,016 (118,208) |
-  | Gamma Foundry | 68 (54) | 154,579 (245,508) |
-  | Delta Siege | 96 (87) | 145,486 (395,541) |
-  | Omega Vault | 119 (108) | 180,343 (491,017) |
-
-  A part of Alpha Rift to Omega Vault is found two to three times as often as on the old wheel of six gates (4.33 % a scan in Alpha to Gamma and 6.5 % in Delta and Omega, against 13 % / 6 = 2.17 %), because you scan one category. So the parts of a run cost less Thulium on average in five of the six gates. The Chrono-Gate is the exception: a part of it is found six times as often (13 % a scan), but it needs 6.5 times the parts and a run costs a little more (9,851, was 9,093). Known limits says what a pilot who spends all his Thulium on one category gets. The wipe still takes the Chrono-Gate's parts and leaves the solo gates' parts.
-- **The completion's ammo is 75 % of what it was** (the swarm leaders' loot and the consolation prize of a spin without a part are as they were):
-
-  | Gate | Advanced Plasma | Ultra Core | Experimental Fusion Core |
-  |---|---|---|---|
-  | Alpha Rift | 15,000 (20,000) | 3,750 (5,000) | 15,000 (20,000) |
-  | Beta Breach | 37,500 (50,000) | 15,000 (20,000) | 22,500 (30,000) |
-  | Gamma Foundry | 22,500 (30,000) | 45,000 (60,000) | 37,500 (50,000) |
-  | Delta Siege | 30,000 (40,000) | 67,500 (90,000) | 56,250 (75,000) |
-  | Omega Vault | 37,500 (50,000) | 75,000 (100,000) | 75,000 (100,000) |
-- **Alpha Rift: normal pace, tougher aliens.** It had a pace of its own (0.46 aliens a second); now it releases them at the run's 4 a second like the other gates, and its aliens have 4 times the hull and shield of the definition (2 times before).
-- **The aliens of a solo gate's waves wear tiers too,** for their strength only: 31.7 % Alpha, 31.7 % Beta, 31.6 % Gamma and 5 % Delta. A wave takes as long to destroy on average as before, but the damage you take rises (see Known limits). What a gate kill pays is the kind's, not the tier's.
-- **A portal is sent only to its owner.** The server no longer sends the portal of your solo gate to other pilots (0.5.7 only hid it in the game).
-- **All gates can be built at once.** You may have every solo gate (Alpha Rift to Omega Vault) built at the same time, each with a portal of its own in your home sector, and you play one at a time: while you are in an arena none of your portals stands, and they come back when you are out. Only the gate you have already built is refused ("That gate is already built. Go in through its portal or abandon it first."); another gate is built as usual when you have its parts. Resume and Abandon name the gate they act on. Your own portals stand 1,200 units apart; another pilot's portal may stand on the same spot as one of yours, because each portal is sent only to its owner. Changed in code and tests (the real server ticker over the real gate data); nobody has played with five gates built.
-- **The clan dungeon boss (the Dungeon Warlord).** It fires its laser at **two pilots at once from stage 2** (the two nearest it can see, each takes a whole volley; one pilot in stage 1). **Rocket barrage** now sends a rocket at **every** pilot it can see, one every 15 seconds for 45 seconds, for 50,000 to 75,000 (62,500 to 93,750 at stage 2, 75,000 to 112,500 at stage 3); it was 26,000 (32,500, 39,000) at random pilots. **Meteor drop:** the ring is 546 units (420) and a meteor does 80,000, 100,000 and 120,000 by stage (40,000, 50,000, 60,000). **Phantom's Lance** is new: the Warlord vanishes for a second and comes back somewhere in its room with 2 illusions of 500,000 hull. While an illusion lives it fires 50 % of the Warlord's volley at the nearest pilot it can see and heals the Warlord 50,000 hull and 50,000 shield a second (100,000 and 100,000 with both). Illusions pay nothing, leave with the Warlord, and the Warlord can be destroyed while they live.
-- **More Echo Shards.** The five aliens that drop an Echo Shard do so at twice the chance, wherever they die: Seeker 0.8 %, Phantasm 2 %, Bulwark 4 %, Goombah 10 %, Crystalys 40 % a kill (0.4, 1, 2, 5 and 20 % in 0.5.7). A paid clear of a clan dungeon gives 12, 8 and 8 Echo Shards for stages 1, 2 and 3 (3, 2, 2 in 0.5.7), and the aliens' boxes inside a dungeon drop Echo Shards at twice the new chance, four times the chance of 0.5.7 (Goombah 20 %, Crystalys 80 %). The Lattice Shards, the Heartshards and what a solo gate's completion pays in shards (Alpha Rift 4 Echo and 6 Lattice up to Omega Vault 34 and 54) did not change; a gate's kills pay the doubled chances, so a run gives 28 % (Alpha Rift) to 38 % (Omega Vault) more Echo Shards than in 0.5.7. A full piece (150 Echo Shards) now takes a clan pilot about 4 hours of play by the model, 11 in 0.5.7; nobody has played it.
-- **Storm RECON gets three buttons.** **Chameleon** (as before; a safe zone no longer breaks it), **Target** (a selected enemy ship within your laser range takes 20 % more damage from everyone for 5 seconds, the Marking Rocket's effect) and **Slow** (it flies 60 % slower for 4 seconds), each recharging in 60 seconds. Target and Slow need an enemy pilot or alien selected, work only within laser range, not on your group or company and not in a safe zone, and they count as an attack: they end the cloak. When your own attack ends the Chameleon you get an **Ambush** for 3 seconds: 25 % more damage and 25 % more speed.
-- **Your own area blast hurts you.** Every rocket that bursts (a blast, the N.U.K.E. too) now counts the pilot who fired it among the ships it can hurt, for half of what the same blast does to a ship at his distance. You can be destroyed by it. A group mate is never hurt by your blast. A safe zone, a respawn's protection and an Energetic Wall between you and the burst spare you as they spare every ship. Direct rockets and alien rockets are unchanged.
-- **A cloak survives a safe zone and a portal jump.** The Cloaking CPU and the Chameleon no longer end when you enter a safe zone (the CPU's Help card and the wiki say so); you still cannot start one inside a safe zone's ring.
-- **Pilot Skills: Cloak Recharge, the 21st stat** (Combat, governed by Reflex). The recharge that starts when a cloak ends runs x1.00 at level 1 (60 seconds), x0.75 at level 50 (45.2 s) and x0.50 at level 100 (30 s), for the Cloaking CPU and the Chameleon. It trains with 0.1 XP for every second you are cloaked, only on a ship that is alive, outside a safe zone and flown in the last minute. The numbers are first values.
-- **Antimatter runs up to x2.00.** x1.00 at level 1 to x2.00 at level 100 (it was x1.25 at most) in a straight line, so level 2 is x1.0101. The rounding is fair: a line of Dark Matter is the whole part of quantity times the factor and one more with the chance of the fraction. The black hole lays boxes of one unit now, so a box from it pays one or two depending on the level (exactly one at level 1, exactly two at level 100), and its map keeps 52 boxes (32). Boxes from other sources double as the skill says (a Tesseract box of 5 pays up to 10).
-- **Wipe Points for skill levels.** Every stat pays Wipe Points the first time it reaches level 10, 25, 50, 75 and 100: 2, 5, 10, 20 and 40 (77 for one stat, 1,617 for all 21). Once ever for each stat and level, wipes do not take them back. Claim them with one button on the Season page; a pilot who is already above a level is paid it at his first claim.
-- **Miyuki.** A link (Channel Heal and Channel Shield) can be put on an enemy pilot or alien too: it heals or shields whoever it joins, you get no Healing XP for an enemy, and a boss of a dungeon or a gate cannot be linked. A link to a ship that was destroyed says "destroyed", not "left the map". The five levels are one row of their own in the Shop's Ships category, and the Research tree draws an arrow from each level to the next. The Support Rocket stays friend-only.
-- **Skins.** A Miyuki skin in each of the 12 collections, worn by all five levels. A new collection, **LOU**, for the clan LOU: Bloody R.E.D's black body with deep violet lights and no logo, for the Paragon, Storm, Ironclad, Wraith and Miyuki. The LOU skins have no in-game route yet: an administrator gives them to the clan's members. The catalogue has 63 skins in 12 collections (47 in 11 before). No skin has a Thulium price, and the update gives nobody a Miyuki skin: hers are found the way the other ships' skins are: nine of the collections in the Chroma Archive (which hands out one skin for one ship, for your active ship first, as in 0.5.7), the Abductee's from the same Archive for a pilot who finished the Static, and an administrator gives those of Bloody R.E.D and LOU.
-- **Forge: one Upgrade view.** Tier up and Sockets are one view now (Upgrade | Merge): the ladder and the Tier up block first, the Sockets below. Rules and prices are as in 0.5.7.
-- **Clan Members list: Last seen.** A column says how many whole days ago each member played ("Today", "1 day ago", "12 days ago"), amber from 14 days and red from 30. Only members of the clan see it, about their own clan, and a pilot cannot switch it off. A pilot with no record reads a dash.
-- **Chat tells when a pilot is muted, kicked or banned:** every pilot connected to Home reads "{name} was muted by an admin." (or kicked, or banned), flying or at the station, in any world. It names only the pilot. Pilots flying on a regional server do not see it.
-- **Phone controls.** On a phone the flight controls stand on three arcs round the right thumb with badges on Attack and Rocket, the ship's abilities at seats under it and a Config switch; a virtual stick flies; a slim HUD replaces the toolbars. **Quick bar** in Settings is Hotbar (the default) or Wheel: a hold of 0.35 s on Attack or Rocket, or a touch on the Items button, opens a ring of choices. **Two fingers dragged across turn the view** and a phone's camera stays where you put it by default. **The Android and iOS apps are not part of this release's downloads,** and by the game's code a computer or a browser does not use the phone layout, so these controls reach no pilot with this release's downloads.
-- **Gamepads.** An Xbox, PlayStation or other Bluetooth or USB controller works in flight on a computer (run on Windows with a scripted pad only; the Linux x86_64 package builds with the pad code, but no pad was used on Linux, macOS was not built or run, and the Android code was never run): the left stick flies, right stick zooms and turns, A attacks, X selects the nearest, Y fires the rocket, bumpers choose ammo and rockets, LT is the ship's ability, RT the hotbar. Settings, Controls lists it under Controller. No flight sticks (no HOTAS), no iOS, no web.
-- **The web version** at web.spacecorps.xyz runs the game in a browser; it has been up since 2026-11-15. A web player chooses the server to fly from as on a computer. In a browser the game leaves out Steam, the updater, gamepads and the system fonts: Japanese, Korean and Chinese texts are drawn as boxes (a fix is planned for the next patch).
-- **A new font.** Ubuntu Light, with Ubuntu Medium and Bold and Hack for monospace, are the faces on every system and in the browser (before, each system drew its own font). Japanese, Korean, Chinese, Thai, Arabic and Hebrew texts still use the system's faces on a computer. Layouts were retuned for the new font (a line is shorter, the letters about 1 % wider). The font files are in the program, and the Ubuntu Font Licence travels with the game's files.
-- **Premium.** The Level and Premium help cards no longer say that Premium doubles experience, and the Thulium page lists no perks: for now Premium gives no gameplay advantage and shows a Premium badge on your pilot. Premium is not on sale yet (the Thulium page says "Not available yet"). The Thulium page now also says what is planned for Premium: "Planned for Premium, not available yet and subject to change: emoji support in chat, a reaction wheel and chat translations." The Steam build's Thulium page has no Premium text. The Premium help card says the same once the offers open. None of them is a gameplay advantage.
-- **Admin menu modes (administrators):** infinite ammo and rockets, no cooldowns for the admin's own ship.
+- **Premium on the website.** Premium can be bought on the Premium page of the download site, https://spacecorps.github.io/play/premium/ (Stripe is the seller of record). The sale did not wait for this release: it has been open since 2026-11-17. The game never sells it. In the **direct downloads (Windows, macOS, Linux) and the web version** the Thulium page has a card: a button "Get Premium on our website" while the main server says payments are open, "Premium is coming soon" if it does not. **The Steam build and the Android and iOS builds say nothing about buying Premium:** no card, no link, no Premium button in the top bar, and they never ask the server about payments. About, Links has no Website entry on Android and iOS.
+- **Release job, Android APK.** New in 0.5.9: the release job can build an Android APK signed with SpaceCorps' own key (arm64 only, early access, installed from the file with no store) and list it among the release's files. It is off unless it is switched on in the job's settings. The job waits at most 20 minutes for it after the other packages; an APK that fails, is skipped or is late means a release without it, never a failed one. Since 0.5.7 the job can also send the phone apps to Google Play's internal testing track and to TestFlight's internal testers (also off unless switched on; what it sends is unchanged in 0.5.9). The store steps go to internal testers, never to production, and the APK is an early-access file with no store: the Android and iOS apps are still works in progress.
+- **Admin tools (administrators):** the alien spawn takes a tier: Alpha, Beta, Gamma or Delta. With none it is as before.
 
 **Changed**
-- **THUNDER, BUCKY, DUMA, NOTSUM, BRATAN.** THUNDER loses the 25 % hull penalty (128,000 hull, 96,000 before; still +40 base speed and +1 laser slot, 11 lasers). BUCKY loses the minus 1 laser slot (10 lasers, 9 before). DUMA's laser penalty goes from minus 3 to minus 2 slots (6 laser slots, 5 before) and its shield absorption from +10 % to +15 %. NOTSUM and BRATAN get +5 % all damage, which also lifts the two Library builds that use them. Converting a Paragon to THUNDER now takes 5 Dark Matter Plates (4) and to BUCKY 6 (5). A THUNDER you already own keeps its share of hull: its saved hull is scaled by 128,000 / 96,000 once.
-- **The Storm RECON's design lines name all three buttons.** The Assembly's recipe, the Shop's design rows, the Hangar's badge and card, the Target window and the wiki's Ship Designs and Storm pages say Chameleon, Target, Slow, not Chameleon alone. A game of 0.5.7 still says Chameleon only.
-- **Tesseract Facets hit 1.5 times harder:** 834 in Alpha, 1,251 in Beta and 1,668 in Gamma (556, 834, 1,112).
-- **The group share radius is 8,000 units** (4,000): group mates alive and within 8,000 units of a wreck share the kill, and a clan counts the kill once by the same radius.
-- **The hidden series of missions** pays 10 Orvium Reinforced Plates more for each mission, on top of what it paid.
-- **The Help's Cloaking CPU card** no longer lists a safe zone among what ends a cloak.
-- **Premium gives no experience bonus.** Until 0.5.7 an active Premium doubled the experience you earned from kills and quests; now it is paid 1.0 times. The Quests, Groups and Dungeons wiki pages no longer list Premium among the reward boosts.
-- **The guards of a swarm keep their target.** A follower of a swarm (the guards of a Crystalys, for one) that had been hit once, long ago, let go of a pilot on the very next tick when he shot its leader. It keeps him now while its attackers are still shooting.
+- **The font.** Since 0.5.8 every system drew egui's Ubuntu Light, and the pilots did not like it. The desktop game now draws the system's UI font as it did until 0.5.7: SF Pro on macOS, Segoe UI on Windows, Inter, Cantarell or DejaVu Sans on Linux, with the system's own weights and its faces for Chinese, Japanese, Korean, Thai, Arabic and Hebrew. The layout numbers of the desktop go back with it. The web version and the phone builds cannot read system fonts and keep Ubuntu Light, Hack and the Ubuntu Medium and Bold files. There is no font setting.
+- **Premium wording.** The Help card says what Premium is and nothing of buying: "Premium currently gives no gameplay advantage and no extra features: it shows a Premium badge on your pilot." The Thulium page of the Steam and phone builds has no Premium card at all, and the card of the direct and web builds is the one described above, with its button. Premium does not double experience (it paid 1.0 times since 0.5.8). Pilots also earn Premium days as wipe rewards, by how far they got. The closed-sale card "No pay-to-win, ever" is gone. The sale notice of the Premium page no longer says what the receipt reads.
+- **Android and iOS pages.** The Thulium page of the Android build is the same as the iOS and Steam one: the Bonus code card and how Thulium is earned, no Premium card. (It showed the card with "not available yet" before.)
+- **Clan dungeons: the share that pays.** A pilot in a clan dungeon is paid when he dealt 0.2 % of the boss's hull and shield (it was 2 %), or destroyed 10 of the dungeon's aliens, or healed other pilots for 50,000 during the fight with the Warlord. The reward is the same full reward, and the other rules stay (he must not have pressed leave and stayed away, he must have been inside at least 2 minutes, one paid clear of a stage a day, 10 a week). Nobody has measured what this does to the rewards: every pilot at or above 0.2 % gets the whole reward, in a big crew as much as in a small one. The wiki says the same in all 13 languages.
+- **Briefings.** Eleven timed quests wrote their limit in words ("Ninety minutes", "Two hours"). They say "90 minutes", "120 minutes" and so on now, so that a Beta or Gamma pilot reads his own time.
 
 **Fixed**
-- **US East and Singapore joins:** a pilot could be refused when he joined a regional server because an item made on that server took the number of an item of another pilot. The servers count their own new items from 1,000,000,000 now, and a refusal names no other pilot. This is changed in code and covered by unit tests; it has not been seen live on a regional server.
-- **An administrator's mute holds on Singapore and US East.** A muted pilot is refused in Local, Group, Clan, Global and private chat on a regional server too, with the same line "You are muted by an admin.", and Home drops the Global and Clan lines a node pushes for him; a mute set or lifted while he flies reaches him within one beat (5 seconds). In 0.5.7 it did not reach a pilot flying there. A regional server of 0.5.7 keeps only Home's drop of his Global and Clan lines. Tested against a real Home and two node states; not seen on a deployed server.
-- **Loot pop-up and Game Log:** the pop-up (4 times the Antimatter skill's 1.25 = 5) was right and the log said 4. The Game Log now has a "Collected: ..." line with the amounts you were paid at every pick-up (not for asteroid chunks).
-- **Dormant Knowledge:** the card said "146 of 146 researched" and the server counted 129. The card counts only the technologies that count for knowledge, as the server does.
-- **Blink:** the light no longer swells or glitches when the ship faces away from the camera. Tests keep the streak's size sane for every heading, and a scripted real-client run drew it before and after; no pilot has seen it.
-- **A Miyuki's ability buttons** keep their places and keys under the "Ship destroyed" dialog.
-- **Android camera:** two fingers dragged across turn the view; before only the vertical move worked. This is changed in code; no real phone has run it.
-- **Wiki and Help texts** follow the game: the Shields page (DUMA +15 %), the Tesseract page (Facets 834 / 1,251 / 1,668), the Dungeons page (12 / 8 / 8 Echo Shards, ring 546), the Alien, Forge and Resources pages (the Echo Shard chances), the Solo Gates and Rockets pages, the Extras page (the Cloaking CPU) and the Help cards in 13 languages.
+- **Ability tooltips ignored your Pilot Skills.** A tooltip said "Restores 267,484 shield over 10 s, Ready every 90 s" for a press that paid more over a longer time. The server now tells what a press pays you: Tactics' time and total, Healing's points, Sabotage's venom, Reflex's quicker wait and Cloak Recharge's wait, in the tooltip, the Hangar and the clock ("Ready in 17 s" counts the seconds you really wait). It is told again when you reach a level of one of these skills in flight. A game from before 0.5.9 shows them right with no change. Not included: a Cooldown rocket's slow of the timers, the item cards and Help cards, and a build shared as a link.
+- **Quest briefings named Alpha's numbers.** A Beta or Gamma pilot read "no more than 3,000 hull" beside a limit of 4,500 or 6,000, and a time limit of Alpha's. The hull allowances and time limits of the briefing are your world's now, in the language's own digits. Alpha pilots see no change. A game from before 0.5.9 ignores them. The rewards are not in the briefings, and the reward chips of a card still print the base.
+- **The web version on a touch device.** Android: tapping the user name or password field raised no soft keyboard (a hidden input now takes the focus inside the tap). iPad: the page was taller than the screen and its bottom was behind it (a fixed stage inside the safe area now). No sound: the browser kept the sound suspended until a gesture and nothing asked again (the page now resumes it on every gesture). The menu starts at 130 % on a touch browser, with 44 pixel targets and cards that fit a 320 to 412 pixel screen. A computer's layout is unchanged, and a size you chose is kept.
+- **Dungeon wire tests.** The two tests that read the dungeon document's examples expected 6 Echo Shards, the file pays 12 for stage 1. The tests were wrong, not the game.
+- **Not found:** Skylab kills counting twice. The code was traced through the trip's settle, the quest hand-over, the collect and the wipe payout, and no place counts a kill twice. A test now holds the settle, the quest hand-over and the collect to one count per kill (the wipe payout was read in the code, not run in that test). If you saw a double count, we need the case.
+- **Solo gates and pilot numbers.** The portal of a solo gate no longer has the pilot's number inside its id. In 0.5.8 a pilot with a number of 600,000 or more could build no gate. The first builds of 0.5.9, which made room for the Nightmare, were tighter: a pilot of 500,000 or more could not build the first gate (Alpha Rift) and one of 100,000 or more could not build the Nightmare. Now a pilot's number stops no one from building or entering a gate: the server gives each open run its own portal id from 1,000,000,000 up, keeps it while the run is open (the ids are made again each time the server starts) and gives it back when the run ends, and each portal is still shown to its owner alone. A game of 0.5.7 or 0.5.8 draws and uses the portals of the five older gates like any other: it hides another pilot's portal only for ids inside the old servers' range (6,000,000 to 9,000,000), so it keeps the new ids. This comes from reading its code. The jump through the Nightmare's portal is refused to a game without the Nightmare feature. No data step is needed and nothing new is stored. It is about the portals of the gates only: an alien made by a map's own spawner still gets a random id between 100,000 and 900,000 with no check that a pilot's ship does not already have it, and a ship whose pilot number is 5,000,000 or more cannot be shot at with a targeted attack (see Known limits). Tested in the server's tests with pilots numbered 100,000, 500,000, 700,000 and 5,000,000 through the real ticker; never with a real client against it, and no live pilot number was looked up.
+- **System lines on Singapore and US East.** A line that Home tells everybody (an administrator's Say or broadcast, who was kicked, muted or banned, the restart and update warnings from 5 minutes down to 30 seconds, the Universe Wipe alert and call-off) now reaches the pilots on the regional servers too, within about 5 seconds, to the same audience (everybody, a world or a map). Not carried: the last 20 seconds of a restart countdown, the clan treasury line of a wipe, and lines to one pilot or one clan. A regional server still on an older version tells none of them. Tested with a real Home and two real nodes in one process; not seen on a deployed regional server.
+- **The Materializer and the Nightmare.** While the Nightmare category is picked, the gate card showed the Chrono-Gate. It now shows Davidski's Nightmare itself: its name, a ring of its 238 parts and its own bar. The Materializer's help card names all four categories, and the Chrono-Gate's help card no longer says there are two other categories and five solo gates (13 languages). The part count that a scan sends back stays the Chrono-Gate's count by design; the Nightmare's own count is in its own row. Looked at in the real client in English, French and Spanish at 1024x640 and in Russian at 1280x800; German and Japanese at 1024x640 were looked at too, but no picture of that was kept; not in the other languages and not on a phone. In those looks the gates' state was a saved copy of a server's answer, fed to the real client.
+- **Chinese, Japanese and Korean in the web version.** It drew them as boxes. The page now downloads one Noto Sans CJK subset from its own site (SIL Open Font License 1.1, about 2.0 MB, 1.4 to 1.5 MB on the wire with brotli and 1.7 MB with gzip) when the interface language is Chinese (Simplified), Japanese or Korean, or when a text from the server, or one you type or paste, holds such a character. Each file holds 10,421 characters, among them all 5,401 of the common Traditional Chinese set (Big5 level 1), so a Traditional Chinese chat line of common characters draws; there is no separate Traditional Chinese language, so those characters are drawn in the forms of the Japanese file with a Japanese interface, of the Korean file with a Korean one and of the Chinese (Simplified) file otherwise. It is a download on first use, and the font is kept out of the game's wasm and out of the desktop and Steam packages. The language lists show the three languages' names in English ("Chinese (Simplified)", "Japanese", "Korean") until the font is in, then in their own script. The About credit line of the web version now says where its fonts come from. Rarer Traditional characters, the Hong Kong additions, rare kanji and rare Hangul are still boxes (see Known limits). Checked in headless Chrome on one PC only: a Traditional Chinese line was tried by typing it into the Log In field, not as a chat line from another pilot.
 
 **Servers and privacy**
-- **The server and the game go live together, on all three servers.** Home (Helsinki), Singapore and US East must run the same build: two tables are new at Home, the flight data of a regional server changed, and a game or a node of 0.5.7 does not take the new part counts.
-- **Two new tables at Home only** (a regional server's copy of each stays empty): the Stripe customer number of a pilot who buys Premium (no card data; deleted with the account, which first cancels subscriptions at Stripe) and the record of which skill levels paid Wipe Points (deleted with the account; no wipe touches it).
-- **Clan members see the days since a clanmate last played** (see New). Nothing new is stored for it: the server reads the days it already keeps.
-- **The web version** is allowed to call a regional server directly only where that server lists the page's address.
+- **The server and the game go live together, on all three servers.** Home (Helsinki), Singapore and US East must run the same build.
+- **No data step, no new table.** The update moves no Credits, Thulium or items. At start the server adds eight alien definitions, the Evil ships (ids 42 to 49, after Davidski's), and no id in the database moves.
+- **Premium.** Payments are Stripe's: the game does not take or store card data. The direct and web builds ask Home once when the Thulium page opens whether payments are open (the pilot's own token, nothing new stored). The Steam build and the phone builds never ask.
+- **The web version** on a touch device keeps its interface size under its own key, so a computer's size is never changed by a phone.
 
 **If you already play**
-- Update the game; the server and the game go live together. A game from before 0.5.8 cannot spin the Materializer ("Update the game to spin the Galaxy Gates." and nothing is charged), does not show tier letters and flies as before otherwise.
-- **The update moves no Credits, Thulium or items.** It converts your **gate parts** once with `floor(parts held x new parts needed / old parts needed)`, so a complete gate stays complete, an empty one stays empty and a partial one is rounded down: the Chrono-Gate 0, 1 or 2 of 2 becomes 0, 6 or 13 of 13; Alpha 11 becomes 14, Beta 26 becomes 33, Gamma 54 becomes 68, Delta 87 becomes 96 and Omega 108 becomes 119 (5 of 11 Alpha parts become 6 of 14). The parts already paid into a gate you built and not finished are converted the same way, so a wipe (or an administrator's abort) gives back whole new parts. Abandon, as before, gives none back.
-- A THUNDER you own keeps its share of hull (see Changed). Pilots already above a Pilot Skill level of 10, 25, 50, 75 or 100 are paid those Wipe Points at their first claim on the Season page (the first claim of a pilot with every stat at level 100 is 1,617).
-- A pilot with an active Premium no longer earns double experience. His days are not touched.
-- A pilot who held every skin of a collection now lacks its Miyuki skin. Nothing is given back: for the nine collections of the Chroma Archive (and the Abductee's, for a pilot who finished the Static) the collection can drop again for him and the Miyuki skin has to come out of a Chroma Archive; an administrator gives that of Bloody R.E.D and LOU.
+- Update the game; the server and the game go live together. A game from before 0.5.9 flies as before, does not show the Nightmare, shows no quest world numbers, and shows the Miyuki's shield points without the percent (its start line is then in English). It shows your ability numbers right, since the server tells them.
+- **The update moves no Credits, Thulium or items.** There is no data step in 0.5.9. Only new pilots get the starter rockets.
+- A Miyuki III, IV or V gets the stronger Channel Shield at once.
+- The desktop game changes its font at the update, and every layout of the desktop returns to the numbers it had until 0.5.7.
 <!-- /patchnotes:latest -->
 
 ---
@@ -226,18 +191,23 @@ Verify the integrity of downloaded binaries prior to execution:
 ### macOS
 ```bash
 shasum -a 256 SpaceCorps2027-macos-universal.dmg
-# Expected: fbe67b4a17af977528a5425b6f407bef5f010a240ebb814758b31210188fe551
+# Expected: bcad2452723caea3ace1d28068a25620a8ab73450fc76335aa96c119a31ebbad
 ```
 
 ### Windows (PowerShell)
 ```powershell
 Get-FileHash SpaceCorps2027-windows-x86_64.zip -Algorithm SHA256
-# Expected: 9bdec64915c4c37a8059f0968703549820be165729fcbbc84425c022bd99edac
+# Expected: 52fdf3290c40f8fe79bf1a73685b0284bffa524e2b7b91288973b07da3b12f85
 ```
 
 ### Linux
 ```bash
-echo "226bcd98a64808d389ac1c62eb376530fda39a5765b191b67fa07605934b1abb  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+echo "2f1b2a8fa6d2946704d175bd556549b08e167dd7f2c78228b888cef8c9ee441a  SpaceCorps2027-linux-x86_64.AppImage" | sha256sum -c -
+```
+
+### Android (64-bit ARM, early access)
+```bash
+echo "0805685c38d0b64e375e66ace7307252b73c3703ae00ee56d9a99c783730a3ff  SpaceCorps2027-android-aarch64.apk" | sha256sum -c -
 ```
 <!-- /release:checksums -->
 

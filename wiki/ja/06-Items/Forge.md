@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: 鍛冶場 -->
 # 鍛冶場 {#the-forge}
 
@@ -96,6 +96,7 @@
 | ソロゲート：Gamma Foundry | 18 | 27 |
 | ソロゲート：Delta Siege | 29 | 44 |
 | ソロゲート：Omega Vault | 34 | 54 |
+| ソロゲート：Davidski's Nightmare | 34 | 54 |
 | クランダンジョン：ステージ1 | 12 | 5 |
 | クランダンジョン：ステージ2 | 8 | 6 |
 | クランダンジョン：ステージ3 | 8 | 7 |

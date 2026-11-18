@@ -839,7 +839,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% 확률로 1개 | 0.02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8% 확률로 1개 | 0.01 |
 
-- **솔로 게이트**: 클리어할 때마다 Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
+- **솔로 게이트**: 클리어할 때마다 Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34.
 - **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 12, 8 및 8.
 - **클랜 던전의 외계인**: 위 표의 확률의 2배로 떨어뜨립니다.
 - **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
@@ -857,7 +857,7 @@
 
 **얻는 방법**
 
-- **솔로 게이트**: 클리어할 때마다 Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54.
+- **솔로 게이트**: 클리어할 때마다 Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54.
 - **클랜 던전**: 1, 2, 3단계를 보상받고 클리어하면 5, 6 및 7.
 - **행운과 Resource Magnet Booster**: 둘 다 늘려 주지 않습니다. 경매장에 등록할 수 없습니다.
 - **그 밖에**: 상점에서 판매하지 않습니다.

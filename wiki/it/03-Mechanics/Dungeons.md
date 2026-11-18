@@ -369,7 +369,7 @@ Queste regole decidono chi viene pagato **per il completamento**. Una partita si
 - **Un giorno**: Una fase paga un pilota una volta per giorno UTC: il giorno in cui cade il Signore della guerra
 - **Una settimana**: Un pilota è pagato per al massimo 10 fasi completate per settimana UTC, da lunedì a domenica
 - **Dentro**: Almeno 2 min in tutto
-- **Parte nello scontro**: Almeno una di queste: ha inflitto 2% dello scafo e dello scudo del Signore della guerra; ha distrutto 10 alieni del dungeon; ha curato altri piloti per 50.000 durante lo scontro con il Signore della guerra
+- **Parte nello scontro**: Almeno una di queste: ha inflitto 0,2% dello scafo e dello scudo del Signore della guerra; ha distrutto 10 alieni del dungeon; ha curato altri piloti per 50.000 durante lo scontro con il Signore della guerra
 
 <!-- dungeons-rules:end -->
 

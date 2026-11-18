@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: 锻造炉 -->
 # 锻造炉 {#the-forge}
 
@@ -96,6 +96,7 @@
 | 单人星门：Gamma Foundry | 18 | 27 |
 | 单人星门：Delta Siege | 29 | 44 |
 | 单人星门：Omega Vault | 34 | 54 |
+| 单人星门：Davidski's Nightmare | 34 | 54 |
 | 战队地下城：第 1 阶段 | 12 | 5 |
 | 战队地下城：第 2 阶段 | 8 | 6 |
 | 战队地下城：第 3 阶段 | 8 | 7 |

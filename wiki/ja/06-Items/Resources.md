@@ -839,7 +839,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%で1個 | 0.02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8%で1個 | 0.01 |
 
-- **ソロゲート**：クリアするたびにAlpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34。
+- **ソロゲート**：クリアするたびにAlpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34。
 - **クランダンジョン**：ステージ1、2、3を報酬付きでクリアすると12, 8 と 8。
 - **クランダンジョンのエイリアン**：上の表の確率の2倍でドロップします。
 - **運とResource Magnet Booster**：どちらも増やしません。オークションに出品することはできません。
@@ -857,7 +857,7 @@
 
 **入手方法**
 
-- **ソロゲート**：クリアするたびにAlpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54。
+- **ソロゲート**：クリアするたびにAlpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54。
 - **クランダンジョン**：ステージ1、2、3を報酬付きでクリアすると5, 6 と 7。
 - **運とResource Magnet Booster**：どちらも増やしません。オークションに出品することはできません。
 - **それ以外**：ショップでは販売していません。

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: 대장간 -->
 # 대장간 {#the-forge}
 
@@ -96,6 +96,7 @@
 | 솔로 게이트: Gamma Foundry | 18 | 27 |
 | 솔로 게이트: Delta Siege | 29 | 44 |
 | 솔로 게이트: Omega Vault | 34 | 54 |
+| 솔로 게이트: Davidski's Nightmare | 34 | 54 |
 | 클랜 던전: 1단계 | 12 | 5 |
 | 클랜 던전: 2단계 | 8 | 6 |
 | 클랜 던전: 3단계 | 8 | 7 |

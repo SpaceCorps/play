@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5ac83735773f6626 -->
+<!-- wiki-i18n source: 471213bf365fc9b9 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -57,11 +57,11 @@ A Miyuki képességei a hajóhoz tartoznak, nem egy tárgyhoz: nem foglalnak ké
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7,5 mp, 20 000 + 2% | – | – |
 | **Miyuki II** | 7,5 mp, 20 000 + 2% | másodpercenként 50 000 hajótest (te 10 000), 120 mp | – |
-| **Miyuki III** | 7,5 mp, 30 000 + 3% | másodpercenként 50 000 hajótest (te 10 000), 120 mp | másodpercenként 75 000 pajzs (te 15 000), 120 mp |
-| **Miyuki IV** | 7,5 mp, 30 000 + 3% | másodpercenként 75 000 hajótest (te 10 000), 100 mp | másodpercenként 75 000 pajzs (te 15 000), 120 mp |
-| **Miyuki V** | 7,5 mp, 30 000 + 3% | másodpercenként 75 000 hajótest (te 10 000), 100 mp | másodpercenként 75 000 pajzs (te 15 000), 120 mp |
+| **Miyuki III** | 7,5 mp, 30 000 + 3% | másodpercenként 50 000 hajótest (te 10 000), 120 mp | másodpercenként 150 000 + 3% pajzs (te 30 000 + 3%), 120 mp |
+| **Miyuki IV** | 7,5 mp, 30 000 + 3% | másodpercenként 75 000 hajótest (te 10 000), 100 mp | másodpercenként 150 000 + 4% pajzs (te 30 000 + 4%), 120 mp |
+| **Miyuki V** | 7,5 mp, 30 000 + 3% | másodpercenként 75 000 hajótest (te 10 000), 100 mp | másodpercenként 150 000 + 5% pajzs (te 30 000 + 5%), 80 mp |
 
-Egy kapcsolat 5 másodpercig tart, és a csoportod vagy a vállalatod egy hajójáig ér 1 200 egységen belül. A Heal Pod 600-ig ér.
+Egy kapcsolat 5 másodpercig tart, és a csoportod vagy a vállalatod egy hajójáig ér 1 200 egységen belül. A Heal Pod 600-ig ér. A Channel Shield a pontjain felül minden másodpercben visszatölti mindkét hajó saját maximális pajzsának egy részét is: a Miyuki III-nál 3%-ot, a IV-nél 4%-ot, az V-nél 5%-ot (a táblázat százaléka).
 
 ## Kutatás {#research}
 

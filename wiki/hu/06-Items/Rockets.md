@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Rakéták -->
 # Rakéták {#rockets}
 
@@ -164,7 +164,7 @@ A különleges rakéták olyasmit tesznek, amit egy sebzésszám nem fejez ki. *
 
 ## Tüzelés {#firing}
 
-1. Vedd meg a Gyakori rakétákat a boltban (a **Rakéták** kategória), mindegyikből a *legfeljebb hordozható* mennyiségig, kreditért; a Ritkákat és az Epikusokat a Gyártásban állítsd elő az alatta lévő fokozat 100 darabjából.
+1. Vedd meg a Gyakori rakétákat a boltban (a **Rakéták** kategória), mindegyikből a *legfeljebb hordozható* mennyiségig, kreditért; a Ritkákat és az Epikusokat a Gyártásban állítsd elő az alatta lévő fokozat 100 darabjából. A kezdőcsomagod már tartalmaz a négy Gyakori rakétából egyenként 100-at (összesen 400; nem adhatók el, és aki a 0.5.9 előtt csatlakozott, annak nincs egy sem).
 2. Nyisd meg a **Rakéták** menüt a gyorssáv fölött, és húzd a kívánt rakétákat a helyekre. A menü fajtánként egy oszlopot és fokozatonként egy sort mutat, mindegyiken azzal, amennyit hordasz. Alattuk vannak a **különleges rakéták**, soronként négy (egy kis kalapács jelöl egy csak előállítható rakétát, amelyből egyet sem hordasz).
 3. Nyomd meg a hely billentyűjét. Egy **irányított** rakéta helyére kattintva a kijelölt célpontra lősz vele; egy **egyenes** rakéta helyére kattintva élesíted, és a következő űrbeli kattintásod oda lövi ki. A **Rakétakilövés** billentyű (alapértelmezés szerint `R`, a Beállítások › Irányítás alatt átállítható) az utoljára kilőtt rakétát lövi ki, vagy a sáv első rakétáját.
 4. Minden rakétahelyen egy körcikk fut körbe azon az időzítőn, amelyre az a rakéta vár: normál rakétánál 3 másodperc (rakétavetővel 5), különleges rakétánál az 5 másodperc és a saját időzítője közül a hosszabb, a hátralévő másodpercekkel a közepén. Addig egy megnyomás csak azt közli, hogy a rakéták töltődnek (az utolsó tizedmásodpercben megnyomva még elsül). Egy drónformáció 2,19 és 4,05 másodperc közé állíthatja a normál időzítőt (lásd lent).

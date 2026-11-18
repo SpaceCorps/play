@@ -837,7 +837,7 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% for 1 | 0.02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8% for 1 | 0.01 |
 
-- **Solo gates**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 with every clear.
+- **Solo gates**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 with every clear.
 - **Clan dungeons**: 12, 8 and 8 with a paid clear of stage 1, 2 and 3.
 - **Clan dungeon aliens**: they drop it at 2 times the chances in the table above.
 - **Luck and the Resource Magnet Booster**: neither adds to it. It can never be listed on the Auction.
@@ -855,7 +855,7 @@ The ore of a batch is worked out for the whole batch, rounded up, and taken from
 
 **How to get it**
 
-- **Solo gates**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 with every clear.
+- **Solo gates**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 with every clear.
 - **Clan dungeons**: 5, 6 and 7 with a paid clear of stage 1, 2 and 3.
 - **Luck and the Resource Magnet Booster**: neither adds to it. It can never be listed on the Auction.
 - **Otherwise**: not sold in the Shop.

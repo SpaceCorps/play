@@ -839,7 +839,7 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % för 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % för 1 | 0,01 |
 
-- **Soloportar**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 vid varje avklarning.
+- **Soloportar**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 vid varje avklarning.
 - **Klandungeons**: 12, 8 och 8 vid en betald avklarning av etapp 1, 2 och 3.
 - **Utomjordingar i klandungeons**: de släpper den med 2 gånger chanserna i tabellen ovan.
 - **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
@@ -857,7 +857,7 @@ Malmen till en sats beräknas för hela satsen, avrundad uppåt, och tas från R
 
 **Så får du det**
 
-- **Soloportar**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 vid varje avklarning.
+- **Soloportar**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 vid varje avklarning.
 - **Klandungeons**: 5, 6 och 7 vid en betald avklarning av etapp 1, 2 och 3.
 - **Tur och Resource Magnet Booster**: Ingen av dem ökar det. Det kan aldrig läggas ut på Auktionen.
 - **I övrigt**: säljs inte i butiken.

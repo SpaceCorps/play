@@ -839,7 +839,7 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% per 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8% per 1 | 0,01 |
 
-- **Porte in solitaria**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 a ogni completamento.
+- **Porte in solitaria**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 a ogni completamento.
 - **Dungeon del clan**: 12, 8 e 8 con un completamento pagato del livello 1, 2 e 3.
 - **Alieni dei dungeon del clan**: lo rilasciano con 2 volte le probabilità della tabella qui sopra.
 - **Fortuna e il Resource Magnet Booster**: Nessuno dei due lo aumenta. Non può mai essere messo all’Asta.
@@ -857,7 +857,7 @@ Il minerale di un lotto si calcola per l’intero lotto, arrotondato per eccesso
 
 **Dove si ottiene**
 
-- **Porte in solitaria**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 a ogni completamento.
+- **Porte in solitaria**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 a ogni completamento.
 - **Dungeon del clan**: 5, 6 e 7 con un completamento pagato del livello 1, 2 e 3.
 - **Fortuna e il Resource Magnet Booster**: Nessuno dei due lo aumenta. Non può mai essere messo all’Asta.
 - **Altrimenti**: non si vende nel Negozio.

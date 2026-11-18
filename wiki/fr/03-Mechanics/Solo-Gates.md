@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
+<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
 <!-- wiki-i18n title: Portes solo -->
 # Portes solo {#solo-gates}
 
@@ -13,7 +13,7 @@ Une porte solo n’est pas un [donjon de clan](/wiki/03-Mechanics/Dungeons.md). 
 <!-- solo-glance:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-- **Portes** : 6 : le Chrono-Gate et 5 portes solo, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege et Omega Vault
+- **Portes** : 7 : le Chrono-Gate et 6 portes solo, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault et Davidski's Nightmare
 - **Tirage** : 100 Thulium par tirage, et 1, 5, 10 ou 100 tirages à la fois
 - **Chance d’une pièce** : 13 % par tirage, dans la catégorie que vous scannez. La pièce appartient à l’une des portes de cette catégorie, toutes aussi probables : le Chrono-Gate seul prend tout, Alpha Rift, Beta Breach et Gamma Foundry prennent 4,33 % chacune, et Delta Siege et Omega Vault prennent 6,5 % chacune. Quand le Chrono-Gate est complet, il n’y a plus rien à scanner dans sa catégorie
 - **Garantie** : Après 24 tirages de suite sans pièce, la chance monte à chaque tirage, et après 47 le tirage suivant en trouve toujours une. Une pièce de n’importe quelle porte repart le compte
@@ -43,6 +43,7 @@ Le tableau donne le coût de chaque porte en pièces et ce qu’elles coûtent e
 | **Gamma Foundry** | 68 | 4,33 % | 1 546 | 154 579 |
 | **Delta Siege** | 96 | 6,5 % | 1 455 | 145 486 |
 | **Omega Vault** | 119 | 6,5 % | 1 803 | 180 343 |
+| **Davidski's Nightmare** | 238 | 13 % | 1 803 | 180 343 |
 
 <!-- solo-parts:end -->
 
@@ -124,6 +125,7 @@ Certaines vagues amènent un **essaim** : un boss PNJ du jeu (un Boss Seeker, B
 | **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | vague 4 : 1 Phantasm Swarm; vague 9 : 1 Goombah Swarm; vague 14 : 1 Goombah Swarm | Elite Crystalys | 25 à 35 min |
 | **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | vague 5 : 2 Phantasm Swarm; vague 10 : 2 Goombah Swarm; vague 15 : 1 Goombah Swarm; vague 20 : 1 Crystalys Swarm | Siege Construct | 35 à 45 min |
 | **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | vague 6 : 1 Goombah Swarm; vague 11 : 2 Goombah Swarm; vague 16 : 1 Crystalys Swarm; vague 22 : 1 Phantasm Swarm | Omega Guardian | 50 à 60 min |
+| **Davidski's Nightmare** | 13 | 50 Evil Protos, 66 Evil Kitefin, 31 Evil Ostirion, 19 Evil Nomad, 22 Evil Paragon, 7 Evil Storm, 8 Evil Wraith, 2 Evil Ironclad |  | Evil Davidski | 45 à 60 min |
 
 - **Delta Siege** : la vague 18 (250 Seeker) est facultative : vous pouvez la passer pendant son compte à rebours, et elle ne paie rien
 - **Omega Vault** : la vague 17 (250 Seeker) est facultative : vous pouvez la passer pendant son compte à rebours, et elle ne paie rien; les vagues 22 à 24 sont d’élite, avec ×1,5 de coque, de bouclier et de dégâts
@@ -144,6 +146,7 @@ Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une
 | **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
 | **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
 | **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
+| **Evil Davidski** | Davidski's Nightmare | 550 000 | 660 000 | 2 600–3 200 |
 
 | Boss | Phase | Coque restante | Ce qu’il fait |
 | :--- | :--- | :--- | :--- |
@@ -156,6 +159,8 @@ Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une
 | **Omega Guardian** | Shield Fortress | 100 % à 70 % | Son bouclier est fixé à ×1,5 de celui du boss. Toutes les 40 s, il appelle 6 Bulwark, au plus 12 en vie ; ils ne paient ni ne lâchent rien. |
 |  | Swarm Protocol | 70 % à 35 % | Toutes les 25 s, il appelle 12 Phantasm, au plus 24 en vie ; ils ne paient ni ne lâchent rien. Toutes les 30 s, une explosion de 140 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
 |  | Overload | 35 % à 0 % | Son bouclier est fixé à ×0,1 de celui du boss. Tous ses dégâts sont ×2,5. Après 2 min dans la phase, tous ses dégâts sont encore ×2. Toutes les 25 s, une explosion de 28 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
+| **Evil Davidski** | Evil Davidski | 100 % à 50 % | Il vous tire 6 roquettes Warden Rivet II, de 4 900 chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 2 salves de 8 météores, de 11 000 chacun sur tout ce qui se trouve à moins de 400 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 40 s, il appelle 5 Evil Protos, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
+|  | Angry | 50 % à 0 % | Son bouclier est fixé à ×0,5 de celui du boss. Tous ses dégâts sont ×1,5. Après 8 min dans la phase, tous ses dégâts sont encore ×2. Il vous tire 6 roquettes Warden Rivet III, de 2 600 chacune, une toutes les 0,4 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 3 salves de 8 météores, de 3 400 chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 45 s, une explosion de 35 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. Toutes les 40 s, il appelle 3 Evil Kitefin, au plus 6 en vie ; ils ne paient ni ne lâchent rien. |
 
 <!-- solo-bosses:end -->
 
@@ -173,12 +178,14 @@ Une victoire paie son tableau **une fois**, d’un coup, à l’instant où le b
 | **Gamma Foundry** | 4 000 000 | 25 000 | 400 000 | 5 500 |
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
+| **Davidski's Nightmare** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
 - **Alpha Rift** : Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6 ; munitions : Advanced Plasma ×15 000, Ultra Core ×3 750, Experimental Fusion Core ×15 000
 - **Beta Breach** : Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13 ; munitions : Advanced Plasma ×37 500, Ultra Core ×15 000, Experimental Fusion Core ×22 500
 - **Gamma Foundry** : Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27 ; munitions : Advanced Plasma ×22 500, Ultra Core ×45 000, Experimental Fusion Core ×37 500
 - **Delta Siege** : Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44 ; munitions : Advanced Plasma ×30 000, Ultra Core ×67 500, Experimental Fusion Core ×56 250
 - **Omega Vault** : Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54 ; munitions : Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
+- **Davidski's Nightmare** : Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54 ; munitions : Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
 - **Heartshards** : 1 à la première réussite de chaque porte d’une saison, et 5 % de chances d’en obtenir 1 de plus à chaque réussite.
 
 <!-- solo-pay:end -->
@@ -207,6 +214,14 @@ Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha
 | **Goombah Guard** | 125 | 1 | 12 | 1 |
 | **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
 | **Crystalys Guard** | 125 | 1 | 12 | 1 |
+| **Evil Protos** | 4 250 | 17 | 725 | 6 |
+| **Evil Kitefin** | 12 850 | 53 | 2 175 | 18 |
+| **Evil Ostirion** | 34 350 | 141 | 5 800 | 48 |
+| **Evil Nomad** | 59 600 | 245 | 10 060 | 84 |
+| **Evil Paragon** | 68 700 | 283 | 11 600 | 97 |
+| **Evil Storm** | 96 600 | 398 | 16 315 | 136 |
+| **Evil Wraith** | 137 450 | 566 | 23 205 | 194 |
+| **Evil Ironclad** | 268 450 | 1 105 | 45 330 | 379 |
 
 | Porte | Crédits | Thulium | XP | Honneur |
 | :--- | ---: | ---: | ---: | ---: |
@@ -215,6 +230,7 @@ Chaque alien que vous tuez dans une porte paie aux chiffres qu’il a dans Alpha
 | **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
 | **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
 | **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
+| **Davidski's Nightmare** | 7 081 950 | 29 124 | 1 196 445 | 9 968 |
 
 <!-- solo-kills:end -->
 

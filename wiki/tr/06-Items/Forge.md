@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Demirhane -->
 # Demirhane {#the-forge}
 
@@ -96,6 +96,7 @@ Bir parçanın dört yuvasını da ayarlamak 150 Echo Shard tutar (10 + 20 + 40 
 | Solo geçit: Gamma Foundry | 18 | 27 |
 | Solo geçit: Delta Siege | 29 | 44 |
 | Solo geçit: Omega Vault | 34 | 54 |
+| Solo geçit: Davidski's Nightmare | 34 | 54 |
 | Klan zindanı: 1. aşama | 12 | 5 |
 | Klan zindanı: 2. aşama | 8 | 6 |
 | Klan zindanı: 3. aşama | 8 | 7 |

@@ -839,7 +839,7 @@ O minério de um lote é calculado para o lote inteiro, arredondado para cima, e
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%: 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8%: 1 | 0,01 |
 
-- **Portões solo**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 a cada conclusão.
+- **Portões solo**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 a cada conclusão.
 - **Masmorras do clã**: 12, 8 e 8 com uma conclusão paga da etapa 1, 2 e 3.
 - **Alienígenas das masmorras do clã**: eles o soltam com 2 vezes as chances da tabela acima.
 - **Sorte e o Resource Magnet Booster**: Nenhum dos dois o aumenta. Nunca pode ser colocado no Leilão.
@@ -857,7 +857,7 @@ O minério de um lote é calculado para o lote inteiro, arredondado para cima, e
 
 **Como obter**
 
-- **Portões solo**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 a cada conclusão.
+- **Portões solo**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 a cada conclusão.
 - **Masmorras do clã**: 5, 6 e 7 com uma conclusão paga da etapa 1, 2 e 3.
 - **Sorte e o Resource Magnet Booster**: Nenhum dos dois o aumenta. Nunca pode ser colocado no Leilão.
 - **Fora isso**: não é vendido na Loja.

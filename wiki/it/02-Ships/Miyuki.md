@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5ac83735773f6626 -->
+<!-- wiki-i18n source: 471213bf365fc9b9 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -57,11 +57,11 @@ Le abilità della Miyuki appartengono alla nave, non a un oggetto: non occupano 
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7,5 s, 20.000 + 2% | – | – |
 | **Miyuki II** | 7,5 s, 20.000 + 2% | 50.000 di scafo al secondo (tu 10.000), 120 s | – |
-| **Miyuki III** | 7,5 s, 30.000 + 3% | 50.000 di scafo al secondo (tu 10.000), 120 s | 75.000 di scudo al secondo (tu 15.000), 120 s |
-| **Miyuki IV** | 7,5 s, 30.000 + 3% | 75.000 di scafo al secondo (tu 10.000), 100 s | 75.000 di scudo al secondo (tu 15.000), 120 s |
-| **Miyuki V** | 7,5 s, 30.000 + 3% | 75.000 di scafo al secondo (tu 10.000), 100 s | 75.000 di scudo al secondo (tu 15.000), 120 s |
+| **Miyuki III** | 7,5 s, 30.000 + 3% | 50.000 di scafo al secondo (tu 10.000), 120 s | 150.000 + 3% di scudo al secondo (tu 30.000 + 3%), 120 s |
+| **Miyuki IV** | 7,5 s, 30.000 + 3% | 75.000 di scafo al secondo (tu 10.000), 100 s | 150.000 + 4% di scudo al secondo (tu 30.000 + 4%), 120 s |
+| **Miyuki V** | 7,5 s, 30.000 + 3% | 75.000 di scafo al secondo (tu 10.000), 100 s | 150.000 + 5% di scudo al secondo (tu 30.000 + 5%), 80 s |
 
-Un collegamento dura 5 secondi e raggiunge una nave del tuo gruppo o della tua corporazione entro 1.200 unità. L’Heal Pod arriva a 600.
+Un collegamento dura 5 secondi e raggiunge una nave del tuo gruppo o della tua corporazione entro 1.200 unità. L’Heal Pod arriva a 600. Un Channel Shield ripristina, oltre ai suoi punti, ogni secondo una parte dello scudo massimo di ciascuna nave: il 3% sulla Miyuki III, il 4% sulla IV e il 5% sulla V (la percentuale della tabella).
 
 ## Ricerca {#research}
 

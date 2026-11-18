@@ -55,11 +55,11 @@ The Miyuki's abilities belong to the ship, not to an item: they take no ability 
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7.5 s, 20,000 + 2% | – | – |
 | **Miyuki II** | 7.5 s, 20,000 + 2% | 50,000 hull a second (you 10,000), 120 s | – |
-| **Miyuki III** | 7.5 s, 30,000 + 3% | 50,000 hull a second (you 10,000), 120 s | 75,000 shield a second (you 15,000), 120 s |
-| **Miyuki IV** | 7.5 s, 30,000 + 3% | 75,000 hull a second (you 10,000), 100 s | 75,000 shield a second (you 15,000), 120 s |
-| **Miyuki V** | 7.5 s, 30,000 + 3% | 75,000 hull a second (you 10,000), 100 s | 75,000 shield a second (you 15,000), 120 s |
+| **Miyuki III** | 7.5 s, 30,000 + 3% | 50,000 hull a second (you 10,000), 120 s | 150,000 + 3% shield a second (you 30,000 + 3%), 120 s |
+| **Miyuki IV** | 7.5 s, 30,000 + 3% | 75,000 hull a second (you 10,000), 100 s | 150,000 + 4% shield a second (you 30,000 + 4%), 120 s |
+| **Miyuki V** | 7.5 s, 30,000 + 3% | 75,000 hull a second (you 10,000), 100 s | 150,000 + 5% shield a second (you 30,000 + 5%), 80 s |
 
-A link lasts 5 seconds and reaches a ship of your group or company within 1,200 units. The Heal Pod reaches 600.
+A link lasts 5 seconds and reaches a ship of your group or company within 1,200 units. The Heal Pod reaches 600. A Channel Shield also restores a share of each ship's own maximum shield every second on top of its points: 3% on Miyuki III, 4% on IV and 5% on V (the percent in the table).
 
 ## Research
 

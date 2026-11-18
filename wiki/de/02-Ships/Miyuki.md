@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5ac83735773f6626 -->
+<!-- wiki-i18n source: 471213bf365fc9b9 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -57,11 +57,11 @@ Die Fähigkeiten der Miyuki gehören zum Schiff, nicht zu einem Gegenstand: Sie 
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7,5 s, 20.000 + 2 % | – | – |
 | **Miyuki II** | 7,5 s, 20.000 + 2 % | 50.000 Hülle pro Sekunde (du 10.000), 120 s | – |
-| **Miyuki III** | 7,5 s, 30.000 + 3 % | 50.000 Hülle pro Sekunde (du 10.000), 120 s | 75.000 Schild pro Sekunde (du 15.000), 120 s |
-| **Miyuki IV** | 7,5 s, 30.000 + 3 % | 75.000 Hülle pro Sekunde (du 10.000), 100 s | 75.000 Schild pro Sekunde (du 15.000), 120 s |
-| **Miyuki V** | 7,5 s, 30.000 + 3 % | 75.000 Hülle pro Sekunde (du 10.000), 100 s | 75.000 Schild pro Sekunde (du 15.000), 120 s |
+| **Miyuki III** | 7,5 s, 30.000 + 3 % | 50.000 Hülle pro Sekunde (du 10.000), 120 s | 150.000 + 3 % Schild pro Sekunde (du 30.000 + 3 %), 120 s |
+| **Miyuki IV** | 7,5 s, 30.000 + 3 % | 75.000 Hülle pro Sekunde (du 10.000), 100 s | 150.000 + 4 % Schild pro Sekunde (du 30.000 + 4 %), 120 s |
+| **Miyuki V** | 7,5 s, 30.000 + 3 % | 75.000 Hülle pro Sekunde (du 10.000), 100 s | 150.000 + 5 % Schild pro Sekunde (du 30.000 + 5 %), 80 s |
 
-Eine Verbindung dauert 5 Sekunden und reicht zu einem Schiff deiner Gruppe oder deines Konzerns im Umkreis von 1.200 Einheiten. Der Heal Pod reicht 600.
+Eine Verbindung dauert 5 Sekunden und reicht zu einem Schiff deiner Gruppe oder deines Konzerns im Umkreis von 1.200 Einheiten. Der Heal Pod reicht 600. Ein Channel Shield stellt zusätzlich zu seinen Punkten jede Sekunde einen Teil des eigenen maximalen Schilds jedes der beiden Schiffe wieder her: 3 % bei der Miyuki III, 4 % bei IV und 5 % bei V (das Prozent in der Tabelle).
 
 ## Forschung {#research}
 

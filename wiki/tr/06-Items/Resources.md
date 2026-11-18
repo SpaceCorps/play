@@ -839,7 +839,7 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | %2 şansla 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | %0,8 şansla 1 | 0,01 |
 
-- **Solo geçitler**: Her tamamlamada Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34.
+- **Solo geçitler**: Her tamamlamada Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34.
 - **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 12, 8 ve 8.
 - **Klan zindanı uzaylıları**: yukarıdaki tablodaki şansların 2 katıyla düşürürler.
 - **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
@@ -857,7 +857,7 @@ Bir partinin cevheri tüm parti için hesaplanır, yukarı yuvarlanır ve parti 
 
 **Nasıl elde edilir**
 
-- **Solo geçitler**: Her tamamlamada Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54.
+- **Solo geçitler**: Her tamamlamada Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54.
 - **Klan zindanları**: 1, 2 ve 3. aşamanın ücretli tamamlanmasında 5, 6 ve 7.
 - **Şans ve Resource Magnet Booster**: İkisi de bunu artırmaz. Açık Artırma’ya asla konulamaz.
 - **Bunun dışında**: Mağaza’da satılmaz.

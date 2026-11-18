@@ -369,7 +369,7 @@ Dessa regler avgör vem som får betalt **för klarningen**. En omgång spelas k
 - **En dag**: Ett steg betalar en pilot en gång per UTC-dag: den dag då krigsherren faller
 - **En vecka**: En pilot får betalt för högst 10 avklarade steg per UTC-vecka, måndag till söndag
 - **Inne**: Minst 2 min totalt
-- **Del i striden**: Minst ett av dessa: orsakat 2 % av krigsherrens skrov och sköld; förstört 10 av dungeonens utomjordingar; läkt andra piloter för 50 000 under striden mot krigsherren
+- **Del i striden**: Minst ett av dessa: orsakat 0,2 % av krigsherrens skrov och sköld; förstört 10 av dungeonens utomjordingar; läkt andra piloter för 50 000 under striden mot krigsherren
 
 <!-- dungeons-rules:end -->
 

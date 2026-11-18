@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Roketler -->
 # Roketler {#rockets}
 
@@ -164,7 +164,7 @@ Bir uzaylıyı öldürmek için gereken roket sayısı, tür tür ve her roketin
 
 ## Fırlatma {#firing}
 
-1. Sıradan roketleri mağazadan (**Roketler** kategorisi) her birinin *taşıma sınırına* kadar kredi ile satın al; Nadir ve Destansı olanları Montaj’da bir alt kademenin 100 roketinden üret.
+1. Sıradan roketleri mağazadan (**Roketler** kategorisi) her birinin *taşıma sınırına* kadar kredi ile satın al; Nadir ve Destansı olanları Montaj’da bir alt kademenin 100 roketinden üret. Başlangıç paketinde dört Sıradan roketin her birinden zaten 100 adet vardır (toplam 400; satılamazlar ve 0.5.9’dan önce kaydolmuş bir pilotta yoktur).
 2. Kısayol çubuğunun üstündeki **Roketler** düğmesini aç ve istediklerini yuvalara sürükle. Seçici her tür için bir sütun, her kademe için bir satır gösterir, her birinde taşıdığın miktarla. Altlarında **özel roketler** yer alır, satır başına dört tane (hiç taşımadığın, yalnızca üretilen bir roketi küçük bir çekiç işaretler).
 3. Yuvanın tuşuna bas. **Güdümlü** bir roketin yuvasına tıklamak onu seçili hedefe ateşler; **düz** bir roketin yuvasına tıklamak onu kurar ve uzayda bir sonraki tıklaman onu oraya ateşler. **Roket fırlat** tuşu (varsayılan `R`, Ayarlar › Kontroller’den değiştirilebilir) en son fırlattığın roketi ya da çubuktaki ilkini ateşler.
 4. Her roket yuvasının üzerinde, o roketin beklediği sayaç için dairesel bir gösterge döner, ortasında kalan saniyeyle: normal bir roket için 3 saniye (roket fırlatıcıyla 5), özel bir roket için 5 saniye ile kendi sayacının uzun olanı. O sırada basmak yalnızca roketlerin yeniden dolduğunu söyler (son saniyenin onda birinde basmak yine ateşler). Bir dron formasyonu normal sayacı 2,19 ile 4,05 saniye arasında bir değere getirebilir (aşağıya bak).

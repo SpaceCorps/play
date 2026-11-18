@@ -369,7 +369,7 @@ Estas reglas deciden quién cobra **la partida**. Una partida se juega entera au
 - **Un día**: Una fase paga a un piloto una vez por día UTC: el día en que cae el Señor de la guerra
 - **Una semana**: Un piloto cobra como máximo 10 fases completadas por semana UTC, de lunes a domingo
 - **Dentro**: Al menos 2 min en total
-- **Parte en el combate**: Al menos una de estas: infligió 2 % del casco y el escudo del Señor de la guerra; destruyó 10 de los alienígenas de la mazmorra; curó a otros pilotos por 50.000 durante el combate contra el Señor de la guerra
+- **Parte en el combate**: Al menos una de estas: infligió 0,2 % del casco y el escudo del Señor de la guerra; destruyó 10 de los alienígenas de la mazmorra; curó a otros pilotos por 50.000 durante el combate contra el Señor de la guerra
 
 <!-- dungeons-rules:end -->
 

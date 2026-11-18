@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Foguetes -->
 # Foguetes {#rockets}
 
@@ -164,7 +164,7 @@ Os foguetes especiais fazem coisas que um número de dano não diz. Eles compart
 
 ## Disparo {#firing}
 
-1. Compre os foguetes Comuns na loja (a categoria **Foguetes**), até o *máximo que você carrega* de cada um, com créditos; fabrique os Raros e Épicos na Montagem com 100 da raridade abaixo.
+1. Compre os foguetes Comuns na loja (a categoria **Foguetes**), até o *máximo que você carrega* de cada um, com créditos; fabrique os Raros e Épicos na Montagem com 100 da raridade abaixo. O seu kit inicial já traz 100 de cada um dos quatro foguetes Comuns (400 no total; não podem ser vendidos, e quem se alistou antes da 0.5.9 não tem nenhum).
 2. Abra **Foguetes** acima da barra de atalhos e arraste os que você quer para os slots. O seletor mostra uma coluna por tipo e uma linha por raridade, com o que você carrega de cada um. Abaixo estão os **foguetes especiais**, quatro por linha (um pequeno martelo marca um só de fabricação de que você não carrega nenhum).
 3. Pressione a tecla do slot. Clicar no slot de um foguete **guiado** o dispara contra o seu alvo selecionado; clicar no slot de um foguete **reto** o arma, e o seu próximo clique no espaço o dispara ali. A tecla **Disparar foguete** (`R` por padrão, alterável em Configurações › Controles) dispara o foguete que você disparou por último, ou o primeiro da barra.
 4. Um indicador circular percorre cada slot de foguete durante o temporizador que aquele foguete espera: 3 segundos num foguete normal (5 com um lançador de foguetes) e, num especial, o maior entre os 5 segundos e o seu próprio, com os segundos restantes no meio. Se você disparar antes disso, o jogo apenas avisa que os foguetes estão recarregando (um disparo na última décima de segundo ainda sai). Uma formação de drones pode deixar o temporizador normal entre 2,19 e 4,05 segundos (veja abaixo).

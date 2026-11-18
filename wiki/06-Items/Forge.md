@@ -94,6 +94,7 @@ Tuning all four sockets of a piece takes 150 Echo Shards (10 + 20 + 40 + 80), an
 | Solo gate: Gamma Foundry | 18 | 27 |
 | Solo gate: Delta Siege | 29 | 44 |
 | Solo gate: Omega Vault | 34 | 54 |
+| Solo gate: Davidski's Nightmare | 34 | 54 |
 | Clan dungeon: stage 1 | 12 | 5 |
 | Clan dungeon: stage 2 | 8 | 6 |
 | Clan dungeon: stage 3 | 8 | 7 |

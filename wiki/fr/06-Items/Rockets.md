@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Roquettes -->
 # Roquettes {#rockets}
 
@@ -164,7 +164,7 @@ Les roquettes spéciales font des choses qu’un chiffre de dégâts ne dit pas.
 
 ## Tirer {#firing}
 
-1. Achetez les roquettes communes à la boutique (la catégorie **Roquettes**), jusqu’au *maximum transportable* de chacune, en crédits  fabriquez les rares et les épiques à l’Assemblage avec 100 de la gamme inférieure.
+1. Achetez les roquettes communes à la boutique (la catégorie **Roquettes**), jusqu’au *maximum transportable* de chacune, en crédits  fabriquez les rares et les épiques à l’Assemblage avec 100 de la gamme inférieure. Votre kit de départ contient déjà 100 exemplaires de chacune des quatre roquettes communes (400 au total ; elles ne peuvent pas être vendues, et un pilote engagé avant la 0.5.9 n’en a aucune).
 2. Ouvrez **Roquettes** au-dessus de la barre rapide, et faites glisser celles que vous voulez sur des emplacements. Le sélecteur affiche une colonne par type et une ligne par gamme, avec ce que vous portez de chacune. Dessous se trouvent les **roquettes spéciales**, quatre par ligne (un petit marteau marque une roquette à fabriquer dont vous ne portez aucune).
 3. Appuyez sur la touche de l’emplacement. Cliquer sur l’emplacement d’une roquette **guidée** la tire sur votre cible sélectionnée ; cliquer sur celui d’une roquette **droite** l’arme, et votre prochain clic dans l’espace la tire là. La touche **Tirer roquette** (`R` par défaut, reconfigurable dans Paramètres › Commandes) tire la roquette que vous avez tirée en dernier, ou la première de la barre.
 4. Un balayage circulaire recouvre chaque emplacement de roquette pendant le minuteur que cette roquette attend  3 secondes pour une roquette normale (5 avec un lance-roquettes), et pour une spéciale le plus long des 5 secondes et du sien, avec les secondes restantes au centre. Un appui avant la fin vous indique seulement que les roquettes se rechargent (un appui dans le dernier dixième de seconde tire quand même). Une formation de drones peut fixer le minuteur normal entre 2,19 et 4,05 secondes (voir plus bas).

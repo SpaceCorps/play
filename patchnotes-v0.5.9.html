@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpaceCorps 2027 0.5.9 · Patch notes</title>
+<meta name="description" content="SpaceCorps 2027 0.5.9: Brings Davidski&#x27;s Nightmare, a seventh Galaxy Gate with Evil ships and an ANGRY Evil Davidski.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="author" content="SpaceCorps">
+<link rel="canonical" href="https://spacecorps.github.io/play/patchnotes-v0.5.9.html">
+<link rel="sitemap" type="application/xml" href="https://spacecorps.github.io/play/sitemap.xml">
+<link rel="alternate" type="text/markdown" href="https://spacecorps.github.io/play/patchnotes/v0.5.9.md">
+<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/patchnotes.json">
+<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SpaceCorps">
+<meta property="og:title" content="SpaceCorps 2027 0.5.9 · Patch notes">
+<meta property="og:description" content="SpaceCorps 2027 0.5.9: Brings Davidski&#x27;s Nightmare, a seventh Galaxy Gate with Evil ships and an ANGRY Evil Davidski.">
+<meta property="og:url" content="https://spacecorps.github.io/play/patchnotes-v0.5.9.html">
+<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SpaceCorps 2027 0.5.9 · Patch notes">
+<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "SpaceCorps",
+          "item": "https://spacecorps.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "SpaceCorps 2027",
+          "item": "https://spacecorps.github.io/play/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Patch Notes",
+          "item": "https://spacecorps.github.io/play/patchnotes.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "0.5.9",
+          "item": "https://spacecorps.github.io/play/patchnotes-v0.5.9.html"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://spacecorps.github.io/play/patchnotes-v0.5.9.html#webpage",
+      "url": "https://spacecorps.github.io/play/patchnotes-v0.5.9.html",
+      "name": "SpaceCorps 2027 0.5.9 Patch Notes",
+      "description": "SpaceCorps 2027 0.5.9: Brings Davidski's Nightmare, a seventh Galaxy Gate with Evil ships and an ANGRY Evil Davidski.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "SpaceCorps",
+        "url": "https://spacecorps.github.io/",
+        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+      },
+      "isPartOf": {
+        "@id": "https://spacecorps.github.io/play/patchnotes.html#webpage"
+      },
+      "datePublished": "2026-11-18"
+    }
+  ]
+}
+</script>
+<script>
+if (new URLSearchParams(window.location.search).get('mode') === 'agent') {
+  window.location.href = 'patchnotes/v0.5.9.md';
+}
+</script>
+<!-- The releases below are written by the game repository's scripts/release/patchnotes.py at
+     each release (between the patchnotes:list markers), from its docs/releases/v<version>.md;
+     patchnotes.json holds the same, and patchnotes.md is the Markdown mirror. -->
+<script src="i18n.js"></script>
+<script src="app.js" defer></script>
+<!-- patchnotes:head -->
+<style>
+/* patchnotes-site 1: the patch notes page's list of releases and its release pages. Written
+   between the patchnotes:head markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.css in the game repository: edit it there, not on the
+   site. Colours and sizes come from style.css. */
+.note-index { padding: 14px 8px 8px; min-width: 0; }
+.note-index > h2 { font-size: 14px; font-weight: 600; color: var(--text-2); letter-spacing: 0.02em; margin: 0 16px 8px; }
+.note-index-list { list-style: none; margin: 0; padding: 0; }
+.note-index-list > li { border-top: 1px solid var(--separator); }
+.note-index-list > li:first-child { border-top: 0; }
+/* style.css already keeps 72px (scroll-padding-top) clear of the top bar. */
+.note-index-list details[id] { scroll-margin-top: 16px; }
+.note-index-list summary, .note-index-list a.note-row {
+  list-style: none; cursor: pointer; display: grid; grid-template-columns: 14px 4.4em 9.2em minmax(0, 1fr);
+  gap: 2px 12px; align-items: baseline; padding: 11px 16px; border-radius: var(--radius-control);
+  color: var(--text-2); font-size: 14.5px; line-height: 1.45; text-decoration: none;
+}
+.note-index-list summary::-webkit-details-marker { display: none; }
+.note-index-list summary::before { content: ""; width: 7px; height: 7px; justify-self: center; align-self: center; border-right: 1.8px solid currentColor; border-bottom: 1.8px solid currentColor; transform: rotate(-45deg); transition: transform 150ms ease; }
+.note-index-list details[open] > summary::before { transform: rotate(45deg) translate(-2px, -2px); }
+.note-index-list a.note-row::before { content: "\2191"; justify-self: center; color: var(--text-3); }
+.note-index-list summary:hover, .note-index-list a.note-row:hover { background: rgba(255, 255, 255, 0.04); color: var(--text); }
+.note-index-list details[open] > summary { color: var(--text); }
+/* Once the notes are in, they start with the lead the summary is the first sentence of. */
+.note-index-list details[open][data-state="done"] > summary .note-s { display: none; }
+.note-v { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.note-d { color: var(--text-3); font-size: 13.5px; white-space: nowrap; }
+.note-s { min-width: 0; overflow-wrap: anywhere; }
+.note-old-body { padding: 6px 16px 20px 42px; }
+.note-old-body > a { color: var(--accent); font-weight: 600; font-size: 14.5px; }
+.note-old-body > a:hover { color: var(--accent-hover); }
+.note-old-body .note-lead { font-size: 15.5px; }
+.note-old-body .note-meta { margin-top: 14px; }
+.note-index-list details[data-state="loading"] .note-old-body { opacity: 0.6; transition: opacity 150ms ease; }
+.note-index-list details[data-state="failed"] .note-old-body > a::after { content: " \26A0"; }
+.note-pager { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+.note-pager a { color: var(--text-2); }
+.note-pager a:hover { color: var(--text); }
+.note-pager > :nth-child(2) { margin-inline: auto; }
+@media (max-width: 640px) {
+  .note-index { padding: 12px 0 4px; }
+  .note-index-list summary, .note-index-list a.note-row { grid-template-columns: 14px auto minmax(0, 1fr); padding: 12px 16px; }
+  .note-s { grid-column: 2 / -1; }
+  .note-old-body { padding: 4px 16px 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .note-index-list summary::before, .note-index-list details[data-state="loading"] .note-old-body { transition: none; }
+}
+</style>
+<!-- /patchnotes:head -->
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"/></symbol>
+</svg>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="SpaceCorps 2027, back to the top" data-i18n-aria-label="nav.home">
+      <img src="img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections" data-i18n-aria-label="nav.label">
+      <a href="./#screenshots" data-i18n="nav.screenshots">Screenshots</a>
+      <a href="./#features" data-i18n="nav.features">Features</a>
+      <a href="./#download" data-i18n="nav.download">Download</a>
+      <a href="./#help" data-i18n="nav.help">Help</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="patchnotes.html" aria-current="page" data-i18n="nav.patchnotes">Patch notes</a>
+      <a class="nav-support" href="premium/" data-i18n="nav.support">Support project</a>
+    </nav>
+    <a class="status" href="./#server" data-status="checking" title="Game server status" data-i18n-title="status.title">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span class="status-text" role="status" aria-live="polite" data-i18n="status.pill.checking">Server</span>
+    </a>
+    <details class="lang" id="lang">
+      <summary class="lang-button" aria-label="Language: English">
+        <svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg>
+        <span class="lang-name" aria-hidden="true">English</span>
+        <span class="lang-code" aria-hidden="true">EN</span>
+        <svg class="icon lang-chevron" aria-hidden="true"><use href="#i-chevron"/></svg>
+      </summary>
+      <ul class="lang-menu" role="list">
+        <li><a href="?lang=en" hreflang="en" lang="en" aria-current="true">English<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=de" hreflang="de" lang="de">Deutsch<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=es" hreflang="es" lang="es">Español<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=fr" hreflang="fr" lang="fr">Français<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=pt-BR" hreflang="pt-BR" lang="pt-BR">Português (Brasil)<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=sv" hreflang="sv" lang="sv">Svenska<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ru" hreflang="ru" lang="ru">Русский<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ja" hreflang="ja" lang="ja">日本語<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=ko" hreflang="ko" lang="ko">한국어<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+        <li><a href="?lang=zh-CN" hreflang="zh-CN" lang="zh-CN">简体中文<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></a></li>
+      </ul>
+    </details>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section notes-page" aria-labelledby="notes-title">
+    <div class="section-head">
+      <h1 id="notes-title" data-i18n="patchnotes.heading">Patch notes</h1>
+    </div>
+    <p class="notes-cta">
+      <a class="btn btn-secondary" href="./#download">
+        <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-i18n="patchnotes.download">Download the latest version</span>
+      </a>
+    </p>
+    <div class="notes">
+    <!-- patchnotes:list -->
+    <article class="card note" id="v0.5.9" aria-labelledby="v0.5.9-title">
+      <header class="note-head">
+        <h2 class="note-title" id="v0.5.9-title">0.5.9 <span class="note-badge" data-i18n="patchnotes.latest">Latest</span></h2>
+        <p class="note-meta"><time datetime="2026-11-18" data-date>18 November 2026</time> <span aria-hidden="true">·</span> <a href="https://github.com/SpaceCorps/play/releases/tag/v0.5.9">GitHub</a></p>
+      </header>
+      <p class="note-lead" lang="en">SpaceCorps 2027 0.5.9 brings Davidski's Nightmare, a seventh Galaxy Gate with Evil ships and an ANGRY Evil Davidski. The desktop game draws the system font again, new pilots start with 400 rockets, the Miyuki's Channel Shield is stronger, ability tooltips and quest texts show your own numbers, and the web version works better on phones and tablets and draws Chinese, Japanese and Korean. Most of it was shown by tests and screenshots, not by people playing.</p>
+      <div class="note-body" lang="en">
+        <h3>Highlights</h3>
+        <ul><li><strong>Davidski's Nightmare:</strong> a seventh gate. The Materializer has a fourth category for it. 12 waves of "Evil" ships that fire rockets, then Evil Davidski, who turns ANGRY at half his hull, plays his song and calls a golden ship for each ship of the game to protect him. Davidski mocks you at every wave. 238 parts, 183,077 Thulium on average, the price of Omega Vault.</li><li><strong>The font:</strong> the desktop game (Windows, macOS, Linux) draws the system's UI font again, as it did until 0.5.7. The web version and the phone builds keep Ubuntu Light.</li><li><strong>New pilots start with rockets:</strong> 100 each of Lancet I, Rivet I, Ember I and Scatter I, 400 in all.</li><li><strong>Miyuki Channel Shield:</strong> twice the shield points, 80 seconds between uses at level V, and 3, 4 and 5 % of each ship's own maximum shield a second at levels III, IV and V.</li><li><strong>Your own numbers:</strong> ability tooltips tell what a press pays you with your Pilot Skills, and quest briefings name your world's hull allowance and time limit.</li><li><strong>The web version on phones and tablets:</strong> a soft keyboard for the sign-in on Android, the page height on iPad, sound after the first tap and a bigger menu. None of it has been tried on a real phone.</li><li><strong>Chinese, Japanese and Korean in the web version:</strong> it drew them as boxes. The page now downloads one font file of about 2 MB (1.4 to 1.5 MB with brotli, 1.7 MB with gzip) from its own site when it needs one, and another one if you change the interface to another of the three languages. The 5,401 most common Traditional Chinese characters draw too; rare characters of every language, and the extra characters that Hong Kong writers use for Cantonese, are still boxes.</li><li><strong>System lines on Singapore and US East:</strong> an administrator's Say or broadcast, who was kicked, muted or banned, the restart warnings from 5 minutes down to 30 seconds and the Universe Wipe alert now reach the pilots on the regional servers too, within about 5 seconds. Not seen on a deployed regional server yet.</li><li><strong>Premium:</strong> the Thulium page of the direct downloads and the web version links to the Premium page on our website, where Premium can be bought. Steam and the phone builds show nothing about buying.</li><li><strong>Release job:</strong> new in 0.5.9, it can build a signed Android APK of the phone app. The job's step that sends the phone apps to the stores' internal test tracks has been there since 0.5.7. Both are off unless switched on in the job's settings. The store steps go to internal testers, never to production; the APK is an early-access file, installed by hand, with no store.</li></ul>
+        <h3>New</h3>
+        <ul><li><strong>Davidski's Nightmare.</strong> The Materializer asks for a category, and it has a fourth: Davidski's Nightmare, which holds the gate alone. A spin finds a part with the same chance as in every category, 13 %, and a spin costs 100 Thulium. The gate needs 238 parts, which is 183,077 Thulium on average without the guarantee: Omega Vault's price.<ul><li><strong>The run</strong> follows the other solo gates: one pilot, 3 lives, built with parts, entered through a portal named "Solo Gate -&gt; Davidski's Nightmare" in your home sector, 5 seconds before every wave, progress saved at each wave. The plan is 45 to 60 minutes.</li><li><strong>The waves.</strong> 12 waves of 205 Evil ships in all, in the livery of the Dormant swarm: Evil Protos (50), Kitefin (66), Ostirion (31), Nomad (19), Paragon (22), Storm (7), Wraith (8) and Ironclad (2). The small hulls come first. Each carries lasers, a rocket (Rivet I to III) and a repair drone that mends 1 % of its hull a second once it has not been hit for 3 seconds. The drone is drawn: a small repair drone circles each Evil ship that is on your screen and not too small to show it (a small glow on the Low graphics setting) and shines a green beam on it while its hull is seen rising. Only the Evil ships mend: Evil Davidski and the golden ships have no drone. The Evil Protos and Evil Kitefin he calls mend too, but fire no rockets.</li><li><strong>Evil Davidski</strong> (wave 13) has 550,000 hull and 660,000 shield, flies an Ironclad in a darker gold, drawn 1.5 times as large. He fires rocket barrages, drops meteors and calls Evil Protos. <strong>At half his hull he becomes ANGRY DAVIDSKI:</strong> his shield is refilled to half, every hit of that phase is multiplied by 1.5, he adds a ring blast (35,000 before the factor) and calls Evil Kitefin instead of Evil Protos, and 8 minutes into that phase everything he does is multiplied by 2 on top of it. The moves of the phase have numbers of their own, and some are smaller per hit than in the first phase: the rockets are 2,600 before the factor (4,900 in the first phase) and come 0.4 seconds apart (0.5), the meteors 3,400 (11,000) in three volleys (two). His song "Gold Ironclad" plays. <strong>26 golden ships appear, one of every ship in the game.</strong> While any of them lives, a fifth of the damage you deal gets through to him, and the game says how many are left. They pay and drop nothing and come once.</li><li><strong>Davidski's window.</strong> At the start of each of the 12 waves, at the boss's entrance, at the change to ANGRY and when he falls, a window of Davidski opens and mocks you for always killing him. 15 lines, in English and the twelve other languages. It closes by itself after about 10 seconds and takes no key or click of the flight.</li><li><strong>The map.</strong> On the minimap Evil Davidski is marked like a boss, in his dark gold, with the number of golden ships left beside him; the 26 golden ships are gold diamonds and the Evil ships are violet ringed dots, so shape and not only colour tells them apart. No other mark on the minimap is drawn differently. Pointing at the boss or at a golden ship shows its name. Looked at in a real client at 1280x720 and 1024x640: the Evil ships' marks on wave 1 of a test server, and the boss mark, the gold diamonds and the count on ships laid by a script, because a real run reaches the boss only after about 50 minutes.</li><li><strong>Quests.</strong> When Evil Davidski falls it counts as one kill of Davidski for your quests, the tasks that name a Danger Sector included. It does not count for kill statistics, Wipe Points, rankings or achievements.</li><li><strong>Pay.</strong> The completion is Omega Vault's to the unit (60,000 Thulium, 15,000,000 Credits and the same items and ammo). By the model, with Credits at 200 to a Thulium and the items and the ammo at the Market's reference price, a run returns 250.7 % of what its parts cost, Omega Vault's 250.8 %; the Thulium alone is 48.7 % of the cost for both. These are the unplayed figures of the model.</li><li><strong>Not counted:</strong> no achievement counts the Nightmare, and "clear all five gates" does not need it.</li><li><strong>Old games.</strong> A game from before 0.5.9 does not show the fourth category or the gate.</li></ul></li><li><strong>New pilots start with rockets.</strong> The first enlistment gives 100 each of Lancet I, Rivet I, Ember I and Scatter I, the four Tier I rockets, after the rest of the starter kit. They are not marketable, like the kit's ammo. Tier I rockets need no Rocket Launcher. A pilot who enlisted before 0.5.9 gets none, and a company change or a wipe gives none again.</li><li><strong>Miyuki Channel Shield.</strong> The shield points double: the linked ship gets 150,000 shield a second (75,000 before) and the Miyuki 30,000 (15,000), for 5 seconds. Each tick also restores a share of each ship's own maximum shield, on top of the points: 3 % at Miyuki III, 4 % at IV and 5 % at V. Miyuki V waits 80 seconds between uses (120 at III and IV). Levels I and II have no Channel Shield. The start line and the tooltip say the share.</li></ul>
+        <div class="note-table"><table><thead><tr><th scope="col">Level</th><th scope="col">Linked ship</th><th scope="col">Miyuki</th><th scope="col">Share of each maximum shield a second</th><th scope="col">Between uses</th></tr></thead><tbody><tr><th scope="row">Miyuki III</th><td>150,000</td><td>30,000</td><td>3 %</td><td>120 s</td></tr><tr><th scope="row">Miyuki IV</th><td>150,000</td><td>30,000</td><td>4 %</td><td>120 s</td></tr><tr><th scope="row">Miyuki V</th><td>150,000</td><td>30,000</td><td>5 %</td><td>80 s</td></tr></tbody></table></div>
+        <ul><li><strong>Premium on the website.</strong> Premium can be bought on the Premium page of the download site, <a href="https://spacecorps.github.io/play/premium/">https://spacecorps.github.io/play/premium/</a> (Stripe is the seller of record). The sale did not wait for this release: it has been open since 2026-11-17. The game never sells it. In the <strong>direct downloads (Windows, macOS, Linux) and the web version</strong> the Thulium page has a card: a button "Get Premium on our website" while the main server says payments are open, "Premium is coming soon" if it does not. <strong>The Steam build and the Android and iOS builds say nothing about buying Premium:</strong> no card, no link, no Premium button in the top bar, and they never ask the server about payments. About, Links has no Website entry on Android and iOS.</li><li><strong>Release job, Android APK.</strong> New in 0.5.9: the release job can build an Android APK signed with SpaceCorps' own key (arm64 only, early access, installed from the file with no store) and list it among the release's files. It is off unless it is switched on in the job's settings. The job waits at most 20 minutes for it after the other packages; an APK that fails, is skipped or is late means a release without it, never a failed one. Since 0.5.7 the job can also send the phone apps to Google Play's internal testing track and to TestFlight's internal testers (also off unless switched on; what it sends is unchanged in 0.5.9). The store steps go to internal testers, never to production, and the APK is an early-access file with no store: the Android and iOS apps are still works in progress.</li><li><strong>Admin tools (administrators):</strong> the alien spawn takes a tier: Alpha, Beta, Gamma or Delta. With none it is as before.</li></ul>
+        <h3>Changed</h3>
+        <ul><li><strong>The font.</strong> Since 0.5.8 every system drew egui's Ubuntu Light, and the pilots did not like it. The desktop game now draws the system's UI font as it did until 0.5.7: SF Pro on macOS, Segoe UI on Windows, Inter, Cantarell or DejaVu Sans on Linux, with the system's own weights and its faces for Chinese, Japanese, Korean, Thai, Arabic and Hebrew. The layout numbers of the desktop go back with it. The web version and the phone builds cannot read system fonts and keep Ubuntu Light, Hack and the Ubuntu Medium and Bold files. There is no font setting.</li><li><strong>Premium wording.</strong> The Help card says what Premium is and nothing of buying: "Premium currently gives no gameplay advantage and no extra features: it shows a Premium badge on your pilot." The Thulium page of the Steam and phone builds has no Premium card at all, and the card of the direct and web builds is the one described above, with its button. Premium does not double experience (it paid 1.0 times since 0.5.8). Pilots also earn Premium days as wipe rewards, by how far they got. The closed-sale card "No pay-to-win, ever" is gone. The sale notice of the Premium page no longer says what the receipt reads.</li><li><strong>Android and iOS pages.</strong> The Thulium page of the Android build is the same as the iOS and Steam one: the Bonus code card and how Thulium is earned, no Premium card. (It showed the card with "not available yet" before.)</li><li><strong>Clan dungeons: the share that pays.</strong> A pilot in a clan dungeon is paid when he dealt 0.2 % of the boss's hull and shield (it was 2 %), or destroyed 10 of the dungeon's aliens, or healed other pilots for 50,000 during the fight with the Warlord. The reward is the same full reward, and the other rules stay (he must not have pressed leave and stayed away, he must have been inside at least 2 minutes, one paid clear of a stage a day, 10 a week). Nobody has measured what this does to the rewards: every pilot at or above 0.2 % gets the whole reward, in a big crew as much as in a small one. The wiki says the same in all 13 languages.</li><li><strong>Briefings.</strong> Eleven timed quests wrote their limit in words ("Ninety minutes", "Two hours"). They say "90 minutes", "120 minutes" and so on now, so that a Beta or Gamma pilot reads his own time.</li></ul>
+        <h3>Fixed</h3>
+        <ul><li><strong>Ability tooltips ignored your Pilot Skills.</strong> A tooltip said "Restores 267,484 shield over 10 s, Ready every 90 s" for a press that paid more over a longer time. The server now tells what a press pays you: Tactics' time and total, Healing's points, Sabotage's venom, Reflex's quicker wait and Cloak Recharge's wait, in the tooltip, the Hangar and the clock ("Ready in 17 s" counts the seconds you really wait). It is told again when you reach a level of one of these skills in flight. A game from before 0.5.9 shows them right with no change. Not included: a Cooldown rocket's slow of the timers, the item cards and Help cards, and a build shared as a link.</li><li><strong>Quest briefings named Alpha's numbers.</strong> A Beta or Gamma pilot read "no more than 3,000 hull" beside a limit of 4,500 or 6,000, and a time limit of Alpha's. The hull allowances and time limits of the briefing are your world's now, in the language's own digits. Alpha pilots see no change. A game from before 0.5.9 ignores them. The rewards are not in the briefings, and the reward chips of a card still print the base.</li><li><strong>The web version on a touch device.</strong> Android: tapping the user name or password field raised no soft keyboard (a hidden input now takes the focus inside the tap). iPad: the page was taller than the screen and its bottom was behind it (a fixed stage inside the safe area now). No sound: the browser kept the sound suspended until a gesture and nothing asked again (the page now resumes it on every gesture). The menu starts at 130 % on a touch browser, with 44 pixel targets and cards that fit a 320 to 412 pixel screen. A computer's layout is unchanged, and a size you chose is kept.</li><li><strong>Dungeon wire tests.</strong> The two tests that read the dungeon document's examples expected 6 Echo Shards, the file pays 12 for stage 1. The tests were wrong, not the game.</li><li><strong>Not found:</strong> Skylab kills counting twice. The code was traced through the trip's settle, the quest hand-over, the collect and the wipe payout, and no place counts a kill twice. A test now holds the settle, the quest hand-over and the collect to one count per kill (the wipe payout was read in the code, not run in that test). If you saw a double count, we need the case.</li><li><strong>Solo gates and pilot numbers.</strong> The portal of a solo gate no longer has the pilot's number inside its id. In 0.5.8 a pilot with a number of 600,000 or more could build no gate. The first builds of 0.5.9, which made room for the Nightmare, were tighter: a pilot of 500,000 or more could not build the first gate (Alpha Rift) and one of 100,000 or more could not build the Nightmare. Now a pilot's number stops no one from building or entering a gate: the server gives each open run its own portal id from 1,000,000,000 up, keeps it while the run is open (the ids are made again each time the server starts) and gives it back when the run ends, and each portal is still shown to its owner alone. A game of 0.5.7 or 0.5.8 draws and uses the portals of the five older gates like any other: it hides another pilot's portal only for ids inside the old servers' range (6,000,000 to 9,000,000), so it keeps the new ids. This comes from reading its code. The jump through the Nightmare's portal is refused to a game without the Nightmare feature. No data step is needed and nothing new is stored. It is about the portals of the gates only: an alien made by a map's own spawner still gets a random id between 100,000 and 900,000 with no check that a pilot's ship does not already have it, and a ship whose pilot number is 5,000,000 or more cannot be shot at with a targeted attack (see Known limits). Tested in the server's tests with pilots numbered 100,000, 500,000, 700,000 and 5,000,000 through the real ticker; never with a real client against it, and no live pilot number was looked up.</li><li><strong>System lines on Singapore and US East.</strong> A line that Home tells everybody (an administrator's Say or broadcast, who was kicked, muted or banned, the restart and update warnings from 5 minutes down to 30 seconds, the Universe Wipe alert and call-off) now reaches the pilots on the regional servers too, within about 5 seconds, to the same audience (everybody, a world or a map). Not carried: the last 20 seconds of a restart countdown, the clan treasury line of a wipe, and lines to one pilot or one clan. A regional server still on an older version tells none of them. Tested with a real Home and two real nodes in one process; not seen on a deployed regional server.</li><li><strong>The Materializer and the Nightmare.</strong> While the Nightmare category is picked, the gate card showed the Chrono-Gate. It now shows Davidski's Nightmare itself: its name, a ring of its 238 parts and its own bar. The Materializer's help card names all four categories, and the Chrono-Gate's help card no longer says there are two other categories and five solo gates (13 languages). The part count that a scan sends back stays the Chrono-Gate's count by design; the Nightmare's own count is in its own row. Looked at in the real client in English, French and Spanish at 1024x640 and in Russian at 1280x800; German and Japanese at 1024x640 were looked at too, but no picture of that was kept; not in the other languages and not on a phone. In those looks the gates' state was a saved copy of a server's answer, fed to the real client.</li><li><strong>Chinese, Japanese and Korean in the web version.</strong> It drew them as boxes. The page now downloads one Noto Sans CJK subset from its own site (SIL Open Font License 1.1, about 2.0 MB, 1.4 to 1.5 MB on the wire with brotli and 1.7 MB with gzip) when the interface language is Chinese (Simplified), Japanese or Korean, or when a text from the server, or one you type or paste, holds such a character. Each file holds 10,421 characters, among them all 5,401 of the common Traditional Chinese set (Big5 level 1), so a Traditional Chinese chat line of common characters draws; there is no separate Traditional Chinese language, so those characters are drawn in the forms of the Japanese file with a Japanese interface, of the Korean file with a Korean one and of the Chinese (Simplified) file otherwise. It is a download on first use, and the font is kept out of the game's wasm and out of the desktop and Steam packages. The language lists show the three languages' names in English ("Chinese (Simplified)", "Japanese", "Korean") until the font is in, then in their own script. The About credit line of the web version now says where its fonts come from. Rarer Traditional characters, the Hong Kong additions, rare kanji and rare Hangul are still boxes (see Known limits). Checked in headless Chrome on one PC only: a Traditional Chinese line was tried by typing it into the Log In field, not as a chat line from another pilot.</li></ul>
+        <h3>Servers and privacy</h3>
+        <ul><li><strong>The server and the game go live together, on all three servers.</strong> Home (Helsinki), Singapore and US East must run the same build.</li><li><strong>No data step, no new table.</strong> The update moves no Credits, Thulium or items. At start the server adds eight alien definitions, the Evil ships (ids 42 to 49, after Davidski's), and no id in the database moves.</li><li><strong>Premium.</strong> Payments are Stripe's: the game does not take or store card data. The direct and web builds ask Home once when the Thulium page opens whether payments are open (the pilot's own token, nothing new stored). The Steam build and the phone builds never ask.</li><li><strong>The web version</strong> on a touch device keeps its interface size under its own key, so a computer's size is never changed by a phone.</li></ul>
+        <h3>If you already play</h3>
+        <ul><li>Update the game; the server and the game go live together. A game from before 0.5.9 flies as before, does not show the Nightmare, shows no quest world numbers, and shows the Miyuki's shield points without the percent (its start line is then in English). It shows your ability numbers right, since the server tells them.</li><li><strong>The update moves no Credits, Thulium or items.</strong> There is no data step in 0.5.9. Only new pilots get the starter rockets.</li><li>A Miyuki III, IV or V gets the stronger Channel Shield at once.</li><li>The desktop game changes its font at the update, and every layout of the desktop returns to the numbers it had until 0.5.7.</li></ul>
+      </div>
+    </article>
+    <nav class="note-pager" aria-label="Patch notes" data-i18n-aria-label="patchnotes.heading">
+      <a href="patchnotes-v0.5.8.html" rel="prev">← 0.5.8</a>
+      <a href="patchnotes.html" data-i18n="patchnotes.all">All patch notes</a>
+      <span></span>
+    </nav>
+    <!-- /patchnotes:list -->
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere" data-i18n-aria-label="footer.label">
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="wiki.html" data-i18n="nav.wiki">Wiki</a>
+      <a href="https://github.com/SpaceCorps/play/releases" data-i18n="footer.releases">Releases</a>
+      <a href="https://github.com/SpaceCorps/play/issues" data-i18n="footer.issues">Report a problem</a>
+      <a href="patchnotes.md">patchnotes.md</a>
+      <a href="patchnotes.json">patchnotes.json</a>
+      <a href="https://spacecorps.github.io/">SpaceCorps Hub</a>
+    </nav>
+    <p class="footer-note" data-i18n="footer.note">Built on the Space3d engine. No cookies, no trackers: this page only remembers your language on your device and asks the game server whether it is up.</p>
+  </div>
+</footer>
+<!-- patchnotes:script -->
+<script>
+/* patchnotes-site 1: opens a release of the patch notes page's list in place. Written between the
+   patchnotes:script markers by scripts/release/patchnotes.py from
+   scripts/marketing/patchnotes-site/notes.js in the game repository: edit it there, not on the site.
+   Every release but the newest is a <details id="v0.4.8"> whose notes are not in the page: the
+   first time it opens, its fragment (v0.4.8.part.html) is fetched and put in. The page opened at
+   #v0.4.8 opens and loads that release. Without JavaScript (or when the fetch fails) the link
+   inside the entry opens the release's own page, v0.4.8.html. Where the fragments are comes from
+   the list (data-parts: the folder of the page itself in the patchnotes/ folder, "patchnotes/"
+   on the older layout, whose lists have no such attribute). */
+(function () {
+  'use strict';
+  var list = document.querySelector('.note-index-list');
+  if (!list || !window.fetch) return;
+
+  function load(d) {
+    var state = d.getAttribute('data-state');
+    var body = d.querySelector('.note-old-body');
+    if (!body || state === 'loading' || state === 'done') return Promise.resolve();
+    d.setAttribute('data-state', 'loading');
+    d.setAttribute('aria-busy', 'true');
+    var base = list.getAttribute('data-parts');
+    if (base === null) base = 'patchnotes/';
+    return fetch(base + d.id + '.part.html')
+      .then(function (r) { return r.ok ? r.text() : Promise.reject(new Error(String(r.status))); })
+      .then(function (html) { body.innerHTML = html; d.setAttribute('data-state', 'done'); })
+      .catch(function () { d.setAttribute('data-state', 'failed'); })
+      .then(function () { d.removeAttribute('aria-busy'); });
+  }
+
+  // The site scrolls smoothly; a visitor who followed a link to a release wants to be there.
+  function jump(d) {
+    try { d.scrollIntoView({ behavior: 'instant' }); } catch (e) { d.scrollIntoView(); }
+  }
+
+  function remember(hash) {
+    try { history.replaceState(null, '', hash || location.pathname + location.search); } catch (e) { /* keep the address */ }
+  }
+
+  // A release opened by the visitor is in the address, so that the link can be shared.
+  list.addEventListener('toggle', function (e) {
+    var d = e.target;
+    if (!d || d.tagName !== 'DETAILS' || !d.id) return;
+    if (d.open) {
+      load(d);
+      remember('#' + d.id);
+    } else if (location.hash === '#' + d.id) {
+      remember('');
+    }
+  }, true);
+
+  // The address names a release: open it, load it and scroll to it (again once its notes are in,
+  // unless the visitor has scrolled meanwhile).
+  function follow() {
+    var id = '';
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (e) { return; }
+    var d = id ? document.getElementById(id) : null;
+    if (!d || d.tagName !== 'DETAILS' || !list.contains(d)) return;
+    var moved = false;
+    function stop() { moved = true; }
+    ['wheel', 'touchmove', 'keydown', 'mousedown'].forEach(function (name) { addEventListener(name, stop, { once: true, passive: true }); });
+    d.open = true;
+    jump(d);
+    load(d).then(function () { if (!moved) jump(d); });
+  }
+  addEventListener('hashchange', follow);
+  follow();
+
+  // An entry that is open in the page (a newest release too long to be in the page itself).
+  Array.prototype.forEach.call(list.querySelectorAll('details[open][id]'), load);
+})();
+</script>
+<!-- /patchnotes:script -->
+</body>
+</html>

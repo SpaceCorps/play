@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
+<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
 <!-- wiki-i18n title: Soloportar -->
 # Soloportar {#solo-gates}
 
@@ -13,7 +13,7 @@ En soloport är inte en [klandungeon](/wiki/03-Mechanics/Dungeons.md). En dungeo
 <!-- solo-glance:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-- **Portar**: 6: Chrono-Gate och 5 soloportar, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege och Omega Vault
+- **Portar**: 7: Chrono-Gate och 6 soloportar, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault och Davidski's Nightmare
 - **Snurr**: 100 Thulium för varje snurr, och 1, 5, 10 eller 100 snurr åt gången
 - **Chans för en del**: 13 % per snurr, i vilken kategori du än snurrar. Delen tillhör en av portarna i den kategorin, alla lika sannolika: Chrono-Gate ensamt får allt, Alpha Rift, Beta Breach och Gamma Foundry får 4,33 % var, och Delta Siege och Omega Vault får 6,5 % var. När Chrono-Gate är klar finns inget mer att snurra i dess kategori
 - **Garanti**: Efter 24 snurr i rad utan del stiger chansen med varje snurr, och efter 47 hittar nästa snurr alltid en. En del av vilken port som helst startar räkningen om
@@ -43,6 +43,7 @@ Tabellen anger kostnaden för varje port i delar och vad de kostar i snitt **med
 | **Gamma Foundry** | 68 | 4,33 % | 1 546 | 154 579 |
 | **Delta Siege** | 96 | 6,5 % | 1 455 | 145 486 |
 | **Omega Vault** | 119 | 6,5 % | 1 803 | 180 343 |
+| **Davidski's Nightmare** | 238 | 13 % | 1 803 | 180 343 |
 
 <!-- solo-parts:end -->
 
@@ -124,6 +125,7 @@ Vissa vågor för med sig en **svärm**: en boss-NPC från spelet (en Boss Seeke
 | **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | våg 4: 1 Phantasm Swarm; våg 9: 1 Goombah Swarm; våg 14: 1 Goombah Swarm | Elite Crystalys | 25 till 35 min |
 | **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | våg 5: 2 Phantasm Swarm; våg 10: 2 Goombah Swarm; våg 15: 1 Goombah Swarm; våg 20: 1 Crystalys Swarm | Siege Construct | 35 till 45 min |
 | **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | våg 6: 1 Goombah Swarm; våg 11: 2 Goombah Swarm; våg 16: 1 Crystalys Swarm; våg 22: 1 Phantasm Swarm | Omega Guardian | 50 till 60 min |
+| **Davidski's Nightmare** | 13 | 50 Evil Protos, 66 Evil Kitefin, 31 Evil Ostirion, 19 Evil Nomad, 22 Evil Paragon, 7 Evil Storm, 8 Evil Wraith, 2 Evil Ironclad |  | Evil Davidski | 45 till 60 min |
 
 - **Delta Siege**: våg 18 (250 Seeker) är valfri: du kan hoppa över den medan dess nedräkning pågår, och den betalar ingenting
 - **Omega Vault**: våg 17 (250 Seeker) är valfri: du kan hoppa över den medan dess nedräkning pågår, och den betalar ingenting; vågorna 22 till 24 är elit, med ×1,5 skrov, sköld och skada
@@ -144,6 +146,7 @@ En boss är en utomjordings skepp, förstorat, med ett eget skrov, en egen sköl
 | **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
 | **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
 | **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
+| **Evil Davidski** | Davidski's Nightmare | 550 000 | 660 000 | 2 600–3 200 |
 
 | Boss | Fas | Kvarvarande skrov | Vad den gör |
 | :--- | :--- | :--- | :--- |
@@ -156,6 +159,8 @@ En boss är en utomjordings skepp, förstorat, med ett eget skrov, en egen sköl
 | **Omega Guardian** | Shield Fortress | 100 % till 70 % | Dess sköld sätts till ×1,5 av bossens egen. Var 40 s kallar den på 6 Bulwark, högst 12 av dem levande; de betalar och släpper ingenting. |
 |  | Swarm Protocol | 70 % till 35 % | Var 25 s kallar den på 12 Phantasm, högst 24 av dem levande; de betalar och släpper ingenting. Var 30 s träffar en explosion på 140 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. |
 |  | Overload | 35 % till 0 % | Dess sköld sätts till ×0,1 av bossens egen. All dess skada är ×2,5. Efter 2 min i fasen är all dess skada ×2 till. Var 25 s träffar en explosion på 28 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. |
+| **Evil Davidski** | Evil Davidski | 100 % till 50 % | Den avfyrar 6 Warden Rivet II-raketer mot dig, 4 900 var, en var 0,5 s, i en salva var 30 s. Var 1 min släpper den 2 salvor av 8 meteorer, 11 000 var på allt inom 400 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 40 s kallar den på 5 Evil Protos, högst 10 av dem levande; de betalar och släpper ingenting. |
+|  | Angry | 50 % till 0 % | Dess sköld sätts till ×0,5 av bossens egen. All dess skada är ×1,5. Efter 8 min i fasen är all dess skada ×2 till. Den avfyrar 6 Warden Rivet III-raketer mot dig, 2 600 var, en var 0,4 s, i en salva var 30 s. Var 1 min släpper den 3 salvor av 8 meteorer, 3 400 var på allt inom 420 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 45 s träffar en explosion på 35 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. Var 40 s kallar den på 3 Evil Kitefin, högst 6 av dem levande; de betalar och släpper ingenting. |
 
 <!-- solo-bosses:end -->
 
@@ -173,12 +178,14 @@ En seger betalar sin tabell **en gång**, på en gång, i det ögonblick bossen 
 | **Gamma Foundry** | 4 000 000 | 25 000 | 400 000 | 5 500 |
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
+| **Davidski's Nightmare** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
 - **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; ammunition: Advanced Plasma ×15 000, Ultra Core ×3 750, Experimental Fusion Core ×15 000
 - **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; ammunition: Advanced Plasma ×37 500, Ultra Core ×15 000, Experimental Fusion Core ×22 500
 - **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; ammunition: Advanced Plasma ×22 500, Ultra Core ×45 000, Experimental Fusion Core ×37 500
 - **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; ammunition: Advanced Plasma ×30 000, Ultra Core ×67 500, Experimental Fusion Core ×56 250
 - **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammunition: Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
+- **Davidski's Nightmare**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammunition: Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
 - **Heartshards**: 1 vid första avklarningen av varje port under en säsong, och 5 % chans till 1 till vid varje avklarning.
 
 <!-- solo-pay:end -->
@@ -207,6 +214,14 @@ Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken
 | **Goombah Guard** | 125 | 1 | 12 | 1 |
 | **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
 | **Crystalys Guard** | 125 | 1 | 12 | 1 |
+| **Evil Protos** | 4 250 | 17 | 725 | 6 |
+| **Evil Kitefin** | 12 850 | 53 | 2 175 | 18 |
+| **Evil Ostirion** | 34 350 | 141 | 5 800 | 48 |
+| **Evil Nomad** | 59 600 | 245 | 10 060 | 84 |
+| **Evil Paragon** | 68 700 | 283 | 11 600 | 97 |
+| **Evil Storm** | 96 600 | 398 | 16 315 | 136 |
+| **Evil Wraith** | 137 450 | 566 | 23 205 | 194 |
+| **Evil Ironclad** | 268 450 | 1 105 | 45 330 | 379 |
 
 | Port | Krediter | Thulium | XP | Heder |
 | :--- | ---: | ---: | ---: | ---: |
@@ -215,6 +230,7 @@ Varje utomjording du dödar i en port betalar med de tal den har i Alpha, vilken
 | **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
 | **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
 | **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
+| **Davidski's Nightmare** | 7 081 950 | 29 124 | 1 196 445 | 9 968 |
 
 <!-- solo-kills:end -->
 

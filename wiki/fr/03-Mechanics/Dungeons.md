@@ -369,7 +369,7 @@ Ces règles décident qui est payé **pour la réussite**. Une partie se joue en
 - **Un jour** : Une étape paie un pilote une fois par jour UTC : le jour où le Seigneur de guerre tombe
 - **Une semaine** : Un pilote est payé pour un maximum de 10 étapes terminées par semaine UTC, du lundi au dimanche
 - **À l’intérieur** : Au moins 2 min en tout
-- **Part au combat** : Au moins l’un de ceux-ci : a infligé 2 % de la coque et du bouclier du Seigneur de guerre; a détruit 10 aliens du donjon; a soigné d’autres pilotes à hauteur de 50 000 pendant le combat contre le Seigneur de guerre
+- **Part au combat** : Au moins l’un de ceux-ci : a infligé 0,2 % de la coque et du bouclier du Seigneur de guerre; a détruit 10 aliens du donjon; a soigné d’autres pilotes à hauteur de 50 000 pendant le combat contre le Seigneur de guerre
 
 <!-- dungeons-rules:end -->
 

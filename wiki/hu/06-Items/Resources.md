@@ -839,7 +839,7 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2% eséllyel 1 db | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8% eséllyel 1 db | 0,01 |
 
-- **Szólókapuk**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 minden teljesítéskor.
+- **Szólókapuk**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 minden teljesítéskor.
 - **Klánkazamaták**: 12, 8 és 8 az 1., 2. és 3. szint fizetett teljesítésekor.
 - **Klánkazamaták idegenjei**: a fenti táblázat esélyeinek 2-szeresével ejtik el.
 - **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
@@ -857,7 +857,7 @@ Egy adag ércét az egész adagra számolják, felfelé kerekítve, és az adag 
 
 **Így szerezheted meg**
 
-- **Szólókapuk**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 minden teljesítéskor.
+- **Szólókapuk**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 minden teljesítéskor.
 - **Klánkazamaták**: 5, 6 és 7 az 1., 2. és 3. szint fizetett teljesítésekor.
 - **Szerencse és a Resource Magnet Booster**: Egyik sem növeli. Soha nem tehető fel az Aukcióra.
 - **Egyébként**: a Boltban nem kapható.

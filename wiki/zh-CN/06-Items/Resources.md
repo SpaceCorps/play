@@ -839,7 +839,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%：1 | 0.02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0.8%：1 | 0.01 |
 
-- **单人星门**：每次通关获得Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34。
+- **单人星门**：每次通关获得Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34。
 - **战队地下城**：通关阶段1、2、3并获得奖励时分别获得12, 8 和 8。
 - **战队地下城的外星人**：掉落几率是上表的2倍。
 - **运气与Resource Magnet Booster**：两者都不会增加。它永远不能在拍卖行上架。
@@ -857,7 +857,7 @@
 
 **获取方式**
 
-- **单人星门**：每次通关获得Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54。
+- **单人星门**：每次通关获得Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54。
 - **战队地下城**：通关阶段1、2、3并获得奖励时分别获得5, 6 和 7。
 - **运气与Resource Magnet Booster**：两者都不会增加。它永远不能在拍卖行上架。
 - **另外**：商店不出售。

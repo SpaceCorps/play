@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Raketer -->
 # Raketer {#rockets}
 
@@ -164,7 +164,7 @@ Specialraketerna gör saker som en skadesiffra inte säger. De delar **en timer 
 
 ## Avfyrning {#firing}
 
-1. Köp de vanliga raketerna i butiken (kategorin **Raketer**), upp till *högst så många du kan bära* av varje, för krediter; tillverka de sällsynta och episka i Monteringen av 100 av nivån under.
+1. Köp de vanliga raketerna i butiken (kategorin **Raketer**), upp till *högst så många du kan bära* av varje, för krediter; tillverka de sällsynta och episka i Monteringen av 100 av nivån under. Ditt startpaket innehåller redan 100 av var och en av de fyra vanliga raketerna (400 sammanlagt; de kan inte säljas, och den som tog värvning före 0.5.9 har inga).
 2. Öppna **Raketer** ovanför snabbfältet och dra de du vill ha till platser. Väljaren visar en kolumn per typ och en rad per nivå, med det du bär av varje. Under dem finns **specialraketerna**, fyra per rad (en liten hammare markerar en som bara kan tillverkas och som du inte bär någon av).
 3. Tryck på platsens tangent. Ett klick på platsen för en **målsökande** raket avfyrar den mot ditt valda mål; ett klick på platsen för en **rak** raket armerar den, och ditt nästa klick i rymden avfyrar den dit. Tangenten **Avfyra raket** (`R` som standard, går att binda om i Inställningar › Styrning) avfyrar den raket du sköt senast, eller den första i snabbfältet.
 4. En cirkelsektor sveper över varje raketplats för den timer som den raketen väntar på: 3 sekunder för en vanlig raket (5 med en raketkastare), och för en specialraket den längsta av de 5 sekunderna och dess egen, med de återstående sekunderna i mitten. Ett tryck innan dess säger bara att raketerna laddas om (ett tryck under den sista tiondels sekunden avfyrar ändå). En drönarformation kan göra den vanliga timern mellan 2,19 och 4,05 sekunder (se nedan).

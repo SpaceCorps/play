@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5ac83735773f6626 -->
+<!-- wiki-i18n source: 471213bf365fc9b9 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -57,11 +57,11 @@ Miyuki’nin yetenekleri bir eşyaya değil, gemiye aittir: yetenek yuvası kull
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7,5 sn, 20.000 + %2 | – | – |
 | **Miyuki II** | 7,5 sn, 20.000 + %2 | saniyede 50.000 gövde (sen 10.000), 120 sn | – |
-| **Miyuki III** | 7,5 sn, 30.000 + %3 | saniyede 50.000 gövde (sen 10.000), 120 sn | saniyede 75.000 kalkan (sen 15.000), 120 sn |
-| **Miyuki IV** | 7,5 sn, 30.000 + %3 | saniyede 75.000 gövde (sen 10.000), 100 sn | saniyede 75.000 kalkan (sen 15.000), 120 sn |
-| **Miyuki V** | 7,5 sn, 30.000 + %3 | saniyede 75.000 gövde (sen 10.000), 100 sn | saniyede 75.000 kalkan (sen 15.000), 120 sn |
+| **Miyuki III** | 7,5 sn, 30.000 + %3 | saniyede 50.000 gövde (sen 10.000), 120 sn | saniyede 150.000 + %3 kalkan (sen 30.000 + %3), 120 sn |
+| **Miyuki IV** | 7,5 sn, 30.000 + %3 | saniyede 75.000 gövde (sen 10.000), 100 sn | saniyede 150.000 + %4 kalkan (sen 30.000 + %4), 120 sn |
+| **Miyuki V** | 7,5 sn, 30.000 + %3 | saniyede 75.000 gövde (sen 10.000), 100 sn | saniyede 150.000 + %5 kalkan (sen 30.000 + %5), 80 sn |
 
-Bir bağlantı 5 saniye sürer ve grubundan veya şirketinden bir gemiye 1.200 birim içinde ulaşır. Heal Pod 600’e ulaşır.
+Bir bağlantı 5 saniye sürer ve grubundan veya şirketinden bir gemiye 1.200 birim içinde ulaşır. Heal Pod 600’e ulaşır. Channel Shield, puanlarına ek olarak her saniye iki geminin de kendi maksimum kalkanının bir kısmını geri doldurur: Miyuki III’te %3, IV’te %4, V’te %5 (tablodaki yüzde).
 
 ## Araştırma {#research}
 

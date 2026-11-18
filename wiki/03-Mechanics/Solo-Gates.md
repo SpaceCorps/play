@@ -1,8 +1,8 @@
 # Solo Gates
 
-<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap -->
+<!-- wiki-search: solo gates; solo gate; gate; gates; galaxy gates; rift; rifts; alpha rift; beta breach; gamma foundry; delta siege; omega vault; chrono gate; chrono-gate; materializer; energy materializer; scan; spin; gate part; gate parts; guarantee; pity; consolation; wave; waves; nuke wave; skip; boss; lives; resume; abandon; speedrun; no death; challenge; achievement; thulium cap; davidski's nightmare; nightmare; evil davidski; angry davidski; evil ships; golden ships -->
 
-The **solo gates** are five gates of the Galaxy Gates that you fly alone: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** and **Omega Vault**. Each is an empty arena of its own where waves of aliens come at you one after the other and a boss waits at the end. You build a gate with its **parts**, which you find by spinning the Energy Materializer with Thulium, and a clear pays Credits, Thulium, experience, honor, ore, plates and ammo.
+The **solo gates** are five gates of the Galaxy Gates that you fly alone: **Alpha Rift**, **Beta Breach**, **Gamma Foundry**, **Delta Siege** and **Omega Vault**. Each is an empty arena of its own where waves of aliens come at you one after the other and a boss waits at the end. **Davidski's Nightmare** is a sixth gate, set apart from those five: its waves are not aliens but **Evil ships**, ships of the game that fly against you, and it is the dearest gate to build. You build a gate with its **parts**, which you find by spinning the Energy Materializer with Thulium, and a clear pays Credits, Thulium, experience, honor, ore, plates and ammo.
 
 A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon is a maze that a clan opens for a group with a Warlord at its end; a solo gate is an arena that only you are in, and nobody else can enter it with you. The two have separate rules, pay and limits. The Galaxy Gates page also has the **Chrono-Gate**, which is not a place to fly but the gate that opens your [Transport Cache](/wiki/03-Mechanics/Wipe-Timeline.md#transport-cache-travel-capsule-) for the wipe: its parts are found with the same spins.
 
@@ -11,7 +11,7 @@ A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon i
 <!-- solo-glance:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-- **Gates**: 6: the Chrono-Gate and 5 solo gates, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege and Omega Vault
+- **Gates**: 7: the Chrono-Gate and 6 solo gates, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault and Davidski's Nightmare
 - **Spin**: 100 Thulium for each spin, and 1, 5, 10 or 100 spins at a time
 - **Chance of a part**: 13% a spin, in whichever category you scan. The part belongs to one of the gates of that category, all equally likely: the Chrono-Gate alone gets all of it, Alpha Rift, Beta Breach and Gamma Foundry get 4.33% each, and Delta Siege and Omega Vault get 6.5% each. Once the Chrono-Gate is complete there is nothing left to scan in its category
 - **Guarantee**: After 24 spins in a row without a part the chance rises with every spin, and after 47 the next spin always finds one. A part of any gate starts the count again
@@ -26,7 +26,7 @@ A solo gate is not a [clan dungeon](/wiki/03-Mechanics/Dungeons.md). A dungeon i
 
 ## Finding gate parts
 
-Open the **Galaxy Gates** page and spin the Energy Materializer. Every spin is paid in Thulium and finds at most one part. Pick a **category** first: the **Chrono-Gate**, **Alpha–Gamma** (Alpha Rift, Beta Breach and Gamma Foundry) or **Delta–Omega** (Delta Siege and Omega Vault). The chance of a part is the same in every category, and the part belongs to one of the gates of the category you picked, all equally likely. You need a number of parts of a gate to build it, and the parts are yours until you use them. A spin that finds no part is not lost: it pays a prize ([below](#a-spin-without-a-part)). Every spin is charged. When the Chrono-Gate is complete its entry is shut, because there is nothing left to find in it, and the other two categories keep their chance, so a part of a solo gate costs the same with or without it.
+Open the **Galaxy Gates** page and spin the Energy Materializer. Every spin is paid in Thulium and finds at most one part. Pick a **category** first: the **Chrono-Gate**, **Alpha–Gamma** (Alpha Rift, Beta Breach and Gamma Foundry) **Delta–Omega** (Delta Siege and Omega Vault) or **Davidski's Nightmare**, which has a category to itself. The chance of a part is the same in every category, and the part belongs to one of the gates of the category you picked, all equally likely. You need a number of parts of a gate to build it, and the parts are yours until you use them. A spin that finds no part is not lost: it pays a prize ([below](#a-spin-without-a-part)). Every spin is charged. When the Chrono-Gate is complete its entry is shut, because there is nothing left to find in it, and the other two categories keep their chance, so a part of a solo gate costs the same with or without it.
 
 The table gives the cost of each gate in parts and what they cost on average **with the guarantee** when you scan the category the gate is in (a spin is a lottery, so a lucky pilot pays less and an unlucky one more, up to the longest run of spins the guarantee allows).
 
@@ -41,6 +41,7 @@ The table gives the cost of each gate in parts and what they cost on average **w
 | **Gamma Foundry** | 68 | 4.33% | 1,546 | 154,579 |
 | **Delta Siege** | 96 | 6.5% | 1,455 | 145,486 |
 | **Omega Vault** | 119 | 6.5% | 1,803 | 180,343 |
+| **Davidski's Nightmare** | 238 | 13% | 1,803 | 180,343 |
 
 <!-- solo-parts:end -->
 
@@ -108,7 +109,7 @@ Every world fights the same gate: the aliens' strength and pay do not depend on 
 
 ### The waves
 
-The aliens are the ones of the game (the Seeker, the Phantasm, the Bulwark, the Goombah and the Crystalys), made harder or softer by the gate. The planned time is what the gate is built to take a pilot at the starting level of Laser tech ([Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md)); a pilot who has levelled up Laser tech finishes sooner.
+The aliens are the ones of the game (the Seeker, the Phantasm, the Bulwark, the Goombah and the Crystalys), made harder or softer by the gate. The waves of **Davidski's Nightmare** are **Evil ships** instead: one for each hull a pilot can fly, in the livery of the Dormant swarm. The small hulls come first, and each wave brings more of them and bigger ones, until the last wave before the boss. An Evil ship carries what a pilot's ship carries: lasers, a **rocket** that it fires at you every few seconds, and a **repair drone** that mends its hull while nothing is hitting it, so a ship you leave alone heals. The planned time is what the gate is built to take a pilot at the starting level of Laser tech ([Pilot Skills](/wiki/03-Mechanics/Pilot-Skills.md)); a pilot who has levelled up Laser tech finishes sooner.
 
 Some waves bring a **swarm**: a boss NPC of the game (a Boss Seeker, Boss Phantasm, Boss Goombah or Boss Crystalys) with its guards, who attack as one group. Every ship of a swarm is part of its wave, and the wave ends when the last of them is dead. They pay like the other ships of the wave, at the figures in [the table of the aliens](#the-aliens). **A boss NPC drops its loot as it does in the sectors of the game**: ore, plates, ammo and rockets (what each one drops is on [the pages of the swarms](/wiki/05-Swarms/Swarms.md)). There is no box to pick up in a gate: the loot comes with the pay, straight into your inventory, and once for a run like the pay. Its guards drop nothing, in a gate as in the sectors, and they neither heal their boss nor come back. The table below says which waves of each gate bring a swarm.
 
@@ -122,6 +123,7 @@ Some waves bring a **swarm**: a boss NPC of the game (a Boss Seeker, Boss Phanta
 | **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | wave 4: 1 Phantasm Swarm; wave 9: 1 Goombah Swarm; wave 14: 1 Goombah Swarm | Elite Crystalys | 25 to 35 min |
 | **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | wave 5: 2 Phantasm Swarm; wave 10: 2 Goombah Swarm; wave 15: 1 Goombah Swarm; wave 20: 1 Crystalys Swarm | Siege Construct | 35 to 45 min |
 | **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | wave 6: 1 Goombah Swarm; wave 11: 2 Goombah Swarm; wave 16: 1 Crystalys Swarm; wave 22: 1 Phantasm Swarm | Omega Guardian | 50 to 60 min |
+| **Davidski's Nightmare** | 13 | 50 Evil Protos, 66 Evil Kitefin, 31 Evil Ostirion, 19 Evil Nomad, 22 Evil Paragon, 7 Evil Storm, 8 Evil Wraith, 2 Evil Ironclad |  | Evil Davidski | 45 to 60 min |
 
 - **Delta Siege**: wave 18 (250 Seeker) is optional: you may skip it while its countdown runs, and it pays nothing
 - **Omega Vault**: wave 17 (250 Seeker) is optional: you may skip it while its countdown runs, and it pays nothing; waves 22 to 24 are elite, with ×1.5 the hull, shield and damage
@@ -131,6 +133,8 @@ Some waves bring a **swarm**: a boss NPC of the game (a Boss Seeker, Boss Phanta
 ### The bosses
 
 A boss is an alien's ship made larger, with a hull, a shield and a volley of its own, which no setting of the gate or the world changes. A phase begins when the boss's hull falls to the figure in the table: its shield may be set again, its volley or all its damage change, and it may start a move. Every move is announced: a circle, a ring or a mark on your ship shows a moment before it lands. The aliens that a boss calls pay and drop nothing.
+
+**Evil Davidski**, the boss of Davidski's Nightmare, flies Davidski's own Ironclad in a darker gold. He fights with rockets, meteors, a ring and Evil ships that he calls. At half his hull he becomes **ANGRY DAVIDSKI**: his tune plays, he hits harder, and a **golden ship of every ship in the game** appears round him. While any of the golden ships is alive he takes only a fraction of the damage you deal, so you cut through them first; when the last one falls the protection is gone for good. He mocks you from his own window at the start of every wave. Killing him counts as a kill of Davidski for the missions that ask for one, in a gate as in the Danger Sectors. A game that is not up to date does not show the gate.
 
 <!-- solo-bosses:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
@@ -142,6 +146,7 @@ A boss is an alien's ship made larger, with a hull, a shield and a volley of its
 | **Elite Crystalys** | Gamma Foundry | 620,000 | 250,000 | 3,800–4,700 |
 | **Siege Construct** | Delta Siege | 1,150,000 | 1,730,000 | 3,400–4,200 |
 | **Omega Guardian** | Omega Vault | 1,340,000 | 840,000 | 2,600–3,200 |
+| **Evil Davidski** | Davidski's Nightmare | 550,000 | 660,000 | 2,600–3,200 |
 
 | Boss | Phase | Hull left | What it does |
 | :--- | :--- | :--- | :--- |
@@ -154,6 +159,8 @@ A boss is an alien's ship made larger, with a hull, a shield and a volley of its
 | **Omega Guardian** | Shield Fortress | 100% to 70% | Its shield is set to ×1.5 of the boss's own. Every 40 s it calls 6 Bulwark, at most 12 of them alive; they pay and drop nothing. |
 |  | Swarm Protocol | 70% to 35% | Every 25 s it calls 12 Phantasm, at most 24 of them alive; they pay and drop nothing. Every 30 s a blast of 140,000 hits everything within 700 units of the boss; the ring shows 2 s before it lands. |
 |  | Overload | 35% to 0% | Its shield is set to ×0.1 of the boss's own. All its damage is ×2.5. After 2 min in the phase all its damage is ×2 more. Every 25 s a blast of 28,000 hits everything within 700 units of the boss; the ring shows 2 s before it lands. |
+| **Evil Davidski** | Evil Davidski | 100% to 50% | It fires 6 Warden Rivet II rockets at you, 4,900 each, one every 0.5 s, in a barrage every 30 s. Every 1 min it drops 2 volleys of 8 meteors, 11,000 each to everything within 400 units of where it lands, 50% of them aimed at you; each circle shows 3 s before it lands. Every 40 s it calls 5 Evil Protos, at most 10 of them alive; they pay and drop nothing. |
+|  | Angry | 50% to 0% | Its shield is set to ×0.5 of the boss's own. All its damage is ×1.5. After 8 min in the phase all its damage is ×2 more. It fires 6 Warden Rivet III rockets at you, 2,600 each, one every 0.4 s, in a barrage every 30 s. Every 1 min it drops 3 volleys of 8 meteors, 3,400 each to everything within 420 units of where it lands, 50% of them aimed at you; each circle shows 3 s before it lands. Every 45 s a blast of 35,000 hits everything within 700 units of the boss; the ring shows 2 s before it lands. Every 40 s it calls 3 Evil Kitefin, at most 6 of them alive; they pay and drop nothing. |
 
 <!-- solo-bosses:end -->
 
@@ -171,12 +178,14 @@ A clear pays its table **once**, in one go, the moment the boss dies: the Credit
 | **Gamma Foundry** | 4,000,000 | 25,000 | 400,000 | 5,500 |
 | **Delta Siege** | 8,000,000 | 40,000 | 800,000 | 10,000 |
 | **Omega Vault** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
+| **Davidski's Nightmare** | 15,000,000 | 60,000 | 1,500,000 | 20,000 |
 
 - **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; ammo: Advanced Plasma ×15,000, Ultra Core ×3,750, Experimental Fusion Core ×15,000
 - **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; ammo: Advanced Plasma ×37,500, Ultra Core ×15,000, Experimental Fusion Core ×22,500
 - **Gamma Foundry**: Ship Fragment ×1,150, Nyxite ×1,000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; ammo: Advanced Plasma ×22,500, Ultra Core ×45,000, Experimental Fusion Core ×37,500
 - **Delta Siege**: Ship Fragment ×2,000, Nyxite ×1,750, Cataclysite ×1,500, Quorvium ×1,000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; ammo: Advanced Plasma ×30,000, Ultra Core ×67,500, Experimental Fusion Core ×56,250
 - **Omega Vault**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammo: Advanced Plasma ×37,500, Ultra Core ×75,000, Experimental Fusion Core ×75,000
+- **Davidski's Nightmare**: Ship Fragment ×3,250, Nyxite ×2,750, Cataclysite ×2,250, Quorvium ×1,600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; ammo: Advanced Plasma ×37,500, Ultra Core ×75,000, Experimental Fusion Core ×75,000
 - **Heartshards**: 1 with the first clear of each gate in a season, and a 5% chance of 1 more with every clear.
 
 <!-- solo-pay:end -->
@@ -205,6 +214,14 @@ Every alien you kill in a gate pays, at the figures it has in Alpha whichever wo
 | **Goombah Guard** | 125 | 1 | 12 | 1 |
 | **Boss Crystalys** | 393,750 | 1,050 | 63,000 | 273 |
 | **Crystalys Guard** | 125 | 1 | 12 | 1 |
+| **Evil Protos** | 4,250 | 17 | 725 | 6 |
+| **Evil Kitefin** | 12,850 | 53 | 2,175 | 18 |
+| **Evil Ostirion** | 34,350 | 141 | 5,800 | 48 |
+| **Evil Nomad** | 59,600 | 245 | 10,060 | 84 |
+| **Evil Paragon** | 68,700 | 283 | 11,600 | 97 |
+| **Evil Storm** | 96,600 | 398 | 16,315 | 136 |
+| **Evil Wraith** | 137,450 | 566 | 23,205 | 194 |
+| **Evil Ironclad** | 268,450 | 1,105 | 45,330 | 379 |
 
 | Gate | Credits | Thulium | XP | Honor |
 | :--- | ---: | ---: | ---: | ---: |
@@ -213,6 +230,7 @@ Every alien you kill in a gate pays, at the figures it has in Alpha whichever wo
 | **Gamma Foundry** | 3,064,500 | 13,693 | 541,944 | 4,696 |
 | **Delta Siege** | 5,239,625 | 22,338 | 882,676 | 7,850 |
 | **Omega Vault** | 7,088,125 | 29,196 | 1,196,828 | 10,022 |
+| **Davidski's Nightmare** | 7,081,950 | 29,124 | 1,196,445 | 9,968 |
 
 <!-- solo-kills:end -->
 

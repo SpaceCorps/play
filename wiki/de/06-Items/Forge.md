@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Schmiede -->
 # Die Schmiede {#the-forge}
 
@@ -96,6 +96,7 @@ Alle vier Sockel eines Stücks abzustimmen kostet 150 Echo Shards (10 + 20 + 40 
 | Solo-Tor: Gamma Foundry | 18 | 27 |
 | Solo-Tor: Delta Siege | 29 | 44 |
 | Solo-Tor: Omega Vault | 34 | 54 |
+| Solo-Tor: Davidski's Nightmare | 34 | 54 |
 | Clan-Dungeon: Stufe 1 | 12 | 5 |
 | Clan-Dungeon: Stufe 2 | 8 | 6 |
 | Clan-Dungeon: Stufe 3 | 8 | 7 |

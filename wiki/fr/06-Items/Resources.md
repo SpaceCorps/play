@@ -839,7 +839,7 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % pour 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % pour 1 | 0,01 |
 
-- **Portes solo** : Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 à chaque réussite.
+- **Portes solo** : Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 à chaque réussite.
 - **Donjons de clan** : 12, 8 et 8 pour une réussite payée de l’étape 1, 2 et 3.
 - **Aliens des donjons de clan** : leurs chances sont multipliées par 2 par rapport au tableau ci-dessus.
 - **Chance et Resource Magnet Booster** : Aucun des deux ne l’augmente. Il ne peut jamais être mis aux Enchères.
@@ -857,7 +857,7 @@ Le minerai d’un lot est calculé pour le lot entier, arrondi à l’entier sup
 
 **Comment l’obtenir**
 
-- **Portes solo** : Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 à chaque réussite.
+- **Portes solo** : Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 à chaque réussite.
 - **Donjons de clan** : 5, 6 et 7 pour une réussite payée de l’étape 1, 2 et 3.
 - **Chance et Resource Magnet Booster** : Aucun des deux ne l’augmente. Il ne peut jamais être mis aux Enchères.
 - **Sinon** : pas en vente à la boutique.

@@ -369,7 +369,7 @@ Bu kurallar **tamamlama için** kime ödeme yapılacağını belirler. Bir tur, 
 - **Bir gün**: Bir aşama, bir pilota UTC gününde bir kez öder: Savaş Lordu'nun düştüğü gün
 - **Bir hafta**: Bir pilot, UTC haftasında (Pazartesi–Pazar) en çok 10 aşama tamamlama için ödeme alır
 - **İçeride**: Toplamda en az 2 dk
-- **Savaşa katkı**: Şunlardan en az biri: Savaş Lordu'nun gövdesine ve kalkanına toplam %2 oranında hasar verdi; zindanın 10 uzaylısını yok etti; Savaş Lordu'yla savaş sırasında diğer pilotları 50.000 iyileştirdi
+- **Savaşa katkı**: Şunlardan en az biri: Savaş Lordu'nun gövdesine ve kalkanına toplam %0,2 oranında hasar verdi; zindanın 10 uzaylısını yok etti; Savaş Lordu'yla savaş sırasında diğer pilotları 50.000 iyileştirdi
 
 <!-- dungeons-rules:end -->
 

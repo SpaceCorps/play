@@ -162,7 +162,7 @@ The special rockets do things a damage number does not. They share **one timer o
 
 ## Firing
 
-1. Buy the Common rockets in the Shop (the **Rockets** category), up to the *carry at most* of each, for Credits; craft the Rare and Epic ones in Assembly from 100 of the tier below.
+1. Buy the Common rockets in the Shop (the **Rockets** category), up to the *carry at most* of each, for Credits; craft the Rare and Epic ones in Assembly from 100 of the tier below. Your starter kit already holds 100 of each of the four Common rockets (400 in all; they cannot be sold, and a pilot who enlisted before 0.5.9 has none).
 2. Open **Rockets** above the hotbar, and drag the ones you want onto slots. The picker shows a column per kind and a row per tier, with what you carry on each. Under them are the **Special rockets**, four to a row (a small hammer marks a craft-only one you carry none of).
 3. Press the slot's key. Clicking the slot of a **guided** rocket fires it at your selected target; clicking a **straight** rocket's slot arms it, and your next click in space fires it there. The **Fire Rocket** key (`R` by default, rebindable in Settings › Controls) fires the rocket you fired last, or the first one on the bar.
 4. A pie sweeps over each rocket slot for the timer that rocket waits on: 3 seconds for a normal rocket (5 with a Rocket Launcher), and for a special rocket the longer of the 5 seconds and its own, with the seconds left in the middle. A press before then only tells you the rockets are recharging (a press in the last tenth of a second still fires). A drone formation can make the normal timer anything from 2.19 to 4.05 seconds (see below).

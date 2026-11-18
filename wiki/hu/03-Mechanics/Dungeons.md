@@ -369,7 +369,7 @@ Ezek a szabályok azt döntik el, ki kap fizetést **a teljesítésért**. Egy m
 - **Egy nap**: Egy fokozat egy pilótának UTC-naponként egyszer fizet: azon a napon, amikor a Hadúr elesik
 - **Egy hét**: Egy pilóta UTC-hetenként legfeljebb 10 teljesített fokozatért kap fizetséget, hétfőtől vasárnapig
 - **Bent**: Összesen legalább 2 perc
-- **Részvétel a harcban**: Legalább egy ezek közül: a Hadúr hajótestéből és pajzsából ennyit sebzett le: 2%; megsemmisített 10 idegent a kazamatában; 50 000 értékben gyógyított más pilótákat a Hadúr elleni harc alatt
+- **Részvétel a harcban**: Legalább egy ezek közül: a Hadúr hajótestéből és pajzsából ennyit sebzett le: 0,2%; megsemmisített 10 idegent a kazamatában; 50 000 értékben gyógyított más pilótákat a Hadúr elleni harc alatt
 
 <!-- dungeons-rules:end -->
 

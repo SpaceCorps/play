@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 5ac83735773f6626 -->
+<!-- wiki-i18n source: 471213bf365fc9b9 -->
 <!-- wiki-i18n title: Miyuki -->
 # Miyuki
 
@@ -57,11 +57,11 @@ Les compétences du Miyuki appartiennent au vaisseau, pas à un objet : elles n
 | :--- | :--- | :--- | :--- |
 | **Miyuki** | 7,5 s, 20 000 + 2 % | – | – |
 | **Miyuki II** | 7,5 s, 20 000 + 2 % | 50 000 de coque par seconde (vous 10 000), 120 s | – |
-| **Miyuki III** | 7,5 s, 30 000 + 3 % | 50 000 de coque par seconde (vous 10 000), 120 s | 75 000 de bouclier par seconde (vous 15 000), 120 s |
-| **Miyuki IV** | 7,5 s, 30 000 + 3 % | 75 000 de coque par seconde (vous 10 000), 100 s | 75 000 de bouclier par seconde (vous 15 000), 120 s |
-| **Miyuki V** | 7,5 s, 30 000 + 3 % | 75 000 de coque par seconde (vous 10 000), 100 s | 75 000 de bouclier par seconde (vous 15 000), 120 s |
+| **Miyuki III** | 7,5 s, 30 000 + 3 % | 50 000 de coque par seconde (vous 10 000), 120 s | 150 000 + 3 % de bouclier par seconde (vous 30 000 + 3 %), 120 s |
+| **Miyuki IV** | 7,5 s, 30 000 + 3 % | 75 000 de coque par seconde (vous 10 000), 100 s | 150 000 + 4 % de bouclier par seconde (vous 30 000 + 4 %), 120 s |
+| **Miyuki V** | 7,5 s, 30 000 + 3 % | 75 000 de coque par seconde (vous 10 000), 100 s | 150 000 + 5 % de bouclier par seconde (vous 30 000 + 5 %), 80 s |
 
-Un lien dure 5 secondes et atteint un vaisseau de votre groupe ou de votre corporation à moins de 1 200 unités. Le Heal Pod porte à 600.
+Un lien dure 5 secondes et atteint un vaisseau de votre groupe ou de votre corporation à moins de 1 200 unités. Le Heal Pod porte à 600. Un Channel Shield rend en plus de ses points, chaque seconde, une part du bouclier maximum propre à chaque vaisseau : 3 % au niveau III, 4 % au niveau IV et 5 % au niveau V (le pourcentage du tableau).
 
 ## Recherche {#research}
 

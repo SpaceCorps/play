@@ -369,7 +369,7 @@ Diese Regeln entscheiden, wer **für den Durchgang** bezahlt wird. Ein Durchgang
 - **Ein Tag**: Eine Stufe zahlt einem Piloten einmal pro UTC-Tag: an dem Tag, an dem der Kriegsherr fällt
 - **Eine Woche**: Ein Pilot wird für höchstens 10 Stufen-Abschlüsse pro UTC-Woche bezahlt, Montag bis Sonntag
 - **Im Dungeon**: Mindestens 2 min insgesamt
-- **Anteil am Kampf**: Mindestens eines davon: Schaden in Höhe von 2 % der Hülle und des Schilds des Kriegsherrn verursacht; 10 Aliens des Dungeons zerstört; andere Piloten im Kampf gegen den Kriegsherrn um 50.000 geheilt
+- **Anteil am Kampf**: Mindestens eines davon: Schaden in Höhe von 0,2 % der Hülle und des Schilds des Kriegsherrn verursacht; 10 Aliens des Dungeons zerstört; andere Piloten im Kampf gegen den Kriegsherrn um 50.000 geheilt
 
 <!-- dungeons-rules:end -->
 

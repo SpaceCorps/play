@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Forgia -->
 # La Forgia {#the-forge}
 
@@ -96,6 +96,7 @@ Sintonizzare tutti e quattro gli slot di un pezzo costa 150 Echo Shard (10 + 20 
 | Porta solo: Gamma Foundry | 18 | 27 |
 | Porta solo: Delta Siege | 29 | 44 |
 | Porta solo: Omega Vault | 34 | 54 |
+| Porta solo: Davidski's Nightmare | 34 | 54 |
 | Dungeon del clan: livello 1 | 12 | 5 |
 | Dungeon del clan: livello 2 | 8 | 6 |
 | Dungeon del clan: livello 3 | 8 | 7 |

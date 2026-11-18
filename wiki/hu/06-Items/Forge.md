@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Kovácsműhely -->
 # A Kovácsműhely {#the-forge}
 
@@ -96,6 +96,7 @@ Egy darab mind a négy foglalatának behangolása 150 Echo Shardba kerül (10 + 
 | Szólókapu: Gamma Foundry | 18 | 27 |
 | Szólókapu: Delta Siege | 29 | 44 |
 | Szólókapu: Omega Vault | 34 | 54 |
+| Szólókapu: Davidski's Nightmare | 34 | 54 |
 | Klánkazamata: 1. szint | 12 | 5 |
 | Klánkazamata: 2. szint | 8 | 6 |
 | Klánkazamata: 3. szint | 8 | 7 |

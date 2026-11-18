@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 54592dd8c9fb7d5f -->
+<!-- wiki-i18n source: 0b67d55ade0b37c6 -->
 <!-- wiki-i18n title: Соло-врата -->
 # Соло-врата {#solo-gates}
 
@@ -13,7 +13,7 @@
 <!-- solo-glance:begin -->
 <!-- Generated from server/Resources/SoloGates.json (and Rockets.json, SpecialItems.json, Containers.json, Achievements.json, Data/Seeds/aliens.json, client/locales/<language>/achievements.toml) by scripts/solo-gates-wiki.sh: don't edit by hand. -->
 
-- **Врата**: 6: Chrono-Gate и 5 соло-врат, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege и Omega Vault
+- **Врата**: 7: Chrono-Gate и 6 соло-врат, Alpha Rift, Beta Breach, Gamma Foundry, Delta Siege, Omega Vault и Davidski's Nightmare
 - **Попытка**: 100 Thulium за попытку, и 1, 5, 10 или 100 попыток за раз
 - **Шанс части**: 13% за попытку, в любой категории, которую вы сканируете. Часть принадлежит одним из врат этой категории, все выпадают с равной вероятностью: Chrono-Gate один получает всё, Alpha Rift, Beta Breach и Gamma Foundry получают по 4,33%, а Delta Siege и Omega Vault получают по 6,5%. Когда Chrono-Gate собран, в его категории больше нечего сканировать
 - **Гарантия**: После 24 попыток подряд без части шанс растёт с каждой попыткой, а после 47 следующая попытка всегда находит часть. Часть любых врат начинает отсчёт заново
@@ -43,6 +43,7 @@
 | **Gamma Foundry** | 68 | 4,33% | 1 546 | 154 579 |
 | **Delta Siege** | 96 | 6,5% | 1 455 | 145 486 |
 | **Omega Vault** | 119 | 6,5% | 1 803 | 180 343 |
+| **Davidski's Nightmare** | 238 | 13% | 1 803 | 180 343 |
 
 <!-- solo-parts:end -->
 
@@ -124,6 +125,7 @@
 | **Gamma Foundry** | 18 | 78 Phantasm, 117 Bulwark, 91 Goombah, 8 Crystalys | волна 4: 1 Phantasm Swarm; волна 9: 1 Goombah Swarm; волна 14: 1 Goombah Swarm | Elite Crystalys | от 25 до 35 мин |
 | **Delta Siege** | 22 | 250 Seeker, 200 Phantasm, 141 Bulwark, 130 Goombah, 12 Crystalys | волна 5: 2 Phantasm Swarm; волна 10: 2 Goombah Swarm; волна 15: 1 Goombah Swarm; волна 20: 1 Crystalys Swarm | Siege Construct | от 35 до 45 мин |
 | **Omega Vault** | 26 | 250 Seeker, 236 Phantasm, 170 Bulwark, 174 Goombah, 25 Crystalys | волна 6: 1 Goombah Swarm; волна 11: 2 Goombah Swarm; волна 16: 1 Crystalys Swarm; волна 22: 1 Phantasm Swarm | Omega Guardian | от 50 до 60 мин |
+| **Davidski's Nightmare** | 13 | 50 Evil Protos, 66 Evil Kitefin, 31 Evil Ostirion, 19 Evil Nomad, 22 Evil Paragon, 7 Evil Storm, 8 Evil Wraith, 2 Evil Ironclad |  | Evil Davidski | от 45 до 60 мин |
 
 - **Delta Siege**: волна 18 (250 Seeker) необязательная: её можно пропустить, пока идёт её обратный отсчёт, и она ничего не платит
 - **Omega Vault**: волна 17 (250 Seeker) необязательная: её можно пропустить, пока идёт её обратный отсчёт, и она ничего не платит; волны с 22 по 24 элитные, с корпусом, щитом и уроном ×1,5
@@ -144,6 +146,7 @@
 | **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
 | **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
 | **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
+| **Evil Davidski** | Davidski's Nightmare | 550 000 | 660 000 | 2 600–3 200 |
 
 | Босс | Фаза | Оставшийся корпус | Что делает |
 | :--- | :--- | :--- | :--- |
@@ -156,6 +159,8 @@
 | **Omega Guardian** | Shield Fortress | с 100% по 70% | Его щит устанавливается в ×1,5 от собственного щита босса. Каждые 40 с он вызывает 6 Bulwark, одновременно живы не более 12; они ничего не платят и ничего не роняют. |
 |  | Swarm Protocol | с 70% по 35% | Каждые 25 с он вызывает 12 Phantasm, одновременно живы не более 24; они ничего не платят и ничего не роняют. Каждые 30 с взрыв в 140 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
 |  | Overload | с 35% по 0% | Его щит устанавливается в ×0,1 от собственного щита босса. Весь его урон ×2,5. Через 2 мин в фазе весь его урон становится ещё в ×2 больше. Каждые 25 с взрыв в 28 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. |
+| **Evil Davidski** | Evil Davidski | с 100% по 50% | Он выпускает по вам ракеты Warden Rivet II: 6 шт. по 4 900, по одной каждые 0,5 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 2 залпа по 8 метеоров, по 11 000 каждый на всё в радиусе 400 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 40 с он вызывает 5 Evil Protos, одновременно живы не более 10; они ничего не платят и ничего не роняют. |
+|  | Angry | с 50% по 0% | Его щит устанавливается в ×0,5 от собственного щита босса. Весь его урон ×1,5. Через 8 мин в фазе весь его урон становится ещё в ×2 больше. Он выпускает по вам ракеты Warden Rivet III: 6 шт. по 2 600, по одной каждые 0,4 с, залпом каждые 30 с. Каждые 1 мин он обрушивает 3 залпа по 8 метеоров, по 3 400 каждый на всё в радиусе 420 единиц от места падения, 50% из них нацелены на вас; каждый круг показывается за 3 с до падения. Каждые 45 с взрыв в 35 000 поражает всё в радиусе 700 единиц от босса; кольцо показывается за 2 с до падения. Каждые 40 с он вызывает 3 Evil Kitefin, одновременно живы не более 6; они ничего не платят и ничего не роняют. |
 
 <!-- solo-bosses:end -->
 
@@ -173,12 +178,14 @@
 | **Gamma Foundry** | 4 000 000 | 25 000 | 400 000 | 5 500 |
 | **Delta Siege** | 8 000 000 | 40 000 | 800 000 | 10 000 |
 | **Omega Vault** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
+| **Davidski's Nightmare** | 15 000 000 | 60 000 | 1 500 000 | 20 000 |
 
 - **Alpha Rift**: Ship Fragment ×300, Nyxite ×300, Daraxium ×400, Echo Shard ×4, Lattice Shard ×6; боеприпасы: Advanced Plasma ×15 000, Ultra Core ×3 750, Experimental Fusion Core ×15 000
 - **Beta Breach**: Ship Fragment ×700, Nyxite ×750, Daraxium ×800, Cataclysite ×400, Quorvium ×100, Echo Shard ×9, Lattice Shard ×13; боеприпасы: Advanced Plasma ×37 500, Ultra Core ×15 000, Experimental Fusion Core ×22 500
 - **Gamma Foundry**: Ship Fragment ×1 150, Nyxite ×1 000, Cataclysite ×900, Quorvium ×400, Power Core ×15, Echo Shard ×18, Lattice Shard ×27; боеприпасы: Advanced Plasma ×22 500, Ultra Core ×45 000, Experimental Fusion Core ×37 500
 - **Delta Siege**: Ship Fragment ×2 000, Nyxite ×1 750, Cataclysite ×1 500, Quorvium ×1 000, Reinforced Hull Plate ×70, Power Core ×40, Ancient Control Unit ×3, Echo Shard ×29, Lattice Shard ×44; боеприпасы: Advanced Plasma ×30 000, Ultra Core ×67 500, Experimental Fusion Core ×56 250
 - **Omega Vault**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; боеприпасы: Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
+- **Davidski's Nightmare**: Ship Fragment ×3 250, Nyxite ×2 750, Cataclysite ×2 250, Quorvium ×1 600, Reinforced Hull Plate ×150, Power Core ×80, Ancient Control Unit ×10, Echo Shard ×34, Lattice Shard ×54; боеприпасы: Advanced Plasma ×37 500, Ultra Core ×75 000, Experimental Fusion Core ×75 000
 - **Heartshards**: 1 за первое прохождение каждых врат за сезон и с шансом 5% ещё 1 за каждое прохождение.
 
 <!-- solo-pay:end -->
@@ -207,6 +214,14 @@
 | **Goombah Guard** | 125 | 1 | 12 | 1 |
 | **Boss Crystalys** | 393 750 | 1 050 | 63 000 | 273 |
 | **Crystalys Guard** | 125 | 1 | 12 | 1 |
+| **Evil Protos** | 4 250 | 17 | 725 | 6 |
+| **Evil Kitefin** | 12 850 | 53 | 2 175 | 18 |
+| **Evil Ostirion** | 34 350 | 141 | 5 800 | 48 |
+| **Evil Nomad** | 59 600 | 245 | 10 060 | 84 |
+| **Evil Paragon** | 68 700 | 283 | 11 600 | 97 |
+| **Evil Storm** | 96 600 | 398 | 16 315 | 136 |
+| **Evil Wraith** | 137 450 | 566 | 23 205 | 194 |
+| **Evil Ironclad** | 268 450 | 1 105 | 45 330 | 379 |
 
 | Врата | Кредиты | Thulium | Опыт | Честь |
 | :--- | ---: | ---: | ---: | ---: |
@@ -215,6 +230,7 @@
 | **Gamma Foundry** | 3 064 500 | 13 693 | 541 944 | 4 696 |
 | **Delta Siege** | 5 239 625 | 22 338 | 882 676 | 7 850 |
 | **Omega Vault** | 7 088 125 | 29 196 | 1 196 828 | 10 022 |
+| **Davidski's Nightmare** | 7 081 950 | 29 124 | 1 196 445 | 9 968 |
 
 <!-- solo-kills:end -->
 

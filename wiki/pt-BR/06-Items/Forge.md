@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Forja -->
 # A Forja {#the-forge}
 
@@ -96,6 +96,7 @@ Sintonizar os quatro soquetes de uma peça custa 150 Echo Shards (10 + 20 + 40 +
 | Portão solo: Gamma Foundry | 18 | 27 |
 | Portão solo: Delta Siege | 29 | 44 |
 | Portão solo: Omega Vault | 34 | 54 |
+| Portão solo: Davidski's Nightmare | 34 | 54 |
 | Masmorra do clã: etapa 1 | 12 | 5 |
 | Masmorra do clã: etapa 2 | 8 | 6 |
 | Masmorra do clã: etapa 3 | 8 | 7 |

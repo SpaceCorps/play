@@ -839,7 +839,7 @@
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2%: 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8%: 1 | 0,01 |
 
-- **Одиночные врата**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 за каждое прохождение.
+- **Одиночные врата**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 за каждое прохождение.
 - **Подземелья кланов**: 12, 8 и 8 за оплачиваемое прохождение этапа 1, 2 и 3.
 - **Пришельцы подземелий кланов**: шансы из таблицы выше умножаются на 2.
 - **Удача и Resource Magnet Booster**: Ни то, ни другое его не увеличивает. Его нельзя выставить на аукцион.
@@ -857,7 +857,7 @@
 
 **Как получить**
 
-- **Одиночные врата**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 за каждое прохождение.
+- **Одиночные врата**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 за каждое прохождение.
 - **Подземелья кланов**: 5, 6 и 7 за оплачиваемое прохождение этапа 1, 2 и 3.
 - **Удача и Resource Magnet Booster**: Ни то, ни другое его не увеличивает. Его нельзя выставить на аукцион.
 - **Помимо этого**: в магазине не продаётся.

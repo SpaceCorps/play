@@ -367,7 +367,7 @@ These rules decide who is paid **for the clear**. A clear is played in full even
 - **A day**: A stage pays a pilot once in a UTC day: the day the Warlord falls
 - **A week**: A pilot is paid for at most 10 stage clears in a UTC week, Monday to Sunday
 - **Inside**: At least 2 min in all
-- **A share in the fight**: At least one of these: dealt 2% of the Warlord's hull and shield; destroyed 10 of the dungeon's aliens; healed other pilots for 50,000 during the fight with the Warlord
+- **A share in the fight**: At least one of these: dealt 0.2% of the Warlord's hull and shield; destroyed 10 of the dungeon's aliens; healed other pilots for 50,000 during the fight with the Warlord
 
 <!-- dungeons-rules:end -->
 

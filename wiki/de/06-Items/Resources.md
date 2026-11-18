@@ -839,7 +839,7 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 | [Phantasm](/wiki/04-Aliens/Phantasm.md) | 2, 3 | 2 % für 1 | 0,02 |
 | [Seeker](/wiki/04-Aliens/Seeker.md) | 1, 2 | 0,8 % für 1 | 0,01 |
 
-- **Solo-Tore**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34 bei jedem Abschluss.
+- **Solo-Tore**: Alpha Rift 4, Beta Breach 9, Gamma Foundry 18, Delta Siege 29, Omega Vault 34, Davidski's Nightmare 34 bei jedem Abschluss.
 - **Clan-Dungeons**: 12, 8 und 8 bei einem bezahlten Abschluss von Stufe 1, 2 und 3.
 - **Aliens der Clan-Dungeons**: Die Chancen der Tabelle oben gelten dort 2-fach.
 - **Glück und der Resource Magnet Booster**: Beides erhöht es nicht. Es kann nie in der Auktion eingestellt werden.
@@ -857,7 +857,7 @@ Das Erz einer Charge wird für die ganze Charge berechnet, aufgerundet, und beim
 
 **So bekommst du es**
 
-- **Solo-Tore**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54 bei jedem Abschluss.
+- **Solo-Tore**: Alpha Rift 6, Beta Breach 13, Gamma Foundry 27, Delta Siege 44, Omega Vault 54, Davidski's Nightmare 54 bei jedem Abschluss.
 - **Clan-Dungeons**: 5, 6 und 7 bei einem bezahlten Abschluss von Stufe 1, 2 und 3.
 - **Glück und der Resource Magnet Booster**: Beides erhöht es nicht. Es kann nie in der Auktion eingestellt werden.
 - **Sonst**: nicht im Shop erhältlich.

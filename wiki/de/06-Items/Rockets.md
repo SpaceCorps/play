@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: eabf9d3d80e87112 -->
+<!-- wiki-i18n source: 3d092ffb2e7f12f4 -->
 <!-- wiki-i18n title: Raketen -->
 # Raketen {#rockets}
 
@@ -164,7 +164,7 @@ Die Spezialraketen tun Dinge, die eine Schadenszahl nicht ausdrückt. Sie teilen
 
 ## Abfeuern {#firing}
 
-1. Kaufe die gewöhnlichen Raketen im Shop (die Kategorie **Raketen**), bis zur *maximal tragbaren Menge* jeder, für Credits; stelle die seltenen und epischen in der Montage aus 100 der Stufe darunter her.
+1. Kaufe die gewöhnlichen Raketen im Shop (die Kategorie **Raketen**), bis zur *maximal tragbaren Menge* jeder, für Credits; stelle die seltenen und epischen in der Montage aus 100 der Stufe darunter her. Dein Startpaket enthält bereits je 100 der vier gewöhnlichen Raketen (400 insgesamt; sie können nicht verkauft werden, und wer sich vor 0.5.9 angemeldet hat, hat keine).
 2. Öffne **Raketen** über der Aktionsleiste und ziehe die gewünschten auf Slots. Die Auswahl zeigt eine Spalte pro Art und eine Zeile pro Stufe, mit dem, was du von jeder trägst. Darunter liegen die **Spezialraketen**, vier pro Zeile (ein kleiner Hammer markiert eine nur herstellbare, von der du keine trägst).
 3. Drücke die Taste des Slots. Ein Klick auf den Slot einer **gelenkten** Rakete feuert sie auf dein gewähltes Ziel ab; ein Klick auf den Slot einer **Geradeaus**-Rakete macht sie scharf, und dein nächster Klick in den Weltraum feuert sie dorthin ab. Die Taste **Rakete feuern** (standardmäßig `R`, in Einstellungen › Steuerung neu belegbar) feuert die Rakete, die du zuletzt abgefeuert hast, oder die erste auf der Leiste.
 4. Ein Ladekreis läuft über jeden Raketen-Slot, für den Timer, auf den diese Rakete wartet: 3 Sekunden bei einer normalen Rakete (5 mit einem Raketenwerfer), bei einer Spezialrakete der längere von 5 Sekunden und ihrem eigenen, mit den verbleibenden Sekunden in der Mitte. Ein Druck davor sagt dir nur, dass die Raketen nachladen (ein Druck in der letzten Zehntelsekunde feuert trotzdem). Eine Drohnenformation kann den normalen Timer auf 2,19 bis 4,05 Sekunden bringen (siehe unten).

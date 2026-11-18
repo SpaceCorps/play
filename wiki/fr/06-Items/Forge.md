@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Forge -->
 # La Forge {#the-forge}
 
@@ -96,6 +96,7 @@ Accorder les quatre emplacements d’une pièce coûte 150 Echo Shards (10 + 20 
 | Porte solo : Gamma Foundry | 18 | 27 |
 | Porte solo : Delta Siege | 29 | 44 |
 | Porte solo : Omega Vault | 34 | 54 |
+| Porte solo : Davidski's Nightmare | 34 | 54 |
 | Donjon de clan : étape 1 | 12 | 5 |
 | Donjon de clan : étape 2 | 8 | 6 |
 | Donjon de clan : étape 3 | 8 | 7 |

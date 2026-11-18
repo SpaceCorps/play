@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Smedjan -->
 # Smedjan {#the-forge}
 
@@ -96,6 +96,7 @@ Att stämma alla fyra socklarna på en del kostar 150 Echo Shards (10 + 20 + 40 
 | Soloport: Gamma Foundry | 18 | 27 |
 | Soloport: Delta Siege | 29 | 44 |
 | Soloport: Omega Vault | 34 | 54 |
+| Soloport: Davidski's Nightmare | 34 | 54 |
 | Klandungeon: etapp 1 | 12 | 5 |
 | Klandungeon: etapp 2 | 8 | 6 |
 | Klandungeon: etapp 3 | 8 | 7 |

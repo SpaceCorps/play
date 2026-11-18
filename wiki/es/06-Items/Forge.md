@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 1bd2092b2dd812be -->
+<!-- wiki-i18n source: a46d76b8a1130eb4 -->
 <!-- wiki-i18n title: Forja -->
 # La Forja {#the-forge}
 
@@ -96,6 +96,7 @@ Sintonizar las cuatro ranuras de una pieza cuesta 150 Echo Shards (10 + 20 + 40 
 | Puerta en solitario: Gamma Foundry | 18 | 27 |
 | Puerta en solitario: Delta Siege | 29 | 44 |
 | Puerta en solitario: Omega Vault | 34 | 54 |
+| Puerta en solitario: Davidski's Nightmare | 34 | 54 |
 | Mazmorra de clan: etapa 1 | 12 | 5 |
 | Mazmorra de clan: etapa 2 | 8 | 6 |
 | Mazmorra de clan: etapa 3 | 8 | 7 |
