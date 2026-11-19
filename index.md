@@ -1,7 +1,7 @@
 ---
 title: "SpaceCorps 2027 · Download"
 description: "Download SpaceCorps 2027, a space MMO for macOS, Windows and Linux: fly for a corporation, hunt aliens with your clan and climb the season ranking."
-canonical: "https://spacecorps.github.io/play/"
+canonical: "https://play.spacecorps.tech/"
 publisher: "SpaceCorps"
 license: "Proprietary client, Free to play"
 engine: "Space3d Engine"
@@ -73,12 +73,12 @@ platforms:
 
 SpaceCorps 2027 is a multiplayer space action simulator built on the native Space3d engine for macOS, Windows, and Linux. It is a game for computers. An early web version runs in a desktop browser. Android and iOS apps are in development and are not available yet. Choose a corporation, customize your starship, coordinate tactical strikes with your clan, hunt alien incursions, and compete for seasonal leaderboards.
 
-- Canonical URL: [https://spacecorps.github.io/play/](https://spacecorps.github.io/play/)
-- Machine Interface: [llms.txt](https://spacecorps.github.io/play/llms.txt) | [llms-full.txt](https://spacecorps.github.io/play/llms-full.txt)
-- Release Manifest: [release.json](https://spacecorps.github.io/play/release.json)
+- Canonical URL: [https://play.spacecorps.tech/](https://play.spacecorps.tech/)
+- Machine Interface: [llms.txt](https://play.spacecorps.tech/llms.txt) | [llms-full.txt](https://play.spacecorps.tech/llms-full.txt)
+- Release Manifest: [release.json](https://play.spacecorps.tech/release.json)
 - Platforms: macOS (universal, Apple silicon and Intel), Windows (x86_64 and ARM64), Linux (x86_64 and ARM64). No Android or iOS app yet.
-- Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (early web version, not the main way to play; a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; the address is in [web.json](https://spacecorps.github.io/play/web.json))
-- Patch Notes: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) | [patchnotes.json](https://spacecorps.github.io/play/patchnotes.json)
+- Play in the Browser: [https://web.spacecorps.xyz/](https://web.spacecorps.xyz/) (early web version, not the main way to play; a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; the address is in [web.json](https://play.spacecorps.tech/web.json))
+- Patch Notes: [patchnotes.md](https://play.spacecorps.tech/patchnotes.md) | [patchnotes.json](https://play.spacecorps.tech/patchnotes.json)
 - GitHub Releases: [https://github.com/SpaceCorps/play/releases/latest](https://github.com/SpaceCorps/play/releases/latest)
 - Discord Community: [https://discord.gg/VjW67tkrTb](https://discord.gg/VjW67tkrTb)
 
@@ -103,7 +103,7 @@ SpaceCorps 2027 is a multiplayer space action simulator built on the native Spac
 
 ## What's New
 
-The latest release's patch notes (in English). Every release: [patchnotes.md](https://spacecorps.github.io/play/patchnotes.md) · [patchnotes.html](https://spacecorps.github.io/play/patchnotes.html)
+The latest release's patch notes (in English). Every release: [patchnotes.md](https://play.spacecorps.tech/patchnotes.md) · [patchnotes.html](https://play.spacecorps.tech/patchnotes.html)
 
 <!-- patchnotes:latest -->
 ### 0.5.9 · 2026-11-18
@@ -146,7 +146,7 @@ SpaceCorps 2027 0.5.9 brings Davidski's Nightmare, a seventh Galaxy Gate with Ev
   | Miyuki IV | 150,000 | 30,000 | 4 % | 120 s |
   | Miyuki V | 150,000 | 30,000 | 5 % | 80 s |
 
-- **Premium on the website.** Premium can be bought on the Premium page of the download site, https://spacecorps.github.io/play/premium/ (Stripe is the seller of record). The sale did not wait for this release: it has been open since 2026-11-17. The game never sells it. In the **direct downloads (Windows, macOS, Linux) and the web version** the Thulium page has a card: a button "Get Premium on our website" while the main server says payments are open, "Premium is coming soon" if it does not. **The Steam build and the Android and iOS builds say nothing about buying Premium:** no card, no link, no Premium button in the top bar, and they never ask the server about payments. About, Links has no Website entry on Android and iOS.
+- **Premium on the website.** Premium can be bought on the Premium page of the download site, https://play.spacecorps.tech/premium/ (Stripe is the seller of record). The sale did not wait for this release: it has been open since 2026-11-17. The game never sells it. In the **direct downloads (Windows, macOS, Linux) and the web version** the Thulium page has a card: a button "Get Premium on our website" while the main server says payments are open, "Premium is coming soon" if it does not. **The Steam build and the Android and iOS builds say nothing about buying Premium:** no card, no link, no Premium button in the top bar, and they never ask the server about payments. About, Links has no Website entry on Android and iOS.
 - **Release job, Android APK.** New in 0.5.9: the release job can build an Android APK signed with SpaceCorps' own key (arm64 only, early access, installed from the file with no store) and list it among the release's files. It is off unless it is switched on in the job's settings. The job waits at most 20 minutes for it after the other packages; an APK that fails, is skipped or is late means a release without it, never a failed one. Since 0.5.7 the job can also send the phone apps to Google Play's internal testing track and to TestFlight's internal testers (also off unless switched on; what it sends is unchanged in 0.5.9). The store steps go to internal testers, never to production, and the APK is an early-access file with no store: the Android and iOS apps are still works in progress.
 - **Admin tools (administrators):** the alien spawn takes a tier: Alpha, Beta, Gamma or Delta. With none it is as before.
 
@@ -296,7 +296,7 @@ This download page (`?lang=<code>`) is translated into 10 of them: `en`, `de`, `
 ## Pilot Codex & Game Wiki
 
 Access detailed ship specifications, mechanics, alien encounter logs, and Skylab guides:
-- Web: [SpaceCorps 2027 Wiki](https://spacecorps.github.io/play/wiki.html)
-- JSON Feed: [wiki.json](https://spacecorps.github.io/play/wiki.json)
-- Markdown Mirror: [wiki/](https://spacecorps.github.io/play/wiki/)
+- Web: [SpaceCorps 2027 Wiki](https://play.spacecorps.tech/wiki.html)
+- JSON Feed: [wiki.json](https://play.spacecorps.tech/wiki.json)
+- Markdown Mirror: [wiki/](https://play.spacecorps.tech/wiki/)
 

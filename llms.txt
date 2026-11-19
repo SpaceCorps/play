@@ -2,27 +2,27 @@
 
 > Machine-readable interface, release package telemetry, and system orchestration manual for SpaceCorps 2027, a cross-platform space MMO simulator for macOS, Windows and Linux, built on the Space3d engine.
 
-- Canonical URL: https://spacecorps.github.io/play/
-- Markdown Representation: https://spacecorps.github.io/play/index.md
-- Full Technical Manual: https://spacecorps.github.io/play/llms-full.txt
-- Machine Release Feed: https://spacecorps.github.io/play/release.json
-- Play in the Browser: https://web.spacecorps.xyz/ (early web version, not the main way to play; needs a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; current address in https://spacecorps.github.io/play/web.json)
+- Canonical URL: https://play.spacecorps.tech/
+- Markdown Representation: https://play.spacecorps.tech/index.md
+- Full Technical Manual: https://play.spacecorps.tech/llms-full.txt
+- Machine Release Feed: https://play.spacecorps.tech/release.json
+- Play in the Browser: https://web.spacecorps.xyz/ (early web version, not the main way to play; needs a desktop browser with WebGPU or WebGL2, tested only in Chrome on a computer, no gamepad, first load about 80 MB; current address in https://play.spacecorps.tech/web.json)
 - Model Context Protocol (MCP): https://spaceemit-api.sliplane.app/mcp
 - MCP Server: https://spaceemit-api.sliplane.app/mcp
 - MCP: https://spaceemit-api.sliplane.app/mcp
 - MCP Endpoint: https://spaceemit-api.sliplane.app/mcp
 - MCP Server Card: https://spacecorps.github.io/.well-known/mcp/server-card.json
 - MCP Manifest: https://spacecorps.github.io/server.json
-- OpenAPI Specification: https://spacecorps.github.io/play/openapi.json
-- Pricing & Free Tier: https://spacecorps.github.io/play/pricing.md
-- Authentication: https://spacecorps.github.io/play/auth.md
-- Verified Sandbox Environment: https://spacecorps.github.io/play/sandbox/
-- Sandbox Health Check: https://spacecorps.github.io/play/sandbox/api/v1/health
-- Sandbox Telemetry: https://spacecorps.github.io/play/sandbox/api/v1/telemetry
-- Self-Serve API Keys: https://spacecorps.github.io/play/api/keys
-- Patch Notes (every release, newest first): https://spacecorps.github.io/play/patchnotes.md (HTML: https://spacecorps.github.io/play/patchnotes.html, JSON: https://spacecorps.github.io/play/patchnotes.json)
-- Game Wiki & Pilot Codex: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
-- Sitemap: https://spacecorps.github.io/play/sitemap.xml
+- OpenAPI Specification: https://play.spacecorps.tech/openapi.json
+- Pricing & Free Tier: https://play.spacecorps.tech/pricing.md
+- Authentication: https://play.spacecorps.tech/auth.md
+- Verified Sandbox Environment: https://play.spacecorps.tech/sandbox/
+- Sandbox Health Check: https://play.spacecorps.tech/sandbox/api/v1/health
+- Sandbox Telemetry: https://play.spacecorps.tech/sandbox/api/v1/telemetry
+- Self-Serve API Keys: https://play.spacecorps.tech/api/keys
+- Patch Notes (every release, newest first): https://play.spacecorps.tech/patchnotes.md (HTML: https://play.spacecorps.tech/patchnotes.html, JSON: https://play.spacecorps.tech/patchnotes.json)
+- Game Wiki & Pilot Codex: https://play.spacecorps.tech/wiki.html (JSON: https://play.spacecorps.tech/wiki.json, Raw Markdown: https://play.spacecorps.tech/wiki/)
+- Sitemap: https://play.spacecorps.tech/sitemap.xml
 - GitHub Releases: https://github.com/SpaceCorps/play/releases
 - Issue Tracker: https://github.com/SpaceCorps/play/issues
 - Game Server Status: https://spaceemit-api.sliplane.app/health

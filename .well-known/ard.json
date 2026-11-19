@@ -5,7 +5,7 @@
       "identifier": "urn:air:spacecorps.github.io:play:game-release-catalog",
       "displayName": "SpaceCorps 2027 Release Catalog",
       "type": "application/json",
-      "url": "https://spacecorps.github.io/play/release.json",
+      "url": "https://play.spacecorps.tech/release.json",
       "capabilities": [
         "ReleaseTelemetry",
         "ChecksumVerification",
@@ -63,7 +63,7 @@
       "identifier": "urn:air:spacecorps.github.io:play:agent-manual",
       "displayName": "SpaceCorps 2027 Agent Operating Manual",
       "type": "text/markdown",
-      "url": "https://spacecorps.github.io/play/llms.txt",
+      "url": "https://play.spacecorps.tech/llms.txt",
       "capabilities": [
         "AgentInstructions",
         "AutomatedInstallation",

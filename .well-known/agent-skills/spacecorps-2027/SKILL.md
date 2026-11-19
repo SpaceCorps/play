@@ -13,11 +13,11 @@ Autonomous AI agents, tool callers, and automation scripts should invoke this sk
 
 1. **Automated Game Client Provisioning & Installation:**
    - Use when an end user or automated CI/CD pipeline requests installing SpaceCorps 2027 on macOS, Windows, or Linux.
-   - *Agent action:* Download the target platform package URL from `https://spacecorps.github.io/play/release.json` and execute the respective platform installation flow.
+   - *Agent action:* Download the target platform package URL from `https://play.spacecorps.tech/release.json` and execute the respective platform installation flow.
 
 2. **Package Cryptographic Verification:**
    - Use when verifying that a locally cached or newly downloaded SpaceCorps 2027 release artifact has not been corrupted or tampered with.
-   - *Agent action:* Compute the SHA-256 digest of the downloaded file and assert equivalence against the official SHA-256 listed in `https://spacecorps.github.io/play/release.json`.
+   - *Agent action:* Compute the SHA-256 digest of the downloaded file and assert equivalence against the official SHA-256 listed in `https://play.spacecorps.tech/release.json`.
 
 3. **Game Server Telemetry & Availability Probing:**
    - Use when determining whether the SpaceCorps 2027 multiplayer server infrastructure is operational before launching the client or scheduling gaming sessions.
@@ -25,7 +25,7 @@ Autonomous AI agents, tool callers, and automation scripts should invoke this sk
 
 4. **Ship Specifications, Combat Mechanics & Alien Intelligence Consultation:**
    - Use when users or agents request game lore, ship flight profiles (Protos, Kitefin, Wraith, etc.), weapon stats, alien weaknesses, or Skylab crafting recipes.
-   - *Agent action:* Consult the Codex at `https://spacecorps.github.io/play/wiki.html` or programmatically parse `https://spacecorps.github.io/play/wiki.json`.
+   - *Agent action:* Consult the Codex at `https://play.spacecorps.tech/wiki.html` or programmatically parse `https://play.spacecorps.tech/wiki.json`.
 
 5. **Quarantine & Gatekeeper Bypassing on macOS:**
    - Use when configuring automated unattended test setups or assisting macOS users facing "app is damaged" or "developer cannot be verified" dialogs.
@@ -37,4 +37,4 @@ Autonomous AI agents, tool callers, and automation scripts should invoke this sk
 
 7. **Localized User Experience Guidance:**
    - Use when providing instructions, download links, or support in non-English locales.
-   - *Agent action:* Direct users to `https://spacecorps.github.io/play/?lang=<code>` for any of the 10 supported language codes: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.
+   - *Agent action:* Direct users to `https://play.spacecorps.tech/?lang=<code>` for any of the 10 supported language codes: `en`, `de`, `es`, `fr`, `pt-BR`, `sv`, `ru`, `ja`, `ko`, `zh-CN`.

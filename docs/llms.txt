@@ -7,7 +7,7 @@
 - Developer Portal: https://spacecorps.github.io/developers.html
 - OpenAPI Specification: https://spacecorps.github.io/openapi.json
 - Pricing & Quotas: https://spacecorps.github.io/pricing.md
-- SpaceCorps 2027 MMO: https://spacecorps.github.io/play/
+- SpaceCorps 2027 MMO: https://play.spacecorps.tech/
 
 ## Core Systems
 1. **SpaceCorps 2027 MMO**: Cross-platform 2D space simulation for macOS, Windows and Linux, client binaries, and multiplayer telemetry.

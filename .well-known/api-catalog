@@ -1,22 +1,22 @@
 {
   "linkset": [
     {
-      "anchor": "https://spacecorps.github.io/play/",
+      "anchor": "https://play.spacecorps.tech/",
       "item": [
         {
-          "href": "https://spacecorps.github.io/play/release.json",
+          "href": "https://play.spacecorps.tech/release.json",
           "type": "application/json"
         }
       ],
       "service-desc": [
         {
-          "href": "https://spacecorps.github.io/play/release.json",
+          "href": "https://play.spacecorps.tech/release.json",
           "type": "application/json"
         }
       ],
       "service-doc": [
         {
-          "href": "https://spacecorps.github.io/play/llms.txt",
+          "href": "https://play.spacecorps.tech/llms.txt",
           "type": "text/markdown"
         }
       ]
