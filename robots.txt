@@ -34,6 +34,6 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://spacecorps.github.io/play/sitemap.xml
+Sitemap: https://play.spacecorps.tech/sitemap.xml
 Sitemap: https://spacecorps.github.io/sitemap.xml
 schemamap: https://spacecorps.github.io/sitemap.xml

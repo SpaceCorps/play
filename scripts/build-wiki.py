@@ -1187,9 +1187,9 @@ PAGE = r"""<!doctype html>
 <meta name="is-agentic-site-type" content="content">
 <meta name="author" content="SpaceCorps">
 <meta name="keywords" content="SpaceCorps 2027 wiki, SpaceCorps ships, Protos, Kitefin, Wraith, Paragon, Ostirion, Ironclad, Skylab guide, Black Hole, SpaceCorps mechanics, alien guide">
-<link rel="canonical" href="https://spacecorps.github.io/play/wiki.html">
-<link rel="alternate" type="application/json" href="https://spacecorps.github.io/play/wiki.json">
-<link rel="help" href="https://spacecorps.github.io/play/llms.txt">
+<link rel="canonical" href="https://play.spacecorps.tech/wiki.html">
+<link rel="alternate" type="application/json" href="https://play.spacecorps.tech/wiki.json">
+<link rel="help" href="https://play.spacecorps.tech/llms.txt">
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
@@ -1202,8 +1202,8 @@ PAGE = r"""<!doctype html>
 <meta property="og:site_name" content="SpaceCorps">
 <meta property="og:title" content="SpaceCorps 2027 · Game Wiki &amp; Pilot Codex">
 <meta property="og:description" content="The game's own wiki: ship specifications, mechanics, aliens, weapons and the Skylab, rebuilt at every release.">
-<meta property="og:url" content="https://spacecorps.github.io/play/wiki.html">
-<meta property="og:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta property="og:url" content="https://play.spacecorps.tech/wiki.html">
+<meta property="og:image" content="https://play.spacecorps.tech/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -1211,7 +1211,7 @@ PAGE = r"""<!doctype html>
 <meta name="twitter:creator" content="@SpaceCorps">
 <meta name="twitter:title" content="SpaceCorps 2027 · Game Wiki &amp; Pilot Codex">
 <meta name="twitter:description" content="The game's own wiki: ship specifications, mechanics, aliens, weapons and the Skylab, rebuilt at every release.">
-<meta name="twitter:image" content="https://spacecorps.github.io/play/img/og.jpg">
+<meta name="twitter:image" content="https://play.spacecorps.tech/img/og.jpg">
 <link rel="stylesheet" href="style.css">
 <style>
   /* Wiki Layout & Typography */
@@ -1680,20 +1680,20 @@ PAGE = r"""<!doctype html>
           "@type": "ListItem",
           "position": 2,
           "name": "SpaceCorps 2027",
-          "item": "https://spacecorps.github.io/play/"
+          "item": "https://play.spacecorps.tech/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Wiki &amp; Pilot Codex",
-          "item": "https://spacecorps.github.io/play/wiki.html"
+          "item": "https://play.spacecorps.tech/wiki.html"
         }
       ]
     },
     {
       "@type": "TechArticle",
-      "@id": "https://spacecorps.github.io/play/wiki.html#codex",
-      "url": "https://spacecorps.github.io/play/wiki.html",
+      "@id": "https://play.spacecorps.tech/wiki.html#codex",
+      "url": "https://play.spacecorps.tech/wiki.html",
       "name": "SpaceCorps 2027 Game Wiki &amp; Pilot Codex",
       "headline": "SpaceCorps 2027 Game Wiki &amp; Pilot Codex",
       "description": "Comprehensive reference of ship statistics, combat mechanics, Skylab production, alien species, and equipment loadouts for SpaceCorps 2027.",
@@ -1710,7 +1710,7 @@ PAGE = r"""<!doctype html>
         "@type": "Organization",
         "name": "SpaceCorps",
         "url": "https://spacecorps.github.io/",
-        "logo": "https://spacecorps.github.io/play/img/icon-128.png"
+        "logo": "https://play.spacecorps.tech/img/icon-128.png"
       }
     }
   ]
@@ -2109,11 +2109,11 @@ if (typeof document !== 'undefined') {
 })();
 </script>
 <div style="display:none" aria-hidden="true">
-  <form tool="get_wiki_article" toolname="get_wiki_article" data-tool="get_wiki_article" tooldescription="Get structured content for a SpaceCorps 2027 wiki article" action="/play/wiki.json" method="GET">
+  <form tool="get_wiki_article" toolname="get_wiki_article" data-tool="get_wiki_article" tooldescription="Get structured content for a SpaceCorps 2027 wiki article" action="/wiki.json" method="GET">
     <input name="article" placeholder="article slug (e.g. protos, quests, skylab)">
     <button type="submit">Get Wiki Article</button>
   </form>
-  <form tool="list_wiki_articles" toolname="list_wiki_articles" data-tool="list_wiki_articles" tooldescription="List all available SpaceCorps 2027 wiki categories and article slugs" action="/play/wiki.json" method="GET">
+  <form tool="list_wiki_articles" toolname="list_wiki_articles" data-tool="list_wiki_articles" tooldescription="List all available SpaceCorps 2027 wiki categories and article slugs" action="/wiki.json" method="GET">
     <button type="submit">List Wiki Articles</button>
   </form>
 </div>

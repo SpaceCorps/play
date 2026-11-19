@@ -1,7 +1,7 @@
 {
   "name": "SpaceCorps 2027 Agent Portal",
   "description": "Autonomous agent discovery and package verification interface for SpaceCorps 2027, a cross-platform space MMO for macOS, Windows and Linux, built on Space3d engine.",
-  "url": "https://spacecorps.github.io/play/",
+  "url": "https://play.spacecorps.tech/",
   "version": "0.5.9",
   "capabilities": [
     "game-client-download",
@@ -13,7 +13,7 @@
     {
       "name": "spacecorps-2027",
       "description": "Download, verify, install, and orchestrate SpaceCorps 2027 game client on macOS, Windows, and Linux.",
-      "url": "https://spacecorps.github.io/play/llms.txt"
+      "url": "https://play.spacecorps.tech/llms.txt"
     }
   ]
 }

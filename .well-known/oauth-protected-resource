@@ -1,7 +1,7 @@
 {
-  "resource": "https://spacecorps.github.io/play/",
+  "resource": "https://play.spacecorps.tech/",
   "resource_name": "SpaceCorps 2027 Play",
-  "resource_logo_uri": "https://spacecorps.github.io/play/favicon.svg",
+  "resource_logo_uri": "https://play.spacecorps.tech/favicon.svg",
   "authorization_servers": ["https://spacecorps.github.io/"],
   "scopes_supported": ["read", "write"],
   "bearer_methods_supported": ["header"],

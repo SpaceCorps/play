@@ -1,7 +1,7 @@
 # SpaceCorps 2027: downloads
 
 The download page of **SpaceCorps 2027**, a space MMO for macOS, Windows and Linux:
-**https://spacecorps.github.io/play/**
+**https://play.spacecorps.tech/**
 
 Get the game from the page, or straight from the [latest release](https://github.com/SpaceCorps/play/releases/latest).
 

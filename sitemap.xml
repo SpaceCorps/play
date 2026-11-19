@@ -3,100 +3,100 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://spacecorps.github.io/play/</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://spacecorps.github.io/play/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://spacecorps.github.io/play/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://spacecorps.github.io/play/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://spacecorps.github.io/play/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://spacecorps.github.io/play/?lang=fr" />
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://spacecorps.github.io/play/?lang=pt-BR" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://spacecorps.github.io/play/?lang=sv" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://spacecorps.github.io/play/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://spacecorps.github.io/play/?lang=ja" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://spacecorps.github.io/play/?lang=ko" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://spacecorps.github.io/play/?lang=zh-CN" />
+    <loc>https://play.spacecorps.tech/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://play.spacecorps.tech/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://play.spacecorps.tech/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://play.spacecorps.tech/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://play.spacecorps.tech/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://play.spacecorps.tech/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://play.spacecorps.tech/?lang=pt-BR" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://play.spacecorps.tech/?lang=sv" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://play.spacecorps.tech/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://play.spacecorps.tech/?lang=ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://play.spacecorps.tech/?lang=ko" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://play.spacecorps.tech/?lang=zh-CN" />
     <lastmod>2026-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/hero-ship-1190.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/hero-ship-1190.webp</image:loc>
       <image:title>SpaceCorps 2027 Flagship Starship</image:title>
       <image:caption>Flagship cruiser in orbit in SpaceCorps 2027 space MMO simulator</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/combat-1600.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/combat-1600.webp</image:loc>
       <image:title>SpaceCorps 2027 Fleet Combat</image:title>
       <image:caption>Real-time multiplayer fleet combat with lasers, rockets and alien incursions</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/station-1600.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/station-1600.webp</image:loc>
       <image:title>SpaceCorps 2027 Orbital Station</image:title>
       <image:caption>Corporate orbital space station docking, trading, and refinery systems</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/hangar-1600.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/hangar-1600.webp</image:loc>
       <image:title>SpaceCorps 2027 Starship Hangar</image:title>
       <image:caption>Hangar interface with equipment configuration, weapon loadouts, and ship upgrades</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/wraith-1600.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/wraith-1600.webp</image:loc>
       <image:title>SpaceCorps 2027 Wraith Interceptor</image:title>
       <image:caption>Stealth assault fighter craft equipped for sector patrol and skirmishes</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/galaxy-1600.webp</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/galaxy-1600.webp</image:loc>
       <image:title>SpaceCorps 2027 Galaxy Map</image:title>
       <image:caption>Interactive galaxy map with sector routes, warp gates, and contested corporate zones</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://spacecorps.github.io/play/img/og.jpg</image:loc>
+      <image:loc>https://play.spacecorps.tech/img/og.jpg</image:loc>
       <image:title>SpaceCorps 2027 Official Artwork</image:title>
       <image:caption>SpaceCorps 2027 space MMO game client for macOS, Windows and Linux</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/patchnotes.html</loc>
+    <loc>https://play.spacecorps.tech/patchnotes.html</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/wiki.html</loc>
+    <loc>https://play.spacecorps.tech/wiki.html</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/wiki.json</loc>
+    <loc>https://play.spacecorps.tech/wiki.json</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/index.md</loc>
+    <loc>https://play.spacecorps.tech/index.md</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/llms.txt</loc>
+    <loc>https://play.spacecorps.tech/llms.txt</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/llms-full.txt</loc>
+    <loc>https://play.spacecorps.tech/llms-full.txt</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/patchnotes.md</loc>
+    <loc>https://play.spacecorps.tech/patchnotes.md</loc>
     <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://spacecorps.github.io/play/privacy/</loc>
+    <loc>https://play.spacecorps.tech/privacy/</loc>
   </url>
 </urlset>

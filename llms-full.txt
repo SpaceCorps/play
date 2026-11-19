@@ -2,13 +2,13 @@
 
 > Exhaustive technical documentation, release verification protocol, client-server communications schema, and operational guide for SpaceCorps 2027.
 
-- Canonical URL: https://spacecorps.github.io/play/
-- Machine Summary: https://spacecorps.github.io/play/llms.txt
-- Markdown Page: https://spacecorps.github.io/play/index.md
-- Release Feed: https://spacecorps.github.io/play/release.json
-- Patch Notes: https://spacecorps.github.io/play/patchnotes.md (JSON: https://spacecorps.github.io/play/patchnotes.json)
-- Pilot Codex & Game Wiki: https://spacecorps.github.io/play/wiki.html (JSON: https://spacecorps.github.io/play/wiki.json, Raw Markdown: https://spacecorps.github.io/play/wiki/)
-- Sitemap: https://spacecorps.github.io/play/sitemap.xml
+- Canonical URL: https://play.spacecorps.tech/
+- Machine Summary: https://play.spacecorps.tech/llms.txt
+- Markdown Page: https://play.spacecorps.tech/index.md
+- Release Feed: https://play.spacecorps.tech/release.json
+- Patch Notes: https://play.spacecorps.tech/patchnotes.md (JSON: https://play.spacecorps.tech/patchnotes.json)
+- Pilot Codex & Game Wiki: https://play.spacecorps.tech/wiki.html (JSON: https://play.spacecorps.tech/wiki.json, Raw Markdown: https://play.spacecorps.tech/wiki/)
+- Sitemap: https://play.spacecorps.tech/sitemap.xml
 - Organization Apex: https://spacecorps.github.io/
 
 ---
@@ -187,19 +187,19 @@ SpaceCorps 2027 ships with comprehensive translations across 13 languages:
 
 | Code | Language Name | Native Name | Web Address Parameter |
 | :--- | :--- | :--- | :--- |
-| `en` | English | English | `https://spacecorps.github.io/play/?lang=en` |
-| `de` | German | Deutsch | `https://spacecorps.github.io/play/?lang=de` |
-| `es` | Spanish | Español | `https://spacecorps.github.io/play/?lang=es` |
-| `fr` | French | Français | `https://spacecorps.github.io/play/?lang=fr` |
+| `en` | English | English | `https://play.spacecorps.tech/?lang=en` |
+| `de` | German | Deutsch | `https://play.spacecorps.tech/?lang=de` |
+| `es` | Spanish | Español | `https://play.spacecorps.tech/?lang=es` |
+| `fr` | French | Français | `https://play.spacecorps.tech/?lang=fr` |
 | `it` | Italian | Italiano | not on the download page yet (it shows English) |
 | `hu` | Hungarian | Magyar | not on the download page yet (it shows English) |
-| `pt-BR` | Portuguese (Brazil) | Português (Brasil) | `https://spacecorps.github.io/play/?lang=pt-BR` |
-| `sv` | Swedish | Svenska | `https://spacecorps.github.io/play/?lang=sv` |
+| `pt-BR` | Portuguese (Brazil) | Português (Brasil) | `https://play.spacecorps.tech/?lang=pt-BR` |
+| `sv` | Swedish | Svenska | `https://play.spacecorps.tech/?lang=sv` |
 | `tr` | Turkish | Türkçe | not on the download page yet (it shows English) |
-| `ru` | Russian | Русский | `https://spacecorps.github.io/play/?lang=ru` |
-| `ja` | Japanese | 日本語 | `https://spacecorps.github.io/play/?lang=ja` |
-| `ko` | Korean | 한국어 | `https://spacecorps.github.io/play/?lang=ko` |
-| `zh-CN` | Chinese (Simplified) | 简体中文 | `https://spacecorps.github.io/play/?lang=zh-CN` |
+| `ru` | Russian | Русский | `https://play.spacecorps.tech/?lang=ru` |
+| `ja` | Japanese | 日本語 | `https://play.spacecorps.tech/?lang=ja` |
+| `ko` | Korean | 한국어 | `https://play.spacecorps.tech/?lang=ko` |
+| `zh-CN` | Chinese (Simplified) | 简体中文 | `https://play.spacecorps.tech/?lang=zh-CN` |
 
 `?lang=<code>` picks the language of the download page (10 of the 13). In the game: Settings › General ›
 Interface Language, or `SPACECORPS_LANG=<code>` for one run.
@@ -211,9 +211,9 @@ Interface Language, or `SPACECORPS_LANG=<code>` for one run.
 
 The complete SpaceCorps 2027 knowledge base is programmatically synchronized from the base game repository (`assets/wiki`):
 
-- **Interactive Codex Browser:** `https://spacecorps.github.io/play/wiki.html`
-- **Structured JSON Catalog:** `https://spacecorps.github.io/play/wiki.json`
-- **Raw Markdown Archive:** `https://spacecorps.github.io/play/wiki/`
+- **Interactive Codex Browser:** `https://play.spacecorps.tech/wiki.html`
+- **Structured JSON Catalog:** `https://play.spacecorps.tech/wiki.json`
+- **Raw Markdown Archive:** `https://play.spacecorps.tech/wiki/`
 
 <!-- release:wiki -->
 The catalog contains 76 articles in 6 modules:

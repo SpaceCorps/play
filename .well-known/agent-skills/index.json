@@ -17,7 +17,7 @@
       "name": "spacecorps-2027",
       "type": "skill-md",
       "description": "Use when you need to download, verify SHA-256 integrity, install, and orchestrate the SpaceCorps 2027 cross-platform MMO game client (macOS, Windows, Linux; no Android or iOS app yet) and verify server telemetry. Use when asked to download SpaceCorps 2027, verify release checksums, check multiplayer server health, consult the game wiki and codex, or deploy game clients on macOS, Windows, or Linux.",
-      "url": "https://spacecorps.github.io/play/.well-known/agent-skills/spacecorps-2027/SKILL.md",
+      "url": "https://play.spacecorps.tech/.well-known/agent-skills/spacecorps-2027/SKILL.md",
       "digest": "sha256:42366edbcd2ec27515255d8b8217ce4cc5e595400f6e954fcc70b54b3c922950",
       "when_to_use": "Use when automating spacecorps-2027 operations, tool-calling via CLI, or integrating spacecorps-2027 in agent pipelines.",
       "whenToUse": "Use when automating spacecorps-2027 operations, tool-calling via CLI, or integrating spacecorps-2027 in agent pipelines."
