@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Konteynerler -->
 # Konteynerler {#containers}
 
@@ -7,13 +7,13 @@
 Bir **konteyner**, Mission Control’ün mühürlü bir buluntusudur. Birini açtığında sunucu bir tablodan bir ödül çeker ve o tablodaki her ödülün şansı bu sayfada yazılıdır. Oyunun Konteynerler sayfası aynı tabloyu gösterir.
 
 > [!NOTE]
-> **Konteynerler oyunda kazanılan rastgele ödüllerdir. Asla satılmazlar ve şanslar burada yayımlanır.** Hiçbir konteyner satın alınamaz, takas edilemez ya da hediye edilemez.
+> **Konteynerler rastgele ödüllerdir ve şanslar burada yayımlanır.** Onları oyunda kazanırsın ve hiçbir konteyner tek başına satılmaz. Tek istisna yalnızca görünüm içeren Kroma Arşivi’dir: Premium her ay 5 tanesini getirir. Ödül olarak gelen Premium günleri hiç getirmez. Hiçbir konteyner takas edilemez ya da hediye edilemez.
 
 ## Konteyner nedir {#what-a-container-is}
 
-- **Kazanılır.** Konteynerleri oyunda kazanırsın. Fiyatı ve anahtarı yoktur: Mağaza onları satmaz, başka kimse de satmaz.
+- **Kazanılır.** Konteynerleri oyunda kazanırsın. Fiyatı ve anahtarı yoktur: Mağaza onları satmaz. Tek diğer yol, Premium’un her ay getirdiği 5 Kroma Arşivi’dir (ödül olarak gelen Premium günleri getirmez).
 - **Yalnızca senin.** Konteyner hesabına bağlıdır. Onu takas edemez, bir arkadaşına veremez ve [Açık Artırma](/wiki/03-Mechanics/Auction.md)’ya koyamazsın; bir konteynerin verdiği hiçbir şey de oraya konamaz.
-- **Her pilot için aynı.** Premium hiçbir şeyi değiştirmez: fazladan açılış ya da daha iyi şans vermez.
+- **Her pilot için aynı.** Premium fazladan açılış ya da daha iyi şans vermez. Premium’un her ay getirdiği şey 5 Kroma Arşivi’dir ve bunlar yalnızca görünüm içerir.
 - **Sıfırlama boyunca kalır.** Açmadığın bir konteyner, [sıfırlama](/wiki/03-Mechanics/Wipe-Timeline.md) geldiğinde hesabında kalır. Sıfırlamanın ödüllere ne yaptığı [Sıfırlama](#the-wipe) bölümünde yazılıdır.
 - **İstasyonda açılır.** Konteyneri istasyona kenetliyken, Konteynerler sayfasında açarsın. Ödülü sunucu sen Aç’a bastığında çeker ve basmanın kendisi hiçbir şeyi değiştirmez. Neyin sayıldığı [Bir ödül nasıl seçilir](#how-a-prize-is-chosen) bölümündedir.
 
@@ -28,6 +28,7 @@ Konteynerler sana şu yollarla ulaşır:
 - Sıfırlamada rütben için ödül olarak
 - Giriş takviminde
 - Başarımlar için
+- Her 30 günlük Premium ile: yalnızca görünüm içeren 5 Kroma Arşivi
 
 <!-- containers-sources:end -->
 

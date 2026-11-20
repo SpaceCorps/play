@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Kampf -->
 # Kampfmechanik {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Die Belohnungen eines Aliens gehen an den Piloten, der zuerst auf es geschossen 
 - **So siehst du es**: Wählst du ein Alien aus, das ein anderer Pilot beansprucht hat, zeigt das Zielfenster *Beansprucht von* diesem Piloten und *Keine Belohnung*.
 - [Konzernpiloten](/wiki/03-Mechanics/Company-Pilots.md) beanspruchen nie ein Alien, und ein Alien, das sie erledigen, zahlt trotzdem an den Piloten, der seinen Anspruch hält.
 - Ein Pilot in einer [Gruppe](/wiki/03-Mechanics/Groups.md) teilt, was sein Anspruch einbringt, mit den Gruppenmitgliedern, die nah dran sind und schießen; der Anspruch selbst gehört allein dem Piloten.
-- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md), die Dormant Pulses und die [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sind die Ausnahme**: Ein Schwarm-Boss, jede Dormant Pulse und jeder Clan Warden werden nach dem Schaden bezahlt, den jeder Pilot ihnen zugefügt hat, nicht nach dem ersten Treffer, und ihre Frachtkiste geht an den Piloten mit dem meisten Schaden ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Die übrigen Begleiter, die Pirate Scouts und die Seeker Slaves, zahlen wie jedes Alien nach dem Anspruch. Die PvE-Punkte eines Schwarmschiffs stehen auf der Seite Schwärme.
+- **Die Anführer der [Schwärme](/wiki/05-Swarms/Swarms.md), die Dormant Pulses und die [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sind die Ausnahme**: Ein Schwarm-Boss, jede Dormant Pulse und jeder Clan Warden werden nach dem Schaden bezahlt, den jeder Pilot ihnen zugefügt hat, nicht nach dem ersten Treffer, und ihre Frachtkiste geht an den Piloten mit dem meisten Schaden ([so zahlt ein Boss-Abschuss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Die übrigen Begleiter, die Pirate Scouts und die Seeker Slaves, zahlen wie jedes Alien nach dem Anspruch. Die PvE-Punkte eines Schwarmschiffs stehen auf der Seite Schwärme. Hat die Gruppe des Hauptschadenverursachers zwei oder mehr Piloten, die den Boss beschädigt haben, wird seine Kiste in eine persönliche Kiste für jeden von ihnen aufgeteilt ([Frachtkisten](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

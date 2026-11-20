@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ Försvarsmodulen strider för ditt Skylab. Den rymmer lasrarna som skjuter på u
 - **Vad som passar**: [Laser](/wiki/06-Items/Lasers.md)-föremål med sina förstärkare i, från ditt inventarie: en Quantum Laser I, II eller III, en Starfire-III eller en Helios Beam. Alla lasrar skjuter samtidigt, ett skott var per sekund. Förstärkarna räknas som på ett skepp (skada, chans till kritisk träff och kritisk skada); en Penetration Amp tillför ingenting här.
 - **Magasinet** rymmer skott av Ammunitionsskrivarens sorter och fylls **bara från Ammunitionsskrivaren**, aldrig från ditt inventarie (se [Montering och ammunition](#fits-and-ammunition)).
 - **Porten**: en cell med svårighet 3, till exempel, kan bara beträdas av ett Skylab vars Försvarsmodul är på nivå 3 eller högre. Ett Skylab utan Försvarsmodul får bara flyga genom tomt rymdrum och sin hamn.
-- **Nedgörningsbudgeten** är det mesta Skylab får tjäna i timmen: 108 prispengapoäng på nivå 1 och 630 på nivå 5 (se [Vad en resa betalar](#what-a-trip-pays)).
+- **Nedgörningsbudgeten** är det mesta Skylab får tjäna i timmen: 216 prispengapoäng på nivå 1 och 1 260 på nivå 5 (se [Vad en resa betalar](#what-a-trip-pays)).
 - **Skrovet** växer med nivån (se [Skrovet, förstörelsen och reparationen](#the-hull-and-repair)).
 - **Forskning**: varje nivå kräver sin egen teknologi, Försvarsmodul I till V (se tabellen ovan).
 - **Energi**: 80 på nivå 1, och det ökar med 25 % per nivå. Den går att stänga av, men inte medan Skylab är på väg. En modul som är avstängd, under uppgradering eller utan ström är mörk: Skylab bekämpar ingenting och passerar cellerna utan strid.
@@ -293,11 +293,11 @@ Försvarsmodulen strider för ditt Skylab. Den rymmer lasrarna som skjuter på u
 
 | Nivå | Lasrar | Magasin (skott) | Nedgörningsbudget (poäng i timmen) | Högsta svårighet |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 500 | 108 | 1 |
-| 2 | 2 | 4 200 | 293 | 2 |
-| 3 | 3 | 16 000 | 476 | 3 |
-| 4 | 4 | 27 000 | 548 | 4 |
-| 5 | 5 | 41 000 | 630 | 5 |
+| 1 | 1 | 3 000 | 216 | 1 |
+| 2 | 2 | 8 300 | 586 | 2 |
+| 3 | 3 | 31 000 | 953 | 3 |
+| 4 | 4 | 53 000 | 1 095 | 4 |
+| 5 | 5 | 80 000 | 1 260 | 5 |
 
 | Nivå | Krediter | Thulium | Plåtar | Tid |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ Alla tre nivåerna kostar sammanlagt 3 250 000 krediter, 13 000 Thulium, 4 pl
 Trofélagret förvarar det ditt Skylabs nedgjorda fiender ger tills du hämtar det. Det har nivå 1 till 20 och kräver ingen teknologi.
 
 - **Vad det rymmer**: krediter, Thulium, erfarenhet, heder och bytet från de nedgjorda.
-- **Kapaciteten** räknas i **föremål ur bytet**: bara bytet tar plats. Krediter, Thulium, erfarenhet och heder tar ingen, hur mycket av dem nedgörningarna än ger (sedan 0.4.27; förut fyllde en nedgörnings prispeng lagret). Det rymmer 650 föremål på nivå 1 och 45 000 på nivå 20. En Seeker ger ungefär ett föremål per nedgörning, så ett lager fylls ungefär tio gånger långsammare än förut.
+- **Kapaciteten** räknas i **föremål ur bytet**: bara bytet tar plats. Krediter, Thulium, erfarenhet och heder tar ingen, hur mycket av dem nedgörningarna än ger (sedan 0.4.27; förut fyllde en nedgörnings prispeng lagret). Det rymmer 1 300 föremål på nivå 1 och 91 000 på nivå 20. En Seeker ger ungefär ett föremål per nedgörning, så ett lager fylls ungefär tio gånger långsammare än förut.
 - **Fullt**: ett fullt lager får Skylab att **sluta skjuta**: inget skjuts ned, betalas eller räknas och ingen ammunition går åt förrän du hämtar (skrovet återhämtar sig ändå). Ett meddelande, en kort pop-up, en bärnstensfärgad etikett **Lagret fullt** i stationens fält, en notis på Skylab-sidan och tipset på sidofältets Skylab-rad säger det, i samma ögonblick som det fylls, även medan Skylab är på väg.
 - **Hämta** i fönstret Universum, med skeppet landat: krediter och Thulium går till ditt konto, erfarenhet och heder till din pilot och bytet till ditt inventarie. Två hämtningar samtidigt betalar en gång.
 - **Bytet** lottas för varje nedgörning ur det utomjordingen tappar, aldrig Dark Matter, Ancient Control Units, N.I.K.E. eller N.U.K.E. Det är **inte säljbart**: det kan inte säljas i [Auktionen](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ Trofélagret förvarar det ditt Skylabs nedgjorda fiender ger tills du hämtar d
 
 | Nivå | Kapacitet (föremål) | Krediter | Thulium | Tid |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (bygget) | 650 | 100 000 | 400 | – |
-| 2 | 810 | 117 500 | 470 | 15 min |
-| 5 | 1 600 | 195 000 | 780 | 34 min |
-| 10 | 4 800 | 450 000 | 1 800 | 2 h 18 min |
-| 15 | 15 000 | 1 025 000 | 4 100 | 9 h 14 min |
-| 20 | 45 000 | 2 325 000 | 9 300 | 1 d 13 h |
+| 1 (bygget) | 1 300 | 100 000 | 400 | – |
+| 2 | 1 600 | 117 500 | 470 | 15 min |
+| 5 | 3 200 | 195 000 | 780 | 34 min |
+| 10 | 9 700 | 450 000 | 1 800 | 2 h 18 min |
+| 15 | 30 000 | 1 025 000 | 4 100 | 9 h 14 min |
+| 20 | 91 000 | 2 325 000 | 9 300 | 1 d 13 h |
 
 Hur lång tid ett lager tar att fylla när Skylab tjänar hela nedgörningsbudgeten för sin försvarsnivå i en cell av den svårighetsgraden, med det byte de utomjordingarna ger (ett mindre lager fylls snabbare, en mindre budget långsammare):
 
 | Försvarsnivå | Lager nivå 1 | Lager nivå 5 | Lager nivå 10 | Lager nivå 15 | Lager nivå 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Vikt och fart {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Vad förhandsvisningen säger, i radernas ordning (varje siffra är serverns, f�
 
 En nedgörning betalar det dess utomjording betalar i din värld: dess krediter, Thulium, erfarenhet och heder gånger världens betalning (1, 2 och 3 i Alpha, Beta och Gamma), och dess byte. Ingenting läggs till: ingen booster, ingen premium, ingen formationsbonus, ingen klanboost och ingen erfarenhet för dina drönare.
 
-Nedgörningarna i timmen är det minsta av tre tak: utomjordingarna som kommer förbi, din Försvarsmoduls nivås **nedgörningsbudget**, och vad dina lasrar och din ammunition klarar. Budgeten är det som håller ett Skylab utan uppsikt som ett komplement till farmerna och inte ett andra jobb: 108, 293, 476, 548 och 630 prispengapoäng i timmen på försvarsnivå 1 till 5, där en poäng är 1 Thulium eller 200 krediter. **En cell betalar efter sin klass**: ett Skylab får det lägsta av sin försvarsnivås budget och cellens svårighets budget, så ett Skylab med Försvar 5 i en cell med svårighet 1 gör där vad ett med Försvar 1 gör.
+Nedgörningarna i timmen är det minsta av tre tak: utomjordingarna som kommer förbi, din Försvarsmoduls nivås **nedgörningsbudget**, och vad dina lasrar och din ammunition klarar. Budgeten är det som håller ett Skylab utan uppsikt som ett komplement till farmerna och inte ett andra jobb: 216, 586, 953, 1 095 och 1 260 prispengapoäng i timmen på försvarsnivå 1 till 5, där en poäng är 1 Thulium eller 200 krediter. **En cell betalar efter sin klass**: ett Skylab får det lägsta av sin försvarsnivås budget och cellens svårighets budget, så ett Skylab med Försvar 5 i en cell med svårighet 1 gör där vad ett med Försvar 1 gör.
 
 Vad en dag i en cell betalar som mest (Alpha; Beta och Gamma betalar 1,6 och 2 gånger så mycket):
 
 | Svårighet | Prispengapoäng i timmen | Nedgjorda per dag | Thulium per dag | Krediter per dag |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1 152 | 288 000 |
-| 2 | 293 | 469 | 3 124 | 780 911 |
-| 3 | 476 | 224 | 5 524 | 1 181 375 |
-| 4 | 548 | 86 | 5 503 | 1 528 510 |
-| 5 | 630 | 32 | 5 255 | 1 972 329 |
+| 1 | 216 | 576 | 2 304 | 576 000 |
+| 2 | 586 | 937 | 6 247 | 1 561 822 |
+| 3 | 953 | 447 | 11 047 | 2 362 749 |
+| 4 | 1 095 | 171 | 11 005 | 3 057 021 |
+| 5 | 1 260 | 63 | 10 511 | 3 944 658 |
 
-En dag i en cell är värd ungefär två timmars handjakt på den cellen (3,4 timmar på svårighet 4). Från svårighet 3 är det ungefär 30 % av vad en Thuliumfarm på kärnnivå 15 ger i Thulium (18 240 per dag) och 0,6 till 1,1 gånger vad en Kreditfarm på den nivån ger i krediter (1 836 000 per dag). En drift med svårighet 2 rymmer färre utomjordingar än budgeten betalar för och ger lite mindre.
+En dag i en cell är värd ungefär fyra timmars handjakt på den cellen (6,9 timmar på svårighet 4). Från svårighet 3 är det ungefär 60 % av vad en Thuliumfarm på kärnnivå 15 ger i Thulium (18 240 per dag) och 1,3 till 2,1 gånger vad en Kreditfarm på den nivån ger i krediter (1 836 000 per dag). En drift med svårighet 2 rymmer färre utomjordingar än budgeten betalar för och ger lite mindre.
 
 **Bytet** från en nedgörning lottas ur det utomjordingen tappar: Ship Fragments, malmer, Reinforced Hull Plates och Power Cores, och från svårighet 5 Ultra Core- och Experimental Fusion Core-ammunition.
 

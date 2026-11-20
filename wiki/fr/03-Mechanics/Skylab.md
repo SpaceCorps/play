@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ Le Module Défense combat pour votre Skylab. Il abrite les lasers qui tirent sur
 - **Ce qui se monte** : des objets [Laser](/wiki/06-Items/Lasers.md) avec leurs amplificateurs dedans, pris dans votre inventaire : un Quantum Laser I, II ou III, un Starfire-III ou un Helios Beam. Tous les lasers tirent ensemble, une munition chacun par seconde. Les amplificateurs comptent comme sur un vaisseau (dégâts, chance de critique et dégâts critiques) ; un Penetration Amp n’apporte rien ici.
 - **Le chargeur** contient des munitions des types de l’Imprimante à munitions et se remplit **uniquement depuis l’Imprimante à munitions**, jamais depuis votre inventaire (voir [Montage et munitions](#fits-and-ammunition)).
 - **La porte** : une cellule de difficulté 3, par exemple, ne peut être franchie que par un Skylab dont le Module Défense est au niveau 3 ou plus. Un Skylab sans Module Défense ne peut traverser que l’espace vide et son port.
-- **Le budget d’éliminations** est le maximum que le Skylab peut gagner par heure : 108 points de prime au niveau 1 et 630 au niveau 5 (voir [Ce que rapporte un voyage](#what-a-trip-pays)).
+- **Le budget d’éliminations** est le maximum que le Skylab peut gagner par heure : 216 points de prime au niveau 1 et 1 260 au niveau 5 (voir [Ce que rapporte un voyage](#what-a-trip-pays)).
 - **La coque** grandit avec le niveau (voir [La coque, la destruction et la réparation](#the-hull-and-repair)).
 - **Recherche** : chaque niveau demande sa propre technologie, Module Défense I à V (voir le tableau plus haut).
 - **Énergie** : 80 au niveau 1, soit 25 % de plus par niveau. Il peut être éteint, mais pas pendant que le Skylab est en route. Un module éteint, en amélioration ou sans énergie est inactif : le Skylab ne combat rien et passe sans combattre.
@@ -293,11 +293,11 @@ Le Module Défense combat pour votre Skylab. Il abrite les lasers qui tirent sur
 
 | Niveau | Lasers | Chargeur (munitions) | Budget d’éliminations (points par heure) | Difficulté maximale |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 500 | 108 | 1 |
-| 2 | 2 | 4 200 | 293 | 2 |
-| 3 | 3 | 16 000 | 476 | 3 |
-| 4 | 4 | 27 000 | 548 | 4 |
-| 5 | 5 | 41 000 | 630 | 5 |
+| 1 | 1 | 3 000 | 216 | 1 |
+| 2 | 2 | 8 300 | 586 | 2 |
+| 3 | 3 | 31 000 | 953 | 3 |
+| 4 | 4 | 53 000 | 1 095 | 4 |
+| 5 | 5 | 80 000 | 1 260 | 5 |
 
 | Niveau | Crédits | Thulium | Plaques | Durée |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ En tout, les trois niveaux coûtent 3 250 000 crédits, 13 000 Thulium, 4 pla
 La Baie des trophées garde ce que rapportent les éliminations de votre Skylab jusqu’à ce que vous le récupériez. Elle a les niveaux 1 à 20 et ne demande aucune technologie.
 
 - **Ce qu’elle contient** : crédits, Thulium, expérience, honneur et le butin des éliminations.
-- **La capacité** se compte en **objets de butin** : seul le butin prend de la place. Les crédits, le Thulium, l’expérience et l’honneur n’en prennent aucune, quelle que soit la quantité que rapportent les éliminations (depuis la 0.4.27 ; avant, la prime d’une élimination remplissait la baie). Elle contient 650 objets au niveau 1 et 45 000 au niveau 20. Un Seeker rapporte environ un objet par élimination : une baie se remplit donc environ dix fois plus lentement qu’avant.
+- **La capacité** se compte en **objets de butin** : seul le butin prend de la place. Les crédits, le Thulium, l’expérience et l’honneur n’en prennent aucune, quelle que soit la quantité que rapportent les éliminations (depuis la 0.4.27 ; avant, la prime d’une élimination remplissait la baie). Elle contient 1 300 objets au niveau 1 et 91 000 au niveau 20. Un Seeker rapporte environ un objet par élimination : une baie se remplit donc environ dix fois plus lentement qu’avant.
 - **Pleine** : une baie pleine fait **cesser le feu** au Skylab : rien n’est éliminé, payé ni compté et aucune munition n’est dépensée jusqu’à ce que vous récupériez (la coque continue de se régénérer). Un message, une notification, une pastille ambre **Baie pleine** dans la barre de la station, un avis sur la page du Skylab et l’info-bulle de la ligne Skylab de la barre latérale l’indiquent, à l’instant où elle se remplit, aussi pendant que le Skylab est en route.
 - **Récupérer** dans la fenêtre Univers, vaisseau amarré : les crédits et le Thulium vont sur votre compte, l’expérience et l’honneur à votre pilote et le butin dans votre inventaire. Deux récupérations simultanées ne paient qu’une fois.
 - **Le butin** est tiré pour chaque élimination d’après ce que laisse l’alien, jamais de Dark Matter, d’Ancient Control Units, de N.I.K.E. ni de N.U.K.E. Il est **non vendable** : il ne peut pas être vendu aux [Enchères](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ La Baie des trophées garde ce que rapportent les éliminations de votre Skylab 
 
 | Niveau | Capacité (objets) | Crédits | Thulium | Durée |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (la construction) | 650 | 100 000 | 400 | – |
-| 2 | 810 | 117 500 | 470 | 15 min |
-| 5 | 1 600 | 195 000 | 780 | 34 min |
-| 10 | 4 800 | 450 000 | 1 800 | 2 h 18 min |
-| 15 | 15 000 | 1 025 000 | 4 100 | 9 h 14 min |
-| 20 | 45 000 | 2 325 000 | 9 300 | 1 d 13 h |
+| 1 (la construction) | 1 300 | 100 000 | 400 | – |
+| 2 | 1 600 | 117 500 | 470 | 15 min |
+| 5 | 3 200 | 195 000 | 780 | 34 min |
+| 10 | 9 700 | 450 000 | 1 800 | 2 h 18 min |
+| 15 | 30 000 | 1 025 000 | 4 100 | 9 h 14 min |
+| 20 | 91 000 | 2 325 000 | 9 300 | 1 d 13 h |
 
 Le temps que met une baie à se remplir quand le Skylab gagne tout le budget d’éliminations de son niveau de défense dans une cellule de cette difficulté, avec le butin que rapportent ces aliens (une baie plus petite se remplit plus vite, un budget plus petit plus lentement) :
 
 | Niveau de défense | Baie niveau 1 | Baie niveau 5 | Baie niveau 10 | Baie niveau 15 | Baie niveau 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Poids et vitesse {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Au-dessus des lignes, un **avertissement** signale quand le voyage ne rapportera
 
 Une élimination rapporte ce que rapporte son alien dans votre monde : ses crédits, son Thulium, son expérience et son honneur multipliés par la paie du monde (1, 2 et 3 en Alpha, Beta et Gamma), et son butin. Rien ne s’y ajoute : ni booster, ni premium, ni bonus de formation, ni boost de clan, ni expérience pour vos drones.
 
-Les éliminations par heure sont la plus petite de trois limites : les aliens de passage, le **budget d’éliminations** du niveau de votre Module Défense, et ce que vos lasers et vos munitions peuvent faire. Le budget garde un Skylab sans surveillance comme un complément des fermes et non comme un second emploi : 108, 293, 476, 548 et 630 points de prime par heure aux niveaux de défense 1 à 5, où un point vaut 1 Thulium ou 200 crédits. **Une cellule paie selon son palier** : un Skylab touche le plus bas entre le budget de son niveau de défense et celui de la difficulté de la cellule, donc un Skylab de Défense 5 dans une cellule de difficulté 1 y gagne ce que gagne un Skylab de Défense 1.
+Les éliminations par heure sont la plus petite de trois limites : les aliens de passage, le **budget d’éliminations** du niveau de votre Module Défense, et ce que vos lasers et vos munitions peuvent faire. Le budget garde un Skylab sans surveillance comme un complément des fermes et non comme un second emploi : 216, 586, 953, 1 095 et 1 260 points de prime par heure aux niveaux de défense 1 à 5, où un point vaut 1 Thulium ou 200 crédits. **Une cellule paie selon son palier** : un Skylab touche le plus bas entre le budget de son niveau de défense et celui de la difficulté de la cellule, donc un Skylab de Défense 5 dans une cellule de difficulté 1 y gagne ce que gagne un Skylab de Défense 1.
 
 Ce que rapporte au plus un jour dans une cellule (Alpha ; Beta et Gamma paient 1,6 et 2 fois plus) :
 
 | Difficulté | Points de prime par heure | Éliminations par jour | Thulium par jour | Crédits par jour |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1 152 | 288 000 |
-| 2 | 293 | 469 | 3 124 | 780 911 |
-| 3 | 476 | 224 | 5 524 | 1 181 375 |
-| 4 | 548 | 86 | 5 503 | 1 528 510 |
-| 5 | 630 | 32 | 5 255 | 1 972 329 |
+| 1 | 216 | 576 | 2 304 | 576 000 |
+| 2 | 586 | 937 | 6 247 | 1 561 822 |
+| 3 | 953 | 447 | 11 047 | 2 362 749 |
+| 4 | 1 095 | 171 | 11 005 | 3 057 021 |
+| 5 | 1 260 | 63 | 10 511 | 3 944 658 |
 
-Un jour dans une cellule vaut environ deux heures de chasse à la main dans cette cellule (3,4 heures en difficulté 4). À partir de la difficulté 3, c’est environ 30 % de ce que fait en Thulium une Ferme à Thulium au niveau 15 du Noyau (18 240 par jour) et 0,6 à 1,1 fois ce que fait en crédits une Ferme à crédits de ce niveau (1 836 000 par jour). Une dérive de difficulté 2 contient moins d’aliens que son budget n’en paie et rapporte un peu moins.
+Un jour dans une cellule vaut environ quatre heures de chasse à la main dans cette cellule (6,9 heures en difficulté 4). À partir de la difficulté 3, c’est environ 60 % de ce que fait en Thulium une Ferme à Thulium au niveau 15 du Noyau (18 240 par jour) et 1,3 à 2,1 fois ce que fait en crédits une Ferme à crédits de ce niveau (1 836 000 par jour). Une dérive de difficulté 2 contient moins d’aliens que son budget n’en paie et rapporte un peu moins.
 
 Le **butin** d’une élimination est tiré d’après ce que laisse son alien : Ship Fragments, minerais, Reinforced Hull Plates et Power Cores, et, à partir de la difficulté 5, des munitions Ultra Core et Experimental Fusion Core.
 

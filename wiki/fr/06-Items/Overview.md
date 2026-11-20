@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Aperçu -->
 # Aperçu des objets {#items-overview}
 
@@ -97,7 +97,7 @@ L’équipement porte un **enchantement** : un rang qui lui permet de porter ju
 
 - Les objets de la boutique sont toujours Standard. L’équipement que vous fabriquez à l’Assemblage tire un rang quand vous le récupérez (la colonne des probabilités). Au-delà, le rang monte dans la [Forge](/wiki/06-Items/Forge.md), une étape à la fois ; la seule autre voie est une amélioration de module à l’Assemblage (un Damage Amp IV, un Crit Amp IV, une cellule de bouclier ou un propulseur de palier II à IV, un Heavy Shield Core, un Engine II ou III, un Adaptive Core II ou III, un Quantum Laser III, un Starfire-III, le Helios Beam), qui garde le rang de la pièce à partir de laquelle l’objet est fabriqué.
 - Un objet ne porte jamais plus de bonus qu’il n’a de stats : un bouclier en a quatre, un laser trois, un moteur, un Momentum Thruster ou un cœur adaptatif deux, un Impulse Thruster, un Crit Amp I, un Repair Drone ou un blindage de coque un (un Impulse Thruster n’a que sa vitesse fixe à améliorer : la Forge ne tire aucun bonus sur son multiplicateur de x1,017 à x1,03, qui ne vaudrait presque rien), les amplis critiques de niveau supérieur deux, les amplis de dégâts et les cellules de bouclier trois. La limite du rang est le plus petit des deux nombres. Un Penetration Amp n’a qu’une seule stat, il porte donc un seul bonus.
-- Chaque étape de la [Forge](/wiki/06-Items/Forge.md#buffs-by-tier) réussit toujours et éveille un emplacement de plus dans l’objet, donc un rang contient au plus ce nombre de bonus (un objet Résonant a deux emplacements) ; un bonus entre dans un emplacement quand vous l’accordez avec un Echo Shard.
+- Chaque étape de la [Forge](/wiki/06-Items/Forge.md#buffs-by-tier) réussit toujours et éveille un emplacement de plus dans l’objet, donc un rang contient au plus ce nombre de bonus (un objet Résonant a deux emplacements) ; un bonus entre dans un emplacement quand vous l’accordez avec un Echo Shard ou, avec 25 % de chances à chaque étape, gratuitement.
 - Un bonus de **portée** ne dépasse jamais +5 %, quel que soit le rang.
 - Les bonus restent petits face à l’objet du dessus : un Quantum Laser I avec tous ses bonus au maximum fait toujours moins de dégâts qu’un Quantum Laser II ordinaire.
 

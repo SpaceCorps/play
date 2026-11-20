@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 82acce8e49f71c02 -->
+<!-- wiki-i18n source: 8e41ef1c4ec70160 -->
 <!-- wiki-i18n title: Invita amici -->
 # Invita amici {#invite-friends}
 
@@ -7,7 +7,7 @@ Ogni pilota ha un **codice invito** personale. Un amico nuovo nel gioco lo usa u
 ## Il tuo codice {#your-code}
 
 - Apri **Comunità › Invita amici** per vedere il tuo codice, scritto come `BCDF-GHJK`. Viene creato la prima volta che guardi ed è tuo per sempre: non cambia mai e nessun altro lo vede.
-- **Copia codice** mette il codice negli appunti; **Copia messaggio** ci mette un breve testo, pronto da incollare per un amico: il nome del gioco, il tuo codice e dove inserirlo (e, fuori da Steam, dove scaricare il gioco). Nella versione Steam il messaggio omette l’indirizzo di download.
+- **Copia codice** mette il codice negli appunti; **Copia messaggio** ci mette un breve testo, pronto da incollare per un amico: il nome del gioco, il tuo codice e dove inserirlo (e, fuori da Steam e iOS, dove scaricare il gioco). Nella versione Steam e nell’app iOS il messaggio omette l’indirizzo di download.
 - Puoi digitare un codice in maiuscolo o in minuscolo, con o senza il trattino.
 
 ## Cosa riceve un amico {#what-a-friend-gets}

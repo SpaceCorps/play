@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Áttekintés -->
 # Tárgyak áttekintése {#items-overview}
 
@@ -97,7 +97,7 @@ A felszerelés **bűvölést** hordoz: egy fokozatot, amely lehetővé teszi, ho
 
 - A Bolt tárgyai mindig Normál fokozatúak. A Gyártásban készített felszerelés az átvételkor véletlenszerű fokozatot kap (lásd az esély oszlopot). Efelett a fokozat a [Kovácsműhelyben](/wiki/06-Items/Forge.md) emelkedik, lépésenként; az egyetlen másik út a Gyártás modulfejlesztése (Damage Amp IV, Crit Amp IV, a II–IV. szintű pajzscellák és fúvókák, Heavy Shield Core, Engine II vagy III, Adaptive Core II vagy III, Quantum Laser III, Starfire-III, Helios Beam), amely megtartja annak a darabnak a fokozatát, amelyből készül.
 - Egy tárgy sosem bír több bónuszt, mint ahány jellemzője van: egy pajzsmagnak négy, egy lézernek három, egy hajtóműnek, egy Momentum Thrusternek vagy egy adaptív magnak kettő, egy Impulse Thrusternek, egy Crit Amp I-nek, egy Repair Drone-nak vagy egy hajótest-páncélzatnak egy (az Impulse Thrusternek csak a fix sebessége erősíthető: az x1,017–x1,03 szorzójára a Kovácsműhely nem sorsol bónuszt, szinte semmit sem érne), a magasabb kritikus erősítőknek kettő, a sebzéserősítőknek és a pajzscelláknak három. A fokozat korlátja a két szám közül a kisebb. A Penetration Ampnek egyetlen értéke van, ezért egyetlen buffot hordoz.
-- A [Kovácsműhely](/wiki/06-Items/Forge.md#buffs-by-tier) minden lépése mindig sikerül, és felébreszt egy újabb foglalatot a tárgyban, így egy fokozat legfeljebb ennyi bónuszt fog (egy Rezonáns fokozatú tárgynak két foglalata van); a bónusz akkor kerül egy foglalatba, amikor egy Echo Shard-dal behangolod.
+- A [Kovácsműhely](/wiki/06-Items/Forge.md#buffs-by-tier) minden lépése mindig sikerül, és felébreszt egy újabb foglalatot a tárgyban, így egy fokozat legfeljebb ennyi bónuszt fog (egy Rezonáns fokozatú tárgynak két foglalata van); a bónusz akkor kerül egy foglalatba, amikor egy Echo Shard-dal behangolod, vagy minden lépésnél 25%-os eséllyel ingyen.
 - A **Hatótáv** bónusz egyetlen fokozaton sem lépi át a +5%-ot.
 - A bónuszok kicsik maradnak a következő, jobb tárgyhoz képest: egy maximális bónuszokkal bíró Quantum Laser I is kevesebbet sebez, mint egy sima Quantum Laser II.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Containrar -->
 # Containrar {#containers}
 
@@ -7,13 +7,13 @@
 En **container** är ett förseglat fynd från Mission Control. När du öppnar en drar servern en belöning ur en tabell, och chansen för varje belöning i den tabellen står på den här sidan. Spelets Containrar-sida visar samma tabell.
 
 > [!NOTE]
-> **Containrar är slumpmässiga belöningar som du förtjänar i spelet. De säljs aldrig, och oddsen är publicerade här.** Ingen container kan köpas, bytas eller ges bort.
+> **Containrar är slumpmässiga belöningar, och oddsen är publicerade här.** Du förtjänar dem i spelet, och ingen container säljs för sig. Det enda undantaget är Kromaarkivet, som bara innehåller utseenden: Premium ger 5 stycken för varje månad. Premium-dagar som kommer som belöning ger inga. Ingen container kan bytas eller ges bort.
 
 ## Vad en container är {#what-a-container-is}
 
-- **Förtjänad.** Du förtjänar containrar i spelet. Det finns inget pris och ingen nyckel: Butiken säljer dem inte och ingen annan heller.
+- **Förtjänad.** Du förtjänar containrar i spelet. Det finns inget pris och ingen nyckel: Butiken säljer dem inte. Det enda andra sättet är de 5 Kromaarkiv som Premium ger för varje månad (Premium-dagar som kommer som belöning ger inga).
 - **Bara din.** En container är bunden till ditt konto. Du kan inte byta den, ge den till en vän eller lägga ut den på [Auktionen](/wiki/03-Mechanics/Auction.md), och inget en container ger kan läggas ut där heller.
-- **Lika för varje pilot.** Premium ändrar ingenting: det ger inga extra öppningar och inga bättre chanser.
+- **Lika för varje pilot.** Premium ger inga extra öppningar och inga bättre chanser. Det Premium ger för varje månad är 5 Kromaarkiv, och de innehåller bara utseenden.
 - **Behålls genom wipen.** En container du inte har öppnat ligger kvar på ditt konto när [wipen](/wiki/03-Mechanics/Wipe-Timeline.md) kommer. Vad wipen gör med belöningarna står under [Wipen](#the-wipe).
 - **Öppnas på stationen.** Du öppnar en container dockad, på Containrar-sidan. Servern drar belöningen när du trycker på Öppna, och själva tryckandet ändrar ingenting. Vad som räknas står under [Hur en belöning väljs](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ Containrar når dig på de här sätten:
 - Som belöning för din grad vid wipen
 - I inloggningskalendern
 - För prestationer
+- För var 30:e dag Premium: 5 Kromaarkiv, som bara innehåller utseenden
 
 <!-- containers-sources:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 82acce8e49f71c02 -->
+<!-- wiki-i18n source: 8e41ef1c4ec70160 -->
 <!-- wiki-i18n title: Bjud in vänner -->
 # Bjud in vänner {#invite-friends}
 
@@ -7,7 +7,7 @@ Varje pilot har en personlig **inbjudningskod**. En vän som är ny i spelet anv
 ## Din kod {#your-code}
 
 - Öppna **Gemenskap › Bjud in vänner** för att se din kod, skriven som `BCDF-GHJK`. Den skapas första gången du tittar och är din för alltid: den ändras aldrig, och ingen annan ser den.
-- **Kopiera kod** lägger koden i urklipp; **Kopiera inbjudan** lägger en kort text där, redo att klistras in till en vän: spelets namn, din kod och var den ska skrivas in (och, utanför Steam, var man hämtar spelet). I Steam-versionen utelämnar meddelandet nedladdningsadressen.
+- **Kopiera kod** lägger koden i urklipp; **Kopiera inbjudan** lägger en kort text där, redo att klistras in till en vän: spelets namn, din kod och var den ska skrivas in (och, utanför Steam och iOS, var man hämtar spelet). I Steam-versionen och i iOS-appen utelämnar meddelandet nedladdningsadressen.
 - Du kan skriva in en kod med stora eller små bokstäver, med eller utan bindestreck.
 
 ## Vad en vän får {#what-a-friend-gets}

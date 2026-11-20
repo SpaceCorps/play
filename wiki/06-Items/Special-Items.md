@@ -66,7 +66,7 @@ Raises **one piece of equipment by one Forge tier**. It **always works** and cos
 
 - **From Standard on.** The piece may be at any tier below Ascendant: even the first step, Standard to Awakened, takes a Badge.
 - **One step.** A Badge on a Standard piece makes it Awakened, on an Awakened piece Resonant, on a Resonant piece Radiant, on a Radiant piece Ascendant.
-- **The buffs are rolled as in the Forge.** Each buff the piece holds is rolled again in the new tier's range and the better value is kept, and a socket wakes, so a Badge piece is like a Forge piece.
+- **The buffs are rolled as in the Forge.** Each buff the piece holds is rolled again in the new tier's range and the better value is kept, and a socket wakes, and the free buff of a step up (a 25% chance) is rolled too, so a Badge piece is like a Forge piece.
 - **The Forge's other rules hold.** One single piece that can carry buffs; not in the Transport Cache; not already Ascendant. A piece on a ship works at its new tier at once, and it keeps its Marketable label.
 - You find it as a second button beside **Tier up** in the Forge, shown when you hold a Badge and the picked piece qualifies.
 

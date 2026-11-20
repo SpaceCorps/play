@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ Savunma Modülü Skylab’ın için savaşır. Skylab’ının uçtuğu hücrele
 - **Ne takılır**: envanterinden, amfileri içinde olan [Lazer](/wiki/06-Items/Lasers.md) eşyaları: Quantum Laser I, II veya III, Starfire-III ya da Helios Beam. Tüm lazerler birlikte ateş eder, her biri saniyede bir mermi. Amfiler gemideki gibi sayılır (hasar, kritik şans ve kritik hasar); Penetration Amp burada hiçbir şey eklemez.
 - **Şarjör**, Cephane Yazıcısı’nın bastığı türden mermileri tutar ve **yalnızca Cephane Yazıcısı’ndan** dolar, envanterinden asla (bkz. [Takılanlar ve cephane](#fits-and-ammunition)).
 - **Kapı**: örneğin zorluğu 3 olan bir hücreye yalnızca Savunma Modülü 3. seviyede veya üstünde olan bir Skylab girebilir. Savunma Modülü olmayan bir Skylab yalnızca boş uzaya ve limanına girebilir.
-- **Öldürme bütçesi**, Skylab’ın saatte kazanabileceği en fazla miktardır: 1. seviyede 108, 5. seviyede 630 ödül puanı (bkz. [Bir seferin ödemesi](#what-a-trip-pays)).
+- **Öldürme bütçesi**, Skylab’ın saatte kazanabileceği en fazla miktardır: 1. seviyede 216, 5. seviyede 1.260 ödül puanı (bkz. [Bir seferin ödemesi](#what-a-trip-pays)).
 - **Gövde** seviyeyle büyür (bkz. [Gövde, yok oluş ve onarım](#the-hull-and-repair)).
 - **Araştırma**: her seviye kendi teknolojisini ister: Defense Module I ile V arası (bkz. yukarıdaki tablo).
 - **Güç**: 1. seviyede 80, seviye başına %25 artar. Kapatılabilir, ama Skylab yoldayken değil. Kapalı, yükseltilen veya gücü olmayan bir modül devre dışıdır: Skylab hiçbir şeyle savaşmaz ve hücreleri savaşmadan geçer.
@@ -293,11 +293,11 @@ Savunma Modülü Skylab’ın için savaşır. Skylab’ının uçtuğu hücrele
 
 | Seviye | Lazer | Şarjör (mermi) | Öldürme bütçesi (saatte puan) | En yüksek zorluk |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.500 | 108 | 1 |
-| 2 | 2 | 4.200 | 293 | 2 |
-| 3 | 3 | 16.000 | 476 | 3 |
-| 4 | 4 | 27.000 | 548 | 4 |
-| 5 | 5 | 41.000 | 630 | 5 |
+| 1 | 1 | 3.000 | 216 | 1 |
+| 2 | 2 | 8.300 | 586 | 2 |
+| 3 | 3 | 31.000 | 953 | 3 |
+| 4 | 4 | 53.000 | 1.095 | 4 |
+| 5 | 5 | 80.000 | 1.260 | 5 |
 
 | Seviye | Kredi | Thulium | Plaka | Süre |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ Radar Modülü evren haritasının sisini kaldırır (bkz. [Sis ve tarama](#fog-
 Trofe Bölmesi, Skylab’ının öldürmelerinin getirdiklerini sen toplayana kadar saklar. 1’den 20’ye kadar seviyeleri vardır ve teknoloji gerektirmez.
 
 - **Ne tutar**: kredi, Thulium, deneyim, onur ve öldürmelerin ganimeti.
-- **Kapasite**, **ganimet eşyası** cinsinden sayılır: yalnızca ganimet yer kaplar. Kredi, Thulium, deneyim ve onur, öldürmeler ne kadarını getirirse getirsin hiç yer kaplamaz (0.4.27’den beri; önceden bir öldürmenin ödülü Bölmeyi doldururdu). 1. seviyede 650, 20. seviyede 45.000 eşya tutar. Bir Seeker öldürme başına yaklaşık bir eşya getirir; bu yüzden bir Bölme eskisinden yaklaşık on kat daha yavaş dolar.
+- **Kapasite**, **ganimet eşyası** cinsinden sayılır: yalnızca ganimet yer kaplar. Kredi, Thulium, deneyim ve onur, öldürmeler ne kadarını getirirse getirsin hiç yer kaplamaz (0.4.27’den beri; önceden bir öldürmenin ödülü Bölmeyi doldururdu). 1. seviyede 1.300, 20. seviyede 91.000 eşya tutar. Bir Seeker öldürme başına yaklaşık bir eşya getirir; bu yüzden bir Bölme eskisinden yaklaşık on kat daha yavaş dolar.
 - **Dolu**: dolu bir Bölme Skylab’ın **ateşi kesmesine** yol açar: sen toplayana kadar hiçbir şey öldürülmez, ödenmez ya da sayılmaz ve hiç cephane harcanmaz (gövde yine de onarılır). Bir mesaj, bir bildirim, istasyon çubuğunda kehribar renkli **Bölme dolu** rozeti, Skylab sayfasında bir uyarı ve kenar çubuğundaki Skylab satırının ipucu bunu söyler; dolduğu anda, Skylab yoldayken de.
 - **Topla** Evren penceresinde, geminin park halindeyken yapılır: kredi ve Thulium hesabına, deneyim ve onur pilotuna, ganimet envanterine gider. Aynı anda iki toplama bir kez öder.
 - **Ganimet** her öldürme için uzaylının düşürdüklerinden çekilir; asla Dark Matter, Ancient Control Unit, N.I.K.E. veya N.U.K.E. çıkmaz. **Satılabilir değil**: [pazarda](/wiki/03-Mechanics/Auction.md#marketable-items) satılamaz.
@@ -343,22 +343,22 @@ Trofe Bölmesi, Skylab’ının öldürmelerinin getirdiklerini sen toplayana ka
 
 | Seviye | Kapasite (eşya) | Kredi | Thulium | Süre |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (inşa) | 650 | 100.000 | 400 | – |
-| 2 | 810 | 117.500 | 470 | 15 dk |
-| 5 | 1.600 | 195.000 | 780 | 34 dk |
-| 10 | 4.800 | 450.000 | 1.800 | 2 sa 18 dk |
-| 15 | 15.000 | 1.025.000 | 4.100 | 9 sa 14 dk |
-| 20 | 45.000 | 2.325.000 | 9.300 | 1 g 13 sa |
+| 1 (inşa) | 1.300 | 100.000 | 400 | – |
+| 2 | 1.600 | 117.500 | 470 | 15 dk |
+| 5 | 3.200 | 195.000 | 780 | 34 dk |
+| 10 | 9.700 | 450.000 | 1.800 | 2 sa 18 dk |
+| 15 | 30.000 | 1.025.000 | 4.100 | 9 sa 14 dk |
+| 20 | 91.000 | 2.325.000 | 9.300 | 1 g 13 sa |
 
 Skylab, Savunma seviyesinin öldürme bütçesinin tamamını o zorlukta bir hücrede ve o uzaylıların getirdiği ganimetle kazanırken bir Bölmenin dolması ne kadar sürer (daha küçük bir Bölme daha hızlı, daha küçük bir bütçe daha yavaş dolar):
 
 | Savunma seviyesi | Bölme 1. seviye | Bölme 5. seviye | Bölme 10. seviye | Bölme 15. seviye | Bölme 20. seviye |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 g 9 sa | 5 g 20 sa | 17 g 13 sa | 54 g 20 sa | 164 g 11 sa |
-| 2 | 21 sa 15 dk | 2 g 4 sa | 6 g 13 sa | 20 g 10 sa | 61 g 7 sa |
-| 3 | 15 sa 13 dk | 1 g 13 sa | 4 g 16 sa | 14 g 15 sa | 43 g 22 sa |
-| 4 | 19 sa 50 dk | 2 g 1 sa | 6 g 3 sa | 19 g 2 sa | 57 g 6 sa |
-| 5 | 12 sa 13 dk | 1 g 6 sa | 3 g 18 sa | 11 g 18 sa | 35 g 6 sa |
+| 1 | 2 g 9 sa | 5 g 20 sa | 17 g 17 sa | 54 g 20 sa | 166 g 7 sa |
+| 2 | 21 sa 15 dk | 2 g 4 sa | 6 g 15 sa | 20 g 10 sa | 62 g |
+| 3 | 15 sa 13 dk | 1 g 13 sa | 4 g 18 sa | 14 g 15 sa | 44 g 9 sa |
+| 4 | 19 sa 50 dk | 2 g 1 sa | 6 g 4 sa | 19 g 2 sa | 57 g 21 sa |
+| 5 | 12 sa 13 dk | 1 g 6 sa | 3 g 19 sa | 11 g 18 sa | 35 g 15 sa |
 
 ## Ağırlık ve hız {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Satırların üstünde bir **uyarı**, seferin ne zaman hiçbir şey kazandırma
 
 Bir öldürme, uzaylısının senin dünyanda ödediğini öder: kredi, Thulium, deneyim ve onur, dünyanın çarpanıyla çarpılmış olarak (Alpha, Beta ve Gamma dünyalarında sırasıyla 1, 2 ve 3), bir de ganimeti. Hiçbir şey eklenmez: booster yok, premium yok, formasyon bonusu yok, klan güçlendirmesi yok ve dronların için deneyim yok.
 
-Saatlik öldürme, üç sınırın en düşüğüdür: uğrayan uzaylılar, Savunma Modülü’nün seviyesinin **öldürme bütçesi** ve lazerlerinle cephanenin yapabildiği. Bütçe, sen yokken çalışan bir Skylab’ı çiftliklere ek bir gelir olarak tutan ve ikinci bir işe dönüşmesini engelleyen şeydir: Savunma seviyeleri 1 ila 5’te saatte 108, 293, 476, 548 ve 630 ödül puanı; bir puan 1 Thulium ya da 200 kredidir. **Bir hücre zorluğuna göre öder**: Skylab, Savunma seviyesinin bütçesi ile hücrenin zorluğunun bütçesinden düşük olanı alır; yani zorluğu 1 olan bir hücredeki Savunma 5 Skylab, orada Savunma 1 bir Skylab’ın kazandığını kazanır.
+Saatlik öldürme, üç sınırın en düşüğüdür: uğrayan uzaylılar, Savunma Modülü’nün seviyesinin **öldürme bütçesi** ve lazerlerinle cephanenin yapabildiği. Bütçe, sen yokken çalışan bir Skylab’ı çiftliklere ek bir gelir olarak tutan ve ikinci bir işe dönüşmesini engelleyen şeydir: Savunma seviyeleri 1 ila 5’te saatte 216, 586, 953, 1.095 ve 1.260 ödül puanı; bir puan 1 Thulium ya da 200 kredidir. **Bir hücre zorluğuna göre öder**: Skylab, Savunma seviyesinin bütçesi ile hücrenin zorluğunun bütçesinden düşük olanı alır; yani zorluğu 1 olan bir hücredeki Savunma 5 Skylab, orada Savunma 1 bir Skylab’ın kazandığını kazanır.
 
 Bir hücrede bir günün en fazla ne ödediği (Alpha Dünyası; Beta ve Gamma dünyaları 1,6 ve 2 kat öder):
 
 | Zorluk | Saatlik ödül puanı | Günlük öldürme | Günlük Thulium | Günlük kredi |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1.152 | 288.000 |
-| 2 | 293 | 469 | 3.124 | 780.911 |
-| 3 | 476 | 224 | 5.524 | 1.181.375 |
-| 4 | 548 | 86 | 5.503 | 1.528.510 |
-| 5 | 630 | 32 | 5.255 | 1.972.329 |
+| 1 | 216 | 576 | 2.304 | 576.000 |
+| 2 | 586 | 937 | 6.247 | 1.561.822 |
+| 3 | 953 | 447 | 11.047 | 2.362.749 |
+| 4 | 1.095 | 171 | 11.005 | 3.057.021 |
+| 5 | 1.260 | 63 | 10.511 | 3.944.658 |
 
-Bir hücrede bir gün, o hücreyi elle avlamanın yaklaşık iki saatine değer (zorluk 4’te 3,4 saat). Zorluk 3’ten itibaren bu, Çekirdek 15. seviyedeki bir Thulium Çiftliği’nin ürettiği Thulium miktarının (günde 18.240) yaklaşık %30’udur ve o seviyedeki bir Kredi Çiftliği’nin ürettiği kredinin (günde 1.836.000) 0,6 ila 1,1 katıdır. Zorluk 2 olan bir sürüklenme, bütçesinin ödeyeceğinden az uzaylı barındırır ve biraz daha az kazandırır.
+Bir hücrede bir gün, o hücreyi elle avlamanın yaklaşık dört saatine değer (zorluk 4’te 6,9 saat). Zorluk 3’ten itibaren bu, Çekirdek 15. seviyedeki bir Thulium Çiftliği’nin ürettiği Thulium miktarının (günde 18.240) yaklaşık %60’ıdır ve o seviyedeki bir Kredi Çiftliği’nin ürettiği kredinin (günde 1.836.000) 1,3 ila 2,1 katıdır. Zorluk 2 olan bir sürüklenme, bütçesinin ödeyeceğinden az uzaylı barındırır ve biraz daha az kazandırır.
 
 Bir öldürmenin **ganimeti**, uzaylısının düşürdüklerinden çekilir: Ship Fragment, cevherler, Reinforced Hull Plate ve Power Core; zorluk 5’ten itibaren de Ultra Core ve Experimental Fusion Core cephanesi.
 

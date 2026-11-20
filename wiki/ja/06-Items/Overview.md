@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: 概要 -->
 # アイテム概要 {#items-overview}
 
@@ -97,7 +97,7 @@ Goombah 1体が平均して落とすのは、Cataclysite 4個、Ship Fragment 3.
 
 - ショップのアイテムは常に標準です。アセンブリで製作した装備は、受け取るときに段階が決まります（確率の列）。それより上の段階へは、[鍛冶場](/wiki/06-Items/Forge.md)で1段階ずつ上げていきます。もう1つの方法は、アセンブリでのモジュールの強化（Damage Amp IV、Crit Amp IV、ティアII～IVのシールドセルとスラスター、Heavy Shield Core、Engine II と III、Adaptive Core II と III、Quantum Laser III、Starfire-III、Helios Beam）で、これは元の部品の段階を引き継ぎます。
 - アイテムは、自身が持つステータスの数を超えるボーナスを持てません。シールドコアは4つ、レーザーは3つ、エンジン、Momentum Thruster、アダプティブコアは2つ、Impulse Thruster、Crit Amp I、Repair Drone、船体装甲は1つ（Impulse Thruster は強化できるのが固定の速度だけです。1.017～1.03倍の倍率には鍛冶場はボーナスを付けません。効果はほとんどないからです）、それより上位のクリティカルアンプは2つ、ダメージアンプとシールドセルは3つです。段階の上限は、この2つの数のうち小さい方です。Penetration Amp のステータスは1つだけなので、ボーナスも1つしか持てません。
-- [鍛冶場](/wiki/06-Items/Forge.md#buffs-by-tier)の各段階は必ず成功し、アイテムのソケットが1つ目覚めるので、段階が持てるボーナスの数には上限があります（共鳴のアイテムはソケットが2つ）。ボーナスは、Echo Shard でソケットを調律すると入ります。
+- [鍛冶場](/wiki/06-Items/Forge.md#buffs-by-tier)の各段階は必ず成功し、アイテムのソケットが1つ目覚めるので、段階が持てるボーナスの数には上限があります（共鳴のアイテムはソケットが2つ）。ボーナスは、Echo Shard でソケットを調律するか、各ステップで25%の確率で無料で付くと入ります。
 - **射程**のボーナスは、どの段階でも +5% を超えません。
 - ボーナスは、1つ上のアイテムと比べると小さいままです。ボーナスを最大まで付けた Quantum Laser I でも、標準の Quantum Laser II よりダメージは低くなります。
 

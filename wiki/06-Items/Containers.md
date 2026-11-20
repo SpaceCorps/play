@@ -5,13 +5,13 @@
 A **container** is a sealed find from Mission Control. When you open one, the server draws one prize from a table, and the chance of every prize in that table is printed on this page. The Containers page of the game shows the same table.
 
 > [!NOTE]
-> **Containers are random rewards earned in the game. They are never sold, and the odds are published here.** No container can be bought, traded or given away.
+> **Containers are random rewards, and the odds are published here.** You earn them in the game, and no container is sold on its own. The one exception is the Chroma Archive, which holds looks only: Premium brings 5 of them with every month of it. Premium days that come as a reward bring none. No container can be traded or given away.
 
 ## What a container is
 
-- **Earned.** You earn containers in the game. There is no price and no key: the Shop does not sell them and nothing else does.
+- **Earned.** You earn containers in the game. There is no price and no key: the Shop does not sell them. The only other way is the 5 Chroma Archives that Premium brings with every month of it (Premium days that come as a reward bring none).
 - **Yours alone.** A container is bound to your account. You can not trade it, give it to a friend or list it on the [Auction](/wiki/03-Mechanics/Auction.md), and nothing a container gives can be listed there either.
-- **The same for every pilot.** Premium changes nothing: it gives no extra openings and no better chances.
+- **The same for every pilot.** Premium gives no extra openings and no better chances. What Premium brings with every month of it is 5 Chroma Archives, and they hold looks only.
 - **Kept through the wipe.** A container you have not opened stays on your account when the [wipe](/wiki/03-Mechanics/Wipe-Timeline.md) comes. What the wipe does to the prizes is under [The wipe](#the-wipe).
 - **Opened at the station.** You open a container docked, on the Containers page. The server draws the prize when you press Open, and the press itself changes nothing. What does count is under [How a prize is chosen](#how-a-prize-is-chosen).
 
@@ -26,6 +26,7 @@ Containers reach you in these ways:
 - As a reward for your rank at the wipe
 - In the login calendar
 - For achievements
+- With every 30 days of Premium: 5 Chroma Archives, which hold looks only
 
 <!-- containers-sources:end -->
 

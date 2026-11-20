@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Visão geral -->
 # Visão geral dos itens {#items-overview}
 
@@ -97,7 +97,7 @@ O equipamento traz um **Encantamento**: um grau que permite que ele comporte at�
 
 - Os itens da Loja são sempre Padrão. O equipamento que você constrói na Montagem sorteia um grau quando você o coleta (a coluna de chance). Acima disso, o grau sobe na [Forja](/wiki/06-Items/Forge.md), uma etapa de cada vez; o único outro caminho é uma melhoria de módulo na Montagem (um Damage Amp IV, um Crit Amp IV, uma célula de escudo ou um propulsor de nível II a IV, um Heavy Shield Core, um Engine II ou III, um Adaptive Core II ou III, um Quantum Laser III, um Starfire-III, o Helios Beam), que mantém o grau da peça a partir da qual é feita.
 - Um item nunca comporta mais bônus do que tem atributos: um núcleo de escudo tem quatro, um laser três, um motor, um Momentum Thruster ou um núcleo adaptativo dois, um Impulse Thruster, um Crit Amp I, um Repair Drone ou uma blindagem de casco um (um Impulse Thruster só tem a velocidade fixa para melhorar: a Forja não sorteia bônus para o multiplicador dele, de x1,017 a x1,03, que não valeria quase nada), os amps de crítico mais altos dois, os amps de dano e as células de escudo três. O limite do grau é o menor dos dois números. Um Penetration Amp tem um único atributo, então leva um único bônus.
-- Cada etapa da [Forja](/wiki/06-Items/Forge.md#buffs-by-tier) sempre funciona e desperta mais um soquete no item, então um grau comporta no máximo essa quantidade de bônus (um item Ressonante tem dois soquetes); um bônus entra em um soquete quando você o sintoniza com um Echo Shard.
+- Cada etapa da [Forja](/wiki/06-Items/Forge.md#buffs-by-tier) sempre funciona e desperta mais um soquete no item, então um grau comporta no máximo essa quantidade de bônus (um item Ressonante tem dois soquetes); um bônus entra em um soquete quando você o sintoniza com um Echo Shard ou, com 25% de chance a cada etapa, de graça.
 - Um bônus de **Alcance** nunca passa de +5%, em nenhum grau.
 - Os bônus continuam pequenos perto do item seguinte: um Quantum Laser I no máximo ainda causa menos dano que um Quantum Laser II simples.
 

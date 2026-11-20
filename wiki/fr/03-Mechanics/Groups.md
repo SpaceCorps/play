@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Groupes -->
 # Groupes {#groups}
 
@@ -39,7 +39,7 @@ Chacun reçoit une part proportionnelle à son **niveau**, quelle que soit sa co
 
 La notification de l’élimination le dit : la ligne **RÉCOMPENSES** de l’auteur de l’élimination indique sa part, suivie de « Récompenses partagées avec 2 coéquipiers : votre part est de 40 % », et un coéquipier qui reçoit une part lit « *Alien* a été abattu par *pilote* ; la part de votre groupe vous rapporte » avec les montants. Les notifications s’affichent dans le Journal de jeu.
 
-Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison** (butin et ressources ; l’exception est un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dont le butin est une caisse privée pour chaque coéquipier payé d’une part), l’élimination dans ses statistiques et son classement, le décompte d’éliminations des points de réinitialisation et l’expérience des drones. Les éliminations d’autres pilotes ne sont pas partagées.
+Ce qui reste à l’auteur de l’élimination seul : la **caisse de cargaison** (butin et ressources ; l’exception est un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dont le butin est une caisse privée pour chaque coéquipier payé d’une part), l’élimination dans ses statistiques et son classement, le décompte d’éliminations des points de réinitialisation et l’expérience des drones. Les éliminations d’autres pilotes ne sont pas partagées. Une exception de plus : quand au moins deux pilotes d’un groupe ont endommagé l’alien, son butin est réparti selon les dégâts infligés en une [caisse personnelle](/wiki/03-Mechanics/Cargo.md#personal-crates) pour chacun d’eux.
 
 ## Partage des missions {#sharing-missions}
 
@@ -91,9 +91,9 @@ Le serveur soumet chaque ligne à quelques règles, les mêmes dans Local, Globa
 
 - **Une limite à la vitesse d’envoi.** Vous pouvez envoyer **5 lignes** d’un coup, puis **une ligne de plus toutes les 2 secondes**, comptées ensemble pour Local, Global, Groupe et les messages privés. Si vous envoyez une ligne alors qu’il n’en reste aucune, le chat se met **en pause** pour vous : **10 secondes** la première fois, puis **30**, **120** et **300 secondes** à chaque récidive dans les 10 minutes qui suivent la dernière pause (après 10 minutes sans pause, le compte repart de zéro). Tant qu’elle dure, le bouton Envoyer est grisé et « Chat en pause : 7 s » décompte sous le champ. **Le texte que vous avez saisi reste dans le champ**, et le champ garde le clavier : attendez, ou appuyez sur **Escape**. Une conversation normale n’atteint jamais la limite. Une ligne refusée par les règles compte pour 2 lignes de votre réserve.
 - **200 caractères** par ligne. Un compteur (« 150/200 ») apparaît à partir de 120 caractères, et une ligne plus longue est coupée.
-- **Les écritures des langues du jeu.** Les lettres des alphabets latins avec leurs accents (é, ß, ñ, ø, ő), le cyrillique (russe, ukrainien et les autres), le texte japonais, coréen et chinois, le signe numéro №, les chiffres, la ponctuation courante et les signes ¡ ¿ « » ° £ €. Les émojis, les autres symboles et les autres écritures (grec, arabe, hébreu, thaï) sont refusés, et le champ les supprime pendant que vous saisissez ou collez. Le texte chinois, japonais et coréen peut être collé ; le saisir avec une méthode de saisie ne fonctionne pas encore dans le jeu. Un serveur de jeu plus ancien n’accepte que les lettres latines.
+- **Les écritures des langues du jeu.** Les lettres des alphabets latins avec leurs accents (é, ß, ñ, ø, ő), le cyrillique (russe, ukrainien et les autres), le texte japonais, coréen et chinois, le signe numéro №, les chiffres, la ponctuation courante et les signes ¡ ¿ « » ° £ €. Les caractères émoji, les autres symboles et les autres écritures (grec, arabe, hébreu, thaï) sont refusés, et le champ les supprime pendant que vous saisissez ou collez. Un pilote Premium choisit ses émojis avec le bouton smiley à côté du champ, qui place un code comme `:fire:` dans la ligne. Le texte chinois, japonais et coréen peut être collé ; le saisir avec une méthode de saisie ne fonctionne pas encore dans le jeu. Un serveur de jeu plus ancien n’accepte que les lettres latines.
 - **Pas de liens.** Une ligne contenant une adresse web, un lien d’invitation ou une adresse e-mail est refusée, même lorsqu’elle est dissimulée par les procédés habituels. Les mots seuls ne posent pas de problème : « join my discord » passe.
-- **Pas de répétitions.** La même ligne que votre dernière, renvoyée en moins de 10 secondes, est refusée, de même qu’une ligne où le même caractère revient plus de 8 fois de suite ou qui ne contient aucune lettre ni chiffre.
+- **Pas de répétitions.** La même ligne que votre dernière, renvoyée en moins de 10 secondes, est refusée, de même qu’une ligne où le même caractère revient plus de 8 fois de suite ou qui ne contient aucune lettre ni chiffre. Les smileys tapés font exception : une ligne composée uniquement des plus courants, comme `:)` `;)` `:D` `<3` `^_^`, est envoyée.
 
 Les administrateurs ne sont pas soumis à ces règles, sauf aux 200 caractères. Les règles demandent un serveur de jeu à partir de la 0.4.9 ; un serveur plus ancien ne limite que Global, à 3 lignes d’un coup puis une toutes les 2 secondes.
 

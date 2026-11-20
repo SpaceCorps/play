@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Konténerek -->
 # Konténerek {#containers}
 
@@ -7,13 +7,13 @@
 A **konténer** a Mission Control lezárt lelete. Amikor megnyitsz egyet, a szerver egy jutalmat húz egy táblából, és a tábla minden jutalmának esélye ezen az oldalon áll. A játék Konténerek oldala ugyanezt a táblát mutatja.
 
 > [!NOTE]
-> **A konténerek a játékban szerzett véletlenszerű jutalmak. Soha nem árulják őket, és az esélyek itt közzé vannak téve.** Konténert nem lehet megvenni, cserélni vagy elajándékozni.
+> **A konténerek véletlenszerű jutalmak, és az esélyek itt közzé vannak téve.** A játékban szerzed őket, és egyetlen konténert sem árulnak külön. Az egyetlen kivétel a Króma-archívum, amely csak kinézeteket tartalmaz: minden hónapnyi Prémiumhoz 5 jár belőle. A jutalomként kapott Prémium-napokhoz egy sem jár. Konténert nem lehet cserélni vagy elajándékozni.
 
 ## Mi az a konténer {#what-a-container-is}
 
-- **Megszerzett.** A konténereket a játékban szerzed. Nincs ára és nincs kulcsa: a Bolt nem árulja, és senki más sem.
+- **Megszerzett.** A konténereket a játékban szerzed. Nincs ára és nincs kulcsa: a Bolt nem árulja őket. Az egyetlen másik út az az 5 króma-archívum, amely minden hónapnyi Prémiumhoz jár (a jutalomként kapott Prémium-napokhoz egy sem jár).
 - **Csak a tiéd.** A konténer a fiókodhoz kötött. Nem cserélheted el, nem adhatod egy barátodnak, és nem teheted fel az [Aukcióra](/wiki/03-Mechanics/Auction.md); ami egy konténerből kerül elő, az sem tehető fel oda.
-- **Minden pilótának ugyanaz.** A Prémium semmit sem változtat: nem ad extra nyitást és jobb esélyeket sem.
+- **Minden pilótának ugyanaz.** A Prémium nem ad extra nyitást és jobb esélyeket sem. Amit minden hónapnyi Prémium hoz, az 5 króma-archívum, és ezek csak kinézeteket tartalmaznak.
 - **A wipe-on át megmarad.** A meg nem nyitott konténer a fiókodon marad, amikor jön a [wipe](/wiki/03-Mechanics/Wipe-Timeline.md). Hogy a wipe mit tesz a jutalmakkal, az [A wipe](#the-wipe) alatt áll.
 - **Az állomáson nyitható.** A konténert dokkolva nyitod meg, a Konténerek oldalon. A szerver a jutalmat akkor húzza, amikor a Megnyitásra kattintasz, és maga a kattintás nem változtat semmin. Hogy mi számít, azt a [Hogyan választódik ki egy jutalom](#how-a-prize-is-chosen) rész mondja el.
 
@@ -28,6 +28,7 @@ A konténerek így jutnak el hozzád:
 - Jutalomként a rangodért a wipe-nál
 - A bejelentkezési naptárban
 - Eredményekért
+- Minden 30 napnyi Prémiummal: 5 króma-archívum, amelyek csak kinézeteket tartalmaznak
 
 <!-- containers-sources:end -->
 

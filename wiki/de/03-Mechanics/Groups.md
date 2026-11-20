@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Gruppen -->
 # Gruppen {#groups}
 
@@ -39,7 +39,7 @@ Jeder bekommt einen Anteil im Verhältnis zu seinem **Level**, egal welcher Konz
 
 Die Meldung zum Abschuss sagt das: Die eigene **BELOHNUNG**-Zeile des Schützen zeigt seinen Anteil, gefolgt von „Belohnungen mit 2 Gruppenmitgliedern geteilt: dein Anteil beträgt 40%“, und ein Mitglied, dem ein Anteil ausgezahlt wird, liest „*Alien* wurde von *Pilot* zerstört; der Anteil deiner Gruppe zahlt sich aus“ mit den Beträgen. Die Meldungen erscheinen im Spielprotokoll.
 
-Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen; die Ausnahme ist ein [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dessen Beute für jedes Mitglied, das einen Anteil bekommt, eine private Kiste ist), der Abschuss in seiner Statistik und Rangliste, die Abschusszahl für die Wipe-Punkte und die Erfahrung der Drohnen. Abschüsse anderer Piloten werden nicht geteilt.
+Was allein beim Schützen bleibt: die **Frachtkiste** (Beute und Ressourcen; die Ausnahme ist ein [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), dessen Beute für jedes Mitglied, das einen Anteil bekommt, eine private Kiste ist), der Abschuss in seiner Statistik und Rangliste, die Abschusszahl für die Wipe-Punkte und die Erfahrung der Drohnen. Abschüsse anderer Piloten werden nicht geteilt. Eine weitere Ausnahme: Haben zwei oder mehr Piloten einer Gruppe den Alien beschädigt, wird seine Beute nach dem verursachten Schaden in eine [persönliche Kiste](/wiki/03-Mechanics/Cargo.md#personal-crates) für jeden von ihnen aufgeteilt.
 
 ## Missionen teilen {#sharing-missions}
 
@@ -91,9 +91,9 @@ Der Server hält jede Zeile an ein paar Regeln, in Lokal, Global, Gruppe und bei
 
 - **Ein Limit dafür, wie schnell du sendest.** Du kannst **5 Zeilen** auf einmal senden, danach **eine weitere Zeile alle 2 Sekunden**, gemeinsam gezählt für Lokal, Global, Gruppe und private Nachrichten. Sendest du eine Zeile, wenn keine mehr übrig ist, macht der Chat für dich eine **Pause**: **10 Sekunden** beim ersten Mal, dann **30**, **120** und **300 Sekunden** bei jeder Wiederholung innerhalb von 10 Minuten nach der letzten Pause (nach 10 Minuten ohne Pause beginnt die Zählung von vorn). Solange sie dauert, ist die Schaltfläche Senden grau, und unter dem Eingabefeld zählt „Chat pausiert: 7 s“ herunter. **Der Text, den du getippt hast, bleibt im Feld**, und das Feld behält die Tastatur: Warte oder drücke **Escape**. Ein normales Gespräch erreicht das Limit nie. Eine Zeile, die die Regeln ablehnen, zählt als 2 Zeilen deines Kontingents.
 - **200 Zeichen** pro Zeile. Ein Zähler („150/200“) erscheint ab 120 Zeichen, und eine längere Zeile wird abgeschnitten.
-- **Die Schriften der Spielsprachen.** Die Buchstaben der lateinischen Alphabete mit ihren Akzenten (é, ß, ñ, ø, ő), Kyrillisch (Russisch, Ukrainisch und die anderen), japanischer, koreanischer und chinesischer Text, das Numerozeichen №, Ziffern, die üblichen Satzzeichen und die Zeichen ¡ ¿ « » ° £ €. Emojis, andere Symbole und andere Schriften (Griechisch, Arabisch, Hebräisch, Thai) werden abgelehnt, und das Feld lässt sie beim Tippen oder Einfügen weg. Chinesischer, japanischer und koreanischer Text lässt sich einfügen; das Tippen mit einer Eingabemethode funktioniert im Spiel noch nicht. Ein älterer Spielserver nimmt nur lateinische Buchstaben.
+- **Die Schriften der Spielsprachen.** Die Buchstaben der lateinischen Alphabete mit ihren Akzenten (é, ß, ñ, ø, ő), Kyrillisch (Russisch, Ukrainisch und die anderen), japanischer, koreanischer und chinesischer Text, das Numerozeichen №, Ziffern, die üblichen Satzzeichen und die Zeichen ¡ ¿ « » ° £ €. Emoji-Zeichen, andere Symbole und andere Schriften (Griechisch, Arabisch, Hebräisch, Thai) werden abgelehnt, und das Feld lässt sie beim Tippen oder Einfügen weg. Ein Pilot mit Premium wählt Emojis mit dem Smiley-Button neben dem Feld, der einen Code wie `:fire:` in die Zeile setzt. Chinesischer, japanischer und koreanischer Text lässt sich einfügen; das Tippen mit einer Eingabemethode funktioniert im Spiel noch nicht. Ein älterer Spielserver nimmt nur lateinische Buchstaben.
 - **Keine Links.** Eine Zeile mit einer Webadresse, einem Einladungslink oder einer E-Mail-Adresse wird abgelehnt, auch wenn sie auf die üblichen Arten getarnt ist. Wörter allein sind in Ordnung: „join my discord“ geht raus.
-- **Keine Wiederholungen.** Dieselbe Zeile wie deine letzte, innerhalb von 10 Sekunden noch einmal gesendet, wird abgelehnt, ebenso eine Zeile mit demselben Zeichen mehr als 8-mal hintereinander oder ohne einen einzigen Buchstaben oder eine Ziffer.
+- **Keine Wiederholungen.** Dieselbe Zeile wie deine letzte, innerhalb von 10 Sekunden noch einmal gesendet, wird abgelehnt, ebenso eine Zeile mit demselben Zeichen mehr als 8-mal hintereinander oder ohne einen einzigen Buchstaben oder eine Ziffer. Eine Ausnahme sind getippte Smileys: Eine Zeile nur aus den üblichen, etwa `:)` `;)` `:D` `<3` `^_^`, wird gesendet.
 
 Admins unterliegen diesen Regeln nicht, nur den 200 Zeichen. Die Regeln brauchen einen Spielserver ab 0.4.9; ein älterer begrenzt nur Global, auf 3 Zeilen auf einmal und danach eine alle 2 Sekunden.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ A Védelmi modul harcol a Skylabodért. Tartalmazza a lézereket, amelyek a cell
 - **Mi illik bele**: [Laser](/wiki/06-Items/Lasers.md) tárgyak a bennük lévő erősítőkkel, a készletedből: egy Quantum Laser I, II vagy III, egy Starfire-III vagy egy Helios Beam. Az összes lézer egyszerre tüzel, mindegyik másodpercenként egy lövést. Az erősítők úgy számítanak, mint egy hajón (sebzés, kritikus esély és kritikus sebzés); egy Penetration Amp itt nem ad semmit.
 - **A tár** a Lőszernyomtató fajtáinak lövéseit tartalmazza, és **kizárólag a Lőszernyomtatóból** töltődik, soha a készletedből (lásd: [Beszerelés és lőszer](#fits-and-ammunition)).
 - **A kapu**: a 3-as nehézségű cellába például csak az a Skylab léphet be, amelynek Védelmi modulja a 3. szinten vagy afölött van. A Védelmi modul nélküli Skylab csak az üres téren és a kikötőjén repülhet át.
-- **A lelövési keret** a legtöbb, amit a Skylab óránként kereshet: 108 fejpénzpont az 1. szinten és 630 az 5. szinten (lásd: [Mit fizet egy út](#what-a-trip-pays)).
+- **A lelövési keret** a legtöbb, amit a Skylab óránként kereshet: 216 fejpénzpont az 1. szinten és 1 260 az 5. szinten (lásd: [Mit fizet egy út](#what-a-trip-pays)).
 - **A hajótest** a szinttel nő (lásd: [A hajótest, a megsemmisülés és a javítás](#the-hull-and-repair)).
 - **Kutatás**: minden szinthez saját technológia kell, Védelmi modul I–V (lásd a fenti táblázatot).
 - **Energia**: 80 az 1. szinten, szintenként 25%-kal növekedve. Kikapcsolható, de nem addig, amíg a Skylab úton van. A kikapcsolt, fejlesztés alatt álló vagy áram nélküli modul sötét: a Skylab semmivel sem harcol, és harc nélkül halad át a cellákon.
@@ -293,11 +293,11 @@ A Védelmi modul harcol a Skylabodért. Tartalmazza a lézereket, amelyek a cell
 
 | Szint | Lézerek | Tár (lövés) | Lelövési keret (pont óránként) | Legnagyobb nehézség |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1 500 | 108 | 1 |
-| 2 | 2 | 4 200 | 293 | 2 |
-| 3 | 3 | 16 000 | 476 | 3 |
-| 4 | 4 | 27 000 | 548 | 4 |
-| 5 | 5 | 41 000 | 630 | 5 |
+| 1 | 1 | 3 000 | 216 | 1 |
+| 2 | 2 | 8 300 | 586 | 2 |
+| 3 | 3 | 31 000 | 953 | 3 |
+| 4 | 4 | 53 000 | 1 095 | 4 |
+| 5 | 5 | 80 000 | 1 260 | 5 |
 
 | Szint | Kredit | Thulium | Lemez | Idő |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ A három szint összesen 3 250 000 kreditbe, 13 000 Thuliumba, 4 lemezbe és 
 A Trófeaterem megőrzi, amit a Skylabod lelövései hoznak, amíg át nem veszed. Az 1–20. szintje van, és nem kér technológiát.
 
 - **Mit tart**: kreditet, Thuliumot, tapasztalatot, becsületet és a lelövések zsákmányát.
-- **A kapacitás** **zsákmánytételben** van számolva: csak a zsákmány foglal helyet. A kredit, a Thulium, a tapasztalat és a becsület egyet sem, bármennyit hoznak is a lelövések (a 0.4.27 óta; korábban egy lelövés fejpénze töltötte a termet). Az 1. szinten 650 tételt tart, a 20. szinten 45 000-et. Egy Seeker lelövésenként nagyjából egy tételt hoz, így a terem nagyjából tízszer lassabban telik meg, mint korábban.
+- **A kapacitás** **zsákmánytételben** van számolva: csak a zsákmány foglal helyet. A kredit, a Thulium, a tapasztalat és a becsület egyet sem, bármennyit hoznak is a lelövések (a 0.4.27 óta; korábban egy lelövés fejpénze töltötte a termet). Az 1. szinten 1 300 tételt tart, a 20. szinten 91 000-et. Egy Seeker lelövésenként nagyjából egy tételt hoz, így a terem nagyjából tízszer lassabban telik meg, mint korábban.
 - **Tele**: a teli terem miatt a Skylab **abbahagyja a tüzelést**: semmit sem lő le, fizet vagy számol, és lőszert sem fogyaszt, amíg át nem veszed (a hajótest tovább regenerálódik). Egy üzenet, egy felugró értesítés, egy borostyánszínű **Terem tele** jelvény az állomás sávján, egy értesítés a Skylab oldalon és az oldalsáv Skylab-sorának tippje jelzi, abban a pillanatban, amikor megtelik, akkor is, amikor a Skylab úton van.
 - **Begyűjtés** az Univerzum ablakban, leszállt hajóval: a kredit és a Thulium a számládra, a tapasztalat és a becsület a pilótádhoz, a zsákmány a készletedbe kerül. Két egyidejű begyűjtés egyszer fizet.
 - **A zsákmányt** minden lelövéshez az idegen ejtéseiből sorsolják, soha Dark Matter, Ancient Control Unit, N.I.K.E. vagy N.U.K.E. nem lehet benne. **Nem eladható**: nem adható el az [Aukción](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ A Trófeaterem megőrzi, amit a Skylabod lelövései hoznak, amíg át nem vesze
 
 | Szint | Kapacitás (tétel) | Kredit | Thulium | Idő |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (az építés) | 650 | 100 000 | 400 | – |
-| 2 | 810 | 117 500 | 470 | 15 min |
-| 5 | 1 600 | 195 000 | 780 | 34 min |
-| 10 | 4 800 | 450 000 | 1 800 | 2 h 18 min |
-| 15 | 15 000 | 1 025 000 | 4 100 | 9 h 14 min |
-| 20 | 45 000 | 2 325 000 | 9 300 | 1 d 13 h |
+| 1 (az építés) | 1 300 | 100 000 | 400 | – |
+| 2 | 1 600 | 117 500 | 470 | 15 min |
+| 5 | 3 200 | 195 000 | 780 | 34 min |
+| 10 | 9 700 | 450 000 | 1 800 | 2 h 18 min |
+| 15 | 30 000 | 1 025 000 | 4 100 | 9 h 14 min |
+| 20 | 91 000 | 2 325 000 | 9 300 | 1 d 13 h |
 
 Mennyi idő alatt telik meg egy terem, ha a Skylab a védelmi szintjének teljes lelövési keretét megkeresi egy ilyen nehézségű cellában, az ott élő idegenek zsákmányával (a kisebb terem gyorsabban telik meg, a kisebb keret lassabban):
 
 | Védelmi szint | Terem 1. szint | Terem 5. szint | Terem 10. szint | Terem 15. szint | Terem 20. szint |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Tömeg és sebesség {#weight-and-speed}
 
@@ -468,19 +468,19 @@ A sorok fölött egy **figyelmeztetés** jelzi, ha az út semmit sem hozna: ninc
 
 Egy lelövés azt fizeti, amit az idegene fizet a világodban: a kreditjét, a Thuliumját, a tapasztalatát és a becsületét a világ fizetésével szorozva (1, 2 és 3 az Alphában, a Betában és a Gammában), valamint a zsákmányát. Semmi nem adódik hozzá: se booster, se prémium, se formációbónusz, se klánlöket, és nincs tapasztalat a drónjaidnak.
 
-A lelövés óránként a három korlát közül a legkisebb: a felbukkanó idegenek, a Védelmi modulod szintjének **lelövési kerete**, és az, amit a lézereid és a lőszered elbír. A keret az, ami a felügyelet nélküli Skylabot a farmok kiegészítésének tartja, nem második munkának: 108, 293, 476, 548 és 630 fejpénzpont óránként az 1–5. védelmi szinten, ahol egy pont 1 Thulium vagy 200 kredit. **A cella a fokozata szerint fizet**: a Skylab a védelmi szintje keretének és a cella nehézsége keretének a kisebbikét kapja, így egy 5-ös védelmű Skylab az 1-es nehézségű cellában azt keresi, amit az 1-es védelműé.
+A lelövés óránként a három korlát közül a legkisebb: a felbukkanó idegenek, a Védelmi modulod szintjének **lelövési kerete**, és az, amit a lézereid és a lőszered elbír. A keret az, ami a felügyelet nélküli Skylabot a farmok kiegészítésének tartja, nem második munkának: 216, 586, 953, 1 095 és 1 260 fejpénzpont óránként az 1–5. védelmi szinten, ahol egy pont 1 Thulium vagy 200 kredit. **A cella a fokozata szerint fizet**: a Skylab a védelmi szintje keretének és a cella nehézsége keretének a kisebbikét kapja, így egy 5-ös védelmű Skylab az 1-es nehézségű cellában azt keresi, amit az 1-es védelműé.
 
 Amit egy nap a cellában legfeljebb fizet (Alpha; a Beta és a Gamma 1,6-szor és 2-szer annyit fizet):
 
 | Nehézség | Fejpénzpont óránként | Lelövés naponta | Thulium naponta | Kredit naponta |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1 152 | 288 000 |
-| 2 | 293 | 469 | 3 124 | 780 911 |
-| 3 | 476 | 224 | 5 524 | 1 181 375 |
-| 4 | 548 | 86 | 5 503 | 1 528 510 |
-| 5 | 630 | 32 | 5 255 | 1 972 329 |
+| 1 | 216 | 576 | 2 304 | 576 000 |
+| 2 | 586 | 937 | 6 247 | 1 561 822 |
+| 3 | 953 | 447 | 11 047 | 2 362 749 |
+| 4 | 1 095 | 171 | 11 005 | 3 057 021 |
+| 5 | 1 260 | 63 | 10 511 | 3 944 658 |
 
-Egy nap a cellában nagyjából két óra kézi vadászatot ér abban a cellában (3,4 órát a 4-es nehézségben). A 3-as nehézségtől ez nagyjából 30%-a annak, amit egy 15. szintű Mag melletti Thuliumfarm Thuliumban termel (18 240 naponta), és 0,6–1,1-szerese annak, amit egy ilyen szintű Kreditfarm kreditben termel (1 836 000 naponta). A 2-es nehézségű sodródás kevesebb idegent tartalmaz, mint amennyit a kerete kifizet, és valamivel kevesebbet hoz.
+Egy nap a cellában nagyjából négy óra kézi vadászatot ér abban a cellában (6,9 órát a 4-es nehézségben). A 3-as nehézségtől ez nagyjából 60%-a annak, amit egy 15. szintű Mag melletti Thuliumfarm Thuliumban termel (18 240 naponta), és 1,3–2,1-szerese annak, amit egy ilyen szintű Kreditfarm kreditben termel (1 836 000 naponta). A 2-es nehézségű sodródás kevesebb idegent tartalmaz, mint amennyit a kerete kifizet, és valamivel kevesebbet hoz.
 
 Egy lelövés **zsákmányát** az idegen ejtéseiből sorsolják: Ship Fragments, ércek, Reinforced Hull Plates és Power Cores, az 5-ös nehézségtől pedig Ultra Core és Experimental Fusion Core lőszer.
 

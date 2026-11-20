@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 82acce8e49f71c02 -->
+<!-- wiki-i18n source: 8e41ef1c4ec70160 -->
 <!-- wiki-i18n title: Arkadaşları Davet Et -->
 # Arkadaşları Davet Et {#invite-friends}
 
@@ -7,7 +7,7 @@ Her pilotun kişisel bir **davet kodu** vardır. Oyuna yeni başlayan bir arkada
 ## Kodun {#your-code}
 
 - Kodunu görmek için **Topluluk › Arkadaşları Davet Et** sayfasını aç; `BCDF-GHJK` gibi yazılır. İlk baktığında oluşturulur ve sonsuza dek senindir: asla değişmez ve başka kimse onu görmez.
-- **Kodu kopyala** kodu panona koyar; **Davet mesajını kopyala** ise bir arkadaşına yapıştırmaya hazır kısa bir metin koyar: oyunun adı, kodun ve onu nereye gireceği (ve Steam dışında oyunu nereden alacağı). Steam sürümünde mesaj indirme adresini içermez.
+- **Kodu kopyala** kodu panona koyar; **Davet mesajını kopyala** ise bir arkadaşına yapıştırmaya hazır kısa bir metin koyar: oyunun adı, kodun ve onu nereye gireceği (ve Steam ile iOS dışında oyunu nereden alacağı). Steam sürümünde ve iOS uygulamasında mesaj indirme adresini içermez.
 - Bir kodu büyük ya da küçük harfle, tireyle ya da tiresiz yazabilirsin.
 
 ## Bir arkadaşın aldıkları {#what-a-friend-gets}

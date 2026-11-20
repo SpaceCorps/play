@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Überblick -->
 # Gegenstände im Überblick {#items-overview}
 
@@ -97,7 +97,7 @@ Ausrüstung trägt eine **Verzauberung**: eine Stufe, mit der sie höchstens ein
 
 - Shop-Gegenstände sind immer Standard. Ausrüstung, die du in der Montage baust, würfelt beim Abholen eine Stufe aus (die Spalte „Chance“). Darüber geht die Stufe in der [Schmiede](/wiki/06-Items/Forge.md) hoch, Schritt für Schritt; der einzige andere Weg ist ein Modul-Upgrade in der Montage (ein Damage Amp IV, ein Crit Amp IV, eine Schildzelle oder Schubdüse der Stufe II bis IV, ein Heavy Shield Core, ein Engine II oder III, ein Adaptive Core II oder III, ein Quantum Laser III, ein Starfire-III, der Helios Beam), das die Stufe des Stücks behält, aus dem es gemacht wird.
 - Ein Gegenstand fasst nie mehr Boni, als er Werte hat: Ein Schild hat vier, ein Laser drei, ein Triebwerk, ein Momentum Thruster oder ein adaptiver Kern zwei, ein Impulse Thruster, ein Crit Amp I, eine Repair Drone oder eine Hüllenpanzerung einen (ein Impulse Thruster hat nur sein festes Tempo zu verstärken: Auf seinen Faktor von x1,017 bis x1,03 würfelt die Schmiede keinen Bonus, er wäre so gut wie nichts wert), die höheren Krit-Verstärker zwei, die Schadensverstärker und Schildzellen drei. Das Limit der Stufe ist die kleinere der beiden Zahlen. Ein Penetration Amp hat nur einen Wert und fasst deshalb einen Bonus.
-- Jeder Schritt der [Schmiede](/wiki/06-Items/Forge.md#buffs-by-tier) gelingt immer und weckt einen weiteren Sockel im Gegenstand, eine Stufe fasst also höchstens so viele Boni (ein Gegenstand der Stufe Resonant hat zwei Sockel); ein Bonus kommt in einen Sockel, wenn du ihn mit einem Echo Shard abstimmst.
+- Jeder Schritt der [Schmiede](/wiki/06-Items/Forge.md#buffs-by-tier) gelingt immer und weckt einen weiteren Sockel im Gegenstand, eine Stufe fasst also höchstens so viele Boni (ein Gegenstand der Stufe Resonant hat zwei Sockel); ein Bonus kommt in einen Sockel, wenn du ihn mit einem Echo Shard abstimmst oder, mit 25 % Chance bei jedem Schritt, kostenlos.
 - Ein **Reichweiten**-Bonus geht auf keiner Stufe über +5 % hinaus.
 - Boni bleiben klein neben dem nächsthöheren Gegenstand: Ein voll ausgereizter Quantum Laser I macht immer noch weniger Schaden als ein schlichter Quantum Laser II.
 

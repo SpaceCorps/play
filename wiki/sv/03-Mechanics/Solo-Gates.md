@@ -146,7 +146,7 @@ En boss är en utomjordings skepp, förstorat, med ett eget skrov, en egen sköl
 | **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
 | **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
 | **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
-| **Evil Davidski** | Davidski's Nightmare | 550 000 | 660 000 | 2 600–3 200 |
+| **Evil Davidski** | Davidski's Nightmare | 5 500 000 | 6 600 000 | 7 800–9 600 |
 
 | Boss | Fas | Kvarvarande skrov | Vad den gör |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ En boss är en utomjordings skepp, förstorat, med ett eget skrov, en egen sköl
 | **Omega Guardian** | Shield Fortress | 100 % till 70 % | Dess sköld sätts till ×1,5 av bossens egen. Var 40 s kallar den på 6 Bulwark, högst 12 av dem levande; de betalar och släpper ingenting. |
 |  | Swarm Protocol | 70 % till 35 % | Var 25 s kallar den på 12 Phantasm, högst 24 av dem levande; de betalar och släpper ingenting. Var 30 s träffar en explosion på 140 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. |
 |  | Overload | 35 % till 0 % | Dess sköld sätts till ×0,1 av bossens egen. All dess skada är ×2,5. Efter 2 min i fasen är all dess skada ×2 till. Var 25 s träffar en explosion på 28 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. |
-| **Evil Davidski** | Evil Davidski | 100 % till 50 % | Den avfyrar 6 Warden Rivet II-raketer mot dig, 4 900 var, en var 0,5 s, i en salva var 30 s. Var 1 min släpper den 2 salvor av 8 meteorer, 11 000 var på allt inom 400 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 40 s kallar den på 5 Evil Protos, högst 10 av dem levande; de betalar och släpper ingenting. |
-|  | Angry | 50 % till 0 % | Dess sköld sätts till ×0,5 av bossens egen. All dess skada är ×1,5. Efter 8 min i fasen är all dess skada ×2 till. Den avfyrar 6 Warden Rivet III-raketer mot dig, 2 600 var, en var 0,4 s, i en salva var 30 s. Var 1 min släpper den 3 salvor av 8 meteorer, 3 400 var på allt inom 420 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 45 s träffar en explosion på 35 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. Var 40 s kallar den på 3 Evil Kitefin, högst 6 av dem levande; de betalar och släpper ingenting. |
+| **Evil Davidski** | Evil Davidski | 100 % till 50 % | Den avfyrar 6 Dormant Lance-raketer mot dig, 14 700 var, en var 0,5 s, i en salva var 30 s. Var 1 min släpper den 2 salvor av 8 meteorer, 33 000 var på allt inom 400 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 40 s kallar den på 5 Evil Protos, högst 10 av dem levande; de betalar och släpper ingenting. |
+|  | Angry | 50 % till 0 % | Dess sköld sätts till ×0,5 av bossens egen. All dess skada är ×1,5. Efter 8 min i fasen är all dess skada ×2 till. Den avfyrar 6 Dormant Lance-raketer mot dig, 7 800 var, en var 0,4 s, i en salva var 30 s. Var 1 min släpper den 3 salvor av 8 meteorer, 10 200 var på allt inom 420 enheter från där de landar, 50 % av dem riktade mot dig; varje cirkel visas 3 s innan den landar. Var 45 s träffar en explosion på 105 000 allt inom 700 enheter från bossen; ringen visas 2 s innan den landar. Var 40 s kallar den på 3 Evil Kitefin, högst 6 av dem levande; de betalar och släpper ingenting. |
 
 <!-- solo-bosses:end -->
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Resumen -->
 # Resumen de objetos {#items-overview}
 
@@ -97,7 +97,7 @@ El equipo lleva un **Encantamiento**: un grado que le permite llevar hasta unas 
 
 - Los objetos de la tienda son siempre Estándar. El equipo que construyes en Ensamblaje saca un grado al azar cuando lo recoges (la columna de probabilidad). Por encima de eso, el grado sube en la [Forja](/wiki/06-Items/Forge.md), un paso cada vez; la otra única vía es una mejora de módulo en Ensamblaje (un Damage Amp IV, un Crit Amp IV, una célula de escudo o un propulsor de nivel II a IV, un Heavy Shield Core, un Engine II o III, un Adaptive Core II o III, un Quantum Laser III, un Starfire-III, el Helios Beam), que conserva el grado de la pieza con la que se hace.
 - Un objeto nunca lleva más bonificaciones que estadísticas tiene: un núcleo de escudo tiene cuatro; un láser, tres; un motor, un Momentum Thruster o un núcleo adaptativo, dos; un Impulse Thruster, un Crit Amp I, un Repair Drone o un blindaje de casco, una (un Impulse Thruster solo tiene su velocidad fija que mejorar: la Forja no sortea ninguna bonificación sobre su multiplicador de x1,017 a x1,03, que no valdría casi nada); los amplificadores de crítico superiores, dos; los amplificadores de daño y las células de escudo, tres. El límite del grado es el menor de los dos números. Un Penetration Amp tiene una sola estadística, así que lleva una sola bonificación.
-- Cada paso de la [Forja](/wiki/06-Items/Forge.md#buffs-by-tier) siempre sale bien y despierta una ranura más en el objeto, así que un grado admite como máximo esa cantidad de bonificaciones (un objeto Resonante tiene dos ranuras); una bonificación entra en una ranura cuando la sintonizas con un Echo Shard.
+- Cada paso de la [Forja](/wiki/06-Items/Forge.md#buffs-by-tier) siempre sale bien y despierta una ranura más en el objeto, así que un grado admite como máximo esa cantidad de bonificaciones (un objeto Resonante tiene dos ranuras); una bonificación entra en una ranura cuando la sintonizas con un Echo Shard o, con un 25 % de probabilidad en cada paso, gratis.
 - Una bonificación de **Alcance** nunca pasa de +5 %, en ningún grado.
 - Las bonificaciones siguen siendo pequeñas frente al objeto del escalón superior: un Quantum Laser I al máximo sigue haciendo menos daño que un Quantum Laser II sin bonificaciones.
 

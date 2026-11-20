@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Savaş -->
 # Savaş mekaniği {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Bir uzaylının ödülleri, son vuruşu kim yaparsa ona değil, ona ilk ateş ed
 - **Görmek**: başka bir pilotun sahiplendiği bir uzaylıyı seçtiğinde Hedef penceresi *Sahiplenen:* satırında o pilotu ve *Ödül yok* yazısını gösterir.
 - [Şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md) asla bir uzaylıyı sahiplenmez ve onların bitirdiği bir uzaylı yine sahiplenmeyi elinde tutan pilota öder.
 - Bir [grup](/wiki/03-Mechanics/Groups.md) içindeki pilot, sahiplenmesinin ödediğini yakında olup ateş eden grup arkadaşlarıyla paylaşır; sahiplenmenin kendisi yalnızca pilotundur.
-- **İstisna: [sürülerin](/wiki/05-Swarms/Swarms.md) liderleri, Dormant Pulse ve [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)**: bir sürü patronu, bir Dormant Pulse ya da bir Clan Warden ilk vuruşa göre değil, her pilotun ona verdiği hasara göre ödeme yapar ve kargo kutusu en çok hasar veren pilota gider ([bir patron öldürmesi nasıl öder](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Diğer takipçiler, yani Pirate Scout ve Seeker Slave, her uzaylı gibi sahiplenmeye göre öder. Bir sürü gemisinin PvE puanları Sürüler sayfasındadır.
+- **İstisna: [sürülerin](/wiki/05-Swarms/Swarms.md) liderleri, Dormant Pulse ve [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)**: bir sürü patronu, bir Dormant Pulse ya da bir Clan Warden ilk vuruşa göre değil, her pilotun ona verdiği hasara göre ödeme yapar ve kargo kutusu en çok hasar veren pilota gider ([bir patron öldürmesi nasıl öder](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Diğer takipçiler, yani Pirate Scout ve Seeker Slave, her uzaylı gibi sahiplenmeye göre öder. Bir sürü gemisinin PvE puanları Sürüler sayfasındadır. En çok hasarı veren pilotun grubunda patrona hasar veren iki veya daha fazla pilot varsa, kutusu her biri için bir kişisel kutuya bölünür ([Kargo](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

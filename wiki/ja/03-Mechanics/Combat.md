@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: 戦闘 -->
 # 戦闘の仕組み {#combat-mechanics}
 
@@ -75,7 +75,7 @@
 - **確認方法**：ほかのパイロットが権利を持つエイリアンを選択すると、ターゲットウィンドウに、*「（パイロット名）の獲物」*と*「報酬なし」*が表示されます。
 - [企業パイロット](/wiki/03-Mechanics/Company-Pilots.md)がエイリアンの権利を得ることはなく、彼らがとどめを刺したエイリアンの報酬も、権利を持つパイロットに支払われます。
 - [グループ](/wiki/03-Mechanics/Groups.md)のパイロットは、権利で得た報酬を、近くで射撃しているグループメンバーと分け合います。権利そのものは、そのパイロット1人のものです。
-- **[群れ](/wiki/05-Swarms/Swarms.md)のリーダー、Dormant Pulse、[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) は例外です。** 群れのボス、各 Dormant Pulse、各 Clan Warden は、最初の命中ではなく、各パイロットが与えたダメージに応じて報酬を払い、その積荷コンテナは最もダメージを与えたパイロットのものになります（[ボス撃破の報酬](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。そのほかの配下である Pirate Scout と Seeker Slave は、ほかのエイリアンと同じく権利に従って報酬を払います。群れの艦の PvE ポイントは「群れ」のページにあります。
+- **[群れ](/wiki/05-Swarms/Swarms.md)のリーダー、Dormant Pulse、[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) は例外です。** 群れのボス、各 Dormant Pulse、各 Clan Warden は、最初の命中ではなく、各パイロットが与えたダメージに応じて報酬を払い、その積荷コンテナは最もダメージを与えたパイロットのものになります（[ボス撃破の報酬](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。そのほかの配下である Pirate Scout と Seeker Slave は、ほかのエイリアンと同じく権利に従って報酬を払います。群れの艦の PvE ポイントは「群れ」のページにあります。最大ダメージのパイロットのグループに、ボスにダメージを与えたパイロットが2人以上いる場合は、そのコンテナは全員に1つずつの個人用コンテナに分けられます（[積荷](/wiki/03-Mechanics/Cargo.md#personal-crates)）。
 
 ---
 

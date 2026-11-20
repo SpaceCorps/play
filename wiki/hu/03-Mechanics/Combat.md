@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Harc -->
 # Harci mechanika {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Az idegen jutalmai ahhoz a pilótához kerülnek, aki először lőtt rá, nem a
 - **Hogyan látod**: ha kijelölsz egy olyan idegent, amelyet másik pilóta foglalt le, a Célpontablak azt mutatja: *Lefoglalta:* az a pilóta, és *Nincs jutalom*.
 - A [vállalati pilóták](/wiki/03-Mechanics/Company-Pilots.md) sosem foglalnak le idegent, és az általuk kilőtt idegen is a foglalását tartó pilótát fizeti.
 - A [csoportban](/wiki/03-Mechanics/Groups.md) lévő pilóta megosztja azt, amit a foglalása fizet, azokkal a csoporttársaival, akik közel vannak és lőnek; maga a foglalás egyedül a pilótáé.
-- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei, a Dormant Pulse-ok és a [Clan Wardenek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) kivételek**: egy rajboss, minden Dormant Pulse és minden Clan Warden annak a sebzésnek megfelelően fizet, amelyet minden pilóta okozott nekik, nem az első találat szerint, a rakományládájuk pedig ahhoz a pilótához kerül, aki a legtöbb sebzést okozta ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A többi kísérő, a Pirate Scoutok és a Seeker Slave-ek, a foglalás szerint fizetnek, mint bármelyik idegen. A rajhajók PvE-pontjai a Rajok oldalon vannak.
+- **A [rajok](/wiki/05-Swarms/Swarms.md) vezérei, a Dormant Pulse-ok és a [Clan Wardenek](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) kivételek**: egy rajboss, minden Dormant Pulse és minden Clan Warden annak a sebzésnek megfelelően fizet, amelyet minden pilóta okozott nekik, nem az első találat szerint, a rakományládájuk pedig ahhoz a pilótához kerül, aki a legtöbb sebzést okozta ([hogyan fizet egy boss megölése](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). A többi kísérő, a Pirate Scoutok és a Seeker Slave-ek, a foglalás szerint fizetnek, mint bármelyik idegen. A rajhajók PvE-pontjai a Rajok oldalon vannak. Ha a legtöbb sebzést okozó pilóta csoportjában legalább két pilóta sebezte meg a főellenséget, a ládáját személyes ládákra osztják, mindegyikük számára egyet ([Rakomány](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

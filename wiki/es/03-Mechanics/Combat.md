@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Combate -->
 # Mecánicas de combate {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Las recompensas de un alienígena son para el piloto que le disparó primero, no
 - **Verla**: cuando seleccionas un alienígena que otro piloto ha reclamado, la ventana Objetivo muestra *Reclamado por* ese piloto y *Sin recompensa*.
 - Los [pilotos de corporación](/wiki/03-Mechanics/Company-Pilots.md) nunca reclaman un alienígena, y un alienígena que rematan sigue pagando al piloto que tiene su reclamación.
 - Un piloto de un [grupo](/wiki/03-Mechanics/Groups.md) reparte lo que paga su reclamación con los compañeros de grupo que están cerca y disparando; la reclamación en sí es solo de ese piloto.
-- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md), los Dormant Pulses y los [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) son la excepción**: un jefe de enjambre, cada Dormant Pulse y cada Clan Warden cobran según el daño que les causó cada piloto, no según el primer impacto, y su caja de carga es para el piloto que más daño causó ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Los demás seguidores, los Pirate Scouts y los Seeker Slaves, pagan según la reclamación, como cualquier alienígena. Los puntos PvE de una nave de enjambre están en la página Enjambres.
+- **Los líderes de los [enjambres](/wiki/05-Swarms/Swarms.md), los Dormant Pulses y los [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) son la excepción**: un jefe de enjambre, cada Dormant Pulse y cada Clan Warden cobran según el daño que les causó cada piloto, no según el primer impacto, y su caja de carga es para el piloto que más daño causó ([cómo paga el derribo de un jefe](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Los demás seguidores, los Pirate Scouts y los Seeker Slaves, pagan según la reclamación, como cualquier alienígena. Los puntos PvE de una nave de enjambre están en la página Enjambres. Cuando el grupo de quien más daño causó tiene dos o más pilotos que dañaron al jefe, su caja se reparte en una caja personal para cada uno de ellos ([Carga](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: 总览 -->
 # 物品总览 {#items-overview}
 
@@ -97,7 +97,7 @@
 
 - 商店物品始终是标准等级。你在装配站制造的装备会在你领取时随机得到一个等级（见几率一列）。在此之上，等级可以在[锻造炉](/wiki/06-Items/Forge.md)中逐级提升；另一种途径是装配站的模块升级（Damage Amp IV、Crit Amp IV、II 至 IV 阶的护盾电池和推进器、Heavy Shield Core、Engine II 和 III、Adaptive Core II 和 III、Quantum Laser III、Starfire-III、Helios Beam），它们沿用制作它们所用部件的等级。
 - 一件物品承载的加成数量永远不会超过它拥有的属性数：护盾核心有四项，激光有三项，引擎、Momentum Thruster 或自适应核心有两项，Impulse Thruster、Crit Amp I、Repair Drone 或船体装甲有一项（Impulse Thruster 只有固定速度可以强化：锻造炉不会给它 x1.017 到 x1.03 的倍率附加加成，那几乎不值什么），更高级的暴击增幅器有两项，伤害增幅器和护盾电池有三项。该等级的实际上限是这两个数字中较小的一个。Penetration Amp 只有一项属性，所以只带一条加成。
-- [锻造炉](/wiki/06-Items/Forge.md#buffs-by-tier)的每一步都一定成功，并会唤醒物品上的一个插槽，所以一个等级最多容纳这么多项加成（共鸣等级的物品有两个插槽）；用 Echo Shard 调谐插槽后，加成才会放进去。
+- [锻造炉](/wiki/06-Items/Forge.md#buffs-by-tier)的每一步都一定成功，并会唤醒物品上的一个插槽，所以一个等级最多容纳这么多项加成（共鸣等级的物品有两个插槽）；用 Echo Shard 调谐插槽后，或者在每一步以 25% 的几率免费得到后，加成才会放进去。
 - **射程**加成在任何等级都不会超过 +5%。
 - 与更高一级的物品相比，加成始终很小：加满的 Quantum Laser I 造成的伤害，仍然低于一把普通的 Quantum Laser II。
 

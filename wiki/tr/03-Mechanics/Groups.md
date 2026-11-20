@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Gruplar -->
 # Gruplar {#groups}
 
@@ -39,7 +39,7 @@ Herkes, şirketi ne olursa olsun **seviyesiyle** orantılı bir pay alır (kredi
 
 Öldürmenin bildirimi bunu söyler: öldürenin kendi **ÖDÜLLER** satırı payını gösterir, ardından “Ödüller 2 grup üyesiyle paylaşıldı: senin payın %40” gelir; pay alan bir arkadaş ise miktarlarla birlikte “*Uzaylı*, *pilot* tarafından yok edildi; grubunun payı sana ödül kazandırıyor” yazısını okur. Bildirimler Oyun Günlüğü’nde görünür.
 
-Yalnızca öldürene kalanlar: **kargo kutusu** (ganimet ve kaynaklar; bir [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) istisnadır, onun ganimeti pay alan her arkadaş için ayrı bir özel kutudur), öldürmenin istatistiklerdeki ve sıralamadaki kaydı, sıfırlama puanı öldürme sayısı ve dronların deneyimi. Başka pilotlara karşı yapılan öldürmeler paylaşılmaz.
+Yalnızca öldürene kalanlar: **kargo kutusu** (ganimet ve kaynaklar; bir [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) istisnadır, onun ganimeti pay alan her arkadaş için ayrı bir özel kutudur), öldürmenin istatistiklerdeki ve sıralamadaki kaydı, sıfırlama puanı öldürme sayısı ve dronların deneyimi. Başka pilotlara karşı yapılan öldürmeler paylaşılmaz. Bir istisna daha: bir grubun iki veya daha fazla pilotu uzaylıya hasar verdiyse, ganimeti verilen hasara göre her biri için bir [kişisel kutuya](/wiki/03-Mechanics/Cargo.md#personal-crates) bölünür.
 
 ## Görevleri paylaşma {#sharing-missions}
 
@@ -91,9 +91,9 @@ Sunucu her satırı birkaç kurala tabi tutar; kurallar Yerel, Genel, Grup ve ö
 
 - **Gönderme hızına bir sınır.** Aynı anda **5 satır** gönderebilirsin, sonra **her 2 saniyede bir satır daha**; Yerel, Genel, Grup ve özel mesajlar birlikte sayılır. Hakkın kalmadığında bir satır gönderirsen sohbet senin için **duraklar**: ilk seferde **10 saniye**, son duraklamadan sonraki 10 dakika içindeki her tekrarda sırayla **30**, **120** ve **300 saniye** (10 dakika duraklamasız geçince sayım yeniden başlar). Sürerken Gönder düğmesi gridir ve giriş kutusunun altında “Sohbet duraklatıldı: 7 sn” geri sayar. **Yazdığın metin kutuda kalır** ve kutu klavyeyi tutar: bekle ya da **Escape** tuşuna bas. Normal bir konuşma sınıra asla ulaşmaz. Kuralların reddettiği bir satır hakkından 2 satır sayılır.
 - Satır başına **200 karakter**. Bir sayaç (“150/200”) 120 karakterden itibaren görünür ve daha uzun bir satır kesilir.
-- **Oyunun dillerinin yazı sistemleri.** Latin alfabelerinin harfleri, aksanlı olanlar dahil (ç, ğ, ı, ş, é, ß, ñ, ø, ő), Kiril (Rusça, Ukraynaca ve diğerleri), Japonca, Korece ve Çince metin, numara işareti №, rakamlar, olağan noktalama ve ¡ ¿ « » ° £ € işaretleri. Emoji, diğer simgeler ve diğer yazı sistemleri (Yunanca, Arapça, İbranice, Tayca) reddedilir; kutu bunları yazarken ya da yapıştırırken düşürür. Çince, Japonca ve Korece metin yapıştırılabilir; bir giriş yöntemiyle yazmak oyunda henüz çalışmaz. Eski bir oyun sunucusu yalnızca Latin harflerini kabul eder.
+- **Oyunun dillerinin yazı sistemleri.** Latin alfabelerinin harfleri, aksanlı olanlar dahil (ç, ğ, ı, ş, é, ß, ñ, ø, ő), Kiril (Rusça, Ukraynaca ve diğerleri), Japonca, Korece ve Çince metin, numara işareti №, rakamlar, olağan noktalama ve ¡ ¿ « » ° £ € işaretleri. Emoji karakterleri, diğer simgeler ve diğer yazı sistemleri (Yunanca, Arapça, İbranice, Tayca) reddedilir; kutu bunları yazarken ya da yapıştırırken düşürür. Premium bir pilot, kutunun yanındaki gülen yüz düğmesiyle emoji seçer; düğme satıra `:fire:` gibi bir kod koyar. Çince, Japonca ve Korece metin yapıştırılabilir; bir giriş yöntemiyle yazmak oyunda henüz çalışmaz. Eski bir oyun sunucusu yalnızca Latin harflerini kabul eder.
 - **Bağlantı yok.** Bir web adresi, davet bağlantısı ya da e-posta adresi içeren satır, olağan yöntemlerle gizlenmiş olsa bile reddedilir. Yalnızca sözcükler sorun değildir: “join my discord” gider.
-- **Tekrar yok.** Son satırınla aynı olan bir satır 10 saniye içinde yeniden gönderilirse reddedilir; aynı karakteri art arda 8 defadan fazla içeren ya da hiç harf veya rakam içermeyen satır da öyle.
+- **Tekrar yok.** Son satırınla aynı olan bir satır 10 saniye içinde yeniden gönderilirse reddedilir; aynı karakteri art arda 8 defadan fazla içeren ya da hiç harf veya rakam içermeyen satır da öyle. Elle yazılan smiley'ler bunun istisnasıdır: yalnızca yaygın olanlardan oluşan bir satır, örneğin `:)` `;)` `:D` `<3` `^_^`, gönderilir.
 
 Yöneticiler 200 karakter dışında bu kurallara tabi değildir. Kurallar 0.4.9 ve üzeri bir oyun sunucusu gerektirir; daha eski bir sunucu yalnızca Genel kanalını sınırlar: aynı anda 3 satır, sonra 2 saniyede bir satır.
 

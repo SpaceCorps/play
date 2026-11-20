@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Combate -->
 # Mecânica de combate {#combat-mechanics}
 
@@ -75,7 +75,7 @@ As recompensas de um alienígena vão para o piloto que atirou nele primeiro, n�
 - **Ver a reivindicação**: quando você seleciona um alienígena que outro piloto reivindicou, a janela do alvo mostra *Reivindicado por* esse piloto e *Sem recompensa*.
 - Os [pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md) nunca reivindicam um alienígena, e um alienígena que eles terminam ainda paga ao piloto que detém a reivindicação dele.
 - Um piloto em um [grupo](/wiki/03-Mechanics/Groups.md) divide o que a sua reivindicação paga com os colegas de grupo que estão por perto e atirando; a reivindicação em si é só do piloto.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md), as Dormant Pulses e os [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) são a exceção**: um chefe de enxame, cada Dormant Pulse e cada Clan Warden pagam pelo dano que cada piloto causou a eles, não pelo primeiro acerto, e a caixa de carga deles vai para o piloto que mais causou dano ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Os demais seguidores, os Pirate Scouts e os Seeker Slaves, pagam pela reivindicação, como qualquer alienígena. Os pontos PvE de uma nave de enxame estão na página Enxames.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md), as Dormant Pulses e os [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) são a exceção**: um chefe de enxame, cada Dormant Pulse e cada Clan Warden pagam pelo dano que cada piloto causou a eles, não pelo primeiro acerto, e a caixa de carga deles vai para o piloto que mais causou dano ([como o abate de um chefe paga](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Os demais seguidores, os Pirate Scouts e os Seeker Slaves, pagam pela reivindicação, como qualquer alienígena. Os pontos PvE de uma nave de enxame estão na página Enxames. Quando o grupo de quem mais causou dano tem dois ou mais pilotos que danificaram o chefe, a caixa dele é dividida em uma caixa pessoal para cada um deles ([Carga](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

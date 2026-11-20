@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Grupos -->
 # Grupos {#groups}
 
@@ -39,7 +39,7 @@ Cada um recebe uma parte proporcional ao seu **nível**, seja qual for a corpora
 
 O aviso do abate informa isso: a linha **RECOMPENSAS** do próprio autor do abate mostra a parte dele, seguida de “Recompensas divididas com 2 colegas de grupo: sua parte é 40%.”, e um colega que recebe uma parte lê “*Alienígena* foi abatido por *piloto*; a parte do seu grupo garante o pagamento a você.” com os valores. Os avisos aparecem no Registro do jogo.
 
-O que fica só com o autor do abate: a **caixa de carga** (saque e recursos; a exceção é um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), cujo saque é uma caixa privada para cada colega que recebe uma parte), o abate nas estatísticas e no ranking dele, a contagem de abates dos pontos de reset e a experiência dos drones. Os abates de outros pilotos não são divididos.
+O que fica só com o autor do abate: a **caixa de carga** (saque e recursos; a exceção é um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), cujo saque é uma caixa privada para cada colega que recebe uma parte), o abate nas estatísticas e no ranking dele, a contagem de abates dos pontos de reset e a experiência dos drones. Os abates de outros pilotos não são divididos. Mais uma exceção: quando dois ou mais pilotos de um grupo danificaram o alienígena, o saque é dividido conforme o dano causado em uma [caixa pessoal](/wiki/03-Mechanics/Cargo.md#personal-crates) para cada um deles.
 
 ## Dividindo missões {#sharing-missions}
 
@@ -91,9 +91,9 @@ O servidor submete cada linha a algumas regras, as mesmas em Local, Global, Grup
 
 - **Um limite para a velocidade de envio.** Você pode enviar **5 linhas** de uma vez e depois **mais uma linha a cada 2 segundos**, contadas juntas para Local, Global, Grupo e as mensagens privadas. Se você enviar uma linha quando não sobrar nenhuma, o chat entra em **pausa** para você: **10 segundos** na primeira vez e depois **30**, **120** e **300 segundos** a cada reincidência em até 10 minutos da última pausa (depois de 10 minutos sem pausa, a contagem recomeça). Enquanto durar, o botão Enviar fica cinza e “Chat pausado: 7 s” faz a contagem regressiva abaixo do campo. **O texto que você digitou continua no campo** e o campo mantém o teclado: espere ou pressione **Escape**. Uma conversa normal nunca chega ao limite. Uma linha que as regras recusam conta como 2 linhas da sua cota.
 - **200 caracteres** por linha. Um contador (“150/200”) aparece a partir de 120 caracteres, e uma linha mais longa é cortada.
-- **As escritas dos idiomas do jogo.** As letras dos alfabetos latinos com os seus acentos (é, ß, ñ, ø, ő), o cirílico (russo, ucraniano e os outros), o texto em japonês, coreano e chinês, o sinal de número №, dígitos, a pontuação comum e os sinais ¡ ¿ « » ° £ €. Emojis, outros símbolos e outras escritas (grego, árabe, hebraico, tailandês) são recusados, e o campo os descarta enquanto você digita ou cola. O texto em chinês, japonês e coreano pode ser colado; digitá-lo com um método de entrada ainda não funciona no jogo. Um servidor de jogo mais antigo aceita só letras latinas.
+- **As escritas dos idiomas do jogo.** As letras dos alfabetos latinos com os seus acentos (é, ß, ñ, ø, ő), o cirílico (russo, ucraniano e os outros), o texto em japonês, coreano e chinês, o sinal de número №, dígitos, a pontuação comum e os sinais ¡ ¿ « » ° £ €. Caracteres de emoji, outros símbolos e outras escritas (grego, árabe, hebraico, tailandês) são recusados, e o campo os descarta enquanto você digita ou cola. Um piloto com Premium escolhe emojis no botão de carinha ao lado do campo, que põe um código como `:fire:` na linha. O texto em chinês, japonês e coreano pode ser colado; digitá-lo com um método de entrada ainda não funciona no jogo. Um servidor de jogo mais antigo aceita só letras latinas.
 - **Sem links.** Uma linha com um endereço da web, um link de convite ou um e-mail é recusada, mesmo quando disfarçada das maneiras mais comuns. Só palavras não têm problema: “join my discord” passa.
-- **Sem repetições.** A mesma linha da sua última, enviada de novo em menos de 10 segundos, é recusada, e também uma linha com o mesmo caractere mais de 8 vezes seguidas ou sem nenhuma letra nem dígito.
+- **Sem repetições.** A mesma linha da sua última, enviada de novo em menos de 10 segundos, é recusada, e também uma linha com o mesmo caractere mais de 8 vezes seguidas ou sem nenhuma letra nem dígito. Os emoticons digitados são a exceção: uma linha só com os mais comuns, como `:)` `;)` `:D` `<3` `^_^`, é enviada.
 
 Os administradores não estão sujeitos a essas regras, só aos 200 caracteres. As regras exigem um servidor de jogo a partir da 0.4.9; um mais antigo limita só o Global, a 3 linhas de uma vez e depois uma a cada 2 segundos.
 

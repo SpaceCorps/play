@@ -146,7 +146,7 @@ Un jefe es la nave de un alienígena agrandada, con un casco, un escudo y una r�
 | **Elite Crystalys** | Gamma Foundry | 620.000 | 250.000 | 3.800–4.700 |
 | **Siege Construct** | Delta Siege | 1.150.000 | 1.730.000 | 3.400–4.200 |
 | **Omega Guardian** | Omega Vault | 1.340.000 | 840.000 | 2.600–3.200 |
-| **Evil Davidski** | Davidski's Nightmare | 550.000 | 660.000 | 2.600–3.200 |
+| **Evil Davidski** | Davidski's Nightmare | 5.500.000 | 6.600.000 | 7.800–9.600 |
 
 | Jefe | Fase | Casco restante | Lo que hace |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ Un jefe es la nave de un alienígena agrandada, con un casco, un escudo y una r�
 | **Omega Guardian** | Shield Fortress | 100 % a 70 % | Su escudo se fija en ×1,5 del propio del jefe. Cada 40 s llama a 6 Bulwark, con 12 vivos como máximo; no pagan ni sueltan nada. |
 |  | Swarm Protocol | 70 % a 35 % | Cada 25 s llama a 12 Phantasm, con 24 vivos como máximo; no pagan ni sueltan nada. Cada 30 s una explosión de 140.000 alcanza todo lo que esté a menos de 700 unidades del jefe; el anillo se muestra 2 s antes de caer. |
 |  | Overload | 35 % a 0 % | Su escudo se fija en ×0,1 del propio del jefe. Todo su daño es ×2,5. Tras 2 min en la fase, todo su daño es ×2 más. Cada 25 s una explosión de 28.000 alcanza todo lo que esté a menos de 700 unidades del jefe; el anillo se muestra 2 s antes de caer. |
-| **Evil Davidski** | Evil Davidski | 100 % a 50 % | Te dispara 6 cohetes Warden Rivet II, de 4.900 cada uno, uno cada 0,5 s, en una andanada cada 30 s. Cada 1 min suelta 2 lluvias de 8 meteoros, de 11.000 cada uno sobre todo lo que esté a menos de 400 unidades de donde cae, 50 % de ellos apuntados a ti; cada círculo se muestra 3 s antes de caer. Cada 40 s llama a 5 Evil Protos, con 10 vivos como máximo; no pagan ni sueltan nada. |
-|  | Angry | 50 % a 0 % | Su escudo se fija en ×0,5 del propio del jefe. Todo su daño es ×1,5. Tras 8 min en la fase, todo su daño es ×2 más. Te dispara 6 cohetes Warden Rivet III, de 2.600 cada uno, uno cada 0,4 s, en una andanada cada 30 s. Cada 1 min suelta 3 lluvias de 8 meteoros, de 3.400 cada uno sobre todo lo que esté a menos de 420 unidades de donde cae, 50 % de ellos apuntados a ti; cada círculo se muestra 3 s antes de caer. Cada 45 s una explosión de 35.000 alcanza todo lo que esté a menos de 700 unidades del jefe; el anillo se muestra 2 s antes de caer. Cada 40 s llama a 3 Evil Kitefin, con 6 vivos como máximo; no pagan ni sueltan nada. |
+| **Evil Davidski** | Evil Davidski | 100 % a 50 % | Te dispara 6 cohetes Dormant Lance, de 14.700 cada uno, uno cada 0,5 s, en una andanada cada 30 s. Cada 1 min suelta 2 lluvias de 8 meteoros, de 33.000 cada uno sobre todo lo que esté a menos de 400 unidades de donde cae, 50 % de ellos apuntados a ti; cada círculo se muestra 3 s antes de caer. Cada 40 s llama a 5 Evil Protos, con 10 vivos como máximo; no pagan ni sueltan nada. |
+|  | Angry | 50 % a 0 % | Su escudo se fija en ×0,5 del propio del jefe. Todo su daño es ×1,5. Tras 8 min en la fase, todo su daño es ×2 más. Te dispara 6 cohetes Dormant Lance, de 7.800 cada uno, uno cada 0,4 s, en una andanada cada 30 s. Cada 1 min suelta 3 lluvias de 8 meteoros, de 10.200 cada uno sobre todo lo que esté a menos de 420 unidades de donde cae, 50 % de ellos apuntados a ti; cada círculo se muestra 3 s antes de caer. Cada 45 s una explosión de 105.000 alcanza todo lo que esté a menos de 700 unidades del jefe; el anillo se muestra 2 s antes de caer. Cada 40 s llama a 3 Evil Kitefin, con 6 vivos como máximo; no pagan ni sueltan nada. |
 
 <!-- solo-bosses:end -->
 

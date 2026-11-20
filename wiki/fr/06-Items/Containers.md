@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Conteneurs -->
 # Conteneurs {#containers}
 
@@ -7,13 +7,13 @@
 Un **conteneur** est une trouvaille scellée de Mission Control. Quand vous en ouvrez un, le serveur tire une récompense dans une table, et la probabilité de chaque récompense de cette table est imprimée sur cette page. La page Conteneurs du jeu montre la même table.
 
 > [!NOTE]
-> **Les conteneurs sont des récompenses aléatoires gagnées en jeu. Ils ne sont jamais vendus, et les probabilités sont publiées ici.** Aucun conteneur ne peut être acheté, échangé ni donné.
+> **Les conteneurs sont des récompenses aléatoires, et les probabilités sont publiées ici.** Vous les gagnez en jeu, et aucun conteneur n’est vendu seul. La seule exception est l’Archive chromatique, qui ne contient que des looks : Premium en apporte 5 chaque mois. Les jours de Premium reçus en récompense n’en apportent aucune. Aucun conteneur ne peut être échangé ni donné.
 
 ## Ce qu’est un conteneur {#what-a-container-is}
 
-- **Gagné.** Vous gagnez les conteneurs en jeu. Il n’y a ni prix ni clé : la boutique ne les vend pas et rien d’autre non plus.
+- **Gagné.** Vous gagnez les conteneurs en jeu. Il n’y a ni prix ni clé : la boutique ne les vend pas. La seule autre voie est celle des 5 archives chromatiques que Premium apporte chaque mois (les jours de Premium reçus en récompense n’en apportent aucune).
 - **À vous seul.** Un conteneur est lié à votre compte. Vous ne pouvez ni l’échanger, ni le donner à un ami, ni le mettre aux [Enchères](/wiki/03-Mechanics/Auction.md), et rien de ce que donne un conteneur ne peut y être mis non plus.
-- **Le même pour chaque pilote.** Premium ne change rien : il ne donne ni ouverture en plus ni meilleures probabilités.
+- **Le même pour chaque pilote.** Premium ne donne ni ouverture en plus ni meilleures probabilités. Premium apporte 5 archives chromatiques chaque mois, et elles ne contiennent que des looks.
 - **Conservé à travers la réinitialisation.** Un conteneur que vous n’avez pas ouvert reste sur votre compte quand la [réinitialisation](/wiki/03-Mechanics/Wipe-Timeline.md) arrive. Ce que la réinitialisation fait des récompenses est sous [La réinitialisation](#the-wipe).
 - **Ouvert à la station.** Vous ouvrez un conteneur à quai, sur la page Conteneurs. Le serveur tire la récompense quand vous appuyez sur Ouvrir, et l’appui lui-même ne change rien. Ce qui compte est expliqué dans [Comment une récompense est choisie](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ Les conteneurs vous parviennent de ces façons :
 - En récompense de votre rang à la réinitialisation
 - Dans le calendrier de connexion
 - Pour des succès
+- Avec chaque tranche de 30 jours de Premium : 5 archives chromatiques, qui ne contiennent que des looks
 
 <!-- containers-sources:end -->
 

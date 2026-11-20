@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Gruppi -->
 # Gruppi {#groups}
 
@@ -39,7 +39,7 @@ Ognuno riceve una parte in proporzione al proprio **livello**, qualunque sia la 
 
 L’avviso dell’abbattimento lo dice: la riga **RICOMPENSE** di chi ha abbattuto mostra la sua parte, seguita da “Ricompense condivise con 2 compagni di gruppo. La tua parte: 40%.”, e un compagno che riceve una parte legge “*Alieno* è stato distrutto da *pilota*; la quota del tuo gruppo ti spetta” con gli importi. Gli avvisi compaiono nel Registro di gioco.
 
-Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse; l’eccezione è un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), il cui bottino è una cassa privata per ogni compagno che riceve una parte), l’abbattimento nelle sue statistiche e nella classifica, il conteggio degli abbattimenti per i punti reset e l’esperienza dei droni. Gli abbattimenti di altri piloti non vengono condivisi.
+Restano solo di chi ha abbattuto: la **cassa di carico** (bottino e risorse; l’eccezione è un [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), il cui bottino è una cassa privata per ogni compagno che riceve una parte), l’abbattimento nelle sue statistiche e nella classifica, il conteggio degli abbattimenti per i punti reset e l’esperienza dei droni. Gli abbattimenti di altri piloti non vengono condivisi. Un’altra eccezione: quando due o più piloti di un gruppo hanno danneggiato l’alieno, il suo bottino viene diviso in base ai danni inflitti in una [cassa personale](/wiki/03-Mechanics/Cargo.md#personal-crates) per ciascuno di loro.
 
 ## Missioni condivise {#sharing-missions}
 
@@ -91,9 +91,9 @@ Il server sottopone ogni riga ad alcune regole, uguali in Locale, Globale, Grupp
 
 - **Un limite alla velocità d’invio.** Puoi inviare **5 righe** in una volta, poi **una riga in più ogni 2 secondi**, contate insieme per Locale, Globale, Gruppo e i messaggi privati. Se invii una riga quando non ne resta nessuna, la chat va **in pausa** per te: **10 secondi** la prima volta, poi **30**, **120** e **300 secondi** a ogni ripetizione entro 10 minuti dall’ultima pausa (dopo 10 minuti senza pause il conto riparte). Finché dura, il pulsante Invia è grigio e “Chat in pausa: 7 s” conta alla rovescia sotto il campo. **Il testo che hai scritto resta nel campo** e il campo mantiene la tastiera: aspetta oppure premi **Escape**. Una conversazione normale non raggiunge mai il limite. Una riga rifiutata dalle regole conta come 2 righe della tua scorta.
 - **200 caratteri** per riga. Un contatore (“150/200”) compare da 120 caratteri, e una riga più lunga viene tagliata.
-- **Le scritture delle lingue del gioco.** Le lettere degli alfabeti latini con i loro accenti (é, ß, ñ, ø, ő), il cirillico (russo, ucraino e gli altri), il testo giapponese, coreano e cinese, il segno di numero №, le cifre, la punteggiatura usuale e i segni ¡ ¿ « » ° £ €. Emoji, altri simboli e altre scritture (greco, arabo, ebraico, thai) vengono rifiutati, e il campo li scarta mentre scrivi o incolli. Il testo cinese, giapponese e coreano si può incollare; scriverlo con un metodo di input nel gioco non funziona ancora. Un server di gioco più vecchio accetta solo lettere latine.
+- **Le scritture delle lingue del gioco.** Le lettere degli alfabeti latini con i loro accenti (é, ß, ñ, ø, ő), il cirillico (russo, ucraino e gli altri), il testo giapponese, coreano e cinese, il segno di numero №, le cifre, la punteggiatura usuale e i segni ¡ ¿ « » ° £ €. I caratteri emoji, altri simboli e altre scritture (greco, arabo, ebraico, thai) vengono rifiutati, e il campo li scarta mentre scrivi o incolli. Un pilota Premium sceglie le emoji con il pulsante della faccina accanto al campo, che mette nella riga un codice come `:fire:`. Il testo cinese, giapponese e coreano si può incollare; scriverlo con un metodo di input nel gioco non funziona ancora. Un server di gioco più vecchio accetta solo lettere latine.
 - **Niente link.** Una riga con un indirizzo web, un link d’invito o un indirizzo e-mail viene rifiutata, anche quando è mascherata nei modi più comuni. Le parole da sole vanno bene: “join my discord” passa.
-- **Niente ripetizioni.** La stessa riga della tua ultima, inviata di nuovo entro 10 secondi, viene rifiutata, così come una riga con lo stesso carattere più di 8 volte di fila o senza nessuna lettera né cifra.
+- **Niente ripetizioni.** La stessa riga della tua ultima, inviata di nuovo entro 10 secondi, viene rifiutata, così come una riga con lo stesso carattere più di 8 volte di fila o senza nessuna lettera né cifra. Gli smiley digitati fanno eccezione: una riga composta solo da quelli più comuni, come `:)` `;)` `:D` `<3` `^_^`, viene inviata.
 
 Gli admin non sono soggetti a queste regole, tranne che ai 200 caratteri. Le regole richiedono un server di gioco dalla 0.4.9 in poi; uno più vecchio limita solo Globale, a 3 righe in una volta e poi una ogni 2 secondi.
 

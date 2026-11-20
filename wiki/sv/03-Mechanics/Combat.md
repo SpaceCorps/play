@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Strid -->
 # Stridsmekanik {#combat-mechanics}
 
@@ -75,7 +75,7 @@ En utomjordings belöning går till piloten som sköt den först, inte till den 
 - **Att se det**: när du väljer en utomjording som en annan pilot har paxat visar Målfönstret *Paxad av* den piloten och *Ingen belöning*.
 - [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md) paxar aldrig en utomjording, och en utomjording de gör slut på betalar ändå piloten som har paxet.
 - En pilot i en [grupp](/wiki/03-Mechanics/Groups.md) delar det som dess pax betalar med de gruppkamrater som är nära och skjuter; själva paxet är pilotens ensam.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare, Dormant Pulses och [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är undantaget**: en svärmboss, varje Dormant Pulse och varje Clan Warden betalar efter den skada varje pilot gjort på dem, inte efter första träffen, och deras lastlåda går till piloten som gjorde mest skada ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). De övriga följeslagarna, Pirate Scouts och Seeker Slaves, betalar efter paxet som vilken utomjording som helst. Ett svärmskepps PvE-poäng står på sidan Svärmar.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare, Dormant Pulses och [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är undantaget**: en svärmboss, varje Dormant Pulse och varje Clan Warden betalar efter den skada varje pilot gjort på dem, inte efter första träffen, och deras lastlåda går till piloten som gjorde mest skada ([hur nedskjutningen av en boss betalar](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). De övriga följeslagarna, Pirate Scouts och Seeker Slaves, betalar efter paxet som vilken utomjording som helst. Ett svärmskepps PvE-poäng står på sidan Svärmar. När gruppen till den som gjorde mest skada har två eller fler piloter som skadade bossen delas dess låda upp i en personlig låda för var och en av dem ([Last](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Csoportok -->
 # Csoportok {#groups}
 
@@ -39,7 +39,7 @@ Mindenki a **szintjével** arányos részt kap, bármelyik vállalatból való i
 
 A kilövés értesítése ezt jelzi: a kilövő saját **JUTALOM** sora mutatja a részét, utána ez következik: „A jutalom megosztva 2 csoporttárssal: a te részed 40%.”, a részt kapó csoporttárs pedig ezt olvassa: „*pilóta* megsemmisített egy *Alien* idegent; a csoportod részesedése téged illet”, az összegekkel. Az értesítések a Játéknaplóban jelennek meg.
 
-Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyagok; a kivétel egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), amelynek zsákmánya minden részt kapó csoporttársnak privát láda), a kilövés a statisztikájában és a rangsorában, a wipe-pontokhoz tartozó kilövésszám és a drónok tapasztalata. Más pilóták kilövéseit nem osztják meg.
+Ami egyedül a kilövőé marad: a **rakományláda** (zsákmány és nyersanyagok; a kivétel egy [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), amelynek zsákmánya minden részt kapó csoporttársnak privát láda), a kilövés a statisztikájában és a rangsorában, a wipe-pontokhoz tartozó kilövésszám és a drónok tapasztalata. Más pilóták kilövéseit nem osztják meg. Még egy kivétel: ha egy csoport legalább két pilótája megsebezte az idegent, a zsákmányát az okozott sebzés arányában [személyes ládákra](/wiki/03-Mechanics/Cargo.md#personal-crates) osztják, mindegyikük számára egyet.
 
 ## Küldetések megosztása {#sharing-missions}
 
@@ -91,9 +91,9 @@ A szerver minden sort néhány szabályhoz mér, amelyek a Helyi, a Globális é
 
 - **Korlát a küldés sebességére.** Egyszerre **5 sort** küldhetsz, utána **2 másodpercenként még egyet**, a Helyi, a Globális, a Csoport és a privát üzenetek együtt számolva. Ha akkor küldesz sort, amikor már egy sem maradt, a chat **szünetet** tart neked: először **10 másodpercig**, utána **30**, **120** és **300 másodpercig** minden ismétlésnél, ha az utolsó szünet után 10 percen belül történik (ha 10 percig nem volt szünet, a számolás újraindul). Amíg tart, a Küldés gomb szürke, a beviteli mező alatt pedig visszaszámol a felirat: „A chat szünetel: 7 mp”. **A beírt szöveg a mezőben marad**, és a mező megtartja a billentyűzetet: várj, vagy nyomd meg az **Escape** billentyűt. Egy átlagos beszélgetés sosem éri el a korlátot. A szabályok által elutasított sor 2 sornak számít a keretedből.
 - **200 karakter** soronként. Egy számláló („150/200”) 120 karaktertől látszik, és a hosszabb sort levágja a játék.
-- **A játék nyelveinek írásrendszerei.** A latin ábécék betűi ékezeteikkel (é, ß, ñ, ø, ő), a cirill írás (orosz, ukrán és a többi), a japán, a koreai és a kínai szöveg, a numero jel №, számjegyek, a szokásos írásjelek és a ¡ ¿ « » ° £ € jelek. Az emojik, más szimbólumok és más írásrendszerek (görög, arab, héber, thai) el lesznek utasítva, a mező pedig gépelés vagy beillesztés közben kihagyja őket. A kínai, japán és koreai szöveg beilleszthető; beviteli móddal gépelni a játékban még nem működik. A régebbi játékszerver csak latin betűket fogad el.
+- **A játék nyelveinek írásrendszerei.** A latin ábécék betűi ékezeteikkel (é, ß, ñ, ø, ő), a cirill írás (orosz, ukrán és a többi), a japán, a koreai és a kínai szöveg, a numero jel №, számjegyek, a szokásos írásjelek és a ¡ ¿ « » ° £ € jelek. Az emoji karakterek, más szimbólumok és más írásrendszerek (görög, arab, héber, thai) el lesznek utasítva, a mező pedig gépelés vagy beillesztés közben kihagyja őket. A Prémium pilóta a mező melletti smiley gombbal választ emojit, amely egy `:fire:` formájú kódot tesz a sorba. A kínai, japán és koreai szöveg beilleszthető; beviteli móddal gépelni a játékban még nem működik. A régebbi játékszerver csak latin betűket fogad el.
 - **Nincs link.** Az a sor, amelyben webcím, meghívólink vagy e-mail-cím van, el lesz utasítva, akkor is, ha a szokásos módszerekkel álcázták. Önmagukban a szavak rendben vannak: a „join my discord” kimegy.
-- **Nincs ismétlés.** Az utolsó soroddal megegyező sor, ha 10 másodpercen belül újra elküldöd, el lesz utasítva, ahogy az a sor is, amelyben ugyanaz a karakter több mint 8-szor van egymás után, vagy amelyben nincs betű vagy számjegy.
+- **Nincs ismétlés.** Az utolsó soroddal megegyező sor, ha 10 másodpercen belül újra elküldöd, el lesz utasítva, ahogy az a sor is, amelyben ugyanaz a karakter több mint 8-szor van egymás után, vagy amelyben nincs betű vagy számjegy. A begépelt hangulatjelek kivételek: az a sor, amely csak a megszokottakból áll, például `:)` `;)` `:D` `<3` `^_^`, elmegy.
 
 Az adminokra ezek a szabályok nem vonatkoznak, csak a 200 karakter. A szabályokhoz 0.4.9-es vagy újabb játékszerver kell; egy régebbi csak a Globálist korlátozza, egyszerre 3 sorra, utána 2 másodpercenként egyre.
 

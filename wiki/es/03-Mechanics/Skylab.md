@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ El Módulo de defensa combate por tu Skylab. Aloja los láseres que disparan a l
 - **Qué se monta**: objetos [Laser](/wiki/06-Items/Lasers.md) con sus amplificadores dentro, de tu inventario: un Quantum Laser I, II o III, un Starfire-III o un Helios Beam. Todos los láseres disparan a la vez, uno por segundo cada uno. Los amplificadores cuentan como en una nave (daño, probabilidad de crítico y daño crítico); un Penetration Amp no aporta nada aquí.
 - **El cargador** guarda disparos de los tipos de la Impresora de munición y se llena **solo desde la Impresora de munición**, nunca desde tu inventario (consulta [Montaje y munición](#fits-and-ammunition)).
 - **La puerta**: una celda de dificultad 3, por ejemplo, solo la puede pisar un Skylab cuyo Módulo de defensa esté en el nivel 3 o más. Un Skylab sin Módulo de defensa solo puede cruzar el espacio vacío y su puerto.
-- **El presupuesto de bajas** es lo máximo que el Skylab puede ganar por hora: 108 puntos de recompensa en el nivel 1 y 630 en el nivel 5 (consulta [Lo que paga un viaje](#what-a-trip-pays)).
+- **El presupuesto de bajas** es lo máximo que el Skylab puede ganar por hora: 216 puntos de recompensa en el nivel 1 y 1.260 en el nivel 5 (consulta [Lo que paga un viaje](#what-a-trip-pays)).
 - **El casco** crece con el nivel (consulta [El casco, la destrucción y la reparación](#the-hull-and-repair)).
 - **Investigación**: cada nivel necesita su propia tecnología, Módulo de defensa I a V (consulta la tabla de arriba).
 - **Energía**: 80 en el nivel 1, con un aumento del 25 % por nivel. Se puede apagar, pero no mientras el Skylab está de viaje. Un módulo apagado, en mejora o sin energía está oscuro: el Skylab no combate nada y pasa por las celdas sin luchar.
@@ -293,11 +293,11 @@ El Módulo de defensa combate por tu Skylab. Aloja los láseres que disparan a l
 
 | Nivel | Láseres | Cargador (disparos) | Presupuesto de bajas (puntos por hora) | Dificultad máxima |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.500 | 108 | 1 |
-| 2 | 2 | 4.200 | 293 | 2 |
-| 3 | 3 | 16.000 | 476 | 3 |
-| 4 | 4 | 27.000 | 548 | 4 |
-| 5 | 5 | 41.000 | 630 | 5 |
+| 1 | 1 | 3.000 | 216 | 1 |
+| 2 | 2 | 8.300 | 586 | 2 |
+| 3 | 3 | 31.000 | 953 | 3 |
+| 4 | 4 | 53.000 | 1.095 | 4 |
+| 5 | 5 | 80.000 | 1.260 | 5 |
 
 | Nivel | Créditos | Thulium | Placas | Tiempo |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ En total, los tres niveles cuestan 3.250.000 créditos, 13.000 de Thulium, 4 pla
 La Bahía de trofeos guarda lo que traen las bajas de tu Skylab hasta que lo recojas. Tiene los niveles 1 a 20 y no necesita tecnología.
 
 - **Qué guarda**: créditos, Thulium, experiencia, honor y el botín de las bajas.
-- **La capacidad** se cuenta en **objetos de botín**: solo el botín ocupa sitio. Los créditos, el Thulium, la experiencia y el honor no ocupan ninguno, por mucho que traigan las bajas (desde la 0.4.27; antes, la recompensa de una baja llenaba la bahía). Guarda 650 objetos en el nivel 1 y 45.000 en el nivel 20. Un Seeker trae un objeto por baja más o menos, así que una bahía se llena unas diez veces más despacio que antes.
+- **La capacidad** se cuenta en **objetos de botín**: solo el botín ocupa sitio. Los créditos, el Thulium, la experiencia y el honor no ocupan ninguno, por mucho que traigan las bajas (desde la 0.4.27; antes, la recompensa de una baja llenaba la bahía). Guarda 1.300 objetos en el nivel 1 y 91.000 en el nivel 20. Un Seeker trae un objeto por baja más o menos, así que una bahía se llena unas diez veces más despacio que antes.
 - **Llena**: una bahía llena hace que el Skylab **deje de disparar**: no se mata, ni se paga, ni se cuenta nada y no se gasta munición hasta que recojas (el casco sigue recuperándose). Un mensaje, un aviso emergente, una etiqueta ámbar **Bahía llena** en la barra de la estación, un aviso en la página del Skylab y el aviso de la fila del Skylab en la barra lateral te lo dicen, en el momento en que se llena, también mientras el Skylab está de viaje.
 - **Recoger** en la ventana Universo, con la nave aterrizada: los créditos y el Thulium van a tu cuenta, la experiencia y el honor a tu piloto y el botín a tu inventario. Dos recogidas a la vez pagan una sola vez.
 - **El botín** se tira para cada baja a partir de lo que suelta el alienígena, nunca Dark Matter, Ancient Control Units, N.I.K.E. ni N.U.K.E. **No es comercializable**: no se puede vender en la [Subasta](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ La Bahía de trofeos guarda lo que traen las bajas de tu Skylab hasta que lo rec
 
 | Nivel | Capacidad (objetos) | Créditos | Thulium | Tiempo |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (la construcción) | 650 | 100.000 | 400 | – |
-| 2 | 810 | 117.500 | 470 | 15 min |
-| 5 | 1.600 | 195.000 | 780 | 34 min |
-| 10 | 4.800 | 450.000 | 1.800 | 2 h 18 min |
-| 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
-| 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
+| 1 (la construcción) | 1.300 | 100.000 | 400 | – |
+| 2 | 1.600 | 117.500 | 470 | 15 min |
+| 5 | 3.200 | 195.000 | 780 | 34 min |
+| 10 | 9.700 | 450.000 | 1.800 | 2 h 18 min |
+| 15 | 30.000 | 1.025.000 | 4.100 | 9 h 14 min |
+| 20 | 91.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
 Cuánto tarda en llenarse una bahía cuando el Skylab gana todo el presupuesto de bajas de su nivel de defensa en una celda de esa dificultad, con el botín que traen esos alienígenas (una bahía más pequeña se llena antes, un presupuesto menor tarda más):
 
 | Nivel de defensa | Bahía nivel 1 | Bahía nivel 5 | Bahía nivel 10 | Bahía nivel 15 | Bahía nivel 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Peso y velocidad {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Sobre las filas, una **advertencia** dice cuándo el viaje no rendiría nada: na
 
 Una baja paga lo que paga su alienígena en tu mundo: sus créditos, su Thulium, su experiencia y su honor multiplicados por el pago del mundo (1, 2 y 3 en Alpha, Beta y Gamma), y su botín. No se añade nada: ningún potenciador, ningún premium, ninguna bonificación de formación, ningún impulso de clan y ninguna experiencia para tus drones.
 
-Las bajas por hora son el menor de tres límites: los alienígenas que pasan, el **presupuesto de bajas** del nivel de tu Módulo de defensa, y lo que pueden hacer tus láseres y tu munición. El presupuesto es lo que mantiene a un Skylab desatendido como complemento de las granjas y no como segundo empleo: 108, 293, 476, 548 y 630 puntos de recompensa por hora en los niveles de defensa 1 a 5, donde un punto es 1 de Thulium o 200 créditos. **Una celda paga según su nivel**: a un Skylab se le paga el menor entre el presupuesto de su nivel de defensa y el presupuesto de la dificultad de la celda, así que un Skylab de Defensa 5 en una celda de dificultad 1 hace allí lo que uno de Defensa 1.
+Las bajas por hora son el menor de tres límites: los alienígenas que pasan, el **presupuesto de bajas** del nivel de tu Módulo de defensa, y lo que pueden hacer tus láseres y tu munición. El presupuesto es lo que mantiene a un Skylab desatendido como complemento de las granjas y no como segundo empleo: 216, 586, 953, 1.095 y 1.260 puntos de recompensa por hora en los niveles de defensa 1 a 5, donde un punto es 1 de Thulium o 200 créditos. **Una celda paga según su nivel**: a un Skylab se le paga el menor entre el presupuesto de su nivel de defensa y el presupuesto de la dificultad de la celda, así que un Skylab de Defensa 5 en una celda de dificultad 1 hace allí lo que uno de Defensa 1.
 
 Lo máximo que paga un día en una celda (Alpha; Beta y Gamma pagan 1,6 y 2 veces más):
 
 | Dificultad | Puntos de recompensa por hora | Bajas por día | Thulium por día | Créditos por día |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1.152 | 288.000 |
-| 2 | 293 | 469 | 3.124 | 780.911 |
-| 3 | 476 | 224 | 5.524 | 1.181.375 |
-| 4 | 548 | 86 | 5.503 | 1.528.510 |
-| 5 | 630 | 32 | 5.255 | 1.972.329 |
+| 1 | 216 | 576 | 2.304 | 576.000 |
+| 2 | 586 | 937 | 6.247 | 1.561.822 |
+| 3 | 953 | 447 | 11.047 | 2.362.749 |
+| 4 | 1.095 | 171 | 11.005 | 3.057.021 |
+| 5 | 1.260 | 63 | 10.511 | 3.944.658 |
 
-Un día en una celda vale unas dos horas de cazar esa celda a mano (3,4 horas en dificultad 4). Desde la dificultad 3 es aproximadamente un 30 % de lo que una Granja de Thulium con el Núcleo en el nivel 15 hace en Thulium (18.240 por día) y de 0,6 a 1,1 veces lo que una Granja de créditos de ese nivel hace en créditos (1.836.000 por día). Una deriva de dificultad 2 guarda menos alienígenas de los que paga su presupuesto y hace algo menos.
+Un día en una celda vale unas cuatro horas de cazar esa celda a mano (6,9 horas en dificultad 4). Desde la dificultad 3 es aproximadamente un 60 % de lo que una Granja de Thulium con el Núcleo en el nivel 15 hace en Thulium (18.240 por día) y de 1,3 a 2,1 veces lo que una Granja de créditos de ese nivel hace en créditos (1.836.000 por día). Una deriva de dificultad 2 guarda menos alienígenas de los que paga su presupuesto y hace algo menos.
 
 El **botín** de una baja se tira a partir de lo que suelta su alienígena: Ship Fragments, minerales, Reinforced Hull Plates y Power Cores, y, desde la dificultad 5, munición Ultra Core y Experimental Fusion Core.
 

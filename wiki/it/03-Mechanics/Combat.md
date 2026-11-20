@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Combattimento -->
 # Meccaniche di combattimento {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Le ricompense di un alieno vanno al pilota che gli ha sparato per primo, non a c
 - **Vederla**: quando selezioni un alieno rivendicato da un altro pilota, la finestra Bersaglio mostra *Rivendicato da* quel pilota e *Senza premio*.
 - I [piloti di corporazione](/wiki/03-Mechanics/Company-Pilots.md) non rivendicano mai un alieno, e un alieno che finiscono paga comunque il pilota che ne detiene la rivendicazione.
 - Un pilota in un [gruppo](/wiki/03-Mechanics/Groups.md) condivide ciò che paga la sua rivendicazione con i compagni di gruppo che sono vicini e stanno sparando; la rivendicazione in sé è solo del pilota.
-- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md), le Dormant Pulse e i [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sono l’eccezione**: un boss di sciame, ogni Dormant Pulse e ogni Clan Warden pagano in base al danno che ha inflitto loro ogni pilota, non in base al primo colpo, e la loro cassa di carico va al pilota che ha inflitto più danno ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Gli altri seguaci, i Pirate Scout e i Seeker Slave, pagano in base alla rivendicazione, come ogni alieno. I punti PvE di una nave di sciame sono nella pagina Sciami.
+- **I capi degli [sciami](/wiki/05-Swarms/Swarms.md), le Dormant Pulse e i [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) sono l’eccezione**: un boss di sciame, ogni Dormant Pulse e ogni Clan Warden pagano in base al danno che ha inflitto loro ogni pilota, non in base al primo colpo, e la loro cassa di carico va al pilota che ha inflitto più danno ([come paga l’abbattimento di un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Gli altri seguaci, i Pirate Scout e i Seeker Slave, pagano in base alla rivendicazione, come ogni alieno. I punti PvE di una nave di sciame sono nella pagina Sciami. Quando il gruppo di chi ha inflitto più danni ha due o più piloti che hanno danneggiato il boss, la sua cassa viene divisa in una cassa personale per ciascuno di loro ([Carico](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

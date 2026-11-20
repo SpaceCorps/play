@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Objets spéciaux -->
 # Objets spéciaux {#special-items}
 
@@ -68,7 +68,7 @@ Fait monter **une pièce d’équipement d’un rang de Forge**. Il **réussit t
 
 - **Dès Standard.** La pièce peut être à n’importe quel rang en dessous d’Ascendant : même la première étape, de Standard à Éveillé, accepte un Badge.
 - **Une étape.** Un Badge fait passer une pièce Standard à Éveillé, une pièce Éveillé à Résonant, une pièce Résonant à Radieux, une pièce Radieux à Ascendant.
-- **Les bonus sont tirés comme à la Forge.** Chaque bonus que porte la pièce est relancé dans la plage du nouveau rang et la meilleure valeur est gardée, et un emplacement s’éveille : une pièce de Badge vaut une pièce de Forge.
+- **Les bonus sont tirés comme à la Forge.** Chaque bonus que porte la pièce est relancé dans la plage du nouveau rang et la meilleure valeur est gardée, et un emplacement s’éveille, et le bonus gratuit d’une montée de rang (25 % de chances) est aussi tiré : une pièce de Badge vaut une pièce de Forge.
 - **Les autres règles de la Forge s’appliquent.** Une seule pièce pouvant porter des bonus ; pas dans le cache de transport ; pas déjà Ascendant. Une pièce montée sur un vaisseau agit aussitôt avec son nouveau rang, et elle garde son étiquette Commercialisable.
 - Vous le trouvez sous la forme d’un second bouton à côté de **Monter de rang** dans la Forge, visible quand vous possédez un Badge et que la pièce choisie convient.
 

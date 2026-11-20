@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05a73168e3b3eb9d -->
+<!-- wiki-i18n source: 3ea7307884a625ab -->
 <!-- wiki-i18n title: Kargo -->
 # Kargo kutuları {#cargo-boxes}
 
@@ -8,11 +8,11 @@ Yok edilen uzaylılar ganimetlerini uzayda parlayan kargo kutuları olarak bıra
 
 ## Neler düşer {#what-drops}
 
-- **Uzaylılar** ganimetlerini patladıkları yerde tek bir kutu olarak bırakır: her uzaylının *Ganimet* bölümünde sayılan kaynaklar ve parçalar (bkz. [Uzaylılar](/wiki/04-Aliens/Phantasm.md) sayfaları). Kredi, Thulium, XP ve onur ise öldürmeyi yaptığın anda ödenir. Ganimeti boş çıkan bir uzaylı (beş seferin dördünde bir Seeker) kutu bırakmaz.
+- **Uzaylılar** ganimetlerini patladıkları yerde tek bir kutu olarak bırakır: her uzaylının *Ganimet* bölümünde sayılan kaynaklar ve parçalar (bkz. [Uzaylılar](/wiki/04-Aliens/Phantasm.md) sayfaları). Kredi, Thulium, XP ve onur ise öldürmeyi yaptığın anda ödenir. Ganimeti boş çıkan bir uzaylı (beş seferin dördünde bir Seeker) kutu bırakmaz. **Birlikte savaşan bir grup, uzaylıya hasar veren her pilot için bir kutu alır** (bkz. [kişisel kutular](#personal-crates)).
 - **Şirket pilotları** yok edildiklerinde, onları kim ya da ne yok ederse etsin, kutu bırakmaz. Bkz. [Şirket pilotları](/wiki/03-Mechanics/Company-Pilots.md).
 - **Oyuncu gemileri** yok edildiklerinde, onları kim ya da ne yok ederse etsin, ne enkaz ne de kutu bırakır; pilotun envanterinden de hiçbir şey alınmaz.
 - **Kara delik**, içine ateşlenen her N.I.K.E. roketi için bölgesinin kenarına **Dark Matter** kutuları bırakır (bkz. [Kara delik](/wiki/03-Mechanics/Black-Hole.md)). Deliğin halkasının içinde duran tek kutu türü bunlardır.
-- **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri (Tesseract hariç) ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil.
+- **[Sürü](/wiki/05-Swarms/Swarms.md) liderleri (Tesseract hariç) ve Dormant Pulse gemileri** kendilerine ait bir kutu bırakır; içinde cephane, roket ve kaynak olur. Kutu, gemiye en çok hasar veren pilota (ve o pilotun klanına) ayrılır, ona ilk vurana değil. Pilotun [grubunda](/wiki/03-Mechanics/Groups.md) gemiye hasar veren iki veya daha fazla pilot varsa, ganimet bunun yerine [kişisel kutulara](#personal-crates) bölünür.
 - **[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** böyle bir kutu bırakmaz: hasarın %5’ini veya fazlasını veren her pilot, ganimetten payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
 - **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** da enkazında kutu bırakmaz: öldürülmesinin ödediği her pilot, Hull Plate, Reinforced Plate, Power Core, Ancient Control Unit ve Dark Matter’dan payını içeren kendine ait bir [özel kutu](#private-boxes) alır.
 - **[Asteroitler](/wiki/03-Mechanics/Asteroid-Mining.md)** tek bir kutu yerine **parça** bırakır: kredi ve Thulium taşıyan küçük külçeler ve kristaller, bir de cevher taşıyan bir taş. Kredi ve Thulium, asteroit kırıldığında değil, bir parçayı topladığında ödenir. Parça bir kutu gibi toplanır; kendisi için bırakıldığı pilota ayrılır: 30 saniye boyunca yalnızca o pilot alabilir, klan arkadaşları alamaz; sonra bir kutuda olduğu gibi herkese açılır.
@@ -35,15 +35,24 @@ Kutunun ışıkları, içindeki en nadir eşyanın rengini alır: sıradan ganim
 
 ## Kutuyu kim alır {#who-gets-it}
 
-- Kutuyu **30 saniye** boyunca yalnızca öldürmenin ödemesini alan pilot ve o pilotun **klanının** üyeleri alabilir. Bir uzaylıda bu, onu bitiren kim olursa olsun sahiplenmeyi elinde tutan, yani ona ilk vuran pilottur (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)). Diğer pilotlar kutuyu karartılmış görür ve henüz alamaz; ona gönderilen bir gemi süre dolana kadar yakında bekler. [Asteroitlerin](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) parçaları bunun dışındadır: o 30 saniye boyunca onları yalnızca kendileri için bırakıldığı pilot alabilir, klan arkadaşları alamaz.
+- Kutuyu **30 saniye** boyunca yalnızca öldürmenin ödemesini alan pilot ve o pilotun **klanının** üyeleri alabilir. Bir uzaylıda bu, onu bitiren kim olursa olsun sahiplenmeyi elinde tutan, yani ona ilk vuran pilottur (bkz. [Savaş](/wiki/03-Mechanics/Combat.md)). Diğer pilotlar kutuyu karartılmış görür ve henüz alamaz; ona gönderilen bir gemi süre dolana kadar yakında bekler. [Asteroitlerin](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) parçaları bunun dışındadır: o 30 saniye boyunca onları yalnızca kendileri için bırakıldığı pilot alabilir, klan arkadaşları alamaz. Bir grupta hasar verenlerin her biri bunun yerine kendi kutusunu alır ([kişisel kutular](#personal-crates)).
 - Bundan sonra haritadaki **herkes** onu alabilir.
 - Kutuyu yalnızca kutunun bulunduğu haritadaki bir gemi alabilir: yolda (ya da toplamanın aldığı yarım saniye içinde) yok edilirsen, sıçrarsan ya da oyundan çıkarsan kutu başkaları için kalır.
 - İki pilot aynı kutuyu aynı anda toplarsa toplaması önce biten alır, tam bir kez; diğerine kutunun gittiği söylenir.
 - Kimsenin almadığı bir kutu **3 dakika** sonra sürüklenip gider (son 10 saniyesinde yanıp söner). Bir harita en fazla 64 kutu tutar; yenisi bu sayıyı aşacak olursa en eskisi gider. Bir [dev ekskavatörün](/wiki/03-Mechanics/Giant-Excavator.md) kutuları yere düştükleri andan itibaren herkese açıktır, bir kutudan daha uzun durur ve kendilerine ait bir havuzu vardır; bu yüzden başka bir kutuyu asla dışarı itmezler. Asteroit parçalarının 64’ün içinde kendilerine ait bir havuzu vardır: başka bir kutuyu asla dışarı itmezler ve başka hiçbir kutu bir parçayı dışarı itmez ([kurallar](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Dark Matter kutuları 4 dakika durur ve ilk dakika yalnızca senindir.
 
+## Kişisel kutular {#personal-crates}
+
+Bir [grubun](/wiki/03-Mechanics/Groups.md) iki veya daha fazla pilotu bir uzaylıya ya da bir sürü liderine hasar verdiyse ve öldürme gruba aitse, ganimeti her zamanki gibi bir kez belirlenir ve sonra **verilen hasara göre her biri için bir kutuya bölünür**: hasarın %60’ını veren pilot, her miktarın yaklaşık %60’ını alır.
+
+- **Her kutu 30 saniye boyunca yalnızca kendi pilotunundur**, klanının da grubunun da değil: diğerleri onu adıyla birlikte karartılmış görür. 30 saniye sonra haritadaki herkes, her kutu gibi onu da alabilir ve 3 dakika sonra kaybolur.
+- **Hiçbir eşya asla kopyalanmaz.** Eşit bölünemeyen şey (üç pilot arasında tek bir plaka, benzersiz bir parça), verilen hasarla ağırlıklandırılmış bir şansla yalnızca tek bir pilota gider: bir kez belirlenen plaka toplamda tek plaka kalır ve küçük payı olan pilot onu arada bir kazanır. Payı hiçbir şeye denk gelmeyen pilot kutu almaz.
+- **Yalnızca hasar veren pilotlar.** Hasar vermemiş bir grup arkadaşı ile öldürmeden önce yok edilen ya da haritadan ayrılan bir pilot kutu almaz; Kredi, Thulium, XP ve onur eskisi gibi ödenir. Tek başına uçan pilot ya da grubunda hasar veren tek kişi olan pilot, her zamanki gibi kendisi ve klanı için tek kutuyu alır.
+- **Enkazın çevresinde bir halka halinde dururlar**, böylece kendi kutunu tanırsın. Kişisel kutuların, haritanın 64 kutusunun yanında kendilerine ait bir havuzu vardır (en fazla 128), bu yüzden bir grubun öldürmesi başka bir kutuyu asla dışarı itmez.
+
 ## Özel kutular {#private-boxes}
 
-[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ganimeti tek bir pilot için tek bir kutu değildir: **hasarın en az %5’ini veren her pilot kendine ait bir kutu alır**; kutu, o pilotun payı için ayrıca belirlenir (hasarın %20’si için her miktarın yaklaşık beşte biri; [ayrıntılar](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) ganimeti de aynı şekilde işler: öldürülmesinin ödediği her pilot bir tane alır.
+[Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) ganimeti tek bir pilot için tek bir kutu değildir: **hasarın en az %5’ini veren her pilot kendine ait bir kutu alır**; kutu, o pilotun payı için ayrıca belirlenir (hasarın %20’si için her miktarın yaklaşık beşte biri; [ayrıntılar](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) ganimeti de aynı şekilde işler: öldürülmesinin ödediği her pilot bir tane alır. Öldürmenin ganimeti bir kez belirlenir ve pilotlar arasında bölünür, bu yüzden hiçbir eşya asla iki kutuda bulunmaz (bkz. [kişisel kutular](#personal-crates)).
 
 - **Onu yalnızca sen görürsün ve yalnızca sen alabilirsin.** Klanın ve grubun onu görmez ve alamaz; başkaları için kutu yok gibidir. Senin ekranında altında ince bir halkayla görünür.
 - **Öldürmeden sonra 10 dakika durur** ve bu sürenin tamamında senindir: 30 saniyelik bir bekleme yoktur. Sonra her kutu gibi sürüklenip gider. Warden ya da Tesseract yok edildiğinde Oyun Günlüğü sana ganimetten payını gösterir.

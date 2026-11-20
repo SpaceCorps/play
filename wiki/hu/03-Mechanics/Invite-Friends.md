@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 82acce8e49f71c02 -->
+<!-- wiki-i18n source: 8e41ef1c4ec70160 -->
 <!-- wiki-i18n title: Barátok meghívása -->
 # Barátok meghívása {#invite-friends}
 
@@ -7,7 +7,7 @@ Minden pilótának egyetlen személyes **meghívókódja** van. Az a barát, aki
 ## A kódod {#your-code}
 
 - Nyisd meg a **Közösség › Barátok meghívása** oldalt, hogy lásd a kódodat, amely így néz ki: `BCDF-GHJK`. Az első megnézéskor jön létre, és örökre a tiéd: soha nem változik, és senki más nem látja.
-- A **Kód másolása** a vágólapra teszi a kódot; a **Meghívó másolása** egy rövid szöveget tesz oda, amelyet egyből beilleszthetsz egy barátodnak: a játék neve, a kódod és az, hogy hol kell megadni (a Steamen kívül az is, honnan szerezhető be a játék). A Steam-verzióban az üzenet kihagyja a letöltési címet.
+- A **Kód másolása** a vágólapra teszi a kódot; a **Meghívó másolása** egy rövid szöveget tesz oda, amelyet egyből beilleszthetsz egy barátodnak: a játék neve, a kódod és az, hogy hol kell megadni (a Steamen és az iOS-en kívül az is, honnan szerezhető be a játék). A Steam-verzióban és az iOS-alkalmazásban az üzenet kihagyja a letöltési címet.
 - A kódot nagy- vagy kisbetűvel is beírhatod, kötőjellel vagy anélkül.
 
 ## Mit kap egy barát {#what-a-friend-gets}

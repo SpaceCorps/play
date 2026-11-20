@@ -146,7 +146,7 @@ Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une
 | **Elite Crystalys** | Gamma Foundry | 620 000 | 250 000 | 3 800–4 700 |
 | **Siege Construct** | Delta Siege | 1 150 000 | 1 730 000 | 3 400–4 200 |
 | **Omega Guardian** | Omega Vault | 1 340 000 | 840 000 | 2 600–3 200 |
-| **Evil Davidski** | Davidski's Nightmare | 550 000 | 660 000 | 2 600–3 200 |
+| **Evil Davidski** | Davidski's Nightmare | 5 500 000 | 6 600 000 | 7 800–9 600 |
 
 | Boss | Phase | Coque restante | Ce qu’il fait |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ Un boss est le vaisseau d’un alien agrandi, avec une coque, un bouclier et une
 | **Omega Guardian** | Shield Fortress | 100 % à 70 % | Son bouclier est fixé à ×1,5 de celui du boss. Toutes les 40 s, il appelle 6 Bulwark, au plus 12 en vie ; ils ne paient ni ne lâchent rien. |
 |  | Swarm Protocol | 70 % à 35 % | Toutes les 25 s, il appelle 12 Phantasm, au plus 24 en vie ; ils ne paient ni ne lâchent rien. Toutes les 30 s, une explosion de 140 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
 |  | Overload | 35 % à 0 % | Son bouclier est fixé à ×0,1 de celui du boss. Tous ses dégâts sont ×2,5. Après 2 min dans la phase, tous ses dégâts sont encore ×2. Toutes les 25 s, une explosion de 28 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. |
-| **Evil Davidski** | Evil Davidski | 100 % à 50 % | Il vous tire 6 roquettes Warden Rivet II, de 4 900 chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 2 salves de 8 météores, de 11 000 chacun sur tout ce qui se trouve à moins de 400 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 40 s, il appelle 5 Evil Protos, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
-|  | Angry | 50 % à 0 % | Son bouclier est fixé à ×0,5 de celui du boss. Tous ses dégâts sont ×1,5. Après 8 min dans la phase, tous ses dégâts sont encore ×2. Il vous tire 6 roquettes Warden Rivet III, de 2 600 chacune, une toutes les 0,4 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 3 salves de 8 météores, de 3 400 chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 45 s, une explosion de 35 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. Toutes les 40 s, il appelle 3 Evil Kitefin, au plus 6 en vie ; ils ne paient ni ne lâchent rien. |
+| **Evil Davidski** | Evil Davidski | 100 % à 50 % | Il vous tire 6 roquettes Dormant Lance, de 14 700 chacune, une toutes les 0,5 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 2 salves de 8 météores, de 33 000 chacun sur tout ce qui se trouve à moins de 400 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 40 s, il appelle 5 Evil Protos, au plus 10 en vie ; ils ne paient ni ne lâchent rien. |
+|  | Angry | 50 % à 0 % | Son bouclier est fixé à ×0,5 de celui du boss. Tous ses dégâts sont ×1,5. Après 8 min dans la phase, tous ses dégâts sont encore ×2. Il vous tire 6 roquettes Dormant Lance, de 7 800 chacune, une toutes les 0,4 s, en une rafale toutes les 30 s. Toutes les 1 min, il fait tomber 3 salves de 8 météores, de 10 200 chacun sur tout ce qui se trouve à moins de 420 unités de leur point de chute, 50 % d’entre eux visés sur vous ; chaque cercle s’affiche 3 s avant la chute. Toutes les 45 s, une explosion de 105 000 touche tout ce qui se trouve à moins de 700 unités du boss ; l’anneau s’affiche 2 s avant la chute. Toutes les 40 s, il appelle 3 Evil Kitefin, au plus 6 en vie ; ils ne paient ni ne lâchent rien. |
 
 <!-- solo-bosses:end -->
 

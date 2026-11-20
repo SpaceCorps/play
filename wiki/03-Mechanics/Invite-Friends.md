@@ -5,7 +5,7 @@ Every pilot has one personal **invite code**. A friend who is new to the game us
 ## Your Code
 
 - Open **Community › Invite Friends** to see your code, written like `BCDF-GHJK`. It is made the first time you look and is yours for good: it never changes, and nobody else sees it.
-- **Copy code** puts the code in your clipboard; **Copy invite message** puts a short text in it, ready to paste to a friend: the game's name, your code and where to enter it (and, outside Steam, where to get the game). In the Steam build the message leaves the download address out.
+- **Copy code** puts the code in your clipboard; **Copy invite message** puts a short text in it, ready to paste to a friend: the game's name, your code and where to enter it (and, outside Steam and iOS, where to get the game). In the Steam build and in the iOS app the message leaves the download address out.
 - You can type a code in upper or lower case, with or without the hyphen.
 
 ## What a Friend Gets

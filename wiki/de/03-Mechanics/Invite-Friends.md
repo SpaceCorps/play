@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 82acce8e49f71c02 -->
+<!-- wiki-i18n source: 8e41ef1c4ec70160 -->
 <!-- wiki-i18n title: Freunde einladen -->
 # Freunde einladen {#invite-friends}
 
@@ -7,7 +7,7 @@ Jeder Pilot hat einen persönlichen **Einladungscode**. Ein Freund, der neu im S
 ## Dein Code {#your-code}
 
 - Öffne **Community › Freunde einladen**, um deinen Code zu sehen, geschrieben wie `BCDF-GHJK`. Er wird beim ersten Hinsehen erzeugt und gehört dir für immer: Er ändert sich nie, und niemand sonst sieht ihn.
-- **Code kopieren** legt den Code in deine Zwischenablage; **Einladungstext kopieren** legt einen kurzen Text hinein, bereit zum Einfügen für einen Freund: der Name des Spiels, dein Code und wo man ihn eingibt (und, außerhalb von Steam, wo man das Spiel bekommt). In der Steam-Version lässt die Nachricht die Download-Adresse weg.
+- **Code kopieren** legt den Code in deine Zwischenablage; **Einladungstext kopieren** legt einen kurzen Text hinein, bereit zum Einfügen für einen Freund: der Name des Spiels, dein Code und wo man ihn eingibt (und, außerhalb von Steam und iOS, wo man das Spiel bekommt). In der Steam-Version und in der iOS-App lässt die Nachricht die Download-Adresse weg.
 - Du kannst einen Code in Groß- oder Kleinbuchstaben eingeben, mit oder ohne Bindestrich.
 
 ## Was ein Freund bekommt {#what-a-friend-gets}

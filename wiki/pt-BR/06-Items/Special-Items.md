@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Itens especiais -->
 # Itens especiais {#special-items}
 
@@ -68,7 +68,7 @@ Eleva **um equipamento em um grau da Forja**. **Sempre funciona** e **não custa
 
 - **De Padrão para cima.** A peça pode estar em qualquer grau abaixo de Ascendente: até o primeiro passo, de Padrão a Desperto, aceita um Badge.
 - **Um passo.** Um Badge leva uma peça de Padrão a Desperto, de Desperto a Ressonante, de Ressonante a Radiante e de Radiante a Ascendente.
-- **Os bônus são sorteados como na Forja.** Cada bônus que a peça tem é sorteado de novo na faixa do novo grau e o melhor valor fica, e um soquete desperta: uma peça de Badge é como uma da Forja.
+- **Os bônus são sorteados como na Forja.** Cada bônus que a peça tem é sorteado de novo na faixa do novo grau e o melhor valor fica, e um soquete desperta, e o bônus grátis de uma subida de grau (25% de chance) também é sorteado: uma peça de Badge é como uma da Forja.
 - **As outras regras da Forja valem.** Uma única peça que possa levar bônus; fora do Cache de Transporte; que ainda não seja Ascendente. Uma peça numa nave age na hora com o novo grau e mantém o rótulo Negociável.
 - Você o encontra como um segundo botão ao lado de **Subir de grau** na Forja, visível quando você tem um Badge e a peça escolhida se enquadra.
 

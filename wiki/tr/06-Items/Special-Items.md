@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Özel eşyalar -->
 # Özel eşyalar {#special-items}
 
@@ -68,7 +68,7 @@ Gerçek zamanla **10 saat** boyunca **Kredi Çiftliğin ve Thulium Çiftliğin i
 
 - **Standart’tan başlayarak.** Parça Yücelmiş’in altındaki herhangi bir kademede olabilir: ilk adım, Standart’tan Uyanmış’a, bile bir Badge alır.
 - **Tek adım.** Bir Badge, Standart bir parçayı Uyanmış, Uyanmış bir parçayı Rezonanslı, Rezonanslı bir parçayı Parlak, Parlak bir parçayı Yücelmiş yapar.
-- **Bonuslar Demirhane’deki gibi çekilir.** Parçanın taşıdığı her bonus yeni kademenin aralığında yeniden çekilir ve daha iyi değer kalır, bir yuva da uyanır; yani Badge ile yükseltilmiş parça, Demirhane ile yükseltilmiş parça gibidir.
+- **Bonuslar Demirhane’deki gibi çekilir.** Parçanın taşıdığı her bonus yeni kademenin aralığında yeniden çekilir ve daha iyi değer kalır, bir yuva da uyanır ve kademe yükseltmenin ücretsiz bonusu da (%25 şans) çekilir; yani Badge ile yükseltilmiş parça, Demirhane ile yükseltilmiş parça gibidir.
 - **Demirhane’nin diğer kuralları geçerlidir.** Bonus taşıyabilen tek bir parça; Nakliye Deposu’nda olmayan; henüz Yücelmiş olmayan. Gemideki bir parça yeni kademesiyle hemen çalışır ve Satılabilir etiketini korur.
 - Demirhane’de **Kademe yükselt** düğmesinin yanında ikinci bir düğme olarak bulursun; bir Badge’in varsa ve seçilen parça uygunsa görünür.
 

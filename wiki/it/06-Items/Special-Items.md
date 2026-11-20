@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Oggetti speciali -->
 # Oggetti speciali {#special-items}
 
@@ -68,7 +68,7 @@ Fa salire **un pezzo di equipaggiamento di un grado della Forgia**. **Riesce sem
 
 - **Da Standard in su.** Il pezzo può avere qualunque grado sotto Ascendente: anche il primo passo, da Standard a Risvegliato, accetta un Badge.
 - **Un passo.** Un Badge su un pezzo Standard lo rende Risvegliato, su un pezzo Risvegliato Risonante, su un pezzo Risonante Radioso, su un pezzo Radioso Ascendente.
-- **I bonus vengono tirati come nella Forgia.** Ogni bonus che il pezzo ha viene tirato di nuovo nell’intervallo del nuovo grado e resta il valore migliore, e si risveglia uno slot: un pezzo da Badge è come un pezzo di Forgia.
+- **I bonus vengono tirati come nella Forgia.** Ogni bonus che il pezzo ha viene tirato di nuovo nell’intervallo del nuovo grado e resta il valore migliore, e si risveglia uno slot, e si tira anche il bonus gratuito di una salita di grado (il 25% di probabilità): un pezzo da Badge è come un pezzo di Forgia.
 - **Valgono le altre regole della Forgia.** Un solo pezzo che possa portare bonus; non nel Deposito di trasporto; non già Ascendente. Un pezzo su una nave agisce subito con il suo nuovo grado e mantiene la sua etichetta Vendibile.
 - Lo trovi come secondo pulsante accanto a **Sali di grado** nella Forgia, visibile quando possiedi un Badge e il pezzo scelto rientra.
 

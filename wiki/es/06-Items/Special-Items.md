@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Objetos especiales -->
 # Objetos especiales {#special-items}
 
@@ -68,7 +68,7 @@ Sube **una pieza de equipo un grado de la Forja**. **Siempre funciona** y no cue
 
 - **A partir de Estándar.** La pieza puede estar en cualquier grado por debajo de Ascendido: incluso el primer paso, de Estándar a Despierto, admite una Badge.
 - **Un paso.** Una Badge sobre una pieza Estándar la deja Despierto, sobre una pieza Despierto la deja Resonante, sobre una Resonante, Radiante, y sobre una Radiante, Ascendido.
-- **Las bonificaciones se tiran como en la Forja.** Cada bonificación que tiene la pieza se vuelve a tirar en el rango del nuevo grado y se queda el mejor valor, y se despierta una ranura: una pieza de Badge es como una de la Forja.
+- **Las bonificaciones se tiran como en la Forja.** Cada bonificación que tiene la pieza se vuelve a tirar en el rango del nuevo grado y se queda el mejor valor, y se despierta una ranura, y además se tira la bonificación gratuita de una subida de grado (un 25 % de probabilidad): una pieza de Badge es como una de la Forja.
 - **Siguen las demás reglas de la Forja.** Una sola pieza que pueda llevar bonificaciones; no en el Alijo de Transporte; no ya Ascendido. Una pieza montada en una nave funciona con su nuevo grado al instante, y conserva su etiqueta de Comerciable.
 - La encuentras como un segundo botón junto a **Subir grado** en la Forja, visible cuando tienes una Badge y la pieza elegida cumple.
 

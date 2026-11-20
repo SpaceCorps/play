@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ Il Modulo Difesa combatte per il tuo Skylab. Ospita i laser che sparano agli ali
 - **Cosa si monta**: oggetti [Laser](/wiki/06-Items/Lasers.md) con i loro amplificatori dentro, dal tuo inventario: un Quantum Laser I, II o III, uno Starfire-III o un Helios Beam. Tutti i laser sparano insieme, un colpo ciascuno al secondo. Gli amplificatori contano come su una nave (danno, probabilità di critico e danno critico); un Penetration Amp qui non aggiunge nulla.
 - **Il caricatore** contiene colpi dei tipi della Stampante di munizioni e si riempie **solo dalla Stampante di munizioni**, mai dal tuo inventario (vedi [Montaggio e munizioni](#fits-and-ammunition)).
 - **Il cancello**: una cella di difficoltà 3, per esempio, può essere raggiunta solo da uno Skylab il cui Modulo Difesa sia al livello 3 o più. Uno Skylab senza Modulo Difesa può attraversare solo lo spazio vuoto e il suo porto.
-- **Il budget di abbattimenti** è il massimo che lo Skylab può guadagnare all’ora: 108 punti taglia al livello 1 e 630 al livello 5 (vedi [Cosa rende un viaggio](#what-a-trip-pays)).
+- **Il budget di abbattimenti** è il massimo che lo Skylab può guadagnare all’ora: 216 punti taglia al livello 1 e 1.260 al livello 5 (vedi [Cosa rende un viaggio](#what-a-trip-pays)).
 - **Lo scafo** cresce con il livello (vedi [Lo scafo, la distruzione e la riparazione](#the-hull-and-repair)).
 - **Ricerca**: ogni livello richiede la sua tecnologia, Modulo Difesa da I a V (vedi la tabella qui sopra).
 - **Energia**: 80 al livello 1, con un aumento del 25% per livello. Si può spegnere, ma non mentre lo Skylab è in viaggio. Un modulo spento, in potenziamento o senza energia è buio: lo Skylab non combatte nulla e passa le celle senza combattere.
@@ -293,11 +293,11 @@ Il Modulo Difesa combatte per il tuo Skylab. Ospita i laser che sparano agli ali
 
 | Livello | Laser | Caricatore (colpi) | Budget di abbattimenti (punti all’ora) | Difficoltà massima |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.500 | 108 | 1 |
-| 2 | 2 | 4.200 | 293 | 2 |
-| 3 | 3 | 16.000 | 476 | 3 |
-| 4 | 4 | 27.000 | 548 | 4 |
-| 5 | 5 | 41.000 | 630 | 5 |
+| 1 | 1 | 3.000 | 216 | 1 |
+| 2 | 2 | 8.300 | 586 | 2 |
+| 3 | 3 | 31.000 | 953 | 3 |
+| 4 | 4 | 53.000 | 1.095 | 4 |
+| 5 | 5 | 80.000 | 1.260 | 5 |
 
 | Livello | Crediti | Thulium | Piastre | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ In tutto i tre livelli costano 3.250.000 crediti, 13.000 Thulium, 4 piastre e 1 
 La Baia dei trofei conserva ciò che portano le uccisioni del tuo Skylab finché non lo ritiri. Ha i livelli da 1 a 20 e non richiede tecnologia.
 
 - **Cosa contiene**: crediti, Thulium, esperienza, onore e il bottino delle uccisioni.
-- **La capacità** si conta in **oggetti di bottino**: solo il bottino occupa spazio. Crediti, Thulium, esperienza e onore non ne occupano, per quanto ne portino le uccisioni (dalla 0.4.27; prima, a riempire la baia era la taglia di un abbattimento). Contiene 650 oggetti al livello 1 e 45.000 al livello 20. Un Seeker porta circa un oggetto per abbattimento, quindi una baia si riempie circa dieci volte più lentamente di prima.
+- **La capacità** si conta in **oggetti di bottino**: solo il bottino occupa spazio. Crediti, Thulium, esperienza e onore non ne occupano, per quanto ne portino le uccisioni (dalla 0.4.27; prima, a riempire la baia era la taglia di un abbattimento). Contiene 1.300 oggetti al livello 1 e 91.000 al livello 20. Un Seeker porta circa un oggetto per abbattimento, quindi una baia si riempie circa dieci volte più lentamente di prima.
 - **Piena**: una baia piena fa **smettere di sparare** allo Skylab: nulla viene abbattuto, pagato o contato e non si consumano munizioni finché non ritiri (lo scafo continua a rigenerarsi). Un messaggio, una notifica, una etichetta ambra **Baia piena** nella barra della stazione, un avviso nella pagina dello Skylab e il suggerimento della riga Skylab nella barra laterale lo dicono, nel momento in cui si riempie, anche mentre lo Skylab è in viaggio.
 - **Ritira** nella finestra Universo, con la nave atterrata: crediti e Thulium vanno sul tuo conto, esperienza e onore al tuo pilota e il bottino nel tuo inventario. Due ritiri contemporanei pagano una volta sola.
 - **Il bottino** è tirato per ogni abbattimento da ciò che lascia l’alieno, mai Dark Matter, Ancient Control Unit, N.I.K.E. o N.U.K.E. **Non è vendibile**: non si può vendere all’[Asta](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ La Baia dei trofei conserva ciò che portano le uccisioni del tuo Skylab finché
 
 | Livello | Capacità (oggetti) | Crediti | Thulium | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (la costruzione) | 650 | 100.000 | 400 | – |
-| 2 | 810 | 117.500 | 470 | 15 min |
-| 5 | 1.600 | 195.000 | 780 | 34 min |
-| 10 | 4.800 | 450.000 | 1.800 | 2 h 18 min |
-| 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
-| 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
+| 1 (la costruzione) | 1.300 | 100.000 | 400 | – |
+| 2 | 1.600 | 117.500 | 470 | 15 min |
+| 5 | 3.200 | 195.000 | 780 | 34 min |
+| 10 | 9.700 | 450.000 | 1.800 | 2 h 18 min |
+| 15 | 30.000 | 1.025.000 | 4.100 | 9 h 14 min |
+| 20 | 91.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
 Quanto ci mette una baia a riempirsi quando lo Skylab guadagna tutto il budget di abbattimenti del suo livello di difesa in una cella di quella difficoltà, con il bottino che portano quegli alieni (una baia più piccola si riempie prima, un budget più piccolo più lentamente):
 
 | Livello di difesa | Baia livello 1 | Baia livello 5 | Baia livello 10 | Baia livello 15 | Baia livello 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Peso e velocità {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Sopra le righe un **avviso** dice quando il viaggio non renderebbe nulla: niente
 
 Un abbattimento rende ciò che rende il suo alieno nel tuo mondo: i suoi crediti, il suo Thulium, la sua esperienza e il suo onore per la paga del mondo (1, 2 e 3 in Alpha, Beta e Gamma), e il suo bottino. Non si aggiunge nulla: niente booster, niente premium, niente bonus di formazione, niente boost del clan e niente esperienza per i tuoi droni.
 
-Gli abbattimenti all’ora sono il minore di tre limiti: gli alieni di passaggio, il **budget di abbattimenti** del livello del tuo Modulo Difesa, e ciò che i tuoi laser e le tue munizioni possono fare. Il budget è ciò che tiene uno Skylab incustodito come un’integrazione delle fattorie e non come un secondo lavoro: 108, 293, 476, 548 e 630 punti taglia all’ora ai livelli di difesa da 1 a 5, dove un punto è 1 Thulium o 200 crediti. **Una cella paga in base al suo scaglione**: a uno Skylab si paga il minore tra il budget del suo livello di difesa e il budget della difficoltà della cella, quindi uno Skylab con Difesa 5 in una cella di difficoltà 1 fa lì ciò che fa uno con Difesa 1.
+Gli abbattimenti all’ora sono il minore di tre limiti: gli alieni di passaggio, il **budget di abbattimenti** del livello del tuo Modulo Difesa, e ciò che i tuoi laser e le tue munizioni possono fare. Il budget è ciò che tiene uno Skylab incustodito come un’integrazione delle fattorie e non come un secondo lavoro: 216, 586, 953, 1.095 e 1.260 punti taglia all’ora ai livelli di difesa da 1 a 5, dove un punto è 1 Thulium o 200 crediti. **Una cella paga in base al suo scaglione**: a uno Skylab si paga il minore tra il budget del suo livello di difesa e il budget della difficoltà della cella, quindi uno Skylab con Difesa 5 in una cella di difficoltà 1 fa lì ciò che fa uno con Difesa 1.
 
 Cosa rende al massimo un giorno in una cella (Alpha; Beta e Gamma rendono 1,6 e 2 volte tanto):
 
 | Difficoltà | Punti taglia all’ora | Abbattimenti al giorno | Thulium al giorno | Crediti al giorno |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1.152 | 288.000 |
-| 2 | 293 | 469 | 3.124 | 780.911 |
-| 3 | 476 | 224 | 5.524 | 1.181.375 |
-| 4 | 548 | 86 | 5.503 | 1.528.510 |
-| 5 | 630 | 32 | 5.255 | 1.972.329 |
+| 1 | 216 | 576 | 2.304 | 576.000 |
+| 2 | 586 | 937 | 6.247 | 1.561.822 |
+| 3 | 953 | 447 | 11.047 | 2.362.749 |
+| 4 | 1.095 | 171 | 11.005 | 3.057.021 |
+| 5 | 1.260 | 63 | 10.511 | 3.944.658 |
 
-Un giorno in una cella vale circa due ore di caccia a mano in quella cella (3,4 ore in difficoltà 4). Dalla difficoltà 3 è circa il 30% di ciò che una Fattoria Thulium al livello 15 del Nucleo fa in Thulium (18.240 al giorno) e da 0,6 a 1,1 volte ciò che una Fattoria crediti di quel livello fa in crediti (1.836.000 al giorno). Una deriva di difficoltà 2 contiene meno alieni di quanti il suo budget ne paghi e rende un po’ meno.
+Un giorno in una cella vale circa quattro ore di caccia a mano in quella cella (6,9 ore in difficoltà 4). Dalla difficoltà 3 è circa il 60% di ciò che una Fattoria Thulium al livello 15 del Nucleo fa in Thulium (18.240 al giorno) e da 1,3 a 2,1 volte ciò che una Fattoria crediti di quel livello fa in crediti (1.836.000 al giorno). Una deriva di difficoltà 2 contiene meno alieni di quanti il suo budget ne paghi e rende un po’ meno.
 
 Il **bottino** di un abbattimento è tirato da ciò che lascia il suo alieno: Ship Fragment, minerali, Reinforced Hull Plate e Power Core, e dalla difficoltà 5 munizioni Ultra Core ed Experimental Fusion Core.
 

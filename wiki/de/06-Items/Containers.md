@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Container -->
 # Container {#containers}
 
@@ -7,13 +7,13 @@
 Ein **Container** ist ein versiegelter Fund von Mission Control. Wenn du einen öffnest, zieht der Server eine Belohnung aus einer Tabelle, und die Chance jeder Belohnung dieser Tabelle steht auf dieser Seite. Die Container-Seite des Spiels zeigt dieselbe Tabelle.
 
 > [!NOTE]
-> **Container sind Zufallsbelohnungen, die du im Spiel verdienst. Sie werden nie verkauft, und die Chancen sind hier veröffentlicht.** Kein Container kann gekauft, getauscht oder verschenkt werden.
+> **Container sind Zufallsbelohnungen, und die Chancen sind hier veröffentlicht.** Du verdienst sie im Spiel, und kein Container wird einzeln verkauft. Die einzige Ausnahme ist das Chroma-Archiv, das nur Looks enthält: Premium bringt 5 davon mit jedem Monat. Premium-Tage, die als Belohnung kommen, bringen keine. Kein Container kann getauscht oder verschenkt werden.
 
 ## Was ein Container ist {#what-a-container-is}
 
-- **Verdient.** Du verdienst Container im Spiel. Es gibt keinen Preis und keinen Schlüssel: Der Shop verkauft sie nicht, und sonst auch niemand.
+- **Verdient.** Du verdienst Container im Spiel. Es gibt keinen Preis und keinen Schlüssel: Der Shop verkauft sie nicht. Der einzige andere Weg sind die 5 Chroma-Archive, die Premium mit jedem Monat bringt (Premium-Tage, die als Belohnung kommen, bringen keine).
 - **Nur deiner.** Ein Container ist an dein Konto gebunden. Du kannst ihn nicht tauschen, einem Freund geben oder in der [Auktion](/wiki/03-Mechanics/Auction.md) einstellen, und auch nichts, was ein Container ergibt, kann dort eingestellt werden.
-- **Für jeden Piloten gleich.** Premium ändert nichts: Es gibt keine zusätzlichen Öffnungen und keine besseren Chancen.
+- **Für jeden Piloten gleich.** Premium gibt keine zusätzlichen Öffnungen und keine besseren Chancen. Was Premium mit jedem Monat bringt, sind 5 Chroma-Archive, und die enthalten nur Looks.
 - **Über den Wipe behalten.** Ein Container, den du nicht geöffnet hast, bleibt beim [Wipe](/wiki/03-Mechanics/Wipe-Timeline.md) auf deinem Konto. Was der Wipe mit den Belohnungen macht, steht unter [Der Wipe](#the-wipe).
 - **An der Station geöffnet.** Du öffnest einen Container angedockt, auf der Container-Seite. Der Server zieht die Belohnung, wenn du auf Öffnen drückst, und das Drücken selbst ändert nichts. Was zählt, steht unter [Wie eine Belohnung gewählt wird](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ Container erreichen dich auf diesen Wegen:
 - Als Belohnung für deinen Rang beim Wipe
 - Im Login-Kalender
 - Für Erfolge
+- Mit je 30 Tagen Premium: 5 Chroma-Archive, die nur Looks enthalten
 
 <!-- containers-sources:end -->
 

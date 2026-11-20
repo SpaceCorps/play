@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05a73168e3b3eb9d -->
+<!-- wiki-i18n source: 3ea7307884a625ab -->
 <!-- wiki-i18n title: Carga -->
 # Caixas de carga {#cargo-boxes}
 
@@ -8,11 +8,11 @@ Os alienígenas destruídos deixam o saque no espaço, em caixas de carga brilha
 
 ## O que cai {#what-drops}
 
-- **Alienígenas** deixam o saque em uma única caixa, no lugar onde explodiram: os recursos e as peças listados em *Saque* de cada alienígena (veja os artigos sobre [Alienígenas](/wiki/04-Aliens/Phantasm.md)). Créditos, Thulium, XP e honra continuam sendo pagos no instante em que você faz o abate. Um alienígena cujo saque não sorteia nada (um Seeker, quatro vezes em cada cinco) não deixa caixa.
+- **Alienígenas** deixam o saque em uma única caixa, no lugar onde explodiram: os recursos e as peças listados em *Saque* de cada alienígena (veja os artigos sobre [Alienígenas](/wiki/04-Aliens/Phantasm.md)). Créditos, Thulium, XP e honra continuam sendo pagos no instante em que você faz o abate. Um alienígena cujo saque não sorteia nada (um Seeker, quatro vezes em cada cinco) não deixa caixa. **Um grupo que lutou junto ganha uma caixa para cada piloto que o danificou** (veja as [caixas pessoais](#personal-crates)).
 - **Pilotos de corporação** não deixam caixa quando são destruídos, seja quem ou o que for que os destrua. Veja [Pilotos de corporação](/wiki/03-Mechanics/Company-Pilots.md).
 - **Naves de pilotos** não deixam destroços nem caixa quando são destruídas, seja quem ou o que for que as destrua, e nada é tirado do inventário do piloto.
 - **O buraco negro** deposita caixas de **Dark Matter** na borda da sua zona quando um foguete N.I.K.E. é disparado nele (veja [O buraco negro](/wiki/03-Mechanics/Black-Hole.md)). São o único tipo de caixa que fica dentro do anel do buraco.
-- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) (exceto o Tesseract) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou.
+- **Os líderes dos [enxames](/wiki/05-Swarms/Swarms.md) (exceto o Tesseract) e as Dormant Pulses** largam uma caixa própria, com munição, foguetes e recursos. Ela é reservada ao piloto que mais causou dano à nave (e ao clã desse piloto), não ao primeiro que a acertou. Se o [grupo](/wiki/03-Mechanics/Groups.md) desse piloto tem dois ou mais pilotos que danificaram a nave, o saque é dividido em [caixas pessoais](#personal-crates).
 - **Um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** não larga uma caixa assim: cada piloto que causou 5% do dano ou mais recebe uma [caixa privada](#private-boxes) só dele, com a sua parte do saque.
 - **O [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** também não larga uma caixa nos destroços: cada piloto que o abate paga recebe uma [caixa privada](#private-boxes) só dele, com a sua parte de Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units e Dark Matter.
 - Os **[asteroides](/wiki/03-Mechanics/Asteroid-Mining.md)** deixam **fragmentos** em vez de uma caixa: pequenas pepitas e cristais que guardam créditos e Thulium, e uma pedra que guarda minério. Os créditos e o Thulium são pagos quando você coleta um fragmento, não quando o asteroide quebra. Um fragmento é coletado como uma caixa, e fica reservado para o piloto para quem foi colocado: por 30 segundos só ele pode pegá-lo, não os colegas de clã dele, e depois fica livre, como uma caixa.
@@ -35,15 +35,24 @@ As luzes da caixa assumem a cor do item mais raro que há dentro: azul-petróleo
 
 ## Quem fica com a caixa {#who-gets-it}
 
-- O piloto pago pelo abate, e os membros do **clã** desse piloto, ficam com a caixa só para si durante **30 segundos**. No caso de um alienígena, esse piloto é quem detém a reivindicação dele, o primeiro a atingi-lo (veja [Combate](/wiki/03-Mechanics/Combat.md)), seja quem for que o termine. Os outros pilotos a veem esmaecida e ainda não podem pegá-la; uma nave enviada até ela espera por perto até o tempo acabar. Os fragmentos de um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) são a exceção: nesses 30 segundos só o piloto para quem foram colocados pode pegá-los, não os colegas de clã dele.
+- O piloto pago pelo abate, e os membros do **clã** desse piloto, ficam com a caixa só para si durante **30 segundos**. No caso de um alienígena, esse piloto é quem detém a reivindicação dele, o primeiro a atingi-lo (veja [Combate](/wiki/03-Mechanics/Combat.md)), seja quem for que o termine. Os outros pilotos a veem esmaecida e ainda não podem pegá-la; uma nave enviada até ela espera por perto até o tempo acabar. Os fragmentos de um [asteroide](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) são a exceção: nesses 30 segundos só o piloto para quem foram colocados pode pegá-los, não os colegas de clã dele. Quem causou dano num grupo recebe, em vez disso, uma caixa própria cada um ([caixas pessoais](#personal-crates)).
 - Depois disso, **qualquer um** no mapa pode pegá-la.
 - Só uma nave que esteja no mapa da caixa pode pegá-la: se você for destruído, saltar ou se desconectar no caminho (ou durante o meio segundo que a coleta leva), a caixa fica para os outros.
 - Se dois pilotos coletam a mesma caixa ao mesmo tempo, quem terminar a coleta primeiro fica com ela, uma única vez; o outro é avisado de que ela sumiu.
 - Uma caixa que ninguém pega some à deriva depois de **3 minutos** (ela pisca nos últimos 10 segundos). Um mapa comporta no máximo 64 caixas; quando uma nova passaria desse limite, a mais antiga some. Os fragmentos de asteroide têm um espaço próprio dentro das 64: eles não expulsam nenhuma outra caixa, e nenhuma outra caixa expulsa um fragmento ([as regras](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). As caixas de Dark Matter duram 4 minutos e são só suas no primeiro minuto. As caixas de uma [escavadeira gigante](/wiki/03-Mechanics/Giant-Excavator.md) são livres para qualquer um desde o momento em que caem, duram mais que uma caixa comum e têm um conjunto próprio, então nunca empurram outra caixa para fora.
 
+## Caixas pessoais {#personal-crates}
+
+Quando dois ou mais pilotos de um [grupo](/wiki/03-Mechanics/Groups.md) danificaram um alienígena ou o líder de um enxame e o grupo fica com o abate, o saque dele é sorteado uma só vez, como sempre, e depois **dividido em uma caixa para cada um deles conforme o dano que causaram**: um piloto que causou 60% do dano recebe cerca de 60% de cada quantidade.
+
+- **Cada caixa é só do seu piloto por 30 segundos**, não do clã dele nem do grupo: os outros a veem escurecida, com o nome dele. Passados os 30 segundos, qualquer um no mapa pode pegá-la, como qualquer caixa, e ela some depois de 3 minutos.
+- **Nenhum item é copiado jamais.** O que não se divide por igual (uma placa entre três pilotos, uma peça única) vai por sorteio, ponderado pelo dano causado, para um único piloto: uma placa sorteada uma vez continua sendo uma placa no total, e um piloto com uma parte pequena às vezes a ganha. Um piloto cuja parte dá em nada não recebe caixa.
+- **Só os pilotos que causaram dano.** Um colega de grupo que não causou dano, e um piloto que foi destruído ou saiu do mapa antes do abate, não recebem caixa; créditos, Thulium, XP e honra são pagos como antes. Um piloto que voa sozinho, ou o único do grupo que causou dano, recebe a caixa única para si e para o clã, como sempre.
+- **Elas ficam dispostas em círculo** ao redor dos destroços, para você reconhecer a sua. As caixas pessoais têm um conjunto próprio ao lado das 64 de um mapa (no máximo 128), então o abate de um grupo nunca empurra outra caixa para fora.
+
 ## Caixas privadas {#private-boxes}
 
-O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) não é uma caixa para um piloto só: **cada piloto que causou pelo menos 5% do dano recebe uma caixa só dele**, sorteada para a sua parte (para 20% do dano, cerca de um quinto de cada quantidade; [os detalhes](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). O saque do [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) funciona do mesmo jeito: cada piloto que o abate paga recebe uma.
+O saque de um [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) não é uma caixa para um piloto só: **cada piloto que causou pelo menos 5% do dano recebe uma caixa só dele**, sorteada para a sua parte (para 20% do dano, cerca de um quinto de cada quantidade; [os detalhes](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). O saque do [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) funciona do mesmo jeito: cada piloto que o abate paga recebe uma. O saque do abate é sorteado uma só vez e dividido entre os pilotos, então nenhum item fica jamais em duas caixas (veja as [caixas pessoais](#personal-crates)).
 
 - **Só você a vê e só você pode pegá-la.** O seu clã e o seu grupo não a veem e não podem pegá-la; para todos os outros ela simplesmente não existe. Na sua tela, ela tem um anel fino embaixo.
 - **Ela fica 10 minutos** a partir do abate, e durante todo esse tempo é sua: não há espera de 30 segundos. Depois ela vai à deriva como qualquer caixa. O Registro do jogo mostra a sua parte do saque quando o Guardião ou o Tesseract cai.

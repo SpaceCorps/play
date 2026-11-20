@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: 战斗 -->
 # 战斗机制 {#combat-mechanics}
 
@@ -75,7 +75,7 @@
 - **查看归属**：当你选中一个已被其他飞行员持有归属的外星人时，目标窗口会显示 *归属：* 该飞行员的名字，以及 *无奖励*。
 - [企业飞行员](/wiki/03-Mechanics/Company-Pilots.md)从不获得外星人的归属，他们补刀击杀的外星人，奖励仍归持有其归属的飞行员。
 - [小队](/wiki/03-Mechanics/Groups.md)中的飞行员，会把自己归属带来的奖励分给在附近且正在开火的队友；归属本身只属于这名飞行员一人。
-- **[虫群](/wiki/05-Swarms/Swarms.md)的头领、Dormant Pulse 和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 是例外**：虫群 Boss、每个 Dormant Pulse 和每个 Clan Warden 按每名飞行员对其造成的伤害支付奖励，而不是按第一击，各自的货箱归造成伤害最多的飞行员（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。其余的随从（Pirate Scout 和 Seeker Slave）和任何外星人一样按归属支付。虫群舰船的 PvE 积分见虫群页面。
+- **[虫群](/wiki/05-Swarms/Swarms.md)的头领、Dormant Pulse 和 [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) 是例外**：虫群 Boss、每个 Dormant Pulse 和每个 Clan Warden 按每名飞行员对其造成的伤害支付奖励，而不是按第一击，各自的货箱归造成伤害最多的飞行员（[Boss 击杀如何支付奖励](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)）。其余的随从（Pirate Scout 和 Seeker Slave）和任何外星人一样按归属支付。虫群舰船的 PvE 积分见虫群页面。当造成最多伤害的飞行员所在的小队里有两名或更多飞行员对首领造成过伤害时，它的货箱会分成每人一个个人货箱（[货箱](/wiki/03-Mechanics/Cargo.md#personal-crates)）。
 
 ---
 

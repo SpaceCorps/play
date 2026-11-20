@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Specialföremål -->
 # Specialföremål {#special-items}
 
@@ -68,7 +68,7 @@ Höjer **en utrustningsdel en nivå i Smedjan**. Det **lyckas alltid** och kosta
 
 - **Från Standard och uppåt.** Delen kan ha vilken nivå som helst under Uppstigen: redan det första steget, från Standard till Vaknad, tar ett Badge.
 - **Ett steg.** Ett Badge gör en Standard-del Vaknad, en Vaknad del Resonant, en Resonant del Strålande, en Strålande del Uppstigen.
-- **Bonusarna slumpas som i Smedjan.** Varje bonus delen bär slumpas om i den nya nivåns intervall och det bättre värdet behålls, och en sockel väcks, så en Badge-del är som en Smedje-del.
+- **Bonusarna slumpas som i Smedjan.** Varje bonus delen bär slumpas om i den nya nivåns intervall och det bättre värdet behålls, och en sockel väcks, och nivåhöjningens gratis bonus (25 % chans) slås också, så en Badge-del är som en Smedje-del.
 - **Smedjans övriga regler gäller.** En enda del som kan bära bonusar; inte i transportförrådet; inte redan Uppstigen. En del på ett skepp verkar direkt med sin nya nivå och behåller sin Säljbar-etikett.
 - Du hittar det som en andra knapp bredvid **Höj nivå** i Smedjan, synlig när du har ett Badge och den valda delen uppfyller kraven.
 

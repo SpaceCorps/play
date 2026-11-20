@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ O Módulo de defesa luta pelo seu Skylab. Ele abriga os lasers que atiram nos al
 - **O que se monta**: itens [Laser](/wiki/06-Items/Lasers.md) com os amplificadores dentro, do seu inventário: um Quantum Laser I, II ou III, um Starfire-III ou um Helios Beam. Todos os lasers disparam juntos, um tiro cada por segundo. Os amplificadores contam como em uma nave (dano, chance de crítico e dano crítico); um Penetration Amp não acrescenta nada aqui.
 - **O carregador** guarda tiros dos tipos da Impressora de munição e é enchido **só pela Impressora de munição**, nunca pelo seu inventário (veja [Montagem e munição](#fits-and-ammunition)).
 - **O portão**: uma célula de dificuldade 3, por exemplo, só pode ser acessada por um Skylab cujo Módulo de defesa esteja no nível 3 ou mais. Um Skylab sem Módulo de defesa só pode atravessar o espaço vazio e o seu porto.
-- **O orçamento de abates** é o máximo que o Skylab pode ganhar por hora: 108 pontos de recompensa no nível 1 e 630 no nível 5 (veja [O que uma viagem paga](#what-a-trip-pays)).
+- **O orçamento de abates** é o máximo que o Skylab pode ganhar por hora: 216 pontos de recompensa no nível 1 e 1.260 no nível 5 (veja [O que uma viagem paga](#what-a-trip-pays)).
 - **O casco** cresce com o nível (veja [O casco, a destruição e o reparo](#the-hull-and-repair)).
 - **Pesquisa**: cada nível exige a própria tecnologia, Módulo de defesa I a V (veja a tabela acima).
 - **Energia**: 80 no nível 1, crescendo 25% por nível. Pode ser desligado, mas não enquanto o Skylab está em viagem. Um módulo desligado, em melhoria ou sem energia fica apagado: o Skylab não combate nada e passa pelas células sem lutar.
@@ -293,11 +293,11 @@ O Módulo de defesa luta pelo seu Skylab. Ele abriga os lasers que atiram nos al
 
 | Nível | Lasers | Carregador (tiros) | Orçamento de abates (pontos por hora) | Dificuldade máxima |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.500 | 108 | 1 |
-| 2 | 2 | 4.200 | 293 | 2 |
-| 3 | 3 | 16.000 | 476 | 3 |
-| 4 | 4 | 27.000 | 548 | 4 |
-| 5 | 5 | 41.000 | 630 | 5 |
+| 1 | 1 | 3.000 | 216 | 1 |
+| 2 | 2 | 8.300 | 586 | 2 |
+| 3 | 3 | 31.000 | 953 | 3 |
+| 4 | 4 | 53.000 | 1.095 | 4 |
+| 5 | 5 | 80.000 | 1.260 | 5 |
 
 | Nível | Créditos | Thulium | Placas | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ No total, os três níveis custam 3.250.000 créditos, 13.000 Thulium, 4 placas 
 A Baía de troféus guarda o que os abates do seu Skylab rendem até você coletar. Tem os níveis 1 a 20 e não exige tecnologia.
 
 - **O que guarda**: créditos, Thulium, experiência, honra e o espólio dos abates.
-- **A capacidade** é contada em **itens de espólio**: só o espólio ocupa espaço. Créditos, Thulium, experiência e honra não ocupam nenhum, por mais que os abates tragam deles (desde a 0.4.27; antes, a recompensa de um abate enchia a baía). Ela guarda 650 itens no nível 1 e 45.000 no nível 20. Um Seeker rende cerca de um item por abate, então uma baía enche cerca de dez vezes mais devagar do que enchia.
+- **A capacidade** é contada em **itens de espólio**: só o espólio ocupa espaço. Créditos, Thulium, experiência e honra não ocupam nenhum, por mais que os abates tragam deles (desde a 0.4.27; antes, a recompensa de um abate enchia a baía). Ela guarda 1.300 itens no nível 1 e 91.000 no nível 20. Um Seeker rende cerca de um item por abate, então uma baía enche cerca de dez vezes mais devagar do que enchia.
 - **Cheia**: uma baía cheia faz o Skylab **parar de atirar**: nada é abatido, pago nem contado e nenhuma munição é gasta até você coletar (o casco continua se regenerando). Uma mensagem, um aviso rápido, uma etiqueta âmbar **Baía cheia** na barra da estação, um aviso na página do Skylab e a dica da linha do Skylab na barra lateral avisam, no momento em que ela enche, também enquanto o Skylab está em viagem.
 - **Coletar** na janela Universo, com a nave pousada: créditos e Thulium vão para a sua conta, experiência e honra para o seu piloto e o espólio para o seu inventário. Duas coletas ao mesmo tempo pagam uma vez só.
 - **O espólio** é sorteado a cada abate a partir do que o alienígena solta, nunca Dark Matter, Ancient Control Units, N.I.K.E.s ou N.U.K.E.s. Ele é **não vendável**: não pode ser vendido no [Leilão](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -343,22 +343,22 @@ A Baía de troféus guarda o que os abates do seu Skylab rendem até você colet
 
 | Nível | Capacidade (itens) | Créditos | Thulium | Tempo |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (a construção) | 650 | 100.000 | 400 | – |
-| 2 | 810 | 117.500 | 470 | 15 min |
-| 5 | 1.600 | 195.000 | 780 | 34 min |
-| 10 | 4.800 | 450.000 | 1.800 | 2 h 18 min |
-| 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
-| 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
+| 1 (a construção) | 1.300 | 100.000 | 400 | – |
+| 2 | 1.600 | 117.500 | 470 | 15 min |
+| 5 | 3.200 | 195.000 | 780 | 34 min |
+| 10 | 9.700 | 450.000 | 1.800 | 2 h 18 min |
+| 15 | 30.000 | 1.025.000 | 4.100 | 9 h 14 min |
+| 20 | 91.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
 Quanto tempo uma baía leva para encher quando o Skylab ganha todo o orçamento de abates do seu nível de defesa numa célula dessa dificuldade, com o espólio que esses alienígenas rendem (uma baía menor enche mais rápido, um orçamento menor mais devagar):
 
 | Nível de defesa | Baía nível 1 | Baía nível 5 | Baía nível 10 | Baía nível 15 | Baía nível 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Peso e velocidade {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Acima das linhas, um **aviso** diz quando a viagem não renderia nada: nada para
 
 Um abate paga o que o alienígena dele paga no seu mundo: os créditos, o Thulium, a experiência e a honra dele vezes o pagamento do mundo (1, 2 e 3 em Alpha, Beta e Gamma), e o espólio dele. Nada é acrescentado: nenhum booster, nenhum premium, nenhum bônus de formação, nenhum reforço de clã e nenhuma experiência para os seus drones.
 
-Os abates por hora são o menor de três limites: os alienígenas que passam, o **orçamento de abates** do nível do seu Módulo de defesa, e o que os seus lasers e a sua munição conseguem. O orçamento é o que mantém um Skylab sem supervisão como um complemento das minas e não como um segundo emprego: 108, 293, 476, 548 e 630 pontos de recompensa por hora nos níveis de defesa 1 a 5, em que um ponto é 1 Thulium ou 200 créditos. **Uma célula paga pelo seu escalão**: um Skylab recebe o menor entre o orçamento do seu nível de defesa e o orçamento da dificuldade da célula, então um Skylab de Defesa 5 em uma célula de dificuldade 1 faz ali o que um de Defesa 1 faz.
+Os abates por hora são o menor de três limites: os alienígenas que passam, o **orçamento de abates** do nível do seu Módulo de defesa, e o que os seus lasers e a sua munição conseguem. O orçamento é o que mantém um Skylab sem supervisão como um complemento das minas e não como um segundo emprego: 216, 586, 953, 1.095 e 1.260 pontos de recompensa por hora nos níveis de defesa 1 a 5, em que um ponto é 1 Thulium ou 200 créditos. **Uma célula paga pelo seu escalão**: um Skylab recebe o menor entre o orçamento do seu nível de defesa e o orçamento da dificuldade da célula, então um Skylab de Defesa 5 em uma célula de dificuldade 1 faz ali o que um de Defesa 1 faz.
 
 O que um dia em uma célula paga no máximo (Alpha; Beta e Gamma pagam 1,6 e 2 vezes mais):
 
 | Dificuldade | Pontos de recompensa por hora | Abates por dia | Thulium por dia | Créditos por dia |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1.152 | 288.000 |
-| 2 | 293 | 469 | 3.124 | 780.911 |
-| 3 | 476 | 224 | 5.524 | 1.181.375 |
-| 4 | 548 | 86 | 5.503 | 1.528.510 |
-| 5 | 630 | 32 | 5.255 | 1.972.329 |
+| 1 | 216 | 576 | 2.304 | 576.000 |
+| 2 | 586 | 937 | 6.247 | 1.561.822 |
+| 3 | 953 | 447 | 11.047 | 2.362.749 |
+| 4 | 1.095 | 171 | 11.005 | 3.057.021 |
+| 5 | 1.260 | 63 | 10.511 | 3.944.658 |
 
-Um dia em uma célula vale cerca de duas horas de caça manual nessa célula (3,4 horas na dificuldade 4). A partir da dificuldade 3, é cerca de 30% do que uma Mina de Thulium no nível 15 do Núcleo faz em Thulium (18.240 por dia) e de 0,6 a 1,1 vezes o que uma Mina de créditos desse nível faz em créditos (1.836.000 por dia). Uma deriva de dificuldade 2 guarda menos alienígenas do que o orçamento paga e rende um pouco menos.
+Um dia em uma célula vale cerca de quatro horas de caça manual nessa célula (6,9 horas na dificuldade 4). A partir da dificuldade 3, é cerca de 60% do que uma Mina de Thulium no nível 15 do Núcleo faz em Thulium (18.240 por dia) e de 1,3 a 2,1 vezes o que uma Mina de créditos desse nível faz em créditos (1.836.000 por dia). Uma deriva de dificuldade 2 guarda menos alienígenas do que o orçamento paga e rende um pouco menos.
 
 O **espólio** de um abate é sorteado a partir do que o alienígena solta: Ship Fragments, minérios, Reinforced Hull Plates e Power Cores, e, a partir da dificuldade 5, munição Ultra Core e Experimental Fusion Core.
 

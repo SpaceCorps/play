@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Panoramica -->
 # Panoramica degli oggetti {#items-overview}
 
@@ -97,7 +97,7 @@ L’equipaggiamento porta un **incantamento**: un grado che gli permette di cont
 
 - Gli oggetti del Negozio sono sempre Standard. L’equipaggiamento che costruisci nell’Assemblaggio estrae un grado quando lo ritiri (la colonna della probabilità). Oltre a questo, il grado sale nella [Forgia](/wiki/06-Items/Forge.md), un passo alla volta; l’unico altro modo è un potenziamento di modulo nell’Assemblaggio (un Damage Amp IV, un Crit Amp IV, una cella scudo o un propulsore di tier da II a IV, un Heavy Shield Core, un Engine II o III, un Adaptive Core II o III, un Quantum Laser III, una Starfire-III, l’Helios Beam), che mantiene il grado del pezzo da cui nasce.
 - Un oggetto non contiene mai più bonus di quante statistiche ha: uno Shield Core ne ha quattro, un laser tre, un motore, un Momentum Thruster o un Nucleo adattivo due, un Impulse Thruster, un Crit Amp I, un Repair Drone o una corazza dello scafo uno (un Impulse Thruster ha solo la velocità fissa da potenziare: la Forgia non genera alcun bonus sul suo moltiplicatore di x1,017–x1,03, che varrebbe quasi nulla), gli amp critici più alti due, gli amp di danno e le celle scudo tre. Il limite del grado è il più piccolo dei due numeri. Un Penetration Amp ha una sola statistica, quindi porta un solo bonus.
-- Ogni passo della [Forgia](/wiki/06-Items/Forge.md#buffs-by-tier) riesce sempre e risveglia uno slot in più nell’oggetto, quindi un grado contiene al massimo tanti bonus (un oggetto Risonante ha due slot); un bonus entra in uno slot quando lo sintonizzi con un Echo Shard.
+- Ogni passo della [Forgia](/wiki/06-Items/Forge.md#buffs-by-tier) riesce sempre e risveglia uno slot in più nell’oggetto, quindi un grado contiene al massimo tanti bonus (un oggetto Risonante ha due slot); un bonus entra in uno slot quando lo sintonizzi con un Echo Shard o, con il 25% di probabilità a ogni passo, gratis.
 - Un bonus di **Portata** non supera mai +5%, a nessun grado.
 - I bonus restano piccoli rispetto all’oggetto di livello superiore: un Quantum Laser I al massimo fa comunque meno danno di un Quantum Laser II semplice.
 

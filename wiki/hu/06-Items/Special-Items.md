@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Különleges tárgyak -->
 # Különleges tárgyak {#special-items}
 
@@ -68,7 +68,7 @@ A ritkaság a játék szokásos skáláját követi. Hogy a fiókod egy fajtáb�
 
 - **Normáltól fölfelé.** A darab a Felemelkedett alatt bármelyik fokozaton állhat: már az első lépés, Normálról Ébredőre, is elfogad egy Badge-et.
 - **Egy lépés.** A Badge egy Normál darabból Ébredőt, egy Ébredőből Rezonánst, egy Rezonánsból Sugárzót, egy Sugárzóból Felemelkedettet csinál.
-- **A bónuszokat úgy dobja, mint a Kovácsműhely.** A darab minden bónuszát újradobja az új fokozat tartományában, és a jobbik érték marad, emellett felébreszt egy foglalatot, így egy Badge-es darab olyan, mint egy kovácsműhelyes.
+- **A bónuszokat úgy dobja, mint a Kovácsműhely.** A darab minden bónuszát újradobja az új fokozat tartományában, és a jobbik érték marad, emellett felébreszt egy foglalatot, és a fokozatemelés ingyenes bónuszát is dobja (25%-os esély), így egy Badge-es darab olyan, mint egy kovácsműhelyes.
 - **A Kovácsműhely többi szabálya érvényes.** Egy darab, amely bónuszt hordozhat; nem a tranzittárolóban; nem már Felemelkedett. A hajón lévő darab azonnal az új fokozatával hat, és megtartja az Eladható címkéjét.
 - Második gombként találod a **Fokozatemelés** mellett a Kovácsműhelyben, akkor látszik, ha van Badge-ed, és a kiválasztott darab megfelel.
 

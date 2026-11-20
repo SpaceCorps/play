@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 00ead124f51ad40e -->
+<!-- wiki-i18n source: 064e305cf560906d -->
 <!-- wiki-i18n title: Spezialgegenstände -->
 # Spezialgegenstände {#special-items}
 
@@ -68,7 +68,7 @@ Hebt **ein Ausrüstungsstück um eine Schmiede-Stufe** an. Es **gelingt immer** 
 
 - **Ab Standard.** Das Stück darf auf jeder Stufe unterhalb von Aufgestiegen stehen: Schon der erste Schritt, von Standard auf Erwacht, nimmt ein Badge.
 - **Ein Schritt.** Ein Badge macht aus einem Standard-Stück ein erwachtes, aus einem erwachten ein resonantes, aus einem resonanten ein strahlendes, aus einem strahlenden ein aufgestiegenes.
-- **Die Boni werden wie in der Schmiede gewürfelt.** Jeder Bonus, den das Stück trägt, wird im Bereich der neuen Stufe neu gewürfelt und der bessere Wert bleibt, dazu wird ein Sockel geweckt: Ein Badge-Stück ist also wie ein Schmiede-Stück.
+- **Die Boni werden wie in der Schmiede gewürfelt.** Jeder Bonus, den das Stück trägt, wird im Bereich der neuen Stufe neu gewürfelt und der bessere Wert bleibt, dazu wird ein Sockel geweckt und der kostenlose Bonus eines Aufwertens (25 % Chance) mitgewürfelt: Ein Badge-Stück ist also wie ein Schmiede-Stück.
 - **Die übrigen Regeln der Schmiede gelten.** Ein einzelnes Stück, das Boni tragen kann; nicht im Transport-Cache; nicht schon Aufgestiegen. Ein Stück auf einem Schiff wirkt sofort mit seiner neuen Stufe, und es behält sein Handelbar-Zeichen.
 - Du findest es als zweiten Knopf neben **Aufwerten** in der Schmiede, sichtbar, wenn du ein Badge besitzt und das gewählte Stück infrage kommt.
 

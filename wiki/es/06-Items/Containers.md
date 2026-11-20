@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Contenedores -->
 # Contenedores {#containers}
 
@@ -7,13 +7,13 @@
 Un **contenedor** es un hallazgo sellado de Mission Control. Cuando abres uno, el servidor saca un premio de una tabla, y la probabilidad de cada premio de esa tabla está impresa en esta página. La página Contenedores del juego muestra la misma tabla.
 
 > [!NOTE]
-> **Los contenedores son recompensas aleatorias que se ganan en el juego. Nunca se venden, y las probabilidades se publican aquí.** Ningún contenedor se puede comprar, intercambiar ni regalar.
+> **Los contenedores son recompensas aleatorias, y las probabilidades se publican aquí.** Se ganan en el juego, y ningún contenedor se vende por separado. La única excepción es el Archivo cromático, que solo contiene aspectos: Premium trae 5 de ellos con cada mes. Los días de Premium que llegan como recompensa no traen ninguno. Ningún contenedor se puede intercambiar ni regalar.
 
 ## Qué es un contenedor {#what-a-container-is}
 
-- **Ganado.** Los contenedores se ganan en el juego. No hay precio ni llave: la tienda no los vende y nadie más tampoco.
+- **Ganado.** Los contenedores se ganan en el juego. No hay precio ni llave: la tienda no los vende. La única otra vía son los 5 archivos cromáticos que Premium trae con cada mes (los días de Premium que llegan como recompensa no traen ninguno).
 - **Solo tuyo.** Un contenedor está ligado a tu cuenta. No puedes intercambiarlo, dárselo a un amigo ni ponerlo en la [Subasta](/wiki/03-Mechanics/Auction.md), y nada de lo que da un contenedor se puede poner allí tampoco.
-- **Igual para todos los pilotos.** Premium no cambia nada: no da aperturas extra ni mejores probabilidades.
+- **Igual para todos los pilotos.** Premium no da aperturas extra ni mejores probabilidades. Lo que trae Premium con cada mes son 5 archivos cromáticos, y solo contienen aspectos.
 - **Se conserva tras el reinicio.** Un contenedor que no has abierto sigue en tu cuenta cuando llega el [reinicio](/wiki/03-Mechanics/Wipe-Timeline.md). Lo que el reinicio hace con los premios está en [El reinicio](#the-wipe).
 - **Se abre en la estación.** Abres un contenedor atracado, en la página Contenedores. El servidor saca el premio cuando pulsas Abrir, y pulsar en sí no cambia nada. Lo que sí cuenta está en [Cómo se elige un premio](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ Los contenedores te llegan de estas formas:
 - Como recompensa por tu rango en el reinicio
 - En el calendario de inicio de sesión
 - Por logros
+- Con cada 30 días de Premium: 5 archivos cromáticos, que solo contienen aspectos
 
 <!-- containers-sources:end -->
 

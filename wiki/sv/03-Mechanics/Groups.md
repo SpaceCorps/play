@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f160720381107f8f -->
+<!-- wiki-i18n source: 9530756071d3a3eb -->
 <!-- wiki-i18n title: Grupper -->
 # Grupper {#groups}
 
@@ -39,7 +39,7 @@ Var och en får en del i proportion till sin **nivå**, oavsett koncern (kredite
 
 Nedskjutningens meddelande säger det: den som gjorde nedskjutningen får sin egen **BELÖNING**-rad med sin del, följd av ”Belöningarna delades med 2 gruppmedlemmar: din del är 40%”, och en kamrat som får betalt för en del läser ”*Utomjording* förintades av *pilot*; din grupps andel ger dig betalt” med beloppen. Meddelandena visas i Spelloggen.
 
-Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlådan** (byte och resurser; undantaget är en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), vars byte är en privat låda åt varje kamrat som får en del), nedskjutningen i dennes statistik och ranking, nedskjutningsräkningen för wipepoäng och drönarnas erfarenhet. Nedskjutningar av andra piloter delas inte.
+Det som stannar hos den som gjorde nedskjutningen, och bara hos den: **lastlådan** (byte och resurser; undantaget är en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot), vars byte är en privat låda åt varje kamrat som får en del), nedskjutningen i dennes statistik och ranking, nedskjutningsräkningen för wipepoäng och drönarnas erfarenhet. Nedskjutningar av andra piloter delas inte. Ännu ett undantag: när två eller fler piloter i en grupp skadade utomjordingen delas dess byte efter den skada de gjorde upp i en [personlig låda](/wiki/03-Mechanics/Cargo.md#personal-crates) för var och en av dem.
 
 ## Dela uppdrag {#sharing-missions}
 
@@ -91,9 +91,9 @@ Servern prövar varje rad mot några regler, desamma i Lokal, Global, Grupp och 
 
 - **En gräns för hur fort du skickar.** Du kan skicka **5 rader** på en gång, sedan **en rad till var 2:a sekund**, räknat tillsammans för Lokal, Global, Grupp och privata meddelanden. Skickar du en rad när ingen är kvar pausas chatten för dig: **10 sekunder** första gången, sedan **30**, **120** och **300 sekunder** vid varje upprepning inom 10 minuter efter den senaste pausen (efter 10 minuter utan paus börjar räkningen om). Medan pausen varar är knappen Skicka grå och ”Chatten pausad: 7 s” räknar ned under fältet. **Texten du skrev ligger kvar i fältet** och fältet behåller tangentbordet: vänta eller tryck **Escape**. Ett vanligt samtal når aldrig gränsen. En rad som reglerna avvisar räknas som 2 rader av ditt utrymme.
 - **200 tecken** per rad. En räknare (”150/200”) visas från 120 tecken, och en längre rad kapas.
-- **Skriftsystemen för spelets språk.** Bokstäverna i de latinska alfabeten med sina accenter (é, ß, ñ, ø, ő), kyrilliska (ryska, ukrainska och de andra), japansk, koreansk och kinesisk text, nummertecknet №, siffror, vanliga skiljetecken och tecknen ¡ ¿ « » ° £ €. Emojier, andra symboler och andra skriftsystem (grekiska, arabiska, hebreiska, thai) avvisas, och fältet tar bort dem medan du skriver eller klistrar in. Kinesisk, japansk och koreansk text kan klistras in; att skriva den med en inmatningsmetod fungerar inte i spelet än. En äldre spelserver tar bara latinska bokstäver.
+- **Skriftsystemen för spelets språk.** Bokstäverna i de latinska alfabeten med sina accenter (é, ß, ñ, ø, ő), kyrilliska (ryska, ukrainska och de andra), japansk, koreansk och kinesisk text, nummertecknet №, siffror, vanliga skiljetecken och tecknen ¡ ¿ « » ° £ €. Emojitecken, andra symboler och andra skriftsystem (grekiska, arabiska, hebreiska, thai) avvisas, och fältet tar bort dem medan du skriver eller klistrar in. En pilot med Premium väljer emojis med smileyknappen bredvid fältet, som sätter in en kod som `:fire:` i raden. Kinesisk, japansk och koreansk text kan klistras in; att skriva den med en inmatningsmetod fungerar inte i spelet än. En äldre spelserver tar bara latinska bokstäver.
 - **Inga länkar.** En rad med en webbadress, en inbjudningslänk eller en e-postadress avvisas, även när den är förklädd på de vanliga sätten. Bara ord är inga problem: ”join my discord” går iväg.
-- **Inga upprepningar.** Samma rad som din senaste, skickad igen inom 10 sekunder, avvisas, liksom en rad med samma tecken fler än 8 gånger i rad eller utan någon bokstav eller siffra.
+- **Inga upprepningar.** Samma rad som din senaste, skickad igen inom 10 sekunder, avvisas, liksom en rad med samma tecken fler än 8 gånger i rad eller utan någon bokstav eller siffra. Skrivna smileys är undantaget: en rad med bara de vanliga, till exempel `:)` `;)` `:D` `<3` `^_^`, skickas.
 
 Admins omfattas inte av reglerna, utom av de 200 tecknen. Reglerna kräver en spelserver från 0.4.9; en äldre begränsar bara Global, till 3 rader på en gång och sedan en var 2:a sekund.
 

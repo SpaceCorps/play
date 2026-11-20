@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Contenitori -->
 # Contenitori {#containers}
 
@@ -7,13 +7,13 @@
 Un **contenitore** è un ritrovamento sigillato di Mission Control. Quando ne apri uno, il server estrae un premio da una tabella, e la probabilità di ogni premio di quella tabella è stampata in questa pagina. La pagina Contenitori del gioco mostra la stessa tabella.
 
 > [!NOTE]
-> **I contenitori sono ricompense casuali guadagnate nel gioco. Non vengono mai venduti, e le probabilità sono pubblicate qui.** Nessun contenitore può essere comprato, scambiato o regalato.
+> **I contenitori sono ricompense casuali, e le probabilità sono pubblicate qui.** Si guadagnano nel gioco e nessun contenitore viene venduto da solo. L’unica eccezione è l’Archivio cromatico, che contiene solo look: Premium ne porta 5 ogni mese. I giorni di Premium che arrivano come ricompensa non ne portano. Nessun contenitore può essere scambiato o regalato.
 
 ## Cos’è un contenitore {#what-a-container-is}
 
-- **Guadagnato.** I contenitori si guadagnano nel gioco. Non c’è prezzo né chiave: il Negozio non li vende e nessun altro nemmeno.
+- **Guadagnato.** I contenitori si guadagnano nel gioco. Non c’è prezzo né chiave: il Negozio non li vende. L’unico altro modo sono i 5 archivi cromatici che Premium porta ogni mese (i giorni di Premium che arrivano come ricompensa non ne portano).
 - **Solo tuo.** Un contenitore è legato al tuo account. Non puoi scambiarlo, darlo a un amico o metterlo all’[Asta](/wiki/03-Mechanics/Auction.md), e nemmeno ciò che dà un contenitore può essere messo lì.
-- **Uguale per ogni pilota.** Premium non cambia nulla: non dà aperture in più né probabilità migliori.
+- **Uguale per ogni pilota.** Premium non dà aperture in più né probabilità migliori. Premium porta 5 archivi cromatici ogni mese, e contengono solo look.
 - **Conservato attraverso il reset.** Un contenitore che non hai aperto resta sul tuo account quando arriva il [reset](/wiki/03-Mechanics/Wipe-Timeline.md). Cosa fa il reset ai premi è sotto [Il reset](#the-wipe).
 - **Aperto alla stazione.** Apri un contenitore da attraccato, nella pagina Contenitori. Il server estrae il premio quando premi Apri, e la pressione in sé non cambia nulla. Ciò che conta è spiegato in [Come viene scelto un premio](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ I contenitori ti arrivano in questi modi:
 - Come ricompensa per il tuo rango al reset
 - Nel calendario di accesso
 - Per i traguardi
+- Con ogni 30 giorni di Premium: 5 archivi cromatici, che contengono solo look
 
 <!-- containers-sources:end -->
 

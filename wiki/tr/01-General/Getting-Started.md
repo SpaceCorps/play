@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8accc85f768c8805 -->
+<!-- wiki-i18n source: d149363100540ab0 -->
 <!-- wiki-i18n title: Başlarken -->
 # SpaceCorps’a başlarken {#getting-started-in-spacecorps}
 
@@ -84,6 +84,7 @@ SpaceCorps, özelleştirilebilir klavye düzeni kontrollerini destekler (oyun i�
 | **Birincil kısayol çubuğu** | `Digits 1 - 9` | Birincil HUD kısayol çubuğu yuvandaki eşyaları/eylemleri etkinleştirir (örneğin cephane, onarım botları). Çubuğun üstündeki seçicide (Cephane, Roketler, Ekstralar, Sarf Malzemeleri ya da Formasyonlar) bir eşyaya tıklayarak onu yuva ve tuş olmadan kullanabilirsin: yuvasına tıklamakla aynı şeyi yapar. Orada kalsın diye bir yuvaya sürükle. |
 | **İkincil kısayol çubuğu** | `Shift + Digits 1 - 9` | İkincil kısayol çubuğu yuvalarındaki eşyaları/eylemleri etkinleştirir. Satır, bir şey içerdiğinde birincilin üstünde görünür; oraya bir eşya koymak için Cephane, Roketler ya da Ekstralar seçicisini aç (ya da bir yuvayı sürükle). |
 | **Dron formasyonu** | kısayol çubuğu yuvasının tuşu | O yuvadaki formasyonu kuşanır. Onu kısayol çubuğunun Formasyonlar listesinden oraya sürükle; listede ayrıca formasyon olmayan Standart seçeneği de var. Her 2 saniyede bir değiştirebilirsin, savaşta da güvenli bölgede de; yuvalar kalan saniyeleri gösterir. Bkz. [Dron formasyonları](/wiki/03-Mechanics/Formations.md). |
+| **Emote çarkı** | `Key N` tuşunu basılı tut | İmlecin yanında bir emote halkası açılır: birine doğru kaydırıp bırak, üç saniye boyunca geminin üstünde görünür, çevrendeki pilotlar görür. Kısa bir dokunuş halkayı ikinci bir dokunuşa kadar açık bırakır. Günde on emoten var ve ikisi arasında üç saniye ara vardır; halkanın ortası onları sayar, Premium’lu bir pilotun günlük sınırı yoktur ve orada bir taç görür. Oyun kolunda sağ çubuğa bas ve Emotlar’ı seç; telefonda Eşyalar çarkında Emotlar’ı seç. Tuş **Ayarlar › Kontroller** bölümünden değiştirilir; **Ayarlar › Arayüz › Diğer pilotların emotelarını göster** diğerlerininkini gizler. |
 | **Tam ekran** | `F11` ya da `Alt + Enter` (Windows) | Kenarlıksız tam ekranı açar veya kapatır; uçuş ekranının sağ üstündeki düğme Windows ve macOS sürümlerinde aynısını yapar. Bu iki tuş sabittir ve değiştirebileceğin atamalar arasında görünmez. `Alt + Enter`, sohbette yazarken bekler. |
 | **Arayüz boyutu** | `Ctrl + Plus`, `Ctrl + Minus`, `Ctrl + 0` | Tüm arayüzü büyütür veya küçültür (%75 ile %200 arası, %10’luk adımlarla) ve %100’e geri getirir. Mac’te `Ctrl` yerine `Cmd` tuşuna bas. Aynı boyut, **Ayarlar › Arayüz › Arayüz boyutu** kaydırıcısıdır ve pilotunla birlikte kaydedilir. |
 | **Nerede yeniden doğacağını seç** | `Keys 1 - 3` | Ölüm ekranında: `1` üste, `2` en yakın portala, `3` öldüğün yere (Tehlike Sektörü’nde değil). Yukarıdaki *Ölmek ve geri dönmek* bölümüne bak. |

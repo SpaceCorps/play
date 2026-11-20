@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: 개요 -->
 # 아이템 개요 {#items-overview}
 
@@ -97,7 +97,7 @@ Goombah는 평균적으로 Cataclysite 4개, Ship Fragment 3.25개, Reinforced H
 
 - 상점 아이템은 항상 표준 등급입니다. 어셈블리에서 만든 장비는 수령할 때 등급이 정해집니다(확률 열). 그보다 높은 등급은 [대장간](/wiki/06-Items/Forge.md)에서 한 단계씩 올립니다. 유일한 다른 방법은 어셈블리의 모듈 업그레이드(Damage Amp IV, Crit Amp IV, 티어 II~IV의 실드 셀과 추진기, Heavy Shield Core, Engine II와 III, Adaptive Core II와 III, Quantum Laser III, Starfire-III, Helios Beam)이며, 이는 재료가 된 부품의 등급을 이어받습니다.
 - 아이템은 자신이 가진 능력치 수보다 많은 보너스를 가질 수 없습니다. 실드 코어는 4개, 레이저는 3개, 엔진, Momentum Thruster, 적응형 코어는 2개, Impulse Thruster, Crit Amp I, Repair Drone, 선체 장갑은 1개(Impulse Thruster는 강화할 수 있는 것이 고정 속도뿐입니다. 배율 x1.017~x1.03에는 대장간이 보너스를 붙이지 않으며, 붙여도 거의 효과가 없습니다), 상위 치명타 증폭기는 2개, 피해 증폭기와 실드 셀은 3개입니다. 등급의 한도는 두 수 중 작은 쪽입니다. Penetration Amp는 능력치가 하나뿐이므로 보너스도 하나만 가집니다.
-- [대장간](/wiki/06-Items/Forge.md#buffs-by-tier)의 각 단계는 항상 성공하고 아이템의 소켓을 하나 깨우므로, 등급이 가질 수 있는 보너스 수에는 한도가 있습니다(공명하는 등급의 아이템은 소켓이 2개). 보너스는 Echo Shard로 소켓을 조율하면 들어갑니다.
+- [대장간](/wiki/06-Items/Forge.md#buffs-by-tier)의 각 단계는 항상 성공하고 아이템의 소켓을 하나 깨우므로, 등급이 가질 수 있는 보너스 수에는 한도가 있습니다(공명하는 등급의 아이템은 소켓이 2개). 보너스는 Echo Shard로 소켓을 조율하거나, 각 단계에서 25% 확률로 무료로 붙으면 들어갑니다.
 - **사거리** 보너스는 어느 등급에서도 +5%를 넘지 않습니다.
 - 보너스는 바로 위 단계 아이템에 비하면 작습니다. 보너스를 최대로 채운 Quantum Laser I도 평범한 Quantum Laser II보다 피해량이 낮습니다.
 

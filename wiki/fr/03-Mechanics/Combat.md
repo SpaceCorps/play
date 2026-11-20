@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: Combat -->
 # Mécaniques de combat {#combat-mechanics}
 
@@ -75,7 +75,7 @@ Les récompenses d’un alien vont au pilote qui l’a touché en premier, pas �
 - **Le voir** : quand vous sélectionnez un alien qu’un autre pilote a revendiqué, la fenêtre Cible affiche *Revendiqué par* ce pilote et *Aucune récompense*.
 - Les [pilotes de corporation](/wiki/03-Mechanics/Company-Pilots.md) ne revendiquent jamais un alien, et un alien qu’ils achèvent paie quand même le pilote qui détient sa revendication.
 - Un pilote en [groupe](/wiki/03-Mechanics/Groups.md) partage ce que sa revendication rapporte avec les membres du groupe qui sont proches et qui tirent ; la revendication elle-même n’appartient qu’à lui.
-- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md), les Dormant Pulses et les [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) font exception** : un boss d’essaim, chaque Dormant Pulse et chaque Clan Warden paient selon les dégâts que chaque pilote leur a infligés, pas selon le premier coup, et leur caisse de cargaison va au pilote qui a infligé le plus de dégâts ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Les autres suivants, les Pirate Scouts et les Seeker Slaves, paient selon la revendication, comme tout alien. Les points PvE d’un vaisseau d’essaim sont sur la page Essaims.
+- **Les meneurs des [essaims](/wiki/05-Swarms/Swarms.md), les Dormant Pulses et les [Clan Wardens](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) font exception** : un boss d’essaim, chaque Dormant Pulse et chaque Clan Warden paient selon les dégâts que chaque pilote leur a infligés, pas selon le premier coup, et leur caisse de cargaison va au pilote qui a infligé le plus de dégâts ([comment paie l’élimination d’un boss](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). Les autres suivants, les Pirate Scouts et les Seeker Slaves, paient selon la revendication, comme tout alien. Les points PvE d’un vaisseau d’essaim sont sur la page Essaims. Quand le groupe de celui qui a infligé le plus de dégâts compte au moins deux pilotes qui ont endommagé le boss, sa caisse est répartie en une caisse personnelle pour chacun d’eux ([Cargaison](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

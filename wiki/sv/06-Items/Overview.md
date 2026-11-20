@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Översikt -->
 # Översikt över föremål {#items-overview}
 
@@ -97,7 +97,7 @@ Utrustning har en **förtrollning**: en nivå som låter den rymma upp till någ
 
 - Butiksföremål är alltid Standard. Utrustning du bygger i Monteringen slumpar en nivå när du hämtar den (kolumnen Chans). Över det höjs nivån i [Smedjan](/wiki/06-Items/Forge.md), ett steg i taget; det enda andra sättet är en modulupgradering i Monteringen (en Damage Amp IV, en Crit Amp IV, en sköldcell eller styrraket på nivå II till IV, en Heavy Shield Core, en Engine II eller III, en Adaptive Core II eller III, en Quantum Laser III, en Starfire-III, Helios Beam), som behåller nivån hos delen den görs av.
 - Ett föremål rymmer aldrig fler bonusar än det har värden: en sköldkärna har fyra, en laser tre, en motor, en Momentum Thruster eller en Adaptive Core två, en Impulse Thruster, en Crit Amp I, en Repair Drone eller ett skrovpansar bara en (en Impulse Thruster har bara sin fasta fart att förstärka: Smedjan slumpar ingen bonus på dess multiplikator på x1,017 till x1,03, som vore värd nästan ingenting), de högre kritförstärkarna två, skadeförstärkarna och sköldcellerna tre. Nivåns gräns är det mindre av de två talen. En Penetration Amp har bara ett värde och rymmer därför en bonus.
-- Varje steg i [Smedjan](/wiki/06-Items/Forge.md#buffs-by-tier) lyckas alltid och väcker ytterligare en sockel i föremålet, så en nivå rymmer högst så många bonusar (ett föremål på nivån Resonant har två socklar); en bonus hamnar i en sockel när du stämmer den med en Echo Shard.
+- Varje steg i [Smedjan](/wiki/06-Items/Forge.md#buffs-by-tier) lyckas alltid och väcker ytterligare en sockel i föremålet, så en nivå rymmer högst så många bonusar (ett föremål på nivån Resonant har två socklar); en bonus hamnar i en sockel när du stämmer den med en Echo Shard eller, med 25 % chans vid varje steg, gratis.
 - En bonus på **Räckvidd** går aldrig över +5 %, på någon nivå.
 - Bonusar förblir små jämfört med nästa föremål uppåt: en maxad Quantum Laser I gör fortfarande mindre skada än en Quantum Laser II utan bonusar.
 

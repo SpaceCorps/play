@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8080c9f730b8647a -->
+<!-- wiki-i18n source: bf737868ee14ecc2 -->
 <!-- wiki-i18n title: Genel bakış -->
 # Eşyalara genel bakış {#items-overview}
 
@@ -97,7 +97,7 @@ Ekipman bir **büyüleme** taşır: ekipmanın en fazla birkaç **bonus** barın
 
 - Mağaza eşyaları her zaman Standart kademededir. Montaj’da ürettiğin ekipman, topladığında bir kademe alır (şans sütunu). Bunun üstüne kademe [Demirhane](/wiki/06-Items/Forge.md)’de birer adımla yükselir; tek diğer yol, Montaj’daki bir modül yükseltmesidir (bir Damage Amp IV, bir Crit Amp IV, II. ile IV. kademe bir kalkan hücresi ya da itici, bir Heavy Shield Core, bir Engine II ya da III, bir Adaptive Core II ya da III, bir Quantum Laser III, bir Starfire-III, Helios Beam); bu, yapıldığı parçanın kademesini korur.
 - Bir eşya, özellik sayısından fazla bonus taşımaz: kalkan çekirdeği için dört, lazer için üç, motor, Momentum Thruster ya da Adaptive Core için iki, Impulse Thruster, Crit Amp I, Repair Drone ya da Hull Plating için bir (Impulse Thruster için bonus alınacak yer sabit hızıdır: Demirhane, x1,017 ile x1,03 arasındaki çarpanına bonus çıkarmaz, çünkü bu hemen hemen hiçbir değer taşımazdı), daha yüksek kademeli Crit Amp eşyaları için iki, Damage Amp eşyaları ve kalkan hücreleri için üç. Kademenin sınırı, iki sayıdan küçük olanıdır. Penetration Amp tek özellikli olduğundan tek bonus taşır.
-- [Demirhane](/wiki/06-Items/Forge.md#buffs-by-tier) her adımı her zaman başarılı olur ve eşyada bir yuvayı daha uyandırır; bu yüzden bir kademe en fazla bu kadar bonus taşır (Rezonanslı kademedeki bir eşyanın iki yuvası vardır); bir bonus, onu bir Echo Shard ile ayarladığında yuvaya girer.
+- [Demirhane](/wiki/06-Items/Forge.md#buffs-by-tier) her adımı her zaman başarılı olur ve eşyada bir yuvayı daha uyandırır; bu yüzden bir kademe en fazla bu kadar bonus taşır (Rezonanslı kademedeki bir eşyanın iki yuvası vardır); bir bonus, onu bir Echo Shard ile ayarladığında ya da her adımda %25 şansla ücretsiz olarak yuvaya girer.
 - Bir **Menzil** bonusu, hangi kademede olursa olsun asla +%5’i geçmez.
 - Bonuslar bir üst eşyanın yanında küçük kalır: en üst düzeye çıkarılmış bir Quantum Laser I, sade bir Quantum Laser II lazerinden yine de daha az hasar verir.
 

@@ -146,7 +146,7 @@ Bir patron, bir uzaylının büyütülmüş gemisidir; geçidin ya da dünyanın
 | **Elite Crystalys** | Gamma Foundry | 620.000 | 250.000 | 3.800–4.700 |
 | **Siege Construct** | Delta Siege | 1.150.000 | 1.730.000 | 3.400–4.200 |
 | **Omega Guardian** | Omega Vault | 1.340.000 | 840.000 | 2.600–3.200 |
-| **Evil Davidski** | Davidski's Nightmare | 550.000 | 660.000 | 2.600–3.200 |
+| **Evil Davidski** | Davidski's Nightmare | 5.500.000 | 6.600.000 | 7.800–9.600 |
 
 | Patron | Faz | Kalan gövde | Ne yapar |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ Bir patron, bir uzaylının büyütülmüş gemisidir; geçidin ya da dünyanın
 | **Omega Guardian** | Shield Fortress | %100 ile %70 | Kalkanı, patronun kendi kalkanının ×1,5 katına ayarlanır. 40 sn aralıkla 6 Bulwark çağırır, en çok 12 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
 |  | Swarm Protocol | %70 ile %35 | 25 sn aralıkla 12 Phantasm çağırır, en çok 24 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. 30 sn aralıkla 140.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
 |  | Overload | %35 ile %0 | Kalkanı, patronun kendi kalkanının ×0,1 katına ayarlanır. Tüm hasarı ×2,5. Fazda 2 dk geçince tüm hasarı bir ×2 daha olur. 25 sn aralıkla 28.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. |
-| **Evil Davidski** | Evil Davidski | %100 ile %50 | Sana 6 adet Warden Rivet II roketi atar, her biri 4.900, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 2 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 400 birim çevresindeki her şeye 11.000 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 40 sn aralıkla 5 Evil Protos çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
-|  | Angry | %50 ile %0 | Kalkanı, patronun kendi kalkanının ×0,5 katına ayarlanır. Tüm hasarı ×1,5. Fazda 8 dk geçince tüm hasarı bir ×2 daha olur. Sana 6 adet Warden Rivet III roketi atar, her biri 2.600, 0,4 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye 3.400 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 45 sn aralıkla 35.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. 40 sn aralıkla 3 Evil Kitefin çağırır, en çok 6 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+| **Evil Davidski** | Evil Davidski | %100 ile %50 | Sana 6 adet Dormant Lance roketi atar, her biri 14.700, 0,5 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 2 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 400 birim çevresindeki her şeye 33.000 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 40 sn aralıkla 5 Evil Protos çağırır, en çok 10 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
+|  | Angry | %50 ile %0 | Kalkanı, patronun kendi kalkanının ×0,5 katına ayarlanır. Tüm hasarı ×1,5. Fazda 8 dk geçince tüm hasarı bir ×2 daha olur. Sana 6 adet Dormant Lance roketi atar, her biri 7.800, 0,4 sn arayla; yaylım ateşi 30 sn aralıkla tekrarlanır. 1 dk aralıkla 3 kez, her seferinde 8 meteor bırakır; her biri düştüğü yerin 420 birim çevresindeki her şeye 10.200 vurur, bunların %50 kadarı sana nişanlıdır; her daire düşmeden 3 sn önce görünür. 45 sn aralıkla 105.000 vuran bir patlama patronun 700 birim çevresindeki her şeye isabet eder; halka düşmeden 2 sn önce görünür. 40 sn aralıkla 3 Evil Kitefin çağırır, en çok 6 tanesi canlı; bir şey ödemezler ve bir şey düşürmezler. |
 
 <!-- solo-bosses:end -->
 

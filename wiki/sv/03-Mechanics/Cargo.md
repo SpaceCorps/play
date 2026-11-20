@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 05a73168e3b3eb9d -->
+<!-- wiki-i18n source: 3ea7307884a625ab -->
 <!-- wiki-i18n title: Last -->
 # Lastlådor {#cargo-boxes}
 
@@ -8,11 +8,11 @@ Förintade utomjordingar lämnar sitt byte i rymden som glödande lastlådor. Fl
 
 ## Vad som tappas {#what-drops}
 
-- **Utomjordingar** tappar sitt byte som en låda där de sprängdes: resurserna och delarna som listas under varje utomjordings *Byte* (se artiklarna om [utomjordingar](/wiki/04-Aliens/Phantasm.md)). Krediter, Thulium, XP och heder betalas ändå ut i samma stund som du skjuter ner den. En utomjording vars byte slumpas till ingenting (en Seeker fyra gånger av fem) lämnar ingen låda.
+- **Utomjordingar** tappar sitt byte som en låda där de sprängdes: resurserna och delarna som listas under varje utomjordings *Byte* (se artiklarna om [utomjordingar](/wiki/04-Aliens/Phantasm.md)). Krediter, Thulium, XP och heder betalas ändå ut i samma stund som du skjuter ner den. En utomjording vars byte slumpas till ingenting (en Seeker fyra gånger av fem) lämnar ingen låda. **En grupp som bekämpade den tillsammans får en låda för varje pilot som skadade den** (se [personliga lådor](#personal-crates)).
 - **Koncernpiloter** lämnar ingen låda när de förstörs, vem eller vad som än förstör dem. Se [Koncernpiloter](/wiki/03-Mechanics/Company-Pilots.md).
 - **Spelarskepp** lämnar inget vrak och ingen låda när de förstörs, vem eller vad som än förstör dem, och ingenting tas från pilotens inventarie.
 - **Det svarta hålet** lägger ut lådor med **Dark Matter** vid randen av sin zon för en N.I.K.E.-raket som avfyras in i det (se [Det svarta hålet](/wiki/03-Mechanics/Black-Hole.md)). De är den enda sortens låda som ligger innanför hålets ring.
-- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare (utom Tesseract) och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först.
+- **[Svärmarnas](/wiki/05-Swarms/Swarms.md) ledare (utom Tesseract) och Dormant Pulses** tappar en egen låda, med ammunition, raketer och resurser. Den är reserverad för piloten som gjorde mest skada på skeppet (och dennes klan), inte för den som träffade det först. Har pilotens [grupp](/wiki/03-Mechanics/Groups.md) två eller fler piloter som skadade skeppet delas den i stället upp i [personliga lådor](#personal-crates).
 - **En [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)** tappar ingen sådan låda: varje pilot som gjort 5 % av skadan eller mer får en egen [privat låda](#private-boxes) med sin del av bytet.
 - **[Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md)** lämnar heller ingen låda vid vraket: varje pilot som dess nedskjutning betalar får en egen [privat låda](#private-boxes) med sin del av Hull Plates, Reinforced Plates, Power Cores, Ancient Control Units och Dark Matter.
 - **[Asteroider](/wiki/03-Mechanics/Asteroid-Mining.md)** lämnar **bitar** i stället för en låda: små klimpar och kristaller med krediter och Thulium, och en sten med malm. Krediterna och Thulium betalas ut när en bit plockas upp, inte när asteroiden spricker. En bit plockas upp som en låda, och den är reserverad för piloten som den lades ut åt: i 30 sekunder kan bara den piloten ta den, inte dennes klankamrater, och sedan är den fri, som en låda.
@@ -35,15 +35,24 @@ Lådans lampor får färgen hos det sällsyntaste föremålet i den: blågrönt 
 
 ## Vem som får den {#who-gets-it}
 
-- Piloten som får betalt för nedskjutningen, och medlemmarna i den pilotens **klan**, har lådan för sig själva i **30 sekunder**. För en utomjording är det piloten som har paxet på den, den som träffade den först (se [Strid](/wiki/03-Mechanics/Combat.md)), oavsett vem som gjorde slut på den. Andra piloter ser den nedtonad och kan inte ta den än; ett skepp som skickats till den väntar i närheten tills tiden är ute. Bitarna från en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) är undantaget: under de 30 sekunderna kan bara piloten de lades ut åt ta dem, inte dennes klankamrater.
+- Piloten som får betalt för nedskjutningen, och medlemmarna i den pilotens **klan**, har lådan för sig själva i **30 sekunder**. För en utomjording är det piloten som har paxet på den, den som träffade den först (se [Strid](/wiki/03-Mechanics/Combat.md)), oavsett vem som gjorde slut på den. Andra piloter ser den nedtonad och kan inte ta den än; ett skepp som skickats till den väntar i närheten tills tiden är ute. Bitarna från en [asteroid](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules) är undantaget: under de 30 sekunderna kan bara piloten de lades ut åt ta dem, inte dennes klankamrater. De i en grupp som gjorde skada får i stället var sin egen låda ([personliga lådor](#personal-crates)).
 - Därefter får **vem som helst** på kartan ta den.
 - Bara ett skepp på lådans karta kan ta den: om du förstörs, hoppar eller loggar ut på vägen (eller under den halva sekund upplockningen tar), blir lådan kvar åt de andra.
 - Om två piloter plockar upp samma låda samtidigt får den vars upplockning blir klar först den, exakt en gång; den andra får veta att den är borta.
 - En låda som ingen tar driver bort efter **3 minuter** (den blinkar de sista 10 sekunderna). En karta rymmer högst 64 lådor; när en ny skulle gå över det försvinner den äldsta. Asteroidbitar har en egen pool inom de 64: de trycker inte bort någon annan låda, och ingen annan låda trycker bort en bit ([reglerna](/wiki/03-Mechanics/Asteroid-Mining.md#the-rules)). Lådor med Dark Matter varar i 4 minuter, och är bara dina den första minuten. Lådorna från en [jättegrävmaskin](/wiki/03-Mechanics/Giant-Excavator.md) är fria för vem som helst från det ögonblick de ligger, ligger kvar längre än en vanlig låda och har en egen pool, så de trycker aldrig ut en annan låda.
 
+## Personliga lådor {#personal-crates}
+
+När två eller fler piloter i en [grupp](/wiki/03-Mechanics/Groups.md) skadade en utomjording eller en svärmledare och gruppen har nedskjutningen slumpas dess byte fram en enda gång, som alltid, och **delas sedan upp i en låda för var och en av dem efter den skada de gjorde**: en pilot som gjorde 60 % av skadan får ungefär 60 % av varje mängd.
+
+- **Varje låda är bara sin pilots i 30 sekunder**, inte hans klans och inte hans grupps: de andra ser den nedtonad, med hans namn. Efter 30 sekunder kan vem som helst på kartan ta den, som vilken låda som helst, och den försvinner efter 3 minuter.
+- **Inget föremål kopieras någonsin.** Det som inte går att dela lika (en platta på tre piloter, en unik del) går på slump, viktat efter den skada som gjordes, till en enda pilot: en platta som slumpats fram en gång är en platta sammanlagt, och en pilot med en liten andel vinner den ibland. En pilot vars del blir ingenting får ingen låda.
+- **Bara piloter som gjorde skada.** En gruppmedlem som inte gjorde någon skada, och en pilot som förstördes eller lämnade kartan före nedskjutningen, får ingen låda; krediter, Thulium, XP och heder betalas ut som förut. En pilot som flyger ensam, eller den enda i sin grupp som gjorde skada, får som alltid den enda lådan för sig och sin klan.
+- **De ligger i en ring** runt vraket, så att du känner igen din. Personliga lådor har en egen pool vid sidan av kartans 64 (högst 128), så en grupps nedskjutning trycker aldrig ut någon annan låda.
+
 ## Privata lådor {#private-boxes}
 
-Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är inte en låda åt en pilot: **varje pilot som gjort minst 5 % av skadan får en egen låda**, slumpad för sin del (för 20 % av skadan ungefär en femtedel av varje mängd; [detaljerna](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). Bytet från [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) fungerar likadant: varje pilot som dess nedskjutning betalar får en.
+Bytet från en [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot) är inte en låda åt en pilot: **varje pilot som gjort minst 5 % av skadan får en egen låda**, slumpad för sin del (för 20 % av skadan ungefär en femtedel av varje mängd; [detaljerna](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)). Bytet från [Tesseract](/wiki/05-Swarms/Tesseract-Swarm.md) fungerar likadant: varje pilot som dess nedskjutning betalar får en. Nedskjutningens byte slumpas fram en gång och delas mellan piloterna, så inget föremål ligger någonsin i två lådor (se [personliga lådor](#personal-crates)).
 
 - **Bara du ser den och bara du kan ta den.** Din klan och din grupp ser den inte och kan inte ta den; för alla andra finns den helt enkelt inte. På din skärm har den en tunn ring under sig.
 - **Den ligger kvar i 10 minuter** från nedskjutningen, och hela tiden är den din: det finns ingen väntan på 30 sekunder. Sedan driver den iväg som vilken låda som helst. Spelloggen berättar din del av bytet när väktaren eller Tesseract faller.

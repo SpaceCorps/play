@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: ccf53b95e9202a49 -->
+<!-- wiki-i18n source: 31ee57270d0a55ab -->
 <!-- wiki-i18n title: Contêineres -->
 # Contêineres {#containers}
 
@@ -7,13 +7,13 @@
 Um **contêiner** é um achado lacrado da Mission Control. Quando você abre um, o servidor sorteia um prêmio de uma tabela, e a chance de cada prêmio dessa tabela está impressa nesta página. A página Contêineres do jogo mostra a mesma tabela.
 
 > [!NOTE]
-> **Contêineres são recompensas aleatórias conquistadas no jogo. Nunca são vendidos, e as chances são publicadas aqui.** Nenhum contêiner pode ser comprado, trocado ou dado.
+> **Contêineres são recompensas aleatórias, e as chances são publicadas aqui.** Você os conquista no jogo, e nenhum contêiner é vendido sozinho. A única exceção é o Arquivo Cromático, que só contém visuais: O Premium traz 5 deles a cada mês. Dias de Premium que chegam como recompensa não trazem nenhum. Nenhum contêiner pode ser trocado ou dado.
 
 ## O que é um contêiner {#what-a-container-is}
 
-- **Conquistado.** Você conquista contêineres no jogo. Não há preço nem chave: a loja não os vende e ninguém mais também não.
+- **Conquistado.** Você conquista contêineres no jogo. Não há preço nem chave: a loja não os vende. A única outra forma são os 5 Arquivos Cromáticos que o Premium traz a cada mês (dias de Premium que chegam como recompensa não trazem nenhum).
 - **Só seu.** Um contêiner fica preso à sua conta. Você não pode trocá-lo, dá-lo a um amigo nem colocá-lo no [Leilão](/wiki/03-Mechanics/Auction.md), e nada que um contêiner dá pode ser colocado lá também.
-- **Igual para todo piloto.** O Premium não muda nada: não dá aberturas extras nem chances melhores.
+- **Igual para todo piloto.** O Premium não dá aberturas extras nem chances melhores. O que o Premium traz a cada mês são 5 Arquivos Cromáticos, e eles só contêm visuais.
 - **Mantido através do reset.** Um contêiner que você não abriu continua na sua conta quando o [reset](/wiki/03-Mechanics/Wipe-Timeline.md) chega. O que o reset faz com os prêmios está em [O reset](#the-wipe).
 - **Aberto na estação.** Você abre um contêiner atracado, na página Contêineres. O servidor sorteia o prêmio quando você aperta Abrir, e o aperto em si não muda nada. O que conta está em [Como um prêmio é escolhido](#how-a-prize-is-chosen).
 
@@ -28,6 +28,7 @@ Os contêineres chegam até você destas formas:
 - Como recompensa pela sua patente no reset
 - No calendário de login
 - Por conquistas
+- A cada 30 dias de Premium: 5 Arquivos Cromáticos, que contêm só visuais
 
 <!-- containers-sources:end -->
 

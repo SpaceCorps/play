@@ -283,7 +283,7 @@ The Defense Module fights for your Skylab. It holds the lasers that shoot the al
 - **What fits**: [Laser](/wiki/06-Items/Lasers.md) items with their amps in them, from your inventory: a Quantum Laser I, II or III, a Starfire-III or a Helios Beam. All the lasers fire together, one round each a second. The amps count as they do on a ship (damage, crit chance and crit damage); a Penetration Amp adds nothing here.
 - **The magazine** holds rounds of the Ammo Printer's kinds and is filled **only from the Ammo Printer**, never from your inventory (see [Fits and ammunition](#fits-and-ammunition)).
 - **The gate**: a cell of difficulty 3, say, can be entered only by a Skylab whose Defense Module is at level 3 or higher. A Skylab with no Defense Module may fly through empty space and its port only.
-- **The kill budget** is the most the Skylab may earn an hour: 108 bounty points at level 1 and 630 at level 5 (see [What a trip pays](#what-a-trip-pays)).
+- **The kill budget** is the most the Skylab may earn an hour: 216 bounty points at level 1 and 1,260 at level 5 (see [What a trip pays](#what-a-trip-pays)).
 - **The hull** grows with the level (see [The hull, destruction and repair](#the-hull-and-repair)).
 - **Research**: every level needs its own technology, Defense Module I to V (see the table above).
 - **Power**: 80 at level 1, growing by 25% a level. It can be switched off, but not while the Skylab is under way. A module that is switched off, being upgraded or without power is dark: the Skylab fights nothing and passes the cells unfought.
@@ -291,11 +291,11 @@ The Defense Module fights for your Skylab. It holds the lasers that shoot the al
 
 | Level | Lasers | Magazine (rounds) | Kill budget (points an hour) | Highest difficulty |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1,500 | 108 | 1 |
-| 2 | 2 | 4,200 | 293 | 2 |
-| 3 | 3 | 16,000 | 476 | 3 |
-| 4 | 4 | 27,000 | 548 | 4 |
-| 5 | 5 | 41,000 | 630 | 5 |
+| 1 | 1 | 3,000 | 216 | 1 |
+| 2 | 2 | 8,300 | 586 | 2 |
+| 3 | 3 | 31,000 | 953 | 3 |
+| 4 | 4 | 53,000 | 1,095 | 4 |
+| 5 | 5 | 80,000 | 1,260 | 5 |
 
 | Level | Credits | Thulium | Plates | Time |
 | :--- | ---: | ---: | ---: | ---: |
@@ -332,7 +332,7 @@ In all the three levels take 3,250,000 Credits, 13,000 Thulium, 4 plates and 1 d
 The Trophies Bay keeps what your Skylab's kills bring until you collect it. It has levels 1 to 20, and it needs no technology.
 
 - **What it holds**: Credits, Thulium, experience, honor and the loot of the kills.
-- **Capacity** is counted in **loot items**: only the loot takes room. Credits, Thulium, experience and honor take none, however much of them the kills bring (since 0.4.27; before, a kill's bounty filled the Bay). It holds 650 items at level 1 and 45,000 at level 20. A Seeker brings about one item a kill, so a Bay fills about ten times more slowly than it did.
+- **Capacity** is counted in **loot items**: only the loot takes room. Credits, Thulium, experience and honor take none, however much of them the kills bring (since 0.4.27; before, a kill's bounty filled the Bay). It holds 1,300 items at level 1 and 91,000 at level 20. A Seeker brings about one item a kill, so a Bay fills about ten times more slowly than it did.
 - **Full**: a full Bay makes the Skylab **hold fire**: nothing is killed, paid or counted and no ammunition is spent until you collect (the hull still mends). A message, a toast, an amber **Bay full** pill on the station's bar, a notice on the Skylab page and the tip of the sidebar's Skylab row say so, at the moment it fills, also while the Skylab is under way.
 - **Collect** in the Universe window, with your ship landed: Credits and Thulium go to your account, experience and honor to your pilot and the loot to your inventory. Two collects at once pay once.
 - **Loot** is rolled for each kill from the alien's drops, never Dark Matter, Ancient Control Units, N.I.K.E.s or N.U.K.E.s. It is **not Marketable**: it can't be sold on the [Auction](/wiki/03-Mechanics/Auction.md#marketable-items).
@@ -341,22 +341,22 @@ The Trophies Bay keeps what your Skylab's kills bring until you collect it. It h
 
 | Level | Capacity (items) | Credits | Thulium | Time |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (the build) | 650 | 100,000 | 400 | – |
-| 2 | 810 | 117,500 | 470 | 15 min |
-| 5 | 1,600 | 195,000 | 780 | 34 min |
-| 10 | 4,800 | 450,000 | 1,800 | 2 h 18 min |
-| 15 | 15,000 | 1,025,000 | 4,100 | 9 h 14 min |
-| 20 | 45,000 | 2,325,000 | 9,300 | 1 d 13 h |
+| 1 (the build) | 1,300 | 100,000 | 400 | – |
+| 2 | 1,600 | 117,500 | 470 | 15 min |
+| 5 | 3,200 | 195,000 | 780 | 34 min |
+| 10 | 9,700 | 450,000 | 1,800 | 2 h 18 min |
+| 15 | 30,000 | 1,025,000 | 4,100 | 9 h 14 min |
+| 20 | 91,000 | 2,325,000 | 9,300 | 1 d 13 h |
 
 How long a Bay takes to fill when the Skylab earns the whole kill budget of its Defense level in a cell of that difficulty, with the loot those aliens bring (a smaller Bay fills faster, a smaller budget slower):
 
 | Defense level | Bay level 1 | Bay level 5 | Bay level 10 | Bay level 15 | Bay level 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Weight and speed
 
@@ -466,19 +466,19 @@ Over the rows a **warning** says when the trip would earn nothing: nothing to fi
 
 A kill pays what its alien pays in your world: its Credits, Thulium, experience and honor times the world's pay (1, 2 and 3 in Alpha, Beta and Gamma), and its loot. Nothing is added to it: no booster, no premium, no formation bonus, no clan boost and no experience for your drones.
 
-The kills an hour are the least of three limits: the aliens that come by, the **kill budget** of your Defense Module's level, and what your lasers and your ammunition can do. The budget is what keeps an unattended Skylab a supplement to the farms and not a second job: 108, 293, 476, 548 and 630 bounty points an hour at Defense levels 1 to 5, where a point is 1 Thulium or 200 Credits. **A cell pays by its tier**: a Skylab is paid the lower of its Defense level's budget and the budget of the cell's difficulty, so a Defense 5 Skylab in a difficulty 1 cell makes what a Defense 1 one does there.
+The kills an hour are the least of three limits: the aliens that come by, the **kill budget** of your Defense Module's level, and what your lasers and your ammunition can do. The budget is what keeps an unattended Skylab a supplement to the farms and not a second job: 216, 586, 953, 1,095 and 1,260 bounty points an hour at Defense levels 1 to 5, where a point is 1 Thulium or 200 Credits. **A cell pays by its tier**: a Skylab is paid the lower of its Defense level's budget and the budget of the cell's difficulty, so a Defense 5 Skylab in a difficulty 1 cell makes what a Defense 1 one does there.
 
 What a day in a cell pays at most (Alpha; Beta and Gamma pay 1.6 and 2 times as much):
 
 | Difficulty | Bounty points an hour | Kills a day | Thulium a day | Credits a day |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1,152 | 288,000 |
-| 2 | 293 | 469 | 3,124 | 780,911 |
-| 3 | 476 | 224 | 5,524 | 1,181,375 |
-| 4 | 548 | 86 | 5,503 | 1,528,510 |
-| 5 | 630 | 32 | 5,255 | 1,972,329 |
+| 1 | 216 | 576 | 2,304 | 576,000 |
+| 2 | 586 | 937 | 6,247 | 1,561,822 |
+| 3 | 953 | 447 | 11,047 | 2,362,749 |
+| 4 | 1,095 | 171 | 11,005 | 3,057,021 |
+| 5 | 1,260 | 63 | 10,511 | 3,944,658 |
 
-A day in a cell is worth about two hours of hunting that cell by hand (3.4 hours in difficulty 4). From difficulty 3 on it is about 30% of what a Thulium Farm of Core level 15 makes in Thulium (18,240 a day) and 0.6 to 1.1 times what a Credit Farm of that level makes in Credits (1,836,000 a day). A difficulty 2 drift holds fewer aliens than its budget pays for and makes a little less.
+A day in a cell is worth about four hours of hunting that cell by hand (6.9 hours in difficulty 4). From difficulty 3 on it is about 60% of what a Thulium Farm of Core level 15 makes in Thulium (18,240 a day) and 1.3 to 2.1 times what a Credit Farm of that level makes in Credits (1,836,000 a day). A difficulty 2 drift holds fewer aliens than its budget pays for and makes a little less.
 
 The **loot** of a kill is rolled from its alien's drops: Ship Fragments, ores, Reinforced Hull Plates and Power Cores, and from difficulty 5 Ultra Core and Experimental Fusion Core ammunition.
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: f9745ccb7164e1cb -->
+<!-- wiki-i18n source: 49bacd415901ee2e -->
 <!-- wiki-i18n title: 전투 -->
 # 전투 시스템 {#combat-mechanics}
 
@@ -75,7 +75,7 @@
 - **확인 방법**: 다른 파일럿이 선점한 외계인을 선택하면 대상 창에 *선점: (그 파일럿)*과 *보상 없음*이 표시됩니다.
 - [기업 파일럿](/wiki/03-Mechanics/Company-Pilots.md)은 외계인을 선점하지 않으며, 이들이 마무리한 외계인도 선점한 파일럿에게 보상을 줍니다.
 - [그룹](/wiki/03-Mechanics/Groups.md)에 속한 파일럿은 자신의 선점이 주는 보상을, 가까이에서 사격 중인 그룹원과 나눕니다. 선점 자체는 그 파일럿 혼자의 것입니다.
-- **[무리](/wiki/05-Swarms/Swarms.md)의 리더, Dormant Pulse, [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)은 예외입니다.** 무리의 보스, 각 Dormant Pulse, 각 Clan Warden은 첫 명중이 아니라 각 파일럿이 입힌 피해량에 따라 보상을 지급하고, 화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다([보스 처치 보상](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). 나머지 부하인 Pirate Scout와 Seeker Slave는 다른 외계인처럼 선점에 따라 보상을 지급합니다. 무리 함선의 PvE 포인트는 무리 페이지에 있습니다.
+- **[무리](/wiki/05-Swarms/Swarms.md)의 리더, Dormant Pulse, [Clan Warden](/wiki/03-Mechanics/Clans.md#warden-pay-and-loot)은 예외입니다.** 무리의 보스, 각 Dormant Pulse, 각 Clan Warden은 첫 명중이 아니라 각 파일럿이 입힌 피해량에 따라 보상을 지급하고, 화물 상자는 가장 많은 피해를 입힌 파일럿에게 돌아갑니다([보스 처치 보상](/wiki/05-Swarms/Swarms.md#how-a-boss-kill-pays)). 나머지 부하인 Pirate Scout와 Seeker Slave는 다른 외계인처럼 선점에 따라 보상을 지급합니다. 무리 함선의 PvE 포인트는 무리 페이지에 있습니다. 가장 많은 피해를 준 파일럿의 그룹에 보스에게 피해를 준 파일럿이 두 명 이상이면, 그 상자는 각자에게 개별 상자 하나씩으로 나뉩니다([화물](/wiki/03-Mechanics/Cargo.md#personal-crates)).
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- wiki-i18n source: 8bba0ea2d1f4a409 -->
+<!-- wiki-i18n source: 590bfe6edf55d4c3 -->
 <!-- wiki-i18n title: Skylab -->
 # Skylab
 
@@ -285,7 +285,7 @@ Das Verteidigungsmodul kämpft für dein Skylab. Es enthält die Laser, die die 
 - **Was passt**: [Laser](/wiki/06-Items/Lasers.md)-Gegenstände mit ihren Amps darin, aus deinem Inventar: ein Quantum Laser I, II oder III, ein Starfire-III oder ein Helios Beam. Alle Laser feuern gleichzeitig, jeder einen Schuss pro Sekunde. Die Amps zählen wie auf einem Schiff (Schaden, Krit-Chance und Krit-Schaden); ein Penetration Amp bringt hier nichts.
 - **Das Magazin** fasst Schuss der Sorten des Munitionsdruckers und wird **nur vom Munitionsdrucker** gefüllt, nie aus deinem Inventar (siehe [Einbau und Munition](#fits-and-ammunition)).
 - **Das Tor**: Eine Zelle der Schwierigkeit 3 zum Beispiel kann nur ein Skylab betreten, dessen Verteidigungsmodul auf Level 3 oder höher ist. Ein Skylab ohne Verteidigungsmodul darf nur durch leeren Raum und seinen Hafen fliegen.
-- **Das Abschussbudget** ist das Meiste, was das Skylab pro Stunde verdienen darf: 108 Kopfgeldpunkte auf Level 1 und 630 auf Level 5 (siehe [Was eine Reise zahlt](#what-a-trip-pays)).
+- **Das Abschussbudget** ist das Meiste, was das Skylab pro Stunde verdienen darf: 216 Kopfgeldpunkte auf Level 1 und 1.260 auf Level 5 (siehe [Was eine Reise zahlt](#what-a-trip-pays)).
 - **Die Hülle** wächst mit dem Level (siehe [Die Hülle, Zerstörung und Reparatur](#the-hull-and-repair)).
 - **Forschung**: Jedes Level braucht seine eigene Technologie, Verteidigungsmodul I bis V (siehe die Tabelle oben).
 - **Energie**: 80 auf Level 1, mit jedem Level 25 % mehr. Es lässt sich ausschalten, aber nicht, solange das Skylab unterwegs ist. Ein Modul, das ausgeschaltet, im Ausbau oder ohne Energie ist, ist dunkel: Das Skylab bekämpft nichts und zieht unbekämpft an den Zellen vorbei.
@@ -293,11 +293,11 @@ Das Verteidigungsmodul kämpft für dein Skylab. Es enthält die Laser, die die 
 
 | Level | Laser | Magazin (Schuss) | Abschussbudget (Punkte pro Stunde) | Höchste Schwierigkeit |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 1 | 1.500 | 108 | 1 |
-| 2 | 2 | 4.200 | 293 | 2 |
-| 3 | 3 | 16.000 | 476 | 3 |
-| 4 | 4 | 27.000 | 548 | 4 |
-| 5 | 5 | 41.000 | 630 | 5 |
+| 1 | 1 | 3.000 | 216 | 1 |
+| 2 | 2 | 8.300 | 586 | 2 |
+| 3 | 3 | 31.000 | 953 | 3 |
+| 4 | 4 | 53.000 | 1.095 | 4 |
+| 5 | 5 | 80.000 | 1.260 | 5 |
 
 | Level | Credits | Thulium | Plates | Zeit |
 | :--- | ---: | ---: | ---: | ---: |
@@ -334,7 +334,7 @@ Alle drei Level zusammen kosten 3.250.000 Credits, 13.000 Thulium, 4 Plates und 
 Die Trophäenhalle verwahrt, was die Abschüsse deines Skylab einbringen, bis du es abholst. Sie hat die Level 1 bis 20 und braucht keine Technologie.
 
 - **Was sie fasst**: Credits, Thulium, Erfahrung, Ehre und die Beute der Abschüsse.
-- **Die Kapazität** wird in **Beutegegenständen** gezählt: Nur die Beute braucht Platz. Credits, Thulium, Erfahrung und Ehre brauchen keinen, wie viel davon die Abschüsse auch bringen (seit 0.4.27; vorher füllte das Kopfgeld eines Abschusses die Halle). Sie fasst 650 Gegenstände auf Level 1 und 45.000 auf Level 20. Ein Seeker bringt etwa einen Gegenstand pro Abschuss, daher füllt sich eine Halle etwa zehnmal langsamer als vorher.
+- **Die Kapazität** wird in **Beutegegenständen** gezählt: Nur die Beute braucht Platz. Credits, Thulium, Erfahrung und Ehre brauchen keinen, wie viel davon die Abschüsse auch bringen (seit 0.4.27; vorher füllte das Kopfgeld eines Abschusses die Halle). Sie fasst 1.300 Gegenstände auf Level 1 und 91.000 auf Level 20. Ein Seeker bringt etwa einen Gegenstand pro Abschuss, daher füllt sich eine Halle etwa zehnmal langsamer als vorher.
 - **Voll**: Eine volle Halle lässt das Skylab das **Feuer einstellen**: Nichts wird abgeschossen, bezahlt oder gezählt, und keine Munition wird verbraucht, bis du abholst (die Hülle regeneriert weiter). Eine Meldung, eine kurze Einblendung, eine bernsteinfarbene Markierung **Halle voll** in der Leiste der Station, ein Hinweis auf der Skylab-Seite und der Hinweis der Skylab-Zeile in der Seitenleiste sagen es, in dem Moment, in dem sie sich füllt, auch während das Skylab unterwegs ist.
 - **Abholen** im Universum-Fenster, bei gelandetem Schiff: Credits und Thulium gehen auf dein Konto, Erfahrung und Ehre zu deinem Piloten und die Beute in dein Inventar. Zweimal gleichzeitig abgeholt wird einmal bezahlt.
 - **Beute** wird für jeden Abschuss aus den Drops des Aliens ausgewürfelt, nie Dark Matter, Ancient Control Units, N.I.K.E.s oder N.U.K.E.s. Sie ist **nicht handelbar**: Sie kann nicht in der [Auktion](/wiki/03-Mechanics/Auction.md#marketable-items) verkauft werden.
@@ -343,22 +343,22 @@ Die Trophäenhalle verwahrt, was die Abschüsse deines Skylab einbringen, bis du
 
 | Level | Kapazität (Gegenstände) | Credits | Thulium | Zeit |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 (der Bau) | 650 | 100.000 | 400 | – |
-| 2 | 810 | 117.500 | 470 | 15 min |
-| 5 | 1.600 | 195.000 | 780 | 34 min |
-| 10 | 4.800 | 450.000 | 1.800 | 2 h 18 min |
-| 15 | 15.000 | 1.025.000 | 4.100 | 9 h 14 min |
-| 20 | 45.000 | 2.325.000 | 9.300 | 1 d 13 h |
+| 1 (der Bau) | 1.300 | 100.000 | 400 | – |
+| 2 | 1.600 | 117.500 | 470 | 15 min |
+| 5 | 3.200 | 195.000 | 780 | 34 min |
+| 10 | 9.700 | 450.000 | 1.800 | 2 h 18 min |
+| 15 | 30.000 | 1.025.000 | 4.100 | 9 h 14 min |
+| 20 | 91.000 | 2.325.000 | 9.300 | 1 d 13 h |
 
 Wie lange eine Halle braucht, um sich zu füllen, wenn das Skylab das ganze Abschussbudget seines Verteidigungslevels in einer Zelle dieser Schwierigkeit verdient, mit der Beute, die diese Aliens bringen (eine kleinere Halle füllt sich schneller, ein kleineres Budget langsamer):
 
 | Verteidigungslevel | Halle Level 1 | Halle Level 5 | Halle Level 10 | Halle Level 15 | Halle Level 20 |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| 1 | 2 d 9 h | 5 d 20 h | 17 d 13 h | 54 d 20 h | 164 d 11 h |
-| 2 | 21 h 15 min | 2 d 4 h | 6 d 13 h | 20 d 10 h | 61 d 7 h |
-| 3 | 15 h 13 min | 1 d 13 h | 4 d 16 h | 14 d 15 h | 43 d 22 h |
-| 4 | 19 h 50 min | 2 d 1 h | 6 d 3 h | 19 d 2 h | 57 d 6 h |
-| 5 | 12 h 13 min | 1 d 6 h | 3 d 18 h | 11 d 18 h | 35 d 6 h |
+| 1 | 2 d 9 h | 5 d 20 h | 17 d 17 h | 54 d 20 h | 166 d 7 h |
+| 2 | 21 h 15 min | 2 d 4 h | 6 d 15 h | 20 d 10 h | 62 d |
+| 3 | 15 h 13 min | 1 d 13 h | 4 d 18 h | 14 d 15 h | 44 d 9 h |
+| 4 | 19 h 50 min | 2 d 1 h | 6 d 4 h | 19 d 2 h | 57 d 21 h |
+| 5 | 12 h 13 min | 1 d 6 h | 3 d 19 h | 11 d 18 h | 35 d 15 h |
 
 ## Gewicht und Geschwindigkeit {#weight-and-speed}
 
@@ -468,19 +468,19 @@ Was die Vorschau sagt, in der Reihenfolge ihrer Zeilen (jede Zahl ist die des Se
 
 Ein Abschuss zahlt, was sein Alien in deiner Welt zahlt: seine Credits, sein Thulium, seine Erfahrung und seine Ehre mal die Zahlung der Welt (1, 2 und 3 in Alpha, Beta und Gamma) und seine Beute. Nichts kommt hinzu: kein Booster, kein Premium, kein Formationsbonus, kein Clan-Boost und keine Erfahrung für deine Drohnen.
 
-Die Abschüsse pro Stunde sind das Kleinste von drei Limits: die vorbeikommenden Aliens, das **Abschussbudget** des Levels deines Verteidigungsmoduls und das, was deine Laser und deine Munition schaffen. Das Budget sorgt dafür, dass ein unbeaufsichtigtes Skylab eine Ergänzung der Farmen bleibt und kein zweiter Job: 108, 293, 476, 548 und 630 Kopfgeldpunkte pro Stunde auf den Verteidigungslevels 1 bis 5, wobei ein Punkt 1 Thulium oder 200 Credits sind. **Eine Zelle zahlt nach ihrer Stufe**: Ein Skylab bekommt das niedrigere aus dem Budget seines Verteidigungslevels und dem Budget der Schwierigkeit der Zelle, ein Skylab mit Verteidigung 5 in einer Zelle der Schwierigkeit 1 macht dort also, was eines mit Verteidigung 1 macht.
+Die Abschüsse pro Stunde sind das Kleinste von drei Limits: die vorbeikommenden Aliens, das **Abschussbudget** des Levels deines Verteidigungsmoduls und das, was deine Laser und deine Munition schaffen. Das Budget sorgt dafür, dass ein unbeaufsichtigtes Skylab eine Ergänzung der Farmen bleibt und kein zweiter Job: 216, 586, 953, 1.095 und 1.260 Kopfgeldpunkte pro Stunde auf den Verteidigungslevels 1 bis 5, wobei ein Punkt 1 Thulium oder 200 Credits sind. **Eine Zelle zahlt nach ihrer Stufe**: Ein Skylab bekommt das niedrigere aus dem Budget seines Verteidigungslevels und dem Budget der Schwierigkeit der Zelle, ein Skylab mit Verteidigung 5 in einer Zelle der Schwierigkeit 1 macht dort also, was eines mit Verteidigung 1 macht.
 
 Was ein Tag in einer Zelle höchstens zahlt (Alpha; Beta und Gamma zahlen das 1,6- und das 2-Fache):
 
 | Schwierigkeit | Kopfgeldpunkte pro Stunde | Abschüsse pro Tag | Thulium pro Tag | Credits pro Tag |
 | :--- | ---: | ---: | ---: | ---: |
-| 1 | 108 | 288 | 1.152 | 288.000 |
-| 2 | 293 | 469 | 3.124 | 780.911 |
-| 3 | 476 | 224 | 5.524 | 1.181.375 |
-| 4 | 548 | 86 | 5.503 | 1.528.510 |
-| 5 | 630 | 32 | 5.255 | 1.972.329 |
+| 1 | 216 | 576 | 2.304 | 576.000 |
+| 2 | 586 | 937 | 6.247 | 1.561.822 |
+| 3 | 953 | 447 | 11.047 | 2.362.749 |
+| 4 | 1.095 | 171 | 11.005 | 3.057.021 |
+| 5 | 1.260 | 63 | 10.511 | 3.944.658 |
 
-Ein Tag in einer Zelle ist etwa zwei Stunden Jagd auf diese Zelle von Hand wert (3,4 Stunden bei Schwierigkeit 4). Ab Schwierigkeit 3 sind das etwa 30 % dessen, was eine Thulium-Farm auf Kern-Level 15 an Thulium macht (18.240 pro Tag), und das 0,6- bis 1,1-Fache dessen, was eine Credit-Farm dieses Levels an Credits macht (1.836.000 pro Tag). Eine Drift der Schwierigkeit 2 hält weniger Aliens, als ihr Budget bezahlt, und macht ein wenig weniger.
+Ein Tag in einer Zelle ist etwa vier Stunden Jagd auf diese Zelle von Hand wert (6,9 Stunden bei Schwierigkeit 4). Ab Schwierigkeit 3 sind das etwa 60 % dessen, was eine Thulium-Farm auf Kern-Level 15 an Thulium macht (18.240 pro Tag), und das 1,3- bis 2,1-Fache dessen, was eine Credit-Farm dieses Levels an Credits macht (1.836.000 pro Tag). Eine Drift der Schwierigkeit 2 hält weniger Aliens, als ihr Budget bezahlt, und macht ein wenig weniger.
 
 Die **Beute** eines Abschusses wird aus den Drops seines Aliens ausgewürfelt: Ship Fragments, Erze, Reinforced Hull Plates und Power Cores und ab Schwierigkeit 5 Ultra Core- und Experimental Fusion Core-Munition.
 

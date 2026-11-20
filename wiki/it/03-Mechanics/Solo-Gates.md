@@ -146,7 +146,7 @@ Un boss è la nave di un alieno ingrandita, con uno scafo, uno scudo e una raffi
 | **Elite Crystalys** | Gamma Foundry | 620.000 | 250.000 | 3.800–4.700 |
 | **Siege Construct** | Delta Siege | 1.150.000 | 1.730.000 | 3.400–4.200 |
 | **Omega Guardian** | Omega Vault | 1.340.000 | 840.000 | 2.600–3.200 |
-| **Evil Davidski** | Davidski's Nightmare | 550.000 | 660.000 | 2.600–3.200 |
+| **Evil Davidski** | Davidski's Nightmare | 5.500.000 | 6.600.000 | 7.800–9.600 |
 
 | Boss | Fase | Scafo rimasto | Cosa fa |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ Un boss è la nave di un alieno ingrandita, con uno scafo, uno scudo e una raffi
 | **Omega Guardian** | Shield Fortress | da 100% a 70% | Il suo scudo è impostato a ×1,5 di quello proprio del boss. Ogni 40 s chiama 6 Bulwark, al massimo 12 vivi; non pagano né lasciano nulla. |
 |  | Swarm Protocol | da 70% a 35% | Ogni 25 s chiama 12 Phantasm, al massimo 24 vivi; non pagano né lasciano nulla. Ogni 30 s un’esplosione da 140.000 colpisce tutto ciò che si trova entro 700 unità dal boss; l’anello compare 2 s prima di cadere. |
 |  | Overload | da 35% a 0% | Il suo scudo è impostato a ×0,1 di quello proprio del boss. Tutto il suo danno è ×2,5. Dopo 2 min nella fase tutto il suo danno è ancora ×2. Ogni 25 s un’esplosione da 28.000 colpisce tutto ciò che si trova entro 700 unità dal boss; l’anello compare 2 s prima di cadere. |
-| **Evil Davidski** | Evil Davidski | da 100% a 50% | Ti spara 6 razzi Warden Rivet II, da 4.900 ciascuno, uno ogni 0,5 s, in una salva ogni 30 s. Ogni 1 min fa cadere 2 salve di 8 meteore, da 11.000 ciascuna su tutto ciò che si trova entro 400 unità dal punto in cui cade, 50% delle quali puntate su di te; ogni cerchio compare 3 s prima di cadere. Ogni 40 s chiama 5 Evil Protos, al massimo 10 vivi; non pagano né lasciano nulla. |
-|  | Angry | da 50% a 0% | Il suo scudo è impostato a ×0,5 di quello proprio del boss. Tutto il suo danno è ×1,5. Dopo 8 min nella fase tutto il suo danno è ancora ×2. Ti spara 6 razzi Warden Rivet III, da 2.600 ciascuno, uno ogni 0,4 s, in una salva ogni 30 s. Ogni 1 min fa cadere 3 salve di 8 meteore, da 3.400 ciascuna su tutto ciò che si trova entro 420 unità dal punto in cui cade, 50% delle quali puntate su di te; ogni cerchio compare 3 s prima di cadere. Ogni 45 s un’esplosione da 35.000 colpisce tutto ciò che si trova entro 700 unità dal boss; l’anello compare 2 s prima di cadere. Ogni 40 s chiama 3 Evil Kitefin, al massimo 6 vivi; non pagano né lasciano nulla. |
+| **Evil Davidski** | Evil Davidski | da 100% a 50% | Ti spara 6 razzi Dormant Lance, da 14.700 ciascuno, uno ogni 0,5 s, in una salva ogni 30 s. Ogni 1 min fa cadere 2 salve di 8 meteore, da 33.000 ciascuna su tutto ciò che si trova entro 400 unità dal punto in cui cade, 50% delle quali puntate su di te; ogni cerchio compare 3 s prima di cadere. Ogni 40 s chiama 5 Evil Protos, al massimo 10 vivi; non pagano né lasciano nulla. |
+|  | Angry | da 50% a 0% | Il suo scudo è impostato a ×0,5 di quello proprio del boss. Tutto il suo danno è ×1,5. Dopo 8 min nella fase tutto il suo danno è ancora ×2. Ti spara 6 razzi Dormant Lance, da 7.800 ciascuno, uno ogni 0,4 s, in una salva ogni 30 s. Ogni 1 min fa cadere 3 salve di 8 meteore, da 10.200 ciascuna su tutto ciò che si trova entro 420 unità dal punto in cui cade, 50% delle quali puntate su di te; ogni cerchio compare 3 s prima di cadere. Ogni 45 s un’esplosione da 105.000 colpisce tutto ciò che si trova entro 700 unità dal boss; l’anello compare 2 s prima di cadere. Ogni 40 s chiama 3 Evil Kitefin, al massimo 6 vivi; non pagano né lasciano nulla. |
 
 <!-- solo-bosses:end -->
 

@@ -146,7 +146,7 @@ Um chefe é a nave de um alienígena aumentada, com um casco, um escudo e uma ra
 | **Elite Crystalys** | Gamma Foundry | 620.000 | 250.000 | 3.800–4.700 |
 | **Siege Construct** | Delta Siege | 1.150.000 | 1.730.000 | 3.400–4.200 |
 | **Omega Guardian** | Omega Vault | 1.340.000 | 840.000 | 2.600–3.200 |
-| **Evil Davidski** | Davidski's Nightmare | 550.000 | 660.000 | 2.600–3.200 |
+| **Evil Davidski** | Davidski's Nightmare | 5.500.000 | 6.600.000 | 7.800–9.600 |
 
 | Chefe | Fase | Casco restante | O que faz |
 | :--- | :--- | :--- | :--- |
@@ -159,8 +159,8 @@ Um chefe é a nave de um alienígena aumentada, com um casco, um escudo e uma ra
 | **Omega Guardian** | Shield Fortress | 100% a 70% | O escudo dele é ajustado para ×1,5 do próprio do chefe. A cada 40 s ele chama 6 Bulwark, no máximo 12 vivos; não pagam nem soltam nada. |
 |  | Swarm Protocol | 70% a 35% | A cada 25 s ele chama 12 Phantasm, no máximo 24 vivos; não pagam nem soltam nada. A cada 30 s uma explosão de 140.000 atinge tudo a até 700 unidades do chefe; o anel aparece 2 s antes de cair. |
 |  | Overload | 35% a 0% | O escudo dele é ajustado para ×0,1 do próprio do chefe. Todo o dano dele é ×2,5. Depois de 2 min na fase, todo o dano dele é mais ×2. A cada 25 s uma explosão de 28.000 atinge tudo a até 700 unidades do chefe; o anel aparece 2 s antes de cair. |
-| **Evil Davidski** | Evil Davidski | 100% a 50% | Ele dispara 6 foguetes Warden Rivet II contra você, de 4.900 cada, um a cada 0,5 s, em uma saraivada a cada 30 s. A cada 1 min ele faz cair 2 saraivadas de 8 meteoros, de 11.000 cada sobre tudo a até 400 unidades de onde caem, 50% deles mirados em você; cada círculo aparece 3 s antes de cair. A cada 40 s ele chama 5 Evil Protos, no máximo 10 vivos; não pagam nem soltam nada. |
-|  | Angry | 50% a 0% | O escudo dele é ajustado para ×0,5 do próprio do chefe. Todo o dano dele é ×1,5. Depois de 8 min na fase, todo o dano dele é mais ×2. Ele dispara 6 foguetes Warden Rivet III contra você, de 2.600 cada, um a cada 0,4 s, em uma saraivada a cada 30 s. A cada 1 min ele faz cair 3 saraivadas de 8 meteoros, de 3.400 cada sobre tudo a até 420 unidades de onde caem, 50% deles mirados em você; cada círculo aparece 3 s antes de cair. A cada 45 s uma explosão de 35.000 atinge tudo a até 700 unidades do chefe; o anel aparece 2 s antes de cair. A cada 40 s ele chama 3 Evil Kitefin, no máximo 6 vivos; não pagam nem soltam nada. |
+| **Evil Davidski** | Evil Davidski | 100% a 50% | Ele dispara 6 foguetes Dormant Lance contra você, de 14.700 cada, um a cada 0,5 s, em uma saraivada a cada 30 s. A cada 1 min ele faz cair 2 saraivadas de 8 meteoros, de 33.000 cada sobre tudo a até 400 unidades de onde caem, 50% deles mirados em você; cada círculo aparece 3 s antes de cair. A cada 40 s ele chama 5 Evil Protos, no máximo 10 vivos; não pagam nem soltam nada. |
+|  | Angry | 50% a 0% | O escudo dele é ajustado para ×0,5 do próprio do chefe. Todo o dano dele é ×1,5. Depois de 8 min na fase, todo o dano dele é mais ×2. Ele dispara 6 foguetes Dormant Lance contra você, de 7.800 cada, um a cada 0,4 s, em uma saraivada a cada 30 s. A cada 1 min ele faz cair 3 saraivadas de 8 meteoros, de 10.200 cada sobre tudo a até 420 unidades de onde caem, 50% deles mirados em você; cada círculo aparece 3 s antes de cair. A cada 45 s uma explosão de 105.000 atinge tudo a até 700 unidades do chefe; o anel aparece 2 s antes de cair. A cada 40 s ele chama 3 Evil Kitefin, no máximo 6 vivos; não pagam nem soltam nada. |
 
 <!-- solo-bosses:end -->
 
