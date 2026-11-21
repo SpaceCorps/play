@@ -18,12 +18,17 @@
 .st-state::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--good); flex: none; }
 .st-state.down { color: var(--text); }
 .st-state.down::before { background: var(--bad); }
+.st-state.plain::before { display: none; }
+.st-now-note { grid-column: 1 / -1; margin: 0; align-self: center; }
 
 .st-range { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 14px; }
-.st-range button { font: 500 14px var(--font); min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-2); cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s; }
-.st-range button:hover { color: var(--text); border-color: var(--text-2); }
-.st-range button[aria-pressed="true"] { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
-.st-range button:focus-visible, .st-plot:focus-visible, .st-table summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.st-view { display: grid; gap: 10px; margin: 0 0 16px; }
+.st-view[hidden], .st-pills[hidden] { display: none; }
+.st-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.st-range button, .st-pills button { font: 500 14px var(--font); min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-2); cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+.st-range button:hover, .st-pills button:hover { color: var(--text); border-color: var(--text-2); }
+.st-range button[aria-pressed="true"], .st-pills button[aria-pressed="true"] { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
+.st-range button:focus-visible, .st-pills button:focus-visible, .st-plot:focus-visible, .st-table summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .st-card { margin: 0; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius-card); padding: clamp(14px, 2.4vw, 24px); }
 .st-card figcaption { font: 500 13px var(--mono); color: var(--text-2); margin: 0 0 10px; min-height: 1.3em; }
@@ -59,7 +64,14 @@
 
 @media (max-width: 520px) {
   .st-page { padding-top: 36px; }
-  .st-range button { min-height: 38px; padding: 0 13px; font-size: 13.5px; }
+  /* up to seven tiles in the platform view: the server first, then the platforms three to a row */
+  .st-now.by-platform { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .st-now.by-platform .st-tile { padding: 10px; }
+  .st-now.by-platform .st-tile:first-child { grid-column: 1 / -1; }
+  .st-now.by-platform .st-name { font-size: 12px; gap: 6px; }
+  .st-now.by-platform .st-key { width: 10px; }
+  .st-now.by-platform .st-value { font-size: 26px; }
+  .st-range button, .st-pills button { min-height: 38px; padding: 0 13px; font-size: 13.5px; }
   .st-plot { min-height: 240px; }
 }
-@media (prefers-reduced-motion: reduce) { .st-plot, .st-range button { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .st-plot, .st-range button, .st-pills button { transition: none; } }

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Players online · SpaceCorps 2027</title>
-<meta name="description" content="How many pilots are online on the SpaceCorps 2027 game servers: now, today, this week and month, the last 3 months, the last year and since the very beginning.">
+<meta name="description" content="How many pilots are online on the SpaceCorps 2027 game servers, and on which platform (Steam, desktop, iOS, Android): now, today, this week and month, the last 3 months, the last year and since the very beginning.">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src https://spacecorps.tech; base-uri 'none'; form-action 'none'">
 <meta name="color-scheme" content="dark">
@@ -38,6 +38,13 @@
   <p class="lede">Pilots connected to the SpaceCorps 2027 game servers, recorded every minute. <a href="../">Download the game</a> and add yourself.</p>
 
   <section class="st-root" id="status" data-endpoint="https://spacecorps.tech/api/status/series" aria-label="Players online over time">
+    <div class="st-view" id="st-view" hidden>
+      <div class="st-pills" role="group" aria-label="What to show">
+        <button type="button" data-view="server" aria-pressed="true">By server</button>
+        <button type="button" data-view="platform" aria-pressed="false">By platform</button>
+      </div>
+      <div class="st-pills" id="st-scope" role="group" aria-label="Which server" hidden></div>
+    </div>
     <div class="st-now" id="st-now" aria-live="polite"></div>
     <div class="st-range" role="group" aria-label="Time range">
       <button type="button" data-range="day" aria-pressed="true">Today</button>

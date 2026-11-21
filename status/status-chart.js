@@ -145,3 +145,68 @@ export function nearest(ts, t) {
 export function fmtNum(v) {
   return v >= 10 || Number.isInteger(v) ? String(Math.round(v)) : v.toFixed(1);
 }
+
+/** What a point on the platform view is called. */
+export const PLATFORM_NAMES = {
+  steam: "Steam",
+  desktop: "Desktop",
+  ios: "iOS",
+  android: "Android",
+  web: "Web",
+  unknown: "Unknown",
+};
+
+/**
+ * What the chart draws, from the answer of the plain view: the total as an area, a line per server, and
+ * the times at which some server was not up. `color(id, i)` gives a line its colour.
+ * A line is { id, name, color, pts: [[t, mean, peak, up_share], ...] }.
+ */
+export function serverModel(json, color) {
+  const down = new Set();
+  for (const [id, pts] of Object.entries(json.series))
+    if (id !== "total") for (const p of pts) if (p[3] < 1) down.add(p[0]);
+  return {
+    kind: "server",
+    step: json.step,
+    from: json.from,
+    totalName: "All servers",
+    total: json.series.total ?? [],
+    lines: json.servers
+      .filter((s) => s.id !== "total")
+      .map((s, i) => ({ id: s.id, name: s.name, color: color(s.id, i), pts: json.series[s.id] ?? [] })),
+    down: [...down].sort((a, b) => a - b),
+  };
+}
+
+/**
+ * The same, from the answer of `by=platform`, for one server (`scope`) or all of them (`"total"`): a line
+ * per client, and the sum of the clients as the area. The points are [t, mean, peak, 1]: whether a server
+ * was down comes from `json.down`, not from the points.
+ */
+export function platformModel(json, scope, color) {
+  const mine = json.series[scope] ?? {};
+  const lines = (json.platforms ?? []).map((id) => ({
+    id,
+    name: PLATFORM_NAMES[id] ?? id,
+    color: color(id),
+    pts: (mine[id] ?? []).map(([t, mean, peak]) => [t, mean, peak, 1]),
+  }));
+  const sum = new Map();
+  for (const l of lines) for (const [t, mean] of l.pts) sum.set(t, (sum.get(t) ?? 0) + mean);
+  const total = [...sum]
+    .sort((a, b) => a[0] - b[0])
+    .map(([t, v]) => [t, Math.round(v * 10) / 10, Math.round(v * 10) / 10, 1]);
+  const ids = scope === "total" ? Object.keys(json.down ?? {}).filter((id) => id !== "total") : [scope];
+  const down = new Set();
+  for (const id of ids) for (const [t] of json.down?.[id] ?? []) down.add(t);
+  const server = (json.servers ?? []).find((s) => s.id === scope);
+  return {
+    kind: "platform",
+    step: json.step,
+    from: json.from,
+    totalName: scope === "total" ? "All servers" : (server?.name ?? scope),
+    total,
+    lines,
+    down: [...down].sort((a, b) => a - b),
+  };
+}
