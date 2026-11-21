@@ -1,0 +1,65 @@
+/* The Server status page: the download site's look (../style.css gives the colours, the top bar, the footer);
+   this file is what only this page needs. The chart is drawn by status.js. */
+
+.st-page { max-width: 920px; margin: 0 auto; padding: 56px var(--gutter) 0; }
+.st-page h1 { font-size: clamp(36px, 6vw, 52px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
+.st-page .lede { max-width: 640px; color: var(--text-2); margin-top: 8px; }
+
+/* Series colours follow the server, never its rank (the game's dark palette, validated on --surface).
+   The total is drawn in the text colour. */
+.st-root { --st-ink: var(--text); --st-c1: #3987e5; --st-c2: #d95926; --st-c3: #199e70; --st-c4: #eda100; --st-c5: #e87ba4; --st-c6: #9085e9; margin-top: 32px; }
+
+.st-now { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.st-tile { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius-card); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
+.st-name { display: flex; align-items: center; gap: 8px; font: 500 13px/1.3 var(--mono); color: var(--text-2); }
+.st-key { flex: none; width: 16px; height: 0; border-top: 2.5px solid var(--c); border-radius: 2px; }
+.st-value { font: 700 clamp(28px, 4vw, 38px)/1.1 var(--font-display); letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.st-state { font: 500 12px/1.3 var(--mono); color: var(--text-3); display: flex; align-items: center; gap: 6px; }
+.st-state::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--good); flex: none; }
+.st-state.down { color: var(--text); }
+.st-state.down::before { background: var(--bad); }
+
+.st-range { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 14px; }
+.st-range button { font: 500 14px var(--font); min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-2); cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s; }
+.st-range button:hover { color: var(--text); border-color: var(--text-2); }
+.st-range button[aria-pressed="true"] { background: var(--accent-soft); color: var(--text); border-color: var(--accent); }
+.st-range button:focus-visible, .st-plot:focus-visible, .st-table summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.st-card { margin: 0; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius-card); padding: clamp(14px, 2.4vw, 24px); }
+.st-card figcaption { font: 500 13px var(--mono); color: var(--text-2); margin: 0 0 10px; min-height: 1.3em; }
+.st-plot { position: relative; touch-action: pan-y; transition: opacity 0.15s; min-height: 260px; border-radius: 8px; }
+.st-plot.busy { opacity: 0.6; }
+.st-plot svg { overflow: visible; }
+.st-plot .grid { stroke: var(--hairline); stroke-width: 1; }
+.st-plot .axis { stroke: var(--border); stroke-width: 1; }
+.st-plot .tick { fill: var(--text-3); font: 400 11px var(--mono); }
+.st-plot .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.st-plot .area { fill: rgba(245, 244, 239, 0.07); }
+.st-plot .down { fill: #eb5757; fill-opacity: 0.18; }
+.st-plot .cross { stroke: var(--text-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.st-plot .dot { stroke: var(--surface); stroke-width: 2; }
+.st-msg { margin: 0; padding: 80px 12px; text-align: center; color: var(--text-2); }
+.st-tip { position: absolute; pointer-events: none; background: var(--elevated); color: var(--text); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6); font-size: 13px; min-width: 170px; z-index: 2; }
+.st-tip[hidden] { display: none; }
+.st-tip-time { font: 500 12px var(--mono); color: var(--text-3); margin-bottom: 6px; }
+.st-tip-row { display: flex; align-items: center; gap: 8px; line-height: 1.7; }
+.st-tip-name { color: var(--text-2); flex: 1; }
+.st-tip-val { font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.st-note { margin: 12px 2px 0; font: 400 12.5px/1.55 var(--mono); color: var(--text-3); }
+.st-legend-down { display: inline-block; width: 12px; height: 12px; border-radius: 2px; background: #eb5757; opacity: 0.4; vertical-align: -1px; margin-right: 6px; }
+
+.st-table { margin-top: 16px; }
+.st-table summary { cursor: pointer; font: 500 13.5px var(--mono); color: var(--text-2); padding: 8px 0; }
+.st-table summary:hover { color: var(--text); }
+.st-table > div { max-height: 420px; overflow: auto; border: 1px solid var(--hairline); border-radius: var(--radius-control); margin-top: 8px; }
+.st-table table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.st-table th, .st-table td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--hairline); white-space: nowrap; color: var(--text-2); }
+.st-table th { position: sticky; top: 0; background: var(--surface); font: 600 12px var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--text); }
+.st-table .num { text-align: right; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 520px) {
+  .st-page { padding-top: 36px; }
+  .st-range button { min-height: 38px; padding: 0 13px; font-size: 13.5px; }
+  .st-plot { min-height: 240px; }
+}
+@media (prefers-reduced-motion: reduce) { .st-plot, .st-range button { transition: none; } }

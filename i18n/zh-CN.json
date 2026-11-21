@@ -11,6 +11,7 @@
   "nav.help": "帮助",
   "nav.wiki": "维基",
   "nav.patchnotes": "更新日志",
+  "nav.status": "服务器状态",
   "nav.support": "支持我们",
 
   "lang.button": "语言：{language}",

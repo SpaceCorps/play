@@ -11,6 +11,7 @@
   "nav.help": "도움말",
   "nav.wiki": "위키",
   "nav.patchnotes": "패치 노트",
+  "nav.status": "서버 상태",
   "nav.support": "후원",
 
   "lang.button": "언어: {language}",
