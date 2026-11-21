@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Players online · SpaceCorps 2027</title>
+<meta name="description" content="How many pilots are online on the SpaceCorps 2027 game servers: now, today, this week and month, the last 3 months, the last year and since the very beginning.">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src https://spacecorps.tech; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141312">
+<link rel="canonical" href="https://play.spacecorps.tech/status/">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="status.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../" aria-label="SpaceCorps 2027, the download page">
+      <img src="../img/icon-128.png" width="28" height="28" alt="">
+      <span class="brand-name">SpaceCorps <span class="brand-year">2027</span></span>
+    </a>
+    <nav class="nav" aria-label="Pages">
+      <a href="../">Download</a>
+      <a href="../wiki.html">Wiki</a>
+      <a href="../patchnotes.html">Patch notes</a>
+      <a href="./" aria-current="page">Server status</a>
+    </nav>
+  </div>
+</header>
+
+<main class="st-page" id="top">
+  <p class="eyebrow">Live</p>
+  <h1>Players online</h1>
+  <p class="lede">Pilots connected to the SpaceCorps 2027 game servers, recorded every minute. <a href="../">Download the game</a> and add yourself.</p>
+
+  <section class="st-root" id="status" data-endpoint="https://spacecorps.tech/api/status/series" aria-label="Players online over time">
+    <div class="st-now" id="st-now" aria-live="polite"></div>
+    <div class="st-range" role="group" aria-label="Time range">
+      <button type="button" data-range="day" aria-pressed="true">Today</button>
+      <button type="button" data-range="week" aria-pressed="false">Week</button>
+      <button type="button" data-range="month" aria-pressed="false">Month</button>
+      <button type="button" data-range="quarter" aria-pressed="false">3 months</button>
+      <button type="button" data-range="year" aria-pressed="false">Year</button>
+      <button type="button" data-range="all" aria-pressed="false">All time</button>
+    </div>
+    <figure class="st-card">
+      <figcaption id="st-caption"></figcaption>
+      <div class="st-plot" id="st-plot" tabindex="0" role="group" aria-label="Line chart of players online per server. Use the left and right arrow keys to read values, or open the table below."><p class="st-msg">Loading&hellip;</p></div>
+      <p class="st-note" id="st-note"></p>
+      <p class="st-note"><span class="st-legend-down"></span>A red band marks a time when a server was down or updating.</p>
+    </figure>
+    <details class="st-table"><summary>Show as table</summary><div id="st-table"></div></details>
+    <noscript><p class="st-note">The chart needs JavaScript. The numbers behind it are at <a href="https://spacecorps.tech/api/status/series?range=day">spacecorps.tech/api/status/series</a>.</p></noscript>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="../img/icon-128.png" width="24" height="24" alt="">
+      <span>SpaceCorps © 2026</span>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere">
+      <a href="../">Download</a>
+      <a href="../privacy/">Privacy</a>
+      <a href="https://discord.gg/VjW67tkrTb">Discord</a>
+      <a href="https://github.com/SpaceCorps/play/issues">Report a problem</a>
+    </nav>
+    <p class="footer-note">No cookies, no trackers. This page asks the SpaceCorps status service, a read-only list of player counts, for its numbers; it sends nothing about you.</p>
+  </div>
+</footer>
+
+<script type="module" src="status.js"></script>
+</body>
+</html>

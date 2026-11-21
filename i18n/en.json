@@ -21,6 +21,8 @@
   "@nav.wiki": "Top bar link to the game wiki and pilot codex.",
   "nav.patchnotes": "Patch notes",
   "@nav.patchnotes": "Top bar link to the patch notes page (and the footer's): short, it shares the row with the other section links.",
+  "nav.status": "Server status",
+  "@nav.status": "Top bar link (and the footer's) to the page with the number of pilots online on each game server over time: short, it shares the row with the other section links. The pill next to it, status.pill.*, links there too.",
   "nav.support": "Support project",
   "@nav.support": "Top bar link to the Premium page, where players can support the developers: one or two words (it shares the row with the other section links). The footer link uses the same text.",
 

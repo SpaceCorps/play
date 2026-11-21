@@ -97,6 +97,9 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://play.spacecorps.tech/status/</loc>
+  </url>
+  <url>
     <loc>https://play.spacecorps.tech/privacy/</loc>
   </url>
   <url>
