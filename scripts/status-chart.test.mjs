@@ -1,7 +1,19 @@
 // Tests of the status page's chart helpers (status/status-chart.js). No dependencies: `node --test scripts/`.
 import assert from "node:assert/strict";
 import test from "node:test";
-import { fmtNum, nearest, pathOf, runs, stepLabel, tickLabel, timeTicks, yScale } from "../status/status-chart.js";
+import {
+  PLATFORM_NAMES,
+  fmtNum,
+  nearest,
+  pathOf,
+  platformModel,
+  runs,
+  serverModel,
+  stepLabel,
+  tickLabel,
+  timeTicks,
+  yScale,
+} from "../status/status-chart.js";
 
 test("yScale starts at 0 and gives a round top at most five intervals high", () => {
   assert.deepEqual(yScale(0), { step: 1, top: 1, ticks: [0, 1] });
@@ -78,4 +90,84 @@ test("nearest finds the closest time", () => {
 
 test("fmtNum keeps small means readable", () => {
   assert.deepEqual([0, 3, 3.14, 12.6, 1234.4].map(fmtNum), ["0", "3", "3.1", "13", "1234"]);
+});
+
+test("serverModel draws a line per server, the total as the area, and marks the buckets with downtime", () => {
+  const json = {
+    step: 300,
+    from: 1000,
+    servers: [{ id: "total", name: "All servers" }, { id: "home", name: "Helsinki" }, { id: "sg", name: "Singapore" }],
+    series: {
+      total: [[1000, 5, 6, 1], [1300, 4, 5, 1]],
+      home: [[1000, 5, 6, 1], [1300, 4, 5, 1]],
+      sg: [[1000, 0, 0, 0.4], [1300, 0, 0, 1]],
+    },
+  };
+  const m = serverModel(json, (id, i) => `${id}#${i}`);
+  assert.equal(m.kind, "server");
+  assert.deepEqual(m.lines.map((l) => [l.id, l.name, l.color]), [["home", "Helsinki", "home#0"], ["sg", "Singapore", "sg#1"]]);
+  assert.equal(m.total.length, 2);
+  assert.deepEqual(m.down, [1000]);
+  assert.equal(m.totalName, "All servers");
+});
+
+const SPLIT = {
+  by: "platform",
+  step: 60,
+  from: 600,
+  platforms: ["steam", "desktop", "ios", "android", "unknown"],
+  servers: [{ id: "total", name: "All servers" }, { id: "home", name: "Helsinki" }, { id: "sg", name: "Singapore" }],
+  series: {
+    total: {
+      steam: [[600, 21, 21], [660, 20.5, 22]],
+      desktop: [[600, 11, 11], [660, 10, 12]],
+      ios: [[600, 0, 0], [660, 0, 0]],
+      android: [[600, 1, 1], [660, 1, 1]],
+      unknown: [[600, 3, 3], [660, 3, 3]],
+    },
+    home: {
+      steam: [[600, 20, 20], [660, 20, 20]],
+      desktop: [[600, 9, 9], [660, 9, 9]],
+      ios: [[600, 0, 0], [660, 0, 0]],
+      android: [[600, 1, 1], [660, 1, 1]],
+      unknown: [[600, 2, 2], [660, 2, 2]],
+    },
+  },
+  down: { home: [[660, 0.5]], sg: [[600, 0]], total: [[660, 0]] },
+};
+
+test("platformModel draws a line per platform and the sum as the area", () => {
+  const m = platformModel(SPLIT, "total", (id) => `c-${id}`);
+  assert.equal(m.kind, "platform");
+  assert.deepEqual(m.lines.map((l) => [l.id, l.name, l.color]), [
+    ["steam", "Steam", "c-steam"],
+    ["desktop", "Desktop", "c-desktop"],
+    ["ios", "iOS", "c-ios"],
+    ["android", "Android", "c-android"],
+    ["unknown", "Unknown", "c-unknown"],
+  ]);
+  assert.deepEqual(m.total, [[600, 36, 36, 1], [660, 34.5, 34.5, 1]]);
+  assert.deepEqual(m.lines[0].pts, [[600, 21, 21, 1], [660, 20.5, 22, 1]]);
+  assert.equal(m.totalName, "All servers");
+  assert.deepEqual(m.down, [600, 660], "all servers: the downtime of any server, not the total's own row twice");
+});
+
+test("platformModel for one server uses that server's series and downtime only", () => {
+  const m = platformModel(SPLIT, "home", () => "x");
+  assert.equal(m.totalName, "Helsinki");
+  assert.deepEqual(m.total[0], [600, 32, 32, 1]);
+  assert.deepEqual(m.down, [660]);
+});
+
+test("a server that did not report has no points, never zeros", () => {
+  const m = platformModel(SPLIT, "sg", () => "x");
+  assert.deepEqual(m.total, []);
+  assert.ok(m.lines.every((l) => l.pts.length === 0));
+  assert.deepEqual(m.down, [600]);
+  const none = platformModel({ ...SPLIT, series: {}, down: {}, since: null }, "total", () => "x");
+  assert.deepEqual(none.total, []);
+});
+
+test("every platform has a name for the page", () => {
+  assert.deepEqual(Object.keys(PLATFORM_NAMES), ["steam", "desktop", "ios", "android", "web", "unknown"]);
 });
